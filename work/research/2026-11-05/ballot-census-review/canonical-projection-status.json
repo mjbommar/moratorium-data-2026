@@ -2,13 +2,13 @@
   "schema_version": "1.0.0",
   "reviewed_as_of": "2026-11-05",
   "reviewer": "coordinator",
-  "canonical_snapshot": "a06a38e5c85ecf6d505cccf5fa36f8b5d501da7c90096edb40a03f595e202302",
+  "canonical_snapshot": "af91d0dc59f691283b4bdbab8741572349c0a172ec28fd8641208544d950b7f0",
   "groups_sha256": "8f5f035c37279135c7980e55ce2075721173ea3f857d969cad9500fee1b2ce1b",
   "summary": {
     "logical_groups": 56,
     "candidate_observations": 58,
-    "groups_with_scoped_canonical_publication": 10,
-    "groups_pending_candidate_review": 46
+    "groups_with_scoped_canonical_publication": 12,
+    "groups_pending_candidate_review": 44
   },
   "scope": "Reviewed explicit publication correspondences only. Does not allocate registry aliases, accept all candidate fields, establish current legal force, or prove a complete election census. Pending is not absence or rejection. Frozen v3 candidate payload remains unchanged.",
   "groups": [
@@ -324,12 +324,14 @@
           "staged_measure_id": "ballot-ca-001::bp-755b43813f85c3ed"
         }
       ],
-      "disposition": "candidate_review_pending",
-      "canonical_measure_id": null,
-      "publication_plan": null,
+      "disposition": "scoped_canonical_publication",
+      "canonical_measure_id": "4271387f-ad51-4d1b-a551-d27a09170c60",
+      "publication_plan": "work/research/2026-11-05/california-promotion/publication-plan.json",
       "primary_review_packet": "work/research/2026-11-05/california-ballot-review/review.json",
       "primary_review_packet_sha256": "23ebdc8226e2e089b85c217c51ab10b8c7e3b9ae1784de852bf67895c9aa58a3",
-      "primary_review_status": "scoped_evidence_reviewed_pending_promotion"
+      "primary_review_status": "scoped_evidence_reviewed_and_published",
+      "publication_plan_sha256": "5795d49c957c322ca8974c48983cb7fabfd44e1e7ba38d48e94dba2c5c91db66",
+      "canonical_record_sha256": "4763b5e6963aeb5e4ea733f452a90bfc79999713ede702575aa87b325e4ea099"
     },
     {
       "logical_group_id": "bp-7e46ffbc672db401",
@@ -553,12 +555,14 @@
           "staged_measure_id": "ballot-ca-001::bp-c61db186a09d54b0"
         }
       ],
-      "disposition": "candidate_review_pending",
-      "canonical_measure_id": null,
-      "publication_plan": null,
+      "disposition": "scoped_canonical_publication",
+      "canonical_measure_id": "ad8b3baf-cf43-4a4c-9cc5-c49be0c5547b",
+      "publication_plan": "work/research/2026-11-05/california-promotion/publication-plan.json",
       "primary_review_packet": "work/research/2026-11-05/california-ballot-review/review.json",
       "primary_review_packet_sha256": "23ebdc8226e2e089b85c217c51ab10b8c7e3b9ae1784de852bf67895c9aa58a3",
-      "primary_review_status": "scoped_evidence_reviewed_pending_promotion"
+      "primary_review_status": "scoped_evidence_reviewed_and_published",
+      "publication_plan_sha256": "5795d49c957c322ca8974c48983cb7fabfd44e1e7ba38d48e94dba2c5c91db66",
+      "canonical_record_sha256": "a5cf04e14396169b12d95c846fe94f863d12cdc76cddb8e3fb13bdf02636ea67"
     },
     {
       "logical_group_id": "bp-c8f47691c4f8e5b5",

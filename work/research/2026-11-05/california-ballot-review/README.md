@@ -1,10 +1,12 @@
 # California ballot evidence review
 
 Scoped primary-source review of two distinct permanent-prohibition measures.
-Neither is a new temporary moratorium row. This packet updates candidate
-evidence; canonical promotion and complete legal-status histories remain open.
-The frozen census payload is unchanged, and the correspondence ledger still
-reports ten scoped canonical publications and 46 pending groups.
+Neither is a new temporary moratorium row. This packet records the initial
+candidate-evidence review, when canonical promotion remained open and the
+correspondence ledger recorded ten scoped publications and 46 pending groups.
+The [subsequent scoped publication](../california-promotion/README.md) admits both
+groups and records twelve published / 44 pending groups. Complete legal-status
+histories remain open, and the frozen census payload is unchanged.
 
 ## Results and observation scope
 
@@ -106,5 +108,6 @@ Only the identified minutes pages received substantive review.
 
 The recovery budget used four of four fetches and one of one Exa search; known
 search cost was $0.007. The source-qualified candidate reviews are linked from
-the census correspondence ledger. They do not close canonical publication,
-full-document model extraction or current legal-force review.
+the census correspondence ledger. The subsequent publication is separately
+recorded; this review does not close full-document model extraction or current
+legal-force review.

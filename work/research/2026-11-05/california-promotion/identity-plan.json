@@ -1,0 +1,4542 @@
+{
+  "schema_version": "1.0.0",
+  "expected_sha256": "f88bc36dd2319dd8ae7e87d2f5d39dbf270c5da4584171140652cf25a6ee347c",
+  "events": [
+    {
+      "schema_version": "1.0.0",
+      "event_id": "85b8ea44-9dfe-473c-b964-fabc7c11ec04",
+      "action": "allocate",
+      "table": "jurisdictions",
+      "inputs": [],
+      "outputs": [
+        "1e1693ef-5444-4001-83e6-4b17bb9629d1"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-california-v1",
+          "source_id": "1e1693ef-5444-4001-83e6-4b17bb9629d1",
+          "record_sha256": "68d161d9dcb0101fde42470aad04f2edbea10b1a90b112e4285571fb61b856c5"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T03:52:33.930146+00:00",
+      "rationale": "Explicit reviewed California identity; no automatic entity merge or legal-force acceptance.",
+      "evidence": [
+        {
+          "url": "https://results.lavote.gov/text-results/4348",
+          "body_sha256": "3287c6eca4be5a4d5894441c3dcf9869d75737852b7bf0017d944e1989e97fe0",
+          "locator": "Scoped California source review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "707a7af3-fdd7-411a-a030-a17aa17dd0a8",
+      "action": "allocate",
+      "table": "jurisdictions",
+      "inputs": [],
+      "outputs": [
+        "fb3537c8-7c3d-45a1-812e-533ae20d4440"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-california-v1",
+          "source_id": "fb3537c8-7c3d-45a1-812e-533ae20d4440",
+          "record_sha256": "af78daad167ebe3e1d907cd1863cb241bcda1b5be04921fc89e5fb1babe9c147"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T03:52:33.930146+00:00",
+      "rationale": "Explicit reviewed California identity; no automatic entity merge or legal-force acceptance.",
+      "evidence": [
+        {
+          "url": "https://montereypark.ca.gov/DocumentCenter/View/19275/2026-R56-Certifying-Election-June-2-2026",
+          "body_sha256": "5d67d34c9336bb5f3d2946dec0e261c90d57db1e9147af0f638212af1a7accdd",
+          "locator": "Scoped California source review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "51f3c1fb-af5b-47b0-a26b-5091df338ea6",
+      "action": "allocate",
+      "table": "elections",
+      "inputs": [],
+      "outputs": [
+        "efa91d6a-1ad6-4e7a-8a97-7572b65da68b"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-california-v1",
+          "source_id": "efa91d6a-1ad6-4e7a-8a97-7572b65da68b",
+          "record_sha256": "2a2ff89617a322c119466fdef45f055da865923dc73d556e29ece6b3938b6362"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T03:52:33.930146+00:00",
+      "rationale": "Explicit reviewed California identity; no automatic entity merge or legal-force acceptance.",
+      "evidence": [
+        {
+          "url": "https://results.lavote.gov/text-results/4348",
+          "body_sha256": "3287c6eca4be5a4d5894441c3dcf9869d75737852b7bf0017d944e1989e97fe0",
+          "locator": "Scoped California source review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "9a8e6664-ff96-473e-97c2-3c5f1721e947",
+      "action": "allocate",
+      "table": "elections",
+      "inputs": [],
+      "outputs": [
+        "e89cc849-89f4-4d18-896d-bd871e9a9f51"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-california-v1",
+          "source_id": "e89cc849-89f4-4d18-896d-bd871e9a9f51",
+          "record_sha256": "44a18f4d2a62c7b7392ec72950d5390210e79a0d6d871bb7495bb9c4827313c9"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T03:52:33.930146+00:00",
+      "rationale": "Explicit reviewed California identity; no automatic entity merge or legal-force acceptance.",
+      "evidence": [
+        {
+          "url": "https://montereypark.ca.gov/DocumentCenter/View/19275/2026-R56-Certifying-Election-June-2-2026",
+          "body_sha256": "5d67d34c9336bb5f3d2946dec0e261c90d57db1e9147af0f638212af1a7accdd",
+          "locator": "Scoped California source review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "d6d9b5fb-2d6f-4c32-8c07-e628cfc54d23",
+      "action": "allocate",
+      "table": "ballot_measures",
+      "inputs": [],
+      "outputs": [
+        "4271387f-ad51-4d1b-a551-d27a09170c60"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-california-v1",
+          "source_id": "4271387f-ad51-4d1b-a551-d27a09170c60",
+          "record_sha256": "4763b5e6963aeb5e4ea733f452a90bfc79999713ede702575aa87b325e4ea099"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T03:52:33.930146+00:00",
+      "rationale": "Explicit reviewed California identity; no automatic entity merge or legal-force acceptance.",
+      "evidence": [
+        {
+          "url": "https://results.lavote.gov/text-results/4348",
+          "body_sha256": "3287c6eca4be5a4d5894441c3dcf9869d75737852b7bf0017d944e1989e97fe0",
+          "locator": "Scoped California source review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "995e312f-f280-4f3c-9b49-5ae74d0adcdd",
+      "action": "allocate",
+      "table": "ballot_measures",
+      "inputs": [],
+      "outputs": [
+        "ad8b3baf-cf43-4a4c-9cc5-c49be0c5547b"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-california-v1",
+          "source_id": "ad8b3baf-cf43-4a4c-9cc5-c49be0c5547b",
+          "record_sha256": "a5cf04e14396169b12d95c846fe94f863d12cdc76cddb8e3fb13bdf02636ea67"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T03:52:33.930146+00:00",
+      "rationale": "Explicit reviewed California identity; no automatic entity merge or legal-force acceptance.",
+      "evidence": [
+        {
+          "url": "https://montereypark.ca.gov/DocumentCenter/View/19275/2026-R56-Certifying-Election-June-2-2026",
+          "body_sha256": "5d67d34c9336bb5f3d2946dec0e261c90d57db1e9147af0f638212af1a7accdd",
+          "locator": "Scoped California source review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "dfcef0b3-a137-4a70-a0cf-921a48f75879",
+      "action": "allocate",
+      "table": "measure_provisions",
+      "inputs": [],
+      "outputs": [
+        "6712e64f-c0d0-4166-880a-d0045fc01791"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-california-v1",
+          "source_id": "6712e64f-c0d0-4166-880a-d0045fc01791",
+          "record_sha256": "986fcb1ffc1f8c6e0ec982de5dad65cfd86c4d571c4474f133b09f8969c9a934"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T03:52:33.930146+00:00",
+      "rationale": "Explicit reviewed California identity; no automatic entity merge or legal-force acceptance.",
+      "evidence": [
+        {
+          "url": "https://www.alhambraca.gov/DocumentCenter/View/8180/O2M26-4868-Ordinance-Calling-Data-Ban-Ballot-Measure-Election",
+          "body_sha256": "5fa019613df2907e3ebed1166bde3740bd921e172fafda12a1b5e74e13a5cefd",
+          "locator": "Scoped California source review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "8445b9d7-fc71-4946-a411-a90a475c77e5",
+      "action": "allocate",
+      "table": "measure_provisions",
+      "inputs": [],
+      "outputs": [
+        "6e48da49-472e-4b60-a5a1-91256723e6fc"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-california-v1",
+          "source_id": "6e48da49-472e-4b60-a5a1-91256723e6fc",
+          "record_sha256": "b31f3029e8773c5caaa55045b9da82bd014ef9a910a2690baacc6b1d015ac36a"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T03:52:33.930146+00:00",
+      "rationale": "Explicit reviewed California identity; no automatic entity merge or legal-force acceptance.",
+      "evidence": [
+        {
+          "url": "https://montereypark.ca.gov/DocumentCenter/View/19275/2026-R56-Certifying-Election-June-2-2026",
+          "body_sha256": "5d67d34c9336bb5f3d2946dec0e261c90d57db1e9147af0f638212af1a7accdd",
+          "locator": "Scoped California source review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "6ae366cb-7e1a-4b89-9279-07ee3706f386",
+      "action": "allocate",
+      "table": "measure_results",
+      "inputs": [],
+      "outputs": [
+        "46f3902e-92bc-4380-b311-cd2fe807aeca"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-california-v1",
+          "source_id": "46f3902e-92bc-4380-b311-cd2fe807aeca",
+          "record_sha256": "fca9253b1fdf592d6145703da4ef44563a44ac84d7b789d55821795047e43bc8"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T03:52:33.930146+00:00",
+      "rationale": "Explicit reviewed California identity; no automatic entity merge or legal-force acceptance.",
+      "evidence": [
+        {
+          "url": "https://results.lavote.gov/text-results/4348",
+          "body_sha256": "2d0ce44b8b4f38656d4e8c82344668634a0b72d8d35d05a35682983829d98103",
+          "locator": "Scoped California source review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "28dae57a-ef1f-4c81-98a0-88a558515aa4",
+      "action": "allocate",
+      "table": "measure_results",
+      "inputs": [],
+      "outputs": [
+        "405f8271-28f9-42dc-9de3-659b9aa74f16"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-california-v1",
+          "source_id": "405f8271-28f9-42dc-9de3-659b9aa74f16",
+          "record_sha256": "cc152faf9c75a6db5910c513830d6cbabe7461a326983dcc3fe1118f81aa8a00"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T03:52:33.930146+00:00",
+      "rationale": "Explicit reviewed California identity; no automatic entity merge or legal-force acceptance.",
+      "evidence": [
+        {
+          "url": "https://results.lavote.gov/text-results/4348",
+          "body_sha256": "3287c6eca4be5a4d5894441c3dcf9869d75737852b7bf0017d944e1989e97fe0",
+          "locator": "Scoped California source review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "712b5bc0-e10e-477c-b5a6-280d4bedffe9",
+      "action": "allocate",
+      "table": "measure_results",
+      "inputs": [],
+      "outputs": [
+        "bbe595d2-2bb8-4bce-ae92-e65d467781a3"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-california-v1",
+          "source_id": "bbe595d2-2bb8-4bce-ae92-e65d467781a3",
+          "record_sha256": "289dde1da0748939ba88ca65332c6723b0de300d266d1aa5c092269f5f7ae3cf"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T03:52:33.930146+00:00",
+      "rationale": "Explicit reviewed California identity; no automatic entity merge or legal-force acceptance.",
+      "evidence": [
+        {
+          "url": "https://montereypark.ca.gov/DocumentCenter/View/19275/2026-R56-Certifying-Election-June-2-2026",
+          "body_sha256": "5d67d34c9336bb5f3d2946dec0e261c90d57db1e9147af0f638212af1a7accdd",
+          "locator": "Scoped California source review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "7235d235-f706-4c41-b5b5-5e637883a2c5",
+      "action": "allocate",
+      "table": "source_documents",
+      "inputs": [],
+      "outputs": [
+        "b6f57e30-8c32-4abd-a8a7-5a82014f9e9c"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-california-v1",
+          "source_id": "b6f57e30-8c32-4abd-a8a7-5a82014f9e9c",
+          "record_sha256": "df6333191b6929d934001d356e83c5f561745c867951719822f0546863b89c54"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T03:52:33.930146+00:00",
+      "rationale": "Explicit reviewed California identity; no automatic entity merge or legal-force acceptance.",
+      "evidence": [
+        {
+          "url": "https://results.lavote.gov/text-results/4348",
+          "body_sha256": "2d0ce44b8b4f38656d4e8c82344668634a0b72d8d35d05a35682983829d98103",
+          "locator": "Scoped California source review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "d6479a48-e163-4621-b197-534047d41e48",
+      "action": "allocate",
+      "table": "source_documents",
+      "inputs": [],
+      "outputs": [
+        "390f8c0b-8f56-453c-a93b-eefd930056fd"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-california-v1",
+          "source_id": "390f8c0b-8f56-453c-a93b-eefd930056fd",
+          "record_sha256": "789c12ab7ba926dfbf0f1d375a86adff698720aa643e0df65319a3f2fb199dce"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T03:52:33.930146+00:00",
+      "rationale": "Explicit reviewed California identity; no automatic entity merge or legal-force acceptance.",
+      "evidence": [
+        {
+          "url": "https://results.lavote.gov/text-results/4348",
+          "body_sha256": "3287c6eca4be5a4d5894441c3dcf9869d75737852b7bf0017d944e1989e97fe0",
+          "locator": "Scoped California source review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "46a25fa8-5530-4108-aed1-d75d1de504f6",
+      "action": "allocate",
+      "table": "source_documents",
+      "inputs": [],
+      "outputs": [
+        "f05687d3-775e-4e35-a52b-2cbe0f391fdb"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-california-v1",
+          "source_id": "f05687d3-775e-4e35-a52b-2cbe0f391fdb",
+          "record_sha256": "ccb95cf3f9c921bdfaabfee5c396edfa87cb6860f787e527c3e69f55d66e7e84"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T03:52:33.930146+00:00",
+      "rationale": "Explicit reviewed California identity; no automatic entity merge or legal-force acceptance.",
+      "evidence": [
+        {
+          "url": "https://montereypark.ca.gov/DocumentCenter/View/19275/2026-R56-Certifying-Election-June-2-2026",
+          "body_sha256": "5d67d34c9336bb5f3d2946dec0e261c90d57db1e9147af0f638212af1a7accdd",
+          "locator": "Scoped California source review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "da787d3d-3a48-4748-b390-968fa3232e27",
+      "action": "allocate",
+      "table": "source_documents",
+      "inputs": [],
+      "outputs": [
+        "f9807e38-9816-4afb-bb13-a6bd617e47d1"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-california-v1",
+          "source_id": "f9807e38-9816-4afb-bb13-a6bd617e47d1",
+          "record_sha256": "5eaca6e07aeae32d7f81111e70a053d755d4092024f73b1ddb18f5b3ae87877e"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T03:52:33.930146+00:00",
+      "rationale": "Explicit reviewed California identity; no automatic entity merge or legal-force acceptance.",
+      "evidence": [
+        {
+          "url": "https://results.lavote.gov/text-results/4338",
+          "body_sha256": "685a4fc24e258a7ab8fcf8e103511a873f57145c22500695db65286b3718e443",
+          "locator": "Scoped California source review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "8ee22a07-75ea-4510-8217-4296bd8bbd68",
+      "action": "allocate",
+      "table": "source_documents",
+      "inputs": [],
+      "outputs": [
+        "3dcccb46-e603-476a-94e8-1fc059e5e710"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-california-v1",
+          "source_id": "3dcccb46-e603-476a-94e8-1fc059e5e710",
+          "record_sha256": "5d6f2f2b106b06b9f7d74891890f2fdef73c5103fedc50ec43de816bc46c9d48"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T03:52:33.930146+00:00",
+      "rationale": "Explicit reviewed California identity; no automatic entity merge or legal-force acceptance.",
+      "evidence": [
+        {
+          "url": "https://www.alhambraca.gov/DocumentCenter/View/8180/O2M26-4868-Ordinance-Calling-Data-Ban-Ballot-Measure-Election",
+          "body_sha256": "5fa019613df2907e3ebed1166bde3740bd921e172fafda12a1b5e74e13a5cefd",
+          "locator": "Scoped California source review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "853b475c-9512-48a1-ba06-af32f35b80b2",
+      "action": "allocate",
+      "table": "source_documents",
+      "inputs": [],
+      "outputs": [
+        "abdb408c-3260-4593-a147-5da2c726866c"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-california-v1",
+          "source_id": "abdb408c-3260-4593-a147-5da2c726866c",
+          "record_sha256": "8d8c437f5fe7bf0fa45f1ca8eeb4ba1b65e964298aeb4ffca68f1532666bcc1e"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T03:52:33.930146+00:00",
+      "rationale": "Explicit reviewed California identity; no automatic entity merge or legal-force acceptance.",
+      "evidence": [
+        {
+          "url": "https://www.alhambraca.gov/DocumentCenter/View/8177/Impartial-Analysis-of-Data-Center-Ban---Ballot-Measure",
+          "body_sha256": "1c4a1170cea74dedfa73a6fb54ac71b2e1ca1f504bfdb58e446986c12b4bb33b",
+          "locator": "Scoped California source review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "18b1dcd2-6ec1-42e0-8218-a9718dc70f59",
+      "action": "allocate",
+      "table": "source_documents",
+      "inputs": [],
+      "outputs": [
+        "935f1a25-54c5-47b7-bb5a-2d694558d99c"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-california-v1",
+          "source_id": "935f1a25-54c5-47b7-bb5a-2d694558d99c",
+          "record_sha256": "025c986fc318987067c4f634109719779e1881ba656b7dbf7423c688b03fd492"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T03:52:33.930146+00:00",
+      "rationale": "Explicit reviewed California identity; no automatic entity merge or legal-force acceptance.",
+      "evidence": [
+        {
+          "url": "https://www.alhambraca.gov/AgendaCenter/ViewFile/Minutes/_07272026-1609",
+          "body_sha256": "a2458ce7cd7f1a8348e11ebd7e47cf3681bed066bc8c15b1e21163146e86105e",
+          "locator": "Scoped California source review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "c1155a77-4cb6-4bf2-9ffc-2e45ce74ddc9",
+      "action": "allocate",
+      "table": "source_documents",
+      "inputs": [],
+      "outputs": [
+        "86fd8a07-f001-4131-bf06-02de1212a509"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-california-v1",
+          "source_id": "86fd8a07-f001-4131-bf06-02de1212a509",
+          "record_sha256": "8728c5a0d3a683315cc087a6077ec0477507ad47882ef950641a1214a3eed163"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T03:52:33.930146+00:00",
+      "rationale": "Explicit reviewed California identity; no automatic entity merge or legal-force acceptance.",
+      "evidence": [
+        {
+          "url": "https://www.alhambraca.gov/AgendaCenter/ViewFile/Minutes/_06222026-1593",
+          "body_sha256": "39ac9ac57ad054e1a64c701b44bac076d7bec076983b9311984df7306dbf8c79",
+          "locator": "Scoped California source review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "6c35d66f-9636-4658-8c50-899dc51726f3",
+      "action": "allocate",
+      "table": "source_documents",
+      "inputs": [],
+      "outputs": [
+        "a81c63a2-5c62-4336-bcc6-7342dc0940fb"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-california-v1",
+          "source_id": "a81c63a2-5c62-4336-bcc6-7342dc0940fb",
+          "record_sha256": "1e0cab52934d40310eb417c3138f5734eef1eba1ab05b5dcf8cb3b40e2c1ddc6"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T03:52:33.930146+00:00",
+      "rationale": "Explicit reviewed California identity; no automatic entity merge or legal-force acceptance.",
+      "evidence": [
+        {
+          "url": "https://www.montereypark.ca.gov/DocumentCenter/View/18735/2026-R6-Adding-Data-Center-Prohibition-6-2-2026",
+          "body_sha256": "7009059adf4741b78541b142cc6ae02e4b4c21425f4e2d037c43d3ea5238eadd",
+          "locator": "Scoped California source review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "dc866c2d-4cdc-4a08-90e7-0b48f0478a42",
+      "action": "allocate",
+      "table": "claims",
+      "inputs": [],
+      "outputs": [
+        "54ea4f77-4a5c-4c34-adce-f03c2299638c"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-california-v1",
+          "source_id": "54ea4f77-4a5c-4c34-adce-f03c2299638c",
+          "record_sha256": "72f4140519ec496fda39a712ff5d3da87f6d4518f239e0da6dd1f18b2d6e5996"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T03:52:33.930146+00:00",
+      "rationale": "Explicit reviewed California identity; no automatic entity merge or legal-force acceptance.",
+      "evidence": [
+        {
+          "url": "https://results.lavote.gov/text-results/4348",
+          "body_sha256": "2d0ce44b8b4f38656d4e8c82344668634a0b72d8d35d05a35682983829d98103",
+          "locator": "Scoped California source review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "f9b1a4ac-48c7-4606-a5ee-355522a44d14",
+      "action": "allocate",
+      "table": "claims",
+      "inputs": [],
+      "outputs": [
+        "485131cc-5119-4135-8038-70a141cae0ff"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-california-v1",
+          "source_id": "485131cc-5119-4135-8038-70a141cae0ff",
+          "record_sha256": "e98cbbb97d771e190bb5e561d5ff4c6154563d190f99de9599117831237ad47a"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T03:52:33.930146+00:00",
+      "rationale": "Explicit reviewed California identity; no automatic entity merge or legal-force acceptance.",
+      "evidence": [
+        {
+          "url": "https://results.lavote.gov/text-results/4348",
+          "body_sha256": "3287c6eca4be5a4d5894441c3dcf9869d75737852b7bf0017d944e1989e97fe0",
+          "locator": "Scoped California source review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "b67aea34-3d4c-4739-a407-149e40cfd077",
+      "action": "allocate",
+      "table": "claims",
+      "inputs": [],
+      "outputs": [
+        "d442c2ff-c17a-473a-be0b-9c2710fad28f"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-california-v1",
+          "source_id": "d442c2ff-c17a-473a-be0b-9c2710fad28f",
+          "record_sha256": "7acf6d24df8417742c1a72b3c1c5c6353de060538b998b70ecbda9d15928f332"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T03:52:33.930146+00:00",
+      "rationale": "Explicit reviewed California identity; no automatic entity merge or legal-force acceptance.",
+      "evidence": [
+        {
+          "url": "https://results.lavote.gov/text-results/4348",
+          "body_sha256": "3287c6eca4be5a4d5894441c3dcf9869d75737852b7bf0017d944e1989e97fe0",
+          "locator": "Scoped California source review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "0f769ec6-01f8-4109-878e-8fa8d056d026",
+      "action": "allocate",
+      "table": "claims",
+      "inputs": [],
+      "outputs": [
+        "b7404a8f-4f5c-49a9-824f-c62a021f49cf"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-california-v1",
+          "source_id": "b7404a8f-4f5c-49a9-824f-c62a021f49cf",
+          "record_sha256": "9b84cdac408e33e496f8c9b3bdf85c65408b01757e15b01b724ba3001e35526f"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T03:52:33.930146+00:00",
+      "rationale": "Explicit reviewed California identity; no automatic entity merge or legal-force acceptance.",
+      "evidence": [
+        {
+          "url": "https://results.lavote.gov/text-results/4348",
+          "body_sha256": "3287c6eca4be5a4d5894441c3dcf9869d75737852b7bf0017d944e1989e97fe0",
+          "locator": "Scoped California source review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "60c82ef2-4e64-40ec-af9c-5572e736674e",
+      "action": "allocate",
+      "table": "claims",
+      "inputs": [],
+      "outputs": [
+        "9dff7a18-fd64-4d55-9faa-f89a1c7d6696"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-california-v1",
+          "source_id": "9dff7a18-fd64-4d55-9faa-f89a1c7d6696",
+          "record_sha256": "a6d25e517e4cd48a840ec725d6801d5172621f929252cef04c77beb4541977b4"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T03:52:33.930146+00:00",
+      "rationale": "Explicit reviewed California identity; no automatic entity merge or legal-force acceptance.",
+      "evidence": [
+        {
+          "url": "https://www.alhambraca.gov/DocumentCenter/View/8180/O2M26-4868-Ordinance-Calling-Data-Ban-Ballot-Measure-Election",
+          "body_sha256": "5fa019613df2907e3ebed1166bde3740bd921e172fafda12a1b5e74e13a5cefd",
+          "locator": "Scoped California source review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "43285336-2157-4c3c-9abd-e037aefb8bea",
+      "action": "allocate",
+      "table": "claims",
+      "inputs": [],
+      "outputs": [
+        "06f61a0c-8916-4dd8-91c2-c3a158388cef"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-california-v1",
+          "source_id": "06f61a0c-8916-4dd8-91c2-c3a158388cef",
+          "record_sha256": "32f1a000bab500edce44f11f1983233186ed105994395f41ac01c5dcc981c445"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T03:52:33.930146+00:00",
+      "rationale": "Explicit reviewed California identity; no automatic entity merge or legal-force acceptance.",
+      "evidence": [
+        {
+          "url": "https://www.alhambraca.gov/DocumentCenter/View/8177/Impartial-Analysis-of-Data-Center-Ban---Ballot-Measure",
+          "body_sha256": "1c4a1170cea74dedfa73a6fb54ac71b2e1ca1f504bfdb58e446986c12b4bb33b",
+          "locator": "Scoped California source review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "47d45412-dc15-4ea6-8360-1df9ef3dc88b",
+      "action": "allocate",
+      "table": "claims",
+      "inputs": [],
+      "outputs": [
+        "76b43038-4fe0-497e-9684-67d7f394b88e"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-california-v1",
+          "source_id": "76b43038-4fe0-497e-9684-67d7f394b88e",
+          "record_sha256": "48e1560dc11bee2bff4a2fcb7fa815873199d02ea986d20f76d3ddea93a3108b"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T03:52:33.930146+00:00",
+      "rationale": "Explicit reviewed California identity; no automatic entity merge or legal-force acceptance.",
+      "evidence": [
+        {
+          "url": "https://www.alhambraca.gov/DocumentCenter/View/8177/Impartial-Analysis-of-Data-Center-Ban---Ballot-Measure",
+          "body_sha256": "1c4a1170cea74dedfa73a6fb54ac71b2e1ca1f504bfdb58e446986c12b4bb33b",
+          "locator": "Scoped California source review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "7a1f3048-376a-48e1-a990-91b1876fba3a",
+      "action": "allocate",
+      "table": "claims",
+      "inputs": [],
+      "outputs": [
+        "2fae9a93-11f8-4d54-a39b-9d63a38ee3ce"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-california-v1",
+          "source_id": "2fae9a93-11f8-4d54-a39b-9d63a38ee3ce",
+          "record_sha256": "82b9411eafe4c320cc86874a98b734ddb9aaf3e9edbed92a1223f0a192e4efb2"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T03:52:33.930146+00:00",
+      "rationale": "Explicit reviewed California identity; no automatic entity merge or legal-force acceptance.",
+      "evidence": [
+        {
+          "url": "https://www.alhambraca.gov/AgendaCenter/ViewFile/Minutes/_07272026-1609",
+          "body_sha256": "a2458ce7cd7f1a8348e11ebd7e47cf3681bed066bc8c15b1e21163146e86105e",
+          "locator": "Scoped California source review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "1a1da44f-c552-4c83-8265-7beb9ef1c611",
+      "action": "allocate",
+      "table": "claims",
+      "inputs": [],
+      "outputs": [
+        "dfbe0bc9-db67-482d-a130-32a92ea54898"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-california-v1",
+          "source_id": "dfbe0bc9-db67-482d-a130-32a92ea54898",
+          "record_sha256": "0667c3bcf1e75fb3679ef6457d0fe31a2350115edeaca9d2ec23374dca9866a0"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T03:52:33.930146+00:00",
+      "rationale": "Explicit reviewed California identity; no automatic entity merge or legal-force acceptance.",
+      "evidence": [
+        {
+          "url": "https://www.alhambraca.gov/AgendaCenter/ViewFile/Minutes/_06222026-1593",
+          "body_sha256": "39ac9ac57ad054e1a64c701b44bac076d7bec076983b9311984df7306dbf8c79",
+          "locator": "Scoped California source review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "e2e945a1-ac41-490e-b829-2305403c53e4",
+      "action": "allocate",
+      "table": "claims",
+      "inputs": [],
+      "outputs": [
+        "b2b1378d-1da2-44bf-9d1f-90b4304c4127"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-california-v1",
+          "source_id": "b2b1378d-1da2-44bf-9d1f-90b4304c4127",
+          "record_sha256": "ad04befc5050c1e9860eafd10c0d23409a580c174712d39ed402081e2e050b1e"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T03:52:33.930146+00:00",
+      "rationale": "Explicit reviewed California identity; no automatic entity merge or legal-force acceptance.",
+      "evidence": [
+        {
+          "url": "https://results.lavote.gov/text-results/4338",
+          "body_sha256": "685a4fc24e258a7ab8fcf8e103511a873f57145c22500695db65286b3718e443",
+          "locator": "Scoped California source review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "69e1531f-003c-43db-afdc-b6cc450c9f6c",
+      "action": "allocate",
+      "table": "claims",
+      "inputs": [],
+      "outputs": [
+        "f3e43270-cd39-4e6b-bda7-3039e0ecf8d7"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-california-v1",
+          "source_id": "f3e43270-cd39-4e6b-bda7-3039e0ecf8d7",
+          "record_sha256": "419192663206c7784b85e59a2467f95e742b45da6dd8f765e055bf37a40a19b0"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T03:52:33.930146+00:00",
+      "rationale": "Explicit reviewed California identity; no automatic entity merge or legal-force acceptance.",
+      "evidence": [
+        {
+          "url": "https://montereypark.ca.gov/DocumentCenter/View/19275/2026-R56-Certifying-Election-June-2-2026",
+          "body_sha256": "5d67d34c9336bb5f3d2946dec0e261c90d57db1e9147af0f638212af1a7accdd",
+          "locator": "Scoped California source review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "da64ffef-2481-4522-817f-90c9f993047c",
+      "action": "allocate",
+      "table": "claims",
+      "inputs": [],
+      "outputs": [
+        "2d81a84e-7760-4973-9ebb-10a888f53474"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-california-v1",
+          "source_id": "2d81a84e-7760-4973-9ebb-10a888f53474",
+          "record_sha256": "4900077f27f2ee173d32d624f6a3e321b8fb8a8d5f437b920e6e8d7c7adca57f"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T03:52:33.930146+00:00",
+      "rationale": "Explicit reviewed California identity; no automatic entity merge or legal-force acceptance.",
+      "evidence": [
+        {
+          "url": "https://montereypark.ca.gov/DocumentCenter/View/19275/2026-R56-Certifying-Election-June-2-2026",
+          "body_sha256": "5d67d34c9336bb5f3d2946dec0e261c90d57db1e9147af0f638212af1a7accdd",
+          "locator": "Scoped California source review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "83eec447-1af0-4090-8c1d-b63174ae429b",
+      "action": "allocate",
+      "table": "claims",
+      "inputs": [],
+      "outputs": [
+        "80711815-37a1-4af8-a62c-94bb5d554b9e"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-california-v1",
+          "source_id": "80711815-37a1-4af8-a62c-94bb5d554b9e",
+          "record_sha256": "24f8f290d7560f5221ebdd8bbff667fe2e49ade9950d558fbf09054fa6c2644d"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T03:52:33.930146+00:00",
+      "rationale": "Explicit reviewed California identity; no automatic entity merge or legal-force acceptance.",
+      "evidence": [
+        {
+          "url": "https://montereypark.ca.gov/DocumentCenter/View/19275/2026-R56-Certifying-Election-June-2-2026",
+          "body_sha256": "5d67d34c9336bb5f3d2946dec0e261c90d57db1e9147af0f638212af1a7accdd",
+          "locator": "Scoped California source review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "2d3af511-e6e9-4660-92d4-bcacdee094e8",
+      "action": "allocate",
+      "table": "claims",
+      "inputs": [],
+      "outputs": [
+        "5ac9f7f0-536a-4dc5-ac2c-2d710b105975"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-california-v1",
+          "source_id": "5ac9f7f0-536a-4dc5-ac2c-2d710b105975",
+          "record_sha256": "8c1b6d8dc186e1c7ce5ac980674681048d11d4a63c6dc3d217e343142101b466"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T03:52:33.930146+00:00",
+      "rationale": "Explicit reviewed California identity; no automatic entity merge or legal-force acceptance.",
+      "evidence": [
+        {
+          "url": "https://montereypark.ca.gov/DocumentCenter/View/19275/2026-R56-Certifying-Election-June-2-2026",
+          "body_sha256": "5d67d34c9336bb5f3d2946dec0e261c90d57db1e9147af0f638212af1a7accdd",
+          "locator": "Scoped California source review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "80cfb175-ec3f-493a-af82-e7839e3c1200",
+      "action": "allocate",
+      "table": "claims",
+      "inputs": [],
+      "outputs": [
+        "5bd9edc4-e56c-47be-b51e-33d281a25346"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-california-v1",
+          "source_id": "5bd9edc4-e56c-47be-b51e-33d281a25346",
+          "record_sha256": "7a140f31630abc6e6cd973452f2d083d89d44cb9f4fb9b985b155f636e3a30d2"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T03:52:33.930146+00:00",
+      "rationale": "Explicit reviewed California identity; no automatic entity merge or legal-force acceptance.",
+      "evidence": [
+        {
+          "url": "https://montereypark.ca.gov/DocumentCenter/View/19275/2026-R56-Certifying-Election-June-2-2026",
+          "body_sha256": "5d67d34c9336bb5f3d2946dec0e261c90d57db1e9147af0f638212af1a7accdd",
+          "locator": "Scoped California source review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "3771304f-1592-4fc8-b7ad-e7996672d3e5",
+      "action": "allocate",
+      "table": "claims",
+      "inputs": [],
+      "outputs": [
+        "4fe56e61-c67a-4a3d-ba15-baeef317311d"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-california-v1",
+          "source_id": "4fe56e61-c67a-4a3d-ba15-baeef317311d",
+          "record_sha256": "ad9c63d3141e86e3e1d1295871cd91a9ec6af431695fce8ea7dacaed8599ffd5"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T03:52:33.930146+00:00",
+      "rationale": "Explicit reviewed California identity; no automatic entity merge or legal-force acceptance.",
+      "evidence": [
+        {
+          "url": "https://montereypark.ca.gov/DocumentCenter/View/19275/2026-R56-Certifying-Election-June-2-2026",
+          "body_sha256": "5d67d34c9336bb5f3d2946dec0e261c90d57db1e9147af0f638212af1a7accdd",
+          "locator": "Scoped California source review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "3caa283f-9b04-4cc6-ba8a-11283f09f60f",
+      "action": "allocate",
+      "table": "claims",
+      "inputs": [],
+      "outputs": [
+        "81847243-6eac-40f9-8df9-f96c1a0210da"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-california-v1",
+          "source_id": "81847243-6eac-40f9-8df9-f96c1a0210da",
+          "record_sha256": "4e8d087f98c7f1853fa50a59b8c420b8bb783ce15c166ece6abf1a004478593f"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T03:52:33.930146+00:00",
+      "rationale": "Explicit reviewed California identity; no automatic entity merge or legal-force acceptance.",
+      "evidence": [
+        {
+          "url": "https://montereypark.ca.gov/DocumentCenter/View/19275/2026-R56-Certifying-Election-June-2-2026",
+          "body_sha256": "5d67d34c9336bb5f3d2946dec0e261c90d57db1e9147af0f638212af1a7accdd",
+          "locator": "Scoped California source review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "22baae1d-a87a-4091-b37b-cbb44b68ff1f",
+      "action": "allocate",
+      "table": "claims",
+      "inputs": [],
+      "outputs": [
+        "6d7dff0c-1035-4d68-a32d-ae180374d94d"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-california-v1",
+          "source_id": "6d7dff0c-1035-4d68-a32d-ae180374d94d",
+          "record_sha256": "5dd6049eca623648168deeb49bc5223e31ab6427f9a36b33b996194d722b774c"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T03:52:33.930146+00:00",
+      "rationale": "Explicit reviewed California identity; no automatic entity merge or legal-force acceptance.",
+      "evidence": [
+        {
+          "url": "https://results.lavote.gov/text-results/4348",
+          "body_sha256": "3287c6eca4be5a4d5894441c3dcf9869d75737852b7bf0017d944e1989e97fe0",
+          "locator": "Scoped California source review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "f950803d-5180-465b-b1ce-04b4e9133c28",
+      "action": "allocate",
+      "table": "claims",
+      "inputs": [],
+      "outputs": [
+        "382b0040-9bc7-4a9b-b083-bc782fe37c85"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-california-v1",
+          "source_id": "382b0040-9bc7-4a9b-b083-bc782fe37c85",
+          "record_sha256": "a5a71468b6df20d6d6c3193669c9ec8d07d0183cf026f655ee5136a8785e4594"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T03:52:33.930146+00:00",
+      "rationale": "Explicit reviewed California identity; no automatic entity merge or legal-force acceptance.",
+      "evidence": [
+        {
+          "url": "https://results.lavote.gov/text-results/4348",
+          "body_sha256": "3287c6eca4be5a4d5894441c3dcf9869d75737852b7bf0017d944e1989e97fe0",
+          "locator": "Scoped California source review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "e4865021-84ad-4114-b843-30521a3847b5",
+      "action": "allocate",
+      "table": "claims",
+      "inputs": [],
+      "outputs": [
+        "77fae177-3428-4c81-9b35-d214a8c9d851"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-california-v1",
+          "source_id": "77fae177-3428-4c81-9b35-d214a8c9d851",
+          "record_sha256": "059547b6a1d3826b59a80c9082c56a892e560e8f8ab01c2c2d21c94e962572f1"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T03:52:33.930146+00:00",
+      "rationale": "Explicit reviewed California identity; no automatic entity merge or legal-force acceptance.",
+      "evidence": [
+        {
+          "url": "https://www.alhambraca.gov/DocumentCenter/View/8180/O2M26-4868-Ordinance-Calling-Data-Ban-Ballot-Measure-Election",
+          "body_sha256": "5fa019613df2907e3ebed1166bde3740bd921e172fafda12a1b5e74e13a5cefd",
+          "locator": "Scoped California source review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "3a7389e2-340f-43f1-b55d-dff0fbb859ea",
+      "action": "allocate",
+      "table": "claims",
+      "inputs": [],
+      "outputs": [
+        "5d8652f8-a1b2-45a1-826c-d6912ddf05df"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-california-v1",
+          "source_id": "5d8652f8-a1b2-45a1-826c-d6912ddf05df",
+          "record_sha256": "1bc5162d957c54f7c59aa2c6f72efaadec809df71f67c6f06ce5f77d4fe43acb"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T03:52:33.930146+00:00",
+      "rationale": "Explicit reviewed California identity; no automatic entity merge or legal-force acceptance.",
+      "evidence": [
+        {
+          "url": "https://montereypark.ca.gov/DocumentCenter/View/19275/2026-R56-Certifying-Election-June-2-2026",
+          "body_sha256": "5d67d34c9336bb5f3d2946dec0e261c90d57db1e9147af0f638212af1a7accdd",
+          "locator": "Scoped California source review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "db13af9b-6a8f-42b4-8cda-ed14623cef6a",
+      "action": "allocate",
+      "table": "claims",
+      "inputs": [],
+      "outputs": [
+        "002ff0e7-eba2-4eb8-9d5c-c7260d227eee"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-california-v1",
+          "source_id": "002ff0e7-eba2-4eb8-9d5c-c7260d227eee",
+          "record_sha256": "58c64d1779479b70bd6dce083dd0e220b9a06db847016cd90d05c3414d515fec"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T03:52:33.930146+00:00",
+      "rationale": "Explicit reviewed California identity; no automatic entity merge or legal-force acceptance.",
+      "evidence": [
+        {
+          "url": "https://montereypark.ca.gov/DocumentCenter/View/19275/2026-R56-Certifying-Election-June-2-2026",
+          "body_sha256": "5d67d34c9336bb5f3d2946dec0e261c90d57db1e9147af0f638212af1a7accdd",
+          "locator": "Scoped California source review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "4f005ec3-76f7-4537-9030-9796e231d247",
+      "action": "allocate",
+      "table": "claims",
+      "inputs": [],
+      "outputs": [
+        "e2d90791-ae9d-4d68-8b06-285373b8bd0a"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-california-v1",
+          "source_id": "e2d90791-ae9d-4d68-8b06-285373b8bd0a",
+          "record_sha256": "cc5309d4ec7e49f14b3df2129143441210523fafdd40d4c16490e0ecd32b599e"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T03:52:33.930146+00:00",
+      "rationale": "Explicit reviewed California identity; no automatic entity merge or legal-force acceptance.",
+      "evidence": [
+        {
+          "url": "https://www.montereypark.ca.gov/DocumentCenter/View/18735/2026-R6-Adding-Data-Center-Prohibition-6-2-2026",
+          "body_sha256": "7009059adf4741b78541b142cc6ae02e4b4c21425f4e2d037c43d3ea5238eadd",
+          "locator": "Scoped California source review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "66c23651-71d7-4dbd-a213-cade7e42de95",
+      "action": "allocate",
+      "table": "claims",
+      "inputs": [],
+      "outputs": [
+        "1f1a70c6-e095-49dc-aee7-55367249ad54"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-california-v1",
+          "source_id": "1f1a70c6-e095-49dc-aee7-55367249ad54",
+          "record_sha256": "c7c62807f9a0a42c5572160a0d4d5f6923f7ae1f5b87a18b6c30a32582069ad7"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T03:52:33.930146+00:00",
+      "rationale": "Explicit reviewed California identity; no automatic entity merge or legal-force acceptance.",
+      "evidence": [
+        {
+          "url": "https://www.montereypark.ca.gov/DocumentCenter/View/18735/2026-R6-Adding-Data-Center-Prohibition-6-2-2026",
+          "body_sha256": "7009059adf4741b78541b142cc6ae02e4b4c21425f4e2d037c43d3ea5238eadd",
+          "locator": "Scoped California source review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "6a5d1b34-b00f-4cf6-9244-48874b38bcbe",
+      "action": "allocate",
+      "table": "claims",
+      "inputs": [],
+      "outputs": [
+        "7227723a-dc76-4565-8b18-1b82e8ae9a3c"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-california-v1",
+          "source_id": "7227723a-dc76-4565-8b18-1b82e8ae9a3c",
+          "record_sha256": "4804e83348c3fcb33975d73d1031d0c4aee1b9917979cc0e0bb39f49ddf00840"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T03:52:33.930146+00:00",
+      "rationale": "Explicit reviewed California identity; no automatic entity merge or legal-force acceptance.",
+      "evidence": [
+        {
+          "url": "https://results.lavote.gov/text-results/4338",
+          "body_sha256": "685a4fc24e258a7ab8fcf8e103511a873f57145c22500695db65286b3718e443",
+          "locator": "Scoped California source review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "e845da2f-7ef0-459b-bc2a-bd515270edf8",
+      "action": "allocate",
+      "table": "claims",
+      "inputs": [],
+      "outputs": [
+        "ac50ef41-0a86-4297-bd69-6e58b8ec16b5"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-california-v1",
+          "source_id": "ac50ef41-0a86-4297-bd69-6e58b8ec16b5",
+          "record_sha256": "5e3523887f64dfea1e005c82c0b96a0562ca904729b697562ea86b5f46a0fc3f"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T03:52:33.930146+00:00",
+      "rationale": "Explicit reviewed California identity; no automatic entity merge or legal-force acceptance.",
+      "evidence": [
+        {
+          "url": "https://montereypark.ca.gov/DocumentCenter/View/19275/2026-R56-Certifying-Election-June-2-2026",
+          "body_sha256": "5d67d34c9336bb5f3d2946dec0e261c90d57db1e9147af0f638212af1a7accdd",
+          "locator": "Scoped California source review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "af50a70b-d93c-468c-b74d-a106f7b03d53",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "a07b5f2a-39ee-4f13-8388-838d80a2c72e"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-california-v1",
+          "source_id": "a07b5f2a-39ee-4f13-8388-838d80a2c72e",
+          "record_sha256": "35d180d115d463558fa5900704f1dcb2372e1367411007c98076f4b8ac22183f"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T03:52:33.930146+00:00",
+      "rationale": "Explicit reviewed California identity; no automatic entity merge or legal-force acceptance.",
+      "evidence": [
+        {
+          "url": "https://results.lavote.gov/text-results/4348",
+          "body_sha256": "2d0ce44b8b4f38656d4e8c82344668634a0b72d8d35d05a35682983829d98103",
+          "locator": "Scoped California source review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "8b2a88a9-21b7-4141-99a1-358aeaee7cc1",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "add60e15-9d2e-4215-9fe6-0a7aba22b514"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-california-v1",
+          "source_id": "add60e15-9d2e-4215-9fe6-0a7aba22b514",
+          "record_sha256": "70724538f0e79358b063bd6cf435e40b912b7c7d0ddd342a5f9f2667e90e3087"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T03:52:33.930146+00:00",
+      "rationale": "Explicit reviewed California identity; no automatic entity merge or legal-force acceptance.",
+      "evidence": [
+        {
+          "url": "https://results.lavote.gov/text-results/4348",
+          "body_sha256": "3287c6eca4be5a4d5894441c3dcf9869d75737852b7bf0017d944e1989e97fe0",
+          "locator": "Scoped California source review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "444e96ab-dc44-4641-ae26-5b769da4563b",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "15c6ed70-4cea-4a06-9c13-9d4d8714c35a"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-california-v1",
+          "source_id": "15c6ed70-4cea-4a06-9c13-9d4d8714c35a",
+          "record_sha256": "b731fd15b62c946869abfe78da17ed96e004e5a42b4858aa49268cf66e74820b"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T03:52:33.930146+00:00",
+      "rationale": "Explicit reviewed California identity; no automatic entity merge or legal-force acceptance.",
+      "evidence": [
+        {
+          "url": "https://results.lavote.gov/text-results/4348",
+          "body_sha256": "3287c6eca4be5a4d5894441c3dcf9869d75737852b7bf0017d944e1989e97fe0",
+          "locator": "Scoped California source review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "5410ce99-69d5-477c-88e2-1fdaa55136b2",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "31507a81-bdb0-411f-9b71-5a6c2d32d014"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-california-v1",
+          "source_id": "31507a81-bdb0-411f-9b71-5a6c2d32d014",
+          "record_sha256": "2302bc3a2959875b59fb2c8d779f14506e4048b8cb44092d06949de195cca472"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T03:52:33.930146+00:00",
+      "rationale": "Explicit reviewed California identity; no automatic entity merge or legal-force acceptance.",
+      "evidence": [
+        {
+          "url": "https://results.lavote.gov/text-results/4348",
+          "body_sha256": "3287c6eca4be5a4d5894441c3dcf9869d75737852b7bf0017d944e1989e97fe0",
+          "locator": "Scoped California source review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "2ddcd52c-a827-49d8-88a6-a8fafe3b6518",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "e6794313-d22d-48e2-8c0f-c7261e6e7a57"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-california-v1",
+          "source_id": "e6794313-d22d-48e2-8c0f-c7261e6e7a57",
+          "record_sha256": "1e8409f3dbc0a7ec03c630e5601d0a289bfb6062157ecb0d1de6fb1148c3c640"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T03:52:33.930146+00:00",
+      "rationale": "Explicit reviewed California identity; no automatic entity merge or legal-force acceptance.",
+      "evidence": [
+        {
+          "url": "https://www.alhambraca.gov/DocumentCenter/View/8180/O2M26-4868-Ordinance-Calling-Data-Ban-Ballot-Measure-Election",
+          "body_sha256": "5fa019613df2907e3ebed1166bde3740bd921e172fafda12a1b5e74e13a5cefd",
+          "locator": "Scoped California source review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "bd44eb7c-f4b4-4a75-aea1-41da60bad037",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "1abf88ae-91d7-41c9-ba27-757b479ff163"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-california-v1",
+          "source_id": "1abf88ae-91d7-41c9-ba27-757b479ff163",
+          "record_sha256": "6e4c58cfc4a9e57eb48418e4f1e1f7dfc93d69f3d8dd9d7efabd428596949a7e"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T03:52:33.930146+00:00",
+      "rationale": "Explicit reviewed California identity; no automatic entity merge or legal-force acceptance.",
+      "evidence": [
+        {
+          "url": "https://www.alhambraca.gov/DocumentCenter/View/8177/Impartial-Analysis-of-Data-Center-Ban---Ballot-Measure",
+          "body_sha256": "1c4a1170cea74dedfa73a6fb54ac71b2e1ca1f504bfdb58e446986c12b4bb33b",
+          "locator": "Scoped California source review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "6f63aaba-04da-4f4d-aa8f-73bdd522965e",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "e5787ae0-b364-462e-b248-f63a9f593a8a"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-california-v1",
+          "source_id": "e5787ae0-b364-462e-b248-f63a9f593a8a",
+          "record_sha256": "bd6966e772ff1827aac635413ea3df4d8e44d2c2b604cd26f93f9eefc0967668"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T03:52:33.930146+00:00",
+      "rationale": "Explicit reviewed California identity; no automatic entity merge or legal-force acceptance.",
+      "evidence": [
+        {
+          "url": "https://www.alhambraca.gov/DocumentCenter/View/8177/Impartial-Analysis-of-Data-Center-Ban---Ballot-Measure",
+          "body_sha256": "1c4a1170cea74dedfa73a6fb54ac71b2e1ca1f504bfdb58e446986c12b4bb33b",
+          "locator": "Scoped California source review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "3712a3ed-9476-4895-92c4-34ec4140d21f",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "6e7dc9e5-4b2d-4d5d-a860-a4811bb9a85f"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-california-v1",
+          "source_id": "6e7dc9e5-4b2d-4d5d-a860-a4811bb9a85f",
+          "record_sha256": "9aaaeb16f1e363d75d7a0d3780852c78484e65e767a77ae804648a591935978f"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T03:52:33.930146+00:00",
+      "rationale": "Explicit reviewed California identity; no automatic entity merge or legal-force acceptance.",
+      "evidence": [
+        {
+          "url": "https://www.alhambraca.gov/AgendaCenter/ViewFile/Minutes/_07272026-1609",
+          "body_sha256": "a2458ce7cd7f1a8348e11ebd7e47cf3681bed066bc8c15b1e21163146e86105e",
+          "locator": "Scoped California source review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "6af8c7f3-134e-412d-9f4d-784fd2efc2ce",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "6eadced8-238b-40aa-ab03-608b8022b933"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-california-v1",
+          "source_id": "6eadced8-238b-40aa-ab03-608b8022b933",
+          "record_sha256": "9f342d502a29518603d06b072ea7f7b20707dc28410b5c560f3398ff8c3ae283"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T03:52:33.930146+00:00",
+      "rationale": "Explicit reviewed California identity; no automatic entity merge or legal-force acceptance.",
+      "evidence": [
+        {
+          "url": "https://www.alhambraca.gov/AgendaCenter/ViewFile/Minutes/_06222026-1593",
+          "body_sha256": "39ac9ac57ad054e1a64c701b44bac076d7bec076983b9311984df7306dbf8c79",
+          "locator": "Scoped California source review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "5ad83df8-db3b-47bc-b0d1-da4535a11ba5",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "eaf2dfcf-426e-4705-a8ba-fc363f666538"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-california-v1",
+          "source_id": "eaf2dfcf-426e-4705-a8ba-fc363f666538",
+          "record_sha256": "41d87f70307ccbeab0130436a7e0c3a57d425097443676967bc0d578ec71504f"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T03:52:33.930146+00:00",
+      "rationale": "Explicit reviewed California identity; no automatic entity merge or legal-force acceptance.",
+      "evidence": [
+        {
+          "url": "https://results.lavote.gov/text-results/4338",
+          "body_sha256": "685a4fc24e258a7ab8fcf8e103511a873f57145c22500695db65286b3718e443",
+          "locator": "Scoped California source review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "9f6b7ad9-6f99-445a-bbc7-5747323812b0",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "6650a9ad-9719-4cef-824b-a64edcf22b8b"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-california-v1",
+          "source_id": "6650a9ad-9719-4cef-824b-a64edcf22b8b",
+          "record_sha256": "8bed205ac6f81dfa950c2d9e3b2baebe9b12a55ce902e154eece507b95710562"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T03:52:33.930146+00:00",
+      "rationale": "Explicit reviewed California identity; no automatic entity merge or legal-force acceptance.",
+      "evidence": [
+        {
+          "url": "https://montereypark.ca.gov/DocumentCenter/View/19275/2026-R56-Certifying-Election-June-2-2026",
+          "body_sha256": "5d67d34c9336bb5f3d2946dec0e261c90d57db1e9147af0f638212af1a7accdd",
+          "locator": "Scoped California source review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "fcde2461-3732-4d7a-bc46-5694c8600b72",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "0a18c068-f1d8-424a-8f13-e350a0c6f8e6"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-california-v1",
+          "source_id": "0a18c068-f1d8-424a-8f13-e350a0c6f8e6",
+          "record_sha256": "1b08bea51e17dd95284f2b48323fc14b303fccfac47c388d6fc3235bfab2c605"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T03:52:33.930146+00:00",
+      "rationale": "Explicit reviewed California identity; no automatic entity merge or legal-force acceptance.",
+      "evidence": [
+        {
+          "url": "https://montereypark.ca.gov/DocumentCenter/View/19275/2026-R56-Certifying-Election-June-2-2026",
+          "body_sha256": "5d67d34c9336bb5f3d2946dec0e261c90d57db1e9147af0f638212af1a7accdd",
+          "locator": "Scoped California source review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "a0fb7067-0dbd-4180-b6c5-4c04fa062034",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "3707bd42-5e4d-4376-ba26-aefbea74bc1f"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-california-v1",
+          "source_id": "3707bd42-5e4d-4376-ba26-aefbea74bc1f",
+          "record_sha256": "c1841110d2dd76a11875417b231045e69bbf39153560c36563ef7f7dfe08f52b"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T03:52:33.930146+00:00",
+      "rationale": "Explicit reviewed California identity; no automatic entity merge or legal-force acceptance.",
+      "evidence": [
+        {
+          "url": "https://montereypark.ca.gov/DocumentCenter/View/19275/2026-R56-Certifying-Election-June-2-2026",
+          "body_sha256": "5d67d34c9336bb5f3d2946dec0e261c90d57db1e9147af0f638212af1a7accdd",
+          "locator": "Scoped California source review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "dd2538c4-ec59-46e8-9faf-3b8945427d65",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "c1d41a89-99ce-40d3-8b37-6a223941085e"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-california-v1",
+          "source_id": "c1d41a89-99ce-40d3-8b37-6a223941085e",
+          "record_sha256": "c7464083cca76e0c7779526d73140cf0a1144b593dcdddb0d71acb1a0815fee0"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T03:52:33.930146+00:00",
+      "rationale": "Explicit reviewed California identity; no automatic entity merge or legal-force acceptance.",
+      "evidence": [
+        {
+          "url": "https://montereypark.ca.gov/DocumentCenter/View/19275/2026-R56-Certifying-Election-June-2-2026",
+          "body_sha256": "5d67d34c9336bb5f3d2946dec0e261c90d57db1e9147af0f638212af1a7accdd",
+          "locator": "Scoped California source review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "22d8f2b2-a719-4354-8af6-16b22668ce93",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "34bf89ea-bd37-476b-a7b2-b3bb7f50f1ab"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-california-v1",
+          "source_id": "34bf89ea-bd37-476b-a7b2-b3bb7f50f1ab",
+          "record_sha256": "e3dab26b768d242af0e90067284145f39fd57640db8ded8a43b3b94dcd542d3e"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T03:52:33.930146+00:00",
+      "rationale": "Explicit reviewed California identity; no automatic entity merge or legal-force acceptance.",
+      "evidence": [
+        {
+          "url": "https://montereypark.ca.gov/DocumentCenter/View/19275/2026-R56-Certifying-Election-June-2-2026",
+          "body_sha256": "5d67d34c9336bb5f3d2946dec0e261c90d57db1e9147af0f638212af1a7accdd",
+          "locator": "Scoped California source review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "8f217859-3460-4e27-98bf-e070a9f2f2bc",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "ae048702-406c-403d-ac9e-0c76f3a65b8e"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-california-v1",
+          "source_id": "ae048702-406c-403d-ac9e-0c76f3a65b8e",
+          "record_sha256": "8403999a4fbab25552cd648005cd30082565ad974be0ad5842457a4518e505e5"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T03:52:33.930146+00:00",
+      "rationale": "Explicit reviewed California identity; no automatic entity merge or legal-force acceptance.",
+      "evidence": [
+        {
+          "url": "https://montereypark.ca.gov/DocumentCenter/View/19275/2026-R56-Certifying-Election-June-2-2026",
+          "body_sha256": "5d67d34c9336bb5f3d2946dec0e261c90d57db1e9147af0f638212af1a7accdd",
+          "locator": "Scoped California source review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "f8f3e584-1cb6-4268-ae44-5271c43b0473",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "b301cedc-7f88-4c75-9353-eb04a3abbf99"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-california-v1",
+          "source_id": "b301cedc-7f88-4c75-9353-eb04a3abbf99",
+          "record_sha256": "2320e9534b469a77d2fb854f87bc7b9eed62d61adfae110c5ed1516f8c82d690"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T03:52:33.930146+00:00",
+      "rationale": "Explicit reviewed California identity; no automatic entity merge or legal-force acceptance.",
+      "evidence": [
+        {
+          "url": "https://montereypark.ca.gov/DocumentCenter/View/19275/2026-R56-Certifying-Election-June-2-2026",
+          "body_sha256": "5d67d34c9336bb5f3d2946dec0e261c90d57db1e9147af0f638212af1a7accdd",
+          "locator": "Scoped California source review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "d344ffd6-2a2e-43cd-87cb-76fdc2476588",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "ee9846c4-b8e3-422b-b9fa-f3e505feafcb"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-california-v1",
+          "source_id": "ee9846c4-b8e3-422b-b9fa-f3e505feafcb",
+          "record_sha256": "37bc296f75a987a8f0e30576d3783fd98a02acd5d63c063c9fe004d443885aa8"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T03:52:33.930146+00:00",
+      "rationale": "Explicit reviewed California identity; no automatic entity merge or legal-force acceptance.",
+      "evidence": [
+        {
+          "url": "https://results.lavote.gov/text-results/4348",
+          "body_sha256": "3287c6eca4be5a4d5894441c3dcf9869d75737852b7bf0017d944e1989e97fe0",
+          "locator": "Scoped California source review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "7efcbba9-b97e-4ed3-b554-7a9df5c13246",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "81f65a90-b722-449c-a6c2-591e8c3f8ba9"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-california-v1",
+          "source_id": "81f65a90-b722-449c-a6c2-591e8c3f8ba9",
+          "record_sha256": "7e96509926d9b9f9b0824d6b58dd032cb6a54e3967adf53a7f5e890a32a37bad"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T03:52:33.930146+00:00",
+      "rationale": "Explicit reviewed California identity; no automatic entity merge or legal-force acceptance.",
+      "evidence": [
+        {
+          "url": "https://results.lavote.gov/text-results/4348",
+          "body_sha256": "3287c6eca4be5a4d5894441c3dcf9869d75737852b7bf0017d944e1989e97fe0",
+          "locator": "Scoped California source review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "a87d6d5d-3ef7-4a9c-882e-d6ff713ef96a",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "4f34cc79-324f-453b-8aa2-b69470cb4131"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-california-v1",
+          "source_id": "4f34cc79-324f-453b-8aa2-b69470cb4131",
+          "record_sha256": "f9ffa2524010219c408158921795af2d15fe75855cdb5d1dd93a2f4cdd18b97e"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T03:52:33.930146+00:00",
+      "rationale": "Explicit reviewed California identity; no automatic entity merge or legal-force acceptance.",
+      "evidence": [
+        {
+          "url": "https://www.alhambraca.gov/DocumentCenter/View/8180/O2M26-4868-Ordinance-Calling-Data-Ban-Ballot-Measure-Election",
+          "body_sha256": "5fa019613df2907e3ebed1166bde3740bd921e172fafda12a1b5e74e13a5cefd",
+          "locator": "Scoped California source review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "a164b3ba-af9a-441b-a4b6-ed6439431d62",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "7309c646-f2d7-4375-b4bc-b040410ac345"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-california-v1",
+          "source_id": "7309c646-f2d7-4375-b4bc-b040410ac345",
+          "record_sha256": "63f7d884eb3dce189a6f5559f33f5fb24e2f0cde17b97e16c2d9f302796d0040"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T03:52:33.930146+00:00",
+      "rationale": "Explicit reviewed California identity; no automatic entity merge or legal-force acceptance.",
+      "evidence": [
+        {
+          "url": "https://montereypark.ca.gov/DocumentCenter/View/19275/2026-R56-Certifying-Election-June-2-2026",
+          "body_sha256": "5d67d34c9336bb5f3d2946dec0e261c90d57db1e9147af0f638212af1a7accdd",
+          "locator": "Scoped California source review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "d549fa8f-90d8-4656-b788-09b371f6a409",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "bc0cec85-645e-4334-969f-f94a28d2f4a2"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-california-v1",
+          "source_id": "bc0cec85-645e-4334-969f-f94a28d2f4a2",
+          "record_sha256": "a2b23bdc771dc4a8399aba9bd346ded5dddb1f256eda5fd620d78c1f16be59e5"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T03:52:33.930146+00:00",
+      "rationale": "Explicit reviewed California identity; no automatic entity merge or legal-force acceptance.",
+      "evidence": [
+        {
+          "url": "https://montereypark.ca.gov/DocumentCenter/View/19275/2026-R56-Certifying-Election-June-2-2026",
+          "body_sha256": "5d67d34c9336bb5f3d2946dec0e261c90d57db1e9147af0f638212af1a7accdd",
+          "locator": "Scoped California source review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "f2b2114c-b4b1-44d7-a392-db40ee7506f2",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "10eacec7-1ea1-4f94-8c8b-8191937f4ae8"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-california-v1",
+          "source_id": "10eacec7-1ea1-4f94-8c8b-8191937f4ae8",
+          "record_sha256": "71b28e5c016993c29d45e6f29ac014e4c3b4510c3e3e1293edfe06c3f7bebbe8"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T03:52:33.930146+00:00",
+      "rationale": "Explicit reviewed California identity; no automatic entity merge or legal-force acceptance.",
+      "evidence": [
+        {
+          "url": "https://www.montereypark.ca.gov/DocumentCenter/View/18735/2026-R6-Adding-Data-Center-Prohibition-6-2-2026",
+          "body_sha256": "7009059adf4741b78541b142cc6ae02e4b4c21425f4e2d037c43d3ea5238eadd",
+          "locator": "Scoped California source review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "2665771d-ade4-4560-b7ba-6e04ad93cda6",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "4a0d5a88-1b35-4f36-9e27-7b6bd712ee39"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-california-v1",
+          "source_id": "4a0d5a88-1b35-4f36-9e27-7b6bd712ee39",
+          "record_sha256": "8359ad65981ac979931fcee1bd2c7877fab53c70f422e84484748f703d697404"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T03:52:33.930146+00:00",
+      "rationale": "Explicit reviewed California identity; no automatic entity merge or legal-force acceptance.",
+      "evidence": [
+        {
+          "url": "https://www.montereypark.ca.gov/DocumentCenter/View/18735/2026-R6-Adding-Data-Center-Prohibition-6-2-2026",
+          "body_sha256": "7009059adf4741b78541b142cc6ae02e4b4c21425f4e2d037c43d3ea5238eadd",
+          "locator": "Scoped California source review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "f0848579-dd6a-4b85-a64a-69d62fc954b4",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "a5a31282-906b-447a-b0a2-ede7e9eb0442"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-california-v1",
+          "source_id": "a5a31282-906b-447a-b0a2-ede7e9eb0442",
+          "record_sha256": "221ae0e89f1df76a1c7a43775b9fb9d2e1a7ab50421812d5567030ce1f45d5d8"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T03:52:33.930146+00:00",
+      "rationale": "Explicit reviewed California identity; no automatic entity merge or legal-force acceptance.",
+      "evidence": [
+        {
+          "url": "https://results.lavote.gov/text-results/4338",
+          "body_sha256": "685a4fc24e258a7ab8fcf8e103511a873f57145c22500695db65286b3718e443",
+          "locator": "Scoped California source review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "d2acda15-77e8-4f89-b4ff-e9765912266b",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "9ba91e99-5d95-4b7b-8ec4-5cea650a0195"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-california-v1",
+          "source_id": "9ba91e99-5d95-4b7b-8ec4-5cea650a0195",
+          "record_sha256": "e8cae3debaa565fafd0afd52a508ce471da86498bcbde9cb0755a359e91445cb"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T03:52:33.930146+00:00",
+      "rationale": "Explicit reviewed California identity; no automatic entity merge or legal-force acceptance.",
+      "evidence": [
+        {
+          "url": "https://montereypark.ca.gov/DocumentCenter/View/19275/2026-R56-Certifying-Election-June-2-2026",
+          "body_sha256": "5d67d34c9336bb5f3d2946dec0e261c90d57db1e9147af0f638212af1a7accdd",
+          "locator": "Scoped California source review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "27e10566-4588-4a70-83fb-494ef5e9c249",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "538a9c9a-681d-4998-b470-bf031348995d"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-california-v1",
+          "source_id": "538a9c9a-681d-4998-b470-bf031348995d",
+          "record_sha256": "bf2b0185c9bf8517742e4f0a42b5c3ab35b1d013138ec9d2619756de9e51178e"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T03:52:33.930146+00:00",
+      "rationale": "Explicit reviewed California identity; no automatic entity merge or legal-force acceptance.",
+      "evidence": [
+        {
+          "url": "https://results.lavote.gov/text-results/4348",
+          "body_sha256": "2d0ce44b8b4f38656d4e8c82344668634a0b72d8d35d05a35682983829d98103",
+          "locator": "Scoped California source review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "c699a985-9b26-4c0e-a7e3-7eb7601e5857",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "15ec3c87-3d5e-48a0-b7a8-1b7eef8b458f"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-california-v1",
+          "source_id": "15ec3c87-3d5e-48a0-b7a8-1b7eef8b458f",
+          "record_sha256": "de847e7775f895bfae9ae70277d0bda854c31c6c518d27f63fab94efce2f97ab"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T03:52:33.930146+00:00",
+      "rationale": "Explicit reviewed California identity; no automatic entity merge or legal-force acceptance.",
+      "evidence": [
+        {
+          "url": "https://results.lavote.gov/text-results/4348",
+          "body_sha256": "2d0ce44b8b4f38656d4e8c82344668634a0b72d8d35d05a35682983829d98103",
+          "locator": "Scoped California source review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "73d3acfb-da0f-4c16-830f-688a98098d9f",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "6c1a729a-5675-4bf2-b328-19d3dac22d3f"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-california-v1",
+          "source_id": "6c1a729a-5675-4bf2-b328-19d3dac22d3f",
+          "record_sha256": "fde1472ccb0e41d3f8b6c1ec9a839ef641bc210a2643a611940c4061b1cd65a4"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T03:52:33.930146+00:00",
+      "rationale": "Explicit reviewed California identity; no automatic entity merge or legal-force acceptance.",
+      "evidence": [
+        {
+          "url": "https://results.lavote.gov/text-results/4348",
+          "body_sha256": "2d0ce44b8b4f38656d4e8c82344668634a0b72d8d35d05a35682983829d98103",
+          "locator": "Scoped California source review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "30b1a7a6-3bae-4013-966e-772c9fa48578",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "b7efdd42-0cb7-407d-8720-65013cac7c5d"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-california-v1",
+          "source_id": "b7efdd42-0cb7-407d-8720-65013cac7c5d",
+          "record_sha256": "835c67a8810ac3a6d6c56b32147fc6f86388652f287ccc0c5093a5fe948ade2d"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T03:52:33.930146+00:00",
+      "rationale": "Explicit reviewed California identity; no automatic entity merge or legal-force acceptance.",
+      "evidence": [
+        {
+          "url": "https://results.lavote.gov/text-results/4348",
+          "body_sha256": "2d0ce44b8b4f38656d4e8c82344668634a0b72d8d35d05a35682983829d98103",
+          "locator": "Scoped California source review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "16ad419a-0d8b-4662-88cc-f41cfa0ba8a9",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "56881e73-7abb-48a9-9cc1-c09d693b0f1a"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-california-v1",
+          "source_id": "56881e73-7abb-48a9-9cc1-c09d693b0f1a",
+          "record_sha256": "226ddf0cabe19e31c958deee9e694f1d36f91102ef876202c2730b972f0e525d"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T03:52:33.930146+00:00",
+      "rationale": "Explicit reviewed California identity; no automatic entity merge or legal-force acceptance.",
+      "evidence": [
+        {
+          "url": "https://results.lavote.gov/text-results/4348",
+          "body_sha256": "2d0ce44b8b4f38656d4e8c82344668634a0b72d8d35d05a35682983829d98103",
+          "locator": "Scoped California source review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "4bf1d0d8-0da8-40b1-9fc3-3ec85cc6d9ff",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "a928f0ad-91d2-460b-8a5a-5812658035a3"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-california-v1",
+          "source_id": "a928f0ad-91d2-460b-8a5a-5812658035a3",
+          "record_sha256": "ed19a3939c3cb0242567e3da43b4945d222854dbff615d02a86baa1955c7ecda"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T03:52:33.930146+00:00",
+      "rationale": "Explicit reviewed California identity; no automatic entity merge or legal-force acceptance.",
+      "evidence": [
+        {
+          "url": "https://results.lavote.gov/text-results/4348",
+          "body_sha256": "2d0ce44b8b4f38656d4e8c82344668634a0b72d8d35d05a35682983829d98103",
+          "locator": "Scoped California source review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "315171c0-1245-47e8-85b1-9507d8e8d614",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "acb4fad6-366a-4ae2-9741-cbbd6ad0206a"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-california-v1",
+          "source_id": "acb4fad6-366a-4ae2-9741-cbbd6ad0206a",
+          "record_sha256": "62929f59a09624aa6770b664805f90fe9086a007166decbc5a5653d8e473bc97"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T03:52:33.930146+00:00",
+      "rationale": "Explicit reviewed California identity; no automatic entity merge or legal-force acceptance.",
+      "evidence": [
+        {
+          "url": "https://results.lavote.gov/text-results/4348",
+          "body_sha256": "2d0ce44b8b4f38656d4e8c82344668634a0b72d8d35d05a35682983829d98103",
+          "locator": "Scoped California source review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "84da521d-a1a5-4cd5-a990-f601b198e792",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "612939fe-02fb-439a-9b40-541854357c1b"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-california-v1",
+          "source_id": "612939fe-02fb-439a-9b40-541854357c1b",
+          "record_sha256": "eaf1e72d59220edfee3d5276a96a776b102f4bf3fff7bdf674ccc72a75ecdebe"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T03:52:33.930146+00:00",
+      "rationale": "Explicit reviewed California identity; no automatic entity merge or legal-force acceptance.",
+      "evidence": [
+        {
+          "url": "https://results.lavote.gov/text-results/4348",
+          "body_sha256": "2d0ce44b8b4f38656d4e8c82344668634a0b72d8d35d05a35682983829d98103",
+          "locator": "Scoped California source review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "26d7f355-2b2c-492a-bc9c-48c8888a1b28",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "16dab6b4-0649-49ec-a61f-7e1cd36bb4bf"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-california-v1",
+          "source_id": "16dab6b4-0649-49ec-a61f-7e1cd36bb4bf",
+          "record_sha256": "4004d70a2943326d21dc079f084bca2beddd08c901ca5e56d5c04c3240a03a94"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T03:52:33.930146+00:00",
+      "rationale": "Explicit reviewed California identity; no automatic entity merge or legal-force acceptance.",
+      "evidence": [
+        {
+          "url": "https://results.lavote.gov/text-results/4348",
+          "body_sha256": "3287c6eca4be5a4d5894441c3dcf9869d75737852b7bf0017d944e1989e97fe0",
+          "locator": "Scoped California source review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "f6b68edc-d7d7-41c5-bfa8-eb860ea186e5",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "ecb80836-6e5b-4379-910d-3c8e0cd3c6e1"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-california-v1",
+          "source_id": "ecb80836-6e5b-4379-910d-3c8e0cd3c6e1",
+          "record_sha256": "eb1346bd12e069887eee2af33f011fc19c49d21a9383b404b79dbc3db05c1794"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T03:52:33.930146+00:00",
+      "rationale": "Explicit reviewed California identity; no automatic entity merge or legal-force acceptance.",
+      "evidence": [
+        {
+          "url": "https://results.lavote.gov/text-results/4348",
+          "body_sha256": "3287c6eca4be5a4d5894441c3dcf9869d75737852b7bf0017d944e1989e97fe0",
+          "locator": "Scoped California source review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "6635319f-649e-49fb-9ff3-31849c581e11",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "f2368470-a94e-4afc-be3c-81ce469cc372"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-california-v1",
+          "source_id": "f2368470-a94e-4afc-be3c-81ce469cc372",
+          "record_sha256": "72082b407a86f667095c7b8ce147ceba548a3260a8146c40fa3425fcbbd94b49"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T03:52:33.930146+00:00",
+      "rationale": "Explicit reviewed California identity; no automatic entity merge or legal-force acceptance.",
+      "evidence": [
+        {
+          "url": "https://results.lavote.gov/text-results/4348",
+          "body_sha256": "3287c6eca4be5a4d5894441c3dcf9869d75737852b7bf0017d944e1989e97fe0",
+          "locator": "Scoped California source review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "834a9a04-1f01-4f99-beb5-79908bf6bf64",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "35f9aeeb-63e8-4885-b16f-d2661bf3f60d"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-california-v1",
+          "source_id": "35f9aeeb-63e8-4885-b16f-d2661bf3f60d",
+          "record_sha256": "6cf10c1f4442304db262bae3a93660138339ebe33107e872a35b49f39b931502"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T03:52:33.930146+00:00",
+      "rationale": "Explicit reviewed California identity; no automatic entity merge or legal-force acceptance.",
+      "evidence": [
+        {
+          "url": "https://results.lavote.gov/text-results/4348",
+          "body_sha256": "3287c6eca4be5a4d5894441c3dcf9869d75737852b7bf0017d944e1989e97fe0",
+          "locator": "Scoped California source review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "7f210125-e672-4542-865e-ade6da545bc9",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "8b74c055-95f6-4733-8d5d-2a6ae2c27e51"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-california-v1",
+          "source_id": "8b74c055-95f6-4733-8d5d-2a6ae2c27e51",
+          "record_sha256": "fef6100d486e2cc1ef3c5622ccefc43443d89d5114715d9769c6515130158f1e"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T03:52:33.930146+00:00",
+      "rationale": "Explicit reviewed California identity; no automatic entity merge or legal-force acceptance.",
+      "evidence": [
+        {
+          "url": "https://results.lavote.gov/text-results/4348",
+          "body_sha256": "3287c6eca4be5a4d5894441c3dcf9869d75737852b7bf0017d944e1989e97fe0",
+          "locator": "Scoped California source review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "badb09c8-684b-422e-aadb-a67ba086f99a",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "306f3262-888f-44f2-bfb8-a79075011b56"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-california-v1",
+          "source_id": "306f3262-888f-44f2-bfb8-a79075011b56",
+          "record_sha256": "c45f2cb3d4811f32c2bc9d9e0b2dc1620040b6ff791cbb82d2343d79159741d7"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T03:52:33.930146+00:00",
+      "rationale": "Explicit reviewed California identity; no automatic entity merge or legal-force acceptance.",
+      "evidence": [
+        {
+          "url": "https://results.lavote.gov/text-results/4348",
+          "body_sha256": "3287c6eca4be5a4d5894441c3dcf9869d75737852b7bf0017d944e1989e97fe0",
+          "locator": "Scoped California source review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "d233482a-477b-4301-af78-fcf81becf90b",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "cec8a950-eb17-49c7-bedc-f422bf7a8e9d"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-california-v1",
+          "source_id": "cec8a950-eb17-49c7-bedc-f422bf7a8e9d",
+          "record_sha256": "2d2792cda4436544ae91fade1add2fc68da5ecc4d6eb2c44c3a7e27436434b61"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T03:52:33.930146+00:00",
+      "rationale": "Explicit reviewed California identity; no automatic entity merge or legal-force acceptance.",
+      "evidence": [
+        {
+          "url": "https://results.lavote.gov/text-results/4348",
+          "body_sha256": "3287c6eca4be5a4d5894441c3dcf9869d75737852b7bf0017d944e1989e97fe0",
+          "locator": "Scoped California source review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "aff85fd0-9f96-4fb6-b611-0e84a9616c96",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "81a60daa-718e-4434-89be-06259eba6fbd"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-california-v1",
+          "source_id": "81a60daa-718e-4434-89be-06259eba6fbd",
+          "record_sha256": "6e57861767d3044d675e048e5b8ede642087eee09cfb6751a90acb247a3d3807"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T03:52:33.930146+00:00",
+      "rationale": "Explicit reviewed California identity; no automatic entity merge or legal-force acceptance.",
+      "evidence": [
+        {
+          "url": "https://results.lavote.gov/text-results/4348",
+          "body_sha256": "3287c6eca4be5a4d5894441c3dcf9869d75737852b7bf0017d944e1989e97fe0",
+          "locator": "Scoped California source review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "42898872-be4d-4d69-b27f-13e0776de784",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "73b08114-3579-4bd9-82de-9a9ecac22e11"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-california-v1",
+          "source_id": "73b08114-3579-4bd9-82de-9a9ecac22e11",
+          "record_sha256": "6e6006a101b7c6788dd5c9e5771f53a7483cb872051fa34e191047d10794a152"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T03:52:33.930146+00:00",
+      "rationale": "Explicit reviewed California identity; no automatic entity merge or legal-force acceptance.",
+      "evidence": [
+        {
+          "url": "https://results.lavote.gov/text-results/4348",
+          "body_sha256": "3287c6eca4be5a4d5894441c3dcf9869d75737852b7bf0017d944e1989e97fe0",
+          "locator": "Scoped California source review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "d6dcdbe9-ff10-4c08-b19f-5492879a17bd",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "2c999e31-e43c-4fa1-bc12-f38cd8a9974d"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-california-v1",
+          "source_id": "2c999e31-e43c-4fa1-bc12-f38cd8a9974d",
+          "record_sha256": "77f0da45c76119726fd179d9143ab3e6b4860f42d238702f5de72584abe6f472"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T03:52:33.930146+00:00",
+      "rationale": "Explicit reviewed California identity; no automatic entity merge or legal-force acceptance.",
+      "evidence": [
+        {
+          "url": "https://results.lavote.gov/text-results/4348",
+          "body_sha256": "3287c6eca4be5a4d5894441c3dcf9869d75737852b7bf0017d944e1989e97fe0",
+          "locator": "Scoped California source review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "9d2085fd-b938-4b87-b14a-901d16c8f750",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "40224795-b333-4722-958b-5a151858edb6"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-california-v1",
+          "source_id": "40224795-b333-4722-958b-5a151858edb6",
+          "record_sha256": "600eb9c0ecddce6aea64814517d2c6b23edb3f799a4272ed20c50e52aa0e86b2"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T03:52:33.930146+00:00",
+      "rationale": "Explicit reviewed California identity; no automatic entity merge or legal-force acceptance.",
+      "evidence": [
+        {
+          "url": "https://results.lavote.gov/text-results/4348",
+          "body_sha256": "3287c6eca4be5a4d5894441c3dcf9869d75737852b7bf0017d944e1989e97fe0",
+          "locator": "Scoped California source review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "e95206a3-20b5-46c2-936a-1593f3338449",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "dd28bf6d-c406-4954-a871-1c3f4929ac6a"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-california-v1",
+          "source_id": "dd28bf6d-c406-4954-a871-1c3f4929ac6a",
+          "record_sha256": "34a8a7406e043e8d99e0e397c4cc7547c92ba93165b1408e24d190c71a965af0"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T03:52:33.930146+00:00",
+      "rationale": "Explicit reviewed California identity; no automatic entity merge or legal-force acceptance.",
+      "evidence": [
+        {
+          "url": "https://results.lavote.gov/text-results/4348",
+          "body_sha256": "3287c6eca4be5a4d5894441c3dcf9869d75737852b7bf0017d944e1989e97fe0",
+          "locator": "Scoped California source review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "b68c5562-1e79-41a1-85c7-256abcb19aec",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "e4f9af88-33bf-4c39-b75a-9e1fe65ba0d5"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-california-v1",
+          "source_id": "e4f9af88-33bf-4c39-b75a-9e1fe65ba0d5",
+          "record_sha256": "9fac066514d24410f8e59ee23f0dce20bc51baecc78a5c749bef6417380f57de"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T03:52:33.930146+00:00",
+      "rationale": "Explicit reviewed California identity; no automatic entity merge or legal-force acceptance.",
+      "evidence": [
+        {
+          "url": "https://results.lavote.gov/text-results/4348",
+          "body_sha256": "3287c6eca4be5a4d5894441c3dcf9869d75737852b7bf0017d944e1989e97fe0",
+          "locator": "Scoped California source review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "4b415ad0-92fc-45ad-a26b-54a156c00a86",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "d4bcc81f-15b8-49c9-a8fa-da4267ccf034"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-california-v1",
+          "source_id": "d4bcc81f-15b8-49c9-a8fa-da4267ccf034",
+          "record_sha256": "530cd85761ae2ab581c6f40172d18e3be339476ef5de11cd1abb054235192c28"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T03:52:33.930146+00:00",
+      "rationale": "Explicit reviewed California identity; no automatic entity merge or legal-force acceptance.",
+      "evidence": [
+        {
+          "url": "https://results.lavote.gov/text-results/4348",
+          "body_sha256": "3287c6eca4be5a4d5894441c3dcf9869d75737852b7bf0017d944e1989e97fe0",
+          "locator": "Scoped California source review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "2ab4f626-9cca-4058-9fcc-e605221a8b89",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "be881125-7abe-4ee2-8464-88a9a049b691"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-california-v1",
+          "source_id": "be881125-7abe-4ee2-8464-88a9a049b691",
+          "record_sha256": "505812a1d62ffb645aeaca37d2d6fb9e964ad27e7eaa0afc3d6848d40d1456de"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T03:52:33.930146+00:00",
+      "rationale": "Explicit reviewed California identity; no automatic entity merge or legal-force acceptance.",
+      "evidence": [
+        {
+          "url": "https://results.lavote.gov/text-results/4348",
+          "body_sha256": "3287c6eca4be5a4d5894441c3dcf9869d75737852b7bf0017d944e1989e97fe0",
+          "locator": "Scoped California source review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "8f3daea3-274f-436a-a2d1-d391c0714f6b",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "1a4c5da5-6480-4bb2-89ec-0cdc3f2a4b92"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-california-v1",
+          "source_id": "1a4c5da5-6480-4bb2-89ec-0cdc3f2a4b92",
+          "record_sha256": "f3960002d884c7e2a520f3b9b8fdc46134280da4d72d8567627f4c5e912d2748"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T03:52:33.930146+00:00",
+      "rationale": "Explicit reviewed California identity; no automatic entity merge or legal-force acceptance.",
+      "evidence": [
+        {
+          "url": "https://results.lavote.gov/text-results/4348",
+          "body_sha256": "3287c6eca4be5a4d5894441c3dcf9869d75737852b7bf0017d944e1989e97fe0",
+          "locator": "Scoped California source review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "87db7302-4f3f-4c4b-9d0e-91b9cc827da9",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "e09f3f47-0dae-4e2c-a5bc-a5e5af879449"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-california-v1",
+          "source_id": "e09f3f47-0dae-4e2c-a5bc-a5e5af879449",
+          "record_sha256": "09f762b6baf6e55fa4d3a6c0afd7720bd2c06557d442da931fab4350544c9705"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T03:52:33.930146+00:00",
+      "rationale": "Explicit reviewed California identity; no automatic entity merge or legal-force acceptance.",
+      "evidence": [
+        {
+          "url": "https://results.lavote.gov/text-results/4348",
+          "body_sha256": "3287c6eca4be5a4d5894441c3dcf9869d75737852b7bf0017d944e1989e97fe0",
+          "locator": "Scoped California source review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "fd45d617-ddbe-49e4-95b0-55afe916b2ab",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "4129ee9e-fd4f-4e3f-a4f5-50a81617d1bc"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-california-v1",
+          "source_id": "4129ee9e-fd4f-4e3f-a4f5-50a81617d1bc",
+          "record_sha256": "1193f2a451ebfc25b7decfa3d4d0455964ad5c7e75e66f7a3e5ca112acaba299"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T03:52:33.930146+00:00",
+      "rationale": "Explicit reviewed California identity; no automatic entity merge or legal-force acceptance.",
+      "evidence": [
+        {
+          "url": "https://results.lavote.gov/text-results/4348",
+          "body_sha256": "3287c6eca4be5a4d5894441c3dcf9869d75737852b7bf0017d944e1989e97fe0",
+          "locator": "Scoped California source review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "de0fe94c-4cdb-4058-85ab-27ed78a0dbc1",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "7fa7fdb4-09c0-483f-b87d-398bf85a6c38"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-california-v1",
+          "source_id": "7fa7fdb4-09c0-483f-b87d-398bf85a6c38",
+          "record_sha256": "f84b4de49ddad2582983691565c857c000f9c34e1c181cac491f5b2625bc626e"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T03:52:33.930146+00:00",
+      "rationale": "Explicit reviewed California identity; no automatic entity merge or legal-force acceptance.",
+      "evidence": [
+        {
+          "url": "https://results.lavote.gov/text-results/4348",
+          "body_sha256": "3287c6eca4be5a4d5894441c3dcf9869d75737852b7bf0017d944e1989e97fe0",
+          "locator": "Scoped California source review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "30281937-de97-49fd-92a5-2148790aed08",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "e9f5fd19-3538-4187-9760-4135cf138f8a"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-california-v1",
+          "source_id": "e9f5fd19-3538-4187-9760-4135cf138f8a",
+          "record_sha256": "b261b37ed6f541b4b214d2259dd9d7ea30311e7b9868e81cc9634056b33657a6"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T03:52:33.930146+00:00",
+      "rationale": "Explicit reviewed California identity; no automatic entity merge or legal-force acceptance.",
+      "evidence": [
+        {
+          "url": "https://results.lavote.gov/text-results/4348",
+          "body_sha256": "3287c6eca4be5a4d5894441c3dcf9869d75737852b7bf0017d944e1989e97fe0",
+          "locator": "Scoped California source review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "94f2626f-1c0e-454f-85dd-00f6661377e2",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "cac632ed-18c8-4105-af04-4321d96a126d"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-california-v1",
+          "source_id": "cac632ed-18c8-4105-af04-4321d96a126d",
+          "record_sha256": "bf56bbdafdeadaef2d581cec9341d72a4448e99abf4c07e7ab8c7063b030213a"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T03:52:33.930146+00:00",
+      "rationale": "Explicit reviewed California identity; no automatic entity merge or legal-force acceptance.",
+      "evidence": [
+        {
+          "url": "https://results.lavote.gov/text-results/4348",
+          "body_sha256": "3287c6eca4be5a4d5894441c3dcf9869d75737852b7bf0017d944e1989e97fe0",
+          "locator": "Scoped California source review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "43b3e6c9-0270-4f0d-a765-29e3a12e110d",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "db745f80-55f5-4322-818d-42ddaa4ad934"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-california-v1",
+          "source_id": "db745f80-55f5-4322-818d-42ddaa4ad934",
+          "record_sha256": "0248accfbfe35cd8a53e7be51388374039da384539342664cec8f2f3aaa1d7c2"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T03:52:33.930146+00:00",
+      "rationale": "Explicit reviewed California identity; no automatic entity merge or legal-force acceptance.",
+      "evidence": [
+        {
+          "url": "https://results.lavote.gov/text-results/4348",
+          "body_sha256": "3287c6eca4be5a4d5894441c3dcf9869d75737852b7bf0017d944e1989e97fe0",
+          "locator": "Scoped California source review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "678ec0f1-e780-444f-8e92-55292f73191f",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "23a4253a-a998-4ec4-b55e-937002c7ecb9"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-california-v1",
+          "source_id": "23a4253a-a998-4ec4-b55e-937002c7ecb9",
+          "record_sha256": "8389ca5de74b00e511816444faf8e0cbb95f22d28f622a85789c6d4e9c8d3e54"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T03:52:33.930146+00:00",
+      "rationale": "Explicit reviewed California identity; no automatic entity merge or legal-force acceptance.",
+      "evidence": [
+        {
+          "url": "https://www.alhambraca.gov/DocumentCenter/View/8180/O2M26-4868-Ordinance-Calling-Data-Ban-Ballot-Measure-Election",
+          "body_sha256": "5fa019613df2907e3ebed1166bde3740bd921e172fafda12a1b5e74e13a5cefd",
+          "locator": "Scoped California source review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "6af37dd8-3aaf-4afc-aa28-643e30146f9b",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "ddebc8d6-c40b-4cb4-9553-a74355a98322"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-california-v1",
+          "source_id": "ddebc8d6-c40b-4cb4-9553-a74355a98322",
+          "record_sha256": "8975fa15794cd9b94a87beae2a3b1fbd8b1f0761962cdb497535c9da6ac7797a"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T03:52:33.930146+00:00",
+      "rationale": "Explicit reviewed California identity; no automatic entity merge or legal-force acceptance.",
+      "evidence": [
+        {
+          "url": "https://www.alhambraca.gov/DocumentCenter/View/8180/O2M26-4868-Ordinance-Calling-Data-Ban-Ballot-Measure-Election",
+          "body_sha256": "5fa019613df2907e3ebed1166bde3740bd921e172fafda12a1b5e74e13a5cefd",
+          "locator": "Scoped California source review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "d00e7df0-b78f-4166-b780-672a239e98ad",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "01debe51-85e5-4e92-9d1b-d1d98df444e5"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-california-v1",
+          "source_id": "01debe51-85e5-4e92-9d1b-d1d98df444e5",
+          "record_sha256": "d9122d192f1943f849766ba88063981a9d0a1ef3ed80724d2f9311ad27280be9"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T03:52:33.930146+00:00",
+      "rationale": "Explicit reviewed California identity; no automatic entity merge or legal-force acceptance.",
+      "evidence": [
+        {
+          "url": "https://www.alhambraca.gov/DocumentCenter/View/8180/O2M26-4868-Ordinance-Calling-Data-Ban-Ballot-Measure-Election",
+          "body_sha256": "5fa019613df2907e3ebed1166bde3740bd921e172fafda12a1b5e74e13a5cefd",
+          "locator": "Scoped California source review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "debbd1a1-4b9f-4142-b70d-53dcdfdf0759",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "c153dee5-b3d3-45f3-b327-7c22a7e067ec"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-california-v1",
+          "source_id": "c153dee5-b3d3-45f3-b327-7c22a7e067ec",
+          "record_sha256": "d3a877b934992c9f93a12cdcffa669aafb5b69b8b1f2e86001e611fa07c4e3d4"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T03:52:33.930146+00:00",
+      "rationale": "Explicit reviewed California identity; no automatic entity merge or legal-force acceptance.",
+      "evidence": [
+        {
+          "url": "https://www.alhambraca.gov/DocumentCenter/View/8180/O2M26-4868-Ordinance-Calling-Data-Ban-Ballot-Measure-Election",
+          "body_sha256": "5fa019613df2907e3ebed1166bde3740bd921e172fafda12a1b5e74e13a5cefd",
+          "locator": "Scoped California source review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "10ec06e5-9f81-419a-aacd-04847153f73e",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "2532763c-7b22-4845-9e3f-4691e1f1cd7b"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-california-v1",
+          "source_id": "2532763c-7b22-4845-9e3f-4691e1f1cd7b",
+          "record_sha256": "0f8cb7e199aad12fa7749756fca4e7a40714426727f0f878a5c4c7e103c4fa11"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T03:52:33.930146+00:00",
+      "rationale": "Explicit reviewed California identity; no automatic entity merge or legal-force acceptance.",
+      "evidence": [
+        {
+          "url": "https://www.alhambraca.gov/DocumentCenter/View/8180/O2M26-4868-Ordinance-Calling-Data-Ban-Ballot-Measure-Election",
+          "body_sha256": "5fa019613df2907e3ebed1166bde3740bd921e172fafda12a1b5e74e13a5cefd",
+          "locator": "Scoped California source review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "acbcd185-ecbd-48e8-9ec8-06b9da9f2ba5",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "c0e641fa-292b-4703-b4b9-0dc586fbd826"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-california-v1",
+          "source_id": "c0e641fa-292b-4703-b4b9-0dc586fbd826",
+          "record_sha256": "100017ea2c0d8ddf24c6c7f897df647ee2375c7d95e00b5af3ba44105e1cfc70"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T03:52:33.930146+00:00",
+      "rationale": "Explicit reviewed California identity; no automatic entity merge or legal-force acceptance.",
+      "evidence": [
+        {
+          "url": "https://www.alhambraca.gov/DocumentCenter/View/8180/O2M26-4868-Ordinance-Calling-Data-Ban-Ballot-Measure-Election",
+          "body_sha256": "5fa019613df2907e3ebed1166bde3740bd921e172fafda12a1b5e74e13a5cefd",
+          "locator": "Scoped California source review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "8c7db7f2-0b24-4390-a62b-eab3ad4cf94a",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "d424c7ae-7994-461b-a1ba-dc1da76788cd"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-california-v1",
+          "source_id": "d424c7ae-7994-461b-a1ba-dc1da76788cd",
+          "record_sha256": "f51378cf9d641921b44ec754abb410fd5942bd789330ba4618d11b5f4a31d82d"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T03:52:33.930146+00:00",
+      "rationale": "Explicit reviewed California identity; no automatic entity merge or legal-force acceptance.",
+      "evidence": [
+        {
+          "url": "https://results.lavote.gov/text-results/4338",
+          "body_sha256": "685a4fc24e258a7ab8fcf8e103511a873f57145c22500695db65286b3718e443",
+          "locator": "Scoped California source review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "834d6010-426b-4605-9193-7e86ec942e97",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "3bba19a3-a649-42c2-bafc-11209ca0306d"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-california-v1",
+          "source_id": "3bba19a3-a649-42c2-bafc-11209ca0306d",
+          "record_sha256": "5c2b315453e584960004efb9ce43d784f16f9ad60ddc6a277f09d713f0521204"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T03:52:33.930146+00:00",
+      "rationale": "Explicit reviewed California identity; no automatic entity merge or legal-force acceptance.",
+      "evidence": [
+        {
+          "url": "https://results.lavote.gov/text-results/4338",
+          "body_sha256": "685a4fc24e258a7ab8fcf8e103511a873f57145c22500695db65286b3718e443",
+          "locator": "Scoped California source review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "6dad8919-8ea9-4713-a3f8-46ca8ce8e692",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "8609ac18-aabd-4883-80af-f36480e34dde"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-california-v1",
+          "source_id": "8609ac18-aabd-4883-80af-f36480e34dde",
+          "record_sha256": "049e2c2765a84d066efdf84ed57b776cb8d5279e278f442eb1a83a2a03539ba7"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T03:52:33.930146+00:00",
+      "rationale": "Explicit reviewed California identity; no automatic entity merge or legal-force acceptance.",
+      "evidence": [
+        {
+          "url": "https://results.lavote.gov/text-results/4338",
+          "body_sha256": "685a4fc24e258a7ab8fcf8e103511a873f57145c22500695db65286b3718e443",
+          "locator": "Scoped California source review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "ea83e4ed-9b3f-475c-8230-226b4387d201",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "30b9fde6-08e1-407c-a2f9-d12cf8625e01"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-california-v1",
+          "source_id": "30b9fde6-08e1-407c-a2f9-d12cf8625e01",
+          "record_sha256": "bb73735550b8a8f6e6177f707dac876a7217155e4a1b898aa6c2d8a38f536560"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T03:52:33.930146+00:00",
+      "rationale": "Explicit reviewed California identity; no automatic entity merge or legal-force acceptance.",
+      "evidence": [
+        {
+          "url": "https://results.lavote.gov/text-results/4338",
+          "body_sha256": "685a4fc24e258a7ab8fcf8e103511a873f57145c22500695db65286b3718e443",
+          "locator": "Scoped California source review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "7b3c0513-8821-4ff1-8409-2e005510c8a6",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "99548cad-8c4c-47b0-90a3-8e90547716e2"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-california-v1",
+          "source_id": "99548cad-8c4c-47b0-90a3-8e90547716e2",
+          "record_sha256": "020ec0843daebab0a79d710177f0b61e1b28dc44e5523f9a2957af1fdbb2b3e1"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T03:52:33.930146+00:00",
+      "rationale": "Explicit reviewed California identity; no automatic entity merge or legal-force acceptance.",
+      "evidence": [
+        {
+          "url": "https://results.lavote.gov/text-results/4338",
+          "body_sha256": "685a4fc24e258a7ab8fcf8e103511a873f57145c22500695db65286b3718e443",
+          "locator": "Scoped California source review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "8af60601-022b-4801-8b2e-13b7f6ba141b",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "a956a917-e400-4534-a197-654146ee3e3e"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-california-v1",
+          "source_id": "a956a917-e400-4534-a197-654146ee3e3e",
+          "record_sha256": "206141a2a571d396ed1354883ffb29668465c190c1405804d5fb082fe307c279"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T03:52:33.930146+00:00",
+      "rationale": "Explicit reviewed California identity; no automatic entity merge or legal-force acceptance.",
+      "evidence": [
+        {
+          "url": "https://results.lavote.gov/text-results/4338",
+          "body_sha256": "685a4fc24e258a7ab8fcf8e103511a873f57145c22500695db65286b3718e443",
+          "locator": "Scoped California source review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "aae9aa09-bf01-4cf7-ab54-e1a05cf8ba15",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "5ecfd81e-ef54-4b6e-8a0f-fe89b8b3809b"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-california-v1",
+          "source_id": "5ecfd81e-ef54-4b6e-8a0f-fe89b8b3809b",
+          "record_sha256": "ee5988ed42c6584a1bb197d1afd2727be93184fa5007cfb469dffb1c64f5b43c"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T03:52:33.930146+00:00",
+      "rationale": "Explicit reviewed California identity; no automatic entity merge or legal-force acceptance.",
+      "evidence": [
+        {
+          "url": "https://results.lavote.gov/text-results/4338",
+          "body_sha256": "685a4fc24e258a7ab8fcf8e103511a873f57145c22500695db65286b3718e443",
+          "locator": "Scoped California source review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "fc0b3901-5719-40bf-b074-66a83028720b",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "591340da-10dd-4573-891f-0eb5e72cf564"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-california-v1",
+          "source_id": "591340da-10dd-4573-891f-0eb5e72cf564",
+          "record_sha256": "acefa114e5f326df1a643d80d990239e05de8decfaa2d99f2533706c3b26f1dd"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T03:52:33.930146+00:00",
+      "rationale": "Explicit reviewed California identity; no automatic entity merge or legal-force acceptance.",
+      "evidence": [
+        {
+          "url": "https://results.lavote.gov/text-results/4338",
+          "body_sha256": "685a4fc24e258a7ab8fcf8e103511a873f57145c22500695db65286b3718e443",
+          "locator": "Scoped California source review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "f39682c8-fbe7-46d6-b4ac-45218ca44c3e",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "f739e6cc-d949-4f65-9ae9-f0c7649fea8a"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-california-v1",
+          "source_id": "f739e6cc-d949-4f65-9ae9-f0c7649fea8a",
+          "record_sha256": "172e5aa395a2b75e5e282d2ce2f26b5f6456392c368044b5c7b3adf9099da9c1"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T03:52:33.930146+00:00",
+      "rationale": "Explicit reviewed California identity; no automatic entity merge or legal-force acceptance.",
+      "evidence": [
+        {
+          "url": "https://results.lavote.gov/text-results/4338",
+          "body_sha256": "685a4fc24e258a7ab8fcf8e103511a873f57145c22500695db65286b3718e443",
+          "locator": "Scoped California source review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "7360e9ed-0b54-4d65-a310-164a8689611c",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "c8dcd2bb-5b40-4beb-8f5b-5caa15de7196"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-california-v1",
+          "source_id": "c8dcd2bb-5b40-4beb-8f5b-5caa15de7196",
+          "record_sha256": "80a395c2712f04693e88618bcbe70d1ab602622556371413526eb56f3f60835a"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T03:52:33.930146+00:00",
+      "rationale": "Explicit reviewed California identity; no automatic entity merge or legal-force acceptance.",
+      "evidence": [
+        {
+          "url": "https://results.lavote.gov/text-results/4338",
+          "body_sha256": "685a4fc24e258a7ab8fcf8e103511a873f57145c22500695db65286b3718e443",
+          "locator": "Scoped California source review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "a9353972-ab20-42be-ae14-a3092d8b549d",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "1e5d42fd-82ba-4b0e-a37f-94f10c184a60"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-california-v1",
+          "source_id": "1e5d42fd-82ba-4b0e-a37f-94f10c184a60",
+          "record_sha256": "309ddde6b642d3f22183c02eb754ad1bc92699de244d58e3101a1f7e1f60b544"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T03:52:33.930146+00:00",
+      "rationale": "Explicit reviewed California identity; no automatic entity merge or legal-force acceptance.",
+      "evidence": [
+        {
+          "url": "https://results.lavote.gov/text-results/4338",
+          "body_sha256": "685a4fc24e258a7ab8fcf8e103511a873f57145c22500695db65286b3718e443",
+          "locator": "Scoped California source review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "da591aa5-edec-4e24-8461-a7ea725edb87",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "b4ebd48a-be0b-4b52-b40a-fb1a7c86e8d4"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-california-v1",
+          "source_id": "b4ebd48a-be0b-4b52-b40a-fb1a7c86e8d4",
+          "record_sha256": "0ca01f106c9ecadbd9364d9f119f4266cbc4a83950e17f3edff020fe3a8ae99f"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T03:52:33.930146+00:00",
+      "rationale": "Explicit reviewed California identity; no automatic entity merge or legal-force acceptance.",
+      "evidence": [
+        {
+          "url": "https://results.lavote.gov/text-results/4338",
+          "body_sha256": "685a4fc24e258a7ab8fcf8e103511a873f57145c22500695db65286b3718e443",
+          "locator": "Scoped California source review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "8a2b2c84-6fd7-4524-869d-b79a05359f44",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "7964a3a9-40ef-4196-8f55-f5c45f80c8e7"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-california-v1",
+          "source_id": "7964a3a9-40ef-4196-8f55-f5c45f80c8e7",
+          "record_sha256": "2614dfc41937ab004927cf7466f3e4e1755c14091f093d5cb2f8372f592e34a0"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T03:52:33.930146+00:00",
+      "rationale": "Explicit reviewed California identity; no automatic entity merge or legal-force acceptance.",
+      "evidence": [
+        {
+          "url": "https://results.lavote.gov/text-results/4338",
+          "body_sha256": "685a4fc24e258a7ab8fcf8e103511a873f57145c22500695db65286b3718e443",
+          "locator": "Scoped California source review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "c0f16109-d926-4827-80d4-ab3bfd4fced5",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "5dd8dee1-b24a-4239-a5d1-a1632ce74177"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-california-v1",
+          "source_id": "5dd8dee1-b24a-4239-a5d1-a1632ce74177",
+          "record_sha256": "99df3da49836453c41ccc28a71245c95d0ab929354a86b06cdfa5f842a3f0ae6"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T03:52:33.930146+00:00",
+      "rationale": "Explicit reviewed California identity; no automatic entity merge or legal-force acceptance.",
+      "evidence": [
+        {
+          "url": "https://results.lavote.gov/text-results/4338",
+          "body_sha256": "685a4fc24e258a7ab8fcf8e103511a873f57145c22500695db65286b3718e443",
+          "locator": "Scoped California source review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "d0b39647-800a-4644-bdea-667fc16d4f6f",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "5bb450ee-b985-459f-a12d-014312dce3e7"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-california-v1",
+          "source_id": "5bb450ee-b985-459f-a12d-014312dce3e7",
+          "record_sha256": "5358dfd04908c41c4d4049a3ab8e72b2ff3549075a270135d7abee6bf5b4c3b3"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T03:52:33.930146+00:00",
+      "rationale": "Explicit reviewed California identity; no automatic entity merge or legal-force acceptance.",
+      "evidence": [
+        {
+          "url": "https://results.lavote.gov/text-results/4338",
+          "body_sha256": "685a4fc24e258a7ab8fcf8e103511a873f57145c22500695db65286b3718e443",
+          "locator": "Scoped California source review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "258ffba6-d3da-42a7-a21b-861791f9ffc4",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "cbece59d-c8eb-4e43-9b53-b0c6bed7c97a"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-california-v1",
+          "source_id": "cbece59d-c8eb-4e43-9b53-b0c6bed7c97a",
+          "record_sha256": "207e3bf145d94635c6138d1985a2df1d398600d44d25c78d2f3b6fbc245886ba"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T03:52:33.930146+00:00",
+      "rationale": "Explicit reviewed California identity; no automatic entity merge or legal-force acceptance.",
+      "evidence": [
+        {
+          "url": "https://results.lavote.gov/text-results/4338",
+          "body_sha256": "685a4fc24e258a7ab8fcf8e103511a873f57145c22500695db65286b3718e443",
+          "locator": "Scoped California source review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "e75fcff4-e328-445b-8bd9-3b031cf36665",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "25686a43-489c-4d6e-aed4-5e3c3c25ba92"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-california-v1",
+          "source_id": "25686a43-489c-4d6e-aed4-5e3c3c25ba92",
+          "record_sha256": "07745532329f5f7a877ff314c76a1987c97e085409e67246ec0ace7ed20e871e"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T03:52:33.930146+00:00",
+      "rationale": "Explicit reviewed California identity; no automatic entity merge or legal-force acceptance.",
+      "evidence": [
+        {
+          "url": "https://montereypark.ca.gov/DocumentCenter/View/19275/2026-R56-Certifying-Election-June-2-2026",
+          "body_sha256": "5d67d34c9336bb5f3d2946dec0e261c90d57db1e9147af0f638212af1a7accdd",
+          "locator": "Scoped California source review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "6fb9cd53-23cc-4039-b618-50af5ba44a4a",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "cf9ae2a5-ce2f-41f1-ab50-020669d18af0"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-california-v1",
+          "source_id": "cf9ae2a5-ce2f-41f1-ab50-020669d18af0",
+          "record_sha256": "b2b10a0dfaadecf1be89bd6f22c07180297125a3d61f281a51c607a814b269ca"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T03:52:33.930146+00:00",
+      "rationale": "Explicit reviewed California identity; no automatic entity merge or legal-force acceptance.",
+      "evidence": [
+        {
+          "url": "https://montereypark.ca.gov/DocumentCenter/View/19275/2026-R56-Certifying-Election-June-2-2026",
+          "body_sha256": "5d67d34c9336bb5f3d2946dec0e261c90d57db1e9147af0f638212af1a7accdd",
+          "locator": "Scoped California source review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "3ed7b6b2-3559-4f21-8af9-777794d5c2b5",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "d5e058a0-749d-4f0f-9bff-9055544bcf8f"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-california-v1",
+          "source_id": "d5e058a0-749d-4f0f-9bff-9055544bcf8f",
+          "record_sha256": "daa0a1556318f9331f826148f5c356fc1d9119749122952ecd1d0da7cbabb6b6"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T03:52:33.930146+00:00",
+      "rationale": "Explicit reviewed California identity; no automatic entity merge or legal-force acceptance.",
+      "evidence": [
+        {
+          "url": "https://montereypark.ca.gov/DocumentCenter/View/19275/2026-R56-Certifying-Election-June-2-2026",
+          "body_sha256": "5d67d34c9336bb5f3d2946dec0e261c90d57db1e9147af0f638212af1a7accdd",
+          "locator": "Scoped California source review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "b6a2f73f-3d01-45ac-a82c-26f3ae8f3874",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "84ef0f47-dab2-4751-afaa-fe0f6bc9a789"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-california-v1",
+          "source_id": "84ef0f47-dab2-4751-afaa-fe0f6bc9a789",
+          "record_sha256": "58b7ceafb5eef30aee26532e1dcf601b485d19f240f91193e8b08bcd2afc2961"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T03:52:33.930146+00:00",
+      "rationale": "Explicit reviewed California identity; no automatic entity merge or legal-force acceptance.",
+      "evidence": [
+        {
+          "url": "https://montereypark.ca.gov/DocumentCenter/View/19275/2026-R56-Certifying-Election-June-2-2026",
+          "body_sha256": "5d67d34c9336bb5f3d2946dec0e261c90d57db1e9147af0f638212af1a7accdd",
+          "locator": "Scoped California source review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "868f4952-477d-4a83-b66b-5aaff1bad5f4",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "f9d0acf5-8467-410e-a7ee-93cd2197a358"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-california-v1",
+          "source_id": "f9d0acf5-8467-410e-a7ee-93cd2197a358",
+          "record_sha256": "9b4415fc9f3c74474a5bc75da6affb1b99f3aea92f7c31b88ff14561e0aa10ae"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T03:52:33.930146+00:00",
+      "rationale": "Explicit reviewed California identity; no automatic entity merge or legal-force acceptance.",
+      "evidence": [
+        {
+          "url": "https://montereypark.ca.gov/DocumentCenter/View/19275/2026-R56-Certifying-Election-June-2-2026",
+          "body_sha256": "5d67d34c9336bb5f3d2946dec0e261c90d57db1e9147af0f638212af1a7accdd",
+          "locator": "Scoped California source review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "a8b16ca4-9c39-4df3-a726-47e672aa239e",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "1097c0a0-84e2-4094-894c-87aec77cb686"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-california-v1",
+          "source_id": "1097c0a0-84e2-4094-894c-87aec77cb686",
+          "record_sha256": "acffa7780c9872070b2543bf9ffa16d3ebc0987e1af129183740da66e6f54b55"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T03:52:33.930146+00:00",
+      "rationale": "Explicit reviewed California identity; no automatic entity merge or legal-force acceptance.",
+      "evidence": [
+        {
+          "url": "https://montereypark.ca.gov/DocumentCenter/View/19275/2026-R56-Certifying-Election-June-2-2026",
+          "body_sha256": "5d67d34c9336bb5f3d2946dec0e261c90d57db1e9147af0f638212af1a7accdd",
+          "locator": "Scoped California source review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "84f672cb-1c85-402e-a1d3-5278dbb421f0",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "3c467c3d-48f9-4e4f-9447-f43171b6effc"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-california-v1",
+          "source_id": "3c467c3d-48f9-4e4f-9447-f43171b6effc",
+          "record_sha256": "a55cb3466818d1a74c0c80796019ca0d4b902a9a31dc50241194bf93bcc57c2d"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T03:52:33.930146+00:00",
+      "rationale": "Explicit reviewed California identity; no automatic entity merge or legal-force acceptance.",
+      "evidence": [
+        {
+          "url": "https://montereypark.ca.gov/DocumentCenter/View/19275/2026-R56-Certifying-Election-June-2-2026",
+          "body_sha256": "5d67d34c9336bb5f3d2946dec0e261c90d57db1e9147af0f638212af1a7accdd",
+          "locator": "Scoped California source review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "8376ad9d-ca7a-41e8-8f13-9bf2f9500ef9",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "c5394c77-bc52-401f-9a41-95b78a3180ee"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-california-v1",
+          "source_id": "c5394c77-bc52-401f-9a41-95b78a3180ee",
+          "record_sha256": "8497ec30c9838476fece5e5e133241f623e5542a12f269b27e68834e19ad4c6b"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T03:52:33.930146+00:00",
+      "rationale": "Explicit reviewed California identity; no automatic entity merge or legal-force acceptance.",
+      "evidence": [
+        {
+          "url": "https://montereypark.ca.gov/DocumentCenter/View/19275/2026-R56-Certifying-Election-June-2-2026",
+          "body_sha256": "5d67d34c9336bb5f3d2946dec0e261c90d57db1e9147af0f638212af1a7accdd",
+          "locator": "Scoped California source review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "7f83586a-5e59-4423-ae48-28cbe26832cb",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "32bd23d9-2723-4102-a606-22b8b46fdfa0"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-california-v1",
+          "source_id": "32bd23d9-2723-4102-a606-22b8b46fdfa0",
+          "record_sha256": "226ac7894238446fa8f92bbee86c1e8d9b4a8508007c034f53062fd2b80b8c15"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T03:52:33.930146+00:00",
+      "rationale": "Explicit reviewed California identity; no automatic entity merge or legal-force acceptance.",
+      "evidence": [
+        {
+          "url": "https://montereypark.ca.gov/DocumentCenter/View/19275/2026-R56-Certifying-Election-June-2-2026",
+          "body_sha256": "5d67d34c9336bb5f3d2946dec0e261c90d57db1e9147af0f638212af1a7accdd",
+          "locator": "Scoped California source review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "e8f90b0f-5c10-460e-86fa-a680ce8aa5da",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "f8f48ce1-698e-4b1e-b571-9be6613d9661"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-california-v1",
+          "source_id": "f8f48ce1-698e-4b1e-b571-9be6613d9661",
+          "record_sha256": "dd0abbbeb5b19253168aa5a3aa504881ef45fb049be3243d4aa2880783d5e196"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T03:52:33.930146+00:00",
+      "rationale": "Explicit reviewed California identity; no automatic entity merge or legal-force acceptance.",
+      "evidence": [
+        {
+          "url": "https://montereypark.ca.gov/DocumentCenter/View/19275/2026-R56-Certifying-Election-June-2-2026",
+          "body_sha256": "5d67d34c9336bb5f3d2946dec0e261c90d57db1e9147af0f638212af1a7accdd",
+          "locator": "Scoped California source review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "0f31016d-2e8c-4ac2-b83f-a0572b6831c8",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "95c34592-9075-48d9-96d0-2d3098e825a9"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-california-v1",
+          "source_id": "95c34592-9075-48d9-96d0-2d3098e825a9",
+          "record_sha256": "ec775ab45f611e628c9a015d2ed5681d381351263e3a2d17cf130b1ba84602e0"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T03:52:33.930146+00:00",
+      "rationale": "Explicit reviewed California identity; no automatic entity merge or legal-force acceptance.",
+      "evidence": [
+        {
+          "url": "https://montereypark.ca.gov/DocumentCenter/View/19275/2026-R56-Certifying-Election-June-2-2026",
+          "body_sha256": "5d67d34c9336bb5f3d2946dec0e261c90d57db1e9147af0f638212af1a7accdd",
+          "locator": "Scoped California source review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "d322bfae-686b-4b28-84dc-7017b2d7eb6d",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "448dfca6-7329-4adf-b852-84b937cd3b47"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-california-v1",
+          "source_id": "448dfca6-7329-4adf-b852-84b937cd3b47",
+          "record_sha256": "9dca85b61233e20e09053b7243b14acf47cd583d0c73dac171ab3e0ec311c0cb"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T03:52:33.930146+00:00",
+      "rationale": "Explicit reviewed California identity; no automatic entity merge or legal-force acceptance.",
+      "evidence": [
+        {
+          "url": "https://montereypark.ca.gov/DocumentCenter/View/19275/2026-R56-Certifying-Election-June-2-2026",
+          "body_sha256": "5d67d34c9336bb5f3d2946dec0e261c90d57db1e9147af0f638212af1a7accdd",
+          "locator": "Scoped California source review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "497af631-79c8-468b-af5d-366cd5ede9cd",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "7c67aafa-5b5d-445d-bc25-75af9c8031b3"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-california-v1",
+          "source_id": "7c67aafa-5b5d-445d-bc25-75af9c8031b3",
+          "record_sha256": "23d294835806f759527af756c7296446c6fb4b4c30709ca2638ca6e8e97f6782"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T03:52:33.930146+00:00",
+      "rationale": "Explicit reviewed California identity; no automatic entity merge or legal-force acceptance.",
+      "evidence": [
+        {
+          "url": "https://montereypark.ca.gov/DocumentCenter/View/19275/2026-R56-Certifying-Election-June-2-2026",
+          "body_sha256": "5d67d34c9336bb5f3d2946dec0e261c90d57db1e9147af0f638212af1a7accdd",
+          "locator": "Scoped California source review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "1ba532a7-0b37-40b6-8652-4bed62e4098c",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "64d8bbb9-3a00-4db3-a9cb-dafb56595d3c"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-california-v1",
+          "source_id": "64d8bbb9-3a00-4db3-a9cb-dafb56595d3c",
+          "record_sha256": "dbcc430101387ad039f1d4355d61cc1fb93bebbdeb6d2a7c348dc9212aed8a06"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T03:52:33.930146+00:00",
+      "rationale": "Explicit reviewed California identity; no automatic entity merge or legal-force acceptance.",
+      "evidence": [
+        {
+          "url": "https://montereypark.ca.gov/DocumentCenter/View/19275/2026-R56-Certifying-Election-June-2-2026",
+          "body_sha256": "5d67d34c9336bb5f3d2946dec0e261c90d57db1e9147af0f638212af1a7accdd",
+          "locator": "Scoped California source review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "5892253e-bad7-4931-9ee8-e568e15511aa",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "189e4c2a-8dd7-4f11-841c-a892cc83f19c"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-california-v1",
+          "source_id": "189e4c2a-8dd7-4f11-841c-a892cc83f19c",
+          "record_sha256": "c850fd42563ee2ea4e0f44a3f3049319b45d7ae57eace2f00af204fca65e06b4"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T03:52:33.930146+00:00",
+      "rationale": "Explicit reviewed California identity; no automatic entity merge or legal-force acceptance.",
+      "evidence": [
+        {
+          "url": "https://montereypark.ca.gov/DocumentCenter/View/19275/2026-R56-Certifying-Election-June-2-2026",
+          "body_sha256": "5d67d34c9336bb5f3d2946dec0e261c90d57db1e9147af0f638212af1a7accdd",
+          "locator": "Scoped California source review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "7bc854f4-1253-477f-8e7a-96a272939e12",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "041a668e-bab7-4b23-8ad8-79bbedb9dc05"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-california-v1",
+          "source_id": "041a668e-bab7-4b23-8ad8-79bbedb9dc05",
+          "record_sha256": "8de7b05622acf1b2456ff5c40435970ee6ae635435b6e174fe3147e6c6aedfa1"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T03:52:33.930146+00:00",
+      "rationale": "Explicit reviewed California identity; no automatic entity merge or legal-force acceptance.",
+      "evidence": [
+        {
+          "url": "https://montereypark.ca.gov/DocumentCenter/View/19275/2026-R56-Certifying-Election-June-2-2026",
+          "body_sha256": "5d67d34c9336bb5f3d2946dec0e261c90d57db1e9147af0f638212af1a7accdd",
+          "locator": "Scoped California source review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "eb387a68-f4f6-47a5-9953-dc7e86de8cd2",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "e7527d6f-d388-4dfb-a978-f885c0370779"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-california-v1",
+          "source_id": "e7527d6f-d388-4dfb-a978-f885c0370779",
+          "record_sha256": "c4d8bcac126a73a44591a564988cb0a19c2532dcf7103466a1a3a5230db10417"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T03:52:33.930146+00:00",
+      "rationale": "Explicit reviewed California identity; no automatic entity merge or legal-force acceptance.",
+      "evidence": [
+        {
+          "url": "https://montereypark.ca.gov/DocumentCenter/View/19275/2026-R56-Certifying-Election-June-2-2026",
+          "body_sha256": "5d67d34c9336bb5f3d2946dec0e261c90d57db1e9147af0f638212af1a7accdd",
+          "locator": "Scoped California source review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "cef057ca-8ba5-4132-a599-df045e2a40b8",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "edab1c41-593f-4d49-a836-ed183ae387ea"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-california-v1",
+          "source_id": "edab1c41-593f-4d49-a836-ed183ae387ea",
+          "record_sha256": "1f2bc1e4787ed088654dbe71c2f10c5308345ea53588cde408ceda54302bbe3b"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T03:52:33.930146+00:00",
+      "rationale": "Explicit reviewed California identity; no automatic entity merge or legal-force acceptance.",
+      "evidence": [
+        {
+          "url": "https://montereypark.ca.gov/DocumentCenter/View/19275/2026-R56-Certifying-Election-June-2-2026",
+          "body_sha256": "5d67d34c9336bb5f3d2946dec0e261c90d57db1e9147af0f638212af1a7accdd",
+          "locator": "Scoped California source review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "dd7628a2-31e8-40f7-b3bb-b8b6b79c3533",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "1b69e1d7-aaa0-4381-82fe-cdf22b86a8c3"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-california-v1",
+          "source_id": "1b69e1d7-aaa0-4381-82fe-cdf22b86a8c3",
+          "record_sha256": "2f5bec141864b07c5e6052a0091a1da3c4e68c8e7592b41f411c41f11e907227"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T03:52:33.930146+00:00",
+      "rationale": "Explicit reviewed California identity; no automatic entity merge or legal-force acceptance.",
+      "evidence": [
+        {
+          "url": "https://montereypark.ca.gov/DocumentCenter/View/19275/2026-R56-Certifying-Election-June-2-2026",
+          "body_sha256": "5d67d34c9336bb5f3d2946dec0e261c90d57db1e9147af0f638212af1a7accdd",
+          "locator": "Scoped California source review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "f9b8567c-1543-495f-82ca-7e6b8156ea87",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "ce7eeb91-67b1-4c3c-8834-40066d193a00"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-california-v1",
+          "source_id": "ce7eeb91-67b1-4c3c-8834-40066d193a00",
+          "record_sha256": "f3405b5fe84ba40dfa1f69c6ac1b1bee27aa67602b180b25a343a05a2758628b"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T03:52:33.930146+00:00",
+      "rationale": "Explicit reviewed California identity; no automatic entity merge or legal-force acceptance.",
+      "evidence": [
+        {
+          "url": "https://montereypark.ca.gov/DocumentCenter/View/19275/2026-R56-Certifying-Election-June-2-2026",
+          "body_sha256": "5d67d34c9336bb5f3d2946dec0e261c90d57db1e9147af0f638212af1a7accdd",
+          "locator": "Scoped California source review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "ffa4b6a1-eb0c-45cd-aaff-ba5f281b5bba",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "d621eb85-1e09-4fff-84b7-fdc71b6a1aaf"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-california-v1",
+          "source_id": "d621eb85-1e09-4fff-84b7-fdc71b6a1aaf",
+          "record_sha256": "3d200301fd4b57d3714b433269d3d59c988e65abd1462cd3d464a1ce1c3496ec"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T03:52:33.930146+00:00",
+      "rationale": "Explicit reviewed California identity; no automatic entity merge or legal-force acceptance.",
+      "evidence": [
+        {
+          "url": "https://results.lavote.gov/text-results/4348",
+          "body_sha256": "3287c6eca4be5a4d5894441c3dcf9869d75737852b7bf0017d944e1989e97fe0",
+          "locator": "Scoped California source review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "97d0f2da-72aa-4558-b419-a26ceff1af34",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "00b0e7e0-fc98-42b8-9be7-7e292ceb7c5f"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-california-v1",
+          "source_id": "00b0e7e0-fc98-42b8-9be7-7e292ceb7c5f",
+          "record_sha256": "1705921d873e88130d9ff807acc35ae28d3675ec3e16341c9082971300c54b5a"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T03:52:33.930146+00:00",
+      "rationale": "Explicit reviewed California identity; no automatic entity merge or legal-force acceptance.",
+      "evidence": [
+        {
+          "url": "https://results.lavote.gov/text-results/4348",
+          "body_sha256": "3287c6eca4be5a4d5894441c3dcf9869d75737852b7bf0017d944e1989e97fe0",
+          "locator": "Scoped California source review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "92c0c16e-1437-4b83-96e6-365f5f4f28c1",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "bf6c8982-844d-4158-9293-bbadc114f9bf"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-california-v1",
+          "source_id": "bf6c8982-844d-4158-9293-bbadc114f9bf",
+          "record_sha256": "890623cc9f970d38f71a4f10b6847c61f06a24e072c6aa94746980e388b66230"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T03:52:33.930146+00:00",
+      "rationale": "Explicit reviewed California identity; no automatic entity merge or legal-force acceptance.",
+      "evidence": [
+        {
+          "url": "https://results.lavote.gov/text-results/4348",
+          "body_sha256": "3287c6eca4be5a4d5894441c3dcf9869d75737852b7bf0017d944e1989e97fe0",
+          "locator": "Scoped California source review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "89bdaf7c-f657-408f-a6ff-5e28f3e38ab6",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "96aec277-0e39-4fe9-9474-2a7497c68a27"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-california-v1",
+          "source_id": "96aec277-0e39-4fe9-9474-2a7497c68a27",
+          "record_sha256": "2a76002abcbb30da3357144f7b1d46308d850708da49775aecee72bd5b54f533"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T03:52:33.930146+00:00",
+      "rationale": "Explicit reviewed California identity; no automatic entity merge or legal-force acceptance.",
+      "evidence": [
+        {
+          "url": "https://results.lavote.gov/text-results/4348",
+          "body_sha256": "3287c6eca4be5a4d5894441c3dcf9869d75737852b7bf0017d944e1989e97fe0",
+          "locator": "Scoped California source review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "fcaf3f9e-0ed7-4f8f-bb43-3959d1665eee",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "c3c0c766-fe6d-4161-9332-6424d9180c86"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-california-v1",
+          "source_id": "c3c0c766-fe6d-4161-9332-6424d9180c86",
+          "record_sha256": "31ab40350637433cd8cdb8229eb27e419f952d3d38d4d74fc9526e5e88e9047c"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T03:52:33.930146+00:00",
+      "rationale": "Explicit reviewed California identity; no automatic entity merge or legal-force acceptance.",
+      "evidence": [
+        {
+          "url": "https://results.lavote.gov/text-results/4348",
+          "body_sha256": "3287c6eca4be5a4d5894441c3dcf9869d75737852b7bf0017d944e1989e97fe0",
+          "locator": "Scoped California source review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "ddff177a-4c2d-4666-ba32-a3bd608ae01d",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "21847ca9-b654-4a5d-a766-fd55178388a9"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-california-v1",
+          "source_id": "21847ca9-b654-4a5d-a766-fd55178388a9",
+          "record_sha256": "4e537fb551cc2851c50fa542fb96c70dcc7d28e46a66646d67d48b56ffbd4084"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T03:52:33.930146+00:00",
+      "rationale": "Explicit reviewed California identity; no automatic entity merge or legal-force acceptance.",
+      "evidence": [
+        {
+          "url": "https://results.lavote.gov/text-results/4348",
+          "body_sha256": "3287c6eca4be5a4d5894441c3dcf9869d75737852b7bf0017d944e1989e97fe0",
+          "locator": "Scoped California source review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "4d57d09e-7128-43b6-a0f7-9eeefb8179b4",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "e585f0c4-1977-451f-9123-bd4311d9aa36"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-california-v1",
+          "source_id": "e585f0c4-1977-451f-9123-bd4311d9aa36",
+          "record_sha256": "23672337349f89dab573db02459630aea01ab0c44760d59a859002c35c5055d7"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T03:52:33.930146+00:00",
+      "rationale": "Explicit reviewed California identity; no automatic entity merge or legal-force acceptance.",
+      "evidence": [
+        {
+          "url": "https://results.lavote.gov/text-results/4348",
+          "body_sha256": "3287c6eca4be5a4d5894441c3dcf9869d75737852b7bf0017d944e1989e97fe0",
+          "locator": "Scoped California source review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "6791b39d-afb7-475f-819a-0569e535ee85",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "50aabb8f-d4c5-4d05-bff9-f2e06203472e"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-california-v1",
+          "source_id": "50aabb8f-d4c5-4d05-bff9-f2e06203472e",
+          "record_sha256": "708743f1c11cb70f19b3e1122d3c67f8156fe19af8ef6d05121dd51d356b9161"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T03:52:33.930146+00:00",
+      "rationale": "Explicit reviewed California identity; no automatic entity merge or legal-force acceptance.",
+      "evidence": [
+        {
+          "url": "https://results.lavote.gov/text-results/4348",
+          "body_sha256": "3287c6eca4be5a4d5894441c3dcf9869d75737852b7bf0017d944e1989e97fe0",
+          "locator": "Scoped California source review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "dfb9052f-a007-4b2c-8ced-fc05b43afc6a",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "77d590ec-6343-4987-a873-f5e296bf5cba"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-california-v1",
+          "source_id": "77d590ec-6343-4987-a873-f5e296bf5cba",
+          "record_sha256": "e02c9d04b252d96cfacfade472477a131b4bb754f53d6beb4f0347e7197696b7"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T03:52:33.930146+00:00",
+      "rationale": "Explicit reviewed California identity; no automatic entity merge or legal-force acceptance.",
+      "evidence": [
+        {
+          "url": "https://results.lavote.gov/text-results/4348",
+          "body_sha256": "3287c6eca4be5a4d5894441c3dcf9869d75737852b7bf0017d944e1989e97fe0",
+          "locator": "Scoped California source review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "427faa87-1489-4f63-9e1c-b11345dd37bf",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "7f01cd8d-db3a-46c2-82ea-380f624355b0"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-california-v1",
+          "source_id": "7f01cd8d-db3a-46c2-82ea-380f624355b0",
+          "record_sha256": "c7ef157cd273f78f7a0e3da74687dcf424a561ccaff6e1a87bfe3aff92dd3991"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T03:52:33.930146+00:00",
+      "rationale": "Explicit reviewed California identity; no automatic entity merge or legal-force acceptance.",
+      "evidence": [
+        {
+          "url": "https://montereypark.ca.gov/DocumentCenter/View/19275/2026-R56-Certifying-Election-June-2-2026",
+          "body_sha256": "5d67d34c9336bb5f3d2946dec0e261c90d57db1e9147af0f638212af1a7accdd",
+          "locator": "Scoped California source review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "44580099-bbaa-4ce4-b222-16a0cd4b8e64",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "b27c8a53-6eee-460c-a9a1-0321b13aea4d"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-california-v1",
+          "source_id": "b27c8a53-6eee-460c-a9a1-0321b13aea4d",
+          "record_sha256": "bdeb4bee088169297ed69869647418d8c77e24ab13a62380fdc54b643052e99b"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T03:52:33.930146+00:00",
+      "rationale": "Explicit reviewed California identity; no automatic entity merge or legal-force acceptance.",
+      "evidence": [
+        {
+          "url": "https://montereypark.ca.gov/DocumentCenter/View/19275/2026-R56-Certifying-Election-June-2-2026",
+          "body_sha256": "5d67d34c9336bb5f3d2946dec0e261c90d57db1e9147af0f638212af1a7accdd",
+          "locator": "Scoped California source review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "d26a6eca-16e6-4663-a3f9-7f70ac53c383",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "c246ad09-baf9-4ba9-9eec-fa3ccad5a95b"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-california-v1",
+          "source_id": "c246ad09-baf9-4ba9-9eec-fa3ccad5a95b",
+          "record_sha256": "6fff0bb3b6e937cf76f131fa7b7a501f109d9876a3957f46f715d588973c6920"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T03:52:33.930146+00:00",
+      "rationale": "Explicit reviewed California identity; no automatic entity merge or legal-force acceptance.",
+      "evidence": [
+        {
+          "url": "https://montereypark.ca.gov/DocumentCenter/View/19275/2026-R56-Certifying-Election-June-2-2026",
+          "body_sha256": "5d67d34c9336bb5f3d2946dec0e261c90d57db1e9147af0f638212af1a7accdd",
+          "locator": "Scoped California source review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "92ce3912-f57d-497f-a85e-c19d71d17334",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "cfb3d81c-3592-4384-8b84-a29bad826037"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-california-v1",
+          "source_id": "cfb3d81c-3592-4384-8b84-a29bad826037",
+          "record_sha256": "25fbcaaaf87346c830002ed75f6bbbad28b5f8b7c4a125e6221d41dd9675e2cf"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T03:52:33.930146+00:00",
+      "rationale": "Explicit reviewed California identity; no automatic entity merge or legal-force acceptance.",
+      "evidence": [
+        {
+          "url": "https://montereypark.ca.gov/DocumentCenter/View/19275/2026-R56-Certifying-Election-June-2-2026",
+          "body_sha256": "5d67d34c9336bb5f3d2946dec0e261c90d57db1e9147af0f638212af1a7accdd",
+          "locator": "Scoped California source review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "38ee3bbd-2dc7-4233-9402-d60e032085fd",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "919ecd94-56e8-4ed5-9b76-827472c80bc6"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-california-v1",
+          "source_id": "919ecd94-56e8-4ed5-9b76-827472c80bc6",
+          "record_sha256": "4a827ee8b72cc5dcbf6f4cc303a2992ed0e8c4432226f6eb9837bc897ee0f98e"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T03:52:33.930146+00:00",
+      "rationale": "Explicit reviewed California identity; no automatic entity merge or legal-force acceptance.",
+      "evidence": [
+        {
+          "url": "https://montereypark.ca.gov/DocumentCenter/View/19275/2026-R56-Certifying-Election-June-2-2026",
+          "body_sha256": "5d67d34c9336bb5f3d2946dec0e261c90d57db1e9147af0f638212af1a7accdd",
+          "locator": "Scoped California source review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "496da76e-9a87-4372-a881-fdfec0feb711",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "96bfe185-e8b5-4269-9d21-06c96a0177d0"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-california-v1",
+          "source_id": "96bfe185-e8b5-4269-9d21-06c96a0177d0",
+          "record_sha256": "931763cd9f170f9e25ab816a73d879d46acab32531dd17609eed468163edcc7c"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T03:52:33.930146+00:00",
+      "rationale": "Explicit reviewed California identity; no automatic entity merge or legal-force acceptance.",
+      "evidence": [
+        {
+          "url": "https://montereypark.ca.gov/DocumentCenter/View/19275/2026-R56-Certifying-Election-June-2-2026",
+          "body_sha256": "5d67d34c9336bb5f3d2946dec0e261c90d57db1e9147af0f638212af1a7accdd",
+          "locator": "Scoped California source review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "42c56b83-9f94-4353-a607-4d0e31804263",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "c9b92e07-941a-425c-b103-3909f1d72bd2"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-california-v1",
+          "source_id": "c9b92e07-941a-425c-b103-3909f1d72bd2",
+          "record_sha256": "b24e9db511d29ec682c992935d267d05c1e2d8008f6baebf11675857912f3414"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T03:52:33.930146+00:00",
+      "rationale": "Explicit reviewed California identity; no automatic entity merge or legal-force acceptance.",
+      "evidence": [
+        {
+          "url": "https://montereypark.ca.gov/DocumentCenter/View/19275/2026-R56-Certifying-Election-June-2-2026",
+          "body_sha256": "5d67d34c9336bb5f3d2946dec0e261c90d57db1e9147af0f638212af1a7accdd",
+          "locator": "Scoped California source review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "5f501e23-9de7-4791-8dc9-5921660fcf09",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "dbebe317-b67e-48ef-8ee2-a2c79d87cf72"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-california-v1",
+          "source_id": "dbebe317-b67e-48ef-8ee2-a2c79d87cf72",
+          "record_sha256": "2e97b09f614bd7aa62e7ed8563ddfbfe08a4dde0c5a8f97921380999139d5620"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T03:52:33.930146+00:00",
+      "rationale": "Explicit reviewed California identity; no automatic entity merge or legal-force acceptance.",
+      "evidence": [
+        {
+          "url": "https://montereypark.ca.gov/DocumentCenter/View/19275/2026-R56-Certifying-Election-June-2-2026",
+          "body_sha256": "5d67d34c9336bb5f3d2946dec0e261c90d57db1e9147af0f638212af1a7accdd",
+          "locator": "Scoped California source review; exact row fingerprint pinned."
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "549bbf18-b914-49c9-a339-14b17ff2c073",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "c8539a94-2088-440c-9708-b52d0c381eac"
+      ],
+      "aliases": [
+        {
+          "namespace": "coordinator-california-v1",
+          "source_id": "c8539a94-2088-440c-9708-b52d0c381eac",
+          "record_sha256": "1a9d5bad55f198ad351fb164ca7de5cedd8dc12e7c6acbbce38ab83ec120ccb2"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-06T03:52:33.930146+00:00",
+      "rationale": "Explicit reviewed California identity; no automatic entity merge or legal-force acceptance.",
+      "evidence": [
+        {
+          "url": "https://montereypark.ca.gov/DocumentCenter/View/19275/2026-R56-Certifying-Election-June-2-2026",
+          "body_sha256": "5d67d34c9336bb5f3d2946dec0e261c90d57db1e9147af0f638212af1a7accdd",
+          "locator": "Scoped California source review; exact row fingerprint pinned."
+        }
+      ]
+    }
+  ]
+}

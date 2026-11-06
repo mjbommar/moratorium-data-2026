@@ -132,6 +132,31 @@ an accepted term. Passage outcome and current legal force remain unresolved.
 [Source tally post](https://www.facebook.com/FreedomMaineTownOffice/posts/secret-ballot-election-results/1459298219642313/),
 [official town-linked draft](https://www.freedomme.org/_files/ugd/8d8f5c_be3f789c00ae4e1eb75f14bae34aac9e.pdf).
 
+Alhambra, California, Measure DB retains the November 5 county snapshot of 15,237
+yes / 3,132 no, explicitly superseding the older 13,314 / 2,889 observation.
+Certification, reporting completeness and final passage outcome remain unknown.
+The actual question adopts an ordinance affirming the existing council ban; a
+failed measure would leave that council ban in place, according to the city
+attorney. The June 22 predecessor adoption and July 27 election referral remain
+separate acts. Unsigned Word attachments supply proposed clauses, not certified
+voter enactment. The accessory exclusion requires both incidental use and strict
+support of on-site operations; no acreage threshold is asserted for Alhambra.
+[County returns](https://results.lavote.gov/text-results/4348),
+[scoped review](../work/research/2026-11-05/california-ballot-review/README.md).
+
+Monterey Park, California, Measure NDC is the earlier June 2 election, with
+certified 10,388 yes / 1,372 no and source-reported approval. Its contest-labelled
+canvass supplies 12,381 ballots cast and 32,781 registrations; the difference from
+yes/no is not assigned to blanks or under/overvotes. The result observation uses
+the June 30 city-clerk certification phase, while source claims retain June 26
+county certification, July 1 council declaration and signed Ordinance 2280 dated
+July 2 separately. The land-based one-acre definition and conjunctive under-one-acre
+accessory/incidental exclusion remain explicit. The ten-day Council-certification
+rule, implementation and current force remain unresolved. Ordinance 2280 is not
+silently merged with council Ordinance 2278 or prior moratoria 2272/2274.
+[Certification and ordinance packet](https://montereypark.ca.gov/DocumentCenter/View/19275/2026-R56-Certifying-Election-June-2-2026),
+[publication scope](../work/research/2026-11-05/california-promotion/README.md).
+
 No current legal-force restriction, instrument event or measure/instrument link has
 been accepted in these initial cohorts, and their publication does not add active
 legacy moratorium rows. Other jurisdictions, earlier and future elections, legal

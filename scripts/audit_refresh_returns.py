@@ -40,6 +40,7 @@ def evidence_index(directory):
         if not body.exists() or not text.exists():
             issues.append({'attempt_id':e['attempt_id'],'error':'missing body/text'});continue
         raw,txt=body.read_bytes(),text.read_bytes()
+        original_text,original_bytes=text,txt
         if hashlib.sha256(raw).hexdigest()!=e['body_sha256']:
             issues.append({'attempt_id':e['attempt_id'],'error':'body/text hash drift; explicit derivation required'});continue
         derivation=derivations.get(e['attempt_id'])
@@ -53,10 +54,19 @@ def evidence_index(directory):
                 issues.append({'attempt_id':e['attempt_id'],'error':'derived text hash drift'});continue
         elif hashlib.sha256(txt).hexdigest()!=e['text_sha256']:
             issues.append({'attempt_id':e['attempt_id'],'error':'text hash drift; explicit derivation required'});continue
-        entry={'attempt_id':e['attempt_id'],'text':txt.decode('utf-8'),'text_artifact':str(text),
-               'body_artifact':str(body),
-               'body_sha256':e['body_sha256'],'text_sha256':hashlib.sha256(txt).hexdigest()}
-        for url in set([e['url'],e.get('final_url') or e['url']]):index[url].append(entry)
+        variants=[(text,txt)]
+        # A reviewed derivation adds a text version; it must not make an earlier
+        # immutable publication's original extraction unreachable. Retain that
+        # original only when its bytes still match the acquisition ledger. The
+        # reviewed derivation remains first for existing preferred-text callers.
+        if (derivation and hashlib.sha256(original_bytes).hexdigest()==e['text_sha256']
+                and original_bytes!=txt):
+            variants.append((original_text,original_bytes))
+        for text_path,text_bytes in variants:
+            entry={'attempt_id':e['attempt_id'],'text':text_bytes.decode('utf-8'),
+                   'text_artifact':str(text_path),'body_artifact':str(body),
+                   'body_sha256':e['body_sha256'],'text_sha256':hashlib.sha256(text_bytes).hexdigest()}
+            for url in set([e['url'],e.get('final_url') or e['url']]):index[url].append(entry)
     return index,issues,dict(totals)
 
 

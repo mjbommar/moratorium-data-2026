@@ -1,0 +1,49 @@
+{
+  "as_of": "2026-11-05",
+  "scope": "Scoped California publication and source-history regression validation; full inventory freshness and legal history remain incomplete",
+  "snapshot_sha256": "af91d0dc59f691283b4bdbab8741572349c0a172ec28fd8641208544d950b7f0",
+  "records": {
+    "jurisdictions": 12,
+    "elections": 12,
+    "ballot_measures": 12,
+    "measure_provisions": 12,
+    "measure_results": 14,
+    "local_restrictions": 0,
+    "instrument_events": 0,
+    "measure_instrument_links": 0,
+    "source_documents": 39,
+    "claims": 113,
+    "review_decisions": 555,
+    "search_runs": 0,
+    "search_attempts": 0,
+    "search_sightings": 0,
+    "coverage_observations": 0
+  },
+  "current_measure_records": 12,
+  "current_result_observations": 12,
+  "current_certified_result_observations": 5,
+  "census_groups_published": 12,
+  "census_groups_pending": 44,
+  "replay_state": "already_applied",
+  "tests": {
+    "command": "/home/mjbommar/projects/bc/bc-modules/.venv/bin/python -m unittest discover -s tests",
+    "passed": 135,
+    "exit_code": 0,
+    "log_sha256": "a7a8a20fac7967279435a9ccd55f428c34592b170c715732976e0c66f57588f6"
+  },
+  "build": {
+    "command": "make data site check PYTHON=.venv/bin/python TODAY=2026-11-05",
+    "exit_code": 0,
+    "log_sha256": "23dc54e8060daf3a2a24854ed3b0a70c350d0dd03d201b95151c1b500d2f8571"
+  },
+  "unchanged_legacy_csv_sha256": {
+    "data/moratorium_inventory.csv": "afb55549e5ee43e72b61a466ef237b75779f231eb102366841e908970e16438c",
+    "data/state_legislation.csv": "0df633feac28eeb31182405d66dc97cca0b609dd2656b15ab929ad306443cbf6"
+  },
+  "source_history_fix": "Verified original text remains indexed alongside registered derived text; original bytes/hash and immutable canonical source records unchanged.",
+  "limitations": [
+    "Canonical subset is not the complete ballot census.",
+    "Certification/result direction does not establish an operative legal-force interval.",
+    "No GitHub release, remote push or deployment performed."
+  ]
+}

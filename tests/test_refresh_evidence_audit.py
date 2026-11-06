@@ -6,10 +6,38 @@ import unittest
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'scripts'))
-from audit_refresh_returns import audit_expanded_evidence, candidate_id_coverage, pinned_evidence_index
+from audit_refresh_returns import audit_expanded_evidence, candidate_id_coverage, pinned_evidence_index, evidence_index
 
 
 class ExpandedEvidenceAudit(unittest.TestCase):
+    def test_registered_derivation_preserves_verified_original_publication(self):
+        from register_text_derivation import register
+        with tempfile.TemporaryDirectory() as tmp:
+            root=Path(tmp);body=b'%PDF retained scan';original=b'';derived=b'Reviewed OCR text.'
+            for suffix,value in [('body',body),('txt',original),('json',b'{}')]:
+                (root/('a.private.'+suffix)).write_bytes(value)
+            sha=lambda raw:hashlib.sha256(raw).hexdigest()
+            event=dict(attempt_id='a',state='finished',kind='fetch',ok=True,
+                       artifact=str(root/'a.private.json'),url='https://example.gov/scan',
+                       final_url='https://example.gov/final',body_sha256=sha(body),text_sha256=sha(original))
+            (root/'attempts.private.jsonl').write_text(json.dumps(event)+'\n')
+            before,issues,_=evidence_index(root);self.assertFalse(issues)
+            ocr=root/'reviewed.private.txt';ocr.write_bytes(derived)
+            register(root,'a',ocr,'synthetic OCR',[1],'test reviewer')
+            after,issues,_=evidence_index(root);self.assertFalse(issues)
+            for url in [event['url'],event['final_url']]:
+                self.assertEqual(after[url][0]['text'],derived.decode())
+                self.assertEqual({v['text_sha256'] for v in after[url]},{sha(original),sha(derived)})
+                self.assertEqual(before[url][0],after[url][1])
+            # A mutated original cannot be admitted merely because OCR exists.
+            (root/'a.private.txt').write_text('Untracked replacement')
+            changed,issues,_=evidence_index(root);self.assertFalse(issues)
+            self.assertEqual([v['text_sha256'] for v in changed[event['url']]],[sha(derived)])
+            # A corrupt registered derivation still fails the attempt closed.
+            ocr.write_text('Changed OCR')
+            broken,issues,_=evidence_index(root)
+            self.assertTrue(issues);self.assertFalse(broken)
+
     def test_reused_source_requires_retained_hash_verified_bytes(self):
         with tempfile.TemporaryDirectory() as tmp:
             base=Path(tmp);body=b'%PDF original';text=b'The measure was approved.'
