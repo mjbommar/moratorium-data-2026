@@ -2,6 +2,8 @@
 
 Plan: [Research modernization and ballot-measure expansion](docs/research-and-ballot-expansion-plan.md).
 
+Closeout execution order: [November refresh closeout](docs/release-closeout.md). This preserves the full requirement scope and sequences remaining review, final data freeze, copy/consumer reconciliation, publication and deployment verification.
+
 Created: 2026-11-05. Execution began under the user’s subsequent active-goal instruction.
 Checked tasks have local evidence; unchecked tasks remain required. No release has been published.
 Complete phases in dependency order; retain evidence and unresolved dispositions.
