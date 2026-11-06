@@ -2,13 +2,13 @@
   "schema_version": "1.0.0",
   "reviewed_as_of": "2026-11-06",
   "reviewer": "coordinator",
-  "canonical_snapshot": "90ec9c224b51b95389719843e1b7cab2f6470fe4f8736e0d378a25b8531ede0f",
+  "canonical_snapshot": "1aa791d3025c556388f207fd1da862bee0f4d5f41db5b8764e5c1974da7d0c15",
   "groups_sha256": "8f5f035c37279135c7980e55ce2075721173ea3f857d969cad9500fee1b2ce1b",
   "summary": {
     "logical_groups": 56,
     "candidate_observations": 58,
-    "groups_with_scoped_canonical_publication": 46,
-    "groups_pending_candidate_review": 10
+    "groups_with_scoped_canonical_publication": 47,
+    "groups_pending_candidate_review": 9
   },
   "scope": "Reviewed explicit publication correspondences only. Does not allocate registry aliases, accept all candidate fields, establish current legal force, or prove a complete election census. Pending is not absence or rejection. Frozen v3 candidate payload remains unchanged.",
   "groups": [
@@ -46,9 +46,12 @@
           "staged_measure_id": "ballot-nj-001::bp-0be552b8685036dc"
         }
       ],
-      "disposition": "candidate_review_pending",
-      "canonical_measure_id": null,
-      "publication_plan": null
+      "disposition": "scoped_canonical_publication",
+      "canonical_measure_id": "6b8fad47-5a06-4041-a343-00951df4acd4",
+      "publication_plan": "work/research/2026-11-06/downe-ballot-promotion/publication-plan.json",
+      "publication_plan_sha256": "10fd43537551713b73730d0fec048569990f78dcf89faa8ce6d080df8dd67a0d",
+      "canonical_record_sha256": "f9e5819ba6a9cbf51b8b72302c5bae42fe208cd55d98338b7a5e21ee30345ab4",
+      "primary_review_status": "scoped_evidence_reviewed_and_published"
     },
     {
       "logical_group_id": "bp-1ea389c4894805fa",
