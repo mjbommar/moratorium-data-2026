@@ -1,0 +1,53 @@
+{
+  "status": "partial_consumer_closure",
+  "consumers": [
+    {
+      "repository": "moratorium-paper",
+      "commit": "3bf7d8592d70fc2e679c72d55b08d1b3604ca66d",
+      "scope": "Historical-edition notice added; manuscript/PDF not revised or republished.",
+      "files": [
+        {
+          "path": "README.md",
+          "sha256": "fe4a6abcc2006e3f8053ad206f77b64369e285e43b7c654edea8f6ff512cfa96"
+        }
+      ],
+      "remote_delivery": "not_verified"
+    },
+    {
+      "repository": "servercountry.org",
+      "commit": "0f57b68c0c16d6fec67c589f32656f40dac48706",
+      "scope": "Township resource reference corrected; production build passed, 1354 pages; rendered notice inspected; remote/deployment pending.",
+      "files": [
+        {
+          "path": "src/pages/resources/for-townships.astro",
+          "sha256": "443547026132cfb51f2b317f8e6866c4573d752ee78b4fabd0925b36f61e18fd"
+        }
+      ],
+      "remote_delivery": "not_verified"
+    },
+    {
+      "repository": "datacenter-data-integration",
+      "commit": "5592a5694cebc109fe068829f1c926a34698cf1a",
+      "scope": "Additive input handoff delivered; accepted bridge outputs, joins and collaborator packets unchanged.",
+      "files": [
+        {
+          "path": "README.md",
+          "sha256": "5be221304e4ed3e74ea7999ee6c1d45469d9629f15aa44b3f7a27be45eba4541"
+        },
+        {
+          "path": "data/source-snapshots/moratoria/2026-11-06-reviewed-working/manifest.json",
+          "sha256": "09a02c2a837ef281303dd9fc7dceb573a499b296eef0c9a66c82525ed96c4c2c"
+        }
+      ],
+      "remote_delivery": "not_verified"
+    }
+  ],
+  "servercountry_build_log_sha256": "10a9984efbfa4ab8b28d7fabc0013928ad769fc9db19f41e452f2e107bc7209b",
+  "remaining": [
+    "Substantive review of other current consumer surfaces",
+    "datacenter-paper-2026, fightadatacenter.com and book dispositions",
+    "Required remote refs and deployments",
+    "Final dataset model/freshness and publication gates"
+  ],
+  "scope": "Specific local edits/builds only; not comprehensive consumer synchronization."
+}
