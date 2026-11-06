@@ -1,0 +1,221 @@
+{
+  "reviewed_at": "2026-11-06T19:58:49.254154+00:00",
+  "reviewer": "coordinator",
+  "inventory_sha256": "ec2d40fd48afeba1f2f517a307f5ce4ba90bf1f5550332d70f8b18f22afb878b",
+  "worker_answers_sha256": "8d7e8d978ea1a07090ad0f5aee98667251dfa917eeab418cbda90c55741041d0",
+  "scope": "Twelve individually inspected candidates from first duration review return: ten accepted encoding corrections pending full frozen-cohort review/apply, two withheld. This is not whole-record freshness, source re-acquisition or present-force verification. Canonical CSV not changed.",
+  "reviews": [
+    {
+      "moratorium_id": "al-foley-2026",
+      "record_sha256": "45cee3a5b44db135f24b1872e897684b208107a09629fa854a1ae1374727d7ec",
+      "disposition": "accepted_encoding_correction_pending_batch_apply",
+      "accepted_fields": {
+        "duration_kind": "calendar_term",
+        "duration_days": ""
+      },
+      "rationale": "Retained contemporaneous source describes the original council-approved pause as a calendar-month/year term. Normalize that reported interval; do not assert that the source independently proves present force or a day-count expiry.",
+      "source": {
+        "url": "https://cityoffoley.org/foley-data-center-moratorium/",
+        "body_sha256": "fdf87eb9b6460ccf381727030d0d974f77b578d0691621dd9083992d4a2846ef",
+        "text_sha256": "c40c75f28d28318d40e844bbd6ce2817f146d60305f1c96dbb59ae4b5d331831",
+        "raw_text_character_span": [
+          317,
+          358
+        ]
+      },
+      "scope": "Original-term encoding only; preserve original prose, dates, status, current_end_date_iso and all other fields. Text reviewed; no new visual execution authentication or current-force renewal."
+    },
+    {
+      "moratorium_id": "al-fort-payne-2026",
+      "record_sha256": "2cc67e146858280bd206eee7cf821e9e1bbd4f65b0552dc1e2968a843c4775e0",
+      "disposition": "accepted_encoding_correction_pending_batch_apply",
+      "accepted_fields": {
+        "duration_kind": "calendar_term",
+        "duration_days": ""
+      },
+      "rationale": "Retained later zoning report explicitly describes the earlier council pause as six months. This only normalizes the reported original interval, without determining later ordinance replacement or current status.",
+      "source": {
+        "url": "https://www.waff.com/2026/09/02/fort-payne-approves-stricter-review-process-future-data-centers/",
+        "body_sha256": "45ceb5c087b148f7d104aa1e79aa3a927c202bbf48f7026df5ba84bc0e0297b5",
+        "text_sha256": "0095b9e30633f560556a06a805036d54aa220f65e035404a6907c761c68d995f",
+        "raw_text_character_span": [
+          1129,
+          1158
+        ]
+      },
+      "scope": "Original-term encoding only; preserve original prose, dates, status, current_end_date_iso and all other fields. Text reviewed; no new visual execution authentication or current-force renewal."
+    },
+    {
+      "moratorium_id": "al-harpersville-2026",
+      "record_sha256": "693a04180a6ec543a12960233ed18513079eeb9a9373f8f9cb0c923beba1b5df",
+      "disposition": "accepted_encoding_correction_pending_batch_apply",
+      "accepted_fields": {
+        "duration_kind": "calendar_term",
+        "duration_days": ""
+      },
+      "rationale": "Official timeline distinguishes the June proposed one-year term from the August adopted six-month term. Normalize the adopted original term only; no date or effectiveness assertion is changed.",
+      "source": {
+        "url": "https://www.harpersvilleal.gov/298/Data-Center-Study",
+        "body_sha256": "8e522f88859fba053f1f1930a35d38598558967f60784731d7b5e672743d25e1",
+        "text_sha256": "d75d9d48cde9bbc7b3054223800dfcc86f6177ac57718c4361abf066f4a85bd2",
+        "raw_text_character_span": [
+          478,
+          521
+        ]
+      },
+      "scope": "Original-term encoding only; preserve original prose, dates, status, current_end_date_iso and all other fields. Text reviewed; no new visual execution authentication or current-force renewal."
+    },
+    {
+      "moratorium_id": "al-leeds-2026",
+      "record_sha256": "d048a52aea8b3eb96c0bb3551f8cd9bfa376e80a759d94ea397c96af486ab912",
+      "disposition": "accepted_encoding_correction_pending_batch_apply",
+      "accepted_fields": {
+        "duration_kind": "calendar_term",
+        "duration_days": ""
+      },
+      "rationale": "Retained contemporaneous source describes the original council-approved pause as a calendar-month/year term. Normalize that reported interval; do not assert that the source independently proves present force or a day-count expiry.",
+      "source": {
+        "url": "https://www.shelbycountyreporter.com/news/leeds-city-council-approves-data-center-moratorium-f6b814b1",
+        "body_sha256": "3e7d949350a1f6c643e5da8dcf67580ccffc503f9bbc2fea0a533676de00d416",
+        "text_sha256": "f74dbb536043534aef75f171cd3bb07101c6cc2d61071e0d0a854bbe77ecb04e",
+        "raw_text_character_span": [
+          23,
+          53
+        ]
+      },
+      "scope": "Original-term encoding only; preserve original prose, dates, status, current_end_date_iso and all other fields. Text reviewed; no new visual execution authentication or current-force renewal."
+    },
+    {
+      "moratorium_id": "al-morgan-county-2026",
+      "record_sha256": "2439ac3b1b74eece72b003a59c7176be48535477876902f96b52dc1dd3d096d2",
+      "disposition": "accepted_encoding_correction_pending_batch_apply",
+      "accepted_fields": {
+        "duration_kind": "calendar_term",
+        "duration_days": ""
+      },
+      "rationale": "Resolution paragraph 3 expresses expiration as one year from effectiveness, subject to extension or earlier repeal. The source interval is calendar-based, not an actual 365-day specification.",
+      "source": {
+        "url": "https://morgancounty-al.gov/wp-content/uploads/Minutes-6.23.26.pdf",
+        "body_sha256": "acabef2c3477acfd69eb2de1415e5673fa0b7c1b4ffde7118e59ae7a0f7a0b0a",
+        "text_sha256": "d7336f41324ca9e69e15dcd0e8789d1dd31ac7c8cb87e858ff742e4fe9dd5c66",
+        "raw_text_character_span": [
+          8894,
+          8927
+        ]
+      },
+      "scope": "Original-term encoding only; preserve original prose, dates, status, current_end_date_iso and all other fields. Text reviewed; no new visual execution authentication or current-force renewal."
+    },
+    {
+      "moratorium_id": "al-pinson-2026",
+      "record_sha256": "b91ddbdd48674ff8fe111d82fe8a703f4b9f47935d137b98fb77484cbbcc6b24",
+      "disposition": "accepted_encoding_correction_pending_batch_apply",
+      "accepted_fields": {
+        "duration_kind": "calendar_term",
+        "duration_days": ""
+      },
+      "rationale": "Retained contemporaneous source describes the original council-approved pause as a calendar-month/year term. Normalize that reported interval; do not assert that the source independently proves present force or a day-count expiry.",
+      "source": {
+        "url": "https://www.trussvilletribune.com/2026/08/07/pinson-council-passes-one-year-moratorium-on-data-centers/",
+        "body_sha256": "3956ea9d73b3cbf07d4e15d335dc5c1c2ef7a1f6d91caf9c4bf5a1bbf49dbb38",
+        "text_sha256": "540edffa0b34cac311d344c72b4a145063e5a4811b05c628bbd8a720dd01b87f",
+        "raw_text_character_span": [
+          213,
+          243
+        ]
+      },
+      "scope": "Original-term encoding only; preserve original prose, dates, status, current_end_date_iso and all other fields. Text reviewed; no new visual execution authentication or current-force renewal."
+    },
+    {
+      "moratorium_id": "al-somerville-2026",
+      "record_sha256": "305d98e3da891eebcf368deca2a2e32e44593c710315e3df28147b4bb9ae595a",
+      "disposition": "accepted_encoding_correction_pending_batch_apply",
+      "accepted_fields": {
+        "duration_kind": "calendar_term",
+        "duration_days": ""
+      },
+      "rationale": "Retained contemporaneous source describes the original council-approved pause as a calendar-month/year term. Normalize that reported interval; do not assert that the source independently proves present force or a day-count expiry.",
+      "source": {
+        "url": "https://whnt.com/news/decatur/somerville-town-council-pauses-data-center-in-bitcoin-mining-dispute/",
+        "body_sha256": "2def766a17321d229f1709f97ab8d4dbae42157cbd8440878faff3f3c5c61761",
+        "text_sha256": "e1d3433b77bff7eb589522203a22afb281e4f74dbd0f9db4347e0f12af6086c0",
+        "raw_text_character_span": [
+          3145,
+          3175
+        ]
+      },
+      "scope": "Original-term encoding only; preserve original prose, dates, status, current_end_date_iso and all other fields. Text reviewed; no new visual execution authentication or current-force renewal."
+    },
+    {
+      "moratorium_id": "al-springville-2026",
+      "record_sha256": "6ff15f8d5c6a025718cbc82325e62905d3306d6a27b9aadd93e41f52a32e07e9",
+      "disposition": "accepted_encoding_correction_pending_batch_apply",
+      "accepted_fields": {
+        "duration_kind": "calendar_term",
+        "duration_days": ""
+      },
+      "rationale": "Retained contemporaneous source describes the original council-approved pause as a calendar-month/year term. Normalize that reported interval; do not assert that the source independently proves present force or a day-count expiry.",
+      "source": {
+        "url": "https://www.cbs42.com/trussville-tribune/springville-places-1-year-moratorium-on-data-center-proposals/",
+        "body_sha256": "1d85007c79f552f771966a24598fe42f128bb25ebd0e98e054b97248f992782d",
+        "text_sha256": "4ad3727951279f0066dca6b8cab81d6ab363ed08da78cdc2176267e48203cd34",
+        "raw_text_character_span": [
+          2571,
+          2616
+        ]
+      },
+      "scope": "Original-term encoding only; preserve original prose, dates, status, current_end_date_iso and all other fields. Text reviewed; no new visual execution authentication or current-force renewal."
+    },
+    {
+      "moratorium_id": "al-tarrant-2026",
+      "record_sha256": "12e49d9821fe1956c3a6086f0208aa63bda9a02b712cee52048946a531aa956a",
+      "disposition": "accepted_encoding_correction_pending_batch_apply",
+      "accepted_fields": {
+        "duration_kind": "calendar_term",
+        "duration_days": ""
+      },
+      "rationale": "Retained contemporaneous source describes the original council-approved pause as a calendar-month/year term. Normalize that reported interval; do not assert that the source independently proves present force or a day-count expiry.",
+      "source": {
+        "url": "https://www.wbrc.com/2026/09/09/tarrant-passes-1-year-moratorium-data-center-business-licenses/",
+        "body_sha256": "0f5d6a12f145f7f7d62f5add155fca05c99ed3a5647ed349782d5e50cdb40294",
+        "text_sha256": "140ed782903d202c81efd25e49aeb8a7c6c6e45c6b3f70201e6ad93099828a2a",
+        "raw_text_character_span": [
+          168,
+          197
+        ]
+      },
+      "scope": "Original-term encoding only; preserve original prose, dates, status, current_end_date_iso and all other fields. Text reviewed; no new visual execution authentication or current-force renewal."
+    },
+    {
+      "moratorium_id": "al-westover-2026",
+      "record_sha256": "c0e505142a10ee745a50bbe83b876612324ec33bbf7f9a2e390885775b81b546",
+      "disposition": "accepted_encoding_correction_pending_batch_apply",
+      "accepted_fields": {
+        "duration_kind": "calendar_term",
+        "duration_days": ""
+      },
+      "rationale": "Retained minutes identify the resolution as a six-month moratorium in the reading and approval motion. The displayed term is calendar-based; execution/effectiveness and current force are not newly accepted.",
+      "source": {
+        "url": "https://www.westoveral.gov/uploads/1/3/7/7/13775401/council_minutes_08-18-2026.pdf",
+        "body_sha256": "473e6d797d133a74ab6c1d7ee3b070006d9b4462beb58d7e56b456fc928b617f",
+        "text_sha256": "57bf0a7f74827716da2ced5d0a365e697658e7ba1631bace600c5e3d56f8d8e4",
+        "raw_text_character_span": [
+          7352,
+          7385
+        ]
+      },
+      "scope": "Original-term encoding only; preserve original prose, dates, status, current_end_date_iso and all other fields. Text reviewed; no new visual execution authentication or current-force renewal."
+    },
+    {
+      "moratorium_id": "al-calera-2026",
+      "record_sha256": "b224f06b4c8a918d04052fd89ba26939f571cc04c8363c3a5188f48de464f4dd",
+      "disposition": "withheld",
+      "rationale": "Only the retained CitizenPortal generated-summary passage was inspected; do not treat it as independently verified original instrument text. Keep candidate withheld for stronger original-term evidence."
+    },
+    {
+      "moratorium_id": "ar-carroll-county-2026",
+      "record_sha256": "5e6ea19034474545742533a27e5bbed39a0c76edee09e7de32b7850713e5f327",
+      "disposition": "withheld",
+      "rationale": "Retained newspaper legal-notice locator requires review of the actual original-term clause within the full issue; preliminary unrelated calendar mentions are not support."
+    }
+  ]
+}

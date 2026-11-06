@@ -1,0 +1,578 @@
+{
+  "applied_at": "20261106T150222",
+  "answer_files": [
+    "work/research/2026-11-06/duration-encoding-review/al-encoding-answers.json",
+    "work/research/2026-11-06/duration-encoding-review/ar-encoding-answers.json",
+    "work/research/2026-11-06/duration-encoding-review/co-encoding-answers.json",
+    "work/research/2026-11-06/duration-encoding-review/ct-encoding-answers.json",
+    "work/research/2026-11-06/duration-encoding-review/fl-encoding-answers.json"
+  ],
+  "stats": {
+    "outcome:corrected": 35,
+    "fields_changed": 70
+  },
+  "conflicts": [],
+  "skipped": [],
+  "changes": [
+    {
+      "moratorium_id": "al-foley-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Retained contemporaneous source describes the original council-approved pause as a calendar-month/year term. Normalize that reported interval; do not assert that the source independently proves present force or a day-count expiry.",
+      "source": "al-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "al-foley-2026",
+      "column": "duration_days",
+      "before": "180",
+      "after": "",
+      "reason": "Retained contemporaneous source describes the original council-approved pause as a calendar-month/year term. Normalize that reported interval; do not assert that the source independently proves present force or a day-count expiry.",
+      "source": "al-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "al-fort-payne-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Retained later zoning report explicitly describes the earlier council pause as six months. This only normalizes the reported original interval, without determining later ordinance replacement or current status.",
+      "source": "al-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "al-fort-payne-2026",
+      "column": "duration_days",
+      "before": "180",
+      "after": "",
+      "reason": "Retained later zoning report explicitly describes the earlier council pause as six months. This only normalizes the reported original interval, without determining later ordinance replacement or current status.",
+      "source": "al-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "al-harpersville-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Official timeline distinguishes the June proposed one-year term from the August adopted six-month term. Normalize the adopted original term only; no date or effectiveness assertion is changed.",
+      "source": "al-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "al-harpersville-2026",
+      "column": "duration_days",
+      "before": "180",
+      "after": "",
+      "reason": "Official timeline distinguishes the June proposed one-year term from the August adopted six-month term. Normalize the adopted original term only; no date or effectiveness assertion is changed.",
+      "source": "al-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "al-leeds-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Retained contemporaneous source describes the original council-approved pause as a calendar-month/year term. Normalize that reported interval; do not assert that the source independently proves present force or a day-count expiry.",
+      "source": "al-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "al-leeds-2026",
+      "column": "duration_days",
+      "before": "365",
+      "after": "",
+      "reason": "Retained contemporaneous source describes the original council-approved pause as a calendar-month/year term. Normalize that reported interval; do not assert that the source independently proves present force or a day-count expiry.",
+      "source": "al-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "al-morgan-county-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Resolution paragraph 3 expresses expiration as one year from effectiveness, subject to extension or earlier repeal. The source interval is calendar-based, not an actual 365-day specification.",
+      "source": "al-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "al-morgan-county-2026",
+      "column": "duration_days",
+      "before": "365",
+      "after": "",
+      "reason": "Resolution paragraph 3 expresses expiration as one year from effectiveness, subject to extension or earlier repeal. The source interval is calendar-based, not an actual 365-day specification.",
+      "source": "al-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "al-pinson-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Retained contemporaneous source describes the original council-approved pause as a calendar-month/year term. Normalize that reported interval; do not assert that the source independently proves present force or a day-count expiry.",
+      "source": "al-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "al-pinson-2026",
+      "column": "duration_days",
+      "before": "365",
+      "after": "",
+      "reason": "Retained contemporaneous source describes the original council-approved pause as a calendar-month/year term. Normalize that reported interval; do not assert that the source independently proves present force or a day-count expiry.",
+      "source": "al-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "al-somerville-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Retained contemporaneous source describes the original council-approved pause as a calendar-month/year term. Normalize that reported interval; do not assert that the source independently proves present force or a day-count expiry.",
+      "source": "al-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "al-somerville-2026",
+      "column": "duration_days",
+      "before": "545",
+      "after": "",
+      "reason": "Retained contemporaneous source describes the original council-approved pause as a calendar-month/year term. Normalize that reported interval; do not assert that the source independently proves present force or a day-count expiry.",
+      "source": "al-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "al-springville-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Retained contemporaneous source describes the original council-approved pause as a calendar-month/year term. Normalize that reported interval; do not assert that the source independently proves present force or a day-count expiry.",
+      "source": "al-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "al-springville-2026",
+      "column": "duration_days",
+      "before": "365",
+      "after": "",
+      "reason": "Retained contemporaneous source describes the original council-approved pause as a calendar-month/year term. Normalize that reported interval; do not assert that the source independently proves present force or a day-count expiry.",
+      "source": "al-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "al-tarrant-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Retained contemporaneous source describes the original council-approved pause as a calendar-month/year term. Normalize that reported interval; do not assert that the source independently proves present force or a day-count expiry.",
+      "source": "al-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "al-tarrant-2026",
+      "column": "duration_days",
+      "before": "365",
+      "after": "",
+      "reason": "Retained contemporaneous source describes the original council-approved pause as a calendar-month/year term. Normalize that reported interval; do not assert that the source independently proves present force or a day-count expiry.",
+      "source": "al-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "al-westover-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Retained minutes identify the resolution as a six-month moratorium in the reading and approval motion. The displayed term is calendar-based; execution/effectiveness and current force are not newly accepted.",
+      "source": "al-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "al-westover-2026",
+      "column": "duration_days",
+      "before": "180",
+      "after": "",
+      "reason": "Retained minutes identify the resolution as a six-month moratorium in the reading and approval motion. The displayed term is calendar-based; execution/effectiveness and current force are not newly accepted.",
+      "source": "al-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "ar-independence-county-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Independently inspected retained clause/report describes the original interval as calendar months/years, not a specified day count. Normalize the reported/proposed term without upgrading adoption, effectiveness or present legal status. Earlier-of clauses and any later extensions remain as written.",
+      "source": "ar-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "ar-independence-county-2026",
+      "column": "duration_days",
+      "before": "1825",
+      "after": "",
+      "reason": "Independently inspected retained clause/report describes the original interval as calendar months/years, not a specified day count. Normalize the reported/proposed term without upgrading adoption, effectiveness or present legal status. Earlier-of clauses and any later extensions remain as written.",
+      "source": "ar-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "ar-madison-county-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Independently inspected retained clause/report describes the original interval as calendar months/years, not a specified day count. Normalize the reported/proposed term without upgrading adoption, effectiveness or present legal status. Earlier-of clauses and any later extensions remain as written.",
+      "source": "ar-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "ar-madison-county-2026",
+      "column": "duration_days",
+      "before": "1095",
+      "after": "",
+      "reason": "Independently inspected retained clause/report describes the original interval as calendar months/years, not a specified day count. Normalize the reported/proposed term without upgrading adoption, effectiveness or present legal status. Earlier-of clauses and any later extensions remain as written.",
+      "source": "ar-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "co-archuleta-county-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Independently inspected retained clause/report describes the original interval as calendar months/years, not a specified day count. Normalize the reported/proposed term without upgrading adoption, effectiveness or present legal status. Earlier-of clauses and any later extensions remain as written.",
+      "source": "co-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "co-archuleta-county-2026",
+      "column": "duration_days",
+      "before": "180",
+      "after": "",
+      "reason": "Independently inspected retained clause/report describes the original interval as calendar months/years, not a specified day count. Normalize the reported/proposed term without upgrading adoption, effectiveness or present legal status. Earlier-of clauses and any later extensions remain as written.",
+      "source": "co-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "co-boulder-county-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Independently inspected retained clause/report describes the original interval as calendar months/years, not a specified day count. Normalize the reported/proposed term without upgrading adoption, effectiveness or present legal status. Earlier-of clauses and any later extensions remain as written.",
+      "source": "co-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "co-boulder-county-2026",
+      "column": "duration_days",
+      "before": "180",
+      "after": "",
+      "reason": "Independently inspected retained clause/report describes the original interval as calendar months/years, not a specified day count. Normalize the reported/proposed term without upgrading adoption, effectiveness or present legal status. Earlier-of clauses and any later extensions remain as written.",
+      "source": "co-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "co-commerce-city-undated",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Independently inspected retained clause/report describes the original interval as calendar months/years, not a specified day count. Normalize the reported/proposed term without upgrading adoption, effectiveness or present legal status. Earlier-of clauses and any later extensions remain as written.",
+      "source": "co-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "co-commerce-city-undated",
+      "column": "duration_days",
+      "before": "181",
+      "after": "",
+      "reason": "Independently inspected retained clause/report describes the original interval as calendar months/years, not a specified day count. Normalize the reported/proposed term without upgrading adoption, effectiveness or present legal status. Earlier-of clauses and any later extensions remain as written.",
+      "source": "co-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "co-denver-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Independently inspected retained clause/report describes the original interval as calendar months/years, not a specified day count. Normalize the reported/proposed term without upgrading adoption, effectiveness or present legal status. Earlier-of clauses and any later extensions remain as written.",
+      "source": "co-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "co-denver-2026",
+      "column": "duration_days",
+      "before": "365",
+      "after": "",
+      "reason": "Independently inspected retained clause/report describes the original interval as calendar months/years, not a specified day count. Normalize the reported/proposed term without upgrading adoption, effectiveness or present legal status. Earlier-of clauses and any later extensions remain as written.",
+      "source": "co-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "co-fremont-county-unincorporated-2024",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Independently inspected retained clause/report describes the original interval as calendar months/years, not a specified day count. Normalize the reported/proposed term without upgrading adoption, effectiveness or present legal status. Earlier-of clauses and any later extensions remain as written.",
+      "source": "co-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "co-fremont-county-unincorporated-2024",
+      "column": "duration_days",
+      "before": "180",
+      "after": "",
+      "reason": "Independently inspected retained clause/report describes the original interval as calendar months/years, not a specified day count. Normalize the reported/proposed term without upgrading adoption, effectiveness or present legal status. Earlier-of clauses and any later extensions remain as written.",
+      "source": "co-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "co-grand-county-2025",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Independently inspected retained clause/report describes the original interval as calendar months/years, not a specified day count. Normalize the reported/proposed term without upgrading adoption, effectiveness or present legal status. Earlier-of clauses and any later extensions remain as written.",
+      "source": "co-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "co-grand-county-2025",
+      "column": "duration_days",
+      "before": "730",
+      "after": "",
+      "reason": "Independently inspected retained clause/report describes the original interval as calendar months/years, not a specified day count. Normalize the reported/proposed term without upgrading adoption, effectiveness or present legal status. Earlier-of clauses and any later extensions remain as written.",
+      "source": "co-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "co-jefferson-county-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Independently inspected retained clause/report describes the original interval as calendar months/years, not a specified day count. Normalize the reported/proposed term without upgrading adoption, effectiveness or present legal status. Earlier-of clauses and any later extensions remain as written.",
+      "source": "co-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "co-jefferson-county-2026",
+      "column": "duration_days",
+      "before": "304",
+      "after": "",
+      "reason": "Independently inspected retained clause/report describes the original interval as calendar months/years, not a specified day count. Normalize the reported/proposed term without upgrading adoption, effectiveness or present legal status. Earlier-of clauses and any later extensions remain as written.",
+      "source": "co-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "co-johnstown-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Independently inspected retained clause/report describes the original interval as calendar months/years, not a specified day count. Normalize the reported/proposed term without upgrading adoption, effectiveness or present legal status. Earlier-of clauses and any later extensions remain as written.",
+      "source": "co-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "co-johnstown-2026",
+      "column": "duration_days",
+      "before": "365",
+      "after": "",
+      "reason": "Independently inspected retained clause/report describes the original interval as calendar months/years, not a specified day count. Normalize the reported/proposed term without upgrading adoption, effectiveness or present legal status. Earlier-of clauses and any later extensions remain as written.",
+      "source": "co-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "co-lochbuie-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Independently inspected retained clause/report describes the original interval as calendar months/years, not a specified day count. Normalize the reported/proposed term without upgrading adoption, effectiveness or present legal status. Earlier-of clauses and any later extensions remain as written.",
+      "source": "co-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "co-lochbuie-2026",
+      "column": "duration_days",
+      "before": "1826",
+      "after": "",
+      "reason": "Independently inspected retained clause/report describes the original interval as calendar months/years, not a specified day count. Normalize the reported/proposed term without upgrading adoption, effectiveness or present legal status. Earlier-of clauses and any later extensions remain as written.",
+      "source": "co-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "co-loveland-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Independently inspected retained clause/report describes the original interval as calendar months/years, not a specified day count. Normalize the reported/proposed term without upgrading adoption, effectiveness or present legal status. Earlier-of clauses and any later extensions remain as written.",
+      "source": "co-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "co-loveland-2026",
+      "column": "duration_days",
+      "before": "365",
+      "after": "",
+      "reason": "Independently inspected retained clause/report describes the original interval as calendar months/years, not a specified day count. Normalize the reported/proposed term without upgrading adoption, effectiveness or present legal status. Earlier-of clauses and any later extensions remain as written.",
+      "source": "co-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "co-mead-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Independently inspected retained clause/report describes the original interval as calendar months/years, not a specified day count. Normalize the reported/proposed term without upgrading adoption, effectiveness or present legal status. Earlier-of clauses and any later extensions remain as written.",
+      "source": "co-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "co-mead-2026",
+      "column": "duration_days",
+      "before": "365",
+      "after": "",
+      "reason": "Independently inspected retained clause/report describes the original interval as calendar months/years, not a specified day count. Normalize the reported/proposed term without upgrading adoption, effectiveness or present legal status. Earlier-of clauses and any later extensions remain as written.",
+      "source": "co-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "co-milliken-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Independently inspected retained clause/report describes the original interval as calendar months/years, not a specified day count. Normalize the reported/proposed term without upgrading adoption, effectiveness or present legal status. Earlier-of clauses and any later extensions remain as written.",
+      "source": "co-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "co-milliken-2026",
+      "column": "duration_days",
+      "before": "365",
+      "after": "",
+      "reason": "Independently inspected retained clause/report describes the original interval as calendar months/years, not a specified day count. Normalize the reported/proposed term without upgrading adoption, effectiveness or present legal status. Earlier-of clauses and any later extensions remain as written.",
+      "source": "co-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "co-monument-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Independently inspected retained clause/report describes the original interval as calendar months/years, not a specified day count. Normalize the reported/proposed term without upgrading adoption, effectiveness or present legal status. Earlier-of clauses and any later extensions remain as written.",
+      "source": "co-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "co-monument-2026",
+      "column": "duration_days",
+      "before": "180",
+      "after": "",
+      "reason": "Independently inspected retained clause/report describes the original interval as calendar months/years, not a specified day count. Normalize the reported/proposed term without upgrading adoption, effectiveness or present legal status. Earlier-of clauses and any later extensions remain as written.",
+      "source": "co-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "co-saguache-county-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Independently inspected retained clause/report describes the original interval as calendar months/years, not a specified day count. Normalize the reported/proposed term without upgrading adoption, effectiveness or present legal status. Earlier-of clauses and any later extensions remain as written.",
+      "source": "co-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "co-saguache-county-2026",
+      "column": "duration_days",
+      "before": "184",
+      "after": "",
+      "reason": "Independently inspected retained clause/report describes the original interval as calendar months/years, not a specified day count. Normalize the reported/proposed term without upgrading adoption, effectiveness or present legal status. Earlier-of clauses and any later extensions remain as written.",
+      "source": "co-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "co-woodland-park-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Independently inspected retained clause/report describes the original interval as calendar months/years, not a specified day count. Normalize the reported/proposed term without upgrading adoption, effectiveness or present legal status. Earlier-of clauses and any later extensions remain as written.",
+      "source": "co-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "co-woodland-park-2026",
+      "column": "duration_days",
+      "before": "548",
+      "after": "",
+      "reason": "Independently inspected retained clause/report describes the original interval as calendar months/years, not a specified day count. Normalize the reported/proposed term without upgrading adoption, effectiveness or present legal status. Earlier-of clauses and any later extensions remain as written.",
+      "source": "co-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "ct-morris-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Independently inspected retained clause/report describes the original interval as calendar months/years, not a specified day count. Normalize the reported/proposed term without upgrading adoption, effectiveness or present legal status. Earlier-of clauses and any later extensions remain as written.",
+      "source": "ct-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "ct-morris-2026",
+      "column": "duration_days",
+      "before": "365",
+      "after": "",
+      "reason": "Independently inspected retained clause/report describes the original interval as calendar months/years, not a specified day count. Normalize the reported/proposed term without upgrading adoption, effectiveness or present legal status. Earlier-of clauses and any later extensions remain as written.",
+      "source": "ct-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "fl-bay-county-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Independently inspected retained clause/report describes the original interval as calendar months/years, not a specified day count. Normalize the reported/proposed term without upgrading adoption, effectiveness or present legal status. Earlier-of clauses and any later extensions remain as written.",
+      "source": "fl-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "fl-bay-county-2026",
+      "column": "duration_days",
+      "before": "180",
+      "after": "",
+      "reason": "Independently inspected retained clause/report describes the original interval as calendar months/years, not a specified day count. Normalize the reported/proposed term without upgrading adoption, effectiveness or present legal status. Earlier-of clauses and any later extensions remain as written.",
+      "source": "fl-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "fl-citrus-county-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Independently inspected retained clause/report describes the original interval as calendar months/years, not a specified day count. Normalize the reported/proposed term without upgrading adoption, effectiveness or present legal status. Earlier-of clauses and any later extensions remain as written.",
+      "source": "fl-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "fl-citrus-county-2026",
+      "column": "duration_days",
+      "before": "365",
+      "after": "",
+      "reason": "Independently inspected retained clause/report describes the original interval as calendar months/years, not a specified day count. Normalize the reported/proposed term without upgrading adoption, effectiveness or present legal status. Earlier-of clauses and any later extensions remain as written.",
+      "source": "fl-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "fl-desoto-county-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Independently inspected retained clause/report describes the original interval as calendar months/years, not a specified day count. Normalize the reported/proposed term without upgrading adoption, effectiveness or present legal status. Earlier-of clauses and any later extensions remain as written.",
+      "source": "fl-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "fl-desoto-county-2026",
+      "column": "duration_days",
+      "before": "365",
+      "after": "",
+      "reason": "Independently inspected retained clause/report describes the original interval as calendar months/years, not a specified day count. Normalize the reported/proposed term without upgrading adoption, effectiveness or present legal status. Earlier-of clauses and any later extensions remain as written.",
+      "source": "fl-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "fl-flagler-county-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Independently inspected retained clause/report describes the original interval as calendar months/years, not a specified day count. Normalize the reported/proposed term without upgrading adoption, effectiveness or present legal status. Earlier-of clauses and any later extensions remain as written.",
+      "source": "fl-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "fl-flagler-county-2026",
+      "column": "duration_days",
+      "before": "365",
+      "after": "",
+      "reason": "Independently inspected retained clause/report describes the original interval as calendar months/years, not a specified day count. Normalize the reported/proposed term without upgrading adoption, effectiveness or present legal status. Earlier-of clauses and any later extensions remain as written.",
+      "source": "fl-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "fl-holmes-county-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Independently inspected retained clause/report describes the original interval as calendar months/years, not a specified day count. Normalize the reported/proposed term without upgrading adoption, effectiveness or present legal status. Earlier-of clauses and any later extensions remain as written.",
+      "source": "fl-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "fl-holmes-county-2026",
+      "column": "duration_days",
+      "before": "365",
+      "after": "",
+      "reason": "Independently inspected retained clause/report describes the original interval as calendar months/years, not a specified day count. Normalize the reported/proposed term without upgrading adoption, effectiveness or present legal status. Earlier-of clauses and any later extensions remain as written.",
+      "source": "fl-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "fl-levy-county-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Independently inspected retained clause/report describes the original interval as calendar months/years, not a specified day count. Normalize the reported/proposed term without upgrading adoption, effectiveness or present legal status. Earlier-of clauses and any later extensions remain as written.",
+      "source": "fl-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "fl-levy-county-2026",
+      "column": "duration_days",
+      "before": "365",
+      "after": "",
+      "reason": "Independently inspected retained clause/report describes the original interval as calendar months/years, not a specified day count. Normalize the reported/proposed term without upgrading adoption, effectiveness or present legal status. Earlier-of clauses and any later extensions remain as written.",
+      "source": "fl-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "fl-panama-city-2026",
+      "column": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term",
+      "reason": "Independently inspected retained clause/report describes the original interval as calendar months/years, not a specified day count. Normalize the reported/proposed term without upgrading adoption, effectiveness or present legal status. Earlier-of clauses and any later extensions remain as written.",
+      "source": "fl-encoding-answers.json"
+    },
+    {
+      "moratorium_id": "fl-panama-city-2026",
+      "column": "duration_days",
+      "before": "365",
+      "after": "",
+      "reason": "Independently inspected retained clause/report describes the original interval as calendar months/years, not a specified day count. Normalize the reported/proposed term without upgrading adoption, effectiveness or present legal status. Earlier-of clauses and any later extensions remain as written.",
+      "source": "fl-encoding-answers.json"
+    }
+  ]
+}

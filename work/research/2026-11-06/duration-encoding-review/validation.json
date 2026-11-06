@@ -1,0 +1,82 @@
+{
+  "inventory_before_sha256": "ec2d40fd48afeba1f2f517a307f5ce4ba90bf1f5550332d70f8b18f22afb878b",
+  "inventory_after_sha256": "0fcfe6c1bce5ae10ba917fe038e624caa0b4fff5af5563e0410f7c9017861c65",
+  "worker_jobs_terminal": 6,
+  "worker_records": 474,
+  "worker_recommendations": {
+    "withhold": 201,
+    "keep_fixed_days": 21,
+    "calendar_term": 252
+  },
+  "coordinator_first_cohort": {
+    "records": 79,
+    "encoding_corrections_applied": 35,
+    "explicit_day_terms_retained": 8,
+    "withheld": 36
+  },
+  "remaining_coordinator_review": 395,
+  "exact_changed_fields": [
+    "duration_kind",
+    "duration_days"
+  ],
+  "changed_field_count": 70,
+  "all_other_record_values_and_ids_unchanged": true,
+  "state_policy_and_expanded_canonical_data_unchanged": true,
+  "replay": {
+    "already_applied_fields": 70,
+    "rows_touched": 0,
+    "new_changes": 0
+  },
+  "tests": {
+    "native_tests": 213,
+    "result": "passed"
+  },
+  "build": {
+    "command": "make data site check PYTHON=.venv/bin/python TODAY=2026-11-05",
+    "errors": 0,
+    "warnings": 321,
+    "documented_numbers_matching": 53
+  },
+  "additional_calendar_end_warnings": {
+    "count": 29,
+    "ids": [
+      "al-foley-2026",
+      "al-fort-payne-2026",
+      "al-harpersville-2026",
+      "al-leeds-2026",
+      "al-pinson-2026",
+      "al-somerville-2026",
+      "al-springville-2026",
+      "al-tarrant-2026",
+      "al-westover-2026",
+      "ar-independence-county-2026",
+      "ar-madison-county-2026",
+      "co-archuleta-county-2026",
+      "co-denver-2026",
+      "co-grand-county-2025",
+      "co-johnstown-2026",
+      "co-lochbuie-2026",
+      "co-loveland-2026",
+      "co-mead-2026",
+      "co-milliken-2026",
+      "co-monument-2026",
+      "co-saguache-county-2026",
+      "ct-morris-2026",
+      "fl-bay-county-2026",
+      "fl-citrus-county-2026",
+      "fl-desoto-county-2026",
+      "fl-flagler-county-2026",
+      "fl-holmes-county-2026",
+      "fl-levy-county-2026",
+      "fl-panama-city-2026"
+    ],
+    "disposition": "Original guessed day counts removed. Current end remains blank; no automatic original-date-plus-days expiry, no new expiry or current-force acceptance."
+  },
+  "scope": "Original-term representation corrections from retained evidence only. No new acquisition, status/date/prose edits, complete freshness or final release claim.",
+  "log_sha256": {
+    "tests-wave1.log": "a146b3030a2cfdbb97572c5b2924869afdc906baf6a06589378fa9b490f61089",
+    "wave1-build.log": "8fb3393e92de2b1b148c7840b3929bd8b98cb37644e1a2cef185b92124646cbe",
+    "wave1-replay.log": "26815aee5196ea812cae7b7fab58e1dc6a635d4e32bdb447b10506d71f162716",
+    "wave1-numbers.log": "5fb07c24bc8ada9151c8a895b9f9832c44c15159d6bcd6a0543854f063846c50"
+  }
+}

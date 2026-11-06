@@ -1,0 +1,1077 @@
+{
+  "reviewed_at": "2026-11-06T20:00:51.592631+00:00",
+  "reviewer": "coordinator",
+  "inventory_sha256": "ec2d40fd48afeba1f2f517a307f5ce4ba90bf1f5550332d70f8b18f22afb878b",
+  "worker_answers_sha256": "8d7e8d978ea1a07090ad0f5aee98667251dfa917eeab418cbda90c55741041d0",
+  "scope": "All 79 first-cohort recommendations dispositioned: 35 original-term encoding corrections accepted pending conflict-safe apply, eight existing explicit day terms retained, 36 withheld. This is not whole-record current-force review.",
+  "reviews": [
+    {
+      "moratorium_id": "al-foley-2026",
+      "record_sha256": "45cee3a5b44db135f24b1872e897684b208107a09629fa854a1ae1374727d7ec",
+      "disposition": "accepted_encoding_correction_pending_batch_apply",
+      "accepted_fields": {
+        "duration_kind": "calendar_term",
+        "duration_days": ""
+      },
+      "rationale": "Retained contemporaneous source describes the original council-approved pause as a calendar-month/year term. Normalize that reported interval; do not assert that the source independently proves present force or a day-count expiry.",
+      "source": {
+        "url": "https://cityoffoley.org/foley-data-center-moratorium/",
+        "body_sha256": "fdf87eb9b6460ccf381727030d0d974f77b578d0691621dd9083992d4a2846ef",
+        "text_sha256": "c40c75f28d28318d40e844bbd6ce2817f146d60305f1c96dbb59ae4b5d331831",
+        "raw_text_character_span": [
+          317,
+          358
+        ]
+      },
+      "scope": "Original-term encoding only; preserve original prose, dates, status, current_end_date_iso and all other fields. Text reviewed; no new visual execution authentication or current-force renewal."
+    },
+    {
+      "moratorium_id": "al-fort-payne-2026",
+      "record_sha256": "2cc67e146858280bd206eee7cf821e9e1bbd4f65b0552dc1e2968a843c4775e0",
+      "disposition": "accepted_encoding_correction_pending_batch_apply",
+      "accepted_fields": {
+        "duration_kind": "calendar_term",
+        "duration_days": ""
+      },
+      "rationale": "Retained later zoning report explicitly describes the earlier council pause as six months. This only normalizes the reported original interval, without determining later ordinance replacement or current status.",
+      "source": {
+        "url": "https://www.waff.com/2026/09/02/fort-payne-approves-stricter-review-process-future-data-centers/",
+        "body_sha256": "45ceb5c087b148f7d104aa1e79aa3a927c202bbf48f7026df5ba84bc0e0297b5",
+        "text_sha256": "0095b9e30633f560556a06a805036d54aa220f65e035404a6907c761c68d995f",
+        "raw_text_character_span": [
+          1129,
+          1158
+        ]
+      },
+      "scope": "Original-term encoding only; preserve original prose, dates, status, current_end_date_iso and all other fields. Text reviewed; no new visual execution authentication or current-force renewal."
+    },
+    {
+      "moratorium_id": "al-harpersville-2026",
+      "record_sha256": "693a04180a6ec543a12960233ed18513079eeb9a9373f8f9cb0c923beba1b5df",
+      "disposition": "accepted_encoding_correction_pending_batch_apply",
+      "accepted_fields": {
+        "duration_kind": "calendar_term",
+        "duration_days": ""
+      },
+      "rationale": "Official timeline distinguishes the June proposed one-year term from the August adopted six-month term. Normalize the adopted original term only; no date or effectiveness assertion is changed.",
+      "source": {
+        "url": "https://www.harpersvilleal.gov/298/Data-Center-Study",
+        "body_sha256": "8e522f88859fba053f1f1930a35d38598558967f60784731d7b5e672743d25e1",
+        "text_sha256": "d75d9d48cde9bbc7b3054223800dfcc86f6177ac57718c4361abf066f4a85bd2",
+        "raw_text_character_span": [
+          478,
+          521
+        ]
+      },
+      "scope": "Original-term encoding only; preserve original prose, dates, status, current_end_date_iso and all other fields. Text reviewed; no new visual execution authentication or current-force renewal."
+    },
+    {
+      "moratorium_id": "al-leeds-2026",
+      "record_sha256": "d048a52aea8b3eb96c0bb3551f8cd9bfa376e80a759d94ea397c96af486ab912",
+      "disposition": "accepted_encoding_correction_pending_batch_apply",
+      "accepted_fields": {
+        "duration_kind": "calendar_term",
+        "duration_days": ""
+      },
+      "rationale": "Retained contemporaneous source describes the original council-approved pause as a calendar-month/year term. Normalize that reported interval; do not assert that the source independently proves present force or a day-count expiry.",
+      "source": {
+        "url": "https://www.shelbycountyreporter.com/news/leeds-city-council-approves-data-center-moratorium-f6b814b1",
+        "body_sha256": "3e7d949350a1f6c643e5da8dcf67580ccffc503f9bbc2fea0a533676de00d416",
+        "text_sha256": "f74dbb536043534aef75f171cd3bb07101c6cc2d61071e0d0a854bbe77ecb04e",
+        "raw_text_character_span": [
+          23,
+          53
+        ]
+      },
+      "scope": "Original-term encoding only; preserve original prose, dates, status, current_end_date_iso and all other fields. Text reviewed; no new visual execution authentication or current-force renewal."
+    },
+    {
+      "moratorium_id": "al-morgan-county-2026",
+      "record_sha256": "2439ac3b1b74eece72b003a59c7176be48535477876902f96b52dc1dd3d096d2",
+      "disposition": "accepted_encoding_correction_pending_batch_apply",
+      "accepted_fields": {
+        "duration_kind": "calendar_term",
+        "duration_days": ""
+      },
+      "rationale": "Resolution paragraph 3 expresses expiration as one year from effectiveness, subject to extension or earlier repeal. The source interval is calendar-based, not an actual 365-day specification.",
+      "source": {
+        "url": "https://morgancounty-al.gov/wp-content/uploads/Minutes-6.23.26.pdf",
+        "body_sha256": "acabef2c3477acfd69eb2de1415e5673fa0b7c1b4ffde7118e59ae7a0f7a0b0a",
+        "text_sha256": "d7336f41324ca9e69e15dcd0e8789d1dd31ac7c8cb87e858ff742e4fe9dd5c66",
+        "raw_text_character_span": [
+          8894,
+          8927
+        ]
+      },
+      "scope": "Original-term encoding only; preserve original prose, dates, status, current_end_date_iso and all other fields. Text reviewed; no new visual execution authentication or current-force renewal."
+    },
+    {
+      "moratorium_id": "al-pinson-2026",
+      "record_sha256": "b91ddbdd48674ff8fe111d82fe8a703f4b9f47935d137b98fb77484cbbcc6b24",
+      "disposition": "accepted_encoding_correction_pending_batch_apply",
+      "accepted_fields": {
+        "duration_kind": "calendar_term",
+        "duration_days": ""
+      },
+      "rationale": "Retained contemporaneous source describes the original council-approved pause as a calendar-month/year term. Normalize that reported interval; do not assert that the source independently proves present force or a day-count expiry.",
+      "source": {
+        "url": "https://www.trussvilletribune.com/2026/08/07/pinson-council-passes-one-year-moratorium-on-data-centers/",
+        "body_sha256": "3956ea9d73b3cbf07d4e15d335dc5c1c2ef7a1f6d91caf9c4bf5a1bbf49dbb38",
+        "text_sha256": "540edffa0b34cac311d344c72b4a145063e5a4811b05c628bbd8a720dd01b87f",
+        "raw_text_character_span": [
+          213,
+          243
+        ]
+      },
+      "scope": "Original-term encoding only; preserve original prose, dates, status, current_end_date_iso and all other fields. Text reviewed; no new visual execution authentication or current-force renewal."
+    },
+    {
+      "moratorium_id": "al-somerville-2026",
+      "record_sha256": "305d98e3da891eebcf368deca2a2e32e44593c710315e3df28147b4bb9ae595a",
+      "disposition": "accepted_encoding_correction_pending_batch_apply",
+      "accepted_fields": {
+        "duration_kind": "calendar_term",
+        "duration_days": ""
+      },
+      "rationale": "Retained contemporaneous source describes the original council-approved pause as a calendar-month/year term. Normalize that reported interval; do not assert that the source independently proves present force or a day-count expiry.",
+      "source": {
+        "url": "https://whnt.com/news/decatur/somerville-town-council-pauses-data-center-in-bitcoin-mining-dispute/",
+        "body_sha256": "2def766a17321d229f1709f97ab8d4dbae42157cbd8440878faff3f3c5c61761",
+        "text_sha256": "e1d3433b77bff7eb589522203a22afb281e4f74dbd0f9db4347e0f12af6086c0",
+        "raw_text_character_span": [
+          3145,
+          3175
+        ]
+      },
+      "scope": "Original-term encoding only; preserve original prose, dates, status, current_end_date_iso and all other fields. Text reviewed; no new visual execution authentication or current-force renewal."
+    },
+    {
+      "moratorium_id": "al-springville-2026",
+      "record_sha256": "6ff15f8d5c6a025718cbc82325e62905d3306d6a27b9aadd93e41f52a32e07e9",
+      "disposition": "accepted_encoding_correction_pending_batch_apply",
+      "accepted_fields": {
+        "duration_kind": "calendar_term",
+        "duration_days": ""
+      },
+      "rationale": "Retained contemporaneous source describes the original council-approved pause as a calendar-month/year term. Normalize that reported interval; do not assert that the source independently proves present force or a day-count expiry.",
+      "source": {
+        "url": "https://www.cbs42.com/trussville-tribune/springville-places-1-year-moratorium-on-data-center-proposals/",
+        "body_sha256": "1d85007c79f552f771966a24598fe42f128bb25ebd0e98e054b97248f992782d",
+        "text_sha256": "4ad3727951279f0066dca6b8cab81d6ab363ed08da78cdc2176267e48203cd34",
+        "raw_text_character_span": [
+          2571,
+          2616
+        ]
+      },
+      "scope": "Original-term encoding only; preserve original prose, dates, status, current_end_date_iso and all other fields. Text reviewed; no new visual execution authentication or current-force renewal."
+    },
+    {
+      "moratorium_id": "al-tarrant-2026",
+      "record_sha256": "12e49d9821fe1956c3a6086f0208aa63bda9a02b712cee52048946a531aa956a",
+      "disposition": "accepted_encoding_correction_pending_batch_apply",
+      "accepted_fields": {
+        "duration_kind": "calendar_term",
+        "duration_days": ""
+      },
+      "rationale": "Retained contemporaneous source describes the original council-approved pause as a calendar-month/year term. Normalize that reported interval; do not assert that the source independently proves present force or a day-count expiry.",
+      "source": {
+        "url": "https://www.wbrc.com/2026/09/09/tarrant-passes-1-year-moratorium-data-center-business-licenses/",
+        "body_sha256": "0f5d6a12f145f7f7d62f5add155fca05c99ed3a5647ed349782d5e50cdb40294",
+        "text_sha256": "140ed782903d202c81efd25e49aeb8a7c6c6e45c6b3f70201e6ad93099828a2a",
+        "raw_text_character_span": [
+          168,
+          197
+        ]
+      },
+      "scope": "Original-term encoding only; preserve original prose, dates, status, current_end_date_iso and all other fields. Text reviewed; no new visual execution authentication or current-force renewal."
+    },
+    {
+      "moratorium_id": "al-westover-2026",
+      "record_sha256": "c0e505142a10ee745a50bbe83b876612324ec33bbf7f9a2e390885775b81b546",
+      "disposition": "accepted_encoding_correction_pending_batch_apply",
+      "accepted_fields": {
+        "duration_kind": "calendar_term",
+        "duration_days": ""
+      },
+      "rationale": "Retained minutes identify the resolution as a six-month moratorium in the reading and approval motion. The displayed term is calendar-based; execution/effectiveness and current force are not newly accepted.",
+      "source": {
+        "url": "https://www.westoveral.gov/uploads/1/3/7/7/13775401/council_minutes_08-18-2026.pdf",
+        "body_sha256": "473e6d797d133a74ab6c1d7ee3b070006d9b4462beb58d7e56b456fc928b617f",
+        "text_sha256": "57bf0a7f74827716da2ced5d0a365e697658e7ba1631bace600c5e3d56f8d8e4",
+        "raw_text_character_span": [
+          7352,
+          7385
+        ]
+      },
+      "scope": "Original-term encoding only; preserve original prose, dates, status, current_end_date_iso and all other fields. Text reviewed; no new visual execution authentication or current-force renewal."
+    },
+    {
+      "moratorium_id": "al-calera-2026",
+      "record_sha256": "b224f06b4c8a918d04052fd89ba26939f571cc04c8363c3a5188f48de464f4dd",
+      "disposition": "withheld",
+      "rationale": "Only the retained CitizenPortal generated-summary passage was inspected; do not treat it as independently verified original instrument text. Keep candidate withheld for stronger original-term evidence."
+    },
+    {
+      "moratorium_id": "ar-carroll-county-2026",
+      "record_sha256": "5e6ea19034474545742533a27e5bbed39a0c76edee09e7de32b7850713e5f327",
+      "disposition": "withheld",
+      "rationale": "Retained newspaper legal-notice locator requires review of the actual original-term clause within the full issue; preliminary unrelated calendar mentions are not support."
+    },
+    {
+      "moratorium_id": "ar-independence-county-2026",
+      "record_sha256": "79e82516253237d90dec0d65714acd581ebd05e1bb360b488b25b6a0bac04271",
+      "disposition": "accepted_encoding_correction_pending_batch_apply",
+      "accepted_fields": {
+        "duration_kind": "calendar_term",
+        "duration_days": ""
+      },
+      "rationale": "Independently inspected retained clause/report describes the original interval as calendar months/years, not a specified day count. Normalize the reported/proposed term without upgrading adoption, effectiveness or present legal status. Earlier-of clauses and any later extensions remain as written.",
+      "source": {
+        "url": "https://www.whiterivernow.com/2026/08/11/independence-county-quorum-court-places-5-year-moratorium-on-data-centers/",
+        "body_sha256": "f858256e9b2766f20a10c78574bf63ffeb807d8be9c5bc5480f908e12913962c",
+        "text_sha256": "e55a73dae9d2395f1dabd47f9f41c684aba8286502a4b2e17f0bb4fa26e1f858",
+        "raw_text_character_span": [
+          225,
+          272
+        ]
+      },
+      "scope": "Encoding only; preserve all prose, dates, status and current_end_date_iso. Extracted text reviewed, without new execution authentication or source acquisition."
+    },
+    {
+      "moratorium_id": "ar-madison-county-2026",
+      "record_sha256": "d0046cb323a12c3188be3d3ba291ede5ddc11aca42e6584ca1376d284272cbef",
+      "disposition": "accepted_encoding_correction_pending_batch_apply",
+      "accepted_fields": {
+        "duration_kind": "calendar_term",
+        "duration_days": ""
+      },
+      "rationale": "Independently inspected retained clause/report describes the original interval as calendar months/years, not a specified day count. Normalize the reported/proposed term without upgrading adoption, effectiveness or present legal status. Earlier-of clauses and any later extensions remain as written.",
+      "source": {
+        "url": "https://mcrecordonline.com/stories/measure-effective-immediately-after-jps-vote-8-0-for-approval,148654",
+        "body_sha256": "35fe8ea9578705a9501cf0e027a0546d3a2a909e78a5ee749069ddf7338e9589",
+        "text_sha256": "abb3c50724b7f58c2e4e27f79ff31726f970a56abd774ce28cc8819ae052e8e7",
+        "raw_text_character_span": [
+          990,
+          1022
+        ]
+      },
+      "scope": "Encoding only; preserve all prose, dates, status and current_end_date_iso. Extracted text reviewed, without new execution authentication or source acquisition."
+    },
+    {
+      "moratorium_id": "co-archuleta-county-2026",
+      "record_sha256": "12a3258f2f5c31dedd6a109a6e2b74f5bec8548b5c1705212b50e4a1f5e46966",
+      "disposition": "accepted_encoding_correction_pending_batch_apply",
+      "accepted_fields": {
+        "duration_kind": "calendar_term",
+        "duration_days": ""
+      },
+      "rationale": "Independently inspected retained clause/report describes the original interval as calendar months/years, not a specified day count. Normalize the reported/proposed term without upgrading adoption, effectiveness or present legal status. Earlier-of clauses and any later extensions remain as written.",
+      "source": {
+        "url": "https://www.pagosasun.com/stories/moratorium-on-data-centers-approved-by-county-board,140916",
+        "body_sha256": "a9f524484cc7d9858cea1471aab90b27789ea9daf635a956f589b6ba8b583345",
+        "text_sha256": "e3476ab13830856a5349699d724b5685ae9e68fd7e55c7938c1f867eec125543",
+        "raw_text_character_span": [
+          165,
+          195
+        ]
+      },
+      "scope": "Encoding only; preserve all prose, dates, status and current_end_date_iso. Extracted text reviewed, without new execution authentication or source acquisition."
+    },
+    {
+      "moratorium_id": "co-boulder-county-2026",
+      "record_sha256": "85c47a47e993f6c5db16b11bf29ead59d42420b234ae9c0280ac829c799b7c31",
+      "disposition": "accepted_encoding_correction_pending_batch_apply",
+      "accepted_fields": {
+        "duration_kind": "calendar_term",
+        "duration_days": ""
+      },
+      "rationale": "Independently inspected retained clause/report describes the original interval as calendar months/years, not a specified day count. Normalize the reported/proposed term without upgrading adoption, effectiveness or present legal status. Earlier-of clauses and any later extensions remain as written.",
+      "source": {
+        "url": "https://bouldercounty.gov/property-and-land/land-use/planning/land-use-code-update/dc-26-0003/",
+        "body_sha256": "5aad41bb84f99bdfd1df584d8d7b5e79fc2363018991585e06e995ddf2a4a69d",
+        "text_sha256": "1d3609dc3ac829f7bb52661c44507341308e6c1905194ebf8bf46cc9eba4270e",
+        "raw_text_character_span": [
+          3333,
+          3376
+        ]
+      },
+      "scope": "Encoding only; preserve all prose, dates, status and current_end_date_iso. Extracted text reviewed, without new execution authentication or source acquisition."
+    },
+    {
+      "moratorium_id": "co-commerce-city-undated",
+      "record_sha256": "9e831dd2b5a7a30ba8b41d1b9ea42e3f62156ff1fc348e4624e49d744a8b97f5",
+      "disposition": "accepted_encoding_correction_pending_batch_apply",
+      "accepted_fields": {
+        "duration_kind": "calendar_term",
+        "duration_days": ""
+      },
+      "rationale": "Independently inspected retained clause/report describes the original interval as calendar months/years, not a specified day count. Normalize the reported/proposed term without upgrading adoption, effectiveness or present legal status. Earlier-of clauses and any later extensions remain as written.",
+      "source": {
+        "url": "https://commerce.legistar.com/View.ashx?M=F&ID=15792816&GUID=A3BFCFB9-0287-4DC5-91DC-B6A8C4A3B2BC",
+        "body_sha256": "48558ee5913f26c1202b0e1964b4bd96f3ab96074ac57f1a623d48c5c5e859bd",
+        "text_sha256": "8f834abcfd830f6c62fbc919eba4d630b44193599a520f3882c5cf2ba1cb9957",
+        "raw_text_character_span": [
+          2112,
+          2134
+        ]
+      },
+      "scope": "Encoding only; preserve all prose, dates, status and current_end_date_iso. Extracted text reviewed, without new execution authentication or source acquisition."
+    },
+    {
+      "moratorium_id": "co-denver-2026",
+      "record_sha256": "9b4ef61616b59ae75354e0a0764b95ef9d12181eab6517ad9737f009d687a95c",
+      "disposition": "accepted_encoding_correction_pending_batch_apply",
+      "accepted_fields": {
+        "duration_kind": "calendar_term",
+        "duration_days": ""
+      },
+      "rationale": "Independently inspected retained clause/report describes the original interval as calendar months/years, not a specified day count. Normalize the reported/proposed term without upgrading adoption, effectiveness or present legal status. Earlier-of clauses and any later extensions remain as written.",
+      "source": {
+        "url": "https://denvergov.org/Government/Agencies-Departments-Offices/Agencies-Departments-Offices-Directory/Community-Planning-and-Development/Denver-Zoning-Code/Text-Amendments/Data-Centers",
+        "body_sha256": "b4ea2fe9554f7a03657a724da55daf2626b87ffcb80c08b8fca25c1cf14c8788",
+        "text_sha256": "53ed57b6155df172434dc39726c92d6786c214d5b4e6d3d83f59fc94584bfa83",
+        "raw_text_character_span": [
+          4371,
+          4401
+        ]
+      },
+      "scope": "Encoding only; preserve all prose, dates, status and current_end_date_iso. Extracted text reviewed, without new execution authentication or source acquisition."
+    },
+    {
+      "moratorium_id": "co-fremont-county-unincorporated-2024",
+      "record_sha256": "94dd9bdf433d6caf08ef7779953673ed773fa00fabb4559715a73e6c23e3f721",
+      "disposition": "accepted_encoding_correction_pending_batch_apply",
+      "accepted_fields": {
+        "duration_kind": "calendar_term",
+        "duration_days": ""
+      },
+      "rationale": "Independently inspected retained clause/report describes the original interval as calendar months/years, not a specified day count. Normalize the reported/proposed term without upgrading adoption, effectiveness or present legal status. Earlier-of clauses and any later extensions remain as written.",
+      "source": {
+        "url": "https://fremontcountyco.gov/sites/default/files/9.6_1041_Moratorium_Resolution.pdf",
+        "body_sha256": "b985a67c74d3c8f6334594ba8567498aaeaebcd64178cd71380f1e60490591a5",
+        "text_sha256": "dc752726fc437e2a2257efd27944b459761146941f51efc259841ac52e6c5d42",
+        "raw_text_character_span": [
+          4466,
+          4522
+        ]
+      },
+      "scope": "Encoding only; preserve all prose, dates, status and current_end_date_iso. Extracted text reviewed, without new execution authentication or source acquisition."
+    },
+    {
+      "moratorium_id": "co-grand-county-2025",
+      "record_sha256": "4e9b64f316dc174a57fc00874b6c7770caae2eb57c3be3ffb2e122fd727c2c0c",
+      "disposition": "accepted_encoding_correction_pending_batch_apply",
+      "accepted_fields": {
+        "duration_kind": "calendar_term",
+        "duration_days": ""
+      },
+      "rationale": "Independently inspected retained clause/report describes the original interval as calendar months/years, not a specified day count. Normalize the reported/proposed term without upgrading adoption, effectiveness or present legal status. Earlier-of clauses and any later extensions remain as written.",
+      "source": {
+        "url": "https://www.skyhinews.com/news/two-year-moratorium-on-commercial-alternative-energy-projects-in-grand-county-continues-until-june-2027/",
+        "body_sha256": "a6adc6d12b29be4cce966f863018cc71829d993879305b70ff4f6d5a512534f4",
+        "text_sha256": "e305e920dc057e6f3ad76a6808cdf5a44a66dc72bac535a93e4083c6c934dcb2",
+        "raw_text_character_span": [
+          90,
+          123
+        ]
+      },
+      "scope": "Encoding only; preserve all prose, dates, status and current_end_date_iso. Extracted text reviewed, without new execution authentication or source acquisition."
+    },
+    {
+      "moratorium_id": "co-jefferson-county-2026",
+      "record_sha256": "31b635390c0ee8d3a8758a030255744941dba7f8ba8f0cdbd8b7192e53a7d513",
+      "disposition": "accepted_encoding_correction_pending_batch_apply",
+      "accepted_fields": {
+        "duration_kind": "calendar_term",
+        "duration_days": ""
+      },
+      "rationale": "Independently inspected retained clause/report describes the original interval as calendar months/years, not a specified day count. Normalize the reported/proposed term without upgrading adoption, effectiveness or present legal status. Earlier-of clauses and any later extensions remain as written.",
+      "source": {
+        "url": "https://www.jeffco.us/m/newsflash/Home/Detail/2596",
+        "body_sha256": "4f63d9811ca8bb18d23260578469241c67ea23b3daab53d4b13b09530c534cae",
+        "text_sha256": "f284d43c43c31800ac30d9d6150b56d3f49c0c2afd0a71cb107d7f4c80d1e990",
+        "raw_text_character_span": [
+          133,
+          169
+        ]
+      },
+      "scope": "Encoding only; preserve all prose, dates, status and current_end_date_iso. Extracted text reviewed, without new execution authentication or source acquisition."
+    },
+    {
+      "moratorium_id": "co-johnstown-2026",
+      "record_sha256": "a88ff314b126a6b480d551fa4a623841fac984184f2a56a5eec8a47de01b542b",
+      "disposition": "accepted_encoding_correction_pending_batch_apply",
+      "accepted_fields": {
+        "duration_kind": "calendar_term",
+        "duration_days": ""
+      },
+      "rationale": "Independently inspected retained clause/report describes the original interval as calendar months/years, not a specified day count. Normalize the reported/proposed term without upgrading adoption, effectiveness or present legal status. Earlier-of clauses and any later extensions remain as written.",
+      "source": {
+        "url": "https://www.johnstownrepublic.com/johnstown-approves-temporary-moratorium-on-data-center-facilities/",
+        "body_sha256": "9f2798871a31e605df8c4d4f8daaecb5a533c58642b94583cb5125f1afccc53e",
+        "text_sha256": "3aa5f382b8e02a81c66cdf3a28fcc676c14014f1acd6a499b4605943cb96b36e",
+        "raw_text_character_span": [
+          527,
+          573
+        ]
+      },
+      "scope": "Encoding only; preserve all prose, dates, status and current_end_date_iso. Extracted text reviewed, without new execution authentication or source acquisition."
+    },
+    {
+      "moratorium_id": "co-lochbuie-2026",
+      "record_sha256": "11dae03d1848cbf3f326178403a3eedf14bbebff68656afee5c8b3f5d58a6751",
+      "disposition": "accepted_encoding_correction_pending_batch_apply",
+      "accepted_fields": {
+        "duration_kind": "calendar_term",
+        "duration_days": ""
+      },
+      "rationale": "Independently inspected retained clause/report describes the original interval as calendar months/years, not a specified day count. Normalize the reported/proposed term without upgrading adoption, effectiveness or present legal status. Earlier-of clauses and any later extensions remain as written.",
+      "source": {
+        "url": "https://www.rmpbs.org/news/government/lochbuie-approves-five-year-data-center-moratorium",
+        "body_sha256": "706a3a8d75e5ac460a1a17c3634f70fac9129bd6ea994589cf135477daa32aba",
+        "text_sha256": "038a4c07f71cea64b125ed0f7f5fe391bacbd157a8d40ccf98e501d2c43e6cb4",
+        "raw_text_character_span": [
+          68,
+          93
+        ]
+      },
+      "scope": "Encoding only; preserve all prose, dates, status and current_end_date_iso. Extracted text reviewed, without new execution authentication or source acquisition."
+    },
+    {
+      "moratorium_id": "co-loveland-2026",
+      "record_sha256": "a69676c1efeacf9833de246b7b1ebebf48ec87738f3c561c17b140459a47feee",
+      "disposition": "accepted_encoding_correction_pending_batch_apply",
+      "accepted_fields": {
+        "duration_kind": "calendar_term",
+        "duration_days": ""
+      },
+      "rationale": "Independently inspected retained clause/report describes the original interval as calendar months/years, not a specified day count. Normalize the reported/proposed term without upgrading adoption, effectiveness or present legal status. Earlier-of clauses and any later extensions remain as written.",
+      "source": {
+        "url": "https://nocoherald.com/2026/10/13/loveland-data-center-moratorium",
+        "body_sha256": "b932000f31070798258d3093d2b715432497ebe4662a3290fe8025fc26220d9a",
+        "text_sha256": "8de03fb36ebcf33e5556d7dd50679d3e2c5a06d77d08258f6646eb35a25e324c",
+        "raw_text_character_span": [
+          254,
+          306
+        ]
+      },
+      "scope": "Encoding only; preserve all prose, dates, status and current_end_date_iso. Extracted text reviewed, without new execution authentication or source acquisition."
+    },
+    {
+      "moratorium_id": "co-mead-2026",
+      "record_sha256": "511e9ead4387b71451a11cbd198f0b3d6f99067949594c64e713018492eca335",
+      "disposition": "accepted_encoding_correction_pending_batch_apply",
+      "accepted_fields": {
+        "duration_kind": "calendar_term",
+        "duration_days": ""
+      },
+      "rationale": "Independently inspected retained clause/report describes the original interval as calendar months/years, not a specified day count. Normalize the reported/proposed term without upgrading adoption, effectiveness or present legal status. Earlier-of clauses and any later extensions remain as written.",
+      "source": {
+        "url": "https://berthoudsurveyor.com/mead-approves-12-month-data-center-moratorium/",
+        "body_sha256": "4895e30fb2aa88cae5ac5508d58ae9be2c4d4140e6454cda3bda07f963623322",
+        "text_sha256": "c73889578ed13dbffd17b7c711678e302c21ea5c74207b291102df512073278e",
+        "raw_text_character_span": [
+          31,
+          61
+        ]
+      },
+      "scope": "Encoding only; preserve all prose, dates, status and current_end_date_iso. Extracted text reviewed, without new execution authentication or source acquisition."
+    },
+    {
+      "moratorium_id": "co-milliken-2026",
+      "record_sha256": "8362512905062bb4dcf8495facc6b7ff35d57e781a49b30eeb8d37201c85894a",
+      "disposition": "accepted_encoding_correction_pending_batch_apply",
+      "accepted_fields": {
+        "duration_kind": "calendar_term",
+        "duration_days": ""
+      },
+      "rationale": "Independently inspected retained clause/report describes the original interval as calendar months/years, not a specified day count. Normalize the reported/proposed term without upgrading adoption, effectiveness or present legal status. Earlier-of clauses and any later extensions remain as written.",
+      "source": {
+        "url": "https://www.myjohnstownbreeze.com/article/1732,milliken-pauses-data-center-projects-for-one-year",
+        "body_sha256": "70ffba7ca54d99cb54824c87b3b7698a6928ed28fec80434f5798216a1337a10",
+        "text_sha256": "c0416990fa058845fb9118d47fa727d2cffc75418565ec1d774735ca77840507",
+        "raw_text_character_span": [
+          788,
+          812
+        ]
+      },
+      "scope": "Encoding only; preserve all prose, dates, status and current_end_date_iso. Extracted text reviewed, without new execution authentication or source acquisition."
+    },
+    {
+      "moratorium_id": "co-monument-2026",
+      "record_sha256": "9fdafd2c13b26067ae5970286a9131d85f7a9c397574c938515c42ad4f2b3814",
+      "disposition": "accepted_encoding_correction_pending_batch_apply",
+      "accepted_fields": {
+        "duration_kind": "calendar_term",
+        "duration_days": ""
+      },
+      "rationale": "Independently inspected retained clause/report describes the original interval as calendar months/years, not a specified day count. Normalize the reported/proposed term without upgrading adoption, effectiveness or present legal status. Earlier-of clauses and any later extensions remain as written.",
+      "source": {
+        "url": "https://wp.ocn.me/v26n8montc-2/",
+        "body_sha256": "cfc22fc75bfa5718374721bff3388f3d39c9708e06736273c985aedbeb7f2944",
+        "text_sha256": "54f95061663c0588432183fc658ebfccce0427bfb6eeaa452307ac5043ce2639",
+        "raw_text_character_span": [
+          1383,
+          1417
+        ]
+      },
+      "scope": "Encoding only; preserve all prose, dates, status and current_end_date_iso. Extracted text reviewed, without new execution authentication or source acquisition."
+    },
+    {
+      "moratorium_id": "co-saguache-county-2026",
+      "record_sha256": "9edaaa321f3d7dff1131a4235446cbb45ef33ea9b061297c2ea50d429313c66b",
+      "disposition": "accepted_encoding_correction_pending_batch_apply",
+      "accepted_fields": {
+        "duration_kind": "calendar_term",
+        "duration_days": ""
+      },
+      "rationale": "Independently inspected retained clause/report describes the original interval as calendar months/years, not a specified day count. Normalize the reported/proposed term without upgrading adoption, effectiveness or present legal status. Earlier-of clauses and any later extensions remain as written.",
+      "source": {
+        "url": "https://www.alamosacitizen.com/saguache-county-places-moratorium-on-data-center-projects/",
+        "body_sha256": "e7b6b4792d41b52b5969f5e12c374250d8d9acf8f9ceb4b6a9d24152391a2536",
+        "text_sha256": "85e0855ca93a4be7ee03ad44f195960ad2c15ca49ed092e0521381191da70459",
+        "raw_text_character_span": [
+          141,
+          162
+        ]
+      },
+      "scope": "Encoding only; preserve all prose, dates, status and current_end_date_iso. Extracted text reviewed, without new execution authentication or source acquisition."
+    },
+    {
+      "moratorium_id": "co-woodland-park-2026",
+      "record_sha256": "ab348b5dbfcca1857a214ee4c27ab120834bd223b9bf9b2693202eeb025bb830",
+      "disposition": "accepted_encoding_correction_pending_batch_apply",
+      "accepted_fields": {
+        "duration_kind": "calendar_term",
+        "duration_days": ""
+      },
+      "rationale": "Independently inspected retained clause/report describes the original interval as calendar months/years, not a specified day count. Normalize the reported/proposed term without upgrading adoption, effectiveness or present legal status. Earlier-of clauses and any later extensions remain as written.",
+      "source": {
+        "url": "https://gazette.com/2026/07/17/woodland-park-passes-moratorium-on-data-centers/",
+        "body_sha256": "46e43f4438542f37a89a66a18c407b0196f21fcec896dff37257162fa1459bfb",
+        "text_sha256": "1469925f04f53996d0d91e335f30c445412632681a42bee08ebe642ce28006d6",
+        "raw_text_character_span": [
+          452,
+          490
+        ]
+      },
+      "scope": "Encoding only; preserve all prose, dates, status and current_end_date_iso. Extracted text reviewed, without new execution authentication or source acquisition."
+    },
+    {
+      "moratorium_id": "ct-morris-2026",
+      "record_sha256": "195ba1ea79e47dd1d19ad0dea8622ace79d3dffb9a110455935aea3567cc7fc9",
+      "disposition": "accepted_encoding_correction_pending_batch_apply",
+      "accepted_fields": {
+        "duration_kind": "calendar_term",
+        "duration_days": ""
+      },
+      "rationale": "Independently inspected retained clause/report describes the original interval as calendar months/years, not a specified day count. Normalize the reported/proposed term without upgrading adoption, effectiveness or present legal status. Earlier-of clauses and any later extensions remain as written.",
+      "source": {
+        "url": "https://municipal-documents.s3.amazonaws.com/uploads/Morris-CT/planning-zoning-commission/documents/regulations/155741/Morris%20-%20Moratorium%20Battery%20Energy%20Storage%20Systems%20%26%20Data%20Centers.pdf",
+        "body_sha256": "f9d2d410bc43f280be65c307c6df965efb20751767d94094481f90dac27cfa3b",
+        "text_sha256": "8cdb639ec0c1cb236446b4ea02a1bf665f42f6ae5350e8fd2e3105732ad24074",
+        "raw_text_character_span": [
+          4307,
+          4349
+        ]
+      },
+      "scope": "Encoding only; preserve all prose, dates, status and current_end_date_iso. Extracted text reviewed, without new execution authentication or source acquisition."
+    },
+    {
+      "moratorium_id": "fl-bay-county-2026",
+      "record_sha256": "aab309c3cf0fe5b3997559cb1a5acef34087173548e3c2c3f4d2eb0195a86a5b",
+      "disposition": "accepted_encoding_correction_pending_batch_apply",
+      "accepted_fields": {
+        "duration_kind": "calendar_term",
+        "duration_days": ""
+      },
+      "rationale": "Independently inspected retained clause/report describes the original interval as calendar months/years, not a specified day count. Normalize the reported/proposed term without upgrading adoption, effectiveness or present legal status. Earlier-of clauses and any later extensions remain as written.",
+      "source": {
+        "url": "https://baycountyfl.new.swagit.com/videos/394144",
+        "body_sha256": "af47d98cb7f732c7cd27b5d0067fce39f2661fba24f9089bc99684e0ea566c4e",
+        "text_sha256": "ae66c8234f26614f6613c8ac38418f599b70ea080df5062bd955391a385a5671",
+        "raw_text_character_span": [
+          213,
+          252
+        ]
+      },
+      "scope": "Encoding only; preserve all prose, dates, status and current_end_date_iso. Extracted text reviewed, without new execution authentication or source acquisition."
+    },
+    {
+      "moratorium_id": "fl-citrus-county-2026",
+      "record_sha256": "73568705604947da8fe05c90d4895354176031c1a1e5b0be40a2ce793a8c168b",
+      "disposition": "accepted_encoding_correction_pending_batch_apply",
+      "accepted_fields": {
+        "duration_kind": "calendar_term",
+        "duration_days": ""
+      },
+      "rationale": "Independently inspected retained clause/report describes the original interval as calendar months/years, not a specified day count. Normalize the reported/proposed term without upgrading adoption, effectiveness or present legal status. Earlier-of clauses and any later extensions remain as written.",
+      "source": {
+        "url": "https://floridapolitics.com/archives/798549-citrus-county-places-temporary-halt-on-data-centers/",
+        "body_sha256": "53ab29f33b05a9fbcaf7be45805f8cdce94e7caf022ac6deca1b07dfb307d23e",
+        "text_sha256": "26a2909c8ce43ff7472a1bb63ebff0390c3ee859ce07f6bf1bddaf68bf12bef0",
+        "raw_text_character_span": [
+          32,
+          61
+        ]
+      },
+      "scope": "Encoding only; preserve all prose, dates, status and current_end_date_iso. Extracted text reviewed, without new execution authentication or source acquisition."
+    },
+    {
+      "moratorium_id": "fl-desoto-county-2026",
+      "record_sha256": "2dfdef195c7c40f506044d7e0d3faab5eb5dee933152d20d435c3455b6203bc4",
+      "disposition": "accepted_encoding_correction_pending_batch_apply",
+      "accepted_fields": {
+        "duration_kind": "calendar_term",
+        "duration_days": ""
+      },
+      "rationale": "Independently inspected retained clause/report describes the original interval as calendar months/years, not a specified day count. Normalize the reported/proposed term without upgrading adoption, effectiveness or present legal status. Earlier-of clauses and any later extensions remain as written.",
+      "source": {
+        "url": "https://desotobocc.legistar.com/View.ashx?M=F&ID=15705425&GUID=F77F3C82-73DB-4912-B7FF-1ABDBE0D4C5C",
+        "body_sha256": "632acf21b7257254802317607eb3c8b5a942370eecc569ffe35ff97f92c26c8b",
+        "text_sha256": "a5a5d89c741765d2f1a7b8e173779ade1b2582ab157cf0d8126017310e37abb6",
+        "raw_text_character_span": [
+          7745,
+          7797
+        ]
+      },
+      "scope": "Encoding only; preserve all prose, dates, status and current_end_date_iso. Extracted text reviewed, without new execution authentication or source acquisition."
+    },
+    {
+      "moratorium_id": "fl-flagler-county-2026",
+      "record_sha256": "c18f29b7c6852afa1417ecf062c81d8347911ed3dab52933293f36ea80bdf8a0",
+      "disposition": "accepted_encoding_correction_pending_batch_apply",
+      "accepted_fields": {
+        "duration_kind": "calendar_term",
+        "duration_days": ""
+      },
+      "rationale": "Independently inspected retained clause/report describes the original interval as calendar months/years, not a specified day count. Normalize the reported/proposed term without upgrading adoption, effectiveness or present legal status. Earlier-of clauses and any later extensions remain as written.",
+      "source": {
+        "url": "https://www.observerlocalnews.com/news/2026/aug/03/flagler-county-approves-one-year-data-center-moratorium/",
+        "body_sha256": "014118220d47b62114b0a42dc26be7ac0fa57b821630584271978e023319df23",
+        "text_sha256": "88fa5743b37cdc8797be3ae01b295524f3e4ab36457b68067d7861cf25418f58",
+        "raw_text_character_span": [
+          29,
+          71
+        ]
+      },
+      "scope": "Encoding only; preserve all prose, dates, status and current_end_date_iso. Extracted text reviewed, without new execution authentication or source acquisition."
+    },
+    {
+      "moratorium_id": "fl-holmes-county-2026",
+      "record_sha256": "7726c987db0b705d75fa18e782f2e0c3b2f503fc6172467939b4a782376f3ad5",
+      "disposition": "accepted_encoding_correction_pending_batch_apply",
+      "accepted_fields": {
+        "duration_kind": "calendar_term",
+        "duration_days": ""
+      },
+      "rationale": "Independently inspected retained clause/report describes the original interval as calendar months/years, not a specified day count. Normalize the reported/proposed term without upgrading adoption, effectiveness or present legal status. Earlier-of clauses and any later extensions remain as written.",
+      "source": {
+        "url": "https://holmesclerk.com/uploads/2026/07/june-16-2026-regular-session.pdf",
+        "body_sha256": "0a1dd9cdf5d2ba94d96ffc177215a690b2bf161d29cb717eb064d6688fdabfe9",
+        "text_sha256": "67aa55c44715d050fe1f7868dfa80ce276799f8036c388b8e9ac8cf77d592cd7",
+        "raw_text_character_span": [
+          3559,
+          3595
+        ]
+      },
+      "scope": "Encoding only; preserve all prose, dates, status and current_end_date_iso. Extracted text reviewed, without new execution authentication or source acquisition."
+    },
+    {
+      "moratorium_id": "fl-levy-county-2026",
+      "record_sha256": "c1a21f7175b466c2038318fa6633bab6eefa80848b4cdb9f96af64d57a8b8edd",
+      "disposition": "accepted_encoding_correction_pending_batch_apply",
+      "accepted_fields": {
+        "duration_kind": "calendar_term",
+        "duration_days": ""
+      },
+      "rationale": "Independently inspected retained clause/report describes the original interval as calendar months/years, not a specified day count. Normalize the reported/proposed term without upgrading adoption, effectiveness or present legal status. Earlier-of clauses and any later extensions remain as written.",
+      "source": {
+        "url": "https://mccmeetingspublic.blob.core.usgovcloudapi.net/levyfl-meet-a106d2b40d91493fa736cfe8000ff12d/ITEM-Attachment-001-99388d3b2241462a89283a4bf8118270.pdf",
+        "body_sha256": "b369bb6db416967d7dfe1bc2e7367ec073a83bf096d65058f78748c6af532179",
+        "text_sha256": "cd8581dd1c0d85cb81177e9916e4a3e8dcc21d2b535b5e54fca3ade8e0bc343b",
+        "raw_text_character_span": [
+          6625,
+          6653
+        ]
+      },
+      "scope": "Encoding only; preserve all prose, dates, status and current_end_date_iso. Extracted text reviewed, without new execution authentication or source acquisition."
+    },
+    {
+      "moratorium_id": "fl-panama-city-2026",
+      "record_sha256": "9b71d59543d82edfbb0d2ff1b27d14e7a0e7b6079fd2a8e94dedf3c5734c727b",
+      "disposition": "accepted_encoding_correction_pending_batch_apply",
+      "accepted_fields": {
+        "duration_kind": "calendar_term",
+        "duration_days": ""
+      },
+      "rationale": "Independently inspected retained clause/report describes the original interval as calendar months/years, not a specified day count. Normalize the reported/proposed term without upgrading adoption, effectiveness or present legal status. Earlier-of clauses and any later extensions remain as written.",
+      "source": {
+        "url": "https://www.panamacity.gov/AgendaCenter/ViewFile/Item/17618?fileID=37543",
+        "body_sha256": "19e70f563eea2fb253525ad79702af7dbcef05c32583253ca51eff928d9fd3db",
+        "text_sha256": "e7266b300e628826a483a9736021c7e75882daa143f61fe52cc24e31b873d7b9",
+        "raw_text_character_span": [
+          6821,
+          6860
+        ]
+      },
+      "scope": "Encoding only; preserve all prose, dates, status and current_end_date_iso. Extracted text reviewed, without new execution authentication or source acquisition."
+    },
+    {
+      "moratorium_id": "co-south-fork-2026",
+      "record_sha256": "b5041c825da01c4b8a87e6436317195ccb31758da22b8faf98c9be72c26acc5d",
+      "disposition": "withheld",
+      "rationale": "Worker recommendation awaits coordinator inspection of the specific operative original-term clause within the longer retained packet; surrounding calendar mentions or staff recommendations alone are not accepted."
+    },
+    {
+      "moratorium_id": "fl-ormond-beach-2026",
+      "record_sha256": "20b74cbce8b4195381e508735436fde6b98c4128164636581215ed4e7e29a215",
+      "disposition": "withheld",
+      "rationale": "Worker recommendation awaits coordinator inspection of the specific operative original-term clause within the longer retained packet; surrounding calendar mentions or staff recommendations alone are not accepted."
+    },
+    {
+      "moratorium_id": "al-birmingham-2026",
+      "record_sha256": "90d4dc7657637983dd00e65d101ac33487a7ba2afad7149016fdc58f69500625",
+      "disposition": "retain_existing_fixed_day_encoding",
+      "rationale": "Inspected retained source explicitly specifies the original day count. Later calendar extensions or earlier termination conditions do not turn the original term into calendar months/years.",
+      "source": {
+        "url": "https://www.alreporter.com/2026/06/10/birmingham-approves-data-center-ordinance-facing-publics-criticism",
+        "body_sha256": "0d239c1e0ebd14a9ee797d5561e9f29aab2d469c0f55d9031ea533f1acfdaabe",
+        "text_sha256": "abd20411055908fb7c88f805c342738154b38c7facf9390bf0177bedb8d6cdad",
+        "raw_text_character_span": [
+          715,
+          733
+        ]
+      }
+    },
+    {
+      "moratorium_id": "ca-desert-hot-springs-2026",
+      "record_sha256": "b61d804e12bbec89f7e1f2de1c437b7fae0938240ee15809a310b4842113f46f",
+      "disposition": "retain_existing_fixed_day_encoding",
+      "rationale": "Inspected retained source explicitly specifies the original day count. Later calendar extensions or earlier termination conditions do not turn the original term into calendar months/years.",
+      "source": {
+        "url": "https://cityofdhs.civicweb.net/document/117389/",
+        "body_sha256": "462bf2170ed2abfb144c8eb0039dfcebfe3a5e084e0836a1397692cf8332dd37",
+        "text_sha256": "a0881530bb48cc5d7a254232f4cd436cc2a3dd2d6f1109c482a60d2e5b715ce7",
+        "raw_text_character_span": [
+          13868,
+          13913
+        ]
+      }
+    },
+    {
+      "moratorium_id": "ca-indio-2026",
+      "record_sha256": "e8d69b29c25de9ba297de82fdb4db369199c5dcb7ae98539086baa020bbd6e2e",
+      "disposition": "retain_existing_fixed_day_encoding",
+      "rationale": "Inspected retained source explicitly specifies the original day count. Later calendar extensions or earlier termination conditions do not turn the original term into calendar months/years.",
+      "source": {
+        "url": "https://indio.civicweb.net/document/198792/Data%20Center%20Moratorium%20Extension.pdf?handle=87E71EC04B32493BA7E5BE11D8AE37BA",
+        "body_sha256": "fbdca0a66b6558eb1358e6e74c4896594b1c80740abafaeeba93de40b7dc9b20",
+        "text_sha256": "81e072a94964f8bc3918e14ba3b59d02ee481bb61ae68caa1a58966c1f22072f",
+        "raw_text_character_span": [
+          21902,
+          21923
+        ]
+      }
+    },
+    {
+      "moratorium_id": "ca-morgan-hill-2026",
+      "record_sha256": "300576a32a8e0160819a8b5fb7906b6bc0395418059cd7c09856a3c5d4a360e6",
+      "disposition": "retain_existing_fixed_day_encoding",
+      "rationale": "Inspected retained source explicitly specifies the original day count. Later calendar extensions or earlier termination conditions do not turn the original term into calendar months/years.",
+      "source": {
+        "url": "https://morganhilltimes.com/city-council-extends-morgan-hills-moratorium-on-data-centers/",
+        "body_sha256": "89443287c10db4022130a8ebb7f9e5fa46c1cc917b7017dae05f100d7d9b9a19",
+        "text_sha256": "b1e92a1fa76b3cedc66ea6a7f9b124d246382bd93284ccc760d3092cb8d74938",
+        "raw_text_character_span": [
+          484,
+          509
+        ]
+      }
+    },
+    {
+      "moratorium_id": "ca-oakley-2026",
+      "record_sha256": "3a85db34dc2fd5d108f81acb7a9d77fe0e93ede4cc5d63594c60b3402ac5aa29",
+      "disposition": "retain_existing_fixed_day_encoding",
+      "rationale": "Inspected retained source explicitly specifies the original day count. Later calendar extensions or earlier termination conditions do not turn the original term into calendar months/years.",
+      "source": {
+        "url": "https://ecode360.com/OA4568/laws/LF2687136.pdf",
+        "body_sha256": "03360455e5e7558f804ead7b0ebfb826067527b708ab50ea7cda74e6c10a0b9f",
+        "text_sha256": "814c7baff3693e4ec31e4b81076aeab198e294d638e25d2de7880e85230f75ad",
+        "raw_text_character_span": [
+          6316,
+          6336
+        ]
+      }
+    },
+    {
+      "moratorium_id": "ca-palm-springs-2026",
+      "record_sha256": "8f056cab1a34c88a094c1ddfe2c2a0e1667110ad61f4f7502c26e8dd55cd4400",
+      "disposition": "retain_existing_fixed_day_encoding",
+      "rationale": "Inspected retained source explicitly specifies the original day count. Later calendar extensions or earlier termination conditions do not turn the original term into calendar months/years.",
+      "source": {
+        "url": "https://thepalmspringspost.com/palm-springs-extends-data-center-moratorium-to-2028/",
+        "body_sha256": "21bc44a87d00e525a5b7d9730bc1e80ed53778958abf6ecef8cbe584ce9aa3a5",
+        "text_sha256": "7b35b5cd0f7fa4a2d9ad8526f1a5c3d699eeb790b09351cda057cc5fe2cf143a",
+        "raw_text_character_span": [
+          443,
+          475
+        ]
+      }
+    },
+    {
+      "moratorium_id": "ca-patterson-2026",
+      "record_sha256": "cd0e6e0e8a1af509bcc79f2206ac7daee3bfac492d0430f938a726707aacec2d",
+      "disposition": "retain_existing_fixed_day_encoding",
+      "rationale": "Inspected retained source explicitly specifies the original day count. Later calendar extensions or earlier termination conditions do not turn the original term into calendar months/years.",
+      "source": {
+        "url": "https://pub-cityofpatterson.escribemeetings.com/FileStream.ashx?DocumentId=67",
+        "body_sha256": "5531dd18231553cbfb86c4a5d09b96fb3365f3b95910561a05358231d3114147",
+        "text_sha256": "38956d4b7f4baf4c4a2bd58df56fe26f357533326c8d03f10c40952652f05a3c",
+        "raw_text_character_span": [
+          651,
+          670
+        ]
+      }
+    },
+    {
+      "moratorium_id": "fl-lynn-haven-2026",
+      "record_sha256": "a27e180f8c864c10f00c8290dcd751649b61a19c240481cc316a93f7f7a630eb",
+      "disposition": "retain_existing_fixed_day_encoding",
+      "rationale": "Inspected retained source explicitly specifies the original day count. Later calendar extensions or earlier termination conditions do not turn the original term into calendar months/years.",
+      "source": {
+        "url": "https://www.cityoflynnhaven.gov/AgendaCenter/ViewFile/Agenda/_06232026-1365",
+        "body_sha256": "838ca379d1bf62cc0c2aed8ebf7809fead6ecdfe9c679d5671b837f893de4f0a",
+        "text_sha256": "2f103afe766f8fb7469362553ddf24cc53248be3057c119911de325bf5cb3602",
+        "raw_text_character_span": [
+          3226,
+          3242
+        ]
+      }
+    },
+    {
+      "moratorium_id": "al-anniston-2026",
+      "record_sha256": "9a9b821a34907fcc2e28a07e3da2a560b1778c22507688324e11d45bc5c888d1",
+      "disposition": "withheld",
+      "rationale": "No retained text artifact for the cited resolution; the legacy 12-month description alone cannot establish whether the instrument specifies an actual day count.",
+      "scope": "Unresolved in supplied review packet; not an assertion that no supporting source exists elsewhere in private archives. No canonical value changed."
+    },
+    {
+      "moratorium_id": "al-chelsea-2026",
+      "record_sha256": "95e0553c3e0e4566e95b5608f3b1e34428174b3c379264ae57d5e4de40b107cd",
+      "disposition": "withheld",
+      "rationale": "The cited minutes have no retained text artifact; the legacy one-year description does not establish the ordinance\u2019s actual original wording.",
+      "scope": "Unresolved in supplied review packet; not an assertion that no supporting source exists elsewhere in private archives. No canonical value changed."
+    },
+    {
+      "moratorium_id": "al-cullman-2026",
+      "record_sha256": "523e6adb4d5c96a00fe20eece59b9507c5a8d1b2202e66cc5f6fe7215d8db1e2",
+      "disposition": "withheld",
+      "rationale": "The retained agenda and later report establish a temporary moratorium but do not specify its original duration; 12 months in the record alone cannot resolve the day count.",
+      "scope": "Unresolved in supplied review packet; not an assertion that no supporting source exists elsewhere in private archives. No canonical value changed."
+    },
+    {
+      "moratorium_id": "al-homewood-2026",
+      "record_sha256": "974e7d88a11c0369dddb4d1dee687eceb1a29671f50d6b10c8440466334864c4",
+      "disposition": "withheld",
+      "rationale": "The retained council summary confirms a moratorium but does not state the original 12-month term or distinguish it from the extension.",
+      "scope": "Unresolved in supplied review packet; not an assertion that no supporting source exists elsewhere in private archives. No canonical value changed."
+    },
+    {
+      "moratorium_id": "al-prichard-undated",
+      "record_sha256": "ff22df0da29154bacb99c722afeeacb819ed3d6b6f41f0b27bfcb610a73a50bc",
+      "disposition": "withheld",
+      "rationale": "The retained report calls the adopted term six months, but the record claims 180 days as adopted. Without the ordinance or an actual day-count source, it is not possible to distinguish a true 180-day term from calendar shorthand.",
+      "scope": "Unresolved in supplied review packet; not an assertion that no supporting source exists elsewhere in private archives. No canonical value changed."
+    },
+    {
+      "moratorium_id": "al-rogersville-undated",
+      "record_sha256": "8e857d7f6fae5793e2f6ec44db83d4c42de02b44457ee87173b665365ae99962",
+      "disposition": "withheld",
+      "rationale": "The only retained report describes a proposed six-month term and expressly says it had not yet been voted on; an adopted original term is not established.",
+      "scope": "Unresolved in supplied review packet; not an assertion that no supporting source exists elsewhere in private archives. No canonical value changed."
+    },
+    {
+      "moratorium_id": "ar-harrison-2023",
+      "record_sha256": "2e772e46e49b25ae5d2789433d64b9e397c193d5451b186a1ec3b19c2c8f90a0",
+      "disposition": "withheld",
+      "rationale": "The retained report addresses removal but does not establish the original one-year or earlier-event clause.",
+      "scope": "Unresolved in supplied review packet; not an assertion that no supporting source exists elsewhere in private archives. No canonical value changed."
+    },
+    {
+      "moratorium_id": "ar-russellville-2026",
+      "record_sha256": "b5ef4d7e7dea8b1dad4930d8edffc908553130df518d47421dad8f2c01b84390",
+      "disposition": "withheld",
+      "rationale": "The retained agenda lists consideration without the duration or final amended vote; the record reports a changed proposal, so the adopted original six-month term needs independent support.",
+      "scope": "Unresolved in supplied review packet; not an assertion that no supporting source exists elsewhere in private archives. No canonical value changed."
+    },
+    {
+      "moratorium_id": "ar-union-county-2026",
+      "record_sha256": "c43e8634b8a610adcb9fab9da178abdb944828906770d092d103c65ad8e37820",
+      "disposition": "withheld",
+      "rationale": "The retained report confirms a moratorium but supplies no original term; the legacy one-year text alone is insufficient.",
+      "scope": "Unresolved in supplied review packet; not an assertion that no supporting source exists elsewhere in private archives. No canonical value changed."
+    },
+    {
+      "moratorium_id": "ca-arcata-2026",
+      "record_sha256": "1d5f521e3333023b1f74136b2eda51f03d949e2d0eec8444de00174f9a98ca12",
+      "disposition": "withheld",
+      "rationale": "No retained proof or source artifact supports the original 45-day count.",
+      "scope": "Unresolved in supplied review packet; not an assertion that no supporting source exists elsewhere in private archives. No canonical value changed."
+    },
+    {
+      "moratorium_id": "ca-baldwin-park-2026",
+      "record_sha256": "d76f582ace3c8d7f76010aea5cbf2dcf222987c09e1c0620c1800f0964cc710a",
+      "disposition": "withheld",
+      "rationale": "The retained article discusses a calendar extension but does not establish the initial 45-day term.",
+      "scope": "Unresolved in supplied review packet; not an assertion that no supporting source exists elsewhere in private archives. No canonical value changed."
+    },
+    {
+      "moratorium_id": "ca-calaveras-county-2026",
+      "record_sha256": "c8b92c43c410fd9b02b3f9c6809e153befb7696ad60e136b259797317d7864db",
+      "disposition": "withheld",
+      "rationale": "No retained proof or source artifact supports the original 45-day count.",
+      "scope": "Unresolved in supplied review packet; not an assertion that no supporting source exists elsewhere in private archives. No canonical value changed."
+    },
+    {
+      "moratorium_id": "ca-city-of-angels-calaveras-county-2026",
+      "record_sha256": "6314a78bbfd4f5ec7e985af2177483ccebdc8231d5089802d70d866ebc325a65",
+      "disposition": "withheld",
+      "rationale": "No retained proof or source artifact supports the original 45-day count; extension proposal cannot establish it.",
+      "scope": "Unresolved in supplied review packet; not an assertion that no supporting source exists elsewhere in private archives. No canonical value changed."
+    },
+    {
+      "moratorium_id": "ca-el-monte-2026",
+      "record_sha256": "63e7be73066922a888b9cf602a0df2df0286041341980f3ea75c1b6ce03b976b",
+      "disposition": "withheld",
+      "rationale": "The retained 45-day item is a proposed agenda recommendation, while the second artifact reports only a later extension; original adoption of that term is not established.",
+      "scope": "Unresolved in supplied review packet; not an assertion that no supporting source exists elsewhere in private archives. No canonical value changed."
+    },
+    {
+      "moratorium_id": "ca-escondido-2026",
+      "record_sha256": "7c9feadca147cc4c28b6fd0a45207bd181b7c3d12c69f4994273c8b30b0ac335",
+      "disposition": "withheld",
+      "rationale": "No retained proof or source artifact supports the original 45-day count.",
+      "scope": "Unresolved in supplied review packet; not an assertion that no supporting source exists elsewhere in private archives. No canonical value changed."
+    },
+    {
+      "moratorium_id": "ca-eureka-2026",
+      "record_sha256": "31e906652563acbb6263e96cb5b8ef99dec8fdf2449edafd83725fbbac1c78ab",
+      "disposition": "withheld",
+      "rationale": "No retained proof or source artifact supports the original 45-day count.",
+      "scope": "Unresolved in supplied review packet; not an assertion that no supporting source exists elsewhere in private archives. No canonical value changed."
+    },
+    {
+      "moratorium_id": "ca-gilroy-2026",
+      "record_sha256": "aafed18e30937e0057573097f1b376eb9861d0913393fe0474bf8c490f0773af",
+      "disposition": "withheld",
+      "rationale": "No retained proof or source artifact supports the original 45-day count.",
+      "scope": "Unresolved in supplied review packet; not an assertion that no supporting source exists elsewhere in private archives. No canonical value changed."
+    },
+    {
+      "moratorium_id": "ca-imperial-2026",
+      "record_sha256": "21a12d00f7399abdbc00cdb7667666c17d37e20e8b8f55f087b8c54cc3feb40e",
+      "disposition": "withheld",
+      "rationale": "The retained notice discusses an extension and original ordinance but does not state the original day count.",
+      "scope": "Unresolved in supplied review packet; not an assertion that no supporting source exists elsewhere in private archives. No canonical value changed."
+    },
+    {
+      "moratorium_id": "ca-lake-elsinore-2026",
+      "record_sha256": "27f1d8d8456ee421e43b3c314a2a179aaa0b2dabc7c4595651cb57b958a22691",
+      "disposition": "withheld",
+      "rationale": "No retained proof or source artifact supports the original 45-day count.",
+      "scope": "Unresolved in supplied review packet; not an assertion that no supporting source exists elsewhere in private archives. No canonical value changed."
+    },
+    {
+      "moratorium_id": "ca-monterey-park-2026",
+      "record_sha256": "985be88343ad67f64b513bef04e2cda55a539c7120732903b1b829abbf8e3239",
+      "disposition": "withheld",
+      "rationale": "Both retained artifacts concern later ordinances and do not establish the claimed original 45-day term.",
+      "scope": "Unresolved in supplied review packet; not an assertion that no supporting source exists elsewhere in private archives. No canonical value changed."
+    },
+    {
+      "moratorium_id": "ca-richmond-2026",
+      "record_sha256": "6512898544574bec690c64e59d5d62d2fda88b81c096c6cb39164887cef7cae3",
+      "disposition": "withheld",
+      "rationale": "The retained notice identifies a later extension, without stating the original 45-day term.",
+      "scope": "Unresolved in supplied review packet; not an assertion that no supporting source exists elsewhere in private archives. No canonical value changed."
+    },
+    {
+      "moratorium_id": "co-arvada-undated",
+      "record_sha256": "4a58d6eabd7b7f21390de0835aa922a65ca22ac575f68e5042e911b8dc8e35d6",
+      "disposition": "withheld",
+      "rationale": "The record describes a proposal, whereas the later retained report discusses approval; the packet does not securely establish that the proposal and later approved instrument have the same original term.",
+      "scope": "Unresolved in supplied review packet; not an assertion that no supporting source exists elsewhere in private archives. No canonical value changed."
+    },
+    {
+      "moratorium_id": "co-broomfield-2026",
+      "record_sha256": "81a6adb803a30128446efceb8b72dd6d44315381815910d4f169aa23676e7e49",
+      "disposition": "withheld",
+      "rationale": "The retained source is a generic ordinance notices page and does not specify the original term or the relevant ordinance.",
+      "scope": "Unresolved in supplied review packet; not an assertion that no supporting source exists elsewhere in private archives. No canonical value changed."
+    },
+    {
+      "moratorium_id": "co-larimer-county-2026",
+      "record_sha256": "192010558b46cbfda7189faae1477325f3fd267f6e1cecc3c99830991eafb0a2",
+      "disposition": "withheld",
+      "rationale": "The retained page describes the later extension endpoint, not the claimed initial 30-day term; the original resolution has no located artifact.",
+      "scope": "Unresolved in supplied review packet; not an assertion that no supporting source exists elsewhere in private archives. No canonical value changed."
+    },
+    {
+      "moratorium_id": "co-paonia-2026",
+      "record_sha256": "5a1ef745918634ed046da473b66ad26b3dd6063a9a268851de319d61f9e0924d",
+      "disposition": "withheld",
+      "rationale": "The retained resolution gives a different fixed endpoint from the record\u2019s one-year description; it does not resolve the adopted original term and possible amendment or substitution.",
+      "scope": "Unresolved in supplied review packet; not an assertion that no supporting source exists elsewhere in private archives. No canonical value changed."
+    },
+    {
+      "moratorium_id": "ct-trumbull-2026",
+      "record_sha256": "60eb8aecf7732ac9ebc7d4d7c9e32cfc4ca6db0ef2214c2b1a0622eda5131ab7",
+      "disposition": "withheld",
+      "rationale": "The retained agenda presents two-year ordinance language for a public hearing, but does not establish final adoption or whether the adopted text changed.",
+      "scope": "Unresolved in supplied review packet; not an assertion that no supporting source exists elsewhere in private archives. No canonical value changed."
+    },
+    {
+      "moratorium_id": "ct-west-haven-2026",
+      "record_sha256": "074207796c4c6cdd453c4e637094034e07848fa96c1931fc32d5b96001cac598",
+      "disposition": "withheld",
+      "rationale": "The cited minutes have no retained text artifact, so the original one-year wording is unsupported.",
+      "scope": "Unresolved in supplied review packet; not an assertion that no supporting source exists elsewhere in private archives. No canonical value changed."
+    },
+    {
+      "moratorium_id": "de-dover-undated",
+      "record_sha256": "3400eb52515cb96a9aaed1c3b4143a7a27e3bd12584a19d73abc0588f7b5a173",
+      "disposition": "withheld",
+      "rationale": "The retained sources include a pending proposal and later report of passage; without establishing whether the later action is the same instrument and unchanged term, the original term remains ambiguous.",
+      "scope": "Unresolved in supplied review packet; not an assertion that no supporting source exists elsewhere in private archives. No canonical value changed."
+    },
+    {
+      "moratorium_id": "fl-clay-county-2026",
+      "record_sha256": "8766733ccfc7b6b00a914ad5cdaabf12021dfcc39fa1483b4ebda0ccf45c9fed",
+      "disposition": "withheld",
+      "rationale": "The retained final-hearing agenda identifies an ordinance but supplies neither the claimed one-year duration nor its final adopted text.",
+      "scope": "Unresolved in supplied review packet; not an assertion that no supporting source exists elsewhere in private archives. No canonical value changed."
+    },
+    {
+      "moratorium_id": "fl-franklin-county-2026",
+      "record_sha256": "d3364c28a95d8a09b1d70f111a3f5b44f4722f8883d18ebee3302716f70cb443",
+      "disposition": "withheld",
+      "rationale": "The cited ordinance has no retained text artifact; the legacy one-year description alone cannot resolve original wording.",
+      "scope": "Unresolved in supplied review packet; not an assertion that no supporting source exists elsewhere in private archives. No canonical value changed."
+    },
+    {
+      "moratorium_id": "fl-lakeland-undated",
+      "record_sha256": "f6000e4af26f4af8c8f87e1de5b1d35116c11f085cf234122cb845333e0b778b",
+      "disposition": "withheld",
+      "rationale": "The retained ordinance text states 12 months but is an unsigned agenda document; final adoption and unchanged original term are not established in the retained proof.",
+      "scope": "Unresolved in supplied review packet; not an assertion that no supporting source exists elsewhere in private archives. No canonical value changed."
+    },
+    {
+      "moratorium_id": "fl-madison-county-2026",
+      "record_sha256": "9d35f72aff21ebefce371217c609dbf3807fe9570d2bd5bd914e8fdb184506b9",
+      "disposition": "withheld",
+      "rationale": "The retained report says a moratorium passed but its excerpt does not specify the adopted original duration; a prior draft cannot establish an unchanged term.",
+      "scope": "Unresolved in supplied review packet; not an assertion that no supporting source exists elsewhere in private archives. No canonical value changed."
+    }
+  ]
+}

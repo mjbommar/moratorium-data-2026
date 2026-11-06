@@ -1031,6 +1031,7 @@
       "work/audit/apply-20261106T133127.json": "61ecefc2d90ddadf1da6b292056c734c83f7a6b206d6bd6d4589a906d5882972",
       "work/audit/apply-20261106T133727.json": "e9c44154ecd08c7110f6c75d92892796cea79fa527870788c3bdbecfde1012d4",
       "work/audit/apply-20261106T134619.json": "56364dd177942ba543367609a9e79ef59d7d2028b259f9896c3439f2653e2a49",
+      "work/audit/apply-20261106T150222.json": "50506a762e7267ec66243efbd1a876fd53c5ca2f538ecf5168b2adc5aa2f27c4",
       "work/audit/apply-legislation-20261105T114314.json": "222b8a24cbb2138216bd3e87d508fc67d5a3bafac2674429a58099a189e8204b",
       "work/audit/apply-legislation-20261106T000259.json": "563c37c423b64cc6d3eb8fe74f13b278bf8de357ec02c766e79c5d59a69b39a5",
       "work/audit/apply-legislation-20261106T000919.json": "c596af153305ab0135f215ac66482fce77d0dc38613ddf2a33d39a238dbcc3ea",
@@ -1039,7 +1040,7 @@
       "work/audit/apply-legislation-20261106T002343.json": "cce6016ebcee83046dcca9422bea0e45d3fed3379ae19232fdc174c7798eacdc",
       "work/audit/apply-legislation-20261106T084519.json": "2b8d7a459a25ac991a8a7ddde95f14b8c770f48cf86ceeb32677f8b814b81638"
     },
-    "moratorium_inventory.csv": "ec2d40fd48afeba1f2f517a307f5ce4ba90bf1f5550332d70f8b18f22afb878b",
+    "moratorium_inventory.csv": "0fcfe6c1bce5ae10ba917fe038e624caa0b4fff5af5563e0410f7c9017861c65",
     "state_legislation.csv": "5a4b86b5906acb6bf4611c131c91344e329bed9ae0162266bec962a5ae093038"
   },
   "scope": "Canonical inventory/state-policy collection and edit accounting. Each count dimension is disjoint and sums to its own table total. Job evidence gates are mechanical diagnostics, not substantive acceptance. Apply receipts show historical edits, not complete current rows or fresh legal force. Unassigned new records may have coordinator research outside this queue. This is not the completed freshness funnel required for release.",
@@ -1057,8 +1058,8 @@
         "excluded_completed_pilot": 8
       },
       "editorial_counts": {
-        "no_refresh_apply_change": 845,
-        "has_refresh_apply_change": 486
+        "no_refresh_apply_change": 811,
+        "has_refresh_apply_change": 520
       },
       "records": [
         {
@@ -1175,10 +1176,27 @@
               "job_mechanical_evidence_gate": false
             }
           ],
-          "refresh_apply_receipts": [],
-          "editorial_stage": "no_refresh_apply_change",
+          "refresh_apply_receipts": [
+            "work/audit/apply-20261106T150222.json"
+          ],
+          "editorial_stage": "has_refresh_apply_change",
           "legal_force_verification": "not_assessed_by_this_mechanical_accounting",
-          "applied_field_lineage": []
+          "applied_field_lineage": [
+            {
+              "column": "duration_days",
+              "last_receipt": "work/audit/apply-20261106T150222.json",
+              "last_applied_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_matches_last_applied_value": true
+            },
+            {
+              "column": "duration_kind",
+              "last_receipt": "work/audit/apply-20261106T150222.json",
+              "last_applied_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_matches_last_applied_value": true
+            }
+          ]
         },
         {
           "record_id": "al-fort-payne-2026",
@@ -1192,10 +1210,27 @@
               "job_mechanical_evidence_gate": false
             }
           ],
-          "refresh_apply_receipts": [],
-          "editorial_stage": "no_refresh_apply_change",
+          "refresh_apply_receipts": [
+            "work/audit/apply-20261106T150222.json"
+          ],
+          "editorial_stage": "has_refresh_apply_change",
           "legal_force_verification": "not_assessed_by_this_mechanical_accounting",
-          "applied_field_lineage": []
+          "applied_field_lineage": [
+            {
+              "column": "duration_days",
+              "last_receipt": "work/audit/apply-20261106T150222.json",
+              "last_applied_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_matches_last_applied_value": true
+            },
+            {
+              "column": "duration_kind",
+              "last_receipt": "work/audit/apply-20261106T150222.json",
+              "last_applied_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_matches_last_applied_value": true
+            }
+          ]
         },
         {
           "record_id": "al-harpersville-2026",
@@ -1209,10 +1244,27 @@
               "job_mechanical_evidence_gate": false
             }
           ],
-          "refresh_apply_receipts": [],
-          "editorial_stage": "no_refresh_apply_change",
+          "refresh_apply_receipts": [
+            "work/audit/apply-20261106T150222.json"
+          ],
+          "editorial_stage": "has_refresh_apply_change",
           "legal_force_verification": "not_assessed_by_this_mechanical_accounting",
-          "applied_field_lineage": []
+          "applied_field_lineage": [
+            {
+              "column": "duration_days",
+              "last_receipt": "work/audit/apply-20261106T150222.json",
+              "last_applied_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_matches_last_applied_value": true
+            },
+            {
+              "column": "duration_kind",
+              "last_receipt": "work/audit/apply-20261106T150222.json",
+              "last_applied_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_matches_last_applied_value": true
+            }
+          ]
         },
         {
           "record_id": "al-helena-2026",
@@ -1277,10 +1329,27 @@
               "job_mechanical_evidence_gate": false
             }
           ],
-          "refresh_apply_receipts": [],
-          "editorial_stage": "no_refresh_apply_change",
+          "refresh_apply_receipts": [
+            "work/audit/apply-20261106T150222.json"
+          ],
+          "editorial_stage": "has_refresh_apply_change",
           "legal_force_verification": "not_assessed_by_this_mechanical_accounting",
-          "applied_field_lineage": []
+          "applied_field_lineage": [
+            {
+              "column": "duration_days",
+              "last_receipt": "work/audit/apply-20261106T150222.json",
+              "last_applied_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_matches_last_applied_value": true
+            },
+            {
+              "column": "duration_kind",
+              "last_receipt": "work/audit/apply-20261106T150222.json",
+              "last_applied_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_matches_last_applied_value": true
+            }
+          ]
         },
         {
           "record_id": "al-morgan-county-2026",
@@ -1294,10 +1363,27 @@
               "job_mechanical_evidence_gate": false
             }
           ],
-          "refresh_apply_receipts": [],
-          "editorial_stage": "no_refresh_apply_change",
+          "refresh_apply_receipts": [
+            "work/audit/apply-20261106T150222.json"
+          ],
+          "editorial_stage": "has_refresh_apply_change",
           "legal_force_verification": "not_assessed_by_this_mechanical_accounting",
-          "applied_field_lineage": []
+          "applied_field_lineage": [
+            {
+              "column": "duration_days",
+              "last_receipt": "work/audit/apply-20261106T150222.json",
+              "last_applied_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_matches_last_applied_value": true
+            },
+            {
+              "column": "duration_kind",
+              "last_receipt": "work/audit/apply-20261106T150222.json",
+              "last_applied_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_matches_last_applied_value": true
+            }
+          ]
         },
         {
           "record_id": "al-pinson-2026",
@@ -1311,10 +1397,27 @@
               "job_mechanical_evidence_gate": false
             }
           ],
-          "refresh_apply_receipts": [],
-          "editorial_stage": "no_refresh_apply_change",
+          "refresh_apply_receipts": [
+            "work/audit/apply-20261106T150222.json"
+          ],
+          "editorial_stage": "has_refresh_apply_change",
           "legal_force_verification": "not_assessed_by_this_mechanical_accounting",
-          "applied_field_lineage": []
+          "applied_field_lineage": [
+            {
+              "column": "duration_days",
+              "last_receipt": "work/audit/apply-20261106T150222.json",
+              "last_applied_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_matches_last_applied_value": true
+            },
+            {
+              "column": "duration_kind",
+              "last_receipt": "work/audit/apply-20261106T150222.json",
+              "last_applied_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_matches_last_applied_value": true
+            }
+          ]
         },
         {
           "record_id": "al-prichard-undated",
@@ -1362,10 +1465,27 @@
               "job_mechanical_evidence_gate": true
             }
           ],
-          "refresh_apply_receipts": [],
-          "editorial_stage": "no_refresh_apply_change",
+          "refresh_apply_receipts": [
+            "work/audit/apply-20261106T150222.json"
+          ],
+          "editorial_stage": "has_refresh_apply_change",
           "legal_force_verification": "not_assessed_by_this_mechanical_accounting",
-          "applied_field_lineage": []
+          "applied_field_lineage": [
+            {
+              "column": "duration_days",
+              "last_receipt": "work/audit/apply-20261106T150222.json",
+              "last_applied_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_matches_last_applied_value": true
+            },
+            {
+              "column": "duration_kind",
+              "last_receipt": "work/audit/apply-20261106T150222.json",
+              "last_applied_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_matches_last_applied_value": true
+            }
+          ]
         },
         {
           "record_id": "al-springville-2026",
@@ -1379,10 +1499,27 @@
               "job_mechanical_evidence_gate": true
             }
           ],
-          "refresh_apply_receipts": [],
-          "editorial_stage": "no_refresh_apply_change",
+          "refresh_apply_receipts": [
+            "work/audit/apply-20261106T150222.json"
+          ],
+          "editorial_stage": "has_refresh_apply_change",
           "legal_force_verification": "not_assessed_by_this_mechanical_accounting",
-          "applied_field_lineage": []
+          "applied_field_lineage": [
+            {
+              "column": "duration_days",
+              "last_receipt": "work/audit/apply-20261106T150222.json",
+              "last_applied_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_matches_last_applied_value": true
+            },
+            {
+              "column": "duration_kind",
+              "last_receipt": "work/audit/apply-20261106T150222.json",
+              "last_applied_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_matches_last_applied_value": true
+            }
+          ]
         },
         {
           "record_id": "al-tarrant-2026",
@@ -1396,10 +1533,27 @@
               "job_mechanical_evidence_gate": true
             }
           ],
-          "refresh_apply_receipts": [],
-          "editorial_stage": "no_refresh_apply_change",
+          "refresh_apply_receipts": [
+            "work/audit/apply-20261106T150222.json"
+          ],
+          "editorial_stage": "has_refresh_apply_change",
           "legal_force_verification": "not_assessed_by_this_mechanical_accounting",
-          "applied_field_lineage": []
+          "applied_field_lineage": [
+            {
+              "column": "duration_days",
+              "last_receipt": "work/audit/apply-20261106T150222.json",
+              "last_applied_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_matches_last_applied_value": true
+            },
+            {
+              "column": "duration_kind",
+              "last_receipt": "work/audit/apply-20261106T150222.json",
+              "last_applied_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_matches_last_applied_value": true
+            }
+          ]
         },
         {
           "record_id": "al-westover-2026",
@@ -1414,7 +1568,8 @@
             }
           ],
           "refresh_apply_receipts": [
-            "work/audit/apply-20261105T123617.json"
+            "work/audit/apply-20261105T123617.json",
+            "work/audit/apply-20261106T150222.json"
           ],
           "editorial_stage": "has_refresh_apply_change",
           "legal_force_verification": "not_assessed_by_this_mechanical_accounting",
@@ -1424,6 +1579,20 @@
               "last_receipt": "work/audit/apply-20261105T123617.json",
               "last_applied_value_sha256": "6d26515c0c238d477827f9ad93932f9bec9c1992fb8a64fcd960376ead9b8f6b",
               "current_value_sha256": "6d26515c0c238d477827f9ad93932f9bec9c1992fb8a64fcd960376ead9b8f6b",
+              "current_matches_last_applied_value": true
+            },
+            {
+              "column": "duration_days",
+              "last_receipt": "work/audit/apply-20261106T150222.json",
+              "last_applied_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_matches_last_applied_value": true
+            },
+            {
+              "column": "duration_kind",
+              "last_receipt": "work/audit/apply-20261106T150222.json",
+              "last_applied_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
               "current_matches_last_applied_value": true
             },
             {
@@ -1612,10 +1781,27 @@
               "job_mechanical_evidence_gate": true
             }
           ],
-          "refresh_apply_receipts": [],
-          "editorial_stage": "no_refresh_apply_change",
+          "refresh_apply_receipts": [
+            "work/audit/apply-20261106T150222.json"
+          ],
+          "editorial_stage": "has_refresh_apply_change",
           "legal_force_verification": "not_assessed_by_this_mechanical_accounting",
-          "applied_field_lineage": []
+          "applied_field_lineage": [
+            {
+              "column": "duration_days",
+              "last_receipt": "work/audit/apply-20261106T150222.json",
+              "last_applied_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_matches_last_applied_value": true
+            },
+            {
+              "column": "duration_kind",
+              "last_receipt": "work/audit/apply-20261106T150222.json",
+              "last_applied_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_matches_last_applied_value": true
+            }
+          ]
         },
         {
           "record_id": "ar-madison-county-2026",
@@ -1629,10 +1815,27 @@
               "job_mechanical_evidence_gate": true
             }
           ],
-          "refresh_apply_receipts": [],
-          "editorial_stage": "no_refresh_apply_change",
+          "refresh_apply_receipts": [
+            "work/audit/apply-20261106T150222.json"
+          ],
+          "editorial_stage": "has_refresh_apply_change",
           "legal_force_verification": "not_assessed_by_this_mechanical_accounting",
-          "applied_field_lineage": []
+          "applied_field_lineage": [
+            {
+              "column": "duration_days",
+              "last_receipt": "work/audit/apply-20261106T150222.json",
+              "last_applied_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_matches_last_applied_value": true
+            },
+            {
+              "column": "duration_kind",
+              "last_receipt": "work/audit/apply-20261106T150222.json",
+              "last_applied_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_matches_last_applied_value": true
+            }
+          ]
         },
         {
           "record_id": "ar-russellville-2026",
@@ -2739,10 +2942,27 @@
               "job_mechanical_evidence_gate": false
             }
           ],
-          "refresh_apply_receipts": [],
-          "editorial_stage": "no_refresh_apply_change",
+          "refresh_apply_receipts": [
+            "work/audit/apply-20261106T150222.json"
+          ],
+          "editorial_stage": "has_refresh_apply_change",
           "legal_force_verification": "not_assessed_by_this_mechanical_accounting",
-          "applied_field_lineage": []
+          "applied_field_lineage": [
+            {
+              "column": "duration_days",
+              "last_receipt": "work/audit/apply-20261106T150222.json",
+              "last_applied_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_matches_last_applied_value": true
+            },
+            {
+              "column": "duration_kind",
+              "last_receipt": "work/audit/apply-20261106T150222.json",
+              "last_applied_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_matches_last_applied_value": true
+            }
+          ]
         },
         {
           "record_id": "co-arvada-undated",
@@ -2773,10 +2993,27 @@
               "job_mechanical_evidence_gate": false
             }
           ],
-          "refresh_apply_receipts": [],
-          "editorial_stage": "no_refresh_apply_change",
+          "refresh_apply_receipts": [
+            "work/audit/apply-20261106T150222.json"
+          ],
+          "editorial_stage": "has_refresh_apply_change",
           "legal_force_verification": "not_assessed_by_this_mechanical_accounting",
-          "applied_field_lineage": []
+          "applied_field_lineage": [
+            {
+              "column": "duration_days",
+              "last_receipt": "work/audit/apply-20261106T150222.json",
+              "last_applied_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_matches_last_applied_value": true
+            },
+            {
+              "column": "duration_kind",
+              "last_receipt": "work/audit/apply-20261106T150222.json",
+              "last_applied_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_matches_last_applied_value": true
+            }
+          ]
         },
         {
           "record_id": "co-brighton-undated",
@@ -2853,10 +3090,27 @@
               "job_mechanical_evidence_gate": false
             }
           ],
-          "refresh_apply_receipts": [],
-          "editorial_stage": "no_refresh_apply_change",
+          "refresh_apply_receipts": [
+            "work/audit/apply-20261106T150222.json"
+          ],
+          "editorial_stage": "has_refresh_apply_change",
           "legal_force_verification": "not_assessed_by_this_mechanical_accounting",
-          "applied_field_lineage": []
+          "applied_field_lineage": [
+            {
+              "column": "duration_days",
+              "last_receipt": "work/audit/apply-20261106T150222.json",
+              "last_applied_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_matches_last_applied_value": true
+            },
+            {
+              "column": "duration_kind",
+              "last_receipt": "work/audit/apply-20261106T150222.json",
+              "last_applied_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_matches_last_applied_value": true
+            }
+          ]
         },
         {
           "record_id": "co-delta-county-2026",
@@ -2887,10 +3141,27 @@
               "job_mechanical_evidence_gate": false
             }
           ],
-          "refresh_apply_receipts": [],
-          "editorial_stage": "no_refresh_apply_change",
+          "refresh_apply_receipts": [
+            "work/audit/apply-20261106T150222.json"
+          ],
+          "editorial_stage": "has_refresh_apply_change",
           "legal_force_verification": "not_assessed_by_this_mechanical_accounting",
-          "applied_field_lineage": []
+          "applied_field_lineage": [
+            {
+              "column": "duration_days",
+              "last_receipt": "work/audit/apply-20261106T150222.json",
+              "last_applied_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_matches_last_applied_value": true
+            },
+            {
+              "column": "duration_kind",
+              "last_receipt": "work/audit/apply-20261106T150222.json",
+              "last_applied_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_matches_last_applied_value": true
+            }
+          ]
         },
         {
           "record_id": "co-fort-collins-undated",
@@ -2916,10 +3187,27 @@
               "job_mechanical_evidence_gate": true
             }
           ],
-          "refresh_apply_receipts": [],
-          "editorial_stage": "no_refresh_apply_change",
+          "refresh_apply_receipts": [
+            "work/audit/apply-20261106T150222.json"
+          ],
+          "editorial_stage": "has_refresh_apply_change",
           "legal_force_verification": "not_assessed_by_this_mechanical_accounting",
-          "applied_field_lineage": []
+          "applied_field_lineage": [
+            {
+              "column": "duration_days",
+              "last_receipt": "work/audit/apply-20261106T150222.json",
+              "last_applied_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_matches_last_applied_value": true
+            },
+            {
+              "column": "duration_kind",
+              "last_receipt": "work/audit/apply-20261106T150222.json",
+              "last_applied_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_matches_last_applied_value": true
+            }
+          ]
         },
         {
           "record_id": "co-grand-county-2026",
@@ -2950,10 +3238,27 @@
               "job_mechanical_evidence_gate": false
             }
           ],
-          "refresh_apply_receipts": [],
-          "editorial_stage": "no_refresh_apply_change",
+          "refresh_apply_receipts": [
+            "work/audit/apply-20261106T150222.json"
+          ],
+          "editorial_stage": "has_refresh_apply_change",
           "legal_force_verification": "not_assessed_by_this_mechanical_accounting",
-          "applied_field_lineage": []
+          "applied_field_lineage": [
+            {
+              "column": "duration_days",
+              "last_receipt": "work/audit/apply-20261106T150222.json",
+              "last_applied_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_matches_last_applied_value": true
+            },
+            {
+              "column": "duration_kind",
+              "last_receipt": "work/audit/apply-20261106T150222.json",
+              "last_applied_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_matches_last_applied_value": true
+            }
+          ]
         },
         {
           "record_id": "co-hudson-2026",
@@ -2984,10 +3289,27 @@
               "job_mechanical_evidence_gate": false
             }
           ],
-          "refresh_apply_receipts": [],
-          "editorial_stage": "no_refresh_apply_change",
+          "refresh_apply_receipts": [
+            "work/audit/apply-20261106T150222.json"
+          ],
+          "editorial_stage": "has_refresh_apply_change",
           "legal_force_verification": "not_assessed_by_this_mechanical_accounting",
-          "applied_field_lineage": []
+          "applied_field_lineage": [
+            {
+              "column": "duration_days",
+              "last_receipt": "work/audit/apply-20261106T150222.json",
+              "last_applied_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_matches_last_applied_value": true
+            },
+            {
+              "column": "duration_kind",
+              "last_receipt": "work/audit/apply-20261106T150222.json",
+              "last_applied_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_matches_last_applied_value": true
+            }
+          ]
         },
         {
           "record_id": "co-johnstown-2026",
@@ -3001,10 +3323,27 @@
               "job_mechanical_evidence_gate": false
             }
           ],
-          "refresh_apply_receipts": [],
-          "editorial_stage": "no_refresh_apply_change",
+          "refresh_apply_receipts": [
+            "work/audit/apply-20261106T150222.json"
+          ],
+          "editorial_stage": "has_refresh_apply_change",
           "legal_force_verification": "not_assessed_by_this_mechanical_accounting",
-          "applied_field_lineage": []
+          "applied_field_lineage": [
+            {
+              "column": "duration_days",
+              "last_receipt": "work/audit/apply-20261106T150222.json",
+              "last_applied_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_matches_last_applied_value": true
+            },
+            {
+              "column": "duration_kind",
+              "last_receipt": "work/audit/apply-20261106T150222.json",
+              "last_applied_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_matches_last_applied_value": true
+            }
+          ]
         },
         {
           "record_id": "co-la-plata-county-2025",
@@ -3052,10 +3391,27 @@
               "job_mechanical_evidence_gate": false
             }
           ],
-          "refresh_apply_receipts": [],
-          "editorial_stage": "no_refresh_apply_change",
+          "refresh_apply_receipts": [
+            "work/audit/apply-20261106T150222.json"
+          ],
+          "editorial_stage": "has_refresh_apply_change",
           "legal_force_verification": "not_assessed_by_this_mechanical_accounting",
-          "applied_field_lineage": []
+          "applied_field_lineage": [
+            {
+              "column": "duration_days",
+              "last_receipt": "work/audit/apply-20261106T150222.json",
+              "last_applied_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_matches_last_applied_value": true
+            },
+            {
+              "column": "duration_kind",
+              "last_receipt": "work/audit/apply-20261106T150222.json",
+              "last_applied_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_matches_last_applied_value": true
+            }
+          ]
         },
         {
           "record_id": "co-logan-county-2025",
@@ -3096,10 +3452,27 @@
               "job_mechanical_evidence_gate": true
             }
           ],
-          "refresh_apply_receipts": [],
-          "editorial_stage": "no_refresh_apply_change",
+          "refresh_apply_receipts": [
+            "work/audit/apply-20261106T150222.json"
+          ],
+          "editorial_stage": "has_refresh_apply_change",
           "legal_force_verification": "not_assessed_by_this_mechanical_accounting",
-          "applied_field_lineage": []
+          "applied_field_lineage": [
+            {
+              "column": "duration_days",
+              "last_receipt": "work/audit/apply-20261106T150222.json",
+              "last_applied_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_matches_last_applied_value": true
+            },
+            {
+              "column": "duration_kind",
+              "last_receipt": "work/audit/apply-20261106T150222.json",
+              "last_applied_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_matches_last_applied_value": true
+            }
+          ]
         },
         {
           "record_id": "co-mead-2026",
@@ -3113,10 +3486,27 @@
               "job_mechanical_evidence_gate": true
             }
           ],
-          "refresh_apply_receipts": [],
-          "editorial_stage": "no_refresh_apply_change",
+          "refresh_apply_receipts": [
+            "work/audit/apply-20261106T150222.json"
+          ],
+          "editorial_stage": "has_refresh_apply_change",
           "legal_force_verification": "not_assessed_by_this_mechanical_accounting",
-          "applied_field_lineage": []
+          "applied_field_lineage": [
+            {
+              "column": "duration_days",
+              "last_receipt": "work/audit/apply-20261106T150222.json",
+              "last_applied_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_matches_last_applied_value": true
+            },
+            {
+              "column": "duration_kind",
+              "last_receipt": "work/audit/apply-20261106T150222.json",
+              "last_applied_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_matches_last_applied_value": true
+            }
+          ]
         },
         {
           "record_id": "co-milliken-2026",
@@ -3130,10 +3520,27 @@
               "job_mechanical_evidence_gate": true
             }
           ],
-          "refresh_apply_receipts": [],
-          "editorial_stage": "no_refresh_apply_change",
+          "refresh_apply_receipts": [
+            "work/audit/apply-20261106T150222.json"
+          ],
+          "editorial_stage": "has_refresh_apply_change",
           "legal_force_verification": "not_assessed_by_this_mechanical_accounting",
-          "applied_field_lineage": []
+          "applied_field_lineage": [
+            {
+              "column": "duration_days",
+              "last_receipt": "work/audit/apply-20261106T150222.json",
+              "last_applied_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_matches_last_applied_value": true
+            },
+            {
+              "column": "duration_kind",
+              "last_receipt": "work/audit/apply-20261106T150222.json",
+              "last_applied_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_matches_last_applied_value": true
+            }
+          ]
         },
         {
           "record_id": "co-montrose-county-2026",
@@ -3164,10 +3571,27 @@
               "job_mechanical_evidence_gate": true
             }
           ],
-          "refresh_apply_receipts": [],
-          "editorial_stage": "no_refresh_apply_change",
+          "refresh_apply_receipts": [
+            "work/audit/apply-20261106T150222.json"
+          ],
+          "editorial_stage": "has_refresh_apply_change",
           "legal_force_verification": "not_assessed_by_this_mechanical_accounting",
-          "applied_field_lineage": []
+          "applied_field_lineage": [
+            {
+              "column": "duration_days",
+              "last_receipt": "work/audit/apply-20261106T150222.json",
+              "last_applied_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_matches_last_applied_value": true
+            },
+            {
+              "column": "duration_kind",
+              "last_receipt": "work/audit/apply-20261106T150222.json",
+              "last_applied_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_matches_last_applied_value": true
+            }
+          ]
         },
         {
           "record_id": "co-paonia-2026",
@@ -3239,10 +3663,27 @@
               "job_mechanical_evidence_gate": true
             }
           ],
-          "refresh_apply_receipts": [],
-          "editorial_stage": "no_refresh_apply_change",
+          "refresh_apply_receipts": [
+            "work/audit/apply-20261106T150222.json"
+          ],
+          "editorial_stage": "has_refresh_apply_change",
           "legal_force_verification": "not_assessed_by_this_mechanical_accounting",
-          "applied_field_lineage": []
+          "applied_field_lineage": [
+            {
+              "column": "duration_days",
+              "last_receipt": "work/audit/apply-20261106T150222.json",
+              "last_applied_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_matches_last_applied_value": true
+            },
+            {
+              "column": "duration_kind",
+              "last_receipt": "work/audit/apply-20261106T150222.json",
+              "last_applied_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_matches_last_applied_value": true
+            }
+          ]
         },
         {
           "record_id": "co-south-fork-2026",
@@ -3328,10 +3769,27 @@
               "job_mechanical_evidence_gate": true
             }
           ],
-          "refresh_apply_receipts": [],
-          "editorial_stage": "no_refresh_apply_change",
+          "refresh_apply_receipts": [
+            "work/audit/apply-20261106T150222.json"
+          ],
+          "editorial_stage": "has_refresh_apply_change",
           "legal_force_verification": "not_assessed_by_this_mechanical_accounting",
-          "applied_field_lineage": []
+          "applied_field_lineage": [
+            {
+              "column": "duration_days",
+              "last_receipt": "work/audit/apply-20261106T150222.json",
+              "last_applied_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_matches_last_applied_value": true
+            },
+            {
+              "column": "duration_kind",
+              "last_receipt": "work/audit/apply-20261106T150222.json",
+              "last_applied_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_matches_last_applied_value": true
+            }
+          ]
         },
         {
           "record_id": "ct-cromwell-undated",
@@ -3396,10 +3854,27 @@
               "job_mechanical_evidence_gate": false
             }
           ],
-          "refresh_apply_receipts": [],
-          "editorial_stage": "no_refresh_apply_change",
+          "refresh_apply_receipts": [
+            "work/audit/apply-20261106T150222.json"
+          ],
+          "editorial_stage": "has_refresh_apply_change",
           "legal_force_verification": "not_assessed_by_this_mechanical_accounting",
-          "applied_field_lineage": []
+          "applied_field_lineage": [
+            {
+              "column": "duration_days",
+              "last_receipt": "work/audit/apply-20261106T150222.json",
+              "last_applied_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_matches_last_applied_value": true
+            },
+            {
+              "column": "duration_kind",
+              "last_receipt": "work/audit/apply-20261106T150222.json",
+              "last_applied_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_matches_last_applied_value": true
+            }
+          ]
         },
         {
           "record_id": "ct-new-haven-undated",
@@ -3588,10 +4063,27 @@
               "job_mechanical_evidence_gate": false
             }
           ],
-          "refresh_apply_receipts": [],
-          "editorial_stage": "no_refresh_apply_change",
+          "refresh_apply_receipts": [
+            "work/audit/apply-20261106T150222.json"
+          ],
+          "editorial_stage": "has_refresh_apply_change",
           "legal_force_verification": "not_assessed_by_this_mechanical_accounting",
-          "applied_field_lineage": []
+          "applied_field_lineage": [
+            {
+              "column": "duration_days",
+              "last_receipt": "work/audit/apply-20261106T150222.json",
+              "last_applied_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_matches_last_applied_value": true
+            },
+            {
+              "column": "duration_kind",
+              "last_receipt": "work/audit/apply-20261106T150222.json",
+              "last_applied_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_matches_last_applied_value": true
+            }
+          ]
         },
         {
           "record_id": "fl-citrus-county-2026",
@@ -3605,10 +4097,27 @@
               "job_mechanical_evidence_gate": false
             }
           ],
-          "refresh_apply_receipts": [],
-          "editorial_stage": "no_refresh_apply_change",
+          "refresh_apply_receipts": [
+            "work/audit/apply-20261106T150222.json"
+          ],
+          "editorial_stage": "has_refresh_apply_change",
           "legal_force_verification": "not_assessed_by_this_mechanical_accounting",
-          "applied_field_lineage": []
+          "applied_field_lineage": [
+            {
+              "column": "duration_days",
+              "last_receipt": "work/audit/apply-20261106T150222.json",
+              "last_applied_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_matches_last_applied_value": true
+            },
+            {
+              "column": "duration_kind",
+              "last_receipt": "work/audit/apply-20261106T150222.json",
+              "last_applied_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_matches_last_applied_value": true
+            }
+          ]
         },
         {
           "record_id": "fl-clay-county-2026",
@@ -3639,10 +4148,27 @@
               "job_mechanical_evidence_gate": false
             }
           ],
-          "refresh_apply_receipts": [],
-          "editorial_stage": "no_refresh_apply_change",
+          "refresh_apply_receipts": [
+            "work/audit/apply-20261106T150222.json"
+          ],
+          "editorial_stage": "has_refresh_apply_change",
           "legal_force_verification": "not_assessed_by_this_mechanical_accounting",
-          "applied_field_lineage": []
+          "applied_field_lineage": [
+            {
+              "column": "duration_days",
+              "last_receipt": "work/audit/apply-20261106T150222.json",
+              "last_applied_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_matches_last_applied_value": true
+            },
+            {
+              "column": "duration_kind",
+              "last_receipt": "work/audit/apply-20261106T150222.json",
+              "last_applied_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_matches_last_applied_value": true
+            }
+          ]
         },
         {
           "record_id": "fl-flagler-county-2026",
@@ -3656,10 +4182,27 @@
               "job_mechanical_evidence_gate": false
             }
           ],
-          "refresh_apply_receipts": [],
-          "editorial_stage": "no_refresh_apply_change",
+          "refresh_apply_receipts": [
+            "work/audit/apply-20261106T150222.json"
+          ],
+          "editorial_stage": "has_refresh_apply_change",
           "legal_force_verification": "not_assessed_by_this_mechanical_accounting",
-          "applied_field_lineage": []
+          "applied_field_lineage": [
+            {
+              "column": "duration_days",
+              "last_receipt": "work/audit/apply-20261106T150222.json",
+              "last_applied_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_matches_last_applied_value": true
+            },
+            {
+              "column": "duration_kind",
+              "last_receipt": "work/audit/apply-20261106T150222.json",
+              "last_applied_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_matches_last_applied_value": true
+            }
+          ]
         },
         {
           "record_id": "fl-franklin-county-2026",
@@ -3724,10 +4267,27 @@
               "job_mechanical_evidence_gate": true
             }
           ],
-          "refresh_apply_receipts": [],
-          "editorial_stage": "no_refresh_apply_change",
+          "refresh_apply_receipts": [
+            "work/audit/apply-20261106T150222.json"
+          ],
+          "editorial_stage": "has_refresh_apply_change",
           "legal_force_verification": "not_assessed_by_this_mechanical_accounting",
-          "applied_field_lineage": []
+          "applied_field_lineage": [
+            {
+              "column": "duration_days",
+              "last_receipt": "work/audit/apply-20261106T150222.json",
+              "last_applied_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_matches_last_applied_value": true
+            },
+            {
+              "column": "duration_kind",
+              "last_receipt": "work/audit/apply-20261106T150222.json",
+              "last_applied_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_matches_last_applied_value": true
+            }
+          ]
         },
         {
           "record_id": "fl-lake-county-2026",
@@ -3792,10 +4352,27 @@
               "job_mechanical_evidence_gate": true
             }
           ],
-          "refresh_apply_receipts": [],
-          "editorial_stage": "no_refresh_apply_change",
+          "refresh_apply_receipts": [
+            "work/audit/apply-20261106T150222.json"
+          ],
+          "editorial_stage": "has_refresh_apply_change",
           "legal_force_verification": "not_assessed_by_this_mechanical_accounting",
-          "applied_field_lineage": []
+          "applied_field_lineage": [
+            {
+              "column": "duration_days",
+              "last_receipt": "work/audit/apply-20261106T150222.json",
+              "last_applied_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_matches_last_applied_value": true
+            },
+            {
+              "column": "duration_kind",
+              "last_receipt": "work/audit/apply-20261106T150222.json",
+              "last_applied_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_matches_last_applied_value": true
+            }
+          ]
         },
         {
           "record_id": "fl-lynn-haven-2026",
@@ -4224,10 +4801,27 @@
               "job_mechanical_evidence_gate": true
             }
           ],
-          "refresh_apply_receipts": [],
-          "editorial_stage": "no_refresh_apply_change",
+          "refresh_apply_receipts": [
+            "work/audit/apply-20261106T150222.json"
+          ],
+          "editorial_stage": "has_refresh_apply_change",
           "legal_force_verification": "not_assessed_by_this_mechanical_accounting",
-          "applied_field_lineage": []
+          "applied_field_lineage": [
+            {
+              "column": "duration_days",
+              "last_receipt": "work/audit/apply-20261106T150222.json",
+              "last_applied_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "current_matches_last_applied_value": true
+            },
+            {
+              "column": "duration_kind",
+              "last_receipt": "work/audit/apply-20261106T150222.json",
+              "last_applied_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+              "current_matches_last_applied_value": true
+            }
+          ]
         },
         {
           "record_id": "fl-pasco-county-2026",
@@ -36889,8 +37483,8 @@
         }
       ],
       "field_lineage_counts": {
-        "last_applied_field_values": 1729,
-        "matching_current_values": 1729,
+        "last_applied_field_values": 1799,
+        "matching_current_values": 1799,
         "differing_current_values": 0
       }
     },

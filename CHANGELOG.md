@@ -2,6 +2,9 @@
 
 ## 2026-11-06 — current working snapshot (unreleased)
 
+Corrected 35 original-duration encodings from guessed day counts to calendar terms after independent source review. Preserved all dates, status, prose and IDs; eight explicit-day originals were retained and 36 first-cohort cases withheld. All 474 new Terra review recommendations are terminal, but 395 records still require coordinator review. Twenty-nine newly visible calendar-end warnings retain unknown current endpoints rather than calculating guessed expiry dates.
+
+
 Mooresville adds a town-reported active twelve-month data-center pause; its separate unsigned posted ordinance does not establish executed terms or an operative endpoint. Awendaw Ordinance 2026-34 adds an unsigned data-center/crypto proposal, preserving separate facility-demand and expansion-increase thresholds and blank operative dates. Seven other Carolina/Virginia histories remain withheld.
 
 Camargo’s signed Ordinance 2026-04 adds an adopted-instrument data-center/crypto record with publication, operative interval and current force unverified. Bossier Parish Ordinance 4910 adds a historical six-month solar-permitting pause adopted September 7, 2022; March 7, 2023 is a derived latest original-term endpoint, not proof of no later extension. Eight other Kentucky/Louisiana candidates remain withheld. README ranking copy now reports Wisconsin’s 41 records and the three-way tie at tenth instead of a stale count and incomplete tie presentation.

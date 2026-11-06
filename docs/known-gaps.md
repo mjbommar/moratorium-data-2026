@@ -428,3 +428,7 @@ The [Carolina/Virginia review](../work/research/2026-11-06/carolinas-virginia-di
 ### Additional Jay solar-ballot recovery
 
 The [Jay review](https://github.com/mjbommar/moratorium-data-2026/blob/main/work/research/2026-11-06/jay-ballot-primary-review/README.md) recovers the signed September 14 warrant / Article 3 question, proposed petition clauses and placement minutes. Jay is outside the original frozen 56 groups and is now included in 50 published measures. Its 1,464 yes / 723 no remains a secondary unofficial observation; primary return/certification, formal passage rule/outcome, enrolled law, town-established effective date and operative legal history remain unresolved. No November 3 automatic start, exact expiry, legacy instrument or project link is inferred. Overall 2,253 ballots and the separate rent question are not solar denominators.
+
+## Original-duration encoding review
+
+The [calendar-duration cohort](../work/research/2026-11-06/duration-encoding-review/README.md) has 474 terminal worker recommendations, with 395 records still awaiting coordinator review after the first 79 dispositions. Thirty-five accepted original-term encoding corrections remove guessed day counts while preserving dates, status and prose. Twenty-nine active/extended records expose an additional calendar-end warning because the current endpoint remains unknown. Neither original-term correction nor failed source recovery establishes current force, an exact expiry or complete legal history.
