@@ -3,7 +3,7 @@
 
 Working inventory for North Carolina, generated **November 5, 2026**. Record-level refresh and later-action review remain incomplete.
 
-**69 instruments** — 57 in force, 5 pending, 7 past.
+**70 instruments** — 58 in force, 5 pending, 7 past.
 
 State policy is tracked separately: **3 actions** (3 bills) in [`state_legislation.csv`](../data/state_legislation.csv). These are not included in the local count above.
 
@@ -67,6 +67,7 @@ State policy is tracked separately: **3 actions** (3 bills) in [`state_legislati
 | Town of Holly Springs | Town | 2026-06-16 | data center, cryptocurrency mining | 🟢 Active |
 | Town of Hot Springs | Town | 2026-07-13 | data center, cryptocurrency mining | 🟢 Active |
 | Town of Mayodan | Town | 2026-05-11 | data center, cryptocurrency mining, solar | ⚪ Replaced |
+| Town of Mooresville | Town | Unverified | data center | 🟢 Active |
 | Town of Nashville | Town | 2026-08-04 | data center, cryptocurrency mining | 🟢 Active |
 | Town of Newport | Town | 2026-09-10 | data center, cryptocurrency mining | 🟢 Active |
 | Town of Spring Hope | Town | 2026-05-04 | data center | 🟢 Active |
@@ -1008,6 +1009,22 @@ State policy is tracked separately: **3 actions** (3 bills) in [`state_legislati
 - **Affected projects:** None named; a 1-million-square-foot data center under construction in a neighboring town prompted the action.
 - **Detailed status:** Replaced 2026-06-08; Town Council unanimously adopted Text Amendments TA-002-2026 (Data Processing Facilities) and TA-003-2026 (Solar Energy Facilities), which ended the 60-day moratoria (TBJ: 'Mayodan sets zoning rules for data centers, will lift moratorium').
 - **Outcome:** Replaced by zoning text amendments TA-002-2026 and TA-003-2026 adopted 2026-06-08.
+
+### Town of Mooresville
+
+- **Type:** Town
+- **Status:** 🟢 Active
+- **Date enacted:** —
+- **Normalized date:** `—` (unverified)
+- **Duration:** Town reports approved twelve-calendar-month data-center pause; exact operative start/end and earlier standards unverified
+- **Current end date:** `—`
+- **Sectors:** data center
+- **Moratorium ID:** `nc-town-of-mooresville-undated`
+- **Legal basis:** Town-reported approved moratorium; separate unsigned posted Ordinance 26-___
+- **What prompted it:** Town studies data-center development and zoning/infrastructure standards.
+- **Affected projects:** —
+- **Detailed status:** Official town announcement reports November 2 approval of twelve-month data-center pause. Town-reported active classification only. [VERIFY executed ordinance/number, exact adoption/effectiveness anchors, final scope/exclusions, earlier standards, later actions, current force and coordinates]
+- **Outcome:** —
 
 ### Town of Nashville
 

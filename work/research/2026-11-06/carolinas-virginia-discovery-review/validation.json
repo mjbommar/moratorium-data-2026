@@ -1,0 +1,55 @@
+{
+  "state": "passed",
+  "baseline_commit": "ae2ae7943b6089bbe7821fef055589ed093c965a",
+  "prior_rows_field_identical": 1319,
+  "current_rows": 1321,
+  "new_ids": [
+    "nc-town-of-mooresville-undated",
+    "sc-awendaw-undated"
+  ],
+  "reviewed_candidates": 9,
+  "distinct_original_body_text_pairs_hash_verified": 12,
+  "pdf_pages_visually_reviewed": 7,
+  "retained_pdf_pages": 52,
+  "packet_scope": "Mooresville 3/3, Awendaw 3/3, Greene page 3 only of 46; other 45 Greene pages not visually reviewed.",
+  "html_scope": "Complete official Mooresville announcement; other located adoption/scope/context passages; Marlboro automated recap accessible opening only.",
+  "canonical_inventory_sha256": "bd40a443fb2641735fe06501785b67beaa4a4bd9ecac551b645fff5133cc85e7",
+  "review_sha256": "8e653623b9c96eec321e1765c6624634f0f9b2721a7d76f7fffad1bb0c8403c5",
+  "apply_receipts": [
+    "work/audit/apply-20261106T130626.json",
+    "work/audit/apply-20261106T130626-1.json"
+  ],
+  "remaining_unreviewed": 50,
+  "reviewed_withheld_cases": 106,
+  "dataset_validation": {
+    "errors": 0,
+    "warnings": 290,
+    "new_warnings": [
+      {
+        "check": "date.missing",
+        "message": "line 922 (NC Town of Mooresville): no date_enacted_iso on a non-pending row"
+      },
+      {
+        "check": "duration.calendar_end_unverified",
+        "message": "line 922 (NC Town of Mooresville): in-force calendar term has no verified exact endpoint; review effective-date anchor and later actions"
+      }
+    ],
+    "new_warning_disposition": "Mooresville town-reported approval remains separate from unsigned ordinance/operative anchors; exact adoption and calendar endpoint deliberately blank."
+  },
+  "documented_number_checks": 49,
+  "separate_readme_ranking_sentences_checked": 2,
+  "ranking_audit_sha256": "47ee9681e6eef5b9d6d2713dc03c742f6b07b97811727c39bf552ab8427b0312",
+  "replay": {
+    "rows_added": 0,
+    "duplicate_candidates": 2
+  },
+  "native_store_receipt_sha256": "39728a2df9721af1644a1c667f887ddf675d23f276d308769c3dee58c22773f0",
+  "coordinator_accounting_sha256": "3cb07284c6eefdc52c5e342f1ad8530d3944022dcb6938c2581a6c99b5992b45",
+  "accounting_replay": "byte-identical",
+  "ledger_subcategory_counts_checked": {
+    "pending_additions": 11,
+    "city_reported_adoption_additions": 3
+  },
+  "full_build_exit_code": 0,
+  "scope": "Scoped source/data/build checks only; no full freshness, current-force, consumer or release completion claim."
+}

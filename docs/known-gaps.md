@@ -7,7 +7,7 @@ record-level observations and `[VERIFY]` markers identify unresolved work.
 
 ### Small-township records that aren't online
 
-Many small townships and rural counties don't post agendas, minutes, or signed ordinances on the web. When we know a moratorium exists from news coverage but can't pull the underlying instrument, we record it with a `[VERIFY]` note in `verify_notes` rather than guessing at the ordinance number or exact date. **692 of the 1319 inventory rows** have at least one such evidence-ceiling note (`has_verify_tags = True`). The earlier v2026.04.4 snapshot had 123 flagged rows out of 222; these are different inventory populations.
+Many small townships and rural counties don't post agendas, minutes, or signed ordinances on the web. When we know a moratorium exists from news coverage but can't pull the underlying instrument, we record it with a `[VERIFY]` note in `verify_notes` rather than guessing at the ordinance number or exact date. **694 of the 1321 inventory rows** have at least one such evidence-ceiling note (`has_verify_tags = True`). The earlier v2026.04.4 snapshot had 123 flagged rows out of 222; these are different inventory populations.
 
 ### Legacy instrument identities
 
@@ -189,7 +189,7 @@ rechecked four kinds of rows. We looked at rows past their end date and
 extensions with no new end date. We also looked at proposals more than 60 days
 old and rows with a `[VERIFY]` note.
 
-1076 moratoria are classified active or extended in the November 5 working cohort; this does not establish renewed current legal force. The following eleven-row discussion describes the historical September check, not the current validation warning count. That check flagged eleven rows that looked out of date. Eight of them, in
+1077 moratoria are classified active or extended in the November 5 working cohort; this does not establish renewed current legal force. The following eleven-row discussion describes the historical September check, not the current validation warning count. That check flagged eleven rows that looked out of date. Eight of them, in
 Cedartown, Georgia and seven New York towns, have passed their end date. We
 could not find out what happened next, so each carries a `[VERIFY]` note. The
 other three are fine. Waterford Township, Michigan and East Whiteland Township,
@@ -267,9 +267,9 @@ We document one tribal-government moratorium (Sault Tribe of Chippewa Indians, A
 
 ## Source-body availability checkpoint
 
-The November 6 [current archive checkpoint](../work/audit/legacy-source-migration-ma-pa-review-2026-11-06.json)
-covers 6,592 manifest entries, with hash-matching bodies available through listed
-paths for 3,149 entries. Of the remaining 3,443 path gaps, 119 are failed acquisitions
+The November 6 [current archive checkpoint](../work/audit/legacy-source-migration-nc-sc-va-review-2026-11-06.json)
+covers 6,604 manifest entries, with hash-matching bodies available through listed
+paths for 3,161 entries. Of the remaining 3,443 path gaps, 119 are failed acquisitions
 without a recorded body hash. Other private stores have not been exhaustively
 searched, so these counts do not establish global payload loss. They count archive
 entries, not jurisdictions or independently verified legal findings.
@@ -295,7 +295,7 @@ Retroactive effective dates are preserved separately from adoption dates.
 
 ## Geocoding caveats (added v2026.04.2)
 
-1290 of 1319 instruments have WGS84 reference points. Initial geocoding used Nominatim (OpenStreetMap), with reviewed Census and other official point overrides recorded separately. Reference points do not establish legal boundaries or applicability. The 29 blanks comprise two aggregate meta-rows (`Other Reported Local Moratoria, Michigan` and `Proposed or Rejected Local Pauses, Maryland`) and Hayward, Fairbanks North Star Borough, Petersburg Borough, Braintree, Methuen, Sun Prairie, two Kent County records, Brighton, Chicago, Sac County, the 2023 Sioux County record, the historical Silver City solar record, Orlinda, Blaine County, Sarpy County, Pequot Lakes, the historical Talbot County solar record, East Windsor, two historical Phillips County records, Fort Collins, Vermillion County, Zionsville, Union County, Camargo and Bossier Parish awaiting coordinate review.
+1290 of 1321 instruments have WGS84 reference points. Initial geocoding used Nominatim (OpenStreetMap), with reviewed Census and other official point overrides recorded separately. Reference points do not establish legal boundaries or applicability. The 31 blanks comprise two aggregate meta-rows (`Other Reported Local Moratoria, Michigan` and `Proposed or Rejected Local Pauses, Maryland`) and Hayward, Fairbanks North Star Borough, Petersburg Borough, Braintree, Methuen, Sun Prairie, two Kent County records, Brighton, Chicago, Sac County, the 2023 Sioux County record, the historical Silver City solar record, Orlinda, Blaine County, Sarpy County, Pequot Lakes, the historical Talbot County solar record, East Windsor, two historical Phillips County records, Fort Collins, Vermillion County, Zionsville, Union County, Camargo, Bossier Parish, Mooresville and Awendaw awaiting coordinate review.
 
 **Within-state name ambiguity.** Several Ohio townships share names across multiple counties (e.g., 7 different "Washington Township"s, 3 "Plain Township"s, 4 "Lake Township"s). The geocoder picks the highest-rank match, which isn't always the moratorium-adopting jurisdiction. We caught and manually corrected 4 such cases in v2026.04.2:
 
@@ -422,3 +422,5 @@ Union County GA R-2026-26 is added from full visual review of the signed two-pag
 The [Kentucky/Louisiana review](../work/research/2026-11-06/kentucky-louisiana-discovery-review/README.md) adds signed Camargo Ordinance 2026-04 at adopted-instrument classification, including express crypto-mining scope, while publication/effectiveness/current force remain unverified. Bossier’s official Ordinance 4910 reproduction supports an original six-month historical term, not handwritten execution or absence of later extensions. Henderson BESS signature lines are blank despite the worker description. Washington packet visual review covers only page 14/34; proposed solar carve-out failed and is not an adopted extension.
 
 The [Massachusetts/Pennsylvania review](../work/research/2026-11-06/massachusetts-pennsylvania-discovery-review/README.md) retains twelve candidate gaps without changing inventory counts. Massachusetts floor substitutions, article interactions, conflicting tallies and legal implementation need primary records. Pennsylvania curative-amendment stays require scope/mechanism review before ordinary moratorium counting; cure windows are not automatically general construction bans. Amity’s adoption and next-day commencement are distinct events, not inherently conflicting dates.
+
+The [Carolina/Virginia review](../work/research/2026-11-06/carolinas-virginia-discovery-review/README.md) adds Mooresville at town-reported active status, separate from unsigned draft terms, and Awendaw as an unsigned proposal. Mooresville crypto-study direction is not accepted sector coverage; Awendaw’s facility demand and expansion-increase thresholds remain separate. Greene visual review covers only page 3/46. Pickens original term/extension anchors, Marlboro final-reading identity, two historical NC wind acts and Virginia original/lifting histories remain withheld.

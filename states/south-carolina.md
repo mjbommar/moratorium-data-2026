@@ -3,13 +3,14 @@
 
 Working inventory for South Carolina, generated **November 5, 2026**. Record-level refresh and later-action review remain incomplete.
 
-**16 instruments** — 14 in force, 1 pending, 1 past.
+**17 instruments** — 14 in force, 2 pending, 1 past.
 
 State policy is tracked separately: **7 actions** (7 bills) in [`state_legislation.csv`](../data/state_legislation.csv). These are not included in the local count above.
 
 | Jurisdiction | Type | Enacted | Sectors | Status |
 |---|---|---|---|---|
 | Anderson County | County | 2026-08-18 | data center | 🟢 Active |
+| Awendaw | Town | Unverified | data center, cryptocurrency mining | 🟡 Pending |
 | Chester County | County | 2026-07-20 | data center | 🟢 Active |
 | Chesterfield County | County | 2026-06-01 | data center, cryptocurrency mining | 🟢 Active |
 | Clarendon County | County | 2026-09-14 | data center, battery storage | 🟢 Active |
@@ -43,6 +44,22 @@ State policy is tracked separately: **7 actions** (7 bills) in [`state_legislati
 - **Affected projects:** —
 - **Detailed status:** The August 18 packet states six months from enactment; August 20 reporting confirms third/final-reading passage. Final signed operative wording, actual effective interval and later action remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** Adopted six-month moratorium on acceptance, processing, or approval of data center development applications.
+
+### Awendaw
+
+- **Type:** Town
+- **Status:** 🟡 Pending
+- **Date enacted:** —
+- **Normalized date:** `—` (unverified)
+- **Duration:** Proposed one calendar year from final reading/adoption; six-month extensions require additional ordinance
+- **Current end date:** `—`
+- **Sectors:** data center, cryptocurrency mining
+- **Moratorium ID:** `sc-awendaw-undated`
+- **Legal basis:** Draft Ordinance 2026-34
+- **What prompted it:** Town studies data-center and cryptocurrency land-use/infrastructure regulation.
+- **Affected projects:** —
+- **Detailed status:** Official unsigned Ordinance 2026-34 supports source-stage pending proposal only. [VERIFY actual council readings/adoption, hearing/publication, executed final text, operative interval, later action, current legal status and coordinates]
+- **Outcome:** —
 
 ### Chester County
 

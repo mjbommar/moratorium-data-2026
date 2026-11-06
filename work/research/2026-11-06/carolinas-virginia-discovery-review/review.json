@@ -1,0 +1,356 @@
+{
+  "reviewed_as_of": "2026-11-06",
+  "cohort_cutoff": "2026-11-05",
+  "baseline_commit": "ae2ae7943b6089bbe7821fef055589ed093c965a",
+  "baseline_inventory_sha256": "ba58ff972223bf4c1565a402f50dcfb46dcb43c266e3ca5bb52524b302025947",
+  "candidates": [
+    {
+      "candidate_key": "discovery-nc:0",
+      "candidate_sha256": "bc3e1b5a1d7e5f87b4c83b1dd642567d8536a3a78b1bfaa255dccf28234b488e",
+      "worker_review_sha256": "4d1b2ada22f845eb1790c71d3722dec088d843b293368a2e17a9979a73593cc7",
+      "coordinator_disposition": "reviewed_city_reported_adoption_added",
+      "rationale": "Complete official Mooresville report states November 2 approval of twelve-month data-center pause. All three separate posted ordinance pages inspected: number suffix, mayor/clerk and attorney lines blank; draft proposes November 2, 2026 to November 1, 2027 or earlier standards, town/ETJ scope and exclusions. Accept town-reported active classification/calendar duration only, not executed text, operative anchors or endpoint. Crypto appears in study direction, not independently established application scope.",
+      "source_checks": [
+        {
+          "attempt_id": "8ce15760657848a88fd0d3d92db49d3e",
+          "url": "https://www.mooresvillenc.gov/news_detail_T4_R441.php",
+          "body_sha256": "f02660ae281c320870afe2e9b50e15370650775254d44331de5ee167b04e1fbd",
+          "text_sha256": "f20acd75e49db175d8aa3b3123b30221f44f1890983e4e4f1ac4e9d7bcb22081",
+          "located_worker_excerpts": [
+            {
+              "located_unicode_span": [
+                0,
+                124
+              ],
+              "quote_sha256": "a72c4e72b4f439df8700e9db94f53fe7145ba7e862f4464be56c96164e4872e1"
+            }
+          ],
+          "read_scope": "Complete retained official announcement"
+        },
+        {
+          "attempt_id": "193c5184cb17473a8fbb045b40424b28",
+          "url": "https://mooresvillenc.granicus.com/services/legistar/download/pdf/4442940/FINAL_Ordinance_Data_Center_Moratorium_.pdf",
+          "body_sha256": "aa25a6e2a32c279511303906472fb49ce5900d19eecc1fe6b89136f4574ac804",
+          "text_sha256": "fd4ff5b34fa5c73d4f0ae522067f85aa16ffbb1686723d9660a65eb38061e235",
+          "located_worker_excerpts": [
+            {
+              "located_unicode_span": [
+                4556,
+                4635
+              ],
+              "quote_sha256": "5226fe80526ddcfcddbd19395850b2a00d843d8d23976aa6235bfc8e4e5920ea"
+            }
+          ],
+          "visual_review": {
+            "scope": "Every retained PDF page directly inspected",
+            "document_pages": 3,
+            "render_command": "pdftoppm -scale-to 1450 -png [-f 3 -l 3] ORIGINAL_BODY OUTPUT_PREFIX",
+            "page_receipts": [
+              {
+                "page": 1,
+                "image_sha256": "9e1fe84a9109091b6e37471246124f98c9858b7683e5ad71291985a1beb4eb89"
+              },
+              {
+                "page": 2,
+                "image_sha256": "8880706601e4956a0f796fbc7c909a38a03f4d010717420ea8c45ba8d45b4be6"
+              },
+              {
+                "page": 3,
+                "image_sha256": "eb2ebac1dcbfa32c04d88697f12c1eadf5bcad07d2c7278ced6d7902bbc5076f"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "candidate_key": "discovery-nc:1",
+      "candidate_sha256": "d6cb000723ce12d9c712f1df93e13d951b32353f15a30e9159253c1f15e0a81b",
+      "worker_review_sha256": "4d1b2ada22f845eb1790c71d3722dec088d843b293368a2e17a9979a73593cc7",
+      "coordinator_disposition": "held_adopted_text_and_scope_history",
+      "rationale": "Greene agenda packet page 3/46 visually inspected as public-hearing proposal; only located machine-text portions beyond it read, not remaining packet visual review. WITN reports unanimous twenty-four-month ordinance approval with immediate effect, March 2, 2027 midnight or earlier updated rules and prior complete-application exclusion. Obtain actual adopted act, exact scope/anchors and subsequent actions. Agenda is not proof of passage; reporter approval does not authenticate final text or present force.",
+      "source_checks": [
+        {
+          "attempt_id": "af1c8fc7949a4300a98fd61f9dddfc67",
+          "url": "https://www.witn.com/2025/03/06/greene-county-commissioners-approve-two-year-pause-new-special-use-permit-applications-solar-farms/",
+          "body_sha256": "9a0afdf822c3d86cd23fcf557339e33c7baa1ccb0dc404aa359e69805ba2411c",
+          "text_sha256": "3661e786c32b593fb772ceb21e49692d717c395f7551a04b56a90e9be966ee15",
+          "located_worker_excerpts": [
+            {
+              "located_unicode_span": [
+                501,
+                651
+              ],
+              "quote_sha256": "e5dac6e453fdb3e40ba8c81e161f2b823696dc6e595475c8e0742015b622568e"
+            }
+          ],
+          "read_scope": "Located adoption/scope/context passages; no full page/article review claimed"
+        },
+        {
+          "attempt_id": "d043c24b9697464ca98ce06fc891a9f7",
+          "url": "https://greeneconc.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=860,plainText=false)",
+          "body_sha256": "b295393ada3bace21367a1e831a0e67230837b65a16accae8ba4d72c3e604cb1",
+          "text_sha256": "decff94072328e16e7aaae8e35018aa65448f10e171c3ce37f7577d3ca3f3ce8",
+          "located_worker_excerpts": [
+            {
+              "located_unicode_span": [
+                1766,
+                1836
+              ],
+              "quote_sha256": "84235ba7f445d3bfd40603b39fffdf46b32d4146416306b7020c60b4c212e784"
+            }
+          ],
+          "visual_review": {
+            "scope": "Only page 3 of 46; other 45 pages not visually reviewed",
+            "document_pages": 46,
+            "render_command": "pdftoppm -scale-to 1450 -png [-f 3 -l 3] ORIGINAL_BODY OUTPUT_PREFIX",
+            "page_receipts": [
+              {
+                "page": 3,
+                "image_sha256": "c4c07696cd2bfcee183454fba61d6fc9bf02871cdf4d2dc8f199e29b02a6bee2"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "candidate_key": "discovery-nc:2",
+      "candidate_sha256": "d622e4aa47fe23f1932f6b1aa03c69a6817d8313d59f127ae441f4ecf8219eea",
+      "worker_review_sha256": "4d1b2ada22f845eb1790c71d3722dec088d843b293368a2e17a9979a73593cc7",
+      "coordinator_disposition": "held_historical_wind_act_and_dates",
+      "rationale": "Located Carteret news passage reports sixty-day wind-building-permit ordinance, immediate effect and March 2 planned expiry, but Thursday/action date and publication are not independent exact adoption proof. Obtain original ordinance, interval and later actions. Carteret County is separate from Newport municipality and its newer data-center/crypto measure.",
+      "source_checks": [
+        {
+          "attempt_id": "22923cb6df8342418dd0bae2b608e3ce",
+          "url": "https://www.jdnews.com/news/carteret-county-temporarily-bans-wind-turbine-permits/article_532733f8-fb58-54f5-bdcf-fe34f62877fb.html",
+          "body_sha256": "8575dbee026364630f3171c517b34a31005fcd5722e5e48c5af78577d68f95b9",
+          "text_sha256": "b4776bf0e71ac2e581e8656f15f12c13543d49104be7959be922d3a80c616e3d",
+          "located_worker_excerpts": [
+            {
+              "located_unicode_span": [
+                3166,
+                3286
+              ],
+              "quote_sha256": "29395011c884d41c3fc728c21ff8c3673a9456c7c51cae958f9d7a2ac483d95d"
+            }
+          ],
+          "read_scope": "Located adoption/scope/context passages; no full page/article review claimed"
+        }
+      ]
+    },
+    {
+      "candidate_key": "discovery-nc:3",
+      "candidate_sha256": "5c0caa5ce900aaed8cd582e9e0557c236cde142857ad4fc087aa64dd5c05e8c4",
+      "worker_review_sha256": "4d1b2ada22f845eb1790c71d3722dec088d843b293368a2e17a9979a73593cc7",
+      "coordinator_disposition": "held_republished_wind_history_and_original_act",
+      "rationale": "Located Wind Watch reproduction credits Virginian-Pilot October 2015 report on four-month Perquimans wind hold and February 2 endpoint. Reproduction is common upstream reporting, not independent corroboration; exact original adoption, operative ordinance and extension/termination unverified. No age-based current-force or automatic project applicability finding.",
+      "source_checks": [
+        {
+          "attempt_id": "5745b0505e92447fa07712f9e46a4225",
+          "url": "https://www.wind-watch.org/news/2015/10/10/perquimans-county-declares-4-month-ban-on-wind-farms-after-complaints/",
+          "body_sha256": "3ba0420573fbeefe0e66e7f42fe3800c46728bdbd53b0a8ada24d596f1c39a7f",
+          "text_sha256": "b38b4455db72b3107dd3ad5834d9963af6bce965ea0e80a5c92ec0bf334eb8c2",
+          "located_worker_excerpts": [
+            {
+              "located_unicode_span": [
+                137,
+                220
+              ],
+              "quote_sha256": "e8ca9a362af206c158e871f265751034866add5e7511a9589ef36b996f25d9ca"
+            }
+          ],
+          "read_scope": "Located adoption/scope/context passages; no full page/article review claimed"
+        }
+      ]
+    },
+    {
+      "candidate_key": "discovery-sc:0",
+      "candidate_sha256": "ae15faca35f94215f6b01ee2f2c6c8f7ddd003b23e356a6f85d4fe93028fadce",
+      "worker_review_sha256": "ff51794f2adb4be622afc4b4a0dec60759bc147190f952a948aadb5400107a4d",
+      "coordinator_disposition": "held_original_term_anchor_and_extensions",
+      "rationale": "Located official Pickens announcement states December 15, 2025 passage of six-month permit restriction for solar farms plus RV/campground/lodging uses and Highway 8 corridor subdivision/multifamily uses. The corridor qualification cannot be applied indiscriminately to every category. Original ordinance, effective start, exceptions and extensions/later restrictions unverified; elapsed reported six months alone is not authenticated expiry or absence of current restrictions.",
+      "source_checks": [
+        {
+          "attempt_id": "2978154a397f4981b2af34a9f4898283",
+          "url": "https://www.co.pickens.sc.us/news_detail_T8_R135.php",
+          "body_sha256": "69a1552b67a91f6b6f1e7564e486fcf0f8a6079f85cfa3406a692457e6e00c5b",
+          "text_sha256": "42107d8b80c39ca2c03f0d0e3e573e9a5f21b0d0f54e74157d8fb473c633c5ee",
+          "located_worker_excerpts": [
+            {
+              "located_unicode_span": [
+                2017,
+                2111
+              ],
+              "quote_sha256": "152942cafc7c8b16d0c3e777d82e2ecd97454ac9913717237ad735ce593f40cf"
+            },
+            {
+              "located_unicode_span": [
+                2174,
+                2216
+              ],
+              "quote_sha256": "380c3d961c1c808c89813feaef2d3be0558a99b0f0984261f198abee28487b95"
+            }
+          ],
+          "read_scope": "Located adoption/scope/context passages; no full page/article review claimed"
+        }
+      ]
+    },
+    {
+      "candidate_key": "discovery-sc:1",
+      "candidate_sha256": "53eeaca75147edf5b94fae3269a9ff4a23afc03b3c89993bb07d801aab9f06ee",
+      "worker_review_sha256": "ff51794f2adb4be622afc4b4a0dec60759bc147190f952a948aadb5400107a4d",
+      "coordinator_disposition": "held_reading_stage_and_final_identity",
+      "rationale": "Accessible automated Marlboro recap specifically describes title-only first reading of solar Ordinance 883, while later WPDE passage reports approved four-month pause without final-reading/instrument identifier. Recover executed final act, linkage and actual operative anchors/later action. Renewable-ordinance wind standards and solar-project tax agreements are not proof of wind moratorium or the same legislative instrument.",
+      "source_checks": [
+        {
+          "attempt_id": "d4d36c1a68884ba09b0b46c467d2878b",
+          "url": "https://citizenportal.ai/articles/10672729/south-carolina/marlboro-county/council-approves-first-reading-of-four-month-moratorium-on-solar-farm-applications",
+          "body_sha256": "071a4b2c14226ea7a2efa5a074733a3b989bb7533b3ff44bed234b0a7709b086",
+          "text_sha256": "603a46fbc1eef2f80aaf7161a77342cfc6afc6894368789e82418a5cb0ad560a",
+          "located_worker_excerpts": [
+            {
+              "located_unicode_span": [
+                69,
+                197
+              ],
+              "quote_sha256": "4500c63cf2ded98e01491cb1b2ac28a66d9ba3ef362974d3e6e41890989d2a43"
+            }
+          ],
+          "read_scope": "Accessible first-reading recap opening; not gated full story"
+        },
+        {
+          "attempt_id": "e0cb0dd4ecd74b1e83c5053587af7861",
+          "url": "https://wpde.com/news/local/marlboro-county-advances-solar-farm-tax-agreements-approves-4-month-moratorium-county-regulations-tax-incentive-agreements-filots-wallace-energy-capital-partners-violent-solar-strata-energy-pivot-energy-south-carolina-economy",
+          "body_sha256": "25b1b0cc277da6cfa87b03750b8175c8abbfeb9468eca8d58ab275e1c81b7b8b",
+          "text_sha256": "8614c694f3381a608f3b1ed38424ce2818c77611dd125b1b53650bce32d597da",
+          "located_worker_excerpts": [
+            {
+              "located_unicode_span": [
+                2419,
+                2493
+              ],
+              "quote_sha256": "8f25f3f58b75e5e7da476730e01a5f45c07253350e7fa252c9c100cbf5ace33f"
+            }
+          ],
+          "read_scope": "Located adoption/scope/context passages; no full page/article review claimed"
+        }
+      ]
+    },
+    {
+      "candidate_key": "discovery-sc:2",
+      "candidate_sha256": "f7498f25fd4a478d7337643ca175db47780feec5634ab15050a20e08d4eb1c21",
+      "worker_review_sha256": "ff51794f2adb4be622afc4b4a0dec60759bc147190f952a948aadb5400107a4d",
+      "coordinator_disposition": "reviewed_pending_proposal_added",
+      "rationale": "All three Awendaw Ordinance 2026-34 pages inspected. Planning recommendation dated September 17 is not council adoption; hearing, readings, signature and attestation fields blank. Proposed one-calendar-year pause from final reading/adoption, possible additional six-month ordinances, lawful-vesting exclusion. Definition uses peak demand at least 1 MW, separately expansion increase at least 1 MW. Data-center/crypto proposal accepted only; no executed dates, endpoint or asserted pending-doctrine legal effect accepted.",
+      "source_checks": [
+        {
+          "attempt_id": "3775306b016c47e8ab223573e3fab7c8",
+          "url": "https://www.townofawendawsc.org/uploads/1/5/2/4/152494599/ord._2026-34_data_center_moratorium.pdf",
+          "body_sha256": "caa7c75d3f3477f80de6ecc09ed52f67538e024a7ed798eeba2c9ef4ca74f980",
+          "text_sha256": "dc60832595998058c6fc2e8f565f962a174ee365b2e4e673601b208bdc9f399e",
+          "located_worker_excerpts": [
+            {
+              "located_unicode_span": [
+                2703,
+                2774
+              ],
+              "quote_sha256": "0d6b301e09071603b85f6cf68fe120588ef50da64be550e6104383b675da0564"
+            },
+            {
+              "located_unicode_span": [
+                4457,
+                4555
+              ],
+              "quote_sha256": "fb4dc1e2f2a59b4857f114828399e815bfe026abb76018b658ad03009d0b6067"
+            },
+            {
+              "located_unicode_span": [
+                3971,
+                4045
+              ],
+              "quote_sha256": "f01f1c60809ccb42f4ee9ac6adbc0b3bb9623141d782e1ec707366dfb1491653"
+            }
+          ],
+          "visual_review": {
+            "scope": "Every retained PDF page directly inspected",
+            "document_pages": 3,
+            "render_command": "pdftoppm -scale-to 1450 -png [-f 3 -l 3] ORIGINAL_BODY OUTPUT_PREFIX",
+            "page_receipts": [
+              {
+                "page": 1,
+                "image_sha256": "5b76fc6771f58ed3e2a34bb23d0acc55dd1335e6cadfff789bcd4d80be52cc58"
+              },
+              {
+                "page": 2,
+                "image_sha256": "318795d335b5bab9dac8b5c1fc7545914f6fc7647c649e351c4e10da829e480b"
+              },
+              {
+                "page": 3,
+                "image_sha256": "d182a6ef530cc4ef8519f53ab4ced106698bbc02f9dbc59ec3e04f4ea1b825f4"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "candidate_key": "discovery-va:0",
+      "candidate_sha256": "ae689d131c1182cf1c507bee570cd46d043951ffd49029118d43acaf5ba3c23c",
+      "worker_review_sha256": "ff51794f2adb4be622afc4b4a0dec60759bc147190f952a948aadb5400107a4d",
+      "coordinator_disposition": "held_new_resolution_and_prior_instrument_relationship",
+      "rationale": "Located Fluvanna report describes 4\u20131 resolution pausing new applications to year end while referring potential removal from special-use eligibility; resolution itself does not amend current zoning. Separate 2026 action from prior 2025 motion ending January 2026; relationship/predecessor identity and exact new vote/effectiveness require actual resolution. Accessory-use study is not adopted permission or permanent ban.",
+      "source_checks": [
+        {
+          "attempt_id": "1d9ca2912516412181b763e204c9d065",
+          "url": "https://fluvannareview.com/2026/08/fluvanna-moves-to-shut-door-on-data-centers/",
+          "body_sha256": "638ad1a6538bf77bce79f27bca986e1059b938c02b02af7f1de0b16d058958b9",
+          "text_sha256": "70aec53a3e91ad48aaa57d9eb851b08dc9d9285e6ad75784e1b8a14d8d6fd55e",
+          "located_worker_excerpts": [
+            {
+              "located_unicode_span": [
+                169,
+                342
+              ],
+              "quote_sha256": "f4856c6ab1e4ceca1bf8386bb96b3ff2a590b08a31140fa679078b5215c8bfa4"
+            },
+            {
+              "located_unicode_span": [
+                2348,
+                2395
+              ],
+              "quote_sha256": "6b3bb658604b8d7c88ec29291d5a1150b40ab33a5fd979356202064051b82f11"
+            }
+          ],
+          "read_scope": "Located adoption/scope/context passages; no full page/article review claimed"
+        }
+      ]
+    },
+    {
+      "candidate_key": "discovery-va:1",
+      "candidate_sha256": "6ba374ab9a986e73fb3678f6b34cefa111e0a890be601795b71fb9537da45eed",
+      "worker_review_sha256": "ff51794f2adb4be622afc4b4a0dec60759bc147190f952a948aadb5400107a4d",
+      "coordinator_disposition": "held_historical_solar_original_and_lifting_records",
+      "rationale": "Located Cardinal News retrospective says Halifax lifted temporary large-solar moratorium before stricter requirements late in 2024, without original adoption, precise lifting dates or term. Obtain original and lifting acts; other counties restrictions and quoted attorneys legal opinions are not Halifax facts, accepted legal rulings or current-force findings.",
+      "source_checks": [
+        {
+          "attempt_id": "d146d064dc324e2f9706732ef1308229",
+          "url": "https://cardinalnews.org/2025/04/15/mecklenburg-county-blocks-future-large-scale-solar-development/",
+          "body_sha256": "71720f5f334cfb84b0010ef41c6dd792c75fc26f6da71f49189759953219d778",
+          "text_sha256": "8feeca1a308c8c55dcf8a6d033fc13a3c7e9e30f2cee47525bfe54df4a5bf1d7",
+          "located_worker_excerpts": [
+            {
+              "located_unicode_span": [
+                4483,
+                4620
+              ],
+              "quote_sha256": "1d7f20ddbc69ce9b87956c24bf201bfe76a7a2c37c2ed64040469f00dbba094b"
+            }
+          ],
+          "read_scope": "Located adoption/scope/context passages; no full page/article review claimed"
+        }
+      ]
+    }
+  ],
+  "scope": "Nine Carolina/Virginia coordinator reviews; two scoped additions and seven withheld. Twelve original source versions and seven PDF pages; Greene review limited to page 3/46. No new acquisition or current-force renewal."
+}

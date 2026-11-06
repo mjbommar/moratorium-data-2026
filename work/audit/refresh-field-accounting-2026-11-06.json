@@ -1023,6 +1023,8 @@
       "work/audit/apply-20261106T123927.json": "e34990a0c15250aaa6de5a6156d7854d88005bf38e2c028920a8e144f04cdaea",
       "work/audit/apply-20261106T125149-1.json": "7fd93ab8bc2f39bf42b53823bcc08f8f2809a098dcdfdfcd9a374b799259122f",
       "work/audit/apply-20261106T125149.json": "46d269b277744357bdcac3d60c37d26a31048c2373b321febd05fb30f0716574",
+      "work/audit/apply-20261106T130626-1.json": "8fdb5d6de2665de24325f4ea9b494b50d8facc64a99bbbcae54db3665de53d52",
+      "work/audit/apply-20261106T130626.json": "2e3fb4bf2413f567a13bf3d2c7a5047abc0123a899f479ba99f266d604b2053c",
       "work/audit/apply-legislation-20261105T114314.json": "222b8a24cbb2138216bd3e87d508fc67d5a3bafac2674429a58099a189e8204b",
       "work/audit/apply-legislation-20261106T000259.json": "563c37c423b64cc6d3eb8fe74f13b278bf8de357ec02c766e79c5d59a69b39a5",
       "work/audit/apply-legislation-20261106T000919.json": "c596af153305ab0135f215ac66482fce77d0dc38613ddf2a33d39a238dbcc3ea",
@@ -1031,7 +1033,7 @@
       "work/audit/apply-legislation-20261106T002343.json": "cce6016ebcee83046dcca9422bea0e45d3fed3379ae19232fdc174c7798eacdc",
       "work/audit/apply-legislation-20261106T084519.json": "2b8d7a459a25ac991a8a7ddde95f14b8c770f48cf86ceeb32677f8b814b81638"
     },
-    "moratorium_inventory.csv": "ba58ff972223bf4c1565a402f50dcfb46dcb43c266e3ca5bb52524b302025947",
+    "moratorium_inventory.csv": "bd40a443fb2641735fe06501785b67beaa4a4bd9ecac551b645fff5133cc85e7",
     "state_legislation.csv": "5a4b86b5906acb6bf4611c131c91344e329bed9ae0162266bec962a5ae093038"
   },
   "scope": "Canonical inventory/state-policy collection and edit accounting. Each count dimension is disjoint and sums to its own table total. Job evidence gates are mechanical diagnostics, not substantive acceptance. Apply receipts show historical edits, not complete current rows or fresh legal force. Unassigned new records may have coordinator research outside this queue. This is not the completed freshness funnel required for release.",
@@ -1041,16 +1043,16 @@
   "not_started_jobs": 0,
   "tables": {
     "inventory": {
-      "total": 1319,
+      "total": 1321,
       "collection_counts": {
         "returned_unresolved": 782,
         "returned_other_outcome": 501,
-        "not_assigned_in_this_queue": 28,
+        "not_assigned_in_this_queue": 30,
         "excluded_completed_pilot": 8
       },
       "editorial_counts": {
         "no_refresh_apply_change": 845,
-        "has_refresh_apply_change": 474
+        "has_refresh_apply_change": 476
       },
       "records": [
         {
@@ -24716,6 +24718,18 @@
           "applied_field_lineage": []
         },
         {
+          "record_id": "nc-town-of-mooresville-undated",
+          "state": "NC",
+          "collection_stage": "not_assigned_in_this_queue",
+          "jobs": [],
+          "refresh_apply_receipts": [
+            "work/audit/apply-20261106T130626.json"
+          ],
+          "editorial_stage": "has_refresh_apply_change",
+          "legal_force_verification": "not_assessed_by_this_mechanical_accounting",
+          "applied_field_lineage": []
+        },
+        {
           "record_id": "nc-town-of-nashville-2026",
           "state": "NC",
           "collection_stage": "returned_unresolved",
@@ -31623,6 +31637,18 @@
               "current_matches_last_applied_value": true
             }
           ]
+        },
+        {
+          "record_id": "sc-awendaw-undated",
+          "state": "SC",
+          "collection_stage": "not_assigned_in_this_queue",
+          "jobs": [],
+          "refresh_apply_receipts": [
+            "work/audit/apply-20261106T130626-1.json"
+          ],
+          "editorial_stage": "has_refresh_apply_change",
+          "legal_force_verification": "not_assessed_by_this_mechanical_accounting",
+          "applied_field_lineage": []
         },
         {
           "record_id": "sc-chester-county-2026",

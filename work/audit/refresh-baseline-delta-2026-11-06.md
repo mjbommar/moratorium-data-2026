@@ -1,18 +1,18 @@
 # Working refresh: baseline comparison
 
 Baseline: `dbaab04d84f8d679ba5a3d57bf45f32186109222`, whose README describes September 23, 2026.
-The current comparison was generated from base revision `117c004` and the working-tree
+The current comparison was generated from base revision `ae2ae79` and the working-tree
 CSV bytes pinned in the JSON. This compares working data, not the last public
 release. The cohort cutoff remains November 5; later scoped reviews do not renew
 all-record legal-force freshness.
 
 | Metric | Baseline | Current | Delta |
 |---|---:|---:|---:|
-| Local instruments | 1291 | 1319 | +28 |
-| Active | 897 | 884 | -13 |
+| Local instruments | 1291 | 1321 | +30 |
+| Active | 897 | 885 | -12 |
 | Extended | 166 | 192 | +26 |
-| Active plus extended | 1063 | 1076 | +13 |
-| Pending | 77 | 77 | 0 |
+| Active plus extended | 1063 | 1077 | +14 |
+| Pending | 77 | 78 | +1 |
 | Replaced | 93 | 94 | +1 |
 | Rescinded | 8 | 12 | +4 |
 | Expired | 50 | 60 | +10 |
@@ -24,7 +24,7 @@ executive order. The tracker covers multiple policy mechanisms. Resolution
 subtypes remain inside the legacy bill category; it is not a verified denominator
 of bills or enacted state moratoria.
 
-Twenty-eight local records were added: `ak-fairbanks-north-star-borough-undated`, `ak-petersburg-borough-undated`, `ca-hayward-2026`, `co-brighton-undated`, `co-fort-collins-undated`, `co-phillips-county-2024`, `co-phillips-county-2025`, `de-kent-county-2022`, `de-kent-county-undated`, `ga-union-county-2026`, `ia-dubuque-county-2026-2`, `ia-sac-county-2025`, `ia-sioux-county-2023`, `id-blaine-county-undated`, `il-chicago-undated`, `in-vermillion-county-undated`, `in-zionsville-undated`, `ky-camargo-2026`, `la-bossier-parish-2022`, `ma-braintree-undated`, `ma-methuen-undated`, `md-talbot-county-2022`, `mn-pequot-lakes-undated`, `ne-sarpy-county-2020`, `nj-east-windsor-undated`, `nm-silver-city-2021`, `tn-orlinda-2026`, `wi-sun-prairie-2026`. Two policy records were added:
+Thirty local records were added: `ak-fairbanks-north-star-borough-undated`, `ak-petersburg-borough-undated`, `ca-hayward-2026`, `co-brighton-undated`, `co-fort-collins-undated`, `co-phillips-county-2024`, `co-phillips-county-2025`, `de-kent-county-2022`, `de-kent-county-undated`, `ga-union-county-2026`, `ia-dubuque-county-2026-2`, `ia-sac-county-2025`, `ia-sioux-county-2023`, `id-blaine-county-undated`, `il-chicago-undated`, `in-vermillion-county-undated`, `in-zionsville-undated`, `ky-camargo-2026`, `la-bossier-parish-2022`, `ma-braintree-undated`, `ma-methuen-undated`, `md-talbot-county-2022`, `mn-pequot-lakes-undated`, `nc-town-of-mooresville-undated`, `ne-sarpy-county-2020`, `nj-east-windsor-undated`, `nm-silver-city-2021`, `sc-awendaw-undated`, `tn-orlinda-2026`, `wi-sun-prairie-2026`. Two policy records were added:
 `ca-ab2469-2025-2026`, `nj-a4696-2026-2027`. No baseline IDs were removed. Among surviving baseline records,
 446 local and 30 policy records have changed fields.
 These are edit counts, not completed record reviews or counts of new enactments.
