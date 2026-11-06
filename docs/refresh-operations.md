@@ -193,3 +193,5 @@ The [Rhode Island checkpoint](../work/audit/legacy-source-migration-ri-review-20
 The [Idaho checkpoint](../work/audit/legacy-source-migration-id-review-2026-11-06.json) adds five retained versions and verifies full native readback: 6,523 manifest entries, 3,080 verified-body versions and 3,443 listed-path gaps. Visual scope is Gooding pages 1–2 of five and all three Blaine pages. A planning deadline is not automatically a moratorium duration.
 
 The [Kansas checkpoint](../work/audit/legacy-source-migration-ks-review-2026-11-06.json) adds six retained original versions and verifies full native body/manifest readback: 6,529 entries, 3,086 verified-body versions and 3,443 listed-path gaps. The separately registered Jefferson OCR is hash-verified by the review; its new native-store import is not claimed.
+
+The [NE/UT/WY checkpoint](../work/audit/legacy-source-migration-ne-ut-wy-2026-11-06.json) adds five retained versions and verifies native readback: 6,534 entries, 3,091 verified-body versions, 3,443 listed-path gaps. Sarpy’s signatures require visual proof because extraction missed them; generated-summary dates and page-interface dates are not event anchors.

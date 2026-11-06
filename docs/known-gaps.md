@@ -7,7 +7,7 @@ record-level observations and `[VERIFY]` markers identify unresolved work.
 
 ### Small-township records that aren't online
 
-Many small townships and rural counties don't post agendas, minutes, or signed ordinances on the web. When we know a moratorium exists from news coverage but can't pull the underlying instrument, we record it with a `[VERIFY]` note in `verify_notes` rather than guessing at the ordinance number or exact date. **680 of the 1307 inventory rows** have at least one such evidence-ceiling note (`has_verify_tags = True`). The earlier v2026.04.4 snapshot had 123 flagged rows out of 222; these are different inventory populations.
+Many small townships and rural counties don't post agendas, minutes, or signed ordinances on the web. When we know a moratorium exists from news coverage but can't pull the underlying instrument, we record it with a `[VERIFY]` note in `verify_notes` rather than guessing at the ordinance number or exact date. **681 of the 1308 inventory rows** have at least one such evidence-ceiling note (`has_verify_tags = True`). The earlier v2026.04.4 snapshot had 123 flagged rows out of 222; these are different inventory populations.
 
 ### Legacy instrument identities
 
@@ -267,9 +267,9 @@ We document one tribal-government moratorium (Sault Tribe of Chippewa Indians, A
 
 ## Source-body availability checkpoint
 
-The November 6 [current archive checkpoint](../work/audit/legacy-source-migration-ks-review-2026-11-06.json)
-covers 6,529 manifest entries, with hash-matching bodies available through listed
-paths for 3,086 entries. Of the remaining 3,443 path gaps, 119 are failed acquisitions
+The November 6 [current archive checkpoint](../work/audit/legacy-source-migration-ne-ut-wy-2026-11-06.json)
+covers 6,534 manifest entries, with hash-matching bodies available through listed
+paths for 3,091 entries. Of the remaining 3,443 path gaps, 119 are failed acquisitions
 without a recorded body hash. Other private stores have not been exhaustively
 searched, so these counts do not establish global payload loss. They count archive
 entries, not jurisdictions or independently verified legal findings.
@@ -295,7 +295,7 @@ Retroactive effective dates are preserved separately from adoption dates.
 
 ## Geocoding caveats (added v2026.04.2)
 
-1290 of 1307 instruments have WGS84 reference points. Initial geocoding used Nominatim (OpenStreetMap), with reviewed Census and other official point overrides recorded separately. Reference points do not establish legal boundaries or applicability. The 17 blanks comprise two aggregate meta-rows (`Other Reported Local Moratoria, Michigan` and `Proposed or Rejected Local Pauses, Maryland`) and Hayward, Fairbanks North Star Borough, Petersburg Borough, Braintree, Methuen, Sun Prairie, two Kent County records, Brighton, Chicago, Sac County, the 2023 Sioux County record, the historical Silver City solar record, Orlinda and Blaine County awaiting coordinate review.
+1290 of 1308 instruments have WGS84 reference points. Initial geocoding used Nominatim (OpenStreetMap), with reviewed Census and other official point overrides recorded separately. Reference points do not establish legal boundaries or applicability. The 18 blanks comprise two aggregate meta-rows (`Other Reported Local Moratoria, Michigan` and `Proposed or Rejected Local Pauses, Maryland`) and Hayward, Fairbanks North Star Borough, Petersburg Borough, Braintree, Methuen, Sun Prairie, two Kent County records, Brighton, Chicago, Sac County, the 2023 Sioux County record, the historical Silver City solar record, Orlinda, Blaine County and Sarpy County awaiting coordinate review.
 
 **Within-state name ambiguity.** Several Ohio townships share names across multiple counties (e.g., 7 different "Washington Township"s, 3 "Plain Township"s, 4 "Lake Township"s). The geocoder picks the highest-rank match, which isn't always the moratorium-adopting jurisdiction. We caught and manually corrected 4 such cases in v2026.04.2:
 
@@ -400,3 +400,7 @@ The [Idaho review](../work/research/2026-11-06/idaho-discovery-review/README.md)
 ## Kansas execution, publication and predecessor gaps
 
 The [Kansas review](../work/research/2026-11-06/kansas-discovery-review/README.md) finds Harvey’s retained 2023 resolution unsigned, contrary to the worker recommendation. Harvey’s BESS county page reports July 8, while its July 15 agenda prints June 8 and presents a revised unsigned resolution for adoption/publication. Harper’s webpage date precedes its stated newspaper-publication date. Jefferson’s 2026 text prints April 14 first publication but a May 4 signed resolution date; these are not silently reconciled. Jefferson’s distinct 2025 and 2026 acts and earlier unidentified predecessors are not automatically merged. No canonical counts change.
+
+## Sarpy visual execution and limited historical summaries
+
+The [NE/UT/WY review](../work/research/2026-11-06/plains-mountain-discovery-review/README.md) adds historical Sarpy Resolution 2020-039 after all four PDF pages were inspected. Page 2 contains signatures/attestation omitted from text extraction, correcting the worker’s contrary conclusion. January 28, 2020 adoption is separate from the stated January 14 start and March 18 latest endpoint; earlier effective regulation and later restrictions remain unresolved. Custer/Deuel’s gated generated summaries contain unreconciled chronology. Sanpete’s earlier solar pause is distinct from its data-center action, and Sweetwater’s 2012 extension report does not establish an original date or exact seasonal endpoint.

@@ -1,21 +1,21 @@
 # Working refresh: baseline comparison
 
 Baseline: `dbaab04d84f8d679ba5a3d57bf45f32186109222`, whose README describes September 23, 2026.
-The current comparison was generated from base revision `efc24f9` and the working-tree
+The current comparison was generated from base revision `791e8a4` and the working-tree
 CSV bytes pinned in the JSON. This compares working data, not the last public
 release. The cohort cutoff remains November 5; later scoped reviews do not renew
 all-record legal-force freshness.
 
 | Metric | Baseline | Current | Delta |
 |---|---:|---:|---:|
-| Local instruments | 1291 | 1307 | +16 |
+| Local instruments | 1291 | 1308 | +17 |
 | Active | 897 | 882 | -15 |
 | Extended | 166 | 192 | +26 |
 | Active plus extended | 1063 | 1074 | +11 |
 | Pending | 77 | 73 | -4 |
 | Replaced | 93 | 94 | +1 |
 | Rescinded | 8 | 12 | +4 |
-| Expired | 50 | 54 | +4 |
+| Expired | 50 | 55 | +5 |
 | State-policy records | 440 | 442 | +2 |
 | State-policy records classified enacted | 85 | 95 | +10 |
 
@@ -24,7 +24,7 @@ executive order. The tracker covers multiple policy mechanisms. Resolution
 subtypes remain inside the legacy bill category; it is not a verified denominator
 of bills or enacted state moratoria.
 
-Sixteen local records were added: `ak-fairbanks-north-star-borough-undated`, `ak-petersburg-borough-undated`, `ca-hayward-2026`, `co-brighton-undated`, `de-kent-county-2022`, `de-kent-county-undated`, `ia-dubuque-county-2026-2`, `ia-sac-county-2025`, `ia-sioux-county-2023`, `id-blaine-county-undated`, `il-chicago-undated`, `ma-braintree-undated`, `ma-methuen-undated`, `nm-silver-city-2021`, `tn-orlinda-2026`, `wi-sun-prairie-2026`. Two policy records were added:
+Seventeen local records were added: `ak-fairbanks-north-star-borough-undated`, `ak-petersburg-borough-undated`, `ca-hayward-2026`, `co-brighton-undated`, `de-kent-county-2022`, `de-kent-county-undated`, `ia-dubuque-county-2026-2`, `ia-sac-county-2025`, `ia-sioux-county-2023`, `id-blaine-county-undated`, `il-chicago-undated`, `ma-braintree-undated`, `ma-methuen-undated`, `ne-sarpy-county-2020`, `nm-silver-city-2021`, `tn-orlinda-2026`, `wi-sun-prairie-2026`. Two policy records were added:
 `ca-ab2469-2025-2026`, `nj-a4696-2026-2027`. No baseline IDs were removed. Among surviving baseline records,
 446 local and 30 policy records have changed fields.
 These are edit counts, not completed record reviews or counts of new enactments.

@@ -3,7 +3,7 @@
 
 Working inventory for Nebraska, generated **November 5, 2026**. Record-level refresh and later-action review remain incomplete.
 
-**23 instruments** — 20 in force, 2 pending, 1 past.
+**24 instruments** — 20 in force, 2 pending, 2 past.
 
 State policy is tracked separately: **11 actions** (11 bills) in [`state_legislation.csv`](../data/state_legislation.csv). These are not included in the local count above.
 
@@ -30,6 +30,7 @@ State policy is tracked separately: **11 actions** (11 bills) in [`state_legisla
 | McPherson County | County | 2026-06-10 | wind, solar, battery storage, cryptocurrency mining, data center, general | 🟢 Active |
 | Otoe County | County | 2026-05-19 | data center | 🟢 Active |
 | Red Willow County | County | 2025-09-22 | data center | 🟢 Extended |
+| Sarpy County | County | 2020-01-28 | solar, general | ⚪ Expired |
 | Seward County | County | 2023-08-01 | wind, solar, battery storage | 🟢 Extended |
 | Seward County | County | 2026-06-30 | data center | 🟢 Active |
 
@@ -370,6 +371,22 @@ State policy is tracked separately: **11 actions** (11 bills) in [`state_legisla
 - **Affected projects:** Not identified in captured primary records. [CITE]
 - **Detailed status:** August 24, 2026 minutes record unanimous consent-agenda approval of Resolution 1612, Book 25, Page 2, extending the data-center zoning moratorium for an additional twelve months. The resolution text, term anchor and exact extension endpoint were not obtained; the prior September 22, 2027 endpoint was inferred and is cleared. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** August 24, 2026 minutes record approval of an additional twelve-month data-center zoning moratorium extension under Resolution 1612; exact interval and later legal force remain unresolved.
+
+### Sarpy County
+
+- **Type:** County
+- **Status:** ⚪ Expired
+- **Date enacted:** 2020-01-28
+- **Normalized date:** `2020-01-28` (exact)
+- **Duration:** Stated January 14, 2020 start through March 18, 2020, or earlier effective alternative-energy zoning regulation; adoption January 28, 2020
+- **Current end date:** `2020-03-18`
+- **Sectors:** solar, general
+- **Moratorium ID:** `ne-sarpy-county-2020`
+- **Legal basis:** Resolution 2020-039
+- **What prompted it:** County reviews zoning controls for solar and other alternative-energy production facilities.
+- **Affected projects:** —
+- **Detailed status:** Signed/attested Resolution 2020-039 records January 28, 2020 approval, a stated January 14 start and March 18 latest endpoint or earlier effective alternative-energy zoning rule. Historical recorded-term classification is expired. [VERIFY earlier termination action, exact operative interval, later restrictions and coordinates; no current-force or retroactive-enforceability claim]
+- **Outcome:** —
 
 ### Seward County
 

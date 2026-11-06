@@ -1,0 +1,129 @@
+{
+  "reviewed_as_of": "2026-11-06",
+  "cohort_cutoff": "2026-11-05",
+  "baseline_inventory_sha256": "db362fcb6dfd8cd6667a11d06bf5f27487fbe8827ab8b161fecae0a210874158",
+  "candidates": [
+    {
+      "candidate_key": "discovery-ne:0",
+      "candidate_sha256": "b640700ffe51e36b59f06ca2d55284efc45bdf937149b4305756181d514e0881",
+      "worker_review_sha256": "9bc20862aaf74576ccae511c96481fbfb759de53e56b692d1397371c45c5ae76",
+      "coordinator_disposition": "reviewed_historical_instrument_added",
+      "rationale": "All four Sarpy PDF pages inspected. Resolution 2020-039 page 2 visibly contains chairman signature and clerk attestation/seal, correcting worker claim of empty execution lines; text extraction does not capture signatures. Adopted January 28, 2020, with expressly stated January 14 start and March 18 latest endpoint or earlier effective alternative-energy zoning regulation. Preserve start versus adoption, without asserting retroactive enforceability. Solar expressly named; do not infer every other technology. Historical elapsed-term classification only; earlier ending action and subsequent restrictions remain unresolved.",
+      "source_checks": [
+        {
+          "attempt_id": "8cc1ca61259a4d1e816aec9147546b91",
+          "url": "https://sarpy.civicweb.net/document/23713/2020-01-28%20Resolution%202020-039%20Planning%20Department.pdf?handle=E917164A26DB4EDEBAD3AEC6987ED8DF",
+          "body_sha256": "810fdfcecbbb512e7a5028e2d70b793b3c49233392d8451bd40ceaf594cc45c5",
+          "text_sha256": "f89e95ffaf49a5270e0efb0386f014a4879dd67c8d72c94e13965885d94d75d8",
+          "visual_review": {
+            "scope": "All four retained PDF pages directly inspected",
+            "render_command": "pdftoppm -scale-to 1500 -png ORIGINAL_BODY OUTPUT_PREFIX",
+            "pages": [
+              {
+                "page": 1,
+                "image_sha256": "f67d86e532695fc93731b8d0cfd1a173114b6e6f20a7a90f4aa63a40c74109de"
+              },
+              {
+                "page": 2,
+                "image_sha256": "51d2c66bd2ee003e26060ecffb1816aa16e0d20b9ddd21b40bbe32bf9340d038"
+              },
+              {
+                "page": 3,
+                "image_sha256": "226cd375d6ead18c6d0241ec587e256fc8fbf65f58782efa2829fb4b1fc083b0"
+              },
+              {
+                "page": 4,
+                "image_sha256": "a160c2c2d54db2735d99ecd9807746be3509a82cd0347e0c8d1ee62e3352a7d9"
+              }
+            ],
+            "execution_observation": "Chairman signature and clerk attestation/seal visibly present on PDF page 2; blank-line extraction is incomplete."
+          }
+        }
+      ]
+    },
+    {
+      "candidate_key": "discovery-ne:1",
+      "candidate_sha256": "a6a2185f70ff721c9ae4901b2b41fdc9dc6892baf03b34ac515de9ddc54ac121",
+      "worker_review_sha256": "9bc20862aaf74576ccae511c96481fbfb759de53e56b692d1397371c45c5ae76",
+      "coordinator_disposition": "held_generated_summary_primary_chronology",
+      "rationale": "Accessible Custer generated summary is dated October 12, 2026 but reports an October 13 vote adopting BESS Resolution 78Z-26. Account gate prevents full-story review. Preserve chronology conflict; no adopted/current-force finding from this source. Distinct reported number/sector from existing March data-center Resolution 75Z-26, not an identity match.",
+      "source_checks": [
+        {
+          "attempt_id": "011eab10cfc94c4f9997e05af74562e4",
+          "url": "https://citizenportal.ai/articles/11572533/nebraska/custer-county/custer-county-adopts-temporary-moratorium-on-battery-storage-systems",
+          "body_sha256": "1a0ed0d73c753cc2e93a869b3e6955dd191d3f7a7655a9c7c792e44a27c8d059",
+          "text_sha256": "8b801746be591c68e461af5a2976c33ead636e2f590b41bbf3d6d86d79c46630",
+          "quote": "On Oct. 13, 2026, the Custer County Board of Supervisors approved Resolution 78Z-26, imposing a temporary moratorium on battery storage systems",
+          "quote_span": [
+            1421,
+            1564
+          ],
+          "review_scope": "Accessible source text only; Custer/Deuel full stories account-gated, Sweetwater AP article separated from interface/date boilerplate, Sanpete complete article read."
+        }
+      ]
+    },
+    {
+      "candidate_key": "discovery-ne:2",
+      "candidate_sha256": "d111effc790d45f7ac8e9440859c3a6fe402892e7f9045047bacf4ffd2503ec7",
+      "worker_review_sha256": "9bc20862aaf74576ccae511c96481fbfb759de53e56b692d1397371c45c5ae76",
+      "coordinator_disposition": "held_generated_summary_primary_chronology",
+      "rationale": "Accessible Deuel generated summary shows January 1, 2024 while claiming October 15 adoption of Resolution 2024-24 without a reconciled year. Account gate limits full-story review. Do not backfill adoption, duration/effectiveness or current status from inconsistent generated text; recover primary act and later actions.",
+      "source_checks": [
+        {
+          "attempt_id": "fdca597566ad4db78a4467b134f9e01c",
+          "url": "https://citizenportal.ai/articles/10800023/nebraska/deuel-county/deuel-county-imposes-12month-moratorium-on-commercial-wind-and-solar-permit-applications",
+          "body_sha256": "c8ef4bec2dcd55ee269152a31aa66a6ebbf05b010788b7a0b2d337549778260e",
+          "text_sha256": "9e4e20a887d86e005c2f97cac77a7d947272a6b7423cd8ab2656c8f5bcb859b3",
+          "quote": "The county approved Resolution 2024-24 instating a one-year pause on accepting new commercial wind and solar permit applications",
+          "quote_span": [
+            1437,
+            1565
+          ],
+          "review_scope": "Accessible source text only; Custer/Deuel full stories account-gated, Sweetwater AP article separated from interface/date boilerplate, Sanpete complete article read."
+        }
+      ]
+    },
+    {
+      "candidate_key": "discovery-ut:0",
+      "candidate_sha256": "61232a0f9faced8e45479b5fa877216d338171a87bdc45702e4d2e5ab33fab1d",
+      "worker_review_sha256": "c4bf4252e8a606743310d46438ed428863b2034509dd44516fa501c04626f8ed",
+      "coordinator_disposition": "held_distinct_solar_primary_history",
+      "rationale": "Complete Sanpete article reports an earlier June six-month commercial SOLAR pause, residential installations exempt, separately from the August 4 DATA-CENTER action. The latter date is not the solar adoption date. Original solar act, exact operative anchor and later disposition remain unresolved; do not merge different technologies/actions.",
+      "source_checks": [
+        {
+          "attempt_id": "8f42ac6775bd484fb57728b5e76ada28",
+          "url": "https://sanpetemessenger.com/sanpete-county-hits-pause-on-data-centers-for-6-months/",
+          "body_sha256": "55e0c5ba58df59248c44d20360b716a3f8db0b0045db0e09f09ffe42a4a242a7",
+          "text_sha256": "f807e4a1e7b3399795285b049817d819d4b71c507af13a28cd2e65403873eefe",
+          "quote": "The county\u2019s action mirrors a six-month moratorium on commercial solar farm development approved by commissioners in June.",
+          "quote_span": [
+            1470,
+            1592
+          ],
+          "review_scope": "Accessible source text only; Custer/Deuel full stories account-gated, Sweetwater AP article separated from interface/date boilerplate, Sanpete complete article read."
+        }
+      ]
+    },
+    {
+      "candidate_key": "discovery-wy:0",
+      "candidate_sha256": "33251df277bb9a7c6f15f4d004273c7103df1b766bbb400c3888cd61d12300d6",
+      "worker_review_sha256": "ae1693bcd0ca7ca7847336f87a51277b7b2616de4ca10fa496b4df3524a9b563",
+      "coordinator_disposition": "held_historical_original_extension_anchors",
+      "rationale": "Accessible AP article published October 25, 2012 reports Sweetwater extending an existing wind pause by six months, moving a December sunset to beginning of next summer. August 2018 update and November 2026 page weather are not adoption dates. Original act, exact extension vote/effectiveness, latest legal text and successor history remain unresolved; no precise June endpoint inferred from seasonal phrasing.",
+      "source_checks": [
+        {
+          "attempt_id": "60bc654ee19042fbbbbb8aca9ada1961",
+          "url": "https://www.gillettenewsrecord.com/news/wyoming/article_930aafca-5e3d-590e-a76c-21c4192b88d4.html",
+          "body_sha256": "39dc37948f7d31c3a00bd463f0ca2a387c00748761dc1100baa3ae38e99fbfc2",
+          "text_sha256": "feee9df610a571f1d2dd3b53249ca9b903a766abadb70339b806d569a7906a61",
+          "quote": "County extends wind farm moratorium",
+          "quote_span": [
+            1164,
+            1199
+          ],
+          "review_scope": "Accessible source text only; Custer/Deuel full stories account-gated, Sweetwater AP article separated from interface/date boilerplate, Sanpete complete article read."
+        }
+      ]
+    }
+  ]
+}
