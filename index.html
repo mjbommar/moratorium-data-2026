@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Moratorium Nation | 1293 Local Pauses + State Data Center Restrictions</title>
-<meta name="description" content="Open data and a 116-page working paper on 1293 local-government moratoria targeting data centers, battery storage, solar, wind, and cryptocurrency mining across the United States. Updated September 23, 2026.">
+<meta name="description" content="Open data and a 116-page working paper on 1293 local-government moratoria targeting data centers, battery storage, solar, wind, and cryptocurrency mining across the United States. Updated November 5, 2026.">
 <meta name="author" content="Michael J. Bommarito">
 <meta name="robots" content="index,follow,max-image-preview:large">
 <meta name="theme-color" content="#2a78d6">
@@ -13,7 +13,7 @@
 
 <!-- Open Graph -->
 <meta property="og:title" content="Moratorium Nation | Local Pauses + State Data Center Restrictions">
-<meta property="og:description" content="1293 local moratoria across 47 states, plus 442 state policy actions. Open data, current through September 23, 2026.">
+<meta property="og:description" content="1293 local moratoria across 47 states, plus 442 state policy actions. Open data, working cohort through November 5, 2026.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://mjbommar.github.io/moratorium-data-2026/">
 <meta property="og:site_name" content="Moratorium Nation">
@@ -23,7 +23,7 @@
 <meta property="og:image:alt" content="Map of documented local infrastructure moratoria across the United States">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Moratorium Nation | Local Pauses + State Restrictions">
-<meta name="twitter:description" content="1293 local moratoria across 47 states, plus 442 state policy actions. Updated September 23, 2026.">
+<meta name="twitter:description" content="1293 local moratoria across 47 states, plus 442 state policy actions. Updated November 5, 2026.">
 <meta name="twitter:image" content="https://mjbommar.github.io/moratorium-data-2026/figures/png/map-moratorium-counts.png">
 <script type="application/ld+json">
 {
@@ -32,7 +32,7 @@
   "name": "Moratorium Nation: U.S. Infrastructure Moratorium and State Policy Tracker",
   "description": "Open data on local-government infrastructure moratoria and state-level data center policy actions in the United States.",
   "url": "https://mjbommar.github.io/moratorium-data-2026/",
-  "dateModified": "2026-09-23",
+  "dateModified": "2026-11-05",
   "spatialCoverage": "United States",
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "creator": {"@type": "Person", "name": "Michael J. Bommarito", "url": "https://michaelbommarito.com/"},
@@ -633,7 +633,7 @@
 <body>
 
 <header class="hero">
-  <div class="eyebrow"><span class="dot"></span>Updated 23 September 2026</div>
+  <div class="eyebrow"><span class="dot"></span>Updated 5 November 2026</div>
   <h1>Moratorium Nation</h1>
   <p class="subtitle">Track local pauses on <strong>data centers</strong>, <strong>battery storage</strong>, <strong>solar</strong>, <strong>wind</strong>, and <strong>crypto mining</strong>—plus the distinct state-level rules now shaping permits, grid access, costs, and local authority.</p>
 </header>
@@ -646,7 +646,7 @@
   </div>
   <div class="stat in-force">
     <div class="num" id="stat-in-force">1071</div>
-    <div class="label">Currently in force</div>
+    <div class="label">Classified active / extended</div>
   </div>
   <div class="stat pending">
     <div class="num" id="stat-pending">67</div>
@@ -683,7 +683,7 @@
         <a href="data/state_legislation.csv" download>Download state tracker →</a>
       </article>
     </div>
-    <div class="scope-latest"><strong>Latest binding actions:</strong> New York is holding specified state permits in abeyance during environmental review; Texas is auditing data-center projects before ERCOT interconnection can advance. Pennsylvania's moratorium bills remain proposals.</div>
+    <div class="scope-latest"><strong>Examples of recorded state actions:</strong> New York is holding specified state permits in abeyance during environmental review; Texas is auditing data-center projects before ERCOT interconnection can advance. Pennsylvania's moratorium bills remain proposals.</div>
   </div>
 </div>
 
@@ -691,9 +691,9 @@
 <div class="paper-callout">
   <div class="paper-card">
     <div class="paper-info">
-      <div class="eyebrow">📄 Working paper · April 2026</div>
+      <div class="eyebrow">📄 Historical working paper · April 2026</div>
       <h2>Moratorium Nation: A Survey of Data Center, Renewable Energy, and Battery Storage Moratoria in the United States</h2>
-      <p>116 pages · 46,800 words · 8 maps · 7 statistical tables · 50-state legal authority survey · 13-section model ordinance template with sector-specific supplements for data centers, solar, wind, and battery storage.</p>
+      <p>Historical edition; not synchronized to the November dataset. 116 pages · 46,800 words · 8 maps · 7 statistical tables · 50-state legal authority survey · 13-section model ordinance template with sector-specific supplements for data centers, solar, wind, and battery storage.</p>
     </div>
     <div class="paper-cta">
       <a class="primary" href="paper/moratorium-nation-2026-04-30.pdf" download>Download April 2026 draft (PDF, 6 MB)</a>
@@ -705,13 +705,13 @@
 <div class="map-wrap">
   <div id="map"></div>
   <div class="map-controls">
-    <span class="legend-item"><span class="swatch" style="background:var(--c-active)"></span>In force (active / extended)</span>
+    <span class="legend-item"><span class="swatch" style="background:var(--c-active)"></span>Classified active / extended</span>
     <span class="legend-item"><span class="swatch" style="background:var(--c-pending)"></span>Pending / not yet effective</span>
     <span class="legend-item"><span class="swatch" style="background:var(--c-replaced)"></span>Replaced / expired</span>
     <span class="legend-item"><span class="swatch" style="background:var(--c-rescinded)"></span>Rescinded</span>
     <div class="filter-buttons" id="filter-buttons">
       <button class="active" data-filter="all">All</button>
-      <button data-filter="in-force">In force</button>
+      <button data-filter="in-force">Active / extended</button>
       <button data-filter="pending">Pending</button>
       <button data-filter="past">Past</button>
     </div>
@@ -721,61 +721,32 @@
 
 <div class="timeline-wrap">
   <img src="site/timeline.svg" alt="Monthly moratorium adoptions, 2018 through September 23, 2026, stacked by primary sector with cumulative-total dashed line." />
-  <p class="caption">Every bar before 2022 is Washington. Cheap power from dams drew crypto miners to the Columbia River region, and ten Washington towns and counties paused them in 2018. Then the map went almost quiet until 2023. New York towns came next, with pauses on large battery-storage sites: they make up most of the 21 moratoria in 2023 and the 61 in 2024. Data centers drove what followed: 121 in 2025 and 882 in the first eight months of 2026. June 2026 alone had 185. September counts stop at the 23rd, so that month is not complete.</p>
-  <p class="source">Source: <a href="data/moratorium_inventory.csv" download>moratorium_inventory.csv</a>, columns <code>date_enacted_iso</code> and <code>sectors</code>. The chart plots 1166 of 1293 instruments. It leaves out proposals still awaiting a vote, which have no adoption date, and two 2018 Washington ordinances known only to the year, which cannot be placed in a month.</p>
+  <p class="caption">Historical September 2026 chart; it has not been regenerated for the November working inventory. Its monthly bars and cumulative totals describe the earlier chart cohort. Use the canonical CSV for current record-level analysis.</p>
+  <p class="source">Source: historical export of <code>moratorium_inventory.csv</code>; see <a href="docs/known-gaps.html">coverage and date limitations</a>.</p>
 </div>
 
 <main>
 
 <!-- BEGIN whats-changed (generated by scripts/build_index.py) -->
 <section class="release-notes">
-  <div class="stamp">Data update &middot; 23 September 2026</div>
-  <h2>The September picture</h2>
-  <p class="lede">The list more than doubled in one update. Most of that is not new
-  activity. These are towns and townships that had already voted for a pause, and that
-  earlier searches missed. The list now holds 1293 moratoria in 47 states,
-  and 1071 of them are in force.</p>
-
-  <h3>What changed in this update</h3>
-  <ul>
-    <li><strong>We rechecked every row that was out of date.</strong> On September 23, 296 rows
-      needed a fresh look. Some had passed their end date. Others were old proposals or had a
-      fact we had not confirmed. We changed the status of 84, fixed facts in 141, and confirmed
-      75. Six could not be settled. Today 879 are active and 192 extended.
-      Another 94 were replaced by permanent rules, 50 ran out, and
-      11 were cancelled early.</li>
-    <li><strong>We searched every state, then checked the results four ways.</strong> The
-      search added 520 moratoria. We re-read each one against its source. We also checked a
-      random sample blind and compared our list with nine others. That comparison added 243
-      more, including 127 New York town pauses on battery storage. We removed 14 rows that
-      turned out to be permanent bans or proposals that never passed. Only Hawaii, West
-      Virginia, and Wyoming have none.</li>
-    <li><strong>We saved a copy of every source.</strong> That is about 3,700 pages and
-      documents. We will not add a fact unless its source has been saved. A link can break,
-      but the record behind each row no longer depends on it. We publish the copies of public
-      records. News stories belong to the papers that wrote them, so for those we publish only
-      the link, the date, and a fingerprint of our copy.</li>
-  </ul>
-
-  <h3>State rules are a separate layer</h3>
-  <p>States act too. We track 440 state bills, 94 of which became
-  law, plus 2 state actions that are not bills.
-  <a href="https://www.governor.ny.gov/executive-order/no-62-establishing-temporary-moratorium-data-centers-new-york-while-state-develops">New York Executive Order 62</a>
-  holds some state permits while the state studies the effects of data centers.
-  <a href="https://gov.texas.gov/news/post/governor-abbott-directs-comprehensive-data-center-audit">Texas's August 3 order</a>
-  pauses new hookups to the state's main power grid while it is audited. In Pennsylvania,
-  <a href="https://www.palegis.us/legislation/bills/2025/sb1345">SB 1345</a> would let towns
-  pause data centers, and <a href="https://www.palegis.us/legislation/bills/2025/sb1359">SB 1359</a>
-  would pause them statewide. Both are still only proposals. This update did not recheck the
-  state bills.</p>
-
-  <h3>How to read the counts</h3>
-  <p>For May through July, we searched all 50 states month by month. Even that
-  search missed many small towns, as this update showed. This time we searched each state as a
-  whole. So the August and September counts are far better than before, but they are still the
-  fewest there could be. September counts stop at the 23rd. Counts before May came from
-  scattered searches and are low too.
-  <a href="docs/known-gaps.html">Known gaps</a> explains what the list may be missing.</p>
+  <div class="stamp">Working data &middot; November 5, 2026 cohort</div>
+  <h2>The November working snapshot</h2>
+  <p class="lede">The inventory tracks 1293 local instruments across 47 states.
+  Recorded classifications include 879 active and 192 extended instruments,
+  67 pending, 94 replaced, 50 expired and 11 rescinded.
+  Source dates vary by record; these totals do not establish freshly verified current legal force.</p>
+  <h3>Ballots and state policy have separate denominators</h3>
+  <p><a href="docs/ballot-results.html">Reviewed ballot results</a> distinguish vote observations,
+  certification and legal effect. Advisory questions, permanent prohibitions and site-specific
+  rezoning votes are not added to the local moratorium total merely because they concern data centers.
+  <a href="docs/known-gaps.html">Known gaps</a> retains unresolved candidates and instrument histories.</p>
+  <p>The state-policy tracker contains 442 records spanning several mechanisms.
+  It is not a count of enacted state moratoria. Read the typed mechanism, scope and legal-effect fields.</p>
+  <h3>Coverage and historical material</h3>
+  <p>Searches across all states do not establish a complete census. Later discovery found instruments
+  missed in earlier searches, including the May–July window. The April 2026 paper and older graphics
+  retain their own historical cohorts; they are not evidence of synchronization with this working data.
+  A published release and verified deployment remain separate deliverables.</p>
 </section>
 <!-- END whats-changed -->
 
@@ -855,7 +826,7 @@
 
 <section>
   <h2>Status &amp; contributions</h2>
-  <div class="panel"><p>This working snapshot is current through <strong>23 September 2026</strong>. The latest tagged release remains <strong>v2026.04.2</strong>. Found a moratorium we missed, or an error worth fixing? <a href="https://github.com/mjbommar/moratorium-data-2026/issues/new/choose">Open an issue</a> and we will take it up in the next refresh, which runs roughly quarterly while the wave lasts.</p></div>
+  <div class="panel"><p>This working snapshot uses a cohort cutoff of <strong>5 November 2026</strong>. The latest tagged release remains <strong>v2026.04.2</strong>. Found a moratorium we missed, or an error worth fixing? <a href="https://github.com/mjbommar/moratorium-data-2026/issues/new/choose">Open an issue</a> and we will take it up in the next refresh, with source dates and unresolved findings retained by record.</p></div>
 </section>
 
 </main>

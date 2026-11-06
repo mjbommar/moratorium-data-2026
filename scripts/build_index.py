@@ -35,9 +35,9 @@ SWEEP = REPO / "data" / "sweep_coverage.json"
 VERIFY_RE = re.compile(r"\[VERIFY", re.IGNORECASE)
 
 # Human-facing label for the current release; bump with the release.
-RELEASE_LABEL = "September 23, 2026"
-RELEASE_DATE = "23 September 2026"
-RELEASE_ISO = "2026-09-23"
+RELEASE_LABEL = "November 5, 2026"
+RELEASE_DATE = "5 November 2026"
+RELEASE_ISO = "2026-11-05"
 
 NUMBER_WORDS = {
     10: "Ten", 11: "Eleven", 12: "Twelve", 13: "Thirteen",
@@ -144,53 +144,24 @@ def changes_section(f: dict) -> str:
     """
     return f"""{CHANGES_START}
 <section class="release-notes">
-  <div class="stamp">Data update &middot; {RELEASE_DATE}</div>
-  <h2>The September picture</h2>
-  <p class="lede">The list more than doubled in one update. Most of that is not new
-  activity. These are towns and townships that had already voted for a pause, and that
-  earlier searches missed. The list now holds {f['rows']} moratoria in {f['states']} states,
-  and {f['in_force']} of them are in force.</p>
-
-  <h3>What changed in this update</h3>
-  <ul>
-    <li><strong>We rechecked every row that was out of date.</strong> On September 23, 296 rows
-      needed a fresh look. Some had passed their end date. Others were old proposals or had a
-      fact we had not confirmed. We changed the status of 84, fixed facts in 141, and confirmed
-      75. Six could not be settled. Today {f['active']} are active and {f['extended']} extended.
-      Another {f['replaced']} were replaced by permanent rules, {f['expired']} ran out, and
-      {f['rescinded']} were cancelled early.</li>
-    <li><strong>We searched every state, then checked the results four ways.</strong> The
-      search added 520 moratoria. We re-read each one against its source. We also checked a
-      random sample blind and compared our list with nine others. That comparison added 243
-      more, including 127 New York town pauses on battery storage. We removed 14 rows that
-      turned out to be permanent bans or proposals that never passed. Only Hawaii, West
-      Virginia, and Wyoming have none.</li>
-    <li><strong>We saved a copy of every source.</strong> That is about 3,700 pages and
-      documents. We will not add a fact unless its source has been saved. A link can break,
-      but the record behind each row no longer depends on it. We publish the copies of public
-      records. News stories belong to the papers that wrote them, so for those we publish only
-      the link, the date, and a fingerprint of our copy.</li>
-  </ul>
-
-  <h3>State rules are a separate layer</h3>
-  <p>States act too. We track {f['bills']} state bills, {f['bills_enacted']} of which became
-  law, plus {f['state_policy_actions'] - f['bills']} state actions that are not bills.
-  <a href="https://www.governor.ny.gov/executive-order/no-62-establishing-temporary-moratorium-data-centers-new-york-while-state-develops">New York Executive Order 62</a>
-  holds some state permits while the state studies the effects of data centers.
-  <a href="https://gov.texas.gov/news/post/governor-abbott-directs-comprehensive-data-center-audit">Texas's August 3 order</a>
-  pauses new hookups to the state's main power grid while it is audited. In Pennsylvania,
-  <a href="https://www.palegis.us/legislation/bills/2025/sb1345">SB 1345</a> would let towns
-  pause data centers, and <a href="https://www.palegis.us/legislation/bills/2025/sb1359">SB 1359</a>
-  would pause them statewide. Both are still only proposals. This update did not recheck the
-  state bills.</p>
-
-  <h3>How to read the counts</h3>
-  <p>For May through July, we searched all {f['swept_count']} states month by month. Even that
-  search missed many small towns, as this update showed. This time we searched each state as a
-  whole. So the August and September counts are far better than before, but they are still the
-  fewest there could be. September counts stop at the 23rd. Counts before May came from
-  scattered searches and are low too.
-  <a href="docs/known-gaps.html">Known gaps</a> explains what the list may be missing.</p>
+  <div class="stamp">Working data &middot; November 5, 2026 cohort</div>
+  <h2>The November working snapshot</h2>
+  <p class="lede">The inventory tracks {f['rows']} local instruments across {f['states']} states.
+  Recorded classifications include {f['active']} active and {f['extended']} extended instruments,
+  {f['pending']} pending, {f['replaced']} replaced, {f['expired']} expired and {f['rescinded']} rescinded.
+  Source dates vary by record; these totals do not establish freshly verified current legal force.</p>
+  <h3>Ballots and state policy have separate denominators</h3>
+  <p><a href="docs/ballot-results.html">Reviewed ballot results</a> distinguish vote observations,
+  certification and legal effect. Advisory questions, permanent prohibitions and site-specific
+  rezoning votes are not added to the local moratorium total merely because they concern data centers.
+  <a href="docs/known-gaps.html">Known gaps</a> retains unresolved candidates and instrument histories.</p>
+  <p>The state-policy tracker contains {f['state_policy_actions']} records spanning several mechanisms.
+  It is not a count of enacted state moratoria. Read the typed mechanism, scope and legal-effect fields.</p>
+  <h3>Coverage and historical material</h3>
+  <p>Searches across all states do not establish a complete census. Later discovery found instruments
+  missed in earlier searches, including the May–July window. The April 2026 paper and older graphics
+  retain their own historical cohorts; they are not evidence of synchronization with this working data.
+  A published release and verified deployment remain separate deliverables.</p>
 </section>
 {CHANGES_END}"""
 
@@ -220,7 +191,7 @@ def build_edits(f: dict) -> list[tuple[str, str, str]]:
          r'(<meta property="og:description" content=")\d+( local moratoria across )\d+( states)',
          rf"\g<1>{f['rows']}\g<2>{f['states']}\g<3>"),
         ("og:description date",
-         r'(state policy actions\. Open data, current through )[A-Z][a-z]+ \d{1,2}, \d{4}(\.")',
+         r'(state policy actions\. Open data, working cohort through )[A-Z][a-z]+ \d{1,2}, \d{4}(\.")',
          rf"\g<1>{RELEASE_LABEL}\g<2>"),
         ("twitter description date",
          r'(state policy actions\. Updated )[A-Z][a-z]+ \d{1,2}, \d{4}(\.")',
@@ -283,23 +254,16 @@ def build_edits(f: dict) -> list[tuple[str, str, str]]:
          r"(The )\d+(-row inventory as a CSV)",
          rf"\g<1>{f['rows']}\g<2>"),
         ("timeline caption",
-         r'<p class="caption">(?:A handful of Washington|Washington logged|Every bar before).*?(?:</p>\s*<p class="source">.*?</p>|</p>)',
-         '<p class="caption">Every bar before 2022 is Washington. Cheap power from dams drew '
-         'crypto miners to the Columbia River region, and ten Washington towns and counties paused '
-         'them in 2018. Then the map went almost quiet until 2023. New York towns came next, with '
-         'pauses on large battery-storage sites: they make up most of the 21 moratoria in 2023 and '
-         'the 61 in 2024. Data centers drove what followed: 121 in 2025 and 882 in the first eight '
-         'months of 2026. June 2026 alone had 185. September counts stop at the 23rd, so that month '
-         'is not complete.</p>\n'
-         '  <p class="source">Source: <a href="data/moratorium_inventory.csv" download>'
-         'moratorium_inventory.csv</a>, columns <code>date_enacted_iso</code> and '
-         f'<code>sectors</code>. The chart plots {f["plotted"]} of {f["rows"]} instruments. '
-         'It leaves out proposals still awaiting a vote, which have no adoption date, and two '
-         '2018 Washington ordinances known only to the year, which cannot be placed in a '
-         'month.</p>'),
+         r'<p class="caption">(?:Historical September 2026 chart|A handful of Washington|Washington logged|Every bar before).*?(?:</p>\s*<p class="source">.*?</p>|</p>)',
+         '<p class="caption">Historical September 2026 chart; it has not been regenerated for '
+         'the November working inventory. Its monthly bars and cumulative totals describe the '
+         'earlier chart cohort. Use the canonical CSV for current record-level analysis.</p>\n'
+         '  <p class="source">Source: historical export of '
+         '<code>moratorium_inventory.csv</code>; see '
+         '<a href="docs/known-gaps.html">coverage and date limitations</a>.</p>'),
         ("timeline alt text",
          r"(alt=\"Monthly moratorium adoptions, 2018 through )[A-Z][a-z]+(?: \d{1,2},)? \d{4}(,)",
-         rf"\g<1>{RELEASE_LABEL}\g<2>"),
+         rf"\g<1>September 23, 2026\g<2>"),
         # The clause cohort is NOT the inventory -- it was collected before
         # 2026-04-28 and covers 211 jurisdictions. Stating that inline stops the
         # two numbers on this page being read as one.
@@ -312,7 +276,7 @@ def build_edits(f: dict) -> list[tuple[str, str, str]]:
          f"{f['cohort_jurisdictions']} jurisdictions, so it describes what moratoria contain "
          f"rather than all {f['rows']} of them."),
         ("status snapshot",
-         r'(This working snapshot is current through <strong>)[^<]+(</strong>\. '
+         r'(This working snapshot uses a cohort cutoff of <strong>)[^<]+(</strong>\. '
          r'The latest tagged release remains <strong>)v[\d.]+(</strong>\.)',
          rf'\g<1>{RELEASE_DATE}\g<2>v2026.04.2\g<3>'),
     ]
