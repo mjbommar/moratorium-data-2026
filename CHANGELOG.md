@@ -2,6 +2,8 @@
 
 ## 2026-11-05 — working refresh in progress (unreleased)
 
+Pennsylvania review removes Brookville’s unsupported claim that no numbered instrument exists and identifies Buffalo Township Resolution 2026-8 as initiation of a curative process. Clinton Township’s reported six-month wording is separated from its unresolved operative term and solicitor opinion disputing legal effect; no judicial ruling is inferred. Later force remains unresolved.
+
 Clackamas County’s official meeting record and announcement confirm 5-0 October 22 adoption and a 120-day initial pause, replacing its pending entry. The agenda copy describes primary-use applications in unincorporated areas but remains unsigned and unnumbered; final executed scope, operative interval and later force remain unresolved. Only the relevant packet page was visually reviewed, not the full 680-page extraction.
 
 Hillsboro’s primary-use definition replaces the overly narrow stand-alone scope description; multiple primary uses and alternative site-level thresholds are preserved. Woodburn’s adopted instrument is identified as Resolution 2267 rather than an ordinance. Both changes retain explicit later-force and operative-interval limits.
@@ -148,7 +150,7 @@ Louisiana/Massachusetts review identifies Iberville IPC# 007-26 and Malden Order
 | In force (active or extended) | **1069** |
 | Pending or not yet effective | **69** |
 | Ended (replaced, expired, or rescinded) | **155** |
-| Rows we still want to confirm (`[VERIFY]`) | **592** |
+| Rows we still want to confirm (`[VERIFY]`) | **594** |
 | States with at least one | **47** |
 
 Release provenance checked November 5: remote tags stop at `v2026.04.2`, and there
