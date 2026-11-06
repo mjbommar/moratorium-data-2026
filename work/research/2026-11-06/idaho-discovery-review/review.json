@@ -1,0 +1,143 @@
+{
+  "reviewed_as_of": "2026-11-06",
+  "cohort_cutoff": "2026-11-05",
+  "baseline_inventory_sha256": "b4b8bfdf88121723f7a3d44fb62512c2c3c1158a22c4d294a124ae3b29716c31",
+  "candidates": [
+    {
+      "candidate_key": "discovery-id:0",
+      "candidate_sha256": "6f4ef72d55e87adb8406982f25b2d45009ff6385f2fbe0644d9c4ee8e50f85cc",
+      "worker_review_sha256": "8a3b51767680f957c7f2478ac1bc13c3219d958d57697ca2ee692393273405b1",
+      "coordinator_disposition": "held_primary_final_action_or_history",
+      "rationale": "County minutes pages 1\u20132 reproduce Resolution 2024-08-26e, motion to sign carried and August 26, 2024 adoption. Defined large-scale projects include nameplate at least 10 MW, at least 5 acres or structures over 60 feet; wind/solar/other energy and related emerging technologies including EV charging appear. Sixty days is a draft-regulation task; 182 days is the moratorium maximum, sooner upon interim/final ordinance. Reproduced signature lines are blank. Later Ordinance 117 and exact termination/extension relationship remain unresolved; do not assert continuing force or exact prior end.",
+      "source_checks": [
+        {
+          "attempt_id": "c10496f967674c1e8345283b8a1ecc42",
+          "url": "https://www.goodingcounty.org/AgendaCenter/ViewFile/Minutes/_08262024-750",
+          "body_sha256": "f6a4e26a31ffae28599f0d35a654867d6b3ee0316c73d7d13af3a9eaa24f9626",
+          "text_sha256": "e9facbc5c8e91087af44fac728b6df2d2e4731ab192201c3705d9738a1d4d761",
+          "visual_review": {
+            "document_pages": 5,
+            "inspected_pages": [
+              1,
+              2
+            ],
+            "scope": "Only listed pages inspected; Gooding pages 3\u20135 outside visual scope.",
+            "render_command": "pdftoppm -scale-to 1500 -png ORIGINAL_BODY OUTPUT_PREFIX",
+            "page_receipts": [
+              {
+                "page": 1,
+                "image_sha256": "460167481360feb79045e6b90b1c68cb3aa05cdbe68647999f12cedb2875e10a"
+              },
+              {
+                "page": 2,
+                "image_sha256": "7d53110a964e4928d80201dc5b276a69d1fa4ff49d8581fc808a82973e210985"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "candidate_key": "discovery-id:1",
+      "candidate_sha256": "e36554524588ff8c0705e1701eb1e4151d198bff941ca9e02c3799da67290802",
+      "worker_review_sha256": "8a3b51767680f957c7f2478ac1bc13c3219d958d57697ca2ee692393273405b1",
+      "coordinator_disposition": "held_primary_final_action_or_history",
+      "rationale": "Complete report says Mountain Home city moved toward emergency data-center application/permit pause after October 27 council meeting, but provides no executed act, number, term or exact operative anchor. This city is distinct from unincorporated Elmore County resolution. Is adopting wording is not accepted as proof of final execution or current force; recover final action and later history.",
+      "source_checks": [
+        {
+          "attempt_id": "2d4661295bd5434d9e397011eb684489",
+          "url": "https://idahonews.com/news/local/mountain-home-adopts-emergency-moratorium-on-data-centers",
+          "body_sha256": "21dee393ed7bdff4ed032c8d2143563bd0e660d0cf47eb9831bc26f805eb3d9e",
+          "text_sha256": "c2dfed17bfcfb98f9d195f7c3d47e957f5426b414b8697dcc1c747140d134b04",
+          "quote": "The city of Mountain Home is adopting an emergency moratorium on accepting applications and issuing permits for data centers.",
+          "quote_span": [
+            156,
+            281
+          ],
+          "review_method": "Complete retained HTML independently read; exact excerpt located."
+        }
+      ]
+    },
+    {
+      "candidate_key": "discovery-id:2",
+      "candidate_sha256": "b9b389cdb795959e1168247b4d6f68b9e43d3b6ee4cf44e398a64c465b83d729",
+      "worker_review_sha256": "8a3b51767680f957c7f2478ac1bc13c3219d958d57697ca2ee692393273405b1",
+      "coordinator_disposition": "held_primary_final_action_or_history",
+      "rationale": "Full February 2024 Bannock report describes earlier September large-scale energy pause and ongoing ordinance process. Its 180 days, 45 days left and April 10 references require reconciliation; no date is back-calculated. Commissioners giving drafting direction is not final enactment of the replacement ban. Existing July 2026 data-center resolution is a distinct sector/time history. Recover original pause and final replacement/later actions.",
+      "source_checks": [
+        {
+          "attempt_id": "57447f4e874041eb8acd0ee24e45ada3",
+          "url": "https://www.eastidahonews.com/2024/02/bannock-county-commissioners-vote-against-large-scale-solar-and-wind-projects/",
+          "body_sha256": "62acbb0a2bad7ab601c5e02fa617dea8ebdb83b500c0074a3f9ff31901850b84",
+          "text_sha256": "485ea00c176c1ca4f8655e25e95a0496bce20bb2fd577d52eacd48f1052c2d44",
+          "quote": "the commissioners passed a 180-day moratorium in September.",
+          "quote_span": [
+            1807,
+            1866
+          ],
+          "review_method": "Complete retained HTML independently read; exact excerpt located."
+        }
+      ]
+    },
+    {
+      "candidate_key": "discovery-id:3",
+      "candidate_sha256": "8225c677f412b632bf427bf079439834df5e0c9170bdbc93a37dc2ef46cc29a9",
+      "worker_review_sha256": "8a3b51767680f957c7f2478ac1bc13c3219d958d57697ca2ee692393273405b1",
+      "coordinator_disposition": "reviewed_pending_proposal_added",
+      "rationale": "All three official Blaine draft pages inspected. Ordinance 2026-05 has blank adoption date and signature/attestation lines. Accept document-stage data-center proposal only, not final adoption/current force. Paragraph 4 directs a PLAN within 182 days; it is not a stated moratorium term. Issued permits and complete pending building applications are excluded. December 31, 2027 in the preamble refers to a groundwater management plan, not this moratorium endpoint. Legislative impact claims remain findings, not independent empirical facts.",
+      "source_checks": [
+        {
+          "attempt_id": "2d4c909e0b32424a83372c4d1a8dacc1",
+          "url": "https://www.blainecountyid.gov/DocumentCenter/View/35339/ORDINANCE-2026-05-DECLARING-A-MORATORIUM-UPON-THE-ISSUANCE-OF-PERMITS-FOR-DATA-CENTERS",
+          "body_sha256": "5ee08abadcae9de5e081d60b8c2b81fa4045aded678c3d8d3c1ba5776f02cec0",
+          "text_sha256": "5bad489b54dc5360fec4a6d09543dfbc2be60b618a32813b47e9192ce1b55a99",
+          "visual_review": {
+            "document_pages": 3,
+            "inspected_pages": [
+              1,
+              2,
+              3
+            ],
+            "scope": "Only listed pages inspected; Gooding pages 3\u20135 outside visual scope.",
+            "render_command": "pdftoppm -scale-to 1500 -png ORIGINAL_BODY OUTPUT_PREFIX",
+            "page_receipts": [
+              {
+                "page": 1,
+                "image_sha256": "7bd3db6690390403fd47ea0752e12f093505df3a5f9153f185b564aa76ec5bcf"
+              },
+              {
+                "page": 2,
+                "image_sha256": "ee6ccafc082357e5ddb8c27e8efa513cedd099643a20f77eb03b256d66900c05"
+              },
+              {
+                "page": 3,
+                "image_sha256": "776954cfc2d41ae3d8012ab24393a1abbfe7368c0b6ad1dc4b399a0875929c5e"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "candidate_key": "discovery-id:4",
+      "candidate_sha256": "cf7cefee155d28ed4cc516d0f5f4b7c9a210b49628e806547235304f2e107684",
+      "worker_review_sha256": "8a3b51767680f957c7f2478ac1bc13c3219d958d57697ca2ee692393273405b1",
+      "coordinator_disposition": "held_primary_final_action_or_history",
+      "rationale": "Complete June 30, 2023 Twin Falls report describes a proposed 182-day utility-scale renewable pause for a July 26 hearing, excluding public-land projects in the reported account. This is neither final adoption nor a current pending-status finding. Older dairy pause and ordinary wind siting restrictions in the article are not the assigned renewable moratorium. Original act/final action and exact technology scope remain unresolved.",
+      "source_checks": [
+        {
+          "attempt_id": "d5faff7c43384a0895a17914ec761369",
+          "url": "https://www.boisestatepublicradio.org/news/2023-06-30/twin-falls-county-renewable-energy-projects",
+          "body_sha256": "b18a60316df710d253e08a5adfd9eaa542ff3fbef4a612e0d023b4e0ffb7d877",
+          "text_sha256": "2ec1801d5d810b8c891a4e2cbe6140d561221555d84bf4dda58146715b6a1b98",
+          "quote": "An ordinance the commissioners are considering would block new utility-scale renewable energy projects for 182 days.",
+          "quote_span": [
+            648,
+            764
+          ],
+          "review_method": "Complete retained HTML independently read; exact excerpt located."
+        }
+      ]
+    }
+  ]
+}

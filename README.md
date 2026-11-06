@@ -6,10 +6,10 @@ This is the open companion dataset for the working paper *Moratorium Nation: A S
 
 > 📄 **Working paper:** [April 2026 updated draft (PDF, 6 MB, 116 pages)](paper/moratorium-nation-2026-04-30.pdf) · [first edition on SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6242898). 50-state legal authority survey, 44-clause taxonomy, 13-section model ordinance template.
 
-> **As of November 5, 2026, 1306 local moratorium instruments are tracked across 47 states.**
+> **As of November 5, 2026, 1307 local moratorium instruments are tracked across 47 states.**
 > Working snapshot: the full November refresh is in progress. Status dates vary by record; these are recorded classifications, not a claim that every instrument was freshly verified.
 >
-> 🟢 **1074 classified active or extended** (current legal force remains record-specific) · 🟡 **72 pending or not yet effective** (proposed or enacted with a future effective date) · ⚪ **160 expired, replaced, or rescinded** (recorded past classifications)
+> 🟢 **1074 classified active or extended** (current legal force remains record-specific) · 🟡 **73 pending or not yet effective** (proposed or enacted with a future effective date) · ⚪ **160 expired, replaced, or rescinded** (recorded past classifications)
 >
 > Top states by total instruments: Ohio (160), New York (150), Michigan (145), Georgia (70), North Carolina (69), Iowa (60), Tennessee (46), Washington (42), Wisconsin (40), Florida (35).
 >
@@ -67,9 +67,9 @@ For more, see the [FAQ](docs/FAQ.md).
 
 Working snapshot during the **November 5, 2026** refresh (record-level source dates vary):
 
-- **1306 moratorium instruments** tracked in our cleaned inventory
+- **1307 moratorium instruments** tracked in our cleaned inventory
   - **1074 classified active or extended** (882 active + 192 extended)
-  - **72 pending or not yet effective** (proposed or enacted with a future effective date)
+  - **73 pending or not yet effective** (proposed or enacted with a future effective date)
   - **94 replaced** by permanent regulations
   - **54 expired** without a documented replacement
   - **12 rescinded** by documented repeal; earlier event-based expiry may remain unresolved
@@ -78,7 +78,7 @@ Working snapshot during the **November 5, 2026** refresh (record-level source da
 - **Sectors covered**: most moratoria are about **data centers** (about 84% mention them). **Battery storage** comes next (about 19%). Most of those are New York town pauses added in September 2026. Smaller numbers cover **cryptocurrency mining**, **solar**, and **wind**
 - **440 state-policy records** use the legacy `bill` type, plus **2 typed non-bill actions**. Resolution subtypes remain in the legacy category. These include moratorium proposals, local-moratorium authority/preemption, permitting limits, and utility-grid restrictions. Filter the typed `policy_instrument_type`, `policy_mechanism`, `legal_effect_status`, and `scope_of_action` columns rather than treating every state row as a moratorium.
 - **348 moratorium texts** read line-by-line and coded against a 44-clause taxonomy (the confidence-≥-0.4 subset of the 526 successful structured extractions in [`data/structured_extractions.jsonl`](data/structured_extractions.jsonl)). ⚠️ This cohort covers 211 jurisdictions and was collected **before 2026-04-28** — it was not re-run in v2026.07, so the clause-level percentages describe only about a quarter of the current inventory. See [known gaps](docs/known-gaps.md)
-- **1290 of 1306 instruments geocoded** with WGS84 lat/lon (98.8% coverage); the 16 blanks comprise two aggregate meta-rows and Hayward, Fairbanks North Star Borough, Petersburg Borough, Braintree, Methuen, Sun Prairie, two Kent County records, Brighton, Chicago, Sac County the 2023 Sioux County record and the historical Silver City solar record and Orlinda, whose coordinates await review. In September 2026 we found 37 rows placed in the wrong county, because many townships share a name, and fixed them ([audit details](docs/known-gaps.md#geocoding-caveats-added-v2026042))
+- **1290 of 1307 instruments geocoded** with WGS84 lat/lon (98.7% coverage); the 17 blanks comprise two aggregate meta-rows and Hayward, Fairbanks North Star Borough, Petersburg Borough, Braintree, Methuen, Sun Prairie, two Kent County records, Brighton, Chicago, Sac County, the 2023 Sioux County record, the historical Silver City solar record, Orlinda and Blaine County, whose coordinates await review. In September 2026 we found 37 rows placed in the wrong county, because many townships share a name, and fixed them ([audit details](docs/known-gaps.md#geocoding-caveats-added-v2026042))
 
 Full state-by-state breakdown: [**states/README.md**](states/README.md).
 
@@ -181,7 +181,7 @@ moratorium-data-2026/
 ├── paper/                         # working paper PDF (April 2026 draft)
 ├── states/                        # 50-state index + per-state pages
 ├── data/                          # canonical CSVs and JSON
-│   ├── moratorium_inventory.csv   # the 1306-row local-moratorium table
+│   ├── moratorium_inventory.csv   # the 1307-row local-moratorium table
 │   ├── state_legislation.csv      # 442-row state-policy tracker (440 bills + 2 actions)
 │   ├── summary_stats.json         # top-level aggregates
 │   ├── structured_extractions.jsonl  # 864 lines (526 successful + 338 errors)

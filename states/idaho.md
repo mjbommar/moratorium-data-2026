@@ -3,13 +3,14 @@
 
 Working inventory for Idaho, generated **November 5, 2026**. Record-level refresh and later-action review remain incomplete.
 
-**3 instruments** — 2 in force, 0 pending, 1 past.
+**4 instruments** — 2 in force, 1 pending, 1 past.
 
 State policy is tracked separately: **9 actions** (9 bills) in [`state_legislation.csv`](../data/state_legislation.csv). These are not included in the local count above.
 
 | Jurisdiction | Type | Enacted | Sectors | Status |
 |---|---|---|---|---|
 | Bannock County | County | 2026-07-30 | data center | 🟢 Active |
+| Blaine County | County | Unverified | data center | 🟡 Pending |
 | Elmore County | County | 2026-07-02 | data center | 🟢 Active |
 | Kootenai County | County | 2025-03-11 | data center | ⚪ Replaced |
 
@@ -30,6 +31,22 @@ State policy is tracked separately: **9 actions** (9 bills) in [`state_legislati
 - **Affected projects:** No specific project named as pending in unincorporated county jurisdiction at adoption; the moratorium does not affect the separately-pending, city-jurisdiction Lex Developments/Hoku-site data center proposal in Pocatello.
 - **Detailed status:** Active as of 2026-09-23. Moratorium on the receipt, processing, and approval of data center permit applications in unincorporated Bannock County, effective 2026-07-30 through 2027-01-26. Does not apply to any permit already issued or requested before adoption, and does not apply within city limits (including Pocatello, where a separate, contested $2.6 billion Lex Developments data center proposal for the former Hoku polysilicon plant site is working through the city's own permitting/appeal process). Commissioner Jeff Hough is separately convening a regional work group with Power, Oneida, Franklin, and Caribou counties to draft model data-center ordinances for neighboring jurisdictions, expected to begin public hearings around January 2027.
 - **Outcome:** Board of Commissioners adopted a 180-day emergency moratorium on data center permits in unincorporated Bannock County while staff drafts a standalone data center ordinance.
+
+### Blaine County
+
+- **Type:** County
+- **Status:** 🟡 Pending
+- **Date enacted:** —
+- **Normalized date:** `—` (unverified)
+- **Duration:** Moratorium term not established; 182 days is a proposed plan-production deadline, not a sunset
+- **Current end date:** `—`
+- **Sectors:** data center
+- **Moratorium ID:** `id-blaine-county-undated`
+- **Legal basis:** Ordinance 2026-05 proposal; adoption and execution fields blank
+- **What prompted it:** Proposed county study of data-center water and infrastructure demands before land-use rules.
+- **Affected projects:** —
+- **Detailed status:** Official county-hosted Ordinance 2026-05 text proposes a data-center building/development application moratorium with blank adoption and execution fields. Issued permits and complete pending building applications excluded. [VERIFY final board action, operative dates, subsequent actions, current status and coordinates]
+- **Outcome:** —
 
 ### Elmore County
 

@@ -2,6 +2,8 @@
 
 ## 2026-11-06 — current working snapshot (unreleased)
 
+Blaine County’s Ordinance 2026-05 draft adds a source-stage pending data-center proposal. The 182-day plan deadline is not a moratorium term; adoption date, duration, endpoint and current procedural status remain unverified.
+
 Orlinda Resolution 2026-03 adds a two-calendar-year data-center/crypto moratorium adopted and effective June 11, 2026. Scope and term were visually reviewed because the retained extraction omits page 1. Later actions/current legal force remain unverified.
 
 Silver City’s community-solar Resolution 2021-19 is added with its explicit March 10, 2026 repeal by Resolution 2026-10. The original event-based endpoint remains unknown; repeal does not prove continuous force until that date. It is distinct from the newer data-center action.
@@ -36,18 +38,18 @@ remain unknown; no adoption event, in-force ban or headline-count increase is
 inferred. The public results view displays relationship review separately from
 legal status. All earlier records remain unchanged.
 
-Current totals are 1,306 local instruments (1,074 classified active or extended,
-72 pending, 160 past) and 442 state-policy records (95 classified enacted).
+Current totals are 1,307 local instruments (1,074 classified active or extended,
+73 pending, 160 past) and 442 state-policy records (95 classified enacted).
 The current inventory classifications are summarized below; these are not independently
 renewed legal-force findings.
 
 | Metric | Current |
 |---|---:|
-| Moratoria in the list | **1306** |
+| Moratoria in the list | **1307** |
 | Classified active or extended | **1074** |
-| Pending or not yet effective | **72** |
+| Pending or not yet effective | **73** |
 | Ended (replaced, expired, or rescinded) | **160** |
-| Rows we still want to confirm (`[VERIFY]`) | **679** |
+| Rows we still want to confirm (`[VERIFY]`) | **680** |
 | States with at least one | **47** |
 
 The separate reviewed ballot publication contains 49 measures and 55 retained

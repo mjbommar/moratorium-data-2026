@@ -12,7 +12,7 @@ Complete phases in dependency order; retain evidence and unresolved dispositions
 - [x] Pin the inspected bc-modules revision, package versions and runtime/dependency configuration.
 - [x] Confirm dataset ownership and exact consumer paths across public, research, site and integration repositories.
 - [x] Establish admitted durable archive and local NVMe database paths; run storage preflight before bulk writes.
-- [x] Map 6,518 current legacy manifest entries to native observations or explicit path gaps; import 3,075 verified-body versions after private CAS link recovery, retaining 3,443 listed-path gaps (initial mapping and subsequent migration/recovery deltas). Of those gaps, 119 are failed acquisitions without a recorded body hash. Other private stores remain incompletely searched; this does not close the full P3 archive gate.
+- [x] Map 6,523 current legacy manifest entries to native observations or explicit path gaps; import 3,080 verified-body versions after private CAS link recovery, retaining 3,443 listed-path gaps (initial mapping and subsequent migration/recovery deltas). Of those gaps, 119 are failed acquisitions without a recorded body hash. Other private stores remain incompletely searched; this does not close the full P3 archive gate.
 - [x] Record the November 5 working-cohort cutoff, record-specific source/legal-force limits and historical 348-extraction/211-jurisdiction pre-April-28 cohort in README, methodology and known gaps; no inventory-wide legal-force renewal is claimed.
 
 Exit: reproducible baseline manifest with unrelated work preserved.
@@ -270,3 +270,5 @@ Exit: repeatable refresh with visible freshness, costs, failures and unresolved 
 - [x] Review two Texas discoveries against five original versions, ten PDF pages and two complete reports. Preserve Van Zandt signed adoption separately from enforceability and Delta’s opinion request; retain Tom Green Precinct 4 unsigned/tabled stage (`work/research/2026-11-06/texas-discovery-review/`). No canonical changes; 143 unreviewed and twenty-eight reviewed withheld cases remain.
 
 - [x] Review all six RI discovery candidates against five complete retained HTML texts and two Portsmouth PDF pages; preserve failed extension, public-notice anchor, LLM recap limits, municipality/sector distinctions and shared newspaper lineage (`work/research/2026-11-06/rhode-island-discovery-review/`). No canonical changes; 137 unreviewed and thirty-four reviewed withheld cases remain.
+
+- [x] Review five Idaho candidates; inspect Gooding minutes pages 1–2, all three Blaine draft pages and three complete reports. Add Blaine source-stage pending with unknown term; distinguish its 182-day plan task from Gooding’s 182-day termination rule. Preserve all 1,306 prior rows (`work/research/2026-11-06/idaho-discovery-review/`). Ledger: 132 unreviewed, thirty-eight reviewed withheld cases.

@@ -1,5 +1,5 @@
 {
-  "inventory_sha256": "b4b8bfdf88121723f7a3d44fb62512c2c3c1158a22c4d294a124ae3b29716c31",
+  "inventory_sha256": "db362fcb6dfd8cd6667a11d06bf5f27487fbe8827ab8b161fecae0a210874158",
   "returned_answer_sha256": {
     "discovery-ak": "a4b62aac2562578f9bb4c66f6f504557f1aace1c1612c0f7f2e3b2c01fae334e",
     "discovery-al": "b6e254f6a91f7dc6937ca15433d3c9ac8c29f473bb22765439ab7bf23647aa62",
@@ -53,8 +53,8 @@
     "discovery-wy": "71d371e9c8ea036e8198dfc1b015f104dba9b8ebb16c0c667af087e81483ca84"
   },
   "candidate_count": 185,
-  "reviewed_pending_additions": 5,
-  "unreviewed_count": 137,
+  "reviewed_pending_additions": 6,
+  "unreviewed_count": 132,
   "candidates": [
     {
       "candidate_key": "discovery-ak:0",
@@ -757,9 +757,9 @@
       "jurisdiction": "Gooding County",
       "proposed_instrument_label": "Resolution 2024-08-26e",
       "same_name_inventory_ids": [],
-      "disposition": "unreviewed",
-      "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "disposition": "held_primary_final_action_or_history",
+      "review_packet": "work/research/2026-11-06/idaho-discovery-review/review.json",
+      "next_step": "Recover primary final action, term/termination and later history as scoped in review rationale; review coordinates independently.",
       "worker_review": {
         "job_id": "discovery-closure-04",
         "worker_disposition": "distinct_historical_instrument",
@@ -774,9 +774,9 @@
       "jurisdiction": "Mountain Home",
       "proposed_instrument_label": null,
       "same_name_inventory_ids": [],
-      "disposition": "unreviewed",
-      "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "disposition": "held_primary_final_action_or_history",
+      "review_packet": "work/research/2026-11-06/idaho-discovery-review/review.json",
+      "next_step": "Recover primary final action, term/termination and later history as scoped in review rationale; review coordinates independently.",
       "worker_review": {
         "job_id": "discovery-closure-04",
         "worker_disposition": "distinct_supported_candidate",
@@ -793,9 +793,9 @@
       "same_name_inventory_ids": [
         "id-bannock-county-2026"
       ],
-      "disposition": "unreviewed",
-      "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "disposition": "held_primary_final_action_or_history",
+      "review_packet": "work/research/2026-11-06/idaho-discovery-review/review.json",
+      "next_step": "Recover primary final action, term/termination and later history as scoped in review rationale; review coordinates independently.",
       "worker_review": {
         "job_id": "discovery-closure-04",
         "worker_disposition": "distinct_historical_instrument",
@@ -809,10 +809,12 @@
       "state_abbrev": "ID",
       "jurisdiction": "Blaine County",
       "proposed_instrument_label": null,
-      "same_name_inventory_ids": [],
-      "disposition": "unreviewed",
-      "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "same_name_inventory_ids": [
+        "id-blaine-county-undated"
+      ],
+      "disposition": "reviewed_pending_proposal_added",
+      "review_packet": "work/research/2026-11-06/idaho-discovery-review/review.json",
+      "next_step": "Recover primary final action, term/termination and later history as scoped in review rationale; review coordinates independently.",
       "worker_review": {
         "job_id": "discovery-closure-04",
         "worker_disposition": "distinct_supported_candidate",
@@ -827,9 +829,9 @@
       "jurisdiction": "Twin Falls County",
       "proposed_instrument_label": null,
       "same_name_inventory_ids": [],
-      "disposition": "unreviewed",
-      "review_packet": null,
-      "next_step": "Review exact instrument/sector/temporal identity and source evidence. Same-name matches are leads, not duplicate dispositions.",
+      "disposition": "held_primary_final_action_or_history",
+      "review_packet": "work/research/2026-11-06/idaho-discovery-review/review.json",
+      "next_step": "Recover primary final action, term/termination and later history as scoped in review rationale; review coordinates independently.",
       "worker_review": {
         "job_id": "discovery-closure-04",
         "worker_disposition": "distinct_supported_candidate",
@@ -3291,9 +3293,9 @@
   "reviewed_prepared_not_applied": 0,
   "reviewed_city_reported_adoption_additions": 1,
   "worker_reviewed_count": 183,
-  "unreviewed_count_scope": "137 candidates await coordinator substantive processing; thirty-four reviewed cases remain withheld. Shared reports are not independent corroboration, and scoped review does not establish complete legal histories/current force.",
+  "unreviewed_count_scope": "132 candidates await coordinator substantive processing; thirty-eight reviewed cases remain withheld. Source-stage pending is not current procedural acceptance, and review does not establish complete later histories.",
   "worker_review_baseline_sha256": "2f39b3ef91f75e152ec52a8e8b04cbb0bf7b6742a182daa82dabdd353a2e8fa1",
   "reviewed_historical_additions": 5,
-  "reviewed_withheld_cases": 34,
-  "current_inventory_sha256": "b4b8bfdf88121723f7a3d44fb62512c2c3c1158a22c4d294a124ae3b29716c31"
+  "reviewed_withheld_cases": 38,
+  "current_inventory_sha256": "db362fcb6dfd8cd6667a11d06bf5f27487fbe8827ab8b161fecae0a210874158"
 }

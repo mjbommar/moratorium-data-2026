@@ -189,3 +189,5 @@ The [Tennessee review checkpoint](../work/audit/legacy-source-migration-tn-revie
 The [Texas review checkpoint](../work/audit/legacy-source-migration-tx-review-2026-11-06.json) verifies five original source pairs and adds four archive versions (one matching body already retained). Full native readback: 6,512 entries, 3,069 verified-body versions, 3,443 path gaps. Visual review covers ten listed pages, not every attachment.
 
 The [Rhode Island checkpoint](../work/audit/legacy-source-migration-ri-review-2026-11-06.json) adds six retained source versions and verifies full native readback: 6,518 manifest entries, 3,075 verified-body versions and 3,443 listed-path gaps. Six candidate recommendations share five HTML reports and one two-page draft; candidate count is not independent-source count.
+
+The [Idaho checkpoint](../work/audit/legacy-source-migration-id-review-2026-11-06.json) adds five retained versions and verifies full native readback: 6,523 manifest entries, 3,080 verified-body versions and 3,443 listed-path gaps. Visual scope is Gooding pages 1–2 of five and all three Blaine pages. A planning deadline is not automatically a moratorium duration.

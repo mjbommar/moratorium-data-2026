@@ -196,7 +196,7 @@
 record-level observations and <code>[VERIFY]</code> markers identify unresolved work.</p>
 <h2 id="what-we-know-we-dont-have">What we know we don't have</h2>
 <h3 id="small-township-records-that-arent-online">Small-township records that aren't online</h3>
-<p>Many small townships and rural counties don't post agendas, minutes, or signed ordinances on the web. When we know a moratorium exists from news coverage but can't pull the underlying instrument, we record it with a <code>[VERIFY]</code> note in <code>verify_notes</code> rather than guessing at the ordinance number or exact date. <strong>679 of the 1306 inventory rows</strong> have at least one such evidence-ceiling note (<code>has_verify_tags = True</code>). The earlier v2026.04.4 snapshot had 123 flagged rows out of 222; these are different inventory populations.</p>
+<p>Many small townships and rural counties don't post agendas, minutes, or signed ordinances on the web. When we know a moratorium exists from news coverage but can't pull the underlying instrument, we record it with a <code>[VERIFY]</code> note in <code>verify_notes</code> rather than guessing at the ordinance number or exact date. <strong>680 of the 1307 inventory rows</strong> have at least one such evidence-ceiling note (<code>has_verify_tags = True</code>). The earlier v2026.04.4 snapshot had 123 flagged rows out of 222; these are different inventory populations.</p>
 <h3 id="legacy-instrument-identities">Legacy instrument identities</h3>
 <p>The working inventory still contains identities requiring reconciliation.
 <code>ma-leominster-undated</code> combines separate BESS and data-center petitions, each
@@ -490,9 +490,9 @@ from an earlier release.</p>
 </tbody>
 </table>
 <h2 id="source-body-availability-checkpoint">Source-body availability checkpoint</h2>
-<p>The November 6 <a href="../work/audit/legacy-source-migration-ri-review-2026-11-06.json">current archive checkpoint</a>
-covers 6,518 manifest entries, with hash-matching bodies available through listed
-paths for 3,075 entries. Of the remaining 3,443 path gaps, 119 are failed acquisitions
+<p>The November 6 <a href="../work/audit/legacy-source-migration-id-review-2026-11-06.json">current archive checkpoint</a>
+covers 6,523 manifest entries, with hash-matching bodies available through listed
+paths for 3,080 entries. Of the remaining 3,443 path gaps, 119 are failed acquisitions
 without a recorded body hash. Other private stores have not been exhaustively
 searched, so these counts do not establish global payload loss. They count archive
 entries, not jurisdictions or independently verified legal findings.</p>
@@ -512,7 +512,7 @@ The earlier solar Ordinance 22-07 copy is unsigned and contains editing markup;
 it remains a separate unmigrated historical source rather than an inferred merger.
 Retroactive effective dates are preserved separately from adoption dates.</p>
 <h2 id="geocoding-caveats-added-v2026042">Geocoding caveats (added v2026.04.2)</h2>
-<p>1290 of 1306 instruments have WGS84 reference points. Initial geocoding used Nominatim (OpenStreetMap), with reviewed Census and other official point overrides recorded separately. Reference points do not establish legal boundaries or applicability. The 16 blanks comprise two aggregate meta-rows (<code>Other Reported Local Moratoria, Michigan</code> and <code>Proposed or Rejected Local Pauses, Maryland</code>) and Hayward, Fairbanks North Star Borough, Petersburg Borough, Braintree, Methuen, Sun Prairie, two Kent County records, Brighton, Chicago, Sac County the 2023 Sioux County record and the historical Silver City solar record and Orlinda awaiting coordinate review.</p>
+<p>1290 of 1307 instruments have WGS84 reference points. Initial geocoding used Nominatim (OpenStreetMap), with reviewed Census and other official point overrides recorded separately. Reference points do not establish legal boundaries or applicability. The 17 blanks comprise two aggregate meta-rows (<code>Other Reported Local Moratoria, Michigan</code> and <code>Proposed or Rejected Local Pauses, Maryland</code>) and Hayward, Fairbanks North Star Borough, Petersburg Borough, Braintree, Methuen, Sun Prairie, two Kent County records, Brighton, Chicago, Sac County, the 2023 Sioux County record, the historical Silver City solar record, Orlinda and Blaine County awaiting coordinate review.</p>
 <p><strong>Within-state name ambiguity.</strong> Several Ohio townships share names across multiple counties (e.g., 7 different "Washington Township"s, 3 "Plain Township"s, 4 "Lake Township"s). The geocoder picks the highest-rank match, which isn't always the moratorium-adopting jurisdiction. We caught and manually corrected 4 such cases in v2026.04.2:</p>
 <ul>
 <li>Lake Township, OH (Wood County, not Logan County)</li>
@@ -608,6 +608,8 @@ added in the checks were tested the same way, and none were misplaced.</p>
 <p>The <a href="../work/research/2026-11-06/texas-discovery-review/index.html">Texas evidence review</a> confirms signed February 11, 2026 approval on Van Zandt’s direct county scan pages 1–3. Its original extraction is empty; remaining attachments are outside this scoped visual review. RQ-0634-KP is a February 24 request by Delta County’s attorney, received February 25, not an issued Attorney General opinion or a Delta moratorium. Adoption and asserted authority do not prove enforceability or current force. Tom Green’s four-page unincorporated Precinct 4 draft has blank execution fields, and reporting says the May 26 motion was tabled. Neither its twelve-month proposal nor its geographic/size thresholds are treated as an adopted countywide restriction. No canonical counts change.</p>
 <h2 id="rhode-island-failed-proposals-and-historical-distinctions">Rhode Island failed proposals and historical distinctions</h2>
 <p>The <a href="../work/research/2026-11-06/rhode-island-discovery-review/index.html">Rhode Island review</a> keeps Portsmouth’s unsigned additional-pause draft and reported failed motion separate from its earlier 2021 solar moratorium. Warwick’s reported November 2021 passage requires a public-notice effectiveness anchor, and is distinct from West Warwick’s wind pause. Coventry’s reported 2015 wind and later solar pauses are separate candidates within one shared article, not two independent sources or a single merged instrument. Charlestown’s earlier wind pause is distinct from a later ban. Hopkinton’s LLM-assisted recap requires original dated records before accepting exact terms or later renewal. These six dispositions do not change canonical inventory or ballot counts.</p>
+<h2 id="idaho-planning-deadlines-and-operative-terms">Idaho planning deadlines and operative terms</h2>
+<p>The <a href="../work/research/2026-11-06/idaho-discovery-review/index.html">Idaho review</a> adds Blaine County’s unsigned Ordinance 2026-05 draft as source-stage pending. Its 182-day provision directs production of a plan; no moratorium duration or endpoint is accepted. Its December 31, 2027 groundwater-plan date is also not a moratorium endpoint. Gooding’s adopted 2024 resolution differs: it explicitly terminates at 182 days or earlier interim/final regulation, but later Ordinance 117 and its legal relationship remain unreviewed. Mountain Home city is distinct from Elmore County. Bannock’s reported historical timing and replacement process, and Twin Falls’ 2023 pre-hearing proposal, require final primary actions before status acceptance.</p>
 </main>
 
 <footer>
