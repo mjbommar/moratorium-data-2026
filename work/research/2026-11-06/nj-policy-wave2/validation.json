@@ -1,0 +1,72 @@
+{
+  "schema_version": "nj-policy-wave2-validation-1",
+  "baseline_commit": "25f26d77c91ed7c8401aa8ca940b743d951628c5",
+  "local_records": 1330,
+  "state_policy_records": 442,
+  "legacy_bill_rows": 440,
+  "enacted_bill_rows": 94,
+  "ballot_measures": 50,
+  "current_result_observations": 50,
+  "changed_state_rows": 3,
+  "changed_fields": 15,
+  "added_ids": 0,
+  "removed_ids": 0,
+  "all_other_state_values_unchanged": true,
+  "local_csv_unchanged": true,
+  "expanded_snapshot_unchanged": true,
+  "expanded_csv_projection_unchanged": true,
+  "identity_registry_unchanged": true,
+  "project_tests_passed": 272,
+  "subtests_passed": 44,
+  "make_data_site_check_exit_code": 0,
+  "dataset_errors": 0,
+  "dataset_warnings": 489,
+  "audited_numeric_claims": 53,
+  "replay_additional_field_edits": 0,
+  "original_source_versions_checked": 7,
+  "registered_decodings": 3,
+  "source_client_fetch_reservations": 1,
+  "new_search_api_calls": 0,
+  "cli_review_jobs": 2,
+  "cli_spend_usd": null,
+  "python": "3.14.9",
+  "beautifulsoup4": "4.15.0",
+  "logs": {
+    "build": {
+      "private_path": "/data0/moratorium-refresh-2026/frozen-domain-evaluation/nj-wave2-build.private.log",
+      "sha256": "6b8ca8ac9eda71264f5101d237367f85bd0f9e0deb0ae1af65c3e0090e45fd29"
+    },
+    "site": {
+      "private_path": "/data0/moratorium-refresh-2026/frozen-domain-evaluation/nj-wave2-site.private.log",
+      "sha256": "d1d48432e5c2644f8cf3f0581c05ccdf9d87974b8ab24afac14dc8c7494dd5e3"
+    },
+    "dry-run": {
+      "private_path": "/data0/moratorium-refresh-2026/frozen-domain-evaluation/nj-wave2-dry-run.private.log",
+      "sha256": "fcfc762b14bba5a3fc97523c03e6ae4978e666e9f390c7f325dee7aef831f248"
+    },
+    "apply": {
+      "private_path": "/data0/moratorium-refresh-2026/frozen-domain-evaluation/nj-wave2-apply.private.log",
+      "sha256": "eedb4c2d3bda1f0bb3c99c7ec8441aba86dae0bb391bb9a632345169666b9531"
+    },
+    "replay": {
+      "private_path": "/data0/moratorium-refresh-2026/frozen-domain-evaluation/nj-wave2-replay.private.log",
+      "sha256": "c1ce3f355594cbc3a62d1f1ecb28487eac514d5563994ea21756ff6a60f0c6df"
+    }
+  },
+  "receipts_sha256": {
+    "answers.json": "93a52d49301dd651975e8e2688b2fa88b0cf187484c5fff99844c1fabba720e3",
+    "baseline.json": "f1b83eeb1a85a744109b26b2fa70ed5049a1b6e62f2d9b8fe93ae6a4ccec8ab0",
+    "source-preflight.json": "14d64885620ae767343839cecdf597d89629a917929b214d63f7c9d8d47c36d4",
+    "preservation-check.json": "f7c73b8f1828e12de68151d49c5da8661cbcc38cd401732d6c5f861098719afd",
+    "review-reconciliation.json": "af0b0e3ef7f2cd48b72abdbae05588b4f5f34962b500960c9b572769e2d29051",
+    "derivations.json": "46a2c67babf81b4d2a77770cefeb037d218cd13687be6bef111377b392407b9d",
+    "archive-receipt.json": "6ee5ac580066b13e22a8bec4180ede76880f9a81312f89c2a1a086b8ddacc592",
+    "chapter75-index-followup.json": "2b2676ce6140a62cc327efa68c40532994776d2053515d10c9283001627a3a4d"
+  },
+  "limitations": [
+    "Chapter75 signed text/effectiveness remains unrecovered.",
+    "S4293 final session disposition remains unverified; conditional veto is not an asserted revival.",
+    "Retained bill histories do not establish no later action or current force.",
+    "Broader freshness, implementation, final release and delivery gates remain open."
+  ]
+}

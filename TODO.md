@@ -172,6 +172,12 @@ Exit: accepted pilot report and separately authorized bounded collection scope.
 - [x] Receive and mechanically validate all six duration-review returns; adjudicate first 79 cases and apply 35 encoding-only corrections, retain eight explicit-day originals and withhold 36. Verify all other values unchanged and exact replay (zero edits); 395 coordinator reviews remain (`duration-encoding-review/`).
 - [ ] Re-research every state-policy ID and discover new state actions across all 50 states and existing sectors.
 - [x] Separate the New Jersey S3379/A4096 and A4696 identities and apply five bounded corrections (`work/research/2026-11-06/nj-policy-wave1/README.md`); signed chapter 75/effective date, report-triggered expiration, implementation and remaining dispositions remain open.
+- [x] Review the remaining three NJ worker returns and correct fifteen fields:
+  S4293 conditional veto versus unsupported final death, S3611 SPC/default/subsidy
+  limits, and A1170's conditional plan/supply rules with companion-version scope
+  ([wave2](work/research/2026-11-06/nj-policy-wave2/README.md)). Signed Chapter75,
+  S4293 final session disposition and implementation remain unresolved. Fresh
+  catalogue retrieval reproduced the earlier body; no absence inference follows.
 - [x] Review all three assigned Delaware records against retained and freshly recovered official sources; confirm two enactments/current codification and bound the failed SB 205 disposition (`work/research/2026-11-06/de-policy-wave1/README.md`). Rulemaking/tariff implementation and SB 205 amendment details remain open.
 - [x] Review remaining California history returns and correct SB 978 using deletion-aware amended text (`work/research/2026-11-06/ca-policy-wave2/README.md`); AB 2170, AB 222 and SB 978 ultimate dispositions and full current-force review remain open.
 - [x] Review six California enactments and SB 57’s final wording, and add missing AB 2469 using Exa, pydoll and chaptered text (`work/research/2026-11-06/ca-policy-wave1/README.md`); six other assigned California rows and current implementation remain open.

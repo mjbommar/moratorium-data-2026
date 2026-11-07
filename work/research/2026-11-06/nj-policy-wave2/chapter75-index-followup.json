@@ -1,0 +1,36 @@
+{
+  "attempt_id": "fc19f242559f4c5fb3b00360f020df1d",
+  "url": "https://www.njleg.state.nj.us/api/chapterLaws",
+  "body_sha256": "ae785a466f28647d23d181931670639496ae64a7feaaaa66624cc3da1adeee1c",
+  "original_text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "finished_at": "2026-11-07T00:07:36.688739+00:00",
+  "body_observed_at": "2026-11-07T00:07:36.609334Z",
+  "from_cache": false,
+  "revalidated": false,
+  "original_body_matches_prior": true,
+  "prior_body_sha256": "ae785a466f28647d23d181931670639496ae64a7feaaaa66624cc3da1adeee1c",
+  "projection": {
+    "part0_rows": 8133,
+    "projected_rows": 72,
+    "maximum_numeric_chapter_value": 70,
+    "chapter75_records": [],
+    "scope": "Returned API part0, exact PamphletLaw==2026 projection. Not a statewide legal absence finding; includes different document types."
+  },
+  "derivation": {
+    "attempt_id": "fc19f242559f4c5fb3b00360f020df1d",
+    "source_body_sha256": "ae785a466f28647d23d181931670639496ae64a7feaaaa66624cc3da1adeee1c",
+    "source_text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "text_artifact": "/data0/moratorium-refresh-2026/nj-chapter-portal-network/api-2026-refreshed-projection.private.txt",
+    "derived_text_sha256": "afffc7cb29cf24a372bb2b0ee9e7fcb72063ef6f27ed2ffbe5db8042fff7006a",
+    "method": "Parse complete fresh API JSON and project counts plus ChapterLaw75 records for PamphletLaw2026 only; preserve original empty text and full raw JSON.",
+    "pages": [
+      1
+    ],
+    "reviewer": "coordinator",
+    "review_status": "accepted_derivation",
+    "reviewed_at": "2026-11-07T00:13:26.146113+00:00",
+    "scope": "Extraction lineage only; no substantive claim or legal-effect acceptance."
+  },
+  "remaining_fetch_allowance": 0,
+  "scope": "One fresh bc-web HTTP fetch using final retained allowance; no cap reset or absence inference. Signed Chapter75 remains unrecovered."
+}

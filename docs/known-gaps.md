@@ -88,6 +88,13 @@ is not substituted for authenticated final text. A separate primary-sponsor
 correction uses the full rendered bill-history DOM; it does not change legal
 status, effect dates or headline counts. See the [follow-up packet](../work/research/2026-11-06/nj-chapter75-followup/README.md).
 
+A later [bounded refresh](../work/research/2026-11-06/nj-policy-wave2/chapter75-index-followup.json)
+observed the same catalogue body at November 7 00:07 UTC (November 6 New York
+time). Chapter75 remains unrecovered; no absence inference follows. The
+[separate three-record correction](../work/research/2026-11-06/nj-policy-wave2/README.md)
+removes an unsupported S4293 final-death claim and qualifies proposal processes;
+it does not close Chapter75 or implementation review.
+
 ### November discovery and search limits
 
 All 50 state-discovery jobs have returned. Their sector labels and answer schemas

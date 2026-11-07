@@ -329,3 +329,24 @@ verifies 528 claim bindings; replay is a no-op. All 272 tests and 44 subtests pa
 as do the frozen seventeen-case audit and full data/site/check build. Existing
 489 warnings and legal qualifications remain. Broader migration, freshness,
 extraction-quality and final publication/deployment gates are still open.
+
+## New Jersey remaining-worker review
+
+The [three-record follow-up](../work/research/2026-11-06/nj-policy-wave2/README.md)
+applies fifteen fields after review of seven retained source versions and two
+distributed terra source reviews. It replaces S4293's unsupported final-death
+claim with its documented conditional-veto action and unknown legal effect;
+qualifies S3611's SPC timing/default and subsidy limits; and separates A1170's
+conditional plan/supply requirements from its connection clause and companion
+synopsis. All stable IDs and other values are preserved. No revival, enactment,
+BPU finding or current-force conclusion is inferred.
+
+One fresh bc-web chapter-catalogue invocation, using the final retained allowance,
+reproduces the earlier body hash; signed Chapter75 remains unrecovered. Three
+separately decoded Windows-1252 text versions and that refreshed observation add
+four archive versions. Native bc-store readback verifies the 62 eligible NJ
+manifest rows while thirteen older missing-body gaps remain. This does not make
+the catalogue a complete law census. All headline totals are unchanged; one
+`failed_died` category moves to `vetoed`, with legal effect unknown. Full build,
+272 tests/44 subtests and zero-edit replay pass. Broader state review,
+implementation, final release and delivery remain open.

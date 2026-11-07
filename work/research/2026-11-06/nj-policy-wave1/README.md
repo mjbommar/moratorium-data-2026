@@ -1,5 +1,10 @@
 # New Jersey policy review and identity split — November 6, 2026
 
+Subsequent [wave2 review](../nj-policy-wave2/README.md) dispositions the three
+remaining assigned worker returns and applies bounded corrections. The body below
+records this earlier checkpoint. Signed Chapter75, S4293's final session
+disposition and current implementation remain unresolved.
+
 This reviews five actionable corrections in the distributed `gpt-6.1-terra` return `nj-state-policy-002`, plus the separate A4696 proposal. Retained November 5 evidence and fresh November 6 primary acquisitions were checked for body/text integrity. Two Exa searches and eight bounded fetches were used, including two successful bc-web/pydoll history acquisitions with 1,800 ms settle. This does not complete the state's current-force or implementation review.
 
 ## Identity correction
