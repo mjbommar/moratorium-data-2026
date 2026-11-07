@@ -41,6 +41,12 @@ been requested at this checkpoint, and this source is not verified hosted.
 These are delivery failures, separate from the open freshness, coverage,
 extraction acceptance, consumer reconciliation and release requirements.
 
+Subsequent delivery at `b479d51` succeeded in Pages run `42360002534`. A fresh
+bc-web HTTP retrieval returned byte-identical state-policy CSV data at
+`2026-11-07T09:31:52.697284Z`; see the [scoped hosted receipt](../work/audit/pages-state-policy-verification-2026-11-07.json).
+This supersedes the failed-delivery status for that CSV only; it does not verify
+all rendered pages or close the broader release requirements.
+
 
 The frozen discovery review now has zero candidates awaiting coordinator review: 38 additions, one covered existing instrument and 146 reviewed withheld. The current inventory contains 1,330 local records (1,079 classified active/extended, 79 pending and 172 past) and 442 state-policy records. The expanded subset contains 51 proposal and measure records (49 voted, one scheduled, one litigated), 57 retained results and 50 current observations, including five certified observations. These classifications and review dispositions do not establish inventory-wide current enforceability or complete election coverage.
 
