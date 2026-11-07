@@ -1,0 +1,66 @@
+{
+  "schema_version": "1.0.0",
+  "scope": "Working candidate consistency and clean restore, not final publication or completed factual freshness",
+  "source_commit": "5e05193657a4614f56bdde579f61ceb7facb1c46",
+  "verifier_commit": "5e05193657a4614f56bdde579f61ceb7facb1c46",
+  "two_builds_byte_identical": true,
+  "independently_pinned_manifest_sha256": "8407535fb47e1840652e1a564df3030fc13b003404f9bf36416db3fadd9f0795",
+  "archive": {
+    "name": "moratorium-data-working-candidate.tar.gz",
+    "bytes": 20267917,
+    "sha256": "4fc6055bb5f72eeb9784255dc1301bec7861f572d2714936ef8d0f86751a4ce3"
+  },
+  "verification": {
+    "manifest_sha256": "8407535fb47e1840652e1a564df3030fc13b003404f9bf36416db3fadd9f0795",
+    "verified_members": 977,
+    "checks": {
+      "publication": {
+        "state": "consistent",
+        "snapshot_sha256": "f1dbb869b95a66b22b68495797d42d2b5fe73e28fa256a8065f5cf337b266951",
+        "generations_checked": 34,
+        "records": {
+          "jurisdictions": 46,
+          "elections": 46,
+          "ballot_measures": 51,
+          "measure_provisions": 50,
+          "measure_results": 57,
+          "local_restrictions": 1,
+          "instrument_events": 5,
+          "measure_instrument_links": 1,
+          "source_documents": 145,
+          "claims": 543,
+          "review_decisions": 2425,
+          "search_runs": 1,
+          "search_attempts": 3,
+          "search_sightings": 18,
+          "coverage_observations": 1
+        },
+        "scope": "Offline publication/receipt consistency only; no source reacquisition, renewed factual acceptance or current-force confirmation."
+      },
+      "replay": {
+        "state": "already_applied",
+        "sha256": "2ba75303791a6633f21cf335ef3805eb2176d1603d4a5a4b20e2c93cce8e556e",
+        "generation_id": "f1dbb869b95a66b22b68495797d42d2b5fe73e28fa256a8065f5cf337b266951",
+        "publication_sha256": "bd54c4ef922e1b4e9ec335550e000bd2013583990906b5f8ac7a5ffaad92c395"
+      },
+      "csv_generation": "bfc06507eb523a00ce184a8fc0e993604a9993462e19ac826f7cdac5e103ea8f",
+      "csv_outputs": 19,
+      "legacy_aliases": 1,
+      "legacy_validation": {
+        "as_of": "2026-11-07",
+        "errors": 0,
+        "warnings": 494
+      }
+    },
+    "scope": "Internal portable consistency only; no source acceptance, freshness or release determination."
+  },
+  "input_sha256": {
+    "data/moratorium_inventory.csv": "acd665e9754f16dba3cfdcd8d095266e8b0272435a34f03a4a69b055c7dc2727",
+    "data/state_legislation.csv": "d1633bb6cb5d7dea90e4a0aef5bc8c5bf516a06ae5a8408b9cccd88b65069b33"
+  },
+  "limits": [
+    "No release/tag/assets published by this verification.",
+    "Source freshness, extraction quality, consumer and hosted delivery gates remain open.",
+    "This receipt supersedes the older package receipt only for the pinned input bytes; a later data change requires another candidate verification."
+  ]
+}
