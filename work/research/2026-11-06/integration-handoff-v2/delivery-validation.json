@@ -1,0 +1,63 @@
+{
+  "state": "verified",
+  "source_commit": "68d4ddd1793af6f5518d04ac29ca457cfb151f94",
+  "manifest_sha256": "6e7a45e1d21aa924d042533b53f9def490c55e3ffb07fc2ef1f257badc6ca614",
+  "expanded_snapshot": "9f2c9b4d29e31a5434bb38f071724c38b59b926e114ad4b75acba854aa080287",
+  "files": 835,
+  "entries": 924,
+  "checks": [
+    {
+      "command": [
+        "scripts/check_expanded_publication.py"
+      ],
+      "exit_code": 0,
+      "result": {
+        "state": "consistent",
+        "snapshot_sha256": "9f2c9b4d29e31a5434bb38f071724c38b59b926e114ad4b75acba854aa080287",
+        "generations_checked": 32,
+        "records": {
+          "jurisdictions": 46,
+          "elections": 46,
+          "ballot_measures": 50,
+          "measure_provisions": 50,
+          "measure_results": 57,
+          "local_restrictions": 1,
+          "instrument_events": 5,
+          "measure_instrument_links": 1,
+          "source_documents": 144,
+          "claims": 528,
+          "review_decisions": 2399,
+          "search_runs": 1,
+          "search_attempts": 3,
+          "search_sightings": 18,
+          "coverage_observations": 1
+        },
+        "scope": "Offline publication/receipt consistency only; no source reacquisition, renewed factual acceptance or current-force confirmation."
+      }
+    },
+    {
+      "command": [
+        "scripts/build_expanded_csv.py",
+        "--check"
+      ],
+      "exit_code": 0,
+      "result": {
+        "state": "matches",
+        "source_snapshot": "9f2c9b4d29e31a5434bb38f071724c38b59b926e114ad4b75acba854aa080287",
+        "projection_sha256": "d73054880d4aa5c472483295da33ccd24f451bac1c96c1162d94839e4887834e",
+        "csv_views": 18
+      }
+    }
+  ],
+  "checks_run": true,
+  "scope": "Pinned input integrity and offline publication consistency, not source reacquisition or downstream join acceptance.",
+  "integration_commit": "836a5a79f1f0a8d0118d8ea598fddf5be007cb7d",
+  "remote_main_verified": "836a5a79f1f0a8d0118d8ea598fddf5be007cb7d",
+  "committed_members_verified": 836,
+  "historical_trees_unchanged": 4,
+  "repeat_export_state": "already_present",
+  "tests_passed": 328,
+  "subtests_passed": 44,
+  "final_terra_review_sha256": "4c74357cdf3ebf8c363c642ec815ecbfd155813601f93b471fafcefab332020b",
+  "review_disposition": "File integrity passed; both missing delivery records supplied. No source freshness or downstream join acceptance inferred."
+}

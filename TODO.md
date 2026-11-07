@@ -275,7 +275,7 @@ Completed closure increments (the broader gates below remain open):
 - [ ] Sync the paper mirror and rebuild revised manuscript/PDF, or conspicuously preserve the historical edition with no false alignment claim.
 - [ ] Reconcile affected sibling sites, manuscripts, integration memos and collaborator packets; record any historical or blocked disposition.
 - [ ] Extend copy/number audit coverage beyond the existing checker and inspect rendered landing/state pages and charts.
-- [ ] Export stable IDs and reviewed relationships to datacenter-data-integration without changing project ownership.
+- [x] Export stable IDs and reviewed relationships to datacenter-data-integration without changing project ownership. Verified working-input delivery at `836a5a79`; see `work/research/2026-11-06/integration-handoff-v2/delivery-validation.json`. Downstream join acceptance remains separate.
 - [ ] Review any RDF adapter against the integration repository's existing temporal/assertion model.
 - [ ] Label proximity exposure separately from reviewed legal applicability in analytical outputs.
 - [ ] Run compatibility, arithmetic, referential-integrity, conflict/idempotence and public/private-content checks.
