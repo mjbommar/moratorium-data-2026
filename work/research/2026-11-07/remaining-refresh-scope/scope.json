@@ -1,0 +1,865 @@
+{
+  "schema_version": "1.0.0",
+  "release_scope_id": "november-2026-comprehensive-refresh",
+  "frozen_at": "2026-11-07T13:38:39.877065+00:00",
+  "baseline_commit": "b55fbfbe2bb1ba6508b49912e37bb22971f08d5e",
+  "purpose": "Prospective freeze for remaining comprehensive closeout; not a retroactive pre-execution freeze or source-freshness acceptance.",
+  "ordering_exception": "The original Nov5 scope preceded initial collection, but did not cover all current consumers/expanded rows. This Nov7 matrix follows substantial work and does not repair that ordering failure. P4/P5 exits remain open.",
+  "original_collection_cohort": "2026-11-05",
+  "remaining_execution_target_cutoff": "2026-11-07T13:38:39.877065+00:00",
+  "cutoff_policy": "Remaining review targets actual execution time above; earlier supported observations remain earlier and unresolved where later history is absent. Retrieval/review dates do not renew legal status. Any later final-cutoff extension requires a separately recorded scope revision.",
+  "baseline_record_manifest": {
+    "path": "work/research/2026-11-07/remaining-refresh-scope/baseline-records.jsonl",
+    "sha256": "c4ba333a6da0af87539ca88bf12c41fd9ea2a88e356bdefe909336cedf4a575d"
+  },
+  "datasets": [
+    {
+      "dataset": "local_inventory",
+      "repository": "moratorium-data-2026",
+      "owner": "coordinator; distributed source reviewer and independent adjudicator",
+      "baseline": {
+        "path": "data/moratorium_inventory.csv",
+        "sha256": "acd665e9754f16dba3cfdcd8d095266e8b0272435a34f03a4a69b055c7dc2727"
+      },
+      "records": 1330,
+      "key": "moratorium_id",
+      "required_review": "Every existing ID and every column; scoped confirmed/corrected/duplicate/unresolved with actual attempts, last-supported source date and specific gaps. Blank or generic not-reviewed placeholders do not count as researched. Verify original and later instruments, amendment/extension/repeal/replacement, judicial stays, operative date/unit anchors and project applicability separately.",
+      "target_cutoff": "2026-11-07T13:38:39.877065+00:00",
+      "source_cutoff": "Per reviewed source/field; original collection cohort 2026-11-05 remains historical.",
+      "intended_output": "data/moratorium_inventory.csv; per-record substantive freshness dispositions and accepted change ledger",
+      "validation": [
+        "make check PYTHON=.venv/bin/python",
+        "Exact row/field diff joined to accepted source-reviewed decisions; disjoint freshness accounting"
+      ],
+      "delivery_state": "in_progress_not_freshness_complete"
+    },
+    {
+      "dataset": "state_policy",
+      "repository": "moratorium-data-2026",
+      "owner": "coordinator; distributed source reviewer and independent adjudicator",
+      "baseline": {
+        "path": "data/state_legislation.csv",
+        "sha256": "d1633bb6cb5d7dea90e4a0aef5bc8c5bf516a06ae5a8408b9cccd88b65069b33"
+      },
+      "records": 442,
+      "key": "policy_action_id",
+      "required_review": "Every existing ID and every column; scoped confirmed/corrected/duplicate/unresolved with actual attempts, last-supported source date and specific gaps. Blank or generic not-reviewed placeholders do not count as researched. Legislative disposition, enactment/veto, effectiveness, amendments, executive/utility action, preemption and litigation as applicable; preserve version/session and distinct act identities.",
+      "target_cutoff": "2026-11-07T13:38:39.877065+00:00",
+      "source_cutoff": "Per reviewed source/field; original collection cohort 2026-11-05 remains historical.",
+      "intended_output": "data/state_legislation.csv; per-record substantive freshness dispositions and accepted change ledger",
+      "validation": [
+        "make check PYTHON=.venv/bin/python",
+        "Exact row/field diff joined to accepted source-reviewed decisions; disjoint freshness accounting"
+      ],
+      "delivery_state": "in_progress_not_freshness_complete"
+    },
+    {
+      "dataset": "expanded_ballot_restriction_event_and_evidence_tables",
+      "repository": "moratorium-data-2026",
+      "owner": "coordinator and independent source reviewers",
+      "baseline_commit": "b55fbfbe2bb1ba6508b49912e37bb22971f08d5e",
+      "pointer_target": "expanded-snapshots/f1dbb869b95a66b22b68495797d42d2b5fe73e28fa256a8065f5cf337b266951",
+      "tables": [
+        {
+          "path": "data/expanded/ballot_measures.jsonl",
+          "sha256": "72ce43eec82b5c34a3699b9a19e9082cff397517eff0dd518322ca498baf5b36",
+          "records": 51
+        },
+        {
+          "path": "data/expanded/claims.jsonl",
+          "sha256": "ab59628f102d24d4dc956eb805dda0473b07ae6f47c3257b61affa37df786b42",
+          "records": 543
+        },
+        {
+          "path": "data/expanded/coverage_observations.jsonl",
+          "sha256": "e3445cd8461cbfb78ae35a80cffb95dfef631fc902dc3e4fcf82e1ff208031b9",
+          "records": 1
+        },
+        {
+          "path": "data/expanded/elections.jsonl",
+          "sha256": "382419076fae6d0de4526f9055359bbbb14ddd8a4c58db9606d00b1c7a839676",
+          "records": 46
+        },
+        {
+          "path": "data/expanded/instrument_events.jsonl",
+          "sha256": "38020e4ac5beee3d9332fc1dbe87802c3c91a9c936456f54628561cd401f5498",
+          "records": 5
+        },
+        {
+          "path": "data/expanded/jurisdictions.jsonl",
+          "sha256": "03d5c37c757ccdb64c7a7b8f02ddb1d997f711dad1d626c225a35d3f4990636e",
+          "records": 46
+        },
+        {
+          "path": "data/expanded/local_restrictions.jsonl",
+          "sha256": "834e0415e4714a5eb984843be966bf03d012f309d3a13e60b2084a2a3cff5188",
+          "records": 1
+        },
+        {
+          "path": "data/expanded/measure_instrument_links.jsonl",
+          "sha256": "e22daf9243548a4a1e0eb4fd685b0265b12436741ec764d0d20475a17451da4e",
+          "records": 1
+        },
+        {
+          "path": "data/expanded/measure_provisions.jsonl",
+          "sha256": "4aba501b3c2144730c4bcddda62946123024cbcd5373a5e73add67cfc329cfbf",
+          "records": 50
+        },
+        {
+          "path": "data/expanded/measure_results.jsonl",
+          "sha256": "1a1e7e2b25d0314df21a7b753ea46de1db90b31424d4d390a9d153bbaac395ff",
+          "records": 57
+        },
+        {
+          "path": "data/expanded/review_decisions.jsonl",
+          "sha256": "32a3fbc51c31f6929c2921095f97e658ca9e730cdf2e436dd0be2d8018a260f0",
+          "records": 2425
+        },
+        {
+          "path": "data/expanded/search_attempts.jsonl",
+          "sha256": "8c937fb5c240000c8888547cde04e062a0a8a8fd95be802cb61c87b13cb10cd9",
+          "records": 3
+        },
+        {
+          "path": "data/expanded/search_runs.jsonl",
+          "sha256": "229d89b883839612068c281fb5c4607bece6ff95bd92f6e466b120008aeaf6a3",
+          "records": 1
+        },
+        {
+          "path": "data/expanded/search_sightings.jsonl",
+          "sha256": "437b7ee6df59e50ea124439c1160ec56e31ed99fd7e195a490f887da18d83245",
+          "records": 18
+        },
+        {
+          "path": "data/expanded/source_documents.jsonl",
+          "sha256": "497148c24ad4c282d782b1f8049636594eb22eb971820fcd764d1e7ccfcb19e4",
+          "records": 145
+        }
+      ],
+      "target_cutoff": "2026-11-07T13:38:39.877065+00:00",
+      "source_cutoff": "Claim-specific source observations and legal dates retained; future scheduled elections remain pending.",
+      "required_review": "Reconcile all canonical measures, current and superseded results, certification, legal implementation, instrument links, identities and all frozen unresolved seeds; earlier/November/December cohorts stay separate. Reconcile cross-dataset identity and predecessor/successor links, retaining unsupported links as unresolved.",
+      "intended_output": "Versioned immutable expanded generation, CSV exports, source-backed review decisions and seed dispositions",
+      "validation": [
+        "make check PYTHON=.venv/bin/python",
+        "python3 scripts/build_ballot_summary.py --check",
+        "python3 scripts/build_expanded_csv.py --check"
+      ],
+      "delivery_state": "in_progress_quality_and_source_gaps_open"
+    },
+    {
+      "dataset": "legacy_and_expanded_source_archive",
+      "repository": "moratorium-data-2026 and bc-modules native archive",
+      "owner": "coordinator/archive operator",
+      "baseline_commit": "b55fbfbe2bb1ba6508b49912e37bb22971f08d5e",
+      "target_cutoff": "2026-11-07T13:38:39.877065+00:00",
+      "source_cutoff": "Original retrieval and extraction times retained per immutable version",
+      "required_review": "Resolve required body/extraction gaps, preserve failed attempts, verify body/text derivations and private/public split. Retrieval is not evidence of current force.",
+      "intended_output": "Verified native/archive receipts and named remaining source gaps",
+      "validation": [
+        "For each accepted legacy answer batch: python3 scripts/check_evidence_archived.py <explicit-accepted-answer-files> (legacy URL-presence prerequisite only)",
+        "Native store/source-version body and extraction hash audit plus exact reviewed source-span binding; URL presence alone is insufficient."
+      ],
+      "delivery_state": "in_progress_required_coverage_incomplete",
+      "baseline": {
+        "legacy_manifest_inventory": [
+          {
+            "path": "work/sources/AK/manifest.jsonl",
+            "sha256": "4e0ad2cd16ba6a08991a88652631a7a22d698af7194867fb1cc5d5697230b697",
+            "records": 22
+          },
+          {
+            "path": "work/sources/AL/manifest.jsonl",
+            "sha256": "0e9334e7cd9982f94e3767efdc1069515de842193e43bdfb2a9485b91c045291",
+            "records": 89
+          },
+          {
+            "path": "work/sources/AR/manifest.jsonl",
+            "sha256": "05ad3c9cb104607bb5f5fe135fbf9b59f4951c624b0fa0223989c147d1b21979",
+            "records": 39
+          },
+          {
+            "path": "work/sources/AZ/manifest.jsonl",
+            "sha256": "7867a5d8ae095ccec9251fd154b78eb82a0eb75d98dafbdaf759698e4ec47235",
+            "records": 14
+          },
+          {
+            "path": "work/sources/CA/manifest.jsonl",
+            "sha256": "24252ed99e5977b6acd136b5303b04003e4a2b3bc9e815d31b4ef07397f9089b",
+            "records": 278
+          },
+          {
+            "path": "work/sources/CO/manifest.jsonl",
+            "sha256": "f7acdcf81a98a3f18ee062e640d072b6ef99aa160499d69903dcfa71f779e270",
+            "records": 89
+          },
+          {
+            "path": "work/sources/CT/manifest.jsonl",
+            "sha256": "715b3b163a0ede169191e386b7c268ac738b75340acf000b00d283297a201619",
+            "records": 27
+          },
+          {
+            "path": "work/sources/DE/manifest.jsonl",
+            "sha256": "068edc129808a8bcb20b04ef3946c0e7144bad7b12244a00e25512ae728b6fb9",
+            "records": 25
+          },
+          {
+            "path": "work/sources/FL/manifest.jsonl",
+            "sha256": "2d6db953d635dc42cb508c5a18e4f1c88dc941b26909f1cb2f0ec8ca1330d5ac",
+            "records": 129
+          },
+          {
+            "path": "work/sources/GA/manifest.jsonl",
+            "sha256": "4e5f6f276c431b8ba2168df32d055d0a0eb009349f771ce5d5aa56ca91630e80",
+            "records": 267
+          },
+          {
+            "path": "work/sources/HI/manifest.jsonl",
+            "sha256": "3368dcc85ea81a0a67ef734f2eaf913f6edbe5ff096dd6169db533415fdbf4d8",
+            "records": 9
+          },
+          {
+            "path": "work/sources/IA/manifest.jsonl",
+            "sha256": "24de081d2a46919130ce247583764445a95a88b25aa522b3179a8073399e1344",
+            "records": 258
+          },
+          {
+            "path": "work/sources/ID/manifest.jsonl",
+            "sha256": "299b4011229f9562d786bf0eb5d385404180df474e7c13edc7c7b83c4220309d",
+            "records": 17
+          },
+          {
+            "path": "work/sources/IL/manifest.jsonl",
+            "sha256": "8a5eb8e1596ac747c660e513569a389d32e928a922159f80960bdc20b29703f4",
+            "records": 176
+          },
+          {
+            "path": "work/sources/IN/manifest.jsonl",
+            "sha256": "85e729658da9f7e44d60216bd40680d5e789731962682be2d122fc55fa67e20e",
+            "records": 122
+          },
+          {
+            "path": "work/sources/KS/manifest.jsonl",
+            "sha256": "96a7cec3875ed757d15dbef9ea453224591bec491d8f53a32cd840b59fff4b6c",
+            "records": 149
+          },
+          {
+            "path": "work/sources/KY/manifest.jsonl",
+            "sha256": "cf1ca9659af009f23a4292ba63b6a988f61902657e48bd70f78fe157a4b0ae8b",
+            "records": 157
+          },
+          {
+            "path": "work/sources/LA/manifest.jsonl",
+            "sha256": "3ff463210a1b8c89f31f0bdba9770e2d257e6d7a0b1c97cadd7439a0ae0cb4f6",
+            "records": 22
+          },
+          {
+            "path": "work/sources/MA/manifest.jsonl",
+            "sha256": "d9b26460f3c94407b15e3c957cc44a5ec74e3f3ae4a9ea8bb241295bcd002076",
+            "records": 90
+          },
+          {
+            "path": "work/sources/MD/manifest.jsonl",
+            "sha256": "883d5721a2b50b4be1ae70642c570ab2f8a1c013e329d3a9f8640086880895ac",
+            "records": 118
+          },
+          {
+            "path": "work/sources/ME/manifest.jsonl",
+            "sha256": "579865cfe237388220e7c33ca265ef44078fb528d28ad85f43dec650e90d3584",
+            "records": 113
+          },
+          {
+            "path": "work/sources/MI/manifest.jsonl",
+            "sha256": "9cda04e12929c805d98a93ea600f902624f04060fc39efc6b1c20184c4298d81",
+            "records": 858
+          },
+          {
+            "path": "work/sources/MN/manifest.jsonl",
+            "sha256": "7947fd3b22c1f35e5afda109c5eeddefbddc98914586a6500e5d1ef3747195e1",
+            "records": 110
+          },
+          {
+            "path": "work/sources/MO/manifest.jsonl",
+            "sha256": "2062712d266baaf86da0fe4a983491fb26132cb2437797b6070bcda18fe6813f",
+            "records": 116
+          },
+          {
+            "path": "work/sources/MS/manifest.jsonl",
+            "sha256": "ef751cf10e1d14b8e575835ceab857408bba49a2e71b3e3bedd042ac8e0ec814",
+            "records": 2
+          },
+          {
+            "path": "work/sources/MT/manifest.jsonl",
+            "sha256": "e3a8eae96529a51d7703e6dfe20400f6e2e057deda50ae63205794a5828ba954",
+            "records": 11
+          },
+          {
+            "path": "work/sources/NC/manifest.jsonl",
+            "sha256": "5aa558b739fdd876d4945b9093b611dc22395dca0add0770976dde21a71bc811",
+            "records": 280
+          },
+          {
+            "path": "work/sources/ND/manifest.jsonl",
+            "sha256": "9a2b3bedc73f6484c9985269d1a61a95ba3245aa13ad3b03179d8ead7556ae94",
+            "records": 54
+          },
+          {
+            "path": "work/sources/NE/manifest.jsonl",
+            "sha256": "c3fba68f0ddbb9826ac89ca0df6553a09ce7a321b9110b9d6ce5afc2a7ecd450",
+            "records": 125
+          },
+          {
+            "path": "work/sources/NH/manifest.jsonl",
+            "sha256": "888a12d1bd1254e3a78260abcbbcf5ddae637f3281aeedf7f93c9e1666a7f2b5",
+            "records": 19
+          },
+          {
+            "path": "work/sources/NJ/manifest.jsonl",
+            "sha256": "5433370b99c5f8322ab62a526c26e19a8064958a85377f08f368238f874e880f",
+            "records": 75
+          },
+          {
+            "path": "work/sources/NM/manifest.jsonl",
+            "sha256": "788875250a5e6a780ca8ad9e277472dd264f735fdb93117780ed18085f83c997",
+            "records": 39
+          },
+          {
+            "path": "work/sources/NV/manifest.jsonl",
+            "sha256": "2f5db4b010f78f45bcf7051134825e28d036668ee02bbdf58e4db56ee4dd955c",
+            "records": 39
+          },
+          {
+            "path": "work/sources/NY/manifest.jsonl",
+            "sha256": "3a3268e730e0d20ac78a6b59c8d07f494cfc88ab350080124cb248d5c6a480e8",
+            "records": 656
+          },
+          {
+            "path": "work/sources/OH/manifest.jsonl",
+            "sha256": "d2d74725fbe29c899f965db9030ddc4dd06c14d6b496bbed266acabeef393ecf",
+            "records": 1006
+          },
+          {
+            "path": "work/sources/OK/manifest.jsonl",
+            "sha256": "b1f458dc77ea74de651cc4737679d638403d28d8dfba1f64fb0003f2b8d53b31",
+            "records": 34
+          },
+          {
+            "path": "work/sources/OR/manifest.jsonl",
+            "sha256": "b1cac0dfcaa12011109a1d6828ee132d77047d659c259bc4e050cd738c8a9a5c",
+            "records": 28
+          },
+          {
+            "path": "work/sources/PA/manifest.jsonl",
+            "sha256": "1f251491038ded8f644fa2cfe74b0df29ba02a28cc98f60ca1b156182399a89d",
+            "records": 162
+          },
+          {
+            "path": "work/sources/RI/manifest.jsonl",
+            "sha256": "8a5abd43caf11f8ab86d635bc97b25d9e78b8b5703ab15359dec04576556f1e0",
+            "records": 12
+          },
+          {
+            "path": "work/sources/SC/manifest.jsonl",
+            "sha256": "c0994fdeb3e345d2ef52ded5e444f45e45ad9e690f503ad7f70974f90155e802",
+            "records": 98
+          },
+          {
+            "path": "work/sources/SD/manifest.jsonl",
+            "sha256": "13074eb368c5bd87eff2d84713504883bd97b7f7371b8f886ba76cc932f021b5",
+            "records": 38
+          },
+          {
+            "path": "work/sources/TN/manifest.jsonl",
+            "sha256": "aa14f05ce05697921a0669b30232e0a2021bac06d79c03cc9f28377cd996ead7",
+            "records": 261
+          },
+          {
+            "path": "work/sources/TX/manifest.jsonl",
+            "sha256": "a3ebe1cf840f7c4aedbb42ca4c823fef9a2840be65bf92fe6f9cbebd6036e510",
+            "records": 61
+          },
+          {
+            "path": "work/sources/US/manifest.jsonl",
+            "sha256": "8b47dc78ffe2bef72496fac585d34e08b0e4f20d6f4b155ab7c963fc49a5f2d2",
+            "records": 20
+          },
+          {
+            "path": "work/sources/UT/manifest.jsonl",
+            "sha256": "95b6b46b8ced2b1c20a78929eae674cc16f6953f71d3dd560a38d4532c8a2a71",
+            "records": 31
+          },
+          {
+            "path": "work/sources/VA/manifest.jsonl",
+            "sha256": "4eafbaea767ed4cdecee3432dbff1ffe3d9e588e63fb3a7a277cf15344ec7136",
+            "records": 42
+          },
+          {
+            "path": "work/sources/VT/manifest.jsonl",
+            "sha256": "12088506c3d64da637ef1511115a00c2495505d977fe67f3fc8c7dc5e964df9e",
+            "records": 4
+          },
+          {
+            "path": "work/sources/WA/manifest.jsonl",
+            "sha256": "518a9a7ba371b9a37cc6a8f7af7133fad7919a39c937d1fd010eec696a9dcda7",
+            "records": 213
+          },
+          {
+            "path": "work/sources/WI/manifest.jsonl",
+            "sha256": "0645b0af36dd9f419d9d78e5aee921f00d681d3ea13d8e44f8e28119286f9fca",
+            "records": 183
+          },
+          {
+            "path": "work/sources/WV/manifest.jsonl",
+            "sha256": "1bae5a664935bbc8faf5927aa0e1e2eebcc17241c0a2bce4ce3746faed4897d0",
+            "records": 3
+          },
+          {
+            "path": "work/sources/WY/manifest.jsonl",
+            "sha256": "3e3940b89080bef76886a27a3299ae3155eecf813d3bb234c05bcdd3248a9325",
+            "records": 4
+          }
+        ],
+        "native_store_identity": "/home/mjbommar/.cache/moratorium-refresh-2026/legacy-source-store/store.db",
+        "native_snapshot_status": "No transaction-consistent current native-store snapshot captured by this matrix; live DB bytes are not claimed as a frozen snapshot.",
+        "native_repository_head": "f6187344c697334dbca3f037fd0a670a995f59c8",
+        "storage_layout": {
+          "path": "work/audit/legacy-source-storage-layout-2026-11-06.json",
+          "sha256": "6cc9a87a6a22f894a5c0f8cefa61eccb953a2098610884a9cacfe5d065660574"
+        },
+        "last_retained_native_mapping_and_gap_queue": {
+          "path": "work/audit/legacy-source-migration-mo-actions-2026-11-07.json",
+          "sha256": "2e70e636eb486477e7c618d790713e9923e00846b006b7ea2ff69379ac2fd73c"
+        },
+        "limits": "Last native migration receipt preserves its own mapping/gaps; current legacy manifests are pinned separately. Their identity is verified, not fresh source/legal acceptance.",
+        "historical_migration_counts": {
+          "record_count": 6760,
+          "eligible_verified_body_records": 3317,
+          "gap_records": 3443
+        },
+        "manifest_changes_since_migration": [
+          "work/sources/AK/manifest.jsonl",
+          "work/sources/AR/manifest.jsonl",
+          "work/sources/CA/manifest.jsonl",
+          "work/sources/HI/manifest.jsonl",
+          "work/sources/LA/manifest.jsonl",
+          "work/sources/NY/manifest.jsonl",
+          "work/sources/TX/manifest.jsonl"
+        ],
+        "latest_retained_inventory_summary": {
+          "path": "work/audit/legacy-source-inventory-california-terms-2026-11-07.json",
+          "sha256": "e784ed3bafe0e06b54d0952769ca95b3b751ee38c84ccdb3080f79ed05c13b3f",
+          "counts": {
+            "record_count": 6794,
+            "eligible_verified_body_records": 3352,
+            "gap_records": 3442
+          },
+          "limit": "Aggregate receipt; private full inventory hash retained in that receipt. Does not supply a transaction-consistent live-store snapshot. Earlier native mapping receipt is separately pinned and its seven manifest differences remain explicit."
+        }
+      }
+    }
+  ],
+  "discovery": {
+    "owner": "distributed search collectors and independent coordinator",
+    "states": [
+      "AK",
+      "AL",
+      "AR",
+      "AZ",
+      "CA",
+      "CO",
+      "CT",
+      "DE",
+      "FL",
+      "GA",
+      "HI",
+      "IA",
+      "ID",
+      "IL",
+      "IN",
+      "KS",
+      "KY",
+      "LA",
+      "MA",
+      "MD",
+      "ME",
+      "MI",
+      "MN",
+      "MO",
+      "MS",
+      "MT",
+      "NC",
+      "ND",
+      "NE",
+      "NH",
+      "NJ",
+      "NM",
+      "NV",
+      "NY",
+      "OH",
+      "OK",
+      "OR",
+      "PA",
+      "RI",
+      "SC",
+      "SD",
+      "TN",
+      "TX",
+      "UT",
+      "VA",
+      "VT",
+      "WA",
+      "WI",
+      "WV",
+      "WY"
+    ],
+    "search_categories": [
+      "data_center",
+      "crypto_mining",
+      "BESS",
+      "solar",
+      "wind",
+      "general"
+    ],
+    "coverage_cells": 300,
+    "target_cutoff": "2026-11-07T13:38:39.877065+00:00",
+    "required_outputs": "New local instruments and state actions across all categories, explicit method/queries/attempts/coverage/dispositions; ballot census separate. State-wide query coverage is not municipal census coverage.",
+    "prior_candidate_dispositions": "work/audit/discovery-coordinator-accounting-2026-11-06.json",
+    "delivery_state": "prior_frozen_queue_dispositioned_broader_coverage_and_recall_not_proven",
+    "baseline": [
+      {
+        "path": "work/research/2026-11-06/sparse-refresh-worklist/worklist.json",
+        "sha256": "da75071d29497749c4d64d6cc434f1d36ee52c0476cbe74d6802b434eb2a2ebe"
+      },
+      {
+        "path": "work/research/2026-11-06/sparse-refresh-worklist/registry.json",
+        "sha256": "8309590cf07d657eb378cfba721355980bd90a6d0f0bfd1a1aaf03909f9324e0"
+      },
+      {
+        "path": "work/audit/discovery-coordinator-accounting-2026-11-06.json",
+        "sha256": "585eb82e7005edaae3c34a5840711c083a34d14f5422b9d207a2a02ce0987382"
+      }
+    ],
+    "worklist_lane_counts_at_baseline": {
+      "inventory_refresh": 1772,
+      "election_census": 300,
+      "gap_discovery": 250
+    },
+    "category_translation_version": "remaining-refresh-scope-2",
+    "category_translations": [
+      {
+        "freeze_label": "data_center",
+        "canonical_sector": "data_center",
+        "search_coordinate": "data_center",
+        "semantics": "Query vocabulary routing only, not equivalence of every source term or legal scope."
+      },
+      {
+        "freeze_label": "crypto_mining",
+        "canonical_sector": "cryptocurrency_mining",
+        "search_coordinate": "cryptocurrency",
+        "semantics": "Query vocabulary routing only, not equivalence of every source term or legal scope."
+      },
+      {
+        "freeze_label": "BESS",
+        "canonical_sector": "battery_storage",
+        "search_coordinate": "battery_storage",
+        "semantics": "Query vocabulary routing only, not equivalence of every source term or legal scope."
+      },
+      {
+        "freeze_label": "solar",
+        "canonical_sector": "solar",
+        "search_coordinate": "solar",
+        "semantics": "Query vocabulary routing only, not equivalence of every source term or legal scope."
+      },
+      {
+        "freeze_label": "wind",
+        "canonical_sector": "wind",
+        "search_coordinate": "wind",
+        "semantics": "Query vocabulary routing only, not equivalence of every source term or legal scope."
+      }
+    ],
+    "general_and_unknown_routing": {
+      "freeze_label": "general",
+      "canonical_sector": "general",
+      "search_coordinate": null,
+      "method": "Explicit sector-neutral state/jurisdiction/instrument queries through bounded research_client Exa/Serp/search and fetch methods; do not pass general as an unsupported search_refresh_batch sector. Keep unknown source terms unresolved and retain failed/zero-result attempts.",
+      "coverage_cells": 50
+    },
+    "lanes": [
+      {
+        "lane": "local_instrument_discovery",
+        "frame": "50 states \u00d7 five supported sector coordinates plus 50 general/neutral searches; record actual jurisdiction/query coverage, not municipal census."
+      },
+      {
+        "lane": "state_policy_action_discovery",
+        "frame": "Same state/category coordinates, separate action-specific query intent and dispositions for legislation/executive/utility/preemption/litigation."
+      },
+      {
+        "lane": "independent_election_discovery",
+        "frame": "Existing worklist independent250 state\u00d7five-sector discovery items plus canonical measure/seed review; additional general/neutral and sector-uncertain election searches remain explicit."
+      }
+    ],
+    "validation": [
+      "Reconcile state/category/lane query intents and actual attempt provenance against pinned worklist, with explicit unsupported/neutral routing.",
+      "Independently source-review inclusion/exclusion and primary recovery against a frozen bounded reference; planned counts and185 dispositions do not establish recall."
+    ],
+    "election_worklist_decomposition": {
+      "total_frozen_election_census_items": 300,
+      "independent_state_sector_discovery_items": 250,
+      "older_canonical_measure_items": 50,
+      "current_canonical_measure_rows": 51,
+      "policy": "Reconcile the additional canonical measure and every seed explicitly; fifty older worklist entries neither define current measure count nor prove fifty searches completed."
+    }
+  },
+  "ballot_queues": {
+    "canonical_measures": "data/expanded/ballot_measures.jsonl",
+    "frozen_groups": "work/research/2026-11-05/ballot-census-review/measure-groups.json",
+    "frozen_dispositions": "work/audit/ballot-release-dispositions-2026-11-06.json",
+    "additional_followups": [
+      "work/research/2026-11-07/jay-primary-recheck/",
+      "work/research/2026-11-07/wilmington-initiative-history/"
+    ],
+    "required_output": "Every original seed reconciled through target cutoff with scoped final/pending/unresolved disposition; future votes never represented as decided.",
+    "owner": "coordinator, election-source collectors and independent reviewers",
+    "target_cutoff": "2026-11-07T13:38:39.877065+00:00",
+    "baseline": [
+      {
+        "path": "work/research/2026-11-06/sparse-refresh-worklist/worklist.json",
+        "sha256": "da75071d29497749c4d64d6cc434f1d36ee52c0476cbe74d6802b434eb2a2ebe"
+      },
+      {
+        "path": "data/expanded/ballot_measures.jsonl",
+        "sha256": "72ce43eec82b5c34a3699b9a19e9082cff397517eff0dd518322ca498baf5b36"
+      },
+      {
+        "path": "work/research/2026-11-05/ballot-census-review/measure-groups.json",
+        "sha256": "8f5f035c37279135c7980e55ce2075721173ea3f857d969cad9500fee1b2ce1b"
+      },
+      {
+        "path": "work/audit/ballot-release-dispositions-2026-11-06.json",
+        "sha256": "975cee53de65ef2064f5c03d283920f27ab1865a9b835d08f5cdf1684d73182c"
+      }
+    ],
+    "validation": [
+      "Reconcile every seed/group with canonical IDs and explicit scoped disposition; audit result/certification/operative-effect evidence and denominators independently.",
+      "Run ballot due-work report and canonical publication validators at final pin; future post-cutoff followups remain pending."
+    ],
+    "delivery_state": "canonical_partial_and_named_seed_source_gaps_open"
+  },
+  "project_disclosure_scope": {
+    "full_1048_project_refresh_included": false,
+    "scope": "Only project facts actually used by newly updated prose and changed legal/project bridges, enumerated and reviewed via canonical Server Country workflow before acceptance.",
+    "remaining_work": "Enumerate actual cited-project subset against final prose; bind each project/disclosure source cutoff and evidence. Preserve full project and disclosure corpora own dated snapshots.",
+    "no_inference": "Proximity/ownership associations do not prove legal applicability or project cancellation.",
+    "owner": "Server Country canonical project maintainers; integration reviewer and prose editor",
+    "baseline": {
+      "project_fact_snapshot": "No new project corpus or enumerated prose-subset baseline frozen yet; prior historical snapshots retain their own source dates.",
+      "consumer_local_heads": {
+        "datacenter-paper-2026": "0bfbb85cfed44a508c91fc9b2ef4aaffeb36f4f9",
+        "integration": "420ee2a84cab745654dc6e42a2318217c7455bde",
+        "servercountry.org": "0f57b68c0c16d6fec67c589f32656f40dac48706"
+      }
+    },
+    "target_cutoff": "Per project/disclosure source and declared prose subset; target remaining execution cutoff where actually checked: 2026-11-07T13:38:39.877065+00:00",
+    "validation": [
+      "Enumerate every project fact used by changed prose/bridges, pin canonical source and observed date, retain unresolved applicability and review decisions.",
+      "Rebuild integration outputs from authenticated pinned inputs with canonical consumer review gates."
+    ],
+    "delivery_state": "subset_enumeration_and_source_review_pending"
+  },
+  "core_publication_surfaces": {
+    "owner": "coordinator/editor",
+    "baseline_commit": "b55fbfbe2bb1ba6508b49912e37bb22971f08d5e",
+    "scope": "Every surface in plan9.2 including README/data/scripts/work docs, codebook/methodology/FAQ/gaps, all state pages, landing/site/map/timeline, figures/tables, changelog/citation, paper mirror, release assets and hosted copy.",
+    "source_matrix": "work/audit/publication-surfaces-2026-11-07/",
+    "intended_output": "Claim-to-output checklist, reviewed substantive prose and immutable final assets from accepted pinned data",
+    "validation": [
+      "make data site check PYTHON=.venv/bin/python",
+      "Rendered landing/state pages and representative chart/table inspection",
+      "Build twice, clean restore, download and verify every published asset and actual hosted outputs",
+      "Extend selected-number checker or add full-surface copy audit for every current surface; arithmetic and substantive interpretation reviewed separately."
+    ],
+    "delivery_state": "partial_working_copy_final_reconciliation_open",
+    "research_cutoff": "2026-11-07T13:38:39.877065+00:00",
+    "required_claim_checklist_fields": [
+      "surface_path",
+      "generated_current_or_explicitly_historical_disposition",
+      "claim_or_summary_locator",
+      "source_or_view_and_revision",
+      "source_specific_cutoff",
+      "reviewer",
+      "review_decision",
+      "rendered_inspection",
+      "delivery_receipt_or_explicit_gap"
+    ]
+  },
+  "consumers": [
+    {
+      "consumer": "moratorium-paper",
+      "repository": "/home/mjbommar/projects/personal/moratorium-paper",
+      "owner": "Paper author/editor",
+      "baseline_local_head": "3bf7d8592d70fc2e679c72d55b08d1b3604ca66d",
+      "baseline_observation_error": null,
+      "research_cutoff": "Own historical edition/corpus cutoff unless explicitly reviewed for this refresh; no silent synchronization.",
+      "required_disposition": "historical; revised edition blocked pending review",
+      "next_action": "Preserve dated April edition; choose revised edition or retain historical, check abstract/body/conclusion/appendices and PDF against final pin, and verify delivery.",
+      "intended_output": "Pinned final handoff and reviewed current-copy/bridge changes, or conspicuously dated historical edition with documented scope.",
+      "validation": "Check final source pin, substantive claims and counts; inspect rendered output and actual remote/hosted delivery where current delivery is required.",
+      "delivery_state": "pending_final_disposition_and_verification",
+      "prior_surface_audit": {
+        "path": "work/audit/publication-surfaces-2026-11-07/siblings.json",
+        "sha256": "af4675d6cd4d6a55bb58e29d50f94d36921dd99b2667d8fb8a3267e19873ac71"
+      }
+    },
+    {
+      "consumer": "datacenter-paper-2026",
+      "repository": "/home/mjbommar/projects/personal/datacenter-paper-2026",
+      "owner": "Paper and policy-refresh owners",
+      "baseline_local_head": "0bfbb85cfed44a508c91fc9b2ef4aaffeb36f4f9",
+      "baseline_observation_error": null,
+      "research_cutoff": "Own historical edition/corpus cutoff unless explicitly reviewed for this refresh; no silent synchronization.",
+      "required_disposition": "blocked; historical July report and active working refresh",
+      "next_action": "Coordinate with active campaign; retain July cutoff, review claims, source dates and project/legal bridges against final moratorium pin and independently scoped project data; rebuild and inspect report after review.",
+      "intended_output": "Pinned final handoff and reviewed current-copy/bridge changes, or conspicuously dated historical edition with documented scope.",
+      "validation": "Check final source pin, substantive claims and counts; inspect rendered output and actual remote/hosted delivery where current delivery is required.",
+      "delivery_state": "pending_final_disposition_and_verification",
+      "prior_surface_audit": {
+        "path": "work/audit/publication-surfaces-2026-11-07/siblings.json",
+        "sha256": "af4675d6cd4d6a55bb58e29d50f94d36921dd99b2667d8fb8a3267e19873ac71"
+      }
+    },
+    {
+      "consumer": "integration",
+      "repository": "/home/mjbommar/projects/personal/datacenter-data-integration",
+      "owner": "Integration maintainer and independent reviewer",
+      "baseline_local_head": "420ee2a84cab745654dc6e42a2318217c7455bde",
+      "baseline_observation_error": null,
+      "research_cutoff": "Own historical edition/corpus cutoff unless explicitly reviewed for this refresh; no silent synchronization.",
+      "required_disposition": "blocked; intermediate working inputs, historical downstream outputs",
+      "next_action": "After final freeze export and authenticate final snapshot, review changed forms and IDs, rebuild legal/project links and collaborator summaries with separate project/disclosure pins and review gates; verify intended branch and delivery.",
+      "intended_output": "Pinned final handoff and reviewed current-copy/bridge changes, or conspicuously dated historical edition with documented scope.",
+      "validation": "Check final source pin, substantive claims and counts; inspect rendered output and actual remote/hosted delivery where current delivery is required.",
+      "delivery_state": "pending_final_disposition_and_verification",
+      "prior_surface_audit": {
+        "path": "work/audit/publication-surfaces-2026-11-07/siblings.json",
+        "sha256": "af4675d6cd4d6a55bb58e29d50f94d36921dd99b2667d8fb8a3267e19873ac71"
+      }
+    },
+    {
+      "consumer": "servercountry.org",
+      "repository": "/home/mjbommar/projects/personal/servercountry.org",
+      "owner": "Server Country project-data and site owners",
+      "baseline_local_head": "0f57b68c0c16d6fec67c589f32656f40dac48706",
+      "baseline_observation_error": null,
+      "research_cutoff": "Own historical edition/corpus cutoff unless explicitly reviewed for this refresh; no silent synchronization.",
+      "required_disposition": "blocked; local historical-paper distinction prepared",
+      "next_action": "Determine project cohort and cutoff, refresh facts used by prose via canonical workflow, review site claims and verify actual branch and rendered deployment against final release.",
+      "intended_output": "Pinned final handoff and reviewed current-copy/bridge changes, or conspicuously dated historical edition with documented scope.",
+      "validation": "Check final source pin, substantive claims and counts; inspect rendered output and actual remote/hosted delivery where current delivery is required.",
+      "delivery_state": "pending_final_disposition_and_verification",
+      "prior_surface_audit": {
+        "path": "work/audit/publication-surfaces-2026-11-07/siblings.json",
+        "sha256": "af4675d6cd4d6a55bb58e29d50f94d36921dd99b2667d8fb8a3267e19873ac71"
+      }
+    },
+    {
+      "consumer": "fightadatacenter.com",
+      "repository": "/home/mjbommar/projects/personal/fightadatacenter.com",
+      "owner": "Site editor/deployment owner",
+      "baseline_local_head": "58027fc11c16ed6d25a3c8c08adfab8ddbd13ba9",
+      "baseline_observation_error": null,
+      "research_cutoff": "Own historical edition/corpus cutoff unless explicitly reviewed for this refresh; no silent synchronization.",
+      "required_disposition": "blocked; local resource distinction prepared",
+      "next_action": "Search rendered current chapters, guides and metadata for dated counts and substantive examples; reconcile final source pin and verify deployed revision and links.",
+      "intended_output": "Pinned final handoff and reviewed current-copy/bridge changes, or conspicuously dated historical edition with documented scope.",
+      "validation": "Check final source pin, substantive claims and counts; inspect rendered output and actual remote/hosted delivery where current delivery is required.",
+      "delivery_state": "pending_final_disposition_and_verification",
+      "prior_surface_audit": {
+        "path": "work/audit/publication-surfaces-2026-11-07/siblings.json",
+        "sha256": "af4675d6cd4d6a55bb58e29d50f94d36921dd99b2667d8fb8a3267e19873ac71"
+      }
+    },
+    {
+      "consumer": "datacenter-2026-book",
+      "repository": "/home/mjbommar/projects/personal/datacenter-2026-book",
+      "owner": "Book author/editor and project-data owner",
+      "baseline_local_head": "909da50326bce392555d38440d1b9c9749188d7f",
+      "baseline_observation_error": null,
+      "research_cutoff": "Own historical edition/corpus cutoff unless explicitly reviewed for this refresh; no silent synchronization.",
+      "required_disposition": "historical editions; revised edition blocked",
+      "next_action": "Preserve dated editions; before a revision resolve identified claims with primary evidence and separate project cohort, rebuild all affected formats and verify publication.",
+      "intended_output": "Pinned final handoff and reviewed current-copy/bridge changes, or conspicuously dated historical edition with documented scope.",
+      "validation": "Check final source pin, substantive claims and counts; inspect rendered output and actual remote/hosted delivery where current delivery is required.",
+      "delivery_state": "pending_final_disposition_and_verification",
+      "prior_surface_audit": {
+        "path": "work/audit/publication-surfaces-2026-11-07/siblings.json",
+        "sha256": "af4675d6cd4d6a55bb58e29d50f94d36921dd99b2667d8fb8a3267e19873ac71"
+      }
+    },
+    {
+      "consumer": "author site",
+      "repository": "/home/mjbommar/projects/personal/michaelbommarito.com",
+      "owner": "Author-site editor",
+      "baseline_local_head": "2acf99f2a49dcd29c98ca45d8994418072c4327c",
+      "baseline_observation_error": null,
+      "research_cutoff": "Own historical edition/corpus cutoff unless explicitly reviewed for this refresh; no silent synchronization.",
+      "required_disposition": "blocked; dated snapshot in body, stale living-project metadata",
+      "next_action": "Reconcile project description, counts, metadata, links and generated outputs to final pin or explicitly date all historical values; preserve publication citation and verify rendered deployment.",
+      "intended_output": "Pinned final handoff and reviewed current-copy/bridge changes, or conspicuously dated historical edition with documented scope.",
+      "validation": "Check final source pin, substantive claims and counts; inspect rendered output and actual remote/hosted delivery where current delivery is required.",
+      "delivery_state": "pending_final_disposition_and_verification",
+      "prior_surface_audit": {
+        "path": "work/audit/publication-surfaces-2026-11-07/siblings.json",
+        "sha256": "af4675d6cd4d6a55bb58e29d50f94d36921dd99b2667d8fb8a3267e19873ac71"
+      }
+    }
+  ],
+  "freshness_accounting_contract": {
+    "denominator": "Every current canonical local/state ID in baseline-records.jsonl; later additions and explicit retirements joined separately without silently dropping records.",
+    "disjoint_terminal_buckets": [
+      "confirmed_unchanged",
+      "corrected",
+      "superseded_duplicate",
+      "researched_unresolved",
+      "not_substantively_attempted"
+    ],
+    "source_unavailable": "Separate reason/flag within researched_unresolved, never added again to summed bucket totals.",
+    "attempted_and_successfully_checked": "Process counters with defined evidence prerequisites, not extra disjoint terminal buckets; field-level support and last-supported date retained.",
+    "warning": "This matrix is a baseline scope artifact, not a populated freshness funnel or claim that unlisted prior work was not attempted."
+  },
+  "completion_gate": "All original plan requirements remain authoritative; this freeze does not waive source quality, holdout, regression, consumers, release or delivery gates.",
+  "scope_revision": 3,
+  "revision_reason": "Scope review recheck addressed: explicit historical issue-register pins and 300-election-item decomposition; baseline/cutoff unchanged.",
+  "remaining_named_gates": [
+    "Cross-dataset identity/predecessor/successor evidence",
+    "P4 bounded discovery reference, exposure-controlled holdout, quality/error/disagreement/completeness/cost metrics and frozen go/no-go; previous failed extraction trials do not pass.",
+    "P5 every local/state record and seed substantive disposition plus complete accounting; no unreviewed skeleton accepted.",
+    "P6 final prose/consumer/citation/release/tag/downloaded-assets/hosted verification.",
+    "P7 maintenance, due-work, source-change/recovery/replay, tested bounded refresh and operational handoff."
+  ],
+  "post_cutoff_followups": [
+    {
+      "case": "Jay solar",
+      "trigger": "2026-11-09 agenda Solar Moratorium Next Steps",
+      "not_before": "2026-11-10",
+      "scope": "Future agenda is not a result/adoption/effect; pending manual followup, no scheduled automation created.",
+      "receipt": "work/research/2026-11-07/jay-primary-recheck/"
+    }
+  ],
+  "baseline_issue_registers": [
+    {
+      "path": "TODO.md",
+      "sha256": "699c29a454f873220f1eadb10b18b28912d95c8ad389dcdb71a5e25c90209c04",
+      "commit": "b55fbfbe2bb1ba6508b49912e37bb22971f08d5e"
+    },
+    {
+      "path": "docs/release-closeout.md",
+      "sha256": "1cf07ea74a1706d2efbc6c93bac9fc370c3d171fa5b3533e90205dd88c95058b",
+      "commit": "b55fbfbe2bb1ba6508b49912e37bb22971f08d5e"
+    }
+  ],
+  "live_issue_register_paths": [
+    "TODO.md",
+    "docs/release-closeout.md"
+  ],
+  "live_issue_register_policy": "Historical byte pins above resolve at the baseline commit. Live paths continue to evolve and must be inspected at each acceptance/release gate; no unchanged live-file claim."
+}

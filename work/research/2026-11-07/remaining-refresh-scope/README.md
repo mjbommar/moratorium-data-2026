@@ -1,0 +1,19 @@
+# Remaining comprehensive refresh scope
+
+This prospective closeout matrix pins the working baseline at `b55fbfbe2bb1ba6508b49912e37bb22971f08d5e`: 1,330 local IDs, 442 state-policy IDs, 15 expanded tables and seven required consumers. The record manifest contains stable IDs and complete-row fingerprints, not research dispositions. All original plan requirements remain in scope.
+
+The remaining-work target is the actual November 7 UTC execution timestamp in `scope.json`. November 5 remains the initial collection cohort, not a current-freshness label. A source last supporting a fact on an earlier date keeps that date; November 7 retrieval or review does not establish later legal force. Future elections remain pending. Extending the final cutoff requires a recorded scope revision and renewed gap accounting.
+
+This matrix was written after substantial collection and review. It cannot retroactively satisfy the plan's original pre-execution freeze or repair the pilot/holdout ordering. Those exceptions and P4/P5 exit gaps remain explicit. Existing source-specific reviews remain valid within their scopes; this baseline does not erase them or infer that other records were not attempted.
+
+The discovery matrix includes the five named sectors and the existing general search category in all 50 states. Queries, coverage and source recovery still need their actual evidence: 300 planned coverage cells do not prove complete municipal coverage or recall. The ballot census and unresolved seed queues are separately named.
+
+Every required consumer retains an owner role, current local baseline HEAD, intended output, validation and pending delivery disposition. The prior audit's historical editions and active sibling campaign remain preserved; a local HEAD does not prove remote or hosted delivery. Full project/disclosure corpus refresh is not silently added: project facts used by updated prose and legal/project bridges require an explicitly enumerated, reviewed subset through the canonical Server Country workflow; other corpora retain their own dated snapshots.
+
+The freshness contract separates summed terminal outcomes from process counters and source-unavailable reasons. A generic unreviewed cell or row skeleton is not a completed substantive assessment. The full per-record funnel, exact project subset, source recovery, final claim-to-output checklist, consumer delivery and immutable publication remain to be completed.
+
+Revision 2 addresses the independent scope review's six findings: explicit canonical/search vocabulary translations and neutral routing; current legacy-manifest pins with the historical native migration/gap receipt and explicitly unfrozen live-store state; complete per-workstream fields; separate local/state/election discovery lanes; required manual-claim reviewer/source/cutoff and full-surface audits; and named P4/P5/P6/P7 gates plus post-cutoff followups. Native migration and current manifest pins are separate: seven manifest hashes differ from the retained migration receipt, so that receipt cannot be treated as a current complete archive snapshot.
+
+The more recent California-term inventory summary is separately pinned: 6,794 manifest records, 3,352 verified retained-body records and 3,442 gap records. It is an aggregate receipt with a retained private inventory hash, rather than a transaction-consistent native-store snapshot. The earlier migration mapping retains its historical 6,760-record scope and seven manifest differences.
+
+Revision 3 records the issue-register hashes as historical pins at the baseline commit, with separately named evolving live paths. The frozen election worklist decomposes into 250 independent state/sector discovery entries plus 50 older canonical-measure entries; these differ from the current 51-measure table and require explicit reconciliation.
