@@ -1,0 +1,73 @@
+{
+  "scope": "Independent substantive review of all current Ohio and Illinois policy rows against retained official evidence, with explicit field limitations. Not all-state freshness or new source acquisition.",
+  "baseline_csv_sha256": "1adf9cfeb4e30854b0b6c7db97ead5aeb39d00263da7fee9fe097a2fef615b85",
+  "baseline_rows_sha256": "c81c4f3a33d467b71222753a46d6a8f144629dd6e259a0b144039e4e57b811f1",
+  "jobs": [
+    {
+      "job_id": "il-state-policy-001",
+      "spec_sha256": "ec02c962183cc349dd6c413114555896c4c44ac86bc3fb5e09b9c9655cd439bb",
+      "state": "IL",
+      "record_ids": [
+        "il-hb3574-procurement-data-residency",
+        "il-hb4319-data-center-property-rights",
+        "il-hb5513-hyperscale-data-centers-power-act-companion",
+        "il-sb0094-data-centers-foreign-ownership",
+        "il-sb2181-data-center-reporting",
+        "il-sb2290-use-occ-tx-quantum-computing",
+        "il-sb3120-dceo-data-centers",
+        "il-sb3761-data-centers-various"
+      ],
+      "retained_answers_sha256": "da2df335733f61f5f36ef307235cb6dc00585677e0f6eddfc7b0eb5208bc1415",
+      "retained_packet_sha256": "73c763cb6a60bcc67437efa61a694cc0ee1ca8d763ea8d97c06f9f5e69bd0a13"
+    },
+    {
+      "job_id": "il-state-policy-002",
+      "spec_sha256": "9317462b1f54f1ec6a051f0e721a6f3543ec0a4986afd89fbfea55f99b454c53",
+      "state": "IL",
+      "record_ids": [
+        "il-sb3830-data-centers-various",
+        "il-sb4004-aquifer-protection-act",
+        "il-sb4016-hyperscale-data-centers-power-act"
+      ],
+      "retained_answers_sha256": "355b9924e12483ec2f2207026bea1bf44cb8a94e09c61dcf9282a3cba4ef002d",
+      "retained_packet_sha256": "52088418d68da1a2333ad7f0177893b11f2921351e0fd35916954841c6bcd77f"
+    },
+    {
+      "job_id": "oh-state-policy-001",
+      "spec_sha256": "48f821d5781da8c9e0a84b8dee520e513e7d7d82038b7496797a51cb97936c16",
+      "state": "OH",
+      "record_ids": [
+        "oh-hb-392",
+        "oh-hb-646",
+        "oh-hb-695",
+        "oh-hb-706",
+        "oh-hb-710",
+        "oh-hb-784",
+        "oh-hb-96",
+        "oh-sb-145"
+      ],
+      "retained_answers_sha256": "5e1da35c10cdd757601814d65245d953953ef9c5d757087157b395bf8e5d2078",
+      "retained_packet_sha256": "5a45ee0cac5227892346cc4612ddad8a50ff49afc40cd4950afe57b85d85a123"
+    },
+    {
+      "job_id": "oh-state-policy-002",
+      "spec_sha256": "5e617c863bfba19a9433948952365378b94a1bd2db14361e0c2fac8b971ad99f",
+      "state": "OH",
+      "record_ids": [
+        "oh-sb-190",
+        "oh-sb-374",
+        "oh-sb-378",
+        "oh-sb-381"
+      ],
+      "retained_answers_sha256": "1ff87fa34733c8117270e9b650af2b4c8e730b2a7ecdefaf4cc6bf5c7c690d8f",
+      "retained_packet_sha256": "7e2b40eb8c7fab4b9772cbacb2891356f3e7e93705ad59aa55dea6f449cbbbf5"
+    }
+  ],
+  "total_records": 23,
+  "states": {
+    "OH": 12,
+    "IL": 11
+  },
+  "model_requested": "gpt-6.1-terra",
+  "automatic_promotion": false
+}
