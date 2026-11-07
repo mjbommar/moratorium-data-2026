@@ -1,0 +1,26 @@
+{
+  "protocol_sha256": "3e9a76dbfc14433eedac34d09fbdd12d8ae3aaac9a81fb5a2c5b5a71c2d0c1f0",
+  "planned_units": 86,
+  "semantic_slots": 12,
+  "independent_unit_label_disagreements": 7,
+  "independent_slot_disagreements": 0,
+  "coordinator_review_sha256": "d8946461e6f3d5791a3f3e695d83e8a5c1e96fa64b7d39328ba65446f81849f0",
+  "independent_review_sha256": [
+    "f0b3bc236b36eb909df99f125f23f58a5bdfaf4abf1df2b7d0daf70d01e28364",
+    "df84c183671205e24eed0d0d04e0aa486bbc1444c07e1de6ef517d4272fcb285"
+  ],
+  "adjudication_notes_sha256": "5ffd0d2bd44c1c88c0b02cc6a9f51e72f06e9317ab1a3a8c50679895d26e90f0",
+  "method": "Three fresh independent Terra CLI source-review sessions. Root directly checked disputed unit expressions and selected exact source contexts; other judgments retain the blind draft. Unit017 becomes unsupported for lost negative-exemption direction; unit018 becomes ambiguous for source drafting uncertainty. These are source-informed AI judgments, not human gold.",
+  "source_slot_coverage": {
+    "mandan": {
+      "covered": 3,
+      "required": 7
+    },
+    "harwood": {
+      "covered": 2,
+      "required": 5
+    }
+  },
+  "canonical_records_written": 0,
+  "overall_P4_closed": false
+}

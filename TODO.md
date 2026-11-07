@@ -431,5 +431,8 @@ Exit: repeatable refresh with visible freshness, costs, failures and unresolved 
 
 - [x] Freeze and independently review the separate 86-request direct-unit development protocol, actual model/runtime/tool/retry/HTTP/storage/pricing pins and reviewed private plans (`work/research/2026-11-07/direct-rule-unit-evaluation/`).
 - [x] Exercise full healthy/failing MockTransport runs and three-review auditor integration; preserve a pre-first-call correction allowing justified source nonextractability without discarding returned clauses or weakening required-slot/error rules.
-- [ ] Execute the frozen direct-unit live run and reconcile its actual attempts/reservations/results.
-- [ ] Complete independent source reviews, coordinator adjudication and quality audit; no P4 or full-refresh acceptance from development alone.
+- [x] Execute the frozen direct-unit live run:86responses, no failed/unpriced attempts or replay calls; frozen accounting reconciles $1.614114 in SDK estimates, not invoice.
+- [x] Complete independent source reviews, selected coordinator adjudication and frozen quality audit:64/86supported labels,5/12slots,71exact-location-flagged units; gate failed, no promotion/P4closure.
+
+- [ ] Before another known-document automatic-condition retry, reconcile the actual remaining P4 exit criteria (including unseen holdout/discovery metrics) and full-record freshness work; do not substitute repeated development experiments for the comprehensive refresh.
+- [ ] Fix source-bound citations, reviewed document-context propagation and governing qualification/direction handling before further automatic condition generation; preserve all frozen failures.

@@ -1,0 +1,78 @@
+{
+  "protocol_sha256": "3e9a76dbfc14433eedac34d09fbdd12d8ae3aaac9a81fb5a2c5b5a71c2d0c1f0",
+  "protocol_commit": "94a39aa",
+  "execution": {
+    "all_successful_replays_no_extra_calls": true,
+    "backend_result_records": 86,
+    "cases": [
+      {
+        "backend_calls": 20,
+        "candidate_count": 20,
+        "case_id": "mandan-direct",
+        "held_reservations_usd": 0,
+        "ledger_calls": 20,
+        "planned_count": 20,
+        "replay_without_calls": true,
+        "status": "finished",
+        "unresolved_count": 0
+      },
+      {
+        "backend_calls": 66,
+        "candidate_count": 66,
+        "case_id": "harwood-direct",
+        "held_reservations_usd": 0,
+        "ledger_calls": 66,
+        "planned_count": 66,
+        "replay_without_calls": true,
+        "status": "finished",
+        "unresolved_count": 0
+      }
+    ],
+    "failure_policy": "Stop the failing case without retry; continue the other fixed case only after global pins, storage and transport revalidate.",
+    "http_reservation_count": 86,
+    "http_response_count": 86,
+    "mode": "provider",
+    "provider_requests": 86,
+    "status": "finished"
+  },
+  "case_metadata": {
+    "mandan-direct": {
+      "planned_units": 20,
+      "returned_candidate_clauses": 20,
+      "unresolved": 0,
+      "flags": {
+        "units_with_flags": 17,
+        "quote_unlocated_or_ambiguous": 17
+      },
+      "quote_diagnostics": {
+        "checked_quotes": 102,
+        "unlocated_quotes": 48,
+        "unlocated_but_whitespace_match": 44,
+        "unlocated_without_whitespace_match": 4
+      },
+      "accounted_sdk_estimate_usd": 0.24793199999999999
+    },
+    "harwood-direct": {
+      "planned_units": 66,
+      "returned_candidate_clauses": 66,
+      "unresolved": 0,
+      "flags": {
+        "units_with_flags": 54,
+        "quote_unlocated_or_ambiguous": 54
+      },
+      "quote_diagnostics": {
+        "checked_quotes": 343,
+        "unlocated_quotes": 85,
+        "unlocated_without_whitespace_match": 54,
+        "unlocated_but_whitespace_match": 31
+      },
+      "accounted_sdk_estimate_usd": 1.366182
+    }
+  },
+  "accounted_sdk_estimate_usd": 1.614114,
+  "cost_scope": "Final frozen auditor reconciles all86priced attempts/results; pinned SDK estimates, not invoice.",
+  "quality_scope": "Source-informed reviews and selected root adjudication complete; frozen gate failed. Whitespace comparison remains diagnostic only, with original outputs/flags unchanged.",
+  "canonical_records_written": 0,
+  "overall_P4_closed": false,
+  "private_terminal_sha256": "8a33e44c239f2e28d849c8f76e11d82c8c86ec0498da9428b7b428219c6e561b"
+}

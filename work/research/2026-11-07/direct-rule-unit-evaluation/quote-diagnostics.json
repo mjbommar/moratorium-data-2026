@@ -1,0 +1,46 @@
+{
+  "protocol_sha256": "3e9a76dbfc14433eedac34d09fbdd12d8ae3aaac9a81fb5a2c5b5a71c2d0c1f0",
+  "cases": {
+    "mandan-direct": {
+      "planned": 20,
+      "returned_candidates": 20,
+      "unresolved": 0,
+      "unit_flags": {
+        "units_with_flags": 17,
+        "quote_unlocated_or_ambiguous": 17
+      },
+      "quote_instances": {
+        "checked_quote_instances": 102,
+        "unlocated_quote_instances": 48,
+        "unlocated_but_whitespace_match": 44,
+        "unlocated_without_whitespace_match": 4
+      },
+      "returned_assertion_contexts": {
+        "proposed": 17,
+        "unknown": 1,
+        "enacted_text": 2
+      }
+    },
+    "harwood-direct": {
+      "planned": 66,
+      "returned_candidates": 66,
+      "unresolved": 0,
+      "unit_flags": {
+        "units_with_flags": 54,
+        "quote_unlocated_or_ambiguous": 54
+      },
+      "quote_instances": {
+        "checked_quote_instances": 343,
+        "unlocated_quote_instances": 85,
+        "unlocated_without_whitespace_match": 54,
+        "unlocated_but_whitespace_match": 31
+      },
+      "returned_assertion_contexts": {
+        "proposed": 58,
+        "enacted_text": 5,
+        "unknown": 3
+      }
+    }
+  },
+  "scope": "Counts only. Whitespace comparison is diagnostic, not an alignment, source correction, quote acceptance or semantic judgment. Original candidates and flags are unchanged."
+}
