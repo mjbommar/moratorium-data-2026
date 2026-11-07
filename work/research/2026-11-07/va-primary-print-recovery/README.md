@@ -1,0 +1,7 @@
+# Virginia primary print recovery
+
+Six previously missing retained bill prints were recovered on November 7: introduced HB1515, HB155 and HB503; enrolled HB1601 and SB1449; and engrossed HB338. The bounded BC research client made seven HTTP fetches, including a retained 404 followed by HB338's official history-linked `/legacy/` URL. All seven reservations are terminal. No Exa, SerpAPI, browser or LLM extraction calls were used in this recovery; transport pricing is unknown, not zero.
+
+The coordinator independently rehashed all six PDF bodies, original client texts and separate layout texts and checked the PDF headers. The receipt records version identities, hashes, status and page counts; raw bodies and extracted text remain private. The enrolled prints have blank approval fields. HB338's historical print identifier and displayed engrossment label differ as recorded in the receipt; a companion act is not substituted for any requested version.
+
+These acquisitions supply missing historical texts, not later legal force. Independent content and layout-derivation review is in progress. Accepted field changes and shared archive ingestion require their own receipts; neither occurred as part of this recovery. Earlier review ledgers remain historical rather than being overwritten with newly available evidence. Six prints do not establish the complete legislative record, amendments, post-veto proceedings or current force.
