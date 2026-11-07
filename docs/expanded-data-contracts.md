@@ -6,7 +6,7 @@ moratorium grain and exclusion of permanent bans remain unchanged. A successful
 validation is structural consistency, not proof of legal effect, source accuracy,
 identity, completeness, or permission to publish. An initial [reviewed snapshot writer](expanded-promotion.md) now supplies separate
 identity, evidence, field-review and atomic-publication gates; reviewed canonical
-records currently cover 51 reviewed proposal and measure records (49 from the frozen cohort, Jay's separately reviewed solar ballot and a separate Wilmington litigated initiative), with explicit result supersession and seven unresolved frozen candidate groups kept outside the canonical measure total. The restriction/link migration now includes Edgewater’s proposed charter restriction with unknown legal status and an accepted `proposes` relationship. No adoption/effect event or current force is inferred; the broader migration remains incomplete. See the
+records currently cover 51 reviewed proposal and measure records (49 from the frozen cohort, Jay's separately reviewed solar ballot and a separate Wilmington litigated initiative), with explicit result supersession and seven unresolved frozen candidate groups kept outside the canonical measure total. The restriction/link migration now includes Edgewater’s proposed charter restriction with unknown legal status and an accepted `proposes` relationship. For Edgewater, no adoption/effect event or current force is inferred. The [Coachella history migration](../work/research/2026-11-07/coachella-restriction-history-migration/README.md) adds a separate adopted prohibition and qualified policy-predecessor relation without establishing effectiveness, formal termination or present force; broader migration remains incomplete. See the
 [generated results view](ballot-results.md). Identity decisions have a separate
 [append-only registry](expanded-identity-registry.md).
 
@@ -49,16 +49,16 @@ facts, certification or legal-force review.
 
 ## Files and validation
 
-The canonical publication selects [validation profile 1.0.3](../work/schemas/expanded/1.0.3.json)
+The canonical publication selects [validation profile 1.0.4](../work/schemas/expanded/1.0.4.json)
 for the unchanged `schema_version: "1.0.0"` record format. The [event contract](instrument-events.md)
 and [validity publication protocol](event-validity-publication.md) bind exact event claims,
 review validity, retained history and source/legal limits. Bound publication readers dispatch
-from the authenticated receipt. For standalone candidate validation select `--profile 1.0.3`
+from the authenticated receipt. For standalone candidate validation select `--profile 1.0.4`
 explicitly; its retained default is 1.0.1. The original schemas remain retained for
 frozen fixtures and historical receipts.
 
 The [compound-condition contract](compound-condition-development.md) supports nested
-clause logic under 1.0.3. A [source-reviewed publication](../work/research/2026-11-06/compound-clause-source-review/README.md)
+clause logic introduced under 1.0.3 and retained by 1.0.4. A [source-reviewed publication](../work/research/2026-11-06/compound-clause-source-review/README.md)
 adds twelve proposed clauses to two existing provisions; absent clauses leave
 legacy flat grouping unspecified. No legal force or extraction accuracy is inferred.
 
@@ -261,8 +261,8 @@ existing URLs and remain unchanged.
 
 ## Optional event validity profile
 
-[Profile 1.0.2](event-validity-publication.md) adds explicit event review validity and typed correction evidence without rewriting existing event records. A source generation selecting it gains separate retained, current-accepted and status CSV views. The [five-event migration](../work/research/2026-11-06/event-validity-migration/README.md) introduced profile 1.0.2 after source review; the current compound-clause publication selects 1.0.3 and preserves those event safeguards. Event validity means acceptance of a historical source-supported action, not current legal force.
+[Profile 1.0.2](event-validity-publication.md) adds explicit event review validity and typed correction evidence without rewriting existing event records. A source generation selecting it gains separate retained, current-accepted and status CSV views. The [five-event migration](../work/research/2026-11-06/event-validity-migration/README.md) introduced profile 1.0.2 after source review; the compound-clause publication selected 1.0.3, and current profile 1.0.4 preserves those safeguards while adding qualified policy succession. Event validity means acceptance of a historical source-supported action, not current legal force.
 
 ## Qualified policy succession
 
-[Profile 1.0.4](policy-succession-contract.md) adds a typed successor-adoption event and predecessor reference, with a mandatory qualification that policy succession does not establish formal termination, overlap or current force. It preserves the earlier profiles and their receipts. The current publication receipt identifies which profile its data actually uses; availability of this contract alone is not a real-data migration. Source and field review remain mandatory, and automatic extraction stays pinned to the earlier supported candidate schema.
+[Profile 1.0.4](policy-succession-contract.md) adds a typed successor-adoption event and predecessor reference, with a mandatory qualification that policy succession does not establish formal termination, overlap or current force. It preserves the earlier profiles and their receipts. The current publication receipt identifies which profile its data actually uses; the [Coachella migration](../work/research/2026-11-07/coachella-restriction-history-migration/README.md) now selects it, with ten total historical events and two restriction records. These counts do not establish current legal force. Source and field review remain mandatory, and automatic extraction stays pinned to the earlier supported candidate schema.

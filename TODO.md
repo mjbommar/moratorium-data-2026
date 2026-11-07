@@ -472,3 +472,5 @@ Exit: repeatable refresh with visible freshness, costs, failures and unresolved 
 - [x] Align appendix sector labels with canonical arrays; record 179 prior prose-heuristic disagreements without claiming independent legal-scope verification (`work/research/2026-11-07/typed-inventory-table/`). Other charts and narrative consumers remain open.
 
 - [x] Finish all three Georgia subdivisions: 12 records/312 primary field assessments, with 116 third-packet proof spans checked and published as hashes/line ranges rather than raw OCR (`work/research/2026-11-07/georgia-twelve-field-assessment/`). This closes primary enumeration only; independent judgments, source gaps and current-force freshness remain open.
+
+- [x] Publish Coachella's restriction and three historical events with a qualified typed policy predecessor under profile 1.0.4; verify 559 retained-source claim bindings, preserve all prior records and exact replay (`work/research/2026-11-07/coachella-restriction-history-migration/`). Ten events/two restriction records now; formal termination, current force, broader P4 and final release remain open.

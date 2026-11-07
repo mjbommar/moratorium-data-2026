@@ -3,6 +3,8 @@
 Work from a pinned commit and retain the cohort cutoff separately from the date
 of an individual source review. Research jobs are not a substantive acceptance gate.
 
+The latest working publication selects [profile 1.0.4](policy-succession-contract.md): ten retained historical events, two restriction records, and the unchanged 51 measure/proposal records with 57 retained/50 current results and five current certified observations. Full freshness and final release remain open. Dated checkpoints below retain their historical counts and test results; use the authenticated publication and generated views for current totals.
+
 ## Due work
 
 Run the ballot worklist without network or model calls:

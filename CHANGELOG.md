@@ -2,10 +2,17 @@
 
 ## 2026-11-07 — current working snapshot (unreleased)
 
+The [Coachella restriction/history publication](work/research/2026-11-07/coachella-restriction-history-migration/README.md)
+adds one restriction record and three historical events, including a typed policy
+predecessor. Restriction records rise from one to two and events from seven to ten;
+51 measure records and both legacy census totals are unchanged. This establishes
+qualified policy succession, not formal termination, effectiveness or current force.
+All earlier expanded records remain unchanged.
+
 [Profile 1.0.4 support](docs/policy-succession-contract.md) adds a typed, qualified
 policy-succession event without inferring formal termination or current force.
-Earlier profiles and receipts remain intact; actual Coachella expanded publication
-is a separate gate. The integrated native suite passes 430 tests. The appendix
+Earlier profiles and receipts remain intact; the Coachella expanded publication
+now selects 1.0.4. The integrated native suite passes 430 tests. The appendix
 now uses recorded sector arrays; the prior prose heuristic disagreed on 179 rows.
 This is rendering fidelity, not independent verification of all sector facts.
 

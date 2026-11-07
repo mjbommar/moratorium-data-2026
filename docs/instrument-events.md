@@ -5,6 +5,8 @@ does not establish the instrument's current legal force. Legacy moratorium IDs,
 restriction IDs and state-action IDs retain separate namespaces. A ballot result
 is not an adoption or effectiveness event without independent source support.
 
+The current publication selects [profile 1.0.4](policy-succession-contract.md), with ten retained historical events. It includes a qualified policy-successor adoption linked to its predecessor; no termination or current-force conclusion follows. The sections below describe the foundational 1.0.1 contract; subsequent profiles preserve that contract and add explicit validity, compound-condition and qualified-relation requirements.
+
 ## Validation profile and evidence binding
 
 [Profile 1.0.1](../work/schemas/expanded/1.0.1.json) preserves the record format
@@ -15,7 +17,7 @@ historical records. CSV manifests pin the exact selected profile bytes. Portable
 bundles retain both profiles, including the one needed by the active validator.
 
 Historical 1.0.0 publication plans and the unmodified retrospective pilot select
-the 1.0.0 semantic rules explicitly. New event publication requires plan version
+the 1.0.0 semantic rules explicitly. Event introduction under profile 1.0.1 required plan version
 1.0.1 with a `validation_profile` pin containing its name, exact schema hash and
 `event-exact-accepted-v1` semantics. Publication and offline-history checks select
 that profile per plan; they do not reinterpret old event examples under the new
