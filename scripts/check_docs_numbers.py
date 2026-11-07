@@ -102,6 +102,7 @@ def facts() -> dict[str, int | float]:
 # Patterns are anchored on distinctive surrounding words so they cannot drift
 # onto an unrelated number.
 CLAIMS: list[tuple[str, str, str, str]] = [
+    ("docs/FAQ.md", r"current working inventory has ([\d,]+) rows", "rows", "FAQ current inventory rows"),
     ("README.md", r"\*\*([\d,]+) proposal and measure records\*\*", "expanded_records", "README expanded record denominator"),
     ("README.md", r"\*\*([\d,]+) voted, [\d,]+ scheduled, [\d,]+ litigated\*\*", "expanded_voted", "README voted lifecycle"),
     ("README.md", r"\*\*[\d,]+ voted, ([\d,]+) scheduled, [\d,]+ litigated\*\*", "expanded_scheduled", "README scheduled lifecycle"),
@@ -109,7 +110,7 @@ CLAIMS: list[tuple[str, str, str, str]] = [
     ("docs/ballot-results.md", r"\*\*([\d,]+) reviewed measure records", "expanded_records", "Ballot view record denominator"),
     ("docs/ballot-results.md", r"records · ([\d,]+) current result observations", "expanded_current_results", "Ballot view current observations"),
     ("docs/ballot-results.md", r"observations · ([\d,]+) current certified observations", "expanded_certified_results", "Ballot view current certified observations"),
-    ("data/README.md", r"\| ([\d,]+) local-moratorium instruments\.", "rows", "Data landing inventory count"),
+    ("data/README.md", r"\| ([\d,]+) local-moratorium records\.", "rows", "Data landing inventory count"),
     ("data/README.md", r"\| ([\d,]+) state-policy records", "state_policy_actions", "Data landing policy count"),
     ("data/README.md", r"([\d,]+) of [\d,]+ rows have coordinates", "geocoded", "Data landing geocoded count"),
     ("data/README.md", r"[\d,]+ of ([\d,]+) rows have coordinates", "rows", "Data landing geocoded denominator"),
