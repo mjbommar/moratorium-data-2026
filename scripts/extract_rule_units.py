@@ -157,6 +157,9 @@ def packet(state, context):
         if unknown: flags.append('unknown_expression')
         if errors: flags.append('condition_schema_invalid')
         if any(len(q['spans']) != 1 for q in quotes + locations): flags.append('quote_unlocated_or_ambiguous')
+        if (context['document'].get('reviewed_source_role') == 'proposed'
+                and clause['assertion_context'] == 'enacted_text'):
+            flags.append('reviewed_source_role_conflict')
         outputs.append({**base, 'outcome': 'unresolved' if unknown else 'candidate',
                         'reason': 'Condition expression contains unknown' if unknown else None,
                         'clause': clause, 'supporting_quotes': quotes,

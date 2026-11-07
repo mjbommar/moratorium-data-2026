@@ -1,0 +1,24 @@
+{
+  "scope": "Synthetic/offline requestcontext,proposed/enactedreviewflag,andactualnativestorechanged-bodylineage;notmodelqualityorP4acceptance.",
+  "context_commit": "73da3bf",
+  "actual_request_metadata": [
+    "suppliedtitle",
+    "reviewed_source_role(defaultunknown)"
+  ],
+  "behavior": [
+    "Invalidmetadatafailsbeforeworkspace/calls; changedmetadata/implementationfailsclosedbeforecachedreplay.",
+    "Proposedsource/enacted_textcandidateaddsreviewed_source_role_conflict;rawresponse/labelnotrepairedandcandidateunaccepted.",
+    "SameURL/differentbody/differentobservedtimeproduces2nativedurableobservations;replayremains2;old/newclaimsresolveonlyagainsttheirverifiedbytes.",
+    "Tamperedclientcachedoesnotrewritearchivedornativeversions."
+  ],
+  "tests": {
+    "focused_native_and_role": "32passed40subtests",
+    "full": "426passed179subtests",
+    "full_log_sha256": "4882e241dc273e34ff94576f0cf548c0b560e2e9ce79f9147e8b3de61956bcbb"
+  },
+  "limits": [
+    "No newpaidmodeltrial; contextavailability/flagdoesnotproveimprovedextractionquality.",
+    "Flagsrequireadjudication; quotedhistoricalprovisionmayneedcontext-specificreview.",
+    "Historicalspentspacesandrawoutputsnotrewritten/reused."
+  ]
+}

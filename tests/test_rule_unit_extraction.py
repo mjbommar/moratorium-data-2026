@@ -28,6 +28,24 @@ def unknown(unit):
     return dict(unit_id=unit, outcome='unresolved', clause=None, supporting_quotes=[], unresolved_reason='Cannot determine')
 
 class Tests(unittest.IsolatedAsyncioTestCase):
+    async def test_proposed_source_enacted_claim_is_flagged_without_repair(self):
+        with tempfile.TemporaryDirectory() as d:
+            mismatch=candidate('u1')
+            consistent=candidate('u2')
+            consistent['clause']['assertion_context']='proposed'
+            backend=ScriptedBackend({'*':[mismatch,consistent]})
+            out=await ext.run(d,{**DOC,'reviewed_source_role':'proposed'},PLAN,
+                              backend=backend,**ARGS)
+            first,second=out['units']
+            self.assertIn('reviewed_source_role_conflict',first['review_flags'])
+            self.assertNotIn('reviewed_source_role_conflict',second['review_flags'])
+            self.assertEqual(first['clause']['assertion_context'],'enacted_text')
+            self.assertFalse(first['accepted'])
+            self.assertTrue(first['review_required'])
+            self.assertEqual(out,await ext.run(d,{**DOC,'reviewed_source_role':'proposed'},
+                                             PLAN,backend=backend,**ARGS))
+            self.assertEqual(len(backend.calls),2)
+
     async def test_document_context_in_actual_requests_and_replay(self):
         for role in ('proposed', 'enacted_text', 'source_reported', 'unknown', None):
             with self.subTest(role=role), tempfile.TemporaryDirectory() as d:
