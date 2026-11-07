@@ -81,7 +81,7 @@ Exit: ballot cases fit without conflating votes, legal force or legacy counts.
 - [ ] Add exact-identifier/reference chasing, feedback queries and bounded relaxation.
 - [ ] Calibrate ResearchSearch tiers without excluding primary sources or reverse-polarity measures.
 - [ ] Reserve bounded deep_research/source-agent use for difficult cases; retain skipped stages and conversations.
-- [ ] Configure current SerpAPI pricing and whole-run/per-stage budgets, including unpriced-call policy. The frozen extraction trial also finds that backend max_attempts1 leaves SDK retries enabled; actual provider attempts and failed-attempt spend are unobserved (`frozen-domain-evaluation/sdk-retry-audit.json`). Fix strict transport accounting before claiming a provider cap.
+- [ ] Configure current SerpAPI pricing and whole-run/per-stage budgets, including unpriced-call policy. The frozen extraction trial also finds that backend max_attempts1 leaves SDK retries enabled; actual provider attempts and failed-attempt spend are unobserved (`frozen-domain-evaluation/sdk-retry-audit.json`). The new committed development comparison pins SDK retries to zero, observes HTTP reservations and holds unpriced failures under a before-write storage cap (`work/research/2026-11-07/compound-chunk-policy-evaluation/`); its provider execution is in progress. This does not reconstruct the old run or settle SerpAPI/whole-run pricing.
 - [ ] Pin model roles/settings and cache fingerprints; redact secrets from retained responses.
 - [x] Implement HTTP/browser escalation and bounded PDF/office-document collection.
 - [ ] Configure source/provider pacing, Retry-After, explicit retries and verified routing as applicable.
