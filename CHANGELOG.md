@@ -2,6 +2,17 @@
 
 ## 2026-11-07 — current working snapshot (unreleased)
 
+These are inventory classifications, not independently renewed legal-force findings.
+
+| Metric | Current |
+|---|---:|
+| Moratoria in the list | **1330** |
+| Classified active or extended | **1079** |
+| Pending or not yet effective | **79** |
+| Ended (replaced, expired, or rescinded) | **172** |
+| Rows we still want to confirm (`[VERIFY]`) | **704** |
+| States with at least one | **47** |
+
 Current totals remain 1,330 local records (1,079 active/extended classifications),
 442 state-policy records, and 51 ballot/proposal records (49 voted, one scheduled,
 one litigated). The expanded history retains 57 results, 50 current observations
