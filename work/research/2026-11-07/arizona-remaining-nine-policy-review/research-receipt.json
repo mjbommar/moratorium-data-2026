@@ -1,0 +1,64 @@
+{
+  "attempts": [
+    {
+      "attempt_id": "5b6230aadb57478784b6f73a03052191",
+      "kind": "exa",
+      "query": "Arizona legislature 57th second regular session sine die adjourned June 2026",
+      "hits": 10,
+      "cost_usd": 0.007,
+      "unpriced": false,
+      "include_domains": [
+        "azleg.gov"
+      ],
+      "query_scope_check": {
+        "status": "all_returned_urls_in_declared_sites",
+        "declared_sites": [
+          "azleg.gov"
+        ],
+        "matching_hits": 10,
+        "nonmatching_hits": 0,
+        "observed_hosts": [
+          "www.azleg.gov"
+        ],
+        "scope": "Diagnostic of returned URL hosts, not query-language validation or evidence of absence. Check ambiguous OR branches and fetch substantive sources."
+      }
+    },
+    {
+      "attempt_id": "ab047e0fa038448683d516269d030dce",
+      "kind": "fetch",
+      "url": "https://www.azleg.gov/ticker/homepage-ticker/",
+      "status": 200,
+      "ok": true,
+      "body_sha256": "6ac45641dbd8ec11ff725b25cd56989098fec45f5403e6fb25d0dafcb0482871",
+      "text_sha256": "93b31f23f706d04e67183b80cc6711994d683ac953f2bf6dba309ea3a4aa3e59",
+      "body_observed_at": "2026-11-07T19:57:09.267910Z"
+    },
+    {
+      "attempt_id": "382fa2b5f2e047d0a0b53122d0f8f884",
+      "kind": "serpapi",
+      "query": "\"HB2949\" \"2026\" \"Bill History\" Arizona",
+      "hits": 10,
+      "cost_usd": null,
+      "unpriced": true,
+      "include_domains": [
+        "apps.azleg.gov"
+      ],
+      "query_scope_check": {
+        "status": "no_returned_url_in_declared_sites",
+        "declared_sites": [
+          "apps.azleg.gov"
+        ],
+        "matching_hits": 0,
+        "nonmatching_hits": 10,
+        "observed_hosts": [
+          "legiscan.com",
+          "www.azleg.gov",
+          "www.billtrack50.com"
+        ],
+        "scope": "Diagnostic of returned URL hosts, not query-language validation or evidence of absence. Check ambiguous OR branches and fetch substantive sources."
+      }
+    }
+  ],
+  "scope": "One Exa and one SerpAPI query, one official ticker fetch; no official-host SerpAPI result is not evidence of bill absence. Original bodies and provider payloads retained privately.",
+  "source_archive": "One additional native source version migrated; no payload gaps."
+}

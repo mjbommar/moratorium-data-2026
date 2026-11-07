@@ -493,3 +493,7 @@ Exit: repeatable refresh with visible freshness, costs, failures and unresolved 
 - [x] Migrate the two Clarksville petition-described financing/tax-authorization mechanisms into source-qualified proposed provisions, preserving final-date/wording/effect unknowns and treating bond ceilings as authorization amounts, not project spending or eligibility thresholds. Two proposed provisions, two claims and ten decisions published after independent Terra and coordinator review; no legal-force claim accepted (`work/research/2026-11-07/clarksville-financing-publication/`).
 
 - [x] Apply 21 guarded Arkansas policy cells across seven existing records after 133 field assessments and final visual source adjudication; retain current-law and effective-date followups (`work/research/2026-11-07/arkansas-policy-source-review/`).
+
+- [x] Apply 21 distinct field corrections across the first four Arizona policy records after 76 assessments and independent review; retain the other nine rows and current-force/current-law followups (`work/research/2026-11-07/arizona-first-four-policy-review/`).
+
+- [x] Apply 55 guarded cells across the remaining nine Arizona records after 171 assessments and independent adjudication, and reconcile four unsupported terminal categories in the first-four packet; all 13 Arizona records have 247 field assessments and 80 net field changes. Current-force/history/party/activity followups remain open (`work/research/2026-11-07/arizona-remaining-nine-policy-review/`).

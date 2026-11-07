@@ -2,6 +2,10 @@
 
 ## 2026-11-07 — current working snapshot (unreleased)
 
+The [remaining nine Arizona reviews](work/research/2026-11-07/arizona-remaining-nine-policy-review/README.md) apply 55 cells after 171 assessments, plus four disposition corrections in two first-four rows. Across all 13 Arizona records, the net change is 80 distinct fields after 247 assessments. Retain historical failure leads while setting unsupported terminal categories to unknown; preserve two official recorded-action dates. Census totals are unchanged; complete later histories and current force remain open.
+
+The [first four Arizona policy reviews](work/research/2026-11-07/arizona-first-four-policy-review/README.md) apply 21 distinct field corrections after 76 field assessments. Correct fiscal versus construction restrictions, county-planning and utility-exemption direction, primary links and historical-status qualifications; clear an application-start date wrongly recorded as legislative action. No census or ballot totals change. Exa discovery, a pydoll ticker capture and independently reviewed official PDF pages resolve June 13 adjournment and Chapter 140’s September 12 effective date separately from July 1 applicability. The remaining nine are reviewed in the companion packet; complete later histories and current-force followups remain open.
+
 The [Clarksville financing publication](work/research/2026-11-07/clarksville-financing-publication/README.md) adds two petition-proposed financing provisions, two claims and ten review decisions, preserving all 3,515 prior record lines. Totals are 52 provisions, 567 claims and 2,516 decisions; measure/result and legacy census totals do not change. Bond ceilings are proposed authorizations, not spending or eligibility thresholds.
 
 The [Arkansas source review](work/research/2026-11-07/arkansas-policy-source-review/README.md) applies 21 cells across seven existing records, correcting incentive direction, utility mechanism, sponsors, historical summaries, primary links and approval/effective versus notification dates. Current force remains unverified.

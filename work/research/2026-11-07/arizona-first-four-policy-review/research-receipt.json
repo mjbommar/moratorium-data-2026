@@ -1,0 +1,100 @@
+{
+  "attempts": [
+    {
+      "attempt_id": "03611df6d0964bf39b57a9f51b9145b1",
+      "kind": "fetch",
+      "url": "https://apps.azleg.gov/BillStatus/BillOverview/83749?SessionId=130",
+      "status": 200,
+      "body_sha256": "b9d132f3279b3807c110dedbe2cfbdb0d298ea6c63e784440c46817999be1a5a",
+      "text_sha256": "a6ecf3fc38df1db12ec3414f827c487999e784fceafda82ed24e3d9c47d9ecd9",
+      "browser_controls": {
+        "engine": "pydoll",
+        "headless": false,
+        "settle_ms": 10000
+      },
+      "body_observed_at": "2026-11-07T19:38:04.969592Z",
+      "retained_body_sha256": "b9d132f3279b3807c110dedbe2cfbdb0d298ea6c63e784440c46817999be1a5a"
+    },
+    {
+      "attempt_id": "e6b271ab51c84bafa1d464f41c586a0a",
+      "kind": "fetch",
+      "url": "https://apps.azleg.gov/BillStatus/BillOverview/84224?SessionId=130",
+      "status": 200,
+      "body_sha256": "c453e877ed173f5cbcc111d1d80e1e7a5bfcdce7fd67d0946ba336d1e355f413",
+      "text_sha256": "de06d1fe3b23f8e137c14407698266c2aab7d22237987c540ceeed54be921153",
+      "browser_controls": {
+        "engine": "pydoll",
+        "headless": false,
+        "settle_ms": 10000
+      },
+      "body_observed_at": "2026-11-07T19:38:24.458032Z",
+      "retained_body_sha256": "c453e877ed173f5cbcc111d1d80e1e7a5bfcdce7fd67d0946ba336d1e355f413"
+    },
+    {
+      "attempt_id": "e3957ee8c3674f87a42e71c4ea12618b",
+      "kind": "fetch",
+      "url": "https://apps.azleg.gov/BillStatus/BillOverview/84229?SessionId=130",
+      "status": 200,
+      "body_sha256": "60a80a4b19cde4345425807a2c12c58df96c3e18e0ff4270d64722a9e8542f99",
+      "text_sha256": "05b35bc9145270c7eacb5344e997de4e8e7fd3d4e4f50666d9c64738d1149900",
+      "browser_controls": {
+        "engine": "pydoll",
+        "headless": false,
+        "settle_ms": 10000
+      },
+      "body_observed_at": "2026-11-07T19:38:43.571647Z",
+      "retained_body_sha256": "60a80a4b19cde4345425807a2c12c58df96c3e18e0ff4270d64722a9e8542f99"
+    },
+    {
+      "attempt_id": "5f371e556c244141a44a3e8ebe8ad6be",
+      "kind": "exa",
+      "query": "2026 Arizona legislature sine die June 13 adjournment",
+      "hits": 5,
+      "cost_usd": 0.007,
+      "unpriced": false,
+      "include_domains": [
+        "azleg.gov"
+      ]
+    },
+    {
+      "attempt_id": "011e2bbb755d48d9b8cbc6a5c0470748",
+      "kind": "fetch",
+      "url": "https://www.azleg.gov/alispdfs/57leg/2R/House/SummaryComplete.pdf",
+      "status": 200,
+      "body_sha256": "932d19415b33a74062d1101254caa7910c7d5b7cc6a6fade8dfc806ac5c354ec",
+      "text_sha256": "c91354a2550f7f66fc586762c92d7f2a79219192fcce179df5d70625b4607e0d",
+      "body_observed_at": "2026-11-07T19:58:23.067490Z",
+      "retained_body_sha256": "932d19415b33a74062d1101254caa7910c7d5b7cc6a6fade8dfc806ac5c354ec"
+    },
+    {
+      "attempt_id": "d2b0e3800d1e41d48cbce65a0644cc71",
+      "kind": "fetch",
+      "url": "https://www.azleg.gov/ticker/homepage-ticker/",
+      "status": 200,
+      "body_sha256": "afd08c525195643ae66fb58f469e7f670bac8118d38bcf299dd1a2ebb3ce14d0",
+      "text_sha256": "93b31f23f706d04e67183b80cc6711994d683ac953f2bf6dba309ea3a4aa3e59",
+      "browser_controls": {
+        "engine": "pydoll",
+        "headless": false,
+        "settle_ms": 1500
+      },
+      "body_observed_at": "2026-11-07T19:58:27.215753Z",
+      "retained_body_sha256": "afd08c525195643ae66fb58f469e7f670bac8118d38bcf299dd1a2ebb3ce14d0"
+    }
+  ],
+  "scope": "Three bill-history fetches, one Exa search, one pydoll browser ticker capture, one official session-summary PDF fetch; provider originals retained privately. Search is discovery; substantive findings use fetched bodies.",
+  "derived_text": {
+    "path": "/data0/moratorium-refresh-2026/full-scope-closeout-2026-11-07/next/arizona-policy-first-four/011e2bbb755d48d9b8cbc6a5c0470748.root-derived.private.txt",
+    "sha256": "9657d07f8cd3312df603d8f8c2c8403e7351397daf77deccac43e1df18e66b41",
+    "method": "pdftotext -layout, auxiliary; does not overwrite original provider text"
+  },
+  "root_visual_review": {
+    "actual_pdf_pages": [
+      4,
+      36
+    ],
+    "printed_page_of_bill_summary": 34,
+    "claim": "June13 session adjournment; Chapter140 effectiveSept12, distinct fromJuly1 application",
+    "current_force": "not established"
+  }
+}
