@@ -132,8 +132,57 @@ class DomainTests(unittest.IsolatedAsyncioTestCase):
             self.assertIn('election_specific_evidence_required',candidate['review_flags'])
             self.assertFalse(candidate['accepted'])
 
+    async def test_compound_condition_real_pipeline_preserves_groups_and_context(self):
+        from test_condition_expression import clause, group, threshold
+        value=[clause(group('any',threshold('capacity'),threshold('demand')))]
+        value[0]['source_text']='Either capacity or demand is at least 25 MW.'
+        inputs=self.inputs('180 days from the effective date. '+value[0]['source_text'])
+        fact=self.fact('condition_clauses',value,quote=value[0]['source_text'])
+        with tempfile.TemporaryDirectory() as tmp:
+            backend=self.backend([fact])
+            result=await domain.run(tmp,backend=backend,**inputs)
+            candidate=result['candidates'][0]
+            self.assertFalse(candidate['field_schema_errors'])
+            self.assertEqual(candidate['value'],value)
+            self.assertFalse(candidate['accepted'])
+            self.assertEqual(await domain.run(tmp,backend=backend,**inputs),result)
+            self.assertEqual(len(backend.calls),1)
+        value[0]['source_text']='Invented clause quotation'
+        value[0]['assertion_context']='enacted_text'
+        with tempfile.TemporaryDirectory() as tmp:
+            result=await domain.run(tmp,backend=self.backend([fact]),**inputs)
+            self.assertIn('condition_source_quote_unlocated',result['candidates'][0]['review_flags'])
+            self.assertIn('condition_context_conflict',result['candidates'][0]['review_flags'])
+
+    async def test_invalid_group_retained_without_losing_neighboring_fact(self):
+        from test_condition_expression import clause, group, threshold
+        value=[clause(group('at_least',threshold('capacity'),threshold('demand'),count=3))]
+        value[0]['source_text']='180 days from the effective date'
+        with tempfile.TemporaryDirectory() as tmp:
+            result=await domain.run(tmp,backend=self.backend([self.fact(),self.fact('condition_clauses',value)]),**self.inputs())
+            self.assertEqual(len(result['candidates']),2)
+            by_field={c['target_field']:c for c in result['candidates']}
+            self.assertFalse(by_field['duration']['field_schema_errors'])
+            self.assertIn('field_schema_invalid',by_field['condition_clauses']['review_flags'])
+            self.assertTrue(by_field['condition_clauses']['field_schema_errors'])
+            self.assertFalse(any(c['accepted'] for c in result['candidates']))
+
+    async def test_native_condition_schema_omits_unsupported_validation_keywords(self):
+        def inspect(value):
+            if isinstance(value,dict):
+                self.assertFalse({'if','then','allOf','uniqueItems'} & value.keys())
+                for item in value.values():inspect(item)
+            elif isinstance(value,list):
+                for item in value:inspect(item)
+        inspect(domain.DomainChunk.model_json_schema())
+        from pydantic_ai.profiles.openai import OpenAIJsonSchemaTransformer
+        transformed=OpenAIJsonSchemaTransformer(domain.DomainChunk.model_json_schema(),strict=True).walk()
+        inspect(transformed)
+        self.assertNotIn('oneOf',json.dumps(transformed))
+        self.assertEqual(transformed['type'],'object')
+
     async def test_transport_schema_snapshot_matches_models(self):
-        snapshot=json.loads((ROOT/'work/schemas/extraction/1.1.0.json').read_text())
+        snapshot=json.loads((ROOT/'work/schemas/extraction/1.2.0.json').read_text())
         generated=domain.DomainChunk.model_json_schema()
         for key,value in generated.items():
             self.assertEqual(snapshot[key],value)

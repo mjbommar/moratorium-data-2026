@@ -1,0 +1,69 @@
+{
+  "schema_version": "compound-condition-development-1",
+  "baseline_commit": "a9f6a3a7ec653435232651ace505e45f1f904001",
+  "published_profile": "1.0.2",
+  "new_available_profile": "1.0.3",
+  "new_extraction_transport": "1.2.0",
+  "canonical_snapshot": "9f2c9b4d29e31a5434bb38f071724c38b59b926e114ad4b75acba854aa080287",
+  "canonical_records_changed": 0,
+  "legacy_csvs_unchanged": true,
+  "old_schemas_unchanged": true,
+  "csv_views_byte_identical": 18,
+  "new_csv_generation": "90f0c9487a45b947047a2a730e25eeec8b2396401d78acb75ee8d7b4d374a1cf",
+  "csv_change": "manifest generator hash only; table CSV bytes unchanged",
+  "distributed_cli_jobs": [
+    {
+      "job": "compound-contract",
+      "requested_model": "gpt-6.1-terra",
+      "terminal": "turn.completed",
+      "events_sha256": "f7e614d9ed292872e7f1864797456409ed9320a5dae4710e9d7614322d647aec",
+      "report": "implementation-report.md",
+      "report_sha256": "7281037b33277f3269cb6c8d935f70a846355fa55d036e699697bd13b09d8343",
+      "raw_report_sha256": "4cebec0be036d4fe9e4f47ba02c5badb6758e10112909f45d3f9dd6634ca9611"
+    },
+    {
+      "job": "compound-review",
+      "requested_model": "gpt-6.1-terra",
+      "terminal": "turn.completed",
+      "events_sha256": "5d535ba2fac8f5a17b0f2e8090e8c9ac9626404b83d3e62339eb013b0d1caf59",
+      "report": "initial-review.md",
+      "report_sha256": "e1b64e8bc9dc00aa19d4f8919b1aa0e89e5e165fdfc605aea2ca53d3ad4e3531",
+      "raw_report_sha256": "0a7b5a78e2f6705799468bb0b2eeaf1c95deada9fa905c754ca8a0bb9fdd213f"
+    },
+    {
+      "job": "compound-final-review",
+      "requested_model": "gpt-6.1-terra",
+      "terminal": "turn.completed",
+      "events_sha256": "e3b26ac6f7e630ac7064af510b2ef549cf294862f6b9f9ea934bcfc5e1824b3e",
+      "report": "final-review.md",
+      "report_sha256": "fdcd661901431ecbb81adf6574ba6a5f0b3b4bac7dc499ead92c9191487e0d2c",
+      "raw_report_sha256": "cdf66cbfaed4bac32fc84080097539bb84c7b4afe8d24666e81298fdf53cbff1"
+    }
+  ],
+  "build": {
+    "command": "make data site check PYTHON=.venv/bin/python TODAY=2026-11-05",
+    "exit_code": 0,
+    "log_sha256": "81bef6f847357c60cc0f1cb4addd078537f3d8fe80d8da12b964423cd156feb7",
+    "errors": 0,
+    "warnings": 491,
+    "documented_numbers_checked": 53
+  },
+  "quality_gate": "Historical 32/36 supported; not passed; no new accuracy measured",
+  "files_sha256": {
+    "scripts/condition_expression.py": "992d66879a5be14dc7d468656abebff88e81c602e17191de378ae562346ae97b",
+    "scripts/condition_scoring.py": "67d93ac431eac4d48193818826883503d4b5ece39c70110de3094a811e05ef7a",
+    "scripts/extract_domain_candidates.py": "31e57e4ea14f8a0b958ddc4d3fb6f5f2f5c4a16f36836197aa6dc2d553e12310",
+    "work/schemas/expanded/1.0.3.json": "95a5e191011cffeb89ce6aaf63488902ad8c07080cbbc4b5917ebebaf767762b",
+    "work/schemas/condition-expression/1.0.0.json": "c49b16b2f062507474b639ce7634443e3604490aa380e3287ee98100f4cefa8a",
+    "work/schemas/extraction/1.2.0.json": "944e2431fc40b72bd72b6b37ff8a0d2826e0a758450ba48e7c845750401aafb3",
+    "work/research/2026-11-06/compound-condition-development/full-runner-preflight.py": "91fdbab7035742706cd3b023e34c13eec414f7eab5ed2fbd39cafb2fa387859f",
+    "work/research/2026-11-06/compound-condition-development/full-runner-preflight.json": "fac1a00c1089528f2b6be55fe1c8f846cd0f93d3c6c01d14e68dc4aa7928351a"
+  },
+  "tests": {
+    "command": "PYDANTIC_AI_NO_BANNER=1 /home/mjbommar/projects/bc/bc-modules/.venv/bin/python -m unittest discover -s tests -q",
+    "passed": 340,
+    "exit_code": 0,
+    "log_sha256": "93af1be882172f8a1e51a33f2f44b3673f9f0a91d9d956a0e905241e0db18a3b"
+  },
+  "csv_whitespace": "Retained quoted source whitespace is byte-identical to prior published CSVs; excluded only from whitespace lint, not data validation."
+}

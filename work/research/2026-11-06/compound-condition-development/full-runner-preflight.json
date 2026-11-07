@@ -1,0 +1,22 @@
+{
+  "schema_version": "controlled-domain-runner-preflight-1",
+  "provider_requests": 0,
+  "transport": "httpx2.MockTransport only",
+  "scenarios": [
+    {
+      "scenario": "success",
+      "mock_http_requests": 1,
+      "reconstructed_backend": true,
+      "persistent_caps_verified": true,
+      "cache_replay_without_http": true
+    },
+    {
+      "scenario": "failure",
+      "mock_http_requests": 1,
+      "reconstructed_backend": true,
+      "persistent_caps_verified": true,
+      "cache_replay_without_http": false
+    }
+  ],
+  "passed": true
+}

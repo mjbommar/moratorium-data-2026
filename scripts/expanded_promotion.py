@@ -68,7 +68,7 @@ def read_snapshot(path):
 def review_gate(rows, registry, plan, proofs, previous, previous_reviewed_at=None):
     profile=plan.get('validation_profile',{}).get('name','1.0.0')
     withdrawn=set()
-    if profile=='1.0.2':
+    if profile in ('1.0.2','1.0.3'):
         from instrument_event_maintenance import transition, instant
         state=transition(rows,previous)
         require(plan['evidence_sha256']==evidence_fingerprint(proofs),'Publication evidence proof fingerprint differs')
@@ -90,7 +90,7 @@ def review_gate(rows, registry, plan, proofs, previous, previous_reviewed_at=Non
     reviews = {}
     for review in plan['record_reviews']:
         required={'table','id','record_sha256','previous_sha256','accepted_fields','unresolved_fields','publication'}
-        if profile=='1.0.2':required.add('historical_fields')
+        if profile in ('1.0.2','1.0.3'):required.add('historical_fields')
         require(set(review) == required,
                 'Invalid record review fields')
         key = review['table'], review['id']
@@ -110,7 +110,7 @@ def review_gate(rows, registry, plan, proofs, previous, previous_reviewed_at=Non
             require(review['previous_sha256'] == (digest(encode(old).encode()) if old else None),
                     'Record baseline changed')
             if old and table in IMMUTABLE:
-                require((encode(record)==encode(old)) if profile=='1.0.2' else record==old, 'Historical observations, claims and decisions are immutable')
+                require((encode(record)==encode(old)) if profile in ('1.0.2','1.0.3') else record==old, 'Historical observations, claims and decisions are immutable')
             entity = registry.entities.get(key)
             require(entity and entity['table'] == table, 'Record lacks allocated identity: '+table+'/'+key)
             require(registry.resolve(key) == {key} or record == old, 'Ambiguous or retired identity')
@@ -126,10 +126,10 @@ def review_gate(rows, registry, plan, proofs, previous, previous_reviewed_at=Non
                     not set(historical)&(set(accepted)|set(unresolved)),'Invalid historical field partition')
             require(set(accepted) | set(unresolved) | set(historical) == fields, 'Every field requires an explicit disposition')
             if historical:
-                require(profile=='1.0.2' and table=='instrument_events' and key in withdrawn and old is not None
+                require(profile in ('1.0.2','1.0.3') and table=='instrument_events' and key in withdrawn and old is not None
                         and encode(old)==encode(record) and set(historical)==fields and not accepted and not unresolved,
                         'Historical fields require an unchanged previously published withdrawn event')
-            if profile=='1.0.2' and table=='instrument_events' and key in withdrawn:
+            if profile in ('1.0.2','1.0.3') and table=='instrument_events' and key in withdrawn:
                 require(set(historical)==fields,'Withdrawn event fields must be explicitly historical')
             for field in unresolved:
                 value = record[field]
@@ -153,7 +153,7 @@ def review_gate(rows, registry, plan, proofs, previous, previous_reviewed_at=Non
         require(set(records) <= set(rows[table]), 'Records cannot silently disappear: '+table)
     profile=plan.get('validation_profile',{}).get('name','1.0.0')
     if set(rows['instrument_events'])-set(previous['instrument_events']):
-        require(profile in ('1.0.1','1.0.2'),'New instrument events require explicit validation profile 1.0.1 or 1.0.2')
+        require(profile in ('1.0.1','1.0.2','1.0.3'),'New instrument events require explicit validation profile 1.0.1 or 1.0.2')
     if profile=='1.0.1':
         for key,event in rows['instrument_events'].items():
             target={'table':'instrument_events','id':key}
@@ -176,13 +176,13 @@ def review_gate(rows, registry, plan, proofs, previous, previous_reviewed_at=Non
 def validate_plan(plan):
     fields={'schema_version', 'expected_sha256', 'registry_sha256', 'snapshot_sha256',
             'reviewer', 'reviewed_at', 'rationale', 'record_reviews'}
-    require(plan['schema_version'] in ('1.0.0','1.0.1','1.0.2'), 'Unsupported plan version')
-    if plan['schema_version'] in ('1.0.1','1.0.2'):
+    require(plan['schema_version'] in ('1.0.0','1.0.1','1.0.2','1.0.3'), 'Unsupported plan version')
+    if plan['schema_version'] in ('1.0.1','1.0.2','1.0.3'):
         fields.add('validation_profile');profile=plan.get('validation_profile')
         require(isinstance(profile,dict) and set(profile)=={'name','schema_sha256','semantics'} and profile['name']==plan['schema_version']
                 and profile['schema_sha256']==digest(profile_path(profile['name']).read_bytes())
-                and profile['semantics']=={'1.0.1':'event-exact-accepted-v1','1.0.2':'event-validity-v1'}[plan['schema_version']],'Invalid validation profile pin')
-    if plan['schema_version']=='1.0.2':
+                and profile['semantics']=={'1.0.1':'event-exact-accepted-v1','1.0.2':'event-validity-v1','1.0.3':'event-validity-conditions-v1'}[plan['schema_version']],'Invalid validation profile pin')
+    if plan['schema_version'] in ('1.0.2','1.0.3'):
         fields.update({'evidence_sha256','expected_publication_sha256'})
         import re
         prior=plan.get('expected_publication_sha256')
@@ -222,7 +222,7 @@ def publish(destination, candidate, registry_path, plan, evidence_directories,
         current_hash = fingerprint(current_files) if current_files else None
         # An exact replay verifies retained bytes and the original publication plan.
         replay = current_hash == target_hash
-        if replay and plan.get('validation_profile',{}).get('name')=='1.0.2':
+        if replay and plan.get('validation_profile',{}).get('name') in ('1.0.2','1.0.3'):
             current_receipt=json.loads((destination.resolve()/'publication.json').read_text())
             replay=(current_receipt.get('plan_sha256')==digest(encode(plan).encode()) and current_receipt.get('plan')==plan)
         require(replay or current_hash == plan['expected_sha256'], 'Snapshot changed since review')
@@ -240,24 +240,26 @@ def publish(destination, candidate, registry_path, plan, evidence_directories,
             from check_expanded_publication import check
             check(destination,registry_path,moratoria,state_actions)
             result={'state':'already_applied','sha256':target_hash}
-            if plan.get('validation_profile',{}).get('name')=='1.0.2':
+            if plan.get('validation_profile',{}).get('name') in ('1.0.2','1.0.3'):
                 result.update(generation_id=destination.resolve().name,publication_sha256=digest((destination.resolve()/'publication.json').read_bytes()))
             return result
         previous_reviewed_at=None
         if current_files:
             prior_raw=(destination.resolve()/'publication.json').read_bytes()
             prior_receipt=json.loads(prior_raw)
-            if plan.get('validation_profile',{}).get('name')=='1.0.2':
+            if plan.get('validation_profile',{}).get('name') in ('1.0.2','1.0.3'):
                 require(digest(prior_raw)==plan['expected_publication_sha256'],'Predecessor publication receipt changed since review')
             previous_reviewed_at=prior_receipt['plan']['reviewed_at']
+            if prior_receipt['plan'].get('validation_profile',{}).get('name')=='1.0.3':
+                require(plan.get('validation_profile',{}).get('name')=='1.0.3','Cannot downgrade condition publication profile')
             from check_expanded_publication import check
             check(destination,registry_path,moratoria,state_actions)
-            if prior_receipt['plan'].get('validation_profile',{}).get('name')=='1.0.2':
-                require(plan.get('validation_profile',{}).get('name')=='1.0.2','Cannot downgrade event-validity publication profile')
+            if prior_receipt['plan'].get('validation_profile',{}).get('name') in ('1.0.2','1.0.3'):
+                require(plan.get('validation_profile',{}).get('name') in ('1.0.2','1.0.3'),'Cannot downgrade event-validity publication profile')
         maintenance=any(d['target']['table']=='instrument_events' and d['scope']=='event_validity' for d in rows['review_decisions'].values()) or any(c.get('predicate') in ('event_validity','event_correction') for c in rows['claims'].values())
-        if maintenance:require(plan.get('validation_profile',{}).get('name')=='1.0.2','Event maintenance requires validation profile 1.0.2')
+        if maintenance:require(plan.get('validation_profile',{}).get('name') in ('1.0.2','1.0.3'),'Event maintenance requires validation profile 1.0.2')
         if rows['instrument_events']:
-            require(plan.get('validation_profile',{}).get('name') in ('1.0.1','1.0.2'),
+            require(plan.get('validation_profile',{}).get('name') in ('1.0.1','1.0.2','1.0.3'),
                     'Publication containing instrument events cannot downgrade validation profile')
         index = {}
         for directory in evidence_directories:
@@ -272,8 +274,8 @@ def publish(destination, candidate, registry_path, plan, evidence_directories,
                   'records': {table: len(records) for table, records in rows.items()}}
         receipt = {'schema_version':'1.0.0','sha256':target_hash,'plan_sha256':digest(encode(plan).encode()),'plan':plan,'evidence':publication_proofs(proofs)}
         receipt_raw=receipt_bytes(receipt)
-        generation=sealed_generation(target_hash,digest(receipt_raw)) if plan.get('validation_profile',{}).get('name')=='1.0.2' else target_hash
-        if plan.get('validation_profile',{}).get('name')=='1.0.2':
+        generation=sealed_generation(target_hash,digest(receipt_raw)) if plan.get('validation_profile',{}).get('name') in ('1.0.2','1.0.3') else target_hash
+        if plan.get('validation_profile',{}).get('name') in ('1.0.2','1.0.3'):
             result.update(generation_id=generation,publication_sha256=digest(receipt_raw))
         if not apply:
             return result

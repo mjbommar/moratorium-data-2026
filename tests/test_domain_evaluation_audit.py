@@ -64,6 +64,34 @@ class DomainEvaluationAuditTests(unittest.TestCase):
         item['unit']='acres'
         self.assertFalse(matches_gold(self.candidate('thresholds',[item],'measure_provisions'),slot))
 
+    def test_complete_condition_slot_rejects_changed_logic_missing_or_extra_members(self):
+        from test_condition_expression import clause, group, threshold
+        value=[clause(group('any',threshold('capacity'),threshold('demand')))]
+        slot=dict(table='measure_provisions',field='condition_clauses',required=value)
+        candidate=self.candidate('condition_clauses',copy.deepcopy(value),'measure_provisions')
+        self.assertTrue(matches_gold(candidate,slot))
+        candidate['value'][0]['expression']['members'].reverse()
+        self.assertTrue(matches_gold(candidate,slot))
+        for mutation in ('all','missing','extra','role','context','basis'):
+            actual=copy.deepcopy(value)
+            if mutation=='all':actual[0]['expression']['type']='all'
+            if mutation=='missing':actual[0]['expression']['members'].pop()
+            if mutation=='extra':actual[0]['expression']['members'].append(threshold('generation'))
+            if mutation=='role':actual[0]['purpose']='safe_harbor'
+            if mutation=='context':actual[0]['assertion_context']='enacted_text'
+            if mutation=='basis':actual[0]['expression']['members'][0]['measurement_basis']='monthly demand'
+            self.assertFalse(matches_gold(self.candidate('condition_clauses',actual,'measure_provisions'),slot),mutation)
+        expected=[clause(group('at_least',threshold('capacity'),threshold('demand'),count=2))]
+        changed=copy.deepcopy(expected);changed[0]['expression']['count']=1
+        self.assertFalse(matches_gold(self.candidate('condition_clauses',changed,'measure_provisions'),dict(slot,required=expected)))
+
+    def test_unknown_condition_text_is_not_erased_by_scoring(self):
+        from test_condition_expression import clause
+        value=[clause(dict(type='unknown',source_text='50 MW'))]
+        changed=[clause(dict(type='unknown',source_text='500 MW'))]
+        self.assertFalse(matches_gold(self.candidate('condition_clauses',changed,'measure_provisions'),
+            dict(table='measure_provisions',field='condition_clauses',required=value)))
+
     def test_omitted_candidates_cannot_inflate_reviewer_agreement(self):
         with self.assertRaisesRegex(ValueError,'populations differ'):
             agreement({'one':'supported','two':'ambiguous'},{'one':'supported'})

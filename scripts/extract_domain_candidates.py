@@ -13,11 +13,12 @@ from typing import Literal, Annotated, Union
 from pydantic import BaseModel, ConfigDict, Field, StrictInt, StrictFloat, StrictStr, create_model
 from jsonschema import Draft202012Validator, FormatChecker
 from bc_evidence.extract import ExtractedClaim, ChunkExtraction
+from condition_expression import NativeConditionClause, validate_condition_clauses
 
 import extract_document_resumable as resumable
 
 ROOT = Path(__file__).resolve().parents[1]
-SCHEMA = ROOT / 'work/schemas/expanded/1.0.0.json'
+SCHEMA = ROOT / 'work/schemas/expanded/1.0.3.json'
 
 
 class CandidateObject(BaseModel):
@@ -56,7 +57,7 @@ FIELDS = {
                         'placement_source_term', 'legal_basis', 'lifecycle', 'bindingness',
                         'sectors', 'yes_direction', 'referendum_yes_effect', 'scope_note'},
     'measure_provisions': {'mechanism', 'bindingness', 'covered_uses', 'thresholds',
-                           'exemptions', 'geography', 'implementation_requirements', 'duration'},
+                           'exemptions', 'geography', 'implementation_requirements', 'duration', 'condition_clauses'},
     'measure_results': {'yes_votes', 'no_votes', 'blank_votes', 'ballots_cast',
                         'registered_voters', 'undervotes', 'overvotes', 'precincts_reporting',
                         'precincts_total', 'source_yes_percent', 'percentage_denominator',
@@ -109,7 +110,8 @@ def _typed_facts():
             kind = next(k for k in kinds if k != 'null')
             if kind == 'array':
                 item = prop['items']
-                annotation = (list[Threshold] if item.get('$ref') == '#/$defs/threshold' else
+                annotation = (list[NativeConditionClause] if item.get('$ref') == '#/$defs/ConditionClause' else
+                              list[Threshold] if item.get('$ref') == '#/$defs/threshold' else
                               list[Literal[tuple(item['enum'])]] if 'enum' in item else list[StrictStr])
             else:
                 annotation = {'string': StrictStr, 'integer': StrictInt,
@@ -143,6 +145,16 @@ assertion_context. Use only these table/field pairs:
 {fields}
 Preserve calendar months versus days, duration anchor, inequalities, units,
 aggregate-area basis, conjunctive conditions, exemptions and conditional language.
+Use condition_clauses for complete source-qualified compound conditions. Preserve
+clause purpose and assertion_context, and copy source_text verbatim. Use recursive
+all, any and at_least groups, retaining count and each distinct member. Include
+nonnumeric applicability gates as text_predicate members; do not substitute a
+resource threshold for a discretionary-approval requirement. Separate definition,
+prohibition trigger, procedure trigger, safe harbor and exemption clauses. Missing
+group logic remains unknown, never an inferred conjunction. A flat thresholds
+list alone cannot represent these groups. Preserve unsimplified comparative
+water rules as source-qualified text_predicate or unknown expressions when their
+comparison cannot be faithfully normalized; never invent municipal capacity.
 Use supporting_passages for additional exact passages needed to support a composed
 value, labeling each passage's role. A statutory citation's occurrence does not
 prove affirmative authority: distinguish authority, notwithstanding/override,
@@ -182,6 +194,23 @@ def field_validator(schema, table, field):
                                 format_checker=FormatChecker())
 
 
+def condition_quote_locations(value, text):
+    """Locate every clause/unknown-node source quotation without inferring support."""
+    locations=[]
+    def visit(item,path):
+        if isinstance(item,dict):
+            if 'source_text' in item:
+                quote=item['source_text'];spans=[];offset=0
+                while (found:=text.find(quote,offset))>=0:
+                    spans.append([found,found+len(quote)]);offset=found+1
+                locations.append(dict(path=path,quote=quote,exact_quote_spans=spans))
+            for key,child in item.items():visit(child,path+[key])
+        elif isinstance(item,list):
+            for index,child in enumerate(item):visit(child,path+[index])
+    visit(value,[])
+    return locations
+
+
 def review_candidates(state, schema):
     """Keep invalid, ambiguous and conflicting candidates visible for review."""
     document = state['context']['document']
@@ -207,6 +236,8 @@ def review_candidates(state, schema):
                 validator = field_validator(schema, fact.target_table, fact.target_field)
                 errors = (['Unsupported extraction field'] if validator is None else
                           [e.message for e in validator.iter_errors(raw['value'])])
+                if fact.target_field == 'condition_clauses':
+                    errors.extend(validate_condition_clauses(raw['value']))
                 spans = []
                 offset = 0
                 while (found := text.find(fact.quote, offset)) >= 0:
@@ -214,6 +245,10 @@ def review_candidates(state, schema):
                     offset = found + 1
                 flags = []
                 supporting = []
+                if fact.target_field == 'condition_clauses':
+                    for clause in raw['value']:
+                        if clause['assertion_context'] != fact.assertion_context:
+                            flags.append('condition_context_conflict')
                 for passage in fact.supporting_passages:
                     passage_spans = []
                     start = 0
@@ -226,6 +261,12 @@ def review_candidates(state, schema):
                         flags.append('supporting_quote_unlocated')
                     elif len(passage_spans) > 1:
                         flags.append('supporting_quote_location_ambiguous')
+                condition_locations = condition_quote_locations(raw['value'],text) if fact.target_field == 'condition_clauses' else []
+                for located in condition_locations:
+                    if not located['exact_quote_spans']:
+                        flags.append('condition_source_quote_unlocated')
+                    elif len(located['exact_quote_spans'])>1:
+                        flags.append('condition_source_quote_location_ambiguous')
                 if errors:
                     flags.append('field_schema_invalid')
                 if not spans:
@@ -245,6 +286,7 @@ def review_candidates(state, schema):
                                    'text_sha256': document['text_sha256'],
                                    'request_hashes': [request_hash], 'exact_quote_spans': spans,
                                    'supporting_passage_locations': supporting,
+                                   **({'condition_source_locations': condition_locations} if fact.target_field == 'condition_clauses' else {}),
                                    'field_schema_errors': errors, 'review_flags': flags,
                                    'review_status': 'unreviewed', 'accepted': False}
     by_field = {}
@@ -286,7 +328,8 @@ async def _run_locked(directory, doc, cells, *, question, **kwargs):
     schema = json.loads(SCHEMA.read_text())
     identity = {**kwargs.pop('model_identity'),
                 'domain_adapter_sha256': hashlib.sha256(Path(__file__).read_bytes()).hexdigest(),
-                'expanded_schema_sha256': hashlib.sha256(SCHEMA.read_bytes()).hexdigest()}
+                'expanded_schema_sha256': hashlib.sha256(SCHEMA.read_bytes()).hexdigest(),
+                'condition_contract_sha256': hashlib.sha256((ROOT/'scripts/condition_expression.py').read_bytes()).hexdigest()}
     instruction = INSTRUCTIONS.format(fields=json.dumps({k: sorted(v) for k, v in FIELDS.items()}))
     result = await resumable.run(directory, doc, cells, question=question + '\n' + instruction,
                                  model_identity=identity, chunk_output_type=DomainChunk, **kwargs)

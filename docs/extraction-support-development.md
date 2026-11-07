@@ -1,5 +1,8 @@
 # Composed extraction evidence: development checkpoint
 
+A later [compound-condition development increment](compound-condition-development.md)
+adds transport 1.2.0 and an optional canonical profile, with no new accuracy result.
+
 Follow-up: [classification definitions](ballot-semantic-definitions.md) now
 specify the advisory development axis and reporting-completion meaning. Their
 current-use audit flags evidence-lineage work separately; it does not renew

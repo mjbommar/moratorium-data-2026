@@ -40,6 +40,11 @@ def verify_support_locations(candidate, text):
         while (found:=text.find(passage['quote'],offset))>=0:
             expected.append([found,found+len(passage['quote'])]);offset=found+1
         require(located['exact_quote_spans']==expected, 'Supporting quote spans incomplete or changed')
+    if candidate.get('target_field')=='condition_clauses':
+        from extract_domain_candidates import condition_quote_locations
+        expected=condition_quote_locations(candidate['value'],text)
+        require(candidate.get('condition_source_locations')==expected,'Condition source quotation locations changed')
+        return all(len(p['exact_quote_spans'])==1 for p in [*locations,*expected])
     return all(len(p['exact_quote_spans'])==1 for p in locations)
 
 
@@ -48,6 +53,9 @@ def matches_gold(candidate,slot):
         return False
     if candidate.get('field_schema_errors'):return False
     value=candidate['value']
+    if slot['field']=='condition_clauses':
+        from condition_scoring import matches_condition_clauses
+        return matches_condition_clauses(value,slot['required'])
     def match(actual,expected):
         if isinstance(expected,dict):
             return isinstance(actual,dict) and all(k in actual and match(actual[k],v) for k,v in expected.items())

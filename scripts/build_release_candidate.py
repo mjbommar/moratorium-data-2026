@@ -37,6 +37,9 @@ def build(destination, revision):
     # the original schema remains required by frozen retrospective fixtures.
     exact.update(n for n in names if n.startswith('work/schemas/expanded/')
                  and len(Path(n).parts)==4 and n.endswith('.json'))
+    exact.update(n for n in ['docs/compound-condition-development.md',
+                              'work/schemas/condition-expression/1.0.0.json',
+                              'work/schemas/extraction/1.2.0.json'] if n in names)
     exact.update(n for n in ['docs/instrument-events.md','docs/ballot-semantic-definitions.md','docs/event-validity-publication.md','docs/event-maintenance-development.md'] if n in names)
     for event_review in ['work/research/2026-11-06/instrument-event-migration/','work/research/2026-11-06/event-validity-migration/']:
         if event_review+'cohort.json' in names:

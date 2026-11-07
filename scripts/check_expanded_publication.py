@@ -51,7 +51,7 @@ def check(destination, registry_path, moratoria=None, state_actions=None, *, gen
                 and receipt['schema_version'] == '1.0.0', 'Invalid publication receipt')
         plan = receipt['plan']
         validate_plan(plan)
-        expected_name=sealed_generation(actual,digest(receipt_raw)) if plan.get('validation_profile',{}).get('name')=='1.0.2' else actual
+        expected_name=sealed_generation(actual,digest(receipt_raw)) if plan.get('validation_profile',{}).get('name') in ('1.0.2','1.0.3') else actual
         require(path.name==expected_name,'Publication/table fingerprint differs from generation name')
         require(receipt['sha256'] == actual == plan['snapshot_sha256'], 'Receipt snapshot fingerprint differs')
         require(receipt['plan_sha256'] == digest(encode(plan).encode()), 'Publication plan fingerprint differs')
@@ -82,7 +82,7 @@ def check(destination, registry_path, moratoria=None, state_actions=None, *, gen
             require(isinstance(plan['expected_sha256'], str) and HASH.fullmatch(plan['expected_sha256']),
                     'Invalid predecessor fingerprint')
             prior_path=snapshots/plan['expected_sha256']
-            if plan.get('validation_profile',{}).get('name')=='1.0.2':
+            if plan.get('validation_profile',{}).get('name') in ('1.0.2','1.0.3'):
                 expected_receipt=plan['expected_publication_sha256']
                 choices=[prior_path,snapshots/sealed_generation(plan['expected_sha256'],expected_receipt)]
                 choices=[p for p in choices if (p/'publication.json').is_file() and digest((p/'publication.json').read_bytes())==expected_receipt]
@@ -91,8 +91,10 @@ def check(destination, registry_path, moratoria=None, state_actions=None, *, gen
             previous = generation(prior_path)
             prior=json.loads((prior_path/'publication.json').read_text())['plan']
             previous_reviewed_at=prior['reviewed_at']
-            if prior.get('validation_profile',{}).get('name')=='1.0.2':
-                require(plan.get('validation_profile',{}).get('name')=='1.0.2','Cannot downgrade event-validity publication profile')
+            if prior.get('validation_profile',{}).get('name')=='1.0.3':
+                require(plan.get('validation_profile',{}).get('name')=='1.0.3','Cannot downgrade condition publication profile')
+            if prior.get('validation_profile',{}).get('name') in ('1.0.2','1.0.3'):
+                require(plan.get('validation_profile',{}).get('name') in ('1.0.2','1.0.3'),'Cannot downgrade event-validity publication profile')
         review_gate(rows, historical, plan, proofs, previous, previous_reviewed_at)
         return rows
 

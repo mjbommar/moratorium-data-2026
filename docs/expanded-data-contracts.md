@@ -57,6 +57,10 @@ from the authenticated receipt. For standalone candidate validation select `--pr
 explicitly; its retained default is 1.0.1. The original schemas remain retained for
 frozen fixtures and historical receipts.
 
+An optional [compound-condition development profile](compound-condition-development.md)
+now supports nested clause logic under 1.0.3. It is available for explicit candidate
+validation and publication testing; the canonical pointer remains on 1.0.2.
+
 [JSON Schema 2020-12](../work/schemas/expanded/1.0.0.json) contains a named
 `$defs` schema for each JSONL table. Every record has `schema_version: "1.0.0"`.
 Use UTF-8, one object per line, in files named `<table>.jsonl`. Missing tables are
