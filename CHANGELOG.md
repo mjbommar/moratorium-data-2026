@@ -1,6 +1,28 @@
 # Changelog
 
-## 2026-11-06 — current working snapshot (unreleased)
+## 2026-11-07 — current working snapshot (unreleased)
+
+Current totals remain 1,330 local records (1,079 active/extended classifications),
+442 state-policy records, and 51 ballot/proposal records (49 voted, one scheduled,
+one litigated). The expanded history retains 57 results, 50 current observations
+and five current certified observations. The [updated September-baseline comparison](work/audit/refresh-baseline-delta-2026-11-07.md)
+explains additions, retirement, policy-form reclassifications and all changed
+fields; it is not a comparison to the last published release or a complete
+freshness/current-force assessment.
+
+Wilmington's initiative litigation history remains distinct from its parcel
+referendums and adds no vote result. Twelve corrected cells across New York EO62,
+the Texas governor directive and Texas SB6 qualify executive force and statutory
+scope without changing headline counts. The deterministic release bundle now
+includes current public review metadata and legacy checks; 385 tests and scoped
+portable restore checks passed. The deployed state-policy CSV matched current
+bytes in the [hosted verification](work/audit/pages-state-policy-verification-2026-11-07.json).
+The [ballot primary-gap followup](work/research/2026-11-07/ballot-primary-gap-followup/README.md)
+produced no canonical change and corrected a stale Joliet referral task. Final
+release, comprehensive freshness and coverage, and remaining consumer/quality
+gates remain open.
+
+## 2026-11-06 — historical working checkpoint (unreleased)
 
 November 7 follow-up separates ten legislative-resolution rows and three precursor memo rows from the bill-type bucket. Typed bill rows are now 427 of 442 state-policy records; IDs, compound observations, statuses and operative fields are preserved. Correct the bill-ranking denominator and retain the all-policy ranking under its own key. Missouri SB 1750 sponsor party is separately corrected from unknown to Democrat using official records. These are source/representation corrections, not new restrictions or a unique-bill census.
 

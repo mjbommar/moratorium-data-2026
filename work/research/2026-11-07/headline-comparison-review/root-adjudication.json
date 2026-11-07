@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0.0",
+  "model": "gpt-6.1-terra",
+  "independent_review_json_sha256": "470358f313906b8e5c5ba5f15304523bdb8083be0338c9206975e606e9e82fc8",
+  "review_scope": "Independent arithmetic/source-baseline/representation review; not source-fact or freshness acceptance",
+  "root_resolutions": [
+    {
+      "finding": "Duplicate CSV headers could discard values",
+      "change": "Reject duplicate/empty headers, missing identity column, malformed rows and empty IDs; regression cases added"
+    },
+    {
+      "finding": "Header-only changes could escape row diffs",
+      "change": "Include baseline/current columns, added/removed columns and layout-change flag; order-only regression added"
+    },
+    {
+      "finding": "Missing registry bypassed unexplained-removal checks",
+      "change": "Fail on baseline local ID removals without an identity registry; missing-registry regression added"
+    }
+  ],
+  "targeted_tests_passed": 6,
+  "historical_report_preserved": true,
+  "canonical_data_changed": false,
+  "full_tests_passed": 391,
+  "final_script_sha256": "1d9e59e3166af4e580640a915aadf4ea771b8f5ffb5abdbc1c3f22474e4a4cde",
+  "report_sha256": "d9de2ee048abfc269bc64fcbae06cca0c1ddf76626185c6dfe899ab0621bffb2"
+}
