@@ -246,6 +246,8 @@ Exit: every seed has a documented disposition; evidence gaps are visible rather 
 
 ## P6 — Public release and sibling handoff
 
+- [x] Reconcile Fight a Data Center with its newer remote June printing/July research page, deliver scoped edition/ballot/White County copy corrections, and verify 95 rendered pages (`fightadatacenter.com` commit `58027fc`; `work/research/2026-11-06/fightadatacenter-current-copy/`). Broader legal/project-value claims and hosted revision remain open.
+
 Completed closure increments (the broader gates below remain open):
 
 - [x] Record the book's historical full/Essential/audio edition boundary and explicit unresolved claim-review queue; verify 140 source/PDF artifacts unchanged (`work/audit/book-edition-disposition-2026-11-06.json`). Delivered and remote-verified as book commit `f3509d9`, preserving all 241 production-tree entries from its newer remote parent.
