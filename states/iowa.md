@@ -3,11 +3,13 @@
 
 Working inventory for Iowa, generated **November 7, 2026**. Record-level refresh and later-action review remain incomplete.
 
-**60 instruments** — 52 in force, 2 pending, 6 past.
+**60 records** — 52 classified as active or extended, 2 classified as pending, 6 classified as past.
+
+These counts reflect inventory classifications and do not establish current enforceability.
 
 State policy is tracked separately: **12 records** (12 typed bill rows) in [`state_legislation.csv`](../data/state_legislation.csv). These are not included in the local count above.
 
-| Jurisdiction | Type | Enacted | Sectors | Status |
+| Jurisdiction | Type | Enacted | Sectors | Recorded status |
 |---|---|---|---|---|
 | Adair County | County | 2026-03-18 | data center, battery storage | 🟢 Active |
 | Audubon County | County | 2025-08-12 | battery storage | 🟢 Extended |
@@ -75,7 +77,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Adair County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-03-18, per signed Adair County Board of Supervisors minutes: Resolution #2026-26 adopted by unanimous 5-0 roll call (Hoadley, Baier, Wedemeyer, Christoffersen, Walker all aye).
 - **Normalized date:** `2026-03-18` (exact)
 - **Duration:** Until the Board passes a resolution imposing a permanent moratorium on the construction of data centers, high-density computing facilities and battery storage facilities, or rescinds the temporary moratorium; no calendar end date (resolution text as read into the record and quoted by the Atlantic News-Telegraph).
@@ -91,7 +93,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Audubon County
 
 - **Type:** County
-- **Status:** 🟢 Extended
+- **Recorded status:** 🟢 Extended
 - **Date enacted:** 2025-08-12 -- Board of Supervisors adopted Resolution 2025-46 imposing a temporary moratorium on utility-scale BESS until January 1, 2026 (after public hearing); extended 2026-05-05 by Resolution 2026-25 until May 1, 2027.
 - **Normalized date:** `2025-08-12` (exact)
 - **Duration:** Originally until January 1, 2026; extended until May 1, 2027 or passage of a permanent utility-scale BESS development ordinance
@@ -107,7 +109,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Audubon County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-05-05 -- Board of Supervisors unanimous vote adopting Resolution 2026-27, after a public hearing, per official minutes.
 - **Normalized date:** `2026-05-05` (exact)
 - **Duration:** Through May 1, 2027, or until passage of a permanent data center development ordinance, whichever occurs first
@@ -123,7 +125,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Boone County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-09-09 -- Board of Supervisors adopted Resolution 26-36, 'A Resolution Adopting a One-Year Moratorium on the Establishment, Construction, or Permitting of New Data Centers in Boone County, Iowa' (Sept. 9 agenda item; KCCI reports adoption Wednesday morning, Sept. 9). Board had voted Sept. 2 to move forward with a one-year moratorium after a public petition.
 - **Normalized date:** `2026-09-09` (exact)
 - **Duration:** One year (up to one year), to allow study and adoption of a comprehensive data center zoning ordinance
@@ -139,7 +141,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Buchanan County
 
 - **Type:** County
-- **Status:** 🟢 Extended
+- **Recorded status:** 🟢 Extended
 - **Date enacted:** Approximately January 2026 (original adoption; exact day not found)
 - **Normalized date:** `2026-01` (month_only)
 - **Duration:** Extended May 18, 2026 through December 31, 2027
@@ -155,7 +157,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Cedar County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-05-26 -- Board of Supervisors unanimously moved to approve and authorize the chair to sign a six-month data center moratorium, per official minutes; the zoning director and county attorney were to draft the instrument, effective upon signature. A signed moratorium instrument was not located, so the effective date is [VERIFY].
 - **Normalized date:** `2026-05-26` (unverified)
 - **Duration:** Six months, effective upon signature (signed instrument not located to confirm exact start/end dates)
@@ -171,7 +173,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Cherokee County
 
 - **Type:** County
-- **Status:** ⚪ Replaced
+- **Recorded status:** ⚪ Replaced
 - **Date enacted:** 2026-03-24 -- Resolution #2026-10 adopted by the Cherokee County Board of Supervisors (roll call: Mullins-aye, Ellis-aye, Bellefy-nay, Skou-aye, Petersen-aye), per official minutes published in the Marcus News.
 - **Normalized date:** `2026-03-24` (exact)
 - **Duration:** Indefinite
@@ -187,7 +189,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### City of Ames
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-07-28 -- City Council voted 4-2 for a nine-month pause on new data center projects (postponing the Lightedge airport-land proposal) while it studies zoning, noise, water and utility rules; pause set to last until May 1, 2027.
 - **Normalized date:** `2026-07-28` (exact)
 - **Duration:** About nine months, until May 1, 2027; may be lifted earlier or extended
@@ -203,7 +205,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### City of Asbury
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-07-14 -- City Council unanimously passed a 180-day moratorium on data centers, effective immediately (KCRG; KWWL).
 - **Normalized date:** `2026-07-14` (exact)
 - **Duration:** 180 days (six months)
@@ -219,7 +221,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### City of Cascade
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-06-22 -- City Council approved a 12-month moratorium on construction of data centers within city limits (motion Delaney, second Hosch; 4-1, Weber opposed), per the Cascade Pioneer.
 - **Normalized date:** `2026-06-22` (exact)
 - **Duration:** 12 months
@@ -235,7 +237,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### City of Dubuque
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-09-21 -- City Council unanimously adopted a six-month moratorium ordinance on hyperscale data centers at its Monday meeting (after delaying an earlier version to refine thresholds and annexation language).
 - **Normalized date:** `2026-09-21` (exact)
 - **Duration:** Six calendar months from effectiveness; the ordinance says effective upon publication, with extension, amendment or repeal possible. [VERIFY: publication date and later actions.]
@@ -251,7 +253,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### City of Fairfax
 
 - **Type:** City
-- **Status:** 🟡 Pending
+- **Recorded status:** 🟡 Pending
 - **Date enacted:** Pending -- on 2026-07-14 the City Council voted 3-1 to advance an ordinance imposing a moratorium on high-impact data centers with no end date; Corridor Business Journal reports the moratorium was not formally approved and further procedural steps (readings, attorney review, mayoral signature) remain.
 - **Normalized date:** `—` (unverified)
 - **Duration:** No end date: remains in effect unless modified or repealed by a subsequent ordinance
@@ -267,7 +269,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### City of Fairfield
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-08-24 -- City Council voted 6-0 to pass a data center moratorium ordinance, waiving second and third readings; effective upon publication (Thursday, Aug. 27).
 - **Normalized date:** `2026-08-24` (exact)
 - **Duration:** Twelve calendar months, as identified in the August 24, 2026 final-reading minutes. [VERIFY: final ordinance text, publication/term anchor and any extension provision.]
@@ -283,7 +285,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### City of Marshalltown
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-08-24 -- City Council passed Ordinance 15123 (second reading, third reading waived) establishing a temporary data center moratorium; effective upon publication (expected Aug. 26).
 - **Normalized date:** `2026-08-24` (exact)
 - **Duration:** Until November 23, 2026; council may extend once by resolution for up to 60 days
@@ -299,7 +301,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### City of Peosta
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-06-23 -- City Council adopted Resolution 2026-49, effective immediately.
 - **Normalized date:** `2026-06-23` (exact)
 - **Duration:** 180 days; the city lists December 20, 2026 as the current expiration date, subject to earlier termination, modification, or replacement
@@ -315,7 +317,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### City of Waterloo
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-09-08 -- City Council unanimously approved a three-month moratorium on data center development (Radio Iowa, published Sept. 9, reports the vote 'last night').
 - **Normalized date:** `2026-09-08` (exact)
 - **Duration:** Three months (90 days); may be extended up to one year
@@ -331,7 +333,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Clarke County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2025-06-23
 - **Normalized date:** `2025-06-23` (exact)
 - **Duration:** Until the Board passes a resolution imposing a permanent moratorium, passes an ordinance regulating data centers, or rescinds the temporary moratorium; no calendar end date (Resolution #25-011).
@@ -347,7 +349,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Clayton County
 
 - **Type:** County
-- **Status:** 🟢 Extended
+- **Recorded status:** 🟢 Extended
 - **Date enacted:** 2025-02-25
 - **Normalized date:** `2025-02-25` (exact)
 - **Duration:** Originally through 2025-12-31; extended through 2026-12-31
@@ -363,7 +365,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Des Moines County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-05-19 -- Board of Supervisors adopted Resolution 2026-034, effective immediately, per official minutes (motion by Jim Cary, seconded by Tom Broeker, no dissent recorded).
 - **Normalized date:** `2026-05-19` (exact)
 - **Duration:** One year from adoption while the county develops regulations
@@ -379,7 +381,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Dickinson County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-05-12 -- Board of Supervisors adopted Resolution 2026-8 by a 4-1 vote following a public hearing, per official minutes.
 - **Normalized date:** `2026-05-12` (exact)
 - **Duration:** Six months from adoption; may be extended by further board action
@@ -395,7 +397,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Dubuque County
 
 - **Type:** County
-- **Status:** 🔴 Rescinded
+- **Recorded status:** 🔴 Rescinded
 - **Date enacted:** 2026-05-26 -- Board of Supervisors special meeting; per KCRG, Supervisor McDonough moved to extend an originally proposed 120-day period to 12 months.
 - **Normalized date:** `2026-05-26` (exact)
 - **Duration:** 12 months
@@ -411,7 +413,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Dubuque County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** Resolution 26-151 adopted July 6, 2026; electronic signatures dated July 7. Effectiveness requires adoption and publication; stated commencement is May 26, 2026.
 - **Normalized date:** `2026-07-06` (exact)
 - **Duration:** Stated commencement May 26, 2026 through May 26, 2027, unless earlier terminated or lawfully extended. Expiration alone does not authorize covered applications; termination conditions and required planning deliverables apply. [VERIFY: publication date, operative applicability and subsequent actions.]
@@ -427,7 +429,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Emmet County
 
 - **Type:** County
-- **Status:** ⚪ Replaced
+- **Recorded status:** ⚪ Replaced
 - **Date enacted:** 2024-10-15 -- Board of Supervisors approved Resolution #24-29 imposing a moratorium on conditional use/zoning permits for commercial wind energy conversion systems (CWECS), originally through 2025-01-31; continued by later resolutions (Resolution #25-30 on 2025-07-29 to 2025-09-30; continued on 2025-12-16 to 2026-03-31).
 - **Normalized date:** `2024-10-15` (exact)
 - **Duration:** Originally through 2025-01-31, repeatedly continued (to 2025-07-31, 2025-09-30, then 2026-03-31) while wind zoning amendments were prepared
@@ -443,7 +445,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Emmet County
 
 - **Type:** County
-- **Status:** 🟢 Extended
+- **Recorded status:** 🟢 Extended
 - **Date enacted:** 2025-01-28 (Board of Supervisors adopted Resolution 25-05, 4-0 with one absent, per official minutes); continued by Resolution 25-36 (Sept. 2025, to 2026-03-31), Resolution 26-13 (2026-03-24, to 2026-09-30) and Resolution 26-28 (2026-09-22, to 2026-12-31)
 - **Normalized date:** `2025-01-28` (exact)
 - **Duration:** Until 2025-09-30 at 11:59 p.m. (Resolution 25-05), unless ended earlier on completion of zoning amendments; continued to 2026-03-31, then 2026-09-30, then 2026-12-31
@@ -459,7 +461,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Emmet County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-08-25 -- Board of Supervisors voted unanimously to adopt Resolution No. 26-25, a one-year temporary moratorium on data center rezoning/subdivision/zoning-permit applications in unincorporated Emmet County, per the signed resolution and corroborating KTIV and Radio Iowa coverage.
 - **Normalized date:** `2026-08-25` (exact)
 - **Duration:** One year
@@ -475,7 +477,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Floyd County
 
 - **Type:** County
-- **Status:** 🟢 Extended
+- **Recorded status:** 🟢 Extended
 - **Date enacted:** 2023-11 -- moratorium on wind permits and applications enacted, also covering battery energy storage system (BESS) applications and permits (KCHA). Wind portion ended with the new wind ordinance (2026-01-06); BESS portion extended by Res #04-26 (2026-01-20) to 2026-08-04, lapsed 2026-08-04, and was renewed 2026-09-15 through 2026-12-29.
 - **Normalized date:** `2023-11` (month_only)
 - **Duration:** BESS moratorium currently through December 29, 2026 unless modified or repealed earlier
@@ -491,7 +493,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Franklin County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-03-31
 - **Normalized date:** `2026-03-31` (exact)
 - **Duration:** Eighteen months effective immediately, or until passage of an ordinance in relation to data center development, whichever comes first.
@@ -507,7 +509,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Henry County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-05-14 -- Board of Supervisors adopted a moratorium on siting applications for AI data centers, data mining facilities and battery energy storage systems at its weekly Thursday meeting, effective at noon that day.
 - **Normalized date:** `2026-05-14` (exact)
 - **Duration:** Through December 31, 2026
@@ -523,7 +525,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Ida County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-06-30 -- Board of Supervisors approved Resolution 26-30 For Moratorium on Data Processing Center (motion Whiteing, second Schubert, all voting aye), per official minutes.
 - **Normalized date:** `2026-06-30` (exact)
 - **Duration:** Indefinite, until the board votes otherwise
@@ -539,7 +541,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Iowa County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-07-31 -- Board of Supervisors passed Resolution 2026-07-31 establishing a twelve-month moratorium on data center applications (motion Montross, second Degen; Supervisor Maas absent), per official minutes.
 - **Normalized date:** `2026-07-31` (exact)
 - **Duration:** Twelve (12) months from the date of adoption, unless earlier rescinded or extended by resolution
@@ -555,7 +557,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Jackson County
 
 - **Type:** County
-- **Status:** 🟢 Extended
+- **Recorded status:** 🟢 Extended
 - **Date enacted:** Three documented adoptions in the captured record: (1) 2024-09-17 — Resolution #1066-09-17-2024 — "Resolution Approving Moratorium on Data Mining Facilities" (signed copy in record), originally through 2025-06-30 (text reads "for a period of months through June 30, 2025"). (2) 2025-09-09 — Resolution #1142-09-09-2025 — second moratorium re-established at the September 9, 2025 BoS meeting (signed minutes capture the motion and adoption). The interim 2025-03-25 "Resolution #1105-03-25-2025" referenced in earlier project notes is not corroborated in the captured Jackson County record and may have been a transcription of the 2024 resolution number; treat as ****.
 - **Normalized date:** `2024-09-17` (exact)
 - **Duration:** First instance (Sept 17, 2024) ran through June 30, 2025 (Resolution #1066-09-17-2024 text). Second instance (Sept 9, 2025) runs through August 31, 2026 unless ended sooner by board action (Resolution #1142-09-09-2025: "approving a Moratorium on Data Mining Facilities until August 31, 2026, unless ended sooner by action of the Board of Supervisors"). Third instance (adopted Aug. 4, 2026) replaced Resolution #1142-09-09-2025 before its Aug. 31, 2026 expiry and runs through Aug. 4, 2027, ending sooner if permanent regulations are adopted or the Board terminates it.
@@ -571,7 +573,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Jackson County
 
 - **Type:** County
-- **Status:** 🟢 Extended
+- **Recorded status:** 🟢 Extended
 - **Date enacted:** January 2, 2024 (original); extended Sept. 10, 2024 and Dec. 23, 2025
 - **Normalized date:** `2024-01-02` (exact)
 - **Duration:** Extended through August 31, 2027
@@ -587,7 +589,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Jefferson County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-08-11 -- Board of Supervisors unanimously adopted a data center ordinance (Jefferson County Code Chapter 5-45) and a moratorium resolution imposing a 12-month halt on permits under that ordinance, after an Aug. 10 public hearing.
 - **Normalized date:** `2026-08-11` (exact)
 - **Duration:** 12 months, effective immediately, unless rescinded, modified or extended by the board
@@ -603,7 +605,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Johnson County
 
 - **Type:** County
-- **Status:** 🟢 Extended
+- **Recorded status:** 🟢 Extended
 - **Date enacted:** 2025-11-06
 - **Normalized date:** `2025-11-06` (exact)
 - **Duration:** Extended through 2027-08-08, end of day; original term through 2026-11-08.
@@ -619,7 +621,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Jones County
 
 - **Type:** County
-- **Status:** ⚪ Replaced
+- **Recorded status:** ⚪ Replaced
 - **Date enacted:** 2024-10-15 (signed October 15, 2024 BoS minutes record adoption of "Resolution Approving a Moratorium on Data Mining Facilities," numbered 2024-149, by 5-0 roll-call vote; same meeting also adopted Resolution 2024-150 imposing a parallel moratorium on Utility Scale Battery Energy Storage Systems on the same terms).
 - **Normalized date:** `2024-10-15` (exact)
 - **Duration:** Originally through 2025-04-15 (resolution text), extendable by subsequent resolution; the moratorium was succeeded by a permanent regulatory ordinance rather than extended.
@@ -635,7 +637,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Lee County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-06-16 -- Board of Supervisors unanimously adopted Resolution 2026-76 after first rejecting a motion to table it, per official minutes.
 - **Normalized date:** `2026-06-16` (exact)
 - **Duration:** Up to one year while the county studies a regulatory framework
@@ -651,7 +653,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Linn County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-07-01 -- per Linn County government CivicAlert, effective July 1, 2026; vote was not unanimous (Supervisor Sami Scheetz opposed).
 - **Normalized date:** `2026-07-01` (exact)
 - **Duration:** 18 months, effective through 11:59 p.m. Central Time on January 1, 2028
@@ -667,7 +669,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Louisa County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-07-07 -- Board of Supervisors approved the first reading of Ordinance 26-1 (data center moratorium) and waived the second and third readings after a public hearing (Daily Democrat); KCII reported the ordinance officially passed in its Aug. 4 story.
 - **Normalized date:** `2026-07-07` (exact)
 - **Duration:** 18 months or until an ordinance regulating data centers is adopted, whichever occurs first
@@ -683,7 +685,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Louisa County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** First reading of Ordinance 26-2 approved Sept. 1, 2026; second reading approved and third reading waived (voice vote) at the Sept. 15, 2026 Board of Supervisors meeting, following a public hearing, per The Hawk Eye/Mississippi Valley Publishing.
 - **Normalized date:** `2026-09-15` (exact)
 - **Duration:** 180 days from finalization (through approximately 2027-03-14), or until a county ordinance regulating cryptocurrency mining development is enacted, whichever occurs first
@@ -699,7 +701,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Madison County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-05-26 -- Board of Supervisors passed two 12-month moratoriums (data centers; battery storage systems) following a pair of public hearings; KCCI reports first reading approved unanimously with second and third readings waived (news-reported; ordinance numbers not located).
 - **Normalized date:** `2026-05-26` (exact)
 - **Duration:** 12 months (reported as two separate 12-month moratoriums, one for data centers and one for battery storage systems)
@@ -715,7 +717,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Marshall County
 
 - **Type:** County
-- **Status:** 🟡 Pending
+- **Recorded status:** 🟡 Pending
 - **Date enacted:** Pending -- Resolution 2026-0030 (six-month moratorium on application and permit processing for new data center developments in unincorporated Marshall County) on the Board of Supervisors' Sept. 23, 2026 agenda, following a unanimous Zoning Commission recommendation in August 2026.
 - **Normalized date:** `—` (unverified)
 - **Duration:** Six months; if approved, effective immediately and in place until March 24, 2027
@@ -731,7 +733,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Mitchell County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2025-11-25
 - **Normalized date:** `2025-11-25` (exact)
 - **Duration:** Through 2026-12-31
@@ -747,7 +749,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Page County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-07-21 -- Board of Supervisors approved a data center moratorium by 2-1 vote (Maher, Rogers aye; Clark nay) on Tuesday afternoon, per KMA.
 - **Normalized date:** `2026-07-21` (exact)
 - **Duration:** No end date reported; described as a 'placeholder' that can be rescinded at any time
@@ -763,7 +765,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Palo Alto County
 
 - **Type:** County
-- **Status:** 🟢 Extended
+- **Recorded status:** 🟢 Extended
 - **Date enacted:** 2025-06-03 -- Board of Supervisors adopted Resolution 6-3-2025, a temporary moratorium on development/construction of cryptocurrency and data mining facilities; extended 2026-03-10 by Resolution No. 3-10-2026 to 2027-04-01 or passage of an ordinance.
 - **Normalized date:** `2025-06-03` (exact)
 - **Duration:** Extended to April 1, 2027 or passage of a cryptocurrency/data mining facility ordinance, whichever comes first; further extension possible by resolution
@@ -779,7 +781,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Palo Alto County
 
 - **Type:** County
-- **Status:** 🟢 Extended
+- **Recorded status:** 🟢 Extended
 - **Date enacted:** 2025-05-13 -- Board of Supervisors adopted Resolution No. 5-13-2025 approving a temporary moratorium on utility-scale battery energy storage systems (motion Graettinger, second Solberg; unanimous).
 - **Normalized date:** `2025-05-13` (exact)
 - **Duration:** Originally until April 1, 2026 or passage of a BESS ordinance; renewed by Resolution No. 2-10-2026 (2026-02-10) until February 1, 2027 or passage of a BESS ordinance
@@ -795,7 +797,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Palo Alto County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-07-08 -- Board of Supervisors regular meeting; motion by Merrill, seconded by Graettinger. Roll call: Ayes: Faulstick, Merrill, Graettinger, Wirtz, Solberg; Nays: none.
 - **Normalized date:** `2026-07-08` (exact)
 - **Duration:** Effective immediately until July 8, 2027, or upon passage of a data-center ordinance, whichever is sooner
@@ -811,7 +813,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Plymouth County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-06-16 -- Board of Supervisors approved unanimously, per KLEM 1410.
 - **Normalized date:** `2026-06-16` (exact)
 - **Duration:** One year (to approximately 2027-06-16); can be revoked or extended by the Board at any time
@@ -827,7 +829,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Sac County
 
 - **Type:** County
-- **Status:** ⚪ Expired
+- **Recorded status:** ⚪ Expired
 - **Date enacted:** 2025-02-04
 - **Normalized date:** `2025-02-04` (exact)
 - **Duration:** Through August 4, 2025 at 11:59 p.m. Central unless extended; may end earlier
@@ -843,7 +845,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Shelby County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-03-17
 - **Normalized date:** `2026-03-17` (exact)
 - **Duration:** Through 2027-07-01
@@ -859,7 +861,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Shelby County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-03-17 -- Board of Supervisors regular meeting; motion by Schaben, seconded by Kolbe, carried unanimously.
 - **Normalized date:** `2026-03-17` (exact)
 - **Duration:** Effective immediately for a period ending July 1, 2027
@@ -875,7 +877,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Shelby County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-03-17 -- Board of Supervisors regular meeting; motion by Kolbe, seconded by Schaben, carried unanimously.
 - **Normalized date:** `2026-03-17` (exact)
 - **Duration:** Effective immediately for a period ending July 1, 2027
@@ -891,7 +893,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Shelby County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-03-17 -- Board of Supervisors regular meeting; motion by Kolbe, seconded by Schaben, carried unanimously.
 - **Normalized date:** `2026-03-17` (exact)
 - **Duration:** Effective immediately for a period ending July 1, 2027
@@ -907,7 +909,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Sioux County
 
 - **Type:** County
-- **Status:** ⚪ Expired
+- **Recorded status:** ⚪ Expired
 - **Date enacted:** 2023-09-05
 - **Normalized date:** `2023-09-05` (exact)
 - **Duration:** One calendar year after passage; automatic sunset
@@ -923,7 +925,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Sioux County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-06-16
 - **Normalized date:** `2026-06-16` (exact)
 - **Duration:** One year, automatic sunset
@@ -939,7 +941,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Story County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2025-06-17
 - **Normalized date:** `2025-06-17` (exact)
 - **Duration:** Through 2025-12-31; extended through 2026-03-31 by Resolution #26-36 (2025-11-25); further extended through 2027-03-31 by Resolution #26-69 (2026-03-17)
@@ -955,7 +957,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Tama County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2025-11-10 -- Board of Supervisors adopted Resolution 11-10-2025A, "Resolution for Immediate and Indefinite Moratorium on Data Mining and Centers in Tama County, IA" (motion Hilmer, second Knebel; roll call 5-0: Hilmer, Turner, Knebel, Doland, Kupka), per the official November 10, 2025 minutes, which reproduce the full resolution text.
 - **Normalized date:** `2025-11-10` (exact)
 - **Duration:** Indefinite: remains in effect until (1) a comprehensive land use plan is adopted by Tama County and (2) the Zoning Commission drafts and the Board enacts a data mining and center ordinance.
@@ -971,7 +973,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Tama County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2025-11-10 -- Board of Supervisors adopted Resolution 11-10-2025B, 'A Resolution Establishing an Indefinite Moratorium on Battery Storage Projects in Tama County' (motion Turner, second Kupka; roll call 5-0), per official minutes.
 - **Normalized date:** `2025-11-10` (exact)
 - **Duration:** Indefinite: until a comprehensive land use plan is adopted and the Zoning Commission drafts and the Board enacts an ordinance
@@ -987,7 +989,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Taylor County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-05-07 -- Board of Supervisors voted 3-0 to amend Resolution 2023-21 (the existing wind-turbine moratorium) to include data centers, solar panels, wind turbines and battery storage, then 3-0 to add mineral extractions, per official May 7, 2026 minutes. The moratorium was then formalized as Ordinance #40, approved 3-0 on 2026-07-30 after a public hearing and three readings on 2026-07-23.
 - **Normalized date:** `2026-05-07` (exact)
 - **Duration:** Twelve (12) months from publication of Ordinance #40 (adopted 2026-07-30); may be renewed. Publication date not located, so the exact end date (about late July/August 2027) is not fixed here.
@@ -1003,7 +1005,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Union County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-03-18 -- Board of Supervisors voted unanimously (Hopkins, Friday; Brown absent) to move forward with setting up the moratorium. The formal instrument, Resolution #21 FYR 25/26 (Moratorium on Data Centers), was adopted at the March 25, 2026 regular session by roll call vote (Brown aye, Hopkins aye, Friday aye, motion carried).
 - **Normalized date:** `2026-03-25` (exact)
 - **Duration:** Up to one year from adoption of Resolution #21 FYR 25/26 (adopted 2026-03-25); the Board stated it "may or may not act on this matter, but at the minimum, we plan to revisit this issue in one year."
@@ -1019,7 +1021,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Woodbury County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-06-23 -- "Passed and approved this 23rd day of June, 2026" per Resolution 14064.
 - **Normalized date:** `2026-06-23` (exact)
 - **Duration:** 12 months from adoption unless earlier rescinded or extended (to on or about 2027-06-23)

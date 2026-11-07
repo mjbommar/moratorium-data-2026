@@ -3,11 +3,13 @@
 
 Working inventory for Louisiana, generated **November 7, 2026**. Record-level refresh and later-action review remain incomplete.
 
-**3 instruments** — 2 in force, 0 pending, 1 past.
+**3 records** — 2 classified as active or extended, 0 classified as pending, 1 classified as past.
+
+These counts reflect inventory classifications and do not establish current enforceability.
 
 State policy is tracked separately: **5 records** (4 typed bill rows and 1 non-bill row) in [`state_legislation.csv`](../data/state_legislation.csv). These are not included in the local count above.
 
-| Jurisdiction | Type | Enacted | Sectors | Status |
+| Jurisdiction | Type | Enacted | Sectors | Recorded status |
 |---|---|---|---|---|
 | Bossier Parish | Parish | 2022-09-07 | solar | ⚪ Expired |
 | Iberville Parish | Parish | 2026-07-15 | battery storage | 🟢 Active |
@@ -18,7 +20,7 @@ State policy is tracked separately: **5 records** (4 typed bill rows and 1 non-b
 ### Bossier Parish
 
 - **Type:** Parish
-- **Status:** ⚪ Expired
+- **Recorded status:** ⚪ Expired
 - **Date enacted:** 2022-09-07
 - **Normalized date:** `2022-09-07` (exact)
 - **Duration:** Six calendar months from September 7, 2022 adoption, unless extended or cancelled sooner; latest original-term endpoint derived March 7, 2023
@@ -34,7 +36,7 @@ State policy is tracked separately: **5 records** (4 typed bill rows and 1 non-b
 ### Iberville Parish
 
 - **Type:** Parish
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-07-15
 - **Normalized date:** `2026-07-15` (exact)
 - **Duration:** Two years
@@ -50,7 +52,7 @@ State policy is tracked separately: **5 records** (4 typed bill rows and 1 non-b
 ### New Orleans
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-01-28
 - **Normalized date:** `2026-01-28` (exact)
 - **Duration:** One year from adoption, subject to one 180-day extension under City Charter Section 3-126

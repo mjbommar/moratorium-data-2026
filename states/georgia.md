@@ -3,11 +3,13 @@
 
 Working inventory for Georgia, generated **November 7, 2026**. Record-level refresh and later-action review remain incomplete.
 
-**71 instruments** — 50 in force, 0 pending, 21 past.
+**71 records** — 50 classified as active or extended, 0 classified as pending, 21 classified as past.
+
+These counts reflect inventory classifications and do not establish current enforceability.
 
 State policy is tracked separately: **9 records** (9 typed bill rows) in [`state_legislation.csv`](../data/state_legislation.csv). These are not included in the local count above.
 
-| Jurisdiction | Type | Enacted | Sectors | Status |
+| Jurisdiction | Type | Enacted | Sectors | Recorded status |
 |---|---|---|---|---|
 | Adel (Cook County) | City | 2026-07-06 | data center | 🟢 Active |
 | Albany | City | 2026-07-28 | data center | 🟢 Active |
@@ -86,7 +88,7 @@ State policy is tracked separately: **9 records** (9 typed bill rows) in [`state
 ### Adel (Cook County)
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-07-06
 - **Normalized date:** `2026-07-06` (exact)
 - **Duration:** 180 days
@@ -102,7 +104,7 @@ State policy is tracked separately: **9 records** (9 typed bill rows) in [`state
 ### Albany
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-07-28
 - **Normalized date:** `2026-07-28` (exact)
 - **Duration:** 12 months, with an option to extend an additional 6 months
@@ -118,7 +120,7 @@ State policy is tracked separately: **9 records** (9 typed bill rows) in [`state
 ### Appling County
 
 - **Type:** County
-- **Status:** ⚪ Expired
+- **Recorded status:** ⚪ Expired
 - **Date enacted:** 2026-08-04, Appling County Board of Commissioners resolution signed by the Chairman and attested by the County Clerk
 - **Normalized date:** `2026-08-04` (exact)
 - **Duration:** 40 days from adoption (to about 2026-09-13), unless lifted earlier or regulations adopted; extendable after a public hearing
@@ -134,7 +136,7 @@ State policy is tracked separately: **9 records** (9 typed bill rows) in [`state
 ### Athens-Clarke County
 
 - **Type:** County
-- **Status:** ⚪ Replaced
+- **Recorded status:** ⚪ Replaced
 - **Date enacted:** 2025-12-02
 - **Normalized date:** `2025-12-02` (exact)
 - **Duration:** Initial moratorium through 2026-03-06; extended through 2026-06-05 by Ordinance 26-03-19 (2026-03-03); replaced 2026-04-07
@@ -150,7 +152,7 @@ State policy is tracked separately: **9 records** (9 typed bill rows) in [`state
 ### Augusta-Richmond County
 
 - **Type:** County
-- **Status:** ⚪ Replaced
+- **Recorded status:** ⚪ Replaced
 - **Date enacted:** 2026-06-02 (Augusta Commission imposed a 49-day pause on new data centers at its Tuesday June 2, 2026 meeting, per same-day WRDW reporting); 2026-07-21 (Commission unanimously extended by 60 days and required three community hearings before any vote on permanent rules)
 - **Normalized date:** `2026-06-02` (exact)
 - **Duration:** Initial 49 days from 2026-06-02; extended 60 days on 2026-07-21 (running to approximately 2026-09-19)
@@ -166,7 +168,7 @@ State policy is tracked separately: **9 records** (9 typed bill rows) in [`state
 ### Ball Ground
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-08-13 -- Ball Ground City Council unanimously approved the 'Data Center Application Moratorium' (motion by Councilmember Stancil, seconded by Councilmember Barnes) per the city's official Aug. 13, 2026 meeting minutes. The Cherokee Tribune (Aug. 17) reports it took effect Friday Aug. 14 and runs through Feb. 9, 2027.
 - **Normalized date:** `2026-08-13` (exact)
 - **Duration:** 180 days (effective 2026-08-14 through 2027-02-09), per Cherokee Tribune reporting; not independently verified against the moratorium's own text, which was not located separately from the minutes.
@@ -182,7 +184,7 @@ State policy is tracked separately: **9 records** (9 typed bill rows) in [`state
 ### Banks County
 
 - **Type:** County
-- **Status:** 🟢 Extended
+- **Recorded status:** 🟢 Extended
 - **Date enacted:** Banks County Board of Commissioners approved a data center moratorium in August 2026 (reported 2026-08-16); extended at a September 2026 meeting through 2027-03-09
 - **Normalized date:** `2026-08` (month_only)
 - **Duration:** Initial term not stated in accessible text; extended through 2027-03-09
@@ -198,7 +200,7 @@ State policy is tracked separately: **9 records** (9 typed bill rows) in [`state
 ### Bloomingdale
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-08-20, Bloomingdale City Council, unanimous (Thursday meeting), Resolution No. 2026-012
 - **Normalized date:** `2026-08-20` (exact)
 - **Duration:** Through 11:59 p.m. on 2027-02-16 (about six months)
@@ -214,7 +216,7 @@ State policy is tracked separately: **9 records** (9 typed bill rows) in [`state
 ### Brooks County
 
 - **Type:** County
-- **Status:** 🟢 Extended
+- **Recorded status:** 🟢 Extended
 - **Date enacted:** 2026-02-02
 - **Normalized date:** `2026-02-02` (exact)
 - **Duration:** Original 90-day term (to 2026-05-02) extended by Board action (FA040-2026, 2026-05-04); per the July 6, 2026 regular-meeting minutes the moratorium remains in effect until 2026-12-31.
@@ -230,7 +232,7 @@ State policy is tracked separately: **9 records** (9 typed bill rows) in [`state
 ### Bulloch County
 
 - **Type:** County
-- **Status:** 🟢 Extended
+- **Recorded status:** 🟢 Extended
 - **Date enacted:** 2026-02-17
 - **Normalized date:** `2026-02-17` (exact)
 - **Duration:** Extended to Dec. 31, 2026 (from the original 90-day term) per the May 5, 2026 vote, unless the Board acts sooner.
@@ -246,7 +248,7 @@ State policy is tracked separately: **9 records** (9 typed bill rows) in [`state
 ### Calhoun (Gordon County)
 
 - **Type:** City
-- **Status:** 🟢 Extended
+- **Recorded status:** 🟢 Extended
 - **Date enacted:** 2026-04-27 (Calhoun City Council unanimously passed a 90-day preemptive moratorium resolution at its Monday April 27, 2026 meeting, running through at least July 27); extended six additional months by unanimous (3-0) council vote on 2026-06-08 after a public hearing
 - **Normalized date:** `2026-04-27` (exact)
 - **Duration:** Extended through the second council meeting in January 2027, identified in the minutes as 2027-01-25
@@ -262,7 +264,7 @@ State policy is tracked separately: **9 records** (9 typed bill rows) in [`state
 ### Camden County
 
 - **Type:** County
-- **Status:** 🟢 Extended
+- **Recorded status:** 🟢 Extended
 - **Date enacted:** May 5, 2026 (Tuesday), per GPB/The Current reporting on the Camden County Board of Commissioners meeting, which is corroborated by the earlier May 2, 2026 article reporting the vote was scheduled for 'Tuesday.'
 - **Normalized date:** `2026-05-05` (exact)
 - **Duration:** Initial six calendar months; extended an additional nine months by the Board of Commissioners on November 3, 2026; precise operative end date not established in the reviewed county page.
@@ -278,7 +280,7 @@ State policy is tracked separately: **9 records** (9 typed bill rows) in [`state
 ### Carroll County
 
 - **Type:** County
-- **Status:** 🟢 Extended
+- **Recorded status:** 🟢 Extended
 - **Date enacted:** Board of Commissioners approved a 100-day moratorium on data center and battery energy storage system permits in unincorporated Carroll County at its March 3, 2026 meeting (7-0); extended for another 100 days at the June 3, 2026 meeting (7-0).
 - **Normalized date:** `2026-03-03` (exact)
 - **Duration:** 100 days from March 3, 2026 (or until zoning revisions adopted); extended 100 days on June 3, 2026; a third 100-day moratorium approved 7-0 on August 4, 2026, running to approximately 2026-11-12.
@@ -294,7 +296,7 @@ State policy is tracked separately: **9 records** (9 typed bill rows) in [`state
 ### Cedartown
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** Cedartown City Commission unanimously approved Resolution 4, 2026 at its March 23, 2026 meeting.
 - **Normalized date:** `2026-03-23` (exact)
 - **Duration:** Six months per the city manager's public statement ahead of the vote.
@@ -310,7 +312,7 @@ State policy is tracked separately: **9 records** (9 typed bill rows) in [`state
 ### Chamblee
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-07-21, Chamblee City Council regular meeting, unanimous
 - **Normalized date:** `2026-07-21` (exact)
 - **Duration:** 180 days, through 2027-01-16
@@ -326,7 +328,7 @@ State policy is tracked separately: **9 records** (9 typed bill rows) in [`state
 ### Chatham County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-09-11, Chatham County Board of Commissioners, unanimous vote at a Friday meeting
 - **Normalized date:** `2026-09-11` (exact)
 - **Duration:** 155 days, expiring 2027-02-16; may be extended by up to 60 days
@@ -342,7 +344,7 @@ State policy is tracked separately: **9 records** (9 typed bill rows) in [`state
 ### Cherokee County
 
 - **Type:** County
-- **Status:** 🟢 Extended
+- **Recorded status:** 🟢 Extended
 - **Date enacted:** 2026-07-22
 - **Normalized date:** `2026-07-22` (exact)
 - **Duration:** Initial 30 days (adopted 2026-07-21/22); extended by 180 days on 2026-08-18, for a total of about 210 days, running through approximately mid-February 2027 (2027-02-14) unless ended early or extended.
@@ -358,7 +360,7 @@ State policy is tracked separately: **9 records** (9 typed bill rows) in [`state
 ### Clayton County
 
 - **Type:** County
-- **Status:** 🟢 Extended
+- **Recorded status:** 🟢 Extended
 - **Date enacted:** 2025-09-03
 - **Normalized date:** `2025-09-03` (exact)
 - **Duration:** 120 days, through 2025-12-31; extended a total of three times since September 2025 per county documents cited by WABE (July 24, 2026); still in effect as of that date. Exact current end date not confirmed.
@@ -374,7 +376,7 @@ State policy is tracked separately: **9 records** (9 typed bill rows) in [`state
 ### Cobb County
 
 - **Type:** County
-- **Status:** 🟢 Extended
+- **Recorded status:** 🟢 Extended
 - **Date enacted:** 2026-02-24
 - **Normalized date:** `2026-02-24` (exact)
 - **Duration:** Initial 180 days from 2026-02-24; extended another six months by resolution adopted 2026-08-11, expiring 2027-02-24.
@@ -390,7 +392,7 @@ State policy is tracked separately: **9 records** (9 typed bill rows) in [`state
 ### Colquitt County
 
 - **Type:** County
-- **Status:** 🟢 Extended
+- **Recorded status:** 🟢 Extended
 - **Date enacted:** 2026-06-02, Colquitt County Commission, unanimous (motion by Commissioner Johnny Hardin)
 - **Normalized date:** `2026-06-02` (exact)
 - **Duration:** 120 days from 2026-06-02 (to about 2026-10-01); extended another 180 days on 2026-09-01
@@ -406,7 +408,7 @@ State policy is tracked separately: **9 records** (9 typed bill rows) in [`state
 ### Covington
 
 - **Type:** City
-- **Status:** 🔴 Rescinded
+- **Recorded status:** 🔴 Rescinded
 - **Date enacted:** 2026-01-05; ratified 2026-01-20
 - **Normalized date:** `2026-01-05` (exact)
 - **Duration:** Originally until 2026-07-04; extended to 2026-08-04 and then scheduled through 2026-10-20. The council approved revocation on 2026-09-01 after adoption of the related ordinance.
@@ -422,7 +424,7 @@ State policy is tracked separately: **9 records** (9 typed bill rows) in [`state
 ### Coweta County
 
 - **Type:** County
-- **Status:** ⚪ Replaced
+- **Recorded status:** ⚪ Replaced
 - **Date enacted:** May 6, 2025 (180-day moratorium), per news coverage of the Board of Commissioners meeting (4-1 vote, Chairman Bill McKenzie dissenting).
 - **Normalized date:** `2025-05-06` (exact)
 - **Duration:** 180 days, expiring 2025-11-03 (per Coweta County spokesperson statement quoted in GPB 2025-10-22)
@@ -438,7 +440,7 @@ State policy is tracked separately: **9 records** (9 typed bill rows) in [`state
 ### Coweta County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** Coweta County Board of Commissioners, unanimous vote at its Tuesday night meeting (2026-06-16) on a 180-day moratorium to review the county's data center ordinance
 - **Normalized date:** `2026-06-16` (exact)
 - **Duration:** 180 days (to about 2026-12-13)
@@ -454,7 +456,7 @@ State policy is tracked separately: **9 records** (9 typed bill rows) in [`state
 ### Crawford County
 
 - **Type:** County
-- **Status:** 🟢 Extended
+- **Recorded status:** 🟢 Extended
 - **Date enacted:** 2026-01-06, Crawford County Board of Commissioners, unanimous (after Planning & Zoning vote 2025-12-18); extended 5-0 on 2026-05-21 to 2026-10-01
 - **Normalized date:** `2026-01-06` (exact)
 - **Duration:** 180 days (to about 2026-07-05); extended on 2026-05-21 to 2026-10-01
@@ -470,7 +472,7 @@ State policy is tracked separately: **9 records** (9 typed bill rows) in [`state
 ### Decatur County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-04-14
 - **Normalized date:** `2026-04-14` (exact)
 - **Duration:** Indefinite
@@ -486,7 +488,7 @@ State policy is tracked separately: **9 records** (9 typed bill rows) in [`state
 ### DeKalb County
 
 - **Type:** County
-- **Status:** 🟢 Extended
+- **Recorded status:** 🟢 Extended
 - **Date enacted:** 2025-06-25
 - **Normalized date:** `2025-06-25` (exact)
 - **Duration:** Initial 100 days; extended multiple times, including June 9, 2026 (100 days, to Sept. 30, 2026) and July 7, 2026 (to March 30, 2027, per Board resolution).
@@ -502,7 +504,7 @@ State policy is tracked separately: **9 records** (9 typed bill rows) in [`state
 ### Dougherty County
 
 - **Type:** County
-- **Status:** 🟢 Extended
+- **Recorded status:** 🟢 Extended
 - **Date enacted:** 2026-07-20
 - **Normalized date:** `2026-07-20` (exact)
 - **Duration:** Initial 45 days from 2026-07-20; extended up to 180 days by resolution at a special called meeting 2026-08-31, through 2027-02-27 unless ended sooner or new zoning regulations become effective.
@@ -518,7 +520,7 @@ State policy is tracked separately: **9 records** (9 typed bill rows) in [`state
 ### Douglas County
 
 - **Type:** County
-- **Status:** ⚪ Expired
+- **Recorded status:** ⚪ Expired
 - **Date enacted:** March 18, 2025 (Resolution No. 25-116)
 - **Normalized date:** `2025-03-18` (exact)
 - **Duration:** Up to 90 days
@@ -534,7 +536,7 @@ State policy is tracked separately: **9 records** (9 typed bill rows) in [`state
 ### East Point (Fulton County)
 
 - **Type:** City
-- **Status:** 🟢 Extended
+- **Recorded status:** 🟢 Extended
 - **Date enacted:** Approximately January 2026 (between the Jan 5, 2026 regular meeting, where a floor motion to adopt was withdrawn in favor of routing through committee, and the Jan 20, 2026 meeting, where a resident thanked Council in public comment for 'having established a six month moratorium on data center construction'); exact vote date not found. City Council extended the moratorium by three months on 2026-06-15.
 - **Normalized date:** `2026-01` (month_only)
 - **Duration:** Extended three months (approximately 90 days) by voice vote
@@ -550,7 +552,7 @@ State policy is tracked separately: **9 records** (9 typed bill rows) in [`state
 ### Fayetteville
 
 - **Type:** City
-- **Status:** ⚪ Replaced
+- **Recorded status:** ⚪ Replaced
 - **Date enacted:** 2026-01-29
 - **Normalized date:** `2026-01-29` (exact)
 - **Duration:** 90 days
@@ -566,7 +568,7 @@ State policy is tracked separately: **9 records** (9 typed bill rows) in [`state
 ### Floyd County
 
 - **Type:** County
-- **Status:** ⚪ Replaced
+- **Recorded status:** ⚪ Replaced
 - **Date enacted:** 2026-06-09
 - **Normalized date:** `2026-06-09` (exact)
 - **Duration:** 80 days
@@ -582,7 +584,7 @@ State policy is tracked separately: **9 records** (9 typed bill rows) in [`state
 ### Forest Park
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-08-31, Forest Park City Council special called meeting (Monday)
 - **Normalized date:** `2026-08-31` (exact)
 - **Duration:** 90 days (to about 2026-11-29)
@@ -598,7 +600,7 @@ State policy is tracked separately: **9 records** (9 typed bill rows) in [`state
 ### Franklin County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-07-06, Franklin County Board of Commissioners, unanimous (Commissioner Pulliam and Chair Long absent), following a June 30 work session
 - **Normalized date:** `2026-07-06` (exact)
 - **Duration:** Until 2026-12-08 (shortened from a proposed six months on counsel's advice)
@@ -614,7 +616,7 @@ State policy is tracked separately: **9 records** (9 typed bill rows) in [`state
 ### Garden City (Chatham County)
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-06-15
 - **Normalized date:** `2026-06-15` (exact)
 - **Duration:** 6 months, effective immediately
@@ -630,7 +632,7 @@ State policy is tracked separately: **9 records** (9 typed bill rows) in [`state
 ### Gordon County
 
 - **Type:** County
-- **Status:** 🟢 Extended
+- **Recorded status:** 🟢 Extended
 - **Date enacted:** 2026-02-03 (Gordon County Board of Commissioners voted unanimously to place a moratorium on construction of data centers while updating the ULDC); extended through 2027-01-29 by resolution at the 2026-07-07 regular meeting
 - **Normalized date:** `2026-02-03` (exact)
 - **Duration:** Extended through 2027-01-29
@@ -646,7 +648,7 @@ State policy is tracked separately: **9 records** (9 typed bill rows) in [`state
 ### Griffin
 
 - **Type:** City
-- **Status:** ⚪ Replaced
+- **Recorded status:** ⚪ Replaced
 - **Date enacted:** 2026-01-13
 - **Normalized date:** `2026-01-13` (exact)
 - **Duration:** 180 days
@@ -662,7 +664,7 @@ State policy is tracked separately: **9 records** (9 typed bill rows) in [`state
 ### Hall County
 
 - **Type:** County
-- **Status:** 🟢 Extended
+- **Recorded status:** 🟢 Extended
 - **Date enacted:** 2026-02-26
 - **Normalized date:** `2026-02-26` (exact)
 - **Duration:** 180 days from 2026-02-26; extended another 180 days by 5-0 vote on 2026-08-27, running until 2027-02-23.
@@ -678,7 +680,7 @@ State policy is tracked separately: **9 records** (9 typed bill rows) in [`state
 ### Hart County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-05-26
 - **Normalized date:** `2026-05-26` (exact)
 - **Duration:** 180 days
@@ -694,7 +696,7 @@ State policy is tracked separately: **9 records** (9 typed bill rows) in [`state
 ### Heard County
 
 - **Type:** County
-- **Status:** ⚪ Expired
+- **Recorded status:** ⚪ Expired
 - **Date enacted:** March 17, 2026
 - **Normalized date:** `2026-03-17` (exact)
 - **Duration:** 180 days
@@ -710,7 +712,7 @@ State policy is tracked separately: **9 records** (9 typed bill rows) in [`state
 ### Hogansville
 
 - **Type:** City
-- **Status:** 🟢 Extended
+- **Recorded status:** 🟢 Extended
 - **Date enacted:** Existing city moratorium on data center applications (original adoption date not confirmed; Ledger-Enquirer table lists 2026-02); extended 90 days on 2026-05-04, 30 days on 2026-07-20, and to 2026-09-08 on 2026-08-17
 - **Normalized date:** `2026-02` (unverified)
 - **Duration:** Series of short extensions: 90 days (May 4), 30 days from Aug 2 (July 20), to the Sept 8, 2026 council meeting (Aug 17)
@@ -726,7 +728,7 @@ State policy is tracked separately: **9 records** (9 typed bill rows) in [`state
 ### Jones County
 
 - **Type:** County
-- **Status:** ⚪ Replaced
+- **Recorded status:** ⚪ Replaced
 - **Date enacted:** 2025-09-16 zoning amendments (subsequently rescinded after notice defects). The county's own account (reported by The Jones County News, a local outlet, citing county officials) states commissioners 'initially approved a moratorium on data centers in October of 2025' to allow further research before adopting permanent zoning language; that moratorium/work-session period concluded with the unanimous adoption of a permanent M-2 Data Center text amendment at a called meeting on January 16, 2026.
 - **Normalized date:** `2025-09-16` (unverified)
 - **Duration:** The October 2025 moratorium/work-session period ran until the Board adopted a permanent text amendment (rather than a further dated moratorium) at a called meeting on January 16, 2026, unanimously (5-0).
@@ -742,7 +744,7 @@ State policy is tracked separately: **9 records** (9 typed bill rows) in [`state
 ### Kingsland (Camden County)
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-05-11
 - **Normalized date:** `2026-05-11` (exact)
 - **Duration:** 365 days
@@ -758,7 +760,7 @@ State policy is tracked separately: **9 records** (9 typed bill rows) in [`state
 ### LaGrange
 
 - **Type:** City
-- **Status:** ⚪ Replaced
+- **Recorded status:** ⚪ Replaced
 - **Date enacted:** 2025-09-23
 - **Normalized date:** `2025-09-23` (exact)
 - **Duration:** 180 days
@@ -774,7 +776,7 @@ State policy is tracked separately: **9 records** (9 typed bill rows) in [`state
 ### Lamar County
 
 - **Type:** County
-- **Status:** 🟢 Extended
+- **Recorded status:** 🟢 Extended
 - **Date enacted:** 2025-09-16 (Resolution 2025-18, Moratorium on Commercial and Manufacturing Development), per Lamar County Board of Commissioners regular business meeting minutes.
 - **Normalized date:** `2025-09-16` (exact)
 - **Duration:** 180 days (Resolution 2025-18), with an internal staff goal of completing the underlying code rewrite within 90 days; subsequently extended as to data centers specifically by Resolution 26-03 (on or about 2026-03-17).
@@ -790,7 +792,7 @@ State policy is tracked separately: **9 records** (9 typed bill rows) in [`state
 ### Lee County
 
 - **Type:** County
-- **Status:** 🟢 Extended
+- **Recorded status:** 🟢 Extended
 - **Date enacted:** Approximately January 2026 (inferred: a May 27, 2026 WALB report describes 'the current freeze' as 'set to expire in July,' consistent with a six-month term run from around January 2026, the pattern also seen in neighboring southwest Georgia counties in this period); exact vote date not found. Resolution adopted 2026-06-09 extends the moratorium from 2026-07-30 through 2026-12-31.
 - **Normalized date:** `2026-01` (month_only)
 - **Duration:** Extended through 2026-12-31
@@ -806,7 +808,7 @@ State policy is tracked separately: **9 records** (9 typed bill rows) in [`state
 ### Lowndes County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-08-25, Lowndes County Board of Commissioners regular session (Tuesday)
 - **Normalized date:** `2026-08-25` (exact)
 - **Duration:** 60 days (to about 2026-10-24)
@@ -822,7 +824,7 @@ State policy is tracked separately: **9 records** (9 typed bill rows) in [`state
 ### Madison County
 
 - **Type:** County
-- **Status:** 🟢 Extended
+- **Recorded status:** 🟢 Extended
 - **Date enacted:** 2026-08-03 -- Board of Commissioners approved a 30-day moratorium on the establishment of data centers (Main Street News, published 2026-08-04, byline Anna Izquierdo); superseded at the Aug. 31, 2026 meeting by a further moratorium running through 2027-02-22.
 - **Normalized date:** `2026-08-03` (exact)
 - **Duration:** 30 days from 2026-08-03; superseded by a further moratorium adopted 2026-08-31 running through 2027-02-22 (about 175 days) per Main Street News, though a Sept. 1 radio report described the Sept. 1 vote as extending it 'for another 180 days' -- the two accounts do not reconcile exactly.
@@ -838,7 +840,7 @@ State policy is tracked separately: **9 records** (9 typed bill rows) in [`state
 ### Marietta
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** On or about 2026-07-08 (reported in a 2026-07-11 article); exact council meeting date not independently confirmed
 - **Normalized date:** `2026-07` (month_only)
 - **Duration:** 6 months, through December 31, 2026
@@ -854,7 +856,7 @@ State policy is tracked separately: **9 records** (9 typed bill rows) in [`state
 ### Maysville
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** Maysville City Council special meeting in July 2026 (reported 2026-07-20)
 - **Normalized date:** `2026-07` (month_only)
 - **Duration:** 180 days
@@ -870,7 +872,7 @@ State policy is tracked separately: **9 records** (9 typed bill rows) in [`state
 ### Meriwether County
 
 - **Type:** County
-- **Status:** 🟢 Extended
+- **Recorded status:** 🟢 Extended
 - **Date enacted:** 2026-02-24, Meriwether County Commission, unanimous; extended 2026-07-28 (unanimous)
 - **Normalized date:** `2026-02-24` (exact)
 - **Duration:** Original term to 2026-08-23; extended 90 days on 2026-07-28 through 2026-11-21
@@ -886,7 +888,7 @@ State policy is tracked separately: **9 records** (9 typed bill rows) in [`state
 ### Milton (Fulton County)
 
 - **Type:** City
-- **Status:** 🟢 Extended
+- **Recorded status:** 🟢 Extended
 - **Date enacted:** 2026-06-15
 - **Normalized date:** `2026-06-15` (exact)
 - **Duration:** Initial 30-day moratorium enacted 2026-06-15; bridged by a short housekeeping extension on 2026-07-06; extended for up to 180 days via Agenda Item 26-208 on 2026-07-20, expected to run through January 2027 unless council lifts it sooner
@@ -902,7 +904,7 @@ State policy is tracked separately: **9 records** (9 typed bill rows) in [`state
 ### Monroe County
 
 - **Type:** County
-- **Status:** ⚪ Replaced
+- **Recorded status:** ⚪ Replaced
 - **Date enacted:** Originally adopted by majority vote at 2025-12-02 regular meeting; documented by resolution adopted 4-1 on 2025-12-16 (Commissioner Davis opposed)
 - **Normalized date:** `2025-12-02` (exact)
 - **Duration:** Ran from the December 2025 adoption through the Board's consideration of a permanent Unified Development Ordinance (UDO) amendment; the amendment was tabled at the March 3, 2026 meeting for further revision and ultimately adopted at the April 7, 2026 meeting.
@@ -918,7 +920,7 @@ State policy is tracked separately: **9 records** (9 typed bill rows) in [`state
 ### Newton County
 
 - **Type:** County
-- **Status:** 🟢 Extended
+- **Recorded status:** 🟢 Extended
 - **Date enacted:** 2026-02-17
 - **Normalized date:** `2026-02-17` (exact)
 - **Duration:** Initial emergency moratorium to 2026-03-18; revised to 2026-04-08; extended to 2026-10-07; Resolution R-100626A adopted October 6, 2026 extends to December 16, 2026, unless an additional moratorium is approved after a public hearing or the Board terminates it earlier.
@@ -934,7 +936,7 @@ State policy is tracked separately: **9 records** (9 typed bill rows) in [`state
 ### Oglethorpe County
 
 - **Type:** County
-- **Status:** ⚪ Replaced
+- **Recorded status:** ⚪ Replaced
 - **Date enacted:** Oglethorpe County Board of Commissioners, unanimous vote at a Monday meeting reported 2026-07-09 (2026-07-06)
 - **Normalized date:** `2026-07-06` (unverified)
 - **Duration:** 90 days
@@ -950,7 +952,7 @@ State policy is tracked separately: **9 records** (9 typed bill rows) in [`state
 ### Paulding County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-07-28
 - **Normalized date:** `2026-07-28` (exact)
 - **Duration:** Until January 1, 2027
@@ -966,7 +968,7 @@ State policy is tracked separately: **9 records** (9 typed bill rows) in [`state
 ### Pike County
 
 - **Type:** County
-- **Status:** ⚪ Replaced
+- **Recorded status:** ⚪ Replaced
 - **Date enacted:** 2025-09 [VERIFY exact date — GPB 2025-10-22 quotes Pike County Commissioner James Jenkins on the September 2025 motion but does not give an exact date]
 - **Normalized date:** `2025-09` (unverified)
 - **Duration:** The September 2025 Board action was an informal supportive motion, not a fixed-term moratorium instrument; it was superseded by a permanent Unified Development Code text amendment adding data center regulations and requirements, which received a first reading and, per the Board's signed minutes, a second reading approved 5-0 at the Dec. 10, 2025 regular meeting.
@@ -982,7 +984,7 @@ State policy is tracked separately: **9 records** (9 typed bill rows) in [`state
 ### Polk County
 
 - **Type:** County
-- **Status:** ⚪ Replaced
+- **Recorded status:** ⚪ Replaced
 - **Date enacted:** 2026-03-03
 - **Normalized date:** `2026-03-03` (exact)
 - **Duration:** 60 days from March 3, 2026; extended to June 2, 2026 (April 28, 2026 vote, 3-2 with abstentions); replaced by permanent zoning text amendment TA26-02, adopted unanimously June 2, 2026.
@@ -998,7 +1000,7 @@ State policy is tracked separately: **9 records** (9 typed bill rows) in [`state
 ### Putnam County
 
 - **Type:** County
-- **Status:** 🟢 Extended
+- **Recorded status:** 🟢 Extended
 - **Date enacted:** 2026-08-07, Putnam County Board of Commissioners Resolution 2026.8.7; extended October 21, 2026 according to county notice.
 - **Normalized date:** `2026-08-07` (exact)
 - **Duration:** Initially August 7 to November 6, 2026; extended until November 17, 2026.
@@ -1014,7 +1016,7 @@ State policy is tracked separately: **9 records** (9 typed bill rows) in [`state
 ### Rockdale County
 
 - **Type:** County
-- **Status:** 🟢 Extended
+- **Recorded status:** 🟢 Extended
 - **Date enacted:** 2026-01-13 (Board of Commissioners adopted Resolution No. 2026-01, a moratorium on data centers and battery energy storage systems); extended 2026-05-12 to 2026-09-08; extended again 2026-08-25 to 2026-10-01 by Resolution R-2026-24
 - **Normalized date:** `2026-01-13` (exact)
 - **Duration:** Resolution 2026-01 (2026-01-13); extended 2026-05-12 through 2026-09-08; amended by R-2026-24 (2026-08-25) to run through 2026-10-01, the intended effective date of the new Unified Development Ordinance.
@@ -1030,7 +1032,7 @@ State policy is tracked separately: **9 records** (9 typed bill rows) in [`state
 ### Roswell
 
 - **Type:** City
-- **Status:** ⚪ Expired
+- **Recorded status:** ⚪ Expired
 - **Date enacted:** 2026-01-12
 - **Normalized date:** `2026-01-12` (exact)
 - **Duration:** 90 days initially (through 2026-04-12); extended 95 days on 2026-03-23 (through 2026-06-26); extended again 90 days on 2026-06-22 (through 2026-09-20).
@@ -1046,7 +1048,7 @@ State policy is tracked separately: **9 records** (9 typed bill rows) in [`state
 ### Savannah
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-08-27, Savannah City Council vote (Thursday meeting) adopting a temporary moratorium ordinance
 - **Normalized date:** `2026-08-27` (exact)
 - **Duration:** 155 days from adoption (to about 2027-01-29)
@@ -1062,7 +1064,7 @@ State policy is tracked separately: **9 records** (9 typed bill rows) in [`state
 ### Social Circle
 
 - **Type:** City
-- **Status:** ⚪ Replaced
+- **Recorded status:** ⚪ Replaced
 - **Date enacted:** 2025-09 [VERIFY exact date — Covington News reporting (URL no longer accessible 2026-04-29) referenced 90-day initial moratorium; primary council minutes not retrieved in this pass]
 - **Normalized date:** `2025-09` (unverified)
 - **Duration:** Initial 90 days; extended an additional 90 days, then replaced by permanent ordinance
@@ -1078,7 +1080,7 @@ State policy is tracked separately: **9 records** (9 typed bill rows) in [`state
 ### South Fulton
 
 - **Type:** City
-- **Status:** ⚪ Replaced
+- **Recorded status:** ⚪ Replaced
 - **Date enacted:** 2025-12-09 (City Council instituted a six-month moratorium, Resolution RES2025-094); extended to 2026-09-09 by Resolution RES2026-043 adopted 2026-05-12
 - **Normalized date:** `2025-12-09` (exact)
 - **Duration:** Extended through 2026-09-09 via Resolution RES2026-043
@@ -1094,7 +1096,7 @@ State policy is tracked separately: **9 records** (9 typed bill rows) in [`state
 ### Stephens County
 
 - **Type:** County
-- **Status:** 🟢 Extended
+- **Recorded status:** 🟢 Extended
 - **Date enacted:** Adopted April 14, 2026 by unanimous Board of Commissioners vote (Resolution for a moratorium barring the acceptance of land use applications for data centers; per the county's signed April 14, 2026 meeting minutes, approved April 28, 2026). Extended through 2026-10-14 by a unanimous vote at the May 26, 2026 meeting (moved the expiration from July 14, 2026 to Oct. 14, 2026). Local reporting says the board extended it again on October 13, 2026 until January 14, 2027.
 - **Normalized date:** `2026-04-14` (exact)
 - **Duration:** Extended until January 14, 2027, according to October 13 local reporting.
@@ -1110,7 +1112,7 @@ State policy is tracked separately: **9 records** (9 typed bill rows) in [`state
 ### Terrell County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** Terrell County Board of Commissioners, unanimous vote on a Tuesday meeting reported 2026-07-09 (likely 2026-07-07)
 - **Normalized date:** `2026-07` (month_only)
 - **Duration:** Six months, with option to extend
@@ -1126,7 +1128,7 @@ State policy is tracked separately: **9 records** (9 typed bill rows) in [`state
 ### Thomas County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-01-20
 - **Normalized date:** `2026-01-20` (exact)
 - **Duration:** 12 months
@@ -1142,7 +1144,7 @@ State policy is tracked separately: **9 records** (9 typed bill rows) in [`state
 ### Toccoa
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-07-27, Toccoa City Commission, unanimous (Monday meeting)
 - **Normalized date:** `2026-07-27` (exact)
 - **Duration:** Until 2027-01-11 (about 168 days)
@@ -1158,7 +1160,7 @@ State policy is tracked separately: **9 records** (9 typed bill rows) in [`state
 ### Troup County
 
 - **Type:** County
-- **Status:** ⚪ Replaced
+- **Recorded status:** ⚪ Replaced
 - **Date enacted:** 2025-09-16
 - **Normalized date:** `2025-09-16` (exact)
 - **Duration:** 90 days from 2025-09-16, extended 90 days on 2025-12-02 (to 2026-03-16), and extended a further 90 days on 2026-02-17 (to 2026-06-14), per the county's official public notice.
@@ -1174,7 +1176,7 @@ State policy is tracked separately: **9 records** (9 typed bill rows) in [`state
 ### Union County
 
 - **Type:** County
-- **Status:** ⚪ Expired
+- **Recorded status:** ⚪ Expired
 - **Date enacted:** 2026-04-16
 - **Normalized date:** `2026-04-16` (exact)
 - **Duration:** Original 120-day term from April 16, 2026, or until repealed by adoption of new regulations or ordinances; exact endpoint/later actions unverified
@@ -1190,7 +1192,7 @@ State policy is tracked separately: **9 records** (9 typed bill rows) in [`state
 ### Walker County
 
 - **Type:** County
-- **Status:** 🟢 Extended
+- **Recorded status:** 🟢 Extended
 - **Date enacted:** 2026-07-09
 - **Normalized date:** `2026-07-09` (exact)
 - **Duration:** Original 30 days (2026-07-09 to approximately 2026-08-08); the Board of Commissioners voted unanimously on Aug. 6, 2026 to extend the moratorium 180 days, through Feb. 2, 2027, and to establish a Data Center Development Standards Study Committee, which the Board asked to complete its work by Dec. 4, 2026.
@@ -1206,7 +1208,7 @@ State policy is tracked separately: **9 records** (9 typed bill rows) in [`state
 ### Warner Robins
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-07-20, Warner Robins City Council, unanimous
 - **Normalized date:** `2026-07-20` (exact)
 - **Duration:** Six months (until about January 2027)

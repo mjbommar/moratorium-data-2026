@@ -3,11 +3,13 @@
 
 Working inventory for Nevada, generated **November 7, 2026**. Record-level refresh and later-action review remain incomplete.
 
-**7 instruments** — 5 in force, 0 pending, 2 past.
+**7 records** — 5 classified as active or extended, 0 classified as pending, 2 classified as past.
+
+These counts reflect inventory classifications and do not establish current enforceability.
 
 State policy is tracked separately: **7 records** (7 typed bill rows) in [`state_legislation.csv`](../data/state_legislation.csv). These are not included in the local count above.
 
-| Jurisdiction | Type | Enacted | Sectors | Status |
+| Jurisdiction | Type | Enacted | Sectors | Recorded status |
 |---|---|---|---|---|
 | Humboldt County | County | 2026-07-06 | data center | 🟢 Active |
 | Lander County | County | 2024-11-14 | solar, wind, battery storage | ⚪ Expired |
@@ -22,7 +24,7 @@ State policy is tracked separately: **7 records** (7 typed bill rows) in [`state
 ### Humboldt County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-07-06, Humboldt County Commission, unanimous vote on second reading of Bill No. 05-18-26 (one local news account describes the meeting as occurring July 7)
 - **Normalized date:** `2026-07-06` (exact)
 - **Duration:** Through July 13, 2027 (amended at the meeting)
@@ -38,7 +40,7 @@ State policy is tracked separately: **7 records** (7 typed bill rows) in [`state
 ### Lander County
 
 - **Type:** County
-- **Status:** ⚪ Expired
+- **Recorded status:** ⚪ Expired
 - **Date enacted:** 2024-11-14, Lander County Commission approved Resolution 2024-09 (date reported in July 24, 2025 county staff report).
 - **Normalized date:** `2024-11-14` (exact)
 - **Duration:** 9 months originally; extended 6 months by Resolution 2025-11 (adopted 2025-07-24) through Jan. 24, 2026
@@ -54,7 +56,7 @@ State policy is tracked separately: **7 records** (7 typed bill rows) in [`state
 ### Nye County
 
 - **Type:** County
-- **Status:** ⚪ Replaced
+- **Recorded status:** ⚪ Replaced
 - **Date enacted:** 2023 (original moratorium on renewable energy generation facilities; exact date not confirmed)
 - **Normalized date:** `2023` (year_only)
 - **Duration:** Continued by Resolution 2024-25 (Sept. 17, 2024 agenda item) through Dec. 21, 2024
@@ -70,7 +72,7 @@ State policy is tracked separately: **7 records** (7 typed bill rows) in [`state
 ### Nye County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-06-02 (Nye County Board of County Commissioners unanimously approved a countywide moratorium on new data center applications at its Tuesday, June 2, 2026 meeting, per Pahrump Valley Times)
 - **Normalized date:** `2026-06-02` (exact)
 - **Duration:** No fixed term; Commissioner Strickland was quoted estimating a new data center ordinance could be ready 'in about 90 days,' but the moratorium's stated end condition is adoption of local data center regulations, not a calendar date.
@@ -86,7 +88,7 @@ State policy is tracked separately: **7 records** (7 typed bill rows) in [`state
 ### Reno
 
 - **Type:** City
-- **Status:** 🟢 Extended
+- **Recorded status:** 🟢 Extended
 - **Date enacted:** Reno City Council approved a final moratorium resolution on/around 2026-06-01, extending an earlier temporary pause on special-use permits for new data centers through August 31, 2027, by a 6-1 vote (Councilmember Kathleen Taylor dissenting). Coverage headlines describe this both as an 'extension' of an existing pause and as the council 'approving' the moratorium, consistent with an initial shorter pause enacted earlier in 2026 that was then extended.
 - **Normalized date:** `2026-06-01` (range)
 - **Duration:** Runs through August 31, 2027, or until the city adopts new data center regulations, whichever comes first.
@@ -102,7 +104,7 @@ State policy is tracked separately: **7 records** (7 typed bill rows) in [`state
 ### Wells
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-06-23, Wells City Council, unanimous vote (4-0, Councilman Richard Peltier absent) on Resolution No. 26-06
 - **Normalized date:** `2026-06-23` (exact)
 - **Duration:** Section 8 states “twelve months (12) days” from effectiveness, unless earlier repealed, modified, extended or superseded. The contradictory units require clarification.
@@ -118,7 +120,7 @@ State policy is tracked separately: **7 records** (7 typed bill rows) in [`state
 ### White Pine County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-07-22, White Pine County Board of County Commissioners, adopted at a duly noticed public meeting (per the signed resolution's adoption clause)
 - **Normalized date:** `2026-07-22` (exact)
 - **Duration:** 180 calendar days from the effective date (adoption), renewable by Board resolution for one additional period of up to 180 days after a noticed public hearing.

@@ -76,7 +76,7 @@ We manually reviewed every extraction record to:
 - Resolve `[VERIFY]` flags by re-checking primary sources via real-Chrome browser sessions
 - Add moratoria identified through news coverage but missed by automated extraction
 
-During the November 5, 2026 working refresh the cleaned inventory has **1330 instruments across 47 states** (`data/moratorium_inventory.csv`). It held 222 at v2026.04.4; see Phase 5 below for how the refresh cycle works.
+During the November 5, 2026 working refresh the cleaned inventory has **1330 inventory records across 47 states** (`data/moratorium_inventory.csv`). It held 222 at v2026.04.4; see Phase 5 below for how the refresh cycle works.
 
 ### Phase 4: Geocoding (added v2026.04.2)
 
@@ -106,10 +106,10 @@ Each correction used article-context disambiguation (`legal_basis`, `trigger`, a
 
 Right — the numbers can be confusing. Here's the difference:
 
-- **Inventory (n=1330):** the working inventory of moratorium **instrument records**, with [identity-reconciliation gaps](known-gaps.md#legacy-instrument-identities) still under review. One DeKalb County resolution = 1 row, even if there are 5 documents about it.
+- **Inventory (n=1330):** the working inventory of moratorium **instrument records**, with [identity-reconciliation gaps](known-gaps.md#legacy-instrument-identities) still under review. The intended grain is one instrument per row; aggregate and compound rows and possible duplicates remain unresolved. One DeKalb County resolution = 1 row, even if there are 5 documents about it.
 - **Structured-extraction cohort (n=348):** the count of confidence-filtered structured **extractions**. A single moratorium can produce multiple extractions: the ordinance text, the meeting minutes, the agenda packet, etc. Plus the cohort includes some duplicate adoptions and extensions captured separately.
 
-The two numbers measure different things and do not need to match. The current working count is 1330 moratorium instruments; the historical line-coded sample of 348 extractions is used for clause-prevalence percentages. These older extraction records have not been recollected to match the current inventory.
+The two numbers measure different things and do not need to match. The current working count is 1330 moratorium records; the historical line-coded sample of 348 extractions is used for clause-prevalence percentages. These older extraction records have not been recollected to match the current inventory.
 
 ## What we don't claim
 

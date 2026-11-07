@@ -6,13 +6,13 @@ This is the open companion dataset for the working paper *Moratorium Nation: A S
 
 > 📄 **Working paper:** [April 2026 updated draft (PDF, 6 MB, 116 pages)](paper/moratorium-nation-2026-04-30.pdf) · [first edition on SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6242898). 50-state legal authority survey, 44-clause taxonomy, 13-section model ordinance template.
 
-> **As of November 5, 2026, 1330 local moratorium instruments are tracked across 47 states.**
+> **As of November 5, 2026, 1330 local moratorium records are tracked across 47 states.**
 > Includes the reviewed November 6 Seattle duplicate retirement; both original IDs remain resolvable.
 > Working snapshot: the full November refresh is in progress. Status dates vary by record; these are recorded classifications, not a claim that every instrument was freshly verified.
 >
-> 🟢 **1079 classified active or extended** (current legal force remains record-specific) · 🟡 **79 pending or not yet effective** (proposed or enacted with a future effective date) · ⚪ **172 expired, replaced, or rescinded** (recorded past classifications)
+> 🟢 **1079 classified active or extended** (current legal force remains record-specific) · 🟡 **79 classified pending** · ⚪ **172 classified past** (recorded as expired, replaced, or rescinded)
 >
-> Leading states by total instruments: Ohio (160), New York (152), Michigan (148), Georgia (71), North Carolina (70), Iowa (60), Tennessee (46), Washington (43), Wisconsin (41), Florida (35), Indiana (35), Kentucky (35). Florida, Indiana and Kentucky tie for tenth.
+> Leading states by total records: Ohio (160), New York (152), Michigan (148), Georgia (71), North Carolina (70), Iowa (60), Tennessee (46), Washington (43), Wisconsin (41), Florida (35), Indiana (35), Kentucky (35). Florida, Indiana and Kentucky tie for tenth.
 >
 > **Coverage note:** All 50 states were searched month by month for May–July 2026, but later discovery found additional instruments in that window. These are observed inventory counts, not a complete census. See [known gaps](docs/known-gaps.md).
 
@@ -68,22 +68,22 @@ For more, see the [FAQ](docs/FAQ.md).
 
 Working snapshot during the **November 5, 2026** refresh (record-level source dates vary):
 
-- **1330 moratorium instruments** tracked in our cleaned inventory
+- **1330 moratorium records** tracked in our cleaned inventory
   - **1079 classified active or extended** (887 active + 192 extended)
-  - **79 pending or not yet effective** (proposed or enacted with a future effective date)
-  - **94 replaced** by permanent regulations
-  - **66 expired** without a documented replacement
-  - **12 rescinded** by documented repeal; earlier event-based expiry may remain unresolved
+  - **79 classified pending**
+  - **94 classified replaced**
+  - **66 classified expired**
+  - **12 classified rescinded**; earlier event-based expiry may remain unresolved
 - **47 states** have at least one moratorium. We searched the other **3 states** (Hawaii, West Virginia, and Wyoming) and found none. Alaska, Arizona, Delaware, Rhode Island, and Vermont joined the list in the September 2026 update
-- **Leading states by instrument count**: Ohio (160), New York (152), Michigan (148), Georgia (71), North Carolina (70), Iowa (60), Tennessee (46), Washington (43), Wisconsin (41), Florida (35), Indiana (35), Kentucky (35). Florida, Indiana and Kentucky tie for tenth.
+- **Leading states by record count**: Ohio (160), New York (152), Michigan (148), Georgia (71), North Carolina (70), Iowa (60), Tennessee (46), Washington (43), Wisconsin (41), Florida (35), Indiana (35), Kentucky (35). Florida, Indiana and Kentucky tie for tenth.
 - **Sectors covered**: most moratoria are about **data centers** (about 84% mention them). **Battery storage** comes next (about 19%). Most of those are New York town pauses added in September 2026. Smaller numbers cover **cryptocurrency mining**, **solar**, and **wind**
 - **427 state-policy records** use the legacy `bill` type, alongside **10 resolution rows**, **3 precursor memo rows**, and **2 other typed actions**. These are legal-form row counts, not a deduplicated independent-bill census. Compound resolution observations and memo-to-bill associations retain their existing IDs. Mechanisms include moratorium proposals, local authority/preemption, permitting limits, and utility-grid restrictions; filter `policy_instrument_type`, `policy_mechanism`, `legal_effect_status`, and `scope_of_action` rather than treating every state row as a moratorium.
 - **348 moratorium texts** read line-by-line and coded against a 44-clause taxonomy (the confidence-≥-0.4 subset of the 526 successful structured extractions in [`data/structured_extractions.jsonl`](data/structured_extractions.jsonl)). ⚠️ This cohort covers 211 jurisdictions and was collected **before 2026-04-28** — it was not re-run in v2026.07, so the clause-level percentages describe only about a quarter of the current inventory. See [known gaps](docs/known-gaps.md)
-- **1289 of 1330 instruments geocoded** with WGS84 lat/lon (96.9% coverage); the 41 blanks comprise two aggregate meta-rows and Hayward, Fairbanks North Star Borough, Petersburg Borough, Braintree, Methuen, Sun Prairie, two Kent County records, Brighton, Chicago, Sac County, the 2023 Sioux County record, the historical Silver City solar record, Orlinda, Blaine County, Sarpy County, Pequot Lakes, the historical Talbot County solar record, East Windsor, two historical Phillips County records, Fort Collins, Vermillion County, Zionsville, Union County, Camargo, Bossier Parish, Mooresville, Awendaw, Stephenson County, Whitman County, Spokane Valley, Niagara, Massena, two Locke Township records, Meridian Township, Bridgton and Ashland, whose coordinates await review. In September 2026 we found 37 rows placed in the wrong county, because many townships share a name, and fixed them ([audit details](docs/known-gaps.md#geocoding-caveats-added-v2026042))
+- **1289 of 1330 records geocoded** with WGS84 lat/lon (96.9% coverage); the 41 blanks comprise two aggregate meta-rows and Hayward, Fairbanks North Star Borough, Petersburg Borough, Braintree, Methuen, Sun Prairie, two Kent County records, Brighton, Chicago, Sac County, the 2023 Sioux County record, the historical Silver City solar record, Orlinda, Blaine County, Sarpy County, Pequot Lakes, the historical Talbot County solar record, East Windsor, two historical Phillips County records, Fort Collins, Vermillion County, Zionsville, Union County, Camargo, Bossier Parish, Mooresville, Awendaw, Stephenson County, Whitman County, Spokane Valley, Niagara, Massena, two Locke Township records, Meridian Township, Bridgton and Ashland, whose coordinates await review. In September 2026 we found 37 rows placed in the wrong county, because many townships share a name, and fixed them ([audit details](docs/known-gaps.md#geocoding-caveats-added-v2026042))
 
 Full state-by-state breakdown: [**states/README.md**](states/README.md).
 
-A note on the headline number: we count **moratorium instruments** rather than "moratoria currently in force" because the public proposal of a moratorium is itself politically meaningful and often analytically important (cascade studies, comparative state policy, etc.). Use the `enacted_status` column in the inventory CSV to filter to whatever subset you need; codebook explains.
+The headline counts inventory records, including proposals. The intended grain is one instrument per row, but aggregate and compound rows and possible duplicates remain unresolved. Recorded status classifications do not establish current enforceability. Use `enacted_status` to filter classifications; the codebook explains.
 
 ---
 
@@ -91,7 +91,7 @@ A note on the headline number: we count **moratorium instruments** rather than "
 
 ### Open in Excel or Google Sheets
 
-Download [`data/moratorium_inventory.csv`](data/moratorium_inventory.csv) and open it in Excel, Google Sheets, Numbers, or any spreadsheet tool. Each row is one moratorium instrument. Column definitions are in [`docs/codebook.md`](docs/codebook.md).
+Download [`data/moratorium_inventory.csv`](data/moratorium_inventory.csv) and open it in Excel, Google Sheets, Numbers, or any spreadsheet tool. The intended grain is one instrument per row; aggregate and compound rows and possible duplicates remain unresolved. Column definitions are in [`docs/codebook.md`](docs/codebook.md).
 
 To select records classified active or extended, filter the `enacted_status` column to `active` or `extended`.
 
@@ -129,7 +129,7 @@ m.save("map.html")  # open in browser
 
 ### Just want the numbers
 
-[`data/summary_stats.json`](data/summary_stats.json) is a small JSON file with the headline totals (counts by state, breakdown by enacted-status, etc.) — useful if you want to embed live-updating numbers in your own page.
+[`data/summary_stats.json`](data/summary_stats.json) is a small JSON file with the headline totals (counts by state, breakdown by enacted-status, etc.). The internal summary key `in_force` used by the page generator counts rows classified active or extended; it does not measure current legal force.
 
 ---
 

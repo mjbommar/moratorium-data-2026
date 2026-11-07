@@ -3,11 +3,13 @@
 
 Working inventory for Massachusetts, generated **November 7, 2026**. Record-level refresh and later-action review remain incomplete.
 
-**17 instruments** — 9 in force, 7 pending, 1 past.
+**17 records** — 9 classified as active or extended, 7 classified as pending, 1 classified as past.
+
+These counts reflect inventory classifications and do not establish current enforceability.
 
 State policy is tracked separately: **5 records** (5 typed bill rows) in [`state_legislation.csv`](../data/state_legislation.csv). These are not included in the local count above.
 
-| Jurisdiction | Type | Enacted | Sectors | Status |
+| Jurisdiction | Type | Enacted | Sectors | Recorded status |
 |---|---|---|---|---|
 | Agawam | City | 2026-09-08 | data center | 🟢 Active |
 | Braintree | Town | Unverified | data center | 🟡 Pending |
@@ -32,7 +34,7 @@ State policy is tracked separately: **5 records** (5 typed bill rows) in [`state
 ### Agawam
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** September 8, 2026
 - **Normalized date:** `2026-09-08` (exact)
 - **Duration:** 270 days
@@ -48,7 +50,7 @@ State policy is tracked separately: **5 records** (5 typed bill rows) in [`state
 ### Braintree
 
 - **Type:** Town
-- **Status:** 🟡 Pending
+- **Recorded status:** 🟡 Pending
 - **Date enacted:** —
 - **Normalized date:** `—` (unverified)
 - **Duration:** One year proposed; may end earlier upon permanent regulations
@@ -64,7 +66,7 @@ State policy is tracked separately: **5 records** (5 typed bill rows) in [`state
 ### Chesterfield
 
 - **Type:** Town
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-06-24, Chesterfield Special Town Meeting (voters approved; unanimous per the Daily Hampshire Gazette's July 7, 2026 roundup)
 - **Normalized date:** `2026-06-24` (exact)
 - **Duration:** From adoption (2026-06-24) through 2026-09-30, while the town studies siting/design standards for battery energy storage systems (BESS); a permanent BESS zoning bylaw, finalized by the Planning Board on 2026-09-15, was scheduled for a vote at a further Special Town Meeting on 2026-09-30.
@@ -80,7 +82,7 @@ State policy is tracked separately: **5 records** (5 typed bill rows) in [`state
 ### Everett (restriction proposal, not moratorium)
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-06-22 (final ordainment/second reading); initial enrollment/first-reading vote 2026-06-08.
 - **Normalized date:** `2026-06-22` (exact)
 - **Duration:** Not a moratorium
@@ -96,7 +98,7 @@ State policy is tracked separately: **5 records** (5 typed bill rows) in [`state
 ### Gill
 
 - **Type:** Town
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-05-04, Gill Annual Town Meeting (Part 1), Article 7, approved unanimously
 - **Normalized date:** `2026-05-04` (exact)
 - **Duration:** One-year moratorium in effect May 4, 2026 through May 3, 2027 (or earlier, if superseding zoning regulations are adopted first), covering Building-Integrated Energy Storage Systems (BESS) with an aggregate capacity of 50 kWh or more, and Data Centers.
@@ -112,7 +114,7 @@ State policy is tracked separately: **5 records** (5 typed bill rows) in [`state
 ### Greenfield
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-09-16, Greenfield City Council, unanimous roll-call vote; resolution proposed by Precinct 7 Councilor Sarah Bolduc
 - **Normalized date:** `2026-09-16` (exact)
 - **Duration:** One year from adoption. If the Planning Board has not delivered zoning recommendations within that year, the City Council may extend the moratorium by an additional 180 days, during which the Council itself must draft zoning changes.
@@ -128,7 +130,7 @@ State policy is tracked separately: **5 records** (5 typed bill rows) in [`state
 ### Heath (proposal, not enacted as of 2026-04-29)
 
 - **Type:** Town
-- **Status:** 🟡 Pending
+- **Recorded status:** 🟡 Pending
 - **Date enacted:** Not enacted at the May 9, 2026 Annual Town Meeting or since. The proposed Section 6.11 BESS/Data Center moratorium article, publicly noticed for a March 11, 2026 Planning Board hearing, was dropped before the final Annual Town Meeting warrant was signed (2026-04-14) and does not appear among the warrant's 22 articles.
 - **Normalized date:** `—` (unverified)
 - **Duration:** No moratorium has been adopted. The one-year term proposed in the March 11, 2026 public-hearing draft (new Section 6.11) never reached an Annual or Special Town Meeting vote as of 2026-09-23.
@@ -144,7 +146,7 @@ State policy is tracked separately: **5 records** (5 typed bill rows) in [`state
 ### Leominster
 
 - **Type:** City
-- **Status:** 🟡 Pending
+- **Recorded status:** 🟡 Pending
 - **Date enacted:** On 2026-09-28 the City Council voted 8-0 to grant each of petitions 02-27 (battery storage) and 03-27 (data centers). Mayoral approval and the legal effective date remain unverified.
 - **Normalized date:** `—` (unverified)
 - **Duration:** If adopted, would pause data center and battery storage facility construction from adoption through 2027-07-31.
@@ -160,7 +162,7 @@ State policy is tracked separately: **5 records** (5 typed bill rows) in [`state
 ### Lowell
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-03-10
 - **Normalized date:** `2026-03-10` (exact)
 - **Duration:** 360 days; one optional extension up to 180 days by two-thirds City Council vote
@@ -176,7 +178,7 @@ State policy is tracked separately: **5 records** (5 typed bill rows) in [`state
 ### Malden
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** May 5, 2026 (City Council adoption of Order 252-26).
 - **Normalized date:** `2026-05-05` (exact)
 - **Duration:** One year
@@ -192,7 +194,7 @@ State policy is tracked separately: **5 records** (5 typed bill rows) in [`state
 ### Methuen
 
 - **Type:** City
-- **Status:** 🟡 Pending
+- **Recorded status:** 🟡 Pending
 - **Date enacted:** —
 - **Normalized date:** `—` (unverified)
 - **Duration:** One year proposed; may end earlier upon permanent regulations and may be extended once up to 180 days
@@ -208,7 +210,7 @@ State policy is tracked separately: **5 records** (5 typed bill rows) in [`state
 ### Northampton
 
 - **Type:** City
-- **Status:** 🟡 Pending
+- **Recorded status:** 🟡 Pending
 - **Date enacted:** —
 - **Normalized date:** `—` (unverified)
 - **Duration:** One year, with an option for a 180-day extension
@@ -224,7 +226,7 @@ State policy is tracked separately: **5 records** (5 typed bill rows) in [`state
 ### Plymouth
 
 - **Type:** Town
-- **Status:** 🟡 Pending
+- **Recorded status:** 🟡 Pending
 - **Date enacted:** —
 - **Normalized date:** `—` (unverified)
 - **Duration:** One year (October 17, 2026 - October 16, 2027) if approved at Fall Town Meeting
@@ -240,7 +242,7 @@ State policy is tracked separately: **5 records** (5 typed bill rows) in [`state
 ### Shutesbury
 
 - **Type:** Town
-- **Status:** ⚪ Expired
+- **Recorded status:** ⚪ Expired
 - **Date enacted:** 2025-09-30
 - **Normalized date:** `2025-09-30` (exact)
 - **Duration:** Until 2026-06-30
@@ -256,7 +258,7 @@ State policy is tracked separately: **5 records** (5 typed bill rows) in [`state
 ### Southbridge
 
 - **Type:** Town
-- **Status:** 🟡 Pending
+- **Recorded status:** 🟡 Pending
 - **Date enacted:** —
 - **Normalized date:** `—` (unverified)
 - **Duration:** Up to 12 months, with up to two additional 180-day extensions possible
@@ -272,7 +274,7 @@ State policy is tracked separately: **5 records** (5 typed bill rows) in [`state
 ### Westfield
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** City Council gave Ordinance No. 1805 its second reading and final passage on 2026-07-06; mayoral approval recorded 2026-07-07.
 - **Normalized date:** `2026-07-06` (exact)
 - **Duration:** Prohibits the permitting, construction, expansion, conversion, establishment, or operation of data centers through 2027-07-06; bars acceptance or approval of applications; stays pending applications; directs the Natural Resources Committee to review environmental, public health, and infrastructure impacts.
@@ -288,7 +290,7 @@ State policy is tracked separately: **5 records** (5 typed bill rows) in [`state
 ### Westfield
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** February 5, 2026 (first reading, unanimous); second reading Feb. 19, 2026
 - **Normalized date:** `2026-02-05` (exact)
 - **Duration:** Interim restriction through September 30, 2026

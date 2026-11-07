@@ -194,8 +194,8 @@
   <h1 id="codebook">Codebook</h1>
 <p>This document defines every column in every data file. Read this before doing analysis.</p>
 <h2 id="datamoratorium_inventorycsv"><code>data/moratorium_inventory.csv</code></h2>
-<p><strong>One row per moratorium instrument.</strong> 1330 rows total in the November 5, 2026 working refresh. Record-level review is incomplete; this count does not certify current legal force for every row.</p>
-<p>This is the intended grain. Legacy combined candidates and motion/ordinance
+<p><strong>The intended grain is one moratorium instrument per row.</strong> 1330 rows total in the November 5, 2026 working refresh. Record-level review is incomplete; this count does not certify current legal force for every row.</p>
+<p>This is the intended grain. Aggregate and compound rows, possible duplicates, legacy combined candidates and motion/ordinance
 relationships still require <a href="known-gaps.html#legacy-instrument-identities">identity reconciliation</a>;
 the working count is not a completed deduplicated instrument census.</p>
 <table>
@@ -348,13 +348,13 @@ the working count is not a completed deduplicated instrument census.</p>
 <li><strong><code>replaced</code></strong> — recorded as replaced by a permanent ordinance</li>
 <li><strong><code>expired</code></strong> — recorded term has elapsed; later actions or replacement may remain unverified</li>
 <li><strong><code>rescinded</code></strong> — documented affirmative repeal; this does not establish that the original event-based endpoint had not already occurred</li>
-<li><strong><code>pending</code></strong> — moratorium is proposed or enacted with a future effective date; it is not yet classified as in force. This legacy category alone does not establish whether a vote has occurred</li>
+<li><strong><code>pending</code></strong> — recorded as pending. This legacy category alone does not establish whether a vote has occurred or the current legal effect</li>
 </ul>
 <p>To filter to recorded active/extended classifications (not renewed legal-force findings):</p>
 <pre><code class="language-python">in_force = df[df[&quot;enacted_status&quot;].isin([&quot;active&quot;, &quot;extended&quot;])]
 </code></pre>
-<p>To filter to enacted-only (current or past):</p>
-<pre><code class="language-python">enacted = df[~df[&quot;enacted_status&quot;].eq(&quot;pending&quot;)]
+<p>To filter to non-pending classifications (this does not establish adoption; adoption requires reviewed evidence):</p>
+<pre><code class="language-python">non_pending = df[~df[&quot;enacted_status&quot;].eq(&quot;pending&quot;)]
 </code></pre>
 <h3 id="notes-on-the-data">Notes on the data</h3>
 <ul>
@@ -505,6 +505,7 @@ records the governing session context per state in the audit log under
 <code>work/audit/</code>.</p>
 <h2 id="datasummary_statsjson"><code>data/summary_stats.json</code></h2>
 <p>A single JSON object with top-level aggregates. Useful for embedding live counts on a page or programmatic comparison across releases.</p>
+<p>The page generator also uses a legacy internal summary key, <code>in_force</code>, for the count of rows classified active or extended. It does not measure current legal force and is not a key in this JSON file.</p>
 <p>Top-level keys:</p>
 <ul>
 <li><code>total_local_moratoria</code>: 1330 — total rows in the inventory</li>

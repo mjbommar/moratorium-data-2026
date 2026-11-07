@@ -3,11 +3,13 @@
 
 Working inventory for Florida, generated **November 7, 2026**. Record-level refresh and later-action review remain incomplete.
 
-**35 instruments** — 28 in force, 6 pending, 1 past.
+**35 records** — 28 classified as active or extended, 6 classified as pending, 1 classified as past.
+
+These counts reflect inventory classifications and do not establish current enforceability.
 
 State policy is tracked separately: **6 records** (6 typed bill rows) in [`state_legislation.csv`](../data/state_legislation.csv). These are not included in the local count above.
 
-| Jurisdiction | Type | Enacted | Sectors | Status |
+| Jurisdiction | Type | Enacted | Sectors | Recorded status |
 |---|---|---|---|---|
 | Alachua | City | Unverified | data center | 🟡 Pending |
 | Bay County | County | 2026-07-07 | data center | 🟢 Active |
@@ -50,7 +52,7 @@ State policy is tracked separately: **6 records** (6 typed bill rows) in [`state
 ### Alachua
 
 - **Type:** City
-- **Status:** 🟡 Pending
+- **Recorded status:** 🟡 Pending
 - **Date enacted:** —
 - **Normalized date:** `—` (unverified)
 - **Duration:** 12 months (proposed)
@@ -66,7 +68,7 @@ State policy is tracked separately: **6 records** (6 typed bill rows) in [`state
 ### Bay County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** Approved by the Board of County Commissioners 2026-07-07 (reported 2026-07-08).
 - **Normalized date:** `2026-07-07` (exact)
 - **Duration:** Six-month moratorium on data centers requiring 5 MW of power or more in unincorporated Bay County, while staff reviews and updates land development regulations; may be extended another six months if permanent rules are not ready.
@@ -82,7 +84,7 @@ State policy is tracked separately: **6 records** (6 typed bill rows) in [`state
 ### Citrus County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** Adopted 2026-05-26 by the Board of County Commissioners at a public hearing, 5-0 vote; staff had been directed on 2026-05-12 to prepare the ordinance for that meeting.
 - **Normalized date:** `2026-05-26` (exact)
 - **Duration:** In effect for 12 months from its effective date or until related county regulations take effect, whichever occurs first.
@@ -98,7 +100,7 @@ State policy is tracked separately: **6 records** (6 typed bill rows) in [`state
 ### Clay County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** Adopted 2026-06-23 by the Board of County Commissioners, 4-1 vote, following a first hearing 2026-06-09.
 - **Normalized date:** `2026-06-23` (exact)
 - **Duration:** One-year moratorium in unincorporated Clay County.
@@ -114,7 +116,7 @@ State policy is tracked separately: **6 records** (6 typed bill rows) in [`state
 ### DeSoto County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** Commissioners approved the moratorium unanimously (4-0, one commissioner recused) 2026-07-28 (Tuesday).
 - **Normalized date:** `2026-07-28` (exact)
 - **Duration:** One-year moratorium on new data-center applications in DeSoto County; explicitly does not apply to rezoning applications already pending for DCIP Group's 800-plus-acre data-center project (which can continue to move forward).
@@ -130,7 +132,7 @@ State policy is tracked separately: **6 records** (6 typed bill rows) in [`state
 ### Flagler County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** Adopted on second reading by the Board of County Commissioners 2026-08-03 (Monday), unanimous.
 - **Normalized date:** `2026-08-03` (exact)
 - **Duration:** One-year moratorium on new data center development in unincorporated Flagler County while the county researches the industry and develops zoning/land development regulations. Amended before final passage to remove the 'large-scale'/'large load customer facility' qualifiers so the pause applies to all data centers, not only large ones.
@@ -146,7 +148,7 @@ State policy is tracked separately: **6 records** (6 typed bill rows) in [`state
 ### Franklin County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** Commissioners voted unanimously to approve the moratorium 2026-07-15 (Wednesday morning), after directing staff in June to prepare it.
 - **Normalized date:** `2026-07-15` (exact)
 - **Duration:** One-year moratorium on large-scale AI data center proposals, while commissioners consider a permanent ban.
@@ -162,7 +164,7 @@ State policy is tracked separately: **6 records** (6 typed bill rows) in [`state
 ### Hernando County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** Adopted 2026-06-23 at second public hearing (first hearing 2026-06-02); Florida Department of State acknowledged filing 2026-06-24.
 - **Normalized date:** `2026-06-23` (exact)
 - **Duration:** 365-day moratorium on development orders and permits for data centers in unincorporated Hernando County, subject to exemptions and prospective-application provisions; can end early if permanent regulations take effect, and can be extended once for no more than 120 days.
@@ -178,7 +180,7 @@ State policy is tracked separately: **6 records** (6 typed bill rows) in [`state
 ### Hillsborough County
 
 - **Type:** County
-- **Status:** 🟡 Pending
+- **Recorded status:** 🟡 Pending
 - **Date enacted:** —
 - **Normalized date:** `—` (unverified)
 - **Duration:** 1 year (proposed)
@@ -194,7 +196,7 @@ State policy is tracked separately: **6 records** (6 typed bill rows) in [`state
 ### Holmes County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** June 16, 2026 (Ordinance No. 2026-03)
 - **Normalized date:** `2026-06-16` (exact)
 - **Duration:** One year from the effective date, unless earlier terminated or extended by the Board
@@ -210,7 +212,7 @@ State policy is tracked separately: **6 records** (6 typed bill rows) in [`state
 ### Lake County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** Board of County Commissioners voted unanimously to adopt the ordinance on Tuesday, 2026-09-08 (not 2026-09-09, which was a Wednesday; the cited article, published Wednesday morning, refers to a 'Tuesday evening' vote and other sources confirm the commission met Sept. 8).
 - **Normalized date:** `2026-09-08` (exact)
 - **Duration:** 90-day pause on accepting any applications for large-scale data centers in unincorporated Lake County, to give commissioners time to create new zoning and development regulations (including a possible conditional-use-permit requirement).
@@ -226,7 +228,7 @@ State policy is tracked separately: **6 records** (6 typed bill rows) in [`state
 ### Lakeland
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-08-03, City Commission adopted Ordinance No. 26-018 by a 4-3 vote.
 - **Normalized date:** `2026-08-03` (exact)
 - **Duration:** One year from 2026-08-03, unless amended or repealed sooner. Covers new data centers and large-load customers with anticipated peak demand of 50 MW or more while the City reviews its planning and land-development rules.
@@ -242,7 +244,7 @@ State policy is tracked separately: **6 records** (6 typed bill rows) in [`state
 ### Leon County
 
 - **Type:** County
-- **Status:** 🟡 Pending
+- **Recorded status:** 🟡 Pending
 - **Date enacted:** Commissioners directed staff in July 2026 to pursue an ordinance; the proposed ordinance passed its first of two required public hearings unanimously 2026-09-15. The second and final public hearing/vote is scheduled for 2026-10-13 and had not occurred as of this research date.
 - **Normalized date:** `—` (unverified)
 - **Duration:** Proposed 18-month moratorium on large-load customer facilities, including large-scale data centers, in unincorporated Leon County, to give staff time to study impacts on electricity/water supplies, utility rates, the environment, and surrounding communities and to develop regulations; staff plans to report findings by September 2027.
@@ -258,7 +260,7 @@ State policy is tracked separately: **6 records** (6 typed bill rows) in [`state
 ### Levy County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** September 8, 2026 (Ordinance No. 2026-05)
 - **Normalized date:** `2026-09-08` (exact)
 - **Duration:** 12 months from the effective date, or until an amending ordinance is adopted, whichever occurs first
@@ -274,7 +276,7 @@ State policy is tracked separately: **6 records** (6 typed bill rows) in [`state
 ### Lynn Haven
 
 - **Type:** City
-- **Status:** ⚪ Expired
+- **Recorded status:** ⚪ Expired
 - **Date enacted:** Adopted 2026-06-23 by City Commission.
 - **Normalized date:** `2026-06-23` (exact)
 - **Duration:** Interim pause on accepting, processing, reviewing, or acting on data-center applications, lasting until the earlier of final action on a separate proposed one-year moratorium ordinance or sixty days after this resolution's adoption (on or about 2026-08-22).
@@ -290,7 +292,7 @@ State policy is tracked separately: **6 records** (6 typed bill rows) in [`state
 ### Madison County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** Board of County Commissioners voted unanimously 2026-07-22.
 - **Normalized date:** `2026-07-22` (exact)
 - **Duration:** One-year moratorium on construction and permitting of large-scale data centers while the county develops possible regulations.
@@ -306,7 +308,7 @@ State policy is tracked separately: **6 records** (6 typed bill rows) in [`state
 ### Manatee County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** October 8, 2026; the first public hearing was September 22, when the Board applied the pending ordinance doctrine.
 - **Normalized date:** `2026-10-08` (exact)
 - **Duration:** Twelve calendar months from effectiveness, or earlier repeal; extensions require Board action. Adopted October 8, 2026, effective upon state filing October 12, 2026. [VERIFY: later actions and current operative endpoint.]
@@ -322,7 +324,7 @@ State policy is tracked separately: **6 records** (6 typed bill rows) in [`state
 ### Marion County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** Board of County Commissioners voted 4-1 on the substantive motion, then 5-0 on a subsequent procedural vote to adopt the ordinance, at a public hearing 2026-09-15/16 (hearing held 2026-09-15 at the McPherson Governmental Campus; reported 2026-09-16).
 - **Normalized date:** `2026-09-15` (exact)
 - **Duration:** 12-month (365-day) moratorium on accepting or processing applications for major commercial data centers, AI processing hubs, and cryptocurrency-mining operations, applying to development permits, site plans, rezonings, and conditional-use permits; exempts smaller facilities using under 50 megawatts, which may still proceed through the county's standard Special Use Permit process.
@@ -338,7 +340,7 @@ State policy is tracked separately: **6 records** (6 typed bill rows) in [`state
 ### Martin County
 
 - **Type:** County
-- **Status:** 🟡 Pending
+- **Recorded status:** 🟡 Pending
 - **Date enacted:** —
 - **Normalized date:** `—` (unverified)
 - **Duration:** 1 year (proposed)
@@ -354,7 +356,7 @@ State policy is tracked separately: **6 records** (6 typed bill rows) in [`state
 ### Minneola
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** City Council approved Ordinance 2026-17 on second reading July 21, 2026, 5-0 (official minutes, item 6).
 - **Normalized date:** `2026-07-21` (exact)
 - **Duration:** Twelve-month moratorium on approvals for data centers and similar large-load facilities, as described in the July 21 second-reading minutes. [VERIFY: adopted final text, term anchor and earlier termination conditions.]
@@ -370,7 +372,7 @@ State policy is tracked separately: **6 records** (6 typed bill rows) in [`state
 ### Nassau County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** Adopted on final hearing 2026-06-08 by the Nassau County Board of County Commissioners (motion by Commissioner Gray, seconded by Commissioner Farmer, approved); first reading was 2026-05-11, following direction to draft on 2026-04-13.
 - **Normalized date:** `2026-06-08` (exact)
 - **Duration:** 12 months from the effective date, or until an ordinance amending the Comprehensive Plan, Land Development Regulations, and/or Code of Ordinances relating to Data Center Facilities takes effect, whichever occurs first (Ordinance 2026-044, Section 6). Effective date is upon filing with the Florida Secretary of State per s. 125.66.
@@ -386,7 +388,7 @@ State policy is tracked separately: **6 records** (6 typed bill rows) in [`state
 ### North Port
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** City Commission voted 4-1 to advance the ordinance on first reading 2026-09-08 (after a nearly seven-hour public hearing beginning 2026-08-31); adopted on second and final reading by a 3-2 vote 2026-09-22 (Commissioners Stokes, Langdon and Mayor Emrich in favor; Commissioners Petrow and Duval against).
 - **Normalized date:** `2026-09-22` (exact)
 - **Duration:** 18-month moratorium on the acceptance and approval of new data-center applications. As finally adopted, the ordinance excludes (does not apply to) the roughly 896,000-square-foot data-center facility already proposed for the Yorkshire-area 'Deep Park' development: staff may still accept, process and review that application, but the city cannot approve it without a City Commission vote. The ordinance also allows any developer to request an 'extraordinary hardship' exception (e.g., permits already issued, substantial expenditure already made), decided case-by-case by the Commission.
@@ -402,7 +404,7 @@ State policy is tracked separately: **6 records** (6 typed bill rows) in [`state
 ### Orange County
 
 - **Type:** County
-- **Status:** 🟡 Pending
+- **Recorded status:** 🟡 Pending
 - **Date enacted:** —
 - **Normalized date:** `—` (unverified)
 - **Duration:** 6-18 months (proposed)
@@ -418,7 +420,7 @@ State policy is tracked separately: **6 records** (6 typed bill rows) in [`state
 ### Ormond Beach
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** August 25, 2026, second reading, 5-0 (Ordinance 2026-11)
 - **Normalized date:** `2026-08-25` (exact)
 - **Duration:** Eighteen months
@@ -434,7 +436,7 @@ State policy is tracked separately: **6 records** (6 typed bill rows) in [`state
 ### Palm Beach County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** Board of County Commissioners approved zoning in progress effective 2026-07-07 and directed staff to prepare a formal moratorium ordinance.
 - **Normalized date:** `2026-07-07` (exact)
 - **Duration:** Interim administrative freeze: staff directed not to accept new large-load-customer data center applications until a formal ordinance is presented for adoption. The contemplated formal ordinance would run until the earlier of one year after its adoption or the enactment of permanent regulations.
@@ -450,7 +452,7 @@ State policy is tracked separately: **6 records** (6 typed bill rows) in [`state
 ### Panama City
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** Adopted on second/final reading by the City Commission 2026-09-23 (Ordinance 3313); first public hearing held 2026-09-08.
 - **Normalized date:** `2026-09-23` (exact)
 - **Duration:** One-year moratorium on new data center proposals, giving city staff 12 months to study impacts and develop permanent zoning rules; does not apply to existing facilities or routine maintenance.
@@ -466,7 +468,7 @@ State policy is tracked separately: **6 records** (6 typed bill rows) in [`state
 ### Pasco County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** Commissioners unanimously approved 2026-07-14, following a Planning Commission recommendation 2026-06-11 and a first BOCC hearing 2026-06-16.
 - **Normalized date:** `2026-07-14` (exact)
 - **Duration:** One-year moratorium pausing covered development approvals for server or computer rooms exceeding 2.5 MW in unincorporated Pasco County while the county studies definitions and environmental, utility, and financial impacts.
@@ -482,7 +484,7 @@ State policy is tracked separately: **6 records** (6 typed bill rows) in [`state
 ### Pensacola
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** First reading passed 7-0 on 2026-07-16; adopted on second and final reading by a 7-0 vote at the 2026-08-13 City Council Regular Meeting as Ordinance No. 11-26 (agenda item 'Proposed Ordinance No. 13-26').
 - **Normalized date:** `2026-08-13` (exact)
 - **Duration:** Proposed one-year moratorium on city approvals for data centers and other large-load-customer facilities with anticipated monthly peak demand of at least 50 MW; would take effect five business days after final adoption.
@@ -498,7 +500,7 @@ State policy is tracked separately: **6 records** (6 typed bill rows) in [`state
 ### Pinellas Park
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** Placed on first reading 2026-07-21; adopted unanimously at the 2026-08-11 public hearing as Ordinance 2026-22.
 - **Normalized date:** `2026-08-11` (exact)
 - **Duration:** Proposed one-year moratorium on data center approvals.
@@ -514,7 +516,7 @@ State policy is tracked separately: **6 records** (6 typed bill rows) in [`state
 ### Putnam County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** September 8, 2026, second reading (unanimous)
 - **Normalized date:** `2026-09-08` (exact)
 - **Duration:** Took effect immediately; will remain in place until at least Aug. 30, 2027 per local reporting
@@ -530,7 +532,7 @@ State policy is tracked separately: **6 records** (6 typed bill rows) in [`state
 ### Santa Rosa County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** Adopted at a special meeting 2026-07-23, following a first hearing 2026-07-09 (which followed a 2026-06-22 3-1 vote directing staff to draft the ordinance).
 - **Normalized date:** `2026-07-23` (exact)
 - **Duration:** 12-month moratorium on large-scale data centers and large-load-customer facilities in unincorporated Santa Rosa County; permanent rules may be developed sooner than the 12-month endpoint.
@@ -546,7 +548,7 @@ State policy is tracked separately: **6 records** (6 typed bill rows) in [`state
 ### Sarasota County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** County commissioners voted 2026-07-08.
 - **Normalized date:** `2026-07-08` (exact)
 - **Duration:** Halts acceptance, review, and approval of hyperscale data center proposals for at least one year, through July 2027, while staff evaluates permanent rules.
@@ -562,7 +564,7 @@ State policy is tracked separately: **6 records** (6 typed bill rows) in [`state
 ### St. Johns County
 
 - **Type:** County
-- **Status:** 🟡 Pending
+- **Recorded status:** 🟡 Pending
 - **Date enacted:** —
 - **Normalized date:** `—` (unverified)
 - **Duration:** 12 months (proposed)
@@ -578,7 +580,7 @@ State policy is tracked separately: **6 records** (6 typed bill rows) in [`state
 ### Washington County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** Board of County Commissioners voted unanimously to approve the moratorium 2026-08-20 (Thursday), following a public hearing.
 - **Normalized date:** `2026-08-20` (exact)
 - **Duration:** One-year moratorium on data-center development in unincorporated Washington County (municipalities Chipley, Wausau, and Caryville are not covered, as they control their own development). A facility is defined as a data center if more than 5% of a building's gross floor area is used for computer systems/hardware/racks, in addition to an electrical-usage threshold, with anti-fragmentation language to prevent splitting a project across smaller buildings. May be extended by a further ordinance if permanent regulations are not ready in time.
@@ -594,7 +596,7 @@ State policy is tracked separately: **6 records** (6 typed bill rows) in [`state
 ### Zephyrhills
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** Final approval 2026-06-22 by City Council, following a unanimous first reading 2026-06-08.
 - **Normalized date:** `2026-06-22` (exact)
 - **Duration:** Twelve calendar months from effective date, or an earlier date provided by City Council ordinance (section 6).

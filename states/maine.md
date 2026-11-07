@@ -3,11 +3,13 @@
 
 Working inventory for Maine, generated **November 7, 2026**. Record-level refresh and later-action review remain incomplete.
 
-**19 instruments** — 12 in force, 3 pending, 4 past.
+**19 records** — 12 classified as active or extended, 3 classified as pending, 4 classified as past.
+
+These counts reflect inventory classifications and do not establish current enforceability.
 
 State policy is tracked separately: **6 records** (6 typed bill rows) in [`state_legislation.csv`](../data/state_legislation.csv). These are not included in the local count above.
 
-| Jurisdiction | Type | Enacted | Sectors | Status |
+| Jurisdiction | Type | Enacted | Sectors | Recorded status |
 |---|---|---|---|---|
 | Albion | Town | 2024-11-25 | battery storage, wind | 🟢 Extended |
 | Ashland | Town | 2024-12-17 | wind | ⚪ Expired |
@@ -34,7 +36,7 @@ State policy is tracked separately: **6 records** (6 typed bill rows) in [`state
 ### Albion
 
 - **Type:** Town
-- **Status:** 🟢 Extended
+- **Recorded status:** 🟢 Extended
 - **Date enacted:** 2024-11-25 (certified adoption date)
 - **Normalized date:** `2024-11-25` (exact)
 - **Duration:** 180 days, repeatedly extended by Select Board vote
@@ -50,7 +52,7 @@ State policy is tracked separately: **6 records** (6 typed bill rows) in [`state
 ### Ashland
 
 - **Type:** Town
-- **Status:** ⚪ Expired
+- **Recorded status:** ⚪ Expired
 - **Date enacted:** 2024-12-17
 - **Normalized date:** `2024-12-17` (exact)
 - **Duration:** 180 days from 2024-12-17 adoption/effectiveness, unless extended, repealed or modified
@@ -66,7 +68,7 @@ State policy is tracked separately: **6 records** (6 typed bill rows) in [`state
 ### Bangor
 
 - **Type:** City
-- **Status:** 🟢 Extended
+- **Recorded status:** 🟢 Extended
 - **Date enacted:** 2026-04-13
 - **Normalized date:** `2026-04-13` (exact)
 - **Duration:** 180 days; ordinance text states repeal on 2026-08-09 or earlier if replacement land-use amendments take effect
@@ -82,7 +84,7 @@ State policy is tracked separately: **6 records** (6 typed bill rows) in [`state
 ### Bethel
 
 - **Type:** Town
-- **Status:** 🟡 Pending
+- **Recorded status:** 🟡 Pending
 - **Date enacted:** —
 - **Normalized date:** `—` (unverified)
 - **Duration:** Proposed 180-day moratorium on data centers; not yet adopted as of 2026-09-23
@@ -98,7 +100,7 @@ State policy is tracked separately: **6 records** (6 typed bill rows) in [`state
 ### Bridgton
 
 - **Type:** Town
-- **Status:** ⚪ Expired
+- **Recorded status:** ⚪ Expired
 - **Date enacted:** 2022-06-14
 - **Normalized date:** `2022-06-14` (exact)
 - **Duration:** 180 days from 2022-03-22 retroactive applicability, unless extended, repealed or modified
@@ -114,7 +116,7 @@ State policy is tracked separately: **6 records** (6 typed bill rows) in [`state
 ### Brunswick
 
 - **Type:** Town
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-06-01, Town Council adoption
 - **Normalized date:** `2026-06-01` (exact)
 - **Duration:** 180 days from effective date
@@ -130,7 +132,7 @@ State policy is tracked separately: **6 records** (6 typed bill rows) in [`state
 ### Dixfield
 
 - **Type:** Town
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-09-14 (special town meeting, secret ballot vote 35-3)
 - **Normalized date:** `2026-09-14` (exact)
 - **Duration:** 180 days, effective immediately upon the town meeting vote
@@ -146,7 +148,7 @@ State policy is tracked separately: **6 records** (6 typed bill rows) in [`state
 ### Dover-Foxcroft
 
 - **Type:** Town
-- **Status:** 🟡 Pending
+- **Recorded status:** 🟡 Pending
 - **Date enacted:** —
 - **Normalized date:** `—` (unverified)
 - **Duration:** Proposed six-month (180-day) ban on large-scale data center development; extendable beyond six months
@@ -162,7 +164,7 @@ State policy is tracked separately: **6 records** (6 typed bill rows) in [`state
 ### Durham
 
 - **Type:** Town
-- **Status:** ⚪ Expired
+- **Recorded status:** ⚪ Expired
 - **Date enacted:** 2024-09 (ordinance drafted/adopted around September 2024; exact town-meeting vote date not located)
 - **Normalized date:** `2024-09` (month_only)
 - **Duration:** Not confirmed in the draft reviewed
@@ -178,7 +180,7 @@ State policy is tracked separately: **6 records** (6 typed bill rows) in [`state
 ### Eastport
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-08-12 (City Council unanimous vote)
 - **Normalized date:** `2026-08-12` (exact)
 - **Duration:** 180 days unless extended or terminated by the council, or until the two pending citizen-initiated data-center ordinances have been reviewed and decided, whichever occurs first
@@ -194,7 +196,7 @@ State policy is tracked separately: **6 records** (6 typed bill rows) in [`state
 ### Ellsworth
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-08-17 (City Council adoption, following a public hearing)
 - **Normalized date:** `2026-08-17` (exact)
 - **Duration:** 180 days from the effective date, per the ordinance text, running through approximately 2027-02-13; extendable
@@ -210,7 +212,7 @@ State policy is tracked separately: **6 records** (6 typed bill rows) in [`state
 ### Gorham
 
 - **Type:** Town
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-06-02, Town Council adoption, 7-0 vote
 - **Normalized date:** `2026-06-02` (exact)
 - **Duration:** Six months (180 days) while the town researches regulations for large-scale data center facilities; contemporary reporting said the pause could be extended for another 180 days if necessary
@@ -226,7 +228,7 @@ State policy is tracked separately: **6 records** (6 typed bill rows) in [`state
 ### Gray
 
 - **Type:** Town
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-08-18 (Town Council adoption); the ordinance is expressly retroactive to a Date of Applicability of 2026-07-14
 - **Normalized date:** `2026-08-18` (exact)
 - **Duration:** 180 days from the Date of Applicability (2026-07-14), per the ordinance text, running through approximately 2027-01-10
@@ -242,7 +244,7 @@ State policy is tracked separately: **6 records** (6 typed bill rows) in [`state
 ### Palermo
 
 - **Type:** Town
-- **Status:** 🟡 Pending
+- **Recorded status:** 🟡 Pending
 - **Date enacted:** —
 - **Normalized date:** `—` (unverified)
 - **Duration:** Not documented
@@ -258,7 +260,7 @@ State policy is tracked separately: **6 records** (6 typed bill rows) in [`state
 ### Peru
 
 - **Type:** Town
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-11-03, approved by town referendum (town-reported results)
 - **Normalized date:** `2026-11-03` (exact)
 - **Duration:** 180 days; local reporting says the moratorium took effect immediately upon approval
@@ -274,7 +276,7 @@ State policy is tracked separately: **6 records** (6 typed bill rows) in [`state
 ### Sanford
 
 - **Type:** City
-- **Status:** 🟢 Extended
+- **Recorded status:** 🟢 Extended
 - **Date enacted:** On or about 2026-05-19, reported as an emergency moratorium; primary ordinance text/order number not located
 - **Normalized date:** `2026-05-19` (exact)
 - **Duration:** Initial 91-day emergency pause (2026-05-19 to 2026-08-18) extended by City Council for an additional 180 days on 2026-08-04, now running through 2027-01-31. The Aug. 5, 2026 Press Herald report notes a city agenda-packet misprint had listed the initial moratorium's expiration as Aug. 12 rather than the correct Aug. 18; that misprint has no bearing on the currently operative extended term. Deputy Mayor Maura Herlihy said the moratorium could be extended another 180 days if the city's new Industrial Development Standards Task Force has not finished its work by Jan. 31, 2027.
@@ -290,7 +292,7 @@ State policy is tracked separately: **6 records** (6 typed bill rows) in [`state
 ### Scarborough
 
 - **Type:** Town
-- **Status:** ⚪ Replaced
+- **Recorded status:** ⚪ Replaced
 - **Date enacted:** 2026-06-03, Town Council adoption
 - **Normalized date:** `2026-06-03` (exact)
 - **Duration:** 180 days, or until a new and revised set of regulations is adopted, whichever occurs first
@@ -306,7 +308,7 @@ State policy is tracked separately: **6 records** (6 typed bill rows) in [`state
 ### Warren
 
 - **Type:** Town
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-07-08 (special town meeting)
 - **Normalized date:** `2026-07-08` (exact)
 - **Duration:** 180 days from the date of enactment; the Select Board may extend for additional 180-day periods after notice and public hearing under 30-A M.R.S.A. § 4356(2)-(3)
@@ -322,7 +324,7 @@ State policy is tracked separately: **6 records** (6 typed bill rows) in [`state
 ### Westbrook
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-06-01, City Council adoption, Order 2026-66, vote 6-0 (Councilor Faulkingham absent)
 - **Normalized date:** `2026-06-01` (exact)
 - **Duration:** 180 days from effective date

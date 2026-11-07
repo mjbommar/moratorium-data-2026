@@ -3,11 +3,13 @@
 
 Working inventory for California, generated **November 7, 2026**. Record-level refresh and later-action review remain incomplete.
 
-**34 instruments** — 25 in force, 0 pending, 9 past.
+**34 records** — 25 classified as active or extended, 0 classified as pending, 9 classified as past.
+
+These counts reflect inventory classifications and do not establish current enforceability.
 
 State policy is tracked separately: **14 records** (14 typed bill rows) in [`state_legislation.csv`](../data/state_legislation.csv). These are not included in the local count above.
 
-| Jurisdiction | Type | Enacted | Sectors | Status |
+| Jurisdiction | Type | Enacted | Sectors | Recorded status |
 |---|---|---|---|---|
 | Arcata | City | 2026-09-16 | data center | 🟢 Active |
 | Baldwin Park | City | 2026-03-04 | data center | 🟢 Extended |
@@ -49,7 +51,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 ### Arcata
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-09-16 (City Council, 5-0), Ordinance No. 1594
 - **Normalized date:** `2026-09-16` (exact)
 - **Duration:** 45-day interim urgency ordinance; extendable 10 months 15 days, then up to 12 more months
@@ -65,7 +67,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 ### Baldwin Park
 
 - **Type:** City
-- **Status:** 🟢 Extended
+- **Recorded status:** 🟢 Extended
 - **Date enacted:** 2026-03-04, Baldwin Park City Council adoption of an urgency ordinance establishing a 45-day moratorium; extended following a 2026-04-15 public hearing
 - **Normalized date:** `2026-03-04` (exact)
 - **Duration:** Initial 45 days from 2026-03-04; on 2026-04-15 the City Council held a public hearing and extended the urgency ordinance for an additional 10 months and 15 days under Gov. Code section 65858 -- the standard first extension under that statute -- bringing the pause to one year from original adoption (through approximately 2027-03-04).
@@ -81,7 +83,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 ### Calaveras County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-08-25 (Board of Supervisors adopted 4-0, chair absent; signed/issued 2026-08-28)
 - **Normalized date:** `2026-08-25` (exact)
 - **Duration:** 45-day urgency ordinance; extendable up to two years total under Gov. Code 65858
@@ -97,7 +99,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 ### City of Angels (Calaveras County)
 
 - **Type:** City
-- **Status:** 🟢 Extended
+- **Recorded status:** 🟢 Extended
 - **Date enacted:** 2026-08-18 (City Council, 5-0), Ordinance 559
 - **Normalized date:** `2026-08-18` (exact)
 - **Duration:** Reported original term: 45 days. Ordinance 560 extension is recorded separately; exact executed Ordinance 559 wording and initial effectiveness remain unresolved.
@@ -113,7 +115,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 ### Coachella
 
 - **Type:** City
-- **Status:** ⚪ Replaced
+- **Recorded status:** ⚪ Replaced
 - **Date enacted:** 2026-06-04 (Coachella City Council special meeting approved an interim urgency moratorium on data centers, per NBC Palm Springs and kvcrnews.org reporting); extended on or about 2026-07-09 while the city drafts a permanent ban
 - **Normalized date:** `2026-06-04` (exact)
 - **Duration:** Consistent with the Gov. Code section 65858 interim urgency ordinance pattern already documented elsewhere in this inventory (initial up to 45 days, extendable to a 2-year maximum by 4/5 vote): reported as an initial temporary/urgency moratorium adopted 2026-06-04, then extended around 2026-07-09 ('Coachella Extends Temporary Ban On Data Center Developments,' Patch) as the council moves toward a permanent ban. Exact day counts and vote margins were not confirmed in the sources reviewed.
@@ -129,7 +131,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 ### Covina
 
 - **Type:** City
-- **Status:** ⚪ Replaced
+- **Recorded status:** ⚪ Replaced
 - **Date enacted:** 2025-05-06 (Ordinance 25-01, 45 days); extended 2025-06-17 by Ordinance 25-04.
 - **Normalized date:** `2025-05-06` (exact)
 - **Duration:** 45-day urgency ordinance extended 10 months 15 days; repealed early by permanent zoning ordinance
@@ -145,7 +147,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 ### Desert Hot Springs
 
 - **Type:** City
-- **Status:** 🟢 Extended
+- **Recorded status:** 🟢 Extended
 - **Date enacted:** 2026-06-16 (City Council adoption of a 45-day interim urgency moratorium); extended by 22 months and 15 days via unanimous City Council vote on 2026-07-07
 - **Normalized date:** `2026-06-16` (exact)
 - **Duration:** Initial 45 days from 2026-06-16; extended 22 months and 15 days from 2026-07-07, bringing the maximum total pause to the Gov. Code section 65858 two-year cap.
@@ -161,7 +163,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 ### El Monte
 
 - **Type:** City
-- **Status:** 🟢 Extended
+- **Recorded status:** 🟢 Extended
 - **Date enacted:** 2026-03-18 (Interim Urgency Ordinance No. 3063, adopted by a 7-0 vote at a Concurrent Special Meeting, per published City Council minutes); extended by Interim Urgency Ordinance No. 3065, adopted by a 7-0 vote at the Regular Meeting of 2026-04-22 following a public hearing and receipt of the Gov. Code section 65858(d) report, per published minutes
 - **Normalized date:** `2026-03-18` (exact)
 - **Duration:** Initial 45 days (Ord. 3063, term would have run through approximately 2026-05-02); extended 10 months and 15 days by Ord. 3065, adopted 2026-04-22. Under Gov. Code section 65858(a), the initial ordinance plus this first extension together cannot exceed one year from initial adoption, placing the current expiration at approximately 2027-04-13/14 (45 days + 10 months 15 days = 12 months from 2026-03-18). The exact date is not stated verbatim in the minutes reviewed and is calculated from the statutory ceiling, not quoted from a source.
@@ -177,7 +179,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 ### Escondido
 
 - **Type:** City
-- **Status:** 🟢 Extended
+- **Recorded status:** 🟢 Extended
 - **Date enacted:** 2026-08-26 (City Council unanimous, 5-0)
 - **Normalized date:** `2026-08-26` (exact)
 - **Duration:** 45-day urgency ordinance; extendable 10 months 15 days, then up to one more year
@@ -193,7 +195,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 ### Eureka
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-09-01 (Bill No. 1061-C.S.)
 - **Normalized date:** `2026-09-01` (exact)
 - **Duration:** 45-day interim ordinance; extendable 10 months 15 days, then up to one more year (max 2 years)
@@ -209,7 +211,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 ### Gilroy
 
 - **Type:** City
-- **Status:** 🟢 Extended
+- **Recorded status:** 🟢 Extended
 - **Date enacted:** 2026-09-14 (City Council unanimous)
 - **Normalized date:** `2026-09-14` (exact)
 - **Duration:** 45-day interim urgency ordinance; extendable in two phases up to two years total
@@ -225,7 +227,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 ### Hayward
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** October 20, 2026, Council adoption of interim urgency Ordinance 26-09; City announcement published October 21.
 - **Normalized date:** `2026-10-20` (exact)
 - **Duration:** Presented draft specifies 45 days from immediate effect unless extended; final adopted term not independently verified because action includes a modification.
@@ -241,7 +243,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 ### Humboldt County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-10-06 (Humboldt County Board of Supervisors adopted Ordinance 2794, effective immediately)
 - **Normalized date:** `2026-10-06` (exact)
 - **Duration:** 45 days from adoption, unless extended under Government Code section 65858.
@@ -257,7 +259,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 ### Imperial
 
 - **Type:** City
-- **Status:** 🟢 Extended
+- **Recorded status:** 🟢 Extended
 - **Date enacted:** 2026-06-03 (City Council unanimous adoption of Interim Urgency Ordinance No. 834, per meeting summary and a contemporaneous Coachella staff report survey of nearby municipal actions)
 - **Normalized date:** `2026-06-03` (exact)
 - **Duration:** Initial 45 days from 2026-06-03 (Interim Urgency Ordinance No. 834). Contrary to the prior 'expired' classification, the City Council held a public hearing 2026-07-15 and unanimously (5-0) adopted Urgency Ordinance No. 835, extending Ordinance No. 834 for up to 10 months and 15 days under Gov. Code section 65858, so that -- as multiple sources independently confirm -- the City of Imperial's pause on data centers, high-performance computing facilities, and battery energy storage systems (BESS) runs through approximately May 2027. This remains a distinct instrument and jurisdiction from the Imperial County Board of Supervisors' moratorium (ca-imperial-county-2026, since rescinded by court order), which covers unincorporated county land, not the City of Imperial.
@@ -273,7 +275,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 ### Imperial County
 
 - **Type:** County
-- **Status:** 🔴 Rescinded
+- **Recorded status:** 🔴 Rescinded
 - **Date enacted:** 2026-06-16 (Ordinance 1616).
 - **Normalized date:** `2026-06-16` (exact)
 - **Duration:** Extended to a one-year moratorium on 2026-07-14; reported to run into June 2027 while the County's advisory committee develops recommendations.
@@ -289,7 +291,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 ### Indio
 
 - **Type:** City
-- **Status:** 🟢 Extended
+- **Recorded status:** 🟢 Extended
 - **Date enacted:** 2026-06-03 (Urgency Ordinance No. 1838); extended July 15 and October 7, 2026
 - **Normalized date:** `2026-06-03` (exact)
 - **Duration:** Initial 45 days; first extended 90 days through October 16, 2026; October 7 second extension for one year following expiration, through October 16, 2027, unless earlier terminated.
@@ -305,7 +307,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 ### Irwindale
 
 - **Type:** City
-- **Status:** ⚪ Replaced
+- **Recorded status:** ⚪ Replaced
 - **Date enacted:** Draft Urgency Ordinance 819 was scheduled for a City Council public hearing and possible four-fifths adoption vote on 2026-05-27; whether it was adopted that day is unconfirmed
 - **Normalized date:** `—` (unverified)
 - **Duration:** Draft ordinance proposed a 45-day moratorium on processing, approving, or accepting new data center applications and on converting existing facilities into data centers
@@ -321,7 +323,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 ### Lake Elsinore
 
 - **Type:** City
-- **Status:** 🟢 Extended
+- **Recorded status:** 🟢 Extended
 - **Date enacted:** 2026-08-25 (City Council unanimous)
 - **Normalized date:** `2026-08-25` (exact)
 - **Duration:** 45-day emergency ordinance; extendable up to two years total
@@ -337,7 +339,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 ### Los Angeles County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-09-17, effective date of a memorandum signed by Amy Bodek, Director of the Department of Regional Planning, implementing Board of Supervisors direction from an April 14, 2026 motion by Supervisor Hilda Solis
 - **Normalized date:** `2026-09-17` (exact)
 - **Duration:** Interim administrative prohibition on processing/approving large-scale (hyperscale) AI data centers in unincorporated county zones, in effect until the Board of Supervisors adopts a permanent zoning ordinance. A motion to formally initiate that ordinance was scheduled for a Community Services Cluster Agenda Review on 2026-09-23, with a Board of Supervisors hearing expected around 2026-10-06.
@@ -353,7 +355,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 ### Mendocino County
 
 - **Type:** County
-- **Status:** 🟢 Extended
+- **Recorded status:** 🟢 Extended
 - **Date enacted:** 2026-09-01 (Board of Supervisors, 5-0)
 - **Normalized date:** `2026-09-01` (exact)
 - **Duration:** 45-day urgency ordinance; extendable
@@ -369,7 +371,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 ### Montebello
 
 - **Type:** City
-- **Status:** ⚪ Expired
+- **Recorded status:** ⚪ Expired
 - **Date enacted:** 2026-02-11
 - **Normalized date:** `2026-02-11` (exact)
 - **Duration:** 45 days; statutory extensions available
@@ -385,7 +387,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 ### Monterey Park
 
 - **Type:** City
-- **Status:** ⚪ Replaced
+- **Recorded status:** ⚪ Replaced
 - **Date enacted:** 2026-01-21; extended 2026-03-04
 - **Normalized date:** `2026-01-21` (exact)
 - **Duration:** Initial 45 days; extended 10 months and 15 days; expires 2027-01-21 unless changed
@@ -401,7 +403,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 ### Morgan Hill
 
 - **Type:** City
-- **Status:** 🟢 Extended
+- **Recorded status:** 🟢 Extended
 - **Date enacted:** September 16, 2026, unanimous adoption of Interim Ordinance 2377, New Series; clerk-certified September 21.
 - **Normalized date:** `2026-09-16` (exact)
 - **Duration:** Initial 45 days from September 16, 2026, effective immediately under Ordinance 2377. Local reporting states a 22-month-15-day extension approved October 21; operative extension endpoint remains unverified.
@@ -417,7 +419,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 ### Morro Bay
 
 - **Type:** City
-- **Status:** 🟢 Extended
+- **Recorded status:** 🟢 Extended
 - **Date enacted:** 2025-01-28 (Urgency Ordinance No. 668); extended by Ordinance No. 670 on 2025-02-25 to 2027-01-28 (two years total)
 - **Normalized date:** `2025-01-28` (exact)
 - **Duration:** 45-day urgency ordinance extended to a total of two years
@@ -433,7 +435,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 ### Oakley
 
 - **Type:** City
-- **Status:** 🟢 Extended
+- **Recorded status:** 🟢 Extended
 - **Date enacted:** 2026-04-14
 - **Normalized date:** `2026-04-14` (exact)
 - **Duration:** 45 days from 2026-04-14, extended 10 months and 15 days by a second urgency ordinance adopted 2026-05-12 (5-0 vote); the combined term runs to the Gov. Code 65858(a) one-year statutory ceiling, approximately 2027-04-13/14.
@@ -449,7 +451,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 ### Orange County
 
 - **Type:** County
-- **Status:** ⚪ Replaced
+- **Recorded status:** ⚪ Replaced
 - **Date enacted:** 2025-01-28 (Board of Supervisors, unanimous)
 - **Normalized date:** `2025-01-28` (exact)
 - **Duration:** 45-day urgency ordinance, extended 10 months 15 days on 2025-03-11 (to 2026-01-26); replaced by permanent ordinance effective 2025-12-04
@@ -465,7 +467,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 ### Palm Springs
 
 - **Type:** City
-- **Status:** 🟢 Extended
+- **Recorded status:** 🟢 Extended
 - **Date enacted:** 2026-08-26, Palm Springs City Council unanimous adoption of an urgency ordinance (item brought forward by Councilmember Grace Garner)
 - **Normalized date:** `2026-08-26` (exact)
 - **Duration:** Initial 45 days from August 26, 2026; extended by 22 months and 15 days through August 25, 2028, according to local reporting.
@@ -481,7 +483,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 ### Patterson
 
 - **Type:** City
-- **Status:** 🟢 Extended
+- **Recorded status:** 🟢 Extended
 - **Date enacted:** 2026-07-16, Patterson City Council adoption of an initial 45-day moratorium; extended by unanimous (4-0) vote on 2026-08-18
 - **Normalized date:** `2026-07-16` (exact)
 - **Duration:** Initial 45 days from 2026-07-16; extended by a 4-0 City Council vote on 2026-08-18 through 2027-07-15. State law caps the total moratorium period at two years.
@@ -497,7 +499,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 ### Richmond
 
 - **Type:** City
-- **Status:** 🟢 Extended
+- **Recorded status:** 🟢 Extended
 - **Date enacted:** 2026-09-15, Richmond City Council adoption of an urgency ordinance (regular meeting)
 - **Normalized date:** `2026-09-15` (exact)
 - **Duration:** Initial 45-day moratorium under Ordinance 13-26 N.S.; Ordinance 14-26 N.S. extends it by 22 months and 15 days, with an explicit end through September 15, 2028 unless terminated earlier.
@@ -513,7 +515,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 ### San Francisco
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** Board passage October 6, 2026; mayoral approval and enactment October 16, 2026 (Board file 261021, Ordinance 215-26).
 - **Normalized date:** `2026-10-16` (exact)
 - **Duration:** 45 days; effective October 16 through November 30, 2026, unless extended, according to the Planning Department.
@@ -529,7 +531,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 ### San Juan Capistrano
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2025-03-18 (second extension, Urgency Ordinance No. 1124, extending Ordinance No. 1116)
 - **Normalized date:** `2025-03-18` (exact)
 - **Duration:** Series of urgency-ordinance extensions of an original BESS moratorium (Ordinance No. 1116); current status as of the 2026 extension/expiration not independently confirmed
@@ -545,7 +547,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 ### Solano County
 
 - **Type:** County
-- **Status:** ⚪ Replaced
+- **Recorded status:** ⚪ Replaced
 - **Date enacted:** 2024-01-23 (Board of Supervisors)
 - **Normalized date:** `2024-01-23` (exact)
 - **Duration:** Two-year urgency pause on large-scale BESS project approvals, replaced by permanent ordinance
@@ -561,7 +563,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 ### Tulare County
 
 - **Type:** County
-- **Status:** 🟢 Extended
+- **Recorded status:** 🟢 Extended
 - **Date enacted:** 2026-08-18 (Board of Supervisors, 4-1, Townsend dissenting); extended 5-0 on 2026-09-22 by 10 months 15 days
 - **Normalized date:** `2026-08-18` (exact)
 - **Duration:** Initial 45-day urgency ordinance, extended September 22, 2026 by 10 months and 15 days; county sources state through August 6, 2027.
@@ -577,7 +579,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 ### Vacaville
 
 - **Type:** City
-- **Status:** ⚪ Replaced
+- **Recorded status:** ⚪ Replaced
 - **Date enacted:** 2024-05-14 (City Council, 6-1)
 - **Normalized date:** `2024-05-14` (exact)
 - **Duration:** 45-day urgency ordinance extended repeatedly over ~2 years until replaced by permanent regulations

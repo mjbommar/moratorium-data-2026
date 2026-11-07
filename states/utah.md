@@ -3,11 +3,13 @@
 
 Working inventory for Utah, generated **November 7, 2026**. Record-level refresh and later-action review remain incomplete.
 
-**9 instruments** — 9 in force, 0 pending, 0 past.
+**9 records** — 9 classified as active or extended, 0 classified as pending, 0 classified as past.
+
+These counts reflect inventory classifications and do not establish current enforceability.
 
 State policy is tracked separately: **8 records** (8 typed bill rows) in [`state_legislation.csv`](../data/state_legislation.csv). These are not included in the local count above.
 
-| Jurisdiction | Type | Enacted | Sectors | Status |
+| Jurisdiction | Type | Enacted | Sectors | Recorded status |
 |---|---|---|---|---|
 | Box Elder County | County | 2026-06-10 | data center | 🟢 Active |
 | Cache County | County | 2026-06-23 | data center | 🟢 Active |
@@ -24,7 +26,7 @@ State policy is tracked separately: **8 records** (8 typed bill rows) in [`state
 ### Box Elder County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** County Commission unanimously adopted Ordinance 654 on 2026-06-10.
 - **Normalized date:** `2026-06-10` (exact)
 - **Duration:** 180-day temporary land-use regulation on data centers, data center power plants, and associated digital infrastructure in areas where the county retains land-use authority. Stops new land-use and business-license applications, building permits, administrative appeals, conditional use permits, subdivisions, zone changes, site plans, development agreements, and similar approvals. Applications formally determined complete before the effective date may proceed; incomplete covered applications are suspended.
@@ -40,7 +42,7 @@ State policy is tracked separately: **8 records** (8 typed bill rows) in [`state
 ### Cache County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** County Council suspended its rules and voted 6-0 (one member absent) to adopt Ordinance 2026-32 on 2026-06-23.
 - **Normalized date:** `2026-06-23` (exact)
 - **Duration:** Proactive 180-day moratorium on data centers and data center power plants across all zones in unincorporated Cache County, pausing covered land-use, license, permit, appeal, conditional-use, subdivision, zone-change, site-plan, development-agreement, and similar applications (applications already determined complete may continue). Directs staff and the Planning Commission to prepare permanent regulations within 150 days.
@@ -56,7 +58,7 @@ State policy is tracked separately: **8 records** (8 typed bill rows) in [`state
 ### Clearfield
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-09-08, Clearfield City Council adopted Ordinance 2026-13; the signed ordinance records four affirmative votes and Councilmember Thompson absent.
 - **Normalized date:** `2026-09-08` (exact)
 - **Duration:** 180 days from adoption (to approximately 2027-03-07).
@@ -72,7 +74,7 @@ State policy is tracked separately: **8 records** (8 typed bill rows) in [`state
 ### Grand County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** County Commission voted 7-0 on 2026-07-07 to adopt a temporary land use regulation, effective immediately.
 - **Normalized date:** `2026-07-07` (exact)
 - **Duration:** 180-day pause on acceptance and processing of applications for data centers, data center power plants, and associated digital infrastructure. Planning and Zoning Director Andrew Jackson said no data center application was pending and the county code lacked a data center definition and standards addressing water, power, noise, lighting, and visual impacts.
@@ -88,7 +90,7 @@ State policy is tracked separately: **8 records** (8 typed bill rows) in [`state
 ### Iron County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** County Commission approved Ordinance 2026-13 by a 2-0 vote (Commissioner Paul Cozzens absent) on 2026-05-26.
 - **Normalized date:** `2026-05-26` (exact)
 - **Duration:** 180 days. Bars acceptance or processing of new applications for data centers, data center power plants, and solar power plants while the county develops updated regulations. Complete applications were exempt (the Pronghorn/Antelope Data Center application was identified as complete and exempt); incomplete pending applications were suspended (the BrightNight Red Butte application was placed on hold).
@@ -104,7 +106,7 @@ State policy is tracked separately: **8 records** (8 typed bill rows) in [`state
 ### Logan
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** Municipal Council voted 5-0 to adopt Ordinance 26-12 on 2026-06-30, following a public hearing; published and effective 2026-07-01.
 - **Normalized date:** `2026-06-30` (exact)
 - **Duration:** 180-day moratorium throughout Logan City: the city may not accept, process, approve, or issue an application, permit, or approval authorizing construction or development of a data center or data center power plant, and no person may begin such development. Expires after 180 days unless the council ends it earlier.
@@ -120,7 +122,7 @@ State policy is tracked separately: **8 records** (8 typed bill rows) in [`state
 ### Milford
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** June 16, 2026
 - **Normalized date:** `2026-06-16` (exact)
 - **Duration:** 180 days
@@ -136,7 +138,7 @@ State policy is tracked separately: **8 records** (8 typed bill rows) in [`state
 ### Sanpete County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-08-04, Sanpete County Commission regular meeting, following a recommendation from the Sanpete County Planning Commission.
 - **Normalized date:** `2026-08-04` (exact)
 - **Duration:** Six months from adoption (to approximately 2027-01-31); county officials described the moratorium as renewable 'six months at a time' as long as the county shows it is working toward permanent regulations.
@@ -152,7 +154,7 @@ State policy is tracked separately: **8 records** (8 typed bill rows) in [`state
 ### Wayne County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** County Commission voted 3-0 to approve Resolution 2026-04 on 2026-07-08.
 - **Normalized date:** `2026-07-08` (exact)
 - **Duration:** 180-day temporary suspension on land use applications for data centers and data center power plants, applying throughout zoned and unzoned unincorporated Wayne County. Covers land use and business-license applications, building permits, administrative appeals, conditional use permits, subdivisions, zone changes, site plans, development agreements, and related approvals.

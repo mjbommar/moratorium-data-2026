@@ -3,11 +3,13 @@
 
 Working inventory for Rhode Island, generated **November 7, 2026**. Record-level refresh and later-action review remain incomplete.
 
-**1 instrument** — 1 in force, 0 pending, 0 past.
+**1 record** — 1 classified as active or extended, 0 classified as pending, 0 classified as past.
+
+These counts reflect inventory classifications and do not establish current enforceability.
 
 State policy is tracked separately: **9 records** (9 typed bill rows) in [`state_legislation.csv`](../data/state_legislation.csv). These are not included in the local count above.
 
-| Jurisdiction | Type | Enacted | Sectors | Status |
+| Jurisdiction | Type | Enacted | Sectors | Recorded status |
 |---|---|---|---|---|
 | Westerly | Town | 2026-07-27 | data center | 🟢 Active |
 
@@ -16,7 +18,7 @@ State policy is tracked separately: **9 records** (9 typed bill rows) in [`state
 ### Westerly
 
 - **Type:** Town
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-07-27 (Town Council public hearing and approval by voice vote at its regular meeting)
 - **Normalized date:** `2026-07-27` (exact)
 - **Duration:** One year upon passage, or as otherwise provided by the Town Council by ordinance; effective immediately upon passage

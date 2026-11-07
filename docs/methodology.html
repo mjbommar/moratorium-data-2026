@@ -249,7 +249,7 @@ their original cohorts, not a fresh audit of every current row.</p>
 <li>Resolve <code>[VERIFY]</code> flags by re-checking primary sources via real-Chrome browser sessions</li>
 <li>Add moratoria identified through news coverage but missed by automated extraction</li>
 </ul>
-<p>During the November 5, 2026 working refresh the cleaned inventory has <strong>1330 instruments across 47 states</strong> (<code>data/moratorium_inventory.csv</code>). It held 222 at v2026.04.4; see Phase 5 below for how the refresh cycle works.</p>
+<p>During the November 5, 2026 working refresh the cleaned inventory has <strong>1330 inventory records across 47 states</strong> (<code>data/moratorium_inventory.csv</code>). It held 222 at v2026.04.4; see Phase 5 below for how the refresh cycle works.</p>
 <h3 id="phase-4-geocoding-added-v2026042">Phase 4: Geocoding (added v2026.04.2)</h3>
 <p>Each row in the cleaned inventory was assigned WGS84 latitude and longitude coordinates representing the jurisdiction's centroid. Two-tiered approach:</p>
 <ol>
@@ -274,10 +274,10 @@ their original cohorts, not a fresh audit of every current row.</p>
 <h2 id="why-the-inventory-n1330-and-the-historical-extraction-cohort-n348-differ">Why the inventory (n=1330) and the historical extraction cohort (n=348) differ</h2>
 <p>Right — the numbers can be confusing. Here's the difference:</p>
 <ul>
-<li><strong>Inventory (n=1330):</strong> the working inventory of moratorium <strong>instrument records</strong>, with <a href="known-gaps.html#legacy-instrument-identities">identity-reconciliation gaps</a> still under review. One DeKalb County resolution = 1 row, even if there are 5 documents about it.</li>
+<li><strong>Inventory (n=1330):</strong> the working inventory of moratorium <strong>instrument records</strong>, with <a href="known-gaps.html#legacy-instrument-identities">identity-reconciliation gaps</a> still under review. The intended grain is one instrument per row; aggregate and compound rows and possible duplicates remain unresolved. One DeKalb County resolution = 1 row, even if there are 5 documents about it.</li>
 <li><strong>Structured-extraction cohort (n=348):</strong> the count of confidence-filtered structured <strong>extractions</strong>. A single moratorium can produce multiple extractions: the ordinance text, the meeting minutes, the agenda packet, etc. Plus the cohort includes some duplicate adoptions and extensions captured separately.</li>
 </ul>
-<p>The two numbers measure different things and do not need to match. The current working count is 1330 moratorium instruments; the historical line-coded sample of 348 extractions is used for clause-prevalence percentages. These older extraction records have not been recollected to match the current inventory.</p>
+<p>The two numbers measure different things and do not need to match. The current working count is 1330 moratorium records; the historical line-coded sample of 348 extractions is used for clause-prevalence percentages. These older extraction records have not been recollected to match the current inventory.</p>
 <h2 id="what-we-dont-claim">What we don't claim</h2>
 <ul>
 <li><strong>We don't claim to have every moratorium.</strong> Small townships without online minutes are nearly impossible to find systematically. Where we know our coverage is incomplete, we say so in <a href="known-gaps.html"><code>docs/known-gaps.md</code></a>.</li>

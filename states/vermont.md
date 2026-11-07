@@ -3,11 +3,13 @@
 
 Working inventory for Vermont, generated **November 7, 2026**. Record-level refresh and later-action review remain incomplete.
 
-**1 instrument** — 1 in force, 0 pending, 0 past.
+**1 record** — 1 classified as active or extended, 0 classified as pending, 0 classified as past.
+
+These counts reflect inventory classifications and do not establish current enforceability.
 
 State policy is tracked separately: **2 records** (2 typed bill rows) in [`state_legislation.csv`](../data/state_legislation.csv). These are not included in the local count above.
 
-| Jurisdiction | Type | Enacted | Sectors | Status |
+| Jurisdiction | Type | Enacted | Sectors | Recorded status |
 |---|---|---|---|---|
 | Morristown | Town | 2026-08-31 | data center, general | 🟢 Active |
 
@@ -16,7 +18,7 @@ State policy is tracked separately: **2 records** (2 typed bill rows) in [`state
 ### Morristown
 
 - **Type:** Town
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-08-31 (Select Board and Village Board of Trustees joint unanimous vote, dated interim zoning bylaw)
 - **Normalized date:** `2026-08-31` (exact)
 - **Duration:** Two years from adoption, as an interim zoning bylaw

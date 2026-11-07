@@ -3,11 +3,13 @@
 
 Working inventory for Kentucky, generated **November 7, 2026**. Record-level refresh and later-action review remain incomplete.
 
-**35 instruments** — 31 in force, 2 pending, 2 past.
+**35 records** — 31 classified as active or extended, 2 classified as pending, 2 classified as past.
+
+These counts reflect inventory classifications and do not establish current enforceability.
 
 State policy is tracked separately: **8 records** (8 typed bill rows) in [`state_legislation.csv`](../data/state_legislation.csv). These are not included in the local count above.
 
-| Jurisdiction | Type | Enacted | Sectors | Status |
+| Jurisdiction | Type | Enacted | Sectors | Recorded status |
 |---|---|---|---|---|
 | Allen County | County | 2026-06-10 | data center | 🟢 Active |
 | Ashland | City | 2026-02-26 | data center | ⚪ Replaced |
@@ -50,7 +52,7 @@ State policy is tracked separately: **8 records** (8 typed bill rows) in [`state
 ### Allen County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** June 10, 2026, Allen County Fiscal Court adoption of Ordinance No. 26-03 (second reading)
 - **Normalized date:** `2026-06-10` (exact)
 - **Duration:** 24 months (2 years)
@@ -66,7 +68,7 @@ State policy is tracked separately: **8 records** (8 typed bill rows) in [`state
 ### Ashland
 
 - **Type:** City
-- **Status:** ⚪ Replaced
+- **Recorded status:** ⚪ Replaced
 - **Date enacted:** 2026-02-26 per a WSAZ headline ("Ordinance passed for data center applications"); this reads as the initial temporary moratorium, later replaced before its natural expiration by a permanent zoning ordinance given first/second readings on 2026-07-23/2026-07-24
 - **Normalized date:** `2026-02-26` (unverified)
 - **Duration:** Reported as roughly 6 months; superseded before expiration by a permanent conditional-use zoning ordinance
@@ -82,7 +84,7 @@ State policy is tracked separately: **8 records** (8 typed bill rows) in [`state
 ### Bell County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** July 2, 2026 (Fiscal Court second-reading vote, moved up from a scheduled July 14 date, per WYMT)
 - **Normalized date:** `2026-07-02` (exact)
 - **Duration:** 2 years (24 months)
@@ -98,7 +100,7 @@ State policy is tracked separately: **8 records** (8 typed bill rows) in [`state
 ### Boone County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** Board of Commissioners unanimously approved the ordinance at a Monday meeting; the ordinance's own effective date is June 16, 2026
 - **Normalized date:** `2026-06-15` (exact)
 - **Duration:** 12 months from the June 16, 2026 effective date
@@ -114,7 +116,7 @@ State policy is tracked separately: **8 records** (8 typed bill rows) in [`state
 ### Boyd County Fiscal Court
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** Passed on second reading by the Boyd County Fiscal Court on July 21, 2026 (per a public notice published in The Daily Independent)
 - **Normalized date:** `2026-07-21` (exact)
 - **Duration:** Six months
@@ -130,7 +132,7 @@ State policy is tracked separately: **8 records** (8 typed bill rows) in [`state
 ### Boyle County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** June 9, 2026 (Fiscal Court approval of Resolution 2026.06.09)
 - **Normalized date:** `2026-06-09` (exact)
 - **Duration:** 12 months
@@ -146,7 +148,7 @@ State policy is tracked separately: **8 records** (8 typed bill rows) in [`state
 ### Breckinridge County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2025-12-15
 - **Normalized date:** `2025-12-15` (exact)
 - **Duration:** 365 days
@@ -162,7 +164,7 @@ State policy is tracked separately: **8 records** (8 typed bill rows) in [`state
 ### Bullitt County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** July 21, 2026 (Fiscal Court approval, per Spectrum News 1)
 - **Normalized date:** `2026-07-21` (exact)
 - **Duration:** 12 months
@@ -178,7 +180,7 @@ State policy is tracked separately: **8 records** (8 typed bill rows) in [`state
 ### Butler County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** First reading at the Fiscal Court's Monday, June 22, 2026 meeting (5-0), per Beech Tree News; WNKY reports the Fiscal Court 'held the second reading of a proposed data center ordinance' on Monday, July 13, 2026, after which Judge-Executive Flener announced next steps (appointing committee members), indicating final adoption
 - **Normalized date:** `2026-07-13` (exact)
 - **Duration:** One year
@@ -194,7 +196,7 @@ State policy is tracked separately: **8 records** (8 typed bill rows) in [`state
 ### Calloway County
 
 - **Type:** County
-- **Status:** 🟡 Pending
+- **Recorded status:** 🟡 Pending
 - **Date enacted:** Not yet adopted; a public hearing was held and the Fiscal Court tabled the proposed ordinance at its Sept. 17, 2026 (Wednesday) meeting, to be reconsidered (in revised form) at the Oct. 21, 2026 regular meeting
 - **Normalized date:** `—` (unverified)
 - **Duration:** One year, as proposed (establishment, construction, development, or expansion of data centers in unincorporated Calloway County)
@@ -210,7 +212,7 @@ State policy is tracked separately: **8 records** (8 typed bill rows) in [`state
 ### Camargo
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-09-14
 - **Normalized date:** `2026-09-14` (exact)
 - **Duration:** One calendar year from final passage and publication, or earlier permanent standalone data-center ordinance; extension reserved
@@ -226,7 +228,7 @@ State policy is tracked separately: **8 records** (8 typed bill rows) in [`state
 ### Cave City
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** City Council approved Ordinance 26-18-5 at its May 20, 2026 special session, 4-1, according to official minutes.
 - **Normalized date:** `2026-05-20` (exact)
 - **Duration:** One year
@@ -242,7 +244,7 @@ State policy is tracked separately: **8 records** (8 typed bill rows) in [`state
 ### City of La Grange
 
 - **Type:** City
-- **Status:** ⚪ Expired
+- **Recorded status:** ⚪ Expired
 - **Date enacted:** 2025-06-02
 - **Normalized date:** `2025-06-02` (exact)
 - **Duration:** 150 days initially; extension ordinance identified but final term needs confirmation
@@ -258,7 +260,7 @@ State policy is tracked separately: **8 records** (8 typed bill rows) in [`state
 ### Daviess County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** First reading held 2026-05-14/15; Fiscal Court gave final approval 2026-05-28 (per WFIE 14 News and owensborotimes.com)
 - **Normalized date:** `2026-05-28` (exact)
 - **Duration:** One year
@@ -274,7 +276,7 @@ State policy is tracked separately: **8 records** (8 typed bill rows) in [`state
 ### Edmonson County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** June 8, 2026 (Fiscal Court adoption; ordinance effective immediately upon passage and publication per WNKY reporting and the ordinance text)
 - **Normalized date:** `2026-06-08` (exact)
 - **Duration:** 12 months (one year)
@@ -290,7 +292,7 @@ State policy is tracked separately: **8 records** (8 typed bill rows) in [`state
 ### Greenup County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-07 (Fiscal Court, unanimous, second reading; first reading ~2026-07-07)
 - **Normalized date:** `2026-07` (month_only)
 - **Duration:** Six-month moratorium
@@ -306,7 +308,7 @@ State policy is tracked separately: **8 records** (8 typed bill rows) in [`state
 ### Harrison County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-08-11 (Fiscal Court, unanimous)
 - **Normalized date:** `2026-08-11` (exact)
 - **Duration:** Two-year moratorium
@@ -322,7 +324,7 @@ State policy is tracked separately: **8 records** (8 typed bill rows) in [`state
 ### Henderson County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2025-10-28 (Fiscal Court, 5-1, Magistrate Tompkins dissenting)
 - **Normalized date:** `2025-10-28` (exact)
 - **Duration:** Two years from passage, or until the Fiscal Court adopts comprehensive WECS regulations, whichever is sooner
@@ -338,7 +340,7 @@ State policy is tracked separately: **8 records** (8 typed bill rows) in [`state
 ### Jessamine County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** The county economic-development authority reported on October 20, 2026 that Fiscal Court had adopted a twelve-month moratorium; it does not identify the adoption date. [VERIFY: actual adoption and effective dates.]
 - **Normalized date:** `—` (unverified)
 - **Duration:** 12 months
@@ -354,7 +356,7 @@ State policy is tracked separately: **8 records** (8 typed bill rows) in [`state
 ### Lexington-Fayette
 
 - **Type:** Other
-- **Status:** 🟢 Extended
+- **Recorded status:** 🟢 Extended
 - **Date enacted:** 2026-06-09, Lexington-Fayette Urban County Council unanimous resolution
 - **Normalized date:** `2026-06-09` (exact)
 - **Duration:** Through October 31, 2027, following the October 8, 2026 extension.
@@ -370,7 +372,7 @@ State policy is tracked separately: **8 records** (8 typed bill rows) in [`state
 ### Logan County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** Made official at the Fiscal Court's Tuesday meeting, reported July 30, 2026 (WBKO); the moratorium was originally proposed July 16, 2026
 - **Normalized date:** `2026-07-28` (exact)
 - **Duration:** 12 months
@@ -386,7 +388,7 @@ State policy is tracked separately: **8 records** (8 typed bill rows) in [`state
 ### London
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** City Council passed the moratorium 5-1 on Monday, Aug. 3, 2026 (per WKYT, published Aug. 4, 2026); first read at an earlier council meeting
 - **Normalized date:** `2026-08-03` (exact)
 - **Duration:** Through September 30, 2028; extendable by Council for one additional year
@@ -402,7 +404,7 @@ State policy is tracked separately: **8 records** (8 typed bill rows) in [`state
 ### Louisville Metro
 
 - **Type:** Other
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** Metro Council passed the ordinance 24-1 on Aug. 13, 2026; Mayor Craig Greenberg signed it Friday, Aug. 14, 2026
 - **Normalized date:** `2026-08-13` (exact)
 - **Duration:** 180 days from adoption, or until Metro Council adopts comprehensive data-center zoning regulations, whichever is earlier; Sept. 15, 2026 reporting describes the pause as running 'until February' 2027
@@ -418,7 +420,7 @@ State policy is tracked separately: **8 records** (8 typed bill rows) in [`state
 ### Lyon County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** Fiscal Court ordinance passed unanimously; reported Aug. 20, 2026 (WPSD Local 6/Herald Ledger), exact meeting date not stated in sources reviewed
 - **Normalized date:** `2026-08` (month_only)
 - **Duration:** Sources disagree: County Attorney Lee Wilson initially suggested 'a time period of one year or less'; after adoption, coverage describes the pause as comparable to Allen County's two-year moratorium and as 'delaying inquiries for up to two years.' No outlet reviewed states the ordinance's actual term or an end date.
@@ -434,7 +436,7 @@ State policy is tracked separately: **8 records** (8 typed bill rows) in [`state
 ### Meade County Fiscal Court
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-01-13
 - **Normalized date:** `2026-01-13` (exact)
 - **Duration:** Twelve months from the effective date, unless terminated earlier or extended; effective upon passage and publication according to law.
@@ -450,7 +452,7 @@ State policy is tracked separately: **8 records** (8 typed bill rows) in [`state
 ### Mercer County Fiscal Court
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** Second and final reading approved unanimously 2026-08-11 (Tuesday regular Fiscal Court meeting), after amending the first draft to strike language about previously filed projects (no hyperscale data center application had been filed in Mercer County)
 - **Normalized date:** `2026-08-11` (exact)
 - **Duration:** 12 months upon passage, or until the Fiscal Court adopts permanent data center regulations, whichever occurs first
@@ -466,7 +468,7 @@ State policy is tracked separately: **8 records** (8 typed bill rows) in [`state
 ### Montgomery County
 
 - **Type:** County
-- **Status:** 🟡 Pending
+- **Recorded status:** 🟡 Pending
 - **Date enacted:** First reading approved by the Fiscal Court at its Aug. 18, 2026 meeting; a second reading/final vote had not been confirmed in sources reviewed as of this research date
 - **Normalized date:** `—` (unverified)
 - **Duration:** One year (as proposed on first reading)
@@ -482,7 +484,7 @@ State policy is tracked separately: **8 records** (8 typed bill rows) in [`state
 ### Nelson County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** July 7, 2026 (Fiscal Court unanimous adoption of Resolution 13-2026, effective immediately)
 - **Normalized date:** `2026-07-07` (exact)
 - **Duration:** 12 months (immediate)
@@ -498,7 +500,7 @@ State policy is tracked separately: **8 records** (8 typed bill rows) in [`state
 ### Nicholasville
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** City Commission vote reported Aug. 11, 2026 (WKYT)
 - **Normalized date:** `2026-08-10` (unverified)
 - **Duration:** Six months
@@ -514,7 +516,7 @@ State policy is tracked separately: **8 records** (8 typed bill rows) in [`state
 ### Oldham County Fiscal Court
 
 - **Type:** County
-- **Status:** 🟢 Extended
+- **Recorded status:** 🟢 Extended
 - **Date enacted:** 2025-06-26 (per Oldham Era public notice scheduling second reading/public hearing/adoption for that date); signed-ordinance date with vote tally not separately retrieved [VERIFY: signed ordinance copy with vote tally not retrieved as of 2026-04-29]
 - **Normalized date:** `2025-06-26` (unverified)
 - **Duration:** 150 days initially; later extended until data center regulations are approved
@@ -530,7 +532,7 @@ State policy is tracked separately: **8 records** (8 typed bill rows) in [`state
 ### Rowan County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** August 18, 2026 (Fiscal Court adoption of Resolution 09-26, according to meeting minutes)
 - **Normalized date:** `2026-08-18` (exact)
 - **Duration:** Two years
@@ -546,7 +548,7 @@ State policy is tracked separately: **8 records** (8 typed bill rows) in [`state
 ### Scott County
 
 - **Type:** County
-- **Status:** 🟢 Extended
+- **Recorded status:** 🟢 Extended
 - **Date enacted:** Fiscal Court meeting Friday, March 13, 2026, per Judge-Executive Joe Pat Covington's remarks reported by the Georgetown News-Graphic
 - **Normalized date:** `2026-03-13` (exact)
 - **Duration:** Originally six months; extended more than once, most recently through March 13, 2027 according to September 29 reporting.
@@ -562,7 +564,7 @@ State policy is tracked separately: **8 records** (8 typed bill rows) in [`state
 ### Shelby County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** Adopted July 21, 2026; effectiveness following publication was reported, but publication date has not been verified.
 - **Normalized date:** `2026-07-21` (exact)
 - **Duration:** Through December 31, 2026, extendable by the Fiscal Court if more review time is needed
@@ -578,7 +580,7 @@ State policy is tracked separately: **8 records** (8 typed bill rows) in [`state
 ### Versailles
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** June 16, 2026 (City Council adoption of Resolution 2026-8)
 - **Normalized date:** `2026-06-16` (exact)
 - **Duration:** Through December 31, 2026
@@ -594,7 +596,7 @@ State policy is tracked separately: **8 records** (8 typed bill rows) in [`state
 ### Winchester
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** Board of Commissioners unanimous vote at its Tuesday night meeting, Sept. 1, 2026
 - **Normalized date:** `2026-09-01` (exact)
 - **Duration:** One year

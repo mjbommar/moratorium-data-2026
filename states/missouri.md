@@ -3,11 +3,13 @@
 
 Working inventory for Missouri, generated **November 7, 2026**. Record-level refresh and later-action review remain incomplete.
 
-**22 instruments** — 19 in force, 0 pending, 3 past.
+**22 records** — 19 classified as active or extended, 0 classified as pending, 3 classified as past.
+
+These counts reflect inventory classifications and do not establish current enforceability.
 
 State policy is tracked separately: **7 records** (7 typed bill rows) in [`state_legislation.csv`](../data/state_legislation.csv). These are not included in the local count above.
 
-| Jurisdiction | Type | Enacted | Sectors | Status |
+| Jurisdiction | Type | Enacted | Sectors | Recorded status |
 |---|---|---|---|---|
 | Ava | City | 2026-07-01 | data center, cryptocurrency mining | 🟢 Active |
 | Benton County | County | 2026-08-10 | data center | 🟢 Active |
@@ -37,7 +39,7 @@ State policy is tracked separately: **7 records** (7 typed bill rows) in [`state
 ### Ava
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-07-01 (Ava Board of Aldermen; Ordinance No. 1173, both first and second readings approved 3-0; an earlier version had its first reading 2026-06-09 but the second reading was suspended for public input).
 - **Normalized date:** `2026-07-01` (exact)
 - **Duration:** One year; automatically expires unless repealed, modified, or extended by a further ordinance
@@ -53,7 +55,7 @@ State policy is tracked separately: **7 records** (7 typed bill rows) in [`state
 ### Benton County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-08-10 (Benton County Commission)
 - **Normalized date:** `2026-08-10` (exact)
 - **Duration:** Six months
@@ -69,7 +71,7 @@ State policy is tracked separately: **7 records** (7 typed bill rows) in [`state
 ### Cedar County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-09-08 (Cedar County Commissioners)
 - **Normalized date:** `2026-09-08` (exact)
 - **Duration:** 12 months; commissioners may extend once for up to six additional months
@@ -85,7 +87,7 @@ State policy is tracked separately: **7 records** (7 typed bill rows) in [`state
 ### City of Camdenton
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-05-05 (Board of Aldermen unanimous vote)
 - **Normalized date:** `2026-05-05` (exact)
 - **Duration:** Up to 12 months, or earlier if permanent regulations are adopted
@@ -101,7 +103,7 @@ State policy is tracked separately: **7 records** (7 typed bill rows) in [`state
 ### City of Columbia
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-05-18 (Columbia City Council; Ordinance No. 026318 / Council Bill B121-26, second read and passed 2026-05-18; first read 2026-05-04).
 - **Normalized date:** `2026-05-18` (exact)
 - **Duration:** From passage until April 1, 2027, under section 2 of Ordinance No. 026318, subject to the ordinance’s exceptions.
@@ -117,7 +119,7 @@ State policy is tracked separately: **7 records** (7 typed bill rows) in [`state
 ### City of Independence
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-07-06 (City Council, 7-0)
 - **Normalized date:** `2026-07-06` (exact)
 - **Duration:** 180 days
@@ -133,7 +135,7 @@ State policy is tracked separately: **7 records** (7 typed bill rows) in [`state
 ### City of Neosho
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-07-07 (City Council, unanimous)
 - **Normalized date:** `2026-07-07` (exact)
 - **Duration:** One year
@@ -149,7 +151,7 @@ State policy is tracked separately: **7 records** (7 typed bill rows) in [`state
 ### City of Peculiar
 
 - **Type:** City
-- **Status:** ⚪ Replaced
+- **Recorded status:** ⚪ Replaced
 - **Date enacted:** 2024-08-19
 - **Normalized date:** `2024-08-19` (exact)
 - **Duration:** 100 days
@@ -165,7 +167,7 @@ State policy is tracked separately: **7 records** (7 typed bill rows) in [`state
 ### City of Springfield
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-06-29
 - **Normalized date:** `2026-06-29` (exact)
 - **Duration:** 120 days, through November 17, 2026
@@ -181,7 +183,7 @@ State policy is tracked separately: **7 records** (7 typed bill rows) in [`state
 ### City of St. Charles
 
 - **Type:** City
-- **Status:** ⚪ Replaced
+- **Recorded status:** ⚪ Replaced
 - **Date enacted:** 2025-08-22
 - **Normalized date:** `2025-08-22` (exact)
 - **Duration:** One year from passage
@@ -197,7 +199,7 @@ State policy is tracked separately: **7 records** (7 typed bill rows) in [`state
 ### City of St. Joseph
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-07-20 (City Council, 8-0)
 - **Normalized date:** `2026-07-20` (exact)
 - **Duration:** 12 months
@@ -213,7 +215,7 @@ State policy is tracked separately: **7 records** (7 typed bill rows) in [`state
 ### City of St. Peters
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-05-14 (Board of Aldermen, 7-0, one absent)
 - **Normalized date:** `2026-05-14` (exact)
 - **Duration:** No longer than one year; may end earlier by board action or upon adoption of permanent standards
@@ -229,7 +231,7 @@ State policy is tracked separately: **7 records** (7 typed bill rows) in [`state
 ### Jackson County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-06-22 (legislative passage); signed by County Executive June 25, 2026, effective immediately on signature.
 - **Normalized date:** `2026-06-22` (exact)
 - **Duration:** 180 days under final Ordinance 6074, amended from the introduced 120-day proposal; effective-date clause anchors effectiveness to executive signature. Exact endpoint and later actions unresolved.
@@ -245,7 +247,7 @@ State policy is tracked separately: **7 records** (7 typed bill rows) in [`state
 ### Marion County
 
 - **Type:** County
-- **Status:** ⚪ Replaced
+- **Recorded status:** ⚪ Replaced
 - **Date enacted:** 2026-06-15 (County Commission, unanimous)
 - **Normalized date:** `2026-06-15` (exact)
 - **Duration:** 12 months
@@ -261,7 +263,7 @@ State policy is tracked separately: **7 records** (7 typed bill rows) in [`state
 ### Nodaway County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-07-21 (County Commission order)
 - **Normalized date:** `2026-07-21` (exact)
 - **Duration:** Six months, with one extension of up to six additional months permitted upon written findings
@@ -277,7 +279,7 @@ State policy is tracked separately: **7 records** (7 typed bill rows) in [`state
 ### Oak Grove
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** August 3, 2026
 - **Normalized date:** `2026-08-03` (exact)
 - **Duration:** One year
@@ -293,7 +295,7 @@ State policy is tracked separately: **7 records** (7 typed bill rows) in [`state
 ### Pacific
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** August 4, 2026
 - **Normalized date:** `2026-08-04` (exact)
 - **Duration:** One year, unless ended earlier by majority vote
@@ -309,7 +311,7 @@ State policy is tracked separately: **7 records** (7 typed bill rows) in [`state
 ### Palmyra
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** September 3, 2026
 - **Normalized date:** `2026-09-03` (exact)
 - **Duration:** —
@@ -325,7 +327,7 @@ State policy is tracked separately: **7 records** (7 typed bill rows) in [`state
 ### Ralls County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-08-23 (Ralls County Commission, signed at a Sunday courthouse meeting per WGEM's same-day report and Muddy River News)
 - **Normalized date:** `2026-08-23` (exact)
 - **Duration:** Approximately one year, to September 1, 2027
@@ -341,7 +343,7 @@ State policy is tracked separately: **7 records** (7 typed bill rows) in [`state
 ### St. Charles County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-07-13
 - **Normalized date:** `2026-07-13` (exact)
 - **Duration:** Six months
@@ -357,7 +359,7 @@ State policy is tracked separately: **7 records** (7 typed bill rows) in [`state
 ### Stone County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-06-04 (Stone County Commission signed the Order and Ordinance enacting the moratorium, per Commission minutes; based on a Stone County Planning Commission resolution adopted 2026-06-02).
 - **Normalized date:** `2026-06-04` (exact)
 - **Duration:** 12 months from the effective date
@@ -373,7 +375,7 @@ State policy is tracked separately: **7 records** (7 typed bill rows) in [`state
 ### Webster County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-06-16
 - **Normalized date:** `2026-06-16` (exact)
 - **Duration:** Six months

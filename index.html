@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Moratorium Nation | 1330 Local Pauses + State Data Center Restrictions</title>
-<meta name="description" content="Open data and a 116-page working paper on 1330 local-government moratoria targeting data centers, battery storage, solar, wind, and cryptocurrency mining across the United States. Updated November 5, 2026.">
+<title>Moratorium Nation | 1330 Local Moratorium Records + State Data Center Restrictions</title>
+<meta name="description" content="Open data and a 116-page working paper on 1330 local-government moratorium records targeting data centers, battery storage, solar, wind, and cryptocurrency mining across the United States. Updated November 5, 2026.">
 <meta name="author" content="Michael J. Bommarito">
 <meta name="robots" content="index,follow,max-image-preview:large">
 <meta name="theme-color" content="#2a78d6">
@@ -13,7 +13,7 @@
 
 <!-- Open Graph -->
 <meta property="og:title" content="Moratorium Nation | Local Pauses + State Data Center Restrictions">
-<meta property="og:description" content="1330 local moratoria across 47 states, plus 442 state policy actions. Open data, working cohort through November 5, 2026.">
+<meta property="og:description" content="1330 local moratorium records across 47 states, plus 442 state policy actions. Open data, working cohort through November 5, 2026.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://mjbommar.github.io/moratorium-data-2026/">
 <meta property="og:site_name" content="Moratorium Nation">
@@ -23,7 +23,7 @@
 <meta property="og:image:alt" content="Map of documented local infrastructure moratoria across the United States">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Moratorium Nation | Local Pauses + State Restrictions">
-<meta name="twitter:description" content="1330 local moratoria across 47 states, plus 442 state policy actions. Updated November 5, 2026.">
+<meta name="twitter:description" content="1330 local moratorium records across 47 states, plus 442 state policy actions. Updated November 5, 2026.">
 <meta name="twitter:image" content="https://mjbommar.github.io/moratorium-data-2026/figures/png/map-moratorium-counts.png">
 <script type="application/ld+json">
 {
@@ -642,7 +642,7 @@
   <div class="stat">
     <div class="num" id="stat-total">1330</div>
     <div class="delta">was 222 in April</div>
-    <div class="label">Moratorium instruments</div>
+    <div class="label">Moratorium records</div>
   </div>
   <div class="stat in-force">
     <div class="num" id="stat-in-force">1079</div>
@@ -650,11 +650,11 @@
   </div>
   <div class="stat pending">
     <div class="num" id="stat-pending">79</div>
-    <div class="label">Pending or not yet effective</div>
+    <div class="label">Classified pending</div>
   </div>
   <div class="stat past">
     <div class="num" id="stat-past">172</div>
-    <div class="label">Replaced, expired, or rescinded</div>
+    <div class="label">Classified replaced, expired, or rescinded</div>
   </div>
   <div class="stat">
     <div class="num">47</div>
@@ -673,7 +673,7 @@
       <article class="scope-card">
         <span class="scope-label">Local government</span>
         <strong class="scope-number" id="scope-local-count">1330</strong>
-        <p>City, county, township, and tribal instruments. The map and headline status counts all refer to this inventory.</p>
+        <p>City, county, township, and tribal inventory records. The map and headline status counts all refer to this inventory.</p>
         <a href="data/moratorium_inventory.csv" download>Download local inventory →</a>
       </article>
       <article class="scope-card">
@@ -705,18 +705,18 @@
 <div class="map-wrap">
   <div id="map"></div>
   <div class="map-controls">
-    <span class="legend-item"><span class="swatch" style="background:var(--c-active)"></span>Classified active / extended</span>
-    <span class="legend-item"><span class="swatch" style="background:var(--c-pending)"></span>Pending / not yet effective</span>
-    <span class="legend-item"><span class="swatch" style="background:var(--c-replaced)"></span>Replaced / expired</span>
-    <span class="legend-item"><span class="swatch" style="background:var(--c-rescinded)"></span>Rescinded</span>
+    <span class="legend-item"><span class="swatch" style="background:var(--c-active)"></span>Recorded active / extended</span>
+    <span class="legend-item"><span class="swatch" style="background:var(--c-pending)"></span>Recorded pending</span>
+    <span class="legend-item"><span class="swatch" style="background:var(--c-replaced)"></span>Recorded replaced / expired</span>
+    <span class="legend-item"><span class="swatch" style="background:var(--c-rescinded)"></span>Recorded rescinded</span>
     <div class="filter-buttons" id="filter-buttons">
       <button class="active" data-filter="all">All</button>
-      <button data-filter="in-force">Active / extended</button>
-      <button data-filter="pending">Pending</button>
-      <button data-filter="past">Past</button>
+      <button data-filter="in-force">Recorded active / extended</button>
+      <button data-filter="pending">Recorded pending</button>
+      <button data-filter="past">Recorded past</button>
     </div>
   </div>
-  <p style="font-size: 12px; color: var(--ink-soft); margin: -4px 0 22px;">Map shows 1289 of 1330 instruments. Two aggregate meta-rows ("Other Reported Local Moratoria, MI" and "Proposed or Rejected Local Pauses, MD") aren't real geographic points. Click any marker for jurisdiction details.</p>
+  <p style="font-size: 12px; color: var(--ink-soft); margin: -4px 0 22px;">Map shows 1289 of 1330 records. Two aggregate meta-rows ("Other Reported Local Moratoria, MI" and "Proposed or Rejected Local Pauses, MD") aren't real geographic points. Click any marker for jurisdiction details.</p>
 </div>
 
 <div class="timeline-wrap">
@@ -731,8 +731,8 @@
 <section class="release-notes">
   <div class="stamp">Working data &middot; November 5, 2026 cohort</div>
   <h2>The November working snapshot</h2>
-  <p class="lede">The inventory tracks 1330 local instruments across 47 states.
-  Recorded classifications include 887 active and 192 extended instruments,
+  <p class="lede">The inventory tracks 1330 local inventory records across 47 states.
+  Recorded classifications include 887 active and 192 extended records,
   79 pending, 94 replaced, 66 expired and 12 rescinded.
   Source dates vary by record; these totals do not establish freshly verified current legal force.</p>
   <h3>Ballots and state policy have separate denominators</h3>
@@ -761,7 +761,7 @@
 
 <section>
   <h2>Top 13 states by moratorium count</h2>
-  <div class="panel"><p>Thirteen states hold roughly two in three of the instruments we have found. Click a state for every moratorium in it, written in plain English.</p>
+  <div class="panel"><p>Thirteen states hold roughly two in three of the records we have found. Click a state for every moratorium in it, written in plain English.</p>
   <div class="top-states">
     <div class="row"><a href="states/ohio.html"><strong>Ohio</strong></a><strong>160</strong></div>
     <div class="row"><a href="states/new-york.html"><strong>New York</strong></a><strong>152</strong></div>
@@ -852,12 +852,12 @@
     pending:   getComputedStyle(document.documentElement).getPropertyValue('--c-pending').trim(),
   };
   var STATUS_LABEL = {
-    active:    'In force',
-    extended:  'Extended',
-    replaced:  'Replaced',
-    expired:   'Expired',
-    rescinded: 'Rescinded',
-    pending:   'Pending',
+    active:    'Recorded active',
+    extended:  'Recorded extended',
+    replaced:  'Recorded replaced',
+    expired:   'Recorded expired',
+    rescinded: 'Recorded rescinded',
+    pending:   'Recorded pending',
   };
   var FILTER_GROUPS = {
     'all':      ['active','extended','replaced','expired','rescinded','pending'],

@@ -3,11 +3,13 @@
 
 Working inventory for Nebraska, generated **November 7, 2026**. Record-level refresh and later-action review remain incomplete.
 
-**24 instruments** — 20 in force, 2 pending, 2 past.
+**24 records** — 20 classified as active or extended, 2 classified as pending, 2 classified as past.
+
+These counts reflect inventory classifications and do not establish current enforceability.
 
 State policy is tracked separately: **11 records** (11 typed bill rows) in [`state_legislation.csv`](../data/state_legislation.csv). These are not included in the local count above.
 
-| Jurisdiction | Type | Enacted | Sectors | Status |
+| Jurisdiction | Type | Enacted | Sectors | Recorded status |
 |---|---|---|---|---|
 | Box Butte County | County | 2026 | data center | 🟢 Active |
 | Broken Bow | City | 2026-07-14 | data center, cryptocurrency mining | 🟢 Active |
@@ -39,7 +41,7 @@ State policy is tracked separately: **11 records** (11 typed bill rows) in [`sta
 ### Box Butte County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** Before 2026-07-16 (exact date and resolution number not located)
 - **Normalized date:** `2026` (year_only)
 - **Duration:** Not documented
@@ -55,7 +57,7 @@ State policy is tracked separately: **11 records** (11 typed bill rows) in [`sta
 ### Broken Bow
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-07-14 (Ordinance 1314 adopted)
 - **Normalized date:** `2026-07-14` (exact)
 - **Duration:** Six months, or until permanent zoning regulations take effect, whichever first
@@ -71,7 +73,7 @@ State policy is tracked separately: **11 records** (11 typed bill rows) in [`sta
 ### Butler County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-03-16, Butler County Board of Supervisors, 4-1 roll-call vote (Griess, Vandenberg, Bauer, Steager aye; Krafka nay)
 - **Normalized date:** `2026-03-16` (exact)
 - **Duration:** 9 months from adoption (2026-03-16)
@@ -87,7 +89,7 @@ State policy is tracked separately: **11 records** (11 typed bill rows) in [`sta
 ### Cass County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-08-11, Cass County Board of Commissioners, 5-0 unanimous vote, motion by District 4 Commissioner Daniel Stohlmann
 - **Normalized date:** `2026-08-11` (exact)
 - **Duration:** 12 months (a 'baseline' minimum per Commissioner Alexander DeGarmo, extendable if more time is needed, or endable early if regulations are adopted sooner)
@@ -103,7 +105,7 @@ State policy is tracked separately: **11 records** (11 typed bill rows) in [`sta
 ### Cherry County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** Board of Commissioners voted 2-1 on 2026-07-14 to impose a moratorium, effective that day.
 - **Normalized date:** `2026-07-14` (exact)
 - **Duration:** Six-month moratorium on all conditional use permits (broader than data centers), adopted amid board discussion focused on the county's lack of data center provisions. No separate ordinance or resolution text was located; recorded as a motion in the minutes.
@@ -119,7 +121,7 @@ State policy is tracked separately: **11 records** (11 typed bill rows) in [`sta
 ### Custer County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-03-31 (Resolution 75Z-26 adopted)
 - **Normalized date:** `2026-03-31` (exact)
 - **Duration:** Six months (March 31, 2026 to September 30, 2026)
@@ -135,7 +137,7 @@ State policy is tracked separately: **11 records** (11 typed bill rows) in [`sta
 ### Dundy County
 
 - **Type:** County
-- **Status:** 🟢 Extended
+- **Recorded status:** 🟢 Extended
 - **Date enacted:** 2025-06 (Board of Commissioners adopted moratorium on Conditional Use Permits following a 2025-06-23 public hearing on the Planning Commission's recommendation; exact adoption date not located)
 - **Normalized date:** `2025-06` (month_only)
 - **Duration:** 12 months, extended for additional 12-month terms
@@ -151,7 +153,7 @@ State policy is tracked separately: **11 records** (11 typed bill rows) in [`sta
 ### Fillmore County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-06-23, Fillmore County Board of Supervisors, 6-1 roll-call vote
 - **Normalized date:** `2026-06-23` (exact)
 - **Duration:** 6 months from the date of approval (2026-06-23)
@@ -167,7 +169,7 @@ State policy is tracked separately: **11 records** (11 typed bill rows) in [`sta
 ### Furnas County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2025-08-26 (Resolution 2025-8-26 adopted)
 - **Normalized date:** `2025-08-26` (exact)
 - **Duration:** Not stated in the resolution as reviewed
@@ -183,7 +185,7 @@ State policy is tracked separately: **11 records** (11 typed bill rows) in [`sta
 ### Gage County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-09-16, Gage County Board of Supervisors, motion by Supervisor Rex Adams
 - **Normalized date:** `2026-09-16` (exact)
 - **Duration:** 12 months from 2026-09-16, superseding an earlier 8-month moratorium the Board had passed in August 2026; the Planning and Zoning Commission had recommended an 18-month term after a crowded June 2026 public hearing, but the Board adopted 12 months instead.
@@ -199,7 +201,7 @@ State policy is tracked separately: **11 records** (11 typed bill rows) in [`sta
 ### Garfield County
 
 - **Type:** County
-- **Status:** 🟡 Pending
+- **Recorded status:** 🟡 Pending
 - **Date enacted:** —
 - **Normalized date:** `—` (unverified)
 - **Duration:** Not documented
@@ -215,7 +217,7 @@ State policy is tracked separately: **11 records** (11 typed bill rows) in [`sta
 ### Harlan County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** Before 2026-07-16 (exact date and resolution number not located)
 - **Normalized date:** `2026` (year_only)
 - **Duration:** Not documented
@@ -231,7 +233,7 @@ State policy is tracked separately: **11 records** (11 typed bill rows) in [`sta
 ### Hayes County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** Before 2026-07-16 (exact date and resolution number not located)
 - **Normalized date:** `2026` (year_only)
 - **Duration:** Not documented
@@ -247,7 +249,7 @@ State policy is tracked separately: **11 records** (11 typed bill rows) in [`sta
 ### Hitchcock County
 
 - **Type:** County
-- **Status:** ⚪ Replaced
+- **Recorded status:** ⚪ Replaced
 - **Date enacted:** 2025-02-03
 - **Normalized date:** `2025-02-03` (exact)
 - **Duration:** One year or until updated zoning regulations were adopted, whichever was less
@@ -263,7 +265,7 @@ State policy is tracked separately: **11 records** (11 typed bill rows) in [`sta
 ### Hitchcock County
 
 - **Type:** County
-- **Status:** 🟡 Pending
+- **Recorded status:** 🟡 Pending
 - **Date enacted:** Not yet adopted as of 2026-09-21; proposed Resolution 26-18 was on the Sept. 8, 2026 Board of Commissioners agenda (item 9) and discussed again at the Sept. 21, 2026 meeting, where the minutes record 'Discussion held on proposed Resolution 26-18. No action taken at this time.'
 - **Normalized date:** `—` (unverified)
 - **Duration:** Proposed 12 months
@@ -279,7 +281,7 @@ State policy is tracked separately: **11 records** (11 typed bill rows) in [`sta
 ### Johnson County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-05-05, Johnson County Board of Commissioners
 - **Normalized date:** `2026-05-05` (exact)
 - **Duration:** One year, as approved May 5, 2026; effective-date anchor and later actions not established.
@@ -295,7 +297,7 @@ State policy is tracked separately: **11 records** (11 typed bill rows) in [`sta
 ### Kearney County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** Before 2026-07-16 (exact date and resolution number not located)
 - **Normalized date:** `2026` (year_only)
 - **Duration:** Not documented
@@ -311,7 +313,7 @@ State policy is tracked separately: **11 records** (11 typed bill rows) in [`sta
 ### Logan County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** Board of Commissioners voted 3-0 to adopt Resolution 26-2 on 2026-07-15.
 - **Normalized date:** `2026-07-15` (exact)
 - **Duration:** 12-month moratorium on accepting applications for data centers and AI facilities, cryptocurrency mining, wind and solar energy systems, battery energy storage, carbon dioxide facilities, future high-voltage transmission infrastructure, and other utility-scale or specialized-technology facilities.
@@ -327,7 +329,7 @@ State policy is tracked separately: **11 records** (11 typed bill rows) in [`sta
 ### McPherson County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-06-10, McPherson County Board of Commissioners, unanimous vote (Nason, Arensdorf, Chairman Bryant)
 - **Normalized date:** `2026-06-10` (exact)
 - **Duration:** 12 months from 2026-06-10; the Board reserved exclusive authority to extend it. Resolution 2026-11 expressly supersedes prior county moratorium Resolutions 2025-19, 2025-21, and 2025-25, indicating the county has maintained some form of moratorium on these uses since at least 2025.
@@ -343,7 +345,7 @@ State policy is tracked separately: **11 records** (11 typed bill rows) in [`sta
 ### Otoe County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-05-19
 - **Normalized date:** `2026-05-19` (exact)
 - **Duration:** Moratorium on building and conditional-use permits for data centers, for up to one year from adoption (i.e., through on or about 2027-05-19), and subject to earlier termination if the zoning review committee's updated regulations are approved sooner.
@@ -359,7 +361,7 @@ State policy is tracked separately: **11 records** (11 typed bill rows) in [`sta
 ### Red Willow County
 
 - **Type:** County
-- **Status:** 🟢 Extended
+- **Recorded status:** 🟢 Extended
 - **Date enacted:** 2025-09-22
 - **Normalized date:** `2025-09-22` (exact)
 - **Duration:** 12 months (2025-09-22 to 2026-09-22); extended for an additional 12 months by Resolution No. 1612, Book 25, Page 2, adopted 2026-08-24.
@@ -375,7 +377,7 @@ State policy is tracked separately: **11 records** (11 typed bill rows) in [`sta
 ### Sarpy County
 
 - **Type:** County
-- **Status:** ⚪ Expired
+- **Recorded status:** ⚪ Expired
 - **Date enacted:** 2020-01-28
 - **Normalized date:** `2020-01-28` (exact)
 - **Duration:** Stated January 14, 2020 start through March 18, 2020, or earlier effective alternative-energy zoning regulation; adoption January 28, 2020
@@ -391,7 +393,7 @@ State policy is tracked separately: **11 records** (11 typed bill rows) in [`sta
 ### Seward County
 
 - **Type:** County
-- **Status:** 🟢 Extended
+- **Recorded status:** 🟢 Extended
 - **Date enacted:** 2023-08-01, Seward County Board of Commissioners (original adoption); most recently continued by Resolution No. 3947, adopted 2026-08-25
 - **Normalized date:** `2023-08-01` (exact)
 - **Duration:** Originally a 6-month moratorium adopted 2023-08-01, repeatedly continued/renewed by separate board resolutions (including at the Jan. 6, 2026 meeting) for further 6-month terms or until new zoning regulations are formally adopted, whichever occurs first; most recently continued by Resolution No. 3947 (2026-08-25) for 6 months from that date.
@@ -407,7 +409,7 @@ State policy is tracked separately: **11 records** (11 typed bill rows) in [`sta
 ### Seward County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** Board of Commissioners adopted Resolution 3937 on 2026-06-30, effective immediately, with three affirmative votes and two members absent.
 - **Normalized date:** `2026-06-30` (exact)
 - **Duration:** Pauses data center construction, building permits, conditional use permits, and any other project authorization. Expires at the earlier of 12 months or the effective date of new data center zoning regulations, unless extended by a separate resolution.

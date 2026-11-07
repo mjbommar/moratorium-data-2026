@@ -3,11 +3,13 @@
 
 Working inventory for Minnesota, generated **November 7, 2026**. Record-level refresh and later-action review remain incomplete.
 
-**29 instruments** — 27 in force, 2 pending, 0 past.
+**29 records** — 27 classified as active or extended, 2 classified as pending, 0 classified as past.
+
+These counts reflect inventory classifications and do not establish current enforceability.
 
 State policy is tracked separately: **12 records** (12 typed bill rows) in [`state_legislation.csv`](../data/state_legislation.csv). These are not included in the local count above.
 
-| Jurisdiction | Type | Enacted | Sectors | Status |
+| Jurisdiction | Type | Enacted | Sectors | Recorded status |
 |---|---|---|---|---|
 | Bemidji | City | 2026-09-14 | data center, cryptocurrency mining | 🟢 Active |
 | Blue Earth County | County | 2026-08-25 | data center | 🟢 Active |
@@ -44,7 +46,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Bemidji
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-09-14, adopted 6-1 by the Bemidji Planning Board, which under Bemidji's practice comprises the full City Council sitting as the city's planning and zoning decision-making body
 - **Normalized date:** `2026-09-14` (exact)
 - **Duration:** One year from adoption (through approximately 2027-09-14); state law caps local moratoria at one year.
@@ -60,7 +62,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Blue Earth County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-08-25, Blue Earth County Board of Commissioners vote
 - **Normalized date:** `2026-08-25` (exact)
 - **Duration:** Up to one year from adoption.
@@ -76,7 +78,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Carlton County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-08-24, unanimous vote of the Carlton County Board of Commissioners
 - **Normalized date:** `2026-08-24` (exact)
 - **Duration:** One year from the date of enactment, unless earlier terminated by the County Board.
@@ -92,7 +94,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Carver
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-04-06
 - **Normalized date:** `2026-04-06` (exact)
 - **Duration:** One year from effective date unless repealed earlier or replaced by a zoning ordinance amendment
@@ -108,7 +110,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Chisago County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-08-05, unanimous (5-0) County Board vote following a public hearing
 - **Normalized date:** `2026-08-05` (exact)
 - **Duration:** Reported as a 12-month moratorium; no explicit sunset date was stated in the meeting minutes reviewed.
@@ -124,7 +126,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### City of Apple Valley
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-07-09
 - **Normalized date:** `2026-07-09` (exact)
 - **Duration:** Through 2027-07-09 unless the council ends it sooner
@@ -140,7 +142,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### City of Elko New Market
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-05-14 (City Council, 4-0)
 - **Normalized date:** `2026-05-14` (exact)
 - **Duration:** Until new official controls are adopted, or 2027-05-13, whichever occurs first
@@ -156,7 +158,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Eagan
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-02-17
 - **Normalized date:** `2026-02-17` (exact)
 - **Duration:** One year; expires 2027-02-17 unless ended sooner
@@ -172,7 +174,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Elk River
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-08-03, unanimous City Council vote
 - **Normalized date:** `2026-08-03` (exact)
 - **Duration:** One year from adoption, but may be rescinded earlier by the Council at any time.
@@ -188,7 +190,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Freeborn County
 
 - **Type:** County
-- **Status:** 🟢 Extended
+- **Recorded status:** 🟢 Extended
 - **Date enacted:** August 2025 (exact date not located in this pass); temporary interim zoning ordinance covering data centers and, in a parallel ordinance, energy storage systems
 - **Normalized date:** `2025-08-19` (exact)
 - **Duration:** Originally a one-year interim ordinance (adopted August 2025); extended for a second consecutive one-year term, through August 19, 2027, by a unanimous County Board vote on August 18, 2026.
@@ -204,7 +206,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Hastings
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-08-17, unanimous City Council vote following a public hearing
 - **Normalized date:** `2026-08-17` (exact)
 - **Duration:** Up to one year; city staff indicated they may not need the full year.
@@ -220,7 +222,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Inver Grove Heights
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** Ordinance No. 1527 followed three readings: the City Council 'initiated consideration' of the moratorium May 11, 2026 (first reading), held a second reading June 8, 2026, and adopted the ordinance on third/final reading by a 3-2 vote on June 26, 2026 (a meeting that began June 22 and was recessed to June 26 at 8 a.m.). The May 11, 2026 date some aggregators report is the first-reading/initiation date, not final adoption.
 - **Normalized date:** `2026-06-26` (exact)
 - **Duration:** One year
@@ -236,7 +238,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Le Sueur County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-05-26 (County Board adoption); effective 2026-06-04
 - **Normalized date:** `2026-05-26` (exact)
 - **Duration:** 12 months from adoption
@@ -252,7 +254,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Lonsdale
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-04-30 (City Council approval of Interim Ordinance 2026-342).
 - **Normalized date:** `2026-04-30` (exact)
 - **Duration:** One year.
@@ -268,7 +270,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Mankato
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-07-13
 - **Normalized date:** `2026-07-13` (exact)
 - **Duration:** One year
@@ -284,7 +286,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Minneapolis
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** City Council gave initial approval 8-5 on 2026-05-22 and final approval on 2026-06-25, following a public hearing on 2026-06-16.
 - **Normalized date:** `2026-06-25` (exact)
 - **Duration:** Approximately six-month interim ordinance: restrictions run 'from the date of introduction of this ordinance on May 21, 2026, through and including November 21, 2026, or upon completion of the study and adoption or amendment of the official controls..., whichever occurs first' (Minneapolis Code Sec. 597.40(b)); the department of community planning and economic development must present a progress report to Council within six months (i.e., by approximately late November 2026).
@@ -300,7 +302,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Minnetrista
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-08-03, City Council vote (Council Member Reffkin absent)
 - **Normalized date:** `2026-08-03` (exact)
 - **Duration:** One year from adoption.
@@ -316,7 +318,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### North Branch
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-07 (Chisago County Press, 2026-07-31, reporting the council's prior-week meeting: 'Council reviewed and adopted 5-0 a high utility user application moratorium'; exact meeting day not stated)
 - **Normalized date:** `2026-07` (month_only)
 - **Duration:** Six months from adoption (late July 2026), so to about late January 2027; staff to study impacts and recommend code changes in the interim.
@@ -332,7 +334,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### North Mankato
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-09-21, City Council vote continuing a public hearing first opened and tabled August 3, 2026
 - **Normalized date:** `2026-09-21` (exact)
 - **Duration:** Up to twelve months, with the option to renew the moratorium for an additional year.
@@ -348,7 +350,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Otsego
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** Adopted by the Otsego City Council on July 27, 2026, by a 5-0 vote (Ordinance 2026-11), following a public hearing the same night and a 7-0 Planning Commission recommendation on July 6, 2026.
 - **Normalized date:** `2026-07-27` (exact)
 - **Duration:** Up to one calendar year; planner describes earlier end on completed study plus adopted regulations. Exact effective-date anchor, endpoint and extension authority require executed-text review.
@@ -364,7 +366,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Pequot Lakes
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** —
 - **Normalized date:** `—` (unverified)
 - **Duration:** City staff reports automatic expiration July 15, 2027; original term and adoption/effectiveness anchors unverified
@@ -380,7 +382,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Pine County
 
 - **Type:** County
-- **Status:** 🟢 Extended
+- **Recorded status:** 🟢 Extended
 - **Date enacted:** 2026-07-07 (original six-month ordinance); reaffirmed for twelve months effective 2026-08-18
 - **Normalized date:** `2026-07-07` (exact)
 - **Duration:** Original July 7 ordinance: six calendar months from adoption. August 18 reaffirmation: twelve calendar months from adoption, until express repeal or effective new data-center zoning, with effectiveness August 18, 2026.
@@ -396,7 +398,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Plymouth
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-09-08, unanimous City Council vote
 - **Normalized date:** `2026-09-08` (exact)
 - **Duration:** 12 months from adoption.
@@ -412,7 +414,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Rice
 
 - **Type:** City
-- **Status:** 🟡 Pending
+- **Recorded status:** 🟡 Pending
 - **Date enacted:** —
 - **Normalized date:** `—` (unverified)
 - **Duration:** As proposed: one year, or earlier upon amending the zoning ordinance regarding data centers or a council resolution ending the moratorium.
@@ -428,7 +430,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Rosemount
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-04-21
 - **Normalized date:** `2026-04-21` (exact)
 - **Duration:** One year from effective date, unless repealed earlier or terminated by adoption of a permanent zoning amendment addressing data centers
@@ -444,7 +446,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### St. Joseph
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-06-15 (City Council, Ordinance 2026-004)
 - **Normalized date:** `2026-06-15` (exact)
 - **Duration:** One-year moratorium
@@ -460,7 +462,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Waite Park
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** Adopted unanimously by the Waite Park City Council on 2026-05-04 (reported 2026-05-05).
 - **Normalized date:** `2026-05-04` (exact)
 - **Duration:** One-year (12-month) moratorium on data center development, adopted unanimously by City Council on 2026-05-04; exempts construction of small (300-square-foot) telecommunications shelters with fiber-optic equipment that do not require water to operate.
@@ -476,7 +478,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Woodbury
 
 - **Type:** City
-- **Status:** 🟡 Pending
+- **Recorded status:** 🟡 Pending
 - **Date enacted:** —
 - **Normalized date:** `—` (unverified)
 - **Duration:** As proposed: one year from adoption and publication, or sooner if repealed or superseded by new regulations expressly addressing the covered uses.
@@ -492,7 +494,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Wright County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-05-19
 - **Normalized date:** `2026-05-19` (exact)
 - **Duration:** One year from the effective date, unless earlier terminated by the County Board

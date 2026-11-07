@@ -4,9 +4,9 @@ This document defines every column in every data file. Read this before doing an
 
 ## `data/moratorium_inventory.csv`
 
-**One row per moratorium instrument.** 1330 rows total in the November 5, 2026 working refresh. Record-level review is incomplete; this count does not certify current legal force for every row.
+**The intended grain is one moratorium instrument per row.** 1330 rows total in the November 5, 2026 working refresh. Record-level review is incomplete; this count does not certify current legal force for every row.
 
-This is the intended grain. Legacy combined candidates and motion/ordinance
+This is the intended grain. Aggregate and compound rows, possible duplicates, legacy combined candidates and motion/ordinance
 relationships still require [identity reconciliation](known-gaps.md#legacy-instrument-identities);
 the working count is not a completed deduplicated instrument census.
 
@@ -50,7 +50,7 @@ This is the column most users want for filtering. The values:
 - **`replaced`** — recorded as replaced by a permanent ordinance
 - **`expired`** — recorded term has elapsed; later actions or replacement may remain unverified
 - **`rescinded`** — documented affirmative repeal; this does not establish that the original event-based endpoint had not already occurred
-- **`pending`** — moratorium is proposed or enacted with a future effective date; it is not yet classified as in force. This legacy category alone does not establish whether a vote has occurred
+- **`pending`** — recorded as pending. This legacy category alone does not establish whether a vote has occurred or the current legal effect
 
 To filter to recorded active/extended classifications (not renewed legal-force findings):
 
@@ -58,10 +58,10 @@ To filter to recorded active/extended classifications (not renewed legal-force f
 in_force = df[df["enacted_status"].isin(["active", "extended"])]
 ```
 
-To filter to enacted-only (current or past):
+To filter to non-pending classifications (this does not establish adoption; adoption requires reviewed evidence):
 
 ```python
-enacted = df[~df["enacted_status"].eq("pending")]
+non_pending = df[~df["enacted_status"].eq("pending")]
 ```
 
 ### Notes on the data
@@ -136,6 +136,8 @@ records the governing session context per state in the audit log under
 ## `data/summary_stats.json`
 
 A single JSON object with top-level aggregates. Useful for embedding live counts on a page or programmatic comparison across releases.
+
+The page generator also uses a legacy internal summary key, `in_force`, for the count of rows classified active or extended. It does not measure current legal force and is not a key in this JSON file.
 
 Top-level keys:
 

@@ -3,11 +3,13 @@
 
 Working inventory for Texas, generated **November 7, 2026**. Record-level refresh and later-action review remain incomplete.
 
-**11 instruments** — 6 in force, 3 pending, 2 past.
+**11 records** — 6 classified as active or extended, 3 classified as pending, 2 classified as past.
+
+These counts reflect inventory classifications and do not establish current enforceability.
 
 State policy is tracked separately: **11 records** (9 typed bill rows and 2 non-bill rows) in [`state_legislation.csv`](../data/state_legislation.csv). These are not included in the local count above.
 
-| Jurisdiction | Type | Enacted | Sectors | Status |
+| Jurisdiction | Type | Enacted | Sectors | Recorded status |
 |---|---|---|---|---|
 | Austin County | County | 2026-07-27 | data center, battery storage | 🟢 Active |
 | Brownsville | City | 2026-11-04 | data center | 🟢 Active |
@@ -26,7 +28,7 @@ State policy is tracked separately: **11 records** (9 typed bill rows and 2 non-
 ### Austin County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-07-27, Austin County Commissioners Court, unanimous vote at a Monday meeting (KWHI, published Tuesday 2026-07-28, reports the vote as taken 'Monday'), following the July 13, 2026 public hearing. The signed order itself (obtained directly from austincounty.com) confirms adoption by the full Commissioners Court (County Judge Tim Lapham and Commissioners Greg Mikel, Bobby Rinn, Leroy Cerny, and Chip Reed) but its scanned signature-page 'Date of adoption' field was not legibly OCR-able.
 - **Normalized date:** `2026-07-27` (exact)
 - **Duration:** Until a comprehensive health and safety review is complete, per the posted draft order; no fixed term confirmed
@@ -42,7 +44,7 @@ State policy is tracked separately: **11 records** (9 typed bill rows and 2 non-
 ### Brownsville
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-11-04, according to November 5 reporting of the city commission decision; official final action record not located.
 - **Normalized date:** `2026-11-04` (exact)
 - **Duration:** 90 days (once formally adopted)
@@ -58,7 +60,7 @@ State policy is tracked separately: **11 records** (9 typed bill rows and 2 non-
 ### Denton
 
 - **Type:** City
-- **Status:** 🟡 Pending
+- **Recorded status:** 🟡 Pending
 - **Date enacted:** Not yet adopted as of 2026-09-23. City Council gave staff direction on a Tuesday (per dentonrc.com, a 4-3 vote) to proceed with a possible moratorium and stricter development-code amendments; held the first of two required public hearings on 2026-09-22 (no vote taken); a second public hearing is scheduled for 2026-10-27, with final Council consideration possible as early as 2026-12-02.
 - **Normalized date:** `—` (unverified)
 - **Duration:** Proposed 3 months (per Councilmember Suzi Rumohr's public statement)
@@ -74,7 +76,7 @@ State policy is tracked separately: **11 records** (9 typed bill rows and 2 non-
 ### Fort Worth
 
 - **Type:** City
-- **Status:** 🟡 Pending
+- **Recorded status:** 🟡 Pending
 - **Date enacted:** Not yet adopted as of 2026-09-23. On 2026-08-11 the City Council voted (nearly unanimous, with one abstention/one dissent on related items) to begin the legal process toward a 90-day data center moratorium, alongside creating an 11-member Data Center & Infrastructure Commission (chaired by TCU professor Michael Slattery) and requiring state regulatory approval (per Gov. Abbott's directive) before city permits. Per the timeline city staff presented, two public hearings on the moratorium and two additional ordinance-reading hearings are still required; a Data Center & Infrastructure Commission report is due at a Nov. 3, 2026 work session.
 - **Normalized date:** `—` (unverified)
 - **Duration:** Proposed 90 days, extendable once by an additional 90 days (to a 180-day maximum); per the city's own timeline as of August 2026, the moratorium itself would not take effect until approximately Feb. 16, 2027 (running to approximately May 17, 2027, extendable to Aug. 15, 2027), after which state law bars the city from imposing another moratorium for two years.
@@ -90,7 +92,7 @@ State policy is tracked separately: **11 records** (9 typed bill rows and 2 non-
 ### Harlingen
 
 - **Type:** City
-- **Status:** 🟢 Extended
+- **Recorded status:** 🟢 Extended
 - **Date enacted:** 2026-05-20 (Wednesday commission meeting; ValleyCentral's own article, posted 2026-05-21 at 10:43 a.m., states the vote occurred 'During a Wednesday meeting'; May 20, 2026 was a Wednesday). Subsequently extended by an additional 60 days: first reading of the extension ordinance occurred in the commission meeting reported by KRGV on 2026-08-25 ('approved last week'), with a second/final reading approximately two weeks later (late August 2026).
 - **Normalized date:** `2026-05-20` (exact)
 - **Duration:** Initial 120 days from 2026-05-20; City Attorney Mark Sossi described the subsequent 60-day extension (first reading reported ~2026-08-13, second/final reading ~2 weeks later) as 'the maximum extension allowed by law,' bringing the total pause to 180 days. Multiple August 2026 reports describe the extended pause as running 'through December' 2026.
@@ -106,7 +108,7 @@ State policy is tracked separately: **11 records** (9 typed bill rows and 2 non-
 ### Hays County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-06-23
 - **Normalized date:** `2026-06-23` (exact)
 - **Duration:** 180-day emergency water protection review period, through 2026-12-31 per tracker
@@ -122,7 +124,7 @@ State policy is tracked separately: **11 records** (9 typed bill rows and 2 non-
 ### Hill County
 
 - **Type:** County
-- **Status:** 🔴 Rescinded
+- **Recorded status:** 🔴 Rescinded
 - **Date enacted:** 2026-05-12 (Hill County Commissioners Court approved a 1-year moratorium on data center construction, per KWTX)
 - **Normalized date:** `2026-05-12` (exact)
 - **Duration:** One year (as adopted; rescinded before completing its term)
@@ -138,7 +140,7 @@ State policy is tracked separately: **11 records** (9 typed bill rows and 2 non-
 ### Lavon
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-08-07
 - **Normalized date:** `2026-08-07` (exact)
 - **Duration:** 90 days, extendable for another 90 days
@@ -154,7 +156,7 @@ State policy is tracked separately: **11 records** (9 typed bill rows and 2 non-
 ### League City
 
 - **Type:** City
-- **Status:** ⚪ Expired
+- **Recorded status:** ⚪ Expired
 - **Date enacted:** 2024-03-01 (per BESS tracker)
 - **Normalized date:** `2024-03-01` (unverified)
 - **Duration:** Approximately 3 months (lifted 2024-07-01 per tracker)
@@ -170,7 +172,7 @@ State policy is tracked separately: **11 records** (9 typed bill rows and 2 non-
 ### Lubbock
 
 - **Type:** City
-- **Status:** 🟡 Pending
+- **Recorded status:** 🟡 Pending
 - **Date enacted:** 2026-09-23, Lubbock City Council, 5-2 vote (District 6 Councilman Tim Collins and District 4 Councilman Tim Green dissenting), adopting a resolution to begin the process toward a possible 90-day moratorium.
 - **Normalized date:** `—` (unverified)
 - **Duration:** Proposed 90 days, with a possible optional 90-day extension (would push consideration of a large-scale data center to June 2027 if extended); an 18-month moratorium originally proposed by the citizen 'Save Lubbock' group was deemed not feasible under Texas law.
@@ -186,7 +188,7 @@ State policy is tracked separately: **11 records** (9 typed bill rows and 2 non-
 ### Pasadena
 
 - **Type:** City
-- **Status:** 🟢 Extended
+- **Recorded status:** 🟢 Extended
 - **Date enacted:** 2024 (original 'Commercial Moratorium' on BESS; exact date not located, extended by hearing on 2025-01-06)
 - **Normalized date:** `2024` (year_only)
 - **Duration:** Repeatedly extended

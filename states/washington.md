@@ -3,11 +3,13 @@
 
 Working inventory for Washington, generated **November 7, 2026**. Record-level refresh and later-action review remain incomplete.
 
-**43 instruments** — 30 in force, 0 pending, 13 past.
+**43 records** — 30 classified as active or extended, 0 classified as pending, 13 classified as past.
+
+These counts reflect inventory classifications and do not establish current enforceability.
 
 State policy is tracked separately: **5 records** (5 typed bill rows) in [`state_legislation.csv`](../data/state_legislation.csv). These are not included in the local count above.
 
-| Jurisdiction | Type | Enacted | Sectors | Status |
+| Jurisdiction | Type | Enacted | Sectors | Recorded status |
 |---|---|---|---|---|
 | Black Diamond | City | 2026-03-03 | battery storage | 🟢 Extended |
 | Bonney Lake | City | 2026-04-14 | battery storage | 🟢 Active |
@@ -58,7 +60,7 @@ State policy is tracked separately: **5 records** (5 typed bill rows) in [`state
 ### Black Diamond
 
 - **Type:** City
-- **Status:** 🟢 Extended
+- **Recorded status:** 🟢 Extended
 - **Date enacted:** 2026-03-03 (interim zoning controls prohibiting BESS citywide, Ordinance No. 26-1246, superseding an earlier BESS permit-application moratorium first adopted 2024-02-15 under Ordinance No. 24-1205 and renewed by Ordinance No. 25-1219 in February 2025); extended a further six months, with a small-system exception, by Ordinance No. 26-1258 (public hearing scheduled 2026-10-06)
 - **Normalized date:** `2026-03-03` (exact)
 - **Duration:** Six months per interim-zoning-control ordinance, renewed in six-month increments
@@ -74,7 +76,7 @@ State policy is tracked separately: **5 records** (5 typed bill rows) in [`state
 ### Bonney Lake
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** April 14, 2026 (emergency adoption)
 - **Normalized date:** `2026-04-14` (exact)
 - **Duration:** Six months from adoption
@@ -90,7 +92,7 @@ State policy is tracked separately: **5 records** (5 typed bill rows) in [`state
 ### Burien
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** City Council adopted Ordinance 905 by a 6-0 vote on 2026-06-29, effective immediately.
 - **Normalized date:** `2026-06-29` (exact)
 - **Duration:** One-year moratorium in all city districts on accepting, processing, or approving applications to establish, expand, or change a use to a data center with capacity exceeding 20 MVA. Preserves vested rights for complete permit applications filed before the effective date. Public hearing scheduled for 2026-07-13.
@@ -106,7 +108,7 @@ State policy is tracked separately: **5 records** (5 typed bill rows) in [`state
 ### City of Chelan
 
 - **Type:** City
-- **Status:** ⚪ Expired
+- **Recorded status:** ⚪ Expired
 - **Date enacted:** 2018-04-24
 - **Normalized date:** `2018-04-24` (exact)
 - **Duration:** 12 months from passage; automatically expired April 2019 unless extended (Ordinance 2018-1538, Section 3)
@@ -122,7 +124,7 @@ State policy is tracked separately: **5 records** (5 typed bill rows) in [`state
 ### City of Cheney
 
 - **Type:** City
-- **Status:** ⚪ Expired
+- **Recorded status:** ⚪ Expired
 - **Date enacted:** 2018-04-21 (passed by City Council; effective immediately as a public-emergency ordinance per RCW 35A.11.090(2))
 - **Normalized date:** `2018-04-21` (exact)
 - **Duration:** Six months, 2018-04-24 to 2018-10-24 (Ordinance X-27, Section on Term)
@@ -138,7 +140,7 @@ State policy is tracked separately: **5 records** (5 typed bill rows) in [`state
 ### City of East Wenatchee
 
 - **Type:** City
-- **Status:** ⚪ Replaced
+- **Recorded status:** ⚪ Replaced
 - **Date enacted:** 2018-03-27 (Ordinance 2018-06); extension adopted in late 2018 with public hearing set for 2018-12-11 (Ordinance 2018-21)
 - **Normalized date:** `2018-03-27` (exact)
 - **Duration:** Initial six-month interim control (Ord. 2018-06: 2018-03-27 to 2018-09-27, per recital 2.10 of Ord. 2018-21); twelve-month extension under Ordinance 2018-21
@@ -154,7 +156,7 @@ State policy is tracked separately: **5 records** (5 typed bill rows) in [`state
 ### City of Entiat
 
 - **Type:** City
-- **Status:** ⚪ Expired
+- **Recorded status:** ⚪ Expired
 - **Date enacted:** 2018-03-08 (Ordinance 2018-779); later extensions by Ordinances 794 and 799 as recorded in the baseline
 - **Normalized date:** `2018-03-08` (exact)
 - **Duration:** Initial interim control (Ord. 779) followed by extension (Ord. 794) and a further extension by Ord. 799; all three are listed as "Expired" in the Entiat Municipal Code ordinance table
@@ -170,7 +172,7 @@ State policy is tracked separately: **5 records** (5 typed bill rows) in [`state
 ### City of Ephrata
 
 - **Type:** City
-- **Status:** ⚪ Replaced
+- **Recorded status:** ⚪ Replaced
 - **Date enacted:** 2018-10-17 (Spokesman-Review reported the "City Council voted Wednesday" of 2018-10-17 to block new cryptocurrency operations for 12 months; vote 6-1 with Mayor Reim absent)
 - **Normalized date:** `2018-10-17` (exact)
 - **Duration:** 12 months (per Spokesman-Review: "yearlong ban on new cryptocurrency mining")
@@ -186,7 +188,7 @@ State policy is tracked separately: **5 records** (5 typed bill rows) in [`state
 ### City of Leavenworth
 
 - **Type:** City
-- **Status:** ⚪ Replaced
+- **Recorded status:** ⚪ Replaced
 - **Date enacted:** 2018-03-27
 - **Normalized date:** `2018-03-27` (exact)
 - **Duration:** Up to 12 months from passage, subject to extension or earlier termination
@@ -202,7 +204,7 @@ State policy is tracked separately: **5 records** (5 typed bill rows) in [`state
 ### City of Moses Lake
 
 - **Type:** City
-- **Status:** ⚪ Replaced
+- **Recorded status:** ⚪ Replaced
 - **Date enacted:** 2018-05-22 (Ordinance 2899, according to the municipal legislative history)
 - **Normalized date:** `2018-05-22` (exact)
 - **Duration:** Up to 12 months (per Columbia Basin Herald: "for up to 12 months and will give the city time to study the impacts")
@@ -218,7 +220,7 @@ State policy is tracked separately: **5 records** (5 typed bill rows) in [`state
 ### City of Seattle
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-06-09 City Council passage of Council Bill 121214 (9-0), enacted as Ordinance 127447; mayoral approval and clerk attestation 2026-06-11. Section 12 makes effectiveness contingent on council passage by a three-fourths vote and mayoral approval.
 - **Normalized date:** `2026-06-09` (exact)
 - **Duration:** Original term: 365 days from effectiveness under Sections 4 and 12; automatic expiry unless extended under statute or terminated sooner by Council. Section 9 permits one or more six-month renewals; Section 5 requires a public hearing within 60 days of adoption. Later renewals, termination and current operative endpoint remain unverified.
@@ -234,7 +236,7 @@ State policy is tracked separately: **5 records** (5 typed bill rows) in [`state
 ### City of Wenatchee
 
 - **Type:** City
-- **Status:** ⚪ Replaced
+- **Recorded status:** ⚪ Replaced
 - **Date enacted:** 2018-02-22; extended 2019-02-14
 - **Normalized date:** `2018-02-22` (exact)
 - **Duration:** Initial six-month interim official control under RCW 35A.63.220 and RCW 36.70A.390; extended for an additional six months by Ordinance 2019-04 (effective approximately 2019-02-23) until permanent zoning amendments were adopted
@@ -250,7 +252,7 @@ State policy is tracked separately: **5 records** (5 typed bill rows) in [`state
 ### Cle Elum
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-07-31, City Council unanimously approved an emergency six-month moratorium at a special meeting, three days after Blue Fern Development unveiled a 20 MW data center proposal
 - **Normalized date:** `2026-07-31` (exact)
 - **Duration:** Six months
@@ -266,7 +268,7 @@ State policy is tracked separately: **5 records** (5 typed bill rows) in [`state
 ### Covington
 
 - **Type:** City
-- **Status:** 🟢 Extended
+- **Recorded status:** 🟢 Extended
 - **Date enacted:** 2024-05-14 (original 12-month BESS moratorium, Ordinance No. 07-2024); renewed six months at a time by Ordinance No. 03-2025, No. 09-2025, and most recently No. 02-2026 (adopted 2026-04-14); Ordinance No. 09-2026 adopted 2026-10-27, effective 2026-11-07.
 - **Normalized date:** `2024-05-14` (exact)
 - **Duration:** Ordinance 02-2026 states six months from April 25 effectiveness; Ordinance 09-2026 renews for six months from November 7 effectiveness unless earlier repealed, renewed or modified. Applicability at the November 5 cutoff unresolved.
@@ -282,7 +284,7 @@ State policy is tracked separately: **5 records** (5 typed bill rows) in [`state
 ### Douglas County
 
 - **Type:** County
-- **Status:** ⚪ Replaced
+- **Recorded status:** ⚪ Replaced
 - **Date enacted:** 2018-04-17, Board of Douglas County Commissioners approved a moratorium on the use of cargo containers to house cryptocurrency mining operations in unincorporated Douglas County (per Wenatchee World, published 2018-04-17, describing the vote as taken 'Tuesday')
 - **Normalized date:** `2018-04-17` (exact)
 - **Duration:** Not verified from primary ordinance text; MRSC characterizes the action as a moratorium on cargo-container cryptocurrency mining operations
@@ -298,7 +300,7 @@ State policy is tracked separately: **5 records** (5 typed bill rows) in [`state
 ### Duvall
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-06-02, City Council unanimous vote adopting Ordinance No. 1353 (signed 2026-06-03)
 - **Normalized date:** `2026-06-02` (exact)
 - **Duration:** 12 months from adoption; Ordinance No. 1353, Section 3 ('Effective Period for Renewal of the Moratorium') states it 'shall be in effect for a period of 12 months from the date this ordinance is adopted and shall automatically expire at the conclusion of those 12 months' unless extended or sooner terminated. The ordinance's title recites 'six months,' which is a drafting inconsistency; both whereas clauses and the operative Section 3 state 12 months.
@@ -314,7 +316,7 @@ State policy is tracked separately: **5 records** (5 typed bill rows) in [`state
 ### Enumclaw
 
 - **Type:** City
-- **Status:** 🟢 Extended
+- **Recorded status:** 🟢 Extended
 - **Date enacted:** 2025-02-24, first reading of Ordinance No. 2806 (the original 12-month BESS moratorium; confirmed via a 2025-04-14 public hearing). Extended 12 additional months from Ordinance 2806's Feb. 24, 2026 expiration by Ordinance No. 2833, which had its public hearing/first reading 2026-02-09 and was adopted 7-0 on second reading 2026-02-23
 - **Normalized date:** `2025-02-24` (exact)
 - **Duration:** Ordinance 2833, passed February 23, 2026, states twelve additional months from Ordinance 2806 expiration February 24, 2026; effective-date/publication interaction and continuity require review.
@@ -330,7 +332,7 @@ State policy is tracked separately: **5 records** (5 typed bill rows) in [`state
 ### Federal Way
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** City Council unanimously adopted emergency Ordinance No. 26-1048 on 2026-07-07, effective immediately.
 - **Normalized date:** `2026-07-07` (exact)
 - **Duration:** 12-month citywide moratorium barring the siting, creation, or expansion of data centers and the acceptance, processing, or approval of related land-use and building-permit applications, for facilities exceeding 1 megawatt or 4,000 square feet. Preserves vested rights. Public hearing scheduled for 2026-09-01.
@@ -346,7 +348,7 @@ State policy is tracked separately: **5 records** (5 typed bill rows) in [`state
 ### Kitsap County
 
 - **Type:** County
-- **Status:** 🟢 Extended
+- **Recorded status:** 🟢 Extended
 - **Date enacted:** 2025-06-11 (original 365-day BESS moratorium, Ordinance No. 639-2025); extended 180 days by Ordinance No. 645-2026 following a 2026-05-11 public hearing
 - **Normalized date:** `2025-06-11` (exact)
 - **Duration:** 365 days initially, plus a 180-day extension
@@ -362,7 +364,7 @@ State policy is tracked separately: **5 records** (5 typed bill rows) in [`state
 ### Kittitas County
 
 - **Type:** County
-- **Status:** 🟢 Extended
+- **Recorded status:** 🟢 Extended
 - **Date enacted:** 2026-08-10, Board of County Commissioners approved (2-0, one commissioner absent) an emergency six-month moratorium on data center applications by resolution; extended a further six months following a 2026-09-15 public hearing
 - **Normalized date:** `2026-08-10` (exact)
 - **Duration:** Originally six months; extended an additional six months on/around 2026-09-15 (approximately one year total)
@@ -378,7 +380,7 @@ State policy is tracked separately: **5 records** (5 typed bill rows) in [`state
 ### La Conner
 
 - **Type:** Town
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-07-28, Town Council unanimous vote adopting an emergency moratorium (likely Ordinance No. 1274, per the ordinance-number tracker shown on the July 28, 2026 council agenda; the draft ordinance text itself left the number blank)
 - **Normalized date:** `2026-07-28` (exact)
 - **Duration:** The ordinance imposes an immediate six-month moratorium. Subject to its hearing and findings condition, section 4 refers to six months after adoption or completion of the listed tasks, whichever is sooner; the Council decides termination by ordinance and termination is not otherwise presumed.
@@ -394,7 +396,7 @@ State policy is tracked separately: **5 records** (5 typed bill rows) in [`state
 ### Lincoln County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** Adopted by the Board of County Commissioners on September 8, 2026.
 - **Normalized date:** `2026-09-08` (exact)
 - **Duration:** Six months from adoption unless repealed or changed
@@ -410,7 +412,7 @@ State policy is tracked separately: **5 records** (5 typed bill rows) in [`state
 ### Marysville
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** City Council unanimously adopted Ordinance No. 3381 on 2026-07-13.
 - **Normalized date:** `2026-07-13` (exact)
 - **Duration:** Six-month pause on acceptance, processing, and approval of land-use and permit applications for facilities whose principal use is digital-data processing, storage, management, or transmission; incidental server equipment supporting another principal use is excluded. Public hearing required within 60 days.
@@ -426,7 +428,7 @@ State policy is tracked separately: **5 records** (5 typed bill rows) in [`state
 ### Mount Vernon
 
 - **Type:** City
-- **Status:** 🟢 Extended
+- **Recorded status:** 🟢 Extended
 - **Date enacted:** 2025-05-28 (original BESS moratorium, Ordinance No. 3913); continued/ratified by Ordinance No. 3915 (adopted 2025-07-23) for a maximum of one year from Ordinance 3913's adoption
 - **Normalized date:** `2025-05-28` (exact)
 - **Duration:** Maximum one year from adoption of Ordinance 3913 (2025-05-28) per Ordinance 3915; renewed for a further six months by Ordinance No. 3940, adopted 2026-05-27 following a public hearing the same day, running through approximately 2026-11-27 absent further renewal
@@ -442,7 +444,7 @@ State policy is tracked separately: **5 records** (5 typed bill rows) in [`state
 ### Mount Vernon
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-08-12, City Council vote (one dissent) for a six-month moratorium, Ordinance No. 3943
 - **Normalized date:** `2026-08-12` (exact)
 - **Duration:** Ordinance 3943 established a six-month moratorium. The September 23 minutes describe an additional six months, but the Ordinance 3946 packet text specifies a maximum of six months from adoption of Ordinance 3943; the applicable end remains unresolved.
@@ -458,7 +460,7 @@ State policy is tracked separately: **5 records** (5 typed bill rows) in [`state
 ### North Bend
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-05-19, City Council unanimous vote approving a 12-month BESS moratorium
 - **Normalized date:** `2026-05-19` (exact)
 - **Duration:** 12 months
@@ -474,7 +476,7 @@ State policy is tracked separately: **5 records** (5 typed bill rows) in [`state
 ### Pasco
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-07-20, City Council unanimously (6-0) adopted emergency Ordinance No. 4850
 - **Normalized date:** `2026-07-20` (exact)
 - **Duration:** Six-month (180-day) moratorium from adoption of emergency Ordinance No. 4850 on 2026-07-20; a required public hearing was held within 60 days, on 2026-09-08, with no formal extension vote taken
@@ -490,7 +492,7 @@ State policy is tracked separately: **5 records** (5 typed bill rows) in [`state
 ### Pierce County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-08-25, County Council passed Emergency Ordinance No. 2026-557 by a 6-1 vote (Councilmember Dave Morell dissenting)
 - **Normalized date:** `2026-08-25` (exact)
 - **Duration:** Up to one year from the date the County Executive signs it, unless extended or lifted by Council
@@ -506,7 +508,7 @@ State policy is tracked separately: **5 records** (5 typed bill rows) in [`state
 ### Port Angeles
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** September 1, 2026 (council resolution, adopted unanimously with one member excused)
 - **Normalized date:** `2026-09-01` (exact)
 - **Duration:** Six months from adoption, renewable
@@ -522,7 +524,7 @@ State policy is tracked separately: **5 records** (5 typed bill rows) in [`state
 ### Puyallup
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** June 2, 2026, City Council approved Ordinance No. 3344.
 - **Normalized date:** `2026-06-02` (exact)
 - **Duration:** One year
@@ -538,7 +540,7 @@ State policy is tracked separately: **5 records** (5 typed bill rows) in [`state
 ### Renton
 
 - **Type:** City
-- **Status:** ⚪ Expired
+- **Recorded status:** ⚪ Expired
 - **Date enacted:** April 2022
 - **Normalized date:** `2022-04` (month_only)
 - **Duration:** Six months
@@ -554,7 +556,7 @@ State policy is tracked separately: **5 records** (5 typed bill rows) in [`state
 ### Renton
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-08-17, City Council unanimous vote approving a one-year moratorium (city administration had been directed to begin drafting it by a June 1, 2026 council motion)
 - **Normalized date:** `2026-08-17` (exact)
 - **Duration:** Up to one year (365 days) from the effective date
@@ -570,7 +572,7 @@ State policy is tracked separately: **5 records** (5 typed bill rows) in [`state
 ### Skagit County
 
 - **Type:** County
-- **Status:** ⚪ Expired
+- **Recorded status:** ⚪ Expired
 - **Date enacted:** September 23, 2024
 - **Normalized date:** `2024-09-23` (exact)
 - **Duration:** Six months, extendable by the Board
@@ -586,7 +588,7 @@ State policy is tracked separately: **5 records** (5 typed bill rows) in [`state
 ### Skagit County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-06-01
 - **Normalized date:** `2026-06-01` (exact)
 - **Duration:** Six months
@@ -602,7 +604,7 @@ State policy is tracked separately: **5 records** (5 typed bill rows) in [`state
 ### Skamania County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-08-18, Board of Commissioners adopted Resolution 2026-22 (unanimous), after first approving it by motion earlier in the same meeting
 - **Normalized date:** `2026-08-18` (exact)
 - **Duration:** Six months (the default term under RCW 36.70A.390 absent a work plan for a longer period; the Board was told at adoption that the moratorium 'lasts... six months, with another hearing to continue it')
@@ -618,7 +620,7 @@ State policy is tracked separately: **5 records** (5 typed bill rows) in [`state
 ### Snohomish County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** County Council approved Emergency Ordinance 26-026 on 2026-06-24, effective immediately.
 - **Normalized date:** `2026-06-24` (exact)
 - **Duration:** Six-month interim zoning control under RCW 36.70A.390 pausing the filing, acceptance, processing, or approval of applications to establish or expand data centers (including incidental uses) or to change a use to a data center, in all zones of unincorporated Snohomish County. Requires a public hearing within 60 days and permits six-month renewals after hearing and findings.
@@ -634,7 +636,7 @@ State policy is tracked separately: **5 records** (5 typed bill rows) in [`state
 ### Snoqualmie
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-05-26, City Council unanimous vote adopting Ordinance No. 1322
 - **Normalized date:** `2026-05-26` (exact)
 - **Duration:** 12 months
@@ -650,7 +652,7 @@ State policy is tracked separately: **5 records** (5 typed bill rows) in [`state
 ### Spokane
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-06-22, City Council passed Ordinance C36887 (reported June 23)
 - **Normalized date:** `2026-06-22` (exact)
 - **Duration:** One year
@@ -666,7 +668,7 @@ State policy is tracked separately: **5 records** (5 typed bill rows) in [`state
 ### Spokane County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-08-18, Board of County Commissioners unanimously approved a four-month pause (stated to have the same legal effect as a moratorium) on data center building permits
 - **Normalized date:** `2026-08-18` (exact)
 - **Duration:** Four months
@@ -682,7 +684,7 @@ State policy is tracked separately: **5 records** (5 typed bill rows) in [`state
 ### Spokane Valley
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-02-03
 - **Normalized date:** `2026-02-03` (exact)
 - **Duration:** 365 days from February 3, 2026 unless repealed, extended or modified following later hearing/findings
@@ -698,7 +700,7 @@ State policy is tracked separately: **5 records** (5 typed bill rows) in [`state
 ### Town of Waterville
 
 - **Type:** Town
-- **Status:** ⚪ Replaced
+- **Recorded status:** ⚪ Replaced
 - **Date enacted:** 2018 (Ordinance 792) [VERIFY: exact passage date not confirmed; Waterville Municipal Code is hosted on eCode360 (WA4837) which is JS-rendered and did not yield the ordinance table on automated fetch as of 2026-04-29]
 - **Normalized date:** `2018` (unverified)
 - **Duration:** Not verified from primary text [VERIFY: Ordinance 792 PDF not located on Waterville town website as of 2026-04-29]
@@ -714,7 +716,7 @@ State policy is tracked separately: **5 records** (5 typed bill rows) in [`state
 ### Whitman County
 
 - **Type:** County
-- **Status:** ⚪ Expired
+- **Recorded status:** ⚪ Expired
 - **Date enacted:** 2025-05-05
 - **Normalized date:** `2025-05-05` (exact)
 - **Duration:** Until July 7, 2025 unless extended or terminated earlier
@@ -730,7 +732,7 @@ State policy is tracked separately: **5 records** (5 typed bill rows) in [`state
 ### Yakima County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-08-11, Board of County Commissioners unanimously adopted Resolution No. 210-2026
 - **Normalized date:** `2026-08-11` (exact)
 - **Duration:** Six months

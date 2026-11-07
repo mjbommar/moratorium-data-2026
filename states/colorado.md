@@ -3,11 +3,13 @@
 
 Working inventory for Colorado, generated **November 7, 2026**. Record-level refresh and later-action review remain incomplete.
 
-**34 instruments** — 25 in force, 3 pending, 6 past.
+**34 records** — 25 classified as active or extended, 3 classified as pending, 6 classified as past.
+
+These counts reflect inventory classifications and do not establish current enforceability.
 
 State policy is tracked separately: **4 records** (4 typed bill rows) in [`state_legislation.csv`](../data/state_legislation.csv). These are not included in the local count above.
 
-| Jurisdiction | Type | Enacted | Sectors | Status |
+| Jurisdiction | Type | Enacted | Sectors | Recorded status |
 |---|---|---|---|---|
 | Archuleta County | County | 2026-06-16 | data center | 🟢 Active |
 | Arvada | City | Unverified | data center | 🟡 Pending |
@@ -49,7 +51,7 @@ State policy is tracked separately: **4 records** (4 typed bill rows) in [`state
 ### Archuleta County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** Board of County Commissioners unanimously adopted Resolution 2026-47 on 2026-06-16.
 - **Normalized date:** `2026-06-16` (exact)
 - **Duration:** Six-month data center moratorium barring pre-submittal activity and the acceptance or processing of planning, building, engineering, and other development applications for data center facilities through December 15, 2026, unless terminated or extended.
@@ -65,7 +67,7 @@ State policy is tracked separately: **4 records** (4 typed bill rows) in [`state
 ### Arvada
 
 - **Type:** City
-- **Status:** 🟡 Pending
+- **Recorded status:** 🟡 Pending
 - **Date enacted:** —
 - **Normalized date:** `—` (unverified)
 - **Duration:** 18 months (proposed)
@@ -81,7 +83,7 @@ State policy is tracked separately: **4 records** (4 typed bill rows) in [`state
 ### Boulder County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-06-02, Commissioners adoption
 - **Normalized date:** `2026-06-02` (exact)
 - **Duration:** Six months, from June 2, 2026 through the close of business on December 2, 2026, per the county's own draft resolution attached to the June 2, 2026 Business Meeting agenda.
@@ -97,7 +99,7 @@ State policy is tracked separately: **4 records** (4 typed bill rows) in [`state
 ### Brighton
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** —
 - **Normalized date:** `—` (unverified)
 - **Duration:** One calendar year from ordinance effectiveness; conditional additional 90 days if regulatory consideration/adoption incomplete
@@ -113,7 +115,7 @@ State policy is tracked separately: **4 records** (4 typed bill rows) in [`state
 ### Broomfield
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** City Council voted 9-0 to adopt Ordinance 2313 on second and final reading, 2026-07-07.
 - **Normalized date:** `2026-07-07` (exact)
 - **Duration:** Stops acceptance, pre-submittal activity, and processing for new or expanded data center facilities and other large energy users with projected loads of at least 10 MW. The pause lasts 18 months from its effective date, or until relevant municipal definitions and standards are adopted, whichever occurs first; council retained authority to extend it. Effective seven days after publication following final passage.
@@ -129,7 +131,7 @@ State policy is tracked separately: **4 records** (4 typed bill rows) in [`state
 ### Buena Vista
 
 - **Type:** Town
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** Board of Trustees voted 6-0 to adopt Emergency Ordinance 2026-13 on 2026-06-09, following a 2026-05-20 Planning and Zoning Commission introductory discussion and 2026-05-12 Board of Trustees support for staff work.
 - **Normalized date:** `2026-06-09` (exact)
 - **Duration:** Pauses acceptance, processing, and approval of applications for principal-use data centers through December 9, 2026, unless shortened or extended. Accessory computer/server equipment serving another lawful principal use is excluded.
@@ -145,7 +147,7 @@ State policy is tracked separately: **4 records** (4 typed bill rows) in [`state
 ### Cedaredge
 
 - **Type:** Town
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** Board of Trustees adopted at its August 20, 2026 regular meeting on a 6-1 vote (Mayor Pro Tem Atkinson dissenting); the ordinance was introduced as 'Ordinance 2026-XX' and initially recorded as Ordinance 2026-06, but the Board's Record of Proceedings was formally amended on 09/17/2026 (after Board approval on 09/03/2026) to correct the ordinance numbering to Ordinance 2026-07.
 - **Normalized date:** `2026-08-20` (exact)
 - **Duration:** Emergency ordinance imposing a temporary moratorium on data center facility applications and pre-submittal activity in all zoning designations within the Town, continuing until the earliest of February 20, 2027 or adoption of permanent data-center definitions/standards into the Cedaredge Municipal Code.
@@ -161,7 +163,7 @@ State policy is tracked separately: **4 records** (4 typed bill rows) in [`state
 ### Commerce City
 
 - **Type:** City
-- **Status:** 🟡 Pending
+- **Recorded status:** 🟡 Pending
 - **Date enacted:** —
 - **Normalized date:** `—` (unverified)
 - **Duration:** Draft ordinance would impose a six-month moratorium on approving data center development plans and zoning applications, because the City's land development code does not address the 'unique characteristics of data center facilities.' Staff recommendation was to pass the six-month ban as written; if adopted, the city would not approve data center development plans until approximately March 2027, extendable by further council vote.
@@ -177,7 +179,7 @@ State policy is tracked separately: **4 records** (4 typed bill rows) in [`state
 ### Delta County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** Board of County Commissioners adopted Resolution R-18 on 2026-07-07.
 - **Normalized date:** `2026-07-07` (exact)
 - **Duration:** Temporary moratorium on data center facility applications in unincorporated Delta County, covering pre-submittal activity and planning, building, engineering, and other development applications. Scheduled to expire January 7, 2027, or when the county adopts permanent regulations, whichever occurs first.
@@ -193,7 +195,7 @@ State policy is tracked separately: **4 records** (4 typed bill rows) in [`state
 ### Denver
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-05-18 (City Council final passage of Council Bill 26-0431 at second reading/public hearing, unanimous); signed by the Mayor 2026-05-20; effective 2026-05-21
 - **Normalized date:** `2026-05-18` (exact)
 - **Duration:** One year from the effective date (2026-05-21, i.e. nominally through 2027-05-21), or upon adoption of amendments to the Denver Revised Municipal Code and a text amendment to the Denver Zoning Code addressing data centers, per Section 5 of the ordinance as filed and passed without amendment to that section: 'This moratorium shall expire the earlier of: (a) One year from the effective date of this ordinance; or (b) The effective date of any amendments to the Denver Revised Municipal Code regarding data centers and any text amendment to the Denver Zoning Code regarding data centers, whichever occurs later.' (The 'earlier of ... whichever occurs later' phrasing is the ordinance's own internal drafting inconsistency, quoted verbatim.)
@@ -209,7 +211,7 @@ State policy is tracked separately: **4 records** (4 typed bill rows) in [`state
 ### Fort Collins
 
 - **Type:** City
-- **Status:** 🟡 Pending
+- **Recorded status:** 🟡 Pending
 - **Date enacted:** —
 - **Normalized date:** `—` (unverified)
 - **Duration:** Proposed retroactive October 6, 2026 start through end of April 6, 2027; no operative interval accepted
@@ -225,7 +227,7 @@ State policy is tracked separately: **4 records** (4 typed bill rows) in [`state
 ### Fremont County (Unincorporated)
 
 - **Type:** County
-- **Status:** ⚪ Expired
+- **Recorded status:** ⚪ Expired
 - **Date enacted:** 2024-06-11 (per BESS tracker; primary resolution date not independently confirmed)
 - **Normalized date:** `2024-06-11` (unverified)
 - **Duration:** Six months (per resolution text: 'six months from the date of this Resolution')
@@ -241,7 +243,7 @@ State policy is tracked separately: **4 records** (4 typed bill rows) in [`state
 ### Grand County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2025-06-24 (moratorium took effect)
 - **Normalized date:** `2025-06-24` (exact)
 - **Duration:** Two years
@@ -257,7 +259,7 @@ State policy is tracked separately: **4 records** (4 typed bill rows) in [`state
 ### Grand County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** Board of County Commissioners approved at its June 9, 2026 meeting in Hot Sulphur Springs.
 - **Normalized date:** `2026-06-09` (exact)
 - **Duration:** Moratorium on construction of data centers under the county's state-delegated 1041 authority, deliberately aligned to expire on the same date as the county's existing two-year moratorium on commercial/utility-scale solar and wind facilities over 25 kW (adopted June 24, 2025).
@@ -273,7 +275,7 @@ State policy is tracked separately: **4 records** (4 typed bill rows) in [`state
 ### Hudson
 
 - **Type:** Town
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** Town Council unanimously approved Ordinance 26-13 on second/final reading (6-0) on 2026-07-01, following a 5-1 first reading on 2026-06-17.
 - **Normalized date:** `2026-07-01` (exact)
 - **Duration:** Temporary moratorium on new data center facility applications while the town evaluates land-use and infrastructure regulations. Precise duration, effective date, and exceptions were not located in reviewed sources.
@@ -289,7 +291,7 @@ State policy is tracked separately: **4 records** (4 typed bill rows) in [`state
 ### Jefferson County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-05-19
 - **Normalized date:** `2026-05-19` (exact)
 - **Duration:** Ten-month moratorium adopted at a May 19, 2026 public hearing on new applications for development of, or rezoning to allow, data centers in unincorporated Jefferson County; excludes land already zoned for data centers via a Planned Development at least 1,500 feet from any dwelling. Runs through approximately March 19, 2027.
@@ -305,7 +307,7 @@ State policy is tracked separately: **4 records** (4 typed bill rows) in [`state
 ### Johnstown
 
 - **Type:** Town
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** Town Council passed Ordinance 2026-295 on a 5-1 vote at its Monday, July 20, 2026 meeting (Mayor Duncan, Mayor Pro Tem Young, and Councilmembers Berg, Morris, and Menzies voting aye; Councilmember Bashford opposed; Councilmember Molinar absent).
 - **Normalized date:** `2026-07-20` (exact)
 - **Duration:** 12-month moratorium (or until Johnstown adopts data-center definitions, standards, regulations, and conditions into its Land Use Development Code, whichever is first) on accepting applications or engaging in pre-submittal activities for data-center facilities, including planning applications, building permits, and engineering permits.
@@ -321,7 +323,7 @@ State policy is tracked separately: **4 records** (4 typed bill rows) in [`state
 ### La Plata County
 
 - **Type:** County
-- **Status:** ⚪ Replaced
+- **Recorded status:** ⚪ Replaced
 - **Date enacted:** 2025-06-17 (per BESS tracker; primary resolution date not independently confirmed)
 - **Normalized date:** `2025-06-17` (unverified)
 - **Duration:** Ran until permanent BESS regulations were adopted
@@ -337,7 +339,7 @@ State policy is tracked separately: **4 records** (4 typed bill rows) in [`state
 ### Larimer County
 
 - **Type:** County
-- **Status:** 🟢 Extended
+- **Recorded status:** 🟢 Extended
 - **Date enacted:** 2026-01-27
 - **Normalized date:** `2026-01-27` (exact)
 - **Duration:** Initial 30 days from 2026-01-27 (Resolution, Reception No. 20260005307); extended six months to 2026-08-25 by a resolution signed 2026-04-07 (Reception No. 20260016505), following a 2026-02-09 public hearing; extended a second time, six more months, to 2026-02-25 (2027), by a resolution signed 2026-07-13 (Reception No. 20260034886), following a 2026-07-13 public hearing.
@@ -353,7 +355,7 @@ State policy is tracked separately: **4 records** (4 typed bill rows) in [`state
 ### Lochbuie
 
 - **Type:** Town
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** Town Board voted 6-1 on July 21, 2026 to approve an ordinance introduced by Mayor Jamie Jeffery.
 - **Normalized date:** `2026-07-21` (exact)
 - **Duration:** Five-year pause on the Town's acceptance and review of applications for new or expanded data center facilities -- reported as the longest active data-center moratorium in Colorado.
@@ -369,7 +371,7 @@ State policy is tracked separately: **4 records** (4 typed bill rows) in [`state
 ### Logan County
 
 - **Type:** County
-- **Status:** ⚪ Replaced
+- **Recorded status:** ⚪ Replaced
 - **Date enacted:** 2025-10-21
 - **Normalized date:** `2025-10-21` (exact)
 - **Duration:** 180 days as adopted; the data center, battery and solar components were rescinded effective February 17, 2026, and the wind component was rescinded effective April 7, 2026.
@@ -385,7 +387,7 @@ State policy is tracked separately: **4 records** (4 typed bill rows) in [`state
 ### Loveland
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** City Council voted 7-2 on September 15, 2026 to adopt the suspension, after amending the staff-proposed 9-month term to 12 months on a 5-4 vote (Councilor Laura Light-Kovacs' motion).
 - **Normalized date:** `2026-09-15` (exact)
 - **Duration:** 12-month suspension on the City's acceptance, processing, approval, permitting, rezoning, and site plan review of new land use applications for data centers with an electrical demand of 10 MW or more or that use industrial-scale cooling infrastructure; ends upon adoption of comprehensive Unified Development Code data-center regulations or 12 months from the effective date, whichever is first.
@@ -401,7 +403,7 @@ State policy is tracked separately: **4 records** (4 typed bill rows) in [`state
 ### Mead
 
 - **Type:** Town
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** Board of Trustees approved on a 4-2 vote (Trustees Hagan and Crane dissenting) at its August 31, 2026 meeting.
 - **Normalized date:** `2026-08-31` (exact)
 - **Duration:** 12-month moratorium preventing data centers from applying to develop in Mead; does not permanently prohibit data centers, and can end sooner than 12 months if staff has adequate information to develop regulations.
@@ -417,7 +419,7 @@ State policy is tracked separately: **4 records** (4 typed bill rows) in [`state
 ### Milliken
 
 - **Type:** Town
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** Board of Trustees introduced/discussed at its May 27, 2026 regular meeting; the Town's own Municode ordinance index records final adoption as Ordinance No. 2026-839 on 7/30/2026.
 - **Normalized date:** `2026-07-30` (exact)
 - **Duration:** One-year moratorium on accepting/processing applications for data center uses, to give town staff time to research and develop land use regulations.
@@ -433,7 +435,7 @@ State policy is tracked separately: **4 records** (4 typed bill rows) in [`state
 ### Montrose County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** Board of County Commissioners adopted Resolution Number 23-2026, effective July 1, 2026.
 - **Normalized date:** `2026-07-01` (exact)
 - **Duration:** Six-month moratorium (the statutory maximum a Colorado county may impose by resolution without a public hearing under C.R.S. 30-28-121) on acceptance/processing of data center facility applications in unincorporated Montrose County, from the effective date or until data-center standards are adopted into the Zoning Regulations, whichever is first.
@@ -449,7 +451,7 @@ State policy is tracked separately: **4 records** (4 typed bill rows) in [`state
 ### Monument
 
 - **Type:** Town
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** Town Council voted 6-0 to adopt Ordinance 18-2026 on 2026-07-20.
 - **Normalized date:** `2026-07-20` (exact)
 - **Duration:** Six-month moratorium on permit and land-development applications that include a data center as a principal or accessory use.
@@ -465,7 +467,7 @@ State policy is tracked separately: **4 records** (4 typed bill rows) in [`state
 ### Paonia
 
 - **Type:** Town
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** Town Board passed by unanimous vote at the August 11, 2026 regular board meeting; resolution drafted by Interim Town Administrator Greg Sund.
 - **Normalized date:** `2026-08-11` (exact)
 - **Duration:** One-year moratorium tied to Resolution 15-26, refusing data center applications until August 11, 2027; also directs staff to draft a data-center-specific ordinance.
@@ -481,7 +483,7 @@ State policy is tracked separately: **4 records** (4 typed bill rows) in [`state
 ### Phillips County
 
 - **Type:** County
-- **Status:** ⚪ Expired
+- **Recorded status:** ⚪ Expired
 - **Date enacted:** 2024-06-18
 - **Normalized date:** `2024-06-18` (exact)
 - **Duration:** Original three-calendar-month term to September 18, 2024 at 23:59; successive recorded extensions through August 27, 2026
@@ -497,7 +499,7 @@ State policy is tracked separately: **4 records** (4 typed bill rows) in [`state
 ### Phillips County
 
 - **Type:** County
-- **Status:** ⚪ Expired
+- **Recorded status:** ⚪ Expired
 - **Date enacted:** 2025-09-30
 - **Normalized date:** `2025-09-30` (exact)
 - **Duration:** Original six-calendar-month term through March 30, 2026; recorded signed extension through August 27, 2026
@@ -513,7 +515,7 @@ State policy is tracked separately: **4 records** (4 typed bill rows) in [`state
 ### Phillips County
 
 - **Type:** County
-- **Status:** 🟢 Extended
+- **Recorded status:** 🟢 Extended
 - **Date enacted:** 2026-02-27 (Resolution 2026-02-27-01 adopted)
 - **Normalized date:** `2026-02-27` (exact)
 - **Duration:** Six months, extended through 2026-12-31 by BOCC vote on 2026-08-20
@@ -529,7 +531,7 @@ State policy is tracked separately: **4 records** (4 typed bill rows) in [`state
 ### Saguache County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** Board of County Commissioners adopted at its meeting on Tuesday, May 5, 2026.
 - **Normalized date:** `2026-05-05` (exact)
 - **Duration:** Emergency temporary moratorium on data center project applications (acceptance, processing, or approval) for six months, to give the County time to develop and amend the Saguache County Land Use Code, Standards, and 1041 Regulations addressing data center projects.
@@ -545,7 +547,7 @@ State policy is tracked separately: **4 records** (4 typed bill rows) in [`state
 ### South Fork
 
 - **Type:** Town
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** The Town Board of the Town of South Fork introduced and passed Emergency Ordinance No. 2026-03 on June 18, 2026, per the archived legal notice published in the Valley Courier's July 1, 2026 edition. The notice's own adoption clause misstates the enacting body as 'Town of Center,' which is judged to be a drafting/scrivener error: every other part of the notice -- its heading ('TOWN OF SOUTH FORK'), all WHEREAS recitals, and the operative sections (which reference amending 'the South Fork Revised Municipal Code' and 'the South Fork Zoning Code') -- identifies the Town of South Fork, and the neighboring Town of Center's own published board-meeting calendar shows no meeting on June 18, 2026 at all.
 - **Normalized date:** `2026-06-18` (exact)
 - **Duration:** One-year pause on permit and site-development applications for new primary-use data centers while the town considers code amendments and community engagement.
@@ -561,7 +563,7 @@ State policy is tracked separately: **4 records** (4 typed bill rows) in [`state
 ### Washington County
 
 - **Type:** County
-- **Status:** ⚪ Replaced
+- **Recorded status:** ⚪ Replaced
 - **Date enacted:** 2023 (original Resolution 88-2023; repeatedly extended)
 - **Normalized date:** `2023` (year_only)
 - **Duration:** Repeatedly extended in 7-month increments
@@ -577,7 +579,7 @@ State policy is tracked separately: **4 records** (4 typed bill rows) in [`state
 ### Woodland Park
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** City Council adopted Ordinance 1525 on 2026-07-16, following a first reading on 2026-06-18.
 - **Normalized date:** `2026-07-16` (exact)
 - **Duration:** Pauses submission, acceptance, processing, review, hearings, approval, and siting of new or expanded data centers while the city develops definitions and land-use, water, and wastewater rules. City Council passed Ordinance No. 1525 (Series 2026) on second/final reading July 16, 2026 as an 18-month moratorium: The Gazette's July 17, 2026 report of that meeting states 'The 18-month moratorium halts data centers' and quotes Councilmember Seth Bryant explaining why council chose 18 rather than 12 months. The city's posted first-reading document (posted June 19, 2026, before the amendment) still shows the pre-amendment 12-month figure and blank termination-date placeholders; a signed second-reading ordinance with the filled-in date was not located, but the 18-month figure is independently corroborated by Colorado Newsline and the Denver Gazette.

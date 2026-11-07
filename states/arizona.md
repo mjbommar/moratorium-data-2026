@@ -3,11 +3,13 @@
 
 Working inventory for Arizona, generated **November 7, 2026**. Record-level refresh and later-action review remain incomplete.
 
-**1 instrument** — 1 in force, 0 pending, 0 past.
+**1 record** — 1 classified as active or extended, 0 classified as pending, 0 classified as past.
+
+These counts reflect inventory classifications and do not establish current enforceability.
 
 State policy is tracked separately: **13 records** (13 typed bill rows) in [`state_legislation.csv`](../data/state_legislation.csv). These are not included in the local count above.
 
-| Jurisdiction | Type | Enacted | Sectors | Status |
+| Jurisdiction | Type | Enacted | Sectors | Recorded status |
 |---|---|---|---|---|
 | Pima County | County | 2026-08-11 | data center | 🟢 Active |
 
@@ -16,7 +18,7 @@ State policy is tracked separately: **13 records** (13 typed bill rows) in [`sta
 ### Pima County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-08-11 (Board of Supervisors adopted an addendum-item resolution at its regular meeting, 3-2 vote)
 - **Normalized date:** `2026-08-11` (exact)
 - **Duration:** 120 days from adoption (2026-08-11 to approximately 2026-12-09), to give county staff time to finalize a zoning code text amendment establishing data-center-specific regulations; Supervisor Heinz's floor amendment provided the moratorium could return to the board for possible extension before the 120-day limit.

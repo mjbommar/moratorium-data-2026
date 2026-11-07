@@ -3,11 +3,13 @@
 
 Working inventory for Indiana, generated **November 7, 2026**. Record-level refresh and later-action review remain incomplete.
 
-**35 instruments** — 24 in force, 4 pending, 7 past.
+**35 records** — 24 classified as active or extended, 4 classified as pending, 7 classified as past.
+
+These counts reflect inventory classifications and do not establish current enforceability.
 
 State policy is tracked separately: **10 records** (10 typed bill rows) in [`state_legislation.csv`](../data/state_legislation.csv). These are not included in the local count above.
 
-| Jurisdiction | Type | Enacted | Sectors | Status |
+| Jurisdiction | Type | Enacted | Sectors | Recorded status |
 |---|---|---|---|---|
 | Boone County | County | 2024 | solar, wind, battery storage | ⚪ Replaced |
 | Boone County | County | 2026-06-15 | data center | 🟢 Active |
@@ -50,7 +52,7 @@ State policy is tracked separately: **10 records** (10 typed bill rows) in [`sta
 ### Boone County
 
 - **Type:** County
-- **Status:** ⚪ Replaced
+- **Recorded status:** ⚪ Replaced
 - **Date enacted:** Ordinance 2024-06 (adoption date within 2024; exact date not confirmed)
 - **Normalized date:** `2024` (year_only)
 - **Duration:** Until April 15, 2026 or adoption of regulating standards, whichever came first
@@ -66,7 +68,7 @@ State policy is tracked separately: **10 records** (10 typed bill rows) in [`sta
 ### Boone County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-06-15 (Board of Commissioners unanimous adoption); effective 2026-06-16
 - **Normalized date:** `2026-06-15` (exact)
 - **Duration:** One year, June 16, 2026 through June 15, 2027
@@ -82,7 +84,7 @@ State policy is tracked separately: **10 records** (10 typed bill rows) in [`sta
 ### Clark County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** Late August 2026 (Thursday meeting; article published Aug. 31, 2026)
 - **Normalized date:** `2026-08-27` (exact)
 - **Duration:** Twelve calendar months from August 27, 2026 to August 27, 2027, unless earlier terminated or superseded by a UDO amendment regulating data centers.
@@ -98,7 +100,7 @@ State policy is tracked separately: **10 records** (10 typed bill rows) in [`sta
 ### Dearborn County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-02-24
 - **Normalized date:** `2026-02-24` (exact)
 - **Duration:** Up to 1 year
@@ -114,7 +116,7 @@ State policy is tracked separately: **10 records** (10 typed bill rows) in [`sta
 ### DeKalb County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-04-13
 - **Normalized date:** `2026-04-13` (exact)
 - **Duration:** 6 months
@@ -130,7 +132,7 @@ State policy is tracked separately: **10 records** (10 typed bill rows) in [`sta
 ### Elkhart
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-08-27 (Common Council special meeting, unanimous 9-0 vote)
 - **Normalized date:** `2026-08-27` (exact)
 - **Duration:** Through December 31, 2027, or until the city adopts data center/BESS development standards
@@ -146,7 +148,7 @@ State policy is tracked separately: **10 records** (10 typed bill rows) in [`sta
 ### Fayette County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-05-05 (County Commissioners approved); stated 2026-05-18 start
 - **Normalized date:** `2026-05-05` (exact)
 - **Duration:** One year
@@ -162,7 +164,7 @@ State policy is tracked separately: **10 records** (10 typed bill rows) in [`sta
 ### Fort Wayne
 
 - **Type:** City
-- **Status:** 🟡 Pending
+- **Recorded status:** 🟡 Pending
 - **Date enacted:** —
 - **Normalized date:** `—` (unverified)
 - **Duration:** Proposed 365-day (one-year) moratorium on city approvals related to new data center development; not yet adopted
@@ -178,7 +180,7 @@ State policy is tracked separately: **10 records** (10 typed bill rows) in [`sta
 ### Franklin County
 
 - **Type:** County
-- **Status:** 🟢 Extended
+- **Recorded status:** 🟢 Extended
 - **Date enacted:** Initial 2-month moratorium ran from 2025-12-24 through noon 2026-02-24; extension approved 2026-02-24
 - **Normalized date:** `2025-12-24` (exact)
 - **Duration:** Extended 12 months, through 2027-02-24
@@ -194,7 +196,7 @@ State policy is tracked separately: **10 records** (10 typed bill rows) in [`sta
 ### Fulton County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-03-02
 - **Normalized date:** `2026-03-02` (exact)
 - **Duration:** 1 year
@@ -210,7 +212,7 @@ State policy is tracked separately: **10 records** (10 typed bill rows) in [`sta
 ### Gary
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-09-16 (Mayor's executive order)
 - **Normalized date:** `2026-09-16` (exact)
 - **Duration:** One year from the executive order
@@ -226,7 +228,7 @@ State policy is tracked separately: **10 records** (10 typed bill rows) in [`sta
 ### Grant County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-03-16 (Board of Commissioners unanimous adoption)
 - **Normalized date:** `2026-03-16` (exact)
 - **Duration:** 24 months from adoption (through approx. 2028-03-16), or until a Grant County zoning ordinance amendment addressing data centers is adopted, whichever occurs first
@@ -242,7 +244,7 @@ State policy is tracked separately: **10 records** (10 typed bill rows) in [`sta
 ### Howard County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** August 17, 2026 (Monday), 3-0
 - **Normalized date:** `2026-08-17` (exact)
 - **Duration:** One year
@@ -258,7 +260,7 @@ State policy is tracked separately: **10 records** (10 typed bill rows) in [`sta
 ### Huntington County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-02-23
 - **Normalized date:** `2026-02-23` (exact)
 - **Duration:** Indefinite; "until the HCPC has time to develop new regulations" — no fixed sunset date in the ordinance text
@@ -274,7 +276,7 @@ State policy is tracked separately: **10 records** (10 typed bill rows) in [`sta
 ### Indianapolis (Marion County)
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-08-19 (Metropolitan Development Commission final unanimous 6-0 approval); the full City-County Council had voted 23-1 to advance the measure on 2026-08-10
 - **Normalized date:** `2026-08-19` (exact)
 - **Duration:** Effective through no later than Dec. 31, 2027
@@ -290,7 +292,7 @@ State policy is tracked separately: **10 records** (10 typed bill rows) in [`sta
 ### Jeffersonville
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-08-03 (City Council adoption, all three readings suspended and passed in a single session)
 - **Normalized date:** `2026-08-03` (exact)
 - **Duration:** One year; council suspended its normal rules to complete all three ordinance readings in a single session, pushing the expiration to mid-2027
@@ -306,7 +308,7 @@ State policy is tracked separately: **10 records** (10 typed bill rows) in [`sta
 ### Madison County
 
 - **Type:** County
-- **Status:** 🟢 Extended
+- **Recorded status:** 🟢 Extended
 - **Date enacted:** 2026-06-16
 - **Normalized date:** `2026-06-16` (exact)
 - **Duration:** One year from adoption (2026-06-16), extended from the original six months by a unanimous Board of Commissioners vote on 2026-08-04
@@ -322,7 +324,7 @@ State policy is tracked separately: **10 records** (10 typed bill rows) in [`sta
 ### Marshall County
 
 - **Type:** County
-- **Status:** ⚪ Replaced
+- **Recorded status:** ⚪ Replaced
 - **Date enacted:** 2025-02-03
 - **Normalized date:** `2025-02-03` (exact)
 - **Duration:** Originally 2 years; replaced before expiration
@@ -338,7 +340,7 @@ State policy is tracked separately: **10 records** (10 typed bill rows) in [`sta
 ### Merrillville (Lake County)
 
 - **Type:** Town
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-05-26 (Town Council vote 7-0); effective 2026-06-01
 - **Normalized date:** `2026-05-26` (exact)
 - **Duration:** One year, June 1, 2026 through May 31, 2027
@@ -354,7 +356,7 @@ State policy is tracked separately: **10 records** (10 typed bill rows) in [`sta
 ### Miami County
 
 - **Type:** County
-- **Status:** ⚪ Replaced
+- **Recorded status:** ⚪ Replaced
 - **Date enacted:** 2026-05-04
 - **Normalized date:** `2026-05-04` (exact)
 - **Duration:** Indefinite; remains in force until the county amends its zoning ordinance to regulate data centers
@@ -370,7 +372,7 @@ State policy is tracked separately: **10 records** (10 typed bill rows) in [`sta
 ### New Albany (Floyd County)
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-07-16 (Common Council unanimous adoption, third reading)
 - **Normalized date:** `2026-07-16` (exact)
 - **Duration:** Up to one year, described by the city as renewable
@@ -386,7 +388,7 @@ State policy is tracked separately: **10 records** (10 typed bill rows) in [`sta
 ### Owen County
 
 - **Type:** County
-- **Status:** 🟡 Pending
+- **Recorded status:** 🟡 Pending
 - **Date enacted:** —
 - **Normalized date:** `—` (unverified)
 - **Duration:** Planning Commission recommended a one-year moratorium on data center development and zoning applications; not yet adopted by the Board of Commissioners
@@ -402,7 +404,7 @@ State policy is tracked separately: **10 records** (10 typed bill rows) in [`sta
 ### Pulaski County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-02-02 (commissioner vote reported by Pulaski County Journal; effective date unverified)
 - **Normalized date:** `2026-02-02` (exact)
 - **Duration:** 12 months
@@ -418,7 +420,7 @@ State policy is tracked separately: **10 records** (10 typed bill rows) in [`sta
 ### Putnam County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2025-11-17
 - **Normalized date:** `2025-11-17` (exact)
 - **Duration:** 1 year, until 2026-11-17
@@ -434,7 +436,7 @@ State policy is tracked separately: **10 records** (10 typed bill rows) in [`sta
 ### Shelby County
 
 - **Type:** County
-- **Status:** ⚪ Replaced
+- **Recorded status:** ⚪ Replaced
 - **Date enacted:** 2026-02-23
 - **Normalized date:** `2026-02-23` (exact)
 - **Duration:** Until the earlier of the effective date of a local ordinance governing Qualified Data Center developments or August 23, 2026
@@ -450,7 +452,7 @@ State policy is tracked separately: **10 records** (10 typed bill rows) in [`sta
 ### Starke County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2025-12-15
 - **Normalized date:** `2025-12-15` (exact)
 - **Duration:** Up to 1 year
@@ -466,7 +468,7 @@ State policy is tracked separately: **10 records** (10 typed bill rows) in [`sta
 ### Starke County
 
 - **Type:** County
-- **Status:** ⚪ Expired
+- **Recorded status:** ⚪ Expired
 - **Date enacted:** Ordinance Number 02 of 2026 and Ordinance Number 03 of 2026, adopted Feb. 17, 2026 (extensions of prior moratoriums; original enactment date not confirmed)
 - **Normalized date:** `2026-02-17` (exact)
 - **Duration:** Extended through July 25, 2026
@@ -482,7 +484,7 @@ State policy is tracked separately: **10 records** (10 typed bill rows) in [`sta
 ### Steuben County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-09-15 (Board of Commissioners, formalizing an August 2026 Plan Commission recommendation)
 - **Normalized date:** `2026-09-15` (exact)
 - **Duration:** Six months from adoption
@@ -498,7 +500,7 @@ State policy is tracked separately: **10 records** (10 typed bill rows) in [`sta
 ### Tippecanoe County
 
 - **Type:** County
-- **Status:** ⚪ Expired
+- **Recorded status:** ⚪ Expired
 - **Date enacted:** June 16, 2025 (Ord. 2025-20-CM)
 - **Normalized date:** `2025-06-16` (exact)
 - **Duration:** One year (June 16, 2025 - June 15, 2026)
@@ -514,7 +516,7 @@ State policy is tracked separately: **10 records** (10 typed bill rows) in [`sta
 ### Valparaiso (Porter County)
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-08-10 (Common Council adoption, reported as "Monday night")
 - **Normalized date:** `2026-08-10` (exact)
 - **Duration:** Automatically expires upon the effective date of Unified Development Ordinance amendments governing data centers, unless repealed or extended by the Common Council, or by July 31, 2028, whichever occurs first (reported by local media as lasting roughly two years)
@@ -530,7 +532,7 @@ State policy is tracked separately: **10 records** (10 typed bill rows) in [`sta
 ### Vermillion County
 
 - **Type:** County
-- **Status:** 🟡 Pending
+- **Recorded status:** 🟡 Pending
 - **Date enacted:** —
 - **Normalized date:** `—` (unverified)
 - **Duration:** Proposed later of September 17, 2027 or twelve calendar months from effectiveness at noon; earlier termination upon effective data-center regulations
@@ -546,7 +548,7 @@ State policy is tracked separately: **10 records** (10 typed bill rows) in [`sta
 ### Wabash County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-08-31 (Board of Commissioners unanimous 3-0 vote, described as "last Monday" in a Sept. 9, 2026 report)
 - **Normalized date:** `2026-08-31` (exact)
 - **Duration:** Until a zoning amendment regulates data centers or eighteen calendar months from adoption, whichever occurs sooner. Section 3 makes county effectiveness upon adoption and effectiveness in LaFontaine, Lagro and Roann conditional on adoption by their legislative bodies. [VERIFY: town adoptions and later actions; no guessed February 2028 endpoint.]
@@ -562,7 +564,7 @@ State policy is tracked separately: **10 records** (10 typed bill rows) in [`sta
 ### Warrick County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-08-11 (Board of Commissioners unanimous vote, special meeting at Friedman Park Events Center)
 - **Normalized date:** `2026-08-11` (exact)
 - **Duration:** 180 days from passage (through approx. 2027-02-07), or until the Board of Commissioners approves data center language for the Comprehensive Zoning Ordinance, whichever occurs first
@@ -578,7 +580,7 @@ State policy is tracked separately: **10 records** (10 typed bill rows) in [`sta
 ### White County
 
 - **Type:** County
-- **Status:** ⚪ Replaced
+- **Recorded status:** ⚪ Replaced
 - **Date enacted:** 2025-10-20
 - **Normalized date:** `2025-10-20` (exact)
 - **Duration:** 6 months, through 2026-04-20, or until comprehensive plan and zoning updates were adopted
@@ -594,7 +596,7 @@ State policy is tracked separately: **10 records** (10 typed bill rows) in [`sta
 ### Zionsville
 
 - **Type:** Town
-- **Status:** 🟡 Pending
+- **Recorded status:** 🟡 Pending
 - **Date enacted:** —
 - **Normalized date:** `—` (unverified)
 - **Duration:** Proposed one calendar year from effectiveness of zoning amendment; no operative interval accepted

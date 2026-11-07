@@ -3,11 +3,13 @@
 
 Working inventory for Oregon, generated **November 7, 2026**. Record-level refresh and later-action review remain incomplete.
 
-**5 instruments** — 4 in force, 1 pending, 0 past.
+**5 records** — 4 classified as active or extended, 1 classified as pending, 0 classified as past.
+
+These counts reflect inventory classifications and do not establish current enforceability.
 
 State policy is tracked separately: **5 records** (5 typed bill rows) in [`state_legislation.csv`](../data/state_legislation.csv). These are not included in the local count above.
 
-| Jurisdiction | Type | Enacted | Sectors | Status |
+| Jurisdiction | Type | Enacted | Sectors | Recorded status |
 |---|---|---|---|---|
 | City of Hillsboro | City | 2026-07-27 | data center, battery storage | 🟢 Active |
 | Clackamas County | County | 2026-10-22 | data center | 🟢 Active |
@@ -20,7 +22,7 @@ State policy is tracked separately: **5 records** (5 typed bill rows) in [`state
 ### City of Hillsboro
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-07-27 (City Council adopted signed Resolution No. 2932 at a special meeting, effective immediately)
 - **Normalized date:** `2026-07-27` (exact)
 - **Duration:** 120 days unless extended or repealed, with mandatory council review before expiration
@@ -36,7 +38,7 @@ State policy is tracked separately: **5 records** (5 typed bill rows) in [`state
 ### Clackamas County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-10-22 (Board adopted a resolution 5-0, effective immediately)
 - **Normalized date:** `2026-10-22` (exact)
 - **Duration:** 120 days from immediate effect upon adoption unless earlier extended or repealed.
@@ -52,7 +54,7 @@ State policy is tracked separately: **5 records** (5 typed bill rows) in [`state
 ### Crook County
 
 - **Type:** County
-- **Status:** 🟡 Pending
+- **Recorded status:** 🟡 Pending
 - **Date enacted:** —
 - **Normalized date:** `—` (unverified)
 - **Duration:** Proposed temporary moratorium on new commercial solar farm development (term not specified in captured sources). The Board of County Commissioners voted 2-1 (date not precisely established in captured sources, reported in late June 2026) to hold public meetings and prepare documents for a potential moratorium; officials said 'the ordinance could begin to take shape' by summer 2026. No report of a final adoption vote was found as of 2026-09-23.
@@ -68,7 +70,7 @@ State policy is tracked separately: **5 records** (5 typed bill rows) in [`state
 ### Salem
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-09-21 (City Council unanimous vote at a special session)
 - **Normalized date:** `2026-09-21` (exact)
 - **Duration:** 120 days from adoption (2026-09-21 to 2027-01-19); Oregon law allows extensions of up to 300 additional days with additional findings.
@@ -84,7 +86,7 @@ State policy is tracked separately: **5 records** (5 typed bill rows) in [`state
 ### Woodburn
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-09-14 (City Council unanimous 6-0 vote)
 - **Normalized date:** `2026-09-14` (exact)
 - **Duration:** 120 days from adoption (2026-09-14 to 2027-01-12); the City Manager stated the council could extend it to up to six months total.

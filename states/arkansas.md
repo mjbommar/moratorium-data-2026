@@ -3,11 +3,13 @@
 
 Working inventory for Arkansas, generated **November 7, 2026**. Record-level refresh and later-action review remain incomplete.
 
-**6 instruments** — 5 in force, 0 pending, 1 past.
+**6 records** — 5 classified as active or extended, 0 classified as pending, 1 classified as past.
+
+These counts reflect inventory classifications and do not establish current enforceability.
 
 State policy is tracked separately: **7 records** (6 typed bill rows and 1 non-bill row) in [`state_legislation.csv`](../data/state_legislation.csv). These are not included in the local count above.
 
-| Jurisdiction | Type | Enacted | Sectors | Status |
+| Jurisdiction | Type | Enacted | Sectors | Recorded status |
 |---|---|---|---|---|
 | Carroll County | County | 2026-06-16 | data center, cryptocurrency mining | 🟢 Active |
 | Harrison | City | 2023-05-30 | data center, cryptocurrency mining | 🔴 Rescinded |
@@ -21,7 +23,7 @@ State policy is tracked separately: **7 records** (6 typed bill rows and 1 non-b
 ### Carroll County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-06-16 (Carroll County Quorum Court unanimous adoption of Emergency Ordinance 2026-17)
 - **Normalized date:** `2026-06-16` (exact)
 - **Duration:** Twelve months from the effective date, unless repealed earlier by the Quorum Court.
@@ -37,7 +39,7 @@ State policy is tracked separately: **7 records** (6 typed bill rows and 1 non-b
 ### Harrison
 
 - **Type:** City
-- **Status:** 🔴 Rescinded
+- **Recorded status:** 🔴 Rescinded
 - **Date enacted:** 2023-05-30
 - **Normalized date:** `2023-05-30` (exact)
 - **Duration:** One year or until specific land-use standards were developed, whichever occurred first
@@ -53,7 +55,7 @@ State policy is tracked separately: **7 records** (6 typed bill rows and 1 non-b
 ### Independence County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-08-10 (Independence County Quorum Court unanimous adoption of Ordinance No. 2026-21 at its regular August meeting, reported the next day as a Monday-night vote)
 - **Normalized date:** `2026-08-10` (exact)
 - **Duration:** Five-year moratorium on construction of commercial data centers, effective immediately under an emergency clause; runs through Aug. 31, 2031
@@ -69,7 +71,7 @@ State policy is tracked separately: **7 records** (6 typed bill rows and 1 non-b
 ### Madison County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-08-17 (Madison County Quorum Court, 8-0 vote, regular meeting)
 - **Normalized date:** `2026-08-17` (exact)
 - **Duration:** Three-year moratorium on data centers, digital asset (cryptocurrency) mining businesses, and other large-scale computer/server operations; effective immediately under an emergency clause; runs through Aug. 31, 2029
@@ -85,7 +87,7 @@ State policy is tracked separately: **7 records** (6 typed bill rows and 1 non-b
 ### Russellville
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-07-16 (City Council amended a proposed 18-month moratorium to six months by a 6-2 vote, then adopted the amended ordinance by another 6-2 vote)
 - **Normalized date:** `2026-07-16` (exact)
 - **Duration:** Six-month moratorium as amended and adopted; originally proposed as an 18-month moratorium in a June 16, 2026 councilmember proposal
@@ -101,7 +103,7 @@ State policy is tracked separately: **7 records** (6 typed bill rows and 1 non-b
 ### Union County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-06-30 (Union County Quorum Court unanimous adoption of Ordinance 1795 at an emergency meeting); reported to run 2026-07-10 through 2027-07-09
 - **Normalized date:** `2026-06-30` (exact)
 - **Duration:** One-year moratorium, reported to run from 2026-07-10 through 2027-07-09

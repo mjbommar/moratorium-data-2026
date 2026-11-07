@@ -3,11 +3,13 @@
 
 Working inventory for Connecticut, generated **November 7, 2026**. Record-level refresh and later-action review remain incomplete.
 
-**6 instruments** — 4 in force, 1 pending, 1 past.
+**6 records** — 4 classified as active or extended, 1 classified as pending, 1 classified as past.
+
+These counts reflect inventory classifications and do not establish current enforceability.
 
 State policy is tracked separately: **7 records** (7 typed bill rows) in [`state_legislation.csv`](../data/state_legislation.csv). These are not included in the local count above.
 
-| Jurisdiction | Type | Enacted | Sectors | Status |
+| Jurisdiction | Type | Enacted | Sectors | Recorded status |
 |---|---|---|---|---|
 | Cromwell | Town | Unverified | data center | 🟡 Pending |
 | Groton | Town | 2022-06-14 | data center | ⚪ Replaced |
@@ -21,7 +23,7 @@ State policy is tracked separately: **7 records** (7 typed bill rows) in [`state
 ### Cromwell
 
 - **Type:** Town
-- **Status:** 🟡 Pending
+- **Recorded status:** 🟡 Pending
 - **Date enacted:** Not yet adopted as of 2026-09-23. Application #26-25 (a text amendment to Cromwell Zoning Regulations Section 4.2.E. to impose a 12-month moratorium on data centers) was introduced by Planning and Zoning Commission Chair Kelly; on 2026-08-18 the Commission voted 5-1 (Commissioner Michael Cannata dissenting) only to accept the application and schedule it for a public hearing at a Special Meeting on 2026-09-24 -- one day after this research date.
 - **Normalized date:** `—` (unverified)
 - **Duration:** Proposed 12 months
@@ -37,7 +39,7 @@ State policy is tracked separately: **7 records** (7 typed bill rows) in [`state
 ### Groton
 
 - **Type:** Town
-- **Status:** ⚪ Replaced
+- **Recorded status:** ⚪ Replaced
 - **Date enacted:** 2022-06-14 (Groton PZC adoption, 5-0 vote); effective 2022-07-15, per the adopted motion text in the June 14, 2022 PZC meeting minutes: "This text amendment shall become effective July 15, 2022."
 - **Normalized date:** `2022-06-14` (exact)
 - **Duration:** One year
@@ -53,7 +55,7 @@ State policy is tracked separately: **7 records** (7 typed bill rows) in [`state
 ### Morris
 
 - **Type:** Town
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** The identical moratorium text (prepared by the Town Planner and dated 2026-03-23) was re-filed by the Commission under its 'regulations' folder -- rather than the earlier 'generals'/draft-agenda-attachment folder it occupied as of the April 15, 2026 meeting -- under the title 'Public Hearing Two Year Moratorium on Battery Storage Facilities and Data Centers,' with a document date of 2026-05-20. Secondary reporting describes a public hearing held on a Tuesday and Commission approval the same week, consistent with adoption around 2026-05-19/20. Neither the exact adoption-vote date nor the Connecticut-statute-required newspaper publication date (which triggers legal effectiveness) was found in any source I could access.
 - **Normalized date:** `2026-05` (month_only)
 - **Duration:** 12 months from effective date of adoption
@@ -69,7 +71,7 @@ State policy is tracked separately: **7 records** (7 typed bill rows) in [`state
 ### New Haven
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** Board of Alders approved OR-2026-0035 on 2026-09-22; the official history records the 2026-09-08 action as noted.
 - **Normalized date:** `2026-09-22` (exact)
 - **Duration:** Twelve calendar months from the effective date unless sooner repealed or extended. Section 4 says effective upon adoption; Section 9 says upon publication and filing. The publication and filing dates were not established.
@@ -85,7 +87,7 @@ State policy is tracked separately: **7 records** (7 typed bill rows) in [`state
 ### Trumbull
 
 - **Type:** Town
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-09-09, Trumbull Town Council, unanimous voice vote at a public hearing/regular meeting
 - **Normalized date:** `2026-09-09` (exact)
 - **Duration:** 2 years, effective immediately upon adoption
@@ -101,7 +103,7 @@ State policy is tracked separately: **7 records** (7 typed bill rows) in [`state
 ### West Haven
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-06-08, per City Council meeting minutes
 - **Normalized date:** `2026-06-08` (exact)
 - **Duration:** 1 year

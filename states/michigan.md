@@ -3,11 +3,13 @@
 
 Working inventory for Michigan, generated **November 7, 2026**. Record-level refresh and later-action review remain incomplete.
 
-**148 instruments** — 133 in force, 4 pending, 11 past.
+**148 records** — 133 classified as active or extended, 4 classified as pending, 11 classified as past.
+
+These counts reflect inventory classifications and do not establish current enforceability.
 
 State policy is tracked separately: **14 records** (14 typed bill rows) in [`state_legislation.csv`](../data/state_legislation.csv). These are not included in the local count above.
 
-| Jurisdiction | Type | Enacted | Sectors | Status |
+| Jurisdiction | Type | Enacted | Sectors | Recorded status |
 |---|---|---|---|---|
 | Allen Park | City | 2026-06-09 | data center | 🟢 Active |
 | Allendale Township | Township | 2026-06-08 | data center, battery storage, solar, wind | 🟢 Active |
@@ -163,7 +165,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 ### Allen Park
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-06-09 (City Council adopted an emergency ordinance)
 - **Normalized date:** `2026-06-09` (exact)
 - **Duration:** 6 months
@@ -179,7 +181,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 ### Allendale Township
 
 - **Type:** Township
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-06-08
 - **Normalized date:** `2026-06-08` (exact)
 - **Duration:** One year, or until permanent regulations are adopted, whichever occurs first; extension permitted
@@ -195,7 +197,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 ### Ann Arbor Charter Township
 
 - **Type:** Township
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-02-16 (Board of Trustees vote at Monday-night meeting, per WEMU 2026-02-17)
 - **Normalized date:** `2026-02-16` (exact)
 - **Duration:** 12 months
@@ -211,7 +213,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 ### Armada Township
 
 - **Type:** Township
-- **Status:** 🟢 Extended
+- **Recorded status:** 🟢 Extended
 - **Date enacted:** 2026-01-14
 - **Normalized date:** `2026-01-14` (exact)
 - **Duration:** 180 days from January 14, 2026 (Resolution No. 2026-02); extended an additional 180 days from June 10, 2026 by Resolution No. 2026-10
@@ -227,7 +229,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 ### Big Rapids Charter Township
 
 - **Type:** Township
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-02-23
 - **Normalized date:** `2026-02-23` (exact)
 - **Duration:** One year, subject to extensions of six months or less by resolution, or implementation of regulations governing data centers
@@ -243,7 +245,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 ### Blendon Township (Ottawa County)
 
 - **Type:** Township
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-06-15 (Township Board approved Resolution 2026-06.1, 5-0, with the moratorium made effective June 1, 2026)
 - **Normalized date:** `2026-06-15` (exact)
 - **Duration:** One year effective June 1, 2026, with the option to extend if needed
@@ -259,7 +261,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 ### Bowne Township (Kent County)
 
 - **Type:** Township
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-03-23 (Resolution 2026-07; February 23 motion directed discussion and drafting)
 - **Normalized date:** `2026-03-23` (exact)
 - **Duration:** 12 months
@@ -275,7 +277,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 ### Brandon Township
 
 - **Type:** Township
-- **Status:** 🟢 Extended
+- **Recorded status:** 🟢 Extended
 - **Date enacted:** 2026-05-04 (Resolution #424-26, 6-0 roll call; Blair absent); extended 180 days by unanimous board vote at the regular meeting on the Monday before 2026-09-19 (about 2026-09-14)
 - **Normalized date:** `2026-05-04` (exact)
 - **Duration:** 180 days from the resolution's effective date, with one reserved 180-day extension, which was exercised in September 2026
@@ -291,7 +293,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 ### Bridgewater Township
 
 - **Type:** Township
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-03-05 (Board of Trustees; resolution tabled at February meeting and taken up as unfinished business March 5)
 - **Normalized date:** `2026-03-05` (exact)
 - **Duration:** One year from the date of the resolution
@@ -307,7 +309,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 ### Brighton Township
 
 - **Type:** Township
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-09-21 (Board of Trustees adopted moratorium ordinance at regular meeting; WHMI 2026-09-22)
 - **Normalized date:** `2026-09-21` (exact)
 - **Duration:** Six calendar months per the September 21, 2026 adoption motion; executed ordinance and precise operative anchor remain unresolved.
@@ -323,7 +325,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 ### Bruce Township (Macomb County)
 
 - **Type:** Township
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** Late December 2025 (Board of Trustees vote reported as occurring 'just days before Christmas'; The Record's article on the vote is dated 2025-12-31)
 - **Normalized date:** `2025-12` (month_only)
 - **Duration:** Six months from initial adoption (per May 27, 2026 Record reporting), with a two-month extension approved March 4, 2026, and further ordinance amendments approved in late May 2026 as the six-month period expired
@@ -339,7 +341,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 ### Caledonia Township
 
 - **Type:** Township
-- **Status:** 🟢 Extended
+- **Recorded status:** 🟢 Extended
 - **Date enacted:** 2026-02-04 (Board of Trustees approved the Resolution enacting a temporary moratorium on applications for Zoning and Building Review with respect to Data Centers and Digital Mining Uses by unanimous voice vote; applies retroactively to applications received since 2026-01-01)
 - **Normalized date:** `2026-02-04` (exact)
 - **Duration:** Extended on 2026-06-03 until 2026-10-17; a further extension resolution was approved on 2026-09-16, but its ending date is not stated in the minutes reviewed. A separate zoning moratorium ordinance remained proposed as of the notice of second reading.
@@ -355,7 +357,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 ### Cascade Charter Township (Kent County)
 
 - **Type:** Township
-- **Status:** ⚪ Expired
+- **Recorded status:** ⚪ Expired
 - **Date enacted:** 2026-03-11 (Township Board adopted Ordinance No. 002 of 2026 via Resolution 010-2026, 7-0, after introducing it 2026-02-25; notice of adoption published in the Grand Rapids Press 2026-03-17)
 - **Normalized date:** `2026-03-11` (exact)
 - **Duration:** Six months following the effective date (publication, 2026-03-17) or until data center zoning amendments take effect, whichever occurs first; extendable by resolution for up to six more months
@@ -371,7 +373,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 ### Cascade Charter Township (Kent County)
 
 - **Type:** Township
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** May 2026 (Resolution 024-2026; reviewed signed minutes footer says May 28 while the prior record says May 27; exact day unresolved)
 - **Normalized date:** `2026-05` (month_only)
 - **Duration:** Six months from the effective date (2026-05-27), unless terminated earlier; the Board may extend by resolution for up to six more months
@@ -387,7 +389,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 ### Casco Township (Allegan County)
 
 - **Type:** Township
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-04-20 (Township Board resolution adopted 5-0)
 - **Normalized date:** `2026-04-20` (exact)
 - **Duration:** 6 months (per 2026-04-20 board minutes; the end date on the posted resolution scan is handwritten and illegible)
@@ -403,7 +405,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 ### Chesaning Township
 
 - **Type:** Township
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-05-07 (adopted); published 2026-05-17; effective 2026-05-18
 - **Normalized date:** `2026-05-07` (exact)
 - **Duration:** 12 months from the effective date or until the ordinance is repealed, whichever occurs first; possible extension of up to six additional months.
@@ -419,7 +421,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 ### Chikaming Township
 
 - **Type:** Township
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-06-16 (Ordinances 167 and 168 adopted; the Board had approved a one-year moratorium unanimously on 2026-05-14)
 - **Normalized date:** `2026-06-16` (exact)
 - **Duration:** One year following adoption, or until data center ordinance/zoning amendments take effect, whichever first; extendable by resolution
@@ -435,7 +437,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 ### City of Flint
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-06-08
 - **Normalized date:** `2026-06-08` (exact)
 - **Duration:** 1 year
@@ -451,7 +453,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 ### City of Lapeer
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-04-20 (City Commission unanimous)
 - **Normalized date:** `2026-04-20` (exact)
 - **Duration:** 12 months from effective date, or upon further action; renewable
@@ -467,7 +469,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 ### Clark Township
 
 - **Type:** Township
-- **Status:** ⚪ Expired
+- **Recorded status:** ⚪ Expired
 - **Date enacted:** 2025-06-24
 - **Normalized date:** `2025-06-24` (exact)
 - **Duration:** 1 year
@@ -483,7 +485,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 ### Colfax Township (Huron County)
 
 - **Type:** Township
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-03-18 (Board of Trustees resolution)
 - **Normalized date:** `2026-03-18` (exact)
 - **Duration:** One year
@@ -499,7 +501,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 ### Comstock Charter Township
 
 - **Type:** Township
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-03-16 (Ordinance No. 565 adopted)
 - **Normalized date:** `2026-03-16` (exact)
 - **Duration:** One year following adoption, or until new data center regulations take effect; extendable by resolution
@@ -515,7 +517,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 ### Comstock Charter Township
 
 - **Type:** Township
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-03-16 (Ordinance No. 566 adopted; effective upon publication)
 - **Normalized date:** `2026-03-16` (exact)
 - **Duration:** One year following adoption, or until new solar/wind regulations take effect, whichever first
@@ -531,7 +533,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 ### Dearborn
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-09-22 (City Council unanimous final vote; first reading 2026-09-08; Planning Commission recommended approval after the 2026-08-10 hearing)
 - **Normalized date:** `2026-09-22` (exact)
 - **Duration:** 6 months; expected to take effect in October 2026 and run through the end of March 2027
@@ -547,7 +549,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 ### Dearborn Heights
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-02-24 (City Council resolution introduced by Councilman Tom Wencel, amended from 180 to 365 days)
 - **Normalized date:** `2026-02-24` (exact)
 - **Duration:** 365 days
@@ -563,7 +565,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 ### Delta County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-07-21 (unanimous Board of Commissioners vote)
 - **Normalized date:** `2026-07-21` (exact)
 - **Duration:** 12 months
@@ -579,7 +581,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 ### Detroit (requested)
 
 - **Type:** City
-- **Status:** 🟡 Pending
+- **Recorded status:** 🟡 Pending
 - **Date enacted:** Not enacted as of 2026-04-29
 - **Normalized date:** `—` (unverified)
 - **Duration:** Requested 2 years
@@ -595,7 +597,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 ### Dexter Township
 
 - **Type:** Township
-- **Status:** 🟢 Extended
+- **Recorded status:** 🟢 Extended
 - **Date enacted:** 2026-02-17 (Resolution #26-705, 7-0 roll call); extended 2026-07-21 by Resolution No. 26-711
 - **Normalized date:** `2026-02-17` (exact)
 - **Duration:** 180 days, extended once by a further 180 days (Resolution 26-711, 2026-07-21)
@@ -611,7 +613,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 ### Dorr Township
 
 - **Type:** Township
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-02-26 (Township Board adopted Ordinance 01-260 at its Thursday meeting after amending the term to 12 months)
 - **Normalized date:** `2026-02-26` (exact)
 - **Duration:** 12 months
@@ -627,7 +629,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 ### Dryden Township
 
 - **Type:** Township
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-07-14 (Township Board unanimous; effective immediately)
 - **Normalized date:** `2026-07-14` (exact)
 - **Duration:** 1 year
@@ -643,7 +645,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 ### Dundee Township
 
 - **Type:** Township
-- **Status:** ⚪ Expired
+- **Recorded status:** ⚪ Expired
 - **Date enacted:** 2025-12-09
 - **Normalized date:** `2025-12-09` (exact)
 - **Duration:** 180 days from the effective date (December 9, 2025), or until the Township Board determines by resolution that the reasons for the moratorium no longer exist; no extension was found in Board minutes through July 14, 2026
@@ -659,7 +661,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 ### Eagle Township (Clinton County)
 
 - **Type:** Township
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-02-17 (Resolution 02-17-2026-06, 5-0; effective 2026-02-18)
 - **Normalized date:** `2026-02-17` (exact)
 - **Duration:** 12 months from 2026-02-18 effective date, or until data center amendments to the Interim Zoning Ordinance take effect; may be extended up to 6 months
@@ -675,7 +677,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 ### East Lansing
 
 - **Type:** City
-- **Status:** 🟢 Extended
+- **Recorded status:** 🟢 Extended
 - **Date enacted:** 2026-03-17 (City Council unanimous vote); extended 2026-08-11 (unanimous) to 2027-03-17
 - **Normalized date:** `2026-03-17` (exact)
 - **Duration:** Six calendar months under PR2026-8, extended by six calendar months under PR2026-45; exact extension endpoint and operative interval unresolved.
@@ -691,7 +693,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 ### Ellington Township
 
 - **Type:** Township
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-07-14 (Township Board roll-call vote, unanimous)
 - **Normalized date:** `2026-07-14` (exact)
 - **Duration:** Not stated in the source reviewed
@@ -707,7 +709,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 ### Elmwood Township (Tuscola County)
 
 - **Type:** Township
-- **Status:** 🟢 Extended
+- **Recorded status:** 🟢 Extended
 - **Date enacted:** February 18, 2026: official township minutes record unanimous adoption of the original data-center moratorium ordinance after changing its proposed term from twelve to nine months; actual publication/effective date remains unresolved.
 - **Normalized date:** `2026-02-18` (exact)
 - **Duration:** Original Ordinance 2026-01 specifies nine calendar months from its effective date, or until amended/new data-center regulations take effect, whichever occurs first. June 17 minutes separately record Resolution 2026.06.17.A titled a twelve-month moratorium on data centers and cryptocurrency mining; complete resolution and original/successor relationship remain unresolved.
@@ -723,7 +725,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 ### Erie Township
 
 - **Type:** Township
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-02-10 (Ordinance No. 132 adopted 5-0; published 2026-02-16)
 - **Normalized date:** `2026-02-10` (exact)
 - **Duration:** One year from the effective date or until a data center zoning amendment takes effect
@@ -739,7 +741,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 ### Fayette Township (Hillsdale County)
 
 - **Type:** Township
-- **Status:** 🟡 Pending
+- **Recorded status:** 🟡 Pending
 - **Date enacted:** Not confirmed adopted; Planning Commission recommended in July 2026, board adoption expected August 2026
 - **Normalized date:** `—` (unverified)
 - **Duration:** One year (proposed)
@@ -755,7 +757,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 ### Fenton Township
 
 - **Type:** Township
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-02-17 (Ordinance No. 867 adopted by the Township Board, 5-0 with Trustees Kesler and Clark absent, after a 2026-02-03 first reading; published and effective 2026-02-22)
 - **Normalized date:** `2026-02-17` (exact)
 - **Duration:** Twelve calendar months; ordinance lists effectiveness February 22, 2026. Exact endpoint convention and later action unresolved.
@@ -771,7 +773,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 ### Filer Township
 
 - **Type:** Township
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-06-02 (introduced 2026-05-07, adopted by 6-0 vote 2026-06-02)
 - **Normalized date:** `2026-06-02` (exact)
 - **Duration:** Reported as one year; the official minutes confirm the vote but do not themselves restate the duration
@@ -787,7 +789,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 ### Forsyth Township
 
 - **Type:** Township
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-06-25
 - **Normalized date:** `2026-06-25` (exact)
 - **Duration:** 12 months (to late June 2027)
@@ -803,7 +805,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 ### Freedom Township
 
 - **Type:** Township
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-03-10 (Ordinance No. 56 adopted; effective 2026-03-18). MLive separately reported a yearlong moratorium enacted in mid-January 2026.
 - **Normalized date:** `2026-03-10` (exact)
 - **Duration:** 365 days after effective date or until zoning amendments are adopted
@@ -819,7 +821,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 ### Frenchtown Charter Township (Monroe County)
 
 - **Type:** Township
-- **Status:** 🟢 Extended
+- **Recorded status:** 🟢 Extended
 - **Date enacted:** 2026-04-28 (Township Board adopted Zoning Ordinance No. 300-19 on second reading, 7-0); the Board's 2026-03-10 resolution (7-0) set the hearing and made moratorium findings; Planning Commission hearing 2026-04-01
 - **Normalized date:** `2026-04-28` (exact)
 - **Duration:** Original term previously reported as six months; executed Ordinance 300-19 and its precise operative anchor remain unverified. The October 13 extension is documented separately in current_status.
@@ -835,7 +837,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 ### Garfield Charter Township (Grand Traverse County)
 
 - **Type:** Township
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-08-25 (unanimous Township Board vote; resolution effective the same day)
 - **Normalized date:** `2026-08-25` (exact)
 - **Duration:** Twelve months from the effective date of August 25, 2026, unless terminated earlier; may be extended by resolution for up to an additional six months
@@ -851,7 +853,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 ### Genoa Charter Township
 
 - **Type:** Township
-- **Status:** 🟢 Extended
+- **Recorded status:** 🟢 Extended
 - **Date enacted:** 2026-02-02 (Resolution 260202A, unanimous Board vote); extended 2026-08-17 by Resolution 260817-B (unanimous)
 - **Normalized date:** `2026-02-02` (exact)
 - **Duration:** 6 months from effective date (effective on publication), plus one-time 6-month extension adopted 2026-08-17; ends earlier if data center zoning amendment takes effect; no further extension permitted
@@ -867,7 +869,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 ### Gibraltar
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-03-09 (City Council Res. #26-072, carried unanimously; effective immediately)
 - **Normalized date:** `2026-03-09` (exact)
 - **Duration:** 12 months unless extended or terminated by council resolution
@@ -883,7 +885,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 ### Grand Blanc Township
 
 - **Type:** Township
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-01-21
 - **Normalized date:** `2026-01-21` (exact)
 - **Duration:** 1 year; may be extended, shortened, or revoked
@@ -899,7 +901,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 ### Green Charter Township
 
 - **Type:** Township
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2025-12-09
 - **Normalized date:** `2025-12-09` (exact)
 - **Duration:** 1 year, extendable
@@ -915,7 +917,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 ### Green Lake Township (Grand Traverse County)
 
 - **Type:** Township
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-05-12 (Township Board adopted a one-year police-power moratorium ordinance, 5-1; effective 2026-05-16 per the legal notice in the Record-Eagle)
 - **Normalized date:** `2026-05-12` (exact)
 - **Duration:** One year from the 2026-05-16 effective date; trustees may extend it if needed
@@ -931,7 +933,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 ### Groveland Township
 
 - **Type:** Township
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-02-09 (Board of Trustees voted 5-0)
 - **Normalized date:** `2026-02-09` (exact)
 - **Duration:** One year
@@ -947,7 +949,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 ### Gun Plain Charter Township
 
 - **Type:** Township
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-08-06 (Ordinance No. 196 adopted at regular board meeting)
 - **Normalized date:** `2026-08-06` (exact)
 - **Duration:** Until December 21, 2026, or until BESS regulations take effect; extendable by resolution
@@ -963,7 +965,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 ### Hagar Township
 
 - **Type:** Township
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** Reported 2026-07-17; this is the news report date rather than a confirmed board-meeting date, and the adopted text was not located in the township document portal
 - **Normalized date:** `2026-07-17` (range)
 - **Duration:** One year
@@ -979,7 +981,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 ### Haring Township
 
 - **Type:** Township
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-07-13 (Board of Trustees motion by Sauder, second by Whetstone, all in favor, approving a 6-month moratorium after a Planning Commission recommendation)
 - **Normalized date:** `2026-07-13` (exact)
 - **Duration:** Six months from 2026-07-13, effective immediately (to about mid-January 2027)
@@ -995,7 +997,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 ### Hart
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-05-26 (7-0 City Council vote, following a 2026-05-07 Planning Commission hearing that recommended it 7-0)
 - **Normalized date:** `2026-05-26` (exact)
 - **Duration:** Six months
@@ -1011,7 +1013,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 ### Hayes Township (Charlevoix County)
 
 - **Type:** Township
-- **Status:** 🟢 Extended
+- **Recorded status:** 🟢 Extended
 - **Date enacted:** 2026-02-09 (Resolution 2092026A declared adopted at the February 9, 2026 Board meeting, 4-0 with Kuebler absent; signed 2026-02-10)
 - **Normalized date:** `2026-02-09` (exact)
 - **Duration:** Originally 180 days (Resolution 2092026A, 2026-02-09); amended by Resolution 03092026B (2026-03-09) to 360 days from the date of the original resolution (to approximately 2027-02-04), unless terminated earlier; further 30-day extensions allowed
@@ -1027,7 +1029,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 ### Hillsdale Township (Hillsdale County)
 
 - **Type:** Township
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-06-09 (Township Board adopted Ordinance No. 2026-06-02; effective 2026-07-02)
 - **Normalized date:** `2026-06-09` (exact)
 - **Duration:** One year from the 2026-07-02 effective date, or until zoning amendments for the use take effect, whichever occurs first; extendable by board resolution
@@ -1043,7 +1045,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 ### Holly Township
 
 - **Type:** Township
-- **Status:** 🟢 Extended
+- **Recorded status:** 🟢 Extended
 - **Date enacted:** 2026-02-18 (Board of Trustees approved 7-0); extended 2026-07-15 by 5-0 resolution through 2027-02-15
 - **Normalized date:** `2026-02-18` (exact)
 - **Duration:** Original term not stated in the source reviewed; extended through 2027-02-15
@@ -1059,7 +1061,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 ### Houghton
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-07-08 (unanimous City Council vote)
 - **Normalized date:** `2026-07-08` (exact)
 - **Duration:** One year
@@ -1075,7 +1077,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 ### Howard Charter Township (Cass County)
 
 - **Type:** Township
-- **Status:** 🟡 Pending
+- **Recorded status:** 🟡 Pending
 - **Date enacted:** Not confirmed; Resolution 2026-10 (data center moratorium) on the 2026-05-19 Board agenda, non-zoning Ordinance 237 on the 2026-06-16 and 2026-08-18 agendas, and zoning moratorium Ordinance 238 on the 2026-08-18 agenda; outcomes not located
 - **Normalized date:** `—` (unverified)
 - **Duration:** Proposed one year from effective date or until new data center/BESS regulations take effect
@@ -1091,7 +1093,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 ### Howell Township
 
 - **Type:** Township
-- **Status:** 🟢 Extended
+- **Recorded status:** 🟢 Extended
 - **Date enacted:** 2025-11-20
 - **Normalized date:** `2025-11-20` (exact)
 - **Duration:** Initially six months; news reports extensions in May and October 2026, the latter for up to six months or until regulations are adopted sooner.
@@ -1107,7 +1109,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 ### Huron County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-05-27 (Board of Commissioners vote, 4-2, one abstention)
 - **Normalized date:** `2026-05-27` (exact)
 - **Duration:** Reported as up to 36 months; the county's online draft ordinance (Zoning Amendment ZA 2026-02) states six months, and the final signed/codified 36-month text was not located online
@@ -1123,7 +1125,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 ### Huron County (solar and battery storage)
 
 - **Type:** County
-- **Status:** 🟢 Extended
+- **Recorded status:** 🟢 Extended
 - **Date enacted:** May 2026 (May 12 proposed agenda; later reporting says initial approval May 13; exact day unresolved). September 22 extension reported through December 29, 2026; intervening actions not independently reverified here.
 - **Normalized date:** `2026-05` (month_only)
 - **Duration:** 3 months, extended three times; now through 2026-12-29
@@ -1139,7 +1141,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 ### Independence Township
 
 - **Type:** Township
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-07-21 (Board of Trustees unanimously approved a resolution)
 - **Normalized date:** `2026-07-21` (exact)
 - **Duration:** 6 months
@@ -1155,7 +1157,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 ### Kalamazoo
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-08-17 (City Commission resolution adopted 7-0); zoning-ordinance version had first reading 2026-09-21, second reading/public hearing set for 2026-10-05
 - **Normalized date:** `2026-08-17` (exact)
 - **Duration:** One year, through 2027-08-16, or until new ordinances are adopted; extendable
@@ -1171,7 +1173,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 ### Kalamazoo Township
 
 - **Type:** Township
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-07-27 (Ordinance No. 647 adopted by unanimous roll call; first reading 2026-07-13)
 - **Normalized date:** `2026-07-27` (exact)
 - **Duration:** 12 months from the effective date (publication), or until new data center regulations take effect; extendable
@@ -1187,7 +1189,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 ### Kalamazoo Township
 
 - **Type:** Township
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-07-27 (Ordinance No. 646 adopted by unanimous roll call; introduced as No. 645 at first reading 2026-07-13)
 - **Normalized date:** `2026-07-27` (exact)
 - **Duration:** From effective date until amended/new BESS regulations take effect (packet text states no fixed term); extendable
@@ -1203,7 +1205,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 ### Lake Township (Huron County)
 
 - **Type:** Township
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-07-16 (unanimous vote), immediate effect
 - **Normalized date:** `2026-07-16` (exact)
 - **Duration:** Six months, or until the township adopts regulations, whichever occurs first
@@ -1219,7 +1221,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 ### Lansing
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-07-13 (City Council adoption); published City Clerk summary states effective 2026-07-28.
 - **Normalized date:** `2026-07-13` (exact)
 - **Duration:** 182 days from the effective date; City Clerk summary states July 28, 2026 effectiveness. Exact endpoint convention and later actions unresolved.
@@ -1235,7 +1237,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 ### Lenox Township
 
 - **Type:** Township
-- **Status:** ⚪ Expired
+- **Recorded status:** ⚪ Expired
 - **Date enacted:** 2026-02-02
 - **Normalized date:** `2026-02-02` (exact)
 - **Duration:** 4 months (2026-02-02 to 2026-06-02); the optional additional 4-month extension was not adopted
@@ -1251,7 +1253,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 ### Leoni Township
 
 - **Type:** Township
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** March 2026 ('earlier this month' per MLive 2026-03-20)
 - **Normalized date:** `2026-03` (month_only)
 - **Duration:** 1 year
@@ -1267,7 +1269,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 ### Lima Township
 
 - **Type:** Township
-- **Status:** 🟢 Extended
+- **Recorded status:** 🟢 Extended
 - **Date enacted:** 2025-12-08 (Resolution 25-15, all ayes); extended 2026-07-13 by Resolution 2026-13
 - **Normalized date:** `2025-12-08` (exact)
 - **Duration:** 180 days or until a regulatory ordinance is enacted; extended by Resolution 2026-13 (extension length not published)
@@ -1283,7 +1285,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 ### Lima Township
 
 - **Type:** Township
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-06-12 (Resolution 2026-12 adopted unanimously at a special Township Board meeting)
 - **Normalized date:** `2026-06-12` (exact)
 - **Duration:** 12 months or until a regulatory ordinance for power generating facilities is enacted, whichever comes first
@@ -1299,7 +1301,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 ### Lincoln Township (Berrien County)
 
 - **Type:** Township
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-06-09 (all six members present voted yes)
 - **Normalized date:** `2026-06-09` (exact)
 - **Duration:** Ten months
@@ -1315,7 +1317,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 ### Locke Township
 
 - **Type:** Township
-- **Status:** ⚪ Expired
+- **Recorded status:** ⚪ Expired
 - **Date enacted:** 2023-05-09
 - **Normalized date:** `2023-05-09` (exact)
 - **Duration:** Nine calendar months from May 15, 2023 effectiveness or earlier zoning amendment; three-month extension authorized but not established
@@ -1331,7 +1333,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 ### Locke Township
 
 - **Type:** Township
-- **Status:** ⚪ Expired
+- **Recorded status:** ⚪ Expired
 - **Date enacted:** 2023-05-09
 - **Normalized date:** `2023-05-09` (exact)
 - **Duration:** Nine calendar months from May 15, 2023 effectiveness or earlier zoning amendment; three-month extension authorized but not established
@@ -1347,7 +1349,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 ### Lodi Township
 
 - **Type:** Township
-- **Status:** 🟢 Extended
+- **Recorded status:** 🟢 Extended
 - **Date enacted:** 2026-02-03
 - **Normalized date:** `2026-02-03` (exact)
 - **Duration:** 180 days under the original Ordinance No. 2026-001 (Feb. 3 - ~Aug. 2, 2026); superseded by a new 180-day term under Ordinance No. 2026-003 (Aug. 20, 2026 - ~Feb. 16, 2027).
@@ -1363,7 +1365,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 ### Lyndon Township
 
 - **Type:** Township
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-05-12 (adopted); notice published 2026-05-20; effective 2026-05-27
 - **Normalized date:** `2026-05-12` (exact)
 - **Duration:** 12 months, or until regulations are adopted, whichever occurs first
@@ -1379,7 +1381,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 ### Lyon Charter Township (Oakland County)
 
 - **Type:** Township
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-03-02 (Resolution No. 2026-07; board synopsis)
 - **Normalized date:** `2026-03-02` (exact)
 - **Duration:** Resolution 2026-07 as approved March 2 states a term through September 8, 2026; predecessor and later-action relationships unresolved.
@@ -1395,7 +1397,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 ### Lyon Township
 
 - **Type:** Township
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** May 2026
 - **Normalized date:** `2026-05` (month_only)
 - **Duration:** 180 days
@@ -1411,7 +1413,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 ### Manchester Township
 
 - **Type:** Township
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2025-10-14
 - **Normalized date:** `2025-10-14` (exact)
 - **Duration:** 2 years or until data center regulations are adopted
@@ -1427,7 +1429,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 ### Marengo Township
 
 - **Type:** Township
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-02-24 (Ordinance No. 2026-1 adopted)
 - **Normalized date:** `2026-02-24` (exact)
 - **Duration:** One calendar year, subject to future extension by resolution or implementation of data-center regulations.
@@ -1443,7 +1445,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 ### Marshall
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-08-03 (City Council resolution approved; date per the City's resolution file name and WWMT coverage)
 - **Normalized date:** `2026-08-03` (exact)
 - **Duration:** 365 days from the effective date, with 30-day extensions allowed
@@ -1459,7 +1461,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 ### Mason
 
 - **Type:** City
-- **Status:** ⚪ Replaced
+- **Recorded status:** ⚪ Replaced
 - **Date enacted:** 2026-01-05
 - **Normalized date:** `2026-01-05` (exact)
 - **Duration:** 90 days, ending 2026-03-15 or upon adoption of Ordinance 266
@@ -1475,7 +1477,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 ### Mason Township (Cass County)
 
 - **Type:** Township
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-05-02 (special meeting, 5-0 roll call); ordinance states immediate effectiveness upon publication after adoption; publication date not verified.
 - **Normalized date:** `2026-05-02` (exact)
 - **Duration:** 12 months from the effective date or until qualifying new or amended township ordinances or state regulations addressing data centers become effective, whichever occurs first; board may extend by resolution
@@ -1491,7 +1493,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 ### Melvindale
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-05-20 (City Council unanimous vote)
 - **Normalized date:** `2026-05-20` (exact)
 - **Duration:** Not stated in the source reviewed
@@ -1507,7 +1509,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 ### Meridian Township
 
 - **Type:** Township
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-05-19
 - **Normalized date:** `2026-05-19` (exact)
 - **Duration:** 6 months
@@ -1523,7 +1525,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 ### Meridian Township
 
 - **Type:** Township
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-05-19
 - **Normalized date:** `2026-05-19` (exact)
 - **Duration:** Township notice reports six-calendar-month battery-storage application moratorium; operative start/end unverified
@@ -1539,7 +1541,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 ### Monitor Charter Township
 
 - **Type:** Township
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-03-26 (Ordinance 67-U adopted on second reading, 4-2, at a special Board meeting; first readings 2026-02-09 and 2026-03-23)
 - **Normalized date:** `2026-03-26` (exact)
 - **Duration:** One year
@@ -1555,7 +1557,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 ### New Buffalo Township
 
 - **Type:** Township
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-04-09 (special board meeting; Resolution 20260409 adopted Ordinance 20260409)
 - **Normalized date:** `2026-04-09` (exact)
 - **Duration:** Term not established by the April 9 minutes; ordinance text requires verification.
@@ -1571,7 +1573,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 ### Niles Charter Township
 
 - **Type:** Township
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-06-01 (Township trustees approved a 12-month moratorium on data center permits)
 - **Normalized date:** `2026-06-01` (exact)
 - **Duration:** 12 months
@@ -1587,7 +1589,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 ### Northville
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-01-05 (City Council approval, reported January 7)
 - **Normalized date:** `2026-01-05` (exact)
 - **Duration:** 12 months
@@ -1603,7 +1605,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 ### Norvell Township
 
 - **Type:** Township
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-06-08 (Resolution 2026-06, A Moratorium on Approval of Data Centers, 4-0 roll call at regular meeting rescheduled from May 18)
 - **Normalized date:** `2026-06-08` (exact)
 - **Duration:** 12 months following effective date (publication within 7 days of adoption) or until data center zoning amendments take effect; Board may extend up to 6 months
@@ -1619,7 +1621,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 ### Oneida Charter Township
 
 - **Type:** Township
-- **Status:** 🟢 Extended
+- **Recorded status:** 🟢 Extended
 - **Date enacted:** 2026-01-13 (Ordinance No. 2026-1 adopted 7-0; effective on publication 2026-01-24); extended 2026-07-14 by Resolution No. 2026-07-14
 - **Normalized date:** `2026-01-13` (exact)
 - **Duration:** Original term six calendar months from effectiveness January 24, 2026; Resolution 2026-07-14 extends through and including January 24, 2027, unless terminated earlier under its terms.
@@ -1635,7 +1637,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 ### Orion Township
 
 - **Type:** Township
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-06-15 (7-0 vote)
 - **Normalized date:** `2026-06-15` (exact)
 - **Duration:** Six months, with the board able to extend the pause
@@ -1651,7 +1653,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 ### Oshtemo Charter Township
 
 - **Type:** Township
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2025-11-25 (Township Board, unanimous with two absent)
 - **Normalized date:** `2025-11-25` (exact)
 - **Duration:** One calendar year; adoption reported November 25, 2025. Effective-date anchor, earlier regulatory trigger, proposed extension and exact current endpoint require operative-text review.
@@ -1667,7 +1669,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 ### Oshtemo Charter Township
 
 - **Type:** Township
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-03-10 (Ordinance No. 688 adopted on second reading, unanimous per MLive)
 - **Normalized date:** `2026-03-10` (exact)
 - **Duration:** One year, until otherwise amended or repealed, pending zoning/general ordinance amendments
@@ -1683,7 +1685,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 ### Oshtemo Charter Township
 
 - **Type:** Township
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-08-11 (second reading, 7-0; first reading 2026-07-28)
 - **Normalized date:** `2026-08-11` (exact)
 - **Duration:** Six months unless amended or repealed
@@ -1699,7 +1701,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 ### Other Reported Local Moratoria
 
 - **Type:** Aggregate meta-row
-- **Status:** 🟡 Pending
+- **Recorded status:** 🟡 Pending
 - **Date enacted:** —
 - **Normalized date:** `—` (unverified)
 - **Duration:** —
@@ -1715,7 +1717,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 ### Oxford Township
 
 - **Type:** Township
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-02-11 (Township Board of Trustees approved a resolution)
 - **Normalized date:** `2026-02-11` (exact)
 - **Duration:** One year
@@ -1731,7 +1733,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 ### Park Township (St. Joseph County)
 
 - **Type:** Township
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-05-13
 - **Normalized date:** `2026-05-13` (exact)
 - **Duration:** Not reproduced in the minutes; an attorney's estimate during the meeting put the term at roughly 1 to 1.5 years, but the ordinance's operative duration text was not located
@@ -1747,7 +1749,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 ### Parma Township (Jackson County)
 
 - **Type:** Township
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-02-18, Parma Township Board adopted Data Center Moratorium No. 2026-3; notice published 2026-02-27.
 - **Normalized date:** `2026-02-18` (exact)
 - **Duration:** One year from adoption, to allow the Township to study and potentially adopt data-center regulations.
@@ -1763,7 +1765,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 ### Penn Township (Cass County)
 
 - **Type:** Township
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-05-21 (one-year general-law moratorium approved by Township Board; preceded by a 30-day moratorium approved 2026-05-11, 5-1)
 - **Normalized date:** `2026-05-21` (exact)
 - **Duration:** One year
@@ -1779,7 +1781,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 ### Pere Marquette Charter Township
 
 - **Type:** Township
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-08-11 (Township Board adopted Ordinance No. 162 on second reading after a 2026-07-14 first reading; companion zoning amendment Ordinance No. 163, effective 2026-09-06, noticed as adopted 2026-08-25)
 - **Normalized date:** `2026-08-11` (exact)
 - **Duration:** One calendar year, subject to extension by resolution or township implementation of data-center regulations; ordinance lists effectiveness August 19, 2026.
@@ -1795,7 +1797,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 ### Pine Grove Township
 
 - **Type:** Township
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-06-03
 - **Normalized date:** `2026-06-03` (exact)
 - **Duration:** Six months from the effective date, or until the township adopts a regulatory ordinance, whichever occurs first; extension permitted
@@ -1811,7 +1813,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 ### Pittsfield Township
 
 - **Type:** Township
-- **Status:** 🟢 Extended
+- **Recorded status:** 🟢 Extended
 - **Date enacted:** 2025-11-20
 - **Normalized date:** `2025-11-20` (exact)
 - **Duration:** 6 months
@@ -1827,7 +1829,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 ### Pontiac
 
 - **Type:** City
-- **Status:** 🟢 Extended
+- **Recorded status:** 🟢 Extended
 - **Date enacted:** 2026-01-21
 - **Normalized date:** `2026-01-21` (exact)
 - **Duration:** 6 months (Jan. 21 - Jul. 20, 2026), extended one additional 6-month period through Jan. 20, 2027 by Resolution No. 26-126 (adopted June 16, 2026); the resolution states no further extensions are authorized.
@@ -1843,7 +1845,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 ### Port Huron Township
 
 - **Type:** Township
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-09-21 (Township Board unanimously adopted Ordinance No. 257 on final reading; first reading 2026-08-17)
 - **Normalized date:** `2026-09-21` (exact)
 - **Duration:** 12 months after final adoption, or until data-center zoning amendments take effect, whichever is first; extendable by resolution
@@ -1859,7 +1861,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 ### Portage
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-02-24 (Ordinance O-2-2026, Code of Ordinances, second reading; effective 2026-03-18); zoning Ordinance O-3-2026 second reading 2026-03-24 (effective 2026-04-17)
 - **Normalized date:** `2026-02-24` (exact)
 - **Duration:** Until December 31, 2026, or until new regulations take effect; extendable by resolution
@@ -1875,7 +1877,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 ### Porter Township (Cass County)
 
 - **Type:** Township
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-05-12 (adopted, board vote described as unanimous); effective 2026-05-20
 - **Normalized date:** `2026-05-12` (exact)
 - **Duration:** 12 months, or until township regulation is completed, whichever occurs first; extension permitted
@@ -1891,7 +1893,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 ### Riley Township
 
 - **Type:** Township
-- **Status:** ⚪ Expired
+- **Recorded status:** ⚪ Expired
 - **Date enacted:** 2024-01-09 (Ordinance 61-2024 adopted)
 - **Normalized date:** `2024-01-09` (exact)
 - **Duration:** 18 months from the effective date
@@ -1907,7 +1909,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 ### Rochester Hills
 
 - **Type:** City
-- **Status:** 🟢 Extended
+- **Recorded status:** 🟢 Extended
 - **Date enacted:** 2026-03-09 (original Ordinance 201 per legacy record); extension Ordinance 203 finally adopted 2026-08-24, effective 2026-08-31.
 - **Normalized date:** `2026-03-09` (exact)
 - **Duration:** Original text specifies 180 calendar days, subject to earlier repeal; Ordinance 203 extends the existing moratorium an additional 180 days. Precise extension anchoring and resulting endpoint remain unresolved.
@@ -1923,7 +1925,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 ### Saginaw
 
 - **Type:** City
-- **Status:** 🟢 Extended
+- **Recorded status:** 🟢 Extended
 - **Date enacted:** 2026-01-12
 - **Normalized date:** `2026-01-12` (exact)
 - **Duration:** 6 months (from 2026-01-12, to about July 2026); extended 2026-04-27 by 6-3 council vote for an additional six months, which MLive reports pushes the moratorium to the end of December 2026
@@ -1939,7 +1941,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 ### Saline City
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-01-12
 - **Normalized date:** `2026-01-12` (exact)
 - **Duration:** 12 months
@@ -1955,7 +1957,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 ### Saline Township
 
 - **Type:** Township
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-06-10
 - **Normalized date:** `2026-06-10` (exact)
 - **Duration:** One year
@@ -1971,7 +1973,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 ### Saugatuck Township
 
 - **Type:** Township
-- **Status:** 🟢 Extended
+- **Recorded status:** 🟢 Extended
 - **Date enacted:** 2026-02-11 (Township Board adopted Ordinance No. 2026-01 by unanimous roll call: Bigford, Osman, Helmrich, Aldrich)
 - **Normalized date:** `2026-02-11` (exact)
 - **Duration:** Six months from the ordinance effective date or until a zoning amendment regulating data centers is adopted, whichever first; Resolution 2026-17 extended it through the earlier of 11:59 p.m. October 31, 2026, or the effective date of a new data-center ordinance.
@@ -1987,7 +1989,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 ### Sault Ste. Marie Tribe of Chippewa Indians
 
 - **Type:** Tribal
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-04-07
 - **Normalized date:** `2026-04-07` (exact)
 - **Duration:** Indefinite until lifted by future board resolution
@@ -2003,7 +2005,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 ### Sharon Township
 
 - **Type:** Township
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-02-05 (Resolution No. 2026-02-05-01, 5-0)
 - **Normalized date:** `2026-02-05` (exact)
 - **Duration:** Twelve calendar months, except as otherwise stated in Section 3 of Resolution 2026-02-05-01; operative endpoint and later actions unresolved.
@@ -2019,7 +2021,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 ### Sherman Township (Huron County)
 
 - **Type:** Township
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-06-09 (5-0 vote)
 - **Normalized date:** `2026-06-09` (exact)
 - **Duration:** 12 months from the effective date, or until a zoning ordinance is adopted, whichever occurs first; the board may extend up to 12 additional months
@@ -2035,7 +2037,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 ### Solon Township (Kent County)
 
 - **Type:** Township
-- **Status:** 🟢 Extended
+- **Recorded status:** 🟢 Extended
 - **Date enacted:** 2026-02-09 (unanimous Township Board vote on a six-month moratorium); extended six months by the Board on 2026-07-13; supporting zoning ordinance amendment recommended by the Planning Commission 2026-08-26 and adopted by the Board 2026-09-14
 - **Normalized date:** `2026-02-09` (exact)
 - **Duration:** Original six-calendar-month term under Resolution 26-01; Resolution 26-10 extends until February 9, 2027, while September compiled zoning text says February 10, 2027. Operative relationship and endpoint unresolved.
@@ -2051,7 +2053,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 ### South Lyon
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** February 9, 2026, South Lyon City Council, unanimous roll-call vote (motion by Councilmember Popa, seconded by Councilmember Squires); adopted a resolution imposing the moratorium.
 - **Normalized date:** `2026-02-09` (exact)
 - **Duration:** 365 days from Feb. 9, 2026 (originally proposed as 180 days; extended to 365 days by council motion during the meeting), with a clause allowing Council to extend by up to an additional 180 days if needed.
@@ -2067,7 +2069,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 ### Springfield Township
 
 - **Type:** Township
-- **Status:** 🟢 Extended
+- **Recorded status:** 🟢 Extended
 - **Date enacted:** 2025-12-11
 - **Normalized date:** `2025-12-11` (exact)
 - **Duration:** 180 days as originally adopted (Dec. 11, 2025 - ~Jun. 9, 2026); extended 30 days (to Jul. 9, 2026) by board action May 14, 2026; extended again through Dec. 10, 2026 by Resolution 2026-09, adopted Jul. 9, 2026.
@@ -2083,7 +2085,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 ### Sterling Heights
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-02-04
 - **Normalized date:** `2026-02-04` (exact)
 - **Duration:** 12 months
@@ -2099,7 +2101,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 ### Stockbridge Township (Ingham County)
 
 - **Type:** Township
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-03-16 (Township Board adopted Resolution No. 02 approving and adopting Ordinance No. 26-02)
 - **Normalized date:** `2026-03-16` (exact)
 - **Duration:** Eighteen months, or until amendments to the Township Zoning Ordinance are adopted, whichever occurs first
@@ -2115,7 +2117,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 ### Stronach Township (Manistee County)
 
 - **Type:** Township
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-06-10 (unanimous Township Board vote on a moratorium resolution; effective upon publication of legal notice)
 - **Normalized date:** `2026-06-10` (exact)
 - **Duration:** About six months; the supervisor said it expires December 31, 2026, and an extension could be adopted later
@@ -2131,7 +2133,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 ### Superior Charter Township (Washtenaw County)
 
 - **Type:** Township
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-01-20 (Resolution 2026-2, 5-0 with two absent)
 - **Normalized date:** `2026-01-20` (exact)
 - **Duration:** 12 months from effective date (immediate) or until regulatory and zoning ordinances enacted
@@ -2147,7 +2149,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 ### Sylvan Township (Washtenaw County)
 
 - **Type:** Township
-- **Status:** 🟢 Extended
+- **Recorded status:** 🟢 Extended
 - **Date enacted:** 2026-01-22 (per WKAR Public Media Michigan data center tracker, 2026-02-27)
 - **Normalized date:** `2026-01-13` (exact)
 - **Duration:** 180 days under the original Ordinance 26-01 (effective Jan. 28, 2026); superseded before expiry by a 12-month term under Resolution 26-05 (effective July 14, 2026), extendable by the Township Board in increments of up to six months.
@@ -2163,7 +2165,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 ### Taylor
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-01-20
 - **Normalized date:** `2026-01-20` (exact)
 - **Duration:** 12 months, from January 20, 2026 at 11:59 p.m. through January 20, 2027 at 11:59 p.m.
@@ -2179,7 +2181,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 ### Texas Township
 
 - **Type:** Township
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-06-22 (7-0 vote); effective 2026-07-05
 - **Normalized date:** `2026-06-22` (exact)
 - **Duration:** 12 months, or a shorter period ending when new regulations take effect, whichever occurs first; extension of up to six months permitted
@@ -2195,7 +2197,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 ### Tyrone Township (Livingston County)
 
 - **Type:** Township
-- **Status:** 🟢 Extended
+- **Recorded status:** 🟢 Extended
 - **Date enacted:** 2025-12-02
 - **Normalized date:** `2025-12-02` (exact)
 - **Duration:** 6 months, with possible 6-month extension
@@ -2211,7 +2213,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 ### Utica
 
 - **Type:** City
-- **Status:** 🟢 Extended
+- **Recorded status:** 🟢 Extended
 - **Date enacted:** About January 2026 (original moratorium 'six months ago' per C&G News); extended unanimously 2026-07-14
 - **Normalized date:** `2026-01` (month_only)
 - **Duration:** Original term about six months; the City Council approved an additional 180 days on July 14, 2026. Effective-date anchor and any later action are unresolved.
@@ -2227,7 +2229,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 ### Village of Romeo
 
 - **Type:** Village
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-01-26
 - **Normalized date:** `2026-01-26` (exact)
 - **Duration:** 12 months
@@ -2243,7 +2245,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 ### Wales Township
 
 - **Type:** Township
-- **Status:** ⚪ Expired
+- **Recorded status:** ⚪ Expired
 - **Date enacted:** —
 - **Normalized date:** `—` (unverified)
 - **Duration:** Not documented
@@ -2259,7 +2261,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 ### Warren
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-08-25 (City Council unanimous vote)
 - **Normalized date:** `2026-08-25` (exact)
 - **Duration:** 12 months
@@ -2275,7 +2277,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 ### Washington Township (Macomb County)
 
 - **Type:** Township
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-05-20
 - **Normalized date:** `2026-05-20` (exact)
 - **Duration:** Six months, or until related zoning amendments take effect, whichever occurs first
@@ -2291,7 +2293,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 ### Waterford Township
 
 - **Type:** Township
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-03-23
 - **Normalized date:** `2026-03-23` (exact)
 - **Duration:** 6 months (to 2026-10-01), extendable; a further 6-month extension (Ordinance 2026-Z-012 plus extension resolution) was introduced 2026-09-14 and scheduled for adoption 2026-09-28
@@ -2307,7 +2309,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 ### Watertown Township (Tuscola County)
 
 - **Type:** Township
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-05-18 (7-0 vote), immediate effect
 - **Normalized date:** `2026-05-18` (exact)
 - **Duration:** One year, imposed immediately upon adoption
@@ -2323,7 +2325,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 ### Webster Township
 
 - **Type:** Township
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-04-21 (Ordinance No. 26-02 adopted by Township Board; notice published 2026-04-29)
 - **Normalized date:** `2026-04-21` (exact)
 - **Duration:** 1 year
@@ -2339,7 +2341,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 ### Wheeler Township (Gratiot County)
 
 - **Type:** Township
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-07-14 (Township Board adopted a temporary data center moratorium; notice of adoption published 2026-07-30)
 - **Normalized date:** `2026-07-14` (exact)
 - **Duration:** One year
@@ -2355,7 +2357,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 ### White Lake Township
 
 - **Type:** Township
-- **Status:** 🟢 Extended
+- **Recorded status:** 🟢 Extended
 - **Date enacted:** 2026-02-17 (Resolution #26-004 approved 7-0 by voice vote at the regular Township Board meeting; effective 2026-02-18)
 - **Normalized date:** `2026-02-17` (exact)
 - **Duration:** 180 days (2026-02-18 through 2026-08-17); extended by Resolution #26-021 (2026-07-21) for a further 180 days, 2026-08-18 through 2027-02-12, with one further 180-day extension possible
@@ -2371,7 +2373,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 ### Williams Charter Township
 
 - **Type:** Township
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-05-12 (Ordinance No. 33-202 adopted 7-0 after 2026-04-14 introduction; summary published 2026-05-20)
 - **Normalized date:** `2026-05-12` (exact)
 - **Duration:** One year (zoning ordinance amendment declaring a one-year moratorium on data center review, construction and approval)
@@ -2387,7 +2389,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 ### Williamstown Township
 
 - **Type:** Township
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-02-11 (Ordinance No. 60, 6-0, one absent; published 2026-02-25)
 - **Normalized date:** `2026-02-11` (exact)
 - **Duration:** 1 year, subject to extension by resolution or earlier adoption of regulations
@@ -2403,7 +2405,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 ### Wisner Township
 
 - **Type:** Township
-- **Status:** 🟢 Extended
+- **Recorded status:** 🟢 Extended
 - **Date enacted:** 2026-02-16 (Ordinance No. 2026-1; extended 2026-08-17 according to news)
 - **Normalized date:** `2026-02-16` (exact)
 - **Duration:** 6 months, extended 2026-08-17 for an additional 6 months
@@ -2419,7 +2421,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 ### Wixom
 
 - **Type:** City
-- **Status:** ⚪ Replaced
+- **Recorded status:** ⚪ Replaced
 - **Date enacted:** 2026-03-24 (City Council adopted Resolution No. 2026-06)
 - **Normalized date:** `2026-03-24` (exact)
 - **Duration:** 6 months, or until a regulatory ordinance was enacted; terminated 2026-09-06
@@ -2435,7 +2437,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 ### York Township
 
 - **Type:** Township
-- **Status:** 🟢 Extended
+- **Recorded status:** 🟢 Extended
 - **Date enacted:** 2026-03-10 (Ordinance No. 167 adopted after February first reading)
 - **Normalized date:** `2026-03-10` (exact)
 - **Duration:** 180 days (Ordinance No. 167, effective 2026-03-18, expiring 2026-09-14); extended by Resolution #2026-19 for an additional 180 days (to approximately 2027-03-13) or until data center regulations are adopted, whichever occurs first
@@ -2451,7 +2453,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 ### Ypsilanti
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-03-03 (Resolution No. 2026-046A imposing a temporary 365-day moratorium, 5-0; same night emergency Ordinance No. 1457, 60-day zoning-permit moratorium)
 - **Normalized date:** `2026-03-03` (exact)
 - **Duration:** 365 days (resolution), backed by successive 60-day emergency ordinances (Nos. 1457, 1461, 1472)
@@ -2467,7 +2469,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 ### Ypsilanti Community Utilities Authority
 
 - **Type:** Utility-authority
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-04-22
 - **Normalized date:** `2026-04-22` (exact)
 - **Duration:** 12 months
@@ -2483,7 +2485,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 ### Ypsilanti Township
 
 - **Type:** Township
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-08-18 (Resolution 2026-21, unanimous Board of Trustees vote)
 - **Normalized date:** `2026-08-18` (exact)
 - **Duration:** 180 days following the effective date, unless terminated earlier
@@ -2499,7 +2501,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 ### Zeeland Charter Township
 
 - **Type:** Township
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-09-01 (unanimous Township Board vote on a resolution enacting temporary moratoria on energy facilities and data centers; it repealed and replaced the township's earlier data-center-only moratorium, Resolution No. 1027, adopted 2026-03-03)
 - **Normalized date:** `2026-09-01` (exact)
 - **Duration:** Initial term of 365 days following the effective date (effective on publication of the notice of adoption); counsel said it may then be extended in 60-day increments until the master plan update is complete
@@ -2515,7 +2517,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 ### Zeeland Charter Township
 
 - **Type:** Township
-- **Status:** 🔴 Rescinded
+- **Recorded status:** 🔴 Rescinded
 - **Date enacted:** 2026-03-03 (Township Board unanimously adopted Resolution No. 1027, a 12-month data center moratorium, per Zeeland Record/Legal News; resolution number from the 2026-09-01 repealing resolution)
 - **Normalized date:** `2026-03-03` (exact)
 - **Duration:** 12 months

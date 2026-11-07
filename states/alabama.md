@@ -3,11 +3,13 @@
 
 Working inventory for Alabama, generated **November 7, 2026**. Record-level refresh and later-action review remain incomplete.
 
-**21 instruments** — 19 in force, 1 pending, 1 past.
+**21 records** — 19 classified as active or extended, 1 classified as pending, 1 classified as past.
+
+These counts reflect inventory classifications and do not establish current enforceability.
 
 State policy is tracked separately: **4 records** (4 typed bill rows) in [`state_legislation.csv`](../data/state_legislation.csv). These are not included in the local count above.
 
-| Jurisdiction | Type | Enacted | Sectors | Status |
+| Jurisdiction | Type | Enacted | Sectors | Recorded status |
 |---|---|---|---|---|
 | Anniston | City | 2026-08-18 | data center | 🟢 Active |
 | Birmingham | City | 2026-03-03 | data center | ⚪ Replaced |
@@ -36,7 +38,7 @@ State policy is tracked separately: **4 records** (4 typed bill rows) in [`state
 ### Anniston
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-08-18, Anniston City Council unanimous adoption of Resolution No. 26-R-97 (added to the agenda by amendment)
 - **Normalized date:** `2026-08-18` (exact)
 - **Duration:** 12 months, effective immediately; council may shorten or extend. Planning Commission to report recommendations within six months.
@@ -52,7 +54,7 @@ State policy is tracked separately: **4 records** (4 typed bill rows) in [`state
 ### Birmingham
 
 - **Type:** City
-- **Status:** ⚪ Replaced
+- **Recorded status:** ⚪ Replaced
 - **Date enacted:** 2026-03-03
 - **Normalized date:** `2026-03-03` (exact)
 - **Duration:** A 180-day suspension was reported after the March 3, 2026 vote. The original executed ordinance, effective-date anchor and actual termination date have not been established; August 30 arithmetic from the vote date is not an accepted operative endpoint.
@@ -68,7 +70,7 @@ State policy is tracked separately: **4 records** (4 typed bill rows) in [`state
 ### Calera
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-07-06, Calera City Council motion approving a 6-month moratorium on data centers (5 ayes, 1 abstention), per minutes approved 2026-07-20
 - **Normalized date:** `2026-07-06` (exact)
 - **Duration:** Six months
@@ -84,7 +86,7 @@ State policy is tracked separately: **4 records** (4 typed bill rows) in [`state
 ### Chelsea
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-07-21, Chelsea City Council unanimous voice vote adopting Resolution 2026-07-21-1407
 - **Normalized date:** `2026-07-21` (exact)
 - **Duration:** One year
@@ -100,7 +102,7 @@ State policy is tracked separately: **4 records** (4 typed bill rows) in [`state
 ### Cullman
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-06-22 (Monday), Cullman City Council unanimous adoption of Resolution No. 2026-116
 - **Normalized date:** `2026-06-22` (exact)
 - **Duration:** 12 months
@@ -116,7 +118,7 @@ State policy is tracked separately: **4 records** (4 typed bill rows) in [`state
 ### Fairfield
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-07-27 (City adoption of Ordinance 1174)
 - **Normalized date:** `2026-07-27` (exact)
 - **Duration:** 180-day prospective moratorium beginning on the ordinance's effective date (publication/posting date not located)
@@ -132,7 +134,7 @@ State policy is tracked separately: **4 records** (4 typed bill rows) in [`state
 ### Foley
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-09-08 (Tuesday), Foley City Council approval of the ordinance on final reading
 - **Normalized date:** `2026-09-08` (exact)
 - **Duration:** Six months, in effect upon adoption
@@ -148,7 +150,7 @@ State policy is tracked separately: **4 records** (4 typed bill rows) in [`state
 ### Fort Payne
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-06-16 (City Council unanimous approval of a six-month data center moratorium)
 - **Normalized date:** `2026-06-16` (exact)
 - **Duration:** Six months while the Planning Commission drafts zoning rules
@@ -164,7 +166,7 @@ State policy is tracked separately: **4 records** (4 typed bill rows) in [`state
 ### Harpersville
 
 - **Type:** Town
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-08-03, Harpersville Town Council unanimous roll-call adoption (one member absent) of Ordinance 2026-08-03-03
 - **Normalized date:** `2026-08-03` (exact)
 - **Duration:** Six months from the effective date (effective immediately upon adoption); expires automatically unless extended
@@ -180,7 +182,7 @@ State policy is tracked separately: **4 records** (4 typed bill rows) in [`state
 ### Helena
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-06-22 (City Council gave Ordinance 1043-2026 immediate consideration and adopted it by unanimous consent, 4-0, on its first reading, per official minutes); an amended version (radius cut from 1,000 to 500 feet) had a first reading 2026-08-10 (a motion for immediate consideration failed for lack of a second) and 2026-08-24; an amendment exempting two previously initiated projects was adopted 3-1 on 2026-09-14
 - **Normalized date:** `2026-06-22` (exact)
 - **Duration:** 180 days from the effective date (upon publication); may be extended or rescinded
@@ -196,7 +198,7 @@ State policy is tracked separately: **4 records** (4 typed bill rows) in [`state
 ### Homewood
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-06-22, per WBRC reporting of the city council vote
 - **Normalized date:** `2026-06-22` (exact)
 - **Duration:** 12 months, with the possibility of an additional six-month extension
@@ -212,7 +214,7 @@ State policy is tracked separately: **4 records** (4 typed bill rows) in [`state
 ### Hueytown
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-07-14 (Hueytown City Council unanimous roll-call adoption of Resolution 7499, per the approved July 14, 2026 minutes)
 - **Normalized date:** `2026-07-14` (exact)
 - **Duration:** Not stated in the minutes; the signed Resolution 7499 text (term/expiration) was not located
@@ -228,7 +230,7 @@ State policy is tracked separately: **4 records** (4 typed bill rows) in [`state
 ### Leeds
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-06-08 (Monday night), Leeds City Council, unanimous vote.
 - **Normalized date:** `2026-06-08` (exact)
 - **Duration:** One year from adoption (to approximately 2027-06-08).
@@ -244,7 +246,7 @@ State policy is tracked separately: **4 records** (4 typed bill rows) in [`state
 ### Morgan County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-06-23 (County Commission approval of a one-year moratorium on the proposed VoltCore Bitcoin-mining data center)
 - **Normalized date:** `2026-06-23` (exact)
 - **Duration:** One year, to allow study of environmental, noise, and other community effects
@@ -260,7 +262,7 @@ State policy is tracked separately: **4 records** (4 typed bill rows) in [`state
 ### Pinson
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-08-06 (Thursday), Pinson City Council approval at its first August meeting after a 2026-07-16 first reading
 - **Normalized date:** `2026-08-06` (exact)
 - **Duration:** 12 months
@@ -276,7 +278,7 @@ State policy is tracked separately: **4 records** (4 typed bill rows) in [`state
 ### Prichard
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** Early August 2026: NBC 15 reports the council approved a six-month moratorium on Aug. 4, 2026; the AL.com map dataset lists 8/6/2026. The proposal introduced 2026-07-23 was for a renewable 480-day term, but the adopted measure is reported as 180 days.
 - **Normalized date:** `2026-08` (month_only)
 - **Duration:** 180 days (six months) as adopted, per NBC 15 and FOX10; the earlier draft proposed a renewable 480-day term
@@ -292,7 +294,7 @@ State policy is tracked separately: **4 records** (4 typed bill rows) in [`state
 ### Rogersville
 
 - **Type:** Town
-- **Status:** 🟡 Pending
+- **Recorded status:** 🟡 Pending
 - **Date enacted:** Not adopted as of 2026-09-18: first reading of a proposed six-month data-center moratorium ordinance in July 2026; a vote WHNT reported as scheduled for Aug. 10 had not happened per AL.com (2026-09-18)
 - **Normalized date:** `—` (unverified)
 - **Duration:** Proposed six months
@@ -308,7 +310,7 @@ State policy is tracked separately: **4 records** (4 typed bill rows) in [`state
 ### Somerville
 
 - **Type:** Town
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** On or about 2026-07-07, per 1819News and Yahoo/local-TV reporting of the Town Council vote
 - **Normalized date:** `2026-07` (month_only)
 - **Duration:** Reported 18-month moratorium on data centers within town limits
@@ -324,7 +326,7 @@ State policy is tracked separately: **4 records** (4 typed bill rows) in [`state
 ### Springville
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-07-06 (Monday), Springville City Council
 - **Normalized date:** `2026-07-06` (exact)
 - **Duration:** One year
@@ -340,7 +342,7 @@ State policy is tracked separately: **4 records** (4 typed bill rows) in [`state
 ### Tarrant
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-09-08 (Tuesday), Tarrant City Council approval of Ordinance No. 1177 (first reading had been scheduled for the preceding Tuesday meeting per ABC 33/40)
 - **Normalized date:** `2026-09-08` (exact)
 - **Duration:** 12 months (one year)
@@ -356,7 +358,7 @@ State policy is tracked separately: **4 records** (4 typed bill rows) in [`state
 ### Westover
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-08-18 (Tuesday), Westover City Council unanimous vote on Resolution #2026-08-18-2125 (previously tabled)
 - **Normalized date:** `2026-08-18` (exact)
 - **Duration:** Six months

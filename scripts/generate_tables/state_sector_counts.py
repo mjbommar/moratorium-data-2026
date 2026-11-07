@@ -1,10 +1,10 @@
 """Generate latex/tables/state-sector-counts.tex from the moratorium inventory.
 
-Cross-tab of states (with three or more instruments) by sector. Each row
-counts every sector mentioned in the row using the same heuristics as
-src/moratorium_maps/maps.py::map_sector_composition. The Total column
-counts unique instruments (so multi-sector rows aren't double-counted in
-the row total).
+Cross-tab of states (with three or more records) by sector. The input is
+data/moratorium_inventory.csv filtered by cleaned_inventory to governmental
+rows. Each retained record contributes to each sector it covers, using the
+same heuristics as src/moratorium_maps/maps.py::map_sector_composition.
+The Total column counts each retained record once.
 """
 
 from __future__ import annotations
@@ -86,12 +86,12 @@ State & Data Ctr. & Crypto & BESS & Solar & Wind & Other & Total \\\\
 \\bottomrule
 \\end{{tabular}}
 \\begin{{flushleft}}
-\\small\\textit{{Note:}} Sector columns reflect the number of instruments mentioning each sector
+\\small\\textit{{Note:}} Sector columns count inventory records mentioning each sector
 in the cleaned inventory (\\Cref{{app:inventory}}, $n = {len(rows)}$).
-Individual instruments may cover multiple sectors, so row totals reflect
-instrument counts rather than the sum of sector columns.
+A record may contribute to each sector it covers; state totals count each
+record once rather than summing sector columns.
 ``Other'' includes general industrial moratoria.
-The remaining {remaining_states} states ({remaining_count} instruments) each contribute one or two entries.
+The remaining {remaining_states} states ({remaining_count} records) each contribute one or two entries.
 \\end{{flushleft}}
 \\end{{table}}
 """

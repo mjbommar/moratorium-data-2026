@@ -3,11 +3,13 @@
 
 Working inventory for New Mexico, generated **November 7, 2026**. Record-level refresh and later-action review remain incomplete.
 
-**7 instruments** — 5 in force, 1 pending, 1 past.
+**7 records** — 5 classified as active or extended, 1 classified as pending, 1 classified as past.
+
+These counts reflect inventory classifications and do not establish current enforceability.
 
 State policy is tracked separately: **3 records** (3 typed bill rows) in [`state_legislation.csv`](../data/state_legislation.csv). These are not included in the local count above.
 
-| Jurisdiction | Type | Enacted | Sectors | Status |
+| Jurisdiction | Type | Enacted | Sectors | Recorded status |
 |---|---|---|---|---|
 | Colfax County | County | 2026-08-25 | data center | 🟢 Active |
 | Grant County | County | 2026-10-22 | data center | 🟡 Pending |
@@ -22,7 +24,7 @@ State policy is tracked separately: **3 records** (3 typed bill rows) in [`state
 ### Colfax County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** Reported adopted 'late last month' (late August 2026) per CPR.org's September 3, 2026 article; a public hearing on the proposed ordinance was held August 11, 2026 and the county's own public notice states the Board of Commissioners could consider adoption at its August 25, 2026 meeting.
 - **Normalized date:** `2026-08-25` (unverified)
 - **Duration:** One year from adoption (to approximately 2027-08-25).
@@ -38,7 +40,7 @@ State policy is tracked separately: **3 records** (3 typed bill rows) in [`state
 ### Grant County
 
 - **Type:** County
-- **Status:** 🟡 Pending
+- **Recorded status:** 🟡 Pending
 - **Date enacted:** 2026-10-22, Board of County Commissioners, 4-1 per contemporaneous reporting.
 - **Normalized date:** `2026-10-22` (exact)
 - **Duration:** One year; reported effective November 21, 2026.
@@ -54,7 +56,7 @@ State policy is tracked separately: **3 records** (3 typed bill rows) in [`state
 ### Rio Communities
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-08-26 (City Council, 4-0)
 - **Normalized date:** `2026-08-26` (exact)
 - **Duration:** 365-day moratorium
@@ -70,7 +72,7 @@ State policy is tracked separately: **3 records** (3 typed bill rows) in [`state
 ### Santa Fe County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-06-30, Board of County Commissioners, 5-0 vote
 - **Normalized date:** `2026-06-30` (exact)
 - **Duration:** 18 months, immediate; amended during the meeting from an original 12-month proposal
@@ -86,7 +88,7 @@ State policy is tracked separately: **3 records** (3 typed bill rows) in [`state
 ### Sierra County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** Reportedly 2026-07-21, Board of County Commissioners, unanimous vote amending agenda item Resolution 2026-51 during the meeting
 - **Normalized date:** `2026-07-21` (exact)
 - **Duration:** 18 months from adoption (2026-07-21), to approximately 2028-01-21, confirmed by Resolution No. 2026-51 as named in KRQE and gpkmedia.com/Sierra County Sentinel reporting and listed on the Sierra County Clerk's resolutions index.
@@ -102,7 +104,7 @@ State policy is tracked separately: **3 records** (3 typed bill rows) in [`state
 ### Silver City
 
 - **Type:** Town
-- **Status:** 🔴 Rescinded
+- **Recorded status:** 🔴 Rescinded
 - **Date enacted:** 2021-08-24
 - **Normalized date:** `2021-08-24` (exact)
 - **Duration:** Until town possesses NMPRC community-solar rules and establishes conforming local policies/procedures; expressly repealed March 10, 2026
@@ -118,7 +120,7 @@ State policy is tracked separately: **3 records** (3 typed bill rows) in [`state
 ### Socorro County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-06-09, unanimous vote of the Socorro County Board of Commissioners.
 - **Normalized date:** `2026-06-09` (exact)
 - **Duration:** One year from adoption (to approximately 2027-06-09).

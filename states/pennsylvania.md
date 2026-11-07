@@ -3,11 +3,13 @@
 
 Working inventory for Pennsylvania, generated **November 7, 2026**. Record-level refresh and later-action review remain incomplete.
 
-**26 instruments** — 23 in force, 0 pending, 3 past.
+**26 records** — 23 classified as active or extended, 0 classified as pending, 3 classified as past.
+
+These counts reflect inventory classifications and do not establish current enforceability.
 
 State policy is tracked separately: **22 records** (18 typed bill rows and 4 non-bill rows) in [`state_legislation.csv`](../data/state_legislation.csv). These are not included in the local count above.
 
-| Jurisdiction | Type | Enacted | Sectors | Status |
+| Jurisdiction | Type | Enacted | Sectors | Recorded status |
 |---|---|---|---|---|
 | Adams Township (Butler County) | Township | 2026-07-13 | data center, solar, general | 🟢 Active |
 | Bensalem Township | Township | 2026-06-08 | data center, solar, wind | 🟢 Active |
@@ -41,7 +43,7 @@ State policy is tracked separately: **22 records** (18 typed bill rows and 4 non
 ### Adams Township (Butler County)
 
 - **Type:** Township
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-07-13, Adams Township Board of Supervisors, unanimous resolution formalizing a June 22, 2026 motion to establish the moratorium (Butler County)
 - **Normalized date:** `2026-07-13` (exact)
 - **Duration:** 180 days from the July 13, 2026 resolution (following the June 22, 2026 motion) to draft a curative amendment addressing six business types not covered by current zoning: data centers, power generation plants, large-scale and accessory solar power systems, last-mile fulfillment centers, micro-warehouses, and dispensaries.
@@ -57,7 +59,7 @@ State policy is tracked separately: **22 records** (18 typed bill rows and 4 non
 ### Bensalem Township
 
 - **Type:** Township
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** Township Council adopted a curative-amendment resolution by a 5-0 vote on 2026-06-08.
 - **Normalized date:** `2026-06-08` (exact)
 - **Duration:** 180-day municipal curative-amendment period after declaring portions of the zoning ordinance substantively invalid as to data centers, solar energy, and wind energy. Official minutes describe the protected period as a 180-day moratorium.
@@ -73,7 +75,7 @@ State policy is tracked separately: **22 records** (18 typed bill rows and 4 non
 ### Brookville Borough
 
 - **Type:** Other
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** Borough Council reportedly voted unanimously on 2026-06-16 for a 180-day moratorium.
 - **Normalized date:** `2026-06-16` (unverified)
 - **Duration:** 180-day moratorium on data center development; also bars data centers from using borough water during the pause.
@@ -89,7 +91,7 @@ State policy is tracked separately: **22 records** (18 typed bill rows and 4 non
 ### Buffalo Township (Butler County)
 
 - **Type:** Township
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-08-12, Buffalo Township Board of Supervisors, regular meeting vote creating a municipal curative amendment (Butler County)
 - **Normalized date:** `2026-08-12` (exact)
 - **Duration:** 180 days from adoption to draft and adopt zoning standards for data centers; effectively bars new data-center project proposals during that window by preempting a landowner-initiated curative amendment.
@@ -105,7 +107,7 @@ State policy is tracked separately: **22 records** (18 typed bill rows and 4 non
 ### Butler Township (Luzerne County)
 
 - **Type:** Township
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** Board of Supervisors adopted Resolution No. 05122026 on 2026-05-12.
 - **Normalized date:** `2026-05-12` (exact)
 - **Duration:** Declares the township zoning ordinance substantively invalid for not defining or regulating data centers, triggering a 180-day municipal curative-amendment period during which new data center applications are paused from vesting under the prior ordinance.
@@ -121,7 +123,7 @@ State policy is tracked separately: **22 records** (18 typed bill rows and 4 non
 ### Center Township (Butler County)
 
 - **Type:** Township
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** On 2026-06-10, the Board of Supervisors carried a motion declaring the zoning ordinance substantively invalid as to data centers and power generation plant/systems and directing preparation of a resolution for July 8; the July 8 minutes record approval of a data-center curative amendment resolution.
 - **Normalized date:** `2026-06-10` (unverified)
 - **Duration:** 180-day pause halting data center and power-generation-plant-system development while the township prepares zoning standards.
@@ -137,7 +139,7 @@ State policy is tracked separately: **22 records** (18 typed bill rows and 4 non
 ### Clinton Township (Wayne County)
 
 - **Type:** Township
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** Board of Supervisors instituted a six-month moratorium in April 2026; the River Reporter dates it to the April 8 meeting in one story and to April 30 in another (April 30 is also the date the Linde Corporation application was received). Recorded as 2026-04-30 pending minutes. [VERIFY exact April meeting date]
 - **Normalized date:** `2026-04-30` (range)
 - **Duration:** A six-month moratorium on data center development was reported in April 2026; the exact adoption date and legal effect remain disputed. Six calendar months are not assumed to equal 180 days.
@@ -153,7 +155,7 @@ State policy is tracked separately: **22 records** (18 typed bill rows and 4 non
 ### Conewago Township (York County)
 
 - **Type:** Township
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-07-07, Conewago Township Board of Supervisors, unanimous vote adopting Resolution 2026-13 (York County)
 - **Normalized date:** `2026-07-07` (exact)
 - **Duration:** 180-day moratorium on all data center applications, per the township's own presentation materials.
@@ -169,7 +171,7 @@ State policy is tracked separately: **22 records** (18 typed bill rows and 4 non
 ### Dorrance Township
 
 - **Type:** Township
-- **Status:** ⚪ Replaced
+- **Recorded status:** ⚪ Replaced
 - **Date enacted:** 2025-08-11, Dorrance Township Board of Supervisors, unanimous vote (Luzerne County)
 - **Normalized date:** `2025-08-11` (exact)
 - **Duration:** Up to 180 days from Aug. 11, 2025 to amend the zoning ordinance; the process concluded early when the township adopted a permanent zoning amendment on 2025-09-22 (about six weeks later).
@@ -185,7 +187,7 @@ State policy is tracked separately: **22 records** (18 typed bill rows and 4 non
 ### Doylestown Township
 
 - **Type:** Township
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-06-16, Doylestown Township Board of Supervisors vote (Bucks County)
 - **Normalized date:** `2026-06-16` (exact)
 - **Duration:** 180 days (six months) from June 16, 2026 to adopt new data-center zoning rules; during that time no data-center application may be submitted or reviewed in the township.
@@ -201,7 +203,7 @@ State policy is tracked separately: **22 records** (18 typed bill rows and 4 non
 ### East Whiteland Township
 
 - **Type:** Township
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-03, East Whiteland Township Board of Supervisors vote to initiate a municipal curative amendment (Chester County); exact day not confirmed in sources reviewed
 - **Normalized date:** `2026-03` (month_only)
 - **Duration:** 180 days from the March 2026 vote to draft and adopt a data-center zoning ordinance ('Data Center Ordinance'); a public hearing to consider its adoption was set for Sept. 24, 2026.
@@ -217,7 +219,7 @@ State policy is tracked separately: **22 records** (18 typed bill rows and 4 non
 ### Falls Township (Bucks County)
 
 - **Type:** Township
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-07-27, Falls Township Board of Supervisors vote (Bucks County)
 - **Normalized date:** `2026-07-27` (exact)
 - **Duration:** 180 days from July 27, 2026 for the township to review and potentially amend Chapter 209 of its zoning ordinance regarding data centers.
@@ -233,7 +235,7 @@ State policy is tracked separately: **22 records** (18 typed bill rows and 4 non
 ### Gregg Township (Union County)
 
 - **Type:** Township
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-08-20, Gregg Township Board of Supervisors, special meeting, unanimous adoption of Resolution 2026-03
 - **Normalized date:** `2026-08-20` (exact)
 - **Duration:** Not to exceed 180 days, or until earlier terminated by the Board of Supervisors; bars new data center or 'technical development' applications while a curative amendment to the zoning ordinance is completed. Excludes the pending PNK Group application, which continues to be processed separately.
@@ -249,7 +251,7 @@ State policy is tracked separately: **22 records** (18 typed bill rows and 4 non
 ### Hazle Township
 
 - **Type:** Township
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-06-08, Hazle Township (Luzerne County) Board of Supervisors, unanimous vote adopting a curative amendment.
 - **Normalized date:** `2026-06-08` (exact)
 - **Duration:** 180 days from adoption (to approximately 2026-12-05).
@@ -265,7 +267,7 @@ State policy is tracked separately: **22 records** (18 typed bill rows and 4 non
 ### Little Britain Township
 
 - **Type:** Township
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-07-14, Little Britain Township Board of Supervisors, unanimous vote adopting the formal moratorium resolution (Lancaster County); preceded by a June 9, 2026 preliminary vote to move forward with the same moratorium concept.
 - **Normalized date:** `2026-07-14` (exact)
 - **Duration:** 180 days from the July 14, 2026 resolution, preventing submission of any applications for data centers, their ancillary structures, or energy generation, while the township develops a zoning ordinance.
@@ -281,7 +283,7 @@ State policy is tracked separately: **22 records** (18 typed bill rows and 4 non
 ### Lycoming County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** County commissioners reportedly approved a curative-amendment resolution on 2026-06-18.
 - **Normalized date:** `2026-06-18` (exact)
 - **Duration:** 180-day municipal curative-amendment period after declaring the county zoning ordinance substantially invalid for lacking appropriate regulation of data centers and related uses; affects municipalities participating in the county zoning partnership.
@@ -297,7 +299,7 @@ State policy is tracked separately: **22 records** (18 typed bill rows and 4 non
 ### Montour County
 
 - **Type:** County
-- **Status:** ⚪ Replaced
+- **Recorded status:** ⚪ Replaced
 - **Date enacted:** 2025-11-18
 - **Normalized date:** `2025-11-18` (exact)
 - **Duration:** 180 days, expiring about 2026-05-17 unless extended or superseded
@@ -313,7 +315,7 @@ State policy is tracked separately: **22 records** (18 typed bill rows and 4 non
 ### Morrisville Borough
 
 - **Type:** Other
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-07-21, Morrisville Borough Council, vote to adopt the curative amendment (Bucks County)
 - **Normalized date:** `2026-07-21` (exact)
 - **Duration:** 180-day waiting period from July 21, 2026 to review land-use impacts and adopt updated data-center zoning regulations.
@@ -329,7 +331,7 @@ State policy is tracked separately: **22 records** (18 typed bill rows and 4 non
 ### Mount Carmel Township
 
 - **Type:** Township
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-05-18, Mount Carmel Township Board of Supervisors, unanimous vote (Northumberland County)
 - **Normalized date:** `2026-05-18` (exact)
 - **Duration:** 180 days from May 18, 2026 to complete a municipal curative amendment ('Zoning Amendment') addressing data centers.
@@ -345,7 +347,7 @@ State policy is tracked separately: **22 records** (18 typed bill rows and 4 non
 ### Muncy Township
 
 - **Type:** Township
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** Board of Supervisors approved a temporary moratorium at an April 28, 2026 special meeting; reported by the Sun-Gazette on 2026-05-01.
 - **Normalized date:** `2026-04-28` (exact)
 - **Duration:** Posted Resolution 2026-02 text states nine months from adoption or earlier zoning adoption; final enacted term, operative interval and November 4 hearing outcome unresolved.
@@ -361,7 +363,7 @@ State policy is tracked separately: **22 records** (18 typed bill rows and 4 non
 ### Smithfield Township (Monroe County)
 
 - **Type:** Township
-- **Status:** ⚪ Replaced
+- **Recorded status:** ⚪ Replaced
 - **Date enacted:** 2026-05-06, Smithfield Township Board of Supervisors, adoption of Resolution No. 621 (Monroe County)
 - **Normalized date:** `2026-05-06` (exact)
 - **Duration:** Up to 180 days from May 6, 2026 (statutory ceiling Nov. 2, 2026) to adopt curative zoning amendments for data centers, data center accessory uses, and disaster recovery facilities; the process concluded early when the Board adopted the resulting curative amendment on 2026-08-12.
@@ -377,7 +379,7 @@ State policy is tracked separately: **22 records** (18 typed bill rows and 4 non
 ### Upper Burrell Township
 
 - **Type:** Township
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-05, Upper Burrell Township Board of Supervisors (Westmoreland County); exact day not confirmed in sources reviewed
 - **Normalized date:** `2026-05` (month_only)
 - **Duration:** 180 days; does not apply to building permits already granted to TECfusions for work on its existing 'Building J' (already operational), and did not prevent the township from later approving a land development plan (Aug. 5, 2026) for further electrical/mechanical upgrades to that building. Ends 2026-11-02.
@@ -393,7 +395,7 @@ State policy is tracked separately: **22 records** (18 typed bill rows and 4 non
 ### Warrington Township (York County)
 
 - **Type:** Township
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** Board of Supervisors adopted Resolution 2026-09 on 2026-05-13, formally ratifying an administrative pause the township says began with a March 11, 2026 motion.
 - **Normalized date:** `2026-05-13` (range)
 - **Duration:** Pause on applications for data center-related uses while the township prepares tailored zoning standards and pursues a municipal curative amendment. No explicit day count for the pause was located.
@@ -409,7 +411,7 @@ State policy is tracked separately: **22 records** (18 typed bill rows and 4 non
 ### West Mahanoy Township
 
 - **Type:** Township
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-09-15, West Mahanoy Township Board of Supervisors, unanimous vote (Schuylkill County)
 - **Normalized date:** `2026-09-15` (exact)
 - **Duration:** 180 days. Per the adopted resolution's text, the township 'shall not be required to entertain or consider any landowner's curative amendment or proposals for a data center use or solar farm' during that period.
@@ -425,7 +427,7 @@ State policy is tracked separately: **22 records** (18 typed bill rows and 4 non
 ### West Whiteland Township
 
 - **Type:** Township
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-05, West Whiteland Township Board of Supervisors vote to invoke a municipal curative amendment (Chester County); exact day not confirmed, reported to the Planning Commission as already invoked on 2026-05-05
 - **Normalized date:** `2026-05` (month_only)
 - **Duration:** 180 days from adoption to adopt corrective zoning amendments addressing data centers.
@@ -441,7 +443,7 @@ State policy is tracked separately: **22 records** (18 typed bill rows and 4 non
 ### Williamsport
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-06-25, Williamsport City Council adopted Resolution #10088 (Lycoming County); vote count not verified.
 - **Normalized date:** `2026-06-25` (exact)
 - **Duration:** 180 days from adoption to enact a curative amendment under 53 P.S. Section 10609.2, with a follow-up resolution required within 30 days making specific findings of invalidity. Councilman Milliken characterized it as effectively 'hitting pause' on data-center development even though the resolution does not describe itself as a 'pause.'

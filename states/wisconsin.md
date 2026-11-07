@@ -3,11 +3,13 @@
 
 Working inventory for Wisconsin, generated **November 7, 2026**. Record-level refresh and later-action review remain incomplete.
 
-**41 instruments** — 40 in force, 1 pending, 0 past.
+**41 records** — 40 classified as active or extended, 1 classified as pending, 0 classified as past.
+
+These counts reflect inventory classifications and do not establish current enforceability.
 
 State policy is tracked separately: **7 records** (7 typed bill rows) in [`state_legislation.csv`](../data/state_legislation.csv). These are not included in the local count above.
 
-| Jurisdiction | Type | Enacted | Sectors | Status |
+| Jurisdiction | Type | Enacted | Sectors | Recorded status |
 |---|---|---|---|---|
 | Baldwin | Village | 2026-06 | data center | 🟢 Active |
 | Beetown | Town | 2026-05-07 | data center | 🟢 Active |
@@ -56,7 +58,7 @@ State policy is tracked separately: **7 records** (7 typed bill rows) in [`state
 ### Baldwin
 
 - **Type:** Village
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** Approximately June 2026 (exact vote date not confirmed): the Baldwin Bulletin (successfully fetched via http mode; the article is ROT47-obfuscated Lee Enterprises/BLOX CMS text, decoded) reports that at the Village Board's May 13, 2026 meeting, 'Approval was granted ... to draft an ordinance, which will be presented to the Planning Commission,' after Village President Lance Van Damme proposed a one-year data-center moratorium. Two independent statewide roundups (Daily Reporter/WisPolitics, June 5, 2026, and the Wisconsin NewsMedia Association, June 2, 2026) both state in past tense that Baldwin 'passed' its moratorium by early June 2026, indicating the Village Board's final adoption vote came at a meeting after May 13 and before June 2, 2026.
 - **Normalized date:** `2026-06` (month_only)
 - **Duration:** Approximately one year (per Village President Lance Van Damme's stated intent)
@@ -72,7 +74,7 @@ State policy is tracked separately: **7 records** (7 typed bill rows) in [`state
 ### Beetown
 
 - **Type:** Town
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** May 7, 2026 adoption; signed copy records posting May 8 and effectiveness May 9. Dates visually verified, not inferred from OCR.
 - **Normalized date:** `2026-05-07` (exact)
 - **Duration:** Null and void upon adoption of a comprehensive zoning ordinance, or two years from the effective date, whichever occurs first
@@ -88,7 +90,7 @@ State policy is tracked separately: **7 records** (7 typed bill rows) in [`state
 ### Bellevue
 
 - **Type:** Village
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** August 12, 2026 (Village Board unanimous vote following a public hearing that evening)
 - **Normalized date:** `2026-08-12` (exact)
 - **Duration:** 12 months (extendable up to an additional 6 months)
@@ -104,7 +106,7 @@ State policy is tracked separately: **7 records** (7 typed bill rows) in [`state
 ### Cassville
 
 - **Type:** Town
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** April 16, 2026 (town electors voted 44-0 that evening to authorize the Town Board to exercise village powers/zoning authority, and the Board adopted the data center ban ordinance the same evening)
 - **Normalized date:** `2026-04-16` (exact)
 - **Duration:** Up to two years
@@ -120,7 +122,7 @@ State policy is tracked separately: **7 records** (7 typed bill rows) in [`state
 ### Chippewa County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** August 11, 2026 (County Board of Supervisors, first and second readings held same night, 18-0 vote)
 - **Normalized date:** `2026-08-11` (exact)
 - **Duration:** 12 months
@@ -136,7 +138,7 @@ State policy is tracked separately: **7 records** (7 typed bill rows) in [`state
 ### City of Madison
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-01-24
 - **Normalized date:** `2026-01-24` (exact)
 - **Duration:** One year, or until earlier adoption of data center ordinance amendments
@@ -152,7 +154,7 @@ State policy is tracked separately: **7 records** (7 typed bill rows) in [`state
 ### City of Sheboygan
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** July 20, 2026 (Common Council 9-0 adoption of General Ordinance 1-26-27, after a May 4, 2026 referral to the Plan Commission)
 - **Normalized date:** `2026-07-20` (exact)
 - **Duration:** At least 365 days, and until city data center zoning regulations take effect if that occurs later
@@ -168,7 +170,7 @@ State policy is tracked separately: **7 records** (7 typed bill rows) in [`state
 ### City of Superior
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** June 16, 2026 (Common Council unanimous adoption of Resolution R26-13876)
 - **Normalized date:** `2026-06-16` (exact)
 - **Duration:** One year
@@ -184,7 +186,7 @@ State policy is tracked separately: **7 records** (7 typed bill rows) in [`state
 ### Dane County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** Introduced 2026-05-26; approved by the County Board 2026-06-04; signed by County Executive Melissa Agard on/around 2026-06-09
 - **Normalized date:** `2026-06-04` (exact)
 - **Duration:** 18 months
@@ -200,7 +202,7 @@ State policy is tracked separately: **7 records** (7 typed bill rows) in [`state
 ### Dodge County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** August 18, 2026 (County Board of Supervisors, 29-2 vote, following an Aug. 10, 2026 Land and Resources and Parks Committee public hearing and unanimous committee approval)
 - **Normalized date:** `2026-08-18` (exact)
 - **Duration:** 18 months
@@ -216,7 +218,7 @@ State policy is tracked separately: **7 records** (7 typed bill rows) in [`state
 ### Door County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** May 26, 2026 (Door County Board of Supervisors adoption of Resolution 2026-41 by voice vote, per the board's own official meeting minutes). The county's June 23, 2026 agenda packet includes, as routine business, "Approval of Minutes of the May 26, 2026 County Board Meeting" — this procedural minutes-approval item is what the 2026-07 refresh apparently mistook for a second/later adoption; the resolution itself was adopted only once, on May 26, 2026.
 - **Normalized date:** `2026-05-26` (exact)
 - **Duration:** Up to 12 months
@@ -232,7 +234,7 @@ State policy is tracked separately: **7 records** (7 typed bill rows) in [`state
 ### Grant County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** June 16, 2026 (County Board adoption of Resolution 2026-14)
 - **Normalized date:** `2026-06-16` (exact)
 - **Duration:** Up to 12 months
@@ -248,7 +250,7 @@ State policy is tracked separately: **7 records** (7 typed bill rows) in [`state
 ### Green County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** July 14, 2026 (County Board adoption of Ordinance 26-0703, one member opposed)
 - **Normalized date:** `2026-07-14` (exact)
 - **Duration:** 12 months from publication, or until the board adopts regulatory amendments or rescinds the moratorium, whichever occurs first
@@ -264,7 +266,7 @@ State policy is tracked separately: **7 records** (7 typed bill rows) in [`state
 ### Greenville
 
 - **Type:** Village
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** July 13, 2026 (Village Board approval, 5-0 vote)
 - **Normalized date:** `2026-07-13` (exact)
 - **Duration:** 12 months
@@ -280,7 +282,7 @@ State policy is tracked separately: **7 records** (7 typed bill rows) in [`state
 ### Hampden
 
 - **Type:** Town
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-05-26 (Town Board special meeting, after a public meeting the same evening, enacted Ordinance No. 18, Town of Hampden Data Center Temporary Moratorium; preceded by Resolution of 2026-04-21 finding a moratorium needed under Wis. Stat. 66.1002)
 - **Normalized date:** `2026-05-26` (exact)
 - **Duration:** Twelve months following the effective date (passage, posting and publication) or until a data center ordinance takes effect, whichever is earlier; may be extended up to 6 months under Wis. Stat. 66.1002(3)(b)2
@@ -296,7 +298,7 @@ State policy is tracked separately: **7 records** (7 typed bill rows) in [`state
 ### Hampden
 
 - **Type:** Town
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** May 26, 2026 (per town page 'Last Updated'; not independently confirmed to the day)
 - **Normalized date:** `2026-05-26` (exact)
 - **Duration:** 12 months from effective date, or until a data center ordinance is adopted, whichever is earlier; may be extended up to 6 additional months
@@ -312,7 +314,7 @@ State policy is tracked separately: **7 records** (7 typed bill rows) in [`state
 ### Janesville (Rock County town)
 
 - **Type:** Town
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** On or about August 3, 2026 (Town Board of Supervisors vote)
 - **Normalized date:** `2026-08-03` (exact)
 - **Duration:** 12 months
@@ -328,7 +330,7 @@ State policy is tracked separately: **7 records** (7 typed bill rows) in [`state
 ### La Crosse
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** August 13, 2026 (Common Council unanimous final vote, following City Plan Commission advancement August 3, 2026 and a Judiciary & Administration Committee public hearing August 5, 2026)
 - **Normalized date:** `2026-08-13` (exact)
 - **Duration:** 18 months
@@ -344,7 +346,7 @@ State policy is tracked separately: **7 records** (7 typed bill rows) in [`state
 ### La Crosse County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** June 18, 2026 (County Board approval, 26-2 vote, per WIZM)
 - **Normalized date:** `2026-06-18` (exact)
 - **Duration:** 18 months
@@ -360,7 +362,7 @@ State policy is tracked separately: **7 records** (7 typed bill rows) in [`state
 ### Manitowoc County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-04-28
 - **Normalized date:** `2026-04-28` (exact)
 - **Duration:** 18 months from the date the ordinance is published (its effective date), or until the County Board adopts and the County Executive approves amendments, or rescinds the moratorium, whichever occurs first
@@ -376,7 +378,7 @@ State policy is tracked separately: **7 records** (7 typed bill rows) in [`state
 ### Marathon County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** August 25, 2026 (County Board approval)
 - **Normalized date:** `2026-08-25` (exact)
 - **Duration:** At least 12 months
@@ -392,7 +394,7 @@ State policy is tracked separately: **7 records** (7 typed bill rows) in [`state
 ### Middleton
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** June 16, 2026
 - **Normalized date:** `2026-06-16` (exact)
 - **Duration:** 12 months from effective date, or until a permanent data-center amendment takes effect, whichever is earlier
@@ -408,7 +410,7 @@ State policy is tracked separately: **7 records** (7 typed bill rows) in [`state
 ### Milwaukee
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** October 13, 2026 (Common Council passage; effective October 17, 2026)
 - **Normalized date:** `2026-10-13` (exact)
 - **Duration:** Lesser of one year after passage or until the zoning code is amended to regulate data centers
@@ -424,7 +426,7 @@ State policy is tracked separately: **7 records** (7 typed bill rows) in [`state
 ### Monroe County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** July 21, 2026 (County Board 10-3 adoption of Resolution 07-26-04, three supervisors absent)
 - **Normalized date:** `2026-07-21` (exact)
 - **Duration:** Up to 18 months
@@ -440,7 +442,7 @@ State policy is tracked separately: **7 records** (7 typed bill rows) in [`state
 ### Oneida County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** August 18, 2026 (County Board unanimous voice vote)
 - **Normalized date:** `2026-08-18` (exact)
 - **Duration:** 12 months from adoption, unless replaced or extended
@@ -456,7 +458,7 @@ State policy is tracked separately: **7 records** (7 typed bill rows) in [`state
 ### Oshkosh
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** September 8, 2026 (Common Council unanimous vote)
 - **Normalized date:** `2026-09-08` (exact)
 - **Duration:** One year
@@ -472,7 +474,7 @@ State policy is tracked separately: **7 records** (7 typed bill rows) in [`state
 ### Polk County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** August 18, 2026
 - **Normalized date:** `2026-08-18` (exact)
 - **Duration:** 12 months from publication, or until board amendment or rescission
@@ -488,7 +490,7 @@ State policy is tracked separately: **7 records** (7 typed bill rows) in [`state
 ### Sauk County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** September 15, 2026 (County Board approval, 27-1 vote)
 - **Normalized date:** `2026-09-15` (exact)
 - **Duration:** 18 months from publication, or until board amendment or rescission (draft wording; final adopted text not located)
@@ -504,7 +506,7 @@ State policy is tracked separately: **7 records** (7 typed bill rows) in [`state
 ### Sawyer County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** August 2026 (county board vote, following a 5-0 zoning committee recommendation)
 - **Normalized date:** `2026-08` (month_only)
 - **Duration:** 18 months
@@ -520,7 +522,7 @@ State policy is tracked separately: **7 records** (7 typed bill rows) in [`state
 ### Shawano County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** June 24, 2026 (County Board adoption, following a June 3, 2026 public hearing)
 - **Normalized date:** `2026-06-24` (exact)
 - **Duration:** 12 months from effective date, unless sooner repealed, modified, or extended
@@ -536,7 +538,7 @@ State policy is tracked separately: **7 records** (7 typed bill rows) in [`state
 ### St. Croix County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** September 1, 2026 (County Board of Supervisors approval, 18-0 vote)
 - **Normalized date:** `2026-09-01` (exact)
 - **Duration:** 12 months
@@ -552,7 +554,7 @@ State policy is tracked separately: **7 records** (7 typed bill rows) in [`state
 ### Sun Prairie
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** September 1, 2026 council approval, as reported in the City September 2026 newsletter; final resolution and operative anchor unverified.
 - **Normalized date:** `2026-09-01` (unverified)
 - **Duration:** City reports a 12-month moratorium; operative start/end anchors and any subsequent actions unverified.
@@ -568,7 +570,7 @@ State policy is tracked separately: **7 records** (7 typed bill rows) in [`state
 ### Tigerton
 
 - **Type:** Village
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** September 15, 2026 (Village Board, following a public hearing that drew more than 70 residents)
 - **Normalized date:** `2026-09-15` (exact)
 - **Duration:** One year
@@ -584,7 +586,7 @@ State policy is tracked separately: **7 records** (7 typed bill rows) in [`state
 ### Town of New Denmark
 
 - **Type:** Town
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** June 8, 2026 (Town Board adoption, per town notice)
 - **Normalized date:** `2026-06-08` (exact)
 - **Duration:** 12 months, extendable up to 6 months if the Town Board finds it in the town's interest
@@ -600,7 +602,7 @@ State policy is tracked separately: **7 records** (7 typed bill rows) in [`state
 ### Vilas County
 
 - **Type:** County
-- **Status:** 🟡 Pending
+- **Recorded status:** 🟡 Pending
 - **Date enacted:** —
 - **Normalized date:** `—` (unverified)
 - **Duration:** Proposed 12 months
@@ -616,7 +618,7 @@ State policy is tracked separately: **7 records** (7 typed bill rows) in [`state
 ### Village of Ashwaubenon
 
 - **Type:** Village
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** June 23, 2026 (Village Board adoption of Ordinance O6-1-26, following a June 2, 2026 Plan Commission recommendation)
 - **Normalized date:** `2026-06-23` (exact)
 - **Duration:** 12 months, ending earlier if replacement rules are adopted or the ordinance is rescinded
@@ -632,7 +634,7 @@ State policy is tracked separately: **7 records** (7 typed bill rows) in [`state
 ### Village of Cottage Grove
 
 - **Type:** Village
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** July 20, 2026 (Village Board adoption of Ordinance 13-2026)
 - **Normalized date:** `2026-07-20` (exact)
 - **Duration:** 12 months, or until a regulating ordinance is approved or finally rejected, whichever occurs first
@@ -648,7 +650,7 @@ State policy is tracked separately: **7 records** (7 typed bill rows) in [`state
 ### Village of Hobart
 
 - **Type:** Village
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** July 7, 2026 (Village Board 4-1 approval of Ordinance 2026-07)
 - **Normalized date:** `2026-07-07` (exact)
 - **Duration:** 12 months from effective date, or until an amendment to the zoning chapter related to data centers is adopted and takes effect, whichever occurs earlier; extendable by six months
@@ -664,7 +666,7 @@ State policy is tracked separately: **7 records** (7 typed bill rows) in [`state
 ### Village of Wrightstown
 
 - **Type:** Village
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** July 7, 2026 (Village Board unanimous, 6-0, approval of a year-long moratorium ordinance on all zoning and planning activities related to data centers, per NBC 26 and Ballotpedia). This followed a separate, earlier June 16, 2026 action in which the Board voted 6-0 to impose a shorter, interim pause on data-center zoning and planning activity specifically until the August 11, 2026 advisory referendum was certified; the July 7 ordinance extended that interim pause into a full one-year moratorium.
 - **Normalized date:** `2026-07-07` (exact)
 - **Duration:** One year
@@ -680,7 +682,7 @@ State policy is tracked separately: **7 records** (7 typed bill rows) in [`state
 ### Westport
 
 - **Type:** Town
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** April 6, 2026 (Town Board regular meeting)
 - **Normalized date:** `2026-04-06` (exact)
 - **Duration:** 12 months
@@ -696,7 +698,7 @@ State policy is tracked separately: **7 records** (7 typed bill rows) in [`state
 ### Winnebago County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** August 18, 2026 (County Board voice vote, one dissenting supervisor)
 - **Normalized date:** `2026-08-18` (exact)
 - **Duration:** 12 months

@@ -3,11 +3,13 @@
 
 Working inventory for Idaho, generated **November 7, 2026**. Record-level refresh and later-action review remain incomplete.
 
-**4 instruments** — 2 in force, 1 pending, 1 past.
+**4 records** — 2 classified as active or extended, 1 classified as pending, 1 classified as past.
+
+These counts reflect inventory classifications and do not establish current enforceability.
 
 State policy is tracked separately: **9 records** (9 typed bill rows) in [`state_legislation.csv`](../data/state_legislation.csv). These are not included in the local count above.
 
-| Jurisdiction | Type | Enacted | Sectors | Status |
+| Jurisdiction | Type | Enacted | Sectors | Recorded status |
 |---|---|---|---|---|
 | Bannock County | County | 2026-07-30 | data center | 🟢 Active |
 | Blaine County | County | Unverified | data center | 🟡 Pending |
@@ -19,7 +21,7 @@ State policy is tracked separately: **9 records** (9 typed bill rows) in [`state
 ### Bannock County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-07-30 (Board of County Commissioners signed the emergency moratorium ordinance)
 - **Normalized date:** `2026-07-30` (exact)
 - **Duration:** 180 days from adoption (2026-07-30 to 2027-01-26)
@@ -35,7 +37,7 @@ State policy is tracked separately: **9 records** (9 typed bill rows) in [`state
 ### Blaine County
 
 - **Type:** County
-- **Status:** 🟡 Pending
+- **Recorded status:** 🟡 Pending
 - **Date enacted:** —
 - **Normalized date:** `—` (unverified)
 - **Duration:** Moratorium term not established; 182 days is a proposed plan-production deadline, not a sunset
@@ -51,7 +53,7 @@ State policy is tracked separately: **9 records** (9 typed bill rows) in [`state
 ### Elmore County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-07-02 (Board of County Commissioners regular meeting; Resolution No. 952-26 adopted unanimously, Corbus/Rodgers/Hofer all AYE)
 - **Normalized date:** `2026-07-02` (exact)
 - **Duration:** 182 days from adoption (2026-07-02 to 2026-12-31)
@@ -67,7 +69,7 @@ State policy is tracked separately: **9 records** (9 typed bill rows) in [`state
 ### Kootenai County
 
 - **Type:** County
-- **Status:** ⚪ Replaced
+- **Recorded status:** ⚪ Replaced
 - **Date enacted:** 2025-03-11, retroactive to 2025-02-27
 - **Normalized date:** `2025-03-11` (exact)
 - **Duration:** 182 days from 2025-03-11 adoption (nominal expiration 2025-09-09), retroactive to 2025-02-27. Resolution 2025-23 itself states the term as '182 days following adoption,' which places the adoption date (March 11) as day zero and the moratorium's last day as day 182 after that (September 9, 2025) -- consistent with the already-recorded computed_expiry. Replaced by Ordinance 620, noticed 2025-10-07.

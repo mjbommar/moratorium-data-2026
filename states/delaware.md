@@ -3,11 +3,13 @@
 
 Working inventory for Delaware, generated **November 7, 2026**. Record-level refresh and later-action review remain incomplete.
 
-**3 instruments** — 0 in force, 1 pending, 2 past.
+**3 records** — 0 classified as active or extended, 1 classified as pending, 2 classified as past.
+
+These counts reflect inventory classifications and do not establish current enforceability.
 
 State policy is tracked separately: **3 records** (3 typed bill rows) in [`state_legislation.csv`](../data/state_legislation.csv). These are not included in the local count above.
 
-| Jurisdiction | Type | Enacted | Sectors | Status |
+| Jurisdiction | Type | Enacted | Sectors | Recorded status |
 |---|---|---|---|---|
 | Dover | City | Unverified | data center | 🟡 Pending |
 | Kent County | County | 2022-08-09 | solar | ⚪ Expired |
@@ -18,7 +20,7 @@ State policy is tracked separately: **3 records** (3 typed bill rows) in [`state
 ### Dover
 
 - **Type:** City
-- **Status:** 🟡 Pending
+- **Recorded status:** 🟡 Pending
 - **Date enacted:** —
 - **Normalized date:** `—` (unverified)
 - **Duration:** 18 months from the ordinance's effective date, as drafted; the Council may extend by ordinance upon findings that additional study remains necessary. Not yet adopted as of 2026-09-23.
@@ -34,7 +36,7 @@ State policy is tracked separately: **3 records** (3 typed bill rows) in [`state
 ### Kent County
 
 - **Type:** County
-- **Status:** ⚪ Expired
+- **Recorded status:** ⚪ Expired
 - **Date enacted:** August 9, 2022, signed Ordinance 22-14; retroactive effective date May 24, 2022 is separate from adoption.
 - **Normalized date:** `2022-08-09` (exact)
 - **Duration:** Through September 8, 2022 at 11:59 p.m., unless rescinded sooner; retroactive effectiveness May 24, 2022.
@@ -50,7 +52,7 @@ State policy is tracked separately: **3 records** (3 typed bill rows) in [`state
 ### Kent County
 
 - **Type:** County
-- **Status:** ⚪ Expired
+- **Recorded status:** ⚪ Expired
 - **Date enacted:** Unresolved: first-page adoption field and code history give December 20, 2022; signed footer prints December 20, 2023.
 - **Normalized date:** `—` (unverified)
 - **Duration:** Through June 30, 2023 at 11:59 p.m., unless rescinded sooner; document states retroactive effectiveness October 25, 2022.

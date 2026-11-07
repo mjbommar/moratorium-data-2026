@@ -3,11 +3,13 @@
 
 Working inventory for Montana, generated **November 7, 2026**. Record-level refresh and later-action review remain incomplete.
 
-**2 instruments** — 1 in force, 1 pending, 0 past.
+**2 records** — 1 classified as active or extended, 1 classified as pending, 0 classified as past.
+
+These counts reflect inventory classifications and do not establish current enforceability.
 
 State policy is tracked separately: **6 records** (5 typed bill rows and 1 non-bill row) in [`state_legislation.csv`](../data/state_legislation.csv). These are not included in the local count above.
 
-| Jurisdiction | Type | Enacted | Sectors | Status |
+| Jurisdiction | Type | Enacted | Sectors | Recorded status |
 |---|---|---|---|---|
 | Butte-Silver Bow | County | Unverified | data center | 🟡 Pending |
 | Missoula County | County | 2026-07-09 | data center | 🟢 Active |
@@ -17,7 +19,7 @@ State policy is tracked separately: **6 records** (5 typed bill rows and 1 non-b
 ### Butte-Silver Bow
 
 - **Type:** County
-- **Status:** 🟡 Pending
+- **Recorded status:** 🟡 Pending
 - **Date enacted:** —
 - **Normalized date:** `—` (unverified)
 - **Duration:** As proposed (not yet adopted): a six-month moratorium on data center construction, with up to two additional one-year extensions available, after which the Council of Commissioners would be required to enact permanent regulations. At its 2026-09-02 meeting, the Butte-Silver Bow Council of Commissioners voted 11-0 to direct the county attorney to prepare a temporary moratorium/interim zoning ordinance draft; no draft ordinance had been brought back for a final adoption vote as of 2026-09-23.
@@ -33,7 +35,7 @@ State policy is tracked separately: **6 records** (5 typed bill rows and 1 non-b
 ### Missoula County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-07-09 (Board of County Commissioners unanimous adoption after a public hearing)
 - **Normalized date:** `2026-07-09` (exact)
 - **Duration:** One year from adoption (2026-07-09 to 2027-07-08), or until replaced sooner by permanent zoning

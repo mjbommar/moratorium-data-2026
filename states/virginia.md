@@ -3,11 +3,13 @@
 
 Working inventory for Virginia, generated **November 7, 2026**. Record-level refresh and later-action review remain incomplete.
 
-**6 instruments** — 4 in force, 1 pending, 1 past.
+**6 records** — 4 classified as active or extended, 1 classified as pending, 1 classified as past.
+
+These counts reflect inventory classifications and do not establish current enforceability.
 
 State policy is tracked separately: **18 records** (18 typed bill rows) in [`state_legislation.csv`](../data/state_legislation.csv). These are not included in the local count above.
 
-| Jurisdiction | Type | Enacted | Sectors | Status |
+| Jurisdiction | Type | Enacted | Sectors | Recorded status |
 |---|---|---|---|---|
 | City of Chesapeake | City | 2026-07-21 | data center | 🟢 Active |
 | Fluvanna County | County | 2025-09-17 | data center | ⚪ Replaced |
@@ -21,7 +23,7 @@ State policy is tracked separately: **18 records** (18 typed bill rows) in [`sta
 ### City of Chesapeake
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-07-21 (City Council adopted Resolution 26-R-042 by a 9-0 vote)
 - **Normalized date:** `2026-07-21` (exact)
 - **Duration:** 8 months from adoption, or until City Council takes final action on comprehensive plan amendment PLN-COMP-2026-002, whichever occurs first
@@ -37,7 +39,7 @@ State policy is tracked separately: **18 records** (18 typed bill rows) in [`sta
 ### Fluvanna County
 
 - **Type:** County
-- **Status:** ⚪ Replaced
+- **Recorded status:** ⚪ Replaced
 - **Date enacted:** 2025-09-17
 - **Normalized date:** `2025-09-17` (exact)
 - **Duration:** Until 2026-01-31
@@ -53,7 +55,7 @@ State policy is tracked separately: **18 records** (18 typed bill rows) in [`sta
 ### Front Royal
 
 - **Type:** Town
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-07-06, Front Royal Town Council work session, 6-0 vote (Vice Mayor Amber F. Veitenthal and Councilmembers DeDomenico-Payne, Ingram, Rappaport, Sealock, and Wood; Mayor Cockrell present but votes only to break ties), per the town's own approved council minutes.
 - **Normalized date:** `2026-07-06` (exact)
 - **Duration:** 90 days from adoption (to approximately 2026-10-04).
@@ -69,7 +71,7 @@ State policy is tracked separately: **18 records** (18 typed bill rows) in [`sta
 ### Loudoun County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-09-16, Loudoun County Board of Supervisors, 7-1-1 vote (Supervisor opposed on the base pause; a separate 7-1-1 vote with Supervisor Briskman opposed approved a grid-reliability substation exception), per the Board's own press release.
 - **Normalized date:** `2026-09-16` (exact)
 - **Duration:** Open-ended; in effect while the Board continues Phase 2 of its Data Center Standards and Locations initiative (zoning ordinance and comprehensive plan amendments), which is anticipated to be completed in 2027. County staff are to return with a formal resolution memorializing the pause at the Board's October 20, 2026 Business Meeting.
@@ -85,7 +87,7 @@ State policy is tracked separately: **18 records** (18 typed bill rows) in [`sta
 ### Suffolk
 
 - **Type:** City
-- **Status:** 🟡 Pending
+- **Recorded status:** 🟡 Pending
 - **Date enacted:** —
 - **Normalized date:** `—` (unverified)
 - **Duration:** Proposed pause on data center applications pending a UDO text amendment; Council vote expected October 2026
@@ -101,7 +103,7 @@ State policy is tracked separately: **18 records** (18 typed bill rows) in [`sta
 ### Virginia Beach
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-08-18, Virginia Beach City Council, unanimous vote.
 - **Normalized date:** `2026-08-18` (exact)
 - **Duration:** 12 months from adoption, or until City Council takes final action on an ordinance regulating data centers, whichever occurs first (to approximately 2027-08-18).

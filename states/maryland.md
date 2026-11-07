@@ -3,11 +3,13 @@
 
 Working inventory for Maryland, generated **November 7, 2026**. Record-level refresh and later-action review remain incomplete.
 
-**25 instruments** — 18 in force, 4 pending, 3 past.
+**25 records** — 18 classified as active or extended, 4 classified as pending, 3 classified as past.
+
+These counts reflect inventory classifications and do not establish current enforceability.
 
 State policy is tracked separately: **13 records** (13 typed bill rows) in [`state_legislation.csv`](../data/state_legislation.csv). These are not included in the local count above.
 
-| Jurisdiction | Type | Enacted | Sectors | Status |
+| Jurisdiction | Type | Enacted | Sectors | Recorded status |
 |---|---|---|---|---|
 | Anne Arundel County | County | 2026-10-12 | data center | 🟡 Pending |
 | Baltimore City | City | 2026-05-11 | data center | 🟢 Active |
@@ -40,7 +42,7 @@ State policy is tracked separately: **13 records** (13 typed bill rows) in [`sta
 ### Anne Arundel County
 
 - **Type:** County
-- **Status:** 🟡 Pending
+- **Recorded status:** 🟡 Pending
 - **Date enacted:** 2026-10-12 (approved and enacted; effective 2026-11-26)
 - **Normalized date:** `2026-10-12` (exact)
 - **Duration:** From effective date 2026-11-26 until the earlier of 2028-01-31 or effective date of qualifying comprehensive legislation based on work-group recommendations.
@@ -56,7 +58,7 @@ State policy is tracked separately: **13 records** (13 typed bill rows) in [`sta
 ### Baltimore City
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-05-11 (Bill 26-0158 passed by City Council and sent to the Mayor for signature, per newsletter reporting)
 - **Normalized date:** `2026-05-11` (exact)
 - **Duration:** Remains in effect for one year following its effective date (2026-07-16, i.e., 30 days after the 2026-06-16 signing), automatically abrogated on 2027-07-16 with no further Council action required. A companion Department of Planning data-center impact study/report is due to the Mayor, Council, and Planning Commission no later than 9 months after enactment.
@@ -72,7 +74,7 @@ State policy is tracked separately: **13 records** (13 typed bill rows) in [`sta
 ### Baltimore County
 
 - **Type:** County
-- **Status:** 🟢 Extended
+- **Recorded status:** 🟢 Extended
 - **Date enacted:** 2026-02-02 council enactment; applies retroactively to 2026-01-05 introduction
 - **Normalized date:** `2026-02-02` (exact)
 - **Duration:** Until 2027-12-31, per Council Bill 79-26 (final reading and unanimous vote 2026-09-22), which repealed and re-enacted Section 2 of Bill 3-26 to extend the suspension from its original 'earlier of 2027-01-01 or 90 days after the Planning Board's report' endpoint to a flat 2027-12-31.
@@ -88,7 +90,7 @@ State policy is tracked separately: **13 records** (13 typed bill rows) in [`sta
 ### Calvert County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-08-18 (Board of County Commissioners public hearing and unanimous adoption)
 - **Normalized date:** `2026-08-18` (exact)
 - **Duration:** Six months from the effective date (2026-08-28) to 2027-02-28, per Title 4 of the Land Use Article of the Maryland Annotated Code
@@ -104,7 +106,7 @@ State policy is tracked separately: **13 records** (13 typed bill rows) in [`sta
 ### Caroline County
 
 - **Type:** County
-- **Status:** ⚪ Expired
+- **Recorded status:** ⚪ Expired
 - **Date enacted:** June 13, 2023 (Resolution #2023-011)
 - **Normalized date:** `2023-06-13` (exact)
 - **Duration:** Originally one year; extended by Resolution #2024-012 (through Mar. 31, 2025) and Resolution #2025-008 (through Mar. 31, 2026)
@@ -120,7 +122,7 @@ State policy is tracked separately: **13 records** (13 typed bill rows) in [`sta
 ### Caroline County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-07-21 (County Commissioners' adoption of Resolution #2026-012)
 - **Normalized date:** `2026-07-21` (exact)
 - **Duration:** One year from adoption (2026-07-21) to 2027-07-21; applies only to unincorporated areas of the county
@@ -136,7 +138,7 @@ State policy is tracked separately: **13 records** (13 typed bill rows) in [`sta
 ### Carroll County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-02-19 (effective date of Ordinance 2026-02)
 - **Normalized date:** `2026-02-19` (exact)
 - **Duration:** One year from the effective date (2026-02-19) to 2027-02-19
@@ -152,7 +154,7 @@ State policy is tracked separately: **13 records** (13 typed bill rows) in [`sta
 ### Dorchester County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-08-04 (County Council adoption of Resolution No. 712)
 - **Normalized date:** `2026-08-04` (exact)
 - **Duration:** 12 months, effective the day of adoption (2026-08-04) to 2027-08-04
@@ -168,7 +170,7 @@ State policy is tracked separately: **13 records** (13 typed bill rows) in [`sta
 ### Federalsburg
 
 - **Type:** Town
-- **Status:** ⚪ Replaced
+- **Recorded status:** ⚪ Replaced
 - **Date enacted:** 2026-08-03 (Town Council adoption of a three-year moratorium); superseded 2026-09-09 by Ordinance 2026-07, a permanent ban
 - **Normalized date:** `2026-08-03` (exact)
 - **Duration:** Originally three years from adoption (2026-08-03 to 2029-08-03); superseded before its term by Ordinance 2026-07 (a permanent ban), passed 4-0 on 2026-09-09
@@ -184,7 +186,7 @@ State policy is tracked separately: **13 records** (13 typed bill rows) in [`sta
 ### Frederick County
 
 - **Type:** County
-- **Status:** 🟢 Extended
+- **Recorded status:** 🟢 Extended
 - **Date enacted:** 2026-07-01 (County Executive-announced pause via executive order(s), specific numbers not stated in the civic alert)
 - **Normalized date:** `2026-07-01` (exact)
 - **Duration:** Through 2027-07-01 (or until superseded/terminated earlier), per Executive Order No. 05-2026, effective 2026-09-14, which explicitly supersedes and extends the original Executive Order 04-2026 (which had run through 2026-12-31).
@@ -200,7 +202,7 @@ State policy is tracked separately: **13 records** (13 typed bill rows) in [`sta
 ### Howard County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-06-01 (County Council passage, as amended); signed by County Executive 2026-06-04; effective 2026-08-04
 - **Normalized date:** `2026-06-01` (exact)
 - **Duration:** Ends at the earliest specified policy milestone or 2027-11-02
@@ -216,7 +218,7 @@ State policy is tracked separately: **13 records** (13 typed bill rows) in [`sta
 ### Hurlock
 
 - **Type:** Town
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-08-10 (Town Council adoption, introduced by Council President Russell Murphy)
 - **Normalized date:** `2026-08-10` (exact)
 - **Duration:** Three years from adoption (2026-08-10) to 2029-08-10
@@ -232,7 +234,7 @@ State policy is tracked separately: **13 records** (13 typed bill rows) in [`sta
 ### Montgomery County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-07-28 (Council press release date; Expedited Bill 19-26 and companion Zoning Text Amendment 26-01)
 - **Normalized date:** `2026-07-28` (exact)
 - **Duration:** 18 months from the bill's effective date (specific calendar end date not stated in the press release)
@@ -248,7 +250,7 @@ State policy is tracked separately: **13 records** (13 typed bill rows) in [`sta
 ### Pocomoke City
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-09-21 (council adoption of Resolution 2027-R-1)
 - **Normalized date:** `2026-09-21` (exact)
 - **Duration:** Earlier of one year after adoption or effective date of comprehensive city legislation; council reserves extension or modification.
@@ -264,7 +266,7 @@ State policy is tracked separately: **13 records** (13 typed bill rows) in [`sta
 ### Prince George's County
 
 - **Type:** County
-- **Status:** 🟢 Extended
+- **Recorded status:** 🟢 Extended
 - **Date enacted:** 2025-09-16 (CR-098-2025); 2026-01-23 (EO 1-2026, later administratively extended through 2026-06-30 per news reporting); 2026-07-07 (CR-066-2026, new 2-year Council resolution, adopted 7-1 with 3 abstaining/absent)
 - **Normalized date:** `2025-09-16` (exact)
 - **Duration:** CR-098-2025: 180 days or until comprehensive legislation; EO 1-2026: temporary hold from 2025-12-31 through 2026-04-30
@@ -280,7 +282,7 @@ State policy is tracked separately: **13 records** (13 typed bill rows) in [`sta
 ### Proposed or Rejected Local Pauses
 
 - **Type:** Aggregate meta-row
-- **Status:** 🟡 Pending
+- **Recorded status:** 🟡 Pending
 - **Date enacted:** —
 - **Normalized date:** `—` (unverified)
 - **Duration:** —
@@ -296,7 +298,7 @@ State policy is tracked separately: **13 records** (13 typed bill rows) in [`sta
 ### Queen Anne's County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-06-04 (County Commissioners approval)
 - **Normalized date:** `2026-06-04` (exact)
 - **Duration:** 12 months from adoption (2026-06-04) to 2027-06-04
@@ -312,7 +314,7 @@ State policy is tracked separately: **13 records** (13 typed bill rows) in [`sta
 ### Ridgely
 
 - **Type:** Town
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-08-03 (reported town commissioners adoption)
 - **Normalized date:** `2026-08-03` (exact)
 - **Duration:** One year
@@ -328,7 +330,7 @@ State policy is tracked separately: **13 records** (13 typed bill rows) in [`sta
 ### Salisbury
 
 - **Type:** City
-- **Status:** 🟡 Pending
+- **Recorded status:** 🟡 Pending
 - **Date enacted:** —
 - **Normalized date:** `—` (unverified)
 - **Duration:** 1 year (proposed)
@@ -344,7 +346,7 @@ State policy is tracked separately: **13 records** (13 typed bill rows) in [`sta
 ### Somerset County
 
 - **Type:** County
-- **Status:** 🟡 Pending
+- **Recorded status:** 🟡 Pending
 - **Date enacted:** —
 - **Normalized date:** `—` (unverified)
 - **Duration:** 1 year (proposed)
@@ -360,7 +362,7 @@ State policy is tracked separately: **13 records** (13 typed bill rows) in [`sta
 ### Talbot County
 
 - **Type:** County
-- **Status:** ⚪ Expired
+- **Recorded status:** ⚪ Expired
 - **Date enacted:** 2022-04-26
 - **Normalized date:** `2022-04-26` (exact)
 - **Duration:** Five calendar months from April 26, 2022 adoption; September 26, 2022 endpoint derived from original term, not a later-history finding
@@ -376,7 +378,7 @@ State policy is tracked separately: **13 records** (13 typed bill rows) in [`sta
 ### Talbot County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-09-08 (County Council unanimous adoption of Resolution No. 395, after introduction 2026-08-11)
 - **Normalized date:** `2026-09-08` (exact)
 - **Duration:** 12 months from adoption (2026-09-08) to 2027-09-08; the Council reserves the right to extend for up to two additional six-month periods
@@ -392,7 +394,7 @@ State policy is tracked separately: **13 records** (13 typed bill rows) in [`sta
 ### Washington County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-06-30 (Board of County Commissioners adoption and effectiveness)
 - **Normalized date:** `2026-06-30` (exact)
 - **Duration:** 12 months
@@ -408,7 +410,7 @@ State policy is tracked separately: **13 records** (13 typed bill rows) in [`sta
 ### Wicomico County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-08-04 (County Council unanimous adoption of Resolution No. 125-2026, following a public hearing)
 - **Normalized date:** `2026-08-04` (exact)
 - **Duration:** One year from adoption (2026-08-04) to 2027-08-04, or until the effective date of comprehensive data center legislation, whichever is earlier
@@ -424,7 +426,7 @@ State policy is tracked separately: **13 records** (13 typed bill rows) in [`sta
 ### Worcester County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-07-21 (Worcester County Board of County Commissioners' formal adoption of Resolution No. 26-18, establishing the one-year moratorium on data centers and cable landing stations)
 - **Normalized date:** `2026-07-21` (exact)
 - **Duration:** One year, while staff develop definitions, permitted locations, and operating standards

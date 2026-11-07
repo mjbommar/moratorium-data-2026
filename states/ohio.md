@@ -3,11 +3,13 @@
 
 Working inventory for Ohio, generated **November 7, 2026**. Record-level refresh and later-action review remain incomplete.
 
-**160 instruments** — 149 in force, 2 pending, 9 past.
+**160 records** — 149 classified as active or extended, 2 classified as pending, 9 classified as past.
+
+These counts reflect inventory classifications and do not establish current enforceability.
 
 State policy is tracked separately: **12 records** (12 typed bill rows) in [`state_legislation.csv`](../data/state_legislation.csv). These are not included in the local count above.
 
-| Jurisdiction | Type | Enacted | Sectors | Status |
+| Jurisdiction | Type | Enacted | Sectors | Recorded status |
 |---|---|---|---|---|
 | Ada | Village | 2026-04-07 | data center, cryptocurrency mining | 🟢 Extended |
 | Alliance | City | 2026-07-06 | data center | 🟢 Active |
@@ -175,7 +177,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Ada
 
 - **Type:** Village
-- **Status:** 🟢 Extended
+- **Recorded status:** 🟢 Extended
 - **Date enacted:** 2026-04-07 (Village Council adopted Resolution 2026-101, amended from 12 to 6 months, 5-0; per approved minutes). Extended 2026-09-01 by Resolution 2026-109 (6-0) for an additional 12 months.
 - **Normalized date:** `2026-04-07` (exact)
 - **Duration:** Originally six months (to Oct. 7, 2026); extended by an additional twelve months from the effective date of Resolution 2026-109 (emergency, adopted Sept. 1, 2026)
@@ -191,7 +193,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Alliance
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-07-06 (City Council meeting)
 - **Normalized date:** `2026-07-06` (exact)
 - **Duration:** 18 months (not to exceed)
@@ -207,7 +209,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Amherst
 
 - **Type:** City
-- **Status:** 🟡 Pending
+- **Recorded status:** 🟡 Pending
 - **Date enacted:** Pending: Building and Lands Committee unanimously recommended the moratorium legislation to full City Council on 2026-09-22; next council meeting 2026-09-28
 - **Normalized date:** `—` (unverified)
 - **Duration:** Proposal amended September 28, 2026 to end December 31, 2027 with no automatic six-month extension; subsequent disposition unresolved.
@@ -223,7 +225,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Archbold
 
 - **Type:** Village
-- **Status:** 🟢 Extended
+- **Recorded status:** 🟢 Extended
 - **Date enacted:** 2026-04-06 (emergency ordinance); Council had initially tabled a broader proposal on 2026-02-16 following resident pushback and legal hesitation from the Village Law Director and County Farm Bureau, then adopted a narrower six-month moratorium on 2026-04-06
 - **Normalized date:** `2026-04-06` (exact)
 - **Duration:** 6 months (Resolution 2026-16, 2026-04-06), extended six months by Resolution 2026-27 (emergency, 2026-08-17) to 2027-04-06
@@ -239,7 +241,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Ashtabula Township
 
 - **Type:** Township
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-06-10 (Board of Trustees Wednesday meeting, per Star Beacon story of Friday 2026-06-12; date inferred from 'at a Wednesday meeting')
 - **Normalized date:** `2026-06-10` (exact)
 - **Duration:** 12 months
@@ -255,7 +257,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Athens
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-08-03 (City Council regular session; rules suspended and Ordinance 0-70-26 unanimously adopted as emergency, per Athens County Independent and WOUB)
 - **Normalized date:** `2026-08-03` (exact)
 - **Duration:** One year; the mayor and/or service-safety director may extend it one more year
@@ -271,7 +273,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Athens Township (Athens County)
 
 - **Type:** Township
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-08-01 (Board of Trustees special session, Saturday; Resolution 08-01-2026 adopted unanimously)
 - **Normalized date:** `2026-08-01` (exact)
 - **Duration:** Posted clean resolution states twelve months from effectiveness, subject to earlier repeal/replacement; actual adopted term not established.
@@ -287,7 +289,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Aurora
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-06-30 (City Council, Ordinance 2026-117, rules suspended and adopted 6-0 as an emergency; per official minutes)
 - **Normalized date:** `2026-06-30` (exact)
 - **Duration:** Twelve months from the effective date, or until code amendments are enacted or council revokes it, whichever comes first.
@@ -303,7 +305,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Avon
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** Passed by Council 2026-04-13; approved by Mayor Bryan K. Jensen 2026-04-14 (emergency measure, effective immediately upon mayoral approval); Section 1 sets the moratorium through April 14, 2027.
 - **Normalized date:** `2026-04-14` (exact)
 - **Duration:** Through 2027-04-14, extendable up to 6 months by Council
@@ -319,7 +321,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Avon Lake
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-06-22 (City Council regular meeting, Monday; per Medina Gazette/Chronicle-Telegram report of 2026-06-26)
 - **Normalized date:** `2026-06-22` (exact)
 - **Duration:** One year, up to June 22, 2027; council may shorten
@@ -335,7 +337,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Barberton
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2025-11-10 (City Council, emergency; per 'Passed November 10, 2025' on the legislation and Akron.com report)
 - **Normalized date:** `2025-11-10` (exact)
 - **Duration:** Indefinite (no end date); on 2026-04-13 data centers were also added to the city's 'various businesses' moratorium, which lasts until adoption of the new Barberton zoning code
@@ -351,7 +353,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Bazetta Township
 
 - **Type:** Township
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-05-12 (Board of Trustees regular meeting, 3-0; per signed minutes, Resolution 085-26)
 - **Normalized date:** `2026-05-12` (exact)
 - **Duration:** 180 days
@@ -367,7 +369,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Bellevue
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-06-08 (City Council, 6-1 after suspending rules 7-0; emergency; per 6/8/26 council minutes)
 - **Normalized date:** `2026-06-08` (exact)
 - **Duration:** Twelve (12) months from the effective date
@@ -383,7 +385,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Berea
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-06-15 (emergency measure)
 - **Normalized date:** `2026-06-15` (exact)
 - **Duration:** Not to exceed one year; section 2 uses recommends. Actual operative interval and later action unresolved.
@@ -399,7 +401,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Blanchester
 
 - **Type:** Village
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-03-12
 - **Normalized date:** `2026-03-12` (exact)
 - **Duration:** 24 months (2 years) from the effective date, per Ordinance 2026.007 Section 1
@@ -415,7 +417,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Boardman Township
 
 - **Type:** Township
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-04-28 (Board of Trustees vote, unanimous; per WKBN 2026-05-20)
 - **Normalized date:** `2026-04-28` (exact)
 - **Duration:** One year.
@@ -431,7 +433,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Boston Heights
 
 - **Type:** Village
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2025-11-12 (Village Council, 6-0 after suspending three-reading rule; emergency; per signed 11/12/2025 council minutes)
 - **Normalized date:** `2025-11-12` (exact)
 - **Duration:** 12 months
@@ -447,7 +449,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Braceville Township
 
 - **Type:** Township
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-06-02 (immediately effective)
 - **Normalized date:** `2026-06-02` (exact)
 - **Duration:** 6 months
@@ -463,7 +465,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Bridgewater Township (Williams County)
 
 - **Type:** Township
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-09 (reported by The Village Reporter on 2026-09-17; exact vote date not available, article paywalled)
 - **Normalized date:** `2026-09` (month_only)
 - **Duration:** 12 months
@@ -479,7 +481,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Brimfield Township
 
 - **Type:** Township
-- **Status:** 🟢 Extended
+- **Recorded status:** 🟢 Extended
 - **Date enacted:** 2026-04-20 (Board of Trustees regular meeting, Motion #2026-177 adopting resolution, 3-0; per official minutes)
 - **Normalized date:** `2026-04-20` (exact)
 - **Duration:** Original six-month term; September 21 motion 2026-349 extends the moratorium six months from October 6, 2026 to April 6, 2027. Later action and endpoint inclusivity unverified.
@@ -495,7 +497,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Broadview Heights
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-06-22 (City Council meeting; resolution approved, per Scriptype/Sun News coverage of the June 22 meeting and cleveland.com)
 - **Normalized date:** `2026-06-22` (exact)
 - **Duration:** 6 months
@@ -511,7 +513,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Brooklyn
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-06 (City Council passage reported 'recently' in cleveland.com story of 2026-06-18; exact vote date not found; OCJ map lists June 2026)
 - **Normalized date:** `2026-06` (month_only)
 - **Duration:** 180 days
@@ -527,7 +529,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Buckeye Lake
 
 - **Type:** Village
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-07-27 (Village Council meeting; rules suspended and Resolution 2026-13 adopted 7-0; emergency; per minutes and the signed resolution)
 - **Normalized date:** `2026-07-27` (exact)
 - **Duration:** One (1) year
@@ -543,7 +545,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Bucyrus
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-05-04 (City Council; Ordinance 28-2026 given first reading, then rules suspended and passed as emergency on 2nd/3rd reading, 7-0 roll call, per the approved 2026-05-04 minutes; ordinance text 'Passed this 4th day of May, 2026')
 - **Normalized date:** `2026-05-04` (exact)
 - **Duration:** Two years, renewable
@@ -559,7 +561,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Butler County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-06-16
 - **Normalized date:** `2026-06-16` (exact)
 - **Duration:** 6 months, immediately effective
@@ -575,7 +577,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Canton Township
 
 - **Type:** Township
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-04-09
 - **Normalized date:** `2026-04-09` (exact)
 - **Duration:** 12 months
@@ -591,7 +593,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Carrollton
 
 - **Type:** Village
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-05-27 (Village Council third reading and passage of Ordinance No. 2026-10; readings 2026-04-27, 2026-05-11, 2026-05-27)
 - **Normalized date:** `2026-05-27` (exact)
 - **Duration:** Indefinite (no end date or term stated)
@@ -607,7 +609,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Chillicothe
 
 - **Type:** City
-- **Status:** 🔴 Rescinded
+- **Recorded status:** 🔴 Rescinded
 - **Date enacted:** 2026-08-24 (City Council, Ordinance 44-26 passed unanimously as emergency legislation after suspending the three-reading rule; per council minutes as reported by Scioto Valley Guardian and Scioto Post)
 - **Normalized date:** `2026-08-24` (exact)
 - **Duration:** 60 days (approvals suspended until October 23, 2026)
@@ -623,7 +625,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Cincinnati
 
 - **Type:** City
-- **Status:** 🟢 Extended
+- **Recorded status:** 🟢 Extended
 - **Date enacted:** 2026-02-11 (IDCO No. 89 effective date, per city planning page); extended 2026-04-01 for 9 months to 2027-02-11
 - **Normalized date:** `2026-02` (month_only)
 - **Duration:** Through February 11, 2027 (the original Interim Development Control Overlay District No. 89 was effective 2026-02-11 for 3 months, expiring 2026-05-11; City Council approved a 9-month extension on 2026-04-01 following the City Planning Commission's 2026-03-06 recommendation, moving the expiration to 2027-02-11)
@@ -639,7 +641,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### City of Hubbard
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-06-01 (emergency ordinance)
 - **Normalized date:** `2026-06-01` (exact)
 - **Duration:** 12 months
@@ -655,7 +657,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### City of New Carlisle
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-02-17
 - **Normalized date:** `2026-02-17` (exact)
 - **Duration:** 12 months from 2026-03-04 effective date
@@ -671,7 +673,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### City of Norton
 
 - **Type:** City
-- **Status:** ⚪ Replaced
+- **Recorded status:** ⚪ Replaced
 - **Date enacted:** 2025-12-01
 - **Normalized date:** `2025-12-01` (exact)
 - **Duration:** 180 days (Ord. 108-2025, 2025-12-01 to 2026-05-30), followed by a 90-day extension under Ord. 55-2026 (adopted 2026-05-18), running through approximately mid-to-late August 2026
@@ -687,7 +689,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### City of Waterville
 
 - **Type:** City
-- **Status:** ⚪ Expired
+- **Recorded status:** ⚪ Expired
 - **Date enacted:** 2025-12-08
 - **Normalized date:** `2025-12-08` (exact)
 - **Duration:** Six months (182 days), as expressly amended and adopted in December 8, 2025 minutes; operative interval and later action unresolved.
@@ -703,7 +705,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Clay Township (Montgomery County)
 
 - **Type:** Township
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-04-07 (Board of Trustees regular meeting, Resolution 2026-016, roll call all yes; per official minutes)
 - **Normalized date:** `2026-04-07` (exact)
 - **Duration:** Twelve (12) months; may be extended before expiry.
@@ -719,7 +721,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Clayton
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-07-16 (City Council, Resolution No. R-07-26-46 adopted; per signed resolution)
 - **Normalized date:** `2026-07-16` (exact)
 - **Duration:** 365 days; expires July 16, 2027 unless earlier revoked.
@@ -735,7 +737,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Clearcreek Township (Warren County)
 
 - **Type:** Township
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-07-27 (trustees' unanimous resolution; per WDTN and Dayton Daily News)
 - **Normalized date:** `2026-07-27` (exact)
 - **Duration:** One year
@@ -751,7 +753,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Cleveland
 
 - **Type:** City
-- **Status:** 🟢 Extended
+- **Recorded status:** 🟢 Extended
 - **Date enacted:** 2026-07-15 (Ordinance 556-2026 passed by full Council, 14-1). Councilmember Charles Slife's original 2026-04-28 proposal called for a one-year pause; the Utilities Committee (chaired by Brian Kazy) reduced it to three months before the full Council vote.
 - **Normalized date:** `2026-07-15` (exact)
 - **Duration:** Originally three months from July 20, 2026, subject to earlier regulatory action; extended from October 20, 2026 until the earlier of new or amended regulations or January 29, 2027.
@@ -767,7 +769,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Clinton
 
 - **Type:** Village
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-06-16 (Village Council, 4-2 on adoption after a 4-2 motion to waive the three-reading rule; emergency; per 6/16/26 council minutes)
 - **Normalized date:** `2026-06-16` (exact)
 - **Duration:** Six months, renewable
@@ -783,7 +785,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Commercial Point
 
 - **Type:** Village
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-05-04 (Village Council, Ordinance 2026-09 passed on third reading 5-1 as an emergency; per Circleville Herald)
 - **Normalized date:** `2026-05-04` (exact)
 - **Duration:** 18 months.
@@ -799,7 +801,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Cortland
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-06-01 (emergency passage)
 - **Normalized date:** `2026-06-01` (exact)
 - **Duration:** Twelve months under section 1; title states not to exceed one year. Section 4 states immediate effect; later action unverified.
@@ -815,7 +817,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Defiance
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-09-01 (City Council vote, emergency ordinance; signed by Mayor Mike McCann the same night, effective immediately; per Crescent-News)
 - **Normalized date:** `2026-09-01` (exact)
 - **Duration:** Six months (amended down from the originally drafted 12 months)
@@ -831,7 +833,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Eastlake
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2025-11-25 (City Council regular meeting; rules suspended, adopted by unanimous roll call as Resolution No. 2025-103, emergency; per council minutes)
 - **Normalized date:** `2025-11-25` (exact)
 - **Duration:** Five (5) years
@@ -847,7 +849,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Ellsworth Township
 
 - **Type:** Township
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-06-10 (trustees passed and enacted, per township zoning inspector quoted by WFMJ 2026-06-16)
 - **Normalized date:** `2026-06-10` (exact)
 - **Duration:** One year, with option to renew.
@@ -863,7 +865,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Fairborn
 
 - **Type:** City
-- **Status:** ⚪ Expired
+- **Recorded status:** ⚪ Expired
 - **Date enacted:** 2022-09-06 (City Council adopted Emergency Ordinance 25-22, 7-0, per the official minutes of the 2022-09-06 council meeting)
 - **Normalized date:** `2022-09-06` (exact)
 - **Duration:** 180 days from the date of the ordinance (emergency ordinance, effective immediately)
@@ -879,7 +881,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Fairborn
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-08-17 (City Council vote at Monday business meeting; per Fairborn Daily Herald and a council-meeting social post)
 - **Normalized date:** `2026-08-17` (exact)
 - **Duration:** 12 months (may end sooner)
@@ -895,7 +897,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Fairfield Township (Butler County)
 
 - **Type:** Township
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-09-08 (Board of Trustees regular meeting; Resolution No. 26-85 on agenda, approved unanimously per Journal-News)
 - **Normalized date:** `2026-09-08` (exact)
 - **Duration:** 6 months
@@ -911,7 +913,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Fayette County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-09-21 (Board of County Commissioners vote on motion by Commissioner Donnie Fleak, seconded by Chairman Jim Garland; Commissioner Tony Anderson absent; resolution drafted by Prosecutor Jess Weade and signed by two commissioners the same afternoon; per Record-Herald)
 - **Normalized date:** `2026-09-21` (exact)
 - **Duration:** Through June 1, 2027 (eight months and 10 days); commissioners may modify, rescind or extend it earlier
@@ -927,7 +929,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Findlay
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-04-21
 - **Normalized date:** `2026-04-21` (exact)
 - **Duration:** 12 months
@@ -943,7 +945,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Freedom Township (Portage County)
 
 - **Type:** Township
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-03-19 (Board of Trustees regular meeting, motion for a one-year moratorium, 3-0 roll call; minutes number the motion 03.18.26.04)
 - **Normalized date:** `2026-03-19` (exact)
 - **Duration:** One (1) year.
@@ -959,7 +961,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Freedom Township (Wood County)
 
 - **Type:** Township
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-01 (trustees adopted a moratorium in January 2026, per fiscal officer Julie Getz quoted by BG Independent News); exact date not found
 - **Normalized date:** `2026-01` (month_only)
 - **Duration:** Not reported (temporary moratorium; term not stated in the only available source)
@@ -975,7 +977,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Garrettsville
 
 - **Type:** Village
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-08-12 (Village Council, third reading after public hearing, unanimous; emergency ordinance; per approved 8/12/26 council minutes and village 'Passed Legislation' notice)
 - **Normalized date:** `2026-08-12` (exact)
 - **Duration:** 12 months, unless council first amends village ordinances to regulate data centers or revokes the moratorium; council may extend
@@ -991,7 +993,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Geneva
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-06-08 (City Council Monday meeting; second reading, then passed 6-1 as an emergency, per Star Beacon 2026-06-10)
 - **Normalized date:** `2026-06-08` (exact)
 - **Duration:** 12 months
@@ -1007,7 +1009,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Girard
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-07-13 (third and final reading, emergency ordinance; effective upon Mayor Mark Zuppo's signature; per WFMJ and Tribune Chronicle)
 - **Normalized date:** `2026-07-13` (exact)
 - **Duration:** 12 months
@@ -1023,7 +1025,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Grafton
 
 - **Type:** Village
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-05-19 (emergency ordinance)
 - **Normalized date:** `2026-05-19` (exact)
 - **Duration:** Five years, per Spectrum News reporting; the adopted ordinance number and full text were not located on the village's official ordinance page during this review [VERIFY]
@@ -1039,7 +1041,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Green Township (Harrison County)
 
 - **Type:** Township
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-07-14 (Board of Trustees meeting, Tuesday night; per WTOV9 report dated 2026-07-14)
 - **Normalized date:** `2026-07-14` (exact)
 - **Duration:** 12 months, effective immediately; could be extended
@@ -1055,7 +1057,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Grove City
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-06-01 (emergency measure)
 - **Normalized date:** `2026-06-01` (exact)
 - **Duration:** 12 months
@@ -1071,7 +1073,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Hamilton Township (Warren County)
 
 - **Type:** Township
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-05-20 (Board of Trustees regular session; Resolution 26-0520B adopted as emergency, effective on passage; per certified resolution)
 - **Normalized date:** `2026-05-20` (exact)
 - **Duration:** Twelve months from effectiveness; section 1 explicitly states May 20, 2027 expiry. Pre-effective applications/permits are exempt under section 3; later action unverified.
@@ -1087,7 +1089,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Henry Township (Wood County)
 
 - **Type:** Township
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** On or before 2026-03-13 (fiscal officer Matt Davis told BG Independent News the township adopted a moratorium); exact date not found
 - **Normalized date:** `2026` (year_only)
 - **Duration:** Not reported (temporary moratorium; term not stated in the only available source)
@@ -1103,7 +1105,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Howland Township
 
 - **Type:** Township
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-06-10
 - **Normalized date:** `2026-06-10` (exact)
 - **Duration:** 6 months, renewable for another 6 months, and reasonably extendable to complete the study and adopt amendments
@@ -1119,7 +1121,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Hubbard Township
 
 - **Type:** Township
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-02-10 (Tuesday vote per Vindicator reporting; trustees voted 2-1 with Trustee Monica Baker abstaining)
 - **Normalized date:** `2026-02-10` (exact)
 - **Duration:** 12 months
@@ -1135,7 +1137,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Hudson
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-07-14 (City Council, unanimous on the consent agenda; per cleveland.com and 111things council recap)
 - **Normalized date:** `2026-07-14` (exact)
 - **Duration:** Six months; may be extended another six months
@@ -1151,7 +1153,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Ironton
 
 - **Type:** City
-- **Status:** ⚪ Replaced
+- **Recorded status:** ⚪ Replaced
 - **Date enacted:** 2026-02-12 (Ordinance 26-01 adopted, third reading, as amended)
 - **Normalized date:** `2026-02-12` (exact)
 - **Duration:** Until Ordinance 26-09 (zoning legislation) is passed, at which point it is automatically repealed
@@ -1167,7 +1169,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Jackson
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-07-13 (City Council regular session; rules suspended and Resolution 19-2026 adopted 6-0, Foster absent; per council minutes)
 - **Normalized date:** `2026-07-13` (exact)
 - **Duration:** Twelve (12) months from the effective date, extendable by majority vote of council
@@ -1183,7 +1185,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Jackson Township (Clermont County)
 
 - **Type:** Township
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-03-02 (Board of Trustees meeting; per the township's official Facebook announcement)
 - **Normalized date:** `2026-03-02` (exact)
 - **Duration:** 12 months
@@ -1199,7 +1201,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Jackson Township (Franklin County)
 
 - **Type:** Township
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-05-12, Board of Trustees regular meeting
 - **Normalized date:** `2026-05-12` (exact)
 - **Duration:** Reported as one year (10TV, 614NOW); the official agenda item text itself does not state a duration
@@ -1215,7 +1217,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Jefferson
 
 - **Type:** Village
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-08-17 (Village Council regular meeting; rules suspended and ordinance adopted as emergency, per Gazette News and Star Beacon)
 - **Normalized date:** `2026-08-17` (exact)
 - **Duration:** Not to exceed 12 months unless council terminates or extends it
@@ -1231,7 +1233,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Jerome Township
 
 - **Type:** Township
-- **Status:** ⚪ Replaced
+- **Recorded status:** ⚪ Replaced
 - **Date enacted:** 2025-09-03
 - **Normalized date:** `2025-09-03` (exact)
 - **Duration:** 9 months
@@ -1247,7 +1249,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Kent
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-04-15
 - **Normalized date:** `2026-04-15` (exact)
 - **Duration:** Not to exceed one year; section 2 uses recommends. Actual operative interval and later action unresolved.
@@ -1263,7 +1265,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Lake Township (Stark County)
 
 - **Type:** Township
-- **Status:** 🟢 Extended
+- **Recorded status:** 🟢 Extended
 - **Date enacted:** 2026-04-27 (Board of Lake Township Trustees regular session; Resolution 26-177, roll call 3-0; per official minutes)
 - **Normalized date:** `2026-04-27` (exact)
 - **Duration:** Six (6) months
@@ -1279,7 +1281,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Lake Township (Wood County)
 
 - **Type:** Township
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-03-03
 - **Normalized date:** `2026-03-03` (exact)
 - **Duration:** 12 months
@@ -1295,7 +1297,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Lakeview
 
 - **Type:** Village
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-05-04 (Village Council regular meeting; Resolution No. 2026-07 passed unanimously; per council minutes and Peak of Ohio)
 - **Normalized date:** `2026-05-04` (exact)
 - **Duration:** Twelve months
@@ -1311,7 +1313,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Liberty Township (Wood County)
 
 - **Type:** Township
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** On or before 2026-03-13 (listed by BG Independent News among Wood County townships whose trustees approved temporary moratoriums); exact date not found
 - **Normalized date:** `2026` (year_only)
 - **Duration:** Not reported (temporary moratorium; term not stated in the only available source)
@@ -1327,7 +1329,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Lima
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-09-14 (City Council regular meeting; Ordinance 198-26 passed 6 yes, 1 abstention, per Lima News and the council agenda)
 - **Normalized date:** `2026-09-14` (exact)
 - **Duration:** 18 months, or until council adopts data center standards if sooner
@@ -1343,7 +1345,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Madison Township (Lake County)
 
 - **Type:** Township
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-05-28 (Board of Trustees regular meeting; Resolution #26-074 approved 3-0; per signed minutes)
 - **Normalized date:** `2026-05-28` (exact)
 - **Duration:** Twelve (12) months
@@ -1359,7 +1361,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Massillon
 
 - **Type:** City
-- **Status:** ⚪ Replaced
+- **Recorded status:** ⚪ Replaced
 - **Date enacted:** 2026-04-06
 - **Normalized date:** `2026-04-06` (exact)
 - **Duration:** 180 days
@@ -1375,7 +1377,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Maumee
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-02-02
 - **Normalized date:** `2026-02-02` (exact)
 - **Duration:** 12 months
@@ -1391,7 +1393,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Mayfield Village
 
 - **Type:** Village
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-06-22 (Village Council vote 5-1 at June 22 meeting, emergency ordinance on first reading per agenda and News-Herald)
 - **Normalized date:** `2026-06-22` (exact)
 - **Duration:** 12 months from the effective date
@@ -1407,7 +1409,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### McDonald
 
 - **Type:** Village
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-09-16 (village council special meeting, emergency ordinance, 5-0; per WKBN/Tribune Chronicle/WFMJ)
 - **Normalized date:** `2026-09-16` (exact)
 - **Duration:** Not more than one year from the effective date; ends earlier upon adoption of ordinances addressing data centers or council ordinance terminating the moratorium.
@@ -1423,7 +1425,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Miamisburg
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-09-01 (City Council vote 6-0; per City of Miamisburg announcement 2026-09-02)
 - **Normalized date:** `2026-09-01` (exact)
 - **Duration:** Nine months.
@@ -1439,7 +1441,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Middleburg Heights
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-06-23 (City Council passage date shown on city's posting of Ordinance 2026-42; delivered 2026-06-18; emergency)
 - **Normalized date:** `2026-06-23` (exact)
 - **Duration:** Twelve months from the effective date
@@ -1455,7 +1457,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Middlefield
 
 - **Type:** Village
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-07-09 (Village Council passed Ordinance 26-136 on third reading, 6-0, after a public hearing; per approved July 9 minutes and published legal notice)
 - **Normalized date:** `2026-07-09` (exact)
 - **Duration:** Twelve months
@@ -1471,7 +1473,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Monclova Township
 
 - **Type:** Township
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-02-17
 - **Normalized date:** `2026-02-17` (exact)
 - **Duration:** 12 months
@@ -1487,7 +1489,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Monroe Township (Adams County)
 
 - **Type:** Township
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-03 (first week of March; Board of Trustees unanimous vote reported by Food & Water Watch on 2026-03-09 as 'last week'; exact meeting date and resolution number not found)
 - **Normalized date:** `2026-03` (month_only)
 - **Duration:** 12 months
@@ -1503,7 +1505,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Monroeville
 
 - **Type:** Village
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-02-24 (special council meeting; unanimous vote on emergency Resolution 2026-01; per the village's special meeting agenda and Norwalk Reflector report)
 - **Normalized date:** `2026-02-24` (exact)
 - **Duration:** Twelve (12) months from the effective date (emergency, effective immediately)
@@ -1519,7 +1521,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Montgomery Township (Ashland County)
 
 - **Type:** Township
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-06-17 (trustee vote); reporting indicated trustees would sign the approved resolution on 2026-07-01, but no executed copy or July 1 minutes were located [VERIFY]
 - **Normalized date:** `2026-06-17` (exact)
 - **Duration:** 2 years from the effective date unless repealed, extended, or replaced
@@ -1535,7 +1537,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Morgan Township (Butler County)
 
 - **Type:** Township
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-03 (per OCJ map, 'Trustees approved one-year moratorium' in March 2026; Journal-News on 2026-05-11 confirms a moratorium was 'enacted earlier this year'; exact date and resolution number not found)
 - **Normalized date:** `2026-03` (month_only)
 - **Duration:** One year (per OCJ map)
@@ -1551,7 +1553,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Mount Gilead
 
 - **Type:** Village
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-08-17 (Village Council, Ordinance 2027 passed on final reading, 5 ayes; per official minutes)
 - **Normalized date:** `2026-08-17` (exact)
 - **Duration:** Not to exceed one year.
@@ -1567,7 +1569,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Mount Orab
 
 - **Type:** Village
-- **Status:** 🟢 Extended
+- **Recorded status:** 🟢 Extended
 - **Date enacted:** 2026-03-03 (confirmed via WLWT 2026-04 reporting: "On March 3, village leaders voted to impose a six-month moratorium on data center projects")
 - **Normalized date:** `2026-03-03` (exact)
 - **Duration:** August 18 Ordinance 1349 grants an additional 180 days. March 3 minutes conflict on the original term: ONE HUNDRED AND EIGHT (180) DAYS. Actual operative interval and later action unresolved.
@@ -1583,7 +1585,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Muhlenberg Township (Pickaway County)
 
 - **Type:** Township
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-02-02 (Board of Trustees regular Monday meeting, Resolution 2026-10, unanimous; per Circleville Herald 2026-02-06)
 - **Normalized date:** `2026-02-02` (exact)
 - **Duration:** 12 months; trustee said it runs out February 3, 2027.
@@ -1599,7 +1601,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### New Franklin
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-05-20 (City Council, 6-1 after unanimous waiver of three readings; effective immediately; per council minutes and Akron.com)
 - **Normalized date:** `2026-05-20` (exact)
 - **Duration:** 6 months
@@ -1615,7 +1617,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Newton Falls
 
 - **Type:** Village
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-09-02 (council vote 4-0, emergency reading; per WFMJ story dated 2026-09-02 and Tribune Chronicle 2026-09-04 'Wednesday')
 - **Normalized date:** `2026-09-02` (exact)
 - **Duration:** 12 months
@@ -1631,7 +1633,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Niles
 
 - **Type:** City
-- **Status:** 🟢 Extended
+- **Recorded status:** 🟢 Extended
 - **Date enacted:** 2026-05-20 (city council vote, unanimous, emergency; per WKBN/WFMJ 2026-05-20 and Tribune Chronicle 2026-05-21)
 - **Normalized date:** `2026-05-20` (exact)
 - **Duration:** Original reported 180-day term; November 4 Council action reportedly grants an additional 180 days. Extension effective anchor and operative endpoint unresolved.
@@ -1647,7 +1649,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### North Perry
 
 - **Type:** Village
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-06-04 (Village Council meeting; unanimous vote on moratorium resolution; per News-Herald)
 - **Normalized date:** `2026-06-04` (exact)
 - **Duration:** 12 months
@@ -1663,7 +1665,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### North Ridgeville
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-05-18 (City Council; unanimous vote on emergency Ordinance No. 2026-57; per cleveland.com and Hoodline)
 - **Normalized date:** `2026-05-18` (exact)
 - **Duration:** Up to 12 months
@@ -1679,7 +1681,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### North Royalton
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-07-21 (third reading and passage, 7-0; first reading July 7, 2026; per signed Ordinance 26-118)
 - **Normalized date:** `2026-07-21` (exact)
 - **Duration:** One year from the effective date
@@ -1695,7 +1697,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Northfield Center Township
 
 - **Type:** Township
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-09-08 (Board of Trustees regular meeting; Resolution 26/09-08 B on the agenda; approval reported by Nordonia Hills News)
 - **Normalized date:** `2026-09-08` (exact)
 - **Duration:** 12 months
@@ -1711,7 +1713,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Northwest Township (Williams County)
 
 - **Type:** Township
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-09 (Northwest Township, Williams County trustees approved a data center moratorium; Village Reporter story dated 2026-09-10; exact meeting date not visible, story paywalled)
 - **Normalized date:** `2026-09` (month_only)
 - **Duration:** One year, with option to renew every year (per OCJ map)
@@ -1727,7 +1729,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Ontario
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-05-06 (City Council, 7-0 after suspending three readings; emergency; per 5/6/26 council minutes)
 - **Normalized date:** `2026-05-06` (exact)
 - **Duration:** Six (6) months
@@ -1743,7 +1745,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Painesville Township
 
 - **Type:** Township
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-05-12 (Board of Trustees regular meeting; Resolution 2026-057 added to agenda and adopted 3-0; per trustee minutes)
 - **Normalized date:** `2026-05-12` (exact)
 - **Duration:** Twelve (12) months
@@ -1759,7 +1761,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Paris Township (Union County)
 
 - **Type:** Township
-- **Status:** ⚪ Replaced
+- **Recorded status:** ⚪ Replaced
 - **Date enacted:** 2026-02 (reported as adopted in Marysville Matters newsletter of 2026-02-06; exact trustee vote date not found; OCJ map lists February 2026)
 - **Normalized date:** `2026-02` (month_only)
 - **Duration:** One year
@@ -1775,7 +1777,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Perry
 
 - **Type:** Village
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-10-08 (Village Council approved Ordinance 2026-13; signed by acting mayor, with no separate approval date shown)
 - **Normalized date:** `2026-10-08` (exact)
 - **Duration:** One (1) year from the effective date; effective upon passage and mayoral approval
@@ -1791,7 +1793,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Perry Township (Lake County)
 
 - **Type:** Township
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-07-28 (Board of Trustees; Resolution 2026-30 per the township's 2026 resolution index)
 - **Normalized date:** `2026-07-28` (exact)
 - **Duration:** One year (per News-Herald report of township records)
@@ -1807,7 +1809,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Pierce Township
 
 - **Type:** Township
-- **Status:** 🟢 Extended
+- **Recorded status:** 🟢 Extended
 - **Date enacted:** 2026-02-11
 - **Normalized date:** `2026-02-11` (exact)
 - **Duration:** 8 months
@@ -1823,7 +1825,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Pioneer
 
 - **Type:** Village
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-09-14 (village council regular meeting, 6-0 vote; per The Village Reporter and Bryan Times)
 - **Normalized date:** `2026-09-14` (exact)
 - **Duration:** Six months (180 days), can be ended early by council
@@ -1839,7 +1841,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Plain City
 
 - **Type:** Village
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-08-10 (Village Council vote on second reading, unanimous, Ordinance 37-2026; per Columbus Dispatch and Marysville Journal-Tribune)
 - **Normalized date:** `2026-08-10` (exact)
 - **Duration:** One year; council may extend or remove by legislation
@@ -1855,7 +1857,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Plain Township (Stark County)
 
 - **Type:** Township
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-03-24
 - **Normalized date:** `2026-03-24` (exact)
 - **Duration:** 12 months
@@ -1871,7 +1873,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Plain Township (Wood County)
 
 - **Type:** Township
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-03 (week of 2026-03-09; BG Independent News on 2026-03-13 reported Plain Township adopted a moratorium 'this week'); exact date not found
 - **Normalized date:** `2026-03` (month_only)
 - **Duration:** Not reported (temporary moratorium; term not stated in the only available source)
@@ -1887,7 +1889,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Pleasant Township (Franklin County)
 
 - **Type:** Township
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-02-24 (Board of Trustees, Resolution 11 at the February 24 meeting; per township meeting-highlights document and petition citing minutes; Columbus Dispatch reports a 2-1 vote in February)
 - **Normalized date:** `2026-02-24` (exact)
 - **Duration:** No time limit stated in the resolution per Columbus Dispatch; OCJ map lists one year (to February 2027)
@@ -1903,7 +1905,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Portage Township (Wood County)
 
 - **Type:** Township
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-03 (week of 2026-03-09; BG Independent News on 2026-03-13 reported Portage Township adopted a moratorium 'this week'); exact date not found
 - **Normalized date:** `2026-03` (month_only)
 - **Duration:** Not reported (temporary moratorium; term not stated in the only available source)
@@ -1919,7 +1921,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Prairie Township (Franklin County)
 
 - **Type:** Township
-- **Status:** 🟢 Extended
+- **Recorded status:** 🟢 Extended
 - **Date enacted:** 2026-04-15 (Board of Trustees adopted Resolution 18-26; effective immediately)
 - **Normalized date:** `2026-04-15` (exact)
 - **Duration:** Original six-month pause; July 22 Resolution 18-26 Amendment 1 describes twelve months and extends the endpoint to April 15, 2027. Endpoint inclusivity and later action unresolved.
@@ -1935,7 +1937,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Providence Township
 
 - **Type:** Township
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-04-15
 - **Normalized date:** `2026-04-15` (exact)
 - **Duration:** 12 months
@@ -1951,7 +1953,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Ravenna
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-04-20
 - **Normalized date:** `2026-04-20` (exact)
 - **Duration:** 12 months
@@ -1967,7 +1969,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Richfield
 
 - **Type:** Village
-- **Status:** 🟢 Extended
+- **Recorded status:** 🟢 Extended
 - **Date enacted:** 2026-03-03 (Village Council, readings suspended; Ordinance 18-2026, 180 days); extended 2026-09-03 at a special meeting by Ordinance 74-2026 (additional 180 days, emergency)
 - **Normalized date:** `2026-03-03` (exact)
 - **Duration:** 180 days (2026-03-03 to about 2026-08-30), plus an additional 180-day moratorium enacted 2026-09-03 (to about 2027-03-02)
@@ -1983,7 +1985,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Richfield Township (Lucas County)
 
 - **Type:** Township
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-02-17
 - **Normalized date:** `2026-02-17` (exact)
 - **Duration:** 12 months
@@ -1999,7 +2001,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Rittman
 
 - **Type:** City
-- **Status:** 🟢 Extended
+- **Recorded status:** 🟢 Extended
 - **Date enacted:** 2026-04-13 (city council adopted Ordinance No. 8519 on third reading, all yeas; per approved minutes of the 2026-04-13 meeting)
 - **Normalized date:** `2026-04-13` (exact)
 - **Duration:** Original 180-day pause; September 28 Ordinance 8544 grants an additional 180 days. Proposed 540 days failed. Operative endpoint and later action unresolved.
@@ -2015,7 +2017,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Scioto Township (Pickaway County)
 
 - **Type:** Township
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-03-05 (Thursday trustee meeting per Scioto Post; Trustee Wasmus introduced 2 weeks earlier; debate over 6 vs 12 months ended in 12-month vote)
 - **Normalized date:** `2026-03-05` (exact)
 - **Duration:** 12 months (Trustee Wolfe's 6-month proposal rejected)
@@ -2031,7 +2033,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Shalersville Township
 
 - **Type:** Township
-- **Status:** 🟢 Extended
+- **Recorded status:** 🟢 Extended
 - **Date enacted:** 2025-11 (Board of Trustees; exact vote date not found; per trustee chairman's account reported by Weekly Villager, June 2026); extended six months in early April 2026 (Record-Courier)
 - **Normalized date:** `2025-11` (month_only)
 - **Duration:** Six months originally, extended six months in April 2026; a further six-month extension was reported adopted October 20, 2026.
@@ -2047,7 +2049,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Shawnee Township
 
 - **Type:** Township
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-04-13
 - **Normalized date:** `2026-04-13` (exact)
 - **Duration:** 18 months
@@ -2063,7 +2065,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### South Bloomfield
 
 - **Type:** Village
-- **Status:** ⚪ Replaced
+- **Recorded status:** ⚪ Replaced
 - **Date enacted:** 2025-12-15
 - **Normalized date:** `2025-12-15` (unverified)
 - **Duration:** 180 days
@@ -2079,7 +2081,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### South Point
 
 - **Type:** Village
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-05-05 (South Point Village Council adopted Resolution 26-04 after a third reading and a six-month amendment, 4-2; official minutes).
 - **Normalized date:** `2026-05-05` (exact)
 - **Duration:** Six months
@@ -2095,7 +2097,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Spencer Township (Lucas County)
 
 - **Type:** Township
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-03-05
 - **Normalized date:** `2026-03-05` (exact)
 - **Duration:** 12 months
@@ -2111,7 +2113,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Sprigg Township
 
 - **Type:** Township
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-03-02
 - **Normalized date:** `2026-03-02` (exact)
 - **Duration:** 12 months voluntary moratorium
@@ -2127,7 +2129,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Springfield
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-07-14 (second reading, 5-0)
 - **Normalized date:** `2026-07-14` (exact)
 - **Duration:** 6 months
@@ -2143,7 +2145,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### St. Bernard
 
 - **Type:** City
-- **Status:** 🟡 Pending
+- **Recorded status:** 🟡 Pending
 - **Date enacted:** Pending: 12-month moratorium legislation before council, vote possible Thursday 2026-09-24 (per WVXU 2026-09-23)
 - **Normalized date:** `—` (unverified)
 - **Duration:** 12 months (proposed)
@@ -2159,7 +2161,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### St. Clair Township (Butler County)
 
 - **Type:** Township
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-05-05 (Board of Trustees; yearlong moratorium resolution, per Journal-News 2026-05-11)
 - **Normalized date:** `2026-05-05` (exact)
 - **Duration:** 12 months
@@ -2175,7 +2177,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### St. Marys
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-06-22 (passed with one abstention)
 - **Normalized date:** `2026-06-22` (exact)
 - **Duration:** 12 months
@@ -2191,7 +2193,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Streetsboro
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-04-27 (City Council, 6-0, emergency; per approved minutes of the 4/27/26 regular meeting)
 - **Normalized date:** `2026-04-27` (exact)
 - **Duration:** One year; may be extended at council's discretion
@@ -2207,7 +2209,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Sunbury
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-04-15 (City Council unanimous vote on first reading with rules suspended; Resolution 2026.12)
 - **Normalized date:** `2026-04-15` (exact)
 - **Duration:** Through January 31, 2027, extendable by majority vote
@@ -2223,7 +2225,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Swancreek Township (Fulton County)
 
 - **Type:** Township
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-05 (Board of Trustees vote at the early-May meeting; moratorium effective May 5, 2026 per The Village Reporter)
 - **Normalized date:** `2026-05` (month_only)
 - **Duration:** Six months, effective May 5 and expiring Nov. 5, 2026
@@ -2239,7 +2241,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Tallmadge
 
 - **Type:** City
-- **Status:** 🟢 Extended
+- **Recorded status:** 🟢 Extended
 - **Date enacted:** 2026-04-13
 - **Normalized date:** `2026-04-13` (unverified)
 - **Duration:** Original six months; extension twelve months effective October 13, 2026, subject to earlier code amendment or revocation.
@@ -2255,7 +2257,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Tiffin
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-04-20 (third reading waived; passed 6-0 on third reading, declared emergency by second 6-0 vote per tiffinohio.net)
 - **Normalized date:** `2026-04-20` (exact)
 - **Duration:** Up to 12 months; clock stops early if zoning review completes earlier
@@ -2271,7 +2273,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Trenton Township (Delaware County)
 
 - **Type:** Township
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-04-01 (Board of Trustees unanimous vote at April 1 meeting; per Delaware Gazette quoting the resolution)
 - **Normalized date:** `2026-04-01` (exact)
 - **Duration:** 12 months from the date of adoption
@@ -2287,7 +2289,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Twinsburg
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-04-14 (City Council, unanimous, rules suspended, adopted as emergency; per approved 4/14/26 council minutes)
 - **Normalized date:** `2026-04-14` (exact)
 - **Duration:** Posted unexecuted text states twelve months from effectiveness or earlier code amendments/revocation; final enacted term unresolved.
@@ -2303,7 +2305,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Upper Sandusky
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-07-06 (City Council adopted Ordinance No. 77-14, per meeting minutes)
 - **Normalized date:** `2026-07-06` (exact)
 - **Duration:** Six months
@@ -2319,7 +2321,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Urbana
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-03-03 (City Council Tuesday meeting; 6-1 vote on an emergency 12-month moratorium, per WYSO 2026-03-04)
 - **Normalized date:** `2026-03-03` (exact)
 - **Duration:** 12 months
@@ -2335,7 +2337,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Vandalia
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-04-20 (City Council, Resolution 26-R-27, added to agenda and approved 6-0; per official minutes)
 - **Normalized date:** `2026-04-20` (exact)
 - **Duration:** One year (365 days) per council discussion recorded in minutes.
@@ -2351,7 +2353,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Vermilion
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-04-20 (council adoption of emergency Ordinance 2026-17, introduced 2026-03-23, per cleveland.com review of city records); effective on mayoral approval; runs through 2027-03-23
 - **Normalized date:** `2026-04-20` (exact)
 - **Duration:** Through 2027-03-23
@@ -2367,7 +2369,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Vermilion Township (Erie County)
 
 - **Type:** Township
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-03-04 (Board of Trustees regular meeting; Resolution 2026-06 adopted 3-0, Baughman, Rowe & Sexton; per official minutes)
 - **Normalized date:** `2026-03-04` (exact)
 - **Duration:** Not to exceed twelve (12) months from passage; ends earlier on repeal or on the effective date of zoning text amendments satisfying the moratorium's goals
@@ -2383,7 +2385,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Vienna Township
 
 - **Type:** Township
-- **Status:** 🟢 Extended
+- **Recorded status:** 🟢 Extended
 - **Date enacted:** 2026-02-17 (trustee vote 2-1 on 180-day moratorium resolution, per Trustee Haddle quoted by Tribune Chronicle 2026-08-04); extended 60 days on 2026-08-03 (Monday meeting)
 - **Normalized date:** `2026-02-17` (exact)
 - **Duration:** 180 days (to 2026-08-16), extended 60 days to 2026-10-16
@@ -2399,7 +2401,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Village of Ashville
 
 - **Type:** Village
-- **Status:** 🟢 Extended
+- **Recorded status:** 🟢 Extended
 - **Date enacted:** 2025-12-22
 - **Normalized date:** `2025-12-22` (unverified)
 - **Duration:** 180 days (Ord. 2025-13, originally recorded 2025-12-22 to 2026-06-20), followed by a second 180-day moratorium under Ordinance 2026-14 (adopted 2026-07-06), through approximately 2027-01-02
@@ -2415,7 +2417,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Village of Lordstown
 
 - **Type:** Village
-- **Status:** 🟢 Extended
+- **Recorded status:** 🟢 Extended
 - **Date enacted:** 2026-01-05; extension adopted 2026-06-15 (emergency, after public hearing), effective 2026-07-05
 - **Normalized date:** `2026-01-05` (exact)
 - **Duration:** Original moratorium up to 180 days through July 4, 2026; Ordinance 29-2026 extends the pause for a period not exceeding 180 days from its effective date. The ordinance recital also refers to passage; the effective date and resulting end date require verification.
@@ -2431,7 +2433,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Village of Lordstown
 
 - **Type:** Village
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-07-06 (passed in Council as an emergency ordinance, per the signed Ordinance No. 38-2026; first reading 2026-06-01, public hearing 2026-06-15)
 - **Normalized date:** `2026-07-06` (exact)
 - **Duration:** Not to exceed 180 days from passage
@@ -2447,7 +2449,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Warren
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-09-09 (city council vote 8-0; per WFMJ 2026-09-09 and Tribune Chronicle 2026-09-10 'Wednesday')
 - **Normalized date:** `2026-09-09` (exact)
 - **Duration:** One year from the ordinance's effective date unless extended, repealed or replaced
@@ -2463,7 +2465,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Washington Township (Franklin County)
 
 - **Type:** Township
-- **Status:** 🟢 Extended
+- **Recorded status:** 🟢 Extended
 - **Date enacted:** 2025-12-09
 - **Normalized date:** `2025-12-09` (exact)
 - **Duration:** 90 days initial; six-month extension to September 5, 2026, followed by a six-month extension from September 8, 2026 to March 9, 2027 under Resolution #2026.09.08.015.
@@ -2479,7 +2481,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Washington Township (Montgomery County)
 
 - **Type:** Township
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-04-20 (Board of Trustees, Monday evening meeting, unanimous resolution; per WKEF/Dayton 24/7 Now 2026-04-21 and Dayton Daily News 2026-04-21)
 - **Normalized date:** `2026-04-20` (exact)
 - **Duration:** 360 days, effective immediately.
@@ -2495,7 +2497,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Washington Township (Pickaway County)
 
 - **Type:** Township
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-06 (trustees; per OCJ map, citing a Public Notices Ohio legal notice that could not be read)
 - **Normalized date:** `2026-06` (month_only)
 - **Duration:** Until July 2027 (per OCJ map).
@@ -2511,7 +2513,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Washington Township (Stark County)
 
 - **Type:** Township
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-04-06 (Board of Trustees, 2-0 with Trustee Wallace absent; per township minutes and Canton Repository meeting highlights)
 - **Normalized date:** `2026-04-06` (exact)
 - **Duration:** Twelve (12) months
@@ -2527,7 +2529,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Waterville Township
 
 - **Type:** Township
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2025-12-17
 - **Normalized date:** `2025-12-17` (exact)
 - **Duration:** 12 months
@@ -2543,7 +2545,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Waynesville
 
 - **Type:** Village
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-05-04 (village council waived the first-reading rule and adopted Ordinance No. 2026-020 as an emergency, 7 yeas; per the draft 2026-05-04 council minutes printed in the 2026-05-18 council packet)
 - **Normalized date:** `2026-05-04` (exact)
 - **Duration:** 180 days (OCJ map: 'Council passed 180-day moratorium', expiring Oct. 31, 2026, which is exactly 180 days from the 2026-05-04 adoption); ordinance text not found
@@ -2559,7 +2561,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Weathersfield Township
 
 - **Type:** Township
-- **Status:** 🟢 Extended
+- **Recorded status:** 🟢 Extended
 - **Date enacted:** 2026-04-30 (trustees' special meeting, 3-0 resolution, effective that day; per WKBN 2026-04-30 and Tribune Chronicle May 2026); extended six months in September 2026
 - **Normalized date:** `2026-04-30` (exact)
 - **Duration:** Six months (to about late October 2026), extended six more months into April 2027
@@ -2575,7 +2577,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Wellington
 
 - **Type:** Village
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-03-16 (Village Council vote, Monday evening, unanimous; Ordinance 2026-07, expedited passage requested by council president; per News 5 Cleveland 2026-03-17 and cleveland.com 2026-03-20)
 - **Normalized date:** `2026-03-16` (exact)
 - **Duration:** One year, with an option to extend for one additional year.
@@ -2591,7 +2593,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Westlake
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-09-03 (City Council unanimous vote at Sept. 3 meeting, emergency ordinance; per cleveland.com)
 - **Normalized date:** `2026-09-03` (exact)
 - **Duration:** Posted unexecuted revised text states six months from effectiveness or earlier code amendments/revocation; final enacted term unresolved.
@@ -2607,7 +2609,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Weston Township (Wood County)
 
 - **Type:** Township
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** On or before 2026-03-13 (trustee Randy Tolles told BG Independent News the township adopted a moratorium); exact date not found
 - **Normalized date:** `2026` (year_only)
 - **Duration:** Not reported (temporary moratorium; term not stated in the only available source)
@@ -2623,7 +2625,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Wickliffe
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-06-22 (City Council meeting; rules suspended and Ordinance 2026-39 adopted 6-1, Jaworski dissenting; emergency; per council minutes and certified ordinance)
 - **Normalized date:** `2026-06-22` (exact)
 - **Duration:** Twelve (12) months from the effective date, or until code amendments are enacted or council revokes it, whichever first
@@ -2639,7 +2641,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Williamsburg
 
 - **Type:** Village
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-03-12, Village Council, signed by Mayor James Weaver
 - **Normalized date:** `2026-03-12` (exact)
 - **Duration:** One year from effective date
@@ -2655,7 +2657,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Williamsburg Township
 
 - **Type:** Township
-- **Status:** 🟢 Extended
+- **Recorded status:** 🟢 Extended
 - **Date enacted:** 2026-01-26 (Board of Trustees Resolution No. 2026-04, six-month moratorium); extended 2026-07-13 by Resolution No. 2026-17 to 12 months, ending 11:59 p.m. 2027-01-25 (per 2026-07-13 minutes)
 - **Normalized date:** `2026-01-26` (exact)
 - **Duration:** Originally six months; extended to 12 months, until 11:59 p.m. January 25, 2027
@@ -2671,7 +2673,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Willoughby
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-07-14 (City Council regular meeting; Resolution No. 2026-98 passed, emergency; per the city's legal notice of legislation passed July 14, 2026)
 - **Normalized date:** `2026-07-14` (exact)
 - **Duration:** One (1) year from passage; council may extend up to six (6) months or lift early
@@ -2687,7 +2689,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Windham Township (Portage County)
 
 - **Type:** Township
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-05 (trustees' regular meeting 'last Thursday' before the Weekly Villager's 2026-05-15 story, likely 2026-05-07; unanimous motion by Trustee Rich Gano)
 - **Normalized date:** `2026-05` (month_only)
 - **Duration:** Not reported
@@ -2703,7 +2705,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Xenia
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-06-25 (City Council passage after public hearing; introduced June 11; ordinance effective July 25, 2026 per Xenia Gazette)
 - **Normalized date:** `2026-06-25` (exact)
 - **Duration:** One year
@@ -2719,7 +2721,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Yellow Springs
 
 - **Type:** Village
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-05-18 (emergency reading)
 - **Normalized date:** `2026-05-18` (exact)
 - **Duration:** 12 months, expiring 2027-05-18

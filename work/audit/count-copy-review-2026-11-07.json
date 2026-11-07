@@ -1,0 +1,26 @@
+{
+  "date": "2026-11-07",
+  "scope": "Current landing, state pages, README, codebook, methodology, sweep caveat and future state-sector generator wording",
+  "changes": [
+    "Describe recorded classifications rather than verified current legal force",
+    "Describe inventory rows rather than a completed unique-instrument census",
+    "Retain intended one-instrument row grain and identity reconciliation requirements",
+    "Remove unsupported complete-coverage assertion for May-July searches"
+  ],
+  "canonical_csv_expanded_and_identity_changes": false,
+  "headline_changes": false,
+  "validation": {
+    "make_check": "passed; 0 errors, 494 existing warnings",
+    "numeric_claims_matched": 63,
+    "state_count_rows_compared": 47,
+    "site_link_tests_passed": 6,
+    "diff_check": "passed",
+    "independent_review": {
+      "model": "gpt-6.1-terra",
+      "method": "Codex CLI read-only source review",
+      "blockers": 0
+    }
+  },
+  "full_refresh_complete": false,
+  "release_published": false
+}

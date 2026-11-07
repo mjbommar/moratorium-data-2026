@@ -3,11 +3,13 @@
 
 Working inventory for Illinois, generated **November 7, 2026**. Record-level refresh and later-action review remain incomplete.
 
-**33 instruments** — 28 in force, 2 pending, 3 past.
+**33 records** — 28 classified as active or extended, 2 classified as pending, 3 classified as past.
+
+These counts reflect inventory classifications and do not establish current enforceability.
 
 State policy is tracked separately: **11 records** (11 typed bill rows) in [`state_legislation.csv`](../data/state_legislation.csv). These are not included in the local count above.
 
-| Jurisdiction | Type | Enacted | Sectors | Status |
+| Jurisdiction | Type | Enacted | Sectors | Recorded status |
 |---|---|---|---|---|
 | Bourbonnais | Village | 2026-06-15 | data center | 🟢 Active |
 | Catlin | Village | 2025-10-07 | solar, wind | ⚪ Replaced |
@@ -48,7 +50,7 @@ State policy is tracked separately: **11 records** (11 typed bill rows) in [`sta
 ### Bourbonnais
 
 - **Type:** Village
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** Village Board of Trustees passed the moratorium ordinance by a 4-0 vote (two trustees absent) at its Monday, June 15, 2026 meeting, after the Economic and Community Development Committee unanimously recommended it on June 10, 2026.
 - **Normalized date:** `2026-06-15` (exact)
 - **Duration:** Temporary moratorium on building data centers within the village; expires January 31, 2027 per the ordinance.
@@ -64,7 +66,7 @@ State policy is tracked separately: **11 records** (11 typed bill rows) in [`sta
 ### Catlin
 
 - **Type:** Village
-- **Status:** ⚪ Replaced
+- **Recorded status:** ⚪ Replaced
 - **Date enacted:** October 7, 2025 (Catlin Village Council passed a moratorium on new solar energy projects Tuesday evening, per Vermilion County First, 2025-10-09); the Village's own public statement confirms the ordinance runs through April 30, 2026 as first adopted, before later extensions.
 - **Normalized date:** `2025-10-07` (exact)
 - **Duration:** A solar-farm (and later wind/solar) moratorium was repeatedly extended by the Catlin Village Board in roughly 30-day increments during 2026 while the village drafted a permanent solar/wind zoning ordinance (exact original enactment date not found); most recently extended to Aug. 31, 2026. It was superseded by the permanent ordinance in late August 2026.
@@ -80,7 +82,7 @@ State policy is tracked separately: **11 records** (11 typed bill rows) in [`sta
 ### Champaign County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-04-23
 - **Normalized date:** `2026-04-23` (exact)
 - **Duration:** 12 months (Board reverted 9-month ELUC amendment back to 12 months on 2026-04-23 per WGLT and Prairie Rivers Network reporting; Board Member Emily Rodriguez introduced the amendment)
@@ -96,7 +98,7 @@ State policy is tracked separately: **11 records** (11 typed bill rows) in [`sta
 ### Chicago
 
 - **Type:** City
-- **Status:** 🟡 Pending
+- **Recorded status:** 🟡 Pending
 - **Date enacted:** —
 - **Normalized date:** `—` (unverified)
 - **Duration:** Twelve calendar months proposed
@@ -112,7 +114,7 @@ State policy is tracked separately: **11 records** (11 typed bill rows) in [`sta
 ### City of Aurora
 
 - **Type:** City
-- **Status:** ⚪ Replaced
+- **Recorded status:** ⚪ Replaced
 - **Date enacted:** 2025-09-25
 - **Normalized date:** `2025-09-25` (exact)
 - **Duration:** 180 days, with one-time 30-day extension invoked before final ordinance adoption
@@ -128,7 +130,7 @@ State policy is tracked separately: **11 records** (11 typed bill rows) in [`sta
 ### City of Bloomington
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** City Council unanimously approved a six-month moratorium on 2026-05-26.
 - **Normalized date:** `2026-05-26` (exact)
 - **Duration:** Six-month moratorium applying to data centers designed for more than 5 megawatts; requires at least two public hearings during the pause and may be extended.
@@ -144,7 +146,7 @@ State policy is tracked separately: **11 records** (11 typed bill rows) in [`sta
 ### City of Carbondale
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** City Council voted 4-1 to adopt a resolution initiating a one-year moratorium on 2026-06-23.
 - **Normalized date:** `2026-06-23` (exact)
 - **Duration:** One-year moratorium on data center development; council also directed staff to begin a zoning text amendment.
@@ -160,7 +162,7 @@ State policy is tracked separately: **11 records** (11 typed bill rows) in [`sta
 ### City of Collinsville
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** Planning Commission recommended a 12-month moratorium 2025-12-11; per the Troy Times Tribune (2025-12-19), city staff planned to present it 'to the city council in January [2026] who will then cast the final vote.' A May 28, 2026 Troy Times Tribune article independently confirms in passing that 'Collinsville approved a year-long moratorium,' consistent with a January 2026 City Council vote. Exact City Council vote date and ordinance number not confirmed; Collinsville's own website and Legistar system returned bot-protection errors to every retrieval attempt.
 - **Normalized date:** `2026-01` (month_only)
 - **Duration:** Proposed 12 months
@@ -176,7 +178,7 @@ State policy is tracked separately: **11 records** (11 typed bill rows) in [`sta
 ### City of Effingham
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** City Council adopted Ordinance 052-2026 by a 5-0 vote on 2026-06-02.
 - **Normalized date:** `2026-06-02` (exact)
 - **Duration:** 12-month moratorium on accepting applications, permitting, and permit approval for cryptocurrency mines, data centers, and similar facilities within the city and its 1.5-mile extraterritorial area.
@@ -192,7 +194,7 @@ State policy is tracked separately: **11 records** (11 typed bill rows) in [`sta
 ### City of Troy
 
 - **Type:** City
-- **Status:** 🟢 Extended
+- **Recorded status:** 🟢 Extended
 - **Date enacted:** March 2026 (exact date not captured; per a May 28, 2026 Troy Times Tribune article, enacted after multiple council meetings between January and March 2026)
 - **Normalized date:** `2026-03` (month_only)
 - **Duration:** Earlier coverage described an original six-month term. Council minutes confirm approval of extension Ordinance 2026-57 on September 21, 2026; September 24 news describes a further six-month moratorium. [VERIFY: original ending, executed extension, effective-date anchor and exact current endpoint.]
@@ -208,7 +210,7 @@ State policy is tracked separately: **11 records** (11 typed bill rows) in [`sta
 ### City of West Chicago
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-07-20: City Council unanimously approved Ordinance 26-O-0011, a 180-day moratorium on new data centers and battery energy storage systems, per the City's own announcement
 - **Normalized date:** `2026-07-20` (exact)
 - **Duration:** 180-day moratorium on receipt, processing, and final approval of applications and permits for data centers and battery energy storage systems in every zoning district; protects complete pre-effective-date applications and approved permits, includes limited exceptions and a hardship process, and directs staff to present findings within three months. Council may extend or lift it by ordinance.
@@ -224,7 +226,7 @@ State policy is tracked separately: **11 records** (11 typed bill rows) in [`sta
 ### Galesburg
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** City Council voted 7-0 to adopt a 180-day data center moratorium on 2026-09-21, after voting 6-1 to advance the ordinance directly from first to second reading the same night.
 - **Normalized date:** `2026-09-21` (exact)
 - **Duration:** 180-day moratorium on receipt, processing, or approval of data center permit applications, running through April 3, 2027.
@@ -240,7 +242,7 @@ State policy is tracked separately: **11 records** (11 typed bill rows) in [`sta
 ### Henry County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** June 18, 2026 (County Board meeting)
 - **Normalized date:** `2026-06-18` (exact)
 - **Duration:** 12 months from the effective date, or until the County Board takes further action, whichever occurs first
@@ -256,7 +258,7 @@ State policy is tracked separately: **11 records** (11 typed bill rows) in [`sta
 ### La Salle County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** County Board approved Ordinance 26-65 on 2026-06-08 by a voice vote of 26 ayes, three members absent.
 - **Normalized date:** `2026-06-08` (exact)
 - **Duration:** 12-month moratorium on data center development.
@@ -272,7 +274,7 @@ State policy is tracked separately: **11 records** (11 typed bill rows) in [`sta
 ### Lake County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** Lake County Board approved the moratorium ordinance on Tuesday, 2026-09-08, following a unanimous recommendation from the Zoning Board of Appeals on Aug. 18, 2026 and unanimous approval by the Planning, Building, Zoning and Environment Committee on Sept. 2, 2026.
 - **Normalized date:** `2026-09-08` (exact)
 - **Duration:** Eight-month moratorium on data centers in unincorporated Lake County, running through approximately May 2027 (exact calendar end date not published).
@@ -288,7 +290,7 @@ State policy is tracked separately: **11 records** (11 typed bill rows) in [`sta
 ### Lawrence County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** Lawrence County Board voted unanimously on Thursday, 2026-09-17 to approve the moratorium ordinance.
 - **Normalized date:** `2026-09-17` (exact)
 - **Duration:** Two-year moratorium on data centers exceeding 10,000 square feet; the county will not accept applications for such facilities while it is in effect.
@@ -304,7 +306,7 @@ State policy is tracked separately: **11 records** (11 typed bill rows) in [`sta
 ### Lee County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** Lee County Board approved Resolution 2026-08-002 on 2026-08-20.
 - **Normalized date:** `2026-08-20` (exact)
 - **Duration:** Temporary moratorium on new petitions or applications for Technology Overlay District (TOD) designation/expansion/amendment under the Lee County Zoning Ordinance, effective immediately upon passage and running through November 19, 2026, 11:59 p.m., unless earlier terminated, extended, or modified.
@@ -320,7 +322,7 @@ State policy is tracked separately: **11 records** (11 typed bill rows) in [`sta
 ### Lee County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** March 2026 (County Board meeting; exact date not confirmed)
 - **Normalized date:** `2026-03` (month_only)
 - **Duration:** Until the state issues implementing regulations under Public Act 104-0458
@@ -336,7 +338,7 @@ State policy is tracked separately: **11 records** (11 typed bill rows) in [`sta
 ### Logan County
 
 - **Type:** County
-- **Status:** 🔴 Rescinded
+- **Recorded status:** 🔴 Rescinded
 - **Date enacted:** County Board approved a 60-day moratorium 9-2 on 2026-02-24; after it lapsed, the Board approved a 12-month moratorium 6-4 on 2026-05-19. The May 19 moratorium was declared procedurally invalid by the State's Attorney on 2026-06-18 for skipping the required Zoning Board of Appeals advisory review and public hearings.
 - **Normalized date:** `2026-05-19` (exact)
 - **Duration:** 12-month moratorium (approved 2026-05-19) intended to run through approximately 2027-05-19, but ruled procedurally invalid and unenforceable on 2026-06-18. As of an Aug. 4, 2026 committee meeting, the Board was drafting a replacement moratorium (covering data centers exceeding 100 MW) and had submitted it to the State's Attorney for review; as of a Sept. 17-18, 2026 report, the Board had not adopted a new moratorium and was instead advancing 18 amendments to its permanent data-center zoning ordinance.
@@ -352,7 +354,7 @@ State policy is tracked separately: **11 records** (11 typed bill rows) in [`sta
 ### Macon County
 
 - **Type:** County
-- **Status:** 🟡 Pending
+- **Recorded status:** 🟡 Pending
 - **Date enacted:** —
 - **Normalized date:** `—` (unverified)
 - **Duration:** A draft ordinance published by Macon County on 2026-05-20 proposed a 6-month moratorium (expiration January 31, 2027) on data center special-use and building-permit applications. The County's Zoning Board of Appeals subsequently recommended extending the proposed term to 12 months. As of a Sept. 15, 2026 news report, the County Board had not yet cast a final vote; 'the final decision has received delays.'
@@ -368,7 +370,7 @@ State policy is tracked separately: **11 records** (11 typed bill rows) in [`sta
 ### Mattoon
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** City Council passed the moratorium at its Tuesday, September 1, 2026 meeting, per the city's official announcement published September 3, 2026.
 - **Normalized date:** `2026-09-01` (exact)
 - **Duration:** Moratorium on new data center developments larger than 21,780 square feet (about half an acre) within Mattoon and the 1.5-mile area outside city limits where the city holds zoning authority. No fixed term; the moratorium renews annually and requires City Council action to change or end it.
@@ -384,7 +386,7 @@ State policy is tracked separately: **11 records** (11 typed bill rows) in [`sta
 ### Morgan County
 
 - **Type:** County
-- **Status:** 🟢 Extended
+- **Recorded status:** 🟢 Extended
 - **Date enacted:** 2026-04-27
 - **Normalized date:** `2026-04-27` (exact)
 - **Duration:** Originally six months; WLDS reported a further six-month extension approved October 26, 2026. The operative extension text and end date remain unverified.
@@ -400,7 +402,7 @@ State policy is tracked separately: **11 records** (11 typed bill rows) in [`sta
 ### Ottawa
 
 - **Type:** City
-- **Status:** 🟢 Extended
+- **Recorded status:** 🟢 Extended
 - **Date enacted:** Original 180-day moratorium established by City Council ordinance on approximately 2026-03-03; unanimously extended by the City Council on 2026-08-18 through August 25, 2027.
 - **Normalized date:** `2026-03-03` (unverified)
 - **Duration:** Moratorium on data centers in all zoning districts within the city; originally 180 days from March 2026, unanimously extended on 2026-08-18 to run through August 25, 2027, citing continued state inaction on the POWER Act.
@@ -416,7 +418,7 @@ State policy is tracked separately: **11 records** (11 typed bill rows) in [`sta
 ### Plainfield
 
 - **Type:** Village
-- **Status:** 🟢 Extended
+- **Recorded status:** 🟢 Extended
 - **Date enacted:** Plainfield Village Board voted unanimously to pass the moratorium ordinance; reported by Patch on 2026-04-21 as a Monday-night vote (i.e., on or about 2026-04-20/21).
 - **Normalized date:** `2026-04-21` (exact)
 - **Duration:** Original 180-day pause on receipt, processing, approval and permitting of data center and computing-infrastructure warehouse applications; a further 180-day extension was reported approved October 5, 2026. The exact end date remains unverified.
@@ -432,7 +434,7 @@ State policy is tracked separately: **11 records** (11 typed bill rows) in [`sta
 ### Robinson
 
 - **Type:** City
-- **Status:** 🟢 Extended
+- **Recorded status:** 🟢 Extended
 - **Date enacted:** —
 - **Normalized date:** `—` (unverified)
 - **Duration:** The Robinson City Council voted to extend an existing solar-farm moratorium for another six months (article published 2026-09-08); original enactment date not found.
@@ -448,7 +450,7 @@ State policy is tracked separately: **11 records** (11 typed bill rows) in [`sta
 ### Rockford
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** Rockford City Council voted 14-0 to approve the moratorium at its Monday, 2026-08-03 meeting.
 - **Normalized date:** `2026-08-03` (exact)
 - **Duration:** Six-month moratorium on data centers, directing city staff to conduct a comprehensive review of best practices for data center development, expansion, and operation.
@@ -464,7 +466,7 @@ State policy is tracked separately: **11 records** (11 typed bill rows) in [`sta
 ### Stephenson County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-08-20
 - **Normalized date:** `2026-08-20` (exact)
 - **Duration:** Six calendar months from effectiveness, unless extended or terminated earlier
@@ -480,7 +482,7 @@ State policy is tracked separately: **11 records** (11 typed bill rows) in [`sta
 ### Sterling
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** Sterling City Council voted unanimously to impose the moratorium at its Sept. 8, 2026 meeting.
 - **Normalized date:** `2026-09-08` (exact)
 - **Duration:** 180-day moratorium on processing and approving applications for data centers and battery energy storage systems (BESS).
@@ -496,7 +498,7 @@ State policy is tracked separately: **11 records** (11 typed bill rows) in [`sta
 ### Tazewell County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** April 29, 2026 (zoning code amendment)
 - **Normalized date:** `2026-04-29` (exact)
 - **Duration:** Until a data center zoning ordinance is adopted
@@ -512,7 +514,7 @@ State policy is tracked separately: **11 records** (11 typed bill rows) in [`sta
 ### Town of Normal
 
 - **Type:** Town
-- **Status:** 🟢 Extended
+- **Recorded status:** 🟢 Extended
 - **Date enacted:** Town Council voted 7-0 to adopt Ordinance 6063 on 2026-05-18.
 - **Normalized date:** `2026-05-18` (exact)
 - **Duration:** Original moratorium (Ordinance 6063) paused data-center applications through November 30, 2026. On 2026-09-21, the Town Council voted 6-1 (Andy Byars dissenting) to extend the pause six more months, through May 31, 2027, citing the desire to align local rules with anticipated state action on the POWER Act rather than adopt local regulations the state might soon supersede.
@@ -528,7 +530,7 @@ State policy is tracked separately: **11 records** (11 typed bill rows) in [`sta
 ### Utica
 
 - **Type:** Village
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** April 9, 2026 (extension vote, 5-0); original enactment date not confirmed
 - **Normalized date:** `2026-04-09` (exact)
 - **Duration:** Extended; fixed end date not confirmed
@@ -544,7 +546,7 @@ State policy is tracked separately: **11 records** (11 typed bill rows) in [`sta
 ### Village of Godfrey
 
 - **Type:** Village
-- **Status:** 🟢 Extended
+- **Recorded status:** 🟢 Extended
 - **Date enacted:** 2026-01-20
 - **Normalized date:** `2026-01-20` (exact)
 - **Duration:** Extended by a unanimous Village Board resolution at the August 4, 2026 Board of Trustees meeting for another 180 days; runs through January 31, 2027. Village Attorney Bryan Dooling told trustees the moratorium 'cannot be extended any further,' making this the village's final window under the ordinance to adopt local data-center zoning regulations before the pause lapses.
@@ -560,7 +562,7 @@ State policy is tracked separately: **11 records** (11 typed bill rows) in [`sta
 ### Woodford County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** Woodford County Board approved the moratorium at its Aug. 18, 2026 meeting, after weeks of discussion.
 - **Normalized date:** `2026-08-18` (exact)
 - **Duration:** Six-month moratorium on data center applications, with an option for the Board to extend it another six months; the initial term runs through approximately February 2027 while the county holds public hearings and develops a data-center ordinance.

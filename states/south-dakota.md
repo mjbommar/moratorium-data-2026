@@ -3,11 +3,13 @@
 
 Working inventory for South Dakota, generated **November 7, 2026**. Record-level refresh and later-action review remain incomplete.
 
-**4 instruments** — 4 in force, 0 pending, 0 past.
+**4 records** — 4 classified as active or extended, 0 classified as pending, 0 classified as past.
+
+These counts reflect inventory classifications and do not establish current enforceability.
 
 State policy is tracked separately: **14 records** (14 typed bill rows) in [`state_legislation.csv`](../data/state_legislation.csv). These are not included in the local count above.
 
-| Jurisdiction | Type | Enacted | Sectors | Status |
+| Jurisdiction | Type | Enacted | Sectors | Recorded status |
 |---|---|---|---|---|
 | Aberdeen | City | 2026-07-20 | data center | 🟢 Extended |
 | Pennington County | County | 2024-11-19 | wind, solar | 🟢 Active |
@@ -19,7 +21,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 ### Aberdeen
 
 - **Type:** City
-- **Status:** 🟢 Extended
+- **Recorded status:** 🟢 Extended
 - **Date enacted:** 2026-07-20 (City Council first reading and passage, 7-0)
 - **Normalized date:** `2026-07-20` (exact)
 - **Duration:** Extended by Resolution 26-10-01R to 12:01 a.m. local time July 1, 2027, or the earlier effective date of an ordinance amending the zoning regulations to regulate data centers.
@@ -35,7 +37,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 ### Pennington County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2024-11-19 (Board of Commissioners unanimous vote); effective 2024-12-12; extended one additional year by unanimous vote on 2025-10-21
 - **Normalized date:** `2024-11-19` (exact)
 - **Duration:** One year from its December 12, 2024 effective date; extended unanimously on October 21, 2025 through November 18, 2026
@@ -51,7 +53,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 ### Turner County
 
 - **Type:** County
-- **Status:** 🟢 Extended
+- **Recorded status:** 🟢 Extended
 - **Date enacted:** 2025-08-26 (Turner County Board of Commissioners adopted Ordinance #100-25, a temporary zoning ordinance, 4-0 with the chairman recused, per official minutes)
 - **Normalized date:** `2025-08-26` (exact)
 - **Duration:** One (1) year (Ordinance #100-25, effective on completed publication); extended one year by Ordinance #105-26 (adopted 2026-08-25) to expire 2027-08-25
@@ -67,7 +69,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 ### Yankton County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-07-21 (County Commission adopted the moratorium 5-0, recorded as Action 26248C)
 - **Normalized date:** `2026-07-21` (exact)
 - **Duration:** Six months from adoption (approximately to 2027-01-21); the commission packet draft had proposed 12 months, but the adopted motion changed the term to six months

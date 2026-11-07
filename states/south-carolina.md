@@ -3,11 +3,13 @@
 
 Working inventory for South Carolina, generated **November 7, 2026**. Record-level refresh and later-action review remain incomplete.
 
-**17 instruments** — 14 in force, 2 pending, 1 past.
+**17 records** — 14 classified as active or extended, 2 classified as pending, 1 classified as past.
+
+These counts reflect inventory classifications and do not establish current enforceability.
 
 State policy is tracked separately: **7 records** (7 typed bill rows) in [`state_legislation.csv`](../data/state_legislation.csv). These are not included in the local count above.
 
-| Jurisdiction | Type | Enacted | Sectors | Status |
+| Jurisdiction | Type | Enacted | Sectors | Recorded status |
 |---|---|---|---|---|
 | Anderson County | County | 2026-08-18 | data center | 🟢 Active |
 | Awendaw | Town | Unverified | data center, cryptocurrency mining | 🟡 Pending |
@@ -32,7 +34,7 @@ State policy is tracked separately: **7 records** (7 typed bill rows) in [`state
 ### Anderson County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** August 18, 2026 (County Council third reading, per county's own Aug. 18, 2026 agenda packet and Fox Carolina/WYFF4/WSPA coverage of the unanimous-report vote; first reading was a special called meeting June 29, 2026)
 - **Normalized date:** `2026-08-18` (exact)
 - **Duration:** Six months
@@ -48,7 +50,7 @@ State policy is tracked separately: **7 records** (7 typed bill rows) in [`state
 ### Awendaw
 
 - **Type:** Town
-- **Status:** 🟡 Pending
+- **Recorded status:** 🟡 Pending
 - **Date enacted:** —
 - **Normalized date:** `—` (unverified)
 - **Duration:** Proposed one calendar year from final reading/adoption; six-month extensions require additional ordinance
@@ -64,7 +66,7 @@ State policy is tracked separately: **7 records** (7 typed bill rows) in [`state
 ### Chester County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** July 20, 2026 (County Council unanimous approval, per WSOC-TV, following a June 15, 2026 first reading)
 - **Normalized date:** `2026-07-20` (exact)
 - **Duration:** Until December 31, 2026, or earlier repeal, unless extended (July 20 final-reading packet text; signed final text not separately located)
@@ -80,7 +82,7 @@ State policy is tracked separately: **7 records** (7 typed bill rows) in [`state
 ### Chesterfield County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** June 1, 2026 (County Council third reading and public hearing, adopting Ordinance 25-26-23)
 - **Normalized date:** `2026-06-01` (exact)
 - **Duration:** Until January 1, 2028, or until the county adopts regulations for data center/data processing/cryptocurrency mining uses, whichever occurs first
@@ -96,7 +98,7 @@ State policy is tracked separately: **7 records** (7 typed bill rows) in [`state
 ### Clarendon County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** September 14, 2026 (County Council third and final reading and public hearing, per WIS; second reading was at an Aug. 24, 2026 special called meeting, first reading Aug. 10, 2026)
 - **Normalized date:** `2026-09-14` (exact)
 - **Duration:** Six months
@@ -112,7 +114,7 @@ State policy is tracked separately: **7 records** (7 typed bill rows) in [`state
 ### Colleton County
 
 - **Type:** County
-- **Status:** ⚪ Replaced
+- **Recorded status:** ⚪ Replaced
 - **Date enacted:** July 6, 2026 (County Council third reading and enactment of Ordinance 26-O-04, effective immediately)
 - **Normalized date:** `2026-07-06` (exact)
 - **Duration:** Original ordinance: six months from enactment. September 14 amendment partially repeals it and states that the moratorium remains in effect in specified areas until final approval of the five-year comprehensive-plan update. The interaction of these provisions needs review.
@@ -128,7 +130,7 @@ State policy is tracked separately: **7 records** (7 typed bill rows) in [`state
 ### Fairfield County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** September 14, 2026 third reading listed in posted Ordinance 856; first reading July 13 and public hearing August 31. Execution fields blank; final adopted record unresolved.
 - **Normalized date:** `2026-09-14` (exact)
 - **Duration:** Posted unexecuted Ordinance 856 states no more than twelve months from effectiveness, subject to regulatory-framework provisions; final enacted term unresolved.
@@ -144,7 +146,7 @@ State policy is tracked separately: **7 records** (7 typed bill rows) in [`state
 ### Greenwood County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** July 21, 2026 (County Council 4-3 approval of third and final reading of Ordinance 2026-25)
 - **Normalized date:** `2026-07-21` (exact)
 - **Duration:** One year
@@ -160,7 +162,7 @@ State policy is tracked separately: **7 records** (7 typed bill rows) in [`state
 ### Jasper County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** September 21, 2026 (Monday night, third reading, unanimous)
 - **Normalized date:** `2026-09-21` (exact)
 - **Duration:** One year
@@ -176,7 +178,7 @@ State policy is tracked separately: **7 records** (7 typed bill rows) in [`state
 ### Kershaw County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** On or about September 22, 2026 (County Council third and final reading, per WIS reporting published Sept. 23, 2026; first and second readings passed Aug. 25 and Sept. 8, 2026, respectively)
 - **Normalized date:** `2026-09-22` (range)
 - **Duration:** One year
@@ -192,7 +194,7 @@ State policy is tracked separately: **7 records** (7 typed bill rows) in [`state
 ### Laurens County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** September 14, 2026 (County Council third and final reading, 6-0 vote, per Fox Carolina/WYFF4)
 - **Normalized date:** `2026-09-14` (exact)
 - **Duration:** One year
@@ -208,7 +210,7 @@ State policy is tracked separately: **7 records** (7 typed bill rows) in [`state
 ### Mount Pleasant
 
 - **Type:** Town
-- **Status:** 🟡 Pending
+- **Recorded status:** 🟡 Pending
 - **Date enacted:** —
 - **Normalized date:** `—` (unverified)
 - **Duration:** 120 days (proposed)
@@ -224,7 +226,7 @@ State policy is tracked separately: **7 records** (7 typed bill rows) in [`state
 ### Newberry County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** July 15, 2026 (third reading of Ordinance No. 06-01-2026); first reading June 3, 2026 invokes the pending ordinance doctrine.
 - **Normalized date:** `2026-07-15` (exact)
 - **Duration:** Twelve months or less from adoption, subject to the ordinance provisions.
@@ -240,7 +242,7 @@ State policy is tracked separately: **7 records** (7 typed bill rows) in [`state
 ### Orangeburg County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** September 8, 2026 (County Council third reading and public hearing, per the county's own official Sept. 8, 2026 agenda; first reading was at a July 23, 2026 special called meeting)
 - **Normalized date:** `2026-09-08` (exact)
 - **Duration:** One year
@@ -256,7 +258,7 @@ State policy is tracked separately: **7 records** (7 typed bill rows) in [`state
 ### Spartanburg County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** September 21, 2026 (County Council third and final reading, 5-1 vote, per Post and Courier and Fox Carolina; first reading occurred in late June 2026)
 - **Normalized date:** `2026-09-21` (exact)
 - **Duration:** One year (12 months)
@@ -272,7 +274,7 @@ State policy is tracked separately: **7 records** (7 typed bill rows) in [`state
 ### Sumter County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** An emergency 60-day moratorium (Ordinance 26-1049) covering solar, BESS, and data centers was approved and took effect immediately at the June 23, 2026 County Council meeting. Companion 180-day moratorium ordinances tailored to each use (Solar: Ordinance 26-1050; BESS: Ordinance 26-1051; Data Centers: Ordinance 26-1052) received second reading at a July 21, 2026 special called meeting, then unanimous third and final reading at the August 11, 2026 regular Council meeting, per the county's own final minutes.
 - **Normalized date:** `2026-08-11` (exact)
 - **Duration:** 180 days from the August 11, 2026 third-reading adoption of Ordinances 26-1050 (solar), 26-1051 (BESS), and 26-1052 (data centers), which superseded the 60-day emergency Ordinance 26-1049 (approved June 23, 2026, since lapsed)
@@ -288,7 +290,7 @@ State policy is tracked separately: **7 records** (7 typed bill rows) in [`state
 ### York County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** July 13, 2026 (County Council third reading and public hearing, effective immediately in unincorporated York County)
 - **Normalized date:** `2026-07-13` (exact)
 - **Duration:** Nine months

@@ -3,11 +3,13 @@
 
 Working inventory for North Dakota, generated **November 7, 2026**. Record-level refresh and later-action review remain incomplete.
 
-**10 instruments** — 3 in force, 1 pending, 6 past.
+**10 records** — 3 classified as active or extended, 1 classified as pending, 6 classified as past.
+
+These counts reflect inventory classifications and do not establish current enforceability.
 
 State policy is tracked separately: **2 records** (2 typed bill rows) in [`state_legislation.csv`](../data/state_legislation.csv). These are not included in the local count above.
 
-| Jurisdiction | Type | Enacted | Sectors | Status |
+| Jurisdiction | Type | Enacted | Sectors | Recorded status |
 |---|---|---|---|---|
 | Barnes County | County | 2026-05-19 | data center | 🟢 Active |
 | Dunn County | County | 2026-03-18 | data center, solar, battery storage | 🟢 Active |
@@ -25,7 +27,7 @@ State policy is tracked separately: **2 records** (2 typed bill rows) in [`state
 ### Barnes County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-05-19, Barnes County Commission (Valley City, ND), motion by Pete Paulson, seconded by Mike Schwehr, passed 5-0.
 - **Normalized date:** `2026-05-19` (exact)
 - **Duration:** Six months from adoption (to approximately 2026-11-19).
@@ -41,7 +43,7 @@ State policy is tracked separately: **2 records** (2 typed bill rows) in [`state
 ### Dunn County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-03-18
 - **Normalized date:** `2026-03-18` (exact)
 - **Duration:** 12 months
@@ -57,7 +59,7 @@ State policy is tracked separately: **2 records** (2 typed bill rows) in [`state
 ### Harmony Township
 
 - **Type:** Township
-- **Status:** 🟡 Pending
+- **Recorded status:** 🟡 Pending
 - **Date enacted:** —
 - **Normalized date:** `—` (unverified)
 - **Duration:** Proposed two-year zoning moratorium on all industrial-scale development, including solar, wind, data centers, battery storage systems, electric transmission lines and gas-fired electrical generation facilities, to allow the township to update its zoning ordinances; not yet adopted
@@ -73,7 +75,7 @@ State policy is tracked separately: **2 records** (2 typed bill rows) in [`state
 ### McIntosh County
 
 - **Type:** County
-- **Status:** 🟢 Extended
+- **Recorded status:** 🟢 Extended
 - **Date enacted:** First enacted in July 2025 (exact date not confirmed in sources reviewed); extended by County Commissioner vote on 2026-06-01
 - **Normalized date:** `2025-07` (month_only)
 - **Duration:** A moratorium on the use of county-maintained roads for the transport and delivery of equipment and materials associated with wind turbine, solar panel, and related infrastructure construction; originally a 12-month term from its July 2025 enactment, extended by commissioner vote on 2026-06-01 (the length of the extension was not specified in the source reviewed)
@@ -89,7 +91,7 @@ State policy is tracked separately: **2 records** (2 typed bill rows) in [`state
 ### Mercer County
 
 - **Type:** County
-- **Status:** ⚪ Replaced
+- **Recorded status:** ⚪ Replaced
 - **Date enacted:** 2026-03-03
 - **Normalized date:** `2026-03-03` (exact)
 - **Duration:** 1 year
@@ -105,7 +107,7 @@ State policy is tracked separately: **2 records** (2 typed bill rows) in [`state
 ### Morton County
 
 - **Type:** County
-- **Status:** ⚪ Replaced
+- **Recorded status:** ⚪ Replaced
 - **Date enacted:** 2024-09-12
 - **Normalized date:** `2024-09-12` (exact)
 - **Duration:** Ran until siting and performance standards for data centers and cryptocurrency mining facilities were developed and adopted. The County Commission adopted a Data Center Standards section of the Morton County Land Use Code on 2026-09-10, satisfying that condition, per the county's own website.
@@ -121,7 +123,7 @@ State policy is tracked separately: **2 records** (2 typed bill rows) in [`state
 ### Oliver County (Phase 1)
 
 - **Type:** County
-- **Status:** 🔴 Rescinded
+- **Recorded status:** 🔴 Rescinded
 - **Date enacted:** 2024-12-12
 - **Normalized date:** `2024-12-12` (exact)
 - **Duration:** Until land use code amendments were developed and adopted
@@ -137,7 +139,7 @@ State policy is tracked separately: **2 records** (2 typed bill rows) in [`state
 ### Oliver County (Phase 2)
 
 - **Type:** County
-- **Status:** ⚪ Expired
+- **Recorded status:** ⚪ Expired
 - **Date enacted:** 2025-05-06
 - **Normalized date:** `2025-05-06` (exact)
 - **Duration:** 90 days
@@ -153,7 +155,7 @@ State policy is tracked separately: **2 records** (2 typed bill rows) in [`state
 ### Oliver County (Phase 3)
 
 - **Type:** County
-- **Status:** 🔴 Rescinded
+- **Recorded status:** 🔴 Rescinded
 - **Date enacted:** 2026-03-13
 - **Normalized date:** `2026-03-13` (exact)
 - **Duration:** 180 days, with option to extend
@@ -169,7 +171,7 @@ State policy is tracked separately: **2 records** (2 typed bill rows) in [`state
 ### Williams County
 
 - **Type:** County
-- **Status:** ⚪ Replaced
+- **Recorded status:** ⚪ Replaced
 - **Date enacted:** 2023-06-20
 - **Normalized date:** `2023-06-20` (exact)
 - **Duration:** 6 months, then extended to 2024-02-22

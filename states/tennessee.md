@@ -3,11 +3,13 @@
 
 Working inventory for Tennessee, generated **November 7, 2026**. Record-level refresh and later-action review remain incomplete.
 
-**46 instruments** — 38 in force, 6 pending, 2 past.
+**46 records** — 38 classified as active or extended, 6 classified as pending, 2 classified as past.
+
+These counts reflect inventory classifications and do not establish current enforceability.
 
 State policy is tracked separately: **9 records** (9 typed bill rows) in [`state_legislation.csv`](../data/state_legislation.csv). These are not included in the local count above.
 
-| Jurisdiction | Type | Enacted | Sectors | Status |
+| Jurisdiction | Type | Enacted | Sectors | Recorded status |
 |---|---|---|---|---|
 | Anderson County | County | 2026-06-15 | data center, cryptocurrency mining, battery storage | 🟢 Active |
 | Blount County | County | Unverified | data center, cryptocurrency mining | 🟡 Pending |
@@ -61,7 +63,7 @@ State policy is tracked separately: **9 records** (9 typed bill rows) in [`state
 ### Anderson County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-06-15, County Commission unanimous approval following a public hearing
 - **Normalized date:** `2026-06-15` (exact)
 - **Duration:** Two years
@@ -77,7 +79,7 @@ State policy is tracked separately: **9 records** (9 typed bill rows) in [`state
 ### Blount County
 
 - **Type:** County
-- **Status:** 🟡 Pending
+- **Recorded status:** 🟡 Pending
 - **Date enacted:** Pending: Blount County Planning Commission voted 9-0 at its July 2026 meeting to recommend a 12-month moratorium; the County Commission must adopt a resolution for it to take effect
 - **Normalized date:** `—` (unverified)
 - **Duration:** 12 months (recommended)
@@ -93,7 +95,7 @@ State policy is tracked separately: **9 records** (9 typed bill rows) in [`state
 ### Bristol
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** Second and final reading of Ordinance 25-20 was adopted by the Bristol City Council on October 7, 2025, per the Council's own meeting agenda; first reading passed unanimously September 9, 2025. The ordinance's effective date, per the Planning Commission staff memo dated 2026-03-19, is October 24, 2025 (17 days after adoption, consistent with standard publication timing).
 - **Normalized date:** `2025-10-24` (unverified)
 - **Duration:** Two years; expires 2027-10-24 unless extended or replaced
@@ -109,7 +111,7 @@ State policy is tracked separately: **9 records** (9 typed bill rows) in [`state
 ### Carter County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-08-17, Carter County Commission August meeting, motion by Commissioner Keith Range, seconded by Angie Manning, passed 20-1
 - **Normalized date:** `2026-08-17` (exact)
 - **Duration:** One year
@@ -125,7 +127,7 @@ State policy is tracked separately: **9 records** (9 typed bill rows) in [`state
 ### Cedar Hill
 
 - **Type:** Town
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-06-01 (WSMV: 'Cedar Hill imposes two-year moratorium on data centers'), confirmed 2026-06-03 by News Channel 5 Nashville
 - **Normalized date:** `2026-06-01` (exact)
 - **Duration:** Two years
@@ -141,7 +143,7 @@ State policy is tracked separately: **9 records** (9 typed bill rows) in [`state
 ### Charleston
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-09-08, Charleston City Commission unanimous approval on second reading (motion Vice Mayor Faye Callaway, second Matt Wiley), on recommendation of the Charleston Municipal Planning Commission
 - **Normalized date:** `2026-09-08` (exact)
 - **Duration:** 12 months from passage
@@ -157,7 +159,7 @@ State policy is tracked separately: **9 records** (9 typed bill rows) in [`state
 ### Clinton
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-06-22, City Council unanimous approval
 - **Normalized date:** `2026-06-22` (exact)
 - **Duration:** 6 months
@@ -173,7 +175,7 @@ State policy is tracked separately: **9 records** (9 typed bill rows) in [`state
 ### Cocke County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-06-15, Cocke County Legislative Body, agenda amended to adopt the Planning Commission-recommended moratorium resolution presented by the county attorney (roll call; eight of 14 commissioners present)
 - **Normalized date:** `2026-06-15` (exact)
 - **Duration:** One year, through June 30, 2027
@@ -189,7 +191,7 @@ State policy is tracked separately: **9 records** (9 typed bill rows) in [`state
 ### Coffee County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-06-09, County Legislative Body adoption of Resolution 2026-12, 13-0 with five members absent
 - **Normalized date:** `2026-06-09` (exact)
 - **Duration:** One year
@@ -205,7 +207,7 @@ State policy is tracked separately: **9 records** (9 typed bill rows) in [`state
 ### Crossville
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** Third and final reading of Ordinance 26-0286 adopted 2026-08-11 on the Crossville City Council consent agenda (first reading 2026-07-14; second reading approved at the late-July meeting).
 - **Normalized date:** `2026-08-11` (exact)
 - **Duration:** Posted unsigned ordinance states twenty-four months from effectiveness, subject to amendment; final executed term unresolved.
@@ -221,7 +223,7 @@ State policy is tracked separately: **9 records** (9 typed bill rows) in [`state
 ### Cumberland County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-06-15, County Commission unanimous adoption of Resolution 06-2026-31, after first adopting companion Resolution 06-2026-30 invoking County Powers Act authority
 - **Normalized date:** `2026-06-15` (exact)
 - **Duration:** Two years
@@ -237,7 +239,7 @@ State policy is tracked separately: **9 records** (9 typed bill rows) in [`state
 ### Dickson County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-07-20, Dickson County Commission regular meeting (Commissioner Rusty Grove absent); item added to the agenda at the work session (motion Danny Williams, second Cindi Gray)
 - **Normalized date:** `2026-07-20` (exact)
 - **Duration:** Six months
@@ -253,7 +255,7 @@ State policy is tracked separately: **9 records** (9 typed bill rows) in [`state
 ### Gallatin
 
 - **Type:** City
-- **Status:** 🟡 Pending
+- **Recorded status:** 🟡 Pending
 - **Date enacted:** Pending: passed first reading 2026-09-15 after being shortened from 12 to six months (Mayor Paige Brown broke the tie on the amendment); second reading scheduled for the next council meeting. Planning Commission recommended a 12-month moratorium 2026-08-24.
 - **Normalized date:** `—` (unverified)
 - **Duration:** Six months (as amended on first reading)
@@ -269,7 +271,7 @@ State policy is tracked separately: **9 records** (9 typed bill rows) in [`state
 ### Grundy County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-05-18, County Commission unanimous adoption of the "Data Mining Moratorium"
 - **Normalized date:** `2026-05-18` (exact)
 - **Duration:** Two years (May 18, 2026 through May 18, 2028)
@@ -285,7 +287,7 @@ State policy is tracked separately: **9 records** (9 typed bill rows) in [`state
 ### Hamblen County
 
 - **Type:** County
-- **Status:** 🟡 Pending
+- **Recorded status:** 🟡 Pending
 - **Date enacted:** Pending: Hamblen County Regional Planning Commission voted 2026-07-06 for a one-year moratorium ordinance; the ordinance takes effect only on adoption by the County Commission, which was not confirmed
 - **Normalized date:** `—` (unverified)
 - **Duration:** One year (per county announcement); ordinance text states no term
@@ -301,7 +303,7 @@ State policy is tracked separately: **9 records** (9 typed bill rows) in [`state
 ### Jefferson County
 
 - **Type:** County
-- **Status:** ⚪ Expired
+- **Recorded status:** ⚪ Expired
 - **Date enacted:** July 27, 2023 (Resolution 2023-40)
 - **Normalized date:** `2023-07-27` (exact)
 - **Duration:** Six months
@@ -317,7 +319,7 @@ State policy is tracked separately: **9 records** (9 typed bill rows) in [`state
 ### Johnson City
 
 - **Type:** City
-- **Status:** 🟢 Extended
+- **Recorded status:** 🟢 Extended
 - **Date enacted:** 2025-06-05
 - **Normalized date:** `2025-06-05` (exact)
 - **Duration:** 12 months from 2025-06-05, extended on 2026-05-21 by unanimous City Commission vote to 2026-12-03
@@ -333,7 +335,7 @@ State policy is tracked separately: **9 records** (9 typed bill rows) in [`state
 ### Jonesborough
 
 - **Type:** Town
-- **Status:** ⚪ Replaced
+- **Recorded status:** ⚪ Replaced
 - **Date enacted:** November 3, 2025: Board of Mayor and Aldermen approved the moratorium on second and final reading; October 13, 2025 was first reading.
 - **Normalized date:** `2025-11-03` (exact)
 - **Duration:** Two years; proposed expiration 2027-11-03 unless extended
@@ -349,7 +351,7 @@ State policy is tracked separately: **9 records** (9 typed bill rows) in [`state
 ### Kingston Springs
 
 - **Type:** Town
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-08-20, Kingston Springs Board of Commissioners approval on second reading
 - **Normalized date:** `2026-08-20` (exact)
 - **Duration:** 12 months
@@ -365,7 +367,7 @@ State policy is tracked separately: **9 records** (9 typed bill rows) in [`state
 ### Knox County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-06-22, County Commission 10-0 adoption (one member recused), effective immediately
 - **Normalized date:** `2026-06-22` (exact)
 - **Duration:** Effective immediately through June 30, 2027
@@ -381,7 +383,7 @@ State policy is tracked separately: **9 records** (9 typed bill rows) in [`state
 ### Knoxville
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-07-07, City Council approval of an emergency ordinance
 - **Normalized date:** `2026-07-07` (exact)
 - **Duration:** One year, until July 7, 2027, or until data center zoning amendments take effect, whichever occurs first
@@ -397,7 +399,7 @@ State policy is tracked separately: **9 records** (9 typed bill rows) in [`state
 ### LaFollette
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-08-04 (Tuesday before the 2026-08-05 report), LaFollette City Council unanimous 4-0 approval of an ordinance
 - **Normalized date:** `2026-08-04` (exact)
 - **Duration:** One year
@@ -413,7 +415,7 @@ State policy is tracked separately: **9 records** (9 typed bill rows) in [`state
 ### Loudon
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-08-24, Loudon City Council, 3-2 vote on a resolution (amended from 18 to 12 months) following a July Loudon Regional Planning Commission recommendation
 - **Normalized date:** `2026-08-24` (exact)
 - **Duration:** 12 months, with an optional 12-month extension
@@ -429,7 +431,7 @@ State policy is tracked separately: **9 records** (9 typed bill rows) in [`state
 ### Loudon County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-06-29, County Commission adoption, immediately effective
 - **Normalized date:** `2026-06-29` (exact)
 - **Duration:** 6 months, unless standards are adopted or the Commission extends, modifies, or rescinds it sooner
@@ -445,7 +447,7 @@ State policy is tracked separately: **9 records** (9 typed bill rows) in [`state
 ### Maury County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-07-20, Maury County Commission unanimous vote on a resolution recommended by the Regional Planning Commission
 - **Normalized date:** `2026-07-20` (exact)
 - **Duration:** Up to 12 months, or until the county updates its zoning standards, whichever is first; may be extended
@@ -461,7 +463,7 @@ State policy is tracked separately: **9 records** (9 typed bill rows) in [`state
 ### McMinnville
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-06-03 first reading of Ordinance 2026-09; final passage and effective date unverified.
 - **Normalized date:** `—` (unverified)
 - **Duration:** 18 months
@@ -477,7 +479,7 @@ State policy is tracked separately: **9 records** (9 typed bill rows) in [`state
 ### Memphis
 
 - **Type:** City
-- **Status:** 🟡 Pending
+- **Recorded status:** 🟡 Pending
 - **Date enacted:** Pending: passed first reading 2026-08-18 (7-0) and second reading 2026-09-01; third and final reading deferred on 2026-09-15 to the 2026-10-06 council meeting, where sponsor JB Smiley plans an amended version
 - **Normalized date:** `—` (unverified)
 - **Duration:** 12 months from effective date, or until comprehensive data center zoning is adopted or the ordinance is repealed, whichever is earlier; extendable
@@ -493,7 +495,7 @@ State policy is tracked separately: **9 records** (9 typed bill rows) in [`state
 ### Moore County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** April 20, 2026 (Metro Council final approval)
 - **Normalized date:** `2026-04-20` (exact)
 - **Duration:** Two years
@@ -509,7 +511,7 @@ State policy is tracked separately: **9 records** (9 typed bill rows) in [`state
 ### Morgan County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-06-12, County Commission approval of a resolution
 - **Normalized date:** `2026-06-12` (exact)
 - **Duration:** Two years
@@ -525,7 +527,7 @@ State policy is tracked separately: **9 records** (9 typed bill rows) in [`state
 ### Nashville-Davidson County
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** Metro Council passed BL2026-1448 on third reading, as amended, on 2026-07-21; Mayor Freddie O'Connell approved it on 2026-07-24
 - **Normalized date:** `2026-07-24` (exact)
 - **Duration:** Through December 1, 2026. BL2026-1448 as introduced ran until November 1, 2026 or the effective date of BL2026-1391/BL2026-1392, whichever came first; Councilmember Johnston's floor amendment on third reading (2026-07-21) extended it to run through December 1, 2026 whether or not the zoning bills took effect earlier.
@@ -541,7 +543,7 @@ State policy is tracked separately: **9 records** (9 typed bill rows) in [`state
 ### Orlinda
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-06-11
 - **Normalized date:** `2026-06-11` (exact)
 - **Duration:** Two calendar years from immediate effectiveness upon passage June 11, 2026; derived calendar endpoint June 11, 2028
@@ -557,7 +559,7 @@ State policy is tracked separately: **9 records** (9 typed bill rows) in [`state
 ### Paris
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** July 2026 (exact date not confirmed)
 - **Normalized date:** `2026-07` (month_only)
 - **Duration:** Until zoning-ordinance rework is complete; city attorney estimated up to about a year
@@ -573,7 +575,7 @@ State policy is tracked separately: **9 records** (9 typed bill rows) in [`state
 ### Rhea County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-07-21, Rhea County Commission unanimous vote on a resolution sponsored by District 7 Commissioner Jacob Ellis (motion Mark Cashman, second Nick Welch), effective immediately
 - **Normalized date:** `2026-07-21` (exact)
 - **Duration:** Temporary; term not stated in coverage
@@ -589,7 +591,7 @@ State policy is tracked separately: **9 records** (9 typed bill rows) in [`state
 ### Roane County
 
 - **Type:** County
-- **Status:** 🟡 Pending
+- **Recorded status:** 🟡 Pending
 - **Date enacted:** Pending: 2026-07-13 Roane County Commission unanimously adopted a resolution requesting a Regional Planning Commission recommendation on a two-year moratorium (amended from 180 days); the moratorium itself was not yet adopted
 - **Normalized date:** `—` (unverified)
 - **Duration:** Two years (requested)
@@ -605,7 +607,7 @@ State policy is tracked separately: **9 records** (9 typed bill rows) in [`state
 ### Sevierville
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** August 17, 2026, Sevierville Board of Mayor and Aldermen, Ordinance O2026-011 adopted on third and final reading (unanimous roll call: Helton, Koester, McCroskey, Ohman, Rader all Yes); first reading July 20, 2026, second reading August 3, 2026
 - **Normalized date:** `2026-08-17` (exact)
 - **Duration:** Second-reading packet states eighteen months from effectiveness, subject to amendment; final executed wording unresolved.
@@ -621,7 +623,7 @@ State policy is tracked separately: **9 records** (9 typed bill rows) in [`state
 ### Shelbyville
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-07-07, City Council vote
 - **Normalized date:** `2026-07-07` (exact)
 - **Duration:** One year
@@ -637,7 +639,7 @@ State policy is tracked separately: **9 records** (9 typed bill rows) in [`state
 ### Smithville
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** Ordinance 543 adopted on second and final reading by the Smithville Board of Mayor and Aldermen at its regular meeting on 2026-08-03 (first reading 2026-07-15 at a special-called session)
 - **Normalized date:** `2026-08-03` (exact)
 - **Duration:** 18 months from final passage (through about 2028-02-03), or until permanent zoning amendments are adopted, whichever occurs first; extendable by ordinance amendment
@@ -653,7 +655,7 @@ State policy is tracked separately: **9 records** (9 typed bill rows) in [`state
 ### Sparta
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** August 16, 2026 published agenda language notwithstanding, official minutes show: June 18, 2026 - Resolution 26-626 (findings/intent) adopted and Ordinance 26-1003 given FIRST reading only; July 16, 2026 - Ordinance 26-1003 passed on SECOND AND FINAL reading (unanimous roll call), Sparta Board of Mayor and Aldermen
 - **Normalized date:** `2026-07-16` (exact)
 - **Duration:** 180 days
@@ -669,7 +671,7 @@ State policy is tracked separately: **9 records** (9 typed bill rows) in [`state
 ### Spring City
 
 - **Type:** Town
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** Final vote 2026-07-30 after a public hearing (first vote 2026-07-16), Spring City Board of Commissioners
 - **Normalized date:** `2026-07-30` (exact)
 - **Duration:** Two years unless ended or extended sooner
@@ -685,7 +687,7 @@ State policy is tracked separately: **9 records** (9 typed bill rows) in [`state
 ### Sullivan County
 
 - **Type:** County
-- **Status:** 🟢 Extended
+- **Recorded status:** 🟢 Extended
 - **Date enacted:** Resolution No. 2025-11-07 was introduced 2025-11-20 and carried as Old Business on the 2025-12-18 agenda; per the Kingsport Times-News (2026-06-11) and its sponsor, Commissioner Jessica Means (WJHL), the four-month moratorium was finally approved in January 2026. In April 2026 the Commission extended it to a full 12 months, ending January 2027.
 - **Normalized date:** `2026-01` (month_only)
 - **Duration:** Originally four months (January to May 2026); extended at the April 16, 2026 Commission meeting to a full 12 months, ending January 2027
@@ -701,7 +703,7 @@ State policy is tracked separately: **9 records** (9 typed bill rows) in [`state
 ### Trousdale County
 
 - **Type:** County
-- **Status:** 🟡 Pending
+- **Recorded status:** 🟡 Pending
 - **Date enacted:** Pending: Trousdale County (Hartsville/Trousdale) Planning Commission recommended a one-year moratorium at its July 2026 meeting; governing-body adoption not found
 - **Normalized date:** `—` (unverified)
 - **Duration:** One year (recommended)
@@ -717,7 +719,7 @@ State policy is tracked separately: **9 records** (9 typed bill rows) in [`state
 ### Unincorporated Hamilton County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-07-15, County Commission approval
 - **Normalized date:** `2026-07-15` (exact)
 - **Duration:** Minutes describe a proposed one-year moratorium; final executed term and operative interval unresolved.
@@ -733,7 +735,7 @@ State policy is tracked separately: **9 records** (9 typed bill rows) in [`state
 ### Warren County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-06-22, County Commission adoption
 - **Normalized date:** `2026-06-22` (exact)
 - **Duration:** 12 months, extendable
@@ -749,7 +751,7 @@ State policy is tracked separately: **9 records** (9 typed bill rows) in [`state
 ### Washington County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-03-23
 - **Normalized date:** `2026-03-23` (exact)
 - **Duration:** Effective immediately through 2027-06-30, with possible extension
@@ -765,7 +767,7 @@ State policy is tracked separately: **9 records** (9 typed bill rows) in [`state
 ### White County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-07-20, White County Commission (Full Court) adoption of a resolution banning data centers, sent up unanimously by Steering Committee B; passed against the county attorney's and County Executive's advice
 - **Normalized date:** `2026-07-20` (exact)
 - **Duration:** Indefinite, while officials study electric, water, noise, wildlife, and land-use effects
@@ -781,7 +783,7 @@ State policy is tracked separately: **9 records** (9 typed bill rows) in [`state
 ### Wilson County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-07-20, Wilson County Commission unanimous adoption of a resolution (three members absent), after the Planning and Zoning Committee recommended it on 2026-06-22
 - **Normalized date:** `2026-07-20` (exact)
 - **Duration:** Six months

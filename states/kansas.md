@@ -3,11 +3,13 @@
 
 Working inventory for Kansas, generated **November 7, 2026**. Record-level refresh and later-action review remain incomplete.
 
-**26 instruments** — 23 in force, 0 pending, 3 past.
+**26 records** — 23 classified as active or extended, 0 classified as pending, 3 classified as past.
+
+These counts reflect inventory classifications and do not establish current enforceability.
 
 State policy is tracked separately: **12 records** (12 typed bill rows) in [`state_legislation.csv`](../data/state_legislation.csv). These are not included in the local count above.
 
-| Jurisdiction | Type | Enacted | Sectors | Status |
+| Jurisdiction | Type | Enacted | Sectors | Recorded status |
 |---|---|---|---|---|
 | Allen County | County | 2025-01-14 | battery storage | ⚪ Replaced |
 | Bourbon County | County | 2026-06-15 | data center, cryptocurrency mining, general | 🟢 Active |
@@ -41,7 +43,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Allen County
 
 - **Type:** County
-- **Status:** ⚪ Replaced
+- **Recorded status:** ⚪ Replaced
 - **Date enacted:** 2025-01-14 (Board of County Commissioners, Resolution 202502)
 - **Normalized date:** `2025-01-14` (exact)
 - **Duration:** 180-day moratorium, replaced by permanent regulations
@@ -57,7 +59,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Bourbon County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-06-15
 - **Normalized date:** `2026-06-15` (exact)
 - **Duration:** 365 days or until the county adopts applicable zoning regulations, whichever occurs first, according to the June 15, 2026 minutes.
@@ -73,7 +75,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Brown County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-03-02 (confirmed by signed BoCC minutes, Book V Page 129)
 - **Normalized date:** `2026-03-02` (exact)
 - **Duration:** 18 months or until regulations are adopted, whichever comes first
@@ -89,7 +91,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Dickinson County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-07-30
 - **Normalized date:** `2026-07-30` (exact)
 - **Duration:** Resolution 073026 directs zoning review for three years, with category dates of July 30, 2027 for data centers, July 30, 2028 for BESS, and July 30, 2029 for renewable energy; the resolution states it remains in force until July 30, 2029, subject to amendment. The relationship between the category review dates and the operative moratorium requires clarification.
@@ -105,7 +107,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### El Dorado
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-07-13
 - **Normalized date:** `2026-07-13` (exact)
 - **Duration:** From adoption at a July 13, 2026 special meeting through November 30, 2026.
@@ -121,7 +123,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Franklin County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-09-02
 - **Normalized date:** `2026-09-02` (exact)
 - **Duration:** From the Sept. 2, 2026 commission meeting through Dec. 31, 2028.
@@ -137,7 +139,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Geary County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-06-22 (per KSNT reporting)
 - **Normalized date:** `2026-06-22` (exact)
 - **Duration:** One year from adoption
@@ -153,7 +155,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Harvey County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-01-13
 - **Normalized date:** `2026-01-13` (exact)
 - **Duration:** Through 2029-01-01, unless amended, extended, or terminated earlier
@@ -169,7 +171,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Kingman County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-02-09
 - **Normalized date:** `2026-02-09` (exact)
 - **Duration:** 18 months from effective date, unless reduced or extended
@@ -185,7 +187,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Lawrence
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-07-21 (second and final reading of Ordinance No. 10221; July 14 was earlier commission action).
 - **Normalized date:** `2026-07-21` (exact)
 - **Duration:** 24 calendar months; the exact effective-date anchor and any earlier repeal require the enacted ordinance and later-action review.
@@ -201,7 +203,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Leavenworth County
 
 - **Type:** County
-- **Status:** ⚪ Expired
+- **Recorded status:** ⚪ Expired
 - **Date enacted:** 2026-05-13
 - **Normalized date:** `2026-05-13` (exact)
 - **Duration:** 90 days from adoption (2026-05-13 through approximately 2026-08-11), passed 4-1.
@@ -217,7 +219,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Lyon County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-07-23
 - **Normalized date:** `2026-07-23` (exact)
 - **Duration:** Through 2027-01-22
@@ -233,7 +235,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Lyon County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-07-23
 - **Normalized date:** `2026-07-23` (exact)
 - **Duration:** Through 2026-12-01
@@ -249,7 +251,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Marion County
 
 - **Type:** County
-- **Status:** 🟢 Extended
+- **Recorded status:** 🟢 Extended
 - **Date enacted:** 2026-03-02 (per Citizen Portal AI summary of the March 3, 2026 commission action)
 - **Normalized date:** `2026-03-02` (exact)
 - **Duration:** Through 2027-06-01: Resolution No. 2026-12 (adopted 2026-03-02) originally ran through 2026-06-01; the Marion County BoCC unanimously adopted Resolution No. 2026-19 on 2026-05-11, extending the moratorium for one additional year, through 2027-06-01. (A separate Feb. 17, 2026 action had adopted a one-year battery-energy-storage moratorium expiring March 1, 2027; commissioners had earlier discussed a one-year pause on data centers but initially adopted a three-month interim instrument before extending it to a full year.)
@@ -265,7 +267,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Marysville
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-09-14 (date of city council meeting; adoption reported by September 16 Marysville Advocate).
 - **Normalized date:** `2026-09-14` (exact)
 - **Duration:** 12 calendar months from effective date, unless earlier repealed or superseded; the publication date and operative end date require confirmation.
@@ -281,7 +283,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### McPherson County
 
 - **Type:** County
-- **Status:** ⚪ Replaced
+- **Recorded status:** ⚪ Replaced
 - **Date enacted:** 2025-08-04
 - **Normalized date:** `2025-08-04` (exact)
 - **Duration:** Initially adopted 2025-08-04 (Resolution 2025-14) with an initial end date of 2026-03-01; later extended to 2026-12-01 (confirmed via convergent independent reporting: Wichita Eagle 2026-08 report and Citizen Journal's 2026-08-31 article both state the county's temporary freeze was 'due to expire Dec. 1'; the primary signed extension-resolution PDF was not located). Superseded early: on 2026-08-31 the McPherson County Commission voted unanimously (3-0) to adopt Resolution 2026-21, permanently banning data centers and utility-scale battery storage from unincorporated county land (and barring hydrogen energy systems except at refineries), ending the moratorium roughly three months before its scheduled Dec. 1, 2026 expiration. The ban carries no stated end date.
@@ -297,7 +299,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Miami County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** Early 2026, precise adoption date not confirmed in sources retrieved (commissioners were still considering the moratorium as of a Feb. 19, 2026 KSHB report and a Feb. 23, 2026 KOFO report; a May 2026 KSHB follow-up refers to the moratorium as already adopted 'earlier this year')
 - **Normalized date:** `2026-03` (unverified)
 - **Duration:** Three years from adoption, restricting data centers, battery storage, and similar technologies in unincorporated areas; does not apply to the City of Osawatomie's in-city 'Project Catalyst' data center site.
@@ -313,7 +315,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Neosho County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-05-19 (signed resolution)
 - **Normalized date:** `2026-05-19` (exact)
 - **Duration:** Effective upon adoption/publication and remaining in effect until June 1, 2027, unless extended, terminated early, or amended by subsequent resolution.
@@ -329,7 +331,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Riley County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-05-18. Confirmed by three independent sources: The Mercury ('Riley County commissioners on Monday implemented a temporary moratorium...'), KMAN/1350kman.com ('commissioners signed a resolution Monday'), and a Citizen Portal AI summary ('Riley County commissioners voted May 18 to adopt...'). Commissioners had discussed the idea in principle earlier (around April 2026), but the resolution was not signed/effective until May 18, 2026.
 - **Normalized date:** `2026-05-18` (exact)
 - **Duration:** Original resolution was reported to run until November 12, 2026 after publication; county planning page now reports a moratorium through May 14, 2027. The later instrument and precise effective dates remain to be verified.
@@ -345,7 +347,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Saline County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-03-17
 - **Normalized date:** `2026-03-17` (exact)
 - **Duration:** Three-year aggregate, structured as one year per covered category: 1 year data centers, 1 year nuclear power facilities, 1 year hydrogen-based energy facilities, per Salina Post interview with Commissioner Joe Hay; Wichita Eagle reported it as a three-year moratorium
@@ -361,7 +363,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Sedgwick County
 
 - **Type:** County
-- **Status:** 🟢 Extended
+- **Recorded status:** 🟢 Extended
 - **Date enacted:** 2026-01-14
 - **Normalized date:** `2026-01-14` (exact)
 - **Duration:** Initially 90 days through 2026-04-17 under Resolution 014-2026; on 2026-03-04 the BoCC voted unanimously to extend the moratorium to 2026-06-11 (Resolution No. 162-2026 recites this as 'June 12, 2026'); on 2026-05-06 the BoCC voted unanimously a second time to extend the moratorium to 2026-09-11 [VERIFY extension resolution number]; on 2026-09-02 the BoCC voted unanimously a third time, adopting Resolution No. 162-2026, extending the interim development control to the earlier of 2026-12-25 or the effective date of new Wichita-Sedgwick County Unified Zoning Code data-center provisions, and adding an exemption for data centers that are accessory structures/uses on the same lot as their principal use.
@@ -377,7 +379,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Sedgwick County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-03-11 (Board of County Commissioners, Resolution No. 049-2026)
 - **Normalized date:** `2026-03-11` (exact)
 - **Duration:** One-year interim development control
@@ -393,7 +395,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Sedgwick County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-06-17 (Board of County Commissioners, 5-0, Resolution No. 120-2026)
 - **Normalized date:** `2026-06-17` (exact)
 - **Duration:** Six-month interim development control
@@ -409,7 +411,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Shawnee County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-08-13
 - **Normalized date:** `2026-08-13` (exact)
 - **Duration:** Six months from adoption (2026-08-13 through 2027-02-17).
@@ -425,7 +427,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### South Hutchinson
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-05-26
 - **Normalized date:** `2026-05-26` (exact)
 - **Duration:** One year from adoption (2026-05-26 through 2027-05-26).
@@ -441,7 +443,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Topeka
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-07-14 (City Council, unanimous); amended 2026-08-11
 - **Normalized date:** `2026-07-14` (exact)
 - **Duration:** 12-month moratorium

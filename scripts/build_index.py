@@ -146,8 +146,8 @@ def changes_section(f: dict) -> str:
 <section class="release-notes">
   <div class="stamp">Working data &middot; November 5, 2026 cohort</div>
   <h2>The November working snapshot</h2>
-  <p class="lede">The inventory tracks {f['rows']} local instruments across {f['states']} states.
-  Recorded classifications include {f['active']} active and {f['extended']} extended instruments,
+  <p class="lede">The inventory tracks {f['rows']} local inventory records across {f['states']} states.
+  Recorded classifications include {f['active']} active and {f['extended']} extended records,
   {f['pending']} pending, {f['replaced']} replaced, {f['expired']} expired and {f['rescinded']} rescinded.
   Source dates vary by record; these totals do not establish freshly verified current legal force.</p>
   <h3>Ballots and state policy have separate denominators</h3>
@@ -183,16 +183,16 @@ def build_edits(f: dict) -> list[tuple[str, str, str]]:
     )
     return [
         ("document title",
-         r'(<title>Moratorium Nation \| )\d+( Local Pauses \+ State Data Center Restrictions</title>)',
+         r'(<title>Moratorium Nation \| )\d+( Local Moratorium Records \+ State Data Center Restrictions</title>)',
          rf"\g<1>{f['rows']}\g<2>"),
         ("meta description",
-         r'(<meta name="description" content="Open data and a 116-page working paper on )\d+( local-government moratoria)',
+         r'(<meta name="description" content="Open data and a 116-page working paper on )\d+( local-government moratorium records)',
          rf"\g<1>{f['rows']}\g<2>"),
         ("meta description date",
          r'(cryptocurrency mining across the United States\. Updated )[A-Z][a-z]+(?: \d{1,2},)? \d{4}(\.")',
          rf"\g<1>{RELEASE_LABEL}\g<2>"),
         ("og:description",
-         r'(<meta property="og:description" content=")\d+( local moratoria across )\d+( states)',
+         r'(<meta property="og:description" content=")\d+( local moratorium records across )\d+( states)',
          rf"\g<1>{f['rows']}\g<2>{f['states']}\g<3>"),
         ("og:description date",
          r'(state policy actions\. Open data, working cohort through )[A-Z][a-z]+ \d{1,2}, \d{4}(\.")',
@@ -207,7 +207,7 @@ def build_edits(f: dict) -> list[tuple[str, str, str]]:
          r'(<meta property="og:description" content="[^\n]+, plus )\d+( state policy actions\.)',
          rf"\g<1>{f['state_policy_actions']}\g<2>"),
         ("twitter description",
-         r'(<meta name="twitter:description" content=")\d+( local moratoria across )\d+( states, plus )\d+( state policy actions\.)',
+         r'(<meta name="twitter:description" content=")\d+( local moratorium records across )\d+( states, plus )\d+( state policy actions\.)',
          rf"\g<1>{f['rows']}\g<2>{f['states']}\g<3>{f['state_policy_actions']}\g<4>"),
         # The date lives in the hero eyebrow now, not the subtitle.
         ("hero eyebrow date",
@@ -239,15 +239,15 @@ def build_edits(f: dict) -> list[tuple[str, str, str]]:
          r'(<strong class="scope-number" id="scope-state-count">)\d+(</strong>)',
          rf"\g<1>{f['state_policy_actions']}\g<2>"),
         ("map caption",
-         r"(Map shows )\d+( of )\d+( instruments\.)",
+         r"(Map shows )\d+( of )\d+( records\.)",
          rf"\g<1>{f['geocoded']}\g<2>{f['rows']}\g<3>"),
         ("top-states heading",
          r"(<h2>Top )\d+( states by moratorium count</h2>)",
          rf"\g<1>{top_n}\g<2>"),
         ("top-states lead",
-         r"(?:These|Thirteen|\w+) states hold roughly [\w -]+ of the instruments we have found\.",
+         r"(?:These|Thirteen|\w+) states hold roughly [\w -]+ of the records we have found\.",
          f"{NUMBER_WORDS.get(top_n, str(top_n))} states hold roughly {share_phrase} of the "
-         f"instruments we have found."),
+         f"records we have found."),
         ("top-states rows",
          r'(<div class="top-states">\n)(?:.*?\n)*?(  </div>)',
          lambda: top_states_block(f["top"]) + r"\n\g<2>"),
@@ -330,7 +330,7 @@ def main() -> int:
             html = new_html
             applied.append(label)
 
-    print(f"Data: {f['rows']} instruments, {f['in_force']} in force, {f['pending']} pending, "
+    print(f"Data: {f['rows']} records, {f['in_force']} classified active or extended, {f['pending']} classified pending, "
           f"{f['states']} states, {f['geocoded']} geocoded, {f['bills']} bills")
 
     if missing:

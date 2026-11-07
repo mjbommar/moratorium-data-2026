@@ -3,11 +3,13 @@
 
 Working inventory for Alaska, generated **November 7, 2026**. Record-level refresh and later-action review remain incomplete.
 
-**3 instruments** — 1 in force, 2 pending, 0 past.
+**3 records** — 1 classified as active or extended, 2 classified as pending, 0 classified as past.
+
+These counts reflect inventory classifications and do not establish current enforceability.
 
 State policy is tracked separately: **3 records** (2 typed bill rows and 1 non-bill row) in [`state_legislation.csv`](../data/state_legislation.csv). These are not included in the local count above.
 
-| Jurisdiction | Type | Enacted | Sectors | Status |
+| Jurisdiction | Type | Enacted | Sectors | Recorded status |
 |---|---|---|---|---|
 | Fairbanks North Star Borough | County | Unverified | data center | 🟡 Pending |
 | Houston | City | 2026-10-08 | data center | 🟢 Active |
@@ -18,7 +20,7 @@ State policy is tracked separately: **3 records** (2 typed bill rows and 1 non-b
 ### Fairbanks North Star Borough
 
 - **Type:** County
-- **Status:** 🟡 Pending
+- **Recorded status:** 🟡 Pending
 - **Date enacted:** —
 - **Normalized date:** `—` (unverified)
 - **Duration:** Unknown; proposed term not established by the reviewed referral memorandum.
@@ -34,7 +36,7 @@ State policy is tracked separately: **3 records** (2 typed bill rows and 1 non-b
 ### Houston
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-10-08
 - **Normalized date:** `2026-10-08` (exact)
 - **Duration:** Two calendar years from the effective date, unless repealed earlier or extended by subsequent ordinance. Effective upon passage and mayoral signature; signature date is not specified in the signed document.
@@ -50,7 +52,7 @@ State policy is tracked separately: **3 records** (2 typed bill rows and 1 non-b
 ### Petersburg Borough
 
 - **Type:** County
-- **Status:** 🟡 Pending
+- **Recorded status:** 🟡 Pending
 - **Date enacted:** —
 - **Normalized date:** `—` (unverified)
 - **Duration:** Proposed through September 30, 2027, unless extended by Assembly resolution or earlier repealed; no operative end date accepted.

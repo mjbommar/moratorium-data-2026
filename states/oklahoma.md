@@ -3,11 +3,13 @@
 
 Working inventory for Oklahoma, generated **November 7, 2026**. Record-level refresh and later-action review remain incomplete.
 
-**10 instruments** — 10 in force, 0 pending, 0 past.
+**10 records** — 10 classified as active or extended, 0 classified as pending, 0 classified as past.
+
+These counts reflect inventory classifications and do not establish current enforceability.
 
 State policy is tracked separately: **12 records** (12 typed bill rows) in [`state_legislation.csv`](../data/state_legislation.csv). These are not included in the local count above.
 
-| Jurisdiction | Type | Enacted | Sectors | Status |
+| Jurisdiction | Type | Enacted | Sectors | Recorded status |
 |---|---|---|---|---|
 | Broken Arrow | City | 2026-06-15 | data center | 🟢 Active |
 | Choctaw | City | 2026-07-21 | data center | 🟢 Active |
@@ -25,7 +27,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Broken Arrow
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-06-15, City Council enactment with emergency clause
 - **Normalized date:** `2026-06-15` (exact)
 - **Duration:** Until the earlier of December 31, 2026, or adoption of permanent regulations, with a possible extension totaling no more than six additional months
@@ -41,7 +43,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Choctaw
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-07-21, Choctaw City Council, 6-1 vote (Councilman Cody Brewer dissenting on principle, not disagreement); accompanying emergency clause passed 6-1 (Councilman Brent Pendergraft dissenting)
 - **Normalized date:** `2026-07-21` (exact)
 - **Duration:** 12 months from the July 21, 2026 adoption date
@@ -57,7 +59,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Edmond
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-06-08 (Monday), Edmond City Council, unanimous vote, adopted with an emergency clause making it effective immediately.
 - **Normalized date:** `2026-06-08` (exact)
 - **Duration:** Runs through 2026-12-31; staff to report back to council at the 2, 3, and 5-month marks.
@@ -73,7 +75,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Luther
 
 - **Type:** Town
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-06-17, Board of Trustees enactment (emergency), meeting relocated outdoors to accommodate attendance
 - **Normalized date:** `2026-06-17` (exact)
 - **Duration:** New data center rezoning and Specific Use Permit applications paused through December 31, 2026, per the published ordinance text
@@ -89,7 +91,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Norman
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-06-23, City Council unanimous enactment, emergency provision effective upon adoption and publication
 - **Normalized date:** `2026-06-23` (exact)
 - **Duration:** Through June 9, 2027, or earlier adoption of data center zoning regulations
@@ -105,7 +107,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Oklahoma City
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-04-21
 - **Normalized date:** `2026-04-21` (exact)
 - **Duration:** Until 2026-12-31, or earlier if data center zoning amendments are adopted
@@ -121,7 +123,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Pawhuska
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-04-14
 - **Normalized date:** `2026-04-14` (exact)
 - **Duration:** Until 2026-12-31, or earlier if data center regulations are adopted
@@ -137,7 +139,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Seminole Nation of Oklahoma
 
 - **Type:** Tribal
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-03-07
 - **Normalized date:** `2026-03-07` (exact)
 - **Duration:** Indefinite by design, not merely undisclosed. Per KGOU reporting (June 25, 2026), the resolution's author, Rev. Chebon Kernell, originally drafted a ban on data-center discussions/inquiries/development, but 'that proposal turned into an indefinite moratorium at the suggestion of another council member.' The resolution's own phrase 'the moratorium period' (as quoted by Native News Online) therefore refers to an open-ended condition rather than a fixed numeric term that simply has not been published. The full resolution text remains unposted on sno-nsn.gov.
@@ -153,7 +155,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Shawnee
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-08-17 (Monday), Shawnee City Commission, unanimous 7-0 vote; resolution sponsored by Commissioner Chris Odneal
 - **Normalized date:** `2026-08-17` (exact)
 - **Duration:** From adoption through December 31, 2027
@@ -169,7 +171,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 ### Tulsa
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-03-25 (unanimous Council vote; reported by Oklahoma Energy Today and Tulsa Flyer; ordinance text included emergency clause requiring immediate effectiveness, so adoption and effective dates coincide)
 - **Normalized date:** `2026-03-25` (exact)
 - **Duration:** Through 2026-12-31, or earlier if data center zoning amendments are adopted

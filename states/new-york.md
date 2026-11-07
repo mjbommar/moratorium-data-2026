@@ -3,11 +3,13 @@
 
 Working inventory for New York, generated **November 7, 2026**. Record-level refresh and later-action review remain incomplete.
 
-**152 instruments** — 110 in force, 6 pending, 36 past.
+**152 records** — 110 classified as active or extended, 6 classified as pending, 36 classified as past.
+
+These counts reflect inventory classifications and do not establish current enforceability.
 
 State policy is tracked separately: **11 records** (10 typed bill rows and 1 non-bill row) in [`state_legislation.csv`](../data/state_legislation.csv). These are not included in the local count above.
 
-| Jurisdiction | Type | Enacted | Sectors | Status |
+| Jurisdiction | Type | Enacted | Sectors | Recorded status |
 |---|---|---|---|---|
 | Albion | Town | 2025-02 | battery storage, solar | ⚪ Replaced |
 | Allen (Allegany County) | Town | Unverified | battery storage | 🟢 Active |
@@ -167,7 +169,7 @@ State policy is tracked separately: **11 records** (10 typed bill rows and 1 non
 ### Albion
 
 - **Type:** Town
-- **Status:** ⚪ Replaced
+- **Recorded status:** ⚪ Replaced
 - **Date enacted:** Six-month moratorium, town public hearings scheduled 2025-02-10 following county planning board recommendation on 2025-01-23
 - **Normalized date:** `2025-02` (month_only)
 - **Duration:** 6 months
@@ -183,7 +185,7 @@ State policy is tracked separately: **11 records** (10 typed bill rows and 1 non
 ### Allen (Allegany County)
 
 - **Type:** Town
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** —
 - **Normalized date:** `—` (unverified)
 - **Duration:** Reported active by Carina Energy
@@ -199,7 +201,7 @@ State policy is tracked separately: **11 records** (10 typed bill rows and 1 non
 ### Amsterdam
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** December 2, 2025 (City of Amsterdam Common Council adopted a local law establishing a six-month moratorium on land-use approvals/building permits for industrial solar and battery energy storage systems, effective through June 2, 2026); per Daily Gazette, Dec. 8, 2025. Extended by a local law adopted on or about May 19, 2026 to Jan. 5, 2027 ('through the end of the year'); per Daily Gazette, May 25, 2026.
 - **Normalized date:** `2025-12-02` (exact)
 - **Duration:** Six months from Dec. 2, 2025 (through June 2, 2026), then extended by a local law adopted ~May 19, 2026 to Jan. 5, 2027
@@ -215,7 +217,7 @@ State policy is tracked separately: **11 records** (10 typed bill rows and 1 non
 ### Angelica
 
 - **Type:** Town
-- **Status:** ⚪ Expired
+- **Recorded status:** ⚪ Expired
 - **Date enacted:** Filed with the NYS Department of State on 2024-10-31
 - **Normalized date:** `2024-10-31` (exact)
 - **Duration:** Six months, extended twice for six months each by a Town Board motion on 2025-02-10 (18 months total)
@@ -231,7 +233,7 @@ State policy is tracked separately: **11 records** (10 typed bill rows and 1 non
 ### Arietta
 
 - **Type:** Town
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** Public hearing and adoption at the June 15, 2026 Town Board meeting (Resolution 26-06-30, Local Law No. 01 of 2026)
 - **Normalized date:** `2026-06-15` (exact)
 - **Duration:** One year (per tracker corroboration; not independently confirmed from the agenda alone)
@@ -247,7 +249,7 @@ State policy is tracked separately: **11 records** (10 typed bill rows and 1 non
 ### Athens
 
 - **Type:** Town
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-03 (public hearing 'Monday night' following a February 21, 2026 Town Board discussion; 3-2 vote)
 - **Normalized date:** `2026-03` (month_only)
 - **Duration:** At least six months and up to a year
@@ -263,7 +265,7 @@ State policy is tracked separately: **11 records** (10 typed bill rows and 1 non
 ### Aurora (Erie County)
 
 - **Type:** Town
-- **Status:** 🟢 Extended
+- **Recorded status:** 🟢 Extended
 - **Date enacted:** 2025-05-27, filed with the NYS Department of State 2025-06-09
 - **Normalized date:** `2025-05-27` (exact)
 - **Duration:** Six months, extended by resolution for additional six-month periods
@@ -279,7 +281,7 @@ State policy is tracked separately: **11 records** (10 typed bill rows and 1 non
 ### Babylon
 
 - **Type:** Town
-- **Status:** 🟢 Extended
+- **Recorded status:** 🟢 Extended
 - **Date enacted:** 2024-06-05, Local Law 11 of 2024
 - **Normalized date:** `2024-06-05` (exact)
 - **Duration:** Six months, repeatedly extended by resolution (Local Law 23 of 2024 on 2024-12-04; Local Law 8 of 2025 on 2025-07-09; Local Law 2 of 2026 on 2026-01-05)
@@ -295,7 +297,7 @@ State policy is tracked separately: **11 records** (10 typed bill rows and 1 non
 ### Bedford
 
 - **Type:** Town
-- **Status:** 🟢 Extended
+- **Recorded status:** 🟢 Extended
 - **Date enacted:** 2024-08-13, effective 2024-08-16
 - **Normalized date:** `2024-08-13` (exact)
 - **Duration:** Six months, repeatedly extended by resolution (Local Law No. 1-2025 effective ~2025-02-16; further extensions through at least September 2026)
@@ -311,7 +313,7 @@ State policy is tracked separately: **11 records** (10 typed bill rows and 1 non
 ### Benson
 
 - **Type:** Town
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** Public hearing held 2026-05-28 on Local Law No. 1 of 2026; adoption date not separately confirmed but presumed at or shortly after the hearing
 - **Normalized date:** `2026-05` (month_only)
 - **Duration:** One year (per tracker corroboration; not independently confirmed from the notice alone)
@@ -327,7 +329,7 @@ State policy is tracked separately: **11 records** (10 typed bill rows and 1 non
 ### Berne
 
 - **Type:** Town
-- **Status:** 🟢 Extended
+- **Recorded status:** 🟢 Extended
 - **Date enacted:** 2025-05-06 (second Berne solar moratorium; the first was 2019)
 - **Normalized date:** `2025-05-06` (exact)
 - **Duration:** Originally twelve months; March 11, 2026 Resolution No. 35 extended it through November 6, 2026. A further six-month extension was proposed in September 2026; adoption and filing have not been verified.
@@ -343,7 +345,7 @@ State policy is tracked separately: **11 records** (10 typed bill rows and 1 non
 ### Bethlehem
 
 - **Type:** Town
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-06-24, Town Board, following a June 24, 2026 public hearing (public hearing originally set at the May 27, 2026 meeting by unanimous vote)
 - **Normalized date:** `2026-06-24` (exact)
 - **Duration:** Twelve (12) months
@@ -359,7 +361,7 @@ State policy is tracked separately: **11 records** (10 typed bill rows and 1 non
 ### Boston (Erie County)
 
 - **Type:** Town
-- **Status:** 🟢 Extended
+- **Recorded status:** 🟢 Extended
 - **Date enacted:** 2024, Local Law No. 2-2024 (exact adoption date not stated in the filed text)
 - **Normalized date:** `2024` (year_only)
 - **Duration:** Six months, repeatedly extended by resolution (six-month extension approved 2025-12-03, Resolution 2025-106)
@@ -375,7 +377,7 @@ State policy is tracked separately: **11 records** (10 typed bill rows and 1 non
 ### Brasher
 
 - **Type:** Town
-- **Status:** 🟢 Extended
+- **Recorded status:** 🟢 Extended
 - **Date enacted:** 2024 (original term ran to 2024-10-31; exact adoption date not confirmed)
 - **Normalized date:** `2024` (year_only)
 - **Duration:** Extended repeatedly; trackers report a current expiration of 2026-10-31
@@ -391,7 +393,7 @@ State policy is tracked separately: **11 records** (10 typed bill rows and 1 non
 ### Buffalo
 
 - **Type:** City
-- **Status:** 🟡 Pending
+- **Recorded status:** 🟡 Pending
 - **Date enacted:** Not yet enacted as of 2026-09-23. Buffalo Common Council members were reported September 22, 2026 to be moving a proposed two-year moratorium on new data centers and cryptocurrency facilities toward a full Council vote 'set for next Tuesday' (on or about 2026-09-29).
 - **Normalized date:** `—` (unverified)
 - **Duration:** Proposed two years.
@@ -407,7 +409,7 @@ State policy is tracked separately: **11 records** (10 typed bill rows and 1 non
 ### Busti
 
 - **Type:** Town
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** Original moratorium predates 2025; extended by Local Law of 2025 (reported June 2025) and again by Local Law 3 of 2026
 - **Normalized date:** `2024` (year_only)
 - **Duration:** Extended through 2027-06-30 by Local Law 3 of 2026
@@ -423,7 +425,7 @@ State policy is tracked separately: **11 records** (10 typed bill rows and 1 non
 ### Byron
 
 - **Type:** Town
-- **Status:** 🟢 Extended
+- **Recorded status:** 🟢 Extended
 - **Date enacted:** 2026-04-08, reported as Wednesday in The Batavian article published April 9, 2026; both companion laws were adopted that evening.
 - **Normalized date:** `2026-04-08` (exact)
 - **Duration:** Six months, extendable; extended again by the Town Board on 2026-09-09
@@ -439,7 +441,7 @@ State policy is tracked separately: **11 records** (10 typed bill rows and 1 non
 ### Byron
 
 - **Type:** Town
-- **Status:** 🟢 Extended
+- **Recorded status:** 🟢 Extended
 - **Date enacted:** 2026-04-08, reported as Wednesday in The Batavian article published April 9, 2026; both companion laws were adopted that evening.
 - **Normalized date:** `2026-04-08` (exact)
 - **Duration:** Six months, extendable; extended again 2026-09-09
@@ -455,7 +457,7 @@ State policy is tracked separately: **11 records** (10 typed bill rows and 1 non
 ### Cameron
 
 - **Type:** Town
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** Local Law No. 4 of 2024 (public hearing 2024-10-09)
 - **Normalized date:** `2024-10` (month_only)
 - **Duration:** Originally one year; reported still active with a 2026-08-31 end date
@@ -471,7 +473,7 @@ State policy is tracked separately: **11 records** (10 typed bill rows and 1 non
 ### Camillus
 
 - **Type:** Town
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-03-10, adopted following a public hearing the same night
 - **Normalized date:** `2026-03-10` (exact)
 - **Duration:** 12 months
@@ -487,7 +489,7 @@ State policy is tracked separately: **11 records** (10 typed bill rows and 1 non
 ### Campbell
 
 - **Type:** Town
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** —
 - **Normalized date:** `—` (unverified)
 - **Duration:** Reported active by Carina Energy, part of a five-moratorium Steuben County cluster (Cameron, Campbell, Prattsburgh, Greenwood, Southport)
@@ -503,7 +505,7 @@ State policy is tracked separately: **11 records** (10 typed bill rows and 1 non
 ### Canton
 
 - **Type:** Town
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-07-08, the date of the public hearing on the local law (North Country Now reports the town 'enacted a moratorium on data center development July 8')
 - **Normalized date:** `2026-07-08` (exact)
 - **Duration:** Runs until May 31, 2027
@@ -519,7 +521,7 @@ State policy is tracked separately: **11 records** (10 typed bill rows and 1 non
 ### Carlton
 
 - **Type:** Town
-- **Status:** 🟢 Extended
+- **Recorded status:** 🟢 Extended
 - **Date enacted:** —
 - **Normalized date:** `—` (unverified)
 - **Duration:** Extended by Local Law No. 6 of 2025 (public hearing 2025-10-14); original enactment date not located
@@ -535,7 +537,7 @@ State policy is tracked separately: **11 records** (10 typed bill rows and 1 non
 ### Carmel
 
 - **Type:** Town
-- **Status:** ⚪ Replaced
+- **Recorded status:** ⚪ Replaced
 - **Date enacted:** 2024, Local Law #5 of 2024 (six-month moratorium)
 - **Normalized date:** `2024` (year_only)
 - **Duration:** Six months, then superseded by permanent zoning on 2024-10-30
@@ -551,7 +553,7 @@ State policy is tracked separately: **11 records** (10 typed bill rows and 1 non
 ### Carrollton
 
 - **Type:** Town
-- **Status:** ⚪ Expired
+- **Recorded status:** ⚪ Expired
 - **Date enacted:** —
 - **Normalized date:** `—` (unverified)
 - **Duration:** —
@@ -567,7 +569,7 @@ State policy is tracked separately: **11 records** (10 typed bill rows and 1 non
 ### Chester (Orange County)
 
 - **Type:** Town
-- **Status:** 🟢 Extended
+- **Recorded status:** 🟢 Extended
 - **Date enacted:** 2025, Local Law 10 of 2025 (exact date not confirmed)
 - **Normalized date:** `2025` (year_only)
 - **Duration:** Extended by Local Law 3 of 2026 (public hearing 2026-07-23)
@@ -583,7 +585,7 @@ State policy is tracked separately: **11 records** (10 typed bill rows and 1 non
 ### Claverack
 
 - **Type:** Town
-- **Status:** 🟢 Extended
+- **Recorded status:** 🟢 Extended
 - **Date enacted:** 2024, Local Law No. 2 of 2024
 - **Normalized date:** `2024` (year_only)
 - **Duration:** Originally three months; extended repeatedly since (six-month term reported as 'ending soon' by late 2026)
@@ -599,7 +601,7 @@ State policy is tracked separately: **11 records** (10 typed bill rows and 1 non
 ### Clay
 
 - **Type:** Town
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** Local Law No. 6 of 2026, adopted by the Clay Town Board at a Special Meeting held June 29, 2026 (unanimous 6-0 recorded vote), per the town's own filed Local Law text (NY Dept of State local law filing form).
 - **Normalized date:** `2026-06-29` (exact)
 - **Duration:** Up to twelve (12) months
@@ -615,7 +617,7 @@ State policy is tracked separately: **11 records** (10 typed bill rows and 1 non
 ### Clymer
 
 - **Type:** Town
-- **Status:** 🟢 Extended
+- **Recorded status:** 🟢 Extended
 - **Date enacted:** 2024, original local law (exact date not stated)
 - **Normalized date:** `2024` (year_only)
 - **Duration:** 12-month extensions, renewed annually (2025, then again 2026-02)
@@ -631,7 +633,7 @@ State policy is tracked separately: **11 records** (10 typed bill rows and 1 non
 ### Collins
 
 - **Type:** Town
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** —
 - **Normalized date:** `—` (unverified)
 - **Duration:** Reported active by Carina Energy
@@ -647,7 +649,7 @@ State policy is tracked separately: **11 records** (10 typed bill rows and 1 non
 ### Concord
 
 - **Type:** Town
-- **Status:** 🟢 Extended
+- **Recorded status:** 🟢 Extended
 - **Date enacted:** 2024-07-22, Local Law No. 3-2024
 - **Normalized date:** `2024-07-22` (exact)
 - **Duration:** One year, extended one year on 2025-06-12 (Local Law No. 2-2025), then six months on 2026-06-11
@@ -663,7 +665,7 @@ State policy is tracked separately: **11 records** (10 typed bill rows and 1 non
 ### Concord
 
 - **Type:** Town
-- **Status:** 🟢 Extended
+- **Recorded status:** 🟢 Extended
 - **Date enacted:** 2024, Local Law No. 3 (original solar moratorium, adopted alongside the BESS moratorium)
 - **Normalized date:** `2024` (year_only)
 - **Duration:** One year, extended one year in 2025, then six months on 2026-06-11
@@ -679,7 +681,7 @@ State policy is tracked separately: **11 records** (10 typed bill rows and 1 non
 ### Corning
 
 - **Type:** Town
-- **Status:** 🟢 Extended
+- **Recorded status:** 🟢 Extended
 - **Date enacted:** —
 - **Normalized date:** `—` (unverified)
 - **Duration:** Extended to November 2026 per Carina Energy's regional summary
@@ -695,7 +697,7 @@ State policy is tracked separately: **11 records** (10 typed bill rows and 1 non
 ### Cortlandt
 
 - **Type:** Town
-- **Status:** 🟢 Extended
+- **Recorded status:** 🟢 Extended
 - **Date enacted:** 2024, Local Law Number 2-2024 (original moratorium)
 - **Normalized date:** `2024` (year_only)
 - **Duration:** Extended repeatedly (Local Law Number 10-2024; Local Law No. 2 of 2025, adopted 2025-04-22, through 2025-12-31; Local Law No. 7 of 2025; Local Law 2026-01)
@@ -711,7 +713,7 @@ State policy is tracked separately: **11 records** (10 typed bill rows and 1 non
 ### Denmark (Lewis County)
 
 - **Type:** Town
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-02-03, per Lewis County's land-use-law index (filed with the NYS Department of State)
 - **Normalized date:** `2026-02-03` (exact)
 - **Duration:** 12 months
@@ -727,7 +729,7 @@ State policy is tracked separately: **11 records** (10 typed bill rows and 1 non
 ### East Greenbush
 
 - **Type:** Town
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-07-15, East Greenbush Town Board, unanimous vote, following a July 8, 2026 public hearing
 - **Normalized date:** `2026-07-15` (exact)
 - **Duration:** Base term of six (6) months from the effective date (filing with the NY Secretary of State); if the Town Board passes a resolution extending it before expiration, the moratorium may run up to one (1) year total from the effective date.
@@ -743,7 +745,7 @@ State policy is tracked separately: **11 records** (10 typed bill rows and 1 non
 ### Eden
 
 - **Type:** Town
-- **Status:** 🟢 Extended
+- **Recorded status:** 🟢 Extended
 - **Date enacted:** 2025, original six-month moratorium (Local Law No. ___-2025, exact day not located)
 - **Normalized date:** `2025` (year_only)
 - **Duration:** Six months, then extended for an additional twelve months by Local Law No. 11-2025
@@ -759,7 +761,7 @@ State policy is tracked separately: **11 records** (10 typed bill rows and 1 non
 ### Elba
 
 - **Type:** Town
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** —
 - **Normalized date:** `—` (unverified)
 - **Duration:** 12 months (per extension notice)
@@ -775,7 +777,7 @@ State policy is tracked separately: **11 records** (10 typed bill rows and 1 non
 ### Ellery
 
 - **Type:** Town
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-06, approved after public hearings with no comments received
 - **Normalized date:** `2026-06` (month_only)
 - **Duration:** Six months
@@ -791,7 +793,7 @@ State policy is tracked separately: **11 records** (10 typed bill rows and 1 non
 ### Enfield
 
 - **Type:** Town
-- **Status:** 🟡 Pending
+- **Recorded status:** 🟡 Pending
 - **Date enacted:** Not yet enacted as of 2026-09-23. On 2026-05-13 the Town Board adopted a resolution directing the Planning Board to draft data center legislation. A draft moratorium local law (modeled on Newfield's) was rewritten twice between July and mid-August 2026 on the advice of Town legal counsel Guy Krogh. At its August 12, 2026 meeting the Town Board did NOT set a public hearing as previously expected; it instead held off action, pushing back the hearing and the law's adoption to October 2026 at the earliest.
 - **Normalized date:** `—` (unverified)
 - **Duration:** Proposed as a one-year moratorium in the draft local law circulating as of July-August 2026.
@@ -807,7 +809,7 @@ State policy is tracked separately: **11 records** (10 typed bill rows and 1 non
 ### Essex County
 
 - **Type:** County
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** —
 - **Normalized date:** `—` (unverified)
 - **Duration:** Reported active by Carina Energy with a past expiration date the tracker treats as still in force pending an update
@@ -823,7 +825,7 @@ State policy is tracked separately: **11 records** (10 typed bill rows and 1 non
 ### Frankfort
 
 - **Type:** Town
-- **Status:** 🟡 Pending
+- **Recorded status:** 🟡 Pending
 - **Date enacted:** —
 - **Normalized date:** `—` (unverified)
 - **Duration:** 6 months (proposed)
@@ -839,7 +841,7 @@ State policy is tracked separately: **11 records** (10 typed bill rows and 1 non
 ### Freedom (Cattaraugus County)
 
 - **Type:** Town
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** —
 - **Normalized date:** `—` (unverified)
 - **Duration:** Indefinite per Carina Energy
@@ -855,7 +857,7 @@ State policy is tracked separately: **11 records** (10 typed bill rows and 1 non
 ### Gainesville
 
 - **Type:** Town
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** —
 - **Normalized date:** `—` (unverified)
 - **Duration:** Reported active by Carina Energy, all-BESS scope
@@ -871,7 +873,7 @@ State policy is tracked separately: **11 records** (10 typed bill rows and 1 non
 ### Gardiner
 
 - **Type:** Town
-- **Status:** 🟢 Extended
+- **Recorded status:** 🟢 Extended
 - **Date enacted:** 2025, original moratorium (exact date not located)
 - **Normalized date:** `2025` (year_only)
 - **Duration:** Six months from the later of state filing or July 23, 2026, under Local Law 2 of 2026; filing date not established.
@@ -887,7 +889,7 @@ State policy is tracked separately: **11 records** (10 typed bill rows and 1 non
 ### German Flatts
 
 - **Type:** Town
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** —
 - **Normalized date:** `2025` (year_only)
 - **Duration:** 12 months
@@ -903,7 +905,7 @@ State policy is tracked separately: **11 records** (10 typed bill rows and 1 non
 ### Glen Cove
 
 - **Type:** City
-- **Status:** 🟢 Extended
+- **Recorded status:** 🟢 Extended
 - **Date enacted:** 2025-05-13 (per EticaAG, a 12-month term originally through 2026-05-13)
 - **Normalized date:** `2025-05-13` (unverified)
 - **Duration:** Local Law 03-2026 provides through April 28, 2027 unless further extended
@@ -919,7 +921,7 @@ State policy is tracked separately: **11 records** (10 typed bill rows and 1 non
 ### Glenville
 
 - **Type:** Town
-- **Status:** 🟢 Extended
+- **Recorded status:** 🟢 Extended
 - **Date enacted:** 2025-06-18
 - **Normalized date:** `2025-06-18` (exact)
 - **Duration:** 120 days as originally adopted (2025-06-18, expiring 2025-10-16); subsequently extended by the Town Board, and as of a March 9, 2026 Planning & Zoning Commission meeting town staff described the moratorium as running through the end of July 2026 while a permanent BESS local law is drafted.
@@ -935,7 +937,7 @@ State policy is tracked separately: **11 records** (10 typed bill rows and 1 non
 ### Gloversville
 
 - **Type:** City
-- **Status:** ⚪ Replaced
+- **Recorded status:** ⚪ Replaced
 - **Date enacted:** 2025-03-11, Local Law 03-2025 (Intro LL-1), adopted 7-0 following a March 11, 2025 public hearing
 - **Normalized date:** `2025-03-11` (exact)
 - **Duration:** Six months, later superseded by a permanent ban
@@ -951,7 +953,7 @@ State policy is tracked separately: **11 records** (10 typed bill rows and 1 non
 ### Greenwood
 
 - **Type:** Town
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** —
 - **Normalized date:** `—` (unverified)
 - **Duration:** Reported active by Carina Energy, part of the Steuben County cluster
@@ -967,7 +969,7 @@ State policy is tracked separately: **11 records** (10 typed bill rows and 1 non
 ### Greig (Lewis County)
 
 - **Type:** Town
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-01, Local Law 2026-01 (exact day not located; filed with DOS under a February 2026 upload folder)
 - **Normalized date:** `2026-01` (month_only)
 - **Duration:** 12 months
@@ -983,7 +985,7 @@ State policy is tracked separately: **11 records** (10 typed bill rows and 1 non
 ### Halfmoon
 
 - **Type:** Town
-- **Status:** 🟢 Extended
+- **Recorded status:** 🟢 Extended
 - **Date enacted:** —
 - **Normalized date:** `—` (unverified)
 - **Duration:** 180 days from effectiveness under Local Law 4 of 2026; filing and subsequent extension disposition not established.
@@ -999,7 +1001,7 @@ State policy is tracked separately: **11 records** (10 typed bill rows and 1 non
 ### Harrison
 
 - **Type:** Town
-- **Status:** ⚪ Expired
+- **Recorded status:** ⚪ Expired
 - **Date enacted:** —
 - **Normalized date:** `—` (unverified)
 - **Duration:** Six months from the effective date, unless extended by Town Board resolution.
@@ -1015,7 +1017,7 @@ State policy is tracked separately: **11 records** (10 typed bill rows and 1 non
 ### Hartwick
 
 - **Type:** Town
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-03-20, special Town Board meeting (unanimous vote)
 - **Normalized date:** `2026-03-20` (exact)
 - **Duration:** Six months from adoption; Local Law No. 2 of 2026 proposed a further extension with a public hearing set for 2026-08-24
@@ -1031,7 +1033,7 @@ State policy is tracked separately: **11 records** (10 typed bill rows and 1 non
 ### Hempstead
 
 - **Type:** Town
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** Process began with a Feb 25, 2025 Town Board resolution calling a March 11, 2025 public hearing on a local law to enact Chapter 101B; the underlying enactment established a one-year BESS moratorium later extended twice
 - **Normalized date:** `2025-03` (month_only)
 - **Duration:** Originally approximately one year; Local Law No. 9-2026 extended the term to August 25, 2026. Local Law No. 75-2026, effective September 18, 2026, specifies a lapse after February 25, 2027, unless extended.
@@ -1047,7 +1049,7 @@ State policy is tracked separately: **11 records** (10 typed bill rows and 1 non
 ### Huntington
 
 - **Type:** Town
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** Town Board vote reported by Newsday as occurring the week before a June 16, 2026 article; Local Law Introductory No. 17-2026
 - **Normalized date:** `2026-06` (month_only)
 - **Duration:** Six months from the local law's effective date (a prior BESS moratorium, extended from Oct. 2023 to Nov. 2024, had already expired; this is a new six-month moratorium)
@@ -1063,7 +1065,7 @@ State policy is tracked separately: **11 records** (10 typed bill rows and 1 non
 ### Hurley
 
 - **Type:** Town
-- **Status:** 🟢 Extended
+- **Recorded status:** 🟢 Extended
 - **Date enacted:** Enacted by the Town Board on Tuesday, September 30, 2025 (per news account and the dated proposed-law PDF), following a public hearing with no opposition
 - **Normalized date:** `2025-09-30` (exact)
 - **Duration:** Six months from effective date, extendable for an additional period of up to six months by Town Board resolution; extended for an additional six months at the Feb. 10, 2026 Town Board meeting
@@ -1079,7 +1081,7 @@ State policy is tracked separately: **11 records** (10 typed bill rows and 1 non
 ### Islip
 
 - **Type:** Town
-- **Status:** 🟢 Extended
+- **Recorded status:** 🟢 Extended
 - **Date enacted:** 2024-03-19, Town Board adoption per the Suffolk County Planning Commission staff report on the extension
 - **Normalized date:** `2024-03-19` (exact)
 - **Duration:** Originally six months (capped at 18 months total by the ordinance's own terms); extended at least once (through 2025-04-07); trackers report it has continued via further extensions
@@ -1095,7 +1097,7 @@ State policy is tracked separately: **11 records** (10 typed bill rows and 1 non
 ### Islip
 
 - **Type:** Town
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-08-11, per the Islip Bulletin
 - **Normalized date:** `2026-08-11` (exact)
 - **Duration:** Through February 28, 2028, under Town Code § 68-761.
@@ -1111,7 +1113,7 @@ State policy is tracked separately: **11 records** (10 typed bill rows and 1 non
 ### Johnstown
 
 - **Type:** Town
-- **Status:** ⚪ Expired
+- **Recorded status:** ⚪ Expired
 - **Date enacted:** —
 - **Normalized date:** `2024` (year_only)
 - **Duration:** 12 months (extended)
@@ -1127,7 +1129,7 @@ State policy is tracked separately: **11 records** (10 typed bill rows and 1 non
 ### Kent (Putnam County)
 
 - **Type:** Town
-- **Status:** 🟢 Extended
+- **Recorded status:** 🟢 Extended
 - **Date enacted:** Adopted by unanimous Town Board vote at the July 9, 2024 monthly meeting
 - **Normalized date:** `2024-07-09` (exact)
 - **Duration:** Six months from effective date, extended at least once (six-month extension reported March 2025) and by inference of the tracker's August 2026 claim, extended repeatedly since
@@ -1143,7 +1145,7 @@ State policy is tracked separately: **11 records** (10 typed bill rows and 1 non
 ### Le Ray
 
 - **Type:** Town
-- **Status:** ⚪ Expired
+- **Recorded status:** ⚪ Expired
 - **Date enacted:** Local Law 6 of 2023, adopted September 14, 2023; effective after filing with the Secretary of State.
 - **Normalized date:** `2023-09-14` (exact)
 - **Duration:** Six months from effective date.
@@ -1159,7 +1161,7 @@ State policy is tracked separately: **11 records** (10 typed bill rows and 1 non
 ### LeRay
 
 - **Type:** Town
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-08-13, public hearing and vote per WWNY and the savrn/aigridwatch trackers
 - **Normalized date:** `2026-08-13` (exact)
 - **Duration:** One year (the Town Board increased the originally proposed term to 12 months after resident pressure)
@@ -1175,7 +1177,7 @@ State policy is tracked separately: **11 records** (10 typed bill rows and 1 non
 ### Leyden (Lewis County)
 
 - **Type:** Town
-- **Status:** ⚪ Replaced
+- **Recorded status:** ⚪ Replaced
 - **Date enacted:** Local Law 1 of 2024, adopted May 14, 2024, established a twelve-month moratorium; the town adopted Local Law 1 of 2026 regulating solar and battery storage on June 9, 2026.
 - **Normalized date:** `2024-05-14` (exact)
 - **Duration:** Twelve months from the local law's effective date, terminable early by Town Board resolution
@@ -1191,7 +1193,7 @@ State policy is tracked separately: **11 records** (10 typed bill rows and 1 non
 ### Livingston (Columbia County)
 
 - **Type:** Town
-- **Status:** 🟢 Extended
+- **Recorded status:** 🟢 Extended
 - **Date enacted:** Local Law No. 4 of 2024 (a three-month extension of an existing BESS moratorium) filed mid-2024; the original enactment date was not located
 - **Normalized date:** `2024` (year_only)
 - **Duration:** Three months per Local Law No. 4 of 2024's extension text, 'unless extended or rescinded by subsequent local law'
@@ -1207,7 +1209,7 @@ State policy is tracked separately: **11 records** (10 typed bill rows and 1 non
 ### Long Lake
 
 - **Type:** Town
-- **Status:** ⚪ Replaced
+- **Recorded status:** ⚪ Replaced
 - **Date enacted:** Battery Energy Storage System Law in effect by 2023 (amended by Local Law 3 of 2023, public hearing 2023-08-30)
 - **Normalized date:** `2023` (year_only)
 - **Duration:** —
@@ -1223,7 +1225,7 @@ State policy is tracked separately: **11 records** (10 typed bill rows and 1 non
 ### Lysander (Onondaga County)
 
 - **Type:** Town
-- **Status:** 🟢 Extended
+- **Recorded status:** 🟢 Extended
 - **Date enacted:** Original Tier 2 Battery Energy Storage Systems Moratorium enacted by L.L. No. 8-2023, adopted 2023-09-21; extended by successive local laws through L.L. No. 6-2026, adopted 2026-06-18
 - **Normalized date:** `2023-09-21` (exact)
 - **Duration:** Six months per each extension, per the Town's disposition list and the L.L. No. 6-2026 extension text ('shall remain in force and effect for a period of 6 months from its effective date')
@@ -1239,7 +1241,7 @@ State policy is tracked separately: **11 records** (10 typed bill rows and 1 non
 ### Mamakating
 
 - **Type:** Town
-- **Status:** 🟡 Pending
+- **Recorded status:** 🟡 Pending
 - **Date enacted:** Not yet enacted as of 2026-09-23. At its meeting of 2026-09-15 (following an August 18, 2026 initial discussion), the Town Board voted unanimously (motion by Councilman Michael Robbins, seconded by Supervisor Peter Goodman) to direct Town Attorney Benjamin Gailey to prepare a proposed local law establishing a data center moratorium; that draft law will require its own future public hearing before formal adoption, expected 'within the next couple of meetings' as of September 15.
 - **Normalized date:** `—` (unverified)
 - **Duration:** Not yet fixed; Town Attorney Benjamin Gailey told the Board such local laws are 'usually effective for 12 to 18 months, but provisions can extend them,' and the Board discussed a possible timeline of at least a year. Some residents urged a permanent moratorium/ban instead.
@@ -1255,7 +1257,7 @@ State policy is tracked separately: **11 records** (10 typed bill rows and 1 non
 ### Mamaroneck Village
 
 - **Type:** Village
-- **Status:** ⚪ Expired
+- **Recorded status:** ⚪ Expired
 - **Date enacted:** 2024-10-31 (effective date of original moratorium, section 342-84.5)
 - **Normalized date:** `2024-10-31` (exact)
 - **Duration:** Extended to November 1, 2025, and by Local Law 14-2025 until May 1, 2026; later actions not established.
@@ -1271,7 +1273,7 @@ State policy is tracked separately: **11 records** (10 typed bill rows and 1 non
 ### Manlius
 
 - **Type:** Town
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-07-08 -- Town Board vote, 7-0, reported July 9.
 - **Normalized date:** `2026-07-08` (exact)
 - **Duration:** One year
@@ -1287,7 +1289,7 @@ State policy is tracked separately: **11 records** (10 typed bill rows and 1 non
 ### Massena
 
 - **Type:** Town
-- **Status:** 🟡 Pending
+- **Recorded status:** 🟡 Pending
 - **Date enacted:** —
 - **Normalized date:** `—` (unverified)
 - **Duration:** Proposed six calendar months from Secretary of State filing, unless sooner repealed; extension by further local law after hearing/findings
@@ -1303,7 +1305,7 @@ State policy is tracked separately: **11 records** (10 typed bill rows and 1 non
 ### Mentz
 
 - **Type:** Town
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** Filed with Cayuga County Planning June 2025
 - **Normalized date:** `2025-06` (month_only)
 - **Duration:** One year from the effective date
@@ -1319,7 +1321,7 @@ State policy is tracked separately: **11 records** (10 typed bill rows and 1 non
 ### Milton (Saratoga County)
 
 - **Type:** Town
-- **Status:** 🟢 Extended
+- **Recorded status:** 🟢 Extended
 - **Date enacted:** Adopted December 2024 per the Town's own Document Center folder path (2024/12-Dec)
 - **Normalized date:** `2024-12` (month_only)
 - **Duration:** Twelve months from the effective date; the local law's own extension section allows for renewal
@@ -1335,7 +1337,7 @@ State policy is tracked separately: **11 records** (10 typed bill rows and 1 non
 ### Mina
 
 - **Type:** Town
-- **Status:** 🟢 Extended
+- **Recorded status:** 🟢 Extended
 - **Date enacted:** Original moratorium Local Law #1-2025, effective 2025-05-02; extended by Resolution #30-25 for six months to 2026-05-02; renewed/continued by Local Law No. 6 of 2026 (on the March 12, 2026 Town Board packet)
 - **Normalized date:** `2025-05-02` (exact)
 - **Duration:** Successive six-month terms since May 2025; Local Law No. 6 of 2026 continues the moratorium for a further six months from its effective date (~May 2026, to approximately November 2026), extendable once more by resolution
@@ -1351,7 +1353,7 @@ State policy is tracked separately: **11 records** (10 typed bill rows and 1 non
 ### Mohawk (Montgomery County)
 
 - **Type:** Town
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-08-13 per savrn and aigridwatch trackers
 - **Normalized date:** `2026-08-13` (unverified)
 - **Duration:** Six months
@@ -1367,7 +1369,7 @@ State policy is tracked separately: **11 records** (10 typed bill rows and 1 non
 ### Montgomery
 
 - **Type:** Town
-- **Status:** ⚪ Replaced
+- **Recorded status:** ⚪ Replaced
 - **Date enacted:** Original moratorium date and instrument not verified; Introductory Local Law 1 of 2025 concerned removal of battery storage as a permitted use.
 - **Normalized date:** `—` (unverified)
 - **Duration:** —
@@ -1383,7 +1385,7 @@ State policy is tracked separately: **11 records** (10 typed bill rows and 1 non
 ### Mount Kisco
 
 - **Type:** Village
-- **Status:** ⚪ Replaced
+- **Recorded status:** ⚪ Replaced
 - **Date enacted:** Approximately August 2024: Westfair Communications reported 'Mount Kisco's Board of Trustees has adopted a local law establishing a moratorium on battery energy storage systems (BESS)... a six-month moratorium that also allows for two three-month extensions,' in an article published/dated Aug. 19, 2024 (matching the row's 'Twice extended' duration text). Exact vote date not confirmed. Superseded by permanent zoning changes (Proposed Local Law No. 01-2025, amending Chapter 110) which the Village Board adopted Aug. 11, 2025, per Citizen Portal.
 - **Normalized date:** `2024-08` (month_only)
 - **Duration:** Twice extended
@@ -1399,7 +1401,7 @@ State policy is tracked separately: **11 records** (10 typed bill rows and 1 non
 ### New Castle
 
 - **Type:** Town
-- **Status:** 🟢 Extended
+- **Recorded status:** 🟢 Extended
 - **Date enacted:** Adopted by the Town Board on 2025-02-11; filed with the NYS Secretary of State 2025-03-03
 - **Normalized date:** `2025-02-11` (exact)
 - **Duration:** Six months from the effective date
@@ -1415,7 +1417,7 @@ State policy is tracked separately: **11 records** (10 typed bill rows and 1 non
 ### Newfane
 
 - **Type:** Town
-- **Status:** ⚪ Expired
+- **Recorded status:** ⚪ Expired
 - **Date enacted:** Local Law No. 1-2026, dated January 2026 and placed on the Town Board's February 2026 meeting docket for adoption
 - **Normalized date:** `2026-02` (month_only)
 - **Duration:** Six months from the effective date (Local Law No. 1-2026, a successor to a prior Local Law No. 1-2025 BESS moratorium); subsequently extended once, to run through approximately August 2026.
@@ -1431,7 +1433,7 @@ State policy is tracked separately: **11 records** (10 typed bill rows and 1 non
 ### Newfield
 
 - **Type:** Town
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-07-09, Town Board, unanimous vote, following a public hearing that evening (proposed at the June 11, 2026 meeting)
 - **Normalized date:** `2026-07-09` (exact)
 - **Duration:** One year
@@ -1447,7 +1449,7 @@ State policy is tracked separately: **11 records** (10 typed bill rows and 1 non
 ### Newstead
 
 - **Type:** Town
-- **Status:** ⚪ Expired
+- **Recorded status:** ⚪ Expired
 - **Date enacted:** 2024-07-08
 - **Normalized date:** `2024-07-08` (exact)
 - **Duration:** 6 months (original); reported still active/expired through 2026-03-31
@@ -1463,7 +1465,7 @@ State policy is tracked separately: **11 records** (10 typed bill rows and 1 non
 ### Niagara
 
 - **Type:** Town
-- **Status:** ⚪ Expired
+- **Recorded status:** ⚪ Expired
 - **Date enacted:** 2024-09-17
 - **Normalized date:** `2024-09-17` (exact)
 - **Duration:** One calendar year; possible six-month extensions up to two years total; publisher records expiry September 17, 2025
@@ -1479,7 +1481,7 @@ State policy is tracked separately: **11 records** (10 typed bill rows and 1 non
 ### Norfolk
 
 - **Type:** Town
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** Local Law No. 5 of 2025, public hearing held June 12, 2025, enacted shortly after by the Town Board
 - **Normalized date:** `2025-06` (month_only)
 - **Duration:** The proposed text set an initial, very short term to June 30, 2025, implying the Town intended repeated short extensions while developing permanent BESS regulations
@@ -1495,7 +1497,7 @@ State policy is tracked separately: **11 records** (10 typed bill rows and 1 non
 ### North Harmony
 
 - **Type:** Town
-- **Status:** 🟢 Extended
+- **Recorded status:** 🟢 Extended
 - **Date enacted:** An earlier moratorium (local law number not confirmed) was extended by Local Law 3 of 2025, adopted via Resolution #12 of 2025 (per the Town's own resolution document, referenced but not fully archived); the Planning Board separately voted around early 2025 to pursue a further extension while hiring a consultant to draft permanent rules
 - **Normalized date:** `2025` (year_only)
 - **Duration:** Unknown exact term; a series of extensions is documented
@@ -1511,7 +1513,7 @@ State policy is tracked separately: **11 records** (10 typed bill rows and 1 non
 ### North Hempstead
 
 - **Type:** Town
-- **Status:** 🟢 Extended
+- **Recorded status:** 🟢 Extended
 - **Date enacted:** Adopted by the North Hempstead Town Board 12-3-2024 by L.L. No. 11-2024; amended in its entirety 11-19-2025 by L.L. No. 20-2025
 - **Normalized date:** `2024-12-03` (exact)
 - **Duration:** Originally one year (to ~Dec 2025); extended for another calendar year by L.L. No. 20-2025 (proposed 2025-11-07, adopted 2025-11-18/19) to November 18, 2026
@@ -1527,7 +1529,7 @@ State policy is tracked separately: **11 records** (10 typed bill rows and 1 non
 ### North Tonawanda
 
 - **Type:** City
-- **Status:** 🟢 Extended
+- **Recorded status:** 🟢 Extended
 - **Date enacted:** Original moratorium: Local Law 2024-2, adopted by the Common Council on 2024-07-16 (a two-year moratorium on cryptocurrency mining and data processing centers, set to expire 2026-07-16). Extension: adopted by unanimous Common Council vote on Tuesday, June 16, 2026 (a one-year extension), confirmed by WKBW and WIVB television news coverage in addition to the city's own draft/filed local law text.
 - **Normalized date:** `2024-07-16` (exact)
 - **Duration:** Original term: two years (2024-07-16 to 2026-07-16) under Local Law 2024-2. 2026 extension: an additional twelve (12) months from the extension's effective date.
@@ -1543,7 +1545,7 @@ State policy is tracked separately: **11 records** (10 typed bill rows and 1 non
 ### Oswegatchie
 
 - **Type:** Town
-- **Status:** 🟢 Extended
+- **Recorded status:** 🟢 Extended
 - **Date enacted:** Local Law #2 of 2023; extended six months under Resolution 155-2024
 - **Normalized date:** `2023` (year_only)
 - **Duration:** Extended in six-month increments; likely extended further given the tracker's 2026 expiration claim
@@ -1559,7 +1561,7 @@ State policy is tracked separately: **11 records** (10 typed bill rows and 1 non
 ### Oswego City
 
 - **Type:** City
-- **Status:** 🟢 Extended
+- **Recorded status:** 🟢 Extended
 - **Date enacted:** Local Law No. 1 of 2025, City of Oswego Common Council, adopted August 11, 2025 following a public hearing the same evening.
 - **Normalized date:** `2025-08-11` (exact)
 - **Duration:** Twelve months from the effective date, renewable for a cumulative additional period of up to six months by Common Council resolution
@@ -1575,7 +1577,7 @@ State policy is tracked separately: **11 records** (10 typed bill rows and 1 non
 ### Oyster Bay
 
 - **Type:** Town
-- **Status:** 🟢 Extended
+- **Recorded status:** 🟢 Extended
 - **Date enacted:** 2024-04, original moratorium; fourth extension approved 2026-04-14 (unanimous Town Board vote reported 2026-04-16)
 - **Normalized date:** `2024-04` (month_only)
 - **Duration:** 12 months for the current (fourth) extension, the first time a full-year term has been used after several six-month extensions
@@ -1591,7 +1593,7 @@ State policy is tracked separately: **11 records** (10 typed bill rows and 1 non
 ### Peekskill
 
 - **Type:** City
-- **Status:** 🟢 Extended
+- **Recorded status:** 🟢 Extended
 - **Date enacted:** Original moratorium adopted following a March 24, 2025 public hearing, filed with the Secretary of State 2025-05-05, expired 2025-11-05; further extended by Local Law No. 14 of 2025, agenda dated 2025-11-24
 - **Normalized date:** `2025-03-24` (exact)
 - **Duration:** Six months from effective date, extended for an additional six months by Local Law No. 14 of 2025 (agenda 2025-11-24)
@@ -1607,7 +1609,7 @@ State policy is tracked separately: **11 records** (10 typed bill rows and 1 non
 ### Pendleton
 
 - **Type:** Town
-- **Status:** ⚪ Replaced
+- **Recorded status:** ⚪ Replaced
 - **Date enacted:** 2025-06-09 (Town Board adoption of Local Law No. 2 of 2025; effectiveness upon state filing)
 - **Normalized date:** `2025-06-09` (exact)
 - **Duration:** 6 months
@@ -1623,7 +1625,7 @@ State policy is tracked separately: **11 records** (10 typed bill rows and 1 non
 ### Perth
 
 - **Type:** Town
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-06-04, Town Board, per the Rockefeller Institute of Government's tracking blog and Leader Herald (dailygazette.com) headline coverage
 - **Normalized date:** `2026-06-04` (exact)
 - **Duration:** One year
@@ -1639,7 +1641,7 @@ State policy is tracked separately: **11 records** (10 typed bill rows and 1 non
 ### Perth (Fulton County)
 
 - **Type:** Town
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** Originally imposed by Local Law No. 23 of 2024 (commercial solar); extended by Local Law #3 of 2025 (introduced 2025-05-08) and again by a third local law reported by the Leader Herald as covering solar, battery, and wind installations
 - **Normalized date:** `2024` (year_only)
 - **Duration:** Series of terms since 2024; February 6, 2026 reporting describes a third, one-year moratorium after two six-month terms. Operative term and later action require primary-source verification.
@@ -1655,7 +1657,7 @@ State policy is tracked separately: **11 records** (10 typed bill rows and 1 non
 ### Port Chester
 
 - **Type:** Village
-- **Status:** ⚪ Expired
+- **Recorded status:** ⚪ Expired
 - **Date enacted:** Approximately October 2023 (inferred): a March 25, 2024 Village of Port Chester Board of Trustees agenda item to 'Extend Temporary Development Moratorium on Battery Energy Storage Systems' states the original term 'ends 4/25/2024,' consistent with a roughly six-month original term beginning around late October 2023. Exact adoption date and local law number not confirmed.
 - **Normalized date:** `2023-10` (month_only)
 - **Duration:** —
@@ -1671,7 +1673,7 @@ State policy is tracked separately: **11 records** (10 typed bill rows and 1 non
 ### Potsdam
 
 - **Type:** Town
-- **Status:** 🟡 Pending
+- **Recorded status:** 🟡 Pending
 - **Date enacted:** —
 - **Normalized date:** `—` (unverified)
 - **Duration:** A proposed 12-month moratorium was reported ahead of a November 5, 2026 hearing; adoption and operative term remain unverified.
@@ -1687,7 +1689,7 @@ State policy is tracked separately: **11 records** (10 typed bill rows and 1 non
 ### Pound Ridge
 
 - **Type:** Town
-- **Status:** ⚪ Replaced
+- **Recorded status:** ⚪ Replaced
 - **Date enacted:** —
 - **Normalized date:** `2025` (year_only)
 - **Duration:** Twice extended
@@ -1703,7 +1705,7 @@ State policy is tracked separately: **11 records** (10 typed bill rows and 1 non
 ### Prattsburgh
 
 - **Type:** Town
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** Public hearing noticed October 21, 2024 on a proposed six-month moratorium; adoption date and any extensions not independently confirmed
 - **Normalized date:** `2024` (year_only)
 - **Duration:** Six months proposed in 2024; a nine-month extension was adopted April 21, 2025. Filing and later extensions remain unverified.
@@ -1719,7 +1721,7 @@ State policy is tracked separately: **11 records** (10 typed bill rows and 1 non
 ### Putnam Valley
 
 - **Type:** Town
-- **Status:** ⚪ Expired
+- **Recorded status:** ⚪ Expired
 - **Date enacted:** Local Law #3 of 2024, effective 2024-07-26
 - **Normalized date:** `2024-07-26` (exact)
 - **Duration:** One year, extended once by three months to 2025-10-24; the Town Board subsequently determined it could not extend the moratorium further
@@ -1735,7 +1737,7 @@ State policy is tracked separately: **11 records** (10 typed bill rows and 1 non
 ### Ripley
 
 - **Type:** Town
-- **Status:** ⚪ Expired
+- **Recorded status:** ⚪ Expired
 - **Date enacted:** —
 - **Normalized date:** `—` (unverified)
 - **Duration:** —
@@ -1751,7 +1753,7 @@ State policy is tracked separately: **11 records** (10 typed bill rows and 1 non
 ### Rose
 
 - **Type:** Town
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2025-05-20, Town Board adopted Local Law 1-2025, per town minutes.
 - **Normalized date:** `2025-05-20` (exact)
 - **Duration:** Not confirmed from the documents located
@@ -1767,7 +1769,7 @@ State policy is tracked separately: **11 records** (10 typed bill rows and 1 non
 ### Rotterdam
 
 - **Type:** Town
-- **Status:** ⚪ Expired
+- **Recorded status:** ⚪ Expired
 - **Date enacted:** —
 - **Normalized date:** `2024` (year_only)
 - **Duration:** 6 months
@@ -1783,7 +1785,7 @@ State policy is tracked separately: **11 records** (10 typed bill rows and 1 non
 ### Royalton
 
 - **Type:** Town
-- **Status:** ⚪ Replaced
+- **Recorded status:** ⚪ Replaced
 - **Date enacted:** 2024-03
 - **Normalized date:** `2024-03` (month_only)
 - **Duration:** Extended at least once
@@ -1799,7 +1801,7 @@ State policy is tracked separately: **11 records** (10 typed bill rows and 1 non
 ### Salem
 
 - **Type:** Town
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2025-10-08
 - **Normalized date:** `2025-10-08` (exact)
 - **Duration:** —
@@ -1815,7 +1817,7 @@ State policy is tracked separately: **11 records** (10 typed bill rows and 1 non
 ### Schroeppel
 
 - **Type:** Town
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** Local Law 1 of 2026, adopted at the February 10, 2026 Town Board meeting
 - **Normalized date:** `2026-02-10` (exact)
 - **Duration:** One year
@@ -1831,7 +1833,7 @@ State policy is tracked separately: **11 records** (10 typed bill rows and 1 non
 ### Smithtown
 
 - **Type:** Town
-- **Status:** 🟢 Extended
+- **Recorded status:** 🟢 Extended
 - **Date enacted:** Original moratorium (L.L. No. 13-2024) adopted 2024-09-20; extended by L.L. No. 1-2025 (2025-01-23, three months), L.L. No. 6-2025 (2025-08-12, six months), and L.L. No. 8-2026 (2026-04-23, six months)
 - **Normalized date:** `2024-09-20` (exact)
 - **Duration:** Original three months, repeatedly extended (three months, then six months, then six months)
@@ -1847,7 +1849,7 @@ State policy is tracked separately: **11 records** (10 typed bill rows and 1 non
 ### Somerset
 
 - **Type:** Town
-- **Status:** ⚪ Replaced
+- **Recorded status:** ⚪ Replaced
 - **Date enacted:** 2024
 - **Normalized date:** `2024` (year_only)
 - **Duration:** —
@@ -1863,7 +1865,7 @@ State policy is tracked separately: **11 records** (10 typed bill rows and 1 non
 ### Southampton
 
 - **Type:** Town
-- **Status:** ⚪ Expired
+- **Recorded status:** ⚪ Expired
 - **Date enacted:** 2023-08-22
 - **Normalized date:** `2023-08-22` (exact)
 - **Duration:** Amended 2024-02-15 (LL1-2024), 2024-07-23 (LL15-2024), 2025-03-11 (LL10-2025)
@@ -1879,7 +1881,7 @@ State policy is tracked separately: **11 records** (10 typed bill rows and 1 non
 ### Southold
 
 - **Type:** Town
-- **Status:** 🟢 Extended
+- **Recorded status:** 🟢 Extended
 - **Date enacted:** 2023-01-31 (effective 2023-04-11); most recent 12-month extension approved by the Town Board on 2026-04-21
 - **Normalized date:** `2023-01-31` (exact)
 - **Duration:** 12-month extension approved 2026-04-21
@@ -1895,7 +1897,7 @@ State policy is tracked separately: **11 records** (10 typed bill rows and 1 non
 ### Southport
 
 - **Type:** Town
-- **Status:** 🟢 Extended
+- **Recorded status:** 🟢 Extended
 - **Date enacted:** Local Law No. 1 of 2025 enacted 2025-02-11; extended by Local Law No. 4 of 2025, adopted 2025-10-14 following a September 9, 2025 public hearing
 - **Normalized date:** `2025-02-11` (exact)
 - **Duration:** Six months from effective date, extended for an additional six months by Local Law No. 4 of 2025
@@ -1911,7 +1913,7 @@ State policy is tracked separately: **11 records** (10 typed bill rows and 1 non
 ### Spafford
 
 - **Type:** Town
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** Adopted 2026-05-14 by unanimous roll-call vote (Resolution 46-2026)
 - **Normalized date:** `2026-05-14` (exact)
 - **Duration:** Secondary meeting-derived account describes twelve months; original BESS law, effective anchor and later actions unverified.
@@ -1927,7 +1929,7 @@ State policy is tracked separately: **11 records** (10 typed bill rows and 1 non
 ### Stanford
 
 - **Type:** Town
-- **Status:** 🟢 Extended
+- **Recorded status:** 🟢 Extended
 - **Date enacted:** Local Law #2 of 2024, adopted 2024-11-14 by Resolution No. 11B of 2024; extended in 2025 and, per a subsequent news account, the board introduced a resolution for a further one-year extension with a public hearing scheduled for Thursday, October 8 (year not stated in the archived text, but following the 2025 extension referenced)
 - **Normalized date:** `2024-11-14` (exact)
 - **Duration:** Twelve months from filing, extended at least once in 2025, with a further one-year extension proposed for an October 8 public hearing
@@ -1943,7 +1945,7 @@ State policy is tracked separately: **11 records** (10 typed bill rows and 1 non
 ### Stockport
 
 - **Type:** Town
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** Town Board public hearing noticed for 2026-06-09 on Local Law 1-2026; the Town's Zoning Review Committee had been meeting on battery storage since at least late 2024
 - **Normalized date:** `2026-06` (month_only)
 - **Duration:** Three calendar months; the town-posted text contains conflicting language on the term anchor.
@@ -1959,7 +1961,7 @@ State policy is tracked separately: **11 records** (10 typed bill rows and 1 non
 ### Syracuse
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-02
 - **Normalized date:** `2026-02` (month_only)
 - **Duration:** 6 months, with option for one additional 6-month extension
@@ -1975,7 +1977,7 @@ State policy is tracked separately: **11 records** (10 typed bill rows and 1 non
 ### Ticonderoga
 
 - **Type:** Town
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-05, unanimous Town Board vote following a public hearing (cleanpowerdaily tracker dates the vote 2026-05-22)
 - **Normalized date:** `2026-05` (month_only)
 - **Duration:** Six months, extendable for up to two additional six-month periods (18 months maximum)
@@ -1991,7 +1993,7 @@ State policy is tracked separately: **11 records** (10 typed bill rows and 1 non
 ### Tonawanda
 
 - **Type:** Town
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-08-03, Town Board, unanimous vote, following an August 3, 2026 public hearing
 - **Normalized date:** `2026-08-03` (exact)
 - **Duration:** One year
@@ -2007,7 +2009,7 @@ State policy is tracked separately: **11 records** (10 typed bill rows and 1 non
 ### Town of Brookhaven
 
 - **Type:** Town
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-07-16 (Town Board, unanimous, following a public hearing)
 - **Normalized date:** `2026-07-16` (exact)
 - **Duration:** 18 months
@@ -2023,7 +2025,7 @@ State policy is tracked separately: **11 records** (10 typed bill rows and 1 non
 ### Town of Cairo
 
 - **Type:** Town
-- **Status:** ⚪ Expired
+- **Recorded status:** ⚪ Expired
 - **Date enacted:** Local Law #2 of 2026, 'A Temporary Town-Wide Six-Month Moratorium on Battery Energy Storage Systems,' adopted by the Cairo Town Board on March 2, 2026 (Resolution No. 2026-068), following a public hearing authorized by Resolution No. 2026-059 (2026-02-18 meeting). This is a successor instrument: town minutes show an earlier 2025 BESS moratorium (referenced August 4, 2025 as 'another moratorium for the battery storage facility,' authorized for public hearing by Resolution No. 2025-164) had already lapsed by February 2026, prompting the Board to adopt a brand-new six-month local law rather than a simple extension -- the same pattern the Board used the same night for its cannabis moratorium ('WHEREAS, the moratorium has expired; therefore... adopts the attached Local Law').
 - **Normalized date:** `2026-03-02` (exact)
 - **Duration:** Six months from the effective date
@@ -2039,7 +2041,7 @@ State policy is tracked separately: **11 records** (10 typed bill rows and 1 non
 ### Town of Chautauqua
 
 - **Type:** Town
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** Original commercial BESS moratorium predates Local Law No. 4 of 2024 (which extended it through 2025-09-01); further extended by Local Laws 3-5 of 2026 (public hearing 2026-07-08)
 - **Normalized date:** `2023` (year_only)
 - **Duration:** Repeatedly extended
@@ -2055,7 +2057,7 @@ State policy is tracked separately: **11 records** (10 typed bill rows and 1 non
 ### Town of Clifton Park
 
 - **Type:** Town
-- **Status:** ⚪ Replaced
+- **Recorded status:** ⚪ Replaced
 - **Date enacted:** Local Law No. 5 of 2025, approved 2025-07-21, effective for 180 days
 - **Normalized date:** `2025-07-21` (exact)
 - **Duration:** 180 days from the effective date, until January 21, 2026
@@ -2071,7 +2073,7 @@ State policy is tracked separately: **11 records** (10 typed bill rows and 1 non
 ### Town of Clifton Park
 
 - **Type:** Town
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-07-07
 - **Normalized date:** `2026-07-07` (exact)
 - **Duration:** 12 months
@@ -2087,7 +2089,7 @@ State policy is tracked separately: **11 records** (10 typed bill rows and 1 non
 ### Town of Day
 
 - **Type:** Town
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** Local Law No. 01 of 2025; exact adoption day not shown in the archived text
 - **Normalized date:** `2025` (year_only)
 - **Duration:** One year from adoption
@@ -2103,7 +2105,7 @@ State policy is tracked separately: **11 records** (10 typed bill rows and 1 non
 ### Town of Dryden (Tompkins County)
 
 - **Type:** Town
-- **Status:** ⚪ Replaced
+- **Recorded status:** ⚪ Replaced
 - **Date enacted:** 2024-07-31
 - **Normalized date:** `2024-07-31` (exact)
 - **Duration:** Original eighteen-month term amended to twenty months by the retrieved January 2026 law; effective anchor and actual termination/replacement remain unverified.
@@ -2119,7 +2121,7 @@ State policy is tracked separately: **11 records** (10 typed bill rows and 1 non
 ### Town of Dunkirk (Chautauqua County)
 
 - **Type:** Town
-- **Status:** 🟢 Extended
+- **Recorded status:** 🟢 Extended
 - **Date enacted:** 2025-09, original enactment (exact date not stated)
 - **Normalized date:** `2025-09` (month_only)
 - **Duration:** Extended six months on 2026-03 (unanimous Town Board vote)
@@ -2135,7 +2137,7 @@ State policy is tracked separately: **11 records** (10 typed bill rows and 1 non
 ### Town of East Fishkill
 
 - **Type:** Town
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-06-25 (Town Board, unanimous, following a public hearing and a rally outside Town Hall)
 - **Normalized date:** `2026-06-25` (exact)
 - **Duration:** Until 2029-07-01, for data centers over 20 MW
@@ -2151,7 +2153,7 @@ State policy is tracked separately: **11 records** (10 typed bill rows and 1 non
 ### Town of Highland
 
 - **Type:** Town
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-06-09 (Town Board, unanimous vote, at the same June 9, 2026 public hearing held at the Town of Highland Senior & Community Center); notice of enactment (Local Law No. 1 of 2026) was subsequently published by the town on 2026-06-18.
 - **Normalized date:** `2026-06-09` (exact)
 - **Duration:** 12 months, extendable up to 24 months while zoning and potential impacts are studied
@@ -2167,7 +2169,7 @@ State policy is tracked separately: **11 records** (10 typed bill rows and 1 non
 ### Town of Lewis (Lewis County)
 
 - **Type:** Town
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-03-16, per Facebook/community reporting of the Town Board vote; the local law was filed with the NYS Department of State on or about 2026-04-02
 - **Normalized date:** `2026-03-16` (unverified)
 - **Duration:** One year
@@ -2183,7 +2185,7 @@ State policy is tracked separately: **11 records** (10 typed bill rows and 1 non
 ### Town of Lewiston (Niagara County) - proposed, public hearing held
 
 - **Type:** Town
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** Adopted 2026-04-13 by the Town Board (5-0 vote) at its regular work session, immediately following a public hearing that evening, alongside a related zoning-code amendment (Local Law No. 2 of 2026); filed as Local Law No. 3 of 2026 in the Town's official 2026 Local Laws register.
 - **Normalized date:** `2026-04-13` (exact)
 - **Duration:** Eighteen (18) months from the effective date of adoption (the 'Moratorium Period'), extendable by Town Board resolution for additional periods not to exceed six months each.
@@ -2199,7 +2201,7 @@ State policy is tracked separately: **11 records** (10 typed bill rows and 1 non
 ### Town of Lysander (Onondaga County) - drafting authorized
 
 - **Type:** Town
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-05-07 (Town Board, unanimous vote, following a public hearing at Lysander Town Hall attended by more than 350 residents). The Town Supervisor's official 'Data Center Moratorium Updates' notice states: '5/7/2026 - Public Hearing on Local Law #4 ... Moratorium passed. Expires 11/7/26.'
 - **Normalized date:** `2026-05-07` (exact)
 - **Duration:** Six (6) months, per Local Law #4 of 2026, 'Six-Month Moratorium on Data Storage Centers.'
@@ -2215,7 +2217,7 @@ State policy is tracked separately: **11 records** (10 typed bill rows and 1 non
 ### Town of Marcellus
 
 - **Type:** Town
-- **Status:** 🔴 Rescinded
+- **Recorded status:** 🔴 Rescinded
 - **Date enacted:** Introduced March 18, 2026; public hearing held April 15, 2026; presented for adoption at the May 6, 2026 Town Board meeting
 - **Normalized date:** `2026-05-06` (exact)
 - **Duration:** Twelve months
@@ -2231,7 +2233,7 @@ State policy is tracked separately: **11 records** (10 typed bill rows and 1 non
 ### Town of Northampton
 
 - **Type:** Town
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** Passed in March 2026, following a standing-room-only public hearing at a Great Sacandaga Lake firehouse
 - **Normalized date:** `2026-03` (month_only)
 - **Duration:** One year, extendable by the Town Board for such additional periods as it determines necessary
@@ -2247,7 +2249,7 @@ State policy is tracked separately: **11 records** (10 typed bill rows and 1 non
 ### Town of Oneonta (Otsego County)
 
 - **Type:** Town
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** Adopted 2026-05-13, according to the municipal code publisher and local law filing.
 - **Normalized date:** `2026-05-13` (exact)
 - **Duration:** One year from effective date, subject to earlier repeal.
@@ -2263,7 +2265,7 @@ State policy is tracked separately: **11 records** (10 typed bill rows and 1 non
 ### Town of Orangetown
 
 - **Type:** Town
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-08-25, adopted at the public hearing (resolution to hold the hearing was adopted 2026-07-14)
 - **Normalized date:** `2026-08-25` (exact)
 - **Duration:** 180 days, renewable once for an additional 180 days by Town Board resolution
@@ -2279,7 +2281,7 @@ State policy is tracked separately: **11 records** (10 typed bill rows and 1 non
 ### Town of Poughkeepsie
 
 - **Type:** Town
-- **Status:** ⚪ Replaced
+- **Recorded status:** ⚪ Replaced
 - **Date enacted:** 2024-02
 - **Normalized date:** `2024-02` (month_only)
 - **Duration:** 6 months (subject to extension), continued at least through Feb 2025
@@ -2295,7 +2297,7 @@ State policy is tracked separately: **11 records** (10 typed bill rows and 1 non
 ### Town of Salina
 
 - **Type:** Town
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-05-27 (Town Board adoption, following public hearing at which no one spoke in opposition)
 - **Normalized date:** `2026-05-27` (exact)
 - **Duration:** 12 months
@@ -2311,7 +2313,7 @@ State policy is tracked separately: **11 records** (10 typed bill rows and 1 non
 ### Town of Sherburne
 
 - **Type:** Town
-- **Status:** 🟢 Extended
+- **Recorded status:** 🟢 Extended
 - **Date enacted:** Adopted by unanimous Town Board vote following a public hearing on 2026-01-14
 - **Normalized date:** `2026-01-14` (exact)
 - **Duration:** Six months from adoption; may be extended by resolution for up to a total of one year absent extenuating circumstances, per the Town Attorney's explanation at the public hearing
@@ -2327,7 +2329,7 @@ State policy is tracked separately: **11 records** (10 typed bill rows and 1 non
 ### Town of Southeast
 
 - **Type:** Town
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-05-21 (Town Board adoption, following the May 7 public hearing)
 - **Normalized date:** `2026-05-21` (exact)
 - **Duration:** Six months
@@ -2343,7 +2345,7 @@ State policy is tracked separately: **11 records** (10 typed bill rows and 1 non
 ### Town of Thurston
 
 - **Type:** Town
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-05-20 (Town Board, 5-0 roll-call vote, after public hearing)
 - **Normalized date:** `2026-05-20` (exact)
 - **Duration:** Two years
@@ -2359,7 +2361,7 @@ State policy is tracked separately: **11 records** (10 typed bill rows and 1 non
 ### Town of Tyre
 
 - **Type:** Town
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-07-22, public hearing date; filed with the NYS Department of State as Local Law No. 2 of 2026 (filing uploaded by the town in September 2026)
 - **Normalized date:** `2026-07-22` (unverified)
 - **Duration:** One year
@@ -2375,7 +2377,7 @@ State policy is tracked separately: **11 records** (10 typed bill rows and 1 non
 ### Town of Van Buren
 
 - **Type:** Town
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-06-03 (Town Board, unanimous)
 - **Normalized date:** `2026-06-03` (exact)
 - **Duration:** 12 months
@@ -2391,7 +2393,7 @@ State policy is tracked separately: **11 records** (10 typed bill rows and 1 non
 ### Town of Watson
 
 - **Type:** Town
-- **Status:** ⚪ Replaced
+- **Recorded status:** ⚪ Replaced
 - **Date enacted:** Adoption date not established; Local Law No. 2 of 2025 was filed with the Secretary of State on May 23, 2025.
 - **Normalized date:** `—` (unverified)
 - **Duration:** Six months from effective date
@@ -2407,7 +2409,7 @@ State policy is tracked separately: **11 records** (10 typed bill rows and 1 non
 ### Turin
 
 - **Type:** Town
-- **Status:** ⚪ Expired
+- **Recorded status:** ⚪ Expired
 - **Date enacted:** 2025 (exact date not confirmed): a Village of Turin Local Law filing (Department of State stamp JUN 0 6 2025) for a six-month extension refers to 'the current Moratorium, known as Local Law No. 01 of 2025,' indicating the Village's original moratorium was adopted earlier in 2025, before the June 2025 extension filing.
 - **Normalized date:** `2025` (year_only)
 - **Duration:** Extended 6 months by a 2025 filing
@@ -2423,7 +2425,7 @@ State policy is tracked separately: **11 records** (10 typed bill rows and 1 non
 ### Victory
 
 - **Type:** Town
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2024-10-14
 - **Normalized date:** `2024-10-14` (exact)
 - **Duration:** Extended per a June 2025 filing
@@ -2439,7 +2441,7 @@ State policy is tracked separately: **11 records** (10 typed bill rows and 1 non
 ### Village of Mayville
 
 - **Type:** Village
-- **Status:** 🟢 Extended
+- **Recorded status:** 🟢 Extended
 - **Date enacted:** One-year moratorium passed at village board meeting reported June 2025; renewed for a further term reported by tracker as enacted May 2026
 - **Normalized date:** `2025-06` (month_only)
 - **Duration:** 12 months, since renewed
@@ -2455,7 +2457,7 @@ State policy is tracked separately: **11 records** (10 typed bill rows and 1 non
 ### Village of Wilson
 
 - **Type:** Village
-- **Status:** ⚪ Expired
+- **Recorded status:** ⚪ Expired
 - **Date enacted:** 2024-10-17
 - **Normalized date:** `2024-10-17` (exact)
 - **Duration:** 12 months (reported); still being weighed for permanent regulation as of May 2026
@@ -2471,7 +2473,7 @@ State policy is tracked separately: **11 records** (10 typed bill rows and 1 non
 ### Virgil
 
 - **Type:** Town
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** —
 - **Normalized date:** `—` (unverified)
 - **Duration:** —
@@ -2487,7 +2489,7 @@ State policy is tracked separately: **11 records** (10 typed bill rows and 1 non
 ### Walworth
 
 - **Type:** Town
-- **Status:** ⚪ Replaced
+- **Recorded status:** ⚪ Replaced
 - **Date enacted:** 2024-03
 - **Normalized date:** `2024-03` (month_only)
 - **Duration:** 6 months (original); reported still in force through 2026-05-30
@@ -2503,7 +2505,7 @@ State policy is tracked separately: **11 records** (10 typed bill rows and 1 non
 ### Warwick
 
 - **Type:** Town
-- **Status:** ⚪ Replaced
+- **Recorded status:** ⚪ Replaced
 - **Date enacted:** 2023
 - **Normalized date:** `2023` (year_only)
 - **Duration:** 6 months (LL4-2023), extended 12 months (LL10-2024), amended again (LL3-2025)
@@ -2519,7 +2521,7 @@ State policy is tracked separately: **11 records** (10 typed bill rows and 1 non
 ### West Bloomfield
 
 - **Type:** Town
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** Local Law No. 4 of 2024, adopted on or about 2024-09-11
 - **Normalized date:** `2024-09-11` (exact)
 - **Duration:** Originally 12 months (LL4-2024); extended 6 months by LL3-2025; extended again to 2026-09-11 by LL1-2026
@@ -2535,7 +2537,7 @@ State policy is tracked separately: **11 records** (10 typed bill rows and 1 non
 ### Westfield
 
 - **Type:** Town
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** Local Law No. 1 of 2024 (original); extended by Local Law No. 1 of 2026, adopted 2026-03-04
 - **Normalized date:** `2024` (year_only)
 - **Duration:** Extended one year by LL1-2026
@@ -2551,7 +2553,7 @@ State policy is tracked separately: **11 records** (10 typed bill rows and 1 non
 ### Wilton
 
 - **Type:** Town
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-06-04 (Town Board adoption of Local Law No. 3 of 2026; effective date not independently verified)
 - **Normalized date:** `2026-06-04` (exact)
 - **Duration:** Committee-approved draft states twelve months from effectiveness; final adopted term and effective-date anchor not independently verified.
@@ -2567,7 +2569,7 @@ State policy is tracked separately: **11 records** (10 typed bill rows and 1 non
 ### Yonkers
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** General Ordinance 08-2024, adopted 2024-07-16
 - **Normalized date:** `2024-07-16` (exact)
 - **Duration:** 180 days, extended repeatedly by subsequent General Ordinances (01-2025 to 2025-10-31; further extension reported to 2026-03-31)
@@ -2583,7 +2585,7 @@ State policy is tracked separately: **11 records** (10 typed bill rows and 1 non
 ### Yorktown
 
 - **Type:** Town
-- **Status:** ⚪ Expired
+- **Recorded status:** ⚪ Expired
 - **Date enacted:** —
 - **Normalized date:** `—` (unverified)
 - **Duration:** —

@@ -3,11 +3,13 @@
 
 Working inventory for New Jersey, generated **November 7, 2026**. Record-level refresh and later-action review remain incomplete.
 
-**5 instruments** — 3 in force, 2 pending, 0 past.
+**5 records** — 3 classified as active or extended, 2 classified as pending, 0 classified as past.
+
+These counts reflect inventory classifications and do not establish current enforceability.
 
 State policy is tracked separately: **17 records** (16 typed bill rows and 1 non-bill row) in [`state_legislation.csv`](../data/state_legislation.csv). These are not included in the local count above.
 
-| Jurisdiction | Type | Enacted | Sectors | Status |
+| Jurisdiction | Type | Enacted | Sectors | Recorded status |
 |---|---|---|---|---|
 | Asbury Park | City | 2026-06-10 | data center | 🟢 Active |
 | East Windsor | Township | Unverified | data center | 🟡 Pending |
@@ -20,7 +22,7 @@ State policy is tracked separately: **17 records** (16 typed bill rows and 1 non
 ### Asbury Park
 
 - **Type:** City
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-06-10 (City Council, unanimous, Resolution 2026-264)
 - **Normalized date:** `2026-06-10` (exact)
 - **Duration:** Pause on local data center applications/site plans until the city completes its zoning code rewrite
@@ -36,7 +38,7 @@ State policy is tracked separately: **17 records** (16 typed bill rows and 1 non
 ### East Windsor
 
 - **Type:** Township
-- **Status:** 🟡 Pending
+- **Recorded status:** 🟡 Pending
 - **Date enacted:** —
 - **Normalized date:** `—` (unverified)
 - **Duration:** Proposed sunset December 31, 2027 unless extended; no operative end date accepted
@@ -52,7 +54,7 @@ State policy is tracked separately: **17 records** (16 typed bill rows and 1 non
 ### Galloway Township
 
 - **Type:** Township
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-06-16 was the ordinance's introduction/first reading (per the June 16, 2026 Council agenda listing Ordinance 2172-2026 for public hearing). Final passage occurred at the July 14, 2026 Council meeting (per that meeting's official agenda/ordinance statements) and the Township's public notice titled 'Publication Final Passage Ordinance #2172-2026 Temporary Moratorium of Data Centers' was posted July 15, 2026.
 - **Normalized date:** `2026-07-14` (exact)
 - **Duration:** Six months while the Planning Board and Environmental Commission study data centers
@@ -68,7 +70,7 @@ State policy is tracked separately: **17 records** (16 typed bill rows and 1 non
 ### Mullica Township
 
 - **Type:** Township
-- **Status:** 🟡 Pending
+- **Recorded status:** 🟡 Pending
 - **Date enacted:** Introduced (first reading) August 25, 2026 by the Mullica Township Committee; referred to the Planning Board and Environmental Commission for study and recommendation, as required before final adoption; not yet finally passed as of the September 22, 2026 Committee meeting agenda, which does not list it for second reading.
 - **Normalized date:** `—` (unverified)
 - **Duration:** Six (6) months from final adoption, if adopted as introduced.
@@ -84,7 +86,7 @@ State policy is tracked separately: **17 records** (16 typed bill rows and 1 non
 ### Sayreville
 
 - **Type:** Town
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-07-20, Borough Council second and final reading following a public hearing
 - **Normalized date:** `2026-07-20` (exact)
 - **Duration:** 18 months from adoption; the ordinance also requires publication and mayoral approval, and the copy reviewed does not show the mayoral approval date

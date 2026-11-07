@@ -3,11 +3,13 @@
 
 Working inventory for New Hampshire, generated **November 7, 2026**. Record-level refresh and later-action review remain incomplete.
 
-**2 instruments** — 2 in force, 0 pending, 0 past.
+**2 records** — 2 classified as active or extended, 0 classified as pending, 0 classified as past.
+
+These counts reflect inventory classifications and do not establish current enforceability.
 
 State policy is tracked separately: **6 records** (6 typed bill rows) in [`state_legislation.csv`](../data/state_legislation.csv). These are not included in the local count above.
 
-| Jurisdiction | Type | Enacted | Sectors | Status |
+| Jurisdiction | Type | Enacted | Sectors | Recorded status |
 |---|---|---|---|---|
 | Bow | Town | 2026-09-17 | data center | 🟢 Active |
 | Town of Nottingham | Town | 2026-09-08 | data center | 🟢 Active |
@@ -17,7 +19,7 @@ State policy is tracked separately: **6 records** (6 typed bill rows) in [`state
 ### Bow
 
 - **Type:** Town
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** On or about September 17, 2026 (Planning Board vote)
 - **Normalized date:** `2026-09-17` (exact)
 - **Duration:** One year
@@ -33,7 +35,7 @@ State policy is tracked separately: **6 records** (6 typed bill rows) in [`state
 ### Town of Nottingham
 
 - **Type:** Town
-- **Status:** 🟢 Active
+- **Recorded status:** 🟢 Active
 - **Date enacted:** Planning Board voted 5-0-0 on 2026-07-01 to adopt and advance the proposed ordinance; Nottingham voters ratified it at a September 8, 2026 special town election (held with the state primary) by a vote of 1,335 to 143, per the town's official election results.
 - **Normalized date:** `2026-09-08` (exact)
 - **Duration:** 12 months from voter adoption on 2026-09-08 (to approximately 2027-09-08).
