@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.0.0",
+  "baseline_commit": "70d2b026baf9f71af36bc9bcb835f5862cb0de99",
+  "reviewed_at_date": "2026-11-07",
+  "cohort_cutoff": "2026-11-05",
+  "models": {
+    "local_source_review": "gpt-6.1-terra",
+    "state_source_review": "gpt-6.1-terra",
+    "terminal_recovery": "gpt-6.1-terra",
+    "independent_review": "gpt-6.1-terra"
+  },
+  "initial_proposed_cells": 23,
+  "independent_accepted_as_proposed": 20,
+  "root_adopted_required_replacements": [
+    {
+      "id": "al-birmingham-2026",
+      "field": "current_status",
+      "initial_proposal": "Recorded as replaced based on reporting of permanent data-center zoning adopted June 9, 2026. July 16 reporting says the initial moratorium had been lifted, conflicting with the former assumed August 30 full-term endpoint. [VERIFY: original effective date, exact lifting date and legal transition remain unresolved.]",
+      "independent_verdict": "reject",
+      "reason": "APR June 10 retained text SHA-256 abd20411055908fb7c88f805c342738154b38c7facf9390bf0177bedb8d6cdad, Unicode [673,792), March 3 suspension and June zoning; News-Aegis July 16 SHA-256 2aa21a4a47978da925634b399ae7ec5ae3bb49ebfe5211aa2a7293db91f25c0a [1955,2006) reports lifted. Neither identifies actual legal transition or exact date. Proposed \u201cRecorded as replaced\u201d implies an established transition; report only the dated observations.",
+      "final_value": "June 9, 2026 reporting describes adoption of permanent data-center zoning. A July 16, 2026 secondary report says the initial March pause had been lifted. [VERIFY: original effective date, exact lifting date, legal transition and current status remain unresolved.]"
+    },
+    {
+      "id": "al-hb399-2026",
+      "field": "party",
+      "initial_proposal": "Mixed-party [VERIFY: individual sponsor affiliations and lead designation not independently confirmed]",
+      "independent_verdict": "reject",
+      "reason": "HB399 enrolled I3SA7ZZ-3 body SHA-256 96307ced055424f53a6b4191ee4266f681c3f20fb6dd3c145874298b4ff6a2e1, cover and p. 34 visually inspected; text identity [0,191), effect [60980,61093); SOS act 2026-573 authors and joint sponsors. Neither source supplies parties; the retained label is not a newly accepted finding.",
+      "final_value": "[VERIFY: retained historical party classification Mixed-party; individual affiliations and lead designation not independently established.]"
+    },
+    {
+      "id": "al-sb265-2026",
+      "field": "party",
+      "initial_proposal": "Republican lead [VERIFY: individual sponsor affiliations and lead designation not independently confirmed]",
+      "independent_verdict": "reject",
+      "reason": "SB265 engrossed QNGMY41-2 body SHA-256 b658b61bde935a5cd95395ed42d348c02ad794ae6311bd8d89515a7783e9bad1, cover visually inspected; derived text [0,294) lists 17 senators. Neither source supplies parties; the retained label is not a newly accepted finding.",
+      "final_value": "[VERIFY: retained historical party classification Republican lead; individual affiliations and lead designation not independently established.]"
+    }
+  ],
+  "review_hashes": {
+    "local-al/carefully-adjudicated-records.json": "cee16c947131a77039075121bd16361c0e74f5f280eed667aef28ed39fb46e23",
+    "state-al/completed-records.json": "81bca872ef7c7b44199f172ee16dde44a76bd96f0b2c7d9fa52e0bf845773a90",
+    "terminal-history/review.json": "32caa915ce0056165e72c6752ea83612ae0475ad591683ec4f20dc162d37de65",
+    "independent/review.json": "a61393c3d2ad29897753f98e752aa2c076d06639c2ffa23db0334a9f4f467666"
+  },
+  "execution_limit": "Initial state review was partial; first CLI resume inherited read-only sandbox and could not write. Original outputs retained; explicit writable resume completed all retained text reading. No API cap was reset.",
+  "scope": "Selected field corrections only. Eight overall records remain unresolved with scoped support; existing classifications and source dates are not renewed as current-force findings."
+}

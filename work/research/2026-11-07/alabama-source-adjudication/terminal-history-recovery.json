@@ -1,0 +1,104 @@
+{
+  "scope": "Official returned queries only, completeness/final disposition unproved. November7 observations do not establish November5 site state.",
+  "bills": {
+    "HB403": {
+      "official_instrument_id": "22820670",
+      "returned_actions": 9,
+      "latest_returned_action_date": "2026-03-17",
+      "status_as_returned": "Passed by House of Origin",
+      "terminal_disposition_accepted": false
+    },
+    "SB265": {
+      "official_instrument_id": "22805161",
+      "returned_actions": 22,
+      "latest_returned_action_date": "2026-04-09",
+      "status_as_returned": "On Third Reading in Second House",
+      "latest_returned_action": "Carried Over to the Call of the Chair",
+      "terminal_disposition_accepted": false
+    }
+  },
+  "reserved": 8,
+  "finished": 8,
+  "transport_error_outcomes": 0,
+  "known_exa_subtotal_usd": 0.014,
+  "serpapi_calls": 1,
+  "serpapi_and_cli_cost": "unpriced",
+  "fetch_calls": 5,
+  "pydoll_calls": 1,
+  "introspection_scope": "One introspection attempt returned no usable schema; not accepted as substantive bill evidence.",
+  "review_sha256": "32caa915ce0056165e72c6752ea83612ae0475ad591683ec4f20dc162d37de65",
+  "attempts": [
+    {
+      "attempt_id": "80c01e60ee504c928226f7ef1e80ad1e",
+      "kind": "exa",
+      "status": null,
+      "ok": null,
+      "body_sha256": null,
+      "text_sha256": null,
+      "body_observed_at": null
+    },
+    {
+      "attempt_id": "aff3dad657c84df9894fc09f79191105",
+      "kind": "serpapi",
+      "status": null,
+      "ok": null,
+      "body_sha256": null,
+      "text_sha256": null,
+      "body_observed_at": null
+    },
+    {
+      "attempt_id": "44bf9ba34a7545bbb0cac8674023dc85",
+      "kind": "exa",
+      "status": null,
+      "ok": null,
+      "body_sha256": null,
+      "text_sha256": null,
+      "body_observed_at": null
+    },
+    {
+      "attempt_id": "ae6565c0da3140d89a160d2bb4d89ba5",
+      "kind": "fetch",
+      "status": 200,
+      "ok": true,
+      "body_sha256": "f0c940b29930ed69ec6f84f69c60ae63ef207e2c2927a3c8e2110420db71cc8e",
+      "text_sha256": "f2dfcd038b3c431d8d797debad521a789b8e9c1f655a5d61b92a0e5fec80dd50",
+      "body_observed_at": "2026-11-07T09:53:28.581079Z"
+    },
+    {
+      "attempt_id": "6642837e003a4e5d8cdb1d377ca40e32",
+      "kind": "fetch",
+      "status": 200,
+      "ok": true,
+      "body_sha256": "8ea0a919e13b5e7fb8773970f7c49ac7e130ce4c103cbb6e61f5a6c5fe085354",
+      "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "body_observed_at": "2026-11-07T09:53:42.821911Z"
+    },
+    {
+      "attempt_id": "7f4f67b8f09543fcb7e327204f2225b9",
+      "kind": "fetch",
+      "status": 200,
+      "ok": true,
+      "body_sha256": "d6277149232a0ee6386f9c81ba9e00894ab991bc508d6fc0ac046d478ba8f9f3",
+      "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "body_observed_at": "2026-11-07T09:53:59.094963Z"
+    },
+    {
+      "attempt_id": "b139a983ed7149308624a6702ab9ebb8",
+      "kind": "fetch",
+      "status": 200,
+      "ok": true,
+      "body_sha256": "58dd720a9951223693ea25633c68885ab2a4ae495ade831147a544136ca765da",
+      "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "body_observed_at": "2026-11-07T09:54:17.583302Z"
+    },
+    {
+      "attempt_id": "fdf03884c7304c3fa9ecffb16ec95ff4",
+      "kind": "fetch",
+      "status": 200,
+      "ok": true,
+      "body_sha256": "d48706180fd56a16170b4cb667d7b6c7f64a443b3a0138865a12ef2fe773fea7",
+      "text_sha256": "098547b4ccfbb6dd56ed62f515a086ddb5a84537f037194f3ff0cfc9fad67897",
+      "body_observed_at": "2026-11-07T09:54:28.323636Z"
+    }
+  ]
+}

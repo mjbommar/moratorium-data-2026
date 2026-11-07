@@ -20,6 +20,11 @@ source reviews remain valid within their stated limits; this audit does not eras
 them or make all underlying records unresearched. Complete substantive reconciliation
 and the plan's disjoint freshness dispositions remain open.
 
+Separate [Alabama source adjudication](../work/research/2026-11-07/alabama-source-adjudication/README.md)
+now records eight unresolved-with-scoped-support dispositions and targeted field
+corrections, including one resolved original-term source requirement. It does not
+make the full-table index drafts accepted or renew current-force dates.
+
 
 ### Small-township records that aren't online
 

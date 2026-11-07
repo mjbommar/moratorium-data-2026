@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.0.0",
+  "baseline_commit": "70d2b026baf9f71af36bc9bcb835f5862cb0de99",
+  "canonical_rows": {
+    "inventory": 1330,
+    "state_policy": 442
+  },
+  "reviewed_ids_this_batch": 8,
+  "changed_rows": 7,
+  "substantive_changed_cells": 23,
+  "derived_verification_count_cells": 1,
+  "all_other_canonical_fields_preserved": true,
+  "all_ids_preserved": true,
+  "expanded_tables_receipts_identity_registry_and_csv_projection_unchanged": true,
+  "replay_dry_runs": "Local10already_applied, no rows touched; state no fields set",
+  "legacy_validation": {
+    "as_of": "2026-11-07",
+    "errors": 0,
+    "warnings": 494
+  },
+  "make_data": "passed",
+  "make_site": "passed with existing project Python environment; default system Python lacked pymdownx",
+  "make_check": "passed",
+  "matching_documented_numbers": 63,
+  "private_source_bodies_tracked": false,
+  "csv_sha256": {
+    "moratorium_inventory.csv": "5d8724796fd0725cb5b37cd1fc1e0957de2f3f6f8a8ce64e590a0612780875b3",
+    "state_legislation.csv": "d1633bb6cb5d7dea90e4a0aef5bc8c5bf516a06ae5a8408b9cccd88b65069b33"
+  },
+  "scope": "Local source-adjudication and delivery consistency only; no full freshness, current-force, final-release or hosted-new-revision claim."
+}

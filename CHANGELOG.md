@@ -2,6 +2,15 @@
 
 ## 2026-11-07 — current working snapshot (unreleased)
 
+[Alabama source adjudication](work/research/2026-11-07/alabama-source-adjudication/README.md)
+applies 23 substantive cells across seven rows plus one derived verification count:
+Anniston/Calera calendar terms, Anniston's business-license exception, Birmingham's
+unresolved endpoint/transition, exact bill-author roles and versions, explicit
+HB399/SB270 initial effective dates, and HB403's broader large-load definition.
+All eight reviewed records retain scoped unresolved dispositions; no headline
+classification or current-force finding is added. Original-term requirements now
+number 221, with Calera's operative/finality question retained despite its unit fix.
+
 These are inventory classifications, not independently renewed legal-force findings.
 
 | Metric | Current |
