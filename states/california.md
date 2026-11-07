@@ -100,7 +100,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 - **Status:** 🟢 Extended
 - **Date enacted:** 2026-08-18 (City Council, 5-0), Ordinance 559
 - **Normalized date:** `2026-08-18` (exact)
-- **Duration:** 45-day urgency ordinance; extension to 10 months 15 days proposed at 2026-09-15 hearing
+- **Duration:** Reported original term: 45 days. Ordinance 560 extension is recorded separately; exact executed Ordinance 559 wording and initial effectiveness remain unresolved.
 - **Current end date:** `2027-08-17`
 - **Sectors:** data center
 - **Moratorium ID:** `ca-city-of-angels-calaveras-county-2026`

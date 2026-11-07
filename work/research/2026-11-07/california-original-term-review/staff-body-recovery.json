@@ -1,0 +1,51 @@
+{
+  "historical_key": "13c48debb7c8f5dd",
+  "historical_recorded_at": "2026-09-23T14:13:42+00:00",
+  "recorded_historical_body_sha256": "3501f7226ad30a47199c91401e68b58e637b50a0afc9d71ad122c08e71a17c18",
+  "new_body_observed_at": "2026-11-07T10:49:01.754168Z",
+  "new_attempt_id": "60db9c43b7df4f958d54ec8a336b4660",
+  "new_body_matches_recorded_historical_hash": true,
+  "retained_historical_text_sha256": "99b23ca7d571b64f49c792941180fcdeabaee5fad6b491b692b6b4ef0bc36867",
+  "new_text_sha256": "49c93a2f9dc342617ea61d7dea389dd818b05d155d551d705d6d2b65507e65a4",
+  "old_text_preserved": true,
+  "archive": {
+    "apply": true,
+    "new_sources": 1,
+    "sources": [
+      {
+        "url": "https://mccmeetingspublic.blob.core.usgovcloudapi.net/anglscmpca-meet-b1dd575fb7ab478e8d87463057d9884e/ITEM-Attachment-001-0cfb0c6f68cf4181945e40564249b5e3.pdf",
+        "final_url": "https://mccmeetingspublic.blob.core.usgovcloudapi.net/anglscmpca-meet-b1dd575fb7ab478e8d87463057d9884e/ITEM-Attachment-001-0cfb0c6f68cf4181945e40564249b5e3.pdf",
+        "status": 200,
+        "ok": true,
+        "fetched_at": "2026-11-07T10:49:02.317712+00:00",
+        "key": "13c48debb7c8f5dd-3501f7226ad3-49c93a2f9dc3",
+        "sha256": "3501f7226ad30a47199c91401e68b58e637b50a0afc9d71ad122c08e71a17c18",
+        "text_sha256": "49c93a2f9dc342617ea61d7dea389dd818b05d155d551d705d6d2b65507e65a4",
+        "text_chars": 8808,
+        "title": null,
+        "text_method": "bc_research.pipeline.document_text via bounded research client",
+        "files": [
+          "work/sources/CA/13c48debb7c8f5dd-3501f7226ad3-49c93a2f9dc3.pdf",
+          "work/sources/CA/13c48debb7c8f5dd-3501f7226ad3-49c93a2f9dc3.txt"
+        ],
+        "attempt_id": "60db9c43b7df4f958d54ec8a336b4660",
+        "published": false,
+        "retrieval_observation": {
+          "from_cache": false,
+          "origin_revalidated": false,
+          "body_observed_at": "2026-11-07T10:49:01.754168Z",
+          "origin_attempt_statuses": [],
+          "scope": "Retrieval/cache lineage only; not renewed factual or legal-force acceptance."
+        },
+        "extraction_variant_of": [
+          "13c48debb7c8f5dd"
+        ]
+      }
+    ],
+    "selected_attempt_ids": [
+      "60db9c43b7df4f958d54ec8a336b4660"
+    ]
+  },
+  "archive_replay_additions": 0,
+  "scope": "Restore missing original-body path only after exact recorded hash match. New retrieval is November7, not backdated; historical and new text/metadata variants remain separate. Raw payloads remain private."
+}

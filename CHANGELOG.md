@@ -2,14 +2,21 @@
 
 ## 2026-11-07 — current working snapshot (unreleased)
 
+[California original-term review](work/research/2026-11-07/california-original-term-review/README.md)
+supports the unchanged 45-day numeric/unit fields for Gilroy and City of Angels,
+clarifies one Angels duration sentence, and retains exact enacted-wording and
+related legal questions. 219 original-term field-support requirements remain;
+this is not a count of all open legal questions. Two city-packet versions have
+verified archive/native-store lineage. A rendered unrelated 1535 e-bike entry is
+excluded as 1539 proof. No headline classification or current-force finding changes.
+
 [Alabama source adjudication](work/research/2026-11-07/alabama-source-adjudication/README.md)
 applies 23 substantive cells across seven rows plus one derived verification count:
 Anniston/Calera calendar terms, Anniston's business-license exception, Birmingham's
 unresolved endpoint/transition, exact bill-author roles and versions, explicit
 HB399/SB270 initial effective dates, and HB403's broader large-load definition.
 All eight reviewed records retain scoped unresolved dispositions; no headline
-classification or current-force finding is added. Original-term requirements now
-number 221, with Calera's operative/finality question retained despite its unit fix.
+classification or current-force finding is added. That batch left 221 original-term requirements, with Calera's operative/finality question retained despite its unit fix.
 
 These are inventory classifications, not independently renewed legal-force findings.
 
@@ -26,8 +33,9 @@ Current totals remain 1,330 local records (1,079 active/extended classifications
 442 state-policy records, and 51 ballot/proposal records (49 voted, one scheduled,
 one litigated). The expanded history retains 57 results, 50 current observations
 and five current certified observations. The [updated September-baseline comparison](work/audit/refresh-baseline-delta-2026-11-07-alabama.md)
-explains additions, retirement, policy-form reclassifications and all changed
-fields; it is not a comparison to the last published release or a complete
+explains additions, retirement, policy-form reclassifications and changed
+fields through the Alabama checkpoint; the California packet records the later
+single-cell prose change. It is not a comparison to the last published release or a complete
 freshness/current-force assessment.
 
 Wilmington's initiative litigation history remains distinct from its parcel

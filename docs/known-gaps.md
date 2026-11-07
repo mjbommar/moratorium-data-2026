@@ -25,6 +25,13 @@ now records eight unresolved-with-scoped-support dispositions and targeted field
 corrections, including one resolved original-term source requirement. It does not
 make the full-table index drafts accepted or renew current-force dates.
 
+The [California original-term review](../work/research/2026-11-07/california-original-term-review/README.md)
+supports existing descriptive 45-day fields for Gilroy and City of Angels. The
+original-term field-support ledger now has 219 remaining cases; exact enacted
+wording, finality, effectiveness and current-force questions remain separate
+open work, including explicit followups for those two supported day counts.
+It is not whole-record confirmation.
+
 
 ### Small-township records that aren't online
 

@@ -1,0 +1,22 @@
+{
+  "expected_instrument": "2026-1539 data-center moratorium",
+  "requested_url": "https://lookout.lake-elsinore.org/WebLink/DocView.aspx?dbid=0&id=469711&repo=CityDMS",
+  "observed_rendered_title": "2026-1535 LEMC E-Bikes & Other Electric Transportation Devices",
+  "attempt_id": "b59187c4db104eaf8122a3838a0c998f",
+  "status": 200,
+  "body_sha256": "50332902b4458f3c6c6c9e88b7d1710cffcb750262a52cfa8f038f6c55e6b16c",
+  "text_sha256": "cc784b6075e937f1c5b88ed2f6a7b2d0c5a4f3bfcdf5ea9ae980703798f8df1e",
+  "body_observed_at": "2026-11-07T10:21:40.607671Z",
+  "browser_controls": {
+    "engine": "pydoll",
+    "headless": false,
+    "settle_ms": 3000,
+    "record_network": true
+  },
+  "verdict": "Identity mismatch: rendered entry is1535 E-Bikes, not accepted as1539 proof. Underlying document text not verified.",
+  "initial_http_scope": "Same viewer returned only98 extracted characters (loading shell); HTTP200/ok was not substantive identity proof.",
+  "separate_technical_cap": 2,
+  "technical_calls_used": 1,
+  "unused_technical_fetches": 1,
+  "unused_reason": "Wrong entry; no reason to download it as the sought source. Original collector caps remain exhausted and unchanged."
+}
