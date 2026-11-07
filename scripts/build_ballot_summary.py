@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Build a dated public view of reviewed current result observations, not a census."""
 import argparse
+import json
 from pathlib import Path
 
 from check_expanded_publication import check
@@ -150,7 +151,8 @@ def build(directory, registry):
     checked=check(directory,registry,ROOT/'data/moratorium_inventory.csv',ROOT/'data/state_legislation.csv')
     pinned=directory.resolve(strict=True)
     require(pinned.name==checked['snapshot_sha256'],'Publication changed during summary build; rerun against one generation')
-    errors,rows=validate(pinned,ROOT/'data/moratorium_inventory.csv',ROOT/'data/state_legislation.csv')
+    profile=json.loads((pinned/'publication.json').read_text())['plan'].get('validation_profile',{}).get('name','1.0.0')
+    errors,rows=validate(pinned,ROOT/'data/moratorium_inventory.csv',ROOT/'data/state_legislation.csv',profile=profile)
     require(not errors,'Invalid published data: '+'; '.join(errors))
     return render(rows,pinned.name)
 

@@ -110,6 +110,11 @@ class EventProfilePublicationTests(unittest.TestCase):
         self.assertEqual(result['publication_sha256'],promotion.digest((self.destination.resolve()/'publication.json').read_bytes()))
         self.assertEqual(promotion.publish(self.destination,candidate,self.registry,plan,[],apply=True,moratoria=self.legacy)['state'],'already_applied')
         self.assertEqual(check(self.destination,self.registry,self.legacy)['generations_checked'],2)
+        from unittest.mock import patch
+        import build_ballot_summary
+        with patch.object(build_ballot_summary,'ROOT',self.root):
+            summary=build_ballot_summary.build(self.destination,self.registry)
+        self.assertIn(self.destination.resolve().name,summary)
         generation,outputs=build_outputs(self.destination.resolve())
         self.assertEqual(len(list(csv.DictReader(outputs['instrument_events.csv'].decode().splitlines()))),1)
         self.assertEqual(len(list(csv.DictReader(outputs['instrument_events_current.csv'].decode().splitlines()))),0)

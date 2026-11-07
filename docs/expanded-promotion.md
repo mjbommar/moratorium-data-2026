@@ -136,4 +136,4 @@ pointers, redirected files, unsupported plans and cyclic predecessors.
 
 ## Event validity maintenance
 
-[Publication profile 1.0.2](event-validity-publication.md) adds explicit event-validity chains, narrowly predecessor-bound `historical_fields`, a public evidence-proof fingerprint and monotonic maintenance review chronology. It authenticates predecessor history before promotion and rechecks proofs/history on exact replay. The real current dataset remains on profile 1.0.1 pending substantive migration review.
+[Publication profile 1.0.2](event-validity-publication.md) adds explicit event-validity chains, narrowly predecessor-bound `historical_fields`, a public evidence-proof fingerprint and monotonic maintenance review chronology. It authenticates predecessor history before promotion and rechecks proofs/history on exact replay. The real current dataset now selects profile 1.0.2 following the source-reviewed five-event validity migration; broader later-history and consumer/delivery gates remain open.

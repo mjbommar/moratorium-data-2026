@@ -48,3 +48,7 @@ gates passed before application; preparation alone was not acceptance.
 
 This closes a first real event cohort, not the full historical event migration,
 freshness review, extraction quality gate, final release or hosted deployment.
+
+## Subsequent explicit validity review
+
+The [five-event validity migration](../event-validity-migration/README.md) now adds explicit reviewed validity under profile 1.0.2 while preserving every event, claim and source in this initial cohort. Whitman's typed current endpoint is separately cleared because the original July 7 schedule is not verified as the operative end. This packet's original snapshot/tests remain historical; no later-force or expiry finding is inferred.

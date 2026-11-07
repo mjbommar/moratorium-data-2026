@@ -38,9 +38,9 @@ def build(destination, revision):
     exact.update(n for n in names if n.startswith('work/schemas/expanded/')
                  and len(Path(n).parts)==4 and n.endswith('.json'))
     exact.update(n for n in ['docs/instrument-events.md','docs/ballot-semantic-definitions.md','docs/event-validity-publication.md','docs/event-maintenance-development.md'] if n in names)
-    event_review='work/research/2026-11-06/instrument-event-migration/'
-    if event_review+'cohort.json' in names:
-        exact.update(n for n in names if n.startswith(event_review))
+    for event_review in ['work/research/2026-11-06/instrument-event-migration/','work/research/2026-11-06/event-validity-migration/']:
+        if event_review+'cohort.json' in names:
+            exact.update(n for n in names if n.startswith(event_review))
     if 'data/expanded-csv' in names:
         exact.update({'data/expanded-csv', 'data/README.md'})
     if 'data/identities/legacy-moratoria.jsonl' in names:

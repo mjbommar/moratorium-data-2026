@@ -1,6 +1,6 @@
 # Event validity publication profile 1.0.2
 
-Profile 1.0.2 connects the tested maintenance contract to validation, publication, offline history checks and CSV export. **The live data still uses profile 1.0.1.** No real event has been withdrawn, corrected or newly accepted through this profile. A schema and synthetic source-byte test do not establish source entailment or current legal force.
+Profile 1.0.2 connects the tested maintenance contract to validation, publication, offline history checks and CSV export. **The live data now selects profile 1.0.2** following the [source-reviewed five-event migration](../work/research/2026-11-06/event-validity-migration/README.md). Five unchanged historical events have explicit validity acceptance; no real event was withdrawn or corrected. A schema and synthetic source-byte test do not establish source entailment or current legal force.
 
 ## Version and review contract
 
@@ -42,7 +42,7 @@ The release builder requires every profile declared by the selected validator an
 
 ## Remaining rollout gates
 
-- Substantively review explicit validity decisions for the existing five real events and promote a reviewed migration through the real source/identity workflow. Do not create fake withdrawals for demonstration.
+- The existing five-event validity cohort has been substantively reviewed and promoted. Broader instrument-event migration and complete later legal histories remain open; synthetic withdrawal cases remain clearly labeled and no fake real-data withdrawal was created.
 - Reconcile any consumer that counts retained events as currently accepted; the new views are available only when the source publication actually selects profile 1.0.2.
 - Verify the final committed public bundle and downloaded release assets, final copy and required sibling/hosted delivery.
 

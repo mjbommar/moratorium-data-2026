@@ -718,13 +718,13 @@ State policy is tracked separately: **5 actions** (5 bills) in [`state_legislati
 - **Date enacted:** 2025-05-05
 - **Normalized date:** `2025-05-05` (exact)
 - **Duration:** Until July 7, 2025 unless extended or terminated earlier
-- **Current end date:** `2025-07-07`
+- **Current end date:** `—`
 - **Sectors:** wind, solar, battery storage
 - **Moratorium ID:** `wa-whitman-county-2025`
 - **Legal basis:** Interim zoning controls posted as Ordinance 089101
 - **What prompted it:** Temporary controls while jurisdiction studies permanent land-use standards.
 - **Affected projects:** —
-- **Detailed status:** Signed May 5, 2025 interim controls, immediate effect, original stated term ends July 7, 2025. Expired-original-term classification only. [VERIFY later extensions/amendments, actual termination/current restrictions and coordinates]
+- **Detailed status:** Signed May 5, 2025 interim controls; Section 5 declares immediate effect upon board passage. July 7, 2025 is the original scheduled endpoint, subject to extension or earlier termination. The retained expired classification describes that original term only; it is not renewed acceptance of actual expiry or current legal force. Current operative end remains unknown. [VERIFY later extensions/amendments, actual termination/current restrictions and coordinates]
 - **Outcome:** —
 
 ### Yakima County

@@ -78,3 +78,7 @@ The [isolated maintenance contract](event-maintenance-development.md) now tests 
 ## Versioned maintenance integration
 
 [Profile 1.0.2](event-validity-publication.md) now integrates explicit event validity, predecessor-bound historical field review, sealed public evidence proofs, atomic maintenance and retained/current/status CSV views. Source-byte synthetic transactions and offline restore exercise this path. The live five-event generation still selects 1.0.1; no real withdrawal or validity migration is implied. Original 1.0.0/1.0.1 schemas and historical semantics remain retained.
+
+## Current five-event validity migration
+
+The [source-reviewed migration](../work/research/2026-11-06/event-validity-migration/README.md) now selects profile 1.0.2. All five event records and exact claims remain unchanged; five explicit validity decisions were added after renewed retained-source review. There are five current accepted historical events, with no real withdrawal or inferred current force. Bound ballot-summary and CSV readers select the authenticated source profile; standalone candidate validation still requires an explicit profile selection. Earlier development paragraphs describe their historical checkpoints.

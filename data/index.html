@@ -207,7 +207,7 @@
 <tr>
 <td><a href="moratorium_inventory.csv"><code>moratorium_inventory.csv</code></a></td>
 <td>1330 local-moratorium instruments. <strong>Start here.</strong></td>
-<td>1,692,396 bytes</td>
+<td>1,692,615 bytes</td>
 <td>CSV</td>
 </tr>
 <tr>
@@ -293,7 +293,7 @@ totals. This is a reviewed subset, not the full election census. See
 <a href="../docs/expanded-promotion.html">publication protocol</a>. The relative <code>data/expanded</code>
 pointer and its <code>data/expanded-snapshots</code> target must travel together.</p>
 <h2 id="expanded-csv-downloads">Expanded CSV downloads</h2>
-<p>The current source generation uses validation profile 1.0.1. <a href="../docs/event-validity-publication.md">Profile 1.0.2</a> supports separate current-accepted and status event exports after reviewed migration; its availability does not make the retained event ledger a current-force timeline.</p>
+<p>The current source generation selects <a href="../docs/event-validity-publication.md">validation profile 1.0.2</a>, with five explicitly reviewed historical events. Separate retained, current-accepted and status event exports distinguish review state; none is a current-force timeline.</p>
 <p>Instrument-event rows describe source-supported historical actions. An <code>effective</code>
 event does not establish current legal force; original expected endpoints do not
 prove actual expiry. See the <a href="../docs/instrument-events.md">event contract and profile</a>
@@ -318,72 +318,80 @@ headers; their presence is not evidence that research coverage is complete.</p>
 </thead>
 <tbody>
 <tr>
-<td><a href="expanded-csv-snapshots/502d8eef6a4a5b6eab147ce69ba9a7ff67c4cc23dd6d518d6f7fedade7680bef/ballot_measures.csv">ballot_measures.csv</a></td>
+<td><a href="expanded-csv-snapshots/d73054880d4aa5c472483295da33ccd24f451bac1c96c1162d94839e4887834e/ballot_measures.csv">ballot_measures.csv</a></td>
 <td style="text-align: right;">50</td>
 </tr>
 <tr>
-<td><a href="expanded-csv-snapshots/502d8eef6a4a5b6eab147ce69ba9a7ff67c4cc23dd6d518d6f7fedade7680bef/claims.csv">claims.csv</a></td>
+<td><a href="expanded-csv-snapshots/d73054880d4aa5c472483295da33ccd24f451bac1c96c1162d94839e4887834e/claims.csv">claims.csv</a></td>
 <td style="text-align: right;">528</td>
 </tr>
 <tr>
-<td><a href="expanded-csv-snapshots/502d8eef6a4a5b6eab147ce69ba9a7ff67c4cc23dd6d518d6f7fedade7680bef/coverage_observations.csv">coverage_observations.csv</a></td>
+<td><a href="expanded-csv-snapshots/d73054880d4aa5c472483295da33ccd24f451bac1c96c1162d94839e4887834e/coverage_observations.csv">coverage_observations.csv</a></td>
 <td style="text-align: right;">1</td>
 </tr>
 <tr>
-<td><a href="expanded-csv-snapshots/502d8eef6a4a5b6eab147ce69ba9a7ff67c4cc23dd6d518d6f7fedade7680bef/elections.csv">elections.csv</a></td>
+<td><a href="expanded-csv-snapshots/d73054880d4aa5c472483295da33ccd24f451bac1c96c1162d94839e4887834e/elections.csv">elections.csv</a></td>
 <td style="text-align: right;">46</td>
 </tr>
 <tr>
-<td><a href="expanded-csv-snapshots/502d8eef6a4a5b6eab147ce69ba9a7ff67c4cc23dd6d518d6f7fedade7680bef/instrument_events.csv">instrument_events.csv</a></td>
+<td><a href="expanded-csv-snapshots/d73054880d4aa5c472483295da33ccd24f451bac1c96c1162d94839e4887834e/instrument_event_status.csv">instrument_event_status.csv</a></td>
 <td style="text-align: right;">5</td>
 </tr>
 <tr>
-<td><a href="expanded-csv-snapshots/502d8eef6a4a5b6eab147ce69ba9a7ff67c4cc23dd6d518d6f7fedade7680bef/jurisdictions.csv">jurisdictions.csv</a></td>
+<td><a href="expanded-csv-snapshots/d73054880d4aa5c472483295da33ccd24f451bac1c96c1162d94839e4887834e/instrument_events.csv">instrument_events.csv</a></td>
+<td style="text-align: right;">5</td>
+</tr>
+<tr>
+<td><a href="expanded-csv-snapshots/d73054880d4aa5c472483295da33ccd24f451bac1c96c1162d94839e4887834e/instrument_events_current.csv">instrument_events_current.csv</a></td>
+<td style="text-align: right;">5</td>
+</tr>
+<tr>
+<td><a href="expanded-csv-snapshots/d73054880d4aa5c472483295da33ccd24f451bac1c96c1162d94839e4887834e/jurisdictions.csv">jurisdictions.csv</a></td>
 <td style="text-align: right;">46</td>
 </tr>
 <tr>
-<td><a href="expanded-csv-snapshots/502d8eef6a4a5b6eab147ce69ba9a7ff67c4cc23dd6d518d6f7fedade7680bef/local_restrictions.csv">local_restrictions.csv</a></td>
+<td><a href="expanded-csv-snapshots/d73054880d4aa5c472483295da33ccd24f451bac1c96c1162d94839e4887834e/local_restrictions.csv">local_restrictions.csv</a></td>
 <td style="text-align: right;">1</td>
 </tr>
 <tr>
-<td><a href="expanded-csv-snapshots/502d8eef6a4a5b6eab147ce69ba9a7ff67c4cc23dd6d518d6f7fedade7680bef/measure_instrument_links.csv">measure_instrument_links.csv</a></td>
+<td><a href="expanded-csv-snapshots/d73054880d4aa5c472483295da33ccd24f451bac1c96c1162d94839e4887834e/measure_instrument_links.csv">measure_instrument_links.csv</a></td>
 <td style="text-align: right;">1</td>
 </tr>
 <tr>
-<td><a href="expanded-csv-snapshots/502d8eef6a4a5b6eab147ce69ba9a7ff67c4cc23dd6d518d6f7fedade7680bef/measure_provisions.csv">measure_provisions.csv</a></td>
+<td><a href="expanded-csv-snapshots/d73054880d4aa5c472483295da33ccd24f451bac1c96c1162d94839e4887834e/measure_provisions.csv">measure_provisions.csv</a></td>
 <td style="text-align: right;">50</td>
 </tr>
 <tr>
-<td><a href="expanded-csv-snapshots/502d8eef6a4a5b6eab147ce69ba9a7ff67c4cc23dd6d518d6f7fedade7680bef/measure_results.csv">measure_results.csv</a></td>
+<td><a href="expanded-csv-snapshots/d73054880d4aa5c472483295da33ccd24f451bac1c96c1162d94839e4887834e/measure_results.csv">measure_results.csv</a></td>
 <td style="text-align: right;">57</td>
 </tr>
 <tr>
-<td><a href="expanded-csv-snapshots/502d8eef6a4a5b6eab147ce69ba9a7ff67c4cc23dd6d518d6f7fedade7680bef/measure_results_current.csv">measure_results_current.csv</a></td>
+<td><a href="expanded-csv-snapshots/d73054880d4aa5c472483295da33ccd24f451bac1c96c1162d94839e4887834e/measure_results_current.csv">measure_results_current.csv</a></td>
 <td style="text-align: right;">50</td>
 </tr>
 <tr>
-<td><a href="expanded-csv-snapshots/502d8eef6a4a5b6eab147ce69ba9a7ff67c4cc23dd6d518d6f7fedade7680bef/review_decisions.csv">review_decisions.csv</a></td>
-<td style="text-align: right;">2394</td>
+<td><a href="expanded-csv-snapshots/d73054880d4aa5c472483295da33ccd24f451bac1c96c1162d94839e4887834e/review_decisions.csv">review_decisions.csv</a></td>
+<td style="text-align: right;">2399</td>
 </tr>
 <tr>
-<td><a href="expanded-csv-snapshots/502d8eef6a4a5b6eab147ce69ba9a7ff67c4cc23dd6d518d6f7fedade7680bef/search_attempts.csv">search_attempts.csv</a></td>
+<td><a href="expanded-csv-snapshots/d73054880d4aa5c472483295da33ccd24f451bac1c96c1162d94839e4887834e/search_attempts.csv">search_attempts.csv</a></td>
 <td style="text-align: right;">3</td>
 </tr>
 <tr>
-<td><a href="expanded-csv-snapshots/502d8eef6a4a5b6eab147ce69ba9a7ff67c4cc23dd6d518d6f7fedade7680bef/search_runs.csv">search_runs.csv</a></td>
+<td><a href="expanded-csv-snapshots/d73054880d4aa5c472483295da33ccd24f451bac1c96c1162d94839e4887834e/search_runs.csv">search_runs.csv</a></td>
 <td style="text-align: right;">1</td>
 </tr>
 <tr>
-<td><a href="expanded-csv-snapshots/502d8eef6a4a5b6eab147ce69ba9a7ff67c4cc23dd6d518d6f7fedade7680bef/search_sightings.csv">search_sightings.csv</a></td>
+<td><a href="expanded-csv-snapshots/d73054880d4aa5c472483295da33ccd24f451bac1c96c1162d94839e4887834e/search_sightings.csv">search_sightings.csv</a></td>
 <td style="text-align: right;">18</td>
 </tr>
 <tr>
-<td><a href="expanded-csv-snapshots/502d8eef6a4a5b6eab147ce69ba9a7ff67c4cc23dd6d518d6f7fedade7680bef/source_documents.csv">source_documents.csv</a></td>
+<td><a href="expanded-csv-snapshots/d73054880d4aa5c472483295da33ccd24f451bac1c96c1162d94839e4887834e/source_documents.csv">source_documents.csv</a></td>
 <td style="text-align: right;">144</td>
 </tr>
 </tbody>
 </table>
-<p><a href="expanded-csv-snapshots/502d8eef6a4a5b6eab147ce69ba9a7ff67c4cc23dd6d518d6f7fedade7680bef/manifest.json">Projection manifest</a> pins the source generation, schema, exporter and every file hash.</p>
+<p><a href="expanded-csv-snapshots/d73054880d4aa5c472483295da33ccd24f451bac1c96c1162d94839e4887834e/manifest.json">Projection manifest</a> pins the source generation, schema, exporter and every file hash.</p>
 <!-- END EXPANDED CSV DOWNLOADS -->
 
 <p>The portable <code>data/expanded-csv</code> pointer selects an immutable directory under

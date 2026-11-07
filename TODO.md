@@ -294,14 +294,11 @@ Exit: fresh, reproducible release with reconciled data/prose, a verified publish
 
 ## P7 — Maintenance
 
-- [x] Integrate explicit profile 1.0.2 into structural validation, sealed publication/predecessor receipts, narrow historical field review, source-proof checks and retained/current/status CSV generation. Exercise source-byte synthetic withdrawal/correction/reinstatement, replay and offline restore with missing/tampered dependency cases. A deterministic 727-member committed bundle restores successfully; real five-event migration, consumer reconciliation and final release-asset verification remain open ([contract](docs/event-validity-publication.md)).
+- [x] Integrate explicit profile 1.0.2 into structural validation, sealed publication/predecessor receipts, narrow historical field review, source-proof checks and retained/current/status CSV generation. Exercise source-byte synthetic withdrawal/correction/reinstatement, replay and offline restore with missing/tampered dependency cases. A deterministic 727-member committed bundle restores successfully; the real five-event validity migration is applied; broader consumer reconciliation and final release-asset verification remain open ([contract](docs/event-validity-publication.md)).
 
-- [x] Implement and exercise the isolated event-validity maintenance contract: withdrawal/reinstatement, time-specific support, combined review timeline, typed one-to-many corrections and immutable predecessor retention. Production profile, source-proof, promotion/export and portable-restore integration remain open ([development boundary and integration checklist](docs/event-maintenance-development.md)).
+- [x] Implement and exercise the isolated event-validity maintenance contract: withdrawal/reinstatement, time-specific support, combined review timeline, typed one-to-many corrections and immutable predecessor retention. Subsequent versioned production integration and the real five-event migration are recorded below; broader maintenance/delivery gates remain open ([development history](docs/event-maintenance-development.md)).
 
-- [ ] Design and exercise event correction/withdrawal with retained rejected
-  history. The initial strict event profile requires accepted exact claims for
-  retained events; it does not yet provide an event supersession or claim-withdrawal
-  workflow. Do not treat the first five-event migration as closing this gate.
+- [x] Design and exercise event correction/withdrawal with retained rejected history. Profile 1.0.2 supports source-proof-backed synthetic withdrawal, correction, reinstatement and offline restore; the real five-event cohort now has explicit source-reviewed validity. No fake real-data withdrawal was created. Broader event-history collection, consumer reconciliation and the rest of P7 remain open ([real migration](work/research/2026-11-06/event-validity-migration/README.md)).
 
 - [x] Exercise bc-web conditional HTTP caching with an actual 200/304 round trip, preserved body time and immutable archive tests (`conditional-cache-pilot/`); native adaptive proposals are implemented below, with inventory-wide calibration still open.
 

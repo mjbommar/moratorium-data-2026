@@ -49,11 +49,13 @@ facts, certification or legal-force review.
 
 ## Files and validation
 
-The active validator now uses [validation profile 1.0.1](../work/schemas/expanded/1.0.1.json)
-for the unchanged `schema_version: "1.0.0"` record format. It constrains instrument
-event actions; the [event contract](instrument-events.md) also defines exact
-event-scoped claim binding and source/legal limits. The original schema below
-remains retained for frozen fixtures and historical receipts.
+The canonical publication selects [validation profile 1.0.2](../work/schemas/expanded/1.0.2.json)
+for the unchanged `schema_version: "1.0.0"` record format. The [event contract](instrument-events.md)
+and [validity publication protocol](event-validity-publication.md) bind exact event claims,
+review validity, retained history and source/legal limits. Bound publication readers dispatch
+from the authenticated receipt. For standalone candidate validation select `--profile 1.0.2`
+explicitly; its retained default is 1.0.1. The original schemas remain retained for
+frozen fixtures and historical receipts.
 
 [JSON Schema 2020-12](../work/schemas/expanded/1.0.0.json) contains a named
 `$defs` schema for each JSONL table. Every record has `schema_version: "1.0.0"`.
@@ -244,4 +246,4 @@ existing URLs and remain unchanged.
 
 ## Optional event validity profile
 
-[Profile 1.0.2](event-validity-publication.md) adds explicit event review validity and typed correction evidence without rewriting existing event records. A source generation selecting it gains separate retained, current-accepted and status CSV views. The current generation remains on profile 1.0.1; synthetic integration/restore tests do not constitute real event migration or legal acceptance.
+[Profile 1.0.2](event-validity-publication.md) adds explicit event review validity and typed correction evidence without rewriting existing event records. A source generation selecting it gains separate retained, current-accepted and status CSV views. The [five-event migration](../work/research/2026-11-06/event-validity-migration/README.md) now selects profile 1.0.2 after source review. Event validity means acceptance of a historical source-supported action, not current legal force.

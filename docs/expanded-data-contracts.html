@@ -265,11 +265,13 @@ byte, file set, selected generation and download link. <code>make data</code> re
 both selected generation trees. Projection publication does not renew the source
 facts, certification or legal-force review.</p>
 <h2 id="files-and-validation">Files and validation</h2>
-<p>The active validator now uses <a href="../work/schemas/expanded/1.0.1.json">validation profile 1.0.1</a>
-for the unchanged <code>schema_version: "1.0.0"</code> record format. It constrains instrument
-event actions; the <a href="instrument-events.md">event contract</a> also defines exact
-event-scoped claim binding and source/legal limits. The original schema below
-remains retained for frozen fixtures and historical receipts.</p>
+<p>The canonical publication selects <a href="../work/schemas/expanded/1.0.2.json">validation profile 1.0.2</a>
+for the unchanged <code>schema_version: "1.0.0"</code> record format. The <a href="instrument-events.md">event contract</a>
+and <a href="event-validity-publication.md">validity publication protocol</a> bind exact event claims,
+review validity, retained history and source/legal limits. Bound publication readers dispatch
+from the authenticated receipt. For standalone candidate validation select <code>--profile 1.0.2</code>
+explicitly; its retained default is 1.0.1. The original schemas remain retained for
+frozen fixtures and historical receipts.</p>
 <p><a href="../work/schemas/expanded/1.0.0.json">JSON Schema 2020-12</a> contains a named
 <code>$defs</code> schema for each JSONL table. Every record has <code>schema_version: "1.0.0"</code>.
 Use UTF-8, one object per line, in files named <code>&lt;table&gt;.jsonl</code>. Missing tables are
@@ -437,7 +439,7 @@ identify the acquired version; a citation URL never supplies substitute evidence
 or authenticates its publisher. Earlier snapshots without this field retain their
 existing URLs and remain unchanged.</p>
 <h2 id="optional-event-validity-profile">Optional event validity profile</h2>
-<p><a href="event-validity-publication.md">Profile 1.0.2</a> adds explicit event review validity and typed correction evidence without rewriting existing event records. A source generation selecting it gains separate retained, current-accepted and status CSV views. The current generation remains on profile 1.0.1; synthetic integration/restore tests do not constitute real event migration or legal acceptance.</p>
+<p><a href="event-validity-publication.md">Profile 1.0.2</a> adds explicit event review validity and typed correction evidence without rewriting existing event records. A source generation selecting it gains separate retained, current-accepted and status CSV views. The <a href="../work/research/2026-11-06/event-validity-migration/README.md">five-event migration</a> now selects profile 1.0.2 after source review. Event validity means acceptance of a historical source-supported action, not current legal force.</p>
 </main>
 
 <footer>
