@@ -1,0 +1,384 @@
+{
+  "schema_version": "1.0.0",
+  "source_baseline_commit": "fee68fce0d4eafc974da516ddac3d2bddfe370ab",
+  "cohort_cutoff": "2026-11-05",
+  "retrieval_date": "2026-11-07",
+  "canonical_changes": 0,
+  "jobs": {
+    "jay": {
+      "caps": {
+        "search_total": 3,
+        "exa": 2,
+        "serpapi": 1,
+        "googlenews": 0,
+        "gdelt": 0,
+        "fetch": 5
+      },
+      "reserved": 8,
+      "finished": 8,
+      "errors": 0,
+      "searches": [
+        {
+          "attempt_id": "0cb7478952d8404b8471f6f2a1fcb259",
+          "kind": "exa",
+          "intent": {
+            "query": "Jay Maine town clerk November 3 2026 election results Article 3 solar moratorium official results",
+            "publication_window": {
+              "since": null,
+              "until": null
+            },
+            "max_results": 10,
+            "include_domains": []
+          },
+          "hits": 10,
+          "cost_usd": 0.007,
+          "unpriced": false,
+          "query_scope_check": null
+        },
+        {
+          "attempt_id": "60b63fce3c654bfcb60d07796e67c1b8",
+          "kind": "serpapi",
+          "intent": {
+            "query": "site:jay-maine.org \"November\" \"2026\" \"election\" \"results\"",
+            "publication_window": {
+              "since": null,
+              "until": null
+            },
+            "max_results": 10,
+            "include_domains": []
+          },
+          "hits": 1,
+          "cost_usd": null,
+          "unpriced": true,
+          "query_scope_check": {
+            "status": "all_returned_urls_in_declared_sites",
+            "declared_sites": [
+              "jay-maine.org"
+            ],
+            "matching_hits": 1,
+            "nonmatching_hits": 0,
+            "observed_hosts": [
+              "www.jay-maine.org"
+            ],
+            "scope": "Diagnostic of returned URL hosts, not query-language validation or evidence of absence. Check ambiguous OR branches and fetch substantive sources."
+          }
+        },
+        {
+          "attempt_id": "9da53634b1f24360a3c7c39c9b3b5359",
+          "kind": "exa",
+          "intent": {
+            "query": "Jay town election November 3 2026 results solar moratorium article 3 vote clerk return",
+            "publication_window": {
+              "since": null,
+              "until": null
+            },
+            "max_results": 10,
+            "include_domains": [
+              "jay-maine.org"
+            ]
+          },
+          "hits": 10,
+          "cost_usd": 0.007,
+          "unpriced": false,
+          "query_scope_check": {
+            "status": "all_returned_urls_in_declared_sites",
+            "declared_sites": [
+              "jay-maine.org"
+            ],
+            "matching_hits": 10,
+            "nonmatching_hits": 0,
+            "observed_hosts": [
+              "www.jay-maine.org"
+            ],
+            "scope": "Diagnostic of returned URL hosts, not query-language validation or evidence of absence. Check ambiguous OR branches and fetch substantive sources."
+          }
+        }
+      ],
+      "sources": [
+        {
+          "attempt_id": "169412e283b04639bceb838ec16c8de7",
+          "url": "https://www.jay-maine.org/",
+          "final_url": "https://www.jay-maine.org/",
+          "status": 200,
+          "ok": true,
+          "chars": 1706,
+          "body_sha256": "a3126e22e75b63b6f2c789482513d533792a854d1698f6ca3df2e73c037a8e3d",
+          "text_sha256": "6a1838ce1e0937a6ada2a1175f27057def7ac822f7dd1d2063df193f4d769911",
+          "body_observed_at": "2026-11-07T09:31:57.670394Z",
+          "browser": true,
+          "existing_canonical_source_id": null,
+          "same_existing_canonical_body": null
+        },
+        {
+          "attempt_id": "f5d591f0e34f48eaae89c2a47858b612",
+          "url": "https://legislature.maine.gov/statutes/30-A/title30-Asec4356.html",
+          "final_url": "https://legislature.maine.gov/statutes/30-A/title30-Asec4356.html",
+          "status": 200,
+          "ok": true,
+          "chars": 1915,
+          "body_sha256": "73b2ba573f80fd6cf141285e25ee5e34187c62990885ed44c7e8b9b30dd7863d",
+          "text_sha256": "c0a340a9d8b4a9fe9ff78f5eec04a030d730437c257aef6be7bf46f6d9ecde9f",
+          "body_observed_at": "2026-11-07T09:32:25.223075Z",
+          "browser": false,
+          "existing_canonical_source_id": null,
+          "same_existing_canonical_body": null
+        },
+        {
+          "attempt_id": "5a4b6c714a1c4d90b6806bb30335fb01",
+          "url": "https://www.jay-maine.org/wp-json/wp/v2/media?search=results&per_page=100",
+          "final_url": "https://www.jay-maine.org/wp-json/wp/v2/media?search=results&per_page=100",
+          "status": 200,
+          "ok": true,
+          "chars": 0,
+          "body_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "body_observed_at": "2026-11-07T09:32:25.381884Z",
+          "browser": false,
+          "existing_canonical_source_id": null,
+          "same_existing_canonical_body": null
+        },
+        {
+          "attempt_id": "8e21328deeaf43639012320e48b98ac6",
+          "url": "https://www.jay-maine.org/wp-json/wp/v2/media?search=election&per_page=100",
+          "final_url": "https://www.jay-maine.org/wp-json/wp/v2/media?search=election&per_page=100",
+          "status": 200,
+          "ok": true,
+          "chars": 0,
+          "body_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "body_observed_at": "2026-11-07T09:32:25.387087Z",
+          "browser": false,
+          "existing_canonical_source_id": null,
+          "same_existing_canonical_body": null
+        },
+        {
+          "attempt_id": "22dbfd8348604b4db581f1ad875ef224",
+          "url": "https://www.jay-maine.org/wp-json/wp/v2/media?search=solar&per_page=100",
+          "final_url": "https://www.jay-maine.org/wp-json/wp/v2/media?search=solar&per_page=100",
+          "status": 200,
+          "ok": true,
+          "chars": 0,
+          "body_sha256": "6070b8e6c1fa77d92ab5f6ce7da54517456123b40c8d15a151696f9cc578869a",
+          "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "body_observed_at": "2026-11-07T09:32:25.442573Z",
+          "browser": false,
+          "existing_canonical_source_id": null,
+          "same_existing_canonical_body": null
+        }
+      ],
+      "worker_review_sha256": "459e80268e1b81014191557f052915d52a1f8a22ab993c0a6168a827aa34a7cd"
+    },
+    "illinois": {
+      "caps": {
+        "search_total": 3,
+        "exa": 2,
+        "serpapi": 1,
+        "googlenews": 0,
+        "gdelt": 0,
+        "fetch": 5
+      },
+      "reserved": 8,
+      "finished": 8,
+      "errors": 0,
+      "searches": [
+        {
+          "attempt_id": "cf98e3faa3674182a02090fd30161ea9",
+          "kind": "exa",
+          "intent": {
+            "query": "Bloomington township special town meeting June 2026 data center referendum resolution ballot township electors clerk",
+            "publication_window": {
+              "since": null,
+              "until": null
+            },
+            "max_results": 10,
+            "include_domains": []
+          },
+          "hits": 10,
+          "cost_usd": 0.007,
+          "unpriced": false,
+          "query_scope_check": null
+        },
+        {
+          "attempt_id": "799ff73a69494454adc46680a279b9d5",
+          "kind": "exa",
+          "intent": {
+            "query": "Joliet Township 2026 referendum data center resolution advisory November township board clerk ballot",
+            "publication_window": {
+              "since": null,
+              "until": null
+            },
+            "max_results": 10,
+            "include_domains": []
+          },
+          "hits": 10,
+          "cost_usd": 0.007,
+          "unpriced": false,
+          "query_scope_check": null
+        },
+        {
+          "attempt_id": "2938e5e764954198834394e6da6568a2",
+          "kind": "serpapi",
+          "intent": {
+            "query": "\"Bloomington\" \"township\" \"June 1, 2026\" referendum resolution minutes data center",
+            "publication_window": {
+              "since": null,
+              "until": null
+            },
+            "max_results": 10,
+            "include_domains": []
+          },
+          "hits": 9,
+          "cost_usd": null,
+          "unpriced": true,
+          "query_scope_check": {
+            "status": "not_evaluated",
+            "declared_sites": []
+          }
+        }
+      ],
+      "sources": [
+        {
+          "attempt_id": "dfd6220de60443c6a155bf0b7fb466aa",
+          "url": "https://bloomingtonil.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=12760,plainText=false)",
+          "final_url": "https://bloomingtonil.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=12760,plainText=false)",
+          "status": 200,
+          "ok": true,
+          "chars": 1790,
+          "body_sha256": "ed0bc2ca71027f723f70ff5901d4ed4fa512488ef385d2efea3dfa5b697f9982",
+          "text_sha256": "08188b91628b3c949c31e24cae985a7c321b1ac700bfb2e2c486df1e053752ab",
+          "body_observed_at": "2026-11-07T09:32:07.412586Z",
+          "browser": false,
+          "existing_canonical_source_id": "e70a4a44-5180-41f6-93d2-ed8ba681e020",
+          "same_existing_canonical_body": true
+        },
+        {
+          "attempt_id": "3e27b123e1824cfb8337b83f9755188b",
+          "url": "https://bloomingtonil.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=12846,plainText=false)",
+          "final_url": "https://bloomingtonil.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=12846,plainText=false)",
+          "status": 200,
+          "ok": true,
+          "chars": 1865,
+          "body_sha256": "781bd63080f9f12146458a7d6a7958a2d60bef512b8f8c0b3bb161a885c25f10",
+          "text_sha256": "cd46e4fc1e8a259ae270073e39d8588c3ecf791953880e4845fc543615156d7e",
+          "body_observed_at": "2026-11-07T09:32:12.930805Z",
+          "browser": false,
+          "existing_canonical_source_id": null,
+          "same_existing_canonical_body": null
+        },
+        {
+          "attempt_id": "6d20c3189bb341a0bf0d6cbd0a5a9a3b",
+          "url": "https://www.joliettownship.net/wp-content/uploads/2026/09/County-Clerk-Election-Posting-Notice-Joliet-Township.pdf",
+          "final_url": "https://www.joliettownship.net/wp-content/uploads/2026/09/County-Clerk-Election-Posting-Notice-Joliet-Township.pdf",
+          "status": 200,
+          "ok": true,
+          "chars": 1181,
+          "body_sha256": "5a97ad489c197b13d1f952ad1f361d08061db76ccde6a8df16685ad184cdf2ac",
+          "text_sha256": "d3b118b575de814ef24f3619f9925e39a126089a42a756795f9ef623b45d1c20",
+          "body_observed_at": "2026-11-07T09:32:16.920249Z",
+          "browser": false,
+          "existing_canonical_source_id": "535c74ff-254b-4859-899f-2d0ad8d25436",
+          "same_existing_canonical_body": true
+        },
+        {
+          "attempt_id": "98ec4a9d00ee4e1e8ce8ccc2d188b8f0",
+          "url": "https://www.joliettownship.net/public-info/proclamations-and-ordinances/",
+          "final_url": "https://www.joliettownship.net/public-info/proclamations-and-ordinances/",
+          "status": 200,
+          "ok": true,
+          "chars": 11414,
+          "body_sha256": "a3e48db6f6b8bf6fa6051e6519e0ab93ff6a94b7e88d9494ddbd6cec64459e74",
+          "text_sha256": "0e42013614699e80510ef156733c6dc5dd8d30c822708c2bf24839f098c495ca",
+          "body_observed_at": "2026-11-07T09:32:22.628768Z",
+          "browser": false,
+          "existing_canonical_source_id": "f8ee5039-ae87-4e60-a83b-b1b4c75172f4",
+          "same_existing_canonical_body": false
+        },
+        {
+          "attempt_id": "a39302a70bf24f0f85731c27cdb5d156",
+          "url": "https://www.joliettownship.net/wp-content/uploads/2026/05/2026-08-Resolution-Authorizing-the-Submission-to-the-Electors-of-JT-of-a-Construction-of-AI-Data-Centers-Advisory-Question.pdf",
+          "final_url": "https://www.joliettownship.net/wp-content/uploads/2026/05/2026-08-Resolution-Authorizing-the-Submission-to-the-Electors-of-JT-of-a-Construction-of-AI-Data-Centers-Advisory-Question.pdf",
+          "status": 200,
+          "ok": true,
+          "chars": 0,
+          "body_sha256": "cafb5a72e61f185045992fdd53fbf9b7b54289fd1c4a24791bf0d33d0f02c8b6",
+          "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "body_observed_at": "2026-11-07T09:32:49.208742Z",
+          "browser": false,
+          "existing_canonical_source_id": "4c08a9bd-6476-4ce4-89a7-106c8c550bf6",
+          "same_existing_canonical_body": true
+        }
+      ],
+      "worker_review_sha256": "9404774a83dd9bea35a9ee432790bb27c6da84740cbbc91fef5ad831a3c74700"
+    }
+  },
+  "scope": "Bounded primary-gap followup; no complete ballot census, legal-force review, final certification or negative-existence proof.",
+  "root_adjudication": {
+    "jay": "No primary question-specific return/certification, formal passage rule/outcome, enrolled operative text or force proof recovered. Nov7 statutory text is contextual observation, not historical cutoff-law proof. Media searches cover three terms only.",
+    "bloomington": "June1 agenda body matches current canonical source. June22 agenda is not minutes or a placement disposition; boundary and original qualification remain unresolved.",
+    "joliet": "Signed Resolution2026-08 and county-clerk notice bodies match current canonical sources exactly. Existing advisory bindingness, legal_basis and placement terms preserved. Index body changed, without new accepted ballot fact. Root visually reviewed all five resolution pages; true-copy certification is not result certification. Stale TODO corrected; do not count repeated recovery as a new canonical finding."
+  },
+  "cost": {
+    "known_exa_subtotal_usd": 0.028,
+    "serpapi_calls": 2,
+    "serpapi_cost": "unpriced",
+    "cli_cost": "unpriced",
+    "complete_total": null
+  },
+  "cli_jobs": [
+    {
+      "role": "jay",
+      "model": "gpt-6.1-terra",
+      "prompt_sha256": "253b79610bf82a488886205d6747430491f144b45d9c1b4f9f7c5e594fdc0721"
+    },
+    {
+      "role": "illinois",
+      "model": "gpt-6.1-terra",
+      "prompt_sha256": "0cb9581848c9f6d5772dbafc6379578fe2d0db99d1fa18bd72c304138fd718e1"
+    }
+  ],
+  "independent_review": {
+    "model": "gpt-6.1-terra",
+    "review_json_sha256": "6e974460348868317ab4fe326c60ee0a5218ddc5612e26256a0d63b613716047",
+    "conclusion": "No canonical promotion; source reobservations and unchanged gaps",
+    "quoted_span_checks": {
+      "jay": 5,
+      "illinois": 11
+    },
+    "reported_evidence_hash_checks": {
+      "jay": 12,
+      "illinois": 33
+    },
+    "disagreements_retained": [
+      "Joliet recovered source was already canonical",
+      "Bloomington June1 source/intended electorate were already canonical",
+      "June22 agenda does not prove a qualification disposition"
+    ],
+    "limits": "Independent reviewer checked texts/OCR/hash provenance, did not independently visually reread five pages; root viewed all five."
+  },
+  "root_visual_review": {
+    "source_body_sha256": "cafb5a72e61f185045992fdd53fbf9b7b54289fd1c4a24791bf0d33d0f02c8b6",
+    "pages": [
+      {
+        "page": 1,
+        "image_sha256": "789ce2215312796c69cb2aeb0621e3795154d215b60b38a90275f46601a38235"
+      },
+      {
+        "page": 2,
+        "image_sha256": "00faf26d704d4a1969d5e2c043db06e8792aba4f28d44a810749ecf7b8cd338b"
+      },
+      {
+        "page": 3,
+        "image_sha256": "c752b2199cadffbf96eef7726252bb8e8d404ad1248cf63f8883dd277c19ca2c"
+      },
+      {
+        "page": 4,
+        "image_sha256": "d691c762f2ff1a1b133b7d323e2528a3f0644e1307f28761aa62e3ea11d03049"
+      },
+      {
+        "page": 5,
+        "image_sha256": "e49ceb73f80e3da633314aee8fc8b5884584f23d3e8bcaba81a16e45dbfc2983"
+      }
+    ],
+    "scope": "All five retained resolution pages viewed directly; referral authority and copy-certificate scope only, not result certification or legal force."
+  }
+}

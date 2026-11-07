@@ -27,6 +27,26 @@ ledger. The legacy worklist handles expiry, unknown extension anchors, stale pen
 records and verification markers. Its date alerts are research prompts: verify the
 actual effective-date anchor, calendar term and later actions before changing status.
 
+## Followup preflight against current canonical evidence
+
+Before assigning another acquisition budget, resolve the task's stable record ID
+in the pinned current snapshot. Inspect its current fields, accepted claims,
+source URLs/body hashes and later review/publication receipts. Compare that state
+with the older TODO or seed packet that suggested the task. Carry only the
+remaining field-specific gap into the worker prompt; retain an explicit reason
+when re-fetching an already supported source, such as checking for an amendment.
+
+On return, compare each retrieved URL and original body hash with the current
+source registry before describing a document or fact as newly recovered. Identical
+bodies are re-observations, not new discoveries; a changed navigation/index page
+does not establish a changed underlying act. Preserve the retrieval observation
+without refreshing the supported legal-status date. Correct stale checklist items
+with a link to the delivered review and retain genuinely unresolved related work.
+
+The [November 7 ballot followup](../work/research/2026-11-07/ballot-primary-gap-followup/README.md)
+illustrates this check: Joliet's signed referral resolution already supported its
+canonical placement fields, while certification and filing-history gaps remained.
+
 ## Acquisition and interruption
 
 Use a bounded `scripts/research_client.py` directory with persistent caps. Preserve
