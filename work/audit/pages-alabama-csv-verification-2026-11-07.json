@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0.0",
+  "deployed_source_commit": "e4a11decc6bf63bbbadd5931bcf3ed0b7c887d2a",
+  "workflow_run": 42362934101,
+  "workflow_conclusion": "success",
+  "retriever": "bc-web HTTP via persistent capped research_client",
+  "checks": [
+    {
+      "path": "data/moratorium_inventory.csv",
+      "url": "https://mjbommar.github.io/moratorium-data-2026/data/moratorium_inventory.csv",
+      "attempt_id": "8242a8cc1adf475b8fce8b2ace7b46b0",
+      "status": 200,
+      "body_observed_at": "2026-11-07T10:13:34.707012Z",
+      "bytes": 1692207,
+      "sha256": "5d8724796fd0725cb5b37cd1fc1e0957de2f3f6f8a8ce64e590a0612780875b3",
+      "matches_committed_csv": true
+    },
+    {
+      "path": "data/state_legislation.csv",
+      "url": "https://mjbommar.github.io/moratorium-data-2026/data/state_legislation.csv",
+      "attempt_id": "07c5269dfefe472c939ae81135319893",
+      "status": 200,
+      "body_observed_at": "2026-11-07T10:13:34.626985Z",
+      "bytes": 261656,
+      "sha256": "d1633bb6cb5d7dea90e4a0aef5bc8c5bf516a06ae5a8408b9cccd88b65069b33",
+      "matches_committed_csv": true
+    }
+  ],
+  "scope": "Two exact hosted CSV byte checks; no all-page, complete freshness, final release or consumer reconciliation assertion."
+}
