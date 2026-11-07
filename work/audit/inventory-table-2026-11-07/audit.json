@@ -1,0 +1,44 @@
+{
+  "date": "2026-11-07",
+  "baseline_commit": "1182edbc915f5c3fa6fe6047f4901a1e7de7b225",
+  "canonical_rows": 1330,
+  "prior_fresh_render_rows": 1328,
+  "new_render_rows": 1330,
+  "restored_false_exclusions": [
+    "Federalsburg",
+    "Federal Way"
+  ],
+  "existing_row_date_changes": 364,
+  "existing_row_status_changes": 562,
+  "new_recorded_status_counts": {
+    "active": 887,
+    "replaced": 94,
+    "pending": 79,
+    "rescinded": 12,
+    "extended": 192,
+    "expired": 66
+  },
+  "dates_never_parsed_from_prose": true,
+  "range_dates_rendered_without_single_month": true,
+  "source_data_changed": false,
+  "headline_counts_changed": false,
+  "artifact_matches_render": true,
+  "table_sha256": "5a4ccf31e44fdd1087d6cd8a97d1be72e8a7d0c56b7d8fcd6e47204c8ce45ad1",
+  "layout_validation": {
+    "wrapper": "article; longtable and booktabs; letter paper",
+    "compile": "pdflatex multiple passes, exit0",
+    "page_one_visually_inspected": true,
+    "scope": "standalone table, not historical paper rebuild",
+    "overfull_alignment": false,
+    "max_paragraph_overfull_pt": 4.02983
+  },
+  "legal_status_reverified": false,
+  "full_refresh_complete": false,
+  "validation": {
+    "unit_tests_passed": 398,
+    "new_table_regressions": 6,
+    "independent_review_model": "gpt-6.1-terra",
+    "independent_review": "no remaining blockers in declared scope; all rows/statuses compared; fourpass standalone compile",
+    "layout_limits": "1115 paragraph-box warnings, maximum4.03pt; only page1 visually inspected by coordinator; not every page or wrapper"
+  }
+}

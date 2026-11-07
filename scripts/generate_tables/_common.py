@@ -42,6 +42,9 @@ class InventoryRow:
     affected_projects: str
     outcome: str
     activity_level: str
+    date_enacted_iso: str = ""
+    date_enacted_uncertainty: str = ""
+    enacted_status: str = ""
 
     @classmethod
     def from_csv_dict(cls, d: dict) -> "InventoryRow":
@@ -58,6 +61,9 @@ class InventoryRow:
             affected_projects=d.get("affected_projects", "").strip(),
             outcome=d.get("outcome", "").strip(),
             activity_level=d.get("activity_level", "").strip(),
+            date_enacted_iso=d.get("date_enacted_iso", "").strip(),
+            date_enacted_uncertainty=d.get("date_enacted_uncertainty", "").strip(),
+            enacted_status=d.get("enacted_status", "").strip(),
         )
 
 

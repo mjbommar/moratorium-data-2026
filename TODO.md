@@ -405,5 +405,5 @@ Exit: repeatable refresh with visible freshness, costs, failures and unresolved 
 
 - [x] Record inspected core and sibling surface registers with authoritative inputs, edition limits, reviewer roles and concrete next actions (`work/audit/publication-surfaces-2026-11-07/`). This is an audit register, not full P6 acceptance.
 - [x] Correct FAQ row total, unflagged subtotal and unsupported geocode accuracy inference; clarify extraction cohort units and selected numeric-checker coverage.
-- [ ] Resolve malformed dates and stale caption in `tables/moratorium-inventory-clean.tex` through its generator; review raw dates first.
+- [x] Resolve malformed dates, guessed statuses and stale caption in `tables/moratorium-inventory-clean.tex`; restore two false name-filter exclusions and verify all 1,330 rows/statuses (`work/audit/inventory-table-2026-11-07/`). Standalone layout limits remain documented.
 - [ ] Complete all unverified visual, substantive-copy, edition and consumer actions in the publication surface registers before release approval.
