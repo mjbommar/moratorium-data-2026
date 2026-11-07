@@ -1,0 +1,146 @@
+{
+  "recorded_at": "2026-11-07T07:45:36.774931+00:00",
+  "source_commit": "81bf960646179e41ec8df1a276027b98ae052fd7",
+  "source_cohort_date": "2026-11-05",
+  "integration": {
+    "repository": "datacenter-data-integration",
+    "verified_remote_main": "bf3d4a8bea66f0bcf010817c9d3a8da530f9645a",
+    "manifest_sha256": "e83bb42b501c8fb55a6909e28eb4865707ababb02047cada4f355968a3fab475",
+    "files": 918,
+    "entries": 1013,
+    "semantic_tests": 5,
+    "git_roundtrip": {
+      "state": "verified",
+      "staged_snapshot_tree": "603fb4465e81b2b024654dad2663e2c0af4870fd",
+      "manifest_sha256": "e83bb42b501c8fb55a6909e28eb4865707ababb02047cada4f355968a3fab475",
+      "files": 918,
+      "entries": 1013,
+      "method": "Git archive of staged subtree, safe relative extraction; no mutable source copy."
+    },
+    "old_snapshots_and_downstream_outputs_preserved": true,
+    "source_receipt_sha256": "953e33455ea6ef624ad3eb0ac71b8dfb3587165189be759f1d1aeb0f67096699",
+    "scope": "Current input authentication and policy semantics only; no downstream joins executed."
+  },
+  "companion_site": {
+    "repository": "fightadatacenter.com",
+    "verified_local_and_remote_source_commit": "58027fc11c16ed6d25a3c8c08adfab8ddbd13ba9",
+    "local_build_exit_code": 0,
+    "local_html_pages": 95,
+    "local_pages_with_scope_notices": 95,
+    "local_tracked_status_before_after": "clean",
+    "live_sample_observations": [
+      {
+        "url": "https://fightadatacenter.com/",
+        "final_url": "https://fightadatacenter.com/",
+        "status": 200,
+        "body_sha256": "38687b4a0f651618f9a67bda4da1a442e736f79cd9b3729160a6a08d50bc5cf0",
+        "complete_raw_html_scope_notice": true,
+        "complete_raw_html_ballot_effect_distinction": true,
+        "matches_local_rendered_html_bytes": true
+      },
+      {
+        "url": "https://fightadatacenter.com/chapters/fight-at-city-hall/",
+        "final_url": "https://fightadatacenter.com/chapters/fight-at-city-hall/",
+        "status": 200,
+        "body_sha256": "760e5bf7462551c30fc5d9556610305ea7e248c10dfccfd345c57547d2743117",
+        "complete_raw_html_scope_notice": true,
+        "complete_raw_html_ballot_effect_distinction": true,
+        "matches_local_rendered_html_bytes": true
+      }
+    ],
+    "build_log_sha256": "1cff6fd54939cb9c1dc577528cb0af97ca2f9c35cf80d305bc3f96f946a0d567",
+    "hosted_deployment_revision_verified": false,
+    "deployment_api_limitation": "AWS credentials unavailable; no deployment revision inferred from sampled content."
+  },
+  "sibling_static_audit": {
+    "scope": "Read-only committed-tree and selected active-file review; no hosted-state or full factual verification.",
+    "repositories": [
+      {
+        "repository": "moratorium-paper",
+        "inspected_head": "3bf7d8592d70fc2e679c72d55b08d1b3604ca66d",
+        "disposition": "Historical cohort retained; no current source CSV reader identified in scoped code."
+      },
+      {
+        "repository": "datacenter-2026-book",
+        "inspected_head": "909da50326bce392555d38440d1b9c9749188d7f",
+        "disposition": "Historical editions and revised-edition gap note retained; no direct source CSV reader identified."
+      },
+      {
+        "repository": "servercountry.org",
+        "inspected_head": "0f57b68c0c16d6fec67c589f32656f40dac48706",
+        "disposition": "Historical paper/working-data distinction found in source; hosting not inspected in this pass."
+      },
+      {
+        "repository": "datacenter-paper-2026",
+        "inspected_head": "0bfbb85cfed44a508c91fc9b2ef4aaffeb36f4f9",
+        "disposition": "Active uncommitted importer has older manifest assumptions; isolated adapter revision required, no owner changes."
+      }
+    ]
+  },
+  "paper_importer_adapter": {
+    "state": "Revised isolated candidate passes nine targeted tests, offline ready-handoff replay and one fresh offline export/import; live owner adoption remains open.",
+    "active_owner_files_modified": false,
+    "active_campaign_baseline_or_queue_modified": false,
+    "prototype_container_verified": {
+      "aliases": 50,
+      "crosswalk_leads": 7,
+      "network_disabled": true
+    },
+    "old_patch_safe_to_apply": false,
+    "independent_review_private_sha256": "8624ae637fc53397079f96877103c129d8d8019cbb15c41d87372d4b7b430a35",
+    "revised_candidate_patch_sha256": "3e73f7908d65edc572cc9fffc24abbe3bb699d89e83f175e37b8d2590d00f7a2",
+    "targeted_tests_passed": 9,
+    "fresh_import_verified": true,
+    "fresh_import": {
+      "network_disabled": true,
+      "source_read_only": true,
+      "source_commit": "81bf960646179e41ec8df1a276027b98ae052fd7",
+      "manifest_sha256": "e83bb42b501c8fb55a6909e28eb4865707ababb02047cada4f355968a3fab475",
+      "aliases": 50,
+      "crosswalk_leads": 7,
+      "source_head_status_before_after_unchanged": true,
+      "failure_marker_present": false,
+      "baseline_mutated": false,
+      "independent_consumer_reverification": {
+        "network_disabled": true,
+        "aliases": 50,
+        "leads": 7,
+        "result": "passed"
+      }
+    }
+  },
+  "source_hosting": {
+    "failed_run_id": 42347875271,
+    "source_commit": "81bf960646179e41ec8df1a276027b98ae052fd7",
+    "failure": "Deployment polling timed out during syncing_files; local source build/export passed separately.",
+    "retry_requests": 1,
+    "last_observed_retry_status": "queued",
+    "configuration": {
+      "build_type": "legacy",
+      "source": {
+        "branch": "main",
+        "path": "/"
+      },
+      "status": "errored"
+    },
+    "deployment_verified": true,
+    "generic_retry_cancel_result": "HTTP 409: Cannot cancel a workflow re-run that has not yet queued; API reports queued with zero jobs.",
+    "native_pages_build_requests": 1,
+    "native_pages_build_created_at": "2026-11-07T07:42:24Z",
+    "native_pages_build_status": "built",
+    "native_pages_build_source_commit": "81bf960646179e41ec8df1a276027b98ae052fd7",
+    "controller_reference": "https://docs.github.com/en/rest/pages/pages#request-a-github-pages-build",
+    "native_pages_run_id": 42352389597,
+    "native_pages_build_finished_at": "2026-11-07T07:42:58Z",
+    "hosted_verification_scope": "GitHub reports deployment success for source81bf960; one hosted summary JSON matches source bytes. Other hosted pages, links and release assets not audited in this increment.",
+    "hosted_summary": {
+      "url": "https://mjbommar.github.io/moratorium-data-2026/data/summary_stats.json",
+      "status": 200,
+      "observed_at": "2026-11-07T07:43:41.467829Z",
+      "sha256": "ce3a72bba2b02f4f41007cafe2537c5b5ea8b605b2faaa86723e60b3487cba35",
+      "exact_source_byte_match": true
+    }
+  },
+  "final_release_published": false,
+  "overall_plan_complete": false
+}
