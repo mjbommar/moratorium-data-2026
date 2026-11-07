@@ -25,7 +25,7 @@ These are inventory classifications, not independently renewed legal-force findi
 Current totals remain 1,330 local records (1,079 active/extended classifications),
 442 state-policy records, and 51 ballot/proposal records (49 voted, one scheduled,
 one litigated). The expanded history retains 57 results, 50 current observations
-and five current certified observations. The [updated September-baseline comparison](work/audit/refresh-baseline-delta-2026-11-07.md)
+and five current certified observations. The [updated September-baseline comparison](work/audit/refresh-baseline-delta-2026-11-07-alabama.md)
 explains additions, retirement, policy-form reclassifications and all changed
 fields; it is not a comparison to the last published release or a complete
 freshness/current-force assessment.
