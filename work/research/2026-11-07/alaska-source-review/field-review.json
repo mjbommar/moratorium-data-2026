@@ -1,0 +1,743 @@
+{
+  "review_date": "2026-11-07",
+  "source_cohort": "2026-11-05",
+  "scope": "Three Alaska records; all 26 fields assessed, not accepted as current facts. Later legal force and named source gaps remain unresolved.",
+  "private_assessment_sha256": "1bff63366a6647a39ac013d76d3cf3ce29a5435fb912757b85258f780cb9f471",
+  "private_independent_review_sha256": "6304f08436af50f8880b1143d700f36636387386b500c740856d0836d85ff2ca",
+  "sources": {
+    "fairbanks": {
+      "body_sha256": "e4488f12f791d73cabae98b419822194d07c961e3fc4b6b3aa318577e83897cd",
+      "text_sha256": "883e34a6d59b7d75165772b422277f86a5cf207213b4834f14791631f7fbac4e",
+      "manifest_sha256": "ca6058a38150a11ba256ca483c70139f734b61fd857d9a543bdfe51e2382d91b",
+      "authority": "official borough assembly action memorandum",
+      "read_scope": "Page 3 action item; no final ordinance or later assembly history"
+    },
+    "petersburg": {
+      "body_sha256": "0babd91fdc057d597f9e834ecc9a6d3979e692ebc38a1e59df60f6ada0f361e9",
+      "text_sha256": "be5501d408f4ba0cc62ed5fa4c04860a78117b6a57d996f9e45886332a9fb36e",
+      "manifest_sha256": "3de6b58b319276b2480f7649f2ce45b6d3db93c541c04074e22ef54a98931479",
+      "authority": "official borough assembly agenda and unsigned draft",
+      "read_scope": "Agenda and proposed ordinance pages 21-25 in packet; not a vote record"
+    },
+    "houston": {
+      "body_sha256": "9288691a5029e9764057ae34365ae1b299ce83a230971dd0617d498b5e33f595",
+      "text_sha256": "d8de8b04e5da061f6ed4db2b04d1669f963e0cadc1d80e366aad7d94965dd237",
+      "manifest_sha256": "1e57acd238beca6dc76bd582b222cb21ad1b841894c81ac7f9be2ca5d8aa0af5",
+      "authority": "official executed city ordinance; OCR derived from scanned pages",
+      "read_scope": "Full five-page OCR read; prior coordinator visually checked pages 1 and 5; OCR is not native text"
+    },
+    "houston_news": {
+      "body_sha256": "9db2d5991573fd76450a8a286c05435862d9d30dfa66bb8970088f5c2c43f535",
+      "text_sha256": "f346c46ceae0fe2747abc1d09072abf11a97b25197416b0f841d349cd5858778",
+      "manifest_sha256": "7e03a1a03144b7beeba1ac2c5cdc15b40f3391788f72fa567f99d8633ae98a2e",
+      "authority": "secondary report; attributed statement",
+      "read_scope": "Report observed Nov 5; no exhaustive project census"
+    },
+    "petersburg_news": {
+      "body_sha256": "d68731c5ee3dbdbdff767f594819051a300495341125702fd7be266971bbd281",
+      "text_sha256": "27095c1ebdb52234864acaf996a619dc9e4050cda8a517f702cb116e96625915",
+      "manifest_sha256": "e925d24d8d0e1487515bde76bd2d559520dfc6fb2fe5e147ac701b4209c7b7b7",
+      "authority": "secondary account",
+      "read_scope": "Observed Nov 5; reported vote requires primary minutes"
+    },
+    "petersburg_index": {
+      "body_sha256": "38516aff1507fd55601210616f345a136c61b4352fe8ae8f66c16f63aca2ba36",
+      "text_sha256": "228f5c5ecc917d3028b48a0aeaead9438d37d291856cad81dc9e9c3214645c0c",
+      "manifest_sha256": "bd4ad84ac17b7c2fd2eeed58eae613da0182dfb802082d43516f09ccc0c6ada9",
+      "authority": "official index landing page",
+      "read_scope": "Observed Nov 7; page declares June update; linked list not read; not a later history"
+    },
+    "houston_index": {
+      "body_sha256": "196808f059f813968a83860535abd879387e09faf20a651dbbbe011a31808e27",
+      "text_sha256": "bcbaf7aa861eb90994eedc418089a47d592b49ea180907a21851ed0256af6e07",
+      "manifest_sha256": "ed56a3eedaf217b9a7269d9bd9de07924bee84525d48b349c18baff59c59b713",
+      "authority": "official city legislation index",
+      "read_scope": "Observed Nov 7; full extracted page read; identical text hash to Nov 5; no complete legal-history inference"
+    }
+  },
+  "records": [
+    {
+      "id": "ak-fairbanks-north-star-borough-undated",
+      "outcome": "researched_unresolved",
+      "reviewed_row_sha256": "5d1571318b6a102d5b158737761d44977419b0879863084eec82529a544d363b",
+      "current_row_sha256": "5d1571318b6a102d5b158737761d44977419b0879863084eec82529a544d363b",
+      "fields": {
+        "state": {
+          "reviewed_value_sha256": "c17ac113230f5f31c4a53f58d0f24e8199dce328ae69acb0839e9cb224873a16",
+          "assessment_label": "derived_mechanical",
+          "source_keys": [],
+          "scope_and_next_action": "Alaska metadata on city/borough records; verify against jurisdiction authority if identity disputed.",
+          "independent_qualification": "Assessment is bounded by its stated rationale and source scope."
+        },
+        "state_abbrev": {
+          "reviewed_value_sha256": "3c4e58eff203b042713969d15d21e5a80fcc43b7ce3c90517c58641dd98887c2",
+          "assessment_label": "derived_mechanical",
+          "source_keys": [],
+          "scope_and_next_action": "USPS AK mapping; administrative code, not a force finding.",
+          "independent_qualification": "Assessment is bounded by its stated rationale and source scope."
+        },
+        "jurisdiction": {
+          "reviewed_value_sha256": "554511d59eaabec38b272ed6e5f3fdc9d999f7e3d7196849e43112fac3639ce3",
+          "assessment_label": "primary_supported",
+          "source_keys": [
+            "fairbanks"
+          ],
+          "scope_and_next_action": "Borough assembly identifies ordinance; distinguish borough from City of Fairbanks.",
+          "independent_qualification": "Assessment is bounded by its stated rationale and source scope."
+        },
+        "jurisdiction_type": {
+          "reviewed_value_sha256": "136c87dec4695cefef030fd6dc7c32faeb6280a795fda70b017197b60e3b7873",
+          "assessment_label": "derived_mechanical",
+          "source_keys": [],
+          "scope_and_next_action": "Legacy schema maps borough to County; Houston is City. Preserve actual governmental identity.",
+          "independent_qualification": "Assessment is bounded by its stated rationale and source scope."
+        },
+        "date_enacted": {
+          "reviewed_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "assessment_label": "unresolved",
+          "source_keys": [
+            "fairbanks"
+          ],
+          "scope_and_next_action": "Blank: referral is not adoption. Obtain assembly minutes and enrolled ordinance through cutoff.",
+          "independent_qualification": "Assessment is bounded by its stated rationale and source scope."
+        },
+        "duration": {
+          "reviewed_value_sha256": "9b644529314528c074351027a7b51079c95d50a74804ba35a66f0718e51a548a",
+          "assessment_label": "unresolved",
+          "source_keys": [
+            "fairbanks"
+          ],
+          "scope_and_next_action": "Referral memorandum does not establish proposed term; obtain complete ordinance 2026-42 and amendments.",
+          "independent_qualification": "Assessment is bounded by its stated rationale and source scope."
+        },
+        "legal_basis": {
+          "reviewed_value_sha256": "d921c9add43b9a1a0c3ba80284fa708d7d318edbe12da9b18e312bd8bf10a7f7",
+          "assessment_label": "primary_supported",
+          "source_keys": [
+            "fairbanks"
+          ],
+          "scope_and_next_action": "Ordinance 2026-42 identified as proposal, no adoption established.",
+          "independent_qualification": "Assessment is bounded by its stated rationale and source scope."
+        },
+        "trigger": {
+          "reviewed_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "assessment_label": "unresolved",
+          "source_keys": [
+            "fairbanks"
+          ],
+          "scope_and_next_action": "Blank: reasons not established by referral title; recover ordinance findings and contemporaneous record.",
+          "independent_qualification": "Assessment is bounded by its stated rationale and source scope."
+        },
+        "current_status": {
+          "reviewed_value_sha256": "58c2c1e7952033a939f6a4c7940c9b7bd9ab1d3dceaada64cdee55a389d7e187",
+          "assessment_label": "unresolved",
+          "source_keys": [
+            "fairbanks"
+          ],
+          "scope_and_next_action": "October 22 referral supported; later planning recommendation, assembly action and legal force through Nov 5 not established. Inspect commission and assembly agendas, minutes and enrolled ordinance.",
+          "independent_qualification": "Assessment is bounded by its stated rationale and source scope."
+        },
+        "affected_projects": {
+          "reviewed_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "assessment_label": "unresolved",
+          "source_keys": [
+            "fairbanks"
+          ],
+          "scope_and_next_action": "Blank is no recorded project, not evidence none affected. Review actual applications and geographic applicability.",
+          "independent_qualification": "Unresolved; blank does not establish absence."
+        },
+        "outcome": {
+          "reviewed_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "assessment_label": "unresolved",
+          "source_keys": [
+            "fairbanks"
+          ],
+          "scope_and_next_action": "Blank cannot prove no outcome. Trace recommendation and assembly final disposition.",
+          "independent_qualification": "Assessment is bounded by its stated rationale and source scope."
+        },
+        "has_verify_tags": {
+          "reviewed_value_sha256": "3cbc87c7681f34db4617feaa2c8801931bc5e42d8d0f560e756dd4cd92885f18",
+          "assessment_label": "derived_mechanical",
+          "source_keys": [],
+          "scope_and_next_action": "Flag derives from current row verification markers, not source truth.",
+          "independent_qualification": "Assessment is bounded by its stated rationale and source scope."
+        },
+        "verify_count": {
+          "reviewed_value_sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+          "assessment_label": "derived_mechanical",
+          "source_keys": [],
+          "scope_and_next_action": "Count of [VERIFY markers in current row; mechanically checked under validator rule.",
+          "independent_qualification": "Assessment is bounded by its stated rationale and source scope."
+        },
+        "cite_count": {
+          "reviewed_value_sha256": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+          "assessment_label": "derived_mechanical",
+          "source_keys": [],
+          "scope_and_next_action": "Legacy citation-marker count, not a count of underlying research or source quality.",
+          "independent_qualification": "Assessment is bounded by its stated rationale and source scope."
+        },
+        "activity_level": {
+          "reviewed_value_sha256": "f793de205ead5ac302c4a1627829dea41f176b1068b993a32373fc869918374b",
+          "assessment_label": "unresolved",
+          "source_keys": [],
+          "scope_and_next_action": "Statewide classification repeated on row; not adjudicated by this three-row local review. Reconcile statewide classification and its criteria.",
+          "independent_qualification": "Assessment is bounded by its stated rationale and source scope."
+        },
+        "enacted_status": {
+          "reviewed_value_sha256": "62a2fed3d6e08c44835fce71f02210b1ddabfb066e39edf1e6c261988f824dd3",
+          "assessment_label": "unresolved",
+          "source_keys": [
+            "fairbanks"
+          ],
+          "scope_and_next_action": "Pending describes last documented referral, not confirmed pending through cutoff; obtain subsequent action record.",
+          "independent_qualification": "Assessment is bounded by its stated rationale and source scope."
+        },
+        "moratorium_id": {
+          "reviewed_value_sha256": "24d92a75d38f99a99652979891f3dac616efbcff5d308d401437d79f12a5d84a",
+          "assessment_label": "derived_mechanical",
+          "source_keys": [],
+          "scope_and_next_action": "Stable inventory key; undated suffix retained as historical identifier, not a date claim.",
+          "independent_qualification": "Assessment is bounded by its stated rationale and source scope."
+        },
+        "latitude": {
+          "reviewed_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "assessment_label": "unresolved",
+          "source_keys": [],
+          "scope_and_next_action": "Geocoding independently unverified; blank is unknown, not absence. Check jurisdiction boundary and centroid.",
+          "independent_qualification": "Coordinates unverified; blank means unknown, populated Houston values also unverified."
+        },
+        "longitude": {
+          "reviewed_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "assessment_label": "unresolved",
+          "source_keys": [],
+          "scope_and_next_action": "Geocoding independently unverified; blank is unknown, not absence. Check jurisdiction boundary and centroid.",
+          "independent_qualification": "Coordinates unverified; blank means unknown, populated Houston values also unverified."
+        },
+        "date_enacted_iso": {
+          "reviewed_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "assessment_label": "unresolved",
+          "source_keys": [
+            "fairbanks"
+          ],
+          "scope_and_next_action": "Blank: no primary adoption record reviewed; obtain final action and adoption date.",
+          "independent_qualification": "Assessment is bounded by its stated rationale and source scope."
+        },
+        "date_enacted_uncertainty": {
+          "reviewed_value_sha256": "97b7e2db799e2b79e65f418b42a7d3054c95b2d3ab1dba243039597e44a38084",
+          "assessment_label": "derived_mechanical",
+          "source_keys": [
+            "fairbanks"
+          ],
+          "scope_and_next_action": "Unverified is appropriate to the missing adoption record, not proof of non-adoption.",
+          "independent_qualification": "Assessment is bounded by its stated rationale and source scope."
+        },
+        "duration_days": {
+          "reviewed_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "assessment_label": "unresolved",
+          "source_keys": [
+            "fairbanks"
+          ],
+          "scope_and_next_action": "Blank reflects unknown proposal term; obtain ordinance rather than infer days.",
+          "independent_qualification": "Assessment is bounded by its stated rationale and source scope."
+        },
+        "duration_kind": {
+          "reviewed_value_sha256": "b23a6a8439c0dde5515893e7c90c1e3233b8616e634470f20dc4928bcf3609bc",
+          "assessment_label": "unresolved",
+          "source_keys": [
+            "fairbanks"
+          ],
+          "scope_and_next_action": "Unknown reflects missing full text; classify original term only after obtaining it.",
+          "independent_qualification": "Derived schema classification only, not primary wording or proof of current term."
+        },
+        "current_end_date_iso": {
+          "reviewed_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "assessment_label": "unresolved",
+          "source_keys": [
+            "fairbanks"
+          ],
+          "scope_and_next_action": "Blank correctly avoids guessed operative end; adoption, effectiveness and later history are unknown.",
+          "independent_qualification": "Assessment is bounded by its stated rationale and source scope."
+        },
+        "sectors": {
+          "reviewed_value_sha256": "18aab0ff816aa656dcfbd21a69420b3e412150d9a18921282bd0ff26869b4a1d",
+          "assessment_label": "primary_supported",
+          "source_keys": [
+            "fairbanks"
+          ],
+          "scope_and_next_action": "Action memorandum identifies large-scale data center permits; full threshold requires ordinance.",
+          "independent_qualification": "Code is a derived classification from cited text, not a verbatim primary fact; draft text does not establish enactment."
+        },
+        "trigger_categories": {
+          "reviewed_value_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "assessment_label": "unresolved",
+          "source_keys": [
+            "fairbanks"
+          ],
+          "scope_and_next_action": "Empty list is not a supported negative; recover ordinance findings and assign supported categories.",
+          "independent_qualification": "Assessment is bounded by its stated rationale and source scope."
+        }
+      }
+    },
+    {
+      "id": "ak-houston-undated",
+      "outcome": "researched_unresolved",
+      "reviewed_row_sha256": "681dcc45cd87c8c8b82541bdeb2ddc7ba6ad5115c90c220b3f211702bb8b236e",
+      "current_row_sha256": "f48ea0ce776662a04f87b4cec2d86c125b6f88b0b74edcd3f65ed9d417b41d52",
+      "fields": {
+        "state": {
+          "reviewed_value_sha256": "c17ac113230f5f31c4a53f58d0f24e8199dce328ae69acb0839e9cb224873a16",
+          "assessment_label": "derived_mechanical",
+          "source_keys": [],
+          "scope_and_next_action": "Alaska metadata on city/borough records; verify against jurisdiction authority if identity disputed.",
+          "independent_qualification": "Assessment is bounded by its stated rationale and source scope."
+        },
+        "state_abbrev": {
+          "reviewed_value_sha256": "3c4e58eff203b042713969d15d21e5a80fcc43b7ce3c90517c58641dd98887c2",
+          "assessment_label": "derived_mechanical",
+          "source_keys": [],
+          "scope_and_next_action": "USPS AK mapping; administrative code, not a force finding.",
+          "independent_qualification": "Assessment is bounded by its stated rationale and source scope."
+        },
+        "jurisdiction": {
+          "reviewed_value_sha256": "00cc7d9b5e8b01238856bf7f9d2c5bb12313bbe47f9f612374db95f0f30519ac",
+          "assessment_label": "primary_supported",
+          "source_keys": [
+            "houston"
+          ],
+          "scope_and_next_action": "City ordinance identifies Houston, Alaska.",
+          "independent_qualification": "Assessment is bounded by its stated rationale and source scope."
+        },
+        "jurisdiction_type": {
+          "reviewed_value_sha256": "fc33f73246f48295702f404001e74d56f14d2f82689b2816422dc1a4c2ec4fb2",
+          "assessment_label": "derived_mechanical",
+          "source_keys": [],
+          "scope_and_next_action": "Legacy schema maps borough to County; Houston is City. Preserve actual governmental identity.",
+          "independent_qualification": "Assessment is bounded by its stated rationale and source scope."
+        },
+        "date_enacted": {
+          "reviewed_value_sha256": "c0bec6f048ee7734e6c1eb093122a2b0a0bcd2862a9b8c7dbf95287ee392df1f",
+          "assessment_label": "primary_supported",
+          "source_keys": [
+            "houston"
+          ],
+          "scope_and_next_action": "Signed ordinance prints adoption October 8; mayoral signature date distinct and unknown.",
+          "independent_qualification": "Assessment is bounded by its stated rationale and source scope."
+        },
+        "duration": {
+          "reviewed_value_sha256": "b3ca6f0a6780d5aba25bb34934a61b57016551e008552710dedaf8bf45d6d620",
+          "assessment_label": "primary_supported",
+          "source_keys": [
+            "houston"
+          ],
+          "scope_and_next_action": "Original two years runs from effectiveness, with earlier repeal or later extension possible; does not verify current force.",
+          "independent_qualification": "Assessment is bounded by its stated rationale and source scope."
+        },
+        "legal_basis": {
+          "reviewed_value_sha256": "460babb2d04f59ad15c3bc4572f792b0df55f821ff339b42e3d01f9e4c88a55c",
+          "assessment_label": "primary_supported",
+          "source_keys": [
+            "houston"
+          ],
+          "scope_and_next_action": "City 26-20 prints adoption and visible signature in retained page image; signature date unknown.",
+          "independent_qualification": "Assessment is bounded by its stated rationale and source scope."
+        },
+        "trigger": {
+          "reviewed_value_sha256": "1ca563b3d6c7b438bf5c0bdb192f4e80a764412776bd458953404773498c0ea2",
+          "assessment_label": "unresolved",
+          "source_keys": [
+            "houston",
+            "houston_news"
+          ],
+          "scope_and_next_action": "Specific_project shorthand is not proved as actually covered; news attributes concern to AIDEA potential use outside city. Check findings and relationship to boundaries.",
+          "independent_qualification": "Assessment is bounded by its stated rationale and source scope."
+        },
+        "current_status": {
+          "reviewed_value_sha256": "f0b66235f16afeeea9c07a1e1941c25e94b8cfe5c82235a94c89bde0b998a160",
+          "assessment_label": "unresolved",
+          "source_keys": [
+            "houston",
+            "houston_index"
+          ],
+          "scope_and_next_action": "Printed adoption and visible signature supported; effectiveness date, possible repeal, extension, litigation and present force remain unverified. Review city council minutes after Oct 8 through Nov 5 and clerk execution records.",
+          "independent_qualification": "Assessment is bounded by its stated rationale and source scope."
+        },
+        "affected_projects": {
+          "reviewed_value_sha256": "472053c56bbcd1b87073e7ae460d0a1504a9083b6557348d6da1973dd7b7e925",
+          "assessment_label": "unresolved",
+          "source_keys": [
+            "houston_news"
+          ],
+          "scope_and_next_action": "Broad claim of no proposed or approved project is not supported by cited secondary report. Attribute authority officials statement and date observation; seek city application and permit records.",
+          "independent_qualification": "Broad negative and stated geography exceed reviewed report; correction needed.",
+          "superseded_by_guarded_correction": true,
+          "current_value_sha256": "b2312ba186f93ecca7e4615d500603a2bed5b6f9d1f8dd1d6997dfdd321aaf50"
+        },
+        "outcome": {
+          "reviewed_value_sha256": "a68a1b1d9de13b33f480df131c366dff9e81a5f932318055f952875d84296c42",
+          "assessment_label": "primary_supported",
+          "source_keys": [
+            "houston"
+          ],
+          "scope_and_next_action": "Adoption and visible signature supported; exact signature and expiry remain unverified; no later disposition implied.",
+          "independent_qualification": "Assessment is bounded by its stated rationale and source scope."
+        },
+        "has_verify_tags": {
+          "reviewed_value_sha256": "3cbc87c7681f34db4617feaa2c8801931bc5e42d8d0f560e756dd4cd92885f18",
+          "assessment_label": "derived_mechanical",
+          "source_keys": [],
+          "scope_and_next_action": "Flag derives from current row verification markers, not source truth.",
+          "independent_qualification": "Assessment is bounded by its stated rationale and source scope."
+        },
+        "verify_count": {
+          "reviewed_value_sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+          "assessment_label": "derived_mechanical",
+          "source_keys": [],
+          "scope_and_next_action": "Count of [VERIFY markers in current row; mechanically checked under validator rule.",
+          "independent_qualification": "Assessment is bounded by its stated rationale and source scope."
+        },
+        "cite_count": {
+          "reviewed_value_sha256": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+          "assessment_label": "derived_mechanical",
+          "source_keys": [],
+          "scope_and_next_action": "Legacy citation-marker count, not a count of underlying research or source quality.",
+          "independent_qualification": "Assessment is bounded by its stated rationale and source scope."
+        },
+        "activity_level": {
+          "reviewed_value_sha256": "f793de205ead5ac302c4a1627829dea41f176b1068b993a32373fc869918374b",
+          "assessment_label": "unresolved",
+          "source_keys": [],
+          "scope_and_next_action": "Statewide classification repeated on row; not adjudicated by this three-row local review. Reconcile statewide classification and its criteria.",
+          "independent_qualification": "Assessment is bounded by its stated rationale and source scope."
+        },
+        "enacted_status": {
+          "reviewed_value_sha256": "96879611650f80a81392a52e0db9b0237669087c4518e1c130e541a505e0eeef",
+          "assessment_label": "unresolved",
+          "source_keys": [
+            "houston",
+            "houston_index"
+          ],
+          "scope_and_next_action": "Active is provisional legacy bucket, not verified present force; review amendment, repeal and court history.",
+          "independent_qualification": "Assessment is bounded by its stated rationale and source scope."
+        },
+        "moratorium_id": {
+          "reviewed_value_sha256": "b754875b2502008d7caef8c9ee6414536c18f172622987d253f3d9cc0077acb6",
+          "assessment_label": "derived_mechanical",
+          "source_keys": [],
+          "scope_and_next_action": "Stable inventory key; undated suffix retained as historical identifier, not a date claim.",
+          "independent_qualification": "Assessment is bounded by its stated rationale and source scope."
+        },
+        "latitude": {
+          "reviewed_value_sha256": "59d4534a3eeda9ebd445ee69b3617124e9f25713f66a3d2c1d5ecb95d73548d0",
+          "assessment_label": "unresolved",
+          "source_keys": [],
+          "scope_and_next_action": "Geocoding independently unverified; blank is unknown, not absence. Check jurisdiction boundary and centroid.",
+          "independent_qualification": "Coordinates unverified; blank means unknown, populated Houston values also unverified."
+        },
+        "longitude": {
+          "reviewed_value_sha256": "18548663489f97d1182c69d2b4769077bb72c61682a6ea0047b2086a01d364d9",
+          "assessment_label": "unresolved",
+          "source_keys": [],
+          "scope_and_next_action": "Geocoding independently unverified; blank is unknown, not absence. Check jurisdiction boundary and centroid.",
+          "independent_qualification": "Coordinates unverified; blank means unknown, populated Houston values also unverified."
+        },
+        "date_enacted_iso": {
+          "reviewed_value_sha256": "c0bec6f048ee7734e6c1eb093122a2b0a0bcd2862a9b8c7dbf95287ee392df1f",
+          "assessment_label": "primary_supported",
+          "source_keys": [
+            "houston"
+          ],
+          "scope_and_next_action": "October 8 adoption as printed; not an exact effective date.",
+          "independent_qualification": "Assessment is bounded by its stated rationale and source scope."
+        },
+        "date_enacted_uncertainty": {
+          "reviewed_value_sha256": "fa79d4746c21cd960a17b92db8976ddef95a7e20b590721f8e0fa7847a05e486",
+          "assessment_label": "derived_mechanical",
+          "source_keys": [
+            "houston"
+          ],
+          "scope_and_next_action": "Exact refers to printed adoption date only; signature timing unknown.",
+          "independent_qualification": "Assessment is bounded by its stated rationale and source scope."
+        },
+        "duration_days": {
+          "reviewed_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "assessment_label": "derived_mechanical",
+          "source_keys": [
+            "houston"
+          ],
+          "scope_and_next_action": "Blank is appropriate for calendar years, not 730 days; exact end unverified.",
+          "independent_qualification": "Assessment is bounded by its stated rationale and source scope."
+        },
+        "duration_kind": {
+          "reviewed_value_sha256": "03f6b12ac41a29db8335ddb3bc52b64fb713b8f6190f91df58223dbb3559b8fe",
+          "assessment_label": "derived_mechanical",
+          "source_keys": [
+            "houston"
+          ],
+          "scope_and_next_action": "Two calendar years classified calendar_term; no fixed-day conversion.",
+          "independent_qualification": "Derived schema classification only, not primary wording or proof of current term."
+        },
+        "current_end_date_iso": {
+          "reviewed_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "assessment_label": "unresolved",
+          "source_keys": [
+            "houston"
+          ],
+          "scope_and_next_action": "Blank: undated signature prevents exact anchor and later actions are unverified.",
+          "independent_qualification": "Assessment is bounded by its stated rationale and source scope."
+        },
+        "sectors": {
+          "reviewed_value_sha256": "18aab0ff816aa656dcfbd21a69420b3e412150d9a18921282bd0ff26869b4a1d",
+          "assessment_label": "primary_supported",
+          "source_keys": [
+            "houston"
+          ],
+          "scope_and_next_action": "City ordinance applies to defined data centers, subject to threshold and exclusions.",
+          "independent_qualification": "Code is a derived classification from cited text, not a verbatim primary fact; draft text does not establish enactment."
+        },
+        "trigger_categories": {
+          "reviewed_value_sha256": "0be3d2e97f5b5a13f40f516f58915fde1dd8b028ea9be30c21c3dc9db112c69e",
+          "assessment_label": "unresolved",
+          "source_keys": [
+            "houston",
+            "houston_news"
+          ],
+          "scope_and_next_action": "Ordinance findings support regulatory and grid concerns; specific_project and land-use category need independent project/geographic linkage. Assess category-by-category.",
+          "independent_qualification": "Assessment is bounded by its stated rationale and source scope."
+        }
+      }
+    },
+    {
+      "id": "ak-petersburg-borough-undated",
+      "outcome": "researched_unresolved",
+      "reviewed_row_sha256": "26cebacda205dc887394b9b1c18609678375ca318388053655bb9f4acdfbb198",
+      "current_row_sha256": "26cebacda205dc887394b9b1c18609678375ca318388053655bb9f4acdfbb198",
+      "fields": {
+        "state": {
+          "reviewed_value_sha256": "c17ac113230f5f31c4a53f58d0f24e8199dce328ae69acb0839e9cb224873a16",
+          "assessment_label": "derived_mechanical",
+          "source_keys": [],
+          "scope_and_next_action": "Alaska metadata on city/borough records; verify against jurisdiction authority if identity disputed.",
+          "independent_qualification": "Assessment is bounded by its stated rationale and source scope."
+        },
+        "state_abbrev": {
+          "reviewed_value_sha256": "3c4e58eff203b042713969d15d21e5a80fcc43b7ce3c90517c58641dd98887c2",
+          "assessment_label": "derived_mechanical",
+          "source_keys": [],
+          "scope_and_next_action": "USPS AK mapping; administrative code, not a force finding.",
+          "independent_qualification": "Assessment is bounded by its stated rationale and source scope."
+        },
+        "jurisdiction": {
+          "reviewed_value_sha256": "24196e93f892c5c0d80ffda4aa78ca15ad2bf459fc2d5cfeab84a53a59bbf2eb",
+          "assessment_label": "primary_supported",
+          "source_keys": [
+            "petersburg"
+          ],
+          "scope_and_next_action": "Official borough packet identifies Petersburg Borough.",
+          "independent_qualification": "Assessment is bounded by its stated rationale and source scope."
+        },
+        "jurisdiction_type": {
+          "reviewed_value_sha256": "136c87dec4695cefef030fd6dc7c32faeb6280a795fda70b017197b60e3b7873",
+          "assessment_label": "derived_mechanical",
+          "source_keys": [],
+          "scope_and_next_action": "Legacy schema maps borough to County; Houston is City. Preserve actual governmental identity.",
+          "independent_qualification": "Assessment is bounded by its stated rationale and source scope."
+        },
+        "date_enacted": {
+          "reviewed_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "assessment_label": "unresolved",
+          "source_keys": [
+            "petersburg"
+          ],
+          "scope_and_next_action": "Blank: draft/agenda is not adoption; obtain all three readings and enrolled text.",
+          "independent_qualification": "Assessment is bounded by its stated rationale and source scope."
+        },
+        "duration": {
+          "reviewed_value_sha256": "faf8215a34838c3f4e3c558ff2945a951c48bfb05cd735be578a947462309f1e",
+          "assessment_label": "primary_supported",
+          "source_keys": [
+            "petersburg"
+          ],
+          "scope_and_next_action": "Unsigned draft proposes September 30, 2027 subject to extension or earlier repeal; not an operative endpoint. Verify final version.",
+          "independent_qualification": "Assessment is bounded by its stated rationale and source scope."
+        },
+        "legal_basis": {
+          "reviewed_value_sha256": "c9a37eca0274c253c145de25087d519bc33caa47ed09876aaa87218104063c3c",
+          "assessment_label": "primary_supported",
+          "source_keys": [
+            "petersburg"
+          ],
+          "scope_and_next_action": "Ordinance 2026-24 is in official agenda and unsigned draft, not proof of passage.",
+          "independent_qualification": "Assessment is bounded by its stated rationale and source scope."
+        },
+        "trigger": {
+          "reviewed_value_sha256": "1c39054fb626b2a5d2144f47fa54a76251ebeede355f6c0b2fef199f736e1322",
+          "assessment_label": "primary_supported",
+          "source_keys": [
+            "petersburg"
+          ],
+          "scope_and_next_action": "Draft findings describe power, generation and cooling impacts as issues for review; not a finding of actual effects.",
+          "independent_qualification": "Assessment is bounded by its stated rationale and source scope."
+        },
+        "current_status": {
+          "reviewed_value_sha256": "7fc9513a14eb4a0215cbc89a7ec4303ae49b2c5a796e5c5932e12058202a2894",
+          "assessment_label": "unresolved",
+          "source_keys": [
+            "petersburg",
+            "petersburg_news",
+            "petersburg_index"
+          ],
+          "scope_and_next_action": "Agenda and targeted conditions supported; Nov 2 first reading 5-1 is a secondary report, not accepted vote. June-dated index cannot settle later action. Obtain Nov 2 minutes and subsequent readings, signature and effective history.",
+          "independent_qualification": "Assessment is bounded by its stated rationale and source scope."
+        },
+        "affected_projects": {
+          "reviewed_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "assessment_label": "unresolved",
+          "source_keys": [
+            "petersburg",
+            "petersburg_news"
+          ],
+          "scope_and_next_action": "Blank is not a negative project census; evaluate actual permit status and applicability under final version.",
+          "independent_qualification": "Unresolved; blank does not establish absence."
+        },
+        "outcome": {
+          "reviewed_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "assessment_label": "unresolved",
+          "source_keys": [
+            "petersburg",
+            "petersburg_news"
+          ],
+          "scope_and_next_action": "Blank is unknown; obtain primary November 2 vote and final action.",
+          "independent_qualification": "Assessment is bounded by its stated rationale and source scope."
+        },
+        "has_verify_tags": {
+          "reviewed_value_sha256": "3cbc87c7681f34db4617feaa2c8801931bc5e42d8d0f560e756dd4cd92885f18",
+          "assessment_label": "derived_mechanical",
+          "source_keys": [],
+          "scope_and_next_action": "Flag derives from current row verification markers, not source truth.",
+          "independent_qualification": "Assessment is bounded by its stated rationale and source scope."
+        },
+        "verify_count": {
+          "reviewed_value_sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+          "assessment_label": "derived_mechanical",
+          "source_keys": [],
+          "scope_and_next_action": "Count of [VERIFY markers in current row; mechanically checked under validator rule.",
+          "independent_qualification": "Assessment is bounded by its stated rationale and source scope."
+        },
+        "cite_count": {
+          "reviewed_value_sha256": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+          "assessment_label": "derived_mechanical",
+          "source_keys": [],
+          "scope_and_next_action": "Legacy citation-marker count, not a count of underlying research or source quality.",
+          "independent_qualification": "Assessment is bounded by its stated rationale and source scope."
+        },
+        "activity_level": {
+          "reviewed_value_sha256": "f793de205ead5ac302c4a1627829dea41f176b1068b993a32373fc869918374b",
+          "assessment_label": "unresolved",
+          "source_keys": [],
+          "scope_and_next_action": "Statewide classification repeated on row; not adjudicated by this three-row local review. Reconcile statewide classification and its criteria.",
+          "independent_qualification": "Assessment is bounded by its stated rationale and source scope."
+        },
+        "enacted_status": {
+          "reviewed_value_sha256": "62a2fed3d6e08c44835fce71f02210b1ddabfb066e39edf1e6c261988f824dd3",
+          "assessment_label": "unresolved",
+          "source_keys": [
+            "petersburg",
+            "petersburg_news"
+          ],
+          "scope_and_next_action": "Pending is a provisional bucket; primary vote and final disposition through Nov 5 remain unverified.",
+          "independent_qualification": "Assessment is bounded by its stated rationale and source scope."
+        },
+        "moratorium_id": {
+          "reviewed_value_sha256": "b7af031e561986b581eeb8177138b0f81fa0b0333c6a29b6768d9c7d68ec4872",
+          "assessment_label": "derived_mechanical",
+          "source_keys": [],
+          "scope_and_next_action": "Stable inventory key; undated suffix retained as historical identifier, not a date claim.",
+          "independent_qualification": "Assessment is bounded by its stated rationale and source scope."
+        },
+        "latitude": {
+          "reviewed_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "assessment_label": "unresolved",
+          "source_keys": [],
+          "scope_and_next_action": "Geocoding independently unverified; blank is unknown, not absence. Check jurisdiction boundary and centroid.",
+          "independent_qualification": "Coordinates unverified; blank means unknown, populated Houston values also unverified."
+        },
+        "longitude": {
+          "reviewed_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "assessment_label": "unresolved",
+          "source_keys": [],
+          "scope_and_next_action": "Geocoding independently unverified; blank is unknown, not absence. Check jurisdiction boundary and centroid.",
+          "independent_qualification": "Coordinates unverified; blank means unknown, populated Houston values also unverified."
+        },
+        "date_enacted_iso": {
+          "reviewed_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "assessment_label": "unresolved",
+          "source_keys": [
+            "petersburg"
+          ],
+          "scope_and_next_action": "Blank: no final adoption established; retrieve signed ordinance and action minutes.",
+          "independent_qualification": "Assessment is bounded by its stated rationale and source scope."
+        },
+        "date_enacted_uncertainty": {
+          "reviewed_value_sha256": "97b7e2db799e2b79e65f418b42a7d3054c95b2d3ab1dba243039597e44a38084",
+          "assessment_label": "derived_mechanical",
+          "source_keys": [
+            "petersburg"
+          ],
+          "scope_and_next_action": "Unverified reflects absence of reviewed primary adoption record, not proven non-adoption.",
+          "independent_qualification": "Assessment is bounded by its stated rationale and source scope."
+        },
+        "duration_days": {
+          "reviewed_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "assessment_label": "unresolved",
+          "source_keys": [
+            "petersburg"
+          ],
+          "scope_and_next_action": "Blank: proposal uses a date, not a stated day count; final enacted term unestablished.",
+          "independent_qualification": "Assessment is bounded by its stated rationale and source scope."
+        },
+        "duration_kind": {
+          "reviewed_value_sha256": "0026824f237cff815804304043b687201f934daa8f514d00322abfae4168d5c8",
+          "assessment_label": "derived_mechanical",
+          "source_keys": [
+            "petersburg"
+          ],
+          "scope_and_next_action": "until_date describes draft proposed endpoint only; final term remains unresolved.",
+          "independent_qualification": "Derived schema classification only, not primary wording or proof of current term."
+        },
+        "current_end_date_iso": {
+          "reviewed_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "assessment_label": "unresolved",
+          "source_keys": [
+            "petersburg"
+          ],
+          "scope_and_next_action": "Blank: proposed September 30, 2027 is not established as operative; obtain enacted final text and extensions.",
+          "independent_qualification": "Assessment is bounded by its stated rationale and source scope."
+        },
+        "sectors": {
+          "reviewed_value_sha256": "18aab0ff816aa656dcfbd21a69420b3e412150d9a18921282bd0ff26869b4a1d",
+          "assessment_label": "primary_supported",
+          "source_keys": [
+            "petersburg"
+          ],
+          "scope_and_next_action": "Draft targets certain data-center permits, not all projects; verify final version.",
+          "independent_qualification": "Code is a derived classification from cited text, not a verbatim primary fact; draft text does not establish enactment."
+        },
+        "trigger_categories": {
+          "reviewed_value_sha256": "d4078943f193e57a5e17b82e77493126ae1fe5abfdb045cde826d1243ac0788c",
+          "assessment_label": "primary_supported",
+          "source_keys": [
+            "petersburg"
+          ],
+          "scope_and_next_action": "Draft supports grid, cooling/water and review/regulatory issues as proposed concerns; verify final text and coding criteria.",
+          "independent_qualification": "Code is a derived classification from cited text, not a verbatim primary fact; draft text does not establish enactment."
+        }
+      }
+    }
+  ],
+  "correction_receipt": "work/audit/apply-20261107T082926.json",
+  "limits": [
+    "No inference about freshness of other inventory rows.",
+    "No claim of complete source coverage, adoption, expiry, current enforceability or project applicability.",
+    "Source labels identify scoped evidence support and schema interpretation; they do not establish whole-record freshness."
+  ]
+}

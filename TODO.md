@@ -436,3 +436,5 @@ Exit: repeatable refresh with visible freshness, costs, failures and unresolved 
 
 - [ ] Before another known-document automatic-condition retry, reconcile the actual remaining P4 exit criteria (including unseen holdout/discovery metrics) and full-record freshness work; do not substitute repeated development experiments for the comprehensive refresh.
 - [ ] Fix source-bound citations, reviewed document-context propagation and governing qualification/direction handling before further automatic condition generation; preserve all frozen failures.
+
+- [x] Review all 78 fields in the three Alaska records with independent source checks; retain all three as researched/unresolved and apply only the guarded Houston project-attribution correction (`work/research/2026-11-07/alaska-source-review/`). This does not close whole-inventory freshness or later-history gaps.

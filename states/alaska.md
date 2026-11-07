@@ -45,7 +45,7 @@ State policy is tracked separately: **3 records** (2 typed bill rows and 1 non-b
 - **Moratorium ID:** `ak-houston-undated`
 - **Legal basis:** City of Houston Ordinance No. 26-20, adopted 2026-10-08 and signed by the mayor (signature date not stated).
 - **What prompted it:** specific_project
-- **Affected projects:** No specific data center project is proposed or approved within Houston city limits; concern centers on a proposed AIDEA industrial/energy district on state land bordering Houston, Willow, and Meadow Lakes that lists data centers among possible future uses.
+- **Affected projects:** Alaska News reported, in material retrieved November 5, 2026, that Senator George Rauscher described AIDEA officials as saying no data center was planned while data centers remained a possible use of proposed state land about two miles north of Houston. Whether any specific data center is proposed or approved within Houston city limits, and whether Ordinance 26-20 applies to any particular project, remain unverified.
 - **Detailed status:** Adopted unanimously on 2026-10-08 and signed by the mayor. Section 6 makes the ordinance effective upon passage and signature for two years from that effective date, subject to earlier repeal or extension. The signature is undated; exact effective and expiration dates and any subsequent action remain unverified. [VERIFY exact signature/effective date and later status]
 - **Outcome:** Ordinance 26-20 adopted unanimously on 2026-10-08; the mayor signed the published ordinance. Exact signature and expiration dates are unverified.
 
