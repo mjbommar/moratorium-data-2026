@@ -1,0 +1,138 @@
+{
+  "scope": "Three bounded follow-up acquisitions; no new searches, cap resets, canonical acceptance, changed headline counts or current-force determination. Actual retrieval November7 UTC / November6 US Eastern; election cohort remains November5.",
+  "acquisitions": [
+    {
+      "job": "arkansas-ballot-primary-recovery",
+      "attempt_id": "8268331b126c4c37841c6417e5635132",
+      "request_url": "https://cityofclarksville.sites.thrillshare.com/documents/23405909",
+      "final_url": "https://cityofclarksville.sites.thrillshare.com/documents/23405909",
+      "status": 200,
+      "ok": true,
+      "tier": "http",
+      "engine": "curl_cffi",
+      "body_sha256": "feb08aa006e49adc11e5e0d614df651c021e69342b573232025022834d68b830",
+      "text_sha256": "99035b9719a6b6ee8392f38c5ea6d3d069d92ddc44e4d517b3eeeaa0e8f02599",
+      "fetched_at": "2026-11-07T02:47:03.868078Z",
+      "persistent_reserved_counts": {
+        "exa": 3,
+        "fetch": 8
+      },
+      "caps": {
+        "search_total": 3,
+        "exa": 3,
+        "serpapi": 0,
+        "fetch": 8
+      }
+    },
+    {
+      "job": "arkansas-ballot-primary-recovery",
+      "attempt_id": "1c0a96469ce2411fa4c77868b76f0400",
+      "request_url": "https://cityofclarksville.sites.thrillshare.com/documents/25664751",
+      "final_url": "https://cityofclarksville.sites.thrillshare.com/documents/forms/25664751",
+      "status": 200,
+      "ok": true,
+      "tier": "browser",
+      "engine": "pydoll",
+      "body_sha256": "be8b1a9acab7e0ddf72a98b2b9a057594056a3d4bf9a895f19aa1d1533a0a790",
+      "text_sha256": "50c967d9c3cbf1b079fbcaca5c587e7f49d90ea8070bb8b8fb292636a15a6fa7",
+      "fetched_at": "2026-11-07T02:47:09.330115Z",
+      "persistent_reserved_counts": {
+        "exa": 3,
+        "fetch": 8
+      },
+      "caps": {
+        "search_total": 3,
+        "exa": 3,
+        "serpapi": 0,
+        "fetch": 8
+      }
+    },
+    {
+      "job": "kansas-ballot-publication-followup",
+      "attempt_id": "3955e90f1d35457f9222990084a38978",
+      "request_url": "https://www.ottawaks.gov/AgendaCenter/ViewFile/Agenda/_10212026-317",
+      "final_url": "https://www.ottawaks.gov/AgendaCenter/ViewFile/Agenda/_10212026-317",
+      "status": 200,
+      "ok": true,
+      "tier": "http",
+      "engine": "curl_cffi",
+      "body_sha256": "04b8559058a949428e72afd1f54e253c8b0256f9a43935774d11c4b6fcf42e5a",
+      "text_sha256": "de19532a99c8de764ceeb51e96e535ac4ebed303c7ae1f11f0ea3e42fe7377b5",
+      "fetched_at": "2026-11-07T02:48:15.637726Z",
+      "persistent_reserved_counts": {
+        "exa": 2,
+        "fetch": 4
+      },
+      "caps": {
+        "fetch": 4,
+        "search_total": 2,
+        "exa": 2,
+        "serpapi": 0
+      }
+    }
+  ],
+  "clarksville_next_leads": [
+    {
+      "label": "Ordinances and Resolutions",
+      "url": "https://cityofclarksville.sites.thrillshare.com/documents/city-government/ordinances-%26-resolutions/23406675",
+      "basis_attempt": "8268331b126c4c37841c6417e5635132",
+      "status": "embedded_application_link_not_fetched"
+    },
+    {
+      "label": "Data Center",
+      "url": "https://cityofclarksville.sites.thrillshare.com/documents/city-government/data-center/31112572",
+      "basis_attempt": "8268331b126c4c37841c6417e5635132",
+      "status": "embedded_application_link_not_fetched"
+    },
+    {
+      "label": "Complete Documents 2022-2026",
+      "url": "https://cityofclarksville.sites.thrillshare.com/documents/city-government/data-center/complete-documents-2022_2026/31112610",
+      "basis_attempt": "8268331b126c4c37841c6417e5635132",
+      "status": "embedded_application_link_not_fetched"
+    },
+    {
+      "label": "City Council Minutes",
+      "url": "https://cityofclarksville.sites.thrillshare.com/documents/city-government/city-council-minutes/23405970",
+      "basis_attempt": "8268331b126c4c37841c6417e5635132",
+      "status": "embedded_application_link_not_fetched"
+    }
+  ],
+  "clarksville_disposition": "Both groups remain unresolved. City Documents HTTP visible list is a shell, not an empty folder; embedded child folders are useful leads. Pydoll Forms listing is substantive but unrelated. Council votes and December date conflict unchanged.",
+  "ottawa_disposition": "79-page October21 agenda packet recovered. Whole-text review and visual page6 check identify an October14 draft-minute reference to university data-center forum, not ballot wording, qualification or legal effect. Candidate remains unresolved.",
+  "ottawa_visual_review": {
+    "physical_page": 6,
+    "printed_minute_page": 4,
+    "minute_date": "2026-10-14",
+    "label": "Unofficial Until Approved",
+    "layout_text_sha256": "bdfcc94478eb0289908e255a208f538046b6aa253317b4df7830684fba7d9110",
+    "render_sha256": "4192ca59b55140dca2e1d258a99e52652c3982cd795e6747e7f26ecd3a8a9041",
+    "tail_pages": [
+      {
+        "physical_page": 78,
+        "render_sha256": "39fbfa978f0670e8c4784629cbbe331c25f68a56a49aae82d56b0a3471d2d7f2",
+        "finding": "Q3 master-project dashboard, not a ballot instrument"
+      },
+      {
+        "physical_page": 79,
+        "render_sha256": "a0d12bfd1988c3ef14d47c4b7c8fbede7f18ad931f77eb742f2541ebbf56af1b",
+        "finding": "Q3 economic-development pipeline dashboard; no named data-center project or ballot identity accepted"
+      }
+    ]
+  },
+  "remaining": "Exact ballot and qualification texts, adopted instruments, final election date/returns where appropriate, certification and operative histories.",
+  "distributed_reviews": [
+    {
+      "model_requested": "gpt-6.1-terra",
+      "terminal_exit_code": 0,
+      "report_sha256": "a0be215180a0c2acd67e754b4b5ceace91365416392c501b586f7ff69b983806",
+      "private_report": "/data0/moratorium-refresh-2026/frozen-domain-evaluation/moratorium-clarksville-folder-review.private.txt"
+    },
+    {
+      "model_requested": "gpt-6.1-terra",
+      "terminal_exit_code": 0,
+      "report_sha256": "dd21692478077b3649565e48999dca20b7171c984e31d730c513951d4e3b32f0",
+      "private_report": "/data0/moratorium-refresh-2026/frozen-domain-evaluation/moratorium-ottawa-oct21-review.private.txt"
+    }
+  ],
+  "ottawa_extraction_limit": "Whole extracted text reviewed; visual review limited to pages6,78,79. No claim of complete visual inspection of all79pages or absence from image-only content elsewhere."
+}
