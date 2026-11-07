@@ -1,0 +1,1770 @@
+{
+  "inventory_before_sha256": "b8b49fd88c7da71606f2ef5c89b50f42976dd325901727b0da23b1a6e14e16d6",
+  "assessment_count": 156,
+  "records": [
+    {
+      "moratorium_id": "oh-grafton-2026",
+      "before_row": {
+        "state": "Ohio",
+        "state_abbrev": "OH",
+        "jurisdiction": "Grafton",
+        "jurisdiction_type": "Village",
+        "date_enacted": "2026-05-19 (emergency ordinance)",
+        "duration": "Five years, per Spectrum News reporting; the adopted ordinance number and full text were not located on the village's official ordinance page during this review [VERIFY]",
+        "legal_basis": "Village Council emergency ordinance 'Establishing a Temporary Moratorium on Data Center Development in the Village of Grafton' (on the 2026-05-19 agenda with suspension and emergency; ordinance number blank on the agenda) [VERIFY]",
+        "trigger": "Community opposition reflected in village polling and the mayor's recommendation for a pause on data center development",
+        "current_status": "May 21 news reports a five-year data-center development moratorium approved at the May 19 meeting. The official May 19 agenda schedules the proposal with its number blank; it does not establish enacted wording. Final instrument, effectiveness and later action remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+        "affected_projects": "",
+        "outcome": "Council enacted an emergency ordinance establishing a temporary moratorium on data center development; Spectrum News reported a five-year term",
+        "has_verify_tags": "True",
+        "verify_count": "3",
+        "cite_count": "0",
+        "activity_level": "High",
+        "enacted_status": "active",
+        "moratorium_id": "oh-grafton-2026",
+        "latitude": "41.272552",
+        "longitude": "-82.054589",
+        "date_enacted_iso": "2026-05-19",
+        "date_enacted_uncertainty": "exact",
+        "duration_days": "",
+        "duration_kind": "calendar_term",
+        "current_end_date_iso": "",
+        "sectors": "[\"data_center\"]",
+        "trigger_categories": "[\"other\",\"regulatory_gap\"]"
+      },
+      "field_assessments": {
+        "state": {
+          "current_value": "Ohio",
+          "disposition": "retain",
+          "assessment": "Grafton report identifies Ohio.",
+          "evidence": [
+            "grafton_news:checkpoint"
+          ]
+        },
+        "state_abbrev": {
+          "current_value": "OH",
+          "disposition": "retain",
+          "assessment": "OH is the inventory abbreviation for Ohio; news identifies Ohio.",
+          "evidence": [
+            "grafton_news:checkpoint"
+          ]
+        },
+        "jurisdiction": {
+          "current_value": "Grafton",
+          "disposition": "retain",
+          "assessment": "Village identified in official agenda and report.",
+          "evidence": [
+            "grafton_agenda:checkpoint",
+            "grafton_news:checkpoint"
+          ]
+        },
+        "jurisdiction_type": {
+          "current_value": "Village",
+          "disposition": "retain",
+          "assessment": "Agenda identifies Village of Grafton.",
+          "evidence": [
+            "grafton_agenda:checkpoint"
+          ]
+        },
+        "date_enacted": {
+          "current_value": "2026-05-19 (emergency ordinance)",
+          "disposition": "change",
+          "assessment": "News reports May 19 council action; agenda labels emergency and suspension but cannot prove enacted text or emergency passage.",
+          "evidence": [
+            "grafton_news:meeting",
+            "grafton_agenda:emergency",
+            "G1"
+          ]
+        },
+        "duration": {
+          "current_value": "Five years, per Spectrum News reporting; the adopted ordinance number and full text were not located on the village's official ordinance page during this review [VERIFY]",
+          "disposition": "retain_with_gap",
+          "assessment": "Five years reported by Spectrum, not established by enacted instrument.",
+          "evidence": [
+            "grafton_news:checkpoint",
+            "G1"
+          ]
+        },
+        "legal_basis": {
+          "current_value": "Village Council emergency ordinance 'Establishing a Temporary Moratorium on Data Center Development in the Village of Grafton' (on the 2026-05-19 agenda with suspension and emergency; ordinance number blank on the agenda) [VERIFY]",
+          "disposition": "change",
+          "assessment": "Agenda lists a proposed blank-number ordinance and emergency procedure; it does not establish final passage or legal wording. Correct the unqualified legal basis.",
+          "evidence": [
+            "grafton_agenda:checkpoint",
+            "grafton_agenda:emergency",
+            "G1"
+          ]
+        },
+        "trigger": {
+          "current_value": "Community opposition reflected in village polling and the mayor's recommendation for a pause on data center development",
+          "disposition": "retain_with_gap",
+          "assessment": "News attributes action to community polling and mayor recommendation; no separate proof of regulatory gap.",
+          "evidence": [
+            "grafton_news:checkpoint"
+          ]
+        },
+        "current_status": {
+          "current_value": "May 21 news reports a five-year data-center development moratorium approved at the May 19 meeting. The official May 19 agenda schedules the proposal with its number blank; it does not establish enacted wording. Final instrument, effectiveness and later action remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+          "disposition": "retain_with_gap",
+          "assessment": "Historical report and proposal are correctly distinguished; later action and force remain unknown.",
+          "evidence": [
+            "grafton_news:meeting",
+            "grafton_agenda:checkpoint",
+            "G1"
+          ]
+        },
+        "affected_projects": {
+          "current_value": "",
+          "disposition": "retain_with_gap",
+          "assessment": "Blank does not establish absence of affected projects; retained report names none.",
+          "evidence": [
+            "grafton_news:checkpoint",
+            "G2"
+          ]
+        },
+        "outcome": {
+          "current_value": "Council enacted an emergency ordinance establishing a temporary moratorium on data center development; Spectrum News reported a five-year term",
+          "disposition": "change",
+          "assessment": "News reports action; agenda cannot confirm final emergency ordinance. Attribute approval and duration to news.",
+          "evidence": [
+            "grafton_news:checkpoint",
+            "grafton_agenda:emergency",
+            "G1"
+          ]
+        },
+        "has_verify_tags": {
+          "current_value": "True",
+          "disposition": "retain",
+          "assessment": "True matches literal VERIFY markers in the guarded row; not independent evidence.",
+          "evidence": [
+            "ROW"
+          ]
+        },
+        "verify_count": {
+          "current_value": "3",
+          "disposition": "retain",
+          "assessment": "Literal count is row-derived; recalculate on any applied narrative changes, not evidence of force.",
+          "evidence": [
+            "ROW"
+          ]
+        },
+        "cite_count": {
+          "current_value": "0",
+          "disposition": "retain",
+          "assessment": "Zero is row bookkeeping; retained evidence exists but no row citations are encoded.",
+          "evidence": [
+            "ROW"
+          ]
+        },
+        "activity_level": {
+          "current_value": "High",
+          "disposition": "retain_with_gap",
+          "assessment": "High is a dataset classification; inspected sources do not establish its classification rule.",
+          "evidence": [
+            "G2"
+          ]
+        },
+        "enacted_status": {
+          "current_value": "active",
+          "disposition": "retain_with_gap",
+          "assessment": "Retain legacy active classification as a historical dataset classification only; the sources do not verify uninterrupted present force or support a different enum.",
+          "evidence": [
+            "grafton_news:checkpoint",
+            "G1"
+          ]
+        },
+        "moratorium_id": {
+          "current_value": "oh-grafton-2026",
+          "disposition": "retain",
+          "assessment": "Stable inventory identifier matches guarded row; agenda identifies the same village and subject.",
+          "evidence": [
+            "ROW",
+            "grafton_agenda:checkpoint"
+          ]
+        },
+        "latitude": {
+          "current_value": "41.272552",
+          "disposition": "retain_with_gap",
+          "assessment": "Coordinate precision and representativeness not established by agenda or article; retain pending geography source.",
+          "evidence": [
+            "G3"
+          ]
+        },
+        "longitude": {
+          "current_value": "-82.054589",
+          "disposition": "retain_with_gap",
+          "assessment": "Coordinate precision and representativeness not established by agenda or article; retain pending geography source.",
+          "evidence": [
+            "G3"
+          ]
+        },
+        "date_enacted_iso": {
+          "current_value": "2026-05-19",
+          "disposition": "retain_with_gap",
+          "assessment": "May 19 is reported meeting action date, not proof of operative effective date.",
+          "evidence": [
+            "grafton_news:meeting",
+            "G1"
+          ]
+        },
+        "date_enacted_uncertainty": {
+          "current_value": "exact",
+          "disposition": "retain_with_gap",
+          "assessment": "Exact meeting day is reported; exact legal adoption/effect requires instrument.",
+          "evidence": [
+            "grafton_news:meeting",
+            "G1"
+          ]
+        },
+        "duration_days": {
+          "current_value": "",
+          "disposition": "retain",
+          "assessment": "Five years are reported; original calendar-year unit supports blank day field under codebook, not a fixed-day conversion. Original wording and force remain unresolved.",
+          "evidence": [
+            "grafton_news:checkpoint"
+          ]
+        },
+        "duration_kind": {
+          "current_value": "calendar_term",
+          "disposition": "retain",
+          "assessment": "Five years is a calendar term as reported, not an invariant day count.",
+          "evidence": [
+            "grafton_news:checkpoint"
+          ]
+        },
+        "current_end_date_iso": {
+          "current_value": "",
+          "disposition": "retain",
+          "assessment": "Blank appropriate: no operative anchor or subsequent history established.",
+          "evidence": [
+            "G1"
+          ]
+        },
+        "sectors": {
+          "current_value": "[\"data_center\"]",
+          "disposition": "retain",
+          "assessment": "Data center development is the stated subject.",
+          "evidence": [
+            "grafton_agenda:checkpoint",
+            "grafton_news:checkpoint"
+          ]
+        },
+        "trigger_categories": {
+          "current_value": "[\"other\",\"regulatory_gap\"]",
+          "disposition": "retain_with_gap",
+          "assessment": "Other captures polling and mayor recommendation; regulatory_gap is not established by these passages.",
+          "evidence": [
+            "grafton_news:checkpoint",
+            "G2"
+          ]
+        }
+      },
+      "guarded_changes": {
+        "date_enacted": {
+          "from": "2026-05-19 (emergency ordinance)",
+          "to": "2026-05-19 (council action reported; emergency legislation scheduled on agenda, final ordinance not verified)",
+          "decision": "accept",
+          "basis_refs": [
+            "grafton_news:meeting",
+            "grafton_agenda:emergency",
+            "G1"
+          ]
+        },
+        "outcome": {
+          "from": "Council enacted an emergency ordinance establishing a temporary moratorium on data center development; Spectrum News reported a five-year term",
+          "to": "Spectrum News reports council approved a five-year moratorium on data center development on May 19; the agenda schedules an emergency ordinance, but final enacted text remains unverified.",
+          "decision": "accept",
+          "basis_refs": [
+            "grafton_news:checkpoint",
+            "grafton_agenda:emergency",
+            "G1"
+          ]
+        },
+        "legal_basis": {
+          "from": "Village Council emergency ordinance 'Establishing a Temporary Moratorium on Data Center Development in the Village of Grafton' (on the 2026-05-19 agenda with suspension and emergency; ordinance number blank on the agenda) [VERIFY]",
+          "to": "May 19 Village Council agenda proposed an ordinance 'Establishing a Temporary Moratorium on Data Center Development in the Village of Grafton', with suspension and emergency listed and ordinance number blank; final enacted instrument not verified. [VERIFY]",
+          "decision": "additional correction",
+          "basis_refs": [
+            "grafton_agenda:checkpoint",
+            "grafton_agenda:emergency",
+            "G1"
+          ]
+        }
+      },
+      "overall_outcome": "researched_unresolved"
+    },
+    {
+      "moratorium_id": "oh-city-of-hubbard-2026",
+      "before_row": {
+        "state": "Ohio",
+        "state_abbrev": "OH",
+        "jurisdiction": "City of Hubbard",
+        "jurisdiction_type": "City",
+        "date_enacted": "2026-06-01 (emergency ordinance)",
+        "duration": "12 months",
+        "legal_basis": "City Council emergency ordinance (ordinance number not confirmed in sources reviewed) [VERIFY]",
+        "trigger": "Resident opposition to a possible data center project referred to as 'Project Milo' and criticism of an economic-development nondisclosure agreement; more than 200 residents attended the May 18 meeting where the emergency legislation was requested",
+        "current_status": "Active as of 2026-09-23; 12-month emergency moratorium adopted 2026-06-01 runs to about 2027-06-01. Voters will decide a full data center ban on the 2026-11-03 ballot (OCJ). [VERIFY instrument number; primary source (news-only evidence) not confirmed at confidence 0.6 in the 2026-07 refresh]",
+        "affected_projects": "Project Milo (unconfirmed developer)",
+        "outcome": "City Council approved an emergency 12-month moratorium on construction, placement, or operation of data centers, following a May 18 request by Councilwoman Robin Zambrini",
+        "has_verify_tags": "True",
+        "verify_count": "2",
+        "cite_count": "0",
+        "activity_level": "High",
+        "enacted_status": "active",
+        "moratorium_id": "oh-city-of-hubbard-2026",
+        "latitude": "41.156812",
+        "longitude": "-80.573471",
+        "date_enacted_iso": "2026-06-01",
+        "date_enacted_uncertainty": "exact",
+        "duration_days": "",
+        "duration_kind": "calendar_term",
+        "current_end_date_iso": "2027-06-01",
+        "sectors": "[\"data_center\"]",
+        "trigger_categories": "[\"specific_project\",\"other\"]"
+      },
+      "field_assessments": {
+        "state": {
+          "current_value": "Ohio",
+          "disposition": "retain",
+          "assessment": "Inventory identifies Ohio; these passages do not independently establish state or geographic identity.",
+          "evidence": [
+            "ROW",
+            "hubbard_petition:checkpoint"
+          ]
+        },
+        "state_abbrev": {
+          "current_value": "OH",
+          "disposition": "retain",
+          "assessment": "Inventory identifies Ohio; these passages do not independently establish state or geographic identity.",
+          "evidence": [
+            "ROW"
+          ]
+        },
+        "jurisdiction": {
+          "current_value": "City of Hubbard",
+          "disposition": "retain",
+          "assessment": "City sources and city ballot contest establish City of Hubbard, separate from township.",
+          "evidence": [
+            "hubbard_news:checkpoint",
+            "hubbard_results:choices"
+          ]
+        },
+        "jurisdiction_type": {
+          "current_value": "City",
+          "disposition": "retain",
+          "assessment": "Council action and ballot contest explicitly refer to city.",
+          "evidence": [
+            "hubbard_news:checkpoint",
+            "hubbard_results:choices"
+          ]
+        },
+        "date_enacted": {
+          "current_value": "2026-06-01 (emergency ordinance)",
+          "disposition": "change",
+          "assessment": "June 1 meeting date and emergency action reported, but final instrument not in inspected city materials.",
+          "evidence": [
+            "hubbard_news:checkpoint",
+            "H1",
+            "hubbard_news:body_quote_publication_date"
+          ]
+        },
+        "duration": {
+          "current_value": "12 months",
+          "disposition": "retain_with_gap",
+          "assessment": "Contemporary city news reports 12 months; operative wording remains unverified.",
+          "evidence": [
+            "hubbard_news:checkpoint",
+            "H1"
+          ]
+        },
+        "legal_basis": {
+          "current_value": "City Council emergency ordinance (ordinance number not confirmed in sources reviewed) [VERIFY]",
+          "disposition": "retain_with_gap",
+          "assessment": "News reports council action and emergency; number and operative ordinance text not established.",
+          "evidence": [
+            "hubbard_news:checkpoint",
+            "H1"
+          ]
+        },
+        "trigger": {
+          "current_value": "Resident opposition to a possible data center project referred to as 'Project Milo' and criticism of an economic-development nondisclosure agreement; more than 200 residents attended the May 18 meeting where the emergency legislation was requested",
+          "disposition": "retain_with_gap",
+          "assessment": "News links residents\u2019 concerns to potential data center and describes NDA; May 18 attendance count not established in inspected source.",
+          "evidence": [
+            "hubbard_news:checkpoint",
+            "hubbard_news:milo",
+            "H2"
+          ]
+        },
+        "current_status": {
+          "current_value": "Active as of 2026-09-23; 12-month emergency moratorium adopted 2026-06-01 runs to about 2027-06-01. Voters will decide a full data center ban on the 2026-11-03 ballot (OCJ). [VERIFY instrument number; primary source (news-only evidence) not confirmed at confidence 0.6 in the 2026-07 refresh]",
+          "disposition": "change",
+          "assessment": "Preserve 2026-09-23 observation; replace future ballot phrasing with existing unofficial results, and mark force, exact endpoint and effect unresolved.",
+          "evidence": [
+            "hubbard_results:choices",
+            "hubbard_results:counts",
+            "H1"
+          ]
+        },
+        "affected_projects": {
+          "current_value": "Project Milo (unconfirmed developer)",
+          "disposition": "retain_with_gap",
+          "assessment": "Project Milo is discussed, but mayor says no proposal had been received; identity and whether actually affected remain unconfirmed.",
+          "evidence": [
+            "hubbard_news:milo"
+          ]
+        },
+        "outcome": {
+          "current_value": "City Council approved an emergency 12-month moratorium on construction, placement, or operation of data centers, following a May 18 request by Councilwoman Robin Zambrini",
+          "disposition": "change",
+          "assessment": "News reports 12-month emergency action and Zambrini request; final instrument not established.",
+          "evidence": [
+            "hubbard_news:checkpoint",
+            "hubbard_news:request",
+            "H1"
+          ]
+        },
+        "has_verify_tags": {
+          "current_value": "True",
+          "disposition": "retain",
+          "assessment": "True matches literal markers in guarded row.",
+          "evidence": [
+            "ROW"
+          ]
+        },
+        "verify_count": {
+          "current_value": "2",
+          "disposition": "retain",
+          "assessment": "Literal count is row-derived; recalculate on any applied narrative changes, not evidence of force.",
+          "evidence": [
+            "ROW"
+          ]
+        },
+        "cite_count": {
+          "current_value": "0",
+          "disposition": "retain",
+          "assessment": "Zero is row bookkeeping, not absence of retained sources.",
+          "evidence": [
+            "ROW"
+          ]
+        },
+        "activity_level": {
+          "current_value": "High",
+          "disposition": "retain_with_gap",
+          "assessment": "High classification cannot be independently reconstructed from inspected documents.",
+          "evidence": [
+            "H2"
+          ]
+        },
+        "enacted_status": {
+          "current_value": "active",
+          "disposition": "retain_with_gap",
+          "assessment": "Retain legacy active classification as a historical dataset classification only; the sources do not verify uninterrupted present force or support a different enum.",
+          "evidence": [
+            "hubbard_news:checkpoint",
+            "H1"
+          ]
+        },
+        "moratorium_id": {
+          "current_value": "oh-city-of-hubbard-2026",
+          "disposition": "retain",
+          "assessment": "Inventory ID is city-specific and matches scoped row; election contest also says City.",
+          "evidence": [
+            "ROW",
+            "hubbard_results:choices"
+          ]
+        },
+        "latitude": {
+          "current_value": "41.156812",
+          "disposition": "retain_with_gap",
+          "assessment": "Coordinates not established by inspected city documents.",
+          "evidence": [
+            "H3"
+          ]
+        },
+        "longitude": {
+          "current_value": "-80.573471",
+          "disposition": "retain_with_gap",
+          "assessment": "Coordinates not established by inspected city documents.",
+          "evidence": [
+            "H3"
+          ]
+        },
+        "date_enacted_iso": {
+          "current_value": "2026-06-01",
+          "disposition": "retain_with_gap",
+          "assessment": "June 1 is the reported council meeting date; exact legal effectiveness remains unresolved.",
+          "evidence": [
+            "hubbard_news:checkpoint",
+            "H1",
+            "hubbard_news:body_quote_publication_date"
+          ]
+        },
+        "date_enacted_uncertainty": {
+          "current_value": "exact",
+          "disposition": "retain_with_gap",
+          "assessment": "Exact date is reported meeting date, not verified effective anchor.",
+          "evidence": [
+            "hubbard_news:checkpoint",
+            "H1",
+            "hubbard_news:body_quote_publication_date"
+          ]
+        },
+        "duration_days": {
+          "current_value": "",
+          "disposition": "retain",
+          "assessment": "Twelve months are reported; codebook treats the original calendar-month term as blank days. Operative wording and force remain unresolved.",
+          "evidence": [
+            "hubbard_news:checkpoint"
+          ]
+        },
+        "duration_kind": {
+          "current_value": "calendar_term",
+          "disposition": "retain",
+          "assessment": "Twelve months is a calendar term in the report.",
+          "evidence": [
+            "hubbard_news:checkpoint"
+          ]
+        },
+        "current_end_date_iso": {
+          "current_value": "2027-06-01",
+          "disposition": "change",
+          "assessment": "June 1 2027 depends on unverified operative anchor and legal history; clear rather than assert endpoint.",
+          "evidence": [
+            "hubbard_news:checkpoint",
+            "H1"
+          ]
+        },
+        "sectors": {
+          "current_value": "[\"data_center\"]",
+          "disposition": "retain",
+          "assessment": "Reported city action covers data centers.",
+          "evidence": [
+            "hubbard_news:checkpoint"
+          ]
+        },
+        "trigger_categories": {
+          "current_value": "[\"specific_project\",\"other\"]",
+          "disposition": "retain_with_gap",
+          "assessment": "Potential project and resident concerns support broad categories; Milo has no submitted proposal according to mayor.",
+          "evidence": [
+            "hubbard_news:milo"
+          ]
+        }
+      },
+      "guarded_changes": {
+        "current_status": {
+          "from": "Active as of 2026-09-23; 12-month emergency moratorium adopted 2026-06-01 runs to about 2027-06-01. Voters will decide a full data center ban on the 2026-11-03 ballot (OCJ). [VERIFY instrument number; primary source (news-only evidence) not confirmed at confidence 0.6 in the 2026-07 refresh]",
+          "to": "Active as of 2026-09-23 (historical inventory observation); June news reports a 12-month emergency moratorium. Unofficial November 3 returns report 2,622 approvals and 802 rejections of the separate city data-center ban ballot measure. Certification, operative text, relationship to the moratorium, endpoint and current legal force remain unresolved. [VERIFY]",
+          "decision": "accept",
+          "basis_refs": [
+            "hubbard_results:choices",
+            "hubbard_results:counts",
+            "H1"
+          ]
+        },
+        "current_end_date_iso": {
+          "from": "2027-06-01",
+          "to": "",
+          "decision": "accept",
+          "basis_refs": [
+            "hubbard_news:checkpoint",
+            "H1"
+          ]
+        },
+        "date_enacted": {
+          "from": "2026-06-01 (emergency ordinance)",
+          "to": "2026-06-01 (council action and emergency reported; final instrument unverified)",
+          "decision": "additional correction",
+          "basis_refs": [
+            "hubbard_news:checkpoint",
+            "H1",
+            "hubbard_news:body_quote_publication_date"
+          ]
+        },
+        "outcome": {
+          "from": "City Council approved an emergency 12-month moratorium on construction, placement, or operation of data centers, following a May 18 request by Councilwoman Robin Zambrini",
+          "to": "June 2 news reports that City Council approved a 12-month moratorium on construction, placement, or operation of data centers and declared an emergency, following Councilwoman Robin Zambrini\u2019s May 18 request; final ordinance unverified.",
+          "decision": "additional correction",
+          "basis_refs": [
+            "hubbard_news:checkpoint",
+            "hubbard_news:request",
+            "H1"
+          ]
+        }
+      },
+      "overall_outcome": "researched_unresolved"
+    },
+    {
+      "moratorium_id": "oh-braceville-township-2026",
+      "before_row": {
+        "state": "Ohio",
+        "state_abbrev": "OH",
+        "jurisdiction": "Braceville Township",
+        "jurisdiction_type": "Township",
+        "date_enacted": "2026-06-02 (immediately effective)",
+        "duration": "6 months",
+        "legal_basis": "Township trustee resolution under R.C. Chapter 519 (resolution number not confirmed in sources reviewed) [VERIFY]",
+        "trigger": "Concerns about noise, electric, and water impacts, and coordination with county model zoning work",
+        "current_status": "Active as of 2026-09-23; six-month moratorium effective 2026-06-02 runs to about 2026-11-29. No extension or repeal found. [VERIFY instrument number; primary source (news-only evidence) not confirmed at confidence 0.6 in the 2026-07 refresh]",
+        "affected_projects": "",
+        "outcome": "Trustees unanimously approved an immediately effective six-month moratorium on data center permits and applications",
+        "has_verify_tags": "True",
+        "verify_count": "2",
+        "cite_count": "0",
+        "activity_level": "High",
+        "enacted_status": "active",
+        "moratorium_id": "oh-braceville-township-2026",
+        "latitude": "41.236238",
+        "longitude": "-80.975916",
+        "date_enacted_iso": "2026-06-02",
+        "date_enacted_uncertainty": "exact",
+        "duration_days": "",
+        "duration_kind": "calendar_term",
+        "current_end_date_iso": "2026-11-29",
+        "sectors": "[\"data_center\"]",
+        "trigger_categories": "[\"noise\",\"grid_energy\",\"water\",\"regulatory_gap\"]"
+      },
+      "field_assessments": {
+        "state": {
+          "current_value": "Ohio",
+          "disposition": "retain",
+          "assessment": "Inventory identifies Ohio; these passages do not independently establish state or geographic identity.",
+          "evidence": [
+            "ROW",
+            "braceville_news:trustees"
+          ]
+        },
+        "state_abbrev": {
+          "current_value": "OH",
+          "disposition": "retain",
+          "assessment": "Inventory identifies Ohio; these passages do not independently establish state or geographic identity.",
+          "evidence": [
+            "ROW"
+          ]
+        },
+        "jurisdiction": {
+          "current_value": "Braceville Township",
+          "disposition": "retain",
+          "assessment": "Report identifies Braceville trustees and township.",
+          "evidence": [
+            "braceville_news:trustees",
+            "braceville_news:concerns"
+          ]
+        },
+        "jurisdiction_type": {
+          "current_value": "Township",
+          "disposition": "retain",
+          "assessment": "Report describes township trustees.",
+          "evidence": [
+            "braceville_news:trustees",
+            "braceville_news:concerns"
+          ]
+        },
+        "date_enacted": {
+          "current_value": "2026-06-02 (immediately effective)",
+          "disposition": "change",
+          "assessment": "June 4 report says preceding Tuesday, June 2, unanimously passed and immediately effective; operative resolution absent.",
+          "evidence": [
+            "braceville_news:trustees",
+            "braceville_news:checkpoint",
+            "B1",
+            "braceville_news:body_quote_publication_date"
+          ]
+        },
+        "duration": {
+          "current_value": "6 months",
+          "disposition": "retain_with_gap",
+          "assessment": "Six months immediately effective is news-reported, not fixed 180 days.",
+          "evidence": [
+            "braceville_news:checkpoint",
+            "B1"
+          ]
+        },
+        "legal_basis": {
+          "current_value": "Township trustee resolution under R.C. Chapter 519 (resolution number not confirmed in sources reviewed) [VERIFY]",
+          "disposition": "retain_with_gap",
+          "assessment": "Trustee action reported, but resolution number, exact form and Chapter 519 legal basis not demonstrated by this article.",
+          "evidence": [
+            "braceville_news:trustees",
+            "B1"
+          ]
+        },
+        "trigger": {
+          "current_value": "Concerns about noise, electric, and water impacts, and coordination with county model zoning work",
+          "disposition": "retain_with_gap",
+          "assessment": "Trustee discusses noise, electricity, water and county zoning work; source does not establish formal recitals.",
+          "evidence": [
+            "braceville_news:concerns",
+            "braceville_news:planning",
+            "B1"
+          ]
+        },
+        "current_status": {
+          "current_value": "Active as of 2026-09-23; six-month moratorium effective 2026-06-02 runs to about 2026-11-29. No extension or repeal found. [VERIFY instrument number; primary source (news-only evidence) not confirmed at confidence 0.6 in the 2026-07 refresh]",
+          "disposition": "change",
+          "assessment": "Keep September 23 historical observation; remove November 29 fixed-day endpoint and unbounded no-extension claim. Current force unresolved.",
+          "evidence": [
+            "braceville_news:checkpoint",
+            "B1"
+          ]
+        },
+        "affected_projects": {
+          "current_value": "",
+          "disposition": "retain_with_gap",
+          "assessment": "Report does not identify a project; blank does not prove none exists.",
+          "evidence": [
+            "braceville_news:trustees",
+            "B2"
+          ]
+        },
+        "outcome": {
+          "current_value": "Trustees unanimously approved an immediately effective six-month moratorium on data center permits and applications",
+          "disposition": "change",
+          "assessment": "Unanimous trustee approval, immediate effect and permit/application scope are reported; operative text unverified.",
+          "evidence": [
+            "braceville_news:trustees",
+            "braceville_news:checkpoint",
+            "B1"
+          ]
+        },
+        "has_verify_tags": {
+          "current_value": "True",
+          "disposition": "retain",
+          "assessment": "True matches literal row markers.",
+          "evidence": [
+            "ROW"
+          ]
+        },
+        "verify_count": {
+          "current_value": "2",
+          "disposition": "retain",
+          "assessment": "Literal count is row-derived; recalculate on any applied narrative changes, not evidence of force.",
+          "evidence": [
+            "ROW"
+          ]
+        },
+        "cite_count": {
+          "current_value": "0",
+          "disposition": "retain",
+          "assessment": "Zero is row bookkeeping; a retained source exists.",
+          "evidence": [
+            "ROW"
+          ]
+        },
+        "activity_level": {
+          "current_value": "High",
+          "disposition": "retain_with_gap",
+          "assessment": "High classification rule is not established by source.",
+          "evidence": [
+            "B2"
+          ]
+        },
+        "enacted_status": {
+          "current_value": "active",
+          "disposition": "retain_with_gap",
+          "assessment": "Retain legacy active classification as a historical dataset classification only; the sources do not verify uninterrupted present force or support a different enum.",
+          "evidence": [
+            "braceville_news:checkpoint",
+            "B1"
+          ]
+        },
+        "moratorium_id": {
+          "current_value": "oh-braceville-township-2026",
+          "disposition": "retain",
+          "assessment": "Stable row ID identifies scoped township; report matches municipality and subject.",
+          "evidence": [
+            "ROW",
+            "braceville_news:trustees"
+          ]
+        },
+        "latitude": {
+          "current_value": "41.236238",
+          "disposition": "retain_with_gap",
+          "assessment": "Exact coordinates and geographic representation not established by article.",
+          "evidence": [
+            "B3"
+          ]
+        },
+        "longitude": {
+          "current_value": "-80.975916",
+          "disposition": "retain_with_gap",
+          "assessment": "Exact coordinates and geographic representation not established by article.",
+          "evidence": [
+            "B3"
+          ]
+        },
+        "date_enacted_iso": {
+          "current_value": "2026-06-02",
+          "disposition": "retain_with_gap",
+          "assessment": "June 2 follows from June 4 article\u2019s preceding Tuesday; primary vote record absent.",
+          "evidence": [
+            "braceville_news:trustees",
+            "B1",
+            "braceville_news:body_quote_publication_date"
+          ]
+        },
+        "date_enacted_uncertainty": {
+          "current_value": "exact",
+          "disposition": "retain_with_gap",
+          "assessment": "Calendar day of reported meeting is exact, but formal action and anchor need instrument.",
+          "evidence": [
+            "braceville_news:trustees",
+            "B1",
+            "braceville_news:body_quote_publication_date"
+          ]
+        },
+        "duration_days": {
+          "current_value": "",
+          "disposition": "retain",
+          "assessment": "Six months are reported; no primary fixed 180-day clause was found. Calendar term requires blank days; original wording and force remain unresolved.",
+          "evidence": [
+            "braceville_news:checkpoint"
+          ]
+        },
+        "duration_kind": {
+          "current_value": "calendar_term",
+          "disposition": "retain",
+          "assessment": "Six months is a calendar term in the report.",
+          "evidence": [
+            "braceville_news:checkpoint"
+          ]
+        },
+        "current_end_date_iso": {
+          "current_value": "2026-11-29",
+          "disposition": "change",
+          "assessment": "November 29 is inconsistent with a six-calendar-month term and not established by operative instrument; clear.",
+          "evidence": [
+            "braceville_news:checkpoint",
+            "B1"
+          ]
+        },
+        "sectors": {
+          "current_value": "[\"data_center\"]",
+          "disposition": "retain",
+          "assessment": "Reported moratorium concerns data center permits.",
+          "evidence": [
+            "braceville_news:checkpoint",
+            "braceville_news:trustees"
+          ]
+        },
+        "trigger_categories": {
+          "current_value": "[\"noise\",\"grid_energy\",\"water\",\"regulatory_gap\"]",
+          "disposition": "retain_with_gap",
+          "assessment": "Noise, electricity, water and regulatory planning are discussed; motives and operative recitals require resolution.",
+          "evidence": [
+            "braceville_news:concerns",
+            "braceville_news:planning",
+            "B1"
+          ]
+        }
+      },
+      "guarded_changes": {
+        "current_status": {
+          "from": "Active as of 2026-09-23; six-month moratorium effective 2026-06-02 runs to about 2026-11-29. No extension or repeal found. [VERIFY instrument number; primary source (news-only evidence) not confirmed at confidence 0.6 in the 2026-07 refresh]",
+          "to": "Active as of 2026-09-23 (historical inventory observation); June 4 reporting describes a six-month moratorium immediately effective after the June 2 meeting. The operative resolution, endpoint, later actions and current legal force remain unresolved. [VERIFY]",
+          "decision": "accept",
+          "basis_refs": [
+            "braceville_news:checkpoint",
+            "B1"
+          ]
+        },
+        "current_end_date_iso": {
+          "from": "2026-11-29",
+          "to": "",
+          "decision": "accept",
+          "basis_refs": [
+            "braceville_news:checkpoint",
+            "B1"
+          ]
+        },
+        "date_enacted": {
+          "from": "2026-06-02 (immediately effective)",
+          "to": "2026-06-02 (trustee action and immediate effect reported; operative resolution unverified)",
+          "decision": "additional correction",
+          "basis_refs": [
+            "braceville_news:trustees",
+            "braceville_news:checkpoint",
+            "B1",
+            "braceville_news:body_quote_publication_date"
+          ]
+        },
+        "outcome": {
+          "from": "Trustees unanimously approved an immediately effective six-month moratorium on data center permits and applications",
+          "to": "June 4 news reports trustees unanimously approved an immediately effective six-month moratorium on data center permits and applications; operative resolution unverified.",
+          "decision": "additional correction",
+          "basis_refs": [
+            "braceville_news:trustees",
+            "braceville_news:checkpoint",
+            "B1"
+          ]
+        }
+      },
+      "overall_outcome": "researched_unresolved"
+    },
+    {
+      "moratorium_id": "oh-howland-township-2026",
+      "before_row": {
+        "state": "Ohio",
+        "state_abbrev": "OH",
+        "jurisdiction": "Howland Township",
+        "jurisdiction_type": "Township",
+        "date_enacted": "2026-06-10",
+        "duration": "6 months, renewable for another 6 months, and reasonably extendable to complete the study and adopt amendments",
+        "legal_basis": "Township trustee resolution under R.C. Chapter 519 (resolution number not confirmed in sources reviewed) [VERIFY]",
+        "trigger": "Desire to study data center impacts before approving zoning certificates, conditional use permits, variances, rezonings, and other approvals",
+        "current_status": "June 11 news reports a six-month pause approved at the preceding Wednesday meeting, with possible additional renewal. Actual effective anchor, operative endpoint, resolution number and later action remain unverified; renewal authority is not an actual extension. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+        "affected_projects": "",
+        "outcome": "Trustees approved a six-month moratorium covering new applications for zoning certificates, conditional use permits, variances, rezonings, and other data center approvals in all township zoning districts",
+        "has_verify_tags": "True",
+        "verify_count": "2",
+        "cite_count": "0",
+        "activity_level": "High",
+        "enacted_status": "active",
+        "moratorium_id": "oh-howland-township-2026",
+        "latitude": "41.239682",
+        "longitude": "-80.740701",
+        "date_enacted_iso": "2026-06-10",
+        "date_enacted_uncertainty": "exact",
+        "duration_days": "",
+        "duration_kind": "calendar_term",
+        "current_end_date_iso": "",
+        "sectors": "[\"data_center\"]",
+        "trigger_categories": "[\"land_use_compatibility\",\"regulatory_gap\"]"
+      },
+      "field_assessments": {
+        "state": {
+          "current_value": "Ohio",
+          "disposition": "retain",
+          "reason": "Ohio scoped township and Trumbull County report agree; state not independently boundary-verified.",
+          "refs": [
+            "howland_news"
+          ]
+        },
+        "state_abbrev": {
+          "current_value": "OH",
+          "disposition": "retain",
+          "reason": "OH is Ohio abbreviation.",
+          "refs": [
+            "howland_news"
+          ]
+        },
+        "jurisdiction": {
+          "current_value": "Howland Township",
+          "disposition": "retain",
+          "reason": "News names Howland and township trustees.",
+          "refs": [
+            "howland_news"
+          ]
+        },
+        "jurisdiction_type": {
+          "current_value": "Township",
+          "disposition": "retain",
+          "reason": "News identifies township trustees.",
+          "refs": [
+            "howland_news"
+          ]
+        },
+        "date_enacted": {
+          "current_value": "2026-06-10",
+          "disposition": "qualify",
+          "reason": "June 11 report says Wednesday, yielding June 10; primary minutes needed.",
+          "refs": [
+            "howland_news"
+          ]
+        },
+        "duration": {
+          "current_value": "6 months, renewable for another 6 months, and reasonably extendable to complete the study and adopt amendments",
+          "disposition": "qualify",
+          "reason": "Report says six months, renewable six months and further reasonable extension; authorization is not exercise.",
+          "refs": [
+            "howland_news"
+          ]
+        },
+        "legal_basis": {
+          "current_value": "Township trustee resolution under R.C. Chapter 519 (resolution number not confirmed in sources reviewed) [VERIFY]",
+          "disposition": "gap",
+          "reason": "Resolution is reported; Chapter 519 and resolution number are not proven by this article.",
+          "refs": [
+            "howland_news"
+          ]
+        },
+        "trigger": {
+          "current_value": "Desire to study data center impacts before approving zoning certificates, conditional use permits, variances, rezonings, and other approvals",
+          "disposition": "retain",
+          "reason": "Report describes zoning study of uses, impacts and standards.",
+          "refs": [
+            "howland_news"
+          ]
+        },
+        "current_status": {
+          "current_value": "June 11 news reports a six-month pause approved at the preceding Wednesday meeting, with possible additional renewal. Actual effective anchor, operative endpoint, resolution number and later action remain unverified; renewal authority is not an actual extension. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+          "disposition": "retain",
+          "reason": "Text correctly separates reported vote and renewal power from unknown effective date, later action and current force.",
+          "refs": [
+            "howland_news"
+          ]
+        },
+        "affected_projects": {
+          "current_value": "",
+          "disposition": "qualify",
+          "reason": "No developer known to a trustee then; blank cannot establish no present project.",
+          "refs": [
+            "howland_news"
+          ]
+        },
+        "outcome": {
+          "current_value": "Trustees approved a six-month moratorium covering new applications for zoning certificates, conditional use permits, variances, rezonings, and other data center approvals in all township zoning districts",
+          "disposition": "qualify",
+          "reason": "News reports application pause across districts; exact resolution and JEDD scope unverified.",
+          "refs": [
+            "howland_news"
+          ]
+        },
+        "has_verify_tags": {
+          "current_value": "True",
+          "disposition": "retain",
+          "reason": "True matches literal marker presence.",
+          "refs": [
+            "row"
+          ]
+        },
+        "verify_count": {
+          "current_value": "2",
+          "disposition": "retain",
+          "reason": "Two literal VERIFY markers counted.",
+          "refs": [
+            "row"
+          ]
+        },
+        "cite_count": {
+          "current_value": "0",
+          "disposition": "retain",
+          "reason": "No literal CITE markers; this is not a source count.",
+          "refs": [
+            "row"
+          ]
+        },
+        "activity_level": {
+          "current_value": "High",
+          "disposition": "gap",
+          "reason": "High is a legacy dataset classification; source does not independently validate coding.",
+          "refs": [
+            "howland_news"
+          ]
+        },
+        "enacted_status": {
+          "current_value": "active",
+          "disposition": "retain",
+          "reason": "Keep historical active classification; neither current force nor actual renewal established.",
+          "refs": [
+            "howland_news"
+          ]
+        },
+        "moratorium_id": {
+          "current_value": "oh-howland-township-2026",
+          "disposition": "retain",
+          "reason": "Stable inventory key, not a resolution identifier.",
+          "refs": [
+            "row"
+          ]
+        },
+        "latitude": {
+          "current_value": "41.239682",
+          "disposition": "gap",
+          "reason": "Precise centroid requires authoritative geometry/geocoding provenance.",
+          "refs": [
+            "howland_news"
+          ]
+        },
+        "longitude": {
+          "current_value": "-80.740701",
+          "disposition": "gap",
+          "reason": "Precise centroid requires authoritative geometry/geocoding provenance.",
+          "refs": [
+            "howland_news"
+          ]
+        },
+        "date_enacted_iso": {
+          "current_value": "2026-06-10",
+          "disposition": "qualify",
+          "reason": "June 10 is calendar inference from reported Wednesday, not independent minutes.",
+          "refs": [
+            "howland_news"
+          ]
+        },
+        "date_enacted_uncertainty": {
+          "current_value": "exact",
+          "disposition": "qualify",
+          "reason": "Exact reported vote day inferred; official minutes and effective day remain distinct.",
+          "refs": [
+            "howland_news"
+          ]
+        },
+        "duration_days": {
+          "current_value": "",
+          "disposition": "retain",
+          "reason": "Original reported six calendar months, not fixed 180 days; no fixed-day clause found.",
+          "refs": [
+            "howland_news"
+          ]
+        },
+        "duration_kind": {
+          "current_value": "calendar_term",
+          "disposition": "retain",
+          "reason": "Calendar months are calendar_term; later extensions do not alter original term.",
+          "refs": [
+            "howland_news"
+          ]
+        },
+        "current_end_date_iso": {
+          "current_value": "",
+          "disposition": "retain",
+          "reason": "No authenticated start and current interval or later actions; blank avoids calculated end.",
+          "refs": [
+            "howland_news"
+          ]
+        },
+        "sectors": {
+          "current_value": "[\"data_center\"]",
+          "disposition": "retain",
+          "reason": "Data centers explicitly covered by report.",
+          "refs": [
+            "howland_news"
+          ]
+        },
+        "trigger_categories": {
+          "current_value": "[\"land_use_compatibility\",\"regulatory_gap\"]",
+          "disposition": "qualify",
+          "reason": "Compatibility and regulatory gap reasonably map to report; taxonomy judgment is interpretive.",
+          "refs": [
+            "howland_news"
+          ]
+        }
+      },
+      "guarded_changes": {},
+      "overall_outcome": "researched_unresolved"
+    },
+    {
+      "moratorium_id": "oh-montgomery-township-2026",
+      "before_row": {
+        "state": "Ohio",
+        "state_abbrev": "OH",
+        "jurisdiction": "Montgomery Township (Ashland County)",
+        "jurisdiction_type": "Township",
+        "date_enacted": "2026-06-17 (trustee vote); reporting indicated trustees would sign the approved resolution on 2026-07-01, but no executed copy or July 1 minutes were located [VERIFY]",
+        "duration": "2 years from the effective date unless repealed, extended, or replaced",
+        "legal_basis": "Township trustee resolution under R.C. Chapter 519",
+        "trigger": "Trustee-initiated study of data center construction impacts and possible future regulation",
+        "current_status": "Active as of 2026-09-23 (reported; still listed active on the Ohio Capital Journal map of 2026-09-17, expiring June 2028). The resolution approved 2026-06-17 was to be signed 2026-07-01; no executed copy or July 1 minutes are online [VERIFY]",
+        "affected_projects": "",
+        "outcome": "Trustees unanimously approved a two-year prohibition on data center construction, prohibiting construction of data centers with aggregate monthly demand or peak load above 25 MW while the township studies impacts and possible regulation",
+        "has_verify_tags": "True",
+        "verify_count": "2",
+        "cite_count": "0",
+        "activity_level": "High",
+        "enacted_status": "active",
+        "moratorium_id": "oh-montgomery-township-2026",
+        "latitude": "40.857623",
+        "longitude": "-82.236061",
+        "date_enacted_iso": "2026-06-17",
+        "date_enacted_uncertainty": "exact",
+        "duration_days": "",
+        "duration_kind": "calendar_term",
+        "current_end_date_iso": "2028-06-16",
+        "sectors": "[\"data_center\"]",
+        "trigger_categories": "[\"regulatory_gap\",\"other\"]"
+      },
+      "field_assessments": {
+        "state": {
+          "current_value": "Ohio",
+          "disposition": "retain",
+          "reason": "Ohio is named in unsigned copy; jurisdictional source stage distinct from legal effect.",
+          "refs": [
+            "montgomery_news",
+            "montgomery_copy"
+          ]
+        },
+        "state_abbrev": {
+          "current_value": "OH",
+          "disposition": "retain",
+          "reason": "OH abbreviates Ohio.",
+          "refs": [
+            "montgomery_news",
+            "montgomery_copy"
+          ]
+        },
+        "jurisdiction": {
+          "current_value": "Montgomery Township (Ashland County)",
+          "disposition": "retain",
+          "reason": "Copy identifies Montgomery Township in Ashland County.",
+          "refs": [
+            "montgomery_news",
+            "montgomery_copy"
+          ]
+        },
+        "jurisdiction_type": {
+          "current_value": "Township",
+          "disposition": "retain",
+          "reason": "Copy identifies township and trustees.",
+          "refs": [
+            "montgomery_news",
+            "montgomery_copy"
+          ]
+        },
+        "date_enacted": {
+          "current_value": "2026-06-17 (trustee vote); reporting indicated trustees would sign the approved resolution on 2026-07-01, but no executed copy or July 1 minutes were located [VERIFY]",
+          "disposition": "change",
+          "reason": "Accept revised attribution of June 17 reported vote and prospective July 1 signing; executed text not found in inspected materials.",
+          "refs": [
+            "montgomery_news",
+            "montgomery_copy"
+          ]
+        },
+        "duration": {
+          "current_value": "2 years from the effective date unless repealed, extended, or replaced",
+          "disposition": "qualify",
+          "reason": "News reports two years; unsigned copy says from effective date with later actions possible; effective anchor/final text unverified.",
+          "refs": [
+            "montgomery_news",
+            "montgomery_copy"
+          ]
+        },
+        "legal_basis": {
+          "current_value": "Township trustee resolution under R.C. Chapter 519",
+          "disposition": "change",
+          "reason": "Accept revision: unsigned document invokes 519.12 and begins hearing on proposed amendment; final operative basis not authenticated.",
+          "refs": [
+            "montgomery_news",
+            "montgomery_copy"
+          ]
+        },
+        "trigger": {
+          "current_value": "Trustee-initiated study of data center construction impacts and possible future regulation",
+          "disposition": "qualify",
+          "reason": "News and unsigned text describe study and regulation; not proof of effective legal instrument.",
+          "refs": [
+            "montgomery_news",
+            "montgomery_copy"
+          ]
+        },
+        "current_status": {
+          "current_value": "Active as of 2026-09-23 (reported; still listed active on the Ohio Capital Journal map of 2026-09-17, expiring June 2028). The resolution approved 2026-06-17 was to be signed 2026-07-01; no executed copy or July 1 minutes are online [VERIFY]",
+          "disposition": "change",
+          "reason": "Revise proposal to label inherited September observations unverified in inspected sources, preserve them historically, and keep current force unresolved.",
+          "refs": [
+            "montgomery_news",
+            "montgomery_copy"
+          ]
+        },
+        "affected_projects": {
+          "current_value": "",
+          "disposition": "gap",
+          "reason": "Blank means unrecorded; neither inspected source proves no affected project.",
+          "refs": [
+            "montgomery_news",
+            "montgomery_copy"
+          ]
+        },
+        "outcome": {
+          "current_value": "Trustees unanimously approved a two-year prohibition on data center construction, prohibiting construction of data centers with aggregate monthly demand or peak load above 25 MW while the township studies impacts and possible regulation",
+          "disposition": "change",
+          "reason": "Accept revision attributing reported vote and >25 MW threshold to unsigned proposed text; power MW, not energy MWh.",
+          "refs": [
+            "montgomery_news",
+            "montgomery_copy"
+          ]
+        },
+        "has_verify_tags": {
+          "current_value": "True",
+          "disposition": "retain",
+          "reason": "After accepted proposed changes at least one literal marker remains.",
+          "refs": [
+            "row"
+          ]
+        },
+        "verify_count": {
+          "current_value": "2",
+          "disposition": "change",
+          "reason": "Accepted proposed text contains exactly three literal VERIFY markers; count mechanically.",
+          "refs": [
+            "row"
+          ]
+        },
+        "cite_count": {
+          "current_value": "0",
+          "disposition": "retain",
+          "reason": "No literal CITE markers before or after proposed changes.",
+          "refs": [
+            "row"
+          ]
+        },
+        "activity_level": {
+          "current_value": "High",
+          "disposition": "gap",
+          "reason": "High is legacy classification; no independent algorithm validation.",
+          "refs": [
+            "montgomery_news",
+            "montgomery_copy"
+          ]
+        },
+        "enacted_status": {
+          "current_value": "active",
+          "disposition": "retain",
+          "reason": "Preserve historical active code; reported vote alone does not establish legal force now.",
+          "refs": [
+            "montgomery_news",
+            "montgomery_copy"
+          ]
+        },
+        "moratorium_id": {
+          "current_value": "oh-montgomery-township-2026",
+          "disposition": "retain",
+          "reason": "Stable inventory key, not primary instrument number.",
+          "refs": [
+            "row"
+          ]
+        },
+        "latitude": {
+          "current_value": "40.857623",
+          "disposition": "gap",
+          "reason": "Exact township centroid not independently authenticated.",
+          "refs": [
+            "montgomery_news",
+            "montgomery_copy"
+          ]
+        },
+        "longitude": {
+          "current_value": "-82.236061",
+          "disposition": "gap",
+          "reason": "Exact township centroid not independently authenticated.",
+          "refs": [
+            "montgomery_news",
+            "montgomery_copy"
+          ]
+        },
+        "date_enacted_iso": {
+          "current_value": "2026-06-17",
+          "disposition": "qualify",
+          "reason": "June 17 follows Wednesday of June 18 article; vote date differs from execution and effectiveness.",
+          "refs": [
+            "montgomery_news",
+            "montgomery_copy"
+          ]
+        },
+        "date_enacted_uncertainty": {
+          "current_value": "exact",
+          "disposition": "qualify",
+          "reason": "Day inferred from dated news and weekday; primary minutes lacking.",
+          "refs": [
+            "montgomery_news",
+            "montgomery_copy"
+          ]
+        },
+        "duration_days": {
+          "current_value": "",
+          "disposition": "retain",
+          "reason": "Two calendar years as reported/proposed; no fixed day clause established, so blank correct.",
+          "refs": [
+            "montgomery_news",
+            "montgomery_copy"
+          ]
+        },
+        "duration_kind": {
+          "current_value": "calendar_term",
+          "disposition": "qualify",
+          "reason": "Calendar unit supported descriptively, subject to final original operative text.",
+          "refs": [
+            "montgomery_news",
+            "montgomery_copy"
+          ]
+        },
+        "current_end_date_iso": {
+          "current_value": "2028-06-16",
+          "disposition": "change",
+          "reason": "Accept clearing 2028-06-16: no authenticated effective anchor or complete later-action history.",
+          "refs": [
+            "montgomery_news",
+            "montgomery_copy"
+          ]
+        },
+        "sectors": {
+          "current_value": "[\"data_center\"]",
+          "disposition": "retain",
+          "reason": "News and proposed text concern data centers.",
+          "refs": [
+            "montgomery_news",
+            "montgomery_copy"
+          ]
+        },
+        "trigger_categories": {
+          "current_value": "[\"regulatory_gap\",\"other\"]",
+          "disposition": "qualify",
+          "reason": "Regulatory study supports regulatory_gap; other remains an interpretive catchall.",
+          "refs": [
+            "montgomery_news",
+            "montgomery_copy"
+          ]
+        }
+      },
+      "guarded_changes": {
+        "date_enacted": {
+          "from": "2026-06-17 (trustee vote); reporting indicated trustees would sign the approved resolution on 2026-07-01, but no executed copy or July 1 minutes were located [VERIFY]",
+          "to": "2026-06-17 (trustee vote reported June 18); reporting said trustees would sign the resolution July 1. An executed copy and July 1 minutes were not located in the inspected retained corpus [VERIFY]",
+          "primary_disposition": "accept",
+          "refs": [
+            "montgomery_news",
+            "montgomery_copy"
+          ]
+        },
+        "legal_basis": {
+          "from": "Township trustee resolution under R.C. Chapter 519",
+          "to": "Trustee resolution reported approved; unsigned published copy invokes R.C. 519.12 and initiates a hearing on a proposed zoning addition. Executed instrument and final operative text unverified [VERIFY]",
+          "primary_disposition": "accept",
+          "refs": [
+            "montgomery_news",
+            "montgomery_copy"
+          ]
+        },
+        "current_status": {
+          "from": "Active as of 2026-09-23 (reported; still listed active on the Ohio Capital Journal map of 2026-09-17, expiring June 2028). The resolution approved 2026-06-17 was to be signed 2026-07-01; no executed copy or July 1 minutes are online [VERIFY]",
+          "to": "Previously recorded as reported active on 2026-09-23 and listed on the 2026-09-17 Ohio Capital Journal map with a June 2028 expiry; those historical observations were not independently verified in the inspected source versions and do not establish current force. June 18 reporting said trustees approved a two-year pause and would sign July 1. Executed text, effective anchor, later action and operative endpoint remain unverified [VERIFY].",
+          "primary_disposition": "revise",
+          "refs": [
+            "montgomery_news",
+            "montgomery_copy"
+          ]
+        },
+        "outcome": {
+          "from": "Trustees unanimously approved a two-year prohibition on data center construction, prohibiting construction of data centers with aggregate monthly demand or peak load above 25 MW while the township studies impacts and possible regulation",
+          "to": "June 18 news reports trustees unanimously approved a two-year data-center construction moratorium and planned to sign July 1. An unsigned copy proposes a two-year construction prohibition for data centers with aggregate monthly demand or peak load greater than 25 MW; final operative scope is unverified.",
+          "primary_disposition": "accept",
+          "refs": [
+            "montgomery_news",
+            "montgomery_copy"
+          ]
+        },
+        "current_end_date_iso": {
+          "from": "2028-06-16",
+          "to": "",
+          "primary_disposition": "accept",
+          "refs": [
+            "montgomery_news",
+            "montgomery_copy"
+          ]
+        },
+        "verify_count": {
+          "from": "2",
+          "to": "3",
+          "primary_disposition": "accept",
+          "refs": [
+            "montgomery_news",
+            "montgomery_copy"
+          ]
+        }
+      },
+      "overall_outcome": "researched_unresolved"
+    },
+    {
+      "moratorium_id": "oh-shalersville-township-2025",
+      "before_row": {
+        "state": "Ohio",
+        "state_abbrev": "OH",
+        "jurisdiction": "Shalersville Township",
+        "jurisdiction_type": "Township",
+        "date_enacted": "2025-11 (Board of Trustees; exact vote date not found; per trustee chairman's account reported by Weekly Villager, June 2026); extended six months in early April 2026 (Record-Courier)",
+        "duration": "Six months originally, extended six months in April 2026; a further six-month extension was reported adopted October 20, 2026.",
+        "legal_basis": "Board of Trustees resolution (township zoning, R.C. Chapter 519) imposing a six-month moratorium on data center applications; six-month extension resolution April 2026 (numbers not found)",
+        "trigger": "Proposed 257-acre data center campus by Geis Construction and Bitdeer near Beck Road/SR 44 north of the Ohio Turnpike; trustees wanted time to write conditional-use standards for lights, noise, landscaping, building size, utilities, water and fire suppression.",
+        "current_status": "October 23 reporting states trustees unanimously adopted another six-month extension on October 20, with the prior pause scheduled to expire November 3. The actual effective anchor, continuity, operative endpoint and subsequent action remain unresolved; no new endpoint is calculated. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+        "affected_projects": "Geis Construction / Bitdeer 257-acre data center campus (Turnpike Commerce Park area, SR 44 / Beck Road); trustees denied Geis's request to lift the moratorium in April 2026.",
+        "outcome": "Trustees imposed and then extended the moratorium while the zoning commission amended conditional-use rules for data centers (including Sept. 10, 2026 amendments on noise/light-industrial uses) and commissioned a noise study.",
+        "has_verify_tags": "True",
+        "verify_count": "1",
+        "cite_count": "0",
+        "activity_level": "High",
+        "enacted_status": "extended",
+        "moratorium_id": "oh-shalersville-township-2025",
+        "latitude": "41.237839",
+        "longitude": "-81.245655",
+        "date_enacted_iso": "2025-11",
+        "date_enacted_uncertainty": "month_only",
+        "duration_days": "",
+        "duration_kind": "calendar_term",
+        "current_end_date_iso": "",
+        "sectors": "[\"data_center\"]",
+        "trigger_categories": "[\"specific_project\",\"regulatory_gap\",\"noise\",\"water\",\"grid_energy\",\"fire_safety\"]"
+      },
+      "field_assessments": {
+        "state": {
+          "current_value": "Ohio",
+          "disposition": "qualify",
+          "reason": "Scoped Ohio inventory and report identify Shalersville; authoritative geographic boundary not reviewed.",
+          "refs": [
+            "shalersville_oct",
+            "shalersville_zoning"
+          ]
+        },
+        "state_abbrev": {
+          "current_value": "OH",
+          "disposition": "retain",
+          "reason": "OH abbreviates Ohio; geographic provenance remains separate.",
+          "refs": [
+            "shalersville_oct",
+            "shalersville_zoning"
+          ]
+        },
+        "jurisdiction": {
+          "current_value": "Shalersville Township",
+          "disposition": "retain",
+          "reason": "October report names Shalersville township trustees.",
+          "refs": [
+            "shalersville_oct",
+            "shalersville_zoning"
+          ]
+        },
+        "jurisdiction_type": {
+          "current_value": "Township",
+          "disposition": "retain",
+          "reason": "October report identifies township trustees.",
+          "refs": [
+            "shalersville_oct",
+            "shalersville_zoning"
+          ]
+        },
+        "date_enacted": {
+          "current_value": "2025-11 (Board of Trustees; exact vote date not found; per trustee chairman's account reported by Weekly Villager, June 2026); extended six months in early April 2026 (Record-Courier)",
+          "disposition": "gap",
+          "reason": "November 2025 original and April 2026 extension are legacy attributions; original reports or instruments not recovered in inspected source set.",
+          "refs": [
+            "shalersville_oct",
+            "shalersville_zoning"
+          ]
+        },
+        "duration": {
+          "current_value": "Six months originally, extended six months in April 2026; a further six-month extension was reported adopted October 20, 2026.",
+          "disposition": "qualify",
+          "reason": "October report supports another six months, but original six months and April history need historical sources; do not treat extension as original.",
+          "refs": [
+            "shalersville_oct",
+            "shalersville_zoning"
+          ]
+        },
+        "legal_basis": {
+          "current_value": "Board of Trustees resolution (township zoning, R.C. Chapter 519) imposing a six-month moratorium on data center applications; six-month extension resolution April 2026 (numbers not found)",
+          "disposition": "gap",
+          "reason": "Numbers, original resolution, April instrument and Chapter 519 basis remain unverified.",
+          "refs": [
+            "shalersville_oct",
+            "shalersville_zoning"
+          ]
+        },
+        "trigger": {
+          "current_value": "Proposed 257-acre data center campus by Geis Construction and Bitdeer near Beck Road/SR 44 north of the Ohio Turnpike; trustees wanted time to write conditional-use standards for lights, noise, landscaping, building size, utilities, water and fire suppression.",
+          "disposition": "qualify",
+          "reason": "Reports connect Geis/Bitdeer proposal and zoning review; 257 acres and listed original concerns not established by inspected reports.",
+          "refs": [
+            "shalersville_oct",
+            "shalersville_zoning"
+          ]
+        },
+        "current_status": {
+          "current_value": "October 23 reporting states trustees unanimously adopted another six-month extension on October 20, with the prior pause scheduled to expire November 3. The actual effective anchor, continuity, operative endpoint and subsequent action remain unresolved; no new endpoint is calculated. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+          "disposition": "change",
+          "reason": "Add explicit conflict: October 23 reports actual October 20 extension; October 30 says extension conditional. No authenticated interval or current force.",
+          "refs": [
+            "shalersville_oct",
+            "shalersville_zoning"
+          ]
+        },
+        "affected_projects": {
+          "current_value": "Geis Construction / Bitdeer 257-acre data center campus (Turnpike Commerce Park area, SR 44 / Beck Road); trustees denied Geis's request to lift the moratorium in April 2026.",
+          "disposition": "qualify",
+          "reason": "Sources identify Geis and Bitdeer near interchange; acreage, April denial and precise location require earlier support; no cancellation inferred.",
+          "refs": [
+            "shalersville_oct",
+            "shalersville_zoning"
+          ]
+        },
+        "outcome": {
+          "current_value": "Trustees imposed and then extended the moratorium while the zoning commission amended conditional-use rules for data centers (including Sept. 10, 2026 amendments on noise/light-industrial uses) and commissioned a noise study.",
+          "disposition": "change",
+          "reason": "Revise proposal with dates and reporting attribution: October 6 definitions, October 14 tabling, October 20 reported extension, and study expected; no September 10 amendment established.",
+          "refs": [
+            "shalersville_oct",
+            "shalersville_zoning"
+          ]
+        },
+        "has_verify_tags": {
+          "current_value": "True",
+          "disposition": "retain",
+          "reason": "True matches literal VERIFY marker before and after recommended revision.",
+          "refs": [
+            "row"
+          ]
+        },
+        "verify_count": {
+          "current_value": "1",
+          "disposition": "retain",
+          "reason": "One literal VERIFY marker before and after recommended revision.",
+          "refs": [
+            "row"
+          ]
+        },
+        "cite_count": {
+          "current_value": "0",
+          "disposition": "retain",
+          "reason": "No literal CITE markers; independent source evidence is separate.",
+          "refs": [
+            "row"
+          ]
+        },
+        "activity_level": {
+          "current_value": "High",
+          "disposition": "gap",
+          "reason": "High is legacy classification; no source-based validation of scoring.",
+          "refs": [
+            "shalersville_oct",
+            "shalersville_zoning"
+          ]
+        },
+        "enacted_status": {
+          "current_value": "extended",
+          "disposition": "retain",
+          "reason": "Extended preserves historical classification supported by report of vote, not proof of current force.",
+          "refs": [
+            "shalersville_oct",
+            "shalersville_zoning"
+          ]
+        },
+        "moratorium_id": {
+          "current_value": "oh-shalersville-township-2025",
+          "disposition": "retain",
+          "reason": "Stable row ID; 2025 suffix is not primary proof of original date.",
+          "refs": [
+            "row"
+          ]
+        },
+        "latitude": {
+          "current_value": "41.237839",
+          "disposition": "gap",
+          "reason": "Exact centroid needs authoritative geometry and geocoding provenance.",
+          "refs": [
+            "shalersville_oct",
+            "shalersville_zoning"
+          ]
+        },
+        "longitude": {
+          "current_value": "-81.245655",
+          "disposition": "gap",
+          "reason": "Exact centroid needs authoritative geometry and geocoding provenance.",
+          "refs": [
+            "shalersville_oct",
+            "shalersville_zoning"
+          ]
+        },
+        "date_enacted_iso": {
+          "current_value": "2025-11",
+          "disposition": "gap",
+          "reason": "November 2025 cannot be verified from October sources; retain pending recovery rather than invent date.",
+          "refs": [
+            "shalersville_oct",
+            "shalersville_zoning"
+          ]
+        },
+        "date_enacted_uncertainty": {
+          "current_value": "month_only",
+          "disposition": "qualify",
+          "reason": "month_only reflects recorded precision, not confirmation of November 2025.",
+          "refs": [
+            "shalersville_oct",
+            "shalersville_zoning"
+          ]
+        },
+        "duration_days": {
+          "current_value": "",
+          "disposition": "gap",
+          "reason": "Blank may fit six calendar months but original clause has not been recovered; later extension cannot establish original unit or day count.",
+          "refs": [
+            "shalersville_oct",
+            "shalersville_zoning"
+          ]
+        },
+        "duration_kind": {
+          "current_value": "calendar_term",
+          "disposition": "gap",
+          "reason": "Calendar_term is plausible legacy original unit, not independently supported by an extension; original source required.",
+          "refs": [
+            "shalersville_oct",
+            "shalersville_zoning"
+          ]
+        },
+        "current_end_date_iso": {
+          "current_value": "",
+          "disposition": "retain",
+          "reason": "New operative endpoint and continuity unverified; prior scheduled November 3 is not established current end.",
+          "refs": [
+            "shalersville_oct",
+            "shalersville_zoning"
+          ]
+        },
+        "sectors": {
+          "current_value": "[\"data_center\"]",
+          "disposition": "retain",
+          "reason": "October report concerns data centers.",
+          "refs": [
+            "shalersville_oct",
+            "shalersville_zoning"
+          ]
+        },
+        "trigger_categories": {
+          "current_value": "[\"specific_project\",\"regulatory_gap\",\"noise\",\"water\",\"grid_energy\",\"fire_safety\"]",
+          "disposition": "qualify",
+          "reason": "Project, zoning and noise supported in later reports; original water, grid and fire-safety triggers remain unverified.",
+          "refs": [
+            "shalersville_oct",
+            "shalersville_zoning"
+          ]
+        }
+      },
+      "guarded_changes": {
+        "outcome": {
+          "from": "Trustees imposed and then extended the moratorium while the zoning commission amended conditional-use rules for data centers (including Sept. 10, 2026 amendments on noise/light-industrial uses) and commissioned a noise study.",
+          "to": "News reported that trustees amended industrial zoning definitions on October 6, 2026 and extended the data-center moratorium on October 20. County planners tabled proposed conditions on October 14, and a township-commissioned sound study was expected to begin; the operative instruments and later action remain unverified.",
+          "primary_disposition": "revise",
+          "refs": [
+            "shalersville_oct",
+            "shalersville_zoning"
+          ]
+        },
+        "current_status": {
+          "from": "October 23 reporting states trustees unanimously adopted another six-month extension on October 20, with the prior pause scheduled to expire November 3. The actual effective anchor, continuity, operative endpoint and subsequent action remain unresolved; no new endpoint is calculated. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+          "to": "October 23 reporting states trustees unanimously adopted another six-month extension on October 20, with the prior pause scheduled to expire November 3. An October 30 report instead describes an extension as conditional. The actual effective anchor, continuity, operative endpoint and subsequent action remain unresolved; no new endpoint is calculated. [VERIFY: operative interval, conflicting reports, later amendments/extensions/repeal, judicial developments and current legal force.]",
+          "primary_disposition": "additional_independent_change",
+          "refs": [
+            "shalersville_oct",
+            "shalersville_zoning"
+          ]
+        }
+      },
+      "overall_outcome": "researched_unresolved"
+    }
+  ],
+  "gap_registry": {
+    "G1": "Inspected assigned job 007 agenda, Spectrum, Chronicle retained headline and associated manifests: no executed numbered ordinance, actual effective anchor or later action history established.",
+    "G2": "Assigned job 007 retained materials inspected; no project-specific or dataset classification proof found in those sources.",
+    "G3": "Inspected agenda and news lack coordinate provenance or map validation.",
+    "H1": "Assigned job 004 city news/petition and retained county unofficial returns do not supply executed June ordinance, operative interval, certification, later history or legal relationship to ballot.",
+    "H2": "Inspected city news and ballot materials do not substantiate exact attendance or dataset activity classification.",
+    "H3": "Inspected city news and county returns do not establish coordinate provenance.",
+    "B1": "Assigned job 003 retained article and job answer do not supply executed resolution, number, operative endpoint or subsequent action history.",
+    "B2": "Inspected Braceville article does not name a project or define dataset activity level.",
+    "B3": "Inspected Braceville article does not establish coordinate provenance.",
+    "ROW": "Exact current CSV row guard; inventory metadata is not independent legal evidence."
+  },
+  "review_limits": {
+    "a": "Three of six only; paired three-record reviews require their own independent adjudication. Full 1772, P4, consumer and release gates remain open.",
+    "b": "Independent review is confined to these three records and retained versions; no live provider search. No current legal force established. Other three require their own independent adjudication. Full 1,772 records, P4, consumer and release gates remain open."
+  }
+}
