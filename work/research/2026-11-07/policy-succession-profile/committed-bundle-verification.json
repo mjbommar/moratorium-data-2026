@@ -1,0 +1,70 @@
+{
+  "source_commit": "da1728013baca68b2fce9cef49f041b711ed3b8b",
+  "status": "working_candidate_verified_not_final_release",
+  "reproducibility": {
+    "source_commit": "da1728013baca68b2fce9cef49f041b711ed3b8b",
+    "identical_builds": 2,
+    "archive_sha256": "64f57a2468fca811c3b10e590a0e25ed6803aa81dedc520b4430c0f615b258cd",
+    "archive_bytes": 23160927,
+    "manifest_sha256": "05f7c498e4852b2e2d45698360e275f61d78eb85469de0af583bb56a17d54bc4",
+    "scope": "Working candidate reproducibility, not full source freshness or final release."
+  },
+  "portable_verification": {
+    "manifest_sha256": "05f7c498e4852b2e2d45698360e275f61d78eb85469de0af583bb56a17d54bc4",
+    "verified_members": 1068,
+    "checks": {
+      "publication": {
+        "state": "consistent",
+        "snapshot_sha256": "608bd3b51c3fbf89b315e8411ee10919f3c4f39ee7b75385ff80f1117a1352ef",
+        "generations_checked": 36,
+        "records": {
+          "jurisdictions": 47,
+          "elections": 46,
+          "ballot_measures": 51,
+          "measure_provisions": 50,
+          "measure_results": 57,
+          "local_restrictions": 2,
+          "instrument_events": 10,
+          "measure_instrument_links": 1,
+          "source_documents": 150,
+          "claims": 559,
+          "review_decisions": 2474,
+          "search_runs": 1,
+          "search_attempts": 3,
+          "search_sightings": 18,
+          "coverage_observations": 1
+        },
+        "scope": "Offline publication/receipt consistency only; no source reacquisition, renewed factual acceptance or current-force confirmation."
+      },
+      "replay": {
+        "state": "already_applied",
+        "sha256": "89b8ff18c2211cb5d0d9b59d07d034161baec94c6a74e729a361545bace87c2f",
+        "generation_id": "608bd3b51c3fbf89b315e8411ee10919f3c4f39ee7b75385ff80f1117a1352ef",
+        "publication_sha256": "441f8991e2faaf42a41bc5965e2a30e08414f332072707d87c28f4177a1b5dc8"
+      },
+      "csv_generation": "84758d6a581de74972a4044db61cabb770e2a2b110ff08a6237cd7e1901b3706",
+      "csv_outputs": 19,
+      "legacy_aliases": 1,
+      "legacy_validation": {
+        "as_of": "2026-11-07",
+        "errors": 0,
+        "warnings": 497
+      }
+    },
+    "scope": "Internal portable consistency only; no source acceptance, freshness or release determination."
+  },
+  "native_tests": 430,
+  "native_tests_exit": 0,
+  "github_release_observation": {
+    "draft_tag": "v2026.11.1-rc.1",
+    "is_draft": true,
+    "is_prerelease": true,
+    "scope": "Read live gh release list; existing unpublished candidate remains. No final release published by this checkpoint."
+  },
+  "limitations": [
+    "Internal portable consistency/reproducibility only",
+    "Not comprehensive legal-force freshness",
+    "Not sibling consumer synchronization",
+    "Not final GitHub release or hosted-site verification"
+  ]
+}

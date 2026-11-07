@@ -1,6 +1,6 @@
 {
   "profile": "1.0.4",
-  "status": "Capability integrated and Coachella migration published; committed portable-bundle verification pending.",
+  "status": "Capability and real Coachella publication integrated; working committed bundle verified.",
   "new_schema_sha256": "68c688d419295d497c673986d9fd9e1146a4090387117574fac4213124e6a8bf",
   "old_profiles_unchanged": {
     "1.0.0": "12993c58309ce10c5c7d11ac27c384c0009e343952fecafb867c26118be94d97",
@@ -12,7 +12,15 @@
   "registry_fix": "Current accepted restriction references resolve through pinned registry; split ambiguity and merged self-links reject. Withdrawn historical relation remains byte-preserved.",
   "native_full_tests": 430,
   "native_full_tests_exit": 0,
-  "actual_public_bundle": "Pending committed-revision build; synthetic portable test is not final release verification.",
+  "actual_public_bundle": {
+    "source_commit": "da1728013baca68b2fce9cef49f041b711ed3b8b",
+    "members_verified": 1068,
+    "generations_checked": 36,
+    "identical_builds": 2,
+    "manifest_sha256": "05f7c498e4852b2e2d45698360e275f61d78eb85469de0af583bb56a17d54bc4",
+    "archive_sha256": "64f57a2468fca811c3b10e590a0e25ed6803aa81dedc520b4430c0f615b258cd",
+    "final_release": false
+  },
   "canonical_current_profile_before_real_migration": "1.0.3",
   "source_entailment": "Source/quote-byte checks do not prove interpretation; directed relation and adoption need actual source review.",
   "canonical_current_profile": "1.0.4"

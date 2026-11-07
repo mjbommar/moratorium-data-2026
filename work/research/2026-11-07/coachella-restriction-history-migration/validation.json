@@ -12,7 +12,14 @@
   "restriction_records": 2,
   "measure_records": 51,
   "main_replay": "already_applied",
-  "committed_bundle_verification": "Pending source commit; to be recorded separately.",
+  "committed_bundle_verification": {
+    "source_commit": "da1728013baca68b2fce9cef49f041b711ed3b8b",
+    "receipt": "../policy-succession-profile/committed-bundle-verification.json",
+    "members": 1068,
+    "generations": 36,
+    "identical_builds": 2,
+    "final_release": false
+  },
   "check_log_sha256": "30a0189f63032c03f4be18b79525841ea0e259c478b709758a50773435084153",
   "scope": "Historical source-supported actions and qualified policy relation; not formal termination/current force/full freshness/final release."
 }
