@@ -1,0 +1,26 @@
+{
+  "stage": "pre-provider-offline-validation",
+  "protocol_sha256": "c6784744cc9a681457ee4d5a9428db38211383b46e9c10fe4b96bb545f638265",
+  "provider_executed": false,
+  "transport": "existing controlled HTTP transport with httpx2.MockTransport",
+  "healthy": {
+    "status": "finished",
+    "http_reservations": 12,
+    "backend_results": 12,
+    "provider_requests": 0,
+    "replay_without_extra_calls": true,
+    "auditor_passed": true
+  },
+  "failed_request": {
+    "status": "finished",
+    "http_reservation_count": 13,
+    "backend_result_records": 12,
+    "provider_requests": 0,
+    "all_replays_no_extra_calls": true,
+    "offline_auditor_passed": true,
+    "offline_audited_unpriced_attempts": 1,
+    "offline_audited_held_reservations_usd": 0.75
+  },
+  "scope": "Synthetic empty candidates; validates plumbing and accounting, not extraction quality.",
+  "commit_required_before_provider": true
+}
