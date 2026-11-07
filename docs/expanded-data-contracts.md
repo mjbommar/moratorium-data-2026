@@ -262,3 +262,7 @@ existing URLs and remain unchanged.
 ## Optional event validity profile
 
 [Profile 1.0.2](event-validity-publication.md) adds explicit event review validity and typed correction evidence without rewriting existing event records. A source generation selecting it gains separate retained, current-accepted and status CSV views. The [five-event migration](../work/research/2026-11-06/event-validity-migration/README.md) introduced profile 1.0.2 after source review; the current compound-clause publication selects 1.0.3 and preserves those event safeguards. Event validity means acceptance of a historical source-supported action, not current legal force.
+
+## Qualified policy succession
+
+[Profile 1.0.4](policy-succession-contract.md) adds a typed successor-adoption event and predecessor reference, with a mandatory qualification that policy succession does not establish formal termination, overlap or current force. It preserves the earlier profiles and their receipts. The current publication receipt identifies which profile its data actually uses; availability of this contract alone is not a real-data migration. Source and field review remain mandatory, and automatic extraction stays pinned to the earlier supported candidate schema.

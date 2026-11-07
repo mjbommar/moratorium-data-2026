@@ -1,0 +1,9 @@
+# Georgia second four field assessments
+
+Completed 104 primary field assessments across Augusta-Richmond County, Ball Ground, Banks County and Bloomingdale. Root rechecked all assigned values and independently read Banks County's official August 11 minutes and September 13 news for the changed fields. The other assessments remain source dispositions with explicit qualifications, not 104 independently verified facts.
+
+Banks' minutes identify the meeting date and record a 30-day emergency moratorium motion with five named yea votes. The neighboring previous item's Vote5:0 line is not borrowed as evidence for this motion. Record the original as 30 / fixed_days, update the normalized adoption date from month precision to August 11, and replace the claim that its original term was unstated. September reporting says extension through March 9 without a year in the retained passage; it does not establish the intermediate 180-day resolution or a current operative endpoint. Those claims are qualified and the typed endpoint is cleared. The inherited extended classification remains explicitly a prior reported classification, not renewed current-force acceptance.
+
+Applied ten authored fields plus two derived verification fields. ID, coordinates, sector/trigger categories and classification are preserved. No record or ballot measure is added or removed. Banks was outside the 217-item original-term queue, so no queue item is removed. Actual extension text, endpoint year, later history and current force remain unresolved. The four other rows in the final subdivision of the original 312-field task remain pending.
+
+See field-ledger.json, source-registry.json, answers-local.json, exact-diff.json and coordinator-adjudication.json. Raw source materials remain private. Root changes expand the single worker proposal to reconcile its interdependent original-duration, date-precision and operative-end fields, using the same actual source passages.

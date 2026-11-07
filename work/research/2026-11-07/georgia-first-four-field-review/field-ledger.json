@@ -1,0 +1,2142 @@
+{
+  "status": "complete field-assessment ledger; legal and factual research remains unresolved",
+  "target_date": "2026-11-07",
+  "assignment_sha256": "e1766e3bca15cade5d093bc1427b2dfa60188d186abde5e186719714cbed2a11",
+  "current_csv_sha256": "7aeefa840abf93f43fe7af9bf3de45b6d4dc08ae777d74f41dd847e8dff2b4aa",
+  "guard_comparisons": 104,
+  "assessments": 104,
+  "records": [
+    {
+      "moratorium_id": "ga-adel-cook-county-2026",
+      "guard_match": true,
+      "overall": "unresolved; 26 individual fields assessed",
+      "fields": {
+        "state": {
+          "value": "Georgia",
+          "source_refs": [
+            {
+              "source": "adel",
+              "lines": [
+                1,
+                5
+              ]
+            }
+          ],
+          "disposition": "supported",
+          "reason": "Reproduction identifies City of Adel, Georgia."
+        },
+        "state_abbrev": {
+          "value": "GA",
+          "source_refs": [
+            {
+              "source": "adel",
+              "lines": [
+                1,
+                5
+              ]
+            },
+            {
+              "source": "codebook",
+              "lines": [
+                15,
+                40
+              ]
+            }
+          ],
+          "disposition": "dataset_derived",
+          "reason": "GA is the standard abbreviation for the source-identified Georgia; this is a normalization, not an independently sourced legal fact."
+        },
+        "jurisdiction": {
+          "value": "Adel (Cook County)",
+          "source_refs": [
+            {
+              "source": "adel",
+              "lines": [
+                1,
+                5
+              ]
+            }
+          ],
+          "disposition": "qualified",
+          "reason": "Instrument identifies City of Adel; parenthetical Cook County is not established by the cited instrument.",
+          "next_requirement": "Verify Adel city-county relationship using an authoritative geographic source."
+        },
+        "jurisdiction_type": {
+          "value": "City",
+          "source_refs": [
+            {
+              "source": "adel",
+              "lines": [
+                1,
+                5
+              ]
+            },
+            {
+              "source": "codebook",
+              "lines": [
+                15,
+                40
+              ]
+            }
+          ],
+          "disposition": "supported",
+          "reason": "The instrument identifies the City of Adel."
+        },
+        "date_enacted": {
+          "value": "2026-07-06",
+          "source_refs": [
+            {
+              "source": "adel",
+              "lines": [
+                33,
+                43
+              ]
+            }
+          ],
+          "disposition": "supported",
+          "reason": "Signed resolution reproduction says July 6."
+        },
+        "duration": {
+          "value": "180 days",
+          "source_refs": [
+            {
+              "source": "adel",
+              "lines": [
+                33,
+                43
+              ]
+            }
+          ],
+          "disposition": "qualified",
+          "reason": "180 days is the stated ceiling, with earlier repeal possible; scope includes exceptions.",
+          "next_requirement": "Add early-repeal condition; inspect subsequent city actions."
+        },
+        "legal_basis": {
+          "value": "Resolution No. 26-02, imposing a 180-day moratorium on accepting, processing, or considering data center site applications and issuing construction permits",
+          "source_refs": [
+            {
+              "source": "adel",
+              "lines": [
+                1,
+                5
+              ]
+            },
+            {
+              "source": "adel",
+              "lines": [
+                33,
+                43
+              ]
+            }
+          ],
+          "disposition": "qualified",
+          "reason": "Resolution 26-02 and application/permit restrictions are reproduced; early repeal and exemptions affect scope.",
+          "next_requirement": "Check executed copy and later amendments."
+        },
+        "trigger": {
+          "value": "regulatory_gap",
+          "source_refs": [
+            {
+              "source": "adel",
+              "lines": [
+                15,
+                29
+              ]
+            }
+          ],
+          "disposition": "qualified",
+          "reason": "Regulatory review is explicit, but water, power, land use and noise concerns also appear.",
+          "next_requirement": "Evaluate multi-label triggers against source and codebook."
+        },
+        "current_status": {
+          "value": "Active as of 2026-07-06",
+          "source_refs": [
+            {
+              "source": "adel",
+              "lines": [
+                33,
+                43
+              ]
+            }
+          ],
+          "disposition": "qualified",
+          "reason": "Dated adoption supports a historical action, not force on 2026-11-07; early repeal is allowed.",
+          "next_requirement": "Check actions and force through 2026-11-07."
+        },
+        "affected_projects": {
+          "value": "",
+          "source_refs": [
+            {
+              "source": "adel",
+              "lines": [
+                33,
+                43
+              ]
+            }
+          ],
+          "disposition": "qualified",
+          "reason": "Blank means no project identified in row; the instrument addresses classes of permits, not evidence that no projects exist.",
+          "next_requirement": "Check application and meeting records if project-level completeness is required."
+        },
+        "outcome": {
+          "value": "Mayor and council adopted Resolution No. 26-02 imposing a 180-day data center moratorium",
+          "source_refs": [
+            {
+              "source": "adel",
+              "lines": [
+                33,
+                43
+              ]
+            }
+          ],
+          "disposition": "qualified",
+          "reason": "The reproduced resolution supports adoption of a 180-day ceiling, subject to earlier repeal and exemptions.",
+          "next_requirement": "Review subsequent actions."
+        },
+        "has_verify_tags": {
+          "value": "False",
+          "source_refs": [
+            {
+              "source": "guard"
+            },
+            {
+              "source": "codebook",
+              "lines": [
+                15,
+                40
+              ]
+            }
+          ],
+          "disposition": "dataset_derived",
+          "reason": "False reflects no literal [VERIFY] in the assigned row, not source verification."
+        },
+        "verify_count": {
+          "value": "0",
+          "source_refs": [
+            {
+              "source": "guard"
+            },
+            {
+              "source": "codebook",
+              "lines": [
+                15,
+                40
+              ]
+            }
+          ],
+          "disposition": "dataset_derived",
+          "reason": "0 reflects no literal [VERIFY] markers in the assigned row, not zero unresolved issues."
+        },
+        "cite_count": {
+          "value": "0",
+          "source_refs": [
+            {
+              "source": "guard"
+            },
+            {
+              "source": "codebook",
+              "lines": [
+                15,
+                40
+              ]
+            }
+          ],
+          "disposition": "dataset_derived",
+          "reason": "0 is a legacy row citation-marker count; it is not a count of sources examined or proof that none exist."
+        },
+        "activity_level": {
+          "value": "High",
+          "source_refs": [
+            {
+              "source": "codebook",
+              "lines": [
+                15,
+                40
+              ]
+            },
+            {
+              "source": "guard"
+            }
+          ],
+          "disposition": "dataset_derived",
+          "reason": "High is the statewide dataset activity class repeated on this row; the four sources do not independently establish statewide classification.",
+          "next_requirement": "Audit statewide classification and its derivation if needed."
+        },
+        "enacted_status": {
+          "value": "active",
+          "source_refs": [
+            {
+              "source": "adel",
+              "lines": [
+                33,
+                43
+              ]
+            }
+          ],
+          "disposition": "unsupported",
+          "reason": "Active classification requires current action history; adoption alone cannot establish force on target date.",
+          "next_requirement": "Obtain city action history through target."
+        },
+        "moratorium_id": {
+          "value": "ga-adel-cook-county-2026",
+          "source_refs": [
+            {
+              "source": "guard"
+            },
+            {
+              "source": "current_csv"
+            },
+            {
+              "source": "codebook",
+              "lines": [
+                15,
+                40
+              ]
+            },
+            {
+              "source": "adel",
+              "lines": [
+                1,
+                5
+              ]
+            }
+          ],
+          "disposition": "dataset_derived",
+          "reason": "Stable dataset key encodes state, jurisdiction and initial year; assignment and current CSV match, which does not itself prove legal identity."
+        },
+        "latitude": {
+          "value": "31.137136",
+          "source_refs": [
+            {
+              "source": "guard"
+            },
+            {
+              "source": "codebook",
+              "lines": [
+                15,
+                40
+              ]
+            }
+          ],
+          "disposition": "no_coordinate_provenance",
+          "reason": "The assigned latitude is present but no retained geocoder result, boundary centroid, coordinate reference proof, or matching location source was examined; the legal source does not verify this number.",
+          "next_requirement": "Recover dated geocoder result and boundary/centroid method or independently verify against an authoritative geographic source."
+        },
+        "longitude": {
+          "value": "-83.423494",
+          "source_refs": [
+            {
+              "source": "guard"
+            },
+            {
+              "source": "codebook",
+              "lines": [
+                15,
+                40
+              ]
+            }
+          ],
+          "disposition": "no_coordinate_provenance",
+          "reason": "The assigned longitude is present but no retained geocoder result, boundary centroid, coordinate reference proof, or matching location source was examined; the legal source does not verify this number.",
+          "next_requirement": "Recover dated geocoder result and boundary/centroid method or independently verify against an authoritative geographic source."
+        },
+        "date_enacted_iso": {
+          "value": "2026-07-06",
+          "source_refs": [
+            {
+              "source": "adel",
+              "lines": [
+                33,
+                43
+              ]
+            }
+          ],
+          "disposition": "supported",
+          "reason": "Normalized date agrees with signed resolution reproduction."
+        },
+        "date_enacted_uncertainty": {
+          "value": "exact",
+          "source_refs": [
+            {
+              "source": "adel",
+              "lines": [
+                33,
+                43
+              ]
+            },
+            {
+              "source": "codebook",
+              "lines": [
+                15,
+                40
+              ]
+            }
+          ],
+          "disposition": "dataset_derived",
+          "reason": "Exact is consistent with day-precision reproduced adoption date, not independently proven operative date."
+        },
+        "duration_days": {
+          "value": "180",
+          "source_refs": [
+            {
+              "source": "adel",
+              "lines": [
+                33,
+                43
+              ]
+            },
+            {
+              "source": "codebook",
+              "lines": [
+                15,
+                40
+              ]
+            }
+          ],
+          "disposition": "dataset_derived",
+          "reason": "180 records original fixed-day ceiling, not proven time actually in force."
+        },
+        "duration_kind": {
+          "value": "fixed_days",
+          "source_refs": [
+            {
+              "source": "adel",
+              "lines": [
+                33,
+                43
+              ]
+            },
+            {
+              "source": "codebook",
+              "lines": [
+                15,
+                40
+              ]
+            }
+          ],
+          "disposition": "dataset_derived",
+          "reason": "fixed_days describes the original 180-day ceiling, conditional on earlier repeal."
+        },
+        "current_end_date_iso": {
+          "value": "",
+          "source_refs": [
+            {
+              "source": "adel",
+              "lines": [
+                33,
+                43
+              ]
+            },
+            {
+              "source": "codebook",
+              "lines": [
+                15,
+                40
+              ]
+            }
+          ],
+          "disposition": "unresolved",
+          "reason": "Blank avoids asserting an operative date without action history and effects of early repeal.",
+          "next_requirement": "Obtain operative instruments and action history through target; determine endpoint only from their actual terms."
+        },
+        "sectors": {
+          "value": "[\"data_center\"]",
+          "source_refs": [
+            {
+              "source": "adel",
+              "lines": [
+                1,
+                5
+              ]
+            },
+            {
+              "source": "codebook",
+              "lines": [
+                15,
+                40
+              ]
+            }
+          ],
+          "disposition": "dataset_derived",
+          "reason": "The data_center category is supported by the cited instrument or report, but the array is a dataset classification and is not proof of exhaustive sector coverage.",
+          "next_requirement": "Check the complete enacted scope before asserting the category list is exhaustive."
+        },
+        "trigger_categories": {
+          "value": "[\"regulatory_gap\"]",
+          "source_refs": [
+            {
+              "source": "adel",
+              "lines": [
+                15,
+                29
+              ]
+            },
+            {
+              "source": "codebook",
+              "lines": [
+                15,
+                40
+              ]
+            }
+          ],
+          "disposition": "qualified",
+          "reason": "regulatory_gap is supported, but instrument also recites water, electricity, land use and noise impacts; single-label completeness needs review.",
+          "next_requirement": "Apply the codebook multi-label taxonomy to the complete adopted record and document each inclusion or omission."
+        }
+      }
+    },
+    {
+      "moratorium_id": "ga-albany-2026",
+      "guard_match": true,
+      "overall": "unresolved; 26 individual fields assessed",
+      "fields": {
+        "state": {
+          "value": "Georgia",
+          "source_refs": [
+            {
+              "source": "albany",
+              "lines": [
+                1,
+                3
+              ]
+            }
+          ],
+          "disposition": "qualified",
+          "reason": "News labels Albany, Ga.; jurisdiction evidence is secondary."
+        },
+        "state_abbrev": {
+          "value": "GA",
+          "source_refs": [
+            {
+              "source": "albany",
+              "lines": [
+                1,
+                3
+              ]
+            },
+            {
+              "source": "codebook",
+              "lines": [
+                15,
+                40
+              ]
+            }
+          ],
+          "disposition": "dataset_derived",
+          "reason": "GA is the standard abbreviation for the source-identified Georgia; this is a normalization, not an independently sourced legal fact."
+        },
+        "jurisdiction": {
+          "value": "Albany",
+          "source_refs": [
+            {
+              "source": "albany",
+              "lines": [
+                1,
+                3
+              ]
+            }
+          ],
+          "disposition": "supported",
+          "reason": "News identifies the city of Albany."
+        },
+        "jurisdiction_type": {
+          "value": "City",
+          "source_refs": [
+            {
+              "source": "albany",
+              "lines": [
+                1,
+                3
+              ]
+            },
+            {
+              "source": "codebook",
+              "lines": [
+                15,
+                40
+              ]
+            }
+          ],
+          "disposition": "supported",
+          "reason": "Report identifies the city of Albany."
+        },
+        "date_enacted": {
+          "value": "2026-07-28",
+          "source_refs": [
+            {
+              "source": "albany",
+              "lines": [
+                1,
+                3
+              ]
+            }
+          ],
+          "disposition": "qualified",
+          "reason": "July 29 report identifies unanimous July 28 vote; this is reported adoption, not an executed instrument.",
+          "next_requirement": "Obtain adopted resolution and minutes."
+        },
+        "duration": {
+          "value": "12 months, with an option to extend an additional 6 months",
+          "source_refs": [
+            {
+              "source": "albany",
+              "lines": [
+                1,
+                3
+              ]
+            },
+            {
+              "source": "albany",
+              "lines": [
+                31,
+                33
+              ]
+            }
+          ],
+          "disposition": "qualified",
+          "reason": "Reported 12 months with optional six-month extension; report also says new ordinance can lift it earlier.",
+          "next_requirement": "Obtain executed resolution and later action history."
+        },
+        "legal_basis": {
+          "value": "Albany City Commission vote adopting a 12-month halt on all new data center development",
+          "source_refs": [
+            {
+              "source": "albany",
+              "lines": [
+                1,
+                3
+              ]
+            }
+          ],
+          "disposition": "qualified",
+          "reason": "Unanimous city vote and 12-month development halt are reported; actual adopted resolution and operative scope were not examined.",
+          "next_requirement": "Obtain adopted resolution including scope."
+        },
+        "trigger": {
+          "value": "Growing statewide concern about data center development, following consideration of 180-day, 12-month, and 18-month options",
+          "source_refs": [
+            {
+              "source": "albany",
+              "lines": [
+                1,
+                3
+              ]
+            },
+            {
+              "source": "albany_agenda",
+              "lines": [
+                19,
+                35
+              ]
+            }
+          ],
+          "disposition": "qualified",
+          "reason": "Regulatory development is reported; cited report does not establish the exact range 180 days, 12 months and 18 months or that statewide concern caused the decision.",
+          "next_requirement": "Obtain meeting discussion and resolution."
+        },
+        "current_status": {
+          "value": "Adopted unanimously; not independently re-checked past publication",
+          "source_refs": [
+            {
+              "source": "albany",
+              "lines": [
+                1,
+                3
+              ]
+            },
+            {
+              "source": "albany",
+              "lines": [
+                31,
+                33
+              ]
+            }
+          ],
+          "disposition": "qualified",
+          "reason": "Unanimous adoption is reported and text acknowledges no later check; current force remains unestablished.",
+          "next_requirement": "Obtain subsequent council action and effective instrument through target."
+        },
+        "affected_projects": {
+          "value": "Not identified in captured news coverage",
+          "source_refs": [
+            {
+              "source": "albany",
+              "lines": [
+                1,
+                3
+              ]
+            }
+          ],
+          "disposition": "qualified",
+          "reason": "The captured report names no affected project; that does not establish none existed.",
+          "next_requirement": "Check application and meeting records if project-level completeness is required."
+        },
+        "outcome": {
+          "value": "City commissioners unanimously approved a 12-month halt on all new data center development, with an option to extend 6 more months",
+          "source_refs": [
+            {
+              "source": "albany",
+              "lines": [
+                1,
+                3
+              ]
+            }
+          ],
+          "disposition": "qualified",
+          "reason": "News reports unanimous approval and option to extend; operative instrument and later outcome remain unexamined.",
+          "next_requirement": "Obtain enacted resolution and subsequent actions."
+        },
+        "has_verify_tags": {
+          "value": "False",
+          "source_refs": [
+            {
+              "source": "guard"
+            },
+            {
+              "source": "codebook",
+              "lines": [
+                15,
+                40
+              ]
+            }
+          ],
+          "disposition": "dataset_derived",
+          "reason": "False reflects no literal [VERIFY] in the assigned row, not source verification."
+        },
+        "verify_count": {
+          "value": "0",
+          "source_refs": [
+            {
+              "source": "guard"
+            },
+            {
+              "source": "codebook",
+              "lines": [
+                15,
+                40
+              ]
+            }
+          ],
+          "disposition": "dataset_derived",
+          "reason": "0 reflects no literal [VERIFY] markers in the assigned row, not zero unresolved issues."
+        },
+        "cite_count": {
+          "value": "0",
+          "source_refs": [
+            {
+              "source": "guard"
+            },
+            {
+              "source": "codebook",
+              "lines": [
+                15,
+                40
+              ]
+            }
+          ],
+          "disposition": "dataset_derived",
+          "reason": "0 is a legacy row citation-marker count; it is not a count of sources examined or proof that none exist."
+        },
+        "activity_level": {
+          "value": "High",
+          "source_refs": [
+            {
+              "source": "codebook",
+              "lines": [
+                15,
+                40
+              ]
+            },
+            {
+              "source": "guard"
+            }
+          ],
+          "disposition": "dataset_derived",
+          "reason": "High is the statewide dataset activity class repeated on this row; the four sources do not independently establish statewide classification.",
+          "next_requirement": "Audit statewide classification and its derivation if needed."
+        },
+        "enacted_status": {
+          "value": "active",
+          "source_refs": [
+            {
+              "source": "albany",
+              "lines": [
+                1,
+                3
+              ]
+            },
+            {
+              "source": "albany",
+              "lines": [
+                31,
+                33
+              ]
+            }
+          ],
+          "disposition": "unsupported",
+          "reason": "Active classification is consistent with the July report but later action or early lifting is unknown.",
+          "next_requirement": "Obtain city action history through target."
+        },
+        "moratorium_id": {
+          "value": "ga-albany-2026",
+          "source_refs": [
+            {
+              "source": "guard"
+            },
+            {
+              "source": "current_csv"
+            },
+            {
+              "source": "codebook",
+              "lines": [
+                15,
+                40
+              ]
+            },
+            {
+              "source": "albany",
+              "lines": [
+                1,
+                3
+              ]
+            }
+          ],
+          "disposition": "dataset_derived",
+          "reason": "Stable dataset key encodes state, jurisdiction and initial year; assignment and current CSV match, which does not itself prove legal identity."
+        },
+        "latitude": {
+          "value": "31.578206",
+          "source_refs": [
+            {
+              "source": "guard"
+            },
+            {
+              "source": "codebook",
+              "lines": [
+                15,
+                40
+              ]
+            }
+          ],
+          "disposition": "no_coordinate_provenance",
+          "reason": "The assigned latitude is present but no retained geocoder result, boundary centroid, coordinate reference proof, or matching location source was examined; the legal source does not verify this number.",
+          "next_requirement": "Recover dated geocoder result and boundary/centroid method or independently verify against an authoritative geographic source."
+        },
+        "longitude": {
+          "value": "-84.155681",
+          "source_refs": [
+            {
+              "source": "guard"
+            },
+            {
+              "source": "codebook",
+              "lines": [
+                15,
+                40
+              ]
+            }
+          ],
+          "disposition": "no_coordinate_provenance",
+          "reason": "The assigned longitude is present but no retained geocoder result, boundary centroid, coordinate reference proof, or matching location source was examined; the legal source does not verify this number.",
+          "next_requirement": "Recover dated geocoder result and boundary/centroid method or independently verify against an authoritative geographic source."
+        },
+        "date_enacted_iso": {
+          "value": "2026-07-28",
+          "source_refs": [
+            {
+              "source": "albany",
+              "lines": [
+                1,
+                3
+              ]
+            }
+          ],
+          "disposition": "qualified",
+          "reason": "July 28 normalized adoption date follows news report; not an effective-date determination.",
+          "next_requirement": "Obtain executed resolution and approved minutes."
+        },
+        "date_enacted_uncertainty": {
+          "value": "exact",
+          "source_refs": [
+            {
+              "source": "albany",
+              "lines": [
+                1,
+                3
+              ]
+            },
+            {
+              "source": "codebook",
+              "lines": [
+                15,
+                40
+              ]
+            }
+          ],
+          "disposition": "dataset_derived",
+          "reason": "Exact encodes day precision of a reported vote, not primary-source confirmation."
+        },
+        "duration_days": {
+          "value": "",
+          "source_refs": [
+            {
+              "source": "albany",
+              "lines": [
+                1,
+                3
+              ]
+            },
+            {
+              "source": "codebook",
+              "lines": [
+                15,
+                40
+              ]
+            }
+          ],
+          "disposition": "dataset_derived",
+          "reason": "Blank is consistent with the reported calendar-month term; it is not a claim of zero days."
+        },
+        "duration_kind": {
+          "value": "calendar_term",
+          "source_refs": [
+            {
+              "source": "albany",
+              "lines": [
+                1,
+                3
+              ]
+            },
+            {
+              "source": "codebook",
+              "lines": [
+                15,
+                40
+              ]
+            }
+          ],
+          "disposition": "dataset_derived",
+          "reason": "calendar_term describes the reported 12-month original term, with empty duration_days."
+        },
+        "current_end_date_iso": {
+          "value": "",
+          "source_refs": [
+            {
+              "source": "albany",
+              "lines": [
+                1,
+                3
+              ]
+            },
+            {
+              "source": "albany",
+              "lines": [
+                31,
+                33
+              ]
+            },
+            {
+              "source": "codebook",
+              "lines": [
+                15,
+                40
+              ]
+            }
+          ],
+          "disposition": "unresolved",
+          "reason": "Blank avoids guessing an effective anchor or later action on the reported calendar term.",
+          "next_requirement": "Obtain operative instruments and action history through target; determine endpoint only from their actual terms."
+        },
+        "sectors": {
+          "value": "[\"data_center\"]",
+          "source_refs": [
+            {
+              "source": "albany",
+              "lines": [
+                1,
+                3
+              ]
+            },
+            {
+              "source": "codebook",
+              "lines": [
+                15,
+                40
+              ]
+            }
+          ],
+          "disposition": "dataset_derived",
+          "reason": "The data_center category is supported by the cited instrument or report, but the array is a dataset classification and is not proof of exhaustive sector coverage.",
+          "next_requirement": "Check the complete enacted scope before asserting the category list is exhaustive."
+        },
+        "trigger_categories": {
+          "value": "[\"regulatory_gap\"]",
+          "source_refs": [
+            {
+              "source": "albany_agenda",
+              "lines": [
+                19,
+                35
+              ]
+            },
+            {
+              "source": "codebook",
+              "lines": [
+                15,
+                40
+              ]
+            }
+          ],
+          "disposition": "qualified",
+          "reason": "Regulatory review is supported as a reason in city agenda; classification and any omitted labels require review of adopted text and meeting record.",
+          "next_requirement": "Apply the codebook multi-label taxonomy to the complete adopted record and document each inclusion or omission."
+        }
+      }
+    },
+    {
+      "moratorium_id": "ga-appling-county-2026",
+      "guard_match": true,
+      "overall": "unresolved; 26 individual fields assessed",
+      "fields": {
+        "state": {
+          "value": "Georgia",
+          "source_refs": [
+            {
+              "source": "appling_signed",
+              "lines": [
+                1,
+                10
+              ]
+            }
+          ],
+          "disposition": "supported",
+          "reason": "County instrument identifies Appling County, Georgia."
+        },
+        "state_abbrev": {
+          "value": "GA",
+          "source_refs": [
+            {
+              "source": "appling_signed",
+              "lines": [
+                1,
+                10
+              ]
+            },
+            {
+              "source": "codebook",
+              "lines": [
+                15,
+                40
+              ]
+            }
+          ],
+          "disposition": "dataset_derived",
+          "reason": "GA is the standard abbreviation for the source-identified Georgia; this is a normalization, not an independently sourced legal fact."
+        },
+        "jurisdiction": {
+          "value": "Appling County",
+          "source_refs": [
+            {
+              "source": "appling_signed",
+              "lines": [
+                1,
+                10
+              ]
+            },
+            {
+              "source": "appling_signed",
+              "lines": [
+                76,
+                93
+              ]
+            }
+          ],
+          "disposition": "supported",
+          "reason": "Signed instrument names Appling County; operative scope is unincorporated areas."
+        },
+        "jurisdiction_type": {
+          "value": "County",
+          "source_refs": [
+            {
+              "source": "appling_signed",
+              "lines": [
+                1,
+                10
+              ]
+            },
+            {
+              "source": "codebook",
+              "lines": [
+                15,
+                40
+              ]
+            }
+          ],
+          "disposition": "supported",
+          "reason": "County board and county territory are identified in the resolution."
+        },
+        "date_enacted": {
+          "value": "2026-08-04, Appling County Board of Commissioners resolution signed by the Chairman and attested by the County Clerk",
+          "source_refs": [
+            {
+              "source": "appling_signed",
+              "pdf_page": 3,
+              "note": "Signed and dated 2026-08-04; prior visual inspection recorded in continuation evidence, OCR date garbled."
+            },
+            {
+              "source": "appling_signed",
+              "lines": [
+                104,
+                121
+              ]
+            }
+          ],
+          "disposition": "supported",
+          "reason": "Signed, attested resolution visibly dated August 4, 2026; adoption and immediate effectiveness are distinct."
+        },
+        "duration": {
+          "value": "40 days from adoption (to about 2026-09-13), unless lifted earlier or regulations adopted; extendable after a public hearing",
+          "source_refs": [
+            {
+              "source": "appling_signed",
+              "lines": [
+                104,
+                121
+              ]
+            },
+            {
+              "source": "appling_report",
+              "lines": [
+                1,
+                4
+              ]
+            }
+          ],
+          "disposition": "qualified",
+          "reason": "Original 40 days from adoption, subject to earlier lifting or specified regulations; extension may follow hearing. Report suggests later extension but does not establish date or executed text.",
+          "next_requirement": "Obtain adopted extension and complete subsequent board history."
+        },
+        "legal_basis": {
+          "value": "Appling County Board of Commissioners Resolution declaring a temporary 40-day emergency moratorium on data center facilities (electrical permits, conditional use permits, development permits, site plans, building permits) in unincorporated Appling County",
+          "source_refs": [
+            {
+              "source": "appling_signed",
+              "lines": [
+                76,
+                93
+              ]
+            },
+            {
+              "source": "appling_signed",
+              "pdf_page": 3,
+              "note": "Signed and dated 2026-08-04; prior visual inspection recorded in continuation evidence, OCR date garbled."
+            }
+          ],
+          "disposition": "qualified",
+          "reason": "Signed resolution establishes specified permits and unincorporated scope; actual later extension unresolved.",
+          "next_requirement": "Obtain any later executed extension."
+        },
+        "trigger": {
+          "value": "County code, development regulations and zoning do not address data center facilities",
+          "source_refs": [
+            {
+              "source": "appling_signed",
+              "lines": [
+                28,
+                48
+              ]
+            }
+          ],
+          "disposition": "qualified",
+          "reason": "Signed instrument states that specific zoning and development regulations are lacking.",
+          "next_requirement": "Review other express water and grid concerns if summary aims to be comprehensive."
+        },
+        "current_status": {
+          "value": "Expired 2026-09-13 (40 days after the 2026-08-04 resolution). The prior researcher's claim that a follow-on 180-day resolution was moved to a Sept. 8, 2026 meeting does not hold up: the Board's own Aug. 18, 2026 called-meeting minutes show the Sept. 8 date was set only to adopt the FY2027 millage-rate roll-back, not a data-center item, and that meeting was in fact rescheduled to a Sept. 17, 2026 called meeting whose two agendas cover only the millage rate and county/school tax levies -- no moratorium item on either. The official combined minutes for the county's only other August meetings (the Aug. 4 regular meeting and the Aug. 18 budget workshop) likewise contain no motion or vote enacting, extending, or discussing a data-center moratorium beyond the original resolution's own text. No extension, replacement, or new moratorium was found through the county's most recently posted agenda (Sept. 17, 2026), 4 days after the 40-day term ran out.",
+          "source_refs": [
+            {
+              "source": "appling_signed",
+              "lines": [
+                104,
+                121
+              ]
+            },
+            {
+              "source": "appling_report",
+              "lines": [
+                1,
+                4
+              ]
+            },
+            {
+              "source": "appling_draft",
+              "lines": [
+                1,
+                21
+              ]
+            }
+          ],
+          "disposition": "unsupported",
+          "reason": "The categorical expiry and no-extension narrative is not established: separate report says an extension was approved, but lacks date and executed instrument. Original term could end early.",
+          "next_requirement": "Reconcile report with executed instruments, complete minutes, earlier termination and history through target."
+        },
+        "affected_projects": {
+          "value": "None named",
+          "source_refs": [
+            {
+              "source": "appling_signed",
+              "lines": [
+                76,
+                93
+              ]
+            }
+          ],
+          "disposition": "qualified",
+          "reason": "No named project appears in examined instrument; that does not establish none existed.",
+          "next_requirement": "Check application and meeting records if project-level completeness is required."
+        },
+        "outcome": {
+          "value": "Commissioners adopted a 40-day emergency moratorium on data center approvals pending code revisions.",
+          "source_refs": [
+            {
+              "source": "appling_signed",
+              "pdf_page": 3,
+              "note": "Signed and dated 2026-08-04; prior visual inspection recorded in continuation evidence, OCR date garbled."
+            },
+            {
+              "source": "appling_signed",
+              "lines": [
+                104,
+                121
+              ]
+            },
+            {
+              "source": "appling_signed",
+              "lines": [
+                28,
+                48
+              ]
+            }
+          ],
+          "disposition": "qualified",
+          "reason": "Signed original establishes adoption of an emergency 40-day moratorium for regulatory review; later disposition is disputed.",
+          "next_requirement": "Reconcile extension report with adopted action."
+        },
+        "has_verify_tags": {
+          "value": "False",
+          "source_refs": [
+            {
+              "source": "guard"
+            },
+            {
+              "source": "codebook",
+              "lines": [
+                15,
+                40
+              ]
+            }
+          ],
+          "disposition": "dataset_derived",
+          "reason": "False reflects no literal [VERIFY] in the assigned row, not source verification."
+        },
+        "verify_count": {
+          "value": "0",
+          "source_refs": [
+            {
+              "source": "guard"
+            },
+            {
+              "source": "codebook",
+              "lines": [
+                15,
+                40
+              ]
+            }
+          ],
+          "disposition": "dataset_derived",
+          "reason": "0 reflects no literal [VERIFY] markers in the assigned row, not zero unresolved issues."
+        },
+        "cite_count": {
+          "value": "0",
+          "source_refs": [
+            {
+              "source": "guard"
+            },
+            {
+              "source": "codebook",
+              "lines": [
+                15,
+                40
+              ]
+            }
+          ],
+          "disposition": "dataset_derived",
+          "reason": "0 is a legacy row citation-marker count; it is not a count of sources examined or proof that none exist."
+        },
+        "activity_level": {
+          "value": "High",
+          "source_refs": [
+            {
+              "source": "codebook",
+              "lines": [
+                15,
+                40
+              ]
+            },
+            {
+              "source": "guard"
+            }
+          ],
+          "disposition": "dataset_derived",
+          "reason": "High is the statewide dataset activity class repeated on this row; the four sources do not independently establish statewide classification.",
+          "next_requirement": "Audit statewide classification and its derivation if needed."
+        },
+        "enacted_status": {
+          "value": "expired",
+          "source_refs": [
+            {
+              "source": "appling_signed",
+              "lines": [
+                104,
+                121
+              ]
+            },
+            {
+              "source": "appling_report",
+              "lines": [
+                1,
+                4
+              ]
+            },
+            {
+              "source": "appling_draft",
+              "lines": [
+                1,
+                21
+              ]
+            }
+          ],
+          "disposition": "unsupported",
+          "reason": "Expired classification is disputed by an undated report of extension approval; neither present force nor expiry is established.",
+          "next_requirement": "Obtain executed extension and later actions."
+        },
+        "moratorium_id": {
+          "value": "ga-appling-county-2026",
+          "source_refs": [
+            {
+              "source": "guard"
+            },
+            {
+              "source": "current_csv"
+            },
+            {
+              "source": "codebook",
+              "lines": [
+                15,
+                40
+              ]
+            },
+            {
+              "source": "appling_signed",
+              "lines": [
+                1,
+                10
+              ]
+            }
+          ],
+          "disposition": "dataset_derived",
+          "reason": "Stable dataset key encodes state, jurisdiction and initial year; assignment and current CSV match, which does not itself prove legal identity."
+        },
+        "latitude": {
+          "value": "31.777144",
+          "source_refs": [
+            {
+              "source": "guard"
+            },
+            {
+              "source": "codebook",
+              "lines": [
+                15,
+                40
+              ]
+            }
+          ],
+          "disposition": "no_coordinate_provenance",
+          "reason": "The assigned latitude is present but no retained geocoder result, boundary centroid, coordinate reference proof, or matching location source was examined; the legal source does not verify this number.",
+          "next_requirement": "Recover dated geocoder result and boundary/centroid method or independently verify against an authoritative geographic source."
+        },
+        "longitude": {
+          "value": "-82.299627",
+          "source_refs": [
+            {
+              "source": "guard"
+            },
+            {
+              "source": "codebook",
+              "lines": [
+                15,
+                40
+              ]
+            }
+          ],
+          "disposition": "no_coordinate_provenance",
+          "reason": "The assigned longitude is present but no retained geocoder result, boundary centroid, coordinate reference proof, or matching location source was examined; the legal source does not verify this number.",
+          "next_requirement": "Recover dated geocoder result and boundary/centroid method or independently verify against an authoritative geographic source."
+        },
+        "date_enacted_iso": {
+          "value": "2026-08-04",
+          "source_refs": [
+            {
+              "source": "appling_signed",
+              "pdf_page": 3,
+              "note": "Signed and dated 2026-08-04; prior visual inspection recorded in continuation evidence, OCR date garbled."
+            }
+          ],
+          "disposition": "supported",
+          "reason": "Normalized date matches visual date on signed original."
+        },
+        "date_enacted_uncertainty": {
+          "value": "exact",
+          "source_refs": [
+            {
+              "source": "appling_signed",
+              "pdf_page": 3,
+              "note": "Signed and dated 2026-08-04; prior visual inspection recorded in continuation evidence, OCR date garbled."
+            },
+            {
+              "source": "codebook",
+              "lines": [
+                15,
+                40
+              ]
+            }
+          ],
+          "disposition": "dataset_derived",
+          "reason": "Exact encodes the visually inspected signed adoption date."
+        },
+        "duration_days": {
+          "value": "40",
+          "source_refs": [
+            {
+              "source": "appling_signed",
+              "lines": [
+                104,
+                121
+              ]
+            },
+            {
+              "source": "codebook",
+              "lines": [
+                15,
+                40
+              ]
+            }
+          ],
+          "disposition": "dataset_derived",
+          "reason": "40 records original fixed-day maximum, subject to early termination and possible later extension."
+        },
+        "duration_kind": {
+          "value": "fixed_days",
+          "source_refs": [
+            {
+              "source": "appling_signed",
+              "lines": [
+                104,
+                121
+              ]
+            },
+            {
+              "source": "codebook",
+              "lines": [
+                15,
+                40
+              ]
+            }
+          ],
+          "disposition": "dataset_derived",
+          "reason": "fixed_days describes the original 40-day ceiling, not a conclusion about later extension."
+        },
+        "current_end_date_iso": {
+          "value": "",
+          "source_refs": [
+            {
+              "source": "appling_signed",
+              "lines": [
+                104,
+                121
+              ]
+            },
+            {
+              "source": "appling_report",
+              "lines": [
+                1,
+                4
+              ]
+            },
+            {
+              "source": "codebook",
+              "lines": [
+                15,
+                40
+              ]
+            }
+          ],
+          "disposition": "unresolved",
+          "reason": "Blank avoids treating the original 40-day arithmetic as a verified current endpoint given disputed later action.",
+          "next_requirement": "Obtain operative instruments and action history through target; determine endpoint only from their actual terms."
+        },
+        "sectors": {
+          "value": "[\"data_center\"]",
+          "source_refs": [
+            {
+              "source": "appling_signed",
+              "lines": [
+                76,
+                93
+              ]
+            },
+            {
+              "source": "codebook",
+              "lines": [
+                15,
+                40
+              ]
+            }
+          ],
+          "disposition": "dataset_derived",
+          "reason": "The data_center category is supported by the cited instrument or report, but the array is a dataset classification and is not proof of exhaustive sector coverage.",
+          "next_requirement": "Check the complete enacted scope before asserting the category list is exhaustive."
+        },
+        "trigger_categories": {
+          "value": "[\"regulatory_gap\",\"grid_energy\"]",
+          "source_refs": [
+            {
+              "source": "appling_signed",
+              "lines": [
+                28,
+                48
+              ]
+            },
+            {
+              "source": "codebook",
+              "lines": [
+                15,
+                40
+              ]
+            }
+          ],
+          "disposition": "qualified",
+          "reason": "Regulatory gap and electrical grid concerns are explicit; water and environmental concerns are also explicit and may warrant additional labels.",
+          "next_requirement": "Apply the codebook multi-label taxonomy to the complete adopted record and document each inclusion or omission."
+        }
+      }
+    },
+    {
+      "moratorium_id": "ga-athens-clarke-county-2025",
+      "guard_match": true,
+      "overall": "unresolved; 26 individual fields assessed",
+      "fields": {
+        "state": {
+          "value": "Georgia",
+          "source_refs": [
+            {
+              "source": "athens_minutes",
+              "lines": [
+                895,
+                901
+              ]
+            }
+          ],
+          "disposition": "supported",
+          "reason": "Official ordinance identifies Athens-Clarke County, Georgia."
+        },
+        "state_abbrev": {
+          "value": "GA",
+          "source_refs": [
+            {
+              "source": "athens_minutes",
+              "lines": [
+                895,
+                901
+              ]
+            },
+            {
+              "source": "codebook",
+              "lines": [
+                15,
+                40
+              ]
+            }
+          ],
+          "disposition": "dataset_derived",
+          "reason": "GA is the standard abbreviation for the source-identified Georgia; this is a normalization, not an independently sourced legal fact."
+        },
+        "jurisdiction": {
+          "value": "Athens-Clarke County",
+          "source_refs": [
+            {
+              "source": "athens_minutes",
+              "lines": [
+                895,
+                901
+              ]
+            }
+          ],
+          "disposition": "supported",
+          "reason": "Official ordinance identifies Athens-Clarke County unified government."
+        },
+        "jurisdiction_type": {
+          "value": "County",
+          "source_refs": [
+            {
+              "source": "athens_minutes",
+              "lines": [
+                895,
+                901
+              ]
+            },
+            {
+              "source": "codebook",
+              "lines": [
+                15,
+                40
+              ]
+            }
+          ],
+          "disposition": "qualified",
+          "reason": "Official text identifies a unified government and county; County is a dataset classification for that combined government."
+        },
+        "date_enacted": {
+          "value": "2025-12-02",
+          "source_refs": [
+            {
+              "source": "athens_minutes",
+              "lines": [
+                948,
+                958
+              ]
+            }
+          ],
+          "disposition": "supported",
+          "reason": "March adopted ordinance recites December 2, 2025 adoption of initial ordinance."
+        },
+        "duration": {
+          "value": "Initial moratorium through 2026-03-06; extended through 2026-06-05 by Ordinance 26-03-19 (2026-03-03); replaced 2026-04-07",
+          "source_refs": [
+            {
+              "source": "athens_minutes",
+              "lines": [
+                1052,
+                1070
+              ]
+            },
+            {
+              "source": "athens_news",
+              "lines": [
+                1,
+                13
+              ]
+            }
+          ],
+          "disposition": "qualified",
+          "reason": "March extension through June 5 allows earlier termination on action or effective amendments; April replacement is reported, its operative date unverified. Initial March 6 endpoint not established by cited sources.",
+          "next_requirement": "Obtain initial ordinance and April adopted instrument, effective date, and subsequent actions."
+        },
+        "legal_basis": {
+          "value": "Ordinance 25-12-117 (initial); Ordinance 26-03-19 (extension adopted 2026-03-03 by unanimous vote, \"AN ORDINANCE TO IMPOSE, CONTINUE, AND EXTEND A TEMPORARY EMERGENCY MORATORIUM ON THE ESTABLISHMENT OF NEW DATA CENTERS\"); replacement text amendment to Title IX held over and adopted 2026-04-07",
+          "source_refs": [
+            {
+              "source": "athens_minutes",
+              "lines": [
+                895,
+                901
+              ]
+            },
+            {
+              "source": "athens_minutes",
+              "lines": [
+                948,
+                958
+              ]
+            },
+            {
+              "source": "athens_news",
+              "lines": [
+                1,
+                13
+              ]
+            }
+          ],
+          "disposition": "qualified",
+          "reason": "March minutes establish adoption of 26-03-19; initial number and April adopted instrument and effective transition are not established by these sources.",
+          "next_requirement": "Obtain December 25-12-117 and executed April text amendment."
+        },
+        "trigger": {
+          "value": "Existing zoning did not specifically address data centers; concerns about utilities, contamination, water, and land use",
+          "source_refs": [
+            {
+              "source": "athens_minutes",
+              "lines": [
+                930,
+                946
+              ]
+            },
+            {
+              "source": "athens_news",
+              "lines": [
+                1,
+                13
+              ]
+            }
+          ],
+          "disposition": "qualified",
+          "reason": "Ordinance states need for zoning standards and utility/environmental concerns; contamination and the exact preexisting zoning characterization need separate proof.",
+          "next_requirement": "Examine initial instrument and adopted April record for each asserted concern."
+        },
+        "current_status": {
+          "value": "Replaced",
+          "source_refs": [
+            {
+              "source": "athens_news",
+              "lines": [
+                1,
+                13
+              ]
+            },
+            {
+              "source": "athens_minutes",
+              "lines": [
+                1052,
+                1070
+              ]
+            }
+          ],
+          "disposition": "qualified",
+          "reason": "News reports April vote to lift and replace, but the adopted legal text, effective date and complete later history are not examined.",
+          "next_requirement": "Obtain April adopted amendment and operative transition and later history."
+        },
+        "affected_projects": {
+          "value": "No specific project identified in captured records",
+          "source_refs": [
+            {
+              "source": "athens_news",
+              "lines": [
+                1,
+                13
+              ]
+            }
+          ],
+          "disposition": "qualified",
+          "reason": "April article does not name an affected project; that does not establish none existed.",
+          "next_requirement": "Check application and meeting records if project-level completeness is required."
+        },
+        "outcome": {
+          "value": "New rules allow data centers in heavy industrial zones with tighter review and closed-loop cooling requirements",
+          "source_refs": [
+            {
+              "source": "athens_news",
+              "lines": [
+                1,
+                13
+              ]
+            }
+          ],
+          "disposition": "qualified",
+          "reason": "News reports heavy industrial siting and closed-loop air conditioning rules; adopted instrument and effective legal transition remain unverified.",
+          "next_requirement": "Obtain adopted April text and effective date."
+        },
+        "has_verify_tags": {
+          "value": "False",
+          "source_refs": [
+            {
+              "source": "guard"
+            },
+            {
+              "source": "codebook",
+              "lines": [
+                15,
+                40
+              ]
+            }
+          ],
+          "disposition": "dataset_derived",
+          "reason": "False reflects no literal [VERIFY] in the assigned row, not source verification."
+        },
+        "verify_count": {
+          "value": "0",
+          "source_refs": [
+            {
+              "source": "guard"
+            },
+            {
+              "source": "codebook",
+              "lines": [
+                15,
+                40
+              ]
+            }
+          ],
+          "disposition": "dataset_derived",
+          "reason": "0 reflects no literal [VERIFY] markers in the assigned row, not zero unresolved issues."
+        },
+        "cite_count": {
+          "value": "0",
+          "source_refs": [
+            {
+              "source": "guard"
+            },
+            {
+              "source": "codebook",
+              "lines": [
+                15,
+                40
+              ]
+            }
+          ],
+          "disposition": "dataset_derived",
+          "reason": "0 is a legacy row citation-marker count; it is not a count of sources examined or proof that none exist."
+        },
+        "activity_level": {
+          "value": "High",
+          "source_refs": [
+            {
+              "source": "codebook",
+              "lines": [
+                15,
+                40
+              ]
+            },
+            {
+              "source": "guard"
+            }
+          ],
+          "disposition": "dataset_derived",
+          "reason": "High is the statewide dataset activity class repeated on this row; the four sources do not independently establish statewide classification.",
+          "next_requirement": "Audit statewide classification and its derivation if needed."
+        },
+        "enacted_status": {
+          "value": "replaced",
+          "source_refs": [
+            {
+              "source": "athens_news",
+              "lines": [
+                1,
+                13
+              ]
+            },
+            {
+              "source": "athens_minutes",
+              "lines": [
+                1052,
+                1070
+              ]
+            }
+          ],
+          "disposition": "qualified",
+          "reason": "Replaced classification follows an April news report; legal effective transition and complete subsequent history remain unverified.",
+          "next_requirement": "Obtain executed April amendment and later actions."
+        },
+        "moratorium_id": {
+          "value": "ga-athens-clarke-county-2025",
+          "source_refs": [
+            {
+              "source": "guard"
+            },
+            {
+              "source": "current_csv"
+            },
+            {
+              "source": "codebook",
+              "lines": [
+                15,
+                40
+              ]
+            },
+            {
+              "source": "athens_minutes",
+              "lines": [
+                895,
+                901
+              ]
+            }
+          ],
+          "disposition": "dataset_derived",
+          "reason": "Stable dataset key encodes state, jurisdiction and initial year; assignment and current CSV match, which does not itself prove legal identity."
+        },
+        "latitude": {
+          "value": "33.959272",
+          "source_refs": [
+            {
+              "source": "guard"
+            },
+            {
+              "source": "codebook",
+              "lines": [
+                15,
+                40
+              ]
+            }
+          ],
+          "disposition": "no_coordinate_provenance",
+          "reason": "The assigned latitude is present but no retained geocoder result, boundary centroid, coordinate reference proof, or matching location source was examined; the legal source does not verify this number.",
+          "next_requirement": "Recover dated geocoder result and boundary/centroid method or independently verify against an authoritative geographic source."
+        },
+        "longitude": {
+          "value": "-83.379471",
+          "source_refs": [
+            {
+              "source": "guard"
+            },
+            {
+              "source": "codebook",
+              "lines": [
+                15,
+                40
+              ]
+            }
+          ],
+          "disposition": "no_coordinate_provenance",
+          "reason": "The assigned longitude is present but no retained geocoder result, boundary centroid, coordinate reference proof, or matching location source was examined; the legal source does not verify this number.",
+          "next_requirement": "Recover dated geocoder result and boundary/centroid method or independently verify against an authoritative geographic source."
+        },
+        "date_enacted_iso": {
+          "value": "2025-12-02",
+          "source_refs": [
+            {
+              "source": "athens_minutes",
+              "lines": [
+                948,
+                958
+              ]
+            }
+          ],
+          "disposition": "supported",
+          "reason": "March ordinance recites initial adoption on December 2, 2025."
+        },
+        "date_enacted_uncertainty": {
+          "value": "exact",
+          "source_refs": [
+            {
+              "source": "athens_minutes",
+              "lines": [
+                948,
+                958
+              ]
+            },
+            {
+              "source": "codebook",
+              "lines": [
+                15,
+                40
+              ]
+            }
+          ],
+          "disposition": "dataset_derived",
+          "reason": "Exact encodes day precision of the December adoption recited by the March ordinance."
+        },
+        "duration_days": {
+          "value": "",
+          "source_refs": [
+            {
+              "source": "athens_minutes",
+              "lines": [
+                1052,
+                1070
+              ]
+            },
+            {
+              "source": "codebook",
+              "lines": [
+                15,
+                40
+              ]
+            }
+          ],
+          "disposition": "dataset_derived",
+          "reason": "Blank is consistent with an until-date classification, but original instrument and initial endpoint remain unverified.",
+          "next_requirement": "Obtain initial ordinance to verify original term."
+        },
+        "duration_kind": {
+          "value": "until_date",
+          "source_refs": [
+            {
+              "source": "athens_minutes",
+              "lines": [
+                1052,
+                1070
+              ]
+            },
+            {
+              "source": "codebook",
+              "lines": [
+                15,
+                40
+              ]
+            }
+          ],
+          "disposition": "dataset_derived",
+          "reason": "until_date is consistent with the March extension through June 5 but the cited material does not establish the initial March 6 term.",
+          "next_requirement": "Obtain initial ordinance and confirm original-term classification."
+        },
+        "current_end_date_iso": {
+          "value": "",
+          "source_refs": [
+            {
+              "source": "athens_minutes",
+              "lines": [
+                1052,
+                1070
+              ]
+            },
+            {
+              "source": "athens_news",
+              "lines": [
+                1,
+                13
+              ]
+            },
+            {
+              "source": "codebook",
+              "lines": [
+                15,
+                40
+              ]
+            }
+          ],
+          "disposition": "unresolved",
+          "reason": "Blank avoids asserting June 5 as the operative endpoint given early-termination conditions and reported April replacement.",
+          "next_requirement": "Obtain operative instruments and action history through target; determine endpoint only from their actual terms."
+        },
+        "sectors": {
+          "value": "[\"data_center\"]",
+          "source_refs": [
+            {
+              "source": "athens_minutes",
+              "lines": [
+                895,
+                901
+              ]
+            },
+            {
+              "source": "codebook",
+              "lines": [
+                15,
+                40
+              ]
+            }
+          ],
+          "disposition": "dataset_derived",
+          "reason": "The data_center category is supported by the cited instrument or report, but the array is a dataset classification and is not proof of exhaustive sector coverage.",
+          "next_requirement": "Check the complete enacted scope before asserting the category list is exhaustive."
+        },
+        "trigger_categories": {
+          "value": "[\"regulatory_gap\", \"infrastructure_capacity\", \"environmental\", \"water\", \"land_use_compatibility\"]",
+          "source_refs": [
+            {
+              "source": "athens_minutes",
+              "lines": [
+                930,
+                946
+              ]
+            },
+            {
+              "source": "athens_news",
+              "lines": [
+                1,
+                13
+              ]
+            },
+            {
+              "source": "codebook",
+              "lines": [
+                15,
+                40
+              ]
+            }
+          ],
+          "disposition": "qualified",
+          "reason": "Ordinance supports utilities, environmental concerns and zoning study; reported contamination is contextual. Mapping each category and possible noise/grid labels requires taxonomy review.",
+          "next_requirement": "Apply the codebook multi-label taxonomy to the complete adopted record and document each inclusion or omission."
+        }
+      }
+    }
+  ],
+  "guarded_proposals": [
+    {
+      "id": "adel-duration-condition",
+      "moratorium_id": "ga-adel-cook-county-2026",
+      "field": "duration",
+      "guard_value": "180 days",
+      "proposed_value": "180 days, or until repealed by act of Mayor and Council, whichever is sooner",
+      "source_refs": [
+        {
+          "source": "adel",
+          "lines": [
+            33,
+            43
+          ]
+        }
+      ],
+      "basis": "The reproduced enacted text expressly includes the earlier repeal condition.",
+      "apply": false
+    },
+    {
+      "id": "appling-status-qualification",
+      "moratorium_id": "ga-appling-county-2026",
+      "field": "current_status",
+      "guard_value": "Expired 2026-09-13 (40 days after the 2026-08-04 resolution). The prior researcher's claim that a follow-on 180-day resolution was moved to a Sept. 8, 2026 meeting does not hold up: the Board's own Aug. 18, 2026 called-meeting minutes show the Sept. 8 date was set only to adopt the FY2027 millage-rate roll-back, not a data-center item, and that meeting was in fact rescheduled to a Sept. 17, 2026 called meeting whose two agendas cover only the millage rate and county/school tax levies -- no moratorium item on either. The official combined minutes for the county's only other August meetings (the Aug. 4 regular meeting and the Aug. 18 budget workshop) likewise contain no motion or vote enacting, extending, or discussing a data-center moratorium beyond the original resolution's own text. No extension, replacement, or new moratorium was found through the county's most recently posted agenda (Sept. 17, 2026), 4 days after the 40-day term ran out.",
+      "proposed_value": "Original 40-day emergency moratorium adopted 2026-08-04, subject to early termination; later status unresolved pending verification of reported extension and subsequent actions.",
+      "source_refs": [
+        {
+          "source": "appling_signed",
+          "lines": [
+            104,
+            121
+          ]
+        },
+        {
+          "source": "appling_report",
+          "lines": [
+            1,
+            4
+          ]
+        },
+        {
+          "source": "appling_draft",
+          "lines": [
+            1,
+            21
+          ]
+        }
+      ],
+      "basis": "An undated secondary report asserts extension approval; it does not establish operative extension, but contradicts categorical no-extension certainty.",
+      "apply": false
+    },
+    {
+      "id": "appling-bucket-review",
+      "moratorium_id": "ga-appling-county-2026",
+      "field": "enacted_status",
+      "guard_value": "expired",
+      "proposed_value": null,
+      "basis": "Do not substitute a categorical status until extension and current force are independently adjudicated; no asserted replacement bucket.",
+      "source_refs": [
+        {
+          "source": "appling_signed",
+          "lines": [
+            104,
+            121
+          ]
+        },
+        {
+          "source": "appling_report",
+          "lines": [
+            1,
+            4
+          ]
+        }
+      ],
+      "apply": false
+    }
+  ],
+  "scope_note": "This completes only the four-record assessment subdivision, not the 12-row/312-field or 1,772-record scope. No proposals applied."
+}

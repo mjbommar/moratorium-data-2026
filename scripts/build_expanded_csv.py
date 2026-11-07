@@ -78,10 +78,10 @@ def build_outputs(snapshot):
     if receipt['sha256'] != generation:
         raise ValueError('Expanded generation does not match its publication fingerprint')
     profile=receipt['plan'].get('validation_profile',{}).get('name','1.0.0')
-    if profile in ('1.0.2','1.0.3'):
+    if profile in ('1.0.2','1.0.3','1.0.4'):
         from expanded_promotion import validate_plan
         validate_plan(receipt['plan'])
-    schema_bytes = (profile_path(profile) if profile in ('1.0.2','1.0.3') else SCHEMA).read_bytes()
+    schema_bytes = (profile_path(profile) if profile in ('1.0.2','1.0.3','1.0.4') else SCHEMA).read_bytes()
     schema = json.loads(schema_bytes)
     records = {name: [json.loads(line) for line in body.decode('utf-8').splitlines()]
                for name, body in raw.items()}
@@ -89,7 +89,7 @@ def build_outputs(snapshot):
     files = {}
     views = [(name, name, records[name],name,None) for name in IDS]
     views.append(('measure_results_current', 'measure_results', current_results(records['measure_results']),'measure_results',None))
-    if profile in ('1.0.2','1.0.3'):
+    if profile in ('1.0.2','1.0.3','1.0.4'):
         from instrument_event_maintenance import inspect
         state=inspect({name:{r[IDS[name]]:r for r in values} for name,values in records.items()})
         views.append(('instrument_events_current','instrument_events',state['current_events'],'instrument_events',None))
@@ -113,7 +113,7 @@ def build_outputs(snapshot):
                 'scope': 'Derived convenience views, not authoritative records or new evidence acceptance. '
                          'JSONL preserves null versus empty strings and absent fields. Current results '
                          'exclude explicitly superseded observations only; separate reporting scopes are retained.'}
-    if profile in ('1.0.2','1.0.3'):
+    if profile in ('1.0.2','1.0.3','1.0.4'):
         manifest['validation_profile']=receipt['plan']['validation_profile']
         manifest['source_table_snapshot_sha256']=generation
         manifest['event_views']={'retained':'instrument_events.csv','current_accepted':'instrument_events_current.csv','status':'instrument_event_status.csv','meaning':'Review-state acceptance, not current legal force. Retained rows include withdrawn history.'}

@@ -1,0 +1,11 @@
+# Policy succession events (profile 1.0.4)
+
+Profile 1.0.4 is provisional until published. A `policy_successor_adopted` event describes one directed relationship: `instrument` identifies the adopted successor and `related_instrument.instrument` identifies one predecessor, with `relation` fixed to `policy_predecessor`. Record a separate event for each predecessor. The occurrence is the successor's adoption date at day precision. The required qualification is: “Policy succession does not establish formal termination, overlap, or current force.” An event does not update legal status, establish repeal, or infer a ballot link.
+
+A current accepted relation must refer to existing instruments and cannot link an identity to itself. Restriction references are resolved through the publication's pinned expanded identity registry; an ambiguous split fails closed and merged identities cannot form a self-link. Historical withdrawn events retain their original bytes and are reviewed under their historical registry and validity decisions. Legacy moratorium alias resolution is handled by the domain validator. No identity merge or legal conclusion is inferred from a succession event.
+
+## Manual source review
+
+`scripts/extract_domain_candidates.py` remains pinned to profile 1.0.3 and does not extract instrument events. A reviewer must locate and retain appropriate source versions, establish from the source which act is the successor, which is the predecessor, and the adoption date, and assess source rights and identity allocation. Prepare one exact event claim containing the successor, action, date and full related object, with source proof, accepted claim and field decisions, validity review, and complete publication reviews under the existing promotion contract. The evidence checker binds retained bytes and locates quotes; it does not determine semantic entailment or current legal force. Ambiguous source interpretation stays unresolved until reviewed.
+
+Schemas 1.0.0 through 1.0.3 and historical receipts remain unchanged. Once 1.0.4 has been published, later publications cannot downgrade to an earlier profile. CSV generation pins exporter bytes: integration must retain historical generations and generate a new projection before building and verifying the actual portable public release bundle.

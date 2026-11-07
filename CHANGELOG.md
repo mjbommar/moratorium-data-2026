@@ -2,6 +2,29 @@
 
 ## 2026-11-07 — current working snapshot (unreleased)
 
+[Profile 1.0.4 support](docs/policy-succession-contract.md) adds a typed, qualified
+policy-succession event without inferring formal termination or current force.
+Earlier profiles and receipts remain intact; actual Coachella expanded publication
+is a separate gate. The integrated native suite passes 430 tests. The appendix
+now uses recorded sector arrays; the prior prose heuristic disagreed on 179 rows.
+This is rendering fidelity, not independent verification of all sector facts.
+
+The [second Georgia subdivision](work/research/2026-11-07/georgia-second-four-field-review/README.md)
+corrects Banks County's original 30-day term and August 11 adoption date while
+qualifying later extension claims and clearing its unsupported endpoint. Ten
+authored and two derived fields change; flagged rows rise from 708 to 709.
+The appendix table now uses typed original durations and is included in normal
+regeneration/checks, preventing extension prose from becoming its displayed term.
+
+[Coachella source adjudication](work/research/2026-11-07/coachella-legacy-source-review/README.md)
+corrects ten fields and clears its unsupported endpoint. Qualified policy
+succession does not establish formal termination. The
+[first four Georgia assessments](work/research/2026-11-07/georgia-first-four-field-review/README.md)
+produce two further source corrections for Adel and Appling. Four derived
+verification fields change; flagged rows rise from 706 to 708. No headline
+classification, inventory or measure count changes, and the original-term queue
+remains 217.
+
 The [cross-sector original-term review](work/research/2026-11-07/cross-sector-term-adjudication/README.md)
 corrects Sedgwick BESS and Oshtemo solar duration fields while preserving their
 other dates and classifications. Sedgwick's source requirement is resolved;
@@ -77,7 +100,7 @@ These are inventory classifications, not independently renewed legal-force findi
 | Classified active or extended | **1079** |
 | Pending or not yet effective | **79** |
 | Ended (replaced, expired, or rescinded) | **172** |
-| Rows we still want to confirm (`[VERIFY]`) | **706** |
+| Rows we still want to confirm (`[VERIFY]`) | **709** |
 | States with at least one | **47** |
 
 Current totals remain 1,330 local records (1,079 active/extended classifications),

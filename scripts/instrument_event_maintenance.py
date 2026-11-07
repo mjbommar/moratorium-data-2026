@@ -73,8 +73,12 @@ def event_target(key): return {'table':'instrument_events','id':key}
 def claim_target(key): return {'table':'claims','id':key}
 
 
+def event_fields(event):
+    return EVENT_FIELDS + (('related_instrument',) if 'related_instrument' in event else ())
+
+
 def exact_claims(event, claims):
-    expected={f:event[f] for f in ('instrument','action','occurrence')}
+    expected={f:event[f] for f in ('instrument','action','occurrence','related_instrument') if f in event}
     return {cid for cid in event['claim_ids'] if cid in claims and
             claims[cid]['subject']==event_target(event['event_id']) and
             claims[cid]['predicate']=='instrument_event' and same(claims[cid]['value'],expected)}
@@ -92,12 +96,12 @@ def accepted_claim(index,claim,when=None):
 def accepted_event_evidence(event, claims, index, when=None):
     exact={cid for cid in exact_claims(event,claims) if accepted_claim(index,claims[cid],when)}
     require(exact,'Current event lacks accepted exact event claim')
-    for field in EVENT_FIELDS:
+    for field in event_fields(event):
         d=index.at(event_target(event['event_id']),field,when) if when else index.head(event_target(event['event_id']),field)
         if event.get(field) is None: continue
         require(d and d['disposition']=='accepted','Current event lacks field acceptance: '+field)
         require(d['claim_ids'] and all(cid in claims and accepted_claim(index,claims[cid],when) for cid in d['claim_ids']),'Field support lapsed at event review time')
-        if field in ('instrument','action','occurrence'):
+        if field in ('instrument','action','occurrence','related_instrument'):
             require(bool(exact.intersection(d['claim_ids'])),'Current event field must cite exact claim: '+field)
     return exact
 
@@ -116,7 +120,7 @@ def inspect(rows):
             exact=accepted_event_evidence(event,claims,index)
             require(bool(exact.intersection(validity['claim_ids'])),'Validity acceptance must cite accepted exact claim')
         else:
-            for field in EVENT_FIELDS:
+            for field in event_fields(event):
                 d=index.head(event_target(key),field)
                 if event.get(field) is None and d is None: continue
                 require(d and d['disposition']=='rejected','Withdrawn event requires rejected field decision: '+field)
@@ -141,7 +145,7 @@ def inspect(rows):
         if d['disposition']!='accepted': continue
         require(d['claim_ids'],'Accepted event decision needs evidence')
         live=index.head(d['target'],d['scope'])['decision_id']==d['decision_id']
-        if d['scope'] in ('instrument','action','occurrence'):
+        if d['scope'] in ('instrument','action','occurrence','related_instrument'):
             exact={cid for cid in exact_claims(events[d['target']['id']],claims) if accepted_claim(index,claims[cid],instant(d['decided_at']))}
             require(bool(exact.intersection(d['claim_ids'])),'Historical factual field lacks exact support at its own review time')
         for cid in d['claim_ids']:
@@ -156,14 +160,14 @@ def inspect(rows):
             if d['disposition']=='accepted':
                 exact={cid for cid in exact_claims(event,claims) if accepted_claim(index,claims[cid],when)}
                 require(bool(exact.intersection(d['claim_ids'])),'Historical validity lacks exact support at review time')
-                for field in EVENT_FIELDS:
+                for field in event_fields(event):
                     if event.get(field) is None:continue
                     f=index.at(event_target(key),field,when)
                     require(f and f['disposition']=='accepted','Historical validity lacks accepted field at review time')
-                    if field in ('instrument','action','occurrence'):
+                    if field in ('instrument','action','occurrence','related_instrument'):
                         require(bool(exact.intersection(f['claim_ids'])),'Historical event field must cite exact support')
             elif d['disposition']=='rejected':
-                for field in EVENT_FIELDS:
+                for field in event_fields(event):
                     if event.get(field) is None:continue
                     f=index.at(event_target(key),field,when)
                     require(f and f['disposition']=='rejected','Historical withdrawal has dangling field acceptance')
@@ -189,7 +193,7 @@ def inspect(rows):
                 exact=accepted_event_evidence(event,claims,index,when)
                 require(bool(exact.intersection(validity['claim_ids'])),'Validity support lapsed between transitions')
             else:
-                for field in EVENT_FIELDS:
+                for field in event_fields(event):
                     f=index.at(event_target(key),field,when)
                     if event.get(field) is None and f is None:continue
                     require(f and f['disposition']=='rejected','Withdrawn event has intermediate field acceptance')

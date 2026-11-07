@@ -17,7 +17,7 @@ State policy is tracked separately: **9 records** (9 typed bill rows) in [`state
 | Athens-Clarke County | County | 2025-12-02 | data center | ⚪ Replaced |
 | Augusta-Richmond County | County | 2026-06-02 | data center | ⚪ Replaced |
 | Ball Ground | City | 2026-08-13 | data center | 🟢 Active |
-| Banks County | County | 2026-08 | data center | 🟢 Extended |
+| Banks County | County | 2026-08-11 | data center | 🟢 Extended |
 | Bloomingdale | City | 2026-08-20 | data center | 🟢 Active |
 | Brooks County | County | 2026-02-02 | data center | 🟢 Extended |
 | Bulloch County | County | 2026-02-17 | data center | 🟢 Extended |
@@ -91,7 +91,7 @@ State policy is tracked separately: **9 records** (9 typed bill rows) in [`state
 - **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-07-06
 - **Normalized date:** `2026-07-06` (exact)
-- **Duration:** 180 days
+- **Duration:** 180 days, or until repealed by act of Mayor and Council, whichever is sooner
 - **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `ga-adel-cook-county-2026`
@@ -130,7 +130,7 @@ State policy is tracked separately: **9 records** (9 typed bill rows) in [`state
 - **Legal basis:** Appling County Board of Commissioners Resolution declaring a temporary 40-day emergency moratorium on data center facilities (electrical permits, conditional use permits, development permits, site plans, building permits) in unincorporated Appling County
 - **What prompted it:** County code, development regulations and zoning do not address data center facilities
 - **Affected projects:** None named
-- **Detailed status:** Expired 2026-09-13 (40 days after the 2026-08-04 resolution). The prior researcher's claim that a follow-on 180-day resolution was moved to a Sept. 8, 2026 meeting does not hold up: the Board's own Aug. 18, 2026 called-meeting minutes show the Sept. 8 date was set only to adopt the FY2027 millage-rate roll-back, not a data-center item, and that meeting was in fact rescheduled to a Sept. 17, 2026 called meeting whose two agendas cover only the millage rate and county/school tax levies -- no moratorium item on either. The official combined minutes for the county's only other August meetings (the Aug. 4 regular meeting and the Aug. 18 budget workshop) likewise contain no motion or vote enacting, extending, or discussing a data-center moratorium beyond the original resolution's own text. No extension, replacement, or new moratorium was found through the county's most recently posted agenda (Sept. 17, 2026), 4 days after the 40-day term ran out.
+- **Detailed status:** Original 40-day emergency moratorium adopted August 4, 2026, subject to earlier action. A retained automated meeting recap reports an extension, but its date, instrument and vote require primary verification; the county-hosted 180-day extension text has blank adoption and signature lines. Operative extension and later actions remain unverified. The legacy expired bucket is retained as a prior original-term classification pending lifecycle reconciliation, not a current-force finding. [VERIFY]
 - **Outcome:** Commissioners adopted a 40-day emergency moratorium on data center approvals pending code revisions.
 
 ### Athens-Clarke County
@@ -185,17 +185,17 @@ State policy is tracked separately: **9 records** (9 typed bill rows) in [`state
 
 - **Type:** County
 - **Recorded status:** 🟢 Extended
-- **Date enacted:** Banks County Board of Commissioners approved a data center moratorium in August 2026 (reported 2026-08-16); extended at a September 2026 meeting through 2027-03-09
-- **Normalized date:** `2026-08` (month_only)
-- **Duration:** Initial term not stated in accessible text; extended through 2027-03-09
-- **Current end date:** `2027-03-09`
+- **Date enacted:** 2026-08-11 (official county minutes record adoption of an initial 30-day emergency moratorium); a later September extension was reported, with final instrument and operative terms unverified.
+- **Normalized date:** `2026-08-11` (exact)
+- **Duration:** Initial 30-day emergency moratorium adopted August 11, 2026; September reporting describes a later extension through March 9, with the endpoint year and operative terms unverified.
+- **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `ga-banks-county-2026`
-- **Legal basis:** Banks County Board of Commissioners initial 30-day emergency moratorium on data center applications (August 2026, to update the county code), superseded by a 180-day moratorium; extended alongside a companion R-1 zoning moratorium at a meeting the week of 2026-09-08 through 2027-03-09
+- **Legal basis:** August 11 county minutes record a 30-day emergency moratorium on special-use applications for data centers while zoning placement and standards are considered. A later extension is reported; the alleged intermediate 180-day resolution and final extension text remain unverified.
 - **What prompted it:** Update county code to address data centers
 - **Affected projects:** None named
-- **Detailed status:** Extended as of 2026-09-23: an initial 30-day emergency moratorium (August 2026) was converted to a 180-day moratorium by resolution, then extended alongside a parallel R-1 zoning moratorium at a Board of Commissioners meeting the week of 2026-09-08, through 2027-03-09.
-- **Outcome:** Board adopted and then extended a data center moratorium while updating the county code.
+- **Detailed status:** The inherited extended classification reflects prior reporting, not an independently verified current-force finding. August 11, 2026 minutes record the initial 30-day motion; September 13 reporting describes extension through March 9 without a year in the retained passage. The alleged 180-day intermediate resolution, operative extension endpoint, later actions and present legal force remain unresolved. [VERIFY]
+- **Outcome:** Official minutes record the initial 30-day data-center moratorium vote; September reporting describes an extension. Final operative extension text and later history remain unverified.
 
 ### Bloomingdale
 

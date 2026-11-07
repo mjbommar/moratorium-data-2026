@@ -1,8 +1,8 @@
 """Generate latex/tables/moratorium-inventory-clean.tex from the inventory CSV.
 
 This is the curated longtable that appears in Appendix A. We emit one row
-per canonical inventory record, sorted by state then jurisdiction. Date uses the normalized date and uncertainty fields, duration is normalized via _common.normalize_duration,
-sector is the union of detected sectors, instrument form is heuristically
+per canonical inventory record, sorted by state then jurisdiction. Date uses the normalized date and uncertainty fields, duration uses the recorded original-term fields,
+sector uses the recorded sector array, instrument form is heuristically
 inferred from legal_basis, and status is the recorded enacted_status.
 
 The hand-curated annotations (per-row footnotes about specific bills) are
@@ -15,14 +15,13 @@ sed-style overlays after generation.
 from __future__ import annotations
 
 import re
+import json
 from datetime import date
 
 from ._common import (
     TABLES_DIR,
-    classify_all_sectors,
     latex_escape,
     load_inventory,
-    normalize_duration,
 )
 
 
@@ -45,6 +44,32 @@ def infer_form(row) -> str:
 def infer_status(row) -> str:
     """Display the recorded classification, or leave an unknown value blank."""
     return latex_escape(row.enacted_status.replace("_", " ").capitalize())
+
+
+def original_duration(row) -> str:
+    """Display original-term metadata without parsing extension prose."""
+    if row.duration_kind == "fixed_days":
+        return row.duration_days + "d" if re.fullmatch(r"[1-9][0-9]*", row.duration_days) else "Unknown"
+    return {
+        "calendar_term": "Calendar term",
+        "until_date": "Date-limited",
+        "until_event": "Event-based",
+        "indefinite": "Indef.",
+    }.get(row.duration_kind, "Unknown")
+
+
+def recorded_sectors(row) -> list[str]:
+    """Do not infer legal coverage from place names or incidental prose."""
+    labels = {"data_center": "Data Center", "cryptocurrency_mining": "Crypto",
+              "battery_storage": "BESS", "solar": "Solar", "wind": "Wind",
+              "general": "Other"}
+    try:
+        values = json.loads(row.sectors)
+    except (ValueError, TypeError):
+        return ["Unknown"]
+    if not isinstance(values, list) or not values or any(not isinstance(v, str) or v not in labels for v in values):
+        return ["Unknown"]
+    return [label for key, label in labels.items() if key in values]
 
 
 def short_date(row) -> str:
@@ -85,14 +110,14 @@ def render() -> str:
         if r.state != last_state:
             body.append(f"%% {r.state}")
             last_state = r.state
-        sectors = classify_all_sectors(r)
+        sectors = recorded_sectors(r)
         sector_str = ", ".join(sectors[:3])
         body.append(
             " & ".join([
                 latex_escape(r.jurisdiction),
                 r.state_abbrev,
                 short_date(r),
-                normalize_duration(r.duration),
+                original_duration(r),
                 latex_escape(sector_str),
                 infer_form(r),
                 infer_status(r),
@@ -111,12 +136,12 @@ def render() -> str:
 \\begin{{longtable}}{{p{{0.20\\linewidth}}p{{0.04\\linewidth}}p{{0.12\\linewidth}}p{{0.16\\linewidth}}p{{0.13\\linewidth}}p{{0.105\\linewidth}}p{{0.115\\linewidth}}}}
 \\caption{{Local Moratorium Inventory Records (working snapshot, November 5, 2026)}} \\label{{tab:moratorium-inventory}} \\\\
 \\toprule
-Jurisdiction & ST & Date & Duration & Sector & Form & Status \\\\
+Jurisdiction & ST & Date & Original duration & Sector & Form & Status \\\\
 \\midrule
 \\endfirsthead
 \\multicolumn{{7}}{{c}}{{\\tablename\\ \\thetable{{}} -- continued}} \\\\
 \\toprule
-Jurisdiction & ST & Date & Duration & Sector & Form & Status \\\\
+Jurisdiction & ST & Date & Original duration & Sector & Form & Status \\\\
 \\midrule
 \\endhead
 \\noalign{{\\vskip 2pt}}
@@ -127,7 +152,7 @@ Jurisdiction & ST & Date & Duration & Sector & Form & Status \\\\
 \\multicolumn{{7}}{{p{{0.98\\linewidth}}}}{{\\footnotesize Record-level source and status dates vary; classifications are recorded, not uniformly current.}} \\\\
 \\multicolumn{{7}}{{p{{0.98\\linewidth}}}}{{\\footnotesize Dates: year/month precision; ? means unverified; Range means unresolved interval; blank means unknown.}} \\\\
 \\multicolumn{{7}}{{p{{0.98\\linewidth}}}}{{\\footnotesize Source: data/moratorium\\_inventory.csv; all canonical rows, including proposals and unresolved aggregate/compound/duplicate identities.}} \\\\
-\\multicolumn{{7}}{{p{{0.98\\linewidth}}}}{{\\footnotesize Recorded status does not establish current legal force. Sector (first three) and Form are heuristic; Duration is abbreviated. Consult the CSV and codebook.}} \\\\
+\\multicolumn{{7}}{{p{{0.98\\linewidth}}}}{{\\footnotesize Recorded status does not establish current legal force. Original duration and sectors (first three) use recorded typed fields; legacy values may remain unverified. Duration excludes extensions; calendar terms are not converted to days. Form is heuristic. Consult the CSV and codebook.}} \\\\
 \\endlastfoot
 {body_text}
 \\end{{longtable}}
@@ -135,11 +160,22 @@ Jurisdiction & ST & Date & Duration & Sector & Form & Status \\\\
 """
 
 
-def main():
+def main(check=False):
     out = TABLES_DIR / "moratorium-inventory-clean.tex"
-    out.write_text(render())
+    content = render()
+    if check:
+        if not out.exists() or out.read_text() != content:
+            print(f"Stale inventory table: {out}")
+            return 1
+        print("Inventory table matches the canonical CSV")
+        return 0
+    out.write_text(content)
     print(f"Wrote {out}")
+    return 0
 
 
 if __name__ == "__main__":
-    main()
+    import argparse
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--check", action="store_true")
+    raise SystemExit(main(check=parser.parse_args().check))

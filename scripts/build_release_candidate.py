@@ -68,7 +68,7 @@ def select_files(commit, names):
     exact.update(n for n in ['docs/compound-condition-development.md',
                               'work/schemas/condition-expression/1.0.0.json',
                               'work/schemas/extraction/1.2.0.json'] if n in names)
-    exact.update(n for n in ['docs/instrument-events.md','docs/ballot-semantic-definitions.md','docs/event-validity-publication.md','docs/event-maintenance-development.md'] if n in names)
+    exact.update(n for n in ['docs/instrument-events.md','docs/ballot-semantic-definitions.md','docs/event-validity-publication.md','docs/event-maintenance-development.md','docs/policy-succession-contract.md'] if n in names)
     compound_review='work/research/2026-11-06/compound-clause-source-review/'
     if compound_review+'selection.json' in names:
         exact.update(n for n in names if n.startswith(compound_review))

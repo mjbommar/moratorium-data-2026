@@ -2,7 +2,7 @@ import unittest
 from unittest.mock import patch
 
 from scripts.generate_tables._common import InventoryRow
-from scripts.generate_tables.inventory_clean import infer_status, render, short_date
+from scripts.generate_tables.inventory_clean import infer_status, original_duration, recorded_sectors, render, short_date
 
 
 def row(**values):
@@ -10,6 +10,36 @@ def row(**values):
 
 
 class InventoryTableTests(unittest.TestCase):
+    def test_place_name_and_incidental_prose_do_not_add_sectors(self):
+        sample = row(jurisdiction='Irwindale', trigger='Battery impacts discussed',
+                     sectors='["data_center"]')
+        self.assertEqual(recorded_sectors(sample), ['Data Center'])
+        self.assertEqual(recorded_sectors(row(sectors='["battery_storage", "solar", "general"]')),
+                         ['BESS', 'Solar', 'Other'])
+
+    def test_missing_or_invalid_sector_metadata_stays_unknown(self):
+        for value in ('', '[]', '"wind"', '["unsupported_sector"]', '[null]'):
+            with self.subTest(value=value):
+                self.assertEqual(recorded_sectors(row(trigger='data center', sectors=value)), ['Unknown'])
+
+    def test_original_term_does_not_select_extension_days(self):
+        sample = row(duration='Initial 45-day pause; extended ten months and 15 days',
+                     duration_kind='fixed_days', duration_days='45')
+        self.assertEqual(original_duration(sample), '45d')
+
+    def test_duration_metadata_preserves_units_and_uncertainty(self):
+        for kind, days, expected in [
+            ('calendar_term', '', 'Calendar term'),
+            ('unknown', '', 'Unknown'),
+            ('fixed_days', '', 'Unknown'),
+            ('fixed_days', '45.5', 'Unknown'),
+            ('until_date', '', 'Date-limited'),
+            ('until_event', '', 'Event-based'),
+        ]:
+            with self.subTest(kind=kind, days=days):
+                self.assertEqual(original_duration(row(duration='180 days then another year',
+                    duration_kind=kind, duration_days=days)), expected)
+
     def test_dates_use_normalized_field_only(self):
         self.assertEqual(short_date(row(date_enacted='Ordinance 2026-47', date_enacted_iso='2026-06-15', date_enacted_uncertainty='exact')), '2026-06')
         self.assertEqual(short_date(row(date_enacted='Ordinance 2026-13', date_enacted_uncertainty='unverified')), '')

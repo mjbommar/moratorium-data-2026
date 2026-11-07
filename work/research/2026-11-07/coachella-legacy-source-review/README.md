@@ -1,0 +1,9 @@
+# Coachella legacy source adjudication
+
+After independent source/visual review, the coordinator rechecked the complete 26-field guard against main and read the city recitals and recorded second-reading motion. Applied ten authored fields and two derived verification fields. Original Ordinance 1229 has a city-recited 45-day term and June 4 adoption; extension 1230 is city-reported adopted July 8 for an additional ten months and fifteen days. The original duration is now 45 / fixed_days, not an unspecified event-based term.
+
+The August 26 meeting record and linked revised attachment support second-reading passage of the later Ordinance 1231 prohibition. The attachment remains an unsigned template. The predecessor references and study purpose support qualified policy succession, but not formal termination, overlap, exclusive replacement or present force. Remove definitive September 25 effectiveness/termination, unsupported geographic priority claims and the typed moratorium endpoint. Previously recorded Stronghold project assertions are explicitly unverified leads.
+
+The inherited replaced bucket remains a historical classification pending lifecycle reconciliation; it is not newly accepted as a termination finding, and no alternative closed-vocabulary bucket is proved here. All prose now states that limitation. The normalized original adoption date, ID, coordinates and remaining unlisted fields are preserved. Coachella was outside the 217-entry original-term requirement queue, so no item is removed. No permanent ban or ballot measure is added to the legacy moratorium census. The typed expanded restriction/history migration remains separate.
+
+See answers-local.json, before-row.json, exact-diff.json and source-review.json. Raw bodies, images and meeting transcript remain private; the source registry records retained-byte identity and source stage rather than legal authenticity or current force.

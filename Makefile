@@ -38,6 +38,7 @@ check: validate
 	$(PYTHON) scripts/build_summary_stats.py --check
 	$(PYTHON) scripts/build_geojson.py --check
 	$(PYTHON) scripts/check_docs_numbers.py
+	$(PYTHON) -m scripts.generate_tables.inventory_clean --check
 	$(PYTHON) scripts/expanded_identity.py --registry data/identities/expanded.jsonl --check
 	$(PYTHON) scripts/check_expanded_publication.py
 	$(PYTHON) scripts/build_ballot_summary.py --check
@@ -82,6 +83,7 @@ apply:
 data:
 	$(PYTHON) scripts/build_summary_stats.py
 	$(PYTHON) scripts/build_geojson.py
+	$(PYTHON) -m scripts.generate_tables.inventory_clean
 	$(PYTHON) scripts/build_ballot_summary.py
 	$(PYTHON) scripts/build_expanded_csv.py
 

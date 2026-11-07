@@ -1,0 +1,1794 @@
+{
+  "status": "104 field assessments complete; substantive legal review unresolved",
+  "target_date": "2026-11-07",
+  "assignment": {
+    "path": "/data0/moratorium-refresh-2026/full-scope-closeout-2026-11-07/next/ga-four-field-review-03/assigned-guards.private.json",
+    "sha256": "0784a7e47af817ddf9f41c333abe77fa46c604530bc58502ff12ec819d7d3e17"
+  },
+  "current_csv": {
+    "path": "/home/mjbommar/projects/personal/moratorium-data-2026/data/moratorium_inventory.csv",
+    "sha256": "a033cbc552af7cb06e5f551a0287a31151ab8e22292e03d85ab877e5ea156fd6",
+    "guard_comparisons": 104,
+    "matches": 104
+  },
+  "source_registry": "source-registry.private.json",
+  "disposition_counts": {
+    "qualified": 35,
+    "dataset_derived": 25,
+    "supported": 15,
+    "unsupported": 18,
+    "no_coordinate_provenance": 8,
+    "unresolved": 3
+  },
+  "records": [
+    {
+      "moratorium_id": "ga-brooks-county-2026",
+      "guard_match_current_csv": true,
+      "overall": "unresolved; field assessments complete, current force and independent review remain open",
+      "fields": {
+        "state": {
+          "value": "Georgia",
+          "source_refs": [
+            {
+              "source_id": "brooks",
+              "lines": [
+                157,
+                181
+              ],
+              "proof_span_sha256": "044d0251735e98ae7a5c4b8dd5d68d91dce0ec4745fc5d720ee829a415022e02"
+            }
+          ],
+          "disposition": "qualified",
+          "reason": "Georgia is consistent with source jurisdiction context; the cited action span does not independently establish the state.",
+          "next_requirement": "Confirm jurisdiction-to-state mapping using authoritative jurisdiction source."
+        },
+        "state_abbrev": {
+          "value": "GA",
+          "source_refs": [
+            {
+              "source_id": "codebook",
+              "lines": [
+                16,
+                16
+              ],
+              "proof_span_sha256": "3304fadd7a7bb492c11dac225fbf0e64f951c3c19030b0bcdfc28175d107a7a4"
+            }
+          ],
+          "disposition": "dataset_derived",
+          "reason": "GA is the dataset abbreviation for Georgia; this is a coding value, not a source assertion."
+        },
+        "jurisdiction": {
+          "value": "Brooks County",
+          "source_refs": [
+            {
+              "source_id": "brooks",
+              "lines": [
+                1,
+                5
+              ],
+              "proof_span_sha256": "3a8d8a5588115d828ea93bae55d51cce4bb664e475c3e82cd2527a5c7f4c8b14"
+            }
+          ],
+          "disposition": "supported",
+          "reason": "County minutes name Brooks County and the Board."
+        },
+        "jurisdiction_type": {
+          "value": "County",
+          "source_refs": [
+            {
+              "source_id": "brooks",
+              "lines": [
+                157,
+                181
+              ],
+              "proof_span_sha256": "044d0251735e98ae7a5c4b8dd5d68d91dce0ec4745fc5d720ee829a415022e02"
+            }
+          ],
+          "disposition": "supported",
+          "reason": "Source identifies a county board or county government."
+        },
+        "date_enacted": {
+          "value": "2026-02-02",
+          "source_refs": [
+            {
+              "source_id": "brooks",
+              "lines": [
+                157,
+                181
+              ],
+              "proof_span_sha256": "044d0251735e98ae7a5c4b8dd5d68d91dce0ec4745fc5d720ee829a415022e02"
+            }
+          ],
+          "disposition": "unsupported",
+          "reason": "July minutes do not establish February 2 original adoption.",
+          "next_requirement": "Obtain February 2 adopted resolution and meeting record."
+        },
+        "duration": {
+          "value": "Original 90-day term (to 2026-05-02) extended by Board action (FA040-2026, 2026-05-04); per the July 6, 2026 regular-meeting minutes the moratorium remains in effect until 2026-12-31.",
+          "source_refs": [
+            {
+              "source_id": "brooks",
+              "lines": [
+                157,
+                181
+              ],
+              "proof_span_sha256": "044d0251735e98ae7a5c4b8dd5d68d91dce0ec4745fc5d720ee829a415022e02"
+            }
+          ],
+          "disposition": "qualified",
+          "reason": "July minutes state December 31; initial 90 days, May 4 extension and exact initial endpoint are not established by this span.",
+          "next_requirement": "Obtain original and FA040-2026 action; check endpoint conventions and later instruments."
+        },
+        "legal_basis": {
+          "value": "Resolution 26-R-01",
+          "source_refs": [
+            {
+              "source_id": "brooks",
+              "lines": [
+                157,
+                181
+              ],
+              "proof_span_sha256": "044d0251735e98ae7a5c4b8dd5d68d91dce0ec4745fc5d720ee829a415022e02"
+            }
+          ],
+          "disposition": "unsupported",
+          "reason": "Resolution 26-R-01 is not identified in the reviewed minutes.",
+          "next_requirement": "Obtain signed original resolution and adoption record."
+        },
+        "trigger": {
+          "value": "County wanted fact-finding time on safety concerns and regulation of data center facilities",
+          "source_refs": [
+            {
+              "source_id": "brooks",
+              "lines": [
+                157,
+                181
+              ],
+              "proof_span_sha256": "044d0251735e98ae7a5c4b8dd5d68d91dce0ec4745fc5d720ee829a415022e02"
+            }
+          ],
+          "disposition": "unsupported",
+          "reason": "July drafting discussion lists zoning, cooling and other issues but does not establish the original safety and regulatory motivations.",
+          "next_requirement": "Inspect original resolution recitals and contemporaneous proceedings."
+        },
+        "current_status": {
+          "value": "Active/extended as of 2026-09-23; July 6, 2026 Board minutes (item FA068-2026, Data Center Ordinance) state the moratorium remains in effect until 2026-12-31 while a five-member committee (including two commissioners) drafts a permanent data center ordinance; a committee-creation item was on the July 27 work session. No ordinance adoption appears in the August 3 or August 31 minutes or the September 8 agenda.",
+          "source_refs": [
+            {
+              "source_id": "brooks",
+              "lines": [
+                157,
+                181
+              ],
+              "proof_span_sha256": "044d0251735e98ae7a5c4b8dd5d68d91dce0ec4745fc5d720ee829a415022e02"
+            }
+          ],
+          "disposition": "qualified",
+          "reason": "July minutes report December 31 and describe a prospective five-person committee; September 23 force and later agenda/minutes claims remain unverified.",
+          "next_requirement": "Inspect July 27, August and September records, extension text and actions through November 7."
+        },
+        "affected_projects": {
+          "value": "No specific project identified in captured records",
+          "source_refs": [
+            {
+              "source_id": "brooks",
+              "lines": [
+                157,
+                181
+              ],
+              "proof_span_sha256": "044d0251735e98ae7a5c4b8dd5d68d91dce0ec4745fc5d720ee829a415022e02"
+            }
+          ],
+          "disposition": "unsupported",
+          "reason": "The July excerpt does not identify projects; that does not establish that none were identified in all captured records.",
+          "next_requirement": "Review contemporaneous applications and retained meeting reports."
+        },
+        "outcome": {
+          "value": "Study/drafting period ongoing as of 2026-06-29; Board directed staff to draft specific criteria for a permanent data center ordinance, teed up for the July 6, 2026 meeting. Final adoption status not confirmed as of 2026-07-31.",
+          "source_refs": [
+            {
+              "source_id": "brooks",
+              "lines": [
+                157,
+                181
+              ],
+              "proof_span_sha256": "044d0251735e98ae7a5c4b8dd5d68d91dce0ec4745fc5d720ee829a415022e02"
+            }
+          ],
+          "disposition": "qualified",
+          "reason": "July minutes discuss drafting and a committee, but the specific June 29 direction and July 31 adoption status are not established.",
+          "next_requirement": "Inspect June 29 proceedings and ordinance actions through the target date."
+        },
+        "has_verify_tags": {
+          "value": "False",
+          "source_refs": [
+            {
+              "source_id": "codebook",
+              "lines": [
+                26,
+                26
+              ],
+              "proof_span_sha256": "8ee63e8603f55e2fc82c2e3e74ae506a048b5962f3f30c9521eca9827633b338"
+            }
+          ],
+          "disposition": "dataset_derived",
+          "reason": "Boolean is a row annotation; it does not verify any policy fact.",
+          "next_requirement": "Recompute under dataset marker-count rules if row text changes."
+        },
+        "verify_count": {
+          "value": "0",
+          "source_refs": [
+            {
+              "source_id": "codebook",
+              "lines": [
+                27,
+                27
+              ],
+              "proof_span_sha256": "2da300239b0ddaffbeb8d73d8982b309716c3665ba973582a1abd06d6ccea0aa"
+            }
+          ],
+          "disposition": "dataset_derived",
+          "reason": "Count is a dataset annotation, not an evidentiary confidence score.",
+          "next_requirement": "Recompute under dataset marker-count rules if row text changes."
+        },
+        "cite_count": {
+          "value": "0",
+          "source_refs": [
+            {
+              "source_id": "codebook",
+              "lines": [
+                28,
+                28
+              ],
+              "proof_span_sha256": "8a3af252a9898ffbd57fe38086f57cbf713529dd9383c9192fbd913c09bc5db4"
+            }
+          ],
+          "disposition": "dataset_derived",
+          "reason": "Legacy count describes citation markers in the row, not retained external evidence.",
+          "next_requirement": "Recompute under dataset marker-count rules if row text changes."
+        },
+        "activity_level": {
+          "value": "High",
+          "source_refs": [
+            {
+              "source_id": "codebook",
+              "lines": [
+                29,
+                29
+              ],
+              "proof_span_sha256": "2b475ce50240078424fef2ace12ed7c517eb357729026350f548df989cdcf75f"
+            }
+          ],
+          "disposition": "dataset_derived",
+          "reason": "High is the state-wide dataset classification, not a determination of this particular moratorium\u2019s force.",
+          "next_requirement": "Audit statewide classification separately if required."
+        },
+        "enacted_status": {
+          "value": "extended",
+          "source_refs": [
+            {
+              "source_id": "brooks",
+              "lines": [
+                157,
+                181
+              ],
+              "proof_span_sha256": "044d0251735e98ae7a5c4b8dd5d68d91dce0ec4745fc5d720ee829a415022e02"
+            }
+          ],
+          "disposition": "qualified",
+          "reason": "July minutes describe a moratorium until December 31; the original and extension sequence and present force are not verified.",
+          "next_requirement": "Inspect adopted extension and subsequent actions."
+        },
+        "moratorium_id": {
+          "value": "ga-brooks-county-2026",
+          "source_refs": [
+            {
+              "source_id": "codebook",
+              "lines": [
+                31,
+                31
+              ],
+              "proof_span_sha256": "40c9b1c135d6137b761389237a3196fd3866f3f1b49b5b2ca5c2ed749fe23a4d"
+            }
+          ],
+          "disposition": "dataset_derived",
+          "reason": "Stable dataset join key; its slug and year are not independent proof of identity or adoption date."
+        },
+        "latitude": {
+          "value": "30.833656",
+          "source_refs": [
+            {
+              "source_id": "codebook",
+              "lines": [
+                32,
+                32
+              ],
+              "proof_span_sha256": "cc40d3e16fb54bc54fa2f9383b16ef7c629551443e9f64dafad7800f4d441079"
+            }
+          ],
+          "disposition": "no_coordinate_provenance",
+          "reason": "The latitude value is an assigned centroid coordinate; no geocoder result, geometry or calculation was retained in reviewed sources.",
+          "next_requirement": "Recover source geocoder response or independently calculate from authoritative jurisdiction boundary and record method."
+        },
+        "longitude": {
+          "value": "-83.595839",
+          "source_refs": [
+            {
+              "source_id": "codebook",
+              "lines": [
+                33,
+                33
+              ],
+              "proof_span_sha256": "59bd77821bf6cab1df990d328edbe9ad1c0bcdbdeb6de6dce699856e5c2385b7"
+            }
+          ],
+          "disposition": "no_coordinate_provenance",
+          "reason": "The longitude value is an assigned centroid coordinate; no geocoder result, geometry or calculation was retained in reviewed sources.",
+          "next_requirement": "Recover source geocoder response or independently calculate from authoritative jurisdiction boundary and record method."
+        },
+        "date_enacted_iso": {
+          "value": "2026-02-02",
+          "source_refs": [
+            {
+              "source_id": "brooks",
+              "lines": [
+                157,
+                181
+              ],
+              "proof_span_sha256": "044d0251735e98ae7a5c4b8dd5d68d91dce0ec4745fc5d720ee829a415022e02"
+            }
+          ],
+          "disposition": "unsupported",
+          "reason": "February 2 original vote is not shown in July minutes.",
+          "next_requirement": "Obtain original adopted instrument and minutes."
+        },
+        "date_enacted_uncertainty": {
+          "value": "exact",
+          "source_refs": [
+            {
+              "source_id": "brooks",
+              "lines": [
+                157,
+                181
+              ],
+              "proof_span_sha256": "044d0251735e98ae7a5c4b8dd5d68d91dce0ec4745fc5d720ee829a415022e02"
+            }
+          ],
+          "disposition": "unsupported",
+          "reason": "Exactness depends on an independently established original adoption date.",
+          "next_requirement": "Verify original vote date."
+        },
+        "duration_days": {
+          "value": "90",
+          "source_refs": [
+            {
+              "source_id": "brooks",
+              "lines": [
+                157,
+                181
+              ],
+              "proof_span_sha256": "044d0251735e98ae7a5c4b8dd5d68d91dce0ec4745fc5d720ee829a415022e02"
+            }
+          ],
+          "disposition": "unsupported",
+          "reason": "Original 90-day term is not established in the July excerpt.",
+          "next_requirement": "Obtain original resolution."
+        },
+        "duration_kind": {
+          "value": "fixed_days",
+          "source_refs": [
+            {
+              "source_id": "brooks",
+              "lines": [
+                157,
+                181
+              ],
+              "proof_span_sha256": "044d0251735e98ae7a5c4b8dd5d68d91dce0ec4745fc5d720ee829a415022e02"
+            },
+            {
+              "source_id": "codebook",
+              "lines": [
+                37,
+                37
+              ],
+              "proof_span_sha256": "9e8a13080f0d29f7b3bb0a09b9131fe10f0e675253b9aaffc1998e1326261b0a"
+            }
+          ],
+          "disposition": "unsupported",
+          "reason": "Fixed-days classification depends on the unverified original 90-day term; a stated later endpoint is distinct.",
+          "next_requirement": "Inspect original term and classify under codebook."
+        },
+        "current_end_date_iso": {
+          "value": "2026-12-31",
+          "source_refs": [
+            {
+              "source_id": "brooks",
+              "lines": [
+                157,
+                181
+              ],
+              "proof_span_sha256": "044d0251735e98ae7a5c4b8dd5d68d91dce0ec4745fc5d720ee829a415022e02"
+            }
+          ],
+          "disposition": "qualified",
+          "reason": "July 6 minutes say December 31; 2026 follows meeting context but later operative changes are not excluded.",
+          "next_requirement": "Obtain extension text and action history through November 7."
+        },
+        "sectors": {
+          "value": "[\"data_center\"]",
+          "source_refs": [
+            {
+              "source_id": "brooks",
+              "lines": [
+                157,
+                181
+              ],
+              "proof_span_sha256": "044d0251735e98ae7a5c4b8dd5d68d91dce0ec4745fc5d720ee829a415022e02"
+            }
+          ],
+          "disposition": "supported",
+          "reason": "July minutes expressly identify a data center moratorium."
+        },
+        "trigger_categories": {
+          "value": "[\"regulatory_gap\", \"fire_safety\", \"land_use_compatibility\"]",
+          "source_refs": [
+            {
+              "source_id": "brooks",
+              "lines": [
+                157,
+                181
+              ],
+              "proof_span_sha256": "044d0251735e98ae7a5c4b8dd5d68d91dce0ec4745fc5d720ee829a415022e02"
+            }
+          ],
+          "disposition": "unsupported",
+          "reason": "The regulatory, fire and compatibility categories have not been tied to the original adoption reasons; July discussion alone does not establish them.",
+          "next_requirement": "Inspect original recitals and adoption discussion."
+        }
+      }
+    },
+    {
+      "moratorium_id": "ga-bulloch-county-2026",
+      "guard_match_current_csv": true,
+      "overall": "unresolved; field assessments complete, current force and independent review remain open",
+      "fields": {
+        "state": {
+          "value": "Georgia",
+          "source_refs": [
+            {
+              "source_id": "bulloch",
+              "lines": [
+                19,
+                23
+              ],
+              "proof_span_sha256": "7a057a3177010e5073b71617fde2b89d9ecf18c6c26387d6d2c844d8d213bde1"
+            }
+          ],
+          "disposition": "qualified",
+          "reason": "Georgia is consistent with source jurisdiction context; the cited action span does not independently establish the state.",
+          "next_requirement": "Confirm jurisdiction-to-state mapping using authoritative jurisdiction source."
+        },
+        "state_abbrev": {
+          "value": "GA",
+          "source_refs": [
+            {
+              "source_id": "codebook",
+              "lines": [
+                16,
+                16
+              ],
+              "proof_span_sha256": "3304fadd7a7bb492c11dac225fbf0e64f951c3c19030b0bcdfc28175d107a7a4"
+            }
+          ],
+          "disposition": "dataset_derived",
+          "reason": "GA is the dataset abbreviation for Georgia; this is a coding value, not a source assertion."
+        },
+        "jurisdiction": {
+          "value": "Bulloch County",
+          "source_refs": [
+            {
+              "source_id": "bulloch",
+              "lines": [
+                19,
+                23
+              ],
+              "proof_span_sha256": "7a057a3177010e5073b71617fde2b89d9ecf18c6c26387d6d2c844d8d213bde1"
+            }
+          ],
+          "disposition": "supported",
+          "reason": "Reporting identifies Bulloch County and its county board."
+        },
+        "jurisdiction_type": {
+          "value": "County",
+          "source_refs": [
+            {
+              "source_id": "bulloch",
+              "lines": [
+                19,
+                23
+              ],
+              "proof_span_sha256": "7a057a3177010e5073b71617fde2b89d9ecf18c6c26387d6d2c844d8d213bde1"
+            }
+          ],
+          "disposition": "supported",
+          "reason": "Source identifies a county board or county government."
+        },
+        "date_enacted": {
+          "value": "2026-02-17",
+          "source_refs": [
+            {
+              "source_id": "carroll",
+              "lines": [
+                25,
+                25
+              ],
+              "proof_span_sha256": "9d62a782f338c9c14d85c61d4cc34b680f7750d417a47bb436220eae6f6570f9"
+            }
+          ],
+          "disposition": "qualified",
+          "reason": "A separate county resolution reproduction recites a February 17, 2026 Bulloch 90-day moratorium; it is not the Bulloch instrument.",
+          "next_requirement": "Obtain Bulloch original and approved minutes."
+        },
+        "duration": {
+          "value": "Extended to Dec. 31, 2026 (from the original 90-day term) per the May 5, 2026 vote, unless the Board acts sooner.",
+          "source_refs": [
+            {
+              "source_id": "carroll",
+              "lines": [
+                25,
+                25
+              ],
+              "proof_span_sha256": "9d62a782f338c9c14d85c61d4cc34b680f7750d417a47bb436220eae6f6570f9"
+            },
+            {
+              "source_id": "bulloch",
+              "lines": [
+                19,
+                23
+              ],
+              "proof_span_sha256": "7a057a3177010e5073b71617fde2b89d9ecf18c6c26387d6d2c844d8d213bde1"
+            }
+          ],
+          "disposition": "qualified",
+          "reason": "The independent recital says original 90 days and later reporting says scheduled December 31; the May 5 action and earlier-lift condition are unverified.",
+          "next_requirement": "Obtain original and May 5 extension and later actions."
+        },
+        "legal_basis": {
+          "value": "Bulloch County Board of Commissioners resolution adopted 2026-02-17 [VERIFY: news reporting (WJCL) confirms board action; resolution number not located on county website as of 2026-04-29]",
+          "source_refs": [
+            {
+              "source_id": "carroll",
+              "lines": [
+                25,
+                25
+              ],
+              "proof_span_sha256": "9d62a782f338c9c14d85c61d4cc34b680f7750d417a47bb436220eae6f6570f9"
+            }
+          ],
+          "disposition": "qualified",
+          "reason": "A 90-day Bulloch moratorium is recited by another county; specific board resolution and unlocated number remain unverified.",
+          "next_requirement": "Obtain executed original and adoption minutes."
+        },
+        "trigger": {
+          "value": "Data centers were not listed as permitted or conditional uses; county sought time to decide whether to prohibit or regulate them",
+          "source_refs": [
+            {
+              "source_id": "bulloch",
+              "lines": [
+                19,
+                23
+              ],
+              "proof_span_sha256": "7a057a3177010e5073b71617fde2b89d9ecf18c6c26387d6d2c844d8d213bde1"
+            }
+          ],
+          "disposition": "unsupported",
+          "reason": "No reviewed source establishes that uses were unlisted or that a ban-versus-regulation decision motivated initial adoption.",
+          "next_requirement": "Inspect original zoning text, resolution recitals and February proceedings."
+        },
+        "current_status": {
+          "value": "Active as of 2026-09-23; moratorium remains in effect through Dec. 31, 2026. The proposed outright ban text amendment (tabled 3-2 on Aug. 4, 2026) was brought back and rejected 4-3 (with Chairman David Bennett's tiebreaker vote) at the Sept. 1-2, 2026 meeting, leaving the existing moratorium in place. The Board separately voted 6-0 to establish a 21-member 'Working Group on Data Centers,' with commissioner nominees due by the Sept. 15, 2026 meeting.",
+          "source_refs": [
+            {
+              "source_id": "bulloch",
+              "lines": [
+                19,
+                23
+              ],
+              "proof_span_sha256": "7a057a3177010e5073b71617fde2b89d9ecf18c6c26387d6d2c844d8d213bde1"
+            },
+            {
+              "source_id": "bulloch",
+              "lines": [
+                51,
+                55
+              ],
+              "proof_span_sha256": "4ed97a6d15515c69fd493ec0723101d36cf3ffc6209c6770b045b60e6d99abda"
+            }
+          ],
+          "disposition": "qualified",
+          "reason": "Later reporting says prior extensions and a December 31 scheduled end; the September vote counts and 21-member creation action are not established here. A later committee request is not a board extension.",
+          "next_requirement": "Obtain September board minutes, extension instruments and subsequent board actions."
+        },
+        "affected_projects": {
+          "value": "No imminent deal identified by county chair",
+          "source_refs": [
+            {
+              "source_id": "bulloch",
+              "lines": [
+                19,
+                23
+              ],
+              "proof_span_sha256": "7a057a3177010e5073b71617fde2b89d9ecf18c6c26387d6d2c844d8d213bde1"
+            }
+          ],
+          "disposition": "unsupported",
+          "reason": "The reviewed report does not establish the county chair\u2019s statement about an imminent deal.",
+          "next_requirement": "Locate the attributed chair statement and project records."
+        },
+        "outcome": {
+          "value": "County study and potential zoning clarification",
+          "source_refs": [
+            {
+              "source_id": "bulloch",
+              "lines": [
+                19,
+                23
+              ],
+              "proof_span_sha256": "7a057a3177010e5073b71617fde2b89d9ecf18c6c26387d6d2c844d8d213bde1"
+            }
+          ],
+          "disposition": "qualified",
+          "reason": "Reporting describes a committee mandate to evaluate impacts and make recommendations about a draft zoning resolution.",
+          "next_requirement": "Obtain committee and board records to determine any adopted zoning outcome."
+        },
+        "has_verify_tags": {
+          "value": "True",
+          "source_refs": [
+            {
+              "source_id": "codebook",
+              "lines": [
+                26,
+                26
+              ],
+              "proof_span_sha256": "8ee63e8603f55e2fc82c2e3e74ae506a048b5962f3f30c9521eca9827633b338"
+            }
+          ],
+          "disposition": "dataset_derived",
+          "reason": "Boolean is a row annotation; it does not verify any policy fact.",
+          "next_requirement": "Recompute under dataset marker-count rules if row text changes."
+        },
+        "verify_count": {
+          "value": "1",
+          "source_refs": [
+            {
+              "source_id": "codebook",
+              "lines": [
+                27,
+                27
+              ],
+              "proof_span_sha256": "2da300239b0ddaffbeb8d73d8982b309716c3665ba973582a1abd06d6ccea0aa"
+            }
+          ],
+          "disposition": "dataset_derived",
+          "reason": "Count is a dataset annotation, not an evidentiary confidence score.",
+          "next_requirement": "Recompute under dataset marker-count rules if row text changes."
+        },
+        "cite_count": {
+          "value": "0",
+          "source_refs": [
+            {
+              "source_id": "codebook",
+              "lines": [
+                28,
+                28
+              ],
+              "proof_span_sha256": "8a3af252a9898ffbd57fe38086f57cbf713529dd9383c9192fbd913c09bc5db4"
+            }
+          ],
+          "disposition": "dataset_derived",
+          "reason": "Legacy count describes citation markers in the row, not retained external evidence.",
+          "next_requirement": "Recompute under dataset marker-count rules if row text changes."
+        },
+        "activity_level": {
+          "value": "High",
+          "source_refs": [
+            {
+              "source_id": "codebook",
+              "lines": [
+                29,
+                29
+              ],
+              "proof_span_sha256": "2b475ce50240078424fef2ace12ed7c517eb357729026350f548df989cdcf75f"
+            }
+          ],
+          "disposition": "dataset_derived",
+          "reason": "High is the state-wide dataset classification, not a determination of this particular moratorium\u2019s force.",
+          "next_requirement": "Audit statewide classification separately if required."
+        },
+        "enacted_status": {
+          "value": "extended",
+          "source_refs": [
+            {
+              "source_id": "bulloch",
+              "lines": [
+                19,
+                23
+              ],
+              "proof_span_sha256": "7a057a3177010e5073b71617fde2b89d9ecf18c6c26387d6d2c844d8d213bde1"
+            }
+          ],
+          "disposition": "qualified",
+          "reason": "Reporting describes repeated extensions, but actual later legal force and all extension instruments remain unverified.",
+          "next_requirement": "Obtain adopted extensions and action history through November 7."
+        },
+        "moratorium_id": {
+          "value": "ga-bulloch-county-2026",
+          "source_refs": [
+            {
+              "source_id": "codebook",
+              "lines": [
+                31,
+                31
+              ],
+              "proof_span_sha256": "40c9b1c135d6137b761389237a3196fd3866f3f1b49b5b2ca5c2ed749fe23a4d"
+            }
+          ],
+          "disposition": "dataset_derived",
+          "reason": "Stable dataset join key; its slug and year are not independent proof of identity or adoption date."
+        },
+        "latitude": {
+          "value": "32.384634",
+          "source_refs": [
+            {
+              "source_id": "codebook",
+              "lines": [
+                32,
+                32
+              ],
+              "proof_span_sha256": "cc40d3e16fb54bc54fa2f9383b16ef7c629551443e9f64dafad7800f4d441079"
+            }
+          ],
+          "disposition": "no_coordinate_provenance",
+          "reason": "The latitude value is an assigned centroid coordinate; no geocoder result, geometry or calculation was retained in reviewed sources.",
+          "next_requirement": "Recover source geocoder response or independently calculate from authoritative jurisdiction boundary and record method."
+        },
+        "longitude": {
+          "value": "-81.744832",
+          "source_refs": [
+            {
+              "source_id": "codebook",
+              "lines": [
+                33,
+                33
+              ],
+              "proof_span_sha256": "59bd77821bf6cab1df990d328edbe9ad1c0bcdbdeb6de6dce699856e5c2385b7"
+            }
+          ],
+          "disposition": "no_coordinate_provenance",
+          "reason": "The longitude value is an assigned centroid coordinate; no geocoder result, geometry or calculation was retained in reviewed sources.",
+          "next_requirement": "Recover source geocoder response or independently calculate from authoritative jurisdiction boundary and record method."
+        },
+        "date_enacted_iso": {
+          "value": "2026-02-17",
+          "source_refs": [
+            {
+              "source_id": "carroll",
+              "lines": [
+                25,
+                25
+              ],
+              "proof_span_sha256": "9d62a782f338c9c14d85c61d4cc34b680f7750d417a47bb436220eae6f6570f9"
+            }
+          ],
+          "disposition": "qualified",
+          "reason": "February 17 appears in a separate county resolution recital; direct Bulloch adoption evidence has not been examined.",
+          "next_requirement": "Obtain Bulloch original and minutes."
+        },
+        "date_enacted_uncertainty": {
+          "value": "exact",
+          "source_refs": [
+            {
+              "source_id": "carroll",
+              "lines": [
+                25,
+                25
+              ],
+              "proof_span_sha256": "9d62a782f338c9c14d85c61d4cc34b680f7750d417a47bb436220eae6f6570f9"
+            }
+          ],
+          "disposition": "qualified",
+          "reason": "Exact day is stated in a secondary recital, not yet verified against the adopting board.",
+          "next_requirement": "Compare signed instrument and minutes."
+        },
+        "duration_days": {
+          "value": "90",
+          "source_refs": [
+            {
+              "source_id": "carroll",
+              "lines": [
+                25,
+                25
+              ],
+              "proof_span_sha256": "9d62a782f338c9c14d85c61d4cc34b680f7750d417a47bb436220eae6f6570f9"
+            }
+          ],
+          "disposition": "qualified",
+          "reason": "The Carroll reproduction recites a Bulloch initial 90-day moratorium.",
+          "next_requirement": "Verify the Bulloch adopted original and its conditions."
+        },
+        "duration_kind": {
+          "value": "fixed_days",
+          "source_refs": [
+            {
+              "source_id": "carroll",
+              "lines": [
+                25,
+                25
+              ],
+              "proof_span_sha256": "9d62a782f338c9c14d85c61d4cc34b680f7750d417a47bb436220eae6f6570f9"
+            },
+            {
+              "source_id": "codebook",
+              "lines": [
+                37,
+                37
+              ],
+              "proof_span_sha256": "9e8a13080f0d29f7b3bb0a09b9131fe10f0e675253b9aaffc1998e1326261b0a"
+            }
+          ],
+          "disposition": "qualified",
+          "reason": "The 90-day term recited by another county fits fixed_days for the original term.",
+          "next_requirement": "Verify original resolution and any conditions."
+        },
+        "current_end_date_iso": {
+          "value": "2026-12-31",
+          "source_refs": [
+            {
+              "source_id": "bulloch",
+              "lines": [
+                19,
+                23
+              ],
+              "proof_span_sha256": "7a057a3177010e5073b71617fde2b89d9ecf18c6c26387d6d2c844d8d213bde1"
+            }
+          ],
+          "disposition": "qualified",
+          "reason": "Report gives December 31 as scheduled expiration in context of a 2026 committee meeting; no operative text or later board disposition was reviewed.",
+          "next_requirement": "Obtain the extension instrument and later actions."
+        },
+        "sectors": {
+          "value": "[\"data_center\"]",
+          "source_refs": [
+            {
+              "source_id": "bulloch",
+              "lines": [
+                19,
+                23
+              ],
+              "proof_span_sha256": "7a057a3177010e5073b71617fde2b89d9ecf18c6c26387d6d2c844d8d213bde1"
+            }
+          ],
+          "disposition": "supported",
+          "reason": "Reporting describes a data center permitting moratorium."
+        },
+        "trigger_categories": {
+          "value": "[\"regulatory_gap\"]",
+          "source_refs": [
+            {
+              "source_id": "bulloch",
+              "lines": [
+                19,
+                23
+              ],
+              "proof_span_sha256": "7a057a3177010e5073b71617fde2b89d9ecf18c6c26387d6d2c844d8d213bde1"
+            }
+          ],
+          "disposition": "qualified",
+          "reason": "A draft zoning resolution and committee study are reported, but the original adoption motive is not established.",
+          "next_requirement": "Inspect original resolution and zoning rules."
+        }
+      }
+    },
+    {
+      "moratorium_id": "ga-calhoun-gordon-county-undated",
+      "guard_match_current_csv": true,
+      "overall": "unresolved; field assessments complete, current force and independent review remain open",
+      "fields": {
+        "state": {
+          "value": "Georgia",
+          "source_refs": [
+            {
+              "source_id": "calhoun",
+              "lines": [
+                1,
+                17
+              ],
+              "proof_span_sha256": "495992e0ee50fd1ac2c6f744c6f611f890199a97121dc67132b58321be9736f1"
+            }
+          ],
+          "disposition": "qualified",
+          "reason": "Georgia is consistent with source jurisdiction context; the cited action span does not independently establish the state.",
+          "next_requirement": "Confirm jurisdiction-to-state mapping using authoritative jurisdiction source."
+        },
+        "state_abbrev": {
+          "value": "GA",
+          "source_refs": [
+            {
+              "source_id": "codebook",
+              "lines": [
+                16,
+                16
+              ],
+              "proof_span_sha256": "3304fadd7a7bb492c11dac225fbf0e64f951c3c19030b0bcdfc28175d107a7a4"
+            }
+          ],
+          "disposition": "dataset_derived",
+          "reason": "GA is the dataset abbreviation for Georgia; this is a coding value, not a source assertion."
+        },
+        "jurisdiction": {
+          "value": "Calhoun (Gordon County)",
+          "source_refs": [
+            {
+              "source_id": "calhoun",
+              "lines": [
+                1,
+                17
+              ],
+              "proof_span_sha256": "495992e0ee50fd1ac2c6f744c6f611f890199a97121dc67132b58321be9736f1"
+            }
+          ],
+          "disposition": "qualified",
+          "reason": "Report identifies the Calhoun City Council; Gordon County parent is not independently shown in this span.",
+          "next_requirement": "Confirm Gordon County context using authoritative boundary or city source."
+        },
+        "jurisdiction_type": {
+          "value": "City",
+          "source_refs": [
+            {
+              "source_id": "calhoun",
+              "lines": [
+                1,
+                17
+              ],
+              "proof_span_sha256": "495992e0ee50fd1ac2c6f744c6f611f890199a97121dc67132b58321be9736f1"
+            }
+          ],
+          "disposition": "supported",
+          "reason": "Source identifies a city council."
+        },
+        "date_enacted": {
+          "value": "2026-04-27 (Calhoun City Council unanimously passed a 90-day preemptive moratorium resolution at its Monday April 27, 2026 meeting, running through at least July 27); extended six additional months by unanimous (3-0) council vote on 2026-06-08 after a public hearing",
+          "source_refs": [
+            {
+              "source_id": "calhoun",
+              "lines": [
+                1,
+                17
+              ],
+              "proof_span_sha256": "495992e0ee50fd1ac2c6f744c6f611f890199a97121dc67132b58321be9736f1"
+            }
+          ],
+          "disposition": "qualified",
+          "reason": "June 8 report supports a 3-0 extension for six months; it does not establish the April 27 original vote or a public hearing.",
+          "next_requirement": "Obtain April 27 and June 8 approved minutes and resolutions."
+        },
+        "duration": {
+          "value": "Extended through the second council meeting in January 2027, identified in the minutes as 2027-01-25",
+          "source_refs": [
+            {
+              "source_id": "calhoun",
+              "lines": [
+                1,
+                17
+              ],
+              "proof_span_sha256": "495992e0ee50fd1ac2c6f744c6f611f890199a97121dc67132b58321be9736f1"
+            }
+          ],
+          "disposition": "unsupported",
+          "reason": "The report says mid-January 2027, not January 25 or the second meeting; a report\u2019s approximate phrase cannot prove the exact operative end.",
+          "next_requirement": "Obtain enacted June 8 extension and minutes with the precise endpoint."
+        },
+        "legal_basis": {
+          "value": "Calhoun City Council resolution (adopted unanimously 2026-04-27) halting all applications for zoning decisions, land disturbance permits and licenses for data centers; extended by council vote following a public hearing on 2026-06-08. Resolution numbers not published in sources reviewed.",
+          "source_refs": [
+            {
+              "source_id": "calhoun",
+              "lines": [
+                1,
+                17
+              ],
+              "proof_span_sha256": "495992e0ee50fd1ac2c6f744c6f611f890199a97121dc67132b58321be9736f1"
+            }
+          ],
+          "disposition": "qualified",
+          "reason": "Report describes an extension and permitting/approval scope, but not April adoption, resolution identifiers or precise covered instruments.",
+          "next_requirement": "Obtain original and extension instruments."
+        },
+        "trigger": {
+          "value": "regulatory_gap",
+          "source_refs": [
+            {
+              "source_id": "calhoun",
+              "lines": [
+                1,
+                17
+              ],
+              "proof_span_sha256": "495992e0ee50fd1ac2c6f744c6f611f890199a97121dc67132b58321be9736f1"
+            }
+          ],
+          "disposition": "qualified",
+          "reason": "Report describes time to study impacts and possible regulation, not specifically the original regulatory gap.",
+          "next_requirement": "Inspect original adoption recitals and council proceedings."
+        },
+        "current_status": {
+          "value": "Active/extended as of 2026-09-23; moratorium runs through 2027-01-25 (last week of January 2027) per the June 8 extension; no replacement ordinance reported.",
+          "source_refs": [
+            {
+              "source_id": "calhoun",
+              "lines": [
+                1,
+                17
+              ],
+              "proof_span_sha256": "495992e0ee50fd1ac2c6f744c6f611f890199a97121dc67132b58321be9736f1"
+            }
+          ],
+          "disposition": "qualified",
+          "reason": "The six-month extension is reported; mid-January differs in precision from January 25, and September force or absence of a replacement is not established.",
+          "next_requirement": "Obtain extension text and subsequent council actions through November 7."
+        },
+        "affected_projects": {
+          "value": "",
+          "source_refs": [
+            {
+              "source_id": "calhoun",
+              "lines": [
+                1,
+                17
+              ],
+              "proof_span_sha256": "495992e0ee50fd1ac2c6f744c6f611f890199a97121dc67132b58321be9736f1"
+            }
+          ],
+          "disposition": "unresolved",
+          "reason": "Blank means no named affected project recorded; reporting mentions potential projects but does not identify an affected project.",
+          "next_requirement": "Review project applications and contemporaneous testimony."
+        },
+        "outcome": {
+          "value": "City Council unanimously extended its data center moratorium for six additional months after a public hearing at which several residents opposed data centers",
+          "source_refs": [
+            {
+              "source_id": "calhoun",
+              "lines": [
+                1,
+                17
+              ],
+              "proof_span_sha256": "495992e0ee50fd1ac2c6f744c6f611f890199a97121dc67132b58321be9736f1"
+            }
+          ],
+          "disposition": "qualified",
+          "reason": "The report states a 3-0 six-month extension and public attendance; it does not establish a public hearing or residents\u2019 opposing statements.",
+          "next_requirement": "Obtain June 8 minutes and hearing record."
+        },
+        "has_verify_tags": {
+          "value": "False",
+          "source_refs": [
+            {
+              "source_id": "codebook",
+              "lines": [
+                26,
+                26
+              ],
+              "proof_span_sha256": "8ee63e8603f55e2fc82c2e3e74ae506a048b5962f3f30c9521eca9827633b338"
+            }
+          ],
+          "disposition": "dataset_derived",
+          "reason": "Boolean is a row annotation; it does not verify any policy fact.",
+          "next_requirement": "Recompute under dataset marker-count rules if row text changes."
+        },
+        "verify_count": {
+          "value": "0",
+          "source_refs": [
+            {
+              "source_id": "codebook",
+              "lines": [
+                27,
+                27
+              ],
+              "proof_span_sha256": "2da300239b0ddaffbeb8d73d8982b309716c3665ba973582a1abd06d6ccea0aa"
+            }
+          ],
+          "disposition": "dataset_derived",
+          "reason": "Count is a dataset annotation, not an evidentiary confidence score.",
+          "next_requirement": "Recompute under dataset marker-count rules if row text changes."
+        },
+        "cite_count": {
+          "value": "0",
+          "source_refs": [
+            {
+              "source_id": "codebook",
+              "lines": [
+                28,
+                28
+              ],
+              "proof_span_sha256": "8a3af252a9898ffbd57fe38086f57cbf713529dd9383c9192fbd913c09bc5db4"
+            }
+          ],
+          "disposition": "dataset_derived",
+          "reason": "Legacy count describes citation markers in the row, not retained external evidence.",
+          "next_requirement": "Recompute under dataset marker-count rules if row text changes."
+        },
+        "activity_level": {
+          "value": "High",
+          "source_refs": [
+            {
+              "source_id": "codebook",
+              "lines": [
+                29,
+                29
+              ],
+              "proof_span_sha256": "2b475ce50240078424fef2ace12ed7c517eb357729026350f548df989cdcf75f"
+            }
+          ],
+          "disposition": "dataset_derived",
+          "reason": "High is the state-wide dataset classification, not a determination of this particular moratorium\u2019s force.",
+          "next_requirement": "Audit statewide classification separately if required."
+        },
+        "enacted_status": {
+          "value": "extended",
+          "source_refs": [
+            {
+              "source_id": "calhoun",
+              "lines": [
+                1,
+                17
+              ],
+              "proof_span_sha256": "495992e0ee50fd1ac2c6f744c6f611f890199a97121dc67132b58321be9736f1"
+            }
+          ],
+          "disposition": "qualified",
+          "reason": "June report records extension; subsequent force is not established.",
+          "next_requirement": "Review adopted extension and subsequent actions."
+        },
+        "moratorium_id": {
+          "value": "ga-calhoun-gordon-county-undated",
+          "source_refs": [
+            {
+              "source_id": "codebook",
+              "lines": [
+                31,
+                31
+              ],
+              "proof_span_sha256": "40c9b1c135d6137b761389237a3196fd3866f3f1b49b5b2ca5c2ed749fe23a4d"
+            }
+          ],
+          "disposition": "dataset_derived",
+          "reason": "Stable dataset join key; its slug and year are not independent proof of identity or adoption date. The Calhoun undated suffix is a legacy key."
+        },
+        "latitude": {
+          "value": "34.502587",
+          "source_refs": [
+            {
+              "source_id": "codebook",
+              "lines": [
+                32,
+                32
+              ],
+              "proof_span_sha256": "cc40d3e16fb54bc54fa2f9383b16ef7c629551443e9f64dafad7800f4d441079"
+            }
+          ],
+          "disposition": "no_coordinate_provenance",
+          "reason": "The latitude value is an assigned centroid coordinate; no geocoder result, geometry or calculation was retained in reviewed sources.",
+          "next_requirement": "Recover source geocoder response or independently calculate from authoritative jurisdiction boundary and record method."
+        },
+        "longitude": {
+          "value": "-84.951054",
+          "source_refs": [
+            {
+              "source_id": "codebook",
+              "lines": [
+                33,
+                33
+              ],
+              "proof_span_sha256": "59bd77821bf6cab1df990d328edbe9ad1c0bcdbdeb6de6dce699856e5c2385b7"
+            }
+          ],
+          "disposition": "no_coordinate_provenance",
+          "reason": "The longitude value is an assigned centroid coordinate; no geocoder result, geometry or calculation was retained in reviewed sources.",
+          "next_requirement": "Recover source geocoder response or independently calculate from authoritative jurisdiction boundary and record method."
+        },
+        "date_enacted_iso": {
+          "value": "2026-04-27",
+          "source_refs": [
+            {
+              "source_id": "calhoun",
+              "lines": [
+                1,
+                17
+              ],
+              "proof_span_sha256": "495992e0ee50fd1ac2c6f744c6f611f890199a97121dc67132b58321be9736f1"
+            }
+          ],
+          "disposition": "unsupported",
+          "reason": "April 27 original adoption is not stated in the June report.",
+          "next_requirement": "Obtain April 27 approved minutes and original resolution."
+        },
+        "date_enacted_uncertainty": {
+          "value": "exact",
+          "source_refs": [
+            {
+              "source_id": "calhoun",
+              "lines": [
+                1,
+                17
+              ],
+              "proof_span_sha256": "495992e0ee50fd1ac2c6f744c6f611f890199a97121dc67132b58321be9736f1"
+            }
+          ],
+          "disposition": "unsupported",
+          "reason": "Exact original date cannot be confirmed from the extension report.",
+          "next_requirement": "Verify original vote date in adopted minutes."
+        },
+        "duration_days": {
+          "value": "",
+          "source_refs": [
+            {
+              "source_id": "calhoun",
+              "lines": [
+                1,
+                17
+              ],
+              "proof_span_sha256": "495992e0ee50fd1ac2c6f744c6f611f890199a97121dc67132b58321be9736f1"
+            },
+            {
+              "source_id": "codebook",
+              "lines": [
+                36,
+                36
+              ],
+              "proof_span_sha256": "5fdadaeb7af05fb8d544a1d0365a2a1e6491176299d8002bd664432c13ac048a"
+            }
+          ],
+          "disposition": "unresolved",
+          "reason": "Blank does not establish that no original fixed-day term existed; narrative asserts 90 days but reviewed source does not establish it.",
+          "next_requirement": "Obtain original adopted term and populate only if warranted."
+        },
+        "duration_kind": {
+          "value": "until_date",
+          "source_refs": [
+            {
+              "source_id": "calhoun",
+              "lines": [
+                1,
+                17
+              ],
+              "proof_span_sha256": "495992e0ee50fd1ac2c6f744c6f611f890199a97121dc67132b58321be9736f1"
+            },
+            {
+              "source_id": "codebook",
+              "lines": [
+                37,
+                37
+              ],
+              "proof_span_sha256": "9e8a13080f0d29f7b3bb0a09b9131fe10f0e675253b9aaffc1998e1326261b0a"
+            }
+          ],
+          "disposition": "unsupported",
+          "reason": "until_date depends on an exact operative term; the report says an additional six months and mid-January, while original term is not verified.",
+          "next_requirement": "Obtain original and extension text; apply codebook consistently."
+        },
+        "current_end_date_iso": {
+          "value": "2027-01-25",
+          "source_refs": [
+            {
+              "source_id": "calhoun",
+              "lines": [
+                1,
+                17
+              ],
+              "proof_span_sha256": "495992e0ee50fd1ac2c6f744c6f611f890199a97121dc67132b58321be9736f1"
+            }
+          ],
+          "disposition": "unsupported",
+          "reason": "Exact January 25 is not established by a report saying mid-January; no alternative exact date is established.",
+          "next_requirement": "Inspect signed extension and approved June 8 minutes."
+        },
+        "sectors": {
+          "value": "[\"data_center\"]",
+          "source_refs": [
+            {
+              "source_id": "calhoun",
+              "lines": [
+                1,
+                17
+              ],
+              "proof_span_sha256": "495992e0ee50fd1ac2c6f744c6f611f890199a97121dc67132b58321be9736f1"
+            }
+          ],
+          "disposition": "supported",
+          "reason": "Report expressly covers data center moratorium."
+        },
+        "trigger_categories": {
+          "value": "[\"regulatory_gap\"]",
+          "source_refs": [
+            {
+              "source_id": "calhoun",
+              "lines": [
+                1,
+                17
+              ],
+              "proof_span_sha256": "495992e0ee50fd1ac2c6f744c6f611f890199a97121dc67132b58321be9736f1"
+            }
+          ],
+          "disposition": "qualified",
+          "reason": "Potential regulation is discussed but the original adoption reason is not established.",
+          "next_requirement": "Inspect original resolution and April discussion."
+        }
+      }
+    },
+    {
+      "moratorium_id": "ga-camden-county-2026",
+      "guard_match_current_csv": true,
+      "overall": "unresolved; field assessments complete, current force and independent review remain open",
+      "fields": {
+        "state": {
+          "value": "Georgia",
+          "source_refs": [
+            {
+              "source_id": "camden",
+              "lines": [
+                1,
+                9
+              ],
+              "proof_span_sha256": "806d669e62e002bd6d012c1964796805ead2201a598ecde654665de12fc3ab7d"
+            }
+          ],
+          "disposition": "supported",
+          "reason": "Georgia is explicitly identified in the county page."
+        },
+        "state_abbrev": {
+          "value": "GA",
+          "source_refs": [
+            {
+              "source_id": "codebook",
+              "lines": [
+                16,
+                16
+              ],
+              "proof_span_sha256": "3304fadd7a7bb492c11dac225fbf0e64f951c3c19030b0bcdfc28175d107a7a4"
+            }
+          ],
+          "disposition": "dataset_derived",
+          "reason": "GA is the dataset abbreviation for Georgia; this is a coding value, not a source assertion."
+        },
+        "jurisdiction": {
+          "value": "Camden County",
+          "source_refs": [
+            {
+              "source_id": "camden",
+              "lines": [
+                1,
+                9
+              ],
+              "proof_span_sha256": "806d669e62e002bd6d012c1964796805ead2201a598ecde654665de12fc3ab7d"
+            }
+          ],
+          "disposition": "supported",
+          "reason": "County page identifies Camden County, Georgia, and its board."
+        },
+        "jurisdiction_type": {
+          "value": "County",
+          "source_refs": [
+            {
+              "source_id": "camden",
+              "lines": [
+                1,
+                9
+              ],
+              "proof_span_sha256": "806d669e62e002bd6d012c1964796805ead2201a598ecde654665de12fc3ab7d"
+            }
+          ],
+          "disposition": "supported",
+          "reason": "Source identifies a county board or county government."
+        },
+        "date_enacted": {
+          "value": "May 5, 2026 (Tuesday), per GPB/The Current reporting on the Camden County Board of Commissioners meeting, which is corroborated by the earlier May 2, 2026 article reporting the vote was scheduled for 'Tuesday.'",
+          "source_refs": [
+            {
+              "source_id": "camden",
+              "lines": [
+                1,
+                9
+              ],
+              "proof_span_sha256": "806d669e62e002bd6d012c1964796805ead2201a598ecde654665de12fc3ab7d"
+            }
+          ],
+          "disposition": "supported",
+          "reason": "County page states the board declared the moratorium May 5, 2026; source attributes action but is not the signed instrument.",
+          "next_requirement": "Obtain signed original to establish exact terms and effectiveness."
+        },
+        "duration": {
+          "value": "Initial six calendar months; extended an additional nine months by the Board of Commissioners on November 3, 2026; precise operative end date not established in the reviewed county page.",
+          "source_refs": [
+            {
+              "source_id": "camden",
+              "lines": [
+                1,
+                9
+              ],
+              "proof_span_sha256": "806d669e62e002bd6d012c1964796805ead2201a598ecde654665de12fc3ab7d"
+            },
+            {
+              "source_id": "camden_packet",
+              "lines": [
+                4269,
+                4291
+              ],
+              "proof_span_sha256": "692348111eae526150a5e1cdd66731dbbe63544daf8f4b6872ca2390846518bd"
+            }
+          ],
+          "disposition": "qualified",
+          "reason": "County page reports six months and nine-month extension; extension anchor and operative end are not given, and packet term is blank.",
+          "next_requirement": "Obtain executed initial and extension instruments and later actions."
+        },
+        "legal_basis": {
+          "value": "Camden County Board of Commissioners resolution adopting a 6-month moratorium on data centers, adopted May 5, 2026 with the exclusion of sections 4, 5, 6, and 7 of the proposal as originally drafted by District 3 Commissioner Cody Smith.",
+          "source_refs": [
+            {
+              "source_id": "camden",
+              "lines": [
+                1,
+                9
+              ],
+              "proof_span_sha256": "806d669e62e002bd6d012c1964796805ead2201a598ecde654665de12fc3ab7d"
+            }
+          ],
+          "disposition": "qualified",
+          "reason": "County confirms a board moratorium; the claimed omission of sections 4\u20137 and original resolution terms are not established by that page.",
+          "next_requirement": "Obtain signed original, motion and meeting minutes."
+        },
+        "trigger": {
+          "value": "Growing statewide concern about energy-hungry data center operations, amid a contemporaneous Kingsland rezone vote",
+          "source_refs": [
+            {
+              "source_id": "camden",
+              "lines": [
+                1,
+                9
+              ],
+              "proof_span_sha256": "806d669e62e002bd6d012c1964796805ead2201a598ecde654665de12fc3ab7d"
+            }
+          ],
+          "disposition": "unsupported",
+          "reason": "The retained page does not establish the claimed energy concern and Kingsland rezone as adoption motives.",
+          "next_requirement": "Inspect original recitals and board debate; distinguish neighboring city action."
+        },
+        "current_status": {
+          "value": "Extended: the official county Data Centers page states that the Board of Commissioners extended the moratorium an additional nine months on November 3, 2026. The page separately labels the November 4 data-center ordinance a draft not approved by the Board. The adopted extension text, precise effective/end dates and instrument number remain unverified as of 2026-11-06. [VERIFY adopted extension instrument and exact operative dates]",
+          "source_refs": [
+            {
+              "source_id": "camden",
+              "lines": [
+                1,
+                9
+              ],
+              "proof_span_sha256": "806d669e62e002bd6d012c1964796805ead2201a598ecde654665de12fc3ab7d"
+            },
+            {
+              "source_id": "camden_packet",
+              "lines": [
+                4269,
+                4291
+              ],
+              "proof_span_sha256": "692348111eae526150a5e1cdd66731dbbe63544daf8f4b6872ca2390846518bd"
+            }
+          ],
+          "disposition": "qualified",
+          "reason": "County page confirms November 3 extension and labels the November 4 ordinance draft; exact effective date, end, instrument and later force remain unresolved.",
+          "next_requirement": "Obtain executed extension and all later actions through November 7."
+        },
+        "affected_projects": {
+          "value": "Not identified in captured news coverage",
+          "source_refs": [
+            {
+              "source_id": "camden_project",
+              "lines": [
+                1,
+                9
+              ],
+              "proof_span_sha256": "5c020e7db1b5f0071f73d4b244eacc947046a18bf1f4d1e89263fa069da35206"
+            }
+          ],
+          "disposition": "qualified",
+          "reason": "October news reports a resident describing a proposed 700-acre development and potential impacts; it does not establish identity, location or that it is legally affected by the moratorium.",
+          "next_requirement": "Identify the application, location, applicant and relationship to the county moratorium."
+        },
+        "outcome": {
+          "value": "Initial moratorium adopted May 5, 2026; official county page confirms an additional nine-month extension adopted November 3, 2026. Permanent regulations remain draft on the reviewed page.",
+          "source_refs": [
+            {
+              "source_id": "camden",
+              "lines": [
+                1,
+                9
+              ],
+              "proof_span_sha256": "806d669e62e002bd6d012c1964796805ead2201a598ecde654665de12fc3ab7d"
+            }
+          ],
+          "disposition": "qualified",
+          "reason": "County page reports May adoption, November extension and unapproved draft ordinance, but not later legal outcomes.",
+          "next_requirement": "Obtain approved instruments and subsequent actions."
+        },
+        "has_verify_tags": {
+          "value": "True",
+          "source_refs": [
+            {
+              "source_id": "codebook",
+              "lines": [
+                26,
+                26
+              ],
+              "proof_span_sha256": "8ee63e8603f55e2fc82c2e3e74ae506a048b5962f3f30c9521eca9827633b338"
+            }
+          ],
+          "disposition": "dataset_derived",
+          "reason": "Boolean is a row annotation; it does not verify any policy fact.",
+          "next_requirement": "Recompute under dataset marker-count rules if row text changes."
+        },
+        "verify_count": {
+          "value": "1",
+          "source_refs": [
+            {
+              "source_id": "codebook",
+              "lines": [
+                27,
+                27
+              ],
+              "proof_span_sha256": "2da300239b0ddaffbeb8d73d8982b309716c3665ba973582a1abd06d6ccea0aa"
+            }
+          ],
+          "disposition": "dataset_derived",
+          "reason": "Count is a dataset annotation, not an evidentiary confidence score.",
+          "next_requirement": "Recompute under dataset marker-count rules if row text changes."
+        },
+        "cite_count": {
+          "value": "0",
+          "source_refs": [
+            {
+              "source_id": "codebook",
+              "lines": [
+                28,
+                28
+              ],
+              "proof_span_sha256": "8a3af252a9898ffbd57fe38086f57cbf713529dd9383c9192fbd913c09bc5db4"
+            }
+          ],
+          "disposition": "dataset_derived",
+          "reason": "Legacy count describes citation markers in the row, not retained external evidence.",
+          "next_requirement": "Recompute under dataset marker-count rules if row text changes."
+        },
+        "activity_level": {
+          "value": "High",
+          "source_refs": [
+            {
+              "source_id": "codebook",
+              "lines": [
+                29,
+                29
+              ],
+              "proof_span_sha256": "2b475ce50240078424fef2ace12ed7c517eb357729026350f548df989cdcf75f"
+            }
+          ],
+          "disposition": "dataset_derived",
+          "reason": "High is the state-wide dataset classification, not a determination of this particular moratorium\u2019s force.",
+          "next_requirement": "Audit statewide classification separately if required."
+        },
+        "enacted_status": {
+          "value": "extended",
+          "source_refs": [
+            {
+              "source_id": "camden",
+              "lines": [
+                1,
+                9
+              ],
+              "proof_span_sha256": "806d669e62e002bd6d012c1964796805ead2201a598ecde654665de12fc3ab7d"
+            }
+          ],
+          "disposition": "qualified",
+          "reason": "November 3 extension is stated by county; uninterrupted force through November 7 is not established.",
+          "next_requirement": "Obtain executed extension and subsequent action history."
+        },
+        "moratorium_id": {
+          "value": "ga-camden-county-2026",
+          "source_refs": [
+            {
+              "source_id": "codebook",
+              "lines": [
+                31,
+                31
+              ],
+              "proof_span_sha256": "40c9b1c135d6137b761389237a3196fd3866f3f1b49b5b2ca5c2ed749fe23a4d"
+            }
+          ],
+          "disposition": "dataset_derived",
+          "reason": "Stable dataset join key; its slug and year are not independent proof of identity or adoption date."
+        },
+        "latitude": {
+          "value": "30.929821",
+          "source_refs": [
+            {
+              "source_id": "codebook",
+              "lines": [
+                32,
+                32
+              ],
+              "proof_span_sha256": "cc40d3e16fb54bc54fa2f9383b16ef7c629551443e9f64dafad7800f4d441079"
+            }
+          ],
+          "disposition": "no_coordinate_provenance",
+          "reason": "The latitude value is an assigned centroid coordinate; no geocoder result, geometry or calculation was retained in reviewed sources.",
+          "next_requirement": "Recover source geocoder response or independently calculate from authoritative jurisdiction boundary and record method."
+        },
+        "longitude": {
+          "value": "-81.622507",
+          "source_refs": [
+            {
+              "source_id": "codebook",
+              "lines": [
+                33,
+                33
+              ],
+              "proof_span_sha256": "59bd77821bf6cab1df990d328edbe9ad1c0bcdbdeb6de6dce699856e5c2385b7"
+            }
+          ],
+          "disposition": "no_coordinate_provenance",
+          "reason": "The longitude value is an assigned centroid coordinate; no geocoder result, geometry or calculation was retained in reviewed sources.",
+          "next_requirement": "Recover source geocoder response or independently calculate from authoritative jurisdiction boundary and record method."
+        },
+        "date_enacted_iso": {
+          "value": "2026-05-05",
+          "source_refs": [
+            {
+              "source_id": "camden",
+              "lines": [
+                1,
+                9
+              ],
+              "proof_span_sha256": "806d669e62e002bd6d012c1964796805ead2201a598ecde654665de12fc3ab7d"
+            }
+          ],
+          "disposition": "supported",
+          "reason": "Official county page identifies May 5, 2026 board action.",
+          "next_requirement": "Obtain signed instrument for effective-date and scope confirmation."
+        },
+        "date_enacted_uncertainty": {
+          "value": "exact",
+          "source_refs": [
+            {
+              "source_id": "camden",
+              "lines": [
+                1,
+                9
+              ],
+              "proof_span_sha256": "806d669e62e002bd6d012c1964796805ead2201a598ecde654665de12fc3ab7d"
+            }
+          ],
+          "disposition": "supported",
+          "reason": "County page states a day-specific adoption date; this does not establish the separate effective date."
+        },
+        "duration_days": {
+          "value": "",
+          "source_refs": [
+            {
+              "source_id": "camden",
+              "lines": [
+                1,
+                9
+              ],
+              "proof_span_sha256": "806d669e62e002bd6d012c1964796805ead2201a598ecde654665de12fc3ab7d"
+            },
+            {
+              "source_id": "codebook",
+              "lines": [
+                36,
+                36
+              ],
+              "proof_span_sha256": "5fdadaeb7af05fb8d544a1d0365a2a1e6491176299d8002bd664432c13ac048a"
+            }
+          ],
+          "disposition": "dataset_derived",
+          "reason": "Blank is consistent with the reported six calendar months and the codebook; it is not evidence of a precise day count.",
+          "next_requirement": "Inspect original instrument for actual term."
+        },
+        "duration_kind": {
+          "value": "calendar_term",
+          "source_refs": [
+            {
+              "source_id": "camden",
+              "lines": [
+                1,
+                9
+              ],
+              "proof_span_sha256": "806d669e62e002bd6d012c1964796805ead2201a598ecde654665de12fc3ab7d"
+            },
+            {
+              "source_id": "codebook",
+              "lines": [
+                37,
+                37
+              ],
+              "proof_span_sha256": "9e8a13080f0d29f7b3bb0a09b9131fe10f0e675253b9aaffc1998e1326261b0a"
+            }
+          ],
+          "disposition": "qualified",
+          "reason": "Six months is a calendar term under the codebook; the page does not provide the initial effective anchor.",
+          "next_requirement": "Inspect original instrument for term, anchor and early termination conditions."
+        },
+        "current_end_date_iso": {
+          "value": "",
+          "source_refs": [
+            {
+              "source_id": "camden",
+              "lines": [
+                1,
+                9
+              ],
+              "proof_span_sha256": "806d669e62e002bd6d012c1964796805ead2201a598ecde654665de12fc3ab7d"
+            },
+            {
+              "source_id": "camden_packet",
+              "lines": [
+                4269,
+                4291
+              ],
+              "proof_span_sha256": "692348111eae526150a5e1cdd66731dbbe63544daf8f4b6872ca2390846518bd"
+            },
+            {
+              "source_id": "codebook",
+              "lines": [
+                38,
+                38
+              ],
+              "proof_span_sha256": "3cd2d1968a31c25acc27805696c5347570cf306df036181fedf197d5b9cbbe28"
+            }
+          ],
+          "disposition": "unresolved",
+          "reason": "Blank appropriately avoids inventing an endpoint: the county page gives an additional nine months but no start anchor, end date or operative instrument.",
+          "next_requirement": "Obtain signed extension and calculate only from its stated operative terms."
+        },
+        "sectors": {
+          "value": "[\"data_center\"]",
+          "source_refs": [
+            {
+              "source_id": "camden",
+              "lines": [
+                1,
+                9
+              ],
+              "proof_span_sha256": "806d669e62e002bd6d012c1964796805ead2201a598ecde654665de12fc3ab7d"
+            }
+          ],
+          "disposition": "supported",
+          "reason": "County page identifies applications for data center facilities."
+        },
+        "trigger_categories": {
+          "value": "[\"grid_energy\",\"regulatory_gap\"]",
+          "source_refs": [
+            {
+              "source_id": "camden",
+              "lines": [
+                1,
+                9
+              ],
+              "proof_span_sha256": "806d669e62e002bd6d012c1964796805ead2201a598ecde654665de12fc3ab7d"
+            }
+          ],
+          "disposition": "unsupported",
+          "reason": "Reviewed county page does not state the initial grid-energy and regulatory-gap rationales; agenda draft is not proof of adopted recitals.",
+          "next_requirement": "Obtain original adopted resolution and contemporaneous rationale."
+        }
+      }
+    }
+  ],
+  "guarded_proposals": [],
+  "proposal_note": "No source proves an alternative exact Calhoun endpoint; no contradiction-based edit is proposed. Camden project report does not establish a legally affected project. Root may independently adjudicate."
+}

@@ -1,0 +1,1695 @@
+{
+  "status": "104 field assessments completed; factual adjudication unresolved",
+  "target_date": "2026-11-07",
+  "assignment_path": "/data0/moratorium-refresh-2026/full-scope-closeout-2026-11-07/next/ga-four-field-review-02/assigned-guards.private.json",
+  "assignment_sha256": "40e8e2fb3a26c2258926ddc230ba4f9ba6ce97c7f2d51daffb907e7f8d31e366",
+  "csv_path": "/home/mjbommar/projects/personal/moratorium-data-2026/data/moratorium_inventory.csv",
+  "csv_sha256": "a033cbc552af7cb06e5f551a0287a31151ab8e22292e03d85ab877e5ea156fd6",
+  "records": [
+    {
+      "moratorium_id": "ga-augusta-richmond-county-undated",
+      "guard": {
+        "state": "Georgia",
+        "state_abbrev": "GA",
+        "jurisdiction": "Augusta-Richmond County",
+        "jurisdiction_type": "County",
+        "date_enacted": "2026-06-02 (Augusta Commission imposed a 49-day pause on new data centers at its Tuesday June 2, 2026 meeting, per same-day WRDW reporting); 2026-07-21 (Commission unanimously extended by 60 days and required three community hearings before any vote on permanent rules)",
+        "duration": "Initial 49 days from 2026-06-02; extended 60 days on 2026-07-21 (running to approximately 2026-09-19)",
+        "legal_basis": "Augusta Commission action on a Planning and Development recommendation; 49-day moratorium adopted 2026-06-02, extended 60 days 2026-07-21. Instrument numbers not located.",
+        "trigger": "Ongoing consideration of a permanent data-center ordinance; extension adds three public hearings before any vote",
+        "current_status": "Replaced 2026-09-15; the Augusta Commission adopted a 29-page data center ordinance 6-5 (bans data centers in residential/agricultural zones, tiered approvals, 65/60 dB limits, 500-ft buffers, closed-loop cooling) and rejected, 5-6, a motion to extend the moratorium another 30 days. Instrument numbers not located.",
+        "affected_projects": "Not identified in captured news coverage",
+        "outcome": "49-day moratorium (2026-06-02) extended 60 days on 2026-07-21, then replaced by a permanent data center ordinance adopted 6-5 on 2026-09-15; the QTS Gordon Highway campus remains exempt.",
+        "has_verify_tags": "False",
+        "verify_count": "0",
+        "cite_count": "0",
+        "activity_level": "High",
+        "enacted_status": "replaced",
+        "moratorium_id": "ga-augusta-richmond-county-undated",
+        "latitude": "33.468546",
+        "longitude": "-82.070154",
+        "date_enacted_iso": "2026-06-02",
+        "date_enacted_uncertainty": "exact",
+        "duration_days": "49",
+        "duration_kind": "fixed_days",
+        "current_end_date_iso": "2026-09-15",
+        "sectors": "[\"data_center\"]",
+        "trigger_categories": "[\"regulatory_gap\"]"
+      },
+      "guard_match_current_csv": true,
+      "overall": "unresolved",
+      "fields": {
+        "state": {
+          "disposition": "qualified",
+          "reason": "The cited jurisdiction source places this action in Georgia; it is evidence of location, not a validation of every row field.",
+          "source_refs": [
+            {
+              "source": "augusta_sep",
+              "text_lines": [
+                1,
+                15
+              ]
+            }
+          ],
+          "value": "Georgia"
+        },
+        "state_abbrev": {
+          "disposition": "dataset_derived",
+          "reason": "GA is the dataset abbreviation for Georgia, not an independently sourced legal claim.",
+          "source_refs": [
+            {
+              "source": "augusta_sep",
+              "text_lines": [
+                1,
+                15
+              ]
+            }
+          ],
+          "value": "GA"
+        },
+        "jurisdiction": {
+          "disposition": "qualified",
+          "reason": "The examined source identifies Augusta or its governing body; exact inventory naming and coverage require matching the operative instrument.",
+          "source_refs": [
+            {
+              "source": "augusta_sep",
+              "text_lines": [
+                1,
+                15
+              ]
+            }
+          ],
+          "next_requirement": "Confirm legal geographic scope in the instrument.",
+          "value": "Augusta-Richmond County"
+        },
+        "jurisdiction_type": {
+          "disposition": "qualified",
+          "reason": "The governing body is identified in the source; inventory jurisdiction type does not by itself determine the geographic reach of the moratorium.",
+          "source_refs": [
+            {
+              "source": "augusta_sep",
+              "text_lines": [
+                1,
+                15
+              ]
+            }
+          ],
+          "next_requirement": "Confirm legal jurisdiction and territorial coverage.",
+          "value": "County"
+        },
+        "date_enacted": {
+          "disposition": "unresolved",
+          "reason": "September reporting confirms an existing moratorium but does not establish June 2 or July 21 votes, 49/60-day terms, or hearing condition.",
+          "source_refs": [
+            {
+              "source": "augusta_sep",
+              "text_lines": [
+                1,
+                15
+              ]
+            }
+          ],
+          "next_requirement": "Obtain initial and extension votes and executed instruments.",
+          "value": "2026-06-02 (Augusta Commission imposed a 49-day pause on new data centers at its Tuesday June 2, 2026 meeting, per same-day WRDW reporting); 2026-07-21 (Commission unanimously extended by 60 days and required three community hearings before any vote on permanent rules)"
+        },
+        "duration": {
+          "disposition": "unresolved",
+          "reason": "49-day and 60-day periods and September 19 calculation are not established by the examined vote reports.",
+          "source_refs": [
+            {
+              "source": "augusta_sep",
+              "text_lines": [
+                1,
+                15
+              ]
+            }
+          ],
+          "next_requirement": "Obtain initial and extension instruments and effective dates.",
+          "value": "Initial 49 days from 2026-06-02; extended 60 days on 2026-07-21 (running to approximately 2026-09-19)"
+        },
+        "legal_basis": {
+          "disposition": "qualified",
+          "reason": "September report confirms a moratorium and an unsuccessful further extension; initial recommendation, dates, and terms are not independently established.",
+          "source_refs": [
+            {
+              "source": "augusta_sep",
+              "text_lines": [
+                1,
+                15
+              ]
+            }
+          ],
+          "next_requirement": "Obtain signed initial and extension actions.",
+          "value": "Augusta Commission action on a Planning and Development recommendation; 49-day moratorium adopted 2026-06-02, extended 60 days 2026-07-21. Instrument numbers not located."
+        },
+        "trigger": {
+          "disposition": "qualified",
+          "reason": "Report describes months of ordinance revisions and a rejected extension; three required hearings and their connection to the July vote are unverified.",
+          "source_refs": [
+            {
+              "source": "augusta_sep",
+              "text_lines": [
+                1,
+                15
+              ]
+            }
+          ],
+          "next_requirement": "Obtain extension action and hearing requirement.",
+          "value": "Ongoing consideration of a permanent data-center ordinance; extension adds three public hearings before any vote"
+        },
+        "current_status": {
+          "disposition": "qualified",
+          "reason": "September 15 report describes a 6\u20135 ordinance vote and 5\u20136 failed extension; October report calls its vote a second reading. Replacement and operative termination on September 15 are not established. Buffer language omits the reported reductions.",
+          "source_refs": [
+            {
+              "source": "augusta_sep",
+              "text_lines": [
+                1,
+                15
+              ]
+            },
+            {
+              "source": "augusta_sep",
+              "text_lines": [
+                19,
+                33
+              ]
+            },
+            {
+              "source": "augusta_oct",
+              "text_lines": [
+                1,
+                7
+              ]
+            }
+          ],
+          "next_requirement": "Obtain enacted ordinance, moratorium expiration/termination provision and action history.",
+          "value": "Replaced 2026-09-15; the Augusta Commission adopted a 29-page data center ordinance 6-5 (bans data centers in residential/agricultural zones, tiered approvals, 65/60 dB limits, 500-ft buffers, closed-loop cooling) and rejected, 5-6, a motion to extend the moratorium another 30 days. Instrument numbers not located."
+        },
+        "affected_projects": {
+          "disposition": "qualified",
+          "reason": "QTS is named as an existing project outside the successor zoning rules; impact under the moratorium is described by city attorney but not established from its text.",
+          "source_refs": [
+            {
+              "source": "augusta_sep",
+              "text_lines": [
+                33,
+                33
+              ]
+            },
+            {
+              "source": "augusta_sep",
+              "text_lines": [
+                43,
+                52
+              ]
+            }
+          ],
+          "next_requirement": "Review moratorium exceptions and project approvals.",
+          "value": "Not identified in captured news coverage"
+        },
+        "outcome": {
+          "disposition": "qualified",
+          "reason": "A successor ordinance vote and QTS exclusion are reported, but September 15 replacement and the initial and extended terms are not established.",
+          "source_refs": [
+            {
+              "source": "augusta_sep",
+              "text_lines": [
+                1,
+                15
+              ]
+            },
+            {
+              "source": "augusta_oct",
+              "text_lines": [
+                1,
+                7
+              ]
+            },
+            {
+              "source": "augusta_sep",
+              "text_lines": [
+                33,
+                33
+              ]
+            }
+          ],
+          "next_requirement": "Review executed moratorium and successor instruments with effective dates.",
+          "value": "49-day moratorium (2026-06-02) extended 60 days on 2026-07-21, then replaced by a permanent data center ordinance adopted 6-5 on 2026-09-15; the QTS Gordon Highway campus remains exempt."
+        },
+        "has_verify_tags": {
+          "disposition": "dataset_derived",
+          "reason": "False is an inventory tag-derived value; it does not establish source completeness.",
+          "source_refs": [],
+          "value": "False"
+        },
+        "verify_count": {
+          "disposition": "dataset_derived",
+          "reason": "Zero is an inventory tag count, not a count of facts independently verified.",
+          "source_refs": [],
+          "value": "0"
+        },
+        "cite_count": {
+          "disposition": "dataset_derived",
+          "reason": "Zero is the recorded inventory citation count; it does not mean no source exists.",
+          "source_refs": [],
+          "value": "0"
+        },
+        "activity_level": {
+          "disposition": "dataset_derived",
+          "reason": "High is a dataset classification; the evidence examined does not independently define its threshold.",
+          "source_refs": [],
+          "next_requirement": "Check derivation and classification rules.",
+          "value": "High"
+        },
+        "enacted_status": {
+          "disposition": "qualified",
+          "reason": "Successor second reading is reported, but direct evidence that it replaced or terminated the moratorium and when is missing.",
+          "source_refs": [
+            {
+              "source": "augusta_oct",
+              "text_lines": [
+                1,
+                7
+              ]
+            }
+          ],
+          "next_requirement": "Obtain adopted ordinance and moratorium transition clause.",
+          "value": "replaced"
+        },
+        "moratorium_id": {
+          "disposition": "dataset_derived",
+          "reason": "The identifier is an inventory key for this row; its spelling or date suffix does not establish an adoption date.",
+          "source_refs": [],
+          "value": "ga-augusta-richmond-county-undated"
+        },
+        "latitude": {
+          "disposition": "no_coordinate_provenance",
+          "reason": "The latitude for Augusta-Richmond County has no examined row-specific geocoding source or point definition.",
+          "source_refs": [],
+          "next_requirement": "Obtain geocoder, coordinate method and intended geographic point.",
+          "value": "33.468546"
+        },
+        "longitude": {
+          "disposition": "no_coordinate_provenance",
+          "reason": "The longitude for Augusta-Richmond County has no examined row-specific geocoding source or point definition.",
+          "source_refs": [],
+          "next_requirement": "Obtain geocoder, coordinate method and intended geographic point.",
+          "value": "-82.070154"
+        },
+        "date_enacted_iso": {
+          "disposition": "unresolved",
+          "reason": "June 2 initial adoption is not established by the examined retained reports.",
+          "source_refs": [
+            {
+              "source": "augusta_sep",
+              "text_lines": [
+                1,
+                15
+              ]
+            }
+          ],
+          "next_requirement": "Obtain June minutes and initial instrument.",
+          "value": "2026-06-02"
+        },
+        "date_enacted_uncertainty": {
+          "disposition": "unresolved",
+          "reason": "An exact date classification depends on evidence of the June 2 adoption.",
+          "source_refs": [
+            {
+              "source": "augusta_sep",
+              "text_lines": [
+                1,
+                15
+              ]
+            }
+          ],
+          "next_requirement": "Obtain dated adoption record.",
+          "value": "exact"
+        },
+        "duration_days": {
+          "disposition": "unresolved",
+          "reason": "The 49-day initial period is not shown in the examined reports.",
+          "source_refs": [
+            {
+              "source": "augusta_sep",
+              "text_lines": [
+                1,
+                15
+              ]
+            }
+          ],
+          "next_requirement": "Obtain initial instrument.",
+          "value": "49"
+        },
+        "duration_kind": {
+          "disposition": "unresolved",
+          "reason": "The initial fixed-day classification depends on the unexamined initial instrument.",
+          "source_refs": [
+            {
+              "source": "augusta_sep",
+              "text_lines": [
+                1,
+                15
+              ]
+            }
+          ],
+          "next_requirement": "Obtain initial instrument and extension terms.",
+          "value": "fixed_days"
+        },
+        "current_end_date_iso": {
+          "disposition": "unsupported",
+          "reason": "September 15 vote is not proof the moratorium ended that day; a second reading is reported October 6.",
+          "source_refs": [
+            {
+              "source": "augusta_sep",
+              "text_lines": [
+                1,
+                15
+              ]
+            },
+            {
+              "source": "augusta_oct",
+              "text_lines": [
+                1,
+                7
+              ]
+            }
+          ],
+          "next_requirement": "Obtain effective, expiration or termination provisions and subsequent actions.",
+          "value": "2026-09-15"
+        },
+        "sectors": {
+          "disposition": "dataset_derived",
+          "reason": "Data-center application scope is reported; the array is an inventory classification, not source text.",
+          "source_refs": [
+            {
+              "source": "augusta_sep",
+              "text_lines": [
+                1,
+                15
+              ]
+            }
+          ],
+          "next_requirement": "Check taxonomy and enacted scope.",
+          "value": "[\"data_center\"]"
+        },
+        "trigger_categories": {
+          "disposition": "dataset_derived",
+          "reason": "Regulatory-gap category is an interpretation of the ordinance-development context; initial motivation is not established.",
+          "source_refs": [
+            {
+              "source": "augusta_sep",
+              "text_lines": [
+                1,
+                15
+              ]
+            }
+          ],
+          "next_requirement": "Review initial findings and category codebook.",
+          "value": "[\"regulatory_gap\"]"
+        }
+      }
+    },
+    {
+      "moratorium_id": "ga-ball-ground-2026",
+      "guard": {
+        "state": "Georgia",
+        "state_abbrev": "GA",
+        "jurisdiction": "Ball Ground",
+        "jurisdiction_type": "City",
+        "date_enacted": "2026-08-13 -- Ball Ground City Council unanimously approved the 'Data Center Application Moratorium' (motion by Councilmember Stancil, seconded by Councilmember Barnes) per the city's official Aug. 13, 2026 meeting minutes. The Cherokee Tribune (Aug. 17) reports it took effect Friday Aug. 14 and runs through Feb. 9, 2027.",
+        "duration": "180 days (effective 2026-08-14 through 2027-02-09), per Cherokee Tribune reporting; not independently verified against the moratorium's own text, which was not located separately from the minutes.",
+        "legal_basis": "Ball Ground City Council moratorium on data center applications (instrument and term not published in accessible sources)",
+        "trigger": "Give staff time to draft data center regulations, following Cherokee County's moratorium",
+        "current_status": "Active as of 2026-09-23 per reporting; City Council paused data center applications in August 2026 while staff work on an ordinance.",
+        "affected_projects": "None named",
+        "outcome": "City Council adopted a moratorium on data center applications.",
+        "has_verify_tags": "False",
+        "verify_count": "0",
+        "cite_count": "0",
+        "activity_level": "High",
+        "enacted_status": "active",
+        "moratorium_id": "ga-ball-ground-2026",
+        "latitude": "34.338226",
+        "longitude": "-84.376571",
+        "date_enacted_iso": "2026-08-13",
+        "date_enacted_uncertainty": "exact",
+        "duration_days": "180",
+        "duration_kind": "fixed_days",
+        "current_end_date_iso": "2027-02-09",
+        "sectors": "[\"data_center\"]",
+        "trigger_categories": "[\"regulatory_gap\"]"
+      },
+      "guard_match_current_csv": true,
+      "overall": "unresolved",
+      "fields": {
+        "state": {
+          "disposition": "qualified",
+          "reason": "The cited jurisdiction source places this action in Georgia; it is evidence of location, not a validation of every row field.",
+          "source_refs": [
+            {
+              "source": "ball_minutes",
+              "text_lines": [
+                3,
+                14
+              ]
+            }
+          ],
+          "value": "Georgia"
+        },
+        "state_abbrev": {
+          "disposition": "dataset_derived",
+          "reason": "GA is the dataset abbreviation for Georgia, not an independently sourced legal claim.",
+          "source_refs": [
+            {
+              "source": "ball_minutes",
+              "text_lines": [
+                3,
+                14
+              ]
+            }
+          ],
+          "value": "GA"
+        },
+        "jurisdiction": {
+          "disposition": "qualified",
+          "reason": "The examined source identifies Ball Ground or its governing body; exact inventory naming and coverage require matching the operative instrument.",
+          "source_refs": [
+            {
+              "source": "ball_minutes",
+              "text_lines": [
+                3,
+                14
+              ]
+            }
+          ],
+          "next_requirement": "Confirm legal geographic scope in the instrument.",
+          "value": "Ball Ground"
+        },
+        "jurisdiction_type": {
+          "disposition": "qualified",
+          "reason": "The governing body is identified in the source; inventory jurisdiction type does not by itself determine the geographic reach of the moratorium.",
+          "source_refs": [
+            {
+              "source": "ball_minutes",
+              "text_lines": [
+                3,
+                14
+              ]
+            }
+          ],
+          "next_requirement": "Confirm legal jurisdiction and territorial coverage.",
+          "value": "City"
+        },
+        "date_enacted": {
+          "disposition": "qualified",
+          "reason": "Official minutes record unanimous August 13 approval; the August 14 effective date and February 9 term are not in the minutes examined.",
+          "source_refs": [
+            {
+              "source": "ball_minutes",
+              "text_lines": [
+                3,
+                14
+              ]
+            },
+            {
+              "source": "ball_minutes",
+              "text_lines": [
+                142,
+                150
+              ]
+            }
+          ],
+          "next_requirement": "Obtain adopted instrument and original reporting for term and effective date.",
+          "value": "2026-08-13 -- Ball Ground City Council unanimously approved the 'Data Center Application Moratorium' (motion by Councilmember Stancil, seconded by Councilmember Barnes) per the city's official Aug. 13, 2026 meeting minutes. The Cherokee Tribune (Aug. 17) reports it took effect Friday Aug. 14 and runs through Feb. 9, 2027."
+        },
+        "duration": {
+          "disposition": "unsupported",
+          "reason": "Approved minutes do not specify 180 days, effective August 14 or February 9; the referenced Tribune article was not examined.",
+          "source_refs": [
+            {
+              "source": "ball_minutes",
+              "text_lines": [
+                142,
+                150
+              ]
+            }
+          ],
+          "next_requirement": "Obtain original instrument and retained Tribune report.",
+          "value": "180 days (effective 2026-08-14 through 2027-02-09), per Cherokee Tribune reporting; not independently verified against the moratorium's own text, which was not located separately from the minutes."
+        },
+        "legal_basis": {
+          "disposition": "qualified",
+          "reason": "Official minutes record approval of a Data Center Application Moratorium; the instrument number and operative scope are not in the examined excerpt.",
+          "source_refs": [
+            {
+              "source": "ball_minutes",
+              "text_lines": [
+                142,
+                150
+              ]
+            }
+          ],
+          "next_requirement": "Obtain executed moratorium text.",
+          "value": "Ball Ground City Council moratorium on data center applications (instrument and term not published in accessible sources)"
+        },
+        "trigger": {
+          "disposition": "unresolved",
+          "reason": "The minutes record a vote but do not establish staff drafting motivation or connection to Cherokee County.",
+          "source_refs": [
+            {
+              "source": "ball_minutes",
+              "text_lines": [
+                142,
+                150
+              ]
+            }
+          ],
+          "next_requirement": "Obtain meeting record or contemporaneous account stating reasons.",
+          "value": "Give staff time to draft data center regulations, following Cherokee County's moratorium"
+        },
+        "current_status": {
+          "disposition": "unresolved",
+          "reason": "August vote is established; September 23 activity and present force are not established by these minutes.",
+          "source_refs": [
+            {
+              "source": "ball_minutes",
+              "text_lines": [
+                3,
+                14
+              ]
+            },
+            {
+              "source": "ball_minutes",
+              "text_lines": [
+                142,
+                150
+              ]
+            }
+          ],
+          "next_requirement": "Obtain reporting and full later city action history through target date.",
+          "value": "Active as of 2026-09-23 per reporting; City Council paused data center applications in August 2026 while staff work on an ordinance."
+        },
+        "affected_projects": {
+          "disposition": "unresolved",
+          "reason": "No project is named in the cited motion; that does not prove there were none.",
+          "source_refs": [
+            {
+              "source": "ball_minutes",
+              "text_lines": [
+                142,
+                150
+              ]
+            }
+          ],
+          "next_requirement": "Review applications and impact evidence.",
+          "value": "None named"
+        },
+        "outcome": {
+          "disposition": "supported",
+          "reason": "Approved minutes record a unanimous council motion for the application moratorium.",
+          "source_refs": [
+            {
+              "source": "ball_minutes",
+              "text_lines": [
+                3,
+                14
+              ]
+            },
+            {
+              "source": "ball_minutes",
+              "text_lines": [
+                142,
+                150
+              ]
+            }
+          ],
+          "value": "City Council adopted a moratorium on data center applications."
+        },
+        "has_verify_tags": {
+          "disposition": "dataset_derived",
+          "reason": "False is an inventory tag-derived value; it does not establish source completeness.",
+          "source_refs": [],
+          "value": "False"
+        },
+        "verify_count": {
+          "disposition": "dataset_derived",
+          "reason": "Zero is an inventory tag count, not a count of facts independently verified.",
+          "source_refs": [],
+          "value": "0"
+        },
+        "cite_count": {
+          "disposition": "dataset_derived",
+          "reason": "Zero is the recorded inventory citation count; it does not mean no source exists.",
+          "source_refs": [],
+          "value": "0"
+        },
+        "activity_level": {
+          "disposition": "dataset_derived",
+          "reason": "High is a dataset classification; the evidence examined does not independently define its threshold.",
+          "source_refs": [],
+          "next_requirement": "Check derivation and classification rules.",
+          "value": "High"
+        },
+        "enacted_status": {
+          "disposition": "unresolved",
+          "reason": "The August adoption does not establish active force on November 7.",
+          "source_refs": [
+            {
+              "source": "ball_minutes",
+              "text_lines": [
+                142,
+                150
+              ]
+            }
+          ],
+          "next_requirement": "Obtain enacted term and subsequent changes.",
+          "value": "active"
+        },
+        "moratorium_id": {
+          "disposition": "dataset_derived",
+          "reason": "The identifier is an inventory key for this row; its spelling or date suffix does not establish an adoption date.",
+          "source_refs": [],
+          "value": "ga-ball-ground-2026"
+        },
+        "latitude": {
+          "disposition": "no_coordinate_provenance",
+          "reason": "The latitude for Ball Ground has no examined row-specific geocoding source or point definition.",
+          "source_refs": [],
+          "next_requirement": "Obtain geocoder, coordinate method and intended geographic point.",
+          "value": "34.338226"
+        },
+        "longitude": {
+          "disposition": "no_coordinate_provenance",
+          "reason": "The longitude for Ball Ground has no examined row-specific geocoding source or point definition.",
+          "source_refs": [],
+          "next_requirement": "Obtain geocoder, coordinate method and intended geographic point.",
+          "value": "-84.376571"
+        },
+        "date_enacted_iso": {
+          "disposition": "supported",
+          "reason": "Approved city minutes date the unanimous vote August 13.",
+          "source_refs": [
+            {
+              "source": "ball_minutes",
+              "text_lines": [
+                3,
+                14
+              ]
+            },
+            {
+              "source": "ball_minutes",
+              "text_lines": [
+                142,
+                150
+              ]
+            }
+          ],
+          "value": "2026-08-13"
+        },
+        "date_enacted_uncertainty": {
+          "disposition": "supported",
+          "reason": "The minutes supply a specific meeting date for the recorded vote.",
+          "source_refs": [
+            {
+              "source": "ball_minutes",
+              "text_lines": [
+                3,
+                14
+              ]
+            },
+            {
+              "source": "ball_minutes",
+              "text_lines": [
+                142,
+                150
+              ]
+            }
+          ],
+          "value": "exact"
+        },
+        "duration_days": {
+          "disposition": "unsupported",
+          "reason": "No 180-day term appears in the minutes passage examined.",
+          "source_refs": [
+            {
+              "source": "ball_minutes",
+              "text_lines": [
+                142,
+                150
+              ]
+            }
+          ],
+          "next_requirement": "Obtain enacted text or independent contemporary account.",
+          "value": "180"
+        },
+        "duration_kind": {
+          "disposition": "unresolved",
+          "reason": "A fixed-days term is not supplied by the city minutes.",
+          "source_refs": [
+            {
+              "source": "ball_minutes",
+              "text_lines": [
+                142,
+                150
+              ]
+            }
+          ],
+          "next_requirement": "Obtain enacted term.",
+          "value": "fixed_days"
+        },
+        "current_end_date_iso": {
+          "disposition": "unsupported",
+          "reason": "February 9, 2027 is not established by the minutes, nor are later changes.",
+          "source_refs": [
+            {
+              "source": "ball_minutes",
+              "text_lines": [
+                142,
+                150
+              ]
+            }
+          ],
+          "next_requirement": "Obtain enacted endpoint and subsequent actions.",
+          "value": "2027-02-09"
+        },
+        "sectors": {
+          "disposition": "dataset_derived",
+          "reason": "The recorded application moratorium concerns data centers; the category encoding is dataset-derived.",
+          "source_refs": [
+            {
+              "source": "ball_minutes",
+              "text_lines": [
+                142,
+                150
+              ]
+            }
+          ],
+          "next_requirement": "Check taxonomy and exact instrument scope.",
+          "value": "[\"data_center\"]"
+        },
+        "trigger_categories": {
+          "disposition": "dataset_derived",
+          "reason": "Regulatory-gap classification is not established by the approval motion alone.",
+          "source_refs": [
+            {
+              "source": "ball_minutes",
+              "text_lines": [
+                142,
+                150
+              ]
+            }
+          ],
+          "next_requirement": "Obtain stated reasons and check category codebook.",
+          "value": "[\"regulatory_gap\"]"
+        }
+      }
+    },
+    {
+      "moratorium_id": "ga-banks-county-2026",
+      "guard": {
+        "state": "Georgia",
+        "state_abbrev": "GA",
+        "jurisdiction": "Banks County",
+        "jurisdiction_type": "County",
+        "date_enacted": "Banks County Board of Commissioners approved a data center moratorium in August 2026 (reported 2026-08-16); extended at a September 2026 meeting through 2027-03-09",
+        "duration": "Initial term not stated in accessible text; extended through 2027-03-09",
+        "legal_basis": "Banks County Board of Commissioners initial 30-day emergency moratorium on data center applications (August 2026, to update the county code), superseded by a 180-day moratorium; extended alongside a companion R-1 zoning moratorium at a meeting the week of 2026-09-08 through 2027-03-09",
+        "trigger": "Update county code to address data centers",
+        "current_status": "Extended as of 2026-09-23: an initial 30-day emergency moratorium (August 2026) was converted to a 180-day moratorium by resolution, then extended alongside a parallel R-1 zoning moratorium at a Board of Commissioners meeting the week of 2026-09-08, through 2027-03-09.",
+        "affected_projects": "None named",
+        "outcome": "Board adopted and then extended a data center moratorium while updating the county code.",
+        "has_verify_tags": "False",
+        "verify_count": "0",
+        "cite_count": "0",
+        "activity_level": "High",
+        "enacted_status": "extended",
+        "moratorium_id": "ga-banks-county-2026",
+        "latitude": "34.337860",
+        "longitude": "-83.497003",
+        "date_enacted_iso": "2026-08",
+        "date_enacted_uncertainty": "month_only",
+        "duration_days": "",
+        "duration_kind": "until_date",
+        "current_end_date_iso": "2027-03-09",
+        "sectors": "[\"data_center\"]",
+        "trigger_categories": "[\"regulatory_gap\"]"
+      },
+      "guard_match_current_csv": true,
+      "overall": "unresolved",
+      "fields": {
+        "state": {
+          "disposition": "qualified",
+          "reason": "The cited jurisdiction source places this action in Georgia; it is evidence of location, not a validation of every row field.",
+          "source_refs": [
+            {
+              "source": "banks_minutes",
+              "text_lines": [
+                1,
+                8
+              ]
+            }
+          ],
+          "value": "Georgia"
+        },
+        "state_abbrev": {
+          "disposition": "dataset_derived",
+          "reason": "GA is the dataset abbreviation for Georgia, not an independently sourced legal claim.",
+          "source_refs": [
+            {
+              "source": "banks_minutes",
+              "text_lines": [
+                1,
+                8
+              ]
+            }
+          ],
+          "value": "GA"
+        },
+        "jurisdiction": {
+          "disposition": "qualified",
+          "reason": "The examined source identifies Banks County or its governing body; exact inventory naming and coverage require matching the operative instrument.",
+          "source_refs": [
+            {
+              "source": "banks_minutes",
+              "text_lines": [
+                1,
+                8
+              ]
+            }
+          ],
+          "next_requirement": "Confirm legal geographic scope in the instrument.",
+          "value": "Banks County"
+        },
+        "jurisdiction_type": {
+          "disposition": "qualified",
+          "reason": "The governing body is identified in the source; inventory jurisdiction type does not by itself determine the geographic reach of the moratorium.",
+          "source_refs": [
+            {
+              "source": "banks_minutes",
+              "text_lines": [
+                1,
+                8
+              ]
+            }
+          ],
+          "next_requirement": "Confirm legal jurisdiction and territorial coverage.",
+          "value": "County"
+        },
+        "date_enacted": {
+          "disposition": "qualified",
+          "reason": "Official minutes date the 30-day emergency motion August 11; September reporting describes a later extension through March 9 without specifying year in the passage.",
+          "source_refs": [
+            {
+              "source": "banks_minutes",
+              "text_lines": [
+                1,
+                8
+              ]
+            },
+            {
+              "source": "banks_minutes",
+              "text_lines": [
+                298,
+                313
+              ]
+            },
+            {
+              "source": "banks_news",
+              "text_lines": [
+                60,
+                78
+              ]
+            }
+          ],
+          "next_requirement": "Obtain signed September extension and later actions.",
+          "value": "Banks County Board of Commissioners approved a data center moratorium in August 2026 (reported 2026-08-16); extended at a September 2026 meeting through 2027-03-09"
+        },
+        "duration": {
+          "disposition": "contradicted",
+          "reason": "The row says initial term was unstated, but August 11 minutes explicitly record a 30-day emergency motion. September report gives March 9 without year.",
+          "source_refs": [
+            {
+              "source": "banks_minutes",
+              "text_lines": [
+                1,
+                8
+              ]
+            },
+            {
+              "source": "banks_minutes",
+              "text_lines": [
+                298,
+                313
+              ]
+            },
+            {
+              "source": "banks_news",
+              "text_lines": [
+                60,
+                78
+              ]
+            }
+          ],
+          "next_requirement": "Obtain enacted extension to establish its year, conditions and operative term.",
+          "value": "Initial term not stated in accessible text; extended through 2027-03-09"
+        },
+        "legal_basis": {
+          "disposition": "qualified",
+          "reason": "Minutes record a 30-day emergency motion on special-use applications and reporting describes an extension. The alleged intermediate 180-day resolution and its relationship to September action remain unproven.",
+          "source_refs": [
+            {
+              "source": "banks_minutes",
+              "text_lines": [
+                1,
+                8
+              ]
+            },
+            {
+              "source": "banks_minutes",
+              "text_lines": [
+                298,
+                313
+              ]
+            },
+            {
+              "source": "banks_news",
+              "text_lines": [
+                60,
+                78
+              ]
+            }
+          ],
+          "next_requirement": "Obtain signed resolution and subsequent minutes.",
+          "value": "Banks County Board of Commissioners initial 30-day emergency moratorium on data center applications (August 2026, to update the county code), superseded by a 180-day moratorium; extended alongside a companion R-1 zoning moratorium at a meeting the week of 2026-09-08 through 2027-03-09"
+        },
+        "trigger": {
+          "disposition": "supported",
+          "reason": "Minutes record need for time to decide zoning placement and standards for data centers.",
+          "source_refs": [
+            {
+              "source": "banks_minutes",
+              "text_lines": [
+                298,
+                313
+              ]
+            }
+          ],
+          "value": "Update county code to address data centers"
+        },
+        "current_status": {
+          "disposition": "qualified",
+          "reason": "Initial emergency vote and later reported extension are evidenced; conversion to a 180-day resolution, exact September date, endpoint year and later force remain unproven.",
+          "source_refs": [
+            {
+              "source": "banks_minutes",
+              "text_lines": [
+                1,
+                8
+              ]
+            },
+            {
+              "source": "banks_minutes",
+              "text_lines": [
+                298,
+                313
+              ]
+            },
+            {
+              "source": "banks_news",
+              "text_lines": [
+                60,
+                78
+              ]
+            }
+          ],
+          "next_requirement": "Obtain actual extension resolution and action history through target.",
+          "value": "Extended as of 2026-09-23: an initial 30-day emergency moratorium (August 2026) was converted to a 180-day moratorium by resolution, then extended alongside a parallel R-1 zoning moratorium at a Board of Commissioners meeting the week of 2026-09-08, through 2027-03-09."
+        },
+        "affected_projects": {
+          "disposition": "unresolved",
+          "reason": "Minutes do not name a project in the motion; that does not establish that none were affected.",
+          "source_refs": [
+            {
+              "source": "banks_minutes",
+              "text_lines": [
+                298,
+                313
+              ]
+            }
+          ],
+          "next_requirement": "Review applications and project-specific records.",
+          "value": "None named"
+        },
+        "outcome": {
+          "disposition": "qualified",
+          "reason": "Official minutes record the initial motion and a September news report describes extension; exact executed terms remain open.",
+          "source_refs": [
+            {
+              "source": "banks_minutes",
+              "text_lines": [
+                298,
+                313
+              ]
+            },
+            {
+              "source": "banks_news",
+              "text_lines": [
+                60,
+                78
+              ]
+            }
+          ],
+          "next_requirement": "Obtain subsequent resolution and minutes.",
+          "value": "Board adopted and then extended a data center moratorium while updating the county code."
+        },
+        "has_verify_tags": {
+          "disposition": "dataset_derived",
+          "reason": "False is an inventory tag-derived value; it does not establish source completeness.",
+          "source_refs": [],
+          "value": "False"
+        },
+        "verify_count": {
+          "disposition": "dataset_derived",
+          "reason": "Zero is an inventory tag count, not a count of facts independently verified.",
+          "source_refs": [],
+          "value": "0"
+        },
+        "cite_count": {
+          "disposition": "dataset_derived",
+          "reason": "Zero is the recorded inventory citation count; it does not mean no source exists.",
+          "source_refs": [],
+          "value": "0"
+        },
+        "activity_level": {
+          "disposition": "dataset_derived",
+          "reason": "High is a dataset classification; the evidence examined does not independently define its threshold.",
+          "source_refs": [],
+          "next_requirement": "Check derivation and classification rules.",
+          "value": "High"
+        },
+        "enacted_status": {
+          "disposition": "qualified",
+          "reason": "September 13 reporting describes a historical extension; its force on November 7 is not established.",
+          "source_refs": [
+            {
+              "source": "banks_news",
+              "text_lines": [
+                60,
+                78
+              ]
+            }
+          ],
+          "next_requirement": "Obtain extension and later action history.",
+          "value": "extended"
+        },
+        "moratorium_id": {
+          "disposition": "dataset_derived",
+          "reason": "The identifier is an inventory key for this row; its spelling or date suffix does not establish an adoption date.",
+          "source_refs": [],
+          "value": "ga-banks-county-2026"
+        },
+        "latitude": {
+          "disposition": "no_coordinate_provenance",
+          "reason": "The latitude for Banks County has no examined row-specific geocoding source or point definition.",
+          "source_refs": [],
+          "next_requirement": "Obtain geocoder, coordinate method and intended geographic point.",
+          "value": "34.337860"
+        },
+        "longitude": {
+          "disposition": "no_coordinate_provenance",
+          "reason": "The longitude for Banks County has no examined row-specific geocoding source or point definition.",
+          "source_refs": [],
+          "next_requirement": "Obtain geocoder, coordinate method and intended geographic point.",
+          "value": "-83.497003"
+        },
+        "date_enacted_iso": {
+          "disposition": "qualified",
+          "reason": "August 2026 is consistent but coarser than official minutes, which identify August 11 for the emergency motion.",
+          "source_refs": [
+            {
+              "source": "banks_minutes",
+              "text_lines": [
+                1,
+                8
+              ]
+            },
+            {
+              "source": "banks_minutes",
+              "text_lines": [
+                298,
+                313
+              ]
+            }
+          ],
+          "next_requirement": "Confirm this is the intended initial instrument before narrowing the date.",
+          "value": "2026-08"
+        },
+        "date_enacted_uncertainty": {
+          "disposition": "qualified",
+          "reason": "Month-only describes the current encoded value, although official minutes date the motion August 11.",
+          "source_refs": [
+            {
+              "source": "banks_minutes",
+              "text_lines": [
+                1,
+                8
+              ]
+            },
+            {
+              "source": "banks_minutes",
+              "text_lines": [
+                298,
+                313
+              ]
+            }
+          ],
+          "next_requirement": "Adjudicate date precision with the intended initial action.",
+          "value": "month_only"
+        },
+        "duration_days": {
+          "disposition": "qualified",
+          "reason": "Blank is not a claim of no term; the August motion specifies 30 days, while later operative duration is not established.",
+          "source_refs": [
+            {
+              "source": "banks_minutes",
+              "text_lines": [
+                298,
+                313
+              ]
+            },
+            {
+              "source": "banks_news",
+              "text_lines": [
+                60,
+                78
+              ]
+            }
+          ],
+          "next_requirement": "Determine whether this field encodes initial or current duration, then review instruments.",
+          "value": ""
+        },
+        "duration_kind": {
+          "disposition": "qualified",
+          "reason": "A reported later extension through March 9 is compatible with an endpoint classification; year and operative resolution are not directly established.",
+          "source_refs": [
+            {
+              "source": "banks_news",
+              "text_lines": [
+                60,
+                78
+              ]
+            }
+          ],
+          "next_requirement": "Review codebook and executed extension.",
+          "value": "until_date"
+        },
+        "current_end_date_iso": {
+          "disposition": "qualified",
+          "reason": "September 2026 report says March 9, consistent with 2027 in context, but does not itself state the year or establish later changes.",
+          "source_refs": [
+            {
+              "source": "banks_news",
+              "text_lines": [
+                60,
+                78
+              ]
+            }
+          ],
+          "next_requirement": "Obtain signed extension with year and later actions.",
+          "value": "2027-03-09"
+        },
+        "sectors": {
+          "disposition": "dataset_derived",
+          "reason": "Minutes specify special-use applications for data centers; the array is a classification.",
+          "source_refs": [
+            {
+              "source": "banks_minutes",
+              "text_lines": [
+                298,
+                313
+              ]
+            }
+          ],
+          "next_requirement": "Confirm taxonomy and later scope.",
+          "value": "[\"data_center\"]"
+        },
+        "trigger_categories": {
+          "disposition": "dataset_derived",
+          "reason": "Regulatory-gap label interprets the stated need for zoning standards.",
+          "source_refs": [
+            {
+              "source": "banks_minutes",
+              "text_lines": [
+                298,
+                313
+              ]
+            }
+          ],
+          "next_requirement": "Check category codebook and full findings.",
+          "value": "[\"regulatory_gap\"]"
+        }
+      }
+    },
+    {
+      "moratorium_id": "ga-bloomingdale-2026",
+      "guard": {
+        "state": "Georgia",
+        "state_abbrev": "GA",
+        "jurisdiction": "Bloomingdale",
+        "jurisdiction_type": "City",
+        "date_enacted": "2026-08-20, Bloomingdale City Council, unanimous (Thursday meeting), Resolution No. 2026-012",
+        "duration": "Through 11:59 p.m. on 2027-02-16 (about six months)",
+        "legal_basis": "Resolution No. 2026-012 (City of Bloomingdale) declaring a moratorium on acceptance of applications relating to establishment or expansion of data centers",
+        "trigger": "OpenAI's Project Camellia in neighboring Effingham County; protect residents' access to power and water",
+        "current_status": "Active as of 2026-09-23; moratorium adopted 2026-08-20 bars data center applications, permits and licenses in Bloomingdale through 2027-02-16.",
+        "affected_projects": "None in city; OpenAI project in Effingham County cited",
+        "outcome": "City Council unanimously adopted a six-month data center moratorium while the city studies regulations.",
+        "has_verify_tags": "False",
+        "verify_count": "0",
+        "cite_count": "0",
+        "activity_level": "High",
+        "enacted_status": "active",
+        "moratorium_id": "ga-bloomingdale-2026",
+        "latitude": "32.132425",
+        "longitude": "-81.299002",
+        "date_enacted_iso": "2026-08-20",
+        "date_enacted_uncertainty": "exact",
+        "duration_days": "",
+        "duration_kind": "until_date",
+        "current_end_date_iso": "",
+        "sectors": "[\"data_center\"]",
+        "trigger_categories": "[\"specific_project\",\"water\",\"grid_energy\",\"regulatory_gap\"]"
+      },
+      "guard_match_current_csv": true,
+      "overall": "unresolved",
+      "fields": {
+        "state": {
+          "disposition": "qualified",
+          "reason": "The cited jurisdiction source places this action in Georgia; it is evidence of location, not a validation of every row field.",
+          "source_refs": [
+            {
+              "source": "bloom_news",
+              "text_lines": [
+                3,
+                9
+              ]
+            }
+          ],
+          "value": "Georgia"
+        },
+        "state_abbrev": {
+          "disposition": "dataset_derived",
+          "reason": "GA is the dataset abbreviation for Georgia, not an independently sourced legal claim.",
+          "source_refs": [
+            {
+              "source": "bloom_news",
+              "text_lines": [
+                3,
+                9
+              ]
+            }
+          ],
+          "value": "GA"
+        },
+        "jurisdiction": {
+          "disposition": "qualified",
+          "reason": "The examined source identifies Bloomingdale or its governing body; exact inventory naming and coverage require matching the operative instrument.",
+          "source_refs": [
+            {
+              "source": "bloom_news",
+              "text_lines": [
+                3,
+                9
+              ]
+            }
+          ],
+          "next_requirement": "Confirm legal geographic scope in the instrument.",
+          "value": "Bloomingdale"
+        },
+        "jurisdiction_type": {
+          "disposition": "qualified",
+          "reason": "The governing body is identified in the source; inventory jurisdiction type does not by itself determine the geographic reach of the moratorium.",
+          "source_refs": [
+            {
+              "source": "bloom_news",
+              "text_lines": [
+                3,
+                9
+              ]
+            }
+          ],
+          "next_requirement": "Confirm legal jurisdiction and territorial coverage.",
+          "value": "City"
+        },
+        "date_enacted": {
+          "disposition": "qualified",
+          "reason": "August 22 report says unanimous Thursday approval, consistent with August 20; draft bears 2026-012 but blank adoption/signature lines.",
+          "source_refs": [
+            {
+              "source": "bloom_news",
+              "text_lines": [
+                3,
+                9
+              ]
+            },
+            {
+              "source": "bloom_draft",
+              "text_lines": [
+                109,
+                127
+              ]
+            }
+          ],
+          "next_requirement": "Obtain signed resolution and official minutes.",
+          "value": "2026-08-20, Bloomingdale City Council, unanimous (Thursday meeting), Resolution No. 2026-012"
+        },
+        "duration": {
+          "disposition": "qualified",
+          "reason": "Report gives February 16, 2027; proposed text states 11:59 p.m. and permits shortening or extension, but is not signed proof.",
+          "source_refs": [
+            {
+              "source": "bloom_news",
+              "text_lines": [
+                3,
+                9
+              ]
+            },
+            {
+              "source": "bloom_draft",
+              "text_lines": [
+                89,
+                91
+              ]
+            }
+          ],
+          "next_requirement": "Obtain executed text and subsequent action history.",
+          "value": "Through 11:59 p.m. on 2027-02-16 (about six months)"
+        },
+        "legal_basis": {
+          "disposition": "qualified",
+          "reason": "Reported moratorium addresses new and expanded data centers; number 2026-012 appears in a proposed unsigned document, not an examined executed instrument.",
+          "source_refs": [
+            {
+              "source": "bloom_news",
+              "text_lines": [
+                3,
+                9
+              ]
+            },
+            {
+              "source": "bloom_draft",
+              "text_lines": [
+                109,
+                127
+              ]
+            }
+          ],
+          "next_requirement": "Obtain executed resolution and minutes.",
+          "value": "Resolution No. 2026-012 (City of Bloomingdale) declaring a moratorium on acceptance of applications relating to establishment or expansion of data centers"
+        },
+        "trigger": {
+          "disposition": "qualified",
+          "reason": "Report links Project Camellia and cites power/water protection and need for regulation; it does not establish that the neighboring project was itself subject to the city moratorium.",
+          "source_refs": [
+            {
+              "source": "bloom_news",
+              "text_lines": [
+                3,
+                9
+              ]
+            }
+          ],
+          "next_requirement": "Review adopted findings and council record.",
+          "value": "OpenAI's Project Camellia in neighboring Effingham County; protect residents' access to power and water"
+        },
+        "current_status": {
+          "disposition": "qualified",
+          "reason": "August report describes adoption and February endpoint, not continuous force as of September 23 or November 7; scope includes multiple application and approval types.",
+          "source_refs": [
+            {
+              "source": "bloom_news",
+              "text_lines": [
+                3,
+                9
+              ]
+            }
+          ],
+          "next_requirement": "Obtain executed instrument and later council actions.",
+          "value": "Active as of 2026-09-23; moratorium adopted 2026-08-20 bars data center applications, permits and licenses in Bloomingdale through 2027-02-16."
+        },
+        "affected_projects": {
+          "disposition": "qualified",
+          "reason": "Project Camellia is identified in neighboring Effingham County; no city project is identified in the report, which does not establish that none exists.",
+          "source_refs": [
+            {
+              "source": "bloom_news",
+              "text_lines": [
+                3,
+                9
+              ]
+            }
+          ],
+          "next_requirement": "Review city applications and actual project impacts.",
+          "value": "None in city; OpenAI project in Effingham County cited"
+        },
+        "outcome": {
+          "disposition": "qualified",
+          "reason": "Local reporting says council unanimously adopted a six-month moratorium to study regulations; adopted text is not examined.",
+          "source_refs": [
+            {
+              "source": "bloom_news",
+              "text_lines": [
+                3,
+                9
+              ]
+            }
+          ],
+          "next_requirement": "Obtain approved minutes and signed resolution.",
+          "value": "City Council unanimously adopted a six-month data center moratorium while the city studies regulations."
+        },
+        "has_verify_tags": {
+          "disposition": "dataset_derived",
+          "reason": "False is an inventory tag-derived value; it does not establish source completeness.",
+          "source_refs": [],
+          "value": "False"
+        },
+        "verify_count": {
+          "disposition": "dataset_derived",
+          "reason": "Zero is an inventory tag count, not a count of facts independently verified.",
+          "source_refs": [],
+          "value": "0"
+        },
+        "cite_count": {
+          "disposition": "dataset_derived",
+          "reason": "Zero is the recorded inventory citation count; it does not mean no source exists.",
+          "source_refs": [],
+          "value": "0"
+        },
+        "activity_level": {
+          "disposition": "dataset_derived",
+          "reason": "High is a dataset classification; the evidence examined does not independently define its threshold.",
+          "source_refs": [],
+          "next_requirement": "Check derivation and classification rules.",
+          "value": "High"
+        },
+        "enacted_status": {
+          "disposition": "unresolved",
+          "reason": "The reported planned endpoint alone cannot establish active force on November 7; changes may have occurred.",
+          "source_refs": [
+            {
+              "source": "bloom_news",
+              "text_lines": [
+                3,
+                9
+              ]
+            },
+            {
+              "source": "bloom_draft",
+              "text_lines": [
+                89,
+                91
+              ]
+            }
+          ],
+          "next_requirement": "Obtain later action history and enacted terms.",
+          "value": "active"
+        },
+        "moratorium_id": {
+          "disposition": "dataset_derived",
+          "reason": "The identifier is an inventory key for this row; its spelling or date suffix does not establish an adoption date.",
+          "source_refs": [],
+          "value": "ga-bloomingdale-2026"
+        },
+        "latitude": {
+          "disposition": "no_coordinate_provenance",
+          "reason": "The latitude for Bloomingdale has no examined row-specific geocoding source or point definition.",
+          "source_refs": [],
+          "next_requirement": "Obtain geocoder, coordinate method and intended geographic point.",
+          "value": "32.132425"
+        },
+        "longitude": {
+          "disposition": "no_coordinate_provenance",
+          "reason": "The longitude for Bloomingdale has no examined row-specific geocoding source or point definition.",
+          "source_refs": [],
+          "next_requirement": "Obtain geocoder, coordinate method and intended geographic point.",
+          "value": "-81.299002"
+        },
+        "date_enacted_iso": {
+          "disposition": "qualified",
+          "reason": "August 22 report says the unanimous vote occurred Thursday, consistent with August 20; official minutes are not examined.",
+          "source_refs": [
+            {
+              "source": "bloom_news",
+              "text_lines": [
+                3,
+                9
+              ]
+            }
+          ],
+          "next_requirement": "Obtain dated minutes and executed resolution.",
+          "value": "2026-08-20"
+        },
+        "date_enacted_uncertainty": {
+          "disposition": "qualified",
+          "reason": "Exact date is inferred from the dated report and weekday, rather than independently verified minutes.",
+          "source_refs": [
+            {
+              "source": "bloom_news",
+              "text_lines": [
+                3,
+                9
+              ]
+            }
+          ],
+          "next_requirement": "Obtain official dated vote record.",
+          "value": "exact"
+        },
+        "duration_days": {
+          "disposition": "qualified",
+          "reason": "Blank does not imply no term: report describes six months through February 16, while precise inclusive day convention is not established.",
+          "source_refs": [
+            {
+              "source": "bloom_news",
+              "text_lines": [
+                3,
+                9
+              ]
+            }
+          ],
+          "next_requirement": "Review executed term and dataset day-count convention.",
+          "value": ""
+        },
+        "duration_kind": {
+          "disposition": "qualified",
+          "reason": "The report gives a stated endpoint and the proposed text gives an expiration condition; adoption and subsequent changes need verification.",
+          "source_refs": [
+            {
+              "source": "bloom_news",
+              "text_lines": [
+                3,
+                9
+              ]
+            },
+            {
+              "source": "bloom_draft",
+              "text_lines": [
+                89,
+                91
+              ]
+            }
+          ],
+          "next_requirement": "Obtain signed text and check codebook.",
+          "value": "until_date"
+        },
+        "current_end_date_iso": {
+          "disposition": "qualified",
+          "reason": "Blank leaves an available reported endpoint unencoded: February 16, 2027. Its current validity and enacted conditions remain unverified.",
+          "source_refs": [
+            {
+              "source": "bloom_news",
+              "text_lines": [
+                3,
+                9
+              ]
+            },
+            {
+              "source": "bloom_draft",
+              "text_lines": [
+                89,
+                91
+              ]
+            }
+          ],
+          "next_requirement": "Obtain signed resolution and later actions before filling endpoint.",
+          "value": ""
+        },
+        "sectors": {
+          "disposition": "dataset_derived",
+          "reason": "News describes new or expanded data centers; the encoded array is a taxonomy classification.",
+          "source_refs": [
+            {
+              "source": "bloom_news",
+              "text_lines": [
+                3,
+                9
+              ]
+            }
+          ],
+          "next_requirement": "Confirm adopted scope and taxonomy.",
+          "value": "[\"data_center\"]"
+        },
+        "trigger_categories": {
+          "disposition": "dataset_derived",
+          "reason": "Reported project context, power, water and regulatory study correspond to the labels, but labels are interpretive and project causation is not proven.",
+          "source_refs": [
+            {
+              "source": "bloom_news",
+              "text_lines": [
+                3,
+                9
+              ]
+            }
+          ],
+          "next_requirement": "Compare adopted findings against category definitions.",
+          "value": "[\"specific_project\",\"water\",\"grid_energy\",\"regulatory_gap\"]"
+        }
+      }
+    }
+  ],
+  "guarded_proposals": [
+    {
+      "moratorium_id": "ga-banks-county-2026",
+      "field": "duration",
+      "expected_value": "Initial term not stated in accessible text; extended through 2027-03-09",
+      "proposed_value": "Initial 30-day emergency moratorium enacted August 11, 2026; a later extension through March 9 was reported, with the year and operative terms requiring verification.",
+      "reason": "Official minutes explicitly state 30 days, contradicting the assertion that the initial term was unstated.",
+      "source_refs": [
+        {
+          "source": "banks_minutes",
+          "text_lines": [
+            1,
+            8
+          ]
+        },
+        {
+          "source": "banks_minutes",
+          "text_lines": [
+            298,
+            313
+          ]
+        },
+        {
+          "source": "banks_news",
+          "text_lines": [
+            60,
+            78
+          ]
+        }
+      ],
+      "apply": false
+    }
+  ],
+  "scope_note": "Four-row subdivision only; 12-row/312-field task and 1772-record scope remain open; independent adjudication required."
+}

@@ -90,7 +90,7 @@ def current_metadata(source):
     snapshot=(source/'data/expanded').resolve(strict=True);projection=(source/'data/expanded-csv').resolve(strict=True)
     require(snapshot.is_relative_to(source.resolve()) and projection.is_relative_to(source.resolve()),'Source pointer escapes replay tree')
     publication=json.loads((snapshot/'publication.json').read_text());csv_manifest=json.loads((projection/'manifest.json').read_text())
-    if publication['plan'].get('validation_profile',{}).get('name') in ('1.0.2','1.0.3'):
+    if publication['plan'].get('validation_profile',{}).get('name') in ('1.0.2','1.0.3','1.0.4'):
         require((projection/'instrument_events_current.csv').is_file() and (projection/'instrument_event_status.csv').is_file(),'Profile 1.0.2 requires current/status event views')
     def csv_count(path):return len(list(csv.DictReader(io.StringIO(path.read_text()))))
     def jsonl_count(path):return sum(1 for l in path.read_text().splitlines() if json.loads(l))

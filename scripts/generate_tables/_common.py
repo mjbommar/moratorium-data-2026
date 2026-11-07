@@ -45,6 +45,9 @@ class InventoryRow:
     date_enacted_iso: str = ""
     date_enacted_uncertainty: str = ""
     enacted_status: str = ""
+    duration_days: str = ""
+    duration_kind: str = "unknown"
+    sectors: str = "[]"
 
     @classmethod
     def from_csv_dict(cls, d: dict) -> "InventoryRow":
@@ -64,6 +67,9 @@ class InventoryRow:
             date_enacted_iso=d.get("date_enacted_iso", "").strip(),
             date_enacted_uncertainty=d.get("date_enacted_uncertainty", "").strip(),
             enacted_status=d.get("enacted_status", "").strip(),
+            duration_days=d.get("duration_days", "").strip(),
+            duration_kind=d.get("duration_kind", "unknown").strip(),
+            sectors=d.get("sectors", "[]").strip(),
         )
 
 
