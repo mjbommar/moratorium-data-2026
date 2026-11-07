@@ -1,0 +1,208 @@
+{
+  "root-archive-first-apply.json": {
+    "receipt_sha256": "81d084ddcc5fbcba7122a663ee3d0c2e11cb9449c08c3c994a95488df6390be5",
+    "states": [
+      {
+        "state": "CA",
+        "apply": true,
+        "new_sources": 2,
+        "sources": [
+          {
+            "url": "https://results.lavote.gov/text-results/4348",
+            "status": 200,
+            "ok": true,
+            "fetched_at": "2026-11-07T22:33:55.510212+00:00",
+            "sha256": "751b67ba0279ea8f791024d8cc0b1a9934f3e0c73affe80b62e603b4a359c18d",
+            "text_sha256": "6950e4510750414033a940868ab2e77e311d8aa35fa608eb5fe5d21500e9a3db",
+            "text_chars": 130829,
+            "attempt_id": "862feafec3594de4a06da0108586b72f",
+            "published": false,
+            "retrieval_observation": {
+              "from_cache": false,
+              "origin_revalidated": false,
+              "body_observed_at": "2026-11-07T22:33:55.502741Z",
+              "origin_attempt_statuses": [],
+              "scope": "Retrieval/cache lineage only; not renewed factual or legal-force acceptance."
+            }
+          },
+          {
+            "url": "https://results.lavote.gov/text-results/4338",
+            "status": 200,
+            "ok": true,
+            "fetched_at": "2026-11-07T22:34:03.849046+00:00",
+            "sha256": "51bd7c518d1d3a35dfb4e3e8a36d53500b2dfc17b94a73c0224f5b3f56a30e94",
+            "text_sha256": "b2e4dd0370f7f661767c860d744a16c2b1b306a6230d82a2404e0069bd2dc055",
+            "text_chars": 56488,
+            "attempt_id": "d494bbd341934127ac053743ee252827",
+            "published": false,
+            "retrieval_observation": {
+              "from_cache": false,
+              "origin_revalidated": false,
+              "body_observed_at": "2026-11-07T22:34:03.844671Z",
+              "origin_attempt_statuses": [],
+              "scope": "Retrieval/cache lineage only; not renewed factual or legal-force acceptance."
+            }
+          }
+        ]
+      },
+      {
+        "state": "FL",
+        "apply": true,
+        "new_sources": 1,
+        "sources": [
+          {
+            "url": "https://app.enhancedvoting.com/results/public/volusia-county-fl/elections/2026GeneralElection?cg=Edgewater",
+            "status": 200,
+            "ok": true,
+            "fetched_at": "2026-11-07T22:34:23.318730+00:00",
+            "sha256": "fbd5af97aad303d42469ac5ad11d2e8fe547284b64c34963c6328e6d3daf7bc8",
+            "text_sha256": "140279ea3a0d1ddb339469a872ced94b68ea374e9f55deae5fdfecade244ccef",
+            "text_chars": 944,
+            "attempt_id": "2ff1764ccffb45bbb4c7dfd0109973ba",
+            "published": false,
+            "retrieval_observation": {
+              "from_cache": false,
+              "origin_revalidated": false,
+              "body_observed_at": "2026-11-07T22:34:23.165096Z",
+              "origin_attempt_statuses": [],
+              "scope": "Retrieval/cache lineage only; not renewed factual or legal-force acceptance."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "root-archive-empty-text-apply.json": {
+    "receipt_sha256": "4fe6493b07495257acbda96e9c6238b9cab2541cce50772eb5abacfbe2069999",
+    "states": [
+      {
+        "state": "CA",
+        "apply": true,
+        "new_sources": 0,
+        "sources": []
+      },
+      {
+        "state": "FL",
+        "apply": true,
+        "new_sources": 2,
+        "sources": [
+          {
+            "url": "https://app.enhancedvoting.com/cdn/results/volusia-county-fl/export-2026GeneralElection.json",
+            "status": 200,
+            "ok": true,
+            "fetched_at": "2026-11-07T22:34:05.220852+00:00",
+            "sha256": "c447f96f1ea2033543c3dbc1fedc66fb883680bd7d0de152cd7660b4272963a4",
+            "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "text_chars": 0,
+            "attempt_id": "aa03b5281de444c2bf4a789859ed3d35",
+            "published": false,
+            "extraction_gap": "No readable text extracted; original successful response body retained privately.",
+            "retrieval_observation": {
+              "from_cache": false,
+              "origin_revalidated": false,
+              "body_observed_at": "2026-11-07T22:34:05.219798Z",
+              "origin_attempt_statuses": [],
+              "scope": "Retrieval/cache lineage only; not renewed factual or legal-force acceptance."
+            }
+          },
+          {
+            "url": "https://app.enhancedvoting.com/results/public/volusia-county-fl/elections/2026GeneralElection?cg=Edgewater",
+            "status": 200,
+            "ok": true,
+            "fetched_at": "2026-11-07T22:34:06.491064+00:00",
+            "sha256": "bb1fe91c6d56fde7ffca4d6615a3ea434ed3d343df53aafce5116a264b45e1b2",
+            "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+            "text_chars": 0,
+            "attempt_id": "76324593836c460494504083ce3b18a3",
+            "published": false,
+            "extraction_gap": "No readable text extracted; original successful response body retained privately.",
+            "retrieval_observation": {
+              "from_cache": false,
+              "origin_revalidated": false,
+              "body_observed_at": "2026-11-07T22:34:06.466261Z",
+              "origin_attempt_statuses": [],
+              "scope": "Retrieval/cache lineage only; not renewed factual or legal-force acceptance."
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "native-apply": {
+    "receipt_sha256": "0e9516e6f9f3437806c17a458a9e37d0f3df55e508420eed9f03ea3921792744",
+    "record_count": 6,
+    "eligible_verified_body_records": 6,
+    "gap_records": 0,
+    "issue_counts": {},
+    "migrated_records": 6,
+    "scope": "Reversible legacy-manifest mapping and retained-byte verification only. Original publication values are preserved, not reassessed. All store material remains private; no source/legal acceptance, complete extraction, fresh acquisition or automatic public export. Missing bodies are not migrated as hash-only payloads.",
+    "observations": [
+      {
+        "url": "https://results.lavote.gov/text-results/4348",
+        "original_body_sha256": "751b67ba0279ea8f791024d8cc0b1a9934f3e0c73affe80b62e603b4a359c18d",
+        "original_text_sha256": "6950e4510750414033a940868ab2e77e311d8aa35fa608eb5fe5d21500e9a3db",
+        "fetched_at": "2026-11-07T22:33:55.510212+00:00",
+        "published": false,
+        "issues": [],
+        "observation_id": "b3d29a7d09311754",
+        "metadata_derivation_id": "c697e67993ab7f3d",
+        "text_derivation_id": "b9b959740af0ce8b"
+      },
+      {
+        "url": "https://montereypark.ca.gov/DocumentCenter/View/19275/2026-R56-Certifying-Election-June-2-2026",
+        "original_body_sha256": "5d67d34c9336bb5f3d2946dec0e261c90d57db1e9147af0f638212af1a7accdd",
+        "original_text_sha256": "d2a9d7d74fad2bb1af90c566082928a2724ca689f30900f2e4635595500f31cd",
+        "fetched_at": "2026-11-07T22:34:02.200963+00:00",
+        "published": false,
+        "issues": [],
+        "observation_id": "2a1b764df37a432b",
+        "metadata_derivation_id": "139086e2838eda0b",
+        "text_derivation_id": "a47d35c2b57cb59e"
+      },
+      {
+        "url": "https://results.lavote.gov/text-results/4338",
+        "original_body_sha256": "51bd7c518d1d3a35dfb4e3e8a36d53500b2dfc17b94a73c0224f5b3f56a30e94",
+        "original_text_sha256": "b2e4dd0370f7f661767c860d744a16c2b1b306a6230d82a2404e0069bd2dc055",
+        "fetched_at": "2026-11-07T22:34:03.849046+00:00",
+        "published": false,
+        "issues": [],
+        "observation_id": "a37a6294cd9f352e",
+        "metadata_derivation_id": "05f3fa5940ea4c1c",
+        "text_derivation_id": "b3e8c21d4e3604a9"
+      },
+      {
+        "url": "https://app.enhancedvoting.com/cdn/results/volusia-county-fl/export-2026GeneralElection.json",
+        "original_body_sha256": "c447f96f1ea2033543c3dbc1fedc66fb883680bd7d0de152cd7660b4272963a4",
+        "original_text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "fetched_at": "2026-11-07T22:34:05.220852+00:00",
+        "published": false,
+        "issues": [],
+        "observation_id": "912a2e6f4cced535",
+        "metadata_derivation_id": "dff3a738bfc1dba7",
+        "text_derivation_id": "3b826a3eb64d26b7"
+      },
+      {
+        "url": "https://app.enhancedvoting.com/results/public/volusia-county-fl/elections/2026GeneralElection?cg=Edgewater",
+        "original_body_sha256": "bb1fe91c6d56fde7ffca4d6615a3ea434ed3d343df53aafce5116a264b45e1b2",
+        "original_text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "fetched_at": "2026-11-07T22:34:06.491064+00:00",
+        "published": false,
+        "issues": [],
+        "observation_id": "66d13802105da6e9",
+        "metadata_derivation_id": "2f23e381b5d5d3a7",
+        "text_derivation_id": "b9364e2cfce74ac8"
+      },
+      {
+        "url": "https://app.enhancedvoting.com/results/public/volusia-county-fl/elections/2026GeneralElection?cg=Edgewater",
+        "original_body_sha256": "fbd5af97aad303d42469ac5ad11d2e8fe547284b64c34963c6328e6d3daf7bc8",
+        "original_text_sha256": "140279ea3a0d1ddb339469a872ced94b68ea374e9f55deae5fdfecade244ccef",
+        "fetched_at": "2026-11-07T22:34:23.318730+00:00",
+        "published": false,
+        "issues": [],
+        "observation_id": "a044fdf89441b288",
+        "metadata_derivation_id": "74fcdc72bc467fa4",
+        "text_derivation_id": "0e802c3f077cf967"
+      }
+    ]
+  }
+}

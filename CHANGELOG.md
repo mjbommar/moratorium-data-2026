@@ -2,6 +2,10 @@
 
 ## 2026-11-07 — current working snapshot (unreleased)
 
+The [Alhambra Measure DB observation](work/research/2026-11-07/alhambra-result-publication/README.md) now records 17,319 yes and 3,410 no from the later county return, superseding but retaining the earlier 15,237/3,132 observation. The source reports 83.55% yes; certification, formal outcome and legal effect remain unresolved. Retained results increase from 57 to 58; current results remain 50 and current certified observations remain five. No measure or legacy census row is added. Edgewater and Monterey Park re-observations do not change their accepted figures; Monterey Park concerns the June 2 election.
+
+Successful raw responses with no readable extracted text are now preserved privately with an explicit extraction gap, rather than silently skipped. Five extraction-derivation regression tests cover the archive behavior. This does not promote empty extractions into factual support.
+
 The [overdue local review](work/research/2026-11-07/overdue-local-record-review/README.md) applies ten cells across German Flatts and East Whiteland, while all three reviewed records retain unresolved whole-record dispositions. Clear an unsupported adoption year and fixed-day approximation; record signed September 24 zoning adoption without inferring the earlier curative protection’s endpoint. Verification annotations are recomputed; the flagged-row count becomes 724. Four extraction-lineage tests pass, including accurate derivation-method metadata for scoped OCR.
 
 The [Louisiana review](work/research/2026-11-07/louisiana-policy-source-review/README.md) applies 21 fields across five records after 95 independent assessments, preserving final-version, publication and current-law gaps. A [fresh Ohio result re-observation](work/research/2026-11-07/ohio-result-reobservation/README.md) retains three unchanged reported results and documents conflicting index/PDF certification wording; no expanded snapshot mutation or newly certified result is asserted.

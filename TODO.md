@@ -2,6 +2,9 @@
 
 Plan: [Research modernization and ballot-measure expansion](docs/research-and-ballot-expansion-plan.md).
 
+- [x] Apply the later Alhambra Measure DB return as a superseding observation, retain the predecessor, and regenerate expanded downloads and result prose. Certification, formal outcome, legal effect, hosted verification and the final release remain separate open work.
+- [x] Preserve successful raw source responses with empty text extractions as private evidence with explicit extraction gaps; verify idempotent archival behavior.
+
 - [x] Reconcile seven Seattle survivor narrative fields against retained ordinance/clerk evidence, including expansion exception and distinct work-plan deadlines; preserve current-force and consumer gaps. [Packet](work/research/2026-11-06/seattle-survivor-reconciliation/README.md).
 
 - [x] Refresh California AB2170, AB222 and SB978 primary histories with native Exa/HTTP/pydoll acquisition; qualify three status strings. Ultimate dispositions remain unresolved. [Evidence packet](work/research/2026-11-06/ca-policy-wave3/README.md).

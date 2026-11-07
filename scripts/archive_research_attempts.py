@@ -74,7 +74,6 @@ def import_attempts(directory, state, apply=False, raw_root=None, attempt_ids=No
                 raise ValueError('Derived text drift: '+e['attempt_id'])
         elif hashlib.sha256(text_bytes).hexdigest()!=e['text_sha256']:
             raise ValueError(f"Evidence text drifted without reviewed derivation: {e['attempt_id']}")
-        if not text.strip():continue
         public_url=public_source_url(e['url']);final_url=public_source_url(e['final_url'])
         text_hash = hashlib.sha256(text_bytes).hexdigest()
         body_key = (public_url, e["body_sha256"])
@@ -92,6 +91,8 @@ def import_attempts(directory, state, apply=False, raw_root=None, attempt_ids=No
                "text_method": "bc_research.pipeline.document_text via bounded research client",
                "files": [str(x.relative_to(ROOT)) for x in [raw_path, text_path]],
                "attempt_id": e["attempt_id"], "published": False}
+        if not text.strip():
+            row['extraction_gap']='No readable text extracted; original successful response body retained privately.'
         if 'from_cache' in e or 'revalidated' in e or 'body_observed_at' in e:
             row['retrieval_observation']={
                 'from_cache':e.get('from_cache'), 'origin_revalidated':e.get('revalidated'),

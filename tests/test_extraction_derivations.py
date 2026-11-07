@@ -14,6 +14,30 @@ archive=module('archive_research_attempts');derivation=module('register_text_der
 
 
 class DerivationTests(unittest.TestCase):
+    def test_successful_json_body_survives_empty_text_extraction(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root=Path(tmp);job=root/'job';job.mkdir()
+            body=b'{"yes":17,"no":3}'
+            for suffix,raw in [('body',body),('txt',b''),('json',b'{}')]:
+                (job/f'abc.private.{suffix}').write_bytes(raw)
+            event={'attempt_id':'abc','kind':'fetch','state':'finished','ok':True,
+                   'artifact':str(job/'abc.private.json'),'url':'https://example.gov/results.json',
+                   'final_url':'https://example.gov/results.json','status':200,
+                   'finished_at':'2026-11-07T12:00:00Z',
+                   'body_sha256':hashlib.sha256(body).hexdigest(),
+                   'text_sha256':hashlib.sha256(b'').hexdigest()}
+            (job/'attempts.private.jsonl').write_text(json.dumps(event)+'\n')
+            with patch.object(archive,'ROOT',root):
+                result=archive.import_attempts(job,'FL',apply=True)
+                self.assertEqual(result['new_sources'],1)
+                source=result['sources'][0]
+                self.assertEqual((root/source['files'][0]).read_bytes(),body)
+                self.assertEqual((root/source['files'][1]).read_bytes(),b'')
+                self.assertEqual(source['text_chars'],0)
+                self.assertIn('original successful response body',source['extraction_gap'])
+                self.assertFalse(source['published'])
+                self.assertEqual(archive.import_attempts(job,'FL',apply=True)['new_sources'],0)
+
     def test_signed_download_capability_stays_out_of_public_manifest(self):
         with tempfile.TemporaryDirectory() as tmp:
             root=Path(tmp);job=root/'job';job.mkdir();body=b'Public ordinance text.'
