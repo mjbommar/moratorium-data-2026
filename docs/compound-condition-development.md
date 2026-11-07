@@ -2,9 +2,10 @@
 
 Validation profile [1.0.3](../work/schemas/expanded/1.0.3.json) adds an optional
 `measure_provisions.condition_clauses` field to the retained record format
-`schema_version: "1.0.0"`. The published snapshot still selects **1.0.2**; this
-contract has not migrated, reinterpreted or accepted existing records. Missing
-condition clauses leave the grouping of legacy flat thresholds unspecified.
+`schema_version: "1.0.0"`. The [source-reviewed follow-up](../work/research/2026-11-06/compound-clause-source-review/README.md)
+now selects **1.0.3** and adds twelve descriptive proposed clauses to Mandan and
+Harwood provisions. Legacy flat values and all other prior fields are unchanged.
+Missing condition clauses leave legacy flat grouping unspecified.
 
 Each clause retains its purpose, assertion context, exact `source_text`, and a
 recursive expression. Purposes distinguish definitions, prohibition triggers,
@@ -24,8 +25,10 @@ JSON Schema validation reject duplicates, empty groups and impossible cardinalit
 The canonical schema contains those constraints directly; historical publication
 replay does not import the mutable development Python validator.
 
-For example, Mandan's reviewed proposed prohibition uses capacity **OR** demand,
-while a separate below-threshold provision requires **both** to be below the
+For example, Mandan's reviewed proposed prohibition uses capacity **OR** demand within the separately defined
+Large-Scale Data Center predicate. The capacity-based definition and broader
+measurement language remain interpretively unresolved; no bare OR simplification
+is accepted. A separate below-threshold provision requires **both** to be below the
 threshold. Harwood's proposed procedures distinguish any one major trigger from
 at least two moderate triggers, subject to discretionary municipal approval.
 These examples are known development cases. They do not establish final ballot
@@ -61,7 +64,9 @@ now verifies synthetic success, reconstructed-backend cache replay, failure
 retention and request-cap enforcement using the real SDK and bc-evidence pipeline
 with mock HTTP only. This is transport/control evidence, not extraction accuracy.
 
-Remaining gates: source-grounded development adjudication, a separately frozen
-evaluation cohort and caps, and a successful quality evaluation. The historical result is
+Source adjudication for these twelve clauses is complete. Remaining gates include
+a separately frozen evaluation cohort and caps, successful quality evaluation,
+and broader source/freshness and consumer/release work. The historical result is
 still **32/36 supported, below 95%, with zero review-ready documents**. No new
-extraction-provider call or canonical fact promotion was made by this increment.
+extraction-provider call was made. The later source-reviewed publication is
+separate from this software/control evaluation and does not change that accuracy result.

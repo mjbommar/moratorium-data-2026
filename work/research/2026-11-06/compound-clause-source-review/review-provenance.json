@@ -1,0 +1,87 @@
+{
+  "distributed_cli_reviews": [
+    {
+      "job": "source-conditions-a",
+      "requested_model": "gpt-6.1-terra",
+      "generation_terminal": "turn.completed",
+      "cli_wrapper_exit_code": 0,
+      "report_sha256": "12fc937ddbee20d73a78cf01df6edd47d62aa38f62d0f75b5cdc8bb7f5e1156d",
+      "event_stream_sha256": "a67785aaee81d6c554fe1e26bebb7353b29ef64b470f42c835250b8b2d8c40fc",
+      "scope": "Source-descriptive review; not human ground truth, accuracy, or an independent holdout."
+    },
+    {
+      "job": "source-conditions-b",
+      "requested_model": "gpt-6.1-terra",
+      "generation_terminal": "turn.completed",
+      "cli_wrapper_exit_code": 143,
+      "report_sha256": "033737055c05aa6a057ea60bd48f266a82f9688e8957cd9202fc5aac647c13ae",
+      "event_stream_sha256": "c063a24c99bf26e08eb09eaf1d33e72e40842088fbad2d187ab51933b8715873",
+      "scope": "Source-descriptive review; not human ground truth, accuracy, or an independent holdout."
+    },
+    {
+      "job": "compound-source-final",
+      "requested_model": "gpt-6.1-terra",
+      "generation_terminal": "turn.completed",
+      "cli_wrapper_exit_code": 0,
+      "report_sha256": "8e3d93aafd0c5cb2228e0a6d1aae9ec669b8e2fab5262d8ca9032a63e8850a6d",
+      "event_stream_sha256": "b9eec221ea2da7518b9675b653eed02c7febd4ebfa749e6747210b987cdd422b",
+      "scope": "Source-descriptive review; not human ground truth, accuracy, or an independent holdout."
+    }
+  ],
+  "wrapper_note": "Reviewer B emitted a complete final report and turn.completed event, but its CLI wrapper returned143. The completed artifact was separately schema/source-span verified and retained; no claim of clean wrapper exit or restarted job.",
+  "visual_review": [
+    {
+      "case": "mandan",
+      "physical_page": 4,
+      "scale_to_pixels": 1400,
+      "png_sha256": "14ca57a15d04e16c7d7ff25a1ce8bc06f4828416dc61cc9ea242ca7eca6f0f2d",
+      "visually_reviewed": true
+    },
+    {
+      "case": "mandan",
+      "physical_page": 5,
+      "scale_to_pixels": 1400,
+      "png_sha256": "ba616cbe6ca819ef27e76d5a7fa7f90e129244b6130f49560152ee533cfe60a0",
+      "visually_reviewed": true
+    },
+    {
+      "case": "mandan",
+      "physical_page": 6,
+      "scale_to_pixels": 1400,
+      "png_sha256": "9d9c873b8391aa04da01199d6183f101782802c8be8106b01f76ef09f3b9e4f8",
+      "visually_reviewed": true
+    },
+    {
+      "case": "mandan",
+      "physical_page": 7,
+      "scale_to_pixels": 1400,
+      "png_sha256": "617a88067b74184306f4f7bee6de5102f9556aed64dbde465bf27968f4f36620",
+      "visually_reviewed": true
+    },
+    {
+      "case": "mandan",
+      "physical_page": 8,
+      "scale_to_pixels": 1400,
+      "png_sha256": "c845becce087c626bb6f2e27e17016d2e997f29bbee7123474ab1e04a4471511",
+      "visually_reviewed": true
+    },
+    {
+      "case": "harwood",
+      "physical_page": 3,
+      "scale_to_pixels": 1600,
+      "png_sha256": "fafed9216eca15146023228626c3cdfc4e00efd96ee256a6136e309ae1d2cfd8",
+      "visually_reviewed": true
+    },
+    {
+      "case": "harwood",
+      "physical_page": 4,
+      "scale_to_pixels": 1600,
+      "png_sha256": "819b0c3f05e2ec61cdc6166abe9b287bbe03704fda8800c2455ce59f702020d1",
+      "visually_reviewed": true
+    }
+  ],
+  "extraction_provider_calls": 0,
+  "new_search_calls": 0,
+  "new_fetch_calls": 0,
+  "review_cost": "CLI review spend separately unpriced; zero extraction-provider calls is not zero total model work."
+}

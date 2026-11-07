@@ -1,10 +1,10 @@
 # Event validity publication profile 1.0.2
 
-Profile 1.0.2 connects the tested maintenance contract to validation, publication, offline history checks and CSV export. **The live data now selects profile 1.0.2** following the [source-reviewed five-event migration](../work/research/2026-11-06/event-validity-migration/README.md). Five unchanged historical events have explicit validity acceptance; no real event was withdrawn or corrected. A schema and synthetic source-byte test do not establish source entailment or current legal force.
+Profile 1.0.2 connects the tested maintenance contract to validation, publication, offline history checks and CSV export. The [compound-clause follow-up](compound-condition-development.md) now selects **1.0.3**, preserving this event-validity contract. Profile 1.0.2 was introduced by the [source-reviewed five-event migration](../work/research/2026-11-06/event-validity-migration/README.md). Five unchanged historical events have explicit validity acceptance; no real event was withdrawn or corrected. A schema and synthetic source-byte test do not establish source entailment or current legal force.
 
 ## Version and review contract
 
-Record `schema_version` remains `1.0.0`; the new validation profile is [1.0.2](../work/schemas/expanded/1.0.2.json). Publication plans use version `1.0.2`, with the exact schema hash and `event-validity-v1` semantics. Profiles 1.0.0 and 1.0.1 and their schema bytes remain retained. Historical plans keep their original semantics, including originally unrestricted review scope strings. New maintenance publications require profile 1.0.2 and cannot later downgrade.
+Record `schema_version` remains `1.0.0`; the new validation profile is [1.0.2](../work/schemas/expanded/1.0.2.json). Publication plans use version `1.0.2`, with the exact schema hash and `event-validity-v1` semantics. Profiles 1.0.0 and 1.0.1 and their schema bytes remain retained. Historical plans keep their original semantics, including originally unrestricted review scope strings. New maintenance publications require profile 1.0.2 or its 1.0.3 successor. A 1.0.3 publication cannot downgrade to 1.0.2.
 
 Each event requires one explicit `event_validity` decision chain. Accepted events retain exact instrument/action/occurrence evidence and field acceptance. Withdrawn events retain their immutable original rows and source claims, rejected factual-field decisions and accepted, event-scoped withdrawal-basis evidence. A missing decision is an error. The [maintenance contract](event-maintenance-development.md) explains time-specific support, combined timelines, correction relationships and reinstatement.
 
@@ -43,7 +43,7 @@ The release builder requires every profile declared by the selected validator an
 ## Remaining rollout gates
 
 - The existing five-event validity cohort has been substantively reviewed and promoted. Broader instrument-event migration and complete later legal histories remain open; synthetic withdrawal cases remain clearly labeled and no fake real-data withdrawal was created.
-- Reconcile any consumer that counts retained events as currently accepted; the new views are available only when the source publication actually selects profile 1.0.2.
+- Reconcile any consumer that counts retained events as currently accepted; the new views are available only when the source publication actually selects profile 1.0.2 or 1.0.3.
 - Verify the final committed public bundle and downloaded release assets, final copy and required sibling/hosted delivery.
 
 See the [integration evidence packet](../work/research/2026-11-06/event-validity-integration/README.md). P7 and the overall refresh remain open until their remaining real-data and delivery evidence exists.
