@@ -1,0 +1,47 @@
+{
+  "date": "2026-11-07",
+  "base_commit": "efaeb63b115cd0f20c2500c9ff100642e8f6129a",
+  "scope": "Experimental opt-in direct full-source rule-unit extraction through bc_llm.generate; source inventories for a later separately frozen development evaluation",
+  "files_sha256": {
+    "scripts/extract_rule_units.py": "02c69bdf7f876bdf7ded0a8e0fec89d577457062a51eb19de98503c3eb152cd3",
+    "tests/test_rule_unit_extraction.py": "477ecb7c6d4a417c4e7dd0d1b96cfe6d0bfe48b3233af2486ee704705d9814c5",
+    "tests/test_rule_unit_native_transport.py": "bee155ba0a8b96174da9beb1d005c9eaf51f1fccb37c618a8dc2b9ad3e5f5234",
+    "docs/rule-unit-extraction.md": "a02d9f12efd32fd21c32cd5e30559ecaab95759fd14fb62d9060ce6c304c1781"
+  },
+  "validation": {
+    "full_unittest_suite_passed": 415,
+    "new_focused_tests_passed": 17,
+    "sdk_mock_tests": 2,
+    "live_extraction_calls": 0,
+    "independent_final_review": "gpt-6.1-terra Codex CLI; no remaining material blockers for declared controlled opt-in development scope",
+    "reviewed_documentation_followup": "Coordinator changed human-only wording to independent source reviewers; independent review and all technical limits remain required."
+  },
+  "source_inventory": {
+    "mandan_units": 20,
+    "harwood_units": 66,
+    "source_anchor_count": 86,
+    "initial_boundary_revisions": 23,
+    "added_scope_unit": 1,
+    "final_boundary_fix": "Retain displaced Harwood source fragment in original order and update five context references; no OCR reconstruction",
+    "private_artifacts_sha256": {
+      "mandan-rule-plan-revised.private.json": "6078500f506f43a93cfb80e063324191b78ad0fe60b4ba3c6130383262a13247",
+      "harwood-rule-plan-boundary-fixed.private.json": "6b5fdf11284a9348157071b654de2f29919577c4f52ec708d711cf218535fd66",
+      "inventory-review.private.json": "a297bd534a11b5852f035406470a1c3ad03dac238050585083afdddff7755426",
+      "inventory-final-review.private.json": "1e7e085f537e7a9af77360a9f24599eb56fadc941b5dfbb5538bd225945efce7",
+      "boundary-fix-review.private.json": "1489aa39f3d5867debed6740a7d1d88ccf18b439fb5e92ae567b8c2d1c9a4fe8"
+    },
+    "review_status": "accepted for bounded development inventory with source/OCR and AI review limits",
+    "raw_anchors_or_bodies_published": false,
+    "review_method": "Fresh CLI inventory/review jobs were instructed to use only retained sources and inventory artifacts, excluding scoring rubric and previous generated answers; this is not human gold."
+  },
+  "not_established": [
+    "Live provider acceptance of this new response contract",
+    "Semantic completeness or extraction quality",
+    "Unseen holdout results or overall P4 acceptance",
+    "Current legal force or full source freshness",
+    "Final public release"
+  ],
+  "canonical_records_written": 0,
+  "headline_counts_changed": false,
+  "frozen_experiments_changed": false
+}

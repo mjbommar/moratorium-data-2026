@@ -414,3 +414,10 @@ Exit: repeatable refresh with visible freshness, costs, failures and unresolved 
 - [x] Execute four known-source cases in the new namespace: 12 HTTP attempts, 46 candidate fields, no extra calls on replay (`work/research/2026-11-07/compound-contract-evaluation/`). This does not establish quality acceptance.
 - [x] Complete independent source reviews, selected coordinator adjudication and frozen accounting/quality audit for the revised-contract experiment. Both policies fail; old outputs and all disagreements are preserved. See `compound-contract-evaluation/audit-result.json`.
 - [ ] Complete unseen-holdout and remaining P4 requirements; development performance alone cannot close P4.
+
+### Direct rule-unit extraction development
+
+- [x] Implement opt-in full-source per-rule typed extraction with explicit unresolved slots, sealed durable reservations and private workspace checks; verify 415 tests and independent controlled-development review (`work/audit/rule-unit-extraction-2026-11-07/`). No quality acceptance follows.
+- [x] Prepare and independently review blind source inventories: 20 Mandan / 66 Harwood units, exact anchors and contextual locators private; preserve source/OCR ambiguities.
+- [ ] Freeze a new live protocol for the direct rule-unit path and reviewed source inventories, including actual backend settings/tools/runtime/HTTP/storage/pricing, independent budgets and unchanged quality rules.
+- [ ] Execute and independently source-review that pipeline before broader quality acceptance; keep prior failed experiments, source-specific freshness and unseen holdout requirements open.
