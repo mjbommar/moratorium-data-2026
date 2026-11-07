@@ -6,13 +6,16 @@ import sys
 import tempfile
 import unittest
 from unittest.mock import patch
+from copy import deepcopy
 sys.path.insert(0,str(Path(__file__).resolve().parents[1]/'scripts'))
 import archive_research_attempts as archive
+from audit_refresh_returns import evidence_index, audit_expanded_evidence
 
 
 class ArchiveCacheTests(unittest.TestCase):
-    def add_event(self,directory,ident,cached,url='https://example.invalid/source'):
-        stem=directory/(ident+'.private');raw=b'Retained synthetic source text; no legal facts.'
+    def add_event(self,directory,ident,cached,url='https://example.invalid/source',raw=None):
+        stem=directory/(ident+'.private')
+        if raw is None: raw=b'Retained synthetic source text; no legal facts.'
         Path(str(stem)+'.body').write_bytes(raw);Path(str(stem)+'.txt').write_bytes(raw)
         event=dict(state='finished',kind='fetch',attempt_id=ident,ok=True,status=200,
                    artifact=str(stem)+'.json',body_sha256=hashlib.sha256(raw).hexdigest(),
@@ -61,6 +64,51 @@ class ArchiveCacheTests(unittest.TestCase):
                 with self.assertRaises(ValueError):
                     archive.import_attempts(job,'DE',True,attempt_ids=['not-recorded'])
             self.assertFalse((root/'work/sources').exists())
+
+    def test_changed_url_body_preserves_versions_and_each_claim_binding(self):
+        """A replacement web page cannot silently supply an old claim's quote."""
+        with tempfile.TemporaryDirectory() as tmp:
+            root=Path(tmp);job=root/'job';job.mkdir()
+            url='https://example.invalid/source'
+            old=b'Original synthetic text: amber river.'
+            new=b'Revised synthetic text: violet meadow.'
+            self.add_event(job,'old',False,url,old)
+            with patch.object(archive,'ROOT',root):
+                first=archive.import_attempts(job,'ZZ',True)['sources'][0]
+                manifest=root/'work/sources/ZZ/manifest.jsonl'
+                prefix=manifest.read_bytes()
+                original_files={p:(root/p).read_bytes() for p in first['files']}
+                self.add_event(job,'new',False,url,new)
+                second=archive.import_attempts(job,'ZZ',True)['sources'][0]
+                self.assertNotEqual(first['key'],second['key'])
+                self.assertTrue(manifest.read_bytes().startswith(prefix))
+                self.assertEqual(len(manifest.read_text().splitlines()),2)
+                self.assertEqual(archive.import_attempts(job,'ZZ',True)['new_sources'],0)
+                for path,body in original_files.items():
+                    self.assertEqual((root/path).read_bytes(),body)
+            index,issues,_=evidence_index(job)
+            self.assertEqual(issues,[])
+            records={'source_documents':[], 'claims':[]}
+            for ident,row,quote in [('old',first,'text: amber river.'),('new',second,'text: violet meadow.')]:
+                records['source_documents'].append({'source_document_id':ident,'url':url,
+                    'body_sha256':row['sha256'],'text_sha256':row['text_sha256']})
+                records['claims'].append({'claim_id':ident,'source_document_id':ident,'quote':quote})
+            issues,proofs=audit_expanded_evidence(records,index)
+            self.assertEqual(issues,[])
+            self.assertTrue(all(p['evidence_verified'] for p in proofs))
+            self.assertNotEqual(proofs[0]['verified_text_artifact'],proofs[1]['verified_text_artifact'])
+            crossed=deepcopy(records)
+            crossed['claims'][0]['quote']='violet meadow'
+            self.assertFalse(audit_expanded_evidence(crossed,index)[1][0]['evidence_verified'])
+            crossed=deepcopy(records)
+            crossed['source_documents'][0]['body_sha256']=second['sha256']
+            self.assertTrue(audit_expanded_evidence(crossed,index)[0])
+            (job/'old.private.body').write_bytes(b'changed after collection')
+            tampered,issues,_=evidence_index(job)
+            self.assertTrue(issues)
+            self.assertFalse(audit_expanded_evidence(records,tampered)[1][0]['evidence_verified'])
+            with patch.object(archive,'ROOT',root):
+                with self.assertRaises(ValueError):archive.import_attempts(job,'ZZ',True)
 
 
 if __name__=='__main__':unittest.main()

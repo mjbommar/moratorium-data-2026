@@ -1,0 +1,21 @@
+{
+  "scope": "Offline same-URL source-body replacement, immutable archive continuity and exact source-version quote binding; no source entailment or legal acceptance.",
+  "test": "tests/test_archive_cache_observations.py::ArchiveCacheTests::test_changed_url_body_preserves_versions_and_each_claim_binding",
+  "behaviors": [
+    "Two different bodies at one URL produce distinct archive keys.",
+    "Original archived bytes and manifest prefix remain intact.",
+    "Re-import adds no duplicate version.",
+    "Both old/new claims locate against their own verified source body and text.",
+    "Cross-version quote or mixed body/text hashes cannot satisfy the old claim.",
+    "Tampered retained acquisition body is rejected by evidence index and archive import."
+  ],
+  "tests": {
+    "focused": "9 passed",
+    "full": "421 passed,165 subtests passed",
+    "full_log_sha256": "e423633ff7ec835b28204359285be6c94e643d8f29aecfc759cfbf0c03df3833"
+  },
+  "limits": [
+    "Synthetic offline fixture does not establish provider behavior, legal source coverage or semantic entailment.",
+    "Separate extraction interruption, denominator and other plan requirements remain independent."
+  ]
+}
