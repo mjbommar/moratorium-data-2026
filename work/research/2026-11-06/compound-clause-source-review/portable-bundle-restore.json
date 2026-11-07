@@ -1,0 +1,54 @@
+{
+  "schema_version": "compound-portable-replay-1",
+  "source_commit": "cd5b00f7453ae73023a8ef772a104af537bd9472",
+  "archive": {
+    "name": "moratorium-data-working-candidate.tar.gz",
+    "bytes": 18443168,
+    "sha256": "c4d4a3635eb0196b4ae1b18a934fd3080af88166ca0c87736e7fe9567686a83e"
+  },
+  "manifest_sha256": "777b46343d5eee44fef1adde33ddd0aa71730745c6c49a974c041b295a03c12a",
+  "verified_members": 863,
+  "required_new_members": [
+    "work/research/2026-11-06/compound-clause-source-review/selection.json",
+    "work/research/2026-11-06/compound-clause-source-review/claim-bindings.json",
+    "work/schemas/expanded/1.0.3.json",
+    "scripts/condition_expression.py"
+  ],
+  "restored_without_git": true,
+  "private_source_access_denied": true,
+  "subprocesses_denied": true,
+  "publication": {
+    "state": "consistent",
+    "snapshot_sha256": "f8829533a5e363a1c50e5b82aadf6b48d5aee5d1ac0b45bf1ae602f6dfd57530",
+    "generations_checked": 33,
+    "records": {
+      "jurisdictions": 46,
+      "elections": 46,
+      "ballot_measures": 50,
+      "measure_provisions": 50,
+      "measure_results": 57,
+      "local_restrictions": 1,
+      "instrument_events": 5,
+      "measure_instrument_links": 1,
+      "source_documents": 144,
+      "claims": 540,
+      "review_decisions": 2413,
+      "search_runs": 1,
+      "search_attempts": 3,
+      "search_sightings": 18,
+      "coverage_observations": 1
+    },
+    "scope": "Offline publication/receipt consistency only; no source reacquisition, renewed factual acceptance or current-force confirmation."
+  },
+  "replay": {
+    "state": "already_applied",
+    "sha256": "cf4cd459aaf76cacdcfbcfef133b12ea17f789c65601a747209af7c9bfefd945",
+    "generation_id": "f8829533a5e363a1c50e5b82aadf6b48d5aee5d1ac0b45bf1ae602f6dfd57530",
+    "publication_sha256": "65cb44deebd3981a531e28a24901f3bfd882ec9016313472fceee6b58899e44d"
+  },
+  "csv_views": 18,
+  "csv_generation": "e4cf4a8b345a39a3d9ece13977d14cd0ea7d37db3b8c25d1aa3ecccf1699163b",
+  "all_public_members_unchanged": true,
+  "release_status": "Local working-candidate verification; not final release/tag/deployment",
+  "verification_script_sha256": "4158db479e03bbaedb17951fd6e220a6b8350a96b59bf77f2701f69b25de9e2e"
+}

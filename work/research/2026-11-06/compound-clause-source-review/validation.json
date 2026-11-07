@@ -50,12 +50,13 @@
   "source_acquisition_calls": 0,
   "extraction_provider_calls": 0,
   "files_sha256": {
-    "README.md": "ddf4eca8cff34d72c4aef3b9ccd90d8f5d1d66ebf34b7c5d7355582a9229993a",
+    "README.md": "18a3915d132c18a98566c17fe9b28899c75dc832df26bf376c6bf7d61c72f19c",
     "apply.json": "0899162a932d252f9e1f3a8f69b2098cbb23abd2b92632a4fbe41d5204e09452",
     "claim-bindings.json": "800b63b585f070f7be2f291367865113f9fa180cd71ef21f9dd3002d69a06c4a",
     "final-review.md": "a92c852382e3093e87bf00da9ea3d41cb1edbaa2b82ee2c6964cbd5ca424e7b2",
     "identity-apply.json": "4963704541cb1261f81d59df498b07e044a203e5dbb0e686a00893bf0115d1c9",
     "identity-plan.json": "e1a6b486a8908b748806052b0e8a69c5e26c0ebe7efef64d9febcb8556968720",
+    "portable-bundle-restore.json": "824f285a09db4e236f5a33ae3e5cebd5c714f31abb0b6b5999d457ded8186da1",
     "preflight.json": "4f2fda0fca8489598dd6648095cfd6950ccfe4b11fcf4ef0c3b88a77ac4a68df",
     "prepare.py": "7cedc6b2bf7721d58969f8fa2b3502a2fbcc63cec55b6049d8276cddfbc1cc0a",
     "preservation-check.json": "2fad3cd649f33ef78e41e76ce46997a4d1f27a4c2a2694bce9d4176c6e9ce2a8",
@@ -67,7 +68,18 @@
     "run_publication.py": "ec500f50f6750bba7bbd7782b9db1996ba42c125c0a7baca68a5602708cb0853",
     "selection.json": "8d9e8b5722e2b8381fec22629e07fb3027ad6d47d119103c6df4ac00d433bb51",
     "source-preflight.json": "e6140fa65c0b0e6c41c5c847ce54cc006a820713f111f256b94f919676197e56",
+    "verify_portable.py": "4158db479e03bbaedb17951fd6e220a6b8350a96b59bf77f2701f69b25de9e2e",
     "verify_reviews.py": "5321fb0751a389c70561cd36c0a919601504d094942a6b86acc722aa0000d10c",
     "visual-reviews.json": "cf97f42df75a79ac98f23ed8ba10ae561b5cf4d543d7dbb19aa02d736e571dac"
+  },
+  "portable_bundle": {
+    "source_commit": "cd5b00f7453ae73023a8ef772a104af537bd9472",
+    "members_verified": 863,
+    "publication_generations_checked": 33,
+    "views_verified": 18,
+    "private_source_access_denied": true,
+    "subprocesses_denied": true,
+    "public_member_hashes_unchanged": true,
+    "receipt": "portable-bundle-restore.json"
   }
 }

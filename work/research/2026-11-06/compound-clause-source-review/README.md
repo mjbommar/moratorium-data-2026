@@ -85,3 +85,11 @@ gate remains failed (32/36 supported, zero review-ready documents); a new frozen
 evaluation/driver/cap manifest, broader freshness, consumer/copy reconciliation,
 final release and hosted verification remain open. See [validation](validation.json)
 for the resulting build/check and preservation evidence.
+
+The [portable bundle check](portable-bundle-restore.json) restores the public working
+candidate built from `cd5b00f`, verifies all 863 archive members and 33 publication
+generations, and succeeds at exact replay and CSV verification for 18 views with
+`/data0` file access and subprocesses denied. All public member hashes remain
+unchanged afterward. The [verifier](verify_portable.py) requires an independently
+trusted manifest hash before importing bundled code. No final release asset was
+published by this check.
