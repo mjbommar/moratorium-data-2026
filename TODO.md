@@ -294,6 +294,8 @@ Exit: fresh, reproducible release with reconciled data/prose, a verified publish
 
 ## P7 — Maintenance
 
+- [x] Implement and exercise the isolated event-validity maintenance contract: withdrawal/reinstatement, time-specific support, combined review timeline, typed one-to-many corrections and immutable predecessor retention. Production profile, source-proof, promotion/export and portable-restore integration remain open ([development boundary and integration checklist](docs/event-maintenance-development.md)).
+
 - [ ] Design and exercise event correction/withdrawal with retained rejected
   history. The initial strict event profile requires accepted exact claims for
   retained events; it does not yet provide an event supersession or claim-withdrawal

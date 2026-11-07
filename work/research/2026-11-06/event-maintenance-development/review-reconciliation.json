@@ -1,0 +1,30 @@
+{
+  "reviews": [
+    {
+      "model": "gpt-6.1-terra",
+      "session_id": "01a1b386-ccd9-7511-a679-8d7fe46a3f05",
+      "exit_code": 0,
+      "report_private_path": "/data0/moratorium-refresh-2026/frozen-domain-evaluation/event-maintenance-design.private.txt",
+      "report_sha256": "fec78cec2c6a48176a09b25a8b3b15231eada7ee788ed31531dd12244369bb51"
+    },
+    {
+      "model": "gpt-6.1-terra",
+      "session_id": "01a1b38b-efa5-7413-b262-6c0ad8c8bf33",
+      "exit_code": 0,
+      "report_private_path": "/data0/moratorium-refresh-2026/frozen-domain-evaluation/event-maintenance-code-review.private.txt",
+      "report_sha256": "532ed30dae225e5b8c8dddb3808e0a0301378b854cafeae5da0a52a44e3b5b85"
+    }
+  ],
+  "coordinator_corrections": [
+    "New accepted events cannot include a pre-publication withdrawal/reinstatement chain.",
+    "Combined timeline checks every relevant claim/field/validity batch, preventing hidden support lapses or acceptance while withdrawn.",
+    "Every accepted factual-field review cites exact support accepted at its own time.",
+    "Every historical/current withdrawal has basis evidence accepted at its review time.",
+    "Correction review requires the original withdrawn and replacements accepted at that review time.",
+    "Reinstatement must explicitly retire conflicting current correction claims.",
+    "Retained records compare canonical serialization, distinguishing Boolean and numeric values.",
+    "Current and historical correction acceptance requires the exact self-cited source claim."
+  ],
+  "migration_design_difference": "Rejected-root migration is permitted only against a supplied previously accepted legacy baseline. This avoids inventing a current validity acceptance for a known incorrect event. Production integration must pin and validate the actual predecessor profile, receipt, identities, evidence and chronology; the development function does not authenticate a supplied dictionary.",
+  "remaining_scope": "New profile/plan, historical_fields, source-proof/promotion/offline-history integration, consumer/CSV/status exports, portable restore and substantive five-event migration review remain open. No P7 closure claimed."
+}

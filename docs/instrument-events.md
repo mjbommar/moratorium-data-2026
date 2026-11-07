@@ -70,3 +70,7 @@ with the separately recited January wind pause. No legacy status or ballot count
 is automatically changed. Its event identities, reviewed source bindings and
 publication/replay receipts are retained separately. Broader event migration
 remains incomplete.
+
+## Correction and withdrawal development
+
+The [isolated maintenance contract](event-maintenance-development.md) now tests explicit validity decisions, historical support, correction relationships and predecessor preservation. It is not connected to the active publication profile. Profile 1.0.1 still cannot publish event withdrawal; the production integration, source review, consumer/export and restore gates remain open. The existing five events and their accepted evidence are unchanged.
