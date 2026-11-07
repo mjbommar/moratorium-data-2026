@@ -1,6 +1,8 @@
 # Compound-condition chunk-policy development comparison
 
-Status: implementation and offline validation; no provider execution or canonical promotion.
+Status: frozen protocol committed and provider execution finished; source-informed candidate/slot reviews remain pending. No canonical promotion.
+
+Execution retained 13 HTTP attempts and 12 backend result records across four cases, with 52 unreviewed candidates. Harwood-default recovered from one failed native extraction attempt. Its unpriced failure retains a $0.75 reservation; successful execution therefore does not prove complete cost accounting. All cache replays made zero additional calls. See `provider-execution.json` for metadata and hashes; raw outputs remain private.
 
 This comparison uses two already reviewed development sources, Mandan and Harwood, under the native 7,000/400 character chunk policy and a 42,000/400 whole-text policy. It cannot establish unseen holdout accuracy, discovery recall, full P4 acceptance, or current legal force. All selected primary quotes fit the default chunks; the experiment tests access to joint supporting context, not whether those quotes were omitted.
 

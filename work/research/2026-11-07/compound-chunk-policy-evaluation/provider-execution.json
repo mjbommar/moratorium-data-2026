@@ -1,0 +1,76 @@
+{
+  "schema_version": "compound-execution-summary-1",
+  "protocol_sha256": "dd216f550f92c275d30c76330d700a9765c51e534eb230bc95092fccca539e52",
+  "execution_marker_sha256": "0f88dc4a128050a247ec222b09d540881daee1fa4f9d093bdc1fc8c1a7f8daa5",
+  "terminal_sha256": "40e2f8e4046e0e5015f9b310cc4bc7540233279fa0ab8e0836275f507a53d386",
+  "source_cohort_date": "2026-11-05",
+  "status": "finished",
+  "provider_requests": 13,
+  "backend_reservation_count": 13,
+  "backend_result_records": 12,
+  "http_reservation_count": 13,
+  "all_replays_no_extra_calls": true,
+  "canonical_records_written": 0,
+  "source_review_complete": false,
+  "overall_P4_complete": false,
+  "cases": [
+    {
+      "case_id": "mandan-default",
+      "status": "finished",
+      "chunks": 2,
+      "candidate_count": 14,
+      "backend_calls": 3,
+      "ledger_calls": 3,
+      "estimated_cost_usd": 0.0776418,
+      "result_sha256": "dcfa0104c379a432c85f41165cfe387453d588de9b7e284e4287eaa1eb031aed",
+      "failed_attempts": 0,
+      "unpriced_attempts": 0,
+      "state_sha256": "dd5822770fa4d83937232a39263bdcbafdb6c71a3693e5eb4640e4f2b54126a3"
+    },
+    {
+      "case_id": "harwood-default",
+      "status": "finished",
+      "chunks": 6,
+      "candidate_count": 26,
+      "backend_calls": 8,
+      "ledger_calls": 7,
+      "estimated_cost_usd": 0.896805,
+      "result_sha256": "5e4b0157dfa24e48afe0df56a6a845616eafa8f5557b86296d6d22a64e91641e",
+      "failed_attempts": 1,
+      "unpriced_attempts": 1,
+      "state_sha256": "a29166e96dc1523658de76f7f92d178e8013600987fc359e31226f8e4adb445f"
+    },
+    {
+      "case_id": "mandan-whole",
+      "status": "finished",
+      "chunks": 1,
+      "candidate_count": 8,
+      "backend_calls": 1,
+      "ledger_calls": 1,
+      "estimated_cost_usd": 0.0374318,
+      "result_sha256": "33040b0b285c07a1e3770cec11e168dd95997d9913aa5a3cc75573267dda06f7",
+      "failed_attempts": 0,
+      "unpriced_attempts": 0,
+      "state_sha256": "82ee7bd6b6406870a0a07b72ddb326f780f71ed40797fe1fee4276b95d5c9a8d"
+    },
+    {
+      "case_id": "harwood-whole",
+      "status": "finished",
+      "chunks": 1,
+      "candidate_count": 4,
+      "backend_calls": 1,
+      "ledger_calls": 1,
+      "estimated_cost_usd": 0.04548579999999999,
+      "result_sha256": "c2c251db0ae62d15899a3c6d8aea22ecdeebd5cbb7487a837888bf87aca188eb",
+      "failed_attempts": 0,
+      "unpriced_attempts": 0,
+      "state_sha256": "3ded8d4f3fa7e14c06c94e542b3a8ae2a94aecfc08ab8b155d8e15efaee76a3b"
+    }
+  ],
+  "held_unpriced_reservations_usd": 0.75,
+  "limitations": [
+    "Execution success is not semantic support or complete slot coverage.",
+    "Estimated cost entries include retained failure reservations and are not invoice costs.",
+    "Two known development sources do not close broader P4 or release gates."
+  ]
+}
