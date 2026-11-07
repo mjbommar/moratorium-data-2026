@@ -1,0 +1,31 @@
+{
+  "checked_at": "2026-11-07T22:07:22.108083+00:00",
+  "state": "passed",
+  "base_commit": "9cd13837e513fe767f828263fdf4c543b632a044",
+  "changed_fields": 62,
+  "changed_existing_records": 12,
+  "new_records": 0,
+  "removed_records": 0,
+  "census": {
+    "local": 1330,
+    "policy": 443,
+    "typed_bills": 427,
+    "amendments": 1,
+    "enacted_category_bills": 94,
+    "ballot_measures": 53,
+    "measure_provisions": 52
+  },
+  "checks": {
+    "make_data_site_check": "exit0",
+    "legacy_validation": "0errors502warnings",
+    "policy_form_regressions": "6tests passed, covering schema/apply/guards/new rows/unknown rejection",
+    "policy_form_statistics": "1test passed; amendment rows excluded from bill ranking and included in all-policy ranking",
+    "prose_number_check": "66match; singular/plural amendment label covered",
+    "id_preservation": "all443retained",
+    "local_and_expanded_inputs": "unchanged"
+  },
+  "source_archive_versions": 40,
+  "native_payload_gaps": 0,
+  "policy_csv_sha256": "05d0c9c4f51b1861be7d4ed2e4c8eddda3bd6d274b7c93c4ab667aba9ca4ef16",
+  "scope": "Scoped Kansas data/form change and local full build checks; no claim of completed national freshness, all seven consumers, current-force audit or final release."
+}

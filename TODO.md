@@ -512,3 +512,5 @@ Exit: repeatable refresh with visible freshness, costs, failures and unresolved 
 - [x] Independently review 209 fields across eleven Illinois policy records and apply 26 guarded corrections; preserve synopsis/text conflicts and missing full versions, without resetting the shared acquisition ceiling ([packet](work/research/2026-11-07/illinois-policy-source-review/README.md)).
 
 - [x] Independently assess 190 fields across ten Indiana policy records and apply 46 guarded corrections; preserve section-level dates and unresolved current force, and exercise native Exa/pydoll official-notice acquisition ([review](work/research/2026-11-07/indiana-policy-source-review/README.md)).
+
+- [x] Independently assess 228 Kansas policy fields and amendment/carrier identity, apply 62 guarded corrections, and add tested legal-form support without treating the carrier enactment as amendment adoption ([review](work/research/2026-11-07/kansas-policy-source-review/README.md)).

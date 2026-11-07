@@ -373,6 +373,7 @@ orders, regulations, and enacted statutes are recorded here too when they
 materially pause or restrict development, permitting, incentives, or the
 utility service on which a project depends.</p>
 <p>Reviewed legislative resolutions and precursor memos now have separate <code>legislative_resolution</code> and <code>legislative_precursor</code> types. Memos can link to separately retained numbered bills without becoming the same instrument. Compound rows remain; this is not a deduplicated count of independent bills or enacted restrictions. <a href="known-gaps.html#state-policy-precursors-and-legacy-types">State-policy grain gaps</a> retain the associations and remaining identity/lineage work.</p>
+<p>A separately tracked floor amendment uses <code>legislative_amendment</code>, retaining its permanent ID and its own originating chamber and outcome. For example, the rejected Senate amendment to House bill HB2433 is not an enacted House bill merely because its carrier later passed. Its form is excluded from bill-row totals and remains included in all-policy totals.</p>
 <p>This file tracks state-level actions that relate to moratoria or equivalent
 restrictions — statewide pauses; authority for or preemption of local pauses;
 permitting limits; utility large-load rules; incentive limits; and reporting or
@@ -439,7 +440,7 @@ unless it actually pauses local permitting.</p>
 </tr>
 <tr>
 <td><code>chamber_of_origin</code></td>
-<td>Originating chamber: <code>House</code>, <code>Senate</code>, <code>Assembly</code> (California and New Jersey lower chambers), <code>Joint</code>, or <code>unknown</code>.</td>
+<td>Originating chamber of the tracked instrument (for a Senate floor amendment to a House bill, <code>Senate</code>): <code>House</code>, <code>Senate</code>, <code>Assembly</code> (California and New Jersey lower chambers), <code>Joint</code>, or <code>unknown</code>.</td>
 <td><code>Assembly</code></td>
 </tr>
 <tr>
@@ -449,7 +450,7 @@ unless it actually pauses local permitting.</p>
 </tr>
 <tr>
 <td><code>policy_instrument_type</code></td>
-<td>Legal form: <code>bill</code>, <code>legislative_resolution</code>, <code>legislative_precursor</code>, <code>executive_order</code>, <code>governor_directive</code>, <code>agency_order</code>, <code>regulation</code>, or <code>statute</code>. Resolution includes simple, joint and concurrent forms without implying enactment; precursor includes reviewed co-sponsorship memos without merging them with later bills.</td>
+<td>Legal form: <code>bill</code>, <code>legislative_resolution</code>, <code>legislative_precursor</code>, <code>legislative_amendment</code>, <code>executive_order</code>, <code>governor_directive</code>, <code>agency_order</code>, <code>regulation</code>, or <code>statute</code>. Resolution includes simple, joint and concurrent forms without implying enactment; precursor includes reviewed co-sponsorship memos without merging them with later bills. Amendment identifies a separately tracked legislative amendment and does not inherit the carrier bill’s enactment.</td>
 <td><code>executive_order</code></td>
 </tr>
 <tr>
@@ -509,7 +510,7 @@ records the governing session context per state in the audit log under
 <p>Top-level keys:</p>
 <ul>
 <li><code>total_local_moratoria</code>: 1330 — total rows in the inventory</li>
-<li><code>total_state_bills</code>: 428 — rows using the <code>bill</code> type in state_legislation.csv, excluding separately typed resolutions and precursors; not a deduplicated independent-bill count</li>
+<li><code>total_state_bills</code>: 427 — rows using the <code>bill</code> type in state_legislation.csv, excluding separately typed resolutions, precursors and amendments; not a deduplicated independent-bill count</li>
 <li><code>total_state_policy_actions</code>: 443 — all state-policy rows, including binding non-bill actions</li>
 <li><code>states_with_moratoria</code>: 47</li>
 <li><code>states_without_moratoria</code>: 3</li>

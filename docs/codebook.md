@@ -84,6 +84,8 @@ utility service on which a project depends.
 
 Reviewed legislative resolutions and precursor memos now have separate `legislative_resolution` and `legislative_precursor` types. Memos can link to separately retained numbered bills without becoming the same instrument. Compound rows remain; this is not a deduplicated count of independent bills or enacted restrictions. [State-policy grain gaps](known-gaps.md#state-policy-precursors-and-legacy-types) retain the associations and remaining identity/lineage work.
 
+A separately tracked floor amendment uses `legislative_amendment`, retaining its permanent ID and its own originating chamber and outcome. For example, the rejected Senate amendment to House bill HB2433 is not an enacted House bill merely because its carrier later passed. Its form is excluded from bill-row totals and remains included in all-policy totals.
+
 This file tracks state-level actions that relate to moratoria or equivalent
 restrictions — statewide pauses; authority for or preemption of local pauses;
 permitting limits; utility large-load rules; incentive limits; and reporting or
@@ -102,9 +104,9 @@ unless it actually pauses local permitting.
 | `activity_level` | The state's overall moratorium-activity classification (matches `activity_level` in the inventory). Closed vocabulary: `None`, `Low`, `Medium`, `High`. | `High` |
 | `bill_status_category` | **Closed-vocab disposition**, added in v2026.07. One of: `introduced`, `in_committee`, `passed_one_chamber`, `passed_both_chambers`, `enacted`, `vetoed`, `failed_died`, `carried_over`, `withdrawn`, `unknown`. `failed_died` covers death by adjournment or a missed deadline; `carried_over` means the bill remains alive into the next year of a biennium. Incorporation into another bill is retained as a distinct historical event and identity; use `unknown` when no defined disposition is established, rather than automatically coding failure or borrowing the receiving bill’s outcome. | `enacted` |
 | `last_action_date_iso` | ISO date of the most recent recorded action on the bill. Empty when undetermined. | `2026-07-07` |
-| `chamber_of_origin` | Originating chamber: `House`, `Senate`, `Assembly` (California and New Jersey lower chambers), `Joint`, or `unknown`. | `Assembly` |
+| `chamber_of_origin` | Originating chamber of the tracked instrument (for a Senate floor amendment to a House bill, `Senate`): `House`, `Senate`, `Assembly` (California and New Jersey lower chambers), `Joint`, or `unknown`. | `Assembly` |
 | `policy_action_id` | Stable machine identifier for the policy instrument. Unlike the legacy display `bill` value, this never depends on a title format. | `ny-executive-order-no-62-2026` |
-| `policy_instrument_type` | Legal form: `bill`, `legislative_resolution`, `legislative_precursor`, `executive_order`, `governor_directive`, `agency_order`, `regulation`, or `statute`. Resolution includes simple, joint and concurrent forms without implying enactment; precursor includes reviewed co-sponsorship memos without merging them with later bills. | `executive_order` |
+| `policy_instrument_type` | Legal form: `bill`, `legislative_resolution`, `legislative_precursor`, `legislative_amendment`, `executive_order`, `governor_directive`, `agency_order`, `regulation`, or `statute`. Resolution includes simple, joint and concurrent forms without implying enactment; precursor includes reviewed co-sponsorship memos without merging them with later bills. Amendment identifies a separately tracked legislative amendment and does not inherit the carrier bill’s enactment. | `executive_order` |
 | `policy_mechanism` | Typed effect: `statewide_moratorium`, `local_moratorium_authorization`, `local_moratorium_preemption`, `permitting_restriction`, `utility_large_load_restriction`, `incentive_restriction`, `incentive_support`, `reporting_disclosure`, or `other`. `incentive_support` covers creation or expansion of fiscal incentives, including failed proposals; it does not imply enactment. Restricting incentive eligibility is a separate mechanism. | `utility_large_load_restriction` |
 | `legal_effect_status` | Current operative state: `proposed`, `in_force`, `expired`, `superseded`, `failed`, `withdrawn`, or `unknown`. An enacted temporary measure is `unknown` until its current legal effect is checked. | `in_force` |
 | `scope_of_action` | Primary authority/surface affected: `statewide`, `state_agency`, `local_government`, `utility_grid`, `fiscal`, `mixed`, or `unknown`. | `state_agency` |
@@ -142,7 +144,7 @@ The page generator also uses a legacy internal summary key, `in_force`, for the 
 Top-level keys:
 
 - `total_local_moratoria`: 1330 — total rows in the inventory
-- `total_state_bills`: 428 — rows using the `bill` type in state_legislation.csv, excluding separately typed resolutions and precursors; not a deduplicated independent-bill count
+- `total_state_bills`: 427 — rows using the `bill` type in state_legislation.csv, excluding separately typed resolutions, precursors and amendments; not a deduplicated independent-bill count
 - `total_state_policy_actions`: 443 — all state-policy rows, including binding non-bill actions
 - `states_with_moratoria`: 47
 - `states_without_moratoria`: 3

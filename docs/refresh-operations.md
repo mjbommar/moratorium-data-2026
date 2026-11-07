@@ -492,3 +492,8 @@ Applied 39 Idaho and 26 Illinois field corrections across twenty existing rows f
 ### Indiana policy fields and official notice — November 7
 
 Applied 46 field corrections across ten existing policy rows after 190 independent assessments and 32 source representation checks. No rows added or removed; local, policy and ballot census totals remain unchanged. Source recovery archived 30 additional versions and verified native readback with zero gaps. A capped Exa search and successful bc-web/pydoll rendered notice corroborate session closure, separately from individual bill and hearing disposition. Preserve mixed omnibus dates and provision-specific sunsets in prose/audit. Full national refresh and final publication remain incomplete.
+
+
+### Kansas fields and rejected-amendment form — November 7
+
+Applied 62 fields across twelve existing policy records following 228 independent assessments, a focused identity/form supplement and 45 source representation checks. Type the rejected HB2433 Senate motion as legislative_amendment and retain its permanent ID, rejected outcome and Senate origin separately from its House carrier. The census is now 443 policy rows, 427 bill-type rows and one amendment; enacted-category bills remain 94. Forty additional source versions passed native byte readback with zero gaps. Seven targeted regression tests passed; final full build/check evidence is separate. Full national freshness, all consumers and publication remain open.

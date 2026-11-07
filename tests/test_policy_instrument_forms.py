@@ -16,7 +16,7 @@ sys.path.insert(0, str(ROOT / 'scripts'))
 import apply_legislation as apply
 import validate_dataset as validate
 
-FORMS = ('legislative_precursor', 'legislative_resolution')
+FORMS = ('legislative_precursor', 'legislative_resolution', 'legislative_amendment')
 EVIDENCE = [{'url': 'https://example.invalid/source', 'source_type': 'journal',
              'supports': 'Synthetic source-reviewed instrument form'}]
 SCHEMA = json.loads((ROOT / 'work/schemas/legislation_decision.schema.json').read_text())
@@ -35,7 +35,7 @@ def new_row_decision(form):
 
 
 class PolicyInstrumentFormsTests(unittest.TestCase):
-    def test_schema_accepts_both_forms_in_both_locations_and_rejects_unknown(self):
+    def test_schema_accepts_forms_in_both_locations_and_rejects_unknown(self):
         for make in (decision, new_row_decision):
             for form in FORMS:
                 with self.subTest(location=make.__name__, form=form):

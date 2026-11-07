@@ -2,6 +2,8 @@
 
 ## 2026-11-07 — current working snapshot (unreleased)
 
+The [Kansas policy review](work/research/2026-11-07/kansas-policy-source-review/README.md) applies 62 fields across twelve existing records after 228 independent assessments. Add a separate legislative-amendment form for the rejected Senate motion on HB2433: typed bill rows change from 428 to 427; all-policy rows remain 443. Preserve the carrier distinction, firm/section-specific terms and publication/current-force gaps. Archive 40 additional source versions.
+
 The [Indiana policy review](work/research/2026-11-07/indiana-policy-source-review/README.md) applies 46 fields across ten existing records after 190 independent assessments. Correct study/fiscal classifications and water/rate conditions, preserve section-specific sunsets and mixed effective dates, and qualify historical hearing/failure claims. Native Exa and pydoll recover official session context; 30 source versions are archived with verified native readback.
 
 The [Illinois policy review](work/research/2026-11-07/illinois-policy-source-review/README.md) applies 26 fields across eleven existing records after 209 independent field decisions. Distinguish introduced and filed replacement versions, capture and action dates, and synopsis versus operative text; preserve missing-version and current-force gaps.
