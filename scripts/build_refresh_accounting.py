@@ -78,7 +78,11 @@ def field_lineage(record, changes):
     return result
 
 
-def build(queue_path, audit_path, root=ROOT, receipt_dates=('20261105',), include_fields=False):
+def build(queue_path, audit_path, root=ROOT, receipt_dates=('20261105',), include_fields=False, canonical_observed_at=None):
+    if canonical_observed_at is not None:
+        instant = dt.datetime.fromisoformat(canonical_observed_at.replace('Z', '+00:00'))
+        if instant.utcoffset() is None:
+            raise ValueError('Canonical observation time must include timezone')
     queue = json.loads(queue_path.read_text())
     audit = json.loads(audit_path.read_text())
     audited = {j['job_id']: j for j in audit['jobs']}
@@ -167,9 +171,10 @@ def build(queue_path, audit_path, root=ROOT, receipt_dates=('20261105',), includ
                 'last_applied_field_values':len(fields),
                 'matching_current_values':sum(field['current_matches_last_applied_value'] for field in fields),
                 'differing_current_values':sum(not field['current_matches_last_applied_value'] for field in fields)}
-    return {'observed_at': audit['observed_at'], 'receipt_dates': list(receipt_dates),
+    return {'observed_at': audit['observed_at'], 'collection_observed_at': audit['observed_at'],
+            'canonical_observed_at': canonical_observed_at, 'receipt_dates': list(receipt_dates),
             'field_lineage_included': include_fields, 'explicit_policy_ledger_aliases': aliases, 'input_sha256': hashes,
-            'scope': 'Canonical inventory/state-policy collection and edit accounting. Each count dimension is disjoint and sums to its own table total. Job evidence gates are mechanical diagnostics, not substantive acceptance. Apply receipts show historical edits, not complete current rows or fresh legal force. Unassigned new records may have coordinator research outside this queue. This is not the completed freshness funnel required for release.',
+            'scope': 'Canonical inventory/state-policy collection and edit accounting. Each count dimension is disjoint and sums to its own table total. Job evidence gates are mechanical diagnostics, not substantive acceptance. Apply receipts show historical edits, not complete current rows or fresh legal force. Unassigned new records may have coordinator research outside this queue. Legacy observed_at is the collection-audit time; canonical_observed_at is separately supplied and does not renew source or legal-force acceptance. This is not the completed freshness funnel required for release.',
             'job_counts': audit['job_states'], 'not_started_jobs': audit['not_started_jobs'],
             'tables': tables}
 
@@ -181,8 +186,9 @@ if __name__ == '__main__':
     parser.add_argument('--output', type=Path, required=True)
     parser.add_argument('--receipt-date', action='append', help='YYYYMMDD; repeat explicitly. Default retains historical November5only.')
     parser.add_argument('--include-fields', action='store_true', help='Report last applied field fingerprints; not substantive acceptance.')
+    parser.add_argument('--canonical-observed-at', help='Explicit timezone-aware canonical-file inspection time, separate from frozen collection-audit time; no source freshness inference.')
     args = parser.parse_args()
-    result = build(args.queue, args.audit, receipt_dates=args.receipt_date or ('20261105',), include_fields=args.include_fields)
+    result = build(args.queue, args.audit, receipt_dates=args.receipt_date or ('20261105',), include_fields=args.include_fields, canonical_observed_at=args.canonical_observed_at)
     args.output.write_text(json.dumps(result, indent=2) + '\n')
     print(json.dumps({k: {x: v[x] for x in ('total', 'collection_counts', 'editorial_counts')}
                       for k, v in result['tables'].items()}, indent=2))

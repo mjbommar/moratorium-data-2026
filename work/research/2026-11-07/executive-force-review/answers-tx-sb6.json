@@ -1,0 +1,40 @@
+{
+  "state_abbrev": "TX",
+  "researched_as_of": "2026-11-07",
+  "researcher": "Coordinator source review, one gpt-6.1-terra statutory review and separately capped pydoll recovery",
+  "decisions": [
+    {
+      "bill_key": "TX:SB 6 (89R, 2025)",
+      "outcome": "corrected",
+      "fields": {
+        "sponsors": "Senate authors King and Schwertner; House sponsor King (given-name identities not independently verified in this review).",
+        "status": "Certified Senate passage 2025-03-19; House passage with amendments 2025-05-27; Senate concurrence 2025-05-29. Official history records effective immediately 2025-06-20. Governor signature date and House roll-call identifier are not independently verified here.",
+        "key_provisions": "Directs PUCT standards for new or expanded ERCOT interconnections exceeding a single-site demand threshold of 75 MW unless PUCT determines a lower threshold necessary. Other provisions have distinct scopes: Section 39.170(b) uses at least 75 MW, while Section 39.170(a) applies to certain transmission-voltage loads interconnected after 2025-12-31. Also addresses studies, cost recovery, financial commitments, qualifying co-location and conditional curtailment."
+      },
+      "confidence": 0.95,
+      "evidence": [
+        {
+          "url": "https://capitol.texas.gov/tlodocs/89R/billtext/html/SB00006F.htm",
+          "source_type": "bill_text",
+          "supports": "Reviewed enacted text, labelled raw official metadata or successfully rendered official statutory text; not search-index text or navigation shells."
+        },
+        {
+          "url": "https://capitol.texas.gov/billlookup/History.aspx?LegSess=89R&Bill=SB6",
+          "source_type": "other",
+          "supports": "Reviewed enacted text, labelled raw official metadata or successfully rendered official statutory text; not search-index text or navigation shells."
+        },
+        {
+          "url": "https://statutes.capitol.texas.gov/GetStatute.aspx?Code=UT&Value=37",
+          "source_type": "other",
+          "supports": "Reviewed enacted text, labelled raw official metadata or successfully rendered official statutory text; not search-index text or navigation shells."
+        },
+        {
+          "url": "https://statutes.capitol.texas.gov/GetStatute.aspx?Code=UT&Value=39",
+          "source_type": "other",
+          "supports": "Reviewed enacted text, labelled raw official metadata or successfully rendered official statutory text; not search-index text or navigation shells."
+        }
+      ],
+      "notes": "Three bounded descriptive corrections. Retain initial June20 effect based on explicit official history and codified SB6 notes, not signature inference. Retain in_force for statutory framework based on directly recovered official code, not completed rulemaking or exhaustive later legal history. Default cleaned history text omits author/sponsor values: exact raw HTML labelled spans govern the limited surname attribution. No newly accepted full given-name identities."
+    }
+  ]
+}

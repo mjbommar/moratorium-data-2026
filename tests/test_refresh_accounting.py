@@ -6,6 +6,11 @@ from build_refresh_accounting import collection_stage
 
 
 class RefreshAccountingTests(unittest.TestCase):
+    def test_naive_canonical_observation_is_rejected_before_reading_inputs(self):
+        from build_refresh_accounting import build
+        with self.assertRaisesRegex(ValueError, 'timezone'):
+            build(Path('not-read'), Path('not-read'), canonical_observed_at='2026-11-07')
+
     def test_explicit_receipt_dates_do_not_silently_expand_historical_scope(self):
         import tempfile
         from build_refresh_accounting import receipt_paths
@@ -86,7 +91,10 @@ class RefreshAccountingTests(unittest.TestCase):
             queue.write_text(json.dumps({'jobs': [], 'completed_pilot_ids': {}}))
             audit.write_text(json.dumps({'jobs': [], 'observed_at': '2026-11-05',
                                          'job_states': {}, 'not_started_jobs': 0}))
-            result = build(queue, audit, root)
+            result = build(queue, audit, root, canonical_observed_at='2026-11-07T08:00:00Z')
+            self.assertEqual(result['observed_at'], '2026-11-05')
+            self.assertEqual(result['collection_observed_at'], '2026-11-05')
+            self.assertEqual(result['canonical_observed_at'], '2026-11-07T08:00:00Z')
             inventory = result['tables']['inventory']
             self.assertEqual(inventory['editorial_counts'],
                              {'has_refresh_apply_change': 1, 'no_refresh_apply_change': 1})

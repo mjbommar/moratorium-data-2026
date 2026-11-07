@@ -1,0 +1,433 @@
+[
+  {
+    "attempt_id": "f5c7e2d1df224bd288bd20938d35e9c1",
+    "kind": "exa",
+    "state": "finished",
+    "intent": {
+      "query": "\"Executive Order No. 62\" \"data centers\" moratorium 2026",
+      "publication_window": {
+        "since": null,
+        "until": null
+      },
+      "max_results": 6,
+      "include_domains": [
+        "governor.ny.gov"
+      ]
+    },
+    "cost_usd": 0.007,
+    "unpriced": false,
+    "query_scope_check": {
+      "status": "all_returned_urls_in_declared_sites",
+      "declared_sites": [
+        "governor.ny.gov"
+      ],
+      "matching_hits": 2,
+      "nonmatching_hits": 0,
+      "observed_hosts": [
+        "www.governor.ny.gov"
+      ],
+      "scope": "Diagnostic of returned URL hosts, not query-language validation or evidence of absence. Check ambiguous OR branches and fetch substantive sources."
+    },
+    "finished_at": "2026-11-07T08:15:56.677278+00:00"
+  },
+  {
+    "attempt_id": "bf05171aeed941f7b9ad15ea7106adea",
+    "kind": "fetch",
+    "state": "finished",
+    "intent": {
+      "url": "https://www.governor.ny.gov/executive-order/no-62-establishing-temporary-moratorium-data-centers-new-york-while-state-develops",
+      "mode": "http"
+    },
+    "url": "https://www.governor.ny.gov/executive-order/no-62-establishing-temporary-moratorium-data-centers-new-york-while-state-develops",
+    "final_url": "https://www.governor.ny.gov/executive-order/no-62-establishing-temporary-moratorium-data-centers-new-york-while-state-develops",
+    "status": 200,
+    "ok": true,
+    "body_sha256": "ee59ce402b941a5e99a02ddfc5f145747da386bcd099a47c199ec4bd961cece0",
+    "text_sha256": "7b8ef4e244b1213945be4dce6e1b5fe2aedd268e1b445abea9d1d2d47e9975ba",
+    "body_observed_at": "2026-11-07T08:15:56.749266Z",
+    "finished_at": "2026-11-07T08:15:56.750873+00:00"
+  },
+  {
+    "attempt_id": "d7a89d33ee7c427f80b1359255cbee43",
+    "kind": "exa",
+    "state": "finished",
+    "intent": {
+      "query": "New York DPS data center generic environmental impact statement final findings executive order 62 DEC permit hold",
+      "publication_window": {
+        "since": null,
+        "until": null
+      },
+      "max_results": 6,
+      "include_domains": [
+        "dps.ny.gov",
+        "dec.ny.gov"
+      ]
+    },
+    "cost_usd": 0.007,
+    "unpriced": false,
+    "query_scope_check": {
+      "status": "all_returned_urls_in_declared_sites",
+      "declared_sites": [
+        "dec.ny.gov",
+        "dps.ny.gov"
+      ],
+      "matching_hits": 6,
+      "nonmatching_hits": 0,
+      "observed_hosts": [
+        "dec.ny.gov",
+        "documents.dps.ny.gov",
+        "dps.ny.gov"
+      ],
+      "scope": "Diagnostic of returned URL hosts, not query-language validation or evidence of absence. Check ambiguous OR branches and fetch substantive sources."
+    },
+    "finished_at": "2026-11-07T08:16:01.778789+00:00"
+  },
+  {
+    "attempt_id": "49f96f699f1f4e8fb23202bb59a3dd68",
+    "kind": "fetch",
+    "state": "finished",
+    "intent": {
+      "url": "https://dps.ny.gov/news/psc-adopts-draft-scope-environmental-reviews-data-centers-and-large-electric-loads",
+      "mode": "http"
+    },
+    "url": "https://dps.ny.gov/news/psc-adopts-draft-scope-environmental-reviews-data-centers-and-large-electric-loads",
+    "final_url": "https://dps.ny.gov/news/psc-adopts-draft-scope-environmental-reviews-data-centers-and-large-electric-loads",
+    "status": 200,
+    "ok": true,
+    "body_sha256": "9a628e86c8d48e8a2967dcdd8d4167c0623c427d0482086329482ab7306be923",
+    "text_sha256": "189a138cdfde918ea019527c4a15ad39bec1e9e2f8d8c19992f05031d836fdd5",
+    "body_observed_at": "2026-11-07T08:16:14.755800Z",
+    "finished_at": "2026-11-07T08:16:14.757087+00:00"
+  },
+  {
+    "attempt_id": "e87e5db0e1164d9195146c3cd50c046a",
+    "kind": "fetch",
+    "state": "finished",
+    "intent": {
+      "url": "https://dec.ny.gov/news/environmental-notice-bulletin/2026-09-30/seqr/statewide-interconnection-reforms-for-large-loads-including-data-centers",
+      "mode": "http"
+    },
+    "url": "https://dec.ny.gov/news/environmental-notice-bulletin/2026-09-30/seqr/statewide-interconnection-reforms-for-large-loads-including-data-centers",
+    "final_url": "https://dec.ny.gov/news/environmental-notice-bulletin/2026-09-30/seqr/statewide-interconnection-reforms-for-large-loads-including-data-centers",
+    "status": 200,
+    "ok": true,
+    "body_sha256": "91978e367068daf5fbf9b79dac21862b86637f1067c84aba907958b00ceefe36",
+    "text_sha256": "0742913e282e5fc19338ff31098156eaf23438e1aaf63a34c4244c199c001d89",
+    "body_observed_at": "2026-11-07T08:16:15.780049Z",
+    "finished_at": "2026-11-07T08:16:15.781599+00:00"
+  },
+  {
+    "attempt_id": "7631b07957aa4781b975fe21889811c2",
+    "kind": "fetch",
+    "state": "finished",
+    "intent": {
+      "url": "https://documents.dps.ny.gov/public/Common/ViewDoc.aspx?DocRefId=%7B707FB5A0-0000-CB52-8D3E-944DE3CDC351%7D&DocTitle=Resolution+Issuing+a+Positive+Declaration+and+Accepting+Draft+Scope+as+Complete",
+      "mode": "http"
+    },
+    "url": "https://documents.dps.ny.gov/public/Common/ViewDoc.aspx?DocRefId=%7B707FB5A0-0000-CB52-8D3E-944DE3CDC351%7D&DocTitle=Resolution+Issuing+a+Positive+Declaration+and+Accepting+Draft+Scope+as+Complete",
+    "final_url": "https://documents.dps.ny.gov/public/Common/ViewDoc.aspx?DocRefId=%7B707FB5A0-0000-CB52-8D3E-944DE3CDC351%7D&DocTitle=Resolution+Issuing+a+Positive+Declaration+and+Accepting+Draft+Scope+as+Complete",
+    "status": 200,
+    "ok": true,
+    "body_sha256": "ee09aebfc712928ebe8a89e757996aab0d2c155be5243cba0582eae10edb0f2f",
+    "text_sha256": "d3eae76e38e24b4ae641889dee5ebeb72162ca6494f2942af58bd2f193f58367",
+    "body_observed_at": "2026-11-07T08:16:17.421667Z",
+    "finished_at": "2026-11-07T08:16:17.932864+00:00"
+  },
+  {
+    "attempt_id": "0268c93a4cec4145ac7a24d86e2e9d52",
+    "kind": "exa",
+    "state": "finished",
+    "intent": {
+      "query": "Governor Abbott August 3 2026 comprehensive data center audit directive",
+      "publication_window": {
+        "since": null,
+        "until": null
+      },
+      "max_results": 6,
+      "include_domains": [
+        "gov.texas.gov"
+      ]
+    },
+    "cost_usd": 0.007,
+    "unpriced": false,
+    "query_scope_check": {
+      "status": "all_returned_urls_in_declared_sites",
+      "declared_sites": [
+        "gov.texas.gov"
+      ],
+      "matching_hits": 6,
+      "nonmatching_hits": 0,
+      "observed_hosts": [
+        "gov.texas.gov"
+      ],
+      "scope": "Diagnostic of returned URL hosts, not query-language validation or evidence of absence. Check ambiguous OR branches and fetch substantive sources."
+    },
+    "finished_at": "2026-11-07T08:15:59.407045+00:00"
+  },
+  {
+    "attempt_id": "9c7c04f65ceb48ab9258472928e5fdd8",
+    "kind": "fetch",
+    "state": "finished",
+    "intent": {
+      "url": "https://www.ercot.com/services/comm/mkt_notices/M-A080326-01",
+      "mode": "http"
+    },
+    "url": "https://www.ercot.com/services/comm/mkt_notices/M-A080326-01",
+    "final_url": "https://www.ercot.com/services/comm/mkt_notices/M-A080326-01",
+    "status": 200,
+    "ok": false,
+    "body_sha256": "61692eb91e471eef0f5427bb476f940928f9876f1624fe340f13e3bad1e2b61b",
+    "text_sha256": "e440b3b7c71b682e65d0c4bb503fd630f90d791a2d4fb0fd7674e6a7331eb383",
+    "body_observed_at": "2026-11-07T08:16:08.919723Z",
+    "finished_at": "2026-11-07T08:16:08.923202+00:00"
+  },
+  {
+    "attempt_id": "76c36386a3b64b8bace4ba4e1495bf69",
+    "kind": "exa",
+    "state": "finished",
+    "intent": {
+      "query": "ERCOT PUCT August 2026 governor data center audit completion Batch Zero interconnection notice",
+      "publication_window": {
+        "since": null,
+        "until": null
+      },
+      "max_results": 6,
+      "include_domains": [
+        "ercot.com",
+        "puc.texas.gov"
+      ]
+    },
+    "cost_usd": 0.007,
+    "unpriced": false,
+    "query_scope_check": {
+      "status": "all_returned_urls_in_declared_sites",
+      "declared_sites": [
+        "ercot.com",
+        "puc.texas.gov"
+      ],
+      "matching_hits": 6,
+      "nonmatching_hits": 0,
+      "observed_hosts": [
+        "interchange.puc.texas.gov",
+        "www.ercot.com"
+      ],
+      "scope": "Diagnostic of returned URL hosts, not query-language validation or evidence of absence. Check ambiguous OR branches and fetch substantive sources."
+    },
+    "finished_at": "2026-11-07T08:16:09.046069+00:00"
+  },
+  {
+    "attempt_id": "6ac3ef30a766498ba8b5f1ac81bdb084",
+    "kind": "fetch",
+    "state": "finished",
+    "intent": {
+      "url": "https://gov.texas.gov/news/post/governor-abbott-directs-comprehensive-data-center-audit",
+      "mode": "http"
+    },
+    "url": "https://gov.texas.gov/news/post/governor-abbott-directs-comprehensive-data-center-audit",
+    "final_url": "https://gov.texas.gov/news/post/governor-abbott-directs-comprehensive-data-center-audit",
+    "status": 200,
+    "ok": true,
+    "body_sha256": "36ef282e38b9c5180cfa23fb217399c8d57cfc24233870fe56f138f21a66eaae",
+    "text_sha256": "bb8a875454f5d16ac9fe015e77094aa325cf363c722a010e29ece7011446d140",
+    "body_observed_at": "2026-11-07T08:16:10.759887Z",
+    "finished_at": "2026-11-07T08:16:10.762242+00:00"
+  },
+  {
+    "attempt_id": "87fb1fdc9bb641638872370ac290b62a",
+    "kind": "fetch",
+    "state": "finished",
+    "intent": {
+      "url": "https://gov.texas.gov/uploads/files/press/Thomas_Gleeson_Pablo_Vegas_Data_Centers_Directive_Letter_to_PUCT_ERCOT_August_2026_.pdf",
+      "mode": "http"
+    },
+    "url": "https://gov.texas.gov/uploads/files/press/Thomas_Gleeson_Pablo_Vegas_Data_Centers_Directive_Letter_to_PUCT_ERCOT_August_2026_.pdf",
+    "final_url": "https://gov.texas.gov/uploads/files/press/Thomas_Gleeson_Pablo_Vegas_Data_Centers_Directive_Letter_to_PUCT_ERCOT_August_2026_.pdf",
+    "status": 200,
+    "ok": true,
+    "body_sha256": "c5f5c9619c8998fbc551f23dc45c67ddb803a1710b6114bb96bbf9f498ec9692",
+    "text_sha256": "3905c3f492823bf69600689262a7ab86beff885250e57a54eeab1dcf24b87311",
+    "body_observed_at": "2026-11-07T08:16:27.445861Z",
+    "finished_at": "2026-11-07T08:16:27.931974+00:00"
+  },
+  {
+    "attempt_id": "c69433f03e7e45fbbd447dbdeaa62eec",
+    "kind": "fetch",
+    "state": "finished",
+    "intent": {
+      "url": "https://www.ercot.com/services/comm/mkt_notices/M-A080326-01",
+      "mode": "browser"
+    },
+    "url": "https://www.ercot.com/services/comm/mkt_notices/M-A080326-01",
+    "final_url": "https://www.ercot.com/services/comm/mkt_notices/M-A080326-01",
+    "status": 200,
+    "ok": false,
+    "body_sha256": "ce9592b0a92d0c8fc4b94bda92c00f7c7530f9a0956cb84eb3a0c929fb52aae4",
+    "text_sha256": "e440b3b7c71b682e65d0c4bb503fd630f90d791a2d4fb0fd7674e6a7331eb383",
+    "body_observed_at": "2026-11-07T08:16:41.277134Z",
+    "finished_at": "2026-11-07T08:16:41.420953+00:00"
+  },
+  {
+    "attempt_id": "00d58eacf2b3423784a9423b54e25364",
+    "kind": "fetch",
+    "state": "finished",
+    "intent": {
+      "url": "https://capitol.texas.gov/tlodocs/89R/billtext/html/SB00006F.htm",
+      "mode": "http"
+    },
+    "url": "https://capitol.texas.gov/tlodocs/89R/billtext/html/SB00006F.htm",
+    "final_url": "https://capitol.texas.gov/tlodocs/89R/billtext/html/SB00006F.htm",
+    "status": 200,
+    "ok": true,
+    "body_sha256": "1ef38096867ebc62b555037c0ab364ad002b96cd43e322f2d92686ef55f73885",
+    "text_sha256": "160a272e8fddd128fa623a1c9279e63ebf31978d2882da3bc96001b598956b83",
+    "body_observed_at": "2026-11-07T08:32:32.679428Z",
+    "finished_at": "2026-11-07T08:32:32.680828+00:00"
+  },
+  {
+    "attempt_id": "812ac46eac584efd9b8865ce8dbcfaee",
+    "kind": "exa",
+    "state": "finished",
+    "intent": {
+      "query": "Texas SB 6 89R 2025 bill history signed effective authors",
+      "publication_window": {
+        "since": null,
+        "until": null
+      },
+      "max_results": 6,
+      "include_domains": [
+        "capitol.texas.gov"
+      ]
+    },
+    "cost_usd": 0.007,
+    "unpriced": false,
+    "query_scope_check": {
+      "status": "all_returned_urls_in_declared_sites",
+      "declared_sites": [
+        "capitol.texas.gov"
+      ],
+      "matching_hits": 6,
+      "nonmatching_hits": 0,
+      "observed_hosts": [
+        "capitol.texas.gov"
+      ],
+      "scope": "Diagnostic of returned URL hosts, not query-language validation or evidence of absence. Check ambiguous OR branches and fetch substantive sources."
+    },
+    "finished_at": "2026-11-07T08:32:51.398504+00:00"
+  },
+  {
+    "attempt_id": "9e88b5acdc2e4c259b0cc02ec77f0450",
+    "kind": "exa",
+    "state": "finished",
+    "intent": {
+      "query": "Texas utilities code SB 6 large load 75 megawatts 2025 39.178",
+      "publication_window": {
+        "since": null,
+        "until": null
+      },
+      "max_results": 6,
+      "include_domains": [
+        "statutes.capitol.texas.gov"
+      ]
+    },
+    "cost_usd": 0.007,
+    "unpriced": false,
+    "query_scope_check": {
+      "status": "all_returned_urls_in_declared_sites",
+      "declared_sites": [
+        "statutes.capitol.texas.gov"
+      ],
+      "matching_hits": 6,
+      "nonmatching_hits": 0,
+      "observed_hosts": [
+        "statutes.capitol.texas.gov"
+      ],
+      "scope": "Diagnostic of returned URL hosts, not query-language validation or evidence of absence. Check ambiguous OR branches and fetch substantive sources."
+    },
+    "finished_at": "2026-11-07T08:32:53.567810+00:00"
+  },
+  {
+    "attempt_id": "2086bdbe5d254db7a78d9344683e16c8",
+    "kind": "fetch",
+    "state": "finished",
+    "intent": {
+      "url": "https://capitol.texas.gov/billlookup/History.aspx?LegSess=89R&Bill=SB6",
+      "mode": "http"
+    },
+    "url": "https://capitol.texas.gov/billlookup/History.aspx?LegSess=89R&Bill=SB6",
+    "final_url": "https://capitol.texas.gov/billlookup/History.aspx?LegSess=89R&Bill=SB6",
+    "status": 200,
+    "ok": true,
+    "body_sha256": "b49867c389cf02accfaf3a39367ef8d7b13acf8ca34f5608d21bc4b30be0d215",
+    "text_sha256": "c6bd01a7a9bc746b77b2364789179c5e11527d270c8082775be17f235c361c1c",
+    "body_observed_at": "2026-11-07T08:33:09.064360Z",
+    "finished_at": "2026-11-07T08:33:09.065941+00:00"
+  },
+  {
+    "attempt_id": "50af47fa752b41598a20bbf538c03807",
+    "kind": "fetch",
+    "state": "finished",
+    "intent": {
+      "url": "https://statutes.capitol.texas.gov/GetStatute.aspx?Code=UT&Value=37",
+      "mode": "http"
+    },
+    "url": "https://statutes.capitol.texas.gov/GetStatute.aspx?Code=UT&Value=37",
+    "final_url": "https://statutes.capitol.texas.gov/GetStatute.aspx?Code=UT&Value=37",
+    "status": 200,
+    "ok": true,
+    "body_sha256": "dbfba8a96dc3cd584157ca66aaafdf67e0ed15dd5a0c8a58f3d4bd0f109fc646",
+    "text_sha256": "f2c483ce0be974238b35dd2d4e618a3f95e943ea8be0b2d34880c38f39b0f4ad",
+    "body_observed_at": "2026-11-07T08:33:09.128671Z",
+    "finished_at": "2026-11-07T08:33:09.130739+00:00"
+  },
+  {
+    "attempt_id": "5117f0a102a54083b1390ae439159ea3",
+    "kind": "fetch",
+    "state": "finished",
+    "intent": {
+      "url": "https://statutes.capitol.texas.gov/GetStatute.aspx?Code=UT&Value=39",
+      "mode": "http"
+    },
+    "url": "https://statutes.capitol.texas.gov/GetStatute.aspx?Code=UT&Value=39",
+    "final_url": "https://statutes.capitol.texas.gov/GetStatute.aspx?Code=UT&Value=39",
+    "status": 200,
+    "ok": true,
+    "body_sha256": "dbfba8a96dc3cd584157ca66aaafdf67e0ed15dd5a0c8a58f3d4bd0f109fc646",
+    "text_sha256": "f2c483ce0be974238b35dd2d4e618a3f95e943ea8be0b2d34880c38f39b0f4ad",
+    "body_observed_at": "2026-11-07T08:33:09.139121Z",
+    "finished_at": "2026-11-07T08:33:09.140980+00:00"
+  },
+  {
+    "attempt_id": "f975ce3823eb404da24b02936a995227",
+    "kind": "fetch",
+    "state": "finished",
+    "intent": {
+      "url": "https://statutes.capitol.texas.gov/GetStatute.aspx?Code=UT&Value=37",
+      "mode": "browser"
+    },
+    "url": "https://statutes.capitol.texas.gov/GetStatute.aspx?Code=UT&Value=37",
+    "final_url": "https://statutes.capitol.texas.gov/?tab=1&code=UT&chapter=UT.37&artSec=",
+    "status": 200,
+    "ok": true,
+    "body_sha256": "f6705a43b10898cad7d0f86180f341c1e4b76bd82755cdbe90f34a21b2cb2272",
+    "text_sha256": "4ac0540ebbda06b053c8cc6430203e354cb9942611b7ecbb968349c4daaf9f80",
+    "body_observed_at": "2026-11-07T08:39:25.277817Z",
+    "finished_at": "2026-11-07T08:39:25.439476+00:00"
+  },
+  {
+    "attempt_id": "d74721e6dea84daea19a8dbaa3b55dc5",
+    "kind": "fetch",
+    "state": "finished",
+    "intent": {
+      "url": "https://statutes.capitol.texas.gov/GetStatute.aspx?Code=UT&Value=39",
+      "mode": "browser"
+    },
+    "url": "https://statutes.capitol.texas.gov/GetStatute.aspx?Code=UT&Value=39",
+    "final_url": "https://statutes.capitol.texas.gov/?tab=1&code=UT&chapter=UT.39&artSec=",
+    "status": 200,
+    "ok": true,
+    "body_sha256": "8e4ff0955502df7869c153b0ca25276cdff73cf6afb5f7c3725e2f612741b041",
+    "text_sha256": "cea7e87e1d62ee7a75cceb96514dbc27f7142a3826086b08d51bb5f0a7de7857",
+    "body_observed_at": "2026-11-07T08:41:33.260097Z",
+    "finished_at": "2026-11-07T08:41:33.422446+00:00"
+  }
+]

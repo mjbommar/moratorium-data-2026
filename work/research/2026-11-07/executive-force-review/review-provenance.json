@@ -1,0 +1,43 @@
+{
+  "source_cutoff": "2026-11-05",
+  "retrieved_reviewed": "2026-11-07",
+  "baseline_commit": "d9c09ebfe9b6585f82e3c7d841aa2316376ec914",
+  "workers": [
+    {
+      "state": "NY",
+      "requested_model": "gpt-6.1-terra",
+      "review_sha256": "1c2da56dd7291caa4fbcecbffc3ba5e8562ffc0c0170dad1ebee1db9d0eda43e"
+    },
+    {
+      "state": "TX",
+      "requested_model": "gpt-6.1-terra",
+      "review_sha256": "a15c9ecc39a2724e023ad27d31cfb085faa57c99299754cd1b7e415e0cee7e31"
+    }
+  ],
+  "coordinator_dispositions": {
+    "legal_effect": "Both old in_force values lack cutoff-complete current-force verification; classify unknown under the existing codebook without inferring cessation.",
+    "date_correction": "Texas signed letter visibly dates August3 on both pages; native extraction omission corrected by direct visual review.",
+    "challenge_policy": "Two ERCOT HTTP/browser captures both flag ok:false; retain privately but exclude them and all search snippets from accepted field corrections.",
+    "preservation": "No initial dates, party, latest recorded action, legislative category, ID, other row or expanded table changes accepted."
+  },
+  "search_calls": 6,
+  "fetch_calls": 14,
+  "pydoll_calls": 3,
+  "accepted_source_versions": 10,
+  "withheld_fetch_versions": 4,
+  "known_exa_cost_usd": 0.042,
+  "overall_cost": "unknown; CLI and other charges not represented as zero",
+  "field_change_count": 12,
+  "raw_sources_private": true,
+  "independent_review": {
+    "artifact_sha256": "c71210916124f7b5c66508e04a634f69f771c72662e3e5a85a3ade53de5f96c6",
+    "result": "ready_with_limits",
+    "requested_model": "gpt-6.1-terra",
+    "cli_header_reported_model": "gpt-6.1-terra",
+    "cli_header_reported_provider": "openai",
+    "session_id": "01a1b51c-fd8a-7c73-90d5-15554137fd15",
+    "model_scope": "Launcher and CLI header attest the selected model; no independent weight or billing attestation."
+  },
+  "independent_sb6_review_sha256": "d1d720b49b7765910dc189e2f7a3301e450318b86e223c3b5ae736c50e76e400",
+  "sb6_disposition": "Primary rendered code recovered after the index-only recommendation; retain bounded statutory in_force. Three descriptive corrections separately accepted."
+}

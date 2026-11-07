@@ -1,0 +1,46 @@
+{
+  "apply": true,
+  "new_sources": 1,
+  "sources": [
+    {
+      "url": "https://gov.texas.gov/uploads/files/press/Thomas_Gleeson_Pablo_Vegas_Data_Centers_Directive_Letter_to_PUCT_ERCOT_August_2026_.pdf",
+      "final_url": "https://gov.texas.gov/uploads/files/press/Thomas_Gleeson_Pablo_Vegas_Data_Centers_Directive_Letter_to_PUCT_ERCOT_August_2026_.pdf",
+      "status": 200,
+      "ok": true,
+      "fetched_at": "2026-11-07T08:16:27.931974+00:00",
+      "key": "f8bfd53b8a60d29b-c5f5c9619c89-00a5c2e581cc",
+      "sha256": "c5f5c9619c8998fbc551f23dc45c67ddb803a1710b6114bb96bbf9f498ec9692",
+      "text_sha256": "00a5c2e581cc3444ca2e2694ee48fd8859c4f5de0ee01368399212f348502aa5",
+      "text_chars": 4491,
+      "title": null,
+      "text_method": "bc_research.pipeline.document_text via bounded research client",
+      "files": [
+        "work/sources/TX/f8bfd53b8a60d29b-c5f5c9619c89-00a5c2e581cc.pdf",
+        "work/sources/TX/f8bfd53b8a60d29b-c5f5c9619c89-00a5c2e581cc.txt"
+      ],
+      "attempt_id": "87fb1fdc9bb641638872370ac290b62a",
+      "published": false,
+      "retrieval_observation": {
+        "from_cache": false,
+        "origin_revalidated": false,
+        "body_observed_at": "2026-11-07T08:16:27.445861Z",
+        "origin_attempt_statuses": [],
+        "scope": "Retrieval/cache lineage only; not renewed factual or legal-force acceptance."
+      },
+      "extraction_variant_of": [
+        "f8bfd53b8a60d29b-c5f5c9619c89"
+      ],
+      "text_derivation": {
+        "attempt_id": "87fb1fdc9bb641638872370ac290b62a",
+        "text_artifact": "/data0/moratorium-refresh-2026/executive-force-review-2026-11-07/tx/letter.pdftotext.private.txt",
+        "source_body_sha256": "c5f5c9619c8998fbc551f23dc45c67ddb803a1710b6114bb96bbf9f498ec9692",
+        "derived_text_sha256": "00a5c2e581cc3444ca2e2694ee48fd8859c4f5de0ee01368399212f348502aa5",
+        "review_status": "accepted_derivation",
+        "method": "pdftotext -layout; both date headers cross-checked against coordinator-viewed PDF pages1/2. Original client extraction retained as separate archived version."
+      }
+    }
+  ],
+  "selected_attempt_ids": [
+    "87fb1fdc9bb641638872370ac290b62a"
+  ]
+}

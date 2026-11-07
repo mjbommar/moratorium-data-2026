@@ -1,0 +1,33 @@
+{
+  "state_abbrev": "NY",
+  "researched_as_of": "2026-11-07",
+  "researcher": "Coordinator source adjudication after separately bounded gpt-6.1-terra CLI reviews",
+  "decisions": [
+    {
+      "bill_key": "NY:Executive Order No. 62 (2026)",
+      "outcome": "corrected",
+      "fields": {
+        "status": "Signed 2026-07-14; directs the specified DEC application hold until DPS submits its report of the final GEIS and associated findings statement. Current legal effect through 2026-11-05 is unresolved.",
+        "key_provisions": "Directs DEC to hold discretionary applications for construction or expansion of covered data centers that are or become pending before DEC and were not determined complete before 2026-07-14. Coverage follows the order's complete definition, including equipment/service characteristics and the 50-MW criterion and listed exclusions, including primarily manufacturing, research, education or medical-care facilities. Local-government permissions are excluded.",
+        "legal_effect_status": "unknown",
+        "end_condition": "The DEC application hold lasts until DPS submits its report of the final Generic Environmental Impact Statement and associated findings statement. This is not a fixed twelve-month term or an endpoint for every provision of the order; cutoff-date satisfaction remains unverified."
+      },
+      "confidence": 0.95,
+      "evidence": [
+        {
+          "url": "https://www.governor.ny.gov/executive-order/no-62-establishing-temporary-moratorium-data-centers-new-york-while-state-develops",
+          "source_type": "governor_action",
+          "supports": "permit_hold in the dated original instrument, not proof of continuing force through cutoff.",
+          "quote": "Until DPS submits its report of the final Generic Environmental Impact Statement and associated findings statement, the Department of Environmental Conservation (DEC), consistent with its obligations under SEQRA, is directed to hold in abeyance all applications for any discretionary permit, approval, license, or similar form of permission for the construction or expansion of a data center that (1) are or may hereafter be pending before DEC and (2) have not been determined to be complete by DEC before the date of this Executive Order. As a condition precedent to a determination of completeness for an application for a discretionary permit, approval, license, or similar form of permission, DEC may require the applicant to identify and describe in writing whether such application relates to or involves the construction or operation of a data center. This provision does not apply to permits, approvals, licenses, or similar forms of permission from local governments. DEC shall assist DPS in the preparation of the Generic Environmental Impact Statement referenced above."
+        },
+        {
+          "url": "https://www.governor.ny.gov/executive-order/no-62-establishing-temporary-moratorium-data-centers-new-york-while-state-develops",
+          "source_type": "governor_action",
+          "supports": "definition in the dated original instrument, not proof of continuing force through cutoff.",
+          "quote": "For the purposes of this Executive Order, \u201cdata center\u201d shall mean a facility or group of facilities located on the same site or contiguous sites used to house computer servers, associated components, or computing or telecommunications equipment for the storage, processing, distribution, and / or management of data. Characteristics of data centers subject to this Executive Order include computer servers, associated components, or computing or telecommunications equipment which: (1) are in facilities containing uninterruptible power supply systems, specialized cooling systems designed for high-density computing loads, and / or contain cybersecurity systems designed for secure digital infrastructure operations, (2) provide data storage, cloud computing, and/or content delivery to customers, internal operations, and/or affiliated business operations, oftentimes on a continuous twenty-four-hour cycle, and (3) consume or can consume 50 megawatts of energy or more. Provided, however, that a facility that is primarily used for manufacturing, research (including but not limited to quantum computing research or biomedical research), education (including but not limited to such facilities used by accredited colleges and universities in New York State, to the extent such colleges and universities are engaging in academic research, and the Empire AI consortium, or the institute, as defined in section three hundred sixty-one of the Economic Development Law), or the provision of medical care, is not covered by this definition and thus not subject to this Executive Order."
+        }
+      ],
+      "notes": "Correct conditional scope and epistemic current-force classification through the November5 cohort cutoff. Unknown does not assert termination or nonexistence. Initial effective dates, other unresolved fields and all IDs are preserved without renewed acceptance. Texas letter date/signature are visually confirmed despite extraction omitting visible date headers; ERCOT captures flagged ok:false are withheld from these corrections."
+    }
+  ]
+}

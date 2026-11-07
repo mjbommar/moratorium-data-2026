@@ -1,0 +1,28 @@
+{
+  "state_abbrev": "TX",
+  "researched_as_of": "2026-11-07",
+  "researcher": "Coordinator source adjudication after separately bounded gpt-6.1-terra CLI reviews",
+  "decisions": [
+    {
+      "bill_key": "TX:Governor Abbott August 3, 2026 Data Center Audit Directive",
+      "outcome": "corrected",
+      "fields": {
+        "status": "Governor directive signed 2026-08-03. Current legal effect and satisfaction of its audit prerequisite through 2026-11-05 are unresolved.",
+        "key_provisions": "Directs PUCT and ERCOT to conduct a comprehensive verification and audit of all data centers advancing through ERCOT interconnection before additional data centers are approved to move forward; noncompliant projects must be denied connection. Required information includes public financial assistance, power, water and cooling, community impacts, and ownership.",
+        "legal_effect_status": "unknown",
+        "end_condition": "Comprehensive verification and audit is required before additional interconnection approvals; the separate denial requirement applies to noncompliant projects. The letter states no fixed end date. Satisfaction of the prerequisite through 2026-11-05 is unverified.",
+        "primary_source_url": "https://gov.texas.gov/uploads/files/press/Thomas_Gleeson_Pablo_Vegas_Data_Centers_Directive_Letter_to_PUCT_ERCOT_August_2026_.pdf"
+      },
+      "confidence": 0.95,
+      "evidence": [
+        {
+          "url": "https://gov.texas.gov/uploads/files/press/Thomas_Gleeson_Pablo_Vegas_Data_Centers_Directive_Letter_to_PUCT_ERCOT_August_2026_.pdf",
+          "source_type": "governor_action",
+          "supports": "audit_prerequisite in the dated original instrument, not proof of continuing force through cutoff.",
+          "quote": "The Public Utility Commission of Texas (PUC) and ERCOT must conduct a comprehensive\n\nverification and audit of all data centers advancing through ERCOT\u2019s interconnection process\n\nbefore any additional data centers are approved to move forward. Any project that fails to comply\n\nwith the requirements set forth by the PUC and ERCOT, and by state law, must be denied\n\nconnection to the Texas grid."
+        }
+      ],
+      "notes": "Correct conditional scope and epistemic current-force classification through the November5 cohort cutoff. Unknown does not assert termination or nonexistence. Initial effective dates, other unresolved fields and all IDs are preserved without renewed acceptance. Texas letter date/signature are visually confirmed despite extraction omitting visible date headers; ERCOT captures flagged ok:false are withheld from these corrections."
+    }
+  ]
+}

@@ -112,10 +112,14 @@ unless it actually pauses local permitting.
 | `end_condition` | Typed prose describing a fixed end date, statutory sunset, or event-based endpoint. | `Until DPS submits its final GEIS and findings statement` |
 | `primary_source_url` | Direct official bill, executive, agency, or statute source. | `https://www.governor.ny.gov/...` |
 
-For example, New York Executive Order 62 is a binding state-agency action:
-it pauses certain incomplete DEC discretionary permits for covered 50-MW data
-centers until DPS completes the specified GEIS process, while expressly leaving
-local permits and zoning outside its scope. Texas SB 6 is a binding utility-grid
+For example, New York Executive Order 62 directs a conditional state-agency
+application hold: the relevant DEC applications must not have been determined
+complete before July 14, 2026, and coverage follows the full definition, including
+its equipment/service characteristics, 50-MW criterion and listed exclusions.
+Local-government permissions are excluded. The hold's endpoint is DPS submission
+of its report of the final GEIS and associated findings statement, not the separate
+twelve-month water-report deadline. This describes the dated instruction; its
+current legal effect through November 5 remains unverified and is recorded unknown. Texas SB 6 is a binding utility-grid
 restriction rather than a moratorium; Pennsylvania SB 1345 and SB 1359 remain
 proposed actions, respectively authorizing local pauses and imposing a
 statewide pause.

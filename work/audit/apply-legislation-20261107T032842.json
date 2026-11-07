@@ -1,0 +1,91 @@
+{
+  "applied_at": "20261107T032842",
+  "answer_files": [
+    "work/research/2026-11-07/executive-force-review/answers-ny.json",
+    "work/research/2026-11-07/executive-force-review/answers-tx.json"
+  ],
+  "stats": {
+    "outcome:corrected": 2,
+    "set:status": 2,
+    "set:key_provisions": 2,
+    "set:legal_effect_status": 2,
+    "set:end_condition": 2,
+    "set:primary_source_url": 1
+  },
+  "session_notes": {},
+  "conflicts": [],
+  "changes": [
+    {
+      "bill_key": "NY:Executive Order No. 62 (2026)",
+      "column": "status",
+      "before": "Signed 2026-07-14; DEC must hold in abeyance incomplete discretionary permit applications for covered data centers until DPS submits the final Generic Environmental Impact Statement and findings statement.",
+      "after": "Signed 2026-07-14; directs the specified DEC application hold until DPS submits its report of the final GEIS and associated findings statement. Current legal effect through 2026-11-05 is unresolved.",
+      "reason": "Correct conditional scope and epistemic current-force classification through the November5 cohort cutoff. Unknown does not assert termination or nonexistence. Initial effective dates, other unresolved fields and all IDs are preserved without renewed acceptance. Texas letter date/signature are visually confirmed despite extraction omitting visible date headers; ERCOT captures flagged ok:false are withheld from these corrections.",
+      "source": "answers-ny.json"
+    },
+    {
+      "bill_key": "NY:Executive Order No. 62 (2026)",
+      "column": "key_provisions",
+      "before": "Binding state-agency permitting restriction for data centers that consume or can consume 50 MW or more: DEC must hold incomplete discretionary permits, approvals, licenses, and similar permissions while DPS completes a statewide Generic Environmental Impact Statement; it does not override local permitting or zoning.",
+      "after": "Directs DEC to hold discretionary applications for construction or expansion of covered data centers that are or become pending before DEC and were not determined complete before 2026-07-14. Coverage follows the order's complete definition, including equipment/service characteristics and the 50-MW criterion and listed exclusions, including primarily manufacturing, research, education or medical-care facilities. Local-government permissions are excluded.",
+      "reason": "Correct conditional scope and epistemic current-force classification through the November5 cohort cutoff. Unknown does not assert termination or nonexistence. Initial effective dates, other unresolved fields and all IDs are preserved without renewed acceptance. Texas letter date/signature are visually confirmed despite extraction omitting visible date headers; ERCOT captures flagged ok:false are withheld from these corrections.",
+      "source": "answers-ny.json"
+    },
+    {
+      "bill_key": "NY:Executive Order No. 62 (2026)",
+      "column": "legal_effect_status",
+      "before": "in_force",
+      "after": "unknown",
+      "reason": "Correct conditional scope and epistemic current-force classification through the November5 cohort cutoff. Unknown does not assert termination or nonexistence. Initial effective dates, other unresolved fields and all IDs are preserved without renewed acceptance. Texas letter date/signature are visually confirmed despite extraction omitting visible date headers; ERCOT captures flagged ok:false are withheld from these corrections.",
+      "source": "answers-ny.json"
+    },
+    {
+      "bill_key": "NY:Executive Order No. 62 (2026)",
+      "column": "end_condition",
+      "before": "Ends when DPS submits the final Generic Environmental Impact Statement and associated findings statement; the order excludes local-government permits, approvals, licenses, and similar permissions.",
+      "after": "The DEC application hold lasts until DPS submits its report of the final Generic Environmental Impact Statement and associated findings statement. This is not a fixed twelve-month term or an endpoint for every provision of the order; cutoff-date satisfaction remains unverified.",
+      "reason": "Correct conditional scope and epistemic current-force classification through the November5 cohort cutoff. Unknown does not assert termination or nonexistence. Initial effective dates, other unresolved fields and all IDs are preserved without renewed acceptance. Texas letter date/signature are visually confirmed despite extraction omitting visible date headers; ERCOT captures flagged ok:false are withheld from these corrections.",
+      "source": "answers-ny.json"
+    },
+    {
+      "bill_key": "TX:Governor Abbott August 3, 2026 Data Center Audit Directive",
+      "column": "status",
+      "before": "Governor directive issued 2026-08-03; ERCOT implementation notice issued 2026-08-03.",
+      "after": "Governor directive signed 2026-08-03. Current legal effect and satisfaction of its audit prerequisite through 2026-11-05 are unresolved.",
+      "reason": "Correct conditional scope and epistemic current-force classification through the November5 cohort cutoff. Unknown does not assert termination or nonexistence. Initial effective dates, other unresolved fields and all IDs are preserved without renewed acceptance. Texas letter date/signature are visually confirmed despite extraction omitting visible date headers; ERCOT captures flagged ok:false are withheld from these corrections.",
+      "source": "answers-tx.json"
+    },
+    {
+      "bill_key": "TX:Governor Abbott August 3, 2026 Data Center Audit Directive",
+      "column": "key_provisions",
+      "before": "Directs PUCT and ERCOT to verify and audit every data center advancing through ERCOT interconnection before it may move forward, pausing the Batch Zero process pending the required review.",
+      "after": "Directs PUCT and ERCOT to conduct a comprehensive verification and audit of all data centers advancing through ERCOT interconnection before additional data centers are approved to move forward; noncompliant projects must be denied connection. Required information includes public financial assistance, power, water and cooling, community impacts, and ownership.",
+      "reason": "Correct conditional scope and epistemic current-force classification through the November5 cohort cutoff. Unknown does not assert termination or nonexistence. Initial effective dates, other unresolved fields and all IDs are preserved without renewed acceptance. Texas letter date/signature are visually confirmed despite extraction omitting visible date headers; ERCOT captures flagged ok:false are withheld from these corrections.",
+      "source": "answers-tx.json"
+    },
+    {
+      "bill_key": "TX:Governor Abbott August 3, 2026 Data Center Audit Directive",
+      "column": "legal_effect_status",
+      "before": "in_force",
+      "after": "unknown",
+      "reason": "Correct conditional scope and epistemic current-force classification through the November5 cohort cutoff. Unknown does not assert termination or nonexistence. Initial effective dates, other unresolved fields and all IDs are preserved without renewed acceptance. Texas letter date/signature are visually confirmed despite extraction omitting visible date headers; ERCOT captures flagged ok:false are withheld from these corrections.",
+      "source": "answers-tx.json"
+    },
+    {
+      "bill_key": "TX:Governor Abbott August 3, 2026 Data Center Audit Directive",
+      "column": "end_condition",
+      "before": "Until PUCT and ERCOT complete the comprehensive verification and audit; projects that fail applicable requirements must be denied grid connection.",
+      "after": "Comprehensive verification and audit is required before additional interconnection approvals; the separate denial requirement applies to noncompliant projects. The letter states no fixed end date. Satisfaction of the prerequisite through 2026-11-05 is unverified.",
+      "reason": "Correct conditional scope and epistemic current-force classification through the November5 cohort cutoff. Unknown does not assert termination or nonexistence. Initial effective dates, other unresolved fields and all IDs are preserved without renewed acceptance. Texas letter date/signature are visually confirmed despite extraction omitting visible date headers; ERCOT captures flagged ok:false are withheld from these corrections.",
+      "source": "answers-tx.json"
+    },
+    {
+      "bill_key": "TX:Governor Abbott August 3, 2026 Data Center Audit Directive",
+      "column": "primary_source_url",
+      "before": "https://gov.texas.gov/news/post/governor-abbott-directs-comprehensive-data-center-audit",
+      "after": "https://gov.texas.gov/uploads/files/press/Thomas_Gleeson_Pablo_Vegas_Data_Centers_Directive_Letter_to_PUCT_ERCOT_August_2026_.pdf",
+      "reason": "Correct conditional scope and epistemic current-force classification through the November5 cohort cutoff. Unknown does not assert termination or nonexistence. Initial effective dates, other unresolved fields and all IDs are preserved without renewed acceptance. Texas letter date/signature are visually confirmed despite extraction omitting visible date headers; ERCOT captures flagged ok:false are withheld from these corrections.",
+      "source": "answers-tx.json"
+    }
+  ]
+}
