@@ -58,7 +58,8 @@ def build(destination, revision):
         exact.update(n for n in names if n.startswith(pilot))
         exact.update({'scripts/audit_pilot_contracts.py', 'scripts/expanded_data.py',
                       'scripts/expanded_promotion.py', 'scripts/expanded_identity.py',
-                      'scripts/audit_refresh_returns.py', 'scripts/visual_claim_review.py'})
+                      'scripts/audit_refresh_returns.py', 'scripts/visual_claim_review.py',
+                      'scripts/check_expanded_publication.py','scripts/build_expanded_csv.py'})
         validator=git('show',commit+':scripts/expanded_data.py').decode()
         dependencies=set(re.findall(r'work/schemas/expanded/\d+\.\d+\.\d+\.json',validator))
         assert dependencies<=set(names),'Validator profile absent from selected commit: '+str(dependencies-set(names))
