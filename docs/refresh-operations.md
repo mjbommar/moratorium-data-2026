@@ -516,3 +516,17 @@ Fresh Ohio official-source requests preserve identical reported figures for thre
 The [publication packet](../work/research/2026-11-07/alhambra-result-publication/README.md) records native publication of the later Alhambra return (17,319 yes / 3,410 no; source-reported 83.55% yes), retaining the prior 15,237/3,132 result. Exact replay returns `already_applied`; the old generation and all legacy CSV bytes are retained. Expanded totals are 53 measures, 58 retained results, 50 current results, five current certified observations, 154 sources, 569 claims and 2,527 decisions. Certification, formal outcome and legal effect are unresolved. The county footer supplies no timezone and is not promoted to a zoned publication timestamp.
 
 Edgewater remains an unchanged unofficial result; Monterey Park is the June 2 election and its already accepted certification is unchanged. Five additional source archive versions and six native retrieval observations preserve the CA/FL acquisition history, including successful JSON/HTML bodies whose original readable-text extraction was empty. Empty extractions remain explicit gaps. The full data/site checks report zero errors, 503 warnings and all 68 documented numbers matching. Full national freshness, consumer reconciliation, final release and hosted verification remain open.
+
+
+### Alhambra hosted verification and Massachusetts source recovery — November 7
+
+Pages run 42424878694 successfully deployed commit `732d4b467b8064c5fed7c4adb64cb0ff7a7bf1d7`. All six selected responses—both legacy CSVs, retained-result JSONL, current-result CSV, ballot prose HTML and data index—returned HTTP 200 and matched the pinned commit byte for byte ([receipt](../work/research/2026-11-07/alhambra-result-publication/hosted-selected-files.json)). This is selected-file verification, not a final-release audit.
+
+[Massachusetts recovery](../work/research/2026-11-07/massachusetts-policy-source-recovery/README.md) archives sixteen additional versions with zero native payload gaps, including the newly recovered original S.37 text. The initial five-record field review is complete; source recovery does not by itself apply its proposals or close compound identity and current-force questions.
+
+
+### Massachusetts fields and three California local records — November 7
+
+Applied 28 Massachusetts fields across five existing records after 95 assessments and a separately independent seven-field supplement. Original S.37 recovery resolves the missing-text classification gap; the compound frozen ID remains a qualified exception pending identity migration. Chapter 238 becomes statute/incentive support; policy rows remain 443, bill-type rows become 426 and enacted bill-type rows 93. No repeal or renewed present-force finding is asserted. Sixteen external source mappings pass native replay; a frozen internal baseline context is guarded separately.
+
+The [California local packet](../work/research/2026-11-07/overdue-local-record-review-ca/README.md) applies ten cells across three records after 78 independent assessments and 18 representation checks. Six cells recompute verification annotations, bringing flagged local rows to 727. All three whole-record dispositions remain unresolved; original-term computed dates do not establish legal expiry. Nine existing source mappings replay with zero gaps. All local/policy IDs are retained. National freshness, ballot followups, all consumers and final release remain required.

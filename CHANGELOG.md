@@ -2,6 +2,10 @@
 
 ## 2026-11-07 — current working snapshot (unreleased)
 
+The [Massachusetts review](work/research/2026-11-07/massachusetts-policy-source-review/README.md) applies 28 fields across five records following 95 field assessments and an independent original/new-draft supplement. Reclassify Chapter 238 as a statute and incentive support; correct the S.37/S.2630 compound mechanism after recovering both texts. Policy rows remain 443, typed bills become 426 and enacted typed bills 93; this form correction is not repeal. Preserve distinct new-draft identity, ultimate-disposition and current-force gaps. Sixteen source versions pass native replay with zero gaps.
+
+The [California local review](work/research/2026-11-07/overdue-local-record-review-ca/README.md) applies ten cells across Arcata, Calaveras County and Eureka after 78 independent field assessments. Correct the Arcata inquiry size and qualify three historical status narratives; recompute six verification annotations. All three whole-record dispositions remain unresolved. Nine existing source mappings pass native replay with zero gaps.
+
 The [Alhambra Measure DB observation](work/research/2026-11-07/alhambra-result-publication/README.md) now records 17,319 yes and 3,410 no from the later county return, superseding but retaining the earlier 15,237/3,132 observation. The source reports 83.55% yes; certification, formal outcome and legal effect remain unresolved. Retained results increase from 57 to 58; current results remain 50 and current certified observations remain five. No measure or legacy census row is added. Edgewater and Monterey Park re-observations do not change their accepted figures; Monterey Park concerns the June 2 election.
 
 Successful raw responses with no readable extracted text are now preserved privately with an explicit extraction gap, rather than silently skipped. Five extraction-derivation regression tests cover the archive behavior. This does not promote empty extractions into factual support.
@@ -157,7 +161,7 @@ These are inventory classifications, not independently renewed legal-force findi
 | Classified active or extended | **1079** |
 | Pending or not yet effective | **79** |
 | Ended (replaced, expired, or rescinded) | **172** |
-| Rows we still want to confirm (`[VERIFY]`) | **724** |
+| Rows we still want to confirm (`[VERIFY]`) | **727** |
 | States with at least one | **47** |
 
 Current totals remain 1,330 local records (1,079 active/extended classifications),

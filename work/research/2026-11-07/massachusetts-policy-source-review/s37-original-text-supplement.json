@@ -1,0 +1,268 @@
+{
+  "identity": {
+    "decision": "retain frozen compound ID and label, explicit two-bill new-draft relation; no added successor row now",
+    "reason": "Codebook normally tracks bills separately and distinguishes incorporated identity, but expressly permits unresolved compound rows and does not mandate splitting every numbered new draft; no explicit reviewed new-draft split rule was found. Avoid treating bill numbers as equality or automatically as mandatory separate census rows.",
+    "if_future_policy_requires_split": "Recheck duplicates and all 19 fields, focus frozen ID explicitly on S.37, add a separately sourced S.2630 row with a new stable ID, preserve a one-to-many lineage map and separate histories, update counts and consumers under reviewed migration. Do not apply provisional guessed record or assume old ID is successor.",
+    "source_adequacy": "Texts, roles, actions and dates support substantial future row construction; contextual activity, party for committee, terminal disposition, current force, duplicate aliases and migration/consumer rules remain unresolved. Blank unknown fields as appropriate; this review does not certify a complete insertion."
+  },
+  "scope_and_mechanism": {
+    "S37": "mixed fiscal and statewide model/cluster regulation; original prohibits certain unsafe model use and requires shutdown capability, but neither is a data-center construction or permit moratorium",
+    "S2630": "mixed fiscal support, statewide frontier-model disclosure and safety, and state consortium for public computing; no data-center construction or permit moratorium",
+    "difference": "S.37 has covered-model use prohibition and computing-cluster customer identification/shutdown duties; S.2630 uses a differently defined frontier model and transparency/incident reporting and adds MassCompute framework. The common mixed classification masks real substantive differences."
+  },
+  "field_assessments": [
+    {
+      "field": "state",
+      "before": "Massachusetts",
+      "recommended": "Massachusetts",
+      "assessment": "Both official Massachusetts histories identify the General Court."
+    },
+    {
+      "field": "state_abbrev",
+      "before": "MA",
+      "recommended": "MA",
+      "assessment": "Postal abbreviation for Massachusetts."
+    },
+    {
+      "field": "bill",
+      "before": "S.37 -> S.2630 (194th)",
+      "recommended": "S.37 -> S.2630 (194th)",
+      "assessment": "Retain explicit compound display and distinct numbered lineage; no identity equality."
+    },
+    {
+      "field": "sponsors",
+      "before": "Sen. Barry R. Finegold; reported by Joint Committee on Advanced Information Technology, the Internet and Cybersecurity",
+      "recommended": "Sen. Barry R. Finegold; reported by Joint Committee on Advanced Information Technology, the Internet and Cybersecurity",
+      "assessment": "Finegold petitioned S.37; committee reported S.2630, not individual sponsorship of successor."
+    },
+    {
+      "field": "party",
+      "before": "D; committee bill",
+      "recommended": "D; committee bill",
+      "assessment": "D applies to Finegold; committee label is not a party."
+    },
+    {
+      "field": "status",
+      "before": "Reported favorably from Joint Committee on Advanced Information Technology, the Internet and Cybersecurity as new-draft S.2630, referred to Senate Ways and Means 2025-10-16; pending as of 2026-07-31",
+      "recommended": "S.37 accompanied new draft S.2630 on 2025-10-16; S.2630 was reported favorably and referred to Senate Ways and Means that date, the last actions displayed when observed 2026-11-07.",
+      "assessment": "Both observed histories record 2025-10-16 distinct events; do not assert later pending or terminal state."
+    },
+    {
+      "field": "key_provisions",
+      "before": "AI economic development and safety bill with compute-related provisions; not a data center moratorium bill.",
+      "recommended": "S.37 proposed AI safety, covered-model and computing-cluster duties and an innovation fund; its new draft S.2630 proposed frontier-model transparency and safety duties, the fund, and a public-compute framework. Neither proposes a data-center moratorium.",
+      "assessment": "Describe both texts and their distinct coverage; neither has a construction or permitting pause."
+    },
+    {
+      "field": "activity_level",
+      "before": "Medium",
+      "recommended": "Medium",
+      "assessment": "Contextual inventory classification, not independently verified by these texts."
+    },
+    {
+      "field": "bill_status_category",
+      "before": "in_committee",
+      "recommended": "unknown",
+      "assessment": "Unknown is conservative for compound of original with new-draft event and successor with last referral; neither terminal disposition established."
+    },
+    {
+      "field": "last_action_date_iso",
+      "before": "2025-10-16",
+      "recommended": "2025-10-16",
+      "assessment": "2025-10-16 last displayed action in each captured history, not proof no later action."
+    },
+    {
+      "field": "chamber_of_origin",
+      "before": "Senate",
+      "recommended": "Senate",
+      "assessment": "Both histories identify Senate bills."
+    },
+    {
+      "field": "policy_instrument_type",
+      "before": "bill",
+      "recommended": "bill",
+      "assessment": "Both are bills; compound grain is explicitly qualified."
+    },
+    {
+      "field": "policy_mechanism",
+      "before": "statewide_moratorium",
+      "recommended": "other",
+      "assessment": "other: both contain fiscal support and AI safety duties; the original also has conditional model-use prohibition and cluster controls, none is a statewide development pause. A single disclosure label would underrepresent original."
+    },
+    {
+      "field": "legal_effect_status",
+      "before": "proposed",
+      "recommended": "unknown",
+      "assessment": "Unknown: historical referral and new-draft linkage alone do not prove complete later disposition or current force."
+    },
+    {
+      "field": "scope_of_action",
+      "before": "statewide",
+      "recommended": "mixed",
+      "assessment": "mixed: both combine fiscal trust fund and statewide AI regulation; successor adds a state-agency consortium. Mixed surface does not imply moratorium."
+    },
+    {
+      "field": "effective_date_iso",
+      "before": "",
+      "recommended": "",
+      "assessment": "Blank: proposed dates for S.37 sections are not an enacted effective date."
+    },
+    {
+      "field": "end_condition",
+      "before": "",
+      "recommended": "",
+      "assessment": "Blank: no supported whole-instrument sunset; report deadlines and section dates are not endpoints."
+    },
+    {
+      "field": "primary_source_url",
+      "before": "",
+      "recommended": "https://malegislature.gov/Bills/194/S37",
+      "assessment": "Use S.37 official history as lead for retained compound; it links to S.2630. Preserve both direct texts and histories in evidence registry."
+    },
+    {
+      "field": "policy_action_id",
+      "before": "ma-s-37-s-2630-194th",
+      "recommended": "ma-s-37-s-2630-194th",
+      "assessment": "Freeze old legacy identifier; retain audit mapping; no successor row under current compound-row convention."
+    }
+  ],
+  "atomic_recommendations": [
+    {
+      "field": "status",
+      "before": "Reported favorably from Joint Committee on Advanced Information Technology, the Internet and Cybersecurity as new-draft S.2630, referred to Senate Ways and Means 2025-10-16; pending as of 2026-07-31",
+      "after": "S.37 accompanied new draft S.2630 on 2025-10-16; S.2630 was reported favorably and referred to Senate Ways and Means that date, the last actions displayed when observed 2026-11-07."
+    },
+    {
+      "field": "key_provisions",
+      "before": "AI economic development and safety bill with compute-related provisions; not a data center moratorium bill.",
+      "after": "S.37 proposed AI safety, covered-model and computing-cluster duties and an innovation fund; its new draft S.2630 proposed frontier-model transparency and safety duties, the fund, and a public-compute framework. Neither proposes a data-center moratorium."
+    },
+    {
+      "field": "bill_status_category",
+      "before": "in_committee",
+      "after": "unknown"
+    },
+    {
+      "field": "policy_mechanism",
+      "before": "statewide_moratorium",
+      "after": "other"
+    },
+    {
+      "field": "legal_effect_status",
+      "before": "proposed",
+      "after": "unknown"
+    },
+    {
+      "field": "scope_of_action",
+      "before": "statewide",
+      "after": "mixed"
+    },
+    {
+      "field": "primary_source_url",
+      "before": "",
+      "after": "https://malegislature.gov/Bills/194/S37"
+    }
+  ],
+  "remaining_gaps": [
+    "Terminal outcomes and later enactment or amendments; present legal force.",
+    "Complete duplicate and identity/lineage policy migration; whole-bill primary-surface convention and single-mechanism tie-break.",
+    "Source body/extraction hashes establish byte integrity, not legal effect.",
+    "Full national, local, ballot, consumer reconciliation and release remain open."
+  ],
+  "independent_atomic_decisions": [
+    {
+      "field": "status",
+      "decision": "accept",
+      "before": "Reported favorably from Joint Committee on Advanced Information Technology, the Internet and Cybersecurity as new-draft S.2630, referred to Senate Ways and Means 2025-10-16; pending as of 2026-07-31",
+      "after": "S.37 accompanied new draft S.2630 on 2025-10-16; S.2630 was reported favorably and referred to Senate Ways and Means that date, the last actions displayed when observed 2026-11-07.",
+      "reason": "Both histories separately display the original new-draft event and successor referral on 2025-10-16; displayed last actions are observation-bounded, not finality.",
+      "sources": [
+        "original_history:7-14",
+        "new_draft_history:7-12"
+      ]
+    },
+    {
+      "field": "key_provisions",
+      "decision": "accept",
+      "before": "AI economic development and safety bill with compute-related provisions; not a data center moratorium bill.",
+      "after": "S.37 proposed AI safety, covered-model and computing-cluster duties and an innovation fund; its new draft S.2630 proposed frontier-model transparency and safety duties, the fund, and a public-compute framework. Neither proposes a data-center moratorium.",
+      "reason": "Both complete bill texts support this compact whole-pair description. The original also restricts unsafe model use and requires shutdown capability; neither establishes a construction or permitting moratorium.",
+      "sources": [
+        "original_text:3-7,31-33,57-85,101-111",
+        "new_draft_text:3-7,63-69,75-103,145-161,239-261,293"
+      ]
+    },
+    {
+      "field": "bill_status_category",
+      "decision": "accept",
+      "before": "in_committee",
+      "after": "unknown",
+      "reason": "A single category cannot safely represent original and successor outcomes; last displayed referral is not a verified final disposition.",
+      "sources": [
+        "original_history:7-14",
+        "new_draft_history:7-12",
+        "docs/codebook.md:105"
+      ]
+    },
+    {
+      "field": "policy_mechanism",
+      "decision": "accept",
+      "before": "statewide_moratorium",
+      "after": "other",
+      "reason": "No statewide construction or permitting pause is found; other is a defensible provisional whole-pair code for heterogeneous fiscal and model-safety duties, pending a single-mechanism priority rule.",
+      "sources": [
+        "original_text:3-7,57-85,101-111",
+        "new_draft_text:3-7,75-103,239-261",
+        "docs/codebook.md:110"
+      ]
+    },
+    {
+      "field": "legal_effect_status",
+      "decision": "accept",
+      "before": "proposed",
+      "after": "unknown",
+      "reason": "Unknown is appropriate for current operative status: the captured bill texts and last displayed histories do not verify terminal outcomes, later laws or current legal force.",
+      "sources": [
+        "original_history:7-14",
+        "new_draft_history:7-12",
+        "docs/codebook.md:111"
+      ]
+    },
+    {
+      "field": "scope_of_action",
+      "decision": "accept",
+      "before": "statewide",
+      "after": "mixed",
+      "reason": "Mixed reasonably captures material fiscal trust-fund and statewide model-regulatory surfaces, with an additional state consortium in the successor. Whole-bill priority needs project adjudication.",
+      "sources": [
+        "original_text:3-7,57-85,101-111",
+        "new_draft_text:3-7,75-103,239-261",
+        "docs/codebook.md:112"
+      ]
+    },
+    {
+      "field": "primary_source_url",
+      "decision": "accept",
+      "before": "",
+      "after": "https://malegislature.gov/Bills/194/S37",
+      "reason": "The official original history is a reasonable lead for a compound lineage; retain both histories and both texts in the source registry, since one URL cannot substantiate the full pair.",
+      "sources": [
+        "original_history:3,14",
+        "new_draft_history:3,10-12"
+      ]
+    }
+  ],
+  "independent_identity": {
+    "decision": "Retain frozen compound row provisionally; preserve distinct original and new-draft source and event identities; do not add row in this review.",
+    "reason": "Current policy convention calls for one instrument per row but expressly acknowledges unresolved compound rows; the specific forms plan prohibits automatic splits and does not decide this pair. The distinct texts and histories make a split a credible future instrument-level reconciliation, but do not resolve migration/alias, census and all fields.",
+    "future_split": "Audit aliases, source separate fields and finality, decide old ID mapping, assign successor ID, preserve one-to-many lineage and migrate consumers and counts with independent review.",
+    "alias_check": "One MA match after S.37/S2630 string normalization; other aliases remain possible."
+  },
+  "independent_classification": {
+    "original": "Mixed fiscal support plus model and cluster safety; conditional model-use ban and shutdown capability are not construction moratoria.",
+    "new_draft": "Mixed fund, frontier-model frameworks, reporting and MassCompute consortium; no construction/permitting pause.",
+    "mechanism": "other is provisional: incentive_support and reporting_disclosure also describe parts; no codified tie-break identified.",
+    "scope": "mixed is defensible for material fiscal and statewide regulatory surfaces; scope priority convention remains open."
+  },
+  "codebook_gate": "Resolved by coordinator-final-review.json: only two live local verification counts changed; policy semantics unchanged."
+}

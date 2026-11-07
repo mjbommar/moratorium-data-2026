@@ -6,9 +6,9 @@ Canonical records and reproducible derived downloads for this project.
 
 | File | What it is | Size | Format |
 |------|------------|------|--------|
-| [`moratorium_inventory.csv`](moratorium_inventory.csv) | 1330 local-moratorium records. **Start here.** | 1,695,944 bytes | CSV |
-| [`state_legislation.csv`](state_legislation.csv) | 443 state-policy records; mechanisms and legal effects vary | 298,320 bytes | CSV |
-| [`summary_stats.json`](summary_stats.json) | Top-level aggregates (counts by state, by status, etc.) | 14,768 bytes | JSON |
+| [`moratorium_inventory.csv`](moratorium_inventory.csv) | 1330 local-moratorium records. **Start here.** | 1,696,935 bytes | CSV |
+| [`state_legislation.csv`](state_legislation.csv) | 443 state-policy records; mechanisms and legal effects vary | 299,139 bytes | CSV |
+| [`summary_stats.json`](summary_stats.json) | Top-level aggregates (counts by state, by status, etc.) | 14,786 bytes | JSON |
 | [`structured_extractions.jsonl`](structured_extractions.jsonl) | 864 lines: 526 successful clause extractions + 338 LLM-call errors retained for transparency | ~2 MB | JSONL |
 | [`clause_extraction_analysis.json`](clause_extraction_analysis.json) | Pre-computed clause prevalence statistics for the n=348 cohort (confidence ≥ 0.4) | ~7 KB | JSON |
 | [`moratorium-extraction.json`](moratorium-extraction.json) | JSON Schema describing the 60-field extraction format | ~25 KB | JSON Schema |

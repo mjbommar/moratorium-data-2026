@@ -2,6 +2,10 @@
 
 Plan: [Research modernization and ballot-measure expansion](docs/research-and-ballot-expansion-plan.md).
 
+- [x] Apply 28 Massachusetts fields across five existing records after primary, independent and original/new-draft supplemental review; retain current-force and compound-identity gaps. [Packet](work/research/2026-11-07/massachusetts-policy-source-review/README.md).
+
+- [x] Independently adjudicate all 78 fields across Arcata, Calaveras County and Eureka; apply ten supported cells and retain three unresolved whole-record dispositions. [Packet](work/research/2026-11-07/overdue-local-record-review-ca/README.md).
+
 - [x] Apply the later Alhambra Measure DB return as a superseding observation, retain the predecessor, and regenerate expanded downloads and result prose. Certification, formal outcome, legal effect, hosted verification and the final release remain separate open work.
 - [x] Preserve successful raw source responses with empty text extractions as private evidence with explicit extraction gaps; verify idempotent archival behavior.
 

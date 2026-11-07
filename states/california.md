@@ -59,9 +59,9 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 - **Sectors:** data center
 - **Moratorium ID:** `ca-arcata-2026`
 - **Legal basis:** Ordinance No. 1594 (Govt. Code 65858) moratorium on new data center land use applications
-- **What prompted it:** No zoning definition for data centers; concern over scarce industrial land/resources; recent reports of a proposed 30,000-50,000 sq ft facility locally; existing small EdgeConneX colocation facility unaffected.
+- **What prompted it:** No zoning definition for data centers; concerns about land use, energy, water and other impacts. Ordinance 1594 recites an inquiry about a 60,000-square-foot facility and an existing permitted 10,000-square-foot EdgeConneX colocation facility.
 - **Affected projects:** Existing 10,000 sq ft EdgeConneX colocation facility (fiber terminal) is legally permitted/operating and unaffected.
-- **Detailed status:** Active as of 2026-09-23. Adopted 5-0 on 2026-09-16, effective immediately for 45 days; staff to report back by Oct. 21 (day 35).
+- **Detailed status:** Ordinance 1594 was adopted 2026-09-16 and effective immediately for 45 days unless extended. A proposed Ordinance 1595 would extend it; the retained proposal has a blank vote certificate. Later extension, replacement, termination, litigation and current force remain unresolved. [VERIFY: later extension, replacement, termination and litigation.]
 - **Outcome:** Staff evaluating land-use definitions, environmental impacts, infrastructure capacity, and regulatory models.
 
 ### Baldwin Park
@@ -93,7 +93,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 - **Legal basis:** Urgency ordinance (Govt. Code 65858), countywide moratorium on data centers
 - **What prompted it:** Planning Director said large-scale data centers warrant further study on water, electricity, noise, lighting impacts; no application on file.
 - **Affected projects:** No pending application; proactive measure.
-- **Detailed status:** Active as of 2026-09-23. Adopted 4-0 (Chair Stopper absent) on 2026-08-25; runs 45 days to 2026-10-09, extendable up to two years while county studies impacts.
+- **Detailed status:** Previously recorded active as of 2026-09-23, with an August 25 adoption and 45-day term; original ordinance and that status were not independently verified in this review. A September 22 automated meeting account reports an extension of 10 months and 15 days; obtain the adopted ordinance and board record. Current force and operative endpoint remain unresolved. [VERIFY: original instrument scope and operative history, later extensions, replacement, termination and litigation.]
 - **Outcome:** County staff to study data center impacts and return with recommendations, possibly a permanent ban.
 
 ### City of Angels (Calaveras County)
@@ -205,7 +205,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 - **Legal basis:** Bill No. 1061-C.S. (interim ordinance, Govt. Code 65858), covers inland and coastal zones
 - **What prompted it:** No projects proposed; grid/electricity, water, noise, carbon footprint, coastal water-quality effects studied.
 - **Affected projects:** None proposed at adoption.
-- **Detailed status:** Active as of 2026-09-23. Adopted unanimously 2026-09-01, effective immediately for 45 days to 2026-10-16; extendable.
+- **Detailed status:** Previously recorded active as of 2026-09-23, with September 1 adoption of Bill 1061-C.S. and an initial 45-day term; original ordinance and that status were not independently verified in this review. The official October 6 meeting page lists a hearing on Bill 1063-C.S.; an AI-generated article reports adoption of an extension. Obtain the adopted text and minutes. Current force and operative endpoint remain unresolved. [VERIFY: original instrument scope and operative history, later extensions, replacement, termination and litigation.]
 - **Outcome:** Staff and Planning Commission to study zoning/regulatory controls.
 
 ### Gilroy
