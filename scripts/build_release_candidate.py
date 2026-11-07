@@ -113,7 +113,7 @@ def select_files(commit, names):
                 exact.add(path)
     # Optional for older revisions: never select a path absent from the tree.
     exact.update(n for n in PUBLIC_NOV7_METADATA if n in names)
-    exact.update(n for n in ('scripts/validate_dataset.py', 'scripts/build_summary_stats.py',
+    exact.update(n for n in ('scripts/verify_release_candidate.py', 'scripts/validate_dataset.py', 'scripts/build_summary_stats.py',
                              'data/sweep_coverage.json') if n in names)
     # The summary builder consults state page existence and sweep coverage.
     stats = json.loads(git('show', commit+':data/summary_stats.json'))
