@@ -1,0 +1,36 @@
+{
+  "build_command": "make data site check PYTHON=.venv/bin/python TODAY=2026-11-05",
+  "build_exit_code": 0,
+  "errors": 0,
+  "warnings": 491,
+  "warning_categories": {
+    "date.missing": 27,
+    "duration.calendar_end_unverified": 442,
+    "status.drift": 22
+  },
+  "warning_change_from_prior": {
+    "duration.calendar_end_unverified": 2
+  },
+  "warning_explanation": "Both corrected active calendar-term rows have no independently verified exact current endpoint. The validator exposes these gaps instead of treating365days as their legal duration. No endpoint was invented to suppress warnings.",
+  "documented_numbers_checked": 53,
+  "private_content_check_passed": true,
+  "build_log_sha256": "2871644daf4b844c9dc61fc5b0f6a4b6a1c4363a35f2cbc99e60ff05654e1bb6",
+  "prior_build_log_sha256": "156cefef3bc3b03c20e14834499530a9a56ef2956948b0141dfaae3172cbe231",
+  "inventory_rows": 1330,
+  "changed_rows": 2,
+  "changed_cells": 6,
+  "all_other_values_and_ids_preserved": true,
+  "ormond_row_unchanged": true,
+  "source_versions_imported": 2,
+  "source_archive_replay_new_versions": 0,
+  "answer_replay_already_applied_fields": 6,
+  "answer_replay_touched_rows": 0,
+  "answer_replay_sha256": "146fd9b7e251817e0ff17e7e4aafa597891de374cf3b72942748e83b05746561",
+  "arkansas_html_and_markdown_rendered_corrections": true,
+  "coordinator_visually_inspected_pdf_pages": 4,
+  "original_requirements": 223,
+  "remaining_requirements": 222,
+  "headline_counts_changed": false,
+  "expanded_publication_changed": false,
+  "limits": "Original-source term/encoding review, not renewed active classification or current-force acceptance. South Fork interpretation/identity gaps and Ormond final-text gap remain."
+}
