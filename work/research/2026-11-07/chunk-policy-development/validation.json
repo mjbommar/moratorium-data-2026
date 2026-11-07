@@ -1,0 +1,66 @@
+{
+  "schema_version": "chunk-policy-development-1",
+  "baseline_commit": "fa8a567c9efcba1241bdedba8b8eb3e2adf1d1f1",
+  "library_commit": "9eeb6bfbb3496a471236177f1676a9d72d39a26e",
+  "library_pr": "https://github.com/bommarito-consulting/bc-modules/pull/6",
+  "library_pr_draft": true,
+  "isolated_sdk_commit": "d5acda100a0999267eaa150e0017130666cb28d4",
+  "original_bc_modules_commit": "f6187344c697334dbca3f037fd0a670a995f59c8",
+  "library_unit_tests": 92,
+  "application_tests": {
+    "installed": {
+      "passed": 343,
+      "log_sha256": "8b3c9448a1ed8bb98bb82d60504c0fb51c291cd344d477a32a874b8d04f744bf",
+      "exit_code": 0
+    },
+    "isolated": {
+      "passed": 343,
+      "log_sha256": "7dc5bd56ed42fcb604df5c4b0fdff44c5e2ba5dca16655a5c416f21c914612fc",
+      "exit_code": 0
+    }
+  },
+  "compatible_runtime_adapter_tests": 14,
+  "distributed_cli_jobs": [
+    {
+      "role": "implementation",
+      "requested_model": "gpt-6.1-terra",
+      "terminal": "turn.completed",
+      "raw_report_sha256": "e2df13e031e1f19e4211e49d5db9d4ad04ea125185966172328e2a2766dcf688",
+      "public_report_sha256": "87859709c2567ab51fa2caf33bdb214b222aa322a17db6d0b572f2e2af80476e",
+      "events_sha256": "9e66e21acc61259bda7080495cad24e4e2512e2071f33b5dd34d58cfb90d6e59"
+    },
+    {
+      "role": "initial-review",
+      "requested_model": "gpt-6.1-terra",
+      "terminal": "turn.completed",
+      "raw_report_sha256": "ee960ebf2735f5d7fd3a523bbefe30dcc59138a319c420b6f544441fb68ce78e",
+      "public_report_sha256": "c3fce7af2c6fcf50c4aa39eda50a83338face8172c6753cf1b55fea7011dc4e3",
+      "events_sha256": "2db6ac84c6bf73328929b1a0dc8b4242d051c71ad4218871f605512fd1b86974"
+    },
+    {
+      "role": "final-review",
+      "requested_model": "gpt-6.1-terra",
+      "terminal": "turn.completed",
+      "raw_report_sha256": "b5d33b69a82326e704ee539c7b77d9cb02a1313892a88da399d4c282aa0e4506",
+      "public_report_sha256": "64a1175662350f8c2f34b1e3c828ef59dcc4de472bc8b065cb7dc27182193c59",
+      "events_sha256": "54a3f05f57e8a128f5c91ab8316d16fd8033b31a439384afeba97d448bd67a48"
+    }
+  ],
+  "canonical_data_unchanged": true,
+  "published_profile": "1.0.3",
+  "extraction_provider_calls": 0,
+  "research_source_acquisitions": 0,
+  "comparison_protocol_status": "Not frozen; no paid comparison executed",
+  "quality_gate": "Historical32/36supported result remains failed; support-window availability is not model performance",
+  "preflight_preservation_note": "Coordinator broadened PreflightRejected to all pre-state input validation after final reviewer checkpoint, with invalid cap/model-identity preservation regressions and both full-suite reruns.",
+  "files_sha256": {
+    "scripts/extract_document_resumable.py": "bfdbd7ea6e8d374a4ea555677227224480a3325666cdd90b9722192b7b6e7119",
+    "scripts/extract_domain_candidates.py": "eabc48c11a74317cec5cf1687a3a1b8ad0a14eec70cc087d361394b1711291dc",
+    "tests/test_resumable_extraction.py": "46c78cec4b876a5bea765977616a237a129d59dca412fa50c8b405c0a3c14350",
+    "tests/test_domain_extraction.py": "f1f373ab77e10ea63468de1af1993368d7984f55feab2e38ed313c3d21cb4a85",
+    "work/research/2026-11-07/chunk-policy-development/analyze_support_windows.py": "456bbd8fe1e1cffb755a3d399eedc1f1c362cd8bfa4b2e59f97ed5f69a255599",
+    "work/research/2026-11-07/chunk-policy-development/support-windows.json": "facbaf8678e656207337a010a9978c923836a7d64d77e6050385466c47162b96",
+    "work/research/2026-11-07/chunk-policy-development/README.md": "a21a27aa0bc0835e55f89fb028eeddd50326ceb318cc3cd2054a5ff597a36fb8",
+    "work/research/2026-11-07/chunk-policy-development/storage-preflight.json": "60f225522148eb5d09d6739d5dc0ff9b88af694e226c59e4fcc7109e8a4a1813"
+  }
+}

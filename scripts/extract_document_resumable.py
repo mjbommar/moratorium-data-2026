@@ -44,9 +44,13 @@ class WorkspaceContextChanged(ValueError):
     """The retained workspace belongs to a different immutable run context."""
 
 
+class PreflightRejected(ValueError):
+    """Requested extraction policy was rejected before state or provider work."""
+
+
 async def run(directory, doc, cells, *, backend, model_identity, question, today,
               max_calls, role='extractor', max_chunks=None, budget_policy=None,
-              chunk_output_type=None):
+              chunk_output_type=None, chunk_size=None, chunk_overlap=None):
     """Run actual bc-evidence map/reduce with cached typed calls and coverage.
 
     ``model_identity`` must include the resolved provider/model/settings, not just
@@ -59,32 +63,43 @@ async def run(directory, doc, cells, *, backend, model_identity, question, today
     from bc_content.chunk import chunk_text
     import bc_evidence.extract as extractor
 
+    explicit_chunks = chunk_size is not None or chunk_overlap is not None
+    resolved_size = extractor.CHUNK if chunk_size is None else chunk_size
+    resolved_overlap = extractor.OVERLAP if chunk_overlap is None else chunk_overlap
+    if type(resolved_size) is not int or resolved_size < 1:
+        raise PreflightRejected('chunk_size must be a positive integer')
+    if type(resolved_overlap) is not int or not 0 <= resolved_overlap < resolved_size:
+        raise PreflightRejected('chunk_overlap must be an integer from zero to chunk_size minus one')
+    if explicit_chunks and not {'chunk_size','chunk_overlap'} <= set(inspect.signature(extractor.extract_document).parameters):
+        raise PreflightRejected('Installed bc-evidence lacks explicit chunk policy support; use a pinned compatible runtime')
+    chunk_options = dict(chunk_size=resolved_size,chunk_overlap=resolved_overlap) if explicit_chunks else {}
     if type(max_calls) is not int or max_calls < 1:
-        raise ValueError('max_calls must be a positive integer')
+        raise PreflightRejected('max_calls must be a positive integer')
     if max_chunks is not None and (type(max_chunks) is not int or max_chunks < 1):
-        raise ValueError('max_chunks must be a positive integer or None')
+        raise PreflightRejected('max_chunks must be a positive integer or None')
     if not doc['text'].strip() or not cells or len(cells) > extractor.MAX_CELLS_SHOWN:
-        raise ValueError('Nonempty text and 1..16 explicit cells are required')
+        raise PreflightRejected('Nonempty text and 1..16 explicit cells are required')
     if not model_identity or not model_identity.get('model'):
-        raise ValueError('Resolved model identity is required')
+        raise PreflightRejected('Resolved model identity is required')
     if not isinstance(today, dt.date):
-        raise ValueError('Explicit date cutoff required')
+        raise PreflightRejected('Explicit date cutoff required')
     if budget_policy is not None:
         for name in ('max_usd', 'reservation_usd'):
             value = budget_policy.get(name)
             if (isinstance(value, bool) or not isinstance(value, (int, float))
                     or not math.isfinite(value) or value <= 0):
-                raise ValueError('Budget requires positive finite max_usd and reservation_usd')
+                raise PreflightRejected('Budget requires positive finite max_usd and reservation_usd')
         if budget_policy['reservation_usd'] > budget_policy['max_usd']:
-            raise ValueError('Per-call reservation exceeds run budget')
+            raise PreflightRejected('Per-call reservation exceeds run budget')
     source = Path(extractor.__file__)
     if chunk_output_type is not None and not issubclass(chunk_output_type, extractor.ChunkExtraction):
-        raise ValueError('Domain output must extend bc-evidence ChunkExtraction')
+        raise PreflightRejected('Domain output must extend bc-evidence ChunkExtraction')
     prompt_files = sorted((source.parent / 'prompts').glob('extract*'))
     context = dict(document=doc, cells=cells, model_identity=model_identity,
                    question=question, today=today.isoformat(), role=role,
                    max_calls=max_calls, max_chunks=max_chunks,
                    budget_policy=budget_policy,
+                   chunk_policy=dict(size=resolved_size,overlap=resolved_overlap),
                    chunk_schema=chunk_output_type.model_json_schema() if chunk_output_type else None,
                    adapter_sha256=hashlib.sha256(Path(__file__).read_bytes()).hexdigest(),
                    chunker_sha256=hashlib.sha256(Path(inspect.getfile(chunk_text)).read_bytes()).hexdigest(),
@@ -107,7 +122,7 @@ async def run(directory, doc, cells, *, backend, model_identity, question, today
         else:
             state = dict(context_sha256=digest(context), context=context,
                          attempts=[], successes={}, status='not_started')
-        chunks = chunk_text(doc['text'], size=extractor.CHUNK, overlap=extractor.OVERLAP)
+        chunks = chunk_text(doc['text'], size=resolved_size, overlap=resolved_overlap)
         state['chunks'] = [dict(index=i, start=c.start, end=c.end,
                                 text_sha256=hashlib.sha256(c.text.encode()).hexdigest(),
                                 status='unattempted') for i, c in enumerate(chunks)]
@@ -208,7 +223,7 @@ async def run(directory, doc, cells, *, backend, model_identity, question, today
         try:
             claims, relevance, summary = await extractor.extract_document(
                 doc, cells, backend=CachedBackend(), question=question, today=today,
-                role=role, max_chunks=max_chunks, chunk_concurrency=1)
+                role=role, max_chunks=max_chunks, chunk_concurrency=1, **chunk_options)
             complete = bool(chunks) and all(c['status'] == 'succeeded' for c in state['chunks'])
             result = dict(claims=claims, relevance=relevance, summary=summary,
                           full_text_chunk_coverage=complete, domain_review_complete=False,

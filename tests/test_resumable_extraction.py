@@ -41,6 +41,38 @@ class ExtractionTests(unittest.IsolatedAsyncioTestCase):
             self.assertEqual(result, await adapter.run(tmp, backend=backend, **self.inputs()))
             self.assertEqual(calls, len(backend.calls))
 
+    async def test_explicit_policy_requires_support_and_pins_cache_context(self):
+        import inspect
+        import bc_evidence.extract as native
+        with tempfile.TemporaryDirectory() as tmp:
+            backend=self.backend()
+            if 'chunk_size' not in inspect.signature(native.extract_document).parameters:
+                with self.assertRaisesRegex(ValueError,'lacks explicit chunk policy support'):
+                    await adapter.run(tmp,backend=backend,chunk_size=50000,chunk_overlap=0,**self.inputs())
+                self.assertFalse((Path(tmp)/'state.private.json').exists())
+                self.assertEqual(len(backend.calls),0)
+                return
+            result=await adapter.run(tmp,backend=backend,chunk_size=50000,chunk_overlap=0,**self.inputs())
+            self.assertTrue(result['full_text_chunk_coverage'])
+            self.assertEqual(len(backend.calls),1)
+            state=json.loads((Path(tmp)/'state.private.json').read_text())
+            self.assertEqual(state['context']['chunk_policy'],dict(size=50000,overlap=0))
+            self.assertEqual(len(state['chunks']),1)
+            self.assertEqual(await adapter.run(tmp,backend=backend,chunk_size=50000,chunk_overlap=0,**self.inputs()),result)
+            self.assertEqual(len(backend.calls),1)
+            with self.assertRaises(adapter.WorkspaceContextChanged):
+                await adapter.run(tmp,backend=backend,chunk_size=50001,chunk_overlap=0,**self.inputs())
+            self.assertEqual(len(backend.calls),1)
+
+    async def test_invalid_chunk_policy_stops_before_state_or_backend_calls(self):
+        for size,overlap in [(True,0),(0,0),(500,True),(500,-1),(500,500),(500.5,0)]:
+            with self.subTest(size=size,overlap=overlap),tempfile.TemporaryDirectory() as tmp:
+                backend=self.backend()
+                with self.assertRaises(ValueError):
+                    await adapter.run(tmp,backend=backend,chunk_size=size,chunk_overlap=overlap,**self.inputs())
+                self.assertEqual(len(backend.calls),0)
+                self.assertFalse((Path(tmp)/'state.private.json').exists())
+
     async def test_ceiling_cannot_close_document(self):
         with tempfile.TemporaryDirectory() as tmp:
             result = await adapter.run(tmp, backend=self.backend(), max_chunks=1, **self.inputs())

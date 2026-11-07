@@ -1,0 +1,404 @@
+{
+  "schema_version": "source-support-window-analysis-1",
+  "selection_sha256": "8d9e8b5722e2b8381fec22629e07fb3027ad6d47d119103c6df4ac00d433bb51",
+  "cases": [
+    {
+      "case_id": "bp-f7852025abec20c9",
+      "text_sha256": "56b5dde5b23ced1fa574d2e5ab9f4175d30fb39979cecf007585c90a69defd92",
+      "characters": 11775,
+      "policies": {
+        "7000": {
+          "size": 7000,
+          "overlap": 400,
+          "chunks": [
+            [
+              0,
+              6229
+            ],
+            [
+              5829,
+              11775
+            ]
+          ]
+        },
+        "42000": {
+          "size": 42000,
+          "overlap": 400,
+          "chunks": [
+            [
+              0,
+              11775
+            ]
+          ]
+        }
+      },
+      "clauses": [
+        {
+          "clause_id": "mandan-data-center",
+          "primary_spans": [
+            [
+              1094,
+              2162
+            ]
+          ],
+          "supporting_spans": [],
+          "primary_joint_default": true,
+          "all_support_joint_default": true,
+          "all_support_joint_large": true
+        },
+        {
+          "clause_id": "mandan-large-scale",
+          "primary_spans": [
+            [
+              2164,
+              2366
+            ]
+          ],
+          "supporting_spans": [
+            [
+              1094,
+              2162
+            ],
+            [
+              2871,
+              4916
+            ],
+            [
+              5833,
+              8350
+            ]
+          ],
+          "primary_joint_default": true,
+          "all_support_joint_default": false,
+          "all_support_joint_large": true
+        },
+        {
+          "clause_id": "mandan-prohibition",
+          "primary_spans": [
+            [
+              4942,
+              5533
+            ]
+          ],
+          "supporting_spans": [
+            [
+              1094,
+              2162
+            ],
+            [
+              2164,
+              2366
+            ],
+            [
+              2871,
+              4916
+            ],
+            [
+              5833,
+              8350
+            ],
+            [
+              8930,
+              9962
+            ],
+            [
+              9967,
+              11290
+            ]
+          ],
+          "primary_joint_default": true,
+          "all_support_joint_default": false,
+          "all_support_joint_large": true
+        },
+        {
+          "clause_id": "mandan-below",
+          "primary_spans": [
+            [
+              8396,
+              8584
+            ]
+          ],
+          "supporting_spans": [
+            [
+              1094,
+              2162
+            ],
+            [
+              2871,
+              4916
+            ],
+            [
+              5833,
+              8350
+            ],
+            [
+              8586,
+              8928
+            ]
+          ],
+          "primary_joint_default": true,
+          "all_support_joint_default": false,
+          "all_support_joint_large": true
+        },
+        {
+          "clause_id": "mandan-no-entitlement",
+          "primary_spans": [
+            [
+              8586,
+              8928
+            ]
+          ],
+          "supporting_spans": [],
+          "primary_joint_default": true,
+          "all_support_joint_default": true,
+          "all_support_joint_large": true
+        },
+        {
+          "clause_id": "mandan-aggregation",
+          "primary_spans": [
+            [
+              5833,
+              6227
+            ]
+          ],
+          "supporting_spans": [
+            [
+              5833,
+              8350
+            ],
+            [
+              2368,
+              2869
+            ],
+            [
+              2871,
+              4916
+            ]
+          ],
+          "primary_joint_default": true,
+          "all_support_joint_default": false,
+          "all_support_joint_large": true
+        },
+        {
+          "clause_id": "mandan-anti-evasion",
+          "primary_spans": [
+            [
+              7177,
+              8094
+            ]
+          ],
+          "supporting_spans": [
+            [
+              2871,
+              4916
+            ]
+          ],
+          "primary_joint_default": true,
+          "all_support_joint_default": false,
+          "all_support_joint_large": true
+        }
+      ]
+    },
+    {
+      "case_id": "bp-e0efdc31b0b81e45",
+      "text_sha256": "e820aa938e2dc1033ce6cc6fef2e6acf780abbd59a2869cda4f5137f09964514",
+      "characters": 35082,
+      "policies": {
+        "7000": {
+          "size": 7000,
+          "overlap": 400,
+          "chunks": [
+            [
+              0,
+              6963
+            ],
+            [
+              6563,
+              13528
+            ],
+            [
+              13128,
+              20120
+            ],
+            [
+              19720,
+              26698
+            ],
+            [
+              26298,
+              33215
+            ],
+            [
+              32815,
+              35082
+            ]
+          ]
+        },
+        "42000": {
+          "size": 42000,
+          "overlap": 400,
+          "chunks": [
+            [
+              0,
+              35082
+            ]
+          ]
+        }
+      },
+      "clauses": [
+        {
+          "clause_id": "harwood-major",
+          "primary_spans": [
+            [
+              6616,
+              7981
+            ]
+          ],
+          "supporting_spans": [
+            [
+              3898,
+              4432
+            ],
+            [
+              4468,
+              5487
+            ],
+            [
+              5759,
+              6614
+            ],
+            [
+              8731,
+              9468
+            ],
+            [
+              9470,
+              11060
+            ],
+            [
+              12416,
+              13296
+            ]
+          ],
+          "primary_joint_default": true,
+          "all_support_joint_default": false,
+          "all_support_joint_large": true
+        },
+        {
+          "clause_id": "harwood-moderate",
+          "primary_spans": [
+            [
+              7983,
+              8726
+            ]
+          ],
+          "supporting_spans": [
+            [
+              3898,
+              4432
+            ],
+            [
+              4468,
+              5487
+            ],
+            [
+              5759,
+              6614
+            ],
+            [
+              8731,
+              9468
+            ],
+            [
+              9470,
+              11060
+            ],
+            [
+              12416,
+              13296
+            ]
+          ],
+          "primary_joint_default": true,
+          "all_support_joint_default": false,
+          "all_support_joint_large": true
+        },
+        {
+          "clause_id": "harwood-common-plan",
+          "primary_spans": [
+            [
+              8731,
+              9243
+            ]
+          ],
+          "supporting_spans": [
+            [
+              9470,
+              11060
+            ],
+            [
+              12416,
+              13296
+            ],
+            [
+              15226,
+              16239
+            ]
+          ],
+          "primary_joint_default": true,
+          "all_support_joint_default": false,
+          "all_support_joint_large": true
+        },
+        {
+          "clause_id": "harwood-substantial-modification",
+          "primary_spans": [
+            [
+              9506,
+              10327
+            ]
+          ],
+          "supporting_spans": [
+            [
+              4468,
+              5487
+            ],
+            [
+              8731,
+              11060
+            ]
+          ],
+          "primary_joint_default": true,
+          "all_support_joint_default": false,
+          "all_support_joint_large": true
+        },
+        {
+          "clause_id": "harwood-effective-applicability",
+          "primary_spans": [
+            [
+              33821,
+              34157
+            ]
+          ],
+          "supporting_spans": [
+            [
+              3898,
+              4466
+            ],
+            [
+              5759,
+              6614
+            ]
+          ],
+          "primary_joint_default": true,
+          "all_support_joint_default": false,
+          "all_support_joint_large": true
+        }
+      ]
+    }
+  ],
+  "limitations": [
+    "Both policies can read the complete text across all calls; this measures joint context within an individual prompt only.",
+    "Selected supporting spans are review inputs, not proof of a minimal necessary evidence set.",
+    "Two known development documents; no model extraction, measured quality improvement or unseen holdout."
+  ],
+  "initial_hypothesis_correction": "The Harwood moderate primary quote fits a default chunk. Its joint support set does not. The earlier split-list claim was corrected before provider execution."
+}

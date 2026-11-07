@@ -316,7 +316,7 @@ async def run(directory, doc, cells, *, question, **kwargs):
         fcntl.flock(lock, fcntl.LOCK_EX | fcntl.LOCK_NB)
         try:
             return await _run_locked(directory, doc, cells, question=question, **kwargs)
-        except resumable.WorkspaceContextChanged:
+        except (resumable.WorkspaceContextChanged, resumable.PreflightRejected):
             # A rejected new context must not destroy the historical run's result.
             raise
         except BaseException:

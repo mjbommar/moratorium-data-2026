@@ -187,6 +187,18 @@ class DomainTests(unittest.IsolatedAsyncioTestCase):
         for key,value in generated.items():
             self.assertEqual(snapshot[key],value)
 
+    async def test_rejected_chunk_policy_preserves_previous_domain_packet(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            backend=self.backend([self.fact()])
+            await domain.run(tmp,backend=backend,**self.inputs())
+            packet=Path(tmp)/'domain-candidates.private.json'
+            state=Path(tmp)/'state.private.json'
+            before=(packet.read_bytes(),state.read_bytes(),len(backend.calls))
+            for override in [dict(chunk_size=True,chunk_overlap=0),dict(max_calls=0),dict(model_identity={})]:
+                with self.subTest(override=override),self.assertRaises(domain.resumable.PreflightRejected):
+                    await domain.run(tmp,backend=backend,**{**self.inputs(),**override})
+                self.assertEqual((packet.read_bytes(),state.read_bytes(),len(backend.calls)),before)
+
     async def test_failed_rerun_does_not_leave_stale_domain_success(self):
         with tempfile.TemporaryDirectory() as tmp:
             await domain.run(tmp,backend=self.backend([self.fact()]),**self.inputs())
