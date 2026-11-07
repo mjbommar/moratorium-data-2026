@@ -156,7 +156,9 @@ def changes_section(f: dict) -> str:
   rezoning votes are not added to the local moratorium total merely because they concern data centers.
   <a href="docs/known-gaps.html">Known gaps</a> retains unresolved candidates and instrument histories.</p>
   <p>The state-policy tracker contains {f['state_policy_actions']} records spanning several mechanisms.
-  It is not a count of enacted state moratoria. Read the typed mechanism, scope and legal-effect fields.</p>
+  It is not a count of enacted state moratoria or a deduplicated count of independent bills.
+  Precursor memos can refer to separately retained numbered bills, and the legacy bill type also includes
+  resolution subtypes. Read the typed mechanism, scope, legal-effect fields and documented identity gaps.</p>
   <h3>Coverage and historical material</h3>
   <p>Searches across all states do not establish a complete census. Later discovery found instruments
   missed in earlier searches, including the May–July window. The April 2026 paper and older graphics

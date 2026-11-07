@@ -372,6 +372,7 @@ compatibility. Rows are normally bills, but binding executive orders, agency
 orders, regulations, and enacted statutes are recorded here too when they
 materially pause or restrict development, permitting, incentives, or the
 utility service on which a project depends.</p>
+<p>The legacy <code>bill</code> type also contains resolution subtypes and precursor memo rows linked to separately retained numbered bills. The row count is not a deduplicated count of independent bills or enacted restrictions. <a href="known-gaps.html#state-policy-precursors-and-legacy-types">State-policy grain gaps</a> identify the reviewed memo links and pending migration.</p>
 <p>This file tracks state-level actions that relate to moratoria or equivalent
 restrictions — statewide pauses; authority for or preemption of local pauses;
 permitting limits; utility large-load rules; incentive limits; and reporting or
@@ -468,7 +469,7 @@ unless it actually pauses local permitting.</p>
 </tr>
 <tr>
 <td><code>effective_date_iso</code></td>
-<td>Date the binding action took effect, if applicable.</td>
+<td>Statutory effective date of the binding action, including an explicit future date for an enacted measure. This does not by itself establish current force; an introduced bill’s proposed date is not an enacted effective date.</td>
 <td><code>2026-07-14</code></td>
 </tr>
 <tr>
@@ -503,7 +504,7 @@ records the governing session context per state in the audit log under
 <p>Top-level keys:</p>
 <ul>
 <li><code>total_local_moratoria</code>: 1330 — total rows in the inventory</li>
-<li><code>total_state_bills</code>: 440 — rows using the legacy <code>bill</code> type in state_legislation.csv, including resolution subtypes awaiting migration</li>
+<li><code>total_state_bills</code>: 440 — rows using the legacy <code>bill</code> type in state_legislation.csv, including resolution subtypes and precursor memo rows awaiting migration; not a deduplicated independent-bill count</li>
 <li><code>total_state_policy_actions</code>: 442 — all state-policy rows, including binding non-bill actions</li>
 <li><code>states_with_moratoria</code>: 47</li>
 <li><code>states_without_moratoria</code>: 3</li>

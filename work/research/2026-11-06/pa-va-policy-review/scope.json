@@ -1,0 +1,138 @@
+{
+  "scope": "All 40 current Pennsylvania/Virginia rows reviewed within retained source scope, not full-freshness acceptance or legal-force confirmation.",
+  "baseline_csv_sha256": "b698b9afc3b90979fd61659af6278337d075a4857863a4796ddab9cc75109a75",
+  "states": {
+    "PA": 22,
+    "VA": 18
+  },
+  "jobs": [
+    {
+      "job_id": "pa-state-policy-001",
+      "spec_sha256": "e8deb55a40d00f07a12f5917c708085b6463b5abd5b0f94ddbcaee57bbda44be",
+      "record_ids": [
+        "pa-hb1764",
+        "pa-hb1834",
+        "pa-hb1924",
+        "pa-hb2061",
+        "pa-hb2150",
+        "pa-hb2151",
+        "pa-hb2153",
+        "pa-hb2198"
+      ],
+      "packet_sha256": "be5a1f9c0d57c28a7833bae353e7e0f18fd550b136c2962ebb76a8fc213b2d9d",
+      "answers_sha256": "4298c00fa36374328b4b58298bc69b4cc9c1a1ed5b2e14cbd74d4842b6a243fc",
+      "verified_versions": 16,
+      "integrity_issues": [],
+      "reserved_counts": {
+        "exa": 4,
+        "serpapi": 4,
+        "fetch": 16
+      }
+    },
+    {
+      "job_id": "pa-state-policy-002",
+      "spec_sha256": "346c063c3fc92cd527092e3edae0b2527a592d4b5dc29ed135c4e4d4b48f5416",
+      "record_ids": [
+        "pa-hb2246",
+        "pa-hb2359",
+        "pa-hb2372",
+        "pa-hb2496",
+        "pa-proposed-zoning-consideration-period-memo-48467",
+        "pa-proposed-municipal-moratorium-memo-48540",
+        "pa-proposed-statewide-moratorium-memo-48102",
+        "pa-sb1345"
+      ],
+      "packet_sha256": "5d7ec250a045b5617f040830fd21aabfcb05235dc1ad78598ae90a90c6382c18",
+      "answers_sha256": "ece0ddcdb5f30c15ec28c2f066119cdee913feb21071809a2019ac467adb84cd",
+      "verified_versions": 18,
+      "integrity_issues": [],
+      "reserved_counts": {
+        "fetch": 18
+      }
+    },
+    {
+      "job_id": "pa-state-policy-003",
+      "spec_sha256": "8de40e16462da5579f98fece485d6954163efef7b1f6c3dd2508e2f72631ee17",
+      "record_ids": [
+        "pa-sb1359",
+        "pa-sb1408",
+        "pa-sb724",
+        "pa-sb939",
+        "pa-sb991",
+        "pa-sr185"
+      ],
+      "packet_sha256": "a826f584ecefd306bd81b4df7879d7ebf2067d194bb025a99789820197bbf69e",
+      "answers_sha256": "b5fd2a3ae93c553a0d60d55aa7ce371df37873f4522424a7d5d5ac762a49833d",
+      "verified_versions": 12,
+      "integrity_issues": [],
+      "reserved_counts": {
+        "fetch": 12
+      }
+    },
+    {
+      "job_id": "va-state-policy-001",
+      "spec_sha256": "e14a00a8895a4893f01c3781ea23191de94798cc975ac134f56607c7c7efd30c",
+      "record_ids": [
+        "va-hb1515-2026",
+        "va-hb153-2026",
+        "va-hb155-2026",
+        "va-hb1601-2025",
+        "va-hb338-2024",
+        "va-hb496-2026",
+        "va-hb503-2026",
+        "va-hb511-2026"
+      ],
+      "packet_sha256": "e652611f69593ab3f0e6a04e6288d26d46e3735093bb6d4df376ce62efb29765",
+      "answers_sha256": "62d404e78c747607e9008d1507ee9f73d6234e1c4ce6148d9acf986f0748345d",
+      "verified_versions": 14,
+      "integrity_issues": [],
+      "reserved_counts": {
+        "exa": 8,
+        "serpapi": 8,
+        "fetch": 14
+      }
+    },
+    {
+      "job_id": "va-state-policy-002",
+      "spec_sha256": "2e51d7d274f29548e94bd3de518f15f1d2303119e58daaa7203ec4e4baf5d8ec",
+      "record_ids": [
+        "va-hb641-2026",
+        "va-sb130-2026",
+        "va-sb1449-2025",
+        "va-sb288-2024",
+        "va-sb393-2026",
+        "va-sb466-2026",
+        "va-sb552-2026",
+        "va-sb553-2026"
+      ],
+      "packet_sha256": "8875c2a3c724d9ec561e585667db9dea7b3c506acb318d73f0d7a3f5a9c24914",
+      "answers_sha256": "f38ec43aae306820f53bd19c5a234543e4bdcca342950049a92c59c259aaceb0",
+      "verified_versions": 9,
+      "integrity_issues": [],
+      "reserved_counts": {
+        "exa": 8,
+        "serpapi": 8,
+        "fetch": 9
+      }
+    },
+    {
+      "job_id": "va-state-policy-003",
+      "spec_sha256": "40161b4766adab708739dcc854da0c0f198a42e0a0c0446b856d46a4bf0b1a70",
+      "record_ids": [
+        "va-sb619-2026",
+        "va-sb94-2026"
+      ],
+      "packet_sha256": "9aba9d61f1a20cbb6f45c54999a0e9d918edfbe13735b2ba6226efdd60b36279",
+      "answers_sha256": "e8bf7b95a34c34341933d1dd90a282f26be18db9855bd91752393d62bf01ef80",
+      "verified_versions": 3,
+      "integrity_issues": [],
+      "reserved_counts": {
+        "exa": 2,
+        "serpapi": 2,
+        "fetch": 3
+      }
+    }
+  ],
+  "source_integrity_issues": 0,
+  "verified_versions": 72
+}

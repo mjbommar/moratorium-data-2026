@@ -449,3 +449,13 @@ The completed duration review retains [223 explicit source-fact requirements](..
 The [five-event validity migration](../work/research/2026-11-06/event-validity-migration/README.md) accepts three original adoptions and two source-declared immediate-effect events. It does not establish later amendments, extensions, termination, actual expiry or current legal force. Stephenson effectiveness remains conditional/unresolved; no effectiveness event is added. Whitman's May ordinance remains distinct from its January wind pause.
 
 Whitman's July 7, 2025 date remains in the original-term description. Its typed `current_end_date_iso` is now blank because later action and the operative end are unverified. The retained legacy expired classification describes that recorded original term, not a renewed finding of actual expiry. Source-based event validity and legacy status buckets must not be treated as current enforceability.
+
+### State-policy precursors and legacy types
+
+Three Pennsylvania precursor memo rows link to separately retained bills:
+
+- `pa-proposed-zoning-consideration-period-memo-48467` links to `pa-hb2496`.
+- `pa-proposed-municipal-moratorium-memo-48540` links to `pa-sb1345`.
+- `pa-proposed-statewide-moratorium-memo-48102` links to `pa-sb1359`.
+
+The [source-specific link receipt](../work/research/2026-11-06/pa-va-policy-review/precursor-links.json) verifies anchors on canonical official memo pages without a supplied bill parameter. These are precursor associations, not three additional independent bills or enacted restrictions. Memo status fields retain associated bill context explicitly; all IDs remain stable. The legacy `bill` type also includes resolution subtypes such as Pennsylvania SR 185. Finer legal-form classification and reviewed state-policy identity/lineage migration remain open; do not interpret `total_state_bills` as a unique-bill census.
