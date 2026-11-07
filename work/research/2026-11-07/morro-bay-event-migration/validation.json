@@ -1,0 +1,18 @@
+{
+  "make_data_site_check_exit": 0,
+  "errors": 0,
+  "warnings": 497,
+  "documented_numbers_matching": 65,
+  "check_log_sha256": "5b1c8092baf4886206e4b7007da29b3096eeb743e35388085e0129e44b9f96c8",
+  "source_claims_verified": 545,
+  "expanded_events": 7,
+  "prior_expanded_records_preserved": true,
+  "main_replay": "already_applied",
+  "legacy_inventory_sha256": "88c9465df68f19ed861dcfab306c1790873089ffbae23fe74f6d3794cfb815e3",
+  "scope": "Historical actions only; no source freshness, legal-force or release completion claim.",
+  "whitespace_check": {
+    "non_csv_snapshot_changes": "pass",
+    "new_csv_snapshot": "Git flags inherited exact quoted source whitespace in ballot_measures.csv and claims.csv; do not normalize quoted evidence. CSV parseability/projection matches validated by make check.",
+    "ballot_measure_csv_byte_identical_to_predecessor": true
+  }
+}

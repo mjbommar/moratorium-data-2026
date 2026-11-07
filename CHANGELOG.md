@@ -2,6 +2,17 @@
 
 ## 2026-11-07 — current working snapshot (unreleased)
 
+[Original-instrument recovery](work/research/2026-11-07/original-instrument-recovery/README.md)
+resolves Arcata's original 45-day source requirement against certified Ordinance 1594.
+The successor original-term requirement queue is **218**, down from the preserved
+219-entry checkpoint; no inventory value or current-force finding changes.
+
+The [Morro Bay event migration](work/research/2026-11-07/morro-bay-event-migration/README.md)
+adds two historical council actions: adoption of Ordinance 668 and extension by
+Ordinance 670. Expanded instrument events rise from five to seven; measure and
+legacy inventory totals are unchanged. All prior expanded records are preserved.
+No operative endpoint or current-force conclusion follows.
+
 The latest [Ohio six-record adjudication](work/research/2026-11-07/ohio-six-record-closeout/README.md)
 completes 156 independent field assessments and changes 18 authored cells plus
 one derived verification count across five records. Three unsupported operative

@@ -1,0 +1,69 @@
+{
+  "scope": "Independent review plus coordinator retained-source/certificate adjudication; original term only.",
+  "parent_queue_sha256": "cb0e82bf7ed57f1965a109800df81cd7a045b7b1393e976b1da49ccf54d0f08f",
+  "before": 219,
+  "after": 218,
+  "resolved_id": "ca-arcata-2026",
+  "body_sha256": "753570b7daa84dbb1ec593149ba37f31f76211154010f721700eea170fff02d5",
+  "existing_values": {
+    "duration_days": "45",
+    "duration_kind": "fixed_days"
+  },
+  "inventory_changes": 0,
+  "all_four_full_row_guards_matched": true,
+  "independent_review_sha256": "3ac7527a3b046f82edef0c8e30bb190c7fa797c1b186df4f9f7f3365d3129626",
+  "dispositions": {
+    "ca-arcata-2026": {
+      "disposition": "close_frozen_original_term_requirement_only",
+      "reason": "Certified city-hosted 1594 copy identifies the instrument, section 4 explicitly states 45 days from adoption unless extended, and clerk certificate reports 16 September adoption and vote. Existing 45/fixed_days is supported. Typed /s/ is not cryptographic signature verification.",
+      "proposed_changes": {
+        "queue_disposition": "remove this ID from a successor working ledger only after coordinator acceptance; 219 to 218 if no other simultaneous accepted changes",
+        "inventory_fields": {}
+      },
+      "unresolved": [
+        "successor 1595 final wording and action",
+        "current legal force and endpoint",
+        "other row fields"
+      ]
+    },
+    "fl-ormond-beach-2026": {
+      "disposition": "hold",
+      "reason": "Archive label links to business impact estimate expressly describing a proposed 18-month ordinance; subject page lists second reading but not vote or unchanged enacted clause. Earlier second-reading packet section 4(a) is unsigned. 548 fixed days is unsupported by a confirmed original day count; 18 months in draft cannot be promoted to adopted term.",
+      "proposed_changes": {},
+      "conditional_only": "If final adopted 18-month clause is confirmed, change duration_days to empty and duration_kind to calendar_term; independently resolve effective date."
+    },
+    "ca-el-monte-2026": {
+      "disposition": "hold_pending_authoritative_final_term",
+      "reason": "New posted March 18 minutes identify 45-day item 8.1 and record 7-0 approval of 3063; April 22 minutes distinguish extension 3065. This is stronger record-specific descriptive support, but the March minutes have blank approval lines and do not reproduce the operative text. Their approval/finality and unchanged adopted term are not authenticated. The frozen queue concerns numeric/calendar-unit source support, not a universal demand for executed original wording; this hold reflects this record\u2019s stage uncertainty, not a stricter queue definition.",
+      "proposed_changes": {
+        "source_stage_note": "Posted unsigned minutes record 7-0 approval of 3063; 3065 is recorded in later minutes as the extension. Retain original-term requirement until authoritative adopted-term confirmation."
+      },
+      "unresolved": [
+        "3063 authoritative final term",
+        "current end and legal force",
+        "outcome describes extension as proposed despite later recorded action"
+      ]
+    },
+    "ca-escondido-2026": {
+      "disposition": "hold_and_flag_source_stage_correction",
+      "reason": "Proposed successor 2026-19 recites original 2026-18 as 45 days; new October 7 minutes record 5-0 approval of first reading and introduction, not final successor enactment or proof unchanged recital. The title requesting adoption does not override the explicit action label.",
+      "proposed_changes": {
+        "current_status": "October 7, 2026 city minutes record 5-0 approval of the first reading and introduction of proposed Ordinance 2026-19 to extend the interim moratorium. Final enactment, effective date, endpoint and later history remain unverified.",
+        "current_end_date_iso": "",
+        "enacted_status": "defer classification to coordinator pending broader record review; do not infer successor enactment",
+        "queue": "retain"
+      },
+      "unresolved": [
+        "original adopted term",
+        "final successor action and text",
+        "current legal force and endpoint"
+      ]
+    }
+  },
+  "limits": [
+    "All source evidence retained after pinned target 2026-11-07T13:38:39.877065Z",
+    "No independent cryptographic signature verification",
+    "No network/provider/database/canonical/queue/Git writes or installs",
+    "CLI cost unknown; earlier collection Exa reported $0.014 with other costs unpriced"
+  ]
+}

@@ -513,3 +513,7 @@ withholds final-instrument and predecessor/replacement assertions that the inspe
 materials do not establish. None of these corrections reduces the frozen 219-item
 original-term source-requirement queue. No canonical record or measure is deleted
 or added by these council-history and Ohio correction batches.
+
+The subsequent [Morro Bay event migration](../work/research/2026-11-07/morro-bay-event-migration/README.md) adds two dated council actions to the five-event cohort, bringing instrument events to seven. This extends historical action coverage only; it does not resolve the final extended term, present force or the recommended permanent prohibition.
+
+The [original-instrument recovery](../work/research/2026-11-07/original-instrument-recovery/README.md) resolves Arcata's original 45-day field support against the certified Ordinance 1594. The successor source-requirement ledger has 218 entries; the prior frozen 219-entry ledger is preserved. This does not accept Arcata's successor, current endpoint or present force. Ormond Beach, El Monte and Escondido remain held for the specific original/final-text and source-stage gaps in that packet.

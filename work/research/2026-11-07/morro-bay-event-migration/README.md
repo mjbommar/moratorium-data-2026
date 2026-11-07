@@ -1,0 +1,9 @@
+# Morro Bay historical event migration
+
+Added two source-reviewed historical events for legacy instrument `ca-morro-bay-2025`: January 28, 2025 adoption of Ordinance 668, and February 25, 2025 extension by Ordinance 670. Official minutes record the motions and carried 5–0 votes. The coordinator checked the dated source headers, motions, carried votes and exact predecessor/successor identity against retained source versions and the independently reviewed council-history packet.
+
+The existing profile 1.0.3 publisher applied two events, two source-document records, two claims and twelve scoped decisions. Every prior expanded record remains byte-equivalent at the record level. Totals become seven instrument events, 147 source documents, 545 claims and 2,437 review decisions; 51 measure/proposal records and all legacy inventory counts remain unchanged. All 545 claims passed the publisher's retained-source evidence checks. The isolated rehearsal and main-repository preflight/application passed; exact main replay reports already_applied.
+
+The migration does not establish legal effectiveness, an operative extended endpoint, continuous present force, or an enacted permanent ban. The initial 45-day duration is already handled by the separate legacy review. Final signed extension wording and later council history remain unresolved. Two dated votes are not a predecessor-pause/permanent-ban example and do not close P4 or broader freshness/release requirements.
+
+See events.json, coordinator-source-review.json, source-spans.json, preservation.json, source-preflight.json, identity-plan.json, publication-plan.json, and application/replay receipts. run_publication.py replays the exact immutable candidate; private evidence roots are needed only for fresh source checking, not exact published replay. Raw bodies and images remain private. Source proof confirms retained-byte support, not current legal force.
