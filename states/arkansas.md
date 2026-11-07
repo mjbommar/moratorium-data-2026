@@ -42,15 +42,15 @@ State policy is tracked separately: **7 records** (6 typed bill rows and 1 non-b
 - **Recorded status:** 🔴 Rescinded
 - **Date enacted:** 2023-05-30
 - **Normalized date:** `2023-05-30` (exact)
-- **Duration:** One year or until specific land-use standards were developed, whichever occurred first
+- **Duration:** One year from passage or until specific land-use standards can be developed, whichever occurs first, in the unsigned ordinance text attached to the May 30 council minutes; final executed wording not located. [VERIFY signed original]
 - **Current end date:** `—`
 - **Sectors:** data center, cryptocurrency mining
 - **Moratorium ID:** `ar-harrison-2023`
 - **Legal basis:** Ordinance 1515, "An Ordinance Imposing a Temporary Moratorium on Data Centers and Crypto Mining Facilities in the City of Harrison, Arkansas"
 - **What prompted it:** Green Digital conditional-use application; Arkansas Data Centers Act of 2023; zoning code did not list data centers or crypto mining facilities; concerns over electricity use, greenhouse gas emissions, pollution, e-waste, noise, and local impacts
 - **Affected projects:** Green Digital / Metahash crypto-mining data center; Chamber timeline reports a 10 MW Entergy contract and estimated $2.5 million capital investment
-- **Detailed status:** Repealed; Harrison City Council voted 6-2 to repeal Ordinance 1515 at a specially called meeting on Tuesday, 2023-11-28, on a motion by Council Member Mitch Magness, seconded by Council Member Joel Williams (councilors Jeremy Ragland and Wayne Cone voted no). City Attorney Nancy Cartwright recommended repeal as a litigation precaution tied to a federal court matter involving Green Digital and the state's data-mining protections; the council also amended its noise ordinance the same night (Ordinance 1516). No separate numbered repeal ordinance for Ordinance 1515 itself was identified in the Harrison Daily Times' contemporaneous account of the meeting, and the city's own ordinance/clerk portal (harrisonar.gov) is behind a bot-protection challenge page that could not be bypassed to check the clerk's ordinance index directly.
-- **Outcome:** Moratorium was removed after officials concluded it increased legal exposure under the state "right to mine" framework; later state Acts 173 and 174 of 2024 restored more local and state regulatory authority over crypto mining
+- **Detailed status:** Recorded rescinded; the legacy record reports a 6-2 council repeal vote on 2023-11-28, litigation concerns and a same-night noise ordinance amendment. A December 15 Harrison Daily Times legal notice prints Ordinance 1520 as passed November 28, repealing and vacating Ordinance 1515, with effect upon adoption and publication. [VERIFY signed repeal, actual legal effect and whether the original earlier-event condition occurred.]
+- **Outcome:** Ordinance 1520 was published as repealing and vacating Ordinance 1515; the legacy record reports litigation concerns and later state Acts 173 and 174 of 2024. Final signed records, effective date and any earlier termination event remain unverified.
 
 ### Independence County
 
@@ -88,17 +88,17 @@ State policy is tracked separately: **7 records** (6 typed bill rows and 1 non-b
 
 - **Type:** City
 - **Recorded status:** 🟢 Active
-- **Date enacted:** 2026-07-16 (City Council amended a proposed 18-month moratorium to six months by a 6-2 vote, then adopted the amended ordinance by another 6-2 vote)
+- **Date enacted:** 2026-07-16, reported council adoption after amendment from an 18-month proposal to six months; official agenda establishes consideration, not the vote. [VERIFY signed ordinance and vote]
 - **Normalized date:** `2026-07-16` (exact)
-- **Duration:** Six-month moratorium as amended and adopted; originally proposed as an 18-month moratorium in a June 16, 2026 councilmember proposal
+- **Duration:** Six months as reported after amendment from an 18-month proposal; exact original wording, anchor and any earlier termination condition not verified. [VERIFY original term]
 - **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `ar-russellville-2026`
 - **Legal basis:** City Council ordinance (instrument number not confirmed); creates a temporary committee to recommend regulations
 - **What prompted it:** Pause on acceptance, processing, and approval of applications for data center development, construction, or siting within city limits; officials said no active data center proposal was known
 - **Affected projects:** —
-- **Detailed status:** Active as of 2026-09-23. The July 16, 2026 City Council agenda (Item 3, New Business) confirms the ordinance considered and adopted that night was titled 'An Ordinance Imposing a Temporary Moratorium on the Acceptance, Processing and Approval of Applications for the Development, Construction, or Siting of Data Centers Within the Incorporated Areas of the City of Russellville... Establishing a Temporary Committee...', sponsored by Council Member Justin Keller; River Valley Radio and a Citizen Portal meeting summary confirm the council amended the sponsor's original 18-month proposal down to six months (6-2) and then adopted the amended ordinance (6-2). The resulting ad hoc committee (also reported as the 'Data Center Research Committee' / 'Zoning and Land Use Amendments Committee') was seated and was still actively meeting as of an Aug. 18, 2026 River Valley Radio report, with no report found of the moratorium being lifted or repealed early. The signed ordinance's assigned number, precise effective date, and sunset date still were not located in the city's online ordinance archive or on Municode as of 2026-09-23. [VERIFY] [VERIFY instrument number not confirmed at confidence 0.6 in the 2026-07 refresh]
-- **Outcome:** —
+- **Detailed status:** Recorded active as of 2026-09-23. The July 16 agenda lists the proposed ordinance and committee; news reports amendment from eighteen to six months and adoption by 6-2. The earlier record reports that the resulting committee was meeting in August. [VERIFY ordinance number and final text, effective date, sunset, later action and current legal force.]
+- **Outcome:** A six-month moratorium and regulatory committee were reported; later legal disposition is unverified.
 
 ### Union County
 

@@ -1,0 +1,49 @@
+{
+  "independent_review_sha256": "099affe85668da29ab27d7aafb8c81e7cffb54f7a5e203aae74f4d3a8ed3a83f",
+  "sources_rehashed": 21,
+  "overrides": [
+    {
+      "moratorium_id": "al-cullman-2026",
+      "fields": [
+        "duration_kind"
+      ],
+      "decision": "Record source-reported calendar unit, preserving unverified original clause/anchor and empty numeric days.",
+      "reason": "City recap explicitly reports one year forCullman; WBRCreports12months forHomewood; RiverValleyRadio reports amendedsixmonths forRussellville. Calendarclassification describes these supported reports, not acceptance of a final operative clause or present force. Do not convert to365/180."
+    },
+    {
+      "moratorium_id": "al-homewood-2026",
+      "fields": [
+        "duration_kind"
+      ],
+      "decision": "Record source-reported calendar unit, preserving unverified original clause/anchor and empty numeric days.",
+      "reason": "City recap explicitly reports one year forCullman; WBRCreports12months forHomewood; RiverValleyRadio reports amendedsixmonths forRussellville. Calendarclassification describes these supported reports, not acceptance of a final operative clause or present force. Do not convert to365/180."
+    },
+    {
+      "moratorium_id": "al-prichard-undated",
+      "fields": [
+        "duration_days",
+        "duration_kind"
+      ],
+      "decision": "Retain explicit reported180days/fixed_days, with source-qualified duration and current-status text.",
+      "reason": "Coordinator reopened South Alabama News body, verified hash3f3e091c..., and found explicit180days afterreportedvote. Codebook permits source-stated days; missing original ordinance does not erase that report or turn its exactdaycount into a guessedmonth conversion. This does not confirm adopted wording/anchor."
+    },
+    {
+      "moratorium_id": "ar-russellville-2026",
+      "fields": [
+        "duration_kind"
+      ],
+      "decision": "Record source-reported calendar unit, preserving unverified original clause/anchor and empty numeric days.",
+      "reason": "City recap explicitly reports one year forCullman; WBRCreports12months forHomewood; RiverValleyRadio reports amendedsixmonths forRussellville. Calendarclassification describes these supported reports, not acceptance of a final operative clause or present force. Do not convert to365/180."
+    }
+  ],
+  "source_stages": "Signed Chelsea minutes, approved-dated Ormond minutes, unsigned/pre-vote attachments, city recaps, news and researcher transcriptions are distinct. No current-force or original-queue closure accepted.",
+  "root_visual_review": [
+    "Ormond minute p4",
+    "Harrison proposed text pp7-8"
+  ],
+  "root_body_review": [
+    "Cullman city recap one-year clause",
+    "Homewood city approval recap and WBRC12months clause",
+    "Prichard South Alabama News explicit180days"
+  ]
+}

@@ -89,15 +89,15 @@ State policy is tracked separately: **4 records** (4 typed bill rows) in [`state
 - **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-07-21, Chelsea City Council unanimous voice vote adopting Resolution 2026-07-21-1407
 - **Normalized date:** `2026-07-21` (exact)
-- **Duration:** One year
+- **Duration:** One year reported in the legacy record [VERIFY original resolution term and anchor.]
 - **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `al-chelsea-2026`
 - **Legal basis:** Resolution 2026-07-21-1407 (moratorium on certain business licenses and building permits for data centers); companion Resolution 2026-07-21-1406 covers residential rental communities
 - **What prompted it:** Proactive; zoning ordinance does not address data centers; no credible proposal in city limits, though nearby communities have projects.
 - **Affected projects:** None identified.
-- **Detailed status:** Active as of 2026-09-23; one-year moratorium on new building permits and business licenses for data centers adopted 2026-07-21 while the city rewrites its zoning ordinance.
-- **Outcome:** One-year moratorium adopted.
+- **Detailed status:** Recorded active as of 2026-09-23; council unanimously adopted Resolution 2026-07-21-1407 on 2026-07-21 for data centers. The legacy record reports a one-year pause on new building permits and business licenses while zoning is rewritten. [VERIFY term, scope, effective date, later actions and current legal force.]
+- **Outcome:** Moratorium adopted; one-year duration reported in legacy record.
 
 ### Cullman
 
@@ -105,15 +105,15 @@ State policy is tracked separately: **4 records** (4 typed bill rows) in [`state
 - **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-06-22 (Monday), Cullman City Council unanimous adoption of Resolution No. 2026-116
 - **Normalized date:** `2026-06-22` (exact)
-- **Duration:** 12 months
-- **Current end date:** `2027-06-22`
+- **Duration:** One year reported by city [VERIFY original resolution term and anchor.]
+- **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `al-cullman-2026`
-- **Legal basis:** Resolution No. 2026-116 (City of Cullman), imposing a temporary one-year moratorium on the acceptance, processing and approval of data-center applications; a separate proposed permanent prohibition, Ordinance No. 2026-42, was referred to the Planning Commission
+- **Legal basis:** Resolution No. 2026-116 (City of Cullman), imposing a temporary moratorium on acceptance, processing and approval of data-center applications; city recap reports one year unless ended or extended. A separate proposed permanent prohibition, Ordinance No. 2026-42, was referred to the Planning Commission.
 - **What prompted it:** City will examine existing zoning districts and assess potential impacts of data centers on residents' quality of life during the moratorium
 - **Affected projects:** Not identified in captured news coverage
-- **Detailed status:** Active as of 2026-09-23 under Resolution No. 2026-116 (adopted 2026-06-22; one-year term to about 2027-06-22). Proposed Ordinance No. 2026-42, which would permanently prohibit data centers in city limits, was pulled from the 2026-09-01 Planning Commission agenda at the city clerk's request ('Additional time is needed for review'); the next Planning Commission meeting is 2026-10-06.
-- **Outcome:** City council unanimously adopted a 12-month moratorium on data centers
+- **Detailed status:** Recorded active as of 2026-09-23; city recap reports adoption 2026-06-22 and a one-year term subject to later council action. September reporting says proposed Ordinance 2026-42 was withdrawn from the planning agenda at the clerk’s request for more review time. [VERIFY original resolution, effective date, later actions and current legal force.]
+- **Outcome:** City reports adoption of a temporary data-center moratorium; one-year term reported. The legacy record describes the vote as unanimous.
 
 ### Fairfield
 
@@ -201,15 +201,15 @@ State policy is tracked separately: **4 records** (4 typed bill rows) in [`state
 - **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-06-22, per WBRC reporting of the city council vote
 - **Normalized date:** `2026-06-22` (exact)
-- **Duration:** 12 months, with the possibility of an additional six-month extension
+- **Duration:** 12 months reported; possible six-month extension reported [VERIFY original ordinance term and anchor.]
 - **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `al-homewood-2026`
 - **Legal basis:** Homewood City Council ordinance, unanimously adopted, temporarily suspending approval of data centers larger than one megawatt
 - **What prompted it:** City wants to study how data center facilities could affect the community before further approvals
 - **Affected projects:** Not identified in captured news coverage
-- **Detailed status:** Adopted unanimously; not independently re-checked past 2026-06-23 publication
-- **Outcome:** City council unanimously adopted a 12-month moratorium on data centers larger than one megawatt
+- **Detailed status:** City recap reports council approval on 2026-06-22 of a temporary moratorium on new large-scale data-center applications and expansions; WBRC reports a 12-month term and possible six-month extension. [VERIFY original ordinance, effective date, subsequent action and current legal force.]
+- **Outcome:** Council approved a temporary moratorium; the 12-month term and greater-than-one-megawatt threshold were reported. The legacy record describes the vote as unanimous.
 
 ### Hueytown
 
@@ -279,33 +279,33 @@ State policy is tracked separately: **4 records** (4 typed bill rows) in [`state
 
 - **Type:** City
 - **Recorded status:** 🟢 Active
-- **Date enacted:** Early August 2026: NBC 15 reports the council approved a six-month moratorium on Aug. 4, 2026; the AL.com map dataset lists 8/6/2026. The proposal introduced 2026-07-23 was for a renewable 480-day term, but the adopted measure is reported as 180 days.
+- **Date enacted:** Early August 2026, reported: NBC 15 gives August 4 and AL.com map gives August 6; signed ordinance and minutes not located. A July 23 proposal was reported as renewable 480 days. [VERIFY adopted instrument and date]
 - **Normalized date:** `2026-08` (month_only)
-- **Duration:** 180 days (six months) as adopted, per NBC 15 and FOX10; the earlier draft proposed a renewable 480-day term
+- **Duration:** Reported as 180 days and as six months; original adopted wording and term anchor not verified. The earlier renewable 480-day proposal is distinct. [VERIFY original term]
 - **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `al-prichard-undated`
 - **Legal basis:** Prichard City Council moratorium on new data centers adopted early August 2026 (instrument number and signed text not located)
 - **What prompted it:** Proposed pause on new data center permits following opposition to Edged Energy's planned Telegraph Road facility near Africatown
 - **Affected projects:** Edged Energy's proposed data center at 214 Telegraph Road, near Africatown
-- **Detailed status:** Active as of 2026-09-23; the Prichard City Council adopted a six-month data-center moratorium in early August 2026 (NBC 15: Aug. 4). The council attorney said on 2026-09-10 that it does not apply to Edged Energy's Telegraph Road project because the building permit (issued 2026-07-30) predated it; the council has instead moved to require Planning Commission site-plan review, and Edged has threatened litigation.
-- **Outcome:** Six-month moratorium adopted in August 2026; Edged Energy's already-permitted project treated as outside its scope.
+- **Detailed status:** Recorded active as of 2026-09-23; reports describe early-August adoption. The council attorney said the already-permitted Edged Telegraph Road project was outside the pause; the legacy record reports a July 30 permit, a move to require Planning Commission site-plan review, and threatened litigation. [VERIFY original instrument, later actions and current legal force.]
+- **Outcome:** Early-August adoption and project treatment outside the pause reported; original signed instrument and later disposition unverified.
 
 ### Rogersville
 
 - **Type:** Town
 - **Recorded status:** 🟡 Pending
-- **Date enacted:** Not adopted as of 2026-09-18: first reading of a proposed six-month data-center moratorium ordinance in July 2026; a vote WHNT reported as scheduled for Aug. 10 had not happened per AL.com (2026-09-18)
+- **Date enacted:** Not established; prior research transcribes an AL.com account of a July 2026 first reading and no vote as of September 18, 2026. [VERIFY original report and subsequent council action]
 - **Normalized date:** `—` (unverified)
-- **Duration:** Proposed six months
+- **Duration:** Six months proposed, in prior research transcription of the September 18 report; adopted term not established. [VERIFY original instrument and legislative stage]
 - **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `al-rogersville-undated`
 - **Legal basis:** Proposed Rogersville Town Council ordinance (first reading July 2026; number not located)
 - **What prompted it:** Severe water-capacity shortage (the water board already bars new meters); the town wants a pause in place before water access resumes.
 - **Affected projects:** None.
-- **Detailed status:** Pending as of 2026-09-23; first reading held in July 2026, not yet voted. A Sept. 18, 2026 AL.com roundup independently confirms the town 'hasn't voted on it yet' and that the mayor called it 'on the table,' so the pending status is current as of this refresh.
-- **Outcome:** Proposed; not adopted.
+- **Detailed status:** Pending in the September 2026 record; prior research transcribes an AL.com report of no vote as of September 18. The article body, subsequent action and current status were not independently established in this review. [VERIFY original report and subsequent council action]
+- **Outcome:** Proposal reported; adoption or other final action after September 18, 2026 unverified.
 
 ### Somerville
 

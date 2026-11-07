@@ -430,7 +430,7 @@ State policy is tracked separately: **6 records** (6 typed bill rows) in [`state
 - **Legal basis:** Ordinance 2026-11
 - **What prompted it:** City Comprehensive Plan and Land Development Code do not address data centers; SB 484 (Ch. 2026-65) authorizes local regulation; SB 180 storm-recovery freeze in effect through Oct 2027 for Volusia County
 - **Affected projects:** —
-- **Detailed status:** Active as of 2026-09-23; 18-month citywide moratorium on all data center types, adopted 5-0 on second reading 2026-08-25 (first reading 2026-07-28), while staff draft Comprehensive Plan and Land Development Code amendments intended to ban large-scale data centers.
+- **Detailed status:** Recorded active as of 2026-09-23; approved minutes identify an eighteen-month citywide moratorium adopted 5-0 on second reading 2026-08-25. The earlier record reports first reading 2026-07-28 and work on Comprehensive Plan and Land Development Code amendments intended to ban large-scale data centers. [VERIFY executed text, effective date, subsequent actions and current legal force.]
 - **Outcome:** Adopted
 
 ### Palm Beach County

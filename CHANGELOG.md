@@ -2,6 +2,8 @@
 
 ## 2026-11-07 — current working snapshot (unreleased)
 
+The [eight original-term adjudications](work/research/2026-11-07/original-term-eight-source-adjudication/README.md) apply 56 cells across eight records, remove seven converted or unsupported numeric day counts, retain Prichard's explicitly reported 180 days, and clear Cullman's unsupported endpoint. Flagged rows now total 723. All 217 final-clause requirements remain open, with refined source findings and documentary followups.
+
 Recovered [Brooks and Calhoun original sources](work/research/2026-11-07/georgia-recovered-originals/README.md) support 16 further cell corrections across two records. Brooks's signed term is three calendar months; May and July draft minutes do not establish a continuous extension or December 31 endpoint. Calhoun's signed minutes do establish the January 25 scheduled endpoint, retained with later-force limits. Original adoption dates remain exact. Flagged rows now total 716; no census or ballot count changes.
 
 ### Georgia independent source corrections — November 7
@@ -115,7 +117,7 @@ These are inventory classifications, not independently renewed legal-force findi
 | Classified active or extended | **1079** |
 | Pending or not yet effective | **79** |
 | Ended (replaced, expired, or rescinded) | **172** |
-| Rows we still want to confirm (`[VERIFY]`) | **716** |
+| Rows we still want to confirm (`[VERIFY]`) | **723** |
 | States with at least one | **47** |
 
 Current totals remain 1,330 local records (1,079 active/extended classifications),
