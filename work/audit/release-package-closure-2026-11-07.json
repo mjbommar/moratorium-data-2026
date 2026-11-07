@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0.0",
+  "scope": "Working package closure and consistency, not final release or comprehensive factual freshness",
+  "source_commit": "1a7d0fa4b17b6ff2968eb07f5b1a4c6f31b36a52",
+  "verifier_commit": "66b615c",
+  "independent_manifest_sha256": "cea812f555ec56df65924afaf42d7b8047040a366dc77effd1470ba9b42e014e",
+  "archive": {
+    "name": "moratorium-data-working-candidate.tar.gz",
+    "bytes": 20549748,
+    "sha256": "157e99373a8e3287ce4fc13426c0ded3b8057ebb22e681c796834bbe292fac96"
+  },
+  "members": 976,
+  "two_build_checksums_identical": true,
+  "publication_replay": "already_applied",
+  "csv_projection_files": 19,
+  "all_packaged_members_unchanged": true,
+  "tests": {
+    "interpreter": "existing bc-modules Python 3.14 environment",
+    "passed": 385,
+    "initial_attempts": "Minimal Python environment lacked BC dependencies; first native attempt lacked ignored pilot fixtures. Pinned fixture hashes verified before private symlinks restored; subsequent full suite passed."
+  },
+  "limits": [
+    "Archive pins source 1a7d0fa, before generic verifier was added; verifier was run separately from commit 66b615c.",
+    "Public metadata may refer to private evidence or historical Git context; bundle replay does not independently adjudicate sources.",
+    "Access restrictions are Python audit hooks, not a hostile-code operating-system sandbox.",
+    "Final citation, consumer reconciliation, freshness and coverage gates, final release and hosting remain incomplete."
+  ]
+}
