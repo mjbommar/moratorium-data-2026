@@ -12,14 +12,42 @@ import tarfile
 
 ROOT = Path(__file__).resolve().parents[1]
 
+# Reviewed public metadata only; raw evidence and other research files stay out.
+PUBLIC_NOV7_METADATA = (
+    'work/audit/refresh-field-accounting-2026-11-07.md',
+    'work/audit/refresh-field-accounting-2026-11-07.json',
+    'work/research/2026-11-07/wilmington-initiative-history/README.md',
+    'work/research/2026-11-07/wilmington-initiative-history/validation.json',
+    'work/research/2026-11-07/wilmington-initiative-history/publication-plan.json',
+    'work/research/2026-11-07/wilmington-initiative-history/identity-plan.json',
+    'work/research/2026-11-07/wilmington-initiative-history/apply.json',
+    'work/research/2026-11-07/wilmington-initiative-history/replay.json',
+    'work/research/2026-11-07/wilmington-initiative-history/identity-apply.json',
+    'work/research/2026-11-07/wilmington-initiative-history/coordinator-corrections.json',
+    'work/research/2026-11-07/wilmington-initiative-history/review-provenance.json',
+    'work/research/2026-11-07/wilmington-initiative-history/worklist-comparison.json',
+    'work/research/2026-11-07/wilmington-initiative-history/git-generation-byte-check.json',
+    'work/research/2026-11-07/executive-force-review/README.md',
+    'work/research/2026-11-07/executive-force-review/validation.json',
+    'work/research/2026-11-07/executive-force-review/exact-diff.json',
+    'work/research/2026-11-07/executive-force-review/review-provenance.json',
+    'work/research/2026-11-07/executive-force-review/source-versions.json',
+    'work/research/2026-11-07/executive-force-review/date-extraction-fidelity.json',
+    'work/research/2026-11-07/executive-force-review/sb6-source-assessment.json',
+    'work/research/2026-11-07/state-policy-forms/README.md',
+    'work/research/2026-11-07/state-policy-forms/validation.json',
+    'work/research/2026-11-07/state-policy-forms/exact-diff.json',
+    'work/research/2026-11-07/state-policy-forms/native-migration-summary.json',
+    'work/research/2026-11-07/state-policy-forms/source-review.json',
+    'work/research/2026-11-07/state-policy-forms/visual-review.json',
+)
+
 
 def git(*args):
     return subprocess.check_output(['git', *args], cwd=ROOT)
 
 
-def build(destination, revision):
-    commit = git('rev-parse', revision+'^{commit}').decode().strip()
-    names = git('ls-tree', '-r', '--name-only', commit).decode().splitlines()
+def select_files(commit, names):
     exact = {'data/moratorium_inventory.csv', 'data/state_legislation.csv', 'data/summary_stats.json',
              'data/identities/expanded.jsonl', 'data/expanded', 'LICENSE-data', 'LICENSE-code', 'CITATION.cff',
              'docs/codebook.md', 'docs/expanded-data-contracts.md', 'docs/expanded-promotion.md',
@@ -83,8 +111,23 @@ def build(destination, revision):
                 path = evidence['path']
                 assert path.startswith('work/research/') and '..' not in Path(path).parts
                 exact.add(path)
+    # Optional for older revisions: never select a path absent from the tree.
+    exact.update(n for n in PUBLIC_NOV7_METADATA if n in names)
+    exact.update(n for n in ('scripts/validate_dataset.py', 'scripts/build_summary_stats.py',
+                             'data/sweep_coverage.json') if n in names)
+    # The summary builder consults state page existence and sweep coverage.
+    stats = json.loads(git('show', commit+':data/summary_stats.json'))
+    exact.update('states/'+detail['file'] for detail in stats.get('state_details', {}).values()
+                 if detail.get('file') and 'states/'+detail['file'] in names)
     selected = sorted(n for n in names if n in exact or n.startswith(('data/expanded-snapshots/', 'data/expanded-csv-snapshots/')))
     assert exact <= set(selected), exact-set(selected)
+    return selected
+
+
+def build(destination, revision):
+    commit = git('rev-parse', revision+'^{commit}').decode().strip()
+    names = git('ls-tree', '-r', '--name-only', commit).decode().splitlines()
+    selected = select_files(commit, names)
     manifest = {'schema_version': '1.0.0', 'candidate_status': 'unreleased_preparation',
                 'source_commit': commit, 'working_cohort_cutoff': '2026-11-05',
                 'scope': 'Public data and retained expanded publication history. Not proof of completed factual freshness, legal force, sibling synchronization or remote publication.',

@@ -19,6 +19,29 @@ Sources: [discovery accounting](../work/audit/discovery-coordinator-accounting-2
 
 ## Current closure checkpoint
 
+
+### November 7 release audit at source `d0f0bdb`
+
+The current source is committed and pushed, but it is not a published release.
+The only GitHub release entry remains the historical draft `v2026.11.1-rc.1`,
+targeting `2916061f8163f1ecde17210359af0977f8e56943`; its numbers and assets
+must not be presented as the current snapshot. Citation metadata still names
+July. Neither the draft nor historical consumer receipts prove final delivery.
+
+A fresh package audit found that the builder selected current data but omitted
+November 7 Wilmington, executive-action, policy-form and field-accounting
+receipts. Its historical portable verifier also replayed an older publication
+plan. Packaging and clean-restore corrections are in progress; successful
+restoration will prove public bundle consistency, not factual freshness.
+
+GitHub Pages run `42357775510` built source `d0f0bdb` successfully but timed out
+during deployment. The single native rebuild, run `42358746198`, also terminated
+with a deployment timeout after creating its deployment. No further retry has
+been requested at this checkpoint, and this source is not verified hosted.
+These are delivery failures, separate from the open freshness, coverage,
+extraction acceptance, consumer reconciliation and release requirements.
+
+
 The frozen discovery review now has zero candidates awaiting coordinator review: 38 additions, one covered existing instrument and 146 reviewed withheld. The current inventory contains 1,330 local records (1,079 classified active/extended, 79 pending and 172 past) and 442 state-policy records. The expanded subset contains 51 proposal and measure records (49 voted, one scheduled, one litigated), 57 retained results and 50 current observations, including five certified observations. These classifications and review dispositions do not establish inventory-wide current enforceability or complete election coverage.
 
 The [semantic-lineage correction](../work/research/2026-11-06/ballot-semantic-lineage/README.md)
