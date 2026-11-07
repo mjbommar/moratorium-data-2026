@@ -1,0 +1,91 @@
+{
+  "review_date": "2026-11-07",
+  "cohort_cutoff": "2026-11-05",
+  "jurisdiction": "Jay, Maine",
+  "canonical_measure_id": "fb48b72d-58bc-4b3d-a635-3117192ff57b",
+  "scope": "Bounded new collection and root primary-agenda review; not full source freshness or legal-force acceptance",
+  "actual_calls": {
+    "exa": 2,
+    "serpapi": 2,
+    "fetch": 6,
+    "pydoll": 1,
+    "http": 5,
+    "search_priced_subtotal_usd": 0.014,
+    "unpriced_serpapi_calls": 2,
+    "total_cost": "unknown; two SerpAPI searches unpriced; retrieval cost not represented",
+    "errors": 0,
+    "max_results_per_search": 8
+  },
+  "caps": {
+    "exa": 2,
+    "serpapi": 2,
+    "search_total": 4,
+    "fetch": 6,
+    "googlenews": 0,
+    "gdelt": 0
+  },
+  "attempt_journal_sha256": "4692494771f10a16934ee7c970f64af02aa3e8492d85cde99373912fa2b3a0e9",
+  "private_report_sha256": "bdbae743a852f73717344356cdbb1733d4a18c1f3732ee99a10a22681f2f80ea",
+  "all_fetches_from_cache": false,
+  "source_versions": [
+    {
+      "url": "https://www.jay-maine.org/",
+      "body_sha256": "e3350c0b7c76829834df369643c579137dbc5be73717bceec82d56a6b77d5b82",
+      "text_sha256": "6a1838ce1e0937a6ada2a1175f27057def7ac822f7dd1d2063df193f4d769911",
+      "retrieved_at": "2026-11-07T12:12:27.275096Z"
+    },
+    {
+      "url": "https://www.jay-maine.org/wp-json/wp/v2/media?search=2026&per_page=100",
+      "body_sha256": "b1b706aacf26b7f27f517e7d73a6d9e182d75cdbfee46280911596e112dad802",
+      "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "retrieved_at": "2026-11-07T12:12:37.059256Z"
+    },
+    {
+      "url": "https://www.jay-maine.org/wp-json/wp/v2/media?per_page=30&orderby=date&order=desc",
+      "body_sha256": "16aecae9149788e91e4809f5293cc1f4d3c59f264a25815e674df6d05f3e258a",
+      "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "retrieved_at": "2026-11-07T12:13:00.410557Z"
+    },
+    {
+      "url": "https://www.jay-maine.org/wp-content/uploads/2026/11/Agenda-11-09-26.pdf",
+      "body_sha256": "1b03e2116f082cd1a65f6cc26fdf9216c08f8b1448f7955ba4e9bab8365fb067",
+      "text_sha256": "d59f604021975dc93f1fff2d76309b6912255a2e609234224560f05cf29c8da4",
+      "retrieved_at": "2026-11-07T12:13:00.240586Z"
+    },
+    {
+      "url": "https://www.jay-maine.org/wp-json/wp/v2/search?search=election&per_page=50",
+      "body_sha256": "cec9bf9b17ee2abb8c48053b1762a93020d33b71a67dee7cc26389d752fd43f4",
+      "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "retrieved_at": "2026-11-07T12:13:25.392896Z"
+    },
+    {
+      "url": "https://www.jay-maine.org/wp-json/wp/v2/posts?per_page=20&orderby=date&order=desc",
+      "body_sha256": "ab383abf3600bdf49a7e51f13ff0f463a04ab75dc5547ad5a3051e76deaf46ef",
+      "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "retrieved_at": "2026-11-07T12:13:25.405156Z"
+    }
+  ],
+  "agenda_observation": {
+    "url": "https://www.jay-maine.org/wp-content/uploads/2026/11/Agenda-11-09-26.pdf",
+    "meeting_date": "2026-11-09",
+    "quote": "Solar Moratorium Next Steps",
+    "quote_span": [
+      1037,
+      1064
+    ],
+    "quote_sha256": "b723e33acece9a320aceb2cb5ce44f21a29e02df37e8c2f0a61124def4edf354",
+    "body_sha256": "1b03e2116f082cd1a65f6cc26fdf9216c08f8b1448f7955ba4e9bab8365fb067",
+    "text_sha256": "d59f604021975dc93f1fff2d76309b6912255a2e609234224560f05cf29c8da4",
+    "root_review": "Complete one-page PDF visually inspected; native excerpt offsets and body/text hashes verified. Item3 lists future next steps only."
+  },
+  "result": "No primary question-specific return/certification, enacted text or town-established effectiveness recovered in examined material; bounded observation, not proof of absence",
+  "canonical_records_written": 0,
+  "headline_changes": false,
+  "native_archive_ingestion": "Not performed; retained private acquisition is not claimed as shared native archive coverage",
+  "remaining_gaps": [
+    "Primary Article3 return and certification",
+    "Formal passage/legal outcome and enrolled text",
+    "Effective/operative interval and later actions",
+    "Independent petition sufficiency and legacy relationship"
+  ]
+}

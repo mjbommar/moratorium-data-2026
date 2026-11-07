@@ -421,3 +421,8 @@ Exit: repeatable refresh with visible freshness, costs, failures and unresolved 
 - [x] Prepare and independently review blind source inventories: 20 Mandan / 66 Harwood units, exact anchors and contextual locators private; preserve source/OCR ambiguities.
 - [ ] Freeze a new live protocol for the direct rule-unit path and reviewed source inventories, including actual backend settings/tools/runtime/HTTP/storage/pricing, independent budgets and unchanged quality rules.
 - [ ] Execute and independently source-review that pipeline before broader quality acceptance; keep prior failed experiments, source-specific freshness and unseen holdout requirements open.
+
+### Jay November 7 primary-source recheck
+
+- [x] Recheck Jay using two Exa, two SerpAPI and six bc-web fetches (one pydoll); root-review official November 9 agenda. No recovered primary return/certification or canonical promotion (`work/research/2026-11-07/jay-primary-recheck/`).
+- [ ] After the November 9 meeting, manually check posted minutes, primary Article 3 return/certification, enrolled text and operative dates; preserve the existing legal/result gaps. Queue only; no schedule created.
