@@ -1,0 +1,7 @@
+# Clarksville proposed financing provisions
+
+Publish two petition-described financing/tax-authorization provisions, two concise supporting source observations and ten review decisions after independent Terra review and coordinator primary-pixel review. All 3,515 earlier domain record lines remain byte-identical. Totals become 52 provisions, 567 claims and 2,516 decisions; 53 measures, 47 elections, 57 retained/50 current results and five current certified observations are unchanged.
+
+The SF petition describes up to $5 billion in bond principal for land acquisition and lease/PILOT arrangements; Hatchbo describes up to $50 billion for equipment and real-property improvements with lease/PILOT arrangements. These are proposed authorizations, not proof of issuance, expenditures or project approval. Bond ceilings and parcel identity are not eligibility thresholds. Threshold arrays remain empty.
+
+Final ballot wording, final dates, bindingness, yes-direction and operative effects remain unresolved. The parents retain their provisional intended-election grouping and conditional December 1 / December 8 descriptions, with null exact date bounds. No result, restriction, instrument event, project association or current-force assertion is added. Original provider text remains immutable; separately reviewed OCR and rendered petition page 2 supply the evidence. All 567 claims pass the publication evidence audit. The full refresh and final release remain incomplete.

@@ -2,6 +2,10 @@
 
 ## 2026-11-07 — current working snapshot (unreleased)
 
+The [Clarksville financing publication](work/research/2026-11-07/clarksville-financing-publication/README.md) adds two petition-proposed financing provisions, two claims and ten review decisions, preserving all 3,515 prior record lines. Totals are 52 provisions, 567 claims and 2,516 decisions; measure/result and legacy census totals do not change. Bond ceilings are proposed authorizations, not spending or eligibility thresholds.
+
+The [Arkansas source review](work/research/2026-11-07/arkansas-policy-source-review/README.md) applies 21 cells across seven existing records, correcting incentive direction, utility mechanism, sponsors, historical summaries, primary links and approval/effective versus notification dates. Current force remains unverified.
+
 The [Clarksville publication](work/research/2026-11-07/clarksville-proposal-publication/README.md) adds two conditional future referendum proposals: 53 total records (49 voted, three scheduled/called, one litigated), 57 retained/50 current results and five current certified observations. All 3,470 prior record lines are unchanged. The provisional intended-election link, final dates, ballots and effects remain explicitly qualified. Frozen correspondence is 51 of 56 groups; five remain outside canonical records.
 
 The [Colorado policy review](work/research/2026-11-07/colorado-policy-source-review/README.md) applies 15 cells across four records, correcting incentive/exemption/utility mechanisms, mixed scope, source links and proposed-version wording. Histories explicitly identify Lost bills; current force and amendment/sponsor followups remain separate.
