@@ -1,0 +1,68 @@
+{
+  "protocol_sha256": "c6784744cc9a681457ee4d5a9428db38211383b46e9c10fe4b96bb545f638265",
+  "protocol_commit": "2998bbd",
+  "status": "finished",
+  "provider_requests": 12,
+  "http_reservation_count": 12,
+  "backend_reservation_count": 12,
+  "backend_result_records": 12,
+  "all_replays_no_extra_calls": true,
+  "cases": [
+    {
+      "backend_calls": 3,
+      "candidate_count": 12,
+      "case_id": "mandan-default",
+      "chunks": 2,
+      "estimated_cost_usd": 0.10457380000000001,
+      "ledger_calls": 3,
+      "replay_without_calls": true,
+      "result_sha256": "4628cfe35ee1de5f25a4d77d3551cafd9ab2003c6dd0b038b574551e89d76690",
+      "status": "finished"
+    },
+    {
+      "backend_calls": 7,
+      "candidate_count": 22,
+      "case_id": "harwood-default",
+      "chunks": 6,
+      "estimated_cost_usd": 0.1616708,
+      "ledger_calls": 7,
+      "replay_without_calls": true,
+      "result_sha256": "4e54ec2b8a797276439c2ae29d8d4e028bc5351a6f70c1e919cd94208301e8c7",
+      "status": "finished"
+    },
+    {
+      "backend_calls": 1,
+      "candidate_count": 9,
+      "case_id": "mandan-whole",
+      "chunks": 1,
+      "estimated_cost_usd": 0.0669738,
+      "ledger_calls": 1,
+      "replay_without_calls": true,
+      "result_sha256": "d60a408b22be1571f43b4da4f80d16faa614043570e619b3928130292565a4cf",
+      "status": "finished"
+    },
+    {
+      "backend_calls": 1,
+      "candidate_count": 3,
+      "case_id": "harwood-whole",
+      "chunks": 1,
+      "estimated_cost_usd": 0.0479478,
+      "ledger_calls": 1,
+      "replay_without_calls": true,
+      "result_sha256": "d525c38350695fb9a6be425ae21af701115d576723717180f39f1ca2409fac1a",
+      "status": "finished"
+    }
+  ],
+  "candidate_count": 46,
+  "estimated_accounted_usd": 0.3811662,
+  "pricing_limit": "Pinned local SDK estimates, not provider invoice or verified current prices. Final accounting audit pending.",
+  "quality_review": "pending",
+  "promoted_records": 0,
+  "overall_P4_complete": false,
+  "private_terminal_sha256": "0afb38e37762bce8a289d3aad09c4b7f7336f3c70a24ec30ed7a96fe498c2bab",
+  "startup_attempts_before_provider": {
+    "argument_error": true,
+    "interpreter_alias_mismatch": true,
+    "provider_requests_before_exact_interpreter": 0
+  }
+}
