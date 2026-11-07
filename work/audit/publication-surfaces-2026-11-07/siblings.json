@@ -1,0 +1,96 @@
+{
+  "audit_date": "2026-11-07",
+  "scope": "Read-only local publication-surface dispositions for plan 9.1/9.2; bounded inspection, not exhaustive claim certification.",
+  "canonical_working_head": "a76ea6ac7fe0bbffd9cd98d89d42cbed20ca1ba2",
+  "working_counts": {
+    "local": 1330,
+    "state_policy": 442,
+    "measures": 51
+  },
+  "limits": "Counts are working observations, not final release; source dates vary and status classifications do not prove present legal force. No remote, hosted state or final delivery verified. Preserve active sibling campaign. Raw source bodies excluded.",
+  "prior_receipts": [
+    "work/audit/release-surfaces-2026-11-06.md",
+    "docs/release-closeout.md",
+    "consumer-worktrees/integration-policy-forms-v3/docs/moratorium-policy-forms-handoff-v3-2026-11-07.md"
+  ],
+  "search_scope": "rg targeted tracked text/metadata and bounded directory search under /home/mjbommar/projects and /data0/moratorium-refresh-2026, max depth 4; not an exhaustive search for all external consumers. The prior inventory covered seven named repositories, not author sites or PDFs.",
+  "consumers": [
+    {
+      "consumer": "moratorium-paper",
+      "exact_path": "/home/mjbommar/projects/personal/moratorium-paper",
+      "local_git_observation": "3bf7d8592d70fc2e679c72d55b08d1b3604ca66d; master, clean",
+      "disposition": "historical; revised edition blocked pending review",
+      "affected_claims_and_source_pins": "README.md:9-19 explicitly dates April PDF; latex/sections/01-introduction.tex:27-31 has 116 instruments/30 states and 98-instrument clause cohort; historical PDF and manuscript not synchronized.",
+      "evidence": "README.md:9-19 explicitly dates April PDF; latex/sections/01-introduction.tex:27-31 has 116 instruments/30 states and 98-instrument clause cohort; historical PDF and manuscript not synchronized.",
+      "owner_role": "Paper author/editor",
+      "next_action": "Preserve dated April edition; choose revised edition or retain historical, check abstract/body/conclusion/appendices and PDF against final pin, and verify delivery.",
+      "remote_or_deployment": "Not checked; cached tracking refs are not live remote or deployment evidence."
+    },
+    {
+      "consumer": "datacenter-paper-2026",
+      "exact_path": "/home/mjbommar/projects/personal/datacenter-paper-2026",
+      "local_git_observation": "0bfbb85cfed44a508c91fc9b2ef4aaffeb36f4f9; master, modified and untracked policy campaign",
+      "disposition": "blocked; historical July report and active working refresh",
+      "affected_claims_and_source_pins": "report/sections/08-conclusion.tex:14-25 and abstract.tex:21 cite 34 states/208 local actions, report cutoff July 17; research/themes/restrictions-moratoriums.md and state-policy narratives have dated legal/project claims. Separate policy campaign is uncommitted; current report integration is not established.",
+      "evidence": "report/sections/08-conclusion.tex:14-25 and abstract.tex:21 cite 34 states/208 local actions, report cutoff July 17; research/themes/restrictions-moratoriums.md and state-policy narratives have dated legal/project claims. Separate policy campaign is uncommitted; current report integration is not established.",
+      "owner_role": "Paper and policy-refresh owners",
+      "next_action": "Coordinate with active campaign; retain July cutoff, review claims, source dates and project/legal bridges against final moratorium pin and independently scoped project data; rebuild and inspect report after review.",
+      "remote_or_deployment": "Not checked; cached tracking refs are not live remote or deployment evidence."
+    },
+    {
+      "consumer": "integration",
+      "exact_path": "/data0/moratorium-refresh-2026/consumer-worktrees/integration and /data0/moratorium-refresh-2026/consumer-worktrees/integration-policy-forms-v3",
+      "local_git_observation": "b82a726cd186bdc343ebce023c6b89250a9be8a5 (behind cached origin/main 2); v3 bf3d4a8bea66f0bcf010817c9d3a8da530f9645a; primary sibling 420ee2a84cab745654dc6e42a2318217c7455bde ahead 2 behind 5",
+      "disposition": "blocked; intermediate working inputs, historical downstream outputs",
+      "affected_claims_and_source_pins": "2026-11-06-reviewed-working/manifest.json pins be9f61447b36096b2de884c8b15a6b1915c21ff7: 1,293 local, 442 policy, 49 measures. docs/moratorium-policy-forms-handoff-v3-2026-11-07.md in v3 pins 81bf960646179e41ec8df1a276027b98ae052fd7, 1,330/442/50; manifest e83bb42b501c8fb55a6909e28eb4865707ababb02047cada4f355968a3fab475. Receipt says 918 files/symlinks verified; no bridges or collaborator packets rebuilt; old coverage script pins 440.",
+      "evidence": "2026-11-06-reviewed-working/manifest.json pins be9f61447b36096b2de884c8b15a6b1915c21ff7: 1,293 local, 442 policy, 49 measures. docs/moratorium-policy-forms-handoff-v3-2026-11-07.md in v3 pins 81bf960646179e41ec8df1a276027b98ae052fd7, 1,330/442/50; manifest e83bb42b501c8fb55a6909e28eb4865707ababb02047cada4f355968a3fab475. Receipt says 918 files/symlinks verified; no bridges or collaborator packets rebuilt; old coverage script pins 440.",
+      "owner_role": "Integration maintainer and independent reviewer",
+      "next_action": "After final freeze export and authenticate final snapshot, review changed forms and IDs, rebuild legal/project links and collaborator summaries with separate project/disclosure pins and review gates; verify intended branch and delivery.",
+      "remote_or_deployment": "Not checked; cached tracking refs are not live remote or deployment evidence."
+    },
+    {
+      "consumer": "servercountry.org",
+      "exact_path": "/data0/moratorium-refresh-2026/consumer-worktrees/servercountry",
+      "local_git_observation": "195dd668ed2faa5f4ef3061241ff59c79ed40b8a; handoff branch clean vs cached origin; primary /home/mjbommar/projects/personal/servercountry.org 0f57b68c0c16d6fec67c589f32656f40dac48706 ahead 6 behind 2",
+      "disposition": "blocked; local historical-paper distinction prepared",
+      "affected_claims_and_source_pins": "src/pages/resources/for-townships.astro:649 labels April paper historical and links working dataset. Local commit does not establish site deployment. Plan 9.1 requires canonical project facts and explicit full 1,048-project inventory or subset; no such completed refresh established here.",
+      "evidence": "src/pages/resources/for-townships.astro:649 labels April paper historical and links working dataset. Local commit does not establish site deployment. Plan 9.1 requires canonical project facts and explicit full 1,048-project inventory or subset; no such completed refresh established here.",
+      "owner_role": "Server Country project-data and site owners",
+      "next_action": "Determine project cohort and cutoff, refresh facts used by prose via canonical workflow, review site claims and verify actual branch and rendered deployment against final release.",
+      "remote_or_deployment": "Not checked; cached tracking refs are not live remote or deployment evidence."
+    },
+    {
+      "consumer": "fightadatacenter.com",
+      "exact_path": "/data0/moratorium-refresh-2026/consumer-worktrees/fightadatacenter",
+      "local_git_observation": "bb976cc49aaa7e824c3b0ba9335a275655fca102; handoff branch behind cached origin 3; primary 58027fc11c16ed6d25a3c8c08adfab8ddbd13ba9",
+      "disposition": "blocked; local resource distinction prepared",
+      "affected_claims_and_source_pins": "src/data/chapters.ts around line 548 separates April paper from working dataset and warns about legal effect. PLAN.md:712 contains 99-moratoria planning copy; assess whether implemented, do not treat plan as live page. No deployment receipt for final data.",
+      "evidence": "src/data/chapters.ts around line 548 separates April paper from working dataset and warns about legal effect. PLAN.md:712 contains 99-moratoria planning copy; assess whether implemented, do not treat plan as live page. No deployment receipt for final data.",
+      "owner_role": "Site editor/deployment owner",
+      "next_action": "Search rendered current chapters, guides and metadata for dated counts and substantive examples; reconcile final source pin and verify deployed revision and links.",
+      "remote_or_deployment": "Not checked; cached tracking refs are not live remote or deployment evidence."
+    },
+    {
+      "consumer": "datacenter-2026-book",
+      "exact_path": "/data0/moratorium-refresh-2026/consumer-worktrees/book",
+      "local_git_observation": "f3509d91513d2275ea32c295efd9abba71405370; handoff branch clean vs cached origin; primary 909da50326bce392555d38440d1b9c9749188d7f ahead 1 behind 59",
+      "disposition": "historical editions; revised edition blocked",
+      "affected_claims_and_source_pins": "docs/policy-data-edition-2026-11.md records full, Essential and audio as historical, no new release; flags Augusta identity/ballot, Howell term, Prince William, generalized project outcomes and 604-project cohort. No accepted project applicability or causation.",
+      "evidence": "docs/policy-data-edition-2026-11.md records full, Essential and audio as historical, no new release; flags Augusta identity/ballot, Howell term, Prince William, generalized project outcomes and 604-project cohort. No accepted project applicability or causation.",
+      "owner_role": "Book author/editor and project-data owner",
+      "next_action": "Preserve dated editions; before a revision resolve identified claims with primary evidence and separate project cohort, rebuild all affected formats and verify publication.",
+      "remote_or_deployment": "Not checked; cached tracking refs are not live remote or deployment evidence."
+    },
+    {
+      "consumer": "author site",
+      "exact_path": "/home/mjbommar/projects/personal/michaelbommarito.com",
+      "local_git_observation": "2acf99f2a49dcd29c98ca45d8994418072c4327c; main clean vs cached origin",
+      "disposition": "blocked; dated snapshot in body, stale living-project metadata",
+      "affected_claims_and_source_pins": "src/content/projects/moratorium-nation.md:3,14,26-31 says living dataset 533/42 states, body and table dated August 19; frontmatter description lacks date. Publication metadata src/content/publications/2026-moratorium-nation.json records February SSRN edition. Generated citation JSON and public/cv/cv.tex are additional references; deployment unverified.",
+      "evidence": "src/content/projects/moratorium-nation.md:3,14,26-31 says living dataset 533/42 states, body and table dated August 19; frontmatter description lacks date. Publication metadata src/content/publications/2026-moratorium-nation.json records February SSRN edition. Generated citation JSON and public/cv/cv.tex are additional references; deployment unverified.",
+      "owner_role": "Author-site editor",
+      "next_action": "Reconcile project description, counts, metadata, links and generated outputs to final pin or explicitly date all historical values; preserve publication citation and verify rendered deployment.",
+      "remote_or_deployment": "Not checked; cached tracking refs are not live remote or deployment evidence."
+    }
+  ]
+}

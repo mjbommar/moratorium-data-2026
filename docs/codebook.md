@@ -147,7 +147,7 @@ Top-level keys:
 - `states_with_moratoria`: 47
 - `states_without_moratoria`: 3
 - `moratoria_with_verify_tags`: 704 — rows with at least one `[VERIFY]` flag remaining in any field (matches `has_verify_tags = True` in the inventory CSV)
-- `moratoria_without_verify_tags`: 627
+- `moratoria_without_verify_tags`: 626
 - `enacted_status_breakdown`: `{active, extended, replaced, expired, rescinded, pending}` — the breakdown of the 1330 working inventory rows by `enacted_status`
 - `sweep_coverage`: which states received a systematic month-by-month sweep for the release's window, plus `swept_states_with_no_adoptions_in_window`. **Read this before interpreting a state's absence.** A state with no rows in a window may have been searched and found empty, or may never have been searched; the inventory alone cannot tell you which. Note that `swept_states_with_no_adoptions_in_window` is about the window, not the state's whole history -- Idaho appears there while still carrying a 2025 instrument. Generated from [`data/sweep_coverage.json`](../data/sweep_coverage.json)
 - `top_states_by_moratoria`: list of `[state_name, count]` pairs, top 10 (fixed API shape; README prose includes all states tied at tenth)
@@ -162,13 +162,12 @@ Top-level keys:
 - 526 lines are successful extractions (records with `extraction != null` and `error == null`)
 - 338 lines are LLM-call errors retained for transparency (records with `error != null`)
 
-> ⚠️ **Scope mismatch as of v2026.07.** This cohort was built from documents
-> collected **before 2026-04-28** and covers **211 jurisdictions**. The inventory
-> is now 416 rows. The clause-prevalence percentages below therefore describe
-> roughly half the current inventory, not all of it — they were not recomputed in
-> this release because the 50-state document sweep was still running, and
-> extracting mid-sweep would have produced a cohort mixing two snapshots. Do not
-> read these percentages as characterizing the 416-row inventory.
+> ⚠️ **Historical extraction cohort.** Documents were collected before
+> **2026-04-28** and cover **211 jurisdictions**; the confidence-filtered cohort
+> contains **348 extractions**. The July edition discussed a 416-row inventory.
+> These older extractions have not been recollected to match the current inventory.
+> Extraction and jurisdiction counts use different units from inventory records;
+> clause percentages must not be read as current inventory prevalence.
 
 The **n=348 cohort** referenced in the working paper is the subset of successful extractions with `confidence >= 0.4`. Use this filter when computing clause-prevalence percentages:
 

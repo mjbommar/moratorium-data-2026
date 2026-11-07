@@ -1,0 +1,9 @@
+# Publication surface audit
+
+Two distributed, read-only Codex CLI jobs using `gpt-6.1-terra` inspected core publication surfaces and sibling consumers against plan sections 9.1–9.2. Their registers retain point-in-time observations, concrete paths, source/edition limits, responsible reviewer roles, required actions and incomplete dispositions. They are not publication approval or a completed freshness audit. Commands listed in the reports are inspection/validation recommendations, not proof each was executed.
+
+Coordinator follow-up corrected the FAQ current row count to 1330, the codebook unflagged subtotal to 626, the claim that historical checks imply ≥99% current geocode accuracy, the historical extraction cohort's misleading current-inventory comparison, and the operator README's exhaustive numeric-checker claim. Generated HTML was rebuilt. Numeric checking now covers the FAQ and unflagged subtotal as additional explicit patterns. Audit reports may describe earlier concurrent bytes; these follow-ups supersede only those identified observations.
+
+The prior `a76ea6a` Pages deployment succeeded (GitHub run 42368044666). That verifies this deployment job, not every rendered claim or later deployment. Canonical data and headline populations did not change in this follow-up. Historical editions remain dated; no final release or sibling delivery is claimed.
+
+Outstanding actions include the malformed-date/stale-caption inventory table, review of substantive FAQ/landing claims, visual inspection and disposition of all figures, final citation/release metadata, source-specific freshness acceptance, and authenticated final consumer pins and deployments. The author-site audit identified dated 533-record/42-state copy whose frontmatter lacks a snapshot date; this needs reconciliation or explicit historical labeling. Preserve the active datacenter-paper campaign. No raw source bodies or private provider outputs are included here.

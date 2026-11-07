@@ -31,7 +31,7 @@ candidate to active. `gate_answer.sh` stops on schema, dry-run or archive failur
 | `reconcile_sibling_tracker.py` | Compares the inventory against the sibling data-center project's state rollup and reports jurisdictions it names that we have no row for. Produces leads; never writes. |
 | `sync_upstream.py` | Pushes the canonical inventory back to the private working repository, which holds a mirror rather than a second source of truth. |
 | `build_index.py` | Regenerates the number-bearing spans of `index.html`, the GitHub Pages landing page, including the release-notes block. Anchored replacements only; the hand-tuned layout is untouched. |
-| `check_docs_numbers.py` | Verifies every headline number quoted in README, codebook, known-gaps, and CHANGELOG against the CSVs. `--fix` updates just the digits. |
+| `check_docs_numbers.py` | Checks selected numeric claims matched by explicit patterns against the CSVs; it does not cover every publication surface or substantive claim. `--fix` updates just the digits. |
 | `fetch_basemap.py` | Downloads the Census `cb_2023_us_state_5m` state boundary file the maps draw over (not vendored; ~1 MB). |
 | `geocode_inventory.py` | Fills `latitude`/`longitude` for rows that lack them. |
 | `make_timeline.py`, `update_state_counts.py`, `build_site.py` | Regenerate `site/timeline.svg`, the per-state Markdown counts, and the HTML site. |

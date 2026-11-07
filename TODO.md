@@ -400,3 +400,10 @@ Exit: repeatable refresh with visible freshness, costs, failures and unresolved 
 - [x] Publish twelve source-adjudicated proposed compound clauses on the existing Mandan/Harwood provisions under profile1.0.3, with twelve new claims/fourteen scoped decisions; reverify all540claims and preserve all other prior fields and records. Retain definition/comparison ambiguities, no current force inference, and unchanged headline counts (`work/research/2026-11-06/compound-clause-source-review/`).
 
 - [x] Add explicit chunk-policy forwarding/context pins and preserve prior packets on rejected preflight input. The isolated native API has 92 unit tests; the application has 343 tests. Source-window analysis corrects the split-list hypothesis: all 12 primary quotes fit default windows, while full selected support jointly fits 2/12 default windows and 12/12 large windows. This is context availability, not measured extraction quality (`work/research/2026-11-07/chunk-policy-development/`).
+
+### November 7 publication-surface audit follow-up
+
+- [x] Record inspected core and sibling surface registers with authoritative inputs, edition limits, reviewer roles and concrete next actions (`work/audit/publication-surfaces-2026-11-07/`). This is an audit register, not full P6 acceptance.
+- [x] Correct FAQ row total, unflagged subtotal and unsupported geocode accuracy inference; clarify extraction cohort units and selected numeric-checker coverage.
+- [ ] Resolve malformed dates and stale caption in `tables/moratorium-inventory-clean.tex` through its generator; review raw dates first.
+- [ ] Complete all unverified visual, substantive-copy, edition and consumer actions in the publication surface registers before release approval.

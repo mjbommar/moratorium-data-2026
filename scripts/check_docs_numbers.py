@@ -58,6 +58,7 @@ def expanded_facts(snapshot: Path) -> dict[str, int]:
 def facts() -> dict[str, int | float]:
     inv, leg = load(INV), load(LEG)
     c = Counter(r["enacted_status"] for r in inv)
+    verify_rows = sum(1 for r in inv if any(VERIFY_RE.search(v or "") for v in r.values()))
     # Sweep coverage drifted once already: the prose said 15 while the data said
     # 18. Check it like any other published number.
     swept = swept_empty = 0
@@ -83,7 +84,8 @@ def facts() -> dict[str, int | float]:
         "past": c["replaced"] + c["expired"] + c["rescinded"],
         "states": len({r["state"] for r in inv}),
         "states_without": 50 - len({r["state"] for r in inv}),
-        "verify_rows": sum(1 for r in inv if any(VERIFY_RE.search(v or "") for v in r.values())),
+        "verify_rows": verify_rows,
+        "unflagged_rows": len(inv) - verify_rows,
         "geocoded": sum(1 for r in inv if r["latitude"].strip()),
         "bills": sum(1 for r in leg if r.get("policy_instrument_type", "bill") == "bill"),
         "state_policy_actions": len(leg),
@@ -102,6 +104,7 @@ def facts() -> dict[str, int | float]:
 # Patterns are anchored on distinctive surrounding words so they cannot drift
 # onto an unrelated number.
 CLAIMS: list[tuple[str, str, str, str]] = [
+    ("docs/codebook.md", r"`moratoria_without_verify_tags`: ([\d,]+)", "unflagged_rows", "codebook unflagged inventory rows"),
     ("docs/FAQ.md", r"current working inventory has ([\d,]+) rows", "rows", "FAQ current inventory rows"),
     ("README.md", r"\*\*([\d,]+) proposal and measure records\*\*", "expanded_records", "README expanded record denominator"),
     ("README.md", r"\*\*([\d,]+) voted, [\d,]+ scheduled, [\d,]+ litigated\*\*", "expanded_voted", "README voted lifecycle"),

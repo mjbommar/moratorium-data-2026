@@ -1,0 +1,558 @@
+{
+  "audit_date": "2026-11-07",
+  "scope": "Core local publication surfaces in plan section 9.2; external consumers identified but not reviewed",
+  "repository": "/home/mjbommar/projects/personal/moratorium-data-2026",
+  "read_only": true,
+  "observation_limits": "Point-in-time local inspection; concurrent worktree changes possible. No remote, paid API, source body, comprehensive legal validation, image visual review, or full rendered site audit. Commands shown are recommended read-only unless stated otherwise; do not run generators without isolation.",
+  "working_counts": {
+    "local_records": 1330,
+    "state_policy_records": 442,
+    "bill_records": 427,
+    "measure_records": 51,
+    "geocoded_features": 1289
+  },
+  "check_results": {
+    "build_summary_stats --check": "pass",
+    "build_geojson --check": "pass",
+    "build_index --check": "pass"
+  },
+  "git_status_at_end": "",
+  "entries": [
+    {
+      "id": "canonical-downloads",
+      "paths": [
+        "data/expanded-csv/ballot_measures.csv",
+        "data/expanded-csv/claims.csv",
+        "data/expanded-csv/coverage_observations.csv",
+        "data/expanded-csv/elections.csv",
+        "data/expanded-csv/instrument_event_status.csv",
+        "data/expanded-csv/instrument_events.csv",
+        "data/expanded-csv/instrument_events_current.csv",
+        "data/expanded-csv/jurisdictions.csv",
+        "data/expanded-csv/local_restrictions.csv",
+        "data/expanded-csv/manifest.json",
+        "data/expanded-csv/measure_instrument_links.csv",
+        "data/expanded-csv/measure_provisions.csv",
+        "data/expanded-csv/measure_results.csv",
+        "data/expanded-csv/measure_results_current.csv",
+        "data/expanded-csv/review_decisions.csv",
+        "data/expanded-csv/search_attempts.csv",
+        "data/expanded-csv/search_runs.csv",
+        "data/expanded-csv/search_sightings.csv",
+        "data/expanded-csv/source_documents.csv",
+        "data/expanded/publication.json",
+        "data/moratorium_inventory.csv",
+        "data/state_legislation.csv",
+        "data/summary_stats.json"
+      ],
+      "authoritative_input": "Legacy CSVs for local and state records; pinned data/expanded canonical snapshot and expanded-csv projection manifest; source review receipts",
+      "classification": "canonical inputs and generated downloads",
+      "cutoff_version": "November 5 working cohort; source dates vary; expanded f1dbb869 and CSV bfc06507 observed via symlinks",
+      "evidence": [
+        "Direct CSV row counts 1330, 442, 51; summary reports 427 bills, 15 non-bill records, 704 verify-tagged and 626 untagged. These are records, not live force or election wins.",
+        "summary --check passed; projection row content and every hash not independently reviewed."
+      ],
+      "reviewer_role": "data curator and legal/elections reviewers",
+      "validation_command": "python3 scripts/build_summary_stats.py --check",
+      "completion_state": "working counts checked; record freshness and final freeze open",
+      "next_action": "Reconcile record-specific sources, pin final snapshot and independently validate all exports and hash manifest."
+    },
+    {
+      "id": "repository-readme",
+      "paths": [
+        "README.md"
+      ],
+      "authoritative_input": "CSV, summary statistics, expanded snapshot, reviewed records; release remote metadata",
+      "classification": "manual current copy",
+      "cutoff_version": "November 5 working cohort; April paper and September prior baseline",
+      "evidence": [
+        "README distinguishes source dates, proposals and historical paper; pinning main in examples is moving, not reproducible. Remote tag/release statements dated November 5 were not checked live."
+      ],
+      "reviewer_role": "data editor and release reviewer",
+      "validation_command": "python3 scripts/check_docs_numbers.py",
+      "completion_state": "partial claim review; not release approved",
+      "next_action": "Pin examples to final release and recheck counts, links, historical claims and remote metadata."
+    },
+    {
+      "id": "data-readme",
+      "paths": [
+        "data/README.md",
+        "data/index.html"
+      ],
+      "authoritative_input": "CSV and expanded projection manifest",
+      "classification": "manual source and generated HTML",
+      "cutoff_version": "working snapshot; mixed per-record observation dates",
+      "evidence": [
+        "Data README states 1330 local, 442 state-policy, 51 ballot and 1289 coordinates; separates historical September baseline and unpublished release. HTML and all table rows not independently reconciled."
+      ],
+      "reviewer_role": "data editor and elections reviewer",
+      "validation_command": "python3 scripts/check_docs_numbers.py",
+      "completion_state": "partial; currently modified by another concurrent change",
+      "next_action": "Review final bytes and regenerate HTML after the snapshot is frozen; verify all export links and manifest totals."
+    },
+    {
+      "id": "operator-readmes",
+      "paths": [
+        "scripts/README.md",
+        "work/README.md"
+      ],
+      "authoritative_input": "actual scripts, workflow contracts, archival/privacy rules",
+      "classification": "manual operational copy",
+      "cutoff_version": "mixed historical and current workflow",
+      "evidence": [
+        "scripts README claims number checker verifies every headline and all LaTeX tables regenerate; plan says checker is selected patterns and table generation has historical cases. work README describes public-source body commits; present private/public archive policy requires current review. No raw source bodies copied."
+      ],
+      "reviewer_role": "tooling maintainer and privacy reviewer",
+      "validation_command": "python3 scripts/check_docs_numbers.py --help",
+      "completion_state": "correction identified; workflow not exhaustively verified",
+      "next_action": "Qualify checker coverage; inventory actual generators, current archival policy and commands against code."
+    },
+    {
+      "id": "faq",
+      "paths": [
+        "docs/FAQ.html",
+        "docs/FAQ.md"
+      ],
+      "authoritative_input": "reviewed canonical data, source evidence for economic claims, election results",
+      "classification": "manual Markdown and generated HTML",
+      "cutoff_version": "November 5 working cohort; historical original extraction",
+      "evidence": [
+        "FAQ separates 51 reviewed proposals/measures and original 348 extraction instruments; $1 trillion capital commitments and assertions that many pauses were replaced within 6\u201312 months lack substantiation in inspected text; exact current frequency and causal claim need evidence."
+      ],
+      "reviewer_role": "subject-matter editor and elections/legal reviewers",
+      "validation_command": "rg -n \"trillion|6 to 12|ballot|release\" docs/FAQ.md",
+      "completion_state": "substantive claims need evidence; HTML not fully checked",
+      "next_action": "Source and date capital figure; calculate qualified replacement distribution or soften/remove; reconcile current HTML."
+    },
+    {
+      "id": "methodology",
+      "paths": [
+        "docs/methodology.html",
+        "docs/methodology.md"
+      ],
+      "authoritative_input": "research protocols, canonical inventory, historical extraction and geocoding audit",
+      "classification": "manual Markdown and generated HTML",
+      "cutoff_version": "historical April collection; November 5 working cohort",
+      "evidence": [
+        "Methodology explicitly warns 89 geocode checks do not establish accuracy for current inventory; 1289 of 1330 coordinates; incomplete record-level force. Historical model/document counts are original collection, not refresh-wide."
+      ],
+      "reviewer_role": "methods and geographic reviewer",
+      "validation_command": "rg -n \"historical|1330|89 verifications|geocod\" docs/methodology.md",
+      "completion_state": "partial review; rendered version not verified",
+      "next_action": "Verify cohort denominators and collection phases, then inspect final rendered method and links."
+    },
+    {
+      "id": "codebook",
+      "paths": [
+        "docs/codebook.html",
+        "docs/codebook.md",
+        "docs/event-validity-publication.md",
+        "docs/expanded-data-contracts.md"
+      ],
+      "authoritative_input": "CSV schemas, summary_stats.json, expanded snapshot/contracts",
+      "classification": "manual documentation and generated HTML",
+      "cutoff_version": "working November; expanded event profile as selected in publication",
+      "evidence": [
+        "codebook line 150 says 627 without verify tags; summary and 1330-704 say 626. Lines 165\u2013169 say historical 211-jurisdiction cohort covers roughly half the current inventory: incomparable units and stale framing. It distinguishes pending/adoption and current force."
+      ],
+      "reviewer_role": "schema maintainer and legal reviewer",
+      "validation_command": "python3 scripts/check_docs_numbers.py",
+      "completion_state": "specific corrections ready; expanded field contracts not exhaustively reviewed",
+      "next_action": "Correct 627 to 626 and replace half claim with dated 348 texts/211 jurisdictions without treating either as a fraction of 1330 instruments; reconcile HTML and field definitions."
+    },
+    {
+      "id": "known-gaps",
+      "paths": [
+        "docs/known-gaps.html",
+        "docs/known-gaps.md"
+      ],
+      "authoritative_input": "record review receipts, inventory, sweep logs, historical geocode study",
+      "classification": "manual Markdown and generated HTML",
+      "cutoff_version": "mixed historical releases and November reviews",
+      "evidence": [
+        "Line 370 infers \u226599% geocode accuracy from 89 historical checks; methodology explicitly says that sample does not establish current accuracy. Line 266 says roughly half the rows, inconsistent with current units/cohort. Lines 219\u2013222 exclude post-September events in a historical section but need explicit historical scoping. Freshness acceptance remains open."
+      ],
+      "reviewer_role": "methods, geographic and legal reviewer",
+      "validation_command": "rg -n \"99%|roughly half|September 23, 2026 is not|freshness\" docs/known-gaps.md",
+      "completion_state": "corrections identified; individual legal cases not re-adjudicated",
+      "next_action": "Remove unsupported current accuracy inference, scope old snapshot text and replace old ratio; review examples and live gaps individually."
+    },
+    {
+      "id": "ballot-publication",
+      "paths": [
+        "docs/ballot-measures.html",
+        "docs/ballot-measures.md",
+        "docs/ballot-results.html",
+        "docs/ballot-results.md"
+      ],
+      "authoritative_input": "expanded reviewed measures/results/provisions/links and pinned generation manifest",
+      "classification": "generated summary and rendered pages",
+      "cutoff_version": "51 reviewed measure/proposal records; separate election observation dates",
+      "evidence": [
+        "Results page states 49 voted, 1 scheduled, 1 litigated; labels bindingness, polarity, scope and certification with unknowns and unofficial observations. Partial county returns cannot stand for whole electorate; no current legal-force inference."
+      ],
+      "reviewer_role": "elections and legal reviewers",
+      "validation_command": "python3 scripts/build_ballot_summary.py --check",
+      "completion_state": "scoped inspection, not independent adjudication of 51 cases",
+      "next_action": "Check final generator output and source evidence for each promoted claim, including certification, reporting scope and effect."
+    },
+    {
+      "id": "state-pages",
+      "paths": [
+        "states/README.md",
+        "states/alabama.html",
+        "states/alabama.md",
+        "states/alaska.html",
+        "states/alaska.md",
+        "states/arizona.html",
+        "states/arizona.md",
+        "states/arkansas.html",
+        "states/arkansas.md",
+        "states/california.html",
+        "states/california.md",
+        "states/colorado.html",
+        "states/colorado.md",
+        "states/connecticut.html",
+        "states/connecticut.md",
+        "states/delaware.html",
+        "states/delaware.md",
+        "states/florida.html",
+        "states/florida.md",
+        "states/georgia.html",
+        "states/georgia.md",
+        "states/idaho.html",
+        "states/idaho.md",
+        "states/illinois.html",
+        "states/illinois.md",
+        "states/index.html",
+        "states/indiana.html",
+        "states/indiana.md",
+        "states/iowa.html",
+        "states/iowa.md",
+        "states/kansas.html",
+        "states/kansas.md",
+        "states/kentucky.html",
+        "states/kentucky.md",
+        "states/louisiana.html",
+        "states/louisiana.md",
+        "states/maine.html",
+        "states/maine.md",
+        "states/maryland.html",
+        "states/maryland.md",
+        "states/massachusetts.html",
+        "states/massachusetts.md",
+        "states/michigan.html",
+        "states/michigan.md",
+        "states/minnesota.html",
+        "states/minnesota.md",
+        "states/mississippi.html",
+        "states/mississippi.md",
+        "states/missouri.html",
+        "states/missouri.md",
+        "states/montana.html",
+        "states/montana.md",
+        "states/nebraska.html",
+        "states/nebraska.md",
+        "states/nevada.html",
+        "states/nevada.md",
+        "states/new-hampshire.html",
+        "states/new-hampshire.md",
+        "states/new-jersey.html",
+        "states/new-jersey.md",
+        "states/new-mexico.html",
+        "states/new-mexico.md",
+        "states/new-york.html",
+        "states/new-york.md",
+        "states/north-carolina.html",
+        "states/north-carolina.md",
+        "states/north-dakota.html",
+        "states/north-dakota.md",
+        "states/ohio.html",
+        "states/ohio.md",
+        "states/oklahoma.html",
+        "states/oklahoma.md",
+        "states/oregon.html",
+        "states/oregon.md",
+        "states/pennsylvania.html",
+        "states/pennsylvania.md",
+        "states/rhode-island.html",
+        "states/rhode-island.md",
+        "states/south-carolina.html",
+        "states/south-carolina.md",
+        "states/south-dakota.html",
+        "states/south-dakota.md",
+        "states/tennessee.html",
+        "states/tennessee.md",
+        "states/texas.html",
+        "states/texas.md",
+        "states/utah.html",
+        "states/utah.md",
+        "states/vermont.html",
+        "states/vermont.md",
+        "states/virginia.html",
+        "states/virginia.md",
+        "states/washington.html",
+        "states/washington.md",
+        "states/wisconsin.html",
+        "states/wisconsin.md"
+      ],
+      "authoritative_input": "moratorium_inventory.csv, state_legislation.csv, update_state_counts.py and build_site.py",
+      "classification": "generated state Markdown/index and rendered HTML",
+      "cutoff_version": "state index says generated November 7; source and status dates vary",
+      "evidence": [
+        "State index 1330, 1079 active/extended classification, 79 pending, 172 past; 47 states. Those are classified records, not present legal force. Index inspected and Pennsylvania examples sampled; individual narratives and rendered pages not exhaustively reviewed. 50-state coverage must not be inferred from existence of files."
+      ],
+      "reviewer_role": "state data editors and legal reviewers",
+      "validation_command": "python3 scripts/check_docs_numbers.py",
+      "completion_state": "group inventoried; per-state narrative and HTML verification outstanding",
+      "next_action": "Compare each page row/identity/status with frozen inputs, check formerly empty states and reviewed restrictions, inspect rendered HTML and links."
+    },
+    {
+      "id": "landing",
+      "paths": [
+        "index.html",
+        "scripts/build_index.py"
+      ],
+      "authoritative_input": "inventory, state policy and manually maintained landing copy",
+      "classification": "generated substitutions plus manual HTML",
+      "cutoff_version": "November 5 working cohort; April paper and September chart historical",
+      "evidence": [
+        "index --check passed; headline 1330/442 and 1289 mapped; April paper explicitly historical and timeline labeled September. Line 759 claims most terms 6\u201312 months and trigger almost always a zoning gap without inspected calculation; map wording does not explain all 41 missing coordinates. Metadata updated date is cohort rather than full record freshness."
+      ],
+      "reviewer_role": "web editor, statistical and legal reviewers",
+      "validation_command": "python3 scripts/build_index.py --check",
+      "completion_state": "numeric generator passes; substantive and rendered review incomplete",
+      "next_action": "Quantify or qualify duration and trigger claims, disclose 41 missing points, reconcile final links and inspect browser-rendered site."
+    },
+    {
+      "id": "rendered-site",
+      "paths": [
+        "data/index.html",
+        "docs/FAQ.html",
+        "docs/ballot-measures.html",
+        "docs/ballot-results.html",
+        "docs/codebook.html",
+        "docs/expanded-data-contracts.html",
+        "docs/expanded-identity-registry.html",
+        "docs/expanded-promotion.html",
+        "docs/known-gaps.html",
+        "docs/methodology.html",
+        "scripts/build_site.py",
+        "states/alabama.html",
+        "states/alaska.html",
+        "states/arizona.html",
+        "states/arkansas.html",
+        "states/california.html",
+        "states/colorado.html",
+        "states/connecticut.html",
+        "states/delaware.html",
+        "states/florida.html",
+        "states/georgia.html",
+        "states/idaho.html",
+        "states/illinois.html",
+        "states/index.html",
+        "states/indiana.html",
+        "states/iowa.html",
+        "states/kansas.html",
+        "states/kentucky.html",
+        "states/louisiana.html",
+        "states/maine.html",
+        "states/maryland.html",
+        "states/massachusetts.html",
+        "states/michigan.html",
+        "states/minnesota.html",
+        "states/mississippi.html",
+        "states/missouri.html",
+        "states/montana.html",
+        "states/nebraska.html",
+        "states/nevada.html",
+        "states/new-hampshire.html",
+        "states/new-jersey.html",
+        "states/new-mexico.html",
+        "states/new-york.html",
+        "states/north-carolina.html",
+        "states/north-dakota.html",
+        "states/ohio.html",
+        "states/oklahoma.html",
+        "states/oregon.html",
+        "states/pennsylvania.html",
+        "states/rhode-island.html",
+        "states/south-carolina.html",
+        "states/south-dakota.html",
+        "states/tennessee.html",
+        "states/texas.html",
+        "states/utah.html",
+        "states/vermont.html",
+        "states/virginia.html",
+        "states/washington.html",
+        "states/wisconsin.html"
+      ],
+      "authoritative_input": "corresponding Markdown and build_site.py",
+      "classification": "generated HTML",
+      "cutoff_version": "source-dependent; no single refresh cutoff",
+      "evidence": [
+        "Build-site source enumerates render targets and rewrites links; prior TODO reports 59 pages/953 references checked, not independently repeated here. Current working files changed during audit."
+      ],
+      "reviewer_role": "web maintainer",
+      "validation_command": "python3 -m pytest -q tests/test_site_links.py",
+      "completion_state": "inventory only; no full rendered-content or live deployment check",
+      "next_action": "Build in isolated copy after freeze; inspect rendered pages, links, fragments and hosted bytes."
+    },
+    {
+      "id": "geojson",
+      "paths": [
+        "scripts/build_geojson.py",
+        "site/moratoria.geojson"
+      ],
+      "authoritative_input": "inventory rows with coordinates",
+      "classification": "generated",
+      "cutoff_version": "current working inventory; individual source dates vary",
+      "evidence": [
+        "Parsed 1289 GeoJSON features; generator --check passed. Coordinates are reference points, not legal boundaries or proof of project applicability; individual feature identity not verified."
+      ],
+      "reviewer_role": "GIS reviewer",
+      "validation_command": "python3 scripts/build_geojson.py --check",
+      "completion_state": "generator consistency checked; geographic correctness open",
+      "next_action": "Review ambiguous coordinates and tooltips against documented overrides and primary jurisdiction evidence."
+    },
+    {
+      "id": "timeline",
+      "paths": [
+        "scripts/make_timeline.py",
+        "site/timeline.svg"
+      ],
+      "authoritative_input": "historical inventory export for existing graphic; generator reads current CSV date and first sector",
+      "classification": "generated historical chart",
+      "cutoff_version": "landing labels existing chart September 23 2026",
+      "evidence": [
+        "Landing explicitly calls graphic historical. Generator uses first sector, so multi-label sector distributions require that qualification; neither SVG rendered image nor generation provenance independently established."
+      ],
+      "reviewer_role": "visualization and methods reviewer",
+      "validation_command": "rg -n \"sector|date_enacted|Historical\" scripts/make_timeline.py index.html",
+      "completion_state": "historical disposition plausible, visual verification open",
+      "next_action": "Render and inspect chart; pin historical input or regenerate from final snapshot with primary-sector and missing-date caveats."
+    },
+    {
+      "id": "figures",
+      "paths": [
+        "figures/pdf/map-home-rule.pdf",
+        "figures/pdf/map-legal-authority.pdf",
+        "figures/pdf/map-moratorium-counts.pdf",
+        "figures/pdf/map-preemption.pdf",
+        "figures/pdf/map-sector-composition.pdf",
+        "figures/pdf/map-statutory-duration.pdf",
+        "figures/pdf/map-timeline-heatmap.pdf",
+        "figures/png/map-home-rule.png",
+        "figures/png/map-legal-authority.png",
+        "figures/png/map-moratorium-counts.png",
+        "figures/png/map-preemption.png",
+        "figures/png/map-sector-composition.png",
+        "figures/png/map-statutory-duration.png",
+        "figures/png/map-timeline-heatmap.png",
+        "figures/svg/map-home-rule.svg",
+        "figures/svg/map-legal-authority.svg",
+        "figures/svg/map-moratorium-counts.svg",
+        "figures/svg/map-preemption.svg",
+        "figures/svg/map-sector-composition.svg",
+        "figures/svg/map-statutory-duration.svg",
+        "figures/svg/map-timeline-heatmap.svg"
+      ],
+      "authoritative_input": "inventory and maps scripts plus embedded state classifications",
+      "classification": "generated binaries and SVG",
+      "cutoff_version": "mixed historical cohorts; no independent per-file provenance established",
+      "evidence": [
+        "21 map files inventoried across seven maps and three formats; code loads inventory and static dictionaries. Landing cites older graphics as historical; graphic internals and rendered images not visually inspected."
+      ],
+      "reviewer_role": "GIS, legal and visualization reviewers",
+      "validation_command": "rg -n \"read_csv|savefig|2026\" scripts/moratorium_maps",
+      "completion_state": "unverified figures; not release approved",
+      "next_action": "Inspect all graphics and sources, date and label each, review legal classification assumptions and regenerate or retire stale maps."
+    },
+    {
+      "id": "latex-tables",
+      "paths": [
+        "scripts/generate_tables/__init__.py",
+        "scripts/generate_tables/__main__.py",
+        "scripts/generate_tables/_common.py",
+        "scripts/generate_tables/definitional_approaches.py",
+        "scripts/generate_tables/findings_impact.py",
+        "scripts/generate_tables/inventory_clean.py",
+        "scripts/generate_tables/sector_specific_clauses.py",
+        "scripts/generate_tables/state_sector_counts.py",
+        "scripts/generate_tables/temporal_distribution.py",
+        "scripts/generate_tables/top_states.py",
+        "tables/clause-prevalence.tex",
+        "tables/definitional-approaches.tex",
+        "tables/findings-impact.tex",
+        "tables/moratorium-inventory-clean.tex",
+        "tables/moratorium-inventory.tex",
+        "tables/sector-specific-clauses.tex",
+        "tables/state-sector-counts.tex",
+        "tables/temporal-distribution.tex",
+        "tables/top-states.tex"
+      ],
+      "authoritative_input": "inventory/summary and historical clause_extraction_analysis.json",
+      "classification": "generated and historical tables",
+      "cutoff_version": "mixed; extraction cohort pre-2026-04-28",
+      "evidence": [
+        "moratorium-inventory-clean.tex:23 says current through April yet includes August/September rows; lines 93,97,114 have impossible months 47,13,83, indicating malformed formatting. Source inventory_clean.py hard-codes April caption; inspect raw date fields before assigning cause. Clause sample uses 348 documents/211 jurisdictions, not current 1330-record population. Other table contents not independently reconciled."
+      ],
+      "reviewer_role": "table maintainer and quantitative reviewer",
+      "validation_command": "rg -n \"Data current through April|2026-(13|47|83)\" tables/moratorium-inventory-clean.tex",
+      "completion_state": "concrete defects; full table audit outstanding",
+      "next_action": "Fix date parsing and generator caption; compare every generated row and dated denominators in isolated build, then review clause tables as historical."
+    },
+    {
+      "id": "citation-changelog-release",
+      "paths": [
+        "CHANGELOG.md",
+        "CITATION.cff",
+        "work/audit/release-candidate-2026-11-06/manifest.json",
+        "work/audit/release-candidate-updated-2026-11-06/manifest.json",
+        "work/audit/release-package-closure-2026-11-07.json"
+      ],
+      "authoritative_input": "final pinned release inputs, change ledger, version/tag and public asset hashes",
+      "classification": "manual metadata and generated candidate manifest",
+      "cutoff_version": "CITATION 2026.07 / 2026-07-31; candidate marked unreleased_preparation, November 5 cutoff",
+      "evidence": [
+        "CITATION version/date refer to July working edition; README reports July label unpublished and latest remote tag April as of November 5; no live remote check performed. Candidate manifest is preparation, not final publication. Historical changelog entries must retain their dates."
+      ],
+      "reviewer_role": "release manager and data curator",
+      "validation_command": "python3 scripts/verify_release_candidate.py --help",
+      "completion_state": "version/citation reconciliation and final release open",
+      "next_action": "Verify remote refs and draft independently; choose final version after freeze, prepare asset manifest and checksums and update current citation without inventing DOI."
+    },
+    {
+      "id": "bundled-paper",
+      "paths": [
+        "paper/moratorium-nation-2026-04-30.pdf"
+      ],
+      "authoritative_input": "canonical moratorium-paper manuscript, original April cohort and source evidence",
+      "classification": "historical PDF",
+      "cutoff_version": "April 30 2026 edition",
+      "evidence": [
+        "PDF text inspected abstract: 222 communities in 30 states, 348 analyzed texts and 59%/77% clause claims. These are dated historical paper claims, not present inventory counts; abstract arithmetic or all 116 pages not independently checked. Landing labels paper historical and unsynchronized. Mirror not inspected."
+      ],
+      "reviewer_role": "paper author and legal/methods reviewers",
+      "validation_command": "pdfinfo paper/moratorium-nation-2026-04-30.pdf && pdftotext paper/moratorium-nation-2026-04-30.pdf - | head -80",
+      "completion_state": "historical abstract inspected; manuscript/mirror and entire PDF unverified",
+      "next_action": "Keep explicit historical edition label; compare mirror hashes, review body and tables, then either rebuild revised paper from pinned inputs or preserve dated edition."
+    },
+    {
+      "id": "external-consumers-and-deployment",
+      "paths": [
+        "work/audit/release-surfaces-2026-11-06.md"
+      ],
+      "authoritative_input": "sibling repositories and actual remote deployments",
+      "classification": "external manual/generated/historical",
+      "cutoff_version": "various corpus cutoffs and edition dates",
+      "evidence": [
+        "Plan 9.2 also names moratorium-paper, datacenter-paper-2026, integration, Server Country, Fight a Data Center, book and author sites. Prior catalogue is an inventory, not acceptance. These external checkouts and live sites were not inspected in this audit. TODO records partial delivery and separate outstanding consumer/deployment work."
+      ],
+      "reviewer_role": "consumer owners and release manager",
+      "validation_command": "rg -n \"sibling|hosted|deployment|consumer\" TODO.md",
+      "completion_state": "outside core direct inspection; explicitly unverified",
+      "next_action": "Audit each sibling and hosted release separately, pin distinct source cutoffs, review substantive claims and document historical/blocked dispositions."
+    }
+  ]
+}

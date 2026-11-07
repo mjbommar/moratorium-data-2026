@@ -367,7 +367,7 @@ same-named county sitting around a city will outrank it. Expect to curate a few
 of these by hand each refresh — but check first whether the failure is a class the
 geocoder should handle.
 
-**Audit confidence.** Geocoded coordinates were triple-checked across 89 verifications via three independent methods: spot-check against geographic knowledge, Wikipedia GeoSearch reverse-lookup (does the jurisdiction's name appear in nearby Wikipedia pages?), and nearby-page context analysis (when a township has no Wikipedia article, do nearby places confirm the right county?). Across all 89 verifications, **zero confirmed wrong geocodes** (after the 4 manual corrections above). Treat the lat/lon column as ≥99% accurate.
+**Audit confidence.** Geocoded coordinates were triple-checked across 89 verifications via three independent methods: spot-check against geographic knowledge, Wikipedia GeoSearch reverse-lookup (does the jurisdiction's name appear in nearby Wikipedia pages?), and nearby-page context analysis (when a township has no Wikipedia article, do nearby places confirm the right county?). Across all 89 verifications, **zero confirmed wrong geocodes** (after the 4 manual corrections above). These historical checks do not establish an accuracy percentage for the current inventory. Nonblank coordinates still require jurisdiction-identity review, particularly for same-name townships.
 
 When new releases add new same-name townships, expect a small number of similar issues until the geocoder catches up.
 
