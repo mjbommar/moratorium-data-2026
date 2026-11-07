@@ -419,8 +419,8 @@ Exit: repeatable refresh with visible freshness, costs, failures and unresolved 
 
 - [x] Implement opt-in full-source per-rule typed extraction with explicit unresolved slots, sealed durable reservations and private workspace checks; verify 415 tests and independent controlled-development review (`work/audit/rule-unit-extraction-2026-11-07/`). No quality acceptance follows.
 - [x] Prepare and independently review blind source inventories: 20 Mandan / 66 Harwood units, exact anchors and contextual locators private; preserve source/OCR ambiguities.
-- [ ] Freeze a new live protocol for the direct rule-unit path and reviewed source inventories, including actual backend settings/tools/runtime/HTTP/storage/pricing, independent budgets and unchanged quality rules.
-- [ ] Execute and independently source-review that pipeline before broader quality acceptance; keep prior failed experiments, source-specific freshness and unseen holdout requirements open.
+- [x] Freeze the separate direct rule-unit development protocol with reviewed inventories, actual backend/runtime/HTTP/storage/pricing pins and independent budgets (`direct-rule-unit-evaluation/protocol.json`).
+- [x] Execute and independently source-review the known-source direct-unit pipeline; its quality gate failed. Prior failures, source-specific freshness, unseen holdout and broader quality acceptance remain open.
 
 ### Jay November 7 primary-source recheck
 
