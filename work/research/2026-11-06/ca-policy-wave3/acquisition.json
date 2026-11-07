@@ -1,0 +1,144 @@
+{
+  "sources": [
+    {
+      "attempt_id": "cce3c80dfe5d4af882ac7924ef22ab1d",
+      "url": "https://leginfo.legislature.ca.gov/faces/billHistoryClient.xhtml?bill_id=202520260AB2170",
+      "body_sha256": "ada568c2c2e96def3ca82574d7359cc5583f4127b1268ad0beda0eac23966695",
+      "text_sha256": "5f7f8273b29fa7af1c0b9f1e40c61eb3db6adf9b0ee55f3b871b6fd3d2ca0157",
+      "fetched_at": "2026-11-07T00:29:23.486665Z",
+      "tier": "http",
+      "engine": "curl_cffi",
+      "status": 200,
+      "text_chars": 629
+    },
+    {
+      "attempt_id": "22827be0d1674feea1c958b0c7874c3b",
+      "url": "https://leginfo.legislature.ca.gov/faces/billHistoryClient.xhtml?bill_id=202520260SB978",
+      "body_sha256": "3991b6fd2a9dc194093a15b550b8cc771887ac552c1e86227d6183281e40f366",
+      "text_sha256": "50da50ba0abf6f6163bcdf6c5e6435b981fc651d96552c07ac10ae310550bcd6",
+      "fetched_at": "2026-11-07T00:30:24.803608Z",
+      "tier": "http",
+      "engine": "curl_cffi",
+      "status": 200,
+      "text_chars": 918
+    },
+    {
+      "attempt_id": "22bcddffc97a45a2a82b227b22814ad6",
+      "url": "https://leginfo.legislature.ca.gov/faces/billHistoryClient.xhtml?bill_id=202520260AB222",
+      "body_sha256": "ceb9453ccc1b7e1ff54af729ca5de20a707eeda1f6d74318819b77391379c542",
+      "text_sha256": "0f9398509fc35f535764985e92dec18a753f2f9a3d95bc91152e584314937efe",
+      "fetched_at": "2026-11-07T00:30:29.098334Z",
+      "tier": "browser",
+      "engine": "pydoll",
+      "status": 200,
+      "text_chars": 1592
+    },
+    {
+      "attempt_id": "c4be509de5cb4c9a8e963bc282a18bc3",
+      "url": "https://leginfo.legislature.ca.gov/faces/billStatusClient.xhtml?bill_id=202520260AB2170",
+      "body_sha256": "15e106ca7615b0bf3b2c00af865b221535f47efd41f95e700c7081d41d0a492b",
+      "text_sha256": "a8209af5fb9c313436037bb1a9e8e156eb8f8c37052ff2f36171cc4f21d8c531",
+      "fetched_at": "2026-11-07T00:31:29.454693Z",
+      "tier": "http",
+      "engine": "curl_cffi",
+      "status": 200,
+      "text_chars": 1288
+    },
+    {
+      "attempt_id": "2837d47ce441499a89f2d855da8232f2",
+      "url": "https://leginfo.legislature.ca.gov/faces/billStatusClient.xhtml?bill_id=202520260AB222",
+      "body_sha256": "9f82097f7ffeb0f3d5ddcc52e51b92db3f44f3b5337bf704496bcdd0d45488ae",
+      "text_sha256": "ef0bda0b48bfc6d8b537377282ee8d145bf200bd9599912a03576e7a40c4d86f",
+      "fetched_at": "2026-11-07T00:31:30.760049Z",
+      "tier": "http",
+      "engine": "curl_cffi",
+      "status": 200,
+      "text_chars": 1514
+    }
+  ],
+  "search": {
+    "attempt_id": "3a654119fb6b4bae9058c44260152a2f",
+    "query": "California 2025-2026 AB 2170 AB 222 SB 978 final legislative disposition held under submission",
+    "backend": "exa",
+    "cost_usd": 0.007,
+    "hits": [
+      {
+        "position": 1,
+        "title": "Bill History - AB-222 Data centers: power usage effectiveness: cost shifts.",
+        "url": "https://leginfo.legislature.ca.gov/faces/billHistoryClient.xhtml?bill_id=202520260AB222",
+        "target_match": true,
+        "disposition": "target history/status lead"
+      },
+      {
+        "position": 2,
+        "title": "Bill Status - AB-2170 California Environmental Quality Act: overburdened communities: notices and hearings: translations.",
+        "url": "https://leginfo.legislature.ca.gov/faces/billStatusClient.xhtml?bill_id=202520260AB2170",
+        "target_match": true,
+        "disposition": "target history/status lead"
+      },
+      {
+        "position": 3,
+        "title": "Bill History - AB-2170 California Environmental Quality Act: overburdened communities: documents and information: translations.",
+        "url": "https://leginfo.legislature.ca.gov/faces/billHistoryClient.xhtml?bill_id=202520260AB2170",
+        "target_match": true,
+        "disposition": "target history/status lead"
+      },
+      {
+        "position": 4,
+        "title": "Bill Status - AB-978 Department of Transportation and local agencies: streets and highways: recycled materials.",
+        "url": "https://leginfo.legislature.ca.gov/faces/billStatusClient.xhtml?bill_id=202520260AB978",
+        "target_match": false,
+        "disposition": "wrong bill; excluded"
+      },
+      {
+        "position": 5,
+        "title": "Bill History - AB-470 Telephone corporations: carriers of last resort.",
+        "url": "https://leginfo.legislature.ca.gov/faces/billHistoryClient.xhtml?bill_id=202520260AB470",
+        "target_match": false,
+        "disposition": "wrong bill; excluded"
+      },
+      {
+        "position": 6,
+        "title": "New Laws Reports",
+        "url": "https://leginfo.legislature.ca.gov/faces/newLawTemplate.xhtml",
+        "target_match": false,
+        "disposition": "general context only"
+      }
+    ],
+    "include_domains": [
+      "legislature.ca.gov"
+    ],
+    "provider_response_hashes": [
+      {
+        "artifact": "/data0/moratorium-refresh-2026/full/ca-state-policy-002/3a654119fb6b4bae9058c44260152a2f-response-000.private.body",
+        "status": 200,
+        "original_body_sha256": "32937137c2b5c1e19fbb53adabc2abd7a8c26929a4a9bdd72296cc8291eb6deb",
+        "stored_body_sha256": "32937137c2b5c1e19fbb53adabc2abd7a8c26929a4a9bdd72296cc8291eb6deb",
+        "redacted": false
+      }
+    ],
+    "indexed_results_not_latest_action_evidence": true
+  },
+  "fetch_reservations_this_cohort": 5,
+  "remaining_fetch_allowance": 0,
+  "scope": "Five new successful fetch invocations including one actual pydoll browser result. Search snippets are leads, domain membership is not relevance, and latest displayed actions do not establish complete legal disposition.",
+  "budget_scope": {
+    "config_sha256": "c7b2dd797d537263030e623844e7b8c24a80c83b1c79120fb6e42adefcfd8969",
+    "caps": {
+      "search_total": 10,
+      "exa": 5,
+      "serpapi": 5,
+      "fetch": 15
+    },
+    "all_retained_reservations_use_same_config": true,
+    "total_retained_reservations": {
+      "fetch": 15,
+      "exa": 2,
+      "serpapi": 1
+    },
+    "fetches_before_this_cohort": 10,
+    "fetches_in_this_cohort": 5,
+    "remaining_fetch_allowance": 0,
+    "scope": "Per-client invocation allowances, not a global campaign dollar or browser HTTP-subrequest cap."
+  }
+}

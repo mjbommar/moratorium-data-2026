@@ -1,0 +1,29 @@
+{
+  "reviews": [
+    {
+      "model": "gpt-6.1-terra",
+      "session_id": "01a1b36d-9542-7032-92ba-49970cb8b8f2",
+      "state": "terminal",
+      "exit_code": 0,
+      "private_report": "/data0/moratorium-refresh-2026/frozen-domain-evaluation/ca-wave3-status-review.private.txt",
+      "report_sha256": "bad0205ebbcd8f9a46a2f0144c79901dbc397dc8ac103b2a0ab0f2617b959d80"
+    },
+    {
+      "model": "gpt-6.1-terra",
+      "session_id": "01a1b36d-9a24-7c11-9335-4a8da0ba4d2a",
+      "state": "terminal",
+      "exit_code": 0,
+      "private_report": "/data0/moratorium-refresh-2026/frozen-domain-evaluation/ca-wave3-provenance-review.private.txt",
+      "report_sha256": "567ff6a125021293260cfd388fdfb1a802a461163f0cb1d323df0d09aa5ea54f"
+    }
+  ],
+  "scope": "Two read-only local source/provenance reviews; coordinator added requested direct status-page citations without changing proposed field values. No further API calls by reviewers.",
+  "findings": [
+    "Five source body/text pairs and exact sessions verified",
+    "AB2170 and AB222 active-process labels are source-attributed, not legal finality",
+    "SB978 has fresh history only; no active label is inferred",
+    "Exa wrong-bill hits excluded and stale excerpts retained only as leads",
+    "Fetch allowance consumed without configuration change",
+    "Ultimate dispositions and broader substantive/current-force review remain unresolved"
+  ]
+}
