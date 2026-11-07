@@ -219,15 +219,15 @@ State policy is tracked separately: **9 records** (9 typed bill rows) in [`state
 - **Recorded status:** 🟢 Extended
 - **Date enacted:** 2026-02-02
 - **Normalized date:** `2026-02-02` (exact)
-- **Duration:** Original 90-day term (to 2026-05-02) extended by Board action (FA040-2026, 2026-05-04); per the July 6, 2026 regular-meeting minutes the moratorium remains in effect until 2026-12-31.
-- **Current end date:** `2026-12-31`
+- **Duration:** Original Resolution 26-R-01 established a three-month moratorium, effective on adoption and scheduled to expire May 2, 2026 unless properly extended beforehand. May 4 draft minutes describe approval of a new six-month moratorium replacing the expired original; its operative end date is unverified.
+- **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `ga-brooks-county-2026`
-- **Legal basis:** Resolution 26-R-01
+- **Legal basis:** Brooks County Resolution 26-R-01, adopted and effective February 2, 2026; the May 4 draft minutes describe a new six-month moratorium replacing the expired original (FA040-2026). The successor instrument and its number were not located in this review.
 - **What prompted it:** County wanted fact-finding time on safety concerns and regulation of data center facilities
 - **Affected projects:** No specific project identified in captured records
-- **Detailed status:** Active/extended as of 2026-09-23; July 6, 2026 Board minutes (item FA068-2026, Data Center Ordinance) state the moratorium remains in effect until 2026-12-31 while a five-member committee (including two commissioners) drafts a permanent data center ordinance; a committee-creation item was on the July 27 work session. No ordinance adoption appears in the August 3 or August 31 minutes or the September 8 agenda.
-- **Outcome:** Study/drafting period ongoing as of 2026-06-29; Board directed staff to draft specific criteria for a permanent data center ordinance, teed up for the July 6, 2026 meeting. Final adoption status not confirmed as of 2026-07-31.
+- **Detailed status:** May 4, 2026 draft minutes describe a new six-month moratorium replacing the expired original; approved minutes and the operative successor instrument remain unverified. July 6 draft minutes state a moratorium remains in effect until December 31, but the draft does not establish an adopted end date or current legal force. Subsequent operative action and current force are unverified. [VERIFY successor instrument, operative end date and subsequent actions] The inherited extended classification is historical, not a renewed finding of current force.
+- **Outcome:** May 4 draft minutes describe approval of a new six-month moratorium replacing the expired original. July 6 draft minutes describe development of a data center ordinance; later adoption and current force were not established in this review.
 
 ### Bulloch County
 
@@ -249,17 +249,17 @@ State policy is tracked separately: **9 records** (9 typed bill rows) in [`state
 
 - **Type:** City
 - **Recorded status:** 🟢 Extended
-- **Date enacted:** 2026-04-27 (Calhoun City Council unanimously passed a 90-day preemptive moratorium resolution at its Monday April 27, 2026 meeting, running through at least July 27); extended six additional months by unanimous (3-0) council vote on 2026-06-08 after a public hearing
+- **Date enacted:** 2026-04-27 (the City Council approved a temporary emergency data center moratorium resolution); on 2026-06-08 the Council approved an extension during a zoning public hearing.
 - **Normalized date:** `2026-04-27` (exact)
-- **Duration:** Extended through the second council meeting in January 2027, identified in the minutes as 2027-01-25
+- **Duration:** Original resolution ran through close of business July 27, 2026, unless repealed, revoked or modified earlier. June 8 minutes record an extension until the second January 2027 meeting, January 25, 2027.
 - **Current end date:** `2027-01-25`
 - **Sectors:** data center
 - **Moratorium ID:** `ga-calhoun-gordon-county-undated`
-- **Legal basis:** Calhoun City Council resolution (adopted unanimously 2026-04-27) halting all applications for zoning decisions, land disturbance permits and licenses for data centers; extended by council vote following a public hearing on 2026-06-08. Resolution numbers not published in sources reviewed.
+- **Legal basis:** Calhoun City Council resolution adopted April 27, 2026, restricting specified applications and decisions for new or expanded data centers; the June 8, 2026 minutes record approval of an extension. No resolution number appears in the reviewed original text; no separate extension instrument was located in this review.
 - **What prompted it:** regulatory_gap
 - **Affected projects:** —
-- **Detailed status:** Active/extended as of 2026-09-23; moratorium runs through 2027-01-25 (last week of January 2027) per the June 8 extension; no replacement ordinance reported.
-- **Outcome:** City Council unanimously extended its data center moratorium for six additional months after a public hearing at which several residents opposed data centers
+- **Detailed status:** June 8, 2026 signed minutes record an extension until January 25, 2027; subsequent action and current force have not been established in this review. [VERIFY subsequent actions and current force] The inherited extended classification is historical, not a renewed finding of current force.
+- **Outcome:** During a June 8 zoning public hearing, residents expressed opposition to data centers and the Council unanimously approved an extension; the minutes then record approval of the zoning ordinance presented at that hearing. The effect of that ordinance on the moratorium has not been established in this review.
 
 ### Camden County
 

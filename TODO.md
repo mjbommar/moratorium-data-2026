@@ -480,3 +480,5 @@ Exit: repeatable refresh with visible freshness, costs, failures and unresolved 
 - [x] Complete independent peer disposition enumeration for all twelve Georgia rows (312 fields); retain exact review hashes and per-packet counts in `work/research/2026-11-07/georgia-twelve-field-assessment/independent-review-coverage.json`. This closes review coverage only; coordinator correction adjudication and source/current-force gaps remain open.
 
 - [x] Apply first two Georgia peer correction packets after independent source adjudication and full-row guards: 27 cells/six records including derived flags (`work/research/2026-11-07/georgia-peer-corrections/`). Third packet, original instrument/history gaps and comprehensive freshness remain open.
+
+- [x] Recover and adjudicate actual signed Brooks/Calhoun originals and Calhoun extension minutes; apply 16 cells/two rows, preserve supported exact adoption dates and Calhoun January 25 endpoint, and qualify both Brooks draft-minute versions (`work/research/2026-11-07/georgia-recovered-originals/`). Current force, Brooks successor act and the Calhoun zoning transition remain unresolved.

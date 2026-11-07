@@ -11,3 +11,5 @@ No additional record, measure, event or original-term queue closure results from
 ## Independent review checkpoint
 
 All three independent peer packets now contain 104 dispositions each, covering the full 12-record/312-field assignment. See independent-review-coverage.json for exact private review hashes, record IDs, disposition counts and outstanding proposal counts. This completes peer enumeration; coordinator adjudication of proposed corrections remains open. Unsupported facts and legal-force gaps remain unresolved.
+
+Coordinator followup applied the [first two peer correction packets](../georgia-peer-corrections/README.md) and then [recovered the actual Brooks/Calhoun originals](../georgia-recovered-originals/README.md). The recovered signed sources supersede the third packet’s source-limited date and endpoint proposals; neither recommendation was applied blindly. This closes adjudication of those listed proposals, while the ledgers’ other source gaps and full current-force review remain open.
