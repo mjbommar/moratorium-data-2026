@@ -1,0 +1,11 @@
+# Prospective source-exposure audit
+
+The audit checks the six recovered Virginia prints against all four failed paid extraction protocols and records source acquisition, code and review chronology. The prints are candidates for a prospectively controlled, source-reference-reviewed holdout; they are not claimed historically unseen to every reviewer or absent from model training. Exact-hash differences do not exclude equivalent encodings or undocumented exposure.
+
+The bounded source-availability matrix identifies target prints or memos for 22/22 PA records and 9/18 VA records. This descriptive 31/40 count concerns specifically identified target documents, not every relevant version, legal force, discovery recall or extraction accuracy. Missing target versions remain named; an official summary or companion act is not substituted for its target print. Forty full-field reviews are not an accuracy benchmark.
+
+After this audit, the input-context defect was fixed in `73da3bf` using synthetic fixtures in an isolated CLI worktree whose task excluded research and holdout files. The experimental request now includes supplied title and reviewed source role. This establishes input availability, not a causal explanation for the failed trials or improved model quality. No historical output, scoring or spent namespace was changed.
+
+A separate reference-inventory job is preparing all six candidates, including compound qualifications, amendment-markup limitations, the reenacted-code boundary and family clustering. No new paid extraction evaluation has run. Complete references, eligibility/access history, method pins, thresholds, transport/pricing assumptions, request limits and a new persistent allocation must be fixed before execution under the existing goal authorization. Historical allocations are not refilled. P4's electoral/council coverage, discovery denominator, metrics and quality gates remain open.
+
+A subsequent synthetic check in `b83f09d` flags a proposed-source/enacted-text conflict without changing raw labels. Native archive continuity is now exercised through two actual native-store observations and source-bound quote auditing. These close specific mechanics, not source entailment or the extraction-quality gate.

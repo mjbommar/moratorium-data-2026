@@ -1,0 +1,382 @@
+{
+  "scope": "Seattle all26fields independentlyassessed; datedhearingadded, currentforce/laterhistory/projectscope unresolved.",
+  "review_date": "2026-11-07",
+  "target_cutoff": "2026-11-07T13:38:39.877065Z",
+  "moratorium_id": "wa-seattle-2026",
+  "reviewed_inventory_sha256": "acd665e9754f16dba3cfdcd8d095266e8b0272435a34f03a4a69b055c7dc2727",
+  "reviewed_row_sha256": "499e8435b5e653ffc8c00d178952f594c6c14c6b308a9549697b125037c25fb0",
+  "current_row_sha256": "a0568d7d463576021df512f1425bf642b1c08166f634a2ea9c1365ee18563d40",
+  "outcome": "researched_unresolved",
+  "fields": {
+    "state": {
+      "reviewed_value_sha256": "6b9031df058346a877deaba0a830b576fa81b9da8692e183e4eb4c9dc949054c",
+      "independent_disposition": "supported_identity",
+      "qualification": "The signed city act establishes Seattle identity; WA is supported by the official City Clerk jurisdiction context, not by a state-boundary test.",
+      "evidence_refs": [
+        "identity"
+      ]
+    },
+    "state_abbrev": {
+      "reviewed_value_sha256": "d8689b62711dced3f13e45048ffff01759c9f65cc55206b3e95c054826f7f596",
+      "independent_disposition": "supported_identity",
+      "qualification": "WA is the inventory abbreviation for Washington; no separate geographic crosswalk was acquired.",
+      "evidence_refs": [
+        "identity"
+      ]
+    },
+    "jurisdiction": {
+      "reviewed_value_sha256": "39b135011fbde1151dd6793c6ce1adccc49a51246c968ed64d37f775868b36db",
+      "independent_disposition": "supported_original",
+      "qualification": "City of Seattle acts citywide; this does not establish a boundary geometry.",
+      "evidence_refs": [
+        "identity",
+        "scope"
+      ]
+    },
+    "jurisdiction_type": {
+      "reviewed_value_sha256": "fc33f73246f48295702f404001e74d56f14d2f82689b2816422dc1a4c2ec4fb2",
+      "independent_disposition": "supported_original",
+      "qualification": "The source names The City of Seattle.",
+      "evidence_refs": [
+        "identity"
+      ]
+    },
+    "date_enacted": {
+      "reviewed_value_sha256": "68bf99ed4b74efa7e02d9a00b6648cbb81d62a3ef635168b75e007d4e2d304dc",
+      "independent_disposition": "supported_original",
+      "qualification": "Council passage and mayor approval are distinct; exact original vote is 9\u20130, not the emergency threshold.",
+      "evidence_refs": [
+        "vote_date",
+        "vote",
+        "mayor",
+        "effect"
+      ]
+    },
+    "duration": {
+      "reviewed_value_sha256": "01815800175e95e5de7a449193bcdd565eef5ba5eb8bd27cc0f2cbb64111086b",
+      "independent_disposition": "supported_original_current_gap",
+      "qualification": "Original 365 days and conditional renewal/earlier termination; actual later acts and operative endpoint remain unresolved.",
+      "evidence_refs": [
+        "term",
+        "effect"
+      ]
+    },
+    "legal_basis": {
+      "reviewed_value_sha256": "edf51459f7182ca3144593bc9cb0653ce9aae2052bc02d98589c0b6bb580bc5b",
+      "independent_disposition": "supported_original_current_gap",
+      "qualification": "Sections 2\u20133 and 6, signed ordinance; subsequent amendment not excluded by title searches.",
+      "evidence_refs": [
+        "scope",
+        "threshold"
+      ]
+    },
+    "trigger": {
+      "reviewed_value_sha256": "b92546f7c3189b7674dc8cbbb6d418ac937fcddf484fb6ccb912f7ca89b764d7",
+      "independent_disposition": "supported_original",
+      "qualification": "Company interest and impacts are findings, not proof any named application is covered.",
+      "evidence_refs": [
+        "finding"
+      ]
+    },
+    "current_status": {
+      "reviewed_value_sha256": "395d38dfb2a7f243a1421f597844d914218826bc65a4e325da5adc5cceb56322",
+      "independent_disposition": "qualified_gap",
+      "qualification": "Original adoption established; present enforceability and intervening acts unresolved, regardless of legacy active label.",
+      "evidence_refs": [
+        "vote_date",
+        "mayor",
+        "browser_history"
+      ]
+    },
+    "affected_projects": {
+      "reviewed_value_sha256": "3740d3288eb26c7675081d65d5e77086f9218fa720c2084870887ff5cc3fa26b",
+      "independent_disposition": "appropriately_qualified_gap",
+      "qualification": "Source confirms several companies expressed interest, not the count, MW, named facilities, vesting or applicability.",
+      "evidence_refs": [
+        "finding"
+      ]
+    },
+    "outcome": {
+      "reviewed_value_sha256": "587283eefd41a446e15b6894e031789554c89c8224a37f037d7c28d6c26b0672",
+      "independent_disposition": "supported_but_omits_hearing",
+      "qualification": "Original work-plan deadlines are directives, not delivery. The hearing addition is supported by matched API matter 17338 and its history; omission alone does not make the old account false. Resolution terms and later legal force remain open.",
+      "evidence_refs": [
+        "work",
+        "hearing_title",
+        "hearing_event",
+        "rates_title"
+      ],
+      "current_value_sha256": "885ce4dc7f3f1a8dfccd90e347783c87b10b01032fc5c8c8ae9f3a7c487d29fc",
+      "accepted_correction": "work/audit/apply-20261107T094427.json"
+    },
+    "has_verify_tags": {
+      "reviewed_value_sha256": "60a33e6cf5151f2d52eddae9685cfa270426aa89d8dbc7dfb854606f1d1a40fe",
+      "independent_disposition": "row_metadata",
+      "qualification": "False describes row markers, not legal verification; marker convention is scripts/apply_research.py.",
+      "evidence_refs": [
+        "row"
+      ]
+    },
+    "verify_count": {
+      "reviewed_value_sha256": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+      "independent_disposition": "row_metadata",
+      "qualification": "Zero describes row verification markers, not a count of evidence sources.",
+      "evidence_refs": [
+        "row"
+      ]
+    },
+    "cite_count": {
+      "reviewed_value_sha256": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+      "independent_disposition": "row_metadata",
+      "qualification": "Zero is a legacy citation-marker count per docs/codebook.md, not absence of source evidence.",
+      "evidence_refs": [
+        "row"
+      ]
+    },
+    "activity_level": {
+      "reviewed_value_sha256": "8e588cd187741f1cd76f5fab77b7208782a8c21d764ce7d7a4cf3ac4e0968873",
+      "independent_disposition": "state_metadata_gap",
+      "qualification": "Medium is a Washington-wide classification, not Seattle legal force; the state-level underlying scoring/freshness was not established by this instrument review.",
+      "evidence_refs": [
+        "row"
+      ]
+    },
+    "enacted_status": {
+      "reviewed_value_sha256": "96879611650f80a81392a52e0db9b0237669087c4518e1c130e541a505e0eeef",
+      "independent_disposition": "legacy_classification_force_gap",
+      "qualification": "Retain recorded active as historical inventory classification; present force and intervening acts are unknown. No new legacy enum is required.",
+      "evidence_refs": [
+        "row",
+        "browser_history"
+      ]
+    },
+    "moratorium_id": {
+      "reviewed_value_sha256": "ac50644401dd72211320ff8c368e7a48c0e4d7dd8f86ce9b3955326e6b9e3007",
+      "independent_disposition": "supported_registry_identity",
+      "qualification": "Current survivor; legacy registry records retired alias wa-seattle-2026-2. Internal ID is not itself a legislative identifier.",
+      "evidence_refs": [
+        "identity",
+        "registry"
+      ]
+    },
+    "latitude": {
+      "reviewed_value_sha256": "c84a6a71d4519d7e51736f338aa64fe6797009306048c67725bd6c9521aaac3c",
+      "independent_disposition": "geographic_provenance_gap",
+      "qualification": "47.617708 is an existing representative point; no source ties it to a verified city reference point or legal boundary.",
+      "evidence_refs": [
+        "row"
+      ]
+    },
+    "longitude": {
+      "reviewed_value_sha256": "78eedfad48c8fc310dacc33cccfac45f5b740267bd08d912cee5e1edb1079f86",
+      "independent_disposition": "geographic_provenance_gap",
+      "qualification": "-122.344462 is an existing representative point; no source ties it to a verified city reference point or legal boundary.",
+      "evidence_refs": [
+        "row"
+      ]
+    },
+    "date_enacted_iso": {
+      "reviewed_value_sha256": "942468ef45d6f3cd2262bc9fed3fd2841d1237aededef96e5ea8ebbe9280c64e",
+      "independent_disposition": "supported_original",
+      "qualification": "2026-06-09 is council passage, not the mayoral approval date.",
+      "evidence_refs": [
+        "vote_date",
+        "vote"
+      ]
+    },
+    "date_enacted_uncertainty": {
+      "reviewed_value_sha256": "fa79d4746c21cd960a17b92db8976ddef95a7e20b590721f8e0fa7847a05e486",
+      "independent_disposition": "supported_original",
+      "qualification": "Exact council passage date is recorded in clerk summary.",
+      "evidence_refs": [
+        "vote_date",
+        "vote"
+      ]
+    },
+    "duration_days": {
+      "reviewed_value_sha256": "4e47eb5525df25f94da777993dafa41d9ab2bfa80a89e28f76d42cd46ab082e7",
+      "independent_disposition": "supported_original_current_gap",
+      "qualification": "365 is the initial statutory term; it is not a measured current remaining term.",
+      "evidence_refs": [
+        "term"
+      ]
+    },
+    "duration_kind": {
+      "reviewed_value_sha256": "ef76c331bbda0b96cfbb162e6674ff093bc15936bfccd2917fc88e4ad30d83bd",
+      "independent_disposition": "supported_original_current_gap",
+      "qualification": "Original term is fixed days; this does not prove the operative end.",
+      "evidence_refs": [
+        "term"
+      ]
+    },
+    "current_end_date_iso": {
+      "reviewed_value_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "independent_disposition": "appropriate_blank_gap",
+      "qualification": "No specific operative endpoint is established through cutoff; maintain blank pending intervening-act and enforceability review.",
+      "evidence_refs": [
+        "term",
+        "effect"
+      ]
+    },
+    "sectors": {
+      "reviewed_value_sha256": "18aab0ff816aa656dcfbd21a69420b3e412150d9a18921282bd0ff26869b4a1d",
+      "independent_disposition": "supported_original",
+      "qualification": "Ordinance targets data centers as defined in section 3; does not establish coverage of specific facilities.",
+      "evidence_refs": [
+        "scope",
+        "threshold"
+      ]
+    },
+    "trigger_categories": {
+      "reviewed_value_sha256": "1b4c77266f891717adcaeb8a0b8fff1323b523d6caa87128f7362b197b531c50",
+      "independent_disposition": "partially_supported_gap",
+      "qualification": "Infrastructure, environment and grid concerns appear in findings. specific_project is unsubstantiated by these sources; category rules and project evidence need review before removing or accepting it.",
+      "evidence_refs": [
+        "finding"
+      ]
+    }
+  },
+  "source_hashes": {
+    "ordinance_pdf": {
+      "sha256": "67ba32830dc4e494921171e35e03cb8ffc5a0656d25894194df84b2b16cc18b3"
+    },
+    "summary_pdf": {
+      "sha256": "1d317e8439a8a542710981a3d62176a3f1bb373f88d552e83b9391e13c306f4a"
+    },
+    "ordinance_text": {
+      "sha256": "10544f79aa00af6725bb443fc3294cbe80559117746a40c557d93b32b890defb"
+    },
+    "summary_text": {
+      "sha256": "86bda0de04c25e7607921014580d0a4bc59698ef232805ae8dce30084053ab30"
+    },
+    "legistar_body": {
+      "sha256": "3ce19f0cdc10ccb3609e79ad32b5e07ddd82c5a32118523d61cd27ba11b6c7ab"
+    },
+    "legistar_text": {
+      "sha256": "71baa7a9b86667fad13a2b579d7978fda04fe5eb0fdd45896b1cceeabd7ac4a2"
+    },
+    "title_query_data_center": {
+      "sha256": "6195909f5d085d425ce6f8de3666df7f4f704e8877618babdc7589d89fccd621"
+    },
+    "title_query_127447": {
+      "sha256": "63ae06fdcc268170a6312c52e6a75c0a88153573977667a20953ff142c6a63da"
+    },
+    "hearing_history": {
+      "sha256": "5721a0c62b7943de5661cb72b552dde2e3938169afae1d936b02f10f54a20469"
+    },
+    "rates_history": {
+      "sha256": "51366036933925e739d00d27598468fc5598ab4602e686be565522161ac370ba"
+    },
+    "attempt_ledger": {
+      "sha256": "de7e10288ee2136fc0ec25e83c88a8101ee78f16a0a060494daf32c951933cfb"
+    },
+    "alias_registry": {
+      "sha256": "4f8f926755498442254f9a68272d68ecf62b7f7af731a598d7973f9e654b504b"
+    }
+  },
+  "source_span_references": {
+    "identity": {
+      "source": "ordinance",
+      "start": 102,
+      "end": 162
+    },
+    "finding": {
+      "source": "ordinance",
+      "start": 941,
+      "end": 1032
+    },
+    "scope": {
+      "source": "ordinance",
+      "start": 4492,
+      "end": 4638
+    },
+    "term": {
+      "source": "ordinance",
+      "start": 7402,
+      "end": 7486
+    },
+    "effect": {
+      "source": "ordinance",
+      "start": 8369,
+      "end": 8445
+    },
+    "vote": {
+      "source": "summary",
+      "start": 2430,
+      "end": 2503
+    },
+    "vote_date": {
+      "source": "summary",
+      "start": 2399,
+      "end": 2421
+    },
+    "mayor": {
+      "source": "summary",
+      "start": 2726,
+      "end": 2743
+    },
+    "browser_history": {
+      "source": "browser",
+      "start": 956,
+      "end": 991
+    },
+    "hearing_title": {
+      "source": "matters",
+      "start": 13807,
+      "end": 13885
+    },
+    "hearing_event": {
+      "source": "hearing",
+      "start": 280,
+      "end": 565
+    },
+    "rates_title": {
+      "source": "matters",
+      "start": 11370,
+      "end": 11500
+    },
+    "work": {
+      "source": "ordinance",
+      "start": 10090,
+      "end": 10173
+    },
+    "threshold": {
+      "source": "ordinance",
+      "start": 5740,
+      "end": 5780
+    }
+  },
+  "private_independent_review_sha256": "0cadf7312124685253ebe93d275d4ae8690b9cd2e6af8b08fa39db28234730cc",
+  "private_acquisition_receipt_sha256": "d56746a0243257c084b070f470eb461491b9e6ac72b20c6ffa7fee3f77cc092f",
+  "hearing_identity": {
+    "matter_id": 17338,
+    "file": "Inf2922",
+    "title": "Data Center Moratorium Public Hearing (Council Bill121214 / Ordinance127447)",
+    "action": "heard in Committee",
+    "body": "Land Use and Sustainability Committee",
+    "date": "2026-07-15",
+    "passed_flag": null
+  },
+  "archive": {
+    "new_versions": 5,
+    "native_observation_ids": [
+      "088ed43aa603990d",
+      "0a11e377ca658a7b",
+      "70584459bd0f13bb",
+      "d77c86d85e3ccd72",
+      "ea88e05683f85a80"
+    ],
+    "replay_new_versions": 0,
+    "global_manifest_records": 6811,
+    "global_eligible_verified_body_records": 3369,
+    "global_body_gap_records": 3442,
+    "private_native_mapping_sha256": "a10f30b6a20ccd2e09d38d5db0fb103583aef1002509d8344303151ebd7b0a9a",
+    "private_global_inventory_sha256": "e223b87f34a06892bc97ada85b37ba2e681b99aeb707adba9491cac4cf4cdb74"
+  },
+  "limits": [
+    "Retained PDF and extraction are the same clerk source family, not independent institutions.",
+    "Section 4/9 PDF layout independently checked due to extraction ordering.",
+    "No inference of present force, endpoint, work-plan delivery, or project applicability. Search inability to find an extension is not proof of absence.",
+    "Full goal and P4 extension case remain open."
+  ]
+}

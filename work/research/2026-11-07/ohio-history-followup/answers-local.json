@@ -1,0 +1,37 @@
+{
+  "state_abbrev": "OH",
+  "researched_as_of": "2026-11-07",
+  "researcher": "Coordinator source-bound qualification after full26field independent Terra review",
+  "decisions": [
+    {
+      "moratorium_id": "oh-grove-city-2026",
+      "outcome": "corrected",
+      "changes": {
+        "legal_basis": {
+          "from": "City Council emergency ordinance; Ordinance C-22-26, passed 6-1",
+          "to": "Official agenda proposal for emergency Ordinance C-22-26; June 1 reporting describes a 6-1 approval. Executed final ordinance and effective date require verification.",
+          "reason": "Independent source review distinguishes official agenda proposal and reported council vote from executed final text and operative effect; no contrary outcome inferred."
+        },
+        "outcome": {
+          "from": "Adopted 6-1 as an emergency measure; imposes a 12-month moratorium on establishment, development, processing, review, and approval of high-density computing facilities",
+          "to": "June 1 reporting describes a 6-1 approval of a one-year pause. Proposed C-22-26 describes a 12-month moratorium on high-density computing facility applications and related processes; executed final wording, operative interval and subsequent actions require verification.",
+          "reason": "Independent source review distinguishes official agenda proposal and reported council vote from executed final text and operative effect; no contrary outcome inferred."
+        }
+      },
+      "confidence": 0.95,
+      "evidence": [
+        {
+          "url": "https://grovecityoh.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=6027,plainText=true)",
+          "source_type": "other",
+          "supports": "Official C22proposal with blank Passed/Effective lines, plus separately attributed June1report of6-1vote; no authenticated final interval or current force."
+        },
+        {
+          "url": "https://abc6onyourside.com/news/local/grove-city-council-approves-1-year-pause-on-data-centers-after-packed-meeting",
+          "source_type": "news",
+          "supports": "Official C22proposal with blank Passed/Effective lines, plus separately attributed June1report of6-1vote; no authenticated final interval or current force."
+        }
+      ],
+      "notes": "All26fields assessed. Preserve stableID, dates, classification, priorgeography and every unlistedfield. No Piqua/GroveCity predecessor/charter link or operative ban created."
+    }
+  ]
+}

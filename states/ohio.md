@@ -1064,11 +1064,11 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 - **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `oh-grove-city-2026`
-- **Legal basis:** City Council emergency ordinance; Ordinance C-22-26, passed 6-1
+- **Legal basis:** Official agenda proposal for emergency Ordinance C-22-26; June 1 reporting describes a 6-1 approval. Executed final ordinance and effective date require verification.
 - **What prompted it:** Resident concern following reports of an in-development Stream Data Centers project near Rensch Road/Harrisburg Pike, though the city attorney said no application had been filed; council sought time for policy review, infrastructure analysis, and public engagement
 - **Affected projects:** Stream Data Centers site near Rensch Road/Harrisburg Pike (no application filed as of May 2026)
 - **Detailed status:** June 1 reporting describes 6-1 approval and a one-year pause. The official packet contains proposed C-22-26 with a twelve-month term and cryptocurrency language, but executed final wording and later action remain unresolved; proposed sector language is not promoted as enacted scope. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
-- **Outcome:** Adopted 6-1 as an emergency measure; imposes a 12-month moratorium on establishment, development, processing, review, and approval of high-density computing facilities
+- **Outcome:** June 1 reporting describes a 6-1 approval of a one-year pause. Proposed C-22-26 describes a 12-month moratorium on high-density computing facility applications and related processes; executed final wording, operative interval and subsequent actions require verification.
 
 ### Hamilton Township (Warren County)
 

@@ -1,0 +1,13 @@
+# Seattle: full-field and council-history followup
+
+All 26 current Seattle fields received substantive assessment and independent review against retained signed acts and newly retrieved legislative records. The record remains **researched, unresolved**: original adoption is supported, while current force, later amendments/extension/repeal, operative endpoint, project applicability and other named provenance gaps remain open. Existing dates, duration encoding, status classification, coordinates, survivor ID and retired alias are preserved.
+
+One guarded correction adds the July 15, 2026 public hearing to the outcome narrative. The coordinator parsed the actual city legislative API: matter 17338 is Inf 2922, titled as the public hearing for CB121214 / Ordinance127447, and its history records “heard in Committee” by Land Use and Sustainability Committee. Its passed flag is null. This is not an extension vote. The separate electricity-rate act CB121231 / Ordinance127473 is not merged into the moratorium history. Title queries are limited and do not prove no other action exists.
+
+The exact old cell and whole-row/inventory fingerprints matched before the standard apply pipeline changed one field. The [answer](answers-local.json), [apply receipt](../../../audit/apply-20261107T094427.json) and [field review](field-review.json) retain the change and all qualifications. No rows or headline totals changed. Work-plan directives remain distinct from delivered work; no current end date or force was inferred from original term arithmetic.
+
+The bounded acquisition used one Exa and one SerpAPI search and five fetches: one actual pydoll browser rendering and four HTTP fetches. The browser returned HTTP200 and 3,418 extracted characters. Exa reported $0.007; SerpAPI, browser/fetch and total invoice costs remain unknown. Fixed caps were not refilled, retries were disabled and no paid LLM extraction ran. All original responses, provider exchanges and raw source text remain private.
+
+Five new source versions were archived and replayed without additions, then mapped to five native observations. Global legacy-manifest inventory is 6,811 rows, 3,369 eligible rows with verified retained bodies, and 3,442 unresolved body-gap rows. These are source inventory counts, not legal freshness. The earlier signed ordinance and summary were reused; re-observation does not renew force.
+
+This supplies a supported council adoption and hearing, **not an authenticated extension**. The original P4 council-extension and predecessor/replacement requirements and the broader inventory/consumer/release work remain open.
