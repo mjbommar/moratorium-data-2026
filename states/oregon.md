@@ -5,7 +5,7 @@ Working inventory for Oregon, generated **November 5, 2026**. Record-level refre
 
 **5 instruments** — 4 in force, 1 pending, 0 past.
 
-State policy is tracked separately: **5 actions** (5 bills) in [`state_legislation.csv`](../data/state_legislation.csv). These are not included in the local count above.
+State policy is tracked separately: **5 records** (5 typed bill rows) in [`state_legislation.csv`](../data/state_legislation.csv). These are not included in the local count above.
 
 | Jurisdiction | Type | Enacted | Sectors | Status |
 |---|---|---|---|---|

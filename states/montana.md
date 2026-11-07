@@ -5,7 +5,7 @@ Working inventory for Montana, generated **November 5, 2026**. Record-level refr
 
 **2 instruments** — 1 in force, 1 pending, 0 past.
 
-State policy is tracked separately: **6 actions** (6 bills) in [`state_legislation.csv`](../data/state_legislation.csv). These are not included in the local count above.
+State policy is tracked separately: **6 records** (5 typed bill rows and 1 non-bill row) in [`state_legislation.csv`](../data/state_legislation.csv). These are not included in the local count above.
 
 | Jurisdiction | Type | Enacted | Sectors | Status |
 |---|---|---|---|---|

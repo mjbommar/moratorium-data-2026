@@ -5,7 +5,7 @@ Working inventory for North Dakota, generated **November 5, 2026**. Record-level
 
 **10 instruments** — 3 in force, 1 pending, 6 past.
 
-State policy is tracked separately: **2 actions** (2 bills) in [`state_legislation.csv`](../data/state_legislation.csv). These are not included in the local count above.
+State policy is tracked separately: **2 records** (2 typed bill rows) in [`state_legislation.csv`](../data/state_legislation.csv). These are not included in the local count above.
 
 | Jurisdiction | Type | Enacted | Sectors | Status |
 |---|---|---|---|---|

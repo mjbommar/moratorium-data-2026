@@ -5,7 +5,7 @@ Working inventory for Nebraska, generated **November 5, 2026**. Record-level ref
 
 **24 instruments** — 20 in force, 2 pending, 2 past.
 
-State policy is tracked separately: **11 actions** (11 bills) in [`state_legislation.csv`](../data/state_legislation.csv). These are not included in the local count above.
+State policy is tracked separately: **11 records** (11 typed bill rows) in [`state_legislation.csv`](../data/state_legislation.csv). These are not included in the local count above.
 
 | Jurisdiction | Type | Enacted | Sectors | Status |
 |---|---|---|---|---|

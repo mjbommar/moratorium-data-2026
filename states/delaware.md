@@ -5,7 +5,7 @@ Working inventory for Delaware, generated **November 5, 2026**. Record-level ref
 
 **3 instruments** — 0 in force, 1 pending, 2 past.
 
-State policy is tracked separately: **3 actions** (3 bills) in [`state_legislation.csv`](../data/state_legislation.csv). These are not included in the local count above.
+State policy is tracked separately: **3 records** (3 typed bill rows) in [`state_legislation.csv`](../data/state_legislation.csv). These are not included in the local count above.
 
 | Jurisdiction | Type | Enacted | Sectors | Status |
 |---|---|---|---|---|

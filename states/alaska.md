@@ -5,7 +5,7 @@ Working inventory for Alaska, generated **November 5, 2026**. Record-level refre
 
 **3 instruments** — 1 in force, 2 pending, 0 past.
 
-State policy is tracked separately: **3 actions** (3 bills) in [`state_legislation.csv`](../data/state_legislation.csv). These are not included in the local count above.
+State policy is tracked separately: **3 records** (2 typed bill rows and 1 non-bill row) in [`state_legislation.csv`](../data/state_legislation.csv). These are not included in the local count above.
 
 | Jurisdiction | Type | Enacted | Sectors | Status |
 |---|---|---|---|---|

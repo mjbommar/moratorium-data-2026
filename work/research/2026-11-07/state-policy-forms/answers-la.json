@@ -1,0 +1,28 @@
+{
+  "state_abbrev": "LA",
+  "researched_as_of": "2026-11-07",
+  "researcher": "Coordinator source-qualified legal-form migration with Terra CLI assistance",
+  "decisions": [
+    {
+      "bill_key": "LA:HCR61 (2025 RS)",
+      "outcome": "corrected",
+      "fields": {
+        "policy_instrument_type": "legislative_resolution"
+      },
+      "confidence": 0.99,
+      "evidence": [
+        {
+          "url": "https://www.legis.la.gov/legis/BillInfo.aspx?s=25RS&b=HCR61",
+          "source_type": "bill_text",
+          "supports": "Retained official source explicitly identifies this legislative form; identity and text/version scope retained in reviewed packet."
+        },
+        {
+          "url": "https://www.legis.la.gov/legis/BillInfo.aspx?s=25RS&b=HCR61",
+          "source_type": "bill_text",
+          "supports": "Retained official source explicitly identifies this legislative form; identity and text/version scope retained in reviewed packet."
+        }
+      ],
+      "notes": "Legal form only. Preserve ID, compound-row grain, status, dates, current-force fields and all other values. Memo association is not identity equality or text equivalence."
+    }
+  ]
+}

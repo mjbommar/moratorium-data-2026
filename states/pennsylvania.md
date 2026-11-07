@@ -5,7 +5,7 @@ Working inventory for Pennsylvania, generated **November 5, 2026**. Record-level
 
 **26 instruments** — 23 in force, 0 pending, 3 past.
 
-State policy is tracked separately: **22 actions** (22 bills) in [`state_legislation.csv`](../data/state_legislation.csv). These are not included in the local count above.
+State policy is tracked separately: **22 records** (18 typed bill rows and 4 non-bill rows) in [`state_legislation.csv`](../data/state_legislation.csv). These are not included in the local count above.
 
 | Jurisdiction | Type | Enacted | Sectors | Status |
 |---|---|---|---|---|

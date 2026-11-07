@@ -372,7 +372,7 @@ compatibility. Rows are normally bills, but binding executive orders, agency
 orders, regulations, and enacted statutes are recorded here too when they
 materially pause or restrict development, permitting, incentives, or the
 utility service on which a project depends.</p>
-<p>The legacy <code>bill</code> type also contains resolution subtypes and precursor memo rows linked to separately retained numbered bills. The row count is not a deduplicated count of independent bills or enacted restrictions. <a href="known-gaps.html#state-policy-precursors-and-legacy-types">State-policy grain gaps</a> identify the reviewed memo links and pending migration.</p>
+<p>Reviewed legislative resolutions and precursor memos now have separate <code>legislative_resolution</code> and <code>legislative_precursor</code> types. Memos can link to separately retained numbered bills without becoming the same instrument. Compound rows remain; this is not a deduplicated count of independent bills or enacted restrictions. <a href="known-gaps.html#state-policy-precursors-and-legacy-types">State-policy grain gaps</a> retain the associations and remaining identity/lineage work.</p>
 <p>This file tracks state-level actions that relate to moratoria or equivalent
 restrictions — statewide pauses; authority for or preemption of local pauses;
 permitting limits; utility large-load rules; incentive limits; and reporting or
@@ -449,7 +449,7 @@ unless it actually pauses local permitting.</p>
 </tr>
 <tr>
 <td><code>policy_instrument_type</code></td>
-<td>Legal form: <code>bill</code>, <code>executive_order</code>, <code>governor_directive</code>, <code>agency_order</code>, <code>regulation</code>, or <code>statute</code>.</td>
+<td>Legal form: <code>bill</code>, <code>legislative_resolution</code>, <code>legislative_precursor</code>, <code>executive_order</code>, <code>governor_directive</code>, <code>agency_order</code>, <code>regulation</code>, or <code>statute</code>. Resolution includes simple, joint and concurrent forms without implying enactment; precursor includes reviewed co-sponsorship memos without merging them with later bills.</td>
 <td><code>executive_order</code></td>
 </tr>
 <tr>
@@ -504,7 +504,7 @@ records the governing session context per state in the audit log under
 <p>Top-level keys:</p>
 <ul>
 <li><code>total_local_moratoria</code>: 1330 — total rows in the inventory</li>
-<li><code>total_state_bills</code>: 440 — rows using the legacy <code>bill</code> type in state_legislation.csv, including resolution subtypes and precursor memo rows awaiting migration; not a deduplicated independent-bill count</li>
+<li><code>total_state_bills</code>: 427 — rows using the <code>bill</code> type in state_legislation.csv, excluding separately typed resolutions and precursors; not a deduplicated independent-bill count</li>
 <li><code>total_state_policy_actions</code>: 442 — all state-policy rows, including binding non-bill actions</li>
 <li><code>states_with_moratoria</code>: 47</li>
 <li><code>states_without_moratoria</code>: 3</li>
@@ -563,6 +563,7 @@ assert len(records) == 348
 </ul>
 <h2 id="a-note-on-dates">A note on dates</h2>
 <p>Where possible, dates are ISO-8601 (<code>YYYY-MM-DD</code>). When a day is unknown but month+year are known, we use <code>YYYY-MM</code>. When only the year is known, <code>YYYY</code>. When the date is uncertain (sourced from news rather than minutes), we may write something like <code>2025-12-17 reported</code> or <code>January 2026 [VERIFY]</code>. Spreadsheet tools may need help parsing these; the <a href="https://github.com/mjbommar/moratorium-data-2026/tree/main/examples">repository's <code>examples/</code> directory</a> shows how.</p>
+<p><code>state_policy_instrument_type_counts</code> reports every legal-form row population. <code>top_states_by_bills</code> ranks only rows typed <code>bill</code>; <code>top_states_by_policy_actions</code> ranks all tracker rows. Older summary generation mislabeled the all-policy ranking as bills. Historical published statistics retain their original cohorts; current rankings use these corrected denominators.</p>
 </main>
 
 <footer>

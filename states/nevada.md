@@ -5,7 +5,7 @@ Working inventory for Nevada, generated **November 5, 2026**. Record-level refre
 
 **7 instruments** — 5 in force, 0 pending, 2 past.
 
-State policy is tracked separately: **7 actions** (7 bills) in [`state_legislation.csv`](../data/state_legislation.csv). These are not included in the local count above.
+State policy is tracked separately: **7 records** (7 typed bill rows) in [`state_legislation.csv`](../data/state_legislation.csv). These are not included in the local count above.
 
 | Jurisdiction | Type | Enacted | Sectors | Status |
 |---|---|---|---|---|

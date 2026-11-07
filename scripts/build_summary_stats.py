@@ -136,6 +136,7 @@ def build() -> dict:
         "total_local_moratoria": len(inv),
         "total_state_bills": len(bill_rows),
         "total_state_policy_actions": len(leg),
+        "state_policy_instrument_type_counts": dict(sorted(Counter(r.get("policy_instrument_type", "bill") for r in leg).items())),
         "states_by_activity_level": dict(
             Counter(state_details[s]["activity_level"] for s in ALL_STATES).most_common()
         ),
@@ -147,7 +148,8 @@ def build() -> dict:
         "top_states_by_moratoria": [
             {"state": s, "count": c} for s, c in inv_by_state.most_common(10)
         ],
-        "top_states_by_bills": [[s, c] for s, c in leg_by_state.most_common(15)],
+        "top_states_by_bills": [[s, c] for s, c in bills_by_state.most_common(15)],
+        "top_states_by_policy_actions": [[s, c] for s, c in leg_by_state.most_common(15)],
         "state_details": state_details,
         "enacted_status_breakdown": dict(
             Counter(r["enacted_status"] for r in inv).most_common()

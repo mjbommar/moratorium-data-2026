@@ -5,7 +5,7 @@ Working inventory for Virginia, generated **November 5, 2026**. Record-level ref
 
 **6 instruments** — 4 in force, 1 pending, 1 past.
 
-State policy is tracked separately: **18 actions** (18 bills) in [`state_legislation.csv`](../data/state_legislation.csv). These are not included in the local count above.
+State policy is tracked separately: **18 records** (18 typed bill rows) in [`state_legislation.csv`](../data/state_legislation.csv). These are not included in the local count above.
 
 | Jurisdiction | Type | Enacted | Sectors | Status |
 |---|---|---|---|---|

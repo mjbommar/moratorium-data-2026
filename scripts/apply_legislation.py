@@ -59,7 +59,8 @@ STATUS_CATEGORIES = {
     "enacted", "vetoed", "failed_died", "carried_over", "withdrawn", "unknown",
 }
 CHAMBERS = {"House", "Senate", "Assembly", "Joint", "unknown"}
-POLICY_INSTRUMENT_TYPES = {"bill", "executive_order", "governor_directive", "agency_order", "regulation", "statute"}
+POLICY_INSTRUMENT_TYPES = {"bill", "executive_order", "governor_directive", "agency_order", "regulation", "statute",
+                           "legislative_precursor", "legislative_resolution"}
 POLICY_MECHANISMS = {
     "statewide_moratorium", "local_moratorium_authorization",
     "local_moratorium_preemption", "permitting_restriction",

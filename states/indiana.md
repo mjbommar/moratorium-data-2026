@@ -5,7 +5,7 @@ Working inventory for Indiana, generated **November 5, 2026**. Record-level refr
 
 **35 instruments** — 24 in force, 4 pending, 7 past.
 
-State policy is tracked separately: **10 actions** (10 bills) in [`state_legislation.csv`](../data/state_legislation.csv). These are not included in the local count above.
+State policy is tracked separately: **10 records** (10 typed bill rows) in [`state_legislation.csv`](../data/state_legislation.csv). These are not included in the local count above.
 
 | Jurisdiction | Type | Enacted | Sectors | Status |
 |---|---|---|---|---|

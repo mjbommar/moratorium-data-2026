@@ -5,7 +5,7 @@ Working inventory for California, generated **November 5, 2026**. Record-level r
 
 **34 instruments** — 25 in force, 0 pending, 9 past.
 
-State policy is tracked separately: **14 actions** (14 bills) in [`state_legislation.csv`](../data/state_legislation.csv). These are not included in the local count above.
+State policy is tracked separately: **14 records** (14 typed bill rows) in [`state_legislation.csv`](../data/state_legislation.csv). These are not included in the local count above.
 
 | Jurisdiction | Type | Enacted | Sectors | Status |
 |---|---|---|---|---|

@@ -5,7 +5,7 @@ Working inventory for South Carolina, generated **November 5, 2026**. Record-lev
 
 **17 instruments** — 14 in force, 2 pending, 1 past.
 
-State policy is tracked separately: **7 actions** (7 bills) in [`state_legislation.csv`](../data/state_legislation.csv). These are not included in the local count above.
+State policy is tracked separately: **7 records** (7 typed bill rows) in [`state_legislation.csv`](../data/state_legislation.csv). These are not included in the local count above.
 
 | Jurisdiction | Type | Enacted | Sectors | Status |
 |---|---|---|---|---|

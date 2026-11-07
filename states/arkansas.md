@@ -5,7 +5,7 @@ Working inventory for Arkansas, generated **November 5, 2026**. Record-level ref
 
 **6 instruments** — 5 in force, 0 pending, 1 past.
 
-State policy is tracked separately: **7 actions** (7 bills) in [`state_legislation.csv`](../data/state_legislation.csv). These are not included in the local count above.
+State policy is tracked separately: **7 records** (6 typed bill rows and 1 non-bill row) in [`state_legislation.csv`](../data/state_legislation.csv). These are not included in the local count above.
 
 | Jurisdiction | Type | Enacted | Sectors | Status |
 |---|---|---|---|---|

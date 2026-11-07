@@ -5,7 +5,7 @@ Working inventory for Michigan, generated **November 5, 2026**. Record-level ref
 
 **148 instruments** — 133 in force, 4 pending, 11 past.
 
-State policy is tracked separately: **14 actions** (14 bills) in [`state_legislation.csv`](../data/state_legislation.csv). These are not included in the local count above.
+State policy is tracked separately: **14 records** (14 typed bill rows) in [`state_legislation.csv`](../data/state_legislation.csv). These are not included in the local count above.
 
 | Jurisdiction | Type | Enacted | Sectors | Status |
 |---|---|---|---|---|

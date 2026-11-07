@@ -1,0 +1,73 @@
+{
+  "source_cohort_date": "2026-11-05",
+  "scope": "Source-reviewed legal-form correction for three precursor memo rows and ten candidate resolution rows, including compound observations. No identity merges, automatic splitting, status/date/force changes or source reacquisition.",
+  "record_ids": [
+    "pa-proposed-zoning-consideration-period-memo-48467",
+    "pa-proposed-municipal-moratorium-memo-48540",
+    "pa-proposed-statewide-moratorium-memo-48102",
+    "ak-hcr-3-34th-leg-2025",
+    "hi-hcr206-2026",
+    "hi-scr95-sr90-2026",
+    "la-hcr61-2025-rs",
+    "mt-hj46-lc0933",
+    "tx-sjr-72-89r-2025",
+    "ar-sr7-sr12-and-hr1010-hr1015-2026-fiscal-session",
+    "hi-hr196-2026",
+    "nj-sr18-2026-2027",
+    "pa-sr185"
+  ],
+  "proposed_types": [
+    "legislative_precursor",
+    "legislative_resolution"
+  ],
+  "source_requirement": "Retained official primary source explicitly establishes the form. Labels/prefixes/search snippets alone do not qualify. Withhold missing proofs.",
+  "network_calls_authorized": "Only supplemental namespace: at most12 exact linked PDF fetches, no searches; all earlier jobs remain offline.",
+  "original_job_caps_unchanged": true,
+  "relation_scope": "Retain three reviewed memo-to-bill associations as non-identity links; typed canonical relationship migration is separately open.",
+  "jobs": [
+    {
+      "id": "policy-forms-precursors",
+      "record_ids": [
+        "pa-proposed-zoning-consideration-period-memo-48467",
+        "pa-proposed-municipal-moratorium-memo-48540",
+        "pa-proposed-statewide-moratorium-memo-48102"
+      ],
+      "prompt_sha256": "001a13714f0ecd5c0593559fd17fbe11e40fe96d84da0864274c04154a6d93fd",
+      "network_caps": 0
+    },
+    {
+      "id": "policy-forms-resolutions",
+      "record_ids": [
+        "ak-hcr-3-34th-leg-2025",
+        "hi-hcr206-2026",
+        "hi-scr95-sr90-2026",
+        "la-hcr61-2025-rs",
+        "mt-hj46-lc0933",
+        "tx-sjr-72-89r-2025"
+      ],
+      "prompt_sha256": "7747c7f20d3c75b115f2585183aec1aa0edebe7dcd7769825121b542836b61a3",
+      "network_caps": 0
+    },
+    {
+      "id": "policy-forms-contract",
+      "scope": "Code contract only; no canonical changes",
+      "network_caps": 0
+    }
+  ],
+  "additional_coordinator_candidates": [
+    "ar-sr7-sr12-and-hr1010-hr1015-2026-fiscal-session",
+    "hi-hr196-2026",
+    "nj-sr18-2026-2027",
+    "pa-sr185"
+  ],
+  "supplemental_acquisition": {
+    "id": "policy-forms-ar-originals",
+    "reason": "Original source detail pages identify the measures but do not explicitly spell out legal form; use twelve original text PDFs linked by their official anchors. No inference from prefix alone.",
+    "caps": {
+      "fetch": 12,
+      "search_total": 0
+    },
+    "original_caps_unchanged": true,
+    "links_sha256": "b6dfb69a2d35a939e9c8be65cb1c8219d97c42b5def99607081f67b49d933ebd"
+  }
+}

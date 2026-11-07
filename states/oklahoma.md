@@ -5,7 +5,7 @@ Working inventory for Oklahoma, generated **November 5, 2026**. Record-level ref
 
 **10 instruments** — 10 in force, 0 pending, 0 past.
 
-State policy is tracked separately: **12 actions** (12 bills) in [`state_legislation.csv`](../data/state_legislation.csv). These are not included in the local count above.
+State policy is tracked separately: **12 records** (12 typed bill rows) in [`state_legislation.csv`](../data/state_legislation.csv). These are not included in the local count above.
 
 | Jurisdiction | Type | Enacted | Sectors | Status |
 |---|---|---|---|---|

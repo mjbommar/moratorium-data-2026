@@ -5,7 +5,7 @@ Working inventory for North Carolina, generated **November 5, 2026**. Record-lev
 
 **70 instruments** — 58 in force, 5 pending, 7 past.
 
-State policy is tracked separately: **3 actions** (3 bills) in [`state_legislation.csv`](../data/state_legislation.csv). These are not included in the local count above.
+State policy is tracked separately: **3 records** (3 typed bill rows) in [`state_legislation.csv`](../data/state_legislation.csv). These are not included in the local count above.
 
 | Jurisdiction | Type | Enacted | Sectors | Status |
 |---|---|---|---|---|

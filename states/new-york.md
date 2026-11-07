@@ -5,7 +5,7 @@ Working inventory for New York, generated **November 5, 2026**. Record-level ref
 
 **152 instruments** — 110 in force, 6 pending, 36 past.
 
-State policy is tracked separately: **11 actions** (10 bills and 1 non-bill action) in [`state_legislation.csv`](../data/state_legislation.csv). These are not included in the local count above.
+State policy is tracked separately: **11 records** (10 typed bill rows and 1 non-bill row) in [`state_legislation.csv`](../data/state_legislation.csv). These are not included in the local count above.
 
 | Jurisdiction | Type | Enacted | Sectors | Status |
 |---|---|---|---|---|

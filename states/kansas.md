@@ -5,7 +5,7 @@ Working inventory for Kansas, generated **November 5, 2026**. Record-level refre
 
 **26 instruments** — 23 in force, 0 pending, 3 past.
 
-State policy is tracked separately: **12 actions** (12 bills) in [`state_legislation.csv`](../data/state_legislation.csv). These are not included in the local count above.
+State policy is tracked separately: **12 records** (12 typed bill rows) in [`state_legislation.csv`](../data/state_legislation.csv). These are not included in the local count above.
 
 | Jurisdiction | Type | Enacted | Sectors | Status |
 |---|---|---|---|---|

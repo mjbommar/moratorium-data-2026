@@ -5,7 +5,7 @@ Working inventory for Colorado, generated **November 5, 2026**. Record-level ref
 
 **34 instruments** — 25 in force, 3 pending, 6 past.
 
-State policy is tracked separately: **4 actions** (4 bills) in [`state_legislation.csv`](../data/state_legislation.csv). These are not included in the local count above.
+State policy is tracked separately: **4 records** (4 typed bill rows) in [`state_legislation.csv`](../data/state_legislation.csv). These are not included in the local count above.
 
 | Jurisdiction | Type | Enacted | Sectors | Status |
 |---|---|---|---|---|

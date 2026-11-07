@@ -82,7 +82,7 @@ orders, regulations, and enacted statutes are recorded here too when they
 materially pause or restrict development, permitting, incentives, or the
 utility service on which a project depends.
 
-The legacy `bill` type also contains resolution subtypes and precursor memo rows linked to separately retained numbered bills. The row count is not a deduplicated count of independent bills or enacted restrictions. [State-policy grain gaps](known-gaps.md#state-policy-precursors-and-legacy-types) identify the reviewed memo links and pending migration.
+Reviewed legislative resolutions and precursor memos now have separate `legislative_resolution` and `legislative_precursor` types. Memos can link to separately retained numbered bills without becoming the same instrument. Compound rows remain; this is not a deduplicated count of independent bills or enacted restrictions. [State-policy grain gaps](known-gaps.md#state-policy-precursors-and-legacy-types) retain the associations and remaining identity/lineage work.
 
 This file tracks state-level actions that relate to moratoria or equivalent
 restrictions — statewide pauses; authority for or preemption of local pauses;
@@ -104,7 +104,7 @@ unless it actually pauses local permitting.
 | `last_action_date_iso` | ISO date of the most recent recorded action on the bill. Empty when undetermined. | `2026-07-07` |
 | `chamber_of_origin` | Originating chamber: `House`, `Senate`, `Assembly` (California and New Jersey lower chambers), `Joint`, or `unknown`. | `Assembly` |
 | `policy_action_id` | Stable machine identifier for the policy instrument. Unlike the legacy display `bill` value, this never depends on a title format. | `ny-executive-order-no-62-2026` |
-| `policy_instrument_type` | Legal form: `bill`, `executive_order`, `governor_directive`, `agency_order`, `regulation`, or `statute`. | `executive_order` |
+| `policy_instrument_type` | Legal form: `bill`, `legislative_resolution`, `legislative_precursor`, `executive_order`, `governor_directive`, `agency_order`, `regulation`, or `statute`. Resolution includes simple, joint and concurrent forms without implying enactment; precursor includes reviewed co-sponsorship memos without merging them with later bills. | `executive_order` |
 | `policy_mechanism` | Typed effect: `statewide_moratorium`, `local_moratorium_authorization`, `local_moratorium_preemption`, `permitting_restriction`, `utility_large_load_restriction`, `incentive_restriction`, `incentive_support`, `reporting_disclosure`, or `other`. `incentive_support` covers creation or expansion of fiscal incentives, including failed proposals; it does not imply enactment. Restricting incentive eligibility is a separate mechanism. | `utility_large_load_restriction` |
 | `legal_effect_status` | Current operative state: `proposed`, `in_force`, `expired`, `superseded`, `failed`, `withdrawn`, or `unknown`. An enacted temporary measure is `unknown` until its current legal effect is checked. | `in_force` |
 | `scope_of_action` | Primary authority/surface affected: `statewide`, `state_agency`, `local_government`, `utility_grid`, `fiscal`, `mixed`, or `unknown`. | `state_agency` |
@@ -136,7 +136,7 @@ A single JSON object with top-level aggregates. Useful for embedding live counts
 Top-level keys:
 
 - `total_local_moratoria`: 1330 — total rows in the inventory
-- `total_state_bills`: 440 — rows using the legacy `bill` type in state_legislation.csv, including resolution subtypes and precursor memo rows awaiting migration; not a deduplicated independent-bill count
+- `total_state_bills`: 427 — rows using the `bill` type in state_legislation.csv, excluding separately typed resolutions and precursors; not a deduplicated independent-bill count
 - `total_state_policy_actions`: 442 — all state-policy rows, including binding non-bill actions
 - `states_with_moratoria`: 47
 - `states_without_moratoria`: 3
@@ -202,3 +202,5 @@ Fields:
 ## A note on dates
 
 Where possible, dates are ISO-8601 (`YYYY-MM-DD`). When a day is unknown but month+year are known, we use `YYYY-MM`. When only the year is known, `YYYY`. When the date is uncertain (sourced from news rather than minutes), we may write something like `2025-12-17 reported` or `January 2026 [VERIFY]`. Spreadsheet tools may need help parsing these; the [repository's `examples/` directory](https://github.com/mjbommar/moratorium-data-2026/tree/main/examples) shows how.
+
+`state_policy_instrument_type_counts` reports every legal-form row population. `top_states_by_bills` ranks only rows typed `bill`; `top_states_by_policy_actions` ranks all tracker rows. Older summary generation mislabeled the all-policy ranking as bills. Historical published statistics retain their original cohorts; current rankings use these corrected denominators.

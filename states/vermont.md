@@ -5,7 +5,7 @@ Working inventory for Vermont, generated **November 5, 2026**. Record-level refr
 
 **1 instrument** — 1 in force, 0 pending, 0 past.
 
-State policy is tracked separately: **2 actions** (2 bills) in [`state_legislation.csv`](../data/state_legislation.csv). These are not included in the local count above.
+State policy is tracked separately: **2 records** (2 typed bill rows) in [`state_legislation.csv`](../data/state_legislation.csv). These are not included in the local count above.
 
 | Jurisdiction | Type | Enacted | Sectors | Status |
 |---|---|---|---|---|

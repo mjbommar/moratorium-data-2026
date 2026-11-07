@@ -93,9 +93,9 @@ def state_page(
     other_count = len(policy_rows) - bill_count
     date_label = as_of.strftime("%B %-d, %Y")
     policy_note = (
-        f"State policy is tracked separately: **{len(policy_rows)} action{'s' if len(policy_rows) != 1 else ''}** "
-        f"({bill_count} bill{'s' if bill_count != 1 else ''}"
-        + (f" and {other_count} non-bill action{'s' if other_count != 1 else ''}" if other_count else "")
+        f"State policy is tracked separately: **{len(policy_rows)} record{'s' if len(policy_rows) != 1 else ''}** "
+        f"({bill_count} typed bill row{'s' if bill_count != 1 else ''}"
+        + (f" and {other_count} non-bill row{'s' if other_count != 1 else ''}" if other_count else "")
         + ") in [`state_legislation.csv`](../data/state_legislation.csv). "
         "These are not included in the local count above."
     )
@@ -159,7 +159,7 @@ def state_index(by_state: dict[str, list[dict[str, str]]], as_of: dt.date) -> st
         f"- 🟢 **{totals['in_force']} currently in force** (active + extended)",
         f"- 🟡 **{totals['pending']} pending or not yet effective** (proposed or enacted with a future effective date)",
         f"- ⚪ **{totals['past']} expired, replaced, or rescinded** (no longer in force)", "",
-        "State bills, executive orders, governor directives, and other state-level restrictions are a separate legal layer. "
+        "State-policy records, including bills, resolutions, precursor memos and binding actions, are a separate legal layer. "
         "They are typed in [`state_legislation.csv`](../data/state_legislation.csv) and are not included in these local counts.", "",
         "## States with at least one local moratorium", "",
         "| State | Total instruments | 🟢 In force | 🟡 Pending | ⚪ Past |",

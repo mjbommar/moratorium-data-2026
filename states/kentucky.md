@@ -5,7 +5,7 @@ Working inventory for Kentucky, generated **November 5, 2026**. Record-level ref
 
 **35 instruments** — 31 in force, 2 pending, 2 past.
 
-State policy is tracked separately: **8 actions** (8 bills) in [`state_legislation.csv`](../data/state_legislation.csv). These are not included in the local count above.
+State policy is tracked separately: **8 records** (8 typed bill rows) in [`state_legislation.csv`](../data/state_legislation.csv). These are not included in the local count above.
 
 | Jurisdiction | Type | Enacted | Sectors | Status |
 |---|---|---|---|---|

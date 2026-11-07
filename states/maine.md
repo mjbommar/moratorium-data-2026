@@ -5,7 +5,7 @@ Working inventory for Maine, generated **November 5, 2026**. Record-level refres
 
 **19 instruments** — 12 in force, 3 pending, 4 past.
 
-State policy is tracked separately: **6 actions** (6 bills) in [`state_legislation.csv`](../data/state_legislation.csv). These are not included in the local count above.
+State policy is tracked separately: **6 records** (6 typed bill rows) in [`state_legislation.csv`](../data/state_legislation.csv). These are not included in the local count above.
 
 | Jurisdiction | Type | Enacted | Sectors | Status |
 |---|---|---|---|---|

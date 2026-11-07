@@ -7,7 +7,7 @@ _Working inventory generated November 5, 2026; record-level refresh remains inco
 - 🟡 **79 pending or not yet effective** (proposed or enacted with a future effective date)
 - ⚪ **172 expired, replaced, or rescinded** (no longer in force)
 
-State bills, executive orders, governor directives, and other state-level restrictions are a separate legal layer. They are typed in [`state_legislation.csv`](../data/state_legislation.csv) and are not included in these local counts.
+State-policy records, including bills, resolutions, precursor memos and binding actions, are a separate legal layer. They are typed in [`state_legislation.csv`](../data/state_legislation.csv) and are not included in these local counts.
 
 ## States with at least one local moratorium
 
