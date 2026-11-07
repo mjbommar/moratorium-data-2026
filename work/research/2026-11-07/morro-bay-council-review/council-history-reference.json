@@ -1,0 +1,49 @@
+{
+  "schema_version": "council-history-reference-1",
+  "case_id": "morro-bay-668-670",
+  "case_kind": "real_historical_council_adoption_and_extension",
+  "legacy_moratorium_id": "ca-morro-bay-2025",
+  "reference_review_date": "2026-11-07",
+  "role": "Additive source-backed retrospective reference, not an unseen holdout or repair of original pilot ordering.",
+  "events": [
+    {
+      "instrument": "Ordinance668",
+      "action": "adopted",
+      "occurrence": "2025-01-28",
+      "ayes": 5,
+      "noes": 0,
+      "source_url": "https://pub-morrobay.escribemeetings.com/filestream.ashx?DocumentId=2809",
+      "body_sha256": "cbb273c4b7347ffa449f0dda7630b90d75495741d15ecf7a7d25a19add0223a2",
+      "extraction_sha256": "d15669c30a72f39bedcbfbd2db1c226791e344141debcdacea715a254168595f"
+    },
+    {
+      "instrument": "Ordinance670extending668",
+      "action": "extension_adopted",
+      "occurrence": "2025-02-25",
+      "ayes": 5,
+      "noes": 0,
+      "source_url": "https://pub-morrobay.escribemeetings.com/Meeting.aspx?Id=c8e866ee-0a45-465a-9ecd-669f85919f97&Agenda=PostMinutes&lang=English",
+      "body_sha256": "80ce33ed28d33631d6257709f7c7aea533e323cd66879bae7f7395812ef68330",
+      "extraction_sha256": "7d80ea16134b82d42fc60964f38da91677d3a2f259e25c276258e0a52180613f"
+    }
+  ],
+  "must_remain_unknown": [
+    "Exactoriginal668operativewording/startconditions",
+    "Finalsigned670termagainstminutes/draftconflict",
+    "Actualexpiryanduninterruptedcurrentforce",
+    "Counciladoptionoflaterproposedban/coastalcertification",
+    "Projectcancellationorlegalapplicability"
+  ],
+  "negative_controls": [
+    "Unsigned670draftisnotauthenticatedadoptedtext",
+    "Authoritytoextendnotanexercisedextensionbyitself",
+    "Scheduledenddatenotactualexpiry",
+    "PlanningCommissionrecommendationnotCouncilban",
+    "Currentforceunknownnotnewlegacyenumorreclassification"
+  ],
+  "reference_receipt": "field-review.json",
+  "private_independent_review_sha256": "b701c49254b36cc2a0c9c461d8fb9dd3c9269733c46a2403f0b0ede6797d9a98",
+  "original_frozen_pilot": "work/research/2026-11-06/pilot-contract-review/manifest.json",
+  "original_pilot_unchanged": true,
+  "other_p4_gates": "Predecessorpause/replacementban,holdout/discovery/qualitymetricsandremainingbehavioralrequirementsremainopen."
+}

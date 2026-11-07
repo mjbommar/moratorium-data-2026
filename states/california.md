@@ -420,17 +420,17 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 
 - **Type:** City
 - **Recorded status:** 🟢 Extended
-- **Date enacted:** 2025-01-28 (Urgency Ordinance No. 668); extended by Ordinance No. 670 on 2025-02-25 to 2027-01-28 (two years total)
+- **Date enacted:** 2025-01-28 (Urgency Ordinance No. 668); extended by Ordinance No. 670 on 2025-02-25
 - **Normalized date:** `2025-01-28` (exact)
-- **Duration:** 45-day urgency ordinance extended to a total of two years
+- **Duration:** 45-day initial urgency ordinance; extension adopted February 25, 2025; final adopted term unverified
 - **Current end date:** `—`
 - **Sectors:** battery storage
 - **Moratorium ID:** `ca-morro-bay-2025`
 - **Legal basis:** Urgency Ordinance No. 668, extended by Urgency Ordinance No. 670, prohibiting grid-scale BESS application acceptance/approval/operation within city limits
 - **What prompted it:** Public safety concerns after Moss Landing battery fires; prior Vistra 600 MW BESS proposal on the former power plant site (application withdrawn 2025).
 - **Affected projects:** Vistra Corp. 600 MW BESS proposal (application withdrawn/paused; Vistra pursuing state AB 205 Opt-In Certification instead).
-- **Detailed status:** Active as of 2026-09-23; expires 2027-01-28. The City is now separately considering an outright permanent ban on grid-scale BESS to replace the temporary pause (Planning Commission recommended a ban to Council in September 2026; Council has not yet acted).
-- **Outcome:** City considering permanent BESS regulations or outright ban.
+- **Detailed status:** Current force at 2026-11-07 is unverified. On August 18, 2026, the Planning Commission recommended that Council adopt a BESS prohibition; subsequent Council action has not been established.
+- **Outcome:** Planning Commission recommended a BESS prohibition on August 18, 2026; subsequent Council action unverified.
 
 ### Oakley
 

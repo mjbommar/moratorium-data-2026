@@ -1,0 +1,30 @@
+{
+  "applied_at": "20261107T101821",
+  "answer_files": [
+    "work/research/2026-11-07/morro-bay-council-review/answers-original-term.json"
+  ],
+  "stats": {
+    "outcome:corrected": 1,
+    "fields_changed": 2
+  },
+  "conflicts": [],
+  "skipped": [],
+  "changes": [
+    {
+      "moratorium_id": "ca-morro-bay-2025",
+      "column": "duration_days",
+      "before": "",
+      "after": "45",
+      "reason": "Codebook duration_days describes the ORIGINAL term excludingextensions. City Jan28minutes explicitlyrecord initial45days; independentreviewconfirmed thatfact but incorrectly treated column as overall/currentduration. Originaloperativewording/finalextension/currentforce remainunresolved.",
+      "source": "answers-original-term.json"
+    },
+    {
+      "moratorium_id": "ca-morro-bay-2025",
+      "column": "duration_kind",
+      "before": "until_date",
+      "after": "fixed_days",
+      "reason": "Codebook duration_days describes the ORIGINAL term excludingextensions. City Jan28minutes explicitlyrecord initial45days; independentreviewconfirmed thatfact but incorrectly treated column as overall/currentduration. Originaloperativewording/finalextension/currentforce remainunresolved.",
+      "source": "answers-original-term.json"
+    }
+  ]
+}
