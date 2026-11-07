@@ -284,6 +284,11 @@ Exit: fresh, reproducible release with reconciled data/prose, a verified publish
 
 ## P7 — Maintenance
 
+- [ ] Design and exercise event correction/withdrawal with retained rejected
+  history. The initial strict event profile requires accepted exact claims for
+  retained events; it does not yet provide an event supersession or claim-withdrawal
+  workflow. Do not treat the first five-event migration as closing this gate.
+
 - [x] Exercise bc-web conditional HTTP caching with an actual 200/304 round trip, preserved body time and immutable archive tests (`conditional-cache-pilot/`); native adaptive proposals are implemented below, with inventory-wide calibration still open.
 
 - [ ] Implement due-work rules for qualification, elections, certification/recounts, implementation and expiry.

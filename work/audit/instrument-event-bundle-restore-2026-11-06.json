@@ -1,0 +1,47 @@
+{
+  "schema_version": "instrument-event-bundle-restore-1",
+  "source_commit": "0bd86ba0a25096734c92ed330189ef8ea8d788cd",
+  "archive": {
+    "name": "moratorium-data-working-candidate.tar.gz",
+    "bytes": 14430248,
+    "sha256": "aa34c02b6c084a779d7944f3210398b5e4291f5042f49eb0a6fbf1c05bfdb6d7"
+  },
+  "member_count": 706,
+  "byte_identical_builds": true,
+  "all_restored_member_hashes_verified": true,
+  "git_checkout_present": false,
+  "private_source_bodies_present": false,
+  "profiles_included": {
+    "1.0.0.json": "12993c58309ce10c5c7d11ac27c384c0009e343952fecafb867c26118be94d97",
+    "1.0.1.json": "98d137aba903b5bd115db7f24dc18f45b9718ccd29f994598832741fea3fc54f"
+  },
+  "pilot_case_count": 17,
+  "pilot_validation_errors": 0,
+  "publication": {
+    "state": "consistent",
+    "snapshot_sha256": "aa1d4ebc9fb15a1b78c22ad44cb9ca71cb622d6b64be0ee884b3320656b732f8",
+    "generations_checked": 31,
+    "records": {
+      "jurisdictions": 46,
+      "elections": 46,
+      "ballot_measures": 50,
+      "measure_provisions": 50,
+      "measure_results": 57,
+      "local_restrictions": 1,
+      "instrument_events": 5,
+      "measure_instrument_links": 1,
+      "source_documents": 144,
+      "claims": 528,
+      "review_decisions": 2394,
+      "search_runs": 1,
+      "search_attempts": 3,
+      "search_sightings": 18,
+      "coverage_observations": 1
+    },
+    "scope": "Offline publication/receipt consistency only; no source reacquisition, renewed factual acceptance or current-force confirmation."
+  },
+  "csv_check": "{\"state\": \"matches\", \"source_snapshot\": \"aa1d4ebc9fb15a1b78c22ad44cb9ca71cb622d6b64be0ee884b3320656b732f8\", \"projection_sha256\": \"a68aba7580085826cec8a4a4cbf9fce564cba2448edebc030fc2d8f35ef1000f\", \"csv_views\": 16}",
+  "snapshot": "aa1d4ebc9fb15a1b78c22ad44cb9ca71cb622d6b64be0ee884b3320656b732f8",
+  "csv_projection": "a68aba7580085826cec8a4a4cbf9fce564cba2448edebc030fc2d8f35ef1000f",
+  "scope": "Deterministic committed-revision bundle and actual clean restore with packaged Python checks. Offline receipt/schema/identity/CSV/pilot consistency, not source reacquisition, repeated visual judgments, current-force acceptance, final release or hosted deployment."
+}
