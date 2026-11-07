@@ -1,0 +1,1521 @@
+{
+  "review": "independent offline adjudication",
+  "review_date": "2026-11-07",
+  "csv_path": "/home/mjbommar/projects/personal/moratorium-data-2026/data/moratorium_inventory.csv",
+  "csv_sha256": "14f4a6b02c739b1636f44f2db7fd932d40934c63872802e34c21d92e83fe7f09",
+  "input_hashes": {
+    "assignment.private.json": "e1cfb102a74ca6e462b5232a7d08e3249c4e488983c3183c548957c1da01742f",
+    "field-ledger.private.json": "9912a50a7bc26d35a6924a3ef5dc8e35ce0fe7c2ddc3784c0819d9f7c0c0714e",
+    "guarded-proposals.private.json": "e3e2c9ba64809d3ec15813fbff28a35b80ab685bfd7dca19864b34a04ec6a008",
+    "record-dispositions.private.json": "c48d6f7a21395a1cebd8c20276288be29bb5a092b0b4a5fe7d4afbe357aba2be",
+    "source-registry.private.json": "f206962b6df5944f7c133971bd452ea4f59a96fbd5432b87d5685f63a13dd912",
+    "report.md": "34e65a4810690df894731a3be6b6b0d3f39f120a77d5b2854e3ef6f84543fc07"
+  },
+  "scope": {
+    "rows": 3,
+    "fields": 78,
+    "full_local_ids_required": 1330,
+    "baseline_and_other_scope": "Original 1772 baseline, discoveries, ballots, consumers and release remain required."
+  },
+  "method": "All guards compared against live CSV and assignment; primary field ledger and proposals individually assessed. Source bodies and text hashes recomputed; cited PDF pages visually read, HTML and prior attempt ledgers inspected. No network or canonical writes. Retention is bounded, not a current-force acceptance.",
+  "source_registry": [
+    {
+      "id": "MO-manager",
+      "body_sha256": "eed615e8ff7df66c33306b6928d25688ce69ad3ccc0faaf48d9813c81dfde676",
+      "text_sha256": "7b1df8900ca34a324bdbd6206c973283b9ded6582fc28935a6932134cf498dd4",
+      "authority": "City Manager",
+      "version": "period ending October 23, 2026",
+      "document_date": "2026-10-23",
+      "observed_at": "2026-11-05",
+      "locator": "PDF p.1 executive summary and anticipated timeline; pixels reviewed",
+      "attempt_id": "75238ba2ea164816a705a5551509e996",
+      "url": "https://www.springfieldmo.gov/DocumentCenter/View/78519/Oct-23-2026",
+      "role": "proposed extension and schedule; not adopted ordinance",
+      "independent_verification": "Body and extracted text SHA-256 recomputed; original cited PDF pixels or HTML body reviewed offline.",
+      "inspection_limits": "PDF p.1 pixels; the January 7 row prints 2026 despite surrounding chronology; no correction assumed.",
+      "body_path": "/home/mjbommar/projects/personal/moratorium-data-2026/work/sources/MO/b5345d771aae4115-eed615e8ff7d.pdf",
+      "text_path": "/home/mjbommar/projects/personal/moratorium-data-2026/work/sources/MO/b5345d771aae4115-eed615e8ff7d.txt"
+    },
+    {
+      "id": "MO-news",
+      "body_sha256": "f0e481da8c57d5a0f92d8dda609541068d4db4814d1dd72d2148510f554db832",
+      "text_sha256": "6aca68dab65c9833aecf5150985a58b21e2c27db73feb110b6e4d26d2385a5ee",
+      "authority": "Springfield Daily Citizen",
+      "version": "news report",
+      "document_date": "2026-10-23",
+      "observed_at": "2026-11-05",
+      "locator": "article opening, litigation and scheduled hearing paragraphs",
+      "attempt_id": "7f999add90464300a9eacf35fe88ac2f",
+      "url": "https://sgfcitizen.org/government/crime/judge-denies-springfield-data-center-restraining-order/",
+      "role": "secondary adoption, reported endpoint and litigation; not order",
+      "independent_verification": "Body and extracted text SHA-256 recomputed; original cited PDF pixels or HTML body reviewed offline.",
+      "inspection_limits": "HTML article and date metadata; secondary reporting, no court order inspected.",
+      "body_path": "/home/mjbommar/projects/personal/moratorium-data-2026/work/sources/MO/04683f6e19879164-f0e481da8c57.bin",
+      "text_path": "/home/mjbommar/projects/personal/moratorium-data-2026/work/sources/MO/04683f6e19879164-f0e481da8c57.txt"
+    },
+    {
+      "id": "NY-minutes",
+      "body_sha256": "8c420639aca52173fc9ec93f3570940e62db5ffd2afc5199853155f820d003e9",
+      "text_sha256": "007d6b2dadd541358e88c23b675c340955396b1d918b69bdf42389334f84ce94",
+      "authority": "Herkimer County Planning Board",
+      "version": "May 19 2025 minutes",
+      "document_date": "2025-05-19",
+      "observed_at": "2026-11-05",
+      "locator": "PDF p.1 new business; pixels reviewed, distinct BESS item",
+      "attempt_id": "7b32ef1a1a1c48b4b674362f6c716903",
+      "url": "https://oneidacountyny.gov/assets/Planning/GPLMinutes/HCPB-May-2025-Minutes.pdf",
+      "role": "county review of local law; not proof town adopted or filed",
+      "independent_verification": "Body and extracted text SHA-256 recomputed; original cited PDF pixels or HTML body reviewed offline.",
+      "inspection_limits": "PDF p.1 pixels, both distinct local-law items; county review is not town passage.",
+      "body_path": "/home/mjbommar/projects/personal/moratorium-data-2026/work/sources/NY/01bff6313806a8ec-8c420639aca5-007d6b2dadd5.pdf",
+      "text_path": "/home/mjbommar/projects/personal/moratorium-data-2026/work/sources/NY/01bff6313806a8ec-8c420639aca5-007d6b2dadd5.txt"
+    },
+    {
+      "id": "PA-process",
+      "body_sha256": "ec61ef9303d8119c9a251c28fafc9dfc6759b3cfda5ac0248f4500675d0bdf92",
+      "text_sha256": "9be1d48bf84e0ae78af5814f6e8f3120aba192cb86641c7a42a8a76dc1f87a77",
+      "authority": "East Whiteland Township",
+      "version": "municipal curative process notice",
+      "document_date": "undated",
+      "observed_at": "2026-11-05",
+      "locator": "process chronology and public participation; HTML and text",
+      "attempt_id": "c8fb0467e0ca492b939cf16610592a78",
+      "url": "https://www.eastwhiteland.org/news_detail_T2_R217.php",
+      "role": "identifies meetings and resolutions and stated deadline; not their texts",
+      "independent_verification": "Body and extracted text SHA-256 recomputed; original cited PDF pixels or HTML body reviewed offline.",
+      "inspection_limits": "HTML body chronology and markup; undated version retrieved Nov 5, no resolutions included.",
+      "body_path": "/home/mjbommar/projects/personal/moratorium-data-2026/work/sources/PA/2db779ab0fa838e3-ec61ef9303d8.bin",
+      "text_path": "/home/mjbommar/projects/personal/moratorium-data-2026/work/sources/PA/2db779ab0fa838e3-ec61ef9303d8.txt"
+    },
+    {
+      "id": "PA-notice",
+      "body_sha256": "5b5ece78ff98a5edeeffbd7a223e95df1bf53b5d7008cac2c7936daa156d1bab",
+      "text_sha256": "d9bb3d8e1e34dff0268919a167d71539bad0f2223d5505cfe7f7669aa26e0f38",
+      "authority": "East Whiteland Township",
+      "version": "adoption notice",
+      "document_date": "undated",
+      "observed_at": "2026-11-05",
+      "locator": "news post and full ordinance link; HTML markup and text",
+      "attempt_id": "6d40d91ce3c043fc99d76f09a9aa2ff7",
+      "url": "https://www.eastwhiteland.org/news_detail_T2_R312.php",
+      "role": "official adoption confirmation",
+      "independent_verification": "Body and extracted text SHA-256 recomputed; original cited PDF pixels or HTML body reviewed offline.",
+      "inspection_limits": "HTML adoption notice and ordinance link; page undated, no full legal history.",
+      "body_path": "/home/mjbommar/projects/personal/moratorium-data-2026/work/sources/PA/de6f0c613af43fe9-5b5ece78ff98.bin",
+      "text_path": "/home/mjbommar/projects/personal/moratorium-data-2026/work/sources/PA/de6f0c613af43fe9-5b5ece78ff98.txt"
+    },
+    {
+      "id": "PA-ordinance",
+      "body_sha256": "d62189640f3517319abaf9114924d91dca087088f715c76d2e9a0e57450337cd",
+      "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "authority": "East Whiteland Board of Supervisors",
+      "version": "signed Ordinance 385-2026",
+      "document_date": "2026-09-24",
+      "observed_at": "2026-11-05",
+      "locator": "PDF pp.1 and 32 pixels; title, limited repealer, effective on adoption and handwritten date/signatures; remaining pages not reviewed",
+      "attempt_id": "b80d0d3539614d6fa82b3aa46fd31222",
+      "url": "https://cms2.revize.com/revize/repository/eastwhitelandtownshippa/Enacted%20Ordinance%20No.385-2026(4050484.1).pdf?6416",
+      "role": "signed successor zoning regulation; no claim all 32 pages examined",
+      "independent_verification": "Body and extracted text SHA-256 recomputed; original cited PDF pixels or HTML body reviewed offline.",
+      "inspection_limits": "PDF pages 1 and 32 pixels; pages 2–31 not reviewed; extracted text empty.",
+      "body_path": "/data0/moratorium-refresh-2026/full/pa-inventory-002/b80d0d3539614d6fa82b3aa46fd31222.private.body",
+      "text_path": "/data0/moratorium-refresh-2026/full/pa-inventory-002/b80d0d3539614d6fa82b3aa46fd31222.private.txt"
+    },
+    {
+      "id": "PA-news",
+      "body_sha256": "98a29ab332151734fb9d08e82a86e7ee60782503d87a329df0369f110b747a22",
+      "text_sha256": "2913ed20a2383548292ada432d790f2a0806aa6a7d1a683ca18c9899cd281ff7",
+      "authority": "Philadelphia Inquirer",
+      "version": "report dated September 25",
+      "document_date": "2026-09-25",
+      "observed_at": "2026-11-05",
+      "locator": "article paragraphs 1-5; project and ordinance differentiation",
+      "attempt_id": "8c07fd7aaebc4488b54af2f615a889c8",
+      "url": "https://www.inquirer.com/news/pennsylvania/east-whiteland-data-center-20260925.html",
+      "role": "secondary report of vote and existing project",
+      "independent_verification": "Body and extracted text SHA-256 recomputed; original cited PDF pixels or HTML body reviewed offline.",
+      "inspection_limits": "HTML body and publication metadata; secondary project reporting.",
+      "body_path": "/home/mjbommar/projects/personal/moratorium-data-2026/work/sources/PA/147a3660f4809713-98a29ab33215.bin",
+      "text_path": "/home/mjbommar/projects/personal/moratorium-data-2026/work/sources/PA/147a3660f4809713-98a29ab33215.txt"
+    }
+  ],
+  "attempts_inspected": [
+    {
+      "attempt_id": "2e079f9cad7946fd982b8f268815c3cd",
+      "kind": "exa",
+      "state": "finished",
+      "outcome": "response",
+      "query": "Springfield Missouri ordinance 28306 data center moratorium extension 2026",
+      "finished_at": "2026-11-05T20:46:09.823925+00:00",
+      "lane": "mo-inventory-001",
+      "ledger": "/data0/moratorium-refresh-2026/full/mo-inventory-001/attempts.private.jsonl",
+      "use": "discovery only"
+    },
+    {
+      "attempt_id": "3cc303a555c54fdd9da7e35f655d1345",
+      "kind": "serpapi",
+      "state": "finished",
+      "outcome": "response",
+      "query": "site:springfieldmo.gov data center 2026-236 administrative delay November",
+      "finished_at": "2026-11-05T20:46:31.468374+00:00",
+      "query_scope_check": {
+        "status": "no_returned_url_in_declared_sites",
+        "declared_sites": [
+          "springfieldmo.gov"
+        ],
+        "matching_hits": 0,
+        "nonmatching_hits": 6,
+        "observed_hosts": [
+          "finance.biggo.com",
+          "www.facebook.com",
+          "www.ft.com",
+          "www.linkedin.com"
+        ],
+        "scope": "Diagnostic of returned URL hosts, not query-language validation or evidence of absence. Check ambiguous OR branches and fetch substantive sources."
+      },
+      "lane": "mo-inventory-001",
+      "ledger": "/data0/moratorium-refresh-2026/full/mo-inventory-001/attempts.private.jsonl",
+      "use": "discovery only"
+    },
+    {
+      "attempt_id": "75238ba2ea164816a705a5551509e996",
+      "kind": "fetch",
+      "state": "finished",
+      "outcome": "response",
+      "url": "https://www.springfieldmo.gov/DocumentCenter/View/78519/Oct-23-2026",
+      "final_url": "https://www.springfieldmo.gov/DocumentCenter/View/78519/Oct-23-2026",
+      "status": 200,
+      "finished_at": "2026-11-05T20:46:47.321812+00:00",
+      "lane": "mo-inventory-001",
+      "ledger": "/data0/moratorium-refresh-2026/full/mo-inventory-001/attempts.private.jsonl",
+      "use": "retained source retrieval"
+    },
+    {
+      "attempt_id": "7f999add90464300a9eacf35fe88ac2f",
+      "kind": "fetch",
+      "state": "finished",
+      "outcome": "response",
+      "url": "https://sgfcitizen.org/government/crime/judge-denies-springfield-data-center-restraining-order/",
+      "final_url": "https://sgfcitizen.org/government/crime/judge-denies-springfield-data-center-restraining-order/",
+      "status": 200,
+      "finished_at": "2026-11-05T20:47:28.043449+00:00",
+      "lane": "mo-inventory-001",
+      "ledger": "/data0/moratorium-refresh-2026/full/mo-inventory-001/attempts.private.jsonl",
+      "use": "retained source retrieval"
+    },
+    {
+      "attempt_id": "a049d8e8012f47f0829ccf8e799b79af",
+      "kind": "exa",
+      "state": "finished",
+      "outcome": "response",
+      "query": "German Flatts Herkimer New York town solar wind moratorium 2025 local law",
+      "finished_at": "2026-11-05T21:24:16.243300+00:00",
+      "lane": "ny-inventory-006",
+      "ledger": "/data0/moratorium-refresh-2026/full/ny-inventory-006/attempts.private.jsonl",
+      "use": "discovery only"
+    },
+    {
+      "attempt_id": "2b864636b01947c496757690a3e954dc",
+      "kind": "serpapi",
+      "state": "finished",
+      "outcome": "response",
+      "query": "German Flatts solar wind moratorium local law 2025 2026",
+      "finished_at": "2026-11-05T21:24:47.630475+00:00",
+      "query_scope_check": {
+        "status": "no_returned_url_in_declared_sites",
+        "declared_sites": [
+          "germanflatts.org"
+        ],
+        "matching_hits": 0,
+        "nonmatching_hits": 6,
+        "observed_hosts": [
+          "green-giraffe.com",
+          "renewablesnow.com",
+          "www.energetskiportal.com",
+          "www.lawyersworldwide.com",
+          "www.rechargenews.com",
+          "www.schoenherr.eu"
+        ],
+        "scope": "Diagnostic of returned URL hosts, not query-language validation or evidence of absence. Check ambiguous OR branches and fetch substantive sources."
+      },
+      "lane": "ny-inventory-006",
+      "ledger": "/data0/moratorium-refresh-2026/full/ny-inventory-006/attempts.private.jsonl",
+      "use": "discovery only"
+    },
+    {
+      "attempt_id": "7b32ef1a1a1c48b4b674362f6c716903",
+      "kind": "fetch",
+      "state": "finished",
+      "outcome": "response",
+      "url": "https://oneidacountyny.gov/assets/Planning/GPLMinutes/HCPB-May-2025-Minutes.pdf",
+      "final_url": "https://oneidacountyny.gov/assets/Planning/GPLMinutes/HCPB-May-2025-Minutes.pdf",
+      "status": 200,
+      "finished_at": "2026-11-05T21:25:00.969182+00:00",
+      "lane": "ny-inventory-006",
+      "ledger": "/data0/moratorium-refresh-2026/full/ny-inventory-006/attempts.private.jsonl",
+      "use": "retained source retrieval"
+    },
+    {
+      "attempt_id": "3ddbc5978e2c4451a7872a4e48df9965",
+      "kind": "exa",
+      "state": "finished",
+      "outcome": "response",
+      "query": "East Whiteland Township Pennsylvania data center moratorium curative amendment 2026 supervisors",
+      "finished_at": "2026-11-05T22:21:49.328529+00:00",
+      "lane": "pa-inventory-002",
+      "ledger": "/data0/moratorium-refresh-2026/full/pa-inventory-002/attempts.private.jsonl",
+      "use": "discovery only"
+    },
+    {
+      "attempt_id": "c8fb0467e0ca492b939cf16610592a78",
+      "kind": "fetch",
+      "state": "finished",
+      "outcome": "response",
+      "url": "https://www.eastwhiteland.org/news_detail_T2_R217.php",
+      "final_url": "https://www.eastwhiteland.org/news_detail_T2_R217.php",
+      "status": 200,
+      "finished_at": "2026-11-05T22:23:53.810090+00:00",
+      "lane": "pa-inventory-002",
+      "ledger": "/data0/moratorium-refresh-2026/full/pa-inventory-002/attempts.private.jsonl",
+      "use": "retained source retrieval"
+    },
+    {
+      "attempt_id": "6d40d91ce3c043fc99d76f09a9aa2ff7",
+      "kind": "fetch",
+      "state": "finished",
+      "outcome": "response",
+      "url": "https://www.eastwhiteland.org/news_detail_T2_R312.php",
+      "final_url": "https://www.eastwhiteland.org/news_detail_T2_R312.php",
+      "status": 200,
+      "finished_at": "2026-11-05T22:22:35.524906+00:00",
+      "lane": "pa-inventory-002",
+      "ledger": "/data0/moratorium-refresh-2026/full/pa-inventory-002/attempts.private.jsonl",
+      "use": "retained source retrieval"
+    },
+    {
+      "attempt_id": "b80d0d3539614d6fa82b3aa46fd31222",
+      "kind": "fetch",
+      "state": "finished",
+      "outcome": "response",
+      "url": "https://cms2.revize.com/revize/repository/eastwhitelandtownshippa/Enacted%20Ordinance%20No.385-2026(4050484.1).pdf?6416",
+      "final_url": "https://cms2.revize.com/revize/repository/eastwhitelandtownshippa/Enacted%20Ordinance%20No.385-2026(4050484.1).pdf?6416",
+      "status": 200,
+      "finished_at": "2026-11-05T22:23:22.888650+00:00",
+      "lane": "pa-inventory-002",
+      "ledger": "/data0/moratorium-refresh-2026/full/pa-inventory-002/attempts.private.jsonl",
+      "use": "retained source retrieval"
+    },
+    {
+      "attempt_id": "8c07fd7aaebc4488b54af2f615a889c8",
+      "kind": "fetch",
+      "state": "finished",
+      "outcome": "response",
+      "url": "https://www.inquirer.com/news/pennsylvania/east-whiteland-data-center-20260925.html",
+      "final_url": "https://www.inquirer.com/news/pennsylvania/east-whiteland-data-center-20260925.html",
+      "status": 200,
+      "finished_at": "2026-11-05T22:23:55.250626+00:00",
+      "lane": "pa-inventory-002",
+      "ledger": "/data0/moratorium-refresh-2026/full/pa-inventory-002/attempts.private.jsonl",
+      "use": "retained source retrieval"
+    }
+  ],
+  "records": [
+    {
+      "moratorium_id": "mo-city-of-springfield-2026",
+      "all_26_live_guards": {
+        "state": "Missouri",
+        "state_abbrev": "MO",
+        "jurisdiction": "City of Springfield",
+        "jurisdiction_type": "City",
+        "date_enacted": "2026-06-29",
+        "duration": "120 days, through November 17, 2026",
+        "legal_basis": "Council Bill 2026-147, enacted 2026-06-29 as Ordinance No. 28306 -- although, per a since-filed lawsuit, the ordinance was filed by the City Clerk using resolution-style 'be it resolved' language rather than 'be it ordained,' which the plaintiff argues is itself a charter defect. It imposes a 120-day administrative delay on data center applications/approvals set to expire 2026-11-17.",
+        "trigger": "Pause on development, building, site-plan, variance, stormwater, conditional-use, occupancy, public-utility, and large-load electric applications for data centers while the City Manager studies recommendations",
+        "current_status": "The October 23 city document schedules a November 16 vote on a proposed extension through February 24, 2027. No approved extension is established. Local reporting describes denial of the plaintiff’s temporary restraining order on October 23; denial is not a final judgment on validity or an exhaustive later-docket review. [VERIFY: exact operative interval and scope, later amendments/extensions/repeal and judicial developments/current legal force.]",
+        "affected_projects": "Exempts projects whose Southwest Power Pool study process had already begun with required fees submitted, and permits council-approved exceptions",
+        "outcome": "City Council approved Council Bill 2026-147, imposing a 120-day administrative delay on specified data center applications and approvals",
+        "has_verify_tags": "True",
+        "verify_count": "1",
+        "cite_count": "0",
+        "activity_level": "Medium",
+        "enacted_status": "active",
+        "moratorium_id": "mo-city-of-springfield-2026",
+        "latitude": "37.216920",
+        "longitude": "-93.292063",
+        "date_enacted_iso": "2026-06-29",
+        "date_enacted_uncertainty": "exact",
+        "duration_days": "120",
+        "duration_kind": "fixed_days",
+        "current_end_date_iso": "",
+        "sectors": "[\"data_center\"]",
+        "trigger_categories": "[\"regulatory_gap\",\"infrastructure_capacity\",\"grid_energy\"]"
+      },
+      "all_guards_match_assignment_and_proposal": true,
+      "field_decisions": [
+        {
+          "field": "state",
+          "before": "Missouri",
+          "primary_proposal": null,
+          "decision": "retain",
+          "after": "Missouri",
+          "rationale": "Jurisdiction and state identity consistent with the reviewed city, county, or township source; this confirms geography only, not legal force.",
+          "source_ids": [],
+          "evidence_limit": "unresolved_retained"
+        },
+        {
+          "field": "state_abbrev",
+          "before": "MO",
+          "primary_proposal": null,
+          "decision": "retain",
+          "after": "MO",
+          "rationale": "USPS state abbreviation corresponds to the named state; no legal-force inference.",
+          "source_ids": [],
+          "evidence_limit": "retain_bounded"
+        },
+        {
+          "field": "jurisdiction",
+          "before": "City of Springfield",
+          "primary_proposal": null,
+          "decision": "retain",
+          "after": "City of Springfield",
+          "rationale": "Named local jurisdiction matches source; this does not by itself resolve instrument lineage.",
+          "source_ids": [],
+          "evidence_limit": "retain_bounded"
+        },
+        {
+          "field": "jurisdiction_type",
+          "before": "City",
+          "primary_proposal": null,
+          "decision": "retain",
+          "after": "City",
+          "rationale": "Government type matches the source’s city, town or township reference.",
+          "source_ids": [],
+          "evidence_limit": "retain_bounded"
+        },
+        {
+          "field": "date_enacted",
+          "before": "2026-06-29",
+          "primary_proposal": null,
+          "decision": "retain",
+          "after": "2026-06-29",
+          "rationale": "June 29 adoption reported in MO-news; original bill and signed ordinance not inspected here. Adoption is not necessarily operative start.",
+          "source_ids": [
+            "MO-manager",
+            "MO-news"
+          ],
+          "evidence_limit": "retain_bounded"
+        },
+        {
+          "field": "duration",
+          "before": "120 days, through November 17, 2026",
+          "primary_proposal": null,
+          "decision": "retain",
+          "after": "120 days, through November 17, 2026",
+          "rationale": "120 days and November 17 are reported by MO-news; original operative start and clause not independently inspected. Do not compute 120 days from June 29.",
+          "source_ids": [
+            "MO-manager",
+            "MO-news"
+          ],
+          "evidence_limit": "unresolved_retained"
+        },
+        {
+          "field": "legal_basis",
+          "before": "Council Bill 2026-147, enacted 2026-06-29 as Ordinance No. 28306 -- although, per a since-filed lawsuit, the ordinance was filed by the City Clerk using resolution-style 'be it resolved' language rather than 'be it ordained,' which the plaintiff argues is itself a charter defect. It imposes a 120-day administrative delay on data center applications/approvals set to expire 2026-11-17.",
+          "primary_proposal": null,
+          "decision": "retain",
+          "after": "Council Bill 2026-147, enacted 2026-06-29 as Ordinance No. 28306 -- although, per a since-filed lawsuit, the ordinance was filed by the City Clerk using resolution-style 'be it resolved' language rather than 'be it ordained,' which the plaintiff argues is itself a charter defect. It imposes a 120-day administrative delay on data center applications/approvals set to expire 2026-11-17.",
+          "rationale": "Bill and ordinance numbers and pleading language remain qualified historical leads; source MO-news reports a challenge, not a judicial finding of charter defect. Obtain actual ordinance and pleadings.",
+          "source_ids": [
+            "MO-manager",
+            "MO-news"
+          ],
+          "evidence_limit": "unresolved_retained"
+        },
+        {
+          "field": "trigger",
+          "before": "Pause on development, building, site-plan, variance, stormwater, conditional-use, occupancy, public-utility, and large-load electric applications for data centers while the City Manager studies recommendations",
+          "primary_proposal": null,
+          "decision": "retain",
+          "after": "Pause on development, building, site-plan, variance, stormwater, conditional-use, occupancy, public-utility, and large-load electric applications for data centers while the City Manager studies recommendations",
+          "rationale": "Administrative application delay supported in MO-manager and MO-news; the long list of permit types and any utility-related separate instrument need adopted text reconciliation.",
+          "source_ids": [
+            "MO-manager",
+            "MO-news"
+          ],
+          "evidence_limit": "unresolved_retained"
+        },
+        {
+          "field": "current_status",
+          "before": "The October 23 city document schedules a November 16 vote on a proposed extension through February 24, 2027. No approved extension is established. Local reporting describes denial of the plaintiff’s temporary restraining order on October 23; denial is not a final judgment on validity or an exhaustive later-docket review. [VERIFY: exact operative interval and scope, later amendments/extensions/repeal and judicial developments/current legal force.]",
+          "primary_proposal": null,
+          "decision": "retain",
+          "after": "The October 23 city document schedules a November 16 vote on a proposed extension through February 24, 2027. No approved extension is established. Local reporting describes denial of the plaintiff’s temporary restraining order on October 23; denial is not a final judgment on validity or an exhaustive later-docket review. [VERIFY: exact operative interval and scope, later amendments/extensions/repeal and judicial developments/current legal force.]",
+          "rationale": "MO-manager p.1 schedules Nov 16 vote and proposed Feb 24 endpoint; MO-news reports Oct 23 TRO denial and Nov 6 preliminary hearing. No later docket or extension result established.",
+          "source_ids": [
+            "MO-manager",
+            "MO-news"
+          ],
+          "evidence_limit": "retain_bounded"
+        },
+        {
+          "field": "affected_projects",
+          "before": "Exempts projects whose Southwest Power Pool study process had already begun with required fees submitted, and permits council-approved exceptions",
+          "primary_proposal": null,
+          "decision": "retain",
+          "after": "Exempts projects whose Southwest Power Pool study process had already begun with required fees submitted, and permits council-approved exceptions",
+          "rationale": "MO-news reports exception process and plaintiff’s application; SPP study and fee carveout and precise class need ordinance. Keep as qualified historical lead.",
+          "source_ids": [
+            "MO-manager",
+            "MO-news"
+          ],
+          "evidence_limit": "unresolved_retained"
+        },
+        {
+          "field": "outcome",
+          "before": "City Council approved Council Bill 2026-147, imposing a 120-day administrative delay on specified data center applications and approvals",
+          "primary_proposal": null,
+          "decision": "retain",
+          "after": "City Council approved Council Bill 2026-147, imposing a 120-day administrative delay on specified data center applications and approvals",
+          "rationale": "June 29 adoption of a 120-day application delay is reported by MO-news. Original scope and present operation need signed text.",
+          "source_ids": [
+            "MO-manager",
+            "MO-news"
+          ],
+          "evidence_limit": "unresolved_retained"
+        },
+        {
+          "field": "has_verify_tags",
+          "before": "True",
+          "primary_proposal": null,
+          "decision": "retain",
+          "after": "True",
+          "rationale": "Mechanical annotation follows the resulting row: validator counts occurrences starting [VERIFY, and promotion recomputes bracketed VERIFY markers; this is not legal evidence. Protected columns must be recomputed by the application pipeline.",
+          "source_ids": [],
+          "evidence_limit": "retain_bounded"
+        },
+        {
+          "field": "verify_count",
+          "before": "1",
+          "primary_proposal": null,
+          "decision": "retain",
+          "after": "1",
+          "rationale": "Mechanical annotation follows the resulting row: validator counts occurrences starting [VERIFY, and promotion recomputes bracketed VERIFY markers; this is not legal evidence. Protected columns must be recomputed by the application pipeline.",
+          "source_ids": [],
+          "evidence_limit": "retain_bounded"
+        },
+        {
+          "field": "cite_count",
+          "before": "0",
+          "primary_proposal": null,
+          "decision": "retain",
+          "after": "0",
+          "rationale": "Legacy count of citation markers; this private packet’s sources do not automatically insert markers into the CSV.",
+          "source_ids": [],
+          "evidence_limit": "retain_bounded"
+        },
+        {
+          "field": "activity_level",
+          "before": "Medium",
+          "primary_proposal": null,
+          "decision": "retain",
+          "after": "Medium",
+          "rationale": "State-wide classification metadata retained; no source-specific reclassification and no evidence of present force.",
+          "source_ids": [],
+          "evidence_limit": "retain_bounded"
+        },
+        {
+          "field": "enacted_status",
+          "before": "active",
+          "primary_proposal": null,
+          "decision": "retain",
+          "after": "active",
+          "rationale": "Retain existing active bucket solely as an unverified historical classification; it does not establish adoption, continuing force, or subsequent legal effect. Reassess from the specified original instruments and later proceedings.",
+          "source_ids": [
+            "MO-manager",
+            "MO-news"
+          ],
+          "evidence_limit": "unresolved_retained"
+        },
+        {
+          "field": "moratorium_id",
+          "before": "mo-city-of-springfield-2026",
+          "primary_proposal": null,
+          "decision": "retain",
+          "after": "mo-city-of-springfield-2026",
+          "rationale": "Retain stable current join key for this guarded review; year suffix is not proof of adoption. If adoption remains undated, reconcile codebook undated naming through a separate identity migration and consumer review.",
+          "source_ids": [],
+          "evidence_limit": "unresolved_retained"
+        },
+        {
+          "field": "latitude",
+          "before": "37.216920",
+          "primary_proposal": null,
+          "decision": "retain",
+          "after": "37.216920",
+          "rationale": "Existing jurisdiction centroid is retained without independent geocoding; it is metadata and cannot establish instrument identity or force. Re-geocode separately if geographic accuracy is required.",
+          "source_ids": [],
+          "evidence_limit": "unresolved_retained"
+        },
+        {
+          "field": "longitude",
+          "before": "-93.292063",
+          "primary_proposal": null,
+          "decision": "retain",
+          "after": "-93.292063",
+          "rationale": "Existing jurisdiction centroid is retained without independent geocoding; it is metadata and cannot establish instrument identity or force. Re-geocode separately if geographic accuracy is required.",
+          "source_ids": [],
+          "evidence_limit": "unresolved_retained"
+        },
+        {
+          "field": "date_enacted_iso",
+          "before": "2026-06-29",
+          "primary_proposal": null,
+          "decision": "retain",
+          "after": "2026-06-29",
+          "rationale": "June 29 is reported adoption, not a computed operative start; actual signed city text still needed.",
+          "source_ids": [
+            "MO-manager",
+            "MO-news"
+          ],
+          "evidence_limit": "retain_bounded"
+        },
+        {
+          "field": "date_enacted_uncertainty",
+          "before": "exact",
+          "primary_proposal": null,
+          "decision": "retain",
+          "after": "exact",
+          "rationale": "Exact precision is consistent with reported June 29 adoption; source is secondary, not legal-force confirmation.",
+          "source_ids": [
+            "MO-manager",
+            "MO-news"
+          ],
+          "evidence_limit": "retain_bounded"
+        },
+        {
+          "field": "duration_days",
+          "before": "120",
+          "primary_proposal": null,
+          "decision": "retain",
+          "after": "120",
+          "rationale": "120 is a reported fixed-day term; calendar arithmetic cannot establish the endpoint without the operative anchor.",
+          "source_ids": [
+            "MO-manager",
+            "MO-news"
+          ],
+          "evidence_limit": "unresolved_retained"
+        },
+        {
+          "field": "duration_kind",
+          "before": "fixed_days",
+          "primary_proposal": null,
+          "decision": "retain",
+          "after": "fixed_days",
+          "rationale": "Fixed-days encoding agrees with reported 120 days; original anchor and any later changes remain unresolved.",
+          "source_ids": [
+            "MO-manager",
+            "MO-news"
+          ],
+          "evidence_limit": "unresolved_retained"
+        },
+        {
+          "field": "current_end_date_iso",
+          "before": "",
+          "primary_proposal": null,
+          "decision": "retain",
+          "after": "",
+          "rationale": "Blank retained: November 17 is reported but signed operative provision and subsequent actions are not fully reconciled; no October endpoint inferred.",
+          "source_ids": [
+            "MO-manager",
+            "MO-news"
+          ],
+          "evidence_limit": "retain_bounded"
+        },
+        {
+          "field": "sectors",
+          "before": "[\"data_center\"]",
+          "primary_proposal": null,
+          "decision": "retain",
+          "after": "[\"data_center\"]",
+          "rationale": "Data centers supported by official manager report; whether utility applications form a separate instrument needs legislative text.",
+          "source_ids": [
+            "MO-manager",
+            "MO-news"
+          ],
+          "evidence_limit": "retain_bounded"
+        },
+        {
+          "field": "trigger_categories",
+          "before": "[\"regulatory_gap\",\"infrastructure_capacity\",\"grid_energy\"]",
+          "primary_proposal": null,
+          "decision": "retain",
+          "after": "[\"regulatory_gap\",\"infrastructure_capacity\",\"grid_energy\"]",
+          "rationale": "Regulatory framework, utility demand and neighborhood compatibility appear in manager report; retained categories are descriptive, not exhaustive proof of motivating findings.",
+          "source_ids": [
+            "MO-manager",
+            "MO-news"
+          ],
+          "evidence_limit": "retain_bounded"
+        }
+      ],
+      "accepted_atomic_changes": [],
+      "record_disposition": "unresolved",
+      "last_supported_status_date": "2026-10-23",
+      "last_supported_observation": "City manager proposal schedule and reported TRO denial",
+      "unresolved_material": "adoption reported; precise operative start and end, separate utility instrument, later vote and court order unresolved",
+      "concrete_followup": "Obtain signed Ordinance 28306 / Council Bill 2026-147 and effective-date clause from Springfield clerk, Oct 26 and Nov 16 city council bill/meeting records, and Greene County NSI A.1 docket including Nov 6 preliminary-injunction order. Verify original scope and SPP exception, actual operative anchor and extension status.",
+      "attempt_ids_inspected": [
+        "2e079f9cad7946fd982b8f268815c3cd",
+        "3cc303a555c54fdd9da7e35f655d1345",
+        "75238ba2ea164816a705a5551509e996",
+        "7f999add90464300a9eacf35fe88ac2f"
+      ],
+      "source_ids": [
+        "MO-manager",
+        "MO-news"
+      ]
+    },
+    {
+      "moratorium_id": "ny-german-flatts-2025",
+      "all_26_live_guards": {
+        "state": "New York",
+        "state_abbrev": "NY",
+        "jurisdiction": "German Flatts",
+        "jurisdiction_type": "Town",
+        "date_enacted": "",
+        "duration": "12 months",
+        "legal_basis": "Town of German Flatts local law (12-month solar & wind moratorium), reviewed by Herkimer County Planning Board 2025-05-19",
+        "trigger": "",
+        "current_status": "Under review per industry tracker; Herkimer County Planning Board minutes confirm the Town was advancing a 12-month moratorium on solar and wind energy systems (no county recommendation given) as of May 2025. A separately reviewed \"Battery Energy Storage System Law\" discussed at the same meeting was a permanent regulatory ordinance, not a moratorium, so this entry is limited to the solar/wind sectors actually confirmed. [VERIFY instrument number not confirmed at confidence 0.55 in the 2026-09 refresh]",
+        "affected_projects": "",
+        "outcome": "12-month moratorium on solar energy systems, solar farms, wind energy systems and windmills.",
+        "has_verify_tags": "True",
+        "verify_count": "1",
+        "cite_count": "0",
+        "activity_level": "Medium",
+        "enacted_status": "active",
+        "moratorium_id": "ny-german-flatts-2025",
+        "latitude": "42.982408",
+        "longitude": "-74.987827",
+        "date_enacted_iso": "2025",
+        "date_enacted_uncertainty": "year_only",
+        "duration_days": "365",
+        "duration_kind": "fixed_days",
+        "current_end_date_iso": "",
+        "sectors": "[\"solar\",\"wind\"]",
+        "trigger_categories": "[]"
+      },
+      "all_guards_match_assignment_and_proposal": true,
+      "field_decisions": [
+        {
+          "field": "state",
+          "before": "New York",
+          "primary_proposal": null,
+          "decision": "retain",
+          "after": "New York",
+          "rationale": "Jurisdiction and state identity consistent with the reviewed city, county, or township source; this confirms geography only, not legal force.",
+          "source_ids": [],
+          "evidence_limit": "unresolved_retained"
+        },
+        {
+          "field": "state_abbrev",
+          "before": "NY",
+          "primary_proposal": null,
+          "decision": "retain",
+          "after": "NY",
+          "rationale": "USPS state abbreviation corresponds to the named state; no legal-force inference.",
+          "source_ids": [],
+          "evidence_limit": "retain_bounded"
+        },
+        {
+          "field": "jurisdiction",
+          "before": "German Flatts",
+          "primary_proposal": null,
+          "decision": "retain",
+          "after": "German Flatts",
+          "rationale": "Named local jurisdiction matches source; this does not by itself resolve instrument lineage.",
+          "source_ids": [],
+          "evidence_limit": "retain_bounded"
+        },
+        {
+          "field": "jurisdiction_type",
+          "before": "Town",
+          "primary_proposal": null,
+          "decision": "retain",
+          "after": "Town",
+          "rationale": "Government type matches the source’s city, town or township reference.",
+          "source_ids": [],
+          "evidence_limit": "retain_bounded"
+        },
+        {
+          "field": "date_enacted",
+          "before": "",
+          "primary_proposal": null,
+          "decision": "retain",
+          "after": "",
+          "rationale": "Blank is appropriate: county review of a local law on May 19 does not establish town adoption.",
+          "source_ids": [
+            "NY-minutes"
+          ],
+          "evidence_limit": "unresolved_retained"
+        },
+        {
+          "field": "duration",
+          "before": "12 months",
+          "primary_proposal": null,
+          "decision": "retain",
+          "after": "12 months",
+          "rationale": "County minutes describe 12 months; anchor and final adopted law remain unknown.",
+          "source_ids": [
+            "NY-minutes"
+          ],
+          "evidence_limit": "retain_bounded"
+        },
+        {
+          "field": "legal_basis",
+          "before": "Town of German Flatts local law (12-month solar & wind moratorium), reviewed by Herkimer County Planning Board 2025-05-19",
+          "primary_proposal": null,
+          "decision": "retain",
+          "after": "Town of German Flatts local law (12-month solar & wind moratorium), reviewed by Herkimer County Planning Board 2025-05-19",
+          "rationale": "County minutes call it a local law; instrument number, town vote and filing unverified. The separate BESS law is not this solar/wind measure.",
+          "source_ids": [
+            "NY-minutes"
+          ],
+          "evidence_limit": "unresolved_retained"
+        },
+        {
+          "field": "trigger",
+          "before": "",
+          "primary_proposal": null,
+          "decision": "retain",
+          "after": "",
+          "rationale": "Blank retained: minutes describe scope but do not establish motivating reasons.",
+          "source_ids": [
+            "NY-minutes"
+          ],
+          "evidence_limit": "unresolved_retained"
+        },
+        {
+          "field": "current_status",
+          "before": "Under review per industry tracker; Herkimer County Planning Board minutes confirm the Town was advancing a 12-month moratorium on solar and wind energy systems (no county recommendation given) as of May 2025. A separately reviewed \"Battery Energy Storage System Law\" discussed at the same meeting was a permanent regulatory ordinance, not a moratorium, so this entry is limited to the solar/wind sectors actually confirmed. [VERIFY instrument number not confirmed at confidence 0.55 in the 2026-09 refresh]",
+          "primary_proposal": null,
+          "decision": "retain",
+          "after": "Under review per industry tracker; Herkimer County Planning Board minutes confirm the Town was advancing a 12-month moratorium on solar and wind energy systems (no county recommendation given) as of May 2025. A separately reviewed \"Battery Energy Storage System Law\" discussed at the same meeting was a permanent regulatory ordinance, not a moratorium, so this entry is limited to the solar/wind sectors actually confirmed. [VERIFY instrument number not confirmed at confidence 0.55 in the 2026-09 refresh]",
+          "rationale": "County review and no-recommendation vote established May 19, 2025, not adoption or current force. Later action remains unresolved; retain earlier tracker lead as qualified.",
+          "source_ids": [
+            "NY-minutes"
+          ],
+          "evidence_limit": "unresolved_retained"
+        },
+        {
+          "field": "affected_projects",
+          "before": "",
+          "primary_proposal": null,
+          "decision": "retain",
+          "after": "",
+          "rationale": "No named project in reviewed minutes; blank is not a finding that none exists.",
+          "source_ids": [
+            "NY-minutes"
+          ],
+          "evidence_limit": "unresolved_retained"
+        },
+        {
+          "field": "outcome",
+          "before": "12-month moratorium on solar energy systems, solar farms, wind energy systems and windmills.",
+          "primary_proposal": "Herkimer County Planning Board reviewed a local law for a 12-month moratorium on applications and approvals and/or construction or installation of solar energy systems, solar farms, wind energy systems and windmills on May 19, 2025; town adoption and later action are unverified.",
+          "decision": "accept",
+          "after": "Herkimer County Planning Board reviewed a local law for a 12-month moratorium on applications and approvals and/or construction or installation of solar energy systems, solar farms, wind energy systems and windmills on May 19, 2025; town adoption and later action are unverified.",
+          "rationale": "County minutes describe a proposed/referred 12-month application, approval and construction/installation moratorium; they do not establish town passage. Wording corrected to preserve that distinction.",
+          "source_ids": [
+            "NY-minutes"
+          ],
+          "evidence_limit": "propose_correction"
+        },
+        {
+          "field": "has_verify_tags",
+          "before": "True",
+          "primary_proposal": null,
+          "decision": "retain",
+          "after": "True",
+          "rationale": "Mechanical annotation follows the resulting row: validator counts occurrences starting [VERIFY, and promotion recomputes bracketed VERIFY markers; this is not legal evidence. Protected columns must be recomputed by the application pipeline.",
+          "source_ids": [],
+          "evidence_limit": "retain_bounded"
+        },
+        {
+          "field": "verify_count",
+          "before": "1",
+          "primary_proposal": null,
+          "decision": "retain",
+          "after": "1",
+          "rationale": "Mechanical annotation follows the resulting row: validator counts occurrences starting [VERIFY, and promotion recomputes bracketed VERIFY markers; this is not legal evidence. Protected columns must be recomputed by the application pipeline.",
+          "source_ids": [],
+          "evidence_limit": "retain_bounded"
+        },
+        {
+          "field": "cite_count",
+          "before": "0",
+          "primary_proposal": null,
+          "decision": "retain",
+          "after": "0",
+          "rationale": "Legacy count of citation markers; this private packet’s sources do not automatically insert markers into the CSV.",
+          "source_ids": [],
+          "evidence_limit": "retain_bounded"
+        },
+        {
+          "field": "activity_level",
+          "before": "Medium",
+          "primary_proposal": null,
+          "decision": "retain",
+          "after": "Medium",
+          "rationale": "State-wide classification metadata retained; no source-specific reclassification and no evidence of present force.",
+          "source_ids": [],
+          "evidence_limit": "retain_bounded"
+        },
+        {
+          "field": "enacted_status",
+          "before": "active",
+          "primary_proposal": null,
+          "decision": "retain",
+          "after": "active",
+          "rationale": "Retain existing active bucket solely as an unverified historical classification; it does not establish adoption, continuing force, or subsequent legal effect. Reassess from the specified original instruments and later proceedings.",
+          "source_ids": [
+            "NY-minutes"
+          ],
+          "evidence_limit": "retain_bounded"
+        },
+        {
+          "field": "moratorium_id",
+          "before": "ny-german-flatts-2025",
+          "primary_proposal": null,
+          "decision": "retain",
+          "after": "ny-german-flatts-2025",
+          "rationale": "Retain stable current join key for this guarded review; year suffix is not proof of adoption. If adoption remains undated, reconcile codebook undated naming through a separate identity migration and consumer review.",
+          "source_ids": [],
+          "evidence_limit": "unresolved_retained"
+        },
+        {
+          "field": "latitude",
+          "before": "42.982408",
+          "primary_proposal": null,
+          "decision": "retain",
+          "after": "42.982408",
+          "rationale": "Existing jurisdiction centroid is retained without independent geocoding; it is metadata and cannot establish instrument identity or force. Re-geocode separately if geographic accuracy is required.",
+          "source_ids": [],
+          "evidence_limit": "unresolved_retained"
+        },
+        {
+          "field": "longitude",
+          "before": "-74.987827",
+          "primary_proposal": null,
+          "decision": "retain",
+          "after": "-74.987827",
+          "rationale": "Existing jurisdiction centroid is retained without independent geocoding; it is metadata and cannot establish instrument identity or force. Re-geocode separately if geographic accuracy is required.",
+          "source_ids": [],
+          "evidence_limit": "unresolved_retained"
+        },
+        {
+          "field": "date_enacted_iso",
+          "before": "2025",
+          "primary_proposal": "",
+          "decision": "accept",
+          "after": "",
+          "rationale": "2025 is year of county review, not established year of adoption; remove unsupported adoption year.",
+          "source_ids": [
+            "NY-minutes"
+          ],
+          "evidence_limit": "propose_correction"
+        },
+        {
+          "field": "date_enacted_uncertainty",
+          "before": "year_only",
+          "primary_proposal": "unverified",
+          "decision": "accept",
+          "after": "unverified",
+          "rationale": "With adoption unknown, unverified replaces year_only; no implied date.",
+          "source_ids": [
+            "NY-minutes"
+          ],
+          "evidence_limit": "propose_correction"
+        },
+        {
+          "field": "duration_days",
+          "before": "365",
+          "primary_proposal": "",
+          "decision": "accept",
+          "after": "",
+          "rationale": "Twelve calendar months cannot be translated to 365 fixed days; remove approximation.",
+          "source_ids": [
+            "NY-minutes"
+          ],
+          "evidence_limit": "propose_correction"
+        },
+        {
+          "field": "duration_kind",
+          "before": "fixed_days",
+          "primary_proposal": "calendar_term",
+          "decision": "accept",
+          "after": "calendar_term",
+          "rationale": "Calendar term encodes the reported twelve months, subject to confirmation of final adopted text and anchor.",
+          "source_ids": [
+            "NY-minutes"
+          ],
+          "evidence_limit": "propose_correction"
+        },
+        {
+          "field": "current_end_date_iso",
+          "before": "",
+          "primary_proposal": null,
+          "decision": "retain",
+          "after": "",
+          "rationale": "Blank retained: no adoption, start, filing, end or later action established.",
+          "source_ids": [
+            "NY-minutes"
+          ],
+          "evidence_limit": "retain_bounded"
+        },
+        {
+          "field": "sectors",
+          "before": "[\"solar\",\"wind\"]",
+          "primary_proposal": null,
+          "decision": "retain",
+          "after": "[\"solar\",\"wind\"]",
+          "rationale": "County minutes specifically identify solar and wind systems; BESS appears as a separate regulatory law.",
+          "source_ids": [
+            "NY-minutes"
+          ],
+          "evidence_limit": "retain_bounded"
+        },
+        {
+          "field": "trigger_categories",
+          "before": "[]",
+          "primary_proposal": null,
+          "decision": "retain",
+          "after": "[]",
+          "rationale": "Empty retained because the county review passage does not state reasons; not proof no reasons existed.",
+          "source_ids": [
+            "NY-minutes"
+          ],
+          "evidence_limit": "unresolved_retained"
+        }
+      ],
+      "accepted_atomic_changes": [
+        {
+          "field": "outcome",
+          "before": "12-month moratorium on solar energy systems, solar farms, wind energy systems and windmills.",
+          "after": "Herkimer County Planning Board reviewed a local law for a 12-month moratorium on applications and approvals and/or construction or installation of solar energy systems, solar farms, wind energy systems and windmills on May 19, 2025; town adoption and later action are unverified.",
+          "proposal_decision": "accept",
+          "source_ids": [
+            "NY-minutes"
+          ],
+          "rationale": "County minutes describe a proposed/referred 12-month application, approval and construction/installation moratorium; they do not establish town passage. Wording corrected to preserve that distinction."
+        },
+        {
+          "field": "date_enacted_iso",
+          "before": "2025",
+          "after": "",
+          "proposal_decision": "accept",
+          "source_ids": [
+            "NY-minutes"
+          ],
+          "rationale": "2025 is year of county review, not established year of adoption; remove unsupported adoption year."
+        },
+        {
+          "field": "date_enacted_uncertainty",
+          "before": "year_only",
+          "after": "unverified",
+          "proposal_decision": "accept",
+          "source_ids": [
+            "NY-minutes"
+          ],
+          "rationale": "With adoption unknown, unverified replaces year_only; no implied date."
+        },
+        {
+          "field": "duration_days",
+          "before": "365",
+          "after": "",
+          "proposal_decision": "accept",
+          "source_ids": [
+            "NY-minutes"
+          ],
+          "rationale": "Twelve calendar months cannot be translated to 365 fixed days; remove approximation."
+        },
+        {
+          "field": "duration_kind",
+          "before": "fixed_days",
+          "after": "calendar_term",
+          "proposal_decision": "accept",
+          "source_ids": [
+            "NY-minutes"
+          ],
+          "rationale": "Calendar term encodes the reported twelve months, subject to confirmation of final adopted text and anchor."
+        }
+      ],
+      "record_disposition": "unresolved",
+      "last_supported_status_date": "2025-05-19",
+      "last_supported_observation": "County planning review of referred law",
+      "unresolved_material": "town vote, instrument number, filing/effective/start, exceptions and later history unresolved",
+      "concrete_followup": "Request town clerk board minutes, adopted solar/wind moratorium local law and NY Department of State filing receipt for 2025 onward; inspect subsequent extension, replacement, repeal and town board actions.",
+      "attempt_ids_inspected": [
+        "a049d8e8012f47f0829ccf8e799b79af",
+        "2b864636b01947c496757690a3e954dc",
+        "7b32ef1a1a1c48b4b674362f6c716903"
+      ],
+      "source_ids": [
+        "NY-minutes"
+      ]
+    },
+    {
+      "moratorium_id": "pa-east-whiteland-township-2026",
+      "all_26_live_guards": {
+        "state": "Pennsylvania",
+        "state_abbrev": "PA",
+        "jurisdiction": "East Whiteland Township",
+        "jurisdiction_type": "Township",
+        "date_enacted": "2026-03, East Whiteland Township Board of Supervisors vote to initiate a municipal curative amendment (Chester County); exact day not confirmed in sources reviewed",
+        "duration": "180 days from the March 2026 vote to draft and adopt a data-center zoning ordinance ('Data Center Ordinance'); a public hearing to consider its adoption was set for Sept. 24, 2026.",
+        "legal_basis": "East Whiteland Township municipal curative amendment under the PA Municipalities Planning Code, developed with a resident working group beginning May 2026; a Sept. 24, 2026 public hearing was set to consider adoption of the resulting ordinance",
+        "trigger": "Regulatory gap combined with a specific, highly contested project: developer Green Fig's proposal (later expanded to 1.7 million sq ft) for a data center on Swedesford Road, which drew sustained community opposition; the township already had an earlier, separately approved 2024 data-center plan on the same site.",
+        "current_status": "Nearing resolution as of 2026-09-23. The 180-day curative-amendment clock started in March 2026 (per The Center Square); Green Fig withdrew its expanded 1.7-million-sq-ft application in May 2026 amid sustained opposition and signaled intent to instead pursue its earlier, previously approved 2024 plan. A resident working group helped draft the resulting 'Data Center Ordinance,' for which the Board of Supervisors set a Sept. 24, 2026 public hearing to consider adoption (one day after this research pass); the pending Sentinel/Green Fig application is not on that hearing's agenda.",
+        "affected_projects": "Green Fig/Sentinel data center proposal on Swedesford Road; the expanded 1.7-million-sq-ft version was withdrawn in May 2026, with the developer expected to instead pursue its earlier-approved 2024 plan (details of that plan not confirmed in this pass).",
+        "outcome": "East Whiteland Township Board of Supervisors initiated a municipal curative amendment in March 2026 to add data-center zoning standards; a resident working group helped draft the resulting ordinance, which was scheduled for a Sept. 24, 2026 adoption hearing.",
+        "has_verify_tags": "False",
+        "verify_count": "0",
+        "cite_count": "0",
+        "activity_level": "Low",
+        "enacted_status": "active",
+        "moratorium_id": "pa-east-whiteland-township-2026",
+        "latitude": "40.045985",
+        "longitude": "-75.551194",
+        "date_enacted_iso": "2026-03",
+        "date_enacted_uncertainty": "month_only",
+        "duration_days": "180",
+        "duration_kind": "fixed_days",
+        "current_end_date_iso": "",
+        "sectors": "[\"data_center\"]",
+        "trigger_categories": "[\"regulatory_gap\",\"specific_project\",\"land_use_compatibility\"]"
+      },
+      "all_guards_match_assignment_and_proposal": true,
+      "field_decisions": [
+        {
+          "field": "state",
+          "before": "Pennsylvania",
+          "primary_proposal": null,
+          "decision": "retain",
+          "after": "Pennsylvania",
+          "rationale": "Jurisdiction and state identity consistent with the reviewed city, county, or township source; this confirms geography only, not legal force.",
+          "source_ids": [],
+          "evidence_limit": "unresolved_retained"
+        },
+        {
+          "field": "state_abbrev",
+          "before": "PA",
+          "primary_proposal": null,
+          "decision": "retain",
+          "after": "PA",
+          "rationale": "USPS state abbreviation corresponds to the named state; no legal-force inference.",
+          "source_ids": [],
+          "evidence_limit": "retain_bounded"
+        },
+        {
+          "field": "jurisdiction",
+          "before": "East Whiteland Township",
+          "primary_proposal": null,
+          "decision": "retain",
+          "after": "East Whiteland Township",
+          "rationale": "Named local jurisdiction matches source; this does not by itself resolve instrument lineage.",
+          "source_ids": [],
+          "evidence_limit": "retain_bounded"
+        },
+        {
+          "field": "jurisdiction_type",
+          "before": "Township",
+          "primary_proposal": null,
+          "decision": "retain",
+          "after": "Township",
+          "rationale": "Government type matches the source’s city, town or township reference.",
+          "source_ids": [],
+          "evidence_limit": "retain_bounded"
+        },
+        {
+          "field": "date_enacted",
+          "before": "2026-03, East Whiteland Township Board of Supervisors vote to initiate a municipal curative amendment (Chester County); exact day not confirmed in sources reviewed",
+          "primary_proposal": null,
+          "decision": "retain",
+          "after": "2026-03, East Whiteland Township Board of Supervisors vote to initiate a municipal curative amendment (Chester County); exact day not confirmed in sources reviewed",
+          "rationale": "Official chronology identifies March 31 Resolution 21-2026 and April 27 Resolution 25-2026 but not the separate legal roles of each. March month lead remains qualified until the resolutions and votes are examined.",
+          "source_ids": [
+            "PA-process",
+            "PA-notice",
+            "PA-ordinance",
+            "PA-news"
+          ],
+          "evidence_limit": "unresolved_retained"
+        },
+        {
+          "field": "duration",
+          "before": "180 days from the March 2026 vote to draft and adopt a data-center zoning ordinance ('Data Center Ordinance'); a public hearing to consider its adoption was set for Sept. 24, 2026.",
+          "primary_proposal": "180-day municipal curative-amendment process; township chronology states a September 27, 2026 deadline. The original resolutions and the exact legal endpoint of the earlier protection require review.",
+          "decision": "accept",
+          "after": "180-day municipal curative-amendment process; township chronology states a September 27, 2026 deadline. The original resolutions and the exact legal endpoint of the earlier protection require review.",
+          "rationale": "Official chronology calls September 27 a 180-day deadline; date and operative consequence depend on underlying resolutions and statute. September 24 is adoption, not merely a future hearing; corrected.",
+          "source_ids": [
+            "PA-process",
+            "PA-notice",
+            "PA-ordinance",
+            "PA-news"
+          ],
+          "evidence_limit": "propose_correction"
+        },
+        {
+          "field": "legal_basis",
+          "before": "East Whiteland Township municipal curative amendment under the PA Municipalities Planning Code, developed with a resident working group beginning May 2026; a Sept. 24, 2026 public hearing was set to consider adoption of the resulting ordinance",
+          "primary_proposal": null,
+          "decision": "retain",
+          "after": "East Whiteland Township municipal curative amendment under the PA Municipalities Planning Code, developed with a resident working group beginning May 2026; a Sept. 24, 2026 public hearing was set to consider adoption of the resulting ordinance",
+          "rationale": "Official notice establishes municipal curative process and identifies both resolutions. The separate zoning ordinance 385-2026 was adopted Sept 24, with immediate effectiveness stated on p.32. Need original curative resolutions to establish challenge protection versus any application bar.",
+          "source_ids": [
+            "PA-process",
+            "PA-notice",
+            "PA-ordinance",
+            "PA-news"
+          ],
+          "evidence_limit": "unresolved_retained"
+        },
+        {
+          "field": "trigger",
+          "before": "Regulatory gap combined with a specific, highly contested project: developer Green Fig's proposal (later expanded to 1.7 million sq ft) for a data center on Swedesford Road, which drew sustained community opposition; the township already had an earlier, separately approved 2024 data-center plan on the same site.",
+          "primary_proposal": null,
+          "decision": "retain",
+          "after": "Regulatory gap combined with a specific, highly contested project: developer Green Fig's proposal (later expanded to 1.7 million sq ft) for a data center on Swedesford Road, which drew sustained community opposition; the township already had an earlier, separately approved 2024 data-center plan on the same site.",
+          "rationale": "Specific project and zoning issue remain historical lead; PA-news connects existing project and zoning work. Exact expanded application details and legal impact require project file.",
+          "source_ids": [
+            "PA-process",
+            "PA-notice",
+            "PA-ordinance",
+            "PA-news"
+          ],
+          "evidence_limit": "unresolved_retained"
+        },
+        {
+          "field": "current_status",
+          "before": "Nearing resolution as of 2026-09-23. The 180-day curative-amendment clock started in March 2026 (per The Center Square); Green Fig withdrew its expanded 1.7-million-sq-ft application in May 2026 amid sustained opposition and signaled intent to instead pursue its earlier, previously approved 2024 plan. A resident working group helped draft the resulting 'Data Center Ordinance,' for which the Board of Supervisors set a Sept. 24, 2026 public hearing to consider adoption (one day after this research pass); the pending Sentinel/Green Fig application is not on that hearing's agenda.",
+          "primary_proposal": "The Board of Supervisors enacted Ordinance 385-2026 regulating data centers on September 24, 2026; its signed text states immediate effect. The township curative-amendment chronology identifies March 31 Resolution 21-2026 and April 27 Resolution 25-2026 and a September 27 deadline. The prior record reports that the expanded Green Fig application was withdrawn in May; that withdrawal remains an unverified historical lead in this pass. Later reporting describes a separate existing project. [VERIFY: original curative resolutions, scope and termination of protection, project approvals and later actions.]",
+          "decision": "modify",
+          "after": "The Board of Supervisors enacted Ordinance 385-2026 regulating data centers on September 24, 2026; its signed text states immediate effect. The township curative-amendment chronology identifies March 31 Resolution 21-2026, April 27 Resolution 25-2026, and a September 27 deadline. The earlier record reports withdrawal of the expanded Green Fig application in May; that remains an unverified historical lead in this review. September 25 reporting describes an existing project unaffected by the new ordinance. [VERIFY: original curative resolutions, scope and termination of protection, project approvals and later actions.]",
+          "rationale": "Signed ordinance pp.1,32 and official notice establish adoption and stated immediate effect. PA-news reports an existing project unaffected; its body does not establish that it is a separate project from the expanded proposal. Preserve withdrawal only as an unverified lead and do not infer termination of the earlier legal protection.",
+          "source_ids": [
+            "PA-ordinance",
+            "PA-notice",
+            "PA-process",
+            "PA-news"
+          ],
+          "evidence_limit": "propose_correction"
+        },
+        {
+          "field": "affected_projects",
+          "before": "Green Fig/Sentinel data center proposal on Swedesford Road; the expanded 1.7-million-sq-ft version was withdrawn in May 2026, with the developer expected to instead pursue its earlier-approved 2024 plan (details of that plan not confirmed in this pass).",
+          "primary_proposal": null,
+          "decision": "retain",
+          "after": "Green Fig/Sentinel data center proposal on Swedesford Road; the expanded 1.7-million-sq-ft version was withdrawn in May 2026, with the developer expected to instead pursue its earlier-approved 2024 plan (details of that plan not confirmed in this pass).",
+          "rationale": "PA-news reports existing separate project unaffected by new ordinance. Withdrawal of the expanded proposal is a historical lead; not evidence of repeal or disposition of 2024 approval.",
+          "source_ids": [
+            "PA-process",
+            "PA-notice",
+            "PA-ordinance",
+            "PA-news"
+          ],
+          "evidence_limit": "unresolved_retained"
+        },
+        {
+          "field": "outcome",
+          "before": "East Whiteland Township Board of Supervisors initiated a municipal curative amendment in March 2026 to add data-center zoning standards; a resident working group helped draft the resulting ordinance, which was scheduled for a Sept. 24, 2026 adoption hearing.",
+          "primary_proposal": "The Board of Supervisors enacted data-center zoning Ordinance 385-2026 on September 24, 2026; its signed text states immediate effect. The relationship to the earlier municipal curative-amendment protection requires review.",
+          "decision": "accept",
+          "after": "The Board of Supervisors enacted data-center zoning Ordinance 385-2026 on September 24, 2026; its signed text states immediate effect. The relationship to the earlier municipal curative-amendment protection requires review.",
+          "rationale": "Correct future-tense hearing to adopted regulation on Sept 24 based on signed p.32; exact consequence for prior curative protection requires original resolutions and statutory analysis.",
+          "source_ids": [
+            "PA-process",
+            "PA-notice",
+            "PA-ordinance",
+            "PA-news"
+          ],
+          "evidence_limit": "propose_correction"
+        },
+        {
+          "field": "has_verify_tags",
+          "before": "False",
+          "primary_proposal": "True",
+          "decision": "accept",
+          "after": "True",
+          "rationale": "Mechanical annotation follows the resulting row: validator counts occurrences starting [VERIFY, and promotion recomputes bracketed VERIFY markers; this is not legal evidence. Protected columns must be recomputed by the application pipeline.",
+          "source_ids": [],
+          "evidence_limit": "propose_correction"
+        },
+        {
+          "field": "verify_count",
+          "before": "0",
+          "primary_proposal": "1",
+          "decision": "accept",
+          "after": "1",
+          "rationale": "Mechanical annotation follows the resulting row: validator counts occurrences starting [VERIFY, and promotion recomputes bracketed VERIFY markers; this is not legal evidence. Protected columns must be recomputed by the application pipeline.",
+          "source_ids": [],
+          "evidence_limit": "propose_correction"
+        },
+        {
+          "field": "cite_count",
+          "before": "0",
+          "primary_proposal": null,
+          "decision": "retain",
+          "after": "0",
+          "rationale": "Legacy count of citation markers; this private packet’s sources do not automatically insert markers into the CSV.",
+          "source_ids": [],
+          "evidence_limit": "retain_bounded"
+        },
+        {
+          "field": "activity_level",
+          "before": "Low",
+          "primary_proposal": null,
+          "decision": "retain",
+          "after": "Low",
+          "rationale": "State-wide classification metadata retained; no source-specific reclassification and no evidence of present force.",
+          "source_ids": [],
+          "evidence_limit": "retain_bounded"
+        },
+        {
+          "field": "enacted_status",
+          "before": "active",
+          "primary_proposal": null,
+          "decision": "retain",
+          "after": "active",
+          "rationale": "Retain existing active bucket solely as an unverified historical classification; it does not establish adoption, continuing force, or subsequent legal effect. Reassess from the specified original instruments and later proceedings.",
+          "source_ids": [
+            "PA-process",
+            "PA-notice",
+            "PA-ordinance",
+            "PA-news"
+          ],
+          "evidence_limit": "unresolved_retained"
+        },
+        {
+          "field": "moratorium_id",
+          "before": "pa-east-whiteland-township-2026",
+          "primary_proposal": null,
+          "decision": "retain",
+          "after": "pa-east-whiteland-township-2026",
+          "rationale": "Retain stable current join key for this guarded review; year suffix is not proof of adoption. If adoption remains undated, reconcile codebook undated naming through a separate identity migration and consumer review.",
+          "source_ids": [],
+          "evidence_limit": "unresolved_retained"
+        },
+        {
+          "field": "latitude",
+          "before": "40.045985",
+          "primary_proposal": null,
+          "decision": "retain",
+          "after": "40.045985",
+          "rationale": "Existing jurisdiction centroid is retained without independent geocoding; it is metadata and cannot establish instrument identity or force. Re-geocode separately if geographic accuracy is required.",
+          "source_ids": [],
+          "evidence_limit": "unresolved_retained"
+        },
+        {
+          "field": "longitude",
+          "before": "-75.551194",
+          "primary_proposal": null,
+          "decision": "retain",
+          "after": "-75.551194",
+          "rationale": "Existing jurisdiction centroid is retained without independent geocoding; it is metadata and cannot establish instrument identity or force. Re-geocode separately if geographic accuracy is required.",
+          "source_ids": [],
+          "evidence_limit": "unresolved_retained"
+        },
+        {
+          "field": "date_enacted_iso",
+          "before": "2026-03",
+          "primary_proposal": null,
+          "decision": "retain",
+          "after": "2026-03",
+          "rationale": "2026-03 is the existing qualified month lead for earlier curative action; March 31 meeting alone does not establish the role of resolution 21 without its text.",
+          "source_ids": [
+            "PA-process",
+            "PA-notice",
+            "PA-ordinance",
+            "PA-news"
+          ],
+          "evidence_limit": "unresolved_retained"
+        },
+        {
+          "field": "date_enacted_uncertainty",
+          "before": "month_only",
+          "primary_proposal": null,
+          "decision": "retain",
+          "after": "month_only",
+          "rationale": "month_only matches the existing qualified earlier-action lead; September 24 is successor ordinance adoption, not this date.",
+          "source_ids": [
+            "PA-process",
+            "PA-notice",
+            "PA-ordinance",
+            "PA-news"
+          ],
+          "evidence_limit": "unresolved_retained"
+        },
+        {
+          "field": "duration_days",
+          "before": "180",
+          "primary_proposal": null,
+          "decision": "retain",
+          "after": "180",
+          "rationale": "180 is supported as process deadline in township chronology; do not treat it as verified blanket permit freeze length or exact earlier legal endpoint.",
+          "source_ids": [
+            "PA-process",
+            "PA-notice",
+            "PA-ordinance",
+            "PA-news"
+          ],
+          "evidence_limit": "retain_bounded"
+        },
+        {
+          "field": "duration_kind",
+          "before": "fixed_days",
+          "primary_proposal": null,
+          "decision": "retain",
+          "after": "fixed_days",
+          "rationale": "fixed_days reflects the reported 180-day process; anchoring, conditions and relation to protection remain unresolved.",
+          "source_ids": [
+            "PA-process",
+            "PA-notice",
+            "PA-ordinance",
+            "PA-news"
+          ],
+          "evidence_limit": "unresolved_retained"
+        },
+        {
+          "field": "current_end_date_iso",
+          "before": "",
+          "primary_proposal": null,
+          "decision": "retain",
+          "after": "",
+          "rationale": "Blank retained: September 27 is a stated process deadline, not verified end of all protection, and Sept 24 ordinance does not by itself settle earlier instrument termination.",
+          "source_ids": [
+            "PA-process",
+            "PA-notice",
+            "PA-ordinance",
+            "PA-news"
+          ],
+          "evidence_limit": "retain_bounded"
+        },
+        {
+          "field": "sectors",
+          "before": "[\"data_center\"]",
+          "primary_proposal": null,
+          "decision": "retain",
+          "after": "[\"data_center\"]",
+          "rationale": "Data center sector supported by signed ordinance title and project report; original scope and any exceptions require resolutions.",
+          "source_ids": [
+            "PA-process",
+            "PA-notice",
+            "PA-ordinance",
+            "PA-news"
+          ],
+          "evidence_limit": "retain_bounded"
+        },
+        {
+          "field": "trigger_categories",
+          "before": "[\"regulatory_gap\",\"specific_project\",\"land_use_compatibility\"]",
+          "primary_proposal": null,
+          "decision": "retain",
+          "after": "[\"regulatory_gap\",\"specific_project\",\"land_use_compatibility\"]",
+          "rationale": "Regulatory gap and specific project supported by notice and reporting; land-use compatibility is consistent with ordinance findings, but earlier instrument findings need source.",
+          "source_ids": [
+            "PA-process",
+            "PA-notice",
+            "PA-ordinance",
+            "PA-news"
+          ],
+          "evidence_limit": "unresolved_retained"
+        }
+      ],
+      "accepted_atomic_changes": [
+        {
+          "field": "duration",
+          "before": "180 days from the March 2026 vote to draft and adopt a data-center zoning ordinance ('Data Center Ordinance'); a public hearing to consider its adoption was set for Sept. 24, 2026.",
+          "after": "180-day municipal curative-amendment process; township chronology states a September 27, 2026 deadline. The original resolutions and the exact legal endpoint of the earlier protection require review.",
+          "proposal_decision": "accept",
+          "source_ids": [
+            "PA-process",
+            "PA-notice",
+            "PA-ordinance",
+            "PA-news"
+          ],
+          "rationale": "Official chronology calls September 27 a 180-day deadline; date and operative consequence depend on underlying resolutions and statute. September 24 is adoption, not merely a future hearing; corrected."
+        },
+        {
+          "field": "current_status",
+          "before": "Nearing resolution as of 2026-09-23. The 180-day curative-amendment clock started in March 2026 (per The Center Square); Green Fig withdrew its expanded 1.7-million-sq-ft application in May 2026 amid sustained opposition and signaled intent to instead pursue its earlier, previously approved 2024 plan. A resident working group helped draft the resulting 'Data Center Ordinance,' for which the Board of Supervisors set a Sept. 24, 2026 public hearing to consider adoption (one day after this research pass); the pending Sentinel/Green Fig application is not on that hearing's agenda.",
+          "after": "The Board of Supervisors enacted Ordinance 385-2026 regulating data centers on September 24, 2026; its signed text states immediate effect. The township curative-amendment chronology identifies March 31 Resolution 21-2026, April 27 Resolution 25-2026, and a September 27 deadline. The earlier record reports withdrawal of the expanded Green Fig application in May; that remains an unverified historical lead in this review. September 25 reporting describes an existing project unaffected by the new ordinance. [VERIFY: original curative resolutions, scope and termination of protection, project approvals and later actions.]",
+          "proposal_decision": "modify",
+          "source_ids": [
+            "PA-ordinance",
+            "PA-notice",
+            "PA-process",
+            "PA-news"
+          ],
+          "rationale": "Signed ordinance pp.1,32 and official notice establish adoption and stated immediate effect. PA-news reports an existing project unaffected; its body does not establish that it is a separate project from the expanded proposal. Preserve withdrawal only as an unverified lead and do not infer termination of the earlier legal protection."
+        },
+        {
+          "field": "outcome",
+          "before": "East Whiteland Township Board of Supervisors initiated a municipal curative amendment in March 2026 to add data-center zoning standards; a resident working group helped draft the resulting ordinance, which was scheduled for a Sept. 24, 2026 adoption hearing.",
+          "after": "The Board of Supervisors enacted data-center zoning Ordinance 385-2026 on September 24, 2026; its signed text states immediate effect. The relationship to the earlier municipal curative-amendment protection requires review.",
+          "proposal_decision": "accept",
+          "source_ids": [
+            "PA-process",
+            "PA-notice",
+            "PA-ordinance",
+            "PA-news"
+          ],
+          "rationale": "Correct future-tense hearing to adopted regulation on Sept 24 based on signed p.32; exact consequence for prior curative protection requires original resolutions and statutory analysis."
+        },
+        {
+          "field": "has_verify_tags",
+          "before": "False",
+          "after": "True",
+          "proposal_decision": "accept",
+          "source_ids": [],
+          "rationale": "Mechanical annotation follows the resulting row: validator counts occurrences starting [VERIFY, and promotion recomputes bracketed VERIFY markers; this is not legal evidence. Protected columns must be recomputed by the application pipeline."
+        },
+        {
+          "field": "verify_count",
+          "before": "0",
+          "after": "1",
+          "proposal_decision": "accept",
+          "source_ids": [],
+          "rationale": "Mechanical annotation follows the resulting row: validator counts occurrences starting [VERIFY, and promotion recomputes bracketed VERIFY markers; this is not legal evidence. Protected columns must be recomputed by the application pipeline."
+        }
+      ],
+      "record_disposition": "unresolved",
+      "last_supported_status_date": "2026-09-24",
+      "last_supported_observation": "Signed successor zoning ordinance enacted; effective immediately per text",
+      "unresolved_material": "identity and legal effect of original resolutions, exact protection endpoint, pending application and subsequent actions unresolved",
+      "concrete_followup": "Obtain East Whiteland signed Resolutions 21-2026 and 25-2026, March 31 and April 27 minutes, September 24 hearing/minutes and ordinance complete text; inspect project approvals and subsequent amendments, curative protection scope and endpoint under MPC.",
+      "attempt_ids_inspected": [
+        "3ddbc5978e2c4451a7872a4e48df9965",
+        "c8fb0467e0ca492b939cf16610592a78",
+        "6d40d91ce3c043fc99d76f09a9aa2ff7",
+        "b80d0d3539614d6fa82b3aa46fd31222",
+        "8c07fd7aaebc4488b54af2f615a889c8"
+      ],
+      "source_ids": [
+        "PA-process",
+        "PA-notice",
+        "PA-ordinance",
+        "PA-news"
+      ]
+    }
+  ],
+  "counts": {
+    "field_decisions": 78,
+    "proposals": 10,
+    "proposals_accepted": 9,
+    "proposals_modified": 1,
+    "proposals_rejected": 0,
+    "accepted_changed_cells": 10,
+    "unresolved_records": 3
+  }
+}

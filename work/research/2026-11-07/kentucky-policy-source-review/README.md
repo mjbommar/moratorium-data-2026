@@ -1,0 +1,13 @@
+# Kentucky policy source review
+
+Applied **29 field corrections across all eight existing Kentucky policy records**, after three primary and three independent terra CLI reviews, 152 field decisions, all 19 exact live guards per row and 40 body/text representation hash checks. No rows were added or removed. Policy, bill, enacted-category, local and ballot census totals are unchanged.
+
+HB593's House-passed substitute distinguishes a projected peak load over **25 MW for municipal utilities** from **250 MW for regulated retail suppliers**. Its cost protections and section-specific exceptions do not establish a construction moratorium. HB544 concerns aggregated qualifying new utility loads over 100 MW and distinguishes exclusive-facility from shared-benefit costs.
+
+HB372 proposed incentive support; the vetoed engrossed print and adopted free conference-report summary are identified separately because the full conference report remains unreviewed. Its 2051 exemption endpoint is not a whole-act sunset. HB775 removes the former location restriction and adds population-based investment thresholds. HB8's no-signature enactment and subsequent filing/veto ruling are distinct actions; original program conditions must not be silently presented as current after later amendments.
+
+SB197's HCS1 utility proposal is distinct from the final appropriations vehicle. The proposed 25 MW application-information condition is described precisely. No `data center` text match was found in the retained HCS2 and enrolled extractions; this is limited to those versions and does not prove absence of similar law elsewhere. Incorrect sponsor attribution is corrected while unsupported party remains blank with historical leads in the audit.
+
+SB319 combines decommissioning/security and incentive engagement, including common-ownership load aggregation and timing conditions. SB330 concerns disclosure and confidentiality, with specified triggers and a trade-secret exception. Utility demand as disclosed information is distinguished from a utility load restriction.
+
+Post-session history and contemporary reporting support qualified failure inferences, rather than a newly verified final-journal disposition. Effective dates, original-versus-final versions, later amendments, party and statewide activity classifications retain precise follow-ups. No current legal force is inferred from signature or enactment. See `exact-diff.json`, `full-row-guards.json`, `field-ledger.json`, `source-hash-checks.json` and `apply-receipt.json`. [Source preservation](../kentucky-policy-source-recovery/README.md) records 19 additional versions. Full nationwide freshness, expanded ballots, all consumers and final release remain open.

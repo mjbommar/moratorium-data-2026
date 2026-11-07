@@ -206,15 +206,15 @@ State policy is tracked separately: **22 records** (18 typed bill rows and 4 non
 - **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-03, East Whiteland Township Board of Supervisors vote to initiate a municipal curative amendment (Chester County); exact day not confirmed in sources reviewed
 - **Normalized date:** `2026-03` (month_only)
-- **Duration:** 180 days from the March 2026 vote to draft and adopt a data-center zoning ordinance ('Data Center Ordinance'); a public hearing to consider its adoption was set for Sept. 24, 2026.
+- **Duration:** 180-day municipal curative-amendment process; township chronology states a September 27, 2026 deadline. The original resolutions and the exact legal endpoint of the earlier protection require review.
 - **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `pa-east-whiteland-township-2026`
 - **Legal basis:** East Whiteland Township municipal curative amendment under the PA Municipalities Planning Code, developed with a resident working group beginning May 2026; a Sept. 24, 2026 public hearing was set to consider adoption of the resulting ordinance
 - **What prompted it:** Regulatory gap combined with a specific, highly contested project: developer Green Fig's proposal (later expanded to 1.7 million sq ft) for a data center on Swedesford Road, which drew sustained community opposition; the township already had an earlier, separately approved 2024 data-center plan on the same site.
 - **Affected projects:** Green Fig/Sentinel data center proposal on Swedesford Road; the expanded 1.7-million-sq-ft version was withdrawn in May 2026, with the developer expected to instead pursue its earlier-approved 2024 plan (details of that plan not confirmed in this pass).
-- **Detailed status:** Nearing resolution as of 2026-09-23. The 180-day curative-amendment clock started in March 2026 (per The Center Square); Green Fig withdrew its expanded 1.7-million-sq-ft application in May 2026 amid sustained opposition and signaled intent to instead pursue its earlier, previously approved 2024 plan. A resident working group helped draft the resulting 'Data Center Ordinance,' for which the Board of Supervisors set a Sept. 24, 2026 public hearing to consider adoption (one day after this research pass); the pending Sentinel/Green Fig application is not on that hearing's agenda.
-- **Outcome:** East Whiteland Township Board of Supervisors initiated a municipal curative amendment in March 2026 to add data-center zoning standards; a resident working group helped draft the resulting ordinance, which was scheduled for a Sept. 24, 2026 adoption hearing.
+- **Detailed status:** The Board of Supervisors enacted Ordinance 385-2026 regulating data centers on September 24, 2026; its signed text states immediate effect. The township curative-amendment chronology identifies March 31 Resolution 21-2026, April 27 Resolution 25-2026, and a September 27 deadline. The earlier record reports withdrawal of the expanded Green Fig application in May; that remains an unverified historical lead in this review. September 25 reporting describes an existing project unaffected by the new ordinance. [VERIFY: original curative resolutions, scope and termination of protection, project approvals and later actions.]
+- **Outcome:** The Board of Supervisors enacted data-center zoning Ordinance 385-2026 on September 24, 2026; its signed text states immediate effect. The relationship to the earlier municipal curative-amendment protection requires review.
 
 ### Falls Township (Bucks County)
 

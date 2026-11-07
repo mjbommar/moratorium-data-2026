@@ -1,0 +1,3247 @@
+{
+  "reviews": {
+    "a": {
+      "review_date": "2026-11-07",
+      "scope": "3 Louisiana policy records; 57 fields; independent offline review; no canonical writes",
+      "target": "/home/mjbommar/projects/personal/moratorium-data-2026/data/state_legislation.csv",
+      "field_decisions": [
+        {
+          "policy_action_id": "la-hb1206-2026-rs",
+          "field": "state",
+          "assigned_value": "Louisiana",
+          "live_csv_value": "Louisiana",
+          "prior_proposed_value": null,
+          "prior_proposal_decision": "no proposal",
+          "independent_disposition": "retain",
+          "after": "Louisiana",
+          "evidence": [
+            {
+              "source_id": "T1206",
+              "role": "original bill text",
+              "source_date": "2026 regular session",
+              "observed_at": "2026-11-05T23:37:03.551564Z",
+              "locator": "PDF p.1 heading, lines 1-12"
+            }
+          ],
+          "rationale": "Louisiana legislative text identifies the state and session.",
+          "followup": "No further action unless jurisdiction is disputed."
+        },
+        {
+          "policy_action_id": "la-hb1206-2026-rs",
+          "field": "state_abbrev",
+          "assigned_value": "LA",
+          "live_csv_value": "LA",
+          "prior_proposed_value": null,
+          "prior_proposal_decision": "no proposal",
+          "independent_disposition": "retain",
+          "after": "LA",
+          "evidence": [
+            {
+              "source_id": "T1206",
+              "role": "original bill text",
+              "source_date": "2026 regular session",
+              "observed_at": "2026-11-05T23:37:03.551564Z",
+              "locator": "PDF p.1 heading, lines 1-12"
+            }
+          ],
+          "rationale": "LA is the standard abbreviation for Louisiana.",
+          "followup": "No further action unless jurisdiction is disputed."
+        },
+        {
+          "policy_action_id": "la-hb1206-2026-rs",
+          "field": "bill",
+          "assigned_value": "HB1206 (2026 RS)",
+          "live_csv_value": "HB1206 (2026 RS)",
+          "prior_proposed_value": null,
+          "prior_proposal_decision": "no proposal",
+          "independent_disposition": "retain",
+          "after": "HB1206 (2026 RS)",
+          "evidence": [
+            {
+              "source_id": "T1206",
+              "role": "original bill text",
+              "source_date": "2026 regular session",
+              "observed_at": "2026-11-05T23:37:03.551564Z",
+              "locator": "PDF p.1 heading, lines 1-12"
+            }
+          ],
+          "rationale": "The official original is Louisiana House Bill 1206 in the 2026 regular session.",
+          "followup": "Maintain this instrument identity separately from any companion, substitute, or successor."
+        },
+        {
+          "policy_action_id": "la-hb1206-2026-rs",
+          "field": "sponsors",
+          "assigned_value": "Rep. Joy Walters",
+          "live_csv_value": "Rep. Joy Walters",
+          "prior_proposed_value": null,
+          "prior_proposal_decision": "no proposal",
+          "independent_disposition": "retain",
+          "after": "Rep. Joy Walters",
+          "evidence": [
+            {
+              "source_id": "H1206",
+              "role": "official bill status and authors",
+              "source_date": "2026 regular session",
+              "observed_at": "2026-11-05T23:37:02.284494Z",
+              "locator": "HTML extracted lines 3-4, 25-26; original PDF p.1 heading"
+            }
+          ],
+          "rationale": "The original and official bill page identify Walters as author.",
+          "followup": "Retain the original instrument identity; expand authors only if the field is made comprehensive."
+        },
+        {
+          "policy_action_id": "la-hb1206-2026-rs",
+          "field": "party",
+          "assigned_value": "D (LA House Democrat)",
+          "live_csv_value": "D (LA House Democrat)",
+          "prior_proposed_value": null,
+          "prior_proposal_decision": "no proposal",
+          "independent_disposition": "retain",
+          "after": "D (LA House Democrat)",
+          "evidence": [
+            {
+              "source_id": "WALTERS",
+              "role": "official member profile",
+              "source_date": "undated page; event dates in text",
+              "observed_at": "2026-11-07T22:11:15.712211Z",
+              "locator": "HTML visible member name and party; extracted lines 54-55"
+            }
+          ],
+          "rationale": "Official profile identifies the named member party during the 2024–28 term; profiles are undated pages observed 2026-11-07.",
+          "followup": "Verify any historical party change before using the profile as a complete affiliation chronology."
+        },
+        {
+          "policy_action_id": "la-hb1206-2026-rs",
+          "field": "status",
+          "assigned_value": "Died in House Natural Resources and Environment Committee; last action was committee consideration 2026-04-28, no report issued; 2026 RS adjourned sine die 2026-06-01 with no further movement",
+          "live_csv_value": "Died in House Natural Resources and Environment Committee; last action was committee consideration 2026-04-28, no report issued; 2026 RS adjourned sine die 2026-06-01 with no further movement",
+          "prior_proposed_value": "Final disposition: House committee at adjournment 2026-06-01; bill page reports committee consideration 2026-04-28.",
+          "prior_proposal_decision": "modify",
+          "independent_disposition": "modify",
+          "after": "Died in House committee at final adjournment 2026-06-01; bill page reports consideration 2026-04-28. Referred to House Natural Resources and Environment; the assigned no-report detail awaits committee minutes.",
+          "evidence": [
+            {
+              "source_id": "H1206",
+              "role": "official bill status and authors",
+              "source_date": "2026 regular session",
+              "observed_at": "2026-11-05T23:37:02.284494Z",
+              "locator": "HTML extracted lines 7-20; raw HTML current-status line 30"
+            },
+            {
+              "source_id": "FINAL",
+              "role": "official final disposition table",
+              "source_date": "2026-06-01",
+              "observed_at": "2026-11-07T22:10:31.286148Z",
+              "locator": "2026 House bills table: row 922 or 1206, COMMITTEE/HOUSE; legend defines died in committee"
+            },
+            {
+              "source_id": "SESSION",
+              "role": "official session information",
+              "source_date": "2026-06-01",
+              "observed_at": "2026-11-07T22:10:05.645730Z",
+              "locator": "HTML extracted line 26, final adjournment June 1, 2026"
+            }
+          ],
+          "rationale": "Final table expressly says died in House committee; bill page identifies referral and displays consideration. The no-report claim is a lead, not established by the preserved final table.",
+          "followup": "Inspect official committee minutes and journal for named committee, consideration details, and whether a report issued; check separately numbered successors without importing their outcome."
+        },
+        {
+          "policy_action_id": "la-hb1206-2026-rs",
+          "field": "key_provisions",
+          "assigned_value": "Would define data centers at 100 MW or more, require water permits for facilities exceeding 100 million gallons per year, require quarterly water-use reports, require parish notice and public hearings before permits, and assign unique identifiers to data center permits.",
+          "live_csv_value": "Would define data centers at 100 MW or more, require water permits for facilities exceeding 100 million gallons per year, require quarterly water-use reports, require parish notice and public hearings before permits, and assign unique identifiers to data center permits.",
+          "prior_proposed_value": "Would define data centers as facilities designed for 100 MW or more; require a permit for proposed consumptive water use exceeding 100 million gallons per year, quarterly water-use reporting, parish notice and public hearings, and a unique identifier for each data center on associated permits.",
+          "prior_proposal_decision": "accept",
+          "independent_disposition": "accept",
+          "after": "Would define data centers as facilities designed for 100 MW or more; require a permit for proposed consumptive water use exceeding 100 million gallons per year, quarterly water-use reporting, parish notice and public hearings, and a unique identifier for each data center on associated permits.",
+          "evidence": [
+            {
+              "source_id": "T1206",
+              "role": "original bill text",
+              "source_date": "2026 regular session",
+              "observed_at": "2026-11-05T23:37:03.551564Z",
+              "locator": "PDF p.1 lines 17-20; p.2 lines 7-8; p.3 lines 1-3, 15-18; p.4 lines 24-29; p.5 lines 1-14"
+            }
+          ],
+          "rationale": "Original bill sets proposed terms; individual-center identifiers attach to permits.",
+          "followup": "Obtain adopted amendments or successor bills before transferring provisions to another instrument."
+        },
+        {
+          "policy_action_id": "la-hb1206-2026-rs",
+          "field": "activity_level",
+          "assigned_value": "Low",
+          "live_csv_value": "Low",
+          "prior_proposed_value": null,
+          "prior_proposal_decision": "no proposal",
+          "independent_disposition": "retain_qualified",
+          "after": "Low",
+          "evidence": [
+            {
+              "source_id": "INVENTORY",
+              "role": "live local inventory classification comparison",
+              "source_date": "undated working CSV",
+              "observed_at": "2026-11-07 review",
+              "locator": "Louisiana rows, activity_level column: all three say Low"
+            }
+          ],
+          "rationale": "All three live Louisiana inventory rows carry Low, consistent with the assigned value; this does not independently validate statewide completeness or the classification rule.",
+          "followup": "Reconcile all Louisiana local rows and statewide classification against the completed full-scope inventory."
+        },
+        {
+          "policy_action_id": "la-hb1206-2026-rs",
+          "field": "bill_status_category",
+          "assigned_value": "failed_died",
+          "live_csv_value": "failed_died",
+          "prior_proposed_value": null,
+          "prior_proposal_decision": "no proposal",
+          "independent_disposition": "retain",
+          "after": "failed_died",
+          "evidence": [
+            {
+              "source_id": "H1206",
+              "role": "official bill status and authors",
+              "source_date": "2026 regular session",
+              "observed_at": "2026-11-05T23:37:02.284494Z",
+              "locator": "HTML extracted lines 7-20; raw HTML current-status line 30"
+            },
+            {
+              "source_id": "FINAL",
+              "role": "official final disposition table",
+              "source_date": "2026-06-01",
+              "observed_at": "2026-11-07T22:10:31.286148Z",
+              "locator": "2026 House bills table: row 922 or 1206, COMMITTEE/HOUSE; legend defines died in committee"
+            },
+            {
+              "source_id": "SESSION",
+              "role": "official session information",
+              "source_date": "2026-06-01",
+              "observed_at": "2026-11-07T22:10:05.645730Z",
+              "locator": "HTML extracted line 26, final adjournment June 1, 2026"
+            }
+          ],
+          "rationale": "Final table leaves bill in House committee at final session adjournment, supporting failed_died.",
+          "followup": "Check for a separately numbered successor only as a distinct instrument."
+        },
+        {
+          "policy_action_id": "la-hb1206-2026-rs",
+          "field": "last_action_date_iso",
+          "assigned_value": "2026-04-28",
+          "live_csv_value": "2026-04-28",
+          "prior_proposed_value": null,
+          "prior_proposal_decision": "no proposal",
+          "independent_disposition": "retain_qualified",
+          "after": "2026-04-28",
+          "evidence": [
+            {
+              "source_id": "H1206",
+              "role": "official bill status and authors",
+              "source_date": "2026 regular session",
+              "observed_at": "2026-11-05T23:37:02.284494Z",
+              "locator": "HTML extracted lines 7-20; raw HTML current-status line 30"
+            },
+            {
+              "source_id": "FINAL",
+              "role": "official final disposition table",
+              "source_date": "2026-06-01",
+              "observed_at": "2026-11-07T22:10:31.286148Z",
+              "locator": "2026 House bills table: row 922 or 1206, COMMITTEE/HOUSE; legend defines died in committee"
+            },
+            {
+              "source_id": "SESSION",
+              "role": "official session information",
+              "source_date": "2026-06-01",
+              "observed_at": "2026-11-07T22:10:05.645730Z",
+              "locator": "HTML extracted line 26, final adjournment June 1, 2026"
+            }
+          ],
+          "rationale": "The official current-status display dates committee consideration; the journal list does not identify the consideration as a separate journal entry. Retain as qualified rather than infer a later action from session adjournment.",
+          "followup": "Check official committee minutes and journal for the latest recorded legislative action and any reported substitute."
+        },
+        {
+          "policy_action_id": "la-hb1206-2026-rs",
+          "field": "chamber_of_origin",
+          "assigned_value": "House",
+          "live_csv_value": "House",
+          "prior_proposed_value": null,
+          "prior_proposal_decision": "no proposal",
+          "independent_disposition": "retain",
+          "after": "House",
+          "evidence": [
+            {
+              "source_id": "T1206",
+              "role": "original bill text",
+              "source_date": "2026 regular session",
+              "observed_at": "2026-11-05T23:37:03.551564Z",
+              "locator": "PDF p.1 heading, lines 1-12"
+            }
+          ],
+          "rationale": "House Bill heading identifies originating chamber.",
+          "followup": "No further action unless an independent amendment is tracked."
+        },
+        {
+          "policy_action_id": "la-hb1206-2026-rs",
+          "field": "policy_instrument_type",
+          "assigned_value": "bill",
+          "live_csv_value": "bill",
+          "prior_proposed_value": null,
+          "prior_proposal_decision": "no proposal",
+          "independent_disposition": "retain",
+          "after": "bill",
+          "evidence": [
+            {
+              "source_id": "T1206",
+              "role": "original bill text",
+              "source_date": "2026 regular session",
+              "observed_at": "2026-11-05T23:37:03.551564Z",
+              "locator": "PDF p.1 heading, lines 1-12"
+            }
+          ],
+          "rationale": "Heading and enacting clause identify a bill.",
+          "followup": "Track independently numbered successor or amendment separately."
+        },
+        {
+          "policy_action_id": "la-hb1206-2026-rs",
+          "field": "policy_mechanism",
+          "assigned_value": "permitting_restriction",
+          "live_csv_value": "permitting_restriction",
+          "prior_proposed_value": null,
+          "prior_proposal_decision": "no proposal",
+          "independent_disposition": "retain",
+          "after": "permitting_restriction",
+          "evidence": [
+            {
+              "source_id": "T1206",
+              "role": "original bill text",
+              "source_date": "2026 regular session",
+              "observed_at": "2026-11-05T23:37:03.551564Z",
+              "locator": "PDF p.1 lines 17-20; p.2 lines 7-8; p.3 lines 1-3, 15-18; p.4 lines 24-29; p.5 lines 1-14"
+            }
+          ],
+          "rationale": "Permitting requirement fits permitting_restriction.",
+          "followup": "Review any separately enacted successor under its own text."
+        },
+        {
+          "policy_action_id": "la-hb1206-2026-rs",
+          "field": "legal_effect_status",
+          "assigned_value": "failed",
+          "live_csv_value": "failed",
+          "prior_proposed_value": null,
+          "prior_proposal_decision": "no proposal",
+          "independent_disposition": "retain",
+          "after": "failed",
+          "evidence": [
+            {
+              "source_id": "H1206",
+              "role": "official bill status and authors",
+              "source_date": "2026 regular session",
+              "observed_at": "2026-11-05T23:37:02.284494Z",
+              "locator": "HTML extracted lines 7-20; raw HTML current-status line 30"
+            },
+            {
+              "source_id": "FINAL",
+              "role": "official final disposition table",
+              "source_date": "2026-06-01",
+              "observed_at": "2026-11-07T22:10:31.286148Z",
+              "locator": "2026 House bills table: row 922 or 1206, COMMITTEE/HOUSE; legend defines died in committee"
+            },
+            {
+              "source_id": "SESSION",
+              "role": "official session information",
+              "source_date": "2026-06-01",
+              "observed_at": "2026-11-07T22:10:05.645730Z",
+              "locator": "HTML extracted line 26, final adjournment June 1, 2026"
+            }
+          ],
+          "rationale": "Failed bill remained in committee at final adjournment.",
+          "followup": "Check independently numbered successor without transferring its outcome."
+        },
+        {
+          "policy_action_id": "la-hb1206-2026-rs",
+          "field": "scope_of_action",
+          "assigned_value": "statewide",
+          "live_csv_value": "statewide",
+          "prior_proposed_value": null,
+          "prior_proposal_decision": "no proposal",
+          "independent_disposition": "retain",
+          "after": "statewide",
+          "evidence": [
+            {
+              "source_id": "T1206",
+              "role": "original bill text",
+              "source_date": "2026 regular session",
+              "observed_at": "2026-11-05T23:37:03.551564Z",
+              "locator": "PDF p.1 lines 17-20; p.2 lines 7-8; p.3 lines 1-3, 15-18; p.4 lines 24-29; p.5 lines 1-14"
+            }
+          ],
+          "rationale": "Proposed state departments and facilities across Louisiana; statewide is the codebook geographic/authority classification.",
+          "followup": "Revisit classification if a more specific agreed authority surface is adopted."
+        },
+        {
+          "policy_action_id": "la-hb1206-2026-rs",
+          "field": "effective_date_iso",
+          "assigned_value": "",
+          "live_csv_value": "",
+          "prior_proposed_value": null,
+          "prior_proposal_decision": "no proposal",
+          "independent_disposition": "retain",
+          "after": "",
+          "evidence": [
+            {
+              "source_id": "T1206",
+              "role": "original bill text",
+              "source_date": "2026 regular session",
+              "observed_at": "2026-11-05T23:37:03.551564Z",
+              "locator": "PDF p.1-6, original bill; no enacted date"
+            },
+            {
+              "source_id": "FINAL",
+              "role": "official final disposition table",
+              "source_date": "2026-06-01",
+              "observed_at": "2026-11-07T22:10:31.286148Z",
+              "locator": "2026 House bills table row 922 or 1206, COMMITTEE/HOUSE"
+            }
+          ],
+          "rationale": "No enacted effective date for a failed proposal; proposed dates do not populate this field.",
+          "followup": "Verify any later separately enacted successor with its own effective date."
+        },
+        {
+          "policy_action_id": "la-hb1206-2026-rs",
+          "field": "end_condition",
+          "assigned_value": "",
+          "live_csv_value": "",
+          "prior_proposed_value": null,
+          "prior_proposal_decision": "no proposal",
+          "independent_disposition": "retain",
+          "after": "",
+          "evidence": [
+            {
+              "source_id": "T1206",
+              "role": "original bill text",
+              "source_date": "2026 regular session",
+              "observed_at": "2026-11-05T23:37:03.551564Z",
+              "locator": "PDF p.1 lines 17-20; p.2 lines 7-8; p.3 lines 1-3, 15-18; p.4 lines 24-29; p.5 lines 1-14"
+            }
+          ],
+          "rationale": "No whole-instrument endpoint identified in original bill; it failed.",
+          "followup": "Check any revised version for a proposed endpoint; do not infer one."
+        },
+        {
+          "policy_action_id": "la-hb1206-2026-rs",
+          "field": "primary_source_url",
+          "assigned_value": "",
+          "live_csv_value": "",
+          "prior_proposed_value": "https://legis.la.gov/legis/Bill.aspx?i=251542",
+          "prior_proposal_decision": "accept",
+          "independent_disposition": "accept",
+          "after": "https://legis.la.gov/legis/Bill.aspx?i=251542",
+          "evidence": [
+            {
+              "source_id": "H1206",
+              "role": "official bill status and authors",
+              "source_date": "2026 regular session",
+              "observed_at": "2026-11-05T23:37:02.284494Z",
+              "locator": "PDF p.1 heading, lines 1-12"
+            }
+          ],
+          "rationale": "This official history is a direct entry point for the correct bill; preserve original text and final disposition as separate sources.",
+          "followup": "Keep original-text URL, history, and final disposition linked in evidence registry."
+        },
+        {
+          "policy_action_id": "la-hb1206-2026-rs",
+          "field": "policy_action_id",
+          "assigned_value": "la-hb1206-2026-rs",
+          "live_csv_value": "la-hb1206-2026-rs",
+          "prior_proposed_value": null,
+          "prior_proposal_decision": "no proposal",
+          "independent_disposition": "retain",
+          "after": "la-hb1206-2026-rs",
+          "evidence": [
+            {
+              "source_id": "T1206",
+              "role": "original bill text",
+              "source_date": "2026 regular session",
+              "observed_at": "2026-11-05T23:37:03.551564Z",
+              "locator": "PDF p.1 heading, lines 1-12"
+            }
+          ],
+          "rationale": "Existing stable ID encodes the correct bill, session, and, where applicable, act; it is a dataset key rather than an official legislative identifier.",
+          "followup": "Preserve the ID through display updates; allocate a separate ID to any distinct instrument."
+        },
+        {
+          "policy_action_id": "la-hb827-2024-rs-act-730",
+          "field": "state",
+          "assigned_value": "Louisiana",
+          "live_csv_value": "Louisiana",
+          "prior_proposed_value": null,
+          "prior_proposal_decision": "no proposal",
+          "independent_disposition": "retain",
+          "after": "Louisiana",
+          "evidence": [
+            {
+              "source_id": "T827",
+              "role": "enrolled Act 730",
+              "source_date": "2024-06-19",
+              "observed_at": "2026-11-05T23:37:09.338561Z",
+              "locator": "PDF p.1 heading and lines 1-10; official history HTML extracted lines 25-30"
+            }
+          ],
+          "rationale": "Louisiana legislative text identifies the state and session.",
+          "followup": "No further action unless jurisdiction is disputed."
+        },
+        {
+          "policy_action_id": "la-hb827-2024-rs-act-730",
+          "field": "state_abbrev",
+          "assigned_value": "LA",
+          "live_csv_value": "LA",
+          "prior_proposed_value": null,
+          "prior_proposal_decision": "no proposal",
+          "independent_disposition": "retain",
+          "after": "LA",
+          "evidence": [
+            {
+              "source_id": "T827",
+              "role": "enrolled Act 730",
+              "source_date": "2024-06-19",
+              "observed_at": "2026-11-05T23:37:09.338561Z",
+              "locator": "PDF p.1 heading and lines 1-10; official history HTML extracted lines 25-30"
+            }
+          ],
+          "rationale": "LA is the standard abbreviation for Louisiana.",
+          "followup": "No further action unless jurisdiction is disputed."
+        },
+        {
+          "policy_action_id": "la-hb827-2024-rs-act-730",
+          "field": "bill",
+          "assigned_value": "HB827 (2024 RS), Act 730",
+          "live_csv_value": "HB827 (2024 RS), Act 730",
+          "prior_proposed_value": null,
+          "prior_proposal_decision": "no proposal",
+          "independent_disposition": "retain",
+          "after": "HB827 (2024 RS), Act 730",
+          "evidence": [
+            {
+              "source_id": "T827",
+              "role": "enrolled Act 730",
+              "source_date": "2024-06-19",
+              "observed_at": "2026-11-05T23:37:09.338561Z",
+              "locator": "PDF p.1 heading and lines 1-10; official history HTML extracted lines 25-30"
+            }
+          ],
+          "rationale": "The enrolled document identifies 2024 House Bill 827 and Act 730 as the same enacted instrument.",
+          "followup": "Maintain this instrument identity separately from any companion, substitute, or successor."
+        },
+        {
+          "policy_action_id": "la-hb827-2024-rs-act-730",
+          "field": "sponsors",
+          "assigned_value": "Rep. Christopher Turner",
+          "live_csv_value": "Rep. Christopher Turner",
+          "prior_proposed_value": null,
+          "prior_proposal_decision": "no proposal",
+          "independent_disposition": "retain",
+          "after": "Rep. Christopher Turner",
+          "evidence": [
+            {
+              "source_id": "H827",
+              "role": "official enactment history",
+              "source_date": "2024-06-19",
+              "observed_at": "2026-11-05T23:37:08.189012Z",
+              "locator": "HTML extracted lines 59-64; PDF p.1 heading"
+            }
+          ],
+          "rationale": "The enrolled act lists Turner first and five additional authors; the codebook permits lead sponsor only.",
+          "followup": "Retain the original instrument identity; expand authors only if the field is made comprehensive."
+        },
+        {
+          "policy_action_id": "la-hb827-2024-rs-act-730",
+          "field": "party",
+          "assigned_value": "R (LA House Republican)",
+          "live_csv_value": "R (LA House Republican)",
+          "prior_proposed_value": null,
+          "prior_proposal_decision": "no proposal",
+          "independent_disposition": "retain",
+          "after": "R (LA House Republican)",
+          "evidence": [
+            {
+              "source_id": "TURNER",
+              "role": "official member profile",
+              "source_date": "undated page; event dates in text",
+              "observed_at": "2026-11-07T22:10:45.787622Z",
+              "locator": "HTML visible member name and party; extracted lines 54-55"
+            }
+          ],
+          "rationale": "Official profile identifies the named member party during the 2024–28 term; profiles are undated pages observed 2026-11-07.",
+          "followup": "Verify any historical party change before using the profile as a complete affiliation chronology."
+        },
+        {
+          "policy_action_id": "la-hb827-2024-rs-act-730",
+          "field": "status",
+          "assigned_value": "Enacted as Act 730; signed by Governor 2024-06-19; effective 2024-07-01",
+          "live_csv_value": "Enacted as Act 730; signed by Governor 2024-06-19; effective 2024-07-01",
+          "prior_proposed_value": null,
+          "prior_proposal_decision": "no proposal",
+          "independent_disposition": "retain",
+          "after": "Enacted as Act 730; signed by Governor 2024-06-19; effective 2024-07-01",
+          "evidence": [
+            {
+              "source_id": "H827",
+              "role": "official enactment history",
+              "source_date": "2024-06-19",
+              "observed_at": "2026-11-05T23:37:08.189012Z",
+              "locator": "HTML extracted lines 69-77; PDF p.7 lines 12-14"
+            },
+            {
+              "source_id": "T827",
+              "role": "enrolled Act 730",
+              "source_date": "2024-06-19",
+              "observed_at": "2026-11-05T23:37:09.338561Z",
+              "locator": "PDF p.7 lines 12-14"
+            },
+            {
+              "source_id": "LAW",
+              "role": "subsequent codified statute",
+              "source_date": "undated page; event dates in text",
+              "observed_at": "2026-11-05T23:37:11.212884Z",
+              "locator": "HTML extracted lines 73-80, 110-114, later statute and amendment credit"
+            }
+          ],
+          "rationale": "The official history records signature and effective date, confirmed by the enrolled act.",
+          "followup": "Check later amendments and any judicial or administrative changes before describing present effect."
+        },
+        {
+          "policy_action_id": "la-hb827-2024-rs-act-730",
+          "field": "key_provisions",
+          "assigned_value": "Created state and local sales and use tax rebate framework for qualifying data center facilities and equipment; Governor's office identified Act 730 as the incentive expected to support Meta's Richland Parish project.",
+          "live_csv_value": "Created state and local sales and use tax rebate framework for qualifying data center facilities and equipment; Governor's office identified Act 730 as the incentive expected to support Meta's Richland Parish project.",
+          "prior_proposed_value": "Act 730 added a state and local sales and use tax rebate for qualifying data center equipment and expenditures; later Act 11 of the 2024 third extraordinary session amended the provision to an exemption. A reported connection to Meta’s Richland Parish project remains a historical lead pending review of the governor’s announcement.",
+          "prior_proposal_decision": "modify",
+          "independent_disposition": "modify",
+          "after": "Act 730 added a state and local sales and use tax rebate for qualifying data center equipment and expenditures; the retained statute credits later Act 11 of the 2024 third extraordinary session and describes an exemption. The assigned claim that the Governor’s office identified Act 730 as supporting Meta’s Richland Parish project remains a historical lead pending review of that announcement.",
+          "evidence": [
+            {
+              "source_id": "T827",
+              "role": "enrolled Act 730",
+              "source_date": "2024-06-19",
+              "observed_at": "2026-11-05T23:37:09.338561Z",
+              "locator": "PDF p.4 lines 26-32; p.5 lines 1-22; PDF amendment coding p.4 footer"
+            },
+            {
+              "source_id": "LAW",
+              "role": "subsequent codified statute",
+              "source_date": "undated page; event dates in text",
+              "observed_at": "2026-11-05T23:37:11.212884Z",
+              "locator": "HTML extracted lines 73-80, 91-98, 110-114"
+            }
+          ],
+          "rationale": "Enrolled markup shows added data-center rebate; later codification credits Act 11 and uses exemption terminology. The assigned governor/Meta claim remains a qualified lead, not disproved by the missing announcement.",
+          "followup": "Read the original governor announcement and Act 11 enrolled text; trace both sections and later changes before asserting present force."
+        },
+        {
+          "policy_action_id": "la-hb827-2024-rs-act-730",
+          "field": "activity_level",
+          "assigned_value": "Low",
+          "live_csv_value": "Low",
+          "prior_proposed_value": null,
+          "prior_proposal_decision": "no proposal",
+          "independent_disposition": "retain_qualified",
+          "after": "Low",
+          "evidence": [
+            {
+              "source_id": "INVENTORY",
+              "role": "live local inventory classification comparison",
+              "source_date": "undated working CSV",
+              "observed_at": "2026-11-07 review",
+              "locator": "Louisiana rows, activity_level column: all three say Low"
+            }
+          ],
+          "rationale": "All three live Louisiana inventory rows carry Low, consistent with the assigned value; this does not independently validate statewide completeness or the classification rule.",
+          "followup": "Reconcile all Louisiana local rows and statewide classification against the completed full-scope inventory."
+        },
+        {
+          "policy_action_id": "la-hb827-2024-rs-act-730",
+          "field": "bill_status_category",
+          "assigned_value": "enacted",
+          "live_csv_value": "enacted",
+          "prior_proposed_value": null,
+          "prior_proposal_decision": "no proposal",
+          "independent_disposition": "retain",
+          "after": "enacted",
+          "evidence": [
+            {
+              "source_id": "H827",
+              "role": "official enactment history",
+              "source_date": "2024-06-19",
+              "observed_at": "2026-11-05T23:37:08.189012Z",
+              "locator": "HTML extracted lines 69-77; PDF p.7 lines 12-14"
+            },
+            {
+              "source_id": "T827",
+              "role": "enrolled Act 730",
+              "source_date": "2024-06-19",
+              "observed_at": "2026-11-05T23:37:09.338561Z",
+              "locator": "PDF p.7 lines 12-14"
+            },
+            {
+              "source_id": "LAW",
+              "role": "subsequent codified statute",
+              "source_date": "undated page; event dates in text",
+              "observed_at": "2026-11-05T23:37:11.212884Z",
+              "locator": "HTML extracted lines 73-80, 110-114, later statute and amendment credit"
+            }
+          ],
+          "rationale": "Signed and assigned Act 730; enacted.",
+          "followup": "No further action for historical enactment; review current force separately."
+        },
+        {
+          "policy_action_id": "la-hb827-2024-rs-act-730",
+          "field": "last_action_date_iso",
+          "assigned_value": "2024-06-19",
+          "live_csv_value": "2024-06-19",
+          "prior_proposed_value": null,
+          "prior_proposal_decision": "no proposal",
+          "independent_disposition": "retain",
+          "after": "2024-06-19",
+          "evidence": [
+            {
+              "source_id": "H827",
+              "role": "official enactment history",
+              "source_date": "2024-06-19",
+              "observed_at": "2026-11-05T23:37:08.189012Z",
+              "locator": "HTML extracted lines 69-77; PDF p.7 lines 12-14"
+            },
+            {
+              "source_id": "T827",
+              "role": "enrolled Act 730",
+              "source_date": "2024-06-19",
+              "observed_at": "2026-11-05T23:37:09.338561Z",
+              "locator": "PDF p.7 lines 12-14"
+            },
+            {
+              "source_id": "LAW",
+              "role": "subsequent codified statute",
+              "source_date": "undated page; event dates in text",
+              "observed_at": "2026-11-05T23:37:11.212884Z",
+              "locator": "HTML extracted lines 73-80, 110-114, later statute and amendment credit"
+            }
+          ],
+          "rationale": "The June 19 record is the signing; July 1 is effective date, not last action.",
+          "followup": "Check later action history before treating this as current."
+        },
+        {
+          "policy_action_id": "la-hb827-2024-rs-act-730",
+          "field": "chamber_of_origin",
+          "assigned_value": "House",
+          "live_csv_value": "House",
+          "prior_proposed_value": null,
+          "prior_proposal_decision": "no proposal",
+          "independent_disposition": "retain",
+          "after": "House",
+          "evidence": [
+            {
+              "source_id": "T827",
+              "role": "enrolled Act 730",
+              "source_date": "2024-06-19",
+              "observed_at": "2026-11-05T23:37:09.338561Z",
+              "locator": "PDF p.1 heading and lines 1-10; official history HTML extracted lines 25-30"
+            }
+          ],
+          "rationale": "House Bill heading identifies originating chamber.",
+          "followup": "No further action unless an independent amendment is tracked."
+        },
+        {
+          "policy_action_id": "la-hb827-2024-rs-act-730",
+          "field": "policy_instrument_type",
+          "assigned_value": "bill",
+          "live_csv_value": "bill",
+          "prior_proposed_value": null,
+          "prior_proposal_decision": "no proposal",
+          "independent_disposition": "retain",
+          "after": "bill",
+          "evidence": [
+            {
+              "source_id": "T827",
+              "role": "enrolled Act 730",
+              "source_date": "2024-06-19",
+              "observed_at": "2026-11-05T23:37:09.338561Z",
+              "locator": "PDF p.1 heading and lines 1-10; official history HTML extracted lines 25-30"
+            }
+          ],
+          "rationale": "Heading and enacting clause identify a bill.",
+          "followup": "Track independently numbered successor or amendment separately."
+        },
+        {
+          "policy_action_id": "la-hb827-2024-rs-act-730",
+          "field": "policy_mechanism",
+          "assigned_value": "incentive_restriction",
+          "live_csv_value": "incentive_restriction",
+          "prior_proposed_value": "incentive_support",
+          "prior_proposal_decision": "accept",
+          "independent_disposition": "accept",
+          "after": "incentive_support",
+          "evidence": [
+            {
+              "source_id": "T827",
+              "role": "enrolled Act 730",
+              "source_date": "2024-06-19",
+              "observed_at": "2026-11-05T23:37:09.338561Z",
+              "locator": "PDF p.4 lines 26-32; p.5 lines 1-22; PDF amendment coding p.4 footer"
+            },
+            {
+              "source_id": "LAW",
+              "role": "subsequent codified statute",
+              "source_date": "undated page; event dates in text",
+              "observed_at": "2026-11-05T23:37:11.212884Z",
+              "locator": "HTML extracted lines 73-80, 91-98, 110-114"
+            }
+          ],
+          "rationale": "Rebate supports an incentive; eligibility conditions do not make the mechanism an incentive restriction.",
+          "followup": "Review any separately enacted successor under its own text."
+        },
+        {
+          "policy_action_id": "la-hb827-2024-rs-act-730",
+          "field": "legal_effect_status",
+          "assigned_value": "unknown",
+          "live_csv_value": "unknown",
+          "prior_proposed_value": null,
+          "prior_proposal_decision": "no proposal",
+          "independent_disposition": "retain_qualified",
+          "after": "unknown",
+          "evidence": [
+            {
+              "source_id": "H827",
+              "role": "official enactment history",
+              "source_date": "2024-06-19",
+              "observed_at": "2026-11-05T23:37:08.189012Z",
+              "locator": "HTML extracted lines 69-77; PDF p.7 lines 12-14"
+            },
+            {
+              "source_id": "T827",
+              "role": "enrolled Act 730",
+              "source_date": "2024-06-19",
+              "observed_at": "2026-11-05T23:37:09.338561Z",
+              "locator": "PDF p.7 lines 12-14"
+            },
+            {
+              "source_id": "LAW",
+              "role": "subsequent codified statute",
+              "source_date": "undated page; event dates in text",
+              "observed_at": "2026-11-05T23:37:11.212884Z",
+              "locator": "HTML extracted lines 73-80, 110-114, later statute and amendment credit"
+            }
+          ],
+          "rationale": "Historical act took effect, but later amendments alter rebate text; instrument-wide current legal force has not been established.",
+          "followup": "Trace Act 11 and all later amendments to both amended sections and any intervening court decisions."
+        },
+        {
+          "policy_action_id": "la-hb827-2024-rs-act-730",
+          "field": "scope_of_action",
+          "assigned_value": "fiscal",
+          "live_csv_value": "fiscal",
+          "prior_proposed_value": null,
+          "prior_proposal_decision": "no proposal",
+          "independent_disposition": "retain",
+          "after": "fiscal",
+          "evidence": [
+            {
+              "source_id": "T827",
+              "role": "enrolled Act 730",
+              "source_date": "2024-06-19",
+              "observed_at": "2026-11-05T23:37:09.338561Z",
+              "locator": "PDF p.4 lines 26-32; p.5 lines 1-22; PDF amendment coding p.4 footer"
+            },
+            {
+              "source_id": "LAW",
+              "role": "subsequent codified statute",
+              "source_date": "undated page; event dates in text",
+              "observed_at": "2026-11-05T23:37:11.212884Z",
+              "locator": "HTML extracted lines 73-80, 91-98, 110-114"
+            }
+          ],
+          "rationale": "Tax rebates and state/local revenue are fiscal.",
+          "followup": "Revisit classification if a more specific agreed authority surface is adopted."
+        },
+        {
+          "policy_action_id": "la-hb827-2024-rs-act-730",
+          "field": "effective_date_iso",
+          "assigned_value": "",
+          "live_csv_value": "",
+          "prior_proposed_value": "2024-07-01",
+          "prior_proposal_decision": "accept",
+          "independent_disposition": "accept",
+          "after": "2024-07-01",
+          "evidence": [
+            {
+              "source_id": "T827",
+              "role": "enrolled Act 730",
+              "source_date": "2024-06-19",
+              "observed_at": "2026-11-05T23:37:09.338561Z",
+              "locator": "PDF p.7 lines 12-14"
+            },
+            {
+              "source_id": "H827",
+              "role": "official enactment history",
+              "source_date": "2024-06-19",
+              "observed_at": "2026-11-05T23:37:08.189012Z",
+              "locator": "HTML extracted lines 72-77"
+            }
+          ],
+          "rationale": "Enacted act expressly effective July 1, 2024.",
+          "followup": "No follow-up for historical date."
+        },
+        {
+          "policy_action_id": "la-hb827-2024-rs-act-730",
+          "field": "end_condition",
+          "assigned_value": "",
+          "live_csv_value": "",
+          "prior_proposed_value": "Initial rebate agreement term of 20 years, renewable for 10 years; not a whole-act sunset. Later amended.",
+          "prior_proposal_decision": "modify",
+          "independent_disposition": "modify",
+          "after": "Historical data-center rebate agreement: initial 20-year eligibility term, renewable for 10 years; not a whole-act sunset. Later statutory text amended the provision.",
+          "evidence": [
+            {
+              "source_id": "T827",
+              "role": "enrolled Act 730",
+              "source_date": "2024-06-19",
+              "observed_at": "2026-11-05T23:37:09.338561Z",
+              "locator": "PDF p.5 lines 12-22"
+            },
+            {
+              "source_id": "LAW",
+              "role": "subsequent codified statute",
+              "source_date": "undated page; event dates in text",
+              "observed_at": "2026-11-05T23:37:11.212884Z",
+              "locator": "HTML extracted lines 91-98, 110-114"
+            }
+          ],
+          "rationale": "The fixed term applies to eligibility under an individual facility agreement; it is not a sunset of Act 730. The codification credits a later amendment.",
+          "followup": "Inspect Act 11 and subsequent amendments to both sections and any actual agreement before deriving a facility-specific endpoint."
+        },
+        {
+          "policy_action_id": "la-hb827-2024-rs-act-730",
+          "field": "primary_source_url",
+          "assigned_value": "",
+          "live_csv_value": "",
+          "prior_proposed_value": "https://legis.la.gov/legis/BillInfo.aspx?b=ACT730&s=24RS",
+          "prior_proposal_decision": "accept",
+          "independent_disposition": "accept",
+          "after": "https://legis.la.gov/legis/BillInfo.aspx?b=ACT730&s=24RS",
+          "evidence": [
+            {
+              "source_id": "H827",
+              "role": "official enactment history",
+              "source_date": "2024-06-19",
+              "observed_at": "2026-11-05T23:37:08.189012Z",
+              "locator": "PDF p.1 heading and lines 1-10; official history HTML extracted lines 25-30"
+            }
+          ],
+          "rationale": "This official history is a direct entry point for the correct bill; preserve original text and final disposition as separate sources.",
+          "followup": "Keep original-text URL, history, and final disposition linked in evidence registry."
+        },
+        {
+          "policy_action_id": "la-hb827-2024-rs-act-730",
+          "field": "policy_action_id",
+          "assigned_value": "la-hb827-2024-rs-act-730",
+          "live_csv_value": "la-hb827-2024-rs-act-730",
+          "prior_proposed_value": null,
+          "prior_proposal_decision": "no proposal",
+          "independent_disposition": "retain",
+          "after": "la-hb827-2024-rs-act-730",
+          "evidence": [
+            {
+              "source_id": "T827",
+              "role": "enrolled Act 730",
+              "source_date": "2024-06-19",
+              "observed_at": "2026-11-05T23:37:09.338561Z",
+              "locator": "PDF p.1 heading and lines 1-10; official history HTML extracted lines 25-30"
+            }
+          ],
+          "rationale": "Existing stable ID encodes the correct bill, session, and, where applicable, act; it is a dataset key rather than an official legislative identifier.",
+          "followup": "Preserve the ID through display updates; allocate a separate ID to any distinct instrument."
+        },
+        {
+          "policy_action_id": "la-hb922-2026-rs",
+          "field": "state",
+          "assigned_value": "Louisiana",
+          "live_csv_value": "Louisiana",
+          "prior_proposed_value": null,
+          "prior_proposal_decision": "no proposal",
+          "independent_disposition": "retain",
+          "after": "Louisiana",
+          "evidence": [
+            {
+              "source_id": "T922",
+              "role": "original bill text",
+              "source_date": "2026 regular session",
+              "observed_at": "2026-11-05T23:37:52.070193Z",
+              "locator": "PDF p.1 heading and lines 1-9"
+            }
+          ],
+          "rationale": "Louisiana legislative text identifies the state and session.",
+          "followup": "No further action unless jurisdiction is disputed."
+        },
+        {
+          "policy_action_id": "la-hb922-2026-rs",
+          "field": "state_abbrev",
+          "assigned_value": "LA",
+          "live_csv_value": "LA",
+          "prior_proposed_value": null,
+          "prior_proposal_decision": "no proposal",
+          "independent_disposition": "retain",
+          "after": "LA",
+          "evidence": [
+            {
+              "source_id": "T922",
+              "role": "original bill text",
+              "source_date": "2026 regular session",
+              "observed_at": "2026-11-05T23:37:52.070193Z",
+              "locator": "PDF p.1 heading and lines 1-9"
+            }
+          ],
+          "rationale": "LA is the standard abbreviation for Louisiana.",
+          "followup": "No further action unless jurisdiction is disputed."
+        },
+        {
+          "policy_action_id": "la-hb922-2026-rs",
+          "field": "bill",
+          "assigned_value": "HB922 (2026 RS)",
+          "live_csv_value": "HB922 (2026 RS)",
+          "prior_proposed_value": null,
+          "prior_proposal_decision": "no proposal",
+          "independent_disposition": "retain",
+          "after": "HB922 (2026 RS)",
+          "evidence": [
+            {
+              "source_id": "T922",
+              "role": "original bill text",
+              "source_date": "2026 regular session",
+              "observed_at": "2026-11-05T23:37:52.070193Z",
+              "locator": "PDF p.1 heading and lines 1-9"
+            }
+          ],
+          "rationale": "The original identifies Louisiana House Bill 922 in the 2026 regular session.",
+          "followup": "Maintain this instrument identity separately from any companion, substitute, or successor."
+        },
+        {
+          "policy_action_id": "la-hb922-2026-rs",
+          "field": "sponsors",
+          "assigned_value": "Rep. Rodney Schamerhorn; Rep. Wilford Carter Sr.",
+          "live_csv_value": "Rep. Rodney Schamerhorn; Rep. Wilford Carter Sr.",
+          "prior_proposed_value": null,
+          "prior_proposal_decision": "no proposal",
+          "independent_disposition": "retain",
+          "after": "Rep. Rodney Schamerhorn; Rep. Wilford Carter Sr.",
+          "evidence": [
+            {
+              "source_id": "H922",
+              "role": "official bill status and authors",
+              "source_date": "2026 regular session",
+              "observed_at": "2026-11-05T23:37:05.392653Z",
+              "locator": "HTML extracted lines 43-44; original PDF p.1 heading"
+            }
+          ],
+          "rationale": "The history lists Schamerhorn as primary and Carter as another author; the original names Schamerhorn.",
+          "followup": "Retain the original instrument identity; expand authors only if the field is made comprehensive."
+        },
+        {
+          "policy_action_id": "la-hb922-2026-rs",
+          "field": "party",
+          "assigned_value": "R (Schamerhorn) / D (Carter) — bipartisan introduction",
+          "live_csv_value": "R (Schamerhorn) / D (Carter) — bipartisan introduction",
+          "prior_proposed_value": null,
+          "prior_proposal_decision": "no proposal",
+          "independent_disposition": "retain",
+          "after": "R (Schamerhorn) / D (Carter) — bipartisan introduction",
+          "evidence": [
+            {
+              "source_id": "SCHAMERHORN",
+              "role": "official member profile",
+              "source_date": "undated page; event dates in text",
+              "observed_at": "2026-11-07T22:10:49.782769Z",
+              "locator": "HTML visible member name and party; extracted lines 54-55"
+            },
+            {
+              "source_id": "CARTER",
+              "role": "official member profile",
+              "source_date": "undated page; event dates in text",
+              "observed_at": "2026-11-07T22:10:54.246878Z",
+              "locator": "HTML visible member name and party; extracted lines 54-55"
+            }
+          ],
+          "rationale": "Official profile identifies the named member party during the 2024–28 term; profiles are undated pages observed 2026-11-07.",
+          "followup": "Verify any historical party change before using the profile as a complete affiliation chronology."
+        },
+        {
+          "policy_action_id": "la-hb922-2026-rs",
+          "field": "status",
+          "assigned_value": "Died in House Commerce Committee; last action was committee consideration 2026-04-21, no report issued; 2026 RS adjourned sine die 2026-06-01 with no further movement",
+          "live_csv_value": "Died in House Commerce Committee; last action was committee consideration 2026-04-21, no report issued; 2026 RS adjourned sine die 2026-06-01 with no further movement",
+          "prior_proposed_value": "Final disposition: House committee at adjournment 2026-06-01; bill page reports committee consideration 2026-04-21.",
+          "prior_proposal_decision": "modify",
+          "independent_disposition": "modify",
+          "after": "Died in House committee at final adjournment 2026-06-01; bill page reports consideration 2026-04-21. Referred to House Commerce; the assigned no-report detail awaits committee minutes.",
+          "evidence": [
+            {
+              "source_id": "H922",
+              "role": "official bill status and authors",
+              "source_date": "2026 regular session",
+              "observed_at": "2026-11-05T23:37:05.392653Z",
+              "locator": "HTML extracted lines 25-32 and 43-55"
+            },
+            {
+              "source_id": "FINAL",
+              "role": "official final disposition table",
+              "source_date": "2026-06-01",
+              "observed_at": "2026-11-07T22:10:31.286148Z",
+              "locator": "2026 House bills table: row 922 or 1206, COMMITTEE/HOUSE; legend defines died in committee"
+            },
+            {
+              "source_id": "SESSION",
+              "role": "official session information",
+              "source_date": "2026-06-01",
+              "observed_at": "2026-11-07T22:10:05.645730Z",
+              "locator": "HTML extracted line 26, final adjournment June 1, 2026"
+            }
+          ],
+          "rationale": "Final table expressly says died in House committee; bill page identifies referral and displays consideration. The no-report claim is a lead, not established by the preserved final table.",
+          "followup": "Inspect official committee minutes and journal for named committee, consideration details, and whether a report issued; check separately numbered successors without importing their outcome."
+        },
+        {
+          "policy_action_id": "la-hb922-2026-rs",
+          "field": "key_provisions",
+          "assigned_value": "Would define data centers at 50 MW or more of new or expanded electric demand and bar electric utilities from recovering data-center-related costs from household customers.",
+          "live_csv_value": "Would define data centers at 50 MW or more of new or expanded electric demand and bar electric utilities from recovering data-center-related costs from household customers.",
+          "prior_proposed_value": "Would define data centers as facilities imposing at least 50 MW of new or expanded electric demand and prohibit covered utility cost recovery from household customers, with PSC cost allocation and rulemaking.",
+          "prior_proposal_decision": "accept",
+          "independent_disposition": "accept",
+          "after": "Would define data centers as facilities imposing at least 50 MW of new or expanded electric demand and prohibit covered utility cost recovery from household customers, with PSC cost allocation and rulemaking.",
+          "evidence": [
+            {
+              "source_id": "T922",
+              "role": "original bill text",
+              "source_date": "2026 regular session",
+              "observed_at": "2026-11-05T23:37:52.070193Z",
+              "locator": "PDF p.1 lines 14-19; p.2 lines 1-29; p.3 lines 1-9"
+            }
+          ],
+          "rationale": "Original proposal covers PSC-regulated utilities, defines threshold demand and prohibits household cost recovery.",
+          "followup": "Obtain adopted amendments or successor bills before transferring provisions to another instrument."
+        },
+        {
+          "policy_action_id": "la-hb922-2026-rs",
+          "field": "activity_level",
+          "assigned_value": "Low",
+          "live_csv_value": "Low",
+          "prior_proposed_value": null,
+          "prior_proposal_decision": "no proposal",
+          "independent_disposition": "retain_qualified",
+          "after": "Low",
+          "evidence": [
+            {
+              "source_id": "INVENTORY",
+              "role": "live local inventory classification comparison",
+              "source_date": "undated working CSV",
+              "observed_at": "2026-11-07 review",
+              "locator": "Louisiana rows, activity_level column: all three say Low"
+            }
+          ],
+          "rationale": "All three live Louisiana inventory rows carry Low, consistent with the assigned value; this does not independently validate statewide completeness or the classification rule.",
+          "followup": "Reconcile all Louisiana local rows and statewide classification against the completed full-scope inventory."
+        },
+        {
+          "policy_action_id": "la-hb922-2026-rs",
+          "field": "bill_status_category",
+          "assigned_value": "failed_died",
+          "live_csv_value": "failed_died",
+          "prior_proposed_value": null,
+          "prior_proposal_decision": "no proposal",
+          "independent_disposition": "retain",
+          "after": "failed_died",
+          "evidence": [
+            {
+              "source_id": "H922",
+              "role": "official bill status and authors",
+              "source_date": "2026 regular session",
+              "observed_at": "2026-11-05T23:37:05.392653Z",
+              "locator": "HTML extracted lines 25-32 and 43-55"
+            },
+            {
+              "source_id": "FINAL",
+              "role": "official final disposition table",
+              "source_date": "2026-06-01",
+              "observed_at": "2026-11-07T22:10:31.286148Z",
+              "locator": "2026 House bills table: row 922 or 1206, COMMITTEE/HOUSE; legend defines died in committee"
+            },
+            {
+              "source_id": "SESSION",
+              "role": "official session information",
+              "source_date": "2026-06-01",
+              "observed_at": "2026-11-07T22:10:05.645730Z",
+              "locator": "HTML extracted line 26, final adjournment June 1, 2026"
+            }
+          ],
+          "rationale": "Final table leaves bill in House committee at final session adjournment, supporting failed_died.",
+          "followup": "Check for a separately numbered successor only as a distinct instrument."
+        },
+        {
+          "policy_action_id": "la-hb922-2026-rs",
+          "field": "last_action_date_iso",
+          "assigned_value": "2026-04-21",
+          "live_csv_value": "2026-04-21",
+          "prior_proposed_value": null,
+          "prior_proposal_decision": "no proposal",
+          "independent_disposition": "retain_qualified",
+          "after": "2026-04-21",
+          "evidence": [
+            {
+              "source_id": "H922",
+              "role": "official bill status and authors",
+              "source_date": "2026 regular session",
+              "observed_at": "2026-11-05T23:37:05.392653Z",
+              "locator": "HTML extracted lines 25-32 and 43-55"
+            },
+            {
+              "source_id": "FINAL",
+              "role": "official final disposition table",
+              "source_date": "2026-06-01",
+              "observed_at": "2026-11-07T22:10:31.286148Z",
+              "locator": "2026 House bills table: row 922 or 1206, COMMITTEE/HOUSE; legend defines died in committee"
+            },
+            {
+              "source_id": "SESSION",
+              "role": "official session information",
+              "source_date": "2026-06-01",
+              "observed_at": "2026-11-07T22:10:05.645730Z",
+              "locator": "HTML extracted line 26, final adjournment June 1, 2026"
+            }
+          ],
+          "rationale": "The official current-status display dates committee consideration; the journal list does not identify the consideration as a separate journal entry. Retain as qualified rather than infer a later action from session adjournment.",
+          "followup": "Check official committee minutes and journal for the latest recorded legislative action and any reported substitute."
+        },
+        {
+          "policy_action_id": "la-hb922-2026-rs",
+          "field": "chamber_of_origin",
+          "assigned_value": "House",
+          "live_csv_value": "House",
+          "prior_proposed_value": null,
+          "prior_proposal_decision": "no proposal",
+          "independent_disposition": "retain",
+          "after": "House",
+          "evidence": [
+            {
+              "source_id": "T922",
+              "role": "original bill text",
+              "source_date": "2026 regular session",
+              "observed_at": "2026-11-05T23:37:52.070193Z",
+              "locator": "PDF p.1 heading and lines 1-9"
+            }
+          ],
+          "rationale": "House Bill heading identifies originating chamber.",
+          "followup": "No further action unless an independent amendment is tracked."
+        },
+        {
+          "policy_action_id": "la-hb922-2026-rs",
+          "field": "policy_instrument_type",
+          "assigned_value": "bill",
+          "live_csv_value": "bill",
+          "prior_proposed_value": null,
+          "prior_proposal_decision": "no proposal",
+          "independent_disposition": "retain",
+          "after": "bill",
+          "evidence": [
+            {
+              "source_id": "T922",
+              "role": "original bill text",
+              "source_date": "2026 regular session",
+              "observed_at": "2026-11-05T23:37:52.070193Z",
+              "locator": "PDF p.1 heading and lines 1-9"
+            }
+          ],
+          "rationale": "Heading and enacting clause identify a bill.",
+          "followup": "Track independently numbered successor or amendment separately."
+        },
+        {
+          "policy_action_id": "la-hb922-2026-rs",
+          "field": "policy_mechanism",
+          "assigned_value": "other",
+          "live_csv_value": "other",
+          "prior_proposed_value": "utility_large_load_restriction",
+          "prior_proposal_decision": "accept",
+          "independent_disposition": "accept",
+          "after": "utility_large_load_restriction",
+          "evidence": [
+            {
+              "source_id": "T922",
+              "role": "original bill text",
+              "source_date": "2026 regular session",
+              "observed_at": "2026-11-05T23:37:52.070193Z",
+              "locator": "PDF p.1 lines 14-19; p.2 lines 1-29; p.3 lines 1-9"
+            }
+          ],
+          "rationale": "Cost-allocation and rate restrictions fit utility_large_load_restriction.",
+          "followup": "Review any separately enacted successor under its own text."
+        },
+        {
+          "policy_action_id": "la-hb922-2026-rs",
+          "field": "legal_effect_status",
+          "assigned_value": "failed",
+          "live_csv_value": "failed",
+          "prior_proposed_value": null,
+          "prior_proposal_decision": "no proposal",
+          "independent_disposition": "retain",
+          "after": "failed",
+          "evidence": [
+            {
+              "source_id": "H922",
+              "role": "official bill status and authors",
+              "source_date": "2026 regular session",
+              "observed_at": "2026-11-05T23:37:05.392653Z",
+              "locator": "HTML extracted lines 25-32 and 43-55"
+            },
+            {
+              "source_id": "FINAL",
+              "role": "official final disposition table",
+              "source_date": "2026-06-01",
+              "observed_at": "2026-11-07T22:10:31.286148Z",
+              "locator": "2026 House bills table: row 922 or 1206, COMMITTEE/HOUSE; legend defines died in committee"
+            },
+            {
+              "source_id": "SESSION",
+              "role": "official session information",
+              "source_date": "2026-06-01",
+              "observed_at": "2026-11-07T22:10:05.645730Z",
+              "locator": "HTML extracted line 26, final adjournment June 1, 2026"
+            }
+          ],
+          "rationale": "Failed bill remained in committee at final adjournment.",
+          "followup": "Check independently numbered successor without transferring its outcome."
+        },
+        {
+          "policy_action_id": "la-hb922-2026-rs",
+          "field": "scope_of_action",
+          "assigned_value": "unknown",
+          "live_csv_value": "unknown",
+          "prior_proposed_value": "utility_grid",
+          "prior_proposal_decision": "accept",
+          "independent_disposition": "accept",
+          "after": "utility_grid",
+          "evidence": [
+            {
+              "source_id": "T922",
+              "role": "original bill text",
+              "source_date": "2026 regular session",
+              "observed_at": "2026-11-05T23:37:52.070193Z",
+              "locator": "PDF p.1 lines 14-19; p.2 lines 1-29; p.3 lines 1-9"
+            }
+          ],
+          "rationale": "Regulates PSC-jurisdiction utility rates and allocation, so utility_grid. ",
+          "followup": "Revisit classification if a more specific agreed authority surface is adopted."
+        },
+        {
+          "policy_action_id": "la-hb922-2026-rs",
+          "field": "effective_date_iso",
+          "assigned_value": "",
+          "live_csv_value": "",
+          "prior_proposed_value": null,
+          "prior_proposal_decision": "no proposal",
+          "independent_disposition": "retain",
+          "after": "",
+          "evidence": [
+            {
+              "source_id": "T922",
+              "role": "original bill text",
+              "source_date": "2026 regular session",
+              "observed_at": "2026-11-05T23:37:52.070193Z",
+              "locator": "PDF p.3 lines 10-16"
+            },
+            {
+              "source_id": "FINAL",
+              "role": "official final disposition table",
+              "source_date": "2026-06-01",
+              "observed_at": "2026-11-07T22:10:31.286148Z",
+              "locator": "2026 House bills table row 922 or 1206, COMMITTEE/HOUSE"
+            }
+          ],
+          "rationale": "No enacted effective date for a failed proposal; proposed dates do not populate this field.",
+          "followup": "Verify any later separately enacted successor with its own effective date."
+        },
+        {
+          "policy_action_id": "la-hb922-2026-rs",
+          "field": "end_condition",
+          "assigned_value": "",
+          "live_csv_value": "",
+          "prior_proposed_value": null,
+          "prior_proposal_decision": "no proposal",
+          "independent_disposition": "retain",
+          "after": "",
+          "evidence": [
+            {
+              "source_id": "T922",
+              "role": "original bill text",
+              "source_date": "2026 regular session",
+              "observed_at": "2026-11-05T23:37:52.070193Z",
+              "locator": "PDF p.1 lines 14-19; p.2 lines 1-29; p.3 lines 1-9"
+            }
+          ],
+          "rationale": "No whole-instrument endpoint identified in original bill; it failed.",
+          "followup": "Check any revised version for a proposed endpoint; do not infer one."
+        },
+        {
+          "policy_action_id": "la-hb922-2026-rs",
+          "field": "primary_source_url",
+          "assigned_value": "",
+          "live_csv_value": "",
+          "prior_proposed_value": "https://legis.la.gov/legis/BillInfo.aspx?i=250858",
+          "prior_proposal_decision": "accept",
+          "independent_disposition": "accept",
+          "after": "https://legis.la.gov/legis/BillInfo.aspx?i=250858",
+          "evidence": [
+            {
+              "source_id": "H922",
+              "role": "official bill status and authors",
+              "source_date": "2026 regular session",
+              "observed_at": "2026-11-05T23:37:05.392653Z",
+              "locator": "PDF p.1 heading and lines 1-9"
+            }
+          ],
+          "rationale": "This official history is a direct entry point for the correct bill; preserve original text and final disposition as separate sources.",
+          "followup": "Keep original-text URL, history, and final disposition linked in evidence registry."
+        },
+        {
+          "policy_action_id": "la-hb922-2026-rs",
+          "field": "policy_action_id",
+          "assigned_value": "la-hb922-2026-rs",
+          "live_csv_value": "la-hb922-2026-rs",
+          "prior_proposed_value": null,
+          "prior_proposal_decision": "no proposal",
+          "independent_disposition": "retain",
+          "after": "la-hb922-2026-rs",
+          "evidence": [
+            {
+              "source_id": "T922",
+              "role": "original bill text",
+              "source_date": "2026 regular session",
+              "observed_at": "2026-11-05T23:37:52.070193Z",
+              "locator": "PDF p.1 heading and lines 1-9"
+            }
+          ],
+          "rationale": "Existing stable ID encodes the correct bill, session, and, where applicable, act; it is a dataset key rather than an official legislative identifier.",
+          "followup": "Preserve the ID through display updates; allocate a separate ID to any distinct instrument."
+        }
+      ],
+      "rows": [
+        {
+          "policy_action_id": "la-hb1206-2026-rs",
+          "live_guards": {
+            "state": "Louisiana",
+            "state_abbrev": "LA",
+            "bill": "HB1206 (2026 RS)",
+            "sponsors": "Rep. Joy Walters",
+            "party": "D (LA House Democrat)",
+            "status": "Died in House Natural Resources and Environment Committee; last action was committee consideration 2026-04-28, no report issued; 2026 RS adjourned sine die 2026-06-01 with no further movement",
+            "key_provisions": "Would define data centers at 100 MW or more, require water permits for facilities exceeding 100 million gallons per year, require quarterly water-use reports, require parish notice and public hearings before permits, and assign unique identifiers to data center permits.",
+            "activity_level": "Low",
+            "bill_status_category": "failed_died",
+            "last_action_date_iso": "2026-04-28",
+            "chamber_of_origin": "House",
+            "policy_instrument_type": "bill",
+            "policy_mechanism": "permitting_restriction",
+            "legal_effect_status": "failed",
+            "scope_of_action": "statewide",
+            "effective_date_iso": "",
+            "end_condition": "",
+            "primary_source_url": "",
+            "policy_action_id": "la-hb1206-2026-rs"
+          },
+          "guard_count": 19,
+          "guards_match_assignment": true,
+          "atomic_changes": [
+            {
+              "field": "status",
+              "before": "Died in House Natural Resources and Environment Committee; last action was committee consideration 2026-04-28, no report issued; 2026 RS adjourned sine die 2026-06-01 with no further movement",
+              "prior_proposed_after": "Final disposition: House committee at adjournment 2026-06-01; bill page reports committee consideration 2026-04-28.",
+              "decision": "modify",
+              "after": "Died in House committee at final adjournment 2026-06-01; bill page reports consideration 2026-04-28. Referred to House Natural Resources and Environment; the assigned no-report detail awaits committee minutes.",
+              "evidence": [
+                {
+                  "source_id": "H1206",
+                  "role": "official bill status and authors",
+                  "source_date": "2026 regular session",
+                  "observed_at": "2026-11-05T23:37:02.284494Z",
+                  "locator": "HTML extracted lines 7-20; raw HTML current-status line 30"
+                },
+                {
+                  "source_id": "FINAL",
+                  "role": "official final disposition table",
+                  "source_date": "2026-06-01",
+                  "observed_at": "2026-11-07T22:10:31.286148Z",
+                  "locator": "2026 House bills table: row 922 or 1206, COMMITTEE/HOUSE; legend defines died in committee"
+                },
+                {
+                  "source_id": "SESSION",
+                  "role": "official session information",
+                  "source_date": "2026-06-01",
+                  "observed_at": "2026-11-07T22:10:05.645730Z",
+                  "locator": "HTML extracted line 26, final adjournment June 1, 2026"
+                }
+              ],
+              "rationale": "Final table expressly says died in House committee; bill page identifies referral and displays consideration. The no-report claim is a lead, not established by the preserved final table.",
+              "followup": "Inspect official committee minutes and journal for named committee, consideration details, and whether a report issued; check separately numbered successors without importing their outcome."
+            },
+            {
+              "field": "key_provisions",
+              "before": "Would define data centers at 100 MW or more, require water permits for facilities exceeding 100 million gallons per year, require quarterly water-use reports, require parish notice and public hearings before permits, and assign unique identifiers to data center permits.",
+              "prior_proposed_after": "Would define data centers as facilities designed for 100 MW or more; require a permit for proposed consumptive water use exceeding 100 million gallons per year, quarterly water-use reporting, parish notice and public hearings, and a unique identifier for each data center on associated permits.",
+              "decision": "accept",
+              "after": "Would define data centers as facilities designed for 100 MW or more; require a permit for proposed consumptive water use exceeding 100 million gallons per year, quarterly water-use reporting, parish notice and public hearings, and a unique identifier for each data center on associated permits.",
+              "evidence": [
+                {
+                  "source_id": "T1206",
+                  "role": "original bill text",
+                  "source_date": "2026 regular session",
+                  "observed_at": "2026-11-05T23:37:03.551564Z",
+                  "locator": "PDF p.1 lines 17-20; p.2 lines 7-8; p.3 lines 1-3, 15-18; p.4 lines 24-29; p.5 lines 1-14"
+                }
+              ],
+              "rationale": "Original bill sets proposed terms; individual-center identifiers attach to permits.",
+              "followup": "Obtain adopted amendments or successor bills before transferring provisions to another instrument."
+            },
+            {
+              "field": "primary_source_url",
+              "before": "",
+              "prior_proposed_after": "https://legis.la.gov/legis/Bill.aspx?i=251542",
+              "decision": "accept",
+              "after": "https://legis.la.gov/legis/Bill.aspx?i=251542",
+              "evidence": [
+                {
+                  "source_id": "H1206",
+                  "role": "official bill status and authors",
+                  "source_date": "2026 regular session",
+                  "observed_at": "2026-11-05T23:37:02.284494Z",
+                  "locator": "PDF p.1 heading, lines 1-12"
+                }
+              ],
+              "rationale": "This official history is a direct entry point for the correct bill; preserve original text and final disposition as separate sources.",
+              "followup": "Keep original-text URL, history, and final disposition linked in evidence registry."
+            }
+          ],
+          "action_outcome": "Final disposition House committee; session final adjournment 2026-06-01, bill failed; page reports consideration 2026-04-28.",
+          "observation_date": "2026-11-07",
+          "observation_qualification": "Final disposition and session pages observed 2026-11-07; bill history and original texts observed 2026-11-05."
+        },
+        {
+          "policy_action_id": "la-hb827-2024-rs-act-730",
+          "live_guards": {
+            "state": "Louisiana",
+            "state_abbrev": "LA",
+            "bill": "HB827 (2024 RS), Act 730",
+            "sponsors": "Rep. Christopher Turner",
+            "party": "R (LA House Republican)",
+            "status": "Enacted as Act 730; signed by Governor 2024-06-19; effective 2024-07-01",
+            "key_provisions": "Created state and local sales and use tax rebate framework for qualifying data center facilities and equipment; Governor's office identified Act 730 as the incentive expected to support Meta's Richland Parish project.",
+            "activity_level": "Low",
+            "bill_status_category": "enacted",
+            "last_action_date_iso": "2024-06-19",
+            "chamber_of_origin": "House",
+            "policy_instrument_type": "bill",
+            "policy_mechanism": "incentive_restriction",
+            "legal_effect_status": "unknown",
+            "scope_of_action": "fiscal",
+            "effective_date_iso": "",
+            "end_condition": "",
+            "primary_source_url": "",
+            "policy_action_id": "la-hb827-2024-rs-act-730"
+          },
+          "guard_count": 19,
+          "guards_match_assignment": true,
+          "atomic_changes": [
+            {
+              "field": "key_provisions",
+              "before": "Created state and local sales and use tax rebate framework for qualifying data center facilities and equipment; Governor's office identified Act 730 as the incentive expected to support Meta's Richland Parish project.",
+              "prior_proposed_after": "Act 730 added a state and local sales and use tax rebate for qualifying data center equipment and expenditures; later Act 11 of the 2024 third extraordinary session amended the provision to an exemption. A reported connection to Meta’s Richland Parish project remains a historical lead pending review of the governor’s announcement.",
+              "decision": "modify",
+              "after": "Act 730 added a state and local sales and use tax rebate for qualifying data center equipment and expenditures; the retained statute credits later Act 11 of the 2024 third extraordinary session and describes an exemption. The assigned claim that the Governor’s office identified Act 730 as supporting Meta’s Richland Parish project remains a historical lead pending review of that announcement.",
+              "evidence": [
+                {
+                  "source_id": "T827",
+                  "role": "enrolled Act 730",
+                  "source_date": "2024-06-19",
+                  "observed_at": "2026-11-05T23:37:09.338561Z",
+                  "locator": "PDF p.4 lines 26-32; p.5 lines 1-22; PDF amendment coding p.4 footer"
+                },
+                {
+                  "source_id": "LAW",
+                  "role": "subsequent codified statute",
+                  "source_date": "undated page; event dates in text",
+                  "observed_at": "2026-11-05T23:37:11.212884Z",
+                  "locator": "HTML extracted lines 73-80, 91-98, 110-114"
+                }
+              ],
+              "rationale": "Enrolled markup shows added data-center rebate; later codification credits Act 11 and uses exemption terminology. The assigned governor/Meta claim remains a qualified lead, not disproved by the missing announcement.",
+              "followup": "Read the original governor announcement and Act 11 enrolled text; trace both sections and later changes before asserting present force."
+            },
+            {
+              "field": "policy_mechanism",
+              "before": "incentive_restriction",
+              "prior_proposed_after": "incentive_support",
+              "decision": "accept",
+              "after": "incentive_support",
+              "evidence": [
+                {
+                  "source_id": "T827",
+                  "role": "enrolled Act 730",
+                  "source_date": "2024-06-19",
+                  "observed_at": "2026-11-05T23:37:09.338561Z",
+                  "locator": "PDF p.4 lines 26-32; p.5 lines 1-22; PDF amendment coding p.4 footer"
+                },
+                {
+                  "source_id": "LAW",
+                  "role": "subsequent codified statute",
+                  "source_date": "undated page; event dates in text",
+                  "observed_at": "2026-11-05T23:37:11.212884Z",
+                  "locator": "HTML extracted lines 73-80, 91-98, 110-114"
+                }
+              ],
+              "rationale": "Rebate supports an incentive; eligibility conditions do not make the mechanism an incentive restriction.",
+              "followup": "Review any separately enacted successor under its own text."
+            },
+            {
+              "field": "effective_date_iso",
+              "before": "",
+              "prior_proposed_after": "2024-07-01",
+              "decision": "accept",
+              "after": "2024-07-01",
+              "evidence": [
+                {
+                  "source_id": "T827",
+                  "role": "enrolled Act 730",
+                  "source_date": "2024-06-19",
+                  "observed_at": "2026-11-05T23:37:09.338561Z",
+                  "locator": "PDF p.7 lines 12-14"
+                },
+                {
+                  "source_id": "H827",
+                  "role": "official enactment history",
+                  "source_date": "2024-06-19",
+                  "observed_at": "2026-11-05T23:37:08.189012Z",
+                  "locator": "HTML extracted lines 72-77"
+                }
+              ],
+              "rationale": "Enacted act expressly effective July 1, 2024.",
+              "followup": "No follow-up for historical date."
+            },
+            {
+              "field": "end_condition",
+              "before": "",
+              "prior_proposed_after": "Initial rebate agreement term of 20 years, renewable for 10 years; not a whole-act sunset. Later amended.",
+              "decision": "modify",
+              "after": "Historical data-center rebate agreement: initial 20-year eligibility term, renewable for 10 years; not a whole-act sunset. Later statutory text amended the provision.",
+              "evidence": [
+                {
+                  "source_id": "T827",
+                  "role": "enrolled Act 730",
+                  "source_date": "2024-06-19",
+                  "observed_at": "2026-11-05T23:37:09.338561Z",
+                  "locator": "PDF p.5 lines 12-22"
+                },
+                {
+                  "source_id": "LAW",
+                  "role": "subsequent codified statute",
+                  "source_date": "undated page; event dates in text",
+                  "observed_at": "2026-11-05T23:37:11.212884Z",
+                  "locator": "HTML extracted lines 91-98, 110-114"
+                }
+              ],
+              "rationale": "The fixed term applies to eligibility under an individual facility agreement; it is not a sunset of Act 730. The codification credits a later amendment.",
+              "followup": "Inspect Act 11 and subsequent amendments to both sections and any actual agreement before deriving a facility-specific endpoint."
+            },
+            {
+              "field": "primary_source_url",
+              "before": "",
+              "prior_proposed_after": "https://legis.la.gov/legis/BillInfo.aspx?b=ACT730&s=24RS",
+              "decision": "accept",
+              "after": "https://legis.la.gov/legis/BillInfo.aspx?b=ACT730&s=24RS",
+              "evidence": [
+                {
+                  "source_id": "H827",
+                  "role": "official enactment history",
+                  "source_date": "2024-06-19",
+                  "observed_at": "2026-11-05T23:37:08.189012Z",
+                  "locator": "PDF p.1 heading and lines 1-10; official history HTML extracted lines 25-30"
+                }
+              ],
+              "rationale": "This official history is a direct entry point for the correct bill; preserve original text and final disposition as separate sources.",
+              "followup": "Keep original-text URL, history, and final disposition linked in evidence registry."
+            }
+          ],
+          "action_outcome": "Signed 2024-06-19 as Act 730; historical effective date 2024-07-01; later amended and present instrument-wide force unresolved.",
+          "observation_date": "2026-11-07",
+          "observation_qualification": "Final disposition and session pages observed 2026-11-07; bill history and original texts observed 2026-11-05."
+        },
+        {
+          "policy_action_id": "la-hb922-2026-rs",
+          "live_guards": {
+            "state": "Louisiana",
+            "state_abbrev": "LA",
+            "bill": "HB922 (2026 RS)",
+            "sponsors": "Rep. Rodney Schamerhorn; Rep. Wilford Carter Sr.",
+            "party": "R (Schamerhorn) / D (Carter) — bipartisan introduction",
+            "status": "Died in House Commerce Committee; last action was committee consideration 2026-04-21, no report issued; 2026 RS adjourned sine die 2026-06-01 with no further movement",
+            "key_provisions": "Would define data centers at 50 MW or more of new or expanded electric demand and bar electric utilities from recovering data-center-related costs from household customers.",
+            "activity_level": "Low",
+            "bill_status_category": "failed_died",
+            "last_action_date_iso": "2026-04-21",
+            "chamber_of_origin": "House",
+            "policy_instrument_type": "bill",
+            "policy_mechanism": "other",
+            "legal_effect_status": "failed",
+            "scope_of_action": "unknown",
+            "effective_date_iso": "",
+            "end_condition": "",
+            "primary_source_url": "",
+            "policy_action_id": "la-hb922-2026-rs"
+          },
+          "guard_count": 19,
+          "guards_match_assignment": true,
+          "atomic_changes": [
+            {
+              "field": "status",
+              "before": "Died in House Commerce Committee; last action was committee consideration 2026-04-21, no report issued; 2026 RS adjourned sine die 2026-06-01 with no further movement",
+              "prior_proposed_after": "Final disposition: House committee at adjournment 2026-06-01; bill page reports committee consideration 2026-04-21.",
+              "decision": "modify",
+              "after": "Died in House committee at final adjournment 2026-06-01; bill page reports consideration 2026-04-21. Referred to House Commerce; the assigned no-report detail awaits committee minutes.",
+              "evidence": [
+                {
+                  "source_id": "H922",
+                  "role": "official bill status and authors",
+                  "source_date": "2026 regular session",
+                  "observed_at": "2026-11-05T23:37:05.392653Z",
+                  "locator": "HTML extracted lines 25-32 and 43-55"
+                },
+                {
+                  "source_id": "FINAL",
+                  "role": "official final disposition table",
+                  "source_date": "2026-06-01",
+                  "observed_at": "2026-11-07T22:10:31.286148Z",
+                  "locator": "2026 House bills table: row 922 or 1206, COMMITTEE/HOUSE; legend defines died in committee"
+                },
+                {
+                  "source_id": "SESSION",
+                  "role": "official session information",
+                  "source_date": "2026-06-01",
+                  "observed_at": "2026-11-07T22:10:05.645730Z",
+                  "locator": "HTML extracted line 26, final adjournment June 1, 2026"
+                }
+              ],
+              "rationale": "Final table expressly says died in House committee; bill page identifies referral and displays consideration. The no-report claim is a lead, not established by the preserved final table.",
+              "followup": "Inspect official committee minutes and journal for named committee, consideration details, and whether a report issued; check separately numbered successors without importing their outcome."
+            },
+            {
+              "field": "key_provisions",
+              "before": "Would define data centers at 50 MW or more of new or expanded electric demand and bar electric utilities from recovering data-center-related costs from household customers.",
+              "prior_proposed_after": "Would define data centers as facilities imposing at least 50 MW of new or expanded electric demand and prohibit covered utility cost recovery from household customers, with PSC cost allocation and rulemaking.",
+              "decision": "accept",
+              "after": "Would define data centers as facilities imposing at least 50 MW of new or expanded electric demand and prohibit covered utility cost recovery from household customers, with PSC cost allocation and rulemaking.",
+              "evidence": [
+                {
+                  "source_id": "T922",
+                  "role": "original bill text",
+                  "source_date": "2026 regular session",
+                  "observed_at": "2026-11-05T23:37:52.070193Z",
+                  "locator": "PDF p.1 lines 14-19; p.2 lines 1-29; p.3 lines 1-9"
+                }
+              ],
+              "rationale": "Original proposal covers PSC-regulated utilities, defines threshold demand and prohibits household cost recovery.",
+              "followup": "Obtain adopted amendments or successor bills before transferring provisions to another instrument."
+            },
+            {
+              "field": "policy_mechanism",
+              "before": "other",
+              "prior_proposed_after": "utility_large_load_restriction",
+              "decision": "accept",
+              "after": "utility_large_load_restriction",
+              "evidence": [
+                {
+                  "source_id": "T922",
+                  "role": "original bill text",
+                  "source_date": "2026 regular session",
+                  "observed_at": "2026-11-05T23:37:52.070193Z",
+                  "locator": "PDF p.1 lines 14-19; p.2 lines 1-29; p.3 lines 1-9"
+                }
+              ],
+              "rationale": "Cost-allocation and rate restrictions fit utility_large_load_restriction.",
+              "followup": "Review any separately enacted successor under its own text."
+            },
+            {
+              "field": "scope_of_action",
+              "before": "unknown",
+              "prior_proposed_after": "utility_grid",
+              "decision": "accept",
+              "after": "utility_grid",
+              "evidence": [
+                {
+                  "source_id": "T922",
+                  "role": "original bill text",
+                  "source_date": "2026 regular session",
+                  "observed_at": "2026-11-05T23:37:52.070193Z",
+                  "locator": "PDF p.1 lines 14-19; p.2 lines 1-29; p.3 lines 1-9"
+                }
+              ],
+              "rationale": "Regulates PSC-jurisdiction utility rates and allocation, so utility_grid. ",
+              "followup": "Revisit classification if a more specific agreed authority surface is adopted."
+            },
+            {
+              "field": "primary_source_url",
+              "before": "",
+              "prior_proposed_after": "https://legis.la.gov/legis/BillInfo.aspx?i=250858",
+              "decision": "accept",
+              "after": "https://legis.la.gov/legis/BillInfo.aspx?i=250858",
+              "evidence": [
+                {
+                  "source_id": "H922",
+                  "role": "official bill status and authors",
+                  "source_date": "2026 regular session",
+                  "observed_at": "2026-11-05T23:37:05.392653Z",
+                  "locator": "PDF p.1 heading and lines 1-9"
+                }
+              ],
+              "rationale": "This official history is a direct entry point for the correct bill; preserve original text and final disposition as separate sources.",
+              "followup": "Keep original-text URL, history, and final disposition linked in evidence registry."
+            }
+          ],
+          "action_outcome": "Final disposition House committee; session final adjournment 2026-06-01, bill failed; page reports consideration 2026-04-21.",
+          "observation_date": "2026-11-07",
+          "observation_qualification": "Final disposition and session pages observed 2026-11-07; bill history and original texts observed 2026-11-05."
+        }
+      ],
+      "source_registry": [
+        {
+          "source_id": "H1206",
+          "role": "official bill status and authors",
+          "url": "https://legis.la.gov/legis/Bill.aspx?i=251542",
+          "source_date": "2026 regular session",
+          "observed_at": "2026-11-05T23:37:02.284494Z",
+          "body_path": "/data0/moratorium-refresh-2026/full/la-state-policy-001/47707addf00a4b1ea3cd1c4139c22484.private.body",
+          "sha256": "a49ec7407356eac444bb85ffffece77647406ae037e99a32d1ba4bedc4428b27",
+          "hash_verified_against_retained_metadata": true,
+          "locator_convention": "PDF printed page and printed line; HTML extracted text line or raw HTML line as specified",
+          "independent_recomputed_sha256": "a49ec7407356eac444bb85ffffece77647406ae037e99a32d1ba4bedc4428b27",
+          "retrieval_metadata_path": "/data0/moratorium-refresh-2026/full/la-state-policy-001/47707addf00a4b1ea3cd1c4139c22484.private.json",
+          "metadata_content_sha256_match": true,
+          "hash_method": "SHA-256 recomputed from retained original body and matched both registered digest and retained retrieval metadata content_sha256."
+        },
+        {
+          "source_id": "T1206",
+          "role": "original bill text",
+          "url": "https://www.legis.la.gov/legis/ViewDocument.aspx?d=1457876",
+          "source_date": "2026 regular session",
+          "observed_at": "2026-11-05T23:37:03.551564Z",
+          "body_path": "/data0/moratorium-refresh-2026/full/la-state-policy-001/e653b2e555724e32b90a6c921d3ee6f4.private.body",
+          "sha256": "98451b39e7cf7925403cb6037a6b8f2db32584d57eaa83dc6438b3b16071f04a",
+          "hash_verified_against_retained_metadata": true,
+          "locator_convention": "PDF printed page and printed line; HTML extracted text line or raw HTML line as specified",
+          "independent_recomputed_sha256": "98451b39e7cf7925403cb6037a6b8f2db32584d57eaa83dc6438b3b16071f04a",
+          "retrieval_metadata_path": "/data0/moratorium-refresh-2026/full/la-state-policy-001/e653b2e555724e32b90a6c921d3ee6f4.private.json",
+          "metadata_content_sha256_match": true,
+          "hash_method": "SHA-256 recomputed from retained original body and matched both registered digest and retained retrieval metadata content_sha256."
+        },
+        {
+          "source_id": "H827",
+          "role": "official enactment history",
+          "url": "https://legis.la.gov/legis/BillInfo.aspx?b=ACT730&s=24RS",
+          "source_date": "2024-06-19",
+          "observed_at": "2026-11-05T23:37:08.189012Z",
+          "body_path": "/data0/moratorium-refresh-2026/full/la-state-policy-001/41e514e91d644a2aac95510aa088f5e1.private.body",
+          "sha256": "6e837698cab6ff9c51f13067159e01cc8874cd28273ab38af8667aa1543a58c4",
+          "hash_verified_against_retained_metadata": true,
+          "locator_convention": "PDF printed page and printed line; HTML extracted text line or raw HTML line as specified",
+          "independent_recomputed_sha256": "6e837698cab6ff9c51f13067159e01cc8874cd28273ab38af8667aa1543a58c4",
+          "retrieval_metadata_path": "/data0/moratorium-refresh-2026/full/la-state-policy-001/41e514e91d644a2aac95510aa088f5e1.private.json",
+          "metadata_content_sha256_match": true,
+          "hash_method": "SHA-256 recomputed from retained original body and matched both registered digest and retained retrieval metadata content_sha256."
+        },
+        {
+          "source_id": "T827",
+          "role": "enrolled Act 730",
+          "url": "https://www.legis.la.gov/legis/ViewDocument.aspx?d=1382756",
+          "source_date": "2024-06-19",
+          "observed_at": "2026-11-05T23:37:09.338561Z",
+          "body_path": "/data0/moratorium-refresh-2026/full/la-state-policy-001/ab79470d305f4dc0bdbda505b1487b33.private.body",
+          "sha256": "7b0f21e62145125d49f04343c138d7b38c332e7f6137db3018dc0034635e3933",
+          "hash_verified_against_retained_metadata": true,
+          "locator_convention": "PDF printed page and printed line; HTML extracted text line or raw HTML line as specified",
+          "independent_recomputed_sha256": "7b0f21e62145125d49f04343c138d7b38c332e7f6137db3018dc0034635e3933",
+          "retrieval_metadata_path": "/data0/moratorium-refresh-2026/full/la-state-policy-001/ab79470d305f4dc0bdbda505b1487b33.private.json",
+          "metadata_content_sha256_match": true,
+          "hash_method": "SHA-256 recomputed from retained original body and matched both registered digest and retained retrieval metadata content_sha256."
+        },
+        {
+          "source_id": "LAW",
+          "role": "subsequent codified statute",
+          "url": "https://www.legis.la.gov/legis/Law.aspx?d=1186787",
+          "source_date": "undated page; event dates in text",
+          "observed_at": "2026-11-05T23:37:11.212884Z",
+          "body_path": "/data0/moratorium-refresh-2026/full/la-state-policy-001/b463d4fc7c0b4b20ba06a8f18f5f7422.private.body",
+          "sha256": "a8ec8f995b871e9786effae56e1b6ad144b172ac987fcf9df19af10d90f07166",
+          "hash_verified_against_retained_metadata": true,
+          "locator_convention": "PDF printed page and printed line; HTML extracted text line or raw HTML line as specified",
+          "independent_recomputed_sha256": "a8ec8f995b871e9786effae56e1b6ad144b172ac987fcf9df19af10d90f07166",
+          "retrieval_metadata_path": "/data0/moratorium-refresh-2026/full/la-state-policy-001/b463d4fc7c0b4b20ba06a8f18f5f7422.private.json",
+          "metadata_content_sha256_match": true,
+          "hash_method": "SHA-256 recomputed from retained original body and matched both registered digest and retained retrieval metadata content_sha256."
+        },
+        {
+          "source_id": "H922",
+          "role": "official bill status and authors",
+          "url": "https://legis.la.gov/legis/BillInfo.aspx?i=250858",
+          "source_date": "2026 regular session",
+          "observed_at": "2026-11-05T23:37:05.392653Z",
+          "body_path": "/data0/moratorium-refresh-2026/full/la-state-policy-001/2f716f8ef476463382d6c74a150b086c.private.body",
+          "sha256": "a77bdb87cbec7f3d51594b915af88e236dbc503efb4ce178a7bc0a1fdcdecc51",
+          "hash_verified_against_retained_metadata": true,
+          "locator_convention": "PDF printed page and printed line; HTML extracted text line or raw HTML line as specified",
+          "independent_recomputed_sha256": "a77bdb87cbec7f3d51594b915af88e236dbc503efb4ce178a7bc0a1fdcdecc51",
+          "retrieval_metadata_path": "/data0/moratorium-refresh-2026/full/la-state-policy-001/2f716f8ef476463382d6c74a150b086c.private.json",
+          "metadata_content_sha256_match": true,
+          "hash_method": "SHA-256 recomputed from retained original body and matched both registered digest and retained retrieval metadata content_sha256."
+        },
+        {
+          "source_id": "T922",
+          "role": "original bill text",
+          "url": "https://legis.la.gov/legis/ViewDocument.aspx?d=1447610",
+          "source_date": "2026 regular session",
+          "observed_at": "2026-11-05T23:37:52.070193Z",
+          "body_path": "/data0/moratorium-refresh-2026/full/la-state-policy-001/e5cdf2f2091049708274dba05c45a18b.private.body",
+          "sha256": "d60f70a88bfd44db2a94c5366bf1226a578a5c68901ae5fdfc89262f15f8d20e",
+          "hash_verified_against_retained_metadata": true,
+          "locator_convention": "PDF printed page and printed line; HTML extracted text line or raw HTML line as specified",
+          "independent_recomputed_sha256": "d60f70a88bfd44db2a94c5366bf1226a578a5c68901ae5fdfc89262f15f8d20e",
+          "retrieval_metadata_path": "/data0/moratorium-refresh-2026/full/la-state-policy-001/e5cdf2f2091049708274dba05c45a18b.private.json",
+          "metadata_content_sha256_match": true,
+          "hash_method": "SHA-256 recomputed from retained original body and matched both registered digest and retained retrieval metadata content_sha256."
+        },
+        {
+          "source_id": "SESSION",
+          "role": "official session information",
+          "url": "https://www.legis.la.gov/legis/SessionInfo/SessionInfo_26RS.aspx",
+          "source_date": "2026-06-01",
+          "observed_at": "2026-11-07T22:10:05.645730Z",
+          "body_path": "/data0/moratorium-refresh-2026/full-scope-closeout-2026-11-07/next/louisiana-policy-primary/f7a295a9bb964df29a9045b7d91b11f3.private.body",
+          "sha256": "3b833556fe96862919202a80aa20c75223189ec9baf878be109a3365319b3973",
+          "hash_verified_against_retained_metadata": true,
+          "locator_convention": "PDF printed page and printed line; HTML extracted text line or raw HTML line as specified",
+          "independent_recomputed_sha256": "3b833556fe96862919202a80aa20c75223189ec9baf878be109a3365319b3973",
+          "retrieval_metadata_path": "/data0/moratorium-refresh-2026/full-scope-closeout-2026-11-07/next/louisiana-policy-primary/f7a295a9bb964df29a9045b7d91b11f3.private.json",
+          "metadata_content_sha256_match": true,
+          "hash_method": "SHA-256 recomputed from retained original body and matched both registered digest and retained retrieval metadata content_sha256."
+        },
+        {
+          "source_id": "FINAL",
+          "role": "official final disposition table",
+          "url": "https://www.legis.la.gov/legis/FinalDisposition.aspx?c=H&sid=26RS",
+          "source_date": "2026-06-01",
+          "observed_at": "2026-11-07T22:10:31.286148Z",
+          "body_path": "/data0/moratorium-refresh-2026/full-scope-closeout-2026-11-07/next/louisiana-policy-primary/cfbe22f3196649a5a14ed10144401148.private.body",
+          "sha256": "c1a630bffdb3237b5e4a2db986787caca4674506901e5d7517daaa577afea65c",
+          "hash_verified_against_retained_metadata": true,
+          "locator_convention": "PDF printed page and printed line; HTML extracted text line or raw HTML line as specified",
+          "independent_recomputed_sha256": "c1a630bffdb3237b5e4a2db986787caca4674506901e5d7517daaa577afea65c",
+          "retrieval_metadata_path": "/data0/moratorium-refresh-2026/full-scope-closeout-2026-11-07/next/louisiana-policy-primary/cfbe22f3196649a5a14ed10144401148.private.json",
+          "metadata_content_sha256_match": true,
+          "hash_method": "SHA-256 recomputed from retained original body and matched both registered digest and retained retrieval metadata content_sha256."
+        },
+        {
+          "source_id": "WALTERS",
+          "role": "official member profile",
+          "url": "https://house.louisiana.gov/H_Reps/members?ID=4",
+          "source_date": "undated page; event dates in text",
+          "observed_at": "2026-11-07T22:11:15.712211Z",
+          "body_path": "/data0/moratorium-refresh-2026/full-scope-closeout-2026-11-07/next/louisiana-policy-primary/21fec14acdd04179a384d00b3c17f89c.private.body",
+          "sha256": "9aecc5c56486c45af5b0932a86d95c88020facaef1d744268ef28e9141d6012d",
+          "hash_verified_against_retained_metadata": true,
+          "locator_convention": "PDF printed page and printed line; HTML extracted text line or raw HTML line as specified",
+          "independent_recomputed_sha256": "9aecc5c56486c45af5b0932a86d95c88020facaef1d744268ef28e9141d6012d",
+          "retrieval_metadata_path": "/data0/moratorium-refresh-2026/full-scope-closeout-2026-11-07/next/louisiana-policy-primary/21fec14acdd04179a384d00b3c17f89c.private.json",
+          "metadata_content_sha256_match": true,
+          "hash_method": "SHA-256 recomputed from retained original body and matched both registered digest and retained retrieval metadata content_sha256."
+        },
+        {
+          "source_id": "TURNER",
+          "role": "official member profile",
+          "url": "https://house.louisiana.gov/H_Reps/members?ID=12",
+          "source_date": "undated page; event dates in text",
+          "observed_at": "2026-11-07T22:10:45.787622Z",
+          "body_path": "/data0/moratorium-refresh-2026/full-scope-closeout-2026-11-07/next/louisiana-policy-primary/5c05e5a2271a4e20bc3e43cb815f30e8.private.body",
+          "sha256": "5aa34a30ee6cd54ac566606606cc70aa670a5a8190bfdb6f54a14703ba43cb4f",
+          "hash_verified_against_retained_metadata": true,
+          "locator_convention": "PDF printed page and printed line; HTML extracted text line or raw HTML line as specified",
+          "independent_recomputed_sha256": "5aa34a30ee6cd54ac566606606cc70aa670a5a8190bfdb6f54a14703ba43cb4f",
+          "retrieval_metadata_path": "/data0/moratorium-refresh-2026/full-scope-closeout-2026-11-07/next/louisiana-policy-primary/5c05e5a2271a4e20bc3e43cb815f30e8.private.json",
+          "metadata_content_sha256_match": true,
+          "hash_method": "SHA-256 recomputed from retained original body and matched both registered digest and retained retrieval metadata content_sha256."
+        },
+        {
+          "source_id": "SCHAMERHORN",
+          "role": "official member profile",
+          "url": "https://house.louisiana.gov/H_Reps/members?ID=24",
+          "source_date": "undated page; event dates in text",
+          "observed_at": "2026-11-07T22:10:49.782769Z",
+          "body_path": "/data0/moratorium-refresh-2026/full-scope-closeout-2026-11-07/next/louisiana-policy-primary/bff2d6d2379844a68655a486ed43c20f.private.body",
+          "sha256": "5eaac4f4bb772b75419ae5be2eafbd7e77f0115af4caa5e43fab941332fd3280",
+          "hash_verified_against_retained_metadata": true,
+          "locator_convention": "PDF printed page and printed line; HTML extracted text line or raw HTML line as specified",
+          "independent_recomputed_sha256": "5eaac4f4bb772b75419ae5be2eafbd7e77f0115af4caa5e43fab941332fd3280",
+          "retrieval_metadata_path": "/data0/moratorium-refresh-2026/full-scope-closeout-2026-11-07/next/louisiana-policy-primary/bff2d6d2379844a68655a486ed43c20f.private.json",
+          "metadata_content_sha256_match": true,
+          "hash_method": "SHA-256 recomputed from retained original body and matched both registered digest and retained retrieval metadata content_sha256."
+        },
+        {
+          "source_id": "CARTER",
+          "role": "official member profile",
+          "url": "https://house.louisiana.gov/H_Reps/members?ID=34",
+          "source_date": "undated page; event dates in text",
+          "observed_at": "2026-11-07T22:10:54.246878Z",
+          "body_path": "/data0/moratorium-refresh-2026/full-scope-closeout-2026-11-07/next/louisiana-policy-primary/1f0ff5d2976c4e0fa6baa683b68c619a.private.body",
+          "sha256": "2c98ba150aab3e3087d052ce497ebad60a7b5a6b85cc1af736366e09defe95b5",
+          "hash_verified_against_retained_metadata": true,
+          "locator_convention": "PDF printed page and printed line; HTML extracted text line or raw HTML line as specified",
+          "independent_recomputed_sha256": "2c98ba150aab3e3087d052ce497ebad60a7b5a6b85cc1af736366e09defe95b5",
+          "retrieval_metadata_path": "/data0/moratorium-refresh-2026/full-scope-closeout-2026-11-07/next/louisiana-policy-primary/1f0ff5d2976c4e0fa6baa683b68c619a.private.json",
+          "metadata_content_sha256_match": true,
+          "hash_method": "SHA-256 recomputed from retained original body and matched both registered digest and retained retrieval metadata content_sha256."
+        },
+        {
+          "source_id": "INVENTORY",
+          "role": "live local inventory classification comparison",
+          "source_date": "undated working CSV",
+          "observed_at": "2026-11-07 review",
+          "body_path": "/data0/moratorium-refresh-2026/full-scope-closeout-2026-11-07/next/louisiana-policy-primary/frozen-inventory-context-14f4a6b02c73.private.csv",
+          "sha256": "14f4a6b02c739b1636f44f2db7fd932d40934c63872802e34c21d92e83fe7f09",
+          "locator_convention": "rows where state equals Louisiana; 3 rows classified Low",
+          "original_path": "/home/mjbommar/projects/personal/moratorium-data-2026/data/moratorium_inventory.csv"
+        }
+      ],
+      "reference_paths_and_hashes": [
+        {
+          "path": "/home/mjbommar/projects/personal/moratorium-data-2026/data/state_legislation.csv",
+          "sha256": "edf76589a362bca54017a6cde36488d914b459d106518e763c64bdc635aa3e6d",
+          "role": "live CSV snapshot"
+        },
+        {
+          "path": "/home/mjbommar/projects/personal/moratorium-data-2026/data/moratorium_inventory.csv",
+          "sha256": "14f4a6b02c739b1636f44f2db7fd932d40934c63872802e34c21d92e83fe7f09",
+          "role": "live CSV snapshot"
+        },
+        {
+          "path": "/home/mjbommar/projects/personal/moratorium-data-2026/docs/codebook.md",
+          "sha256": "7f8d0e7350c898b1ff4a4e8981df082eb2ebf1562385fba432388548cc175061",
+          "role": "review reference"
+        },
+        {
+          "path": "/home/mjbommar/projects/personal/moratorium-data-2026/docs/research-and-ballot-expansion-plan.md",
+          "sha256": "025d5e30a5da848911f6911ea43575ea8f9283ac2cc2dfed00ee0ebb2176f959",
+          "role": "review reference"
+        }
+      ],
+      "method": {
+        "guard_semantics": "All 19 live fields exactly equal assignment; recheck every field immediately before any later guarded change. This review performs no canonical writes.",
+        "originals": "Recomputed all 13 retained source-body SHA-256 digests; inspected original PDFs with pdftotext and PDF pixels for T1206 p.2, T922 p.2, T827 p.4; inspected official history HTML including amendment listing markup.",
+        "historical_leads": "A missing governor announcement or committee minute is not contrary evidence.",
+        "line_convention": "HTML extracted lines are non-empty whitespace-normalized BeautifulSoup get_text lines; table rows located by bill number; PDF line numbers are printed."
+      }
+    },
+    "b": {
+      "review_date": "2026-11-07",
+      "method": "Independent read-only comparison and primary document review; no network. PDF pixels inspected for amendment formatting. Action history observation is its retained capture date, not review date.",
+      "csv_path": "/home/mjbommar/projects/personal/moratorium-data-2026/data/state_legislation.csv",
+      "csv_sha256_at_review": "edf76589a362bca54017a6cde36488d914b459d106518e763c64bdc635aa3e6d",
+      "assignment_path": "/data0/moratorium-refresh-2026/full-scope-closeout-2026-11-07/next/louisiana-policy-completion-b/assignment.private.json",
+      "assignment_sha256": "e2c34bd9f78cdc984efe854a2f34733c01f683faac058d8bd02797c5d07caf65",
+      "input_artifacts": {
+        "field-ledger.private.json": {
+          "path": "/data0/moratorium-refresh-2026/full-scope-closeout-2026-11-07/next/louisiana-policy-completion-b/field-ledger.private.json",
+          "sha256": "6780d071f6178b60e644bec0675ca040ca6c0f3602625157c52c10d0f53321af"
+        },
+        "guarded-proposals.private.json": {
+          "path": "/data0/moratorium-refresh-2026/full-scope-closeout-2026-11-07/next/louisiana-policy-completion-b/guarded-proposals.private.json",
+          "sha256": "29b448a381a308838228f5df48158ce08613c5d0326c91ad4907ff6622c9c190"
+        },
+        "report.md": {
+          "path": "/data0/moratorium-refresh-2026/full-scope-closeout-2026-11-07/next/louisiana-policy-completion-b/report.md",
+          "sha256": "90d63523c768c14640bd80865971fb84d84a69df0ca9267ef17345e59f71a5a9"
+        },
+        "source-registry.private.json": {
+          "path": "/data0/moratorium-refresh-2026/full-scope-closeout-2026-11-07/next/louisiana-policy-completion-b/source-registry.private.json",
+          "sha256": "4aaf39f56902d32553a0e6016d92497a63f8cb943420cfbd7043e7ac2055d560"
+        }
+      },
+      "plan": {
+        "path": "/home/mjbommar/projects/personal/moratorium-data-2026/docs/research-and-ballot-expansion-plan.md",
+        "sha256": "025d5e30a5da848911f6911ea43575ea8f9283ac2cc2dfed00ee0ebb2176f959"
+      },
+      "codebook": {
+        "path": "/home/mjbommar/projects/personal/moratorium-data-2026/docs/codebook.md",
+        "sha256": "7f8d0e7350c898b1ff4a4e8981df082eb2ebf1562385fba432388548cc175061"
+      },
+      "source_registry": [
+        {
+          "source_id": "h_history",
+          "role": "official legislative action history and author",
+          "url": "https://www.legis.la.gov/legis/BillInfo.aspx?s=25RS&b=HCR61",
+          "body_path": "/data0/moratorium-refresh-2026/full/la-state-policy-001/7d1371054b3446129d9a142d5f180ee0.private.body",
+          "sha256": "b55ef3f714e52f214c348ac7c7ea1e6560747c6192b1c084a9cca6fcf0699c73",
+          "recorded_sha256": "b55ef3f714e52f214c348ac7c7ea1e6560747c6192b1c084a9cca6fcf0699c73",
+          "hash_verified": true,
+          "retrieved_at": "2026-11-05T23:37:33.096474Z",
+          "source_date": "2025-06-09 latest recorded action",
+          "locator_convention": "HTML original body line numbers, or PDF printed page and printed line numbers",
+          "independent_sha256": "b55ef3f714e52f214c348ac7c7ea1e6560747c6192b1c084a9cca6fcf0699c73",
+          "retrieval_metadata_path": "/data0/moratorium-refresh-2026/full/la-state-policy-001/7d1371054b3446129d9a142d5f180ee0.private.json",
+          "retrieval_metadata_sha256": "f06489da4780400e2a16372d128521c8580f119216f1ce5b4922c88f9e386e02",
+          "independently_matches_retrieval_metadata": true
+        },
+        {
+          "source_id": "s_history",
+          "role": "official legislative action history and author",
+          "url": "https://www.legis.la.gov/legis/BillInfo.aspx?i=248235",
+          "body_path": "/data0/moratorium-refresh-2026/full/la-state-policy-001/6490d04ce55a4b5ca4fd4c62f937c5df.private.body",
+          "sha256": "10a32dd0d07751d4c069c036f06723a57f600460fc3b260b47611270b1e6be63",
+          "recorded_sha256": "10a32dd0d07751d4c069c036f06723a57f600460fc3b260b47611270b1e6be63",
+          "hash_verified": true,
+          "retrieved_at": "2026-11-05T23:37:14.366050Z",
+          "source_date": "2025-06-04 latest recorded action",
+          "locator_convention": "HTML original body line numbers, or PDF printed page and printed line numbers",
+          "independent_sha256": "10a32dd0d07751d4c069c036f06723a57f600460fc3b260b47611270b1e6be63",
+          "retrieval_metadata_path": "/data0/moratorium-refresh-2026/full/la-state-policy-001/6490d04ce55a4b5ca4fd4c62f937c5df.private.json",
+          "retrieval_metadata_sha256": "f6448607bea66b864936895b4c76b84f32dd25910071b90d43dc91f72b7493f7",
+          "independently_matches_retrieval_metadata": true
+        },
+        {
+          "source_id": "h_text",
+          "role": "official reengrossed resolution, proposal version",
+          "url": "https://www.legis.la.gov/legis/ViewDocument.aspx?d=1421005",
+          "body_path": "/data0/moratorium-refresh-2026/full/la-state-policy-001/00e100b1236340f8ad2ea3e5ede03f66.private.body",
+          "sha256": "f8eff58b94bd3fa84489caf32dde14e4b7a9925c7a81864322f80040807684ee",
+          "recorded_sha256": "f8eff58b94bd3fa84489caf32dde14e4b7a9925c7a81864322f80040807684ee",
+          "hash_verified": true,
+          "retrieved_at": "2026-11-05T23:37:12.396719Z",
+          "source_date": "2025-06-04 reengrossed; not final adopted text",
+          "locator_convention": "HTML original body line numbers, or PDF printed page and printed line numbers",
+          "independent_sha256": "f8eff58b94bd3fa84489caf32dde14e4b7a9925c7a81864322f80040807684ee",
+          "retrieval_metadata_path": "/data0/moratorium-refresh-2026/full/la-state-policy-001/00e100b1236340f8ad2ea3e5ede03f66.private.json",
+          "retrieval_metadata_sha256": "d8f50d316a27999aac835d8a5c66f8a1c64eb0edbc939d36755bd340a48f14e9",
+          "independently_matches_retrieval_metadata": true
+        },
+        {
+          "source_id": "s_text",
+          "role": "official enrolled Senate bill, enacted version",
+          "url": "https://legis.la.gov/Legis/ViewDocument.aspx?d=1418834",
+          "body_path": "/data0/moratorium-refresh-2026/full/la-state-policy-001/2aa8ff45abac4dcb9c555faa3c8ca9f7.private.body",
+          "sha256": "27edf022647acabd676090216dc6c16babeaa7a478d9aaea8d5ac1ef084450c3",
+          "recorded_sha256": "27edf022647acabd676090216dc6c16babeaa7a478d9aaea8d5ac1ef084450c3",
+          "hash_verified": true,
+          "retrieved_at": "2026-11-05T23:37:15.499084Z",
+          "source_date": "2025 enrolled; legislative history records signature 2025-06-04",
+          "locator_convention": "HTML original body line numbers, or PDF printed page and printed line numbers",
+          "independent_sha256": "27edf022647acabd676090216dc6c16babeaa7a478d9aaea8d5ac1ef084450c3",
+          "retrieval_metadata_path": "/data0/moratorium-refresh-2026/full/la-state-policy-001/2aa8ff45abac4dcb9c555faa3c8ca9f7.private.json",
+          "retrieval_metadata_sha256": "be8f6626f61f3d6bec8f8b1c80ff34aae764002a0d2db0750d34971ae41fde04",
+          "independently_matches_retrieval_metadata": true
+        },
+        {
+          "source_id": "hcr61_derivative",
+          "role": "poppler pdftotext -layout derivative, inspect with PDF pixels for markup",
+          "path": "/data0/moratorium-refresh-2026/full-scope-closeout-2026-11-07/next/louisiana-policy-completion-b/hcr61-pdftotext.private.txt",
+          "sha256": "24c4f1b0d610dbd83c85e8a9209e931b8e0c519ebe50760e29c2a6342b125eed",
+          "derived_from": "h_text",
+          "tool": "pdftotext -layout",
+          "date": "2026-11-07",
+          "independent_sha256": "24c4f1b0d610dbd83c85e8a9209e931b8e0c519ebe50760e29c2a6342b125eed"
+        },
+        {
+          "source_id": "sb79_derivative",
+          "role": "poppler pdftotext -layout derivative, inspect with PDF pixels for markup",
+          "path": "/data0/moratorium-refresh-2026/full-scope-closeout-2026-11-07/next/louisiana-policy-completion-b/sb79-pdftotext.private.txt",
+          "sha256": "4b981c0066364dd21da9d198ce25bc12e1f6a2ef5806447022fe9cb9064612bc",
+          "derived_from": "s_text",
+          "tool": "pdftotext -layout",
+          "date": "2026-11-07",
+          "independent_sha256": "4b981c0066364dd21da9d198ce25bc12e1f6a2ef5806447022fe9cb9064612bc"
+        },
+        {
+          "source_id": "hcr61-visual.private-2",
+          "role": "PDF page raster; pdftoppm -scale-to 1800 -png",
+          "path": "/data0/moratorium-refresh-2026/full-scope-closeout-2026-11-07/next/louisiana-policy-completion-b/hcr61-visual.private-2.png",
+          "sha256": "b6ce19aec9116bb69dac5c2a59763e7ab8b0228007fa0ab468b2a2896b9ad8df",
+          "derived_from": "h_text",
+          "date": "2026-11-07",
+          "independent_sha256": "b6ce19aec9116bb69dac5c2a59763e7ab8b0228007fa0ab468b2a2896b9ad8df"
+        },
+        {
+          "source_id": "hcr61-visual.private-3",
+          "role": "PDF page raster; pdftoppm -scale-to 1800 -png",
+          "path": "/data0/moratorium-refresh-2026/full-scope-closeout-2026-11-07/next/louisiana-policy-completion-b/hcr61-visual.private-3.png",
+          "sha256": "3b969991aa1cf0c3266aeb89f15bd795c5977243a743940fc92aa269bd5f7cd9",
+          "derived_from": "h_text",
+          "date": "2026-11-07",
+          "independent_sha256": "3b969991aa1cf0c3266aeb89f15bd795c5977243a743940fc92aa269bd5f7cd9"
+        },
+        {
+          "source_id": "sb79-visual.private-1",
+          "role": "PDF page raster; pdftoppm -scale-to 1800 -png",
+          "path": "/data0/moratorium-refresh-2026/full-scope-closeout-2026-11-07/next/louisiana-policy-completion-b/sb79-visual.private-1.png",
+          "sha256": "fc4fe4de2705691e45cc7a9c3b13dd34334e2941e6281fe4740b32bbdbd4f0f3",
+          "derived_from": "s_text",
+          "date": "2026-11-07",
+          "independent_sha256": "fc4fe4de2705691e45cc7a9c3b13dd34334e2941e6281fe4740b32bbdbd4f0f3"
+        },
+        {
+          "source_id": "sb79-visual.private-2",
+          "role": "PDF page raster; pdftoppm -scale-to 1800 -png",
+          "path": "/data0/moratorium-refresh-2026/full-scope-closeout-2026-11-07/next/louisiana-policy-completion-b/sb79-visual.private-2.png",
+          "sha256": "91b31b709895ebf4e2331f4b51697101ae0cadb22ad7fe2b0d8a7cedc08f7141",
+          "derived_from": "s_text",
+          "date": "2026-11-07",
+          "independent_sha256": "91b31b709895ebf4e2331f4b51697101ae0cadb22ad7fe2b0d8a7cedc08f7141"
+        }
+      ],
+      "rows": [
+        {
+          "policy_action_id": "la-hcr61-2025-rs",
+          "live_guard": {
+            "state": "Louisiana",
+            "state_abbrev": "LA",
+            "bill": "HCR61 (2025 RS)",
+            "sponsors": "Rep. Kimberly Coates",
+            "party": "R (LA House Republican)",
+            "status": "Adopted by House 93-0 on 2025-06-08; received by Senate same day but never brought up for concurrence -- returned to Senate calendar subject to call 2025-06-09 and died there when the 2025 RS ended",
+            "key_provisions": "Would create a special task force to study interagency consultation for data centers and natural resource planning, including water and energy impacts.",
+            "activity_level": "Low",
+            "bill_status_category": "failed_died",
+            "last_action_date_iso": "2025-06-09",
+            "chamber_of_origin": "House",
+            "policy_instrument_type": "legislative_resolution",
+            "policy_mechanism": "other",
+            "legal_effect_status": "failed",
+            "scope_of_action": "unknown",
+            "effective_date_iso": "",
+            "end_condition": "",
+            "primary_source_url": "",
+            "policy_action_id": "la-hcr61-2025-rs"
+          },
+          "guard_field_count": 19,
+          "assignment_matches_live": true,
+          "source_observed_at_utc": "2026-11-05T23:37:33.096474Z",
+          "supported_action_outcome": "House adopted 93-0 on 2025-06-08; Senate returned to calendar subject to call 2025-06-09; final disposition unresolved.",
+          "field_decisions": [
+            {
+              "field": "state",
+              "assigned_value": "Louisiana",
+              "live_value": "Louisiana",
+              "worker_proposed_value": "Louisiana",
+              "decision": "retain",
+              "decision_detail": "retained",
+              "before": "Louisiana",
+              "after": "Louisiana",
+              "evidence": [
+                {
+                  "source_id": "h_history",
+                  "role": "official legislative action history and author",
+                  "source_date": "2025-06-09 latest recorded action",
+                  "page_line": "HTML lines 330-343; 546-565"
+                }
+              ],
+              "rationale": "Louisiana legislature official 2025 instrument establishes state jurisdiction.",
+              "followup": "Recheck identity if the tracker changes the jurisdiction."
+            },
+            {
+              "field": "state_abbrev",
+              "assigned_value": "LA",
+              "live_value": "LA",
+              "worker_proposed_value": "LA",
+              "decision": "retain",
+              "decision_detail": "retained",
+              "before": "LA",
+              "after": "LA",
+              "evidence": [
+                {
+                  "source_id": "h_history",
+                  "role": "official legislative action history and author",
+                  "source_date": "2025-06-09 latest recorded action",
+                  "page_line": "HTML lines 330-343; 546-565"
+                }
+              ],
+              "rationale": "LA is the established abbreviation for the source jurisdiction.",
+              "followup": "None unless identity changes."
+            },
+            {
+              "field": "bill",
+              "assigned_value": "HCR61 (2025 RS)",
+              "live_value": "HCR61 (2025 RS)",
+              "worker_proposed_value": "HCR61 (2025 RS)",
+              "decision": "retain",
+              "decision_detail": "retained",
+              "before": "HCR61 (2025 RS)",
+              "after": "HCR61 (2025 RS)",
+              "evidence": [
+                {
+                  "source_id": "h_history",
+                  "role": "official legislative action history and author",
+                  "source_date": "2025-06-09 latest recorded action",
+                  "page_line": "HTML lines 330-343; 546-565"
+                },
+                {
+                  "source_id": "h_text",
+                  "role": "official reengrossed resolution, proposal version",
+                  "source_date": "2025-06-04 reengrossed; not final adopted text",
+                  "page_line": "PDF p. 1 heading"
+                }
+              ],
+              "rationale": "The official history and text identify the exact 2025 instrument; reengrossed text is a version, not a separate instrument.",
+              "followup": "Check official enrolled/final version if recovered."
+            },
+            {
+              "field": "sponsors",
+              "assigned_value": "Rep. Kimberly Coates",
+              "live_value": "Rep. Kimberly Coates",
+              "worker_proposed_value": "Rep. Kimberly Coates",
+              "decision": "retain",
+              "decision_detail": "retained",
+              "before": "Rep. Kimberly Coates",
+              "after": "Rep. Kimberly Coates",
+              "evidence": [
+                {
+                  "source_id": "h_history",
+                  "role": "official legislative action history and author",
+                  "source_date": "2025-06-09 latest recorded action",
+                  "page_line": "HTML lines 341-343"
+                }
+              ],
+              "rationale": "Official history identifies the named primary author and chamber.",
+              "followup": "None unless author metadata is corrected."
+            },
+            {
+              "field": "party",
+              "assigned_value": "R (LA House Republican)",
+              "live_value": "R (LA House Republican)",
+              "worker_proposed_value": "R (LA House Republican)",
+              "decision": "retain_qualified",
+              "decision_detail": "unverified historical lead",
+              "before": "R (LA House Republican)",
+              "after": "R (LA House Republican)",
+              "evidence": [
+                {
+                  "source_id": "h_history",
+                  "role": "official legislative action history and author",
+                  "source_date": "2025-06-09 latest recorded action",
+                  "page_line": "HTML lines 341-343; author identification only, no party"
+                }
+              ],
+              "rationale": "The official histories identify the authors but do not establish partisan affiliation. Preserve the historical lead; it is not independently verified here.",
+              "followup": "Obtain dated official legislative member roster showing the party at the 2025 session."
+            },
+            {
+              "field": "status",
+              "assigned_value": "Adopted by House 93-0 on 2025-06-08; received by Senate same day but never brought up for concurrence -- returned to Senate calendar subject to call 2025-06-09 and died there when the 2025 RS ended",
+              "live_value": "Adopted by House 93-0 on 2025-06-08; received by Senate same day but never brought up for concurrence -- returned to Senate calendar subject to call 2025-06-09 and died there when the 2025 RS ended",
+              "worker_proposed_value": "House adopted 93-0 on 2025-06-08; Senate received it that day and returned it to the calendar subject to call on 2025-06-09. The baseline reports that it died at adjournment; final disposition remains unverified.",
+              "decision": "accept",
+              "decision_detail": "accepted worker change",
+              "before": "Adopted by House 93-0 on 2025-06-08; received by Senate same day but never brought up for concurrence -- returned to Senate calendar subject to call 2025-06-09 and died there when the 2025 RS ended",
+              "after": "House adopted 93-0 on 2025-06-08; Senate received it that day and returned it to the calendar subject to call on 2025-06-09. The baseline reports that it died at adjournment; final disposition remains unverified.",
+              "evidence": [
+                {
+                  "source_id": "h_history",
+                  "role": "official legislative action history and author",
+                  "source_date": "2025-06-09 latest recorded action",
+                  "page_line": "HTML lines 546-565; 577-581"
+                }
+              ],
+              "rationale": "The recorded House adoption and last Senate calendar action are supported; no retained session-closure/noncarryover proof establishes the asserted final death. Preserve that claim as a qualified historical lead.",
+              "followup": "Recover official 2025 sine die journal and governing noncarryover/final disposition record; then decide failure."
+            },
+            {
+              "field": "key_provisions",
+              "assigned_value": "Would create a special task force to study interagency consultation for data centers and natural resource planning, including water and energy impacts.",
+              "live_value": "Would create a special task force to study interagency consultation for data centers and natural resource planning, including water and energy impacts.",
+              "worker_proposed_value": "Would create a special task force to study interagency consultation for data centers and natural resource planning, including water and energy impacts.",
+              "decision": "additional_correction",
+              "decision_detail": "modified retained field",
+              "before": "Would create a special task force to study interagency consultation for data centers and natural resource planning, including water and energy impacts.",
+              "after": "In the June 4 reengrossed proposal, a special task force would study interagency consultation for data centers and natural resource planning, including water and energy impacts; the House subsequently amended the resolution.",
+              "evidence": [
+                {
+                  "source_id": "h_text",
+                  "role": "official reengrossed resolution, proposal version",
+                  "source_date": "2025-06-04 reengrossed; not final adopted text",
+                  "page_line": "PDF p. 1 lines 1-5; p. 2 lines 14-18; p. 3 lines 14-27"
+                },
+                {
+                  "source_id": "h_history",
+                  "role": "official legislative action history and author",
+                  "source_date": "2025-06-09 latest recorded action",
+                  "page_line": "HTML lines 561-565, 577-581"
+                }
+              ],
+              "rationale": "The summary matches the earlier proposal, but the history records subsequent amendments, so its version must be explicit; it does not establish the final adopted wording.",
+              "followup": "Obtain and compare re-reengrossed document 1422937 and adopted floor amendments 1422672 and 1422655, then update the summary to match the House-adopted version."
+            },
+            {
+              "field": "activity_level",
+              "assigned_value": "Low",
+              "live_value": "Low",
+              "worker_proposed_value": "Low",
+              "decision": "retain_qualified",
+              "decision_detail": "statewide classification not established by instrument",
+              "before": "Low",
+              "after": "Low",
+              "evidence": [
+                {
+                  "source_id": "h_text",
+                  "role": "official reengrossed resolution, proposal version",
+                  "source_date": "2025-06-04 reengrossed; not final adopted text",
+                  "page_line": "PDF p. 2 lines 14-18; p. 3 lines 14-27"
+                }
+              ],
+              "rationale": "Low is a state-wide inventory classification, not a property established by this instrument. It is retained without claiming verification.",
+              "followup": "Reconcile against the independently reviewed statewide inventory and classification method."
+            },
+            {
+              "field": "bill_status_category",
+              "assigned_value": "failed_died",
+              "live_value": "failed_died",
+              "worker_proposed_value": "unknown",
+              "decision": "accept",
+              "decision_detail": "accepted worker change",
+              "before": "failed_died",
+              "after": "unknown",
+              "evidence": [
+                {
+                  "source_id": "h_history",
+                  "role": "official legislative action history and author",
+                  "source_date": "2025-06-09 latest recorded action",
+                  "page_line": "HTML lines 546-565"
+                }
+              ],
+              "rationale": "The historical one-chamber passage is supported but final failure is not independently established; unknown preserves uncertainty over final outcome.",
+              "followup": "Obtain final session and noncarryover documentation."
+            },
+            {
+              "field": "last_action_date_iso",
+              "assigned_value": "2025-06-09",
+              "live_value": "2025-06-09",
+              "worker_proposed_value": "2025-06-09",
+              "decision": "retain",
+              "decision_detail": "retained",
+              "before": "2025-06-09",
+              "after": "2025-06-09",
+              "evidence": [
+                {
+                  "source_id": "h_history",
+                  "role": "official legislative action history and author",
+                  "source_date": "2025-06-09 latest recorded action",
+                  "page_line": "HTML lines 545-565"
+                }
+              ],
+              "rationale": "Last action shown is Senate calendar return June 9, 2025; this is not proof of final disposition. This is the last action in the retained history observed 2026-11-05, not a claim of an exhaustive current check.",
+              "followup": "Refresh the official action history for later posted events."
+            },
+            {
+              "field": "chamber_of_origin",
+              "assigned_value": "House",
+              "live_value": "House",
+              "worker_proposed_value": "House",
+              "decision": "retain",
+              "decision_detail": "retained",
+              "before": "House",
+              "after": "House",
+              "evidence": [
+                {
+                  "source_id": "h_history",
+                  "role": "official legislative action history and author",
+                  "source_date": "2025-06-09 latest recorded action",
+                  "page_line": "HTML lines 341-343"
+                },
+                {
+                  "source_id": "h_text",
+                  "role": "official reengrossed resolution, proposal version",
+                  "source_date": "2025-06-04 reengrossed; not final adopted text",
+                  "page_line": "PDF p. 1 heading"
+                }
+              ],
+              "rationale": "House concurrent resolution",
+              "followup": "None unless identity changes."
+            },
+            {
+              "field": "policy_instrument_type",
+              "assigned_value": "legislative_resolution",
+              "live_value": "legislative_resolution",
+              "worker_proposed_value": "legislative_resolution",
+              "decision": "retain",
+              "decision_detail": "retained",
+              "before": "legislative_resolution",
+              "after": "legislative_resolution",
+              "evidence": [
+                {
+                  "source_id": "h_text",
+                  "role": "official reengrossed resolution, proposal version",
+                  "source_date": "2025-06-04 reengrossed; not final adopted text",
+                  "page_line": "PDF p. 1 heading and lines 1-5"
+                }
+              ],
+              "rationale": "Concurrent resolution is correctly typed legislative_resolution.",
+              "followup": "Keep version and act lineage explicit."
+            },
+            {
+              "field": "policy_mechanism",
+              "assigned_value": "other",
+              "live_value": "other",
+              "worker_proposed_value": "other",
+              "decision": "retain",
+              "decision_detail": "retained",
+              "before": "other",
+              "after": "other",
+              "evidence": [
+                {
+                  "source_id": "h_text",
+                  "role": "official reengrossed resolution, proposal version",
+                  "source_date": "2025-06-04 reengrossed; not final adopted text",
+                  "page_line": "PDF p. 2 lines 14-18; p. 3 lines 14-27"
+                },
+                {
+                  "source_id": "h_history",
+                  "role": "official legislative action history and author",
+                  "source_date": "2025-06-09 latest recorded action",
+                  "page_line": "HTML lines 561-565"
+                }
+              ],
+              "rationale": "Task-force planning is other under the closed vocabulary; no construction pause is stated.",
+              "followup": "Revisit if taxonomy adds a planning or industrial-area category."
+            },
+            {
+              "field": "legal_effect_status",
+              "assigned_value": "failed",
+              "live_value": "failed",
+              "worker_proposed_value": "unknown",
+              "decision": "accept",
+              "decision_detail": "accepted worker change",
+              "before": "failed",
+              "after": "unknown",
+              "evidence": [
+                {
+                  "source_id": "h_history",
+                  "role": "official legislative action history and author",
+                  "source_date": "2025-06-09 latest recorded action",
+                  "page_line": "HTML lines 359, 545-565"
+                }
+              ],
+              "rationale": "Failure is a plausible historical lead, but final disposition and noncarryover are not independently established, so unknown is safer.",
+              "followup": "Recover final disposition and session rules."
+            },
+            {
+              "field": "scope_of_action",
+              "assigned_value": "unknown",
+              "live_value": "unknown",
+              "worker_proposed_value": "state_agency",
+              "decision": "reject",
+              "decision_detail": "rejected worker change",
+              "before": "unknown",
+              "after": "unknown",
+              "evidence": [
+                {
+                  "source_id": "h_text",
+                  "role": "official reengrossed resolution, proposal version",
+                  "source_date": "2025-06-04 reengrossed; not final adopted text",
+                  "page_line": "PDF p. 2 lines 14-30; p. 3 lines 1-27"
+                },
+                {
+                  "source_id": "h_history",
+                  "role": "official legislative action history and author",
+                  "source_date": "2025-06-09 latest recorded action",
+                  "page_line": "HTML lines 561-565"
+                }
+              ],
+              "rationale": "The June 4 reengrossed version centers a House-chaired group staffed by a state department, with legislative and other members. Subsequent House amendments were adopted June 8; the available earlier version cannot establish the primary surface in the adopted version. Retain unknown pending that comparison.",
+              "followup": "Obtain HCR61 re-reengrossed document 1422937 and adopted floor amendments 1422672 and 1422655; compare membership and duties, then choose state_agency, mixed, or another supported scope."
+            },
+            {
+              "field": "effective_date_iso",
+              "assigned_value": "",
+              "live_value": "",
+              "worker_proposed_value": "",
+              "decision": "retain",
+              "decision_detail": "retained",
+              "before": "",
+              "after": "",
+              "evidence": [
+                {
+                  "source_id": "h_history",
+                  "role": "official legislative action history and author",
+                  "source_date": "2025-06-09 latest recorded action",
+                  "page_line": "HTML lines 545-565"
+                },
+                {
+                  "source_id": "h_text",
+                  "role": "official reengrossed resolution, proposal version",
+                  "source_date": "2025-06-04 reengrossed; not final adopted text",
+                  "page_line": "PDF pp. 1-4, full instrument"
+                }
+              ],
+              "rationale": "No enacted effective date established for this proposal.",
+              "followup": "Recover final adopted text before recording an effective date."
+            },
+            {
+              "field": "end_condition",
+              "assigned_value": "",
+              "live_value": "",
+              "worker_proposed_value": "",
+              "decision": "retain",
+              "decision_detail": "retained",
+              "before": "",
+              "after": "",
+              "evidence": [
+                {
+                  "source_id": "h_text",
+                  "role": "official reengrossed resolution, proposal version",
+                  "source_date": "2025-06-04 reengrossed; not final adopted text",
+                  "page_line": "PDF p. 3 lines 14-27; pp. 1-4 full proposal"
+                }
+              ],
+              "rationale": "The proposed February 27, 2026 report deadline is not a whole-instrument sunset; no end condition is established.",
+              "followup": "Recover later operative text and events before inferring an endpoint."
+            },
+            {
+              "field": "primary_source_url",
+              "assigned_value": "",
+              "live_value": "",
+              "worker_proposed_value": "https://www.legis.la.gov/legis/BillInfo.aspx?s=25RS&b=HCR61",
+              "decision": "accept",
+              "decision_detail": "accepted worker change",
+              "before": "",
+              "after": "https://www.legis.la.gov/legis/BillInfo.aspx?s=25RS&b=HCR61",
+              "evidence": [
+                {
+                  "source_id": "h_history",
+                  "role": "official legislative action history and author",
+                  "source_date": "2025-06-09 latest recorded action",
+                  "page_line": "HTML lines 330-343, 545-565"
+                }
+              ],
+              "rationale": "Official bill history links identity, author and action chronology; text version remains separately registered.",
+              "followup": "Keep body hash and version references; refresh when subsequent events are checked."
+            },
+            {
+              "field": "policy_action_id",
+              "assigned_value": "la-hcr61-2025-rs",
+              "live_value": "la-hcr61-2025-rs",
+              "worker_proposed_value": "la-hcr61-2025-rs",
+              "decision": "retain",
+              "decision_detail": "retained",
+              "before": "la-hcr61-2025-rs",
+              "after": "la-hcr61-2025-rs",
+              "evidence": [
+                {
+                  "source_id": "h_history",
+                  "role": "official legislative action history and author",
+                  "source_date": "2025-06-09 latest recorded action",
+                  "page_line": "HTML lines 330-343, 545-565"
+                },
+                {
+                  "source_id": "h_text",
+                  "role": "official reengrossed resolution, proposal version",
+                  "source_date": "2025-06-04 reengrossed; not final adopted text",
+                  "page_line": "PDF p. 1 heading"
+                }
+              ],
+              "rationale": "Stable assigned identity matches the 2025 concurrent resolution, distinct from its textual versions.",
+              "followup": "Preserve identifier through version changes."
+            }
+          ],
+          "atomic_changes": [
+            {
+              "field": "status",
+              "before": "Adopted by House 93-0 on 2025-06-08; received by Senate same day but never brought up for concurrence -- returned to Senate calendar subject to call 2025-06-09 and died there when the 2025 RS ended",
+              "after": "House adopted 93-0 on 2025-06-08; Senate received it that day and returned it to the calendar subject to call on 2025-06-09. The baseline reports that it died at adjournment; final disposition remains unverified.",
+              "decision": "accept",
+              "evidence": [
+                {
+                  "source_id": "h_history",
+                  "role": "official legislative action history and author",
+                  "source_date": "2025-06-09 latest recorded action",
+                  "page_line": "HTML lines 546-565; 577-581"
+                }
+              ],
+              "rationale": "The recorded House adoption and last Senate calendar action are supported; no retained session-closure/noncarryover proof establishes the asserted final death. Preserve that claim as a qualified historical lead.",
+              "followup": "Recover official 2025 sine die journal and governing noncarryover/final disposition record; then decide failure."
+            },
+            {
+              "field": "key_provisions",
+              "before": "Would create a special task force to study interagency consultation for data centers and natural resource planning, including water and energy impacts.",
+              "after": "In the June 4 reengrossed proposal, a special task force would study interagency consultation for data centers and natural resource planning, including water and energy impacts; the House subsequently amended the resolution.",
+              "decision": "additional_correction",
+              "evidence": [
+                {
+                  "source_id": "h_text",
+                  "role": "official reengrossed resolution, proposal version",
+                  "source_date": "2025-06-04 reengrossed; not final adopted text",
+                  "page_line": "PDF p. 1 lines 1-5; p. 2 lines 14-18; p. 3 lines 14-27"
+                },
+                {
+                  "source_id": "h_history",
+                  "role": "official legislative action history and author",
+                  "source_date": "2025-06-09 latest recorded action",
+                  "page_line": "HTML lines 561-565, 577-581"
+                }
+              ],
+              "rationale": "The summary matches the earlier proposal, but the history records subsequent amendments, so its version must be explicit; it does not establish the final adopted wording.",
+              "followup": "Obtain and compare re-reengrossed document 1422937 and adopted floor amendments 1422672 and 1422655, then update the summary to match the House-adopted version."
+            },
+            {
+              "field": "bill_status_category",
+              "before": "failed_died",
+              "after": "unknown",
+              "decision": "accept",
+              "evidence": [
+                {
+                  "source_id": "h_history",
+                  "role": "official legislative action history and author",
+                  "source_date": "2025-06-09 latest recorded action",
+                  "page_line": "HTML lines 546-565"
+                }
+              ],
+              "rationale": "The historical one-chamber passage is supported but final failure is not independently established; unknown preserves uncertainty over final outcome.",
+              "followup": "Obtain final session and noncarryover documentation."
+            },
+            {
+              "field": "legal_effect_status",
+              "before": "failed",
+              "after": "unknown",
+              "decision": "accept",
+              "evidence": [
+                {
+                  "source_id": "h_history",
+                  "role": "official legislative action history and author",
+                  "source_date": "2025-06-09 latest recorded action",
+                  "page_line": "HTML lines 359, 545-565"
+                }
+              ],
+              "rationale": "Failure is a plausible historical lead, but final disposition and noncarryover are not independently established, so unknown is safer.",
+              "followup": "Recover final disposition and session rules."
+            },
+            {
+              "field": "primary_source_url",
+              "before": "",
+              "after": "https://www.legis.la.gov/legis/BillInfo.aspx?s=25RS&b=HCR61",
+              "decision": "accept",
+              "evidence": [
+                {
+                  "source_id": "h_history",
+                  "role": "official legislative action history and author",
+                  "source_date": "2025-06-09 latest recorded action",
+                  "page_line": "HTML lines 330-343, 545-565"
+                }
+              ],
+              "rationale": "Official bill history links identity, author and action chronology; text version remains separately registered.",
+              "followup": "Keep body hash and version references; refresh when subsequent events are checked."
+            }
+          ]
+        },
+        {
+          "policy_action_id": "la-sb79-2025-rs-act-36",
+          "live_guard": {
+            "state": "Louisiana",
+            "state_abbrev": "LA",
+            "bill": "SB79 (2025 RS), Act 36",
+            "sponsors": "Sen. Adam Bass",
+            "party": "R (LA Senate Republican)",
+            "status": "Enacted as Act 36; signed by Governor 2025-06-04; effective 2025-08-01",
+            "key_provisions": "Explicitly classified construction and operation of data centers and associated commercial operations as an industrial area; allowed industrial areas to use cooperative agreements to provide required services.",
+            "activity_level": "Low",
+            "bill_status_category": "enacted",
+            "last_action_date_iso": "2025-06-04",
+            "chamber_of_origin": "Senate",
+            "policy_instrument_type": "bill",
+            "policy_mechanism": "other",
+            "legal_effect_status": "unknown",
+            "scope_of_action": "unknown",
+            "effective_date_iso": "",
+            "end_condition": "",
+            "primary_source_url": "",
+            "policy_action_id": "la-sb79-2025-rs-act-36"
+          },
+          "guard_field_count": 19,
+          "assignment_matches_live": true,
+          "source_observed_at_utc": "2026-11-05T23:37:14.366050Z",
+          "supported_action_outcome": "Signed 2025-06-04 as Act 36; official bill history records effective 2025-08-01; current force unresolved.",
+          "field_decisions": [
+            {
+              "field": "state",
+              "assigned_value": "Louisiana",
+              "live_value": "Louisiana",
+              "worker_proposed_value": "Louisiana",
+              "decision": "retain",
+              "decision_detail": "retained",
+              "before": "Louisiana",
+              "after": "Louisiana",
+              "evidence": [
+                {
+                  "source_id": "s_history",
+                  "role": "official legislative action history and author",
+                  "source_date": "2025-06-04 latest recorded action",
+                  "page_line": "HTML lines 330-343, 527-539"
+                }
+              ],
+              "rationale": "Louisiana legislature official 2025 instrument establishes state jurisdiction.",
+              "followup": "Recheck identity if the tracker changes the jurisdiction."
+            },
+            {
+              "field": "state_abbrev",
+              "assigned_value": "LA",
+              "live_value": "LA",
+              "worker_proposed_value": "LA",
+              "decision": "retain",
+              "decision_detail": "retained",
+              "before": "LA",
+              "after": "LA",
+              "evidence": [
+                {
+                  "source_id": "s_history",
+                  "role": "official legislative action history and author",
+                  "source_date": "2025-06-04 latest recorded action",
+                  "page_line": "HTML lines 330-343, 527-539"
+                }
+              ],
+              "rationale": "LA is the established abbreviation for the source jurisdiction.",
+              "followup": "None unless identity changes."
+            },
+            {
+              "field": "bill",
+              "assigned_value": "SB79 (2025 RS), Act 36",
+              "live_value": "SB79 (2025 RS), Act 36",
+              "worker_proposed_value": "SB79 (2025 RS), Act 36",
+              "decision": "retain",
+              "decision_detail": "retained",
+              "before": "SB79 (2025 RS), Act 36",
+              "after": "SB79 (2025 RS), Act 36",
+              "evidence": [
+                {
+                  "source_id": "s_history",
+                  "role": "official legislative action history and author",
+                  "source_date": "2025-06-04 latest recorded action",
+                  "page_line": "HTML lines 330-343, 527-539"
+                },
+                {
+                  "source_id": "s_text",
+                  "role": "official enrolled Senate bill, enacted version",
+                  "source_date": "2025 enrolled; legislative history records signature 2025-06-04",
+                  "page_line": "PDF p. 1 heading"
+                }
+              ],
+              "rationale": "The official history and text identify the exact 2025 instrument and resulting Act 36.",
+              "followup": "Retain enrolled SB79 and history establishing Act 36 together; check later law independently."
+            },
+            {
+              "field": "sponsors",
+              "assigned_value": "Sen. Adam Bass",
+              "live_value": "Sen. Adam Bass",
+              "worker_proposed_value": "Sen. Adam Bass",
+              "decision": "retain",
+              "decision_detail": "retained",
+              "before": "Sen. Adam Bass",
+              "after": "Sen. Adam Bass",
+              "evidence": [
+                {
+                  "source_id": "s_history",
+                  "role": "official legislative action history and author",
+                  "source_date": "2025-06-04 latest recorded action",
+                  "page_line": "HTML lines 341-343"
+                }
+              ],
+              "rationale": "Official history identifies the named primary author and chamber.",
+              "followup": "None unless author metadata is corrected."
+            },
+            {
+              "field": "party",
+              "assigned_value": "R (LA Senate Republican)",
+              "live_value": "R (LA Senate Republican)",
+              "worker_proposed_value": "R (LA Senate Republican)",
+              "decision": "retain_qualified",
+              "decision_detail": "unverified historical lead",
+              "before": "R (LA Senate Republican)",
+              "after": "R (LA Senate Republican)",
+              "evidence": [
+                {
+                  "source_id": "s_history",
+                  "role": "official legislative action history and author",
+                  "source_date": "2025-06-04 latest recorded action",
+                  "page_line": "HTML lines 341-343; author identification only, no party"
+                }
+              ],
+              "rationale": "The official histories identify the authors but do not establish partisan affiliation. Preserve the historical lead; it is not independently verified here.",
+              "followup": "Obtain dated official legislative member roster showing the party at the 2025 session."
+            },
+            {
+              "field": "status",
+              "assigned_value": "Enacted as Act 36; signed by Governor 2025-06-04; effective 2025-08-01",
+              "live_value": "Enacted as Act 36; signed by Governor 2025-06-04; effective 2025-08-01",
+              "worker_proposed_value": "Enacted as Act 36; signed by Governor 2025-06-04; effective 2025-08-01",
+              "decision": "retain",
+              "decision_detail": "retained",
+              "before": "Enacted as Act 36; signed by Governor 2025-06-04; effective 2025-08-01",
+              "after": "Enacted as Act 36; signed by Governor 2025-06-04; effective 2025-08-01",
+              "evidence": [
+                {
+                  "source_id": "s_history",
+                  "role": "official legislative action history and author",
+                  "source_date": "2025-06-04 latest recorded action",
+                  "page_line": "HTML lines 527-539"
+                }
+              ],
+              "rationale": "History records signature and the effective date; this is an enactment history, not proof of present force.",
+              "followup": "Check subsequent statutory amendments and legal developments separately."
+            },
+            {
+              "field": "key_provisions",
+              "assigned_value": "Explicitly classified construction and operation of data centers and associated commercial operations as an industrial area; allowed industrial areas to use cooperative agreements to provide required services.",
+              "live_value": "Explicitly classified construction and operation of data centers and associated commercial operations as an industrial area; allowed industrial areas to use cooperative agreements to provide required services.",
+              "worker_proposed_value": "Amended R.S. 33:130.12 to include construction and operation of data centers and directly related commercial operations in industrial purposes; authorized industries in industrial areas to enter specified cooperative agreements for required services or facilities, subject to protection of existing residents’ prior services.",
+              "decision": "accept",
+              "decision_detail": "accepted worker change",
+              "before": "Explicitly classified construction and operation of data centers and associated commercial operations as an industrial area; allowed industrial areas to use cooperative agreements to provide required services.",
+              "after": "Amended R.S. 33:130.12 to include construction and operation of data centers and directly related commercial operations in industrial purposes; authorized industries in industrial areas to enter specified cooperative agreements for required services or facilities, subject to protection of existing residents’ prior services.",
+              "evidence": [
+                {
+                  "source_id": "s_text",
+                  "role": "official enrolled Senate bill, enacted version",
+                  "source_date": "2025 enrolled; legislative history records signature 2025-06-04",
+                  "page_line": "PDF p. 1 lines 7-21; p. 2 lines 1-26, including visual amendment coding"
+                }
+              ],
+              "rationale": "The bold-underlined addition defines industrial purposes, not automatic designation of an industrial area; p. 2 adds agreements and resident-services safeguard while prior service/annexation provisions are existing law.",
+              "followup": "Check subsequent changes to both amended sections before any present-law claim."
+            },
+            {
+              "field": "activity_level",
+              "assigned_value": "Low",
+              "live_value": "Low",
+              "worker_proposed_value": "Low",
+              "decision": "retain_qualified",
+              "decision_detail": "statewide classification not established by instrument",
+              "before": "Low",
+              "after": "Low",
+              "evidence": [
+                {
+                  "source_id": "s_text",
+                  "role": "official enrolled Senate bill, enacted version",
+                  "source_date": "2025 enrolled; legislative history records signature 2025-06-04",
+                  "page_line": "PDF p. 1 lines 7-21; p. 2 lines 1-26"
+                }
+              ],
+              "rationale": "Low is a state-wide inventory classification, not a property established by this instrument. It is retained without claiming verification.",
+              "followup": "Reconcile against the independently reviewed statewide inventory and classification method."
+            },
+            {
+              "field": "bill_status_category",
+              "assigned_value": "enacted",
+              "live_value": "enacted",
+              "worker_proposed_value": "enacted",
+              "decision": "retain",
+              "decision_detail": "retained",
+              "before": "enacted",
+              "after": "enacted",
+              "evidence": [
+                {
+                  "source_id": "s_history",
+                  "role": "official legislative action history and author",
+                  "source_date": "2025-06-04 latest recorded action",
+                  "page_line": "HTML lines 527-539"
+                }
+              ],
+              "rationale": "The official history records Act 36 and governor signature.",
+              "followup": "Check later events separately from enactment category."
+            },
+            {
+              "field": "last_action_date_iso",
+              "assigned_value": "2025-06-04",
+              "live_value": "2025-06-04",
+              "worker_proposed_value": "2025-06-04",
+              "decision": "retain",
+              "decision_detail": "retained",
+              "before": "2025-06-04",
+              "after": "2025-06-04",
+              "evidence": [
+                {
+                  "source_id": "s_history",
+                  "role": "official legislative action history and author",
+                  "source_date": "2025-06-04 latest recorded action",
+                  "page_line": "HTML lines 527-539"
+                }
+              ],
+              "rationale": "Last recorded actions on bill history are signature and recorded effectiveness June 4, 2025; the actual effective date is August 1. This is the last action in the retained history observed 2026-11-05, not a claim of an exhaustive current check.",
+              "followup": "Refresh the official action history for later posted events."
+            },
+            {
+              "field": "chamber_of_origin",
+              "assigned_value": "Senate",
+              "live_value": "Senate",
+              "worker_proposed_value": "Senate",
+              "decision": "retain",
+              "decision_detail": "retained",
+              "before": "Senate",
+              "after": "Senate",
+              "evidence": [
+                {
+                  "source_id": "s_text",
+                  "role": "official enrolled Senate bill, enacted version",
+                  "source_date": "2025 enrolled; legislative history records signature 2025-06-04",
+                  "page_line": "PDF p. 1 heading"
+                },
+                {
+                  "source_id": "s_history",
+                  "role": "official legislative action history and author",
+                  "source_date": "2025-06-04 latest recorded action",
+                  "page_line": "HTML lines 341-343"
+                }
+              ],
+              "rationale": "Senate bill, prefiled and introduced in Senate.",
+              "followup": "None unless identity changes."
+            },
+            {
+              "field": "policy_instrument_type",
+              "assigned_value": "bill",
+              "live_value": "bill",
+              "worker_proposed_value": "bill",
+              "decision": "retain",
+              "decision_detail": "retained",
+              "before": "bill",
+              "after": "bill",
+              "evidence": [
+                {
+                  "source_id": "s_text",
+                  "role": "official enrolled Senate bill, enacted version",
+                  "source_date": "2025 enrolled; legislative history records signature 2025-06-04",
+                  "page_line": "PDF p. 1 heading and lines 1-6"
+                },
+                {
+                  "source_id": "s_history",
+                  "role": "official legislative action history and author",
+                  "source_date": "2025-06-04 latest recorded action",
+                  "page_line": "HTML lines 535-539"
+                }
+              ],
+              "rationale": "SB79 is a bill enacted as Act 36, not a separate successor identity.",
+              "followup": "Keep version and act lineage explicit."
+            },
+            {
+              "field": "policy_mechanism",
+              "assigned_value": "other",
+              "live_value": "other",
+              "worker_proposed_value": "other",
+              "decision": "retain",
+              "decision_detail": "retained",
+              "before": "other",
+              "after": "other",
+              "evidence": [
+                {
+                  "source_id": "s_text",
+                  "role": "official enrolled Senate bill, enacted version",
+                  "source_date": "2025 enrolled; legislative history records signature 2025-06-04",
+                  "page_line": "PDF p. 1 lines 7-21; p. 2 lines 1-26"
+                }
+              ],
+              "rationale": "Industrial-area eligibility and service agreements fit other; no construction moratorium is stated.",
+              "followup": "Revisit if taxonomy adds a planning or industrial-area category."
+            },
+            {
+              "field": "legal_effect_status",
+              "assigned_value": "unknown",
+              "live_value": "unknown",
+              "worker_proposed_value": "unknown",
+              "decision": "retain",
+              "decision_detail": "retained",
+              "before": "unknown",
+              "after": "unknown",
+              "evidence": [
+                {
+                  "source_id": "s_history",
+                  "role": "official legislative action history and author",
+                  "source_date": "2025-06-04 latest recorded action",
+                  "page_line": "HTML lines 527-539"
+                },
+                {
+                  "source_id": "s_text",
+                  "role": "official enrolled Senate bill, enacted version",
+                  "source_date": "2025 enrolled; legislative history records signature 2025-06-04",
+                  "page_line": "PDF p. 1 lines 7-14; p. 2 lines 10-26"
+                }
+              ],
+              "rationale": "Enactment and historical effective date do not establish uninterrupted current force; unknown is appropriate.",
+              "followup": "Review current versions of R.S. 33:130.12 and 51:1202 plus amendments, repeal and litigation."
+            },
+            {
+              "field": "scope_of_action",
+              "assigned_value": "unknown",
+              "live_value": "unknown",
+              "worker_proposed_value": "unknown",
+              "decision": "retain",
+              "decision_detail": "retained",
+              "before": "unknown",
+              "after": "unknown",
+              "evidence": [
+                {
+                  "source_id": "s_text",
+                  "role": "official enrolled Senate bill, enacted version",
+                  "source_date": "2025 enrolled; legislative history records signature 2025-06-04",
+                  "page_line": "PDF p. 1 lines 7-21; p. 2 lines 1-26"
+                }
+              ],
+              "rationale": "The statute affects industrial areas, local governmental and private agreement counterparts; no single primary surface was resolved under the closed vocabulary.",
+              "followup": "Review codebook interpretation of statewide versus local_government versus mixed."
+            },
+            {
+              "field": "effective_date_iso",
+              "assigned_value": "",
+              "live_value": "",
+              "worker_proposed_value": "2025-08-01",
+              "decision": "accept",
+              "decision_detail": "accepted worker change",
+              "before": "",
+              "after": "2025-08-01",
+              "evidence": [
+                {
+                  "source_id": "s_history",
+                  "role": "official legislative action history and author",
+                  "source_date": "2025-06-04 latest recorded action",
+                  "page_line": "HTML lines 527-539"
+                }
+              ],
+              "rationale": "Official history records the legal effective date as August 1, 2025, separate from June 4 signature.",
+              "followup": "None for historical effective date; current force is separate."
+            },
+            {
+              "field": "end_condition",
+              "assigned_value": "",
+              "live_value": "",
+              "worker_proposed_value": "",
+              "decision": "retain",
+              "decision_detail": "retained",
+              "before": "",
+              "after": "",
+              "evidence": [
+                {
+                  "source_id": "s_text",
+                  "role": "official enrolled Senate bill, enacted version",
+                  "source_date": "2025 enrolled; legislative history records signature 2025-06-04",
+                  "page_line": "PDF pp. 1-3, entire enrolled act"
+                }
+              ],
+              "rationale": "The enrolled act specifies no whole-instrument sunset; absence of a stated term is not proof of continuing force.",
+              "followup": "Recover later operative text and events before inferring an endpoint."
+            },
+            {
+              "field": "primary_source_url",
+              "assigned_value": "",
+              "live_value": "",
+              "worker_proposed_value": "https://www.legis.la.gov/legis/BillInfo.aspx?i=248235",
+              "decision": "accept",
+              "decision_detail": "accepted worker change",
+              "before": "",
+              "after": "https://www.legis.la.gov/legis/BillInfo.aspx?i=248235",
+              "evidence": [
+                {
+                  "source_id": "s_history",
+                  "role": "official legislative action history and author",
+                  "source_date": "2025-06-04 latest recorded action",
+                  "page_line": "HTML lines 330-343, 527-539"
+                }
+              ],
+              "rationale": "Official bill history links identity, author and action chronology; text version remains separately registered.",
+              "followup": "Keep body hash and version references; refresh when subsequent events are checked."
+            },
+            {
+              "field": "policy_action_id",
+              "assigned_value": "la-sb79-2025-rs-act-36",
+              "live_value": "la-sb79-2025-rs-act-36",
+              "worker_proposed_value": "la-sb79-2025-rs-act-36",
+              "decision": "retain",
+              "decision_detail": "retained",
+              "before": "la-sb79-2025-rs-act-36",
+              "after": "la-sb79-2025-rs-act-36",
+              "evidence": [
+                {
+                  "source_id": "s_history",
+                  "role": "official legislative action history and author",
+                  "source_date": "2025-06-04 latest recorded action",
+                  "page_line": "HTML lines 330-343, 527-539"
+                },
+                {
+                  "source_id": "s_text",
+                  "role": "official enrolled Senate bill, enacted version",
+                  "source_date": "2025 enrolled; legislative history records signature 2025-06-04",
+                  "page_line": "PDF p. 1 heading"
+                }
+              ],
+              "rationale": "Stable assigned identity matches the exact instrument and session; SB bill and Act are lineage of the same action.",
+              "followup": "Preserve identifier through version changes."
+            }
+          ],
+          "atomic_changes": [
+            {
+              "field": "key_provisions",
+              "before": "Explicitly classified construction and operation of data centers and associated commercial operations as an industrial area; allowed industrial areas to use cooperative agreements to provide required services.",
+              "after": "Amended R.S. 33:130.12 to include construction and operation of data centers and directly related commercial operations in industrial purposes; authorized industries in industrial areas to enter specified cooperative agreements for required services or facilities, subject to protection of existing residents’ prior services.",
+              "decision": "accept",
+              "evidence": [
+                {
+                  "source_id": "s_text",
+                  "role": "official enrolled Senate bill, enacted version",
+                  "source_date": "2025 enrolled; legislative history records signature 2025-06-04",
+                  "page_line": "PDF p. 1 lines 7-21; p. 2 lines 1-26, including visual amendment coding"
+                }
+              ],
+              "rationale": "The bold-underlined addition defines industrial purposes, not automatic designation of an industrial area; p. 2 adds agreements and resident-services safeguard while prior service/annexation provisions are existing law.",
+              "followup": "Check subsequent changes to both amended sections before any present-law claim."
+            },
+            {
+              "field": "effective_date_iso",
+              "before": "",
+              "after": "2025-08-01",
+              "decision": "accept",
+              "evidence": [
+                {
+                  "source_id": "s_history",
+                  "role": "official legislative action history and author",
+                  "source_date": "2025-06-04 latest recorded action",
+                  "page_line": "HTML lines 527-539"
+                }
+              ],
+              "rationale": "Official history records the legal effective date as August 1, 2025, separate from June 4 signature.",
+              "followup": "None for historical effective date; current force is separate."
+            },
+            {
+              "field": "primary_source_url",
+              "before": "",
+              "after": "https://www.legis.la.gov/legis/BillInfo.aspx?i=248235",
+              "decision": "accept",
+              "evidence": [
+                {
+                  "source_id": "s_history",
+                  "role": "official legislative action history and author",
+                  "source_date": "2025-06-04 latest recorded action",
+                  "page_line": "HTML lines 330-343, 527-539"
+                }
+              ],
+              "rationale": "Official bill history links identity, author and action chronology; text version remains separately registered.",
+              "followup": "Keep body hash and version references; refresh when subsequent events are checked."
+            }
+          ]
+        }
+      ],
+      "limits": [
+        "No fresh network lookup; post-capture actions and present legal force remain unchecked.",
+        "Historical party and statewide activity labels remain qualified leads.",
+        "All 50 states, all sectors, 1772 baseline, new discoveries and ballots, consumer reconciliation, and final release remain outside this batch."
+      ]
+    }
+  },
+  "assessments": 95,
+  "scope": "Complete scoped field assessment; version/finality and current-law gaps remain explicit. Internal inventory context is frozen separately; no statewide freshness certification."
+}

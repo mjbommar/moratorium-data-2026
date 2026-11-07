@@ -57,6 +57,8 @@ class DerivationTests(unittest.TestCase):
                 self.assertEqual(result['new_sources'],1)
                 self.assertEqual((job/'abc.private.txt').read_bytes(),b'')
                 self.assertEqual(result['sources'][0]['text_sha256'],hashlib.sha256(text.read_bytes()).hexdigest())
+                self.assertEqual(result['sources'][0]['text_method'],'synthetic extraction')
+                self.assertEqual(result['sources'][0]['text_derivation']['pages'],[1])
                 text.write_text('Changed after review')
                 with self.assertRaisesRegex(ValueError,'Derived text drift'):
                     archive.import_attempts(job,'AK')

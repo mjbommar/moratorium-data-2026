@@ -2,6 +2,12 @@
 
 ## 2026-11-07 — current working snapshot (unreleased)
 
+The [overdue local review](work/research/2026-11-07/overdue-local-record-review/README.md) applies ten cells across German Flatts and East Whiteland, while all three reviewed records retain unresolved whole-record dispositions. Clear an unsupported adoption year and fixed-day approximation; record signed September 24 zoning adoption without inferring the earlier curative protection’s endpoint. Verification annotations are recomputed; the flagged-row count becomes 724. Four extraction-lineage tests pass, including accurate derivation-method metadata for scoped OCR.
+
+The [Louisiana review](work/research/2026-11-07/louisiana-policy-source-review/README.md) applies 21 fields across five records after 95 independent assessments, preserving final-version, publication and current-law gaps. A [fresh Ohio result re-observation](work/research/2026-11-07/ohio-result-reobservation/README.md) retains three unchanged reported results and documents conflicting index/PDF certification wording; no expanded snapshot mutation or newly certified result is asserted.
+
+The [Kentucky policy review](work/research/2026-11-07/kentucky-policy-source-review/README.md) applies 29 fields across eight existing records after 152 independent assessments. Correct distinct municipal and regulated-utility thresholds, incentive/disclosure mechanisms and version-specific provisions; preserve conference-report, effective-date and current-law gaps. Nineteen source versions pass native archive readback.
+
 The [Kansas policy review](work/research/2026-11-07/kansas-policy-source-review/README.md) applies 62 fields across twelve existing records after 228 independent assessments. Add a separate legislative-amendment form for the rejected Senate motion on HB2433: typed bill rows change from 428 to 427; all-policy rows remain 443. Preserve the carrier distinction, firm/section-specific terms and publication/current-force gaps. Archive 40 additional source versions.
 
 The [Indiana policy review](work/research/2026-11-07/indiana-policy-source-review/README.md) applies 46 fields across ten existing records after 190 independent assessments. Correct study/fiscal classifications and water/rate conditions, preserve section-specific sunsets and mixed effective dates, and qualify historical hearing/failure claims. Native Exa and pydoll recover official session context; 30 source versions are archived with verified native readback.
@@ -147,7 +153,7 @@ These are inventory classifications, not independently renewed legal-force findi
 | Classified active or extended | **1079** |
 | Pending or not yet effective | **79** |
 | Ended (replaced, expired, or rescinded) | **172** |
-| Rows we still want to confirm (`[VERIFY]`) | **723** |
+| Rows we still want to confirm (`[VERIFY]`) | **724** |
 | States with at least one | **47** |
 
 Current totals remain 1,330 local records (1,079 active/extended classifications),

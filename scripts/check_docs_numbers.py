@@ -105,6 +105,8 @@ def facts() -> dict[str, int | float]:
 # Patterns are anchored on distinctive surrounding words so they cannot drift
 # onto an unrelated number.
 CLAIMS: list[tuple[str, str, str, str]] = [
+    ("docs/known-gaps.md", r"complete fresh review of the current ([\d,]+) local and [\d,]+ state-policy records\.", "rows", "Known gaps current local denominator"),
+    ("docs/known-gaps.md", r"complete fresh review of the current [\d,]+ local and ([\d,]+) state-policy records\.", "state_policy_actions", "Known gaps current policy denominator"),
     ("docs/codebook.md", r"`moratoria_without_verify_tags`: ([\d,]+)", "unflagged_rows", "codebook unflagged inventory rows"),
     ("docs/FAQ.md", r"current working inventory has ([\d,]+) rows", "rows", "FAQ current inventory rows"),
     ("README.md", r"\*\*([\d,]+) proposal and measure records\*\*", "expanded_records", "README expanded record denominator"),

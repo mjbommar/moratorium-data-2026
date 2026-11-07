@@ -514,3 +514,9 @@ Exit: repeatable refresh with visible freshness, costs, failures and unresolved 
 - [x] Independently assess 190 fields across ten Indiana policy records and apply 46 guarded corrections; preserve section-level dates and unresolved current force, and exercise native Exa/pydoll official-notice acquisition ([review](work/research/2026-11-07/indiana-policy-source-review/README.md)).
 
 - [x] Independently assess 228 Kansas policy fields and amendment/carrier identity, apply 62 guarded corrections, and add tested legal-form support without treating the carrier enactment as amendment adoption ([review](work/research/2026-11-07/kansas-policy-source-review/README.md)).
+
+- [x] Independently assess 152 Kentucky policy fields and apply 29 guarded corrections, including HB593's distinct 25/250 MW thresholds, with current-force and final-version gaps retained ([review](work/research/2026-11-07/kentucky-policy-source-review/README.md)).
+
+- [x] Independently assess 95 Louisiana policy fields and apply 21 guarded corrections, preserving HCR finality/version and current-law gaps ([review](work/research/2026-11-07/louisiana-policy-source-review/README.md)).
+- [x] Complete 78-field, three-record overdue local source adjudication; apply ten cells in two rows with recomputed verification metadata, and retain all three unresolved whole-record dispositions and specific follow-ups ([review](work/research/2026-11-07/overdue-local-record-review/README.md)). This does not close the full local freshness requirement.
+- [x] Re-observe Conneaut, Granville and Pataskala through native Exa/SerpAPI and official result sources; independently confirm unchanged reported figures and preserve unverified certification/implementation ([review](work/research/2026-11-07/ohio-result-reobservation/README.md)).

@@ -497,3 +497,15 @@ Applied 46 field corrections across ten existing policy rows after 190 independe
 ### Kansas fields and rejected-amendment form — November 7
 
 Applied 62 fields across twelve existing policy records following 228 independent assessments, a focused identity/form supplement and 45 source representation checks. Type the rejected HB2433 Senate motion as legislative_amendment and retain its permanent ID, rejected outcome and Senate origin separately from its House carrier. The census is now 443 policy rows, 427 bill-type rows and one amendment; enacted-category bills remain 94. Forty additional source versions passed native byte readback with zero gaps. Seven targeted regression tests passed; final full build/check evidence is separate. Full national freshness, all consumers and publication remain open.
+
+
+### Kentucky policy fields — November 7
+
+Applied 29 corrections across eight existing records after 152 independent field assessments and 40 source representation checks. Nineteen additional source versions passed native readback with zero gaps. Distinguish the HB593 substitute's municipal 25 MW and regulated-supplier 250 MW thresholds, enacted fiscal instruments and failed utility proposals. Census totals are unchanged; current-law, terminal journal and final conference-text gaps remain explicit. Whole-record local freshness and ballot due-work are separate requirements.
+
+
+### Louisiana, overdue local records and Ohio results — November 7
+
+Applied 21 Louisiana policy fields after 95 independent assessments; seventeen archive versions pass native readback. Separately reviewed all 78 fields across three overdue local IDs, corrected ten cells in two rows and retained three unresolved record dispositions. Verification metadata is recomputed; flagged local rows become 724. An empty signed-ordinance extraction is preserved alongside a clearly partial pages 1/32 OCR derivative with actual method metadata; four regression tests pass. Seven selected source mappings verify with zero gaps and one additional extraction version.
+
+Fresh Ohio official-source requests preserve identical reported figures for three measures. Independent review rejects an unwarranted certification upgrade from an index label that conflicts with its PDF. Two archive versions and four dated retrieval observations pass native replay without renewing report dates or legal effect. All three certification/implementation questions, full local and national freshness, expanded ballot scope, consumers and final publication remain open. The current known-gaps denominator is corrected to 443 policy records and added to the prose-number audit.

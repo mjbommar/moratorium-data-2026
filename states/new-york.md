@@ -56,7 +56,7 @@ State policy is tracked separately: **11 records** (10 typed bill rows and 1 non
 | Freedom (Cattaraugus County) | Town | Unverified | battery storage | 🟢 Active |
 | Gainesville | Town | Unverified | battery storage | 🟢 Active |
 | Gardiner | Town | 2025 | battery storage | 🟢 Extended |
-| German Flatts | Town | 2025 | solar, wind | 🟢 Active |
+| German Flatts | Town | Unverified | solar, wind | 🟢 Active |
 | Glen Cove | City | 2025-05-13 | battery storage | 🟢 Extended |
 | Glenville | Town | 2025-06-18 | battery storage | 🟢 Extended |
 | Gloversville | City | 2025-03-11 | battery storage, solar | ⚪ Replaced |
@@ -891,7 +891,7 @@ State policy is tracked separately: **11 records** (10 typed bill rows and 1 non
 - **Type:** Town
 - **Recorded status:** 🟢 Active
 - **Date enacted:** —
-- **Normalized date:** `2025` (year_only)
+- **Normalized date:** `—` (unverified)
 - **Duration:** 12 months
 - **Current end date:** `—`
 - **Sectors:** solar, wind
@@ -900,7 +900,7 @@ State policy is tracked separately: **11 records** (10 typed bill rows and 1 non
 - **What prompted it:** —
 - **Affected projects:** —
 - **Detailed status:** Under review per industry tracker; Herkimer County Planning Board minutes confirm the Town was advancing a 12-month moratorium on solar and wind energy systems (no county recommendation given) as of May 2025. A separately reviewed "Battery Energy Storage System Law" discussed at the same meeting was a permanent regulatory ordinance, not a moratorium, so this entry is limited to the solar/wind sectors actually confirmed. [VERIFY instrument number not confirmed at confidence 0.55 in the 2026-09 refresh]
-- **Outcome:** 12-month moratorium on solar energy systems, solar farms, wind energy systems and windmills.
+- **Outcome:** Herkimer County Planning Board reviewed a local law for a 12-month moratorium on applications and approvals and/or construction or installation of solar energy systems, solar farms, wind energy systems and windmills on May 19, 2025; town adoption and later action are unverified.
 
 ### Glen Cove
 

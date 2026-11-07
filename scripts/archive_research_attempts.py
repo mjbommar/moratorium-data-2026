@@ -106,7 +106,9 @@ def import_attempts(directory, state, apply=False, raw_root=None, attempt_ids=No
                 supplied=json.loads(context.read_text()).get(e['attempt_id'],{})
                 row['source_link_context']={k:supplied[k] for k in ('portal_url','document_label') if k in supplied}
         if prior_keys: row['extraction_variant_of'] = list(prior_keys)
-        if derivation: row['text_derivation']=derivation
+        if derivation:
+            row['text_derivation']=derivation
+            row['text_method']=derivation.get('method', 'reviewed extraction; see text_derivation')
         if apply:
             dest.mkdir(parents=True, exist_ok=True)
             for path, body in [(raw_path, raw), (text_path, text.encode())]:

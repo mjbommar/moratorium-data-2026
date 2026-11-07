@@ -1,0 +1,60 @@
+{
+  "checked_at": "2026-11-07T22:45:05.271560+00:00",
+  "state": "passed",
+  "base_commit": "1faa4ab8116ee636789bde4bb780f173f8bcf678",
+  "changes": {
+    "data/state_legislation.csv": {
+      "changed_fields": 50,
+      "changed_records": 13,
+      "preserved_ids": 443,
+      "sha256": "84e530a45856ac6e141e163b9fa06430e7d0d2797e479ef726c93628cab77899"
+    },
+    "data/moratorium_inventory.csv": {
+      "changed_fields": 10,
+      "changed_records": 2,
+      "preserved_ids": 1330,
+      "sha256": "6091f298b64c99dd1df0676d2d0b85143146665a30338e0caa7a4376ce19d98a"
+    }
+  },
+  "census": {
+    "local": 1330,
+    "policy": 443,
+    "typed_bills": 427,
+    "amendments": 1,
+    "enacted_category_bills": 94,
+    "ballot_measures": 53,
+    "flagged_local_rows": 724
+  },
+  "checks": {
+    "full_make_data_site_check": "exit0",
+    "final_site_render": "exit0;59pages",
+    "final_summary_geojson_index_checks": "passed",
+    "final_documented_numbers": "68match",
+    "legacy_errors": 0,
+    "legacy_warnings": 503,
+    "extraction_derivation_regressions": "4tests passed",
+    "private_content_check": "no private source text tracked",
+    "local_IDs": "all1330preserved",
+    "policy_IDs": "all443preserved",
+    "expanded_snapshot_and_identity": "unchanged",
+    "nine_data_figure_artifacts": "identical to base;counts/sectors/monthly inputs unchanged"
+  },
+  "new_archive_versions": {
+    "KY": 19,
+    "LA": 17,
+    "local_partial_extraction": 1,
+    "OH_indexes": 2
+  },
+  "oh_reported_result_reobservations": {
+    "measures": 3,
+    "canonical_changes": 0,
+    "native_retrieval_observations": 4,
+    "certification_followups": "remain open"
+  },
+  "local_whole_record_dispositions": {
+    "reviewed_cohort": 3,
+    "unresolved": 3,
+    "force_confirmations": 0
+  },
+  "scope": "Verified incremental data/source/copy change. Original1772baseline/current1773local+policyrows,allstates/allsectors,full1330localfunnel,ballot due-work,allsevenconsumers,P4/source gates and finalrelease remain required."
+}

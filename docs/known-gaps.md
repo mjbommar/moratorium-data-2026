@@ -8,10 +8,10 @@ record-level observations and `[VERIFY]` markers identify unresolved work.
 ### Complete record-level freshness acceptance
 
 All original collection jobs finished, but collection completion does not establish
-complete fresh review of the current 1,330 local and 442 state-policy records.
+complete fresh review of the current 1,330 local and 443 state-policy records.
 The [field ledger](../work/audit/refresh-field-accounting-2026-11-07.md) separates
 returned outcomes and logged edits. Two November 7 full-table index drafts matched
-every current ID and row hash, but did not independently adjudicate source authority,
+every ID and row hash in their then-current snapshots, but did not independently adjudicate source authority,
 supported status dates or complete field coverage. They were [not accepted as a
 freshness funnel](../work/audit/freshness-index-review-2026-11-07.json). Their generic
 next actions and text-match review pointers cannot justify confirmed-unchanged,
@@ -32,10 +32,26 @@ wording, finality, effectiveness and current-force questions remain separate
 open work, including explicit followups for those two supported day counts.
 It is not whole-record confirmation.
 
+The [three overdue local reviews](../work/research/2026-11-07/overdue-local-record-review/README.md)
+independently assess 78 fields and apply ten cell corrections across two rows.
+Springfield, German Flatts and East Whiteland all retain unresolved whole-record
+dispositions with supported dates, actual inspected attempts and document-specific
+follow-ups. East Whiteland's signed zoning adoption does not establish the earlier
+curative protection's endpoint; German Flatts' county review does not establish town
+adoption. These are researched unresolved dispositions, not renewed legal force or
+a complete inventory freshness funnel.
+
+The [November 7 Ohio re-observation](../work/research/2026-11-07/ohio-result-reobservation/README.md)
+confirms unchanged reported figures for three measures, without a new canonical
+result or supersession. Ashtabula's index labels its link official while the actual
+PDF remains expressly unofficial; countywide precinct reporting does not establish
+contest certification. All three certification and implementation follow-ups remain
+open. New retrieval times do not renew the original report publication dates.
+
 
 ### Small-township records that aren't online
 
-Many small townships and rural counties don't post agendas, minutes, or signed ordinances on the web. When we know a moratorium exists from news coverage but can't pull the underlying instrument, we record it with a `[VERIFY]` note in the relevant inventory field rather than guessing at the ordinance number or exact date. **723 of the 1330 inventory rows** have at least one such evidence-ceiling note (`has_verify_tags = True`). The earlier v2026.04.4 snapshot had 123 flagged rows out of 222; these are different inventory populations.
+Many small townships and rural counties don't post agendas, minutes, or signed ordinances on the web. When we know a moratorium exists from news coverage but can't pull the underlying instrument, we record it with a `[VERIFY]` note in the relevant inventory field rather than guessing at the ordinance number or exact date. **724 of the 1330 inventory rows** have at least one such evidence-ceiling note (`has_verify_tags = True`). The earlier v2026.04.4 snapshot had 123 flagged rows out of 222; these are different inventory populations.
 
 ### Legacy instrument identities
 
