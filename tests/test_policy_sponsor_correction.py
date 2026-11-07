@@ -13,7 +13,7 @@ import apply_legislation as module
 
 
 class PolicySponsorTests(unittest.TestCase):
-    def exercise(self,stale):
+    def exercise(self,stale,field='sponsors',value='Reviewed primary sponsors'):
         with tempfile.TemporaryDirectory() as tmp:
             root=Path(tmp);data=root/'data';data.mkdir();audit=root/'work/audit';audit.mkdir(parents=True)
             columns=module.BASE_COLUMNS+module.NEW_COLUMNS
@@ -24,7 +24,7 @@ class PolicySponsorTests(unittest.TestCase):
             baseline=dict(row)
             if stale:baseline['legal_effect_status']='in_force'
             base=root/'baseline.json';base.write_text(json.dumps([baseline]))
-            answers=root/'answers.json';answers.write_text(json.dumps({'state_abbrev':'ZZ','researched_as_of':'2026-11-06','researcher':'Synthetic fixture','decisions':[{'bill_key':'ZZ:S1','outcome':'corrected','fields':{'sponsors':'Reviewed primary sponsors'},'evidence':[{'url':'https://example.invalid/bill','source_type':'legislature_bill_page','supports':'Synthetic sponsor list only'}]}],'new_bills':[]}))
+            answers=root/'answers.json';answers.write_text(json.dumps({'state_abbrev':'ZZ','researched_as_of':'2026-11-06','researcher':'Synthetic fixture','decisions':[{'bill_key':'ZZ:S1','outcome':'corrected','fields':{field:value},'evidence':[{'url':'https://example.invalid/bill','source_type':'legislature_bill_page','supports':'Synthetic sponsor list only'}]}],'new_bills':[]}))
             with patch.object(module,'REPO',root),patch.object(module,'LEG',path),patch.object(module,'AUDIT_DIR',audit),patch.object(sys,'argv',['apply_legislation.py','--answers',str(answers),'--baseline',str(base)]),contextlib.redirect_stdout(io.StringIO()):
                 self.assertEqual(module.main(),1 if stale else 0)
             with path.open(newline='') as stream:after=list(csv.DictReader(stream))[0]
@@ -34,11 +34,13 @@ class PolicySponsorTests(unittest.TestCase):
                 self.assertEqual(after,row);self.assertFalse(list(audit.glob('apply-legislation-*.json')))
             else:
                 receipt=json.loads(next(audit.glob('apply-legislation-*.json')).read_text())
-                self.assertEqual(after,{**row,'sponsors':'Reviewed primary sponsors'})
-                self.assertEqual([r['column'] for r in receipt['changes']],['sponsors'])
+                self.assertEqual(after,{**row,field:value})
+                self.assertEqual([r['column'] for r in receipt['changes']],[field])
                 self.assertFalse(receipt['conflicts'])
     def test_primary_sponsor_field_updates_without_other_changes(self):self.exercise(False)
     def test_stale_whole_row_blocks_sponsor_correction(self):self.exercise(True)
+    def test_source_supported_party_changes_only_party(self):self.exercise(False,'party','Democrat')
+    def test_stale_whole_row_blocks_party_correction(self):self.exercise(True,'party','Democrat')
 
 
 if __name__=='__main__':unittest.main()
