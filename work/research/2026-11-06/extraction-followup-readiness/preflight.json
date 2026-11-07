@@ -1,0 +1,28 @@
+{
+  "schema_version": "controlled-backend-preflight-1",
+  "network": "httpx2.MockTransport only; no provider requests",
+  "backend_module": "/home/mjbommar/projects/bc/bc-modules-sdk-retries/bc-llm/python/bc_llm/pydantic_ai_backend.py",
+  "backend_sha256": "0f274573a86a1539317b51d9be1d93a012ce5395987ce113341aca88964c4690",
+  "sdk_retries": 0,
+  "backend_max_attempts": 1,
+  "agent_retries": 0,
+  "max_model_requests": 1,
+  "persistent_http_cap": 1,
+  "generate_invocations": 2,
+  "mock_http_requests": 1,
+  "http_states": [
+    "reserved",
+    "response"
+  ],
+  "first_http_status": 503,
+  "exception_chains": [
+    [
+      "ModelHTTPError",
+      "InternalServerError"
+    ],
+    [
+      "BudgetExceeded"
+    ]
+  ],
+  "passed": true
+}

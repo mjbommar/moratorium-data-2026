@@ -1,0 +1,40 @@
+{
+  "schema_version": "extraction-followup-readiness-1",
+  "source_commit": "e743ac923953db59d54f28c0f8eab496fc2d49f0",
+  "isolated_backend_commit": "d5acda100a0999267eaa150e0017130666cb28d4",
+  "distributed_cli_reviews": [
+    {
+      "job": "quality-contract",
+      "requested_model": "gpt-6.1-terra",
+      "terminal": "turn.completed",
+      "events_sha256": "4bb04759e5554f7fb3fe2e8e818d82189b1454ef66f315fb9291a6e743981e91",
+      "report_sha256": "e79220fbfc07379a04fecb63ba720ba0d6d3cfeea6621cc743d0fad7e94367f6"
+    },
+    {
+      "job": "quality-transport",
+      "requested_model": "gpt-6.1-terra",
+      "terminal": "turn.completed",
+      "events_sha256": "29abcf8f1ce7bd8e0cec8f315b44f89ee7c5281682a1f07f0706e5bfe56ef096",
+      "report_sha256": "da0227330fd27e6de3aed8ee2ecfbebd40a46ad0ead18014b2b32359bd85ff0a"
+    }
+  ],
+  "transport_tests": {
+    "passed": 6,
+    "command": "/home/mjbommar/projects/bc/bc-modules/.venv/bin/python -m unittest discover -s tests -p test_controlled_model_transport.py -v"
+  },
+  "extraction_provider_requests": 0,
+  "canonical_data_changes": 0,
+  "quality_gate": "not passed; historical 32/36 unchanged",
+  "next_required_work": [
+    "versioned compound condition contract preserving conjunction, alternatives and cardinality",
+    "complete-group scoring with missing and contradictory member rejection",
+    "full domain runner offline failure/restart/replay/transport integration",
+    "new frozen evaluation cohort and explicit independent-holdout provenance"
+  ],
+  "files_sha256": {
+    "contract-review.md": "e79220fbfc07379a04fecb63ba720ba0d6d3cfeea6621cc743d0fad7e94367f6",
+    "preflight.json": "ecd7768b60acee0400c28f37befd32fcb48e09a6f91e705ad223d6238e80cd02",
+    "preflight.py": "307144300a55c196eeb178db0a4fdfd925714e2cba8a25c7d178819c27b24f47",
+    "transport-review.md": "da0227330fd27e6de3aed8ee2ecfbebd40a46ad0ead18014b2b32359bd85ff0a"
+  }
+}
