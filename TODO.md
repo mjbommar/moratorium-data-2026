@@ -294,7 +294,7 @@ Exit: fresh, reproducible release with reconciled data/prose, a verified publish
 
 ## P7 — Maintenance
 
-- [x] Integrate explicit profile 1.0.2 into structural validation, sealed publication/predecessor receipts, narrow historical field review, source-proof checks and retained/current/status CSV generation. Exercise source-byte synthetic withdrawal/correction/reinstatement, replay and offline restore with missing/tampered dependency cases. Real five-event migration, consumer reconciliation and final committed-bundle verification remain open ([contract](docs/event-validity-publication.md)).
+- [x] Integrate explicit profile 1.0.2 into structural validation, sealed publication/predecessor receipts, narrow historical field review, source-proof checks and retained/current/status CSV generation. Exercise source-byte synthetic withdrawal/correction/reinstatement, replay and offline restore with missing/tampered dependency cases. A deterministic 727-member committed bundle restores successfully; real five-event migration, consumer reconciliation and final release-asset verification remain open ([contract](docs/event-validity-publication.md)).
 
 - [x] Implement and exercise the isolated event-validity maintenance contract: withdrawal/reinstatement, time-specific support, combined review timeline, typed one-to-many corrections and immutable predecessor retention. Production profile, source-proof, promotion/export and portable-restore integration remain open ([development boundary and integration checklist](docs/event-maintenance-development.md)).
 
