@@ -26,8 +26,8 @@ corrections, including one resolved original-term source requirement. It does no
 make the full-table index drafts accepted or renew current-force dates.
 
 The [California original-term review](../work/research/2026-11-07/california-original-term-review/README.md)
-supports existing descriptive 45-day fields for Gilroy and City of Angels. The
-original-term field-support ledger now has 219 remaining cases; exact enacted
+supports existing descriptive 45-day fields for Gilroy and City of Angels. That
+review checkpoint retained 219 original-term requirements; the [successor queue](../work/research/2026-11-07/cross-sector-term-adjudication/remaining-original-term-requirements.json) now retains 217. Exact enacted
 wording, finality, effectiveness and current-force questions remain separate
 open work, including explicit followups for those two supported day counts.
 It is not whole-record confirmation.
@@ -35,7 +35,7 @@ It is not whole-record confirmation.
 
 ### Small-township records that aren't online
 
-Many small townships and rural counties don't post agendas, minutes, or signed ordinances on the web. When we know a moratorium exists from news coverage but can't pull the underlying instrument, we record it with a `[VERIFY]` note in the relevant inventory field rather than guessing at the ordinance number or exact date. **709 of the 1330 inventory rows** have at least one such evidence-ceiling note (`has_verify_tags = True`). The earlier v2026.04.4 snapshot had 123 flagged rows out of 222; these are different inventory populations.
+Many small townships and rural counties don't post agendas, minutes, or signed ordinances on the web. When we know a moratorium exists from news coverage but can't pull the underlying instrument, we record it with a `[VERIFY]` note in the relevant inventory field rather than guessing at the ordinance number or exact date. **714 of the 1330 inventory rows** have at least one such evidence-ceiling note (`has_verify_tags = True`). The earlier v2026.04.4 snapshot had 123 flagged rows out of 222; these are different inventory populations.
 
 ### Legacy instrument identities
 

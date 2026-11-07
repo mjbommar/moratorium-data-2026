@@ -1,0 +1,30 @@
+{
+  "reviews": [
+    {
+      "packet": "01",
+      "review_sha256": "430c6b3d6b38d86e938d6efa330da8bd8d411f48fb1e8247f79af5abb37818f1",
+      "status": "applied_with_derived_recalculation"
+    },
+    {
+      "packet": "02",
+      "review_sha256": "758c04d82a1076061df8d4fc7d0c70e9d4bad846a33ab0ef1a702b79b2518d3f",
+      "status": "applied_with_derived_recalculation"
+    },
+    {
+      "packet": "03",
+      "review_sha256": "42a774d1cb39676c598c2eb459b3fbc235de55d5be3a9af6967561cdcd2e4e4c",
+      "status": "not_applied_prior_source_recovery_required"
+    }
+  ],
+  "method": "Independent Terra CLI source adjudication followed by coordinator rereading of cited source passages and text-hash verification, with full-row guards checked before mutation.",
+  "source_registries": [
+    "../georgia-first-four-field-review/source-registry.json",
+    "../georgia-second-four-field-review/source-registry.json"
+  ],
+  "decisions": [
+    "Accept first-packet seven proposals including two wording revisions, coordinate Athens original duration_kind unknown and qualified historical status, and add Appling water trigger from signed original recitals.",
+    "Accept second-packet seven authored corrections including revised historical-status qualification for Bloomingdale; recompute ten VERIFY metadata cells over both packets.",
+    "Do not apply third-packet proposals until older actual cited source versions are recovered; an independent reviewer incorrectly treated original duration category unknown as disallowed by the historical enacted-status preservation constraint. These are distinct fields."
+  ],
+  "limits": "No legal-force renewal, no queue closure, no all-state freshness or final release claim."
+}

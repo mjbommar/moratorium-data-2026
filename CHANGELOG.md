@@ -2,6 +2,12 @@
 
 ## 2026-11-07 — current working snapshot (unreleased)
 
+### Georgia independent source corrections — November 7
+
+- Apply 27 reviewed cell corrections across six existing records; distinguish reported votes, unsigned proposals, original terms and operative endpoints. Retain historical status categories with explicit force limits, clear two unsupported exact current endpoints, and reconcile five newly flagged rows (714 total).
+- Complete all twelve Georgia rows’ 312 independent field dispositions. Third-packet correction adjudication and broader freshness remain open; no inventory or ballot row is added or removed.
+
+
 The [Coachella restriction/history publication](work/research/2026-11-07/coachella-restriction-history-migration/README.md)
 adds one restriction record and three historical events, including a typed policy
 predecessor. Restriction records rise from one to two and events from seven to ten;
@@ -107,7 +113,7 @@ These are inventory classifications, not independently renewed legal-force findi
 | Classified active or extended | **1079** |
 | Pending or not yet effective | **79** |
 | Ended (replaced, expired, or rescinded) | **172** |
-| Rows we still want to confirm (`[VERIFY]`) | **709** |
+| Rows we still want to confirm (`[VERIFY]`) | **714** |
 | States with at least one | **47** |
 
 Current totals remain 1,330 local records (1,079 active/extended classifications),

@@ -476,3 +476,7 @@ Exit: repeatable refresh with visible freshness, costs, failures and unresolved 
 - [x] Publish Coachella's restriction and three historical events with a qualified typed policy predecessor under profile 1.0.4; verify 559 retained-source claim bindings, preserve all prior records and exact replay (`work/research/2026-11-07/coachella-restriction-history-migration/`). Ten events/two restriction records now; formal termination, current force, broader P4 and final release remain open.
 
 - [x] Build the actual profile 1.0.4 working bundle twice at committed da17280 with identical hashes, restore and verify 1,068 members/all 36 retained generations/current CSVs/exact replay. Record internal-consistency limits and keep final source/consumer/release gates open (`work/research/2026-11-07/policy-succession-profile/committed-bundle-verification.json`).
+
+- [x] Complete independent peer disposition enumeration for all twelve Georgia rows (312 fields); retain exact review hashes and per-packet counts in `work/research/2026-11-07/georgia-twelve-field-assessment/independent-review-coverage.json`. This closes review coverage only; coordinator correction adjudication and source/current-force gaps remain open.
+
+- [x] Apply first two Georgia peer correction packets after independent source adjudication and full-row guards: 27 cells/six records including derived flags (`work/research/2026-11-07/georgia-peer-corrections/`). Third packet, original instrument/history gaps and comprehensive freshness remain open.

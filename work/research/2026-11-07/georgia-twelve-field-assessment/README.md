@@ -7,3 +7,7 @@ This closes primary field-assessment enumeration for this packet. It does not ma
 All 116 literal proof spans in the third ledger were verified against retained text and replaced in the public ledger by hashes and line ranges. Full OCR paragraphs and source bodies remain private. The earlier codebook version was recovered byte-exactly against its recorded hash; it is a historical definition reference, not a current dataset-count claim.
 
 No additional record, measure, event or original-term queue closure results from this coverage checkpoint. The wider 1,772-record/all-state/all-sector refresh, quality, consumer and release work remains open.
+
+## Independent review checkpoint
+
+All three independent peer packets now contain 104 dispositions each, covering the full 12-record/312-field assignment. See independent-review-coverage.json for exact private review hashes, record IDs, disposition counts and outstanding proposal counts. This completes peer enumeration; coordinator adjudication of proposed corrections remains open. Unsupported facts and legal-force gaps remain unresolved.
