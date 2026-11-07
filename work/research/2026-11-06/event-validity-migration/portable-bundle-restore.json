@@ -1,0 +1,220 @@
+{
+  "source_commit": "ed33d74763cf073c9695ccebdb81d938a62ffb57",
+  "active_profile": "1.0.2",
+  "deterministic_builds": 2,
+  "identical_archive_manifest_and_checksums": true,
+  "members_verified": 782,
+  "archive": {
+    "name": "moratorium-data-working-candidate.tar.gz",
+    "bytes": 16281705,
+    "sha256": "76dfc3deccd0c0ac6b945aad575cf420ac5e255931256826362eece9beacd93e"
+  },
+  "manifest_sha256": "0f0ed5eed37923fdbe9ee9e64f9362423c7fd5cb74d416213a6db7d857155148",
+  "restored_without_git_or_private_bodies": true,
+  "includes_new_profile_runtime_and_contract": true,
+  "manifest_detects_profile_tamper": true,
+  "checks": [
+    {
+      "command": [
+        "scripts/check_expanded_publication.py"
+      ],
+      "exit_code": 0,
+      "output_sha256": "08c90752b3efa7ff178605340a5e58d76196ca6757c48838ad28ee43becec880",
+      "result": {
+        "state": "consistent",
+        "snapshot_sha256": "9f2c9b4d29e31a5434bb38f071724c38b59b926e114ad4b75acba854aa080287",
+        "generations_checked": 32,
+        "records": {
+          "jurisdictions": 46,
+          "elections": 46,
+          "ballot_measures": 50,
+          "measure_provisions": 50,
+          "measure_results": 57,
+          "local_restrictions": 1,
+          "instrument_events": 5,
+          "measure_instrument_links": 1,
+          "source_documents": 144,
+          "claims": 528,
+          "review_decisions": 2399,
+          "search_runs": 1,
+          "search_attempts": 3,
+          "search_sightings": 18,
+          "coverage_observations": 1
+        },
+        "scope": "Offline publication/receipt consistency only; no source reacquisition, renewed factual acceptance or current-force confirmation."
+      }
+    },
+    {
+      "command": [
+        "scripts/build_expanded_csv.py",
+        "--check"
+      ],
+      "exit_code": 0,
+      "output_sha256": "e8adafc4d7c8a1a5b7fb11e3eaa0b4cdc8a5c295cdc93f7361b67143b14142d1",
+      "result": {
+        "state": "matches",
+        "source_snapshot": "9f2c9b4d29e31a5434bb38f071724c38b59b926e114ad4b75acba854aa080287",
+        "projection_sha256": "d73054880d4aa5c472483295da33ccd24f451bac1c96c1162d94839e4887834e",
+        "csv_views": 18
+      }
+    },
+    {
+      "command": [
+        "scripts/audit_pilot_contracts.py",
+        "work/research/2026-11-06/pilot-contract-review/manifest.json"
+      ],
+      "exit_code": 0,
+      "output_sha256": "b0191675c1ca2d8f362e85818e1ee2371ecebea1e01c61e9613bfdf902d0e7a3",
+      "result": {
+        "schema_version": "pilot-contract-validation-1",
+        "manifest_sha256": "b3274452c8a3f41e90d459b4ed138b05683765d8f199a7f974bbebd08843bf4e",
+        "snapshot_sha256": "3b01a2f4d33e79fff6c4b0bd7e463ceabdc65f95e1b7f0af1c4daf61a4722947",
+        "cases": [
+          {
+            "case_id": "amended-certification",
+            "kind": "synthetic_schema_example",
+            "checked_record_count": 0,
+            "limits": "Explicit artificial contract fixture; no real election, certification, legal history or source acceptance asserted."
+          },
+          {
+            "case_id": "bloomington",
+            "kind": "source_backed_snapshot",
+            "checked_record_count": 5,
+            "limits": "Township electorate and advisory sentiment are distinct from city actor and operative law. Placement/qualification disposition and boundary source remain incomplete."
+          },
+          {
+            "case_id": "council-only",
+            "kind": "source_review_only",
+            "checked_record_count": 0,
+            "limits": "Seattle original council adoption is distinct from mayoral approval and current force; duplicate ID resolves to one instrument. No ballot inferred."
+          },
+          {
+            "case_id": "december-pending",
+            "kind": "source_review_only",
+            "checked_record_count": 0,
+            "limits": "Clarksville financing calls are distinct; December date remains conditional/conflicting. No canonical November result or accepted final December date."
+          },
+          {
+            "case_id": "december-shape",
+            "kind": "synthetic_schema_example",
+            "checked_record_count": 0,
+            "limits": "Explicit artificial contract fixture; no real election, certification, legal history or source acceptance asserted."
+          },
+          {
+            "case_id": "earlier-election",
+            "kind": "source_backed_snapshot",
+            "checked_record_count": 5,
+            "limits": "Canterbury March10 question stays outside November totals; proposed prohibition does not establish operative law."
+          },
+          {
+            "case_id": "el-dorado",
+            "kind": "source_backed_snapshot",
+            "checked_record_count": 5,
+            "limits": "Mixed data-center/BESS scope is not mixed polarity. Ten-year notice differs from unsigned petition; no chosen expiry, current force or single BESS capacity shortcut. Proposed data-center definition explicitly includes cryptocurrency mining; the three-sector classification is supported by that proposal, not solely by the shorter notice."
+          },
+          {
+            "case_id": "failed-qualification",
+            "kind": "synthetic_schema_example",
+            "checked_record_count": 0,
+            "limits": "Explicit artificial contract fixture; no real election, certification, legal history or source acceptance asserted."
+          },
+          {
+            "case_id": "grove-city",
+            "kind": "source_backed_snapshot",
+            "checked_record_count": 5,
+            "limits": "Binding describes the proposed voter-approval mechanism, not current law. Alternative thresholds, aggregation, expansion-version conflict and future-project passage rule remain distinct from amendment passage."
+          },
+          {
+            "case_id": "harwood",
+            "kind": "source_backed_snapshot",
+            "checked_record_count": 5,
+            "limits": "Counts favor no, but exact formal passage/outcome, polarity and operative legal effect are unresolved. Defeat must not be translated into a permit or project approval."
+          },
+          {
+            "case_id": "mixed-polarity",
+            "kind": "synthetic_schema_example",
+            "checked_record_count": 0,
+            "limits": "Explicit artificial contract fixture; no real election, certification, legal history or source acceptance asserted."
+          },
+          {
+            "case_id": "peru",
+            "kind": "source_backed_snapshot",
+            "checked_record_count": 5,
+            "limits": "Plan description says binding voter-adopted pause. Current reviewed proposal and tally do not establish bindingness, polarity, passage or effective date; those remain unresolved."
+          },
+          {
+            "case_id": "piqua",
+            "kind": "source_backed_snapshot",
+            "checked_record_count": 5,
+            "limits": "Official named contest and counts are retained; complete primary charter wording, yes direction, predecessor relationship and current law remain unresolved."
+          },
+          {
+            "case_id": "portal-failure",
+            "kind": "source_review_only",
+            "checked_record_count": 0,
+            "limits": "Unselected Miami ballot form and Lucas 403 challenge are acquisition gaps, not absence of an official record."
+          },
+          {
+            "case_id": "predecessor-replacement",
+            "kind": "synthetic_schema_example",
+            "checked_record_count": 0,
+            "limits": "Explicit artificial contract fixture; no real election, certification, legal history or source acceptance asserted."
+          },
+          {
+            "case_id": "wells",
+            "kind": "source_backed_snapshot",
+            "checked_record_count": 5,
+            "limits": "Certified counts do not establish enactment. Proposed 180-day term anchors to June16 applicability, not election; defined area and retroactivity retain separate evidence."
+          },
+          {
+            "case_id": "wilmington",
+            "kind": "source_backed_snapshot",
+            "checked_record_count": 12,
+            "limits": "Four parcel measures share one city/election. Secondary project context is not a project identity/applicability/approval/cancellation finding."
+          }
+        ],
+        "case_kind_counts": {
+          "synthetic_schema_example": 5,
+          "source_backed_snapshot": 9,
+          "source_review_only": 3
+        },
+        "unique_review_evidence_files": 16,
+        "explicit_field_expectations": 23,
+        "selected_canonical_measures": 12,
+        "selected_measure_months": {
+          "2026-11": 11,
+          "2026-03": 1
+        },
+        "quality_gate_status": "not_assessed",
+        "chronology": "Retrospective contract review after prior tuning/publication. Not an independent unseen holdout or pre-bulk quality gate; those requirements remain open.",
+        "calibration_findings": [
+          {
+            "case_id": "el-dorado",
+            "field": "ballot_measures.sectors",
+            "status": "value_supported_field_evidence_needs_strengthening",
+            "finding": "Current scoped field acceptance cites the shorter notice wording. The explicit cryptocurrency-mining inclusion is in the unsigned proposal definition, not that notice. Located-source verification alone does not establish field-value entailment.",
+            "required_action": "Add a reviewed measure-scoped proposal-definition claim and a superseding sectors field decision before final field-lineage acceptance; preserve current three-sector value and all prior observations."
+          }
+        ],
+        "validation_errors": 0,
+        "scope": "Retrospective schema/example review and pinned-source-receipt integrity. Not a discovery/extraction accuracy metric, new legal acceptance, independent holdout, source reacquisition or P4 quality-gate completion."
+      }
+    },
+    {
+      "command": [
+        "work/research/2026-11-06/event-validity-migration/run_publication.py",
+        "replay"
+      ],
+      "exit_code": 0,
+      "output_sha256": "13d3195b8d10032036f4418d6d3faf9a133f3bd3a417eeb6b1efbc851e66bf0d",
+      "result": {
+        "state": "already_applied",
+        "sha256": "7b1743642dc6b8bffe86c8f13af84fc60198e26b2724c440f01afae74be372f2",
+        "generation_id": "9f2c9b4d29e31a5434bb38f071724c38b59b926e114ad4b75acba854aa080287",
+        "publication_sha256": "9037ab301457b9b2414a943973bd432bcc1e1a200bfec48462bef3dcf341a5d7"
+      }
+    }
+  ],
+  "archive_retention": "Temporary archive removed after verification; no release asset published.",
+  "scope": "Pinned committed real profile1.0.2 generation, predecessor history and 18 CSV views; actual restored cohort replay without source roots. Not renewed source acquisition, inventory-wide force acceptance or hosted/release verification."
+}
