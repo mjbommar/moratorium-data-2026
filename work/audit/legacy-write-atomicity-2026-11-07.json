@@ -1,0 +1,23 @@
+{
+  "source_commit": "956cf98",
+  "scope": "Crash-atomic replacement of either legacy CSV; separate receipt is not a joint transaction.",
+  "tests": {
+    "command": "PYTHONDONTWRITEBYTECODE=1 /home/mjbommar/projects/bc/bc-modules/.venv/bin/python -m pytest -p no:cacheprovider -q tests",
+    "passed": 420,
+    "subtests_passed": 165,
+    "log_sha256": "4faeb784f0a44edef56dc9ec585bb3710804b9cd212d381730aed492aeaf25f0"
+  },
+  "failure_injection": [
+    "partial staged write",
+    "file fsync",
+    "replace",
+    "directory fsync",
+    "partial separate receipt write"
+  ],
+  "limits": [
+    "Exception injection, not actual power-cut testing.",
+    "No concurrent-writer lock or joint CSV/receipt transaction.",
+    "Directory fsync failure after replacement leaves complete new bytes visible but power-loss durability is not proven.",
+    "Documentation describes receipt reconciliation and recovery."
+  ]
+}
