@@ -390,3 +390,11 @@ The [40-ID source packet](../work/research/2026-11-06/pa-va-policy-review/README
 ## Source-reviewed compound clauses
 
 The [Mandan/Harwood follow-up](../work/research/2026-11-06/compound-clause-source-review/README.md) activates profile1.0.3 for twelve descriptive proposed clauses. Definition/territorial gates, below-threshold conjunction, major/moderate cardinality and unsimplified water comparisons retain their scope and ambiguities. All540claims reverify; no source was reacquired and no legal-force/result/legacy value was changed. CLI source reviews are separate from extraction-quality evaluation and have separately unpriced spend.
+
+## November 7 compound-extraction development result
+
+The [committed comparison report](../work/research/2026-11-07/compound-chunk-policy-evaluation/README.md) now closes the four-case execution and source-review increment. The isolated patched runtime disables SDK retries and records 13 provider HTTP attempts, 12 returned results and zero additional cache-replay calls. The original three-document trial's HTTP count remains unobserved; this later run does not reconstruct it.
+
+Both new policies fail acceptance: default chunks have 36/40 coordinator-supported candidates and 1/12 complete required slots; whole-text has 10/12 and 0/12. Two independent Terra reviews disagree on four candidate labels and three slot judgments; a third blind draft aids root source adjudication, with dissent retained privately and hashes published. AI agreement is not accuracy. The strict complete-clause rubric, fixed order, known development sources and differing claim opportunities limit interpretation. No candidates or native summaries are approved for canonical data or copy.
+
+The priced successful-result subtotal is $0.3073644 under a pinned local price overlay; one unpriced failed attempt retains $0.75. Actual invoiced spend remains unknown, and the shared accounting gate is false. Runtime-file verification, before-write storage enforcement and the frozen artifact/accounting audit passed; these do not close quality, unseen holdout, recall, freshness or release gates. No further trial is funded from this frozen protocol.

@@ -1,0 +1,47 @@
+{
+  "scope": "Six existing Missouri 2026 bills: full official action histories, session-end/disposition evidence and official sponsor party verification. No SB4 tariff recollection; no automatic application.",
+  "source_cohort_date": "2026-11-05",
+  "retrieval_date": "2026-11-07",
+  "original_job_caps_unchanged": true,
+  "reason": "Prior page captures excluded House action-history iframe content and lacked party/session-end sources. New sources/endpoints are specifically required.",
+  "aggregate_caps": {
+    "exa": 4,
+    "search_total": 4,
+    "fetch": 12
+  },
+  "pricing": "At most four Exa searches using native quoted estimates; prior measured rate $0.007 per search is indicative, not an invoice ceiling. Fetch caps are application operations, not total browser subrequest counts. No SerpAPI or model-extraction calls.",
+  "jobs": [
+    {
+      "id": "mo-full-actions-01",
+      "private_directory": "/data0/moratorium-refresh-2026/source-followup/mo-full-actions-01",
+      "bills": [
+        "HB 2239 (2026)",
+        "HB 3362 (2026)",
+        "HB 3364 (2026)"
+      ],
+      "caps": {
+        "search_total": 2,
+        "exa": 2,
+        "serpapi": 0,
+        "fetch": 6
+      },
+      "prompt_sha256": "0d5eb9299a0009bbc10a0d332e11b727a5738e270211f3d62b285177ecfb7469"
+    },
+    {
+      "id": "mo-full-actions-02",
+      "private_directory": "/data0/moratorium-refresh-2026/source-followup/mo-full-actions-02",
+      "bills": [
+        "HB 3369 (2026)",
+        "HB 3390 (2026)",
+        "SB 1750 (2026)"
+      ],
+      "caps": {
+        "search_total": 2,
+        "exa": 2,
+        "serpapi": 0,
+        "fetch": 6
+      },
+      "prompt_sha256": "46c84ac50ff6c90c94725140bfdbfcda29cc2b1dab18eaeb11935296b64d18cb"
+    }
+  ]
+}

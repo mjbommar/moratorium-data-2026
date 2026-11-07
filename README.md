@@ -183,7 +183,7 @@ moratorium-data-2026/
 ├── states/                        # 50-state index + per-state pages
 ├── data/                          # canonical CSVs and JSON
 │   ├── moratorium_inventory.csv   # the 1330-row local-moratorium table
-│   ├── state_legislation.csv      # 442-row state-policy tracker (440 bills + 2 actions)
+│   ├── state_legislation.csv      # 442-row state-policy tracker (440 legacy bill-type rows + 2 other actions)
 │   ├── summary_stats.json         # top-level aggregates
 │   ├── structured_extractions.jsonl  # 864 lines (526 successful + 338 errors)
 │   └── clause_extraction_analysis.json  # n=348 cohort summary
