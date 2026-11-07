@@ -455,3 +455,7 @@ Exit: repeatable refresh with visible freshness, costs, failures and unresolved 
 - [x] Publish two source-supported historical Morro Bay council events with profile 1.0.3, retained prior records, all 545 claims source-checked and exact idempotent replay (`work/research/2026-11-07/morro-bay-event-migration/`). Seven events now; effective interval, permanent-ban linkage and broader P4 remain open.
 
 - [x] Recover certified Arcata Ordinance 1594 using Exa/Serp/bc-web, independently and coordinately verify its original 45-day term, preserve frozen 219-entry queue and publish successor 218-entry ledger (`work/research/2026-11-07/original-instrument-recovery/`). Final successor, current force and three other recovered histories remain unresolved.
+
+- [x] Apply six source-stage/endpoint corrections across Escondido and El Monte, preserve historical classifications and original-term requirements, and recompute four verification fields (`work/research/2026-11-07/california-successor-stage-review/`). Two unsupported operative endpoints cleared; final enactment/text and current force remain unresolved.
+
+- [x] Execute frozen 27-unit Virginia domain evaluation and independently recompute all raw HTTP outputs against pinned layouts: at most 1/27 clauses meets literal-support prerequisites, so acceptance fails regardless of disputed semantic findings (`work/research/2026-11-07/prospective-va-domain-evaluation/`). No candidates promoted; semantic second adjudication and broader P4 remain open.

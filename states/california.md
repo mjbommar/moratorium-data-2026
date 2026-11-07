@@ -166,15 +166,15 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 - **Recorded status:** 🟢 Extended
 - **Date enacted:** 2026-03-18 (Interim Urgency Ordinance No. 3063, adopted by a 7-0 vote at a Concurrent Special Meeting, per published City Council minutes); extended by Interim Urgency Ordinance No. 3065, adopted by a 7-0 vote at the Regular Meeting of 2026-04-22 following a public hearing and receipt of the Gov. Code section 65858(d) report, per published minutes
 - **Normalized date:** `2026-03-18` (exact)
-- **Duration:** Initial 45 days (Ord. 3063, term would have run through approximately 2026-05-02); extended 10 months and 15 days by Ord. 3065, adopted 2026-04-22. Under Gov. Code section 65858(a), the initial ordinance plus this first extension together cannot exceed one year from initial adoption, placing the current expiration at approximately 2027-04-13/14 (45 days + 10 months 15 days = 12 months from 2026-03-18). The exact date is not stated verbatim in the minutes reviewed and is calculated from the statutory ceiling, not quoted from a source.
-- **Current end date:** `2027-03-17`
+- **Duration:** March 18 posted minutes describe an initial 45-day urgency moratorium; April 22 posted minutes record approval of Ordinance 3065 for a 10-month, 15-day extension. Final operative wording, effective anchors and current endpoint remain unverified.
+- **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `ca-el-monte-2026`
 - **Legal basis:** Interim Urgency Ordinance No. 3063; extension Interim Urgency Ordinance No. 3065; Gov. Code section 65858
 - **What prompted it:** City Council study of data center development and community impacts within El Monte
 - **Affected projects:** No specific project identified in captured records
-- **Detailed status:** Active as of 2026-09-23. A Sept. 17-18, 2026 CNS/ABC7 report on the new LA County unincorporated-area data center prohibition describes El Monte (along with Baldwin Park) as having 'voted to implement a yearlong ban on data centers proposed within their city limits' in late April 2026, consistent with this row's Ord. 3063/3065 term reaching the Gov. Code 65858(a) one-year ceiling. No rescission, expiration, or permanent-ordinance replacement was found in sources reviewed through 2026-09-23.
-- **Outcome:** Extension ordinance proposed to maintain the pause while the city studies permanent controls
+- **Detailed status:** Previously recorded as active on September 23, 2026; that historical classification does not establish current force. Posted March 18 and April 22 minutes record approval of Ordinances 3063 and 3065 respectively; final operative texts, effective anchors, later actions and current legal force remain unverified. [VERIFY]
+- **Outcome:** April 22 posted minutes record a 7-0 vote approving extension Ordinance 3065 while the city studies permanent controls; final operative text and later history remain unverified.
 
 ### Escondido
 
@@ -183,13 +183,13 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 - **Date enacted:** 2026-08-26 (City Council unanimous, 5-0)
 - **Normalized date:** `2026-08-26` (exact)
 - **Duration:** 45-day urgency ordinance; extendable 10 months 15 days, then up to one more year
-- **Current end date:** `2027-08-22`
+- **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `ca-escondido-2026`
 - **Legal basis:** Urgency ordinance (Govt. Code 65858) prohibiting new data centers and expansions
 - **What prompted it:** Proactive measure; no pending applications. Impacts cited: water, electricity/grid, land footprint, noise, tax/job tradeoffs.
 - **Affected projects:** None; no active or pending data center applications at adoption.
-- **Detailed status:** The City Council unanimously approved a 10-month, 15-day extension on 2026-10-07; the ordinance text specifies close of business 2027-08-22. Documented extension reviewed 2026-11-05; later termination or amendment not independently ruled out.
+- **Detailed status:** October 7, 2026 city minutes record 5-0 approval of the first reading and introduction of proposed Ordinance 2026-19 to extend the interim moratorium. Final enactment, effective date, endpoint and later history remain unverified. [VERIFY: final successor, effective interval and current force.]
 - **Outcome:** Staff researching permanent regulatory options.
 
 ### Eureka

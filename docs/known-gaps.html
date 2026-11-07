@@ -219,7 +219,7 @@ wording, finality, effectiveness and current-force questions remain separate
 open work, including explicit followups for those two supported day counts.
 It is not whole-record confirmation.</p>
 <h3 id="small-township-records-that-arent-online">Small-township records that aren't online</h3>
-<p>Many small townships and rural counties don't post agendas, minutes, or signed ordinances on the web. When we know a moratorium exists from news coverage but can't pull the underlying instrument, we record it with a <code>[VERIFY]</code> note in <code>verify_notes</code> rather than guessing at the ordinance number or exact date. <strong>704 of the 1330 inventory rows</strong> have at least one such evidence-ceiling note (<code>has_verify_tags = True</code>). The earlier v2026.04.4 snapshot had 123 flagged rows out of 222; these are different inventory populations.</p>
+<p>Many small townships and rural counties don't post agendas, minutes, or signed ordinances on the web. When we know a moratorium exists from news coverage but can't pull the underlying instrument, we record it with a <code>[VERIFY]</code> note in the relevant inventory field rather than guessing at the ordinance number or exact date. <strong>706 of the 1330 inventory rows</strong> have at least one such evidence-ceiling note (<code>has_verify_tags = True</code>). The earlier v2026.04.4 snapshot had 123 flagged rows out of 222; these are different inventory populations.</p>
 <h3 id="legacy-instrument-identities">Legacy instrument identities</h3>
 <p>The working inventory still contains identities requiring reconciliation.
 <code>ma-leominster-undated</code> combines separate BESS and data-center petitions, each
@@ -694,6 +694,7 @@ original-term source-requirement queue. No canonical record or measure is delete
 or added by these council-history and Ohio correction batches.</p>
 <p>The subsequent <a href="../work/research/2026-11-07/morro-bay-event-migration/README.md">Morro Bay event migration</a> adds two dated council actions to the five-event cohort, bringing instrument events to seven. This extends historical action coverage only; it does not resolve the final extended term, present force or the recommended permanent prohibition.</p>
 <p>The <a href="../work/research/2026-11-07/original-instrument-recovery/README.md">original-instrument recovery</a> resolves Arcata's original 45-day field support against the certified Ordinance 1594. The successor source-requirement ledger has 218 entries; the prior frozen 219-entry ledger is preserved. This does not accept Arcata's successor, current endpoint or present force. Ormond Beach, El Monte and Escondido remain held for the specific original/final-text and source-stage gaps in that packet.</p>
+<p>The <a href="../work/research/2026-11-07/california-successor-stage-review/README.md">California successor-stage review</a> clears two additional unsupported operative endpoints. Escondido's October 7 action is explicitly first reading/introduction; El Monte's posted minutes record extension approval but do not establish the final operative text or exact current end. Their retained historical extended classifications do not assert present force. Both now carry explicit verification flags.</p>
 </main>
 
 <footer>

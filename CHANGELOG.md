@@ -2,6 +2,12 @@
 
 ## 2026-11-07 — current working snapshot (unreleased)
 
+The [California successor-stage review](work/research/2026-11-07/california-successor-stage-review/README.md)
+qualifies Escondido's first reading and El Monte's posted extension approval,
+removes two unsupported operative endpoints and inconsistent calculated-term prose,
+and adds explicit verification flags. Flagged rows rise from 704 to 706; all
+classification and ballot totals remain unchanged.
+
 [Original-instrument recovery](work/research/2026-11-07/original-instrument-recovery/README.md)
 resolves Arcata's original 45-day source requirement against certified Ordinance 1594.
 The successor original-term requirement queue is **218**, down from the preserved
@@ -64,7 +70,7 @@ These are inventory classifications, not independently renewed legal-force findi
 | Classified active or extended | **1079** |
 | Pending or not yet effective | **79** |
 | Ended (replaced, expired, or rescinded) | **172** |
-| Rows we still want to confirm (`[VERIFY]`) | **704** |
+| Rows we still want to confirm (`[VERIFY]`) | **706** |
 | States with at least one | **47** |
 
 Current totals remain 1,330 local records (1,079 active/extended classifications),

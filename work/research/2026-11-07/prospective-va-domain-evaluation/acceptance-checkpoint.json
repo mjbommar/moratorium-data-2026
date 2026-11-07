@@ -1,0 +1,116 @@
+{
+  "status": "quality_acceptance_failed",
+  "root_recomputed_from_actual_http_outputs": 27,
+  "raw_output_hashes_and_parsed_returns_match_first_review": true,
+  "unique_literal_source_text_units": 1,
+  "zero_literal_source_text_units": 26,
+  "literal_support_eligible_upper_bound": 1,
+  "generated_clauses": 27,
+  "required_support_percent": 95,
+  "root_gate": "FAIL irrespective of disputed semantic labels; 1/27 literal-eligible upper bound below95percent.",
+  "first_review_aggregate": {
+    "pooled": {
+      "complete_units": 16,
+      "units": 27,
+      "complete_unit_percent": 59.259,
+      "covered_slots": 16,
+      "slots": 27,
+      "slot_percent": 59.259,
+      "supported_clauses": 1,
+      "generated_clauses": 27,
+      "support_percent": 3.704,
+      "high_impact_errors": 10
+    },
+    "change": {
+      "complete_units": 15,
+      "units": 25,
+      "complete_unit_percent": 60.0,
+      "covered_slots": 15,
+      "slots": 25,
+      "slot_percent": 60.0,
+      "supported_clauses": 1,
+      "generated_clauses": 25,
+      "support_percent": 4.0,
+      "high_impact_errors": 9
+    },
+    "controls": {
+      "complete_units": 1,
+      "units": 2,
+      "complete_unit_percent": 50.0,
+      "covered_slots": 1,
+      "slots": 2,
+      "slot_percent": 50.0,
+      "supported_clauses": 0,
+      "generated_clauses": 2,
+      "support_percent": 0.0,
+      "high_impact_errors": 1
+    },
+    "families": {
+      "va-hb1515": {
+        "complete_units": 2,
+        "units": 2,
+        "complete_unit_percent": 100.0,
+        "covered_slots": 2,
+        "slots": 2,
+        "slot_percent": 100.0,
+        "supported_clauses": 1,
+        "generated_clauses": 2,
+        "support_percent": 50.0,
+        "high_impact_errors": 0
+      },
+      "va-hb155": {
+        "complete_units": 4,
+        "units": 7,
+        "complete_unit_percent": 57.143,
+        "covered_slots": 4,
+        "slots": 7,
+        "slot_percent": 57.143,
+        "supported_clauses": 0,
+        "generated_clauses": 7,
+        "support_percent": 0.0,
+        "high_impact_errors": 3
+      },
+      "va-hb503": {
+        "complete_units": 1,
+        "units": 3,
+        "complete_unit_percent": 33.333,
+        "covered_slots": 1,
+        "slots": 3,
+        "slot_percent": 33.333,
+        "supported_clauses": 0,
+        "generated_clauses": 3,
+        "support_percent": 0.0,
+        "high_impact_errors": 2
+      },
+      "va-site-assessment": {
+        "complete_units": 9,
+        "units": 15,
+        "complete_unit_percent": 60.0,
+        "covered_slots": 9,
+        "slots": 15,
+        "slot_percent": 60.0,
+        "supported_clauses": 0,
+        "generated_clauses": 15,
+        "support_percent": 0.0,
+        "high_impact_errors": 5
+      }
+    }
+  },
+  "first_review_semantic_status": "Preserved first-review judgments; superseded for final reporting by explicit second-adjudication bounds and disagreement rationale.",
+  "further_provider_calls": 0,
+  "promotion": 0,
+  "private_review_sha256": "5fab8b136a7d1dda4a75528e0f8844ace375de0f42458e641ff1a5f46de77c61",
+  "semantic_adjudication": {
+    "status": "Second independent adjudication reviewed and accepted by coordinator as conservative bounds.",
+    "source_sha256": "583529f6f1f014082e95bc09e561f7f342bc4f8810cb6c289cc68ea5c699441e",
+    "complete_change_units_lower": 15,
+    "complete_change_units_upper": 23,
+    "change_units": 25,
+    "minimum_complete_change_units_required": 24,
+    "high_impact_gate": "UNRESOLVED; zero confirmed to ten possible first-review findings. Not a pass.",
+    "contract_limit": "General conditional exception text in an all node is not proven to assert its antecedent. Formal execution and legal scope binding remain ambiguous.",
+    "coverage_gate": "FAIL even at upper bound23/25",
+    "literal_support_gate": "FAIL1/27",
+    "promotion": 0
+  }
+}

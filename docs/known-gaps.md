@@ -35,7 +35,7 @@ It is not whole-record confirmation.
 
 ### Small-township records that aren't online
 
-Many small townships and rural counties don't post agendas, minutes, or signed ordinances on the web. When we know a moratorium exists from news coverage but can't pull the underlying instrument, we record it with a `[VERIFY]` note in `verify_notes` rather than guessing at the ordinance number or exact date. **704 of the 1330 inventory rows** have at least one such evidence-ceiling note (`has_verify_tags = True`). The earlier v2026.04.4 snapshot had 123 flagged rows out of 222; these are different inventory populations.
+Many small townships and rural counties don't post agendas, minutes, or signed ordinances on the web. When we know a moratorium exists from news coverage but can't pull the underlying instrument, we record it with a `[VERIFY]` note in the relevant inventory field rather than guessing at the ordinance number or exact date. **706 of the 1330 inventory rows** have at least one such evidence-ceiling note (`has_verify_tags = True`). The earlier v2026.04.4 snapshot had 123 flagged rows out of 222; these are different inventory populations.
 
 ### Legacy instrument identities
 
@@ -517,3 +517,5 @@ or added by these council-history and Ohio correction batches.
 The subsequent [Morro Bay event migration](../work/research/2026-11-07/morro-bay-event-migration/README.md) adds two dated council actions to the five-event cohort, bringing instrument events to seven. This extends historical action coverage only; it does not resolve the final extended term, present force or the recommended permanent prohibition.
 
 The [original-instrument recovery](../work/research/2026-11-07/original-instrument-recovery/README.md) resolves Arcata's original 45-day field support against the certified Ordinance 1594. The successor source-requirement ledger has 218 entries; the prior frozen 219-entry ledger is preserved. This does not accept Arcata's successor, current endpoint or present force. Ormond Beach, El Monte and Escondido remain held for the specific original/final-text and source-stage gaps in that packet.
+
+The [California successor-stage review](../work/research/2026-11-07/california-successor-stage-review/README.md) clears two additional unsupported operative endpoints. Escondido's October 7 action is explicitly first reading/introduction; El Monte's posted minutes record extension approval but do not establish the final operative text or exact current end. Their retained historical extended classifications do not assert present force. Both now carry explicit verification flags.
