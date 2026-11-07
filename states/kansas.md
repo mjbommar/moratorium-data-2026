@@ -382,7 +382,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 - **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-03-11 (Board of County Commissioners, Resolution No. 049-2026)
 - **Normalized date:** `2026-03-11` (exact)
-- **Duration:** One-year interim development control
+- **Duration:** Until March 12, 2027 or adoption and publication of BESS zoning provisions, whichever first; subject to earlier amendment or termination.
 - **Current end date:** `—`
 - **Sectors:** battery storage
 - **Moratorium ID:** `ks-sedgwick-county-2026-2`

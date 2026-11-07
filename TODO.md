@@ -459,3 +459,5 @@ Exit: repeatable refresh with visible freshness, costs, failures and unresolved 
 - [x] Apply six source-stage/endpoint corrections across Escondido and El Monte, preserve historical classifications and original-term requirements, and recompute four verification fields (`work/research/2026-11-07/california-successor-stage-review/`). Two unsupported operative endpoints cleared; final enactment/text and current force remain unresolved.
 
 - [x] Execute frozen 27-unit Virginia domain evaluation and independently recompute all raw HTTP outputs against pinned layouts: at most 1/27 clauses meets literal-support prerequisites, so acceptance fails regardless of disputed semantic findings (`work/research/2026-11-07/prospective-va-domain-evaluation/`). No candidates promoted; semantic second adjudication and broader P4 remain open.
+
+- [x] Independently adjudicate six wind/solar/BESS original-term cases, correct six fields across Sedgwick and Oshtemo, reject continuation-to-original misbinding for Seward, and retain five scoped gaps. Sedgwick-only closure reduces the successor queue from 218 to 217 (`work/research/2026-11-07/cross-sector-term-adjudication/`).

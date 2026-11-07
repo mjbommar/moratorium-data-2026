@@ -1688,7 +1688,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 - **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-08-11 (second reading, 7-0; first reading 2026-07-28)
 - **Normalized date:** `2026-08-11` (exact)
-- **Duration:** Six months unless amended or repealed
+- **Duration:** Notice of adoption states “sixth month” moratorium (until otherwise amended or repealed), while ordinances are reviewed and amended if necessary; intended numeric term unconfirmed.
 - **Current end date:** `—`
 - **Sectors:** solar
 - **Moratorium ID:** `mi-oshtemo-charter-township-2026-2`

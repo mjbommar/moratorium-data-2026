@@ -1,0 +1,102 @@
+{
+  "scope": "Six original-term cases, not full-field freshness.",
+  "independent_review_sha256": "eb4fcabd8deb64b3fe550c4d17d364056e054d05d742cf1339013688809588fc",
+  "source_registry_checked": 6,
+  "all_six_full_row_guards_matched": true,
+  "records": [
+    {
+      "moratorium_id": "ks-sedgwick-county-2026-2",
+      "disposition": "candidate_close_original_term_only",
+      "accepted_or_revised_guarded_changes": {
+        "duration_days": {
+          "old": "365",
+          "new": ""
+        },
+        "duration_kind": {
+          "old": "fixed_days",
+          "new": "until_date"
+        },
+        "duration": {
+          "old": "One-year interim development control",
+          "new": "Until March 12, 2027 or adoption and publication of BESS zoning provisions, whichever first; subject to earlier amendment or termination."
+        }
+      },
+      "rejected_changes": {},
+      "evaluation": "Published original section 7 gives a date-limited earlier-of term, not 365 fixed days. Adoption and publication are conditions of effectiveness. The county summary through March 11 may be compatible with until March 12; boundary is not resolved here. Section 4 permits earlier changes or extension by later resolution. Preserve March 11 adoption and March 19 publication support; no current end or force is established. Queue reason mistakenly calls this data-center duration: verified resolution and row are BESS.",
+      "source_keys": [
+        "sedgwick_publication",
+        "sedgwick_release"
+      ],
+      "queue_recommendation_and_remaining_gaps": "Recommend narrow closure of this ID original numeric/calendar/date-limited term requirement only, subject to root application. Signed copy correspondence, boundary and later force remain separate; do not decrement queue automatically."
+    },
+    {
+      "moratorium_id": "ky-henderson-county-2025",
+      "disposition": "unresolved",
+      "accepted_or_revised_guarded_changes": {},
+      "rejected_changes": {},
+      "evaluation": "October two-year row represents an apparent later amendment; it cannot establish the reported July original. The 2025-12-23 scanned minutes PDF has an empty retained extraction and is later material; neither an original nor its term was established. Preserve existing fields pending reconciliation rather than recoding them as original.",
+      "source_keys": [],
+      "queue_recommendation_and_remaining_gaps": "Obtain adopted original instrument and readings and identify relationship to October amendment."
+    },
+    {
+      "moratorium_id": "mi-oshtemo-charter-township-2026-2",
+      "disposition": "original_wording_recovered_numeric_unit_unresolved",
+      "accepted_or_revised_guarded_changes": {
+        "duration_days": {
+          "old": "180",
+          "new": ""
+        },
+        "duration_kind": {
+          "old": "fixed_days",
+          "new": "unknown"
+        },
+        "duration": {
+          "old": "Six months unless amended or repealed",
+          "new": "Notice of adoption states \u201csixth month\u201d moratorium (until otherwise amended or repealed), while ordinances are reviewed and amended if necessary; intended numeric term unconfirmed."
+        }
+      },
+      "rejected_changes": {
+        "duration_kind_calendar_term": "Reject proposed calendar_term: a calendar-month concept is visible, but the ordinal sixth does not unambiguously establish a numeric calendar duration. Use unknown until clarified."
+      },
+      "evaluation": "Notice reports adopted ordinance 695 and quotes section I; visually sixth month. The prior packet has same phrase but is pre-adoption, not independent proof of correction. The notice says effective upon publication after adoption; landing page is dated August 20, which is evidence of posting date, not independent proof of every legally required publication or present force. Literal clause does not prove six months or 180 days.",
+      "source_keys": [
+        "oshtemo_notice",
+        "oshtemo_page"
+      ],
+      "queue_recommendation_and_remaining_gaps": "Keep original-term queue open; obtain signed adopted full ordinance and authoritative clarification or correction, and separately verify effectiveness and later action."
+    },
+    {
+      "moratorium_id": "ne-fillmore-county-2026",
+      "disposition": "unresolved",
+      "accepted_or_revised_guarded_changes": {},
+      "rejected_changes": {},
+      "evaluation": "June 23 portal text lists consideration of a possible solar moratorium but contains neither enacted resolution nor term; it is not proof of six months. The earlier 2025 planning article identified in the queue is a different item and cannot be bound to this 2026 record.",
+      "source_keys": [
+        "fillmore_minutes"
+      ],
+      "queue_recommendation_and_remaining_gaps": "Obtain Resolution 2026-08 and approved minutes or operative attachments; confirm instrument, adoption and term."
+    },
+    {
+      "moratorium_id": "ne-seward-county-2023",
+      "disposition": "unresolved",
+      "accepted_or_revised_guarded_changes": {},
+      "rejected_changes": {
+        "duration_days_and_duration_kind": "Reject proposed 184 to blank and fixed_days to calendar_term on authority of 3947: these fields encode the original and 3947 only establishes its own later six-month continuation."
+      },
+      "evaluation": "2026 resolution retrospectively identifies 3767 and an event condition; it does not reproduce complete 2023 original term or rule out an additional numeric limit. 3947 sets its own six months or earlier adopted, published and legally binding regulations; it is effective immediately and allows expiry absent extension. Do not bind continuation term to original. Current-end and legacy original descriptions remain unverified in this review.",
+      "source_keys": [
+        "seward_continuation"
+      ],
+      "queue_recommendation_and_remaining_gaps": "Obtain complete adopted August 1, 2023 Resolution 3767; review later force and the existing current-end separately."
+    },
+    {
+      "moratorium_id": "ny-albion-2025",
+      "disposition": "unresolved",
+      "accepted_or_revised_guarded_changes": {},
+      "rejected_changes": {},
+      "evaluation": "A hearing notice or a subsequent BESS code amendment cannot prove adoption, identity, or six-month term of the original local law. No original Albion instrument was supplied in this recovery; avoid binding another Albion or later code to this row.",
+      "source_keys": [],
+      "queue_recommendation_and_remaining_gaps": "Obtain adopted local law and filing for the correct Town of Albion, including complete term and effectiveness."
+    }
+  ]
+}

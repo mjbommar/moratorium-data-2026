@@ -2,6 +2,13 @@
 
 ## 2026-11-07 — current working snapshot (unreleased)
 
+The [cross-sector original-term review](work/research/2026-11-07/cross-sector-term-adjudication/README.md)
+corrects Sedgwick BESS and Oshtemo solar duration fields while preserving their
+other dates and classifications. Sedgwick's source requirement is resolved;
+**217 original-term requirements remain**, down from the preserved 218-entry
+checkpoint. Oshtemo's literal “sixth month” remains ambiguous, and Seward's later
+continuation is not used as proof of its original term.
+
 The [California successor-stage review](work/research/2026-11-07/california-successor-stage-review/README.md)
 qualifies Escondido's first reading and El Monte's posted extension approval,
 removes two unsupported operative endpoints and inconsistent calculated-term prose,
