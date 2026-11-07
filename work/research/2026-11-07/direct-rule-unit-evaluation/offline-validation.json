@@ -1,0 +1,37 @@
+{
+  "stage": "full-driver-and-auditor-offline-validation",
+  "protocol_sha256": "3e9a76dbfc14433eedac34d09fbdd12d8ae3aaac9a81fb5a2c5b5a71c2d0c1f0",
+  "provider_requests": 0,
+  "healthy_and_failed_fixtures": [
+    {
+      "fixture_root": "/data0/moratorium-refresh-2026/frozen-domain-evaluation/direct-rule-unit-evaluation/preflight/driver-3658xid4",
+      "status": "failed",
+      "http_reservations": 67,
+      "backend_result_records": 66,
+      "quality_gate_passed": false,
+      "audit_sha256": "1e1e83f9ce49df1d463c3174501703e6a95845972f180d04cb3085c5882c3b06"
+    },
+    {
+      "fixture_root": "/data0/moratorium-refresh-2026/frozen-domain-evaluation/direct-rule-unit-evaluation/preflight/driver-_jdt2tbu",
+      "status": "finished",
+      "http_reservations": 86,
+      "backend_result_records": 86,
+      "quality_gate_passed": false,
+      "audit_sha256": "184c8f57fc058046e3a80880e65b67a453da99dbf128aebb5e3120abc706682c"
+    }
+  ],
+  "rejected_preflight_variants": [
+    "http_cap",
+    "local_cap",
+    "plan_pin",
+    "input_pin",
+    "routing",
+    "model",
+    "tools",
+    "existing_provider_namespace",
+    "uncommitted_protocol"
+  ],
+  "prior_adapter_suite_passed": 17,
+  "limitation": "Synthetic unresolved reviews do not measure semantic quality; fixture gates cannot pass.",
+  "validation_script_sha256": "6d62c7e5325ed9273a393bd85f200fde10c62b05cfbf0c69d9a5b9165f23aa87"
+}

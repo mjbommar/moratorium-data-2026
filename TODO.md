@@ -426,3 +426,10 @@ Exit: repeatable refresh with visible freshness, costs, failures and unresolved 
 
 - [x] Recheck Jay using two Exa, two SerpAPI and six bc-web fetches (one pydoll); root-review official November 9 agenda. No recovered primary return/certification or canonical promotion (`work/research/2026-11-07/jay-primary-recheck/`).
 - [ ] After the November 9 meeting, manually check posted minutes, primary Article 3 return/certification, enrolled text and operative dates; preserve the existing legal/result gaps. Queue only; no schedule created.
+
+### Direct rule-unit live development protocol
+
+- [x] Freeze and independently review the separate 86-request direct-unit development protocol, actual model/runtime/tool/retry/HTTP/storage/pricing pins and reviewed private plans (`work/research/2026-11-07/direct-rule-unit-evaluation/`).
+- [x] Exercise full healthy/failing MockTransport runs and three-review auditor integration; preserve a pre-first-call correction allowing justified source nonextractability without discarding returned clauses or weakening required-slot/error rules.
+- [ ] Execute the frozen direct-unit live run and reconcile its actual attempts/reservations/results.
+- [ ] Complete independent source reviews, coordinator adjudication and quality audit; no P4 or full-refresh acceptance from development alone.
