@@ -33,6 +33,13 @@ from collections import Counter
 from pathlib import Path
 
 try:
+    from atomic_csv import replace_csv
+except ModuleNotFoundError as exc:
+    if exc.name != "atomic_csv":
+        raise
+    from scripts.atomic_csv import replace_csv
+
+try:
     import jsonschema
 except ImportError:  # pragma: no cover
     jsonschema = None
@@ -136,8 +143,7 @@ def write_csv(rows: list[dict], fieldnames: list[str]) -> None:
     writer = csv.DictWriter(buf, fieldnames=fieldnames, quoting=csv.QUOTE_MINIMAL, lineterminator="\r\n")
     writer.writeheader()
     writer.writerows(rows)
-    with open(LEG, "w", encoding="utf-8", newline="") as f:
-        f.write(buf.getvalue())
+    replace_csv(LEG, buf.getvalue())
 
 
 def main() -> int:
