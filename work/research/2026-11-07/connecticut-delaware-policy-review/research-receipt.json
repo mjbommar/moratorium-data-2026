@@ -1,0 +1,92 @@
+{
+  "attempts": [
+    {
+      "attempt_id": "be5bb7291d2d4e88baba6a23861872a7",
+      "kind": "exa",
+      "query": "Delaware Senate Amendment 1 SB 205 153 2026 Hansen data centers",
+      "hits": 6,
+      "cost_usd": 0.007,
+      "unpriced": false,
+      "include_domains": [
+        "legis.delaware.gov"
+      ],
+      "query_scope_check": {
+        "status": "all_returned_urls_in_declared_sites",
+        "declared_sites": [
+          "legis.delaware.gov"
+        ],
+        "matching_hits": 6,
+        "nonmatching_hits": 0,
+        "observed_hosts": [
+          "legis.delaware.gov"
+        ],
+        "scope": "Diagnostic of returned URL hosts, not query-language validation or evidence of absence. Check ambiguous OR branches and fetch substantive sources."
+      }
+    },
+    {
+      "attempt_id": "469bf6f9cbc04fad9bb4c6efdaf6b283",
+      "kind": "fetch",
+      "url": "https://legis.delaware.gov/BillDetail/142839",
+      "status": 200,
+      "ok": true,
+      "body_sha256": "a8873421204915ea0cbcee0f2e25ddbc216efd52bf7ea8c441c042cc8f04a065",
+      "text_sha256": "32e572a60841b6278bb7422047ad2b60d60dac9a36d905ee45fcdd707537bc63",
+      "body_observed_at": "2026-11-07T19:59:10.241909Z"
+    },
+    {
+      "attempt_id": "88edbde565e84c1781ece743fa2467fa",
+      "kind": "fetch",
+      "url": "https://legis.delaware.gov/json/BillDetail/GenerateHtmlDocument?legislationId=142839&legislationTypeId=5&docTypeId=2&legislationName=SA1toSB205",
+      "status": 200,
+      "ok": true,
+      "body_sha256": "1073640d894d8c1cba1cf5710c660b142ee22aa0c3432fdf58094fd437484dde",
+      "text_sha256": "680204ad2ad47e20606830370fad5b4a2fbdd0433f63ccea32790cea805eb098",
+      "body_observed_at": "2026-11-07T19:59:18.477593Z"
+    },
+    {
+      "attempt_id": "fe345def73c4492793c2fd65886cf900",
+      "kind": "serpapi",
+      "query": "Connecticut legislature bills die end session carry over next session",
+      "hits": 5,
+      "cost_usd": null,
+      "unpriced": true,
+      "include_domains": [
+        "cga.ct.gov"
+      ],
+      "query_scope_check": {
+        "status": "all_returned_urls_in_declared_sites",
+        "declared_sites": [
+          "cga.ct.gov"
+        ],
+        "matching_hits": 5,
+        "nonmatching_hits": 0,
+        "observed_hosts": [
+          "www.cga.ct.gov"
+        ],
+        "scope": "Diagnostic of returned URL hosts, not query-language validation or evidence of absence. Check ambiguous OR branches and fetch substantive sources."
+      }
+    },
+    {
+      "attempt_id": "f3f72075e1fd47ddad4d8afea33a819a",
+      "kind": "fetch",
+      "url": "https://www.cga.ct.gov/lco/resources-aboutbills.asp",
+      "status": 200,
+      "ok": true,
+      "body_sha256": "807b43d5dfe52a87f221891b9f3e870502736ab45a5898820ca25982f2d18182",
+      "text_sha256": "66a3dfdd60e1aa646118105e9bcb676686505eef5d70a349242d69d6a830d68e",
+      "body_observed_at": "2026-11-07T20:09:43.092403Z"
+    },
+    {
+      "attempt_id": "92630b55d7c0460b96b2f0431a08b379",
+      "kind": "fetch",
+      "url": "https://www.cga.ct.gov/asp/content/Adjourn.asp",
+      "status": 200,
+      "ok": true,
+      "body_sha256": "99f1c6d869ed4f586b3dc30f610113bad37f9522b807828af7e01cb7724d47ff",
+      "text_sha256": "abdb213e844596e892477254e277eccc8141d83834e3ce50030662f663af7e4f",
+      "body_observed_at": "2026-11-07T20:09:43.109092Z"
+    }
+  ],
+  "scope": "One Exa and one SerpAPI query, four successful official fetches. Search discovery is distinct from substantive source support. SerpAPI/fetch charges unreported, not claimed free. Raw provider and source files remain private.",
+  "carryover_followup": "Official process guide and ArticleIII scheduling text do not explicitly settle the retained carryover question."
+}

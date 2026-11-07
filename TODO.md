@@ -497,3 +497,5 @@ Exit: repeatable refresh with visible freshness, costs, failures and unresolved 
 - [x] Apply 21 distinct field corrections across the first four Arizona policy records after 76 assessments and independent review; retain the other nine rows and current-force/current-law followups (`work/research/2026-11-07/arizona-first-four-policy-review/`).
 
 - [x] Apply 55 guarded cells across the remaining nine Arizona records after 171 assessments and independent adjudication, and reconcile four unsupported terminal categories in the first-four packet; all 13 Arizona records have 247 field assessments and 80 net field changes. Current-force/history/party/activity followups remain open (`work/research/2026-11-07/arizona-remaining-nine-policy-review/`).
+
+- [x] Apply 40 guarded Connecticut/Delaware fields across ten existing records after 190 assessments, independent review and separate HB233/HS1 identity adjudication; retain carryover, later-law/current-force, party/activity and implementation followups (`work/research/2026-11-07/connecticut-delaware-policy-review/`).

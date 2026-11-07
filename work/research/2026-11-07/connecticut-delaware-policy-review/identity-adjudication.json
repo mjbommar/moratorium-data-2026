@@ -1,0 +1,141 @@
+{
+  "decision": "one_bill_lineage_one_row",
+  "official_identity": {
+    "parent": {
+      "id": "142655",
+      "name": "HB 233",
+      "date_introduced": "2025-06-30",
+      "final_status": "Lieu/Substituted 2026-05-21"
+    },
+    "substitute": {
+      "id": "143381",
+      "name": "House Substitute 1 for HB 233",
+      "date_introduced": "2026-05-21",
+      "signed": "2026-08-26",
+      "chapter": "85:440",
+      "initial_effective": "2026-08-26"
+    },
+    "distinct_ids_meaning": "Separate official detail objects and stages; explicit reciprocal parent/substitute association and common HB 233 number establish the lineage. IDs alone do not establish two independent numbered bills for this row contract."
+  },
+  "counterarguments": [
+    "Original and substitute have distinct official IDs, sponsors, text and page statuses. A version-level database could retain both objects; an original-only HB 233 record would require its own disposition and cannot inherit the signature.",
+    "The independent packet interprets the distinct official objects as independent instruments. The existing state-policy row already uses the substitute URL, signed date, enacted substance and chapter; its grain is the bill lineage, not an original-only proposal. There is no separate receiving bill number or second independent adoption in these records.",
+    "The codebook expressly preserves incorporation into another bill; this record describes a substitute for the same numbered bill, not incorporation into a separately numbered receiving bill. The state-policy grain does not explicitly resolve every state substitute; this is an evidence-based interpretation, not an express Delaware-specific rule."
+  ],
+  "california_precedent": "California successor-stage review concerns locally numbered ordinances and historical extension/approval, not a substitute print in a single bill lineage. It preserves uncertain enactment and endpoint and does not mandate splitting Delaware. Profile 1.0.4 policy successor events require distinct instruments and cannot self-link; no event proposed.",
+  "changes_applied": [
+    {
+      "field": "bill",
+      "before": "HB 233",
+      "after": "HB 233 / HS 1 for HB 233 (153rd General Assembly)"
+    },
+    {
+      "field": "status",
+      "before": "Substituted by House Substitute 1 for HB 233 on 2026-05-21; substitute signed and effective 2026-08-26 (85 Del. Laws ch. 440).",
+      "after": "Original HB 233 introduced 2025-06-30 and listed Lieu/Substituted 2026-05-21; House Substitute 1 for HB 233 signed 2026-08-26, 85 Del. Laws ch. 440, effective on enactment 2026-08-26. Current legal effect, subsequent changes and implementation remain unverified."
+    },
+    {
+      "field": "legal_effect_status",
+      "before": "in_force",
+      "after": "unknown"
+    }
+  ],
+  "recommendations_superseded": [
+    {
+      "policy_action_id": "de-hb-233",
+      "field": "bill_status_category",
+      "before": "enacted",
+      "after": "unknown",
+      "decision": "additional_recommendation",
+      "source_refs": [
+        {
+          "source_id": "90869bdd934c4ed5b9a0149d18ac726f",
+          "source_event_date": "2026-05-21",
+          "observation_utc": "2026-11-05T23:19:28.731822Z"
+        },
+        {
+          "source_id": "f3b98f9a872f47ca944270f7cb27aec5",
+          "source_event_date": "2026-08-26",
+          "observation_utc": "2026-11-05T23:19:28.810758Z"
+        },
+        {
+          "source_id": "c50991caab7241b28b01d25db0b78081",
+          "source_event_date": "2026 session; version date not established",
+          "observation_utc": "2026-11-05T23:20:06.669618Z"
+        },
+        {
+          "source_id": "c368cb313fe4461fbf5470ed517dea36",
+          "source_event_date": "2026-11-06 UTC observation; code publication date unknown",
+          "observation_utc": "2026-11-06T05:15:39.325443Z"
+        }
+      ],
+      "locator": "Original bill Progress; codebook state-policy disposition",
+      "rationale": "The stable row identifies original HB 233; its official disposition is substituted. Codebook says incorporation into another bill is a distinct event and use unknown when no defined disposition applies, rather than borrowing successor enactment."
+    },
+    {
+      "policy_action_id": "de-hb-233",
+      "field": "legal_effect_status",
+      "before": "in_force",
+      "after": "unknown",
+      "decision": "additional_recommendation",
+      "source_refs": [
+        {
+          "source_id": "90869bdd934c4ed5b9a0149d18ac726f",
+          "source_event_date": "2026-05-21",
+          "observation_utc": "2026-11-05T23:19:28.731822Z"
+        },
+        {
+          "source_id": "f3b98f9a872f47ca944270f7cb27aec5",
+          "source_event_date": "2026-08-26",
+          "observation_utc": "2026-11-05T23:19:28.810758Z"
+        },
+        {
+          "source_id": "c50991caab7241b28b01d25db0b78081",
+          "source_event_date": "2026 session; version date not established",
+          "observation_utc": "2026-11-05T23:20:06.669618Z"
+        },
+        {
+          "source_id": "c368cb313fe4461fbf5470ed517dea36",
+          "source_event_date": "2026-11-06 UTC observation; code publication date unknown",
+          "observation_utc": "2026-11-06T05:15:39.325443Z"
+        }
+      ],
+      "locator": "Original and substitute Progress; 26 Del. C. § 203G observation",
+      "rationale": "Original and successor must not be conflated; successor enactment is evidenced but present operative force not newly verified."
+    },
+    {
+      "policy_action_id": "de-hb-233",
+      "field": "effective_date_iso",
+      "before": "2026-08-26",
+      "after": "",
+      "decision": "additional_recommendation",
+      "source_refs": [
+        {
+          "source_id": "90869bdd934c4ed5b9a0149d18ac726f",
+          "source_event_date": "2026-05-21",
+          "observation_utc": "2026-11-05T23:19:28.731822Z"
+        },
+        {
+          "source_id": "f3b98f9a872f47ca944270f7cb27aec5",
+          "source_event_date": "2026-08-26",
+          "observation_utc": "2026-11-05T23:19:28.810758Z"
+        },
+        {
+          "source_id": "c50991caab7241b28b01d25db0b78081",
+          "source_event_date": "2026 session; version date not established",
+          "observation_utc": "2026-11-05T23:20:06.669618Z"
+        }
+      ],
+      "locator": "Original and substitute Progress; effective date",
+      "rationale": "The August 26 date belongs to enacted HS 1, not substituted original HB 233; retain it in the status and successor evidence. A separate successor record is recommended."
+    }
+  ],
+  "limits": [
+    "No fresh acquisition, network, installation, worker, database, source or canonical changes.",
+    "Official detail pages observed November 5 UTC; code observed November 6 UTC. No complete later-amendment, court, regulatory, tariff or implementation review; no present-force conclusion.",
+    "Original parent synopsis is retained in official parent detail; full original bill print is not among the 32 registered source bodies. No exhaustive original-to-enacted provision comparison is claimed.",
+    "Sponsor subset and party, statewide activity, later action and endpoint require follow-up.",
+    "The substitute original synopsis says 180 days from effective date; final engrossment sections 3 and 6 instead tie the relevant deadline to finalized regulations."
+  ],
+  "coordinator_acceptance": "Reciprocal official parent/substitute relationship and common HB233 designation support one bill lineage; different detail IDs alone do not require separate numbered-bill rows."
+}
