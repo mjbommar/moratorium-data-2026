@@ -429,7 +429,7 @@ unless it actually pauses local permitting.</p>
 </tr>
 <tr>
 <td><code>bill_status_category</code></td>
-<td><strong>Closed-vocab disposition</strong>, added in v2026.07. One of: <code>introduced</code>, <code>in_committee</code>, <code>passed_one_chamber</code>, <code>passed_both_chambers</code>, <code>enacted</code>, <code>vetoed</code>, <code>failed_died</code>, <code>carried_over</code>, <code>withdrawn</code>, <code>unknown</code>. <code>failed_died</code> covers death by adjournment or a missed deadline; <code>carried_over</code> means the bill remains alive into the next year of a biennium.</td>
+<td><strong>Closed-vocab disposition</strong>, added in v2026.07. One of: <code>introduced</code>, <code>in_committee</code>, <code>passed_one_chamber</code>, <code>passed_both_chambers</code>, <code>enacted</code>, <code>vetoed</code>, <code>failed_died</code>, <code>carried_over</code>, <code>withdrawn</code>, <code>unknown</code>. <code>failed_died</code> covers death by adjournment or a missed deadline; <code>carried_over</code> means the bill remains alive into the next year of a biennium. Incorporation into another bill is retained as a distinct historical event and identity; use <code>unknown</code> when no defined disposition is established, rather than automatically coding failure or borrowing the receiving bill’s outcome.</td>
 <td><code>enacted</code></td>
 </tr>
 <tr>
@@ -474,7 +474,7 @@ unless it actually pauses local permitting.</p>
 </tr>
 <tr>
 <td><code>end_condition</code></td>
-<td>Typed prose describing a fixed end date, statutory sunset, or event-based endpoint.</td>
+<td>Typed prose describing a fixed end date, statutory sunset, or event-based endpoint. For a proposal, a clearly qualified proposed duration or endpoint may be recorded without asserting enactment; identify whether it concerns the instrument itself, proposed authority, or a hypothetical local pause. A proposed endpoint does not populate <code>effective_date_iso</code>. Report deadlines and temporary administrative-rule expirations are not whole-instrument sunsets.</td>
 <td><code>Until DPS submits its final GEIS and findings statement</code></td>
 </tr>
 <tr>

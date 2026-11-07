@@ -1,0 +1,70 @@
+{
+  "schema_version": "1.0.0",
+  "scope": "Complete bounded40recordfieldreview, exact22cellcorrectionbatch and internal consistency; not full442policy/1772recordfreshness/P4/release.",
+  "counts": {
+    "records": 40,
+    "field_assessments": 760,
+    "researched_unresolved": 40,
+    "whole_record_confirmed_current": 0,
+    "changed_records_this_batch": 16,
+    "changed_cells_this_batch": 22,
+    "cumulative_changed_records_since_b55": 18,
+    "cumulative_distinct_changed_cells_since_b55": 32
+  },
+  "checks": {
+    "make_data_site_check_exit": 0,
+    "validation_errors": 0,
+    "validation_warnings": 494,
+    "documented_numbers": 65,
+    "full_tests_passed": 421,
+    "subtests_passed": 165,
+    "repeat_guarded_dryrun": "zerochanges,noconflicts",
+    "binding_effective_and_last_action_dates_unchanged": true
+  },
+  "after_csv_sha256": "7110910c541fc0ada15b2dcec147f69541c9dfad5ce8ffb08888c88169845973",
+  "log_sha256": {
+    "policy-final-build.log": "9de8c3712340f81a9da08afe61a395d0b4055d1cc32641c700ad1d057575daa6",
+    "policy-final-tests.log": "8ebd5583a82b0c5db8d84bc55aedcfab15b42e21bad341ec87bef05999cb6780"
+  },
+  "before_categories": {
+    "bill_status_category": {
+      "enacted": 95,
+      "failed_died": 231,
+      "in_committee": 77,
+      "passed_one_chamber": 15,
+      "vetoed": 10,
+      "passed_both_chambers": 1,
+      "carried_over": 7,
+      "withdrawn": 3,
+      "unknown": 3
+    },
+    "legal_effect_status": {
+      "unknown": 98,
+      "failed": 239,
+      "proposed": 99,
+      "in_force": 3,
+      "withdrawn": 3
+    }
+  },
+  "after_categories": {
+    "bill_status_category": {
+      "enacted": 95,
+      "failed_died": 229,
+      "in_committee": 77,
+      "passed_one_chamber": 15,
+      "vetoed": 10,
+      "passed_both_chambers": 1,
+      "carried_over": 7,
+      "withdrawn": 3,
+      "unknown": 5
+    },
+    "legal_effect_status": {
+      "unknown": 101,
+      "failed": 236,
+      "proposed": 99,
+      "in_force": 3,
+      "withdrawn": 3
+    }
+  },
+  "remaining": "Record-specific gaps retained for all40; restoforiginalgoal remainsopen."
+}
