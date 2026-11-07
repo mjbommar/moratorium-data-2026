@@ -1,0 +1,40 @@
+{
+  "recorded_at": "2026-11-07T06:02:58.875639+00:00",
+  "stage": "pre-provider-offline-validation",
+  "protocol_sha256": "dd216f550f92c275d30c76330d700a9765c51e534eb230bc95092fccca539e52",
+  "provider_executed": false,
+  "canonical_records_written": 0,
+  "full_unittest_suite": {
+    "tests": 363,
+    "passed": true
+  },
+  "focused_pytest_suite": {
+    "tests": 24,
+    "subtests": 3,
+    "passed": true
+  },
+  "note": "Focused and full suites overlap; counts must not be summed. Protocol commit required before provider execution.",
+  "healthy": {
+    "status": "finished",
+    "provider_requests": 0,
+    "http_reservation_count": 12,
+    "backend_reservation_count": 12,
+    "backend_result_records": 12,
+    "all_replays_no_extra_calls": true,
+    "offline_auditor_passed": true,
+    "offline_audited_unpriced_attempts": 0,
+    "offline_audited_held_reservations_usd": 0.0
+  },
+  "failed_request": {
+    "status": "finished",
+    "provider_requests": 0,
+    "http_reservation_count": 13,
+    "backend_reservation_count": 13,
+    "backend_result_records": 12,
+    "all_replays_no_extra_calls": true,
+    "offline_auditor_passed": true,
+    "offline_audited_unpriced_attempts": 1,
+    "offline_audited_held_reservations_usd": 0.75
+  },
+  "independent_pre_provider_review": "No material blocker; final protocol commit required before execution."
+}

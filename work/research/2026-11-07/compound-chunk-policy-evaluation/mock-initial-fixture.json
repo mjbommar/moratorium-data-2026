@@ -1,0 +1,40 @@
+{
+  "result": {
+    "all_replays_no_extra_calls": false,
+    "backend_reservation_count": 2,
+    "backend_result_records": 2,
+    "cases": [
+      {
+        "backend_calls": 2,
+        "candidate_count": 0,
+        "case_id": "mandan-default",
+        "chunks": 2,
+        "error_class": "ValueError",
+        "estimated_cost_usd": 0.00014000000000000001,
+        "ledger_calls": 2,
+        "replay_without_calls": true,
+        "result_sha256": "3c794d053607a05613a7fdf17c20818b43181fb125ec85ea1b7c169527cd2309",
+        "status": "failed"
+      },
+      {
+        "case_id": "harwood-default",
+        "status": "not_attempted"
+      },
+      {
+        "case_id": "mandan-whole",
+        "status": "not_attempted"
+      },
+      {
+        "case_id": "harwood-whole",
+        "status": "not_attempted"
+      }
+    ],
+    "http_event_count": 4,
+    "http_reservation_count": 2,
+    "mock_http_requests": 2,
+    "mode": "offline_mock",
+    "provider_requests": 0,
+    "status": "failed"
+  },
+  "reason": "Identical mock chunk summaries were correctly deduplicated by native bc-evidence, so the expected reduction count was wrong. Fixture summaries are now distinct; no provider call occurred."
+}

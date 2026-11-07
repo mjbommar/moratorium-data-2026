@@ -1,0 +1,7 @@
+**No material blocker found in this read-only review.** The protocol remains a draft: the expected next step is to commit the final protocol before provider execution. The runner checks that its bytes match the version at `HEAD`.
+
+The current hashes match all 60 frozen code files, 22 canonical inputs, the runtime manifest file, and both source bodies and texts. The runtime manifest’s stated boundary excludes the standard library and OS. I verified the manifest file’s hash, but did not independently rebuild the active runtime manifest during this review.
+
+The retained mock results show 12 HTTP reservations for the healthy run. The failure exercise shows 13 reservations, including one unpriced failed attempt with its $0.75 reservation held; both report zero provider requests. The code reserves before requests, enforces the shared private-storage budget before guarded writes, and separates mock transport and artifacts from the provider path. The existing logs report **24 focused tests passed** and **363 full-suite tests passed**. I did not rerun tests or mocks.
+
+The comparison remains a limited development experiment on two known documents. Fixed execution order, one sample per policy, different claim opportunities, estimated pricing, and AI-assisted review constrain its conclusions. It does not establish broader P4 acceptance or release readiness.

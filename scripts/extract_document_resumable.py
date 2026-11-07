@@ -26,7 +26,10 @@ def digest(value):
     return hashlib.sha256(encoded(value)).hexdigest()
 
 
-def save(path, value):
+def save(path, value, storage_policy=None):
+    if storage_policy is not None:
+        storage_policy.save_json(Path(path).absolute(), value)
+        return
     temporary = path.with_suffix(path.suffix + '.tmp')
     with temporary.open('wb') as stream:
         stream.write(encoded(value) + b'\n')
@@ -50,7 +53,8 @@ class PreflightRejected(ValueError):
 
 async def run(directory, doc, cells, *, backend, model_identity, question, today,
               max_calls, role='extractor', max_chunks=None, budget_policy=None,
-              chunk_output_type=None, chunk_size=None, chunk_overlap=None):
+              chunk_output_type=None, chunk_size=None, chunk_overlap=None,
+              storage_policy=None):
     """Run actual bc-evidence map/reduce with cached typed calls and coverage.
 
     ``model_identity`` must include the resolved provider/model/settings, not just
@@ -106,6 +110,8 @@ async def run(directory, doc, cells, *, backend, model_identity, question, today
                    extractor_sha256=hashlib.sha256(source.read_bytes()).hexdigest(),
                    prompt_hashes={p.name: hashlib.sha256(p.read_bytes()).hexdigest()
                                   for p in prompt_files})
+    if storage_policy is not None:
+        context['storage_policy'] = storage_policy.describe()
     directory = Path(directory)
     directory.mkdir(parents=True, exist_ok=True, mode=0o700)
     # A workspace contains full source text, prompts and model outputs. Never use
@@ -178,7 +184,7 @@ async def run(directory, doc, cells, *, backend, model_identity, question, today
                     state['attempts'].append(attempt)
                     for i in indexes:
                         state['chunks'][i]['status'] = 'attempted'
-                    save(state_path, state)  # reserve before any model request
+                    save(state_path, state, storage_policy)  # reserve before any model request
                     try:
                         result = await backend.generate(**kwargs)
                         attempt['accounting'] = {field: getattr(result, field, None) for field in
@@ -209,17 +215,17 @@ async def run(directory, doc, cells, *, backend, model_identity, question, today
                         attempt['error_type'] = type(error).__name__
                         for i in indexes:
                             state['chunks'][i]['status'] = 'failed'
-                        save(state_path, state)
+                        save(state_path, state, storage_policy)
                         raise
                 for i in indexes:
                     state['chunks'][i]['status'] = 'succeeded'
-                save(state_path, state)
+                save(state_path, state, storage_policy)
                 return SimpleNamespace(output=output)
 
         state['status'] = 'running'
         # Never leave a prior success artifact alongside a failed/in-progress replay.
         (directory / 'result.private.json').unlink(missing_ok=True)
-        save(state_path, state)
+        save(state_path, state, storage_policy)
         try:
             claims, relevance, summary = await extractor.extract_document(
                 doc, cells, backend=CachedBackend(), question=question, today=today,
@@ -230,12 +236,12 @@ async def run(directory, doc, cells, *, backend, model_identity, question, today
                           limitations=['Text coverage does not prove PDF/page/OCR completeness.',
                                        'Prompt requests at most 12 claims per chunk.',
                                        'Outputs are unreviewed candidates, not accepted legal facts.'])
-            save(directory / 'result.private.json', result)
+            save(directory / 'result.private.json', result, storage_policy)
             state['status'] = 'full_text_chunks_processed' if complete else 'partial'
         except BaseException as error:
             state['status'] = 'incomplete'
             state['error_type'] = type(error).__name__
-            save(state_path, state)
+            save(state_path, state, storage_policy)
             raise
-        save(state_path, state)
+        save(state_path, state, storage_policy)
         return result

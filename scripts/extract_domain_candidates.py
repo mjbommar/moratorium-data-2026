@@ -304,7 +304,7 @@ def review_candidates(state, schema):
                             'Candidate conflicts remain unresolved; no majority vote or confidence merge.']}
 
 
-async def run(directory, doc, cells, *, question, **kwargs):
+async def run(directory, doc, cells, *, question, storage_policy=None, **kwargs):
     if hashlib.sha256(doc['text'].encode()).hexdigest() != doc.get('text_sha256'):
         raise ValueError('Document text hash mismatch')
     body_hash = doc.get('body_sha256', '')
@@ -315,7 +315,8 @@ async def run(directory, doc, cells, *, question, **kwargs):
     with (directory / 'domain.lock').open('a') as lock:
         fcntl.flock(lock, fcntl.LOCK_EX | fcntl.LOCK_NB)
         try:
-            return await _run_locked(directory, doc, cells, question=question, **kwargs)
+            return await _run_locked(directory, doc, cells, question=question,
+                                     storage_policy=storage_policy, **kwargs)
         except (resumable.WorkspaceContextChanged, resumable.PreflightRejected):
             # A rejected new context must not destroy the historical run's result.
             raise
@@ -324,7 +325,7 @@ async def run(directory, doc, cells, *, question, **kwargs):
             raise
 
 
-async def _run_locked(directory, doc, cells, *, question, **kwargs):
+async def _run_locked(directory, doc, cells, *, question, storage_policy=None, **kwargs):
     schema = json.loads(SCHEMA.read_text())
     identity = {**kwargs.pop('model_identity'),
                 'domain_adapter_sha256': hashlib.sha256(Path(__file__).read_bytes()).hexdigest(),
@@ -332,10 +333,11 @@ async def _run_locked(directory, doc, cells, *, question, **kwargs):
                 'condition_contract_sha256': hashlib.sha256((ROOT/'scripts/condition_expression.py').read_bytes()).hexdigest()}
     instruction = INSTRUCTIONS.format(fields=json.dumps({k: sorted(v) for k, v in FIELDS.items()}))
     result = await resumable.run(directory, doc, cells, question=question + '\n' + instruction,
-                                 model_identity=identity, chunk_output_type=DomainChunk, **kwargs)
+                                 model_identity=identity, chunk_output_type=DomainChunk,
+                                 storage_policy=storage_policy, **kwargs)
     state = json.loads((Path(directory) / 'state.private.json').read_text())
     candidates = review_candidates(state, schema)
     candidates['context_sha256'] = state['context_sha256']
     candidates['full_text_chunk_coverage'] = result['full_text_chunk_coverage']
-    resumable.save(Path(directory) / 'domain-candidates.private.json', candidates)
+    resumable.save(Path(directory) / 'domain-candidates.private.json', candidates, storage_policy)
     return candidates

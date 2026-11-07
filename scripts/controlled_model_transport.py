@@ -13,8 +13,9 @@ from uuid import uuid4
 
 
 class ControlledModelTransport:
-    def __init__(self, directory, *, max_requests, context_sha256):
+    def __init__(self, directory, *, max_requests, context_sha256, storage_policy=None):
         self.directory = Path(directory)
+        self.storage_policy = storage_policy
         if not self.directory.is_dir():
             raise ValueError(
                 "Create an admitted private workspace before configuring HTTP transport"
@@ -48,11 +49,14 @@ class ControlledModelTransport:
                 stream.seek(0)
                 if stream.read():
                     raise ValueError("HTTP ledger has no retained policy")
-                with policy_path.open("x") as target:
-                    json.dump(self.policy, target, sort_keys=True)
-                    target.write("\n")
-                    target.flush()
-                    os.fsync(target.fileno())
+                if self.storage_policy is not None:
+                    self.storage_policy.save_json(policy_path.absolute(), self.policy, exclusive=True)
+                else:
+                    with policy_path.open("x") as target:
+                        json.dump(self.policy, target, sort_keys=True)
+                        target.write("\n")
+                        target.flush()
+                        os.fsync(target.fileno())
 
     @staticmethod
     def events(stream):
@@ -72,8 +76,10 @@ class ControlledModelTransport:
             raise ValueError("Invalid HTTP ledger history")
         return rows
 
-    @staticmethod
-    def append(stream, event):
+    def append(self, stream, event):
+        if self.storage_policy is not None:
+            self.storage_policy.append_jsonl_stream(stream, event)
+            return
         stream.seek(0, 2)
         stream.write(json.dumps(event, sort_keys=True) + "\n")
         stream.flush()
