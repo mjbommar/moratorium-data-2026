@@ -1,0 +1,26 @@
+{
+  "scope": "Post-correction data/site/check and full offline suite; not full source freshness or release approval.",
+  "tests": {
+    "passed": 421,
+    "subtests_passed": 165,
+    "log_sha256": "01f3c349a86bdd84b440e3dfd3fca3aceef6b24bff5dd00891a40df988d33f41"
+  },
+  "data_site_checks": {
+    "exit_code": 0,
+    "documented_numbers": 65,
+    "log_sha256": "b172a6748d8e38501bb9e9f1452b7442e387f35a5e21ba7fe8b950d38de60b69"
+  },
+  "canonical_changes": {
+    "fields": 12,
+    "records": 6,
+    "rows_added": 0,
+    "rows_removed": 0,
+    "stable_ids_changed": 0
+  },
+  "repeat_guarded_dry_run": "exit0,no fields set",
+  "source_observation_dates_preserved": true,
+  "limits": [
+    "Source-specific unresolved later-history, document and coding gaps remain in field ledger.",
+    "Every other full-plan gate remains independent."
+  ]
+}

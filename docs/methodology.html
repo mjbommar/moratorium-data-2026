@@ -352,8 +352,32 @@ inventory. It requires explicit answer-file paths (never selecting by
 modification time), validates against the schema, and <strong>refuses any change whose
 stated prior value no longer matches the CSV</strong> — which is how a stale answer,
 written against a revision another pass has since corrected, gets caught instead
-of silently overwriting newer data. Every applied change is logged to
-<code>work/audit/</code>.</p>
+of silently overwriting newer data. Successful applications log changes to
+<code>work/audit/</code>, subject to the recovery boundary below.</p>
+<p>The legacy inventory and state-legislation apply scripts stage the complete CSV
+in a unique file in the destination directory, preserve the destination mode,
+flush and fsync the staged file, replace the CSV, and fsync its directory. Before
+replacement, a write or replacement failure leaves the original CSV bytes intact;
+after replacement, the visible CSV is complete. An error during directory fsync
+occurs after replacement, so the new CSV is visible but its survival across a
+power loss is not assured. These guarantees depend on the filesystem honoring
+same-directory atomic replacement and fsync. Ordinary exceptions clean up the
+staged file; an abrupt process or machine stop can leave a hidden <code>.tmp</code> file.
+Replacement preserves permission bits, not ownership, ACLs, extended attributes,
+hard-link identity, or symlink-following behavior. Coordinate writers externally:
+the conflict checks and replacement do not serialize concurrent applications.</p>
+<p>Each script writes its separate audit receipt <strong>after</strong> replacing and syncing the
+CSV. The two files are not an atomic transaction, and receipt writes are not
+themselves crash-atomic. A failure after replacement can leave a complete updated
+CSV with a missing or partial receipt; a failure after directory fsync can also
+occur during receipt creation. Stop further applications, retain the answer files,
+the prior CSV and any partial receipt, and compare the current CSV with the prior
+version and reviewed decisions. Reconcile and record the actual changes and the
+receipt failure in a separately identified recovery record; do not silently call
+it the original receipt. Replaying the same answers can be a no-op and does not
+recreate the missing audit record. If the current CSV is the old version after a
+crash, recheck the baseline and decisions before retrying. Inspect and remove only
+confirmed orphan staging files after confirming no writer is active.</p>
 <p><strong>6. Flag weak evidence rather than laundering it.</strong> A new instrument admitted on
 news-only evidence, or below a confidence threshold, automatically receives a
 <code>[VERIFY ...]</code> marker naming what is missing. It therefore reappears in the next

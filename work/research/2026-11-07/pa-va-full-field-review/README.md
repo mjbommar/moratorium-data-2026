@@ -1,0 +1,19 @@
+# Pennsylvania and Virginia full-field review: first twelve
+
+November 7 substantive source review and independent adjudication assessed all 19 fields for six Pennsylvania and six Virginia records (228 cells). The initial collection histories are the November 5 Eastern cohort; Virginia chapter PDFs were collected November 6 Eastern. Source-specific dates remain separate from the review date. This is the first twelve of the 40-record PA/VA packet, not completion of that packet or whole-inventory freshness.
+
+The [field ledger](field-review.json) preserves reviewed/current value and row fingerprints, per-field independent qualifications, source body/text hashes and Unicode span references. Full source text and model review outputs remain private; their hashes bind the audit. The independent review checked 42 retained source files and 303 cited spans and separately evaluated their contents. All twelve records remain **researched, unresolved** because the named later-history, missing-document, party, coding or statewide-classification gaps are not settled. Supported historical facts do not establish present legal force.
+
+The guarded answer batch corrected 12 fields across six records:
+
+- PA HB1764 and HB1924: replace unsupported categorical failed/died and failed legal-effect codes with unknown, and remove the inherited-failure wording from their narratives. Official histories establish tabling, not final failure.
+- VA HB1515: attribute the pause/end-condition description to the introduced summary and specify distribution-service interconnection; full bill exceptions remain unresolved.
+- VA HB155: retain the documented Labor and Commerce chronology and official failed label; remove the unverified Education parenthetical.
+- VA HB1601: preserve the documented veto, distinguish conference dates, remove the unsupported sustained-veto/no-override assertion, retain unknown later legal effect and qualify the as-passed summary. The coordinator retained the existing-approval expansion exception and local-zoning reservation in the corrected summary; no precise numeric exemption boundary is inferred from ambiguous wording.
+- VA HB338: retain source-listed votes including one abstention, observed continuation/committee chronology and official failed label; remove the unsupported exhaustive 2025-history and term-end explanation.
+
+Both state-specific dry runs and the combined six-record dry run passed exact full-row baseline guards before the combined apply. An initial evidence-source enum typo was rejected before any write, then corrected to the defined legislature-bill-page type. No rows, stable IDs, adoption/effective dates or enactment counts changed. The actual [apply receipt](../../../audit/apply-legislation-20261107T084726.json) records every accepted cell. Baseline rows retain the exact pre-change evidence rather than silently updating prior reviews.
+
+These source-bounded corrections do not establish the opposite of an unsupported claim. The unreviewed portions of the original 22-PA/18-VA packet remain work, and the earlier 92 corrections are not counted again. Taxonomy interpretations and statewide activity require their own defined evidence; a blank date or endpoint is not proof no operative term exists.
+
+Post-apply validation: `make data site check PYTHON=.venv/bin/python` passed, including all 65 documented numbers; the full offline suite passed 421 tests and 165 subtests. Repeating the combined guarded dry run after apply reported no field changes or conflicts. The exact comparison retained all 442 policy rows and stable IDs, with only the 12 accepted cells changed. Policy disposition counts changed from 233 to 231 failed/died and one to three unknown; legal-effect failed changed from 242 to 239 and unknown from 95 to 98. These are evidence qualifications, not newly enacted or expired instruments.
