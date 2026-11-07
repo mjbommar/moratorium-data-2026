@@ -9,8 +9,10 @@ from pathlib import Path
 from jsonschema import Draft202012Validator, FormatChecker
 
 SCHEMA = Path(__file__).resolve().parents[1] / 'work/schemas/expanded/1.0.1.json'
+PROFILE_NAMES=('1.0.0','1.0.1','1.0.2')
+
 def profile_path(profile):
-    if profile not in ('1.0.0','1.0.1'):
+    if profile not in PROFILE_NAMES:
         raise ValueError('Unsupported validation profile')
     return SCHEMA.with_name(profile+'.json')
 IDS = {'jurisdictions':'jurisdiction_id', 'elections':'election_id', 'ballot_measures':'measure_id', 'measure_provisions':'provision_id', 'measure_results':'result_observation_id', 'local_restrictions':'restriction_id', 'instrument_events':'event_id', 'measure_instrument_links':'link_id', 'source_documents':'source_document_id', 'claims':'claim_id', 'review_decisions':'decision_id', 'search_runs':'run_id', 'search_attempts':'attempt_id', 'search_sightings':'sighting_id', 'coverage_observations':'coverage_id'}
@@ -87,7 +89,7 @@ def validate(directory, moratoria=None, state_actions=None, *, profile='1.0.1'):
             if table=='measure_instrument_links':
                 for p in r['provision_ids']:
                     if p in rows['measure_provisions'] and rows['measure_provisions'][p]['measure_id'] != r['measure_id']: err(w,'provision belongs to another measure')
-            if table=='instrument_events' and profile=='1.0.1':
+            if table=='instrument_events' and profile in ('1.0.1','1.0.2'):
                 target={'table':'instrument_events','id':key}
                 expected={f:r[f] for f in ('instrument','action','occurrence')}
                 if not any(rows['claims'].get(cid,{}).get('subject')==target
@@ -176,7 +178,9 @@ def validate(directory, moratoria=None, state_actions=None, *, profile='1.0.1'):
             c=rows['claims'].get(cid)
             if c and (c['subject'] != d['target'] and not (d['target']['table']=='claims' and d['target']['id']==cid)):
                 err(w,'supporting claim subject does not match decision target')
-            if c and d['disposition']=='accepted' and d['target']['table'] != 'claims' and not accepted('claims',cid,c['predicate']):
+            historical_event=(profile=='1.0.2' and d['target']['table']=='instrument_events' and
+                              d['decision_id'] in {other['supersedes_id'] for other in decisions if other['supersedes_id']})
+            if c and d['disposition']=='accepted' and d['target']['table'] != 'claims' and not historical_event and not accepted('claims',cid,c['predicate']):
                 err(w, f'supporting claim {cid} lacks current scoped acceptance')
         if d['target']['table']=='claims':
             c=rows['claims'].get(d['target']['id'])
@@ -194,6 +198,10 @@ def validate(directory, moratoria=None, state_actions=None, *, profile='1.0.1'):
         if (measure and link['relation']=='enacts'
                 and measure['lifecycle'] in ('disqualified','withdrawn','canceled')):
             err(w,'disqualified, withdrawn or canceled measure cannot itself enact an instrument; preserve proposed instruments separately')
+    if profile=='1.0.2' and not errors:
+        from instrument_event_maintenance import inspect
+        try: inspect(rows)
+        except (ValueError,KeyError,TypeError) as exc: err('instrument_events','Event validity contract: '+str(exc))
     return errors, rows
 
 
@@ -254,7 +262,7 @@ def check_result(r,w,rows,err):
 def main():
     p=argparse.ArgumentParser(description=__doc__)
     p.add_argument('directory',type=Path); p.add_argument('--moratoria',type=Path); p.add_argument('--state-actions',type=Path)
-    p.add_argument('--profile',choices=['1.0.0','1.0.1'],default='1.0.1')
+    p.add_argument('--profile',choices=PROFILE_NAMES,default='1.0.1')
     a=p.parse_args()
     if not a.directory.is_dir(): p.error('directory does not exist')
     errors,rows=validate(a.directory,a.moratoria,a.state_actions,profile=a.profile)

@@ -10,8 +10,8 @@ from pathlib import Path
 import tempfile
 from uuid import uuid4
 
-from expanded_data import IDS, SCHEMA
-from expanded_promotion import fingerprint, read_snapshot
+from expanded_data import IDS, SCHEMA, profile_path
+from expanded_promotion import fingerprint, read_snapshot, sealed_generation
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -20,13 +20,14 @@ def sha(raw):
     return hashlib.sha256(raw).hexdigest()
 
 
-def render_table(table, records, schema):
+def render_table(table, records, schema, id_field=None):
     properties = schema['$defs'][table]['properties']
-    columns = ['schema_version', IDS[table], *sorted(set(properties) - {'schema_version', IDS[table]})]
+    key=id_field or IDS[table]
+    columns = ['schema_version', key, *sorted(set(properties) - {'schema_version', key})]
     stream = io.StringIO(newline='')
     writer = csv.writer(stream, lineterminator='\n')
     writer.writerow(columns)
-    for record in sorted(records, key=lambda row: row[IDS[table]]):
+    for record in sorted(records, key=lambda row: row[key]):
         if set(record) - set(columns):
             raise ValueError('CSV would omit unknown fields: ' + table)
         cells = []
@@ -65,27 +66,42 @@ def current_results(records):
 
 
 def build_outputs(snapshot):
+    snapshot=snapshot.resolve(strict=True)
+    from check_expanded_publication import check
+    data_root=snapshot.parent.parent
+    check(data_root/'expanded',data_root/'identities/expanded.jsonl',
+          data_root/'moratorium_inventory.csv',data_root/'state_legislation.csv',generation_path=snapshot)
     raw = read_snapshot(snapshot)
     generation = fingerprint(raw)
     receipt_bytes = (snapshot / 'publication.json').read_bytes()
     receipt = json.loads(receipt_bytes)
-    if snapshot.name != generation or receipt['sha256'] != generation:
+    if receipt['sha256'] != generation:
         raise ValueError('Expanded generation does not match its publication fingerprint')
-    schema_bytes = SCHEMA.read_bytes()
+    profile=receipt['plan'].get('validation_profile',{}).get('name','1.0.0')
+    if profile=='1.0.2':
+        from expanded_promotion import validate_plan
+        validate_plan(receipt['plan'])
+    schema_bytes = (profile_path(profile) if profile=='1.0.2' else SCHEMA).read_bytes()
     schema = json.loads(schema_bytes)
     records = {name: [json.loads(line) for line in body.decode('utf-8').splitlines()]
                for name, body in raw.items()}
     outputs = {}
     files = {}
-    views = [(name, name, records[name]) for name in IDS]
-    views.append(('measure_results_current', 'measure_results', current_results(records['measure_results'])))
-    for name, table, rows in views:
-        body, columns = render_table(table, rows, schema)
+    views = [(name, name, records[name],name,None) for name in IDS]
+    views.append(('measure_results_current', 'measure_results', current_results(records['measure_results']),'measure_results',None))
+    if profile=='1.0.2':
+        from instrument_event_maintenance import inspect
+        state=inspect({name:{r[IDS[name]]:r for r in values} for name,values in records.items()})
+        views.append(('instrument_events_current','instrument_events',state['current_events'],'instrument_events',None))
+        statuses=[{'schema_version':'1.0.0',**r} for r in state['statuses']]
+        views.append(('instrument_event_status','instrument_event_status',statuses,'instrument_events','event_id'))
+    for name, table, rows, source_table, id_field in views:
+        body, columns = render_table(table, rows, schema,id_field)
         filename = name + '.csv'
         outputs[filename] = body
         files[filename] = {'sha256': sha(body), 'rows': len(rows), 'columns': columns,
-                           'source_table': table}
-    manifest = {'schema_version': '1.0.0', 'source_snapshot': generation,
+                           'source_table': source_table}
+    manifest = {'schema_version': '1.0.0', 'source_snapshot': snapshot.name,
                 'source_publication_sha256': sha(receipt_bytes), 'schema_sha256': sha(schema_bytes),
                 'generator_sha256': sha(Path(__file__).read_bytes()),
                 'source_tables': {name + '.jsonl': sha(body) for name, body in sorted(raw.items())},
@@ -97,6 +113,10 @@ def build_outputs(snapshot):
                 'scope': 'Derived convenience views, not authoritative records or new evidence acceptance. '
                          'JSONL preserves null versus empty strings and absent fields. Current results '
                          'exclude explicitly superseded observations only; separate reporting scopes are retained.'}
+    if profile=='1.0.2':
+        manifest['validation_profile']=receipt['plan']['validation_profile']
+        manifest['source_table_snapshot_sha256']=generation
+        manifest['event_views']={'retained':'instrument_events.csv','current_accepted':'instrument_events_current.csv','status':'instrument_event_status.csv','meaning':'Review-state acceptance, not current legal force. Retained rows include withdrawn history.'}
     outputs['manifest.json'] = (json.dumps(manifest, indent=2, ensure_ascii=False) + '\n').encode('utf-8')
     return fingerprint(outputs), outputs
 

@@ -133,3 +133,7 @@ Regression tests exercise the first immutable real snapshot in a temporary copy,
 including byte drift, missing tables, changed review partitions, missing/wrong-source
 proofs, false support flags, appended versus altered identity history, nonportable
 pointers, redirected files, unsupported plans and cyclic predecessors.
+
+## Event validity maintenance
+
+[Publication profile 1.0.2](event-validity-publication.md) adds explicit event-validity chains, narrowly predecessor-bound `historical_fields`, a public evidence-proof fingerprint and monotonic maintenance review chronology. It authenticates predecessor history before promotion and rechecks proofs/history on exact replay. The real current dataset remains on profile 1.0.1 pending substantive migration review.

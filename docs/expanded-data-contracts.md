@@ -241,3 +241,7 @@ summaries prefer it for navigation. The original `url` and body/text hashes stil
 identify the acquired version; a citation URL never supplies substitute evidence
 or authenticates its publisher. Earlier snapshots without this field retain their
 existing URLs and remain unchanged.
+
+## Optional event validity profile
+
+[Profile 1.0.2](event-validity-publication.md) adds explicit event review validity and typed correction evidence without rewriting existing event records. A source generation selecting it gains separate retained, current-accepted and status CSV views. The current generation remains on profile 1.0.1; synthetic integration/restore tests do not constitute real event migration or legal acceptance.

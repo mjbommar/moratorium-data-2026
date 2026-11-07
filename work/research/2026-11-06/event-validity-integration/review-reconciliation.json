@@ -1,0 +1,37 @@
+{
+  "reviews": [
+    {
+      "model": "gpt-6.1-terra",
+      "session_id": "01a1b394-39e6-7332-852e-2ad4370f6613",
+      "exit_code": 0,
+      "report_private_path": "/data0/moratorium-refresh-2026/frozen-domain-evaluation/event-profile-integration-review.private.txt",
+      "report_sha256": "96ffb7030e69c99207908c87c99cfd5d00d376b09d9900daed630d209ac4b04f"
+    },
+    {
+      "model": "gpt-6.1-terra",
+      "session_id": "01a1b39a-7ac3-72c0-8acc-5a9451f6fecc",
+      "exit_code": 0,
+      "report_private_path": "/data0/moratorium-refresh-2026/frozen-domain-evaluation/event-profile-final-review.private.txt",
+      "report_sha256": "1112513582d0c4a8e3ac78b262dce82fa2b85a68dceb2de7a33cbe7fa13b10a7"
+    },
+    {
+      "model": "gpt-6.1-terra",
+      "session_id": "01a1b39f-4307-7013-a396-37f90c17361d",
+      "exit_code": 0,
+      "report_private_path": "/data0/moratorium-refresh-2026/frozen-domain-evaluation/event-profile-seal-review.private.txt",
+      "report_sha256": "1ab4014c0f2e325c840b2a4e38f9411e250d33b82c247dc4e24c2d4b088ee2c0"
+    }
+  ],
+  "coordinator_fixes": [
+    "Authenticate selected publication/history before CSV profile dispatch.",
+    "Seal the public evidence-proof set in new-profile plans; verify all retained claims independently.",
+    "Recheck proofs/history on exact replay.",
+    "Require monotonic publication review and bounded appended maintenance decisions.",
+    "Preserve original free-form scope semantics during old-profile history traversal; require profile2 for new maintenance execution.",
+    "Require declared schema profiles and maintenance runtime in portable selection.",
+    "Seal new generation names over tables plus exact receipt bytes; pin predecessor receipt hashes.",
+    "Permit receipt-only new-profile successors with exact predecessor-receipt CAS, preserving unchanged event/source observation times."
+  ],
+  "remaining_trust_limit": "External authenticity requires a pinned Git revision or verified release manifest including the tip pointer. Internal content hashes do not authenticate a reviewer or prevent replacement of an entire untrusted root.",
+  "source_rollout": "Real five-event generation remains profile1.0.1. No real withdrawal, new event-validity acceptance or model extraction performed."
+}

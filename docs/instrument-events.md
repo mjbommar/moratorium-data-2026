@@ -74,3 +74,7 @@ remains incomplete.
 ## Correction and withdrawal development
 
 The [isolated maintenance contract](event-maintenance-development.md) now tests explicit validity decisions, historical support, correction relationships and predecessor preservation. It is not connected to the active publication profile. Profile 1.0.1 still cannot publish event withdrawal; the production integration, source review, consumer/export and restore gates remain open. The existing five events and their accepted evidence are unchanged.
+
+## Versioned maintenance integration
+
+[Profile 1.0.2](event-validity-publication.md) now integrates explicit event validity, predecessor-bound historical field review, sealed public evidence proofs, atomic maintenance and retained/current/status CSV views. Source-byte synthetic transactions and offline restore exercise this path. The live five-event generation still selects 1.0.1; no real withdrawal or validity migration is implied. Original 1.0.0/1.0.1 schemas and historical semantics remain retained.

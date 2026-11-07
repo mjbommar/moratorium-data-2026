@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Development event-validity contract; not yet a canonical publication profile.
+"""Event-validity contract for explicitly selected publication profile 1.0.2.
 
 This checks review relationships, not source entailment, rights or legal force.
 The publication adapter must still verify every source, identity and immutable

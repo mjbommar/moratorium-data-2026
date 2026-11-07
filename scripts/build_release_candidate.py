@@ -37,7 +37,7 @@ def build(destination, revision):
     # the original schema remains required by frozen retrospective fixtures.
     exact.update(n for n in names if n.startswith('work/schemas/expanded/')
                  and len(Path(n).parts)==4 and n.endswith('.json'))
-    exact.update(n for n in ['docs/instrument-events.md','docs/ballot-semantic-definitions.md'] if n in names)
+    exact.update(n for n in ['docs/instrument-events.md','docs/ballot-semantic-definitions.md','docs/event-validity-publication.md','docs/event-maintenance-development.md'] if n in names)
     event_review='work/research/2026-11-06/instrument-event-migration/'
     if event_review+'cohort.json' in names:
         exact.update(n for n in names if n.startswith(event_review))
@@ -59,9 +59,15 @@ def build(destination, revision):
         exact.update({'scripts/audit_pilot_contracts.py', 'scripts/expanded_data.py',
                       'scripts/expanded_promotion.py', 'scripts/expanded_identity.py',
                       'scripts/audit_refresh_returns.py', 'scripts/visual_claim_review.py',
-                      'scripts/check_expanded_publication.py','scripts/build_expanded_csv.py'})
+                      'scripts/check_expanded_publication.py','scripts/build_expanded_csv.py','scripts/instrument_event_maintenance.py'})
         validator=git('show',commit+':scripts/expanded_data.py').decode()
         dependencies=set(re.findall(r'work/schemas/expanded/\d+\.\d+\.\d+\.json',validator))
+        if 'PROFILE_NAMES' in validator:
+            import ast
+            declaration=next(n for n in ast.parse(validator).body if isinstance(n,ast.Assign) and any(isinstance(t,ast.Name) and t.id=='PROFILE_NAMES' for t in n.targets))
+            dependencies.update('work/schemas/expanded/'+name+'.json' for name in ast.literal_eval(declaration.value))
+            if '1.0.2' in ast.literal_eval(declaration.value):
+                assert 'scripts/instrument_event_maintenance.py' in names,'Missing event maintenance runtime dependency'
         assert dependencies<=set(names),'Validator profile absent from selected commit: '+str(dependencies-set(names))
         exact.update(dependencies)
         frozen = json.loads(git('show', commit+':'+pilot+'manifest.json'))

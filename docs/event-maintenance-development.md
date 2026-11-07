@@ -1,6 +1,6 @@
 # Instrument-event maintenance development
 
-The active validation profile remains **1.0.1**. The five published events, both existing schema files, canonical snapshots and CSV projections are unchanged. This development contract does **not** make withdrawal publishable yet and does not close P7.
+Historical development checkpoint: the live dataset remains on **1.0.1**. The subsequent [profile 1.0.2 integration](event-validity-publication.md) now connects this contract to publication and exports; real-data migration and consumer/delivery gates remain open. The five published events, both existing schema files, canonical snapshots and CSV projections are unchanged. This development contract does **not** make withdrawal publishable yet and does not close P7.
 
 `scripts/instrument_event_maintenance.py` now exercises review-state transitions independently of the publication adapter. The [synthetic tests](../tests/test_instrument_event_maintenance.py) establish internal history invariants; they do not establish source entailment, publication rights, identity correctness or current legal force. A passed contract is not authorization to publish its input.
 
@@ -20,7 +20,7 @@ New events cannot arrive already withdrawn, or currently accepted with an invent
 
 The design review proposed appending a new validity acceptance before withdrawing an event during migration. The development contract instead permits a rejected root **only for an event retained in a supplied, previously accepted baseline**, with exact claim and field acceptance checked in that predecessor. This avoids recording a new current acceptance of an event already known to be wrong, and avoids inventing a predecessor-era validity decision.
 
-This bridge is not self-authenticating. `transition(rows, previous)` assumes the caller has independently validated and pinned the actual predecessor publication using its original profile, identity registry, evidence proofs and receipt. An arbitrary dictionary or two aliases of one mutable object cannot prove that prior publication occurred. The eventual promotion adapter must enforce that boundary and reject backdated transitions inconsistent with the pinned publication chronology. The module alone must not be installed as a publication gate.
+This bridge is not self-authenticating. `transition(rows, previous)` assumes the caller has independently validated and pinned the actual predecessor publication using its original profile, identity registry, evidence proofs and receipt. An arbitrary dictionary or two aliases of one mutable object cannot prove that prior publication occurred. The subsequent profile 1.0.2 promotion adapter now enforces that boundary against pinned predecessor receipts and rejects backdated maintenance; the isolated function still does not authenticate a supplied dictionary. The module alone must not be installed as a publication gate.
 
 ## Required integration before P7 closure
 
