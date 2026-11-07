@@ -2,6 +2,10 @@
 
 ## 2026-11-07 — current working snapshot (unreleased)
 
+The [Georgia policy review](work/research/2026-11-07/georgia-state-policy-source-review/README.md) applies 42 fields across nine records after 171 independent decisions, preserving proposed date/unit distinctions and rejecting unfetched party/substitute/sunset claims. Refresh three data-derived figure families and fix impossible heatmap months by using validated normalized dates, preserving month-only precision. Date plots identify 1,187 dated records and 143 without a usable month; counts do not prove legal force.
+
+The [Iowa source/identity review](work/research/2026-11-07/iowa-policy-source-review/README.md) applies 65 fields across twelve records and adds separate House HF2799. Policy rows are now 443, typed bill rows 428, enacted-category bills still 94 after correcting the withdrawn Senate lineage. Preserve all old IDs and focus the HF2357 key on the House instrument. These are identity corrections, not new November enactments or local moratoria.
+
 The [Florida/Hawaii review](work/research/2026-11-07/florida-hawaii-policy-review/README.md) applies 80 fields across thirteen existing records after 247 assessments. Correct incentive/study/utility classifications, version and effective-date distinctions, original versus amended certificate deadlines, source links, and recorded historical stages. Fifteen valid source versions migrate to native evidence; a generic HTTP-200 response is rejected as bill evidence. Census totals do not change.
 
 The [Connecticut/Delaware review](work/research/2026-11-07/connecticut-delaware-policy-review/README.md) applies 40 guarded fields across ten existing records after 190 assessments. Correct fiscal/utility descriptions, chronology, sponsors, links and unsupported terminal/current-force classifications. A separate identity adjudication preserves HB233 and HS1 as one bill lineage, retaining the enacted category and initial effective date without a duplicate row. All census totals remain unchanged.

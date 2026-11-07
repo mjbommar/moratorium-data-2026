@@ -12,10 +12,10 @@
     height=5.5cm,
     ylabel={Number of Instruments},
     xlabel={Year},
-    symbolic x coords={2018,2022,2023,2024,2025,2026},
+    symbolic x coords={2018,2020,2021,2022,2023,2024,2025,2026},
     xtick=data,
     ymin=0,
-    ymax=1010,
+    ymax=1030,
     nodes near coords,
     nodes near coords style={font=\small\bfseries, color=black},
     every axis plot/.append style={fill=chart-bar, draw=chart-bar-dark},
@@ -26,14 +26,14 @@
     label style={font=\small},
 ]
 \addplot[fill=chart-bar, draw=chart-bar-dark] coordinates {
-    (2018,10) (2022,3) (2023,20) (2024,59) (2025,122) (2026,1009)
+    (2018,10) (2020,1) (2021,1) (2022,8) (2023,24) (2024,62) (2025,125) (2026,1028)
 };
 \end{axis}
 \end{tikzpicture}
 \begin{flushleft}
 \small\textit{Note:} Counts reflect instruments with a recorded adoption date
-in the cleaned inventory (\Cref{app:inventory}, $n = 1289$).
-66 instruments lacked a parseable adoption
+in the cleaned inventory (\Cref{app:inventory}, $n = 1328$).
+69 instruments lacked a parseable adoption
 date and are excluded.
 \end{flushleft}
 \end{figure}

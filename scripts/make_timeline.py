@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
-"""Generate site/timeline.svg — monthly stacked bar chart of moratorium adoptions.
+"""Generate site/timeline.svg — monthly counts of normalized record dates.
 
-X axis: month (2018-01 through the latest month present in the data)
-Y axis: number of moratoria adopted that month
+X axis: first through last usable month present in the normalized data
+Y axis: number of records with that reported month
 Stacking: by primary sector (data_center, cryptocurrency_mining, battery_storage,
           solar, wind, general)
 Overlay: cumulative-total dashed line.
@@ -22,6 +22,11 @@ import json
 from collections import OrderedDict, defaultdict
 from datetime import date
 from pathlib import Path
+
+if __package__:
+    from .moratorium_maps.dates import recorded_month
+else:
+    from moratorium_maps.dates import recorded_month
 
 REPO = Path(__file__).resolve().parents[1]
 INV = REPO / "data" / "moratorium_inventory.csv"
@@ -68,8 +73,8 @@ def collect() -> tuple[list[str], dict[str, dict[str, int]], list[int]]:
     monthly: dict[str, dict[str, int]] = defaultdict(lambda: defaultdict(int))
     with open(INV, encoding="utf-8") as f:
         for r in csv.DictReader(f):
-            iso = (r.get("date_enacted_iso") or "")[:7]
-            if len(iso) != 7 or iso[4] != "-":
+            iso = recorded_month(r)
+            if iso is None:
                 continue
             try:
                 sectors = json.loads(r.get("sectors") or "[]")
@@ -84,10 +89,12 @@ def collect() -> tuple[list[str], dict[str, dict[str, int]], list[int]]:
         return [], {}, []
 
     # Derive the end month from the data. Hardcoding it silently truncated the
-    # chart at 2026-04 and dropped every adoption in the May-July window.
+    # chart at 2026-04 and dropped dated records in the May-July window.
     last = max(monthly)
     last_date = date(int(last[:4]), int(last[5:7]), 1)
-    months = list(month_iter(date(2018, 1, 1), last_date))
+    first = min(monthly)
+    first_date = date(int(first[:4]), int(first[5:7]), 1)
+    months = list(month_iter(first_date, last_date))
     cumulative: list[int] = []
     running = 0
     for m in months:
@@ -116,6 +123,8 @@ def main():
     y_step = 10 if y_max <= 50 else 20
 
     cum_max = cumulative[-1]
+    with open(INV, encoding="utf-8") as source:
+        total_rows = sum(1 for _ in csv.DictReader(source))
     _MON = ["", "January", "February", "March", "April", "May", "June",
             "July", "August", "September", "October", "November", "December"]
     span_label = f"{_MON[int(months[-1][5:7])]} {months[-1][:4]}"
@@ -131,7 +140,7 @@ def main():
         f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" '
         f'width="100%" height="auto" font-family="ui-sans-serif, system-ui, '
         f'-apple-system, Helvetica, Arial, sans-serif" font-size="12" '
-        f'role="img" aria-label="Monthly moratorium adoptions, 2018 through {span_label}">'
+        f'role="img" aria-label="Reported moratorium dates, {months[0][:4]} through {span_label}">'
     )
     # Background
     parts.append(f'<rect width="{W}" height="{H}" fill="white"/>')
@@ -139,16 +148,16 @@ def main():
     # Title
     parts.append(
         f'<text x="{pad_l}" y="28" font-size="18" font-weight="600" fill="#0f1419">'
-        f'Moratorium adoptions per month, 2018-{span_label}</text>'
+        f'Reported moratorium dates, {months[0][:4]}–{span_label}</text>'
     )
     parts.append(
         f'<text x="{pad_l}" y="48" font-size="13" fill="#4a5460">'
-        f'Each bar = one calendar month. Height = moratoria adopted that month. Color = primary sector.'
+        f'Each bar = recorded rows by reported month. Color = primary sector.'
         f'</text>'
     )
     parts.append(
         f'<text x="{pad_l}" y="68" font-size="13" fill="#4a5460">'
-        f'{cum_max} adoptions across {sum(1 for m in months if monthly.get(m))} months with at least one adoption.'
+        f'{cum_max} dated records; {total_rows - cum_max} without a usable month. Counts do not establish current force.'
         f'</text>'
     )
 
@@ -167,7 +176,7 @@ def main():
         f'<text x="{pad_l - 44}" y="{pad_t + plot_h / 2:.1f}" '
         f'fill="#4a5460" text-anchor="middle" '
         f'transform="rotate(-90 {pad_l - 44} {pad_t + plot_h / 2:.1f})">'
-        f'Moratoria adopted</text>'
+        f'Dated records</text>'
     )
 
     # Stacked bars

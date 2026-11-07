@@ -15,6 +15,7 @@ import pandas as pd
 import seaborn as sns
 
 from .basemap import BaseUSMap, PALETTE, HATCH, FIGURES_DIR, STYLE
+from .dates import recorded_month
 from .data import (
     moratorium_counts_by_state,
     AUTHORITY_TYPE,
@@ -42,13 +43,13 @@ def map_moratorium_counts():
     actual_max = max(values.values()) if values else 0
     vmax = max(30, ((actual_max // 5) + 1) * 5)
 
-    m = BaseUSMap(title="Moratorium Instruments by State")
+    m = BaseUSMap(title="Recorded Moratorium Rows by State")
     fig, ax = m.choropleth(
         values,
         cmap=PALETTE["sequential"],
         vmin=0,
         vmax=vmax,
-        legend_label="Number of Instruments",
+        legend_label="Number of Records",
     )
     m.save("map-moratorium-counts")
     m.close()
@@ -173,7 +174,7 @@ def map_sector_composition():
     counts = moratorium_counts_by_state()
     count_values = dict(zip(counts["state_abbrev"], counts["count"]))
 
-    m = BaseUSMap(title="Moratorium Instruments by Sector")
+    m = BaseUSMap(title="Recorded Moratorium Rows by Sector")
     gdf = m._load_and_project()
     fig, ax = m._setup_figure(gdf)
 
@@ -194,7 +195,7 @@ def map_sector_composition():
                        hatch=sector_hatches.get(sector, ""), label=sector)
         for sector, color in sector_colors.items()
     ]
-    patches.append(mpatches.Patch(facecolor=PALETTE["no_data"], edgecolor=PALETTE["border"], label="No moratoria"))
+    patches.append(mpatches.Patch(facecolor=PALETTE["no_data"], edgecolor=PALETTE["border"], label="No recorded rows"))
     ax.legend(
         handles=patches, loc="lower right",
         title="Dominant Sector", title_fontsize=9, fontsize=8,
@@ -241,20 +242,8 @@ def map_timeline_heatmap():
 
     inv = load_moratorium_inventory()
 
-    # Parse dates — many are messy, extract what we can
-    def parse_date(d):
-        if pd.isna(d) or not isinstance(d, str):
-            return None
-        # Try YYYY-MM-DD format
-        import re
-        m = re.search(r"(\d{4})-(\d{2})", str(d))
-        if m:
-            year, month = int(m.group(1)), int(m.group(2))
-            if 2020 <= year <= 2026:
-                return f"{year}-{month:02d}"
-        return None
-
-    inv["year_month"] = inv["date_enacted"].apply(parse_date)
+    # Legacy display strings contain ranges and notes that are not month dates.
+    inv["year_month"] = inv.apply(recorded_month, axis=1)
     dated = inv.dropna(subset=["year_month"])
 
     # Count by state × month
@@ -284,14 +273,18 @@ def map_timeline_heatmap():
         cmap=heatmap_cmap,
         linewidths=0.5,
         linecolor="white",
-        cbar_kws={"label": "Instruments Enacted", "shrink": 0.6},
+        cbar_kws={"label": "Records with Reported Month", "shrink": 0.6},
         annot=True,
         fmt="g",
         annot_kws={"fontsize": 7},
         vmin=0,
     )
 
-    ax.set_title("Moratorium Enactment Timeline by State", fontweight="bold", pad=12)
+    ax.set_title(
+        "Recorded Moratorium Dates by State\n"
+        f"{len(dated)} dated rows; {len(inv) - len(dated)} without a usable month",
+        fontweight="bold", pad=12,
+    )
     ax.set_xlabel("Month")
     ax.set_ylabel("")
     ax.tick_params(axis="x", rotation=45, labelsize=7)

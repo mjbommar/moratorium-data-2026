@@ -142,8 +142,8 @@ The page generator also uses a legacy internal summary key, `in_force`, for the 
 Top-level keys:
 
 - `total_local_moratoria`: 1330 — total rows in the inventory
-- `total_state_bills`: 427 — rows using the `bill` type in state_legislation.csv, excluding separately typed resolutions and precursors; not a deduplicated independent-bill count
-- `total_state_policy_actions`: 442 — all state-policy rows, including binding non-bill actions
+- `total_state_bills`: 428 — rows using the `bill` type in state_legislation.csv, excluding separately typed resolutions and precursors; not a deduplicated independent-bill count
+- `total_state_policy_actions`: 443 — all state-policy rows, including binding non-bill actions
 - `states_with_moratoria`: 47
 - `states_without_moratoria`: 3
 - `moratoria_with_verify_tags`: 723 — rows with at least one `[VERIFY]` flag remaining in any field (matches `has_verify_tags = True` in the inventory CSV)

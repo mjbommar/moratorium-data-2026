@@ -1,0 +1,797 @@
+{
+  "hf2357": {
+    "review": "Iowa HF2357 identity adjudication",
+    "review_date": "2026-11-07",
+    "decision": "focus_existing_legacy_id_on_HF2357",
+    "scope": "one existing identity; no canonical application",
+    "canonical_csv": "/home/mjbommar/projects/personal/moratorium-data-2026/data/state_legislation.csv",
+    "canonical_csv_sha256": "7f7f309745f0ced84fbbd710a391ab6683b61f6f8c83f361977c98450463314d",
+    "live_comparison": {
+      "match_count": 1,
+      "all_19_cells_match_original_guard": true,
+      "other_csv_rows_matching_bill_names": 0,
+      "comparison_scope": "data/state_legislation.csv, case-insensitive HF2357, SSB3151, SF2372 literal with optional space"
+    },
+    "original_full_19_cell_guard": {
+      "state": "Iowa",
+      "state_abbrev": "IA",
+      "bill": "SSB3151 / HF2357 (2026)",
+      "sponsors": "Senate Judiciary Committee; House Judiciary Committee",
+      "party": "Committee bills",
+      "status": "Passed House 90-0 on 2026-03-02 and Senate 47-0 on 2026-04-06 (substituted for SF2372); Signed by Governor 2026-04-16, Acts Chapter 1040, effective 2026-07-01",
+      "key_provisions": "Technical and statutory corrections including data center cross-reference edits in tax code sections.",
+      "activity_level": "High",
+      "bill_status_category": "enacted",
+      "last_action_date_iso": "2026-04-16",
+      "chamber_of_origin": "House",
+      "policy_instrument_type": "bill",
+      "policy_mechanism": "other",
+      "legal_effect_status": "unknown",
+      "scope_of_action": "unknown",
+      "effective_date_iso": "",
+      "end_condition": "",
+      "primary_source_url": "",
+      "policy_action_id": "ia-ssb3151-hf2357-2026"
+    },
+    "proposed_19_cell_row": {
+      "state": "Iowa",
+      "state_abbrev": "IA",
+      "bill": "HF2357 (2026)",
+      "sponsors": "House Judiciary Committee",
+      "party": "Committee bill",
+      "status": "HF2357 passed the House 90-0 on 2026-03-02 and the Senate 47-0 on 2026-04-06; signed 2026-04-16 as Acts Chapter 1040, effective 2026-07-01. Separate Senate SSB3151 was renumbered SF2372, which was withdrawn on 2026-04-06 after HF2357 was substituted.",
+      "key_provisions": "Statutory corrections include changing the data-center-business definition cross-reference in the sales/use tax refund provision from 423.3(95)(e) to 423.3(95)(f).",
+      "activity_level": "High",
+      "bill_status_category": "enacted",
+      "last_action_date_iso": "2026-04-16",
+      "chamber_of_origin": "House",
+      "policy_instrument_type": "bill",
+      "policy_mechanism": "other",
+      "legal_effect_status": "unknown",
+      "scope_of_action": "fiscal",
+      "effective_date_iso": "2026-07-01",
+      "end_condition": "",
+      "primary_source_url": "https://www.legis.iowa.gov/legislation/billTracking/billHistory?billName=HF2357&ga=91",
+      "policy_action_id": "ia-ssb3151-hf2357-2026"
+    },
+    "field_decisions": [
+      {
+        "field": "state",
+        "before": "Iowa",
+        "after": "Iowa",
+        "source_ids": [
+          "70baba9e765844098297b929777dd881"
+        ],
+        "source_dates": [
+          "2026-11-05T23:25:44.953528Z"
+        ],
+        "locator": "Selected HF2357 history; Iowa Legislature",
+        "rationale": "Jurisdiction is Iowa."
+      },
+      {
+        "field": "state_abbrev",
+        "before": "IA",
+        "after": "IA",
+        "source_ids": [
+          "70baba9e765844098297b929777dd881"
+        ],
+        "source_dates": [
+          "2026-11-05T23:25:44.953528Z"
+        ],
+        "locator": "Selected HF2357 history; Iowa Legislature",
+        "rationale": "IA is the project abbreviation for Iowa."
+      },
+      {
+        "field": "bill",
+        "before": "SSB3151 / HF2357 (2026)",
+        "after": "HF2357 (2026)",
+        "source_ids": [
+          "70baba9e765844098297b929777dd881"
+        ],
+        "source_dates": [
+          "2026-11-05T23:25:44.953528Z"
+        ],
+        "locator": "Selected House File 2357; formerly HSB615; related SF2372 history",
+        "rationale": "Focus the row on the enacted House instrument; the Senate association is retained in status and audit."
+      },
+      {
+        "field": "sponsors",
+        "before": "Senate Judiciary Committee; House Judiciary Committee",
+        "after": "House Judiciary Committee",
+        "source_ids": [
+          "70baba9e765844098297b929777dd881"
+        ],
+        "source_dates": [
+          "2026-11-05T23:25:44.953528Z"
+        ],
+        "locator": "Selected House File 2357, By COMMITTEE ON JUDICIARY",
+        "rationale": "Retain the House committee only for the focused House bill."
+      },
+      {
+        "field": "party",
+        "before": "Committee bills",
+        "after": "Committee bill",
+        "source_ids": [
+          "70baba9e765844098297b929777dd881"
+        ],
+        "source_dates": [
+          "2026-11-05T23:25:44.953528Z"
+        ],
+        "locator": "Selected bill, By COMMITTEE ON JUDICIARY",
+        "rationale": "Committee bill describes sponsorship, not party affiliation."
+      },
+      {
+        "field": "status",
+        "before": "Passed House 90-0 on 2026-03-02 and Senate 47-0 on 2026-04-06 (substituted for SF2372); Signed by Governor 2026-04-16, Acts Chapter 1040, effective 2026-07-01",
+        "after": "HF2357 passed the House 90-0 on 2026-03-02 and the Senate 47-0 on 2026-04-06; signed 2026-04-16 as Acts Chapter 1040, effective 2026-07-01. Separate Senate SSB3151 was renumbered SF2372, which was withdrawn on 2026-04-06 after HF2357 was substituted.",
+        "source_ids": [
+          "70baba9e765844098297b929777dd881",
+          "84942a5a9cd74542a24f8b2fbdb660fa"
+        ],
+        "source_dates": [
+          "2026-11-05T23:25:44.953528Z",
+          "2026-11-05T23:25:43.387226Z"
+        ],
+        "locator": "HF2357 H.J. 479, S.J. 721, H.J. 950, chapter 1040 and effective-date heading; SSB3151 Feb 17; SF2372 S.J. 721–722",
+        "rationale": "Dates and votes belong to HF2357; separately identify renumbering, substitution and withdrawal of SF2372."
+      },
+      {
+        "field": "key_provisions",
+        "before": "Technical and statutory corrections including data center cross-reference edits in tax code sections.",
+        "after": "Statutory corrections include changing the data-center-business definition cross-reference in the sales/use tax refund provision from 423.3(95)(e) to 423.3(95)(f).",
+        "source_ids": [
+          "17cbf1bcbb4e45a5b49fe3c043e38cce"
+        ],
+        "source_dates": [
+          "2026-11-05T23:25:31.183501Z"
+        ],
+        "locator": "Chapter 1040 page 14, section 89; inspected rendered pixels",
+        "rationale": "Struck e and underlined f show the correction to 423.4(8)(a), not simultaneous alternatives."
+      },
+      {
+        "field": "activity_level",
+        "before": "High",
+        "after": "High",
+        "source_ids": [
+          "project"
+        ],
+        "source_dates": [
+          "2026-11-07"
+        ],
+        "locator": "data/state_legislation.csv original row; docs/codebook.md activity_level",
+        "rationale": "Preserve statewide classification; not independently re-evaluated in this focused review."
+      },
+      {
+        "field": "bill_status_category",
+        "before": "enacted",
+        "after": "enacted",
+        "source_ids": [
+          "70baba9e765844098297b929777dd881"
+        ],
+        "source_dates": [
+          "2026-11-05T23:25:44.953528Z"
+        ],
+        "locator": "HF2357 H.J. 950 and Acts Chapter 1040",
+        "rationale": "Enacted applies to focused House instrument only."
+      },
+      {
+        "field": "last_action_date_iso",
+        "before": "2026-04-16",
+        "after": "2026-04-16",
+        "source_ids": [
+          "70baba9e765844098297b929777dd881"
+        ],
+        "source_dates": [
+          "2026-11-05T23:25:44.953528Z"
+        ],
+        "locator": "HF2357 April 16, 2026 signature H.J. 950",
+        "rationale": "Latest dated House action in retained history, as observed November 5."
+      },
+      {
+        "field": "chamber_of_origin",
+        "before": "House",
+        "after": "House",
+        "source_ids": [
+          "70baba9e765844098297b929777dd881"
+        ],
+        "source_dates": [
+          "2026-11-05T23:25:44.953528Z"
+        ],
+        "locator": "House File 2357; formerly House Study Bill 615",
+        "rationale": "Origin of focused House instrument."
+      },
+      {
+        "field": "policy_instrument_type",
+        "before": "bill",
+        "after": "bill",
+        "source_ids": [
+          "70baba9e765844098297b929777dd881"
+        ],
+        "source_dates": [
+          "2026-11-05T23:25:44.953528Z"
+        ],
+        "locator": "House File 2357 history",
+        "rationale": "Legislative bill, later enacted."
+      },
+      {
+        "field": "policy_mechanism",
+        "before": "other",
+        "after": "other",
+        "source_ids": [
+          "17cbf1bcbb4e45a5b49fe3c043e38cce"
+        ],
+        "source_dates": [
+          "2026-11-05T23:25:31.183501Z"
+        ],
+        "locator": "Chapter 1040 section 89 page 14; docs/codebook.md mechanism",
+        "rationale": "Technical cross-reference correction fits other; no new moratorium identified in this provision."
+      },
+      {
+        "field": "legal_effect_status",
+        "before": "unknown",
+        "after": "unknown",
+        "source_ids": [
+          "project+act"
+        ],
+        "source_dates": [
+          "2026-11-07"
+        ],
+        "locator": "Original row; chapter 1040 section 89; docs/codebook.md legal_effect_status",
+        "rationale": "Retain unknown: historical enactment and effective date do not establish current operative state after subsequent changes."
+      },
+      {
+        "field": "scope_of_action",
+        "before": "unknown",
+        "after": "fiscal",
+        "source_ids": [
+          "17cbf1bcbb4e45a5b49fe3c043e38cce"
+        ],
+        "source_dates": [
+          "2026-11-05T23:25:31.183501Z"
+        ],
+        "locator": "Chapter 1040 section 89 page 14; docs/codebook.md scope_of_action",
+        "rationale": "Data-center-relevant correction concerns sales/use tax refund administration; fiscal is classification of that focus, not entire multi-subject act."
+      },
+      {
+        "field": "effective_date_iso",
+        "before": "",
+        "after": "2026-07-01",
+        "source_ids": [
+          "70baba9e765844098297b929777dd881"
+        ],
+        "source_dates": [
+          "2026-11-05T23:25:44.953528Z"
+        ],
+        "locator": "HF2357 history effective-date heading 07/01/2026",
+        "rationale": "Applies to House act, not withdrawn SF2372."
+      },
+      {
+        "field": "end_condition",
+        "before": "",
+        "after": "",
+        "source_ids": [
+          "17cbf1bcbb4e45a5b49fe3c043e38cce"
+        ],
+        "source_dates": [
+          "2026-11-05T23:25:31.183501Z"
+        ],
+        "locator": "Chapter 1040 section 89 page 14 and act; no endpoint established",
+        "rationale": "Leave blank, not an affirmative finding of no future repeal or sunset; subsequent law not reviewed."
+      },
+      {
+        "field": "primary_source_url",
+        "before": "",
+        "after": "https://www.legis.iowa.gov/legislation/billTracking/billHistory?billName=HF2357&ga=91",
+        "source_ids": [
+          "70baba9e765844098297b929777dd881"
+        ],
+        "source_dates": [
+          "2026-11-05T23:25:44.953528Z"
+        ],
+        "locator": "Selected HF2357 history and linked Chapter 1040",
+        "rationale": "Official source for selected instrument and related Senate history."
+      },
+      {
+        "field": "policy_action_id",
+        "before": "ia-ssb3151-hf2357-2026",
+        "after": "ia-ssb3151-hf2357-2026",
+        "source_ids": [
+          "project"
+        ],
+        "source_dates": [
+          "2026-11-07"
+        ],
+        "locator": "Original full 19-cell guard and user-specified stable legacy-key convention",
+        "rationale": "Retain existing key; its strings are historical and do not assert identity of two instruments."
+      }
+    ],
+    "sources": [
+      {
+        "source_id": "70baba9e765844098297b929777dd881",
+        "url": "https://www.legis.iowa.gov/legislation/billTracking/billHistory?billName=HF2357&ga=91",
+        "body_path": "/data0/moratorium-refresh-2026/full/ia-state-policy-002/70baba9e765844098297b929777dd881.private.body",
+        "metadata_path": "/data0/moratorium-refresh-2026/full/ia-state-policy-002/70baba9e765844098297b929777dd881.private.json",
+        "sha256": "6dd0e8add57e26807fe36e8f085ca1a8e932fbba9d07babfb002c92eada24792",
+        "provider_sha256_matches": true,
+        "retrieved_at": "2026-11-05T23:25:44.953528Z",
+        "content_type": "text/html;charset=utf-8",
+        "review_scope": "HF2357 passage signature and effective date",
+        "computed_sha256": "6dd0e8add57e26807fe36e8f085ca1a8e932fbba9d07babfb002c92eada24792",
+        "metadata_content_sha256": "6dd0e8add57e26807fe36e8f085ca1a8e932fbba9d07babfb002c92eada24792",
+        "hash_match": true
+      },
+      {
+        "source_id": "84942a5a9cd74542a24f8b2fbdb660fa",
+        "url": "https://www.legis.iowa.gov/legislation/billTracking/billHistory?billName=SSB3151&ga=91",
+        "body_path": "/data0/moratorium-refresh-2026/full/ia-state-policy-002/84942a5a9cd74542a24f8b2fbdb660fa.private.body",
+        "metadata_path": "/data0/moratorium-refresh-2026/full/ia-state-policy-002/84942a5a9cd74542a24f8b2fbdb660fa.private.json",
+        "sha256": "bc8bc3540d17dcdf65cfb12367d7ff06874311e58a794b0506895cb972599055",
+        "provider_sha256_matches": true,
+        "retrieved_at": "2026-11-05T23:25:43.387226Z",
+        "content_type": "text/html;charset=utf-8",
+        "review_scope": "SSB3151, SF2372, HF2357 histories and substitution",
+        "computed_sha256": "bc8bc3540d17dcdf65cfb12367d7ff06874311e58a794b0506895cb972599055",
+        "metadata_content_sha256": "bc8bc3540d17dcdf65cfb12367d7ff06874311e58a794b0506895cb972599055",
+        "hash_match": true
+      },
+      {
+        "source_id": "17cbf1bcbb4e45a5b49fe3c043e38cce",
+        "url": "https://www.legis.iowa.gov/docs/publications/iactc/91.2/CH1040.pdf",
+        "body_path": "/data0/moratorium-refresh-2026/full/ia-state-policy-002/17cbf1bcbb4e45a5b49fe3c043e38cce.private.body",
+        "metadata_path": "/data0/moratorium-refresh-2026/full/ia-state-policy-002/17cbf1bcbb4e45a5b49fe3c043e38cce.private.json",
+        "sha256": "79ad8cc89ebcd1f95fb6def79629ed1c9609a4742a5d0bc44bba201944e329a8",
+        "provider_sha256_matches": true,
+        "retrieved_at": "2026-11-05T23:25:31.183501Z",
+        "content_type": "application/pdf",
+        "review_scope": "2026 ch1040 sec89 cross-reference; pixel p14",
+        "computed_sha256": "79ad8cc89ebcd1f95fb6def79629ed1c9609a4742a5d0bc44bba201944e329a8",
+        "metadata_content_sha256": "79ad8cc89ebcd1f95fb6def79629ed1c9609a4742a5d0bc44bba201944e329a8",
+        "hash_match": true
+      }
+    ],
+    "pixel_inspection": {
+      "source_id": "17cbf1bcbb4e45a5b49fe3c043e38cce",
+      "pdf_page": 14,
+      "printed_page": 14,
+      "section": 89,
+      "render_path": "/data0/moratorium-refresh-2026/full-scope-closeout-2026-11-07/next/iowa-hf2357-identity-review/ch1040-p14.private.png",
+      "render_sha256": "bac932687c60f366b85bacc997bd7dce87a3f6b4eb52a5b6b78cf833d1c4442b",
+      "observation": "Paragraph e struck through and f underlined; sales/use tax refund provision."
+    },
+    "alternatives": {
+      "compound_unknown": "Avoids attribution error but loses structured House enactment and retains misleading compound identity.",
+      "reviewed_split": "Possible if separate Senate bill inventory is desired: retain this ID for HF2357, create a separately reviewed new Senate ID for SSB3151/SF2372, withdrawn 2026-04-06, and record substitution relationship; count only HF2357 as enacted. No Senate row proposed here.",
+      "new_house_id": "Would need explicit migration/redirect and retirement of old identity; otherwise duplicates enactment and breaks stable references.",
+      "focused_legacy": "Supported by existing House lifecycle and source text; correct display and sponsor, preserve Senate relationship in status and audit; stable ID is a key, not an instrument assertion."
+    },
+    "limitations": [
+      "Source histories captured 2026-11-05; read-only comparison on 2026-11-07, no network refresh.",
+      "No comprehensive later-law or current operative-effect review; legal effect remains unknown.",
+      "High is inherited statewide classification, not independently verified.",
+      "Separate Senate row remains an optional future reviewed inventory decision, not an enacted companion."
+    ],
+    "authorization": "Proposal only; no canonical or sibling writes, source mutation, SQLite, network, installations, or workers."
+  },
+  "hf2799": {
+    "decision": "supported_new_record",
+    "review_date": "2026-11-07",
+    "scope": "Independent local inspection of retained primary documents, current CSVs and codebook; no network. Historical records do not prove current force.",
+    "proposed_record": {
+      "state": "Iowa",
+      "state_abbrev": "IA",
+      "bill": "HF2799 (2026)",
+      "sponsors": "House Ways and Means Committee",
+      "party": "",
+      "status": "Signed by Governor 2026-06-02, Acts Chapter 1199; substituted for SF2506 2026-05-03",
+      "key_provisions": "Creates the EDGE headquarters tax-incentive program and excludes data center businesses from eligibility; a separate division provides for electricity load forecasting and transmission planning.",
+      "activity_level": "High",
+      "bill_status_category": "enacted",
+      "last_action_date_iso": "2026-06-02",
+      "chamber_of_origin": "House",
+      "policy_instrument_type": "bill",
+      "policy_mechanism": "incentive_restriction",
+      "legal_effect_status": "unknown",
+      "scope_of_action": "fiscal",
+      "effective_date_iso": "",
+      "end_condition": "",
+      "primary_source_url": "https://www.legis.iowa.gov/legislation/billTracking/billHistory?billName=HF2799&ga=91",
+      "policy_action_id": "ia-hf2799-2026"
+    },
+    "per_cell": [
+      {
+        "column": "state",
+        "value": "Iowa",
+        "source_ids": [
+          "16cd6cdb7f7f41e280e432254e4024df"
+        ],
+        "observation_date": "2026-11-07",
+        "source_dates": {
+          "16cd6cdb7f7f41e280e432254e4024df": "2026-11-05T23:25:41.711537Z"
+        },
+        "locator": "House File 2799 history header",
+        "rationale": "Iowa Legislature identity"
+      },
+      {
+        "column": "state_abbrev",
+        "value": "IA",
+        "source_ids": [
+          "16cd6cdb7f7f41e280e432254e4024df"
+        ],
+        "observation_date": "2026-11-07",
+        "source_dates": {
+          "16cd6cdb7f7f41e280e432254e4024df": "2026-11-05T23:25:41.711537Z"
+        },
+        "locator": "House File 2799 history header",
+        "rationale": "USPS abbreviation for Iowa"
+      },
+      {
+        "column": "bill",
+        "value": "HF2799 (2026)",
+        "source_ids": [
+          "16cd6cdb7f7f41e280e432254e4024df",
+          "bc87f659c39144259d6bd23a7e1f60df"
+        ],
+        "observation_date": "2026-11-07",
+        "source_dates": {
+          "16cd6cdb7f7f41e280e432254e4024df": "2026-11-05T23:25:41.711537Z",
+          "bc87f659c39144259d6bd23a7e1f60df": "2026-11-05T23:25:29.109660Z"
+        },
+        "locator": "history header and act p. 1",
+        "rationale": "Distinct House instrument and act designation"
+      },
+      {
+        "column": "sponsors",
+        "value": "House Ways and Means Committee",
+        "source_ids": [
+          "16cd6cdb7f7f41e280e432254e4024df"
+        ],
+        "observation_date": "2026-11-07",
+        "source_dates": {
+          "16cd6cdb7f7f41e280e432254e4024df": "2026-11-05T23:25:41.711537Z"
+        },
+        "locator": "history header: By Committee on Ways and Means",
+        "rationale": "House bill committee; no individual imputed"
+      },
+      {
+        "column": "party",
+        "value": "",
+        "source_ids": [
+          "16cd6cdb7f7f41e280e432254e4024df"
+        ],
+        "observation_date": "2026-11-07",
+        "source_dates": {
+          "16cd6cdb7f7f41e280e432254e4024df": "2026-11-05T23:25:41.711537Z"
+        },
+        "locator": "history header",
+        "rationale": "Committee identified; party not established, blank"
+      },
+      {
+        "column": "status",
+        "value": "Signed by Governor 2026-06-02, Acts Chapter 1199; substituted for SF2506 2026-05-03",
+        "source_ids": [
+          "16cd6cdb7f7f41e280e432254e4024df",
+          "170d072fa5554f329c8eb1e89b397e7e",
+          "bc87f659c39144259d6bd23a7e1f60df"
+        ],
+        "observation_date": "2026-11-07",
+        "source_dates": {
+          "16cd6cdb7f7f41e280e432254e4024df": "2026-11-05T23:25:41.711537Z",
+          "170d072fa5554f329c8eb1e89b397e7e": "2026-11-05T23:25:40.151912Z",
+          "bc87f659c39144259d6bd23a7e1f60df": "2026-11-05T23:25:29.109660Z"
+        },
+        "locator": "House actions June 2 and May 3; Senate May 3; act pp. 1, 9",
+        "rationale": "Signature and substitution recorded separately"
+      },
+      {
+        "column": "key_provisions",
+        "value": "Creates the EDGE headquarters tax-incentive program and excludes data center businesses from eligibility; a separate division provides for electricity load forecasting and transmission planning.",
+        "source_ids": [
+          "bc87f659c39144259d6bd23a7e1f60df"
+        ],
+        "observation_date": "2026-11-07",
+        "source_dates": {
+          "bc87f659c39144259d6bd23a7e1f60df": "2026-11-05T23:25:29.109660Z"
+        },
+        "locator": "pp. 1–2 division I sections 1–3; pp. 6–8 division V sections 21–25",
+        "rationale": "Eligibility exclusion is fiscal; forecast is separate, not a moratorium"
+      },
+      {
+        "column": "activity_level",
+        "value": "High",
+        "source_ids": [
+          "current_local_inventory"
+        ],
+        "observation_date": "2026-11-07",
+        "source_dates": {
+          "current_local_inventory": "2026-11-07 local read"
+        },
+        "locator": "all 60 Iowa rows, activity_level",
+        "rationale": "All current local rows say High; project classification not a statutory claim"
+      },
+      {
+        "column": "bill_status_category",
+        "value": "enacted",
+        "source_ids": [
+          "16cd6cdb7f7f41e280e432254e4024df",
+          "bc87f659c39144259d6bd23a7e1f60df"
+        ],
+        "observation_date": "2026-11-07",
+        "source_dates": {
+          "16cd6cdb7f7f41e280e432254e4024df": "2026-11-05T23:25:41.711537Z",
+          "bc87f659c39144259d6bd23a7e1f60df": "2026-11-05T23:25:29.109660Z"
+        },
+        "locator": "June 2 signature; act pp. 1, 9",
+        "rationale": "Enacted historic disposition"
+      },
+      {
+        "column": "last_action_date_iso",
+        "value": "2026-06-02",
+        "source_ids": [
+          "16cd6cdb7f7f41e280e432254e4024df"
+        ],
+        "observation_date": "2026-11-07",
+        "source_dates": {
+          "16cd6cdb7f7f41e280e432254e4024df": "2026-11-05T23:25:41.711537Z"
+        },
+        "locator": "HF2799 action table, May 2–June 2",
+        "rationale": "June 2 is last dated House entry in retained history; May 19 fiscal note precedes signature and is not legislative disposition"
+      },
+      {
+        "column": "chamber_of_origin",
+        "value": "House",
+        "source_ids": [
+          "16cd6cdb7f7f41e280e432254e4024df",
+          "bc87f659c39144259d6bd23a7e1f60df"
+        ],
+        "observation_date": "2026-11-07",
+        "source_dates": {
+          "16cd6cdb7f7f41e280e432254e4024df": "2026-11-05T23:25:41.711537Z",
+          "bc87f659c39144259d6bd23a7e1f60df": "2026-11-05T23:25:29.109660Z"
+        },
+        "locator": "House File header; act p. 1",
+        "rationale": "House origin"
+      },
+      {
+        "column": "policy_instrument_type",
+        "value": "bill",
+        "source_ids": [
+          "16cd6cdb7f7f41e280e432254e4024df",
+          "bc87f659c39144259d6bd23a7e1f60df"
+        ],
+        "observation_date": "2026-11-07",
+        "source_dates": {
+          "16cd6cdb7f7f41e280e432254e4024df": "2026-11-05T23:25:41.711537Z",
+          "bc87f659c39144259d6bd23a7e1f60df": "2026-11-05T23:25:29.109660Z"
+        },
+        "locator": "House File header; act p. 1",
+        "rationale": "Bill instrument"
+      },
+      {
+        "column": "policy_mechanism",
+        "value": "incentive_restriction",
+        "source_ids": [
+          "bc87f659c39144259d6bd23a7e1f60df",
+          "codebook"
+        ],
+        "observation_date": "2026-11-07",
+        "source_dates": {
+          "bc87f659c39144259d6bd23a7e1f60df": "2026-11-05T23:25:29.109660Z",
+          "codebook": "2026-11-07 local read"
+        },
+        "locator": "p. 2 section 3(1)(e); state-policy mechanism definitions",
+        "rationale": "Focal exclusion restricts eligibility for incentive; no construction pause"
+      },
+      {
+        "column": "legal_effect_status",
+        "value": "unknown",
+        "source_ids": [
+          "16cd6cdb7f7f41e280e432254e4024df",
+          "bc87f659c39144259d6bd23a7e1f60df",
+          "codebook"
+        ],
+        "observation_date": "2026-11-07",
+        "source_dates": {
+          "16cd6cdb7f7f41e280e432254e4024df": "2026-11-05T23:25:41.711537Z",
+          "bc87f659c39144259d6bd23a7e1f60df": "2026-11-05T23:25:29.109660Z",
+          "codebook": "2026-11-07 local read"
+        },
+        "locator": "historic act and codebook legal-effect definition",
+        "rationale": "Current force and subsequent amendment not verified"
+      },
+      {
+        "column": "scope_of_action",
+        "value": "fiscal",
+        "source_ids": [
+          "bc87f659c39144259d6bd23a7e1f60df",
+          "codebook"
+        ],
+        "observation_date": "2026-11-07",
+        "source_dates": {
+          "bc87f659c39144259d6bd23a7e1f60df": "2026-11-05T23:25:29.109660Z",
+          "codebook": "2026-11-07 local read"
+        },
+        "locator": "p. 2 section 3; scope definition",
+        "rationale": "Fiscal surface of focal provision; other divisions have different scope"
+      },
+      {
+        "column": "effective_date_iso",
+        "value": "",
+        "source_ids": [
+          "16cd6cdb7f7f41e280e432254e4024df",
+          "bc87f659c39144259d6bd23a7e1f60df"
+        ],
+        "observation_date": "2026-11-07",
+        "source_dates": {
+          "16cd6cdb7f7f41e280e432254e4024df": "2026-11-05T23:25:41.711537Z",
+          "bc87f659c39144259d6bd23a7e1f60df": "2026-11-05T23:25:29.109660Z"
+        },
+        "locator": "history effective dates; p. 6 section 20 division IV only",
+        "rationale": "History lists June 2 and July 1; omnibus lacks a single supported whole-act date, so blank; neither date is inferred for division I"
+      },
+      {
+        "column": "end_condition",
+        "value": "",
+        "source_ids": [
+          "bc87f659c39144259d6bd23a7e1f60df"
+        ],
+        "observation_date": "2026-11-07",
+        "source_dates": {
+          "bc87f659c39144259d6bd23a7e1f60df": "2026-11-05T23:25:29.109660Z"
+        },
+        "locator": "act pp. 1–9",
+        "rationale": "No supported whole-instrument sunset established; blank, not a claim none exists"
+      },
+      {
+        "column": "primary_source_url",
+        "value": "https://www.legis.iowa.gov/legislation/billTracking/billHistory?billName=HF2799&ga=91",
+        "source_ids": [
+          "16cd6cdb7f7f41e280e432254e4024df"
+        ],
+        "observation_date": "2026-11-07",
+        "source_dates": {
+          "16cd6cdb7f7f41e280e432254e4024df": "2026-11-05T23:25:41.711537Z"
+        },
+        "locator": "official bill-history retained body",
+        "rationale": "Official identity and action history"
+      },
+      {
+        "column": "policy_action_id",
+        "value": "ia-hf2799-2026",
+        "source_ids": [
+          "codebook",
+          "16cd6cdb7f7f41e280e432254e4024df"
+        ],
+        "observation_date": "2026-11-07",
+        "source_dates": {
+          "codebook": "2026-11-07 local read",
+          "16cd6cdb7f7f41e280e432254e4024df": "2026-11-05T23:25:41.711537Z"
+        },
+        "locator": "ID convention and House bill identity",
+        "rationale": "Proposed unique stable ID; no matching current primary key"
+      }
+    ],
+    "current_csv": {
+      "path": "/home/mjbommar/projects/personal/moratorium-data-2026/data/state_legislation.csv",
+      "sha256": "7f7f309745f0ced84fbbd710a391ab6683b61f6f8c83f361977c98450463314d",
+      "row_count": 442,
+      "fields": [
+        "state",
+        "state_abbrev",
+        "bill",
+        "sponsors",
+        "party",
+        "status",
+        "key_provisions",
+        "activity_level",
+        "bill_status_category",
+        "last_action_date_iso",
+        "chamber_of_origin",
+        "policy_instrument_type",
+        "policy_mechanism",
+        "legal_effect_status",
+        "scope_of_action",
+        "effective_date_iso",
+        "end_condition",
+        "primary_source_url",
+        "policy_action_id"
+      ],
+      "duplicate_search": "All 19 cells of all 442 rows searched case-insensitively for HF 2799 spelling variants and chapter 1199; all primary IDs checked for exact proposed ID.",
+      "matches": [
+        {
+          "policy_action_id": "ia-ssb3103-2026",
+          "bill": "SSB3103 (2026)",
+          "matched_fields": [
+            "status"
+          ]
+        }
+      ],
+      "proposed_id_present": false,
+      "guard": {
+        "state": "Iowa",
+        "state_abbrev": "IA",
+        "bill": "SSB3103 (2026)",
+        "sponsors": "Proposed Economic Development Authority bill",
+        "party": "Agency bill",
+        "status": "Renumbered SF2301 then SF2506; substance enacted via successor vehicle HF2799, Signed by Governor 2026-06-02, Acts Chapter 1199",
+        "key_provisions": "Amends economic development framework language referencing data center business eligibility exclusions in related programs.",
+        "activity_level": "High",
+        "bill_status_category": "enacted",
+        "last_action_date_iso": "2026-06-02",
+        "chamber_of_origin": "Senate",
+        "policy_instrument_type": "bill",
+        "policy_mechanism": "other",
+        "legal_effect_status": "unknown",
+        "scope_of_action": "unknown",
+        "effective_date_iso": "",
+        "end_condition": "",
+        "primary_source_url": "",
+        "policy_action_id": "ia-ssb3103-2026"
+      }
+    },
+    "activity_inventory": {
+      "path": "/home/mjbommar/projects/personal/moratorium-data-2026/data/moratorium_inventory.csv",
+      "sha256": "14f4a6b02c739b1636f44f2db7fd932d40934c63872802e34c21d92e83fe7f09",
+      "IA_row_count": 60,
+      "activity_counts": {
+        "High": 60
+      }
+    },
+    "codebook_sha256": "f48806edd90e39dbac0ac3abc93db51f0435198bfffe6283963185685a56e953",
+    "sources": {
+      "16cd6cdb7f7f41e280e432254e4024df": {
+        "url": "https://www.legis.iowa.gov/legislation/billTracking/billHistory?billName=HF2799&ga=91",
+        "body_path": "/data0/moratorium-refresh-2026/full/ia-state-policy-002/16cd6cdb7f7f41e280e432254e4024df.private.body",
+        "metadata_path": "/data0/moratorium-refresh-2026/full/ia-state-policy-002/16cd6cdb7f7f41e280e432254e4024df.private.json",
+        "retrieved_at": "2026-11-05T23:25:41.711537Z",
+        "sha256": "d5d65cebb9da35a73175980950d236a3ece20e163d94d725ce501c7a87efe949",
+        "recomputed_sha256": "d5d65cebb9da35a73175980950d236a3ece20e163d94d725ce501c7a87efe949",
+        "metadata_sha256": "b6136f97135b73d451027d2d20b0c64aea76c11b44e71e95f1bde046b78c6343"
+      },
+      "170d072fa5554f329c8eb1e89b397e7e": {
+        "url": "https://www.legis.iowa.gov/legislation/billTracking/billHistory?billName=SF2506&ga=91",
+        "body_path": "/data0/moratorium-refresh-2026/full/ia-state-policy-002/170d072fa5554f329c8eb1e89b397e7e.private.body",
+        "metadata_path": "/data0/moratorium-refresh-2026/full/ia-state-policy-002/170d072fa5554f329c8eb1e89b397e7e.private.json",
+        "retrieved_at": "2026-11-05T23:25:40.151912Z",
+        "sha256": "f4d61edf93395f5159ab0b92b10a470e0576c77474816a04bb3421df8ec50ceb",
+        "recomputed_sha256": "f4d61edf93395f5159ab0b92b10a470e0576c77474816a04bb3421df8ec50ceb",
+        "metadata_sha256": "4cbef09c42a64bde0919d3e8f91b2a3886da85001cc1b354589bf91716e281cc"
+      },
+      "ac2c553ab09b4bb8b05c7937e6d4f1e6": {
+        "url": "https://www.legis.iowa.gov/legislation/billTracking/billHistory?billName=SSB3103&ga=91",
+        "body_path": "/data0/moratorium-refresh-2026/full/ia-state-policy-002/ac2c553ab09b4bb8b05c7937e6d4f1e6.private.body",
+        "metadata_path": "/data0/moratorium-refresh-2026/full/ia-state-policy-002/ac2c553ab09b4bb8b05c7937e6d4f1e6.private.json",
+        "retrieved_at": "2026-11-05T23:25:38.519763Z",
+        "sha256": "4187a5d3ef566570106eb4ce51d79c56c530fe855fc1e4386890f1c4f594828b",
+        "recomputed_sha256": "4187a5d3ef566570106eb4ce51d79c56c530fe855fc1e4386890f1c4f594828b",
+        "metadata_sha256": "db5ca0a6ed8891879a074374c2e490688097f28385d15ffb44f55c4e9edf962c"
+      },
+      "bc87f659c39144259d6bd23a7e1f60df": {
+        "url": "https://www.legis.iowa.gov/docs/publications/iactc/91.2/CH1199.pdf",
+        "body_path": "/data0/moratorium-refresh-2026/full/ia-state-policy-002/bc87f659c39144259d6bd23a7e1f60df.private.body",
+        "metadata_path": "/data0/moratorium-refresh-2026/full/ia-state-policy-002/bc87f659c39144259d6bd23a7e1f60df.private.json",
+        "retrieved_at": "2026-11-05T23:25:29.109660Z",
+        "sha256": "e5d23421a4f552b6ea192df0060089a5d9bd23ae59360ded84dd6dfe22007932",
+        "recomputed_sha256": "e5d23421a4f552b6ea192df0060089a5d9bd23ae59360ded84dd6dfe22007932",
+        "metadata_sha256": "8e4a97ded82b53606354b769dbdb2f894d565995e224176193e4eea2df79b0e9"
+      },
+      "2ecde069fb554e02b3dbd83f19992ba9": {
+        "url": "https://www.legis.iowa.gov/docs/publications/LGI/91/SSB3103.pdf",
+        "body_path": "/data0/moratorium-refresh-2026/full-scope-closeout-2026-11-07/next/iowa-policy-primary/2ecde069fb554e02b3dbd83f19992ba9.private.body",
+        "metadata_path": "/data0/moratorium-refresh-2026/full-scope-closeout-2026-11-07/next/iowa-policy-primary/2ecde069fb554e02b3dbd83f19992ba9.private.json",
+        "retrieved_at": "2026-11-07T20:36:01.473639Z",
+        "sha256": "ec63ccb10a53c1163526129ec0ffe7b1e0477ce61434ec84ca78b939d2db10b0",
+        "recomputed_sha256": "ec63ccb10a53c1163526129ec0ffe7b1e0477ce61434ec84ca78b939d2db10b0",
+        "metadata_sha256": "4893e797dde1ffa7ab049ac3b6b88dd9f91aab81d3614fc985c53d52953ca995"
+      }
+    },
+    "identity_reasoning": "HSB755 was renumbered HF2799; Senate SSB3103 was renumbered SF2301 then SF2506. HF2799 was substituted for SF2506, which was withdrawn. Related and partially overlapping provisions do not establish identical whole texts. The proposed row would preserve the House instrument after a separately reviewed source-correct Senate withdrawal, not create a separate row for mere reciprocal versions.",
+    "action_note": "HF2799 retained action table has fiscal notes May 2 and May 19, before June 2 signature; no later fiscal note appears in that bill action table. Do not import later fiscal notes on related bills.",
+    "effective_note": "History lists 2026-06-02 and 2026-07-01. Act section 20 makes Division IV effective upon enactment, not Division I or the whole act. Do not infer a Division I date from signature alone.",
+    "limits": [
+      "No current legal-force or later-amendment check.",
+      "No assertion every provision of the House and Senate bills is identical.",
+      "This review does not apply any Senate correction or new record."
+    ]
+  },
+  "coordinator_acceptance": "Retain original HF2357-focused legacy key and explicit distinct Senate association. Add separately numbered enacted HouseHF2799 and correct withdrawn Senate lineage. No duplicate enactment or removed ID."
+}

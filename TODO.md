@@ -501,3 +501,8 @@ Exit: repeatable refresh with visible freshness, costs, failures and unresolved 
 - [x] Apply 40 guarded Connecticut/Delaware fields across ten existing records after 190 assessments, independent review and separate HB233/HS1 identity adjudication; retain carryover, later-law/current-force, party/activity and implementation followups (`work/research/2026-11-07/connecticut-delaware-policy-review/`).
 
 - [x] Apply 80 guarded Florida/Hawaii fields across thirteen existing records after 247 assessments and independent source review; retain compound-resolution, intervening-amendment, party/activity and current-force limits (`work/research/2026-11-07/florida-hawaii-policy-review/`).
+
+- [x] Apply 65 Iowa fields after 228 independent decisions; add the reviewed 19-field HF2799 record and resolve HF2357 identity without duplicate enactment. Current-force and source gaps remain open. [Review](work/research/2026-11-07/iowa-policy-source-review/README.md).
+
+- [x] Apply 42 Georgia policy fields after 171 independent decisions; preserve legacy procedural and source limits, reject unfetched party/substitute/sunset claims, and register retained originals. [Review](work/research/2026-11-07/georgia-state-policy-source-review/README.md).
+- [x] Refresh three data-derived figure families and timeline; fix legacy-date parsing to validated normalized months, preserve month-only precision, test regressions and retain four historical static legal-map families pending their source audit. [Receipt](work/research/2026-11-07/georgia-iowa-source-recovery/figure-review.json).
