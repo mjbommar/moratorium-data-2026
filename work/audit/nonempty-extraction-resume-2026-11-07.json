@@ -1,0 +1,21 @@
+{
+  "scope": "Nonempty candidate extraction interruption/resume/replay, without automatic acceptance or canonical promotion.",
+  "test": "tests/test_resumable_extraction.py::ExtractionTests::test_resume_after_partial_failure_reuses_successful_chunk",
+  "assertions": [
+    "A successful chunk persists a quote-grounded nonempty candidate before later interruption.",
+    "Interrupted state remains incomplete and no completed result exists.",
+    "Resume reuses successful chunk with no repeat call.",
+    "Repeated equivalent candidates from later chunks produce one stable candidate.",
+    "Completed replay makes no additional backend calls.",
+    "Full chunk coverage remains distinct from domain review completion."
+  ],
+  "verification": {
+    "focused": "14 passed,6 subtests",
+    "full": "421 passed,165 subtests",
+    "full_log_sha256": "01f3c349a86bdd84b440e3dfd3fca3aceef6b24bff5dd00891a40df988d33f41"
+  },
+  "limits": [
+    "Scripted provider fixture, not live quality validation.",
+    "Candidate identity and quote verification do not imply accepted facts, legal source entailment or complete downstream reviewed-promotion integration."
+  ]
+}

@@ -108,18 +108,33 @@ class ExtractionTests(unittest.IsolatedAsyncioTestCase):
 
     async def test_resume_after_partial_failure_reuses_successful_chunk(self):
         with tempfile.TemporaryDirectory() as tmp:
-            first=ScriptedBackend({'*':[dict(relevance=0,summary='',claims=[]),
+            candidate=dict(text='Synthetic proposal exists.',quote='A public proposal.',cells=[0])
+            output=dict(relevance=1,summary='',claims=[candidate])
+            first=ScriptedBackend({'*':[output,
                                        BudgetExceeded('synthetic interruption','llm')]})
             with self.assertRaises(BudgetExceeded):
                 await adapter.run(tmp,backend=first,**self.inputs())
             state=json.loads((Path(tmp)/'state.private.json').read_text())
             self.assertEqual(len(state['successes']),1)
-            fresh=self.backend()
+            self.assertEqual(state['status'],'incomplete')
+            self.assertFalse((Path(tmp)/'result.private.json').exists())
+            saved=next(iter(state['successes'].values()))
+            self.assertEqual(saved['output']['claims'][0]['text'],candidate['text'])
+            fresh=ScriptedBackend({'*':lambda *args:output})
             result=await adapter.run(tmp,backend=fresh,**self.inputs())
             self.assertTrue(result['full_text_chunk_coverage'])
+            self.assertFalse(result['domain_review_complete'])
+            self.assertEqual(len(result['claims']),1)
+            claim=result['claims'][0]
+            self.assertEqual(claim['text'],candidate['text'])
+            self.assertTrue(claim['verified'])
             state=json.loads((Path(tmp)/'state.private.json').read_text())
             self.assertEqual(len(fresh.calls),len(state['chunks'])-1)
             self.assertEqual(len(state['attempts']),len(state['chunks'])+1)
+            calls=len(fresh.calls)
+            self.assertEqual(await adapter.run(tmp,backend=fresh,**self.inputs()),result)
+            self.assertEqual(len(fresh.calls),calls)
+            self.assertEqual(len(result['claims']),1)
 
     async def test_context_changes_and_missing_cells_rejected(self):
         with tempfile.TemporaryDirectory() as tmp:
