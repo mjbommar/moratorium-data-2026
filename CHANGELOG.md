@@ -2,6 +2,10 @@
 
 ## 2026-11-07 — current working snapshot (unreleased)
 
+The [Illinois policy review](work/research/2026-11-07/illinois-policy-source-review/README.md) applies 26 fields across eleven existing records after 209 independent field decisions. Distinguish introduced and filed replacement versions, capture and action dates, and synopsis versus operative text; preserve missing-version and current-force gaps.
+
+November 7 Idaho source review: 39 fields across nine existing policy records; corrected three fiscal proposals mislabeled as construction moratoria and one incentive-support mechanism. Independently resolved H0521 approval-date discrepancy using enacted chapter 335. Historical failure/current-force qualifications remain explicit.
+
 The [Georgia policy review](work/research/2026-11-07/georgia-state-policy-source-review/README.md) applies 42 fields across nine records after 171 independent decisions, preserving proposed date/unit distinctions and rejecting unfetched party/substitute/sunset claims. Refresh three data-derived figure families and fix impossible heatmap months by using validated normalized dates, preserving month-only precision. Date plots identify 1,187 dated records and 143 without a usable month; counts do not prove legal force.
 
 The [Iowa source/identity review](work/research/2026-11-07/iowa-policy-source-review/README.md) applies 65 fields across twelve records and adds separate House HF2799. Policy rows are now 443, typed bill rows 428, enacted-category bills still 94 after correcting the withdrawn Senate lineage. Preserve all old IDs and focus the HF2357 key on the House instrument. These are identity corrections, not new November enactments or local moratoria.

@@ -1,0 +1,11 @@
+# Idaho policy source review
+
+Applied **39 field corrections across nine existing Idaho policy records**, following three disjoint primary reviews, three independent terra CLI reviews, 171 field decisions, all 19 exact live guards per row, and 43 source representation hash checks. No records were added or removed. The local inventory and expanded ballot snapshot are unchanged.
+
+H0609, H0820 and H0897 were fiscal incentive restrictions, rather than statewide construction moratoria. H0521 created an incentive; its mechanism is corrected to `incentive_support`. The recovered official 2020 Session Laws, chapter 335, confirms March 30 approval, resolving the unofficial history's row-label conflict. An independent supplement adjudicates the three affected date/status fields. H0911 uses a qualifying 50 MW increase over 60 months, distinct from the H0756 and S1368 thresholds. H0895 contains a cooling-water restriction and specifically qualified legislative findings.
+
+For H0315aa and H0897, the version-specific date boundaries and exemption conditions remain explicit. Proposed application dates, exemption duration and tax-review instructions do not establish enacted whole-bill sunsets. Filed or proposed amendments are distinguished from adopted versions.
+
+Historical failure categories are retained as qualified inferences for stalled bills; the status prose gives the source observation and inference. One independent batch recommended unknown for four typed cells because final journals and carryover rules were unavailable. The coordinator retained the prior historical codes consistently with the other Idaho rows, preserving the recommendation and reasoning in the audit. This does not certify final-journal dispositions. Sponsor party, state activity aggregates, later legal events and current whole-act force remain qualified or unresolved where sources do not establish them.
+
+See `exact-diff.json`, `full-row-guards.json`, `field-ledger.json`, `source-hash-checks.json` and `apply-receipt.json`. Original bodies, provider responses, PDF renders and extracted source text remain private. [Source preservation](../idaho-policy-source-recovery/README.md) records 29 new archive versions. Full national refresh, expanded discovery and ballot work, consumer reconciliation and final release remain incomplete.

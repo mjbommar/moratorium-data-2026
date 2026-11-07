@@ -506,3 +506,7 @@ Exit: repeatable refresh with visible freshness, costs, failures and unresolved 
 
 - [x] Apply 42 Georgia policy fields after 171 independent decisions; preserve legacy procedural and source limits, reject unfetched party/substitute/sunset claims, and register retained originals. [Review](work/research/2026-11-07/georgia-state-policy-source-review/README.md).
 - [x] Refresh three data-derived figure families and timeline; fix legacy-date parsing to validated normalized months, preserve month-only precision, test regressions and retain four historical static legal-map families pending their source audit. [Receipt](work/research/2026-11-07/georgia-iowa-source-recovery/figure-review.json).
+
+- [x] Review all 171 fields across nine Idaho policy records, independently adjudicate and apply 39 corrections with exact guards; recover enacted H0521 approval evidence and archive 29 source versions. Final-journal/current-force gaps remain open ([packet](work/research/2026-11-07/idaho-policy-source-review/README.md)).
+
+- [x] Independently review 209 fields across eleven Illinois policy records and apply 26 guarded corrections; preserve synopsis/text conflicts and missing full versions, without resetting the shared acquisition ceiling ([packet](work/research/2026-11-07/illinois-policy-source-review/README.md)).

@@ -1,0 +1,13 @@
+# Illinois policy source review
+
+Applied **26 field corrections across all 11 existing Illinois policy records**, after three primary and three independent terra CLI batches. The review includes 209 field decisions, all 19 exact live guards per row and 39 source representation hash checks. No rows were added or removed; local and expanded ballot data are unchanged.
+
+The changes distinguish proposed procurement preferences, property remedies, utility rules, fiscal eligibility, reporting and mixed provisions. HB5513 includes several policy surfaces and residential solar provisions; its companion association remains qualified pending version comparison. SB0094's operative sentence says estimated energy is a self-generated load, while its synopsis adds “new.” The revised summary follows operative text and retains the separate foreign-company tests.
+
+SB2181's filed replacement amendment proposes different administering agencies and distinguishes 2027 data maintenance from initial 2028 disclosures. SB3120's replacement amendment adds cooling requirements absent from the introduced proposal. Neither filing nor re-referral establishes adoption. The SB3761 summary narrows the penalty to disclosure violations and describes its self-direct program accurately. Sponsor additions are separated from substantive procedural actions.
+
+SB4004's introduced section 15 supplies no January 1, 2027 start despite its synopsis; section 20 gives a separate January 1, 2028 withdrawal-cessation deadline and transition requirement. The discrepancy is preserved. SB3830 amendment 2 and the introduced synopsis are separate versions. SB4016's synopsis includes residential automated solar permitting, but is explicitly identified as synopsis evidence.
+
+Full introduced texts of SB3830 and SB4016 and amendment 1 for SB3830 and SB4004 were not in the reviewed retained bodies. These remain required follow-ups; the shared acquisition ledger reached its 14-fetch ceiling without reset. Party values, statewide activity, later action and current force remain qualified where unsupported. This is a complete field-assessment packet with explicit gaps, not a complete full-text or legal-force audit.
+
+See `exact-diff.json`, `full-row-guards.json`, `field-ledger.json`, `source-hash-checks.json` and `apply-receipt.json`. Original bodies, extraction derivatives and provider responses remain private. [Source preservation](../illinois-policy-source-recovery/README.md) records 12 additional source versions. Full national refresh, discovery and ballot work, consumer reconciliation and the final release remain incomplete.

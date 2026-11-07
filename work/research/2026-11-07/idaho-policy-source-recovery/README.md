@@ -1,0 +1,7 @@
+# Idaho retained-source recovery
+
+29 additional verified source versions were archived with original observation dates, then replayed to the admitted native bc-store. All 29 passed body readback with zero payload gaps. This is source preservation, not 29 new policies or a complete current-force review. Original bodies, text and provider responses remain private; the source manifest retains immutable hashes.
+
+The coordinator used native Exa search and bc-web HTTP through the existing capped Idaho client. The search returned five discovery hits; its reported cost was $0.007. The retained 2020 session-law index linked the actual two volume files. One prematurely attempted unsuffixed volume URL returned 404 and is recorded as failed; it was not promoted as evidence. The linked volume 2 returned HTTP200 and contains Chapter 335, H0521, printed pp. 973–977 (PDF pp. 389–393). Printed p. 977 records approval March 30, 2020 before Chapter 336 begins. This resolves the conflicting displayed row label on the unofficial bill history at the source level; independent field adjudication is pending. It does not establish current force of the whole act.
+
+The three primary review batches cover all nine existing Idaho policy records. Their independent review and guarded application remain separate. Full national inventory refresh, expanded ballot review, downstream reconciliation and final release remain incomplete.

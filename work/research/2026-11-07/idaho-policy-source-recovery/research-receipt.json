@@ -1,0 +1,100 @@
+{
+  "attempts": [
+    {
+      "attempt_id": "2a7436091232428bb9a059188d63e549",
+      "kind": "exa",
+      "state": "reserved",
+      "reserved_at": "2026-11-07T21:37:15.097016+00:00"
+    },
+    {
+      "attempt_id": "2a7436091232428bb9a059188d63e549",
+      "kind": "exa",
+      "state": "finished",
+      "reserved_at": "2026-11-07T21:37:15.097016+00:00",
+      "cost_usd": 0.007,
+      "unpriced": false,
+      "finished_at": "2026-11-07T21:37:17.025556+00:00"
+    },
+    {
+      "attempt_id": "06fd195b77a04940910da36e409be7ce",
+      "kind": "fetch",
+      "state": "reserved",
+      "reserved_at": "2026-11-07T21:37:54.974386+00:00"
+    },
+    {
+      "attempt_id": "4b1029bffdf84e70b47a8efe236f8f24",
+      "kind": "fetch",
+      "state": "reserved",
+      "reserved_at": "2026-11-07T21:37:56.126583+00:00"
+    },
+    {
+      "attempt_id": "06fd195b77a04940910da36e409be7ce",
+      "kind": "fetch",
+      "state": "finished",
+      "reserved_at": "2026-11-07T21:37:54.974386+00:00",
+      "url": "https://legislature.idaho.gov/sessioninfo/2020/legislation/minidata/",
+      "final_url": "https://legislature.idaho.gov/sessioninfo/2020/legislation/minidata/",
+      "status": 200,
+      "ok": true,
+      "body_sha256": "1a5a15c36b913fa64bd1f0ba7c551384a20ba9774a42561b6aead3f6bb8092b7",
+      "text_sha256": "c36d1af610505a241cb50f9a0837499ed728e0a2f2c1b410718c9c375c5cda3b",
+      "body_observed_at": "2026-11-07T21:37:57.596542Z",
+      "finished_at": "2026-11-07T21:37:57.602796+00:00"
+    },
+    {
+      "attempt_id": "4b1029bffdf84e70b47a8efe236f8f24",
+      "kind": "fetch",
+      "state": "finished",
+      "reserved_at": "2026-11-07T21:37:56.126583+00:00",
+      "url": "https://legislature.idaho.gov/statutesrules/sessionlaws/",
+      "final_url": "https://legislature.idaho.gov/statutesrules/sessionlaws/",
+      "status": 200,
+      "ok": true,
+      "body_sha256": "9accbf7ceaab709ed9acf8240c07eb9ef59955a2ba547e9c844e42a9504fec15",
+      "text_sha256": "6aa0c5ce247e7229e3bd43fe4185abe20c51ddf5281465aff5bc23089639ea31",
+      "body_observed_at": "2026-11-07T21:37:57.934961Z",
+      "finished_at": "2026-11-07T21:37:57.937068+00:00"
+    },
+    {
+      "attempt_id": "9a9efc7e32e84dce862432ce1aff2b61",
+      "kind": "fetch",
+      "state": "reserved",
+      "reserved_at": "2026-11-07T21:38:26.179720+00:00"
+    },
+    {
+      "attempt_id": "9a9efc7e32e84dce862432ce1aff2b61",
+      "kind": "fetch",
+      "state": "finished",
+      "reserved_at": "2026-11-07T21:38:26.179720+00:00",
+      "url": "https://legislature.idaho.gov/wp-content/uploads/sessionlaws/sessionlaws_2020.pdf",
+      "final_url": "https://legislature.idaho.gov/wp-content/uploads/sessionlaws/sessionlaws_2020.pdf",
+      "status": 404,
+      "ok": false,
+      "body_sha256": "00f4dbfa96fdd171a923d21ce3c595249ec4c8da1b3ecf12fa64a6e6350593be",
+      "text_sha256": "c0a5d4408382916c927d478306e7d85bf6c38e8ca4a04407202d212aaf2c23fb",
+      "body_observed_at": "2026-11-07T21:38:27.806955Z",
+      "finished_at": "2026-11-07T21:38:27.808235+00:00"
+    },
+    {
+      "attempt_id": "f6ed47c69c824398bfc5cecdfdc267e1",
+      "kind": "fetch",
+      "state": "reserved",
+      "reserved_at": "2026-11-07T21:38:34.738342+00:00"
+    },
+    {
+      "attempt_id": "f6ed47c69c824398bfc5cecdfdc267e1",
+      "kind": "fetch",
+      "state": "finished",
+      "reserved_at": "2026-11-07T21:38:34.738342+00:00",
+      "url": "https://legislature.idaho.gov/wp-content/uploads/sessionlaws/sessionlaws_vol2_2020.pdf",
+      "final_url": "https://legislature.idaho.gov/wp-content/uploads/sessionlaws/sessionlaws_vol2_2020.pdf",
+      "status": 200,
+      "ok": true,
+      "body_sha256": "b9bcfe2de3c9b6374fda4a904770c8945ae1a5e3252c3ee623c13d4b2289fab1",
+      "text_sha256": "c2babfb3c8c661489056c1c694f05340263e96afd39ef2b6f835591d72abbd7e",
+      "body_observed_at": "2026-11-07T21:38:43.451611Z",
+      "finished_at": "2026-11-07T21:39:07.112716+00:00"
+    }
+  ],
+  "scope": "Acquisition metadata only; original bodies and search responses remain private. Persistent state caps are not reset."
+}
