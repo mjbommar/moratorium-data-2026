@@ -1,0 +1,482 @@
+{
+  "schema_version": "1.0.0",
+  "expected_sha256": "4e4156f8f08ee768ad937129ef5f0243a463cd0daf5e4bd143c64b652528905d",
+  "events": [
+    {
+      "schema_version": "1.0.0",
+      "event_id": "a7b27d97-e2f3-4606-a6b8-5864dcb999d9",
+      "action": "allocate",
+      "table": "source_documents",
+      "inputs": [],
+      "outputs": [
+        "a515f47e-c957-4950-9f8a-f45b5e083273"
+      ],
+      "aliases": [
+        {
+          "namespace": "wilmington-initiative-history-2026-11-07",
+          "source_id": "oh5-review-court-opinion",
+          "record_sha256": "8c608768909e5b17dd95e5a111b4736f94e07b86edcd129bddc0dd8e5c0aebba"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-07T07:53:14.513620+00:00",
+      "rationale": "Distinct source-qualified historical initiative observation and scoped review; no current status or legal force.",
+      "evidence": [
+        {
+          "url": "https://www.supremecourt.ohio.gov/rod/docs/pdf/0/2026/2026-Ohio-3663.pdf",
+          "body_sha256": "cd2b64c99e62a3a5f8954fae5241d03156d5f8f5eecfdbd41b42aa1297689812",
+          "locator": "Ohio Supreme Court slip opinion 2026-Ohio-3663"
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "5cacd400-8efd-4d43-a91f-afc6807443fd",
+      "action": "allocate",
+      "table": "ballot_measures",
+      "inputs": [],
+      "outputs": [
+        "db2486d3-7256-42ab-811f-f96e7c776877"
+      ],
+      "aliases": [
+        {
+          "namespace": "wilmington-initiative-history-2026-11-07",
+          "source_id": "candidate:wilmington-ch1161-2026",
+          "record_sha256": "a4042208f2f63529daccd4d666edd40060eb5b33264cb2056f42295e51c56058"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-07T07:53:14.513620+00:00",
+      "rationale": "Distinct source-qualified historical initiative observation and scoped review; no current status or legal force.",
+      "evidence": [
+        {
+          "url": "https://www.supremecourt.ohio.gov/rod/docs/pdf/0/2026/2026-Ohio-3663.pdf",
+          "body_sha256": "cd2b64c99e62a3a5f8954fae5241d03156d5f8f5eecfdbd41b42aa1297689812",
+          "locator": "Ohio Supreme Court slip opinion 2026-Ohio-3663"
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "e65589c7-a4bb-485d-bdbc-e3606be92f1c",
+      "action": "allocate",
+      "table": "claims",
+      "inputs": [],
+      "outputs": [
+        "dbe477c8-7625-4327-9c70-cee95247d295"
+      ],
+      "aliases": [
+        {
+          "namespace": "wilmington-initiative-history-2026-11-07",
+          "source_id": "ohio-wave5-review-15",
+          "record_sha256": "ebb77f1c2b9b6eb2f5fc4285fd74212d181b63ae1c7c58df52f0079978d5d95d"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-07T07:53:14.513620+00:00",
+      "rationale": "Distinct source-qualified historical initiative observation and scoped review; no current status or legal force.",
+      "evidence": [
+        {
+          "url": "https://www.supremecourt.ohio.gov/rod/docs/pdf/0/2026/2026-Ohio-3663.pdf",
+          "body_sha256": "cd2b64c99e62a3a5f8954fae5241d03156d5f8f5eecfdbd41b42aa1297689812",
+          "locator": "Ohio Supreme Court slip opinion 2026-Ohio-3663"
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "4a8a1518-4c0e-4f90-a09d-45eb3404d36f",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "9bbdeb49-5c30-4851-a887-035f348cbd7c"
+      ],
+      "aliases": [
+        {
+          "namespace": "wilmington-initiative-history-2026-11-07",
+          "source_id": "claim:ohio-wave5-review-15",
+          "record_sha256": "96fe6a1a2debfe174e90897cc45058c38c966e602c5e3e1ae180e96986450425"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-07T07:53:14.513620+00:00",
+      "rationale": "Distinct source-qualified historical initiative observation and scoped review; no current status or legal force.",
+      "evidence": [
+        {
+          "url": "https://www.supremecourt.ohio.gov/rod/docs/pdf/0/2026/2026-Ohio-3663.pdf",
+          "body_sha256": "cd2b64c99e62a3a5f8954fae5241d03156d5f8f5eecfdbd41b42aa1297689812",
+          "locator": "Ohio Supreme Court slip opinion 2026-Ohio-3663"
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "ee82d2ba-7d74-4e4a-a948-2defaa4fa27a",
+      "action": "allocate",
+      "table": "claims",
+      "inputs": [],
+      "outputs": [
+        "b1c933b4-130b-4db6-9074-d66787f4de28"
+      ],
+      "aliases": [
+        {
+          "namespace": "wilmington-initiative-history-2026-11-07",
+          "source_id": "ohio-wave5-review-16",
+          "record_sha256": "3824f8c97cfd1ec902a16077610233dcf0afabb951cbaa2cb8b07f4886f1fc09"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-07T07:53:14.513620+00:00",
+      "rationale": "Distinct source-qualified historical initiative observation and scoped review; no current status or legal force.",
+      "evidence": [
+        {
+          "url": "https://www.supremecourt.ohio.gov/rod/docs/pdf/0/2026/2026-Ohio-3663.pdf",
+          "body_sha256": "cd2b64c99e62a3a5f8954fae5241d03156d5f8f5eecfdbd41b42aa1297689812",
+          "locator": "Ohio Supreme Court slip opinion 2026-Ohio-3663"
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "51d11e6c-da75-4d21-b5d1-eeff44008f04",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "d31a4e17-a16f-414a-900e-398a608d90e3"
+      ],
+      "aliases": [
+        {
+          "namespace": "wilmington-initiative-history-2026-11-07",
+          "source_id": "claim:ohio-wave5-review-16",
+          "record_sha256": "29d20f6c337809086951089674ed30a12ceee5f1f1c7b83997bdf2b3198672eb"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-07T07:53:14.513620+00:00",
+      "rationale": "Distinct source-qualified historical initiative observation and scoped review; no current status or legal force.",
+      "evidence": [
+        {
+          "url": "https://www.supremecourt.ohio.gov/rod/docs/pdf/0/2026/2026-Ohio-3663.pdf",
+          "body_sha256": "cd2b64c99e62a3a5f8954fae5241d03156d5f8f5eecfdbd41b42aa1297689812",
+          "locator": "Ohio Supreme Court slip opinion 2026-Ohio-3663"
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "a48d9474-1408-42c6-9ef6-9ba4dd943af8",
+      "action": "allocate",
+      "table": "claims",
+      "inputs": [],
+      "outputs": [
+        "9be77836-6320-4511-87fe-ccbafc88dd08"
+      ],
+      "aliases": [
+        {
+          "namespace": "wilmington-initiative-history-2026-11-07",
+          "source_id": "ohio-wave5-review-17",
+          "record_sha256": "a5e9f4af11e526d052022c2ddae4857f9d8572edccf7fb9fc9e45c11da69400c"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-07T07:53:14.513620+00:00",
+      "rationale": "Distinct source-qualified historical initiative observation and scoped review; no current status or legal force.",
+      "evidence": [
+        {
+          "url": "https://www.supremecourt.ohio.gov/rod/docs/pdf/0/2026/2026-Ohio-3663.pdf",
+          "body_sha256": "cd2b64c99e62a3a5f8954fae5241d03156d5f8f5eecfdbd41b42aa1297689812",
+          "locator": "Ohio Supreme Court slip opinion 2026-Ohio-3663"
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "59b39bc5-f358-44b4-9052-329ca26c56c7",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "9fa2a649-974a-4966-8e18-b4baf6dd01d3"
+      ],
+      "aliases": [
+        {
+          "namespace": "wilmington-initiative-history-2026-11-07",
+          "source_id": "claim:ohio-wave5-review-17",
+          "record_sha256": "2c808e8dc2fdac4302aa6f764a6368d33c7cbf90c6088a1681b995ad18d54575"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-07T07:53:14.513620+00:00",
+      "rationale": "Distinct source-qualified historical initiative observation and scoped review; no current status or legal force.",
+      "evidence": [
+        {
+          "url": "https://www.supremecourt.ohio.gov/rod/docs/pdf/0/2026/2026-Ohio-3663.pdf",
+          "body_sha256": "cd2b64c99e62a3a5f8954fae5241d03156d5f8f5eecfdbd41b42aa1297689812",
+          "locator": "Ohio Supreme Court slip opinion 2026-Ohio-3663"
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "9fca5104-ee4e-4a5b-81c3-2e45f58bcdb3",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "c94724d9-68f4-4657-a999-cc21f0c3d10b"
+      ],
+      "aliases": [
+        {
+          "namespace": "wilmington-initiative-history-2026-11-07",
+          "source_id": "field:jurisdiction_id",
+          "record_sha256": "86f980e9c2eb7e20bd045f99ec7806f710cbd5fded0d17311883ec41c33fe3cd"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-07T07:53:14.513620+00:00",
+      "rationale": "Distinct source-qualified historical initiative observation and scoped review; no current status or legal force.",
+      "evidence": [
+        {
+          "url": "https://www.supremecourt.ohio.gov/rod/docs/pdf/0/2026/2026-Ohio-3663.pdf",
+          "body_sha256": "cd2b64c99e62a3a5f8954fae5241d03156d5f8f5eecfdbd41b42aa1297689812",
+          "locator": "Ohio Supreme Court slip opinion 2026-Ohio-3663"
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "b7501ae6-0ea1-45f7-b636-7aad8918bb1d",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "3e62aa68-a42e-4a6c-a9ad-0acb78f1b584"
+      ],
+      "aliases": [
+        {
+          "namespace": "wilmington-initiative-history-2026-11-07",
+          "source_id": "field:election_id",
+          "record_sha256": "c8dbdc6ac154fe524a2fd50c8605c4068fcdfc22c02c0bb0b59929e403059f4a"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-07T07:53:14.513620+00:00",
+      "rationale": "Distinct source-qualified historical initiative observation and scoped review; no current status or legal force.",
+      "evidence": [
+        {
+          "url": "https://www.supremecourt.ohio.gov/rod/docs/pdf/0/2026/2026-Ohio-3663.pdf",
+          "body_sha256": "cd2b64c99e62a3a5f8954fae5241d03156d5f8f5eecfdbd41b42aa1297689812",
+          "locator": "Ohio Supreme Court slip opinion 2026-Ohio-3663"
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "57700945-e9f6-40bf-8b53-7d7b5e603a19",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "621a1b97-b4a2-46ba-9871-e767155bd6e0"
+      ],
+      "aliases": [
+        {
+          "namespace": "wilmington-initiative-history-2026-11-07",
+          "source_id": "field:title",
+          "record_sha256": "3a6523718e2dd16390af201ab6cf5955882364ea681f8f3a9e0cbca7acbd6b03"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-07T07:53:14.513620+00:00",
+      "rationale": "Distinct source-qualified historical initiative observation and scoped review; no current status or legal force.",
+      "evidence": [
+        {
+          "url": "https://www.supremecourt.ohio.gov/rod/docs/pdf/0/2026/2026-Ohio-3663.pdf",
+          "body_sha256": "cd2b64c99e62a3a5f8954fae5241d03156d5f8f5eecfdbd41b42aa1297689812",
+          "locator": "Ohio Supreme Court slip opinion 2026-Ohio-3663"
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "aff6fa41-37bc-4032-a092-45a52b01d29b",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "c5e1737e-71cb-400e-8ce4-9acbbfd651e2"
+      ],
+      "aliases": [
+        {
+          "namespace": "wilmington-initiative-history-2026-11-07",
+          "source_id": "field:placement_method",
+          "record_sha256": "035923d6c9d5c60cd2f1aea9e6f403a2289aac526232d4ffecf05265055e87f8"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-07T07:53:14.513620+00:00",
+      "rationale": "Distinct source-qualified historical initiative observation and scoped review; no current status or legal force.",
+      "evidence": [
+        {
+          "url": "https://www.supremecourt.ohio.gov/rod/docs/pdf/0/2026/2026-Ohio-3663.pdf",
+          "body_sha256": "cd2b64c99e62a3a5f8954fae5241d03156d5f8f5eecfdbd41b42aa1297689812",
+          "locator": "Ohio Supreme Court slip opinion 2026-Ohio-3663"
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "5c5aed7c-27e1-4b85-ad1a-94a326e08cba",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "d558f219-e7f6-4a53-91b9-bbfbf6f8b9a2"
+      ],
+      "aliases": [
+        {
+          "namespace": "wilmington-initiative-history-2026-11-07",
+          "source_id": "field:placement_source_term",
+          "record_sha256": "6e7787b984ea29b4c843ace307c8f3cad22d4745e9af43fe13796efa9d475eea"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-07T07:53:14.513620+00:00",
+      "rationale": "Distinct source-qualified historical initiative observation and scoped review; no current status or legal force.",
+      "evidence": [
+        {
+          "url": "https://www.supremecourt.ohio.gov/rod/docs/pdf/0/2026/2026-Ohio-3663.pdf",
+          "body_sha256": "cd2b64c99e62a3a5f8954fae5241d03156d5f8f5eecfdbd41b42aa1297689812",
+          "locator": "Ohio Supreme Court slip opinion 2026-Ohio-3663"
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "ffad740d-e73f-4f21-9875-aa4d324b9d8a",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "52d615b5-6433-4ff4-b4d0-99e527b83f51"
+      ],
+      "aliases": [
+        {
+          "namespace": "wilmington-initiative-history-2026-11-07",
+          "source_id": "field:lifecycle",
+          "record_sha256": "2996b4e2ca99513ea40bdfd61e4d4a265a69f232146eb5818d1f2953666ad563"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-07T07:53:14.513620+00:00",
+      "rationale": "Distinct source-qualified historical initiative observation and scoped review; no current status or legal force.",
+      "evidence": [
+        {
+          "url": "https://www.supremecourt.ohio.gov/rod/docs/pdf/0/2026/2026-Ohio-3663.pdf",
+          "body_sha256": "cd2b64c99e62a3a5f8954fae5241d03156d5f8f5eecfdbd41b42aa1297689812",
+          "locator": "Ohio Supreme Court slip opinion 2026-Ohio-3663"
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "12bd5c63-8cd1-44f3-8a5c-59b0bed79a1f",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "a6255fd0-a150-4074-a6c0-bfb479c3a3d0"
+      ],
+      "aliases": [
+        {
+          "namespace": "wilmington-initiative-history-2026-11-07",
+          "source_id": "field:sectors",
+          "record_sha256": "e40f907fcfab86d03d023e263b058a93ef9777a063f260aeb2ef7f3cdd51cb9b"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-07T07:53:14.513620+00:00",
+      "rationale": "Distinct source-qualified historical initiative observation and scoped review; no current status or legal force.",
+      "evidence": [
+        {
+          "url": "https://www.supremecourt.ohio.gov/rod/docs/pdf/0/2026/2026-Ohio-3663.pdf",
+          "body_sha256": "cd2b64c99e62a3a5f8954fae5241d03156d5f8f5eecfdbd41b42aa1297689812",
+          "locator": "Ohio Supreme Court slip opinion 2026-Ohio-3663"
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "553cfb12-9264-4d6c-a78c-8d01125ef7ac",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "75e1047d-3c96-49eb-bb85-38a6f3aa6d57"
+      ],
+      "aliases": [
+        {
+          "namespace": "wilmington-initiative-history-2026-11-07",
+          "source_id": "field:referendum_yes_effect",
+          "record_sha256": "d23db500029b6a574a30ceaf1d108f7275351988808af5e28cf23b9061df39ce"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-07T07:53:14.513620+00:00",
+      "rationale": "Distinct source-qualified historical initiative observation and scoped review; no current status or legal force.",
+      "evidence": [
+        {
+          "url": "https://www.supremecourt.ohio.gov/rod/docs/pdf/0/2026/2026-Ohio-3663.pdf",
+          "body_sha256": "cd2b64c99e62a3a5f8954fae5241d03156d5f8f5eecfdbd41b42aa1297689812",
+          "locator": "Ohio Supreme Court slip opinion 2026-Ohio-3663"
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "336a8c4b-fd07-46c8-abd7-aba068a60ab3",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "8494a48c-6fb8-4a5b-9c18-4fd527d8d73e"
+      ],
+      "aliases": [
+        {
+          "namespace": "wilmington-initiative-history-2026-11-07",
+          "source_id": "field:scope_note",
+          "record_sha256": "b5fdf9271c2eb6ed8eeb8095edb5e219e2a6c45f77b5ad9eec74facd85fa90b6"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-07T07:53:14.513620+00:00",
+      "rationale": "Distinct source-qualified historical initiative observation and scoped review; no current status or legal force.",
+      "evidence": [
+        {
+          "url": "https://www.supremecourt.ohio.gov/rod/docs/pdf/0/2026/2026-Ohio-3663.pdf",
+          "body_sha256": "cd2b64c99e62a3a5f8954fae5241d03156d5f8f5eecfdbd41b42aa1297689812",
+          "locator": "Ohio Supreme Court slip opinion 2026-Ohio-3663"
+        }
+      ]
+    }
+  ]
+}

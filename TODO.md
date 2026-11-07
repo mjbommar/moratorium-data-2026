@@ -237,6 +237,7 @@ Exit: accepted pilot report and separately authorized bounded collection scope.
 - [x] Add Edgewater’s proposed charter restriction and accepted ballot `proposes` relationship, with unknown legal status/dates, preserved prior records and public relationship view (`edgewater-restriction-migration/`); full restriction/event/predecessor migration remains open.
 - [ ] Record bans and other restrictions separately, with explicit predecessor/replacement links.
 - [ ] Preserve failed qualification, withdrawn measures, unresolved cases and bounded negative searches.
+- [x] Review and separately publish Wilmington's proposed Chapter 1161 initiative as dated court-reported litigation history, with intended-election linkage and no result or legal effect. Preserve all four voted parcel referendums and frozen census groups; qualify later court/ballot history as unknown (November 7 initiative-history packet). Broader lifecycle coverage remains open.
 - [ ] Reconcile earlier 2026 measures and stage upcoming December measures separately from November totals.
 - [ ] Refresh council-adopted moratoria and expiry/extension worklists alongside election work.
 - [ ] Resolve Elmwood MI original February ordinance versus June Resolution 2026.06.17.A identities/terms; obtain Frenchtown original Ordinance 300-19 and extension anchor (reviewed-michigan-b).

@@ -98,7 +98,7 @@ verified versioned release. [Known gaps](known-gaps.md) records evidence limits.
 
 ## How should I interpret ballot measures?
 
-The expanded publication contains 50 reviewed measures (49 from the frozen cohort plus Jay's solar ballot), including advisory
+The expanded publication contains 51 reviewed proposal and measure records (49 from the frozen cohort, Jay's solar ballot and a separate Wilmington litigated initiative), including advisory
 questions, temporary pauses, permanent restrictions and zoning questions. Seven
 additional candidate groups remain unresolved. A yes vote has different effects
 across measures; read the recorded wording, bindingness and yes direction.

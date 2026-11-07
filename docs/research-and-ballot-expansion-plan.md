@@ -97,7 +97,7 @@ authority for public facts. Final schemas and paths must be settled in phase P1.
 |---|---|---|
 | `jurisdictions` | One government or electoral jurisdiction; `jurisdiction_id` | State, county, government type, authoritative identifiers where available, names/aliases, boundary references and validity dates |
 | `elections` | One election administration event; `election_id` | Date, administering authority, election type, official result endpoints; distinguish town meeting from conventional ballot where applicable |
-| `ballot_measures` | One question in one jurisdiction/election; `measure_id` | Election and jurisdiction IDs, official designation, exact wording, title, placement method, bindingness, lifecycle, sectors |
+| `ballot_measures` | One proposed or voted question in one jurisdiction and held/intended election; `measure_id` | Election and jurisdiction IDs, official designation, exact wording, title, placement method, bindingness, lifecycle, sectors |
 | `measure_provisions` | One substantive provision; `provision_id` | Mechanism, covered uses, thresholds, exemptions, geography, implementation requirements, evidence pointers |
 | `measure_results` | One observed result version; `result_observation_id` | Measure ID, yes/no/other votes, denominators, source, observation time, reporting status, certification status |
 | `local_restrictions` | One non-moratorium local legal instrument; `restriction_id` | Bans, approval requirements, zoning limits, development conditions; identity, provisions, status and temporal evidence |
@@ -119,7 +119,8 @@ aliases and explicit merge/split mappings, including a reason and prior referenc
 Jurisdiction names alone are insufficient: distinguish town/city/township, county,
 and overlapping electoral districts. General-election day is not a globally unique
 election identity. Reused designations such as “Question 2” need jurisdiction and
-election context. Repeated votes are distinct measures linked by a common campaign
+election context. An intended election link does not establish qualification or ballot appearance.
+Repeated votes are distinct measures linked by a common campaign
 or instrument history; one question covering several sectors remains one measure.
 
 ### 4.2 Ballot lifecycle, mechanisms, and polarity

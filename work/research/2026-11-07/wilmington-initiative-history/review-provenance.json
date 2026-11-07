@@ -1,0 +1,43 @@
+{
+  "review_date": "2026-11-07",
+  "cohort_cutoff": "2026-11-05",
+  "source_retrieval": "2026-11-06T08:42:15.629759Z",
+  "reviews": [
+    {
+      "role": "retained primary opinion source review",
+      "requested_cli_model": "gpt-6.1-terra",
+      "review_sha256": "188f36e93772e5c93d7201d90fe04f21c19feb2322d6f7f3f40ef22b146d16ba",
+      "limits": "Source-qualified opinion and historical proceedings; later court/ballot/legal status unknown."
+    },
+    {
+      "role": "schema and consumer contract review",
+      "requested_cli_model": "gpt-6.1-terra",
+      "review_sha256": "5f23d2debe1fcafcded91df30bdbaaeb9bb56589e854baa48340e1b1b27e89cf",
+      "limits": "Blueprint and recommendations, not canonical publication or independent factual acceptance."
+    }
+  ],
+  "coordinator_adjudication": {
+    "reviewer": "coordinator",
+    "reviewed_on": "2026-11-07",
+    "source_cohort": "2026-11-05",
+    "decision": "Use existing litigated lifecycle with explicit court-reported historical refusal and writ-denial claims; reject any current qualification, later ballot appearance, vote, defeat or force inference.",
+    "schema_decision": "No new enum required to retain the full historical facts in three explicit claims and a dated displayed scope note. Intended election linkage remains distinct from actual appearance.",
+    "visual_scope": [
+      {
+        "physical_page": 2,
+        "image_sha256": "817dfa4add823f565eeeceaefd4a878f007071b2f3df8a494915abd005d3b3a2"
+      },
+      {
+        "physical_page": 13,
+        "image_sha256": "47a7d8451c9da81451ec0130d5618106b126e2b9eeed9c2a76886ee64e5a6215"
+      }
+    ],
+    "additional_read_scope": "Retained text header, procedural paragraphs, conclusion and two independent scoped source/contract reviews; no fresh judicial docket or underlying instruments.",
+    "original_claim_value_scope_requirement": "Retain original scope qualifiers rather than replace them with a less specific generic scope.",
+    "online_publication_date": "Unknown; opinion decision date is preserved separately.",
+    "claim_scope_disposition": "Original source-specific qualifiers restored in the three claim values."
+  },
+  "new_search_fetch_or_library_model_requests": 0,
+  "cli_spend": "Not priced or represented as zero.",
+  "source_body_published": false
+}

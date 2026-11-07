@@ -406,3 +406,21 @@ The [six-record follow-up](../work/research/2026-11-07/mo-full-actions-followup/
 ## State-policy form and denominator correction
 
 The [thirteen-row migration](../work/research/2026-11-07/state-policy-forms/README.md) separates ten legislative-resolution rows and three precursor memo rows, preserving all 442 IDs and every other cell. Typed bill rows change from 440 to 427; no policy action is added or removed. Two disjoint Terra source reviews, coordinator checks, a contract job and an independent final review retain explicit scope limits. Twelve exact linked Arkansas PDFs are newly collected under a separate twelve-fetch/zero-search cap; their compound row stays intact. Memo-to-bill links are not identity equality. Corrected bill rankings exclude non-bill forms, with the former all-policy ranking retained under its own key. Canonical lineage, compound-row grain, wider freshness and final consumer/release gates remain open.
+
+
+## Intended elections and qualification history
+
+Ballot due-work rules distinguish a held vote from an intended election link.
+Disqualified, withdrawn and canceled records without vote observations request
+qualification-history review without manufacturing result or implementation work. Other non-voted lifecycles
+with no result and a past/unknown intended date also require placement/history
+review first. A litigated measure with reviewed vote observations still receives
+certification and implementation review; litigation does not erase results. These
+are operator priorities, not findings of final placement, deadlines or legal force.
+
+
+## Wilmington initiative qualification-history increment
+
+The [separate initiative-history packet](../work/research/2026-11-07/wilmington-initiative-history/README.md) adds one court-qualified proposed Chapter 1161 initiative with a dated `litigated` lifecycle and intended November 3 election link. It adds no vote result, provision, restriction, instrument event or legal effect. The four voted Wilmington parcel referendums, all prior records, both legacy CSVs and the frozen census correspondence are preserved. The expanded record denominator is 51: 49 voted, one scheduled and one litigated; 57 retained/50 current results and five current certified observations remain unchanged. This is historical source acceptance, not confirmation of final placement or later judicial/current legal status.
+
+Lifecycle-aware due-work now requests qualification/history review before missing-result collection for unresolved non-voted proposals with past or unknown intended dates. It retains certification and implementation review where vote observations already exist, including later litigation or disqualification. The public summary shows lifecycle counts and intended-date/scope labels; the copy audit checks those record/result denominators separately. All 378 unit tests pass with the required private fixtures available. Full source preflight verifies 543 claims. Broader freshness, remaining lifecycle coverage, active consumer adoption, P4 acceptance and final release remain open.

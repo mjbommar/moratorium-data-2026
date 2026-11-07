@@ -2,6 +2,7 @@
 import contextlib
 import importlib.util
 import io
+import json
 from pathlib import Path
 import sys
 import tempfile
@@ -13,6 +14,19 @@ mod=importlib.util.module_from_spec(spec);spec.loader.exec_module(mod)
 
 
 class HistoryTests(unittest.TestCase):
+    def test_expanded_counts_separate_lifecycles_and_current_observations(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            measures = [{'lifecycle': status} for status in ('voted', 'scheduled', 'litigated')]
+            results = [{'result_observation_id':'old', 'supersedes_id':None, 'certification_status':'certified'},
+                       {'result_observation_id':'new', 'supersedes_id':'old', 'certification_status':'amended_certification'},
+                       {'result_observation_id':'part', 'supersedes_id':None, 'certification_status':'unofficial'}]
+            for table, rows in [('ballot_measures', measures), ('measure_results', results)]:
+                (root / (table + '.jsonl')).write_text(''.join(json.dumps(row) + '\n' for row in rows))
+            facts = mod.expanded_facts(root)
+            self.assertEqual(facts, {'expanded_records':3, 'expanded_voted':1, 'expanded_scheduled':1,
+                                     'expanded_litigated':1, 'expanded_current_results':2, 'expanded_certified_results':1})
+
     def test_fixed_percentage_passes_followup_check(self):
         facts={k:0 for k in ('rows','in_force','pending','past','states','verify_rows','geocoded','bills','bills_typed','bills_enacted')}
         facts['geocoded_percent']=99.8

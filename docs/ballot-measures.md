@@ -2,8 +2,10 @@
 
 The [generated results view](ballot-results.md) follows the pinned canonical
 publication. It is a reviewed subset, not the complete November election census.
-Each displayed row is a current result observation, and multiple observations of
-one measure remain separate. Blank, other-vote and turnout categories are not
+Each result-table row is a current result observation, and multiple observations of
+one measure remain separate. A separate no-result table lists proposals and other
+measure records with their recorded lifecycle, held or intended election date, and
+source-qualified scope. An intended election is not proof of ballot appearance. Blank, other-vote and turnout categories are not
 filled with zero when the source omits them.
 
 The November 5 initial cohorts cover Eliot Question 5 and Sabattus's Data Center
@@ -197,3 +199,21 @@ and [offline consistency check](../work/audit/sabattus-publication-consistency-2
 validate retained publication behavior; they do not reacquire sources or establish
 current legal force. GitHub release, full public exports, remaining measures and
 consumer updates retain the separate release gates.
+
+
+## Wilmington proposed Chapter 1161 initiative
+
+This distinct initiative is recorded with a source-qualified `litigated` lifecycle
+and no result observation. The recovered Ohio Supreme Court slip opinion reports
+that the board refused certification for the intended November 3 election on
+August 12, reaffirmed that decision on August 26, and that the court denied
+mandamus on September 18. The opinion is subject to formal revision. Original
+proposal and administrative instruments, later case and election history, and
+current status remain unreviewed. This is neither one of Wilmington's four voted
+parcel referendums nor a defeated voted measure or an operative restriction.
+[Official slip opinion, 2026-Ohio-3663](https://www.supremecourt.ohio.gov/rod/docs/pdf/0/2026/2026-Ohio-3663.pdf).
+
+The expanded total includes proposal histories: 49 records have the `voted`
+lifecycle, one is scheduled and one is litigated. Result observations remain
+separate, including partial-jurisdiction observations. The intended-election
+foreign key and an elapsed date do not establish ballot appearance.

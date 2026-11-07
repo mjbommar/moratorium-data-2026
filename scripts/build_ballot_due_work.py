@@ -26,6 +26,18 @@ def tasks(measures, elections, results, today, lead_days=30):
             output.append(dict(measure_id=mid, election_id=measure['election_id'], kind=kind,
                 due_on=due.isoformat() if due else None, due_now=due is None or due <= today,
                 result_observation_id=observation, reason=reason))
+        if measure.get('lifecycle') in ('disqualified', 'withdrawn', 'canceled'):
+            add('qualification_history_review', None,
+                'Review recorded non-voted qualification/withdrawal/cancellation history and later challenges; '
+                'an intended election date does not establish ballot placement, a vote or implementation.')
+            if not observations:
+                continue
+        if (measure.get('lifecycle', 'voted') != 'voted' and not observations
+                and (day is None or day <= today)):
+            add('qualification_history_review', None,
+                'Confirm final placement and later qualification/litigation history before seeking an election result; '
+                'the recorded date may be an intended election only.')
+            continue
         if day is None:
             add('election_date_review', None, 'Exact election day unresolved; no partial-date midpoint inferred.')
             continue

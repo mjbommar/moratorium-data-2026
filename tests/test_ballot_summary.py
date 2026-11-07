@@ -40,6 +40,20 @@ class BallotSummaryTests(unittest.TestCase):
         self.assertNotIn('2026-12-15 | scheduled | 0',text)
         self.assertEqual(len(self.rows['measure_results']),3)
 
+    def test_refused_placement_is_visible_without_inventing_a_vote(self):
+        measure = copy.deepcopy(self.rows['ballot_measures'][self.result['measure_id']])
+        measure.update(measure_id='refused-placement', designation='Separate proposed initiative',
+                       lifecycle='disqualified')
+        self.rows['ballot_measures'][measure['measure_id']] = measure
+        before = copy.deepcopy(self.rows['measure_results'])
+        text = render(self.rows, SNAPSHOT)
+        self.assertIn('1 disqualified; 2 voted', text)
+        self.assertIn('3 reviewed measure records · 2 current result observations', text)
+        self.assertIn('Election date (held or intended)', text)
+        self.assertIn('Separate proposed initiative', text)
+        self.assertIn('disqualified |', text)
+        self.assertEqual(self.rows['measure_results'], before)
+
     def test_named_county_parts_remain_visible_and_are_never_summed(self):
         self.result.update(yes_votes=106, no_votes=899,
                            reporting_scope={'kind':'jurisdiction_part','description':'Brown County portion'})

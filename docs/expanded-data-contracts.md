@@ -6,7 +6,7 @@ moratorium grain and exclusion of permanent bans remain unchanged. A successful
 validation is structural consistency, not proof of legal effect, source accuracy,
 identity, completeness, or permission to publish. An initial [reviewed snapshot writer](expanded-promotion.md) now supplies separate
 identity, evidence, field-review and atomic-publication gates; reviewed canonical
-records currently cover 50 reviewed measures (49 from the frozen cohort plus Jay's separately reviewed solar ballot), with explicit result supersession and seven unresolved frozen candidate groups kept outside the canonical measure total. The restriction/link migration now includes Edgewater’s proposed charter restriction with unknown legal status and an accepted `proposes` relationship. No adoption/effect event or current force is inferred; the broader migration remains incomplete. See the
+records currently cover 51 reviewed proposal and measure records (49 from the frozen cohort, Jay's separately reviewed solar ballot and a separate Wilmington litigated initiative), with explicit result supersession and seven unresolved frozen candidate groups kept outside the canonical measure total. The restriction/link migration now includes Edgewater’s proposed charter restriction with unknown legal status and an accepted `proposes` relationship. No adoption/effect event or current force is inferred; the broader migration remains incomplete. See the
 [generated results view](ballot-results.md). Identity decisions have a separate
 [append-only registry](expanded-identity-registry.md).
 
@@ -107,6 +107,16 @@ are not keys. Distinct same-name governments must have distinct IDs. This first
 validator requires a measure and its election to use the same jurisdiction ID;
 overlapping administrative and electoral jurisdictions need a future explicit
 relationship contract rather than a guessed equivalence.
+
+A measure record may describe a proposed initiative linked to its intended election,
+including a proposal whose placement was litigated or refused. The election foreign
+key alone does not establish ballot appearance or voting. `litigated` records a
+source-qualified litigation history; dated claims and the scope note retain any
+reported placement refusal and judicial disposition without asserting later status.
+No placeholder result is created for a proposal with no reviewed vote observation.
+Count all proposal/measure records, recorded lifecycles, voted measures and current
+result observations separately. A source-supported placement refusal or writ denial
+is not an electoral defeat or an operative restriction.
 
 A measure has independent lifecycle, bindingness, yes-direction and referendum
 polarity. Provisions capture mechanisms, covered uses, exemptions, and thresholds

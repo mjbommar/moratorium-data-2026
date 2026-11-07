@@ -40,6 +40,21 @@ def load(path: Path) -> list[dict]:
         return list(csv.DictReader(f))
 
 
+def expanded_facts(snapshot: Path) -> dict[str, int]:
+    snapshot = snapshot.resolve(strict=True)
+    def records(name):
+        return [json.loads(line) for line in (snapshot / (name + '.jsonl')).read_text().splitlines() if line.strip()]
+    measures, results = records('ballot_measures'), records('measure_results')
+    superseded = {row['supersedes_id'] for row in results if row.get('supersedes_id')}
+    current = [row for row in results if row['result_observation_id'] not in superseded]
+    return {'expanded_records': len(measures),
+            'expanded_voted': sum(row['lifecycle'] == 'voted' for row in measures),
+            'expanded_scheduled': sum(row['lifecycle'] == 'scheduled' for row in measures),
+            'expanded_litigated': sum(row['lifecycle'] == 'litigated' for row in measures),
+            'expanded_current_results': len(current),
+            'expanded_certified_results': sum(row['certification_status'] in ('certified', 'amended_certification') for row in current)}
+
+
 def facts() -> dict[str, int | float]:
     inv, leg = load(INV), load(LEG)
     c = Counter(r["enacted_status"] for r in inv)
@@ -52,6 +67,7 @@ def facts() -> dict[str, int | float]:
             swept = len(windows[-1].get("swept_states", []))
             swept_empty = len(windows[-1].get("swept_states_with_no_adoptions_in_window", []))
     return {
+        **expanded_facts(REPO / "data/expanded"),
         "rows": len(inv),
         "in_force": c["active"] + c["extended"],
         "active": c["active"],
@@ -86,6 +102,13 @@ def facts() -> dict[str, int | float]:
 # Patterns are anchored on distinctive surrounding words so they cannot drift
 # onto an unrelated number.
 CLAIMS: list[tuple[str, str, str, str]] = [
+    ("README.md", r"\*\*([\d,]+) proposal and measure records\*\*", "expanded_records", "README expanded record denominator"),
+    ("README.md", r"\*\*([\d,]+) voted, [\d,]+ scheduled, [\d,]+ litigated\*\*", "expanded_voted", "README voted lifecycle"),
+    ("README.md", r"\*\*[\d,]+ voted, ([\d,]+) scheduled, [\d,]+ litigated\*\*", "expanded_scheduled", "README scheduled lifecycle"),
+    ("README.md", r"\*\*[\d,]+ voted, [\d,]+ scheduled, ([\d,]+) litigated\*\*", "expanded_litigated", "README litigated lifecycle"),
+    ("docs/ballot-results.md", r"\*\*([\d,]+) reviewed measure records", "expanded_records", "Ballot view record denominator"),
+    ("docs/ballot-results.md", r"records · ([\d,]+) current result observations", "expanded_current_results", "Ballot view current observations"),
+    ("docs/ballot-results.md", r"observations · ([\d,]+) current certified observations", "expanded_certified_results", "Ballot view current certified observations"),
     ("data/README.md", r"\| ([\d,]+) local-moratorium instruments\.", "rows", "Data landing inventory count"),
     ("data/README.md", r"\| ([\d,]+) state-policy records", "state_policy_actions", "Data landing policy count"),
     ("data/README.md", r"([\d,]+) of [\d,]+ rows have coordinates", "geocoded", "Data landing geocoded count"),

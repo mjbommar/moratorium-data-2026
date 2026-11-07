@@ -16,7 +16,7 @@ This is the open companion dataset for the working paper *Moratorium Nation: A S
 >
 > **Coverage note:** All 50 states were searched month by month for May–July 2026, but later discovery found additional instruments in that window. These are observed inventory counts, not a complete census. See [known gaps](docs/known-gaps.md).
 
-[Reviewed ballot results](docs/ballot-results.md) cover **50 measures**, tracked separately from the legacy moratorium counts; **7 additional candidate groups remain unresolved**. The total includes [Jay's solar ballot](work/audit/jay-solar-ballot-followup-2026-11-06.json), reviewed after the original frozen cohort; its primary return and operative legal history remain unresolved. A vote, certification and an operative legal restriction are distinct observations. Legal-effect review remains record-specific.
+[Reviewed ballot results](docs/ballot-results.md) cover **51 proposal and measure records** (**49 voted, 1 scheduled, 1 litigated**), tracked separately from the legacy moratorium counts; **7 additional candidate groups remain unresolved**. The total includes [Jay's solar ballot](work/audit/jay-solar-ballot-followup-2026-11-06.json), reviewed after the original frozen cohort; its primary return and operative legal history remain unresolved. The separate [Wilmington initiative history](work/research/2026-11-07/wilmington-initiative-history/README.md) records dated litigation and an intended election, without a vote result or finding of later status. A vote, certification and an operative legal restriction are distinct observations. Legal-effect review remains record-specific.
 
 The linked April 2026 paper is a historical edition. Its figures and conclusions have not been synchronized to this November working dataset.
 

@@ -19,7 +19,7 @@ Sources: [discovery accounting](../work/audit/discovery-coordinator-accounting-2
 
 ## Current closure checkpoint
 
-The frozen discovery review now has zero candidates awaiting coordinator review: 38 additions, one covered existing instrument and 146 reviewed withheld. The current inventory contains 1,330 local records (1,079 classified active/extended, 79 pending and 172 past) and 442 state-policy records. The expanded ballot subset contains 50 measures, 57 retained results and 50 current observations, including five certified observations. These classifications and review dispositions do not establish inventory-wide current enforceability or complete election coverage.
+The frozen discovery review now has zero candidates awaiting coordinator review: 38 additions, one covered existing instrument and 146 reviewed withheld. The current inventory contains 1,330 local records (1,079 classified active/extended, 79 pending and 172 past) and 442 state-policy records. The expanded subset contains 51 proposal and measure records (49 voted, one scheduled, one litigated), 57 retained results and 50 current observations, including five certified observations. These classifications and review dispositions do not establish inventory-wide current enforceability or complete election coverage.
 
 The [semantic-lineage correction](../work/research/2026-11-06/ballot-semantic-lineage/README.md)
 adds explicit support for four unchanged advisory mechanisms and an immutable
@@ -109,3 +109,10 @@ The [six-record follow-up](../work/research/2026-11-07/mo-full-actions-followup/
 ## State-policy form and denominator correction
 
 The [thirteen-row migration](../work/research/2026-11-07/state-policy-forms/README.md) separates ten legislative-resolution rows and three precursor memo rows, preserving all 442 IDs and every other cell. Typed bill rows change from 440 to 427; no policy action is added or removed. Two disjoint Terra source reviews, coordinator checks, a contract job and an independent final review retain explicit scope limits. Twelve exact linked Arkansas PDFs are newly collected under a separate twelve-fetch/zero-search cap; their compound row stays intact. Memo-to-bill links are not identity equality. Corrected bill rankings exclude non-bill forms, with the former all-policy ranking retained under its own key. Canonical lineage, compound-row grain, wider freshness and final consumer/release gates remain open.
+
+
+## Wilmington initiative qualification-history increment
+
+The [separate initiative-history packet](../work/research/2026-11-07/wilmington-initiative-history/README.md) adds one court-qualified proposed Chapter 1161 initiative with a dated `litigated` lifecycle and intended November 3 election link. It adds no vote result, provision, restriction, instrument event or legal effect. The four voted Wilmington parcel referendums, all prior records, both legacy CSVs and the frozen census correspondence are preserved. The expanded record denominator is 51: 49 voted, one scheduled and one litigated; 57 retained/50 current results and five current certified observations remain unchanged. This is historical source acceptance, not confirmation of final placement or later judicial/current legal status.
+
+Lifecycle-aware due-work now requests qualification/history review before missing-result collection for unresolved non-voted proposals with past or unknown intended dates. It retains certification and implementation review where vote observations already exist, including later litigation or disqualification. The public summary shows lifecycle counts and intended-date/scope labels; the copy audit checks those record/result denominators separately. All 378 unit tests pass with the required private fixtures available. Full source preflight verifies 543 claims. Broader freshness, remaining lifecycle coverage, active consumer adoption, P4 acceptance and final release remain open.
