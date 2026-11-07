@@ -1,0 +1,220 @@
+{
+  "alabama": [
+    {
+      "id": "text0",
+      "url": "https://alison.legislature.state.al.us/files/pdf/SearchableInstruments/2026RS/HB399-enr.pdf",
+      "body_sha256": "96307ced055424f53a6b4191ee4266f681c3f20fb6dd3c145874298b4ff6a2e1",
+      "text_sha256": "ba4348aa37aa21e07020ca5171d8332922c4d9cce04377806de08b492de91198",
+      "stage": "enrolled",
+      "role": "official legal text at specified legislative stage",
+      "observed_at": "2026-11-05",
+      "locator": "printed page 0 cover; pages 1 onward operative text"
+    },
+    {
+      "id": "hist0",
+      "url": "https://alison.legislature.state.al.us/graphql?query=query+billModal%28%24sessionAbbreviation%3A+String%2C+%24instrumentNbr%3A+String%2C+%24instrumentType%3A+InstrumentType%29+%7B%0A++instrument%28where%3A+%7B+sessionAbbreviation%3A+%7B+eq%3A+%24sessionAbbreviation+%7D%2C+instrumentNbr%3A+%7B+eq%3A+%24instrumentNbr+%7D%2C+instrumentType%3A+%7B+eq%3A+%24instrumentType+%7D+%7D%29+%7B%0A++++id+instrumentNbr+sessionName+currentStatus+shortTitle+introducedFileUrl+engrossedFileUrl+enrolledFileUrl+reenrolledFileUrl+viewEnacted+actNbr%0A++%7D%0A++histories%3A+instrumentHistories%28where%3A+%7B+sessionAbbreviation%3A+%7B+eq%3A+%24sessionAbbreviation+%7D%2C+instrumentNbr%3A+%7B+eq%3A+%24instrumentNbr+%7D+%7D%29+%7B%0A++++data+%7B+instrumentNbr+sessionName+sessionYear+calendarDate+body+matter+amdSub+committee+voteType+voteTitle+rollCallNbr+yeas+nays+%7D%0A++%7D%0A%7D&variables=%7B%22sessionAbbreviation%22%3A+%222026RS%22%2C+%22instrumentNbr%22%3A+%22HB399%22%2C+%22instrumentType%22%3A+%22B%22%7D&operationName=billModal",
+      "body_sha256": "82f3773d76af070f2ba9b6012c0e7b409a7f7c9c9a57ef1f5c1753c6447ad1b8",
+      "stage": "official returned bill history; pagination completeness not established",
+      "role": "bill-specific latest returned action and status",
+      "observed_at": "2026-11-07T18:36:39.582975Z",
+      "locator": "JSON data.instrument and data.histories.data"
+    },
+    {
+      "id": "docket0",
+      "url": "https://arc-sos.state.al.us/cgi/actdetail.mbr/detail?page=act&year=2026&act=573",
+      "body_sha256": "b7da61b498f5ad7f51571e1170917be1d1992bff1773602c5d69c05164f9ff03",
+      "text_sha256": "db7ff5b89aed2aebfe7bdf2a724644eb717dc2f3f11f2903c861d45e51b939b7",
+      "stage": "Secretary of State act docket",
+      "role": "approval and authors/joint sponsor",
+      "observed_at": "2026-11-05T23:09:56.382640Z",
+      "locator": "ACT NUMBER, Authors, Joint Sponsors, Signed by Governor, Approved Date and Time"
+    },
+    {
+      "id": "text1",
+      "url": "https://alison.legislature.state.al.us/files/pdf/SearchableInstruments/2026RS/HB403-eng.pdf",
+      "body_sha256": "7e65f2ddcfbfd9cdc6733c4d44597468b9ad1fe8ef17382287ba49bd7fca84d6",
+      "text_sha256": "7d528395c498913e0bc6509a8cd21d65aa7e94f0238d91ea4373678e845411ec",
+      "stage": "engrossed House",
+      "role": "official legal text at specified legislative stage",
+      "observed_at": "2026-11-05",
+      "locator": "printed page 0 cover; pages 1 onward operative text"
+    },
+    {
+      "id": "hist1",
+      "url": "https://alison.legislature.state.al.us/graphql?query=query+billModal%28%24sessionAbbreviation%3A+String%2C+%24instrumentNbr%3A+String%2C+%24instrumentType%3A+InstrumentType%29+%7B%0A++instrument%28where%3A+%7B+sessionAbbreviation%3A+%7B+eq%3A+%24sessionAbbreviation+%7D%2C+instrumentNbr%3A+%7B+eq%3A+%24instrumentNbr+%7D%2C+instrumentType%3A+%7B+eq%3A+%24instrumentType+%7D+%7D%29+%7B%0A++++id+instrumentNbr+sessionName+currentStatus+shortTitle+introducedFileUrl+engrossedFileUrl+enrolledFileUrl+reenrolledFileUrl+viewEnacted+actNbr%0A++%7D%0A++histories%3A+instrumentHistories%28where%3A+%7B+sessionAbbreviation%3A+%7B+eq%3A+%24sessionAbbreviation+%7D%2C+instrumentNbr%3A+%7B+eq%3A+%24instrumentNbr+%7D+%7D%29+%7B%0A++++data+%7B+instrumentNbr+sessionName+sessionYear+calendarDate+body+matter+amdSub+committee+voteType+voteTitle+rollCallNbr+yeas+nays+%7D%0A++%7D%0A%7D&variables=%7B%22sessionAbbreviation%22%3A+%222026RS%22%2C+%22instrumentNbr%22%3A+%22HB403%22%2C+%22instrumentType%22%3A+%22B%22%7D&operationName=billModal",
+      "body_sha256": "8ea0a919e13b5e7fb8773970f7c49ac7e130ce4c103cbb6e61f5a6c5fe085354",
+      "stage": "official returned bill history; pagination completeness not established",
+      "role": "bill-specific latest returned action and status",
+      "observed_at": "2026-11-07T18:36:40.716497Z",
+      "locator": "JSON data.instrument and data.histories.data"
+    },
+    {
+      "id": "text2",
+      "url": "https://alison.legislature.state.al.us/files/pdf/SearchableInstruments/2026RS/SB265-eng.pdf",
+      "body_sha256": "b658b61bde935a5cd95395ed42d348c02ad794ae6311bd8d89515a7783e9bad1",
+      "text_sha256": "aa4f42c0f89aadb90c07ea65eb208d019ab665ab4e0ada5e2c32b81d3b384cd0",
+      "stage": "engrossed Senate",
+      "role": "official legal text at specified legislative stage",
+      "observed_at": "2026-11-05",
+      "locator": "printed page 0 cover; pages 1 onward operative text"
+    },
+    {
+      "id": "hist2",
+      "url": "https://alison.legislature.state.al.us/graphql?query=query+billModal%28%24sessionAbbreviation%3A+String%2C+%24instrumentNbr%3A+String%2C+%24instrumentType%3A+InstrumentType%29+%7B%0A++instrument%28where%3A+%7B+sessionAbbreviation%3A+%7B+eq%3A+%24sessionAbbreviation+%7D%2C+instrumentNbr%3A+%7B+eq%3A+%24instrumentNbr+%7D%2C+instrumentType%3A+%7B+eq%3A+%24instrumentType+%7D+%7D%29+%7B%0A++++id+instrumentNbr+sessionName+currentStatus+shortTitle+introducedFileUrl+engrossedFileUrl+enrolledFileUrl+reenrolledFileUrl+viewEnacted+actNbr%0A++%7D%0A++histories%3A+instrumentHistories%28where%3A+%7B+sessionAbbreviation%3A+%7B+eq%3A+%24sessionAbbreviation+%7D%2C+instrumentNbr%3A+%7B+eq%3A+%24instrumentNbr+%7D+%7D%29+%7B%0A++++data+%7B+instrumentNbr+sessionName+sessionYear+calendarDate+body+matter+amdSub+committee+voteType+voteTitle+rollCallNbr+yeas+nays+%7D%0A++%7D%0A%7D&variables=%7B%22sessionAbbreviation%22%3A+%222026RS%22%2C+%22instrumentNbr%22%3A+%22SB265%22%2C+%22instrumentType%22%3A+%22B%22%7D&operationName=billModal",
+      "body_sha256": "d6277149232a0ee6386f9c81ba9e00894ab991bc508d6fc0ac046d478ba8f9f3",
+      "stage": "official returned bill history; pagination completeness not established",
+      "role": "bill-specific latest returned action and status",
+      "observed_at": "2026-11-07T18:36:41.913379Z",
+      "locator": "JSON data.instrument and data.histories.data"
+    },
+    {
+      "id": "text3",
+      "url": "https://alison.legislature.state.al.us/files/pdf/SearchableInstruments/2026RS/SB270-enr.pdf",
+      "body_sha256": "818043ab865ea02754c09aaee765e09730cbe68f8fc8d2ff38769c279b864537",
+      "text_sha256": "ce3af8bc38b05f0124b05a5bec89cb0c7f0ab9eb201e706aad98f911ae6bb32a",
+      "stage": "enrolled",
+      "role": "official legal text at specified legislative stage",
+      "observed_at": "2026-11-05",
+      "locator": "printed page 0 cover; pages 1 onward operative text"
+    },
+    {
+      "id": "hist3",
+      "url": "https://alison.legislature.state.al.us/graphql?query=query+billModal%28%24sessionAbbreviation%3A+String%2C+%24instrumentNbr%3A+String%2C+%24instrumentType%3A+InstrumentType%29+%7B%0A++instrument%28where%3A+%7B+sessionAbbreviation%3A+%7B+eq%3A+%24sessionAbbreviation+%7D%2C+instrumentNbr%3A+%7B+eq%3A+%24instrumentNbr+%7D%2C+instrumentType%3A+%7B+eq%3A+%24instrumentType+%7D+%7D%29+%7B%0A++++id+instrumentNbr+sessionName+currentStatus+shortTitle+introducedFileUrl+engrossedFileUrl+enrolledFileUrl+reenrolledFileUrl+viewEnacted+actNbr%0A++%7D%0A++histories%3A+instrumentHistories%28where%3A+%7B+sessionAbbreviation%3A+%7B+eq%3A+%24sessionAbbreviation+%7D%2C+instrumentNbr%3A+%7B+eq%3A+%24instrumentNbr+%7D+%7D%29+%7B%0A++++data+%7B+instrumentNbr+sessionName+sessionYear+calendarDate+body+matter+amdSub+committee+voteType+voteTitle+rollCallNbr+yeas+nays+%7D%0A++%7D%0A%7D&variables=%7B%22sessionAbbreviation%22%3A+%222026RS%22%2C+%22instrumentNbr%22%3A+%22SB270%22%2C+%22instrumentType%22%3A+%22B%22%7D&operationName=billModal",
+      "body_sha256": "68c5dd7c4e33cd4f6859bdfeded874d47cbbef8bf6dbc59a21ff87a4dde0264d",
+      "stage": "official returned bill history; pagination completeness not established",
+      "role": "bill-specific latest returned action and status",
+      "observed_at": "2026-11-07T18:36:42.911454Z",
+      "locator": "JSON data.instrument and data.histories.data"
+    },
+    {
+      "id": "docket3",
+      "url": "https://arc-sos.state.al.us/cgi/actdetail.mbr/detail?page=act&year=2026&act=610",
+      "body_sha256": "ea6ffa5de95bfe4e1e8002d59f6d7b524d0d1cbc429215d035a3b13c3b8038f4",
+      "text_sha256": "acb5a63a47257f3c9e7dcb86b053bf85764328f57dbd2e8b01d2f998e829c4c5",
+      "stage": "Secretary of State act docket",
+      "role": "approval and authors/joint sponsor",
+      "observed_at": "2026-11-05T23:09:56.333912Z",
+      "locator": "ACT NUMBER, Authors, Joint Sponsors, Signed by Governor, Approved Date and Time"
+    },
+    {
+      "id": "substitute",
+      "url": "https://alison.legislature.state.al.us/files/pdf/SearchableInstruments/2026RS/SLUET57-1.pdf",
+      "body_sha256": "bdd08ba66c396fa9c01423bd5d4c3e2f9342395e4c1b8329c8e5c92a4d0e6f81",
+      "text_sha256": "1db21a95311c15671545551844c2f4a3dda68f5304dabb859978a1c32f9811b6",
+      "stage": "House reported substitute 2026-03-18, offered 2026-04-09; adoption not established",
+      "role": "independently verified candidate version, not enrolled or Senate engrossed text",
+      "observed_at": "2026-11-07",
+      "locator": "printed page 1 heading; hist2 first two actions"
+    }
+  ],
+  "alaska": [
+    {
+      "id": "16793ab495124a33813cd789a766112d",
+      "role": "official HB history and sponsor",
+      "url": "https://www.akleg.gov/basis/Bill/Detail/34?Root=HB259",
+      "body_sha256": "3a1dcf152af1ae4111379c6c4cbb995de3688a5f4fe287dab37605341b9345a7",
+      "text_sha256": "d372e404534605815d4562056c171e4fe41617a1cbfca82d5b8ec9193e8f156f",
+      "observed_date": "2026-11-07",
+      "stage": "history"
+    },
+    {
+      "id": "65bd11c49f1a4e2a94794443ce725e22",
+      "role": "official HCR history and sponsor",
+      "url": "https://www.akleg.gov/basis/Bill/Detail/34?Root=HCR3",
+      "body_sha256": "7f67fc2633054db22f74c0c9d5566b08328871d046e4f555a1dd19f14fa76571",
+      "text_sha256": "45f9f931ad130d53f7b0c42660325e2931594b0542085568d1338d33243007b6",
+      "observed_date": "2026-11-07",
+      "stage": "history"
+    },
+    {
+      "id": "9d1583545cea481cb33a6f3eaec1f00f",
+      "role": "official SB history and sponsor",
+      "url": "https://www.akleg.gov/basis/Bill/Detail/34?Root=SB250",
+      "body_sha256": "c4e1042282f9b08574df5b447f50da19bd031f4d9687aab9ba48a0c1ba0f2e2a",
+      "text_sha256": "9131095afbfa34a53fccc13219e3b9034cafe8b894b8389b87f0056aef910e2e",
+      "observed_date": "2026-11-07",
+      "stage": "history"
+    },
+    {
+      "id": "5a5d8f93e881401aa43a6e8a760a49b0",
+      "role": "official introduced HB text A",
+      "url": "https://www.akleg.gov/basis/Bill/Text/34?Hsid=HB0259A",
+      "body_sha256": "83e95979ac1550959eccfa7b22fe1717cfc1b4c3309b01c5611b0710b609c556",
+      "text_sha256": "fb4a9a9a433107f326b38004e028a752d668c1701a29da6f9ab409fe2aac7a4c",
+      "observed_date": "2026-11-05",
+      "stage": "introduced"
+    },
+    {
+      "id": "48f33889d805428ba71c8cd4b41586b5",
+      "role": "official HCR committee substitute text B",
+      "url": "https://www.akleg.gov/basis/Bill/Text/34?Hsid=HCR003B",
+      "body_sha256": "796914056e36e15c276173762f39de16ebd57d8b98e5fbc0021d0e7aeca41265",
+      "text_sha256": "114f4f3328bdbdd8ffd2728f30791627613bbb153d95ba913bf675a688704e21",
+      "observed_date": "2026-11-05",
+      "stage": "committee substitute"
+    },
+    {
+      "id": "bb248d49aa2d4d57890716c94930d849",
+      "role": "official SB committee substitute text B",
+      "url": "https://www.akleg.gov/basis/Bill/Text/34?Hsid=SB0250B",
+      "body_sha256": "5366dcfe1e11693ed602c89ac395905797a4d6757b518f1f1d74963566f2e694",
+      "text_sha256": "9abf77e7f4711167baa981ae2f9a52b85cb928f058a039e12c6fccf8bdf983d3",
+      "observed_date": "2026-11-05",
+      "stage": "committee substitute"
+    },
+    {
+      "id": "6cb5b7034cda47dcb4cf34fad9075dc2",
+      "role": "official 34th legislature member roster",
+      "url": "https://www.akleg.gov/basis/mbr_info.asp?session=34",
+      "body_sha256": "aa9a3f41a8dcf1231192e5efd42b2af50e08463e565ac8a3495cd4339fdee51b",
+      "text_sha256": "7a96e8738f4c8d4cce976b379f8245a3354df471046173ccb315faaa75d6e2c8",
+      "observed_date": "2026-11-07",
+      "stage": "member roster"
+    },
+    {
+      "id": "2f0cb9274bef41b9a63916c73fcfa50a",
+      "role": "official house roster, incomplete extraction",
+      "url": "https://house.akleg.gov/house.php?sort=party",
+      "body_sha256": "51ae9826a75b08758fc77f9312b3b77e1bb2f7a0252a208e987fd2ab8dfef1f5",
+      "text_sha256": "81a8a3b3ad58a836ecd9d688238b9a51fd65f4a9fdeb699b347317b4e2a63738",
+      "observed_date": "2026-11-07",
+      "stage": "incomplete roster extraction"
+    },
+    {
+      "id": "a55ac8036f414767a20f403e42751120",
+      "role": "secondary legislature page, member names not extracted",
+      "url": "https://ballotpedia.org/Alaska_State_Legislature",
+      "body_sha256": "0a6984aec5683ec48995b3164f8f053adc09779616b317e2e0412f7e7ae7a722",
+      "text_sha256": "27d42aa56d2ef708ff74964b30ce08a17974cb2c750c6238c0c96083787790cb",
+      "observed_date": "2026-11-07",
+      "stage": "secondary page"
+    },
+    {
+      "id": "ee8ee9da19cc4defbcefef94b6dde664",
+      "role": "secondary HB disposition",
+      "url": "https://alaskaaihq.com/docket/hb-259-data-center-utility-standards/",
+      "body_sha256": "0231e951a2acfba0a18a24b98572b21390ac59611ec067ca408d6cde2ad8f642",
+      "text_sha256": "47e7ce5571dbdd6e947fa2273a9f0149633881ce0c6d4db9a4282f5be0a2ec72",
+      "observed_date": "2026-11-05",
+      "stage": "secondary"
+    },
+    {
+      "id": "072f9e4545c14b8aaf3f8aadb8b7d19c",
+      "role": "secondary SB disposition",
+      "url": "https://alaskaaihq.com/docket/sb-250-data-center-utility-costs/",
+      "body_sha256": "d4460177e00d2eada8e80f2c3ae556c8aebb59f008324b925d7652bffe8ed46e",
+      "text_sha256": "ebbc0f16b789c1838d8b2e0cd2dbef2e4b958179a581938209baf4ce94ed418c",
+      "observed_date": "2026-11-05",
+      "stage": "secondary"
+    },
+    {
+      "id": "5a1ec6ab60754f7181f24a8fbe3ebab5",
+      "role": "secondary HCR tracker",
+      "url": "https://www.billtrack50.com/billdetail/1847293",
+      "body_sha256": "7b802eb2bc9211546dbe67d3ddad70fc751b7983b07285c2986949fa132848a1",
+      "text_sha256": "5e15aa3bacedcaec6d4d5d26c537aa8927bd4d2b62090589d5bde123f68ebf32",
+      "observed_date": "2026-11-05",
+      "stage": "secondary"
+    }
+  ]
+}

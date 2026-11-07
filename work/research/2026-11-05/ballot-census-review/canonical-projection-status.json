@@ -1,16 +1,16 @@
 {
   "schema_version": "1.0.0",
-  "reviewed_as_of": "2026-11-06",
+  "reviewed_as_of": "2026-11-07",
   "reviewer": "coordinator",
-  "canonical_snapshot": "a5c897f0d64f46b06fc1d19564cd5b9522a5a4e41a1e25d2fd8c0f59ceea4a3a",
+  "canonical_snapshot": "985573f9ba1d3df1884609039b7c7d79df50fe0da9484a3b0243c11df99640e4",
   "groups_sha256": "8f5f035c37279135c7980e55ce2075721173ea3f857d969cad9500fee1b2ce1b",
   "summary": {
     "logical_groups": 56,
     "candidate_observations": 58,
-    "groups_with_scoped_canonical_publication": 49,
-    "groups_pending_candidate_review": 7,
-    "additional_measures_published_after_freeze": 1,
-    "total_canonical_measures": 50
+    "groups_with_scoped_canonical_publication": 51,
+    "groups_pending_candidate_review": 5,
+    "additional_measures_published_after_freeze": 2,
+    "total_canonical_measures": 53
   },
   "scope": "Reviewed explicit publication correspondences only. Does not allocate registry aliases, accept all candidate fields, establish current legal force, or prove a complete election census. Pending is not absence or rejection. Frozen v3 candidate payload remains unchanged.",
   "groups": [
@@ -385,9 +385,11 @@
           "staged_measure_id": "ballot-ar-001::bp-6c5760a0a7af1e4e"
         }
       ],
-      "disposition": "candidate_review_pending",
-      "canonical_measure_id": null,
-      "publication_plan": null
+      "disposition": "scoped_canonical_publication",
+      "canonical_measure_id": "d7faccbd-2d75-4999-bcc5-bdaebae1150c",
+      "publication_plan": "work/research/2026-11-07/clarksville-proposal-publication/publication-plan.json",
+      "primary_review_packet": "work/research/2026-11-07/clarksville-proposal-publication/coordinator-adjudication.json",
+      "scope": "Conditional future petition referendum proposal only; final date, final ballot, joint administration, voting effects and legal force unresolved."
     },
     {
       "logical_group_id": "bp-6c87b0be7d00d4ae",
@@ -923,9 +925,11 @@
           "staged_measure_id": "ballot-ar-001::bp-fb9b5b60389eba0e"
         }
       ],
-      "disposition": "candidate_review_pending",
-      "canonical_measure_id": null,
-      "publication_plan": null
+      "disposition": "scoped_canonical_publication",
+      "canonical_measure_id": "83ff84da-8ba3-4484-9ba2-22d2107f7eec",
+      "publication_plan": "work/research/2026-11-07/clarksville-proposal-publication/publication-plan.json",
+      "primary_review_packet": "work/research/2026-11-07/clarksville-proposal-publication/coordinator-adjudication.json",
+      "scope": "Conditional future petition referendum proposal only; final date, final ballot, joint administration, voting effects and legal force unresolved."
     },
     {
       "logical_group_id": "bp-fe9281f5575a2ecc",
@@ -1059,6 +1063,14 @@
       "publication_plan": "work/research/2026-11-06/jay-ballot-promotion/publication-plan.json",
       "publication_plan_sha256": "d4e99bf4e40a83ce751ecfab31dd9b9d3ead952cc9ee52f36b23a7c8559abc6e",
       "scope": "Additional discovery solar ballot; not appended to or relabelled as an original frozen56group."
+    },
+    {
+      "candidate_key": "wilmington-separate-chapter1161-initiative",
+      "jurisdiction": "Wilmington, OH",
+      "canonical_measure_id": "db2486d3-7256-42ab-811f-f96e7c776877",
+      "publication_plan": "work/research/2026-11-07/wilmington-initiative-history/publication-plan.json",
+      "publication_plan_sha256": "e623cf1eeb805c7cf47187568e86c6f7e4a5c31705c60133a43ce7146bd21bc6",
+      "scope": "Separate litigated proposed initiative with intended election, no result or operative effect; outside original frozen56groups."
     }
   ]
 }

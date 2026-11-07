@@ -1,0 +1,1276 @@
+{
+  "schema_version": "1.0.0",
+  "expected_sha256": "e505e0b57562d2c3ff157abc1730f6880f3c95df04648edf237d481b6a70721a",
+  "events": [
+    {
+      "schema_version": "1.0.0",
+      "event_id": "3c805c6b-b32f-4aba-afcd-22ecbab4d4e2",
+      "action": "allocate",
+      "table": "jurisdictions",
+      "inputs": [],
+      "outputs": [
+        "140c1ffb-32a1-4ecc-98d3-571e16ed705c"
+      ],
+      "aliases": [
+        {
+          "namespace": "clarksville-manual-2026-11-07",
+          "source_id": "140c1ffb-32a1-4ecc-98d3-571e16ed705c",
+          "record_sha256": "8cfe87614cd584f80d191ae9c929a56a3075bbb5bdb32d7daae783657c790936"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-07T18:25:04.687479+00:00",
+      "rationale": "Manual distinct city electorate and source identity; no inferred final election outcome.",
+      "evidence": [
+        {
+          "url": "https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/5902/Cc/f710b69d-21da-461b-970e-c68a7692d8b9/Resolution-26-1146-Calling-a-Special-Election-on-Referendum-SF-ARK1%2CLLC.pdf?disposition=inline",
+          "body_sha256": "83816a2be51170f2a0593b105209f40e396e1ff43aef98205ca4e58813337f2e",
+          "locator": "signed resolution physical pages 1–2: city electorate and named petition referendum"
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "82d1f206-d91d-4d9f-9a9e-8281c4b9c704",
+      "action": "allocate",
+      "table": "elections",
+      "inputs": [],
+      "outputs": [
+        "0fc8eb30-44cf-4eb9-ba29-17d11f81f9b4"
+      ],
+      "aliases": [
+        {
+          "namespace": "clarksville-manual-2026-11-07",
+          "source_id": "0fc8eb30-44cf-4eb9-ba29-17d11f81f9b4",
+          "record_sha256": "1a0f545d17b6336b4de0dd2c7831a2d047cd60febf0aeba9d6e84780fd239717"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-07T18:25:04.687479+00:00",
+      "rationale": "Root adjudication: plan section 4.1 permits a provisional intended grouping of matching conditional city calls; actual joint administration, qualification and ballot appearance are unconfirmed.",
+      "evidence": [
+        {
+          "url": "https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/5902/Cc/f710b69d-21da-461b-970e-c68a7692d8b9/Resolution-26-1146-Calling-a-Special-Election-on-Referendum-SF-ARK1%2CLLC.pdf?disposition=inline",
+          "body_sha256": "83816a2be51170f2a0593b105209f40e396e1ff43aef98205ca4e58813337f2e",
+          "locator": "signed resolution physical pages 1–2: city electorate and named petition referendum"
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "6f925393-6a27-4e2a-8c59-3b1ef0c75d32",
+      "action": "allocate",
+      "table": "ballot_measures",
+      "inputs": [],
+      "outputs": [
+        "83ff84da-8ba3-4484-9ba2-22d2107f7eec"
+      ],
+      "aliases": [
+        {
+          "namespace": "clarksville-manual-2026-11-07",
+          "source_id": "83ff84da-8ba3-4484-9ba2-22d2107f7eec",
+          "record_sha256": "4a235f7fd4836a2cad24099279588284a8d18cbee8ddd05cacad43d9ab84abb0"
+        },
+        {
+          "namespace": "ballot-discovery-frozen-seed",
+          "source_id": "bp-fb9b5b60389eba0e",
+          "record_sha256": "487f3db1fabc4a94a9e9d63c9cbb9441a74a3277c2b92aa9febd0bbabb2363ca"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-07T18:25:04.687479+00:00",
+      "rationale": "Manual distinct city electorate and source identity; no inferred final election outcome.",
+      "evidence": [
+        {
+          "url": "https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/5902/Cc/f710b69d-21da-461b-970e-c68a7692d8b9/Resolution-26-1146-Calling-a-Special-Election-on-Referendum-SF-ARK1%2CLLC.pdf?disposition=inline",
+          "body_sha256": "83816a2be51170f2a0593b105209f40e396e1ff43aef98205ca4e58813337f2e",
+          "locator": "signed resolution physical pages 1–2: city electorate and named petition referendum"
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "27e9a10c-fbeb-410b-a1b4-79d6f671f52f",
+      "action": "allocate",
+      "table": "ballot_measures",
+      "inputs": [],
+      "outputs": [
+        "d7faccbd-2d75-4999-bcc5-bdaebae1150c"
+      ],
+      "aliases": [
+        {
+          "namespace": "clarksville-manual-2026-11-07",
+          "source_id": "d7faccbd-2d75-4999-bcc5-bdaebae1150c",
+          "record_sha256": "c6bda81428ca87d8c4b44530a48dbf6849076c80eb0245e884ba881a44378fa3"
+        },
+        {
+          "namespace": "ballot-discovery-frozen-seed",
+          "source_id": "bp-6c5760a0a7af1e4e",
+          "record_sha256": "15fd5ed7cfd07132fcca8df5d33b8703c5c0116288d736fc274b8e285bf914a4"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-07T18:25:04.687479+00:00",
+      "rationale": "Manual distinct city electorate and source identity; no inferred final election outcome.",
+      "evidence": [
+        {
+          "url": "https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/5902/Cc/5944e547-bbd2-4b8d-9aba-9334e120ddce/Resolution-26-1147-Calling-a-Special-Election-on-Referendum-HATCHBO-LLC.pdf?disposition=inline",
+          "body_sha256": "bf7a4ad63725224a1fc8da12d6735cfcd1d7aecee83c54f494862bd15ac94e86",
+          "locator": "signed resolution physical pages 1–2: city electorate and named petition referendum"
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "435ca039-b72d-44a4-8ee9-d52d91600905",
+      "action": "allocate",
+      "table": "source_documents",
+      "inputs": [],
+      "outputs": [
+        "0f76d6e2-b9a2-4c4e-8471-5193873c0235"
+      ],
+      "aliases": [
+        {
+          "namespace": "clarksville-manual-2026-11-07",
+          "source_id": "0f76d6e2-b9a2-4c4e-8471-5193873c0235",
+          "record_sha256": "5cba471af48f8678a2a0db1217f6aef34129d46522c918a6cc06cfa98e39f940"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-07T18:25:04.687479+00:00",
+      "rationale": "Manual distinct city electorate and source identity; no inferred final election outcome.",
+      "evidence": [
+        {
+          "url": "https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/5902/Cc/f710b69d-21da-461b-970e-c68a7692d8b9/Resolution-26-1146-Calling-a-Special-Election-on-Referendum-SF-ARK1%2CLLC.pdf?disposition=inline",
+          "body_sha256": "83816a2be51170f2a0593b105209f40e396e1ff43aef98205ca4e58813337f2e",
+          "locator": "retained official municipal PDF body and acquisition metadata"
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "ffe4d7a6-a60d-4758-b7d6-e3ad7dc6d568",
+      "action": "allocate",
+      "table": "source_documents",
+      "inputs": [],
+      "outputs": [
+        "2885f628-bd62-4528-aa05-15e22b6f8f9b"
+      ],
+      "aliases": [
+        {
+          "namespace": "clarksville-manual-2026-11-07",
+          "source_id": "2885f628-bd62-4528-aa05-15e22b6f8f9b",
+          "record_sha256": "2ede4bfed414302a5fe3c6cc556031cf92592746742aee0039173c05068f85cc"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-07T18:25:04.687479+00:00",
+      "rationale": "Manual distinct city electorate and source identity; no inferred final election outcome.",
+      "evidence": [
+        {
+          "url": "https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/5902/Cc/5944e547-bbd2-4b8d-9aba-9334e120ddce/Resolution-26-1147-Calling-a-Special-Election-on-Referendum-HATCHBO-LLC.pdf?disposition=inline",
+          "body_sha256": "bf7a4ad63725224a1fc8da12d6735cfcd1d7aecee83c54f494862bd15ac94e86",
+          "locator": "retained official municipal PDF body and acquisition metadata"
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "afdb151f-3d39-4be1-a29f-6af1e2508e09",
+      "action": "allocate",
+      "table": "source_documents",
+      "inputs": [],
+      "outputs": [
+        "2f7cd823-32e0-414e-896e-6bb70faa392d"
+      ],
+      "aliases": [
+        {
+          "namespace": "clarksville-manual-2026-11-07",
+          "source_id": "2f7cd823-32e0-414e-896e-6bb70faa392d",
+          "record_sha256": "95b3ab09810d09fb480dcca95c5db2ebfc18ef30346bb9c302e0a380ce64a64f"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-07T18:25:04.687479+00:00",
+      "rationale": "Manual distinct city electorate and source identity; no inferred final election outcome.",
+      "evidence": [
+        {
+          "url": "https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/5902/Cc/fecff5ba-6b3f-476b-aeae-723fdd7b6c64/Ordinance-No.-26-1007-Revenue-Bond-HATCHBO-LLC.pdf?disposition=inline",
+          "body_sha256": "8374e118d67252ca69b246a1f6ab9aa55c69868b28fca7c03460ccb5ae4fe779",
+          "locator": "retained official municipal PDF body and acquisition metadata"
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "537c4faa-0508-44c8-b398-9e74ca654469",
+      "action": "allocate",
+      "table": "claims",
+      "inputs": [],
+      "outputs": [
+        "27004663-80d2-41d2-974c-9748bb76f63d"
+      ],
+      "aliases": [
+        {
+          "namespace": "clarksville-manual-2026-11-07",
+          "source_id": "27004663-80d2-41d2-974c-9748bb76f63d",
+          "record_sha256": "f3410e46ff13bbd45c014529dd3bd677df4e6d88a6131e4c8dcaaba210337a9e"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-07T18:25:04.687479+00:00",
+      "rationale": "Manual distinct city electorate and source identity; no inferred final election outcome.",
+      "evidence": [
+        {
+          "url": "https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/5902/Cc/5944e547-bbd2-4b8d-9aba-9334e120ddce/Resolution-26-1147-Calling-a-Special-Election-on-Referendum-HATCHBO-LLC.pdf?disposition=inline",
+          "body_sha256": "bf7a4ad63725224a1fc8da12d6735cfcd1d7aecee83c54f494862bd15ac94e86",
+          "locator": "pdf-page:1"
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "0edd0c4f-e225-41c4-b9a1-9188b605bdda",
+      "action": "allocate",
+      "table": "claims",
+      "inputs": [],
+      "outputs": [
+        "4cf97651-dd9c-4e61-97b9-1bb7a08f6791"
+      ],
+      "aliases": [
+        {
+          "namespace": "clarksville-manual-2026-11-07",
+          "source_id": "4cf97651-dd9c-4e61-97b9-1bb7a08f6791",
+          "record_sha256": "f47b3d1fdf0fdc44ad68da2ca62c0c7447f8ea194f34fb84d5db4cd80e6f3dcf"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-07T18:25:04.687479+00:00",
+      "rationale": "Manual distinct city electorate and source identity; no inferred final election outcome.",
+      "evidence": [
+        {
+          "url": "https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/5902/Cc/5944e547-bbd2-4b8d-9aba-9334e120ddce/Resolution-26-1147-Calling-a-Special-Election-on-Referendum-HATCHBO-LLC.pdf?disposition=inline",
+          "body_sha256": "bf7a4ad63725224a1fc8da12d6735cfcd1d7aecee83c54f494862bd15ac94e86",
+          "locator": "pdf-page:2"
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "b7e63717-c772-4240-960c-e42dea250e81",
+      "action": "allocate",
+      "table": "claims",
+      "inputs": [],
+      "outputs": [
+        "6a5cb49b-0d85-4c62-9959-b35dc35d7df4"
+      ],
+      "aliases": [
+        {
+          "namespace": "clarksville-manual-2026-11-07",
+          "source_id": "6a5cb49b-0d85-4c62-9959-b35dc35d7df4",
+          "record_sha256": "28db19fd5822f72a96ee7960851c00c2699c529599ed0e7429cece2cb4df5598"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-07T18:25:04.687479+00:00",
+      "rationale": "Manual distinct city electorate and source identity; no inferred final election outcome.",
+      "evidence": [
+        {
+          "url": "https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/5902/Cc/f710b69d-21da-461b-970e-c68a7692d8b9/Resolution-26-1146-Calling-a-Special-Election-on-Referendum-SF-ARK1%2CLLC.pdf?disposition=inline",
+          "body_sha256": "83816a2be51170f2a0593b105209f40e396e1ff43aef98205ca4e58813337f2e",
+          "locator": "pdf-page:1"
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "1c9821f7-9d6e-4729-85b2-0ee3357a5531",
+      "action": "allocate",
+      "table": "claims",
+      "inputs": [],
+      "outputs": [
+        "6ffef4f3-69b7-41c2-857c-d07a0a9e08f1"
+      ],
+      "aliases": [
+        {
+          "namespace": "clarksville-manual-2026-11-07",
+          "source_id": "6ffef4f3-69b7-41c2-857c-d07a0a9e08f1",
+          "record_sha256": "988470d43674a22f1c11fa15be090e6ad521d7f942dcee8d034ab2137e3dcbbb"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-07T18:25:04.687479+00:00",
+      "rationale": "Manual distinct city electorate and source identity; no inferred final election outcome.",
+      "evidence": [
+        {
+          "url": "https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/5902/Cc/f710b69d-21da-461b-970e-c68a7692d8b9/Resolution-26-1146-Calling-a-Special-Election-on-Referendum-SF-ARK1%2CLLC.pdf?disposition=inline",
+          "body_sha256": "83816a2be51170f2a0593b105209f40e396e1ff43aef98205ca4e58813337f2e",
+          "locator": "pdf-page:1"
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "825d6b9b-5b0c-4e08-a361-272ade3d7f7b",
+      "action": "allocate",
+      "table": "claims",
+      "inputs": [],
+      "outputs": [
+        "9ea9b9d9-3e15-4747-99ca-38e1a485162b"
+      ],
+      "aliases": [
+        {
+          "namespace": "clarksville-manual-2026-11-07",
+          "source_id": "9ea9b9d9-3e15-4747-99ca-38e1a485162b",
+          "record_sha256": "f28adf02d4c9138adfa5c07cb2d725460fcb22f598755d816a440c5fb9b2a084"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-07T18:25:04.687479+00:00",
+      "rationale": "Manual distinct city electorate and source identity; no inferred final election outcome.",
+      "evidence": [
+        {
+          "url": "https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/5902/Cc/f710b69d-21da-461b-970e-c68a7692d8b9/Resolution-26-1146-Calling-a-Special-Election-on-Referendum-SF-ARK1%2CLLC.pdf?disposition=inline",
+          "body_sha256": "83816a2be51170f2a0593b105209f40e396e1ff43aef98205ca4e58813337f2e",
+          "locator": "pdf-page:2"
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "d8c2bb4a-9bf8-417d-98c8-250fbef5ebf3",
+      "action": "allocate",
+      "table": "claims",
+      "inputs": [],
+      "outputs": [
+        "c0023ecd-8eba-46fc-8aaf-c63cae473aad"
+      ],
+      "aliases": [
+        {
+          "namespace": "clarksville-manual-2026-11-07",
+          "source_id": "c0023ecd-8eba-46fc-8aaf-c63cae473aad",
+          "record_sha256": "af8afaf27f7063488f9229ee13427c7344b58ae0fca42cb0a3b1027abe754547"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-07T18:25:04.687479+00:00",
+      "rationale": "Manual distinct city electorate and source identity; no inferred final election outcome.",
+      "evidence": [
+        {
+          "url": "https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/5902/Cc/f710b69d-21da-461b-970e-c68a7692d8b9/Resolution-26-1146-Calling-a-Special-Election-on-Referendum-SF-ARK1%2CLLC.pdf?disposition=inline",
+          "body_sha256": "83816a2be51170f2a0593b105209f40e396e1ff43aef98205ca4e58813337f2e",
+          "locator": "pdf-page:1"
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "702dec02-b997-4ece-8fad-0f183a6b3c54",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "008a72a1-7285-4cc8-874b-ff449d2917ff"
+      ],
+      "aliases": [
+        {
+          "namespace": "clarksville-manual-2026-11-07",
+          "source_id": "008a72a1-7285-4cc8-874b-ff449d2917ff",
+          "record_sha256": "bf35364eb41eec364d765bdbabb407ada45f88a6279f1134eccbb16dffb7ff8e"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-07T18:25:04.687479+00:00",
+      "rationale": "Manual distinct city electorate and source identity; no inferred final election outcome.",
+      "evidence": [
+        {
+          "url": "https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/5902/Cc/f710b69d-21da-461b-970e-c68a7692d8b9/Resolution-26-1146-Calling-a-Special-Election-on-Referendum-SF-ARK1%2CLLC.pdf?disposition=inline",
+          "body_sha256": "83816a2be51170f2a0593b105209f40e396e1ff43aef98205ca4e58813337f2e",
+          "locator": "pdf-page:2; scoped decision sectors"
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "1531dcd7-cc4a-4af6-a6c9-9b3cea8eda4b",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "09d74eb7-cf9c-4ee6-81f4-ddc58c7a8b31"
+      ],
+      "aliases": [
+        {
+          "namespace": "clarksville-manual-2026-11-07",
+          "source_id": "09d74eb7-cf9c-4ee6-81f4-ddc58c7a8b31",
+          "record_sha256": "b2998a0501da0c3cefc4faa446b4f44e1e53a5ae35cc9076fb07d2b483eaca9f"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-07T18:25:04.687479+00:00",
+      "rationale": "Manual distinct city electorate and source identity; no inferred final election outcome.",
+      "evidence": [
+        {
+          "url": "https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/5902/Cc/5944e547-bbd2-4b8d-9aba-9334e120ddce/Resolution-26-1147-Calling-a-Special-Election-on-Referendum-HATCHBO-LLC.pdf?disposition=inline",
+          "body_sha256": "bf7a4ad63725224a1fc8da12d6735cfcd1d7aecee83c54f494862bd15ac94e86",
+          "locator": "pdf-page:1; scoped decision jurisdiction_id"
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "73eaabc4-d30b-45c3-8d71-87695b721103",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "16383500-e9f7-4084-b4b9-4e2bfef14092"
+      ],
+      "aliases": [
+        {
+          "namespace": "clarksville-manual-2026-11-07",
+          "source_id": "16383500-e9f7-4084-b4b9-4e2bfef14092",
+          "record_sha256": "acf82ad2e1b26925e0a3980c270ca589f51994b819b793e618650c89feafb273"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-07T18:25:04.687479+00:00",
+      "rationale": "Manual distinct city electorate and source identity; no inferred final election outcome.",
+      "evidence": [
+        {
+          "url": "https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/5902/Cc/f710b69d-21da-461b-970e-c68a7692d8b9/Resolution-26-1146-Calling-a-Special-Election-on-Referendum-SF-ARK1%2CLLC.pdf?disposition=inline",
+          "body_sha256": "83816a2be51170f2a0593b105209f40e396e1ff43aef98205ca4e58813337f2e",
+          "locator": "pdf-page:1; scoped decision jurisdiction_id"
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "29cc6bce-efe8-4167-9553-f0a1c5f1a99d",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "1756519c-aec7-4de9-a466-bfcf3f651470"
+      ],
+      "aliases": [
+        {
+          "namespace": "clarksville-manual-2026-11-07",
+          "source_id": "1756519c-aec7-4de9-a466-bfcf3f651470",
+          "record_sha256": "42b9d777032ff2ee651df0d91bf49e774c458e21731d30d8e1f2440339e2b5b7"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-07T18:25:04.687479+00:00",
+      "rationale": "Manual distinct city electorate and source identity; no inferred final election outcome.",
+      "evidence": [
+        {
+          "url": "https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/5902/Cc/f710b69d-21da-461b-970e-c68a7692d8b9/Resolution-26-1146-Calling-a-Special-Election-on-Referendum-SF-ARK1%2CLLC.pdf?disposition=inline",
+          "body_sha256": "83816a2be51170f2a0593b105209f40e396e1ff43aef98205ca4e58813337f2e",
+          "locator": "pdf-page:1; scoped decision county"
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "3361e3b6-2ed0-4b60-abd7-f6de8acee3be",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "2b113862-c433-4d23-9a6c-9aacf7f39cf1"
+      ],
+      "aliases": [
+        {
+          "namespace": "clarksville-manual-2026-11-07",
+          "source_id": "2b113862-c433-4d23-9a6c-9aacf7f39cf1",
+          "record_sha256": "d1129f4dcd49abcd0687e15d1aab465bf58d73f6844a3d08b6bd636413d3fa7e"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-07T18:25:04.687479+00:00",
+      "rationale": "Manual distinct city electorate and source identity; no inferred final election outcome.",
+      "evidence": [
+        {
+          "url": "https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/5902/Cc/f710b69d-21da-461b-970e-c68a7692d8b9/Resolution-26-1146-Calling-a-Special-Election-on-Referendum-SF-ARK1%2CLLC.pdf?disposition=inline",
+          "body_sha256": "83816a2be51170f2a0593b105209f40e396e1ff43aef98205ca4e58813337f2e",
+          "locator": "pdf-page:1; scoped decision election_id"
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "1043ee1f-7eef-44e4-ba8d-a2d446943d92",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "2fe546b5-2b18-43e7-999a-64b6df210cae"
+      ],
+      "aliases": [
+        {
+          "namespace": "clarksville-manual-2026-11-07",
+          "source_id": "2fe546b5-2b18-43e7-999a-64b6df210cae",
+          "record_sha256": "523fe9d1a02dcb75678d4201d0b04416f0a936864a9ee5e4fce85e69ad6f99f2"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-07T18:25:04.687479+00:00",
+      "rationale": "Manual distinct city electorate and source identity; no inferred final election outcome.",
+      "evidence": [
+        {
+          "url": "https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/5902/Cc/f710b69d-21da-461b-970e-c68a7692d8b9/Resolution-26-1146-Calling-a-Special-Election-on-Referendum-SF-ARK1%2CLLC.pdf?disposition=inline",
+          "body_sha256": "83816a2be51170f2a0593b105209f40e396e1ff43aef98205ca4e58813337f2e",
+          "locator": "pdf-page:2; scoped decision referendum_yes_effect"
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "ffc6e203-4226-464a-952b-df85b4e778a0",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "328a8702-ee1f-4b34-9110-8345ecefda16"
+      ],
+      "aliases": [
+        {
+          "namespace": "clarksville-manual-2026-11-07",
+          "source_id": "328a8702-ee1f-4b34-9110-8345ecefda16",
+          "record_sha256": "3cbada9cd5acfd7692f064487b66f5cb06791b44e630d915f4d3ddf8f1c194ed"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-07T18:25:04.687479+00:00",
+      "rationale": "Manual distinct city electorate and source identity; no inferred final election outcome.",
+      "evidence": [
+        {
+          "url": "https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/5902/Cc/f710b69d-21da-461b-970e-c68a7692d8b9/Resolution-26-1146-Calling-a-Special-Election-on-Referendum-SF-ARK1%2CLLC.pdf?disposition=inline",
+          "body_sha256": "83816a2be51170f2a0593b105209f40e396e1ff43aef98205ca4e58813337f2e",
+          "locator": "pdf-page:1; scoped decision jurisdiction_id"
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "e36508e7-7b09-4930-93da-04955dd496d2",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "44073fd0-d822-4f37-8f67-51cf910f2267"
+      ],
+      "aliases": [
+        {
+          "namespace": "clarksville-manual-2026-11-07",
+          "source_id": "44073fd0-d822-4f37-8f67-51cf910f2267",
+          "record_sha256": "7ea72db15c587444dae42d8189abcfbc2372a3d4a251c546556acc167456e88a"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-07T18:25:04.687479+00:00",
+      "rationale": "Manual distinct city electorate and source identity; no inferred final election outcome.",
+      "evidence": [
+        {
+          "url": "https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/5902/Cc/f710b69d-21da-461b-970e-c68a7692d8b9/Resolution-26-1146-Calling-a-Special-Election-on-Referendum-SF-ARK1%2CLLC.pdf?disposition=inline",
+          "body_sha256": "83816a2be51170f2a0593b105209f40e396e1ff43aef98205ca4e58813337f2e",
+          "locator": "pdf-page:1; scoped decision placement_method"
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "dbce449b-a0b0-47d0-b902-5d38d658651c",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "4d55c078-e0e5-477b-9214-977cce42d4e1"
+      ],
+      "aliases": [
+        {
+          "namespace": "clarksville-manual-2026-11-07",
+          "source_id": "4d55c078-e0e5-477b-9214-977cce42d4e1",
+          "record_sha256": "97b7d97a5218248ae67570a2ca1690196dfdd29fb7ec7581eff166ca7aae656b"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-07T18:25:04.687479+00:00",
+      "rationale": "Manual distinct city electorate and source identity; no inferred final election outcome.",
+      "evidence": [
+        {
+          "url": "https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/5902/Cc/5944e547-bbd2-4b8d-9aba-9334e120ddce/Resolution-26-1147-Calling-a-Special-Election-on-Referendum-HATCHBO-LLC.pdf?disposition=inline",
+          "body_sha256": "bf7a4ad63725224a1fc8da12d6735cfcd1d7aecee83c54f494862bd15ac94e86",
+          "locator": "pdf-page:1; scoped decision lifecycle"
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "b7a0604c-9c7f-46fd-a36f-fdd1a6e46bd9",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "51a7179e-f235-4354-b2dd-29f00a75b7cc"
+      ],
+      "aliases": [
+        {
+          "namespace": "clarksville-manual-2026-11-07",
+          "source_id": "51a7179e-f235-4354-b2dd-29f00a75b7cc",
+          "record_sha256": "33b5d9174311d4c6a719ad2aa0dcd5b6a7ebaac7f4ef6d2d3f8cc572de3bfbe6"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-07T18:25:04.687479+00:00",
+      "rationale": "Manual distinct city electorate and source identity; no inferred final election outcome.",
+      "evidence": [
+        {
+          "url": "https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/5902/Cc/f710b69d-21da-461b-970e-c68a7692d8b9/Resolution-26-1146-Calling-a-Special-Election-on-Referendum-SF-ARK1%2CLLC.pdf?disposition=inline",
+          "body_sha256": "83816a2be51170f2a0593b105209f40e396e1ff43aef98205ca4e58813337f2e",
+          "locator": "pdf-page:1; scoped decision scope_note"
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "7767456e-746b-42f2-b667-9eb7bf4c3a2d",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "5a98d1c1-3604-40d4-80fb-177f6b440f11"
+      ],
+      "aliases": [
+        {
+          "namespace": "clarksville-manual-2026-11-07",
+          "source_id": "5a98d1c1-3604-40d4-80fb-177f6b440f11",
+          "record_sha256": "8a511cb9c5f609ed217c24a73fc09ede257bf9701aec5f9c95dcce226d1e17ff"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-07T18:25:04.687479+00:00",
+      "rationale": "Manual distinct city electorate and source identity; no inferred final election outcome.",
+      "evidence": [
+        {
+          "url": "https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/5902/Cc/5944e547-bbd2-4b8d-9aba-9334e120ddce/Resolution-26-1147-Calling-a-Special-Election-on-Referendum-HATCHBO-LLC.pdf?disposition=inline",
+          "body_sha256": "bf7a4ad63725224a1fc8da12d6735cfcd1d7aecee83c54f494862bd15ac94e86",
+          "locator": "pdf-page:1; scoped decision placement_source_term"
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "ccfd3545-14b7-4470-8c5e-e18c9f3deb26",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "651872e6-6488-49e7-b90d-e75d67b8968a"
+      ],
+      "aliases": [
+        {
+          "namespace": "clarksville-manual-2026-11-07",
+          "source_id": "651872e6-6488-49e7-b90d-e75d67b8968a",
+          "record_sha256": "c14bbbb7549c1451a5b0b11bd923a03b27108b410327679b6c9770f7ff4f3b26"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-07T18:25:04.687479+00:00",
+      "rationale": "Manual distinct city electorate and source identity; no inferred final election outcome.",
+      "evidence": [
+        {
+          "url": "https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/5902/Cc/f710b69d-21da-461b-970e-c68a7692d8b9/Resolution-26-1146-Calling-a-Special-Election-on-Referendum-SF-ARK1%2CLLC.pdf?disposition=inline",
+          "body_sha256": "83816a2be51170f2a0593b105209f40e396e1ff43aef98205ca4e58813337f2e",
+          "locator": "pdf-page:1; scoped decision election_date"
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "46a5b8af-3367-4609-b673-818258d2e80e",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "6ddf8fd1-9da3-4967-960f-be06ab0dd625"
+      ],
+      "aliases": [
+        {
+          "namespace": "clarksville-manual-2026-11-07",
+          "source_id": "6ddf8fd1-9da3-4967-960f-be06ab0dd625",
+          "record_sha256": "556d0589d66da897708a267072f93e8a293a7a86ede2c58ef40eb625fa2a4c98"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-07T18:25:04.687479+00:00",
+      "rationale": "Manual distinct city electorate and source identity; no inferred final election outcome.",
+      "evidence": [
+        {
+          "url": "https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/5902/Cc/f710b69d-21da-461b-970e-c68a7692d8b9/Resolution-26-1146-Calling-a-Special-Election-on-Referendum-SF-ARK1%2CLLC.pdf?disposition=inline",
+          "body_sha256": "83816a2be51170f2a0593b105209f40e396e1ff43aef98205ca4e58813337f2e",
+          "locator": "pdf-page:1; scoped decision government_type"
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "fa661b2e-83a0-4347-b588-7a9f0f1d34c4",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "789878a7-e0a3-4dcc-8f3e-eeccd690b373"
+      ],
+      "aliases": [
+        {
+          "namespace": "clarksville-manual-2026-11-07",
+          "source_id": "789878a7-e0a3-4dcc-8f3e-eeccd690b373",
+          "record_sha256": "65fe7839f6fbbba37cfbca7d453a73139485ee06849d8b80cdd97b95ac473701"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-07T18:25:04.687479+00:00",
+      "rationale": "Manual distinct city electorate and source identity; no inferred final election outcome.",
+      "evidence": [
+        {
+          "url": "https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/5902/Cc/5944e547-bbd2-4b8d-9aba-9334e120ddce/Resolution-26-1147-Calling-a-Special-Election-on-Referendum-HATCHBO-LLC.pdf?disposition=inline",
+          "body_sha256": "bf7a4ad63725224a1fc8da12d6735cfcd1d7aecee83c54f494862bd15ac94e86",
+          "locator": "pdf-page:1; scoped decision election_id"
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "57a351c0-626e-49a6-a2fe-e4482cdda3e5",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "7f7e960e-1854-4868-82a0-0d4e24349033"
+      ],
+      "aliases": [
+        {
+          "namespace": "clarksville-manual-2026-11-07",
+          "source_id": "7f7e960e-1854-4868-82a0-0d4e24349033",
+          "record_sha256": "ab9ac4ed7d3fc098f992d225f455c6c3501e42e5f6b611ad36f5a86108d416a9"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-07T18:25:04.687479+00:00",
+      "rationale": "Manual distinct city electorate and source identity; no inferred final election outcome.",
+      "evidence": [
+        {
+          "url": "https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/5902/Cc/5944e547-bbd2-4b8d-9aba-9334e120ddce/Resolution-26-1147-Calling-a-Special-Election-on-Referendum-HATCHBO-LLC.pdf?disposition=inline",
+          "body_sha256": "bf7a4ad63725224a1fc8da12d6735cfcd1d7aecee83c54f494862bd15ac94e86",
+          "locator": "pdf-page:2; scoped decision petition_proposed_wording"
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "b3b733d3-eec4-4c38-8190-0e3936a2b5b9",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "857a6e0a-bfca-43eb-8824-7d5783e721a4"
+      ],
+      "aliases": [
+        {
+          "namespace": "clarksville-manual-2026-11-07",
+          "source_id": "857a6e0a-bfca-43eb-8824-7d5783e721a4",
+          "record_sha256": "90c77bace4f411d4800e8a95cd9c49afad7a3418868de2b1453a61f8de293d65"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-07T18:25:04.687479+00:00",
+      "rationale": "Manual distinct city electorate and source identity; no inferred final election outcome.",
+      "evidence": [
+        {
+          "url": "https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/5902/Cc/f710b69d-21da-461b-970e-c68a7692d8b9/Resolution-26-1146-Calling-a-Special-Election-on-Referendum-SF-ARK1%2CLLC.pdf?disposition=inline",
+          "body_sha256": "83816a2be51170f2a0593b105209f40e396e1ff43aef98205ca4e58813337f2e",
+          "locator": "pdf-page:1; scoped decision name"
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "94fdbfc3-ce58-4bfd-b21f-c5bfd3b3679e",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "913848de-512e-4dc8-a5bd-3775825cf4fb"
+      ],
+      "aliases": [
+        {
+          "namespace": "clarksville-manual-2026-11-07",
+          "source_id": "913848de-512e-4dc8-a5bd-3775825cf4fb",
+          "record_sha256": "ec6d20075bf3efd9a91ffa24aa551ca27e73b963b228f0649b0e361f9cfac9ad"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-07T18:25:04.687479+00:00",
+      "rationale": "Manual distinct city electorate and source identity; no inferred final election outcome.",
+      "evidence": [
+        {
+          "url": "https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/5902/Cc/f710b69d-21da-461b-970e-c68a7692d8b9/Resolution-26-1146-Calling-a-Special-Election-on-Referendum-SF-ARK1%2CLLC.pdf?disposition=inline",
+          "body_sha256": "83816a2be51170f2a0593b105209f40e396e1ff43aef98205ca4e58813337f2e",
+          "locator": "pdf-page:1; scoped decision administering_authority"
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "b20a7eeb-5952-4ded-bafd-31132cc19a74",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "ab65bb43-b870-404a-8307-144da0f7f5b1"
+      ],
+      "aliases": [
+        {
+          "namespace": "clarksville-manual-2026-11-07",
+          "source_id": "ab65bb43-b870-404a-8307-144da0f7f5b1",
+          "record_sha256": "18f4219ba96527f0b4e1b501ae413939c4a2f2a478c18407001949383004d338"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-07T18:25:04.687479+00:00",
+      "rationale": "Manual distinct city electorate and source identity; no inferred final election outcome.",
+      "evidence": [
+        {
+          "url": "https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/5902/Cc/f710b69d-21da-461b-970e-c68a7692d8b9/Resolution-26-1146-Calling-a-Special-Election-on-Referendum-SF-ARK1%2CLLC.pdf?disposition=inline",
+          "body_sha256": "83816a2be51170f2a0593b105209f40e396e1ff43aef98205ca4e58813337f2e",
+          "locator": "pdf-page:1; scoped decision title"
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "d6c26e34-9d9e-4480-8182-e247355e1d14",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "ad808281-127b-4af4-8174-7e0ddc156782"
+      ],
+      "aliases": [
+        {
+          "namespace": "clarksville-manual-2026-11-07",
+          "source_id": "ad808281-127b-4af4-8174-7e0ddc156782",
+          "record_sha256": "2776a3d44ec678d725be1ae806a8bb1c9ea92ada987d5a87b39b22a18f81b88f"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-07T18:25:04.687479+00:00",
+      "rationale": "Manual distinct city electorate and source identity; no inferred final election outcome.",
+      "evidence": [
+        {
+          "url": "https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/5902/Cc/f710b69d-21da-461b-970e-c68a7692d8b9/Resolution-26-1146-Calling-a-Special-Election-on-Referendum-SF-ARK1%2CLLC.pdf?disposition=inline",
+          "body_sha256": "83816a2be51170f2a0593b105209f40e396e1ff43aef98205ca4e58813337f2e",
+          "locator": "pdf-page:1; scoped decision placement_source_term"
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "9acf9e15-837e-4c45-b540-2a0f96e55bb4",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "b074af0b-59c5-4825-81ff-b8407422550b"
+      ],
+      "aliases": [
+        {
+          "namespace": "clarksville-manual-2026-11-07",
+          "source_id": "b074af0b-59c5-4825-81ff-b8407422550b",
+          "record_sha256": "377ab2c37928769d6a3dcc8d533500b89f9b6764c3ae43ed1d99cda80658192e"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-07T18:25:04.687479+00:00",
+      "rationale": "Manual distinct city electorate and source identity; no inferred final election outcome.",
+      "evidence": [
+        {
+          "url": "https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/5902/Cc/5944e547-bbd2-4b8d-9aba-9334e120ddce/Resolution-26-1147-Calling-a-Special-Election-on-Referendum-HATCHBO-LLC.pdf?disposition=inline",
+          "body_sha256": "bf7a4ad63725224a1fc8da12d6735cfcd1d7aecee83c54f494862bd15ac94e86",
+          "locator": "pdf-page:1; scoped decision placement_method"
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "bdd2c354-01c3-47b0-aa4b-544d016d5c12",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "b14a2efa-c1b8-4f05-b07b-43efe847c9d0"
+      ],
+      "aliases": [
+        {
+          "namespace": "clarksville-manual-2026-11-07",
+          "source_id": "b14a2efa-c1b8-4f05-b07b-43efe847c9d0",
+          "record_sha256": "9c4511d2841e4a0aa616329d50c58f50fef89614d637d2eae08b2edbfe661f96"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-07T18:25:04.687479+00:00",
+      "rationale": "Manual distinct city electorate and source identity; no inferred final election outcome.",
+      "evidence": [
+        {
+          "url": "https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/5902/Cc/5944e547-bbd2-4b8d-9aba-9334e120ddce/Resolution-26-1147-Calling-a-Special-Election-on-Referendum-HATCHBO-LLC.pdf?disposition=inline",
+          "body_sha256": "bf7a4ad63725224a1fc8da12d6735cfcd1d7aecee83c54f494862bd15ac94e86",
+          "locator": "pdf-page:1; scoped decision referral_call"
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "ba63e952-e2f8-460a-966c-ce1d44373005",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "b266aa9c-c5f6-4a2e-b00a-495306c1a74e"
+      ],
+      "aliases": [
+        {
+          "namespace": "clarksville-manual-2026-11-07",
+          "source_id": "b266aa9c-c5f6-4a2e-b00a-495306c1a74e",
+          "record_sha256": "c4cdd5e9024e41029d1ef5012a01781ee4ac9ee63aeceee4df8235e1da39b9bb"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-07T18:25:04.687479+00:00",
+      "rationale": "Manual distinct city electorate and source identity; no inferred final election outcome.",
+      "evidence": [
+        {
+          "url": "https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/5902/Cc/5944e547-bbd2-4b8d-9aba-9334e120ddce/Resolution-26-1147-Calling-a-Special-Election-on-Referendum-HATCHBO-LLC.pdf?disposition=inline",
+          "body_sha256": "bf7a4ad63725224a1fc8da12d6735cfcd1d7aecee83c54f494862bd15ac94e86",
+          "locator": "pdf-page:2; scoped decision referendum_yes_effect"
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "ce8abe57-23ae-4844-b462-a4e8360d6e11",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "bc3e2490-2fc5-465f-9b15-7ca8523f01c0"
+      ],
+      "aliases": [
+        {
+          "namespace": "clarksville-manual-2026-11-07",
+          "source_id": "bc3e2490-2fc5-465f-9b15-7ca8523f01c0",
+          "record_sha256": "ec990dae62542c181ce395bac739f7bb549bbf7d05d461b5521b097e9599df02"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-07T18:25:04.687479+00:00",
+      "rationale": "Manual distinct city electorate and source identity; no inferred final election outcome.",
+      "evidence": [
+        {
+          "url": "https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/5902/Cc/f710b69d-21da-461b-970e-c68a7692d8b9/Resolution-26-1146-Calling-a-Special-Election-on-Referendum-SF-ARK1%2CLLC.pdf?disposition=inline",
+          "body_sha256": "83816a2be51170f2a0593b105209f40e396e1ff43aef98205ca4e58813337f2e",
+          "locator": "pdf-page:1; scoped decision jurisdiction_identity"
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "8c7f11e3-790b-439b-b829-85db24020b79",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "c727ee81-5907-4465-a3ec-77f497a0a1a0"
+      ],
+      "aliases": [
+        {
+          "namespace": "clarksville-manual-2026-11-07",
+          "source_id": "c727ee81-5907-4465-a3ec-77f497a0a1a0",
+          "record_sha256": "f7eb26b9068e614941b6fd2430be649ca6b028767849253133bc2d8ba6656cda"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-07T18:25:04.687479+00:00",
+      "rationale": "Manual distinct city electorate and source identity; no inferred final election outcome.",
+      "evidence": [
+        {
+          "url": "https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/5902/Cc/f710b69d-21da-461b-970e-c68a7692d8b9/Resolution-26-1146-Calling-a-Special-Election-on-Referendum-SF-ARK1%2CLLC.pdf?disposition=inline",
+          "body_sha256": "83816a2be51170f2a0593b105209f40e396e1ff43aef98205ca4e58813337f2e",
+          "locator": "pdf-page:1; scoped decision state"
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "6d3b48d1-203d-4dd0-91fb-fb5219a1873a",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "d7b09f1e-8ace-4aab-b081-7c5d3193d93b"
+      ],
+      "aliases": [
+        {
+          "namespace": "clarksville-manual-2026-11-07",
+          "source_id": "d7b09f1e-8ace-4aab-b081-7c5d3193d93b",
+          "record_sha256": "7a60713365586a05fc88d6ff9e83b7f78bc9768eeb316577ccf7e08ecbe80bda"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-07T18:25:04.687479+00:00",
+      "rationale": "Manual distinct city electorate and source identity; no inferred final election outcome.",
+      "evidence": [
+        {
+          "url": "https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/5902/Cc/f710b69d-21da-461b-970e-c68a7692d8b9/Resolution-26-1146-Calling-a-Special-Election-on-Referendum-SF-ARK1%2CLLC.pdf?disposition=inline",
+          "body_sha256": "83816a2be51170f2a0593b105209f40e396e1ff43aef98205ca4e58813337f2e",
+          "locator": "pdf-page:1; scoped decision referral_call"
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "b5923f4d-85ce-4663-995f-b097148fd384",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "dcb0499b-706e-4981-8bd7-3e87207c7bfc"
+      ],
+      "aliases": [
+        {
+          "namespace": "clarksville-manual-2026-11-07",
+          "source_id": "dcb0499b-706e-4981-8bd7-3e87207c7bfc",
+          "record_sha256": "9256599fcad521ac84b94607dd10dd43580c6437dec5ba1e5fade4a9187fc79a"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-07T18:25:04.687479+00:00",
+      "rationale": "Manual distinct city electorate and source identity; no inferred final election outcome.",
+      "evidence": [
+        {
+          "url": "https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/5902/Cc/f710b69d-21da-461b-970e-c68a7692d8b9/Resolution-26-1146-Calling-a-Special-Election-on-Referendum-SF-ARK1%2CLLC.pdf?disposition=inline",
+          "body_sha256": "83816a2be51170f2a0593b105209f40e396e1ff43aef98205ca4e58813337f2e",
+          "locator": "pdf-page:1; scoped decision lifecycle"
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "80f6835a-c07d-47ba-903a-29314073cf72",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "dd60d3a6-9c8f-4410-a3ce-72fb7e936dd8"
+      ],
+      "aliases": [
+        {
+          "namespace": "clarksville-manual-2026-11-07",
+          "source_id": "dd60d3a6-9c8f-4410-a3ce-72fb7e936dd8",
+          "record_sha256": "889a8d09b93b4658a3658e511f2ba3e6d4cf90d565eea4d1acde28c9a6405410"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-07T18:25:04.687479+00:00",
+      "rationale": "Manual distinct city electorate and source identity; no inferred final election outcome.",
+      "evidence": [
+        {
+          "url": "https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/5902/Cc/f710b69d-21da-461b-970e-c68a7692d8b9/Resolution-26-1146-Calling-a-Special-Election-on-Referendum-SF-ARK1%2CLLC.pdf?disposition=inline",
+          "body_sha256": "83816a2be51170f2a0593b105209f40e396e1ff43aef98205ca4e58813337f2e",
+          "locator": "pdf-page:1; scoped decision conditional_call"
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "b7979f28-d58b-4854-8508-d3ae9344957d",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "dfa9f0aa-8fee-4057-adde-cffad2c775b8"
+      ],
+      "aliases": [
+        {
+          "namespace": "clarksville-manual-2026-11-07",
+          "source_id": "dfa9f0aa-8fee-4057-adde-cffad2c775b8",
+          "record_sha256": "5efd9b3811e8530cfcdcb3410bc5fd022762c7514c00742b8dc850f8c33e17a1"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-07T18:25:04.687479+00:00",
+      "rationale": "Manual distinct city electorate and source identity; no inferred final election outcome.",
+      "evidence": [
+        {
+          "url": "https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/5902/Cc/5944e547-bbd2-4b8d-9aba-9334e120ddce/Resolution-26-1147-Calling-a-Special-Election-on-Referendum-HATCHBO-LLC.pdf?disposition=inline",
+          "body_sha256": "bf7a4ad63725224a1fc8da12d6735cfcd1d7aecee83c54f494862bd15ac94e86",
+          "locator": "pdf-page:1; scoped decision scope_note"
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "623c7e5d-50b2-4330-af2a-d0139604ec15",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "ed6a5850-fe6c-4980-9789-847b6dfed68f"
+      ],
+      "aliases": [
+        {
+          "namespace": "clarksville-manual-2026-11-07",
+          "source_id": "ed6a5850-fe6c-4980-9789-847b6dfed68f",
+          "record_sha256": "079a3ddfaab0406dadbf21c4f18ed248ace1667c0faaf8c8770a1b7d8f2e1436"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-07T18:25:04.687479+00:00",
+      "rationale": "Manual distinct city electorate and source identity; no inferred final election outcome.",
+      "evidence": [
+        {
+          "url": "https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/5902/Cc/5944e547-bbd2-4b8d-9aba-9334e120ddce/Resolution-26-1147-Calling-a-Special-Election-on-Referendum-HATCHBO-LLC.pdf?disposition=inline",
+          "body_sha256": "bf7a4ad63725224a1fc8da12d6735cfcd1d7aecee83c54f494862bd15ac94e86",
+          "locator": "pdf-page:1; scoped decision title"
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "d197094b-bb5b-45a9-a786-38962979eef6",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "ef1d7864-2db9-4cda-8ca1-09ead3cd55a8"
+      ],
+      "aliases": [
+        {
+          "namespace": "clarksville-manual-2026-11-07",
+          "source_id": "ef1d7864-2db9-4cda-8ca1-09ead3cd55a8",
+          "record_sha256": "d281a3442ab97a5b37f36e353ff32f0a0fe6f75364a9f2f97457463573810fe4"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-07T18:25:04.687479+00:00",
+      "rationale": "Manual distinct city electorate and source identity; no inferred final election outcome.",
+      "evidence": [
+        {
+          "url": "https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/5902/Cc/f710b69d-21da-461b-970e-c68a7692d8b9/Resolution-26-1146-Calling-a-Special-Election-on-Referendum-SF-ARK1%2CLLC.pdf?disposition=inline",
+          "body_sha256": "83816a2be51170f2a0593b105209f40e396e1ff43aef98205ca4e58813337f2e",
+          "locator": "pdf-page:2; scoped decision petition_proposed_wording"
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "dbdc2842-245a-4920-8455-b63ec06e58ba",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "fa191caf-3379-4499-9454-9fbe38d6a40d"
+      ],
+      "aliases": [
+        {
+          "namespace": "clarksville-manual-2026-11-07",
+          "source_id": "fa191caf-3379-4499-9454-9fbe38d6a40d",
+          "record_sha256": "acff3f236af3a8875df8dc78c812550cf0342ceaec12c11de1a16d2ef7fc80f7"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-07T18:25:04.687479+00:00",
+      "rationale": "Manual distinct city electorate and source identity; no inferred final election outcome.",
+      "evidence": [
+        {
+          "url": "https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/5902/Cc/f710b69d-21da-461b-970e-c68a7692d8b9/Resolution-26-1146-Calling-a-Special-Election-on-Referendum-SF-ARK1%2CLLC.pdf?disposition=inline",
+          "body_sha256": "83816a2be51170f2a0593b105209f40e396e1ff43aef98205ca4e58813337f2e",
+          "locator": "pdf-page:1; scoped decision election_type"
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "4a806f05-99e6-4eb7-87d5-b0c90579bf62",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "fc84301e-252d-4c11-a884-07b13396b7a1"
+      ],
+      "aliases": [
+        {
+          "namespace": "clarksville-manual-2026-11-07",
+          "source_id": "fc84301e-252d-4c11-a884-07b13396b7a1",
+          "record_sha256": "ffcd73f7fa3618ee6faaaf1cd811abd04ad60fb1d87a6006b6efbdc4b7b768b6"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-07T18:25:04.687479+00:00",
+      "rationale": "Manual distinct city electorate and source identity; no inferred final election outcome.",
+      "evidence": [
+        {
+          "url": "https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/5902/Cc/5944e547-bbd2-4b8d-9aba-9334e120ddce/Resolution-26-1147-Calling-a-Special-Election-on-Referendum-HATCHBO-LLC.pdf?disposition=inline",
+          "body_sha256": "bf7a4ad63725224a1fc8da12d6735cfcd1d7aecee83c54f494862bd15ac94e86",
+          "locator": "pdf-page:2; scoped decision sectors"
+        }
+      ]
+    }
+  ]
+}

@@ -44,11 +44,6 @@ remain separate operations.
 
 ## Canonical projection status
 
-`canonical-projection-status.json` reconciles the frozen candidate groups with
-subsequent scoped canonical publications. At its pinned snapshot, ten of 56
-logical groups have published measure records: Eliot, Sabattus, Canterbury,
-Nottingham, Wiscasset, North Berwick, Wells, Peru, Brownfield and Freedom. The other 46 groups remain pending candidate review. This does not
-mean all fields or legal histories in the ten published groups are verified.
-The 58 source observations and v3 payload remain intact. Explicit correspondences
-pin publication plans and canonical record hashes; this accounting does not
-create identity-registry aliases or infer identities from similar names.
+`canonical-projection-status.json` reconciles the frozen candidate groups with subsequent scoped publications. The November 7 view has 51 of 56 groups in canonical records and five outside; Jay and the separately litigated Wilmington initiative are two additional records outside the freeze, for 53 total. Clarksville's two newly published proposals retain conditional future dates and unknown final ballots and effects. Publication correspondence does not establish that all fields or legal histories are verified.
+
+The original 58 observations and v3 payload remain intact. The first ten-group checkpoint and subsequent waves remain in Git history and their pinned receipts. Explicit correspondences pin publication plans and canonical IDs; this accounting does not create identity aliases or infer identity from similar names. See the [Clarksville reconciliation](../../2026-11-07/clarksville-proposal-publication/cohort-reconciliation.json) for the previous and current projection hashes.

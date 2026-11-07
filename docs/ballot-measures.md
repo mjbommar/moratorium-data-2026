@@ -214,6 +214,10 @@ parcel referendums nor a defeated voted measure or an operative restriction.
 [Official slip opinion, 2026-Ohio-3663](https://www.supremecourt.ohio.gov/rod/docs/pdf/0/2026/2026-Ohio-3663.pdf).
 
 The expanded total includes proposal histories: 49 records have the `voted`
-lifecycle, one is scheduled and one is litigated. Result observations remain
+lifecycle, three are scheduled or called and one is litigated. Result observations remain
 separate, including partial-jurisdiction observations. The intended-election
 foreign key and an elapsed date do not establish ballot appearance.
+
+## Clarksville conditional referendum calls
+
+The [reviewed proposals](../work/research/2026-11-07/clarksville-proposal-publication/README.md) separately identify SF ARK1 Ordinance 26-1008 and HATCHBO Ordinance 26-1007. Their signed September 28 referrals call December 1, 2026 with December 8 as an alternate if the first date is unlawful. Final dates and ballots remain unconfirmed. Both are future proposals with unknown date bounds and original conditional text; a provisionally shared intended-election link does not prove joint final administration or actual appearance. Proposed petition voting direction remains a source observation; final referendum effect, bindingness and development-relative direction are unresolved. Neither bond authorization ceiling establishes spending, a project approval or an operative restriction.

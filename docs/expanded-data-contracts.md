@@ -6,7 +6,7 @@ moratorium grain and exclusion of permanent bans remain unchanged. A successful
 validation is structural consistency, not proof of legal effect, source accuracy,
 identity, completeness, or permission to publish. An initial [reviewed snapshot writer](expanded-promotion.md) now supplies separate
 identity, evidence, field-review and atomic-publication gates; reviewed canonical
-records currently cover 51 reviewed proposal and measure records (49 from the frozen cohort, Jay's separately reviewed solar ballot and a separate Wilmington litigated initiative), with explicit result supersession and seven unresolved frozen candidate groups kept outside the canonical measure total. The restriction/link migration now includes Edgewater’s proposed charter restriction with unknown legal status and an accepted `proposes` relationship. For Edgewater, no adoption/effect event or current force is inferred. The [Coachella history migration](../work/research/2026-11-07/coachella-restriction-history-migration/README.md) adds a separate adopted prohibition and qualified policy-predecessor relation without establishing effectiveness, formal termination or present force; broader migration remains incomplete. See the
+records currently cover 53 reviewed proposal and measure records (51 from the frozen cohort, Jay's separately reviewed solar ballot and a separate Wilmington litigated initiative), with explicit result supersession and five unresolved frozen candidate groups kept outside the canonical measure total. The restriction/link migration now includes Edgewater’s proposed charter restriction with unknown legal status and an accepted `proposes` relationship. For Edgewater, no adoption/effect event or current force is inferred. The [Coachella history migration](../work/research/2026-11-07/coachella-restriction-history-migration/README.md) adds a separate adopted prohibition and qualified policy-predecessor relation without establishing effectiveness, formal termination or present force; broader migration remains incomplete. See the
 [generated results view](ballot-results.md). Identity decisions have a separate
 [append-only registry](expanded-identity-registry.md).
 
@@ -93,6 +93,8 @@ development-relative advisory axis, contest-count reporting scope, statutory
 roles and actor/electorate/territory distinctions. A mechanism describes the
 proposition, not its winning side. These definitions do not renew source review
 or silently relabel historical observations.
+
+An election link may identify an intended event. The [Clarksville proposals](../work/research/2026-11-07/clarksville-proposal-publication/README.md) provisionally group matching city referendum calls, with joint final administration explicitly unconfirmed in election type, measure notes and field decisions. Their unknown date bounds retain the exact conditional call in original text; neither alternative is selected. The link establishes neither final placement nor an actually held joint ballot. Later evidence may require registry identity reconciliation. Petition-only proposed voting effects remain source observations while final effect fields are unresolved.
 
 The table definitions are `jurisdictions`, `elections`, `ballot_measures`,
 `measure_provisions`, `measure_results`, `local_restrictions`, `instrument_events`,

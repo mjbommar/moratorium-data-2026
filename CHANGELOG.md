@@ -2,6 +2,12 @@
 
 ## 2026-11-07 — current working snapshot (unreleased)
 
+The [Clarksville publication](work/research/2026-11-07/clarksville-proposal-publication/README.md) adds two conditional future referendum proposals: 53 total records (49 voted, three scheduled/called, one litigated), 57 retained/50 current results and five current certified observations. All 3,470 prior record lines are unchanged. The provisional intended-election link, final dates, ballots and effects remain explicitly qualified. Frozen correspondence is 51 of 56 groups; five remain outside canonical records.
+
+The [Colorado policy review](work/research/2026-11-07/colorado-policy-source-review/README.md) applies 15 cells across four records, correcting incentive/exemption/utility mechanisms, mixed scope, source links and proposed-version wording. Histories explicitly identify Lost bills; current force and amendment/sponsor followups remain separate.
+
+The [Alabama/Alaska policy review](work/research/2026-11-07/alabama-alaska-policy-source-review/README.md) applies 30 cells across seven existing records after 133 field assessments and independent changed-field source review. Distinguish governor approval/enactment-entry dates, tax-transition and utility-threshold clauses, unproved terminal failure, and current force. Three Alaska statewide_moratorium classifications are corrected to utility restrictions or a task-force proposal; policy/bill/enacted census totals are unchanged.
+
 The [eight original-term adjudications](work/research/2026-11-07/original-term-eight-source-adjudication/README.md) apply 56 cells across eight records, remove seven converted or unsupported numeric day counts, retain Prichard's explicitly reported 180 days, and clear Cullman's unsupported endpoint. Flagged rows now total 723. All 217 final-clause requirements remain open, with refined source findings and documentary followups.
 
 Recovered [Brooks and Calhoun original sources](work/research/2026-11-07/georgia-recovered-originals/README.md) support 16 further cell corrections across two records. Brooks's signed term is three calendar months; May and July draft minutes do not establish a continuous extension or December 31 endpoint. Calhoun's signed minutes do establish the January 25 scheduled endpoint, retained with later-force limits. Original adoption dates remain exact. Flagged rows now total 716; no census or ballot count changes.

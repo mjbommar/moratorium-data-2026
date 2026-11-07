@@ -1,0 +1,28 @@
+{
+  "make_data_site_check": {
+    "exit": 0,
+    "errors": 0,
+    "warnings": 502,
+    "documented_numbers_matched": 65
+  },
+  "due_work_tests": {
+    "passed": 8
+  },
+  "actual_conditional_consumers_checked": [
+    "canonical JSONL",
+    "derived CSV",
+    "generated Markdown",
+    "operator due-work"
+  ],
+  "source_bindings": {
+    "verified": 565,
+    "issues": 0
+  },
+  "prior_record_lines_preserved": 3470,
+  "exact_replay": "already_applied",
+  "limits": "Internal/source consistency and scoped review, not whole-record freshness, final election confirmation, hosted delivery or a final release.",
+  "whitespace_check": {
+    "maintained_files": "pass",
+    "generated_csv_note": "git diff --check flags inherited trailing spaces inside retained multiline source values in the new CSV projection. Values are preserved losslessly; the CSV generation/hash checker passes. No source text was normalized to silence the whitespace warning."
+  }
+}

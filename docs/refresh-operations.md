@@ -3,7 +3,7 @@
 Work from a pinned commit and retain the cohort cutoff separately from the date
 of an individual source review. Research jobs are not a substantive acceptance gate.
 
-The latest working publication selects [profile 1.0.4](policy-succession-contract.md): ten retained historical events, two restriction records, and the unchanged 51 measure/proposal records with 57 retained/50 current results and five current certified observations. Full freshness and final release remain open. Dated checkpoints below retain their historical counts and test results; use the authenticated publication and generated views for current totals.
+The latest working publication selects [profile 1.0.4](policy-succession-contract.md): ten retained historical events, two restriction records, and 53 measure/proposal records (49 voted, three scheduled or called, one litigated) with 57 retained/50 current results and five current certified observations. Full freshness and final release remain open. Dated checkpoints below retain their historical counts and test results; use the authenticated publication and generated views for current totals.
 
 ## Due work
 
@@ -24,7 +24,7 @@ review; no outcome or operative law is inferred. Re-running this report does not
 mark a task completed or renew source dates. Resolve tasks through evidence review
 and canonical correction/publication, then regenerate from the new snapshot.
 
-The seven unresolved frozen candidates remain in the separate ballot disposition
+The five frozen candidates outside canonical records remain in the current ballot disposition
 ledger. The legacy worklist handles expiry, unknown extension anchors, stale pending
 records and verification markers. Its date alerts are research prompts: verify the
 actual effective-date anchor, calendar term and later actions before changing status.
@@ -461,3 +461,5 @@ Lifecycle-aware due-work now requests qualification/history review before missin
 The [November 7 source packet](../work/research/2026-11-07/executive-force-review/README.md) corrects twelve cells across New York EO 62, Texas's August 3 audit directive and Texas SB 6. Two unsupported current-force labels become unknown without implying cessation; SB 6 retains bounded statutory force after pydoll recovers actual official code behind the HTTP navigation shells. Initial dates and all other cells/IDs are preserved. Direct PDF images correct omitted date headers; raw HTML preserves attribution fields dropped by cleaned text. All local and expanded-ballot counts remain unchanged.
 
 The [field-accounting update](../work/audit/refresh-field-accounting-2026-11-07.md) separates the frozen collection-audit clock from canonical-file inspection, and distinguishes logged edits from complete source freshness. No new searches are required for replay. Wider all-field/legal-history review, P4 acceptance and final release remain open.
+
+The [Clarksville proposal publication](../work/research/2026-11-07/clarksville-proposal-publication/README.md) adds two conditional future referendum proposals under profile 1.0.4, preserving unknown final dates, ballots and effects. Source integrity verifies 565 claims; no results, restrictions or instrument events are added. Seven Alabama/Alaska and four Colorado policy records have source-reviewed corrections, with scope and current-force limits in their packets. These updates do not close full freshness, consumer delivery or final release.

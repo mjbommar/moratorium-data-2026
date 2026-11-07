@@ -69,7 +69,7 @@ if __name__ == '__main__':
         scope='Operator review priorities only; no legal deadlines, renewed factual acceptance or status mutation. Certification and implementation remain independent.',
         source_hashes={n:hashlib.sha256((snapshot/(n+'.jsonl')).read_bytes()).hexdigest() for n in ['ballot_measures','elections','measure_results']},
         task_counts=dict(Counter(r['kind'] for r in work)), tasks=work,
-        additional_worklists={'qualification_gaps':'work/audit/ballot-release-dispositions-2026-11-06.json',
+        additional_worklists={'qualification_gaps':'work/research/2026-11-05/ballot-census-review/canonical-projection-status.json',
             'legacy_expiry':'Run scripts/build_worklist.py --today YYYY-MM-DD; review anchors before computing expiry.'})
     args.output.parent.mkdir(parents=True, exist_ok=True)
     args.output.write_text(json.dumps(report, indent=2)+'\n')
