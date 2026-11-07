@@ -21,7 +21,7 @@ from research_client import reserve, finish, search_scope
 
 BACKENDS = {'exa', 'serpapi', 'googlenews', 'gdelt'}
 LANES = {'inventory_refresh', 'election_census', 'gap_discovery'}
-SECTORS = {'data_center', 'battery_storage', 'solar', 'wind', 'cryptocurrency'}
+SECTORS = {'data_center', 'battery_storage', 'solar', 'wind', 'cryptocurrency', 'sector_unresolved'}
 DIMENSIONS = ('lane', 'jurisdiction_id', 'sector', 'period', 'intent', 'known_id')
 CURRENT_VARIANT = ContextVar('refresh_search_variant')
 
@@ -53,7 +53,7 @@ def preview(plan):
     from bc_spec.plan import check, sample, estimate
     from bc_web.search import SearchQuery
     require(set(plan) == {'schema_version', 'registry', 'cells', 'sample', 'caps', 'allow_unpriced'}, 'Wrong plan fields')
-    require(plan['schema_version'] == 'refresh-search-plan-1', 'Unsupported plan')
+    require(plan['schema_version'] in ('refresh-search-plan-1','refresh-search-plan-2'), 'Unsupported plan')
     require(isinstance(plan['allow_unpriced'], bool), 'Explicit unpriced policy required')
     registry = {r['id']: r for r in plan['registry']}
     require(len(registry) == len(plan['registry']) and registry, 'Unique closed registry IDs required')
@@ -61,7 +61,13 @@ def preview(plan):
         require(set(row) == {'id', 'label', 'aliases', 'official_hosts'}, 'Wrong registry fields')
         require(row['id'] and row['label'] and isinstance(row['aliases'], list), 'Incomplete registry identity')
         for source in row['official_hosts']:
-            require(set(source) == {'host', 'source_url', 'body_sha256', 'locator'}, 'Wrong host evidence fields')
+            require({'host', 'source_url', 'body_sha256', 'locator'} <= set(source) <= {'host', 'source_url', 'body_sha256', 'locator', 'authority_review'}, 'Wrong host evidence fields')
+            if 'authority_review' in source:
+                review=source['authority_review']
+                require(all(review.get(k) for k in ('path','sha256','authority_basis','reviewed_at','reviewer')), 'Incomplete authority review')
+                require(review.get('role') in ('government','election','records') and re.fullmatch('[0-9a-f]{64}',review['sha256']), 'Invalid authority review role/hash')
+                require(datetime.fromisoformat(review['reviewed_at']).tzinfo is not None,'Authority review timezone required')
+                require(review.get('jurisdiction_id')==row['id'] and review.get('host')==source['host'] and review.get('source_url')==source['source_url'] and review.get('body_sha256')==source['body_sha256'], 'Authority review scope mismatch')
             require(source['host'] == urlsplit('https://'+source['host']).hostname and
                     urlsplit(source['source_url']).scheme in ('http', 'https') and source['locator'] and
                     re.fullmatch('[0-9a-f]{64}', source['body_sha256']), 'Invalid reviewed host provenance')
@@ -79,6 +85,8 @@ def preview(plan):
             require(set(variant) <= {'name', *SearchQuery.model_fields} and variant['name'], 'Invalid variant fields')
             require(query.backend in BACKENDS, 'Explicit supported backend required')
             require(all(h in hosts for h in query.include_domains), 'Domain filter lacks reviewed host')
+            if plan['schema_version']=='refresh-search-plan-2':
+                require(all(any(s['host']==h and 'authority_review' in s for s in registry[cell['jurisdiction_id']]['official_hosts']) for h in query.include_domains),'Domain filter requires authority review')
             require(query.start_date is None or query.end_date is None or query.start_date <= query.end_date, 'Reversed publication window')
     space = Space(question='Moratorium refresh: explicit sparse research cells', dimensions=tuple(
         Dimension(name=k, values=tuple(Value(id=v, label=v) for v in sorted({c[k] for c in cells}))) for k in DIMENSIONS))
@@ -136,6 +144,17 @@ async def execute(plan, directory, *, settings=None, transport=None):
             require(Path(item['path']).name == item['path'], 'Invalid retained artifact path')
             require(sha((directory/item['path']).read_bytes()) == item['sha256'], 'Retained search artifact drift')
         return {**result, 'replay': True}
+    require(plan['schema_version']=='refresh-search-plan-2','New execution requires plan version 2; version 1 is historical preview/replay only')
+    for cell in prepared['selected_cells']:
+        registry_row=next(r for r in plan['registry'] if r['id']==cell['jurisdiction_id'])
+        used={h for v in cell['variants'] for h in v.get('include_domains',[])}
+        for source in registry_row['official_hosts']:
+            if source['host'] not in used: continue
+            review=source['authority_review'];path=Path(review['path'])
+            if not path.is_absolute(): path=Path(__file__).resolve().parents[1]/path
+            raw=path.read_bytes()
+            require(sha(raw)==review['sha256'],'Authority review file drift')
+            require(json.loads(raw)=={k:v for k,v in review.items() if k not in ('path','sha256')},'Authority review record drift')
     # Exclusive marker precedes reservations and all transport. A crash leaves an
     # inspectable reservation, never permission for an automatic retry.
     save(manifest_path, {'plan_sha256': prepared['plan_sha256'], 'runtime': runtime, 'started_at': datetime.now(timezone.utc).isoformat(), 'state': 'reserved_no_automatic_retry'})

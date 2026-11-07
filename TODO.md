@@ -71,7 +71,7 @@ Exit: ballot cases fit without conflating votes, legal force or legacy counts.
 ## P2 — Search and acquisition adapters
 
 - [ ] Build a closed jurisdiction/official-source registry with aliases and election-portal hosts.
-- [ ] Build sparse bc-spec worklists for inventory refresh, election census and gap discovery.
+- [x] Build sparse bc-spec worklists for inventory refresh, election census and gap discovery: all 1,330 local, 442 state-policy and 50 ballot IDs, plus distinct 50-state/five-sector exploration frames. Sector-neutral queries preserve unresolved sectors; full selection and seeded exclusions are explicit. Generation is not research or full host review ([documentation](docs/sparse-refresh-worklists.md)).
 - [ ] Add deterministic plan preview, seeded sampling and call/cost estimates.
 - [x] Configure provider-specific Exa/Google query variants through native `Searcher.search_many`; run bounded Seattle and Jay cases with persistent call reservations and exact native/runtime pins (`docs/search-refresh-batch.md`). Full registry/worklist generation, account pricing and calibration remain separate open gates.
 - [x] Retain native reciprocal-rank fusion provenance, original per-variant sightings, response hashes and backend errors in the search-batch adapter. Verify shared-URL fusion, concurrent same-provider attribution, credential redaction, normalizer compatibility and exact cached replay; broader canonical provenance migration remains open (`docs/search-refresh-batch.md`).

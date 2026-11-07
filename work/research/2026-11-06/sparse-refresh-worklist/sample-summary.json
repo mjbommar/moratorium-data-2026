@@ -1,0 +1,3511 @@
+{
+  "schema_version": "refresh-scope-1",
+  "expanded_generation": "aa1d4ebc9fb15a1b78c22ad44cb9ca71cb622d6b64be0ee884b3320656b732f8",
+  "cutoff": "2026-11-06",
+  "input_sha256": {
+    "data/moratorium_inventory.csv": "26c75c78f06c3ec840ac3efee467e3a2a46db3cd5c6e519df6ebae434e2e118b",
+    "data/state_legislation.csv": "afe63de957e9695756c2307c3e119f73f31fd175b019818865f4ec422826a3de",
+    "data/expanded/jurisdictions.jsonl": "03d5c37c757ccdb64c7a7b8f02ddb1d997f711dad1d626c225a35d3f4990636e",
+    "data/expanded/ballot_measures.jsonl": "e72d086c9493ad6540e70f27506efdeb0d3c63905826704331d195463c0fbc10",
+    "data/expanded/elections.jsonl": "382419076fae6d0de4526f9055359bbbb14ddd8a4c58db9606d00b1c7a839676",
+    "data/expanded/source_documents.jsonl": "6443aa89199fea97ac57c16bd50c8db577f175f4d03074aac4c90f948485989b",
+    "work/sources/WA/manifest.jsonl": "518a9a7ba371b9a37cc6a8f7af7133fad7919a39c937d1fd010eec696a9dcda7"
+  },
+  "bindings_sha256": "d3e9183a9bba8ebe19f8b449c7803ff45906d1769e9e077d98bce3436c56a845",
+  "object_counts": {
+    "moratorium": 1330,
+    "state_action": 442,
+    "measure": 50
+  },
+  "registry_coordinates": 1377,
+  "planning_status_counts": {
+    "ready_for_search_preview": 1846,
+    "partial_sector_review": 34,
+    "sector_neutral_search_sector_review_open": 442
+  },
+  "work_items": 2322,
+  "explicit_search_cells": 2713,
+  "selected_search_cells": 3,
+  "reviewed_host_coordinates": 1,
+  "source_document_rows": 144,
+  "selection_mode": "lane_preview_only_not_campaign_coverage",
+  "selection_by_state_lane_sector": {
+    "AK:inventory_refresh:data_center": {
+      "planned": 3,
+      "selected": 0,
+      "excluded": 3
+    },
+    "AL:inventory_refresh:data_center": {
+      "planned": 21,
+      "selected": 0,
+      "excluded": 21
+    },
+    "AL:inventory_refresh:cryptocurrency": {
+      "planned": 4,
+      "selected": 0,
+      "excluded": 4
+    },
+    "AL:inventory_refresh:battery_storage": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "AL:inventory_refresh:sector_unresolved": {
+      "planned": 5,
+      "selected": 0,
+      "excluded": 5
+    },
+    "AR:inventory_refresh:cryptocurrency": {
+      "planned": 3,
+      "selected": 0,
+      "excluded": 3
+    },
+    "AR:inventory_refresh:data_center": {
+      "planned": 6,
+      "selected": 0,
+      "excluded": 6
+    },
+    "AZ:inventory_refresh:data_center": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "CA:inventory_refresh:data_center": {
+      "planned": 28,
+      "selected": 0,
+      "excluded": 28
+    },
+    "CA:inventory_refresh:battery_storage": {
+      "planned": 8,
+      "selected": 0,
+      "excluded": 8
+    },
+    "CA:inventory_refresh:cryptocurrency": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "CO:inventory_refresh:data_center": {
+      "planned": 28,
+      "selected": 0,
+      "excluded": 28
+    },
+    "CO:inventory_refresh:cryptocurrency": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "CO:inventory_refresh:battery_storage": {
+      "planned": 6,
+      "selected": 0,
+      "excluded": 6
+    },
+    "CO:inventory_refresh:solar": {
+      "planned": 4,
+      "selected": 0,
+      "excluded": 4
+    },
+    "CO:inventory_refresh:wind": {
+      "planned": 3,
+      "selected": 0,
+      "excluded": 3
+    },
+    "CT:inventory_refresh:data_center": {
+      "planned": 6,
+      "selected": 0,
+      "excluded": 6
+    },
+    "CT:inventory_refresh:battery_storage": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "DE:inventory_refresh:data_center": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "DE:inventory_refresh:solar": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "DE:inventory_refresh:wind": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "FL:inventory_refresh:data_center": {
+      "planned": 35,
+      "selected": 0,
+      "excluded": 35
+    },
+    "FL:inventory_refresh:cryptocurrency": {
+      "planned": 2,
+      "selected": 0,
+      "excluded": 2
+    },
+    "GA:inventory_refresh:data_center": {
+      "planned": 71,
+      "selected": 0,
+      "excluded": 71
+    },
+    "GA:inventory_refresh:battery_storage": {
+      "planned": 3,
+      "selected": 0,
+      "excluded": 3
+    },
+    "GA:inventory_refresh:solar": {
+      "planned": 2,
+      "selected": 0,
+      "excluded": 2
+    },
+    "GA:inventory_refresh:cryptocurrency": {
+      "planned": 5,
+      "selected": 0,
+      "excluded": 5
+    },
+    "IA:inventory_refresh:battery_storage": {
+      "planned": 18,
+      "selected": 0,
+      "excluded": 18
+    },
+    "IA:inventory_refresh:data_center": {
+      "planned": 45,
+      "selected": 0,
+      "excluded": 45
+    },
+    "IA:inventory_refresh:cryptocurrency": {
+      "planned": 14,
+      "selected": 0,
+      "excluded": 14
+    },
+    "IA:inventory_refresh:solar": {
+      "planned": 6,
+      "selected": 0,
+      "excluded": 6
+    },
+    "IA:inventory_refresh:wind": {
+      "planned": 3,
+      "selected": 0,
+      "excluded": 3
+    },
+    "ID:inventory_refresh:data_center": {
+      "planned": 4,
+      "selected": 0,
+      "excluded": 4
+    },
+    "IL:inventory_refresh:data_center": {
+      "planned": 29,
+      "selected": 0,
+      "excluded": 29
+    },
+    "IL:inventory_refresh:solar": {
+      "planned": 3,
+      "selected": 0,
+      "excluded": 3
+    },
+    "IL:inventory_refresh:wind": {
+      "planned": 2,
+      "selected": 0,
+      "excluded": 2
+    },
+    "IL:inventory_refresh:cryptocurrency": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "IL:inventory_refresh:battery_storage": {
+      "planned": 3,
+      "selected": 0,
+      "excluded": 3
+    },
+    "IN:inventory_refresh:battery_storage": {
+      "planned": 7,
+      "selected": 0,
+      "excluded": 7
+    },
+    "IN:inventory_refresh:solar": {
+      "planned": 7,
+      "selected": 0,
+      "excluded": 7
+    },
+    "IN:inventory_refresh:wind": {
+      "planned": 3,
+      "selected": 0,
+      "excluded": 3
+    },
+    "IN:inventory_refresh:data_center": {
+      "planned": 32,
+      "selected": 0,
+      "excluded": 32
+    },
+    "KS:inventory_refresh:battery_storage": {
+      "planned": 14,
+      "selected": 0,
+      "excluded": 14
+    },
+    "KS:inventory_refresh:cryptocurrency": {
+      "planned": 6,
+      "selected": 0,
+      "excluded": 6
+    },
+    "KS:inventory_refresh:data_center": {
+      "planned": 22,
+      "selected": 0,
+      "excluded": 22
+    },
+    "KS:inventory_refresh:sector_unresolved": {
+      "planned": 14,
+      "selected": 0,
+      "excluded": 14
+    },
+    "KS:inventory_refresh:solar": {
+      "planned": 6,
+      "selected": 0,
+      "excluded": 6
+    },
+    "KS:inventory_refresh:wind": {
+      "planned": 3,
+      "selected": 0,
+      "excluded": 3
+    },
+    "KY:inventory_refresh:data_center": {
+      "planned": 34,
+      "selected": 0,
+      "excluded": 34
+    },
+    "KY:inventory_refresh:cryptocurrency": {
+      "planned": 3,
+      "selected": 0,
+      "excluded": 3
+    },
+    "KY:inventory_refresh:wind": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "LA:inventory_refresh:solar": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "LA:inventory_refresh:battery_storage": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "LA:inventory_refresh:data_center": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "MA:inventory_refresh:data_center": {
+      "planned": 15,
+      "selected": 0,
+      "excluded": 15
+    },
+    "MA:inventory_refresh:battery_storage": {
+      "planned": 5,
+      "selected": 0,
+      "excluded": 5
+    },
+    "MD:inventory_refresh:data_center": {
+      "planned": 22,
+      "selected": 0,
+      "excluded": 22
+    },
+    "MD:inventory_refresh:battery_storage": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "MD:inventory_refresh:sector_unresolved": {
+      "planned": 14,
+      "selected": 0,
+      "excluded": 14
+    },
+    "MD:inventory_refresh:solar": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "ME:inventory_refresh:battery_storage": {
+      "planned": 4,
+      "selected": 0,
+      "excluded": 4
+    },
+    "ME:inventory_refresh:wind": {
+      "planned": 2,
+      "selected": 0,
+      "excluded": 2
+    },
+    "ME:inventory_refresh:data_center": {
+      "planned": 14,
+      "selected": 0,
+      "excluded": 14
+    },
+    "ME:inventory_refresh:solar": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "MI:inventory_refresh:data_center": {
+      "planned": 134,
+      "selected": 0,
+      "excluded": 134
+    },
+    "MI:inventory_refresh:battery_storage": {
+      "planned": 16,
+      "selected": 0,
+      "excluded": 16
+    },
+    "MI:inventory_refresh:solar": {
+      "planned": 8,
+      "selected": 0,
+      "excluded": 8
+    },
+    "MI:inventory_refresh:wind": {
+      "planned": 6,
+      "selected": 0,
+      "excluded": 6
+    },
+    "MI:inventory_refresh:cryptocurrency": {
+      "planned": 12,
+      "selected": 0,
+      "excluded": 12
+    },
+    "MI:inventory_refresh:sector_unresolved": {
+      "planned": 21,
+      "selected": 0,
+      "excluded": 21
+    },
+    "MN:inventory_refresh:cryptocurrency": {
+      "planned": 3,
+      "selected": 0,
+      "excluded": 3
+    },
+    "MN:inventory_refresh:data_center": {
+      "planned": 29,
+      "selected": 0,
+      "excluded": 29
+    },
+    "MN:inventory_refresh:battery_storage": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "MN:inventory_refresh:sector_unresolved": {
+      "planned": 13,
+      "selected": 0,
+      "excluded": 13
+    },
+    "MO:inventory_refresh:cryptocurrency": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "MO:inventory_refresh:data_center": {
+      "planned": 22,
+      "selected": 1,
+      "excluded": 21
+    },
+    "MO:inventory_refresh:battery_storage": {
+      "planned": 5,
+      "selected": 0,
+      "excluded": 5
+    },
+    "MO:inventory_refresh:solar": {
+      "planned": 3,
+      "selected": 0,
+      "excluded": 3
+    },
+    "MO:inventory_refresh:wind": {
+      "planned": 3,
+      "selected": 0,
+      "excluded": 3
+    },
+    "MS:inventory_refresh:data_center": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "MT:inventory_refresh:data_center": {
+      "planned": 2,
+      "selected": 0,
+      "excluded": 2
+    },
+    "NC:inventory_refresh:data_center": {
+      "planned": 66,
+      "selected": 0,
+      "excluded": 66
+    },
+    "NC:inventory_refresh:cryptocurrency": {
+      "planned": 37,
+      "selected": 0,
+      "excluded": 37
+    },
+    "NC:inventory_refresh:battery_storage": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "NC:inventory_refresh:solar": {
+      "planned": 2,
+      "selected": 0,
+      "excluded": 2
+    },
+    "ND:inventory_refresh:data_center": {
+      "planned": 9,
+      "selected": 0,
+      "excluded": 9
+    },
+    "ND:inventory_refresh:battery_storage": {
+      "planned": 2,
+      "selected": 0,
+      "excluded": 2
+    },
+    "ND:inventory_refresh:solar": {
+      "planned": 4,
+      "selected": 0,
+      "excluded": 4
+    },
+    "ND:inventory_refresh:wind": {
+      "planned": 2,
+      "selected": 0,
+      "excluded": 2
+    },
+    "ND:inventory_refresh:sector_unresolved": {
+      "planned": 3,
+      "selected": 0,
+      "excluded": 3
+    },
+    "ND:inventory_refresh:cryptocurrency": {
+      "planned": 5,
+      "selected": 0,
+      "excluded": 5
+    },
+    "NE:inventory_refresh:data_center": {
+      "planned": 20,
+      "selected": 0,
+      "excluded": 20
+    },
+    "NE:inventory_refresh:cryptocurrency": {
+      "planned": 5,
+      "selected": 0,
+      "excluded": 5
+    },
+    "NE:inventory_refresh:battery_storage": {
+      "planned": 5,
+      "selected": 0,
+      "excluded": 5
+    },
+    "NE:inventory_refresh:solar": {
+      "planned": 8,
+      "selected": 0,
+      "excluded": 8
+    },
+    "NE:inventory_refresh:wind": {
+      "planned": 6,
+      "selected": 0,
+      "excluded": 6
+    },
+    "NE:inventory_refresh:sector_unresolved": {
+      "planned": 17,
+      "selected": 0,
+      "excluded": 17
+    },
+    "NH:inventory_refresh:data_center": {
+      "planned": 2,
+      "selected": 0,
+      "excluded": 2
+    },
+    "NJ:inventory_refresh:data_center": {
+      "planned": 5,
+      "selected": 0,
+      "excluded": 5
+    },
+    "NM:inventory_refresh:data_center": {
+      "planned": 6,
+      "selected": 0,
+      "excluded": 6
+    },
+    "NM:inventory_refresh:sector_unresolved": {
+      "planned": 4,
+      "selected": 0,
+      "excluded": 4
+    },
+    "NM:inventory_refresh:solar": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "NV:inventory_refresh:data_center": {
+      "planned": 5,
+      "selected": 0,
+      "excluded": 5
+    },
+    "NV:inventory_refresh:battery_storage": {
+      "planned": 2,
+      "selected": 0,
+      "excluded": 2
+    },
+    "NV:inventory_refresh:solar": {
+      "planned": 2,
+      "selected": 0,
+      "excluded": 2
+    },
+    "NV:inventory_refresh:wind": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "NV:inventory_refresh:cryptocurrency": {
+      "planned": 2,
+      "selected": 0,
+      "excluded": 2
+    },
+    "NY:inventory_refresh:battery_storage": {
+      "planned": 117,
+      "selected": 0,
+      "excluded": 117
+    },
+    "NY:inventory_refresh:solar": {
+      "planned": 31,
+      "selected": 0,
+      "excluded": 31
+    },
+    "NY:inventory_refresh:wind": {
+      "planned": 12,
+      "selected": 0,
+      "excluded": 12
+    },
+    "NY:inventory_refresh:data_center": {
+      "planned": 32,
+      "selected": 0,
+      "excluded": 32
+    },
+    "NY:inventory_refresh:cryptocurrency": {
+      "planned": 13,
+      "selected": 0,
+      "excluded": 13
+    },
+    "OH:inventory_refresh:cryptocurrency": {
+      "planned": 9,
+      "selected": 0,
+      "excluded": 9
+    },
+    "OH:inventory_refresh:data_center": {
+      "planned": 159,
+      "selected": 0,
+      "excluded": 159
+    },
+    "OH:inventory_refresh:sector_unresolved": {
+      "planned": 15,
+      "selected": 0,
+      "excluded": 15
+    },
+    "OH:inventory_refresh:battery_storage": {
+      "planned": 2,
+      "selected": 0,
+      "excluded": 2
+    },
+    "OH:inventory_refresh:solar": {
+      "planned": 2,
+      "selected": 0,
+      "excluded": 2
+    },
+    "OK:inventory_refresh:data_center": {
+      "planned": 10,
+      "selected": 0,
+      "excluded": 10
+    },
+    "OR:inventory_refresh:battery_storage": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "OR:inventory_refresh:data_center": {
+      "planned": 4,
+      "selected": 0,
+      "excluded": 4
+    },
+    "OR:inventory_refresh:solar": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "PA:inventory_refresh:data_center": {
+      "planned": 26,
+      "selected": 0,
+      "excluded": 26
+    },
+    "PA:inventory_refresh:solar": {
+      "planned": 3,
+      "selected": 0,
+      "excluded": 3
+    },
+    "PA:inventory_refresh:sector_unresolved": {
+      "planned": 24,
+      "selected": 0,
+      "excluded": 24
+    },
+    "PA:inventory_refresh:wind": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "RI:inventory_refresh:data_center": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "SC:inventory_refresh:data_center": {
+      "planned": 17,
+      "selected": 0,
+      "excluded": 17
+    },
+    "SC:inventory_refresh:cryptocurrency": {
+      "planned": 5,
+      "selected": 0,
+      "excluded": 5
+    },
+    "SC:inventory_refresh:battery_storage": {
+      "planned": 3,
+      "selected": 0,
+      "excluded": 3
+    },
+    "SC:inventory_refresh:solar": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "SD:inventory_refresh:data_center": {
+      "planned": 2,
+      "selected": 0,
+      "excluded": 2
+    },
+    "SD:inventory_refresh:solar": {
+      "planned": 2,
+      "selected": 0,
+      "excluded": 2
+    },
+    "SD:inventory_refresh:wind": {
+      "planned": 2,
+      "selected": 0,
+      "excluded": 2
+    },
+    "SD:inventory_refresh:cryptocurrency": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "TN:inventory_refresh:battery_storage": {
+      "planned": 4,
+      "selected": 0,
+      "excluded": 4
+    },
+    "TN:inventory_refresh:cryptocurrency": {
+      "planned": 22,
+      "selected": 0,
+      "excluded": 22
+    },
+    "TN:inventory_refresh:data_center": {
+      "planned": 45,
+      "selected": 0,
+      "excluded": 45
+    },
+    "TX:inventory_refresh:battery_storage": {
+      "planned": 3,
+      "selected": 0,
+      "excluded": 3
+    },
+    "TX:inventory_refresh:data_center": {
+      "planned": 9,
+      "selected": 0,
+      "excluded": 9
+    },
+    "UT:inventory_refresh:data_center": {
+      "planned": 9,
+      "selected": 0,
+      "excluded": 9
+    },
+    "UT:inventory_refresh:solar": {
+      "planned": 2,
+      "selected": 0,
+      "excluded": 2
+    },
+    "VA:inventory_refresh:data_center": {
+      "planned": 6,
+      "selected": 0,
+      "excluded": 6
+    },
+    "VT:inventory_refresh:data_center": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "VT:inventory_refresh:sector_unresolved": {
+      "planned": 3,
+      "selected": 0,
+      "excluded": 3
+    },
+    "WA:inventory_refresh:battery_storage": {
+      "planned": 15,
+      "selected": 0,
+      "excluded": 15
+    },
+    "WA:inventory_refresh:data_center": {
+      "planned": 22,
+      "selected": 0,
+      "excluded": 22
+    },
+    "WA:inventory_refresh:cryptocurrency": {
+      "planned": 11,
+      "selected": 0,
+      "excluded": 11
+    },
+    "WA:inventory_refresh:solar": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "WA:inventory_refresh:wind": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "WI:inventory_refresh:data_center": {
+      "planned": 41,
+      "selected": 0,
+      "excluded": 41
+    },
+    "WI:inventory_refresh:battery_storage": {
+      "planned": 3,
+      "selected": 0,
+      "excluded": 3
+    },
+    "WI:inventory_refresh:solar": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "AK:inventory_refresh:sector_unresolved": {
+      "planned": 3,
+      "selected": 0,
+      "excluded": 3
+    },
+    "AR:inventory_refresh:sector_unresolved": {
+      "planned": 7,
+      "selected": 0,
+      "excluded": 7
+    },
+    "AZ:inventory_refresh:sector_unresolved": {
+      "planned": 13,
+      "selected": 0,
+      "excluded": 13
+    },
+    "CA:inventory_refresh:sector_unresolved": {
+      "planned": 14,
+      "selected": 0,
+      "excluded": 14
+    },
+    "CO:inventory_refresh:sector_unresolved": {
+      "planned": 4,
+      "selected": 0,
+      "excluded": 4
+    },
+    "CT:inventory_refresh:sector_unresolved": {
+      "planned": 7,
+      "selected": 0,
+      "excluded": 7
+    },
+    "DE:inventory_refresh:sector_unresolved": {
+      "planned": 3,
+      "selected": 0,
+      "excluded": 3
+    },
+    "FL:inventory_refresh:sector_unresolved": {
+      "planned": 6,
+      "selected": 0,
+      "excluded": 6
+    },
+    "GA:inventory_refresh:sector_unresolved": {
+      "planned": 9,
+      "selected": 0,
+      "excluded": 9
+    },
+    "HI:inventory_refresh:sector_unresolved": {
+      "planned": 7,
+      "selected": 0,
+      "excluded": 7
+    },
+    "IA:inventory_refresh:sector_unresolved": {
+      "planned": 12,
+      "selected": 0,
+      "excluded": 12
+    },
+    "ID:inventory_refresh:sector_unresolved": {
+      "planned": 9,
+      "selected": 0,
+      "excluded": 9
+    },
+    "IL:inventory_refresh:sector_unresolved": {
+      "planned": 11,
+      "selected": 0,
+      "excluded": 11
+    },
+    "IN:inventory_refresh:sector_unresolved": {
+      "planned": 10,
+      "selected": 0,
+      "excluded": 10
+    },
+    "KY:inventory_refresh:sector_unresolved": {
+      "planned": 8,
+      "selected": 0,
+      "excluded": 8
+    },
+    "LA:inventory_refresh:sector_unresolved": {
+      "planned": 5,
+      "selected": 0,
+      "excluded": 5
+    },
+    "MA:inventory_refresh:sector_unresolved": {
+      "planned": 5,
+      "selected": 0,
+      "excluded": 5
+    },
+    "ME:inventory_refresh:sector_unresolved": {
+      "planned": 6,
+      "selected": 0,
+      "excluded": 6
+    },
+    "MO:inventory_refresh:sector_unresolved": {
+      "planned": 7,
+      "selected": 0,
+      "excluded": 7
+    },
+    "MS:inventory_refresh:sector_unresolved": {
+      "planned": 7,
+      "selected": 0,
+      "excluded": 7
+    },
+    "MT:inventory_refresh:sector_unresolved": {
+      "planned": 6,
+      "selected": 0,
+      "excluded": 6
+    },
+    "NC:inventory_refresh:sector_unresolved": {
+      "planned": 3,
+      "selected": 0,
+      "excluded": 3
+    },
+    "NH:inventory_refresh:sector_unresolved": {
+      "planned": 6,
+      "selected": 0,
+      "excluded": 6
+    },
+    "NJ:inventory_refresh:sector_unresolved": {
+      "planned": 17,
+      "selected": 0,
+      "excluded": 17
+    },
+    "NV:inventory_refresh:sector_unresolved": {
+      "planned": 7,
+      "selected": 0,
+      "excluded": 7
+    },
+    "NY:inventory_refresh:sector_unresolved": {
+      "planned": 11,
+      "selected": 0,
+      "excluded": 11
+    },
+    "OK:inventory_refresh:sector_unresolved": {
+      "planned": 12,
+      "selected": 0,
+      "excluded": 12
+    },
+    "OR:inventory_refresh:sector_unresolved": {
+      "planned": 5,
+      "selected": 0,
+      "excluded": 5
+    },
+    "RI:inventory_refresh:sector_unresolved": {
+      "planned": 9,
+      "selected": 0,
+      "excluded": 9
+    },
+    "SC:inventory_refresh:sector_unresolved": {
+      "planned": 7,
+      "selected": 0,
+      "excluded": 7
+    },
+    "SD:inventory_refresh:sector_unresolved": {
+      "planned": 14,
+      "selected": 0,
+      "excluded": 14
+    },
+    "TN:inventory_refresh:sector_unresolved": {
+      "planned": 9,
+      "selected": 0,
+      "excluded": 9
+    },
+    "TX:inventory_refresh:sector_unresolved": {
+      "planned": 11,
+      "selected": 0,
+      "excluded": 11
+    },
+    "UT:inventory_refresh:sector_unresolved": {
+      "planned": 8,
+      "selected": 0,
+      "excluded": 8
+    },
+    "VA:inventory_refresh:sector_unresolved": {
+      "planned": 18,
+      "selected": 0,
+      "excluded": 18
+    },
+    "WA:inventory_refresh:sector_unresolved": {
+      "planned": 5,
+      "selected": 0,
+      "excluded": 5
+    },
+    "WI:inventory_refresh:sector_unresolved": {
+      "planned": 7,
+      "selected": 0,
+      "excluded": 7
+    },
+    "WV:inventory_refresh:sector_unresolved": {
+      "planned": 18,
+      "selected": 0,
+      "excluded": 18
+    },
+    "WY:inventory_refresh:sector_unresolved": {
+      "planned": 9,
+      "selected": 0,
+      "excluded": 9
+    },
+    "WI:election_census:data_center": {
+      "planned": 4,
+      "selected": 0,
+      "excluded": 4
+    },
+    "WI:election_census:sector_unresolved": {
+      "planned": 2,
+      "selected": 0,
+      "excluded": 2
+    },
+    "OH:election_census:data_center": {
+      "planned": 20,
+      "selected": 0,
+      "excluded": 20
+    },
+    "ME:election_census:cryptocurrency": {
+      "planned": 4,
+      "selected": 0,
+      "excluded": 4
+    },
+    "ME:election_census:data_center": {
+      "planned": 9,
+      "selected": 0,
+      "excluded": 9
+    },
+    "NV:election_census:data_center": {
+      "planned": 2,
+      "selected": 0,
+      "excluded": 2
+    },
+    "KS:election_census:battery_storage": {
+      "planned": 4,
+      "selected": 0,
+      "excluded": 4
+    },
+    "KS:election_census:data_center": {
+      "planned": 4,
+      "selected": 0,
+      "excluded": 4
+    },
+    "IL:election_census:data_center": {
+      "planned": 7,
+      "selected": 0,
+      "excluded": 7
+    },
+    "CA:election_census:data_center": {
+      "planned": 3,
+      "selected": 0,
+      "excluded": 3
+    },
+    "FL:election_census:cryptocurrency": {
+      "planned": 2,
+      "selected": 0,
+      "excluded": 2
+    },
+    "FL:election_census:data_center": {
+      "planned": 2,
+      "selected": 0,
+      "excluded": 2
+    },
+    "KS:election_census:cryptocurrency": {
+      "planned": 3,
+      "selected": 0,
+      "excluded": 3
+    },
+    "NH:election_census:cryptocurrency": {
+      "planned": 2,
+      "selected": 0,
+      "excluded": 2
+    },
+    "NH:election_census:data_center": {
+      "planned": 3,
+      "selected": 0,
+      "excluded": 3
+    },
+    "NJ:election_census:data_center": {
+      "planned": 2,
+      "selected": 0,
+      "excluded": 2
+    },
+    "OH:election_census:sector_unresolved": {
+      "planned": 5,
+      "selected": 0,
+      "excluded": 5
+    },
+    "ND:election_census:cryptocurrency": {
+      "planned": 2,
+      "selected": 0,
+      "excluded": 2
+    },
+    "ND:election_census:data_center": {
+      "planned": 3,
+      "selected": 0,
+      "excluded": 3
+    },
+    "ND:election_census:sector_unresolved": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "ME:election_census:solar": {
+      "planned": 2,
+      "selected": 0,
+      "excluded": 2
+    },
+    "AK:gap_discovery:battery_storage": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "AK:election_census:battery_storage": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "AK:gap_discovery:cryptocurrency": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "AK:election_census:cryptocurrency": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "AK:gap_discovery:data_center": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "AK:election_census:data_center": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "AK:gap_discovery:solar": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "AK:election_census:solar": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "AK:gap_discovery:wind": {
+      "planned": 1,
+      "selected": 1,
+      "excluded": 0
+    },
+    "AK:election_census:wind": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "AL:gap_discovery:battery_storage": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "AL:election_census:battery_storage": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "AL:gap_discovery:cryptocurrency": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "AL:election_census:cryptocurrency": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "AL:gap_discovery:data_center": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "AL:election_census:data_center": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "AL:gap_discovery:solar": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "AL:election_census:solar": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "AL:gap_discovery:wind": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "AL:election_census:wind": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "AR:gap_discovery:battery_storage": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "AR:election_census:battery_storage": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "AR:gap_discovery:cryptocurrency": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "AR:election_census:cryptocurrency": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "AR:gap_discovery:data_center": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "AR:election_census:data_center": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "AR:gap_discovery:solar": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "AR:election_census:solar": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "AR:gap_discovery:wind": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "AR:election_census:wind": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "AZ:gap_discovery:battery_storage": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "AZ:election_census:battery_storage": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "AZ:gap_discovery:cryptocurrency": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "AZ:election_census:cryptocurrency": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "AZ:gap_discovery:data_center": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "AZ:election_census:data_center": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "AZ:gap_discovery:solar": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "AZ:election_census:solar": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "AZ:gap_discovery:wind": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "AZ:election_census:wind": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "CA:gap_discovery:battery_storage": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "CA:election_census:battery_storage": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "CA:gap_discovery:cryptocurrency": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "CA:election_census:cryptocurrency": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "CA:gap_discovery:data_center": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "CA:gap_discovery:solar": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "CA:election_census:solar": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "CA:gap_discovery:wind": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "CA:election_census:wind": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "CO:gap_discovery:battery_storage": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "CO:election_census:battery_storage": {
+      "planned": 1,
+      "selected": 1,
+      "excluded": 0
+    },
+    "CO:gap_discovery:cryptocurrency": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "CO:election_census:cryptocurrency": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "CO:gap_discovery:data_center": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "CO:election_census:data_center": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "CO:gap_discovery:solar": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "CO:election_census:solar": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "CO:gap_discovery:wind": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "CO:election_census:wind": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "CT:gap_discovery:battery_storage": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "CT:election_census:battery_storage": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "CT:gap_discovery:cryptocurrency": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "CT:election_census:cryptocurrency": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "CT:gap_discovery:data_center": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "CT:election_census:data_center": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "CT:gap_discovery:solar": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "CT:election_census:solar": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "CT:gap_discovery:wind": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "CT:election_census:wind": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "DE:gap_discovery:battery_storage": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "DE:election_census:battery_storage": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "DE:gap_discovery:cryptocurrency": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "DE:election_census:cryptocurrency": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "DE:gap_discovery:data_center": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "DE:election_census:data_center": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "DE:gap_discovery:solar": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "DE:election_census:solar": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "DE:gap_discovery:wind": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "DE:election_census:wind": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "FL:gap_discovery:battery_storage": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "FL:election_census:battery_storage": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "FL:gap_discovery:cryptocurrency": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "FL:gap_discovery:data_center": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "FL:gap_discovery:solar": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "FL:election_census:solar": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "FL:gap_discovery:wind": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "FL:election_census:wind": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "GA:gap_discovery:battery_storage": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "GA:election_census:battery_storage": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "GA:gap_discovery:cryptocurrency": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "GA:election_census:cryptocurrency": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "GA:gap_discovery:data_center": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "GA:election_census:data_center": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "GA:gap_discovery:solar": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "GA:election_census:solar": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "GA:gap_discovery:wind": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "GA:election_census:wind": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "HI:gap_discovery:battery_storage": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "HI:election_census:battery_storage": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "HI:gap_discovery:cryptocurrency": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "HI:election_census:cryptocurrency": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "HI:gap_discovery:data_center": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "HI:election_census:data_center": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "HI:gap_discovery:solar": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "HI:election_census:solar": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "HI:gap_discovery:wind": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "HI:election_census:wind": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "IA:gap_discovery:battery_storage": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "IA:election_census:battery_storage": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "IA:gap_discovery:cryptocurrency": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "IA:election_census:cryptocurrency": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "IA:gap_discovery:data_center": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "IA:election_census:data_center": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "IA:gap_discovery:solar": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "IA:election_census:solar": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "IA:gap_discovery:wind": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "IA:election_census:wind": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "ID:gap_discovery:battery_storage": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "ID:election_census:battery_storage": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "ID:gap_discovery:cryptocurrency": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "ID:election_census:cryptocurrency": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "ID:gap_discovery:data_center": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "ID:election_census:data_center": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "ID:gap_discovery:solar": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "ID:election_census:solar": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "ID:gap_discovery:wind": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "ID:election_census:wind": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "IL:gap_discovery:battery_storage": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "IL:election_census:battery_storage": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "IL:gap_discovery:cryptocurrency": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "IL:election_census:cryptocurrency": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "IL:gap_discovery:data_center": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "IL:gap_discovery:solar": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "IL:election_census:solar": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "IL:gap_discovery:wind": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "IL:election_census:wind": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "IN:gap_discovery:battery_storage": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "IN:election_census:battery_storage": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "IN:gap_discovery:cryptocurrency": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "IN:election_census:cryptocurrency": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "IN:gap_discovery:data_center": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "IN:election_census:data_center": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "IN:gap_discovery:solar": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "IN:election_census:solar": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "IN:gap_discovery:wind": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "IN:election_census:wind": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "KS:gap_discovery:battery_storage": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "KS:gap_discovery:cryptocurrency": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "KS:gap_discovery:data_center": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "KS:gap_discovery:solar": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "KS:election_census:solar": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "KS:gap_discovery:wind": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "KS:election_census:wind": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "KY:gap_discovery:battery_storage": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "KY:election_census:battery_storage": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "KY:gap_discovery:cryptocurrency": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "KY:election_census:cryptocurrency": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "KY:gap_discovery:data_center": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "KY:election_census:data_center": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "KY:gap_discovery:solar": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "KY:election_census:solar": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "KY:gap_discovery:wind": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "KY:election_census:wind": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "LA:gap_discovery:battery_storage": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "LA:election_census:battery_storage": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "LA:gap_discovery:cryptocurrency": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "LA:election_census:cryptocurrency": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "LA:gap_discovery:data_center": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "LA:election_census:data_center": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "LA:gap_discovery:solar": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "LA:election_census:solar": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "LA:gap_discovery:wind": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "LA:election_census:wind": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "MA:gap_discovery:battery_storage": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "MA:election_census:battery_storage": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "MA:gap_discovery:cryptocurrency": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "MA:election_census:cryptocurrency": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "MA:gap_discovery:data_center": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "MA:election_census:data_center": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "MA:gap_discovery:solar": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "MA:election_census:solar": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "MA:gap_discovery:wind": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "MA:election_census:wind": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "MD:gap_discovery:battery_storage": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "MD:election_census:battery_storage": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "MD:gap_discovery:cryptocurrency": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "MD:election_census:cryptocurrency": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "MD:gap_discovery:data_center": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "MD:election_census:data_center": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "MD:gap_discovery:solar": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "MD:election_census:solar": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "MD:gap_discovery:wind": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "MD:election_census:wind": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "ME:gap_discovery:battery_storage": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "ME:election_census:battery_storage": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "ME:gap_discovery:cryptocurrency": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "ME:gap_discovery:data_center": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "ME:gap_discovery:solar": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "ME:gap_discovery:wind": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "ME:election_census:wind": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "MI:gap_discovery:battery_storage": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "MI:election_census:battery_storage": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "MI:gap_discovery:cryptocurrency": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "MI:election_census:cryptocurrency": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "MI:gap_discovery:data_center": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "MI:election_census:data_center": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "MI:gap_discovery:solar": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "MI:election_census:solar": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "MI:gap_discovery:wind": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "MI:election_census:wind": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "MN:gap_discovery:battery_storage": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "MN:election_census:battery_storage": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "MN:gap_discovery:cryptocurrency": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "MN:election_census:cryptocurrency": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "MN:gap_discovery:data_center": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "MN:election_census:data_center": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "MN:gap_discovery:solar": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "MN:election_census:solar": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "MN:gap_discovery:wind": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "MN:election_census:wind": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "MO:gap_discovery:battery_storage": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "MO:election_census:battery_storage": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "MO:gap_discovery:cryptocurrency": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "MO:election_census:cryptocurrency": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "MO:gap_discovery:data_center": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "MO:election_census:data_center": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "MO:gap_discovery:solar": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "MO:election_census:solar": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "MO:gap_discovery:wind": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "MO:election_census:wind": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "MS:gap_discovery:battery_storage": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "MS:election_census:battery_storage": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "MS:gap_discovery:cryptocurrency": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "MS:election_census:cryptocurrency": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "MS:gap_discovery:data_center": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "MS:election_census:data_center": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "MS:gap_discovery:solar": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "MS:election_census:solar": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "MS:gap_discovery:wind": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "MS:election_census:wind": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "MT:gap_discovery:battery_storage": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "MT:election_census:battery_storage": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "MT:gap_discovery:cryptocurrency": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "MT:election_census:cryptocurrency": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "MT:gap_discovery:data_center": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "MT:election_census:data_center": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "MT:gap_discovery:solar": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "MT:election_census:solar": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "MT:gap_discovery:wind": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "MT:election_census:wind": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "NC:gap_discovery:battery_storage": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "NC:election_census:battery_storage": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "NC:gap_discovery:cryptocurrency": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "NC:election_census:cryptocurrency": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "NC:gap_discovery:data_center": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "NC:election_census:data_center": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "NC:gap_discovery:solar": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "NC:election_census:solar": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "NC:gap_discovery:wind": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "NC:election_census:wind": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "ND:gap_discovery:battery_storage": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "ND:election_census:battery_storage": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "ND:gap_discovery:cryptocurrency": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "ND:gap_discovery:data_center": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "ND:gap_discovery:solar": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "ND:election_census:solar": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "ND:gap_discovery:wind": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "ND:election_census:wind": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "NE:gap_discovery:battery_storage": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "NE:election_census:battery_storage": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "NE:gap_discovery:cryptocurrency": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "NE:election_census:cryptocurrency": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "NE:gap_discovery:data_center": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "NE:election_census:data_center": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "NE:gap_discovery:solar": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "NE:election_census:solar": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "NE:gap_discovery:wind": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "NE:election_census:wind": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "NH:gap_discovery:battery_storage": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "NH:election_census:battery_storage": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "NH:gap_discovery:cryptocurrency": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "NH:gap_discovery:data_center": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "NH:gap_discovery:solar": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "NH:election_census:solar": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "NH:gap_discovery:wind": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "NH:election_census:wind": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "NJ:gap_discovery:battery_storage": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "NJ:election_census:battery_storage": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "NJ:gap_discovery:cryptocurrency": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "NJ:election_census:cryptocurrency": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "NJ:gap_discovery:data_center": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "NJ:gap_discovery:solar": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "NJ:election_census:solar": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "NJ:gap_discovery:wind": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "NJ:election_census:wind": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "NM:gap_discovery:battery_storage": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "NM:election_census:battery_storage": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "NM:gap_discovery:cryptocurrency": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "NM:election_census:cryptocurrency": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "NM:gap_discovery:data_center": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "NM:election_census:data_center": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "NM:gap_discovery:solar": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "NM:election_census:solar": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "NM:gap_discovery:wind": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "NM:election_census:wind": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "NV:gap_discovery:battery_storage": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "NV:election_census:battery_storage": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "NV:gap_discovery:cryptocurrency": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "NV:election_census:cryptocurrency": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "NV:gap_discovery:data_center": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "NV:gap_discovery:solar": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "NV:election_census:solar": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "NV:gap_discovery:wind": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "NV:election_census:wind": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "NY:gap_discovery:battery_storage": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "NY:election_census:battery_storage": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "NY:gap_discovery:cryptocurrency": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "NY:election_census:cryptocurrency": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "NY:gap_discovery:data_center": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "NY:election_census:data_center": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "NY:gap_discovery:solar": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "NY:election_census:solar": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "NY:gap_discovery:wind": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "NY:election_census:wind": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "OH:gap_discovery:battery_storage": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "OH:election_census:battery_storage": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "OH:gap_discovery:cryptocurrency": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "OH:election_census:cryptocurrency": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "OH:gap_discovery:data_center": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "OH:gap_discovery:solar": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "OH:election_census:solar": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "OH:gap_discovery:wind": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "OH:election_census:wind": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "OK:gap_discovery:battery_storage": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "OK:election_census:battery_storage": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "OK:gap_discovery:cryptocurrency": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "OK:election_census:cryptocurrency": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "OK:gap_discovery:data_center": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "OK:election_census:data_center": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "OK:gap_discovery:solar": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "OK:election_census:solar": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "OK:gap_discovery:wind": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "OK:election_census:wind": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "OR:gap_discovery:battery_storage": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "OR:election_census:battery_storage": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "OR:gap_discovery:cryptocurrency": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "OR:election_census:cryptocurrency": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "OR:gap_discovery:data_center": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "OR:election_census:data_center": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "OR:gap_discovery:solar": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "OR:election_census:solar": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "OR:gap_discovery:wind": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "OR:election_census:wind": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "PA:gap_discovery:battery_storage": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "PA:election_census:battery_storage": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "PA:gap_discovery:cryptocurrency": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "PA:election_census:cryptocurrency": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "PA:gap_discovery:data_center": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "PA:election_census:data_center": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "PA:gap_discovery:solar": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "PA:election_census:solar": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "PA:gap_discovery:wind": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "PA:election_census:wind": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "RI:gap_discovery:battery_storage": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "RI:election_census:battery_storage": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "RI:gap_discovery:cryptocurrency": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "RI:election_census:cryptocurrency": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "RI:gap_discovery:data_center": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "RI:election_census:data_center": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "RI:gap_discovery:solar": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "RI:election_census:solar": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "RI:gap_discovery:wind": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "RI:election_census:wind": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "SC:gap_discovery:battery_storage": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "SC:election_census:battery_storage": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "SC:gap_discovery:cryptocurrency": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "SC:election_census:cryptocurrency": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "SC:gap_discovery:data_center": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "SC:election_census:data_center": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "SC:gap_discovery:solar": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "SC:election_census:solar": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "SC:gap_discovery:wind": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "SC:election_census:wind": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "SD:gap_discovery:battery_storage": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "SD:election_census:battery_storage": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "SD:gap_discovery:cryptocurrency": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "SD:election_census:cryptocurrency": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "SD:gap_discovery:data_center": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "SD:election_census:data_center": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "SD:gap_discovery:solar": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "SD:election_census:solar": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "SD:gap_discovery:wind": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "SD:election_census:wind": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "TN:gap_discovery:battery_storage": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "TN:election_census:battery_storage": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "TN:gap_discovery:cryptocurrency": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "TN:election_census:cryptocurrency": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "TN:gap_discovery:data_center": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "TN:election_census:data_center": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "TN:gap_discovery:solar": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "TN:election_census:solar": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "TN:gap_discovery:wind": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "TN:election_census:wind": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "TX:gap_discovery:battery_storage": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "TX:election_census:battery_storage": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "TX:gap_discovery:cryptocurrency": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "TX:election_census:cryptocurrency": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "TX:gap_discovery:data_center": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "TX:election_census:data_center": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "TX:gap_discovery:solar": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "TX:election_census:solar": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "TX:gap_discovery:wind": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "TX:election_census:wind": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "UT:gap_discovery:battery_storage": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "UT:election_census:battery_storage": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "UT:gap_discovery:cryptocurrency": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "UT:election_census:cryptocurrency": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "UT:gap_discovery:data_center": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "UT:election_census:data_center": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "UT:gap_discovery:solar": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "UT:election_census:solar": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "UT:gap_discovery:wind": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "UT:election_census:wind": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "VA:gap_discovery:battery_storage": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "VA:election_census:battery_storage": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "VA:gap_discovery:cryptocurrency": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "VA:election_census:cryptocurrency": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "VA:gap_discovery:data_center": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "VA:election_census:data_center": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "VA:gap_discovery:solar": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "VA:election_census:solar": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "VA:gap_discovery:wind": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "VA:election_census:wind": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "VT:gap_discovery:battery_storage": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "VT:election_census:battery_storage": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "VT:gap_discovery:cryptocurrency": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "VT:election_census:cryptocurrency": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "VT:gap_discovery:data_center": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "VT:election_census:data_center": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "VT:gap_discovery:solar": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "VT:election_census:solar": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "VT:gap_discovery:wind": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "VT:election_census:wind": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "WA:gap_discovery:battery_storage": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "WA:election_census:battery_storage": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "WA:gap_discovery:cryptocurrency": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "WA:election_census:cryptocurrency": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "WA:gap_discovery:data_center": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "WA:election_census:data_center": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "WA:gap_discovery:solar": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "WA:election_census:solar": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "WA:gap_discovery:wind": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "WA:election_census:wind": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "WI:gap_discovery:battery_storage": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "WI:election_census:battery_storage": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "WI:gap_discovery:cryptocurrency": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "WI:election_census:cryptocurrency": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "WI:gap_discovery:data_center": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "WI:gap_discovery:solar": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "WI:election_census:solar": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "WI:gap_discovery:wind": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "WI:election_census:wind": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "WV:gap_discovery:battery_storage": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "WV:election_census:battery_storage": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "WV:gap_discovery:cryptocurrency": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "WV:election_census:cryptocurrency": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "WV:gap_discovery:data_center": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "WV:election_census:data_center": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "WV:gap_discovery:solar": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "WV:election_census:solar": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "WV:gap_discovery:wind": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "WV:election_census:wind": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "WY:gap_discovery:battery_storage": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "WY:election_census:battery_storage": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "WY:gap_discovery:cryptocurrency": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "WY:election_census:cryptocurrency": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "WY:gap_discovery:data_center": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "WY:election_census:data_center": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "WY:gap_discovery:solar": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "WY:election_census:solar": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "WY:gap_discovery:wind": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    },
+    "WY:election_census:wind": {
+      "planned": 1,
+      "selected": 0,
+      "excluded": 1
+    }
+  },
+  "limitations": [
+    "Planning does not update or reset any research freshness. All statuses are scoped to this newly generated worklist.",
+    "Legacy locality tuples and expanded jurisdictions remain separate until reviewed crosswalk; coordinates are not new canonical IDs.",
+    "State-sector sweeps are not a local-government census. Missing official hosts and unresolved sectors remain visible.",
+    "Unresolved sector terms do not disappear when another sector is searchable. No completeness or negative-finding inference.",
+    "No provider calls. Prices and whole-run budgets remain unresolved; execution is disabled by unpriced policy."
+  ]
+}

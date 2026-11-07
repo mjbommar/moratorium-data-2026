@@ -18,7 +18,7 @@ import search_refresh_batch as batch
 
 
 def plan():
-    return {'schema_version':'refresh-search-plan-1',
+    return {'schema_version':'refresh-search-plan-2',
             'registry':[{'id':'seattle-wa','label':'Seattle, Washington','aliases':['City of Seattle'],
                          'official_hosts':[{'host':'clerk.seattle.gov','source_url':'https://clerk.seattle.gov/act',
                                             'body_sha256':'a'*64,'locator':'Original official record'}]}],
@@ -59,6 +59,31 @@ class SearchBatchTests(unittest.IsolatedAsyncioTestCase):
         self.assertEqual(len(result['excluded_cell_ids']),3)
         self.assertEqual({c['lane'] for c in result['selected_cells']},batch.LANES)
         self.assertEqual(result,batch.preview(p))
+
+    async def test_new_filters_require_authority_and_historical_plans_cannot_dispatch(self):
+        p=plan();p['cells'][0]['variants'][0]['include_domains']=['clerk.seattle.gov']
+        with self.assertRaisesRegex(ValueError,'requires authority review'):batch.preview(p)
+        p=plan();p['schema_version']='refresh-search-plan-1'
+        batch.preview(p)  # Historical plans remain inspectable.
+        with tempfile.TemporaryDirectory() as tmp:
+            with self.assertRaisesRegex(ValueError,'New execution requires plan version 2'):
+                await batch.execute(p,Path(tmp))
+            self.assertFalse((Path(tmp)/'run.private.json').exists())
+
+    async def test_filtered_execution_verifies_authority_file_before_transport(self):
+        p=plan();p['cells'][0]['variants'][0]['include_domains']=['clerk.seattle.gov']
+        source=p['registry'][0]['official_hosts'][0]
+        record={'jurisdiction_id':'seattle-wa','host':source['host'],'role':'government',
+                'source_url':source['source_url'],'body_sha256':source['body_sha256'],
+                'reviewer':'fixture','reviewed_at':'2026-11-06T12:00:00+00:00','authority_basis':'Fixture review only.'}
+        with tempfile.TemporaryDirectory() as tmp:
+            root=Path(tmp);f=root/'authority.json';f.write_text(json.dumps(record))
+            source['authority_review']={**record,'path':str(f),'sha256':batch.sha(f.read_bytes())}
+            batch.preview(p)
+            f.write_text('{}')
+            with self.assertRaisesRegex(ValueError,'Authority review file drift'):
+                await batch.execute(p,root/'run')
+            self.assertFalse((root/'run/run.private.json').exists())
 
     async def test_native_search_many_fusion_sightings_redaction_and_cached_replay(self):
         calls=[]
