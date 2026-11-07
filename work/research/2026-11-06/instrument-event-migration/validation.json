@@ -1,0 +1,189 @@
+{
+  "schema_version": "instrument-event-migration-validation-1",
+  "snapshot": "aa1d4ebc9fb15a1b78c22ad44cb9ca71cb622d6b64be0ee884b3320656b732f8",
+  "csv_projection": "a68aba7580085826cec8a4a4cbf9fce564cba2448edebc030fc2d8f35ef1000f",
+  "identity_registry_sha256": "bc4e041d751b435d19599273667c0ff245a1e53311811ef89045017286ee78a9",
+  "records": {
+    "jurisdictions": 46,
+    "elections": 46,
+    "ballot_measures": 50,
+    "measure_provisions": 50,
+    "measure_results": 57,
+    "local_restrictions": 1,
+    "instrument_events": 5,
+    "measure_instrument_links": 1,
+    "source_documents": 144,
+    "claims": 528,
+    "review_decisions": 2394,
+    "search_runs": 1,
+    "search_attempts": 3,
+    "search_sightings": 18,
+    "coverage_observations": 1
+  },
+  "verified_claim_bindings": 528,
+  "project_tests_passed": 272,
+  "subtests_passed": 44,
+  "make_data_site_check_exit_code": 0,
+  "dataset_errors": 0,
+  "dataset_warnings": 489,
+  "audited_numeric_claims": 53,
+  "all_prior_records_unchanged": true,
+  "legacy_csv_sha256": {
+    "data/moratorium_inventory.csv": "bc5b2917ef203369af22c980438d6130ac7f326a7f4bc474e77db6e7a9a12ecd",
+    "data/state_legislation.csv": "5a4b86b5906acb6bf4611c131c91344e329bed9ae0162266bec962a5ae093038"
+  },
+  "legacy_csvs_unchanged": true,
+  "frozen_pilot": {
+    "schema_version": "pilot-contract-validation-1",
+    "manifest_sha256": "b3274452c8a3f41e90d459b4ed138b05683765d8f199a7f974bbebd08843bf4e",
+    "snapshot_sha256": "3b01a2f4d33e79fff6c4b0bd7e463ceabdc65f95e1b7f0af1c4daf61a4722947",
+    "cases": [
+      {
+        "case_id": "amended-certification",
+        "kind": "synthetic_schema_example",
+        "checked_record_count": 0,
+        "limits": "Explicit artificial contract fixture; no real election, certification, legal history or source acceptance asserted."
+      },
+      {
+        "case_id": "bloomington",
+        "kind": "source_backed_snapshot",
+        "checked_record_count": 5,
+        "limits": "Township electorate and advisory sentiment are distinct from city actor and operative law. Placement/qualification disposition and boundary source remain incomplete."
+      },
+      {
+        "case_id": "council-only",
+        "kind": "source_review_only",
+        "checked_record_count": 0,
+        "limits": "Seattle original council adoption is distinct from mayoral approval and current force; duplicate ID resolves to one instrument. No ballot inferred."
+      },
+      {
+        "case_id": "december-pending",
+        "kind": "source_review_only",
+        "checked_record_count": 0,
+        "limits": "Clarksville financing calls are distinct; December date remains conditional/conflicting. No canonical November result or accepted final December date."
+      },
+      {
+        "case_id": "december-shape",
+        "kind": "synthetic_schema_example",
+        "checked_record_count": 0,
+        "limits": "Explicit artificial contract fixture; no real election, certification, legal history or source acceptance asserted."
+      },
+      {
+        "case_id": "earlier-election",
+        "kind": "source_backed_snapshot",
+        "checked_record_count": 5,
+        "limits": "Canterbury March10 question stays outside November totals; proposed prohibition does not establish operative law."
+      },
+      {
+        "case_id": "el-dorado",
+        "kind": "source_backed_snapshot",
+        "checked_record_count": 5,
+        "limits": "Mixed data-center/BESS scope is not mixed polarity. Ten-year notice differs from unsigned petition; no chosen expiry, current force or single BESS capacity shortcut. Proposed data-center definition explicitly includes cryptocurrency mining; the three-sector classification is supported by that proposal, not solely by the shorter notice."
+      },
+      {
+        "case_id": "failed-qualification",
+        "kind": "synthetic_schema_example",
+        "checked_record_count": 0,
+        "limits": "Explicit artificial contract fixture; no real election, certification, legal history or source acceptance asserted."
+      },
+      {
+        "case_id": "grove-city",
+        "kind": "source_backed_snapshot",
+        "checked_record_count": 5,
+        "limits": "Binding describes the proposed voter-approval mechanism, not current law. Alternative thresholds, aggregation, expansion-version conflict and future-project passage rule remain distinct from amendment passage."
+      },
+      {
+        "case_id": "harwood",
+        "kind": "source_backed_snapshot",
+        "checked_record_count": 5,
+        "limits": "Counts favor no, but exact formal passage/outcome, polarity and operative legal effect are unresolved. Defeat must not be translated into a permit or project approval."
+      },
+      {
+        "case_id": "mixed-polarity",
+        "kind": "synthetic_schema_example",
+        "checked_record_count": 0,
+        "limits": "Explicit artificial contract fixture; no real election, certification, legal history or source acceptance asserted."
+      },
+      {
+        "case_id": "peru",
+        "kind": "source_backed_snapshot",
+        "checked_record_count": 5,
+        "limits": "Plan description says binding voter-adopted pause. Current reviewed proposal and tally do not establish bindingness, polarity, passage or effective date; those remain unresolved."
+      },
+      {
+        "case_id": "piqua",
+        "kind": "source_backed_snapshot",
+        "checked_record_count": 5,
+        "limits": "Official named contest and counts are retained; complete primary charter wording, yes direction, predecessor relationship and current law remain unresolved."
+      },
+      {
+        "case_id": "portal-failure",
+        "kind": "source_review_only",
+        "checked_record_count": 0,
+        "limits": "Unselected Miami ballot form and Lucas 403 challenge are acquisition gaps, not absence of an official record."
+      },
+      {
+        "case_id": "predecessor-replacement",
+        "kind": "synthetic_schema_example",
+        "checked_record_count": 0,
+        "limits": "Explicit artificial contract fixture; no real election, certification, legal history or source acceptance asserted."
+      },
+      {
+        "case_id": "wells",
+        "kind": "source_backed_snapshot",
+        "checked_record_count": 5,
+        "limits": "Certified counts do not establish enactment. Proposed 180-day term anchors to June16 applicability, not election; defined area and retroactivity retain separate evidence."
+      },
+      {
+        "case_id": "wilmington",
+        "kind": "source_backed_snapshot",
+        "checked_record_count": 12,
+        "limits": "Four parcel measures share one city/election. Secondary project context is not a project identity/applicability/approval/cancellation finding."
+      }
+    ],
+    "case_kind_counts": {
+      "synthetic_schema_example": 5,
+      "source_backed_snapshot": 9,
+      "source_review_only": 3
+    },
+    "unique_review_evidence_files": 16,
+    "explicit_field_expectations": 23,
+    "selected_canonical_measures": 12,
+    "selected_measure_months": {
+      "2026-11": 11,
+      "2026-03": 1
+    },
+    "quality_gate_status": "not_assessed",
+    "chronology": "Retrospective contract review after prior tuning/publication. Not an independent unseen holdout or pre-bulk quality gate; those requirements remain open.",
+    "calibration_findings": [
+      {
+        "case_id": "el-dorado",
+        "field": "ballot_measures.sectors",
+        "status": "value_supported_field_evidence_needs_strengthening",
+        "finding": "Current scoped field acceptance cites the shorter notice wording. The explicit cryptocurrency-mining inclusion is in the unsigned proposal definition, not that notice. Located-source verification alone does not establish field-value entailment.",
+        "required_action": "Add a reviewed measure-scoped proposal-definition claim and a superseding sectors field decision before final field-lineage acceptance; preserve current three-sector value and all prior observations."
+      }
+    ],
+    "validation_errors": 0,
+    "scope": "Retrospective schema/example review and pinned-source-receipt integrity. Not a discovery/extraction accuracy metric, new legal acceptance, independent holdout, source reacquisition or P4 quality-gate completion."
+  },
+  "build_log_sha256": "6b8ca8ac9eda71264f5101d237367f85bd0f9e0deb0ae1af65c3e0090e45fd29",
+  "private_build_log": "/data0/moratorium-refresh-2026/frozen-domain-evaluation/instrument-event-build.private.log",
+  "source_api_calls": 0,
+  "extraction_model_calls": 0,
+  "cli_review_jobs": 2,
+  "cli_review_spend_usd": null,
+  "public_receipts_sha256": {
+    "preflight.json": "a4eb3a64947bf91fb3c23350ea3dddc71bbb4d661c14955241f40843d41134d4",
+    "apply.json": "ec324df0183fe4a94216a45f902c3455825d866be2b61b92411bc728d3401eea",
+    "replay.json": "fe9e500700ae1cd0766f703cba92604b23b2b44ab165f3da75a4805009b3435a",
+    "identity-apply.json": "bab93b18d0049ebbeb644d5c55a4e277e87418a5a6121211c150e1083f67bcc2",
+    "preservation-check.json": "2f590cfccc6f136e34ee970752067e771e2fbdafcc98291a0cfe17f3a266bc85",
+    "review-reconciliation.json": "2144c83ab74bd5a78df0f26fa1cc2f6eb9bf00daa1da1caafecc53d67e365919"
+  },
+  "limitations": [
+    "Source-qualified historical events; not current enforceability or complete legal histories.",
+    "Full event migration and extraction-quality gate remain incomplete.",
+    "Final release and hosted deployment remain open."
+  ]
+}

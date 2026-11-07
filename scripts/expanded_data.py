@@ -8,13 +8,17 @@ from datetime import datetime
 from pathlib import Path
 from jsonschema import Draft202012Validator, FormatChecker
 
-SCHEMA = Path(__file__).resolve().parents[1] / 'work/schemas/expanded/1.0.0.json'
+SCHEMA = Path(__file__).resolve().parents[1] / 'work/schemas/expanded/1.0.1.json'
+def profile_path(profile):
+    if profile not in ('1.0.0','1.0.1'):
+        raise ValueError('Unsupported validation profile')
+    return SCHEMA.with_name(profile+'.json')
 IDS = {'jurisdictions':'jurisdiction_id', 'elections':'election_id', 'ballot_measures':'measure_id', 'measure_provisions':'provision_id', 'measure_results':'result_observation_id', 'local_restrictions':'restriction_id', 'instrument_events':'event_id', 'measure_instrument_links':'link_id', 'source_documents':'source_document_id', 'claims':'claim_id', 'review_decisions':'decision_id', 'search_runs':'run_id', 'search_attempts':'attempt_id', 'search_sightings':'sighting_id', 'coverage_observations':'coverage_id'}
 
 
-def validate(directory, moratoria=None, state_actions=None):
+def validate(directory, moratoria=None, state_actions=None, *, profile='1.0.1'):
     directory = directory.resolve()  # Pin one immutable publication generation.
-    schema = json.loads(SCHEMA.read_text())
+    schema = json.loads(profile_path(profile).read_text())
     Draft202012Validator.check_schema(schema)
     errors, rows = [], {name: {} for name in IDS}
     def err(where, message): errors.append(f'{where}: {message}')
@@ -83,6 +87,13 @@ def validate(directory, moratoria=None, state_actions=None):
             if table=='measure_instrument_links':
                 for p in r['provision_ids']:
                     if p in rows['measure_provisions'] and rows['measure_provisions'][p]['measure_id'] != r['measure_id']: err(w,'provision belongs to another measure')
+            if table=='instrument_events' and profile=='1.0.1':
+                target={'table':'instrument_events','id':key}
+                expected={f:r[f] for f in ('instrument','action','occurrence')}
+                if not any(rows['claims'].get(cid,{}).get('subject')==target
+                           and rows['claims'][cid]['predicate']=='instrument_event'
+                           and rows['claims'][cid]['value']==expected for cid in r['claim_ids']):
+                    err(w,'event requires an exact instrument/action/occurrence claim scoped to this event')
             if table in ('measure_results','review_decisions') and r.get('supersedes_id'):
                 exists(table,r['supersedes_id'],w)
                 old=rows[table].get(r['supersedes_id'])
@@ -243,9 +254,10 @@ def check_result(r,w,rows,err):
 def main():
     p=argparse.ArgumentParser(description=__doc__)
     p.add_argument('directory',type=Path); p.add_argument('--moratoria',type=Path); p.add_argument('--state-actions',type=Path)
+    p.add_argument('--profile',choices=['1.0.0','1.0.1'],default='1.0.1')
     a=p.parse_args()
     if not a.directory.is_dir(): p.error('directory does not exist')
-    errors,rows=validate(a.directory,a.moratoria,a.state_actions)
+    errors,rows=validate(a.directory,a.moratoria,a.state_actions,profile=a.profile)
     for e in errors: print(e,file=sys.stderr)
     if errors: print(f'Invalid: {len(errors)} error(s)',file=sys.stderr); return 1
     print('Valid candidate ledgers: '+', '.join(f'{k}={len(v)}' for k,v in rows.items()))

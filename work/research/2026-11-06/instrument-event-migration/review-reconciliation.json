@@ -1,0 +1,41 @@
+{
+  "schema_version": "instrument-event-review-reconciliation-1",
+  "reviews": [
+    {
+      "model": "gpt-6.1-terra",
+      "session_id": "01a1b33d-b740-7d62-96d0-a9f31e624af2",
+      "state": "terminal",
+      "exit_code": 0,
+      "private_report": "/data0/moratorium-refresh-2026/frozen-domain-evaluation/instrument-event-source-review.private.txt",
+      "report_sha256": "3a4c81b891293299143247e4c70c36f3d49f1a5aa31d49649a8194c9769ec7c8"
+    },
+    {
+      "model": "gpt-6.1-terra",
+      "session_id": "01a1b33d-bbe3-7f90-ba83-2ea4e0a001c9",
+      "state": "terminal",
+      "exit_code": 0,
+      "private_report": "/data0/moratorium-refresh-2026/frozen-domain-evaluation/instrument-event-contract-review.private.txt",
+      "report_sha256": "b7d244140920c093f1e78139b3aaf0a9445ef8e8126658920dfab7c239345286"
+    }
+  ],
+  "coordinator_pdf_pages_reviewed": 8,
+  "total_pdf_pages_in_sources": 11,
+  "source_cli_supplied_pdf_pages": 7,
+  "proposed_events_supported": 5,
+  "scope": "Source-image and code reviews of initial proposal. Coordinator repaired profile selection and accepted-claim publication binding, tested separately; reviewers did not re-review those fixes.",
+  "accepted_source_scope": [
+    "three signed adoptions",
+    "two express immediate-effect clauses on the signed dates"
+  ],
+  "withheld": [
+    "Stephenson actual effectiveness and operative end",
+    "actual expiry inferred from original terms",
+    "later amendments/extensions/termination",
+    "current legal force"
+  ],
+  "corrected_contract_findings": [
+    "Explicit historical schema and event-semantic profile selection in frozen audit and retained publication checker",
+    "New event publication requires pinned profile 1.0.1 and matching claim acceptance plus field-decision citation",
+    "Bundle requires selected validator profile dependencies"
+  ]
+}

@@ -1,0 +1,197 @@
+{
+  "schema_version": "instrument-event-review-cohort-1",
+  "baseline_snapshot": "ec673e134a864672403f88538ad53e66c83cd738536c3143436ee05429496c76",
+  "profile": "work/schemas/expanded/1.0.1.json",
+  "profile_sha256": "98d137aba903b5bd115db7f24dc18f45b9718ccd29f994598832741fea3fc54f",
+  "cases": [
+    {
+      "candidate_key": "discovery-il:1",
+      "instrument": {
+        "kind": "moratorium",
+        "id": "il-stephenson-county-2026"
+      },
+      "source": {
+        "attempt_id": "47efe6d9cd9e40a980b985ae9d9d6fb9",
+        "url": "https://ecode360.com/ST2918/laws/LF2794597.pdf",
+        "body_sha256": "9206b210111eadbac6b160aebc0e4a413cda11d25b3b3330d7954dc0170a371d",
+        "text_sha256": "b2b39d9776eb5f075f9b68877235cbd5077263f0479c0384d59d295eb4fbdf6e",
+        "located_worker_excerpts": [
+          {
+            "quote_sha256": "01709bd1d8c9776af1ed44acd85a79c018aefd3690d7b683335928722f65a10f",
+            "located_unicode_span": [
+              194,
+              251
+            ]
+          }
+        ]
+      },
+      "pdf_pages": 4,
+      "reviewed_pdf_pages": [
+        1,
+        3,
+        4
+      ],
+      "proposed_events": [
+        {
+          "action": "adopted",
+          "occurrence": {
+            "earliest": "2026-08-20",
+            "latest": "2026-08-20",
+            "precision": "day",
+            "original_text": "20th day of August, 2026"
+          },
+          "primary_pdf_page": 4,
+          "additional_pdf_pages": [
+            1
+          ]
+        }
+      ],
+      "withheld": [
+        "later amendments/extensions/termination and current legal force",
+        "actual expiry from original endpoint",
+        "effectiveness in accordance with applicable law and exact operative end"
+      ]
+    },
+    {
+      "candidate_key": "discovery-wa:2",
+      "instrument": {
+        "kind": "moratorium",
+        "id": "wa-whitman-county-2025"
+      },
+      "source": {
+        "attempt_id": "711b30f412de4496a635ae97d59b3ad7",
+        "url": "https://whitmancounty.gov/DocumentCenter/View/11410/Ordinance-No-089101-Interim-Zoning-Controls-Winf--Solar-Energy-Generation-Facilities-Storage---2025-05-05-PDF",
+        "body_sha256": "7ca6229e88fcae682485d1d13df654e5897693381af180f706ed575fa1326226",
+        "text_sha256": "840262e1703b0b80d932e867fdc28eb856d45a54d3aee88b42e5f1adfd64e89d",
+        "located_worker_excerpts": [
+          {
+            "quote_sha256": "ef20b33ffca78e31a5c0141f966a052445aa6cc04869f4fc10342ad5a7ac09d4",
+            "located_unicode_span": [
+              548,
+              603
+            ]
+          },
+          {
+            "quote_sha256": "19947ed20ec33b3a4bfced47e5d1db70df865a7b1e97595135ccb70feecb8d0b",
+            "located_unicode_span": [
+              6079,
+              6109
+            ]
+          },
+          {
+            "quote_sha256": "76185c3ca626ce16e3ab38f7b24000892971cf660585f85334e33e24df3fd44b",
+            "located_unicode_span": [
+              5328,
+              5366
+            ]
+          }
+        ]
+      },
+      "pdf_pages": 3,
+      "reviewed_pdf_pages": [
+        1,
+        3
+      ],
+      "proposed_events": [
+        {
+          "action": "adopted",
+          "occurrence": {
+            "earliest": "2025-05-05",
+            "latest": "2025-05-05",
+            "precision": "day",
+            "original_text": "5th day of May 2025"
+          },
+          "primary_pdf_page": 3,
+          "additional_pdf_pages": [
+            1
+          ]
+        },
+        {
+          "action": "effective",
+          "occurrence": {
+            "earliest": "2025-05-05",
+            "latest": "2025-05-05",
+            "precision": "day",
+            "original_text": "5th day of May 2025"
+          },
+          "primary_pdf_page": 3,
+          "additional_pdf_pages": [
+            1
+          ]
+        }
+      ],
+      "withheld": [
+        "later amendments/extensions/termination and current legal force",
+        "actual expiry from original endpoint"
+      ]
+    },
+    {
+      "candidate_key": "discovery-wa:4",
+      "instrument": {
+        "kind": "moratorium",
+        "id": "wa-spokane-valley-2026"
+      },
+      "source": {
+        "attempt_id": "e3beefb1ebdf4c84964f77d3be8ea0e9",
+        "url": "https://ecode360.com/SP4654/laws/LF2731355.pdf",
+        "body_sha256": "3dc2643bc819904c8e70b77c26aab67a1e28f645e6a6ceebd460ee0acbf70084",
+        "text_sha256": "3060387e1b84d118731b45694ca6b9249a00dcf62821474078ec28e30e5c7343",
+        "located_worker_excerpts": [
+          {
+            "quote_sha256": "1eb2ed3ab49032e7217bfb009b214d02c79fc890343b7e2cd305d0ef186ed10c",
+            "located_unicode_span": [
+              4108,
+              4158
+            ]
+          },
+          {
+            "quote_sha256": "f90020bf28f45e1b9cc29b502bda9688c91e1c01add98c26686fbe5107030da1",
+            "located_unicode_span": [
+              7880,
+              7897
+            ]
+          }
+        ]
+      },
+      "pdf_pages": 4,
+      "reviewed_pdf_pages": [
+        1,
+        3,
+        4
+      ],
+      "proposed_events": [
+        {
+          "action": "adopted",
+          "occurrence": {
+            "earliest": "2026-02-03",
+            "latest": "2026-02-03",
+            "precision": "day",
+            "original_text": "3rd day of February, 2026"
+          },
+          "primary_pdf_page": 3,
+          "additional_pdf_pages": [
+            1
+          ]
+        },
+        {
+          "action": "effective",
+          "occurrence": {
+            "earliest": "2026-02-03",
+            "latest": "2026-02-03",
+            "precision": "day",
+            "original_text": "3rd day of February, 2026"
+          },
+          "primary_pdf_page": 3,
+          "additional_pdf_pages": [
+            1
+          ]
+        }
+      ],
+      "withheld": [
+        "later amendments/extensions/termination and current legal force",
+        "actual expiry from original endpoint"
+      ]
+    }
+  ],
+  "scope": "Proposed source-event migration only; coordinator reviewed selected original pages. No automatic legal status changes or inferred expiry."
+}

@@ -116,6 +116,6 @@ Reported outcomes and certification are separate from calculated passage rules, 
 - Eliot: [reported-outcome source](<https://www.bangordailynews.com/2026/11/05/politics/elections/maine-election-towns-temporary-data-center-bans/>).
 - Sabattus: [reported-outcome source](<https://www.bangordailynews.com/2026/11/05/politics/elections/maine-election-towns-temporary-data-center-bans/>).
 
-Pinned canonical snapshot: `ec673e134a864672403f88538ad53e66c83cd738536c3143436ee05429496c76`. Source observation times remain in the JSONL records; this generation is not a renewed current-force check.
+Pinned canonical snapshot: `aa1d4ebc9fb15a1b78c22ad44cb9ca71cb622d6b64be0ee884b3320656b732f8`. Source observation times remain in the JSONL records; this generation is not a renewed current-force check.
 
-[Canonical publication protocol](expanded-promotion.md) · [Raw reviewed tables](../data/expanded-snapshots/ec673e134a864672403f88538ad53e66c83cd738536c3143436ee05429496c76/ballot_measures.jsonl)
+[Canonical publication protocol](expanded-promotion.md) · [Raw reviewed tables](../data/expanded-snapshots/aa1d4ebc9fb15a1b78c22ad44cb9ca71cb622d6b64be0ee884b3320656b732f8/ballot_measures.jsonl)

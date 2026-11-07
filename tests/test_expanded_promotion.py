@@ -28,6 +28,58 @@ def make_plan(records, registry, previous=None):
 
 
 class PublicationTests(unittest.TestCase):
+    def test_event_exact_claim_must_be_accepted_and_cited_by_event_fields(self):
+        data=rows();target={'table':'instrument_events','id':'event'}
+        event=dict(schema_version='1.0.0',event_id='event',instrument={'kind':'moratorium','id':'legacy'},
+            action='adopted',occurrence={'earliest':'2026-02-03','latest':'2026-02-03','precision':'day','original_text':'February 3'},claim_ids=['exact','other'])
+        data['instrument_events']['event']=event
+        for cid in ['exact','other']:
+            data['claims'][cid]=dict(schema_version='1.0.0',claim_id=cid,subject=target,
+                predicate='instrument_event' if cid=='exact' else 'other',
+                value={f:event[f] for f in ('instrument','action','occurrence')} if cid=='exact' else 'Unrelated source fact')
+        def accepted(key,t,scope,cid):
+            data['review_decisions'][key]=dict(schema_version='1.0.0',decision_id=key,target=t,
+                scope=scope,claim_ids=[cid],disposition='accepted',supersedes_id=None)
+        accepted('accept-other',{'table':'claims','id':'other'},'other','other')
+        for field in ['instrument','action','occurrence']:accepted(field,target,field,'other')
+        registry=Registry();plan=make_plan(data,self.registry)
+        plan.update(schema_version='1.0.1',validation_profile=dict(name='1.0.1',
+            schema_sha256=m.digest(m.profile_path('1.0.1').read_bytes()),semantics='event-exact-accepted-v1'))
+        def refresh():
+            plan['record_reviews']=[]
+            for table,records in data.items():
+                for key,record in records.items():
+                    registry.entities[key]={'table':table,'successors':[]}
+                    plan['record_reviews'].append(dict(table=table,id=key,record_sha256=m.digest(m.encode(record).encode()),
+                        previous_sha256=None,accepted_fields=sorted(set(record)-{m.IDS[table],'schema_version'}),unresolved_fields=[],publication='reviewed_metadata'))
+        proofs=[{'claim_id':cid,'evidence_verified':True} for cid in ['exact','other']]
+        refresh()
+        with self.assertRaisesRegex(ValueError,'accepted exact event claim'):m.review_gate(data,registry,plan,proofs,rows())
+        accepted('accept-exact',{'table':'claims','id':'exact'},'instrument_event','exact');refresh()
+        with self.assertRaisesRegex(ValueError,'Event field must cite'):m.review_gate(data,registry,plan,proofs,rows())
+        for field in ['instrument','action','occurrence']:data['review_decisions'][field]['claim_ids']=['exact']
+        refresh();m.review_gate(data,registry,plan,proofs,rows())
+        plan.pop('validation_profile');plan['schema_version']='1.0.0'
+        with self.assertRaisesRegex(ValueError,'explicit validation profile'):m.review_gate(data,registry,plan,proofs,rows())
+
+    def test_profile_pin_is_independent_of_record_format_and_cannot_drift(self):
+        plan=copy.deepcopy(self.plan);m.validate_plan(plan)
+        plan.update(schema_version='1.0.1',validation_profile=dict(name='1.0.1',
+            schema_sha256=m.digest(m.profile_path('1.0.1').read_bytes()),semantics='event-exact-accepted-v1'))
+        m.validate_plan(plan)
+        plan['validation_profile']['schema_sha256']='0'*64
+        with self.assertRaisesRegex(ValueError,'profile pin'):m.validate_plan(plan)
+
+    def test_new_publication_cannot_opt_out_of_event_profile(self):
+        data=rows();data['instrument_events']['event']={'schema_version':'1.0.0','event_id':'event'}
+        plan=make_plan(data,self.registry)
+        # Isolate the publication policy even if a historical structural checker
+        # reports success and other review checks are stubbed by a caller/test.
+        with patch.object(m,'validate',return_value=([],data)), patch.object(m,'review_gate') as gate:
+            with self.assertRaisesRegex(ValueError,'cannot downgrade validation profile'):
+                m.publish(self.destination,self.candidate,self.registry,plan,[])
+            gate.assert_not_called()
+
     def setUp(self):
         self.temp=tempfile.TemporaryDirectory();self.addCleanup(self.temp.cleanup)
         self.root=Path(self.temp.name);self.registry=self.root/'registry.jsonl';self.registry.write_text('')

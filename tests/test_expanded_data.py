@@ -14,6 +14,52 @@ FIXTURE = ROOT / 'work/schemas/expanded/fixtures/synthetic'
 def date(s=None): return {'earliest':s,'latest':s,'precision':'day' if s else 'unknown','original_text':s}
 
 class ExpandedContracts(unittest.TestCase):
+    def event(self):
+        self.tables['local_restrictions']=[self.restriction()]
+        event=dict(schema_version='1.0.0',event_id='event',instrument=dict(kind='restriction',id='r'),
+            action='adopted',occurrence=date('2026-02-03'),observed_at='2026-11-06T12:00:00Z',published_at=None,claim_ids=['c'])
+        claim=self.claim(dict(table='instrument_events',id='event'),'instrument_event')
+        claim['value']={f:copy.deepcopy(event[f]) for f in ('instrument','action','occurrence')}
+        self.tables['instrument_events']=[event];self.tables['claims']=[claim]
+        return event,claim
+
+    def test_event_kind_and_exact_scoped_occurrence_are_required(self):
+        event,claim=self.event();self.assertEqual(self.validate(),[])
+        event['action']='probably still active'
+        self.assertTrue(any('action' in e for e in self.validate()))
+
+    def test_adoption_claim_cannot_be_reused_as_effectiveness(self):
+        event,claim=self.event();event['action']='effective'
+        self.assertTrue(any('exact instrument/action/occurrence' in e for e in self.validate()))
+
+    def test_another_instrument_or_date_cannot_satisfy_event_support(self):
+        event,claim=self.event();claim['value']['occurrence']=date('2026-02-04')
+        self.assertTrue(any('exact instrument/action/occurrence' in e for e in self.validate()))
+        claim['value']['occurrence']=copy.deepcopy(event['occurrence']);claim['value']['instrument']={'kind':'restriction','id':'other'}
+        self.assertTrue(any('exact instrument/action/occurrence' in e for e in self.validate()))
+
+    def test_wrong_event_subject_predicate_or_missing_claim_cannot_support_event(self):
+        event,claim=self.event()
+        for field,value in [('subject',{'table':'instrument_events','id':'other'}),('predicate','adoption_date')]:
+            prior=claim[field];claim[field]=value
+            self.assertTrue(any('exact instrument/action/occurrence' in e for e in self.validate()))
+            claim[field]=prior
+        event['claim_ids']=[]
+        self.assertTrue(any('exact instrument/action/occurrence' in e for e in self.validate()))
+
+    def test_event_support_preserves_date_precision_and_original_text(self):
+        for field,value in [('precision','range'),('original_text','A different source phrase')]:
+            with self.subTest(field=field):
+                event,claim=self.event();claim['value']['occurrence'][field]=value
+                self.assertTrue(any('exact instrument/action/occurrence' in e for e in self.validate()))
+
+    def test_frozen_predecessor_example_keeps_original_validation_profile(self):
+        manifest=json.loads((ROOT/'work/research/2026-11-06/pilot-contract-review/manifest.json').read_text())
+        case=next(c for c in manifest['cases'] if c['case_id']=='predecessor-replacement')
+        fixture=ROOT/case['fixture']
+        self.assertEqual(mod.validate(fixture,fixture/'legacy.csv',profile='1.0.0')[0],[])
+        self.assertTrue(mod.validate(fixture,fixture/'legacy.csv',profile='1.0.1')[0])
+
     def test_reporting_scope_is_optional_but_explicit_parts_need_description(self):
         self.assertEqual(self.validate(), [])
         r = self.tables['measure_results'][0]

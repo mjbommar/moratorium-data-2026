@@ -49,6 +49,12 @@ facts, certification or legal-force review.
 
 ## Files and validation
 
+The active validator now uses [validation profile 1.0.1](../work/schemas/expanded/1.0.1.json)
+for the unchanged `schema_version: "1.0.0"` record format. It constrains instrument
+event actions; the [event contract](instrument-events.md) also defines exact
+event-scoped claim binding and source/legal limits. The original schema below
+remains retained for frozen fixtures and historical receipts.
+
 [JSON Schema 2020-12](../work/schemas/expanded/1.0.0.json) contains a named
 `$defs` schema for each JSONL table. Every record has `schema_version: "1.0.0"`.
 Use UTF-8, one object per line, in files named `<table>.jsonl`. Missing tables are

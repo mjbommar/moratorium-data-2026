@@ -5,6 +5,7 @@ import gzip
 import hashlib
 import io
 import json
+import re
 from pathlib import Path
 import subprocess
 import tarfile
@@ -32,6 +33,14 @@ def build(destination, revision):
              'work/audit/refresh-baseline-delta-2026-11-06.json',
              'work/audit/refresh-baseline-delta-2026-11-06.md',
              'work/schemas/expanded/1.0.0.json'}
+    # Include each retained top-level profile used by the selected validator;
+    # the original schema remains required by frozen retrospective fixtures.
+    exact.update(n for n in names if n.startswith('work/schemas/expanded/')
+                 and len(Path(n).parts)==4 and n.endswith('.json'))
+    exact.update(n for n in ['docs/instrument-events.md','docs/ballot-semantic-definitions.md'] if n in names)
+    event_review='work/research/2026-11-06/instrument-event-migration/'
+    if event_review+'cohort.json' in names:
+        exact.update(n for n in names if n.startswith(event_review))
     if 'data/expanded-csv' in names:
         exact.update({'data/expanded-csv', 'data/README.md'})
     if 'data/identities/legacy-moratoria.jsonl' in names:
@@ -50,6 +59,10 @@ def build(destination, revision):
         exact.update({'scripts/audit_pilot_contracts.py', 'scripts/expanded_data.py',
                       'scripts/expanded_promotion.py', 'scripts/expanded_identity.py',
                       'scripts/audit_refresh_returns.py', 'scripts/visual_claim_review.py'})
+        validator=git('show',commit+':scripts/expanded_data.py').decode()
+        dependencies=set(re.findall(r'work/schemas/expanded/\d+\.\d+\.\d+\.json',validator))
+        assert dependencies<=set(names),'Validator profile absent from selected commit: '+str(dependencies-set(names))
+        exact.update(dependencies)
         frozen = json.loads(git('show', commit+':'+pilot+'manifest.json'))
         for case in frozen['cases']:
             for evidence in case['evidence_files']:

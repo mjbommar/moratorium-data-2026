@@ -42,6 +42,13 @@ Exit: reproducible baseline manifest with unrelated work preserved.
 
 ## P1 — Data contracts
 
+- [x] Add explicit versioned instrument-event action validation and exact accepted
+  event-claim/field binding, preserving historical profile selection and the frozen
+  predecessor/replacement example ([event contract](docs/instrument-events.md)).
+- [x] Promote the reviewed initial five-event/three-instrument cohort through
+  identity, source-proof and field-review gates; preserve legacy rows and unknown
+  expiry/current force ([cohort](work/research/2026-11-06/instrument-event-migration/cohort.json)).
+
 - [x] Define schemas and fixtures for jurisdictions, elections, ballot measures and provisions.
 - [x] Define versioned result observations, vote denominators, passage rules and certification states.
 - [x] Define non-moratorium local restrictions without widening the legacy inventory denominator.

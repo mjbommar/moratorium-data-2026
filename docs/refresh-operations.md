@@ -308,3 +308,24 @@ matching audited numbers. The post-correction targeted audit has no current-use
 flags; its historical predecessor gaps remain visible. This does not complete
 the extraction evaluation, broader freshness/implementation gates, final release
 or hosted/sibling delivery.
+
+## First source-supported instrument-event migration
+
+The [five-event cohort](../work/research/2026-11-06/instrument-event-migration/README.md)
+publishes three signed adoptions and two explicit immediate-effect events for
+existing Stephenson, Whitman and Spokane Valley instruments. Stephenson actual
+effectiveness and all three later histories/current force remain unresolved.
+No expiry is inferred from an original endpoint. All prior records and both
+legacy CSVs remain unchanged; there are still 1,330 local records, 442 state-policy
+records, 50 measures, 57 retained/50 current results and five certified current
+observations. Expanded sources/claims/decisions now number 144/528/2,394, with
+five instrument events.
+
+Two distributed terra CLI reviews checked source images and initial contracts.
+Coordinator fixes preserve historical validation profile1.0.0 while new event
+plans pin profile1.0.1 and require exact accepted event claims cited by the
+instrument/action/occurrence field decisions. Complete source preflight/application
+verifies 528 claim bindings; replay is a no-op. All 272 tests and 44 subtests pass,
+as do the frozen seventeen-case audit and full data/site/check build. Existing
+489 warnings and legal qualifications remain. Broader migration, freshness,
+extraction-quality and final publication/deployment gates are still open.

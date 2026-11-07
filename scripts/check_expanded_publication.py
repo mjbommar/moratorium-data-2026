@@ -55,7 +55,8 @@ def check(destination, registry_path, moratoria=None, state_actions=None):
         require(plan['registry_sha256'] in prefixes, 'Published identity baseline is not retained registry history')
         prefix = prefixes[plan['registry_sha256']]
         historical = Registry(read_events(raw[:prefix]))
-        errors, rows = validate(path, moratoria, state_actions)
+        errors, rows = validate(path, moratoria, state_actions,
+                                profile=plan.get('validation_profile',{}).get('name','1.0.0'))
         require(not errors, 'Invalid published tables: '+'; '.join(errors))
         proofs = receipt['evidence']
         require(isinstance(proofs, list) and len(proofs) == len(rows['claims'])

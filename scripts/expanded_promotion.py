@@ -14,7 +14,7 @@ import os
 from pathlib import Path
 import tempfile
 
-from expanded_data import IDS, validate
+from expanded_data import IDS, validate, profile_path
 from expanded_identity import Registry, read_events, encode
 from audit_refresh_returns import evidence_index, audit_expanded_evidence
 
@@ -104,12 +104,38 @@ def review_gate(rows, registry, plan, proofs, previous):
                 require(bool(live[0]['claim_ids']), 'Field acceptance requires supporting claims')
     for table, records in previous.items():
         require(set(records) <= set(rows[table]), 'Records cannot silently disappear: '+table)
+    profile=plan.get('validation_profile',{}).get('name','1.0.0')
+    if set(rows['instrument_events'])-set(previous['instrument_events']):
+        require(profile=='1.0.1','New instrument events require explicit validation profile 1.0.1')
+    if profile=='1.0.1':
+        for key,event in rows['instrument_events'].items():
+            target={'table':'instrument_events','id':key}
+            expected={f:event[f] for f in ('instrument','action','occurrence')}
+            exact=set()
+            for cid in event['claim_ids']:
+                claim=rows['claims'][cid]
+                accepted_claim=[d for d in decisions if d['target']=={'table':'claims','id':cid}
+                    and d['scope']==claim['predicate'] and d['decision_id'] not in superseded]
+                if (claim['subject']==target and claim['predicate']=='instrument_event' and claim['value']==expected
+                    and len(accepted_claim)==1 and accepted_claim[0]['disposition']=='accepted'):
+                    exact.add(cid)
+            require(bool(exact),'Event lacks current accepted exact event claim')
+            for field in ('instrument','action','occurrence'):
+                live=[d for d in decisions if d['target']==target and d['scope']==field and d['decision_id'] not in superseded]
+                require(len(live)==1 and live[0]['disposition']=='accepted' and bool(exact.intersection(live[0]['claim_ids'])),
+                        'Event field must cite accepted exact event claim: '+field)
 
 
 def validate_plan(plan):
-    require(set(plan) == {'schema_version', 'expected_sha256', 'registry_sha256', 'snapshot_sha256',
-                          'reviewer', 'reviewed_at', 'rationale', 'record_reviews'}, 'Invalid plan fields')
-    require(plan['schema_version'] == '1.0.0', 'Unsupported plan version')
+    fields={'schema_version', 'expected_sha256', 'registry_sha256', 'snapshot_sha256',
+            'reviewer', 'reviewed_at', 'rationale', 'record_reviews'}
+    require(plan['schema_version'] in ('1.0.0','1.0.1'), 'Unsupported plan version')
+    if plan['schema_version']=='1.0.1':
+        fields.add('validation_profile');profile=plan.get('validation_profile')
+        require(isinstance(profile,dict) and set(profile)=={'name','schema_sha256','semantics'} and profile['name']=='1.0.1'
+                and profile['schema_sha256']==digest(profile_path(profile['name']).read_bytes())
+                and profile['semantics']=='event-exact-accepted-v1','Invalid validation profile pin')
+    require(set(plan)==fields,'Invalid plan fields')
     require(all(isinstance(plan[k], str) and plan[k].strip() for k in ('reviewer', 'rationale')),
             'Explicit reviewer and rationale required')
     require(datetime.fromisoformat(plan['reviewed_at'].replace('Z', '+00:00')).tzinfo is not None,
@@ -134,7 +160,8 @@ def publish(destination, candidate, registry_path, plan, evidence_directories,
         registry_raw = registry_path.read_bytes()
         require(digest(registry_raw) == plan['registry_sha256'], 'Identity registry changed since review')
         registry = Registry(read_events(registry_raw))
-        errors, rows = validate(candidate.resolve(), moratoria, state_actions)
+        errors, rows = validate(candidate.resolve(), moratoria, state_actions,
+                                profile=plan.get('validation_profile',{}).get('name','1.0.0'))
         require(not errors, 'Invalid candidate: '+'; '.join(errors))
         files = serialized(rows); target_hash = fingerprint(files)
         require(target_hash == plan['snapshot_sha256'], 'Candidate snapshot changed since review')
@@ -155,6 +182,9 @@ def publish(destination, candidate, registry_path, plan, evidence_directories,
                     and retained['schema_version'] == '1.0.0', 'Retained publication receipt drift')
             # The originally applied baseline was already validated; do not reinterpret it.
             return {'state': 'already_applied', 'sha256': target_hash}
+        if rows['instrument_events']:
+            require(plan.get('validation_profile',{}).get('name')=='1.0.1',
+                    'Publication containing instrument events cannot downgrade validation profile')
         index = {}
         for directory in evidence_directories:
             entries, issues, _ = evidence_index(directory)

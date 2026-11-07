@@ -41,7 +41,7 @@ def audit(manifest_path, root=ROOT):
     # Historical fixtures must survive legitimate future inventory updates.
     # Original full-CSV hashes remain provenance; immutable ID-only fixtures
     # supply validation context, rather than today's changing inventory rows.
-    errors,rows=validate(snapshot,references['moratoria'],references['state_actions'])
+    errors,rows=validate(snapshot,references['moratoria'],references['state_actions'],profile='1.0.0')
     require(not errors,'Frozen canonical contracts invalid: '+str(errors[:3]))
     reports=[];measures=set();assertions=0;source_files={}
     for case in cases:
@@ -61,7 +61,7 @@ def audit(manifest_path, root=ROOT):
             fixture=local(root,case['fixture'])
             require({p.name for p in fixture.iterdir() if p.is_file()}==set(case['fixture_sha256']),'Synthetic fixture membership drift')
             for name,digest in case['fixture_sha256'].items():require(sha(fixture/name)==digest,'Synthetic fixture drift')
-            errors,example=validate(fixture,fixture/'legacy.csv' if (fixture/'legacy.csv').exists() else None)
+            errors,example=validate(fixture,fixture/'legacy.csv' if (fixture/'legacy.csv').exists() else None,profile='1.0.0')
             require(not errors,'Synthetic example invalid: '+case['case_id']+': '+str(errors[:3]))
             if case['case_id']=='amended-certification':require(len(example['measure_results'])==2 and certified_result_count(example)==1,'Amended result double-counted')
             if case['case_id'] in ('failed-qualification','december-shape'):require(not example['measure_results'],'Unvoted synthetic case acquired results')
