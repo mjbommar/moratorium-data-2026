@@ -487,3 +487,8 @@ Preserved 29 additional Idaho source versions in the admitted private store with
 ### Idaho and Illinois policy fields — November 7
 
 Applied 39 Idaho and 26 Illinois field corrections across twenty existing rows following 380 field assessments and independent source review. No rows added or removed; policy census remains 443, typed bills 428, enacted-category bills 94. Three Idaho fiscal proposals are corrected out of the statewide-moratorium mechanism. Preserve historical failure inferences, unresolved current force and missing Illinois versions. Source recovery added 29 Idaho and 12 Illinois versions with zero native payload gaps. The original nationwide baseline and final publication remain open.
+
+
+### Indiana policy fields and official notice — November 7
+
+Applied 46 field corrections across ten existing policy rows after 190 independent assessments and 32 source representation checks. No rows added or removed; local, policy and ballot census totals remain unchanged. Source recovery archived 30 additional versions and verified native readback with zero gaps. A capped Exa search and successful bc-web/pydoll rendered notice corroborate session closure, separately from individual bill and hearing disposition. Preserve mixed omnibus dates and provision-specific sunsets in prose/audit. Full national refresh and final publication remain incomplete.

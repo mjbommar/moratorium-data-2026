@@ -1,0 +1,15 @@
+# Indiana policy source review
+
+Applied **46 field corrections across all ten existing Indiana policy records**, following three disjoint primary reviews and three independent terra CLI reviews. The packet includes 190 field decisions, all 19 exact live guards per row and 32 source representation hash checks. No rows were added or removed. Local and expanded ballot data are unchanged.
+
+HB1043's covered-center definition includes digital services, equipment and capacity to consume at least ten million gallons of water in one month. HB1189 proposes a bid/RFP labor condition on incentives. HB1210's enrolled section 100 concerns a payment of at most one percent of retail/use tax not paid on quarterly electricity, for users satisfying both permit and certificate date conditions; it is not an unqualified payment on all tax savings. Sponsor and cosponsor roles are distinguished.
+
+HB1245 is a proposed IURC study. HB1297 proposes fiscal/financing conditions for facilities averaging at least 500,000 gallons of water daily. HB1333's reprint combines agricultural land-use, certificate-agreement, energy-zone and battery-storage provisions; broad land-use preemption does not alone establish moratorium-specific preemption. Its identity remains distinct from HB1210.
+
+HB1406's relevant section 27 directs an IFA/IEDC study, due November 1, 2026, and expires July 1, 2027. That is a section sunset, not an expiration of the whole act. The omnibus HB1210 and HB1406 rows retain blank whole-instrument effective dates; their tracked provisions' commencement is explicitly described in status prose. The coordinator rejected assigning HB1210 section 100's July 1 date to the entire act, consistently with the independent HB1406 decision.
+
+SB234's tariff date is an application criterion and its interim study is urged, not mandated; a proposed section expiration is distinguished from a whole-bill sunset. SB257's employee/demand tests concern other enumerated facilities, not every data center. SB79 includes local disclosure and site-assessment requirements before a construction permit; its working-group section has a proposed expiration that does not thereby expire those other provisions.
+
+The independently reviewed histories were captured November 5 and newer PDFs November 7. Failed dispositions remain qualified historical inferences; missing action entries do not prove no hearing or no incorporation elsewhere. The coordinator separately retrieved an official IGA adjournment notice through pydoll; it corroborates closure by its March 3 update, without establishing the exact February 27 date or individual bill outcomes. Report delivery, later law, party and activity aggregates remain explicit follow-ups where unsupported.
+
+See `exact-diff.json`, `full-row-guards.json`, `field-ledger.json`, `source-hash-checks.json` and `apply-receipt.json`. Original bodies, extracted source text and provider responses remain private. [Source recovery](../indiana-policy-source-recovery/README.md) records 30 additional archived/native versions. Full national freshness, expanded ballots, downstream reconciliation and release publication remain incomplete.

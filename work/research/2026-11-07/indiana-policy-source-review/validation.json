@@ -1,0 +1,30 @@
+{
+  "checked_at": "2026-11-07T21:55:46.118240+00:00",
+  "state": "passed",
+  "base_commit": "510142212ec6ec21a08ceec34a6472e3d257300e",
+  "changed_existing_records": 10,
+  "changed_fields": 46,
+  "new_records": 0,
+  "removed_records": 0,
+  "census": {
+    "local": 1330,
+    "policy": 443,
+    "typed_bills": 428,
+    "enacted_category_bills": 94,
+    "ballot_measures": 53,
+    "measure_provisions": 52
+  },
+  "checks": {
+    "site_regeneration_and_legacy_validation": "exit0;0errors502warnings",
+    "summary_regeneration_and_check": "passed;summary bytes unchanged",
+    "documented_numbers": "all65match",
+    "index_check": "passed",
+    "source_classification": "no private source text tracked",
+    "exact_id_preservation_and_diff": "46fields10IDs;local and summary bytes unchanged",
+    "expanded_and_identity_files": "unchanged"
+  },
+  "archive_versions": 30,
+  "native_payload_gaps": 0,
+  "policy_csv_sha256": "64bdc2e41bf8ed4e7e04bf249fad4874cb1a1ad25701ec3a4deb95e9a17443fd",
+  "scope": "Final affected legacy-data/consumer checks only. No new full test-suite run, full national freshness, whole-act current-force or final-release claim."
+}

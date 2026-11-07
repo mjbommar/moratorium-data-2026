@@ -510,3 +510,5 @@ Exit: repeatable refresh with visible freshness, costs, failures and unresolved 
 - [x] Review all 171 fields across nine Idaho policy records, independently adjudicate and apply 39 corrections with exact guards; recover enacted H0521 approval evidence and archive 29 source versions. Final-journal/current-force gaps remain open ([packet](work/research/2026-11-07/idaho-policy-source-review/README.md)).
 
 - [x] Independently review 209 fields across eleven Illinois policy records and apply 26 guarded corrections; preserve synopsis/text conflicts and missing full versions, without resetting the shared acquisition ceiling ([packet](work/research/2026-11-07/illinois-policy-source-review/README.md)).
+
+- [x] Independently assess 190 fields across ten Indiana policy records and apply 46 guarded corrections; preserve section-level dates and unresolved current force, and exercise native Exa/pydoll official-notice acquisition ([review](work/research/2026-11-07/indiana-policy-source-review/README.md)).

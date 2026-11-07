@@ -2,6 +2,8 @@
 
 ## 2026-11-07 — current working snapshot (unreleased)
 
+The [Indiana policy review](work/research/2026-11-07/indiana-policy-source-review/README.md) applies 46 fields across ten existing records after 190 independent assessments. Correct study/fiscal classifications and water/rate conditions, preserve section-specific sunsets and mixed effective dates, and qualify historical hearing/failure claims. Native Exa and pydoll recover official session context; 30 source versions are archived with verified native readback.
+
 The [Illinois policy review](work/research/2026-11-07/illinois-policy-source-review/README.md) applies 26 fields across eleven existing records after 209 independent field decisions. Distinguish introduced and filed replacement versions, capture and action dates, and synopsis versus operative text; preserve missing-version and current-force gaps.
 
 November 7 Idaho source review: 39 fields across nine existing policy records; corrected three fiscal proposals mislabeled as construction moratoria and one incentive-support mechanism. Independently resolved H0521 approval-date discrepancy using enacted chapter 335. Historical failure/current-force qualifications remain explicit.
