@@ -350,3 +350,7 @@ the catalogue a complete law census. All headline totals are unchanged; one
 `failed_died` category moves to `vetoed`, with legal effect unknown. Full build,
 272 tests/44 subtests and zero-edit replay pass. Broader state review,
 implementation, final release and delivery remain open.
+
+## Seattle survivor field reconciliation — November 6
+
+[Seven narrative corrections](../work/research/2026-11-06/seattle-survivor-reconciliation/README.md) distinguish original passage/effectiveness, the qualifying operating-facility expansion exception, original term and separate Attachment A deadlines. A terminal `gpt-6.1-terra` CLI review verified both retained body/text pairs and requested restoration of the definition's primary-use condition and source-specific support attribution; both were corrected before application. Coordinator visually reviewed four original PDF pages. No new network calls, IDs, classifications or operative endpoints; project aggregates/applicability and current-force questions remain qualified. Both prior rows remain preserved in the identity registry. Final consumer reconciliation remains open.

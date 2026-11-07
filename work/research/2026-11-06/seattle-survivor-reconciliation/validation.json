@@ -1,0 +1,25 @@
+{
+  "build": {
+    "command": "make data site check PYTHON=.venv/bin/python TODAY=2026-11-05",
+    "exit_code": 0,
+    "errors": 0,
+    "warnings": 489,
+    "documented_numbers_matched": 53,
+    "log_sha256": "11076a67d9d7e60f79825c6956c6e27030fc59e3d2dfa3b5f1fffcb9054aae08"
+  },
+  "replay": {
+    "already_applied": 7,
+    "rows_touched": 0
+  },
+  "scope": {
+    "local_rows": 1330,
+    "active_extended": 1079,
+    "state_policy_rows": 442,
+    "ballot_measures": 50,
+    "changed_fields": 7,
+    "changed_rows": 1,
+    "headline_changes": 0
+  },
+  "privacy": "Staged source classification check passed; raw source bodies and reviewer report remain private.",
+  "tests": "No implementation changed. Prior verified baseline: 272 tests and 44 subtests; not rerun for narrative-only reconciliation."
+}

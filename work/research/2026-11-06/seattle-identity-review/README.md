@@ -17,3 +17,7 @@ No canonical CSV, ID, current count or expanded publication changed in this revi
 ## Applied identity correction
 
 The preview above describes the prior read-only checkpoint. The [retirement plan](retirement-plan.json) and [application verification](retirement-validation.json) now retire `wa-seattle-2026-2` into the existing `wa-seattle-2026`. Current totals are 1,330 records, 1,079 classified active/extended and 1,289 geocoded. Every surviving field is unchanged. Both full original rows and permanent IDs remain in the [alias registry](../../../../data/identities/legacy-moratoria.jsonl); [lookup and publication rules](../../../../docs/legacy-moratorium-identities.md) document compatibility. No project assertions or operative endpoints were merged. Survivor prose remains an existing observation requiring separate field-level review; the identity decision does not reaccept its unsupported project aggregates or establish later legal force. Final downstream snapshot reconciliation remains open.
+
+## Subsequent survivor reconciliation
+
+The [field reconciliation](../seattle-survivor-reconciliation/README.md) supersedes the survivor-unchanged checkpoint for seven narrative fields. Original ordinance scope, expansion exception and work-plan deadlines are corrected; project assertions and later legal force remain explicitly unresolved. No further identity or classification change is made.

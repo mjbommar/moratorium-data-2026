@@ -36,7 +36,7 @@ prove actual expiry. Broader event migration and legal-history review remain ope
 
 Public CSV projections now preserve retained results separately from current observations; immutable download manifests and both portable data pointers passed deterministic bundle/clean-restore checks. The search provenance adapter preserves response hashes, original ordering, error/interruption exchanges and unpriced spend. New reservations persist query/window intent before transport. These close specific implementation increments; remaining TODO gates, final copy/consumer reconciliation, final immutable publication and deployment verification remain required. The starting table above is a historical checkpoint.
 
-The Seattle duplicate is now explicitly retired with both IDs and full original rows retained in the [legacy alias registry](legacy-moratorium-identities.md). No surviving fields changed; separate field reconciliation remains qualified. This correction is reflected in current counts, builds and release-bundle selection. Downstream snapshots and final publication remain open.
+The Seattle duplicate is now explicitly retired with both IDs and full original rows retained in the [legacy alias registry](legacy-moratorium-identities.md). At retirement, no surviving fields changed. The subsequent [survivor reconciliation](../work/research/2026-11-06/seattle-survivor-reconciliation/README.md) corrects seven narrative fields from retained original sources, including the expansion exception and separate work-plan deadlines; project applicability and later legal force remain unresolved. This correction is reflected in current counts, builds and release-bundle selection. Downstream snapshots and final publication remain open.
 
 ## Execution order
 

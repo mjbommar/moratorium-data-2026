@@ -2,6 +2,8 @@
 
 Plan: [Research modernization and ballot-measure expansion](docs/research-and-ballot-expansion-plan.md).
 
+- [x] Reconcile seven Seattle survivor narrative fields against retained ordinance/clerk evidence, including expansion exception and distinct work-plan deadlines; preserve current-force and consumer gaps. [Packet](work/research/2026-11-06/seattle-survivor-reconciliation/README.md).
+
 - [x] Refresh California AB2170, AB222 and SB978 primary histories with native Exa/HTTP/pydoll acquisition; qualify three status strings. Ultimate dispositions remain unresolved. [Evidence packet](work/research/2026-11-06/ca-policy-wave3/README.md).
 
 Closeout execution order: [November refresh closeout](docs/release-closeout.md). This preserves the full requirement scope and sequences remaining review, final data freeze, copy/consumer reconciliation, publication and deployment verification.
