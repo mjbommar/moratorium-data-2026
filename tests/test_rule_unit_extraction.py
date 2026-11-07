@@ -28,6 +28,58 @@ def unknown(unit):
     return dict(unit_id=unit, outcome='unresolved', clause=None, supporting_quotes=[], unresolved_reason='Cannot determine')
 
 class Tests(unittest.IsolatedAsyncioTestCase):
+    async def test_document_context_in_actual_requests_and_replay(self):
+        for role in ('proposed', 'enacted_text', 'source_reported', 'unknown', None):
+            with self.subTest(role=role), tempfile.TemporaryDirectory() as d:
+                doc = {**DOC, 'title': 'Enrolled synthetic measure'}
+                if role is not None:
+                    doc['reviewed_source_role'] = role
+                backend = ScriptedBackend({'*': [unknown('u1'), unknown('u2')]})
+                packet = await ext.run(d, doc, PLAN, backend=backend, **ARGS)
+                prefixes = []
+                for call, unit in zip(backend.calls, PLAN['units']):
+                    prefix, locator = call['prompt'].rsplit('\nLocal slot (JSON):\n', 1)
+                    prefixes.append(prefix)
+                    metadata, source = prefix.split('\nFull source:\n', 1)
+                    self.assertEqual(source, TEXT)
+                    self.assertEqual(json.loads(metadata.removeprefix('Document context (JSON):\n')),
+                                     {'title': doc['title'], 'reviewed_source_role': role or 'unknown'})
+                    self.assertEqual(json.loads(locator), unit)
+                    self.assertEqual(call['role'], 'extractor')
+                self.assertEqual(len(prefixes), 2)
+                self.assertEqual(prefixes[0], prefixes[1])
+                self.assertEqual(packet['provenance'].get('reviewed_source_role'), role)
+                self.assertEqual(packet, await ext.run(d, doc, PLAN, backend=backend, **ARGS))
+                self.assertEqual(len(backend.calls), 2)
+
+    async def test_metadata_change_rejects_resume_without_calls_or_writes(self):
+        with tempfile.TemporaryDirectory() as d:
+            doc = {**DOC, 'title': 'Synthetic title', 'reviewed_source_role': 'proposed'}
+            backend = ScriptedBackend({'*': [unknown('u1'), unknown('u2')]})
+            await ext.run(d, doc, PLAN, backend=backend, **ARGS)
+            before = {p.name: p.read_bytes() for p in Path(d).iterdir()}
+            for changed in ({**doc, 'title': 'Changed'},
+                            {**doc, 'reviewed_source_role': 'enacted_text'},
+                            {k: v for k, v in doc.items() if k != 'reviewed_source_role'},
+                            {**doc, 'url': 'https://example.test/'}):
+                with self.assertRaises(ext.WorkspaceContextChanged):
+                    await ext.run(d, changed, PLAN, backend=backend, **ARGS)
+                self.assertEqual({p.name: p.read_bytes() for p in Path(d).iterdir()}, before)
+            self.assertEqual(len(backend.calls), 2)
+
+    async def test_malformed_metadata_rejected_before_workspace_creation(self):
+        for key, value in [('title', None), ('title', ''), ('title', '  '), ('title', 1),
+                           ('reviewed_source_role', None), ('reviewed_source_role', ''),
+                           ('reviewed_source_role', 'adopted'), ('reviewed_source_role', []),
+                           ('reviewed_source_role', 1)]:
+            with self.subTest(key=key, value=value), tempfile.TemporaryDirectory() as d:
+                workspace = Path(d) / 'new'
+                backend = ScriptedBackend({})
+                with self.assertRaises(ValueError):
+                    await ext.run(workspace, {**DOC, key: value}, PLAN, backend=backend, **ARGS)
+                self.assertFalse(workspace.exists())
+                self.assertEqual(backend.calls, [])
+
     async def test_slots_full_context_replay_and_unaccepted_quotes(self):
         with tempfile.TemporaryDirectory() as d:
             backend=ScriptedBackend({'*':[candidate('u1'), candidate('u2', 'not in source')]})
@@ -36,10 +88,29 @@ class Tests(unittest.IsolatedAsyncioTestCase):
             self.assertEqual(len(backend.calls),2)
             for call in backend.calls:
                 self.assertIn(TEXT,call['prompt']); self.assertNotIn('12 claims',call['prompt'])
+                self.assertIn('"reviewed_source_role": "unknown"', call['prompt'])
+                self.assertNotIn('"title"', call['prompt'])
             self.assertFalse(out['units'][0]['accepted'])
             self.assertIn('quote_unlocated_or_ambiguous',out['units'][1]['review_flags'])
             self.assertEqual(out,await ext.run(d,DOC,PLAN,backend=backend,**ARGS))
             self.assertEqual(len(backend.calls),2)
+
+    async def test_old_implementation_namespace_fails_closed(self):
+        with tempfile.TemporaryDirectory() as d:
+            backend = ScriptedBackend({'*': [unknown('u1'), unknown('u2')]})
+            await ext.run(d, DOC, PLAN, backend=backend, **ARGS)
+            state_path = Path(d) / 'rule-units-state.private.json'
+            seal_path = Path(d) / 'rule-units-seal.private.json'
+            state = json.loads(state_path.read_text())
+            state['context']['implementation_sha256'] = '0' * 64
+            state['context_sha256'] = ext.digest(state['context'])
+            state_path.write_text(json.dumps(state))
+            seal_path.write_text(json.dumps({'sha256': ext.digest(state)}))
+            before = {p.name: p.read_bytes() for p in Path(d).iterdir()}
+            with self.assertRaises(ext.WorkspaceContextChanged):
+                await ext.run(d, DOC, PLAN, backend=backend, **ARGS)
+            self.assertEqual({p.name: p.read_bytes() for p in Path(d).iterdir()}, before)
+            self.assertEqual(len(backend.calls), 2)
 
     async def test_context_and_plan_rejected_preserve_artifacts(self):
         with tempfile.TemporaryDirectory() as d:

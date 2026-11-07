@@ -22,7 +22,9 @@ SYSTEM = '''Extract the single rule unit identified by the local slot from the e
 Return one complete condition clause, preserving its conditions, exceptions and relevant definitions,
 with exact supporting quotations from anywhere in the source. Do not combine distinct rule units.
 Use typed all, any, at_least and thresholds where directly supported. Use text_predicate for source-qualified gates, negation, and parts the types cannot represent. Do not reduce the entire rule to raw text when structure is supported. If necessary facts are missing or the unit cannot be represented reliably, return unresolved and explain why. Do not infer legal
-status, canonical identifiers or missing facts. The supplied slot is a locator, not an answer.'''
+status, canonical identifiers or missing facts. The reviewed source role is caller-supplied context;
+unknown means no reviewed role was supplied. An enrolled label or title alone does not establish
+adoption or approval. The supplied slot is a locator, not an answer.'''
 
 
 class Response(BaseModel):
@@ -61,6 +63,11 @@ def prepare(doc, plan, *, model_identity, today, max_calls, max_usd,
             reservation_usd, max_source_bytes, role, settings, storage_policy):
     if not isinstance(doc, dict) or not isinstance(doc.get('text'), str) or not doc['text'].strip():
         raise ValueError('Nonempty source text required')
+    if 'title' in doc and (not isinstance(doc['title'], str) or not doc['title'].strip()):
+        raise ValueError('Document title must be a nonempty string when supplied')
+    if 'reviewed_source_role' in doc and doc['reviewed_source_role'] not in (
+            'proposed', 'source_reported', 'enacted_text', 'unknown'):
+        raise ValueError('Invalid reviewed source role')
     text = doc['text']
     if doc.get('text_sha256') != sha(text):
         raise ValueError('Source text hash mismatch')
@@ -158,7 +165,7 @@ def packet(state, context):
     count = sum(o['outcome'] == 'candidate' for o in outputs)
     return dict(context_sha256=state['context_sha256'], source_text_sha256=sha(text),
                 source_body_sha256=context['document']['body_sha256'],
-                provenance={k: context['document'][k] for k in ('doc_id', 'document_id', 'id', 'title', 'url', 'final_url') if k in context['document']}, plan_sha256=digest(context['plan']),
+                provenance={k: context['document'][k] for k in ('doc_id', 'document_id', 'id', 'title', 'url', 'final_url', 'reviewed_source_role') if k in context['document']}, plan_sha256=digest(context['plan']),
                 planned_count=len(outputs), candidate_count=count, unresolved_count=len(outputs)-count,
                 source_coverage=dict(full_source_supplied_per_attempt=True,
                                      attempted_units=len({a['unit_id'] for a in state['attempts']}),
@@ -167,7 +174,13 @@ def packet(state, context):
 
 
 def request_for(unit, context):
-    prompt = 'Full source:\n' + context['document']['text'] + '\nLocal slot (JSON):\n' + json.dumps(unit, ensure_ascii=False, sort_keys=True)
+    doc = context['document']
+    document_context = {'reviewed_source_role': doc.get('reviewed_source_role', 'unknown')}
+    if 'title' in doc:
+        document_context['title'] = doc['title']
+    prompt = ('Document context (JSON):\n' + json.dumps(document_context, ensure_ascii=False, sort_keys=True)
+              + '\nFull source:\n' + doc['text'] + '\nLocal slot (JSON):\n'
+              + json.dumps(unit, ensure_ascii=False, sort_keys=True))
     return dict(role=context['role'], stage='rule_unit', prompt=prompt, system=SYSTEM,
                 schema=Response.model_json_schema(), settings=context['settings'])
 
