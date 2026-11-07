@@ -1,0 +1,30 @@
+{
+  "schema_version": "compound-adjudication-summary-1",
+  "protocol_sha256": "dd216f550f92c275d30c76330d700a9765c51e534eb230bc95092fccca539e52",
+  "candidate_population": 52,
+  "slot_population": 24,
+  "independent_candidate_label_disagreements": 4,
+  "independent_slot_disagreements": 3,
+  "coordinator_source_review": "Root adjudicated a third blind Terra draft after inspecting candidate populations, disputed supporting passages and retained definition/threshold source text.",
+  "coordinator_private_sha256": "234799a4dcedc780945289759f3dfb819e4ab49e0163becaaabcda11638b61ab",
+  "adjudication_notes_private_sha256": "e3ac414fdcbe40c48f7d9d1bb2d3b26e1aef6a4925493a869ef99fe730547104",
+  "reviewer_private_sha256": [
+    "482b45f94c3bec3e0edc8c011a3b4ba3269e15bba0b43f585507d1e00af18352",
+    "9367b7741d4d74ed0e7c3bc4646f33b9239db497450d2e60ea697a51ae7eac9a"
+  ],
+  "critical_findings": [
+    "Aggregation expression drops its minimum-facility predicate.",
+    "Partial Harwood definitions omit required approval gates.",
+    "Additional ordinance-threshold criteria risk testing existence rather than whether the development meets them.",
+    "Mandan capacity/demand interpretation remains ambiguous.",
+    "Located supporting passages do not guarantee a complete structured condition."
+  ],
+  "limitations": [
+    "AI source judgments are not human ground truth; dissent is retained.",
+    "Complete semantic-slot matching is stricter than literal quote support.",
+    "The no-entitlement passages are retained; withheld below-threshold slots concern structured completeness, not absent source text.",
+    "Native prose summaries/base claims remain outside the scored population and unapproved for copy."
+  ],
+  "runtime_manifest_postflight_verified": true,
+  "canonical_records_written": 0
+}
