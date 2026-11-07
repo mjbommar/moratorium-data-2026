@@ -2,6 +2,33 @@
 
 ## 2026-11-07 — current working snapshot (unreleased)
 
+The latest [Ohio six-record adjudication](work/research/2026-11-07/ohio-six-record-closeout/README.md)
+completes 156 independent field assessments and changes 18 authored cells plus
+one derived verification count across five records. Three unsupported operative
+end dates are cleared. Shalersville retains conflicting extension reports;
+Howland's renewal authority is not treated as an actual renewal. Hubbard's
+unofficial city ballot returns refer to an existing measure, so no measure is
+added. All six records remain researched/unresolved overall.
+
+The [Morro Bay council review](work/research/2026-11-07/morro-bay-council-review/README.md)
+corrects six historical and original-term fields against official council records,
+including the original 45-day term. Adoption and extension votes do not establish
+the final extended endpoint, present force or an operative permanent ban.
+[Seattle](work/research/2026-11-07/seattle-history-followup/README.md) and
+[Grove City](work/research/2026-11-07/ohio-history-followup/README.md) receive three
+additional qualified historical fields; a hearing is not an extension and a
+meeting recap is not authenticated final legislation.
+
+The [PA/VA closeout](work/research/2026-11-07/pa-va-policy-review-closeout/README.md)
+completes independent assessments of all 760 fields across 40 policy records;
+its final correction batch changes 22 cells across 16 rows. All 40 retain overall
+researched/unresolved dispositions. Six recovered Virginia legislative prints
+have archived extraction and native-store lineage. These completed reviews do
+not establish comprehensive freshness or current legal force. Current data/site
+checks pass with zero errors and 497 warnings; three new warnings expose the
+cleared Ohio endpoints. All 65 checked documented totals match. The full release
+and downstream reconciliation remain unfinished.
+
 [California original-term review](work/research/2026-11-07/california-original-term-review/README.md)
 supports the unchanged 45-day numeric/unit fields for Gilroy and City of Angels,
 clarifies one Angels duration sentence, and retains exact enacted-wording and

@@ -18,6 +18,8 @@ This is the open companion dataset for the working paper *Moratorium Nation: A S
 
 [Reviewed ballot results](docs/ballot-results.md) cover **51 proposal and measure records** (**49 voted, 1 scheduled, 1 litigated**), tracked separately from the legacy moratorium counts; **7 additional candidate groups remain unresolved**. The total includes [Jay's solar ballot](work/audit/jay-solar-ballot-followup-2026-11-06.json), reviewed after the original frozen cohort; its primary return and operative legal history remain unresolved. The separate [Wilmington initiative history](work/research/2026-11-07/wilmington-initiative-history/README.md) records dated litigation and an intended election, without a vote result or finding of later status. A vote, certification and an operative legal restriction are distinct observations. Legal-effect review remains record-specific.
 
+Latest reviewed corrections: [six Ohio records](work/research/2026-11-07/ohio-six-record-closeout/README.md) and [Morro Bay council history](work/research/2026-11-07/morro-bay-council-review/README.md). These qualify historical claims and remove unsupported endpoints; they do not change headline totals or establish current legal force. See the [changelog](CHANGELOG.md) and [remaining evidence gaps](docs/known-gaps.md).
+
 The linked April 2026 paper is a historical edition. Its figures and conclusions have not been synchronized to this November working dataset.
 
 ![Moratorium counts by state](figures/png/map-moratorium-counts.png)

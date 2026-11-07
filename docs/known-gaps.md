@@ -487,3 +487,29 @@ Three Pennsylvania precursor memo rows link to separately retained bills:
 - `pa-proposed-statewide-moratorium-memo-48102` links to `pa-sb1359`.
 
 The [source-specific link receipt](../work/research/2026-11-06/pa-va-policy-review/precursor-links.json) verifies anchors on canonical official memo pages without a supplied bill parameter. These are precursor associations, not three additional independent bills or enacted restrictions. Memo status fields retain associated bill context explicitly; all IDs remain stable. The [reviewed form migration](../work/research/2026-11-07/state-policy-forms/README.md) separates ten resolution rows and three precursor memo rows from the `bill` type, including Pennsylvania SR 185. All IDs and compound rows remain. Canonical state-policy identity/lineage migration and any additional unreviewed forms remain open; do not interpret `total_state_bills` as a unique-bill census.
+
+
+## November 7 council-history and Ohio endpoint review
+
+The [six-record Ohio review](../work/research/2026-11-07/ohio-six-record-closeout/README.md)
+assesses all 156 fields but leaves all six records researched/unresolved overall.
+Hubbard, Braceville and Montgomery (Ashland County) have blank operative end dates:
+reported calendar terms do not authenticate an effective anchor or establish
+absence of later action. Hubbard's existing city ballot record retains unofficial
+2,622 approval / 802 rejection returns; certification, operative text and its
+relationship to the earlier pause remain unresolved. The city is distinct from
+Hubbard Township. Howland's renewal power does not prove renewal. Shalersville's
+retained October 23 and October 30 reporting conflicts on whether an extension
+was adopted; no endpoint or current legal-force finding follows.
+
+The [Morro Bay review](../work/research/2026-11-07/morro-bay-council-review/README.md)
+supports historical adoption/extension votes and the original 45-day term. Final
+extended wording, operative endpoint, later council disposition and present force
+remain unverified. A Planning Commission recommendation is not an enacted council
+ban. The [Seattle follow-up](../work/research/2026-11-07/seattle-history-followup/README.md)
+distinguishes a hearing from an extension; the
+[Grove City/Piqua follow-up](../work/research/2026-11-07/ohio-history-followup/README.md)
+withholds final-instrument and predecessor/replacement assertions that the inspected
+materials do not establish. None of these corrections reduces the frozen 219-item
+original-term source-requirement queue. No canonical record or measure is deleted
+or added by these council-history and Ohio correction batches.
