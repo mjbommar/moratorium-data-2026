@@ -412,5 +412,5 @@ Exit: repeatable refresh with visible freshness, costs, failures and unresolved 
 
 - [x] Freeze and independently review a separate bounded protocol after the complete-condition prompt revision; exercise healthy and failed-attempt accounting offline.
 - [x] Execute four known-source cases in the new namespace: 12 HTTP attempts, 46 candidate fields, no extra calls on replay (`work/research/2026-11-07/compound-contract-evaluation/`). This does not establish quality acceptance.
-- [ ] Complete independent source reviews, coordinator adjudication and frozen accounting/quality audit for the revised-contract experiment. Preserve both old failed outputs and all reviewer disagreements.
+- [x] Complete independent source reviews, selected coordinator adjudication and frozen accounting/quality audit for the revised-contract experiment. Both policies fail; old outputs and all disagreements are preserved. See `compound-contract-evaluation/audit-result.json`.
 - [ ] Complete unseen-holdout and remaining P4 requirements; development performance alone cannot close P4.

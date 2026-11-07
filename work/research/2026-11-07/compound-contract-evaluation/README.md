@@ -12,4 +12,19 @@ This is an independent allocation, not a renewal of the old cap: at most 16 HTTP
 
 The reviewed protocol was committed at `2998bbd` before live execution. Invoke the exact pinned interpreter path, `/home/mjbommar/projects/bc/bc-modules/.venv/bin/python3.14`, with the protocol as a positional argument; an alternate executable alias fails the runtime identity check. The original argument-error and alias-mismatch startup attempts made zero provider requests and left the provider namespace absent.
 
-`provider-execution.json` records all four cases finishing in 12 actual HTTP attempts, with 46 candidate fields and replay without extra calls. The sum of pinned SDK cost estimates is $0.3811662; final accounting review is pending and this is not an invoice. Execution success does not establish source support or complete slot coverage. Source reviews and coordinator adjudication remain pending; no canonical records are promoted and overall P4 remains open.
+`provider-execution.json` records all four cases finishing in 12 actual HTTP attempts, with 46 candidate fields and replay without extra calls. The sum of pinned SDK cost estimates is $0.3811662; accounting audit passed and this is not an invoice. Execution success does not establish source support or complete slot coverage. Source reviews and selected coordinator adjudication are now recorded below; no canonical records are promoted and overall P4 remains open.
+
+## Reviewed result: both policies failed
+
+| Policy | Source-supported candidate labels | Required slots covered | Gate |
+|---|---:|---:|---|
+| Default | 23/34 (67.6%) | 0/12 | Failed |
+| Whole text | 8/12 (66.7%) | 4/12 | Failed |
+
+The frozen audit reconciles all 12 HTTP attempts and priced backend results, full supplied-text chunk coverage, immutable source/code hashes, all 46 candidate reviews and all 24 case/slot decisions. There were no failed/unpriced attempts; the $0.3811662 estimate has no held unknown-cost reservation, but is not an invoice. Harwood default has 19/22 quote-and-schema-valid candidates, so this policy also fails quote integrity. Summaries and base claims remain outside the condition-field score and are not approved copy.
+
+The two independent AI reviewers disagreed on six candidate labels and three slot decisions; all private reviews remain intact. Root checked selected disputed expressions and exact source contexts. Confirmed completeness failures include omission of aggregation written findings/ordinary-infrastructure limits and charter-effectiveness language. The draft reviewer incorrectly treated a chunk-local missing-definition note as a contradiction with the full source; that rationale was corrected while retaining the separate, evidenced completeness failure. A direction-of-procedure disagreement is retained as ambiguous. Other judgments retain the blind third review, and are source-informed AI judgments, not human gold.
+
+The earlier frozen comparison reported default36/40 supported with1/12slots and whole10/12 with0/12slots. Those results and their failed gates are unchanged. The revised run changes the generated candidate population and clause units, and uses one stochastic sample; these descriptive differences cannot establish a causal improvement or regression. The instruction conflict was corrected, but extraction completeness remains unresolved. No candidates are joined or promoted, gates are not weakened, and no residual request allowance is reused to rerun this experiment.
+
+Next work must address incomplete applicability gates/qualifications, quote integrity and deliberate coverage of required rule units before another frozen test. The unchanged schema represents these conditions; this run does not establish a schema defect. Any further development experiment needs a separate protocol and allocation. The unseen holdout, broader pilot metrics, full-inventory freshness acceptance and final release remain open.
