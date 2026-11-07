@@ -149,10 +149,21 @@ Use condition_clauses for complete source-qualified compound conditions. Preserv
 clause purpose and assertion_context, and copy source_text verbatim. Use recursive
 all, any and at_least groups, retaining count and each distinct member. Include
 nonnumeric applicability gates as text_predicate members; do not substitute a
-resource threshold for a discretionary-approval requirement. Separate definition,
-prohibition trigger, procedure trigger, safe harbor and exemption clauses. Missing
-group logic remains unknown, never an inferred conjunction. A flat thresholds
-list alone cannot represent these groups. Preserve unsimplified comparative
+resource threshold for a discretionary-approval requirement. Classify each clause
+by its governing purpose: definition, prohibition trigger, procedure trigger,
+safe harbor or exemption. Keep every material definition, prerequisite, scope
+limit, exception and no-entitlement or discretionary qualification inside the
+complete governing clause; do not split these into separate partial clauses that
+would have to be joined to recover the rule. Additional standalone purpose clauses
+may be extracted, but do not substitute for a complete governing clause.
+Emit one complete clause per condition_clauses fact (a one-member value list), so
+independent complete clauses can be reviewed separately. Supporting passages are
+evidence for the structured expression, not a substitute for missing predicates.
+Use source-qualified text predicates where negation or a qualification cannot be
+faithfully normalized. Missing group logic remains unknown, never an inferred
+conjunction. Do not invent a source quote to explain missing excerpt context;
+record that gap in unresolved_fields. A flat thresholds list alone cannot
+represent these groups. Preserve unsimplified comparative
 water rules as source-qualified text_predicate or unknown expressions when their
 comparison cannot be faithfully normalized; never invent municipal capacity.
 Use supporting_passages for additional exact passages needed to support a composed

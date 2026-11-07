@@ -5,6 +5,7 @@ from pathlib import Path
 import sys
 import tempfile
 import unittest
+from unittest.mock import patch
 
 from bc_core.budget import BudgetExceeded
 from bc_llm.backend import ScriptedBackend
@@ -240,6 +241,26 @@ class DomainTests(unittest.IsolatedAsyncioTestCase):
         for passage in [dict(role='verified',quote='text'),dict(role='authority',quote='')]:
             with self.assertRaises(ValidationError):
                 domain.SupportingPassage.model_validate(passage)
+
+    async def test_changed_condition_contract_cannot_reuse_prior_budget_or_packet(self):
+        # Model quality is unmeasured here. This checks the real resume boundary:
+        # a changed domain contract must not reuse an old trial or overwrite it.
+        old_contract = domain.INSTRUCTIONS.replace(
+            "Keep every material definition, prerequisite, scope",
+            "Previously frozen condition extraction contract: scope")
+        with tempfile.TemporaryDirectory() as tmp:
+            backend = self.backend([self.fact()])
+            with patch.object(domain, 'INSTRUCTIONS', old_contract):
+                await domain.run(tmp, backend=backend, **self.inputs())
+            state_path = Path(tmp)/'state.private.json'
+            packet_path = Path(tmp)/'domain-candidates.private.json'
+            original_state, original_packet = state_path.read_bytes(), packet_path.read_bytes()
+            call_count = len(backend.calls)
+            with self.assertRaisesRegex(domain.resumable.WorkspaceContextChanged, 'context changed'):
+                await domain.run(tmp, backend=backend, **self.inputs())
+            self.assertEqual(len(backend.calls), call_count)
+            self.assertEqual(state_path.read_bytes(), original_state)
+            self.assertEqual(packet_path.read_bytes(), original_packet)
 
     async def test_context_rejection_preserves_prior_candidate_packet(self):
         with tempfile.TemporaryDirectory() as tmp:
