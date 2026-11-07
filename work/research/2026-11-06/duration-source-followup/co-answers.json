@@ -1,0 +1,32 @@
+{
+  "state_abbrev": "CO",
+  "researched_as_of": "2026-11-05",
+  "researcher": "Coordinator retained-source visual review on2026-11-06, with disjoint gpt-6.1-terra CLI assistance",
+  "decisions": [
+    {
+      "moratorium_id": "co-south-fork-2026",
+      "outcome": "corrected",
+      "confidence": 0.99,
+      "changes": {
+        "duration_kind": {
+          "from": "fixed_days",
+          "to": "calendar_term",
+          "reason": "Visually inspected operative source clause uses calendar months/years, not this elapsed-day count. Normalize existing reported duration without accepting adoption, actual effectiveness, expiry or current force."
+        },
+        "duration_days": {
+          "from": "365",
+          "to": "",
+          "reason": "Visually inspected operative source clause uses calendar months/years, not this elapsed-day count. Normalize existing reported duration without accepting adoption, actual effectiveness, expiry or current force."
+        }
+      },
+      "evidence": [
+        {
+          "url": "https://alpha.creativecirclecdn.com/valley/files/20260630-181632-8e7-7-1-2026%20Valley%20Courier.pdf",
+          "source_type": "ordinance",
+          "supports": "Published original calendar-term clause"
+        }
+      ],
+      "notes": "No source acquisition or legal-status upgrade. Source-specific stage, identity and endpoint qualifications are retained in the review packet; all unlisted fields are preserved."
+    }
+  ]
+}

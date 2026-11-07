@@ -24,14 +24,14 @@ State policy is tracked separately: **7 actions** (7 bills) in [`state_legislati
 - **Status:** 🟢 Active
 - **Date enacted:** 2026-06-16 (Carroll County Quorum Court unanimous adoption of Emergency Ordinance 2026-17)
 - **Normalized date:** `2026-06-16` (exact)
-- **Duration:** Immediate 12-month moratorium from adoption
+- **Duration:** Twelve months from the effective date, unless repealed earlier by the Quorum Court.
 - **Current end date:** `—`
 - **Sectors:** data center, cryptocurrency mining
 - **Moratorium ID:** `ar-carroll-county-2026`
 - **Legal basis:** Emergency Ordinance 2026-17
 - **What prompted it:** Immediate pause on high-impact industrial and high-intensity digital infrastructure facilities (reported by contemporary coverage to include data centers, artificial intelligence computing facilities, and cryptocurrency mining facilities) in unincorporated Carroll County while the county develops a permitting and public-notice framework
 - **Affected projects:** —
-- **Detailed status:** Active as of 2026-09-23. The 12-month emergency moratorium (Ordinance 2026-17), unanimously adopted by the Quorum Court on 2026-06-16 and effective immediately, remains in force with no reported repeal, extension, or replacement; its 365-day term runs through 2027-06-16. Corroborated by a second independent local news source (the Eureka Springs Independent's contemporaneous meeting report) beyond the original KY3 broadcast story, and by three specialty policy trackers (ServerCountry, SAVRN, AI GridWatch) that separately cite the ordinance number and June 16 vote. A complete signed county copy of the ordinance was still not located on the county's website or in Municode as of 2026-09-23, so the underlying record remains multiple independent news accounts rather than a primary ordinance document. [VERIFY] [VERIFY primary source (news-only evidence) not confirmed at confidence 0.65 in the 2026-07 refresh]
+- **Detailed status:** The June 23, 2026 Carroll County News legal notice publishes Emergency Ordinance 2026-17 with printed approval and attestation dated June 16. Article 8 specifies twelve months from effectiveness unless repealed earlier, rather than an explicit 365-day term. This is published ordinance text, not a separately inspected original county-signed copy. The active classification is inherited; later actions and current force were not independently established by this review. [VERIFY later extension, repeal or replacement] [VERIFY current legal force]
 - **Outcome:** —
 
 ### Harrison
