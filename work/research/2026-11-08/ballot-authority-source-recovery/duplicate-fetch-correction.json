@@ -1,0 +1,11 @@
+{
+  "recorded_at": "2026-11-08T21:48:29.298657+00:00",
+  "duplicate_attempt_id": "eb29a3e74bcc48d4b0c3eb0f4fac6f0f",
+  "prior_successful_attempt_id": "fdbb7af77b1047e3a0616718026377ff",
+  "body_sha256": "29c21cbe793a17f3e79038bb2c7efe3d31a8e484f693127b5b836b333af8acb4",
+  "same_as_prior": true,
+  "cause": "A shell command continued after a Python dedup assertion failed; the dependent fetch must have been a separate gated tool call.",
+  "source_reservations_total": 14,
+  "paid_search_calls": 0,
+  "corrective_action": "Never chain failed preflight and dependent dispatch in an unchecked shell. Existing retained source is reused for review; new acquisition is logged as a duplicate, not independent corroboration or renewed legal freshness."
+}

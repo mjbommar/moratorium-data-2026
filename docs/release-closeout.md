@@ -1,5 +1,9 @@
 # November refresh closeout
 
+## November 8 notice-only publication and scope review
+
+The [Augusta notice-only publication](../work/research/2026-11-08/augusta-notice-publication/README.md) adds one source-backed question with unknown sector, lifecycle, result and ordinance linkage: **54 measure records**, with 61 retained / 50 current result observations and five current certified observations unchanged. Its possible overlap with the withheld Augusta frozen payload is explicit; do not add held payloads as disjoint contests. Two 90-record policy scope increments ([first](../work/research/2026-11-08/policy-scope-wave2-reconciliation/README.md), [second](../work/research/2026-11-08/policy-scope-wave3-reconciliation/README.md)) bring scope partitions to 201 included, seven excluded, 25 unresolved and 214 unreviewed, retaining all 447 raw IDs. Both increments are working checkpoints, not a final release or current-force census. The older dated sections below remain historical.
+
 ## November 8 Wisconsin, Georgia and Indiana correction
 
 [The nine-record application](../work/research/2026-11-08/wi-ga-in-reconciliation/README.md) applies 42 of 43 reviewed cells after 73 full-row guards. Clayton’s supported December 31 scheduled endpoint is retained; conditional terms, project claims and reported vote/adoption histories are corrected without asserting current force. Verification-marked rows are now 748, with 582 unflagged; all IDs, classifications and ballot totals remain.

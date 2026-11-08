@@ -6,7 +6,7 @@ moratorium grain and exclusion of permanent bans remain unchanged. A successful
 validation is structural consistency, not proof of legal effect, source accuracy,
 identity, completeness, or permission to publish. An initial [reviewed snapshot writer](expanded-promotion.md) now supplies separate
 identity, evidence, field-review and atomic-publication gates; reviewed canonical
-records currently cover 53 reviewed proposal and measure records (51 from the frozen cohort, Jay's separately reviewed solar ballot and a separate Wilmington litigated initiative), with explicit result supersession and five unresolved frozen candidate groups kept outside the canonical measure total. The restriction/link migration now includes Edgewater’s proposed charter restriction with unknown legal status and an accepted `proposes` relationship. For Edgewater, no adoption/effect event or current force is inferred. The [Coachella history migration](../work/research/2026-11-07/coachella-restriction-history-migration/README.md) adds a separate adopted prohibition and qualified policy-predecessor relation without establishing effectiveness, formal termination or present force; broader migration remains incomplete. See the
+records currently cover 54 reviewed proposal and measure records: 51 mapped frozen-cohort publications, Jay's separately reviewed solar ballot, a separate Wilmington litigated initiative and an Augusta notice-only question. Five frozen candidate payloads remain withheld; the Augusta record may overlap one of them, so those payloads are not additional disjoint contests. Its sector, result, ordinance linkage and final wording remain unresolved. Result supersession remains explicit. The restriction/link migration now includes Edgewater’s proposed charter restriction with unknown legal status and an accepted `proposes` relationship. For Edgewater, no adoption/effect event or current force is inferred. The [Coachella history migration](../work/research/2026-11-07/coachella-restriction-history-migration/README.md) adds a separate adopted prohibition and qualified policy-predecessor relation without establishing effectiveness, formal termination or present force; broader migration remains incomplete. See the
 [generated results view](ballot-results.md). Identity decisions have a separate
 [append-only registry](expanded-identity-registry.md).
 
@@ -119,6 +119,15 @@ No placeholder result is created for a proposal with no reviewed vote observatio
 Count all proposal/measure records, recorded lifecycles, voted measures and current
 result observations separately. A source-supported placement refusal or writ denial
 is not an electoral defeat or an operative restriction.
+
+A source-backed measure can have unresolved sector attribution: an empty `sectors`
+array means unknown, not no infrastructure relevance. It remains in the overall
+proposal/measure count, while sector-specific counts require an explicit reviewed
+sector label. A general zoning title does not establish a data-center restriction.
+Missing full wording or an unproved result/instrument crosswalk may leave those
+fields and links unresolved without automatically excluding the independently
+identified measure. Scope inclusion and identity still require substantive review;
+schema validity alone does not establish either.
 
 A measure has independent lifecycle, bindingness, yes-direction and referendum
 polarity. Provisions capture mechanisms, covered uses, exemptions, and thresholds

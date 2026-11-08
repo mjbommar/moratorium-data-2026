@@ -1,0 +1,18 @@
+{
+  "full_site_check": {
+    "command": "make site check PYTHON=.venv/bin/python",
+    "exit_code": 0,
+    "log_sha256": "b3ebd6f550db11f51d5a00532cd43b996c7f9844c3022a2e84324ea9e431d933"
+  },
+  "documented_numbers_checked": 74,
+  "unknown_sector_consumer_checks": {
+    "ballot_summary": 15,
+    "expanded_csv": 11,
+    "native_sparse_worklist": 4
+  },
+  "scope_tests": 17,
+  "visual_review_tests": 29,
+  "evidence_audit_tests": 9,
+  "full_pre_cache_publication_proofs_matched": 586,
+  "limits": "Offline consistency and narrowly scoped source publication; not full freshness, P4 or final release."
+}

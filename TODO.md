@@ -23,6 +23,12 @@ precedence over its execution strategy. The initial 100-record Terra cohort has 
 
 ## Process-reset increments
 
+- [x] Apply another 90 policy-scope decisions; current partitions 201 included, seven excluded, 25 unresolved and 214 unreviewed ([receipt](work/research/2026-11-08/policy-scope-wave3-reconciliation/README.md)).
+- [x] Publish Augusta’s source-backed notice-only question with unknown sector and no result/ordinance link; canonical total 54 ([receipt](work/research/2026-11-08/augusta-notice-publication/README.md)).
+- [x] Verify audit-local render reuse against all 586 historical publication proofs; 314 render requests require 110 actual renders, with unchanged proofs ([verification](work/research/2026-11-08/visual-render-reuse/README.md)).
+
+- [x] Apply 90 additional independently reviewed policy-scope decisions: 77 include, two exclude, 11 unresolved; current 125/5/13/304 partition, all 447 IDs retained ([receipt](work/research/2026-11-08/policy-scope-wave2-reconciliation/README.md)).
+
 - [x] Recover nine focused official source observations with native bc-web, removing one already-captured target before dispatch; zero new searches, no canonical promotion yet ([receipt](work/research/2026-11-08/ballot-authority-source-recovery/README.md)).
 
 - [x] Finish pinned-input inventories for three P4 other-role candidates (26 units/29 slots); separately verify 58 locators including the preserved ineligible case. Eligibility and original-body omissions remain explicit; no P4 pass ([checkpoint](work/research/2026-11-08/p4-reference-preparation-progress/README.md)).

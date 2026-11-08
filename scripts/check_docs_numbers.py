@@ -51,12 +51,16 @@ def expanded_facts(snapshot: Path) -> dict[str, int]:
             'expanded_voted': sum(row['lifecycle'] == 'voted' for row in measures),
             'expanded_scheduled': sum(row['lifecycle'] == 'scheduled' for row in measures),
             'expanded_litigated': sum(row['lifecycle'] == 'litigated' for row in measures),
+            'expanded_unknown': sum(row['lifecycle'] == 'unknown' for row in measures),
             'expanded_current_results': len(current),
             'expanded_certified_results': sum(row['certification_status'] in ('certified', 'amended_certification') for row in current)}
 
 
 def facts() -> dict[str, int | float]:
     inv, leg = load(INV), load(LEG)
+    from policy_scope_reviews import INFRASTRUCTURE_SCOPE, partition_reviews
+    scope = partition_reviews(leg, REPO / 'data/state_policy_scope_reviews.jsonl',
+                              scope=INFRASTRUCTURE_SCOPE)
     c = Counter(r["enacted_status"] for r in inv)
     verify_rows = sum(1 for r in inv if any(VERIFY_RE.search(v or "") for v in r.values()))
     # Sweep coverage drifted once already: the prose said 15 while the data said
@@ -69,6 +73,11 @@ def facts() -> dict[str, int | float]:
             swept_empty = len(windows[-1].get("swept_states_with_no_adoptions_in_window", []))
     return {
         **expanded_facts(REPO / "data/expanded"),
+        'scope_included': len(scope['reviewed_include']),
+        'scope_excluded': len(scope['reviewed_exclude']),
+        'scope_unresolved': len(scope['reviewed_unresolved']),
+        'scope_unreviewed': len(scope['unreviewed']),
+        'scope_candidates': len(leg) - len(scope['reviewed_exclude']),
         "rows": len(inv),
         "in_force": c["active"] + c["extended"],
         "active": c["active"],
@@ -110,9 +119,15 @@ CLAIMS: list[tuple[str, str, str, str]] = [
     ("docs/codebook.md", r"`moratoria_without_verify_tags`: ([\d,]+)", "unflagged_rows", "codebook unflagged inventory rows"),
     ("docs/FAQ.md", r"current working inventory has ([\d,]+) rows", "rows", "FAQ current inventory rows"),
     ("README.md", r"\*\*([\d,]+) proposal and measure records\*\*", "expanded_records", "README expanded record denominator"),
-    ("README.md", r"\*\*([\d,]+) voted, [\d,]+ scheduled, [\d,]+ litigated\*\*", "expanded_voted", "README voted lifecycle"),
-    ("README.md", r"\*\*[\d,]+ voted, ([\d,]+) scheduled, [\d,]+ litigated\*\*", "expanded_scheduled", "README scheduled lifecycle"),
-    ("README.md", r"\*\*[\d,]+ voted, [\d,]+ scheduled, ([\d,]+) litigated\*\*", "expanded_litigated", "README litigated lifecycle"),
+    ("README.md", r"\*\*([\d,]+) voted, [\d,]+ scheduled, [\d,]+ litigated(?:, [\d,]+ unknown)?\*\*", "expanded_voted", "README voted lifecycle"),
+    ("README.md", r"\*\*[\d,]+ voted, ([\d,]+) scheduled, [\d,]+ litigated(?:, [\d,]+ unknown)?\*\*", "expanded_scheduled", "README scheduled lifecycle"),
+    ("README.md", r"\*\*[\d,]+ voted, [\d,]+ scheduled, ([\d,]+) litigated(?:, [\d,]+ unknown)?\*\*", "expanded_litigated", "README litigated lifecycle"),
+    ("README.md", r"\*\*[\d,]+ voted, [\d,]+ scheduled, [\d,]+ litigated, ([\d,]+) unknown\*\*", "expanded_unknown", "README unknown lifecycle"),
+    ("README.md", r"registry currently includes ([\d,]+) observations", "scope_included", "README reviewed scope includes"),
+    ("README.md", r"registry currently includes [\d,]+ observations, excludes ([\d,]+)", "scope_excluded", "README reviewed scope excludes"),
+    ("README.md", r"leaves ([\d,]+) reviewed-unresolved and [\d,]+ unreviewed", "scope_unresolved", "README unresolved scope"),
+    ("README.md", r"leaves [\d,]+ reviewed-unresolved and ([\d,]+) unreviewed", "scope_unreviewed", "README unreviewed scope"),
+    ("README.md", r"the ([\d,]+)-observation exploratory candidate pool", "scope_candidates", "README exploratory scope candidates"),
     ("docs/ballot-results.md", r"\*\*([\d,]+) reviewed measure records", "expanded_records", "Ballot view record denominator"),
     ("docs/ballot-results.md", r"records · ([\d,]+) current result observations", "expanded_current_results", "Ballot view current observations"),
     ("docs/ballot-results.md", r"observations · ([\d,]+) current certified observations", "expanded_certified_results", "Ballot view current certified observations"),

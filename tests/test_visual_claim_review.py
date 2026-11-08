@@ -8,7 +8,13 @@ import unittest
 from unittest.mock import patch
 
 sys.path.insert(0,str(Path(__file__).resolve().parents[1]/'scripts'))
-from visual_claim_review import verify
+from visual_claim_review import verify, audit_render_cache
+from audit_refresh_returns import audit_expanded_evidence
+try:
+    import bc_core.text
+    NATIVE_TEXT = True
+except ImportError:
+    NATIVE_TEXT = False
 
 
 class VisualReview(unittest.TestCase):
@@ -67,6 +73,94 @@ class AdditionalPdfPages(unittest.TestCase):
             with self.assertRaisesRegex(ValueError,'additional PDF page'):
                 verify(self.claim,self.source,self.index,self.review)
             render.assert_not_called()
+
+
+class RenderReuse(unittest.TestCase):
+    setUp=VisualReview.setUp
+
+    def second(self):
+        claim=copy.deepcopy(self.claim);claim['claim_id']='c2';claim['value']={'yes':20}
+        review=copy.deepcopy(self.review);review['claim_id']='c2';review['values']=copy.deepcopy(claim['value'])
+        review['claim_sha256']=hashlib.sha256(json.dumps(claim,sort_keys=True,separators=(',',':')).encode()).hexdigest()
+        return claim,review
+
+    def audit(self,claim,review):
+        source=dict(self.source,text_sha256=None)
+        return audit_expanded_evidence({'source_documents':[source],'claims':[self.claim,claim]},
+            self.index,{'c':self.review,'c2':review})
+
+    @unittest.skipUnless(NATIVE_TEXT, 'requires native bc-core text audit')
+    def test_audit_reuses_render_but_checks_each_receipt_and_starts_fresh(self):
+        claim,review=self.second()
+        with patch('visual_claim_review.render_hash',return_value='approved-image-hash') as render:
+            issues,proofs=self.audit(claim,review)
+            self.assertFalse(issues);self.assertTrue(all(p['visual_verified'] for p in proofs))
+            self.assertEqual(render.call_count,1)
+            self.audit(claim,review);self.assertEqual(render.call_count,2)
+            review['render_sha256']='tampered'
+            with self.assertRaisesRegex(ValueError,'could not be reproduced'):self.audit(claim,review)
+            self.assertEqual(render.call_count,3)
+            review['render_sha256']='approved-image-hash';review['values']={'yes':21}
+            with self.assertRaisesRegex(ValueError,'claim drift'):self.audit(claim,review)
+
+    def test_body_is_rehashed_on_cache_hit(self):
+        claim,review=self.second()
+        with audit_render_cache(), patch('visual_claim_review.render_hash',return_value='approved-image-hash') as render:
+            verify(self.claim,self.source,self.index,self.review)
+            self.body.write_bytes(b'changed')
+            with self.assertRaisesRegex(ValueError,'unavailable or drifted'):
+                verify(claim,self.source,self.index,review)
+            self.assertEqual(render.call_count,1)
+
+    def test_new_verified_body_renders_again(self):
+        with audit_render_cache(), patch('visual_claim_review.render_hash',return_value='approved-image-hash') as render:
+            verify(self.claim,self.source,self.index,self.review)
+            self.body.write_bytes(b'new retained source')
+            body_hash=hashlib.sha256(self.body.read_bytes()).hexdigest()
+            self.source['body_sha256']=body_hash
+            self.index[self.source['url']][0]['body_sha256']=body_hash
+            self.review['source_body_sha256']=body_hash
+            verify(self.claim,self.source,self.index,self.review)
+            self.assertEqual(render.call_count,2)
+
+    def test_page_dpi_and_executable_contents_and_path_invalidate(self):
+        exe=Path(self.tmp.name)/'renderer';exe.write_bytes(b'version one')
+        other=Path(self.tmp.name)/'renderer2';other.write_bytes(b'version two')
+        with audit_render_cache(), patch('visual_claim_review.shutil.which',return_value=str(exe)) as which, \
+             patch('visual_claim_review.render_hash',return_value='approved-image-hash') as render:
+            verify(self.claim,self.source,self.index,self.review)
+            verify(self.claim,self.source,self.index,self.review)
+            self.review['pdf_page']=3;self.review['render_parameters']['page']=3
+            verify(self.claim,self.source,self.index,self.review)
+            self.review['render_parameters']['dpi']=150
+            verify(self.claim,self.source,self.index,self.review)
+            exe.write_bytes(b'version two');verify(self.claim,self.source,self.index,self.review)
+            which.return_value=str(other);verify(self.claim,self.source,self.index,self.review)
+            self.assertEqual(render.call_count,5)
+
+    def test_cached_additional_page_still_checks_expected_hash(self):
+        claim,review=self.second()
+        self.review['additional_pdf_pages']=[dict(page=3,dpi=150,render_sha256='a'*64)]
+        review['additional_pdf_pages']=[dict(page=3,dpi=150,render_sha256='b'*64)]
+        with audit_render_cache(), patch('visual_claim_review.render_hash',side_effect=['approved-image-hash','a'*64]) as render:
+            verify(self.claim,self.source,self.index,self.review)
+            with self.assertRaisesRegex(ValueError,'Additional reviewed rendering'):
+                verify(claim,self.source,self.index,review)
+            self.assertEqual(render.call_count,2)
+
+    def test_nested_and_exception_reset_and_standalone_uncached(self):
+        with patch('visual_claim_review.render_hash',return_value='approved-image-hash') as render:
+            with audit_render_cache():
+                verify(self.claim,self.source,self.index,self.review)
+                with self.assertRaisesRegex(RuntimeError,'abort'):
+                    with audit_render_cache():
+                        verify(self.claim,self.source,self.index,self.review)
+                        raise RuntimeError('abort')
+                verify(self.claim,self.source,self.index,self.review)
+                self.assertEqual(render.call_count,2)
+            verify(self.claim,self.source,self.index,self.review)
+            verify(self.claim,self.source,self.index,self.review)
+            self.assertEqual(render.call_count,4)
 
 
 class NativePngReview(VisualReview):

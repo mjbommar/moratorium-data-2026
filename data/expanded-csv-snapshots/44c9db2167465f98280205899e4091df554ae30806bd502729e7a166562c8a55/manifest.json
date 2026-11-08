@@ -1,0 +1,408 @@
+{
+  "schema_version": "1.0.0",
+  "source_snapshot": "a87ecb9bf65ac3ff0ccfa4da882b9fcdf5685a3c3cc88e9d4130440c5f70de22",
+  "source_publication_sha256": "c144a10bf962267fd04774234fe5a77ea848d60664a9d0b9e340349a195e9802",
+  "schema_sha256": "68c688d419295d497c673986d9fd9e1146a4090387117574fac4213124e6a8bf",
+  "generator_sha256": "53172fb259be2407c4a1fdfd30d38c9470754c960b668f40378069c0a2bad24f",
+  "source_tables": {
+    "ballot_measures.jsonl": "ae9c95f40334db7fbb209a99103a900f798598c252656fefe620321fb6345f52",
+    "claims.jsonl": "874a38246f118e77267fb287ea8211ee1eb2425cc243914a1810ebc95effaaff",
+    "coverage_observations.jsonl": "e3445cd8461cbfb78ae35a80cffb95dfef631fc902dc3e4fcf82e1ff208031b9",
+    "elections.jsonl": "86f16f9c87f3b9edf0f5eafa069d14f9cd3441d0b290ef14e04171552d184f35",
+    "instrument_events.jsonl": "59ee15504ecb3cde7b8a96b7ce0f23063daec7ee3b431440a288f7d19151c48c",
+    "jurisdictions.jsonl": "d7db395f967740ad6eaad6eb43ef6f62c1b73f3016396faee9df8c9c6f089398",
+    "local_restrictions.jsonl": "e2e3f218b3136bbd1afbf31a70b1764bb6ab3d2eb896503d48e4bdcf8ff7a7ed",
+    "measure_instrument_links.jsonl": "e22daf9243548a4a1e0eb4fd685b0265b12436741ec764d0d20475a17451da4e",
+    "measure_provisions.jsonl": "8a0539b0dca49d3a3126d7d7aef8a0409ffe5d94e607342eb495339479a946ca",
+    "measure_results.jsonl": "625d60a1b0916e7afbec59a487c8987e2758c9ab3a30030fc15aafdb4674928d",
+    "review_decisions.jsonl": "6ea6d3ceb7cb9c05b93e6bff1770a4539695ae8e0555de926ce475c57fa4a9d2",
+    "search_attempts.jsonl": "8c937fb5c240000c8888547cde04e062a0a8a8fd95be802cb61c87b13cb10cd9",
+    "search_runs.jsonl": "229d89b883839612068c281fb5c4607bece6ff95bd92f6e466b120008aeaf6a3",
+    "search_sightings.jsonl": "437b7ee6df59e50ea124439c1160ec56e31ed99fd7e195a490f887da18d83245",
+    "source_documents.jsonl": "e060bae299e5c6a8bb094e32a7ad6c5d95fc30ac59ddbcf6831a575309255b4d"
+  },
+  "files": {
+    "jurisdictions.csv": {
+      "sha256": "2f0c519667882372d1135069d3e8c42e8489326e8c4b902566d255dfeda41ae8",
+      "rows": 49,
+      "columns": [
+        "schema_version",
+        "jurisdiction_id",
+        "aliases",
+        "authoritative_ids",
+        "boundary_reference",
+        "county",
+        "government_type",
+        "name",
+        "state",
+        "valid_from",
+        "valid_until"
+      ],
+      "source_table": "jurisdictions"
+    },
+    "elections.csv": {
+      "sha256": "04c688930e30bf5297dce9944bafb989ce8a01d8b827c6f3ef335643234a6f52",
+      "rows": 48,
+      "columns": [
+        "schema_version",
+        "election_id",
+        "administering_authority",
+        "election_date",
+        "election_type",
+        "jurisdiction_id",
+        "official_result_urls"
+      ],
+      "source_table": "elections"
+    },
+    "ballot_measures.csv": {
+      "sha256": "dec4bbae0583e698b7bce1007c66999392213b79320fe9f47d717eda490c00fd",
+      "rows": 54,
+      "columns": [
+        "schema_version",
+        "measure_id",
+        "bindingness",
+        "designation",
+        "election_id",
+        "jurisdiction_id",
+        "legal_basis",
+        "lifecycle",
+        "placement_method",
+        "placement_source_term",
+        "referendum_yes_effect",
+        "scope_note",
+        "sectors",
+        "title",
+        "wording",
+        "yes_direction"
+      ],
+      "source_table": "ballot_measures"
+    },
+    "measure_provisions.csv": {
+      "sha256": "661c2829b385857052054faf391e764180d4493236611851cec8f8aa3f9a8e36",
+      "rows": 52,
+      "columns": [
+        "schema_version",
+        "provision_id",
+        "bindingness",
+        "claim_ids",
+        "condition_clauses",
+        "covered_uses",
+        "duration",
+        "exemptions",
+        "geography",
+        "implementation_requirements",
+        "measure_id",
+        "mechanism",
+        "thresholds"
+      ],
+      "source_table": "measure_provisions"
+    },
+    "measure_results.csv": {
+      "sha256": "49e15f0a6c26d7cb0d57e6893ec89011b2c0d50cc5efba022c653d9bb20b8f5a",
+      "rows": 61,
+      "columns": [
+        "schema_version",
+        "result_observation_id",
+        "ballots_cast",
+        "blank_votes",
+        "calculated_outcome",
+        "certification_date",
+        "certification_status",
+        "measure_id",
+        "no_votes",
+        "observed_at",
+        "other_votes",
+        "outcome_direction",
+        "outcome_direction_basis",
+        "overvotes",
+        "passage_threshold",
+        "percentage_denominator",
+        "precincts_reporting",
+        "precincts_total",
+        "published_at",
+        "registered_voters",
+        "reported_outcome",
+        "reporting_scope",
+        "reporting_status",
+        "source_document_id",
+        "source_vote_categories",
+        "source_vote_totals",
+        "source_yes_percent",
+        "supersedes_id",
+        "threshold_comparison",
+        "undervotes",
+        "valid_votes",
+        "value_methods",
+        "yes_no_votes",
+        "yes_votes"
+      ],
+      "source_table": "measure_results"
+    },
+    "local_restrictions.csv": {
+      "sha256": "c7725e9f9a57c085c3528469584212e5916a87afd4b711fbff94c39b25b57e37",
+      "rows": 2,
+      "columns": [
+        "schema_version",
+        "restriction_id",
+        "adoption",
+        "applicability_start",
+        "claim_ids",
+        "duration",
+        "duration_original",
+        "effective",
+        "end",
+        "jurisdiction_id",
+        "provisions",
+        "retroactivity_explanation",
+        "status",
+        "title"
+      ],
+      "source_table": "local_restrictions"
+    },
+    "instrument_events.csv": {
+      "sha256": "d083a1d903a9b594b6a1fb534e5093830279779e7c6a521c2bdc76544a440a0e",
+      "rows": 10,
+      "columns": [
+        "schema_version",
+        "event_id",
+        "action",
+        "claim_ids",
+        "instrument",
+        "observed_at",
+        "occurrence",
+        "published_at",
+        "related_instrument"
+      ],
+      "source_table": "instrument_events"
+    },
+    "measure_instrument_links.csv": {
+      "sha256": "e43dc67e0d9d043f3dd07896025ad81e63cd7bf20e75e03d9cbcb957694f11b3",
+      "rows": 1,
+      "columns": [
+        "schema_version",
+        "link_id",
+        "claim_ids",
+        "instrument",
+        "measure_id",
+        "provision_ids",
+        "relation",
+        "review_status"
+      ],
+      "source_table": "measure_instrument_links"
+    },
+    "source_documents.csv": {
+      "sha256": "404148eaf769401add961444f8b476d62acffe058485db8e768a9d2bfe5aaae3",
+      "rows": 157,
+      "columns": [
+        "schema_version",
+        "source_document_id",
+        "access_classification",
+        "body_sha256",
+        "citation_url",
+        "extraction_version",
+        "publication_classification",
+        "published_date",
+        "retrieval_method",
+        "retrieved_at",
+        "text_sha256",
+        "url"
+      ],
+      "source_table": "source_documents"
+    },
+    "claims.csv": {
+      "sha256": "d9398217e34445f3e0a28b96b15228f819b525c9da4029c6b9fe71ad147da529",
+      "rows": 586,
+      "columns": [
+        "schema_version",
+        "claim_id",
+        "extraction_provenance",
+        "predicate",
+        "quote",
+        "source_document_id",
+        "span",
+        "subject",
+        "temporal_support",
+        "value"
+      ],
+      "source_table": "claims"
+    },
+    "review_decisions.csv": {
+      "sha256": "9c289387fd7f3dab951e629fac01498e47dd342c3ea7c4cf0ade1d583adb897d",
+      "rows": 2607,
+      "columns": [
+        "schema_version",
+        "decision_id",
+        "claim_ids",
+        "decided_at",
+        "disposition",
+        "method",
+        "rationale",
+        "reviewer",
+        "scope",
+        "supersedes_id",
+        "target"
+      ],
+      "source_table": "review_decisions"
+    },
+    "search_runs.csv": {
+      "sha256": "4e8f4b2f626164d655a4dd7dd8696d9c364f78fad05ed2d4101b2f13f2bd3894",
+      "rows": 1,
+      "columns": [
+        "schema_version",
+        "run_id",
+        "ended_at",
+        "sampling_seed",
+        "scope",
+        "search_space_version",
+        "started_at",
+        "tool_versions"
+      ],
+      "source_table": "search_runs"
+    },
+    "search_attempts.csv": {
+      "sha256": "fcbb796939d8be23faec1945ec7c9e274e87197e3223b0c99517f3fb5d64ea6e",
+      "rows": 3,
+      "columns": [
+        "schema_version",
+        "attempt_id",
+        "backend",
+        "currency",
+        "error",
+        "outcome",
+        "query",
+        "query_cell",
+        "response_reference",
+        "retry_of",
+        "run_id",
+        "spend",
+        "started_at",
+        "window_end",
+        "window_start"
+      ],
+      "source_table": "search_attempts"
+    },
+    "search_sightings.csv": {
+      "sha256": "1612a935966dc22cf91eae30c6e8f9c99b0b7d5aa72e00f2f42d630feb8e36aa",
+      "rows": 18,
+      "columns": [
+        "schema_version",
+        "sighting_id",
+        "attempt_id",
+        "rank",
+        "seen_at",
+        "source_document_id",
+        "url"
+      ],
+      "source_table": "search_sightings"
+    },
+    "coverage_observations.csv": {
+      "sha256": "e84d6870f1b7128f2f1152662b8bd416ffb655f3f1be99bf01cfdd24bfaf4ce2",
+      "rows": 1,
+      "columns": [
+        "schema_version",
+        "coverage_id",
+        "completeness",
+        "endpoints_checked",
+        "intent",
+        "jurisdiction_id",
+        "period_end",
+        "period_start",
+        "remaining_gaps",
+        "run_id",
+        "sector"
+      ],
+      "source_table": "coverage_observations"
+    },
+    "measure_results_current.csv": {
+      "sha256": "65a89f102d1ce7ff4defe2b344d69e4a10f8573df4649e1b77ec6746677de960",
+      "rows": 50,
+      "columns": [
+        "schema_version",
+        "result_observation_id",
+        "ballots_cast",
+        "blank_votes",
+        "calculated_outcome",
+        "certification_date",
+        "certification_status",
+        "measure_id",
+        "no_votes",
+        "observed_at",
+        "other_votes",
+        "outcome_direction",
+        "outcome_direction_basis",
+        "overvotes",
+        "passage_threshold",
+        "percentage_denominator",
+        "precincts_reporting",
+        "precincts_total",
+        "published_at",
+        "registered_voters",
+        "reported_outcome",
+        "reporting_scope",
+        "reporting_status",
+        "source_document_id",
+        "source_vote_categories",
+        "source_vote_totals",
+        "source_yes_percent",
+        "supersedes_id",
+        "threshold_comparison",
+        "undervotes",
+        "valid_votes",
+        "value_methods",
+        "yes_no_votes",
+        "yes_votes"
+      ],
+      "source_table": "measure_results"
+    },
+    "instrument_events_current.csv": {
+      "sha256": "d083a1d903a9b594b6a1fb534e5093830279779e7c6a521c2bdc76544a440a0e",
+      "rows": 10,
+      "columns": [
+        "schema_version",
+        "event_id",
+        "action",
+        "claim_ids",
+        "instrument",
+        "observed_at",
+        "occurrence",
+        "published_at",
+        "related_instrument"
+      ],
+      "source_table": "instrument_events"
+    },
+    "instrument_event_status.csv": {
+      "sha256": "beaf480ad5ccda71f6c377d57f609ef3fe5af5b091dd2288876d6dcba9c4e702",
+      "rows": 10,
+      "columns": [
+        "schema_version",
+        "event_id",
+        "decided_at",
+        "decision_id",
+        "replacement_event_ids",
+        "review_state"
+      ],
+      "source_table": "instrument_events"
+    }
+  },
+  "encoding": {
+    "charset": "UTF-8",
+    "line_ending": "LF",
+    "null_or_absent": "empty cell",
+    "strings": "literal text with CSV quoting",
+    "numbers_and_booleans": "JSON scalar spelling",
+    "objects_and_arrays": "compact JSON within a CSV cell"
+  },
+  "scope": "Derived convenience views, not authoritative records or new evidence acceptance. JSONL preserves null versus empty strings and absent fields. Current results exclude explicitly superseded observations only; separate reporting scopes are retained.",
+  "validation_profile": {
+    "name": "1.0.4",
+    "schema_sha256": "68c688d419295d497c673986d9fd9e1146a4090387117574fac4213124e6a8bf",
+    "semantics": "event-validity-conditions-policy-succession-v1"
+  },
+  "source_table_snapshot_sha256": "a3a047d4943670615ab65c0681d1c9c7ddc1f07dec30862001fc708ab98bb380",
+  "event_views": {
+    "retained": "instrument_events.csv",
+    "current_accepted": "instrument_events_current.csv",
+    "status": "instrument_event_status.csv",
+    "meaning": "Review-state acceptance, not current legal force. Retained rows include withdrawn history."
+  }
+}

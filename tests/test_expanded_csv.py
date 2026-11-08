@@ -15,6 +15,14 @@ SCHEMAS = json.loads(SCHEMA.read_text())
 
 
 class ExpandedCsvTests(unittest.TestCase):
+    def test_unknown_sector_measure_is_not_dropped_or_changed_to_null(self):
+        records = self.read([{'measure_id': 'notice-only', 'sectors': [], 'wording': None}],
+                            table='ballot_measures')
+        self.assertEqual(len(records), 1)
+        self.assertEqual(records[0]['measure_id'], 'notice-only')
+        self.assertEqual(json.loads(records[0]['sectors']), [])
+        self.assertEqual(records[0]['wording'], '')
+
     def read(self, records, table='measure_results'):
         raw, _ = render_table(table, records, SCHEMAS)
         return list(csv.DictReader(io.StringIO(raw.decode('utf-8'))))

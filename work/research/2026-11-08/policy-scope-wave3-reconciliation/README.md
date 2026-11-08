@@ -1,0 +1,7 @@
+# Second 90-record policy scope wave
+
+Applied 90 independently reviewed scope decisions: **76 include, two exclude and 12 unresolved**. Coordinator checks cover 90 exact current row/identity guards and 119 retained source references. All 447 raw rows and IDs are unchanged. Current partitions are **201 included / seven excluded / 25 unresolved / 214 unreviewed**; the exploratory pool has 440 observations, not a reviewed or deduplicated census.
+
+The previously retained Indiana SB 257 and signed Maryland Executive Order 01.01.2026.16 were located after an incomplete routing index caused source-gap proposals. Independent reviewers corrected those proposals to include. Neither inclusion establishes current force; the Maryland order is not treated as a statewide construction moratorium. The original HTML summary also preserves a Kentucky passage omitted by the generic text extractor; it was checked against the retained body. JSON-pointer source references were resolved and matched to actual captured body bytes.
+
+[Application](application.json) and [source checks](source-checks.json) retain decision and source fingerprints. Specific definition, instrument/version and applicability gaps remain unresolved. One mistaken duplicate Indiana HTTP fetch is recorded in the recovery packet; it was not corroboration or the source basis for the decision. Full freshness, remaining scope observations and final delivery remain open.

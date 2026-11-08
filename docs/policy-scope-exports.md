@@ -22,9 +22,9 @@ Output replacement is atomic per file, not as a multi-file transaction; run
 - `receipt.json` gives input fingerprints, partition counts and IDs, and hashes
   of the three CSVs. The receipt cannot contain its own hash.
 
-The current registry explicitly includes 48 observations, excludes three, leaves
-two reviewed-unresolved, and leaves 394 unreviewed. The exploratory candidate
-pool has 444 observations; only the 48 explicit inclusions belong to the reviewed
+The current registry explicitly includes 201 observations, excludes seven, leaves
+25 reviewed-unresolved, and leaves 214 unreviewed. The exploratory candidate
+pool has 440 observations; only the 201 explicit inclusions belong to the reviewed
 scope view. These are observations, not necessarily unique instruments.
 
 The existing `md-hb0293-sb0056-2026` exclusion concerns secure student/workforce
@@ -33,7 +33,13 @@ distribution rather than infrastructure conditions; all raw rows remain intact.
 CA AB 2170 and WY HB 155 (2026) remain unresolved pending authoritative
 applicability and baseline cross-reference evidence respectively. The
 [52-record review receipt](../work/research/2026-11-08/policy-52-scope-reconciliation/README.md)
-describes the primary, independent and coordinator review.
+describes the first primary, independent and coordinator review. The
+[90-record follow-up](../work/research/2026-11-08/policy-scope-wave2-reconciliation/README.md)
+adds 77 includes, two excludes and 11 unresolved decisions. Explicit official
+legislative summaries can establish a proposal’s infrastructure topic without
+settling operative terms or current law. Composite observations may contain
+several instruments or both related and unrelated provisions; inclusion does
+not accept every component or resolve instrument deduplication.
 
 Scope review does not establish current law, legal force, or all-record freshness.
 
@@ -52,3 +58,5 @@ A new-format release candidate verifies the complete scope output and the
 `policy_scope_review` summary against the selected committed inputs before
 writing a candidate. Offline verification repeats the check in the restored
 tree; historical candidates without the exporter retain their prior behavior.
+
+The [next 90-record wave](../work/research/2026-11-08/policy-scope-wave3-reconciliation/README.md) adds 76 includes, two excludes and 12 unresolved decisions. Its source routing includes the previously retained Indiana bill and signed Maryland order; neither required a new source to establish scope.

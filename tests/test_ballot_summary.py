@@ -11,6 +11,22 @@ from build_ballot_summary import render
 SNAPSHOT='7b960c58dd52c2f643647e306616966d4590a652c0b9caf11c108ea2edc3f421'
 
 class BallotSummaryTests(unittest.TestCase):
+    def test_unknown_sector_measure_remains_visible_without_invented_result(self):
+        measure = copy.deepcopy(self.rows['ballot_measures'][self.result['measure_id']])
+        measure.update(measure_id='general-zoning', designation=None,
+                       title='General zoning proposal', wording=None, sectors=[],
+                       lifecycle='unknown', bindingness='unresolved',
+                       yes_direction='unresolved', scope_note='Notice only; sector and outcome unresolved.')
+        self.rows['ballot_measures'][measure['measure_id']] = measure
+        before = copy.deepcopy(self.rows['measure_results'])
+        text = render(self.rows, SNAPSHOT)
+        self.assertIn('3 reviewed measure records · 2 current result observations', text)
+        self.assertIn('Sector attribution remains unresolved for 1 measure', text)
+        self.assertIn('1 reviewed measure has no current result observation', text)
+        self.assertIn('General zoning proposal', text)
+        self.assertIn('Notice only; sector and outcome unresolved.', text)
+        self.assertEqual(self.rows['measure_results'], before)
+
     def test_proposal_link_keeps_unknown_force_and_dates_separate(self):
         unknown={'earliest':None,'latest':None,'precision':'unknown','original_text':None}
         self.rows['local_restrictions']['r']={'restriction_id':'r','title':'Proposed prohibition',

@@ -77,6 +77,12 @@ def audit_expanded_evidence(records, index, visual_reviews=None):
     Free-form worker span labels are retained but are not trusted as offsets;
     locate_quote independently establishes a location in the verified text.
     """
+    from visual_claim_review import audit_render_cache
+    with audit_render_cache():
+        return _audit_expanded_evidence(records,index,visual_reviews)
+
+
+def _audit_expanded_evidence(records, index, visual_reviews):
     from bc_core.text import locate_quote
     issues=[]; verified={}; proofs=[]
     def values(table):

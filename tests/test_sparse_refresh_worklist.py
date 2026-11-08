@@ -19,6 +19,23 @@ except ImportError:
 
 @unittest.skipUnless(NATIVE,'requires native bc-spec and bc-web')
 class SparseWorklistTests(unittest.TestCase):
+    def test_unknown_sector_measure_is_retained_for_neutral_review(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            self.fixture(root)
+            path = root / 'data/expanded/ballot_measures.jsonl'
+            measures = [json.loads(line) for line in path.read_text().splitlines()]
+            measures[1]['sectors'] = []
+            path.write_text(''.join(json.dumps(row) + '\n' for row in measures))
+            result = work.build(root, '2026-11-07')
+            task = next(row for row in result['worklist']['items'] if row['id'] == 'measure:m-2')
+            self.assertEqual(result['summary']['object_counts']['measure'], 2)
+            self.assertEqual(task['planning_status'], 'sector_neutral_search_sector_review_open')
+            self.assertEqual(task['sectors'], [])
+            self.assertEqual({cell['sector'] for cell in result['plan']['cells']
+                              if cell['known_id'] == 'measure:m-2'}, {'sector_unresolved'})
+            self.assertEqual(task['freshness_disposition'], 'not_attempted_by_this_worklist')
+
     def fixture(self,root):
         def csvfile(path,rows):
             dest=root/path;dest.parent.mkdir(parents=True,exist_ok=True)

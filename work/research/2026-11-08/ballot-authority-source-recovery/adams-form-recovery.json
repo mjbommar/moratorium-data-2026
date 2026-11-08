@@ -1,0 +1,57 @@
+{
+  "observed_at": "2026-11-08T21:17:19.053663+00:00",
+  "source_reservations_total": 13,
+  "source_cap": 500,
+  "new_search_calls": 0,
+  "new_model_api_calls": 0,
+  "pydoll_attempts": 0,
+  "new_source_observations": [
+    {
+      "attempt_id": "77ac81c5b2be4fa1af27eadbcf0a0c17",
+      "url": "https://lookup.boe.ohio.gov/vtrapp/adams/ballotlist.aspx",
+      "final_url": "https://lookup.boe.ohio.gov/vtrapp/adams/ballotlist.aspx",
+      "status": 200,
+      "ok": true,
+      "body_sha256": "00b7ece3a401d2b749475328d39bc965794707183e15bddd2532d1271fd6b7c7",
+      "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "finished_at": "2026-11-08T21:10:04.912452+00:00",
+      "method": "POST"
+    },
+    {
+      "attempt_id": "9d56345d5ba74e8d92b3fe2d9ba191ca",
+      "url": "https://lookup.boe.ohio.gov/vtrapp/adams/getballot.aspx?elect=20261103G&prsid=08____2&bpty=X",
+      "final_url": "https://lookup.boe.ohio.gov/vtrapp/adams/getballot.aspx?elect=20261103G&prsid=08____2&bpty=X",
+      "status": 200,
+      "ok": true,
+      "body_sha256": "3415900240ecd25946dab3dfe8f4df1a588a1e9ff1a066d4fdd951c71f119133",
+      "text_sha256": "6a1a527b4223fca49cbf092ab76c84054a01da8ce16a3e5cbff01f6907aa0d2e",
+      "finished_at": "2026-11-08T21:11:55.099958+00:00",
+      "method": null
+    },
+    {
+      "attempt_id": "aabba0516ca14047b41e6ec1da7f6a43",
+      "url": "https://lookup.boe.ohio.gov/vtrapp/adams/getballot.aspx?elect=20261103G&prsid=08____1&bpty=X",
+      "final_url": "https://lookup.boe.ohio.gov/vtrapp/adams/getballot.aspx?elect=20261103G&prsid=08____1&bpty=X",
+      "status": 200,
+      "ok": true,
+      "body_sha256": "99bb7f5da0855f033e820ef27a1751f8d1ab9a4d1f291aa7c58d51f83cfc5d59",
+      "text_sha256": "6a1a527b4223fca49cbf092ab76c84054a01da8ce16a3e5cbff01f6907aa0d2e",
+      "finished_at": "2026-11-08T21:11:55.128981+00:00",
+      "method": null
+    },
+    {
+      "attempt_id": "3ac63629f3ff4939b883942c5cbb5f38",
+      "url": "https://lookup.boe.ohio.gov/vtrapp/adams/getballot.aspx?elect=20261103G&prsid=09____1&bpty=X",
+      "final_url": "https://lookup.boe.ohio.gov/vtrapp/adams/getballot.aspx?elect=20261103G&prsid=09____1&bpty=X",
+      "status": 200,
+      "ok": true,
+      "body_sha256": "4aefa9cec686895260f9b744c7bcaf620116159f9741a457b2a6bfa0f1c710af",
+      "text_sha256": "a125d66b18470996872c20d75e779c426dce4f4757b1af40caadffa42ff973a7",
+      "finished_at": "2026-11-08T21:11:55.154071+00:00",
+      "method": null
+    }
+  ],
+  "post_basis": "Retained official form controls and selected election 20261103G; normal public form submission, no voter identifier, no guessed document URL.",
+  "ballot_link_source_sha256": "00b7ece3a401d2b749475328d39bc965794707183e15bddd2532d1271fd6b7c7",
+  "scope": "Three sample-ballot PDFs cover two township questions; two Monroe precinct versions are not two measures. Source facts await independent review."
+}

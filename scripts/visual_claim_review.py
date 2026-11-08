@@ -4,13 +4,47 @@ This reproduces the reviewed rendering, not the human/agent visual judgement.
 It never certifies an election or accepts a legal-effect claim.
 """
 import hashlib
+from contextlib import contextmanager
+from contextvars import ContextVar
 import io
 import json
 from pathlib import Path
+import shutil
 import subprocess
 import struct
 import zlib
 import tempfile
+
+_render_cache=ContextVar('visual_render_cache',default=None)
+_renderer_path=ContextVar('visual_renderer_path',default='pdftoppm')
+
+
+@contextmanager
+def audit_render_cache():
+    """Give one audit its own render results, including in nested audits."""
+    token=_render_cache.set({})
+    try:
+        yield
+    finally:
+        _render_cache.reset(token)
+
+
+def _cached_render_hash(body,body_hash,page,dpi):
+    cache=_render_cache.get()
+    if cache is None:
+        return render_hash(body,page,dpi)
+    executable=shutil.which('pdftoppm')
+    if executable is None:
+        raise FileNotFoundError('pdftoppm executable not found')
+    executable=Path(executable).resolve(strict=True)
+    key=(body_hash,page,dpi,str(executable),digest(executable.read_bytes()))
+    if key not in cache:
+        token=_renderer_path.set(str(executable))
+        try:
+            cache[key]=render_hash(body,page,dpi)
+        finally:
+            _renderer_path.reset(token)
+    return cache[key]
 
 
 def digest(raw):return hashlib.sha256(raw).hexdigest()
@@ -19,7 +53,7 @@ def digest(raw):return hashlib.sha256(raw).hexdigest()
 def render_hash(body,page,dpi):
     with tempfile.TemporaryDirectory(prefix='ballot-visual-review-') as tmp:
         target=Path(tmp)/'page'
-        subprocess.run(['pdftoppm','-f',str(page),'-l',str(page),'-r',str(dpi),
+        subprocess.run([_renderer_path.get(),'-f',str(page),'-l',str(page),'-r',str(dpi),
             '-singlefile','-png',str(body),str(target)],check=True,capture_output=True,timeout=30)
         return digest(target.with_suffix('.png').read_bytes())
 
@@ -114,7 +148,8 @@ def verify(claim,source,index,review):
         if version['body_sha256']!=source['body_sha256'] or not version.get('body_artifact'):continue
         body=Path(version['body_artifact'])
         raw=body.read_bytes()
-        if digest(raw)!=source['body_sha256']:continue
+        body_hash=digest(raw)
+        if body_hash!=source['body_sha256']:continue
         if native:
             if renderer=='native-png':
                 if png_dimensions(raw)!=(params['width'],params['height']):
@@ -124,10 +159,10 @@ def verify(claim,source,index,review):
             if review['render_sha256']!=source['body_sha256']:
                 raise ValueError('Native image review must pin original untransformed bytes')
             return True
-        if render_hash(body,params['page'],params['dpi'])!=review['render_sha256']:
+        if _cached_render_hash(body,body_hash,params['page'],params['dpi'])!=review['render_sha256']:
             raise ValueError('Reviewed rendering could not be reproduced')
         for page in additional:
-            if render_hash(body,page['page'],page['dpi'])!=page['render_sha256']:
+            if _cached_render_hash(body,body_hash,page['page'],page['dpi'])!=page['render_sha256']:
                 raise ValueError('Additional reviewed rendering could not be reproduced')
         return True
     raise ValueError('Retained reviewed source body unavailable or drifted')
