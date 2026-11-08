@@ -1,6 +1,8 @@
 # Proposed nationwide discovery phase
 
-Status: prepared for review; **not authorized or executed**.
+Status: user authorized the priced ceilings on November 8, conditional on avoiding duplicate work. **No new-phase provider calls have executed. The original 600-cell proposal is superseded as an execution worklist: retained-work adjudication admits zero new broad queries. Specific source recovery and freshness questions remain open.**
+
+The [historical reuse audit](../work/research/2026-11-08/nationwide-discovery-reuse/README.md) confirms prior discovery runs for all 50 states. Reuse their retained queries, results and captures before admitting any new request. Approval of the ceiling is not a requirement to spend it.
 
 This phase supplies additional raw discovery and source observations for the
 [full research plan](research-and-ballot-expansion-plan.md) and

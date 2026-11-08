@@ -1,0 +1,26 @@
+{
+  "coordinator_full_row_guards": 52,
+  "coordinator_source_reference_checks": 87,
+  "scope_tests": {
+    "count": 17,
+    "status": "passed"
+  },
+  "release_scope_replay_tests": {
+    "count": 5,
+    "status": "passed"
+  },
+  "site_check": {
+    "command": "make site check PYTHON=.venv/bin/python",
+    "exit_code": 0,
+    "private_log_sha256": "ff45a50f26d066f01573f1478db0bade7de1da4f2b90af11dba2ad8b75cb8b42"
+  },
+  "raw_policy_records": 447,
+  "scope_partitions": {
+    "reviewed_include": 48,
+    "reviewed_exclude": 3,
+    "reviewed_unresolved": 2,
+    "unreviewed": 394
+  },
+  "scope": "Scope membership and offline consistency; not current legal force or complete freshness.",
+  "documented_numbers_checked": 68
+}

@@ -22,12 +22,19 @@ Output replacement is atomic per file, not as a multi-file transaction; run
 - `receipt.json` gives input fingerprints, partition counts and IDs, and hashes
   of the three CSVs. The receipt cannot contain its own hash.
 
-The current registry has one exclusion: `md-hb0293-sb0056-2026` is a compound
-historical observation of secure student/workforce research data, not an
-infrastructure action. Its raw row and identity remain intact; the export does
-not split it into instruments. The raw 447 observations are not necessarily
-447 unique instruments. The current partition is 0 included, 1 excluded,
-0 unresolved, and 446 unreviewed; the 446 candidates are not reviewed in-scope.
+The current registry explicitly includes 48 observations, excludes three, leaves
+two reviewed-unresolved, and leaves 394 unreviewed. The exploratory candidate
+pool has 444 observations; only the 48 explicit inclusions belong to the reviewed
+scope view. These are observations, not necessarily unique instruments.
+
+The existing `md-hb0293-sb0056-2026` exclusion concerns secure student/workforce
+research data. The new exclusions, PA HB 2153 and WY SF 76 (2026), concern revenue
+distribution rather than infrastructure conditions; all raw rows remain intact.
+CA AB 2170 and WY HB 155 (2026) remain unresolved pending authoritative
+applicability and baseline cross-reference evidence respectively. The
+[52-record review receipt](../work/research/2026-11-08/policy-52-scope-reconciliation/README.md)
+describes the primary, independent and coordinator review.
+
 Scope review does not establish current law, legal force, or all-record freshness.
 
 The selector and exports are prerequisites for the full refresh, not evidence

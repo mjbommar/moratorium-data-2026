@@ -1,0 +1,11 @@
+# 52 state-policy scope decisions
+
+Applied 52 append-only scope decisions after primary Terra review, independent Terra adjudication and coordinator evidence/guard checks. All 447 raw observations and all identities remain unchanged. The coordinator rechecked 52 full-row hashes and identity guards, plus 87 retained source-body/text and literal-passage references before appending the events.
+
+The batch adds **48 includes, two excludes and two unresolved decisions**. Together with the existing Maryland exclusion, the registry partitions into **48 included / three excluded / two unresolved / 394 unreviewed**. The candidate pool shrinks from 446 to 444; it is not an accepted census. Reviewed inclusions are a distinct 48-observation export, and may include proposed or unsuccessful measures, precursor memos and separate companions.
+
+The independent reviewer modified PA HB 1924 from unresolved to include: the official text connects data-center demand growth to operative load-forecast and interconnection review. CA AB 2170 remains unresolved on industrial-use applicability; WY HB 155 (2026) remains unresolved on the applicable tax-exemption baseline. PA HB 2153 and WY SF 76 (2026) are excluded from the infrastructure analytical scope because their operative changes distribute tax revenues rather than condition facility construction, operation, utility service or infrastructure incentives. They remain available in the raw and annotated exports.
+
+[Application receipt](application.json) pins registry changes and decision IDs. Public registry events retain source URL, body hash and locator; full responses and source bodies remain private. Scope decisions do not establish enactment, current legal force, unique instruments, complete freshness or a completed nationwide census.
+
+Validation: full `make site check PYTHON=.venv/bin/python` passed, as did 17 scope tests and five release-scope replay tests. All 68 documented numbers match. [Verification receipt](verification.json) pins the private full-check log. One release-selection test fixture was corrected to remove simulated missing files from the HEAD-derived baseline; it previously retained the receipt that it intended to omit.

@@ -152,6 +152,8 @@ class ExportTests(unittest.TestCase):
         commit = release.git('rev-parse', 'HEAD^{commit}').decode().strip()
         names = release.git('ls-tree', '-r', '--name-only', commit).decode().splitlines()
         extra = ['scripts/build_policy_scope_exports.py', 'docs/policy-scope-exports.md'] + ['data/policy-scope/'+n for n in exports.NAMES]
+        # Exercise missing artifacts even after these files exist in HEAD.
+        names = [name for name in names if name not in extra]
         selected = release.select_files(commit, names + extra)
         self.assertTrue(set(extra) <= set(selected))
         with self.assertRaisesRegex(AssertionError, 'Unexpected policy-scope output set'): release.select_files(commit, names + extra + ['data/policy-scope/extra.csv'])

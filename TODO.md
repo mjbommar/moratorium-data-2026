@@ -23,7 +23,12 @@ precedence over its execution strategy. The initial 100-record Terra cohort has 
 
 ## Process-reset increments
 
-- [ ] Obtain explicit additional discovery allocation after priced-path review; proposed 600 cells/1,200 searches, $25 search ceiling and bounded source follow-up ([proposal](docs/national-discovery-batch-2026-11-08.md)). Existing spent caps remain intact.
+- [x] Apply 52 independently reviewed policy-scope decisions: 48 include, two exclude, two unresolved; retain all 447 raw IDs, with 394 still unreviewed ([receipt](work/research/2026-11-08/policy-52-scope-reconciliation/README.md)).
+
+- [x] Obtain explicit additional discovery allocation after priced-path review, conditional on avoiding duplicate work: $25 search ceiling and bounded source follow-up ([proposal](docs/national-discovery-batch-2026-11-08.md)). Existing spent caps remain intact.
+- [x] Deduplicate 478 historical search ledgers: 4,331 unique attempts, 4,073 retained responses; publish query-level accounting for all 50 prior state discovery runs ([reuse audit](work/research/2026-11-08/nationwide-discovery-reuse/README.md)).
+- [x] Adjudicate the 600-cell repeat proposal against retained discovery: 250 reused and 350 broad-partial; admit zero new broad queries. Coverage limits and five source-authority holds remain explicit ([decision](work/research/2026-11-08/nationwide-discovery-reuse/README.md)).
+- [ ] Resolve specific source-authority and per-record freshness questions from retained leads before admitting narrowly justified new searches; do not treat broad-partial as complete coverage.
 
 - [x] Apply 42 guarded WI/GA/IN cells across nine records after 73-row independent review; reject clearing Clayton’s supported endpoint and preserve unresolved legal force ([receipt](work/research/2026-11-08/wi-ga-in-reconciliation/README.md)).
 
