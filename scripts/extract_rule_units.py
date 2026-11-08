@@ -11,6 +11,7 @@ import stat
 import tempfile
 from pathlib import Path
 from typing import Literal
+from uuid import uuid4
 
 from pydantic import BaseModel, ConfigDict, model_validator
 from bc_core.budget import BudgetExceeded
@@ -223,7 +224,7 @@ def _number(value):
 
 
 def validate_state(state, context):
-    if not isinstance(state, dict) or set(state) != {'context', 'context_sha256', 'attempts', 'successes', 'budget_stop'}:
+    if not isinstance(state, dict) or set(state) != {'schema_version', 'context', 'context_sha256', 'attempts', 'successes', 'budget_stop'} or state.get('schema_version') != 'rule-unit-state-2':
         raise ValueError('Invalid ledger structure')
     if digest(state['context']) != state['context_sha256'] or state['context_sha256'] != digest(context):
         raise WorkspaceContextChanged('Workspace context changed or context hash mismatch')
@@ -237,9 +238,14 @@ def validate_state(state, context):
         raise ValueError('Unknown reconciliation stop')
     succeeded = set()
     spent = 0
+    invocation_ids = set()
     for a in attempts:
-        if not isinstance(a, dict) or not {'unit_id', 'request_sha256', 'reserved_usd', 'status'} <= set(a) or set(a) - {'unit_id', 'request_sha256', 'reserved_usd', 'status', 'charged_usd', 'accounting', 'error_type'}:
+        if not isinstance(a, dict) or not {'logical_invocation_id', 'unit_id', 'request_sha256', 'reserved_usd', 'status'} <= set(a) or set(a) - {'logical_invocation_id', 'unit_id', 'request_sha256', 'reserved_usd', 'status', 'charged_usd', 'accounting', 'error_type'}:
             raise ValueError('Invalid attempt structure')
+        ident = a['logical_invocation_id']
+        if not isinstance(ident, str) or len(ident) != 32 or any(c not in '0123456789abcdef' for c in ident) or ident in invocation_ids:
+            raise ValueError('Invalid or duplicate logical invocation ID')
+        invocation_ids.add(ident)
         uid = a['unit_id']
         if uid not in units or a['request_sha256'] != digest(request_for(units[uid], context)) or a['reserved_usd'] != context['reservation_usd'] or not _number(a['reserved_usd']):
             raise ValueError('Invalid attempt request or reservation')
@@ -249,7 +255,7 @@ def validate_state(state, context):
         status = a['status']
         if status not in ('reserved', 'failed', 'succeeded') or uid in succeeded:
             raise ValueError('Invalid attempt status or ordering')
-        if status == 'reserved' and set(a) != {'unit_id', 'request_sha256', 'reserved_usd', 'status'}:
+        if status == 'reserved' and set(a) != {'logical_invocation_id', 'unit_id', 'request_sha256', 'reserved_usd', 'status'}:
             raise ValueError('Invalid reserved attempt')
         if status == 'failed' and (not isinstance(a.get('error_type'), str) or not a['error_type']):
             raise ValueError('Invalid failed attempt')
@@ -365,7 +371,7 @@ async def run(directory, doc, plan, *, backend, model_identity, today, max_calls
         else:
             if existed or packet_path.exists():
                 raise ValueError('Missing ledger and seal; reconcile')
-            state = dict(context=context, context_sha256=digest(context), attempts=[], successes={}, budget_stop=None)
+            state = dict(schema_version='rule-unit-state-2', context=context, context_sha256=digest(context), attempts=[], successes={}, budget_stop=None)
             write_state()
         # Packet is a disposable derivative, refreshed only after context and ledger validation.
         _write(packet_path, packet(state, context), storage_policy)
@@ -381,11 +387,11 @@ async def run(directory, doc, plan, *, backend, model_identity, today, max_calls
             if len(state['attempts']) >= max_calls or sum(a.get('charged_usd', a['reserved_usd']) for a in state['attempts']) + reservation_usd > max_usd + 1e-12:
                 _write(packet_path, packet(state, context), storage_policy)
                 raise BudgetExceeded('Persistent request or dollar cap exhausted', 'llm')
-            attempt = dict(unit_id=unit['unit_id'], request_sha256=key, reserved_usd=reservation_usd, status='reserved')
+            attempt = dict(logical_invocation_id=uuid4().hex, unit_id=unit['unit_id'], request_sha256=key, reserved_usd=reservation_usd, status='reserved')
             state['attempts'].append(attempt)
             write_state()
             try:
-                with request_binding(key) if request_binding is not None else nullcontext():
+                with request_binding(key, attempt['logical_invocation_id']) if request_binding is not None else nullcontext():
                     result = await backend.generate(role=role, stage='rule_unit', prompt=request['prompt'], system=SYSTEM,
                                                     output_type=Response, **settings)
                 cost = getattr(result, 'cost_usd', None)

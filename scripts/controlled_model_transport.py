@@ -1,12 +1,12 @@
 """Persistent, credential-free HTTP request caps for explicit OpenAI extraction runs.
 
 The caller admits/creates a private workspace under its storage policy first.
-Capture format controlled-model-capture-2 retains private HTTP body bytes and
+Capture format controlled-model-capture-3 retains private HTTP body bytes and
 hashes. Historical events without capture fields are not verified captures.
 No headers, paths, URL queries, or userinfo are recorded. Use
-``with controller.bind_request_descriptor(sha256):`` around each logical model
-invocation to bind the caller's descriptor hash; callers must wire this hook
-and reconcile incomplete attempts. The descriptor is not the wire-body hash.
+``with controller.bind_request_descriptor(sha256, logical_invocation_id):`` around
+each logical model invocation to bind its descriptor hash and durable UUID; callers must wire this hook
+and reconcile incomplete attempts. A null ID remains unverified. The descriptor is not the wire-body hash.
 The binding is a lowercase SHA256 of a caller-defined descriptor, not the
 descriptor itself. Context variables isolate independently bound asyncio tasks;
 child tasks inherit their creation context. Bind each invocation before creating
@@ -29,7 +29,7 @@ from pathlib import Path
 from uuid import uuid4
 
 
-CAPTURE_FORMAT = "controlled-model-capture-2"
+CAPTURE_FORMAT = "controlled-model-capture-3"
 
 
 class ControlledModelTransport:
@@ -52,6 +52,7 @@ class ControlledModelTransport:
         self.max_request_bytes = max_request_bytes
         self.max_response_bytes = max_response_bytes
         self._descriptor = ContextVar("controlled_model_descriptor", default=None)
+        self._invocation = ContextVar("controlled_model_invocation", default=None)
         self._check_directory()
         if not self.directory.is_dir():
             raise ValueError(
@@ -186,7 +187,7 @@ class ControlledModelTransport:
             if not isinstance(ident, str) or len(ident) != 32 or any(c not in '0123456789abcdef' for c in ident):
                 raise ValueError("Invalid HTTP attempt ID")
             if row['state'] == 'reserved':
-                if set(row) != {'capture_format', 'request_capture_complete', 'wire_request_sha256', 'wire_request_bytes', 'request_body_file', 'request_descriptor_sha256', 'response_capacity_bytes', 'response_pending_file', 'journal_reservation_file', 'state', 'attempt_id', 'method', 'scheme', 'host', 'port', 'observed_at'}:
+                if set(row) != {'capture_format', 'request_capture_complete', 'wire_request_sha256', 'wire_request_bytes', 'request_body_file', 'request_descriptor_sha256', 'logical_invocation_id', 'response_capacity_bytes', 'response_pending_file', 'journal_reservation_file', 'state', 'attempt_id', 'method', 'scheme', 'host', 'port', 'observed_at'}:
                     raise ValueError('Invalid reservation fields')
                 if any(r not in terminals for r in reservations):
                     raise ValueError('Invalid HTTP ledger ordering')
@@ -199,6 +200,7 @@ class ControlledModelTransport:
                     not integer(row.get('wire_request_bytes'), self.max_request_bytes) or
                     not sha(row.get('wire_request_sha256')) or
                     (row.get('request_descriptor_sha256') is not None and not sha(row['request_descriptor_sha256'])) or
+                    (row.get('logical_invocation_id') is not None and (not isinstance(row['logical_invocation_id'], str) or len(row['logical_invocation_id']) != 32 or any(c not in '0123456789abcdef' for c in row['logical_invocation_id']))) or
                     row.get('response_capacity_bytes') != self.max_response_bytes):
                     raise ValueError("Invalid HTTP reservation")
                 reservations[ident] = row
@@ -289,17 +291,21 @@ class ControlledModelTransport:
         os.fsync(stream.fileno())
 
     @contextmanager
-    def bind_request_descriptor(self, sha256):
+    def bind_request_descriptor(self, sha256, logical_invocation_id=None):
         """Associate a caller descriptor hash with attempts in this async scope."""
         if not isinstance(sha256, str) or len(sha256) != 64 or any(
             c not in "0123456789abcdef" for c in sha256
         ):
             raise ValueError("request descriptor SHA256 required")
+        if logical_invocation_id is not None and (not isinstance(logical_invocation_id, str) or len(logical_invocation_id) != 32 or any(c not in "0123456789abcdef" for c in logical_invocation_id)):
+            raise ValueError("invalid logical invocation ID")
+        invocation_token = self._invocation.set(logical_invocation_id)
         token = self._descriptor.set(sha256)
         try:
             yield
         finally:
             self._descriptor.reset(token)
+            self._invocation.reset(invocation_token)
 
     def _put_exclusive(self, path, data):
         if self.storage_policy is not None:
@@ -359,6 +365,7 @@ class ControlledModelTransport:
                 "wire_request_sha256": hashlib.sha256(body).hexdigest(),
                 "wire_request_bytes": len(body), "request_body_file": request_path.name,
                 "request_descriptor_sha256": self._descriptor.get(),
+                "logical_invocation_id": self._invocation.get(),
                 "response_capacity_bytes": self.max_response_bytes,
                 "response_pending_file": slot_path.name,
                 "journal_reservation_file": journal_slot.name,

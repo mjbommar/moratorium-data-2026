@@ -42,13 +42,7 @@ Closeout execution order: [November refresh closeout](docs/release-closeout.md).
 
 Current [controlled model transport](docs/controlled-model-transport.md)
 retains private pre-validation HTTP bodies, persistent reservations and scoped
-descriptor hashes. The latest focused run passed 61 tests and 54 subtests after
-separating extractor boundary accounting from end-to-end completeness. The
-preceding independent run passed 70 tests and 54 subtests; the final small packet
-change still needs independent re-review. The original six-test / 248-project-test
-checkpoint is historical. Shared bc-llm retry fix remains isolated at `d5acda10`;
-no runtime installation or new paid evaluation occurred in these increments.
-Verified journal integration, semantic evaluation and P2/P4 acceptance remain open.
+descriptor hashes. The latest native reader increment passed independent verification and a coordinator rerun of seven offline suites: 88 tests and 60 subtests, plus nine independent synthetic replay cases ([packet](work/research/2026-11-07/native-journal-reader-development/README.md)). It separates retained-file consistency from historical completeness; unknown work remains incomplete. The prior 61/54 and 70/54 checkpoints remain historical. Shared bc-llm retry fix remains isolated at `d5acda10`; no runtime installation or new paid evaluation occurred. Endpoint/wire identity, prospective audit integration, semantics, frozen calibration/holdout and P2/P4 acceptance remain open.
 
 Composed-support development: [checkpoint](docs/extraction-support-development.md)
 records transport schema 1.1.0, two distributed terra CLI reviews, preservation

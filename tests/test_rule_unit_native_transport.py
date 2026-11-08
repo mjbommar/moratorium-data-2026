@@ -10,6 +10,7 @@ import unittest
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'scripts'))
 import extract_rule_units as rules
 from controlled_model_transport import ControlledModelTransport
+from native_rule_unit_journal_adapter import raw_output, same_json
 
 
 class NativeRuleTests(unittest.IsolatedAsyncioTestCase):
@@ -99,6 +100,16 @@ class NativeRuleTests(unittest.IsolatedAsyncioTestCase):
                 events = [json.loads(line) for line in transport.ledger.read_text().splitlines()]
                 self.assertEqual(sum(event['state'] == 'reserved' for event in events), cap)
                 state = json.loads((root / 'run/rule-units-state.private.json').read_text())
+                reservations = [event for event in events if event['state'] == 'reserved']
+                self.assertEqual([event['logical_invocation_id'] for event in reservations],
+                                 [attempt['logical_invocation_id'] for attempt in state['attempts']])
+                self.assertEqual(len({a['logical_invocation_id'] for a in state['attempts']}), cap)
+                if not fail:
+                    responses = {event['attempt_id']: event for event in events if event['state'] == 'response'}
+                    for attempt, reservation in zip(state['attempts'], reservations):
+                        response = responses[reservation['attempt_id']]
+                        raw = (root / 'http' / response['response_body_file']).read_bytes()
+                        self.assertTrue(same_json(raw_output(raw), state['successes'][attempt['unit_id']]['output']))
                 self.assertEqual(
                     [event['request_descriptor_sha256'] for event in events if event['state'] == 'reserved'],
                     [attempt['request_sha256'] for attempt in state['attempts']],

@@ -34,7 +34,7 @@ async with PydanticAIBackend(
 ) as backend:
     controller.require_model(backend.model_resolver(spec))
     # Pass request_binding=controller.bind_request_descriptor to
-    # extract_rule_units.run(...) for each logical invocation's scoped hash.
+    # extract_rule_units.run(...) for each logical invocation's scoped hash and persisted invocation ID.
     # Execute only the separately admitted, frozen workload.
 ```
 
@@ -45,7 +45,7 @@ zero and its HTTP client is observed by this controller. Revalidate that check
 when changing the pinned SDK. A caller-owned resolver can construct
 `AsyncOpenAI(max_retries=0, http_client=...)` explicitly and owns client closure.
 
-Capture format `controlled-model-capture-2` writes the serialized request body
+Capture format `controlled-model-capture-3` writes the serialized request body
 before dispatch and the response body before SDK validation. Separate private
 body files retain the original bytes and hashes. Journal metadata contains the
 method, host, scheme, port, timestamps, UUID attempt, status, lengths, hashes and
@@ -80,11 +80,8 @@ blocked audit prints JSON evidence and exits nonzero; quality remains
 `not_scored`. Invoice reconciliation, semantic review, a frozen prospective
 protocol and fresh calibration/unexposed holdout remain required.
 
-The [development packet](../work/research/2026-11-07/controlled-capture-development/README.md)
-records exact code hashes and bounded offline verification. Independent follow-up
-passed 70 tests and 54 subtests, including corruption, privacy and native SDK
-mock cases, and found the extractor packet's boundary-accounting naming issue.
-Root corrected that issue; 61 focused tests and 54 subtests pass afterward, with
-no provider calls. The final small packet-field change has not received a second
-independent review. These checks establish local development behavior; P4 quality
-acceptance and automatic extraction remain open.
+The preceding [capture development packet](../work/research/2026-11-07/controlled-capture-development/README.md) remains historical. The [native reader increment](../work/research/2026-11-07/native-journal-reader-development/README.md) adds durable logical invocation IDs, strict raw/boundary comparison and read-only journal reconciliation. State format `rule-unit-state-2` rejects incompatible retained state; no migration or namespace reset is implied.
+
+Independent verification accepted the bounded reader fixes after nine fresh synthetic replay scenarios. Seven offline suites passed 88 tests and 60 subtests; the coordinator reran those suites successfully. Retained-file consistency is deliberately separate from complete historical dispatch/output accounting. Unobserved work and unknown cardinality remain incomplete, observed counts are lower bounds, and CLI incompleteness exits nonzero. The workspace threat model is cooperative, not protection against a hostile owner rewriting history.
+
+Endpoint identity, exact SDK wire serialization, prospective audit integration, source/role semantics, and fresh frozen calibration/holdout remain required. These offline checks do not establish model quality or P4 acceptance.

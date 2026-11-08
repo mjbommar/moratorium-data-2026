@@ -1,0 +1,36 @@
+{
+  "disposition": "accept_bounded_reader_increment",
+  "code_sha256": {
+    "scripts/controlled_model_transport.py": "32ff684ce2043aab461fb6ce91040ea6d6b62d28ce34c00f898daf2aa7508e17",
+    "scripts/extract_rule_units.py": "bd17e39ff19c3e10937a7b6de6a39c555a97efa894ef2f46412bf1989d703920",
+    "scripts/native_rule_unit_journal_adapter.py": "c6770661d18377eced5e26bfc7639a73dea43d63a2d0f3f846fac803919925ab",
+    "tests/test_rule_unit_native_transport.py": "dc80e2eac1766cc783a40a8fd711cad41be1b9adae08f396df4f018fb23e78fd",
+    "tests/test_native_rule_unit_journal_adapter.py": "374e9462c6db3df07f542463d0cec6c221bd3aff2a9636c022e4165aecd58942"
+  },
+  "independent_report_sha256": "63d3d1c8aed49b7f4a0d6b413d3be1bce1e2c7facb0087e21da6a1d6fa6cd5ac",
+  "independent_replay_sha256": "8e82d7217fcf661e8f1cfe82d3c8990fe3dbea991687a0c2b2c35b6224eecf57",
+  "independent_replay_cases": [
+    "baseline",
+    "coherent_removal",
+    "missing_request",
+    "orphan",
+    "unbound",
+    "retry",
+    "reservation_only",
+    "fifo",
+    "symlink"
+  ],
+  "offline_tests_passed": 88,
+  "offline_subtests_passed": 60,
+  "root_recheck_seconds": 2.9,
+  "provider_calls": 0,
+  "p4_complete": false,
+  "adapter_complete": false,
+  "remaining": [
+    "Endpoint identity",
+    "Exact SDK wire serialization",
+    "Prospective audit integration",
+    "Source and role semantics",
+    "Frozen calibration and fresh holdout"
+  ]
+}
