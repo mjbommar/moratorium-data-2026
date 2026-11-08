@@ -1,0 +1,131 @@
+[
+  {
+    "policy_action_id": "me-ld-307-hp-207-132nd-legislature",
+    "field": "end_condition",
+    "before": "",
+    "after": "Proposed section 1 application and approval limitation would be repealed 2027-11-01; bill vetoed.",
+    "decision": "modify",
+    "sources": [
+      {
+        "source_id": "a307",
+        "role": "committee amendment A H-881 PDF",
+        "event_or_document_date": "2026-03-20 committee report; adopted before veto",
+        "capture_utc": "2026-11-08T00:13:52.984662Z",
+        "locator": "committee amendment H-881 PDF page 1 printed lines 9-25, page 3 lines 21-24"
+      },
+      {
+        "source_id": "s307",
+        "role": "official chamber status",
+        "event_or_document_date": "2026-04-29 veto sustained",
+        "capture_utc": "2026-11-05T16:32:15.369050Z",
+        "locator": "chamber status extracted text lines 4-17"
+      }
+    ],
+    "rationale": "Section 1 alone would have been repealed November 1, 2027; the council/report provisions are separate and the bill was vetoed.",
+    "followup": "Revalidate all 19 guards; use only as a proposed provision endpoint and do not imply enactment."
+  },
+  {
+    "policy_action_id": "me-ld-713-hp-452-132nd-legislature-public-law-2026-c-768",
+    "field": "bill",
+    "before": "LD 713 / HP 452, 132nd Legislature; Public Law 2026, c. 768",
+    "after": "LD 713 / HP 452, 132nd Legislature; Public Law 2025, c. 768",
+    "decision": "accept",
+    "sources": [
+      {
+        "source_id": "h713",
+        "role": "official bill history and amendment markup",
+        "event_or_document_date": "2026-04-23",
+        "capture_utc": "2026-11-05T16:31:16.743291Z",
+        "locator": "bill history HTML physical lines 235-245, adopted amendment and sponsor labels"
+      },
+      {
+        "source_id": "law713",
+        "role": "codified statute historical extraction",
+        "event_or_document_date": "2026-10-05 extraction",
+        "capture_utc": "2026-11-05T16:32:26.770978Z",
+        "locator": "codified 36 MRSA section 691 extraction lines 41 and 81, section history line 111"
+      }
+    ],
+    "rationale": "The official printed paper and legislative document establish this bill identity and originating chamber; policy_action_id is the existing stable dataset identifier. Correction: The official codification cites PL 2025 c.768 although approval was in 2026; keep stable ID.",
+    "followup": "Revalidate all 19 guards and downstream display/identity joins; preserve the existing policy_action_id."
+  },
+  {
+    "policy_action_id": "me-ld-713-hp-452-132nd-legislature-public-law-2026-c-768",
+    "field": "sponsors",
+    "before": "Rep. Daniel Sayre",
+    "after": "Rep. Cloutier of Lewiston; Rep. Sayre of Kennebunk sponsored adopted House amendment H-1040",
+    "decision": "accept",
+    "sources": [
+      {
+        "source_id": "t713",
+        "role": "original concept bill PDF",
+        "event_or_document_date": "2026-04-23",
+        "capture_utc": "2026-11-08T00:14:54.533918Z",
+        "locator": "original concept bill PDF page 1 presenter"
+      },
+      {
+        "source_id": "h713",
+        "role": "official bill history and amendment markup",
+        "event_or_document_date": "2026-04-23",
+        "capture_utc": "2026-11-05T16:31:16.743291Z",
+        "locator": "bill history HTML physical lines 235-245, adopted amendment and sponsor labels"
+      }
+    ],
+    "rationale": "Original bill sponsor is distinguished from sponsors of later amendments. Correction: Original PDF names Cloutier; Sayre appears in amendment markup, not as original presenter.",
+    "followup": "Verify full given name and original presenter party against the 132nd House roster; preserve amendment sponsor role."
+  },
+  {
+    "policy_action_id": "me-ld-713-hp-452-132nd-legislature-public-law-2026-c-768",
+    "field": "party",
+    "before": "Democratic",
+    "after": "",
+    "decision": "accept",
+    "sources": [
+      {
+        "source_id": "h713",
+        "role": "official bill history and amendment markup",
+        "event_or_document_date": "2026-04-23",
+        "capture_utc": "2026-11-05T16:31:16.743291Z",
+        "locator": "bill history HTML physical lines 235-245, adopted amendment and sponsor labels"
+      }
+    ],
+    "rationale": "The old party was attached to Sayre, an amendment sponsor; it is not evidence of Cloutier’s affiliation. Clear the unverified original-sponsor field while preserving the historical lead.",
+    "followup": "Preserve Democratic as a qualified historical lead in review provenance; verify Cloutier in the official 132nd roster before populating party."
+  },
+  {
+    "policy_action_id": "me-ld-713-hp-452-132nd-legislature-public-law-2026-c-768",
+    "field": "key_provisions",
+    "before": "Public Law 2025, chapter 768 excludes property in data centers beginning operations on or after August 1, 2026 from the business equipment exemption; excludes data-center services from the Dirigo eligible-sector definition and separately excludes data-center businesses beginning operations on or after that date; directs an incentives study and report due November 4, 2026.",
+    "after": "Public Law 2025, chapter 768 excludes specified property in data centers beginning operations on or after August 1, 2026, including specified expansion or project property, from the business equipment exemption; excludes services performed at data centers from a Dirigo eligible-sector category and separately excludes data-center businesses beginning operations on or after that date; directs an incentives study and report due November 4, 2026.",
+    "decision": "additional_correction",
+    "sources": [
+      {
+        "source_id": "c713",
+        "role": "chapter 768 PDF",
+        "event_or_document_date": "2026-04-23 approved",
+        "capture_utc": "2026-11-05T16:32:21.538720Z",
+        "locator": "chapter 768 PDF page 1 section 3; page 2 sections 5-10"
+      }
+    ],
+    "rationale": "Chapter section 3 expressly includes specified expansion or project property; section 6 separately excludes services performed at a data center and section 9 separately addresses businesses. The August 1 threshold does not establish general effective date.",
+    "followup": "Revalidate all 19 guards; check whether the study was submitted and review later law and official effective-date evidence."
+  },
+  {
+    "policy_action_id": "me-ld-912-sp-402-132nd-legislature-public-law-2025-c-85",
+    "field": "key_provisions",
+    "before": "Amended Title 35-A definition of transmission and distribution utility. A private-distribution exception for a northern Maine commercial or industrial site does not apply if more than 25% of the entity's nameplate capacity serves data centers on that site.",
+    "after": "Public Law 2025, chapter 85 adds an exception to the transmission and distribution utility definition for a qualifying commercial or industrial site in the ISO-New England control area, in a municipality north of Chester, historically served without a public utility transmission and distribution plant before December 31, 2018. That exception does not apply if more than 25% of the entity’s nameplate capacity serves data centers on that site.",
+    "decision": "accept",
+    "sources": [
+      {
+        "source_id": "c912",
+        "role": "chapter 85 PDF",
+        "event_or_document_date": "2025-05-23",
+        "capture_utc": "2026-11-05T16:32:23.740093Z",
+        "locator": "chapter 85 PDF page 1 sections 1-3; page 2 continuation and emergency clause"
+      }
+    ],
+    "rationale": "Chapter adds a geographically and historically qualified distribution exception to utility definition; it does not apply if more than 25% of entity nameplate capacity serves data centers on that site. Original statewide generation cap was replaced. Correction: Add ISO-New England control area, municipality north of Chester, pre-2019 historic service condition and on-site qualification.",
+    "followup": "Revalidate all 19 guards and check later amendments/court actions; do not construe the exception as a universal electricity cap."
+  }
+]

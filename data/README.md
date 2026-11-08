@@ -7,7 +7,7 @@ Canonical records and reproducible derived downloads for this project.
 | File | What it is | Size | Format |
 |------|------------|------|--------|
 | [`moratorium_inventory.csv`](moratorium_inventory.csv) | 1330 local-moratorium records. **Start here.** | 1,697,150 bytes | CSV |
-| [`state_legislation.csv`](state_legislation.csv) | 447 state-policy records; mechanisms and legal effects vary | 304,797 bytes | CSV |
+| [`state_legislation.csv`](state_legislation.csv) | 447 state-policy records; mechanisms and legal effects vary | 305,222 bytes | CSV |
 | [`state_policy_scope_reviews.jsonl`](state_policy_scope_reviews.jsonl) | Reviewed analytical scope decisions; historical policy rows retained, no automatic filtering | 1,744 bytes | JSONL |
 | [`summary_stats.json`](summary_stats.json) | Top-level aggregates (counts by state, by status, etc.) | 14,786 bytes | JSON |
 | [`structured_extractions.jsonl`](structured_extractions.jsonl) | 864 lines: 526 successful clause extractions + 338 LLM-call errors retained for transparency | ~2 MB | JSONL |

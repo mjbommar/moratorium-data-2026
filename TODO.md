@@ -2,6 +2,8 @@
 
 Plan: [Research modernization and ballot-measure expansion](docs/research-and-ballot-expansion-plan.md).
 
+- [x] Review all six Maine policy records and apply six independently reviewed corrections; preserve current-force and later-history gaps. [Packet](work/research/2026-11-07/maine-policy-source-review/README.md).
+
 - [x] Review all thirteen Maryland policy records, apply 59 fields, reconcile three companion identities, and add the separately reviewed executive order; preserve all prior IDs and current-force gaps. [Packet](work/research/2026-11-07/maryland-policy-source-review/README.md).
 
 - [x] Record the reviewed research-data platform scope exclusion without deleting its frozen policy ID; validate explicit decision chains and active identity guards.

@@ -547,3 +547,10 @@ Pages run 42428476373 successfully deployed data commit `9331f7d820731286697336a
 
 
 The candidate built from `4b57b49e0d47ab830da9145cbc5ee9ad641dc380` also passed a fresh portable restore with network/process access and outside private-source reads disabled during replay. The restored scope registry validates its active decision; publication replay is already applied and legacy validation has zero errors ([receipt](../work/research/2026-11-07/maryland-policy-source-review/portable-release-check.json)). This is internal consistency of an unreleased preparation, not the final freshness/release gate. Frederick City's independent scope adjudication retains G-26-16 as a broader local-policy lead, not a new local development-permitting moratorium in the current census.
+
+
+### Maine source fields — November 7 local / November 8 UTC
+
+Applied six fields across three of six reviewed Maine policy records after 114 independent field decisions and 48 source body/text checks. Preserve the proposed section-specific repeal in vetoed LD 307; correct LD 713's public-law year and original versus amendment sponsors, and qualify its expansion-property coverage; preserve LD 912's geographic, control-area and historical utility qualifications. All 447 policy IDs remain; raw bill and enacted-bill rows remain 429 and 93. Nine source versions were newly archived and 24 selected native mappings verify with zero gaps. A successful response for the wrong instrument identity was excluded. The full build reports zero errors, 503 warnings and 68 matching prose numbers. Later law/current force and study-submission questions remain open.
+
+New York's four BESS records have independent recommendations, with whole-record force unresolved. Aurora's named original PDF was not found in the bounded stores checked; its original ledger has no fetch capacity. The retained extraction is not being promoted as verified original evidence. A separate source-gap and field adjudication remains underway.

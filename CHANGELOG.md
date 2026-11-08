@@ -2,6 +2,8 @@
 
 ## 2026-11-07 — current working snapshot (unreleased)
 
+The [Maine review](work/research/2026-11-07/maine-policy-source-review/README.md) applies six cells across three records after 114 independent field assessments. Correct a section-specific proposed repeal, session-law year, original/amendment sponsor roles, expansion-property coverage and utility-exception qualifications. All census totals and permanent IDs remain unchanged. Nine additional source versions and 24 native mappings preserve the evidence; current-force and study-submission gaps remain open.
+
 The [Maryland review](work/research/2026-11-07/maryland-policy-source-review/README.md) applies 59 fields across thirteen existing rows and adds three separately sourced Senate companions plus the governor's September 23 executive order. Raw policy rows become 447, bill-type rows 429 and enacted bill-type rows remain 93. Preserve all old IDs and distinct House/Senate outcomes; record a research-data platform scope exclusion separately without deleting its historical row or publishing adjusted totals. The governor order conditions state review and support; it is not a statewide moratorium or an enacted tax-exemption repeal.
 
 The [Lake Elsinore review](work/research/2026-11-07/lake-elsinore-record-review/README.md) applies seven cells after 26 independent assessments; the whole-record disposition remains unresolved. Preserve the clerk-certified October extension while qualifying original adoption, term and project identity; recompute verification annotations. The prior Pydoll capture identifies a different ordinance and cannot establish the original moratorium. Six source mappings pass native replay with zero gaps.
