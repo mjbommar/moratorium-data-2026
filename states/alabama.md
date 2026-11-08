@@ -28,7 +28,7 @@ State policy is tracked separately: **4 records** (4 typed bill rows) in [`state
 | Pinson | City | 2026-08-06 | data center | 🟢 Active |
 | Prichard | City | 2026-08 | data center | 🟢 Active |
 | Rogersville | Town | Unverified | data center | 🟡 Pending |
-| Somerville | Town | 2026-07 | data center, cryptocurrency mining | 🟢 Active |
+| Somerville | Town | Unverified | data center, cryptocurrency mining | 🟢 Active |
 | Springville | City | 2026-07-06 | data center | 🟢 Active |
 | Tarrant | City | 2026-09-08 | data center | 🟢 Active |
 | Westover | City | 2026-08-18 | data center | 🟢 Active |
@@ -215,7 +215,7 @@ State policy is tracked separately: **4 records** (4 typed bill rows) in [`state
 
 - **Type:** City
 - **Recorded status:** 🟢 Active
-- **Date enacted:** 2026-07-14 (Hueytown City Council unanimous roll-call adoption of Resolution 7499, per the approved July 14, 2026 minutes)
+- **Date enacted:** 2026-07-14 (Hueytown City Council unanimous roll-call adoption of Resolution 7499, per the signed, posted July 14 minutes).
 - **Normalized date:** `2026-07-14` (exact)
 - **Duration:** Not stated in the minutes; the signed Resolution 7499 text (term/expiration) was not located
 - **Current end date:** `—`
@@ -224,24 +224,24 @@ State policy is tracked separately: **4 records** (4 typed bill rows) in [`state
 - **Legal basis:** Resolution 7499, imposing a temporary moratorium on the acceptance and issuance of building permits, site plan approvals and special use permits for data center facilities (adopted 2026-07-14)
 - **What prompted it:** Proposed temporary moratorium on data center-classed facilities
 - **Affected projects:** —
-- **Detailed status:** Active as of 2026-09-23; Resolution 7499 was adopted unanimously on 2026-07-14 per the city's posted minutes. No rescission or later action appears in the posted July 28 through September 1 minutes or the August-September agendas; an August agenda notes the Planning and Zoning Commission is addressing data centers. The term and expiration are not stated in the minutes.
+- **Detailed status:** Recorded active as of 2026-09-23; Resolution 7499 was adopted unanimously on 2026-07-14 per the city's posted minutes. The legacy record reports no rescission or later action in the posted July 28 through September 1 minutes or the August-September agendas, and an August agenda notes the Planning and Zoning Commission is addressing data centers. The term and expiration are not stated in the July 14 minutes entry. [VERIFY historical later-action observations, operative text and current legal force.]
 - **Outcome:** —
 
 ### Leeds
 
 - **Type:** City
 - **Recorded status:** 🟢 Active
-- **Date enacted:** 2026-06-08 (Monday night), Leeds City Council, unanimous vote.
+- **Date enacted:** The legacy record reports a unanimous Leeds City Council vote on 2026-06-08. [VERIFY vote, date and original instrument.]
 - **Normalized date:** `2026-06-08` (exact)
-- **Duration:** One year from adoption (to approximately 2027-06-08).
+- **Duration:** News-Aegis reported a one-year Leeds data-center moratorium passed in June; the legacy record gives approximately 2027-06-08 as the end. [VERIFY original term, anchor and subsequent action.]
 - **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `al-leeds-2026`
-- **Legal basis:** Leeds City Council ordinance imposing a one-year moratorium on data center and other high-impact facility development, halting new permits and approvals (ordinance number not located).
-- **What prompted it:** No active data center project underway in Leeds at time of adoption; preemptive pause to allow the city to update zoning ordinances and gather public feedback, amid a wider wave of Alabama municipalities (Birmingham, Homewood, and later Pinson) considering similar pauses.
-- **Affected projects:** None pending at time of adoption.
-- **Detailed status:** Active as of 2026-07-31 (expires approximately 2027-06-08). [VERIFY instrument number; primary source (news-only evidence) not confirmed at confidence 0.65 in the 2026-07 refresh]
-- **Outcome:** City Council unanimously adopted a one-year moratorium halting new data-center permits and approvals.
+- **Legal basis:** News-Aegis reported that Leeds passed a one-year data-center moratorium in June. The legacy record describes a Leeds ordinance covering data centers and other high-impact facility development and new permits and approvals. [VERIFY instrument, number and exact scope.]
+- **What prompted it:** The legacy record describes a preemptive pause for zoning updates and public feedback, with no active data-center project at adoption, amid similar proposals in Birmingham, Homewood and later Pinson. [VERIFY these historical details.]
+- **Affected projects:** The legacy record reports no pending projects at adoption. [VERIFY project status; an identification limit does not establish absence.]
+- **Detailed status:** Recorded active as of 2026-07-31 (legacy approximate end 2027-06-08). News-Aegis reported a one-year Leeds data-center moratorium passed in June. [VERIFY instrument, anchor, later actions and current legal force.]
+- **Outcome:** News-Aegis reported that Leeds passed a one-year data-center moratorium in June; a June 23 Cullman resolution recital also describes a one-year Leeds moratorium. The legacy record reports unanimous adoption and a halt to new data-center permits and approvals. [VERIFY vote and exact scope.]
 
 ### Morgan County
 
@@ -256,7 +256,7 @@ State policy is tracked separately: **4 records** (4 typed bill rows) in [`state
 - **Legal basis:** Morgan County Commission Resolution 26-302, 'Resolution Establishing Temporary One-Year Moratorium on All Property Development, Construction, and Operation of Data Center Campuses and Similar High-Impact Facilities in the Unincorporated Residential Areas of Morgan County' (adopted 2026-06-23, effective immediately)
 - **What prompted it:** Pause targeted at the proposed 50 MW VoltCore Bitcoin-mining facility near Union Road and the Stringer watershed near Somerville, following resident petitions (more than 450 signatures reported by the vote)
 - **Affected projects:** Proposed VoltCore 50 MW Bitcoin-mining facility near Union Road/Stringer watershed, Somerville
-- **Detailed status:** Active as of 2026-09-23 on paper: Resolution 26-302 was adopted unanimously on 2026-06-23 and runs to 2027-06-23. County officials said in August 2026 that it is unenforceable because the county has no zoning authority (County Attorney: 'There's no method for us to enforce a moratorium'); utility-locate work for the proposed Sovereign Gazelle/VoltCore bitcoin mine on Union Road has proceeded.
+- **Detailed status:** Recorded active as of 2026-09-23 on paper: Resolution 26-302 was adopted unanimously on 2026-06-23, effective immediately, with an original one-year term to 2027-06-23 unless extended or repealed. The legacy record reports that county officials said in August 2026 that it was unenforceable because the county has no zoning authority (County Attorney: 'There's no method for us to enforce a moratorium'); utility-locate work for the proposed Sovereign Gazelle/VoltCore bitcoin mine on Union Road reportedly proceeded. [VERIFY those historical accounts, later actions and current legal force.]
 - **Outcome:** —
 
 ### Pinson
@@ -272,7 +272,7 @@ State policy is tracked separately: **4 records** (4 typed bill rows) in [`state
 - **Legal basis:** Pinson City Council moratorium (described as an ordinance with a July 16 first reading by AL.com and as a resolution by the city's outside counsel; number not located)
 - **What prompted it:** Proactive; time to define 'hyper/mega' data centers and write zoning regulations; concerns about power, water and noise seen in western Jefferson County.
 - **Affected projects:** None identified.
-- **Detailed status:** Active as of 2026-09-23; one-year moratorium on new data-center proposals approved 2026-08-06.
+- **Detailed status:** Recorded active as of 2026-09-23; the Trussville Tribune reported approval of a one-year moratorium on new data-center proposals at the first August 2026 council meeting. [VERIFY adopted instrument, later actions and current legal force.]
 - **Outcome:** One-year moratorium adopted.
 
 ### Prichard
@@ -302,8 +302,8 @@ State policy is tracked separately: **4 records** (4 typed bill rows) in [`state
 - **Sectors:** data center
 - **Moratorium ID:** `al-rogersville-undated`
 - **Legal basis:** Proposed Rogersville Town Council ordinance (first reading July 2026; number not located)
-- **What prompted it:** Severe water-capacity shortage (the water board already bars new meters); the town wants a pause in place before water access resumes.
-- **Affected projects:** None.
+- **What prompted it:** Prior research links the proposed pause to water-capacity constraints and restrictions on new meters; the legacy record also says the town wanted the pause in place before water access resumes. Original reporting and these stated rationales have not been independently verified.
+- **Affected projects:** None identified in this bounded review; the original reports and any affected-project inventory were not independently verified.
 - **Detailed status:** Pending in the September 2026 record; prior research transcribes an AL.com report of no vote as of September 18. The article body, subsequent action and current status were not independently established in this review. [VERIFY original report and subsequent council action]
 - **Outcome:** Proposal reported; adoption or other final action after September 18, 2026 unverified.
 
@@ -311,16 +311,16 @@ State policy is tracked separately: **4 records** (4 typed bill rows) in [`state
 
 - **Type:** Town
 - **Recorded status:** 🟢 Active
-- **Date enacted:** On or about 2026-07-07, per 1819News and Yahoo/local-TV reporting of the Town Council vote
-- **Normalized date:** `2026-07` (month_only)
+- **Date enacted:** Date disputed in retained reports: 1819 News on July 8 describes a Tuesday vote, while TechRadar reports June 30, 2026. The official vote date is unverified.
+- **Normalized date:** `—` (unverified)
 - **Duration:** Reported 18-month moratorium on data centers within town limits
 - **Current end date:** `—`
 - **Sectors:** data center, cryptocurrency mining
 - **Moratorium ID:** `al-somerville-2026`
 - **Legal basis:** Town Council ordinance/resolution (instrument not located; official town website could not be retrieved due to an SSL certificate mismatch)
 - **What prompted it:** Pause following resident opposition to a proposed Bitcoin-mining facility near Union Road
-- **Affected projects:** Proposed VoltCore-related Bitcoin-mining facility near Union Road, Somerville
-- **Detailed status:** Active as of 2026-09-23 per local reporting; the Somerville Town Council approved an 18-month moratorium on data centers within town limits (1819 News, published 2026-07-08, reports the vote 'on Tuesday', i.e. 2026-07-07). The proposed Sovereign Gazelle/VoltCore bitcoin mine is at 369 Union Road just outside town limits, and utility-locate work there proceeded in August. [VERIFY] [VERIFY instrument number; primary source (news-only evidence) not confirmed at confidence 0.45 in the 2026-07 refresh]
+- **Affected projects:** Proposed VoltCore-related Bitcoin-mining facility near Union Road, Somerville; TechRadar reports the site outside town limits. Whether the town measure legally affected it is unverified.
+- **Detailed status:** Recorded active as of 2026-09-23 per the legacy dataset; WHNT and 1819 News report approval of an 18-month moratorium within town limits. The July 8 1819 News report says the vote was Tuesday; TechRadar reports June 30. The legacy record places the proposed Sovereign Gazelle/VoltCore bitcoin mine at 369 Union Road outside town limits and reports August utility-locate work. [VERIFY vote date, project details, original instrument, later actions and current legal force.]
 - **Outcome:** —
 
 ### Springville
@@ -335,8 +335,8 @@ State policy is tracked separately: **4 records** (4 typed bill rows) in [`state
 - **Moratorium ID:** `al-springville-2026`
 - **Legal basis:** Springville City Council one-year moratorium on consideration and approval of data center proposals (instrument number not located)
 - **What prompted it:** Proactive, following community concern that Commerce Park development might be a data center (county said no); gives the planning and zoning commission time to draft regulations.
-- **Affected projects:** None; officials said no project is in the pipeline.
-- **Detailed status:** Active as of 2026-09-23 per local reporting; one-year moratorium adopted 2026-07-06.
+- **Affected projects:** None identified; officials said no project was in the pipeline when the July 2026 action was reported.
+- **Detailed status:** Recorded active as of 2026-09-23 per the legacy dataset; local news reported a one-year moratorium adopted 2026-07-06. [VERIFY original instrument, later actions and current legal force.]
 - **Outcome:** One-year moratorium adopted.
 
 ### Tarrant

@@ -2,6 +2,8 @@
 
 Plan: [Research modernization and ballot-measure expansion](docs/research-and-ballot-expansion-plan.md).
 
+- [x] Apply 20 independently adjudicated substantive cells across seven Alabama records and recompute ten verification cells after nine-record full-row review; preserve six rejected changes, including Morgan’s supported original endpoint and Prichard’s 180-day encoding ([packet](work/research/2026-11-08/alabama-batches3to5-reconciliation/README.md)). Full freshness/current force remain open.
+
 - [x] Apply five independently adjudicated Fairfield/Foley/Harpersville prose cells under full-row guards, recompute verification metadata, and preserve the rejected Cullman deletion ([packet](work/research/2026-11-08/alabama-field-reconciliation/README.md)). Effective dates, current force and complete freshness remain held.
 
 - [x] Apply independently reviewed El Dorado unofficial-label and Emporia proposed-text availability corrections, preserving prior records and all vote totals ([packet](work/research/2026-11-07/el-dorado-emporia-corrections/README.md)).

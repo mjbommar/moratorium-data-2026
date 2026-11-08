@@ -1,0 +1,41 @@
+{
+  "verified_at": "2026-11-08T12:55:05.205619+00:00",
+  "source_commit": "7a89a748eee44c207c63b9493a6b59ceb334c9f6",
+  "scope": "Portable consistency checkpoint at the pinned source commit, before subsequent Alabama batches3-5 corrections. Not a final release, current freshness acceptance or proof all consumers integrated.",
+  "bundle": {
+    "manifest_sha256": "f3d3f4796a8e5ea68c6e2d40948bb1e04ea1fc9cd693d46efaadc607b3d56307",
+    "archive_sha256": "e04b560d23120a12b9bd09cbd9b70253b4f3731d40e0f76a8f5ff9b0005e8ee2",
+    "archive_bytes": 32248123,
+    "verified_members": 1327,
+    "generations_checked": 43,
+    "policy_scope_exports": {
+      "status": "verified",
+      "outputs": 4,
+      "summary": "verified"
+    },
+    "legacy_validation": {
+      "as_of": "2026-11-08",
+      "errors": 0,
+      "warnings": 505
+    }
+  },
+  "handoff": {
+    "state": "created",
+    "manifest_sha256": "5eb3753a0bdf090731cee9df8d75f85feaa3d12efec9df7a6dcd9ca68e21cb34",
+    "files": 1387,
+    "entries": 1513,
+    "published_tree_inventory_hash_verified": true,
+    "current_counts": {
+      "moratorium_records": 1330,
+      "state_policy_records": 447,
+      "ballot_measures": 53,
+      "retained_results": 61,
+      "current_results": 50,
+      "retained_events": 10,
+      "current_accepted_historical_events": 10,
+      "restriction_records": 2,
+      "measure_instrument_link_records": 1
+    }
+  },
+  "interruption_note": "The original restore and export processes ended without terminal results. Their partial artifacts remain retained. Separate offline recovery attempts completed successfully; no paid trial namespace or provider budget was reset."
+}

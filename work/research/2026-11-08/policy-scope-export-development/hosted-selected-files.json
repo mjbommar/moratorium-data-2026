@@ -1,0 +1,82 @@
+{
+  "observed_at": "2026-11-08T05:43:25.438362+00:00",
+  "commit": "7a89a748eee44c207c63b9493a6b59ceb334c9f6",
+  "pages_run": 42451726616,
+  "pages_conclusion": "success",
+  "base_url": "https://mjbommar.github.io/moratorium-data-2026/",
+  "scope": "These eight selected hosted files only; not final release or seven-consumer acceptance.",
+  "files": [
+    {
+      "path": "data/policy-scope/all-annotated.csv",
+      "status": 200,
+      "sha256": "63cf85ef7367d28529f6fe02c5b0c9d43db51ef46a818e5aff8221f5e8c644bb",
+      "expected_sha256": "63cf85ef7367d28529f6fe02c5b0c9d43db51ef46a818e5aff8221f5e8c644bb",
+      "bytes": 316308,
+      "expected_bytes": 316308,
+      "matches": true
+    },
+    {
+      "path": "data/policy-scope/reviewed-included.csv",
+      "status": 200,
+      "sha256": "f57c876bd7f97163dcbafd0e90415257c08133d84134ceb56a388831691da1f8",
+      "expected_sha256": "f57c876bd7f97163dcbafd0e90415257c08133d84134ceb56a388831691da1f8",
+      "bytes": 319,
+      "expected_bytes": 319,
+      "matches": true
+    },
+    {
+      "path": "data/policy-scope/not-explicitly-excluded-candidates.csv",
+      "status": 200,
+      "sha256": "c76fe01ce33b4da9c67ad1fcb9aa97459791ef37dd3b4ff641c534e858258e64",
+      "expected_sha256": "c76fe01ce33b4da9c67ad1fcb9aa97459791ef37dd3b4ff641c534e858258e64",
+      "bytes": 315520,
+      "expected_bytes": 315520,
+      "matches": true
+    },
+    {
+      "path": "data/policy-scope/receipt.json",
+      "status": 200,
+      "sha256": "da5c275ca3e353e72da3cda309d543d4ea3874500b0ca400948ca058e3af0100",
+      "expected_sha256": "da5c275ca3e353e72da3cda309d543d4ea3874500b0ca400948ca058e3af0100",
+      "bytes": 14434,
+      "expected_bytes": 14434,
+      "matches": true
+    },
+    {
+      "path": "data/summary_stats.json",
+      "status": 200,
+      "sha256": "e35cda28ef8c8b500196ddbf9a5c6a8a29553b85bb534cec58f0053dc4d62fea",
+      "expected_sha256": "e35cda28ef8c8b500196ddbf9a5c6a8a29553b85bb534cec58f0053dc4d62fea",
+      "bytes": 15298,
+      "expected_bytes": 15298,
+      "matches": true
+    },
+    {
+      "path": "data/index.html",
+      "status": 200,
+      "sha256": "6a5a8bcdba9ccec1215e88105aecf8582c769b11aa129279f73bbafd86acd641",
+      "expected_sha256": "6a5a8bcdba9ccec1215e88105aecf8582c769b11aa129279f73bbafd86acd641",
+      "bytes": 19940,
+      "expected_bytes": 19940,
+      "matches": true
+    },
+    {
+      "path": "docs/policy-scope-exports.html",
+      "status": 200,
+      "sha256": "7c72670cb02a8dde323cab2c5cb8f0c59f631043b83185fa41d474035d6feb9c",
+      "expected_sha256": "7c72670cb02a8dde323cab2c5cb8f0c59f631043b83185fa41d474035d6feb9c",
+      "bytes": 8328,
+      "expected_bytes": 8328,
+      "matches": true
+    },
+    {
+      "path": "states/maryland.html",
+      "status": 200,
+      "sha256": "b9116f31db8429febd691db5283c917ee88f511dcd88e815ca255685c51462fa",
+      "expected_sha256": "b9116f31db8429febd691db5283c917ee88f511dcd88e815ca255685c51462fa",
+      "bytes": 54546,
+      "expected_bytes": 54546,
+      "matches": true
+    }
+  ]
+}
