@@ -139,6 +139,7 @@ def replay(root):
                 ids = {row['moratorium_id'] for row in csv.DictReader(f)}
             legacy = len(module.load_aliases(moratoria, ids))
         legacy_validation = None
+        policy_scope_reviews = None
         if (root / 'scripts/validate_dataset.py').is_file():
             validator = importlib.import_module('validate_dataset')
             require(Path(validator.__file__).resolve().is_relative_to(root), 'Dataset validator imported outside restore')
@@ -149,10 +150,16 @@ def replay(root):
             today = dt.date.today()
             validator.check_inventory(inv, inv_cols, today, report)
             validator.check_legislation(leg, leg_cols, report)
+            scope_path = root / 'data/state_policy_scope_reviews.jsonl'
+            if scope_path.is_file():
+                require((root / 'scripts/policy_scope_reviews.py').is_file(), 'Policy scope validator missing')
+                scope_validator = importlib.import_module('policy_scope_reviews')
+                require(Path(scope_validator.__file__).resolve().is_relative_to(root), 'Policy scope validator imported outside restore')
+                policy_scope_reviews = len(scope_validator.load_reviews(scope_path, leg))
             validator.check_summary_stats(inv, leg, stats, report)
             require(report.ok, 'Restored legacy dataset failed validation: ' + repr(report.errors))
             legacy_validation = {'as_of': today.isoformat(), 'errors': len(report.errors), 'warnings': len(report.warnings)}
-        return {'publication': checked, 'replay': result, 'csv_generation': generation, 'csv_outputs': len(outputs), 'legacy_aliases': legacy, 'legacy_validation': legacy_validation}
+        return {'publication': checked, 'replay': result, 'csv_generation': generation, 'csv_outputs': len(outputs), 'legacy_aliases': legacy, 'legacy_validation': legacy_validation, 'policy_scope_reviews': policy_scope_reviews}
     finally:
         active[0] = False
         os.chdir(old_cwd)

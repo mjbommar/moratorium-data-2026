@@ -26,6 +26,7 @@ class ReleaseSelectionTest(unittest.TestCase):
             'scripts/validate_dataset.py', 'scripts/build_summary_stats.py',
             'scripts/legacy_moratorium_identity.py', 'scripts/preview_legacy_identity.py',
             'data/sweep_coverage.json', 'states/alabama.md',
+            'data/state_policy_scope_reviews.jsonl', 'scripts/policy_scope_reviews.py',
         }
         self.assertTrue(expected <= self.selected, expected - self.selected)
         self.assertTrue(set(builder.PUBLIC_NOV7_METADATA) <= self.selected)
