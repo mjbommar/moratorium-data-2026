@@ -1,0 +1,70 @@
+{
+  "checked_at": "2026-11-08T02:10:38.547455+00:00",
+  "commit": "0a3860bbc7d62151c02d58d965c48e4352c9b7b2",
+  "pages_run": 42437242720,
+  "pages_conclusion": "success",
+  "base_url": "https://mjbommar.github.io/moratorium-data-2026/",
+  "files": [
+    {
+      "path": "data/moratorium_inventory.csv",
+      "status": 200,
+      "sha256": "2c168bc87dc52320aac2d335e17475de43a7d31e6a6b7c76cbfe08944af9e31c",
+      "bytes": 1697371,
+      "expected_sha256": "2c168bc87dc52320aac2d335e17475de43a7d31e6a6b7c76cbfe08944af9e31c",
+      "expected_bytes": 1697371,
+      "matches": true,
+      "observed_at": "2026-11-08T02:10:32.949730Z"
+    },
+    {
+      "path": "data/state_legislation.csv",
+      "status": 200,
+      "sha256": "a7a922782673a03ff4141e5ebbc86a08264174a701dbee705a9c0f746b2c465f",
+      "bytes": 311312,
+      "expected_sha256": "a7a922782673a03ff4141e5ebbc86a08264174a701dbee705a9c0f746b2c465f",
+      "expected_bytes": 311312,
+      "matches": true,
+      "observed_at": "2026-11-08T02:10:34.047864Z"
+    },
+    {
+      "path": "data/state_policy_scope_reviews.jsonl",
+      "status": 200,
+      "sha256": "5e23a040090e8b9e487ef179d7d45f618edc4ee00850a5bc5c705b847f398803",
+      "bytes": 1744,
+      "expected_sha256": "5e23a040090e8b9e487ef179d7d45f618edc4ee00850a5bc5c705b847f398803",
+      "expected_bytes": 1744,
+      "matches": true,
+      "observed_at": "2026-11-08T02:10:35.097866Z"
+    },
+    {
+      "path": "data/summary_stats.json",
+      "status": 200,
+      "sha256": "e22dff524f1c2754418eb65f7469597d4e03b1c4ba627d2bdf6abeaff0245fd1",
+      "bytes": 14786,
+      "expected_sha256": "e22dff524f1c2754418eb65f7469597d4e03b1c4ba627d2bdf6abeaff0245fd1",
+      "expected_bytes": 14786,
+      "matches": true,
+      "observed_at": "2026-11-08T02:10:36.122564Z"
+    },
+    {
+      "path": "states/minnesota.html",
+      "status": 200,
+      "sha256": "1b54ff56fce02814cc5f9ce8b6ad5f3856e0852988d93aef7761c20bf99f5fda",
+      "bytes": 65395,
+      "expected_sha256": "1b54ff56fce02814cc5f9ce8b6ad5f3856e0852988d93aef7761c20bf99f5fda",
+      "expected_bytes": 65395,
+      "matches": true,
+      "observed_at": "2026-11-08T02:10:37.203719Z"
+    },
+    {
+      "path": "index.html",
+      "status": 200,
+      "sha256": "e68bd4f407d762d43bacef97455ce01c823684d34acacb199b57b39c63360034",
+      "bytes": 39407,
+      "expected_sha256": "e68bd4f407d762d43bacef97455ce01c823684d34acacb199b57b39c63360034",
+      "expected_bytes": 39407,
+      "matches": true,
+      "observed_at": "2026-11-08T02:10:38.438217Z"
+    }
+  ],
+  "scope": "Six selected actual deployed responses only, not whole-site or final release attestation."
+}
