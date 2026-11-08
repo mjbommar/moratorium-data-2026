@@ -1,0 +1,72 @@
+{
+  "source_commit": "251e3fd1a943874965a5c47590b5e962c32a09f1",
+  "observed_at": "2026-11-08T20:57:50.193685+00:00",
+  "pages_run_id": 42522615525,
+  "pages_run_conclusion": "success",
+  "scope": "Seven selected hosted scope/summary files only; not final release, complete freshness or all consumers.",
+  "observations": [
+    {
+      "path": "data/policy-scope/all-annotated.csv",
+      "url": "https://mjbommar.github.io/moratorium-data-2026/data/policy-scope/all-annotated.csv",
+      "status": 200,
+      "expected_sha256": "2a0cdf894ff5de5023de6304bc3ce37a3fe8e033458b1c6979c612171e37572b",
+      "observed_sha256": "2a0cdf894ff5de5023de6304bc3ce37a3fe8e033458b1c6979c612171e37572b",
+      "matches_source": true,
+      "bytes": 319878
+    },
+    {
+      "path": "data/policy-scope/reviewed-included.csv",
+      "url": "https://mjbommar.github.io/moratorium-data-2026/data/policy-scope/reviewed-included.csv",
+      "status": 200,
+      "expected_sha256": "b4d0f1364224346dbd90ad44967a96764b5b5e0ff019a33f1ae58337f8c4d6de",
+      "observed_sha256": "b4d0f1364224346dbd90ad44967a96764b5b5e0ff019a33f1ae58337f8c4d6de",
+      "matches_source": true,
+      "bytes": 36232
+    },
+    {
+      "path": "data/policy-scope/not-explicitly-excluded-candidates.csv",
+      "url": "https://mjbommar.github.io/moratorium-data-2026/data/policy-scope/not-explicitly-excluded-candidates.csv",
+      "status": 200,
+      "expected_sha256": "fe192e68bd2a02a04127eb4e82ef231b4363aa0b654a9a1c96222f31b8d8f58c",
+      "observed_sha256": "fe192e68bd2a02a04127eb4e82ef231b4363aa0b654a9a1c96222f31b8d8f58c",
+      "matches_source": true,
+      "bytes": 318085
+    },
+    {
+      "path": "data/policy-scope/receipt.json",
+      "url": "https://mjbommar.github.io/moratorium-data-2026/data/policy-scope/receipt.json",
+      "status": 200,
+      "expected_sha256": "7ceb01f0958adf13e5e1e7720da4b5b8c691e934a1ffa3a0b29cb60319eaebdc",
+      "observed_sha256": "7ceb01f0958adf13e5e1e7720da4b5b8c691e934a1ffa3a0b29cb60319eaebdc",
+      "matches_source": true,
+      "bytes": 14447
+    },
+    {
+      "path": "data/state_policy_scope_reviews.jsonl",
+      "url": "https://mjbommar.github.io/moratorium-data-2026/data/state_policy_scope_reviews.jsonl",
+      "status": 200,
+      "expected_sha256": "dadedfd8c76d06fe55f2ca9a5b7597ec19a83ef9de7bd0f85d50fb4a580fa8ed",
+      "observed_sha256": "dadedfd8c76d06fe55f2ca9a5b7597ec19a83ef9de7bd0f85d50fb4a580fa8ed",
+      "matches_source": true,
+      "bytes": 66729
+    },
+    {
+      "path": "data/summary_stats.json",
+      "url": "https://mjbommar.github.io/moratorium-data-2026/data/summary_stats.json",
+      "status": 200,
+      "expected_sha256": "1714db95d41d6b3a54f7967ba59186d4269163081b97125a6c30e49d8aa9115f",
+      "observed_sha256": "1714db95d41d6b3a54f7967ba59186d4269163081b97125a6c30e49d8aa9115f",
+      "matches_source": true,
+      "bytes": 15299
+    },
+    {
+      "path": "docs/policy-scope-exports.html",
+      "url": "https://mjbommar.github.io/moratorium-data-2026/docs/policy-scope-exports.html",
+      "status": 200,
+      "expected_sha256": "665d170e36240e804d771ee6090915207e4b35f6ef0fd71d7b2a6135ce7b72a8",
+      "observed_sha256": "665d170e36240e804d771ee6090915207e4b35f6ef0fd71d7b2a6135ce7b72a8",
+      "matches_source": true,
+      "bytes": 8749
+    }
+  ]
+}

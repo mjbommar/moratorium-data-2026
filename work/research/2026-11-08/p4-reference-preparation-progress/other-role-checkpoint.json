@@ -1,0 +1,34 @@
+{
+  "observed_at": "2026-11-08T20:59:46.465418+00:00",
+  "worker_counts": {
+    "candidates": 4,
+    "role_suitable_candidates": 3,
+    "role_ineligible": 1,
+    "eligible_sample_certified": 0,
+    "held_for_custodian": 3,
+    "included_units": 26,
+    "included_slots": 29,
+    "excluded_case_preserved_provisional_units": 13
+  },
+  "coordinator_reference_readback": {
+    "cases": 4,
+    "units": 39,
+    "slots": 42,
+    "literal_unicode_and_utf8_byte_locators": 58,
+    "result": "passed"
+  },
+  "artifact_sha256": {
+    "source-review.private.json": "4690c3f3fd59e8e8ca8eb5b83eba9ba0d7f8e3935d6ed22ee3792b0330c1498e",
+    "references.private.json": "d7cc0a58d31a5d98c4a723955cc63f0ccf34dae188eb681e5ee91bae490ecca9",
+    "plans.private.json": "b201de580732ec89cae623fd5fedd9cb42d08ad36cd85ffdb88be2a3d081d405",
+    "verification.private.json": "96865c22ea037afa210fb6e7c6bf6c03025c16f083570b964ad41814cee86db7",
+    "report.md": "c127ec91c4ba4bc159858ee7f4239a7c72743d3b4a931dfe8df22fddc71a72ca"
+  },
+  "limits": [
+    "No source identities or quotes published.",
+    "Mechanical verification does not independently establish semantic completeness.",
+    "Three candidates remain held for custodian review; no sample certified.",
+    "One original body contains 14 timeline entries absent from pinned model input; those issues remain separate.",
+    "No model API trial, spend authorization or P4 pass."
+  ]
+}

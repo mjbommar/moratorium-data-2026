@@ -109,17 +109,16 @@ queues, consumer obligations and final-release verification remain in scope.
 
 The [offline verification](../work/research/2026-11-08/national-discovery-proposal/verification.json) records 27 passing tests and the fix for the independent interrupted-seal finding. Source admission verifies the actual completed result and retained search evidence, not merely the existence of a marker. The current exact plan and actual configured settings validate against a newly pinned private contract; the earlier integration example is deliberately not reused.
 
-After authorization, the coordinator can use the existing adapter with the pinned contract, explicit pricing and pacing settings:
+The original execution command and its contract are **retired for dispatch**:
+they bind the superseded 600-cell sweep. Their private historical files remain
+unchanged for audit, but must not be used to consume the approved ceiling.
+The [reuse decision](../work/research/2026-11-08/nationwide-discovery-reuse/README.md)
+admits zero new broad queries. No paid search phase was created.
 
-```sh
-BC_WEB_SERPAPI_COST_PER_SEARCH=0.01 BC_WEB_SERPAPI_RATE_PER_HOUR=2700 \
-BC_WEB_RETRIES=0 BC_WEB_SEARCH_THROTTLE_RETRIES=0 \
-/home/mjbommar/projects/bc/bc-modules/.venv/bin/python3.14 \
-  scripts/search_refresh_batch.py \
-  work/research/2026-11-08/national-discovery-proposal/plan.json \
-  --budget-contract /data0/moratorium-refresh-2026/process-reset-2026-11-08/discovery-budget-preparation/proposed-budget-contract.private.json \
-  --budget-sha256 a1989306cdb543171dd483bced959cd0a9d3b78f00c078bd5f250be4b740da2d \
-  --execute /data0/moratorium-refresh-2026/nationwide-discovery-phase-2026-11-08
-```
-
-This command is prepared, not executed. The coordinator must recheck the exact pins, current account/quota and effective settings before dispatch, preserve every reservation, and inspect an interrupted handle rather than restart the run. A later code/settings change requires a new reviewed contract; authorization of the stated allocation does not permit erasing prior spend.
+Specific source recovery may proceed within the approved source ceiling using a
+separate, explicitly source-only journal: zero search/model calls, persistent
+fetch reservations, HTTP before Pydoll, at most 20 Pydoll attempts and two browser
+contexts. Its queue must identify actual retained leads, previous acquisitions
+and the missing question before dispatch. Reuse existing body/text versions first;
+record every new acquisition separately from its source event and the November 7
+research target. This does not reset or borrow any prior namespace's budget.
