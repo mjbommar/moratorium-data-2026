@@ -7,3 +7,6 @@ The city is distinct from Frederick County. The news report describes council pa
 The original `md-inventory-001` ledger had 17 of 24 fetch reservations used. Five worker calls and two coordinator calls used the seven remaining reservations; all returned HTTP 200. The original eight Exa and eight SerpAPI searches were already exhausted and were not reused or reset. The last two calls followed exact agenda and attachment links discovered in the first five. No new namespace or expanded cap was created.
 
 This is a concrete new-discovery/source packet, not a complete city legal-history review, national refresh or release. The final adopted instrument, vote record, mayoral action and later history remain open.
+
+
+The completed independent review and coordinator [scope adjudication](scope-adjudication.json) exclude this draft from the current local inventory, including its pending category: the operative temporary pause concerns legislative amendments, while the draft attributes the permit prohibition to existing zoning. The discovery remains a broader local-policy event lead. This is not a finding that the policy is insignificant, that the city did not act, or that no signed final exists. Final text or an explicitly reviewed scope-definition change may alter eligibility.
