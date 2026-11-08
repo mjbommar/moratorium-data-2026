@@ -1,5 +1,13 @@
 # November refresh closeout
 
+## November 8 complete policy-scope triage
+
+Source `bc0d3c6` is pushed and contains explicit scope dispositions for every one of the 447 raw policy observations: **374 included, 19 excluded, 54 unresolved, zero unreviewed**. The exploratory pool is 428 observations; these are not unique instruments or current-law findings. The [90-record wave](../work/research/2026-11-08/policy-scope-wave4-reconciliation/README.md) and [final 124-record wave](../work/research/2026-11-08/policy-scope-wave5-reconciliation/README.md) reuse retained evidence and preserve all raw CSV cells. Scope tests (17), deterministic exports and all 74 documented-number checks passed. Deployment is tracked separately from the pushed source.
+
+Canonical ballot totals remain **54 measures, 61 retained results and 50 current result observations over 49 measures**. Monroe and Sprigg additions remain private pending correction of election-page, acquisition-time and field-level claim provenance; their independently reviewed identities do not establish data-center restrictions or legal passage.
+
+The full release remains incomplete: per-record freshness reconciliation, P4 source/reference and evaluation gates, seven-consumer integration, final prose/citation/assets and downloaded release verification are still required. The dated checkpoints below record their own earlier states.
+
 ## November 8 notice-only publication and scope review
 
 The [Augusta notice-only publication](../work/research/2026-11-08/augusta-notice-publication/README.md) adds one source-backed question with unknown sector, lifecycle, result and ordinance linkage: **54 measure records**, with 61 retained / 50 current result observations and five current certified observations unchanged. Its possible overlap with the withheld Augusta frozen payload is explicit; do not add held payloads as disjoint contests. Two 90-record policy scope increments ([first](../work/research/2026-11-08/policy-scope-wave2-reconciliation/README.md), [second](../work/research/2026-11-08/policy-scope-wave3-reconciliation/README.md)) bring scope partitions to 201 included, seven excluded, 25 unresolved and 214 unreviewed, retaining all 447 raw IDs. Both increments are working checkpoints, not a final release or current-force census. The older dated sections below remain historical.
