@@ -1,0 +1,99 @@
+{
+  "scope": "Selected scoped copy/working-code delivery; not final seven-consumer closure, final data handoff, or full substantive site review",
+  "remote_refs": [
+    {
+      "repository": "michaelbommarito.com",
+      "branch": "main",
+      "verified_remote_commit": "6bfeae609f0c266c329e271c92140ecc95779af7"
+    },
+    {
+      "repository": "fightadatacenter.com",
+      "branch": "master",
+      "verified_remote_commit": "168bfd4f11d898136597c90568ea849c83509729"
+    },
+    {
+      "repository": "datacenter-data-integration",
+      "branch": "main",
+      "verified_remote_commit": "73146be81c0c78bcf870a3cce97ad78f25188739"
+    }
+  ],
+  "hosted": [
+    {
+      "url": "https://michaelbommarito.com/projects/moratorium-nation/",
+      "final_url": "https://michaelbommarito.com/projects/moratorium-nation/?copy-verification=20261108-final",
+      "observed_at": "2026-11-08T19:44:00.510614+00:00",
+      "status": 200,
+      "sha256": "ed0d903499cbbd7fad99e1c270bb2428742300eda0bcd8db4fb0996573e48af7",
+      "markers": {
+        "an August 2026 snapshot tracked 533 instruments across 42 states": true,
+        "Recorded as in force in snapshot": true
+      }
+    },
+    {
+      "url": "https://fightadatacenter.com/chapters/you-just-found-out/",
+      "final_url": "https://fightadatacenter.com/chapters/you-just-found-out/?copy-verification=20261108-final",
+      "observed_at": "2026-11-08T19:44:00.616060+00:00",
+      "status": 200,
+      "sha256": "117fd53d0e99e697a872628806b7293cce610ad73bacdaf2158f248e4da1bac2",
+      "markers": {
+        "A July 2026 survey documented 208 local data center moratorium actions across 34 states.": true
+      }
+    },
+    {
+      "url": "https://fightadatacenter.com/chapters/fight-on-every-front/",
+      "final_url": "https://fightadatacenter.com/chapters/fight-on-every-front/?copy-verification=20261108-final",
+      "observed_at": "2026-11-08T19:44:00.734633+00:00",
+      "status": 200,
+      "sha256": "7e65345a0e383cf331d9f75cf35c9e0440ad24408a45a244e64bde53864c04f0",
+      "markers": {
+        "208 across 34 states in a July 2026 survey": true
+      }
+    },
+    {
+      "url": "https://fightadatacenter.com/chapters/fight-at-city-hall/",
+      "final_url": "https://fightadatacenter.com/chapters/fight-at-city-hall/?copy-verification=20261108-final",
+      "observed_at": "2026-11-08T19:44:00.891878+00:00",
+      "status": 200,
+      "sha256": "6c12c56bfe1aed2f15050f79c751dbc4da9f9992c9b261287bd4b2ba6b3492da",
+      "markers": {
+        "A July 2026 survey documented 208 local data center moratorium actions across 34 states.": true
+      }
+    }
+  ],
+  "author_deployment": {
+    "app_id": "d5m6erxxkcjkr",
+    "job_id": "332",
+    "commit_id": "6bfeae609f0c266c329e271c92140ecc95779af7",
+    "status": "SUCCEED",
+    "steps": [
+      {
+        "stepName": "BUILD",
+        "status": "SUCCEED"
+      },
+      {
+        "stepName": "DEPLOY",
+        "status": "SUCCEED"
+      },
+      {
+        "stepName": "VERIFY",
+        "status": "SUCCEED"
+      }
+    ]
+  },
+  "local_builds": {
+    "author_site": {
+      "pages": 3799,
+      "log_sha256": "ed241b572edfe9f736849ccc592eb3057c42afe4911b20dc4efb3005e281575e"
+    },
+    "fight_site": {
+      "pages": 95,
+      "log_sha256": "3e249564c42e5dd667f95a70e947d18f8d6feabffece74615cbe9615dc19d727"
+    }
+  },
+  "prior_audit_artifact_sha256": {
+    "report.md": "b8da64d4ad18fa8c60bc724529c88958d9a8557276f4e1c0e9df6d3aae97f5e5",
+    "claim-to-output-matrix.md": "debc520c569f250454f87300c130eb62df22ac96ea14feb912625669aa7087cd",
+    "proposed-patches.md": "ccc6281686a484aaefe681e9ecbbd4b31914b86167fe555773f271c761cf2244",
+    "file-head-hashes.json": "8781cf9e5a6547f3b2834898284561bb003eb74346ef20b2a2ceb99679e48add"
+  }
+}

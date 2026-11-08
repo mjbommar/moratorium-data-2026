@@ -18,6 +18,28 @@ PINNED = {
 }
 
 
+def workload(context):
+    """Build the canonical pre-dispatch commitment for one attempt per unit."""
+    import extract_rule_units as rules
+    identity = context.get('model_identity', {})
+    if (set(identity) != {'model', 'native_wire_profile'} or
+            identity.get('native_wire_profile') != PROFILE or
+            not re.fullmatch(r'openai:[A-Za-z0-9][A-Za-z0-9._-]*', identity.get('model', '')) or
+            context.get('settings') != {}):
+        raise ValueError('unsupported prospective model profile or settings')
+    return {'schema_version': 'rule-unit-prospective-workload-1', 'context': context,
+            'dispatches': [{'unit_id': u['unit_id'], 'request_sha256': rules.digest(rules.request_for(u, context))}
+                           for u in context['plan']['units']]}
+
+
+def verify_workload(witness, anchor, context):
+    import extract_rule_units as rules
+    from native_rule_unit_journal_adapter import same_json
+    if (not isinstance(anchor, str) or not re.fullmatch(r'[0-9a-f]{64}', anchor) or
+            not same_json(witness, workload(context)) or rules.digest(witness) != anchor):
+        raise ValueError('missing, stale or invalid independently pinned workload anchor')
+
+
 def endpoint_contract(request):
     """Identify a normalized request address, not its original spelling or provider.
 

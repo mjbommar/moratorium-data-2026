@@ -73,8 +73,9 @@ namespace to bypass an exhausted allowance.
 
 The extractor and prospective audit both separate
 `boundary_output_accounting_complete` from `response_accounting_complete`.
-End-to-end completeness remains false pending a verified journal adapter and
-raw-to-boundary provenance. Known generated clauses, unknown cardinalities,
+In the earlier normalized bundle, end-to-end completeness remains false; the
+prospective native path below separately verifies journal and raw-to-boundary
+provenance. Known generated clauses, unknown cardinalities,
 failed/interrupted attempts and unattempted planned units remain visible. The
 blocked audit prints JSON evidence and exits nonzero; quality remains
 `not_scored`. Invoice reconciliation, semantic review, a frozen prospective
@@ -84,7 +85,7 @@ The preceding [capture development packet](../work/research/2026-11-07/controlle
 
 Independent verification accepted the bounded reader fixes after nine fresh synthetic replay scenarios. Seven offline suites passed 88 tests and 60 subtests; the coordinator reran those suites successfully. Retained-file consistency is deliberately separate from complete historical dispatch/output accounting. Unobserved work and unknown cardinality remain incomplete, observed counts are lower bounds, and CLI incompleteness exits nonzero. The workspace threat model is cooperative, not protection against a hostile owner rewriting history.
 
-End-to-end endpoint/wire verification, prospective audit integration, source/role semantics, and fresh frozen calibration/holdout remain required. These offline checks do not establish model quality or P4 acceptance.
+At that reader increment, endpoint/wire verification and prospective audit integration remained open. The prospective path below addresses those accounting checks for newly witnessed runs. Source/role semantics and fresh frozen calibration/holdout remain required. These offline checks do not establish model quality or P4 acceptance.
 
 The bounded endpoint/wire increment records `openai-official-responses-https-1`
 only when the observed, normalized `httpx2.Request` is POST over HTTPS to
@@ -121,4 +122,51 @@ or establish that the profile was obeyed before dispatch. Existing contexts that
 only identify the model lack a frozen model specification and SDK profile and
 cannot be retroactively verified. No complete historical or P4 claim follows.
 
-The [endpoint/wire development receipt](../work/research/2026-11-07/native-wire-contract-development/README.md) records independent acceptance of this bounded component and storage-test reconciliation. Ten selected offline suites passed 108 tests, with no failures, errors or reported skips. This supersedes the two obsolete storage-fixture failures as a current test result, while preserving their historical logs. The prospective witnessing, integration and semantic/holdout gates above remain open.
+The [endpoint/wire development receipt](../work/research/2026-11-07/native-wire-contract-development/README.md) records independent acceptance of this bounded component and storage-test reconciliation. Ten selected offline suites passed 108 tests, with no failures, errors or reported skips. This supersedes the two obsolete storage-fixture failures as a current test result, while preserving their historical logs. The subsequent prospective integration is described below; semantic and holdout gates remain open.
+
+## Prospective native trial witness
+
+For a new, unspent run, build the exact context with `extract_rule_units.prepare`
+using an explicit identity such as
+`{'model': 'openai:gpt-6.1-terra', 'native_wire_profile': 'native-rule-unit-default-spec-offline-1'}`
+and empty settings. `native_rule_unit_wire_contract.workload(context)` commits to
+that entire context and the ordered logical request hashes, one dispatch per
+unit. Independently retain and pin `extract_rule_units.digest(workload)` before
+dispatch; supply both the frozen workload and this independently held hash to
+`run(..., prospective_workload=workload, workload_sha256=hash, request_binding=controller.bind_request_descriptor)`.
+The caller must establish the independent pin before execution. A hash created
+only from a post-dispatch journal is not a prospective witness.
+
+The controller policy must use the context digest and a request cap equal to the
+number of planned units; `max_calls` must equal that count. The extractor checks
+the pinned SDKs, default native model spec, backend retries and request limit,
+resolved model and controlled client before touching the run state. It retains
+the witness before reserving a logical attempt, refuses to attach it to an
+existing history, requires it again on resume and does not retry a failed unit.
+The ordinary non-prospective interface remains available for historical work but
+cannot acquire a prospective witness after the fact. Failed and uncertain
+reservations remain charged. This profile's offline compatibility with
+`gpt-6.1-terra` is not a semantic evaluation or authorization to spend.
+
+For a quiescent run, invoke `audit_rule_unit_trial.py --run-dir RUN --http-dir
+HTTP --source-body BODY --witness WITNESS --anchor INDEPENDENT_SHA256
+--http-policy POLICY --capture-policy CAPTURE_POLICY`. The three JSON inputs and
+source body are owner-private files. The witness is the independently retained
+pre-dispatch object, not a reconstruction from the run. The native audit uses the
+read-only reader, matches the exact committed dispatch sequence and descriptor
+bindings, checks requested endpoint observations, compares each captured wire
+request with the existing pinned offline SDK serializer, and compares complete
+raw responses to boundary outputs. It reports observed lower bounds even when a
+check fails. The reader's historical-cardinality fields remain conservative;
+completion of this prospective trace is conditioned on the cooperative operator
+and independent pre-dispatch pin, not protection against a workspace owner
+rewriting all evidence. Audit a stopped/quiescent run; this is not a cross-file
+snapshot against concurrent mutation.
+
+The endpoint identifier observes a normalized requested address; it does not
+authenticate a provider, TLS peer, DNS or proxy. A successful accounting trace
+still returns quality `not_scored` and a nonzero CLI exit: source/role/condition
+semantics, independent review, the original frozen protocol and thresholds,
+fresh calibration and an unseen holdout remain required. The old failed and
+exposed VA work remains failed, exposed and spent; neither these offline checks
+nor a new profile establish P4 acceptance.

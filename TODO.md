@@ -23,13 +23,15 @@ precedence over its execution strategy. The initial 100-record Terra cohort has 
 
 ## Process-reset increments
 
+- [x] Deliver dated living-copy corrections to the author site and Fight a Data Center; verify remote refs, production builds and selected served markers, preserving historical editions and other consumer gaps ([delivery](work/research/2026-11-08/consumer-copy-delivery/README.md)).
+
 - [x] Apply 36 independently reviewed cells across 17 CA/PA/SC/WY policy records under 52-row guards; retain all 447 IDs and distinguish 426 bills from 12 resolutions ([receipt](work/research/2026-11-08/ca-pa-sc-wy-policy-reconciliation/README.md)).
 
 - [x] Index existing URL leads for 1,548 of 1,777 raw records; retain source-specific clocks and unresolved gaps. Routing coverage is not freshness acceptance.
 - [x] Generate 162 grouped worklists and reconcile ballot release accounting for 53 published measures plus five withheld frozen groups.
 - [x] Complete the first four 25-record retained-evidence cohorts; route eight material proposals for independent review. No cohort is fully freshness-accepted.
 - [x] Implement the state-policy consumer scope adapter and pass six coordinator tests; preserve 447 raw IDs, one explicit exclusion and 446 unreviewed research candidates.
-- [ ] Fix the independently reproduced prospective HTTP reservation ordering defect and re-review the correction.
+- [x] Fix and independently reproduce the prospective HTTP ordering correction; repair scorer findings and rerun 84 offline rule-unit tests. Full P4 remains not scored ([verification](work/research/2026-11-08/prospective-rule-unit-development/README.md)).
 - [ ] Independently validate the new protocol scorer, freeze an adequate fresh evaluation population, and complete the required P4 evaluation.
 - [x] Reconcile already-reviewed batches 9–14 with eight new-cohort records: apply 68 guarded cells across 20 records, preserving later corrections ([receipt](work/research/2026-11-08/combined-local-reconciliation/README.md)).
 

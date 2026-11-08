@@ -1,0 +1,41 @@
+{
+  "scope": "Offline prospective accounting and extraction-threshold development only; full P4 not scored",
+  "tests": {
+    "suite": "test_*rule_unit*.py",
+    "passed": 84,
+    "log_sha256": "2ee5212170508f57bca2c8ddfd1ec4ef4ec4935fdf2cc70a9118085010cdeb91",
+    "focused_scorer_tests_included": 20
+  },
+  "independent_original_http_probe": {
+    "status": "passed_after_fix",
+    "log_sha256": "af191325524446f079be445df31defad440282cc717676ca18e75e5bcf34aed8",
+    "observed_reservation_lower_bound_on_mismatch": 2
+  },
+  "independent_scorer_probe_rerun": {
+    "probe_count": 11,
+    "log_sha256": "25b6f721fc30054777829d1ee1c7117ab5946331417c70b8befb777bdc24f1a5",
+    "malformed_quote_container": {
+      "threshold": "not_scored",
+      "support_numerator": 0,
+      "support_denominator": 1
+    }
+  },
+  "code_sha256": {
+    "scripts/audit_rule_unit_trial.py": "b4d47d3a54a9745fb3153b6e2e0eb5b513db5c7e5a6de05737994d2489801aad",
+    "scripts/extract_rule_units.py": "77296415aec0eea95b9de7fd3b0b861c4a870d7e2840d1a8763e025a3f77dcf6",
+    "scripts/native_rule_unit_wire_contract.py": "665b282e8d80c0b88ceded0e828e7030609f4089a67472f3935bdb731e18dbd5",
+    "scripts/score_rule_unit_trial.py": "1d51886489c538e24eced1eb5793414df8bffc5ff962aead07022cad66919f72",
+    "tests/test_rule_unit_prospective_integration.py": "0b68ad8a1f1ae50c3b36edf431e3bc4beb93f75a80442dfbe8187f5f6582e78c",
+    "tests/test_rule_unit_trial_scoring.py": "b893b9cc3e109994cacfe2a7dde0ecf311cdebd1a07710f491b728cc3222ae40"
+  },
+  "review_artifacts_sha256": {
+    "p4-prospective-independent-review": "5e9b7d34811d19a72b025f91ca1ba646bfb27a2807a3fddde279e8a23a52f18d",
+    "p4-http-order-fix": "bc901e2249c623921a11d689a2f189b4340dd189a50245a338aa3146a9180d71",
+    "p4-scorer-independent-review": "11848ea609d0299bfecc16a9227a9f948dcd03f820952255e62b4056974f0776",
+    "p4-fixed-scorer-review": "e2518e302e43eb5644501920e4ab5cfd910c9eb3ed2c58e2f95a7fa0ef01b8c1"
+  },
+  "live_model_calls": 0,
+  "new_trial_authorized": false,
+  "p4_acceptance": "not_scored",
+  "historical_va_trial": "failed, exposed and spent; original caps preserved"
+}

@@ -340,13 +340,39 @@ def _write(path, value, policy):
 
 async def run(directory, doc, plan, *, backend, model_identity, today, max_calls, max_usd,
               reservation_usd, max_source_bytes, settings, role='extractor', storage_policy=None,
-              request_binding=None):
+              request_binding=None, prospective_workload=None, workload_sha256=None):
     from contextlib import nullcontext
     if request_binding is not None and not callable(request_binding):
         raise ValueError('request_binding must be a descriptor context-manager factory')
     context = prepare(doc, plan, model_identity=model_identity, today=today, max_calls=max_calls,
                       max_usd=max_usd, reservation_usd=reservation_usd, max_source_bytes=max_source_bytes,
                       role=role, settings=settings, storage_policy=storage_policy)
+    prospective = prospective_workload is not None or workload_sha256 is not None
+    if prospective:
+        from native_rule_unit_wire_contract import verify_workload, check_pins
+        from controlled_model_transport import ControlledModelTransport
+        from bc_llm import ModelSpec, PydanticAIBackend
+        verify_workload(prospective_workload, workload_sha256, context)
+        check_pins()
+        controller = getattr(request_binding, '__self__', None)
+        if (not isinstance(controller, ControlledModelTransport) or
+                getattr(request_binding, '__func__', None) is not ControlledModelTransport.bind_request_descriptor or
+                controller.policy['context_sha256'] != digest(context) or
+                controller.policy['max_requests'] != len(plan['units']) or
+                max_calls != len(plan['units'])):
+            raise ValueError('prospective controlled transport and exact dispatch cap required')
+        if type(backend) is not PydanticAIBackend:
+            raise ValueError('prospective native backend required')
+        spec = backend.registry.get(role)
+        if (spec != ModelSpec(model=model_identity['model'], output_mode='native') or
+                backend.max_attempts != 1 or backend.agent_retries != 0 or backend.flex_fallback or
+                backend.toolsets or backend.usage_limits is None or backend.usage_limits.request_limit != 1):
+            raise ValueError('prospective backend does not match frozen profile')
+        # Validate the actual cached agent used by generate, not merely a fresh
+        # resolver result that could differ from an existing cached agent.
+        model = controller.require_model(backend._agent(spec, Response, SYSTEM, flex=False).model)
+        if getattr(model, 'model_name', None) != model_identity['model'].split(':', 1)[1]:
+            raise ValueError('prospective resolved model mismatch')
     directory = _admit(directory, storage_policy)
     lock_path = directory / 'rule-units.lock'
     existed = lock_path.exists()
@@ -357,6 +383,18 @@ async def run(directory, doc, plan, *, backend, model_identity, today, max_calls
         state_path = directory / 'rule-units-state.private.json'
         seal_path = directory / 'rule-units-seal.private.json'
         packet_path = directory / 'rule-units-candidates.private.json'
+        witness_path = directory / 'rule-units-workload.private.json'
+        if prospective:
+            if witness_path.exists():
+                from native_rule_unit_journal_adapter import _read_private, same_json, strict_json
+                if not same_json(strict_json(_read_private(witness_path)), {'workload': prospective_workload, 'sha256': workload_sha256}):
+                    raise ValueError('retained prospective workload mismatch')
+            else:
+                if existed or state_path.exists() or seal_path.exists() or packet_path.exists() or controller.ledger.stat().st_size:
+                    raise ValueError('cannot attach prospective witness to existing history')
+                _write(witness_path, {'workload': prospective_workload, 'sha256': workload_sha256}, storage_policy)
+        elif witness_path.exists():
+            raise ValueError('prospective workload and independent anchor required on resume')
         def write_state():
             _write(state_path, state, storage_policy)
             _write(seal_path, {'sha256': digest(state)}, storage_policy)
@@ -384,6 +422,8 @@ async def run(directory, doc, plan, *, backend, model_identity, today, max_calls
             key = digest(request)
             if unit['unit_id'] in state['successes']:
                 continue
+            if prospective and any(a['unit_id'] == unit['unit_id'] for a in state['attempts']):
+                raise BudgetExceeded('Prospective dispatch already attempted; reconcile', 'llm')
             if len(state['attempts']) >= max_calls or sum(a.get('charged_usd', a['reserved_usd']) for a in state['attempts']) + reservation_usd > max_usd + 1e-12:
                 _write(packet_path, packet(state, context), storage_policy)
                 raise BudgetExceeded('Persistent request or dollar cap exhausted', 'llm')

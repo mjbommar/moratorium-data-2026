@@ -222,16 +222,97 @@ def unique_object(pairs):
     return result
 
 
+async def audit_native(*, run_dir, http_dir, source_body, witness, anchor, http_policy, capture_policy):
+    """Reconcile a quiescent native run against an independently pinned workload."""
+    from native_rule_unit_journal_adapter import reconcile, _read_private, strict_json, same_json
+    from native_rule_unit_wire_contract import verify_workload, compare_frozen_request, ENDPOINT
+    context = witness.get('context', {}) if isinstance(witness, dict) else {}
+    result = reconcile(run_dir=run_dir, http_dir=http_dir, source_body=source_body,
+                       expected_context=context, expected_http_policy=http_policy,
+                       expected_capture_policy=capture_policy)
+    errors = result['errors']
+    def error(code, detail=None):
+        errors.append({'code': code, 'detail': str(detail) if detail is not None else None})
+    try:
+        verify_workload(witness, anchor, context)
+        retained = strict_json(_read_private(Path(run_dir) / 'rule-units-workload.private.json'))
+        if not same_json(retained, {'workload': witness, 'sha256': anchor}):
+            raise ValueError('retained witness mismatch')
+        result['prospective_anchor_verified'] = True
+    except (OSError, ValueError, TypeError, KeyError) as exc:
+        result['prospective_anchor_verified'] = False
+        error('prospective_anchor_unverified', exc)
+    expected = witness.get('dispatches', []) if isinstance(witness, dict) else []
+    logical = result['logical_invocations']
+    actual = [{'unit_id': x['unit_id'], 'request_sha256': next(
+        (h['request_descriptor_sha256'] for h in result['http_attempts']
+         if h.get('logical_invocation_id') == x['logical_invocation_id']), None)} for x in logical]
+    if not same_json(actual, expected) or any(len(x['http_attempt_ids']) != 1 for x in logical):
+        error('prospective_dispatch_population_mismatch')
+    # Reconciliation retains reservations in journal order. Compare that order
+    # independently: reconstructing from logical invocations alone hides swaps.
+    ordered_http = [(h.get('logical_invocation_id'), h.get('request_descriptor_sha256'))
+                    for h in result['http_attempts'] if h.get('linkage') == 'bound']
+    ordered_expected = [(item['logical_invocation_id'], dispatch.get('request_sha256') if isinstance(dispatch, dict) else None)
+                        for item, dispatch in zip(logical, expected)]
+    if len(ordered_expected) != len(expected) or ordered_http != ordered_expected:
+        error('prospective_http_dispatch_order_mismatch')
+    if len(result['http_attempts']) != len(expected):
+        error('prospective_http_population_mismatch')
+    endpoint_ok = bool(expected) and all(h.get('endpoint_contract') == ENDPOINT and h.get('linkage') == 'bound'
+                                         for h in result['http_attempts'])
+    if not endpoint_ok:
+        error('requested_endpoint_unverified')
+    wire_ok = bool(expected) and len(actual) == len(expected)
+    for item in logical:
+        if len(item['http_attempt_ids']) != 1:
+            wire_ok = False
+            continue
+        ident = item['http_attempt_ids'][0]
+        try:
+            data = _read_private(Path(http_dir) / (ident + '-request.private.body'))
+            if not await compare_frozen_request(context, item['unit_id'], _read_private(source_body), data):
+                raise ValueError('wire JSON mismatch')
+        except (OSError, ValueError, TypeError, KeyError) as exc:
+            wire_ok = False
+            error('wire_comparison_failed', exc)
+    # The legacy reader's unconditional history gate is resolved only by this
+    # independent commitment and exact one-to-one prospective trace.
+    if result['prospective_anchor_verified'] and wire_ok and endpoint_ok and not any(
+            e['code'] != 'complete_history_unattested' for e in errors):
+        errors[:] = [e for e in errors if e['code'] != 'complete_history_unattested']
+    complete = not errors and all(x['status'] == 'succeeded' and x['output_comparison'] == 'equal' for x in logical)
+    result.update(endpoint_identity_complete=endpoint_ok, wire_contract_complete=wire_ok,
+                  planned_trace_complete=complete, structural_evidence_complete=complete,
+                  response_accounting_complete=complete, status='complete' if complete else 'incomplete',
+                  requested_endpoint_scope='normalized requested address only; provider authentication not established',
+                  gates=['semantic_review_required', 'condition_consequence_semantics_required',
+                         'fresh_frozen_calibration_and_holdout_required', 'protocol_threshold_scoring_required'])
+    return result
+
+
 def main():
+    import asyncio
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('bundle', type=Path, help='private JSON bundle')
+    parser.add_argument('bundle', type=Path, nargs='?', help='private JSON bundle')
+    for option in ('run-dir', 'http-dir', 'source-body', 'witness', 'anchor', 'http-policy', 'capture-policy'):
+        parser.add_argument('--' + option)
     args = parser.parse_args()
     try:
-        result = audit(json.loads(args.bundle.read_text(encoding='utf-8'), object_pairs_hook=unique_object))
-    except (ValueError, KeyError, TypeError, json.JSONDecodeError) as exc:
+        if args.run_dir:
+            from native_rule_unit_journal_adapter import strict_json, _read_private
+            if args.bundle or not all((args.http_dir, args.source_body, args.witness, args.anchor, args.http_policy, args.capture_policy)):
+                raise ValueError('native audit requires all paths and independent anchor')
+            result = asyncio.run(audit_native(run_dir=args.run_dir, http_dir=args.http_dir, source_body=args.source_body,
+                witness=strict_json(_read_private(args.witness)), anchor=args.anchor,
+                http_policy=strict_json(_read_private(args.http_policy)), capture_policy=strict_json(_read_private(args.capture_policy))))
+        else:
+            if args.bundle is None: raise ValueError('bundle required')
+            result = audit(json.loads(args.bundle.read_text(encoding='utf-8'), object_pairs_hook=unique_object))
+    except (OSError, ValueError, KeyError, TypeError, json.JSONDecodeError) as exc:
         parser.exit(2, f'Invalid audit input: {exc}\n')
     print(json.dumps(result, ensure_ascii=False, sort_keys=True, indent=2))
-    return 1 if result["blockers"] or not result["response_accounting_complete"] or result["quality"] == "not_scored" else 0
+    return 1 if result.get("blockers") or not result["response_accounting_complete"] or result["quality"] == "not_scored" else 0
 
 
 if __name__ == '__main__':
