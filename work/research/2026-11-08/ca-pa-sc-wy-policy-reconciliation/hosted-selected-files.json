@@ -1,0 +1,81 @@
+{
+  "source_commit": "03fd9a69288946daa62594faa2e45ed8c6de7402",
+  "observed_at": "2026-11-08T19:48:02.845490+00:00",
+  "pages_run_id": 42516290659,
+  "pages_run_conclusion": "success",
+  "scope": "Exact selected hosted files at a working data checkpoint, not final-release or complete site/freshness acceptance",
+  "observations": [
+    {
+      "path": "data/moratorium_inventory.csv",
+      "url": "https://mjbommar.github.io/moratorium-data-2026/data/moratorium_inventory.csv",
+      "status": 200,
+      "expected_sha256": "00b9cb16904a3bf47c838d6d7ba20d503681953916e224d54ba49849789193de",
+      "observed_sha256": "00b9cb16904a3bf47c838d6d7ba20d503681953916e224d54ba49849789193de",
+      "matches_source": true,
+      "bytes": 1700483
+    },
+    {
+      "path": "data/state_legislation.csv",
+      "url": "https://mjbommar.github.io/moratorium-data-2026/data/state_legislation.csv",
+      "status": 200,
+      "expected_sha256": "6b79781d9d334faf445f5da56b4a49abe0e3971be3331a717b6ca05fd39da69b",
+      "observed_sha256": "6b79781d9d334faf445f5da56b4a49abe0e3971be3331a717b6ca05fd39da69b",
+      "matches_source": true,
+      "bytes": 312692
+    },
+    {
+      "path": "data/summary_stats.json",
+      "url": "https://mjbommar.github.io/moratorium-data-2026/data/summary_stats.json",
+      "status": 200,
+      "expected_sha256": "6e3928b487d3d4534c98c976364e29d68b3bb261d799e85bd560e1507f5166a4",
+      "observed_sha256": "6e3928b487d3d4534c98c976364e29d68b3bb261d799e85bd560e1507f5166a4",
+      "matches_source": true,
+      "bytes": 15298
+    },
+    {
+      "path": "site/timeline.svg",
+      "url": "https://mjbommar.github.io/moratorium-data-2026/site/timeline.svg",
+      "status": 200,
+      "expected_sha256": "e287c51b67ccb5cbb6c82f8a1a282a2d33a641d0d0aee8b6104d3469f211a227",
+      "observed_sha256": "e287c51b67ccb5cbb6c82f8a1a282a2d33a641d0d0aee8b6104d3469f211a227",
+      "matches_source": true,
+      "bytes": 17226
+    },
+    {
+      "path": "states/south-carolina.html",
+      "url": "https://mjbommar.github.io/moratorium-data-2026/states/south-carolina.html",
+      "status": 200,
+      "expected_sha256": "2a40042010c2d15a15133ac47660bd953f11063b16f26bc55373b83a4d0ccb80",
+      "observed_sha256": "2a40042010c2d15a15133ac47660bd953f11063b16f26bc55373b83a4d0ccb80",
+      "matches_source": true,
+      "bytes": 39613
+    },
+    {
+      "path": "docs/codebook.html",
+      "url": "https://mjbommar.github.io/moratorium-data-2026/docs/codebook.html",
+      "status": 200,
+      "expected_sha256": "4d9d32ae55778186cf9653ecf5eb71004782208fc55b50e031c144809a81e945",
+      "observed_sha256": "4d9d32ae55778186cf9653ecf5eb71004782208fc55b50e031c144809a81e945",
+      "matches_source": true,
+      "bytes": 38385
+    },
+    {
+      "path": "tables/state-sector-counts.tex",
+      "url": "https://mjbommar.github.io/moratorium-data-2026/tables/state-sector-counts.tex",
+      "status": 200,
+      "expected_sha256": "8ddb6212bcc7dcbeae8cb5d3a0914aa86f4c68952bbd6f5fc3059ddd07642d22",
+      "observed_sha256": "8ddb6212bcc7dcbeae8cb5d3a0914aa86f4c68952bbd6f5fc3059ddd07642d22",
+      "matches_source": true,
+      "bytes": 3216
+    },
+    {
+      "path": "tables/temporal-distribution.tex",
+      "url": "https://mjbommar.github.io/moratorium-data-2026/tables/temporal-distribution.tex",
+      "status": 200,
+      "expected_sha256": "d9b917ecac1778f38630d70040cf8e25bbd8f56dbbf9fef14b9b1946e8ccc0b0",
+      "observed_sha256": "d9b917ecac1778f38630d70040cf8e25bbd8f56dbbf9fef14b9b1946e8ccc0b0",
+      "matches_source": true,
+      "bytes": 1327
+    }
+  ]
+}
