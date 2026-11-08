@@ -1,0 +1,5 @@
+# Michigan source archive preparation
+
+Thirty-two authenticated official source bodies and their retained text versions were archived without refetching or modifying original bytes. Native BC evidence mapping verifies all 32 selected records with zero gaps or issues ([receipt](native-archive-receipt.json)). Raw body/text payloads remain private; public metadata records URLs, dates and hashes.
+
+The primary review covered all 14 rows and 266 fields, proposing 51 atomic changes. Independent review found 48 substantively qualified recommendations, two holds and one wording revision. The subsequent whole-state claim-evidence job stopped incomplete, so no policy change was promoted. A seven-row completion packet now covers 31 proposals with 30 supported recommendations and one withheld date, while the second half is running. All recommendations still need coordinator adjudication against the complete evidence package and fresh guard checks. Current force and later history remain unresolved; this archive operation does not renew historical legal status or complete the national refresh.
