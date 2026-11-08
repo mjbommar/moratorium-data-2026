@@ -3,15 +3,15 @@
 Checkpoint: November 6, 2026, repository revision `78c9607a5fb492ef422e4560b02f4d95076dbf2c`.
 This is the execution order for finishing the [existing plan](research-and-ballot-expansion-plan.md), not a reduced replacement scope or a release approval. [TODO.md](../TODO.md) remains the requirement checklist. Counts below describe this checkpoint and must be reconciled at the final freeze.
 
-## Latest verified checkpoint — November 7, after Wilmington wording correction
+## Latest verified checkpoint — November 7, after the ballot provenance corrections
 
-This checkpoint supersedes the operational counts below; dated earlier sections remain historical. The canonical snapshot is `3ed4545ce6cbf6d16f4a279b2379398bc61e3dd9f20b27788dccb6a870762801`.
+This checkpoint supersedes the operational counts below; dated earlier sections remain historical. The canonical snapshot is `0b721a8afe493e7bd231a74978477061a29858a1323db00ad6b6c6c6628130e9`.
 
 | Area | Verified state | Still required |
 |---|---|---|
 | Legacy data | 1,330 local records and 447 policy records | Full frozen 1,772-ID freshness dispositions, additions, source and later-history gaps; all 50 states and five sectors |
-| Ballot data | 53 measures, 59 retained result versions, 50 current result rows: 30 unofficial, 15 unknown, five certified labels | Final coordinator dispositions, certification/recount and implementation authority; review coverage does not establish current force |
-| Ballot review | All 53 IDs have primary and bounded independent per-axis reviews; 45 finite final source-scoped coordinator returns | Resolve conflicts and exact-wording proposals; reconcile five pending frozen groups and supported status dates |
+| Ballot data | 53 measures, 60 retained result versions, 50 current result rows: 30 unofficial, 15 unknown, five certified labels | Final coordinator dispositions, certification/recount and implementation authority; review coverage does not establish current force |
+| Ballot review | All 53 IDs have primary and bounded independent per-axis reviews; all 53 finite final source-scoped coordinator returns | Resolve conflicts and exact-wording proposals; reconcile five pending frozen groups and supported status dates |
 | Provenance | Sixteen original acquisition joins plus four further joins verified in separate supplements | Remaining source-origin and authority gaps; acquisition dates do not renew on rereview |
 | Delivery | Five selected deployed ballot files match the specified successful Pages commit byte for byte | Whole release/consumer/copy reconciliation and final downloaded assets |
 | Extraction | Bounded journal reader increment independently accepted; root rerun passed 88 tests and 60 subtests | Endpoint/wire identity, prospective audit integration, semantic evaluation and frozen calibration/holdout |

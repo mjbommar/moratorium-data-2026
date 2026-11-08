@@ -39,7 +39,7 @@ Yes-vote direction follows the question wording. Advisory results express voter 
 | [Canterbury, NH — Article 4](<https://www.canterburynh.gov/wp-content/uploads/2026/03/Town-Meeting-Election-Results-3_10_26.pdf>) | 2026-03-10 | scope not recorded | unresolved | restricts | 322 | 63 | unknown | unknown | unknown | unknown |
 | [Nottingham, NH — Ballot Question](<https://www.nottingham-nh.gov/sites/g/files/vyhlif3611/f/news/2026_nottingham_special_town_election_results.pdf>) | 2026-09-08 | scope not recorded | unresolved | restricts | 1335 | 143 | unknown | unknown | unknown | unknown |
 | [Downe Township, NJ — Public Question](<https://www.nj.com/cumberland/2026/11/nj-election-day-2026-cumberland-county-live-results.html>) | 2026-11-03 | Whole jurisdiction: Downe Township Public Question; secondary publisher reports100percentprecincts, without numeric precinct denominator | advisory | facilitates | 62 | 425 | unknown | unknown | unknown | unknown |
-| [Boulder City, NV — Question 1](<https://elections.clarkcountynv.gov/ElectionResultsTV/ENR.aspx>) | 2026-11-03 | Whole jurisdiction: City of Boulder City Question 1; ClarkCounty unofficial election-night report | unresolved | facilitates | 2064 | 4947 | unknown | unknown | unofficial | unknown |
+| [Boulder City, NV — Question 1](<https://elections.clarkcountynv.gov/ElectionResultsTV/ENR.aspx>) | 2026-11-03 | Whole jurisdiction: City of Boulder City Question 1; Clark County unofficial report headed Updated 11/04/26 11:49 PM, timezone unspecified; retained November 5 acquisition, not a fresh return. | unresolved | facilitates | 2064 | 4947 | unknown | unknown | unofficial | unknown |
 | [Ashville, OH — Referendum on Resolution](<https://app.enhancedvoting.com/results/public/pickaway-county-oh/elections/GE2026_20261028170048/ballot-items/01000000-e482-0ab9-0c65-08df2e27595a>) | 2026-11-03 | scope not recorded | unresolved | facilitates | 331 | 1469 | unknown | unknown | unofficial | unknown |
 | [Conneaut, OH — Issue 10](<https://www.boe.ohio.gov/ashtabula/c/elecres/20261103results.pdf>) | 2026-11-03 | scope not recorded | binding | restricts | 2301 | 1218 | unknown | unknown | unofficial | unknown |
 | [Defiance, OH — Proposed Charter Amendment - Prohibition of a Data Center](<https://www.boe.ohio.gov/defiance/c/elecres/20261103results.pdf>) | 2026-11-03 | scope not recorded | unresolved | unresolved | 3823 | 2083 | unknown | unknown | unofficial | unknown |
@@ -113,7 +113,7 @@ Relationship acceptance is separate from instrument status. A `proposes` link do
 
 Reported outcomes and certification are separate from calculated passage rules, operative dates and legal force. A reported approval does not automatically add an in-force legacy moratorium. See [scope and interpretation](ballot-measures.md) for unresolved legal implementation.
 
-59 result observations are retained, including explicitly superseded history. This view excludes superseded observations without deleting them. Classification or provenance corrections can add a successor without new votes or a new retrieval; consult source acquisition times and the result value_methods notes.
+60 result observations are retained, including explicitly superseded history. This view excludes superseded observations without deleting them. Classification or provenance corrections can add a successor without new votes or a new retrieval; consult source acquisition times and the result value_methods notes.
 
 ## Sources for reported outcomes
 
@@ -121,6 +121,6 @@ Reported outcomes and certification are separate from calculated passage rules, 
 - Eliot: [reported-outcome source](<https://www.bangordailynews.com/2026/11/05/politics/elections/maine-election-towns-temporary-data-center-bans/>).
 - Sabattus: [reported-outcome source](<https://www.bangordailynews.com/2026/11/05/politics/elections/maine-election-towns-temporary-data-center-bans/>).
 
-Pinned canonical snapshot: `3ed4545ce6cbf6d16f4a279b2379398bc61e3dd9f20b27788dccb6a870762801`. Source acquisition times and result review-time explanations remain in the records; this generation is not a renewed current-force check.
+Pinned canonical snapshot: `0b721a8afe493e7bd231a74978477061a29858a1323db00ad6b6c6c6628130e9`. Source acquisition times and result review-time explanations remain in the records; this generation is not a renewed current-force check.
 
-[Canonical publication protocol](expanded-promotion.md) · [Raw reviewed tables](../data/expanded-snapshots/3ed4545ce6cbf6d16f4a279b2379398bc61e3dd9f20b27788dccb6a870762801/ballot_measures.jsonl)
+[Canonical publication protocol](expanded-promotion.md) · [Raw reviewed tables](../data/expanded-snapshots/0b721a8afe493e7bd231a74978477061a29858a1323db00ad6b6c6c6628130e9/ballot_measures.jsonl)

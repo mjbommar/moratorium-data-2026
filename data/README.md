@@ -111,26 +111,26 @@ headers; their presence is not evidence that research coverage is complete.
 <!-- BEGIN EXPANDED CSV DOWNLOADS -->
 | CSV view | Records |
 |---|---:|
-| [ballot_measures.csv](expanded-csv-snapshots/706db3cc9b79a300794e68d8be704d3388cea32f0c375c8151ef89d858f046f5/ballot_measures.csv) | 53 |
-| [claims.csv](expanded-csv-snapshots/706db3cc9b79a300794e68d8be704d3388cea32f0c375c8151ef89d858f046f5/claims.csv) | 575 |
-| [coverage_observations.csv](expanded-csv-snapshots/706db3cc9b79a300794e68d8be704d3388cea32f0c375c8151ef89d858f046f5/coverage_observations.csv) | 1 |
-| [elections.csv](expanded-csv-snapshots/706db3cc9b79a300794e68d8be704d3388cea32f0c375c8151ef89d858f046f5/elections.csv) | 47 |
-| [instrument_event_status.csv](expanded-csv-snapshots/706db3cc9b79a300794e68d8be704d3388cea32f0c375c8151ef89d858f046f5/instrument_event_status.csv) | 10 |
-| [instrument_events.csv](expanded-csv-snapshots/706db3cc9b79a300794e68d8be704d3388cea32f0c375c8151ef89d858f046f5/instrument_events.csv) | 10 |
-| [instrument_events_current.csv](expanded-csv-snapshots/706db3cc9b79a300794e68d8be704d3388cea32f0c375c8151ef89d858f046f5/instrument_events_current.csv) | 10 |
-| [jurisdictions.csv](expanded-csv-snapshots/706db3cc9b79a300794e68d8be704d3388cea32f0c375c8151ef89d858f046f5/jurisdictions.csv) | 48 |
-| [local_restrictions.csv](expanded-csv-snapshots/706db3cc9b79a300794e68d8be704d3388cea32f0c375c8151ef89d858f046f5/local_restrictions.csv) | 2 |
-| [measure_instrument_links.csv](expanded-csv-snapshots/706db3cc9b79a300794e68d8be704d3388cea32f0c375c8151ef89d858f046f5/measure_instrument_links.csv) | 1 |
-| [measure_provisions.csv](expanded-csv-snapshots/706db3cc9b79a300794e68d8be704d3388cea32f0c375c8151ef89d858f046f5/measure_provisions.csv) | 52 |
-| [measure_results.csv](expanded-csv-snapshots/706db3cc9b79a300794e68d8be704d3388cea32f0c375c8151ef89d858f046f5/measure_results.csv) | 59 |
-| [measure_results_current.csv](expanded-csv-snapshots/706db3cc9b79a300794e68d8be704d3388cea32f0c375c8151ef89d858f046f5/measure_results_current.csv) | 50 |
-| [review_decisions.csv](expanded-csv-snapshots/706db3cc9b79a300794e68d8be704d3388cea32f0c375c8151ef89d858f046f5/review_decisions.csv) | 2559 |
-| [search_attempts.csv](expanded-csv-snapshots/706db3cc9b79a300794e68d8be704d3388cea32f0c375c8151ef89d858f046f5/search_attempts.csv) | 3 |
-| [search_runs.csv](expanded-csv-snapshots/706db3cc9b79a300794e68d8be704d3388cea32f0c375c8151ef89d858f046f5/search_runs.csv) | 1 |
-| [search_sightings.csv](expanded-csv-snapshots/706db3cc9b79a300794e68d8be704d3388cea32f0c375c8151ef89d858f046f5/search_sightings.csv) | 18 |
-| [source_documents.csv](expanded-csv-snapshots/706db3cc9b79a300794e68d8be704d3388cea32f0c375c8151ef89d858f046f5/source_documents.csv) | 155 |
+| [ballot_measures.csv](expanded-csv-snapshots/449e9ee2fb22f469e8ecf1d628658e0b041c7c75586df6881b350c6732508b20/ballot_measures.csv) | 53 |
+| [claims.csv](expanded-csv-snapshots/449e9ee2fb22f469e8ecf1d628658e0b041c7c75586df6881b350c6732508b20/claims.csv) | 579 |
+| [coverage_observations.csv](expanded-csv-snapshots/449e9ee2fb22f469e8ecf1d628658e0b041c7c75586df6881b350c6732508b20/coverage_observations.csv) | 1 |
+| [elections.csv](expanded-csv-snapshots/449e9ee2fb22f469e8ecf1d628658e0b041c7c75586df6881b350c6732508b20/elections.csv) | 47 |
+| [instrument_event_status.csv](expanded-csv-snapshots/449e9ee2fb22f469e8ecf1d628658e0b041c7c75586df6881b350c6732508b20/instrument_event_status.csv) | 10 |
+| [instrument_events.csv](expanded-csv-snapshots/449e9ee2fb22f469e8ecf1d628658e0b041c7c75586df6881b350c6732508b20/instrument_events.csv) | 10 |
+| [instrument_events_current.csv](expanded-csv-snapshots/449e9ee2fb22f469e8ecf1d628658e0b041c7c75586df6881b350c6732508b20/instrument_events_current.csv) | 10 |
+| [jurisdictions.csv](expanded-csv-snapshots/449e9ee2fb22f469e8ecf1d628658e0b041c7c75586df6881b350c6732508b20/jurisdictions.csv) | 48 |
+| [local_restrictions.csv](expanded-csv-snapshots/449e9ee2fb22f469e8ecf1d628658e0b041c7c75586df6881b350c6732508b20/local_restrictions.csv) | 2 |
+| [measure_instrument_links.csv](expanded-csv-snapshots/449e9ee2fb22f469e8ecf1d628658e0b041c7c75586df6881b350c6732508b20/measure_instrument_links.csv) | 1 |
+| [measure_provisions.csv](expanded-csv-snapshots/449e9ee2fb22f469e8ecf1d628658e0b041c7c75586df6881b350c6732508b20/measure_provisions.csv) | 52 |
+| [measure_results.csv](expanded-csv-snapshots/449e9ee2fb22f469e8ecf1d628658e0b041c7c75586df6881b350c6732508b20/measure_results.csv) | 60 |
+| [measure_results_current.csv](expanded-csv-snapshots/449e9ee2fb22f469e8ecf1d628658e0b041c7c75586df6881b350c6732508b20/measure_results_current.csv) | 50 |
+| [review_decisions.csv](expanded-csv-snapshots/449e9ee2fb22f469e8ecf1d628658e0b041c7c75586df6881b350c6732508b20/review_decisions.csv) | 2578 |
+| [search_attempts.csv](expanded-csv-snapshots/449e9ee2fb22f469e8ecf1d628658e0b041c7c75586df6881b350c6732508b20/search_attempts.csv) | 3 |
+| [search_runs.csv](expanded-csv-snapshots/449e9ee2fb22f469e8ecf1d628658e0b041c7c75586df6881b350c6732508b20/search_runs.csv) | 1 |
+| [search_sightings.csv](expanded-csv-snapshots/449e9ee2fb22f469e8ecf1d628658e0b041c7c75586df6881b350c6732508b20/search_sightings.csv) | 18 |
+| [source_documents.csv](expanded-csv-snapshots/449e9ee2fb22f469e8ecf1d628658e0b041c7c75586df6881b350c6732508b20/source_documents.csv) | 155 |
 
-[Projection manifest](expanded-csv-snapshots/706db3cc9b79a300794e68d8be704d3388cea32f0c375c8151ef89d858f046f5/manifest.json) pins the source generation, schema, exporter and every file hash.
+[Projection manifest](expanded-csv-snapshots/449e9ee2fb22f469e8ecf1d628658e0b041c7c75586df6881b350c6732508b20/manifest.json) pins the source generation, schema, exporter and every file hash.
 <!-- END EXPANDED CSV DOWNLOADS -->
 
 The portable `data/expanded-csv` pointer selects an immutable directory under

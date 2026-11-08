@@ -2,9 +2,11 @@
 
 Date: 2026-11-05
 
-Status: proposed implementation plan. This document authorizes no scheduled jobs,
-bulk research runs, model spending, dataset migration, or publication. The companion
-[TODO](../TODO.md) tracks implementation; its unchecked items are future work.
+Status: implementation in progress. The companion [TODO](../TODO.md) tracks
+verified increments and remaining work; [release closeout](release-closeout.md)
+records the current checkpoint and delivery gates. The dated architecture below
+is the original starting point, not a statement of current counts or completion.
+Research and publication retain their explicit evidence, budget and review gates.
 
 ## 1. Objective and scope
 

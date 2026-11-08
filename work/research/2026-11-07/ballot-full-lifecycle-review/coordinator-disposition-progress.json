@@ -1,11 +1,13 @@
 {
-  "observed_at": "2026-11-08T03:32:54.780970+00:00",
-  "snapshot_at_accounting": "3ed4545ce6cbf6d16f4a279b2379398bc61e3dd9f20b27788dccb6a870762801",
-  "scope": "Finite final source-scoped coordinator adjudication returns, including explicit authority holds and unapplied proposals. Counts verify exact assigned ID and axis coverage, not final freshness acceptance, all-claim acceptance, present force or global completion.",
-  "completed_source_scoped_returns": 45,
+  "observed_at": "2026-11-08T03:43:17.039062+00:00",
+  "snapshot_at_accounting": "0b721a8afe493e7bd231a74978477061a29858a1323db00ad6b6c6c6628130e9",
+  "scope": "All 53 finite final source-scoped coordinator adjudication returns, including explicit authority holds and unapplied proposals. Exact assigned-ID and axis coverage is verified; this is not final freshness acceptance, all-claim acceptance, present force or global completion.",
+  "completed_source_scoped_returns": 53,
   "total_current_measures": 53,
-  "remaining_without_finite_final_return": 8,
-  "canonical_changes_from_these_returns": 0,
+  "remaining_without_finite_final_return": 0,
+  "applied_source_scoped_provenance_corrections": 3,
+  "canonical_existing_field_changes_from_these_returns": 1,
+  "canonical_append_only_records_from_these_returns": 24,
   "source_retrievals": 0,
   "measures": [
     {
@@ -87,7 +89,8 @@
         "implementation_current_force": "unresolved-required-authority"
       },
       "report_sha256": "f04c3d2c0505a8808d69b828b3053734e786f90a0d5cecf663e259bd70aa89f5",
-      "adjudication_sha256": "ba0bc9647cd8d29e3d87d9f1d3faf11ea2220f281ae071ea1442daa9f888bf82"
+      "adjudication_sha256": "ba0bc9647cd8d29e3d87d9f1d3faf11ea2220f281ae071ea1442daa9f888bf82",
+      "applied_provenance_correction": "../ballot-provenance-clarifications/README.md"
     },
     {
       "measure_id": "25984627-a01d-4f92-a9ab-b8852f9c54b9",
@@ -99,7 +102,8 @@
         "implementation_current_force": "unresolved-required-authority"
       },
       "report_sha256": "f04c3d2c0505a8808d69b828b3053734e786f90a0d5cecf663e259bd70aa89f5",
-      "adjudication_sha256": "ba0bc9647cd8d29e3d87d9f1d3faf11ea2220f281ae071ea1442daa9f888bf82"
+      "adjudication_sha256": "ba0bc9647cd8d29e3d87d9f1d3faf11ea2220f281ae071ea1442daa9f888bf82",
+      "applied_provenance_correction": "../ballot-provenance-clarifications/README.md"
     },
     {
       "measure_id": "26cd5ac0-e3b7-4f1f-95e5-92288b2ca508",
@@ -180,7 +184,8 @@
         "implementation_current_force": "unresolved-required-authority"
       },
       "report_sha256": "0c2aa5dfba56b9b01202fdbce34801961274c3972fb0eaccf08d24ab9198c3d1",
-      "adjudication_sha256": "83f6ccac7998b5dc9e43bb0501615412edfd198633af33bc98e6d4c354339817"
+      "adjudication_sha256": "83f6ccac7998b5dc9e43bb0501615412edfd198633af33bc98e6d4c354339817",
+      "applied_provenance_correction": "../ballot-provenance-clarifications/README.md"
     },
     {
       "measure_id": "450c4dec-de9f-4c00-9952-ede353e8f906",
@@ -537,6 +542,102 @@
       },
       "report_sha256": "56f3f8fc62d4d23fb93d5dcd19148ca95d99a229a24b9a66d7604d611d9ecb16",
       "adjudication_sha256": "613268c2b1bc4ac7688b2e9d3f04586e365adb0a4f27aecb9a99e24c7597b456"
+    },
+    {
+      "measure_id": "ec55a788-7d4c-4113-b57a-220a0b9fb8aa",
+      "axes": {
+        "wording_qualification": "unresolved-required-authority",
+        "scope_exemptions": "accept-supported-retained-observation",
+        "results": "accept-supported-retained-observation",
+        "certification_recount": "unresolved-required-authority",
+        "implementation_current_force": "unresolved-required-authority"
+      },
+      "report_sha256": "0ac16d7c5a18208b70935995d5a2fc41efa31091f76bb04750a988a515ceef32",
+      "adjudication_sha256": "69a819a6b362fc324cdbb2ca5358a2d7dcd65d9f92641dcc3919e8bf9179840b"
+    },
+    {
+      "measure_id": "f03cb5ab-72d5-46cc-a493-81f0f8279b43",
+      "axes": {
+        "wording_qualification": "unresolved-required-authority",
+        "scope_exemptions": "accept-supported-retained-observation",
+        "results": "accept-supported-retained-observation",
+        "certification_recount": "unresolved-required-authority",
+        "implementation_current_force": "unresolved-required-authority"
+      },
+      "report_sha256": "0ac16d7c5a18208b70935995d5a2fc41efa31091f76bb04750a988a515ceef32",
+      "adjudication_sha256": "69a819a6b362fc324cdbb2ca5358a2d7dcd65d9f92641dcc3919e8bf9179840b"
+    },
+    {
+      "measure_id": "f447f7d9-53fe-49bf-ac3a-dec05cd3a7a0",
+      "axes": {
+        "wording_qualification": "accept-supported-retained-observation",
+        "scope_exemptions": "accept-supported-retained-observation",
+        "results": "accept-supported-retained-observation",
+        "certification_recount": "unresolved-required-authority",
+        "implementation_current_force": "unresolved-required-authority"
+      },
+      "report_sha256": "0ac16d7c5a18208b70935995d5a2fc41efa31091f76bb04750a988a515ceef32",
+      "adjudication_sha256": "69a819a6b362fc324cdbb2ca5358a2d7dcd65d9f92641dcc3919e8bf9179840b"
+    },
+    {
+      "measure_id": "fa3817b8-b2d7-48d5-abc3-ac179fad4632",
+      "axes": {
+        "question_lifecycle": "unresolved-required-authority",
+        "mechanism_exemptions": "unresolved-required-authority",
+        "result": "accept-supported-retained-observation",
+        "certification_recount": "unresolved-required-authority",
+        "implementation_current_force": "unresolved-required-authority"
+      },
+      "report_sha256": "c52ba6958977d95d6c0a42c664b4ea1218079e4f01816bf16bd59776f0173710",
+      "adjudication_sha256": "735e1c50a5aaf220cf13c3b6626d125ecd5376a50aba8b141cad9d8fc37a6bcd"
+    },
+    {
+      "measure_id": "fb48b72d-58bc-4b3d-a635-3117192ff57b",
+      "axes": {
+        "question_lifecycle": "unresolved-required-authority",
+        "mechanism_exemptions": "accept-supported-retained-observation",
+        "result": "accept-supported-retained-observation",
+        "certification_recount": "unresolved-required-authority",
+        "implementation_current_force": "unresolved-required-authority"
+      },
+      "report_sha256": "c52ba6958977d95d6c0a42c664b4ea1218079e4f01816bf16bd59776f0173710",
+      "adjudication_sha256": "735e1c50a5aaf220cf13c3b6626d125ecd5376a50aba8b141cad9d8fc37a6bcd"
+    },
+    {
+      "measure_id": "fd0aaef5-9562-4deb-855c-540eec59c62a",
+      "axes": {
+        "question_lifecycle": "unresolved-required-authority",
+        "mechanism_exemptions": "accept-supported-retained-observation",
+        "result": "accept-supported-retained-observation",
+        "certification_recount": "unresolved-required-authority",
+        "implementation_current_force": "unresolved-required-authority"
+      },
+      "report_sha256": "c52ba6958977d95d6c0a42c664b4ea1218079e4f01816bf16bd59776f0173710",
+      "adjudication_sha256": "735e1c50a5aaf220cf13c3b6626d125ecd5376a50aba8b141cad9d8fc37a6bcd"
+    },
+    {
+      "measure_id": "febb373a-2ff7-42e5-940a-30c76ed19266",
+      "axes": {
+        "question_lifecycle": "accept-supported-retained-observation",
+        "mechanism_exemptions": "unresolved-required-authority",
+        "result": "accept-supported-retained-observation",
+        "certification_recount": "unresolved-required-authority",
+        "implementation_current_force": "unresolved-required-authority"
+      },
+      "report_sha256": "b82e640ae2b3babbf35be53bb3d2b341297b4484e6d8cc15583104665bb0bb7e",
+      "adjudication_sha256": "d50ff8883653e44b9768dfeaa2431cc16107836d52b7c2a69469e7d207b14f22"
+    },
+    {
+      "measure_id": "ff4589e6-f043-4067-a547-7711ecd79ed2",
+      "axes": {
+        "question_lifecycle": "unresolved-required-authority",
+        "mechanism_exemptions": "propose-guarded-correction",
+        "result": "accept-supported-retained-observation",
+        "certification_recount": "unresolved-required-authority",
+        "implementation_current_force": "unresolved-required-authority"
+      },
+      "report_sha256": "b82e640ae2b3babbf35be53bb3d2b341297b4484e6d8cc15583104665bb0bb7e",
+      "adjudication_sha256": "d50ff8883653e44b9768dfeaa2431cc16107836d52b7c2a69469e7d207b14f22"
     }
   ],
   "batches": [
@@ -672,6 +773,32 @@
         "d67367b9-bfc1-4d37-91d1-1129f1c61a75",
         "d7faccbd-2d75-4999-bcc5-bdaebae1150c",
         "db2486d3-7256-42ab-811f-f96e7c776877"
+      ],
+      "terminal_process_verified": true
+    },
+    {
+      "batch": "batch16",
+      "measure_ids": [
+        "ec55a788-7d4c-4113-b57a-220a0b9fb8aa",
+        "f03cb5ab-72d5-46cc-a493-81f0f8279b43",
+        "f447f7d9-53fe-49bf-ac3a-dec05cd3a7a0"
+      ],
+      "terminal_process_verified": true
+    },
+    {
+      "batch": "batch17",
+      "measure_ids": [
+        "fa3817b8-b2d7-48d5-abc3-ac179fad4632",
+        "fb48b72d-58bc-4b3d-a635-3117192ff57b",
+        "fd0aaef5-9562-4deb-855c-540eec59c62a"
+      ],
+      "terminal_process_verified": true
+    },
+    {
+      "batch": "batch18",
+      "measure_ids": [
+        "febb373a-2ff7-42e5-940a-30c76ed19266",
+        "ff4589e6-f043-4067-a547-7711ecd79ed2"
       ],
       "terminal_process_verified": true
     }

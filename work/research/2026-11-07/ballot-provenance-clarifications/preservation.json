@@ -1,0 +1,229 @@
+{
+  "tables": {
+    "jurisdictions": {
+      "prior": 48,
+      "candidate": 48,
+      "modified_or_missing": []
+    },
+    "elections": {
+      "prior": 47,
+      "candidate": 47,
+      "modified_or_missing": []
+    },
+    "ballot_measures": {
+      "prior": 53,
+      "candidate": 53,
+      "modified_or_missing": [
+        "4271387f-ad51-4d1b-a551-d27a09170c60"
+      ]
+    },
+    "measure_provisions": {
+      "prior": 52,
+      "candidate": 52,
+      "modified_or_missing": []
+    },
+    "measure_results": {
+      "prior": 59,
+      "candidate": 60,
+      "modified_or_missing": []
+    },
+    "local_restrictions": {
+      "prior": 2,
+      "candidate": 2,
+      "modified_or_missing": []
+    },
+    "instrument_events": {
+      "prior": 10,
+      "candidate": 10,
+      "modified_or_missing": []
+    },
+    "measure_instrument_links": {
+      "prior": 1,
+      "candidate": 1,
+      "modified_or_missing": []
+    },
+    "source_documents": {
+      "prior": 155,
+      "candidate": 155,
+      "modified_or_missing": []
+    },
+    "claims": {
+      "prior": 575,
+      "candidate": 579,
+      "modified_or_missing": []
+    },
+    "review_decisions": {
+      "prior": 2559,
+      "candidate": 2578,
+      "modified_or_missing": []
+    },
+    "search_runs": {
+      "prior": 1,
+      "candidate": 1,
+      "modified_or_missing": []
+    },
+    "search_attempts": {
+      "prior": 3,
+      "candidate": 3,
+      "modified_or_missing": []
+    },
+    "search_sightings": {
+      "prior": 18,
+      "candidate": 18,
+      "modified_or_missing": []
+    },
+    "coverage_observations": {
+      "prior": 1,
+      "candidate": 1,
+      "modified_or_missing": []
+    }
+  },
+  "alhambra_note": {
+    "before": "The July 27 council referral is distinct from the June 22 council ban. The unsigned DOCX contains proposed text, not certified voter enactment. November 5 county counts supersede the November 4 snapshot; certification, reporting completeness and current legal force remain unresolved.",
+    "after": "The July 27 council referral is distinct from the June 22 council ban. The unsigned DOCX contains proposed text, not certified voter enactment. The November 4, 5 and 6 county count observations are retained in sequence; November 6 is the latest retained source snapshot, not proof of final counts or certification. Reporting completeness, formal outcome and current legal force remain unresolved."
+  },
+  "boulder_successor_diff": {
+    "observed_at": {
+      "before": "2026-11-05T17:09:59.074596+00:00",
+      "after": "2026-11-08T03:26:48.415881+00:00"
+    },
+    "reporting_scope": {
+      "before": {
+        "description": "City of Boulder City Question 1; ClarkCounty unofficial election-night report",
+        "kind": "jurisdiction_total"
+      },
+      "after": {
+        "description": "City of Boulder City Question 1; Clark County unofficial report headed Updated 11/04/26 11:49 PM, timezone unspecified; retained November 5 acquisition, not a fresh return.",
+        "kind": "jurisdiction_total"
+      }
+    },
+    "result_observation_id": {
+      "before": "c86511d4-4bb7-4b1a-943b-d08106a6aa6a",
+      "after": "e5c3499d-5d68-4af4-85b5-e5e3a3d70c52"
+    },
+    "source_vote_totals": {
+      "before": [
+        {
+          "claim_ids": [
+            "ef1ab605-66f4-45ec-95b8-6e69927867d1"
+          ],
+          "count": 7011,
+          "label": "Total",
+          "scope": "Question1response total, not ballots cast or county turnout."
+        }
+      ],
+      "after": [
+        {
+          "claim_ids": [
+            "2eec0aa5-89a5-4482-8754-4c08a5911bcb"
+          ],
+          "count": 7011,
+          "label": "Total",
+          "scope": "Question1response total, not ballots cast or county turnout."
+        }
+      ]
+    },
+    "supersedes_id": {
+      "before": null,
+      "after": "c86511d4-4bb7-4b1a-943b-d08106a6aa6a"
+    },
+    "value_methods": {
+      "before": {
+        "certification_status": {
+          "claim_ids": [
+            "651df55d-7a91-4b44-9e22-28bf7cf8361d"
+          ],
+          "method": "text",
+          "note": "County header explicitly unofficial; city canvass scheduledNovember13notcompleted."
+        },
+        "no_votes": {
+          "claim_ids": [
+            "5d4b5b08-47e0-4854-bf69-2c8a9f05fceb"
+          ],
+          "method": "text",
+          "note": "Named BoulderCityQuestion1county result. Other contests/countywide registration and turnout excluded; no unknown vote categories inferred."
+        },
+        "reporting_scope": {
+          "claim_ids": [
+            "5d4b5b08-47e0-4854-bf69-2c8a9f05fceb"
+          ],
+          "method": "text",
+          "note": "Named BoulderCityQuestion1county result. Other contests/countywide registration and turnout excluded; no unknown vote categories inferred."
+        },
+        "source_yes_percent": {
+          "claim_ids": [
+            "5d4b5b08-47e0-4854-bf69-2c8a9f05fceb"
+          ],
+          "method": "text",
+          "note": "Named BoulderCityQuestion1county result. Other contests/countywide registration and turnout excluded; no unknown vote categories inferred."
+        },
+        "yes_no_votes": {
+          "claim_ids": [
+            "5d4b5b08-47e0-4854-bf69-2c8a9f05fceb"
+          ],
+          "method": "derived",
+          "note": "2064+4947=7011question votes only, not ballots cast or statutory valid-vote denominator."
+        },
+        "yes_votes": {
+          "claim_ids": [
+            "5d4b5b08-47e0-4854-bf69-2c8a9f05fceb"
+          ],
+          "method": "text",
+          "note": "Named BoulderCityQuestion1county result. Other contests/countywide registration and turnout excluded; no unknown vote categories inferred."
+        }
+      },
+      "after": {
+        "certification_status": {
+          "claim_ids": [
+            "b7877f45-d9a8-4ffc-b012-1f812667897c"
+          ],
+          "method": "text",
+          "note": "County header explicitly unofficial; city canvass scheduledNovember13notcompleted."
+        },
+        "no_votes": {
+          "claim_ids": [
+            "55f17eed-c132-4588-9608-8eaa96ae2fb0"
+          ],
+          "method": "text",
+          "note": "Named BoulderCityQuestion1county result. Other contests/countywide registration and turnout excluded; no unknown vote categories inferred."
+        },
+        "reporting_scope": {
+          "claim_ids": [
+            "55f17eed-c132-4588-9608-8eaa96ae2fb0",
+            "b7877f45-d9a8-4ffc-b012-1f812667897c"
+          ],
+          "method": "text",
+          "note": "Named city contest only. Retained header says Updated 11/04/26 11:49 PM, timezone unspecified, rather than election night. No fresh retrieval, count update or final result."
+        },
+        "source_yes_percent": {
+          "claim_ids": [
+            "55f17eed-c132-4588-9608-8eaa96ae2fb0"
+          ],
+          "method": "text",
+          "note": "Named BoulderCityQuestion1county result. Other contests/countywide registration and turnout excluded; no unknown vote categories inferred."
+        },
+        "yes_no_votes": {
+          "claim_ids": [
+            "55f17eed-c132-4588-9608-8eaa96ae2fb0"
+          ],
+          "method": "derived",
+          "note": "2064+4947=7011question votes only, not ballots cast or statutory valid-vote denominator."
+        },
+        "yes_votes": {
+          "claim_ids": [
+            "55f17eed-c132-4588-9608-8eaa96ae2fb0"
+          ],
+          "method": "text",
+          "note": "Named BoulderCityQuestion1county result. Other contests/countywide registration and turnout excluded; no unknown vote categories inferred."
+        },
+        "observed_at": {
+          "method": "derived",
+          "claim_ids": [],
+          "note": "This successor timestamp is provenance-review time only. Original result observation/source retrieval remains 2026-11-05T17:09:59.074596+00:00. Header update 11/04/26 11:49 PM has unspecified timezone; no renewed source freshness or new votes."
+        }
+      }
+    }
+  },
+  "all_old_claims_decisions_results_sources_preserved": true,
+  "source_retrievals": 0
+}
