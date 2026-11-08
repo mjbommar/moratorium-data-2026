@@ -275,7 +275,7 @@ State policy is tracked separately: **11 records** (10 typed bill rows and 1 non
 - **Legal basis:** Town of Aurora Local Law 5-2025, a six-month moratorium on new applications for battery energy storage systems
 - **What prompted it:** Time needed to complete the town's Comprehensive Plan and a BESS-specific local law
 - **Affected projects:** No specific project named
-- **Detailed status:** Active as of 2026-09-23. Extended by unanimous Town Board resolution on 2025-12-22, effective 2025-12-09 through 2026-06-09, to allow the Comprehensive Plan and a BESS local law to be completed.
+- **Detailed status:** Current legal force is unknown. The registered original source for the historical status has not been recovered from the checked stores; the retained extraction is not verified against the original. [VERIFY: recover the original and filed law; check subsequent actions, litigation and current legal force.]
 - **Outcome:** Adopted, extended at least once
 
 ### Babylon
@@ -284,14 +284,14 @@ State policy is tracked separately: **11 records** (10 typed bill rows and 1 non
 - **Recorded status:** 🟢 Extended
 - **Date enacted:** 2024-06-05, Local Law 11 of 2024
 - **Normalized date:** `2024-06-05` (exact)
-- **Duration:** Six months, repeatedly extended by resolution (Local Law 23 of 2024 on 2024-12-04; Local Law 8 of 2025 on 2025-07-09; Local Law 2 of 2026 on 2026-01-05)
+- **Duration:** Original six-month term as recited in January 2026 adoption notice; later six-month extensions are recited, with the January 2026 term running from filing.
 - **Current end date:** `—`
 - **Sectors:** battery storage
 - **Moratorium ID:** `ny-babylon-2024`
 - **Legal basis:** Town of Babylon 2026 Moratorium Law on Battery Energy Storage System Facilities (Local Law No. 2 of 2026, extending Local Law 11 of 2024)
 - **What prompted it:** BESS fires elsewhere in New York; Fire Marshal and Department of Environmental Control concerns about environmentally sensitive watersheds, the Great South Bay, and Special Groundwater Protection Areas
-- **Affected projects:** No specific project named
-- **Detailed status:** Active as of 2026-09-23. Most recently extended by Local Law No. 2 of 2026, adopted January 5, 2026 following a December 17, 2025 public hearing, for six more months.
+- **Affected projects:** —
+- **Detailed status:** January 5, 2026 adoption notice reports a further six-month moratorium from filing. [VERIFY: filing date, later Local Law 13-2026 and other amendments, replacement, repeal, litigation and current legal force.]
 - **Outcome:** Adopted 2024-06-05, extended at least three times
 
 ### Bedford
@@ -300,14 +300,14 @@ State policy is tracked separately: **11 records** (10 typed bill rows and 1 non
 - **Recorded status:** 🟢 Extended
 - **Date enacted:** 2024-08-13, effective 2024-08-16
 - **Normalized date:** `2024-08-13` (exact)
-- **Duration:** Six months, repeatedly extended by resolution (Local Law No. 1-2025 effective ~2025-02-16; further extensions through at least September 2026)
+- **Duration:** The September 2026 proposed law recites earlier six-month extensions and proposes a further six months from its effective date; the original term and later adoption require verification.
 - **Current end date:** `—`
 - **Sectors:** battery storage
 - **Moratorium ID:** `ny-bedford-2024`
-- **Legal basis:** Town of Bedford local law prohibiting review and approval of applications for battery energy storage systems (Local Law No. 1-2025 extending the original 2024-08-13 moratorium)
+- **Legal basis:** Original Bedford BESS moratorium adopted August 13, 2024, as recited in a September 2026 proposed extension; the proposal covers large-scale BESS and includes exemptions and a hardship waiver.
 - **What prompted it:** BESS fires elsewhere in New York; a Bedford advisory committee developing a model ordinance with NYSERDA and Westchester Business Council input
-- **Affected projects:** No specific project named
-- **Detailed status:** Active as of 2026-09-23. A committee is finalizing a model BESS ordinance; the Town Board approved a further six-month extension in an uncontested hearing (no public comment), and a September 8, 2026 public hearing notice indicates the town continued to extend the moratorium into the fall of 2026.
+- **Affected projects:** —
+- **Detailed status:** A September 8, 2026 agenda packet proposes a further extension and recites prior extensions. [VERIFY: original filed law, the September vote and filing, later actions, litigation and current legal force.]
 - **Outcome:** Adopted, extended repeatedly
 
 ### Benson
@@ -337,8 +337,8 @@ State policy is tracked separately: **11 records** (10 typed bill rows and 1 non
 - **Sectors:** solar, battery storage
 - **Moratorium ID:** `ny-berne-2025`
 - **Legal basis:** Town of Berne Local Law No. 1 of 2025, covering solar energy and battery energy storage systems, extended by Resolution No. 35 of 2026.
-- **What prompted it:** A proposed 4.25 MW TJA Energy solar facility and a proposed 3.8 MW RIC Energy solar facility
-- **Affected projects:** TJA Energy's 4.25 MW solar proposal (Switzkill/Canaday Hill Roads); RIC Energy's 3.8 MW solar proposal (28 Jansen Lane)
+- **What prompted it:** Town concern that zoning did not adequately address solar and BESS land uses, siting and fire protection; two solar proposals were under consideration.
+- **Affected projects:** TJA Energy 4.25 MW solar proposal at Switzkill/Canaday Hill Roads and RIC Energy 3.8 MW solar proposal at 28 Jansen Lane were reported as under consideration; the report says neither included BESS.
 - **Detailed status:** May 6, 2025 minutes adopt Local Law 1 of 2025 with solar and BESS scope. September 2026 minutes describe the March Resolution 35 extension through November 6 and a proposed further extension; October 14 draft minutes record a hearing. The claimed September further adoption, filing and later force are not established. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** Adopted and extended; a further extension was proposed in 2026.
 

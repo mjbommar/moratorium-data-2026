@@ -2,6 +2,8 @@
 
 ## 2026-11-07 — current working snapshot (unreleased)
 
+The [New York BESS review](work/research/2026-11-07/ny-battery-record-review/README.md) applies 22 cells across four existing records after 104 field assessments. Qualify the missing Aurora original, distinguish calendar terms and proposed extensions, and preserve Berne's original BESS scope. Four Aurora material changes are withheld; all four whole-record dispositions remain unresolved. Two available-source mappings were repaired without refetch; seven native body mappings verify with zero gaps.
+
 The [Maine review](work/research/2026-11-07/maine-policy-source-review/README.md) applies six cells across three records after 114 independent field assessments. Correct a section-specific proposed repeal, session-law year, original/amendment sponsor roles, expansion-property coverage and utility-exception qualifications. All census totals and permanent IDs remain unchanged. Nine additional source versions and 24 native mappings preserve the evidence; current-force and study-submission gaps remain open.
 
 The [Maryland review](work/research/2026-11-07/maryland-policy-source-review/README.md) applies 59 fields across thirteen existing rows and adds three separately sourced Senate companions plus the governor's September 23 executive order. Raw policy rows become 447, bill-type rows 429 and enacted bill-type rows remain 93. Preserve all old IDs and distinct House/Senate outcomes; record a research-data platform scope exclusion separately without deleting its historical row or publishing adjusted totals. The governor order conditions state review and support; it is not a statewide moratorium or an enacted tax-exemption repeal.
@@ -167,7 +169,7 @@ These are inventory classifications, not independently renewed legal-force findi
 | Classified active or extended | **1079** |
 | Pending or not yet effective | **79** |
 | Ended (replaced, expired, or rescinded) | **172** |
-| Rows we still want to confirm (`[VERIFY]`) | **728** |
+| Rows we still want to confirm (`[VERIFY]`) | **731** |
 | States with at least one | **47** |
 
 Current totals remain 1,330 local records (1,079 active/extended classifications),

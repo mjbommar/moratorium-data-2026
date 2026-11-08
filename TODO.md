@@ -2,6 +2,8 @@
 
 Plan: [Research modernization and ballot-measure expansion](docs/research-and-ballot-expansion-plan.md).
 
+- [x] Apply 22 adjudicated New York BESS cells with full guards and recomputed annotations; retain four unresolved records and the explicit Aurora original-source gap. [Packet](work/research/2026-11-07/ny-battery-record-review/README.md).
+
 - [x] Tighten rule-unit literal-source and role-conflict checks, preserving raw clauses and unresolved denominators; 27 focused tests pass. This is development coverage, not P4 quality acceptance.
 - [ ] Complete pre-validation raw-response capture and prospective review-consumer accounting, then freeze and evaluate fresh calibration/holdout evidence before any new automatic extraction batch.
 
