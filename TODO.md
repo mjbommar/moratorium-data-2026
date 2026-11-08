@@ -2,6 +2,8 @@
 
 Plan: [Research modernization and ballot-measure expansion](docs/research-and-ballot-expansion-plan.md).
 
+- [x] Apply 62 adjudicated Michigan fields across all 14 existing records after 266 field assessments; preserve 205 verified source spans, 32 native mappings, two held values and explicit later-history/current-force gaps. [Packet](work/research/2026-11-07/michigan-policy-source-review/README.md).
+
 - [x] Apply 22 adjudicated New York BESS cells with full guards and recomputed annotations; retain four unresolved records and the explicit Aurora original-source gap. [Packet](work/research/2026-11-07/ny-battery-record-review/README.md).
 
 - [x] Tighten rule-unit literal-source and role-conflict checks, preserving raw clauses and unresolved denominators; 27 focused tests pass. This is development coverage, not P4 quality acceptance.
