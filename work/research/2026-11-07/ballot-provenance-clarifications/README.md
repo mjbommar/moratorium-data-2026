@@ -13,3 +13,5 @@ This adds four claims, nineteen decisions and one provenance-only result version
 Certification/recount, final issued ballot, operative-law and current-force authorities remain separate. Full inventory freshness, P4, consumer updates and final release are still open.
 
 The [validation receipt](validation.json) records a successful `make data site check`: zero errors, 505 warnings and all 68 documented numbers matching. Fourteen focused ballot-summary tests passed using existing native BC Python.
+
+The [selected hosted-file check](hosted-selected-files.json) downloaded six actual responses after successful Pages deployment of `0d57c4b`, including updated measure notes, successor results, appended review decisions and the result CSV. Every response returned HTTP 200 and matched the specified commit byte for byte. This verifies those delivered files only.

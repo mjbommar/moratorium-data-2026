@@ -1,0 +1,70 @@
+{
+  "checked_at": "2026-11-08T03:55:46.207974+00:00",
+  "commit": "0d57c4bbb2bfd88fed87c864a20efd3550f412aa",
+  "pages_run": 42444016884,
+  "pages_conclusion": "success",
+  "base_url": "https://mjbommar.github.io/moratorium-data-2026/",
+  "files": [
+    {
+      "path": "docs/ballot-results.html",
+      "status": 200,
+      "sha256": "44366d41fc9c4fdb908076603f531fbca58cdf25c6367ef722f97b205e81dca3",
+      "expected_sha256": "44366d41fc9c4fdb908076603f531fbca58cdf25c6367ef722f97b205e81dca3",
+      "bytes": 42096,
+      "expected_bytes": 42096,
+      "matches": true,
+      "observed_at": "2026-11-08T03:55:44.755416+00:00"
+    },
+    {
+      "path": "data/expanded/publication.json",
+      "status": 200,
+      "sha256": "cc4960be8e5584059e0fe9e33df23418fede72a4406fe2bfeb54b0b81ae85c56",
+      "expected_sha256": "cc4960be8e5584059e0fe9e33df23418fede72a4406fe2bfeb54b0b81ae85c56",
+      "bytes": 2592281,
+      "expected_bytes": 2592281,
+      "matches": true,
+      "observed_at": "2026-11-08T03:55:45.414163+00:00"
+    },
+    {
+      "path": "data/expanded/ballot_measures.jsonl",
+      "status": 200,
+      "sha256": "c13ca26d3904f74f8e9af38b02ab20db5cb949e88967966a1d5c9c7c7e364911",
+      "expected_sha256": "c13ca26d3904f74f8e9af38b02ab20db5cb949e88967966a1d5c9c7c7e364911",
+      "bytes": 65431,
+      "expected_bytes": 65431,
+      "matches": true,
+      "observed_at": "2026-11-08T03:55:45.566699+00:00"
+    },
+    {
+      "path": "data/expanded/measure_results.jsonl",
+      "status": 200,
+      "sha256": "b206636a58778ab9b1bf752b514fb58870d538efd856245cac291de3885cb59d",
+      "expected_sha256": "b206636a58778ab9b1bf752b514fb58870d538efd856245cac291de3885cb59d",
+      "bytes": 141493,
+      "expected_bytes": 141493,
+      "matches": true,
+      "observed_at": "2026-11-08T03:55:45.792096+00:00"
+    },
+    {
+      "path": "data/expanded/review_decisions.jsonl",
+      "status": 200,
+      "sha256": "4f45b16a28911dfd57fec21233403cf8e04292cbc9fcc99f2b6a8c1fad24274f",
+      "expected_sha256": "4f45b16a28911dfd57fec21233403cf8e04292cbc9fcc99f2b6a8c1fad24274f",
+      "bytes": 1617240,
+      "expected_bytes": 1617240,
+      "matches": true,
+      "observed_at": "2026-11-08T03:55:46.027667+00:00"
+    },
+    {
+      "path": "data/expanded-csv/measure_results.csv",
+      "status": 200,
+      "sha256": "b576672b7cbda82ef966ae7bc28963c7911bb529e94c5ad6270dd01c73aeada1",
+      "expected_sha256": "b576672b7cbda82ef966ae7bc28963c7911bb529e94c5ad6270dd01c73aeada1",
+      "bytes": 108882,
+      "expected_bytes": 108882,
+      "matches": true,
+      "observed_at": "2026-11-08T03:55:46.207939+00:00"
+    }
+  ],
+  "scope": "Six selected actual responses compared byte-for-byte with the successful deployed commit, including successor results, updated measure note and appended review rationale. Not whole-site or final-release attestation."
+}
