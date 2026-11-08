@@ -221,3 +221,8 @@ foreign key and an elapsed date do not establish ballot appearance.
 ## Clarksville conditional referendum calls
 
 The [reviewed proposals](../work/research/2026-11-07/clarksville-proposal-publication/README.md) separately identify SF ARK1 Ordinance 26-1008 and HATCHBO Ordinance 26-1007. Their signed September 28 referrals call December 1, 2026 with December 8 as an alternate if the first date is unlawful. Final dates and ballots remain unconfirmed. Both are future proposals with unknown date bounds and original conditional text; a provisionally shared intended-election link does not prove joint final administration or actual appearance. Proposed petition voting direction remains a source observation; final referendum effect, bindingness and development-relative direction are unresolved. Neither bond authorization ceiling establishes spending, a project approval or an operative restriction.
+
+
+## Classification corrections and observation clocks
+
+A result successor may correct the interpretation of an existing source. Trenton's [unofficial classification correction](../work/research/2026-11-07/trenton-result-classification/README.md) preserves the original report, vote values and recorded acquisition time. Its later `observed_at` identifies the classification review; the per-field `value_methods` note explains that distinction in JSONL and CSV. The additional observation and text-derivation source are retained versions, not another election, new votes, a newly certified result or a new retrieval. Consult the source's recorded `retrieved_at`, underlying acquisition metadata and field provenance separately from a correction's review time.

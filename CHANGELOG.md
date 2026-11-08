@@ -2,6 +2,8 @@
 
 ## 2026-11-07 — current working snapshot (unreleased)
 
+The [Trenton classification correction](work/research/2026-11-07/trenton-result-classification/README.md) adds an immutable successor marking the historical report unofficial, with unchanged votes/precincts and explicit review-time provenance. Retain the original result/source and a separate heading extraction from the same body. Expanded tables now retain 59 result versions, 155 source versions, 571 claims and 2,541 decisions; measures/current observations/current certified observations remain 53/50/5. No fresh return, vote change, certification or legal-force finding is claimed.
+
 The [Minnesota terminal-status review](work/research/2026-11-07/minnesota-terminal-status-review/README.md) changes 33 fields across eleven bills: unsupported terminal classifications become unknown, with prior status assertions retained as explicitly unverified legacy text. All twelve rows were considered; HF 16’s enactment remains supported and unchanged. Thirty-four native source mappings verify with zero gaps. Policy/bill/enacted-bill totals remain 447/428/92; later outcomes and the wider field review remain open.
 
 Correct HF 3793’s sponsor-capture error from two retained official versions: [nine displayed authors](work/research/2026-11-07/minnesota-hf3793-sponsor-correction/README.md), no inferred party or renewed terminal-status conclusion. All headline counts remain unchanged; broader Minnesota review is incomplete.

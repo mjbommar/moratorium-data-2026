@@ -136,7 +136,7 @@ def render(rows, snapshot):
               'A reported approval does not automatically add an in-force legacy moratorium. '
               'See [scope and interpretation](ballot-measures.md) for unresolved legal implementation.','',
               f'{len(results)} result observations are retained, including explicitly superseded history. '
-              'This view excludes superseded observations without deleting them.','',
+              'This view excludes superseded observations without deleting them. Classification or provenance corrections can add a successor without new votes or a new retrieval; consult source acquisition times and the result value_methods notes.','',
               '## Sources for reported outcomes','']
     for result in sorted(live,key=order):
         measure=rows['ballot_measures'][result['measure_id']]
@@ -145,7 +145,7 @@ def render(rows, snapshot):
                  for cid in result.get('value_methods',{}).get('reported_outcome',{}).get('claim_ids',[])}
         if sources:
             lines.append('- '+cell(jurisdiction['name'])+': '+', '.join('[reported-outcome source](<'+url+'>)' for url in sorted(sources))+'.')
-    lines += ['',f'Pinned canonical snapshot: `{snapshot}`. Source observation times remain in the JSONL records; '
+    lines += ['',f'Pinned canonical snapshot: `{snapshot}`. Source acquisition times and result review-time explanations remain in the records; '
               'this generation is not a renewed current-force check.','',
               f'[Canonical publication protocol](expanded-promotion.md) · [Raw reviewed tables](../data/expanded-snapshots/{snapshot}/ballot_measures.jsonl)','']
     return '\n'.join(lines)

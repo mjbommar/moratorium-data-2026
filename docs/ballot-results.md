@@ -52,7 +52,7 @@ Yes-vote direction follows the question wording. Advisory results express voter 
 | [Perry, OH — Issue 16](<https://webapps.lakecountyohio.gov/boe/web1.pdf>) | 2026-11-03 | scope not recorded | unresolved | unresolved | 946 | 140 | unknown | unknown | unofficial | unknown |
 | [Piqua, OH — Charter Amendment — Data Centers](<https://www.boe.ohio.gov/miami/c/elecres/20261103results.pdf>) | 2026-11-03 | scope not recorded | unresolved | unresolved | 4061 | 2027 | unknown | 6242 | unofficial | unknown |
 | [Sunbury, OH — Prohibition of Construction of a Data Center](<https://vote.delawarecountyohio.gov/wp-content/uploads/2026/11/Delawares-Unofficial-Summary-Report.pdf>) | 2026-11-03 | scope not recorded | binding | restricts | 2809 | 763 | unknown | unknown | unofficial | unknown |
-| [Trenton, OH — Issue 17](<https://liveresults.boe.ohio.gov/ENR/butlerohenr/24/en/Index_24.html>) | 2026-11-03 | scope not recorded | unresolved | unresolved | 3541 | 903 | unknown | unknown | unknown | unknown |
+| [Trenton, OH — Issue 17](<https://liveresults.boe.ohio.gov/ENR/butlerohenr/24/en/Index_24.html>) | 2026-11-03 | scope not recorded | unresolved | unresolved | 3541 | 903 | unknown | unknown | unofficial | unknown |
 | [Upper Sandusky, OH — Charter Amendment Prohibition of a Data Center](<https://www.boe.ohio.gov/wyandot/c/elecres/20261103results.pdf>) | 2026-11-03 | scope not recorded | unresolved | unresolved | 1893 | 568 | unknown | unknown | unofficial | unknown |
 | [Urbana, OH — Urbana City Charter Amendment - Data Centers](<https://www.boe.ohio.gov/champaign/c/elecres/20261103results.pdf>) | 2026-11-03 | scope not recorded | unresolved | unresolved | 2978 | 877 | unknown | unknown | unofficial | unknown |
 | [Wilmington, OH — O-26-06](<https://www.boe.ohio.gov/clinton/c/elecres/20261103results.pdf>) | 2026-11-03 | scope not recorded | binding | facilitates | 724 | 2887 | unknown | unknown | unofficial | unknown |
@@ -113,7 +113,7 @@ Relationship acceptance is separate from instrument status. A `proposes` link do
 
 Reported outcomes and certification are separate from calculated passage rules, operative dates and legal force. A reported approval does not automatically add an in-force legacy moratorium. See [scope and interpretation](ballot-measures.md) for unresolved legal implementation.
 
-58 result observations are retained, including explicitly superseded history. This view excludes superseded observations without deleting them.
+59 result observations are retained, including explicitly superseded history. This view excludes superseded observations without deleting them. Classification or provenance corrections can add a successor without new votes or a new retrieval; consult source acquisition times and the result value_methods notes.
 
 ## Sources for reported outcomes
 
@@ -121,6 +121,6 @@ Reported outcomes and certification are separate from calculated passage rules, 
 - Eliot: [reported-outcome source](<https://www.bangordailynews.com/2026/11/05/politics/elections/maine-election-towns-temporary-data-center-bans/>).
 - Sabattus: [reported-outcome source](<https://www.bangordailynews.com/2026/11/05/politics/elections/maine-election-towns-temporary-data-center-bans/>).
 
-Pinned canonical snapshot: `45abb667f3a2d8c0001de0a78657c9b095e56cab421f5d93302d88fbcb91d9a7`. Source observation times remain in the JSONL records; this generation is not a renewed current-force check.
+Pinned canonical snapshot: `728c844addfe2c1ca8ec08bfe01480d8e2289f4c2f20faf1032a918f289b006a`. Source acquisition times and result review-time explanations remain in the records; this generation is not a renewed current-force check.
 
-[Canonical publication protocol](expanded-promotion.md) · [Raw reviewed tables](../data/expanded-snapshots/45abb667f3a2d8c0001de0a78657c9b095e56cab421f5d93302d88fbcb91d9a7/ballot_measures.jsonl)
+[Canonical publication protocol](expanded-promotion.md) · [Raw reviewed tables](../data/expanded-snapshots/728c844addfe2c1ca8ec08bfe01480d8e2289f4c2f20faf1032a918f289b006a/ballot_measures.jsonl)
