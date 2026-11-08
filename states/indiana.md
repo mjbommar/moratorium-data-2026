@@ -447,7 +447,7 @@ State policy is tracked separately: **10 records** (10 typed bill rows) in [`sta
 - **What prompted it:** County desire to create a local ordinance and advisory group before accepting qualified data center applications
 - **Affected projects:** County pause on qualified data center applications; separate City of Shelbyville-Prologis project proceeded through city annexation and rezoning
 - **Detailed status:** Resolution 2026-02 specifies an end at the earlier of a governing data-center ordinance taking effect or August 23, 2026, correcting the baseline August 22 date. The prior inventory separately reported adoption of permanent Ordinance 2026-17 on August 24; that later act was not reverified here. [VERIFY: actual termination, intervening extension, permanent ordinance and later actions; replaced classification retained provisionally.]
-- **Outcome:** Board of Commissioners unanimously (3-0) adopted Ordinance 2026-17 on 2026-08-24, creating a permanent Data Center Overlay Text Amendment to the county's Unified Development Ordinance, after three rounds of Ordinance Review Committee review and three rounds of Plan Commission review.
+- **Outcome:** Resolution 2026-02 set a data-center application pause until the earlier of a governing ordinance taking effect or August 23, 2026. The prior inventory, citing The Addison Times, reported that the Board of Commissioners unanimously (3-0) adopted Ordinance 2026-17 on August 24, 2026, creating a permanent Data Center Overlay Text Amendment to the county Unified Development Ordinance after three rounds of Ordinance Review Committee review and three rounds of Plan Commission review. The August 24 agenda alone does not establish that vote; the earlier news source body was unavailable at its recorded path in this review, and actual termination was not established.
 
 ### Starke County
 
@@ -478,7 +478,7 @@ State policy is tracked separately: **10 records** (10 typed bill rows) in [`sta
 - **Legal basis:** Ordinance Number 02 of 2026 and Ordinance Number 03 of 2026 (extending BESS and CSES moratoriums)
 - **What prompted it:** Need to finish regulations for BESS and Commercial Solar Energy Systems before permits can issue
 - **Affected projects:** —
-- **Detailed status:** Expired 2026-07-25 (last confirmed extension); Starke County Board of Commissioners extended existing moratoriums on Battery Energy Storage Systems and Commercial Solar Energy Systems through that date on 2026-02-17. No further extension or permanent ordinance confirmed as of 2026-09-23. [VERIFY instrument number; primary source (news-only evidence) not confirmed at confidence 0.55 in the 2026-09 refresh]
+- **Detailed status:** County adoption notices dated February 17, 2026 state Ordinance 02 extended the commercial solar moratorium and Ordinance 03 extended the BESS moratorium through July 25, 2026. [VERIFY: original instruments, later extension or replacement, actual termination and present force.]
 - **Outcome:** Extension term lapsed; status after July 25, 2026 not confirmed
 
 ### Steuben County
@@ -511,7 +511,7 @@ State policy is tracked separately: **10 records** (10 typed bill rows) in [`sta
 - **What prompted it:** Impact of large-scale ground-mounted solar on drainage, agricultural capacity, and decommissioning adequacy
 - **Affected projects:** —
 - **Detailed status:** Codified original text specifies June 16, 2025 through June 15, 2026 for the covered solar moratorium. [VERIFY: any extension, replacement or other later action; expired classification retained provisionally, not newly confirmed by codification alone.]
-- **Outcome:** Term lapsed; not renewed as of research date
+- **Outcome:** Ordinance 2025-20-CM specified a June 16, 2025 through June 15, 2026 moratorium period for covered large-scale solar systems. [VERIFY: renewal, extension, replacement or other subsequent action.]
 
 ### Valparaiso (Porter County)
 

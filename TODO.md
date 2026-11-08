@@ -2,7 +2,22 @@
 
 Plan: [Research modernization and ballot-measure expansion](docs/research-and-ballot-expansion-plan.md).
 
-## Active: wall-clock process reset
+## Active: finish the dataset update
+
+The user reset the active goal to dataset closeout on November 8. Publish the reviewed data with explicit coverage and unresolved facts; experimental extraction/P4 and the larger research-modernization program remain separately tracked below.
+
+- [x] Finish the 225-record primary/independent review cohort and adjudicate its pending correction queue.
+- [x] Apply the last 63 substantive cells and 36 verification fields; preserve all raw IDs and explicit scope limitations.
+- [x] Prepare November citation metadata and dataset release notes.
+- [x] Complete final data/release checks and pin the release source.
+- [ ] Build, restore and publish the dataset release with its verified assets.
+- [ ] Verify downloaded release assets and selected hosted data; record the final release receipt.
+
+## Research-modernization program backlog
+
+The original plan remains a broader research program. Its open items are not claims that this coordinator-reviewed dataset release uses an accepted automatic extractor.
+
+## Earlier wall-clock process reset
 
 Execution design: [Process reset](docs/process-reset-plan-2026-11-08.md).
 The user reactivated the goal on November 8. The full research/release scope and

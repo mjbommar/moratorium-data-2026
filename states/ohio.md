@@ -251,7 +251,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 - **Legal basis:** Ashtabula Township Board of Trustees 12-month moratorium on issuing permits for data centers (resolution number not located)
 - **What prompted it:** The Growth Partnership for Ashtabula County lists Ashtabula Township as a candidate data center area (Risberg pipeline extension, fiber, water, grid). Trustees want time to study it.
 - **Affected projects:** None named. The township is a Growth Partnership candidate area.
-- **Detailed status:** Active as of 2026-09-23; 12-month moratorium adopted about 2026-06-10 runs to about 2027-06-10. [VERIFY instrument number; primary source (news-only evidence) not confirmed at confidence 0.65 in the 2026-09 refresh]
+- **Detailed status:** June 12, 2026 reporting describes a twelve-month data-center permitting moratorium adopted at the preceding Wednesday meeting, June 10 by calendar inference. Effective date, underlying resolution and later action remain unverified. [VERIFY: operative instrument and subsequent action.]
 - **Outcome:** Township will not issue data center permits during the moratorium; trustees plan to study and hold a resident input meeting.
 
 ### Athens
@@ -267,14 +267,14 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 - **Legal basis:** City of Athens Ordinance 70-26 (0-70-26), temporary moratorium on data centers (AI and large-scale data storage), emergency measure
 - **What prompted it:** A New York developer (Saadia Holding LLC) is eyeing about 300 acres in Athens and Dover townships across U.S. 33 from Athens High School. The city has no data center zoning standards. Energy, water and air-quality concerns were raised.
 - **Affected projects:** Proposed Saadia Holding data center site on U.S. 33 is outside city limits (not directly covered).
-- **Detailed status:** Active as of 2026-09-23; one-year moratorium adopted 2026-08-03 runs to about 2027-08-03, extendable one year administratively.
+- **Detailed status:** An August 6, 2026 report describes unanimous August 3 adoption of Ordinance 70-26 for a one-year data-center moratorium, with a possible administrative extension. Final signed text, effectiveness and later action remain unverified. [VERIFY: enacted ordinance and subsequent action.]
 - **Outcome:** City to hire a consultant to assess data center impacts and amend the zoning code.
 
 ### Athens Township (Athens County)
 
 - **Type:** Township
 - **Recorded status:** 🟢 Active
-- **Date enacted:** 2026-08-01 (Board of Trustees special session, Saturday; Resolution 08-01-2026 adopted unanimously)
+- **Date enacted:** 2026-08-01, adoption reported by the township; vote and signed instrument unverified.
 - **Normalized date:** `2026-08-01` (exact)
 - **Duration:** Posted clean resolution states twelve months from effectiveness, subject to earlier repeal/replacement; actual adopted term not established.
 - **Current end date:** `—`
@@ -283,7 +283,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 - **Legal basis:** Athens Township Trustees Resolution 08-01-2026, temporary moratorium on receipt, processing or approval of zoning certificate applications for data center development in the zoned portion of the township (The Plains), under R.C. 519.02
 - **What prompted it:** A New York developer is considering about 300 acres on U.S. 33 across from Athens High School, in Athens and Dover townships. The zoning code does not address data centers.
 - **Affected projects:** Proposed data center (New York developer, reported as Saadia Holding LLC) on about 300 acres along U.S. 33 across from Athens High School. Part of that land is in unzoned areas.
-- **Detailed status:** The township-posted clean resolution text states twelve months from effectiveness, subject to earlier repeal/replacement, but mover, vote and signature fields are blank. Final adopted text, actual vote and operative interval remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
+- **Detailed status:** The township reports adoption of Resolution 08-01-2026 on August 1. A posted clean text states twelve months from effectiveness but its vote and signature fields are blank; final terms, vote, effectiveness and subsequent action remain unverified. [VERIFY: signed resolution, vote and later action.]
 - **Outcome:** Zoning Commission directed to study and draft data center amendments (districts, setbacks, noise, water, electrical, generators, decommissioning).
 
 ### Aurora
@@ -299,7 +299,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 - **Legal basis:** City of Aurora (Portage County) Ordinance 2026-117 (emergency), moratorium on filing, consideration and issuance of zoning/occupancy permits involving data centers
 - **What prompted it:** Precaution: the zoning code does not permit data centers, but the administration wanted time for a zoning-code consultant to review whether more rules are needed; regional Portage County data center controversy.
 - **Affected projects:** None named.
-- **Detailed status:** Posted Ordinance 2026-117 states twelve months from effectiveness or earlier applicable code changes. Actual effectiveness and subsequent amendments/termination were not independently established. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
+- **Detailed status:** Signed Ordinance 2026-117 shows adoption, mayoral approval and effectiveness on June 30, 2026. It states a twelve-month term subject to earlier code changes or revocation; subsequent action remains unverified. [VERIFY: later amendment or termination.]
 - **Outcome:** City to study and possibly adopt data center regulations as part of its zoning code review.
 
 ### Avon
@@ -315,7 +315,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 - **Legal basis:** Ordinance 37-26 (text confirmed via cityofavon.com PDF capture)
 - **What prompted it:** Increased interest in data centers and need to study state codes, local ordinances, and regulatory controls
 - **Affected projects:** Future permitted, special, accessory, zoning, building, occupancy, site plan, and related approvals for data centers
-- **Detailed status:** Active as of 2026-09-23; Ordinance No. 37-26 (emergency) passed 7-0 on 2026-04-13, approved by the mayor 2026-04-14, runs through 2027-04-14 (extendable up to 6 months). No repeal or replacement zoning found.
+- **Detailed status:** Certified Ordinance 37-26 records passage April 13 and mayoral approval April 14, 2026, with a stated April 14, 2027 endpoint and possible extension; council minutes record a 7-0 vote. Earlier inventory reported no repeal or replacement zoning found; the scope of that earlier search and later force remain unverified. [VERIFY: subsequent action.]
 - **Outcome:** Planning Commission directed to begin data center regulatory study at next regular meeting
 
 ### Avon Lake
@@ -331,7 +331,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 - **Legal basis:** City of Avon Lake Ordinance 26-60, a one-year moratorium on the development or construction of data centers
 - **What prompted it:** The zoning code has no data center definition, so a facility would fall under general industrial use. The council president cited aggressive data center developers entering Ohio communities, and the legislature had not acted.
 - **Affected projects:** None named.
-- **Detailed status:** Posted Ordinance 26-60 states a moratorium beginning at effectiveness and running through June 22, 2027. This is an explicit endpoint rather than a fixed 365-day term; actual commencement and later changes remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
+- **Detailed status:** Signed Ordinance 26-60 records passage June 22 and mayoral approval June 23, 2026, when its terms say it became effective. It states an endpoint of June 22, 2027; subsequent changes remain unverified. [VERIFY: later action.]
 - **Outcome:** Study, plan and draft data center regulations, possibly making data centers a conditional use needing Planning Commission and council review; build an economic development strategy.
 
 ### Barberton
@@ -347,7 +347,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 - **Legal basis:** Resolution/Ordinance No. 157-2025 (emergency) instituting a moratorium on data centers within Barberton; later Ordinance No. 50-2026 (passed 2026-04-13) amending Resolution 164-2023 to add data centers to the moratorium on zoning permits until adoption of the new zoning code
 - **What prompted it:** Response to Norton's data center controversy (Quantum HPC 'Project Triton'); council said Barberton has little open land and data centers do not contribute to economic development; wanted time to add data center rules after the new development code is adopted.
 - **Affected projects:** None in Barberton; prompted by Quantum HPC's proposal in neighboring Norton.
-- **Detailed status:** Active as of 2026-09-23; open-ended moratorium adopted 2025-11-10 (No. 157-2025), reinforced 2026-04-13 by No. 50-2026 which holds data center zoning permits until the new zoning code is adopted.
+- **Detailed status:** November 20, 2025 reporting describes a November 10 indefinite data-center moratorium. Earlier review attributed Ordinance 157-2025 and April 13, 2026 Ordinance 50-2026, including a zoning-code condition, to city ordinance texts; the two recent retained official fetches are error pages and do not independently verify those texts. Updated code and later force remain unverified. [VERIFY: ordinances and code status.]
 - **Outcome:** Council imposed an indefinite moratorium, intending to add data center regulations to its new development code and then cancel the moratorium; in April 2026 folded data centers into its broader zoning-permit moratorium pending the new code.
 
 ### Bazetta Township
@@ -363,7 +363,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 - **Legal basis:** Trustee Resolution 085-26 imposing a 180-day moratorium on the acceptance of applications, permitting and construction of data centers in Bazetta Township (township zoning, R.C. Chapter 519)
 - **What prompted it:** Preemptive: no data center applications yet, but the zoning commission needs time to write data center regulations into the township zoning code.
 - **Affected projects:** None; no companies had applied.
-- **Detailed status:** Active as of 2026-09-23; 180-day moratorium adopted 2026-05-12 runs to about 2026-11-08; zoning commission drafting data center language (Sept. 9 meeting).
+- **Detailed status:** May 12, 2026 trustee minutes record passage of Resolution 085-26 for a 180-day data-center moratorium, 3-0. Earlier inventory reports zoning commission drafting data center language at its September 9 meeting. The effective anchor, any renewal and later force are unverified. [VERIFY: operative resolution and later action.]
 - **Outcome:** Trustees adopted a 180-day moratorium while the zoning commission drafts data center zoning requirements.
 
 ### Bellevue
@@ -396,7 +396,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 - **What prompted it:** Study of infrastructure, utilities, environmental effects, resident concerns, and long-term planning implications of data centers
 - **Affected projects:** —
 - **Detailed status:** Signed Ordinance 2026-33 records June 15 passage and mayoral approval. Its title states a temporary permit moratorium not to exceed one year, while section 2 says Council recommends that moratorium. The legal effect of this wording, operative interval and later action remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
-- **Outcome:** Council approved Ordinance 6-6, an emergency measure imposing a moratorium of up to one year on permits and permit applications for data centers
+- **Outcome:** Council passed signed Ordinance 2026-33; its title describes a moratorium of up to one year, while section 2 recommends one. Operative effect and later action remain unresolved.
 
 ### Blanchester
 
@@ -411,7 +411,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 - **Legal basis:** Ordinance 2026.007, "Ordinance Establishing Data Center Moratorium"
 - **What prompted it:** General council concern that the village electric grid could not support a data center's power needs, plus unresolved questions about energy sourcing raised at a council-attended data-center webinar; no specific project or applicant was pending.
 - **Affected projects:** Not specified
-- **Detailed status:** Ordinance 2026.007 states two years from effectiveness, with section 3 stating immediately or the earliest date allowed by law. Actual effectiveness, publication conditions and later action were not established. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
+- **Detailed status:** Signed Ordinance 2026.007 records March 12, 2026 adoption and a two-year term from effectiveness. Its certificate recites posting beginning March 16; the legal effective date and subsequent action remain unverified. [VERIFY: effectiveness and later action.]
 - **Outcome:** No data-center-related zoning or council action has followed the March 12, 2026 adoption; council minutes for April 9, May 14, and June 11, 2026 (the most recent available) contain no further mention of data centers or the moratorium.
 
 ### Boardman Township
@@ -2411,7 +2411,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 - **Legal basis:** Ordinance 2025-13; extended by Ordinance 2026-14 (adopted 2026-07-06 as an emergency measure, readings waived)
 - **What prompted it:** Proposed EdgeConneX project, resident opposition, infrastructure and zoning capacity concerns
 - **Affected projects:** Proposed EdgeConneX data center near Ashville
-- **Detailed status:** Extended via Ordinance 2026-14, adopted as an emergency measure at the 2026-07-06 Council meeting, imposing another 180-day moratorium (through approximately 2027-01-02); succeeds the original Ordinance 2025-13 (expired 2026-06-20). Active as of 2026-09-23; unaffected by the separate dispute below over the EdgeConneX development agreement. Separately, the underlying EdgeConneX development agreement (Resolution 06-2026, adopted 2026-04-06 as an emergency measure and exempted from the village's own data center moratorium) remains contested. The Ohio Supreme Court ruled 2026-08-07 (State ex rel. McNamara-Smith v. Grube) that Ashville's fiscal officer improperly refused to certify a citizen referendum petition against Resolution 06-2026 because the emergency declaration was not adequately justified; the Pickaway County Board of Elections then voted unanimously to place the referendum on the 2026-11-03 general-election ballot. Village Council subsequently introduced Resolution 16-2026 to repeal Resolution 06-2026 outright and moot the referendum; a 2026-09-08 motion to waive the second and third readings and pass it immediately fell short of the five-vote supermajority required (final tally of 4 in favor, after Mayor Clark broke an initial 3-3 tie, which the council's own rules held insufficient), and at the 2026-09-21 meeting Council instead advanced the repeal to a third reading scheduled for 2026-10-05. As of 2026-09-23, Resolution 06-2026 has not been repealed and the referendum remains scheduled for the November ballot.
+- **Detailed status:** July 7, 2026 reporting states Council adopted Ordinance 2026-14 on July 6 as an emergency, imposing another 180-day moratorium. The earlier inventory reported that this succeeded Ordinance 2025-13, recorded as ending June 20, 2026; the signed ordinance and effective anchor are unverified. As of September 23, earlier review recorded: Separately, the underlying EdgeConneX development agreement (Resolution 06-2026, adopted 2026-04-06 as an emergency measure and exempted from the village's own data center moratorium) remains contested. The Ohio Supreme Court ruled 2026-08-07 (State ex rel. McNamara-Smith v. Grube) that Ashville's fiscal officer improperly refused to certify a citizen referendum petition against Resolution 06-2026 because the emergency declaration was not adequately justified; the Pickaway County Board of Elections then voted unanimously to place the referendum on the 2026-11-03 general-election ballot. Village Council subsequently introduced Resolution 16-2026 to repeal Resolution 06-2026 outright and moot the referendum; a 2026-09-08 motion to waive the second and third readings and pass it immediately fell short of the five-vote supermajority required (final tally of 4 in favor, after Mayor Clark broke an initial 3-3 tie, which the council's own rules held insufficient), and at the 2026-09-21 meeting Council instead advanced the repeal to a third reading scheduled for 2026-10-05. As of 2026-09-23, Resolution 06-2026 has not been repealed and the referendum remains scheduled for the November ballot. [VERIFY: signed ordinance, later repeal disposition and referendum result.]
 - **Outcome:** Resolution 06-2026 authorized a development/consultant-funding agreement (Term Summary, Exhibit A) with EdgeConneX/PowerConneX, allocating $39,300 for GAI Consultants' independent technical review of the proposed project. It did not repeal the moratorium, which was instead independently extended by Ordinance 2026-14 on 2026-07-06. As of 2026-09-23, Resolution 06-2026 itself remains legally intact but contested: the Ohio Supreme Court ordered the village to certify a citizen referendum against it (decided 2026-08-07), the referendum is on the 2026-11-03 ballot, and a Council attempt to repeal Resolution 06-2026 and moot that vote (Resolution 16-2026) has twice failed to gather the votes needed to advance quickly and is now set for a third reading on 2026-10-05.
 
 ### Village of Lordstown

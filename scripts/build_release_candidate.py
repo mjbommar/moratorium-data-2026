@@ -113,6 +113,11 @@ def select_files(commit, names):
                 path = evidence['path']
                 assert path.startswith('work/research/') and '..' not in Path(path).parts
                 exact.add(path)
+    # Include the public closeout receipts and release copy from the selected tree.
+    exact.update(n for n in names if n.startswith('work/research/2026-11-08/')
+                 and n.endswith(('.json', '.md')))
+    exact.update(n for n in ('README.md', 'CHANGELOG.md', 'data/release_metadata.json',
+                             'docs/release-notes-2026-11-08.md') if n in names)
     # Optional for older revisions: never select a path absent from the tree.
     exact.update(n for n in PUBLIC_NOV7_METADATA if n in names)
     exact.update(n for n in ('work/research/2026-11-08/alabama-field-reconciliation/README.md', 'work/research/2026-11-08/alabama-field-reconciliation/application.json', 'work/research/2026-11-08/alabama-field-reconciliation/native-source-continuity.json', 'work/research/2026-11-08/alabama-field-reconciliation/hosted-selected-files.json', 'work/research/2026-11-08/policy-scope-export-development/README.md', 'work/research/2026-11-08/policy-scope-export-development/validation.json', 'work/research/2026-11-08/alabama-batches3to5-reconciliation/README.md', 'work/research/2026-11-08/alabama-batches3to5-reconciliation/application.json', 'work/research/2026-11-08/alabama-batches3to5-reconciliation/native-source-continuity.json', 'work/research/2026-11-08/policy-scope-export-development/portable-checkpoint-verification.json', 'work/research/2026-11-08/policy-scope-export-development/hosted-selected-files.json', 'work/research/2026-11-08/al-ak-az-ar-batches6to8-reconciliation/README.md', 'work/research/2026-11-08/al-ak-az-ar-batches6to8-reconciliation/application.json', 'work/research/2026-11-08/al-ak-az-ar-batches6to8-reconciliation/native-source-continuity.json') if n in names)
@@ -156,8 +161,9 @@ def build(destination, revision):
                 path.write_bytes(data)
             subprocess.run([sys.executable, '-I', '-B', str(root / 'scripts/verify_release_candidate.py'),
                             '--scope-only', str(root)], check=True)
-    manifest = {'schema_version': '1.0.0', 'candidate_status': 'unreleased_preparation',
-                'source_commit': commit, 'working_cohort_cutoff': '2026-11-05',
+    release_metadata = json.loads(contents['data/release_metadata.json']) if 'data/release_metadata.json' in contents else {}
+    manifest = {'schema_version': '1.0.0', 'candidate_status': 'prepared_release_bundle' if release_metadata else 'unreleased_preparation',
+                'source_commit': commit, 'working_cohort_cutoff': release_metadata.get('research_cutoff', '2026-11-05'),
                 'scope': 'Public data and retained expanded publication history. Not proof of completed factual freshness, legal force, sibling synchronization or remote publication.',
                 'files': []}
     paper = git('show', commit+':paper/moratorium-nation-2026-04-30.pdf')
@@ -166,7 +172,9 @@ def build(destination, revision):
         'sha256': hashlib.sha256(paper).hexdigest(), 'bytes': len(paper),
         'disposition': 'Historical April edition; not synchronized to November data; linked rather than bundled.'}
     destination.mkdir(parents=True, exist_ok=True)
-    archive = destination/'moratorium-data-working-candidate.tar.gz'
+    asset_name = release_metadata.get('asset_name', 'moratorium-data-working-candidate.tar.gz')
+    assert re.fullmatch(r'[A-Za-z0-9_.-]+\.tar\.gz', asset_name), 'Invalid release asset basename'
+    archive = destination/asset_name
     with archive.open('wb') as raw:
         with gzip.GzipFile(filename='', mode='wb', fileobj=raw, mtime=0) as zipped:
             with tarfile.open(fileobj=zipped, mode='w') as tar:

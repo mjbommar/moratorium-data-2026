@@ -195,7 +195,7 @@ State policy is tracked separately: **11 records** (10 typed bill rows and 1 non
 - **Legal basis:** —
 - **What prompted it:** —
 - **Affected projects:** —
-- **Detailed status:** Reported active as of 2026-09-23 by Carina Energy's live tracker, expiring 2026-09-30. Searches for a dedicated Town of Allen source instead surfaced unrelated Allegany County BESS moratoria (Town of Allegany, Town of Alfred, Town of Friendship, Town of Wellsville) -- Allegany County has an unusually active cluster of separate town-level BESS moratoria with similar names, and no source specific to the Town of Allen itself was confirmed within this pass's research budget. [VERIFY instrument number; adoption date; primary source (news-only evidence) not confirmed at confidence 0.45 in the 2026-09 refresh]
+- **Detailed status:** Reported active as of 2026-09-23 by Carina Energy's tracker, with a September 30 endpoint reported in the earlier row. A tracker version marked updated October 2026 lists Allen, Allegany County as active for utility-scale BESS. The instrument and the relationship between these reports remain unverified. [VERIFY: instrument identity, term and subsequent action.]
 - **Outcome:** Reported active by tracker only
 
 ### Amsterdam

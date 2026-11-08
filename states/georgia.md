@@ -475,7 +475,7 @@ State policy is tracked separately: **9 records** (9 typed bill rows) in [`state
 - **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-04-14
 - **Normalized date:** `2026-04-14` (exact)
-- **Duration:** Indefinite
+- **Duration:** No fixed end date established in the reviewed minutes. The county attorney recommended the moratorium continue until the committee returns with proposed rules and regulatory guidelines.
 - **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `ga-decatur-county-2026`
@@ -514,7 +514,7 @@ State policy is tracked separately: **9 records** (9 typed bill rows) in [`state
 - **Legal basis:** Dougherty County Commission vote adopting a 45-day pause on data center projects
 - **What prompted it:** Growing statewide concern about data center development
 - **Affected projects:** Not identified in captured news coverage
-- **Detailed status:** Active/extended as of 2026-09-23; on 2026-08-31 the Board of Commissioners (special called meeting) extended the moratorium on new data center applications in unincorporated Dougherty County through 2027-02-27 while the Albany-Dougherty Planning Commission drafts zoning amendments. The county release reports a 6-1 vote; WALB reported every commissioner in favor.
+- **Detailed status:** The county reported on 2026-08-31 that commissioners voted 6-1 to extend the moratorium for up to 180 days through 2027-02-27, unless ended sooner by board action or new data-center zoning regulations become effective. The Albany-Dougherty Planning Commission was preparing zoning amendments. The prior inventory reports WALB described every commissioner as in favor. Whether an earlier termination condition occurred remains unverified. [VERIFY: operative instrument and termination condition]
 - **Outcome:** 45-day moratorium adopted 2026-07-20; extended 2026-08-31 for up to 180 days (to 2027-02-27) pending Albany-Dougherty Zoning Ordinance amendments.
 
 ### Douglas County
@@ -530,7 +530,7 @@ State policy is tracked separately: **9 records** (9 typed bill rows) in [`state
 - **Legal basis:** Douglas County Resolution 25-116, "Resolution: Moratorium Data Center Accessory" (PDF saved at research/_originals/Douglas-County-Moratorium-25-116-Resolution-Moratorium-Data-Center-Accessory_DouglasCounty.pdf, sourced from WWALS archive)
 - **What prompted it:** Proposal pipeline and need to update comprehensive plan and unified development code
 - **Affected projects:** Large computer infrastructure/data processing facilities; Amazon-linked land activity reported locally [VERIFY: no primary source confirming Amazon link captured]
-- **Detailed status:** Expired as of 2026-09-23; no extension, repeal, or replacement instrument was located. The county has instead handled subsequent data center proposals through its normal rezoning process: on July 8, 2026 the Douglas County Commission voted 4-1 to reject a rezoning request for a 4.4-million-square-foot data center project near the I-20 Liberty Road exit, following a contested public hearing, rather than reinstating any moratorium.
+- **Detailed status:** Resolution 25-116 established a moratorium effective on adoption for up to 90 days or until completion of the specified plan/code review and update, whichever occurs first. The actual termination trigger and later extensions or supersession remain unverified. The prior inventory reports that the county commission rejected a data-center rezoning request 4-1 on 2026-07-08; that separate event was not checked in this review. [VERIFY: termination and subsequent actions]
 - **Outcome:** Comprehensive plan and UDC review
 
 ### East Point (Fulton County)
@@ -562,7 +562,7 @@ State policy is tracked separately: **9 records** (9 typed bill rows) in [`state
 - **Legal basis:** Resolution 26-R-07 (90-day moratorium on annexation, rezoning, variance, and conceptual site plans for data centers; adopted unanimously per 2026-01-29 work session minutes)
 - **What prompted it:** Applications for annexation, rezoning, variances, and conceptual site plans for data centers
 - **Affected projects:** Crow Holdings Development / CHI Acquisitions, LP data center proposal north of Fayette Pavilion along Highway 85 N — denied at 2026-01-27 P&Z meeting; appeal filed to City Council and withdrawn 2026-03-18
-- **Detailed status:** Replaced by permanent ordinance on or before 2026-03-05
+- **Detailed status:** The city reports that new data centers were prohibited in all city zoning districts as of 2026-03-05 under Ordinance 26-0-12. The legal relationship to the 2026-01-29 moratorium and its termination remain unverified. [VERIFY: adopted ordinance and moratorium termination]
 - **Outcome:** Ordinance 26-O-12 amending UDO chapters 200 and 400 prohibits new data centers in every Fayetteville zoning district as of 2026-03-05 (per City of Fayetteville Data Center FAQs)
 
 ### Floyd County
@@ -578,8 +578,8 @@ State policy is tracked separately: **9 records** (9 typed bill rows) in [`state
 - **Legal basis:** County Commission vote approving an 80-day moratorium on data center projects
 - **What prompted it:** Allow work on an ordinance and a process requiring a public hearing for each future data center proposal
 - **Affected projects:** —
-- **Detailed status:** Replaced 2026-08-25; after a public hearing, the Floyd County Commission adopted a comprehensive data center ordinance (data centers permitted only in Heavy Industrial; utility-capacity studies, water limits, 600-ft residence setback, 65/55 dB(A) noise limits, decommissioning plans), ending the 80-day moratorium adopted 2026-06-09. Signed moratorium resolution number still not located. [VERIFY instrument number; primary source (news-only evidence) not confirmed at confidence 0.55 in the 2026-07 refresh]
-- **Outcome:** 80-day moratorium (2026-06-09) replaced by a permanent data center zoning ordinance adopted 2026-08-25 for unincorporated Floyd County (does not govern the City of Rome).
+- **Detailed status:** August 2026 WRGA reporting states that the county commission approved data-center regulations after a public hearing, including heavy-industrial zoning and detailed standards addressing utilities, noise, setbacks and decommissioning. Whether and when those regulations terminated the prior 80-day moratorium remains unverified. The signed moratorium and adopted ordinance were not inspected. [VERIFY: adopted instruments and termination]
+- **Outcome:** August 2026 county news reporting describes approval of data-center regulations, with data centers allowed only in heavy industrial zoning. The legal relationship to the earlier moratorium remains unverified.
 
 ### Forest Park
 
@@ -658,7 +658,7 @@ State policy is tracked separately: **9 records** (9 typed bill rows) in [`state
 - **Legal basis:** Griffin City Commission resolution on technological facilities (data centers and crypto mining), 2026-01-13 [VERIFY: news reporting confirms vote and 180-day duration; primary resolution number not located on city website as of 2026-04-29]
 - **What prompted it:** Unified development code did not specifically allow technological facilities, including data centers and crypto mining
 - **Affected projects:** No confirmed in-city project at vote
-- **Detailed status:** Replaced, as of 2026-09-23. On May 26, 2026 the Griffin Board of Commissioners voted unanimously to approve amendments to the Unified Development Code (UDC) establishing special-use-permit regulation of data centers in Planned Industrial Districts (PID), confirmed directly by the Griffin Daily News. Minor facilities (up to 10,000 sq ft) and major facilities (10,001-275,000 sq ft) are allowed with setback (1,000/1,500 ft from residences), buffer, noise, Tier 4F generator, decommissioning-bond, and development-agreement conditions; hyperscale/campus data centers are prohibited. This permanent ordinance superseded the Jan. 13, 2026 moratorium ahead of its scheduled July 12, 2026 expiration. No further amendment or repeal located as of 2026-09-23.
+- **Detailed status:** June 6, 2026 Griffin Daily News reporting describes the May 26 unanimous approval of a data-center zoning amendment providing special-use permits in Planned Industrial Districts, with minor and major size classes, setbacks, buffers, noise and generator standards, decommissioning bonds and development agreements; it says campus or hyperscale facilities are not permitted. The report says the earlier technological-facilities moratorium expires July 12. Whether the ordinance ended that moratorium earlier, and its cryptocurrency scope, remain unverified. [VERIFY: adopted instruments and termination]
 - **Outcome:** Permanent UDC amendment adopted May 26, 2026 regulating data centers by special use permit in Planned Industrial Districts; prohibits hyperscale/campus facilities.
 
 ### Hall County

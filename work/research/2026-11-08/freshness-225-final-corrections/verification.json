@@ -1,0 +1,31 @@
+{
+  "checked_at": "2026-11-08T23:32:50.004323+00:00",
+  "command": "make check PYTHON=.venv/bin/python",
+  "exit_code": 0,
+  "log_sha256": "ecfe8561cb76ec0df1ffae69bdff948e49d77f29458a6a09d380658d27dad39e",
+  "release_unit_tests": {
+    "tests": 5,
+    "passed": true,
+    "log_sha256": "a6d11482b9c0bb0135b28d25f0cf09c3e856860d41d2b7e407694a1bcf37a6bc"
+  },
+  "legacy_validation": {
+    "errors": 0,
+    "warnings": 513
+  },
+  "documented_number_claims_matched": 74,
+  "csv_sha256": {
+    "local_inventory": "a1e92e1e3c82568f98a166cbb7721a548ea402fa3d22728d77e996d6475c2f9f",
+    "state_policy": "5d278f4025ef08da46a12fff07437c06df63f88b4f638769d56b6c7340aa44c2"
+  },
+  "exact_diff_checks": {
+    "local_inventory": {
+      "ids_preserved": 1330,
+      "approved_cell_diff": 84
+    },
+    "state_policy": {
+      "ids_preserved": 447,
+      "approved_cell_diff": 15
+    }
+  },
+  "scope": "Consistency and exact guarded changes; remaining source limitations are documented in the release notes."
+}

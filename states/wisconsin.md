@@ -132,7 +132,7 @@ State policy is tracked separately: **7 records** (7 typed bill rows) in [`state
 - **Legal basis:** Chippewa County Ordinance 10-26, creating County Code section 70-9
 - **What prompted it:** County has no zoning defining data centers or specific regulations for them; extensive electrical, water, and infrastructure demand concerns cited.
 - **Affected projects:** —
-- **Detailed status:** The county publishes Ordinance 10-26 creating section 70-9, with twelve months and provisions for earlier county-board action and termination upon permanent regulations. Its undated information page gives August 11, 2027 expiry, which is not unconditional. Exact operative interval and later force remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
+- **Detailed status:** The county publishes Ordinance 10-26 creating section 70-9, with twelve months following adoption and publication, subject to earlier county-board action. Permanent zoning generally terminates the moratorium unless the county board determines otherwise. An undated county information page gives August 11, 2027 expiry; the exact operative interval and later force remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** Adopted 12-month moratorium on data center development in county-zoned townships.
 
 ### City of Madison
@@ -187,7 +187,7 @@ State policy is tracked separately: **7 records** (7 typed bill rows) in [`state
 
 - **Type:** County
 - **Recorded status:** 🟢 Active
-- **Date enacted:** Introduced 2026-05-26; approved by the County Board 2026-06-04; signed by County Executive Melissa Agard on/around 2026-06-09
+- **Date enacted:** Introduced 2026-05-26 per prior row; County Board approved June 4. A June 8 search result attributed to a county executive release reports that Executive Melissa Agard signed 2026 Res. 039; the exact signature date and operative effective date are not established by the retained excerpt.
 - **Normalized date:** `2026-06-04` (exact)
 - **Duration:** Substitute 1 to 2026 RES-039 states 18 months from the effective date or until rescinded, whichever is earlier; the retained text leaves the effective date blank.
 - **Current end date:** `—`
@@ -196,7 +196,7 @@ State policy is tracked separately: **7 records** (7 typed bill rows) in [`state
 - **Legal basis:** Substitute 1 to 2026 RES-039 (Dane County Board resolution)
 - **What prompted it:** Mounting hyperscale data-center development pressure near Madison; the county formed a 13-member Advisory Committee on Data Centers (ACDC) in parallel to study impacts
 - **Affected projects:** Not tied to a single named project; addresses hyperscale data center development generally
-- **Detailed status:** The June 4 county release identifies board-approved Sub 1 to 2026 RES-039 and an eighteen-month hyperscale-data-center pause in unincorporated areas; it says executive consideration/signature is still pending. Hyperscale definition requires at least 5,000 servers and 10,000 square feet. Executive action, final operative interval and later force remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
+- **Detailed status:** The June 4 county release reports board approval of Sub 1 to 2026 RES-039 and then-pending executive consideration; it describes an eighteen-month hyperscale-data-center pause in county-zoned towns and a definition of at least 5,000 servers and 10,000 square feet. A June 8 search result attributed to a county executive release reports that Executive Agard signed the resolution; the full release and executed instrument were not inspected. The operative interval and later force remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** 18-month pause on new hyperscale data center development
 
 ### Dodge County
@@ -443,7 +443,7 @@ State policy is tracked separately: **7 records** (7 typed bill rows) in [`state
 
 - **Type:** County
 - **Recorded status:** 🟢 Active
-- **Date enacted:** August 18, 2026 (County Board unanimous voice vote)
+- **Date enacted:** August 18, 2026 (County Board roll-call vote: 20 ayes, one absent).
 - **Normalized date:** `2026-08-18` (exact)
 - **Duration:** 12 months from adoption, unless replaced or extended
 - **Current end date:** `—`
@@ -530,7 +530,7 @@ State policy is tracked separately: **7 records** (7 typed bill rows) in [`state
 - **Sectors:** data center
 - **Moratorium ID:** `wi-shawano-county-2026`
 - **Legal basis:** Shawano County Board data center moratorium (approved moratorium document); resolution/ordinance number not captured in sources reviewed
-- **What prompted it:** Pause on siting, construction, establishment, or expansion of data centers in unincorporated towns using county zoning; pending requests held in abeyance, existing valid approvals exempt.
+- **What prompted it:** Pause on acceptance, processing, review and approval of county authorizations for siting, construction, establishment or expansion of data centers in unincorporated towns accepting county zoning; pending requests held in abeyance, previously issued valid approvals exempt, with subsequent modifications subject to the pause.
 - **Affected projects:** —
 - **Detailed status:** The county-posted approved text specifies twelve months from effectiveness unless sooner repealed, modified or extended, limited to unincorporated towns accepting county zoning authority. Previously issued valid approvals are excepted, while subsequent modifications are subject to the pause. News reports June 24 adoption. Publication/posting, operative interval and later force remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** Adopted 12-month moratorium on data centers in county-zoned towns.

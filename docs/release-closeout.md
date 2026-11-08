@@ -1,5 +1,11 @@
 # November refresh closeout
 
+## Dataset release closeout
+
+The user reset the active goal to finish the dataset update. All 63 pending source-reviewed cells are now applied, plus 36 verification fields, across 54 records ([application](../work/research/2026-11-08/freshness-225-final-corrections/README.md)). Final validation and release delivery are the remaining closeout steps. The [release notes](release-notes-2026-11-08.md) state the actual coverage and remaining source questions. Experimental extraction/P4 remains separate and unvalidated; the dataset uses scoped coordinator adjudication. Earlier checkpoints below retain their dated states.
+
+The [working bundle at acd9cea](../work/research/2026-11-08/working-bundle-acd9cea/README.md) restores and verifies 1,405 archive members and 45 generations. The [225-ID cohort coverage](../work/research/2026-11-08/freshness-225-review-coverage/README.md) now has complete primary and independent artifact sets, with 63 cells still pending coordinator adjudication. These are packaging/review-execution milestones; broader freshness, P4, consumer reconciliation and the final release remain open.
+
 ## November 8 follow-up source corrections
 
 The [follow-up reconciliation](../work/research/2026-11-08/freshness-followup-reconciliation/README.md) applies 59 substantive cells and 34 verification metadata fields across 30 local records, including the six revised Baldwin cells. Verification-marked rows are **766**, with **564 unflagged**. IDs, classifications, 447 policy observations and 56 ballot measures are unchanged. Three Denmark date changes remain rejected; scoped source corrections do not close all-record freshness, P4 or final delivery. Earlier checkpoints below preserve their own counts.

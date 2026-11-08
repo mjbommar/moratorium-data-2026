@@ -6,9 +6,9 @@ This is the open companion dataset for the working paper *Moratorium Nation: A S
 
 > 📄 **Working paper:** [April 2026 updated draft (PDF, 6 MB, 116 pages)](paper/moratorium-nation-2026-04-30.pdf) · [first edition on SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6242898). 50-state legal authority survey, 44-clause taxonomy, 13-section model ordinance template.
 
-> **As of November 5, 2026, 1330 local moratorium records are tracked across 47 states.**
+> **As of November 8, 2026, 1330 local moratorium records are tracked across 47 states.**
 > Includes the reviewed November 6 Seattle duplicate retirement; both original IDs remain resolvable.
-> Working snapshot: the full November refresh is in progress. Status dates vary by record; these are recorded classifications, not a claim that every instrument was freshly verified.
+> Release coverage: a 225-record priority cohort received separate primary and independent source review. Status dates vary by record; these are recorded classifications, not a claim that every instrument was freshly verified. See the [November release notes](docs/release-notes-2026-11-08.md).
 >
 > 🟢 **1079 classified active or extended** (current legal force remains record-specific) · 🟡 **79 classified pending** · ⚪ **172 classified past** (recorded as expired, replaced, or rescinded)
 >
@@ -18,9 +18,9 @@ This is the open companion dataset for the working paper *Moratorium Nation: A S
 
 [Reviewed ballot results](docs/ballot-results.md) cover **56 proposal and measure records** (**51 voted, 3 scheduled, 1 litigated, 1 unknown**), tracked separately from the legacy moratorium counts; **3 frozen candidate payloads remain withheld**; a separate [Augusta notice-only record](work/research/2026-11-08/augusta-notice-publication/README.md) may overlap one of those payloads, so these are not disjoint contest counts. Its sector, final wording, result and ordinance linkage remain unknown. The [Monroe and Sprigg publication](work/research/2026-11-08/adams-ballot-publication/README.md) adds two general-zoning questions with unofficial observations and unknown sector and legal effect. The total includes [Jay's solar ballot](work/audit/jay-solar-ballot-followup-2026-11-06.json), reviewed after the original frozen cohort; its primary return and operative legal history remain unresolved. The separate [Wilmington initiative history](work/research/2026-11-07/wilmington-initiative-history/README.md) records dated litigation and an intended election, without a vote result or finding of later status. Two [Clarksville referrals](work/research/2026-11-07/clarksville-proposal-publication/README.md) are conditional future proposals with unknown final election dates and ballots. A vote, certification and an operative legal restriction are distinct observations. Legal-effect review remains record-specific.
 
-Latest reviewed corrections: [Pima and four other records](work/research/2026-11-08/al-ak-az-ar-batches6to8-reconciliation/README.md) and [seven Alabama records](work/research/2026-11-08/alabama-batches3to5-reconciliation/README.md), alongside earlier [Ohio](work/research/2026-11-07/ohio-six-record-closeout/README.md) and [Morro Bay](work/research/2026-11-07/morro-bay-council-review/README.md) corrections. These retain record totals and classifications while qualifying dates, operative terms, project claims and verification flags; they do not establish current legal force. See the [changelog](CHANGELOG.md) and [remaining evidence gaps](docs/known-gaps.md).
+Latest reviewed corrections: [final 225-record cohort corrections](work/research/2026-11-08/freshness-225-final-corrections/README.md), [30-record source reconciliation](work/research/2026-11-08/freshness-followup-reconciliation/README.md), and [first twenty-record reconciliation](work/research/2026-11-08/freshness-first20-reconciliation/README.md). All IDs are preserved; unsupported dates, terms and authority claims are qualified. **782 rows carry verification flags**, while absence of a flag is not a current-force guarantee. See the [changelog](CHANGELOG.md) and [remaining evidence gaps](docs/known-gaps.md).
 
-The linked April 2026 paper is a historical edition. Its figures and conclusions have not been synchronized to this November working dataset.
+The linked April 2026 paper is a historical edition. Its figures and conclusions have not been synchronized to this November dataset.
 
 ![Moratorium counts by state](figures/png/map-moratorium-counts.png)
 

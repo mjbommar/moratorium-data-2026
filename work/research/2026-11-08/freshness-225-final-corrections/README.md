@@ -1,0 +1,9 @@
+# Final corrections from the 225-record cohort
+
+Applied **63 reviewed substantive cells plus 36 verification fields across 54 records**. The source cohort has separate primary and independent findings for all 225 IDs. Every proposed cell passed current full-row and expected-value guards before coordinator application. No inventory IDs or local status classifications were changed; South Carolina S 867’s unverified legislative category becomes unknown.
+
+Corrections preserve conditional terms, distinguish hearing/proposal/reporting from adopted instruments, separate county authorizations from direct construction prohibitions, record source-specific legislative history dates and qualify unverified terminal effects. Oneida’s vote is recorded as 20 ayes and one absent rather than a voice vote. The Shawano operative authorization pause retains its pending-request and existing-approval distinctions. Pennsylvania companion/amendment accounts remain separate from direct disposition of the bills. Wyoming’s proposed 100 MW tests distinguish new load from incremental additional service. No scope inclusion is converted into a current-law finding.
+
+Verification-marked local rows are now **782**, with **548 unflagged**. Unflagged is not a guarantee of renewed current legal force. All 447 raw policy observations and analytical partitions remain; thirteen scope decisions are superseded solely to bind the clarified current rows. [Application](application.json) records exact changes and hashes. Source payloads remain private.
+
+This closes the pending correction queue from this cohort. Remaining authority, certification and later-history questions are retained as explicit dataset limitations. Experimental extraction/P4 development is separate from this coordinator-adjudicated dataset update.
