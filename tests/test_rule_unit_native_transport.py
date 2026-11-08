@@ -38,7 +38,7 @@ class NativeRuleTests(unittest.IsolatedAsyncioTestCase):
             # NativeOutput may serialize strict=False for constrained schemas.
             # Typed post-response and canonical validation remain mandatory.
             self.assertIsInstance(payload['text']['format']['strict'], bool)
-            if fail:
+            if fail is True:
                 return httpx2.Response(503, json={'error': {'message': 'offline failure'}})
             unit = ['alpha', 'beta'][len(requests) - 1]
             value = dict(unit_id=unit, outcome='unresolved', clause=None,
@@ -49,6 +49,8 @@ class NativeRuleTests(unittest.IsolatedAsyncioTestCase):
                                          source_text='Rule Alpha applies.',
                                          expression=dict(type='text_predicate', text='Rule Alpha applies.')),
                              supporting_quotes=['Rule Alpha applies.'])
+            if fail == 'malformed':
+                value['supporting_quotes'] = 'not a list'
             return httpx2.Response(200, json=dict(
                 id='resp_offline', object='response', created_at=0, status='completed',
                 model='gpt-6-sol', output=[dict(type='message', id='msg_offline',
@@ -102,3 +104,6 @@ class NativeRuleTests(unittest.IsolatedAsyncioTestCase):
 
     async def test_native_failure_cannot_escape_persistent_cap(self):
         await self.exercise(True)
+
+    async def test_native_malformed_response_stops_before_adapter_receives_output(self):
+        await self.exercise('malformed')

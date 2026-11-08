@@ -40,6 +40,9 @@ class Tests(unittest.IsolatedAsyncioTestCase):
             self.assertIn('reviewed_source_role_conflict',first['review_flags'])
             self.assertNotIn('reviewed_source_role_conflict',second['review_flags'])
             self.assertEqual(first['clause']['assertion_context'],'enacted_text')
+            self.assertEqual(first['outcome'], 'unresolved')
+            self.assertEqual(first['original_output']['clause'], first['clause'])
+            self.assertEqual(out['generated_clause_count'], 2)
             self.assertFalse(first['accepted'])
             self.assertTrue(first['review_required'])
             self.assertEqual(out,await ext.run(d,{**DOC,'reviewed_source_role':'proposed'},
@@ -102,7 +105,11 @@ class Tests(unittest.IsolatedAsyncioTestCase):
         with tempfile.TemporaryDirectory() as d:
             backend=ScriptedBackend({'*':[candidate('u1'), candidate('u2', 'not in source')]})
             out=await ext.run(d,DOC,PLAN,backend=backend,**ARGS)
-            self.assertEqual((out['planned_count'],out['candidate_count'],out['unresolved_count']),(2,2,0))
+            self.assertEqual((out['planned_count'],out['candidate_count'],out['unresolved_count']),(2,1,1))
+            self.assertEqual(out['generated_clause_count'], 2)
+            self.assertEqual(out['units'][1]['clause'], out['units'][1]['original_output']['clause'])
+            self.assertEqual(out['units'][1]['original_outcome'], 'candidate')
+            self.assertEqual(out['units'][1]['outcome'], 'unresolved')
             self.assertEqual(len(backend.calls),2)
             for call in backend.calls:
                 self.assertIn(TEXT,call['prompt']); self.assertNotIn('12 claims',call['prompt'])
@@ -162,7 +169,7 @@ class Tests(unittest.IsolatedAsyncioTestCase):
                 self.calls+=1
                 if self.kind=='malformed': return SimpleNamespace(output=SimpleNamespace(model_dump=lambda **kw: {'bad':1}),model='scripted:fake',priced=True,cost_usd=.01)
                 return SimpleNamespace(output=ext.Response.model_validate(unknown('u2' if self.kind=='wrong_id' else 'u1')),model='other' if self.kind=='model' else 'scripted:fake',priced=self.kind!='unpriced',cost_usd=.2 if self.kind=='over' else .01)
-        for kind in ['unpriced','over','model','malformed','wrong_id']:
+        for kind in ['unpriced','over','model','malformed']:
             with self.subTest(kind=kind), tempfile.TemporaryDirectory() as d:
                 backend=Backend(kind)
                 with self.assertRaises(Exception): await ext.run(d,DOC,PLAN,backend=backend,**ARGS)

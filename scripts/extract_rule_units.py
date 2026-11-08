@@ -21,6 +21,16 @@ from extract_document_resumable import digest, save, WorkspaceContextChanged
 SYSTEM = '''Extract the single rule unit identified by the local slot from the entire supplied source.
 Return one complete condition clause, preserving its conditions, exceptions and relevant definitions,
 with exact supporting quotations from anywhere in the source. Do not combine distinct rule units.
+Each clause.source_text must be one nonempty contiguous literal Unicode substring of Full source;
+preserve all line breaks, indentation and line numbers. Each supporting quote must individually
+be an exact unique literal substring. The source_text must also occur exactly once. Never join,
+normalize, paraphrase or insert ellipses into quotations. The relevant source_text together with
+the supporting passages must jointly support EVERY assertion, actor, date, polarity, consequence,
+condition and governing qualification of the complete clause, including dispersed definitions
+and exceptions. Completeness takes priority over shortness. If sufficient exact unique passages
+cannot be supplied, return unresolved. If unavailable markup obscures operation, express uncertainty;
+do not infer it. Do not infer operational conclusions from expression ordering or grouping without
+source support. Exact matches and expression grouping do not themselves establish entailment.
 Use typed all, any, at_least and thresholds where directly supported. Use text_predicate for source-qualified gates, negation, and parts the types cannot represent. Do not reduce the entire rule to raw text when structure is supported. If necessary facts are missing or the unit cannot be represented reliably, return unresolved and explain why. Do not infer legal
 status, canonical identifiers or missing facts. The reviewed source role is caller-supplied context;
 unknown means no reviewed role was supplied. An enrolled label or title alone does not establish
@@ -124,16 +134,27 @@ def packet(state, context):
         base = dict(unit_id=unit['unit_id'], status=status, anchor_quote=unit['anchor_quote'],
                     anchor_spans=spans(text, unit['anchor_quote']), accepted=False, review_required=True)
         if entry is None:
-            outputs.append({**base, 'outcome': 'unresolved', 'reason': 'No successful response', 'request_sha256': None})
+            outputs.append({**base, 'outcome': 'unresolved', 'reason': 'No successful response',
+                            'request_sha256': attempts[-1]['request_sha256'] if attempts else None})
             continue
         if digest(entry['output']) != entry['output_sha256']:
             raise ValueError('Cached output hash mismatch')
-        response = Response.model_validate(entry['output'])
-        if response.unit_id != unit['unit_id']:
-            raise ValueError('Cached unit ID mismatch')
+        raw = entry['output']
+        lineage = dict(request_sha256=entry['request_sha256'], output_sha256=entry['output_sha256'],
+                       original_output=raw, original_outcome=raw.get('outcome') if isinstance(raw, dict) else None)
+        try:
+            response = Response.model_validate(raw)
+            if response.unit_id != unit['unit_id']:
+                raise ValueError('Response unit ID mismatch')
+            if digest(response.model_dump(mode='json')) != digest(raw):
+                raise ValueError('Response was coerced or changed by native validation')
+        except ValueError as error:
+            outputs.append({**base, **lineage, 'outcome': 'unresolved', 'reason': 'Unscorable native response',
+                            'clause': raw.get('clause') if isinstance(raw, dict) else None,
+                            'review_flags': ['native_response_unscorable'], 'native_error': str(error)})
+            continue
         if response.outcome == 'unresolved':
-            outputs.append({**base, 'outcome': 'unresolved', 'reason': response.unresolved_reason,
-                            'request_sha256': entry['request_sha256']})
+            outputs.append({**base, **lineage, 'outcome': 'unresolved', 'reason': response.unresolved_reason})
             continue
         clause = response.clause.model_dump(mode='json')
         locations = []
@@ -160,16 +181,24 @@ def packet(state, context):
         if (context['document'].get('reviewed_source_role') == 'proposed'
                 and clause['assertion_context'] == 'enacted_text'):
             flags.append('reviewed_source_role_conflict')
-        outputs.append({**base, 'outcome': 'unresolved' if unknown else 'candidate',
-                        'reason': 'Condition expression contains unknown' if unknown else None,
+        reasons = (['Condition expression contains unknown'] if unknown else [])
+        if errors: reasons.append('Condition expression fails strict validation')
+        if 'quote_unlocated_or_ambiguous' in flags: reasons.append('Exact source quotation missing or ambiguous')
+        if 'reviewed_source_role_conflict' in flags: reasons.append('Reviewed source role conflicts with assertion')
+        outputs.append({**base, **lineage, 'outcome': 'unresolved' if reasons else 'candidate',
+                        'reason': '; '.join(reasons) if reasons else None,
                         'clause': clause, 'supporting_quotes': quotes,
                         'condition_quote_locations': locations, 'schema_errors': errors, 'review_flags': flags,
                         'request_sha256': entry['request_sha256']})
     count = sum(o['outcome'] == 'candidate' for o in outputs)
+    generated = sum(isinstance(o.get('original_output'), dict) and o['original_output'].get('clause') is not None for o in outputs)
+    unscorable = sum('native_response_unscorable' in o.get('review_flags', []) for o in outputs)
     return dict(context_sha256=state['context_sha256'], source_text_sha256=sha(text),
                 source_body_sha256=context['document']['body_sha256'],
                 provenance={k: context['document'][k] for k in ('doc_id', 'document_id', 'id', 'title', 'url', 'final_url', 'reviewed_source_role') if k in context['document']}, plan_sha256=digest(context['plan']),
                 planned_count=len(outputs), candidate_count=count, unresolved_count=len(outputs)-count,
+                generated_clause_count=generated, unscorable_response_count=unscorable,
+                response_accounting_complete=not unscorable and all(o['status'] == 'succeeded' for o in outputs),
                 source_coverage=dict(full_source_supplied_per_attempt=True,
                                      attempted_units=len({a['unit_id'] for a in state['attempts']}),
                                      successful_units=len(state['successes'])), inventory_complete=False,
@@ -254,8 +283,6 @@ def validate_state(state, context):
     for uid, entry in successes.items():
         if not isinstance(entry, dict) or set(entry) != {'request_sha256', 'output', 'output_sha256'} or entry['request_sha256'] != digest(request_for(units[uid], context)) or digest(entry['output']) != entry['output_sha256']:
             raise ValueError('Cached request or output hash mismatch')
-        if Response.model_validate(entry['output']).unit_id != uid:
-            raise ValueError('Cached unit ID mismatch')
     if sum(a['status'] == 'reserved' for a in attempts) > 1 or (any(a['status'] == 'reserved' for a in attempts) and attempts[-1]['status'] != 'reserved'):
         raise ValueError('Invalid interrupted reservation ordering')
     if sum(a.get('charged_usd', a['reserved_usd']) for a in attempts) > context['max_usd'] + 1e-12 and not stop:
@@ -369,10 +396,11 @@ async def run(directory, doc, plan, *, backend, model_identity, today, max_calls
                 if result.model != model_identity['model']:
                     state['budget_stop'] = 'Backend model identity mismatch; reconcile'
                     raise ValueError(state['budget_stop'])
-                response = Response.model_validate(result.output.model_dump(mode='json'))
-                if response.unit_id != unit['unit_id']:
-                    raise ValueError('Response unit ID mismatch')
-                value = response.model_dump(mode='json')
+                value = (result.output.model_dump(mode='json') if isinstance(result.output, BaseModel)
+                         else result.output)
+                # Retain the JSON value as received at this boundary, even when it is malformed.
+                # The typed backend may already have validated/coerced or rejected earlier.
+                digest(value)
                 state['successes'][unit['unit_id']] = dict(request_sha256=key, output=value, output_sha256=digest(value))
                 attempt.update(status='succeeded', charged_usd=cost)
             except BaseException as error:

@@ -2,6 +2,9 @@
 
 Plan: [Research modernization and ballot-measure expansion](docs/research-and-ballot-expansion-plan.md).
 
+- [x] Tighten rule-unit literal-source and role-conflict checks, preserving raw clauses and unresolved denominators; 27 focused tests pass. This is development coverage, not P4 quality acceptance.
+- [ ] Complete pre-validation raw-response capture and prospective review-consumer accounting, then freeze and evaluate fresh calibration/holdout evidence before any new automatic extraction batch.
+
 - [x] Review all six Maine policy records and apply six independently reviewed corrections; preserve current-force and later-history gaps. [Packet](work/research/2026-11-07/maine-policy-source-review/README.md).
 
 - [x] Review all thirteen Maryland policy records, apply 59 fields, reconcile three companion identities, and add the separately reviewed executive order; preserve all prior IDs and current-force gaps. [Packet](work/research/2026-11-07/maryland-policy-source-review/README.md).

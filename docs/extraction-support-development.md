@@ -58,3 +58,14 @@ receipts identify the exact reports by hash. CLI agreement is not legal truth.
 Next, settle the canonical semantic definitions and reviewed claim mapping, then
 freeze a new evaluation cohort before paid extraction. Keep the earlier three
 sources as development cases rather than presenting them as an unseen holdout.
+
+
+## Literal-source gate development — November 8 UTC
+
+The production rule-unit adapter now requires unique, exact Unicode occurrences of clause/nested source text and supporting quotations. It marks missing/repeated evidence, strict expression errors, unknown expressions and proposed-source/enacted-assertion conflicts unresolved. Returned clauses, qualifications, original outcomes, hashes and planned dispositions are retained independently of candidate status. Invalid or coerced values received at the adapter boundary remain unscorable; incomplete response accounting is explicit. This gate does not prove relevance, completeness or joint entailment. Every candidate remains unaccepted and review-required; condition expressions remain non-executable pending formal semantics.
+
+The prompt explicitly preserves line breaks and line numbers and requires the source passage plus supporting passages jointly to support every assertion and governing qualification. Completeness takes priority over shortness. No lossy quote normalization, fragment joining or invented quotation is permitted.
+
+The coordinator reran 27 focused adapter/native-transport/source-gate tests successfully using the existing BC interpreter, with no provider calls. A diagnostic replay of the exposed 27-response Virginia cohort retained all 27 clauses, yielding one mechanically eligible candidate and 26 unresolved. It does not alter the historical failed grade or create an unseen holdout. The source-contract diagnosis was independently reviewed before this conservative development integration.
+
+Execution remains blocked on two concrete boundaries: native validation may reject or coerce provider content before the adapter can retain its original bytes, and the frozen review consumer rejects an unresolved disposition carrying a retained clause. Future evaluation must capture and bind raw inputs/outputs, account for all failed/unscorable/generated/planned units, and use a separately reviewed prospective consumer contract. Do not modify historical evaluation artifacts to make the new packets appear compatible. Source-grounded semantic review, condition/consequence semantics and a newly frozen calibration and unexposed holdout remain required. No P4 quality pass, automatic promotion or new paid trial is claimed.
