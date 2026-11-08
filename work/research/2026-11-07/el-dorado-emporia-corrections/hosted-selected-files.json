@@ -1,0 +1,90 @@
+{
+  "checked_at": "2026-11-08T05:05:56.704125+00:00",
+  "commit": "89d32411e074bad6d9f4f434b79947bedd56b82f",
+  "pages_run": 42449024337,
+  "pages_conclusion": "success",
+  "base_url": "https://mjbommar.github.io/moratorium-data-2026/",
+  "files": [
+    {
+      "path": "docs/ballot-results.html",
+      "status": 200,
+      "sha256": "7e2db9206938e10f98ff902279f1a06425362b49ff3c7af1f1ee180789ca206d",
+      "expected_sha256": "7e2db9206938e10f98ff902279f1a06425362b49ff3c7af1f1ee180789ca206d",
+      "bytes": 42099,
+      "expected_bytes": 42099,
+      "matches": true,
+      "observed_at": "2026-11-08T05:05:55.110601+00:00"
+    },
+    {
+      "path": "data/expanded/publication.json",
+      "status": 200,
+      "sha256": "9066459024bb4ae7b3fd87f2c9b97b4123510476657a842285e1bc2b316925e5",
+      "expected_sha256": "9066459024bb4ae7b3fd87f2c9b97b4123510476657a842285e1bc2b316925e5",
+      "bytes": 2608774,
+      "expected_bytes": 2608774,
+      "matches": true,
+      "observed_at": "2026-11-08T05:05:55.528459+00:00"
+    },
+    {
+      "path": "data/expanded/ballot_measures.jsonl",
+      "status": 200,
+      "sha256": "2e1a85514e12f9c1b003f62d935c080d31470682589f5c73e5730d5b3226333c",
+      "expected_sha256": "2e1a85514e12f9c1b003f62d935c080d31470682589f5c73e5730d5b3226333c",
+      "bytes": 65553,
+      "expected_bytes": 65553,
+      "matches": true,
+      "observed_at": "2026-11-08T05:05:55.707803+00:00"
+    },
+    {
+      "path": "data/expanded/measure_results.jsonl",
+      "status": 200,
+      "sha256": "625d60a1b0916e7afbec59a487c8987e2758c9ab3a30030fc15aafdb4674928d",
+      "expected_sha256": "625d60a1b0916e7afbec59a487c8987e2758c9ab3a30030fc15aafdb4674928d",
+      "bytes": 143970,
+      "expected_bytes": 143970,
+      "matches": true,
+      "observed_at": "2026-11-08T05:05:55.911675+00:00"
+    },
+    {
+      "path": "data/expanded-csv/measure_results.csv",
+      "status": 200,
+      "sha256": "49e15f0a6c26d7cb0d57e6893ec89011b2c0d50cc5efba022c653d9bb20b8f5a",
+      "expected_sha256": "49e15f0a6c26d7cb0d57e6893ec89011b2c0d50cc5efba022c653d9bb20b8f5a",
+      "bytes": 110768,
+      "expected_bytes": 110768,
+      "matches": true,
+      "observed_at": "2026-11-08T05:05:56.056518+00:00"
+    },
+    {
+      "path": "data/moratorium_inventory.csv",
+      "status": 200,
+      "sha256": "76ddce330391d9a9c9dfcd7fd014846c6f0ac8cfb7e4e2b0de82e93379fd2d20",
+      "expected_sha256": "76ddce330391d9a9c9dfcd7fd014846c6f0ac8cfb7e4e2b0de82e93379fd2d20",
+      "bytes": 1697935,
+      "expected_bytes": 1697935,
+      "matches": true,
+      "observed_at": "2026-11-08T05:05:56.372753+00:00"
+    },
+    {
+      "path": "states/alabama.html",
+      "status": 200,
+      "sha256": "f80279138216ca436bc7107793508e01a49a8c9c6824799c4894d27ef52f8827",
+      "expected_sha256": "f80279138216ca436bc7107793508e01a49a8c9c6824799c4894d27ef52f8827",
+      "bytes": 43306,
+      "expected_bytes": 43306,
+      "matches": true,
+      "observed_at": "2026-11-08T05:05:56.518494+00:00"
+    },
+    {
+      "path": "docs/known-gaps.html",
+      "status": 200,
+      "sha256": "7b2d0921da38f15c94187f7890fb31fdc54f51359c4bd7ec090fef67fe27fc40",
+      "expected_sha256": "7b2d0921da38f15c94187f7890fb31fdc54f51359c4bd7ec090fef67fe27fc40",
+      "bytes": 63310,
+      "expected_bytes": 63310,
+      "matches": true,
+      "observed_at": "2026-11-08T05:05:56.704032+00:00"
+    }
+  ],
+  "scope": "Eight selected actual responses, including ballot corrections and Alabama CSV/prose, match the successfully deployed commit. Not whole-site/final-release or current-law attestation."
+}

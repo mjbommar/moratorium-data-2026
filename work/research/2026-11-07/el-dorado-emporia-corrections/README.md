@@ -9,3 +9,5 @@ The [application](application.json), [identity application](identity-application
 The dataset retains 53 measures and 50 current result rows. Historical result versions rise to 61 for this classification correction; current source classifications are 31 unofficial, 14 unknown and five certified. No vote total or certified count changes. The source-version count increases to 156 for the reviewed extraction, with 583 claims and 2,594 decisions. This does not complete national freshness, current-law review or final release.
 
 Regeneration and `make data site check` passed: zero errors, 505 warnings and all 68 documented numbers matching. Fourteen focused ballot-summary tests passed using existing native BC Python.
+
+The [selected hosted-file check](hosted-selected-files.json) verifies eight actual responses against successful deployment `89d3241`: ballot pages and downloads, the inventory CSV, Alabama page and known-gaps page. All returned HTTP 200 and matched the specified commit byte for byte. This is selected-file delivery evidence, not whole-site or final-release acceptance.
