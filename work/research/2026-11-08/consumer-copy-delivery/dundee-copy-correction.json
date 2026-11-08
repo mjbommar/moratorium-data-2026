@@ -1,0 +1,40 @@
+{
+  "repository": "servercountry.org",
+  "remote_branch": "master",
+  "source_commit": "a7563c9",
+  "prior_remote": "195dd66",
+  "preserved_original_local_commit": "3070de9",
+  "strategy": "Cherry-picked only owned three-file correction onto current remote in isolated worktree; preserved original divergent local branch.",
+  "scope": "Michigan curated Dundee card and heading; canonical project facts unchanged. Current status explicitly unverified; agreement history distinguished from moratorium causation.",
+  "build": {
+    "command": "npm run build",
+    "exit_code": 0,
+    "pages": 1354,
+    "log_sha256": "3e345804b5b4e648002972ba4f6855ae206324f6946f273228533d0a514f9a01",
+    "selected_render_checks": "Passed date/chronology/unverified status and absent causal halt wording."
+  },
+  "deployment": {
+    "app_id": "d1b1nirzyerj9m",
+    "job_id": "44",
+    "commit": "a7563c9a8c730009899194bf515bd1620ef96600",
+    "status": "SUCCEED",
+    "steps": {
+      "BUILD": "SUCCEED",
+      "DEPLOY": "SUCCEED",
+      "VERIFY": "SUCCEED"
+    }
+  },
+  "observed_at": "2026-11-08T22:44:35.382799+00:00",
+  "selected_hosted": {
+    "url": "https://servercountry.org/resources/states/michigan/?verification=a7563c9",
+    "status": 200,
+    "observed_at": "2026-11-08T22:46:46.748011+00:00",
+    "sha256": "5e9943139b7a05ee1e06cb5f1814551bfc8cedf7a90c9ce10ce5c9d2205df414",
+    "checks": {
+      "Current project status unverified": true,
+      "September 30, 2025": true,
+      "December 9, 2025": true,
+      "old_causal_halt_absent": true
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "source_commit": "ca42605b3c631193a20eaac8708ebdf176c5eccb",
+  "observed_at": "2026-11-08T22:37:50.443248+00:00",
+  "pages_run_id": 42531088939,
+  "pages_run_conclusion": "success",
+  "scope": "Five selected working-checkpoint files; not final release or all consumers.",
+  "observations": [
+    {
+      "path": "data/policy-scope/receipt.json",
+      "url": "https://mjbommar.github.io/moratorium-data-2026/data/policy-scope/receipt.json?verify=ca42605b3c63",
+      "status": 200,
+      "expected_sha256": "f0d4e52ce45435fa5a9db7006b5fe964e4fe9a254debe59045224730252814e1",
+      "observed_sha256": "f0d4e52ce45435fa5a9db7006b5fe964e4fe9a254debe59045224730252814e1",
+      "matches_source": true,
+      "bytes": 14442
+    },
+    {
+      "path": "data/policy-scope/reviewed-included.csv",
+      "url": "https://mjbommar.github.io/moratorium-data-2026/data/policy-scope/reviewed-included.csv?verify=ca42605b3c63",
+      "status": 200,
+      "expected_sha256": "9a862d4cc6f59c93da18fb9aadcc5f632cfa1438cc3d2b8bd9d925a4fd13b605",
+      "observed_sha256": "9a862d4cc6f59c93da18fb9aadcc5f632cfa1438cc3d2b8bd9d925a4fd13b605",
+      "matches_source": true,
+      "bytes": 284363
+    },
+    {
+      "path": "data/summary_stats.json",
+      "url": "https://mjbommar.github.io/moratorium-data-2026/data/summary_stats.json?verify=ca42605b3c63",
+      "status": 200,
+      "expected_sha256": "e9c816982256de34f350d619b54430962c62553bfc5bcc11d00e3fd4758e1e92",
+      "observed_sha256": "e9c816982256de34f350d619b54430962c62553bfc5bcc11d00e3fd4758e1e92",
+      "matches_source": true,
+      "bytes": 15300
+    },
+    {
+      "path": "docs/policy-scope-exports.html",
+      "url": "https://mjbommar.github.io/moratorium-data-2026/docs/policy-scope-exports.html?verify=ca42605b3c63",
+      "status": 200,
+      "expected_sha256": "8ec10e9c0aaf5c35873ee3e772c8c5426c3780e33ae8e25b690af089ecbe4582",
+      "observed_sha256": "8ec10e9c0aaf5c35873ee3e772c8c5426c3780e33ae8e25b690af089ecbe4582",
+      "matches_source": true,
+      "bytes": 10107
+    },
+    {
+      "path": "data/expanded/ballot_measures.jsonl",
+      "url": "https://mjbommar.github.io/moratorium-data-2026/data/expanded/ballot_measures.jsonl?verify=ca42605b3c63",
+      "status": 200,
+      "expected_sha256": "ae9c95f40334db7fbb209a99103a900f798598c252656fefe620321fb6345f52",
+      "observed_sha256": "ae9c95f40334db7fbb209a99103a900f798598c252656fefe620321fb6345f52",
+      "matches_source": true,
+      "bytes": 66229
+    }
+  ]
+}

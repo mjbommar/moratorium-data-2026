@@ -19,3 +19,7 @@ The integration scope adapter is verified at remote `73146be8`: all 447 raw poli
 | Author site | Historical snapshot metadata/table delivered and hosted; February publication remains historical | Final release links/source pin and selected living-reference review remain |
 
 The matrix preserves all seven consumers in scope. These are concrete delivered increments and explicit pending actions, not comprehensive consumer closure or final-release acceptance.
+
+The [Dundee copy correction](dundee-copy-correction.json) is now pushed at Server Country `a7563c9`, preserving newer remote work and the original local branch. Its 1,354-page merged build and selected rendered-card checks passed. The curated card now reports current project status as unverified, dates the agreement chronology and December 2025 moratorium, and removes the unsupported causal halt. Canonical project fields remain unchanged and require their own owner-managed review; deployment is not yet verified.
+
+Amplify job **44** subsequently passed BUILD, DEPLOY and VERIFY at `a7563c9`; a single post-deployment reader check verified the selected Dundee chronology and unverified-status wording. This closes delivery of the curated-card correction, not the canonical project status or whole site’s factual review.

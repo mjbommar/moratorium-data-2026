@@ -630,3 +630,5 @@ Exit: repeatable refresh with visible freshness, costs, failures and unresolved 
 - [x] Re-observe Conneaut, Granville and Pataskala through native Exa/SerpAPI and official result sources; independently confirm unchanged reported figures and preserve unverified certification/implementation ([review](work/research/2026-11-07/ohio-result-reobservation/README.md)).
 
 - [x] Complete explicit scope dispositions for all 447 policy observations: 374 include, 19 exclude, 54 unresolved, zero unreviewed. This closes scope triage only; per-record freshness, P4 and final release remain open. See `work/research/2026-11-08/policy-scope-wave5-reconciliation/`.
+
+- [x] Publish minimal Monroe and Sprigg zoning-question records with full official sample wording, 148/100 and 330/297 unofficial observations, separate source totals and explicit unknown sectors/legal effects; reconcile two frozen identities without inheriting old data-center classifications. See `work/research/2026-11-08/adams-ballot-publication/`.
