@@ -499,8 +499,8 @@ State policy is tracked separately: **11 records** (10 typed bill rows and 1 non
 - **Legal basis:** —
 - **What prompted it:** —
 - **Affected projects:** —
-- **Detailed status:** Reported active as of 2026-09-23 by Carina Energy's live tracker; no dedicated town-level primary or news source was located within this pass's research budget. [VERIFY instrument number; adoption date; primary source (news-only evidence) not confirmed at confidence 0.5 in the 2026-09 refresh]
-- **Outcome:** Reported active by tracker only
+- **Detailed status:** A September 28, 2026 report describes an October 13 hearing on proposed Local Law 2 of 2026 for a three-year BESS moratorium extension. An October 2026 Carina tracker lists Campbell active with a November 30, 2026 endpoint; this is a tracker assertion. Adoption, original instrument, filing and subsequent legal force are unverified. [VERIFY: original law, hearing outcome, filing and later action.]
+- **Outcome:** A three-year extension was proposed for hearing; adoption and present force remain unverified.
 
 ### Canton
 
@@ -508,14 +508,14 @@ State policy is tracked separately: **11 records** (10 typed bill rows and 1 non
 - **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-07-08, the date of the public hearing on the local law (North Country Now reports the town 'enacted a moratorium on data center development July 8')
 - **Normalized date:** `2026-07-08` (exact)
-- **Duration:** Runs until May 31, 2027
+- **Duration:** Reported May 31, 2027 endpoint in earlier research; adopted text and endpoint have not been verified against retained source bytes.
 - **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `ny-canton-2026`
 - **Legal basis:** Town of Canton local law establishing a moratorium on data center development
 - **What prompted it:** Significant public input about data center development in St. Lawrence County
 - **Affected projects:** No specific project named; general pause on new data center development
-- **Detailed status:** Active as of 2026-09-23, running to May 31, 2027. Exempts existing/grandfathered operations and facilities under 20 MW. A Data Center Committee (chaired by Randy Brown) is researching model local regulations to adopt before the moratorium ends.
+- **Detailed status:** An August 24, 2026 report states that the Town enacted a data-center moratorium July 8 and appointed Randy Brown and Greg Kiah to a committee in August. Earlier research reported a May 31, 2027 endpoint and exemptions for existing operations and facilities under 20 MW; retained bytes reviewed here do not verify those details. [VERIFY: adopted text, effective date, term, exemptions and later force.]
 - **Outcome:** Adopted; town forming a committee to draft permanent regulations
 
 ### Carlton
@@ -524,15 +524,15 @@ State policy is tracked separately: **11 records** (10 typed bill rows and 1 non
 - **Recorded status:** 🟢 Extended
 - **Date enacted:** —
 - **Normalized date:** `—` (unverified)
-- **Duration:** Extended by Local Law No. 6 of 2025 (public hearing 2025-10-14); original enactment date not located
+- **Duration:** A hearing was scheduled October 14, 2025 on a proposed extension; its adoption and term are unverified.
 - **Current end date:** `—`
 - **Sectors:** battery storage
 - **Moratorium ID:** `ny-carlton-undated`
-- **Legal basis:** Town of Carlton local law extending a moratorium on large battery energy storage systems (Local Law No. 6 of 2025)
+- **Legal basis:** Town of Carlton proposed Local Law 6 of 2025 to extend a large-BESS moratorium; adopted instrument and filing are unverified.
 - **What prompted it:** —
 - **Affected projects:** —
-- **Detailed status:** Reported active as of 2026-09-23 by Carina Energy, expiring 2026-09-30. A public hearing on Local Law No. 6 of 2025, extending the moratorium, was held October 14, 2025. [VERIFY instrument number; adoption date not confirmed at confidence 0.6 in the 2026-09 refresh]
-- **Outcome:** Extended at least once (2025); original adoption not located
+- **Detailed status:** A Town notice dated September 14, 2025 scheduled an October 14 hearing on proposed Local Law 6 extending a large-BESS moratorium; the notice does not establish a vote. An October 2026 tracker version reports an April 14, 2027 endpoint, without establishing adopted terms or present force. [VERIFY: original law, hearing, adoption, filing and later action.]
+- **Outcome:** Proposed extension scheduled for hearing; adoption and present force unverified.
 
 ### Carmel
 
@@ -595,7 +595,7 @@ State policy is tracked separately: **11 records** (10 typed bill rows and 1 non
 - **Legal basis:** Town of Claverack Local Law No. 2 of 2024, a moratorium on Battery Energy Storage Systems
 - **What prompted it:** Town reviewing possible BESS zoning regulations
 - **Affected projects:** Key Energy's expressed interest in a BESS on town property
-- **Detailed status:** Reported active as of 2026-09-23 by Carina Energy, expiring 2026-06-11. A Town Board discussion confirmed the moratorium remains in effect and prevented the board from acting on a Key Energy BESS site inquiry, with the topic deferred to the town's comprehensive-plan process. [VERIFY instrument number not confirmed at confidence 0.65 in the 2026-09 refresh]
+- **Detailed status:** An August 2026 secondary account reports a three-month BESS extension as Local Law 2 of 2026; its visible date precedes its claimed meeting date. An October tracker lists Claverack active with a June 11, 2026 endpoint. Earlier research reported a Key Energy inquiry; its source and applicability were not verified in this review. [VERIFY: meeting date, adopted instrument, filing, project applicability and later force.]
 - **Outcome:** Adopted, extended repeatedly from an original three-month term
 
 ### Clay
@@ -608,10 +608,10 @@ State policy is tracked separately: **11 records** (10 typed bill rows and 1 non
 - **Current end date:** `—`
 - **Sectors:** data center, cryptocurrency mining
 - **Moratorium ID:** `ny-clay-2026`
-- **Legal basis:** Local Law No. 6 of 2026 (Town of Clay, Onondaga County), 'A Local Law providing for a Temporary Moratorium for Twelve (12) Months prohibiting any zone change or special permit applications related to the establishment of large-scale data centers, AI computing facilities, cryptocurrency mining operations, and similar high-intensity computing uses,' adopted at a Special Town Board meeting June 29, 2026 (6-0). Note: the town's own filing packet also captions a separately adopted six-month solar battery storage moratorium as 'Local Law No. 6 of 2026' -- that is the town's own numbering overlap, not a duplicate row in this inventory.
+- **Legal basis:** A third-party transcription of a Town of Clay packet attributes a twelve-month data-center, AI and cryptocurrency moratorium to Local Law 6 of 2026; the same transcription also captions a six-month solar-battery law Local Law 6. Original packet, numbering and filing require verification.
 - **What prompted it:** Preemptive townwide pause tied to anticipated development pressure around Micron Technology's planned semiconductor campus in neighboring areas; no data center projects had been proposed in Clay as of adoption.
 - **Affected projects:** None named; town officials said no data center projects had been proposed in Clay.
-- **Detailed status:** Active as of 2026-09-23. Confirmed by the town's own filed Local Law No. 6 of 2026 text (unanimous 6-0 adoption June 29, 2026), not just news coverage. The town separately adopted a Battery Energy Storage System moratorium (also captioned 'Local Law No. 6 of 2026' in the same filing packet) at the same meeting.
+- **Detailed status:** A third-party transcription reports a June 29, 2026 vote approving a twelve-month high-intensity computing moratorium. The source is not the original filing packet; filing, effective date, numbering and later force remain unverified. [VERIFY: original instrument and filing, identity and later action.]
 - **Outcome:** Town Board approved a one-year moratorium on new data centers, AI computing facilities, cryptocurrency mining operations, and similar developments.
 
 ### Clymer
@@ -643,8 +643,8 @@ State policy is tracked separately: **11 records** (10 typed bill rows and 1 non
 - **Legal basis:** —
 - **What prompted it:** —
 - **Affected projects:** —
-- **Detailed status:** Reported active as of 2026-09-23 by Carina Energy's live tracker, expiring 2026-09-30; no dedicated town-level primary or news source was located within this pass's research budget. [VERIFY instrument number; adoption date; primary source (news-only evidence) not confirmed at confidence 0.5 in the 2026-09 refresh]
-- **Outcome:** Reported active by tracker only
+- **Detailed status:** An October 13, 2026 town-board agenda lists a hearing on proposed Local Law 1 for a twelve-month commercial BESS pause. An October 2026 tracker lists Collins active with a September 30, 2026 endpoint; the agenda does not establish adoption or link to the tracker entry. [VERIFY: instrument identity, hearing result, filing and later action.]
+- **Outcome:** Hearing scheduled on proposed commercial BESS moratorium; adoption and later force unverified.
 
 ### Concord
 
@@ -691,7 +691,7 @@ State policy is tracked separately: **11 records** (10 typed bill rows and 1 non
 - **Legal basis:** —
 - **What prompted it:** —
 - **Affected projects:** —
-- **Detailed status:** Reported active as of 2026-09-23 by Carina Energy, extended to November 2026; no dedicated town-level primary or news source was located within this pass's research budget. (This is the Town of Corning, Steuben County, distinct from the City of Corning in the same county.) [VERIFY instrument number; adoption date; primary source (news-only evidence) not confirmed at confidence 0.55 in the 2026-09 refresh]
+- **Detailed status:** A commercial account as of September 2026 reports the Town of Corning BESS moratorium extended to November 2026; an October tracker lists Corning, Steuben County with a November 20 endpoint. The original law, town-specific identification, filing and later force remain unverified. [VERIFY: town instrument, term and later action.]
 - **Outcome:** Reported extended by tracker only
 
 ### Cortlandt
@@ -732,7 +732,7 @@ State policy is tracked separately: **11 records** (10 typed bill rows and 1 non
 - **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-07-15, East Greenbush Town Board, unanimous vote, following a July 8, 2026 public hearing
 - **Normalized date:** `2026-07-15` (exact)
-- **Duration:** Base term of six (6) months from the effective date (filing with the NY Secretary of State); if the Town Board passes a resolution extending it before expiration, the moratorium may run up to one (1) year total from the effective date.
+- **Duration:** Six months reported adopted July 15, 2026; a separately posted draft describes a possible extension up to one year from effectiveness. Final wording, filing and subsequent extension are unverified.
 - **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `ny-east-greenbush-2026`
@@ -740,7 +740,7 @@ State policy is tracked separately: **11 records** (10 typed bill rows and 1 non
 - **What prompted it:** General, preemptive townwide pause; Town Supervisor Jack Conway cited concerns about a possible legal challenge to Governor Hochul's Executive Order 62 and a desire for an independent local 'layer of protection' against data center development.
 - **Affected projects:** None named; general preemptive moratorium not tied to a specific proposal.
 - **Detailed status:** July 15 reporting describes a unanimous vote for a six-month data-center moratorium. The official posted law was labeled draft; final adopted wording, filing and any subsequent action remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
-- **Outcome:** Town Board unanimously passed a six-month moratorium (extendable to one year) on all data center development and operation within the town.
+- **Outcome:** Reported unanimously adopted for six months; proposed extension provisions and final filed terms remain unverified.
 
 ### Eden
 
@@ -2112,11 +2112,11 @@ State policy is tracked separately: **11 records** (10 typed bill rows and 1 non
 - **Current end date:** `—`
 - **Sectors:** data center, cryptocurrency mining
 - **Moratorium ID:** `ny-dryden-2024`
-- **Legal basis:** Local Law No. 2 of 2024; draft Local Law No. 1 of 2026 extension; Local Law No. 2 of 2026 replacement zoning definitions
+- **Legal basis:** Local Law No. 2 of 2024 and a retrieved 2026 amendment changing the term from 18 to 20 months. Earlier research identified Local Law No. 2 of 2026 as replacement zoning; its text and operative relationship require separate verification.
 - **What prompted it:** Proposed commercial cryptocurrency/data-processing use in Freeville area, regulatory gap, and stated concern for natural, historic, cultural, and electrical resources
 - **Affected projects:** New York Metro Cloud LLC proposed use (cryptocurrency hosting/mining) at 2186 Dryden Road in Freeville. No MW/power-capacity figure appears in any available record; federal court filings (Bartolini v. Town of Dryden, N.D.N.Y. lead case 3:24-cv-01380, member 3:24-cv-01383, plus related S.D.N.Y. dockets 7:24-cv-07062 and 7:24-cv-05925) describe the site as a 0.24-acre parcel with approximately 3,000 square feet of interior space in a converted Quonset-style building -- consistent with a small hosting operation rather than a utility-scale, megawatt-rated data center, which explains why no MW figure exists rather than it simply being unreported.
 - **Detailed status:** The retrieved January 2026 amendment changes the term of Local Law 2 of 2024 from eighteen months to twenty months, with other provisions retained until expiry or legislative termination. Effective filing, actual continuity and the reported permanent-zoning replacement require further review. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
-- **Outcome:** Town adopted a 2026 zoning law defining data centers, accessory data centers, cryptocurrency, and cryptocurrency data mines, while taking no action to add data centers or cryptocurrency facilities to the allowable-use chart. This appears to prohibit principal data center and cryptocurrency data mine uses unless later code amendments allow them.
+- **Outcome:** A 2026 amendment to the original moratorium is documented. Earlier research reported a zoning law defining data centers and cryptocurrency uses without adding them to the allowable-use chart; the law, its operative effect and asserted replacement of the moratorium require separate verification.
 
 ### Town of Dunkirk (Chautauqua County)
 

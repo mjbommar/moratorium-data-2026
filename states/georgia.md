@@ -283,14 +283,14 @@ State policy is tracked separately: **9 records** (9 typed bill rows) in [`state
 - **Recorded status:** 🟢 Extended
 - **Date enacted:** Board of Commissioners approved a 100-day moratorium on data center and battery energy storage system permits in unincorporated Carroll County at its March 3, 2026 meeting (7-0); extended for another 100 days at the June 3, 2026 meeting (7-0).
 - **Normalized date:** `2026-03-03` (exact)
-- **Duration:** 100 days from March 3, 2026 (or until zoning revisions adopted); extended 100 days on June 3, 2026; a third 100-day moratorium approved 7-0 on August 4, 2026, running to approximately 2026-11-12.
-- **Current end date:** `2026-11-12`
+- **Duration:** Initial March 3 resolution states 100 days or adoption of relevant zoning revisions, whichever occurs first. The prior row reports a June 3 extension. An August news account reports another 100-day moratorium approved 7-0 but also says through September; the third instrument and operative endpoint remain unverified.
+- **Current end date:** `—`
 - **Sectors:** data center, battery storage, solar
 - **Moratorium ID:** `ga-carroll-county-2026`
 - **Legal basis:** Carroll County Board of Commissioners resolution adopted March 3, 2026, applicable only to unincorporated Carroll County; extension resolution adopted June 3, 2026.
 - **What prompted it:** Significant surge in planning, development, and construction of data centers and battery energy storage facilities nationally and in Georgia; the county's zoning ordinance (from the 1990s) did not contemplate these uses.
 - **Affected projects:** Not specified in sources reviewed
-- **Detailed status:** Active/extended as of 2026-09-23; on 2026-08-04 the Board of Commissioners approved (7-0) a third 100-day moratorium on data center permits, running to about 2026-11-12, while a draft ordinance covering data centers, solar farms and battery storage (reviewed at the July 30 work session) moves toward Planning and Zoning hearings; the board expected to review the ordinance at its December meeting.
+- **Detailed status:** An August 2026 news account reports a third 100-day moratorium approved 7-0 but also says through September. The prior row reports a July 30 ordinance work session and expected December board review; the third instrument, operative endpoint and later actions remain unverified. [VERIFY: third resolution and later actions.]
 - **Outcome:** Third 100-day moratorium adopted 2026-08-04; permanent ordinance for data centers, solar and battery storage still in draft.
 
 ### Cedartown
@@ -457,17 +457,17 @@ State policy is tracked separately: **9 records** (9 typed bill rows) in [`state
 
 - **Type:** County
 - **Recorded status:** 🟢 Extended
-- **Date enacted:** 2026-01-06, Crawford County Board of Commissioners, unanimous (after Planning & Zoning vote 2025-12-18); extended 5-0 on 2026-05-21 to 2026-10-01
+- **Date enacted:** 2026-01-06, Crawford County Board of Commissioners unanimously, following a Planning and Zoning vote on 2025-12-18, per prior row. May 21, 2026 Planning and Zoning Commission minutes record a 5-0 motion to extend the moratorium to October 1; operative authority unverified.
 - **Normalized date:** `2026-01-06` (exact)
-- **Duration:** 180 days (to about 2026-07-05); extended on 2026-05-21 to 2026-10-01
-- **Current end date:** `2026-10-01`
+- **Duration:** Initial six-month term per prior reporting; May 21 Planning and Zoning Commission minutes record a 5-0 motion to extend the moratorium to October 1, 2026. Legal effect and later action remain unverified.
+- **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `ga-crawford-county-2026`
-- **Legal basis:** Crawford County Board of Commissioners six-month moratorium on data center applications (adopted 2026-01-06), extended by 5-0 motion on 2026-05-21 to 2026-10-01 (instrument number not published)
+- **Legal basis:** Crawford County Board of Commissioners six-month data center application moratorium per prior reporting. May 21 Planning and Zoning Commission minutes record a motion to extend it; a Board of Commissioners extension instrument was not verified.
 - **What prompted it:** Conduct impact and health studies and draft ordinances
 - **Affected projects:** None named
-- **Detailed status:** Active/extended as of 2026-09-23: 180-day moratorium adopted 2026-01-06 was extended 5-0 on 2026-05-21 to 2026-10-01 while the draft data center ordinance is revised and public hearings advertised.
-- **Outcome:** Commissioners unanimously passed a six-month moratorium on data center applications and extended it to 2026-10-01.
+- **Detailed status:** May 21 Planning and Zoning Commission minutes record a 5-0 motion to extend the data center moratorium to October 1, 2026. Its operative effect and any subsequent action are unverified. [VERIFY: authority and later action]
+- **Outcome:** Prior row reports unanimous adoption of a six-month moratorium on data center applications. May 21 Planning and Zoning Commission minutes record a 5-0 motion to extend it to October 1, 2026; operative effect is unverified.
 
 ### Decatur County
 
@@ -706,7 +706,7 @@ State policy is tracked separately: **9 records** (9 typed bill rows) in [`state
 - **Legal basis:** Board of Commissioners Resolution
 - **What prompted it:** County began receiving inquiries/applications for data center projects; citizens raised concerns
 - **Affected projects:** None named
-- **Detailed status:** Expired 2026-09-12 per its own 180-day term; no extension, replacement, or permanent ordinance was found in a search for post-expiry action, but this could not be fully confirmed. [VERIFY instrument number not confirmed at confidence 0.6 in the 2026-09 refresh]
+- **Detailed status:** The March 17, 2026 resolution sets termination at close of business September 12, 2026 or earlier affirmative board action. [VERIFY: actual termination, later extension or replacement, present legal force, and instrument number.]
 - **Outcome:** Moratorium barred rezoning petitions, special-use/variance applications and hearings for data center uses; did not affect submittals already under review or issued permits
 
 ### Hogansville

@@ -97,7 +97,7 @@ State policy is tracked separately: **3 records** (3 typed bill rows) in [`state
 - **Legal basis:** Ordinance Imposing a Temporary Moratorium on Development Approvals for data centers in unincorporated Alamance County, N.C.G.S. 160D-107 (ordinance number not located; adopted with the term lengthened from six months to one year)
 - **What prompted it:** County ordinances do not address data centers; residents urged a longer pause
 - **Affected projects:** None named.
-- **Detailed status:** Active as of 2026-09-23; one-year moratorium adopted 2026-08-17 (to about 2027-08-17) while the county drafts regulations.
+- **Detailed status:** Elon News reported a unanimous one-year data-center moratorium adopted August 17, 2026, with a reported horizon of August 2027. The exact effective date, later action and present force remain unverified. [VERIFY: enacted ordinance and subsequent actions.]
 - **Outcome:** One-year moratorium adopted; regulations to be drafted.
 
 ### Beaufort County
@@ -769,7 +769,7 @@ State policy is tracked separately: **3 records** (3 typed bill rows) in [`state
 - **Legal basis:** Town-wide moratorium noticed under N.C.G.S. 160D-107 and 160D-601; covers acceptance, processing, and approval of development applications for data centers, cryptocurrency mining, data processing, and associated uses. [Evidence ceiling: Apex's CivicEngage AgendaCenter rendered with a real Chrome browser displays only a calendar widget and search interface; individual Town Council 2026 meeting agenda links are populated dynamically and were not surfaced for the April 14, 2026 meeting in any captured fetch as of 2026-04-30. The captured public-hearing notice (Apex DocumentCenter View 53939) and IndyWeek's vote coverage cite no instrument number; Apex Municode has not yet incorporated the new moratorium.]
 - **What prompted it:** Resident opposition to a proposed data center, followed by developer withdrawal; town cited water consumption, energy demand, backup generation, noise, land-use compatibility, transportation, and lack of UDO standards.
 - **Affected projects:** Prior Natelli Investments/related Apex proposal was withdrawn before the moratorium; no pending project identified in captured notice.
-- **Detailed status:** Active
+- **Detailed status:** IndyWeek reported Council approval of a 12-month moratorium in April 2026; the agenda attachment states an April 28, 2026 commencement and an end no later than April 27, 2027 or earlier UDO approval. The executed text and subsequent action remain unverified. [VERIFY: enacted instrument and later action.]
 - **Outcome:** Pending. Town will study and consider UDO and policy amendments.
 
 ### Town of Bailey
@@ -801,7 +801,7 @@ State policy is tracked separately: **3 records** (3 typed bill rows) in [`state
 - **Legal basis:** Town ordinance banning development of data centers and cryptocurrency mining operations for one year, adopted after public hearing process under N.C.G.S. 160D-107; Mayor Dalton George brought the issue to council per WHQR; March 23 was a Monday, consistent with WHQR's "Monday night" reporting. [Evidence ceiling: Boone's Granicus archive search at townofboone.granicus.com/ViewSearchResults.php returns zero records for the keyword "moratorium" as of 2026-04-30; the only public-hearing entries indexed for spring 2026 do not include the March 23 special action, so the adopted instrument number is not retrievable from the Granicus archive.]
 - **What prompted it:** Public concern over infrastructure strain, water resources, environmental effects, and local fit; nearly 100 residents reportedly attended the meeting.
 - **Affected projects:** No named project identified in captured reporting.
-- **Detailed status:** Active
+- **Detailed status:** WHQR reported on March 23, 2026 that the Town Council unanimously approved a one-year moratorium on data center and cryptocurrency development. The adopted ordinance, effective interval, later action and present force remain unverified. [VERIFY: ordinance and subsequent action.]
 - **Outcome:** Pending. Town planned to study environmental and economic impacts and develop regulations or prohibitions.
 
 ### Town of Canton

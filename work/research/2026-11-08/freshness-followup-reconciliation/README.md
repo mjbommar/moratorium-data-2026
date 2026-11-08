@@ -1,0 +1,13 @@
+# Follow-up freshness and Baldwin reconciliation
+
+Applied **59 substantive cells and 34 derived verification fields across 30 records** after separate Terra primary/independent source reviews and coordinator adjudication. All IDs and recorded status classifications remain unchanged. Verification-marked rows rise from 749 to **766**, with **564 unflagged**; these flags expose unresolved source/authority questions rather than add moratoria.
+
+Corrections distinguish Planning and Zoning action from commissioners’ authority in Crawford County; remove unsupported Carroll County and Dexter endpoints; separate Gary’s announced examination from the geographic reach of its moratorium; identify Indianapolis’s council ordinance and separate zoning proposal; and distinguish hearings, proposed texts, reporting and trackers from adopted instruments. Signed Boone County terms and Alliance council adoption are recorded within their source scope. Prior unverified claims remain attributed where relevant rather than silently becoming new legal facts. No whole-record freshness or present-force acceptance is implied.
+
+Baldwin’s six held cells are reconciled. The retained May 28 Bulletin body supports reported May 13 drafting authorization and a proposed one-year term. A retained June 2 provider excerpt and older research attributed to June 5 describe passage, but their independence and the missing original June 5 body are explicit. The June 10 secondary account supplies reported resolution adoption, not the vote date or final term. The unsupported June-only ISO date is cleared without replacing earlier chronology with a single later report. Raw bodies and decoded source passages stay private.
+
+Two independent 15-record reviews considered 56 material proposals: 35 accepted, 18 modified and three Denmark date changes rejected. The rejected changes would have removed an earlier attributed index date merely because another law copy did not show it. The 53 accepted/modified candidates plus six revised Baldwin cells form this application. [Application](application.json) records exact expected/current values, the applied diff and source-artifact pins. Only the local inventory changes; the 447 policy observations, scope partitions and 56 canonical ballot measures are unchanged.
+
+Legal effectiveness, later changes and unresolved source histories remain separately queued. This is a working correction increment, not final release acceptance.
+
+[Verification](verification.json) records a passing full configured repository check, zero validation errors, 512 retained warnings and all 74 documented numbers matched. The actual CSV diff contains exactly the 93 approved substantive/derived changes, with all 1,330 IDs and status classifications preserved.

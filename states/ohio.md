@@ -187,7 +187,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 - **Legal basis:** Village of Ada Resolution 2026-101 (emergency) imposing a temporary moratorium on data centers and cryptocurrency mining centers; extended by Resolution 2026-109 (emergency)
 - **What prompted it:** Precautionary: residents' concerns; no inquiries received; village infrastructure cannot supply large data centers; time to write zoning.
 - **Affected projects:** None; no companies have shown interest.
-- **Detailed status:** Extended as of 2026-09-23; six-month moratorium adopted 2026-04-07 (set to expire 2026-10-07) was extended 2026-09-01 by Resolution 2026-109 for 12 months (to about 2027-09-01). Planning Commission public hearing on legislation to prohibit data centers is set for 2026-09-29.
+- **Detailed status:** Approved council minutes describe an April 7, 2026 six-month moratorium, scheduled to expire October 7, and record a September 1, 2026 6-0 vote adopting Resolution 2026-109, described as an additional twelve-month extension. The meeting packet states effectiveness on passage; the signed resolution, actual effective date, later action and September 29 hearing outcome remain unverified. [VERIFY: signed resolution and later action.]
 - **Outcome:** Village pursuing permanent legislation that would prohibit data centers (Planning Commission hearing Sept. 29, 2026).
 
 ### Alliance
@@ -200,11 +200,11 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 - **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `oh-alliance-2026`
-- **Legal basis:** City Council ordinance/legislation approved 5-1 (Councilman Phillip Mastroianni opposed; Councilwoman Jennifer Kiko absent), denying permits for any 'AI data centers' within city limits.
+- **Legal basis:** Alliance City Council Ordinance 050-26, adopted July 6, 2026 by a 5-1 vote, imposing a temporary moratorium on permits for AI data centers; signed text and effectiveness remain unverified.
 - **What prompted it:** Councilwoman Sheila Cherry pushed for the pause to protect residents, separate facts from rumors, and to amend related I-2 industrial-district restrictions to include conditional uses; comes after Mayor Andy Grove revealed at least one company had expressed interest in bringing a data center to the city, and follows separate mid-June 2026 legislation restricting future data centers to I-2 industrial zones.
 - **Affected projects:** No specific developer/project named in coverage; Mayor Andy Grove said at least one company has expressed interest in bringing a data center to the city.
-- **Detailed status:** Active as of 2026-07-31 (adopted 2026-07-06); a sub-committee on data centers was formed for future workshops and public discussion.
-- **Outcome:** Pending; sub-committee formed to develop conditional-use standards for the existing I-2 industrial-district restriction adopted in mid-June 2026.
+- **Detailed status:** July 6, 2026 council minutes record adoption of Ordinance 050-26 by a 5-1 vote. Effectiveness, subsequent amendment or termination and later force remain unverified. [VERIFY: signed ordinance, effective date and later action.]
+- **Outcome:** Council adopted Ordinance 050-26 on July 6, 2026, imposing a temporary AI data-center permit moratorium of no more than eighteen months; effective date and subsequent action remain unverified.
 
 ### Amherst
 
@@ -523,7 +523,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 - **Legal basis:** City of Brooklyn Resolution 2026-21 (emergency) imposing a 180-day moratorium on building permits / certificates of occupancy for data centers
 - **What prompted it:** Precautionary: mayor cited power and water use and state tax incentives drawing data centers to Ohio; city wanted time to write zoning rules. No project pending.
 - **Affected projects:** None; mayor said the city lacks the acreage data centers seek.
-- **Detailed status:** Active as of 2026-09-23 (presumed); 180-day moratorium passed about June 2026 runs to roughly December 2026. Exact dates unverified. [VERIFY instrument number; primary source (news-only evidence) not confirmed at confidence 0.55 in the 2026-09 refresh]
+- **Detailed status:** June 8 agenda lists Resolution 2026-21 for second reading; final passage, effective date and later legal force require verification. [VERIFY]
 - **Outcome:** Council passed a 180-day pause on permits/certificates of occupancy for data centers while the city drafts zoning legislation.
 
 ### Buckeye Lake
@@ -564,15 +564,15 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 - **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-06-16
 - **Normalized date:** `2026-06-16` (exact)
-- **Duration:** 6 months, immediately effective
+- **Duration:** Six months; county administrator reported effectiveness June 17, 2026; operative resolution not verified.
 - **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `oh-butler-county-2026`
 - **Legal basis:** Board of County Commissioners resolution; Resolution 26-06-00963, covering unincorporated areas of Hanover, Lemon, Madison, Milford, Oxford, and Ross townships where the county administers zoning
 - **What prompted it:** County-initiated pause on data center applications and permits in county-zoned townships pending policy development
 - **Affected projects:** —
-- **Detailed status:** Active as of 2026-07-31; runs through approximately 2026-12-13
-- **Outcome:** Commissioners unanimously adopted Resolution 26-06-00963, immediately imposing a six-month moratorium barring county acceptance or processing of applications and issuance of zoning or building permits for data centers and data processing centers in Hanover, Lemon, Madison, Milford, Oxford, and Ross townships
+- **Detailed status:** June 16 county action was reported to impose a six-month moratorium in six county-zoned townships; the county administrator reported June 17 effectiveness. Actual end date and later force remain unverified. [VERIFY]
+- **Outcome:** Commissioners were reported to have approved a six-month moratorium on approval, establishment, construction or issuance of permits for data or data processing centers in Hanover, Lemon, Madison, Milford, Oxford and Ross townships. The administrator reported June 17 effectiveness; the resolution number and operative text remain unverified in the retained account. [VERIFY]
 
 ### Canton Township
 
@@ -603,7 +603,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 - **Legal basis:** Village of Carrollton Ordinance No. 2026-10, 'An Ordinance Authorizing a Moratorium on Data Centers in the Village of Carrollton' (effective at the earliest date allowed by law)
 - **What prompted it:** Council found data centers would strain the village water supply and utilities, raise rates, have environmental impacts and add little to employment, conflicting with long-term planning goals.
 - **Affected projects:** None named.
-- **Detailed status:** Active as of 2026-09-23; open-ended moratorium on data centers in the village under Ordinance 2026-10 (passed 2026-05-27, effective about 30 days later), with no stated expiration.
+- **Detailed status:** Ordinance 2026-10 states passage May 27, 2026, imposes a moratorium without a stated expiration and takes effect at the earliest date allowed by law. Exact effective date, later action and current force are unverified. [VERIFY]
 - **Outcome:** Indefinite moratorium on data centers within village corporate limits; no study period or sunset specified.
 
 ### Chillicothe

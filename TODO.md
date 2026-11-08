@@ -634,3 +634,5 @@ Exit: repeatable refresh with visible freshness, costs, failures and unresolved 
 - [x] Publish minimal Monroe and Sprigg zoning-question records with full official sample wording, 148/100 and 330/297 unofficial observations, separate source totals and explicit unknown sectors/legal effects; reconcile two frozen identities without inheriting old data-center classifications. See `work/research/2026-11-08/adams-ballot-publication/`.
 
 - [x] Adjudicate first 20 freshness cases after independent source review; apply 19 guarded cells/eight records and hold six Baldwin proposals for chronology reconciliation. This is bounded correction/reconciliation, not whole-record freshness acceptance (`work/research/2026-11-08/freshness-first20-reconciliation/`).
+
+- [x] Apply 59 substantive and 34 verification metadata corrections across 30 local records after two independent fifteen-record reviews and revised Baldwin chronology adjudication. Preserve three rejected Denmark date proposals; no whole-record freshness acceptance (`work/research/2026-11-08/freshness-followup-reconciliation/`).

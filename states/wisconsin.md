@@ -11,7 +11,7 @@ State policy is tracked separately: **7 records** (7 typed bill rows) in [`state
 
 | Jurisdiction | Type | Enacted | Sectors | Recorded status |
 |---|---|---|---|---|
-| Baldwin | Village | 2026-06 | data center | 🟢 Active |
+| Baldwin | Village | Unverified | data center | 🟢 Active |
 | Beetown | Town | 2026-05-07 | data center | 🟢 Active |
 | Bellevue | Village | 2026-08-12 | data center | 🟢 Active |
 | Cassville | Town | Unverified | data center | 🟢 Active |
@@ -59,17 +59,17 @@ State policy is tracked separately: **7 records** (7 typed bill rows) in [`state
 
 - **Type:** Village
 - **Recorded status:** 🟢 Active
-- **Date enacted:** Approximately June 2026 (exact vote date not confirmed): the Baldwin Bulletin (successfully fetched via http mode; the article is ROT47-obfuscated Lee Enterprises/BLOX CMS text, decoded) reports that at the Village Board's May 13, 2026 meeting, 'Approval was granted ... to draft an ordinance, which will be presented to the Planning Commission,' after Village President Lance Van Damme proposed a one-year data-center moratorium. Two independent statewide roundups (Daily Reporter/WisPolitics, June 5, 2026, and the Wisconsin NewsMedia Association, June 2, 2026) both state in past tense that Baldwin 'passed' its moratorium by early June 2026, indicating the Village Board's final adoption vote came at a meeting after May 13 and before June 2, 2026.
-- **Normalized date:** `2026-06` (month_only)
-- **Duration:** Approximately one year (per Village President Lance Van Damme's stated intent)
+- **Date enacted:** Exact adoption date unverified. A May 28, 2026 Baldwin Bulletin report describes May 13 drafting authorization. A retained June 2 roundup excerpt and earlier research attributed to a June 5 report describe passage; their independence is not established. A June 10 secondary account reports resolution adoption without the vote date.
+- **Normalized date:** `—` (unverified)
+- **Duration:** A one-year moratorium was proposed; the adopted term is unverified.
 - **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `wi-baldwin-undated`
 - **Legal basis:** Village of Baldwin (St. Croix County) data center moratorium (ordinance/resolution number not located in reviewed sources)
 - **What prompted it:** Prompted by data center-related developments in nearby Hammond (St. Croix County); Village President Lance Van Damme said the board wanted a moratorium to give the board time to consider regulations.
 - **Affected projects:** —
-- **Detailed status:** Active as of 2026-09-23. The Baldwin Bulletin article renders as ROT47-obfuscated text under an http-mode fetch (browser mode still shows only the paywall/nav chrome, but the http-mode save captured the full page including the obfuscated article body, which decodes cleanly with a standard ROT47 pass); it describes the May 13, 2026 Village Board meeting directing staff/counsel to draft the moratorium ordinance for presentation to the Planning Commission. Two independent statewide roundups (Daily Reporter, June 5, 2026; Wisconsin NewsMedia Association, June 2, 2026) confirm Baldwin had passed its moratorium (1-2 year range across the roundup's list of towns) by early June 2026. [VERIFY instrument/ordinance number not confirmed at confidence 0.5 in the 2026-09 refresh]
-- **Outcome:** Village Board reported to have adopted a data center moratorium of roughly one year, prompted by developments in the neighboring Village of Hammond.
+- **Detailed status:** A May 28, 2026 Baldwin Bulletin report describes May 13 drafting authorization and a proposed one-year moratorium. A retained June 2 WisPolitics-attributed roundup excerpt and earlier research attributed to a June 5 Daily Reporter report describe passage; independent reporting and the original June 5 body remain unverified. A June 10 secondary account reports resolution adoption. Adoption date, final instrument and term, effectiveness, later actions and current force remain unverified. [VERIFY: adopted instrument, dates, term and later actions.]
+- **Outcome:** The board authorized drafting an ordinance on May 13, 2026; subsequent reports describe a moratorium as passed, and a June 10 account reports adoption of a resolution. The final instrument and term are unverified.
 
 ### Beetown
 

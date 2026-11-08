@@ -444,10 +444,10 @@ State policy is tracked separately: **14 records** (13 typed bill rows and 1 non
 - **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `mi-city-of-flint-2026`
-- **Legal basis:** City Council vote; details not confirmed beyond aggregator report in this pass
+- **Legal basis:** City Council resolution passed June 8, 2026, as reported by Flint Beat and WNEM; resolution number, enacted text and operative date remain unverified.
 - **What prompted it:** Not specified in the source located
 - **Affected projects:** Not specified
-- **Detailed status:** Active per aggregator's 2026-07-10 data snapshot
+- **Detailed status:** News reports the City Council approved a one-year data center moratorium on June 8, 2026, subject to possible early regulations or extension. The previously reported July 10 active snapshot and later action were not independently verified in this review. [VERIFY: enacted resolution, operative dates, later action and present force.]
 - **Outcome:** City Council voted to pause data center approvals for one year
 
 ### City of Lapeer
@@ -495,7 +495,7 @@ State policy is tracked separately: **14 records** (13 typed bill rows and 1 non
 - **Legal basis:** Board of Trustees moratorium resolution (number not located)
 - **What prompted it:** Township lacks data center regulations; master plan update with Spicer Group underway
 - **Affected projects:** None identified
-- **Detailed status:** Active as of 2026-09-23 per the report located; one-year term from 2026-03-18. [VERIFY instrument number; primary source (news-only evidence) not confirmed at confidence 0.5 in the 2026-09 refresh]
+- **Detailed status:** A March 26, 2026 local news report says the Board of Trustees adopted a one-year data center moratorium on March 18, 2026. The resolution number, operative dates and subsequent action remain unverified; the separate previously reported September 23 active assertion was not established by this article. [VERIFY: resolution, later action and present force.]
 - **Outcome:** Master plan and data center regulations in development
 
 ### Comstock Charter Township
@@ -559,7 +559,7 @@ State policy is tracked separately: **14 records** (13 typed bill rows and 1 non
 - **Legal basis:** City Council resolution (number not located)
 - **What prompted it:** Data centers not addressed in city ordinances; electricity, water, diesel generator and residential proximity concerns
 - **Affected projects:** None identified
-- **Detailed status:** Active as of 2026-09-23; the 365-day moratorium adopted 2026-02-24 runs to about 2027-02-24. [VERIFY instrument number; primary source (news-only evidence) not confirmed at confidence 0.55 in the 2026-09 refresh]
+- **Detailed status:** February 24, 2026 City Council minutes record unanimous adoption of an immediate 365-day business-data-center moratorium. A separate resolution number, subsequent action and present force remain unverified. [VERIFY: instrument, subsequent action and legal force.]
 - **Outcome:** Zoning update expected to require planning commission review and public hearings
 
 ### Delta County
@@ -601,13 +601,13 @@ State policy is tracked separately: **14 records** (13 typed bill rows and 1 non
 - **Date enacted:** 2026-02-17 (Resolution #26-705, 7-0 roll call); extended 2026-07-21 by Resolution No. 26-711
 - **Normalized date:** `2026-02-17` (exact)
 - **Duration:** 180 days, extended once by a further 180 days (Resolution 26-711, 2026-07-21)
-- **Current end date:** `2027-02-12`
+- **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `mi-dexter-township-2026`
-- **Legal basis:** Dexter Township Resolution #26-705 (Resolution Adopting Data Center Application Moratorium) under Zoning Ordinance Section 31.15; extended by Resolution No. 26-711
+- **Legal basis:** Dexter Township Resolution 26-705 adopted a 180-day data-center application moratorium under Zoning Ordinance Section 31.10; public notice reports a 180-day extension adopted July 21, 2026 as Resolution 26-711. The signed extension and its operative anchor remain unverified.
 - **What prompted it:** Surge of data-center inquiries in Washtenaw County; groundwater, electricity and farmland concerns; ongoing Master Plan review
 - **Affected projects:** None identified
-- **Detailed status:** Extended and active as of 2026-09-23; original 180-day term (from 2026-02-17) was extended by Resolution No. 26-711 on 2026-07-21 for a further 180 days (to roughly mid-February 2027; exact end date not stated in the published notice).
+- **Detailed status:** Resolution 26-705 was adopted February 17, 2026, and a July 23 notice reports a 180-day extension adopted July 21 as Resolution 26-711. The signed extension’s precise anchor, later action and present force remain unverified. [VERIFY: extension text, end date and subsequent action.]
 - **Outcome:** Master Plan Review Committee evaluating ordinances; extension granted to complete data center regulations
 
 ### Dorr Township
@@ -648,14 +648,14 @@ State policy is tracked separately: **14 records** (13 typed bill rows and 1 non
 - **Recorded status:** ⚪ Expired
 - **Date enacted:** 2025-12-09
 - **Normalized date:** `2025-12-09` (exact)
-- **Duration:** 180 days from the effective date (December 9, 2025), or until the Township Board determines by resolution that the reasons for the moratorium no longer exist; no extension was found in Board minutes through July 14, 2026
+- **Duration:** Resolution 2025-5 specifies 180 days from December 9, 2025, subject to earlier termination by the Township Board; subsequent extensions or other action remain unverified. Earlier review reported no extension located in board minutes through July 14, 2026; that bounded report is not renewed current-force confirmation.
 - **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `mi-dundee-township-2025`
 - **Legal basis:** Dundee Township Resolution 2025-5, 'Establishing a Moratorium on Data Center Applications and Projects,' adopted December 9, 2025 (roll call: Trustees Lazette, Horkey, Jaworski, Miles, Treasurer Ost and Clerk Ziesmer voting aye; Supervisor Lewis absent)
 - **What prompted it:** Community concern around proposed Project Ironwood
 - **Affected projects:** Proposed Project Ironwood on about 350 acres
-- **Detailed status:** Expired around June 7, 2026 (180 days after the December 9, 2025 effective date); no extension of Resolution 2025-5 and no permanent data-center zoning ordinance had been adopted as of the July 14, 2026 Board meeting. A Data Center Ordinance public workshop is scheduled for August 12, 2026 and the Planning Commission was to take the matter up again August 19, 2026
+- **Detailed status:** Resolution 2025-5 was adopted December 9, 2025, for 180 days subject to earlier termination. July 14, 2026 minutes report an August 12 data-center ordinance workshop; the prior row also reports an August 19 Planning Commission discussion. The minutes inspected do not establish that no extension or permanent ordinance was adopted. Later action and present force remain unverified. [VERIFY: intervening and later board actions.]
 - **Outcome:** Ongoing discussions with residents
 
 ### Eagle Township (Clinton County)

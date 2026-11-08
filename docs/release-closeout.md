@@ -1,5 +1,9 @@
 # November refresh closeout
 
+## November 8 follow-up source corrections
+
+The [follow-up reconciliation](../work/research/2026-11-08/freshness-followup-reconciliation/README.md) applies 59 substantive cells and 34 verification metadata fields across 30 local records, including the six revised Baldwin cells. Verification-marked rows are **766**, with **564 unflagged**. IDs, classifications, 447 policy observations and 56 ballot measures are unchanged. Three Denmark date changes remain rejected; scoped source corrections do not close all-record freshness, P4 or final delivery. Earlier checkpoints below preserve their own counts.
+
 ## November 8 bounded freshness corrections
 
 The [first twenty-record reconciliation](../work/research/2026-11-08/freshness-first20-reconciliation/README.md) applies 19 guarded cells across eight records after separate primary/independent reviews and coordinator adjudication. Six Baldwin proposals remain held while earlier reports and the drafting/adoption chronology are reconciled. Verification-marked rows are now **749**, with **581 unflagged**. IDs, classification totals, scope partitions and ballot totals remain unchanged. These scoped corrections do not close whole-record freshness through the cutoff.

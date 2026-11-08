@@ -1,5 +1,7 @@
 # Changelog
 
+The [follow-up reconciliation](work/research/2026-11-08/freshness-followup-reconciliation/README.md) applies 59 substantive cells and 34 verification metadata fields across 30 records, including the revised six Baldwin cells. Distinguish authority, hearings, proposed terms and source dates; preserve unresolved histories without current-force claims. Verification-marked rows are now 766, with 564 unflagged; IDs, classifications, policy and ballot totals remain unchanged.
+
 Current working snapshot: **1,330 local records**, **447 policy observations**, and **56 proposal/measure records** with **52 current result observations** (five certified). Policy scope dispositions are 374 included, 19 excluded and 54 unresolved. Counts describe the working data, not current enforceability or a final release. Older entries below retain their dated checkpoint counts.
 
 The [first 20-record freshness reconciliation](work/research/2026-11-08/freshness-first20-reconciliation/README.md) applies 19 source-supported cells across eight records; six Baldwin proposals remain held for chronology reconciliation. Beetown’s termination requires adoption and publication; AB 222’s agency assessments are separate; unsupported original dates and present-force claims are qualified. Verification-marked rows are now 749. No classification or whole-record freshness acceptance is added.
@@ -189,7 +191,7 @@ These are inventory classifications, not independently renewed legal-force findi
 | Classified active or extended | **1079** |
 | Pending or not yet effective | **79** |
 | Ended (replaced, expired, or rescinded) | **172** |
-| Rows we still want to confirm (`[VERIFY]`) | **749** |
+| Rows we still want to confirm (`[VERIFY]`) | **766** |
 | States with at least one | **47** |
 
 At the earlier Alabama checkpoint, totals were 1,330 local records (1,079 active/extended classifications),
