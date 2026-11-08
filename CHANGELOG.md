@@ -177,7 +177,7 @@ These are inventory classifications, not independently renewed legal-force findi
 | Classified active or extended | **1079** |
 | Pending or not yet effective | **79** |
 | Ended (replaced, expired, or rescinded) | **172** |
-| Rows we still want to confirm (`[VERIFY]`) | **733** |
+| Rows we still want to confirm (`[VERIFY]`) | **734** |
 | States with at least one | **47** |
 
 Current totals remain 1,330 local records (1,079 active/extended classifications),

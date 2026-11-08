@@ -1,0 +1,66 @@
+{
+  "review_date": "2026-11-08",
+  "scope": "Five substantive cells in Fairfield, Foley and Harpersville; derived verification metadata recomputed. Cullman deletion rejected. Fort Payne and Helena unchanged.",
+  "before_csv_sha256": "76ddce330391d9a9c9dfcd7fd014846c6f0ac8cfb7e4e2b0de82e93379fd2d20",
+  "after_csv_sha256": "95f99c6b62d18efbf8671e1d3d0a861e3c11764fff1a3d9fe4a7910e419c7e24",
+  "changes": [
+    {
+      "record_id": "al-fairfield-2026",
+      "field": "current_status",
+      "decision": "ACCEPT",
+      "before": "Active as of adoption 2026-07-27; the publication/posting date establishing the precise effective and expiration dates was not located. [VERIFY]",
+      "recommended_after": "Ordinance 1174 was adopted 2026-07-27; it provides a 180-day term beginning upon its effective date after publication or posting. The publication/posting date establishing the precise effective and expiration dates was not located. [VERIFY later actions and current legal force.]",
+      "reason": "The signed ordinance distinguishes adoption from effect: \u00a714 requires publication or posting and \u00a710 runs 180 days from effectiveness. The existing assertion of active on adoption is not established; its own qualification admits the anchor is unknown."
+    },
+    {
+      "record_id": "al-foley-2026",
+      "field": "duration",
+      "decision": "ACCEPT",
+      "before": "Six months, in effect upon adoption",
+      "recommended_after": "Six months reported by city as in effect in its September 2026 release. [VERIFY operative ordinance term and effective date.]",
+      "reason": "The city states six months and says the ordinance was in effect when reported on September 9, but the retained release does not specify effect upon adoption or the operative clause. Preserve the reported interval with verification."
+    },
+    {
+      "record_id": "al-foley-2026",
+      "field": "current_status",
+      "decision": "MODIFY",
+      "before": "Active as of 2026-09-23; six-month moratorium adopted on final reading 2026-09-08 and in effect (to about early March 2027).",
+      "recommended_after": "Recorded active as of 2026-09-23; city reported final-reading approval on 2026-09-08 and said the six-month moratorium was in effect in its September 2026 release. An approximate early March 2027 endpoint depends on the effective date and later action. [VERIFY operative ordinance, effective date, later actions and current legal force.]",
+      "reason": "The historical dataset classification existed in the prior answer; lack of a September 23 government record does not establish it was never recorded. Preserve it explicitly as a recording, retain the useful approximate endpoint as conditional rather than a legal conclusion, and attribute the city report."
+    },
+    {
+      "record_id": "al-foley-2026",
+      "field": "affected_projects",
+      "decision": "ACCEPT",
+      "before": "None; no data center proposed in or near Foley.",
+      "recommended_after": "Mayor said in September 2026 that no data centers had been proposed in the Foley area; no affected project was independently identified in this review.",
+      "reason": "The city release paragraph 4 attributes the area-wide no-proposal statement to Mayor Hellmich. That statement does not independently establish an exhaustive absence of affected projects."
+    },
+    {
+      "record_id": "al-harpersville-2026",
+      "field": "affected_projects",
+      "decision": "MODIFY",
+      "before": "None proposed.",
+      "recommended_after": "The legacy record says none proposed; no data center project is identified in the ordinance text reviewed.",
+      "reason": "The unqualified existing universal negative exceeds the retained ordinance evidence. The proposal usefully bounds identification, but removes the prior historical claim entirely; preserve it explicitly as a legacy claim, without treating it as a proven exhaustive absence. The original PDF is unavailable and OCR provenance is limited."
+    },
+    {
+      "record_id": "al-foley-2026",
+      "field": "verify_count",
+      "decision": "derived_recomputed",
+      "before": "0",
+      "recommended_after": "2"
+    },
+    {
+      "record_id": "al-foley-2026",
+      "field": "has_verify_tags",
+      "decision": "derived_recomputed",
+      "before": "False",
+      "recommended_after": "True"
+    }
+  ],
+  "current_force_accepted": false,
+  "complete_freshness_accepted": false,
+  "record_count": 1330,
+  "flagged_count": 734
+}

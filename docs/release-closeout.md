@@ -1,5 +1,9 @@
 # November refresh closeout
 
+## November 8 retained-source correction
+
+Five independently reviewed prose cells in Fairfield, Foley and Harpersville have been applied under matching full-row guards; two derived verification fields were recomputed. The inventory remains 1,330 rows, with 734 carrying verification markers and 596 without. No ID, status classification, ballot count or vote total changed. Cullman’s qualified historical classification is preserved. This scoped correction does not close current-force, comprehensive freshness, extraction evaluation, consumer integration or final release gates. See the [application packet](../work/research/2026-11-08/alabama-field-reconciliation/README.md).
+
 Checkpoint: November 6, 2026, repository revision `78c9607a5fb492ef422e4560b02f4d95076dbf2c`.
 This is the execution order for finishing the [existing plan](research-and-ballot-expansion-plan.md), not a reduced replacement scope or a release approval. [TODO.md](../TODO.md) remains the requirement checklist. Counts below describe this checkpoint and must be reconciled at the final freeze.
 

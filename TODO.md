@@ -2,6 +2,8 @@
 
 Plan: [Research modernization and ballot-measure expansion](docs/research-and-ballot-expansion-plan.md).
 
+- [x] Apply five independently adjudicated Fairfield/Foley/Harpersville prose cells under full-row guards, recompute verification metadata, and preserve the rejected Cullman deletion ([packet](work/research/2026-11-08/alabama-field-reconciliation/README.md)). Effective dates, current force and complete freshness remain held.
+
 - [x] Apply independently reviewed El Dorado unofficial-label and Emporia proposed-text availability corrections, preserving prior records and all vote totals ([packet](work/research/2026-11-07/el-dorado-emporia-corrections/README.md)).
 
 - [x] Complete bounded dispositions for all five unpublished frozen ballot groups as reviewed-withheld, preserving the original projection and explicit authority requirements ([overlay](work/research/2026-11-07/ballot-frozen-seed-dispositions/README.md)). National census/current-force closure remains open.
