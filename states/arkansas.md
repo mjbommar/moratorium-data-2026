@@ -31,7 +31,7 @@ State policy is tracked separately: **7 records** (6 typed bill rows and 1 non-b
 - **Sectors:** data center, cryptocurrency mining
 - **Moratorium ID:** `ar-carroll-county-2026`
 - **Legal basis:** Emergency Ordinance 2026-17
-- **What prompted it:** Immediate pause on high-impact industrial and high-intensity digital infrastructure facilities (reported by contemporary coverage to include data centers, artificial intelligence computing facilities, and cryptocurrency mining facilities) in unincorporated Carroll County while the county develops a permitting and public-notice framework
+- **What prompted it:** Emergency Ordinance 2026-17 temporarily restricts specified construction and county approvals for high-impact industrial and high-intensity digital infrastructure in unincorporated Carroll County while the county develops a permitting and public-notice framework. Article 4 describes qualifying facilities by activity and demand thresholds; Article 9 provides non-retroactivity for specified projects.
 - **Affected projects:** —
 - **Detailed status:** The June 23, 2026 Carroll County News legal notice publishes Emergency Ordinance 2026-17 with printed approval and attestation dated June 16. Article 8 specifies twelve months from effectiveness unless repealed earlier, rather than an explicit 365-day term. This is published ordinance text, not a separately inspected original county-signed copy. The active classification is inherited; later actions and current force were not independently established by this review. [VERIFY later extension, repeal or replacement] [VERIFY current legal force]
 - **Outcome:** —
@@ -65,7 +65,7 @@ State policy is tracked separately: **7 records** (6 typed bill rows and 1 non-b
 - **Legal basis:** Ordinance No. 2026-21, adopted with an emergency clause
 - **What prompted it:** Preemptive pause adopted with no data center project currently proposed in the county; Justices of the Peace cited the heavy water and electricity consumption of commercial data centers, lack of transparency in land acquisition, and a recent wind-turbine development dispute (a company holding turbine contracts predating the county's 2025 wind moratorium) as reasons to act before any project arrives.
 - **Affected projects:** None identified; officials said no data center had been proposed in Independence County at the time of adoption.
-- **Detailed status:** Active as of 2026-09-23. Adopted 2026-08-10 by unanimous vote under an emergency clause; runs through 2031-08-31, or until the Quorum Court determines a path forward and adopts applicable rules and regulations. No specific data center project had been proposed in the county at adoption.
+- **Detailed status:** White River Now reported that the Quorum Court passed a five-year commercial data center moratorium on August 10, 2026, with a reported end date of August 31, 2031 and study of future rules. The legacy record reports a unanimous vote, an emergency clause, an earlier rulemaking condition, and no project proposed at adoption; those details remain unverified in the retained bodies reviewed here. Recorded active as of September 23, 2026 in the legacy inventory; that historical claim and current legal force are not established by the retained sources. [VERIFY legal force and final ordinance]
 - **Outcome:** Preemptive five-year moratorium adopted while the Quorum Court studies commercial data centers and drafts future rules and regulations; the longest data-center moratorium term reported in Arkansas as of this pass.
 
 ### Madison County

@@ -17,6 +17,7 @@ Run:
 
 from __future__ import annotations
 
+import argparse
 import csv
 import json
 from collections import OrderedDict, defaultdict
@@ -103,7 +104,7 @@ def collect() -> tuple[list[str], dict[str, dict[str, int]], list[int]]:
     return months, monthly, cumulative
 
 
-def main():
+def render():
     months, monthly, cumulative = collect()
     if not months:
         raise SystemExit("No dated rows found.")
@@ -242,11 +243,27 @@ def main():
 
     parts.append('</svg>')
 
+    return "\n".join(parts), max_month, cum_max, len(months)
+
+
+def main():
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--check", action="store_true")
+    args = parser.parse_args()
+    svg, max_month, cum_max, month_count = render()
+    if args.check:
+        current = OUT.read_text(encoding="utf-8") if OUT.is_file() else None
+        if current != svg:
+            print("timeline.svg is OUT OF DATE - run scripts/make_timeline.py")
+            return 1
+        print("timeline.svg matches normalized record dates")
+        return 0
     OUT.parent.mkdir(parents=True, exist_ok=True)
-    OUT.write_text("\n".join(parts), encoding="utf-8")
+    OUT.write_text(svg, encoding="utf-8")
     print(f"Wrote {OUT} ({OUT.stat().st_size} bytes)")
-    print(f"  monthly max = {max_month}; cumulative = {cum_max} across {len(months)} months")
+    print(f"  monthly max = {max_month}; cumulative = {cum_max} across {month_count} months")
+    return 0
 
 
 if __name__ == "__main__":
-    main()
+    raise SystemExit(main())

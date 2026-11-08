@@ -38,6 +38,7 @@ check: validate
 	$(PYTHON) scripts/build_policy_scope_exports.py --check
 	$(PYTHON) scripts/build_summary_stats.py --check
 	$(PYTHON) scripts/build_geojson.py --check
+	$(PYTHON) scripts/make_timeline.py --check
 	$(PYTHON) scripts/check_docs_numbers.py
 	$(PYTHON) -m scripts.generate_tables.inventory_clean --check
 	$(PYTHON) scripts/expanded_identity.py --registry data/identities/expanded.jsonl --check
@@ -89,15 +90,17 @@ data:
 	$(PYTHON) scripts/build_ballot_summary.py
 	$(PYTHON) scripts/build_expanded_csv.py
 
-figures: data/geo/cb_2023_us_state_5m/cb_2023_us_state_5m.shp
+figures: data/geo/cb_2023_us_state_5m/cb_2023_us_state_5m.shp site/timeline.svg
 	$(PYTHON) -m scripts.generate_tables
 	PYTHONPATH=scripts $(PYTHON) -m moratorium_maps all
-	$(PYTHON) scripts/make_timeline.py
 
 data/geo/cb_2023_us_state_5m/cb_2023_us_state_5m.shp:
 	$(PYTHON) scripts/fetch_basemap.py
 
-site:
+site/timeline.svg: data/moratorium_inventory.csv scripts/make_timeline.py scripts/moratorium_maps/dates.py
+	$(PYTHON) scripts/make_timeline.py
+
+site: site/timeline.svg
 	$(PYTHON) scripts/build_index.py
 	$(PYTHON) scripts/update_state_counts.py --as-of $(TODAY)
 	$(PYTHON) scripts/build_site.py

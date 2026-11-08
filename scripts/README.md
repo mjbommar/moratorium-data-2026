@@ -35,7 +35,7 @@ candidate to active. `gate_answer.sh` stops on schema, dry-run or archive failur
 | `check_docs_numbers.py` | Checks selected numeric claims matched by explicit patterns against the CSVs; it does not cover every publication surface or substantive claim. `--fix` updates just the digits. |
 | `fetch_basemap.py` | Downloads the Census `cb_2023_us_state_5m` state boundary file the maps draw over (not vendored; ~1 MB). |
 | `geocode_inventory.py` | Fills `latitude`/`longitude` for rows that lack them. |
-| `make_timeline.py`, `update_state_counts.py`, `build_site.py` | Regenerate `site/timeline.svg`, the per-state Markdown counts, and the HTML site. |
+| `make_timeline.py`, `update_state_counts.py`, `build_site.py` | Regenerate `site/timeline.svg`, the per-state Markdown counts, and the HTML site. `make_timeline.py --check` rejects chart drift after normalized dates change. |
 
 ## How to run
 

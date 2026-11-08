@@ -11,7 +11,7 @@ State policy is tracked separately: **13 records** (13 typed bill rows) in [`sta
 
 | Jurisdiction | Type | Enacted | Sectors | Recorded status |
 |---|---|---|---|---|
-| Pima County | County | 2026-08-11 | data center | 🟢 Active |
+| Pima County | County | Unverified | data center | 🟢 Active |
 
 ## Detailed entries
 
@@ -19,17 +19,17 @@ State policy is tracked separately: **13 records** (13 typed bill rows) in [`sta
 
 - **Type:** County
 - **Recorded status:** 🟢 Active
-- **Date enacted:** 2026-08-11 (Board of Supervisors adopted an addendum-item resolution at its regular meeting, 3-2 vote)
-- **Normalized date:** `2026-08-11` (exact)
-- **Duration:** 120 days from adoption (2026-08-11 to approximately 2026-12-09), to give county staff time to finalize a zoning code text amendment establishing data-center-specific regulations; Supervisor Heinz's floor amendment provided the moratorium could return to the board for possible extension before the 120-day limit.
+- **Date enacted:** —
+- **Normalized date:** `—` (unverified)
+- **Duration:** A 120-day moratorium was proposed in the August 11, 2026 direction to draft; an adopted term, effective date, expiration and any extension remain unverified. The earlier inventory recorded a possible extension amendment as a historical lead.
 - **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `az-pima-county-2026`
-- **Legal basis:** Resolution adopted by the Pima County Board of Supervisors at its August 11, 2026 regular meeting, added as an addendum item at the request of Board Chair Jennifer Allen (District 3); no separately reported resolution number located in captured sources.
-- **What prompted it:** Pima County Development Services was already drafting a data-center zoning code text amendment (process initiated by a September 2025 BOS vote) when a second, undisclosed data-center project ('Project Gravel,' an 8-building, 160-acre facility near Sahuarita) surfaced via a public-records request; the moratorium bars new data center permit applications while the code amendment is finalized, and (as amended) applies to facilities that have not yet submitted a permit application, so it does not affect the previously permitted 'Project Blue' facility.
-- **Affected projects:** 'Project Gravel,' an undisclosed, 8-building/160-acre data center proposal on land known as Kerley Industrial Park, west of Sahuarita town limits; county officials confirmed the moratorium (as amended to cover unsubmitted permits) would affect this project but not the previously permitted 'Project Blue' data center near the Pima County Fairgrounds.
-- **Detailed status:** Active as of 2026-09-23. 120-day moratorium on the acceptance/issuance of new data center permits in unincorporated Pima County, adopted 3-2 (Supervisors Christy and Scott dissenting) on 2026-08-11 and running to approximately 2026-12-09, while Development Services finalizes a zoning code text amendment. The department is seeking public comment (online survey; a September 28, 2026 open house; proposed rules going to the Planning and Zoning Commission on October 28, 2026) on a related, permanent zoning code amendment that would define data centers (facilities using more than 20 MW), require closed-loop cooling, and set review/design standards; that permanent amendment is expected in December 2026, around when the moratorium runs out.
-- **Outcome:** Board of Supervisors adopted a 120-day moratorium on new data center permit applications in unincorporated Pima County while the county finalizes a data-center zoning code amendment.
+- **Legal basis:** Pima County Board of Supervisors File ID 20637: August 11, 2026 addendum directing staff to develop a resolution. Adoption, operative resolution number and later action remain unverified.
+- **What prompted it:** The county file says the zoning code change process was initiated by a September 2025 Board vote. The legacy inventory associated the proposed moratorium with Project Gravel and described permit effects on Gravel and Project Blue; those project and applicability claims remain unverified historical leads pending source and operative-text review.
+- **Affected projects:** The legacy inventory identified Project Gravel as an 8-building, 160-acre proposal near Sahuarita and claimed it was affected while Project Blue was exempt. These are unverified historical leads; operative provisions and project applicability remain unestablished.
+- **Detailed status:** On August 11, 2026 the board directed staff to develop a proposed 120-day data-center moratorium; contemporaneous reporting describes a 3–2 vote with Christy and Scott dissenting. A later linked news headline reports a moratorium, but the linked article was not retrieved in the original capped run; adoption, operative scope, duration, later action and present force remain unverified. Recorded active as of September 23, 2026 in the legacy inventory; the as-of claim and related public-comment and zoning-amendment schedule remain unverified historical leads. [VERIFY resolution, dates, scope and later action]
+- **Outcome:** On August 11, 2026 the board directed staff to develop a proposed moratorium while county zoning work proceeded; subsequent adoption and operative terms remain unverified.
 
 ---
 

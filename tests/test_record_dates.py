@@ -1,4 +1,7 @@
+import contextlib
 import csv
+import io
+import sys
 from pathlib import Path
 import tempfile
 import unittest
@@ -34,6 +37,32 @@ class RecordMonthTests(unittest.TestCase):
             self.assertEqual(months, ["2017-12", "2018-01"])
             self.assertEqual(monthly["2018-01"]["solar"], 2)
             self.assertEqual(cumulative, [1, 3])
+
+
+    def test_clearing_an_unsupported_date_invalidates_chart_without_check_rewriting(self):
+        with tempfile.TemporaryDirectory() as directory:
+            source = Path(directory) / "inventory.csv"
+            output = Path(directory) / "timeline.svg"
+            def write_rows(dates):
+                with source.open("w", newline="") as stream:
+                    writer = csv.DictWriter(stream, fieldnames=["date_enacted_iso", "sectors"])
+                    writer.writeheader()
+                    writer.writerows({"date_enacted_iso": value, "sectors": '["data_center"]'} for value in dates)
+            write_rows(["2026-08-11", "2026-08-12"])
+            with patch.object(make_timeline, "INV", source), patch.object(make_timeline, "OUT", output), contextlib.redirect_stdout(io.StringIO()):
+                with patch.object(sys, "argv", ["make_timeline.py"]):
+                    self.assertEqual(make_timeline.main(), 0)
+                previous = output.read_bytes()
+                self.assertIn(b"2 dated records; 0 without a usable month", previous)
+                write_rows(["", "2026-08-12"])
+                with patch.object(sys, "argv", ["make_timeline.py", "--check"]):
+                    self.assertEqual(make_timeline.main(), 1)
+                self.assertEqual(output.read_bytes(), previous)
+                with patch.object(sys, "argv", ["make_timeline.py"]):
+                    self.assertEqual(make_timeline.main(), 0)
+                with patch.object(sys, "argv", ["make_timeline.py", "--check"]):
+                    self.assertEqual(make_timeline.main(), 0)
+                self.assertIn(b"1 dated records; 1 without a usable month", output.read_bytes())
 
 
 if __name__ == "__main__":

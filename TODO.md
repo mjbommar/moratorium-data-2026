@@ -2,6 +2,8 @@
 
 Plan: [Research modernization and ballot-measure expansion](docs/research-and-ballot-expansion-plan.md).
 
+- [x] Apply 21 guarded cells across five AL/AZ/AR records after nine-record AL/AK/AZ/AR review; distinguish Pima’s August direction to draft from unsupported adoption and preserve four unchanged records ([packet](work/research/2026-11-08/al-ak-az-ar-batches6to8-reconciliation/README.md)). Current force and later adoption remain unresolved.
+
 - [x] Apply 20 independently adjudicated substantive cells across seven Alabama records and recompute ten verification cells after nine-record full-row review; preserve six rejected changes, including Morgan’s supported original endpoint and Prichard’s 180-day encoding ([packet](work/research/2026-11-08/alabama-batches3to5-reconciliation/README.md)). Full freshness/current force remain open.
 
 - [x] Apply five independently adjudicated Fairfield/Foley/Harpersville prose cells under full-row guards, recompute verification metadata, and preserve the rejected Cullman deletion ([packet](work/research/2026-11-08/alabama-field-reconciliation/README.md)). Effective dates, current force and complete freshness remain held.

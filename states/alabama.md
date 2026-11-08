@@ -351,9 +351,9 @@ State policy is tracked separately: **4 records** (4 typed bill rows) in [`state
 - **Moratorium ID:** `al-tarrant-2026`
 - **Legal basis:** Ordinance No. 1177 (temporary moratorium on accepting and processing business license applications for data centers)
 - **What prompted it:** Proactive; no data center developer had approached the city. City wants to study electrical capacity, water, transportation and public-safety impacts and train its planning commission before setting local standards.
-- **Affected projects:** None; no proposal pending (several vacant buildings could suit a small data center, per the mayor).
-- **Detailed status:** Active as of 2026-09-23; one-year moratorium on data-center business licenses approved 2026-09-08. Mayor says listening sessions and town halls will follow.
-- **Outcome:** One-year moratorium adopted; feasibility study underway.
+- **Affected projects:** As of September 8, 2026, Mayor Threadford said no potential data center developers had approached the city and noted that several buildings for sale could suit a smaller project. Whether any project was proposed or affected remains unverified.
+- **Detailed status:** On September 8, 2026, news reports said city leaders approved a one-year moratorium on data-center business licenses. Recorded active as of September 23, 2026 in the legacy inventory; that as-of claim and the planned listening sessions and town halls were not verified in the inspected bodies. Subsequent legal force is unresolved.
+- **Outcome:** A one-year moratorium was reported approved; city leaders said they wanted to conduct a feasibility study. Whether the study was underway remains unverified.
 
 ### Westover
 
@@ -368,7 +368,7 @@ State policy is tracked separately: **4 records** (4 typed bill rows) in [`state
 - **Legal basis:** Westover City Council Resolution #2026-08-18-2125 declaring a six-month moratorium on data centers
 - **What prompted it:** Resident opposition to a proposed data center on roughly 450 acres along U.S. Highway 280 and Cheshire Drive after the city's MOU with the developer fell through; time to study zoning and impacts.
 - **Affected projects:** Proposed ~450-acre data center site along Highway 280 / Cheshire Drive (effect of the moratorium on it not stated).
-- **Detailed status:** Active as of 2026-09-23 per local reporting; six-month moratorium approved unanimously 2026-08-18. The Planning Commission is researching zoning changes.
+- **Detailed status:** The council minutes record unanimous approval of a six-month data-center moratorium resolution on August 18, 2026. ABC reported that the Planning Commission planned to research potential zoning changes over the following weeks. Recorded active as of September 23, 2026 in the legacy inventory; that as-of claim and subsequent legal force are unverified.
 - **Outcome:** Six-month moratorium adopted.
 
 ---
