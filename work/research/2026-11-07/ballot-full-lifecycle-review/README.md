@@ -11,3 +11,6 @@ Independent follow-up: the initial first-26 job returned incomplete, with partia
 
 
 Coordinator provenance supplement: the fourth last-27 batch returned substantive bounded per-axis reviews but left fourteen acquisition-log joins unfinished. Root reconciled all sixteen linked source bodies with successful original fetch records, exact hashes, URLs and separately retained native/client/canonical clocks ([receipt](last27-batch4-provenance-supplement.json)). No source was fetched again and no timestamp was overwritten. This closes that mechanical provenance gap, without resolving the batch's withheld legal or result-classification questions.
+
+
+Current [independent-pass accounting](independent-pass-progress.json) records 46 disjoint measure entries with bounded per-axis reviews returned, including all first 26 and twenty of the remaining 27. Seven measure reviews are running. Returned review is separate from final claim acceptance and can retain specific source, certification or implementation gaps. The Trenton historical classification correction has its separate guarded publication packet; the other case observations retain their original histories.
