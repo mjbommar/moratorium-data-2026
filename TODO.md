@@ -23,6 +23,8 @@ precedence over its execution strategy. The initial 100-record Terra cohort has 
 
 ## Process-reset increments
 
+- [ ] Obtain explicit additional discovery allocation after priced-path review; proposed 600 cells/1,200 searches, $25 search ceiling and bounded source follow-up ([proposal](docs/national-discovery-batch-2026-11-08.md)). Existing spent caps remain intact.
+
 - [x] Apply 42 guarded WI/GA/IN cells across nine records after 73-row independent review; reject clearing Clayton’s supported endpoint and preserve unresolved legal force ([receipt](work/research/2026-11-08/wi-ga-in-reconciliation/README.md)).
 
 - [x] Deliver dated living-copy corrections to the author site and Fight a Data Center; verify remote refs, production builds and selected served markers, preserving historical editions and other consumer gaps ([delivery](work/research/2026-11-08/consumer-copy-delivery/README.md)).

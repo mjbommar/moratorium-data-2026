@@ -15,6 +15,7 @@ from pathlib import Path
 import re
 from urllib.parse import urlsplit
 import uuid
+import os
 
 
 def timestamp():
@@ -43,6 +44,46 @@ def reserve(directory, kind, *, intent=None):
         f.seek(0)
         events = [json.loads(x) for x in f if x.strip()]
         reserved = [x for x in events if x["state"] == "reserved"]
+        phase = config.get('priced_phase')
+        if phase:
+            contract_raw = (directory / 'budget-contract.private.json').read_bytes()
+            if hashlib.sha256(contract_raw).hexdigest() != phase['contract_sha256']:
+                raise RuntimeError('Priced phase contract drift')
+            contract = json.loads(contract_raw)
+            from search_refresh_batch import runtime_fingerprint, canonical, sha
+            if runtime_fingerprint() != contract['runtime'] or sha(canonical(json.loads((directory / 'plan.private.json').read_text()))) != contract['plan_sha256']:
+                raise RuntimeError('Priced phase plan/runtime drift')
+            if config['caps'] != {**contract['plan_caps'], 'fetch': contract['fetch_attempts']}:
+                raise RuntimeError('Priced phase caps drift')
+            if (phase['max_usd'], phase['hold_usd'], phase['search_attempts'], phase['browser_attempts']) != (contract['max_usd'], contract['hold_usd'], contract['search_attempts'], contract['browser_attempts']):
+                raise RuntimeError('Priced phase configuration drift')
+            if config['caps'].get('fetch') != contract['fetch_attempts']:
+                raise RuntimeError('Priced phase fetch cap drift')
+            if kind in ('exa', 'serpapi', 'googlenews', 'gdelt'):
+                if not intent or intent.get('budget_contract_sha256') != phase['contract_sha256']:
+                    raise RuntimeError('Priced phase search requires the pinned batch contract')
+                from bc_core import BudgetMeter
+                searches = [x for x in reserved if x['kind'] in ('exa', 'serpapi', 'googlenews', 'gdelt')]
+                # Rebuild under the lock. Never release a hold, even on success.
+                meter = BudgetMeter(max_usd=phase['max_usd'], caps={'search': phase['search_attempts'], 'llm': 0},
+                                    spent_usd=len(searches) * phase['hold_usd'], counts={'search': len(searches)})
+                meter.check('search', cost_usd=phase['hold_usd'])
+                finished = [x for x in events if x['state'] == 'finished' and x['kind'] in ('exa', 'serpapi', 'googlenews', 'gdelt')]
+                if any(x.get('cost_usd') is not None and x['cost_usd'] > phase['hold_usd'] for x in finished):
+                    raise RuntimeError('Observed response cost exceeds reserved hold; stop for review')
+            elif kind == 'fetch':
+                from search_refresh_batch import verify_completed_search
+                verify_completed_search(directory)
+                mode = (intent or {}).get('mode')
+                if mode not in ('http', 'browser'):
+                    raise RuntimeError('Priced phase fetch requires explicit HTTP or pydoll mode')
+                if mode == 'browser':
+                    if sum(x['kind'] == 'fetch' and x.get('intent', {}).get('mode') == 'browser' for x in reserved) >= phase['browser_attempts']:
+                        raise RuntimeError('Persistent pydoll cap reached')
+                    if not any(x['state'] == 'finished' and x['kind'] == 'fetch' and x.get('intent', {}).get('mode') == 'http' and x.get('intent', {}).get('url') == intent.get('url') for x in events):
+                        raise RuntimeError('Pydoll requires a prior HTTP attempt for the same URL')
+            else:
+                raise RuntimeError('Operation is not admitted by priced phase')
         count = sum(x["kind"] == kind for x in reserved)
         if count >= config["caps"].get(kind, 0):
             raise RuntimeError(f"Persistent {kind} cap reached: {count}")
@@ -55,7 +96,10 @@ def reserve(directory, kind, *, intent=None):
                    "config_sha256": hashlib.sha256((directory / "client-config.json").read_bytes()).hexdigest()}
         if intent is not None:
             attempt['intent'] = intent
+        if phase and kind in ('exa', 'serpapi', 'googlenews', 'gdelt'):
+            attempt['allocated_hold_usd'] = phase['hold_usd']
         f.seek(0, 2); f.write(json.dumps(attempt) + "\n"); f.flush()
+        os.fsync(f.fileno())
         return attempt
 
 
@@ -63,6 +107,7 @@ def finish(directory, attempt, **fields):
     with (directory / "attempts.private.jsonl").open("a") as f:
         fcntl.flock(f, fcntl.LOCK_EX)
         f.write(json.dumps({**attempt, **fields, "state": "finished", "finished_at": timestamp()}) + "\n")
+        f.flush(); os.fsync(f.fileno())
 
 
 async def execute(args):
@@ -133,6 +178,8 @@ async def execute(args):
             if args.wait_for_selector:controls['wait_for_selector']=args.wait_for_selector
             if args.record_network:controls['record_network']=True
             settings={"timeout_ms":45000}
+            if json.loads((directory / 'client-config.json').read_text()).get('priced_phase'):
+                settings['retries'] = 0
             if args.conditional_cache:
                 settings.update(cache_dir=directory/'cache.private',cache_ttl_s=0,
                                 cache_max_mb=100,cache_revalidate=True)

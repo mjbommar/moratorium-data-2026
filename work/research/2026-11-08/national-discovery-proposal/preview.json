@@ -1,0 +1,54 @@
+{
+  "state_count": 50,
+  "cells": 600,
+  "lane_cells": {
+    "gap_discovery": 300,
+    "election_census": 300
+  },
+  "typed_sector_cells": 500,
+  "sector_neutral_cells": 100,
+  "provider_calls": {
+    "exa": 600,
+    "serpapi": 600
+  },
+  "caps": {
+    "exa": 600,
+    "serpapi": 600,
+    "googlenews": 0,
+    "gdelt": 0,
+    "search_total": 1200
+  },
+  "plan_file_sha256": "675d45099964b24e3491b2345cf6a450889e37054b6cf9cb6c0629558d945696",
+  "canonical_plan_sha256": "87f509030898829de3947933b3be47c4bc28ff96e46a5f9210851fbdb6122e3d",
+  "estimated_exa_base_search_usd": 4.2,
+  "estimated_serp_subscription_allocation_usd": 6.0,
+  "estimated_search_allocation_usd": 10.2,
+  "proposed_search_allocation_cap_usd": 25,
+  "hold_per_search_attempt_usd": 0.02,
+  "maximum_prospective_holds_usd": 24,
+  "source_fetch_attempt_cap": 500,
+  "pydoll_attempt_cap_included_in_fetches": 20,
+  "max_parallel_browser_contexts": 2,
+  "new_llm_api_calls": 0,
+  "authorization": "NOT_AUTHORIZED",
+  "pilot_cell_ids": [
+    "state_sector_gap_discovery:OH:data_center:data_center",
+    "state_sector_election_census:OH:data_center:data_center",
+    "state_sector_gap_discovery:ME:solar:solar",
+    "state_sector_election_census:ME:solar:solar",
+    "state_sector_gap_discovery:NY:battery_storage:battery_storage",
+    "state_sector_election_census:NY:battery_storage:battery_storage",
+    "state_sector_gap_discovery:WI:wind:wind",
+    "state_sector_election_census:WI:wind:wind",
+    "state_sector_gap_discovery:KY:cryptocurrency:cryptocurrency",
+    "state_sector_election_census:KY:cryptocurrency:cryptocurrency",
+    "state-neutral-gap_discovery-state:OH",
+    "state-neutral-election_census-state:OH"
+  ],
+  "pricing_sources": [
+    "https://exa.ai/pricing",
+    "https://serpapi.com/pricing",
+    "https://serpapi.com/account-api"
+  ],
+  "private_account_snapshot_sha256": "ef7d61be61be0b1c661971ff97d1c758294b7a9f2fbfa9ea39b65857ea65b875"
+}

@@ -1,0 +1,41 @@
+{
+  "status": "prepared_and_offline_verified_not_authorized",
+  "scope": "Priced raw-discovery admission and exact planned queries, not factual acceptance, P4 pass, provider invoice or new execution",
+  "tests": {
+    "batch-budget-tests.log": {
+      "passed": 18,
+      "sha256": "f1ffd9178dde3a4474d52bd39f607728b232ed3e5b1414508dffa9dccf294ec0"
+    },
+    "legacy-client-tests.log": {
+      "passed": 6,
+      "sha256": "25d006bbb79804afb24599dbb7cbef5c5e709492ce5eff20ac3b561fdf727237"
+    },
+    "sparse-worklist-tests.log": {
+      "passed": 3,
+      "sha256": "780fde13399f8bfc2eaee3ffc334584a189253a6dd0985d5ed6c1852e4ef64e5"
+    }
+  },
+  "unique_offline_tests": 27,
+  "independent_review_report_sha256": "791d4fb0fd381bc9eac5773ec6e8e7d4c44d855b54771ebd547f4047bb46940e",
+  "independent_finding": "Interrupted empty completion seal previously permitted source admission; coordinator factored verified-seal/result/artifact-prefix checks into both replay and fetch admission. Two regressions cover malformed/tampered evidence and one-slot contention; all tests pass.",
+  "plan_file_sha256": "675d45099964b24e3491b2345cf6a450889e37054b6cf9cb6c0629558d945696",
+  "canonical_plan_sha256": "87f509030898829de3947933b3be47c4bc28ff96e46a5f9210851fbdb6122e3d",
+  "budget_contract_sha256": "a1989306cdb543171dd483bced959cd0a9d3b78f00c078bd5f250be4b740da2d",
+  "settings": {
+    "serpapi_cost_per_search": 0.01,
+    "serpapi_rate_per_hour": 2700,
+    "retries": 0,
+    "search_throttle_retries": 0
+  },
+  "code_sha256": {
+    "scripts/search_refresh_batch.py": "4181ab5716ff439080efbc9e26c2778ab97ed7ecb318f92e6e773bfff1094225",
+    "scripts/research_client.py": "f53136c4ae3f841b59852145dd20b8b964c8551b4f2be4867d1fc33a1b04daeb",
+    "tests/test_search_refresh_budget.py": "bdbe54c530a1e3296cd78ac40664432d8160cb41f9270554ee30534b41211ced"
+  },
+  "new_provider_search_calls": 0,
+  "free_account_metadata_request": {
+    "scope": "Pricing/quota verification only; credentials, account identifier and email omitted",
+    "private_snapshot_sha256": "ef7d61be61be0b1c661971ff97d1c758294b7a9f2fbfa9ea39b65857ea65b875"
+  },
+  "remaining": "Explicit user budget authorization; fresh account preflight; coordinator pacing and maximum two browser contexts; independent factual/identity review; full original P4/P5/P6/P7 gates remain."
+}
