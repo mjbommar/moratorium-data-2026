@@ -39,16 +39,16 @@ State policy is tracked separately: **4 records** (4 typed bill rows) in [`state
 
 - **Type:** City
 - **Recorded status:** 🟢 Active
-- **Date enacted:** 2026-08-18, Anniston City Council unanimous adoption of Resolution No. 26-R-97 (added to the agenda by amendment)
+- **Date enacted:** 2026-08-18, Anniston City Council adopted Resolution No. 26-R-97. [VERIFY: unanimous vote and agenda amendment remain unverified.]
 - **Normalized date:** `2026-08-18` (exact)
 - **Duration:** 12 months, effective immediately; council may shorten or extend. Planning Commission to report recommendations within six months.
 - **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `al-anniston-2026`
 - **Legal basis:** Resolution No. 26-R-97 (temporary moratorium on the permitting, development and licensing of data centers within the city's regulatory jurisdiction)
-- **What prompted it:** Planning Commission recommendation; existing zoning does not address large-scale data centers (electrical demand, water/wastewater, stormwater, noise, lighting, generators, neighborhood compatibility). City already hosts a 2 MW colocation facility (FirmFarm).
+- **What prompted it:** The resolution adopts the Planning Commission recommendation and identifies possible inadequacies in existing zoning and concerns including electrical demand, water and wastewater, stormwater, noise, lighting, generators and neighborhood compatibility. [VERIFY: the reported FirmFarm facility and its 2 MW capacity remain unverified.]
 - **Affected projects:** The resolution exempts issuance of business licenses to currently operating businesses, unless operation ceases for 60 days or more or an expired license was not timely renewed. This is not an established blanket exemption from all permitting/development restrictions.
-- **Detailed status:** Active as of 2026-09-23; Resolution 26-R-97 adopted 2026-08-18, effective immediately, scheduled for 12 months (to about 2027-08-18).
+- **Detailed status:** Resolution 26-R-97 was adopted 2026-08-18, effective immediately for twelve months subject to council shortening or extension. WBRC reported the pause on 2026-08-27. [VERIFY: September 23 status, later actions and current force remain unverified.]
 - **Outcome:** One-year moratorium adopted.
 
 ### Birmingham
@@ -61,26 +61,26 @@ State policy is tracked separately: **4 records** (4 typed bill rows) in [`state
 - **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `al-birmingham-2026`
-- **Legal basis:** Birmingham City Council March 3, 2026 agenda, P(ph) Item 1, "An Ordinance to consider a temporary suspension on data centers within the City" [Second Reading], adopted unanimously per Birmingham Times reporting; the city's data center policy page (birminghamal.gov/datacenters) confirms the moratorium is in effect [VERIFY: formal ordinance number not yet visible in Municode or city ordinance index as of 2026-04-29]
+- **Legal basis:** A June 10, 2026 Alabama Political Reporter account reports that Birmingham City Council enacted a 180-day suspension on March 3 of consideration of new data-center proposals. The historical record identifies the March 3 agenda as P(ph) Item 1, second reading, and attributes unanimous adoption to Birmingham Times. [VERIFY: agenda identification, unanimous vote, the executed ordinance and its formal number remain unverified.] The captured city data-center page describes adopted zoning; it does not establish continuing force of the original suspension.
 - **What prompted it:** Regulatory gap and project pressure from large/hyperscale proposals; city cited need to review zoning, land-use policy, infrastructure readiness, environmental responsibility, neighborhood compatibility, and transparent approval procedures
 - **Affected projects:** June reporting describes a Nebius exemption from the successor zoning ordinance; it does not establish exemptions from the original moratorium. The original pause scope, size threshold and claimed Nebius/DC BLOX exemptions remain unverified.
-- **Detailed status:** June 9, 2026 reporting describes adoption of permanent data-center zoning. A July 16, 2026 secondary report says the initial March pause had been lifted. [VERIFY: original effective date, exact lifting date, legal transition and current status remain unresolved.]
+- **Detailed status:** June 10, 2026 reporting describes adoption of permanent data-center zoning on June 9. A July 16, 2026 secondary report says the initial March pause had been lifted. [VERIFY: original effective date, exact lifting date, legal transition and current status remain unresolved.]
 - **Outcome:** Permanent data-center zoning was reported adopted June 9, 2026; the exact moratorium termination date and legal transition to those regulations remain unresolved.
 
 ### Calera
 
 - **Type:** City
 - **Recorded status:** 🟢 Active
-- **Date enacted:** 2026-07-06, Calera City Council motion approving a 6-month moratorium on data centers (5 ayes, 1 abstention), per minutes approved 2026-07-20
+- **Date enacted:** 2026-07-06, Calera City Council passed a motion approving a six-month data-center moratorium, with five ayes and one abstention. [VERIFY: July 20 approval of the minutes remains unverified.]
 - **Normalized date:** `2026-07-06` (exact)
 - **Duration:** Six months
 - **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `al-calera-2026`
-- **Legal basis:** Calera City Council motion approving a six-month moratorium on data centers, added to the July 6, 2026 agenda by amendment (no resolution or ordinance number recorded in the minutes)
+- **Legal basis:** Calera City Council minutes record a motion approving a six-month data-center moratorium; no resolution or ordinance number appears in that entry. [VERIFY: whether an agenda amendment added this item and whether a separate operative instrument exists remain unverified.]
 - **What prompted it:** Not stated in the minutes; Shelby County cities acting amid data center proposals in the county.
 - **Affected projects:** None identified.
-- **Detailed status:** Active as of 2026-09-23; six-month moratorium approved 2026-07-06 (runs to about early January 2027).
+- **Detailed status:** The July 6, 2026 minutes record approval of a six-month moratorium. [VERIFY: effective date, September 23 status, later action, termination and current force remain unverified.]
 - **Outcome:** Six-month moratorium adopted.
 
 ### Chelsea

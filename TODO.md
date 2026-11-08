@@ -2,6 +2,8 @@
 
 Plan: [Research modernization and ballot-measure expansion](docs/research-and-ballot-expansion-plan.md).
 
+- [x] Apply eight independently adjudicated Alabama prose corrections under full-row guards, retain the rejected project-absence change, and recompute verification metadata; six reviewed native source bodies verified ([packet](work/research/2026-11-07/alabama-prose-reconciliation/README.md)). Present force and full freshness remain unresolved.
+
 - [x] Complete finite retained-evidence coordinator dispositions for all 53 ballot records, retaining exact authority holds and separately routing material proposals ([accounting](work/research/2026-11-07/ballot-full-lifecycle-review/coordinator-disposition-progress.json)); freshness, certification/implementation and frozen-seed closure remain open.
 
 - [x] Apply independently reviewed Freedom, Boulder City and Alhambra provenance/history corrections, preserving historical rows and all vote totals ([packet](work/research/2026-11-07/ballot-provenance-clarifications/README.md)).

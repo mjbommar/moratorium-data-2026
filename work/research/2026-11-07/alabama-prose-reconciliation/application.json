@@ -1,0 +1,315 @@
+{
+  "observed_at": "2026-11-08T04:07:46.560742+00:00",
+  "csv_sha256_before": "2c168bc87dc52320aac2d335e17475de43a7d31e6a6b7c76cbfe08944af9e31c",
+  "csv_sha256_after": "76ddce330391d9a9c9dfcd7fd014846c6f0ac8cfb7e4e2b0de82e93379fd2d20",
+  "independent_report_sha256": "c6881572bdb604e3d50612ae1857fecacf0f4b8bb56bddeef74ee9922b00a05a",
+  "independent_dispositions_sha256": "3f1fcb3c20541b185b5f8cdd17a4b443d3141bfd65dddbd9a91d9c1c9e3272be",
+  "old_rows": 1330,
+  "new_rows": 1330,
+  "prose_cells_applied": 8,
+  "derived_metadata_cells_changed": 4,
+  "rejected_cells": [
+    {
+      "id": "al-calera-2026",
+      "field": "affected_projects",
+      "reason": "The proposal misreads the existing cell: \u201cNone identified\u201d is an identification statement, not proof that no affected projects exist. The reviewed material does not establish an exhaustive inventory."
+    }
+  ],
+  "applied_cells": [
+    {
+      "id": "al-anniston-2026",
+      "field": "date_enacted",
+      "before": "2026-08-18, Anniston City Council unanimous adoption of Resolution No. 26-R-97 (added to the agenda by amendment)",
+      "after": "2026-08-18, Anniston City Council adopted Resolution No. 26-R-97. [VERIFY: unanimous vote and agenda amendment remain unverified.]",
+      "independent_disposition": "ACCEPT",
+      "reason": "Signed adoption establishes August 18; signatures do not establish unanimity or agenda procedure.",
+      "sources": [
+        {
+          "url": "https://annistonal.gov/wp-content/uploads/2026/08/26-R-97-Data-Center-Moratorium.pdf",
+          "body_sha256": "0547809d1b25e7c87872b568750d1c09c9daa56879105dc1fbef70d3e919542f",
+          "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "source_date": "2026-08-18",
+          "source_date_reason": "Date of instrument, meeting or publication, as applicable.",
+          "locator": "PDF p. 2, signed adoption line"
+        },
+        {
+          "url": "https://www.wbrc.com/2026/08/27/city-anniston-adopts-resolution-that-establishes-temporary-moratorium-data-centers-within-regulatory-jurisdiction/",
+          "body_sha256": "7b5cecd7579057346574383d027c3b0524ec49461496b33a8bcd6dd2ee9cc97e",
+          "text_sha256": "ef79c23d6555edfe43f6dfa40b58aa88ce702b8573e9c3fe6636d666affc8002",
+          "source_date": "2026-08-27",
+          "source_date_reason": "Date of instrument, meeting or publication, as applicable.",
+          "locator": "text [128,191), August 27"
+        }
+      ]
+    },
+    {
+      "id": "al-anniston-2026",
+      "field": "trigger",
+      "before": "Planning Commission recommendation; existing zoning does not address large-scale data centers (electrical demand, water/wastewater, stormwater, noise, lighting, generators, neighborhood compatibility). City already hosts a 2 MW colocation facility (FirmFarm).",
+      "after": "The resolution adopts the Planning Commission recommendation and identifies possible inadequacies in existing zoning and concerns including electrical demand, water and wastewater, stormwater, noise, lighting, generators and neighborhood compatibility. [VERIFY: the reported FirmFarm facility and its 2 MW capacity remain unverified.]",
+      "independent_disposition": "MODIFY",
+      "reason": "Preserve the detailed source-supported concerns alongside the qualification.",
+      "sources": [
+        {
+          "url": "https://annistonal.gov/wp-content/uploads/2026/08/26-R-97-Data-Center-Moratorium.pdf",
+          "body_sha256": "0547809d1b25e7c87872b568750d1c09c9daa56879105dc1fbef70d3e919542f",
+          "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "source_date": "2026-08-18",
+          "source_date_reason": "Date of instrument, meeting or publication, as applicable.",
+          "locator": "PDF p. 1, third and fourth recitals"
+        },
+        {
+          "url": "https://annistonal.gov/wp-content/uploads/2026/08/26-R-97-Data-Center-Moratorium.pdf",
+          "body_sha256": "0547809d1b25e7c87872b568750d1c09c9daa56879105dc1fbef70d3e919542f",
+          "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "source_date": "2026-08-18",
+          "source_date_reason": "Date of instrument, meeting or publication, as applicable.",
+          "locator": "PDF p. 2, first operative paragraph"
+        }
+      ]
+    },
+    {
+      "id": "al-anniston-2026",
+      "field": "current_status",
+      "before": "Active as of 2026-09-23; Resolution 26-R-97 adopted 2026-08-18, effective immediately, scheduled for 12 months (to about 2027-08-18).",
+      "after": "Resolution 26-R-97 was adopted 2026-08-18, effective immediately for twelve months subject to council shortening or extension. WBRC reported the pause on 2026-08-27. [VERIFY: September 23 status, later actions and current force remain unverified.]",
+      "independent_disposition": "ACCEPT",
+      "reason": "Retains initial effect, term and discretionary abbreviation or extension; attributes the later report and does not infer present force.",
+      "sources": [
+        {
+          "url": "https://annistonal.gov/wp-content/uploads/2026/08/26-R-97-Data-Center-Moratorium.pdf",
+          "body_sha256": "0547809d1b25e7c87872b568750d1c09c9daa56879105dc1fbef70d3e919542f",
+          "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "source_date": "2026-08-18",
+          "source_date_reason": "Date of instrument, meeting or publication, as applicable.",
+          "locator": "PDF p. 2, effective and term paragraph"
+        },
+        {
+          "url": "https://www.wbrc.com/2026/08/27/city-anniston-adopts-resolution-that-establishes-temporary-moratorium-data-centers-within-regulatory-jurisdiction/",
+          "body_sha256": "7b5cecd7579057346574383d027c3b0524ec49461496b33a8bcd6dd2ee9cc97e",
+          "text_sha256": "ef79c23d6555edfe43f6dfa40b58aa88ce702b8573e9c3fe6636d666affc8002",
+          "source_date": "2026-08-27",
+          "source_date_reason": "Date of instrument, meeting or publication, as applicable.",
+          "locator": "text final paragraph, August 27"
+        }
+      ]
+    },
+    {
+      "id": "al-birmingham-2026",
+      "field": "legal_basis",
+      "before": "Birmingham City Council March 3, 2026 agenda, P(ph) Item 1, \"An Ordinance to consider a temporary suspension on data centers within the City\" [Second Reading], adopted unanimously per Birmingham Times reporting; the city's data center policy page (birminghamal.gov/datacenters) confirms the moratorium is in effect [VERIFY: formal ordinance number not yet visible in Municode or city ordinance index as of 2026-04-29]",
+      "after": "A June 10, 2026 Alabama Political Reporter account reports that Birmingham City Council enacted a 180-day suspension on March 3 of consideration of new data-center proposals. The historical record identifies the March 3 agenda as P(ph) Item 1, second reading, and attributes unanimous adoption to Birmingham Times. [VERIFY: agenda identification, unanimous vote, the executed ordinance and its formal number remain unverified.] The captured city data-center page describes adopted zoning; it does not establish continuing force of the original suspension.",
+      "independent_disposition": "MODIFY",
+      "reason": "Remove unsupported current-force assertion, but retain specific historical agenda and vote attribution as unverified leads; missing detail in reviewed sources is not disproof.",
+      "sources": [
+        {
+          "url": "https://www.alreporter.com/2026/06/10/birmingham-approves-data-center-ordinance-facing-publics-criticism",
+          "body_sha256": "0d239c1e0ebd14a9ee797d5561e9f29aab2d469c0f55d9031ea533f1acfdaabe",
+          "text_sha256": "abd20411055908fb7c88f805c342738154b38c7facf9390bf0177bedb8d6cdad",
+          "source_date": "2026-06-10",
+          "source_date_reason": "Date of instrument, meeting or publication, as applicable.",
+          "locator": "text [673,792), June 10"
+        },
+        {
+          "url": "https://www.birminghamal.gov/datacenters",
+          "body_sha256": "5ae437a1803e81f28213941a511f4e4c98f408f5b1c5e91b7e1c2d60ebb0402a",
+          "text_sha256": "a9c2ff7a9b9c86de76391a635d3a0001c6f0997cb8f445488a27613d995620fe",
+          "source_date": null,
+          "source_date_reason": "Undated captured city page; acquisition is not source date.",
+          "locator": "text [674,722), undated city page"
+        }
+      ]
+    },
+    {
+      "id": "al-birmingham-2026",
+      "field": "current_status",
+      "before": "June 9, 2026 reporting describes adoption of permanent data-center zoning. A July 16, 2026 secondary report says the initial March pause had been lifted. [VERIFY: original effective date, exact lifting date, legal transition and current status remain unresolved.]",
+      "after": "June 10, 2026 reporting describes adoption of permanent data-center zoning on June 9. A July 16, 2026 secondary report says the initial March pause had been lifted. [VERIFY: original effective date, exact lifting date, legal transition and current status remain unresolved.]",
+      "independent_disposition": "ACCEPT",
+      "reason": "Corrects publication versus vote date, retaining the attributed July report without claiming a precise lift or transition.",
+      "sources": [
+        {
+          "url": "https://www.alreporter.com/2026/06/10/birmingham-approves-data-center-ordinance-facing-publics-criticism",
+          "body_sha256": "0d239c1e0ebd14a9ee797d5561e9f29aab2d469c0f55d9031ea533f1acfdaabe",
+          "text_sha256": "abd20411055908fb7c88f805c342738154b38c7facf9390bf0177bedb8d6cdad",
+          "source_date": "2026-06-10",
+          "source_date_reason": "Date of instrument, meeting or publication, as applicable.",
+          "locator": "opening and text [673,792), June 10"
+        },
+        {
+          "url": "https://newsaegis.com/2026/07/16/data-centers-dont-create-jobs-springville-joins-leeds-places-moratorium-on-centers/",
+          "body_sha256": "c15b5075ebfe5b9ad0a1d10d0d907c0704ba6d6b26ec6736c4a59ba2b7625cb4",
+          "text_sha256": "2aa21a4a47978da925634b399ae7ec5ae3bb49ebfe5211aa2a7293db91f25c0a",
+          "source_date": "2026-07-16",
+          "source_date_reason": "Date of instrument, meeting or publication, as applicable.",
+          "locator": "text [1955,2020), July 16 report"
+        }
+      ]
+    },
+    {
+      "id": "al-calera-2026",
+      "field": "date_enacted",
+      "before": "2026-07-06, Calera City Council motion approving a 6-month moratorium on data centers (5 ayes, 1 abstention), per minutes approved 2026-07-20",
+      "after": "2026-07-06, Calera City Council passed a motion approving a six-month data-center moratorium, with five ayes and one abstention. [VERIFY: July 20 approval of the minutes remains unverified.]",
+      "independent_disposition": "ACCEPT",
+      "reason": "July 6 minutes record five ayes and one abstention; July 20 agenda lists approval of those minutes but does not establish that approval occurred.",
+      "sources": [
+        {
+          "url": "https://caleraal.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=1648,plainText=false)",
+          "body_sha256": "489bbf184b6c24b7180240833eb1f91bfb1aa977355c2f5e2784c078c3a5d3d3",
+          "text_sha256": "cc745a27f346e8b65a4c085a11fb54911b195f93666a75a93b8ab6d403888164",
+          "source_date": "2026-07-06",
+          "source_date_reason": "Date of instrument, meeting or publication, as applicable.",
+          "locator": "PDF p. 3 meeting heading"
+        },
+        {
+          "url": "https://caleraal.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=1648,plainText=false)",
+          "body_sha256": "489bbf184b6c24b7180240833eb1f91bfb1aa977355c2f5e2784c078c3a5d3d3",
+          "text_sha256": "7f38ae210bcf7ac1ef13e1af1d799471ff082f82be4e89dbb195c565dc4453bc",
+          "source_date": "2026-07-06",
+          "source_date_reason": "Date of instrument, meeting or publication, as applicable.",
+          "locator": "PDF p. 5 motion and roll call"
+        },
+        {
+          "url": "https://caleraal.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=1648,plainText=false)",
+          "body_sha256": "489bbf184b6c24b7180240833eb1f91bfb1aa977355c2f5e2784c078c3a5d3d3",
+          "text_sha256": "cc745a27f346e8b65a4c085a11fb54911b195f93666a75a93b8ab6d403888164",
+          "source_date": "2026-07-20",
+          "source_date_reason": "Date of agenda for proposed approval; the minutes listed concern the July 6 meeting.",
+          "locator": "same PDF p. 1 agenda, approval of minutes"
+        }
+      ]
+    },
+    {
+      "id": "al-calera-2026",
+      "field": "legal_basis",
+      "before": "Calera City Council motion approving a six-month moratorium on data centers, added to the July 6, 2026 agenda by amendment (no resolution or ordinance number recorded in the minutes)",
+      "after": "Calera City Council minutes record a motion approving a six-month data-center moratorium; no resolution or ordinance number appears in that entry. [VERIFY: whether an agenda amendment added this item and whether a separate operative instrument exists remain unverified.]",
+      "independent_disposition": "ACCEPT",
+      "reason": "The separate agenda amendment does not say which item was added; no instrument number appears in the motion entry, which does not rule out a separate instrument.",
+      "sources": [
+        {
+          "url": "https://caleraal.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=1648,plainText=false)",
+          "body_sha256": "489bbf184b6c24b7180240833eb1f91bfb1aa977355c2f5e2784c078c3a5d3d3",
+          "text_sha256": "7f38ae210bcf7ac1ef13e1af1d799471ff082f82be4e89dbb195c565dc4453bc",
+          "source_date": "2026-07-06",
+          "source_date_reason": "Date of instrument, meeting or publication, as applicable.",
+          "locator": "PDF p. 5 agenda"
+        },
+        {
+          "url": "https://caleraal.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=1648,plainText=false)",
+          "body_sha256": "489bbf184b6c24b7180240833eb1f91bfb1aa977355c2f5e2784c078c3a5d3d3",
+          "text_sha256": "7f38ae210bcf7ac1ef13e1af1d799471ff082f82be4e89dbb195c565dc4453bc",
+          "source_date": "2026-07-06",
+          "source_date_reason": "Date of instrument, meeting or publication, as applicable.",
+          "locator": "PDF p. 5 motion"
+        }
+      ]
+    },
+    {
+      "id": "al-calera-2026",
+      "field": "current_status",
+      "before": "Active as of 2026-09-23; six-month moratorium approved 2026-07-06 (runs to about early January 2027).",
+      "after": "The July 6, 2026 minutes record approval of a six-month moratorium. [VERIFY: effective date, September 23 status, later action, termination and current force remain unverified.]",
+      "independent_disposition": "ACCEPT",
+      "reason": "The vote supplies the term but no operative effective date or September status; January arithmetic assumes an unestablished anchor.",
+      "sources": [
+        {
+          "url": "https://caleraal.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=1648,plainText=false)",
+          "body_sha256": "489bbf184b6c24b7180240833eb1f91bfb1aa977355c2f5e2784c078c3a5d3d3",
+          "text_sha256": "cc745a27f346e8b65a4c085a11fb54911b195f93666a75a93b8ab6d403888164",
+          "source_date": "2026-07-06",
+          "source_date_reason": "Date of instrument, meeting or publication, as applicable.",
+          "locator": "PDF p. 3 meeting date"
+        },
+        {
+          "url": "https://caleraal.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=1648,plainText=false)",
+          "body_sha256": "489bbf184b6c24b7180240833eb1f91bfb1aa977355c2f5e2784c078c3a5d3d3",
+          "text_sha256": "7f38ae210bcf7ac1ef13e1af1d799471ff082f82be4e89dbb195c565dc4453bc",
+          "source_date": "2026-07-06",
+          "source_date_reason": "Date of instrument, meeting or publication, as applicable.",
+          "locator": "PDF p. 5 motion"
+        }
+      ]
+    }
+  ],
+  "exact_diffs": [
+    {
+      "id": "al-anniston-2026",
+      "field": "date_enacted",
+      "before": "2026-08-18, Anniston City Council unanimous adoption of Resolution No. 26-R-97 (added to the agenda by amendment)",
+      "after": "2026-08-18, Anniston City Council adopted Resolution No. 26-R-97. [VERIFY: unanimous vote and agenda amendment remain unverified.]"
+    },
+    {
+      "id": "al-anniston-2026",
+      "field": "trigger",
+      "before": "Planning Commission recommendation; existing zoning does not address large-scale data centers (electrical demand, water/wastewater, stormwater, noise, lighting, generators, neighborhood compatibility). City already hosts a 2 MW colocation facility (FirmFarm).",
+      "after": "The resolution adopts the Planning Commission recommendation and identifies possible inadequacies in existing zoning and concerns including electrical demand, water and wastewater, stormwater, noise, lighting, generators and neighborhood compatibility. [VERIFY: the reported FirmFarm facility and its 2 MW capacity remain unverified.]"
+    },
+    {
+      "id": "al-anniston-2026",
+      "field": "current_status",
+      "before": "Active as of 2026-09-23; Resolution 26-R-97 adopted 2026-08-18, effective immediately, scheduled for 12 months (to about 2027-08-18).",
+      "after": "Resolution 26-R-97 was adopted 2026-08-18, effective immediately for twelve months subject to council shortening or extension. WBRC reported the pause on 2026-08-27. [VERIFY: September 23 status, later actions and current force remain unverified.]"
+    },
+    {
+      "id": "al-anniston-2026",
+      "field": "has_verify_tags",
+      "before": "False",
+      "after": "True"
+    },
+    {
+      "id": "al-anniston-2026",
+      "field": "verify_count",
+      "before": "0",
+      "after": "3"
+    },
+    {
+      "id": "al-birmingham-2026",
+      "field": "legal_basis",
+      "before": "Birmingham City Council March 3, 2026 agenda, P(ph) Item 1, \"An Ordinance to consider a temporary suspension on data centers within the City\" [Second Reading], adopted unanimously per Birmingham Times reporting; the city's data center policy page (birminghamal.gov/datacenters) confirms the moratorium is in effect [VERIFY: formal ordinance number not yet visible in Municode or city ordinance index as of 2026-04-29]",
+      "after": "A June 10, 2026 Alabama Political Reporter account reports that Birmingham City Council enacted a 180-day suspension on March 3 of consideration of new data-center proposals. The historical record identifies the March 3 agenda as P(ph) Item 1, second reading, and attributes unanimous adoption to Birmingham Times. [VERIFY: agenda identification, unanimous vote, the executed ordinance and its formal number remain unverified.] The captured city data-center page describes adopted zoning; it does not establish continuing force of the original suspension."
+    },
+    {
+      "id": "al-birmingham-2026",
+      "field": "current_status",
+      "before": "June 9, 2026 reporting describes adoption of permanent data-center zoning. A July 16, 2026 secondary report says the initial March pause had been lifted. [VERIFY: original effective date, exact lifting date, legal transition and current status remain unresolved.]",
+      "after": "June 10, 2026 reporting describes adoption of permanent data-center zoning on June 9. A July 16, 2026 secondary report says the initial March pause had been lifted. [VERIFY: original effective date, exact lifting date, legal transition and current status remain unresolved.]"
+    },
+    {
+      "id": "al-calera-2026",
+      "field": "date_enacted",
+      "before": "2026-07-06, Calera City Council motion approving a 6-month moratorium on data centers (5 ayes, 1 abstention), per minutes approved 2026-07-20",
+      "after": "2026-07-06, Calera City Council passed a motion approving a six-month data-center moratorium, with five ayes and one abstention. [VERIFY: July 20 approval of the minutes remains unverified.]"
+    },
+    {
+      "id": "al-calera-2026",
+      "field": "legal_basis",
+      "before": "Calera City Council motion approving a six-month moratorium on data centers, added to the July 6, 2026 agenda by amendment (no resolution or ordinance number recorded in the minutes)",
+      "after": "Calera City Council minutes record a motion approving a six-month data-center moratorium; no resolution or ordinance number appears in that entry. [VERIFY: whether an agenda amendment added this item and whether a separate operative instrument exists remain unverified.]"
+    },
+    {
+      "id": "al-calera-2026",
+      "field": "current_status",
+      "before": "Active as of 2026-09-23; six-month moratorium approved 2026-07-06 (runs to about early January 2027).",
+      "after": "The July 6, 2026 minutes record approval of a six-month moratorium. [VERIFY: effective date, September 23 status, later action, termination and current force remain unverified.]"
+    },
+    {
+      "id": "al-calera-2026",
+      "field": "has_verify_tags",
+      "before": "False",
+      "after": "True"
+    },
+    {
+      "id": "al-calera-2026",
+      "field": "verify_count",
+      "before": "0",
+      "after": "3"
+    }
+  ],
+  "body_and_text_files_rehashed": 15,
+  "source_retrievals": 0,
+  "flagged_records_before": 731,
+  "flagged_records_after": 733,
+  "scope": "Retained-source prose and explicit uncertainty only; no new rows or current-force confirmation."
+}

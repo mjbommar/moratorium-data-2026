@@ -1,0 +1,9 @@
+# Alabama retained-source prose reconciliation
+
+Apply eight independently reviewed prose corrections across Anniston, Birmingham and Calera under complete 26-field row guards. Six proposals were accepted and two revised. The Calera affected-project proposal was rejected: “None identified” already states an identification limit and does not assert an exhaustive absence.
+
+Anniston retains the signed adoption date, immediate twelve-month term and narrow business-license exception. Unsupported unanimity, agenda procedure, FirmFarm capacity and September/current-force assertions are explicitly qualified. Birmingham separates the June 10 publication from the reported June 9 vote, preserves attributed historical agenda/vote leads and removes the unsupported assertion of continuing original suspension. Calera distinguishes the July 6 motion from a July 20 agenda item about approving those minutes; effective-date and endpoint assumptions remain unverified.
+
+The [application receipt](application.json) binds exact before/after values, full-row guards as independently reviewed, source hashes and the rejected cell. All other row fields and IDs are preserved. Verification-marker metadata is recomputed normally. Raw inventory remains 1,330 rows; flagged records rise from 731 to 733 because uncertainty is now explicit in two previously unflagged records. No current legal-force or full freshness acceptance follows, and no source retrieval occurred.
+
+The [native source-continuity receipt](native-source-continuity.json) verifies all six reviewed URL/body mappings and native blob readbacks. Three versions were newly archived and mapped from original successful attempts without refetching; one older manifest path gap remains separately recorded. The [validation receipt](validation.json) records corrected `make site check` success, zero errors, 505 warnings and all 68 documented numbers matching after updating four stale prose counts.
