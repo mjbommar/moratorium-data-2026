@@ -1,5 +1,9 @@
 # Changelog
 
+The [California/Pennsylvania/South Carolina/Wyoming review](work/research/2026-11-08/ca-pa-sc-wy-policy-reconciliation/README.md) applies 36 guarded cells across 17 policy records. Two South Carolina joint resolutions move from the bill-type bucket to resolutions: current totals are 447 policy observations, 426 bill-type rows, 12 resolution rows and 92 enacted-category bill rows. All IDs remain; version-specific conditions and historical effective dates do not establish current law.
+
+The [November 8 combined reconciliation](work/research/2026-11-08/combined-local-reconciliation/README.md) applies 68 guarded cells across 20 local records after independent review. Correct historical adoption/term accounts and qualify unsupported endpoints, project claims and later legal effects. All IDs, classifications and ballot totals remain; verification-marked rows become 745. The [ballot accounting checkpoint](work/research/2026-11-08/ballot-release-accounting/README.md) reconciles 53 measures, 61 result versions and five withheld frozen groups without claiming a national census or current legal force.
+
 ## 2026-11-07 — current working snapshot (unreleased)
 
 The [Trenton classification correction](work/research/2026-11-07/trenton-result-classification/README.md) adds an immutable successor marking the historical report unofficial, with unchanged votes/precincts and explicit review-time provenance. Retain the original result/source and a separate heading extraction from the same body. Expanded tables now retain 59 result versions, 155 source versions, 571 claims and 2,541 decisions; measures/current observations/current certified observations remain 53/50/5. No fresh return, vote change, certification or legal-force finding is claimed.
@@ -177,7 +181,7 @@ These are inventory classifications, not independently renewed legal-force findi
 | Classified active or extended | **1079** |
 | Pending or not yet effective | **79** |
 | Ended (replaced, expired, or rescinded) | **172** |
-| Rows we still want to confirm (`[VERIFY]`) | **740** |
+| Rows we still want to confirm (`[VERIFY]`) | **745** |
 | States with at least one | **47** |
 
 Current totals remain 1,330 local records (1,079 active/extended classifications),

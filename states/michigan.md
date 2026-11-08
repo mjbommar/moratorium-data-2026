@@ -392,14 +392,14 @@ State policy is tracked separately: **14 records** (13 typed bill rows and 1 non
 - **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-04-20 (Township Board resolution adopted 5-0)
 - **Normalized date:** `2026-04-20` (exact)
-- **Duration:** 6 months (per 2026-04-20 board minutes; the end date on the posted resolution scan is handwritten and illegible)
+- **Duration:** Six months per April 20, 2026 minutes; the certified April resolution states the moratorium lasts through October 20, 2026. Earlier instrument history and subsequent action remain unverified.
 - **Current end date:** `—`
 - **Sectors:** battery storage, solar, data center
 - **Moratorium ID:** `mi-casco-township-allegan-county-2026`
 - **Legal basis:** Casco Township Board Resolution to Establish a Moratorium on the Issuance of Zoning Permits for Battery Energy Storage Systems, Solar Energy Farms, and Data Centers (adopted 2026-04-20; resolution number illegible in the posted scan)
 - **What prompted it:** Zoning ordinance does not address BESS, solar farms or data centers; PA 233 shift of siting authority; desire to preserve agricultural land
 - **Affected projects:** None identified
-- **Detailed status:** The April 20 minutes record passage of a six-month resolution delaying applications for data centers, solar farms and battery energy storage systems. [VERIFY: precise operative anchor, subsequent modification/replacement/extension and present legal force; classification remains provisional.]
+- **Detailed status:** The April 20, 2026 minutes record passage of a six-month moratorium on data centers, solar farms and battery storage; the certified resolution says it lasts through October 20, 2026 and calls it extended. Earlier instrument history, later action and present legal force remain unverified. [VERIFY: earlier instrument, operative anchor, subsequent modification, extension or repeal, and present legal force.]
 - **Outcome:** Planning Commission reviewing solar, wind and battery storage ordinance language and a possible CREO
 
 ### Chesaning Township

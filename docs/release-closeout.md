@@ -1,8 +1,16 @@
 # November refresh closeout
 
+## November 8 policy form and provision reconciliation
+
+[The 52-row policy review](../work/research/2026-11-08/ca-pa-sc-wy-policy-reconciliation/README.md) applies 36 guarded cells across 17 records. Two South Carolina joint resolutions are separately typed: 447 raw policy observations, 426 bill-type rows, 12 resolution rows and 92 enacted-category bill rows. Scope exports preserve zero reviewed includes, one exclusion and 446 unreviewed candidates. Current law, full freshness and final consumer handoff remain open.
+
+## November 8 combined reconciliation
+
+[The combined application](../work/research/2026-11-08/combined-local-reconciliation/README.md) applies 68 guarded cells across 20 records. It preserves all IDs, classifications and ballot totals, updates historical adoption and term accounts, and qualifies unsupported endpoints and legal effects. Verification-marked rows are now 745, with 585 unflagged. The [53-measure release accounting](../work/research/2026-11-08/ballot-release-accounting/README.md) reconciles result versions and held groups; freshness, national discovery, model quality and final delivery remain open.
+
 ## November 8 Pima and related record reconciliation
 
-Nine AL/AK/AZ/AR records were reviewed and 21 guarded cells applied across five records. Pima’s August 11 direction to draft is distinguished from unsupported adoption and operative 120-day encoding; later adoption remains unresolved. All IDs and classifications remain unchanged. The current inventory has 740 rows with verification markers and 590 without. The date timeline now contains 1,185 records with usable months and 145 without; cleared unsupported Somerville/Pima dates are excluded. Full data/site checks passed with zero errors, 507 warnings and 68 matched numbers. A new timeline byte check and four focused date tests cover chart consistency. See the [application packet](../work/research/2026-11-08/al-ak-az-ar-batches6to8-reconciliation/README.md).
+Nine AL/AK/AZ/AR records were reviewed and 21 guarded cells applied across five records. Pima’s August 11 direction to draft is distinguished from unsupported adoption and operative 120-day encoding; later adoption remains unresolved. All IDs and classifications remain unchanged. At source `15c344c`, the inventory had 740 rows with verification markers and 590 without. The date timeline now contains 1,185 records with usable months and 145 without; cleared unsupported Somerville/Pima dates are excluded. Full data/site checks passed with zero errors, 507 warnings and 68 matched numbers. A new timeline byte check and four focused date tests cover chart consistency. See the [application packet](../work/research/2026-11-08/al-ak-az-ar-batches6to8-reconciliation/README.md).
 
 ## November 8 additional Alabama reconciliation
 

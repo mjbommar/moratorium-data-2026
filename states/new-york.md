@@ -36,7 +36,7 @@ State policy is tracked separately: **11 records** (10 typed bill rows and 1 non
 | Carlton | Town | Unverified | battery storage | 🟢 Extended |
 | Carmel | Town | 2024 | battery storage, solar | ⚪ Replaced |
 | Carrollton | Town | Unverified | battery storage | ⚪ Expired |
-| Chester (Orange County) | Town | 2025 | battery storage | 🟢 Extended |
+| Chester (Orange County) | Town | 2024 | battery storage | 🟢 Extended |
 | Claverack | Town | 2024 | battery storage | 🟢 Extended |
 | Clay | Town | 2026-06-29 | data center, cryptocurrency mining | 🟢 Active |
 | Clymer | Town | 2024 | battery storage | 🟢 Extended |
@@ -205,14 +205,14 @@ State policy is tracked separately: **11 records** (10 typed bill rows and 1 non
 - **Date enacted:** December 2, 2025 (City of Amsterdam Common Council adopted a local law establishing a six-month moratorium on land-use approvals/building permits for industrial solar and battery energy storage systems, effective through June 2, 2026); per Daily Gazette, Dec. 8, 2025. Extended by a local law adopted on or about May 19, 2026 to Jan. 5, 2027 ('through the end of the year'); per Daily Gazette, May 25, 2026.
 - **Normalized date:** `2025-12-02` (exact)
 - **Duration:** Six months from Dec. 2, 2025 (through June 2, 2026), then extended by a local law adopted ~May 19, 2026 to Jan. 5, 2027
-- **Current end date:** `2027-01-05`
+- **Current end date:** `—`
 - **Sectors:** battery storage, solar
 - **Moratorium ID:** `ny-amsterdam-undated`
 - **Legal basis:** City of Amsterdam moratorium on industrial solar and battery energy storage systems
 - **What prompted it:** Development pressure and desire to update zoning laws
 - **Affected projects:** No specific project named
-- **Detailed status:** Active as of 2026-09-23, extended through Jan. 5, 2027. The Daily Gazette's Dec. 8, 2025 and May 25, 2026 articles (this time fetched successfully, past the paywall interstitial) confirm the original Dec. 2, 2025 six-month moratorium and its extension to Jan. 5, 2027, and a third Daily Gazette headline ('Amsterdam to propose banning battery energy storage systems') indicates a permanent ban was under consideration as of the extension. [VERIFY instrument/local law number not confirmed at confidence 0.6 in the 2026-09 refresh]
-- **Outcome:** Adopted and extended; a permanent ban has reportedly been proposed but not confirmed adopted
+- **Detailed status:** Reported active as of September 23, 2026, with an extension through January 5, 2027. On October 20, the Common Council passed Local Law C, to be numbered Local Law 3, to end the industrial solar and BESS moratorium; it also passed a separate BESS prohibition. Filing, effective dates and subsequent action remain unverified. [VERIFY: filing, effectiveness and subsequent action.]
+- **Outcome:** Adopted and extended; a law ending the moratorium and a separate BESS prohibition were adopted October 20, 2026; their effective dates remain unverified.
 
 ### Angelica
 
@@ -227,8 +227,8 @@ State policy is tracked separately: **11 records** (10 typed bill rows and 1 non
 - **Legal basis:** Town of Angelica local law imposing a moratorium on solar energy systems, energy storage systems, and wind generation systems
 - **What prompted it:** Desire to regulate future community/commercial-scale solar, energy storage, and wind generation to protect agricultural character
 - **Affected projects:** A proposed BESS north of Belmont
-- **Detailed status:** Expired 2026-04-30. An Allegany Hope Community News investigation found the town initially told a FOIL requester no responsive BESS-moratorium records existed, then located the filed local law and a February 10, 2025 motion extending it for both available six-month periods. No permanent BESS regulation had been completed as of the board's June 8, 2026 meeting; a new proposed Local Law No. 1 of 2026, 'Creating Regulations for Battery Energy Storage Systems' (permanent, not a moratorium), had a public hearing scheduled for 2026-08-24.
-- **Outcome:** Adopted, extended twice, then expired without permanent regulations in place; permanent BESS regulations proposed separately in August 2026
+- **Detailed status:** A July 2026 investigation reports the town said the moratorium expired April 24, 2026; its own calculation from the reported filing and extensions gives April 30. It reports no completed permanent BESS regulation as of June 8. An October report says the board adopted a separate BESS regulatory law; filing, effective date, exact moratorium expiry and later action remain unverified. [VERIFY: original law and extensions, expiry, filing and later action.]
+- **Outcome:** Reported expired after extensions; separate BESS regulations were reported adopted in October 2026, with filing and effective date unverified.
 
 ### Arietta
 
@@ -428,7 +428,7 @@ State policy is tracked separately: **11 records** (10 typed bill rows and 1 non
 - **Recorded status:** 🟢 Extended
 - **Date enacted:** 2026-04-08, reported as Wednesday in The Batavian article published April 9, 2026; both companion laws were adopted that evening.
 - **Normalized date:** `2026-04-08` (exact)
-- **Duration:** Six months, extendable; extended again by the Town Board on 2026-09-09
+- **Duration:** Six months, extendable; a September 9, 2026 hearing on a proposed extension was scheduled, but adoption remains unverified.
 - **Current end date:** `—`
 - **Sectors:** battery storage
 - **Moratorium ID:** `ny-byron-2026`
@@ -436,7 +436,7 @@ State policy is tracked separately: **11 records** (10 typed bill rows and 1 non
 - **What prompted it:** Land use, fire safety, environmental and emergency-response concerns about commercial BESS facilities on farmland
 - **Affected projects:** No specific project named; preemptive pause on commercial BESS applications
 - **Detailed status:** April 9 reporting describes unanimous approval on the preceding Wednesday, April 8, of companion BESS and renewable-energy moratorium laws. The September 9 agenda schedules proposed extension hearings; it is not an adoption record. Filing, effectiveness and actual extension disposition remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
-- **Outcome:** Adopted, then extended
+- **Outcome:** Adopted; proposed extension disposition unverified.
 
 ### Byron
 
@@ -444,7 +444,7 @@ State policy is tracked separately: **11 records** (10 typed bill rows and 1 non
 - **Recorded status:** 🟢 Extended
 - **Date enacted:** 2026-04-08, reported as Wednesday in The Batavian article published April 9, 2026; both companion laws were adopted that evening.
 - **Normalized date:** `2026-04-08` (exact)
-- **Duration:** Six months, extendable; extended again 2026-09-09
+- **Duration:** Six months, extendable; a September 9, 2026 hearing on a proposed extension was scheduled, but adoption remains unverified.
 - **Current end date:** `—`
 - **Sectors:** solar
 - **Moratorium ID:** `ny-byron-2026-2`
@@ -452,7 +452,7 @@ State policy is tracked separately: **11 records** (10 typed bill rows and 1 non
 - **What prompted it:** Town wanted time to review code and determine whether additional regulation of renewable energy projects was needed
 - **Affected projects:** No specific project named
 - **Detailed status:** April 9 reporting describes unanimous approval on the preceding Wednesday, April 8, of companion BESS and renewable-energy moratorium laws. The September 9 agenda schedules proposed extension hearings; it is not an adoption record. Filing, effectiveness and actual extension disposition remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
-- **Outcome:** Adopted, then extended
+- **Outcome:** Adopted; proposed extension disposition unverified.
 
 ### Cameron
 
@@ -570,16 +570,16 @@ State policy is tracked separately: **11 records** (10 typed bill rows and 1 non
 
 - **Type:** Town
 - **Recorded status:** 🟢 Extended
-- **Date enacted:** 2025, Local Law 10 of 2025 (exact date not confirmed)
-- **Normalized date:** `2025` (year_only)
-- **Duration:** Extended by Local Law 3 of 2026 (public hearing 2026-07-23)
+- **Date enacted:** 2024, Local Law 8 of 2024; exact original adoption date unverified.
+- **Normalized date:** `2024` (year_only)
+- **Duration:** Original twelve months per Local Law 3 of 2026; that law, adopted February 25, 2026, extended the term by six months from filing, to the earlier of August 26, 2026 or early termination by resolution. Filing and later action are unverified.
 - **Current end date:** `—`
 - **Sectors:** battery storage
 - **Moratorium ID:** `ny-chester-orange-county-2025`
-- **Legal basis:** Town of Chester local law prohibiting large-scale battery energy storage system installations (Local Law 10 of 2025, extended by Local Law 3 of 2026)
+- **Legal basis:** Town of Chester Local Law 8 of 2024, modified by Local Law 10 of 2025 and extended by Local Law 3 of 2026, temporarily prohibiting large-scale BESS installations.
 - **What prompted it:** —
 - **Affected projects:** —
-- **Detailed status:** Reported active as of 2026-09-23 by two independent trackers (Carina Energy, EticaAG), giving a current expiration of 2026-08-26 (EticaAG: extended 2025-07-23 to 2026-02-24, implying at least one further extension since). The town's own notice pages for 'Notice of Adoption Local Law 10 of 2025' and 'Public Notice of Adoption LL3 of 26' were found via search but returned HTTP 404 when fetched directly (chester-ny.gov site appears to have been restructured); their existence and titles are corroborated only by search-engine snippets, which could not be archived as primary sources. [VERIFY instrument number; primary source (news-only evidence) not confirmed at confidence 0.5 in the 2026-09 refresh]
+- **Detailed status:** Local Law 3 of 2026, adopted February 25, states an outer date of August 26, 2026, subject to earlier termination, and takes effect on state filing. Subsequent action and present legal force remain unverified. [VERIFY: original adoption date, filing and later action.]
 - **Outcome:** Adopted, extended at least once
 
 ### Claverack

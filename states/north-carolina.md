@@ -12,7 +12,7 @@ State policy is tracked separately: **3 records** (3 typed bill rows) in [`state
 | Jurisdiction | Type | Enacted | Sectors | Recorded status |
 |---|---|---|---|---|
 | Alamance County | County | 2026-08-17 | data center | 🟢 Active |
-| Beaufort County | County | Unverified | data center | 🟡 Pending |
+| Beaufort County | County | 2026-10-05 | data center | 🟡 Pending |
 | Buncombe County (cryptocurrency mining; data-center-adjacent) | County | 2023-05-02 | cryptocurrency mining | ⚪ Replaced |
 | Camden County | County | 2026-08-03 | data center, cryptocurrency mining | 🟢 Active |
 | Charlotte | City | 2026-06-08 | data center | 🟢 Extended |
@@ -25,7 +25,7 @@ State policy is tracked separately: **3 records** (3 typed bill rows) in [`state
 | City of Hendersonville | City | 2026-09-03 | data center | 🟢 Active |
 | City of Kings Mountain | City | 2026-02-24 | data center | 🟢 Extended |
 | City of Mount Airy | City | 2026-07-16 | data center, cryptocurrency mining | 🟢 Extended |
-| City of Raleigh | City | Unverified | data center | 🟡 Pending |
+| City of Raleigh | City | 2026-10-06 | data center | 🟡 Pending |
 | City of Southport | City | 2026-09-10 | data center | 🟢 Active |
 | City of Statesville | City | 2026-09-14 | data center | 🟢 Active |
 | City of Whiteville | City | 2026-08-25 | data center, cryptocurrency mining | 🟢 Active |
@@ -104,17 +104,17 @@ State policy is tracked separately: **3 records** (3 typed bill rows) in [`state
 
 - **Type:** County
 - **Recorded status:** 🟡 Pending
-- **Date enacted:** Proposed; public hearing and vote on a one-year moratorium resolution postponed from 2026-09-14 to the 2026-10-05 Board of Commissioners meeting
-- **Normalized date:** `—` (unverified)
-- **Duration:** Proposed one year
+- **Date enacted:** October 5, 2026, reported by WITN; signed instrument and effective date unverified.
+- **Normalized date:** `2026-10-05` (unverified)
+- **Duration:** One year, reported by WITN; operative dates and adopted text unverified.
 - **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `nc-beaufort-county-undated`
-- **Legal basis:** Proposed Beaufort County one-year moratorium on the acceptance, processing and approval of applications for data center developments
+- **Legal basis:** Beaufort County data-center moratorium reported adopted October 5, 2026; adopted instrument and operative scope unverified.
 - **What prompted it:** Resident concerns about water, energy and farmland
 - **Affected projects:** None named.
-- **Detailed status:** Pending as of 2026-09-23; official public hearing and vote scheduled for 2026-10-05.
-- **Outcome:** Vote postponed to October.
+- **Detailed status:** WITN reported the commissioners voted 6–1 for a one-year data-center moratorium on October 5, 2026. Adopted text, effective date, later action and present legal force are unverified. [VERIFY: signed instrument, effective and end dates, later actions and present legal force.]
+- **Outcome:** Vote postponed to October; WITN reports a one-year moratorium was adopted October 5, 2026.
 
 ### Buncombe County (cryptocurrency mining; data-center-adjacent)
 
@@ -312,17 +312,17 @@ State policy is tracked separately: **3 records** (3 typed bill rows) in [`state
 
 - **Type:** City
 - **Recorded status:** 🟡 Pending
-- **Date enacted:** Proposed; on 2026-09-15 City Council directed the city attorney to draft a six-month moratorium, with council discussion and a possible vote at the 2026-10-06 meeting
-- **Normalized date:** `—` (unverified)
-- **Duration:** Proposed six months
+- **Date enacted:** October 6, 2026, per City of Raleigh; adopted ordinance and effective date unverified.
+- **Normalized date:** `2026-10-06` (exact)
+- **Duration:** Six months, per City of Raleigh; the city FAQ schedules an April 6, 2027 end, subject to verification against the adopted ordinance.
 - **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `nc-city-of-raleigh-undated`
-- **Legal basis:** Proposed City of Raleigh moratorium on new data centers of 10,000 sq ft or larger (draft by city attorney), N.C.G.S. 160D-107
+- **Legal basis:** City of Raleigh six-month moratorium on data-center development approvals approved October 6, 2026; adopted ordinance and operative scope require verification.
 - **What prompted it:** Resident calls for a pause after a withdrawn RadiusDC annexation request for a data center in Southeast Raleigh
 - **Affected projects:** RadiusDC proposed ~100,000 sq ft data center near Jones Sausage and Rock Quarry roads (annexation withdrawn).
-- **Detailed status:** Pending as of 2026-09-23; draft six-month moratorium scheduled for council discussion and possible vote on 2026-10-06. [VERIFY instrument number; adoption date; primary source (news-only evidence) not confirmed at confidence 0.6 in the 2026-09 refresh]
-- **Outcome:** Draft moratorium in preparation.
+- **Detailed status:** The city reports council approved a six-month moratorium on October 6, 2026. Its FAQ captured November 8 describes a pause and schedules an April 6, 2027 end; the adopted ordinance, effective date and subsequent legal history remain unverified. [VERIFY: adopted ordinance, operative scope, effective and end dates, later actions and present legal force.]
+- **Outcome:** City Council approved a six-month temporary moratorium on October 6, 2026, according to the city; adopted text and subsequent legal force require confirmation.
 
 ### City of Southport
 

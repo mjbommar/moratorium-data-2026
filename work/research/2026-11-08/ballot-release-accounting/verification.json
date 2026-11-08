@@ -1,0 +1,46 @@
+{
+  "canonical_files": {
+    "data/expanded/ballot_measures.jsonl": "2e1a85514e12f9c1b003f62d935c080d31470682589f5c73e5730d5b3226333c",
+    "data/expanded/measure_results.jsonl": "625d60a1b0916e7afbec59a487c8987e2758c9ab3a30030fc15aafdb4674928d",
+    "data/expanded/publication.json": "9066459024bb4ae7b3fd87f2c9b97b4123510476657a842285e1bc2b316925e5"
+  },
+  "counts": {
+    "current_certification_status_counts": {
+      "certified": 5,
+      "unknown": 14,
+      "unofficial": 31
+    },
+    "current_result_observations": 50,
+    "extra_current_measures": 2,
+    "frozen_groups": 56,
+    "historical_superseded_result_versions": 11,
+    "measures": 53,
+    "measures_with_current_results": 49,
+    "measures_with_multiple_current_observations": {
+      "d52c3020-6210-4816-8d68-104f2eea6f16": 2
+    },
+    "measures_without_current_results": 4,
+    "published_frozen_groups": 51,
+    "result_versions_total": 61,
+    "reviewed_withheld_groups": 5
+  },
+  "private_packet_input_manifest_sha256": "50e15e3645b702db340ed272e6100da9aa230ac8804ac54bc4f2df5e36eb373d",
+  "private_packet_output_manifest_sha256": "09c8e08a556d3984d8c6e34774e8aa9808c1027b25291fa8d0cfb2515adcc838",
+  "process_documentation_changes": [
+    {
+      "current_sha256": "b946000b4c2cd4a45ce8693ff1df460fae9e6ad846a677c33c85bbfcef91bcff",
+      "effect": "Process-status documentation changed; no ballot evidence or canonical rows changed.",
+      "original_sha256": "4c3a89420fdc3c6fd4081a4d8a2ccd1669448d7f96549dbe89610c58bc50f99c",
+      "path": "docs/process-reset-plan-2026-11-08.md"
+    },
+    {
+      "current_sha256": "27ddac182316b4c3e124e54b93d0f5c51a0656361ee4cd2ac2a0e5cb42848534",
+      "effect": "Process-status documentation changed; no ballot evidence or canonical rows changed.",
+      "original_sha256": "a2de00e3d75435ccdedb91ebcc281c2328509c9e2aa8e6b741f75631d7b278e6",
+      "path": "docs/research-and-ballot-expansion-plan.md"
+    }
+  ],
+  "scope": "53 measures and five held frozen groups; historical review scopes preserved; no national-census or freshness acceptance",
+  "status": "passed_current_ballot_rows_and_all_substantive_inputs",
+  "substantive_input_hashes_checked": 57
+}
