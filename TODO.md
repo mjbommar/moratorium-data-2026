@@ -23,6 +23,8 @@ precedence over its execution strategy. The initial 100-record Terra cohort has 
 
 ## Process-reset increments
 
+- [x] Recover nine focused official source observations with native bc-web, removing one already-captured target before dispatch; zero new searches, no canonical promotion yet ([receipt](work/research/2026-11-08/ballot-authority-source-recovery/README.md)).
+
 - [x] Finish pinned-input inventories for three P4 other-role candidates (26 units/29 slots); separately verify 58 locators including the preserved ineligible case. Eligibility and original-body omissions remain explicit; no P4 pass ([checkpoint](work/research/2026-11-08/p4-reference-preparation-progress/README.md)).
 
 - [x] Apply 52 independently reviewed policy-scope decisions: 48 include, two exclude, two unresolved; retain all 447 raw IDs, with 394 still unreviewed ([receipt](work/research/2026-11-08/policy-52-scope-reconciliation/README.md)).
