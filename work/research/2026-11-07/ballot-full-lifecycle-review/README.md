@@ -8,3 +8,6 @@ The first 26 measures are in independent review; the remaining 27 still need tha
 
 
 Independent follow-up: the initial first-26 job returned incomplete, with partial checks of four measures. Its missing-source and locator findings are reviewed independently of its completion claim; Trenton's physical-versus-printed page distinction is clarified in the linked source-recheck packet. The first 26 are now assigned to finite four-measure batches, with unstarted assignments retained explicitly. No independent all-53 acceptance is claimed.
+
+
+Coordinator provenance supplement: the fourth last-27 batch returned substantive bounded per-axis reviews but left fourteen acquisition-log joins unfinished. Root reconciled all sixteen linked source bodies with successful original fetch records, exact hashes, URLs and separately retained native/client/canonical clocks ([receipt](last27-batch4-provenance-supplement.json)). No source was fetched again and no timestamp was overwritten. This closes that mechanical provenance gap, without resolving the batch's withheld legal or result-classification questions.
