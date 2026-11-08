@@ -25,8 +25,18 @@ The November update preserves source-scoped histories and corrects unsupported d
 
 Electoral additions include notice-only and general-zoning records with explicit unknowns. Monroe and Sprigg use full official sample wording and qualified unofficial vote observations; they do not establish data-center bans or legal passage. Augusta's notice remains distinct from any unproved result or ordinance crosswalk. Three frozen candidate payloads remain withheld and may overlap an already represented notice; do not add them as disjoint contests. Voting, certification and operative legal effect remain separate.
 
-The research cutoff is November 7, 2026 at 13:38:39.877065 UTC. Collection/review spans November 5–8; later captures keep their own observation times and do not renew earlier legal facts. The release metadata records these distinctions. All raw IDs are preserved. Existing CSV columns remain compatible; expanded JSONL, immutable histories, CSV views and policy-scope exports are additive.
+The research cutoff is November 7, 2026 at 13:38:39.877065 UTC. Collection/review spans November 5–8; later captures keep their own observation times and do not renew earlier legal facts. The release metadata records these distinctions. The final correction batches preserve all current raw IDs. Earlier retired identities remain resolvable through the identity history, including the reviewed Seattle duplicate retirement. Existing CSV columns remain compatible; expanded JSONL, immutable histories, CSV views and policy-scope exports are additive.
 
 Experimental extraction/P4 remains unvalidated and is not used to automatically accept dataset facts. The companion April paper and dated sibling publications remain historical editions. This dataset release does not refresh the entire project/disclosure corpus or establish causal project-policy links.
 
 The archive includes public data, schemas, review metadata and portable verification tools. Private source bodies, authenticated material and credentials are excluded. Build/restore checks establish artifact consistency; the source and legal limitations above remain applicable after a successful check.
+
+## Downloads
+
+- `moratorium_inventory.csv`: the 1,330-row local inventory.
+- `state_legislation.csv`: all 447 policy observations, including excluded and unresolved scope rows.
+- `state_policy_reviewed_included.csv`: the 374 explicitly included infrastructure-policy observations.
+- `ballot_measures.csv` and `measure_results_current.csv`: reviewed measure records and current result observations; retained history is in the full archive.
+- `summary_stats.json` and `release_metadata.json`: counts, release dates and coverage limitations.
+- `moratorium-data-2026.11.8.tar.gz`: the complete public data/history bundle with portable verification tools.
+- `manifest.json` and `SHA256SUMS`: source pins and download checksums.
