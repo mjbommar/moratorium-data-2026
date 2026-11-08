@@ -11,7 +11,7 @@ This checkpoint supersedes the operational counts below; dated earlier sections 
 |---|---|---|
 | Legacy data | 1,330 local records and 447 policy records | Full frozen 1,772-ID freshness dispositions, additions, source and later-history gaps; all 50 states and five sectors |
 | Ballot data | 53 measures, 59 retained result versions, 50 current result rows: 30 unofficial, 15 unknown, five certified labels | Final coordinator dispositions, certification/recount and implementation authority; review coverage does not establish current force |
-| Ballot review | All 53 IDs have primary and bounded independent per-axis reviews; eighteen finite final source-scoped coordinator returns | Resolve conflicts and exact-wording proposals; reconcile five pending frozen groups and supported status dates |
+| Ballot review | All 53 IDs have primary and bounded independent per-axis reviews; 45 finite final source-scoped coordinator returns | Resolve conflicts and exact-wording proposals; reconcile five pending frozen groups and supported status dates |
 | Provenance | Sixteen original acquisition joins plus four further joins verified in separate supplements | Remaining source-origin and authority gaps; acquisition dates do not renew on rereview |
 | Delivery | Five selected deployed ballot files match the specified successful Pages commit byte for byte | Whole release/consumer/copy reconciliation and final downloaded assets |
 | Extraction | Bounded journal reader increment independently accepted; root rerun passed 88 tests and 60 subtests | Endpoint/wire identity, prospective audit integration, semantic evaluation and frozen calibration/holdout |
