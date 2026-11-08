@@ -1,0 +1,40 @@
+{
+  "observed_at": "2026-11-08T03:53:35.086321+00:00",
+  "scope": "Exact frozen/current raw identifier denominator only; this does not establish source review, supported fields, freshness or legal force.",
+  "frozen_registry": "work/research/2026-11-07/remaining-refresh-scope/baseline-records.jsonl",
+  "frozen_registry_sha256": "c4ba333a6da0af87539ca88bf12c41fd9ea2a88e356bdefe909336cedf4a575d",
+  "frozen_records": 1772,
+  "current_raw_records": 1777,
+  "additional_raw_policy_records": 5,
+  "tables": {
+    "local_inventory": {
+      "csv": "data/moratorium_inventory.csv",
+      "current_sha256": "2c168bc87dc52320aac2d335e17475de43a7d31e6a6b7c76cbfe08944af9e31c",
+      "frozen_records": 1330,
+      "current_records": 1330,
+      "frozen_ids_present": 1330,
+      "missing_frozen_ids": [],
+      "additional_ids": []
+    },
+    "state_policy": {
+      "csv": "data/state_legislation.csv",
+      "current_sha256": "a7a922782673a03ff4141e5ebbc86a08264174a701dbee705a9c0f746b2c465f",
+      "frozen_records": 442,
+      "current_records": 447,
+      "frozen_ids_present": 442,
+      "missing_frozen_ids": [],
+      "additional_ids": [
+        "ia-hf2799-2026",
+        "md-executive-order-01-01-2026-16-2026",
+        "md-sb0427-2026",
+        "md-sb0596-2026",
+        "md-sb0841-2026"
+      ]
+    }
+  },
+  "limitations": [
+    "The freeze followed earlier work; it is not the original historical repository baseline.",
+    "Raw identifiers retain the Maryland analytical-scope exclusion. No scope-adjusted consumer totals are claimed.",
+    "Prior research, acquisition, returned answers, bounded field review and complete freshness acceptance require separate evidence; missing acceptance reconciliation does not mean unattempted."
+  ]
+}
