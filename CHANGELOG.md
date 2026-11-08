@@ -2,6 +2,8 @@
 
 ## 2026-11-07 — current working snapshot (unreleased)
 
+Correct HF 3793’s sponsor-capture error from two retained official versions: [nine displayed authors](work/research/2026-11-07/minnesota-hf3793-sponsor-correction/README.md), no inferred party or renewed terminal-status conclusion. All headline counts remain unchanged; broader Minnesota review is incomplete.
+
 The [Michigan review](work/research/2026-11-07/michigan-policy-source-review/README.md) applies 62 fields across all fourteen existing records. Correct distinct tax carriers, conditional exemption terms/effective dates, proposal mechanisms and source-bounded histories; retain date/scope holds and current-force gaps. PA 181 becomes a statute row, so bill-only totals are 428 and enacted bill-only rows 92; all 447 policy records remain. Thirty-two source versions verify through native BC with zero gaps.
 
 The [New York BESS review](work/research/2026-11-07/ny-battery-record-review/README.md) applies 22 cells across four existing records after 104 field assessments. Qualify the missing Aurora original, distinguish calendar terms and proposed extensions, and preserve Berne's original BESS scope. Four Aurora material changes are withheld; all four whole-record dispositions remain unresolved. Two available-source mappings were repaired without refetch; seven native body mappings verify with zero gaps.
