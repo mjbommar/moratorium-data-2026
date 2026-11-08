@@ -1,5 +1,9 @@
 # November refresh closeout
 
+## November 8 Wisconsin, Georgia and Indiana correction
+
+[The nine-record application](../work/research/2026-11-08/wi-ga-in-reconciliation/README.md) applies 42 of 43 reviewed cells after 73 full-row guards. Clayton’s supported December 31 scheduled endpoint is retained; conditional terms, project claims and reported vote/adoption histories are corrected without asserting current force. Verification-marked rows are now 748, with 582 unflagged; all IDs, classifications and ballot totals remain.
+
 ## November 8 policy form and provision reconciliation
 
 [The 52-row policy review](../work/research/2026-11-08/ca-pa-sc-wy-policy-reconciliation/README.md) applies 36 guarded cells across 17 records. Two South Carolina joint resolutions are separately typed: 447 raw policy observations, 426 bill-type rows, 12 resolution rows and 92 enacted-category bill rows. Scope exports preserve zero reviewed includes, one exclusion and 446 unreviewed candidates. Current law, full freshness and final consumer handoff remain open.

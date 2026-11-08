@@ -14,7 +14,7 @@ State policy is tracked separately: **7 records** (7 typed bill rows) in [`state
 | Baldwin | Village | 2026-06 | data center | 🟢 Active |
 | Beetown | Town | 2026-05-07 | data center | 🟢 Active |
 | Bellevue | Village | 2026-08-12 | data center | 🟢 Active |
-| Cassville | Town | 2026-04-16 | data center | 🟢 Active |
+| Cassville | Town | Unverified | data center | 🟢 Active |
 | Chippewa County | County | 2026-08-11 | data center | 🟢 Active |
 | City of Madison | City | 2026-01-24 | data center | 🟢 Active |
 | City of Sheboygan | City | 2026-07-20 | data center | 🟢 Active |
@@ -107,17 +107,17 @@ State policy is tracked separately: **7 records** (7 typed bill rows) in [`state
 
 - **Type:** Town
 - **Recorded status:** 🟢 Active
-- **Date enacted:** April 16, 2026 (town electors voted 44-0 that evening to authorize the Town Board to exercise village powers/zoning authority, and the Board adopted the data center ban ordinance the same evening)
-- **Normalized date:** `2026-04-16` (exact)
+- **Date enacted:** On April 16, 2026 town electors authorized town supervisors to exercise zoning authority; contemporaneous reporting describes a town ordinance prohibiting data centers for up to two years. The ordinance adoption date and execution remain unverified.
+- **Normalized date:** `—` (unverified)
 - **Duration:** Up to two years
 - **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `wi-cassville-2026`
-- **Legal basis:** Town of Cassville (Grant County) data center ban ordinance, adopted using newly authorized village/zoning powers (ordinance number not located in reviewed sources)
+- **Legal basis:** Contemporaneous reporting describes a Town of Cassville data center ordinance under newly authorized zoning powers; the adopted instrument, number and effective date remain unverified.
 - **What prompted it:** A proposed roughly $1 billion, approximately 500-acre data center campus by an undisclosed developer (drawn by the town's proximity to the Cardinal-Hickory Creek high-voltage transmission line); residents opposed the secrecy and scale of the project and mobilized to give the town board zoning authority to block it.
 - **Affected projects:** An anonymous developer's proposed ~$1 billion, 400-500 megawatt data center campus (roughly 500 acres) near the Cardinal-Hickory Creek transmission line; the developer reportedly went quiet after the town's action and was also considering sites in Indiana and North Dakota.
-- **Detailed status:** Active as of 2026-09-23; enacted April 16, 2026. Prohibits data centers in the town for up to two years and also restricts land-use changes (e.g., building a residence on farmland) without town board approval. The county cannot preempt the town's zoning authority in this instance. As of the reporting reviewed, the previously scouted developer had gone quiet, with no application filed.
-- **Outcome:** Town electors authorized village/zoning powers and the Town Board adopted a two-year ban on data centers, blocking the proposed project.
+- **Detailed status:** Contemporaneous reporting describes an ordinance prohibiting data centers in the town for up to two years and restricting specified land-use changes without town board approval; the town attorney said the county could not preempt the town’s zoning authority. The developer had reportedly gone quiet. Official adoption, effectiveness, project applicability and subsequent action remain unverified. [VERIFY: adopted instrument, legal applicability and later actions]
+- **Outcome:** Town electors authorized zoning powers; contemporaneous reporting describes a town ordinance prohibiting data centers for up to two years. The legal effect on the proposed project is unverified.
 
 ### Chippewa County
 
@@ -189,7 +189,7 @@ State policy is tracked separately: **7 records** (7 typed bill rows) in [`state
 - **Recorded status:** 🟢 Active
 - **Date enacted:** Introduced 2026-05-26; approved by the County Board 2026-06-04; signed by County Executive Melissa Agard on/around 2026-06-09
 - **Normalized date:** `2026-06-04` (exact)
-- **Duration:** 18 months
+- **Duration:** Substitute 1 to 2026 RES-039 states 18 months from the effective date or until rescinded, whichever is earlier; the retained text leaves the effective date blank.
 - **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `wi-dane-county-2026`

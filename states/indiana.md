@@ -32,7 +32,7 @@ State policy is tracked separately: **10 records** (10 typed bill rows) in [`sta
 | Merrillville (Lake County) | Town | 2026-05-26 | data center | 🟢 Active |
 | Miami County | County | 2026-05-04 | data center | ⚪ Replaced |
 | New Albany (Floyd County) | City | 2026-07-16 | data center | 🟢 Active |
-| Owen County | County | Unverified | data center | 🟡 Pending |
+| Owen County | County | 2026-09-22 | data center | 🟡 Pending |
 | Pulaski County | County | 2026-02-02 | data center | 🟢 Active |
 | Putnam County | County | 2025-11-17 | data center, solar, wind | 🟢 Active |
 | Shelby County | County | 2026-02-23 | data center | ⚪ Replaced |
@@ -167,15 +167,15 @@ State policy is tracked separately: **10 records** (10 typed bill rows) in [`sta
 - **Recorded status:** 🟡 Pending
 - **Date enacted:** —
 - **Normalized date:** `—` (unverified)
-- **Duration:** Proposed 365-day (one-year) moratorium on city approvals related to new data center development; not yet adopted
+- **Duration:** A 365-day moratorium was proposed in September 2026; WANE reports that the proposal failed on October 13, 2026.
 - **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `in-fort-wayne-undated`
 - **Legal basis:** Ordinance(s) introduced by Councilwoman Rohli Booker in September 2026, including a proposed 365-day data center moratorium and a directive for the Department of Planning Services to create a comprehensive data center development standard; a related task-force proposal from Councilman Russ Jehl was withdrawn
 - **What prompted it:** Council concern about the pace of data center development in the city, following the Google data center already under construction in southeast Fort Wayne
 - **Affected projects:** Would not affect the existing Google data center project under construction in southeast Fort Wayne
-- **Detailed status:** Pending as of 2026-09-23. Fort Wayne City Council introduced a proposed 365-day data center moratorium (with amendments) in September 2026; the existing Google data center project in southeast Fort Wayne is explicitly excluded. The Council took up amendments and public comment on Sept. 22-23, 2026 but postponed a final vote for three weeks; it is scheduled to reconsider the matter on Oct. 13, 2026.
-- **Outcome:** Council postponed a final vote on the moratorium ordinance to Oct. 13, 2026, pending further review of proposed amendments
+- **Detailed status:** WANE reported that Fort Wayne City Council voted 4-4 against the proposed 365-day data-center moratorium on October 13, 2026. [VERIFY: official roll call and any subsequent reintroduction or action.]
+- **Outcome:** WANE reported the proposed 365-day moratorium failed on a 4-4 council vote on October 13, 2026.
 
 ### Franklin County
 
@@ -389,17 +389,17 @@ State policy is tracked separately: **10 records** (10 typed bill rows) in [`sta
 
 - **Type:** County
 - **Recorded status:** 🟡 Pending
-- **Date enacted:** —
-- **Normalized date:** `—` (unverified)
-- **Duration:** Planning Commission recommended a one-year moratorium on data center development and zoning applications; not yet adopted by the Board of Commissioners
+- **Date enacted:** The Owen News reports unanimous commissioner approval on 2026-09-22; the adopted instrument and effectiveness remain unverified.
+- **Normalized date:** `2026-09-22` (unverified)
+- **Duration:** The Owen News reported that commissioners approved a 12-month moratorium on data-center applications on September 22, 2026; its effective date and term anchor remain unverified.
 - **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `in-owen-county-undated`
-- **Legal basis:** Owen County Planning Commission recommendation (undated, prior to Sept. 2026) forwarding a draft moratorium resolution to the Board of Commissioners, alongside a separate draft standards-based data center development ordinance
+- **Legal basis:** The Planning Commission recommended a moratorium; The Owen News reports unanimous commissioner approval on September 22, 2026. The adopted instrument and effective date remain unverified.
 - **What prompted it:** Urgency tied to state House Bill 10001 permit-deadline language, and local concerns about water use, noise, and light from potential data center development; at an Aug. 20, 2026 Commissioners meeting, public comment favored a permanent ban over a temporary moratorium
 - **Affected projects:** No specific proposed data center identified in sources reviewed
-- **Detailed status:** Pending as of 2026-09-23. The Owen County Planning Commission voted to recommend that the Board of Commissioners adopt a one-year moratorium on data center development and zoning applications, while continuing to draft a separate standards-based ordinance (closed-loop water systems, light and noise limits, decommissioning requirements). At an Aug. 20, 2026 Commissioners meeting, the board agreed to gather more information and send both a moratorium option and a permanent-ban option forward; no final commissioner vote adopting either was located in sources reviewed as of this date. [VERIFY instrument number; adoption date not confirmed at confidence 0.55 in the 2026-09 refresh]
-- **Outcome:** Planning Commission recommended a one-year moratorium to the Board of Commissioners; the Board had not taken final action as of the sources reviewed
+- **Detailed status:** The Owen News reported that Owen County commissioners unanimously approved a 12-month moratorium on data-center applications on September 22, 2026, including a pause on related rezoning requests. [VERIFY: adopted instrument, effective date, term anchor and subsequent actions/current legal force.]
+- **Outcome:** The Owen News reported unanimous commissioner approval of a 12-month data-center application moratorium on September 22, 2026.
 
 ### Pulaski County
 

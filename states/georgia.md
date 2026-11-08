@@ -27,7 +27,7 @@ State policy is tracked separately: **9 records** (9 typed bill rows) in [`state
 | Cedartown | City | 2026-03-23 | data center | 🟢 Active |
 | Chamblee | City | 2026-07-21 | data center | 🟢 Active |
 | Chatham County | County | 2026-09-11 | data center | 🟢 Active |
-| Cherokee County | County | 2026-07-22 | data center | 🟢 Extended |
+| Cherokee County | County | 2026-07-21 | data center | 🟢 Extended |
 | Clayton County | County | 2025-09-03 | data center | 🟢 Extended |
 | Cobb County | County | 2026-02-24 | data center | 🟢 Extended |
 | Colquitt County | County | 2026-06-02 | data center | 🟢 Extended |
@@ -345,16 +345,16 @@ State policy is tracked separately: **9 records** (9 typed bill rows) in [`state
 
 - **Type:** County
 - **Recorded status:** 🟢 Extended
-- **Date enacted:** 2026-07-22
-- **Normalized date:** `2026-07-22` (exact)
-- **Duration:** Initial 30 days (adopted 2026-07-21/22); extended by 180 days on 2026-08-18, for a total of about 210 days, running through approximately mid-February 2027 (2027-02-14) unless ended early or extended.
-- **Current end date:** `2027-02-14`
+- **Date enacted:** 2026-07-21
+- **Normalized date:** `2026-07-21` (exact)
+- **Duration:** Initial 30 days adopted July 21, 2026; an August 18 report describes a 180-day extension. The adopted extension text, anchor and operative end remain unverified.
+- **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `ga-cherokee-county-2026`
-- **Legal basis:** Cherokee County Board of Commissioners resolution instituting a 30-day moratorium on data center applications (July 2026), extended by a Board resolution adopted 2026-08-18 enacting a 180-day moratorium on acceptance of applications for permits, land disturbance, land use amendments, rezoning, conditional use permits, variances and public hearing applications related to data centers. Resolution numbers not published in the sources reviewed.
+- **Legal basis:** Cherokee County Board of Commissioners adopted a 30-day moratorium on accepting new applications related to data centers on July 21, 2026, according to a county notice. An August 18 extension is reported; the adopted extension resolution and its precise scope remain unverified.
 - **What prompted it:** Growing statewide concern about data center development; county plans a public hearing to consider a longer extension
 - **Affected projects:** Not identified in captured news coverage
-- **Detailed status:** Active/extended as of 2026-09-23; on 2026-08-18 the Board of Commissioners unanimously extended the data center moratorium by 180 days, running through approximately 2027-02-14. County reports no pending or approved data center applications and no dedicated data center ordinance yet.
+- **Detailed status:** The county notice reports the initial July 21 adoption; a contemporaneous account reports an August 18 vote extending the moratorium by 180 days. The extension instrument, operative end and subsequent actions remain unverified. [VERIFY: adopted extension and later actions]
 - **Outcome:** Board unanimously adopted a 30-day moratorium in July 2026 and on 2026-08-18 unanimously extended it by 180 days while staff research and draft data center standards.
 
 ### Clayton County
@@ -363,14 +363,14 @@ State policy is tracked separately: **9 records** (9 typed bill rows) in [`state
 - **Recorded status:** 🟢 Extended
 - **Date enacted:** 2025-09-03
 - **Normalized date:** `2025-09-03` (exact)
-- **Duration:** 120 days, through 2025-12-31; extended a total of three times since September 2025 per county documents cited by WABE (July 24, 2026); still in effect as of that date. Exact current end date not confirmed.
+- **Duration:** Initial 120 days through 2025-12-31; extended thereafter. Resolution 2026-134 states an end at December 31, 2026 or adoption of a relevant code revision, whichever occurs first; official action may shorten or extend it. Subsequent actions remain unverified.
 - **Current end date:** `2026-12-31`
 - **Sectors:** data center
 - **Moratorium ID:** `ga-clayton-county-2025`
-- **Legal basis:** Resolution 2025-193 (per Clayton County news release referenced in GPB 2025-10-22 reporting) [VERIFY: county news release URL https://www.claytoncountyga.gov/news/clayton-county-board-of-commissioners-approves-moratorium-on-new-data-centers-in-clayton-county/ — full resolution text not retrieved as of 2026-04-29]
+- **Legal basis:** Resolution 2025-193 (per prior reporting); signed Resolution 2026-134, dated June 16, 2026, extended the application moratorium. The original resolution text remains unverified. [VERIFY: original resolution]
 - **What prompted it:** Health, safety, water-supply, and resident concerns after recent approvals
 - **Affected projects:** Prior approvals included TA Realty Ellenwood (35-acre lot) and Digital Realty Forest Park (97 acres, ~2 million sq ft) facilities
-- **Detailed status:** Active/extended as of 2026-09-23; the moratorium on new data center applications and permits in unincorporated Clayton County (originally passed Sept. 2, 2025; extended Dec. 16, 2025 to June 29, 2026; extended again in mid-2026) is now set to run to the end of December 2026 (2026-12-31 per the Ledger-Enquirer table). The date of the most recent extension resolution was not located.
+- **Detailed status:** Signed Resolution 2026-134 extended the moratorium on acceptance of specified applications for new data centers and expansion of existing or developing centers in unincorporated Clayton County until December 31, 2026 or adoption of a relevant county code revision, whichever occurs first; official action may shorten or extend it. Subsequent actions and current force remain unverified.
 - **Outcome:** Study period; permanent post-expiration framework not confirmed
 
 ### Cobb County
@@ -395,8 +395,8 @@ State policy is tracked separately: **9 records** (9 typed bill rows) in [`state
 - **Recorded status:** 🟢 Extended
 - **Date enacted:** 2026-06-02, Colquitt County Commission, unanimous (motion by Commissioner Johnny Hardin)
 - **Normalized date:** `2026-06-02` (exact)
-- **Duration:** 120 days from 2026-06-02 (to about 2026-10-01); extended another 180 days on 2026-09-01
-- **Current end date:** `2027-02-28`
+- **Duration:** Initial 120 days from 2026-06-02; on 2026-09-01 the commission extended the moratorium another 180 days from its October 1, 2026 expiration.
+- **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `ga-colquitt-county-2026`
 - **Legal basis:** Colquitt County Commission moratorium on construction of data centers (and cryptocurrency mining centers under the planned ordinance), proposed by County Attorney Lester Castellow; extended 2026-09-01
@@ -431,11 +431,11 @@ State policy is tracked separately: **9 records** (9 typed bill rows) in [`state
 - **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `ga-coweta-county-2025`
-- **Legal basis:** (first instrument, May 2025) Board of Commissioners moratorium resolution; replaced by permanent data center ordinance posted at https://www.coweta.ga.us/home/showpublisheddocument/32598/639016609046670000 [VERIFY: Coweta civic-clerk portal blocks direct PDF download (HTTP 403); ordinance number not yet retrieved as of 2026-04-29]
+- **Legal basis:** Board of Commissioners moratorium resolution (May 2025); subsequently, Coweta County Ordinance 038-25, adopted 2025-12-16, amended the zoning and development code for data centers. This review did not establish the moratorium’s termination history.
 - **What prompted it:** Project Peach, Project Sail, petitions, and need for countywide standards
 - **Affected projects:** Project Peach, about $1 billion and 320 acres; Project Sail (Atlas Development), 829 acres rezoned 3-2 from Rural Conservation to Industrial on 2026-04-07 with 17 conditions, ~4.34 million square feet, ~900 MW
-- **Detailed status:** Replaced, as of 2026-09-23. 180-day moratorium expired 2025-11-03; permanent data center ordinance adopted December 16, 2025. That ordinance's approval of the 'Project Sail' rezoning is now under active litigation: 17 Coweta County residents (Bockrath, et al.) filed a Petition for Review/Appeal and Request for Declaratory Judgment in Coweta County Superior Court on May 5, 2026, against the county and developer Atlas Development, LLC, seeking to void the rezoning. As of the most recent case-status information located (dated after May 2026), the case remains active with no reported ruling.
-- **Outcome:** Permanent data center ordinance adopted December 16, 2025, replacing the expired moratorium.
+- **Detailed status:** The prior inventory reports a 180-day moratorium scheduled to expire November 3, 2025. Ordinance 038-25 amended data center zoning on December 16, 2025; its legal relationship to the moratorium remains unverified. The prior inventory reports litigation concerning Project Sail; the docket, current case status, and relationship to the moratorium have not been verified in this review. [VERIFY: termination history and litigation]
+- **Outcome:** A data center zoning ordinance was adopted December 16, 2025; whether and when the moratorium terminated is unverified.
 
 ### Coweta County
 
@@ -667,15 +667,15 @@ State policy is tracked separately: **9 records** (9 typed bill rows) in [`state
 - **Recorded status:** 🟢 Extended
 - **Date enacted:** 2026-02-26
 - **Normalized date:** `2026-02-26` (exact)
-- **Duration:** 180 days from 2026-02-26; extended another 180 days by 5-0 vote on 2026-08-27, running until 2027-02-23.
-- **Current end date:** `2027-02-23`
+- **Duration:** 180 days from 2026-02-26; on 2026-08-27 the Board amended its initial extension motion to adopt a new 180-day moratorium on data and detention centers. Its operative term and subsequent actions remain unverified.
+- **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `ga-hall-county-2026`
 - **Legal basis:** Hall County Board of Commissioners moratorium on detention centers, high-density developments, and data centers, voted 2026-02-26 (per WSB-TV reporting and GPB Georgia Today 2026-02-27); resolution number not posted on Hall County website as of 2026-04-29 [VERIFY resolution number]
 - **What prompted it:** Infrastructure, sewer, environmental, and development-code concerns after federal detention-facility activity
 - **Affected projects:** Data centers on certain high-density residential, planned development, or special-use properties
-- **Detailed status:** Active/extended as of 2026-09-23. On 2026-08-27 the Board of Commissioners voted 5-0 to extend the data center and detention center moratorium another 180 days (to 2027-02-23). On 2026-09-10 the Board approved the Unified Development Code update including a new data center ordinance (Article 7; minor/medium/major/campus size classes and crypto-mining facilities), but the county stated the moratorium remains in effect until 2027-02-23.
-- **Outcome:** Moratorium extended 2026-08-27 to 2027-02-23; data center ordinance adopted within the UDC update on 2026-09-10 while the moratorium stays in place.
+- **Detailed status:** On 2026-08-27 the Board voted 5-0 to amend its initial extension motion and adopt a new 180-day moratorium on data and detention centers. The adopted instrument, operative endpoint, effect of the September 10 development code update, and subsequent action remain unverified. [VERIFY: adopted instrument and subsequent actions]
+- **Outcome:** The August 27 minutes record a 5-0 vote for a new 180-day moratorium after amendment of an extension motion. The effect of the September 10 development code update on the moratorium remains unverified.
 
 ### Hart County
 

@@ -23,6 +23,8 @@ precedence over its execution strategy. The initial 100-record Terra cohort has 
 
 ## Process-reset increments
 
+- [x] Apply 42 guarded WI/GA/IN cells across nine records after 73-row independent review; reject clearing Clayton’s supported endpoint and preserve unresolved legal force ([receipt](work/research/2026-11-08/wi-ga-in-reconciliation/README.md)).
+
 - [x] Deliver dated living-copy corrections to the author site and Fight a Data Center; verify remote refs, production builds and selected served markers, preserving historical editions and other consumer gaps ([delivery](work/research/2026-11-08/consumer-copy-delivery/README.md)).
 
 - [x] Apply 36 independently reviewed cells across 17 CA/PA/SC/WY policy records under 52-row guards; retain all 447 IDs and distinguish 426 bills from 12 resolutions ([receipt](work/research/2026-11-08/ca-pa-sc-wy-policy-reconciliation/README.md)).
