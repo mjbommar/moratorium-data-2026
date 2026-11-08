@@ -2,6 +2,11 @@
 
 Date: 2026-11-05
 
+Execution notice, November 8: after the user-requested pause and reactivation, the
+[wall-clock process reset](process-reset-plan-2026-11-08.md) now replaces the old tiny-batch
+execution strategy while retaining this plan’s full scope and required quality and
+delivery gates. Do not restart the retired research queue automatically.
+
 Status: implementation in progress. The companion [TODO](../TODO.md) tracks
 verified increments and remaining work; [release closeout](release-closeout.md)
 records the current checkpoint and delivery gates. The dated architecture below

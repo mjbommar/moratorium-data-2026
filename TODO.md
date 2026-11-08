@@ -2,6 +2,38 @@
 
 Plan: [Research modernization and ballot-measure expansion](docs/research-and-ballot-expansion-plan.md).
 
+## Active: wall-clock process reset
+
+Execution design: [Process reset](docs/process-reset-plan-2026-11-08.md).
+The user reactivated the goal on November 8. The full research/release scope and
+quality gates remain; the old 591-job queue must not restart. This section takes
+precedence over its execution strategy. The initial 100-record Terra cohort has returned scoped dispositions; full freshness remains open. Independent review and the HTTP-order audit fix are running.
+
+- [x] Pause the active goal, stop research CLI workers/controllers, and set admission to zero.
+- [x] Verify current Terra availability: `gpt-6.1-terra` is in the CLI registry and official model documentation.
+- [x] Document a replacement process optimizing wall clock without materially reducing quality or coverage.
+- [ ] Reconcile existing evidence/approvals into one per-ID freshness ledger; preserve valid completed work and interrupted attempts.
+- [ ] Build source-grouped 15–30-ID worklists, with separate difficult cases and compact delta outputs.
+- [ ] Replace the fixed three-worker policy with measured, configurable Terra concurrency; proposed range 8–12 within actual limits.
+- [ ] Route every material legal/electoral decision to independent evidence review; automate mechanical invariants and audit lower-risk carry-forward decisions.
+- [ ] Run local, state-policy, ballot, delivery and required P4 work concurrently on owned paths.
+- [ ] Merge substantial approved batches and reserve full historical/portable replay for the frozen release or relevant protocol changes.
+- [ ] Publish a measured critical-path ETA after productive throughput and reuse are established.
+- [ ] Complete the original full-scope freshness, quality, consumer and verified-release gates.
+
+## Process-reset increments
+
+- [x] Index existing URL leads for 1,548 of 1,777 raw records; retain source-specific clocks and unresolved gaps. Routing coverage is not freshness acceptance.
+- [x] Generate 162 grouped worklists and reconcile ballot release accounting for 53 published measures plus five withheld frozen groups.
+- [x] Complete the first four 25-record retained-evidence cohorts; route eight material proposals for independent review. No cohort is fully freshness-accepted.
+- [x] Implement the state-policy consumer scope adapter and pass six coordinator tests; preserve 447 raw IDs, one explicit exclusion and 446 unreviewed research candidates.
+- [ ] Fix the independently reproduced prospective HTTP reservation ordering defect and re-review the correction.
+- [ ] Independently validate the new protocol scorer, freeze an adequate fresh evaluation population, and complete the required P4 evaluation.
+- [ ] Reconcile already-reviewed batches 9–14 into one guarded data update, protecting later applied corrections.
+
+## Earlier verified increments
+
+
 - [x] Apply 21 guarded cells across five AL/AZ/AR records after nine-record AL/AK/AZ/AR review; distinguish Pima’s August direction to draft from unsupported adoption and preserve four unchanged records ([packet](work/research/2026-11-08/al-ak-az-ar-batches6to8-reconciliation/README.md)). Current force and later adoption remain unresolved.
 
 - [x] Apply 20 independently adjudicated substantive cells across seven Alabama records and recompute ten verification cells after nine-record full-row review; preserve six rejected changes, including Morgan’s supported original endpoint and Prichard’s 180-day encoding ([packet](work/research/2026-11-08/alabama-batches3to5-reconciliation/README.md)). Full freshness/current force remain open.

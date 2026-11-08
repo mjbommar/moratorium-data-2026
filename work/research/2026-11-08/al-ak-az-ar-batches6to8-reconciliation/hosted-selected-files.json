@@ -1,0 +1,82 @@
+{
+  "observed_at": "2026-11-08T13:31:37.514669+00:00",
+  "source_commit": "15c344ca108efd01f66a14ad5a5495407a2bc3e4",
+  "pages_run": 42484864048,
+  "pages_conclusion": "success",
+  "base_url": "https://mjbommar.github.io/moratorium-data-2026/",
+  "scope": "Eight selected deployed data/prose/chart surfaces only. Not all-site, all-consumer, full-freshness or final-release acceptance.",
+  "files": [
+    {
+      "path": "data/moratorium_inventory.csv",
+      "status": 200,
+      "sha256": "05498f3a4d7b5ecbfd1a7f9dbab4f3929e6be2c60bcdf79a21c7d645333f91b9",
+      "expected_sha256": "05498f3a4d7b5ecbfd1a7f9dbab4f3929e6be2c60bcdf79a21c7d645333f91b9",
+      "bytes": 1700481,
+      "expected_bytes": 1700481,
+      "matches": true
+    },
+    {
+      "path": "data/summary_stats.json",
+      "status": 200,
+      "sha256": "e57e938b8a1545b220c999c927c0f5b677e4dd9cfc57753ad78f84628e88cf5e",
+      "expected_sha256": "e57e938b8a1545b220c999c927c0f5b677e4dd9cfc57753ad78f84628e88cf5e",
+      "bytes": 15298,
+      "expected_bytes": 15298,
+      "matches": true
+    },
+    {
+      "path": "site/timeline.svg",
+      "status": 200,
+      "sha256": "ab34dd6e4da3ffe3a647fa885df87d45d1ee9d897d0f24f8e771fac6e37e86e4",
+      "expected_sha256": "ab34dd6e4da3ffe3a647fa885df87d45d1ee9d897d0f24f8e771fac6e37e86e4",
+      "bytes": 17226,
+      "expected_bytes": 17226,
+      "matches": true
+    },
+    {
+      "path": "states/arizona.html",
+      "status": 200,
+      "sha256": "9b6dbb26fb80916f590a9f013d7ea41797ab8968b3c44419871667b4acb16b0c",
+      "expected_sha256": "9b6dbb26fb80916f590a9f013d7ea41797ab8968b3c44419871667b4acb16b0c",
+      "bytes": 9161,
+      "expected_bytes": 9161,
+      "matches": true
+    },
+    {
+      "path": "states/alabama.html",
+      "status": 200,
+      "sha256": "1ee2b24fd6e25ae62cf992e62ee409a1cc7b1aa27ceb780f089b85441722a0b8",
+      "expected_sha256": "1ee2b24fd6e25ae62cf992e62ee409a1cc7b1aa27ceb780f089b85441722a0b8",
+      "bytes": 46400,
+      "expected_bytes": 46400,
+      "matches": true
+    },
+    {
+      "path": "states/arkansas.html",
+      "status": 200,
+      "sha256": "88096f7d44ccc4e5aab230d1604c1b762346b0523211358348e68503fac0e2e9",
+      "expected_sha256": "88096f7d44ccc4e5aab230d1604c1b762346b0523211358348e68503fac0e2e9",
+      "bytes": 20069,
+      "expected_bytes": 20069,
+      "matches": true
+    },
+    {
+      "path": "data/index.html",
+      "status": 200,
+      "sha256": "a50c20d3632a2dc1c7dc1435270401e69674db6d82ef425661d36eabb4adfc8b",
+      "expected_sha256": "a50c20d3632a2dc1c7dc1435270401e69674db6d82ef425661d36eabb4adfc8b",
+      "bytes": 19940,
+      "expected_bytes": 19940,
+      "matches": true
+    },
+    {
+      "path": "docs/codebook.html",
+      "status": 200,
+      "sha256": "a0ab43dd07b8ccd5b6c2c3fcf20833c5f636f4e7b233bd5145a9903bfbcb9101",
+      "expected_sha256": "a0ab43dd07b8ccd5b6c2c3fcf20833c5f636f4e7b233bd5145a9903bfbcb9101",
+      "bytes": 38385,
+      "expected_bytes": 38385,
+      "matches": true
+    }
+  ]
+}
