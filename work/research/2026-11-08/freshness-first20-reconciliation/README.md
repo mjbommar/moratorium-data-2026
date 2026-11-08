@@ -1,0 +1,11 @@
+# First twenty-record freshness reconciliation
+
+Separate Terra primary and independent source reviews were followed by coordinator adjudication. **19 cells across eight records** (17 substantive and two verification metadata fields) are applied; six Baldwin proposals remain held to reconcile earlier reports and drafting/adoption chronology. All IDs and status classifications remain unchanged. Verification-marked rows rise from 748 to **749**, with 581 unflagged; this records evidence limitations rather than a status change.
+
+Beetown’s signed clause requires adoption **and publication** of a zoning ordinance, or two years from effectiveness, whichever first. California AB 222’s proposed CEC load-trend assessment is distinguished from its separate CPUC cost-shift assessment. Athens, Brasher, Busti, Boardman, Bridgewater and Bellevue descriptions preserve source dates and authority limits, qualify unsupported current-force claims and retain unresolved identity where necessary. No exact Bridgewater vote date is accepted for this Williams County record on the visible passage alone. Baldwin’s older reported chronology is retained pending source reconciliation.
+
+[Application](application.json) pins exact expected values, applied changes and CSV hashes. Every baseline ID and every non-approved cell were checked against the prior committed CSVs. Original record terminators and field order are preserved. The unchanged AB 222 scope inclusion is superseded only to bind the clarified row fingerprint; scope partitions remain 374 included, 19 excluded and 54 unresolved. Raw bodies, screenshots and third-party passages stay private.
+
+The twenty reviewed cases contain 17 bounded unresolved dispositions and three unperformed present-force/implementation checks despite historical source examination. These do not establish whole-record freshness through the cutoff. Material corrections, investigated source limitations and unperformed follow-ups remain separate; there is no new current-law or final-release acceptance.
+
+[Verification](verification.json) records the full configured repository check: zero validation errors, 511 retained warnings and all 74 documented-number claims matched. These internal-consistency checks do not resolve the remaining source and current-force questions.

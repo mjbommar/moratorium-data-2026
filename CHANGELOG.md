@@ -1,5 +1,11 @@
 # Changelog
 
+Current working snapshot: **1,330 local records**, **447 policy observations**, and **56 proposal/measure records** with **52 current result observations** (five certified). Policy scope dispositions are 374 included, 19 excluded and 54 unresolved. Counts describe the working data, not current enforceability or a final release. Older entries below retain their dated checkpoint counts.
+
+The [first 20-record freshness reconciliation](work/research/2026-11-08/freshness-first20-reconciliation/README.md) applies 19 source-supported cells across eight records; six Baldwin proposals remain held for chronology reconciliation. Beetown’s termination requires adoption and publication; AB 222’s agency assessments are separate; unsupported original dates and present-force claims are qualified. Verification-marked rows are now 749. No classification or whole-record freshness acceptance is added.
+
+The [Monroe/Sprigg ballot publication](work/research/2026-11-08/adams-ballot-publication/README.md) preserves all prior records and adds two general-zoning questions with qualified unofficial results, unknown sectors and unknown legal effects. Server Country’s Dundee correction is separately deployed and verified.
+
 The [Wisconsin/Georgia/Indiana review](work/research/2026-11-08/wi-ga-in-reconciliation/README.md) applies 42 independently reviewed/coordinator-adjudicated cells across nine records, preserving Clayton's source-supported scheduled endpoint and all IDs/classifications. Correct historical dates, conditional terms, project applicability and reported adoption/rejection. Verification-marked rows are now 748; full freshness remains open.
 
 The [California/Pennsylvania/South Carolina/Wyoming review](work/research/2026-11-08/ca-pa-sc-wy-policy-reconciliation/README.md) applies 36 guarded cells across 17 policy records. Two South Carolina joint resolutions move from the bill-type bucket to resolutions: current totals are 447 policy observations, 426 bill-type rows, 12 resolution rows and 92 enacted-category bill rows. All IDs remain; version-specific conditions and historical effective dates do not establish current law.
@@ -183,10 +189,10 @@ These are inventory classifications, not independently renewed legal-force findi
 | Classified active or extended | **1079** |
 | Pending or not yet effective | **79** |
 | Ended (replaced, expired, or rescinded) | **172** |
-| Rows we still want to confirm (`[VERIFY]`) | **748** |
+| Rows we still want to confirm (`[VERIFY]`) | **749** |
 | States with at least one | **47** |
 
-Current totals remain 1,330 local records (1,079 active/extended classifications),
+At the earlier Alabama checkpoint, totals were 1,330 local records (1,079 active/extended classifications),
 442 state-policy records, and 51 ballot/proposal records (49 voted, one scheduled,
 one litigated). The expanded history retains 57 results, 50 current observations
 and five current certified observations. The [updated September-baseline comparison](work/audit/refresh-baseline-delta-2026-11-07-alabama.md)

@@ -1,5 +1,11 @@
 # November refresh closeout
 
+## November 8 bounded freshness corrections
+
+The [first twenty-record reconciliation](../work/research/2026-11-08/freshness-first20-reconciliation/README.md) applies 19 guarded cells across eight records after separate primary/independent reviews and coordinator adjudication. Six Baldwin proposals remain held while earlier reports and the drafting/adoption chronology are reconciled. Verification-marked rows are now **749**, with **581 unflagged**. IDs, classification totals, scope partitions and ballot totals remain unchanged. These scoped corrections do not close whole-record freshness through the cutoff.
+
+The 56-measure ballot checkpoint at `31828de` successfully deployed in Pages run `42532240725`; [five selected served files](../work/research/2026-11-08/adams-ballot-publication/hosted-selected-files.json) match committed content byte for byte. This is verified working-data delivery, not a final GitHub release.
+
 ## November 8 complete policy-scope triage
 
 Source `bc0d3c6` is pushed and contains explicit scope dispositions for every one of the 447 raw policy observations: **374 included, 19 excluded, 54 unresolved, zero unreviewed**. The exploratory pool is 428 observations; these are not unique instruments or current-law findings. The [90-record wave](../work/research/2026-11-08/policy-scope-wave4-reconciliation/README.md) and [final 124-record wave](../work/research/2026-11-08/policy-scope-wave5-reconciliation/README.md) reuse retained evidence and preserve all raw CSV cells. Scope tests (17), deterministic exports and all 74 documented-number checks passed. Pages run `42531088939` successfully deployed source `ca42605`; [five selected served files](../work/research/2026-11-08/policy-scope-wave5-reconciliation/hosted-selected-files.json) match that source byte for byte. This is a working-checkpoint delivery, not final release verification.

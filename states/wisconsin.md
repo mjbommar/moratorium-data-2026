@@ -77,7 +77,7 @@ State policy is tracked separately: **7 records** (7 typed bill rows) in [`state
 - **Recorded status:** 🟢 Active
 - **Date enacted:** May 7, 2026 adoption; signed copy records posting May 8 and effectiveness May 9. Dates visually verified, not inferred from OCR.
 - **Normalized date:** `2026-05-07` (exact)
-- **Duration:** Null and void upon adoption of a comprehensive zoning ordinance, or two years from the effective date, whichever occurs first
+- **Duration:** Void upon adoption and publication of a zoning ordinance or two years from the effective date, whichever occurs first.
 - **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `wi-beetown-2026`
@@ -97,10 +97,10 @@ State policy is tracked separately: **7 records** (7 typed bill rows) in [`state
 - **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `wi-bellevue-2026`
-- **Legal basis:** Village of Bellevue data center moratorium ordinance (ordinance number not located in reviewed sources)
+- **Legal basis:** The August 12, 2026 board packet identifies proposed Ordinance O-2026-10; the final signed adopted instrument and publication remain unverified.
 - **What prompted it:** No active data center proposal pending, but the village acted proactively amid concerns raised in nearby communities (Wrightstown, Manitowoc County) about environmental impact, noise, water supply, and electrical costs.
 - **Affected projects:** —
-- **Detailed status:** August 12 packet proposes O-2026-10, a twelve-month data-center moratorium with possible additional six months and earlier zoning-related termination. August 13 news reports unanimous adoption. Final signed wording, publication, operative interval and later force remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
+- **Detailed status:** An August 12 packet proposes O-2026-10, a twelve-month data-center moratorium with possible additional six months and earlier zoning-related termination. Local news published August 12 reports unanimous adoption; a second report published August 24 also reports the vote. Final signed wording, publication, operative interval and later force remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** Adopted 12-month moratorium on data center development.
 
 ### Cassville

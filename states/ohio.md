@@ -427,7 +427,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 - **Legal basis:** Boardman Township (Mahoning County) Board of Trustees one-year data center moratorium (resolution number not located)
 - **What prompted it:** Preemptive; resident opposition and regional wave of Mahoning Valley moratoria; no application filed.
 - **Affected projects:** None; township says no company has inquired.
-- **Detailed status:** Active as of 2026-09-23; one-year moratorium adopted 2026-04-28 runs to about 2027-04-28.
+- **Detailed status:** WKBN reported on May 19, 2026 that trustees voted April 28 for a one-year data-center moratorium. The resolution, effective date, later actions and current legal force are unverified. [VERIFY]
 - **Outcome:** Trustees will spend the year studying zoning options to regulate or keep data centers out of residential areas.
 
 ### Boston Heights
@@ -475,7 +475,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 - **Legal basis:** Bridgewater Township (Williams County) Board of Trustees action approving a 12-month moratorium on data centers; instrument number not found
 - **What prompted it:** Not reported (article paywalled); regional Williams County activity (Pioneer, Northwest Township moratoria).
 - **Affected projects:** Unknown.
-- **Detailed status:** Reported approved in about September 2026 (12 months); active as of 2026-09-23 per the single report; exact dates unverified. [VERIFY instrument number; primary source (news-only evidence) not confirmed at confidence 0.45 in the 2026-09 refresh]
+- **Detailed status:** A September 17, 2026 report describes a Bridgewater trustees vote for a 12-month moratorium on September 16; the visible passage does not establish that it concerns this Williams County record. Identity, operative dates and later action remain unverified. [VERIFY: jurisdiction, instrument, term and later action.]
 - **Outcome:** 12-month data center moratorium approved by township trustees.
 
 ### Brimfield Township

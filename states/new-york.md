@@ -16,7 +16,7 @@ State policy is tracked separately: **11 records** (10 typed bill rows and 1 non
 | Amsterdam | City | 2025-12-02 | battery storage, solar | 🟢 Active |
 | Angelica | Town | 2024-10-31 | battery storage, solar, wind | ⚪ Expired |
 | Arietta | Town | 2026-06-15 | battery storage | 🟢 Active |
-| Athens | Town | 2026-03 | battery storage | 🟢 Active |
+| Athens | Town | Unverified | battery storage | 🟢 Active |
 | Aurora (Erie County) | Town | 2025-05-27 | battery storage | 🟢 Extended |
 | Babylon | Town | 2024-06-05 | battery storage | 🟢 Extended |
 | Bedford | Town | 2024-08-13 | battery storage | 🟢 Extended |
@@ -250,17 +250,17 @@ State policy is tracked separately: **11 records** (10 typed bill rows and 1 non
 
 - **Type:** Town
 - **Recorded status:** 🟢 Active
-- **Date enacted:** 2026-03 (public hearing 'Monday night' following a February 21, 2026 Town Board discussion; 3-2 vote)
-- **Normalized date:** `2026-03` (month_only)
-- **Duration:** At least six months and up to a year
+- **Date enacted:** An October 6, 2026 report says an Athens BESS moratorium was initially established March 4, 2024; whether it is the same instrument as this record remains unverified.
+- **Normalized date:** `—` (unverified)
+- **Duration:** An October 6, 2026 report describes an Athens BESS moratorium scheduled to end December 1, 2026, with a conditional possible extension to June 1, 2027; identity and legal terms remain unverified.
 - **Current end date:** `—`
 - **Sectors:** battery storage
 - **Moratorium ID:** `ny-athens-2026`
 - **Legal basis:** Town of Athens moratorium on battery energy storage system facilities
 - **What prompted it:** Public safety and fire-suppression concerns; a proposed BESS facility on Route 9W in neighboring Catskill
 - **Affected projects:** Eolian Energy's proposed BESS facility on Route 9W, Town of Catskill (adjacent)
-- **Detailed status:** Carina Energy lists Athens as UNDER_REVIEW with an expiration of 2026-03-01, consistent with a roughly six-month initial term from a March 2026 vote. Status as of 2026-09-23 not independently confirmed beyond the tracker. [VERIFY instrument number; primary source (news-only evidence) not confirmed at confidence 0.6 in the 2026-09 refresh]
-- **Outcome:** Adopted on a 3-2 vote
+- **Detailed status:** An October 6, 2026 report describes an Athens BESS moratorium initially established March 4, 2024, scheduled to expire December 1, 2026, with a conditional possible extension to June 1, 2027. Whether this is the same instrument as this record, the original law, any extension and later legal force remain unverified. [VERIFY: instrument identity, term, extension and later action.]
+- **Outcome:** An Athens BESS moratorium was reported; identity with this record, adoption details and subsequent actions remain unverified.
 
 ### Aurora (Erie County)
 
@@ -380,15 +380,15 @@ State policy is tracked separately: **11 records** (10 typed bill rows and 1 non
 - **Recorded status:** 🟢 Extended
 - **Date enacted:** 2024 (original term ran to 2024-10-31; exact adoption date not confirmed)
 - **Normalized date:** `2024` (year_only)
-- **Duration:** Extended repeatedly; trackers report a current expiration of 2026-10-31
+- **Duration:** Original and subsequent terms unverified; an October 2026 tracker version lists an October 31, 2026 endpoint.
 - **Current end date:** `—`
 - **Sectors:** battery storage
 - **Moratorium ID:** `ny-brasher-2024`
 - **Legal basis:** Town of Brasher moratorium on battery energy storage systems
 - **What prompted it:** The July 2024 Chaumont, NY solar-farm battery fire in Jefferson County (multi-day burn, evacuations, air-quality alerts)
 - **Affected projects:** No specific project named
-- **Detailed status:** Reported active as of 2026-09-23 by Carina Energy, expiring 2026-10-31 -- exactly two years after the original term's end date, consistent with the town continuing to renew the pause annually while it drafts a permanent local law using a sample regulation from the St. Lawrence County Planning Office. [VERIFY instrument number; primary source (news-only evidence) not confirmed at confidence 0.55 in the 2026-09 refresh]
-- **Outcome:** Adopted, extended repeatedly (inferred)
+- **Detailed status:** An October 2026 tracker version lists a utility-scale BESS moratorium as active with an October 31, 2026 endpoint; the tracker does not establish renewal history, legal expiry or present force. The reviewed September 9 town minutes do not address BESS. [VERIFY: original law, renewals, filing and later action.]
+- **Outcome:** Moratorium reported; adoption details and any extensions remain unverified.
 
 ### Buffalo
 
@@ -412,7 +412,7 @@ State policy is tracked separately: **11 records** (10 typed bill rows and 1 non
 - **Recorded status:** 🟢 Active
 - **Date enacted:** Original moratorium predates 2025; extended by Local Law of 2025 (reported June 2025) and again by Local Law 3 of 2026
 - **Normalized date:** `2024` (year_only)
-- **Duration:** Extended through 2027-06-30 by Local Law 3 of 2026
+- **Duration:** July 1, 2026 reporting describes Local Law 3 as extending the commercial BESS moratorium through June 30, 2027; filed terms and effectiveness remain unverified.
 - **Current end date:** `—`
 - **Sectors:** battery storage
 - **Moratorium ID:** `ny-busti-2024`
@@ -420,7 +420,7 @@ State policy is tracked separately: **11 records** (10 typed bill rows and 1 non
 - **What prompted it:** Awaiting NYSERDA BESS safety working group final report; town amending land use regulations
 - **Affected projects:** —
 - **Detailed status:** July 1 reporting describes approval at the preceding Monday meeting, June 29, and identifies Local Law 3 of 2026 as extending the commercial BESS moratorium through June 30, 2027. The meeting date is inferred from the dated report; filed text, effectiveness and later action remain unverified. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
-- **Outcome:** Commercial BESS moratorium, repeatedly extended; most recently through June 30, 2027.
+- **Outcome:** Commercial BESS moratorium; July 2026 reporting describes an extension through June 30, 2027, subject to verification of filed law and later action.
 
 ### Byron
 
