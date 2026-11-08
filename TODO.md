@@ -36,11 +36,15 @@ Plan: [Research modernization and ballot-measure expansion](docs/research-and-ba
 
 Closeout execution order: [November refresh closeout](docs/release-closeout.md). This preserves the full requirement scope and sequences remaining review, final data freeze, copy/consumer reconciliation, publication and deployment verification.
 
-Latest repair: [controlled model transport](docs/controlled-model-transport.md)
-has persistent HTTP ceilings and six passing mock-transport tests; all 248 project
-tests and 42 subtests pass. Shared bc-llm retry fix is isolated at `d5acda10`.
-The installed runtime remains unchanged; no new paid extraction or canonical
-promotion occurred. Full extraction-quality and P2/P4 gates remain open.
+Current [controlled model transport](docs/controlled-model-transport.md)
+retains private pre-validation HTTP bodies, persistent reservations and scoped
+descriptor hashes. The latest focused run passed 61 tests and 54 subtests after
+separating extractor boundary accounting from end-to-end completeness. The
+preceding independent run passed 70 tests and 54 subtests; the final small packet
+change still needs independent re-review. The original six-test / 248-project-test
+checkpoint is historical. Shared bc-llm retry fix remains isolated at `d5acda10`;
+no runtime installation or new paid evaluation occurred in these increments.
+Verified journal integration, semantic evaluation and P2/P4 acceptance remain open.
 
 Composed-support development: [checkpoint](docs/extraction-support-development.md)
 records transport schema 1.1.0, two distributed terra CLI reviews, preservation
