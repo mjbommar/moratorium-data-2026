@@ -22,9 +22,9 @@ Output replacement is atomic per file, not as a multi-file transaction; run
 - `receipt.json` gives input fingerprints, partition counts and IDs, and hashes
   of the three CSVs. The receipt cannot contain its own hash.
 
-The current registry explicitly includes 201 observations, excludes seven, leaves
-25 reviewed-unresolved, and leaves 214 unreviewed. The exploratory candidate
-pool has 440 observations; only the 201 explicit inclusions belong to the reviewed
+The current registry explicitly includes 374 observations, excludes 19, leaves
+54 reviewed-unresolved, and leaves zero unreviewed. The exploratory candidate
+pool has 428 observations; only the 374 explicit inclusions belong to the reviewed
 scope view. These are observations, not necessarily unique instruments.
 
 The existing `md-hb0293-sb0056-2026` exclusion concerns secure student/workforce
@@ -60,3 +60,7 @@ writing a candidate. Offline verification repeats the check in the restored
 tree; historical candidates without the exporter retain their prior behavior.
 
 The [next 90-record wave](../work/research/2026-11-08/policy-scope-wave3-reconciliation/README.md) adds 76 includes, two excludes and 12 unresolved decisions. Its source routing includes the previously retained Indiana bill and signed Maryland order; neither required a new source to establish scope.
+
+The [third 90-record follow-up](../work/research/2026-11-08/policy-scope-wave4-reconciliation/README.md) adds 73 includes, three excludes and 14 unresolved decisions, retaining all raw observations and remaining applicability gaps.
+
+The [final 124-record wave](../work/research/2026-11-08/policy-scope-wave5-reconciliation/README.md) adds 100 includes, nine excludes and 15 unresolved decisions. Every raw observation now has a scope disposition; freshness and current-force review remain separate and incomplete.

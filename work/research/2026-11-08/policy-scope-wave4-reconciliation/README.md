@@ -1,0 +1,7 @@
+# Third 90-record policy scope wave
+
+Applied 90 additional source-backed scope decisions after separate Terra primary and independent reviews: **73 include, three exclude and 14 unresolved**. Coordinator checks cover all 90 current row/identity guards and 136 source-body/text/passage references. All 447 raw rows remain unchanged. Current partitions are **274 included / ten excluded / 39 unresolved / 124 unreviewed**; the 437-observation exploratory pool is not a reviewed or deduplicated census.
+
+Nevada AB 458 changes solar-powered housing/net-metering rules rather than the reproduced data-center exception; Nevada AB 509 governs broadband rights-of-way; Ohio HB 695 regulates official confidentiality across governmental matters. These different objects are excluded from this infrastructure scope. The remaining unresolved measures have specific generic-load, incorporated-definition, version or source-availability questions, not keyword-only negative findings. Companion and composite observations remain intact, without assuming all components have identical terms.
+
+[Application](application.json) pins the registry append and decisions. [Source checks](source-checks.json) retain URL, body hash and locator references; bodies and detailed reviews remain private. This wave used retained evidence and no new source/search calls. Scope review does not establish enactment, current force, all-record freshness or final release readiness.

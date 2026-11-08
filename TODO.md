@@ -23,6 +23,8 @@ precedence over its execution strategy. The initial 100-record Terra cohort has 
 
 ## Process-reset increments
 
+- [x] Apply a third 90-record scope follow-up: 73 include, three exclude, 14 unresolved; 323 of 447 observations now have explicit scope decisions ([receipt](work/research/2026-11-08/policy-scope-wave4-reconciliation/README.md)).
+
 - [x] Apply another 90 policy-scope decisions; current partitions 201 included, seven excluded, 25 unresolved and 214 unreviewed ([receipt](work/research/2026-11-08/policy-scope-wave3-reconciliation/README.md)).
 - [x] Publish Augusta’s source-backed notice-only question with unknown sector and no result/ordinance link; canonical total 54 ([receipt](work/research/2026-11-08/augusta-notice-publication/README.md)).
 - [x] Verify audit-local render reuse against all 586 historical publication proofs; 314 render requests require 110 actual renders, with unchanged proofs ([verification](work/research/2026-11-08/visual-render-reuse/README.md)).
@@ -626,3 +628,5 @@ Exit: repeatable refresh with visible freshness, costs, failures and unresolved 
 - [x] Independently assess 95 Louisiana policy fields and apply 21 guarded corrections, preserving HCR finality/version and current-law gaps ([review](work/research/2026-11-07/louisiana-policy-source-review/README.md)).
 - [x] Complete 78-field, three-record overdue local source adjudication; apply ten cells in two rows with recomputed verification metadata, and retain all three unresolved whole-record dispositions and specific follow-ups ([review](work/research/2026-11-07/overdue-local-record-review/README.md)). This does not close the full local freshness requirement.
 - [x] Re-observe Conneaut, Granville and Pataskala through native Exa/SerpAPI and official result sources; independently confirm unchanged reported figures and preserve unverified certification/implementation ([review](work/research/2026-11-07/ohio-result-reobservation/README.md)).
+
+- [x] Complete explicit scope dispositions for all 447 policy observations: 374 include, 19 exclude, 54 unresolved, zero unreviewed. This closes scope triage only; per-record freshness, P4 and final release remain open. See `work/research/2026-11-08/policy-scope-wave5-reconciliation/`.
