@@ -1,18 +1,10 @@
 {
-  "observed_at": "2026-11-08T02:46:44.390536+00:00",
+  "observed_at": "2026-11-08T03:02:16.239263+00:00",
   "snapshot_at_accounting": "728c844addfe2c1ca8ec08bfe01480d8e2289f4c2f20faf1032a918f289b006a",
   "current_measure_count": 53,
   "primary_per_axis_review_count": 53,
-  "independent_bounded_per_axis_return_count": 46,
-  "remaining_measure_ids": [
-    "f03cb5ab-72d5-46cc-a493-81f0f8279b43",
-    "f447f7d9-53fe-49bf-ac3a-dec05cd3a7a0",
-    "fa3817b8-b2d7-48d5-abc3-ac179fad4632",
-    "fb48b72d-58bc-4b3d-a635-3117192ff57b",
-    "fd0aaef5-9562-4deb-855c-540eec59c62a",
-    "febb373a-2ff7-42e5-940a-30c76ed19266",
-    "ff4589e6-f043-4067-a547-7711ecd79ed2"
-  ],
+  "independent_bounded_per_axis_return_count": 53,
+  "remaining_measure_ids": [],
   "batches": [
     {
       "side": "first26",
@@ -179,12 +171,39 @@
       "bounded_per_axis_review_returned": true,
       "report_sha256": "06d73f504ca5dfb467b5bd18d105ad22ab1e3f38d85f7d338a74a656c0d86730",
       "final_all_claim_acceptance": false
+    },
+    {
+      "side": "last27",
+      "batch": 6,
+      "measure_ids": [
+        "f03cb5ab-72d5-46cc-a493-81f0f8279b43",
+        "f447f7d9-53fe-49bf-ac3a-dec05cd3a7a0",
+        "fa3817b8-b2d7-48d5-abc3-ac179fad4632",
+        "fb48b72d-58bc-4b3d-a635-3117192ff57b"
+      ],
+      "assigned_count": 4,
+      "bounded_per_axis_review_returned": true,
+      "report_sha256": "f4c52f8fd85699d2c2973649eafd90db529506eb2966b6fbe2f8c4ffac338667",
+      "final_all_claim_acceptance": false
+    },
+    {
+      "side": "last27",
+      "batch": 7,
+      "measure_ids": [
+        "fd0aaef5-9562-4deb-855c-540eec59c62a",
+        "febb373a-2ff7-42e5-940a-30c76ed19266",
+        "ff4589e6-f043-4067-a547-7711ecd79ed2"
+      ],
+      "assigned_count": 3,
+      "bounded_per_axis_review_returned": true,
+      "report_sha256": "bfdc5d8c0a098cad874e3541a5bb7d73660f3fe3f4d4b78af46e659f39414bd5",
+      "final_all_claim_acceptance": false
     }
   ],
   "limitations": [
-    "Per-axis review can remain unresolved; this is not final legal-force, certification or all-claim acceptance.",
-    "Some original provenance/claim gaps remain beyond returned bounded reviews; source availability and logs must not be inferred from a hash index alone.",
-    "Earlier reports retain their original snapshot and acquisition dates; rereading does not renew source currentness."
+    "All current IDs have bounded per-axis reviews; this is not final claim acceptance, current legal force, certification closure, or a complete national election census.",
+    "Specific provenance, wording, final-ballot, certification/recount and implementation gaps remain for coordinator adjudication.",
+    "The larger earlier26/27partial jobs are excluded from completion accounting. Source acquisition dates remain separate from review times."
   ],
   "mechanical_provenance_supplement": "last27-batch4-provenance-supplement.json",
   "canonical_changes_from_this_accounting": 0,
