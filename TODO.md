@@ -2,6 +2,9 @@
 
 Plan: [Research modernization and ballot-measure expansion](docs/research-and-ballot-expansion-plan.md).
 
+- [x] Complete four disjoint retained-evidence primary lifecycle passes covering all 53 current measure IDs; correct two false source-availability gaps without changing legal status ([accounting](work/research/2026-11-07/ballot-full-lifecycle-review/README.md)).
+- [ ] Complete independent/coordinator review of all 53 lifecycle entries and reconcile specific certification, implementation and frozen-seed requirements; primary-pass coverage is not final freshness acceptance.
+
 - [x] Apply 62 adjudicated Michigan fields across all 14 existing records after 266 field assessments; preserve 205 verified source spans, 32 native mappings, two held values and explicit later-history/current-force gaps. [Packet](work/research/2026-11-07/michigan-policy-source-review/README.md).
 
 - [x] Apply 22 adjudicated New York BESS cells with full guards and recomputed annotations; retain four unresolved records and the explicit Aurora original-source gap. [Packet](work/research/2026-11-07/ny-battery-record-review/README.md).
