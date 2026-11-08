@@ -307,7 +307,8 @@ def reconcile(*, run_dir, http_dir, source_body, expected_context, expected_http
                 reservations[ident] = row
                 mr = expected_capture_policy.get('max_request_bytes') if isinstance(expected_capture_policy, dict) else None
                 ms = expected_capture_policy.get('max_response_bytes') if isinstance(expected_capture_policy, dict) else None
-                if (set(row) != reservation_fields or row.get('request_capture_complete') is not True or
+                if (set(row) not in (reservation_fields, reservation_fields | {'endpoint_contract'}) or row.get('request_capture_complete') is not True or
+                    ('endpoint_contract' in row and (row['endpoint_contract'] != 'openai-official-responses-https-1' or (row.get('method'), row.get('scheme'), row.get('host'), row.get('port')) != ('POST','https','api.openai.com',None))) or
                     type(row.get('wire_request_bytes')) is not int or type(mr) is not int or not 0 <= row['wire_request_bytes'] <= mr or
                     row.get('response_capacity_bytes') != ms or not ishex(row.get('wire_request_sha256'),64) or
                     (row.get('logical_invocation_id') is not None and not ishex(row['logical_invocation_id'],32)) or
@@ -397,7 +398,7 @@ def reconcile(*, run_dir, http_dir, source_body, expected_context, expected_http
                         output_state = 'non_success_http_output_unknown'
                 except (OSError, ValueError, TypeError):
                     output_state = 'malformed_ambiguous_or_unverified'
-            result['http_attempts'].append(dict(attempt_id=ident, logical_invocation_id=lid, request_descriptor_sha256=row.get('request_descriptor_sha256'), linkage=linkage, disposition=disposition, status=t.get('status') if t else None, raw_output_state=output_state))
+            result['http_attempts'].append(dict(attempt_id=ident, logical_invocation_id=lid, request_descriptor_sha256=row.get('request_descriptor_sha256'), linkage=linkage, disposition=disposition, status=t.get('status') if t else None, raw_output_state=output_state, endpoint_contract=row.get('endpoint_contract')))
         for logical in result['logical_invocations']:
             ids = logical['http_attempt_ids']; uid = logical['unit_id']
             if logical['status'] == 'succeeded':

@@ -1,0 +1,28 @@
+{
+  "disposition": "independent_accept_bounded_endpoint_wire_and_storage_fixture_increment",
+  "code_sha256": {
+    "scripts/controlled_model_transport.py": "acbe695ffc19c9f7968fe98a9b72e94ba4aa025ef6a80667a48d00ed969637ed",
+    "scripts/native_rule_unit_journal_adapter.py": "98e6f18cecb654503df89fbe666ebe548dc992d8ec68e61dea8705702158f050",
+    "scripts/native_rule_unit_wire_contract.py": "9b71f1feb024d3a77e02fc8e71b1282cd22bfbcb0deb2c4f774ae735eff7d547",
+    "tests/test_native_rule_unit_wire_contract.py": "0106c06db7f7ddf49bcd41ce4e5e7dca4b00dcf24c6faad694e4916800bb597d",
+    "tests/test_storage_pipeline.py": "0beca448e6b8c01f2912c718a1ddbd5c6513498cc13da6f3192ea175eeead318"
+  },
+  "independent_normalization_review_sha256": "469bba9d1edb26f0f9640dbe01be4e63f81651f31d5fe319cf123c58f41bc824",
+  "independent_storage_report_sha256": "1c71fd4e8fcbb865d3821181b24c880592719fd0bb8b95bf2d0cb6e016e0b605",
+  "independent_tests_log_sha256": "049551d7af8b85aca1926fee6424115be28c7462d9350e2417d7fb8b9ea7d092",
+  "selected_offline_suites": 10,
+  "tests_passed": 108,
+  "failures": 0,
+  "errors": 0,
+  "reported_skips": 0,
+  "real_model_quality_evaluation": false,
+  "p4_complete": false,
+  "profile": "native-rule-unit-default-spec-offline-1",
+  "limitations": [
+    "Normalized requested-address observation, not provider authentication or original URL spelling.",
+    "Default ModelSpec, native output, empty extractor settings, no tools/attachments/retries and pinned native serialization only.",
+    "Historical model-only contexts lack frozen profile/spec and remain unverified.",
+    "Caller must independently anchor frozen context and observed request bytes.",
+    "Trusted pre-dispatch witnessing, full-history/prospective audit integration, source/role semantics, calibration and fresh holdout remain open."
+  ]
+}

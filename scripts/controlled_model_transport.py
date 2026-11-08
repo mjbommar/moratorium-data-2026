@@ -187,8 +187,11 @@ class ControlledModelTransport:
             if not isinstance(ident, str) or len(ident) != 32 or any(c not in '0123456789abcdef' for c in ident):
                 raise ValueError("Invalid HTTP attempt ID")
             if row['state'] == 'reserved':
-                if set(row) != {'capture_format', 'request_capture_complete', 'wire_request_sha256', 'wire_request_bytes', 'request_body_file', 'request_descriptor_sha256', 'logical_invocation_id', 'response_capacity_bytes', 'response_pending_file', 'journal_reservation_file', 'state', 'attempt_id', 'method', 'scheme', 'host', 'port', 'observed_at'}:
+                fields = {'capture_format', 'request_capture_complete', 'wire_request_sha256', 'wire_request_bytes', 'request_body_file', 'request_descriptor_sha256', 'logical_invocation_id', 'response_capacity_bytes', 'response_pending_file', 'journal_reservation_file', 'state', 'attempt_id', 'method', 'scheme', 'host', 'port', 'observed_at'}
+                if set(row) not in (fields, fields | {'endpoint_contract'}):
                     raise ValueError('Invalid reservation fields')
+                if 'endpoint_contract' in row and (row['endpoint_contract'] != 'openai-official-responses-https-1' or (row.get('method'), row.get('scheme'), row.get('host'), row.get('port')) != ('POST', 'https', 'api.openai.com', None)):
+                    raise ValueError('Invalid endpoint contract')
                 if any(r not in terminals for r in reservations):
                     raise ValueError('Invalid HTTP ledger ordering')
                 method, scheme, host, port = row['method'], row['scheme'], row['host'], row['port']
@@ -373,6 +376,10 @@ class ControlledModelTransport:
                 "scheme": scheme, "host": host, "port": port,
                 "observed_at": datetime.now(timezone.utc).isoformat(),
             }
+            from native_rule_unit_wire_contract import endpoint_contract
+            endpoint = endpoint_contract(request)
+            if endpoint is not None:
+                event['endpoint_contract'] = endpoint
             # Response fields have fixed maximum widths. The response count can
             # never exceed the capacity and status is constrained to three digits.
             response_bound = {

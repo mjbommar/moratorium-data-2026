@@ -2,6 +2,8 @@
 
 Plan: [Research modernization and ballot-measure expansion](docs/research-and-ballot-expansion-plan.md).
 
+- [x] Independently verify normalized endpoint observation, default-profile native wire comparison and strict storage fixture reconciliation; 108 tests pass across ten offline suites ([development receipt](work/research/2026-11-07/native-wire-contract-development/README.md)). Full P4 witnessing, integration, semantics and fresh calibration/holdout remain open.
+
 - [x] Apply eight independently adjudicated Alabama prose corrections under full-row guards, retain the rejected project-absence change, and recompute verification metadata; six reviewed native source bodies verified ([packet](work/research/2026-11-07/alabama-prose-reconciliation/README.md)). Present force and full freshness remain unresolved.
 
 - [x] Complete finite retained-evidence coordinator dispositions for all 53 ballot records, retaining exact authority holds and separately routing material proposals ([accounting](work/research/2026-11-07/ballot-full-lifecycle-review/coordinator-disposition-progress.json)); freshness, certification/implementation and frozen-seed closure remain open.

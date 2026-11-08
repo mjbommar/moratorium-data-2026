@@ -1,0 +1,9 @@
+# Native endpoint and wire comparison development increment
+
+The transport records a safe fixed identifier for the observed normalized official Responses request address. Empty normalized userinfo does not prove that the original URL lacked an empty `@` delimiter; the requested address does not authenticate the provider, TLS peer, proxy or history. Unknown addresses remain unverified, and old capture-3 records acquire no retrospective identity.
+
+The offline comparison helper rebuilds the frozen source/context and invokes the actual pinned native PydanticAI/OpenAI serializer through MockTransport with dummy credentials. It compares the complete strict typed request JSON, including SDK schema transformations. The explicit prospective profile supports the default ModelSpec, native output, empty extractor settings, no tools/attachments and no retries. Unsupported or historical model-only contexts fail closed. It accepts no caller-supplied expectation bytes; it still requires an independently anchored context and observed request.
+
+Independent review accepted the normalization correction, storage fixture reconciliation and selected local regressions. Ten offline suites passed **108 tests with no failures, errors or reported skips**. The [verification receipt](verification.json) binds code and private evidence hashes. The obsolete storage tests were repaired to require admitted storage and reject insufficient response capacity before dispatch, while retaining charges and covering competing writes, partial responses, post-dispatch journal failure and blocked reuse. Production storage semantics were preserved.
+
+This is a bounded development component. Trusted pre-dispatch witnessing, complete history and prospective audit integration, source/role semantics, calibration and fresh holdout remain unfinished. No P4 or real-model quality acceptance follows from these local tests.

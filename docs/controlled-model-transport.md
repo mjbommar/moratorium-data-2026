@@ -84,4 +84,41 @@ The preceding [capture development packet](../work/research/2026-11-07/controlle
 
 Independent verification accepted the bounded reader fixes after nine fresh synthetic replay scenarios. Seven offline suites passed 88 tests and 60 subtests; the coordinator reran those suites successfully. Retained-file consistency is deliberately separate from complete historical dispatch/output accounting. Unobserved work and unknown cardinality remain incomplete, observed counts are lower bounds, and CLI incompleteness exits nonzero. The workspace threat model is cooperative, not protection against a hostile owner rewriting history.
 
-Endpoint identity, exact SDK wire serialization, prospective audit integration, source/role semantics, and fresh frozen calibration/holdout remain required. These offline checks do not establish model quality or P4 acceptance.
+End-to-end endpoint/wire verification, prospective audit integration, source/role semantics, and fresh frozen calibration/holdout remain required. These offline checks do not establish model quality or P4 acceptance.
+
+The bounded endpoint/wire increment records `openai-official-responses-https-1`
+only when the observed, normalized `httpx2.Request` is POST over HTTPS to
+`api.openai.com`, with the normalized default port, raw path exactly
+`/v1/responses` (including no query delimiter), and empty normalized userinfo.
+The library normalizes host case and explicit port 443; it also erases an empty
+userinfo delimiter, so an original `https://@api.openai.com/v1/responses` is
+indistinguishable at this boundary from the spelling without `@`. The original
+URL spelling cannot be reconstructed here; rejecting even an empty `@` would
+require validation of the original input at an earlier trusted boundary. This
+identifier observes the requested address; it does not authenticate the
+provider, TLS peer, DNS, proxy, or dispatch history. Other addresses, including
+nonempty userinfo or query, alternate ports, and other paths, remain unverified
+by this contract. No arbitrary path, query, userinfo or header is journaled.
+Unknown endpoints get no identifier. Old capture-3 reservations remain readable and
+charged but cannot acquire an endpoint identifier retrospectively. The reader
+exposes the observed identifier without treating it as an independently trusted
+pre-dispatch witness or declaring complete history.
+
+`native_rule_unit_wire_contract.compare_frozen_request` is an offline, async,
+per-request comparison helper, not prospective audit integration. It requires
+an independently frozen context whose model identity contains both `model` and
+`native_wire_profile: native-rule-unit-default-spec-offline-1`. This profile
+fixes native output, the default `ModelSpec`, empty extractor settings, no tools,
+no attachments, no retries and the source-pinned local SDK serialization path.
+It checks source bytes and rebuilds the context from the extractor, then invokes
+the real backend and SDK through an explicit dummy key and `MockTransport`.
+The entire emitted JSON is compared with strict type-sensitive JSON parsing;
+no fields are dropped, and SDK schema transformations are included. A mismatch
+returns false; malformed JSON, missing profile, changed source/context or SDK
+pins fail closed. The caller must independently anchor and supply the original
+frozen context and observed request bytes; the helper cannot authenticate either
+or establish that the profile was obeyed before dispatch. Existing contexts that
+only identify the model lack a frozen model specification and SDK profile and
+cannot be retroactively verified. No complete historical or P4 claim follows.
+
+The [endpoint/wire development receipt](../work/research/2026-11-07/native-wire-contract-development/README.md) records independent acceptance of this bounded component and storage-test reconciliation. Ten selected offline suites passed 108 tests, with no failures, errors or reported skips. This supersedes the two obsolete storage-fixture failures as a current test result, while preserving their historical logs. The prospective witnessing, integration and semantic/holdout gates above remain open.

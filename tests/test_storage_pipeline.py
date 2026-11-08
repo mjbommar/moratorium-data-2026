@@ -3,6 +3,7 @@ import fcntl
 import hashlib
 import json
 from pathlib import Path
+from unittest.mock import patch
 import sys
 import tempfile
 import unittest
@@ -79,35 +80,52 @@ class StoragePipelineTests(unittest.IsolatedAsyncioTestCase):
 
     async def test_http_policy_and_events_use_storage(self):
         with tempfile.TemporaryDirectory() as tmp:
-            class LockCheckingStorage(RecordingStorage):
-                def check_ledger_locked(self):
-                    with (Path(tmp) / 'http-attempts.private.jsonl').open('a+') as ledger:
-                        with self_test.assertRaises(BlockingIOError):
-                            fcntl.flock(ledger, fcntl.LOCK_EX | fcntl.LOCK_NB)
-
-                def save_json(self, path, value, **kwargs):
-                    self.check_ledger_locked()
-                    return super().save_json(path, value, **kwargs)
-
-                def append_jsonl_stream(self, stream, value):
-                    self.check_ledger_locked()
-                    return super().append_jsonl_stream(stream, value)
-
             self_test = self
-            store = LockCheckingStorage(PrivateRunStorage(tmp, 100_000))
+
+            class LockCheckingStorage(PrivateRunStorage):
+                def __init__(self, *args):
+                    self.reservations = []
+                    super().__init__(*args)
+
+                def _reserve(self, size):
+                    # A separate open description must not acquire either lock.
+                    with (self.root / '.storage.lock').open('r+') as lock:
+                        with self_test.assertRaises(BlockingIOError):
+                            fcntl.flock(lock, fcntl.LOCK_EX | fcntl.LOCK_NB)
+                    ledger_path = self.root / 'http-attempts.private.jsonl'
+                    if ledger_path.exists():
+                        with ledger_path.open('a+') as ledger:
+                            with self_test.assertRaises(BlockingIOError):
+                                fcntl.flock(ledger, fcntl.LOCK_EX | fcntl.LOCK_NB)
+                    self.reservations.append(size)
+                    return super()._reserve(size)
+
+            store = LockCheckingStorage(tmp, 100_000)
             audit = ControlledModelTransport(tmp, max_requests=1, context_sha256='0' * 64,
-                                             storage_policy=store)
+                                             storage_policy=store, max_response_bytes=64)
+            before_request = len(store.reservations)
             seen = []
             def handler(request):
                 seen.append(request)
-                return httpx2.Response(200)
+                return httpx2.Response(200, content=b'response')
             async with audit.client_factory(None, transport=httpx2.MockTransport(handler)) as client:
-                await client.post('https://example.invalid/model')
+                response = await client.post('https://example.invalid/model', content=b'request')
+            self.assertEqual(response.content, b'response')
             self.assertEqual(len(seen), 1)
-            self.assertEqual(store.writes, [('json', 'http-policy.private.json'),
-                                            ('event', 'reserved'), ('event', 'response')])
-            self.assertEqual([e['state'] for e in map(json.loads, audit.ledger.read_text().splitlines())],
-                             ['reserved', 'response'])
+            self.assertEqual(len(store.reservations), before_request + 1)
+            self.assertGreater(store.reservations[-1], len(b'request') + 64)
+            rows = [json.loads(line) for line in audit.ledger.read_text().splitlines()]
+            self.assertEqual([e['state'] for e in rows], ['reserved', 'response'])
+            self.assertEqual(rows[0]['response_capacity_bytes'], 64)
+            self.assertEqual((Path(tmp) / rows[0]['request_body_file']).read_bytes(), b'request')
+            self.assertEqual((Path(tmp) / rows[1]['response_body_file']).read_bytes(), b'response')
+            # Reserved capacity remains charged, including unused response bytes.
+            response_bound = dict(rows[1], response_capture_complete=False,
+                                  wire_response_sha256='f' * 64, wire_response_bytes=64,
+                                  status=999, observed_at='9999-12-31T23:59:59.999999+00:00')
+            remaining = len(audit._encoded(response_bound)) + 64 - len(b'response') - len(audit._encoded(rows[1]))
+            slot = Path(tmp) / rows[0]['journal_reservation_file']
+            self.assertEqual(slot.read_bytes(), bytes(remaining))
 
     async def test_http_reservation_rejection_prevents_request(self):
         with tempfile.TemporaryDirectory() as tmp:
@@ -126,7 +144,7 @@ class StoragePipelineTests(unittest.IsolatedAsyncioTestCase):
             self.assertEqual(seen, [])
             self.assertEqual(audit.ledger.read_text(), '')
 
-    async def test_http_response_rejection_retains_reservation(self):
+    async def test_http_response_capacity_rejection_prevents_dispatch(self):
         with tempfile.TemporaryDirectory() as tmp:
             store = PrivateRunStorage(tmp, 2000)
             audit = ControlledModelTransport(tmp, max_requests=1, context_sha256='0' * 64,
@@ -134,15 +152,86 @@ class StoragePipelineTests(unittest.IsolatedAsyncioTestCase):
             seen = []
             def handler(request):
                 seen.append(request)
-                used = sum(p.stat().st_size for p in Path(tmp).rglob('*') if p.is_file())
-                store.put_bytes('filler', b'x' * (store.max_bytes - used))
                 return httpx2.Response(200)
             async with audit.client_factory(None, transport=httpx2.MockTransport(handler)) as client:
                 with self.assertRaises(StorageBudgetExceeded):
                     await client.post('https://example.invalid/model')
+            self.assertEqual(seen, [])
+            self.assertEqual(audit.ledger.read_text(), '')
+            self.assertFalse(list(Path(tmp).glob('*-request.private.body')))
+            self.assertFalse(list(Path(tmp).glob('*-response.pending.private.body')))
+            self.assertFalse(list(Path(tmp).glob('*-journal-reservation.private.bytes')))
+
+    async def test_http_reserved_capacity_rejects_competing_write_after_dispatch(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            store = PrivateRunStorage(tmp, 10_000)
+            audit = ControlledModelTransport(tmp, max_requests=1, context_sha256='0' * 64,
+                                             storage_policy=store, max_response_bytes=64)
+            seen = []
+            def handler(request):
+                seen.append(request)
+                used = sum(p.stat().st_size for p in Path(tmp).rglob('*') if p.is_file())
+                # One byte beyond remaining space must be rejected before writing.
+                with self.assertRaises(StorageBudgetExceeded):
+                    store.put_bytes('filler', b'x' * (store.max_bytes - used + 1))
+                self.assertFalse((Path(tmp) / 'filler').exists())
+                return httpx2.Response(200, content=b'response')
+            async with audit.client_factory(None, transport=httpx2.MockTransport(handler)) as client:
+                response = await client.post('https://example.invalid/model')
+            self.assertEqual(response.content, b'response')
             self.assertEqual(len(seen), 1)
-            self.assertEqual([e['state'] for e in map(json.loads, audit.ledger.read_text().splitlines())],
-                             ['reserved'])
+            self.assertEqual([json.loads(line)['state'] for line in audit.ledger.read_text().splitlines()],
+                             ['reserved', 'response'])
+
+    async def test_http_response_journal_write_failure_retains_charge_and_blocks_retry(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            store = PrivateRunStorage(tmp, 100_000)
+            audit = ControlledModelTransport(tmp, max_requests=2, context_sha256='0' * 64,
+                                             storage_policy=store, max_response_bytes=64)
+            seen = []
+            def handler(request):
+                seen.append(request)
+                return httpx2.Response(200, content=b'response')
+            append = audit._append_reserved
+            def fail_response(stream, event, slot):
+                if event['state'] == 'response':
+                    raise OSError('injected response journal failure')
+                return append(stream, event, slot)
+            async with audit.client_factory(None, transport=httpx2.MockTransport(handler)) as client:
+                with patch.object(audit, '_append_reserved', side_effect=fail_response):
+                    with self.assertRaisesRegex(OSError, 'injected response journal failure'):
+                        await client.post('https://example.invalid/model', content=b'request')
+                with self.assertRaisesRegex(ValueError, 'unresolved reservation'):
+                    await client.post('https://example.invalid/model')
+            self.assertEqual(len(seen), 1)
+            rows = [json.loads(line) for line in audit.ledger.read_text().splitlines()]
+            self.assertEqual([e['state'] for e in rows], ['reserved'])
+            row = rows[0]
+            self.assertEqual((Path(tmp) / row['request_body_file']).read_bytes(), b'request')
+            self.assertEqual((Path(tmp) / (row['attempt_id'] + '-response.private.body')).read_bytes(), b'response')
+            self.assertGreaterEqual((Path(tmp) / row['journal_reservation_file']).stat().st_size, 64 - len(b'response'))
+            self.assertFalse((Path(tmp) / row['response_pending_file']).exists())
+
+    async def test_http_response_body_cap_persists_incomplete_capture(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            store = PrivateRunStorage(tmp, 100_000)
+            audit = ControlledModelTransport(tmp, max_requests=2, context_sha256='0' * 64,
+                                             storage_policy=store, max_response_bytes=4)
+            seen = []
+            def handler(request):
+                seen.append(request)
+                return httpx2.Response(200, content=b'12345')
+            async with audit.client_factory(None, transport=httpx2.MockTransport(handler)) as client:
+                with self.assertRaisesRegex(ValueError, 'response capture byte limit exceeded'):
+                    await client.post('https://example.invalid/model')
+                with self.assertRaisesRegex(ValueError, 'Incomplete response capture'):
+                    await client.post('https://example.invalid/model')
+            self.assertEqual(len(seen), 1)
+            rows = [json.loads(line) for line in audit.ledger.read_text().splitlines()]
+            self.assertEqual([row['state'] for row in rows], ['reserved', 'response'])
+            self.assertFalse(rows[1]['response_capture_complete'])
+            self.assertEqual(rows[1]['wire_response_bytes'], 4)
+            self.assertEqual((Path(tmp) / rows[1]['response_body_file']).read_bytes(), b'1234')
 
     def test_http_policy_rejection_does_not_write_policy(self):
         with tempfile.TemporaryDirectory() as tmp:
