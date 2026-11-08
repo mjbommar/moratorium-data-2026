@@ -35,6 +35,7 @@ validate:
 # Confirms generated artifacts match the CSVs. Use in CI: it fails if someone
 # edited a CSV without regenerating, or edited a generated file by hand.
 check: validate
+	$(PYTHON) scripts/build_policy_scope_exports.py --check
 	$(PYTHON) scripts/build_summary_stats.py --check
 	$(PYTHON) scripts/build_geojson.py --check
 	$(PYTHON) scripts/check_docs_numbers.py
@@ -81,6 +82,7 @@ apply:
 # ---------------------------------------------------------------------------
 
 data:
+	$(PYTHON) scripts/build_policy_scope_exports.py
 	$(PYTHON) scripts/build_summary_stats.py
 	$(PYTHON) scripts/build_geojson.py
 	$(PYTHON) -m scripts.generate_tables.inventory_clean

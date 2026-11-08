@@ -33,10 +33,13 @@ import sys
 from collections import Counter
 from pathlib import Path
 
+from policy_scope_reviews import INFRASTRUCTURE_SCOPE, OUTCOMES, partition_reviews
+
 REPO = Path(__file__).resolve().parents[1]
 INV = REPO / "data" / "moratorium_inventory.csv"
 LEG = REPO / "data" / "state_legislation.csv"
 STATS = REPO / "data" / "summary_stats.json"
+SCOPE_REGISTRY = REPO / "data" / "state_policy_scope_reviews.jsonl"
 SWEEP = REPO / "data" / "sweep_coverage.json"
 STATES_DIR = REPO / "states"
 
@@ -69,6 +72,8 @@ def build() -> dict:
     leg = load(LEG)
     previous = json.loads(STATS.read_text(encoding="utf-8")) if STATS.exists() else {}
     prev_details = previous.get("state_details", {})
+
+    scope_partitions = partition_reviews(leg, SCOPE_REGISTRY, scope=INFRASTRUCTURE_SCOPE)
 
     inv_by_state = Counter(r["state"] for r in inv)
     leg_by_state = Counter(r["state"] for r in leg)
@@ -136,6 +141,13 @@ def build() -> dict:
         "total_local_moratoria": len(inv),
         "total_state_bills": len(bill_rows),
         "total_state_policy_actions": len(leg),
+        "policy_scope_review": {
+            "analytical_scope": INFRASTRUCTURE_SCOPE,
+            "raw_observation_count": len(leg),
+            "partition_counts": {name: len(scope_partitions[name]) for name in OUTCOMES},
+            "candidate_pool_not_explicitly_excluded_count": len(leg) - len(scope_partitions["reviewed_exclude"]),
+            "caveat": "Candidate rows are not reviewed inclusion; observations are not unique instruments and scope review does not establish freshness or current force.",
+        },
         "state_policy_instrument_type_counts": dict(sorted(Counter(r.get("policy_instrument_type", "bill") for r in leg).items())),
         "states_by_activity_level": dict(
             Counter(state_details[s]["activity_level"] for s in ALL_STATES).most_common()

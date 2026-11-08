@@ -26,6 +26,7 @@ PAGES: list[tuple[str, str, str, int]] = [
     ("docs/known-gaps.md",   "docs/known-gaps.html",   "Known gaps and limitations", 1),
     ("docs/expanded-promotion.md", "docs/expanded-promotion.html", "Expanded publication", 1),
     ("docs/expanded-data-contracts.md", "docs/expanded-data-contracts.html", "Expanded data contracts", 1),
+    ("docs/policy-scope-exports.md", "docs/policy-scope-exports.html", "State-policy scope exports", 1),
     ("docs/policy-succession-contract.md", "docs/policy-succession-contract.html", "Policy succession", 1),
     ("docs/expanded-identity-registry.md", "docs/expanded-identity-registry.html", "Expanded identities", 1),
     ("docs/ballot-results.md", "docs/ballot-results.html", "Reviewed ballot results", 1),

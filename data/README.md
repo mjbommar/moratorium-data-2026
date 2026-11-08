@@ -6,13 +6,27 @@ Canonical records and reproducible derived downloads for this project.
 
 | File | What it is | Size | Format |
 |------|------------|------|--------|
-| [`moratorium_inventory.csv`](moratorium_inventory.csv) | 1330 local-moratorium records. **Start here.** | 1,697,371 bytes | CSV |
+| [`moratorium_inventory.csv`](moratorium_inventory.csv) | 1330 local-moratorium records. **Start here.** | 1,698,568 bytes | CSV |
 | [`state_legislation.csv`](state_legislation.csv) | 447 state-policy records; mechanisms and legal effects vary | 311,312 bytes | CSV |
-| [`state_policy_scope_reviews.jsonl`](state_policy_scope_reviews.jsonl) | Reviewed analytical scope decisions; historical policy rows retained, no automatic filtering | 1,744 bytes | JSONL |
-| [`summary_stats.json`](summary_stats.json) | Top-level aggregates (counts by state, by status, etc.) | 14,786 bytes | JSON |
+| [`state_policy_scope_reviews.jsonl`](state_policy_scope_reviews.jsonl) | Reviewed analytical scope decisions; raw rows retained, applied by the separate scope exports | 1,744 bytes | JSONL |
+| [`summary_stats.json`](summary_stats.json) | Top-level aggregates (counts by state, by status, etc.) | 15,298 bytes | JSON |
 | [`structured_extractions.jsonl`](structured_extractions.jsonl) | 864 lines: 526 successful clause extractions + 338 LLM-call errors retained for transparency | ~2 MB | JSONL |
 | [`clause_extraction_analysis.json`](clause_extraction_analysis.json) | Pre-computed clause prevalence statistics for the n=348 cohort (confidence ≥ 0.4) | ~7 KB | JSON |
 | [`moratorium-extraction.json`](moratorium-extraction.json) | JSON Schema describing the 60-field extraction format | ~25 KB | JSON Schema |
+
+## State-policy scope downloads
+
+The raw state-policy CSV retains all historical observations, including one
+reviewed exclusion concerning secure student/workforce research data. Use the
+[reviewed inclusion export](policy-scope/reviewed-included.csv) for explicitly
+accepted infrastructure scope; it currently contains headers only. The
+[annotated raw view](policy-scope/all-annotated.csv) preserves all 447 observations
+with their scope-review status. The
+[candidate pool](policy-scope/not-explicitly-excluded-candidates.csv) contains
+446 unreviewed observations after the known exclusion; it is not an accepted
+infrastructure census. These counts concern historical observations, not unique
+instruments or verified current law. The [receipt](policy-scope/receipt.json)
+pins inputs, partitions and output hashes; see the [export contract](../docs/policy-scope-exports.md).
 
 ## Column definitions
 
@@ -43,7 +57,8 @@ print(in_force["state"].value_counts())
 **Filter to data-center-only moratoria (Python):**
 
 ```python
-df_dc = df[df["trigger"].str.contains("data center", case=False, na=False)]
+import json
+df_dc = df[df["sectors"].map(lambda value: "data_center" in json.loads(value))]
 ```
 
 **Just the headline numbers (any tool):** Read `summary_stats.json`. It has total counts, top-states list, and per-state aggregate stats including the `enacted_status_breakdown` field — useful for embedding live values in dashboards or articles.
@@ -74,7 +89,7 @@ The September 23, 2026 edition is a historical baseline. The November refresh is
 ## Reviewed ballot records
 
 Canonical expanded records cover 53 reviewed proposal and measure records (51 frozen-cohort publications, Jay's solar ballot and a separate Wilmington litigated initiative) across held or intended election dates,
-with 57 retained result observations and explicit supersession. Five additional
+with 61 retained result observations and explicit supersession. Five additional
 frozen candidate groups remain unresolved; see the [gap dispositions](../docs/known-gaps.md#ballot-candidates-retained-outside-the-reviewed-publication).
 Certification and legal implementation remain separate, record-specific findings.
 [The generated results view](../docs/ballot-results.md) supplies current record and
@@ -89,7 +104,7 @@ pointer and its `data/expanded-snapshots` target must travel together.
 
 ## Expanded CSV downloads
 
-The current source generation selects [validation profile 1.0.2](../docs/event-validity-publication.md), with five explicitly reviewed historical events. Separate retained, current-accepted and status event exports distinguish review state; none is a current-force timeline.
+The current source generation selects [validation profile 1.0.4](../work/schemas/expanded/1.0.4.json). Separate retained, current-accepted and status event exports distinguish review state; none is a current-force timeline.
 
 Instrument-event rows describe source-supported historical actions. An `effective`
 event does not establish current legal force; original expected endpoints do not

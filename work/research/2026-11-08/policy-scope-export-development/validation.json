@@ -1,0 +1,34 @@
+{
+  "scope": "Scoped development and export integration only; full release, source freshness, current force and seven-consumer integration remain open.",
+  "raw_policy_rows": 447,
+  "partition_counts": {
+    "reviewed_include": 0,
+    "reviewed_exclude": 1,
+    "reviewed_unresolved": 0,
+    "unreviewed": 446
+  },
+  "input_sha256": {
+    "data/state_legislation.csv": "a7a922782673a03ff4141e5ebbc86a08264174a701dbee705a9c0f746b2c465f",
+    "data/state_policy_scope_reviews.jsonl": "5e23a040090e8b9e487ef179d7d45f618edc4ee00850a5bc5c705b847f398803",
+    "data/moratorium_inventory.csv": "95f99c6b62d18efbf8671e1d3d0a861e3c11764fff1a3d9fe4a7910e419c7e24"
+  },
+  "focused_tests": {
+    "run": 37,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "current_tree_scope_verification": {
+    "status": "verified",
+    "outputs": 4,
+    "summary": "verified"
+  },
+  "independent_initial_verdict": "MODIFY; three findings fixed and coordinator checked",
+  "full_check_before_bounded_fixes": {
+    "exit_code": 0,
+    "errors": 0,
+    "warnings": 505,
+    "documented_numbers": 68
+  },
+  "restored_real_bundle_verified": false
+}

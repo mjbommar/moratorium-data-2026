@@ -1,0 +1,246 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>State-policy scope exports · Moratorium Nation</title>
+<meta name="description" content="State-policy scope exports — Moratorium Nation, the open dataset and working paper on local-government moratoria targeting data centers, battery storage, solar, wind, and cryptocurrency mining across the United States.">
+<style>
+  :root {
+    --ink: #0f1419;
+    --ink-soft: #4a5460;
+    --bg: #fafaf7;
+    --accent: #1f6feb;
+    --line: #d8dadc;
+    --code-bg: #f3f3ee;
+  }
+  * { box-sizing: border-box; }
+  html, body {
+    margin: 0;
+    font-family: ui-sans-serif, system-ui, -apple-system, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: var(--ink);
+    background: var(--bg);
+    line-height: 1.6;
+    font-size: 16px;
+  }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+
+  .topbar {
+    background: white;
+    border-bottom: 1px solid var(--line);
+    padding: 12px 24px;
+  }
+  .topbar-inner {
+    max-width: 920px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 16px;
+    flex-wrap: wrap;
+  }
+  .topbar a.brand {
+    font-weight: 600;
+    color: var(--ink);
+    font-size: 15px;
+    letter-spacing: -0.01em;
+  }
+  .topbar a.brand:hover { text-decoration: none; color: var(--accent); }
+  .topbar nav {
+    display: flex;
+    gap: 18px;
+    font-size: 14px;
+  }
+  .topbar nav a { color: var(--ink-soft); }
+  .topbar nav a:hover { color: var(--accent); }
+
+  main.doc {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 36px 24px 80px;
+  }
+  main.doc .breadcrumb {
+    font-size: 13px;
+    color: var(--ink-soft);
+    margin-bottom: 20px;
+  }
+  main.doc h1 {
+    font-size: clamp(26px, 3.4vw, 36px);
+    line-height: 1.2;
+    letter-spacing: -0.02em;
+    margin: 0 0 14px;
+  }
+  main.doc h2 {
+    font-size: 22px;
+    margin: 36px 0 10px;
+    letter-spacing: -0.01em;
+    line-height: 1.3;
+  }
+  main.doc h3 {
+    font-size: 17px;
+    margin: 26px 0 8px;
+    line-height: 1.3;
+  }
+  main.doc h4 {
+    font-size: 15px;
+    margin: 22px 0 6px;
+    color: var(--ink-soft);
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+  }
+  main.doc p, main.doc ul, main.doc ol {
+    margin: 0 0 14px;
+  }
+  main.doc ul, main.doc ol {
+    padding-left: 24px;
+  }
+  main.doc li { margin: 4px 0; }
+  main.doc blockquote {
+    border-left: 3px solid var(--accent);
+    margin: 14px 0;
+    padding: 6px 16px;
+    color: var(--ink-soft);
+    background: white;
+    border-radius: 0 6px 6px 0;
+  }
+  main.doc blockquote p { margin: 4px 0; }
+  main.doc code {
+    background: var(--code-bg);
+    border-radius: 3px;
+    padding: 1px 5px;
+    font-size: 0.92em;
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  }
+  main.doc pre {
+    background: var(--code-bg);
+    border: 1px solid var(--line);
+    border-radius: 6px;
+    padding: 12px 14px;
+    overflow-x: auto;
+    font-size: 13px;
+    line-height: 1.5;
+    margin: 14px 0;
+  }
+  main.doc pre code {
+    background: transparent;
+    padding: 0;
+  }
+  main.doc hr {
+    border: none;
+    border-top: 1px solid var(--line);
+    margin: 30px 0;
+  }
+  main.doc img {
+    max-width: 100%;
+    border-radius: 6px;
+    border: 1px solid var(--line);
+  }
+  main.doc table {
+    border-collapse: collapse;
+    margin: 16px 0;
+    width: 100%;
+    font-size: 14px;
+    overflow-x: auto;
+    display: block;
+  }
+  main.doc table thead {
+    background: white;
+  }
+  main.doc table th, main.doc table td {
+    border: 1px solid var(--line);
+    padding: 8px 10px;
+    text-align: left;
+    vertical-align: top;
+  }
+  main.doc table th {
+    font-weight: 600;
+    background: white;
+  }
+  main.doc table tbody tr:nth-child(even) td {
+    background: white;
+  }
+
+  footer {
+    border-top: 1px solid var(--line);
+    padding: 24px;
+    text-align: center;
+    color: var(--ink-soft);
+    font-size: 13px;
+  }
+  footer a { color: var(--ink-soft); }
+  footer a:hover { color: var(--accent); }
+</style>
+</head>
+<body>
+
+<div class="topbar">
+  <div class="topbar-inner">
+    <a class="brand" href="../index.html">Moratorium Nation</a>
+    <nav>
+      <a href="../index.html">Map</a>
+      <a href="../states/index.html">States</a>
+      <a href="../docs/ballot-results.html">Ballots</a>
+      <a href="../docs/FAQ.html">FAQ</a>
+      <a href="../docs/methodology.html">Methodology</a>
+      <a href="../paper/moratorium-nation-2026-04-30.pdf">Paper</a>
+      <a href="https://github.com/mjbommar/moratorium-data-2026">GitHub</a>
+    </nav>
+  </div>
+</div>
+
+<main class="doc">
+  <div class="breadcrumb"><a href="../index.html">Home</a> / Docs</div>
+  <h1 id="policy-scope-exports">Policy-scope exports</h1>
+<p><code>scripts/build_policy_scope_exports.py</code> reads <code>data/state_legislation.csv</code> and
+<code>data/state_policy_scope_reviews.jsonl</code> and produces deterministic files in
+<code>data/policy-scope/</code>. Run the script to regenerate and add <code>--check</code> to verify
+all bytes and the exact file set. Unexpected files cause an error and are not
+removed. The receipt hashes inputs and each CSV, records each partition's IDs,
+and has no generation timestamp. A missing registry has a null hash and means
+all observations are unreviewed. Invalid IDs, metadata collisions, invalid
+review history, stale identity guards, and incompatible active scope fail closed.
+Output replacement is atomic per file, not as a multi-file transaction; run
+<code>--check</code> after an interrupted write.</p>
+<ul>
+<li><code>all-annotated.csv</code> preserves every raw row and its order, adding
+  <code>scope_review_status</code> and <code>scope_decision_id</code> (blank without a decision).</li>
+<li><code>reviewed-included.csv</code> contains only explicit active include decisions for
+  <code>data-center infrastructure policy analytical census</code>. This is the only
+  output suitable as reviewed scope inclusion; a header-only file is valid.</li>
+<li><code>not-explicitly-excluded-candidates.csv</code> excludes explicit reviewed excludes,
+  but retains unresolved and unreviewed observations and their statuses. It is
+  an exploratory candidate pool, not a reviewed or eligible infrastructure census.</li>
+<li><code>receipt.json</code> gives input fingerprints, partition counts and IDs, and hashes
+  of the three CSVs. The receipt cannot contain its own hash.</li>
+</ul>
+<p>The current registry has one exclusion: <code>md-hb0293-sb0056-2026</code> is a compound
+historical observation of secure student/workforce research data, not an
+infrastructure action. Its raw row and identity remain intact; the export does
+not split it into instruments. The raw 447 observations are not necessarily
+447 unique instruments. The current partition is 0 included, 1 excluded,
+0 unresolved, and 446 unreviewed; the 446 candidates are not reviewed in-scope.
+Scope review does not establish current law, legal force, or all-record freshness.</p>
+<p>The selector and exports are prerequisites for the full refresh, not evidence
+that existing consumers use them. The seven sibling consumers and other affected
+publication and analysis surfaces still require their own integration, review,
+validation and explicit disposition under the research plan.</p>
+<p>The output boundary is the checkout root (the resolved target of a symlinked
+checkout is allowed). Every output path component beneath that boundary, the
+output directory, and existing output entries must not be symlinks. Callers
+using another output location must supply its existing trusted boundary. This
+check assumes no concurrent adversarial filesystem mutation.</p>
+<p>A new-format release candidate verifies the complete scope output and the
+<code>policy_scope_review</code> summary against the selected committed inputs before
+writing a candidate. Offline verification repeats the check in the restored
+tree; historical candidates without the exporter retain their prior behavior.</p>
+</main>
+
+<footer>
+  <a href="https://github.com/mjbommar/moratorium-data-2026">github.com/mjbommar/moratorium-data-2026</a>
+  · Data CC-BY-4.0 · Code MIT
+  · <a href="https://michaelbommarito.com/">Michael J. Bommarito</a>
+</footer>
+
+</body>
+</html>

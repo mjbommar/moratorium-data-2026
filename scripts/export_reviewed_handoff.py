@@ -58,10 +58,13 @@ def verify_tree(root,records):
 def run_source_checks(root):
     source=root/'source'
     results=[]
-    for args in [['scripts/check_expanded_publication.py'],['scripts/build_expanded_csv.py','--check']]:
+    commands=[['scripts/check_expanded_publication.py'],['scripts/build_expanded_csv.py','--check']]
+    if (source/'scripts/build_policy_scope_exports.py').exists():
+        commands.append(['scripts/build_policy_scope_exports.py','--check'])
+    for args in commands:
         result=subprocess.run([sys.executable,'-B',*args],cwd=source,capture_output=True,text=True)
         require(result.returncode==0,'Restored source check failed: '+args[0]+'\n'+result.stdout+result.stderr)
-        results.append({'command':args,'exit_code':0,'result':json.loads(result.stdout)})
+        results.append({'command':args,'exit_code':0,'result':result.stdout.strip() if args[0].endswith('build_policy_scope_exports.py') else json.loads(result.stdout)})
     return results
 
 
@@ -70,15 +73,24 @@ def alias_specs(source):
     snapshot=(source/'data/expanded').resolve(strict=True);projection=(source/'data/expanded-csv').resolve(strict=True)
     require(snapshot.is_relative_to(source.resolve()) and projection.is_relative_to(source.resolve()),'Source pointer escapes replay tree')
     aliases=[]
+    if (source/'scripts/build_policy_scope_exports.py').exists():
+        required=['data/state_policy_scope_reviews.jsonl','docs/policy-scope-exports.md',
+                  'data/policy-scope/all-annotated.csv','data/policy-scope/reviewed-included.csv',
+                  'data/policy-scope/not-explicitly-excluded-candidates.csv','data/policy-scope/receipt.json']
+        require(all((source/name).is_file() for name in required),'Incomplete policy-scope handoff')
     def add(name,origin):aliases.append({'path':name,'source_path':'source/'+origin.relative_to(source).as_posix()})
     for name in ['moratorium_inventory.csv','state_legislation.csv','summary_stats.json']:add('data/'+name,source/'data'/name)
+    for name in ['state_policy_scope_reviews.jsonl']:
+        if (source/'data'/name).exists():add('data/'+name,source/'data'/name)
+    for name in ['all-annotated.csv','reviewed-included.csv','not-explicitly-excluded-candidates.csv','receipt.json']:
+        if (source/'data/policy-scope'/name).exists():add('data/policy-scope/'+name,source/'data/policy-scope'/name)
     for name in ['expanded.jsonl','legacy-moratoria.jsonl']:
         if (source/'data/identities'/name).exists():add('data/identities/'+name,source/'data/identities'/name)
     for path in sorted(snapshot.glob('*.jsonl')):add('expanded/'+path.name,path)
     add('expanded/publication.json',snapshot/'publication.json')
     for path in sorted(projection.iterdir()):add('expanded-csv/'+path.name,path)
     for path in sorted((source/'work/schemas/expanded').glob('*.json')):add('schemas/expanded/'+path.name,path)
-    for name in ['expanded-data-contracts.md','ballot-measures.md','known-gaps.md','instrument-events.md','event-validity-publication.md']:
+    for name in ['expanded-data-contracts.md','ballot-measures.md','known-gaps.md','instrument-events.md','event-validity-publication.md','policy-scope-exports.md']:
         if (source/'docs'/name).exists():add('docs/'+name,source/'docs'/name)
     gap=source/'work/audit/ballot-release-dispositions-2026-11-06.json'
     if gap.exists():add('work/audit/'+gap.name,gap)

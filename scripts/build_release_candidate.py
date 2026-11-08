@@ -9,6 +9,8 @@ import re
 from pathlib import Path
 import subprocess
 import tarfile
+import tempfile
+import sys
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -113,9 +115,21 @@ def select_files(commit, names):
                 exact.add(path)
     # Optional for older revisions: never select a path absent from the tree.
     exact.update(n for n in PUBLIC_NOV7_METADATA if n in names)
+    exact.update(n for n in ('work/research/2026-11-08/alabama-field-reconciliation/README.md', 'work/research/2026-11-08/alabama-field-reconciliation/application.json', 'work/research/2026-11-08/alabama-field-reconciliation/native-source-continuity.json', 'work/research/2026-11-08/alabama-field-reconciliation/hosted-selected-files.json', 'work/research/2026-11-08/policy-scope-export-development/README.md', 'work/research/2026-11-08/policy-scope-export-development/validation.json') if n in names)
     exact.update(n for n in ('scripts/verify_release_candidate.py', 'scripts/validate_dataset.py', 'scripts/build_summary_stats.py',
-                             'scripts/policy_scope_reviews.py', 'data/state_policy_scope_reviews.jsonl',
+                             'scripts/policy_scope_reviews.py', 'scripts/build_policy_scope_exports.py',
+                             'docs/policy-scope-exports.md', 'data/state_policy_scope_reviews.jsonl',
+                             'data/policy-scope/all-annotated.csv', 'data/policy-scope/reviewed-included.csv',
+                             'data/policy-scope/not-explicitly-excluded-candidates.csv', 'data/policy-scope/receipt.json',
                              'data/sweep_coverage.json') if n in names)
+    if 'scripts/build_policy_scope_exports.py' in names:
+        required = {'scripts/verify_release_candidate.py', 'scripts/build_summary_stats.py', 'scripts/policy_scope_reviews.py', 'docs/policy-scope-exports.md',
+                    'data/state_policy_scope_reviews.jsonl', 'data/policy-scope/all-annotated.csv',
+                    'data/policy-scope/reviewed-included.csv',
+                    'data/policy-scope/not-explicitly-excluded-candidates.csv', 'data/policy-scope/receipt.json'}
+        assert required <= set(names), 'Incomplete policy-scope export: ' + str(required - set(names))
+        scope_outputs = {n for n in names if n.startswith('data/policy-scope/')}
+        assert scope_outputs == {n for n in required if n.startswith('data/policy-scope/')}, 'Unexpected policy-scope output set'
     # The summary builder consults state page existence and sweep coverage.
     stats = json.loads(git('show', commit+':data/summary_stats.json'))
     exact.update('states/'+detail['file'] for detail in stats.get('state_details', {}).values()
@@ -129,6 +143,19 @@ def build(destination, revision):
     commit = git('rev-parse', revision+'^{commit}').decode().strip()
     names = git('ls-tree', '-r', '--name-only', commit).decode().splitlines()
     selected = select_files(commit, names)
+    # Capture the selected commit bytes once; both the scope check and archive use them.
+    contents = {name: git('show', commit + ':' + name) for name in selected}
+    if 'scripts/build_policy_scope_exports.py' in selected:
+        with tempfile.TemporaryDirectory(prefix='policy-scope-release-') as tmp:
+            root = Path(tmp)
+            for name, data in contents.items():
+                if name in ('data/expanded', 'data/expanded-csv'):
+                    continue
+                path = root / name
+                path.parent.mkdir(parents=True, exist_ok=True)
+                path.write_bytes(data)
+            subprocess.run([sys.executable, '-I', '-B', str(root / 'scripts/verify_release_candidate.py'),
+                            '--scope-only', str(root)], check=True)
     manifest = {'schema_version': '1.0.0', 'candidate_status': 'unreleased_preparation',
                 'source_commit': commit, 'working_cohort_cutoff': '2026-11-05',
                 'scope': 'Public data and retained expanded publication history. Not proof of completed factual freshness, legal force, sibling synchronization or remote publication.',
@@ -144,7 +171,7 @@ def build(destination, revision):
         with gzip.GzipFile(filename='', mode='wb', fileobj=raw, mtime=0) as zipped:
             with tarfile.open(fileobj=zipped, mode='w') as tar:
                 for name in selected:
-                    data = git('show', commit+':'+name)
+                    data = contents[name]
                     info = tarfile.TarInfo(name)
                     info.uid = info.gid = info.mtime = 0
                     info.mode = 0o644

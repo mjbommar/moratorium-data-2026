@@ -1,5 +1,9 @@
 # November refresh closeout
 
+## November 8 scope export integration
+
+The raw 447 policy observations are preserved. Separate deterministic exports now apply the reviewed exclusion and distinguish zero reviewed includes from 446 unreviewed exploratory candidates. Summary, data guidance and generated state pages retain raw denominators and explain the difference. Release preparation and restored verification reject stale scope files or summary counts. Independent review findings were fixed and 37 focused tests passed; real committed-bundle restoration and seven-consumer integration remain separate pending evidence. See the [development packet](../work/research/2026-11-08/policy-scope-export-development/README.md).
+
 ## November 8 retained-source correction
 
 Five independently reviewed prose cells in Fairfield, Foley and Harpersville have been applied under matching full-row guards; two derived verification fields were recomputed. The inventory remains 1,330 rows, with 734 carrying verification markers and 596 without. No ID, status classification, ballot count or vote total changed. Cullman’s qualified historical classification is preserved. This scoped correction does not close current-force, comprehensive freshness, extraction evaluation, consumer integration or final release gates. See the [application packet](../work/research/2026-11-08/alabama-field-reconciliation/README.md).

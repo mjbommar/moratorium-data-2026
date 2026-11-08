@@ -12,10 +12,10 @@ class PolicyFormStatisticsTests(unittest.TestCase):
         inventory=[dict(state='Alabama',state_abbrev='AL',activity_level='Low',enacted_status='pending')]
         policies=[]
         for state,kind,count in [('Alabama','bill',1),('Alabama','legislative_resolution',3),('Alaska','bill',2),('Alaska','legislative_precursor',1),('Alaska','legislative_amendment',2)]:
-            policies.extend(dict(state=state,state_abbrev='AL' if state=='Alabama' else 'AK',activity_level='Low',policy_instrument_type=kind) for _ in range(count))
+            policies.extend(dict(state=state,state_abbrev='AL' if state=='Alabama' else 'AK',activity_level='Low',policy_instrument_type=kind,policy_action_id=f"{('al' if state=='Alabama' else 'ak')}-{kind.replace('_','-')}-{i}") for i in range(count))
         with tempfile.TemporaryDirectory() as tmp:
             root=Path(tmp)
-            with patch.object(stats,'load',side_effect=lambda path: inventory if path==stats.INV else policies),patch.object(stats,'STATS',root/'stats.json'),patch.object(stats,'SWEEP',root/'sweep.json'),patch.object(stats,'STATES_DIR',root/'states'):
+            with patch.object(stats,'load',side_effect=lambda path: inventory if path==stats.INV else policies),patch.object(stats,'STATS',root/'stats.json'),patch.object(stats,'SWEEP',root/'sweep.json'),patch.object(stats,'STATES_DIR',root/'states'),patch.object(stats,'SCOPE_REGISTRY',root/'missing-registry.jsonl'):
                 result=stats.build()
         self.assertEqual(result['total_state_bills'],3)
         self.assertEqual(result['total_state_policy_actions'],9)

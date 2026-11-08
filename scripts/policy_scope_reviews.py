@@ -1,4 +1,4 @@
-"""Validate explicit reviewed policy-scope decisions without filtering the dataset.
+"""Validate and partition explicit reviewed policy-scope decisions.
 
 The record hash identifies the historical reviewed observation; it is not a lock
 on the current row. Identity guard fields, in contrast, must still match exactly.
@@ -18,6 +18,9 @@ _GUARD = frozenset({'state_abbrev', 'bill', 'policy_instrument_type'})
 _EVIDENCE = frozenset({'url', 'body_sha256', 'locator'})
 _HASH = re.compile(r'[0-9a-f]{64}\Z')
 _TIMESTAMP = re.compile(r'\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}(?:\.\d+)?(?:Z|[+-]\d{2}:\d{2})\Z')
+INFRASTRUCTURE_SCOPE = 'data-center infrastructure policy analytical census'
+OUTCOMES = ('reviewed_include', 'reviewed_exclude', 'reviewed_unresolved', 'unreviewed')
+METADATA_FIELDS = ('scope_review_status', 'scope_decision_id')
 
 
 def _object(value, fields, name):
@@ -134,3 +137,33 @@ def load_reviews(path, rows):
             if event['record_identity_guard'][field] != by_id[ident][0].get(field):
                 raise ValueError(f'record_identity_guard mismatch for {ident}: {field}')
     return active
+
+
+def partition_reviews(rows, registry_path, *, scope):
+    """Partition ordered observations; only reviewed_include is analytical inclusion.
+
+    Return lists of (original row, active decision or None) in raw order. Every
+    ID is validated even when the registry is absent. No input is modified.
+    """
+    _text(scope, 'scope')
+    rows = list(rows)
+    seen = set()
+    for row in rows:
+        ident = row.get('policy_action_id')
+        _text(ident, 'policy_action_id')
+        if ident in seen:
+            raise ValueError(f'duplicate policy_action_id {ident!r}')
+        seen.add(ident)
+        collision = set(row) & set(METADATA_FIELDS)
+        if collision:
+            raise ValueError(f'scope metadata collision: {sorted(collision)}')
+    decisions = load_reviews(registry_path, rows)
+    for event in decisions.values():
+        if event['analytical_scope'] != scope:
+            raise ValueError(f"incompatible analytical_scope for {event['policy_action_id']}: {event['analytical_scope']!r}")
+    result = {outcome: [] for outcome in OUTCOMES}
+    for row in rows:
+        event = decisions.get(row['policy_action_id'])
+        outcome = 'reviewed_' + event['decision'] if event else 'unreviewed'
+        result[outcome].append((row, event))
+    return result

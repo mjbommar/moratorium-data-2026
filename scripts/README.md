@@ -22,6 +22,7 @@ candidate to active. `gate_answer.sh` stops on schema, dry-run or archive failur
 | `check_evidence_archived.py` | Merge gate: reports every evidence URL in an answer file that has no successful manifest entry. Exits nonzero if any is missing. |
 | `gate_answer.sh` | Runs the three gates on one answer file: schema, `apply_research.py --dry-run` conflicts, archived evidence. |
 | `build_ballot_census.py` | Combines terminal ballot packets in a private review snapshot with separate ID namespaces, pinned overlays and explicit identity grouping. Never promotes records or overwrites a snapshot. |
+| `build_policy_scope_exports.py` | Applies validated scope decisions to separate annotated raw, reviewed-included and exploratory candidate views; `--check` verifies exact output bytes and file set. See the [scope contract](../docs/policy-scope-exports.md). |
 | `build_worklist.py` | Emits the set of rows needing research as of a given date (expired-but-in-force, stale pending, `[VERIFY]` backlog, unverified dates). |
 | `make_packets.py` / `make_legislation_packets.py` | Split a worklist into per-state research packets. |
 | `apply_research.py` / `apply_legislation.py` | Apply research findings to the legacy CSVs from explicit answer-file paths. Research changes check prior `from` values; legislation supports an optional exact-row `--baseline`. Both write audit logs after replacing the CSV; see [failure and receipt recovery](../docs/methodology.md) for the non-atomic receipt boundary. |

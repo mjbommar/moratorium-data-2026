@@ -207,7 +207,7 @@
 <tr>
 <td><a href="moratorium_inventory.csv"><code>moratorium_inventory.csv</code></a></td>
 <td>1330 local-moratorium records. <strong>Start here.</strong></td>
-<td>1,697,371 bytes</td>
+<td>1,698,568 bytes</td>
 <td>CSV</td>
 </tr>
 <tr>
@@ -218,14 +218,14 @@
 </tr>
 <tr>
 <td><a href="state_policy_scope_reviews.jsonl"><code>state_policy_scope_reviews.jsonl</code></a></td>
-<td>Reviewed analytical scope decisions; historical policy rows retained, no automatic filtering</td>
+<td>Reviewed analytical scope decisions; raw rows retained, applied by the separate scope exports</td>
 <td>1,744 bytes</td>
 <td>JSONL</td>
 </tr>
 <tr>
 <td><a href="summary_stats.json"><code>summary_stats.json</code></a></td>
 <td>Top-level aggregates (counts by state, by status, etc.)</td>
-<td>14,786 bytes</td>
+<td>15,298 bytes</td>
 <td>JSON</td>
 </tr>
 <tr>
@@ -248,6 +248,18 @@
 </tr>
 </tbody>
 </table>
+<h2 id="state-policy-scope-downloads">State-policy scope downloads</h2>
+<p>The raw state-policy CSV retains all historical observations, including one
+reviewed exclusion concerning secure student/workforce research data. Use the
+<a href="policy-scope/reviewed-included.csv">reviewed inclusion export</a> for explicitly
+accepted infrastructure scope; it currently contains headers only. The
+<a href="policy-scope/all-annotated.csv">annotated raw view</a> preserves all 447 observations
+with their scope-review status. The
+<a href="policy-scope/not-explicitly-excluded-candidates.csv">candidate pool</a> contains
+446 unreviewed observations after the known exclusion; it is not an accepted
+infrastructure census. These counts concern historical observations, not unique
+instruments or verified current law. The <a href="policy-scope/receipt.json">receipt</a>
+pins inputs, partitions and output hashes; see the <a href="../docs/policy-scope-exports.html">export contract</a>.</p>
 <h2 id="column-definitions">Column definitions</h2>
 <p>See <a href="../docs/codebook.html"><code>docs/codebook.md</code></a> for full definitions of every column in every file.</p>
 <h2 id="useful-inventory-columns">Useful inventory columns</h2>
@@ -267,7 +279,8 @@ in_force = df[df[&quot;enacted_status&quot;].isin([&quot;active&quot;, &quot;ext
 print(in_force[&quot;state&quot;].value_counts())
 </code></pre>
 <p><strong>Filter to data-center-only moratoria (Python):</strong></p>
-<pre><code class="language-python">df_dc = df[df[&quot;trigger&quot;].str.contains(&quot;data center&quot;, case=False, na=False)]
+<pre><code class="language-python">import json
+df_dc = df[df[&quot;sectors&quot;].map(lambda value: &quot;data_center&quot; in json.loads(value))]
 </code></pre>
 <p><strong>Just the headline numbers (any tool):</strong> Read <code>summary_stats.json</code>. It has total counts, top-states list, and per-state aggregate stats including the <code>enacted_status_breakdown</code> field — useful for embedding live values in dashboards or articles.</p>
 <h2 id="a-note-on-structured_extractionsjsonl">A note on <code>structured_extractions.jsonl</code></h2>
@@ -287,7 +300,7 @@ assert len(records) == 348
 <p>The September 23, 2026 edition is a historical baseline. The November refresh is in progress; source/status dates vary by record. These local review batches have not been published as a new GitHub Release. Citation/version reconciliation remains part of the final release work.</p>
 <h2 id="reviewed-ballot-records">Reviewed ballot records</h2>
 <p>Canonical expanded records cover 53 reviewed proposal and measure records (51 frozen-cohort publications, Jay's solar ballot and a separate Wilmington litigated initiative) across held or intended election dates,
-with 57 retained result observations and explicit supersession. Five additional
+with 61 retained result observations and explicit supersession. Five additional
 frozen candidate groups remain unresolved; see the <a href="../docs/known-gaps.html#ballot-candidates-retained-outside-the-reviewed-publication">gap dispositions</a>.
 Certification and legal implementation remain separate, record-specific findings.
 <a href="../docs/ballot-results.html">The generated results view</a> supplies current record and
@@ -299,7 +312,7 @@ totals. This is a reviewed subset, not the full election census. See
 <a href="../docs/expanded-promotion.html">publication protocol</a>. The relative <code>data/expanded</code>
 pointer and its <code>data/expanded-snapshots</code> target must travel together.</p>
 <h2 id="expanded-csv-downloads">Expanded CSV downloads</h2>
-<p>The current source generation selects <a href="../docs/event-validity-publication.md">validation profile 1.0.2</a>, with five explicitly reviewed historical events. Separate retained, current-accepted and status event exports distinguish review state; none is a current-force timeline.</p>
+<p>The current source generation selects <a href="../work/schemas/expanded/1.0.4.json">validation profile 1.0.4</a>. Separate retained, current-accepted and status event exports distinguish review state; none is a current-force timeline.</p>
 <p>Instrument-event rows describe source-supported historical actions. An <code>effective</code>
 event does not establish current legal force; original expected endpoints do not
 prove actual expiry. See the <a href="../docs/instrument-events.md">event contract and profile</a>

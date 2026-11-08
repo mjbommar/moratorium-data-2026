@@ -5,6 +5,7 @@ import csv
 import datetime as dt
 import hashlib
 import importlib
+import importlib.util
 import json
 import os
 from pathlib import Path, PurePosixPath
@@ -100,6 +101,47 @@ def restore_tree(restore, manifest, contents):
     return root
 
 
+def verify_policy_scope(root):
+    """Check a restored new-format tree; historical trees have no exporter."""
+    root = Path(root).resolve()
+    scripts = root / 'scripts'
+    if not (scripts / 'build_policy_scope_exports.py').exists():
+        return {'status': 'not_present'}
+    for name in ('build_policy_scope_exports.py', 'policy_scope_reviews.py', 'build_summary_stats.py'):
+        require((scripts / name).is_file() and not (scripts / name).is_symlink(),
+                'Policy scope runtime dependency missing: ' + name)
+    # Remove cached modules for the duration and restore them afterwards. Import
+    # directly from this tree, never from a caller's sys.path or module cache.
+    names = ('policy_scope_reviews', 'build_policy_scope_exports', 'build_summary_stats')
+    saved = {name: sys.modules.pop(name) for name in names if name in sys.modules}
+    old_path = sys.path[:]
+    try:
+        sys.path.insert(0, str(scripts))
+        loaded = {}
+        for name in names:
+            spec = importlib.util.spec_from_file_location(name, scripts / (name + '.py'))
+            module = importlib.util.module_from_spec(spec)
+            sys.modules[name] = module
+            spec.loader.exec_module(module)
+            require(Path(module.__file__).resolve().parent == scripts, 'Scope import outside restore')
+            loaded[name] = module
+        exporter = loaded['build_policy_scope_exports']
+        data = root / 'data'
+        require((data / 'state_policy_scope_reviews.jsonl').is_file(), 'Policy scope registry missing')
+        artifacts = exporter.render(data / 'state_legislation.csv', data / 'state_policy_scope_reviews.jsonl')
+        require(exporter.sync(artifacts, data / 'policy-scope', check=True, boundary=root),
+                'Policy scope exports are stale or incomplete')
+        summary = json.loads((data / 'summary_stats.json').read_text(encoding='utf-8'))
+        expected = loaded['build_summary_stats'].build()['policy_scope_review']
+        require(summary.get('policy_scope_review') == expected, 'Policy scope summary is stale')
+        return {'status': 'verified', 'outputs': len(artifacts), 'summary': 'verified'}
+    finally:
+        sys.path[:] = old_path
+        for name in names:
+            sys.modules.pop(name, None)
+        sys.modules.update(saved)
+
+
 def replay(root):
     # Audit hooks also cover os.open and pathlib's io.open, unlike an open() wrapper.
     active = [True]
@@ -159,7 +201,8 @@ def replay(root):
             validator.check_summary_stats(inv, leg, stats, report)
             require(report.ok, 'Restored legacy dataset failed validation: ' + repr(report.errors))
             legacy_validation = {'as_of': today.isoformat(), 'errors': len(report.errors), 'warnings': len(report.warnings)}
-        return {'publication': checked, 'replay': result, 'csv_generation': generation, 'csv_outputs': len(outputs), 'legacy_aliases': legacy, 'legacy_validation': legacy_validation, 'policy_scope_reviews': policy_scope_reviews}
+        scope_exports = verify_policy_scope(root)
+        return {'policy_scope_exports': scope_exports, 'publication': checked, 'replay': result, 'csv_generation': generation, 'csv_outputs': len(outputs), 'legacy_aliases': legacy, 'legacy_validation': legacy_validation, 'policy_scope_reviews': policy_scope_reviews}
     finally:
         active[0] = False
         os.chdir(old_cwd)
@@ -181,11 +224,16 @@ def verify(directory, restore, expected):
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('directory', type=Path)
-    parser.add_argument('--restore', required=True, type=Path)
-    parser.add_argument('--expected-manifest-sha256', required=True)
+    parser.add_argument('directory', type=Path, nargs='?')
+    parser.add_argument('--scope-only', type=Path)
+    parser.add_argument('--restore', type=Path)
+    parser.add_argument('--expected-manifest-sha256')
     args = parser.parse_args()
-    print(json.dumps(verify(args.directory, args.restore, args.expected_manifest_sha256), indent=2))
+    if args.scope_only:
+        print(json.dumps(verify_policy_scope(args.scope_only), indent=2))
+    else:
+        parser.error('directory, --restore and --expected-manifest-sha256 required') if not (args.directory and args.restore and args.expected_manifest_sha256) else None
+        print(json.dumps(verify(args.directory, args.restore, args.expected_manifest_sha256), indent=2))
 
 
 if __name__ == '__main__':

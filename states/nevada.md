@@ -7,7 +7,7 @@ Working inventory for Nevada, generated **November 8, 2026**. Record-level refre
 
 These counts reflect inventory classifications and do not establish current enforceability.
 
-State policy is tracked separately: **7 records** (7 typed bill rows) in [`state_legislation.csv`](../data/state_legislation.csv). These are not included in the local count above.
+State policy is tracked separately: **7 records** (7 typed bill rows) in [`state_legislation.csv`](../data/state_legislation.csv). These raw historical observations retain any reviewed scope exclusions and are not included in the local count above. Use the [separate scope exports](../docs/policy-scope-exports.md) for scope-review status; the candidate pool is not reviewed infrastructure inclusion.
 
 | Jurisdiction | Type | Enacted | Sectors | Recorded status |
 |---|---|---|---|---|
