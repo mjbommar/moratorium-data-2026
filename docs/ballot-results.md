@@ -23,7 +23,7 @@ Yes-vote direction follows the question wording. Advisory results express voter 
 | [Nameoki Township, IL — undesignated](<https://results.enr.clarityelections.com//IL/Madison/127555/385789/reports/summary.zip>) | 2026-11-03 | scope not recorded | advisory | facilitates | 602 | 2117 | unknown | 2796 | unknown | unknown |
 | [Venice Township, IL — undesignated](<https://results.enr.clarityelections.com//IL/Madison/127555/385789/reports/summary.zip>) | 2026-11-03 | scope not recorded | advisory | facilitates | 311 | 978 | unknown | 1350 | unknown | unknown |
 | [Americus, KS — undesignated](<https://www.lyoncountyks.gov/DocumentCenter/View/2423>) | 2026-11-03 | scope not recorded | unresolved | restricts | 274 | 127 | unknown | unknown | unofficial | unknown |
-| [El Dorado, KS — City of El Dorado Question](<https://www.livevoterturnout.com/ENR/butlerksenr/4/en/Index_4.html>) | 2026-11-03 | scope not recorded | unresolved | restricts | 2972 | 1183 | unknown | unknown | unknown | unknown |
+| [El Dorado, KS — City of El Dorado Question](<https://www.livevoterturnout.com/ENR/butlerksenr/4/en/Index_4.html>) | 2026-11-03 | scope not recorded | unresolved | restricts | 2972 | 1183 | unknown | unknown | unofficial | unknown |
 | [Emporia, KS — Question 2](<https://www.lyoncountyks.gov/DocumentCenter/View/2423>) | 2026-11-03 | scope not recorded | unresolved | restricts | 4346 | 2891 | unknown | unknown | unofficial | unknown |
 | [Emporia, KS — Question 3](<https://www.lyoncountyks.gov/DocumentCenter/View/2423>) | 2026-11-03 | scope not recorded | unresolved | restricts | 4067 | 3117 | unknown | unknown | unofficial | unknown |
 | [Brownfield, ME — Article 1](<https://www.brownfieldmaine.gov/DocumentCenter/View/1000/Referendum-Results>) | 2026-11-03 | scope not recorded | unresolved | restricts | 671 | 191 | unknown | unknown | unknown | unknown |
@@ -113,7 +113,7 @@ Relationship acceptance is separate from instrument status. A `proposes` link do
 
 Reported outcomes and certification are separate from calculated passage rules, operative dates and legal force. A reported approval does not automatically add an in-force legacy moratorium. See [scope and interpretation](ballot-measures.md) for unresolved legal implementation.
 
-60 result observations are retained, including explicitly superseded history. This view excludes superseded observations without deleting them. Classification or provenance corrections can add a successor without new votes or a new retrieval; consult source acquisition times and the result value_methods notes.
+61 result observations are retained, including explicitly superseded history. This view excludes superseded observations without deleting them. Classification or provenance corrections can add a successor without new votes or a new retrieval; consult source acquisition times and the result value_methods notes.
 
 ## Sources for reported outcomes
 
@@ -121,6 +121,6 @@ Reported outcomes and certification are separate from calculated passage rules, 
 - Eliot: [reported-outcome source](<https://www.bangordailynews.com/2026/11/05/politics/elections/maine-election-towns-temporary-data-center-bans/>).
 - Sabattus: [reported-outcome source](<https://www.bangordailynews.com/2026/11/05/politics/elections/maine-election-towns-temporary-data-center-bans/>).
 
-Pinned canonical snapshot: `0b721a8afe493e7bd231a74978477061a29858a1323db00ad6b6c6c6628130e9`. Source acquisition times and result review-time explanations remain in the records; this generation is not a renewed current-force check.
+Pinned canonical snapshot: `29e3bd8edacd56ab79530c1a92eb92cbc98a3389a57679fa437034315033c666`. Source acquisition times and result review-time explanations remain in the records; this generation is not a renewed current-force check.
 
-[Canonical publication protocol](expanded-promotion.md) · [Raw reviewed tables](../data/expanded-snapshots/0b721a8afe493e7bd231a74978477061a29858a1323db00ad6b6c6c6628130e9/ballot_measures.jsonl)
+[Canonical publication protocol](expanded-promotion.md) · [Raw reviewed tables](../data/expanded-snapshots/29e3bd8edacd56ab79530c1a92eb92cbc98a3389a57679fa437034315033c666/ballot_measures.jsonl)

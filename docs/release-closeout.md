@@ -5,16 +5,16 @@ This is the execution order for finishing the [existing plan](research-and-ballo
 
 ## Latest verified checkpoint — November 7, after the ballot provenance corrections
 
-This checkpoint supersedes the operational counts below; dated earlier sections remain historical. The canonical snapshot is `0b721a8afe493e7bd231a74978477061a29858a1323db00ad6b6c6c6628130e9`.
+This checkpoint supersedes the operational counts below; dated earlier sections remain historical. The canonical snapshot is `29e3bd8edacd56ab79530c1a92eb92cbc98a3389a57679fa437034315033c666`.
 
 | Area | Verified state | Still required |
 |---|---|---|
 | Legacy data | 1,330 local records and 447 policy records | Full frozen 1,772-ID freshness dispositions, additions, source and later-history gaps; all 50 states and five sectors |
-| Ballot data | 53 measures, 60 retained result versions, 50 current result rows: 30 unofficial, 15 unknown, five certified labels | Final coordinator dispositions, certification/recount and implementation authority; review coverage does not establish current force |
-| Ballot review | All 53 IDs have primary and bounded independent per-axis reviews; all 53 finite final source-scoped coordinator returns | Resolve conflicts and exact-wording proposals; reconcile five pending frozen groups and supported status dates |
+| Ballot data | 53 measures, 61 retained result versions, 50 current result rows: 31 unofficial, 14 unknown, five certified labels | Final coordinator dispositions, certification/recount and implementation authority; review coverage does not establish current force |
+| Ballot review | All 53 IDs have primary and bounded independent per-axis reviews; all 53 finite final source-scoped coordinator returns | Resolve conflicts and exact-wording proposals; obtain authorities held by the five reviewed-withheld frozen groups and supported status dates |
 | Provenance | Sixteen original acquisition joins plus four further joins verified in separate supplements | Remaining source-origin and authority gaps; acquisition dates do not renew on rereview |
-| Delivery | Five selected deployed ballot files match the specified successful Pages commit byte for byte | Whole release/consumer/copy reconciliation and final downloaded assets |
-| Extraction | Bounded journal reader increment independently accepted; root rerun passed 88 tests and 60 subtests | Endpoint/wire identity, prospective audit integration, semantic evaluation and frozen calibration/holdout |
+| Delivery | Six selected deployed ballot files match the specified successful Pages commit byte for byte | Whole release/consumer/copy reconciliation and final downloaded assets |
+| Extraction | Bounded endpoint/wire and storage increments independently accepted; 108 selected offline tests passed | Trusted witnessing, full-history/prospective integration, semantic evaluation and frozen calibration/holdout |
 | GitHub release | Live release listing still contains only draft `v2026.11.1-rc.1` | Publish the fully reconciled final release and verify its assets after the remaining gates |
 
 Receipts: [ballot review](../work/research/2026-11-07/ballot-full-lifecycle-review/README.md), [Trenton correction and hosted files](../work/research/2026-11-07/trenton-result-classification/README.md), and [reader verification](../work/research/2026-11-07/native-journal-reader-development/README.md). The independently reviewed [Wilmington retained-sample wording correction](../work/research/2026-11-07/wilmington-sample-wording-correction/README.md) is applied, preserving all result observations. This does not establish the final issued ballot or current force. Final consumer integration, scope-filtered analytical counts and publication remain incomplete.
@@ -180,3 +180,5 @@ The [field-accounting update](../work/audit/refresh-field-accounting-2026-11-07.
 ## Frozen/current raw identifier reconciliation
 
 The [identifier-only receipt](../work/audit/frozen-current-identifier-reconciliation-2026-11-07.json) verifies that all 1,772 frozen IDs remain: 1,330 local and 442 policy records. Current raw tables add five policy IDs, giving 447 policy and 1,777 combined raw rows. This freeze postdates earlier work and differs from the historical source baseline. These joins prove the denominator only; they do not prove complete source-qualified freshness, current legal force or scope-filtered consumer counts.
+
+The [El Dorado/Emporia correction](../work/research/2026-11-07/el-dorado-emporia-corrections/README.md) is applied with retained vote totals. The [five-group disposition overlay](../work/research/2026-11-07/ballot-frozen-seed-dispositions/README.md) closes the bounded pending-review queue with explicit authority holds. The [Alabama prose corrections](../work/research/2026-11-07/alabama-prose-reconciliation/README.md) leave raw row counts unchanged and make two additional records explicitly flagged; current flagged inventory count is 733.

@@ -2,6 +2,10 @@
 
 Plan: [Research modernization and ballot-measure expansion](docs/research-and-ballot-expansion-plan.md).
 
+- [x] Apply independently reviewed El Dorado unofficial-label and Emporia proposed-text availability corrections, preserving prior records and all vote totals ([packet](work/research/2026-11-07/el-dorado-emporia-corrections/README.md)).
+
+- [x] Complete bounded dispositions for all five unpublished frozen ballot groups as reviewed-withheld, preserving the original projection and explicit authority requirements ([overlay](work/research/2026-11-07/ballot-frozen-seed-dispositions/README.md)). National census/current-force closure remains open.
+
 - [x] Independently verify normalized endpoint observation, default-profile native wire comparison and strict storage fixture reconciliation; 108 tests pass across ten offline suites ([development receipt](work/research/2026-11-07/native-wire-contract-development/README.md)). Full P4 witnessing, integration, semantics and fresh calibration/holdout remain open.
 
 - [x] Apply eight independently adjudicated Alabama prose corrections under full-row guards, retain the rejected project-absence change, and recompute verification metadata; six reviewed native source bodies verified ([packet](work/research/2026-11-07/alabama-prose-reconciliation/README.md)). Present force and full freshness remain unresolved.

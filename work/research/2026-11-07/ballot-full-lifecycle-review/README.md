@@ -14,4 +14,4 @@ The 53 measures are not interchangeable with the 56 frozen election groups, fift
 
 A coordinator [visual signature recheck](monterey-signature-recheck.json) rejects a later proposed downgrade of Monterey Park Ordinance 2280: the hash-matched physical page 11 visibly contains signatures, despite the worker’s blank-line reading. The original worker report is preserved with this addendum; operative date and present force remain unresolved.
 
-The [Freedom, Boulder City and Alhambra provenance corrections](../ballot-provenance-clarifications/README.md) are independently reviewed and applied. Other proposals, including El Dorado’s omitted unofficial label and proposed-text availability notes, retain their own pending checks.
+The [Freedom, Boulder City and Alhambra provenance corrections](../ballot-provenance-clarifications/README.md) are independently reviewed and applied. The [El Dorado/Emporia source corrections](../el-dorado-emporia-corrections/README.md) are also applied. The [five unpublished frozen groups](../ballot-frozen-seed-dispositions/README.md) have reviewed-withheld dispositions with explicit remaining authorities.

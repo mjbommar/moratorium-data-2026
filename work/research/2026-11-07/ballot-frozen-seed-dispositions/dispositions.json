@@ -1,0 +1,181 @@
+{
+  "scope": "Final bounded review overlay for the five unpublished frozen groups; original frozen projection is preserved. Authority holds remain; not complete national census/freshness or legal-force acceptance.",
+  "frozen_groups": 56,
+  "scoped_published_groups": 51,
+  "reviewed_withheld_groups": 5,
+  "current_canonical_measures": 53,
+  "extra_measures_outside_frozen_publications": 2,
+  "canonical_changes": 0,
+  "source_retrievals": 0,
+  "groups": [
+    {
+      "frozen_group_id": "bp-22ec514613c6caa0",
+      "jurisdiction": "Morgan County, Illinois",
+      "disposition": "reviewed-withheld",
+      "required_authority": [
+        "No retained official ballot/referral or petition qualification, official question-specific return/canvass or certification. Need those to establish exact official question and election identity before guarded candidate. Obtain actual October 26 extension resolution and subsequent history separately for any legal-effect assertion; no requirement to force a moratorium linkage."
+      ],
+      "identity_collision_check": "No matching frozen ID in any current expanded JSONL; no Morgan or Augusta named jurisdiction in current 48 jurisdictions, and no matching semantic measure among 53 current rows. Same-government inventory il-morgan-county-2026 is a separate reported moratorium, not this advisory question. No new ID assigned.",
+      "source_metadata": [
+        {
+          "sha256": "1d1cc1706691fa5d57f2292fd0784fa8e3c4afa1f6f391d1798afab49a97304d",
+          "url": "https://ballotpedia.org/Morgan_County,_Illinois,_Restrictions_on_Data_Center_Construction_and_Operation_Advisory_Measure_(November_2026)",
+          "acquisition_finished_utc": "2026-11-05T16:59:06.703778+00:00",
+          "role": "secondary",
+          "locator": "Text of measure; Election results; Path to the ballot"
+        },
+        {
+          "sha256": "00602e00684f2dc465df055c5c17c06c704f329d299d0ed2c12b1a4dd0b5d19d",
+          "url": "https://www.wandtv.com/2026/10/29/morgan-county-ballot-question-seeks-public-input-data-center-rules/",
+          "acquisition_finished_utc": "2026-11-05T16:59:35.879197+00:00",
+          "role": "secondary",
+          "locator": "What the question asks; How it got on the ballot; Moratorium extended"
+        },
+        {
+          "sha256": "5a8bca4afb2ea2a5c02fcec7cf5776e355d0b8f53841ac808b6d4962a77e753b",
+          "url": "https://wlds.com/election/",
+          "acquisition_finished_utc": "2026-11-06T11:43:59.785554+00:00",
+          "role": "secondary election report",
+          "locator": "Morgan county advisory referendum section"
+        },
+        {
+          "sha256": "44ceba07cddfe8eb64fe2b86774cc9278f70b59abfc65bcba94ab4052b25c4ce",
+          "url": "https://www.myjournalcourier.com/news/article/morgan-county-votes-data-center-restrictions-22509991.php",
+          "acquisition_finished_utc": "2026-11-06T11:44:00.744158+00:00",
+          "role": "secondary post-election account",
+          "locator": "article body and October 26 meeting account"
+        },
+        {
+          "sha256": "ddc530b6f275ac01fc59ed29241dfe87fdd3fcc6da878206aafb65bb18d7df86",
+          "url": "https://morgancounty-il.com/wp/october-13-2026-meeting-minutes/",
+          "acquisition_finished_utc": "2026-11-06T11:44:32.292286+00:00",
+          "role": "primary minutes",
+          "locator": "Committee reports; data center moratorium discussion"
+        },
+        {
+          "sha256": "e9310dc28a4868f3bac4228a4337af9a1722d8fd830ffabf2fb4643293d9fad8",
+          "url": "https://morgancounty-il.com/wp/august-12-2026-meeting-minutes/",
+          "acquisition_finished_utc": "2026-11-06T11:44:32.277411+00:00",
+          "role": "primary minutes",
+          "locator": "separate Cook County separation item"
+        },
+        {
+          "sha256": "6f593f0888a710c95c31569ae380bd48669034fa5fd1ad243b43730a5d7a994e",
+          "url": "https://datacentersontheballot.com/data/results.csv",
+          "acquisition_finished_utc": "2026-11-05T16:59:03.058933+00:00",
+          "role": "secondary manual dataset",
+          "locator": "il-morgan-county and mi-augusta-twp rows"
+        }
+      ],
+      "report_sha256": "284a4b273b0a681216b2ca9ecee2ebdd708b147ac8bbfcecca7b8bffbb161a64",
+      "structured_dispositions_sha256": "9fc86b1f17c898b7dfb3c602f9c9c6ae1d823cf889be7bde528b3b0afff993b1"
+    },
+    {
+      "frozen_group_id": "bp-506fe14e7afe9a15",
+      "jurisdiction": "Augusta Charter Township, Washtenaw County, Michigan",
+      "disposition": "reviewed-withheld",
+      "required_authority": [
+        "Obtain final printed ballot or adopted referral connecting ordinance, parcels and the county named contest; independently establish project/data-center connection and applicable binding effect; obtain actual ordinance and subsequent legal history and certification provenance. Do not treat draft recitals as independently established qualification, or negative majority as a present zoning status."
+      ],
+      "identity_collision_check": "No matching frozen ID in any current expanded JSONL; no Augusta Michigan jurisdiction in current 48 jurisdictions and no corresponding semantic ballot measure among 53. Georgia Augusta is distinct. Original candidate election and jurisdiction IDs are absent from their current tables. No ID assigned.",
+      "source_metadata": [
+        {
+          "sha256": "750d0b340ada891f3ec35daa453ea9c29f8deab251f2151acc7565892e8199b1",
+          "url": "https://electionresults.ewashtenaw.org/electionreporting/aug2026/",
+          "acquisition_finished_utc": "2026-11-05T17:03:18.204074+00:00",
+          "role": "primary official-labeled result report",
+          "locator": "header and Augusta Twp Zoning Referendum; derived county-results-full-html.private.txt lines 1-4 and 1157-1170"
+        },
+        {
+          "sha256": "8cb93467776c40b26b3aeb01470cb3e69e20f9811a29542bc6f4311ca6540f7b",
+          "url": "https://augustatownship.org/wp-content/uploads/2026/02/2026-02-24-Agenda-Packet-A.pdf",
+          "acquisition_finished_utc": "2026-11-05T17:04:00.107656+00:00",
+          "role": "primary agenda packet, draft document",
+          "locator": "physical PDF pages 16-17; inspected retained page renders"
+        },
+        {
+          "sha256": "16b26acb8f24b8ebfccefc9a804a026fee4e41190cb36066e37eb5be1bbed2ef",
+          "url": "https://ballotpedia.org/Augusta_Township,_Michigan,_Rezone_Agricultural_Residential_to_General_Industrial_for_Data_Center_Referendum_(August_2026)",
+          "acquisition_finished_utc": "2026-11-05T17:03:23.042604+00:00",
+          "role": "secondary",
+          "locator": "overview; election results; empty ballot title section"
+        },
+        {
+          "sha256": "ac50a9e9f12d125259cf8604a4ce847bb7a5bd5e8e8be0d39810f4ef962ea757",
+          "url": "https://augustatownship.org/august-4-2026-unofficial-election-results/",
+          "acquisition_finished_utc": "2026-11-05T17:03:21.434312+00:00",
+          "role": "primary township earlier unofficial post",
+          "locator": "post body; generic turnout not question denominator"
+        }
+      ],
+      "report_sha256": "284a4b273b0a681216b2ca9ecee2ebdd708b147ac8bbfcecca7b8bffbb161a64",
+      "structured_dispositions_sha256": "9fc86b1f17c898b7dfb3c602f9c9c6ae1d823cf889be7bde528b3b0afff993b1"
+    },
+    {
+      "frozen_group_id": "bp-7e46ffbc672db401",
+      "jurisdiction": "Monroe Township, Adams County, Ohio",
+      "disposition": "reviewed-withheld",
+      "required_authority": [
+        "Election authority final printed ballot and filing/referral or qualification record",
+        "Complete township zoning plan/resolution including all infrastructure definitions, maps and exceptions, tied to this contest",
+        "Final certified canvass and adopted/effective text with implementation or court history"
+      ],
+      "identity_collision_check": "No exact municipality in current expanded jurisdictions; no matching measure found through the 53 current ballot records and election/jurisdiction join. Frozen ID absent from current ballot and identity registry. This is a bounded snapshot check, not an allocation or proof of no alias elsewhere. Monroeville, Huron County is a different jurisdiction.",
+      "source_metadata": [
+        {
+          "url": "https://www.boe.ohio.gov/adams/c/elecres/20261103results.pdf",
+          "sha256": "31fc6b83465f0af7c26f1b4d0d8c90401dea38b5f2c3acfcd6c2e8ee78fc2a4c",
+          "acquired_at_utc": "2026-11-05T17:11:48.381418+00:00",
+          "source_report_clock": "2026-11-03 23:11:45, timezone unspecified",
+          "status": "Unofficial Certification of Results; signed cover is not final certification"
+        }
+      ],
+      "report_sha256": "14458a27af028b0ad36e785bf1ce8292167b2f86448f6d368b30f0d3e30be1c4",
+      "structured_dispositions_sha256": "aeda45cdb774a0046bb0cb83b0fc2bdd8869600f11083be27c349cb19bff1f9d"
+    },
+    {
+      "frozen_group_id": "bp-81523b9c0ba0ba63",
+      "jurisdiction": "Ottawa, Franklin County, Kansas, reported Question 2",
+      "disposition": "reviewed-withheld",
+      "required_authority": [
+        "Administering authority official final ballot or certified question list linking designation, subject, jurisdiction and election to the county return",
+        "Petition, qualification/referral record and actual court order or disposition resolving the earlier counsel position",
+        "Complete proposed and any adopted ordinance, publication/effective history, and final certified canvass; distinguish substantive duration from amendment/repeal limits"
+      ],
+      "identity_collision_check": "No exact municipality in current expanded jurisdictions; no matching measure found through the 53 current ballot records and election/jurisdiction join. Frozen ID absent from current ballot and identity registry. This is a bounded snapshot check, not an allocation or proof of no alias elsewhere. Ottawa Illinois and unincorporated Franklin County Kansas are different jurisdictions; identity link is not inferred.",
+      "source_metadata": [
+        {
+          "url": "https://www.franklincoks.org/DocumentCenter/View/36384/Election-Results-2026-General_6",
+          "sha256": "9ae972b7216781b3337190677ce35ca7d967328845bddd36494c08178b85417e",
+          "acquired_at_utc": "2026-11-06T05:44:18.988535+00:00",
+          "source_report_clock": "no time printed on inspected page",
+          "status": "Unofficial Results"
+        }
+      ],
+      "report_sha256": "14458a27af028b0ad36e785bf1ce8292167b2f86448f6d368b30f0d3e30be1c4",
+      "structured_dispositions_sha256": "aeda45cdb774a0046bb0cb83b0fc2bdd8869600f11083be27c349cb19bff1f9d"
+    },
+    {
+      "frozen_group_id": "bp-f911c9d773a7b0e7",
+      "jurisdiction": "Sprigg Township, Adams County, Ohio",
+      "disposition": "reviewed-withheld",
+      "required_authority": [
+        "Election authority final printed ballot and filing/referral or qualification record",
+        "Complete township zoning plan/resolution including infrastructure definitions, maps and exceptions, tied to this contest",
+        "Final certified canvass and adopted/effective text with implementation or court history"
+      ],
+      "identity_collision_check": "No exact municipality in current expanded jurisdictions; no matching measure found through the 53 current ballot records and election/jurisdiction join. Frozen ID absent from current ballot and identity registry. This is a bounded snapshot check, not an allocation or proof of no alias elsewhere.",
+      "source_metadata": [
+        {
+          "url": "https://www.boe.ohio.gov/adams/c/elecres/20261103results.pdf",
+          "sha256": "31fc6b83465f0af7c26f1b4d0d8c90401dea38b5f2c3acfcd6c2e8ee78fc2a4c",
+          "acquired_at_utc": "2026-11-05T17:11:48.381418+00:00",
+          "source_report_clock": "2026-11-03 23:11:45, timezone unspecified",
+          "status": "Unofficial Certification of Results; signed cover is not final certification"
+        }
+      ],
+      "report_sha256": "14458a27af028b0ad36e785bf1ce8292167b2f86448f6d368b30f0d3e30be1c4",
+      "structured_dispositions_sha256": "aeda45cdb774a0046bb0cb83b0fc2bdd8869600f11083be27c349cb19bff1f9d"
+    }
+  ]
+}
