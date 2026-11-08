@@ -92,6 +92,8 @@ class NativeRuleTests(unittest.IsolatedAsyncioTestCase):
                     self.assertEqual(first, second)
                     self.assertEqual((first['candidate_count'], first['unresolved_count']), (1, 1))
                     self.assertFalse(first['accepted'])
+                    self.assertTrue(first['boundary_output_accounting_complete'])
+                    self.assertFalse(first['response_accounting_complete'])
                     self.assertTrue(all(not unit['accepted'] for unit in first['units']))
                 self.assertEqual(len(requests), cap)
                 events = [json.loads(line) for line in transport.ledger.read_text().splitlines()]

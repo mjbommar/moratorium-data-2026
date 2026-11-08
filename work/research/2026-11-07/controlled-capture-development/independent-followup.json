@@ -1,0 +1,24 @@
+{
+  "observed_at": "2026-11-08T01:44:54.519081+00:00",
+  "independent_review_report_sha256": "92c574208ffb1a14149b63a8f388742c08cd3d3394f76668cc5da78ffd2e09b2",
+  "independent_offline_tests": {
+    "passed": 70,
+    "subtests": 54,
+    "provider_calls": 0
+  },
+  "independent_disposition": "Capture history, planned unknowns and privacy findings addressed within tested scope; extractor packet accounting naming remained open.",
+  "root_followup": "Extractor now distinguishes boundary_output_accounting_complete and response_accounting_complete; overall remains false until verified journal/raw-to-boundary integration.",
+  "root_tests_after_followup": {
+    "passed": 61,
+    "subtests": 54,
+    "provider_calls": 0,
+    "log_sha256": "0911659dfd63f2badf0f17e520f3d4be09f102ec523ad72c84dc4320504272bc"
+  },
+  "current_code_sha256": {
+    "scripts/extract_rule_units.py": "cd5081c1b14d2fda053aec8c4859e1a32b217fb2a9afbfeea3992d2b4014f0da",
+    "tests/test_rule_unit_native_transport.py": "a105449c7182b36831219ced93132a54f7c47a8350095df1856613d463e4ab45"
+  },
+  "independent_rereview_of_root_followup": false,
+  "quality": "not_scored",
+  "p4_complete": false
+}
