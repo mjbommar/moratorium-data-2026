@@ -1,0 +1,69 @@
+{
+  "observed_at": "2026-11-08T03:06:42.166677+00:00",
+  "snapshot": "728c844addfe2c1ca8ec08bfe01480d8e2289f4c2f20faf1032a918f289b006a",
+  "scope": "Coordinator independently rechecked four previously unmatched acquisition joins from last27 batch5 against original ledgers, native response metadata, canonical source records and both original/retained bodies.",
+  "source_count": 4,
+  "body_acquisition_record_matches": 4,
+  "unresolved_acquisition_joins_in_this_supplement": 0,
+  "canonical_changes": 0,
+  "source_retrievals": 0,
+  "checks": [
+    {
+      "source_document_id": "0f76d6e2-b9a2-4c4e-8471-5193873c0235",
+      "measure_id": "d7faccbd-2d75-4999-bcc5-bdaebae1150c",
+      "body_sha256": "83816a2be51170f2a0593b105209f40e396e1ff43aef98205ca4e58813337f2e",
+      "acquisition_attempt_id": "50e28c350205459fb9af62c7371e1857",
+      "url": "https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/5902/Cc/f710b69d-21da-461b-970e-c68a7692d8b9/Resolution-26-1146-Calling-a-Special-Election-on-Referendum-SF-ARK1%2CLLC.pdf?disposition=inline",
+      "final_url": "https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/5902/Cc/f710b69d-21da-461b-970e-c68a7692d8b9/Resolution-26-1146-Calling-a-Special-Election-on-Referendum-SF-ARK1%2CLLC.pdf?disposition=inline",
+      "native_fetched_at": "2026-11-07T18:12:58.104056Z",
+      "client_finished_at": "2026-11-07T18:12:58.508542+00:00",
+      "canonical_retrieved_at": "2026-11-07T18:12:58.104056Z",
+      "recorded_clock_matches": true,
+      "native_and_retained_bodies_rehashed": true
+    },
+    {
+      "source_document_id": "2885f628-bd62-4528-aa05-15e22b6f8f9b",
+      "measure_id": "d7faccbd-2d75-4999-bcc5-bdaebae1150c",
+      "body_sha256": "bf7a4ad63725224a1fc8da12d6735cfcd1d7aecee83c54f494862bd15ac94e86",
+      "acquisition_attempt_id": "218e434e693947988b79392b48785713",
+      "url": "https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/5902/Cc/5944e547-bbd2-4b8d-9aba-9334e120ddce/Resolution-26-1147-Calling-a-Special-Election-on-Referendum-HATCHBO-LLC.pdf?disposition=inline",
+      "final_url": "https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/5902/Cc/5944e547-bbd2-4b8d-9aba-9334e120ddce/Resolution-26-1147-Calling-a-Special-Election-on-Referendum-HATCHBO-LLC.pdf?disposition=inline",
+      "native_fetched_at": "2026-11-07T18:16:31.385846Z",
+      "client_finished_at": "2026-11-07T18:16:31.774833+00:00",
+      "canonical_retrieved_at": "2026-11-07T18:16:31.385846Z",
+      "recorded_clock_matches": true,
+      "native_and_retained_bodies_rehashed": true
+    },
+    {
+      "source_document_id": "094acbfd-7047-4401-adea-9d6f7b54ebad",
+      "measure_id": "db2486d3-7256-42ab-811f-f96e7c776877",
+      "body_sha256": "431e97f2275de13c9777db0f439017e34b89c651cb3f8f6cbcc7f348d8791af7",
+      "acquisition_attempt_id": "c5d2f440637c4677a5caccd83edf9930",
+      "url": "https://www.boe.ohio.gov/clinton/c/upload/Election_SampleBallots.pdf",
+      "final_url": "https://www.boe.ohio.gov/clinton/c/upload/Election_SampleBallots.pdf",
+      "native_fetched_at": "2026-11-05T17:18:30.405313Z",
+      "client_finished_at": "2026-11-05T17:19:30.235188+00:00",
+      "canonical_retrieved_at": "2026-11-05T17:19:30.235188+00:00",
+      "recorded_clock_matches": true,
+      "native_and_retained_bodies_rehashed": true
+    },
+    {
+      "source_document_id": "3eefcfa2-5427-4156-b18d-8d30ae2e88dd",
+      "measure_id": "ec55a788-7d4c-4113-b57a-220a0b9fb8aa",
+      "body_sha256": "25f8bc5e7ec5de82842f25c57e7820404250888ad70194b887bcf3241317996e",
+      "acquisition_attempt_id": "13c905cb04f94f2684c2a165e99338d4",
+      "url": "https://results.enr.clarityelections.com//IL/Madison/127555/385067/reports/summary.zip",
+      "final_url": "https://results.enr.clarityelections.com//IL/Madison/127555/385067/reports/summary.zip",
+      "native_fetched_at": "2026-11-05T16:59:59.706338Z",
+      "client_finished_at": "2026-11-05T16:59:59.711241+00:00",
+      "canonical_retrieved_at": "2026-11-05T16:59:59.711241+00:00",
+      "recorded_clock_matches": true,
+      "native_and_retained_bodies_rehashed": true
+    }
+  ],
+  "limitations": [
+    "These joins establish retained acquisition provenance, not substantive claim truth, certification, current status or legal force.",
+    "Canonical acquisition clocks are preserved; native fetch and client completion are reported separately.",
+    "This supplement does not resolve other batches or complete full-scope research."
+  ]
+}
