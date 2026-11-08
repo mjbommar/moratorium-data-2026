@@ -2,6 +2,8 @@
 
 Plan: [Research modernization and ballot-measure expansion](docs/research-and-ballot-expansion-plan.md).
 
+- [x] Apply two independently reviewed Wilmington sample-ballot wording corrections with scoped successor claims/decisions and preserved results ([packet](work/research/2026-11-07/wilmington-sample-wording-correction/README.md)); final issued ballot and current force remain separate.
+
 - [x] Publish a guarded append-only Trenton historical classification correction after independent review and explicit timestamp clarification; retain the predecessor, all counts and unresolved formal outcome/legal force ([packet](work/research/2026-11-07/trenton-result-classification/README.md)).
 
 - [x] Apply 33 evidence-limit corrections to eleven Minnesota terminal statuses after reviewing all twelve records; retain HF 16 enactment, 96 verified spans and 34 native mappings ([packet](work/research/2026-11-07/minnesota-terminal-status-review/README.md)). Broader field-level completion remains open.

@@ -1,0 +1,161 @@
+{
+  "tables": {
+    "jurisdictions": {
+      "prior": 48,
+      "candidate": 48,
+      "modified_or_missing": []
+    },
+    "elections": {
+      "prior": 47,
+      "candidate": 47,
+      "modified_or_missing": []
+    },
+    "ballot_measures": {
+      "prior": 53,
+      "candidate": 53,
+      "modified_or_missing": [
+        "f447f7d9-53fe-49bf-ac3a-dec05cd3a7a0",
+        "fd0aaef5-9562-4deb-855c-540eec59c62a"
+      ]
+    },
+    "measure_provisions": {
+      "prior": 52,
+      "candidate": 52,
+      "modified_or_missing": [
+        "0759fa26-47c1-45f9-8c99-0f1dc440f3c4",
+        "b9e3da6d-3071-4146-a522-45df0694b89f"
+      ]
+    },
+    "measure_results": {
+      "prior": 59,
+      "candidate": 59,
+      "modified_or_missing": []
+    },
+    "local_restrictions": {
+      "prior": 2,
+      "candidate": 2,
+      "modified_or_missing": []
+    },
+    "instrument_events": {
+      "prior": 10,
+      "candidate": 10,
+      "modified_or_missing": []
+    },
+    "measure_instrument_links": {
+      "prior": 1,
+      "candidate": 1,
+      "modified_or_missing": []
+    },
+    "source_documents": {
+      "prior": 155,
+      "candidate": 155,
+      "modified_or_missing": []
+    },
+    "claims": {
+      "prior": 571,
+      "candidate": 575,
+      "modified_or_missing": []
+    },
+    "review_decisions": {
+      "prior": 2541,
+      "candidate": 2559,
+      "modified_or_missing": []
+    },
+    "search_runs": {
+      "prior": 1,
+      "candidate": 1,
+      "modified_or_missing": []
+    },
+    "search_attempts": {
+      "prior": 3,
+      "candidate": 3,
+      "modified_or_missing": []
+    },
+    "search_sightings": {
+      "prior": 18,
+      "candidate": 18,
+      "modified_or_missing": []
+    },
+    "coverage_observations": {
+      "prior": 1,
+      "candidate": 1,
+      "modified_or_missing": []
+    }
+  },
+  "exact_diffs": [
+    {
+      "table": "ballot_measures",
+      "id": "f447f7d9-53fe-49bf-ac3a-dec05cd3a7a0",
+      "fields": {
+        "wording": {
+          "before": "Shall Ordinance No. O-26-06 proposing to change the zoning of real property located on McGuinn Road (191.12 acres) in the City of Wilmington, Ohio, be approved?",
+          "after": "Shall ordinance No. O-26-06 proposing to change the zoning of 191.12 acres of real property on McGuinn Road in Wilmington, Ohio, be approved?"
+        }
+      }
+    },
+    {
+      "table": "ballot_measures",
+      "id": "fd0aaef5-9562-4deb-855c-540eec59c62a",
+      "fields": {
+        "wording": {
+          "before": "Shall Ordinance No. O-26-07 proposing to change the zoning of real property located on US 68 South (170.11 acres) in Wilmington, Ohio, be approved?",
+          "after": "Shall Ordinance No. O-26-07 proposing to change the zoning of 170.11 acres of real property on US 68 South in Wilmington, Ohio, be approved?"
+        }
+      }
+    },
+    {
+      "table": "measure_provisions",
+      "id": "0759fa26-47c1-45f9-8c99-0f1dc440f3c4",
+      "fields": {
+        "claim_ids": {
+          "before": [
+            "5cf8aa02-caf0-469e-802a-47d0e679bf9d"
+          ],
+          "after": [
+            "78ae8f8c-bf63-4c3f-88ef-196606f243ac"
+          ]
+        }
+      }
+    },
+    {
+      "table": "measure_provisions",
+      "id": "b9e3da6d-3071-4146-a522-45df0694b89f",
+      "fields": {
+        "claim_ids": {
+          "before": [
+            "5d9e945c-dabb-4ecb-8c09-a4c97a99ccdd"
+          ],
+          "after": [
+            "d61c74b7-314d-42e4-864e-b1eb68177fdc"
+          ]
+        }
+      }
+    }
+  ],
+  "corrections": [
+    {
+      "ordinance": "O-26-06",
+      "measure_id": "f447f7d9-53fe-49bf-ac3a-dec05cd3a7a0",
+      "provision_id": "0759fa26-47c1-45f9-8c99-0f1dc440f3c4",
+      "before": "Shall Ordinance No. O-26-06 proposing to change the zoning of real property located on McGuinn Road (191.12 acres) in the City of Wilmington, Ohio, be approved?",
+      "after": "Shall ordinance No. O-26-06 proposing to change the zoning of 191.12 acres of real property on McGuinn Road in Wilmington, Ohio, be approved?",
+      "claim_replacements": {
+        "3af14b65-dd0d-45d1-b62e-431408094022": "e8620c41-9873-4bf9-ab13-b62fed0b93d0",
+        "5cf8aa02-caf0-469e-802a-47d0e679bf9d": "78ae8f8c-bf63-4c3f-88ef-196606f243ac"
+      }
+    },
+    {
+      "ordinance": "O-26-07",
+      "measure_id": "fd0aaef5-9562-4deb-855c-540eec59c62a",
+      "provision_id": "b9e3da6d-3071-4146-a522-45df0694b89f",
+      "before": "Shall Ordinance No. O-26-07 proposing to change the zoning of real property located on US 68 South (170.11 acres) in Wilmington, Ohio, be approved?",
+      "after": "Shall Ordinance No. O-26-07 proposing to change the zoning of 170.11 acres of real property on US 68 South in Wilmington, Ohio, be approved?",
+      "claim_replacements": {
+        "91948fe4-ff36-431b-b62e-81cc5f91013e": "3e75558f-0e29-473c-a832-f4615eb61d6e",
+        "5d9e945c-dabb-4ecb-8c09-a4c97a99ccdd": "d61c74b7-314d-42e4-864e-b1eb68177fdc"
+      }
+    }
+  ],
+  "immutable_claims_and_decisions_preserved": true,
+  "results_unchanged": true
+}

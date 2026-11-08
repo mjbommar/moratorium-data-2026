@@ -3,21 +3,21 @@
 Checkpoint: November 6, 2026, repository revision `78c9607a5fb492ef422e4560b02f4d95076dbf2c`.
 This is the execution order for finishing the [existing plan](research-and-ballot-expansion-plan.md), not a reduced replacement scope or a release approval. [TODO.md](../TODO.md) remains the requirement checklist. Counts below describe this checkpoint and must be reconciled at the final freeze.
 
-## Latest verified checkpoint — November 7, source `ea10653`
+## Latest verified checkpoint — November 7, after Wilmington wording correction
 
-This checkpoint supersedes the operational counts below; dated earlier sections remain historical. The canonical snapshot is `728c844addfe2c1ca8ec08bfe01480d8e2289f4c2f20faf1032a918f289b006a`.
+This checkpoint supersedes the operational counts below; dated earlier sections remain historical. The canonical snapshot is `3ed4545ce6cbf6d16f4a279b2379398bc61e3dd9f20b27788dccb6a870762801`.
 
 | Area | Verified state | Still required |
 |---|---|---|
 | Legacy data | 1,330 local records and 447 policy records | Full frozen 1,772-ID freshness dispositions, additions, source and later-history gaps; all 50 states and five sectors |
 | Ballot data | 53 measures, 59 retained result versions, 50 current result rows: 30 unofficial, 15 unknown, five certified labels | Final coordinator dispositions, certification/recount and implementation authority; review coverage does not establish current force |
-| Ballot review | All 53 IDs have primary and bounded independent per-axis reviews | Resolve conflicts and exact-wording proposals; reconcile five pending frozen groups and supported status dates |
+| Ballot review | All 53 IDs have primary and bounded independent per-axis reviews; eighteen finite final source-scoped coordinator returns | Resolve conflicts and exact-wording proposals; reconcile five pending frozen groups and supported status dates |
 | Provenance | Sixteen original acquisition joins plus four further joins verified in separate supplements | Remaining source-origin and authority gaps; acquisition dates do not renew on rereview |
 | Delivery | Five selected deployed ballot files match the specified successful Pages commit byte for byte | Whole release/consumer/copy reconciliation and final downloaded assets |
 | Extraction | Bounded journal reader increment independently accepted; root rerun passed 88 tests and 60 subtests | Endpoint/wire identity, prospective audit integration, semantic evaluation and frozen calibration/holdout |
 | GitHub release | Live release listing still contains only draft `v2026.11.1-rc.1` | Publish the fully reconciled final release and verify its assets after the remaining gates |
 
-Receipts: [ballot review](../work/research/2026-11-07/ballot-full-lifecycle-review/README.md), [Trenton correction and hosted files](../work/research/2026-11-07/trenton-result-classification/README.md), and [reader verification](../work/research/2026-11-07/native-journal-reader-development/README.md). The Wilmington wording candidate remains private and unapplied pending independent adjudication. Final consumer integration, scope-filtered analytical counts and publication remain incomplete.
+Receipts: [ballot review](../work/research/2026-11-07/ballot-full-lifecycle-review/README.md), [Trenton correction and hosted files](../work/research/2026-11-07/trenton-result-classification/README.md), and [reader verification](../work/research/2026-11-07/native-journal-reader-development/README.md). The independently reviewed [Wilmington retained-sample wording correction](../work/research/2026-11-07/wilmington-sample-wording-correction/README.md) is applied, preserving all result observations. This does not establish the final issued ballot or current force. Final consumer integration, scope-filtered analytical counts and publication remain incomplete.
 
 ## Verified starting point
 
