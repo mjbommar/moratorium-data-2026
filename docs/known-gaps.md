@@ -538,3 +538,8 @@ The [Coachella source review](../work/research/2026-11-07/coachella-legacy-sourc
 The [second Georgia subdivision](../work/research/2026-11-07/georgia-second-four-field-review/README.md) supports Banks County's original 30-day term and August 11 meeting date, but not its previously asserted intermediate 180-day chain or exact March 2027 endpoint. The endpoint is cleared and extension/current-force gaps remain explicit; Banks is outside the 217-item queue. The appendix inventory table now displays recorded typed original terms, excluding extension prose; this does not independently verify the legacy values it displays.
 
 The [Coachella expanded publication](../work/research/2026-11-07/coachella-restriction-history-migration/README.md) adds three historical events and the adopted prohibition record under profile 1.0.4, bringing events to ten and restriction records to two. The typed relation is policy succession only; formal termination, overlap and present force remain unresolved. The other restriction remains Edgewater's proposed charter change. No extra ballot measure or operative legacy moratorium is inferred.
+
+
+### Minnesota terminal outcomes — November 7 review
+
+The [bounded terminal-status review](../work/research/2026-11-07/minnesota-terminal-status-review/README.md) leaves eleven bill outcomes unknown. Their earlier failed/died assertions are preserved as unverified legacy text; a House adjournment record and last recorded actions do not establish the missing Senate/session/carryover and complete terminal histories. HF 16's enactment remains supported, with current force unresolved by provision. No record was removed and no source observation date was advanced. The wider Minnesota field contract remains incomplete.

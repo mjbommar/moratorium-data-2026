@@ -2,6 +2,8 @@
 
 ## 2026-11-07 — current working snapshot (unreleased)
 
+The [Minnesota terminal-status review](work/research/2026-11-07/minnesota-terminal-status-review/README.md) changes 33 fields across eleven bills: unsupported terminal classifications become unknown, with prior status assertions retained as explicitly unverified legacy text. All twelve rows were considered; HF 16’s enactment remains supported and unchanged. Thirty-four native source mappings verify with zero gaps. Policy/bill/enacted-bill totals remain 447/428/92; later outcomes and the wider field review remain open.
+
 Correct HF 3793’s sponsor-capture error from two retained official versions: [nine displayed authors](work/research/2026-11-07/minnesota-hf3793-sponsor-correction/README.md), no inferred party or renewed terminal-status conclusion. All headline counts remain unchanged; broader Minnesota review is incomplete.
 
 The [Michigan review](work/research/2026-11-07/michigan-policy-source-review/README.md) applies 62 fields across all fourteen existing records. Correct distinct tax carriers, conditional exemption terms/effective dates, proposal mechanisms and source-bounded histories; retain date/scope holds and current-force gaps. PA 181 becomes a statute row, so bill-only totals are 428 and enacted bill-only rows 92; all 447 policy records remain. Thirty-two source versions verify through native BC with zero gaps.

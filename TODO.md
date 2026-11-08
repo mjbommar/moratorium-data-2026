@@ -2,6 +2,8 @@
 
 Plan: [Research modernization and ballot-measure expansion](docs/research-and-ballot-expansion-plan.md).
 
+- [x] Apply 33 evidence-limit corrections to eleven Minnesota terminal statuses after reviewing all twelve records; retain HF 16 enactment, 96 verified spans and 34 native mappings ([packet](work/research/2026-11-07/minnesota-terminal-status-review/README.md)). Broader field-level completion remains open.
+
 - [x] Correct HF 3793’s nine displayed sponsor names under full guards, preserving unresolved party and terminal-status questions ([receipt](work/research/2026-11-07/minnesota-hf3793-sponsor-correction/README.md)); Minnesota batch 1 and 2 evidence contracts remain incomplete.
 
 - [x] Complete four disjoint retained-evidence primary lifecycle passes covering all 53 current measure IDs; correct two false source-availability gaps without changing legal status ([accounting](work/research/2026-11-07/ballot-full-lifecycle-review/README.md)).
