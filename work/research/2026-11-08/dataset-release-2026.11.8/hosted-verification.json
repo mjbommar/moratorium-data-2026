@@ -1,0 +1,81 @@
+{
+  "source_commit": "d366666369c4f5f81002027c8fadd259c1e01348",
+  "pages_run_id": 42535959552,
+  "pages_conclusion": "success",
+  "observed_at": "2026-11-08T23:38:40.148360+00:00",
+  "scope": "Nine selected reader-facing dataset files; source/payload consistency, not new legal-force findings.",
+  "observations": [
+    {
+      "path": "data/moratorium_inventory.csv",
+      "url": "https://mjbommar.github.io/moratorium-data-2026/data/moratorium_inventory.csv?release_verify=d366666369c4",
+      "status": 200,
+      "expected_sha256": "a1e92e1e3c82568f98a166cbb7721a548ea402fa3d22728d77e996d6475c2f9f",
+      "observed_sha256": "a1e92e1e3c82568f98a166cbb7721a548ea402fa3d22728d77e996d6475c2f9f",
+      "matches_source": true
+    },
+    {
+      "path": "data/state_legislation.csv",
+      "url": "https://mjbommar.github.io/moratorium-data-2026/data/state_legislation.csv?release_verify=d366666369c4",
+      "status": 200,
+      "expected_sha256": "5d278f4025ef08da46a12fff07437c06df63f88b4f638769d56b6c7340aa44c2",
+      "observed_sha256": "5d278f4025ef08da46a12fff07437c06df63f88b4f638769d56b6c7340aa44c2",
+      "matches_source": true
+    },
+    {
+      "path": "data/policy-scope/reviewed-included.csv",
+      "url": "https://mjbommar.github.io/moratorium-data-2026/data/policy-scope/reviewed-included.csv?release_verify=d366666369c4",
+      "status": 200,
+      "expected_sha256": "2a6fa7cd8a6edb24f02d4db636ebdeb918e8cc0a9fd5d118ee02904601d4fe61",
+      "observed_sha256": "2a6fa7cd8a6edb24f02d4db636ebdeb918e8cc0a9fd5d118ee02904601d4fe61",
+      "matches_source": true
+    },
+    {
+      "path": "data/summary_stats.json",
+      "url": "https://mjbommar.github.io/moratorium-data-2026/data/summary_stats.json?release_verify=d366666369c4",
+      "status": 200,
+      "expected_sha256": "073ee66ea140812e44cbe79fc83dac88c2477bf878bd7aae8f4cddfd241751dd",
+      "observed_sha256": "073ee66ea140812e44cbe79fc83dac88c2477bf878bd7aae8f4cddfd241751dd",
+      "matches_source": true
+    },
+    {
+      "path": "data/expanded/ballot_measures.jsonl",
+      "url": "https://mjbommar.github.io/moratorium-data-2026/data/expanded/ballot_measures.jsonl?release_verify=d366666369c4",
+      "status": 200,
+      "expected_sha256": "d78c0e4ff5ae866b6618193c9e7b39c7d29ce24f7ab9a70816799e3edf79937f",
+      "observed_sha256": "d78c0e4ff5ae866b6618193c9e7b39c7d29ce24f7ab9a70816799e3edf79937f",
+      "matches_source": true
+    },
+    {
+      "path": "data/expanded-csv/measure_results_current.csv",
+      "url": "https://mjbommar.github.io/moratorium-data-2026/data/expanded-csv/measure_results_current.csv?release_verify=d366666369c4",
+      "status": 200,
+      "expected_sha256": "1483edc2cecde6eb6d8e5ab19f26d30c88da229e9872317909d36138dc1522d3",
+      "observed_sha256": "1483edc2cecde6eb6d8e5ab19f26d30c88da229e9872317909d36138dc1522d3",
+      "matches_source": true
+    },
+    {
+      "path": "data/release_metadata.json",
+      "url": "https://mjbommar.github.io/moratorium-data-2026/data/release_metadata.json?release_verify=d366666369c4",
+      "status": 200,
+      "expected_sha256": "11f904329d359e7ed1d90bde4cb3cc0efc015e4de2054c67ce10d0c5b5d799a5",
+      "observed_sha256": "11f904329d359e7ed1d90bde4cb3cc0efc015e4de2054c67ce10d0c5b5d799a5",
+      "matches_source": true
+    },
+    {
+      "path": "docs/ballot-results.html",
+      "url": "https://mjbommar.github.io/moratorium-data-2026/docs/ballot-results.html?release_verify=d366666369c4",
+      "status": 200,
+      "expected_sha256": "ac4a4c3ecf8271fdfc02261130bd32d1997a2d422b682405249111973249fd4a",
+      "observed_sha256": "ac4a4c3ecf8271fdfc02261130bd32d1997a2d422b682405249111973249fd4a",
+      "matches_source": true
+    },
+    {
+      "path": "data/index.html",
+      "url": "https://mjbommar.github.io/moratorium-data-2026/data/index.html?release_verify=d366666369c4",
+      "status": 200,
+      "expected_sha256": "8aee8d259b113fc6e2bce3226b771dd933bfd32eca0f396c68b4dc4b124d408e",
+      "observed_sha256": "8aee8d259b113fc6e2bce3226b771dd933bfd32eca0f396c68b4dc4b124d408e",
+      "matches_source": true
+    }
+  ]
+}

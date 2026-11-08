@@ -1,8 +1,8 @@
 # November refresh closeout
 
-## Dataset release closeout
+## Dataset release completed
 
-The user reset the active goal to finish the dataset update. All 63 pending source-reviewed cells are now applied, plus 36 verification fields, across 54 records ([application](../work/research/2026-11-08/freshness-225-final-corrections/README.md)). Final validation and release delivery are the remaining closeout steps. The [release notes](release-notes-2026-11-08.md) state the actual coverage and remaining source questions. Experimental extraction/P4 remains separate and unvalidated; the dataset uses scoped coordinator adjudication. Earlier checkpoints below retain their dated states.
+The user reset the active goal to finish the dataset update. All 63 pending source-reviewed cells are now applied, plus 36 verification fields, across 54 records ([application](../work/research/2026-11-08/freshness-225-final-corrections/README.md)). [Dataset v2026.11.8](https://github.com/mjbommar/moratorium-data-2026/releases/tag/v2026.11.8) is published with ten verified assets. The [delivery receipt](../work/research/2026-11-08/dataset-release-2026.11.8/README.md) records two identical builds, downloaded-asset hashes, a clean restore of 1,499 members/45 generations, the public tag and nine selected hosted files. The [release notes](release-notes-2026-11-08.md) state the actual coverage and remaining source questions. Experimental extraction/P4 remains separate and unvalidated; the dataset uses scoped coordinator adjudication. Earlier checkpoints below retain their dated states.
 
 The [working bundle at acd9cea](../work/research/2026-11-08/working-bundle-acd9cea/README.md) restores and verifies 1,405 archive members and 45 generations. The [225-ID cohort coverage](../work/research/2026-11-08/freshness-225-review-coverage/README.md) now has complete primary and independent artifact sets, with 63 cells still pending coordinator adjudication. These are packaging/review-execution milestones; broader freshness, P4, consumer reconciliation and the final release remain open.
 

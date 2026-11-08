@@ -2,16 +2,16 @@
 
 Plan: [Research modernization and ballot-measure expansion](docs/research-and-ballot-expansion-plan.md).
 
-## Active: finish the dataset update
+## Completed: dataset update v2026.11.8
 
-The user reset the active goal to dataset closeout on November 8. Publish the reviewed data with explicit coverage and unresolved facts; experimental extraction/P4 and the larger research-modernization program remain separately tracked below.
+Published [v2026.11.8](https://github.com/mjbommar/moratorium-data-2026/releases/tag/v2026.11.8); [delivery verification](work/research/2026-11-08/dataset-release-2026.11.8/README.md). The user reset the active goal to dataset closeout on November 8. Publish the reviewed data with explicit coverage and unresolved facts; experimental extraction/P4 and the larger research-modernization program remain separately tracked below.
 
 - [x] Finish the 225-record primary/independent review cohort and adjudicate its pending correction queue.
 - [x] Apply the last 63 substantive cells and 36 verification fields; preserve all raw IDs and explicit scope limitations.
 - [x] Prepare November citation metadata and dataset release notes.
 - [x] Complete final data/release checks and pin the release source.
-- [ ] Build, restore and publish the dataset release with its verified assets.
-- [ ] Verify downloaded release assets and selected hosted data; record the final release receipt.
+- [x] Build, restore and publish the dataset release with its verified assets.
+- [x] Verify downloaded release assets and selected hosted data; record the final release receipt.
 
 ## Research-modernization program backlog
 
