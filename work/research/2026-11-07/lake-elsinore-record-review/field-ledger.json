@@ -1,0 +1,331 @@
+[
+  {
+    "field": "state",
+    "assigned_value": "California",
+    "disposition": "supported",
+    "reason": "Official city notice identifies California.",
+    "source_ids": [
+      "clerk_notice"
+    ],
+    "evidence_locator": "clerk_notice: city clerk original adoption notice, event 2026-10-06, PDF p.1 lines 3–8, 12–15, 21–32; retained 2026-11-05",
+    "follow_up": "Retain; revisit if authoritative contradictory evidence or corrected internal identity appears.",
+    "before": "California",
+    "after": "California"
+  },
+  {
+    "field": "state_abbrev",
+    "assigned_value": "CA",
+    "disposition": "supported",
+    "reason": "CA is standard abbreviation for California; city notice identifies California.",
+    "source_ids": [
+      "clerk_notice"
+    ],
+    "evidence_locator": "clerk_notice: city clerk original adoption notice, event 2026-10-06, PDF p.1 lines 3–8, 12–15, 21–32; retained 2026-11-05; CA is conventional abbreviation",
+    "follow_up": "Retain; revisit if authoritative contradictory evidence or corrected internal identity appears.",
+    "before": "CA",
+    "after": "CA"
+  },
+  {
+    "field": "jurisdiction",
+    "assigned_value": "Lake Elsinore",
+    "disposition": "supported",
+    "reason": "Official city notice identifies Lake Elsinore.",
+    "source_ids": [
+      "clerk_notice"
+    ],
+    "evidence_locator": "clerk_notice: city clerk original adoption notice, event 2026-10-06, PDF p.1 lines 3–8, 12–15, 21–32; retained 2026-11-05",
+    "follow_up": "Retain; revisit if authoritative contradictory evidence or corrected internal identity appears.",
+    "before": "Lake Elsinore",
+    "after": "Lake Elsinore"
+  },
+  {
+    "field": "jurisdiction_type",
+    "assigned_value": "City",
+    "disposition": "supported",
+    "reason": "Official notice identifies City Council and City of Lake Elsinore.",
+    "source_ids": [
+      "clerk_notice"
+    ],
+    "evidence_locator": "clerk_notice: city clerk original adoption notice, event 2026-10-06, PDF p.1 lines 3–8, 12–15, 21–32; retained 2026-11-05",
+    "follow_up": "Retain; revisit if authoritative contradictory evidence or corrected internal identity appears.",
+    "before": "City",
+    "after": "City"
+  },
+  {
+    "field": "date_enacted",
+    "assigned_value": "2026-08-25 (City Council unanimous)",
+    "disposition": "partially_supported",
+    "reason": "Local report states August 25 adoption, but does not establish unanimous vote; original minutes or executed 1539 needed.",
+    "source_ids": [
+      "local_news"
+    ],
+    "evidence_locator": "local_news: Riverside Record secondary report, 2026-10-12, HTML lines 570–594; retained 2026-11-05 (line 570, August 25 meeting); no original vote certified",
+    "follow_up": "Obtain adopted 1539 and August 25 minutes to verify date and original vote.",
+    "before": "2026-08-25 (City Council unanimous)",
+    "after": "2026-08-25 (reported; original adoption record not recovered)"
+  },
+  {
+    "field": "duration",
+    "assigned_value": "45-day emergency ordinance; extendable up to two years total",
+    "disposition": "partially_supported",
+    "reason": "Local report attributes an initial 45-day term; original operative term and two-year extendability not demonstrated by notice or original act.",
+    "source_ids": [
+      "local_news",
+      "clerk_notice"
+    ],
+    "evidence_locator": "local_news: Riverside Record secondary report, 2026-10-12, HTML lines 570–594; retained 2026-11-05 (line 570); clerk_notice: city clerk original adoption notice, event 2026-10-06, PDF p.1 lines 3–8, 12–15, 21–32; retained 2026-11-05 (extension only)",
+    "follow_up": "Obtain executed 1539 and applicable authority for operative term, effective anchor, and extension authorization.",
+    "before": "45-day emergency ordinance; extendable up to two years total",
+    "after": "45-day initial moratorium reported; original adopted term and extension authority not independently verified"
+  },
+  {
+    "field": "legal_basis",
+    "assigned_value": "Emergency ordinance (Govt. Code 65858) pausing new data center applications/entitlements",
+    "disposition": "partially_supported",
+    "reason": "Notice states 1540 enacted under section 65858 and extends 1539 for acceptance and processing of new entitlement applications; original scope and exceptions still need 1539.",
+    "source_ids": [
+      "clerk_notice"
+    ],
+    "evidence_locator": "clerk_notice: city clerk original adoption notice, event 2026-10-06, PDF p.1 lines 3–8, 12–15, 21–32; retained 2026-11-05 (lines 3–8, 12–15; 1540 scope)",
+    "follow_up": "Inspect original and adopted 1540 texts for exact application scope, exceptions and authority.",
+    "before": "Emergency ordinance (Govt. Code 65858) pausing new data center applications/entitlements",
+    "after": "Emergency ordinance (Govt. Code 65858) pausing new data center applications/entitlements"
+  },
+  {
+    "field": "trigger",
+    "assigned_value": "Requested by Councilmember Steve Manos after resident concerns; city zoning code does not specifically address data centers.",
+    "disposition": "partially_supported",
+    "reason": "News attributes request to Manos, resident concerns and zoning gap to city attorney; original staff findings unverified.",
+    "source_ids": [
+      "local_news"
+    ],
+    "evidence_locator": "local_news: Riverside Record secondary report, 2026-10-12, HTML lines 570–594; retained 2026-11-05 (lines 570–578, attributed statements)",
+    "follow_up": "Check contemporaneous staff report and minutes for original reasons.",
+    "before": "Requested by Councilmember Steve Manos after resident concerns; city zoning code does not specifically address data centers.",
+    "after": "Requested by Councilmember Steve Manos after resident concerns; city zoning code does not specifically address data centers."
+  },
+  {
+    "field": "current_status",
+    "assigned_value": "The City Clerk certified that the Council adopted Ordinance 2026-1540 on 2026-10-06, 5-0, extending Ordinance 2026-1539 by 10 months and 15 days. Documented extension reviewed 2026-11-05; later termination or amendment not independently ruled out.",
+    "disposition": "supported_historical",
+    "reason": "Clerk notice certifies 1540 adoption October 6, five ayes, extension 10 months 15 days; review on November 5 is not source event date or current force. Later actions and stays unsearched here.",
+    "source_ids": [
+      "clerk_notice"
+    ],
+    "evidence_locator": "clerk_notice: city clerk original adoption notice, event 2026-10-06, PDF p.1 lines 3–8, 12–15, 21–32; retained 2026-11-05; review date is an observation, not another event",
+    "follow_up": "Obtain 1540 operative text and check later council, clerk and court history to declared cutoff.",
+    "before": "The City Clerk certified that the Council adopted Ordinance 2026-1540 on 2026-10-06, 5-0, extending Ordinance 2026-1539 by 10 months and 15 days. Documented extension reviewed 2026-11-05; later termination or amendment not independently ruled out.",
+    "after": "The City Clerk certified that the Council adopted Ordinance 2026-1540 on 2026-10-06, 5-0, extending Ordinance 2026-1539 by 10 months and 15 days. Documented extension reviewed 2026-11-05; later termination or amendment not independently ruled out. [VERIFY: original ordinance and term, operative endpoint, subsequent amendments, termination, replacement and litigation.]"
+  },
+  {
+    "field": "affected_projects",
+    "assigned_value": "V22 Investments LLC's Elsinore Heights Industrial Project withdrew its optional data-center use component separately, around the same time; the overall project remains under review.",
+    "disposition": "partially_supported",
+    "reason": "News reports Elsinore Heights developer withdrew optional data-center component, with application being updated; it does not identify V22 or establish present overall project status.",
+    "source_ids": [
+      "local_news"
+    ],
+    "evidence_locator": "local_news: Riverside Record secondary report, 2026-10-12, HTML lines 570–594; retained 2026-11-05 (lines 590–594; developer unnamed)",
+    "follow_up": "Inspect contemporaneous project filings for developer identity, actual withdrawal and current project status; withdrawal is not repeal.",
+    "before": "V22 Investments LLC's Elsinore Heights Industrial Project withdrew its optional data-center use component separately, around the same time; the overall project remains under review.",
+    "after": "News reported that the Elsinore Heights Industrial Project developer withdrew its optional data-center component and was updating its application; current project status not independently verified."
+  },
+  {
+    "field": "outcome",
+    "assigned_value": "City studying scale/impacts before determining regulatory approach.",
+    "disposition": "partially_supported",
+    "reason": "Notice describes establishing standards during extension; secondary report describes staff review at that time, not present status or final outcome.",
+    "source_ids": [
+      "clerk_notice",
+      "local_news"
+    ],
+    "evidence_locator": "clerk_notice: city clerk original adoption notice, event 2026-10-06, PDF p.1 lines 3–8, 12–15, 21–32; retained 2026-11-05 (lines 12–15); local_news HTML lines 562–564, 2026-10-12",
+    "follow_up": "Review later development standards and regulatory action before describing present outcome.",
+    "before": "City studying scale/impacts before determining regulatory approach.",
+    "after": "City studying scale/impacts before determining regulatory approach."
+  },
+  {
+    "field": "has_verify_tags",
+    "assigned_value": "False",
+    "disposition": "confirmed_baseline_recompute_after_marker",
+    "reason": "False matches absence of literal [VERIFY] in assigned row; not proof fields are verified.",
+    "source_ids": [],
+    "evidence_locator": "live CSV row and scripts/apply_research.py recompute_verify lines 75–76, 277–280, reviewed 2026-11-07; internal metadata, not legal evidence",
+    "follow_up": "Retain; revisit if authoritative contradictory evidence or corrected internal identity appears.",
+    "before": "False",
+    "after": "True"
+  },
+  {
+    "field": "verify_count",
+    "assigned_value": "0",
+    "disposition": "confirmed_baseline_recompute_after_marker",
+    "reason": "Zero matches literal [VERIFY] count in assigned row; unresolved evidence gaps remain.",
+    "source_ids": [],
+    "evidence_locator": "live CSV row and scripts/apply_research.py recompute_verify lines 75–76, 277–280, reviewed 2026-11-07; internal metadata, not legal evidence",
+    "follow_up": "Retain; revisit if authoritative contradictory evidence or corrected internal identity appears.",
+    "before": "0",
+    "after": "1"
+  },
+  {
+    "field": "cite_count",
+    "assigned_value": "0",
+    "disposition": "confirmed_derived",
+    "reason": "Baseline zero is present; legacy citation marker count is not independently recomputed here and does not imply no sources.",
+    "source_ids": [],
+    "evidence_locator": "live CSV row and docs/codebook.md line 28; legacy metadata, not legal evidence",
+    "follow_up": "Retain; revisit if authoritative contradictory evidence or corrected internal identity appears.",
+    "before": "0",
+    "after": "0"
+  },
+  {
+    "field": "activity_level",
+    "assigned_value": "Medium",
+    "disposition": "unresolved",
+    "reason": "State-wide Medium classification is not established by this city evidence; assess state-wide methodology and baseline.",
+    "source_ids": [],
+    "evidence_locator": "live CSV row and docs/codebook.md line 29; classification, no evidentiary source inspected",
+    "follow_up": "Inspect statewide classification methodology and source snapshot.",
+    "before": "Medium",
+    "after": "Medium"
+  },
+  {
+    "field": "enacted_status",
+    "assigned_value": "extended",
+    "disposition": "supported_historical",
+    "reason": "Extended classification follows clerk-certified 1540 action, not proof of legal force at cutoff.",
+    "source_ids": [
+      "clerk_notice"
+    ],
+    "evidence_locator": "clerk_notice: city clerk original adoption notice, event 2026-10-06, PDF p.1 lines 3–8, 12–15, 21–32; retained 2026-11-05",
+    "follow_up": "Keep historical extended action; independently check later legal history and force.",
+    "before": "extended",
+    "after": "extended"
+  },
+  {
+    "field": "moratorium_id",
+    "assigned_value": "ca-lake-elsinore-2026",
+    "disposition": "confirmed_internal",
+    "reason": "Internal stable ID matches the live row; notice links 1540 to 1539, but does not independently establish ID creation or original adoption date.",
+    "source_ids": [
+      "clerk_notice"
+    ],
+    "evidence_locator": "live CSV row and scripts/apply_research.py recompute_verify lines 75–76, 277–280, reviewed 2026-11-07; internal metadata, not legal evidence; clerk_notice: city clerk original adoption notice, event 2026-10-06, PDF p.1 lines 3–8, 12–15, 21–32; retained 2026-11-05",
+    "follow_up": "Retain; revisit if authoritative contradictory evidence or corrected internal identity appears.",
+    "before": "ca-lake-elsinore-2026",
+    "after": "ca-lake-elsinore-2026"
+  },
+  {
+    "field": "latitude",
+    "assigned_value": "33.668077",
+    "disposition": "unresolved",
+    "reason": "Plausible city coordinate but boundary-centroid/geocoder provenance not inspected; no precision acceptance.",
+    "source_ids": [],
+    "evidence_locator": "live CSV row; no retained geocoder/boundary source identified",
+    "follow_up": "Verify boundary/geocoder and point methodology.",
+    "before": "33.668077",
+    "after": "33.668077"
+  },
+  {
+    "field": "longitude",
+    "assigned_value": "-117.327262",
+    "disposition": "unresolved",
+    "reason": "Plausible city coordinate but boundary-centroid/geocoder provenance not inspected; no precision acceptance.",
+    "source_ids": [],
+    "evidence_locator": "live CSV row; no retained geocoder/boundary source identified",
+    "follow_up": "Verify boundary/geocoder and point methodology.",
+    "before": "-117.327262",
+    "after": "-117.327262"
+  },
+  {
+    "field": "date_enacted_iso",
+    "assigned_value": "2026-08-25",
+    "disposition": "secondary_only",
+    "reason": "News reports August 25 adoption; no original primary action or exact enacted version recovered.",
+    "source_ids": [
+      "local_news"
+    ],
+    "evidence_locator": "local_news: Riverside Record secondary report, 2026-10-12, HTML lines 570–594; retained 2026-11-05 (line 570)",
+    "follow_up": "Verify day against original minutes or executed 1539.",
+    "before": "2026-08-25",
+    "after": "2026-08-25"
+  },
+  {
+    "field": "date_enacted_uncertainty",
+    "assigned_value": "exact",
+    "disposition": "needs_qualification",
+    "reason": "Exact day is reported, but original action not recovered; unverified expresses evidentiary confidence, not imprecise calendar granularity.",
+    "source_ids": [
+      "local_news"
+    ],
+    "evidence_locator": "local_news: Riverside Record secondary report, 2026-10-12, HTML lines 570–594; retained 2026-11-05 (line 570); codebook line 35",
+    "follow_up": "Reassess confidence when original action is obtained.",
+    "before": "exact",
+    "after": "unverified"
+  },
+  {
+    "field": "duration_days",
+    "assigned_value": "45",
+    "disposition": "secondary_only",
+    "reason": "News explicitly reports 45 days, but source-specific original-act requirement remains open; no primary adopted-term proof.",
+    "source_ids": [
+      "local_news"
+    ],
+    "evidence_locator": "local_news: Riverside Record secondary report, 2026-10-12, HTML lines 570–594; retained 2026-11-05 (line 570); codebook line 36",
+    "follow_up": "Confirm exact initial term from executed 1539; never infer endpoint from 45 days.",
+    "before": "45",
+    "after": "45"
+  },
+  {
+    "field": "duration_kind",
+    "assigned_value": "fixed_days",
+    "disposition": "secondary_only",
+    "reason": "Fixed_days follows reported 45 days, but original adopted term remains unverified.",
+    "source_ids": [
+      "local_news"
+    ],
+    "evidence_locator": "local_news: Riverside Record secondary report, 2026-10-12, HTML lines 570–594; retained 2026-11-05 (line 570); codebook line 37",
+    "follow_up": "Confirm original term and type from executed 1539.",
+    "before": "fixed_days",
+    "after": "fixed_days"
+  },
+  {
+    "field": "current_end_date_iso",
+    "assigned_value": "",
+    "disposition": "appropriately_blank",
+    "reason": "Clerk notice gives extension length without endpoint or anchor. Register explicitly calculates endpoint; no arithmetic accepted.",
+    "source_ids": [
+      "clerk_notice",
+      "register"
+    ],
+    "evidence_locator": "clerk_notice: city clerk original adoption notice, event 2026-10-06, PDF p.1 lines 3–8, 12–15, 21–32; retained 2026-11-05 (no endpoint); register secondary, modified 2026-11-04, retained 2026-11-05, HTML line 29, labels its endpoint worked out from length",
+    "follow_up": "Obtain adopted terms, anchor and any later action; leave blank pending explicit authoritative endpoint.",
+    "before": "",
+    "after": ""
+  },
+  {
+    "field": "sectors",
+    "assigned_value": "[\"data_center\"]",
+    "disposition": "supported_historical",
+    "reason": "Notice identifies data centers as covered by extension; exact original scope and exclusions require adopted ordinance.",
+    "source_ids": [
+      "clerk_notice"
+    ],
+    "evidence_locator": "clerk_notice: city clerk original adoption notice, event 2026-10-06, PDF p.1 lines 3–8, 12–15, 21–32; retained 2026-11-05 (lines 6–8, 12–15)",
+    "follow_up": "Confirm precise scope and exceptions in original and extension ordinances.",
+    "before": "[\"data_center\"]",
+    "after": "[\"data_center\"]"
+  },
+  {
+    "field": "trigger_categories",
+    "assigned_value": "[\"regulatory_gap\",\"grid_energy\",\"water\"]",
+    "disposition": "partially_supported",
+    "reason": "News describes zoning gap and concerns over energy and water; official original findings and complete reasons unverified.",
+    "source_ids": [
+      "local_news"
+    ],
+    "evidence_locator": "local_news: Riverside Record secondary report, 2026-10-12, HTML lines 570–594; retained 2026-11-05 (lines 570–578)",
+    "follow_up": "Verify underlying findings against original staff report and adopted ordinance.",
+    "before": "[\"regulatory_gap\",\"grid_energy\",\"water\"]",
+    "after": "[\"regulatory_gap\",\"grid_energy\",\"water\"]"
+  }
+]

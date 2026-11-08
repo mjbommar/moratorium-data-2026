@@ -1,0 +1,40 @@
+{
+  "checked_at": "2026-11-08T00:08:48.086245+00:00",
+  "baseline_commit": "25dba7a054ce93c98fdc2937dfabf884ee17c2ff",
+  "datasets": {
+    "moratorium_inventory.csv": {
+      "rows": 1330,
+      "existing_fields_changed": 7,
+      "existing_records_changed": 1,
+      "new_ids": [],
+      "old_ids_and_order_retained": true,
+      "sha256": "fd336867f64f4aca06a7f1150d9539b70b12fa8b23b54a5bc13057bb94e0f5ee"
+    },
+    "state_legislation.csv": {
+      "rows": 447,
+      "existing_fields_changed": 59,
+      "existing_records_changed": 13,
+      "new_ids": [
+        "md-sb0596-2026",
+        "md-sb0841-2026",
+        "md-sb0427-2026",
+        "md-executive-order-01-01-2026-16-2026"
+      ],
+      "old_ids_and_order_retained": true,
+      "sha256": "6b9343e8ee367d86994f72e19908de03234045df6cada17763e144c8694352da"
+    }
+  },
+  "make_data_site_check": "passed terminal0",
+  "full_check_log_sha256": "7fa5635fd3ffc0d8cbafcda0624c37f0bbf7e351767796a14e6b98944a29db56",
+  "legacy_errors": 0,
+  "legacy_warnings": 503,
+  "documented_numbers": 68,
+  "focused_tests": {
+    "policy_scope_reviews": 8,
+    "policy_form_statistics": 1,
+    "extraction_derivations": 5
+  },
+  "scope_registry": "one explicit exclusion, no automatic filters or adjusted counts",
+  "expanded_snapshot_unchanged": "45abb667f3a2d8c0001de0a78657c9b095e56cab421f5d93302d88fbcb91d9a7",
+  "scope": "Scoped applied records, source metadata and generated artifacts; not national freshness, renewed legal force, all consumer completion or final release."
+}

@@ -1,0 +1,9 @@
+# Maryland policy source recovery — November 7
+
+Forty additional source versions were preserved in the admitted private archive: 35 selected from the two independently reviewed legislative batches and five from a bounded discovery follow-up. Native byte replay verifies all 40 selected mappings with zero payload gaps. The [receipt](native-archive-receipt.json) records original hashes and capture observations; raw bodies, complete extracted text and provider responses remain private.
+
+The first 35 include distinct House/Senate histories, bills, enacted chapter texts and the final legislative index. Their source dates and captured legislative stages are separate from current force. The discovery follow-up retains a secondary September executive-order report, a July Frederick County announcement, the governor homepage rendered through native bc-web/Pydoll, its observed official order-index link, and the linked PDF for Executive Order 01.01.2026.16. Source capture alone does not approve a new row or close companion identity, scope or legal-effect questions.
+
+One native Exa search used its authoritative-domain filter; one SerpAPI search found broader local and policy leads. Exa reports $0.007; SerpAPI supplied no price and remains unpriced, not free. All 14 fetch reservations and the two searches in the original shared Maryland review client are consumed. No counters or namespaces were reset. The HTML index and actual PDF are reviewed evidence; search titles and snippets are discovery only.
+
+The newly found governor order and Frederick City lead require their own source and identity review. City and county must not be merged. Scope-sensitive infrastructure counts must also distinguish a retained research-data platform record from regulation of physical data-center development. Field promotion, consumer reconciliation, national freshness and final release remain separate requirements.

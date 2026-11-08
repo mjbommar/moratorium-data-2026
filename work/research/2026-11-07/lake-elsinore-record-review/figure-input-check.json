@@ -1,0 +1,56 @@
+{
+  "checks": {
+    "state_count_inputs": true,
+    "sector_inputs": true,
+    "monthly_recorded_date_inputs": true,
+    "yearly_recorded_date_inputs": true
+  },
+  "artifacts": [
+    {
+      "path": "figures/pdf/map-moratorium-counts.pdf",
+      "sha256": "11c4a74acbbc10a3c609b1215117d17178d509d7b83009f944b875c6773a5cb3",
+      "matches_baseline_commit": true
+    },
+    {
+      "path": "figures/pdf/map-sector-composition.pdf",
+      "sha256": "a7e4616469f15565bf0d650b3a889cc6c79ac29e800c8f8e245deda9518f6060",
+      "matches_baseline_commit": true
+    },
+    {
+      "path": "figures/png/map-moratorium-counts.png",
+      "sha256": "5eecc75095cc34af3c2f499c2592f3c4744651f5fbb330ba7c46a48cf436298a",
+      "matches_baseline_commit": true
+    },
+    {
+      "path": "figures/png/map-sector-composition.png",
+      "sha256": "17eb11bd21ab6f8301ead8d7df70184ae0d3ba0dacd0c3ea236e11321456c629",
+      "matches_baseline_commit": true
+    },
+    {
+      "path": "figures/svg/map-moratorium-counts.svg",
+      "sha256": "68844b1e95605fdaa7346d0df4b4a73e7b833c4c1fe86f98f27dcd8315af5417",
+      "matches_baseline_commit": true
+    },
+    {
+      "path": "figures/svg/map-sector-composition.svg",
+      "sha256": "1d01bf4c7571c5b509c5b2b03abe7b1f07fda15e0e1e9496c677dca321e819dd",
+      "matches_baseline_commit": true
+    },
+    {
+      "path": "figures/pdf/map-timeline-heatmap.pdf",
+      "sha256": "3a3df2d364725663d09c2d54146dfb13b7b34f885063a91ded270fd996fe0707",
+      "matches_baseline_commit": true
+    },
+    {
+      "path": "figures/png/map-timeline-heatmap.png",
+      "sha256": "79b9bea70fc71b3809b21e1a0a93d1b2c03a8775fb6be0ab418e6e1930af2f63",
+      "matches_baseline_commit": true
+    },
+    {
+      "path": "figures/svg/map-timeline-heatmap.svg",
+      "sha256": "1ffed6e094abce077b7e9dece0b00bfe1e05b8dbadcc2b252d5b8e4c3eaa5953",
+      "matches_baseline_commit": true
+    }
+  ],
+  "scope": "These local-record plot inputs are unchanged. No figure rerender or renewed legal-force finding is claimed; state-policy counts are separately regenerated."
+}

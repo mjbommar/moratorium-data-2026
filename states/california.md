@@ -324,16 +324,16 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 
 - **Type:** City
 - **Recorded status:** 🟢 Extended
-- **Date enacted:** 2026-08-25 (City Council unanimous)
-- **Normalized date:** `2026-08-25` (exact)
-- **Duration:** 45-day emergency ordinance; extendable up to two years total
+- **Date enacted:** 2026-08-25 (reported; original adoption record not recovered)
+- **Normalized date:** `2026-08-25` (unverified)
+- **Duration:** 45-day initial moratorium reported; original adopted term and extension authority not independently verified
 - **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `ca-lake-elsinore-2026`
 - **Legal basis:** Emergency ordinance (Govt. Code 65858) pausing new data center applications/entitlements
 - **What prompted it:** Requested by Councilmember Steve Manos after resident concerns; city zoning code does not specifically address data centers.
-- **Affected projects:** V22 Investments LLC's Elsinore Heights Industrial Project withdrew its optional data-center use component separately, around the same time; the overall project remains under review.
-- **Detailed status:** The City Clerk certified that the Council adopted Ordinance 2026-1540 on 2026-10-06, 5-0, extending Ordinance 2026-1539 by 10 months and 15 days. Documented extension reviewed 2026-11-05; later termination or amendment not independently ruled out.
+- **Affected projects:** News reported that the Elsinore Heights Industrial Project developer withdrew its optional data-center component and was updating its application; current project status not independently verified.
+- **Detailed status:** The City Clerk certified that the Council adopted Ordinance 2026-1540 on 2026-10-06, 5-0, extending Ordinance 2026-1539 by 10 months and 15 days. Documented extension reviewed 2026-11-05; later termination or amendment not independently ruled out. [VERIFY: original ordinance and term, operative endpoint, subsequent amendments, termination, replacement and litigation.]
 - **Outcome:** City studying scale/impacts before determining regulatory approach.
 
 ### Los Angeles County

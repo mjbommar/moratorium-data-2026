@@ -2,6 +2,10 @@
 
 ## 2026-11-07 — current working snapshot (unreleased)
 
+The [Maryland review](work/research/2026-11-07/maryland-policy-source-review/README.md) applies 59 fields across thirteen existing rows and adds three separately sourced Senate companions plus the governor's September 23 executive order. Raw policy rows become 447, bill-type rows 429 and enacted bill-type rows remain 93. Preserve all old IDs and distinct House/Senate outcomes; record a research-data platform scope exclusion separately without deleting its historical row or publishing adjusted totals. The governor order conditions state review and support; it is not a statewide moratorium or an enacted tax-exemption repeal.
+
+The [Lake Elsinore review](work/research/2026-11-07/lake-elsinore-record-review/README.md) applies seven cells after 26 independent assessments; the whole-record disposition remains unresolved. Preserve the clerk-certified October extension while qualifying original adoption, term and project identity; recompute verification annotations. The prior Pydoll capture identifies a different ordinance and cannot establish the original moratorium. Six source mappings pass native replay with zero gaps.
+
 The [Massachusetts review](work/research/2026-11-07/massachusetts-policy-source-review/README.md) applies 28 fields across five records following 95 field assessments and an independent original/new-draft supplement. Reclassify Chapter 238 as a statute and incentive support; correct the S.37/S.2630 compound mechanism after recovering both texts. Policy rows remain 443, typed bills become 426 and enacted typed bills 93; this form correction is not repeal. Preserve distinct new-draft identity, ultimate-disposition and current-force gaps. Sixteen source versions pass native replay with zero gaps.
 
 The [California local review](work/research/2026-11-07/overdue-local-record-review-ca/README.md) applies ten cells across Arcata, Calaveras County and Eureka after 78 independent field assessments. Correct the Arcata inquiry size and qualify three historical status narratives; recompute six verification annotations. All three whole-record dispositions remain unresolved. Nine existing source mappings pass native replay with zero gaps.
@@ -161,7 +165,7 @@ These are inventory classifications, not independently renewed legal-force findi
 | Classified active or extended | **1079** |
 | Pending or not yet effective | **79** |
 | Ended (replaced, expired, or rescinded) | **172** |
-| Rows we still want to confirm (`[VERIFY]`) | **727** |
+| Rows we still want to confirm (`[VERIFY]`) | **728** |
 | States with at least one | **47** |
 
 Current totals remain 1,330 local records (1,079 active/extended classifications),

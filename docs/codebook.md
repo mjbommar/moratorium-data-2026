@@ -135,6 +135,14 @@ the single largest source of error in a legislative tracker, so the refresh
 records the governing session context per state in the audit log under
 `work/audit/`.
 
+## Reviewed state-policy analytical scope
+
+[`data/state_policy_scope_reviews.jsonl`](../data/state_policy_scope_reviews.jsonl) records explicit reviewed inclusion, exclusion or unresolved decisions for an analytical scope while preserving the historical CSV row and permanent policy ID. The current research-data platform exclusion concerns computational research-data sharing, not regulation of physical data-center development. Raw CSV, bill-type and enacted-category row totals retain that record; they are not scope-adjusted infrastructure or unique-instrument counts.
+
+Each append-only observation contains a canonical UUID decision ID, policy ID, analytical scope, decision, reviewer and zoned review timestamp, rationale, source URL/body hash/locator evidence, historical reviewed-record hash, and an identity guard (`state_abbrev`, `bill`, `policy_instrument_type`). A later decision must supersede the immediately preceding decision for that same policy ID and scope. Superseded identity guards describe history; only the active guard must match the current row. A title or legal-form correction can therefore be explicitly re-reviewed without rewriting the old observation. The historical record hash is provenance, not a lock on unrelated current cells.
+
+The dataset validator rejects orphan IDs, stale active identity guards, malformed evidence, duplicate decisions and ambiguous or cross-identity supersession. An absent decision means unreviewed, not automatically included. This registry does not delete rows or automatically filter existing consumers. Scope-adjusted statistics require explicit consumer implementation and verification; no adjusted totals are asserted here.
+
 ## `data/summary_stats.json`
 
 A single JSON object with top-level aggregates. Useful for embedding live counts on a page or programmatic comparison across releases.
@@ -144,12 +152,12 @@ The page generator also uses a legacy internal summary key, `in_force`, for the 
 Top-level keys:
 
 - `total_local_moratoria`: 1330 — total rows in the inventory
-- `total_state_bills`: 426 — rows using the `bill` type in state_legislation.csv, excluding separately typed resolutions, precursors and amendments; not a deduplicated independent-bill count
-- `total_state_policy_actions`: 443 — all state-policy rows, including binding non-bill actions
+- `total_state_bills`: 429 — rows using the `bill` type in state_legislation.csv, excluding separately typed resolutions, precursors and amendments; not a deduplicated independent-bill count
+- `total_state_policy_actions`: 447 — all state-policy rows, including binding non-bill actions
 - `states_with_moratoria`: 47
 - `states_without_moratoria`: 3
-- `moratoria_with_verify_tags`: 727 — rows with at least one `[VERIFY]` flag remaining in any field (matches `has_verify_tags = True` in the inventory CSV)
-- `moratoria_without_verify_tags`: 603
+- `moratoria_with_verify_tags`: 728 — rows with at least one `[VERIFY]` flag remaining in any field (matches `has_verify_tags = True` in the inventory CSV)
+- `moratoria_without_verify_tags`: 602
 - `enacted_status_breakdown`: `{active, extended, replaced, expired, rescinded, pending}` — the breakdown of the 1330 working inventory rows by `enacted_status`
 - `sweep_coverage`: which states received a systematic month-by-month sweep for the release's window, plus `swept_states_with_no_adoptions_in_window`. **Read this before interpreting a state's absence.** A state with no rows in a window may have been searched and found empty, or may never have been searched; the inventory alone cannot tell you which. Note that `swept_states_with_no_adoptions_in_window` is about the window, not the state's whole history -- Idaho appears there while still carrying a 2025 instrument. Generated from [`data/sweep_coverage.json`](../data/sweep_coverage.json)
 - `top_states_by_moratoria`: list of `[state_name, count]` pairs, top 10 (fixed API shape; README prose includes all states tied at tenth)

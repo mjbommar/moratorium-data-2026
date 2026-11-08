@@ -523,6 +523,11 @@ def main() -> int:
     except (ValueError, OSError, KeyError) as exc:
         rep.error('identity.registry', str(exc))
     check_legislation(leg, leg_cols, rep)
+    from policy_scope_reviews import load_reviews
+    try:
+        load_reviews(LEG.parent / "state_policy_scope_reviews.jsonl", leg)
+    except (ValueError, OSError) as exc:
+        rep.error("policy.scope_registry", str(exc))
     check_summary_stats(inv, leg, stats, rep)
 
     if args.json:

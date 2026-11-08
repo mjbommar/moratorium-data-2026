@@ -8,7 +8,7 @@ record-level observations and `[VERIFY]` markers identify unresolved work.
 ### Complete record-level freshness acceptance
 
 All original collection jobs finished, but collection completion does not establish
-complete fresh review of the current 1,330 local and 443 state-policy records.
+complete fresh review of the current 1,330 local and 447 state-policy records.
 The [field ledger](../work/audit/refresh-field-accounting-2026-11-07.md) separates
 returned outcomes and logged edits. Two November 7 full-table index drafts matched
 every ID and row hash in their then-current snapshots, but did not independently adjudicate source authority,
@@ -51,7 +51,7 @@ open. New retrieval times do not renew the original report publication dates.
 
 ### Small-township records that aren't online
 
-Many small townships and rural counties don't post agendas, minutes, or signed ordinances on the web. When we know a moratorium exists from news coverage but can't pull the underlying instrument, we record it with a `[VERIFY]` note in the relevant inventory field rather than guessing at the ordinance number or exact date. **727 of the 1330 inventory rows** have at least one such evidence-ceiling note (`has_verify_tags = True`). The earlier v2026.04.4 snapshot had 123 flagged rows out of 222; these are different inventory populations.
+Many small townships and rural counties don't post agendas, minutes, or signed ordinances on the web. When we know a moratorium exists from news coverage but can't pull the underlying instrument, we record it with a `[VERIFY]` note in the relevant inventory field rather than guessing at the ordinance number or exact date. **728 of the 1330 inventory rows** have at least one such evidence-ceiling note (`has_verify_tags = True`). The earlier v2026.04.4 snapshot had 123 flagged rows out of 222; these are different inventory populations.
 
 ### Legacy instrument identities
 
