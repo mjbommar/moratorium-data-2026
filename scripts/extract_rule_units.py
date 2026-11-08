@@ -332,7 +332,11 @@ def _write(path, value, policy):
 
 
 async def run(directory, doc, plan, *, backend, model_identity, today, max_calls, max_usd,
-              reservation_usd, max_source_bytes, settings, role='extractor', storage_policy=None):
+              reservation_usd, max_source_bytes, settings, role='extractor', storage_policy=None,
+              request_binding=None):
+    from contextlib import nullcontext
+    if request_binding is not None and not callable(request_binding):
+        raise ValueError('request_binding must be a descriptor context-manager factory')
     context = prepare(doc, plan, model_identity=model_identity, today=today, max_calls=max_calls,
                       max_usd=max_usd, reservation_usd=reservation_usd, max_source_bytes=max_source_bytes,
                       role=role, settings=settings, storage_policy=storage_policy)
@@ -380,8 +384,9 @@ async def run(directory, doc, plan, *, backend, model_identity, today, max_calls
             state['attempts'].append(attempt)
             write_state()
             try:
-                result = await backend.generate(role=role, stage='rule_unit', prompt=request['prompt'], system=SYSTEM,
-                                                output_type=Response, **settings)
+                with request_binding(key) if request_binding is not None else nullcontext():
+                    result = await backend.generate(role=role, stage='rule_unit', prompt=request['prompt'], system=SYSTEM,
+                                                    output_type=Response, **settings)
                 cost = getattr(result, 'cost_usd', None)
                 accounting = {k: getattr(result, k, None) for k in ('model', 'priced', 'cost_usd', 'input_tokens', 'output_tokens')}
                 if (not isinstance(accounting['model'], str) or not accounting['model'] or accounting['priced'] is not True

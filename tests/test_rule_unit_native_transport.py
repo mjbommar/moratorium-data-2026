@@ -61,7 +61,7 @@ class NativeRuleTests(unittest.IsolatedAsyncioTestCase):
         with tempfile.TemporaryDirectory() as tmp:
             root = Path(tmp)
             cap = 1 if fail else 2
-            (root / 'http').mkdir()
+            (root / 'http').mkdir(mode=0o700)
             transport = ControlledModelTransport(root / 'http', max_requests=cap,
                                                  context_sha256='b' * 64)
             client = transport.client_factory(None, transport=httpx2.MockTransport(handler))
@@ -75,7 +75,8 @@ class NativeRuleTests(unittest.IsolatedAsyncioTestCase):
                 max_attempts=1, agent_retries=0, max_model_requests=1, flex_fallback=False)
             args = dict(backend=backend, model_identity={'model': 'openai:gpt-6-sol'},
                         today=dt.date(2026, 11, 7), max_calls=cap, max_usd=1,
-                        reservation_usd=.1, max_source_bytes=1000, settings={})
+                        reservation_usd=.1, max_source_bytes=1000, settings={},
+                        request_binding=transport.bind_request_descriptor)
             try:
                 if fail:
                     with self.assertRaises(Exception):
@@ -95,6 +96,11 @@ class NativeRuleTests(unittest.IsolatedAsyncioTestCase):
                 self.assertEqual(len(requests), cap)
                 events = [json.loads(line) for line in transport.ledger.read_text().splitlines()]
                 self.assertEqual(sum(event['state'] == 'reserved' for event in events), cap)
+                state = json.loads((root / 'run/rule-units-state.private.json').read_text())
+                self.assertEqual(
+                    [event['request_descriptor_sha256'] for event in events if event['state'] == 'reserved'],
+                    [attempt['request_sha256'] for attempt in state['attempts']],
+                )
             finally:
                 await backend.aclose()
                 await sdk.close()

@@ -1,0 +1,26 @@
+{
+  "observed_at": "2026-11-08T01:29:43.804270+00:00",
+  "scope": "Offline synthetic development tests only; not P4 accuracy, paid execution, freshness acceptance or final release.",
+  "tests_passed": 61,
+  "subtests_passed": 54,
+  "provider_calls": 0,
+  "code_sha256": {
+    "scripts/controlled_model_transport.py": "9444d395c7702b491901d09d39b2d04cdd597448c8101c54095a05d4a0ff5637",
+    "scripts/extract_rule_units.py": "0b9085dba465506ed5bc76055d7acac91c9e12503327d70e394380331b404bdd",
+    "scripts/audit_rule_unit_trial.py": "41b7ecbba8ba56744e1ce1cb24afb40b0c012a5f7e81a0af0a108ba805a4c326",
+    "tests/test_controlled_model_transport.py": "1d905c1b75fb2423b335e26ec7074951a215cf4293bc2ab21811783260d3c87c",
+    "tests/test_rule_unit_native_transport.py": "759641bcd430bcf5645492e75b70a8a78afad059f71c51c08fd3dcd0eee700ad",
+    "tests/test_audit_rule_unit_trial.py": "9360d625570c98906dcc205876df8ee4d604f0708faf99c94f7d32a7b3110bdb"
+  },
+  "test_log_sha256": "4bafa2996ed9d953cb99e49b7115d6f18d8302dc83b447779dafe8c074fd5c12",
+  "independent_review_sha256": "045f3999c5c5b1a49eab63003d76c7fdfcdd7f7c9972e67af37d5c673561d708",
+  "fix_report_sha256": "567b9b80540fa84d0aac6913546929f87c8c13233f9c47102c47b7ec77fefc1d",
+  "independent_rereview_of_final_fixes": false,
+  "quality": "not_scored",
+  "end_to_end_accounting_complete": false,
+  "remaining": [
+    "Verified journal-to-logical one-to-many attempt adapter and raw-to-boundary mapping",
+    "Frozen semantic reference and independent adjudication contract",
+    "Fresh calibration and unexposed holdout with prospectively frozen protocol and budget"
+  ]
+}

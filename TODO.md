@@ -5,7 +5,8 @@ Plan: [Research modernization and ballot-measure expansion](docs/research-and-ba
 - [x] Apply 22 adjudicated New York BESS cells with full guards and recomputed annotations; retain four unresolved records and the explicit Aurora original-source gap. [Packet](work/research/2026-11-07/ny-battery-record-review/README.md).
 
 - [x] Tighten rule-unit literal-source and role-conflict checks, preserving raw clauses and unresolved denominators; 27 focused tests pass. This is development coverage, not P4 quality acceptance.
-- [ ] Complete pre-validation raw-response capture and prospective review-consumer accounting, then freeze and evaluate fresh calibration/holdout evidence before any new automatic extraction batch.
+- [x] Implement controlled pre-validation HTTP capture, scoped descriptor binding, persistent capacity reservations and conservative prospective accounting; 61 tests / 54 subtests pass offline ([development packet](work/research/2026-11-07/controlled-capture-development/README.md)).
+- [ ] Independently re-review capture fixes, implement verified journal-to-logical/raw-to-boundary accounting and semantic review, then freeze and evaluate fresh calibration/holdout evidence before any new automatic extraction batch.
 
 - [x] Review all six Maine policy records and apply six independently reviewed corrections; preserve current-force and later-history gaps. [Packet](work/research/2026-11-07/maine-policy-source-review/README.md).
 
