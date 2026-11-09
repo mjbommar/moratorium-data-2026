@@ -34,6 +34,7 @@ def main():
     overlays={
       'tx-lavon-2026':['Obtain official vote minutes/final ordinance establishing action date and instrument identity; reconcile the recovered report chronology and establish any operative interval. November 17 remains scheduled, not an observed action.'],
       'ky-ashland-2026':['Obtain original ordinance/effective-date anchor and controlling term (six months versus 180 days); establish any explicit termination or intervening action. February 26 is now an attributed unverified news inference.'],
+      'wa-renton-2026':['Obtain full signed Ordinance 6200 and verify operative effective anchor, end date, exceptions and later actions/current force. Official August 17 minutes now establish adoption and October 5 minutes establish the data-center hearing/comments/closure.'],
       'nd-oliver-county-2025-p2':['Obtain executed Resolution 2025-02 and amendments plus recording/publication proof; reconcile the 90-day motion with the standards-dependent operative text. The later general zoning compilation does not resolve these issues.'],
     }
     maine=args.output/'maine-terminal-dispositions.json'

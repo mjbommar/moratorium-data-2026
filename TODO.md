@@ -680,3 +680,5 @@ Exit: repeatable refresh with visible freshness, costs, failures and unresolved 
 
 - [x] Verify successful Pages retry `42641271349` and exact hosted bytes for six selected files at `c6e141a`; preserve the earlier timeout receipt.
 - [x] Reconstruct the complete current residual-question index from prior reviews, including nested check lists; independently audit four Maine disposition inconsistencies, resolve LD 307 accounting and preserve three concrete party-field gaps. All 1,499 unresolved records have explicit indexed questions; none is silently dropped.
+
+- [x] Recover official Renton August 17 adoption and October 5 hearing minutes through PrimeGov; independently verify and apply two guarded fields, preserve remaining operative-term/exception/later-action gaps, and update the residual index. Retain Covina/Brownsville/Cle Elum source-specific holds and decline nonresponsive pre-meeting/invalid targets.

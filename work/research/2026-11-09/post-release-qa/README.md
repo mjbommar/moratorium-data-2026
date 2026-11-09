@@ -12,7 +12,7 @@ conflicts and does not discard the other outstanding questions.
 | ky-ashland-2026 | Does the source explicitly terminate the pause, or merely adopt later zoning? | Independently reviewed; see disposition below |
 | nd-oliver-county-2025-p2 | Which motion/resolution and recording/publication provisions establish this phase's term? | Independently reviewed; see disposition below |
 
-The two finite Terra review jobs reuse prior artifacts and exact source versions.
+The first two finite Terra review jobs reused prior artifacts and exact source versions.
 No nationwide discovery or previously completed full-row review is repeated.
 Material changes require independent evidence adjudication and current row/value
 guards; identity retirement uses the existing separate registry protocol. Missing
@@ -75,4 +75,14 @@ The [complete residual index](outstanding-record-questions.jsonl) covers every o
 
 The index recovered nested residuals that a flat `unperformed_checks` reader missed. A [four-record Maine audit](maine-terminal-disposition-review.md) then identified actual party-field questions in three records and one blanket unresolved misclassification for LD 307. The [guarded accounting correction](maine-disposition-application.json) records LD 307 as confirmed-unchanged within its named, failed-bill scope. Its veto and proposed-only endpoint are supported; no successor-law inference or legislative-status edit is made. Current dispositions are 1,499 unresolved, 95 corrected-resolved, 181 confirmed-unchanged and one superseded duplicate. Canonical CSV values and ballot totals remain unchanged.
 
-The [index builder](build-outstanding-queue.py) takes the retained private review ledger as an explicit input and publishes paraphrased review residuals with private locators removed. Post-release source questions supersede earlier Lavon/Ashland/Oliver precision questions, and the Maine audit supplies the three specific party questions. The source-ledger digest and overlay digest are pinned; missing questions fail the completeness review instead of becoming invented work. New capture admission must first check these retained questions, exact source versions and earlier attempts.
+The [index builder](build-outstanding-queue.py) takes the retained private review ledger as an explicit input and publishes paraphrased review residuals with private locators removed. Post-release source questions supersede earlier Lavon/Ashland/Oliver/Renton precision and hearing questions, and the Maine audit supplies the three specific party questions. The source-ledger digest and overlay digest are pinned; missing questions fail the completeness review instead of becoming invented work. New capture admission must first check these retained questions, exact source versions and earlier attempts.
+
+## Renton adoption and hearing confirmed from official minutes
+
+The [four-case routing disposition](material-local-routing-dispositions.json) prioritizes actual missing final-action/instrument questions and rejects pre-meeting or invalid targets that cannot answer them. Covina, Brownsville and Cle Elum remain qualified; no new source fetch was admitted for their nonresponsive retained targets.
+
+Renton’s official portal led to the August 17 and October 5 council minutes. [Independent review](renton-independent-review.md) confirms the all-aye roll-call adoption of Ordinance 6200 and the later data-center hearing/comments/closure. The [guarded two-cell application](renton-field-application.json) updates legal basis and current-status narrative; [evidence](renton-evidence-ledger.json) retains exact before/after values, source clocks and PDF locators. The October entry also refers to CDBG in its opening sentence, which is recorded as a source anomaly. Source capture/review occurred November 9; these are dated August/October events.
+
+The full signed ordinance, operative anchor/end, exceptions and later force remain open. Recorded stage, typed duration/end, counts and all other rows remain unchanged. The Renton residual overlay removes the now-settled adoption/hearing questions while retaining the actual missing evidence. Total unresolved raw records remain 1,499.
+
+[Source continuity](renton-source-continuity.json) separates the two actual minutes from two HTTP200 error shells and seven portal/index/script captures, with body/text/native readback for all eleven. [Retrieval notes](portal-retrieval-notes.md#primegov-archived-minutes) preserve the successful route and the failed representation distinction. Weaker third-party proposed wording was superseded by the official minutes and was not applied.
