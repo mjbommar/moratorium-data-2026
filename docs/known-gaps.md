@@ -75,19 +75,19 @@ The actual publication date and extension endpoint remain unresolved in the
 Current record counts are working inventory totals, not
 proof that every legacy row satisfies the intended one-instrument grain.
 
-### Ballot candidates retained outside the reviewed publication
+### Ballot publication and remaining authority gaps
 
-The frozen discovery cohort contains 56 logical candidate groups. The November 7 correspondence has 51 scoped canonical publications and five withheld payloads. A subsequent Augusta notice-only record is now canonical without accepting the frozen payload’s result/ordinance links; its correspondence to that payload remains unresolved. Do not add the canonical record count and held payload count as disjoint contests. Both Clarksville proposals are now published with explicitly conditional dates and unresolved final ballots and effects; their publication does not imply a vote or actual joint administration. Remaining groups are retained for follow-up, not rejected or treated as nonexistent.
+The frozen discovery cohort contains 56 logical candidate groups. The historical November 7 correspondence had 51 scoped canonical publications and five withheld payloads. Subsequent reviewed Monroe and Sprigg publications bring definitive frozen correspondence to 53; three payloads remain held (Morgan, Augusta and Ottawa Question 2). A separate Augusta notice-only record is canonical without accepting the frozen payload’s result/ordinance links; its correspondence to that payload remains unresolved. See [current ballot accounting](../work/research/2026-11-08/ballot-current-accounting/README.md). Do not add the canonical record count and held payload count as disjoint contests. Both Clarksville proposals are now published with explicitly conditional dates and unresolved final ballots and effects; their publication does not imply a vote or actual joint administration. Remaining groups are retained for follow-up, not rejected or treated as nonexistent.
 
-| Candidate | Evidence still needed before canonical publication |
+| Candidate or published question | Remaining evidence and publication scope |
 |---|---|
 | Morgan County, IL | Official ballot, qualification and returns remain unrecovered; named advisory counts are secondary. |
 | Augusta Township, MI | Notice-only question published with unknown sector and no result/ordinance link. The signed conditional statement expressly describes a data-center campus; missing Exhibit A, final ballot/referral, county-contest crosswalk, actual implementation and present force remain unresolved. |
-| Monroe Township, Adams County, OH | Official sample ballots and question identity/wording recovered; minimal-record preparation is in progress. Full plan provisions, sector coverage and operative effect remain unresolved. |
-| Sprigg Township, Adams County, OH | Official sample ballot and question identity/wording recovered; 297-against count independently confirmed. Full plan provisions, sector coverage and operative effect remain unresolved. |
+| Monroe Township, Adams County, OH | Published from reviewed official sample wording with unofficial 148 For / 100 Against. Full adopted plan, named-sector coverage, certification and operative effect remain unresolved. |
+| Sprigg Township, Adams County, OH | Published from reviewed official sample wording with unofficial 330 For / 297 Against. Full adopted plan, named-sector coverage, certification and operative effect remain unresolved. |
 | Ottawa, KS | Generic county question return is not securely linked to exact designation/wording; qualification and ordinance effect unresolved. |
 
-The [November 6 disposition ledger](../work/audit/ballot-release-dispositions-2026-11-06.json) retains the earlier seven-gap checkpoint. The [current correspondence](../work/research/2026-11-05/ballot-census-review/canonical-projection-status.json) and [Clarksville publication](../work/research/2026-11-07/clarksville-proposal-publication/README.md) record the two new scoped proposals and their remaining requirements. These gaps do not establish current legal force or a complete national ballot census.
+The [November 6 disposition ledger](../work/audit/ballot-release-dispositions-2026-11-06.json) retains the earlier seven-gap checkpoint. The [earlier correspondence](../work/research/2026-11-05/ballot-census-review/canonical-projection-status.json) and [Clarksville publication](../work/research/2026-11-07/clarksville-proposal-publication/README.md) record the two new scoped proposals and their remaining requirements. These gaps do not establish current legal force or a complete national ballot census.
 
 ### Perry village geography correction
 
