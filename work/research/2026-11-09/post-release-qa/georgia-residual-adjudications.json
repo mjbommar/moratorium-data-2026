@@ -85,10 +85,10 @@
     {
       "id": "ga-hb-1063-2026",
       "recommendation": "unresolved",
-      "current_row_sha256": "850dc7254940b1de265b23050b457050b61cbb8adaf5c7b34aa36ed791c0d737",
+      "current_row_sha256": "b1d9950803c3c82cfe697d60715877f1ec3c1e371e77f6d653594ca88b6d9648",
       "remaining_questions": [
-        "Inspect the House-passed substitute and reconcile its threshold and operative provisions with the introduced version; preserve the literal introduced megawatt-hours wording separately from the reported substitute megawatts wording.",
-        "Establish the named bill\u2019s terminal outcome from complete official action history and applicable session/no-carryover authority. House/Senate adjournment and the biennium consequence are now established; any remaining gap is bill-specific action-history completeness, not the session-end date."
+        "Establish whether recovered Committee Substitute LC60 0283S is identical to the actual House-passed substitute, or recover that passed print; the committee print verifies 100 MW and contract/PSC terms but does not alone prove passed-version identity.",
+        "Establish full bill-specific terminal history; the recovered session-end/biennium sources resolve the common date/consequence question."
       ],
       "basis": "Introduced bill says 100 megawatt hours; third-party timeline identifies passage by substitute and referral and quotes a different 100-megawatt formulation. Keep versions distinct. Prior same-bill official-history review supports the attributed outcome; neither first-reader page nor 403 supplies the passed text.",
       "source_evidence": [
@@ -122,7 +122,13 @@
       "resolved_dimensions": [
         "Actual Senate sine-die adjournment on April 2, 2026, independently supported by the Senate-created daily status sheet retained by the state library.",
         "Actual House adjournment and the second-year biennium consequence supported by recovered House journal and Georgia courts summary; see georgia-session-evidence.json."
-      ]
+      ],
+      "row_guard_rebinding": {
+        "before_sha256": "850dc7254940b1de265b23050b457050b61cbb8adaf5c7b34aa36ed791c0d737",
+        "after_sha256": "b1d9950803c3c82cfe697d60715877f1ec3c1e371e77f6d653594ca88b6d9648",
+        "application": "georgia-version-field-application.json"
+      },
+      "subsequent_version_review": "georgia-version-evidence.json"
     },
     {
       "id": "ga-hb-1192-2024",
@@ -244,12 +250,9 @@
     },
     {
       "id": "ga-sb-408-2026",
-      "recommendation": "unresolved",
-      "current_row_sha256": "c67a3f6dca5604f773bbd06a888b5e143e1266a2c5dd8d605206b17dcd15a886",
-      "remaining_questions": [
-        "Inspect the introduced bill text to establish the exact proposed exemption sunset, which the retained summary does not specify.",
-        "Establish the named bill\u2019s terminal outcome from complete official action history and applicable session/no-carryover authority. House/Senate adjournment and the biennium consequence are now established; any remaining gap is bill-specific action-history completeness, not the session-end date."
-      ],
+      "recommendation": "corrected_resolved",
+      "current_row_sha256": "7704342b3e8f5374b35b6e1831a8d643e79b1452e6f468f0915552b798f5ab86",
+      "remaining_questions": [],
       "basis": "SB 408 proposes advancing the data-center equipment tax exemption sunset. The official history captured 2026-11-05 ends with Senate Read and Referred on 2026-01-16, and lists Nan Orrock first. Its exact proposed sunset date is not established by this retained summary; do not substitute an unfetched lead. Death at 2026-04-02 sine die remains attributed to the 2026-07-31 historical research.",
       "source_evidence": [
         {
@@ -274,16 +277,21 @@
       "resolved_dimensions": [
         "Actual Senate sine-die adjournment on April 2, 2026, independently supported by the Senate-created daily status sheet retained by the state library.",
         "Actual House adjournment and the second-year biennium consequence supported by recovered House journal and Georgia courts summary; see georgia-session-evidence.json."
-      ]
+      ],
+      "row_guard_rebinding": {
+        "before_sha256": "c67a3f6dca5604f773bbd06a888b5e143e1266a2c5dd8d605206b17dcd15a886",
+        "after_sha256": "7704342b3e8f5374b35b6e1831a8d643e79b1452e6f468f0915552b798f5ab86",
+        "application": "georgia-version-field-application.json"
+      },
+      "subsequent_version_review": "georgia-version-evidence.json",
+      "closure_source_pointer": "georgia-version-evidence.json",
+      "closure_basis": "Original version/source gaps cleared by actual introduced SB408 and As Passed Senate SB410 prints. Retained complete official histories were inspected; final listed actions are referral January 16 for SB408 and House Second Readers March 10 for SB410. Recovered House/Senate adjournment and official second-year biennium explanation support failed outcome as an inference. HB journal numerical tabulation for SB410 references only pages 2089, 2347 and 2373 (PDF page 5454). No enacted endpoint or operative contract duty asserted."
     },
     {
       "id": "ga-sb-410-2026",
-      "recommendation": "unresolved",
-      "current_row_sha256": "24382504701901761d9ea0fb81011fd103fd309c3922eee7d4dc7a03b96bb8a1",
-      "remaining_questions": [
-        "Recover and inspect the Senate-passed substitute to establish its actual operative terms; the first-reader summary is not evidence of that version.",
-        "Establish the named bill\u2019s terminal outcome from complete official action history and applicable session/no-carryover authority. House/Senate adjournment and the biennium consequence are now established; any remaining gap is bill-specific action-history completeness, not the session-end date."
-      ],
+      "recommendation": "corrected_resolved",
+      "current_row_sha256": "f3f9409e4dc9abd86aecaf8d63bad8a5d28de128e0bfe5dc4024bab270c73079",
+      "remaining_questions": [],
       "basis": "SB 410 first-reader summary proposes repeal of the data-center equipment exemption while allowing use of prior exemption certificates. Official history captured 2026-11-05 records Senate passage by substitute on 2026-03-06 and House Second Readers on 2026-03-10 as its last listed action. The actual substitute text was not established in the retained field review; do not treat first-reader terms as proof of that version. Death at 2026-04-02 sine die remains attributed to 2026-07-31 historical research.",
       "source_evidence": [
         {
@@ -308,7 +316,15 @@
       "resolved_dimensions": [
         "Actual Senate sine-die adjournment on April 2, 2026, independently supported by the Senate-created daily status sheet retained by the state library.",
         "Actual House adjournment and the second-year biennium consequence supported by recovered House journal and Georgia courts summary; see georgia-session-evidence.json."
-      ]
+      ],
+      "row_guard_rebinding": {
+        "before_sha256": "24382504701901761d9ea0fb81011fd103fd309c3922eee7d4dc7a03b96bb8a1",
+        "after_sha256": "f3f9409e4dc9abd86aecaf8d63bad8a5d28de128e0bfe5dc4024bab270c73079",
+        "application": "georgia-version-field-application.json"
+      },
+      "subsequent_version_review": "georgia-version-evidence.json",
+      "closure_source_pointer": "georgia-version-evidence.json",
+      "closure_basis": "Original version/source gaps cleared by actual introduced SB408 and As Passed Senate SB410 prints. Retained complete official histories were inspected; final listed actions are referral January 16 for SB408 and House Second Readers March 10 for SB410. Recovered House/Senate adjournment and official second-year biennium explanation support failed outcome as an inference. HB journal numerical tabulation for SB410 references only pages 2089, 2347 and 2373 (PDF page 5454). No enacted endpoint or operative contract duty asserted."
     },
     {
       "id": "ga-sb-421-2026",
@@ -357,7 +373,7 @@
   "verified_body_and_text_pairs": 17,
   "new_network_acquisitions": 0,
   "canonical_changes": 0,
-  "whole_record_closures": 2,
+  "whole_record_closures": 4,
   "scope": "Replace process-only placeholders with the factual gaps already identified in retained source reviews. No new factual acceptance, later-action absence inference or observation-date renewal.",
   "subsequent_review": "georgia-session-evidence.json"
 }

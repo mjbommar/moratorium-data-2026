@@ -1,0 +1,77 @@
+{
+  "applied_at": "2026-11-09T20:18:42.251718+00:00",
+  "substantive_cells": 4,
+  "derived_cells": 0,
+  "changed_cells": 4,
+  "changed_records": 3,
+  "csv_before_sha256": {
+    "local_inventory": "062e8a9932b807538d512b53fba73fbbf7ecb64620a262500b8084a98c4a55f0",
+    "state_policy": "526ca3f6ecebc00d84c584f63caf0b51fee4d4087b2e48f11f409c98d31188ce"
+  },
+  "csv_after_sha256": {
+    "local_inventory": "062e8a9932b807538d512b53fba73fbbf7ecb64620a262500b8084a98c4a55f0",
+    "state_policy": "97ae33643daab8545957038e013d340e48140500f87b7ce6d65da9093ac7dd91"
+  },
+  "scope_rebound_ids": [
+    "ga-hb-1063-2026",
+    "ga-sb-408-2026",
+    "ga-sb-410-2026"
+  ],
+  "scope_registry_sha256": "ef12187598a4c4b9b4254ed500e1613f37710222dc1c530ee119cbe827904ba3",
+  "changes": [
+    {
+      "dataset": "state_policy",
+      "id": "ga-sb-408-2026",
+      "field": "key_provisions",
+      "before": "Would advance the sunset date for the data center equipment sales/use tax exemption.",
+      "after": "Introduced SB408 (LC 59 0253) would amend O.C.G.A. 48-8-3(68.1)(H) to advance repeal of the high-technology data-center equipment sales/use tax exemption from January 1, 2032 to January 1, 2027. The marked print strikes 2032 and inserts 2027. This failed proposal did not itself change the operative sunset.",
+      "kind": "substantive"
+    },
+    {
+      "dataset": "state_policy",
+      "id": "ga-sb-408-2026",
+      "field": "end_condition",
+      "before": "",
+      "after": "Proposed exemption repeal January 1, 2027, replacing January 1, 2032; not an enacted endpoint.",
+      "kind": "substantive"
+    },
+    {
+      "dataset": "state_policy",
+      "id": "ga-sb-410-2026",
+      "field": "key_provisions",
+      "before": "The first-reader proposal would repeal the data center equipment sales/use tax exemption while preserving prior certificates. A reported later substitute remains unverified against its actual text.",
+      "after": "As Passed Senate SB410 (LC 59 0402S (SCS)) combines two proposals: utility contracts for large-load customers with expected total peak demand of at least 100 MW on one tract or contiguous tracts must protect other customers through minimum billing, contract-term, credit/default and termination provisions; and no new high-technology company or data-center exemption certificates would issue after the act\u2019s effective date, while previously issued certificates retain their former governing provisions. Proposed effectiveness is approval by the Governor or becoming law without approval; no enacted obligation or actual effective date is asserted.",
+      "kind": "substantive"
+    },
+    {
+      "dataset": "state_policy",
+      "id": "ga-hb-1063-2026",
+      "field": "key_provisions",
+      "before": "Introduced HB 1063 would require electric utility contracts with covered data centers to include customer cost protections, including billing, credit and termination provisions; its definition specifies a peak annual electricity demand of 100 megawatt hours or greater. The House-passed substitute text was not recovered.",
+      "after": "Introduced HB1063 specifies peak annual electricity demand of 100 megawatt hours or greater. Recovered Committee Substitute LC 60 0283S instead defines covered data centers by peak annual electricity demand of at least 100 megawatts and proposes utility-contract minimum billing, contract-term, credit/default and termination protections, prospective agreement applicability and PSC compliance determinations. This is a version/unit distinction, not a conversion. The recovered committee print alone does not establish identity with the House-passed substitute.",
+      "kind": "substantive"
+    }
+  ],
+  "verify_rows": 979,
+  "row_transitions": [
+    {
+      "dataset": "state_policy",
+      "id": "ga-hb-1063-2026",
+      "before_sha256": "850dc7254940b1de265b23050b457050b61cbb8adaf5c7b34aa36ed791c0d737",
+      "after_sha256": "b1d9950803c3c82cfe697d60715877f1ec3c1e371e77f6d653594ca88b6d9648"
+    },
+    {
+      "dataset": "state_policy",
+      "id": "ga-sb-408-2026",
+      "before_sha256": "c67a3f6dca5604f773bbd06a888b5e143e1266a2c5dd8d605206b17dcd15a886",
+      "after_sha256": "7704342b3e8f5374b35b6e1831a8d643e79b1452e6f468f0915552b798f5ab86"
+    },
+    {
+      "dataset": "state_policy",
+      "id": "ga-sb-410-2026",
+      "before_sha256": "24382504701901761d9ea0fb81011fd103fd309c3922eee7d4dc7a03b96bb8a1",
+      "after_sha256": "f3f9409e4dc9abd86aecaf8d63bad8a5d28de128e0bfe5dc4024bab270c73079"
+    }
+  ],
+  "scope": "Reviewed source observations, classification correction and explicit unresolved facts; all IDs retained. No current-law census asserted."
+}

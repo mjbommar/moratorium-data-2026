@@ -1,0 +1,54 @@
+{
+  "sources": [
+    {
+      "attempt_id": "565ce22bd0214ec7b1d4ad556047383e",
+      "url": "https://www.legis.ga.gov/api/legislation/document/20252026/245256",
+      "status": 200,
+      "ok": true,
+      "body_sha256": "f3028d6cea0290a1b531cd4a661b0262aff5961d1e1f8706b44b77e4f84304d4",
+      "text_sha256": "b204590774400e3c839ba8976f4627b1e1fc89c48bd97c25411539d021bd8dca",
+      "body_observed_at": "2026-11-09T20:16:40.729233Z",
+      "record_id": "ga-sb-410-2026",
+      "locator": "As Passed Senate LC59 0402S (SCS), pages 1\u20133, sections 1-2, 2-1, 3-1",
+      "derived_layout_sha256": "98954f32edd1c9c6f6f7fb7a0daee81354484d89d2eac7da500ee53a58eda9c7",
+      "extraction_limitation": "Automatic retrieval text was PDF-byte gibberish; reviewed pdftotext layout derivation is archived separately with body lineage."
+    },
+    {
+      "attempt_id": "6d606c406a09417f82ae1d07fd5e0bf4",
+      "url": "https://www.legis.ga.gov/Legislation/20252026/242805.pdf",
+      "status": 200,
+      "ok": true,
+      "body_sha256": "c531a6f3de0a6ec5055084e8db19a7783eb13bc9c095c8d90863621c8634e8a5",
+      "text_sha256": "080dd3d3d5cd5d030e2b0672a65716f020bab67bc87d56dc6cb3ab7b3f4a2d41",
+      "body_observed_at": "2026-11-09T20:16:40.870823Z",
+      "record_id": "ga-hb-1063-2026",
+      "locator": "Committee Substitute LC60 0283S, pages 1\u20133; page 2 definitions and contract terms; page 3 PSC compliance",
+      "derived_layout_sha256": "eea67c92861597acfe5722f7bd1051c54a3cef83b2dd7a84affa71e24ff087d3",
+      "extraction_limitation": "Automatic retrieval text was PDF-byte gibberish; reviewed pdftotext layout derivation is archived separately with body lineage."
+    },
+    {
+      "attempt_id": "2e56ee73aca24fbfa012eba51bb24346",
+      "url": "https://www.legis.ga.gov/Legislation/20252026/239994.pdf",
+      "status": 200,
+      "ok": true,
+      "body_sha256": "b59d8caa683e48d7b093641293279f190626247ce64dc8302a53b367c8b4d284",
+      "text_sha256": "d572f70201b3e2a426c2709040ec84e7ae95410fd94d3b04d23bf0e434b456c3",
+      "body_observed_at": "2026-11-09T20:17:15.983155Z",
+      "record_id": "ga-sb-408-2026",
+      "locator": "Introduced LC59 0253, page 1 line 12 marked replacement of 2032 with 2027",
+      "derived_layout_sha256": "2877b0276c649eee348ab3b48085ef2b183a8649e9e114b9e22742ab045be302",
+      "extraction_limitation": "Automatic retrieval text was PDF-byte gibberish; reviewed pdftotext layout derivation is archived separately with body lineage."
+    }
+  ],
+  "visually_reviewed_pages": [
+    "SB408 page1",
+    "SB410 pages2\u20133",
+    "HB1063 page2"
+  ],
+  "discovery": "Free web discovery followed third-party document links to official legislative PDF bodies. Only official captured text supports findings; no third-party sponsor or outcome assertions promoted.",
+  "http_reservations_cumulative": 6,
+  "http_cap": 6,
+  "new_fetches_this_increment": 3,
+  "paid_search_and_model_calls": 0,
+  "scope": "Distinct proposed versions, not enacted obligations; HB1063 committee print does not independently establish identity with the House-passed substitute."
+}

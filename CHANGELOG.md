@@ -2,6 +2,8 @@
 
 ## Working QA after v2026.11.9.post1
 
+Georgia SB408’s introduced sunset and SB410’s Senate-passed utility/tax provisions are now verified; HB1063’s recovered committee substitute preserves its distinct 100 MW wording. Four cells across three rows change and two scoped QA holds close. Current dispositions: 1,475 unresolved, 106 corrected-resolved and 194 confirmed-unchanged. No status-category or headline changes. [Version evidence](work/research/2026-11-09/post-release-qa/georgia-version-evidence.json).
+
 Official Georgia session-end sources and named journal tabulations clear HB1012 and HB559 QA holds. Current dispositions: 1,477 unresolved, 104 corrected-resolved and 194 confirmed-unchanged. Bill-version and post-veto questions remain separate; no recorded status changes. [Evidence and limitations](work/research/2026-11-09/post-release-qa/georgia-session-evidence.json).
 
 LB1111’s original sponsor, PRB-minutes and provision-comparison holds are now cleared against primary sources. Current dispositions: 1,479 unresolved, 102 corrected-resolved and 194 confirmed-unchanged. The reason for report removal remains unasserted; LB1010 retains its separate legal-effect holds. [Scoped closure](work/research/2026-11-09/post-release-qa/nebraska-lb1111-closure.json).

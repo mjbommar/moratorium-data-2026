@@ -1,8 +1,8 @@
 {
   "event_cutoff_utc": "2026-11-07T13:38:39.877065Z",
   "counts": {
-    "unresolved": 1477,
-    "corrected_resolved": 104,
+    "unresolved": 1475,
+    "corrected_resolved": 106,
     "confirmed_unchanged": 194,
     "superseded_duplicate": 0,
     "not_attempted": 0
@@ -13,8 +13,8 @@
       "confirmed_unchanged": 3
     },
     "remaining1552": {
-      "unresolved": 1255,
-      "corrected_resolved": 104,
+      "unresolved": 1253,
+      "corrected_resolved": 106,
       "confirmed_unchanged": 191,
       "superseded_duplicate": 0
     }
@@ -5698,12 +5698,9 @@
     {
       "id": "ga-sb-408-2026",
       "dataset": "state_policy",
-      "disposition": "unresolved",
-      "public_receipt_pointer": "work/research/2026-11-08/full-inventory-integrated-application/README.md",
-      "residual_reference": {
-        "dataset": "state_policy",
-        "id": "ga-sb-408-2026"
-      },
+      "disposition": "corrected_resolved",
+      "public_receipt_pointer": "work/research/2026-11-09/post-release-qa/georgia-version-closures.json",
+      "residual_reference": null,
       "recorded_evidence_fingerprints_sha256": [
         "214c8a40a1ad556aeff05909fddf5a4b28e79010e3dd528b15a3c717bee80d44",
         "6b00fa47031ea2d00e5e4a93762de1462dc235accee7f37a8037eb12e8f3b143",
@@ -5711,17 +5708,15 @@
         "c67a3f6dca5604f773bbd06a888b5e143e1266a2c5dd8d605206b17dcd15a886",
         "d8ffc98908894cdad474428f38c32bf42caa6eb044963fd16f41f794b9e69fa2",
         "eff9b9aaec358580abe102560fe8eed9069b9b7a173221a62a3e859de384523c"
-      ]
+      ],
+      "post_release_question_review_pointer": "work/research/2026-11-09/post-release-qa/georgia-version-closures.json"
     },
     {
       "id": "ga-sb-410-2026",
       "dataset": "state_policy",
-      "disposition": "unresolved",
-      "public_receipt_pointer": "work/research/2026-11-08/full-inventory-integrated-application/README.md",
-      "residual_reference": {
-        "dataset": "state_policy",
-        "id": "ga-sb-410-2026"
-      },
+      "disposition": "corrected_resolved",
+      "public_receipt_pointer": "work/research/2026-11-09/post-release-qa/georgia-version-closures.json",
+      "residual_reference": null,
       "recorded_evidence_fingerprints_sha256": [
         "214c8a40a1ad556aeff05909fddf5a4b28e79010e3dd528b15a3c717bee80d44",
         "24382504701901761d9ea0fb81011fd103fd309c3922eee7d4dc7a03b96bb8a1",
@@ -5729,7 +5724,8 @@
         "44a6c73a309e35289ead8980906d53688396c7a7f1387b99f47232d07fb9e933",
         "d921052fc6fdddc9854eda4fc3fc183a6e9a368e9a0ed7301c49f9dd073572b0",
         "eff9b9aaec358580abe102560fe8eed9069b9b7a173221a62a3e859de384523c"
-      ]
+      ],
+      "post_release_question_review_pointer": "work/research/2026-11-09/post-release-qa/georgia-version-closures.json"
     },
     {
       "id": "ga-sb-421-2026",
@@ -37361,6 +37357,26 @@
       "cohort": "remaining1552",
       "review_pointer": "work/research/2026-11-09/post-release-qa/georgia-session-closures.json",
       "reviewed_at": "2026-11-09T20:14:44.874723+00:00"
+    },
+    {
+      "id": "ga-sb-408-2026",
+      "dataset": "state_policy",
+      "before": "unresolved",
+      "after": "corrected_resolved",
+      "row_sha256": "7704342b3e8f5374b35b6e1831a8d643e79b1452e6f468f0915552b798f5ab86",
+      "cohort": "remaining1552",
+      "review_pointer": "work/research/2026-11-09/post-release-qa/georgia-version-closures.json",
+      "reviewed_at": "2026-11-09T20:19:58.255738+00:00"
+    },
+    {
+      "id": "ga-sb-410-2026",
+      "dataset": "state_policy",
+      "before": "unresolved",
+      "after": "corrected_resolved",
+      "row_sha256": "f3f9409e4dc9abd86aecaf8d63bad8a5d28de128e0bfe5dc4024bab270c73079",
+      "cohort": "remaining1552",
+      "review_pointer": "work/research/2026-11-09/post-release-qa/georgia-version-closures.json",
+      "reviewed_at": "2026-11-09T20:19:58.255738+00:00"
     }
   ]
 }

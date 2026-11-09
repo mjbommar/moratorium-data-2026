@@ -1,0 +1,11 @@
+# Georgia bill-version recovery applied
+
+Four cells across three existing records now distinguish the actual proposals. All recorded failed categories remain unchanged.
+
+- [SB408 introduced LC59 0253](https://www.legis.ga.gov/Legislation/20252026/239994.pdf), page 1 line 12, strikes 2032 and inserts 2027 in the January 1 exemption repeal date. The failed proposal did not itself change operative law.
+- [SB410 As Passed Senate LC59 0402S (SCS)](https://www.legis.ga.gov/api/legislation/document/20252026/245256), pages 1–3, combines a contract-protection framework for large-load customers at least 100 MW on one tract or contiguous tracts with cessation of new high-technology company/data-center exemption certificates, preserving prior certificates under their former provisions. Proposed effectiveness on approval/becoming law is not an actual effective date.
+- [HB1063 Committee Substitute LC60 0283S](https://www.legis.ga.gov/Legislation/20252026/242805.pdf), pages 1–3, uses 100 MW peak annual demand and contract protections, prospective applicability and PSC compliance determinations. Its header says committee substitute. It does not independently establish identity with the House-passed version. The introduced 100 megawatt-hours wording remains separately attributed.
+
+The automatic retriever misread PDF bytes as text for these bodies. Reviewed `pdftotext -layout` derivatives are archived with source-body lineage; four substantive pages were visually inspected. [Evidence](georgia-version-evidence.json), [guarded application](georgia-version-field-application.json) and [exact native readbacks](georgia-version-native-source-continuity.json) preserve the distinction. No discovery-page summaries were promoted as primary evidence.
+
+[Two scoped closures](georgia-version-closures.json) combine the recovered SB408/SB410 prints with their retained complete official histories and the already recovered session-end/biennium sources. SB410’s House journal tabulation (PDF page 5454) references printed pages 2089, 2347 and 2373. Failure is an inference from combined history and session consequences, not a new literal docket label. HB1063’s passed-version identity remains open. Current unresolved count is 1,475. The six-retrieval batch is exhausted; no automatic expansion is authorized by this packet.
