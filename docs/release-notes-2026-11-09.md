@@ -86,6 +86,10 @@ Delivered living-copy corrections do not claim whole independent corpora were
 rebuilt. No new project applicability, disclosure, causal or market-effect join is
 accepted automatically. The old 440-record cohort guards remain unchanged.
 
+## Figures and tables
+
+All seven table generators were rerun. Sector and recorded-date tables changed; the count, sector and date maps are regenerated in PNG, SVG and PDF. Sector mapping now uses normalized arrays, preserves multi-sector membership, shows tied dominant sectors as Mixed and never defaults missing values to data centers. Date labels allow unverified or scheduled dates. The four legal-classification maps and April manuscript retain their historical editions; see [figure boundaries](../figures/README.md).
+
 ## Validation and remaining release gate
 
 Full `make check` passes at the applied source: zero legacy errors, 619 retained

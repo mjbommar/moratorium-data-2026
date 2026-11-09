@@ -117,6 +117,10 @@ def select_files(commit, names):
     exact.update(n for n in names if n.startswith('work/research/2026-11-08/')
                  and n.endswith(('.json', '.md')))
     exact.update(n for n in names if re.fullmatch(r'docs/release-notes-\d{4}-\d{2}-\d{2}\.md', n))
+    exact.update(n for n in names if n.startswith('figures/') and Path(n).suffix in {'.png', '.svg', '.pdf', '.md'})
+    exact.update(n for n in names if n.startswith('tables/') and n.endswith('.tex'))
+    exact.update(n for n in names if n.startswith(('scripts/generate_tables/', 'scripts/moratorium_maps/')) and n.endswith('.py'))
+    exact.update(n for n in ['scripts/fetch_basemap.py'] if n in names)
     exact.update(n for n in ('README.md', 'CHANGELOG.md', 'data/release_metadata.json',
                              'docs/release-notes-2026-11-08.md') if n in names)
     # Optional for older revisions: never select a path absent from the tree.

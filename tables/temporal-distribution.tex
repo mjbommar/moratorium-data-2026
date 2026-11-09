@@ -2,7 +2,7 @@
 % Source: data/moratorium_inventory.csv
 \begin{figure}[tp]
 \centering
-\caption{Temporal Distribution of Moratorium Enactments}
+\caption{Temporal Distribution of Recorded Instrument Dates}
 \label{tab:temporal-distribution}
 \begin{tikzpicture}
 \begin{axis}[
@@ -15,7 +15,7 @@
     symbolic x coords={2018,2020,2021,2022,2023,2024,2025,2026},
     xtick=data,
     ymin=0,
-    ymax=990,
+    ymax=985,
     nodes near coords,
     nodes near coords style={font=\small\bfseries, color=black},
     every axis plot/.append style={fill=chart-bar, draw=chart-bar-dark},
@@ -26,15 +26,15 @@
     label style={font=\small},
 ]
 \addplot[fill=chart-bar, draw=chart-bar-dark] coordinates {
-    (2018,10) (2020,1) (2021,1) (2022,7) (2023,25) (2024,65) (2025,120) (2026,989)
+    (2018,10) (2020,1) (2021,1) (2022,7) (2023,24) (2024,59) (2025,118) (2026,980)
 };
 \end{axis}
 \end{tikzpicture}
 \begin{flushleft}
-\small\textit{Note:} Counts use validated normalized adoption years
+\small\textit{Note:} Counts use validated normalized years from the recorded date field
 in the cleaned inventory (\Cref{app:inventory}, $n = 1328$).
-110 instruments lacked a parseable adoption
-date and are excluded. Recorded dates may remain
+128 instruments lacked a parseable adoption
+date and are excluded. Dates may be scheduled or remain
 unverified; counts do not independently establish adoption or current legal force.
 \end{flushleft}
 \end{figure}

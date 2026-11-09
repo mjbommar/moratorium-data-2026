@@ -7,6 +7,7 @@ Run as: uv run python -m moratorium_maps.maps [map_name|all]
 from __future__ import annotations
 
 import sys
+import json
 from pathlib import Path
 
 import matplotlib.pyplot as plt
@@ -124,28 +125,35 @@ def map_home_rule():
 # Map 5: Sector Composition by State
 # ============================================================================
 
+def recorded_sector_inputs(inv):
+    """Count recorded sector arrays; prose and missing values never imply data centers."""
+    labels = {"data_center": "Data Center", "cryptocurrency_mining": "Crypto",
+              "battery_storage": "BESS", "solar": "Solar", "wind": "Wind", "general": "Other"}
+    counts = {}
+    for _, row in inv.iterrows():
+        values = json.loads(row["sectors"])
+        if not isinstance(values, list) or any(not isinstance(v, str) or v not in labels for v in values):
+            raise ValueError("Invalid recorded sector array")
+        for sector in {labels[v] for v in values} or {"Unknown"}:
+            key = (row["state_abbrev"], sector)
+            counts[key] = counts.get(key, 0) + 1
+    frame = pd.DataFrame([{"state_abbrev": state, "sector": sector, "count": count}
+                          for (state, sector), count in sorted(counts.items())],
+                         columns=["state_abbrev", "sector", "count"])
+    dominant = {}
+    for state, group in frame.groupby("state_abbrev"):
+        winners = group[group["count"] == group["count"].max()]["sector"].tolist()
+        dominant[state] = winners[0] if len(winners) == 1 else "Mixed"
+    return frame, dominant
+
+
 def map_sector_composition():
     """Map showing sector breakdown of moratoria per state."""
     print("Map 5: Sector Composition")
 
     inv = load_moratorium_inventory()
 
-    # Classify sectors from the trigger/legal_basis columns
-    def classify_sector(row):
-        text = f"{row.get('trigger', '')} {row.get('legal_basis', '')} {row.get('jurisdiction', '')}".lower()
-        if "crypto" in text or "digital asset" in text or "mining" in text:
-            return "Crypto"
-        if "battery" in text or "bess" in text or "energy storage" in text:
-            return "BESS"
-        if "solar" in text:
-            return "Solar"
-        if "wind" in text:
-            return "Wind"
-        if "data center" in text or "data centre" in text:
-            return "Data Center"
-        return "Data Center"  # default for this dataset
-
-    inv["sector"] = inv.apply(classify_sector, axis=1)
+    sector_counts, dominant_map = recorded_sector_inputs(inv)
 
     sector_colors = {
         "Data Center": PALETTE["data_center"],
@@ -153,6 +161,7 @@ def map_sector_composition():
         "BESS": PALETTE["bess"],
         "Solar": PALETTE["solar"],
         "Wind": PALETTE["wind"],
+        "Other": "#eeeeee", "Mixed": "#aaaaaa", "Unknown": "#ffffff",
     }
     sector_hatches = {
         "Data Center": HATCH["data_center"],
@@ -160,19 +169,8 @@ def map_sector_composition():
         "BESS": HATCH["bess"],
         "Solar": HATCH["solar"],
         "Wind": HATCH["wind"],
+        "Other": "..", "Mixed": "++", "Unknown": "oo",
     }
-
-    # Get state counts by sector
-    sector_counts = inv.groupby(["state_abbrev", "sector"]).size().reset_index(name="count")
-    total_counts = inv.groupby("state_abbrev").size().reset_index(name="total")
-
-    # Dominant sector per state
-    dominant = sector_counts.sort_values("count", ascending=False).drop_duplicates("state_abbrev")
-    dominant_map = dict(zip(dominant["state_abbrev"], dominant["sector"]))
-
-    # Use choropleth for total count, but with dominant sector determining the color family
-    counts = moratorium_counts_by_state()
-    count_values = dict(zip(counts["state_abbrev"], counts["count"]))
 
     m = BaseUSMap(title="Recorded Moratorium Rows by Sector")
     gdf = m._load_and_project()
@@ -198,12 +196,14 @@ def map_sector_composition():
     patches.append(mpatches.Patch(facecolor=PALETTE["no_data"], edgecolor=PALETTE["border"], label="No recorded rows"))
     ax.legend(
         handles=patches, loc="lower right",
-        title="Dominant Sector", title_fontsize=9, fontsize=8,
+        title="Recorded sector (ties: Mixed)", title_fontsize=9, fontsize=8,
         frameon=True, fancybox=False, edgecolor="#cccccc", framealpha=0.95,
     )
 
     m._draw_inset_separators(ax, gdf)
     m._fig, m._ax, m._gdf = fig, ax, gdf
+    fig.text(0.5, 0.015, "Multi-sector rows contribute to each recorded sector; general pauses are Other.",
+             ha="center", fontsize=7)
     m.save("map-sector-composition")
     m.close()
 
@@ -285,7 +285,7 @@ def map_timeline_heatmap():
         f"{len(dated)} dated rows; {len(inv) - len(dated)} without a usable month",
         fontweight="bold", pad=12,
     )
-    ax.set_xlabel("Month")
+    ax.set_xlabel("Recorded month (may be unverified or scheduled)")
     ax.set_ylabel("")
     ax.tick_params(axis="x", rotation=45, labelsize=7)
     ax.tick_params(axis="y", labelsize=8)
