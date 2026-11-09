@@ -1,5 +1,9 @@
 # November refresh closeout
 
+## Publication authorization, November 9
+
+The user authorized: “publish current state with qualifications on pending QA, then continue to double check and clear the outstanding questions.” Version 2026.11.9 therefore publishes the reviewed state with ongoing QA; failed experimental trials remain failed. The earlier publication prerequisite is explicitly superseded for this qualified release. Current and future corrections retain source-specific limits and immutable release history. Earlier checkpoints below retain their dated states.
+
 ## Current integrated source and consumer delivery
 
 Source `51352fd` applies the remaining full-inventory queue: 2,063 factual cells and 428 derived fields across 787 records, followed by ten endpoint consistency cells across five records. All 1,777 raw IDs have primary and independent review artifacts; the remaining-cohort compiled queue has zero pending cells. Full `make check` passes, and eight selected hosted outputs match the pushed source. [Application and validation](../work/research/2026-11-08/full-inventory-integrated-application/README.md) preserve exact changes and bounded uncertainty.

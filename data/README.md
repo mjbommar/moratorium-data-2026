@@ -83,7 +83,7 @@ Most `date_enacted` values are ISO format (`YYYY-MM-DD`). Some are `YYYY-MM` (da
 
 ## Updates
 
-The September 23, 2026 edition is a historical baseline. The November refresh is in progress; source/status dates vary by record. The published `v2026.11.8` prerelease is explicitly an incomplete checkpoint; later working corrections are not yet a completed release. Citation/version reconciliation remains part of the final release work.
+The September 23, 2026 edition is a historical baseline. The November refresh is in progress; source/status dates vary by record. Release `v2026.11.9` publishes the reviewed current state with pending QA and explicit unresolved questions. Further source checks continue. The earlier `v2026.11.8` prerelease remains an incomplete checkpoint.
 
 ## Reviewed ballot records
 

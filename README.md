@@ -1,6 +1,6 @@
 # Moratorium Data 2026
 
-**Incomplete refresh checkpoint:** [v2026.11.8](https://github.com/mjbommar/moratorium-data-2026/releases/tag/v2026.11.8) — verified artifact files are available, but full-record freshness and end-to-end consumer delivery remain incomplete. The earlier overall completion claim was incorrect.
+**November release with pending QA:** [v2026.11.9](https://github.com/mjbommar/moratorium-data-2026/releases/tag/v2026.11.9) publishes the reviewed current state with explicit unresolved source and legal-status questions. Further checking continues. The older `v2026.11.8` remains an incomplete prerelease checkpoint.
 
 **Open data on local-government moratoria targeting data centers, battery storage, solar, wind, and cryptocurrency mining across the United States.**
 

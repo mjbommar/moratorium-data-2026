@@ -2,7 +2,7 @@
 
 Plan: [Research modernization and ballot-measure expansion](docs/research-and-ballot-expansion-plan.md).
 
-## Active: complete the end-to-end dataset update
+## Active: publish the current state with pending QA, then clear outstanding questions
 
 The earlier completion claim was wrong. `v2026.11.8` is now explicitly an **incomplete prerelease checkpoint**, preserving its assets and audit history. Internal artifact validation does not close full-record review or consumer delivery.
 
@@ -11,8 +11,9 @@ The earlier completion claim was wrong. `v2026.11.8` is now explicitly an **inco
 - [x] Reconcile the 57 current ballot identities/results and retain all frozen-candidate dispositions, including three held payloads, uncertain Augusta correspondence and the newly reviewed Bethel town-meeting question ([accounting](work/research/2026-11-08/ballot-current-accounting/README.md)); source-specific limits remain.
 - [x] Finish evidenced input handoff and copy/historical-edition dispositions across all seven consumers ([delivery](work/research/2026-11-08/consumer-final-dispositions/README.md)); separate historical project/disclosure/manuscript corpora retain their own dates.
 - [x] Account explicitly for the original quality gates ([accounting](work/research/2026-11-08/final-quality-gate-accounting/README.md)); failed experimental trials remain failed, with no automatic promotion.
-- [ ] Resolve the explicitly retained successful P4 evaluation requirement before full-goal completion; a change requires an explicit scope decision, not a silent waiver.
-- [ ] Freeze one integrated source, validate once, and publish/verify the complete release and consumer delivery.
+- [x] Record the user’s explicit authorization to publish the current state with pending QA and continue checking outstanding questions; no successful P4 evaluation is claimed.
+- [ ] Publish and independently verify the qualified v2026.11.9 release and downloads.
+- [ ] Continue source-specific QA and clear outstanding questions with reviewed, guarded corrections; preserve frozen release history.
 
 - [x] Apply 88 independently reviewed material corrections across 43 records from the first 105 additional-record reviews ([application](work/research/2026-11-08/full-inventory-first105-application/README.md)); remaining full-record review stays open.
 - [x] Apply the next 143 material corrections and six derived fields across 52 records ([application](work/research/2026-11-08/full-inventory-next90-application/README.md)); 231 material changes are applied across both batches.

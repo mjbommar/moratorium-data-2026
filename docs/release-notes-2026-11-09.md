@@ -1,9 +1,6 @@
-# Prepared notes: comprehensive reviewed November update
+# v2026.11.9: reviewed November update with pending QA
 
-**Prepared, not published.** The successful experimental-extractor requirement and
-final release publication remain open. The existing `v2026.11.8` release stays an
-immutable, explicitly incomplete prerelease checkpoint. These notes describe the
-reviewed source at `51352fd` and do not label that checkpoint complete.
+**Published current state; QA continues.** The user explicitly authorized publication with qualifications on pending QA, followed by further double checking and clearing outstanding questions. Experimental extractor trials remain failed and unaccepted; publication does not assert they passed. The existing `v2026.11.8` remains an immutable incomplete prerelease checkpoint.
 
 ## Data and comparison
 
@@ -106,7 +103,4 @@ bytes and modes match. These are bounded consistency and delivery findings.
 Experimental extraction trials failed their frozen quality gates; no experimental
 output was automatically accepted. Offline transport/scorer tests and independent
 record review are not a passed extractor trial. The [gate accounting](../work/research/2026-11-08/final-quality-gate-accounting/README.md)
-retains that explicit unmet requirement. Publication requires its explicit disposition,
-final citation/manifest metadata, one selected release source, asset checksums,
-downloaded clean restore and actual remote release verification. No full-goal
-completion is claimed by these prepared notes.
+retains that explicit unmet requirement. The explicit authorization permits this qualified release while QA continues. Final remote tag, asset hashes and downloaded restore are recorded in the release delivery receipt. The ongoing QA goal is not complete.
