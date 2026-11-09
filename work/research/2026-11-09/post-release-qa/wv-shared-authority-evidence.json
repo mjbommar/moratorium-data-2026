@@ -1,0 +1,50 @@
+{
+  "sources": [
+    {
+      "attempt_id": "eee1a7a1fb43408399ff56a4d9ed2f55",
+      "url": "https://home.wvlegislature.gov/the-legislative-process/",
+      "status": 200,
+      "ok": true,
+      "body_sha256": "08e2b297292bd3d01b6b9df4443eae777d393685e7cf40a86df91f58505c909c",
+      "text_sha256": "3e2763b3648b78900d63f05ea826914f53743d60f10b1522825e666869c250e6",
+      "body_observed_at": "2026-11-09T20:33:17.783166Z",
+      "locator": "Bill Carryover section: bills pending in House at first regular-session adjournment; House request and reintroduction procedure"
+    },
+    {
+      "attempt_id": "4c6f053364894ed6926bbdf49a1ef528",
+      "url": "https://blog.wvlegislature.gov/senate-floor-session/2026/03/14/senate-updates-on-final-day-of-2026-legislative-session/",
+      "status": 200,
+      "ok": true,
+      "body_sha256": "b007b46860c2212ef5e2296181cbf26663397477e33ea9c61cfb35ade13c78b7",
+      "text_sha256": "a9cad49c97e737a9a38eae00fe6cb584a253ba5d0b91c936c7261f9f25e091f3",
+      "body_observed_at": "2026-11-09T20:33:17.521478Z",
+      "locator": "March14,2026 official Senate floor-session article, concluding statement Senate adjourned Sine Die; retained HTML title/date metadata"
+    },
+    {
+      "attempt_id": "def4a14f78f548cf90ef4e3a42dc82d6",
+      "url": "https://home.wvlegislature.gov/rules-of-the-senate/",
+      "status": 200,
+      "ok": true,
+      "body_sha256": "e6dfa1ecb9dee78f2d43509a4baf05195c45e856b0fb8025effc2fbd0bd5f50f",
+      "text_sha256": "588fd73215e048a1dabc78e6636235f5b175ea7a685fb8f06318748246a8a06b",
+      "body_observed_at": "2026-11-09T20:33:36.282305Z",
+      "locator": "Final Parlimentary Procedure section: default to Jefferson Manual, U.S. House Rules and practices; committee-report section distinguishes advisory reports"
+    }
+  ],
+  "reviewer": "root coordinator; direct primary-source text inspection",
+  "findings": [
+    "The official March14,2026 Senate account directly records Senate sine-die adjournment. This replaces the prior secondary House-adjournment account as a source for the four 2026 Senate records.",
+    "Current published legislative-process carryover guidance expressly concerns bills pending in the House and first-to-second regular-session procedure; it is not applied as a blanket Senate no-carryover rule. No House request deadline is promoted as a historically verified deadline.",
+    "Published Senate rules govern uncovered cases by Jefferson Manual and U.S. House Rules/practices. This inspection did not establish the rule application needed to resolve each named pending Senate bill\u2019s carryover/terminal effect. Absence of a matching carryover heading is not proof of prohibition."
+  ],
+  "limitations": [
+    "Current published procedural guidance observed November9 does not independently establish its entire historical version history.",
+    "Adjournment is not an exhaustive bill-history or successor-law finding.",
+    "The separate SB857/SB583 comparison question remains open."
+  ],
+  "http_reservations": 3,
+  "http_cap": 3,
+  "new_source_acquisitions": 3,
+  "whole_record_closures": 0,
+  "canonical_csv_edits": 0
+}

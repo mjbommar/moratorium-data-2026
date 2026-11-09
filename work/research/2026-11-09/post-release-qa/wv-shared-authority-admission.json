@@ -1,0 +1,29 @@
+{
+  "admitted_at": "2026-11-09T20:33:15.826370+00:00",
+  "authorization_basis": "Standing user goal; coordinator admits at most three HTTP requests to shared primary authorities, no browser/paid-provider/model work. Preserve prior ledgers and caps.",
+  "target_record_ids": [
+    "wv-sb-623-2026",
+    "wv-sb-652-2026",
+    "wv-sb-658-2026",
+    "wv-sb-695-2026",
+    "wv-sb-803-2025",
+    "wv-sb-857-2025"
+  ],
+  "caps": {
+    "exa": 0,
+    "serpapi": 0,
+    "googlenews": 0,
+    "gdelt": 0,
+    "search_total": 0,
+    "fetch": 3
+  },
+  "initial_targets": [
+    "https://home.wvlegislature.gov/the-legislative-process/",
+    "https://blog.wvlegislature.gov/senate-floor-session/2026/03/14/senate-updates-on-final-day-of-2026-legislative-session/"
+  ],
+  "stop_conditions": [
+    "Three reserved HTTP requests including failures; no automatic expansion.",
+    "House-specific carryover guidance is not proof of Senate applicability.",
+    "Adjournment alone does not settle each pending bill outcome."
+  ]
+}

@@ -241,3 +241,7 @@ The [hosted verification](va-wy-hosted-verification.json) confirms six named pub
 ## HB2047 proposed data-center scope established
 
 [Retained SA0665 and refreshed official history](tennessee-hb2047-evidence.json) establish explicit proposed facility/equipment and incentive eligibility scope. The [append-only scope decision](tennessee-hb2047-scope-application.json) changes unresolved to include: **373 included / 19 excluded / 55 unresolved**. Final amendment adoption remains unverified; no CSV or whole-record-disposition change. The four-fetch Tennessee batch is exhausted.
+
+## West Virginia common authority followup
+
+[Three current primary authorities](wv-shared-authority-evidence.json) replace the weaker secondary2026 adjournment basis and identify the Senate’s incorporated parliamentary authority. Six [guarded residual entries](wv-shared-authority-adjudications.json) retain their terminal/carryover questions, plus SB857’s separate comparison question. House-only carryover guidance is not used as Senate proof. No CSV, category or disposition changes.
