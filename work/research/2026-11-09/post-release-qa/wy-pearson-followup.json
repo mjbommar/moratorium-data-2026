@@ -1,0 +1,34 @@
+{
+  "record_id": "wy-sf0091-2026",
+  "outcome": "unresolved",
+  "canonical_changes": 0,
+  "sources": [
+    {
+      "attempt_id": "7c7b470cb70d4502832522e9fc3199c1",
+      "url": "https://www.wyoleg.gov/publicationsResearch/HandbookPolicy",
+      "body_sha256": "5028081fe71ad7f8a76c17428827ffd9d1f883b28a0ebc497a0d21069937f3ad",
+      "text_sha256": "46da2ad0c029969c850ade20f10699fcd95343ae3626cb340f5e051bf4733298",
+      "body_observed_at": "2026-11-09T18:40:17.437566Z"
+    },
+    {
+      "attempt_id": "8fff94ed60e1418cb4052a8093ee35bd",
+      "url": "https://wyoleg.gov/docs/L-Hbook.pdf",
+      "body_sha256": "d970a7067131968a28b86658793bf5a54ffabaff60ac63adf178d55c199796c2",
+      "text_sha256": "2f53d314cff30ac509b9236fbaa045f854ef3d07ce7ab9b554cd92ad51e5fbda",
+      "body_observed_at": "2026-11-09T18:40:45.653209Z"
+    },
+    {
+      "attempt_id": "86902ddad9f748399945bc376328001b",
+      "url": "https://www.wyoleg.gov/Legislators/historical",
+      "body_sha256": "ed880e761e14efda5c6d1e3854d39aacc8dee43a5a232fe4d13ea30a641aa0bc",
+      "text_sha256": "970c2ae6b9e12b8af1315665c68721cc15bea3da29a5f493f35683b5820b7080",
+      "body_observed_at": "2026-11-09T18:41:34.095555Z"
+    }
+  ],
+  "findings": [
+    "The rendered handbooks/policies index links to L-Hbook.pdf. The actual PDF is dated January 2024 and describes legislative operations; it does not establish the bill-listed Pearson identity or party.",
+    "The former-members page is a search form with unfilled first-name, last-name and year inputs. It expressly warns of incomplete historical data. No search results were submitted or obtained; absence of Pearson from this capture is not a negative identity finding.",
+    "The preceding HTTP-only handbook index capture returned a shell with no readable text; it is retained in the private attempt journal and is not substantive identity evidence."
+  ],
+  "next_evidence_needed": "An official named-member directory, profile or historical search result tying bill-listed Senator Pearson to the relevant 2026 session and party. Preserve attribution and qualification until such evidence exists."
+}

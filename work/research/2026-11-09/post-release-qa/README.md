@@ -179,3 +179,5 @@ The [hosted verification](va-wy-hosted-verification.json) confirms six named pub
 ## Arizona official final-disposition review applied
 
 [The official index and seven rendered bill histories](arizona-final-review.md) support sixteen guarded edits across seven records and resolve HB 4009’s prior final-action question. Current dispositions are 1,480 unresolved, 101 corrected-resolved and 194 confirmed-unchanged. Six held-in-committee bills and HB 2452’s held-on-reconsideration observation retain unknown terminal categories. All IDs, local rows, scope partitions and ballot data remain unchanged. Earlier dated batch counts above are historical checkpoints.
+
+[Arizona hosted verification](arizona-final-hosted-verification.json) confirms six named served artifacts match `2314e44`, including current policy, scope, metadata and unresolved accounting. [Wyoming Pearson followup](wy-pearson-followup.json) retains the actual handbook and former-member search-form captures without turning an unsubmitted form or an older procedural handbook into identity evidence. No additional canonical or disposition change follows from these captures.
