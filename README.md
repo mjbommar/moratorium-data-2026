@@ -158,7 +158,7 @@ A `CITATION.cff` file is included in the repo so GitHub renders a "Cite this rep
 - **Data** (`data/`, `states/`, `tables/`, `figures/`) is licensed under [Creative Commons Attribution 4.0 (CC-BY-4.0)](LICENSE-data). You can reuse, redistribute, and remix the data, including commercially, as long as you credit the source.
 - **Code** (`scripts/`, `notebooks/`, `examples/`) is licensed under the [MIT License](LICENSE-code).
 
-This is a working dataset, and we update it often. The previous comprehensive working snapshot was dated **September 23, 2026**; selective November corrections are now included, and the full refresh remains in progress. Remote refs checked November 5 show **v2026.04.2** as the latest tag and no published GitHub Release; the v2026.07 label below and in historical notes describes an unpublished working snapshot. Full-refresh publication is pending.
+The latest qualified release is [v2026.11.9.post1](https://github.com/mjbommar/moratorium-data-2026/releases/tag/v2026.11.9.post1), published November 9 with explicit pending QA. September 23 remains the historical comparison baseline. Pin the release tag for replication; working main may contain subsequent reviewed corrections. Historical version labels describe their dated editions, and no DOI is asserted.
 
 ---
 

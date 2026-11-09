@@ -357,7 +357,7 @@ anything.
 
 ## Updates
 
-The November working refresh is not a published release. Remote inspection on November 6 found the three April tags (`v2026.04`, `v2026.04.1`, `v2026.04.2`) and no published GitHub Releases. Historical version labels elsewhere in this methodology describe prior work; they do not prove a matching remote tag or DOI. No new DOI is asserted.
+The November update is published as qualified release [v2026.11.9.post1](https://github.com/mjbommar/moratorium-data-2026/releases/tag/v2026.11.9.post1). Its source revision, deterministic assets, clean-restore replay and anonymous download checks are recorded in the [release receipts](../work/research/2026-11-09/release-2026.11.9.post1/README.md). Pending source-specific questions and current-force limits remain explicit. Historical version labels elsewhere describe prior work and do not establish a separate remote tag or DOI. No DOI is asserted.
 
 
 ## November collection and evidence review

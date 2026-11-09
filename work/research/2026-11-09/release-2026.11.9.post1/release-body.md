@@ -22,3 +22,7 @@ The downloadable archive includes the current public QA ledger and exact residua
 The April paper and dated sibling publications remain historical editions. Experimental extraction remains failed/unaccepted; this publication does not claim otherwise. Recorded active/extended labels do not prove present enforceability, and unknown facts remain explicit. No DOI is invented.
 
 Exact source revision, asset hashes, clean-restore verification and anonymous download checks accompany publication. The patch uses the same authorized qualified-publication scope as v2026.11.9; QA remains ongoing.
+
+## Publication-copy qualification
+
+The immutable archive retains earlier publication-status paragraphs in its README, FAQ and methodology, including November 5–6 remote-ref observations. Those paragraphs are historical and do not describe this release’s publication state. This release page, its manifest and release_metadata.json establish publication and source identity; [current guidance](https://mjbommar.github.io/moratorium-data-2026/docs/FAQ.html) corrects the older prose. The historical paragraphs do not alter dataset counts, asset hashes or pending-QA dispositions. The tag and downloadable assets remain unchanged.

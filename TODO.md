@@ -13,6 +13,7 @@ The earlier completion claim was wrong. `v2026.11.8` is now explicitly an **inco
 - [x] Account explicitly for the original quality gates ([accounting](work/research/2026-11-08/final-quality-gate-accounting/README.md)); failed experimental trials remain failed, with no automatic promotion.
 - [x] Record the user’s explicit authorization to publish the current state with pending QA and continue checking outstanding questions; no successful P4 evaluation is claimed.
 - [x] Publish and independently verify the qualified v2026.11.9 release and downloads ([receipt](work/research/2026-11-09/release-2026.11.9/README.md)).
+- [x] Publish qualified correction patch `v2026.11.9.post1` from `7649328`; verify two identical builds, full clean replay, all ten anonymous downloads and 1,764 archive members ([receipt](work/research/2026-11-09/release-2026.11.9.post1/README.md)). Original release remains immutable.
 - [ ] Continue source-specific QA and clear outstanding questions with reviewed, guarded corrections; preserve frozen release history.
 
 - [x] Apply 88 independently reviewed material corrections across 43 records from the first 105 additional-record reviews ([application](work/research/2026-11-08/full-inventory-first105-application/README.md)); remaining full-record review stays open.
@@ -711,3 +712,12 @@ Exit: repeatable refresh with visible freshness, costs, failures and unresolved 
 - [x] Verify successful Pages deployment `42667803840` at `d83b417` and six exact hosted files.
 - [x] Independently clear three Maine historical sponsor-party holds using the correct library session rows and prior material/status sources; preserve chamber/time context for Dill.
 - [x] Independently resolve three California bill-specific material/scope/party/author-identity holds using retained relevant bill versions, dated official floor analyses and official member pages; preserve inherited activity classification as aggregate context. Six named holds close unchanged, with no CSV or headline status changes.
+
+### Qualified correction patch and current residuals
+
+- [x] Apply guarded Virginia/Wyoming source followup: identify Kevin Campbell, qualify Pearson, and change Wyoming analytical scope to unresolved; current scope is 373 include / 19 exclude / 55 unresolved.
+- [x] Recover Arizona official disposition lists and seven histories, apply sixteen fields and clear HB 4009’s final-action hold; retain held-bill terminal questions.
+- [x] Re-observe Alabama’s nine/22 history entries and official April 9 adjournment; qualify the special-session status sheet and first-readings-only report, preserving exact remaining questions.
+- [x] Bundle the current public QA ledger with the qualified patch. Current active raw IDs: 1,775; dispositions: 1,480 unresolved, 101 corrected-resolved, 194 confirmed-unchanged. These are bounded review findings, not universal current-force certification.
+- [ ] Verify the patch’s corrected website copy and metadata after the publication-copy commit deploys. Earlier run `42678817222` built successfully but remained deploying while the required README/FAQ/methodology correction was prepared.
+- [ ] Continue the exact source-specific questions in `work/research/2026-11-09/post-release-qa/outstanding-record-questions.jsonl`; avoid repeating completed discovery and retain all source clocks and guards.

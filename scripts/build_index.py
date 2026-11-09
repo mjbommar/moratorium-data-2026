@@ -40,6 +40,7 @@ _RELEASE = json.loads((REPO / "data/release_metadata.json").read_text())
 _RELEASE_DAY = date.fromisoformat(_RELEASE["release_date"])
 _SOURCE_DAY = date.fromisoformat(_RELEASE["research_cutoff"].split("T", 1)[0])
 RELEASE_VERSION = _RELEASE["version"]
+RELEASE_CONTEXT = "Qualified release" if _RELEASE.get("update_status") == "published_qualified_patch_pending_qa" else "Working QA after"
 RELEASE_LABEL = f"{_RELEASE_DAY:%B} {_RELEASE_DAY.day}, {_RELEASE_DAY.year}"
 RELEASE_DATE = f"{_RELEASE_DAY.day} {_RELEASE_DAY:%B %Y}"
 RELEASE_ISO = _RELEASE_DAY.isoformat()
@@ -153,7 +154,7 @@ def changes_section(f: dict) -> str:
     """
     return f"""{CHANGES_START}
 <section class="release-notes">
-  <div class="stamp">Working QA after v{RELEASE_VERSION} &middot; source cutoff {SOURCE_LABEL} &middot; QA continues</div>
+  <div class="stamp">{RELEASE_CONTEXT} v{RELEASE_VERSION} &middot; source cutoff {SOURCE_LABEL} &middot; QA continues</div>
   <h2>The November dataset update</h2>
   <p class="lede">The inventory tracks {f['rows']} local inventory records across {f['states']} states.
   Recorded classifications include {f['active']} active and {f['extended']} extended records,
@@ -288,8 +289,11 @@ def build_edits(f: dict) -> list[tuple[str, str, str]]:
          f"rather than all {f['rows']} of them."),
         ("status snapshot",
          r'(This working snapshot uses a cohort cutoff of <strong>)[^<]+(</strong>\. '
-         r'The latest tagged release remains <strong>)v[\d.]+(</strong>\.)',
+         r'(?:The latest tagged release remains|The latest qualified release is) <strong>)v[0-9A-Za-z_.-]+(</strong>\.)',
          rf'\g<1>{SOURCE_DATE}\g<2>v{RELEASE_VERSION}\g<3>'),
+        ("release qualifications link",
+         r'(<a href="https://github.com/mjbommar/moratorium-data-2026/releases/tag/)v[0-9A-Za-z_.-]+(">release qualifications</a>)',
+         rf'\g<1>v{RELEASE_VERSION}\g<2>'),
     ]
 
 

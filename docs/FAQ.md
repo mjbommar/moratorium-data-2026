@@ -79,7 +79,7 @@ If you publish something based on this data, we'd love to hear about it — drop
 
 ## How often is this updated?
 
-The November working refresh remains unreleased. Existing remote tags are `v2026.04`, `v2026.04.1` and `v2026.04.2`; the November 6 check found no published GitHub Releases. Pin a commit for working-data analysis. Citation and publication metadata will be reconciled when the release is finalized; no DOI is asserted.
+The latest qualified release is [v2026.11.9.post1](https://github.com/mjbommar/moratorium-data-2026/releases/tag/v2026.11.9.post1), published November 9 with pending source-specific QA. Use its tag and checksums for reproducible analysis; working main may include later corrections. Follow [CITATION.cff](../CITATION.cff) and the release metadata for citation. No DOI is asserted.
 
 ## Who built this?
 
