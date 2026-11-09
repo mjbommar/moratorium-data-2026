@@ -682,3 +682,5 @@ Exit: repeatable refresh with visible freshness, costs, failures and unresolved 
 - [x] Reconstruct the complete current residual-question index from prior reviews, including nested check lists; independently audit four Maine disposition inconsistencies, resolve LD 307 accounting and preserve three concrete party-field gaps. All 1,499 unresolved records have explicit indexed questions; none is silently dropped.
 
 - [x] Recover official Renton August 17 adoption and October 5 hearing minutes through PrimeGov; independently verify and apply two guarded fields, preserve remaining operative-term/exception/later-action gaps, and update the residual index. Retain Covina/Brownsville/Cle Elum source-specific holds and decline nonresponsive pre-meeting/invalid targets.
+
+- [x] Audit 55 terminal-bill residuals with three disjoint retained-evidence reviews; independently verify four rendered official party profiles, clear two named South Dakota QA holds and retain 53 precise gaps, including coordinator rejection of the Kentucky guard-only closure recommendation. Canonical CSV/status values remain unchanged.

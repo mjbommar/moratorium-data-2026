@@ -1,0 +1,39 @@
+{
+  "observed_at": "2026-11-09T15:40:25.780578+00:00",
+  "source_commit": "4fbea352219075c9a8f25cee8551aa847fb269c1",
+  "deployment_run": 42646296017,
+  "deployment_conclusion": "success",
+  "files": [
+    {
+      "path": "data/moratorium_inventory.csv",
+      "status": 200,
+      "sha256": "5806ad1a8fb2b8587cb1d63820e4fa6765792319bf838f3474e91ad07f7a975e",
+      "matches_committed_bytes": true
+    },
+    {
+      "path": "states/washington.html",
+      "status": 200,
+      "sha256": "0afd42ed5ebd105c351bc69dd3036c1d02ee7ed2abb51d695eaadb573243abec",
+      "matches_committed_bytes": true
+    },
+    {
+      "path": "data/release_metadata.json",
+      "status": 200,
+      "sha256": "e3c8b30488410b20ec223bbadd39273b85607d29e4ab4ebd8da9f3e6c30e95bb",
+      "matches_committed_bytes": true
+    },
+    {
+      "path": "work/research/2026-11-09/post-release-qa/renton-question-disposition.json",
+      "status": 200,
+      "sha256": "6ccc976c73a8038d7601c761aff7688fef63c952bd31b845eb9660da2e68e5c8",
+      "matches_committed_bytes": true
+    },
+    {
+      "path": "work/research/2026-11-09/post-release-qa/outstanding-record-questions.jsonl",
+      "status": 200,
+      "sha256": "98d189cf6518a731ac857111ac2a28a3b87e68df4c26b66fa589d7796db7a733",
+      "matches_committed_bytes": true
+    }
+  ],
+  "scope": "Selected deployed Renton correction data/page, metadata and residual/source-question receipts; no full link audit or renewed factual acceptance."
+}

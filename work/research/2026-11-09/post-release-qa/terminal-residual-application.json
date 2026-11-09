@@ -1,0 +1,44 @@
+{
+  "scope": "Two guarded named-bill disposition corrections and 53 precise residual holds; no canonical CSV cell or legislative status change. Original source/event dates retained.",
+  "records_reviewed": 55,
+  "accepted_closures": [
+    {
+      "id": "sd-sb-177-2025",
+      "dataset": "state_policy",
+      "before": "unresolved",
+      "after": "confirmed_unchanged",
+      "row_sha256": "d0446ae73fbf6b36f63575c4eabec9d155c729fad571fb622acabd70cba8c2e7",
+      "review_pointer": "work/research/2026-11-09/post-release-qa/terminal-residual-audit.json",
+      "reviewed_at": "2026-11-09T16:03:25.357034+00:00"
+    },
+    {
+      "id": "sd-sb-239-2026",
+      "dataset": "state_policy",
+      "before": "unresolved",
+      "after": "confirmed_unchanged",
+      "row_sha256": "a2f6a858ffa7b54f2f8ccbc2df79a815ae8ada8f14e761b3ad3369fb7daa1de2",
+      "review_pointer": "work/research/2026-11-09/post-release-qa/terminal-residual-audit.json",
+      "reviewed_at": "2026-11-09T16:03:25.357291+00:00"
+    }
+  ],
+  "remaining_holds": 53,
+  "peer_closure_declined": [
+    "ky-hb-372-2021-rs"
+  ],
+  "funnel_before_sha256": "3396cc3690b528e8cac5bc7b6febb2bf130b3be5cbaff5737496602f7a00cfaa",
+  "funnel_after_sha256": "7e3e6576e2d495b83fb06bec4e8b3bba347a636a63e1cda3fcb7fa9baa714f14",
+  "current_counts": {
+    "unresolved": 1497,
+    "corrected_resolved": 95,
+    "confirmed_unchanged": 183,
+    "superseded_duplicate": 1,
+    "not_attempted": 0
+  },
+  "new_source_fetches": {
+    "http_application_shells": 4,
+    "browser_rendered_profiles": 4,
+    "total": 8
+  },
+  "direct_model_api_calls": 0,
+  "paid_search_calls": 0
+}

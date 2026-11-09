@@ -1,7 +1,7 @@
 # Full raw-record review dispositions
 
 The [funnel](funnel.json) assigns one disposition to each of the **1,776 active raw IDs**:
-**1,499 unresolved, 95 corrected-resolved, 181 confirmed-unchanged, one superseded
+**1,497 unresolved, 95 corrected-resolved, 183 confirmed-unchanged, one superseded
 duplicate and zero not-attempted**. The original release reviewed 225 earlier and 1,552 remaining IDs. Post-release QA retires one wrong-jurisdiction duplicate, retaining its original row and permanent ID as an alias. The current funnel exactly covers the remaining 1,776 active IDs. This is
 bounded record/source accounting, not a universal current-law certification.
 
@@ -28,3 +28,5 @@ source text and provider payloads. This closes record-disposition accounting;
 experimental quality and final release delivery remain separate gates.
 
 The [post-release Maine disposition audit](../../2026-11-09/post-release-qa/maine-terminal-disposition-review.md) corrects one blanket unresolved classification for LD 307 while preserving three distinct sponsor-party gaps. Canonical values and source observation dates remain unchanged.
+
+The [55-record terminal-bill audit](../../2026-11-09/post-release-qa/terminal-residual-audit.json) confirms two South Dakota named records after matching session-specific party evidence, and preserves 53 specific holds. Different successor instruments remain outside each named failed-bill disposition; real field, status and procedural gaps remain indexed.
