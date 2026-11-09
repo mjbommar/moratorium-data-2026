@@ -107,3 +107,9 @@ The [final South Dakota source confirmation](sd-terminal-confirmation.md) suppor
 Current dispositions are **1,495 unresolved, 97 corrected-resolved, 183 confirmed-unchanged and zero active superseded duplicates**, covering all **1,775 active raw IDs**. Two post-release retired aliases remain in history. The frozen release remains unchanged.
 
 [Combined validation](procedure-identity-validation.json) verifies exact four-cell policy changes, unchanged surviving local rows, scope-registry fingerprints, complete current disposition/index membership and nine focused build/data checks. Three affected maps were regenerated in PNG, PDF and SVG; historical legal-map editions remain dated.
+
+## Further South Dakota source capture
+
+The [next targeted source check](sd-howard-source-followup.json) recovers the exact linked 2026 Taffy Howard profile and verifies its Republican party field, matching existing CSV values. Independent adjudication remains pending; no whole-record QA disposition is promoted. The rendered session schedule lists upcoming meetings and does not prove a final bill outcome. Both source versions were archived and replayed through the existing native store with verified body/text readback. The queue remains unchanged pending adjudication.
+
+The [hosted verification](procedure-identity-hosted-verification.json) confirms successful deployment of `62eaca2` and exact bytes for five current data/site/QA files.

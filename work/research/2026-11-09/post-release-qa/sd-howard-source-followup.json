@@ -1,0 +1,62 @@
+{
+  "scope": "Coordinator source check; no independent whole-record disposition or canonical cell promotion.",
+  "record_id": "sd-sb-232-2026",
+  "current_row_sha256": "c81bd9f1a4f9a2a85c299bfbc1916db166d9055e10b02cb3b3422e8296618469",
+  "findings": [
+    {
+      "source": 0,
+      "locator": "Rendered heading and Party field",
+      "observation": "Official session-specific profile 4763 identifies Senator Taffy Howard for 2026 and Party Republican, matching the current sponsor and party cells.",
+      "qualification": "Previously established bill-to-profile linkage is retained in sd-procedure-adjudications.json. Independent adjudication of this new profile capture remains pending."
+    },
+    {
+      "source": 1,
+      "locator": "Rendered Schedule table",
+      "observation": "The page lists upcoming November and December 2026 meetings, not final bill dispositions.",
+      "qualification": "No inference of terminal death, revival or session-wide absence follows from this page."
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://sdlegislature.gov/Legislators/Profile/4763/Detail",
+      "final_url": "https://sdlegislature.gov/Legislators/Profile/4763/Detail",
+      "status": 200,
+      "title": "Senator Taffy Howard | South Dakota Legislature",
+      "body_sha256": "0e4044c8a81eb484d5136618cf85e0ed1559398dc8a5a3cd8a06b5b181c62d62",
+      "text_sha256": "d62a7202f7234e92202666711627312931d918348ce4a774f7d4f0dc6406a2d7",
+      "body_observed_at": "2026-11-09T16:49:33.844638Z",
+      "browser_controls": {
+        "engine": "pydoll",
+        "headless": true,
+        "settle_ms": 3000
+      }
+    },
+    {
+      "url": "https://sdlegislature.gov/Session/Schedule/2026",
+      "final_url": "https://sdlegislature.gov/Session/Schedule/2026",
+      "status": 200,
+      "title": "Schedule | South Dakota Legislature",
+      "body_sha256": "d7bb17b44270eb23f62dde5a3ffea50a221972463d87cb3bbca71f97e73e0132",
+      "text_sha256": "67df0ef32f73129f2a9b5c4e463b1a22bd32b2cafd1055fcb42c89c4e380a128",
+      "body_observed_at": "2026-11-09T16:50:08.501220Z",
+      "browser_controls": {
+        "engine": "pydoll",
+        "headless": true,
+        "settle_ms": 3000
+      }
+    }
+  ],
+  "native_archive": {
+    "verified_body_records": 2,
+    "migrated_records": 2,
+    "gaps": 0,
+    "body_and_text_readback": true
+  },
+  "canonical_changes": 0,
+  "disposition_changes": 0,
+  "remaining_questions": [
+    "Independently adjudicate the newly captured sponsor profile.",
+    "Obtain authoritative terminal disposition or applicable final-session procedural evidence for SB 232; tabling alone permits reconsideration."
+  ],
+  "residual_index": "Unchanged pending independent adjudication; 1495 record dispositions remain unresolved."
+}

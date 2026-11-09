@@ -687,3 +687,6 @@ Exit: repeatable refresh with visible freshness, costs, failures and unresolved 
 
 - [x] Independently review South Dakota procedural sources, qualify SB 232 tabling, fill three official bill links and clear two bounded failed-stage QA dispositions; preserve the 2021-guide versus 2026-rules limitation.
 - [x] Trace both Hampden observations through September answers and a matching historical source-body hash; retire the proven Ordinance 18 duplicate with full alias/preimage preservation and all surviving rows unchanged. Rebuild affected tables, maps and site; verify all 1,775 active raw IDs and 1,495 indexed unresolved records.
+
+- [x] Verify successful Pages deployment `42658110384` at `62eaca2` and exact hosted bytes for both canonical CSVs, metadata, the batch validation receipt and index.
+- [ ] Independently adjudicate the captured 2026 Taffy Howard profile; continue SB 232 terminal-disposition evidence. Upcoming-meetings schedule is not a final-status source. Two new rendered sources are archived and native-readback verified.
