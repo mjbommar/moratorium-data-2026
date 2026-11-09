@@ -5,6 +5,18 @@ record-level observations and `[VERIFY]` markers identify unresolved work.
 
 ## What we know we don't have
 
+
+### Newly retained Massachusetts energy-package candidate
+
+The November 9 [related-version review](../work/research/2026-11-09/post-release-qa/massachusetts-energy-conference-evidence.json)
+retains H 5175's House text and Senate reprint S 3166. They contain distinct
+proposed data-center operating, tariff, certification and interconnection provisions.
+The inspected history ends at conference appointment; these are not enacted rules.
+This package is not yet integrated as a separate canonical policy observation.
+Its version comparison and identity/scope accounting remain required; do not add
+the two versions as two enactments or fold them into H 4144's study-order status.
+
+
 ### Record review and current-force limits
 
 All 1775 raw IDs now have primary and independent review artifacts. These are

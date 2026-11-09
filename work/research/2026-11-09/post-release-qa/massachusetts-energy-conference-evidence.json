@@ -1,0 +1,52 @@
+{
+  "sources": [
+    {
+      "url": "https://malegislature.gov/Bills/194/H5175",
+      "attempt_id": "150c37cb14964a68aeafab4b61ed306d",
+      "body_sha256": "f0232c2d19970f4943de9db277d68c88008400b6ef608af7fd5a8b8370f376b3",
+      "text_sha256": "591a4432d2d5f8466ffc91d4ff81cf370890cd5e5a0aa3d311dfe69a6332cc03",
+      "body_observed_at": "2026-11-09T22:31:07.647479Z"
+    },
+    {
+      "url": "https://malegislature.gov/Bills/194/S3166",
+      "attempt_id": "d032981fc4234a468882cec3a6a3855d",
+      "body_sha256": "0ca459202c63749f6ec01e88646057f22bf315e5862b6259b5c286893f432362",
+      "text_sha256": "80f7ea01eb035c57c6a92ded93df7440f8f8acc73bc3d369f2a060ffd5c49797",
+      "body_observed_at": "2026-11-09T22:31:08.376886Z"
+    },
+    {
+      "url": "https://malegislature.gov/Bills/194/H5175/House/Bill/Text",
+      "attempt_id": "a0bef8d84f484e94b5ef5459f7eb27c4",
+      "body_sha256": "6a27b9dd7dcb8f0e31b648cde5e52acfd417ae0b43ef1d10c14c060db8a4ca42",
+      "text_sha256": "30b0322d55f9f0aeea367ff66c70674ea96d961eea396218b99eb4e30f647bba",
+      "body_observed_at": "2026-11-09T22:31:06.894621Z"
+    },
+    {
+      "url": "https://malegislature.gov/Bills/194/S3166/Senate/Bill/Text",
+      "attempt_id": "915cfedd33c2479598ddff2a6e313d3d",
+      "body_sha256": "9458be2df6a67e45ffe13042725bfd071412689221cd5cd1b166b44f0fa0b027",
+      "text_sha256": "39f20df6796dd07bc9d628a2dc98bef7a8efabd9f00115a5c2b16804813c5ad0",
+      "body_observed_at": "2026-11-09T22:31:07.411201Z"
+    }
+  ],
+  "canonical_field_changes": 0,
+  "whole_record_closures": 0,
+  "http_cap": 4,
+  "http_used": 4,
+  "version_findings": [
+    {
+      "version": "H5175 House text",
+      "locator": "proposed chapter164 section163",
+      "finding": "Defines data center using at least20MW designed load; new/expanded qualifying permit applicants face proposed80percent renewable supply, battery-infeasibility showing before fossil backup permitting, and data-center tariffs protecting other customers."
+    },
+    {
+      "version": "S3166 Senate reprint/amendment to H5175",
+      "locator": "sections3,88,114",
+      "finding": "Contains data-center exemption certification language, flexible interconnection proposed section157, and a working group explicitly including data-center developers/operators. These are related but not identical to H4144 provisions."
+    }
+  ],
+  "status_finding": "H5175 latest displayed actions July16,2026 nonconcurrence and conference appointment; S3166 July1reprint points to H5175. No enacted version is established by these captures.",
+  "candidate_integration_required": true,
+  "candidate_identity": "one underlying H5175 legislative package with distinct House and Senate text observations; do not count S3166 as an additional enactment",
+  "scope": "Targeted related-version comparison, not complete review of every energy-bill section or proof of legal succession from H4144."
+}
