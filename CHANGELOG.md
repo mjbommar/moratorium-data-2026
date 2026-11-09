@@ -2,6 +2,8 @@
 
 ## Working QA after v2026.11.9.post1
 
+Tennessee SJR1280, its action history and the April23 journal clear six shared adjournment-source holds; HB2047 retains amendment-adoption/scope questions. Current dispositions: 1,466 unresolved, 109 corrected-resolved and 200 confirmed-unchanged. No canonical CSV or status changes. [Evidence](work/research/2026-11-09/post-release-qa/tennessee-session-evidence.json).
+
 Retained Georgia House journal review verifies HB1063’s adopted 100 MW substitute and 159–5 passage, and supplies HB1059’s missing primary action record. Three scoped holds close, including SB421’s shared session-end gap. One summary changes; no status category or headline changes. Current dispositions: 1,472 unresolved, 108 corrected-resolved and 195 confirmed-unchanged. [Findings](work/research/2026-11-09/post-release-qa/georgia-journal-followup-evidence.json).
 
 Georgia SB408’s introduced sunset and SB410’s Senate-passed utility/tax provisions are now verified; HB1063’s recovered committee substitute preserves its distinct 100 MW wording. Four cells across three rows change and two scoped QA holds close. Current dispositions: 1,475 unresolved, 106 corrected-resolved and 194 confirmed-unchanged. No status-category or headline changes. [Version evidence](work/research/2026-11-09/post-release-qa/georgia-version-evidence.json).

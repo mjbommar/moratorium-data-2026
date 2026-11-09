@@ -1,0 +1,45 @@
+{
+  "sources": [
+    {
+      "attempt_id": "0eb97df0caea4a1aa46fcfce4bb31b95",
+      "url": "https://capitol.tn.gov/bills/114/House/Journals/04232026RD65.pdf",
+      "status": 200,
+      "ok": true,
+      "body_sha256": "4d8a29520ddce50cfd249acf7e8b8dda6461f1fa4d71c857a573808b592ce72f",
+      "text_sha256": "f93312c60afd5726702cc54408e3398ca92342a9d9032a938561a63e0c91bd26",
+      "body_observed_at": "2026-11-09T20:25:06.567107Z",
+      "locator": "PDF page 105/printed 5083 concurrence in SJR1280; PDF119/printed5097 actual House sine-die declaration; PDF82 Senate adopted-resolution message"
+    },
+    {
+      "attempt_id": "5c7b59127c3f44a5b786157ac1fa33bc",
+      "url": "https://capitol.tn.gov/Bills/114/Bill/SJR1280.pdf",
+      "status": 200,
+      "ok": true,
+      "body_sha256": "e06b909ad217d7cb0e57b21b689a2d1f9daf78d90a8f1a48b862c4d40b1d98ca",
+      "text_sha256": "a0b265b9960c1ad172ebaf1500529f959b573faf3c499fbb9e5307ff425b2bb6",
+      "body_observed_at": "2026-11-09T20:25:06.256837Z",
+      "locator": "SJR1280 page1: both houses adjourn close of business Thursday April23,2026; post-adjournment committee-work proviso"
+    },
+    {
+      "attempt_id": "776ea545ca9f42f08df404db359957fb",
+      "url": "https://wapp.capitol.tn.gov/apps/BillInfo/Default.aspx?BillNumber=SJR1280&ga=114",
+      "status": 200,
+      "ok": true,
+      "body_sha256": "483d516ef453cb6df4abcead9bcd4c72b3a136c749bd67dfec48b568e69e1210",
+      "text_sha256": "f672f9262a1aa2083436b9dce7e7092fbcb12bef430b15a117d63e5c08644a44",
+      "body_observed_at": "2026-11-09T20:25:06.479121Z",
+      "locator": "SJR1280 official history: April23 Senate adoption and House concurrence; April30 enrollment; May5/6 speaker signatures"
+    }
+  ],
+  "finding": "Regular-session sine-die adjournment April23,2026, established by adopted/concurred SJR1280 and journal actual House declaration. Later resolution enrollment/signatures are distinct events.",
+  "journal_version_qualification": "Discovery index described an older unofficial draft. The body actually captured November9 contains no UNOFFICIAL marker in its layout text and includes later administrative appendix entries. No separate adoption date for the journal itself is asserted; resolution text and official action history provide independent corroboration.",
+  "session_scope": "114th regular session, not May extraordinary-session adjournments; authorized post-adjournment committee investigation/reporting is not passage of these bills.",
+  "visually_reviewed_pages": [
+    "Journal PDF105",
+    "Journal PDF119",
+    "SJR1280 PDF1"
+  ],
+  "http_reservations": 3,
+  "http_cap": 4,
+  "paid_search_and_model_calls": 0
+}

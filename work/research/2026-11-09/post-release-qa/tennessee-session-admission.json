@@ -1,0 +1,35 @@
+{
+  "admitted_at": "2026-11-09T20:25:04.822152+00:00",
+  "authorization_basis": "Standing goal authorizes one common-source recovery: at most four reserved HTTP calls; no paid APIs, browser or models; prior ledgers unchanged.",
+  "target_record_ids": [
+    "tn-hb1461-sb1832",
+    "tn-hb2047-sb2584",
+    "tn-hb2054-sb1999",
+    "tn-hb2061-sb1682",
+    "tn-hb2392-sb2653",
+    "tn-hb2456-sb2112",
+    "tn-hb2463-sb2681"
+  ],
+  "caps": {
+    "exa": 0,
+    "serpapi": 0,
+    "googlenews": 0,
+    "gdelt": 0,
+    "search_total": 0,
+    "fetch": 4
+  },
+  "questions": [
+    "Establish actual April 23, 2026 regular-session sine-die adjournment from primary sources; distinguish scheduling/adoption and later signature dates.",
+    "Preserve HB2047/SA0665 separate adoption and scope questions."
+  ],
+  "initial_targets": [
+    "https://capitol.tn.gov/bills/114/House/Journals/04232026RD65.pdf",
+    "https://capitol.tn.gov/Bills/114/Bill/SJR1280.pdf",
+    "https://wapp.capitol.tn.gov/apps/BillInfo/Default.aspx?BillNumber=SJR1280&ga=114"
+  ],
+  "stop_conditions": [
+    "Four reserved HTTP calls including failures.",
+    "No automatic target or budget expansion.",
+    "The daily House journal labels itself unofficial; preserve that source qualification and corroborate with adopted resolution/history."
+  ]
+}
