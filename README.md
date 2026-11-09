@@ -1,8 +1,8 @@
 # Moratorium Data 2026
 
-**November release with pending QA:** [v2026.11.9](https://github.com/mjbommar/moratorium-data-2026/releases/tag/v2026.11.9) publishes the reviewed current state with explicit unresolved source and legal-status questions. Further checking continues. The older `v2026.11.8` remains an incomplete prerelease checkpoint.
+**November patch release with pending QA:** [v2026.11.9.post1](https://github.com/mjbommar/moratorium-data-2026/releases/tag/v2026.11.9.post1) publishes the reviewed current state with explicit unresolved source and legal-status questions. Further checking continues. The older `v2026.11.8` remains an incomplete prerelease checkpoint.
 
-**Post-release working QA:** Boone County and Hampden duplicates are retired with their IDs/history preserved, and source-supported field corrections are applied. Current CSV counts may differ from frozen v2026.11.9; use the tag for release replication.
+**Qualified patch:** This release incorporates the Boone County and Hampden duplicate retirements, reviewed field corrections and current QA ledger. Original `v2026.11.9` remains immutable. Further working changes may follow; use each tag for exact replication.
 
 **Open data on local-government moratoria targeting data centers, battery storage, solar, wind, and cryptocurrency mining across the United States.**
 

@@ -1,13 +1,13 @@
 {
-  "version": "2026.11.9",
+  "version": "2026.11.9.post1",
   "release_date": "2026-11-09",
   "research_cutoff": "2026-11-07T13:38:39.877065+00:00",
   "source_observation_window": {
     "start": "2026-11-05",
     "end": "2026-11-09"
   },
-  "asset_name": "moratorium-data-2026.11.9-qa-working.tar.gz",
-  "coverage": "All 1777 raw records have primary and independent source-review artifacts. The remaining correction queue is applied with coordinator review and exact guards. Source-specific observation dates, bounded uncertainty and unperformed exhaustive later-force checks remain explicit; this is not a universal current-law census.",
+  "asset_name": "moratorium-data-2026.11.9.post1.tar.gz",
+  "coverage": "All 1777 original raw records have retained primary and independent review artifacts. Two source-proven duplicate observations are retired with original rows and IDs preserved; the current 1775 active raw IDs retain 1480 unresolved, 101 corrected-resolved and 194 confirmed-unchanged scoped dispositions. Source dates and unperformed later-force checks remain explicit; this is not universal current-law certification.",
   "limitations": [
     "Recorded active/extended classifications do not prove current enforceability.",
     "Ballot voting, certification, passage and operative legal effect remain distinct.",
@@ -15,12 +15,12 @@
     "Experimental model extraction/P4 has not passed; no experimental extraction output is accepted automatically.",
     "The companion April paper and dated sibling publications retain their historical editions."
   ],
-  "update_status": "working_qa_after_v2026.11.9",
+  "update_status": "published_qualified_patch_pending_qa",
   "full_inventory_closeout": "reviewed_and_applied_with_bounded_unresolved_questions",
   "consumer_dispositions": "delivered_with_historical_editions_preserved",
   "experimental_extractor": "failed_no_automatic_promotion",
   "quality_gate_disposition": "User authorized publication of the current state with qualifications on pending QA, followed by continued double checking and resolution of outstanding questions.",
-  "reviewed_data_source_commit": "51352fd5d7a19aea5a1dee929162e143c2ca13d9",
+  "reviewed_data_source_commit": "aac68c5484ae4bef789b7a1a4d1797aaed6e08c0",
   "record_dispositions": {
     "unresolved": 1480,
     "corrected_resolved": 101,
@@ -31,11 +31,14 @@
   "record_disposition_path": "work/research/2026-11-08/full-record-dispositions/funnel.json",
   "qa_status": "ongoing",
   "publication_authorization": "publish current state with qualifications on pending QA, then continue to double check and clear the outstanding questions",
-  "working_revision": "post-release-qa-15",
-  "published_source_commit": "71868989c954ed05c79a8992eda5cce0eb4519e8",
+  "working_revision": "qualified-patch-1",
   "current_raw_counts": {
     "local": 1328,
     "state_policy": 447,
     "total": 1775
-  }
+  },
+  "prior_release": "v2026.11.9",
+  "prior_release_source_commit": "71868989c954ed05c79a8992eda5cce0eb4519e8",
+  "prior_published_source_commit": "71868989c954ed05c79a8992eda5cce0eb4519e8",
+  "published_source_reference": "Release tag and manifest source_commit identify the exact qualified patch source."
 }

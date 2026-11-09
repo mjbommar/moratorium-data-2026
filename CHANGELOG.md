@@ -1,5 +1,9 @@
 # Changelog
 
+## v2026.11.9.post1 — qualified patch, November 9
+
+Bundle the post-release corrections and current public QA ledger in a new immutable release. Retain v2026.11.9 unchanged. [Exact delta and limitations](work/research/2026-11-09/release-2026.11.9.post1/release-body.md) distinguish retired duplicates, surviving-row corrections and unresolved source questions.
+
 ## Post-release QA, November 9
 
 Alabama source followup adds the official April 9 regular-session adjournment date to two status narratives and preserves bill-specific completeness, party, companion and substitute questions. Current status-sheet and day-30 report limitations are explicit; categories and headline counts do not change. See [review](work/research/2026-11-09/post-release-qa/alabama-session-review.md).
