@@ -49,7 +49,7 @@ The original April collection used three phases; these document and extraction c
 2. **Classification.** Each document was classified by type (ordinance, resolution, agenda, news article, etc.) and tagged for whether it was moratorium-related. About 709 documents are moratorium-related.
 3. **Structured extraction.** From the 709 moratorium documents, we used a large language model with a detailed schema to extract structured data: jurisdiction, dates, duration, sectors covered, exemptions, and 40+ other clause-level features. After confidence filtering, 348 instruments are coded line-by-line.
 
-The original extraction review checked jurisdiction names and state codes. The current working inventory has 1330 rows; this does not mean the historical clause-extraction process was rerun for every current row.
+The original extraction review checked jurisdiction names and state codes. The current working inventory has 1329 rows; this does not mean the historical clause-extraction process was rerun for every current row.
 
 For full methodology, see [`methodology.md`](methodology.md).
 

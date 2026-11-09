@@ -1,0 +1,29 @@
+{
+  "state": "passed",
+  "checks": {
+    "make_check": "exit 0; all retained expanded publications and current generated outputs checked",
+    "focused_tests": "5 passed: document history and sector-input helpers",
+    "identity": "old Kentucky ID resolves to Indiana; original Indiana survivor fields exactly unchanged",
+    "field_application": "all eight accepted after-values and final CSV hash checked",
+    "documentation": "all 95 numeric assertions match",
+    "source_classification": "no private source text tracked",
+    "figures": "three current data maps rendered in PDF/SVG/PNG; count map visually inspected"
+  },
+  "sha256": {
+    "data/moratorium_inventory.csv": "ce17134433a89f94de469bb747d467c977b1814a09a39c7617e93c30bdcaa9de",
+    "data/identities/legacy-moratoria.jsonl": "8abc04716797ba89e210531f2956407b1407ff3a3fd06ff64e4d38fcb8a6fc82",
+    "data/state_legislation.csv": "e99ab1770f78f46414a819415b6c90611fb33f890900d435ac5a041ac5427faf",
+    "data/summary_stats.json": "70bc3d8768f69a2e2aa9f39f6a149dc3b8f18a32c439ca9bf262c2d5c1bc9aa1",
+    "work/research/2026-11-08/full-record-dispositions/funnel.json": "3d51398d219aa2f0d440d6d8031883627a722b02ce2dfb44af40c6a5a99a3182",
+    "figures/pdf/map-sector-composition.pdf": "982448acfd13c9edcc95ae2161aff263424a7c2bca8a3cf40d41418b23b9cd8b",
+    "figures/pdf/map-moratorium-counts.pdf": "04d8a6bfb30324bda90a1eeb276306b51592dbb4af7b2c9c5eca39128855aaf2",
+    "figures/pdf/map-timeline-heatmap.pdf": "613d365866b09eb2a9e53c7aeb78cbe3dbd15e0041d1ea49fb1cd381cf4f70c6",
+    "figures/png/map-moratorium-counts.png": "ce37c8aa8f9ed74217f1eda442849a09e893b45cb432788b4c2c1ec10686a594",
+    "figures/png/map-timeline-heatmap.png": "ac4cc32c90430c16f2147ce5cc9a8c114e044692d2891e1b5b12779f61c15a39",
+    "figures/png/map-sector-composition.png": "813657200d656d36b88fae8cf712187701508ba4fcfae7091b307f43ae7cf652",
+    "figures/svg/map-moratorium-counts.svg": "bf98ab3578468af0c9a8d97ccfa45686137d1dd8e85289c93bd5290bd5ab51cf",
+    "figures/svg/map-sector-composition.svg": "b97efd3c7848e6bdf240ab28c6d77fa7d472a5e3fad7a35d2c3a65c9da7196fd",
+    "figures/svg/map-timeline-heatmap.svg": "40f7179859a6e3940f384606c3d1106ee0da679cba4ec88c9ba54ddad0263df8"
+  },
+  "limits": "Consistency and bounded evidence checks do not clear outstanding legal-force/source questions. Release v2026.11.9 is unchanged."
+}

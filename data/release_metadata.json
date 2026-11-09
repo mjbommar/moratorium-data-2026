@@ -6,7 +6,7 @@
     "start": "2026-11-05",
     "end": "2026-11-09"
   },
-  "asset_name": "moratorium-data-2026.11.9.tar.gz",
+  "asset_name": "moratorium-data-2026.11.9-qa-working.tar.gz",
   "coverage": "All 1777 raw records have primary and independent source-review artifacts. The remaining correction queue is applied with coordinator review and exact guards. Source-specific observation dates, bounded uncertainty and unperformed exhaustive later-force checks remain explicit; this is not a universal current-law census.",
   "limitations": [
     "Recorded active/extended classifications do not prove current enforceability.",
@@ -15,14 +15,14 @@
     "Experimental model extraction/P4 has not passed; no experimental extraction output is accepted automatically.",
     "The companion April paper and dated sibling publications retain their historical editions."
   ],
-  "update_status": "release_with_pending_qa",
+  "update_status": "working_qa_after_v2026.11.9",
   "full_inventory_closeout": "reviewed_and_applied_with_bounded_unresolved_questions",
   "consumer_dispositions": "delivered_with_historical_editions_preserved",
   "experimental_extractor": "failed_no_automatic_promotion",
   "quality_gate_disposition": "User authorized publication of the current state with qualifications on pending QA, followed by continued double checking and resolution of outstanding questions.",
   "reviewed_data_source_commit": "51352fd5d7a19aea5a1dee929162e143c2ca13d9",
   "record_dispositions": {
-    "unresolved": 1501,
+    "unresolved": 1500,
     "corrected_resolved": 95,
     "confirmed_unchanged": 180,
     "superseded_duplicate": 1,
@@ -30,5 +30,12 @@
   },
   "record_disposition_path": "work/research/2026-11-08/full-record-dispositions/funnel.json",
   "qa_status": "ongoing",
-  "publication_authorization": "publish current state with qualifications on pending QA, then continue to double check and clear the outstanding questions"
+  "publication_authorization": "publish current state with qualifications on pending QA, then continue to double check and clear the outstanding questions",
+  "working_revision": "post-release-qa-1",
+  "published_source_commit": "71868989c954ed05c79a8992eda5cce0eb4519e8",
+  "current_raw_counts": {
+    "local": 1329,
+    "state_policy": 447,
+    "total": 1776
+  }
 }

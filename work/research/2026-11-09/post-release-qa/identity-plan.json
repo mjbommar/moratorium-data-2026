@@ -1,0 +1,65 @@
+{
+  "schema_version": "legacy-moratorium-retirement-1",
+  "preview_plan": {
+    "schema_version": "legacy-identity-preview-1",
+    "inventory_sha256": "329a0340971a1011a2322f3d59bd93f107064d42c7c5704b548e79963ab43597",
+    "reviewer": "coordinator after independent Terra source adjudication",
+    "reviewed_at": "2026-11-09T14:32:44.750597+00:00",
+    "merges": [
+      {
+        "canonical_id": "in-boone-county-2026",
+        "alias_ids": [
+          "ky-boone-county-2026"
+        ],
+        "record_sha256": {
+          "ky-boone-county-2026": "02ab0512d9e307cd9f6bf421c95ae7426fdc26623c9b1f7dfcbe3ddce5115876",
+          "in-boone-county-2026": "333f14434381f851d8109859d8e2aef9001df840e35714b2e9e1b779c5eb395b"
+        },
+        "evidence": [
+          {
+            "url": "https://www.radiomom.org/post/boone-county-commissioners-approve-moratorium-on-data-centers",
+            "body_sha256": "39fb010d18be76945dd1d6f00e00031c0153ff0e3b6fb5c946792baaa86f0ea5",
+            "locator": "article paragraphs 1-5"
+          },
+          {
+            "url": "https://boonecounty.in.gov/wp-content/uploads/2026/08/Approved-6.15.2026-Commissioners-Meeting-minutes.pdf",
+            "body_sha256": "c2ebfe59098d5a8dd6c9ade3285db1cf3daccb13929b2a6d7d28d0faa067ad72",
+            "locator": "pages 1-2, location and item E, Ordinance 2026-08"
+          }
+        ],
+        "rationale": "The Kentucky-labelled observation cites the same Indiana June 15 commissioners action and Ordinance 2026-08 as the surviving Indiana row. Retire this wrong-jurisdiction duplicate only; retain its full original observation and permanent ID. This does not assert absence of a separate Kentucky instrument, merge survivor fields, or renew legal force."
+      }
+    ]
+  },
+  "event_id": "1fc26987-74f3-4a30-ba3e-0a370d417618",
+  "expected_registry_sha256": "4f8f926755498442254f9a68272d68ecf62b7f7af731a598d7973f9e654b504b",
+  "inventory_after_sha256": "9fda7a274662c2dc3109ff83aad8f40cdfb16cba250329fd5191bd35da0d4ec8",
+  "retired_record": {
+    "state": "Kentucky",
+    "state_abbrev": "KY",
+    "jurisdiction": "Boone County",
+    "jurisdiction_type": "County",
+    "date_enacted": "The cited June 15, 2026 Boone County commissioners action is identified by the official minutes as Boone County, Indiana. No Kentucky adoption date has been established.",
+    "duration": "The cited one-year term and June 16, 2026 start were reported for Boone County, Indiana; any Kentucky moratorium and its duration remain unverified.",
+    "legal_basis": "The cited Boone County Board of Commissioners ordinance is Indiana Ordinance 2026-08. A corresponding Kentucky fiscal court instrument has not been established.",
+    "trigger": "The cited reporting describes growth and older planning and zoning documents in Boone County, Indiana. A trigger for a separate Kentucky measure has not been established.",
+    "current_status": "The cited June 15, 2026 commissioners action is Boone County, Indiana Ordinance 2026-08, confirmed by Indiana minutes. A corresponding Kentucky moratorium, its identity and stage are unestablished; the Kentucky index alone does not exclude another instrument.",
+    "affected_projects": "The cited Indiana action was described as proactive following an Area Plan Commission recommendation. Projects associated with any separate Kentucky measure have not been established.",
+    "outcome": "A one-year moratorium was reported and recorded for Boone County, Indiana. The existence and outcome of a separate Kentucky measure remain unverified.",
+    "has_verify_tags": "False",
+    "verify_count": "0",
+    "cite_count": "0",
+    "activity_level": "Medium",
+    "enacted_status": "unknown",
+    "moratorium_id": "ky-boone-county-2026",
+    "latitude": "38.962345",
+    "longitude": "-84.720691",
+    "date_enacted_iso": "",
+    "date_enacted_uncertainty": "unverified",
+    "duration_days": "",
+    "duration_kind": "unknown",
+    "current_end_date_iso": "",
+    "sectors": "[\"data_center\"]",
+    "trigger_categories": "[\"regulatory_gap\",\"land_use_compatibility\",\"infrastructure_capacity\"]"
+  }
+}

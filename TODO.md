@@ -433,11 +433,11 @@ Completed closure increments (the broader gates below remain open):
 - [ ] Run compatibility, arithmetic, referential-integrity, conflict/idempotence and public/private-content checks.
 - [ ] Verify clean restore/replay, deterministic exports and manifest hashes; document environmental limits.
 - [ ] Inspect actual remote refs, tags, GitHub releases and asset conventions; reconcile stale release/version claims.
-- [ ] Choose the release version, prepare final title/body/change ledger and update CITATION metadata without inventing a DOI.
-- [ ] Prepare and validate an explicit public asset/checksum manifest, including data, schemas, summaries, freshness/gaps and paper disposition.
-- [ ] Commit only owned changes and prepare the exact tag/commit and release payload; publish under applicable authorization.
-- [ ] Push/verify the remote commit and immutable tag, publish the GitHub Release and upload all manifested assets.
-- [ ] Download each published release asset and verify checksum, size, parseability and expected contents.
+- [x] Choose the release version, prepare final title/body/change ledger and update CITATION metadata without inventing a DOI. Qualified v2026.11.9 receipt: `work/research/2026-11-09/release-2026.11.9/`.
+- [x] Prepare and validate an explicit public asset/checksum manifest, including data, schemas, summaries, freshness/gaps and paper disposition. Qualified v2026.11.9 receipt: `work/research/2026-11-09/release-2026.11.9/`.
+- [x] Commit only owned changes and prepare the exact tag/commit and release payload; publish under applicable authorization. Qualified v2026.11.9 receipt: `work/research/2026-11-09/release-2026.11.9/`.
+- [x] Push/verify the remote commit and immutable tag, publish the GitHub Release and upload all manifested assets. Qualified v2026.11.9 receipt: `work/research/2026-11-09/release-2026.11.9/`.
+- [x] Download each published release asset and verify checksum, size, parseability and expected contents. Qualified v2026.11.9 receipt: `work/research/2026-11-09/release-2026.11.9/`.
 - [ ] Verify hosted site deployment, current copy, version/totals/cutoffs, paper edition and download links separately from GitHub release creation.
 - [x] Recover working-source Pages deployment for `81bf960`: native build/run `42352389597` succeeds, and hosted summary JSON matches committed bytes through bounded bc-web fetch (November 7). Final-release deployment and full page/link audit remain open.
 - [ ] Verify required sibling remote/deployment states and document any remaining blockers.
@@ -663,3 +663,11 @@ Exit: repeatable refresh with visible freshness, costs, failures and unresolved 
 - [x] Adjudicate first 20 freshness cases after independent source review; apply 19 guarded cells/eight records and hold six Baldwin proposals for chronology reconciliation. This is bounded correction/reconciliation, not whole-record freshness acceptance (`work/research/2026-11-08/freshness-first20-reconciliation/`).
 
 - [x] Apply 59 substantive and 34 verification metadata corrections across 30 local records after two independent fifteen-record reviews and revised Baldwin chronology adjudication. Preserve three rejected Denmark date proposals; no whole-record freshness acceptance (`work/research/2026-11-08/freshness-followup-reconciliation/`).
+
+
+### Post-release QA, November 9
+
+- [x] Publish v2026.11.9 with pending-QA qualifications; verify all ten public assets against the restored release.
+- [x] Independently adjudicate the first four local identity/stage conflicts; apply eight guarded Lavon/Ashland cells and retire the proven Kentucky/Indiana Boone duplicate with alias/preimage preservation.
+- [ ] Obtain missing Lavon action identity, Ashland original term/termination, and Oliver executed phase-two term evidence; retain unknowns where evidence cannot establish them.
+- [ ] Continue material outstanding record questions from the full disposition ledger; do not repeat completed nationwide discovery.

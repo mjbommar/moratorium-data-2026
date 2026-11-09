@@ -1,9 +1,8 @@
 # Full raw-record review dispositions
 
-The [funnel](funnel.json) assigns one disposition to each of the **1,777 raw IDs**:
-**1,501 unresolved, 95 corrected-resolved, 180 confirmed-unchanged, one superseded
-duplicate and zero not-attempted**. The 225 earlier and 1,552 remaining IDs are
-disjoint and exactly cover the canonical population; no ID was removed. This is
+The [funnel](funnel.json) assigns one disposition to each of the **1,776 active raw IDs**:
+**1,500 unresolved, 95 corrected-resolved, 180 confirmed-unchanged, one superseded
+duplicate and zero not-attempted**. The original release reviewed 225 earlier and 1,552 remaining IDs. Post-release QA retires one wrong-jurisdiction duplicate, retaining its original row and permanent ID as an alias. The current funnel exactly covers the remaining 1,776 active IDs. This is
 bounded record/source accounting, not a universal current-law certification.
 
 Unresolved means a real source review retained identity, term, later-history or
@@ -23,8 +22,7 @@ chapters and prospective or implementation-dependent requirements remain separat
 from later legal-force questions. No later action, current tariff, implementation
 or successor law was invented. No source fetch or new search was needed.
 
-The [verification](verification.json) records 508 checked artifact hashes, exact
-population coverage and zero pending cells. The private ledger preserves original
+The [current verification](verification.json) records exact active-ID coverage after retirement; [original release verification](release-v2026.11.9-verification.json) preserves the 508-checked-artifact, 1,777-ID release proof. The private ledger preserves original
 decisions and source-specific questions. Public material excludes private paths,
 source text and provider payloads. This closes record-disposition accounting;
 experimental quality and final release delivery remain separate gates.

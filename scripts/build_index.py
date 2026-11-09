@@ -153,7 +153,7 @@ def changes_section(f: dict) -> str:
     """
     return f"""{CHANGES_START}
 <section class="release-notes">
-  <div class="stamp">Release v{RELEASE_VERSION} &middot; source cutoff {SOURCE_LABEL} &middot; QA continues</div>
+  <div class="stamp">Working QA after v{RELEASE_VERSION} &middot; source cutoff {SOURCE_LABEL} &middot; QA continues</div>
   <h2>The November dataset update</h2>
   <p class="lede">The inventory tracks {f['rows']} local inventory records across {f['states']} states.
   Recorded classifications include {f['active']} active and {f['extended']} extended records,

@@ -1,5 +1,24 @@
 # Changelog
 
+## Post-release QA, November 9
+
+Retire the Kentucky-labelled Boone observation as a source-proven duplicate of the existing Indiana Ordinance 2026-08 row. Preserve both IDs, the full original row and all surviving Indiana fields through the identity registry. Eight independently adjudicated Lavon/Ashland fields are corrected, including removal of unsupported adoption-day precision. Current working local count is 1,329; frozen v2026.11.9 remains unchanged at 1,330. The remaining local identity/term questions continue under QA.
+
+Current working snapshot: **1,329 local records**, **447 policy observations**, and **57 proposal/measure records** with **53 current result observations** (five certified).
+
+| Metric | Working QA after v2026.11.9 |
+|---|---:|
+| Moratoria in the list | **1,329** |
+| Classified active or extended | **1,089** |
+| Pending or not yet effective | **64** |
+| Ended (replaced, expired, or rescinded) | **171** |
+| Rows we still want to confirm (`[VERIFY]`) | **979** |
+| States with at least one | **47** |
+
+These recorded classifications do not certify current enforceability. The published release remains immutable; these corrections are subsequent working QA.
+
+## Earlier refresh checkpoints
+
 The [integrated inventory batch](work/research/2026-11-08/full-inventory-integrated-application/README.md) applies 2,063 factual cells and 428 derived verification fields across 787 records after full review-return accounting. Genuine recorded-stage disputes now use `unknown`; supported historical approvals retain source-specific qualifications. Final endpoint reconciliation, consumer delivery, quality gates and release verification remain open.
 
 The [Bethel town-meeting publication](work/research/2026-11-08/bethel-town-meeting-publication/README.md) adds one official Article 3 question and one source-reported approval. There are now 57 measures, 64 retained results and 53 current observations across 52 measures. Counts, certification and operative law remain unknown for this reported approval; question-to-report correspondence is explicit inference. The frozen 56-group denominator is unchanged. All prior canonical rows are preserved.

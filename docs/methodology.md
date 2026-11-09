@@ -3,7 +3,7 @@
 How this dataset was built, in plain English.
 
 The November reviewed source has primary and independent source-review artifacts
-for all 1,777 raw records, followed by coordinator application of the correction
+for all 1776 raw records, followed by coordinator application of the correction
 queue. The event cutoff is November 7 at 13:38:39.877065 UTC; capture and review
 timestamps remain separate. Bounded record review does not establish complete
 discovery or current legal force. Historical collection, extraction and geocode
@@ -78,7 +78,7 @@ We manually reviewed every extraction record to:
 - Resolve `[VERIFY]` flags by re-checking primary sources via real-Chrome browser sessions
 - Add moratoria identified through news coverage but missed by automated extraction
 
-The November reviewed working inventory has **1330 inventory records across 47 states** (`data/moratorium_inventory.csv`). It held 222 at v2026.04.4; see Phase 5 below for how the refresh cycle works.
+The November reviewed working inventory has **1329 inventory records across 47 states** (`data/moratorium_inventory.csv`). It held 222 at v2026.04.4; see Phase 5 below for how the refresh cycle works.
 
 ### Phase 4: Geocoding (added v2026.04.2)
 
@@ -87,7 +87,7 @@ Each row in the cleaned inventory was assigned WGS84 latitude and longitude coor
 1. **Primary geocoder: OSM Nominatim.** Free, open-source, with reasonable U.S. administrative boundary coverage. Rate-limited to 1 request/second per the public API usage policy.
 2. **Fallback: U.S. Census Geocoder.** Used when Nominatim returns no result. The Census Geocoder is authoritative for U.S. jurisdictions but works best for street addresses; for "Jurisdiction, State" queries we found Nominatim more reliable.
 
-Of 1330 rows, 1289 (96.9%) are successfully geocoded. The 41 blanks comprise two aggregate meta-rows (`Other Reported Local Moratoria, Michigan` and `Proposed or Rejected Local Pauses, Maryland`) and thirty-nine newly added instruments whose coordinates remain unreviewed: Hayward, Fairbanks North Star Borough, Petersburg Borough, Braintree, Methuen, Sun Prairie, two Kent County records, Brighton, Chicago, Sac County, the 2023 Sioux County record, the historical Silver City solar record, Orlinda, Blaine County, Sarpy County, Pequot Lakes, the historical Talbot County solar record, East Windsor, two historical Phillips County records, Fort Collins, Vermillion County, Zionsville, Union County, Camargo, Bossier Parish, Mooresville, Awendaw, Stephenson County, Whitman County, Spokane Valley, Niagara, Massena, two Locke Township records, Meridian Township, Bridgton and Ashland. Dubuque County's new successor instrument reuses the existing county centroid with recorded provenance; this was not a new geocoder query.
+Of 1329 rows, 1288 (96.9%) are successfully geocoded. The 41 blanks comprise two aggregate meta-rows (`Other Reported Local Moratoria, Michigan` and `Proposed or Rejected Local Pauses, Maryland`) and thirty-nine newly added instruments whose coordinates remain unreviewed: Hayward, Fairbanks North Star Borough, Petersburg Borough, Braintree, Methuen, Sun Prairie, two Kent County records, Brighton, Chicago, Sac County, the 2023 Sioux County record, the historical Silver City solar record, Orlinda, Blaine County, Sarpy County, Pequot Lakes, the historical Talbot County solar record, East Windsor, two historical Phillips County records, Fort Collins, Vermillion County, Zionsville, Union County, Camargo, Bossier Parish, Mooresville, Awendaw, Stephenson County, Whitman County, Spokane Valley, Niagara, Massena, two Locke Township records, Meridian Township, Bridgton and Ashland. Dubuque County's new successor instrument reuses the existing county centroid with recorded provenance; this was not a new geocoder query.
 
 After geocoding, a triple-check audit ran 89 verifications across three independent methods:
 
@@ -104,14 +104,14 @@ Across all 89 verifications, **zero confirmed wrong geocodes** (after the 4 manu
 
 Each correction used article-context disambiguation (`legal_basis`, `trigger`, and news-source mentions). The historical sample does not establish an accuracy rate for the expanded current inventory. The script is `scripts/geocode_inventory.py`; re-run after adding new rows to fill in their coordinates.
 
-## Why the inventory (n=1330) and the historical extraction cohort (n=348) differ
+## Why the inventory (n=1329) and the historical extraction cohort (n=348) differ
 
 Right — the numbers can be confusing. Here's the difference:
 
-- **Inventory (n=1330):** the working inventory of moratorium **instrument records**, with [identity-reconciliation gaps](known-gaps.md#legacy-instrument-identities) still under review. The intended grain is one instrument per row; aggregate and compound rows and possible duplicates remain unresolved. One DeKalb County resolution = 1 row, even if there are 5 documents about it.
+- **Inventory (n=1329):** the working inventory of moratorium **instrument records**, with [identity-reconciliation gaps](known-gaps.md#legacy-instrument-identities) still under review. The intended grain is one instrument per row; aggregate and compound rows and possible duplicates remain unresolved. One DeKalb County resolution = 1 row, even if there are 5 documents about it.
 - **Structured-extraction cohort (n=348):** the count of confidence-filtered structured **extractions**. A single moratorium can produce multiple extractions: the ordinance text, the meeting minutes, the agenda packet, etc. Plus the cohort includes some duplicate adoptions and extensions captured separately.
 
-The two numbers measure different things and do not need to match. The current working count is 1330 moratorium records; the historical line-coded sample of 348 extractions is used for clause-prevalence percentages. These older extraction records have not been recollected to match the current inventory.
+The two numbers measure different things and do not need to match. The current working count is 1329 moratorium records; the historical line-coded sample of 348 extractions is used for clause-prevalence percentages. These older extraction records have not been recollected to match the current inventory.
 
 ## What we don't claim
 

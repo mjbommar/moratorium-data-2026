@@ -1,36 +1,19 @@
 {
-  "event_cutoff_utc": "2026-11-07T13:38:39.877065Z",
-  "canonical_ids": 1777,
-  "earlier225": 225,
-  "remaining1552": 1552,
-  "disjoint": true,
-  "exact_canonical_union": true,
-  "duplicate_or_missing_ids": 0,
-  "pending_cells": 0,
+  "current_active_ids": 1776,
+  "original_release_reviewed_ids": 1777,
+  "retired_after_release": 1,
+  "duplicate_or_missing_current_ids": 0,
   "dispositions": {
-    "unresolved": 1501,
+    "unresolved": 1500,
     "corrected_resolved": 95,
     "confirmed_unchanged": 180,
-    "superseded_duplicate": 1
+    "superseded_duplicate": 1,
+    "not_attempted": 0
   },
-  "cohort_dispositions": {
-    "earlier225": {
-      "unresolved": 225
-    },
-    "remaining1552": {
-      "unresolved": 1276,
-      "corrected_resolved": 95,
-      "confirmed_unchanged": 180,
-      "superseded_duplicate": 1
-    }
-  },
-  "referenced_artifacts_hash_verified": 508,
-  "original_nov5_attempt_metadata_sha256": "af530eafbcbc406913be567787eef40f4a00d8da7297f4b5e30735fcc2ea2846",
-  "public_application_receipt_sha256": "fe9922a249c87bd219ab4578d4c4d36f20716f9d3586b2a193d230bb32a53932",
-  "four_attempts_reconciled": [
-    "ca-ab1095-2025-2026",
-    "ca-ab1577-2025-2026",
-    "ca-ab2383-2025-2026",
-    "ca-ab2469-2025-2026"
-  ]
+  "funnel_sha256": "3d51398d219aa2f0d440d6d8031883627a722b02ce2dfb44af40c6a5a99a3182",
+  "inventory_sha256": "ce17134433a89f94de469bb747d467c977b1814a09a39c7617e93c30bdcaa9de",
+  "policy_sha256": "e99ab1770f78f46414a819415b6c90611fb33f890900d435ac5a041ac5427faf",
+  "registry_sha256": "8abc04716797ba89e210531f2956407b1407ff3a3fd06ff64e4d38fcb8a6fc82",
+  "original_review_verification": "release-v2026.11.9-verification.json",
+  "scope": "Current subset of the reviewed release cohort; identity-only retirement preserves the original observation and source limits."
 }

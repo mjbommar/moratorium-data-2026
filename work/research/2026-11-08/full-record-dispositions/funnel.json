@@ -1,7 +1,7 @@
 {
   "event_cutoff_utc": "2026-11-07T13:38:39.877065Z",
   "counts": {
-    "unresolved": 1501,
+    "unresolved": 1500,
     "corrected_resolved": 95,
     "confirmed_unchanged": 180,
     "superseded_duplicate": 1,
@@ -12,7 +12,7 @@
       "unresolved": 225
     },
     "remaining1552": {
-      "unresolved": 1276,
+      "unresolved": 1275,
       "corrected_resolved": 95,
       "confirmed_unchanged": 180,
       "superseded_duplicate": 1
@@ -10799,27 +10799,6 @@
         "8bf7e955ff55948484d7371864feeb9c79957ffb8d483557b6a5189cb165397d",
         "ad165081dceb886d28ed8fff620de63d3a786ad9f78e4fbe558085380c35898c",
         "f13fbde0082f3ccfe4e6af9a76d079da4d0af476f28fe2da906700917a91f2f6"
-      ]
-    },
-    {
-      "id": "ky-boone-county-2026",
-      "dataset": "local_inventory",
-      "disposition": "unresolved",
-      "public_receipt_pointer": "work/research/2026-11-08/full-inventory-integrated-application/README.md",
-      "residual_reference": {
-        "dataset": "local_inventory",
-        "id": "ky-boone-county-2026"
-      },
-      "recorded_evidence_fingerprints_sha256": [
-        "04e1dc2fdfe285c57dab34af50e1e07f00a6b7b37f646cf862f21a515688e494",
-        "21b85ba3b16b9dc60f5d85f8539f10f7954bf9b1f8db6483d19dd681c15fc374",
-        "2a2dc0e64f5c3d1599c0dfb2a60a610d641793e65e5c524d18ae3ac36c251c94",
-        "3963dd9e8d7572f3875e51de2417f030653721b65c43571d8f5e0f652a345a9f",
-        "39fb010d18be76945dd1d6f00e00031c0153ff0e3b6fb5c946792baaa86f0ea5",
-        "4a28b6aff94b0b34fdbf5289ae60128359f4aaa697e4387060a1840bd3954705",
-        "8b1446778300cb1eb8a70d9c7f7a87397fe3c68a1c5edd85da66e56202b98eb3",
-        "943d183780224806f94d6ae93018bf20b9a5df87e36d97d59604152f4368988c",
-        "c2ebfe59098d5a8dd6c9ade3285db1cf3daccb13929b2a6d7d28d0faa067ad72"
       ]
     },
     {
@@ -37045,5 +37024,14 @@
       ]
     }
   ],
-  "scope": "One bounded review disposition per raw ID, not universal current-force certification. Fingerprints include recorded review, source and row identities; not every source body is independently reverified by this accounting."
+  "scope": "Current active raw-ID dispositions after post-release QA; original release v2026.11.9 remains immutable. Retired original rows/IDs are preserved in the legacy registry.",
+  "retired_observations": [
+    {
+      "id": "ky-boone-county-2026",
+      "canonical_id": "in-boone-county-2026",
+      "disposition": "source_proven_wrong_jurisdiction_duplicate_retired",
+      "registry_sha256": "8abc04716797ba89e210531f2956407b1407ff3a3fd06ff64e4d38fcb8a6fc82",
+      "original_release": "v2026.11.9"
+    }
+  ]
 }

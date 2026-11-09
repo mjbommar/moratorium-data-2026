@@ -1,0 +1,99 @@
+{
+  "applied_at": "2026-11-09T14:33:09.600802+00:00",
+  "substantive_cells": 8,
+  "derived_cells": 0,
+  "changed_cells": 8,
+  "changed_records": 2,
+  "csv_before_sha256": {
+    "local_inventory": "9fda7a274662c2dc3109ff83aad8f40cdfb16cba250329fd5191bd35da0d4ec8",
+    "state_policy": "e99ab1770f78f46414a819415b6c90611fb33f890900d435ac5a041ac5427faf"
+  },
+  "csv_after_sha256": {
+    "local_inventory": "ce17134433a89f94de469bb747d467c977b1814a09a39c7617e93c30bdcaa9de",
+    "state_policy": "e99ab1770f78f46414a819415b6c90611fb33f890900d435ac5a041ac5427faf"
+  },
+  "scope_rebound_ids": [],
+  "scope_registry_sha256": "876fac42c46548ef7be41e590047d9c5606e4e36197438602e4ff5bc2ad5fae2",
+  "changes": [
+    {
+      "dataset": "local_inventory",
+      "id": "tx-lavon-2026",
+      "field": "date_enacted",
+      "before": "Unresolved: an earlier tracker and news attribution claimed adoption on August 7, 2026. The October 20 agenda calls the moratorium proposed, and reporting says its first reading did not start the 90-day period; the November 3 agenda schedules a second reading for November 17. The relationship to the earlier claim and any final adoption need verification.",
+      "after": "Unresolved. A tracker attributed adoption to August 7, 2026; a separate retained news quotation reports a Lavon vote without establishing that date. The October 20 proposed ordinance passed a first reading reported not to start the pause. A second reading was scheduled for November 17; final adoption and its relationship to the earlier claim remain unverified.",
+      "kind": "substantive"
+    },
+    {
+      "dataset": "local_inventory",
+      "id": "tx-lavon-2026",
+      "field": "duration",
+      "before": "90 days, extendable for another 90 days",
+      "after": "A resident described the October proposal as an initial 90 days with a possible 90-day extension; the adopted term and operative interval are unverified.",
+      "kind": "substantive"
+    },
+    {
+      "dataset": "local_inventory",
+      "id": "tx-lavon-2026",
+      "field": "current_status",
+      "before": "Unresolved. An earlier tracker and news attribution claimed a 90-day moratorium was adopted August 7, 2026. The October 20 city agenda identifies a proposed moratorium and first reading; a contemporaneous report says the first-reading vote did not start the 90-day period. A November 3 agenda schedules a second reading for November 17; it does not establish that action occurred. [VERIFY the earlier claimed action, final ordinance and operative interval.]",
+      "after": "The October 20 proposed ordinance advanced through first reading, which reporting says did not put the moratorium into effect or start its proposed 90-day period. The November 3 agenda scheduled a second reading for November 17. An August 7 adoption date comes from a tracker; a separate news quotation reports Lavon approval but does not establish that date or instrument identity. [VERIFY the earlier action, final ordinance and operative interval.]",
+      "kind": "substantive"
+    },
+    {
+      "dataset": "local_inventory",
+      "id": "tx-lavon-2026",
+      "field": "outcome",
+      "before": "City studying zoning/infrastructure impacts before allowing new data center applications",
+      "after": "The October 20 first reading advanced a proposal for time to develop data-center safeguards; it did not start the proposed 90-day period according to reporting.",
+      "kind": "substantive"
+    },
+    {
+      "dataset": "local_inventory",
+      "id": "ky-ashland-2026",
+      "field": "date_enacted",
+      "before": "2026-02-26 per a WSAZ headline (\"Ordinance passed for data center applications\"); this reads as the initial temporary moratorium, later replaced before its natural expiration by a permanent zoning ordinance given first/second readings on 2026-07-23/2026-07-24",
+      "after": "A July 23 report says the city imposed a moratorium in February 2026. February 26 is the date of a WSAZ headline, not a verified adoption date; the original instrument and precise vote date remain unverified.",
+      "kind": "substantive"
+    },
+    {
+      "dataset": "local_inventory",
+      "id": "ky-ashland-2026",
+      "field": "duration",
+      "before": "Earlier reporting described roughly six months and a later zoning ordinance; the original moratorium text, authorized term and termination mechanism remain unverified. The retained July 24 article describes five-plus months already elapsed.",
+      "after": "July 23, 2026 reporting described a six-month moratorium imposed in February and expected to end in August. The original ordinance, exact operative dates and any early termination remain unverified.",
+      "kind": "substantive"
+    },
+    {
+      "dataset": "local_inventory",
+      "id": "ky-ashland-2026",
+      "field": "date_enacted_iso",
+      "before": "2026-02-26",
+      "after": "2026-02",
+      "kind": "substantive"
+    },
+    {
+      "dataset": "local_inventory",
+      "id": "ky-ashland-2026",
+      "field": "date_enacted_uncertainty",
+      "before": "unverified",
+      "after": "month_only",
+      "kind": "substantive"
+    }
+  ],
+  "verify_rows": 979,
+  "row_transitions": [
+    {
+      "dataset": "local_inventory",
+      "id": "ky-ashland-2026",
+      "before_sha256": "83c938ed4192b6bc64817592478ffe588c8943fb89305885e98c9671f9d9e633",
+      "after_sha256": "7b0d37a45bfd649fd8b700429bf1aa859714649c7ef283fa816969dd1ce8889a"
+    },
+    {
+      "dataset": "local_inventory",
+      "id": "tx-lavon-2026",
+      "before_sha256": "f5dc12383aac82147a223c1194ad8a7f95b8709f48c772598e1f37d04654bdbf",
+      "after_sha256": "b53c64794ba5c5717fddb69243abdaaeaf0115fe4c87504b98028c814562f65f"
+    }
+  ],
+  "scope": "Reviewed source observations, classification correction and explicit unresolved facts; all IDs retained. No current-law census asserted."
+}
