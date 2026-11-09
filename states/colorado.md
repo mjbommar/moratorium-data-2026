@@ -358,15 +358,15 @@ State policy is tracked separately: **4 records** (4 typed bill rows) in [`state
 - **Recorded status:** 🟢 Active
 - **Date enacted:** Town Board voted 6-1 on July 21, 2026 to approve an ordinance introduced by Mayor Jamie Jeffery.
 - **Normalized date:** `2026-07-21` (exact)
-- **Duration:** Five-year pause on the Town's acceptance and review of applications for new or expanded data center facilities -- reported as the longest active data-center moratorium in Colorado.
+- **Duration:** Five years from the ordinance's effective date, unless terminated earlier or extended by further ordinance. Section 8 sets effectiveness 30 days after final passage and publication by title. The pause has been reported as the longest active data-center moratorium in Colorado.
 - **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `co-lochbuie-2026`
-- **Legal basis:** Town of Lochbuie data-center moratorium ordinance approved July 21, 2026; the agenda identifies Ordinance 2026-720 while the town action summary says 2027-720, so the enacted number remains unresolved.
+- **Legal basis:** Town of Lochbuie Ordinance 2026-720, adopted July 21, 2026; the signed ordinance and meeting minutes identify 2026-720, while the town action summary calls it 2027-720.
 - **What prompted it:** Preemptive action; no data center has been proposed in Lochbuie, but a large data center (Cielo Hudson Data Center, ~500 acres/750 MW) is planned in neighboring Hudson. Over 400 residents petitioned via an Action Network campaign organized by the nonprofit 'With Many Hands,' citing water and electricity concerns amid statewide drought.
 - **Affected projects:** The mayor told Rocky Mountain PBS that no data-center developer had approached Lochbuie about building in town; the report identifies the proposed Cielo Hudson Data Center in neighboring Hudson.
-- **Detailed status:** Active as of 2026-09-23. Five-year moratorium on new/expanded data center facility applications, adopted 6-1 on July 21, 2026.
-- **Outcome:** Town Board passed a five-year moratorium on data center applications, the longest such pause reported in Colorado.
+- **Detailed status:** Previously reported active as of 2026-09-23. Ordinance 2026-720 was adopted July 21, 2026 for five years from its effective date, subject to earlier termination or extension; subsequent current force has not been independently established in this review.
+- **Outcome:** Town Board adopted Ordinance 2026-720 by a 6-1 vote, imposing a five-year moratorium on covered data center applications from its effective date, subject to earlier termination or extension. The pause was reported as the longest such pause in Colorado.
 
 ### Logan County
 
@@ -388,16 +388,16 @@ State policy is tracked separately: **4 records** (4 typed bill rows) in [`state
 
 - **Type:** City
 - **Recorded status:** 🟢 Active
-- **Date enacted:** City Council voted 7-2 on September 15, 2026 to adopt the suspension, after amending the staff-proposed 9-month term to 12 months on a 5-4 vote (Councilor Laura Light-Kovacs' motion).
+- **Date enacted:** City Council adopted Resolution R-48-2026 on September 15, 2026, after amending the suspension from nine to twelve months on a 5–4 vote and approving the amended resolution 7–2.
 - **Normalized date:** `2026-09-15` (exact)
-- **Duration:** 12-month suspension on the City's acceptance, processing, approval, permitting, rezoning, and site plan review of new land use applications for data centers with an electrical demand of 10 MW or more or that use industrial-scale cooling infrastructure; ends upon adoption of comprehensive Unified Development Code data-center regulations or 12 months from the effective date, whichever is first.
+- **Duration:** 12-month suspension on the City's acceptance, processing, approval, permitting, rezoning, and site plan review of new land use applications for data centers with an electrical demand of 10 MW or more or that use industrial-scale cooling infrastructure; expires upon City Council approval, adoption and finalization of comprehensive data-center regulations within the Unified Development Code and/or Loveland Municipal Code or 12 months from the effective date, whichever occurs first, unless sooner terminated by City Council.
 - **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `co-loveland-2026`
-- **Legal basis:** City of Loveland Resolution (number not assigned in the draft text reviewed; adopted September 15, 2026)
+- **Legal basis:** City of Loveland Resolution R-48-2026, adopted September 15, 2026 and effective upon adoption.
 - **What prompted it:** No pending applications, but staff and council cited the lack of statewide regulation after SB26-102 and HB26-1030 were both postponed indefinitely, and the need for the City to coordinate with the Platte River Power Authority on grid impacts and study water/cooling tradeoffs.
 - **Affected projects:** None named; Loveland had not received a formal data center application as of adoption, though the city acknowledged informal developer interest.
-- **Detailed status:** A September 16, 2026 news report says council adopted a 12-month suspension on September 15 by 7–2, effective immediately and ending earlier if regulations are adopted. An October 13 report says staff told planning commissioners on October 12 that the moratorium began in October. The final effective date, end date and later legal force remain unverified.
+- **Detailed status:** Resolution R-48-2026 was adopted and effective September 15, 2026. Its 12-month term yields a conditional end date of September 15, 2027, subject to earlier qualifying regulations or termination by City Council. An October 13 report said staff told planning commissioners on October 12 that the moratorium began in October; the signed resolution establishes the original effective date. Later action and current legal force remain unverified.
 - **Outcome:** City Council approved a 12-month suspension on large-scale data center development applications while staff develop permanent land use regulations.
 
 ### Mead
@@ -470,15 +470,15 @@ State policy is tracked separately: **4 records** (4 typed bill rows) in [`state
 - **Recorded status:** 🟢 Active
 - **Date enacted:** Town Board passed by unanimous vote at the August 11, 2026 regular board meeting; resolution drafted by Interim Town Administrator Greg Sund.
 - **Normalized date:** `2026-08-11` (exact)
-- **Duration:** The newspaper reports a one-year moratorium through August 11, 2027. A town Resolution 15-26 copy instead states December 31, 2027, subject to earlier termination, extension or modification. The authenticated adopted version remains unresolved.
+- **Duration:** Resolution 15-26 states a moratorium from August 11, 2026 through December 31, 2027, unless earlier terminated, extended, or modified. A newspaper reports a one-year term through August 11, 2027.
 - **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `co-paonia-2026`
 - **Legal basis:** Town of Paonia Resolution 15-26
 - **What prompted it:** Followed neighboring Delta County's data-center moratorium; Mayor Pro Tem Anne Lee Foster called the pause 'very prudent,' and trustees discussed coordinating with the county on water-policy impacts.
 - **Affected projects:** None named; adopted preemptively, citing Delta County's similar moratorium.
-- **Detailed status:** The newspaper reports unanimous adoption August 11, 2026 and a one-year moratorium through August 11, 2027. A town Resolution 15-26 copy states December 31, 2027, subject to earlier termination, extension or modification. The operative version and later actions remain unverified. [VERIFY adopted version and term]
-- **Outcome:** The newspaper reports unanimous adoption of Resolution 15-26 and a one-year pause with a direction to draft regulations. A town resolution copy states a different end date; the operative adopted version remains unresolved.
+- **Detailed status:** The town-posted signed Resolution 15-26 states adoption and effect on August 11, 2026 and a term through December 31, 2027, subject to earlier termination, extension, or modification. A newspaper reports a conflicting end date of August 11, 2027. Later action and current legal force remain unverified. [VERIFY later action and current force]
+- **Outcome:** The town-posted signed Resolution 15-26 records adoption August 11, 2026, imposes a temporary moratorium through December 31, 2027 subject to earlier termination, extension, or modification, and provides for development of data-center regulations. The newspaper reports a unanimous vote and a conflicting one-year term through August 11, 2027.
 
 ### Phillips County
 

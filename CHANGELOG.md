@@ -16,6 +16,8 @@ HB 1038 and SB 135 receive official enacted-source links, precise signature/reco
 
 North Port receives seven source-bounded clarifications using linked first-reading minutes and the official legislation/meeting pages. Preserve the portal’s Passed classification, qualify the adoption-date confidence and retain unresolved final vote, execution and project questions. Residual-question indexing removes search metadata and reconciles two already-applied local corrections without closing their actual source gaps.
 
+Three Colorado records receive twelve adopted-identity and term clarifications from signed municipal copies, meeting/voting records and visual review of scanned signatures. Preserve conditional timing, newspaper discrepancies and later-action/current-force holds; recorded stages and headline totals are unchanged.
+
 Current working snapshot: **1,328 local records**, **447 policy observations**, and **57 proposal/measure records** with **53 current result observations** (five certified).
 
 | Metric | Working QA after v2026.11.9 |

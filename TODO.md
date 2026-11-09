@@ -703,3 +703,7 @@ Exit: repeatable refresh with visible freshness, costs, failures and unresolved 
 - [x] Verify successful Pages deployment `42662568882` at `1ee1b65` and six exact hosted data/site/QA files.
 - [x] Independently reconcile stale Cromwell/Watertown residual wording against applied receipts and retained sources; preserve both actual source holds. Remove 200 metadata values incorrectly flattened into questions across 15 entries, preserving all unresolved IDs and substantive follow-ups.
 - [x] Recover/review North Port linked first-reading minutes and September meeting limitations; apply seven guarded clarifications, retain the actual portal Passed header and recorded stage, and preserve final-execution/vote/project/force questions. Three new source versions pass native body/text readback.
+
+- [x] Verify successful Pages deployment `42664285007` at `c0f9a95` and six exact hosted files.
+- [x] Recover/review signed Lochbuie Ordinance 2026-720 and minutes, signed Loveland Resolution R-48-2026 and voting results, and the retained Paonia execution/audit appendix. Apply twelve guarded identity/term cells; preserve actual publication, earlier-ending and later-force gaps. Retain OCR as separate visually checked reading aids, not replacements for empty original extracts.
+- [ ] Continue actual Lochbuie publication/date-counting and three Colorado later-action/current-force questions; original term clarification does not close these records.
