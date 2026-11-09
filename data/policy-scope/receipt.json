@@ -2,13 +2,13 @@
   "schema_version": "1.0.0",
   "analytical_scope": "data-center infrastructure policy analytical census",
   "inputs": {
-    "raw_csv_sha256": "479dc54805e0979484ac8d629506341a12b1b0bead6320b5b3b7c04e30549737",
-    "registry_sha256": "939aa6c9d262f3fbcb1a51e32e62c333803cdecff00263cdc116bd31a2940109"
+    "raw_csv_sha256": "c957af2e87d9d615e4a9b263782c119f500c38db1512f880d77a716b2fcaa0f4",
+    "registry_sha256": "1c1d10a18b74ba59f669389d868fdede0a7af5950749c8a8977344292c71da8b"
   },
   "raw_observation_count": 447,
   "partitions": {
     "reviewed_include": {
-      "count": 373,
+      "count": 372,
       "policy_action_ids": [
         "al-hb399-2026",
         "al-hb403-2026",
@@ -380,7 +380,6 @@
         "wy-hb0067-2010",
         "wy-hb0088-2021",
         "wy-hb0117-2011",
-        "wy-hb0325-2025",
         "wy-sf0193-2025",
         "md-executive-order-01-01-2026-16-2026"
       ]
@@ -410,7 +409,7 @@
       ]
     },
     "reviewed_unresolved": {
-      "count": 55,
+      "count": 56,
       "policy_action_ids": [
         "az-hb2457-2026",
         "ca-ab2170-2025-2026",
@@ -463,6 +462,7 @@
         "wi-sb1061-ab1099",
         "wi-sb969-ab1036",
         "wy-hb0155-2026",
+        "wy-hb0325-2025",
         "wy-sf0091-2026",
         "md-sb0596-2026",
         "md-sb0841-2026",
@@ -476,9 +476,9 @@
   },
   "candidate_pool_count": 428,
   "artifacts_sha256": {
-    "all-annotated.csv": "0b52ea1699040d9bf7be95d553851d2af25d0dc6c3c7bea1fff33bbcef8ea3ee",
-    "reviewed-included.csv": "056a7299dc9a09167cbd1855af855847a62403712a0a6f83b1174c67cf1c83cf",
-    "not-explicitly-excluded-candidates.csv": "cd939353295835a1092df4c18471173a3f681b493b5b9c0e4ecb43a5e61b499c"
+    "all-annotated.csv": "9bc3e9d3607d72a66bfe6a0e0d1a5d1a784992dd6d45dded0bded6de07308229",
+    "reviewed-included.csv": "cea266977d8bf62037bc840433a7ce46ef82c57e3d817885a1cda93502dd8faf",
+    "not-explicitly-excluded-candidates.csv": "63694225236257139fadc52b19d3bedcb0b00fefa97e293d3b9a3968d91d3cac"
   },
   "caveat": "Rows are historical observations, not a unique instrument census. The candidate pool is not reviewed inclusion. Scope review does not establish freshness or current legal force."
 }

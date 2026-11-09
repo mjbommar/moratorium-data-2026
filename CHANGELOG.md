@@ -2,6 +2,8 @@
 
 ## Working QA after v2026.11.9.post1
 
+Wyoming retained-source review corrects four sponsor/party cells and changes HB0325’s analytical include to unresolved, applying the existing data-center-specific evidence standard. Current scope is 372 included / 19 excluded / 56 unresolved. All raw rows, recorded stages and whole-record dispositions remain unchanged. See [review](work/research/2026-11-09/post-release-qa/wy-retained-review.md).
+
 Foley’s official adopted-file text and September 8 meeting record support four guarded term/scope/identity clarifications. Preserve assigned-number, execution, publication, effective-date and later-force holds; no headline or status category changes. See [review](work/research/2026-11-09/post-release-qa/foley-review.md).
 
 ### v2026.11.9.post1 — qualified patch, November 9

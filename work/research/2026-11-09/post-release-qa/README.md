@@ -193,3 +193,7 @@ The [hosted verification](va-wy-hosted-verification.json) confirms six named pub
 ## Foley adopted-file corrections applied
 
 [Four source-backed field corrections](foley-review.md) establish the displayed six-calendar-month term, corporate-limit scope and specified exemptions, while preserving executed-copy/number, actual publication/effectiveness and later-force questions. File 26-0439 is not silently treated as the assigned ordinance number. All headline, ballot and disposition totals remain unchanged.
+
+## Wyoming retained-source followup applied
+
+[Previously captured bill bodies and 2026 rosters](wy-retained-review.md) resolve all nine HB0155 sponsor identities/roster affiliations, qualify HB0325’s source abbreviation and party assertions, and supersede its broad conditional-coverage inclusion with unresolved. Four cells and two append-only scope observations change; no new network request or whole-record closure. Current scope: 372 included, 19 excluded, 56 unresolved.

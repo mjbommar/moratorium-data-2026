@@ -1,0 +1,70 @@
+{
+  "applied_at": "2026-11-09T19:28:28.579515+00:00",
+  "substantive_cells": 4,
+  "derived_cells": 0,
+  "changed_cells": 4,
+  "changed_records": 2,
+  "csv_before_sha256": {
+    "local_inventory": "062e8a9932b807538d512b53fba73fbbf7ecb64620a262500b8084a98c4a55f0",
+    "state_policy": "479dc54805e0979484ac8d629506341a12b1b0bead6320b5b3b7c04e30549737"
+  },
+  "csv_after_sha256": {
+    "local_inventory": "062e8a9932b807538d512b53fba73fbbf7ecb64620a262500b8084a98c4a55f0",
+    "state_policy": "c957af2e87d9d615e4a9b263782c119f500c38db1512f880d77a716b2fcaa0f4"
+  },
+  "scope_rebound_ids": [
+    "wy-hb0155-2026",
+    "wy-hb0325-2025"
+  ],
+  "scope_registry_sha256": "1c1d10a18b74ba59f669389d868fdede0a7af5950749c8a8977344292c71da8b",
+  "changes": [
+    {
+      "dataset": "state_policy",
+      "id": "wy-hb0155-2026",
+      "field": "sponsors",
+      "before": "Rep. \"Brown, G\" (likely Rep. Gary Brown, R); Sens. Hutchings and \"Laursen, D\" (likely Sen. Dan Laursen, R); Reps. \"Campbell, K\", Guggenmos, Hoeft, Locke, Riggins, Styvar",
+      "after": "Rep. Gary Brown; Sens. Lynn Hutchings and Dan Laursen; Reps. Kevin Campbell, Joel Guggenmos, Paul Hoeft, Tony Locke, J.R. Riggins, Clarence Styvar",
+      "kind": "substantive"
+    },
+    {
+      "dataset": "state_policy",
+      "id": "wy-hb0155-2026",
+      "field": "party",
+      "before": "R (all listed sponsors are WY Legislature Republicans per WY Legislature roster) [VERIFY: precise first-name disambiguation for \"Brown, G\", \"Laursen, D\", and \"Campbell, K\" not extracted from captured bill page as of 2026-04-29]",
+      "after": "R according to the official 2026 House and Senate rosters (all nine named sponsors matched; Gary Brown H41, Kevin Campbell H62 and Dan Laursen S19 resolve the bill abbreviations).",
+      "kind": "substantive"
+    },
+    {
+      "dataset": "state_policy",
+      "id": "wy-hb0325-2025",
+      "field": "sponsors",
+      "before": "Rep. Lee Filer; cosponsors include Rep. Brown (likely Rep. Landon Brown, R-Cheyenne), Rep. Johnson, Rep. Singh, Rep. Wasserburger, Rep. Wylie, Sen. Chris Rothfuss",
+      "after": "Rep. Lee Filer; cosponsors include Rep. \"Brown, L\", Rep. Johnson, Rep. Singh, Rep. Wasserburger, Rep. Wylie, Sen. Chris Rothfuss",
+      "kind": "substantive"
+    },
+    {
+      "dataset": "state_policy",
+      "id": "wy-hb0325-2025",
+      "field": "party",
+      "before": "Mixed (Filer R; Rothfuss D; remaining cosponsors mostly R per WY Legislature membership) [VERIFY: precise first-name disambiguation for \"Brown\" and party-by-party tally for all listed cosponsors not extracted from captured bill page as of 2026-04-29]",
+      "after": "Recorded historical affiliations: Filer R; Rothfuss D. [VERIFY: confirm 2025 official affiliations and identities for every listed sponsor; no party-by-party tally is accepted for the remaining cosponsors.]",
+      "kind": "substantive"
+    }
+  ],
+  "verify_rows": 979,
+  "row_transitions": [
+    {
+      "dataset": "state_policy",
+      "id": "wy-hb0155-2026",
+      "before_sha256": "3d74eea28fd22f9013302332089fd89977b8584cfd75ca933d007fdc779e0b04",
+      "after_sha256": "93fbaf25913903c1963fc831a67de59b307d74f0589292f93449434850575b7a"
+    },
+    {
+      "dataset": "state_policy",
+      "id": "wy-hb0325-2025",
+      "before_sha256": "2b18084c846b3a2900752306b48c63391fe4aa22ae8735ff82e4a852b2748c09",
+      "after_sha256": "da9f0c43e699810a6c828b6934c9a1f0dcfc738c65a9e74eeb521b9c405ac6a6"
+    }
+  ],
+  "scope": "Reviewed source observations, classification correction and explicit unresolved facts; all IDs retained. No current-law census asserted."
+}

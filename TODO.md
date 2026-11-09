@@ -726,3 +726,6 @@ Exit: repeatable refresh with visible freshness, costs, failures and unresolved 
 
 - [x] Recover Foley’s official September 8 adopted-file record and full text; apply four guarded term/scope/identity clarifications, preserve execution/publication/later-force questions, and pass nine focused checks.
 - [x] Reconcile the original authority-recovery source batch at 500 reserved fetches out of 500; preserve its ledger/caps rather than resetting or silently bypassing it. Retained-source QA can continue; any further collection needs an explicit, separately admitted budget decision.
+
+- [x] Reuse retained Wyoming bill bodies and 2026 rosters to resolve HB0155’s nine sponsor identities/roster affiliations; apply four guarded sponsor/party cells across two records and supersede HB0325 include with unresolved. Current scope is 372/19/56; zero new network acquisitions, no whole-record closure.
+- [x] Verify five Foley working artifacts served from `278ecbf`; Pages run `42682859495` succeeded.
