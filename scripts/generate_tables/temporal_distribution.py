@@ -47,7 +47,7 @@ def render() -> str:
 % Source: data/moratorium_inventory.csv
 \\begin{{figure}}[tp]
 \\centering
-\\caption{{Temporal Distribution of Moratorium Enactments}}
+\\caption{{Temporal Distribution of Recorded Instrument Dates}}
 \\label{{tab:temporal-distribution}}
 \\begin{{tikzpicture}}
 \\begin{{axis}}[
@@ -76,10 +76,10 @@ def render() -> str:
 \\end{{axis}}
 \\end{{tikzpicture}}
 \\begin{{flushleft}}
-\\small\\textit{{Note:}} Counts use validated normalized adoption years
+\\small\\textit{{Note:}} Counts use validated normalized years from the recorded date field
 in the cleaned inventory (\\Cref{{app:inventory}}, $n = {len(rows)}$).
 {excluded} instrument{'s' if excluded != 1 else ''} lacked a parseable adoption
-date and {'are' if excluded != 1 else 'is'} excluded. Recorded dates may remain
+date and {'are' if excluded != 1 else 'is'} excluded. Dates may be scheduled or remain
 unverified; counts do not independently establish adoption or current legal force.
 \\end{{flushleft}}
 \\end{{figure}}

@@ -26,6 +26,8 @@ The linked April 2026 paper is a historical edition. Its figures and conclusions
 
 ![Moratorium counts by state](figures/png/map-moratorium-counts.png)
 
+[Figure editions and denominators](figures/README.md) distinguish current record summaries from the historical paper’s legal classifications.
+
 ---
 
 ## Quick links

@@ -1,0 +1,79 @@
+{
+  "raw_records": 1330,
+  "multisector_rows": 292,
+  "sector_assignments": 1714,
+  "state_count_inputs_unchanged_from_previous_figure_commit": true,
+  "previous_figure_commit": "fe411da",
+  "sector_rule": "Normalized recorded arrays; each sector counted once per row; ties Mixed; general Other; missing Unknown; no prose inference or data-center default",
+  "table_generators_run": 7,
+  "tables_changed": [
+    "state-sector-counts.tex",
+    "temporal-distribution.tex"
+  ],
+  "maps_refreshed": [
+    "map-moratorium-counts",
+    "map-sector-composition",
+    "map-timeline-heatmap"
+  ],
+  "formats": [
+    "pdf",
+    "svg",
+    "png"
+  ],
+  "tests": {
+    "focused_regressions": 2,
+    "failures": 0
+  },
+  "historical_legal_maps": "Authority, home rule, preemption and statutory duration retain historical paper classifications, not a fresh November legal survey",
+  "historical_paper_pdf": "Unchanged",
+  "artifacts": {
+    "figures/pdf/map-moratorium-counts.pdf": {
+      "bytes": 834255,
+      "sha256": "8c06852d4ac1a1b04247eb8265030b6d5f735ae2db7b0917e57521ba89f18616"
+    },
+    "figures/pdf/map-sector-composition.pdf": {
+      "bytes": 1678367,
+      "sha256": "2205b9c8320ed3e4aedb45a1d1f1b0af33f6d8199438d8ef1536aea6031a9b71"
+    },
+    "figures/pdf/map-timeline-heatmap.pdf": {
+      "bytes": 79283,
+      "sha256": "45f5d236fb55aa67fb1573703560aa233f7b598936de08677f29c0dc8320eeb6"
+    },
+    "figures/png/map-moratorium-counts.png": {
+      "bytes": 389481,
+      "sha256": "92e272e5ac1cd4498808b6b5366b1fceba75e3d4a0da37ef47b31729318705c5"
+    },
+    "figures/png/map-sector-composition.png": {
+      "bytes": 470765,
+      "sha256": "813657200d656d36b88fae8cf712187701508ba4fcfae7091b307f43ae7cf652"
+    },
+    "figures/png/map-timeline-heatmap.png": {
+      "bytes": 1440441,
+      "sha256": "bc818ec7f0c06a738cf56633716503d429cc05de5aa1ed5e32a28182141c9b5e"
+    },
+    "figures/svg/map-moratorium-counts.svg": {
+      "bytes": 2223440,
+      "sha256": "ae264ec909d5953c2d72d2057efc6b9573e5511ecf0771a076c6ce4732ee5004"
+    },
+    "figures/svg/map-sector-composition.svg": {
+      "bytes": 4686792,
+      "sha256": "7c5768d5af501742f28c95f6e7c7a7c3369336c2239af61b5bd937924d5229d2"
+    },
+    "figures/svg/map-timeline-heatmap.svg": {
+      "bytes": 1163910,
+      "sha256": "d2421821df3ad0affaa4c376dccc9ba27cdd8ecd73c3144a0e729d0485f375e6"
+    }
+  },
+  "timeline_rows_with_usable_month": 1173,
+  "timeline_rows_without_usable_month": 157,
+  "render_environment": {
+    "pandas": "3.1.1",
+    "matplotlib": "3.11.2",
+    "geopandas": "1.2.0",
+    "seaborn": "0.13.2",
+    "shapely": "2.2.0",
+    "numpy": "2.5.4",
+    "pyproj": "3.8.0",
+    "pyogrio": "0.13.0"
+  }
+}
