@@ -1,0 +1,54 @@
+{
+  "applied_at": "2026-11-09T18:49:38.843497+00:00",
+  "substantive_cells": 2,
+  "derived_cells": 0,
+  "changed_cells": 2,
+  "changed_records": 2,
+  "csv_before_sha256": {
+    "local_inventory": "24505d2451d8fa886abb24ad38f008eb35c86c55f8de5f9f76483de1713df82b",
+    "state_policy": "4187685fc09832481a0fed1e8979708631454509d32e7bfd0e455513b21903f1"
+  },
+  "csv_after_sha256": {
+    "local_inventory": "24505d2451d8fa886abb24ad38f008eb35c86c55f8de5f9f76483de1713df82b",
+    "state_policy": "479dc54805e0979484ac8d629506341a12b1b0bead6320b5b3b7c04e30549737"
+  },
+  "scope_rebound_ids": [
+    "al-hb403-2026",
+    "al-sb265-2026"
+  ],
+  "scope_registry_sha256": "939aa6c9d262f3fbcb1a51e32e62c333803cdecff00263cdc116bd31a2940109",
+  "changes": [
+    {
+      "dataset": "state_policy",
+      "id": "al-hb403-2026",
+      "field": "status",
+      "before": "House passed as amended and engrossed 2026-03-17; this is the latest action in the ALISON history returned 2026-11-07. Earlier record claimed death at sine die without Senate floor action and identified SB270 as companion vehicle; those claims remain unverified.",
+      "after": "House passed as amended and engrossed 2026-03-17; this is the latest action in the ALISON history returned 2026-11-07 and independently re-observed 2026-11-09. Earlier record claimed death at sine die without Senate floor action and identified SB270 as companion vehicle; those claims remain unverified. The official Legislature site identifies April 9, 2026 as adjournment of the 2026 Regular Session; the bill-specific terminal consequence remains unresolved.",
+      "kind": "substantive"
+    },
+    {
+      "dataset": "state_policy",
+      "id": "al-sb265-2026",
+      "field": "status",
+      "before": "House carried over to the call of the chair 2026-04-09; this is the latest action in the ALISON history returned 2026-11-07. Earlier record claimed death at sine die without House floor vote and identified HB399 as companion vehicle; those claims remain unverified.",
+      "after": "House carried over to the call of the chair 2026-04-09; this is the latest action in the ALISON history returned 2026-11-07 and independently re-observed 2026-11-09. Earlier record claimed death at sine die without House floor vote and identified HB399 as companion vehicle; those claims remain unverified. The official Legislature site identifies April 9, 2026 as adjournment of the 2026 Regular Session; the bill-specific terminal consequence remains unresolved.",
+      "kind": "substantive"
+    }
+  ],
+  "verify_rows": 979,
+  "row_transitions": [
+    {
+      "dataset": "state_policy",
+      "id": "al-hb403-2026",
+      "before_sha256": "6636f334b3bc4f4e147860181471dcac79760a1cafe7ba4cc89708232c48b236",
+      "after_sha256": "cb4dedddec72e1e1b2b68e235e1f44484a13b132ddfed447e5a07233cbbdaca7"
+    },
+    {
+      "dataset": "state_policy",
+      "id": "al-sb265-2026",
+      "before_sha256": "8edbe4e51d863394624aceaa341a4c8ef404313c0521fcaf637301e2e7394461",
+      "after_sha256": "c70146ab5310ddda8087fe09c5ebabf9c8173ad6b0698896bebcd5344eefd481"
+    }
+  ],
+  "scope": "Reviewed source observations, classification correction and explicit unresolved facts; all IDs retained. No current-law census asserted."
+}
