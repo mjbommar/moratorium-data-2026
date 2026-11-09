@@ -1,0 +1,91 @@
+{
+  "scope": "Mechanical metadata-only question extraction checkpoint before the separately reviewed two-record residual reconciliation; counts and fingerprints below refer to that checkpoint.",
+  "records_preserved": 1487,
+  "affected_records": 15,
+  "removed_metadata_values": 200,
+  "excluded_metadata_keys": [
+    "retained_attempts",
+    "retained_search_attempts",
+    "mechanical_checks"
+  ],
+  "reason": "Prior extractor flattened search-attempt IDs, timestamps, providers, queries, host diagnostics and mechanical guard descriptions into factual questions. Original review ledger retains all metadata; actual remaining/source-followup questions are preserved.",
+  "before_source_commit": "1ee1b655d9dffc726014bedc3bfcf68b02816a09",
+  "after_queue_sha256": "a2403df9b3fe698b6c0a1d40fec21bbda5efdd1535199ff833d9f9cecb699332",
+  "records": [
+    {
+      "id": "fl-manatee-county-2026",
+      "removed_metadata_values": 5,
+      "retained_questions": 2
+    },
+    {
+      "id": "fl-marion-county-2026",
+      "removed_metadata_values": 15,
+      "retained_questions": 2
+    },
+    {
+      "id": "fl-martin-county-undated",
+      "removed_metadata_values": 10,
+      "retained_questions": 2
+    },
+    {
+      "id": "fl-minneola-undated",
+      "removed_metadata_values": 16,
+      "retained_questions": 2
+    },
+    {
+      "id": "fl-nassau-county-2026",
+      "removed_metadata_values": 5,
+      "retained_questions": 2
+    },
+    {
+      "id": "fl-north-port-2026",
+      "removed_metadata_values": 16,
+      "retained_questions": 2
+    },
+    {
+      "id": "fl-orange-county-undated",
+      "removed_metadata_values": 17,
+      "retained_questions": 2
+    },
+    {
+      "id": "fl-ormond-beach-2026",
+      "removed_metadata_values": 16,
+      "retained_questions": 2
+    },
+    {
+      "id": "fl-palm-beach-county-2026",
+      "removed_metadata_values": 17,
+      "retained_questions": 2
+    },
+    {
+      "id": "fl-panama-city-2026",
+      "removed_metadata_values": 16,
+      "retained_questions": 2
+    },
+    {
+      "id": "fl-pasco-county-2026",
+      "removed_metadata_values": 15,
+      "retained_questions": 2
+    },
+    {
+      "id": "fl-pensacola-undated",
+      "removed_metadata_values": 15,
+      "retained_questions": 2
+    },
+    {
+      "id": "fl-pinellas-park-undated",
+      "removed_metadata_values": 5,
+      "retained_questions": 2
+    },
+    {
+      "id": "fl-putnam-county-2026",
+      "removed_metadata_values": 17,
+      "retained_questions": 2
+    },
+    {
+      "id": "fl-santa-rosa-county-2026",
+      "removed_metadata_values": 15,
+      "retained_questions": 2
+    }
+  ]
+}

@@ -8,7 +8,7 @@ def residual_values(value):
     if isinstance(value,str): return [value.strip()] if value.strip() else []
     if isinstance(value,list): return [s for item in value for s in residual_values(item)]
     if isinstance(value,dict):
-        return [s for key,item in value.items() if key not in ('prior_review','prior_primary_disposition','prior_row_and_identity_guard','followup_class') for s in residual_values(item)]
+        return [s for key,item in value.items() if key not in ('prior_review','prior_primary_disposition','prior_row_and_identity_guard','followup_class','retained_attempts','retained_search_attempts','mechanical_checks') for s in residual_values(item)]
     return []
 def questions(value):
     found=[]
@@ -68,6 +68,20 @@ def main():
             key=('state_policy',record['id'])
             assert digest(json.dumps(current[key],sort_keys=True,separators=(',',':'),ensure_ascii=False).encode())==record['current_row_sha256']
             overlays[record['id']]=[public_text(q) for q in record['questions_open']]
+    local_reconciliation=args.output/'local-residual-reconciliation.json'
+    if local_reconciliation.exists():
+        for record in json.loads(local_reconciliation.read_text())['records']:
+            key=('local_inventory',record['id'])
+            assert digest(json.dumps(current[key],sort_keys=True,separators=(',',':'),ensure_ascii=False).encode())==record['current_row_sha256']
+            assert record['remaining_questions'] and not record['whole_record_closure_recommended']
+            overlays[record['id']]=[public_text(q) for q in record['remaining_questions']]
+    northport=args.output/'northport-adjudication.json'
+    if northport.exists():
+        record=json.loads(northport.read_text())
+        key=('local_inventory',record['id'])
+        assert digest(json.dumps(current[key],sort_keys=True,separators=(',',':'),ensure_ascii=False).encode())==record['current_row_sha256']
+        assert record['recommendation']=='unresolved' and record['remaining_questions']
+        overlays[record['id']]=[public_text(q) for q in record['remaining_questions']]
     rows=[]
     for entry in f['records']:
         if entry['disposition']!='unresolved':continue
@@ -80,6 +94,6 @@ def main():
     expected={(r['dataset'],r['id']) for r in f['records'] if r['disposition']=='unresolved'}
     assert {(r['dataset'],r['id']) for r in rows}==expected and len(rows)==len(expected)==f['counts']['unresolved']
     args.output.mkdir(parents=True,exist_ok=True);body=''.join(json.dumps(r,ensure_ascii=False,sort_keys=True)+'\n' for r in sorted(rows,key=lambda r:(r['dataset'],r['id']))).encode();(args.output/'outstanding-record-questions.jsonl').write_bytes(body)
-    summary={'active_unresolved_records':len(rows),'records_with_explicit_questions':sum(bool(r['questions']) for r in rows),'records_requiring_disposition_reconciliation':[r['id'] for r in rows if not r['questions']],'local_records':sum(r['dataset']=='local_inventory' for r in rows),'state_policy_records':sum(r['dataset']=='state_policy' for r in rows),'funnel_sha256':digest(fpath.read_bytes()),'review_ledger_sha256':digest(raw),'queue_sha256':digest(body),'post_release_overlay_records':sum(r['post_release_overlay'] for r in rows),'overlay_review_sha256':digest(maine.read_bytes()) if maine.exists() else None,'terminal_overlay_sha256':digest(terminal.read_bytes()) if terminal.exists() else None,'procedure_overlay_sha256':digest(procedure.read_bytes()) if procedure.exists() else None,'sponsor_overlay_sha256':digest(sponsor.read_bytes()) if sponsor.exists() else None,'enacted_overlay_sha256':digest(enacted.read_bytes()) if enacted.exists() else None,'scope':'Mechanical index of previously recorded residual questions, with explicit published post-release overlays. Not a new source review, factual classification, prioritization or admission of new searches. Retired IDs remain in the identity/disposition history. Held ballot payloads are separately accounted; do not add them as distinct canonical measures.'}
+    summary={'active_unresolved_records':len(rows),'records_with_explicit_questions':sum(bool(r['questions']) for r in rows),'records_requiring_disposition_reconciliation':[r['id'] for r in rows if not r['questions']],'local_records':sum(r['dataset']=='local_inventory' for r in rows),'state_policy_records':sum(r['dataset']=='state_policy' for r in rows),'funnel_sha256':digest(fpath.read_bytes()),'review_ledger_sha256':digest(raw),'queue_sha256':digest(body),'post_release_overlay_records':sum(r['post_release_overlay'] for r in rows),'overlay_review_sha256':digest(maine.read_bytes()) if maine.exists() else None,'terminal_overlay_sha256':digest(terminal.read_bytes()) if terminal.exists() else None,'procedure_overlay_sha256':digest(procedure.read_bytes()) if procedure.exists() else None,'sponsor_overlay_sha256':digest(sponsor.read_bytes()) if sponsor.exists() else None,'enacted_overlay_sha256':digest(enacted.read_bytes()) if enacted.exists() else None,'local_reconciliation_sha256':digest(local_reconciliation.read_bytes()) if local_reconciliation.exists() else None,'northport_overlay_sha256':digest(northport.read_bytes()) if northport.exists() else None,'scope':'Mechanical index of previously recorded residual questions, with explicit published post-release overlays. Not a new source review, factual classification, prioritization or admission of new searches. Retired IDs remain in the identity/disposition history. Held ballot payloads are separately accounted; do not add them as distinct canonical measures.'}
     (args.output/'outstanding-queue-verification.json').write_text(json.dumps(summary,indent=2)+'\n');print(json.dumps(summary,indent=2))
 if __name__=='__main__':main()

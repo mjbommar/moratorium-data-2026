@@ -698,4 +698,8 @@ Exit: repeatable refresh with visible freshness, costs, failures and unresolved 
 - [ ] Verify any referendum/other legal circumstance affecting the inferred July 1 effective dates and subsequent amendments/current force for HB 1038/SB 135; neither enacted record is whole-record resolved.
 
 - [x] Confirm terminal Pages timeout for `42660674146` (`23e1b9f`): build passed, deploy remained syncing_files then timed out. Retain receipt; push the subsequent completed QA batch after terminal status.
-- [ ] Verify the next Pages deployment and exact hosted current CSV/metadata/QA bytes before calling the website current.
+- [x] Verify Pages deployment `42662568882` at `1ee1b65` and six exact hosted files; subsequent QA changes require their own deployment check.
+
+- [x] Verify successful Pages deployment `42662568882` at `1ee1b65` and six exact hosted data/site/QA files.
+- [x] Independently reconcile stale Cromwell/Watertown residual wording against applied receipts and retained sources; preserve both actual source holds. Remove 200 metadata values incorrectly flattened into questions across 15 entries, preserving all unresolved IDs and substantive follow-ups.
+- [x] Recover/review North Port linked first-reading minutes and September meeting limitations; apply seven guarded clarifications, retain the actual portal Passed header and recorded stage, and preserve final-execution/vote/project/force questions. Three new source versions pass native body/text readback.

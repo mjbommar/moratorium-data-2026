@@ -1,0 +1,235 @@
+{
+  "scope": "Two stale residual-question entries; retained sources and applied receipts only. No application.",
+  "records": [
+    {
+      "id": "ct-cromwell-undated",
+      "dataset": "local_inventory",
+      "recommendation": "narrow_residual_keep_open",
+      "whole_record_closure_recommended": false,
+      "prior_frozen_guard_sha256": "dc0c869610238f881ce8f7a8a4ee08971fee97c47eb4379e79dda7aa5669c41b",
+      "reverse_applied_diff_verified": true,
+      "applied_receipt": {
+        "sha256": "da9fd6fde12de72ac8e518d0a9bbbd6d4703d64e8222edb12a244a363f19abdc",
+        "row_transition_pointer": "/row_transitions/29",
+        "changes": [
+          {
+            "pointer": "/changes/63",
+            "dataset": "local_inventory",
+            "id": "ct-cromwell-undated",
+            "field": "current_status",
+            "before": "Pending as of 2026-09-23. At its August 18, 2026 regular meeting, the Cromwell Planning and Zoning Commission voted 5-1 to accept Application #26-25 (the proposed 12-month data center moratorium text amendment) and schedule it for a public hearing at a Special Meeting on September 24, 2026 -- the Commission did not adopt the moratorium at the August 18 meeting itself. Staff confirmed no data center application is currently pending, though one commissioner referenced an interested prospective applicant. A secondary aggregator (mytownview.com) inaccurately described this August 18 procedural vote as the Commission having 'approved' and 'passed' the moratorium itself; the official filed minutes make clear only the scheduling of a hearing was voted on.",
+            "after": "Pending as of 2026-09-23. At its August 18, 2026 regular meeting, the Cromwell Planning and Zoning Commission voted 5-1 to accept Application #26-25 (the proposed 12-month data center moratorium text amendment) and schedule it for a public hearing at a Special Meeting on September 24, 2026 -- the Commission did not adopt the moratorium at the August 18 meeting itself. Staff confirmed no data center application is currently pending, though one commissioner referenced an interested prospective applicant. A secondary aggregator (mytownview.com) inaccurately described this August 18 procedural vote as the Commission having 'approved' and 'passed' the moratorium itself; the official filed minutes make clear only the scheduling of a hearing was voted on. On September 24, 2026, after the public hearing, the Commission denied Application #26-25 by a 5\u20132 vote.",
+            "kind": "substantive"
+          },
+          {
+            "pointer": "/changes/64",
+            "dataset": "local_inventory",
+            "id": "ct-cromwell-undated",
+            "field": "outcome",
+            "before": "Planning and Zoning Commission voted 5-1 to schedule a public hearing (Sept. 24, 2026) on a proposed 12-month data center moratorium text amendment; the moratorium itself has not been adopted as of this research date.",
+            "after": "Planning and Zoning Commission voted 5-1 to schedule a public hearing (Sept. 24, 2026) on a proposed 12-month data center moratorium text amendment; the moratorium itself has not been adopted as of September 23, 2026. On September 24, 2026, after the public hearing, the Commission denied Application #26-25 by a 5\u20132 vote.",
+            "kind": "substantive"
+          },
+          {
+            "pointer": "/changes/65",
+            "dataset": "local_inventory",
+            "id": "ct-cromwell-undated",
+            "field": "legal_basis",
+            "before": "Proposed text amendment (Application #26-25) to Cromwell Zoning Regulations Section 4.2.E.; not yet adopted. Public hearing scheduled for a Special Meeting of the Planning and Zoning Commission on 2026-09-24.",
+            "after": "Proposed text amendment Application #26-25 to Cromwell Zoning Regulations Section 4.2.E. for a 12-month data center moratorium; the Commission denied the application on September 24, 2026, after a public hearing.",
+            "kind": "substantive"
+          },
+          {
+            "pointer": "/changes/68",
+            "dataset": "local_inventory",
+            "id": "ct-cromwell-undated",
+            "field": "enacted_status",
+            "before": "pending",
+            "after": "rejected",
+            "kind": "substantive"
+          }
+        ]
+      },
+      "original_index_questions": [
+        "Outcome and identity of the later six-month proposal are unverified. Current local-inventory status vocabulary lacks a denied/rejected value; coordinator must resolve the structured pending status rather than silently encode denial as pending."
+      ],
+      "questions_cleared": [
+        "The coordinator must resolve structured pending because the vocabulary lacks rejected: receipt applied pending \u2192 rejected; the three narrative fields also record the September 24 denial of Application 26-25."
+      ],
+      "questions_narrowed": [
+        "Retain only the later six-month proposal portion of the original combined question."
+      ],
+      "remaining_questions": [
+        "Obtain the later six-month proposal text and relevant commission minutes; establish its instrument identity, relationship (if any) to Application 26-25, outcome and later action. The November 5 report is a lead, not proof of adoption or current force."
+      ],
+      "source_evidence": [
+        {
+          "url": "https://www.cromwellct.gov/DocumentCenter/View/5915/081826-Minutes-filed-with-Clerk",
+          "locator": "OCR lines 92\u2013126: Application 26-25, 12-month proposal and 5\u20131 hearing-scheduling motion",
+          "event_date": "2026-08-18",
+          "verified_hashes": {
+            "body_sha256": "bbbc2ecb74d2306f110fa9f99198767afb7be4adac136fda213d73186d33b53f",
+            "text_sha256": "14217b20dd5cdb973efb33252ebfcd37bb807d8eaac8d97eb0fb17167d40717f"
+          },
+          "hash_scope": "retained file bytes"
+        },
+        {
+          "url": "https://cromwellct.gov/AgendaCenter/ViewFile/Minutes/_09242026-472",
+          "locator": "OCR lines 38\u201347, 173\u2013180: Application 26-25 and 5\u20132 denial; prior review visually inspected page 4",
+          "event_date": "2026-09-24",
+          "verified_hashes": {
+            "body_sha256": "9d6342217392630deaea53555def12beb9d64b15c6ecfa20f69a12ed82833fd3",
+            "text_sha256": "55421cb079da94343160ada9f9148f961e1ba76cfb0d8c16492566e9782b8266"
+          },
+          "hash_scope": "retained file bytes"
+        },
+        {
+          "url": "https://www.wfsb.com/2026/11/05/cromwell-considers-moratorium-pause-new-data-center-developments/",
+          "locator": "Text paragraphs 1\u20135 and What a moratorium would do",
+          "event_date": "2026-11-05",
+          "verified_hashes": {
+            "body_sha256": "d55659a4c3608c93afbade729266c50190486b0c1e2b6540331e9cdf5c470935",
+            "text_sha256": "3b5f6d55b950183f02e84db5e7f6d6faadccdd11425886b86273cc17c57fa876"
+          },
+          "hash_scope": "decompressed bytes"
+        }
+      ],
+      "proposed_canonical_changes": [],
+      "current_row_sha256": "436c989b0e3e1adf740bc46e421d6faaf79049d7d078739a4613ee79d8f6b8d7"
+    },
+    {
+      "id": "mi-watertown-township-2026",
+      "dataset": "local_inventory",
+      "recommendation": "narrow_residual_keep_open",
+      "whole_record_closure_recommended": false,
+      "prior_frozen_guard_sha256": "dda7863aa65f9316472193343de1dabe1aa781a3f886a325ee20c31d297c0895",
+      "reverse_applied_diff_verified": true,
+      "applied_receipt": {
+        "sha256": "4bdd9ec943527a332976b209ab676468dd74d1427ba7e3725efb37be558e7d97",
+        "row_transition_pointer": "/row_transitions/239",
+        "changes": [
+          {
+            "pointer": "/changes/669",
+            "dataset": "local_inventory",
+            "id": "mi-watertown-township-2026",
+            "field": "current_status",
+            "before": "Active as of 2026-07-31",
+            "after": "Tuscola-area reporting says the Watertown Township board approved a data-center moratorium resolution at its August 12, 2026 meeting. The separate May 18 resolution cited in the inherited row is associated with Clinton County and cannot be assigned to this Tuscola-area action. The August instrument number, vote, term, effective date, later action and present legal force remain unverified.",
+            "kind": "substantive"
+          },
+          {
+            "pointer": "/changes/670",
+            "dataset": "local_inventory",
+            "id": "mi-watertown-township-2026",
+            "field": "date_enacted",
+            "before": "2026-05-18 (7-0 vote), immediate effect",
+            "after": "August 12, 2026 board approval reported; applicable instrument unverified",
+            "kind": "substantive"
+          },
+          {
+            "pointer": "/changes/671",
+            "dataset": "local_inventory",
+            "id": "mi-watertown-township-2026",
+            "field": "date_enacted_iso",
+            "before": "2026-05-18",
+            "after": "",
+            "kind": "substantive"
+          },
+          {
+            "pointer": "/changes/672",
+            "dataset": "local_inventory",
+            "id": "mi-watertown-township-2026",
+            "field": "date_enacted_uncertainty",
+            "before": "exact",
+            "after": "unverified",
+            "kind": "substantive"
+          },
+          {
+            "pointer": "/changes/673",
+            "dataset": "local_inventory",
+            "id": "mi-watertown-township-2026",
+            "field": "legal_basis",
+            "before": "Resolution 5-18-2026-1, under the Michigan Zoning Enabling Act (PA 110 of 2006)",
+            "after": "A data-center moratorium resolution was reported approved August 12, 2026; instrument number and operative text unverified. The May 18 Resolution 5-18-2026-1 belongs to a Watertown township associated with Clinton County authorities.",
+            "kind": "substantive"
+          },
+          {
+            "pointer": "/changes/674",
+            "dataset": "local_inventory",
+            "id": "mi-watertown-township-2026",
+            "field": "outcome",
+            "before": "Adopted 7-0; immediately imposed a one-year moratorium",
+            "after": "Tuscola-area reporting describes board approval of a data-center moratorium August 12, 2026; vote count, term and legal effect are unverified.",
+            "kind": "substantive"
+          },
+          {
+            "pointer": "/changes/675",
+            "dataset": "local_inventory",
+            "id": "mi-watertown-township-2026",
+            "field": "duration",
+            "before": "One year, imposed immediately upon adoption",
+            "after": "Term of the Tuscola-area reported resolution unverified.",
+            "kind": "substantive"
+          },
+          {
+            "pointer": "/changes/676",
+            "dataset": "local_inventory",
+            "id": "mi-watertown-township-2026",
+            "field": "duration_kind",
+            "before": "fixed_days",
+            "after": "unknown",
+            "kind": "substantive"
+          },
+          {
+            "pointer": "/changes/677",
+            "dataset": "local_inventory",
+            "id": "mi-watertown-township-2026",
+            "field": "duration_days",
+            "before": "365",
+            "after": "",
+            "kind": "substantive"
+          }
+        ]
+      },
+      "original_index_questions": [
+        "Obtain the Tuscola township August 12 resolution and minutes, establish identity and term, and investigate subsequent action. Resolve the Clinton record allocation without changing the stable ID prematurely.",
+        "Resolve conflicting May date, legal basis, one-year duration, outcome and typed fields after identifying the correct jurisdiction; the status warning does not itself repair those fields."
+      ],
+      "questions_cleared": [
+        "The assertion that only a status warning was applied and the May date, legal basis, one-year duration, outcome and corresponding typed date/duration fields still require the already-accepted correction: nine receipt changes applied those corrections."
+      ],
+      "questions_narrowed": [
+        "The correction removed unsupported inherited specifics; establishing actual Tuscola instrument facts remains open. The separate Clinton-associated May instrument still needs allocation."
+      ],
+      "remaining_questions": [
+        "Obtain the Watertown Township (Tuscola County) August 12 resolution and minutes; establish instrument identity, vote, term, effective date, later action and present legal force.",
+        "Resolve separate allocation of the May 18 Clinton-associated Resolution 5-18-2026-1 without prematurely changing the stable ID or merging instruments.",
+        "Review whether retained enacted_status=active is appropriate under the recorded-stage classification contract given the secondary report and unverified instrument and effect; it is not proof of current legal force. Review remaining inherited trigger and typed classification only insofar as instrument identity affects them."
+      ],
+      "source_evidence": [
+        {
+          "url": "https://www.tuscolatoday.com/news/watertown-oks-data-center-moratorium/article_46ced0de-be59-4ebd-9f34-f96640ff900c.html",
+          "locator": "article text lines 204\u2013217, 261\u2013283",
+          "event_date": "2026-08-12",
+          "verified_hashes": {
+            "body_sha256": "e8efaef1e755d0639bf9408264db116cf000d553f0f7b0a25c20b83c7e9b1c71",
+            "text_sha256": "be40a9ef0db900cc5be91159270de087527fc62de70a67d9f9efc5c2fc2c1483"
+          },
+          "hash_scope": "retained file bytes"
+        },
+        {
+          "url": "https://www.watertownmi.gov/AgendaCenter/ViewFile/Minutes/_05182026-65",
+          "locator": "minutes pp. 1\u20133, text lines 57\u201376 and 198\u2013214",
+          "event_date": "2026-05-18",
+          "verified_hashes": {
+            "body_sha256": "dfec61d5a560bbf2858842e4666bbc11d41a5e0bceec3270e3f99efd0bdb401e",
+            "text_sha256": "6df655fb17c4f76ac475b45d8e37e0c11efcf019e0e870c4bae29357e5e11b28"
+          },
+          "hash_scope": "retained file bytes"
+        }
+      ],
+      "proposed_canonical_changes": [],
+      "current_row_sha256": "593e57993ddb52ef63e24e95c92b50ce30f456d59c86fcc3b020f9f58d930faa"
+    }
+  ]
+}

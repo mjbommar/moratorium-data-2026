@@ -1,0 +1,43 @@
+{
+  "result": "pass",
+  "scope": "One local source clarification, two stale residual reconciliations and metadata extraction correction; no whole-record closures.",
+  "raw_ids": 1775,
+  "local_cells_changed": 7,
+  "local_records_changed": 1,
+  "unchanged_local_rows": 1327,
+  "policy_csv_bytes_unchanged": true,
+  "typed_stage_changes": 0,
+  "recorded_iso_date_changes": 0,
+  "date_confidence_changes": 1,
+  "scope_rebindings": 0,
+  "whole_record_disposition_changes": 0,
+  "dispositions": {
+    "unresolved": 1487,
+    "corrected_resolved": 100,
+    "confirmed_unchanged": 188,
+    "superseded_duplicate": 0,
+    "not_attempted": 0
+  },
+  "verified_residual_row_guards_and_questions": 1487,
+  "stale_residual_entries_reconciled": 2,
+  "metadata_values_removed_at_cleanup_checkpoint": 200,
+  "metadata_affected_records": 15,
+  "actual_review_shape_regression": "Passed: preserve description and substantive source_followup; exclude search attempts and mechanical checks.",
+  "new_source_versions_native_readback_verified": 3,
+  "checks": [
+    "legacy CSV validation",
+    "policy scope exports",
+    "summary statistics",
+    "GeoJSON",
+    "timeline",
+    "95 documented numbers",
+    "inventory table",
+    "index",
+    "source classification"
+  ],
+  "check_log_sha256": "dfa36cc86388c26d420fd33dc130da6f447ba43d2ddaeac0c54831e8f17fac90",
+  "current_inventory_sha256": "352d9e52f65509cc39c7ae790b38ce9439bd9e6b1db8c1095c06a122451d46bd",
+  "current_funnel_sha256": "cb1767f35485c8f5ec85e865293a42a115d7b6832cbc561969c42e378c4b6ec5",
+  "maps_and_expanded_ballot_data_unchanged": true,
+  "frozen_release_unchanged": true
+}

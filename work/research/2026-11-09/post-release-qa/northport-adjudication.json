@@ -1,0 +1,113 @@
+{
+  "id": "fl-north-port-2026",
+  "dataset": "local_inventory",
+  "scope": "Independent bounded adjudication of chronology, first-reading vote, term/application exception and final-action source gaps; exactly three newly retained source versions plus the prior second-reading draft. No network, API, Git or canonical/store writes.",
+  "reviewed_at_utc": "2026-11-09T17:19:33Z",
+  "decision": "correct_fields_keep_unresolved",
+  "rationale": "The linked minutes support the amended continuation motion, term and application treatment, and Petrow dissent, without a numeric roll call. A portal status label and final-action date coexist with unavailable action details and draft meeting minutes. The retained draft is not an executed ordinance. Therefore adoption, final vote, execution and project identity remain unverified. No contradictory proof justifies a typed stage/category flip; preserve active pending a separate operative-status review.",
+  "sources": [
+    {
+      "id": "northport-legislation",
+      "url": "https://cityofnorthport.legistar.com/LegislationDetail.aspx?FullText=1&GUID=50D6E7E8-8599-48BF-B3EA-AC01FA722B09&ID=8212308",
+      "body_sha256": "7c02fd71da6b9b5f26241fbced891d794aba5ae0ba0b2fa2e64c8987c62b22c1",
+      "text_sha256": "721cb0b576809075fde44529216524427505073d565cfcacf32469879edb9d20",
+      "body_observed_at": "2026-11-09T17:15:05.053370Z",
+      "source_event_date": null,
+      "locator": "HTML lines 304-344, 370, 420-435; text lines 1-5, 59-67, 99"
+    },
+    {
+      "id": "northport-aug31-minutes",
+      "url": "https://cityofnorthport.legistar.com/View.ashx?M=F&ID=15854332&GUID=C419AFDC-8BC9-48F1-8D43-1114469E6C5B",
+      "body_sha256": "c395890d9f1566f11cf693c16d05be8e00ab9dffdeab64e8d59a6f102eb0ab49",
+      "text_sha256": "cbd6a2a5e76a3d9d19320ce113d08b54ff581c0f504efe9c5c99254bed1cfd55",
+      "body_observed_at": "2026-11-09T17:16:31.071401Z",
+      "source_event_date": "2026-08-31 (legislation page attachment label)",
+      "locator": "PDF pages 1-2, especially p. 2 motion and adjournment; text lines 79-95, 141-144"
+    },
+    {
+      "id": "northport-sep22-meeting",
+      "url": "https://cityofnorthport.legistar.com/MeetingDetail.aspx?ID=1352816&GUID=94B5C9DB-099D-43CB-BFA3-47D4D863FA6C&Options=&Search=",
+      "body_sha256": "a79ee9907b08a2960fc27574854f01a152f4b29759233a2bcaee4cf9c1de84c5",
+      "text_sha256": "109011e6986d50f0cc28ea61ce336c6d2cd88300f0f1655c90a7e646408bbaf7",
+      "body_observed_at": "2026-11-09T17:16:33.264505Z",
+      "source_event_date": "2026-09-22",
+      "locator": "HTML lines 278, 320-357 and ordinance item; text lines 20-21"
+    },
+    {
+      "id": "prior-second-reading-draft",
+      "url": "https://cityofnorthport.legistar.com/View.ashx?M=F&ID=15854333&GUID=F78A4D79-ADBD-4657-A4DA-22DEC2EDFA5B",
+      "body_sha256": "69ad56d26d9f069bc2fb159fb9635d9c529f4561bd32408a361ecca0b473d2ef",
+      "text_sha256": "2bda01c23404f245cb0bc030b5f21f3ae80c399d091625fb04e4d58e7c9d5ab2",
+      "body_observed_at": "2026-11-05T18:57:17.795116+00:00",
+      "source_event_date": "2026-09-22 (prior packet association, not execution date)",
+      "locator": "PDF pp. 4-6, sections 2.H, 3, 5.01 and 5.04; extracted text lines 283-295, 335-359, 439-451"
+    }
+  ],
+  "questionscleared": [
+    "Linked minutes record the amended motion to continue second reading to September 22, with Petrow dissenting on both amendment and main motion.",
+    "The amendment adds a retroactive stipulation and 18-month term, and allows acceptance, processing and review but not approval of the current application.",
+    "The September 22 meeting page at the observed time says minutes are Draft, not finalized and results unavailable; no published minutes link is provided.",
+    "The legislation page directly labels and links the August 31 minutes attachment, which itself lacks a printed date, start time, named roll-call header and signatures."
+  ],
+  "remaining_questions": [
+    "Final September 22 action and vote, including the earlier 3-2 claim.",
+    "Executed ordinance, final wording and effective date; end date and subsequent legal force or later action.",
+    "Identity and size of PSD-26-03382 and its relation to Deep Park.",
+    "Numeric first-reading vote and actual hearing duration; 2:07 a.m. adjournment does not establish duration."
+  ],
+  "proposed_cells": [
+    {
+      "field": "date_enacted",
+      "old": "The city legislative record reports first-reading action on August 31, 2026 and lists final action September 22, 2026. The earlier account described a 4-1 first-reading vote on September 8 after a nearly seven-hour hearing and a 3-2 final vote (Stokes, Langdon and Mayor Emrich in favor; Petrow and Duval against); those vote details and duration remain unverified.",
+      "new": "The city legislation page records first-reading action on August 31, 2026 and labels its status Passed and final action September 22, 2026, but the September 22 action and result are unavailable. The linked August 31 minutes say the amended motion to continue second reading to September 22 carried, with Commissioner Petrow dissenting; they do not give a numeric vote count. The earlier account of a September 8 first-reading vote, nearly seven-hour hearing and 3-2 final vote remains unverified."
+    },
+    {
+      "field": "duration",
+      "old": "The second-reading text provides an eighteen-month moratorium on covered data-center applications. That text would allow acceptance, processing and review of application PSD-26-03382, but pause approval or issuance absent further Commission action, and provides for an extraordinary hardship exception decided by the Commission. The earlier account identified the application as the roughly 896,000-square-foot Deep Park proposal; that identity and size, and the executed final text, remain unverified.",
+      "new": "The linked August 31 minutes record an amended motion adding an 18-month term and a retroactive stipulation, and allowing acceptance, processing and review but not approval of the current application. The second-reading draft provides an eighteen-month moratorium, allows acceptance, processing and review of PSD-26-03382 but not approval or issuance without further Commission action, and provides for a Commission-decided extraordinary hardship exception. The earlier identification of the application as the roughly 896,000-square-foot Deep Park proposal and the executed final text remain unverified."
+    },
+    {
+      "field": "trigger",
+      "old": "A roughly 896,000 sq ft ('Deep Park') data-center application, part of a larger 282-acre mixed-use development, submitted 2026-07-20 after a non-disclosure agreement (entered August 2025) expired; hundreds of residents packed multiple public hearings (2026-08-31 and 2026-09-22) in opposition, citing water, noise, and infrastructure concerns.",
+      "new": "The earlier account described a roughly 896,000 sq ft Deep Park data-center application in a 282-acre mixed-use development, submitted July 20, 2026 after an August 2025 non-disclosure agreement expired, and large public opposition at August 31 and September 22 hearings over water, noise and infrastructure. These project identity, size, chronology and attendance claims remain unverified in this bounded review."
+    },
+    {
+      "field": "legal_basis",
+      "old": "City of North Port Ordinance No. 2026-25; city legislative record lists final action September 22, 2026.",
+      "new": "Proposed City of North Port Ordinance No. 2026-25; the city legislation page labels its status Passed and lists final action September 22, 2026, but the action and result are unavailable and executed text remains unverified."
+    },
+    {
+      "field": "current_status",
+      "old": "Adopted September 22, 2026. The second-reading text exempts the pending application from acceptance, processing and review restrictions, but retains the moratorium on its approval or issuance absent further Commission action. Subsequent legal status remains unverified as of November 5, 2026. [VERIFY: separately signed final text, later actions and present legal force.]",
+      "new": "The city legislation page labels Ordinance 2026-25 Passed and lists final action September 22, 2026, but the action and result are unavailable. The second-reading draft would permit acceptance, processing and review of application PSD-26-03382 while barring approval or issuance without further Commission action. [VERIFY: final action and vote, executed text, later actions and present legal force.]"
+    },
+    {
+      "field": "outcome",
+      "old": "Ordinance 2026-25 is recorded as passed September 22, 2026. The second-reading text provides an eighteen-month moratorium; its pending-application exception permits processing and review, while approval remains paused without further Commission action. [VERIFY: signed final text and subsequent legal status.]",
+      "new": "The city legislation page labels Ordinance 2026-25 Passed and lists final action September 22, 2026, but the action and result are unavailable. The second-reading draft provides an eighteen-month moratorium and permits acceptance, processing and review of PSD-26-03382 while barring approval or issuance without further Commission action. [VERIFY: final action and vote, executed text and subsequent legal status.]"
+    },
+    {
+      "field": "date_enacted_uncertainty",
+      "old": "exact",
+      "new": "unverified"
+    }
+  ],
+  "typed_field_notes": {
+    "date_enacted_iso": "Retain 2026-09-22 as unverified portal final-action date, not a confirmed enactment date; pair with uncertainty=unverified.",
+    "enacted_status": "Retain active; present force was not investigated and no contradictory material proof of another stage was found.",
+    "duration_kind": "Retain calendar_term; term is supported as a motion and draft, final legal effect unverified.",
+    "current_end_date_iso": "Remain blank.",
+    "trigger": "The prior project, timing and attendance claims are retained as unverified historical claims; this bounded review does not establish their truth."
+  },
+  "whole_record_closure_recommended": false,
+  "reviewed_before_row_sha256": "874bcdd80f3b596f793058e8e30cc917fba64a69585a7276fe838d77d866ba76",
+  "current_row_sha256": "148c8156091ee32605d6652dd5217318e899d46aaf17360ba99d6a360992c0ff",
+  "recommendation": "unresolved",
+  "coordinator_adjudication": {
+    "recorded_passage_supported": true,
+    "basis": "The actual legislation HTML header labels the ordinance Passed and Final action 9/22/2026. This supports a recorded passage classification while detailed meeting results and executed text remain unverified. The normalized extracted text omits this header.",
+    "modified_proposal": "Retain City Ordinance identification rather than relabel the instrument proposed-only. Clarify that the missing result is the detailed September 22 action record and roll-call result.",
+    "date": "Retain portal-recorded 2026-09-22 with unverified adoption-date confidence; no endpoint or numeric vote inferred.",
+    "typed_stage_change": false
+  }
+}

@@ -14,6 +14,8 @@ Four further South Dakota failed-bill QA holds are cleared using final-session h
 
 HB 1038 and SB 135 receive official enacted-source links, precise signature/recording histories, clarified summaries and explicitly qualified July 1 statutory-default dates. Both legal-effect fields and whole-record dispositions remain unresolved pending current-force and referendum checks.
 
+North Port receives seven source-bounded clarifications using linked first-reading minutes and the official legislation/meeting pages. Preserve the portal’s Passed classification, qualify the adoption-date confidence and retain unresolved final vote, execution and project questions. Residual-question indexing removes search metadata and reconciles two already-applied local corrections without closing their actual source gaps.
+
 Current working snapshot: **1,328 local records**, **447 policy observations**, and **57 proposal/measure records** with **53 current result observations** (five certified).
 
 | Metric | Working QA after v2026.11.9 |
