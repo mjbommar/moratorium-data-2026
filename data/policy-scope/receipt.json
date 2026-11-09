@@ -2,13 +2,13 @@
   "schema_version": "1.0.0",
   "analytical_scope": "data-center infrastructure policy analytical census",
   "inputs": {
-    "raw_csv_sha256": "587c0843a14658d1da4473c2f9f7e09bb45c57fee6f8af273ff328d2311788bd",
-    "registry_sha256": "c0002e638eae607e1bdcd30503e7bb30793002d19d162f75f3a84ab52ce28142"
+    "raw_csv_sha256": "ba922d9293616afe1343d2ce5105a0b75e3793c8b218730484cdbad469408e84",
+    "registry_sha256": "d1700902e8e4780dd061bc2b2938dc67d0e4fe0333f137f470ed805d715e1f1e"
   },
   "raw_observation_count": 447,
   "partitions": {
     "reviewed_include": {
-      "count": 373,
+      "count": 375,
       "policy_action_ids": [
         "al-hb399-2026",
         "al-hb403-2026",
@@ -207,6 +207,8 @@
         "nv-sb403-83rd-2025",
         "nv-sb69-83rd-2025",
         "nh-hb1265-2026-lsr-26-2482",
+        "nh-hb1722-2026-lsr-26-2682",
+        "nh-hb1724-2026-lsr-26-2735",
         "nh-hb1739-fn-2026-lsr-26-2699",
         "nh-sb439-2026-lsr-26-2236",
         "nj-a2770-2026-2027",
@@ -410,7 +412,7 @@
       ]
     },
     "reviewed_unresolved": {
-      "count": 55,
+      "count": 53,
       "policy_action_ids": [
         "az-hb2457-2026",
         "ca-ab2170-2025-2026",
@@ -442,8 +444,6 @@
         "ne-lb1261-2026",
         "ne-lb613-2025",
         "nv-ab226-83rd-2025",
-        "nh-hb1722-2026-lsr-26-2682",
-        "nh-hb1724-2026-lsr-26-2735",
         "nh-hb672-fn-2025-lsr-25-0365-chapter-285",
         "nj-a5462-2024-2025",
         "nm-sb-235-2026-microgrid-oversight-act",
@@ -476,9 +476,9 @@
   },
   "candidate_pool_count": 428,
   "artifacts_sha256": {
-    "all-annotated.csv": "6cfbbc0a15dbd2de072301b0663b24b55a24f1ee3c9fe097303b80821bae13db",
-    "reviewed-included.csv": "87cf68ede3475f7ab7a523727e5170eafeadd54efbaf80b8726f6d276ba1298e",
-    "not-explicitly-excluded-candidates.csv": "a742f9679b838e9271d696781404d9d7a5592ccde2c8711eb33911f0084a69c0"
+    "all-annotated.csv": "61c7bedd1b21ce71cfa60455b54c0f718f6c44857d62a890eb129c2d69d8ba2e",
+    "reviewed-included.csv": "d508d0e3b1324330d50abd6f69b213b3650f9e4c6b1f7fba3aa78d538d9d6c37",
+    "not-explicitly-excluded-candidates.csv": "865f5049b7bf02f379dcf99d1c97bfa1dc02cb985ee3b0cac855f1485d024d1b"
   },
   "caveat": "Rows are historical observations, not a unique instrument census. The candidate pool is not reviewed inclusion. Scope review does not establish freshness or current legal force."
 }

@@ -1,0 +1,32 @@
+{
+  "admitted_at": "2026-11-09T20:39:00.780711+00:00",
+  "authorization_basis": "Standing user goal; at most eight reserved HTTP calls for exact retained New Hampshire bill identities and introduced/amended text. No browser/paid search/model work or nationwide discovery; prior ledgers unchanged.",
+  "target_record_ids": [
+    "nh-hb1265-2026-lsr-26-2482",
+    "nh-hb1722-2026-lsr-26-2682",
+    "nh-hb1724-2026-lsr-26-2735",
+    "nh-hb1739-fn-2026-lsr-26-2699",
+    "nh-sb439-2026-lsr-26-2236"
+  ],
+  "caps": {
+    "exa": 0,
+    "serpapi": 0,
+    "googlenews": 0,
+    "gdelt": 0,
+    "search_total": 0,
+    "fetch": 8
+  },
+  "initial_targets": [
+    "https://gc.nh.gov/bill_status/legacy/bs2016/billText.aspx?sy=2026&id=1685&txtFormat=html",
+    "https://gc.nh.gov/bill_status/legacy/bs2016/billText.aspx?sy=2026&id=1892&txtFormat=html",
+    "https://gc.nh.gov/bill_status/legacy/bs2016/billText.aspx?sy=2026&id=1943&txtFormat=html",
+    "https://gc.nh.gov/bill_status/legacy/bs2016/billText.aspx?sy=2026&id=1907&txtFormat=html"
+  ],
+  "route_basis": "Exact HB1265 official text URL found in discovery source link; same official text route bound to the existing primary docket IDs for other targets. Confirm bill/year/LSR in every returned body before factual use.",
+  "duplicate_check": "Original NH and frozen nationwide attempt ledgers checked for billText routes; none of these four identities had a finished text retrieval. Existing docket captures reused.",
+  "stop_conditions": [
+    "Eight reserved HTTP calls including failures; no automatic expansion.",
+    "Validate bill identity and version from substantive returned text.",
+    "Do not equate snippets or docket titles with bill text, or enacted effects with proposed terms."
+  ]
+}

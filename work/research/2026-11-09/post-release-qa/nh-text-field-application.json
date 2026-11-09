@@ -1,0 +1,70 @@
+{
+  "applied_at": "2026-11-09T20:41:20.297751+00:00",
+  "substantive_cells": 3,
+  "derived_cells": 0,
+  "changed_cells": 3,
+  "changed_records": 3,
+  "csv_before_sha256": {
+    "local_inventory": "062e8a9932b807538d512b53fba73fbbf7ecb64620a262500b8084a98c4a55f0",
+    "state_policy": "587c0843a14658d1da4473c2f9f7e09bb45c57fee6f8af273ff328d2311788bd"
+  },
+  "csv_after_sha256": {
+    "local_inventory": "062e8a9932b807538d512b53fba73fbbf7ecb64620a262500b8084a98c4a55f0",
+    "state_policy": "ba922d9293616afe1343d2ce5105a0b75e3793c8b218730484cdbad469408e84"
+  },
+  "scope_rebound_ids": [
+    "nh-hb1265-2026-lsr-26-2482",
+    "nh-hb1722-2026-lsr-26-2682",
+    "nh-hb1724-2026-lsr-26-2735",
+    "nh-hb1739-fn-2026-lsr-26-2699"
+  ],
+  "scope_registry_sha256": "d1700902e8e4780dd061bc2b2938dc67d0e4fe0333f137f470ed805d715e1f1e",
+  "changes": [
+    {
+      "dataset": "state_policy",
+      "id": "nh-hb1265-2026-lsr-26-2482",
+      "field": "key_provisions",
+      "before": "Would have prohibited any person, business, or entity from beginning construction of a new data center in New Hampshire from the effective date through 1 year after enactment. It also would have created a study committee on environmental impacts.",
+      "after": "Introduced HB1265 would prohibit beginning construction of a new data center from the act\u2019s effective date through one year following, and create a study committee on environmental impacts. The introduced act proposes effectiveness 60 days after passage; the one-year construction interval is anchored to that effective date, not enactment. No operative moratorium or actual effective/end date is asserted for this failed proposal.",
+      "kind": "substantive"
+    },
+    {
+      "dataset": "state_policy",
+      "id": "nh-hb1722-2026-lsr-26-2682",
+      "field": "key_provisions",
+      "before": "Would create RSA chapter 374-I for large-energy-use retail electricity facilities. Covered facilities include 20 MW or more peak demand and NAICS 518210 uses, including computer processing, data processing centers, and web hosting. The PUC would create a separate tariff class and cost-shifting protections.",
+      "after": "Introduced HB1722 would create RSA chapter 374-I for facilities that both can use at least 20 MW at peak demand and are primarily engaged in NAICS 518210 services, including computer processing, data processing centers and web hosting. It proposes a separate PUC retail-service class and tariff, cost-allocation/ratepayer protections, minimum 10-year service contracts with billing and termination protections, and an initial tariff docket by January 1, 2028. These are proposed obligations, not operative tariffs.",
+      "kind": "substantive"
+    },
+    {
+      "dataset": "state_policy",
+      "id": "nh-hb1739-fn-2026-lsr-26-2699",
+      "field": "key_provisions",
+      "before": "Would create RSA chapter 162-V to attract large-scale data-center campuses through municipal property-tax stabilization or PILOT authority, transferable business tax credits capped at 20 percent of construction costs, grid modernization agreements, cost-sharing, non-gas generation procurement, fast-track industrial and brownfield siting, host-community agreements, noise limits, setbacks, resident bill credits, and workforce provisions.",
+      "after": "Introduced HB1739 would create RSA chapter 162-V for large-scale data-center campuses, with municipal property-tax stabilization or PILOT agreements, transferable business-tax credits, grid modernization agreements and cost-sharing/non-gas generation procurement, fast-track industrial/brownfield siting, host-community agreements, noise/setbacks, resident bill credits and workforce provisions. The credit text states a percentage of construction costs subject to a statewide cap of 20 percent of total construction costs. The appended fiscal note flags ambiguity in the credit/cap, tax interactions and administration; a fixed 20 percent per-project entitlement is not established. No proposed incentive or obligation is asserted as enacted.",
+      "kind": "substantive"
+    }
+  ],
+  "verify_rows": 979,
+  "row_transitions": [
+    {
+      "dataset": "state_policy",
+      "id": "nh-hb1265-2026-lsr-26-2482",
+      "before_sha256": "e599b5dabe7098a990b52db55a650da95f433b40fb02a6bd1ee304071247b4a5",
+      "after_sha256": "d5502c291d9d71c4662a32f139d801ce1b65a7f9da13b89624bff9dd2bc34581"
+    },
+    {
+      "dataset": "state_policy",
+      "id": "nh-hb1722-2026-lsr-26-2682",
+      "before_sha256": "d80a8aef528923710cfcbb47797a8e3d5a883aa7ca9dfd05171cc60975e99d11",
+      "after_sha256": "93c5edff989fa944e1ea9d59e73ae1af61e392412892e172719c861af44d8823"
+    },
+    {
+      "dataset": "state_policy",
+      "id": "nh-hb1739-fn-2026-lsr-26-2699",
+      "before_sha256": "21379243f9f791583ab797d14978d9d170063425ebba411c89234f4bae00bfff",
+      "after_sha256": "55de94b254f206357a61eca7fc07fa25835ba5ebecdf1b0214b89c073c2cc77c"
+    }
+  ],
+  "scope": "Reviewed source observations, classification correction and explicit unresolved facts; all IDs retained. No current-law census asserted."
+}

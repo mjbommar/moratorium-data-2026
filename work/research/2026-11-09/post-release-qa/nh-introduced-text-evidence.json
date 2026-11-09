@@ -1,0 +1,65 @@
+{
+  "sources": [
+    {
+      "attempt_id": "37fe9d16330a465da2f87434844c27f1",
+      "url": "https://gc.nh.gov/bill_status/legacy/bs2016/billText.aspx?sy=2026&id=1685&txtFormat=html",
+      "status": 200,
+      "ok": true,
+      "body_sha256": "b651165593978ca808c02bed041cb299beca9589e981dd2ab9a251cbb3de56fe",
+      "text_sha256": "68dbb28f8d1d4bc4dd2121bbe40a413141cb770e19a648b8d02948d581f3343b",
+      "body_observed_at": "2026-11-09T20:39:01.958025Z",
+      "record_id": "nh-hb1265-2026-lsr-26-2482",
+      "lsr": "26-2482",
+      "locator": "Sections1\u20137: one year from effective date; construction definition, study committee; proposed60-days-after-passage effectiveness"
+    },
+    {
+      "attempt_id": "549824f68b5e4c93a6cd83be8f745944",
+      "url": "https://gc.nh.gov/bill_status/legacy/bs2016/billText.aspx?sy=2026&id=1892&txtFormat=html",
+      "status": 200,
+      "ok": true,
+      "body_sha256": "445e99a2fe2f8d399190001ec28b5c80d91d59ba3525d61d1816b478a5fb7ca0",
+      "text_sha256": "87e34da89fdafbd237429f403a4bd2246029736bd7dbaf477ee942dafbb1ef01",
+      "body_observed_at": "2026-11-09T20:39:01.997929Z",
+      "record_id": "nh-hb1722-2026-lsr-26-2682",
+      "lsr": "26-2682",
+      "locator": "Proposed374-I:1(III), :2\u2013:6: conjunctive20MW/NAICS518210 definition, classification/tariff/cost-allocation and minimum10-year contract"
+    },
+    {
+      "attempt_id": "f0150bdf2ba24dec9c5c8d21cbebae1c",
+      "url": "https://gc.nh.gov/bill_status/legacy/bs2016/billText.aspx?sy=2026&id=1943&txtFormat=html",
+      "status": 200,
+      "ok": true,
+      "body_sha256": "9ac76b0af36f34a7868b3859283165963a432e1d44d38d14f14e0ada1c324da8",
+      "text_sha256": "1e2e94bad667c5d64ea327abace0a1af502ed96ec1afec2d0a3922b5a583147c",
+      "body_observed_at": "2026-11-09T20:39:01.996428Z",
+      "record_id": "nh-hb1724-2026-lsr-26-2735",
+      "lsr": "26-2735",
+      "locator": "Proposed378:37(II)(b)\u2013(e): annual reporting,5MW-or-more data-center generation-needs analysis and ratepayer-risk recommendations"
+    },
+    {
+      "attempt_id": "ba3ec4212fac44698b5523b688fbf8b7",
+      "url": "https://gc.nh.gov/bill_status/legacy/bs2016/billText.aspx?sy=2026&id=1907&txtFormat=html",
+      "status": 200,
+      "ok": true,
+      "body_sha256": "612e7f44b80cd37e290dee335d8a5858950da896baacd5f918abd67e456b8efb",
+      "text_sha256": "c2c88cfe8572ac3ae18eac965af9804819bf88de5bb6d64ddf3e316264b05c1d",
+      "body_observed_at": "2026-11-09T20:39:02.014985Z",
+      "record_id": "nh-hb1739-fn-2026-lsr-26-2699",
+      "lsr": "26-2699",
+      "locator": "Proposed162-V:1\u2013:9 and tax credit clauses; appended fiscal note revisedJanuary5,2026 flags cap/administration ambiguity"
+    }
+  ],
+  "reviewer": "root coordinator, direct official introduced-text and fiscal-note review",
+  "scope": "Documented proposed terms only; no enactment or current-force inference. Original official status assessments retained.",
+  "findings": [
+    "HB1265 proposed one-year interval begins at effective date, not enactment. Section7 proposes effectiveness60days after passage. Study report contains literalNovember1,2025 and November1,2026 dates; those are not imported as operative current deadlines.",
+    "HB1722 requires both capacity20MW-or-more and primary engagement in specifiedNAICS518210 services; this establishes explicit data-center applicability.",
+    "HB1724 specifically covers anticipated generation needs for data centers requiring5MW-or-more; proposed utility transparency is explicitly data-center-related. ExactJune4 sine-die claim remains a separate source question.",
+    "HB1739 supports the recorded grid/siting/community/workforce proposals. Its credit language uses a statewide cap of20percent of total construction costs; the appended fiscal note expressly identifies ambiguity and implementation assumptions. Do not convert those assumptions into a fixed per-project entitlement."
+  ],
+  "new_source_acquisitions": 4,
+  "http_reservations": 4,
+  "http_cap": 8,
+  "whole_record_closures": 3,
+  "scope_membership_changes": 2
+}
