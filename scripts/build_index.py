@@ -25,6 +25,7 @@ import re
 import sys
 from collections import Counter
 from pathlib import Path
+from datetime import date
 
 REPO = Path(__file__).resolve().parents[1]
 INDEX = REPO / "index.html"
@@ -34,10 +35,16 @@ SWEEP = REPO / "data" / "sweep_coverage.json"
 
 VERIFY_RE = re.compile(r"\[VERIFY", re.IGNORECASE)
 
-# Human-facing label for the current release; bump with the release.
-RELEASE_LABEL = "November 5, 2026"
-RELEASE_DATE = "5 November 2026"
-RELEASE_ISO = "2026-11-05"
+# Publication and source clocks are distinct; derive both from release metadata.
+_RELEASE = json.loads((REPO / "data/release_metadata.json").read_text())
+_RELEASE_DAY = date.fromisoformat(_RELEASE["release_date"])
+_SOURCE_DAY = date.fromisoformat(_RELEASE["research_cutoff"].split("T", 1)[0])
+RELEASE_VERSION = _RELEASE["version"]
+RELEASE_LABEL = f"{_RELEASE_DAY:%B} {_RELEASE_DAY.day}, {_RELEASE_DAY.year}"
+RELEASE_DATE = f"{_RELEASE_DAY.day} {_RELEASE_DAY:%B %Y}"
+RELEASE_ISO = _RELEASE_DAY.isoformat()
+SOURCE_DATE = f"{_SOURCE_DAY.day} {_SOURCE_DAY:%B %Y}"
+SOURCE_LABEL = f"{_SOURCE_DAY:%B} {_SOURCE_DAY.day}, {_SOURCE_DAY.year}"
 
 NUMBER_WORDS = {
     10: "Ten", 11: "Eleven", 12: "Twelve", 13: "Thirteen",
@@ -146,8 +153,8 @@ def changes_section(f: dict) -> str:
     """
     return f"""{CHANGES_START}
 <section class="release-notes">
-  <div class="stamp">Working data &middot; November 5, 2026 cohort</div>
-  <h2>The November working snapshot</h2>
+  <div class="stamp">Release v{RELEASE_VERSION} &middot; source cutoff {SOURCE_LABEL} &middot; QA continues</div>
+  <h2>The November dataset update</h2>
   <p class="lede">The inventory tracks {f['rows']} local inventory records across {f['states']} states.
   Recorded classifications include {f['active']} active and {f['extended']} extended records,
   {f['pending']} pending, {f['replaced']} replaced, {f['expired']} expired, {f['rescinded']} rescinded, {f['rejected']} rejected proposals and {f['unknown']} unknown.
@@ -198,7 +205,7 @@ def build_edits(f: dict) -> list[tuple[str, str, str]]:
          rf"\g<1>{f['rows']}\g<2>{f['states']}\g<3>"),
         ("og:description date",
          r'(state policy actions\. Open data, working cohort through )[A-Z][a-z]+ \d{1,2}, \d{4}(\.")',
-         rf"\g<1>{RELEASE_LABEL}\g<2>"),
+         rf"\g<1>{SOURCE_LABEL}\g<2>"),
         ("twitter description date",
          r'(state policy actions\. Updated )[A-Z][a-z]+ \d{1,2}, \d{4}(\.")',
          rf"\g<1>{RELEASE_LABEL}\g<2>"),
@@ -260,16 +267,14 @@ def build_edits(f: dict) -> list[tuple[str, str, str]]:
          r"(The )\d+(-row inventory as a CSV)",
          rf"\g<1>{f['rows']}\g<2>"),
         ("timeline caption",
-         r'<p class="caption">(?:Historical September 2026 chart|A handful of Washington|Washington logged|Every bar before).*?(?:</p>\s*<p class="source">.*?</p>|</p>)',
-         '<p class="caption">Historical September 2026 chart; it has not been regenerated for '
-         'the November working inventory. Its monthly bars and cumulative totals describe the '
-         'earlier chart cohort. Use the canonical CSV for current record-level analysis.</p>\n'
-         '  <p class="source">Source: historical export of '
-         '<code>moratorium_inventory.csv</code>; see '
+         r'<p class="caption">[^<]*</p>\s*<p class="source">.*?</p>',
+         '<p class="caption">Recorded dates in the current inventory, including unverified or scheduled dates. '
+         'Each row is counted once by its first recorded sector; dates do not establish adoption or current legal force.</p>\n'
+         '  <p class="source">Source: current <code>moratorium_inventory.csv</code>; see '
          '<a href="docs/known-gaps.html">coverage and date limitations</a>.</p>'),
         ("timeline alt text",
-         r"(alt=\"Monthly moratorium adoptions, 2018 through )[A-Z][a-z]+(?: \d{1,2},)? \d{4}(,)",
-         rf"\g<1>September 23, 2026\g<2>"),
+         r'alt="Monthly (?:moratorium adoptions|recorded moratorium dates)[^"]*"',
+         'alt="Monthly recorded moratorium dates, stacked by first recorded sector, with cumulative dated-record total. Dates may be unverified or scheduled."'),
         # The clause cohort is NOT the inventory -- it was collected before
         # 2026-04-28 and covers 211 jurisdictions. Stating that inline stops the
         # two numbers on this page being read as one.
@@ -284,7 +289,7 @@ def build_edits(f: dict) -> list[tuple[str, str, str]]:
         ("status snapshot",
          r'(This working snapshot uses a cohort cutoff of <strong>)[^<]+(</strong>\. '
          r'The latest tagged release remains <strong>)v[\d.]+(</strong>\.)',
-         rf'\g<1>{RELEASE_DATE}\g<2>v2026.04.2\g<3>'),
+         rf'\g<1>{SOURCE_DATE}\g<2>v{RELEASE_VERSION}\g<3>'),
     ]
 
 

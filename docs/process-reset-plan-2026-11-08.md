@@ -1,5 +1,8 @@
 # Process reset: minimize elapsed time without losing quality or coverage
 
+> November 9 update: the user explicitly authorized publishing the current state with qualifications on pending QA, followed by continued checking and clearing outstanding questions. [v2026.11.9 is published](https://github.com/mjbommar/moratorium-data-2026/releases/tag/v2026.11.9). That authorization supersedes the publication prerequisite below; it does not declare failed experimental trials successful. Source review and guarded correction requirements continue.
+
+
 Date: 2026-11-08
 Status: implementation started after the user reactivated the goal on November 8.
 

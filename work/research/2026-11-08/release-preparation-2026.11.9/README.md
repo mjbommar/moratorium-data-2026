@@ -1,5 +1,7 @@
 # Prepared v2026.11.9 release — explicit gate decision pending
 
+> Historical preparation receipt. The user subsequently authorized qualified publication; [v2026.11.9 delivery](../../2026-11-09/release-2026.11.9/README.md) supersedes the pending decision below. Prepared fingerprints are not the final release fingerprints.
+
 The release is prepared on branch `release/reviewed-2026-11-09`, source
 `0955a4c9e5239fc0d6bf4d7fb7e4e508ae0e58de`. **No GitHub release or tag has been
 published for this version.** The experimental-extractor requirement remains

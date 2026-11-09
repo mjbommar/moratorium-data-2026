@@ -12,7 +12,7 @@ The earlier completion claim was wrong. `v2026.11.8` is now explicitly an **inco
 - [x] Finish evidenced input handoff and copy/historical-edition dispositions across all seven consumers ([delivery](work/research/2026-11-08/consumer-final-dispositions/README.md)); separate historical project/disclosure/manuscript corpora retain their own dates.
 - [x] Account explicitly for the original quality gates ([accounting](work/research/2026-11-08/final-quality-gate-accounting/README.md)); failed experimental trials remain failed, with no automatic promotion.
 - [x] Record the user’s explicit authorization to publish the current state with pending QA and continue checking outstanding questions; no successful P4 evaluation is claimed.
-- [ ] Publish and independently verify the qualified v2026.11.9 release and downloads.
+- [x] Publish and independently verify the qualified v2026.11.9 release and downloads ([receipt](work/research/2026-11-09/release-2026.11.9/README.md)).
 - [ ] Continue source-specific QA and clear outstanding questions with reviewed, guarded corrections; preserve frozen release history.
 
 - [x] Apply 88 independently reviewed material corrections across 43 records from the first 105 additional-record reviews ([application](work/research/2026-11-08/full-inventory-first105-application/README.md)); remaining full-record review stays open.

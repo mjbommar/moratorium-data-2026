@@ -3,7 +3,7 @@
 
 X axis: first through last usable month present in the normalized data
 Y axis: number of records with that reported month
-Stacking: by primary sector (data_center, cryptocurrency_mining, battery_storage,
+Stacking: by first recorded sector (data_center, cryptocurrency_mining, battery_storage,
           solar, wind, general)
 Overlay: cumulative-total dashed line.
 
@@ -153,7 +153,7 @@ def render():
     )
     parts.append(
         f'<text x="{pad_l}" y="48" font-size="13" fill="#4a5460">'
-        f'Each bar = recorded rows by reported month. Color = primary sector.'
+        f'Each bar = recorded rows by reported month. Color = first recorded sector.'
         f'</text>'
     )
     parts.append(
