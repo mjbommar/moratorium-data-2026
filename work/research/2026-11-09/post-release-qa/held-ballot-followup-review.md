@@ -1,0 +1,41 @@
+# Held ballot follow-up: Morgan County, Illinois and Ottawa, Kansas
+
+**Recommendation: retain both holds and make no canonical change.** These 11 retained source versions narrow the search and correct two possible misreadings; they do not supply the authority needed to establish the held questions. The review is limited to the returned bodies and snippets, not the linked documents. Search limits are not proof of absence. The November 9 capture time is later than the November 7 event cutoff and does not constitute acceptance of later events.
+
+## Morgan County, Illinois — bp-22ec514613c6caa0
+
+The August 12 county minutes distinguish community comments about data centers from a separate resolution concerning separation from Cook County. The latter failed without a motion. That action does not establish a denial, referral, final wording, or result for the data-center advisory question. The minutes do not resolve that question. See the Public Comment and business agenda portions of [the minutes](https://morgancounty-il.com/wp/august-12-2026-meeting-minutes/).
+
+The county WordPress 2026 search returns only the first 30 rows, including the August 12 minutes. The referendum search returns three older meeting posts (2018, 2013, 2012); the ballot media search returns an empty array. These are bounded index results, not an exhaustive record search. The generic extractor returned empty text for the JSON responses, so this review inspected the raw JSON bodies.
+
+Still needed: an official ballot/referral or petition qualification and an official question-specific return, canvass or certification establishing the exact question and election identity. The October 26 extension resolution and subsequent history are separate requirements for any legal-effect claim; no moratorium linkage is assumed.
+
+## Ottawa, Franklin County, Kansas — bp-81523b9c0ba0ba63
+
+The generic search page and the non-AJAX Results request, redirected to Search/Index, return JavaScript-dependent shells. They are not substantive zero-result responses. The retained bounded client uses `X-Requested-With: XMLHttpRequest` for the actual CivicEngage results requests; its existing caps and ledger were preserved. The exact phrase is a request parameter; the returned snippets demonstrate that the engine can match unrelated tokens, so its matching semantics should not be assumed.
+
+* The 2026 ballot query returns the first 20 of 347 results. They include an election calendar, clerk page, unrelated election notices, a county resolutions index, and a 2015 Ottawa sales-tax result. None of the returned titles or snippets establishes the held question.
+* The quoted data-center query returns all three indexed hits: the [2026 county resolutions index](https://www.franklincoks.org/1086/Resolutions-2026), a [draft planning commission minutes document](https://www.franklincoks.org/DocumentCenter/View/34889), and a [2023 county commission agenda](https://www.franklincoks.org/agendacenter/board-of-franklin-county-commissioners-meetings-4/?#07262023-1807). The first snippet references resolution 26-27 and a temporary moratorium but truncates the subject; it is an index snippet, not the full resolution or proof of an Ottawa ballot question.
+* The quoted question 2 query returns all seven hits: a [2017 survey](https://www.franklincoks.org/documentcenter/view/9175), [court letter](https://www.franklincoks.org/documentcenter/view/12697), [prescription savings presentation](https://www.franklincoks.org/documentcenter/view/5938), [reinvestment report](https://www.franklincoks.org/DocumentCenter/View/34541), and three hazard-mitigation plan versions ([28314](https://www.franklincoks.org/documentcenter/view/28314), [13388](https://www.franklincoks.org/documentcenter/view/13388), [13389](https://www.franklincoks.org/documentcenter/view/13389)). Their displayed snippets do not establish the question.
+
+No returned link and snippet supplies an official final question connecting designation, subject, jurisdiction and election to the held county Question 2 return. The previously retained county return was labeled unofficial. Still needed are an administering authority final ballot or certified question list making that link; petition, qualification/referral and court disposition resolving the earlier counsel position; the complete proposed and any adopted ordinance, publication/effective history, and final certified canvass. Substantive duration and limits on amendment or repeal remain distinct.
+
+## Source verification and clocks
+
+Each receipt was resolved to its exact retained artifact, body and extracted text. All 11 body and text SHA-256 hashes matched their receipts, and each artifact’s body hash matched. All requests returned HTTP 200; the non-AJAX redirect is identified by its distinct final URL below. Hashes identify captured bytes, not the legal authority or completeness of a source. Times are UTC. The companion structured receipts preserve final URLs, text hashes and attempt IDs without private paths or provider payloads.
+
+| Source and locator | Request URL | Body SHA-256 | Observed UTC |
+|---|---|---|---|
+| franklin-search-bundle: CivicEngage bundled JavaScript; search machinery | https://www.franklincoks.org/1657590475.js | `efd62f5ba70453b555b1b4f45bbeda6ff23706e94c444dbf15511a04dbb1efba` | 2026-11-09T14:59:26.797733Z |
+| franklin-search-script: Search.js; search machinery | https://www.franklincoks.org/Areas/Layout/Assets/Scripts/Search.js | `829506ed754275f52161bff154a83840d072ab93c9ba80ad67880999cf7e536f` | 2026-11-09T14:59:00.642657Z |
+| morgan-august-minutes: Public Comment; business agenda separation resolution; chairman remarks | https://morgancounty-il.com/wp/august-12-2026-meeting-minutes/ | `e9310dc28a4868f3bac4228a4337af9a1722d8fd830ffabf2fb4643293d9fad8` | 2026-11-09T14:57:07.744924Z |
+| morgan-ballot-media: raw JSON array, ballot media search | https://morgancounty-il.com/wp/wp-json/wp/v2/media?search=ballot&per_page=30&_fields=id,date,slug,source_url,title | `4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945` | 2026-11-09T14:57:39.558651Z |
+| morgan-index: raw JSON array, first 30 2026 search rows | https://morgancounty-il.com/wp/wp-json/wp/v2/search?search=2026&per_page=30 | `26f802511fd73749e4cf92d6149bf501ffe01d1fa745db4f3cca3ee1b8d10a05` | 2026-11-09T14:56:08.932772Z |
+| morgan-referendum-index: raw JSON array, three older posts | https://morgancounty-il.com/wp/wp-json/wp/v2/search?search=referendum&per_page=30 | `d3c303fe0707d447ce6eb6a039eff8a91ef33d1ba748a3f587f370ed4cbfa2b1` | 2026-11-09T14:56:41.410359Z |
+| ottawa-ballot-index: search page shell | https://www.franklincoks.org/Search?searchPhrase=2026%20ballot | `b2000c276e049653111215e64376311c3cdec25a659266e1e25b3aa93b2fb25d` | 2026-11-09T14:58:22.363970Z |
+| ottawa-ballot-results-ajax: results 1–20 of 347; titles, links and snippets | https://www.franklincoks.org/Search/Results?searchPhrase=2026%20ballot&pageNumber=1&perPage=20 | `b00b15683c96579cc052f50fd215343b9cc62c486695cfa6c1d5dd92935fa245` | 2026-11-09T15:00:36.794828Z |
+| ottawa-ballot-results-index: redirect to Search/Index shell | https://www.franklincoks.org/Search/Results?searchPhrase=2026%20ballot&pageNumber=1&perPage=20 | `b2000c276e049653111215e64376311c3cdec25a659266e1e25b3aa93b2fb25d` | 2026-11-09T14:59:44.201221Z |
+| ottawa-question-results-ajax: results 1–7 of 7; titles, links and snippets | https://www.franklincoks.org/Search/Results?searchPhrase=%22question%202%22&pageNumber=1&perPage=20 | `da2523e149d4c75d8e06f88b7ff305efec909511fab1ab8c9a3506ffad8c9158` | 2026-11-09T15:01:27.767898Z |
+| ottawa-subject-results-ajax: results 1–3 of 3; titles, links and snippets | https://www.franklincoks.org/Search/Results?searchPhrase=%22data%20center%22&pageNumber=1&perPage=20 | `db6d50ee5c2c865532acb4933e8938152a949c014e428073eb788e58d5c9122d` | 2026-11-09T15:01:06.513716Z |
+
+The non-AJAX Results request ended at `https://www.franklincoks.org/Search/Index?searchPhrase=2026%20ballot&departmentId=-1&module=0&page=1&perPage=20`. The AJAX request with the same initial Results URL returned the actual results fragment. The underlying bounded-client copy is retrieval-method evidence; this review made no network requests. No canonical promotion or dataset-completeness conclusion follows.
