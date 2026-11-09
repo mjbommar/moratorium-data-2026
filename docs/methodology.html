@@ -193,10 +193,12 @@
   <div class="breadcrumb"><a href="../index.html">Home</a> / Docs</div>
   <h1 id="methodology">Methodology</h1>
 <p>How this dataset was built, in plain English.</p>
-<p>The November 5, 2026 refresh is in progress. Current inventory counts below
-include reviewed additions and corrections; they do not mean every record was
-verified through that date. Historical collection and geocode audits describe
-their original cohorts, not a fresh audit of every current row.</p>
+<p>The November reviewed source has primary and independent source-review artifacts
+for all 1,777 raw records, followed by coordinator application of the correction
+queue. The event cutoff is November 7 at 13:38:39.877065 UTC; capture and review
+timestamps remain separate. Bounded record review does not establish complete
+discovery or current legal force. Historical collection, extraction and geocode
+audits below retain their original cohorts. Final release remains pending.</p>
 <h2 id="what-we-set-out-to-do">What we set out to do</h2>
 <p>This inventory records local actions described in ordinances, resolutions, agendas, minutes and reporting. Source authority, final adoption, effectiveness and subsequent legal events are reviewed separately; a source description or recorded classification does not establish current enforceability.</p>
 <p>Our goal: <strong>identify every such moratorium adopted in the U.S. that targets data centers, battery storage, solar, wind, or cryptocurrency mining</strong> — and capture enough structured information about each one to support cross-jurisdictional comparison.</p>
@@ -249,7 +251,7 @@ their original cohorts, not a fresh audit of every current row.</p>
 <li>Resolve <code>[VERIFY]</code> flags by re-checking primary sources via real-Chrome browser sessions</li>
 <li>Add moratoria identified through news coverage but missed by automated extraction</li>
 </ul>
-<p>During the November 5, 2026 working refresh the cleaned inventory has <strong>1330 inventory records across 47 states</strong> (<code>data/moratorium_inventory.csv</code>). It held 222 at v2026.04.4; see Phase 5 below for how the refresh cycle works.</p>
+<p>The November reviewed working inventory has <strong>1330 inventory records across 47 states</strong> (<code>data/moratorium_inventory.csv</code>). It held 222 at v2026.04.4; see Phase 5 below for how the refresh cycle works.</p>
 <h3 id="phase-4-geocoding-added-v2026042">Phase 4: Geocoding (added v2026.04.2)</h3>
 <p>Each row in the cleaned inventory was assigned WGS84 latitude and longitude coordinates representing the jurisdiction's centroid. Two-tiered approach:</p>
 <ol>

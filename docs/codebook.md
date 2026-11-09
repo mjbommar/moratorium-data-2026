@@ -4,7 +4,7 @@ This document defines every column in every data file. Read this before doing an
 
 ## `data/moratorium_inventory.csv`
 
-**The intended grain is one moratorium instrument per row.** 1330 rows total in the November 5, 2026 working refresh. Record-level review is incomplete; this count does not certify current legal force for every row.
+**The intended grain is one moratorium instrument per row.** 1330 rows total in the November reviewed working source. All raw records have primary and independent review artifacts; remaining identity and source-specific uncertainties are explicit. This count does not certify current legal force for every row.
 
 This is the intended grain. Aggregate and compound rows, possible duplicates, legacy combined candidates and motion/ordinance
 relationships still require [identity reconciliation](known-gaps.md#legacy-instrument-identities);

@@ -7,7 +7,6 @@ Run as: uv run python -m moratorium_maps.maps [map_name|all]
 from __future__ import annotations
 
 import sys
-import json
 from pathlib import Path
 
 import matplotlib.pyplot as plt
@@ -17,6 +16,7 @@ import seaborn as sns
 
 from .basemap import BaseUSMap, PALETTE, HATCH, FIGURES_DIR, STYLE
 from .dates import recorded_month
+from .sectors import recorded_sector_inputs
 from .data import (
     moratorium_counts_by_state,
     AUTHORITY_TYPE,
@@ -79,7 +79,7 @@ def map_legal_authority():
         "Prohibited": HATCH["prohibited"],
     }
 
-    m = BaseUSMap(title="Moratorium Legal Authority by State")
+    m = BaseUSMap(title="Moratorium Legal Authority by State\nHistorical paper classification (April 2026 edition)")
     fig, ax = m.categorical(
         AUTHORITY_TYPE,
         color_map,
@@ -109,7 +109,7 @@ def map_home_rule():
         "Dillon": HATCH["dillon"],
     }
 
-    m = BaseUSMap(title="Home Rule vs. Dillon's Rule")
+    m = BaseUSMap(title="Home Rule vs. Dillon's Rule\nHistorical paper classification (April 2026 edition)")
     fig, ax = m.categorical(
         HOME_RULE_TYPE,
         color_map,
@@ -125,35 +125,13 @@ def map_home_rule():
 # Map 5: Sector Composition by State
 # ============================================================================
 
-def recorded_sector_inputs(inv):
-    """Count recorded sector arrays; prose and missing values never imply data centers."""
-    labels = {"data_center": "Data Center", "cryptocurrency_mining": "Crypto",
-              "battery_storage": "BESS", "solar": "Solar", "wind": "Wind", "general": "Other"}
-    counts = {}
-    for _, row in inv.iterrows():
-        values = json.loads(row["sectors"])
-        if not isinstance(values, list) or any(not isinstance(v, str) or v not in labels for v in values):
-            raise ValueError("Invalid recorded sector array")
-        for sector in {labels[v] for v in values} or {"Unknown"}:
-            key = (row["state_abbrev"], sector)
-            counts[key] = counts.get(key, 0) + 1
-    frame = pd.DataFrame([{"state_abbrev": state, "sector": sector, "count": count}
-                          for (state, sector), count in sorted(counts.items())],
-                         columns=["state_abbrev", "sector", "count"])
-    dominant = {}
-    for state, group in frame.groupby("state_abbrev"):
-        winners = group[group["count"] == group["count"].max()]["sector"].tolist()
-        dominant[state] = winners[0] if len(winners) == 1 else "Mixed"
-    return frame, dominant
-
-
 def map_sector_composition():
     """Map showing sector breakdown of moratoria per state."""
     print("Map 5: Sector Composition")
 
     inv = load_moratorium_inventory()
 
-    sector_counts, dominant_map = recorded_sector_inputs(inv)
+    sector_counts, dominant_map = recorded_sector_inputs(inv.to_dict("records"))
 
     sector_colors = {
         "Data Center": PALETTE["data_center"],
@@ -219,7 +197,7 @@ def map_statutory_duration():
     # Convert days to months for readability
     duration_months = {k: v / 30.44 for k, v in STATUTORY_DURATION_DAYS.items()}
 
-    m = BaseUSMap(title="Maximum Statutory Moratorium Duration")
+    m = BaseUSMap(title="Maximum Statutory Moratorium Duration\nHistorical paper classification (April 2026 edition)")
     fig, ax = m.choropleth(
         duration_months,
         cmap=PALETTE["sequential"],
@@ -328,7 +306,7 @@ def map_preemption():
         "None": HATCH["no_preemption"],
     }
 
-    m = BaseUSMap(title="State Preemption of Local Moratorium Authority")
+    m = BaseUSMap(title="State Preemption of Local Moratorium Authority\nHistorical paper classification (April 2026 edition)")
     fig, ax = m.categorical(
         preemption_full,
         color_map,

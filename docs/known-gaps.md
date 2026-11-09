@@ -5,20 +5,25 @@ record-level observations and `[VERIFY]` markers identify unresolved work.
 
 ## What we know we don't have
 
-### Complete record-level freshness acceptance
+### Record review and current-force limits
 
-All original collection jobs finished, but collection completion does not establish
-complete fresh review of the current 1,330 local and 447 state-policy records.
-The [field ledger](../work/audit/refresh-field-accounting-2026-11-07.md) separates
-returned outcomes and logged edits. Two November 7 full-table index drafts matched
-every ID and row hash in their then-current snapshots, but did not independently adjudicate source authority,
-supported status dates or complete field coverage. They were [not accepted as a
-freshness funnel](../work/audit/freshness-index-review-2026-11-07.json). Their generic
-next actions and text-match review pointers cannot justify confirmed-unchanged,
-corrected-freshness, source-unavailable or not-attempted counts. Earlier scoped
-source reviews remain valid within their stated limits; this audit does not erase
-them or make all underlying records unresearched. Complete substantive reconciliation
-and the plan's disjoint freshness dispositions remain open.
+All 1,777 raw IDs now have primary and independent review artifacts. These are
+the current 1,330 local and 447 state-policy records. The
+[full-inventory application](../work/research/2026-11-08/full-inventory-integrated-application/README.md)
+records exact corrections, zero pending cells in the remaining-cohort queue and
+full repository consistency checks. Those facts do not establish complete discovery,
+universal legal force or absence of later unreviewed actions. Per-record source
+questions and actual observation dates remain explicit; the [full disposition funnel](../work/research/2026-11-08/full-record-dispositions/README.md)
+retains source-review scope rather than inventing renewed force dates.
+
+The earlier November 7 [field ledger](../work/audit/refresh-field-accounting-2026-11-07.md)
+and two full-table index drafts retain their historical states. Matching every ID
+and row hash did not make those drafts a substantive freshness funnel; their
+[rejection](../work/audit/freshness-index-review-2026-11-07.json) remains valid.
+The later primary/independent review and coordinator application are separate evidence,
+not a retrospective approval of the old generic index. Dated checkpoints below keep
+their original unresolved questions and counts; use the latest applied rows and
+current accounting before repeating an old worklist.
 
 Separate [Alabama source adjudication](../work/research/2026-11-07/alabama-source-adjudication/README.md)
 now records eight unresolved-with-scoped-support dispositions and targeted field
@@ -27,7 +32,7 @@ make the full-table index drafts accepted or renew current-force dates.
 
 The [California original-term review](../work/research/2026-11-07/california-original-term-review/README.md)
 supports existing descriptive 45-day fields for Gilroy and City of Angels. That
-review checkpoint retained 219 original-term requirements; the [successor queue](../work/research/2026-11-07/original-term-eight-source-adjudication/remaining-original-term-requirements.json) now retains 217. Exact enacted
+November 7 review checkpoint retained 219 original-term requirements; its dated [successor queue](../work/research/2026-11-07/original-term-eight-source-adjudication/remaining-original-term-requirements.json) retained 217 at that checkpoint; this is not the current pending-count funnel. Exact enacted
 wording, finality, effectiveness and current-force questions remain separate
 open work, including explicit followups for those two supported day counts.
 It is not whole-record confirmation.

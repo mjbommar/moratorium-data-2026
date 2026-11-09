@@ -3,16 +3,16 @@
 Work from a pinned commit and retain the cohort cutoff separately from the date
 of an individual source review. Research jobs are not a substantive acceptance gate.
 
-The latest working publication selects [profile 1.0.4](policy-succession-contract.md): ten retained historical events, two restriction records, and 53 measure/proposal records (49 voted, three scheduled or called, one litigated) with 57 retained/50 current results and five current certified observations. Full freshness and final release remain open. Dated checkpoints below retain their historical counts and test results; use the authenticated publication and generated views for current totals.
+The latest working publication selects [profile 1.0.4](policy-succession-contract.md): ten retained historical events, two restriction records, and 57 measure/proposal records (52 voted, three scheduled, one litigated and one unknown), with 64 retained results and 53 current observations across 52 measures. Five current observations are certified. All 1,777 raw records have primary and independent review artifacts and the reviewed correction queue is applied; source-specific legal-force questions, experimental quality and final release remain open. [Current ballot accounting](../work/research/2026-11-08/ballot-current-accounting/README.md) distinguishes mapped and held payloads. Dated checkpoints below retain their historical counts and test results.
 
 ## Due work
 
 Run the ballot worklist without network or model calls:
 
 ```sh
-python3 scripts/build_ballot_due_work.py --today 2026-11-06 \
-  --output work/audit/ballot-due-work-2026-11-06.json
-python3 scripts/build_worklist.py --today 2026-11-06 --pretty
+python3 scripts/build_ballot_due_work.py --today 2026-11-08 \
+  --output work/audit/ballot-due-work-2026-11-08.json
+python3 scripts/build_worklist.py --today 2026-11-08 --pretty
 ```
 
 Ballot rules use exact election days only. The default qualification lead is 30
@@ -24,8 +24,7 @@ review; no outcome or operative law is inferred. Re-running this report does not
 mark a task completed or renew source dates. Resolve tasks through evidence review
 and canonical correction/publication, then regenerate from the new snapshot.
 
-The five frozen candidates outside canonical records remain in the current ballot disposition
-ledger. The legacy worklist handles expiry, unknown extension anchors, stale pending
+Three frozen candidate payloads remain held; Augusta’s canonical notice-only record has uncertain correspondence with one of them, so held payloads are not disjoint additional contests. Use the current ballot accounting linked above; older disposition ledgers retain their own dated states. The legacy worklist handles expiry, unknown extension anchors, stale pending
 records and verification markers. Its date alerts are research prompts: verify the
 actual effective-date anchor, calendar term and later actions before changing status.
 

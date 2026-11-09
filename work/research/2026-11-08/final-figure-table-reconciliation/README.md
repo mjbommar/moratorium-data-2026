@@ -22,3 +22,5 @@ The archive selector now includes the public figures, tables, associated generat
 code and dated release notes. A subsequent prepared package must bind this commit;
 the earlier prepared asset hashes are historical preparation only. Final publication
 and the explicit experimental gate decision remain open.
+
+The four retained legal-classification maps are also re-rendered to embed the **April 2026 historical edition** notice directly in each image. Classification inputs are unchanged; the preemption image was visually checked. All 21 figure files, source boundary files and rendering versions are fingerprinted. The sector-input helper is independent of optional plotting libraries; its two regressions pass in the normal repository environment, and all real-row counts/fills match the rendered version.

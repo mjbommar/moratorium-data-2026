@@ -31,7 +31,10 @@ Verification flags increased because unsupported certainty was made explicit.
 All **1,777 raw records** have primary and independent review artifacts. The earlier
 225-record priority cohort and remaining 1,552 records are disjoint and exhaust the
 raw population. All 119 targeted source follow-ups returned. The remaining-cohort
-compiled queue has zero pending cells after coordinator application. Genuine
+compiled queue has zero pending cells after coordinator application. The full
+[disposition funnel](../work/research/2026-11-08/full-record-dispositions/README.md) retains
+1,501 bounded unresolved records, 95 corrected-resolved, 180 confirmed-unchanged,
+one superseded duplicate and zero not-attempted. Genuine
 unknown facts and unperformed exhaustive later-force checks remain disclosed;
 review coverage is not a universal current-law certification.
 
@@ -94,8 +97,8 @@ All seven table generators were rerun. Sector and recorded-date tables changed; 
 
 Full `make check` passes at the applied source: zero legacy errors, 619 retained
 warnings, all retained expanded publication history, identity, ballot/CSV and source
-tracking checks. The applied-source check covered 79 documented numbers; an added
-README unknown-stage assertion brings the current copy check to 80 passing claims.
+tracking checks. The applied-source check covered 79 documented numbers; additional
+current-surface assertions bring the current copy check to 95 passing claims.
 Eight selected hosted outputs match source `51352fd` byte for byte. Consumer input
 verification authenticates 1,627 files/symlinks and three source checks; all staged
 bytes and modes match. These are bounded consistency and delivery findings.

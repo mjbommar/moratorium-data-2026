@@ -5,9 +5,9 @@ The generators in this package read `data/moratorium_inventory.csv` and
 tables in `tables/`. They replace what was previously a manual edit pass after
 every data refresh.
 
-Sector classification is intentionally identical to the logic used by
-`src/moratorium_maps/maps.py::map_sector_composition` so that the maps and
-tables agree on which row counts as which sector.
+Current inventory and sector-table generators use normalized recorded sector
+arrays, matching the data-map inputs. The legacy prose-classification helper is
+retained for historical compatibility; it must not override recorded arrays.
 """
 
 from __future__ import annotations

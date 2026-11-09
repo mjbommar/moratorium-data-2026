@@ -10,7 +10,7 @@ A list of every local-government moratorium we could identify in the United Stat
 - **Solar farms** (utility-scale)
 - **Wind farms** (utility-scale)
 
-The legacy inventory aims for one local moratorium instrument per row, including adopted and proposed actions. Some combined identities still need reconciliation. The working cohort cutoff is November 5, 2026, but source dates vary by record. Searches across all states do not establish complete coverage, including for the previously searched May–July window. Ballot measures are a separate layer.
+The legacy inventory aims for one local moratorium instrument per row, including adopted and proposed actions. Some combined identities still need reconciliation. The reviewed event cutoff is November 7, 2026 at 13:38:39.877065 UTC; source capture dates vary and later captures retain their actual timestamps. Searches across all states do not establish complete coverage, including for the previously searched May–July window. Ballot measures are a separate layer.
 
 ## What is a moratorium?
 
