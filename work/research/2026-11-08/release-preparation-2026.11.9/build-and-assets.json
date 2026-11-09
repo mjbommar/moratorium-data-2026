@@ -1,0 +1,61 @@
+{
+  "state": "prepared_pending_explicit_quality_gate_decision",
+  "source_commit": "0955a4c9e5239fc0d6bf4d7fb7e4e508ae0e58de",
+  "reviewed_data_commit": "51352fd5d7a19aea5a1dee929162e143c2ca13d9",
+  "deterministic": true,
+  "manifest_sha256": "c1669a86d00355822c90ce8bcd53914a41e5ea896984c45655c1f2de4dbc7418",
+  "members": 1628,
+  "figure_files": 21,
+  "assets": {
+    "ballot_measures.csv": {
+      "bytes": 56715,
+      "sha256": "e9b6e39c60aba87efcbe3117d02f491cfa1c7ff189299afd5a4739148af3cb6d"
+    },
+    "manifest.json": {
+      "bytes": 412857,
+      "sha256": "c1669a86d00355822c90ce8bcd53914a41e5ea896984c45655c1f2de4dbc7418"
+    },
+    "measure_results_current.csv": {
+      "bytes": 96641,
+      "sha256": "3ac9a7db9ba9bc98b58f1703628bb4adf50280636b566e59a490ae080b5aeb58"
+    },
+    "moratorium-data-2026.11.9.tar.gz": {
+      "bytes": 53922073,
+      "sha256": "4f3796a705941f321a6b544f04a1f487cfb504df31e0b8c94002b31a94ca3108"
+    },
+    "moratorium_inventory.csv": {
+      "bytes": 1816794,
+      "sha256": "329a0340971a1011a2322f3d59bd93f107064d42c7c5704b548e79963ab43597"
+    },
+    "release_metadata.json": {
+      "bytes": 1765,
+      "sha256": "581d67cd31984ebdc4ed3432b001ad909d165abeac9e7a38a18d72d9f5bfdc60"
+    },
+    "state_legislation.csv": {
+      "bytes": 329165,
+      "sha256": "e99ab1770f78f46414a819415b6c90611fb33f890900d435ac5a041ac5427faf"
+    },
+    "state_policy_reviewed_included.csv": {
+      "bytes": 297703,
+      "sha256": "6e298ff67dab1d9384ddb96a4b816c0e8665d62dde844b486ccc9d12401286e6"
+    },
+    "summary_stats.json": {
+      "bytes": 15337,
+      "sha256": "4d87e5f1bd160b5115e223d558ac770ff749e26b9a6be070e619a2a59d96be9f"
+    },
+    "SHA256SUMS": {
+      "bytes": 812,
+      "sha256": "1339ad9fdf0a61567399da3ab26ef728d59ea4055556b3a013bc4ef1a007ce5b"
+    }
+  },
+  "direct_data_source_paths": {
+    "moratorium_inventory.csv": "data/moratorium_inventory.csv",
+    "state_legislation.csv": "data/state_legislation.csv",
+    "summary_stats.json": "data/summary_stats.json",
+    "release_metadata.json": "data/release_metadata.json",
+    "ballot_measures.csv": "data/expanded-csv/ballot_measures.csv",
+    "measure_results_current.csv": "data/expanded-csv/measure_results_current.csv",
+    "state_policy_reviewed_included.csv": "data/policy-scope/reviewed-included.csv"
+  },
+  "notes_and_full_dispositions_included": true
+}
