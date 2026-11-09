@@ -1,0 +1,46 @@
+{
+  "admitted_at": "2026-11-09T19:58:39.842528+00:00",
+  "authorization_basis": "User standing objective: publish current state with qualifications on pending QA, then continue to double check and clear outstanding questions. This is a concrete source-only followup, without expensive/model/search work.",
+  "source_commit": "7a60b4b7a343ad221b2152d432310a321df584ab",
+  "target_record_ids": [
+    "ne-lb1111-2026"
+  ],
+  "questions": [
+    "Inspect actual AM2422 text against the already retained introduced/enacted comparison and official amendment history.",
+    "Recover the official PRB minutes underlying the inherited removal claim; preserve uncertainty if no responsive body is recovered."
+  ],
+  "initial_targets": [
+    {
+      "url": "https://nebraskalegislature.gov/FloorDocs/109/PDF/AM/AM2422.pdf",
+      "basis": "Exact href present in retained official LB1010 page."
+    },
+    {
+      "url": "https://prb.nebraska.gov/",
+      "basis": "Official agency source for the named PRB-minutes question; follow observed meeting/archive links only."
+    }
+  ],
+  "caps": {
+    "exa": 0,
+    "serpapi": 0,
+    "googlenews": 0,
+    "gdelt": 0,
+    "search_total": 0,
+    "fetch": 12
+  },
+  "mode": "HTTP only; no browser, paid search, model calls, nationwide discovery or outreach.",
+  "prior_batch": {
+    "path_label": "nationwide-authority-recovery-2026-11-08",
+    "reserved_fetches": 500,
+    "fetch_cap": 500,
+    "ledger_sha256": "26f80a5e913670ab3e4cf9cddbabe7f7cf2119a45bd27eeb37c77c8e86439d79",
+    "config_sha256": "dda5f02b5a60ff4c39195444d7ef8667784264419bc36c64d39de8c2b1e995b9",
+    "disposition": "Frozen; no reset, silent extension or reuse beyond its cap."
+  },
+  "maximum_cumulative_direct_fetches_across_these_two_phases": 512,
+  "client_config_sha256": "75c9b6edfdc74191ca262697f9fa5511f4a7e9f7f196a97962341db2879ca2ee",
+  "stop_conditions": [
+    "Stop this phase at twelve reserved retrievals, including failed requests.",
+    "Do not promote unsupported closure; keep original observation clocks and exact source/row guards.",
+    "Do not expand targets or enable paid providers automatically."
+  ]
+}

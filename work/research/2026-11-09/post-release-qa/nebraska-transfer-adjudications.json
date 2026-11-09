@@ -3,11 +3,20 @@
     {
       "id": "ne-lb1111-2026",
       "recommendation": "unresolved",
-      "current_row_sha256": "718a29d08c45b01981772d5c70b161206eaea7fc66fa71655bfb18b3219a682e",
+      "current_row_sha256": "0f89c590dcd3e34d21dac7c555678b00e199440a6a9bad11e71d0f7d9161e2ff",
       "prior_row_sha256": "f0d82ed5d23eb015bfb8a17975900558311937009e184b43ef0c17e8aacc84d5",
       "remaining_questions": [
-        "Recover and inspect the underlying PRB minutes supporting the inherited account of committee removal. Direct introduced/enacted comparison establishes textual differences, not the minutes\u2019 contents or the reason for removal.",
-        "Obtain and review the actual AM2422 version and adoption chronology to establish the intermediary transfer path; the April 17 portions-entry date is not an amendment-adoption date."
+        "The recovered March 20 PRB minutes establish removal of the proposed PRB annual report but do not establish why it was removed; do not attribute the separate ESR discussion to this reporting change."
+      ],
+      "row_guard_rebinding": {
+        "before_sha256": "718a29d08c45b01981772d5c70b161206eaea7fc66fa71655bfb18b3219a682e",
+        "after_sha256": "0f89c590dcd3e34d21dac7c555678b00e199440a6a9bad11e71d0f7d9161e2ff",
+        "application": "nebraska-am2422-field-application.json",
+        "scope": "Preserve earlier source findings; new amendment/minutes findings supersede the old recovery questions."
+      },
+      "resolved_questions": [
+        "Actual PRB minutes and removal attribution recovered.",
+        "Actual AM2422 inspected; filed March 6 and adopted March 12, distinct from April 17 portions entry."
       ]
     },
     {
@@ -23,5 +32,6 @@
   ],
   "whole_record_closures": 0,
   "new_network_acquisitions": 0,
-  "resolved_scope": "Direct data-center-clause comparison and retained section-specific effective-date observation; intermediary amendment/PRB explanations remain unverified."
+  "resolved_scope": "Direct introduced/enacted comparison; subsequent AM2422 and PRB source recovery establishes removal attribution and March 12 adoption. Reason for removal and LB1010 act-wide legal-force questions remain unresolved.",
+  "subsequent_source_review": "nebraska-am2422-prb-findings.json"
 }

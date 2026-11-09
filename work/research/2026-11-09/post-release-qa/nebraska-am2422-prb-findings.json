@@ -1,0 +1,63 @@
+{
+  "record_id": "ne-lb1111-2026",
+  "reviewer": "root; direct source inspection, including rendered amendment pages 17 and 18",
+  "current_row_sha256": "0f89c590dcd3e34d21dac7c555678b00e199440a6a9bad11e71d0f7d9161e2ff",
+  "sources": [
+    {
+      "attempt_id": "3b2df4453b574794a77c97f740135d32",
+      "url": "https://nebraskalegislature.gov/FloorDocs/109/PDF/AM/AM2422.pdf",
+      "status": 200,
+      "ok": true,
+      "body_sha256": "67703072fa1172c7a0853186f3a4f41cac7a433e382c7996f9b2b4d5ccf4789d",
+      "text_sha256": "ad6f9939c8bd4899827c84635635f9d367e7062fdc19decc4f850924d92612a2",
+      "body_observed_at": "2026-11-09T19:58:41.385633Z"
+    },
+    {
+      "attempt_id": "c52af423d8f7489f882ba5a3871eba16",
+      "url": "https://powerreview.nebraska.gov/minutes-march-20-2026-meeting",
+      "status": 200,
+      "ok": true,
+      "body_sha256": "cea0930ab6979c3ef4b0975ccef977a62e954373e0173ba4b294ef5fa122e182",
+      "text_sha256": "73d660d4ba47ca0de508d3eba6768c094c77f17ceebe423dfc4666da9a6983e5",
+      "body_observed_at": "2026-11-09T20:03:27.736603Z"
+    }
+  ],
+  "findings": [
+    {
+      "source": "https://nebraskalegislature.gov/FloorDocs/109/PDF/AM/AM2422.pdf",
+      "locator": "AM2422 dated 03/03/2026, printed pages 17-18, section 11",
+      "finding": "Data center definition includes peak demand of ten megawatts or more. Proposed 70-1506(6) requires owner/operator annual report to DWEE and Natural Resources Committee by September 30; supplier cost terms are permissive may impose."
+    },
+    {
+      "source": "https://powerreview.nebraska.gov/minutes-march-20-2026-meeting",
+      "locator": "March 20 minutes, legislative update, paragraph beginning LB 1010",
+      "finding": "The minutes explicitly attribute removal of the annual data-center report to the PRB from LB1111 to the committee amendment. They discuss packaging LB1010, LB1111 and LB1064. Their subsequent discussion of developer disagreements concerns ESR requirements; it does not establish the reason for removing the data-center report."
+    },
+    {
+      "source": "https://nebraskalegislature.gov/bills/view_bill.php?DocumentID=63217",
+      "body_sha256": "3ca5fb949dc9a7a87522d8805b0f38571ba080fe8c285e351a45e1f748944f98",
+      "locator": "Retained action history, March 6 and March 12 entries; April 17 portions entry",
+      "finding": "AM2422 filed March 6 and adopted March 12, 2026. The April 17 portions entry is not the adoption date. The action history also records other amendments; AM2422 alone must not be represented as the final enacted text."
+    }
+  ],
+  "resolved_questions": [
+    "Underlying PRB minutes recovered and removal attribution verified.",
+    "Actual AM2422 version and its filing/adoption chronology inspected."
+  ],
+  "limitations": [
+    "No causal explanation for removal of the PRB report is established by these minutes.",
+    "Canonical prose and outstanding-question overlay integrated; causal explanation remains unresolved and no whole-record closure is claimed."
+  ],
+  "whole_record_closures": 0,
+  "canonical_status_changes": 0,
+  "fetch_reservations_used": 3,
+  "fetch_cap": 12,
+  "failed_retrievals": [
+    {
+      "url": "https://prb.nebraska.gov/",
+      "result": "DNS error; no inference about document existence"
+    }
+  ],
+  "discovery": "Free web search located the actual agency host and exact March 20 minutes URL; no paid provider APIs or model calls.",
+  "prior_row_sha256": "718a29d08c45b01981772d5c70b161206eaea7fc66fa71655bfb18b3219a682e"
+}

@@ -209,3 +209,7 @@ The [hosted verification](va-wy-hosted-verification.json) confirms six named pub
 ## Nebraska introduced/enacted comparison applied
 
 [Direct clause comparison](nebraska-transfer-comparison.md) distinguishes unthresholded/20-MW proposed classes, the enacted 10-MW data-center definition and separate greater-than-20-MW large-load class, report recipients and revised cost/decommissioning provisions. Two summaries clarify the comparison and retain July 18 only for compiled section 70-1506. Actual AM2422/PRB history and act-wide later-force questions stay open. Zero new acquisition, category change or whole-record closure.
+
+## Nebraska amendment and PRB minutes recovered
+
+[AM2422 and March 20 minutes](nebraska-am2422-prb-findings.md) now resolve the two document-recovery questions above. One canonical summary records March 12 amendment adoption and the PRB’s removal account. The reason for removing the PRB report remains unsupported; no whole-record closure or status change is claimed. Both new successful captures have exact native body/text readback verification.
