@@ -1,5 +1,7 @@
 # Changelog
 
+The [next 90-record batch](work/research/2026-11-08/full-inventory-next90-application/README.md) applies 143 material and six derived verification fields across 52 records. Six supported approvals move recorded classifications from pending to active: 1,085 active/extended, 72 pending, 172 past and one rejected proposal. Unknown force, effective dates and Dover’s conflicting index remain explicit. Verification-marked rows are 784. All IDs are retained; the full refresh remains in progress.
+
 The [first 105 additional-record review](work/research/2026-11-08/full-inventory-first105-application/README.md) applies 88 material cells and three derived verification fields across 43 records. Cromwell Application 26-25 is recorded as rejected following its September 24 denial: 78 pending and one rejected proposal remain, with 1,079 recorded active/extended and 172 past classifications. Verification-marked rows are 783. All 1,330 local and 447 policy IDs remain; unresolved authority and source dates are preserved. This is an applied increment, not full refresh completion.
 
 The [final cohort corrections](work/research/2026-11-08/freshness-225-final-corrections/README.md) apply 63 substantive cells and 36 verification fields across 54 records. Verification-marked rows are now 782, with 548 unflagged. All IDs and local classifications remain; source authority and conditional terms are explicit, and unverified South Carolina S 867 category becomes unknown. This completes the pending correction queue from the 225-record cohort.
@@ -192,10 +194,10 @@ These are inventory classifications, not independently renewed legal-force findi
 | Metric | Current |
 |---|---:|
 | Moratoria in the list | **1330** |
-| Classified active or extended | **1079** |
-| Pending or not yet effective | **78** |
+| Classified active or extended | **1085** |
+| Pending or not yet effective | **72** |
 | Ended (replaced, expired, or rescinded) | **172** |
-| Rows we still want to confirm (`[VERIFY]`) | **783** |
+| Rows we still want to confirm (`[VERIFY]`) | **784** |
 | States with at least one | **47** |
 
 At the earlier Alabama checkpoint, totals were 1,330 local records (1,079 active/extended classifications),

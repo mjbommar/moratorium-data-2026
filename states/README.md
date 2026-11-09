@@ -3,8 +3,8 @@
 
 _Working inventory generated November 8, 2026; record-level refresh remains incomplete. 1330 local moratorium records tracked across 47 states._
 
-- 🟢 **1079 classified as active or extended**
-- 🟡 **78 classified as pending**
+- 🟢 **1085 classified as active or extended**
+- 🟡 **72 classified as pending**
 - ⚪ **172 classified as past** (expired, replaced, or rescinded)
 - 🔴 **1 rejected proposals retained**
 
@@ -25,11 +25,11 @@ State-policy records, including bills, resolutions, precursor memos and binding 
 | [Tennessee](tennessee.md) | 46 | 38 | 6 | 2 | 0 |
 | [Washington](washington.md) | 43 | 30 | 0 | 13 | 0 |
 | [Wisconsin](wisconsin.md) | 41 | 40 | 1 | 0 | 0 |
-| [Florida](florida.md) | 35 | 28 | 6 | 1 | 0 |
+| [Florida](florida.md) | 35 | 31 | 3 | 1 | 0 |
 | [Indiana](indiana.md) | 35 | 24 | 4 | 7 | 0 |
 | [Kentucky](kentucky.md) | 35 | 31 | 2 | 2 | 0 |
 | [California](california.md) | 34 | 25 | 0 | 9 | 0 |
-| [Colorado](colorado.md) | 34 | 25 | 3 | 6 | 0 |
+| [Colorado](colorado.md) | 34 | 27 | 1 | 6 | 0 |
 | [Illinois](illinois.md) | 33 | 28 | 2 | 3 | 0 |
 | [Minnesota](minnesota.md) | 29 | 27 | 2 | 0 | 0 |
 | [Kansas](kansas.md) | 26 | 23 | 0 | 3 | 0 |
@@ -55,7 +55,7 @@ State-policy records, including bills, resolutions, precursor memos and binding 
 | [Idaho](idaho.md) | 4 | 2 | 1 | 1 | 0 |
 | [South Dakota](south-dakota.md) | 4 | 4 | 0 | 0 | 0 |
 | [Alaska](alaska.md) | 3 | 1 | 2 | 0 | 0 |
-| [Delaware](delaware.md) | 3 | 0 | 1 | 2 | 0 |
+| [Delaware](delaware.md) | 3 | 1 | 0 | 2 | 0 |
 | [Louisiana](louisiana.md) | 3 | 2 | 0 | 1 | 0 |
 | [Montana](montana.md) | 2 | 1 | 1 | 0 | 0 |
 | [New Hampshire](new-hampshire.md) | 2 | 2 | 0 | 0 | 0 |

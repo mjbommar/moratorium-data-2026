@@ -3,7 +3,7 @@
 
 Working inventory for Delaware, generated **November 8, 2026**. Record-level refresh and later-action review remain incomplete.
 
-**3 records** — 0 classified as active or extended, 1 classified as pending, 2 classified as past, 0 classified as rejected proposals.
+**3 records** — 1 classified as active or extended, 0 classified as pending, 2 classified as past, 0 classified as rejected proposals.
 
 These counts reflect inventory classifications and do not establish current enforceability.
 
@@ -11,7 +11,7 @@ State policy is tracked separately: **3 records** (3 typed bill rows) in [`state
 
 | Jurisdiction | Type | Enacted | Sectors | Recorded status |
 |---|---|---|---|---|
-| Dover | City | Unverified | data center | 🟡 Pending |
+| Dover | City | Unverified | data center | 🟢 Active |
 | Kent County | County | 2022-08-09 | solar | ⚪ Expired |
 | Kent County | County | Unverified | wind | ⚪ Expired |
 
@@ -20,7 +20,7 @@ State policy is tracked separately: **3 records** (3 typed bill rows) in [`state
 ### Dover
 
 - **Type:** City
-- **Recorded status:** 🟡 Pending
+- **Recorded status:** 🟢 Active
 - **Date enacted:** —
 - **Normalized date:** `—` (unverified)
 - **Duration:** 18 months from the ordinance's effective date, as drafted; the Council may extend by ordinance upon findings that additional study remains necessary. Not yet adopted as of 2026-09-23.
