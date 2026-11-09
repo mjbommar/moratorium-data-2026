@@ -4,7 +4,7 @@ Plan: [Research modernization and ballot-measure expansion](docs/research-and-ba
 
 ## Active: publish the current state with pending QA, then clear outstanding questions
 
-- [ ] Include the New Jersey four-cell chamber-history correction in the next authenticated consumer input handoff; V5 remains pinned to its earlier source. [Review](work/research/2026-11-09/post-release-qa/new-jersey-history-review.md).
+- [ ] Include the New Jersey eight-cell chamber-history/version correction in the next authenticated consumer input handoff; V5 remains pinned to its earlier source. [Review](work/research/2026-11-09/post-release-qa/new-jersey-history-review.md).
 
 
 - [x] Integrate the newly retained Massachusetts H 5175 energy package and Senate S 3166 reprint after provision-level comparison, guarded identity/scope accounting and generated-copy checks. Preserve proposed conference status and version differences; keep H 4144's study-order record separate. Independent QA remains open. [Evidence](work/research/2026-11-09/post-release-qa/massachusetts-energy-conference-evidence.json).

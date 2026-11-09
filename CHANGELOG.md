@@ -2,6 +2,8 @@
 
 ## Working QA after v2026.11.9.post1
 
+NewJersey A3966 first-reprint coverage/report terms and S4400 history are verified. A4769/S3639 introduced operative text matches, while official APIs list no identical-bill relationship; prose now distinguishes those findings. Four cells across two rows change; two scoped holds close:1,416 unresolved,134 corrected-resolved,226 confirmed-unchanged. No category changes. [Review](work/research/2026-11-09/post-release-qa/new-jersey-version-adjudications.json).
+
 NewJersey official API histories establish S4304 Senate passage38–0 on October22 and Assembly referral October29, correcting the paired A2774/S4304 category to passed_one_chamber while retaining separate proceedings. S4402 history is now explicit. Four cells across two rows change; six scoped holds close:1,418 unresolved,132 corrected-resolved,226 confirmed-unchanged. [Review](work/research/2026-11-09/post-release-qa/new-jersey-history-adjudications.json).
 
 Recovered Pennsylvania SB939 original PN1048 and amendment A02384, and refreshed its official history. The amended summary is confirmed; one scoped hold closes:1,424 unresolved,130 corrected-resolved,222 confirmed-unchanged. Drafting January30 and adoption February4 remain distinct; no canonical field or status-category changes. [Review](work/research/2026-11-09/post-release-qa/pennsylvania-sb939-adjudication.json).
