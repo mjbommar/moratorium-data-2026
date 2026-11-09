@@ -52,3 +52,9 @@ Two targeted HTTP fetches recovered the missing full Lavon syndicated report and
 [Ashland](ashland-followup-review.md) now records February 26 as a news-based weekday/publication inference, with normalized date marked `unverified`. WSAZ describes both six months and 180 days; the discrepancy and absent effective-date anchor prevent an inferred endpoint. Early termination remains open. Counts and recorded stages are unchanged.
 
 Both new bodies/texts are hash-checked and versioned in the existing private evidence archive; public receipts contain references and paraphrased findings. No broad discovery, paid search or model API trial was repeated. Immutable release assets remain unchanged.
+
+## Oliver official compilation follow-up
+
+The [independent follow-up](oliver-followup-review.md) verifies the county index → ordinance page → 122-page zoning compilation chain. The compilation has distinct cover-approval and internal effective-date statements and does not supply an executed Resolution 2025-02, recording or publication proof, or a defensible phase-two endpoint. The existing row already captures the actual May vote and conflicting term language, so **no canonical change** is warranted. The [bounded disposition](oliver-followup.json) preserves the precise remaining evidence needs; it does not infer termination from general zoning or absence of text matches.
+
+[Native source continuity](native-source-continuity.json) verifies all five post-release source versions (Lavon, Ashland and three Oliver documents) against their original capture timestamps and native payload readback. Bodies and texts remain private. These checks do not renew legal-force acceptance.

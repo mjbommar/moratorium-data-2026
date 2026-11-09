@@ -673,3 +673,5 @@ Exit: repeatable refresh with visible freshness, costs, failures and unresolved 
 - [ ] Continue material outstanding record questions from the full disposition ledger; do not repeat completed nationwide discovery.
 
 - [x] Recover full Lavon and Ashland news bodies through two targeted source fetches; independently adjudicate and apply seven further guarded fields, retaining unresolved chronology, term and current-force questions.
+
+- [x] Follow the official Oliver ordinance chain and independently review the 122-page compilation against May minutes; preserve no-change disposition and exact missing executed-resolution/recording/publication evidence. Verify native archive continuity for all five post-release source versions.
