@@ -1,0 +1,378 @@
+{
+  "scope": "Four named 2026 SD bill recorded failed-stage residuals; not current law or a universal absence-of-action finding.",
+  "reviewed_at_utc": "2026-11-09T16:59:36.678065+00:00",
+  "source_verification": {
+    "common_sources": [
+      {
+        "role": "general",
+        "url": "https://sdlegislature.gov/Session/General/71",
+        "body_sha256": "69dc1abaf487bd9c524edb7a59dc95adb3915ebe8dfba0f67546e33751c09276",
+        "text_sha256": "c92f187c8f5f07ca978f85705278bd3662c17a6b32289688c5beae5b90b4a136",
+        "body_observed_at": "2026-11-09T16:52:19.481971Z",
+        "locator": "2026 General Information session 71, direct document links",
+        "canonical_header": null
+      },
+      {
+        "role": "joint-rules",
+        "url": "https://mylrc.sdlegislature.gov/api/Documents/295722.pdf",
+        "body_sha256": "3808948826176a85e0986fbc0ea6004228c81b154af9f6171ab759bc1f35440a",
+        "text_sha256": "0310544bc8ee5dd60523eec53f769a56672087e0379f3c9da618411fcb235315",
+        "body_observed_at": "2026-11-09T16:52:58.795077Z",
+        "locator": "Joint Rules 7-17, 7-19, 7-19.1, 7-20 and 5-11, 5-11.1, 5-12, 5-13",
+        "canonical_header": "<https://mylrc.sdlegislature.gov/api/Documents/SessionRules/295722.pdf?Year=2026>; rel=\"canonical\""
+      },
+      {
+        "role": "senate-rules",
+        "url": "https://mylrc.sdlegislature.gov/api/Documents/295724.pdf",
+        "body_sha256": "e6aaddb330e7880cd3a15c2cde4f6b231170434654ad937bdfd9507f44cc673c",
+        "text_sha256": "cd8399233fb646d4f3eabb3c5be2fb8a51593a71e7c146550f252691e4e17b6f",
+        "body_observed_at": "2026-11-09T16:53:01.222572Z",
+        "locator": "Senate rules and chapter 5; joint reconsideration rules govern cited provisions",
+        "canonical_header": "<https://mylrc.sdlegislature.gov/api/Documents/SessionRules/295724.pdf?Year=2026>; rel=\"canonical\""
+      },
+      {
+        "role": "calendar",
+        "url": "https://mylrc.sdlegislature.gov/api/Documents/284593.pdf",
+        "body_sha256": "362f65d055fdd94be8a11cac55e47470f597f3fe551df73ac35c9656fe3ca01f",
+        "text_sha256": "02898a31974584350ec726f1eb65f15848070464963b543499bfe6944a9d7bd1",
+        "body_observed_at": "2026-11-09T16:52:56.298989Z",
+        "locator": "2026 101st session calendar, 38 legislative days",
+        "canonical_header": "<https://mylrc.sdlegislature.gov/api/Documents/SessionCalendar/284593.pdf?Year=2025>; rel=\"canonical\""
+      },
+      {
+        "role": "legislative-index",
+        "url": "https://mylrc.sdlegislature.gov/api/Documents/286219.pdf",
+        "body_sha256": "2f90cd15729d82b681967a62af2b9408e3001761c54c4be41b51b2fa38c302df",
+        "text_sha256": "839623feb2ba1d5c1f9f5fa79fb3eb6065cc515f5e9dfb75db09ea8573d31761",
+        "body_observed_at": "2026-11-09T16:53:13.432530Z",
+        "locator": "cover PDF pages 1\u20132; named entries PDF pages 66, 76, 93, 175",
+        "canonical_header": "<https://mylrc.sdlegislature.gov/api/Documents/LegislativeIndex/286219.pdf?Year=2026>; rel=\"canonical\""
+      }
+    ],
+    "index_layout_sha256": "ae47f641ca494e39521bdb78422f83c9fc1d5eef99ba009e038d7f531a2e9507",
+    "index_layout_method": "pdftotext -layout of retained PDF reproduced byte-for-byte; original extraction preserved",
+    "pdf_metadata": "Creation 2026-06-01 17:53:48 UTC; modified 17:54:34 UTC; 331 pages",
+    "prior_field_judgment": "work/research/2026-11-08/policy-scope-wave5-reconciliation/source-checks.json: relevant source proofs and decisions; terminal-residual-audit.json and sd-procedure-adjudications.json named records",
+    "prior_sponsor_review": "sibling independent/review.private.json"
+  },
+  "procedural_analysis": "Joint Rules 7-17 and 7-20 govern table and beyond-sine-die deferral; 7-19 permits majority of committee members-elect to recall/take from table subject to timing; 7-19.1 permits immediate consideration with two-thirds, including the specified deadline exception. Joint Rules 5-11, 5-11.1, 5-12 and 5-13 govern notice, motions, missed notice-giver deadline and final-seven-day exception. Silence does not establish which procedure occurred.",
+  "records": [
+    {
+      "id": "sd-hb-1005-2026",
+      "dataset": "state_policy",
+      "recommendation": "confirmed_unchanged",
+      "whole_record_closure_recommended": true,
+      "questions_cleared": [
+        "Named 2026 bill recorded failed-stage outcome, bounded to the final session index and formal procedural context.",
+        "Named sponsor identity and 2026 party confirmed by final session index bill and member entries, correlated with prior proposal field judgments."
+      ],
+      "questions_narrowed": [
+        "Final index lists no later action for this named bill; that is an index observation, not proof that no procedural exception was possible.",
+        "Sponsor field identifies the House prime, not the complete bill sponsor list; final index also names a Senate prime."
+      ],
+      "open_questions": [],
+      "separate_out_of_scope": [
+        "Successor instruments, present law/current force, and statewide aggregate activity are not evaluated and do not require a category change."
+      ],
+      "final_index_pdf_page": 93,
+      "source_evidence": [
+        {
+          "url": "https://sdlegislature.gov/Session/Bill/26317/291571",
+          "body_sha256": "003cc67e0dceb5d2f8457f99eb20d9699f0322e1e8c13703f9c550fe02939d79",
+          "text_sha256": "ac594a8e3d4ec3b7b8e9a3a8fcbd78f2657b894a5c6a6c9c2484774f9b251f08",
+          "locator": "introduced text sections 1-4",
+          "event_date": "2026 legislative session",
+          "acquired_at": "2026-11-06T00:19:08.923486Z",
+          "verified_retained_body_text": true
+        },
+        {
+          "url": "https://mylrc.sdlegislature.gov/api/Documents/299927.pdf",
+          "body_sha256": "5e9a29afdb696a9720c948b2f4a9d3f6d6ca45fc07ad222a4bcf0e37d5346d2d",
+          "text_sha256": "099906c11924a2550b480046c355f6bb164318aff45a0add0c7fbc30c8067a6f",
+          "locator": "House State Affairs minutes pages 1-3, final motion",
+          "event_date": "2026-02-04",
+          "acquired_at": "2026-11-06T00:19:19.611491Z",
+          "verified_retained_body_text": true
+        },
+        {
+          "url": "https://www.sdpb.org/politics/2026-02-04/house-committee-says-no-to-sales-tax-exemptions-for-data-centers",
+          "body_sha256": "cb2ba5ba6ac1a508aaacdc19e7fb9a461bb1f55b3a04bb71e75db381f1e13c1b",
+          "text_sha256": "1236a27965c06fc5cedf7dbca946f957b16ac28cb8636a7b75f30a976c571173",
+          "locator": "article, report of committee vote",
+          "event_date": "2026-02-04",
+          "acquired_at": "2026-11-06T00:19:21.400265Z",
+          "verified_retained_body_text": true
+        }
+      ],
+      "proposed_cells": [],
+      "member_party_evidence": {
+        "url": "https://mylrc.sdlegislature.gov/api/Documents/286219.pdf",
+        "body_sha256": "2f90cd15729d82b681967a62af2b9408e3001761c54c4be41b51b2fa38c302df",
+        "text_sha256": "839623feb2ba1d5c1f9f5fa79fb3eb6065cc515f5e9dfb75db09ea8573d31761",
+        "body_observed_at": "2026-11-09T16:53:13.432530Z",
+        "members": [
+          {
+            "name": "Kent Roe",
+            "party": "R",
+            "district": "04",
+            "pdf_page": 228,
+            "layout_line": 11762,
+            "bill_entry_pdf_page": 93,
+            "connection": "House prime sponsor; the bill entry also names Senator Crabtree as Senate prime sponsor; row is selective."
+          }
+        ],
+        "verification": "Verified in retained original extracted text and freshly extracted actual source PDF pages; index layout and original text hashes retained."
+      },
+      "closure_scope": "Named failed-bill record, prior reviewed proposal fields and stated sponsors/parties, with index-limited final recorded action; successor legislation, current law and aggregate activity are separate.",
+      "reviewed_before_row_sha256": "b2b5219a7087886a30e9a45a815e2efbfd33c689f632c9e444f7e936758ca102",
+      "current_row_sha256": "b2b5219a7087886a30e9a45a815e2efbfd33c689f632c9e444f7e936758ca102"
+    },
+    {
+      "id": "sd-hb-1301-2026",
+      "dataset": "state_policy",
+      "recommendation": "confirmed_unchanged",
+      "whole_record_closure_recommended": true,
+      "questions_cleared": [
+        "Named 2026 bill recorded failed-stage outcome, bounded to the final session index and formal procedural context.",
+        "Named sponsor identity and 2026 party confirmed by final session index bill and member entries, correlated with prior proposal field judgments."
+      ],
+      "questions_narrowed": [
+        "Final index lists no later action for this named bill; that is an index observation, not proof that no procedural exception was possible."
+      ],
+      "open_questions": [],
+      "separate_out_of_scope": [
+        "Successor instruments, present law/current force, and statewide aggregate activity are not evaluated and do not require a category change."
+      ],
+      "final_index_pdf_page": 175,
+      "source_evidence": [
+        {
+          "url": "https://sdlegislature.gov/Session/Bill/27287/301188",
+          "body_sha256": "ae5d687b4582e2776a55d1661bd21ba680b77a2b5bb01ec59dec4a90afb94554",
+          "text_sha256": "97583f4239287a058596c218cd3c8ac2fea0f9e467d770bb415c900f7c082df4",
+          "locator": "sections 1-8, particularly definition section 1 and moratorium section 8",
+          "event_date": "2026 legislative session",
+          "acquired_at": "2026-11-06T00:19:36.619832Z",
+          "verified_retained_body_text": true
+        },
+        {
+          "url": "https://www.sdpb.org/politics/2026-02-19/committee-kills-data-center-moratorium-bill",
+          "body_sha256": "4d9a02e2374b1d1cf4a0c76a7269936e4310ea314d342af6830e2cd58cd83e90",
+          "text_sha256": "9ac00c8965f49cd2dfcfbf53bc13b2f2a7b6027880937153558374c3e7a17a11",
+          "locator": "article headline, paragraphs 1-2 and final paragraph",
+          "event_date": "2026-02-19",
+          "acquired_at": "2026-11-06T00:19:37.825886Z",
+          "verified_retained_body_text": true
+        },
+        {
+          "url": "https://sdlegislature.gov/Session/Bill/27287",
+          "body_sha256": "5a4a15a06607d3933f519a58fc1332554a82be30cec34c833c52463cf6e65240",
+          "text_sha256": "5d3296d5c7d53cfe5a182c1b84bdeb8dc990d2d78bce1bd5de258b52824d9731",
+          "locator": "hit 1, action table; hit 2, vote 83872",
+          "event_date": "2026-02-18",
+          "acquired_at": "2026-11-06T00:19:15.157522+00:00",
+          "verified_retained_body_text": false,
+          "verification_note": "Prior audit citation retained for provenance; this capture was not found in searched SD source directories. Final index independently supplies the disposition."
+        }
+      ],
+      "proposed_cells": [],
+      "member_party_evidence": {
+        "url": "https://mylrc.sdlegislature.gov/api/Documents/286219.pdf",
+        "body_sha256": "2f90cd15729d82b681967a62af2b9408e3001761c54c4be41b51b2fa38c302df",
+        "text_sha256": "839623feb2ba1d5c1f9f5fa79fb3eb6065cc515f5e9dfb75db09ea8573d31761",
+        "body_observed_at": "2026-11-09T16:53:13.432530Z",
+        "members": [
+          {
+            "name": "Erin Healy",
+            "party": "D",
+            "district": "10",
+            "pdf_page": 216,
+            "layout_line": 11091,
+            "bill_entry_pdf_page": 175,
+            "connection": "House prime sponsor"
+          },
+          {
+            "name": "Liz Larson",
+            "party": "D",
+            "district": "10",
+            "pdf_page": 199,
+            "layout_line": 10231,
+            "bill_entry_pdf_page": 175,
+            "connection": "named Senate sponsor"
+          },
+          {
+            "name": "Erik Muckey",
+            "party": "D",
+            "district": "15",
+            "pdf_page": 222,
+            "layout_line": 11452,
+            "bill_entry_pdf_page": 175,
+            "connection": "named House sponsor"
+          }
+        ],
+        "verification": "Verified in retained original extracted text and freshly extracted actual source PDF pages; index layout and original text hashes retained."
+      },
+      "closure_scope": "Named failed-bill record, prior reviewed proposal fields and stated sponsors/parties, with index-limited final recorded action; successor legislation, current law and aggregate activity are separate.",
+      "reviewed_before_row_sha256": "8c714db4488e82a365e91b9f23b635782310cbc2e43e63dc07bd2e37840ec101",
+      "current_row_sha256": "8c714db4488e82a365e91b9f23b635782310cbc2e43e63dc07bd2e37840ec101"
+    },
+    {
+      "id": "sd-sb-193-2026",
+      "dataset": "state_policy",
+      "recommendation": "corrected_resolved",
+      "whole_record_closure_recommended": true,
+      "questions_cleared": [
+        "Named 2026 bill recorded failed-stage outcome, bounded to the final session index and formal procedural context.",
+        "Named sponsor identity and 2026 party confirmed by final session index bill and member entries, correlated with prior proposal field judgments."
+      ],
+      "questions_narrowed": [
+        "Final index lists no later action for this named bill; that is an index observation, not proof that no procedural exception was possible.",
+        "February 23 intent to reconsider remains recorded; no subsequent motion or missed deadline inferred."
+      ],
+      "open_questions": [],
+      "separate_out_of_scope": [
+        "Successor instruments, present law/current force, and statewide aggregate activity are not evaluated and do not require a category change."
+      ],
+      "final_index_pdf_page": 66,
+      "source_evidence": [
+        {
+          "url": "https://sdlegislature.gov/Session/Bill/26863",
+          "body_sha256": "953a11d15e1ae1700c874adf79d1bceb74beed48b9a87a5b628a5ee16ce0efc4",
+          "text_sha256": "ccea6a6a316fb3dc610b5e025c6fa125b92db882f5a615c3e1cf8582c247eca1",
+          "acquired_at": "2026-11-06T00:19:57.123538Z",
+          "acquisition_date": null,
+          "locator": "official action table, February 19-23",
+          "verified_retained_body_text": true
+        },
+        {
+          "url": "https://mylrc.sdlegislature.gov/api/Documents/304644.html",
+          "body_sha256": "fb7af223a16f7b83fc594b285eb890f73f6bb7cbad54cc0fb195c42c08b4d128",
+          "text_sha256": "27418b527615f70cdfa6c32b691c1b0f2f57485e82906e56a9177b107bf8fc51",
+          "acquired_at": "2026-11-06T00:21:25.304676Z",
+          "acquisition_date": null,
+          "locator": "amendment 193C, section 2; HTML underlining",
+          "verified_retained_body_text": true
+        },
+        {
+          "url": "https://sdlegislature.gov/Session/Bill/26863/299482",
+          "body_sha256": "0641b59154f1040845ebd7f9d43a6565f6c13c17165461a2233b936d17645ea0",
+          "text_sha256": "3434174705a903ee893ef84fb9448a39ff378229c43c96b456c48cdc68c415dd",
+          "acquired_at": "2026-11-06T00:21:23.892856Z",
+          "locator": "introduced SB 193 section 1",
+          "verified_retained_body_text": true
+        }
+      ],
+      "proposed_cells": [
+        {
+          "field": "status",
+          "old_value": "Passed Senate Commerce and Energy 5-3 on 2026-02-19; failed initial floor vote 17-17 on 2026-02-20; reconsidered and failed again (amended) 17-17 on 2026-02-23; intent to reconsider filed same day but never brought back to a vote (bill died).",
+          "new_value": "Passed Senate Commerce and Energy 5-3 on 2026-02-19; failed initial floor vote 17-17 on 2026-02-20; reconsidered and failed again (amended) 17-17 on 2026-02-23; intent to reconsider filed the same day. The final 2026 session index records no later action on the bill.",
+          "row_sha256_guard": "7c18cfa9c13c5f7d64fe2be34e43ef6e0d5e4fc30a9aaeb4f054c768b23e5229",
+          "reason": "Replace unqualified claim that it was never brought back with the final index observation; no inference of an unrecorded motion or missed deadline."
+        }
+      ],
+      "member_party_evidence": {
+        "url": "https://mylrc.sdlegislature.gov/api/Documents/286219.pdf",
+        "body_sha256": "2f90cd15729d82b681967a62af2b9408e3001761c54c4be41b51b2fa38c302df",
+        "text_sha256": "839623feb2ba1d5c1f9f5fa79fb3eb6065cc515f5e9dfb75db09ea8573d31761",
+        "body_observed_at": "2026-11-09T16:53:13.432530Z",
+        "members": [
+          {
+            "name": "Casey Crabtree",
+            "party": "R",
+            "district": "08",
+            "pdf_page": 192,
+            "layout_line": 9822,
+            "bill_entry_pdf_page": 66,
+            "connection": "Senate prime sponsor"
+          }
+        ],
+        "verification": "Verified in retained original extracted text and freshly extracted actual source PDF pages; index layout and original text hashes retained."
+      },
+      "closure_scope": "Named failed-bill record, prior reviewed proposal fields and stated sponsors/parties, with index-limited final recorded action; successor legislation, current law and aggregate activity are separate.",
+      "closure_condition": "Apply the separately proposed guarded status correction; until applied the unqualified never-brought-back phrase remains unsupported.",
+      "reviewed_before_row_sha256": "7c18cfa9c13c5f7d64fe2be34e43ef6e0d5e4fc30a9aaeb4f054c768b23e5229",
+      "current_row_sha256": "4eca7eafae0a500274dbcc69d585bdb1b9bcb2bef50966d17b9590056ed27b22"
+    },
+    {
+      "id": "sd-sb-232-2026",
+      "dataset": "state_policy",
+      "recommendation": "confirmed_unchanged",
+      "whole_record_closure_recommended": true,
+      "questions_cleared": [
+        "Named 2026 bill recorded failed-stage outcome, bounded to the final session index and formal procedural context.",
+        "Prime sponsor Howard full name and 2026 Republican party; prior introduced and adopted 232A proposal evidence."
+      ],
+      "questions_narrowed": [
+        "Final index lists no later action for this named bill; that is an index observation, not proof that no procedural exception was possible."
+      ],
+      "open_questions": [],
+      "separate_out_of_scope": [
+        "Successor instruments, present law/current force, and statewide aggregate activity are not evaluated and do not require a category change."
+      ],
+      "final_index_pdf_page": 76,
+      "source_evidence": [
+        {
+          "url": "https://sdlegislature.gov/Session/Bill/27269",
+          "body_sha256": "b67c5a8a6c77f3249b89ea1b9f9494f1c0d744dbab4d72aa3b42e96f14e71f7d",
+          "text_sha256": "46e089b55fcca003601cf6589fc82f3fb1c28e0d27879c6144a4108ac83a9a78",
+          "locator": "official action table, February 18",
+          "acquired_at": "2026-11-06T00:20:01.960188Z",
+          "verified_retained_body_text": true
+        },
+        {
+          "url": "https://sdlegislature.gov/Session/Bill/27269/301228",
+          "body_sha256": "7c85c3e7868090178c8443ed257f4837ed99d2f9370bc995f334053c8e6c85d8",
+          "text_sha256": "b629106fd3160db10aa1c3a61ffc79222ff8b786b6397c6caa801dafddb1f230",
+          "locator": "introduced section 1",
+          "acquired_at": "2026-11-06T00:20:14.916825Z",
+          "verified_retained_body_text": true
+        },
+        {
+          "url": "https://mylrc.sdlegislature.gov/api/Documents/301393.html",
+          "body_sha256": "13071a60aab36d94ae6cc341473bbc4071a9a2c1f5b3e21ec102098d3960add1",
+          "text_sha256": "8b32061cc0624b8811c839edf4c1a087a2886855cfb13f54f4c5c220bf2bd92d",
+          "locator": "amendment 232A, section 1; underlying HTML underline/strike markup",
+          "acquired_at": "2026-11-06T00:21:26.556062Z",
+          "verified_retained_body_text": true
+        },
+        {
+          "role": "newly captured profile",
+          "url": "https://sdlegislature.gov/Legislators/Profile/4763/Detail",
+          "final_url": "https://sdlegislature.gov/Legislators/Profile/4763/Detail",
+          "status": 200,
+          "observed_at_utc": "2026-11-09T16:49:33.844638Z",
+          "capture": "Pydoll headless, 3000 ms settle; from_cache false; revalidated false",
+          "body_sha256": "0e4044c8a81eb484d5136618cf85e0ed1559398dc8a5a3cd8a06b5b181c62d62",
+          "text_sha256": "d62a7202f7234e92202666711627312931d918348ce4a774f7d4f0dc6406a2d7",
+          "hashes_verified_against": "sibling howard.private.json",
+          "locators": [
+            "rendered text line 51: Senator Taffy Howard - 2026",
+            "rendered text line 57: Party: Republican"
+          ]
+        },
+        {
+          "role": "prior bill-to-profile linkage",
+          "url": "https://sdlegislature.gov/Session/Bill/27269",
+          "observed_at_utc": "2026-11-06T00:20:01.960188Z",
+          "body_sha256": "b67c5a8a6c77f3249b89ea1b9f9494f1c0d744dbab4d72aa3b42e96f14e71f7d",
+          "text_sha256": "46e089b55fcca003601cf6589fc82f3fb1c28e0d27879c6144a4108ac83a9a78",
+          "hashes_verified_against": "sd-procedure-adjudications.json",
+          "locator": "Rendered HTML Sponsors section: Senator Howard (prime), Howard anchor href https://sdlegislature.gov/Legislators/Profile/4763/Detail"
+        }
+      ],
+      "proposed_cells": [],
+      "reviewed_before_row_sha256": "c81bd9f1a4f9a2a85c299bfbc1916db166d9055e10b02cb3b3422e8296618469",
+      "current_row_sha256": "c81bd9f1a4f9a2a85c299bfbc1916db166d9055e10b02cb3b3422e8296618469"
+    }
+  ],
+  "supplemental_review": {
+    "reviewed_at_utc": "2026-11-09T16:59:36.678065+00:00",
+    "scope": "Five 2026 member-party headings in same final index; correlate with four specified bill entries, no change to original sources.",
+    "initial_artifacts": [
+      "report.initial.md",
+      "adjudications.initial.private.json",
+      "summary.initial.private.json"
+    ],
+    "result": "All four named record questions resolved within prior proposal-field and recorded disposition scope, subject to the guarded SB 193 wording correction."
+  }
+}

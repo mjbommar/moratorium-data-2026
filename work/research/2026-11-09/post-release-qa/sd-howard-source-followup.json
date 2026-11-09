@@ -1,5 +1,5 @@
 {
-  "scope": "Coordinator source check; no independent whole-record disposition or canonical cell promotion.",
+  "scope": "Coordinator source check followed by independent sponsor-and-party adjudication; no whole-record closure or canonical edits.",
   "record_id": "sd-sb-232-2026",
   "current_row_sha256": "c81bd9f1a4f9a2a85c299bfbc1916db166d9055e10b02cb3b3422e8296618469",
   "findings": [
@@ -7,7 +7,7 @@
       "source": 0,
       "locator": "Rendered heading and Party field",
       "observation": "Official session-specific profile 4763 identifies Senator Taffy Howard for 2026 and Party Republican, matching the current sponsor and party cells.",
-      "qualification": "Previously established bill-to-profile linkage is retained in sd-procedure-adjudications.json. Independent adjudication of this new profile capture remains pending."
+      "qualification": "Actual bill-to-profile linkage and rendered 2026 identity/party independently confirmed; see sd-howard-independent-review.json."
     },
     {
       "source": 1,
@@ -55,8 +55,9 @@
   "canonical_changes": 0,
   "disposition_changes": 0,
   "remaining_questions": [
-    "Independently adjudicate the newly captured sponsor profile.",
-    "Obtain authoritative terminal disposition or applicable final-session procedural evidence for SB 232; tabling alone permits reconsideration."
+    "Whether SB 232 ultimately died or was revived after the recorded tabling; retained history shows neither.",
+    "The existing failed_died and failed categorical cells remain unconfirmed pending terminal-disposition evidence; do not flip solely for lack of a current-law survey."
   ],
-  "residual_index": "Unchanged pending independent adjudication; 1495 record dispositions remain unresolved."
+  "residual_index": "Historical sponsor-only checkpoint; subsequent final-session review resolves the remaining named-bill disposition questions.",
+  "subsequent_review": "sd-session-adjudications.json"
 }

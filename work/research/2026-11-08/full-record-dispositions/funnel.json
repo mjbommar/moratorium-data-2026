@@ -1,9 +1,9 @@
 {
   "event_cutoff_utc": "2026-11-07T13:38:39.877065Z",
   "counts": {
-    "unresolved": 1495,
-    "corrected_resolved": 97,
-    "confirmed_unchanged": 183,
+    "unresolved": 1491,
+    "corrected_resolved": 98,
+    "confirmed_unchanged": 186,
     "superseded_duplicate": 0,
     "not_attempted": 0
   },
@@ -12,9 +12,9 @@
       "unresolved": 225
     },
     "remaining1552": {
-      "unresolved": 1270,
-      "corrected_resolved": 97,
-      "confirmed_unchanged": 183,
+      "unresolved": 1266,
+      "corrected_resolved": 98,
+      "confirmed_unchanged": 186,
       "superseded_duplicate": 0
     }
   },
@@ -31667,8 +31667,8 @@
     {
       "id": "sd-hb-1005-2026",
       "dataset": "state_policy",
-      "disposition": "unresolved",
-      "public_receipt_pointer": "work/research/2026-11-08/full-inventory-integrated-application/README.md",
+      "disposition": "confirmed_unchanged",
+      "public_receipt_pointer": "work/research/2026-11-09/post-release-qa/sd-session-adjudications.json",
       "residual_reference": {
         "dataset": "state_policy",
         "id": "sd-hb-1005-2026"
@@ -31684,7 +31684,7 @@
         "cb2ba5ba6ac1a508aaacdc19e7fb9a461bb1f55b3a04bb71e75db381f1e13c1b",
         "d84f9db57bf1f46c3462a769321de7dc75af743a3f36a919d0f3f439b4b68e29"
       ],
-      "post_release_question_review_pointer": "work/research/2026-11-09/post-release-qa/terminal-residual-audit.json"
+      "post_release_question_review_pointer": "work/research/2026-11-09/post-release-qa/sd-session-adjudications.json"
     },
     {
       "id": "sd-hb-1038-2026",
@@ -31748,8 +31748,8 @@
     {
       "id": "sd-hb-1301-2026",
       "dataset": "state_policy",
-      "disposition": "unresolved",
-      "public_receipt_pointer": "work/research/2026-11-08/full-inventory-integrated-application/README.md",
+      "disposition": "confirmed_unchanged",
+      "public_receipt_pointer": "work/research/2026-11-09/post-release-qa/sd-session-adjudications.json",
       "residual_reference": {
         "dataset": "state_policy",
         "id": "sd-hb-1301-2026"
@@ -31765,7 +31765,7 @@
         "ae5d687b4582e2776a55d1661bd21ba680b77a2b5bb01ec59dec4a90afb94554",
         "d84f9db57bf1f46c3462a769321de7dc75af743a3f36a919d0f3f439b4b68e29"
       ],
-      "post_release_question_review_pointer": "work/research/2026-11-09/post-release-qa/terminal-residual-audit.json"
+      "post_release_question_review_pointer": "work/research/2026-11-09/post-release-qa/sd-session-adjudications.json"
     },
     {
       "id": "sd-pennington-county-2024",
@@ -31880,8 +31880,8 @@
     {
       "id": "sd-sb-193-2026",
       "dataset": "state_policy",
-      "disposition": "unresolved",
-      "public_receipt_pointer": "work/research/2026-11-08/full-inventory-integrated-application/README.md",
+      "disposition": "corrected_resolved",
+      "public_receipt_pointer": "work/research/2026-11-09/post-release-qa/sd-session-adjudications.json",
       "residual_reference": {
         "dataset": "state_policy",
         "id": "sd-sb-193-2026"
@@ -31895,13 +31895,13 @@
         "d84f9db57bf1f46c3462a769321de7dc75af743a3f36a919d0f3f439b4b68e29",
         "fb7af223a16f7b83fc594b285eb890f73f6bb7cbad54cc0fb195c42c08b4d128"
       ],
-      "post_release_question_review_pointer": "work/research/2026-11-09/post-release-qa/terminal-residual-audit.json"
+      "post_release_question_review_pointer": "work/research/2026-11-09/post-release-qa/sd-session-adjudications.json"
     },
     {
       "id": "sd-sb-232-2026",
       "dataset": "state_policy",
-      "disposition": "unresolved",
-      "public_receipt_pointer": "work/research/2026-11-08/full-inventory-integrated-application/README.md",
+      "disposition": "confirmed_unchanged",
+      "public_receipt_pointer": "work/research/2026-11-09/post-release-qa/sd-session-adjudications.json",
       "residual_reference": {
         "dataset": "state_policy",
         "id": "sd-sb-232-2026"
@@ -31917,7 +31917,7 @@
         "b67c5a8a6c77f3249b89ea1b9f9494f1c0d744dbab4d72aa3b42e96f14e71f7d",
         "d84f9db57bf1f46c3462a769321de7dc75af743a3f36a919d0f3f439b4b68e29"
       ],
-      "post_release_question_review_pointer": "work/research/2026-11-09/post-release-qa/sd-procedure-adjudications.json"
+      "post_release_question_review_pointer": "work/research/2026-11-09/post-release-qa/sd-session-adjudications.json"
     },
     {
       "id": "sd-sb-234-2026",
@@ -37165,6 +37165,42 @@
       "reviewed_at": "2026-11-09T16:21:14.204937+00:00",
       "row_sha256": "827da77b1364cb3968dbcd55341b9e1f959f32980efec5bffa86a0228075bca2",
       "review_pointer": "work/research/2026-11-09/post-release-qa/sd-procedure-adjudications.json"
+    },
+    {
+      "id": "sd-hb-1005-2026",
+      "dataset": "state_policy",
+      "before": "unresolved",
+      "after": "confirmed_unchanged",
+      "row_sha256": "b2b5219a7087886a30e9a45a815e2efbfd33c689f632c9e444f7e936758ca102",
+      "review_pointer": "work/research/2026-11-09/post-release-qa/sd-session-adjudications.json",
+      "reviewed_at": "2026-11-09T17:00:51.774914+00:00"
+    },
+    {
+      "id": "sd-hb-1301-2026",
+      "dataset": "state_policy",
+      "before": "unresolved",
+      "after": "confirmed_unchanged",
+      "row_sha256": "8c714db4488e82a365e91b9f23b635782310cbc2e43e63dc07bd2e37840ec101",
+      "review_pointer": "work/research/2026-11-09/post-release-qa/sd-session-adjudications.json",
+      "reviewed_at": "2026-11-09T17:00:51.774926+00:00"
+    },
+    {
+      "id": "sd-sb-193-2026",
+      "dataset": "state_policy",
+      "before": "unresolved",
+      "after": "corrected_resolved",
+      "row_sha256": "4eca7eafae0a500274dbcc69d585bdb1b9bcb2bef50966d17b9590056ed27b22",
+      "review_pointer": "work/research/2026-11-09/post-release-qa/sd-session-adjudications.json",
+      "reviewed_at": "2026-11-09T17:00:51.774930+00:00"
+    },
+    {
+      "id": "sd-sb-232-2026",
+      "dataset": "state_policy",
+      "before": "unresolved",
+      "after": "confirmed_unchanged",
+      "row_sha256": "c81bd9f1a4f9a2a85c299bfbc1916db166d9055e10b02cb3b3422e8296618469",
+      "review_pointer": "work/research/2026-11-09/post-release-qa/sd-session-adjudications.json",
+      "reviewed_at": "2026-11-09T17:00:51.774932+00:00"
     }
   ]
 }

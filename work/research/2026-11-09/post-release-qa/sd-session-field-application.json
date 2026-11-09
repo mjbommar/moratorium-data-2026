@@ -1,0 +1,39 @@
+{
+  "applied_at": "2026-11-09T16:59:59.979789+00:00",
+  "substantive_cells": 1,
+  "derived_cells": 0,
+  "changed_cells": 1,
+  "changed_records": 1,
+  "csv_before_sha256": {
+    "local_inventory": "533bab9144db8cc57fe2280ba7165238031231583b2cee9d84f52f4344b1b4d2",
+    "state_policy": "36c05634b1a916780646af5327f0358525c036959c55319e42ebe5b8d2b29c40"
+  },
+  "csv_after_sha256": {
+    "local_inventory": "533bab9144db8cc57fe2280ba7165238031231583b2cee9d84f52f4344b1b4d2",
+    "state_policy": "c60c62db769614858239580e7af43d2e01038c6014b9715714c04cb257749077"
+  },
+  "scope_rebound_ids": [
+    "sd-sb-193-2026"
+  ],
+  "scope_registry_sha256": "28bc913ec9d26db5c017753422b12f1337fdcbdb36fcf3a5e4345c2ad8a7b21f",
+  "changes": [
+    {
+      "dataset": "state_policy",
+      "id": "sd-sb-193-2026",
+      "field": "status",
+      "before": "Passed Senate Commerce and Energy 5-3 on 2026-02-19; failed initial floor vote 17-17 on 2026-02-20; reconsidered and failed again (amended) 17-17 on 2026-02-23; intent to reconsider filed same day but never brought back to a vote (bill died).",
+      "after": "Passed Senate Commerce and Energy 5-3 on 2026-02-19; failed initial floor vote 17-17 on 2026-02-20; reconsidered and failed again (amended) 17-17 on 2026-02-23; intent to reconsider filed the same day. The final 2026 session index records no later action on the bill.",
+      "kind": "substantive"
+    }
+  ],
+  "verify_rows": 979,
+  "row_transitions": [
+    {
+      "dataset": "state_policy",
+      "id": "sd-sb-193-2026",
+      "before_sha256": "7c18cfa9c13c5f7d64fe2be34e43ef6e0d5e4fc30a9aaeb4f054c768b23e5229",
+      "after_sha256": "4eca7eafae0a500274dbcc69d585bdb1b9bcb2bef50966d17b9590056ed27b22"
+    }
+  ],
+  "scope": "Reviewed source observations, classification correction and explicit unresolved facts; all IDs retained. No current-law census asserted."
+}

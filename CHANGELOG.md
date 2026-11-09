@@ -8,6 +8,8 @@ Two recovered full news bodies support seven further guarded edits to the same L
 
 Further QA qualifies South Dakota SB 232’s recorded tabling, fills three official bill links, and resolves two recorded failed-stage questions with source-specific limits. Historical provenance and matching September PDF bytes establish the second Hampden entry as the same Ordinance 18; its row is retired with the permanent ID and original observation preserved. Current working counts differ from frozen v2026.11.9.
 
+Final-session QA clears four South Dakota named-bill questions and qualifies SB 193’s reconsideration narrative using the official final index and formal rules. No typed stage or headline total changes. See [applied review](work/research/2026-11-09/post-release-qa/README.md#final-session-review-applied).
+
 Current working snapshot: **1,328 local records**, **447 policy observations**, and **57 proposal/measure records** with **53 current result observations** (five certified).
 
 | Metric | Working QA after v2026.11.9 |

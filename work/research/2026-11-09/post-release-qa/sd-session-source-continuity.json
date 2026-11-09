@@ -1,0 +1,64 @@
+{
+  "scope": "Source continuity and coordinator inspection only; independent named-bill review is separate.",
+  "sources": [
+    {
+      "name": "general",
+      "url": "https://sdlegislature.gov/Session/General/71",
+      "status": 200,
+      "body_sha256": "69dc1abaf487bd9c524edb7a59dc95adb3915ebe8dfba0f67546e33751c09276",
+      "text_sha256": "c92f187c8f5f07ca978f85705278bd3662c17a6b32289688c5beae5b90b4a136",
+      "body_observed_at": "2026-11-09T16:52:19.481971Z"
+    },
+    {
+      "name": "calendar",
+      "url": "https://mylrc.sdlegislature.gov/api/Documents/284593.pdf",
+      "status": 200,
+      "body_sha256": "362f65d055fdd94be8a11cac55e47470f597f3fe551df73ac35c9656fe3ca01f",
+      "text_sha256": "02898a31974584350ec726f1eb65f15848070464963b543499bfe6944a9d7bd1",
+      "body_observed_at": "2026-11-09T16:52:56.298989Z"
+    },
+    {
+      "name": "joint-rules",
+      "url": "https://mylrc.sdlegislature.gov/api/Documents/295722.pdf",
+      "status": 200,
+      "body_sha256": "3808948826176a85e0986fbc0ea6004228c81b154af9f6171ab759bc1f35440a",
+      "text_sha256": "0310544bc8ee5dd60523eec53f769a56672087e0379f3c9da618411fcb235315",
+      "body_observed_at": "2026-11-09T16:52:58.795077Z"
+    },
+    {
+      "name": "senate-rules",
+      "url": "https://mylrc.sdlegislature.gov/api/Documents/295724.pdf",
+      "status": 200,
+      "body_sha256": "e6aaddb330e7880cd3a15c2cde4f6b231170434654ad937bdfd9507f44cc673c",
+      "text_sha256": "cd8399233fb646d4f3eabb3c5be2fb8a51593a71e7c146550f252691e4e17b6f",
+      "body_observed_at": "2026-11-09T16:53:01.222572Z"
+    },
+    {
+      "name": "legislative-index",
+      "url": "https://mylrc.sdlegislature.gov/api/Documents/286219.pdf",
+      "status": 200,
+      "body_sha256": "2f90cd15729d82b681967a62af2b9408e3001761c54c4be41b51b2fa38c302df",
+      "text_sha256": "839623feb2ba1d5c1f9f5fa79fb3eb6065cc515f5e9dfb75db09ea8573d31761",
+      "body_observed_at": "2026-11-09T16:53:13.432530Z"
+    }
+  ],
+  "native_verified_versions": 5,
+  "gaps": 0,
+  "observations": [
+    "Official rendered 2026 General Information session 71 links all four PDFs.",
+    "Legislative index identifies the 2026 session as concluded March 30.",
+    "Joint Rules 7-19 and 7-19.1 permit committee recall of tabled bills and deferrals beyond sine die; do not omit these exceptions.",
+    "The final index retains SB 193 second failed passage and intent to reconsider; no later reconsideration motion is invented."
+  ],
+  "derived_layout": {
+    "tool": "pdftotext -layout",
+    "sha256": "ae47f641ca494e39521bdb78422f83c9fc1d5eef99ba009e038d7f531a2e9507",
+    "purpose": "Reading aid; original source PDF and original extraction retained."
+  },
+  "automatic_disposition_promotions": 0,
+  "formal_rules_version_check": {
+    "joint_rules": "Official response Last-Modified January 20, 2026; PDF creation/modification January 20, 2026.",
+    "senate_rules": "Official response Last-Modified January 20, 2026; PDF creation/modification January 18, 2026.",
+    "qualification": "Versions linked by the rendered 2026 session page; no claim that no later amendments existed."
+  }
+}

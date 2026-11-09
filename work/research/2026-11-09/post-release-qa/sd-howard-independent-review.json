@@ -1,0 +1,45 @@
+{
+  "scope": "Independent sponsor and party question only; record and terminal disposition remain unresolved.",
+  "reviewed_at_utc": "2026-11-09T16:54:12.595387Z",
+  "record_id": "sd-sb-232-2026",
+  "dataset": "state_policy",
+  "row_guard": {
+    "matching_rows": 1,
+    "method": "SHA-256 of UTF-8 json.dumps(row, sort_keys=True, separators=(\",\",\":\"), ensure_ascii=False)",
+    "sha256": "c81bd9f1a4f9a2a85c299bfbc1916db166d9055e10b02cb3b3422e8296618469"
+  },
+  "conclusion": "confirmed_match",
+  "question_cleared": "Does the bill-linked 2026 profile establish the prime sponsor as Taffy Howard, Republican, matching Sen. Taffy Howard / R? Yes.",
+  "proposed_cell_edits": [],
+  "sources": [
+    {
+      "role": "newly captured profile",
+      "url": "https://sdlegislature.gov/Legislators/Profile/4763/Detail",
+      "final_url": "https://sdlegislature.gov/Legislators/Profile/4763/Detail",
+      "status": 200,
+      "observed_at_utc": "2026-11-09T16:49:33.844638Z",
+      "capture": "Pydoll headless, 3000 ms settle; from_cache false; revalidated false",
+      "body_sha256": "0e4044c8a81eb484d5136618cf85e0ed1559398dc8a5a3cd8a06b5b181c62d62",
+      "text_sha256": "d62a7202f7234e92202666711627312931d918348ce4a774f7d4f0dc6406a2d7",
+      "hashes_verified_against": "sibling howard.private.json",
+      "locators": [
+        "rendered text line 51: Senator Taffy Howard - 2026",
+        "rendered text line 57: Party: Republican"
+      ]
+    },
+    {
+      "role": "prior bill-to-profile linkage",
+      "url": "https://sdlegislature.gov/Session/Bill/27269",
+      "observed_at_utc": "2026-11-06T00:20:01.960188Z",
+      "body_sha256": "b67c5a8a6c77f3249b89ea1b9f9494f1c0d744dbab4d72aa3b42e96f14e71f7d",
+      "text_sha256": "46e089b55fcca003601cf6589fc82f3fb1c28e0d27879c6144a4108ac83a9a78",
+      "hashes_verified_against": "sd-procedure-adjudications.json",
+      "locator": "Rendered HTML Sponsors section: Senator Howard (prime), Howard anchor href https://sdlegislature.gov/Legislators/Profile/4763/Detail"
+    }
+  ],
+  "remaining_questions": [
+    "Whether SB 232 ultimately died or was revived after the recorded tabling; retained history shows neither.",
+    "The existing failed_died and failed categorical cells remain unconfirmed pending terminal-disposition evidence; do not flip solely for lack of a current-law survey."
+  ],
+  "qualification": "Profile establishes identity and 2026 party, not final bill disposition; no whole-record resolution is asserted."
+}
