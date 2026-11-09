@@ -1,5 +1,5 @@
 {
-  "scope": "Residual-accounting/source-question audit of 55 named terminal bills. A row fingerprint is a drift guard, not proof of all fields. No canonical cell changes. Accepted closure is bounded to the named record/source observations; other instruments and current law retain separate scope. Kentucky followup retains the prior guarded questions and rebinds five corrected records to their current rows.",
+  "scope": "Residual-accounting/source-question audit of 55 named terminal bills. A row fingerprint is a drift guard, not proof of all fields. No canonical cell changes. Accepted closure is bounded to the named record/source observations; other instruments and current law retain separate scope. Kentucky followup retains the prior guarded questions and rebinds five corrected records to their current rows. Oklahoma followup retains prior guarded questions and replaces unsupported terminal-event wording with explicit combined-record inference.",
   "review_artifact_sha256": {
     "part-01": "0310e0e89dc4e1f136d2b831144060014a06d5eeada41eb29346fa300ccd3388",
     "part-02": "ab788cc5f7d93196d082e56a8a18b09d395f81b89b9bc5bb43807accb94bafe7",
@@ -8,10 +8,10 @@
   },
   "counts": {
     "reviewed": 55,
-    "unresolved": 48,
+    "unresolved": 40,
     "confirmed_unchanged": 2,
-    "corrected_resolved": 5,
-    "canonical_field_changes": 7
+    "corrected_resolved": 13,
+    "canonical_field_changes": 15
   },
   "records": [
     {
@@ -914,12 +914,10 @@
     {
       "id": "ok-hb-3392-2026",
       "dataset": "state_policy",
-      "current_row_sha256": "356ad5669e8e558e8735eec17888f1b8b7d6cf08835099d403944c511d494dc3",
-      "recommendation": "unresolved",
-      "rationale": "History lists February 11 policy recommendation and coauthors; the March 3 substitute is explicitly proposed and March 4 is a summary. Introduced study and proposed substitute cooling are separate versions. Accepted prior scope decision matched row, identity and source hashes; reused only for census inclusion, not current force. Remaining in-scope question(s): What official bill-specific terminal disposition establishes the row\u2019s claimed death in committee, rather than only the last listed action and the session\u2019s end?",
-      "remaining_questions": [
-        "What official bill-specific terminal disposition establishes the row\u2019s claimed death in committee, rather than only the last listed action and the session\u2019s end?"
-      ],
+      "current_row_sha256": "3bffd2d75a9f395b0a5bdc3b16635098ba244c87260a09165440dbc4fad28b93",
+      "recommendation": "corrected_resolved",
+      "rationale": "Remove the unsupported assertion of a separately recorded death in committee. The corrected field distinguishes the actual last bill-specific action from the explicit nonpassage inference using both official second-session final journals.",
+      "remaining_questions": [],
       "separate_qualifications": [
         "A different successor instrument or general current regulatory framework requires separate identification; it is outside this named-bill disposition.",
         "Statewide activity level is a separate aggregate qualification; this audit makes no new per-bill activity finding.",
@@ -960,17 +958,27 @@
           "acquisition_date": "2026-11-06T00:08:35.872516Z"
         }
       ],
-      "review_part": "part-02"
+      "review_part": "part-02",
+      "prior_question_review": {
+        "current_row_sha256": "356ad5669e8e558e8735eec17888f1b8b7d6cf08835099d403944c511d494dc3",
+        "recommendation": "unresolved",
+        "rationale": "History lists February 11 policy recommendation and coauthors; the March 3 substitute is explicitly proposed and March 4 is a summary. Introduced study and proposed substitute cooling are separate versions. Accepted prior scope decision matched row, identity and source hashes; reused only for census inclusion, not current force. Remaining in-scope question(s): What official bill-specific terminal disposition establishes the row\u2019s claimed death in committee, rather than only the last listed action and the session\u2019s end?",
+        "remaining_questions": [
+          "What official bill-specific terminal disposition establishes the row\u2019s claimed death in committee, rather than only the last listed action and the session\u2019s end?"
+        ],
+        "coordinator_override": null
+      },
+      "coordinator_override": "Correct the source attribution and unsupported categorical terminal-event wording; preserve explicit inference and the actual last recorded action.",
+      "superseding_review_pointer": "work/research/2026-11-09/post-release-qa/oklahoma-adjudications.json",
+      "field_application_pointer": "work/research/2026-11-09/post-release-qa/oklahoma-field-application.json"
     },
     {
       "id": "ok-hb-3394-2026",
       "dataset": "state_policy",
-      "current_row_sha256": "bed8f02cf96fd202b10546e797080f8c7b6cb74eccb0ed78996bc3556a47506a",
-      "recommendation": "unresolved",
-      "rationale": "February 12 withdrawals and referrals appear in history; introduced sections identify the directory and reporting, without enacted force. Accepted prior scope decision matched row, identity and source hashes; reused only for census inclusion, not current force. Remaining in-scope question(s): What official bill-specific terminal disposition establishes the row\u2019s claimed death in committee, rather than only the last listed action and the session\u2019s end?",
-      "remaining_questions": [
-        "What official bill-specific terminal disposition establishes the row\u2019s claimed death in committee, rather than only the last listed action and the session\u2019s end?"
-      ],
+      "current_row_sha256": "b9d8edd908b0909dd58d492d43e7631ab44160abbb37ae797970e70a1a868ec2",
+      "recommendation": "corrected_resolved",
+      "rationale": "Remove the unsupported assertion of a separately recorded death in committee. The corrected field distinguishes the actual last bill-specific action from the explicit nonpassage inference using both official second-session final journals.",
+      "remaining_questions": [],
       "separate_qualifications": [
         "A different successor instrument or general current regulatory framework requires separate identification; it is outside this named-bill disposition.",
         "Statewide activity level is a separate aggregate qualification; this audit makes no new per-bill activity finding.",
@@ -1003,17 +1011,27 @@
           "acquisition_date": "2026-11-06T00:08:35.872516Z"
         }
       ],
-      "review_part": "part-02"
+      "review_part": "part-02",
+      "prior_question_review": {
+        "current_row_sha256": "bed8f02cf96fd202b10546e797080f8c7b6cb74eccb0ed78996bc3556a47506a",
+        "recommendation": "unresolved",
+        "rationale": "February 12 withdrawals and referrals appear in history; introduced sections identify the directory and reporting, without enacted force. Accepted prior scope decision matched row, identity and source hashes; reused only for census inclusion, not current force. Remaining in-scope question(s): What official bill-specific terminal disposition establishes the row\u2019s claimed death in committee, rather than only the last listed action and the session\u2019s end?",
+        "remaining_questions": [
+          "What official bill-specific terminal disposition establishes the row\u2019s claimed death in committee, rather than only the last listed action and the session\u2019s end?"
+        ],
+        "coordinator_override": null
+      },
+      "coordinator_override": "Correct the source attribution and unsupported categorical terminal-event wording; preserve explicit inference and the actual last recorded action.",
+      "superseding_review_pointer": "work/research/2026-11-09/post-release-qa/oklahoma-adjudications.json",
+      "field_application_pointer": "work/research/2026-11-09/post-release-qa/oklahoma-field-application.json"
     },
     {
       "id": "ok-hb-3397-2026",
       "dataset": "state_policy",
-      "current_row_sha256": "23e433002d07b67ccc7ed110bbc76e92ee7927082af10856458d7663eae290d7",
-      "recommendation": "unresolved",
-      "rationale": "February 3 Rules referral is last listed; introduced 20 MW/NAICS tariff and section expiration are proposals, not law. Accepted prior scope decision matched row, identity and source hashes; reused only for census inclusion, not current force. Remaining in-scope question(s): What official bill-specific terminal disposition establishes the row\u2019s claimed death in committee, rather than only the last listed action and the session\u2019s end?",
-      "remaining_questions": [
-        "What official bill-specific terminal disposition establishes the row\u2019s claimed death in committee, rather than only the last listed action and the session\u2019s end?"
-      ],
+      "current_row_sha256": "8a4f7c28b52dec8503dde944914d8b3443e559d22cc26512a4047b2c76cf6dfd",
+      "recommendation": "corrected_resolved",
+      "rationale": "Remove the unsupported assertion of a separately recorded death in committee. The corrected field distinguishes the actual last bill-specific action from the explicit nonpassage inference using both official second-session final journals.",
+      "remaining_questions": [],
       "separate_qualifications": [
         "A different successor instrument or general current regulatory framework requires separate identification; it is outside this named-bill disposition.",
         "Statewide activity level is a separate aggregate qualification; this audit makes no new per-bill activity finding.",
@@ -1046,17 +1064,27 @@
           "acquisition_date": "2026-11-06T00:08:35.872516Z"
         }
       ],
-      "review_part": "part-02"
+      "review_part": "part-02",
+      "prior_question_review": {
+        "current_row_sha256": "23e433002d07b67ccc7ed110bbc76e92ee7927082af10856458d7663eae290d7",
+        "recommendation": "unresolved",
+        "rationale": "February 3 Rules referral is last listed; introduced 20 MW/NAICS tariff and section expiration are proposals, not law. Accepted prior scope decision matched row, identity and source hashes; reused only for census inclusion, not current force. Remaining in-scope question(s): What official bill-specific terminal disposition establishes the row\u2019s claimed death in committee, rather than only the last listed action and the session\u2019s end?",
+        "remaining_questions": [
+          "What official bill-specific terminal disposition establishes the row\u2019s claimed death in committee, rather than only the last listed action and the session\u2019s end?"
+        ],
+        "coordinator_override": null
+      },
+      "coordinator_override": "Correct the source attribution and unsupported categorical terminal-event wording; preserve explicit inference and the actual last recorded action.",
+      "superseding_review_pointer": "work/research/2026-11-09/post-release-qa/oklahoma-adjudications.json",
+      "field_application_pointer": "work/research/2026-11-09/post-release-qa/oklahoma-field-application.json"
     },
     {
       "id": "ok-hb-4194-2026",
       "dataset": "state_policy",
-      "current_row_sha256": "2e73cb5fd9d76ad8c4ef765e39757e816c6677336f7e8920be24e85e7fe22117",
-      "recommendation": "unresolved",
-      "rationale": "History lists February 3 committee referrals; the introduced act covers financial assurance and 100 MW facilities, not an enacted requirement. Accepted prior scope decision matched row, identity and source hashes; reused only for census inclusion, not current force. Remaining in-scope question(s): What official bill-specific terminal disposition establishes the row\u2019s claimed death in committee, rather than only the last listed action and the session\u2019s end?",
-      "remaining_questions": [
-        "What official bill-specific terminal disposition establishes the row\u2019s claimed death in committee, rather than only the last listed action and the session\u2019s end?"
-      ],
+      "current_row_sha256": "4e6f77ffd8a1cb32a109e5be5b5f573b91d1fdbc36cd0d6904fcda4493d9181b",
+      "recommendation": "corrected_resolved",
+      "rationale": "Remove the unsupported assertion of a separately recorded death in committee. The corrected field distinguishes the actual last bill-specific action from the explicit nonpassage inference using both official second-session final journals.",
+      "remaining_questions": [],
       "separate_qualifications": [
         "A different successor instrument or general current regulatory framework requires separate identification; it is outside this named-bill disposition.",
         "Statewide activity level is a separate aggregate qualification; this audit makes no new per-bill activity finding.",
@@ -1089,17 +1117,27 @@
           "acquisition_date": "2026-11-06T00:08:35.872516Z"
         }
       ],
-      "review_part": "part-02"
+      "review_part": "part-02",
+      "prior_question_review": {
+        "current_row_sha256": "2e73cb5fd9d76ad8c4ef765e39757e816c6677336f7e8920be24e85e7fe22117",
+        "recommendation": "unresolved",
+        "rationale": "History lists February 3 committee referrals; the introduced act covers financial assurance and 100 MW facilities, not an enacted requirement. Accepted prior scope decision matched row, identity and source hashes; reused only for census inclusion, not current force. Remaining in-scope question(s): What official bill-specific terminal disposition establishes the row\u2019s claimed death in committee, rather than only the last listed action and the session\u2019s end?",
+        "remaining_questions": [
+          "What official bill-specific terminal disposition establishes the row\u2019s claimed death in committee, rather than only the last listed action and the session\u2019s end?"
+        ],
+        "coordinator_override": null
+      },
+      "coordinator_override": "Correct the source attribution and unsupported categorical terminal-event wording; preserve explicit inference and the actual last recorded action.",
+      "superseding_review_pointer": "work/research/2026-11-09/post-release-qa/oklahoma-adjudications.json",
+      "field_application_pointer": "work/research/2026-11-09/post-release-qa/oklahoma-field-application.json"
     },
     {
       "id": "ok-hb-4219-2026",
       "dataset": "state_policy",
-      "current_row_sha256": "4805bc58c7f889cec98e65d3a6bb3fb6863fee20e8a87ee1b8bbd03b94740ae6",
-      "recommendation": "unresolved",
-      "rationale": "February 9 referral is the last history action; the February 5 proposed substitute and February 13 summary are listed separately and do not prove adoption. Accepted prior scope decision matched row, identity and source hashes; reused only for census inclusion, not current force. Remaining in-scope question(s): What official bill-specific terminal disposition establishes the row\u2019s claimed death in committee, rather than only the last listed action and the session\u2019s end?",
-      "remaining_questions": [
-        "What official bill-specific terminal disposition establishes the row\u2019s claimed death in committee, rather than only the last listed action and the session\u2019s end?"
-      ],
+      "current_row_sha256": "bafb84742ac0363fa387f3605edf884b5188a6642f5a314bd8bc0022d314c150",
+      "recommendation": "corrected_resolved",
+      "rationale": "Remove the unsupported assertion of a separately recorded death in committee. The corrected field distinguishes the actual last bill-specific action from the explicit nonpassage inference using both official second-session final journals.",
+      "remaining_questions": [],
       "separate_qualifications": [
         "A different successor instrument or general current regulatory framework requires separate identification; it is outside this named-bill disposition.",
         "Statewide activity level is a separate aggregate qualification; this audit makes no new per-bill activity finding.",
@@ -1140,17 +1178,27 @@
           "acquisition_date": "2026-11-06T00:08:35.872516Z"
         }
       ],
-      "review_part": "part-02"
+      "review_part": "part-02",
+      "prior_question_review": {
+        "current_row_sha256": "4805bc58c7f889cec98e65d3a6bb3fb6863fee20e8a87ee1b8bbd03b94740ae6",
+        "recommendation": "unresolved",
+        "rationale": "February 9 referral is the last history action; the February 5 proposed substitute and February 13 summary are listed separately and do not prove adoption. Accepted prior scope decision matched row, identity and source hashes; reused only for census inclusion, not current force. Remaining in-scope question(s): What official bill-specific terminal disposition establishes the row\u2019s claimed death in committee, rather than only the last listed action and the session\u2019s end?",
+        "remaining_questions": [
+          "What official bill-specific terminal disposition establishes the row\u2019s claimed death in committee, rather than only the last listed action and the session\u2019s end?"
+        ],
+        "coordinator_override": null
+      },
+      "coordinator_override": "Correct the source attribution and unsupported categorical terminal-event wording; preserve explicit inference and the actual last recorded action.",
+      "superseding_review_pointer": "work/research/2026-11-09/post-release-qa/oklahoma-adjudications.json",
+      "field_application_pointer": "work/research/2026-11-09/post-release-qa/oklahoma-field-application.json"
     },
     {
       "id": "ok-hb-4424-2026",
       "dataset": "state_policy",
-      "current_row_sha256": "6db528468f15d7e981b66c3257c960237edbac118728326d5762de64be03561a",
-      "recommendation": "unresolved",
-      "rationale": "The February 3 referral is the last listed legislative action; the February 23 summary is a document, not a later action. The tax conditions remain introduced proposals. Accepted prior scope decision matched row, identity and source hashes; reused only for census inclusion, not current force. Remaining in-scope question(s): What official bill-specific terminal disposition establishes the row\u2019s claimed death in committee, rather than only the last listed action and the session\u2019s end?",
-      "remaining_questions": [
-        "What official bill-specific terminal disposition establishes the row\u2019s claimed death in committee, rather than only the last listed action and the session\u2019s end?"
-      ],
+      "current_row_sha256": "7b649b14330c0e5dec62b7a6bf390d2df9cd283ec5d4cd77c5fdc6869e93b18b",
+      "recommendation": "corrected_resolved",
+      "rationale": "Remove the unsupported assertion of a separately recorded death in committee. The corrected field distinguishes the actual last bill-specific action from the explicit nonpassage inference using both official second-session final journals.",
+      "remaining_questions": [],
       "separate_qualifications": [
         "A different successor instrument or general current regulatory framework requires separate identification; it is outside this named-bill disposition.",
         "Statewide activity level is a separate aggregate qualification; this audit makes no new per-bill activity finding.",
@@ -1183,17 +1231,27 @@
           "acquisition_date": "2026-11-06T00:10:41.236838Z"
         }
       ],
-      "review_part": "part-02"
+      "review_part": "part-02",
+      "prior_question_review": {
+        "current_row_sha256": "6db528468f15d7e981b66c3257c960237edbac118728326d5762de64be03561a",
+        "recommendation": "unresolved",
+        "rationale": "The February 3 referral is the last listed legislative action; the February 23 summary is a document, not a later action. The tax conditions remain introduced proposals. Accepted prior scope decision matched row, identity and source hashes; reused only for census inclusion, not current force. Remaining in-scope question(s): What official bill-specific terminal disposition establishes the row\u2019s claimed death in committee, rather than only the last listed action and the session\u2019s end?",
+        "remaining_questions": [
+          "What official bill-specific terminal disposition establishes the row\u2019s claimed death in committee, rather than only the last listed action and the session\u2019s end?"
+        ],
+        "coordinator_override": null
+      },
+      "coordinator_override": "Correct the source attribution and unsupported categorical terminal-event wording; preserve explicit inference and the actual last recorded action.",
+      "superseding_review_pointer": "work/research/2026-11-09/post-release-qa/oklahoma-adjudications.json",
+      "field_application_pointer": "work/research/2026-11-09/post-release-qa/oklahoma-field-application.json"
     },
     {
       "id": "ok-sb-1488-2026",
       "dataset": "state_policy",
-      "current_row_sha256": "c0e8f90c2159405b67e351ff1fbfeb9e57f0423169781ce035094b5c7f933d71",
-      "recommendation": "unresolved",
-      "rationale": "The April 14 principal House author entry is last in the history; the 100 MW moratorium and 2029 proposed end are introduced text only. Accepted prior scope decision matched row, identity and source hashes; reused only for census inclusion, not current force. Remaining in-scope question(s): What official bill-specific terminal disposition establishes the row\u2019s claimed death in committee, rather than only the last listed action and the session\u2019s end?",
-      "remaining_questions": [
-        "What official bill-specific terminal disposition establishes the row\u2019s claimed death in committee, rather than only the last listed action and the session\u2019s end?"
-      ],
+      "current_row_sha256": "082aef64db0a0de3c7244bda9440cb64f6bf877281f3d93302b816a29c839417",
+      "recommendation": "corrected_resolved",
+      "rationale": "Remove the unsupported assertion of a separately recorded death in committee. The corrected field distinguishes the actual last bill-specific action from the explicit nonpassage inference using both official second-session final journals.",
+      "remaining_questions": [],
       "separate_qualifications": [
         "A different successor instrument or general current regulatory framework requires separate identification; it is outside this named-bill disposition.",
         "Statewide activity level is a separate aggregate qualification; this audit makes no new per-bill activity finding.",
@@ -1226,17 +1284,27 @@
           "acquisition_date": "2026-11-06T00:10:41.236838Z"
         }
       ],
-      "review_part": "part-02"
+      "review_part": "part-02",
+      "prior_question_review": {
+        "current_row_sha256": "c0e8f90c2159405b67e351ff1fbfeb9e57f0423169781ce035094b5c7f933d71",
+        "recommendation": "unresolved",
+        "rationale": "The April 14 principal House author entry is last in the history; the 100 MW moratorium and 2029 proposed end are introduced text only. Accepted prior scope decision matched row, identity and source hashes; reused only for census inclusion, not current force. Remaining in-scope question(s): What official bill-specific terminal disposition establishes the row\u2019s claimed death in committee, rather than only the last listed action and the session\u2019s end?",
+        "remaining_questions": [
+          "What official bill-specific terminal disposition establishes the row\u2019s claimed death in committee, rather than only the last listed action and the session\u2019s end?"
+        ],
+        "coordinator_override": null
+      },
+      "coordinator_override": "Correct the source attribution and unsupported categorical terminal-event wording; preserve explicit inference and the actual last recorded action.",
+      "superseding_review_pointer": "work/research/2026-11-09/post-release-qa/oklahoma-adjudications.json",
+      "field_application_pointer": "work/research/2026-11-09/post-release-qa/oklahoma-field-application.json"
     },
     {
       "id": "ok-sb-1706-2026",
       "dataset": "state_policy",
-      "current_row_sha256": "2770f63538582ac19ff526cfe6994c7e03d20f9b4ca70b1b53168ce7afcaaa16",
-      "recommendation": "unresolved",
-      "rationale": "February 3 Judiciary referral is last in history; introduced text defines foreign principals and prohibits rent, lease or controlling interest, with specified divestment. Accepted prior scope decision matched row, identity and source hashes; reused only for census inclusion, not current force. Remaining in-scope question(s): What official bill-specific terminal disposition establishes the row\u2019s claimed death in committee, rather than only the last listed action and the session\u2019s end?",
-      "remaining_questions": [
-        "What official bill-specific terminal disposition establishes the row\u2019s claimed death in committee, rather than only the last listed action and the session\u2019s end?"
-      ],
+      "current_row_sha256": "ee20cb3df2a664b2ea5443d36945b13090e608cd51ef0b4de8743c570658f67b",
+      "recommendation": "corrected_resolved",
+      "rationale": "Remove the unsupported assertion of a separately recorded death in committee. The corrected field distinguishes the actual last bill-specific action from the explicit nonpassage inference using both official second-session final journals.",
+      "remaining_questions": [],
       "separate_qualifications": [
         "A different successor instrument or general current regulatory framework requires separate identification; it is outside this named-bill disposition.",
         "Statewide activity level is a separate aggregate qualification; this audit makes no new per-bill activity finding.",
@@ -1269,7 +1337,19 @@
           "acquisition_date": "2026-11-06T00:10:41.236838Z"
         }
       ],
-      "review_part": "part-02"
+      "review_part": "part-02",
+      "prior_question_review": {
+        "current_row_sha256": "2770f63538582ac19ff526cfe6994c7e03d20f9b4ca70b1b53168ce7afcaaa16",
+        "recommendation": "unresolved",
+        "rationale": "February 3 Judiciary referral is last in history; introduced text defines foreign principals and prohibits rent, lease or controlling interest, with specified divestment. Accepted prior scope decision matched row, identity and source hashes; reused only for census inclusion, not current force. Remaining in-scope question(s): What official bill-specific terminal disposition establishes the row\u2019s claimed death in committee, rather than only the last listed action and the session\u2019s end?",
+        "remaining_questions": [
+          "What official bill-specific terminal disposition establishes the row\u2019s claimed death in committee, rather than only the last listed action and the session\u2019s end?"
+        ],
+        "coordinator_override": null
+      },
+      "coordinator_override": "Correct the source attribution and unsupported categorical terminal-event wording; preserve explicit inference and the actual last recorded action.",
+      "superseding_review_pointer": "work/research/2026-11-09/post-release-qa/oklahoma-adjudications.json",
+      "field_application_pointer": "work/research/2026-11-09/post-release-qa/oklahoma-field-application.json"
     },
     {
       "id": "ri-h6476-2021",
@@ -2227,5 +2307,12 @@
     "confirmed_unchanged": 2,
     "corrected_resolved": 0,
     "canonical_field_changes": 0
+  },
+  "counts_before_oklahoma_followup": {
+    "reviewed": 55,
+    "unresolved": 48,
+    "confirmed_unchanged": 2,
+    "corrected_resolved": 5,
+    "canonical_field_changes": 7
   }
 }

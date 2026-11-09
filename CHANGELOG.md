@@ -2,6 +2,8 @@
 
 ## Working QA after v2026.11.9.post1
 
+Oklahoma’s final journals establish May 14, 2026 adjournment in both chambers, correcting the compound 2025 row’s May 29 claim. Nine status narratives distinguish recorded bill actions from nonpassage inferences, with no category changes. Eight terminal-assertion holds close; the title-bill compound retains its analytical-scope hold. Current dispositions: 1,446 unresolved, 129 corrected-resolved, 200 confirmed-unchanged. [Review](work/research/2026-11-09/post-release-qa/oklahoma-review.md).
+
 Kentucky’s 2021 directory resolves four historical sponsor affiliations; official sponsor/roster evidence resolves HB 544’s Lawrence identity and party. The official 2026 sine-die record supports explicitly labeled nonpassage inferences for four bills, and retained HB 593 HCS1 text clarifies section-specific exceptions. Seven cells across five rows change, with five scope fingerprint rebindings and no membership/category changes. Five historical QA holds close: 1,454 unresolved, 121 corrected-resolved, 200 confirmed-unchanged. [Review](work/research/2026-11-09/post-release-qa/kentucky-review.md).
 
 Washington County’s recovered signed extension exactly matches its September body hash. Five fields now distinguish the original December 27, 2023 date as recited in Resolution 59-2025, its last extension terms, and the express April 14, 2026 termination in Resolution 16-2026. Remove the unsupported claim that all extensions lasted seven months. One historical hold closes: 1,459 unresolved, 116 corrected-resolved, 200 confirmed-unchanged. Status categories remain unchanged. [Review](work/research/2026-11-09/post-release-qa/washington-county-review.md).

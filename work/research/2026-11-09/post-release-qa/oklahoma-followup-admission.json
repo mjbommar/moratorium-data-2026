@@ -1,0 +1,35 @@
+{
+  "admitted_at": "2026-11-09T21:49:00.412062+00:00",
+  "authorization_basis": "Standing user goal: six bounded HTTP retrievals for named Oklahoma2026 final-session and terminal-history holds. Reuse retained bill histories/proposed texts; no paid API, model, browser or outreach.",
+  "target_record_ids": [
+    "ok-hb-3392-2026",
+    "ok-hb-3394-2026",
+    "ok-hb-3397-2026",
+    "ok-hb-4194-2026",
+    "ok-hb-4219-2026",
+    "ok-hb-4424-2026",
+    "ok-sb-1488-2026",
+    "ok-sb-1706-2026",
+    "ok-hb-1919-hb-1920-2025"
+  ],
+  "caps": {
+    "exa": 0,
+    "serpapi": 0,
+    "googlenews": 0,
+    "gdelt": 0,
+    "search_total": 0,
+    "fetch": 6
+  },
+  "initial_targets": [
+    "https://former.okhouse.gov/Journals/HJ2026/2026%20HLeg%20Day58.pdf",
+    "https://oksenate.gov/press-releases/oklahoma-senate-adjourns-second-session-60th-legislature-sine-die",
+    "https://former.okhouse.gov/Documents/Rules/60/House%20Rules%20-%2060th%20Oklahoma%20Legislature%20%282025-2026%29.pdf",
+    "https://oksenate.gov/education/glossary"
+  ],
+  "duplicate_check": "OK archive and frozen nationwide retrieval ledger checked for named journal, adjournment release,60thHouseRules and Senate glossary; retained2026sessionreview reused.",
+  "stop_conditions": [
+    "Six reserved HTTP calls maximum, including failures.",
+    "Do not substitute an authorship entry for a committee or passage action.",
+    "House-only carryover rule is not applied to Senate cases; no invented docket event named Died."
+  ]
+}
