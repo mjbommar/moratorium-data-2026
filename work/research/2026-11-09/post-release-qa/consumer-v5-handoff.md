@@ -27,3 +27,5 @@ independent consumer verification, staged-storage proof and remote refs. The
 immutable GitHub release archives remain unchanged.
 
 The first site deployment for source `f714c63c` failed on November 9 after ten minutes in `syncing_files` (run42713460280); its build passed. A subsequent hosted check still returned the older policy CSV. GitHub main and the authenticated consumer snapshot contain the new policy observation; the site requires a successful subsequent deployment and byte verification.
+
+Subsequent recovery: run42715204659 for source `9b3b2882` succeeded. The policy CSV, summary and release metadata were fetched from the hosted site and matched working bytes on November9 at22:50UTC. [Verification](site-deployment-9b3b2882-verification.json). The earlier failed-run account above remains historical.
