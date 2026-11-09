@@ -1,0 +1,9 @@
+# Texas source followup — November 9, 2026
+
+Review stage: primary-source web inspection; canonical application and archive continuity pending. No record is closed by this note. Current CSV row guards remain those in outstanding-record-questions.jsonl.
+
+The [June 2 House journal](https://journals.house.texas.gov/HJRNL/89R/HTML/89RDAY81FINAL.HTM), headed Eighty-Ninth Legislature, Regular Session, records actual House adjournment at 5:12 p.m. under ADJOURNMENT SINE DIE. The earlier 3:52 p.m. motion is distinct from the actual adjournment. This is direct independent session-end evidence for the three Texas residuals, rather than another bill-history assertion. Senate chamber termination still needs its own retained source if used.
+
+The official introduced [HB3970](https://capitol.texas.gov/tlodocs/89R/billtext/html/HB03970I.htm) and [SB1942](https://capitol.texas.gov/tlodocs/89R/billtext/html/SB01942I.htm) share draft identifier 2025S0155-1 dated February 28, 2025. Their proposed section39.169(b) concerns a single-site aggregate peak demand above an operator-established threshold, normally at least75MW but expressly permitting a lower threshold for reliability. It does not expressly define a data center. This supports a broad large-load applicability distinction, not exclusion merely because the phrase data center is absent. HB3970 passed-House version must be checked separately before using introduced language to describe the final House action. Proposed effective-date wording is not evidence of enactment.
+
+Next bounded work: reuse retained histories; retain/hash the journal and the relevant introduced/passed versions; compare the substantive provisions; adjudicate scope under the existing explicit-applicability rules. For SJR72, inspect the actual ballot submission ledger separately before certifying the existing never-submitted assertion. No status-category changes, source-archive additions or disposition reductions are claimed here.
