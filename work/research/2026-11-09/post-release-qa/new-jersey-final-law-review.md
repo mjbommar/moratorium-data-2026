@@ -1,0 +1,11 @@
+# New Jersey final-law and veto follow-up — November 9, 2026
+
+Two unresolved records were checked through fresh official legislative history and document-list APIs. [Adjudications, exact retrieval hashes and residual questions](new-jersey-final-law-adjudications.json) retain the results; [native continuity](new-jersey-final-law-native-continuity.json) verifies seven exact body/text pairs.
+
+S3379's history still ends with August 27 approval as chapter75. Two HTML chapter paths returned404. A separately admitted one-request check of the official chapterLaws index returned the exact previously retained body, with no chapter75 entry. This does not authenticate the chapter or prove it is unavailable elsewhere. The final second-reprint PDF is already retained and was not fetched again. Its immediate-effect and reporting clauses do not substitute for authenticating the requested final chapter. Implementation remains open; a general BPU public-notice index is not a complete negative search for all agency or legal action.
+
+S4293's fresh history still ends at the October20,2025 conditional veto. Its veto body matches the previously retained document, so the reviewed Windows1252 extraction is reused. The recommendations would amend A5466/P.L.2025,c.98 rather than simply enact the passed reporting text: they propose an18-month study, a21-month report and a January1,2026 effective provision, among other changes. Their adoption is not established. Do not apply these proposed clocks to A5466, infer enactment, or assert a formal relationship to S3379. Some source narrative references say4923 despite the4293 heading; that typo is preserved.
+
+The original phase used eight of eight bounded HTTP reservations; the explicit index follow-up used one of one. No paid API, browser, model or outreach was used. Two failed chapter captures remain private; they are not accepted source text. Five API/index texts are lossless JSON derivations; the body-matched veto extraction is historical reviewed evidence. These are source-lineage checks, not a new independent review.
+
+No canonical cells, status categories or dispositions change. Both records remain unresolved, with more specific questions and completed-route receipts to avoid repeating these acquisitions. The published post2 assets remain unchanged.
