@@ -1,0 +1,67 @@
+{
+  "reviewed_at": "2026-11-09T23:10:06.365816+00:00",
+  "reviewer": "root coordinator direct reprint/history review; no new independent review",
+  "records": [
+    {
+      "id": "nj-a5462-2024-2025",
+      "recommendation": "corrected_resolved",
+      "prior_row_sha256": "5e967c9a9c1b0c31d43ddd53b302dce4047723189683747e44cc2b69001b2ef0",
+      "current_row_sha256": "16b79f1184ed803d76343bb90f69f08892562b62b90b0e4d0606a18771a81ac4",
+      "prior_questions": [
+        "Does the second reprint define a covered data center and support the asserted 100 MW threshold and specific scope?"
+      ],
+      "remaining_questions": [],
+      "resolution": "Official second reprint supplies the missing final definition, strict demand threshold, aggregation and tariff safeguards. Retained final pocket-veto history is hash-verified. Scope inclusion is limited to the versioned infrastructure-policy observation; no enactment or facility-specific eligibility is claimed."
+    }
+  ],
+  "source": {
+    "url": "https://pub.njleg.state.nj.us/Bills/2024/A5500/5462_R2.HTM",
+    "attempt_id": "0d8670e6ec624ab4bbc32fcc6ce1801a",
+    "body_sha256": "0fcce2e3b1afbf15dbfc24b76628f4aea4f231bbe2dce89d9bf4f1a6239f5d71",
+    "body_observed_at": "2026-11-09T23:08:01.040172Z"
+  },
+  "retained_sources": [
+    {
+      "url": "https://www.njleg.state.nj.us/bill-search/2024/A5462",
+      "body_sha256": "d791135e3987632a0ecd6c162b8a2c9e9f5618e3e1ce8e792a50d50e7a696ac2",
+      "text_sha256": "83fcd19fd8e4349ce79430e0338b00b7fc93c90c208eabba91d9039884161195"
+    }
+  ],
+  "field_changes": [
+    {
+      "id": "nj-a5462-2024-2025",
+      "field": "key_provisions",
+      "before": "The second reprint would have required utility tariff protections for other customers against costs from commercial large-load customers at centralized facilities with aggregate monthly demand exceeding 100 MW; facilities could be aggregated based on ownership, control and infrastructure. Qualifying data centers could be covered, but the final definition was not data-center-specific.",
+      "after": "Pocket-vetoed second reprint proposed utility tariffs for centralized commercial facilities with aggregate monthly demand over 100 MW, aggregable by ownership, control and infrastructure. Its final definition replaced the earlier data-center-specific language. Proposed safeguards included cost allocation, stranded-cost protection, financial guarantees covering at least 85% of requested service for at least 10 years, and security deposits, with BPU relaxation for sufficient operational flexibility or added energy/capacity. These failed-bill terms are not current tariff requirements."
+    },
+    {
+      "id": "nj-a5462-2024-2025",
+      "field": "policy_mechanism",
+      "before": "other",
+      "after": "utility_large_load_restriction"
+    },
+    {
+      "id": "nj-a5462-2024-2025",
+      "field": "scope_of_action",
+      "before": "unknown",
+      "after": "utility_grid"
+    },
+    {
+      "id": "nj-a5462-2024-2025",
+      "field": "primary_source_url",
+      "before": "",
+      "after": "https://pub.njleg.state.nj.us/Bills/2024/A5500/5462_R2.HTM"
+    }
+  ],
+  "scope_change": {
+    "before": "unresolved",
+    "after": "include",
+    "decision_id": "fb90e397-85f4-40cb-9999-aac84c186dfa"
+  },
+  "whole_record_closures": 1,
+  "status_category_changes": 0,
+  "http_used": 1,
+  "http_cap": 1,
+  "extraction_scope": "One fetched document; reviewed Windows1252 derivative. Earlier automatic extraction retained as a variant, not another independent source.",
+  "scope": "Final failed-bill terms and historical applicability; no successor-law survey needed or claimed."
+}

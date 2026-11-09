@@ -1,8 +1,8 @@
 {
   "event_cutoff_utc": "2026-11-07T13:38:39.877065Z",
   "counts": {
-    "unresolved": 1416,
-    "corrected_resolved": 134,
+    "unresolved": 1415,
+    "corrected_resolved": 135,
     "confirmed_unchanged": 226,
     "superseded_duplicate": 0,
     "not_attempted": 0
@@ -13,9 +13,9 @@
       "unresolved": 205
     },
     "remaining1552": {
-      "corrected_resolved": 134,
+      "corrected_resolved": 135,
       "confirmed_unchanged": 206,
-      "unresolved": 1210,
+      "unresolved": 1209,
       "superseded_duplicate": 0
     },
     "post_release_additions": {
@@ -21475,12 +21475,9 @@
     {
       "id": "nj-a5462-2024-2025",
       "dataset": "state_policy",
-      "disposition": "unresolved",
-      "public_receipt_pointer": "work/research/2026-11-08/full-inventory-integrated-application/README.md",
-      "residual_reference": {
-        "dataset": "state_policy",
-        "id": "nj-a5462-2024-2025"
-      },
+      "disposition": "corrected_resolved",
+      "public_receipt_pointer": "work/research/2026-11-09/post-release-qa/new-jersey-a5462-adjudication.json",
+      "residual_reference": null,
       "recorded_evidence_fingerprints_sha256": [
         "1f5f35dc7a4dfd8fdbf8ff71bf59b65a2438c6f13211aae5942eb7cb7953123b",
         "4c65120df17cab52474e4f48214d361359d6cf8068741a2082f616cc5f7a7aa8",
@@ -37840,6 +37837,15 @@
       "disposition": "corrected_resolved",
       "receipt": "work/research/2026-11-09/post-release-qa/new-jersey-version-adjudications.json",
       "scope": "Named current histories and required reprint/counterpart texts are inspected. Source-qualified version/relationship claims replace unsupported wording; no final enactment or legal-force claim."
+    },
+    {
+      "reviewed_at": "2026-11-09T23:10:06.365816+00:00",
+      "id": "nj-a5462-2024-2025",
+      "cohort": "remaining1552",
+      "prior_disposition": "unresolved",
+      "disposition": "corrected_resolved",
+      "receipt": "work/research/2026-11-09/post-release-qa/new-jersey-a5462-adjudication.json",
+      "scope": "Official second reprint supplies the missing final definition, strict demand threshold, aggregation and tariff safeguards. Retained final pocket-veto history is hash-verified. Scope inclusion is limited to the versioned infrastructure-policy observation; no enactment or facility-specific eligibility is claimed."
     }
   ]
 }

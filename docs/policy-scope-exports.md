@@ -22,9 +22,9 @@ Output replacement is atomic per file, not as a multi-file transaction; run
 - `receipt.json` gives input fingerprints, partition counts and IDs, and hashes
   of the three CSVs. The receipt cannot contain its own hash.
 
-The current registry explicitly includes 376 observations, excludes 19, leaves
-53 reviewed-unresolved, and leaves zero unreviewed. The exploratory candidate
-pool has 429 observations; only the 376 explicit inclusions belong to the reviewed
+The current registry explicitly includes 377 observations, excludes 19, leaves
+52 reviewed-unresolved, and leaves zero unreviewed. The exploratory candidate
+pool has 429 observations; only the 377 explicit inclusions belong to the reviewed
 scope view. These are observations, not necessarily unique instruments.
 
 The existing `md-hb0293-sb0056-2026` exclusion concerns secure student/workforce
@@ -64,3 +64,5 @@ The [next 90-record wave](../work/research/2026-11-08/policy-scope-wave3-reconci
 The [third 90-record follow-up](../work/research/2026-11-08/policy-scope-wave4-reconciliation/README.md) adds 73 includes, three excludes and 14 unresolved decisions, retaining all raw observations and remaining applicability gaps.
 
 The [final 124-record wave](../work/research/2026-11-08/policy-scope-wave5-reconciliation/README.md) adds 100 includes, nine excludes and 15 unresolved decisions. Every raw observation now has a scope disposition; freshness and current-force review remain separate and incomplete.
+
+The [A5462 second-reprint review](../work/research/2026-11-09/post-release-qa/new-jersey-a5462-adjudication.json) includes a versioned infrastructure-policy observation whose explicit data-center definition was replaced by a broader commercial-load definition. Inclusion preserves the supported legislative history; deleted wording is not treated as operative final text, and the pocket-vetoed proposal is not current law.

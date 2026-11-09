@@ -2,6 +2,8 @@
 
 ## Working QA after v2026.11.9.post1
 
+A5462 second-reprint review verifies the final strict >100MW commercial-load definition and proposed tariff safeguards; pocket-veto status is unchanged. Four cells change and the versioned policy observation is included in analytical scope:377 included,19 excluded,52 unresolved. One scoped hold closes:1,415 unresolved,135 corrected-resolved,226 confirmed-unchanged. [Review](work/research/2026-11-09/post-release-qa/new-jersey-a5462-adjudication.json).
+
 NewJersey A3966 first-reprint coverage/report terms and S4400 history are verified. A4769/S3639 introduced operative text matches, while official APIs list no identical-bill relationship; prose now distinguishes those findings. Four cells across two rows change; two scoped holds close:1,416 unresolved,134 corrected-resolved,226 confirmed-unchanged. No category changes. [Review](work/research/2026-11-09/post-release-qa/new-jersey-version-adjudications.json).
 
 NewJersey official API histories establish S4304 Senate passage38–0 on October22 and Assembly referral October29, correcting the paired A2774/S4304 category to passed_one_chamber while retaining separate proceedings. S4402 history is now explicit. Four cells across two rows change; six scoped holds close:1,418 unresolved,132 corrected-resolved,226 confirmed-unchanged. [Review](work/research/2026-11-09/post-release-qa/new-jersey-history-adjudications.json).
