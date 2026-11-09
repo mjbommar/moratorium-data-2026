@@ -1,8 +1,8 @@
 {
   "event_cutoff_utc": "2026-11-07T13:38:39.877065Z",
   "counts": {
-    "unresolved": 1480,
-    "corrected_resolved": 101,
+    "unresolved": 1479,
+    "corrected_resolved": 102,
     "confirmed_unchanged": 194,
     "superseded_duplicate": 0,
     "not_attempted": 0
@@ -13,8 +13,8 @@
       "confirmed_unchanged": 3
     },
     "remaining1552": {
-      "unresolved": 1258,
-      "corrected_resolved": 101,
+      "unresolved": 1257,
+      "corrected_resolved": 102,
       "confirmed_unchanged": 191,
       "superseded_duplicate": 0
     }
@@ -20899,12 +20899,9 @@
     {
       "id": "ne-lb1111-2026",
       "dataset": "state_policy",
-      "disposition": "unresolved",
-      "public_receipt_pointer": "work/research/2026-11-08/full-inventory-integrated-application/README.md",
-      "residual_reference": {
-        "dataset": "state_policy",
-        "id": "ne-lb1111-2026"
-      },
+      "disposition": "corrected_resolved",
+      "public_receipt_pointer": "work/research/2026-11-09/post-release-qa/nebraska-lb1111-closure.json",
+      "residual_reference": null,
       "recorded_evidence_fingerprints_sha256": [
         "0b018a298f2ec45deb6c584736d704d42ee01d98bd3c7bfa79894688636ac3cf",
         "1ea3c3fba21f5b63b75547edae322ac715eecd23ec2654c6350b6b88c8096df4",
@@ -20915,7 +20912,7 @@
         "b510341a93ead2c68f297de6085d20db06c3a8cd35d1296ee7d4bc3c5e45d990",
         "bb2596271fdb5359c5f3c998827a3da9e086f8060e2ae00e04a6b890535f78b1"
       ],
-      "post_release_question_review_pointer": "work/research/2026-11-09/post-release-qa/nebraska-transfer-adjudications.json"
+      "post_release_question_review_pointer": "work/research/2026-11-09/post-release-qa/nebraska-lb1111-closure.json"
     },
     {
       "id": "ne-lb1131-2026",
@@ -37338,6 +37335,16 @@
       "cohort": "remaining1552",
       "review_pointer": "work/research/2026-11-09/post-release-qa/arizona-final-adjudications.json",
       "reviewed_at": "2026-11-09T18:37:19.949777+00:00"
+    },
+    {
+      "id": "ne-lb1111-2026",
+      "dataset": "state_policy",
+      "before": "unresolved",
+      "after": "corrected_resolved",
+      "row_sha256": "0f89c590dcd3e34d21dac7c555678b00e199440a6a9bad11e71d0f7d9161e2ff",
+      "cohort": "remaining1552",
+      "review_pointer": "work/research/2026-11-09/post-release-qa/nebraska-lb1111-closure.json",
+      "reviewed_at": "2026-11-09T20:07:32.679487+00:00"
     }
   ]
 }

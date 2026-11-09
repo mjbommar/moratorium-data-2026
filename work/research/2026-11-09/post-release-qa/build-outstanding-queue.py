@@ -151,8 +151,16 @@ def main():
         for record in json.loads(ne_transfer.read_text())['records']:
             key=('state_policy',record['id'])
             assert digest(json.dumps(current[key],sort_keys=True,separators=(',',':'),ensure_ascii=False).encode())==record['current_row_sha256']
-            assert record['recommendation']=='unresolved' and record['remaining_questions']
-            overlays[record['id']]=[public_text(q) for q in record['remaining_questions']]
+            assert record['recommendation'] in ('unresolved','corrected_resolved')
+            if record['recommendation']=='unresolved':
+                assert record['remaining_questions']
+                overlays[record['id']]=[public_text(q) for q in record['remaining_questions']]
+            else:
+                assert not record['remaining_questions']
+                closure=json.loads((args.output/'nebraska-lb1111-closure.json').read_text())
+                assert closure['id']==record['id'] and closure['current_row_sha256']==record['current_row_sha256']
+                assert closure['recommendation']=='corrected_resolved'
+                assert next(r for r in f['records'] if r['id']==record['id'])['disposition']=='corrected_resolved'
     rows=[]
     for entry in f['records']:
         if entry['disposition']!='unresolved':continue

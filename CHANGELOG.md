@@ -2,6 +2,8 @@
 
 ## Working QA after v2026.11.9.post1
 
+LB1111’s original sponsor, PRB-minutes and provision-comparison holds are now cleared against primary sources. Current dispositions: 1,479 unresolved, 102 corrected-resolved and 194 confirmed-unchanged. The reason for report removal remains unasserted; LB1010 retains its separate legal-effect holds. [Scoped closure](work/research/2026-11-09/post-release-qa/nebraska-lb1111-closure.json).
+
 Recovered AM2422 and March 20 PRB minutes resolve LB1111’s missing-document and amendment-adoption questions. One summary now records March 12 adoption and attributes removal of the proposed PRB report to the committee amendment; the reason for removal remains unproven. No category or headline count changes. See [findings](work/research/2026-11-09/post-release-qa/nebraska-am2422-prb-findings.md).
 
 A retained-source LB1111/LB1010 comparison distinguishes proposed and enacted classes, reporting recipients and cost/decommissioning terms, and confines the known July 18 effective date to section 70-1506. Two summaries change; intermediary amendment history and act-wide later force remain unresolved. See [comparison](work/research/2026-11-09/post-release-qa/nebraska-transfer-comparison.md).
