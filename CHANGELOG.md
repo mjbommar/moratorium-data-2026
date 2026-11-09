@@ -2,6 +2,8 @@
 
 ## Working QA after v2026.11.9.post1
 
+Texas SJR72’s retained history, both June2 regular-session journals and the complete November4,2025 ballot list resolve its historical source holds. Two large-load bills retain analytical applicability questions. One scoped hold closes:1,443 unresolved,130 corrected-resolved,202 confirmed-unchanged; no canonical field or status-category changes. [Review](work/research/2026-11-09/post-release-qa/texas-session-adjudications.json).
+
 Washington’s Code Reviser notice independently confirms March 12 adjournment, resolving HB 2515’s source hold. SB 6171’s status now distinguishes recorded committee/referral actions from inferred nonpassage. Two scoped holds close: 1,444 unresolved, 130 corrected-resolved, 201 confirmed-unchanged. Arizona’s seven held-bill categories remain unknown; an authority check rejects stale manuals and date-only material as sufficient governing-rule proof. [Review](work/research/2026-11-09/post-release-qa/washington-session-review.md).
 
 Oklahoma’s final journals establish May 14, 2026 adjournment in both chambers, correcting the compound 2025 row’s May 29 claim. Nine status narratives distinguish recorded bill actions from nonpassage inferences, with no category changes. Eight terminal-assertion holds close; the title-bill compound retains its analytical-scope hold. Current dispositions: 1,446 unresolved, 129 corrected-resolved, 200 confirmed-unchanged. [Review](work/research/2026-11-09/post-release-qa/oklahoma-review.md).
