@@ -1,0 +1,138 @@
+{
+  "observed_at": "2026-11-09T03:16:33.421309+00:00",
+  "normal_publisher_dry_run": "ready",
+  "application": {
+    "state": "applied",
+    "sha256": "7efdbf363c398e3bf9b1a15f06389c9d0a6aa20afaf9c9d8db165a10a635112e",
+    "records": {
+      "jurisdictions": 52,
+      "elections": 51,
+      "ballot_measures": 57,
+      "measure_provisions": 52,
+      "measure_results": 64,
+      "local_restrictions": 2,
+      "instrument_events": 10,
+      "measure_instrument_links": 1,
+      "source_documents": 165,
+      "claims": 613,
+      "review_decisions": 2716,
+      "search_runs": 1,
+      "search_attempts": 3,
+      "search_sightings": 18,
+      "coverage_observations": 1
+    },
+    "generation_id": "8d1a4df738c50cb71a066c1dc755019f77c94c62fb089cad8a7a9153559f79bb",
+    "publication_sha256": "3fd9d8e44212b09deb5f426d246e991a95f4fe52e376711ebd7c1173f275dbf5"
+  },
+  "preservation": {
+    "measure_results": {
+      "before": 63,
+      "after": 64,
+      "prior_rows_preserved": true
+    },
+    "search_attempts": {
+      "before": 3,
+      "after": 3,
+      "prior_rows_preserved": true
+    },
+    "claims": {
+      "before": 609,
+      "after": 613,
+      "prior_rows_preserved": true
+    },
+    "coverage_observations": {
+      "before": 1,
+      "after": 1,
+      "prior_rows_preserved": true
+    },
+    "review_decisions": {
+      "before": 2684,
+      "after": 2716,
+      "prior_rows_preserved": true
+    },
+    "search_sightings": {
+      "before": 18,
+      "after": 18,
+      "prior_rows_preserved": true
+    },
+    "local_restrictions": {
+      "before": 2,
+      "after": 2,
+      "prior_rows_preserved": true
+    },
+    "measure_provisions": {
+      "before": 52,
+      "after": 52,
+      "prior_rows_preserved": true
+    },
+    "instrument_events": {
+      "before": 10,
+      "after": 10,
+      "prior_rows_preserved": true
+    },
+    "measure_instrument_links": {
+      "before": 1,
+      "after": 1,
+      "prior_rows_preserved": true
+    },
+    "jurisdictions": {
+      "before": 51,
+      "after": 52,
+      "prior_rows_preserved": true
+    },
+    "search_runs": {
+      "before": 1,
+      "after": 1,
+      "prior_rows_preserved": true
+    },
+    "source_documents": {
+      "before": 161,
+      "after": 165,
+      "prior_rows_preserved": true
+    },
+    "ballot_measures": {
+      "before": 56,
+      "after": 57,
+      "prior_rows_preserved": true
+    },
+    "elections": {
+      "before": 50,
+      "after": 51,
+      "prior_rows_preserved": true
+    }
+  },
+  "new_native_sources_verified": 4,
+  "native_blob_readbacks_matched": true,
+  "source_custody": [
+    {
+      "source_document_id": "10b3e933-b174-4f63-bf2a-3523ff382ea4",
+      "url": "https://bethelmaine.org/news/public-hearing-october-15th-at-6-00-pm-at-the-crescent-park-school-gym",
+      "body_sha256": "79c7e11cf58c10ad51e5aa648066661759f89c9959cf0f3a06d3b92195e71391",
+      "readback_verified": true
+    },
+    {
+      "source_document_id": "12da3280-acab-4fd7-bd0f-853bc8b1b413",
+      "url": "https://bethelmaine.org/uploads/moratorium-for-data-centers-1.pdf",
+      "body_sha256": "2d96521958ee37905f9f7ac2f9fee1c7bc1b846d700012cffd3c0243fa2071c6",
+      "readback_verified": true
+    },
+    {
+      "source_document_id": "4b81e8df-54d2-415a-860c-ac5c58c2cc8a",
+      "url": "https://bethelmaine.org/uploads/special-town-meeting-warrant-1.pdf",
+      "body_sha256": "eed27f6b19bae0d85f4cbffc365b8d249b7f13a293e8210995a158d41502e73a",
+      "readback_verified": true
+    },
+    {
+      "source_document_id": "a80e19b9-8f66-4292-9c5c-3b5f28b975b4",
+      "url": "https://www.sunjournal.com/2026/10/22/bethel-approves-6-month-data-center-moratorium/",
+      "body_sha256": "4ee76ee51ece8bad7642aa887a611d96ed3d440369cdacce3e6a00757402f5f7",
+      "readback_verified": true
+    }
+  ],
+  "scope": "Actual unmodified publisher source/history gates and identity application; original extraction hashes retained. Not full-refresh or release completion.",
+  "focused_tests": {
+    "ballot_summary": 15,
+    "expanded_csv": 11,
+    "failures": 0
+  }
+}
