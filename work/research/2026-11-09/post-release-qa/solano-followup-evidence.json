@@ -1,0 +1,51 @@
+{
+  "reviewed_at": "2026-11-09T21:22:41.845879+00:00",
+  "sources": [
+    {
+      "attempt_id": "631f4e6db80d45aaa2b000e2912cd86d",
+      "url": "https://solano.legistar.com/View.ashx?M=F&ID=15020986&GUID=E40BFF6D-4604-4012-A4DB-E5A5FBCF0D4F",
+      "body_sha256": "3c25cd9a27dfcb21ef2efa195869cef1fb54842882f7338e1fdaa92df7b0bd41",
+      "automatic_text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "reviewed_text_sha256": "3c8e64a8abdd36cfa2c99d75f8faa9ca32c9d196fc5393170469fde05a4a9430",
+      "body_observed_at": "2026-11-09T21:20:00.640154Z",
+      "locator": "Signed Ordinance 2025-1864 PDF page 19 sections XVI\u2013XVII: entire interim repeal and 30-day clause; page 20: signed November 4 adoption, five ayes, printed December 5 effective/operative dates."
+    },
+    {
+      "attempt_id": "d1f28041cb6441c8bafcb4218a3fd3d8",
+      "url": "https://solano.legistar.com/View.ashx?M=F&ID=15020985&GUID=8CBFC6F5-15EF-48A6-B2A6-A37E9494BDC1",
+      "body_sha256": "2010e9cf0fc268e4372133802d4d0fc1b09cf55e04eedac711aed969d05ccc4b",
+      "automatic_text_sha256": "9c44ebf3dc65dd63e069b43d72d3edfb7665d12287deba0aa4a58f522a47ca37",
+      "reviewed_text_sha256": "db3523183f3286dcc26e8f04a5886d7e19d4d861b2d73beafc705d27a0fa9e0a",
+      "body_observed_at": "2026-11-09T21:19:58.832959Z",
+      "locator": "November 4, 2025 minute order, sole page, item 25/file 25-905: motion and 5\u20130 adoption of 2025-1864."
+    }
+  ],
+  "retained_source_hash_checks": [
+    {
+      "label": "Solano August record",
+      "text_sha256": "53e27b6ee76da9c062a24cbe7f3c0dcee3ba5aa04d3b0d8ba6e2cd0b942d4691",
+      "body_sha256": "cbc0e94c6f8d922cdaedbdde9c722aac94522316df435e8dda198e31d70d166d",
+      "locator_as_supplied": "text lines 1-2, 24-42; adopted action and official recital of original 45 days and scheduled end"
+    },
+    {
+      "label": "Solano November record",
+      "text_sha256": "bccddf5196f105037949ce38694d8bee5c70a9dc3ee98fc5e2bbd4e2652111c2",
+      "body_sha256": "58d6970fed7525b4697410a19bffee39a58aaca366a2a88b4d4b5f7b06b6d813",
+      "locator_as_supplied": "text lines 1-2, 48-54; adopted action and original/extension/partial-lift history"
+    },
+    {
+      "label": "Solano overview",
+      "text_sha256": "4880774c4364ffef9878dd818d2769d18c56462bfd6c8d360a5a07cfaec43508",
+      "body_sha256": "dfbb072d4e6f10f0a3d72386f807e3fe782f79e8517f714c611cd91e44f86a89",
+      "locator_as_supplied": "lines 3, 13-15, 37-43"
+    }
+  ],
+  "findings": [
+    "Signed Ordinance 2025-1864 section XVI expressly repeals Interim Ordinance 2024-1852-U in its entirety, including its extension and August 26 amendment; the mechanism is directly established, not inferred from permanent zoning adoption.",
+    "The signed adoption page records November 4,2025 adoption with five ayes and expressly prints December 5,2025 as both effective and operative date. Normalize that county-stated date rather than silently recomputing it.",
+    "Section XVII separately says effective 30 days after adoption. Preserve that wording alongside the explicit printed date; this review does not adjudicate legal day-counting or silently substitute December 4.",
+    "Minute order independently confirms November 4 adoption 5\u20130. Earlier August partial-lift and original-term history remain retained."
+  ],
+  "resolution": "Historical source hold on remaining interim repeal and stated permanent-ordinance effect is resolved using executed ordinance and official minute order. Later legal force is outside this scoped historical finding.",
+  "scope": "Two new substantive primary sources, three visually reviewed pages; no paid provider, model, browser or outreach."
+}

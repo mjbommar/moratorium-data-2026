@@ -1,0 +1,69 @@
+{
+  "applied_at": "2026-11-09T21:22:41.930596+00:00",
+  "substantive_cells": 5,
+  "derived_cells": 0,
+  "changed_cells": 5,
+  "changed_records": 1,
+  "csv_before_sha256": {
+    "local_inventory": "71e17d5421825b63f17492236a9b2a31938e80d1744ffb170ae22444fb54cc39",
+    "state_policy": "b3b5c945169b97fd1094807f66e122b8c95f17c8f33ca18eb50fcc7c8c5ec180"
+  },
+  "csv_after_sha256": {
+    "local_inventory": "86dddff527f90481b24f07a7e045fd10bafe85537dbed8acd2c3b23f2ff4d93d",
+    "state_policy": "b3b5c945169b97fd1094807f66e122b8c95f17c8f33ca18eb50fcc7c8c5ec180"
+  },
+  "scope_rebound_ids": [],
+  "scope_registry_sha256": "53b772dab2fdc924b089f1e82679ec6152e3ca81da0ab223b8d056a13fd2c08d",
+  "changes": [
+    {
+      "dataset": "local_inventory",
+      "id": "ca-solano-county-2024",
+      "field": "duration",
+      "before": "Initially 45 days, extended by 22 months and 15 days; scheduled to expire January 23, 2026 unless repealed earlier. The earlier record described the pause as replaced by a permanent ordinance; permanent BESS zoning was adopted November 4, 2025, while exact termination of the interim restrictions remains unverified.",
+      "after": "Initially 45 days, extended by 22 months and 15 days, with January 23, 2026 scheduled expiry. Signed permanent Ordinance 2025-1864 section XVI expressly repeals the interim ordinance, its extension and August 26 amendment in their entirety. Its signed adoption page states December 5, 2025 as the effective and operative date; section XVII separately uses 30 days after adoption. The recorded endpoint uses the county\u2019s printed date, without an independent legal day-counting determination.",
+      "kind": "substantive"
+    },
+    {
+      "dataset": "local_inventory",
+      "id": "ca-solano-county-2024",
+      "field": "legal_basis",
+      "before": "Interim Ordinance 2024-1852-U adopted January 23, 2024, extended by 2024-1852-U-E, and amended August 26, 2025 to lift the pause in specified industrial and manufacturing districts. The Board adopted permanent zoning amendment ZT-25-02 on November 4, 2025.",
+      "after": "Interim Ordinance 2024-1852-U adopted January 23, 2024, extended by 2024-1852-U-E, and amended August 26, 2025 to lift the pause in specified industrial and manufacturing districts. Permanent Ordinance 2025-1864 (ZT-25-02) was adopted November 4, 2025 by a 5\u20130 vote; section XVI expressly repeals the entire amended interim ordinance. The signed copy prints December 5, 2025 as effective and operative.",
+      "kind": "substantive"
+    },
+    {
+      "dataset": "local_inventory",
+      "id": "ca-solano-county-2024",
+      "field": "current_status",
+      "before": "On August 26, 2025 the Board amended the interim ordinance to lift the pause in specified manufacturing and industrial districts while retaining it in other districts. On November 4, 2025 the Board adopted permanent BESS zoning regulations. The interim ordinance had been scheduled to expire January 23, 2026 unless repealed earlier; its exact termination and the permanent ordinance effective date require verification.",
+      "after": "The August 26, 2025 amendment partially lifted interim BESS restrictions in specified manufacturing and industrial districts. Signed Ordinance 2025-1864, adopted November 4 by 5\u20130, expressly repeals the remaining amended interim ordinance in its entirety (section XVI). Its signed adoption page records December 5, 2025 as effective and operative; section XVII separately says 30 days after adoption. The normalized endpoint follows the explicit county-stated date, without recomputing that clause or asserting later current force.",
+      "kind": "substantive"
+    },
+    {
+      "dataset": "local_inventory",
+      "id": "ca-solano-county-2024",
+      "field": "outcome",
+      "before": "Interim BESS restrictions were partially relaxed on August 26, 2025; permanent BESS zoning was adopted November 4, 2025. The precise termination of the remaining interim restrictions is unresolved.",
+      "after": "Partial interim lift August 26, 2025, followed by express repeal in its entirety through permanent BESS zoning Ordinance 2025-1864. The signed ordinance records December 5, 2025 as its effective and operative date; retain the separate 30-days-after-adoption clause without an independent legal timing determination.",
+      "kind": "substantive"
+    },
+    {
+      "dataset": "local_inventory",
+      "id": "ca-solano-county-2024",
+      "field": "current_end_date_iso",
+      "before": "",
+      "after": "2025-12-05",
+      "kind": "substantive"
+    }
+  ],
+  "verify_rows": 979,
+  "row_transitions": [
+    {
+      "dataset": "local_inventory",
+      "id": "ca-solano-county-2024",
+      "before_sha256": "5b984e40dad8c44b101e40cbce83cb583fd2bbcfcd62e7a8893d099e9bea9679",
+      "after_sha256": "d8b0e24c9916c36c2bff1ef36a4b9e7b081d0f853c80529b3617a134165d226c"
+    }
+  ],
+  "scope": "Reviewed source observations, classification correction and explicit unresolved facts; all IDs retained. No current-law census asserted."
+}

@@ -1,0 +1,25 @@
+{
+  "admitted_at": "2026-11-09T21:19:57.492769+00:00",
+  "authorization_basis": "Standing user goal: three bounded HTTP retrievals for Solano adopted BESS ordinance, minute order and any exact termination source linked by the retained official docket. No paid APIs, models, browser or outreach.",
+  "target_record_ids": [
+    "ca-solano-county-2024"
+  ],
+  "caps": {
+    "exa": 0,
+    "serpapi": 0,
+    "googlenews": 0,
+    "gdelt": 0,
+    "search_total": 0,
+    "fetch": 3
+  },
+  "initial_targets": [
+    "https://solano.legistar.com/View.ashx?M=F&ID=15020986&GUID=E40BFF6D-4604-4012-A4DB-E5A5FBCF0D4F",
+    "https://solano.legistar.com/View.ashx?M=F&ID=15020985&GUID=8CBFC6F5-15EF-48A6-B2A6-A37E9494BDC1"
+  ],
+  "duplicate_check": "Existing CA003 capture is the docket HTML, whose attachment list contains these IDs. Neither target was fetched in CA archive or frozen nationwide ledger. Existing August partial-lift, November docket and county overview are reused.",
+  "stop_conditions": [
+    "Maximum three client HTTP retrievals including failures.",
+    "Use adopted attachment, not the clean proposal, to assess operative clauses.",
+    "Do not infer blanket moratorium repeal from permanent regulation alone."
+  ]
+}

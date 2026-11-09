@@ -2,6 +2,8 @@
 
 ## Working QA after v2026.11.9.post1
 
+Solano County’s signed Ordinance 2025-1864 expressly repeals the entire interim BESS moratorium, extension and amendment. The signed copy prints December 5, 2025 as effective and operative; five cells now include that county-recorded endpoint and the separately retained 30-days-after-adoption wording. One historical QA hold closes: 1,460 unresolved, 115 corrected-resolved, 200 confirmed-unchanged. Status categories and headline totals remain unchanged. [Review](work/research/2026-11-09/post-release-qa/solano-review.md).
+
 Monterey Park’s signed original and extension now directly establish adoption, immediate-effect clauses and the change from Saturn Park to citywide scope. Three narrative fields distinguish the extension’s relative-term wording from its explicit January 21, 2027 sunset. The original is newly retained; the extension is reused from the existing archive. Actual temporary-moratorium termination remains unresolved, with no status or headline changes. [Review](work/research/2026-11-09/post-release-qa/monterey-park-review.md).
 
 Irwindale’s city minutes establish that proposed moratorium819 was pulled and not considered May27, while permanent ban821 was adopted September9. Correct the unsupported moratorium “replaced” label to “unknown” and clarify five narrative fields. Current local categories:81 replaced,170 past,4 unknown; active/extended and pending counts unchanged. Exact821 operative text/publication and any later819 disposition remain held. [Evidence](work/research/2026-11-09/post-release-qa/irwindale-followup-evidence.json).

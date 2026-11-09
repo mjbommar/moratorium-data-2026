@@ -1,21 +1,21 @@
 {
   "event_cutoff_utc": "2026-11-07T13:38:39.877065Z",
   "counts": {
-    "unresolved": 1461,
-    "corrected_resolved": 114,
+    "unresolved": 1460,
+    "corrected_resolved": 115,
     "confirmed_unchanged": 200,
     "superseded_duplicate": 0,
     "not_attempted": 0
   },
   "cohort_counts": {
     "earlier225": {
-      "unresolved": 222,
-      "confirmed_unchanged": 3
+      "confirmed_unchanged": 3,
+      "unresolved": 222
     },
     "remaining1552": {
-      "unresolved": 1239,
-      "corrected_resolved": 114,
+      "corrected_resolved": 115,
       "confirmed_unchanged": 197,
+      "unresolved": 1238,
       "superseded_duplicate": 0
     }
   },
@@ -2320,12 +2320,9 @@
     {
       "id": "ca-solano-county-2024",
       "dataset": "local_inventory",
-      "disposition": "unresolved",
-      "public_receipt_pointer": "work/research/2026-11-08/full-inventory-integrated-application/README.md",
-      "residual_reference": {
-        "dataset": "local_inventory",
-        "id": "ca-solano-county-2024"
-      },
+      "disposition": "corrected_resolved",
+      "public_receipt_pointer": "work/research/2026-11-09/post-release-qa/solano-adjudication.json",
+      "residual_reference": null,
       "recorded_evidence_fingerprints_sha256": [
         "02fddd82681a65887e6972f81e34c5f3ad3dc705ad537bab9f063123e2036d4d",
         "13cc4a5880aebd216409e9e892b2062e437ea021d499358e2b58a390953e3297",
@@ -2338,7 +2335,8 @@
         "bccddf5196f105037949ce38694d8bee5c70a9dc3ee98fc5e2bbd4e2652111c2",
         "cbc0e94c6f8d922cdaedbdde9c722aac94522316df435e8dda198e31d70d166d",
         "dfbb072d4e6f10f0a3d72386f807e3fe782f79e8517f714c611cd91e44f86a89"
-      ]
+      ],
+      "post_release_question_review_pointer": "work/research/2026-11-09/post-release-qa/solano-adjudication.json"
     },
     {
       "id": "ca-tulare-county-2026",
@@ -37504,6 +37502,15 @@
       "disposition": "unresolved",
       "receipt": "work/research/2026-11-09/post-release-qa/monterey-park-adjudication.json",
       "scope": "Adopted original/extension and anchors directly reviewed; actual termination remains held."
+    },
+    {
+      "reviewed_at": "2026-11-09T21:22:41.930596+00:00",
+      "id": "ca-solano-county-2024",
+      "cohort": "remaining1552",
+      "prior_disposition": "unresolved",
+      "disposition": "corrected_resolved",
+      "receipt": "work/research/2026-11-09/post-release-qa/solano-adjudication.json",
+      "scope": "Original historical document hold resolved with direct full-repeal clause and explicit county-recorded operative date. No universal current-law certification."
     }
   ]
 }

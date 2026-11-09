@@ -550,15 +550,15 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 - **Recorded status:** ⚪ Replaced
 - **Date enacted:** 2024-01-23 (Board of Supervisors)
 - **Normalized date:** `2024-01-23` (exact)
-- **Duration:** Initially 45 days, extended by 22 months and 15 days; scheduled to expire January 23, 2026 unless repealed earlier. The earlier record described the pause as replaced by a permanent ordinance; permanent BESS zoning was adopted November 4, 2025, while exact termination of the interim restrictions remains unverified.
-- **Current end date:** `—`
+- **Duration:** Initially 45 days, extended by 22 months and 15 days, with January 23, 2026 scheduled expiry. Signed permanent Ordinance 2025-1864 section XVI expressly repeals the interim ordinance, its extension and August 26 amendment in their entirety. Its signed adoption page states December 5, 2025 as the effective and operative date; section XVII separately uses 30 days after adoption. The recorded endpoint uses the county’s printed date, without an independent legal day-counting determination.
+- **Current end date:** `2025-12-05`
 - **Sectors:** battery storage
 - **Moratorium ID:** `ca-solano-county-2024`
-- **Legal basis:** Interim Ordinance 2024-1852-U adopted January 23, 2024, extended by 2024-1852-U-E, and amended August 26, 2025 to lift the pause in specified industrial and manufacturing districts. The Board adopted permanent zoning amendment ZT-25-02 on November 4, 2025.
+- **Legal basis:** Interim Ordinance 2024-1852-U adopted January 23, 2024, extended by 2024-1852-U-E, and amended August 26, 2025 to lift the pause in specified industrial and manufacturing districts. Permanent Ordinance 2025-1864 (ZT-25-02) was adopted November 4, 2025 by a 5–0 vote; section XVI expressly repeals the entire amended interim ordinance. The signed copy prints December 5, 2025 as effective and operative.
 - **What prompted it:** Safety concerns near the Vaca-Dixon substation in Vacaville; farmland protection.
 - **Affected projects:** —
-- **Detailed status:** On August 26, 2025 the Board amended the interim ordinance to lift the pause in specified manufacturing and industrial districts while retaining it in other districts. On November 4, 2025 the Board adopted permanent BESS zoning regulations. The interim ordinance had been scheduled to expire January 23, 2026 unless repealed earlier; its exact termination and the permanent ordinance effective date require verification.
-- **Outcome:** Interim BESS restrictions were partially relaxed on August 26, 2025; permanent BESS zoning was adopted November 4, 2025. The precise termination of the remaining interim restrictions is unresolved.
+- **Detailed status:** The August 26, 2025 amendment partially lifted interim BESS restrictions in specified manufacturing and industrial districts. Signed Ordinance 2025-1864, adopted November 4 by 5–0, expressly repeals the remaining amended interim ordinance in its entirety (section XVI). Its signed adoption page records December 5, 2025 as effective and operative; section XVII separately says 30 days after adoption. The normalized endpoint follows the explicit county-stated date, without recomputing that clause or asserting later current force.
+- **Outcome:** Partial interim lift August 26, 2025, followed by express repeal in its entirety through permanent BESS zoning Ordinance 2025-1864. The signed ordinance records December 5, 2025 as its effective and operative date; retain the separate 30-days-after-adoption clause without an independent legal timing determination.
 
 ### Tulare County
 
