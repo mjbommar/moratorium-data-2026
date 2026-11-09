@@ -137,15 +137,15 @@ State policy is tracked separately: **4 records** (4 typed bill rows) in [`state
 - **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-09-08 (Tuesday), Foley City Council approval of the ordinance on final reading
 - **Normalized date:** `2026-09-08` (exact)
-- **Duration:** Six months reported by city as in effect in its September 2026 release. [VERIFY operative ordinance term and effective date.]
+- **Duration:** Section 3 of the official full text provides six calendar months from the effective date, expiring at 11:59 p.m. on the corresponding date unless earlier terminated by subsequent ordinance. Extensions require a Council finding of need and are limited to six additional months in the aggregate. Section 9 uses the later of adoption or legally required publication; Section 12 also requires publication. [VERIFY actual publication/effective anchor, executed copy and any later extension or termination.]
 - **Current end date:** `—`
 - **Sectors:** data center, cryptocurrency mining
 - **Moratorium ID:** `al-foley-2026`
-- **Legal basis:** Foley City Council ordinance imposing a temporary moratorium on data centers, Bitcoin/cryptocurrency mining facilities, server farms and similar technically oriented uses (a Gulf Coast Media legal-notice listing titles it Ordinance 26-2029; that page returned 404 and could not be archived)
+- **Legal basis:** Foley City Council Legistar file 26-0439 (Ordinance; portal status Adopted; first reading 2026-08-17 and adoption 2026-09-08). The separate legal-notice lead Ordinance 26-2029 remains unverified; do not treat the Legistar file number as the assigned ordinance number.
 - **What prompted it:** Proactive; no known proposal. Time to update zoning ordinances and technical design manuals for water, air and noise, and to evaluate megawatt thresholds with city-owned Riviera Utilities.
 - **Affected projects:** Mayor said in September 2026 that no data centers had been proposed in the Foley area; no affected project was independently identified in this review.
-- **Detailed status:** Recorded active as of 2026-09-23; city reported final-reading approval on 2026-09-08 and said the six-month moratorium was in effect in its September 2026 release. An approximate early March 2027 endpoint depends on the effective date and later action. [VERIFY operative ordinance, effective date, later actions and current legal force.]
-- **Outcome:** Six-month moratorium adopted.
+- **Detailed status:** Official Legistar file 26-0439 records first-reading approval 2026-08-17 and adoption 2026-09-08; its portal status is Adopted as observed 2026-11-09. The full text suspends specified land-use approvals for covered uses within the corporate limits, excluding the outside police jurisdiction, and exempts specified previously permitted uses and nonexpanding normal work. Six months runs from the effective date, which requires publication. The city separately reported the moratorium in effect in September; present force is not newly certified. [VERIFY assigned ordinance number, executed copy, publication/effective date and subsequent legal history.]
+- **Outcome:** Official meeting and legislation records confirm September 8 adoption of file 26-0439. Full text establishes a conditional six-calendar-month term, geographic limits and exemptions. Actual publication/effectiveness, assigned ordinance number and later legal force remain unverified.
 
 ### Fort Payne
 

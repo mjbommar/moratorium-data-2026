@@ -189,3 +189,7 @@ The [hosted verification](va-wy-hosted-verification.json) confirms six named pub
 ## Petersburg first-reading source followup
 
 [Exact event/meeting/item observations](petersburg-followup.json) map the November 2 Assembly event 863 to meeting 851 and Ordinance 2026-24 item 707. Only agenda and packet are currently published; no primary vote/minutes follows from empty/default motion and vote metadata. The first-reading and later-action questions remain unresolved, now with exact retrieval targets. Three successful captures archive with native continuity; no canonical field, stage or disposition changes.
+
+## Foley adopted-file corrections applied
+
+[Four source-backed field corrections](foley-review.md) establish the displayed six-calendar-month term, corporate-limit scope and specified exemptions, while preserving executed-copy/number, actual publication/effectiveness and later-force questions. File 26-0439 is not silently treated as the assigned ordinance number. All headline, ballot and disposition totals remain unchanged.

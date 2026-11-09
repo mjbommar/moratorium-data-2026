@@ -721,3 +721,8 @@ Exit: repeatable refresh with visible freshness, costs, failures and unresolved 
 - [x] Bundle the current public QA ledger with the qualified patch. Current active raw IDs: 1,775; dispositions: 1,480 unresolved, 101 corrected-resolved, 194 confirmed-unchanged. These are bounded review findings, not universal current-force certification.
 - [x] Verify corrected website copy and metadata from `0828c08`: Pages run `42679916644` succeeded; six served files match source exactly ([receipt](work/research/2026-11-09/release-2026.11.9.post1/hosted-copy-verification.json)). Earlier obsolete-source run `42678817222` was cancelled when the required copy correction superseded it.
 - [ ] Continue the exact source-specific questions in `work/research/2026-11-09/post-release-qa/outstanding-record-questions.jsonl`; avoid repeating completed discovery and retain all source clocks and guards.
+
+### Working correction after the qualified patch
+
+- [x] Recover Foley’s official September 8 adopted-file record and full text; apply four guarded term/scope/identity clarifications, preserve execution/publication/later-force questions, and pass nine focused checks.
+- [x] Reconcile the original authority-recovery source batch at 500 reserved fetches out of 500; preserve its ledger/caps rather than resetting or silently bypassing it. Retained-source QA can continue; any further collection needs an explicit, separately admitted budget decision.

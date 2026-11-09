@@ -1,6 +1,10 @@
 # Changelog
 
-## v2026.11.9.post1 — qualified patch, November 9
+## Working QA after v2026.11.9.post1
+
+Foley’s official adopted-file text and September 8 meeting record support four guarded term/scope/identity clarifications. Preserve assigned-number, execution, publication, effective-date and later-force holds; no headline or status category changes. See [review](work/research/2026-11-09/post-release-qa/foley-review.md).
+
+### v2026.11.9.post1 — qualified patch, November 9
 
 Bundle the post-release corrections and current public QA ledger in a new immutable release. Retain v2026.11.9 unchanged. [Exact delta and limitations](work/research/2026-11-09/release-2026.11.9.post1/release-body.md) distinguish retired duplicates, surviving-row corrections and unresolved source questions.
 

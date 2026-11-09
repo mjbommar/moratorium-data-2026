@@ -4,6 +4,8 @@
 
 **Qualified patch:** This release incorporates the Boone County and Hampden duplicate retirements, reviewed field corrections and current QA ledger. Original `v2026.11.9` remains immutable. Further working changes may follow; use each tag for exact replication.
 
+**Working QA after the patch:** [Foley’s adopted-file text](work/research/2026-11-09/post-release-qa/foley-review.md) now clarifies its conditional term, scope and exemptions. Headline counts are unchanged; use the release tag for the immutable snapshot.
+
 **Open data on local-government moratoria targeting data centers, battery storage, solar, wind, and cryptocurrency mining across the United States.**
 
 This is the open companion dataset for the working paper *Moratorium Nation: A Survey of Data Center, Renewable Energy, and Battery Storage Moratoria in the United States*.
