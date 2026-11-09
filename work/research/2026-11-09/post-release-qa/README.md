@@ -185,3 +185,7 @@ The [hosted verification](va-wy-hosted-verification.json) confirms six named pub
 ## Alabama session followup applied
 
 [Two status narratives](alabama-session-review.md) add the officially observed April 9 regular-session adjournment and re-observed history counts. The current status sheet is a different session, and the day-30 House PDF is only a first-readings report. These are not terminal evidence for HB403/SB265. Their exact procedural and inherited sponsor/companion/substitute questions remain indexed; 1,480 whole-record dispositions remain unresolved.
+
+## Petersburg first-reading source followup
+
+[Exact event/meeting/item observations](petersburg-followup.json) map the November 2 Assembly event 863 to meeting 851 and Ordinance 2026-24 item 707. Only agenda and packet are currently published; no primary vote/minutes follows from empty/default motion and vote metadata. The first-reading and later-action questions remain unresolved, now with exact retrieval targets. Three successful captures archive with native continuity; no canonical field, stage or disposition changes.

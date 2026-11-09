@@ -1,0 +1,48 @@
+{
+  "id": "ak-petersburg-borough-undated",
+  "current_row_sha256": "0cfacbd40eeed6a3aed2938025d5ca3549e627627244203e175c40bebf5cbe57",
+  "recommendation": "unresolved",
+  "event_id": 863,
+  "meeting_id": 851,
+  "item_id": 707,
+  "published_file_observations": [
+    {
+      "file_id": 1922,
+      "type": "Agenda"
+    },
+    {
+      "file_id": 1923,
+      "type": "Agenda Packet"
+    }
+  ],
+  "sources": [
+    {
+      "attempt_id": "c150e51e03d64728be8d2de1897508d8",
+      "url": "https://petersburgak.portal.civicclerk.com/",
+      "body_sha256": "72ff3c32d66530ae5bc48f3e75ee00cc7215c154dfdeca90e42d340124725cd0",
+      "text_sha256": "40a8de9a5770b6a4bb6ec8c94721d5ef1a38a2d4b3e388e5aa1e8756371f7153",
+      "body_observed_at": "2026-11-09T19:07:28.143647Z"
+    },
+    {
+      "attempt_id": "4a0bbdecf58e4d57857e8ecbfc35526d",
+      "url": "https://petersburgak.portal.civicclerk.com/event/863/files",
+      "body_sha256": "00f9ed46bca61a6e322d08ec64cf927e2b9fdc9eb3013166f46860c9e91abb56",
+      "text_sha256": "dc50ee868eea41322755df633f5ca0aaaca3d19d95fb8ff379f07e03455cd430",
+      "body_observed_at": "2026-11-09T19:07:59.893771Z"
+    },
+    {
+      "attempt_id": "a0c135373d5a485cab6a9f561991394d",
+      "url": "https://petersburgak.api.civicclerk.com/v1/Meetings/851",
+      "body_sha256": "33882e4b6f87d3e623b22906d9f0a5052bc13e1dfa4e1c4adc08946bfa23e56e",
+      "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "body_observed_at": "2026-11-09T19:08:48.480392Z"
+    }
+  ],
+  "remaining_questions": [
+    "Obtain the official November 2 first-reading vote/minutes for Ordinance 2026-24. Event 863 maps to meeting 851 and item 707; at this observation only agenda 1922 and packet 1923 are published, and the item has empty minutes content with hasMotion/hasVote false. Those metadata defaults are not evidence of a failed motion or no vote.",
+    "Check subsequent official readings and any final adopted instrument, amendments and operative legal effect when published. The portal lists November 16 as the next Assembly event; a future listed event is not evidence of action."
+  ],
+  "whole_record_closed": false,
+  "canonical_changes": 0,
+  "scope": "Official portal/file-list observation; no inference from absent metadata or future meetings."
+}
