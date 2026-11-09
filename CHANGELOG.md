@@ -2,6 +2,8 @@
 
 ## Working QA after v2026.11.9.post1
 
+Coachella’s official August 26 minutes confirm a separate 5–0 second-reading vote on Ordinance 1231, strengthening three narrative fields without inferring publication or interim termination. Vacaville’s extension agenda and inspected navigation routes are retained; authenticated interim acts and actual transition remain held. Neither record closes and no counts change. [Review](work/research/2026-11-09/post-release-qa/coachella-vacaville-review.md).
+
 Solano County’s signed Ordinance 2025-1864 expressly repeals the entire interim BESS moratorium, extension and amendment. The signed copy prints December 5, 2025 as effective and operative; five cells now include that county-recorded endpoint and the separately retained 30-days-after-adoption wording. One historical QA hold closes: 1,460 unresolved, 115 corrected-resolved, 200 confirmed-unchanged. Status categories and headline totals remain unchanged. [Review](work/research/2026-11-09/post-release-qa/solano-review.md).
 
 Monterey Park’s signed original and extension now directly establish adoption, immediate-effect clauses and the change from Saturn Park to citywide scope. Three narrative fields distinguish the extension’s relative-term wording from its explicit January 21, 2027 sunset. The original is newly retained; the extension is reused from the existing archive. Actual temporary-moratorium termination remains unresolved, with no status or headline changes. [Review](work/research/2026-11-09/post-release-qa/monterey-park-review.md).

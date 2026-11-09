@@ -1,0 +1,46 @@
+{
+  "reviewed_at": "2026-11-09T21:29:54.768802+00:00",
+  "sources": [
+    {
+      "attempt_id": "b884499972e040c8ba5b6bb6e4b1eb46",
+      "url": "https://vacaville.granicus.com/GeneratedAgendaViewer.php?clip_id=1963&view_id=2",
+      "body_sha256": "698c7f6e307dec62b06b20a338e842227f1ce2417508b7dc2366aa61bf5405e3",
+      "reviewed_text_sha256": "bb5dd62255bd04dd613e7fe0f49aea881eb98cea367c48178c6134f00643f211",
+      "body_observed_at": "2026-11-09T21:26:07.170020Z",
+      "locator": "June 25, 2024 agenda item C, extension of Interim Ordinance 1993. Captured anchor attributes link to the item player, not an adopted ordinance PDF.",
+      "role": "Agenda identity and retrieval-route evidence only."
+    }
+  ],
+  "non_substantive_navigation_attempts": [
+    {
+      "attempt_id": "682c0cb074de47af901286a1b2bc1ea2",
+      "url": "https://vacaville.granicus.com/MediaPlayer.php?clip_id=1963&meta_id=112008&view_id=2",
+      "final_url": "https://vacaville.granicus.com/player/clip/1963?meta_id=112008&view_id=2&redirect=true",
+      "status": 200,
+      "body_sha256": "c732a064cdbae8254c7e4d908af0c3ac09790616ddb71bdb8d01caeb907fc88c",
+      "text_sha256": "48f99c5d95fe0563809a575696c792ba9fd9428bb172fb3726cc13bca3236879",
+      "body_observed_at": "2026-11-09T21:26:32.297378Z"
+    },
+    {
+      "attempt_id": "7a53be15132d4078ab006dcb8cf72a4e",
+      "url": "https://vacaville.granicus.com/AgendaViewer.php?view_id=5&clip_id=1963",
+      "final_url": "https://vacaville.granicus.com/GeneratedAgendaViewer.php?view_id=5&clip_id=1963",
+      "status": 200,
+      "body_sha256": "926a963a48cbfcaafc6c88524c03fb4ce99b47c4c972e99cf00365a5fe7dc78d",
+      "text_sha256": "07b696c1de78574511aa2eb35fbe189a4417c036c117e39598cd49fe4a2044f1",
+      "body_observed_at": "2026-11-09T21:26:55.198172Z"
+    }
+  ],
+  "prior_checks": {
+    "signed2015_body_text_pair": 1,
+    "retained_may_staff_text": 1,
+    "recovered_may_packet_body": 1
+  },
+  "findings": [
+    "The retained June25 agenda identifies an extension of interim1993 for consideration; it is not an adoption record.",
+    "The captured agenda/player pages inspected in this phase do not expose an adopted1994 attachment. View5 returned the generated agenda route; this limited retrieval result is not evidence that adopted records do not exist.",
+    "The retained signed2015 and recovered May2024 packet remain available and were hash-checked. Their prior findings are unchanged."
+  ],
+  "next_source_requirement": "Use an authenticated1993/1994 copy or a named city clerk/meeting record establishing actual interim termination. Preserve the current row\u2019s separate parcel-specific non-lithium applicability gap; do not substitute the unsigned May draft or scheduled agenda for an executed act.",
+  "scope": "Three of six HTTP client retrievals used; one agenda archived, two navigation captures retained privately; no canonical field or disposition changes."
+}

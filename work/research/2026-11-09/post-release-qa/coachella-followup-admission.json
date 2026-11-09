@@ -1,0 +1,24 @@
+{
+  "admitted_at": "2026-11-09T21:28:22.002287+00:00",
+  "authorization_basis": "Standing user goal: two bounded HTTP retrievals for official Coachella adoption minutes and linked enacted/publication record if present. Reuse retained1231 draft and transcript. No paid providers, browser, models or outreach.",
+  "target_record_ids": [
+    "ca-coachella-2026"
+  ],
+  "caps": {
+    "exa": 0,
+    "serpapi": 0,
+    "googlenews": 0,
+    "gdelt": 0,
+    "search_total": 0,
+    "fetch": 2
+  },
+  "initial_targets": [
+    "https://mccmeetings.blob.core.usgovcloudapi.net/coachelaca-pubu/MEET-Minutes-6e83a6f9608c45e9ac429e0d3820fc8c.pdf"
+  ],
+  "duplicate_check": "Retained accepted sources include draft1231 and August26 transcript, not this separate MEET-Minutes PDF. Frozen nationwide and CA source manifests checked.",
+  "stop_conditions": [
+    "Two client HTTP retrievals maximum.",
+    "Separate item6 second-reading vote from other consent-calendar vote.",
+    "Minutes do not prove publication or express interim termination."
+  ]
+}
