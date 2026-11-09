@@ -735,3 +735,6 @@ Exit: repeatable refresh with visible freshness, costs, failures and unresolved 
 
 - [x] Visually assess LB613’s enacted marked text on pages 3/5/6/7/8/9; distinguish municipal information-access changes and the subsection (6)→(7) cross-reference from unchanged surrounding data-center incentive terms. Apply one guarded summary cell; preserve sponsor/effective-date/current-force holds.
 - [x] Verify five LB1111 working artifacts served from `564c42f`; Pages run `42685417546` succeeded.
+
+- [x] Compare retained LB1111 introduced and LB1010 enacted data-center clauses, preserving distinct unthresholded/20-MW proposed, 10-MW enacted and greater-than-20-MW large-load classes, reporting actors/recipients and revised decommissioning terms. Confine the known July 18 date to section 70-1506; actual AM2422/PRB path and act-wide later force remain open.
+- [x] Verify five LB613 marked-text artifacts served from `4b52fc3`; Pages run `42686417813` succeeded.

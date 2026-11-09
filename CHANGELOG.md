@@ -2,6 +2,8 @@
 
 ## Working QA after v2026.11.9.post1
 
+A retained-source LB1111/LB1010 comparison distinguishes proposed and enacted classes, reporting recipients and cost/decommissioning terms, and confines the known July 18 effective date to section 70-1506. Two summaries change; intermediary amendment history and act-wide later force remain unresolved. See [comparison](work/research/2026-11-09/post-release-qa/nebraska-transfer-comparison.md).
+
 Nebraska LB613’s enacted marked text clarifies municipal disclosure/access amendments and an updated cross-reference while carrying forward surrounding data-center investment/hiring terms. One summary cell changes after visual page review; sponsor and provision-specific effectiveness/current-force holds remain. See [review](work/research/2026-11-09/post-release-qa/nebraska-lb613-review.md).
 
 Nebraska LB1111’s retained introduced print and official name-added history support two guarded sponsor/summary clarifications. Underlying PRB minutes and the LB1010 amendment-transfer comparison remain unresolved; no categories or headline counts change. See [review](work/research/2026-11-09/post-release-qa/nebraska-retained-review.md).

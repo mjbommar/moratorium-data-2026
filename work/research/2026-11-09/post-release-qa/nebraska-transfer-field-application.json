@@ -1,0 +1,54 @@
+{
+  "applied_at": "2026-11-09T19:51:14.238272+00:00",
+  "substantive_cells": 2,
+  "derived_cells": 0,
+  "changed_cells": 2,
+  "changed_records": 2,
+  "csv_before_sha256": {
+    "local_inventory": "062e8a9932b807538d512b53fba73fbbf7ecb64620a262500b8084a98c4a55f0",
+    "state_policy": "8d39e7991d0bf093c79ab0e2176320d1d5a1eed24270faf70d524ac30a10e43e"
+  },
+  "csv_after_sha256": {
+    "local_inventory": "062e8a9932b807538d512b53fba73fbbf7ecb64620a262500b8084a98c4a55f0",
+    "state_policy": "8e12cceaa211373133e2fb1aa11f0abed383a8c6e6a85baca332831b475d8e3f"
+  },
+  "scope_rebound_ids": [
+    "ne-lb1010-2026",
+    "ne-lb1111-2026"
+  ],
+  "scope_registry_sha256": "93f80f41ed566be35963b4f25fabe80b1559834d89c686e0c748d3e2b6052479",
+  "changes": [
+    {
+      "dataset": "state_policy",
+      "id": "ne-lb1111-2026",
+      "field": "key_provisions",
+      "before": "Proposed annual data center load reporting to the Nebraska Power Review Board, public power service terms for large data centers, cost-shift protections, decommissioning resources, and community benefit agreements. An earlier record attributes removal of the annual PRB report from the LB1010 package to PRB minutes; the underlying minutes and amendment-level transfer have not been verified in this review.",
+      "after": "Introduced proposal: annual statewide data-center load reporting by the representative organization to the Power Review Board; service-cost/risk, decommissioning and community-benefit terms for a separately defined large data center (peak demand of at least 20 MW); and supplier-website disclosures. Direct comparison with enacted LB1010 shows a different data-center class starting at 10 MW, annual operator reports to the Department of Water, Energy, and Environment and Natural Resources Committee, and revised cost/decommissioning terms. The proposed section 70-1025 PRB-report amendment is absent from retained LB1010. This text comparison does not establish the AM2422 transfer path or validate the inherited PRB-minutes attribution.",
+      "kind": "substantive"
+    },
+    {
+      "dataset": "state_policy",
+      "id": "ne-lb1010-2026",
+      "field": "key_provisions",
+      "before": "Adopted the Large Load Customer Regulation Act and changed cryptocurrency mining and data center provisions. Requires large-load interconnection standards, study fees, cost allocation to large-load customers, curtailment procedures, annual data center reports on electricity demand, water use, incentives, energy measures, renewable commitments, and service life, plus decommissioning-cost responsibility and community benefit agreements for data centers.",
+      "after": "Adopted the Large Load Customer Regulation Act for new or expanded retail-load interconnections exceeding 20 MW at one site, with interconnection standards, study fees, cost/risk allocation and curtailment procedures. A separate data-center definition in section 70-1506 uses peak demand of at least 10 MW. That section provides utility cost/load-study powers and requires annual owner/operator reports by September 30 to the Department of Water, Energy, and Environment and Natural Resources Committee, full decommissioning-cost responsibility and community benefit agreements with affected communities. The retained compiled statute identifies July 18, 2026 as section 70-1506\u2019s effective date; that date is not generalized to every provision, and act-wide present force remains unverified.",
+      "kind": "substantive"
+    }
+  ],
+  "verify_rows": 979,
+  "row_transitions": [
+    {
+      "dataset": "state_policy",
+      "id": "ne-lb1010-2026",
+      "before_sha256": "0802b4de547bc94cd11c4afbf67b147f1d60afab53944bf6fe7854a1a338b4f8",
+      "after_sha256": "a88a0ed98e950adb82011c86dedefffe6b88eef0adb90072935642012e96950c"
+    },
+    {
+      "dataset": "state_policy",
+      "id": "ne-lb1111-2026",
+      "before_sha256": "f0d82ed5d23eb015bfb8a17975900558311937009e184b43ef0c17e8aacc84d5",
+      "after_sha256": "718a29d08c45b01981772d5c70b161206eaea7fc66fa71655bfb18b3219a682e"
+    }
+  ],
+  "scope": "Reviewed source observations, classification correction and explicit unresolved facts; all IDs retained. No current-law census asserted."
+}
