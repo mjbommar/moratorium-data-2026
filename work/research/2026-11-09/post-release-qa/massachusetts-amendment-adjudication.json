@@ -1,0 +1,83 @@
+{
+  "records": [
+    {
+      "id": "ma-chapter-238-of-the-acts-of-2024-g-l-c-64h-section-6-zz",
+      "recommendation": "unresolved",
+      "current_row_sha256": "c926c22fb90c104e41267e204a1618f835679482e60e4dd8b6963816a5250423",
+      "prior_questions": [
+        "No network acquisition or later live docket check during this task.",
+        "No exhaustive later amendment or repeal history; no facility-specific certification or occupancy lookup.",
+        "Published amendment index also names 2026 Chapter 101 section 22 (effective 2027-01-01) and Chapter 102 sections 135-139 (effective 2026-06-12); their effects on paragraph (zz) were not checked: https://malegislature.gov/Laws/SessionLaws/Acts/2026/Chapter101 and https://malegislature.gov/Laws/SessionLaws/Acts/2026/Chapter102."
+      ],
+      "resolved_questions": [
+        "Chapter101 section22 adds housing exemption(aaa), not a change to data-center paragraph(zz); section49 makes22 effective January1,2027.",
+        "Chapter102 sections135\u2013139 substitute disability terminology mapped to existing paragraphs(u) and(cc), not paragraph(zz)."
+      ],
+      "remaining_questions": [
+        "Complete the remaining amendment/repeal and relevant judicial/administrative-force checks before assigning an in-force legal-effect classification. The named2026 chapter101/102 paragraph-impact checks are now performed.",
+        "Facility-specific certification and qualification periods are not established; the row summarizes statutory conditions, not entitlement of a particular facility.",
+        "Compiled legislature page still displays the older disability terminology in(u)/(cc); use the enacted session-law text for those substitutions rather than treating the compiled display as fully consolidated current law."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://malegislature.gov/Laws/SessionLaws/Acts/2026/Chapter101",
+      "attempt_id": "1610514eeced43c7a05f60037ab0f4a4",
+      "body_sha256": "531b73c86757c72df4f5ad8c59ccd11b52bdb41a1986099020dd66a209ce2a52",
+      "text_sha256": "b36cbb44c02eb5aa6e2c0c77e5d20cbfd37056f20f1737caf8c59bf056dbd753",
+      "body_observed_at": "2026-11-09T22:26:38.511275Z"
+    },
+    {
+      "url": "https://malegislature.gov/Laws/SessionLaws/Acts/2026/Chapter102",
+      "attempt_id": "a309b88ddb274b7aaafa20a3186dec63",
+      "body_sha256": "eaae2184d0241145f4caf6dc23aeb73c99550b64dde1456905fe69f77c090366",
+      "text_sha256": "44d401ccc4d60ad7132fb00418dbe8f599d129c983033d21ae7c569d5dccedb2",
+      "body_observed_at": "2026-11-09T22:26:38.570073Z"
+    },
+    {
+      "url": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleIX/Chapter64H/Section6",
+      "attempt_id": "cbcc181b7f174316b9e4c3df56602423",
+      "body_sha256": "8c4dee02d80364adc299e7c201bbb46ecaf192e9fc7e9ef0747cd5c0aacb0625",
+      "text_sha256": "9c6cf37180b32c2eecccb247ecccd456fb22b5caa913c359185304a0fc9ba247",
+      "body_observed_at": "2026-11-09T22:26:40.920330Z"
+    }
+  ],
+  "reused_sources": [
+    {
+      "url": "https://malegislature.gov/Laws/SessionLaws/Acts/2024/Chapter238",
+      "body_sha256": "cd1e1dfe2e7a26f8903839dde0310b7f867cc0d9d162986a3ba68ed32e2f4df6",
+      "text_sha256": "f82d078a80cbf5bd9cd5c3f7ff63970e574894380360bf890ebe8abf8ac0ebb8",
+      "acquired_at": "2026-11-05T23:38:42.010158+00:00"
+    },
+    {
+      "url": "https://www.mass.gov/info-details/mass-general-laws-c64h-ss-6",
+      "body_sha256": "852e0486c528c46ca7d0d624f26d4acd7aecac345da153674580dd24f59ba227",
+      "text_sha256": "eed72af258063297132e27b4c2bdd36426b80386af015e94ac322f7bf00612e3",
+      "acquired_at": "2026-11-07T22:21:12.290174+00:00"
+    }
+  ],
+  "http_used": 3,
+  "http_cap": 3,
+  "canonical_field_changes": 0,
+  "whole_record_closures": 0,
+  "reviewed_sections": {
+    "chapter101": [
+      22,
+      49
+    ],
+    "chapter102": [
+      135,
+      136,
+      137,
+      138,
+      139
+    ],
+    "compiled64H6": [
+      "u",
+      "cc",
+      "zz"
+    ]
+  },
+  "review_scope": "Named amendment sections and relevant compiled paragraphs; not whole-act substantive review or universal current-force certification."
+}
