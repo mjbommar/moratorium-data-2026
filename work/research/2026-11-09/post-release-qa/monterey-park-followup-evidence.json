@@ -1,0 +1,58 @@
+{
+  "reviewed_at": "2026-11-09T21:16:58.653563+00:00",
+  "sources": [
+    {
+      "attempt_id": "8ac75f06bcb34decbd1466e012d7a079",
+      "url": "https://www.montereypark.ca.gov/DocumentCenter/View/18538/2272-Moratorium-on-Saturn-Park?bidId=",
+      "body_sha256": "aed3299d1bcd33601e19f38245c9388636806d187da09671ba9f2ff7a3eb84ce",
+      "automatic_text_sha256": "5f386d751d9f36584392364c78ea28f918f0b591b762e386d122e150c8b6636b",
+      "reviewed_text_sha256": "1d674741c91812c04d13a04f9414608e7fc473f14d81b1938cf9d6013352a9ea",
+      "body_observed_at": "2026-11-09T21:15:46.395849Z",
+      "locator": "Ordinance 2272 pages 2\u20133 section 4: Saturn Park scope and 45 days; page 4 sections 11\u201312: immediate effect and March 7 scheduled expiry; page 5: signed January 21 adoption, five ayes."
+    },
+    {
+      "attempt_id": "cc3494883bbe4ae285c2f30be1fa78a1",
+      "url": "https://www.montereypark.ca.gov/DocumentCenter/View/18710/Ord-2274---Urgency-Ordinance-Extension-of-Moratorium-on-Data-Center",
+      "body_sha256": "47ab300c0b8def93619742f1f91ff69086d03bb96e4e1aa0bc5b3b49bd74f0a2",
+      "text_sha256": "9050cf8cf6ae3f99e7ef98b28e1877d55cc7389d47ce678ef7282defc1de15a0",
+      "body_observed_at": "2026-11-05T16:52:24.857423+00:00",
+      "locator": "Ordinance 2274 pages 2\u20133 sections 4A/4D: citywide scope and 10 months 15 days following adoption; page 4 sections 11\u201312: immediate effect and January 21, 2027 scheduled expiry; page 5: signed March 4 adoption, five ayes.",
+      "reuse": "Original November5 capture reused without refetch."
+    }
+  ],
+  "retained_source_hash_checks": [
+    {
+      "label": "P76",
+      "text_sha256": "3331e2dbd65a17bd24d7a827f792ca4362efb179d2797b7ddac869aaf2a45045",
+      "body_sha256": "b862387fd7962dd1ed0dd16dcee7b17c1787e398c2a0ef8dc6d288bf6ee77516",
+      "locator_as_supplied": "text lines 85-89, 609-628"
+    },
+    {
+      "label": "P79",
+      "text_sha256": "fa7e12aa37d45533a29d22b86b02ecaf6788675d3b0acfca398dd0776bda02ea",
+      "body_sha256": "1f87f75a009457170ce5311fc9dd8656a9134ede3c6ea1eb9b833e4a05187156",
+      "locator_as_supplied": "text lines 85-89, 591-611"
+    },
+    {
+      "label": "PV",
+      "text_sha256": "d2a9d7d74fad2bb1af90c566082928a2724ca689f30900f2e4635595500f31cd",
+      "body_sha256": "5d67d34c9336bb5f3d2946dec0e261c90d57db1e9147af0f638212af1a7accdd",
+      "locator_as_supplied": "PDF physical pages 4 (clerk certification), 8 (vote totals), 11 (signed proposition effective-date clause); visually inspected"
+    },
+    {
+      "label": "ABC7/CNS recovered body",
+      "text_sha256": "cec9c1d4776c2244b2e6fcb4b2de94a1ae93a0d374c6d68550d5d535abbecd88",
+      "body_sha256": "02b3aabd67dee65822f8cc41b6e45b61ae2dcd23bc42867cb16b9ec9dd5495ba",
+      "date_note": "September 20 report; capture November 9 UTC."
+    }
+  ],
+  "findings": [
+    "Ordinance 2272 was signed and adopted January 21, 2026 with five ayes. It provides immediate effect, a 45-day term and explicit March 7 scheduled expiry unless extended; its interim scope is Saturn Park.",
+    "Ordinance 2274 was signed and adopted March 4, 2026 with five ayes. It provides immediate effect and citywide scope. Sections 4A/4D state 10 months and 15 days after adoption, while section 12 states January 21, 2027 expiry unless extended. Preserve those differing anchors without inferring an actual endpoint.",
+    "Retained Ordinance 2276 section 17 gives its provisions priority in a conflict; this does not expressly terminate every provision of 2272/2274. Earlier permanent-ban and election findings remain retained; no new ballot observation."
+  ],
+  "remaining_questions": [
+    "Establish actual early termination or continued overlap of temporary Ordinances 2272/2274 after 2276/2279/Measure NDC, and any authority resolving the extension\u2019s differing term anchors. Permanent-ban adoption alone does not establish an actual termination day."
+  ],
+  "scope": "One new original capture and one reused signedextension; adoptedterms now reviewed, precise termination remains held."
+}

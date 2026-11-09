@@ -1,0 +1,24 @@
+{
+  "admitted_at": "2026-11-09T21:15:45.063040+00:00",
+  "authorization_basis": "Standing user goal; up to two HTTP retrievals for named Monterey Park original moratorium record. Reuse retained2274/2276/2279/election evidence. No paid APIs, browser, models or outreach.",
+  "target_record_ids": [
+    "ca-monterey-park-2026"
+  ],
+  "caps": {
+    "exa": 0,
+    "serpapi": 0,
+    "googlenews": 0,
+    "gdelt": 0,
+    "search_total": 0,
+    "fetch": 2
+  },
+  "initial_targets": [
+    "https://www.montereypark.ca.gov/DocumentCenter/View/18538/2272-Moratorium-on-Saturn-Park?bidId="
+  ],
+  "duplicate_check": "Retained CA003 metadata and CA archive checked:2274 already exists as cc3494883bbe4ae285c2f30be1fa78a1 and is reused.18538 appears as discovery/page link, not retained original fetch.",
+  "stop_conditions": [
+    "Two reserved HTTP retrievals maximum; do not refetch retained2274.",
+    "Do not turn conflicting term clauses into a computed actual endpoint.",
+    "Keep moratorium termination distinct from permanent prohibition and ballot passage."
+  ]
+}
