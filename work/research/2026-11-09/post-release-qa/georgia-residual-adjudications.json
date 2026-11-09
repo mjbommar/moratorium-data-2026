@@ -43,11 +43,9 @@
     },
     {
       "id": "ga-hb-1059-2026",
-      "recommendation": "unresolved",
+      "recommendation": "corrected_resolved",
       "current_row_sha256": "24e971b2bec174bb170d309c9e2dbd51e72b2d504c9e75e940849a5eba6286d9",
-      "remaining_questions": [
-        "Establish the named bill\u2019s terminal outcome from complete official action history and applicable session/no-carryover authority. House/Senate adjournment and the biennium consequence are now established; any remaining gap is bill-specific action-history completeness, not the session-end date."
-      ],
+      "remaining_questions": [],
       "basis": "Introduced bill contains proposed July 2026\u2013December 2028 permit limits. Legislature extraction and alternate retained captures provide summary or loading page only; prior matching official-history review supports the attributed outcome. The 403 is not a history.",
       "source_evidence": [
         {
@@ -80,16 +78,15 @@
       "resolved_dimensions": [
         "Actual Senate sine-die adjournment on April 2, 2026, independently supported by the Senate-created daily status sheet retained by the state library.",
         "Actual House adjournment and the second-year biennium consequence supported by recovered House journal and Georgia courts summary; see georgia-session-evidence.json."
-      ]
+      ],
+      "closure_source_pointer": "georgia-journal-followup-evidence.json",
+      "closure_basis": "Prior independent introduced/provision and status assessments retained; recovered complete House journal supplies HB1059\u2019s missing primary action record and HB1063\u2019s adopted substitute. SB421\u2019s retained complete official history and proposal assessment combine with recovered actual adjournment/biennium evidence. Named failed outcomes are bounded inferences, not successor-law findings."
     },
     {
       "id": "ga-hb-1063-2026",
-      "recommendation": "unresolved",
-      "current_row_sha256": "b1d9950803c3c82cfe697d60715877f1ec3c1e371e77f6d653594ca88b6d9648",
-      "remaining_questions": [
-        "Establish whether recovered Committee Substitute LC60 0283S is identical to the actual House-passed substitute, or recover that passed print; the committee print verifies 100 MW and contract/PSC terms but does not alone prove passed-version identity.",
-        "Establish full bill-specific terminal history; the recovered session-end/biennium sources resolve the common date/consequence question."
-      ],
+      "recommendation": "corrected_resolved",
+      "current_row_sha256": "b5ae00aa6d79aecbd062a8c9d8ffd1d7fca3cce37f93d782ab9608f893543582",
+      "remaining_questions": [],
       "basis": "Introduced bill says 100 megawatt hours; third-party timeline identifies passage by substitute and referral and quotes a different 100-megawatt formulation. Keep versions distinct. Prior same-bill official-history review supports the attributed outcome; neither first-reader page nor 403 supplies the passed text.",
       "source_evidence": [
         {
@@ -124,11 +121,13 @@
         "Actual House adjournment and the second-year biennium consequence supported by recovered House journal and Georgia courts summary; see georgia-session-evidence.json."
       ],
       "row_guard_rebinding": {
-        "before_sha256": "850dc7254940b1de265b23050b457050b61cbb8adaf5c7b34aa36ed791c0d737",
-        "after_sha256": "b1d9950803c3c82cfe697d60715877f1ec3c1e371e77f6d653594ca88b6d9648",
-        "application": "georgia-version-field-application.json"
+        "before_sha256": "b1d9950803c3c82cfe697d60715877f1ec3c1e371e77f6d653594ca88b6d9648",
+        "after_sha256": "b5ae00aa6d79aecbd062a8c9d8ffd1d7fca3cce37f93d782ab9608f893543582",
+        "application": "georgia-journal-field-application.json"
       },
-      "subsequent_version_review": "georgia-version-evidence.json"
+      "subsequent_version_review": "georgia-version-evidence.json",
+      "closure_source_pointer": "georgia-journal-followup-evidence.json",
+      "closure_basis": "Prior independent introduced/provision and status assessments retained; recovered complete House journal supplies HB1059\u2019s missing primary action record and HB1063\u2019s adopted substitute. SB421\u2019s retained complete official history and proposal assessment combine with recovered actual adjournment/biennium evidence. Named failed outcomes are bounded inferences, not successor-law findings."
     },
     {
       "id": "ga-hb-1192-2024",
@@ -328,11 +327,9 @@
     },
     {
       "id": "ga-sb-421-2026",
-      "recommendation": "unresolved",
+      "recommendation": "confirmed_unchanged",
       "current_row_sha256": "28053edf76a514ead832f87c8202c3c4976f040120d57c7251ff8571a2108f50",
-      "remaining_questions": [
-        "Establish the named bill\u2019s terminal outcome from complete official action history and applicable session/no-carryover authority. House/Senate adjournment and the biennium consequence are now established; any remaining gap is bill-specific action-history completeness, not the session-end date."
-      ],
+      "remaining_questions": [],
       "basis": "SB 421 introduced Data Center Transparency Act would restrict local-government nondisclosure contracts concerning any entity\u2019s electricity or water usage, including consumptive and nonconsumptive water. It is a local-government disclosure proposal, not a construction moratorium. The retained official bill page captured 2026-11-05 lists Senate Read and Referred 2026-01-27 as its last action. Death at 2026-04-02 sine die remains attributed to 2026-07-31 historical research.",
       "source_evidence": [
         {
@@ -365,7 +362,9 @@
       "resolved_dimensions": [
         "Actual Senate sine-die adjournment on April 2, 2026, independently supported by the Senate-created daily status sheet retained by the state library.",
         "Actual House adjournment and the second-year biennium consequence supported by recovered House journal and Georgia courts summary; see georgia-session-evidence.json."
-      ]
+      ],
+      "closure_source_pointer": "georgia-journal-followup-evidence.json",
+      "closure_basis": "Prior independent introduced/provision and status assessments retained; recovered complete House journal supplies HB1059\u2019s missing primary action record and HB1063\u2019s adopted substitute. SB421\u2019s retained complete official history and proposal assessment combine with recovered actual adjournment/biennium evidence. Named failed outcomes are bounded inferences, not successor-law findings."
     }
   ],
   "reviewer": "root coordinator; retained accepted-review and payload integrity audit",
@@ -373,7 +372,7 @@
   "verified_body_and_text_pairs": 17,
   "new_network_acquisitions": 0,
   "canonical_changes": 0,
-  "whole_record_closures": 4,
+  "whole_record_closures": 7,
   "scope": "Replace process-only placeholders with the factual gaps already identified in retained source reviews. No new factual acceptance, later-action absence inference or observation-date renewal.",
   "subsequent_review": "georgia-session-evidence.json"
 }

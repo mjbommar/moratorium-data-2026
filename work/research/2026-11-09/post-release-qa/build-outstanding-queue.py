@@ -166,13 +166,13 @@ def main():
         for record in json.loads(georgia.read_text())['records']:
             key=('state_policy',record['id'])
             assert digest(json.dumps(current[key],sort_keys=True,separators=(',',':'),ensure_ascii=False).encode())==record['current_row_sha256']
-            assert record['recommendation'] in ('unresolved','corrected_resolved')
+            assert record['recommendation'] in ('unresolved','corrected_resolved','confirmed_unchanged')
             if record['recommendation']=='unresolved':
                 assert record['remaining_questions']
                 overlays[record['id']]=[public_text(q) for q in record['remaining_questions']]
             else:
                 assert not record['remaining_questions']
-                assert next(r for r in f['records'] if r['id']==record['id'])['disposition']=='corrected_resolved'
+                assert next(r for r in f['records'] if r['id']==record['id'])['disposition']==record['recommendation']
     rows=[]
     for entry in f['records']:
         if entry['disposition']!='unresolved':continue

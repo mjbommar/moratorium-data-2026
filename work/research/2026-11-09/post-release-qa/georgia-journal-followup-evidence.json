@@ -1,0 +1,39 @@
+{
+  "source": {
+    "attempt_id": "6155dfea4dd44a9f9afe7e192554ba2e",
+    "url": "https://www.legis.ga.gov/api/document/docs/default-source/house-journal-document-library/2026-regular-session-house-journal.pdf",
+    "status": 200,
+    "body_sha256": "11a2c9d53552fdf8781c72835700ac7a4701af12f17cfd599d5c83b4b3cca560",
+    "text_sha256": "612f1b63da217618a1089c4ae24713023b6fd56b8b1a9fc66a5c1f17500fe443",
+    "body_observed_at": "2026-11-09T20:10:31.494405Z"
+  },
+  "reviewer": "root coordinator, retained journal layout and rendered-page review",
+  "findings": [
+    {
+      "id": "ga-hb-1063-2026",
+      "locator": "Printed journal pages 636\u2013638, PDF pages 640\u2013642, February 17, 2026",
+      "finding": "HB1063 heading begins after the preceding bill\u2019s 164\u20130 vote. It introduces the committee substitute as read and adopted; prints all substantive sections including the 100 MW definition, contract protections, prospective applicability and PSC determinations; then records HB1063 passage by substitute 159\u20135. The preceding 164\u20130 vote must not be assigned to HB1063."
+    },
+    {
+      "id": "ga-hb-1059-2026",
+      "locator": "Printed pages 144 and 177, PDF pages 148 and 181; complete House numerical tabulation PDF page 5348",
+      "finding": "The journal identifies HB1059 and its referral; February 2 second readings include HB1059. Complete numerical tabulation lists only printed pages 144 and 177, corroborating the retained historical last-action account and showing no later indexed House action for this bill."
+    },
+    {
+      "id": "ga-sb-421-2026",
+      "locator": "Previously retained official status history, source entry in georgia-residual-adjudications.json, plus georgia-session-evidence.json",
+      "finding": "Retained full official history ends January 27 Senate Read and Referred, with January 22 introduction. Existing provision review inspected the introduced transparency proposal. Recovered actual adjournment and official biennium explanation clear the common terminal-session gap."
+    }
+  ],
+  "comparison_scope": "The journal prints the operative substitute text for HB1063; this is direct adopted-text evidence, not an assumption that every committee version passed unchanged.",
+  "new_network_acquisitions": 0,
+  "visually_reviewed_journal_pages": [
+    640,
+    641,
+    642
+  ],
+  "limitations": [
+    "Failed outcomes are inferred from the combined retained histories/journal and official session/biennium consequence; no literal failed label is invented.",
+    "Other instruments, successor law and universal later-force certification remain outside these named failed proposals."
+  ]
+}

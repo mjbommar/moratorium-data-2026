@@ -1,9 +1,9 @@
 {
   "event_cutoff_utc": "2026-11-07T13:38:39.877065Z",
   "counts": {
-    "unresolved": 1475,
-    "corrected_resolved": 106,
-    "confirmed_unchanged": 194,
+    "unresolved": 1472,
+    "corrected_resolved": 108,
+    "confirmed_unchanged": 195,
     "superseded_duplicate": 0,
     "not_attempted": 0
   },
@@ -13,9 +13,9 @@
       "confirmed_unchanged": 3
     },
     "remaining1552": {
-      "unresolved": 1253,
-      "corrected_resolved": 106,
-      "confirmed_unchanged": 191,
+      "unresolved": 1250,
+      "corrected_resolved": 108,
+      "confirmed_unchanged": 192,
       "superseded_duplicate": 0
     }
   },
@@ -5089,12 +5089,9 @@
     {
       "id": "ga-hb-1059-2026",
       "dataset": "state_policy",
-      "disposition": "unresolved",
-      "public_receipt_pointer": "work/research/2026-11-08/full-inventory-integrated-application/README.md",
-      "residual_reference": {
-        "dataset": "state_policy",
-        "id": "ga-hb-1059-2026"
-      },
+      "disposition": "corrected_resolved",
+      "public_receipt_pointer": "work/research/2026-11-09/post-release-qa/georgia-journal-closures.json",
+      "residual_reference": null,
       "recorded_evidence_fingerprints_sha256": [
         "071b224ac92a2f3ba213be84222c78ea940162bca6731b1ea7110ff6d4194bf9",
         "24e971b2bec174bb170d309c9e2dbd51e72b2d504c9e75e940849a5eba6286d9",
@@ -5111,17 +5108,15 @@
         "e53270f2afa45c684543e8dc90e02e82541bbb27a69332d275776241213729ee",
         "eb65d0e0cf2e5531fe4552cb44f3bef8230d46a769f42bd3dab15254675d47da",
         "ee400ee03161a8939d9bfea51e97cd253468c495cc0a1abeb1aea4b70bbb6679"
-      ]
+      ],
+      "post_release_question_review_pointer": "work/research/2026-11-09/post-release-qa/georgia-journal-closures.json"
     },
     {
       "id": "ga-hb-1063-2026",
       "dataset": "state_policy",
-      "disposition": "unresolved",
-      "public_receipt_pointer": "work/research/2026-11-08/full-inventory-integrated-application/README.md",
-      "residual_reference": {
-        "dataset": "state_policy",
-        "id": "ga-hb-1063-2026"
-      },
+      "disposition": "corrected_resolved",
+      "public_receipt_pointer": "work/research/2026-11-09/post-release-qa/georgia-journal-closures.json",
+      "residual_reference": null,
       "recorded_evidence_fingerprints_sha256": [
         "301e217dc5d384b4243ee12b56ae51d5ecf1d0b0becedae1da952a1d361bac65",
         "5b8066c430bbc9c042168c0b90e3b1a65b55b492dc195315d5b2a3b6bbeaa127",
@@ -5140,7 +5135,8 @@
         "eb65d0e0cf2e5531fe4552cb44f3bef8230d46a769f42bd3dab15254675d47da",
         "ee400ee03161a8939d9bfea51e97cd253468c495cc0a1abeb1aea4b70bbb6679",
         "fd5f25421faa3e8755015408033e3ae046253c30938ca87aff758acf868521a3"
-      ]
+      ],
+      "post_release_question_review_pointer": "work/research/2026-11-09/post-release-qa/georgia-journal-closures.json"
     },
     {
       "id": "ga-hb-1192-2024",
@@ -5730,12 +5726,9 @@
     {
       "id": "ga-sb-421-2026",
       "dataset": "state_policy",
-      "disposition": "unresolved",
-      "public_receipt_pointer": "work/research/2026-11-08/full-inventory-integrated-application/README.md",
-      "residual_reference": {
-        "dataset": "state_policy",
-        "id": "ga-sb-421-2026"
-      },
+      "disposition": "confirmed_unchanged",
+      "public_receipt_pointer": "work/research/2026-11-09/post-release-qa/georgia-journal-closures.json",
+      "residual_reference": null,
       "recorded_evidence_fingerprints_sha256": [
         "0d1a39ed42e748f6bed8307b0a1ac5ab4aed43860eb43c87f46cf4f8761bd632",
         "214c8a40a1ad556aeff05909fddf5a4b28e79010e3dd528b15a3c717bee80d44",
@@ -5745,7 +5738,8 @@
         "aee12b1f87abfc329aee39e8d86833e6f8d071310594b5ad32de1d638eb5f40b",
         "eff9b9aaec358580abe102560fe8eed9069b9b7a173221a62a3e859de384523c",
         "f8adbdc9cd880b5fc224ad73ad1c021e3713e76753102f6937ddd651fac91816"
-      ]
+      ],
+      "post_release_question_review_pointer": "work/research/2026-11-09/post-release-qa/georgia-journal-closures.json"
     },
     {
       "id": "ga-social-circle-2025",
@@ -37377,6 +37371,36 @@
       "cohort": "remaining1552",
       "review_pointer": "work/research/2026-11-09/post-release-qa/georgia-version-closures.json",
       "reviewed_at": "2026-11-09T20:19:58.255738+00:00"
+    },
+    {
+      "id": "ga-hb-1059-2026",
+      "dataset": "state_policy",
+      "before": "unresolved",
+      "after": "corrected_resolved",
+      "row_sha256": "24e971b2bec174bb170d309c9e2dbd51e72b2d504c9e75e940849a5eba6286d9",
+      "cohort": "remaining1552",
+      "review_pointer": "work/research/2026-11-09/post-release-qa/georgia-journal-closures.json",
+      "reviewed_at": "2026-11-09T20:23:25.531083+00:00"
+    },
+    {
+      "id": "ga-hb-1063-2026",
+      "dataset": "state_policy",
+      "before": "unresolved",
+      "after": "corrected_resolved",
+      "row_sha256": "b5ae00aa6d79aecbd062a8c9d8ffd1d7fca3cce37f93d782ab9608f893543582",
+      "cohort": "remaining1552",
+      "review_pointer": "work/research/2026-11-09/post-release-qa/georgia-journal-closures.json",
+      "reviewed_at": "2026-11-09T20:23:25.531083+00:00"
+    },
+    {
+      "id": "ga-sb-421-2026",
+      "dataset": "state_policy",
+      "before": "unresolved",
+      "after": "confirmed_unchanged",
+      "row_sha256": "28053edf76a514ead832f87c8202c3c4976f040120d57c7251ff8571a2108f50",
+      "cohort": "remaining1552",
+      "review_pointer": "work/research/2026-11-09/post-release-qa/georgia-journal-closures.json",
+      "reviewed_at": "2026-11-09T20:23:25.531083+00:00"
     }
   ]
 }

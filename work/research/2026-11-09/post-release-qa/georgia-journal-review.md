@@ -1,0 +1,11 @@
+# Retained Georgia journal clears three scoped holds
+
+The [2026 House journal](https://www.legis.ga.gov/api/document/docs/default-source/house-journal-document-library/2026-regular-session-house-journal.pdf), printed pages 636–638 (PDF 640–642), explicitly introduces HB1063’s committee substitute as read and adopted, prints its full substantive sections, and records passage by substitute **159–5** on February 17. The 164–0 vote immediately above the HB1063 heading belongs to the preceding bill. All three journal pages were rendered and inspected.
+
+The adopted text uses **100 megawatts** peak annual demand and the contract/customer-protection, prospective-applicability and PSC clauses already reviewed in the recovered committee print. The introduced **100 megawatt-hours** wording remains separately attributed; no unit conversion is inferred. One canonical summary now cites direct adopted-text evidence.
+
+For HB1059, the journal names and refers the bill on printed page 144, includes it in February 2 second readings on page 177, and lists only those references in the complete numerical tabulation (PDF 5348). This supplies the previously missing primary procedural record. Its prior introduced-proposal assessment remains intact.
+
+For SB421, the previously retained complete official history and introduced transparency proposal were already assessed. The recovered actual House/Senate adjournment and official second-year biennium explanation resolve its shared session-end question without another acquisition.
+
+[Three scoped closures](georgia-journal-closures.json) preserve the named failed-proposal scope. Failure is an inference from the combined histories/journal and official session consequence, not an invented docket label or current-law census. [Evidence](georgia-journal-followup-evidence.json), [field application](georgia-journal-field-application.json), [disposition accounting](georgia-journal-disposition-application.json) and [validation](georgia-journal-validation.json) are retained. Seven of the nine Georgia policy holds are now closed; SB34’s offered-amendment adoption and HB1192’s post-veto proceedings remain open. No network acquisition was needed for this increment.
