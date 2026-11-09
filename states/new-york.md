@@ -3,7 +3,7 @@
 
 Working inventory for New York, generated **November 8, 2026**. Record-level refresh and later-action review remain incomplete.
 
-**152 records** — 110 classified as active or extended, 6 classified as pending, 36 classified as past.
+**152 records** — 110 classified as active or extended, 6 classified as pending, 36 classified as past, 0 classified as rejected proposals.
 
 These counts reflect inventory classifications and do not establish current enforceability.
 

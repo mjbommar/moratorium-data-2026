@@ -3,7 +3,7 @@
 
 Working inventory for Louisiana, generated **November 8, 2026**. Record-level refresh and later-action review remain incomplete.
 
-**3 records** — 2 classified as active or extended, 0 classified as pending, 1 classified as past.
+**3 records** — 2 classified as active or extended, 0 classified as pending, 1 classified as past, 0 classified as rejected proposals.
 
 These counts reflect inventory classifications and do not establish current enforceability.
 

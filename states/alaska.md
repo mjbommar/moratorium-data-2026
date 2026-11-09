@@ -3,7 +3,7 @@
 
 Working inventory for Alaska, generated **November 8, 2026**. Record-level refresh and later-action review remain incomplete.
 
-**3 records** — 1 classified as active or extended, 2 classified as pending, 0 classified as past.
+**3 records** — 1 classified as active or extended, 2 classified as pending, 0 classified as past, 0 classified as rejected proposals.
 
 These counts reflect inventory classifications and do not establish current enforceability.
 
@@ -23,14 +23,14 @@ State policy is tracked separately: **3 records** (2 typed bill rows and 1 non-b
 - **Recorded status:** 🟡 Pending
 - **Date enacted:** —
 - **Normalized date:** `—` (unverified)
-- **Duration:** Unknown; proposed term not established by the reviewed referral memorandum.
+- **Duration:** Alaska AI Docket reports the proposed ordinance would run through December 31, 2027, subject to earlier termination or extension; the official ordinance text and any operative term remain unverified.
 - **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `ak-fairbanks-north-star-borough-undated`
 - **Legal basis:** Ordinance No. 2026-42
 - **What prompted it:** —
 - **Affected projects:** —
-- **Detailed status:** Proposed Ordinance 2026-42 was referred to the Planning Commission at the October 22, 2026 assembly meeting. [VERIFY full ordinance text, proposed term, subsequent action and adoption not established by the reviewed action memorandum; coordinates await review]
+- **Detailed status:** Proposed Ordinance 2026-42 was referred to the Planning Commission at the October 22, 2026 assembly meeting. The November 10 commission agenda lists it for a public or legislative hearing; the hearing and any adoption are not established. [VERIFY full ordinance text, proposed term, subsequent action and adoption; coordinates await review]
 - **Outcome:** —
 
 ### Houston
@@ -62,7 +62,7 @@ State policy is tracked separately: **3 records** (2 typed bill rows and 1 non-b
 - **Legal basis:** Ordinance No. 2026-24
 - **What prompted it:** Proposed review of electrical capacity, generator use, cooling and other data-center impacts.
 - **Affected projects:** —
-- **Detailed status:** Proposed Ordinance 2026-24 appears for first reading in the November 2, 2026 agenda packet, with an unsigned five-page draft. It targets specified grid-capacity, generator and cooling conditions, not every data center. [VERIFY actual reading votes, final adoption, later amendments and legal force not established; coordinates await review]
+- **Detailed status:** Proposed Ordinance 2026-24 appears for first reading in the November 2, 2026 agenda packet, with an unsigned five-page draft. Alaska News reported a 5–1 vote to advance the measure, with two further readings and a public hearing required. It targets specified grid-capacity, generator and cooling conditions, not every data center. [VERIFY official reading votes, final adoption, later amendments and legal force; coordinates await review]
 - **Outcome:** —
 
 ---

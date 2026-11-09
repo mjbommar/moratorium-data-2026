@@ -3,7 +3,7 @@
 
 Working inventory for Connecticut, generated **November 8, 2026**. Record-level refresh and later-action review remain incomplete.
 
-**6 records** — 4 classified as active or extended, 1 classified as pending, 1 classified as past.
+**6 records** — 4 classified as active or extended, 0 classified as pending, 1 classified as past, 1 classified as rejected proposals.
 
 These counts reflect inventory classifications and do not establish current enforceability.
 
@@ -11,7 +11,7 @@ State policy is tracked separately: **7 records** (7 typed bill rows) in [`state
 
 | Jurisdiction | Type | Enacted | Sectors | Recorded status |
 |---|---|---|---|---|
-| Cromwell | Town | Unverified | data center | 🟡 Pending |
+| Cromwell | Town | Unverified | data center | 🔴 Rejected proposal |
 | Groton | Town | 2022-06-14 | data center | ⚪ Replaced |
 | Morris | Town | 2026-05 | battery storage, data center | 🟢 Active |
 | New Haven | City | 2026-09-22 | data center | 🟢 Active |
@@ -23,18 +23,18 @@ State policy is tracked separately: **7 records** (7 typed bill rows) in [`state
 ### Cromwell
 
 - **Type:** Town
-- **Recorded status:** 🟡 Pending
+- **Recorded status:** 🔴 Rejected proposal
 - **Date enacted:** Not yet adopted as of 2026-09-23. Application #26-25 (a text amendment to Cromwell Zoning Regulations Section 4.2.E. to impose a 12-month moratorium on data centers) was introduced by Planning and Zoning Commission Chair Kelly; on 2026-08-18 the Commission voted 5-1 (Commissioner Michael Cannata dissenting) only to accept the application and schedule it for a public hearing at a Special Meeting on 2026-09-24 -- one day after this research date.
 - **Normalized date:** `—` (unverified)
 - **Duration:** Proposed 12 months
 - **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `ct-cromwell-undated`
-- **Legal basis:** Proposed text amendment (Application #26-25) to Cromwell Zoning Regulations Section 4.2.E.; not yet adopted. Public hearing scheduled for a Special Meeting of the Planning and Zoning Commission on 2026-09-24.
+- **Legal basis:** Proposed text amendment Application #26-25 to Cromwell Zoning Regulations Section 4.2.E. for a 12-month data center moratorium; the Commission denied the application on September 24, 2026, after a public hearing.
 - **What prompted it:** regulatory_gap: the town's zoning regulations have no definition or standards for a data center use; the moratorium proposal was introduced to pause any data center application while regulations are developed alongside a broader, already-contracted zoning-regulations rewrite (consultant IMEG). Commissioner Cannata opposed the moratorium, citing an unnamed prospective applicant who has worked with the town for nine months and already secured a property option.
 - **Affected projects:** An unnamed prospective data center applicant, described by Commissioner Cannata as having worked with the town for approximately nine months and secured an option on a property, was cited during discussion; no formal application has been filed.
-- **Detailed status:** Pending as of 2026-09-23. At its August 18, 2026 regular meeting, the Cromwell Planning and Zoning Commission voted 5-1 to accept Application #26-25 (the proposed 12-month data center moratorium text amendment) and schedule it for a public hearing at a Special Meeting on September 24, 2026 -- the Commission did not adopt the moratorium at the August 18 meeting itself. Staff confirmed no data center application is currently pending, though one commissioner referenced an interested prospective applicant. A secondary aggregator (mytownview.com) inaccurately described this August 18 procedural vote as the Commission having 'approved' and 'passed' the moratorium itself; the official filed minutes make clear only the scheduling of a hearing was voted on.
-- **Outcome:** Planning and Zoning Commission voted 5-1 to schedule a public hearing (Sept. 24, 2026) on a proposed 12-month data center moratorium text amendment; the moratorium itself has not been adopted as of this research date.
+- **Detailed status:** Pending as of 2026-09-23. At its August 18, 2026 regular meeting, the Cromwell Planning and Zoning Commission voted 5-1 to accept Application #26-25 (the proposed 12-month data center moratorium text amendment) and schedule it for a public hearing at a Special Meeting on September 24, 2026 -- the Commission did not adopt the moratorium at the August 18 meeting itself. Staff confirmed no data center application is currently pending, though one commissioner referenced an interested prospective applicant. A secondary aggregator (mytownview.com) inaccurately described this August 18 procedural vote as the Commission having 'approved' and 'passed' the moratorium itself; the official filed minutes make clear only the scheduling of a hearing was voted on. On September 24, 2026, after the public hearing, the Commission denied Application #26-25 by a 5–2 vote.
+- **Outcome:** Planning and Zoning Commission voted 5-1 to schedule a public hearing (Sept. 24, 2026) on a proposed 12-month data center moratorium text amendment; the moratorium itself has not been adopted as of September 23, 2026. On September 24, 2026, after the public hearing, the Commission denied Application #26-25 by a 5–2 vote.
 
 ### Groton
 
@@ -42,8 +42,8 @@ State policy is tracked separately: **7 records** (7 typed bill rows) in [`state
 - **Recorded status:** ⚪ Replaced
 - **Date enacted:** 2022-06-14 (Groton PZC adoption, 5-0 vote); effective 2022-07-15, per the adopted motion text in the June 14, 2022 PZC meeting minutes: "This text amendment shall become effective July 15, 2022."
 - **Normalized date:** `2022-06-14` (exact)
-- **Duration:** One year
-- **Current end date:** `—`
+- **Duration:** Twelve months from July 15, 2022, or until replaced by a further text amendment; replacement took effect July 14, 2023.
+- **Current end date:** `2023-07-14`
 - **Sectors:** data center
 - **Moratorium ID:** `ct-groton-2022`
 - **Legal basis:** Planning and Zoning Commission application REGA22-01, Data Center Moratorium Text Amendment, town-wide
@@ -58,15 +58,15 @@ State policy is tracked separately: **7 records** (7 typed bill rows) in [`state
 - **Recorded status:** 🟢 Active
 - **Date enacted:** The identical moratorium text (prepared by the Town Planner and dated 2026-03-23) was re-filed by the Commission under its 'regulations' folder -- rather than the earlier 'generals'/draft-agenda-attachment folder it occupied as of the April 15, 2026 meeting -- under the title 'Public Hearing Two Year Moratorium on Battery Storage Facilities and Data Centers,' with a document date of 2026-05-20. Secondary reporting describes a public hearing held on a Tuesday and Commission approval the same week, consistent with adoption around 2026-05-19/20. Neither the exact adoption-vote date nor the Connecticut-statute-required newspaper publication date (which triggers legal effectiveness) was found in any source I could access.
 - **Normalized date:** `2026-05` (month_only)
-- **Duration:** 12 months from effective date of adoption
+- **Duration:** A March 23, 2026 town-planner text states 12 months from the effective date of adoption, unless earlier terminated or extended. A May 23, 2026 news report describes an approved two-year data-center moratorium; the adopted term and effective date remain unverified.
 - **Current end date:** `—`
 - **Sectors:** battery storage, data center
 - **Moratorium ID:** `ct-morris-2026`
 - **Legal basis:** Town of Morris Planning and Zoning Commission, Zoning Moratorium on Battery Energy Storage Systems and Data Centers
 - **What prompted it:** Need to evaluate land use, environmental, infrastructure, fire safety, emergency response, groundwater, traffic, noise, visual, electrical infrastructure, and water-use impacts
 - **Affected projects:** Applications for establishment, construction, installation, or expansion of battery energy storage systems or data centers; no named project identified
-- **Detailed status:** Adopted. The Commission's own document repository shows the moratorium text moved from a 'generals' (draft/agenda-attachment) filing on 2026-04-15 to a 'regulations' filing dated 2026-05-20, and secondary press reports the Commission approved the moratorium following a public hearing in mid-May 2026. The operative text (Section 6) fixes a 12-month term running from the effective date of adoption, notwithstanding press descriptions of it as a 'two-year moratorium' (which do not match the adopted text I read).
-- **Outcome:** Pending; moratorium directs the commission to prepare zoning amendments as appropriate
+- **Detailed status:** Secondary reporting describes commission approval after a public hearing; the dataset places this in May 2026, but the vote date and publication and filing dates remain unverified. A March 23 moratorium text retained under the Commission regulations path states a 12-month term from the effective date of adoption, subject to earlier termination or extension. Secondary reporting describes a two-year moratorium; the adopted version and the discrepancy remain unresolved.
+- **Outcome:** A May 23, 2026 report says the Planning and Zoning Commission approved a data-center moratorium after a public hearing; the adopted text, duration, and effective date require verification. The retained March 23 text calls for the commission to prepare zoning amendments as appropriate.
 
 ### New Haven
 
@@ -90,14 +90,14 @@ State policy is tracked separately: **7 records** (7 typed bill rows) in [`state
 - **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-09-09, Trumbull Town Council, unanimous voice vote at a public hearing/regular meeting
 - **Normalized date:** `2026-09-09` (exact)
-- **Duration:** 2 years, effective immediately upon adoption
+- **Duration:** Two years; September 10 reporting describes the moratorium as effective immediately upon adoption. The final adopted text and operative effective date remain unverified.
 - **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `ct-trumbull-2026`
 - **Legal basis:** Resolution TC31-65 (Trumbull Town Council), amending the Trumbull Municipal Code: 'The Town hereby adopts a two-year moratorium on the establishment and development of any new data centers within the Town of Trumbull.' Public hearing held at the same September 9, 2026 Town Council meeting.
 - **What prompted it:** specific_project concerns: 365 Data Centers (Norwalk) and Aphorio Carter (a data center division of private equity firm Carter Funds) announced in May 2026 plans for a 200 MW pipeline of AI-ready data centers, naming Trumbull's decades-old former Nasdaq data center at 80 Merritt Blvd. as a likely site for modernization into a 'high density, AI-ready' facility; a resident petition and advocacy group (Trumbull AI Data Center Watch) pushed for a moratorium and had sought (unsuccessfully) to have it cover the 80 Merritt Blvd. project itself.
 - **Affected projects:** 80 Merritt Blvd. (former Nasdaq data center, 15 MW capacity) -- explicitly excluded from the moratorium's scope as an existing-facility modernization, not a new data center; First Selectman Vicki Tesoro reported the operator (365 Data Centers/Aphorio Carter) agreed to no increase in electrical draw, noise, or water use, and no expansion of the building footprint, as part of ongoing negotiations.
-- **Detailed status:** Active as of 2026-09-23. The Town Council unanimously adopted Resolution TC31-65 on 2026-09-09, imposing a 2-year moratorium (effective immediately) on the 'establishment and development' of any new data centers in Trumbull. The moratorium does NOT apply to the modernization/upgrade of the town's existing 80 Merritt Blvd. data center (a 15 MW facility in operation 50+ years, now being converted to AI-ready use by 365 Data Centers), which the town characterizes as a renovation rather than new construction; residents have petitioned unsuccessfully to have that project included and are considering a signature drive (requiring roughly 2,400 voters) to force a referendum.
+- **Detailed status:** Recorded active as of 2026-09-23. September 10 reporting says the Town Council unanimously adopted a two-year moratorium on 2026-09-09, effective immediately on the 'establishment and development' of any new data centers in Trumbull. The moratorium does NOT apply to the modernization/upgrade of the town's existing 80 Merritt Blvd. data center (a 15 MW facility in operation 50+ years, now being converted to AI-ready use by 365 Data Centers), which the town characterizes as a renovation rather than new construction; residents have petitioned unsuccessfully to have that project included and are considering a signature drive (requiring roughly 2,400 voters) to force a referendum. The final adopted text and operative effective date have not been verified.
 - **Outcome:** 2-year moratorium on new data center establishment/development adopted unanimously; does not reach the town's existing (and currently most active) data center project, which continues as a modernization outside the moratorium's scope.
 
 ### West Haven

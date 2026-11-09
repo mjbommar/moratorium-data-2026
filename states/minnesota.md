@@ -3,7 +3,7 @@
 
 Working inventory for Minnesota, generated **November 8, 2026**. Record-level refresh and later-action review remain incomplete.
 
-**29 records** — 27 classified as active or extended, 2 classified as pending, 0 classified as past.
+**29 records** — 27 classified as active or extended, 2 classified as pending, 0 classified as past, 0 classified as rejected proposals.
 
 These counts reflect inventory classifications and do not establish current enforceability.
 

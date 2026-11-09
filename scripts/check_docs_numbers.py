@@ -89,6 +89,7 @@ def facts() -> dict[str, int | float]:
         "replaced": c["replaced"],
         "expired": c["expired"],
         "rescinded": c["rescinded"],
+        "rejected": c["rejected"],
         "pending": c["pending"],
         "past": c["replaced"] + c["expired"] + c["rescinded"],
         "states": len({r["state"] for r in inv}),
@@ -114,6 +115,8 @@ def facts() -> dict[str, int | float]:
 # Patterns are anchored on distinctive surrounding words so they cannot drift
 # onto an unrelated number.
 CLAIMS: list[tuple[str, str, str, str]] = [
+    ("README.md", r"\*\*([\d,]+) rejected proposal(?:s)? retained\*\*", "rejected", "README rejected tracked proposals"),
+    ("README.md", r"\*\*([\d,]+) rows carry verification flags\*\*", "verify_rows", "README verification rows"),
     ("docs/known-gaps.md", r"complete fresh review of the current ([\d,]+) local and [\d,]+ state-policy records\.", "rows", "Known gaps current local denominator"),
     ("docs/known-gaps.md", r"complete fresh review of the current [\d,]+ local and ([\d,]+) state-policy records\.", "state_policy_actions", "Known gaps current policy denominator"),
     ("docs/codebook.md", r"`moratoria_without_verify_tags`: ([\d,]+)", "unflagged_rows", "codebook unflagged inventory rows"),

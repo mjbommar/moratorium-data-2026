@@ -3,7 +3,7 @@
 
 Working inventory for Iowa, generated **November 8, 2026**. Record-level refresh and later-action review remain incomplete.
 
-**60 records** — 52 classified as active or extended, 2 classified as pending, 6 classified as past.
+**60 records** — 52 classified as active or extended, 2 classified as pending, 6 classified as past, 0 classified as rejected proposals.
 
 These counts reflect inventory classifications and do not establish current enforceability.
 

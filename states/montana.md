@@ -3,7 +3,7 @@
 
 Working inventory for Montana, generated **November 8, 2026**. Record-level refresh and later-action review remain incomplete.
 
-**2 records** — 1 classified as active or extended, 1 classified as pending, 0 classified as past.
+**2 records** — 1 classified as active or extended, 1 classified as pending, 0 classified as past, 0 classified as rejected proposals.
 
 These counts reflect inventory classifications and do not establish current enforceability.
 

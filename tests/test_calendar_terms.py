@@ -9,7 +9,7 @@ def module(name):
     spec=importlib.util.spec_from_file_location(name,ROOT/'scripts'/(name+'.py'))
     m=importlib.util.module_from_spec(spec);spec.loader.exec_module(m);return m
 apply=module('apply_research');worklist=module('build_worklist')
-validate=module('validate_dataset')
+validate=module('validate_dataset');state_pages=module('update_state_counts')
 
 
 class CalendarTerms(unittest.TestCase):
@@ -38,6 +38,11 @@ class CalendarTerms(unittest.TestCase):
         validate.check_inventory([row],fields,dt.date(2026,11,5),report)
         self.assertFalse(any(code=='vocab.enacted_status' for code,_ in report.errors))
         self.assertFalse(any(code=='date.missing' for code,_ in report.warnings))
+
+    def test_rejected_proposal_is_separate_in_state_counts(self):
+        rows=[{'enacted_status':s}for s in validate.ENACTED_STATUSES]
+        counts=state_pages.counts_for(rows)
+        self.assertEqual(counts,dict(in_force=2,pending=1,past=3,rejected=1,total=7))
 
     def test_unknown_extension_endpoint_does_not_reuse_original_expiry(self):
         row={'enacted_status':'extended','duration_kind':'fixed_days','duration_days':'45',

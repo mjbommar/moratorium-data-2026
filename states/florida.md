@@ -3,7 +3,7 @@
 
 Working inventory for Florida, generated **November 8, 2026**. Record-level refresh and later-action review remain incomplete.
 
-**35 records** — 28 classified as active or extended, 6 classified as pending, 1 classified as past.
+**35 records** — 28 classified as active or extended, 6 classified as pending, 1 classified as past, 0 classified as rejected proposals.
 
 These counts reflect inventory classifications and do not establish current enforceability.
 
@@ -55,15 +55,15 @@ State policy is tracked separately: **6 records** (6 typed bill rows) in [`state
 - **Recorded status:** 🟡 Pending
 - **Date enacted:** —
 - **Normalized date:** `—` (unverified)
-- **Duration:** 12 months (proposed)
+- **Duration:** 12 months (reported approved; effective date unverified)
 - **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `fl-alachua-undated`
-- **Legal basis:** —
+- **Legal basis:** City of Alachua proposed Ordinance 26-17, identified in the city business-impact estimate; the news report describes later approval of a 12-month moratorium. The enrolled adopted text and effective date remain unverified.
 - **What prompted it:** Resource-intensive/extractive facility concerns; no data center project currently proposed
 - **Affected projects:** —
-- **Detailed status:** Pending as of 2026-09-23; City Planning & Zoning board passed a motion for a 12-month data center moratorium; City Commission scheduled to review and act 2026-09-28 (after the reference date of this research pass). [VERIFY instrument number; adoption date; primary source (news-only evidence) not confirmed at confidence 0.65 in the 2026-09 refresh]
-- **Outcome:** Pending City Commission vote
+- **Detailed status:** Pending as of 2026-09-23; City Planning & Zoning board passed a motion for a 12-month data center moratorium; City Commission scheduled to review and act 2026-09-28 (after the reference date of this research pass). [VERIFY instrument number; adoption date; primary source (news-only evidence) not confirmed at confidence 0.65 in the 2026-09 refresh] Later, Mainstreet Daily News reported on 2026-10-07 that the City Commission unanimously approved a 12-month moratorium at a meeting rescheduled from September 28; the adopted instrument, effective date, and present force remain unverified.
+- **Outcome:** City Commission approval reported 2026-10-07; adopted instrument and current force unverified.
 
 ### Bay County
 

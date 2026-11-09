@@ -3,7 +3,7 @@
 
 Working inventory for North Carolina, generated **November 8, 2026**. Record-level refresh and later-action review remain incomplete.
 
-**70 records** — 58 classified as active or extended, 5 classified as pending, 7 classified as past.
+**70 records** — 58 classified as active or extended, 5 classified as pending, 7 classified as past, 0 classified as rejected proposals.
 
 These counts reflect inventory classifications and do not establish current enforceability.
 

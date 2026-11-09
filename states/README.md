@@ -4,8 +4,9 @@
 _Working inventory generated November 8, 2026; record-level refresh remains incomplete. 1330 local moratorium records tracked across 47 states._
 
 - 🟢 **1079 classified as active or extended**
-- 🟡 **79 classified as pending**
+- 🟡 **78 classified as pending**
 - ⚪ **172 classified as past** (expired, replaced, or rescinded)
+- 🔴 **1 rejected proposals retained**
 
 These counts reflect inventory classifications and do not establish current enforceability.
 
@@ -13,55 +14,55 @@ State-policy records, including bills, resolutions, precursor memos and binding 
 
 ## States with at least one local moratorium
 
-| State | Total records | 🟢 Active or extended | 🟡 Pending | ⚪ Past |
-|---|---:|---:|---:|---:|
-| [Ohio](ohio.md) | 160 | 149 | 2 | 9 |
-| [New York](new-york.md) | 152 | 110 | 6 | 36 |
-| [Michigan](michigan.md) | 148 | 133 | 4 | 11 |
-| [Georgia](georgia.md) | 71 | 50 | 0 | 21 |
-| [North Carolina](north-carolina.md) | 70 | 58 | 5 | 7 |
-| [Iowa](iowa.md) | 60 | 52 | 2 | 6 |
-| [Tennessee](tennessee.md) | 46 | 38 | 6 | 2 |
-| [Washington](washington.md) | 43 | 30 | 0 | 13 |
-| [Wisconsin](wisconsin.md) | 41 | 40 | 1 | 0 |
-| [Florida](florida.md) | 35 | 28 | 6 | 1 |
-| [Indiana](indiana.md) | 35 | 24 | 4 | 7 |
-| [Kentucky](kentucky.md) | 35 | 31 | 2 | 2 |
-| [California](california.md) | 34 | 25 | 0 | 9 |
-| [Colorado](colorado.md) | 34 | 25 | 3 | 6 |
-| [Illinois](illinois.md) | 33 | 28 | 2 | 3 |
-| [Minnesota](minnesota.md) | 29 | 27 | 2 | 0 |
-| [Kansas](kansas.md) | 26 | 23 | 0 | 3 |
-| [Pennsylvania](pennsylvania.md) | 26 | 23 | 0 | 3 |
-| [Maryland](maryland.md) | 25 | 18 | 4 | 3 |
-| [Nebraska](nebraska.md) | 24 | 20 | 2 | 2 |
-| [Missouri](missouri.md) | 22 | 19 | 0 | 3 |
-| [Alabama](alabama.md) | 21 | 19 | 1 | 1 |
-| [Maine](maine.md) | 19 | 12 | 3 | 4 |
-| [Massachusetts](massachusetts.md) | 17 | 9 | 7 | 1 |
-| [South Carolina](south-carolina.md) | 17 | 14 | 2 | 1 |
-| [Texas](texas.md) | 11 | 6 | 3 | 2 |
-| [North Dakota](north-dakota.md) | 10 | 3 | 1 | 6 |
-| [Oklahoma](oklahoma.md) | 10 | 10 | 0 | 0 |
-| [Utah](utah.md) | 9 | 9 | 0 | 0 |
-| [Nevada](nevada.md) | 7 | 5 | 0 | 2 |
-| [New Mexico](new-mexico.md) | 7 | 5 | 1 | 1 |
-| [Arkansas](arkansas.md) | 6 | 5 | 0 | 1 |
-| [Connecticut](connecticut.md) | 6 | 4 | 1 | 1 |
-| [Virginia](virginia.md) | 6 | 4 | 1 | 1 |
-| [New Jersey](new-jersey.md) | 5 | 3 | 2 | 0 |
-| [Oregon](oregon.md) | 5 | 4 | 1 | 0 |
-| [Idaho](idaho.md) | 4 | 2 | 1 | 1 |
-| [South Dakota](south-dakota.md) | 4 | 4 | 0 | 0 |
-| [Alaska](alaska.md) | 3 | 1 | 2 | 0 |
-| [Delaware](delaware.md) | 3 | 0 | 1 | 2 |
-| [Louisiana](louisiana.md) | 3 | 2 | 0 | 1 |
-| [Montana](montana.md) | 2 | 1 | 1 | 0 |
-| [New Hampshire](new-hampshire.md) | 2 | 2 | 0 | 0 |
-| [Arizona](arizona.md) | 1 | 1 | 0 | 0 |
-| [Mississippi](mississippi.md) | 1 | 1 | 0 | 0 |
-| [Rhode Island](rhode-island.md) | 1 | 1 | 0 | 0 |
-| [Vermont](vermont.md) | 1 | 1 | 0 | 0 |
+| State | Total records | 🟢 Active or extended | 🟡 Pending | ⚪ Past | 🔴 Rejected |
+|---|---:|---:|---:|---:|---:|
+| [Ohio](ohio.md) | 160 | 149 | 2 | 9 | 0 |
+| [New York](new-york.md) | 152 | 110 | 6 | 36 | 0 |
+| [Michigan](michigan.md) | 148 | 133 | 4 | 11 | 0 |
+| [Georgia](georgia.md) | 71 | 50 | 0 | 21 | 0 |
+| [North Carolina](north-carolina.md) | 70 | 58 | 5 | 7 | 0 |
+| [Iowa](iowa.md) | 60 | 52 | 2 | 6 | 0 |
+| [Tennessee](tennessee.md) | 46 | 38 | 6 | 2 | 0 |
+| [Washington](washington.md) | 43 | 30 | 0 | 13 | 0 |
+| [Wisconsin](wisconsin.md) | 41 | 40 | 1 | 0 | 0 |
+| [Florida](florida.md) | 35 | 28 | 6 | 1 | 0 |
+| [Indiana](indiana.md) | 35 | 24 | 4 | 7 | 0 |
+| [Kentucky](kentucky.md) | 35 | 31 | 2 | 2 | 0 |
+| [California](california.md) | 34 | 25 | 0 | 9 | 0 |
+| [Colorado](colorado.md) | 34 | 25 | 3 | 6 | 0 |
+| [Illinois](illinois.md) | 33 | 28 | 2 | 3 | 0 |
+| [Minnesota](minnesota.md) | 29 | 27 | 2 | 0 | 0 |
+| [Kansas](kansas.md) | 26 | 23 | 0 | 3 | 0 |
+| [Pennsylvania](pennsylvania.md) | 26 | 23 | 0 | 3 | 0 |
+| [Maryland](maryland.md) | 25 | 18 | 4 | 3 | 0 |
+| [Nebraska](nebraska.md) | 24 | 20 | 2 | 2 | 0 |
+| [Missouri](missouri.md) | 22 | 19 | 0 | 3 | 0 |
+| [Alabama](alabama.md) | 21 | 19 | 1 | 1 | 0 |
+| [Maine](maine.md) | 19 | 12 | 3 | 4 | 0 |
+| [Massachusetts](massachusetts.md) | 17 | 9 | 7 | 1 | 0 |
+| [South Carolina](south-carolina.md) | 17 | 14 | 2 | 1 | 0 |
+| [Texas](texas.md) | 11 | 6 | 3 | 2 | 0 |
+| [North Dakota](north-dakota.md) | 10 | 3 | 1 | 6 | 0 |
+| [Oklahoma](oklahoma.md) | 10 | 10 | 0 | 0 | 0 |
+| [Utah](utah.md) | 9 | 9 | 0 | 0 | 0 |
+| [Nevada](nevada.md) | 7 | 5 | 0 | 2 | 0 |
+| [New Mexico](new-mexico.md) | 7 | 5 | 1 | 1 | 0 |
+| [Arkansas](arkansas.md) | 6 | 5 | 0 | 1 | 0 |
+| [Connecticut](connecticut.md) | 6 | 4 | 0 | 1 | 1 |
+| [Virginia](virginia.md) | 6 | 4 | 1 | 1 | 0 |
+| [New Jersey](new-jersey.md) | 5 | 3 | 2 | 0 | 0 |
+| [Oregon](oregon.md) | 5 | 4 | 1 | 0 | 0 |
+| [Idaho](idaho.md) | 4 | 2 | 1 | 1 | 0 |
+| [South Dakota](south-dakota.md) | 4 | 4 | 0 | 0 | 0 |
+| [Alaska](alaska.md) | 3 | 1 | 2 | 0 | 0 |
+| [Delaware](delaware.md) | 3 | 0 | 1 | 2 | 0 |
+| [Louisiana](louisiana.md) | 3 | 2 | 0 | 1 | 0 |
+| [Montana](montana.md) | 2 | 1 | 1 | 0 | 0 |
+| [New Hampshire](new-hampshire.md) | 2 | 2 | 0 | 0 | 0 |
+| [Arizona](arizona.md) | 1 | 1 | 0 | 0 | 0 |
+| [Mississippi](mississippi.md) | 1 | 1 | 0 | 0 | 0 |
+| [Rhode Island](rhode-island.md) | 1 | 1 | 0 | 0 | 0 |
+| [Vermont](vermont.md) | 1 | 1 | 0 | 0 | 0 |
 
 ## States without records in this working inventory (3)
 

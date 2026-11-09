@@ -3,7 +3,7 @@
 
 Working inventory for Indiana, generated **November 8, 2026**. Record-level refresh and later-action review remain incomplete.
 
-**35 records** — 24 classified as active or extended, 4 classified as pending, 7 classified as past.
+**35 records** — 24 classified as active or extended, 4 classified as pending, 7 classified as past, 0 classified as rejected proposals.
 
 These counts reflect inventory classifications and do not establish current enforceability.
 

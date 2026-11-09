@@ -3,7 +3,7 @@
 
 Working inventory for California, generated **November 8, 2026**. Record-level refresh and later-action review remain incomplete.
 
-**34 records** — 25 classified as active or extended, 0 classified as pending, 9 classified as past.
+**34 records** — 25 classified as active or extended, 0 classified as pending, 9 classified as past, 0 classified as rejected proposals.
 
 These counts reflect inventory classifications and do not establish current enforceability.
 
@@ -60,7 +60,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 - **Moratorium ID:** `ca-arcata-2026`
 - **Legal basis:** Ordinance No. 1594 (Govt. Code 65858) moratorium on new data center land use applications
 - **What prompted it:** No zoning definition for data centers; concerns about land use, energy, water and other impacts. Ordinance 1594 recites an inquiry about a 60,000-square-foot facility and an existing permitted 10,000-square-foot EdgeConneX colocation facility.
-- **Affected projects:** Existing 10,000 sq ft EdgeConneX colocation facility (fiber terminal) is legally permitted/operating and unaffected.
+- **Affected projects:** Ordinance 1594 describes an existing approximately 10,000-square-foot EdgeConneX colocation facility as legally permitted and operating. The original moratorium addresses new data-center land-use applications; the treatment of any future application involving that facility is not established.
 - **Detailed status:** Ordinance 1594 was adopted 2026-09-16 and effective immediately for 45 days unless extended. A proposed Ordinance 1595 would extend it; the retained proposal has a blank vote certificate. Later extension, replacement, termination, litigation and current force remain unresolved. [VERIFY: later extension, replacement, termination and litigation.]
 - **Outcome:** Staff evaluating land-use definitions, environmental impacts, infrastructure capacity, and regulatory models.
 
@@ -77,7 +77,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 - **Legal basis:** Urgency ordinance adopted under California Gov. Code section 65858, extended via public hearing on 2026-04-15 (exact extension ordinance number not located in this pass)
 - **What prompted it:** Regional San Gabriel Valley wave of data center moratoria/bans (Monterey Park, El Monte, Montebello); city seeking time to study impacts and develop zoning standards for data center uses before any application is filed.
 - **Affected projects:** None identified.
-- **Detailed status:** Recorded extended and active as of 2026-09-23; current legal force and later actions remain unverified. A Coachella city staff report states that Baldwin Park adopted a 45-day data-center urgency moratorium on 2026-03-04 and held an extension hearing on 2026-04-15. A secondary meeting account reports that the Council approved an extension 3-0. The adopted extension text and operative endpoint remain unverified. [VERIFY]
+- **Detailed status:** Recorded extended and active as of 2026-09-23; current legal force and later actions remain unverified. A Coachella city staff report states that Baldwin Park adopted a 45-day data-center urgency moratorium on 2026-03-04, held an extension hearing on 2026-04-15, and summarizes the moratorium as extended. A secondary meeting account reports that the Council approved an extension 3-0. The adopted extension text and operative endpoint remain unverified. [VERIFY]
 - **Outcome:** 45-day moratorium adopted and extended to approximately one year while the city develops data-center zoning standards.
 
 ### Calaveras County
@@ -148,9 +148,9 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 
 - **Type:** City
 - **Recorded status:** 🟢 Extended
-- **Date enacted:** 2026-06-16 (City Council adoption of a 45-day interim urgency moratorium); extended by 22 months and 15 days via unanimous City Council vote on 2026-07-07
+- **Date enacted:** 2026-06-16 (city staff report describes adoption of a 45-day interim urgency moratorium); July 2026 unanimous extension reported July 23, with the packet dated July 7; exact vote date and final adopted text require verification.
 - **Normalized date:** `2026-06-16` (exact)
-- **Duration:** Initial 45 days from 2026-06-16; extended 22 months and 15 days from 2026-07-07, bringing the maximum total pause to the Gov. Code section 65858 two-year cap.
+- **Duration:** Initial 45 days from 2026-06-16, according to the city staff report; July 23 reporting describes a unanimous extension of 22 months and 15 days. The proposed city text uses a July 7 anchor but contains a conflicting six-month recital; the final operative anchor and endpoint remain unverified.
 - **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `ca-desert-hot-springs-2026`
@@ -189,7 +189,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 - **Legal basis:** Urgency ordinance (Govt. Code 65858) prohibiting new data centers and expansions
 - **What prompted it:** Proactive measure; no pending applications. Impacts cited: water, electricity/grid, land footprint, noise, tax/job tradeoffs.
 - **Affected projects:** As of October 13, 2026, a news report attributed to the city planner said the city had received no data center applications and had no pending projects. No affected projects have been identified; the situation at adoption remains unverified.
-- **Detailed status:** October 7, 2026 city minutes record 5-0 approval of the first reading and introduction of proposed Ordinance 2026-19 to extend the interim moratorium. Final enactment, effective date, endpoint and later history remain unverified. [VERIFY: final successor, effective interval and current force.]
+- **Detailed status:** October 7, 2026 city minutes record 5-0 approval of the first reading and introduction of proposed Ordinance 2026-19 to extend the interim moratorium. An October 13 local news report describes the October 7 vote as approval of a 10-month, 15-day extension. Final enactment, effective date, endpoint and later history remain unverified. [VERIFY: final successor, effective interval and current force.]
 - **Outcome:** Staff researching permanent regulatory options.
 
 ### Eureka
@@ -253,7 +253,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 - **Legal basis:** Humboldt County Ordinance 2794; California Government Code sections 25123(d) and 65858
 - **What prompted it:** On July 14, 2026, the Board directed preparation of a temporary moratorium while developing data-center regulations.
 - **Affected projects:** —
-- **Detailed status:** Ordinance 2794 was adopted October 6, 2026 by a 4-1 vote, effective immediately for 45 days unless extended. It concerns new data-center applications in unincorporated Humboldt County. [VERIFY subsequent action and any amendment-specific exemptions; no later extension was established in this bounded review.]
+- **Detailed status:** Ordinance 2794 was adopted October 6, 2026 by a 4-1 vote, effective immediately for 45 days unless extended. It concerns new data-center applications in unincorporated Humboldt County. October 7 reporting described an exception for facilities using less than 15 megawatts of power generated entirely on-site from renewable sources; the inspected certified copy does not state that exception. [VERIFY subsequent action and any amendment-specific exemptions; no later extension was established in this bounded review.]
 - **Outcome:** —
 
 ### Imperial
@@ -278,7 +278,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 - **Recorded status:** 🔴 Rescinded
 - **Date enacted:** 2026-06-16 (Ordinance 1616).
 - **Normalized date:** `2026-06-16` (exact)
-- **Duration:** Extended to a one-year moratorium on 2026-07-14; reported to run into June 2027 while the County's advisory committee develops recommendations.
+- **Duration:** The original June 16, 2026 moratorium was reported as 45 days; the County reports an extension on July 14. An earlier record described a one-year total into June 2027 while the advisory committee developed recommendations; the exact extension term is not established by the reviewed originals. The Board repealed and set aside Ordinances 1616 and 1618 on October 6 in compliance with the court writ.
 - **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `ca-imperial-county-2026`
@@ -301,7 +301,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 - **Legal basis:** Urgency Ordinance No. 1838, adopted under California Gov. Code section 65858
 - **What prompted it:** Pause on establishment, expansion, or intensification of data center uses to allow review of regulations and consideration of a longer moratorium or permanent prohibition; city reported no active data center applications
 - **Affected projects:** —
-- **Detailed status:** The Riverside Record reports the Council voted unanimously October 7, 2026 to extend the temporary moratorium for up to one year. The City packet proposed Ordinance 1838-Ext2 with an end through October 16, 2027 unless earlier terminated or superseded by effective permanent controls. [VERIFY signed adopted second extension, exact operative endpoint and any subsequent permanent ban; the proposal and report do not establish final text or later force.]
+- **Detailed status:** The Riverside Record reports the Council voted unanimously October 7, 2026 to extend the temporary moratorium for up to one year. The City packet proposed Ordinance 1838-Ext2 with an end through October 16, 2027 unless earlier terminated or superseded by effective permanent controls. A separate city hearing notice for October 7 described consideration of a 90-day extension. [VERIFY signed adopted second extension, exact operative endpoint and any subsequent permanent ban; the proposals and report do not establish final text or later force.]
 - **Outcome:** —
 
 ### Irwindale
@@ -314,10 +314,10 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 - **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `ca-irwindale-undated`
-- **Legal basis:** Draft Urgency Ordinance 819 proposed a 45-day moratorium for the May 27, 2026 hearing; its adoption remains unconfirmed. A later CEQA notice describes proposed Ordinance 821 adding Chapter 17.42 to Title 17 to prohibit AI data center land uses citywide. Earlier research reported first reading August 26, adoption September 9 and effectiveness October 9, 2026; those actions and any legal supersession of 819 are not verified in the retained originals reviewed here.
+- **Legal basis:** Draft Urgency Ordinance 819 proposed a 45-day moratorium for the May 27, 2026 hearing; its adoption remains unconfirmed. A CEQA notice describes proposed Ordinance 821 adding Chapter 17.42 to Title 17 to prohibit AI data center land uses citywide. The September 16 San Gabriel Valley Tribune reports a first reading on August 26, unanimous adoption September 9 and an October 9, 2026 effective date for Ordinance 821. The enacted text and any legal supersession of 819 remain unverified.
 - **What prompted it:** Proposed pause on new and converted data center applications
 - **Affected projects:** —
-- **Detailed status:** The May 27, 2026 agenda proposed Urgency Ordinance 819; its disposition remains unconfirmed. An August 28, 2026 CEQA notice describes proposed Ordinance 821 to prohibit AI data center land uses citywide. Earlier research reported that 821 was approved on first reading August 26, adopted September 9 and effective October 9, 2026; the underlying adoption and effect have not been verified in the retained originals reviewed here. [VERIFY adoption and disposition of Ordinance 819, adoption and effect of Ordinance 821, and their legal relationship.]
+- **Detailed status:** The May 27, 2026 agenda proposed Urgency Ordinance 819; its disposition remains unconfirmed. The San Gabriel Valley Tribune reported September 16 that Ordinance 821 received a first reading August 26, was unanimously approved September 9, and would take effect October 9, 2026. The August 28 CEQA notice describes its proposed AI data-center zoning prohibition. The enacted text and any legal relationship to 819 remain unverified. [VERIFY adoption and disposition of Ordinance 819, enacted text and operative effect of Ordinance 821, and their legal relationship.]
 - **Outcome:** —
 
 ### Lake Elsinore

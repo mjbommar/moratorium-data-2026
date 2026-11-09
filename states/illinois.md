@@ -3,7 +3,7 @@
 
 Working inventory for Illinois, generated **November 8, 2026**. Record-level refresh and later-action review remain incomplete.
 
-**33 records** — 28 classified as active or extended, 2 classified as pending, 3 classified as past.
+**33 records** — 28 classified as active or extended, 2 classified as pending, 3 classified as past, 0 classified as rejected proposals.
 
 These counts reflect inventory classifications and do not establish current enforceability.
 

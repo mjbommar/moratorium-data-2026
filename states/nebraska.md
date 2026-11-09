@@ -3,7 +3,7 @@
 
 Working inventory for Nebraska, generated **November 8, 2026**. Record-level refresh and later-action review remain incomplete.
 
-**24 records** — 20 classified as active or extended, 2 classified as pending, 2 classified as past.
+**24 records** — 20 classified as active or extended, 2 classified as pending, 2 classified as past, 0 classified as rejected proposals.
 
 These counts reflect inventory classifications and do not establish current enforceability.
 

@@ -8,10 +8,12 @@ The earlier completion claim was wrong. `v2026.11.8` is now explicitly an **inco
 
 - [ ] Reconcile every one of the 1,777 raw records, reusing valid existing evidence; close actual source gaps with bounded collection.
 - [ ] Review and apply material changes with exact guards; retain genuine investigated uncertainties and source dates.
-- [ ] Reconcile all ballot identities/results and retain explicit held-candidate dispositions.
+- [x] Reconcile the 56 current ballot identities/results and retain all frozen-candidate dispositions, including three held payloads and uncertain Augusta correspondence ([accounting](work/research/2026-11-08/ballot-current-accounting/README.md)); source-specific limits remain.
 - [ ] Finish evidenced handoffs/copy dispositions across all seven consumers.
 - [ ] Account explicitly for the original required quality gates; do not silently waive or expand them.
 - [ ] Freeze one integrated source, validate once, and publish/verify the complete release and consumer delivery.
+
+- [x] Apply 88 independently reviewed material corrections across 43 records from the first 105 additional-record reviews ([application](work/research/2026-11-08/full-inventory-first105-application/README.md)); remaining full-record review stays open.
 
 ### Completed checkpoint work, not overall completion
 

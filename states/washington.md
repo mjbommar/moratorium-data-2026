@@ -3,7 +3,7 @@
 
 Working inventory for Washington, generated **November 8, 2026**. Record-level refresh and later-action review remain incomplete.
 
-**43 records** — 30 classified as active or extended, 0 classified as pending, 13 classified as past.
+**43 records** — 30 classified as active or extended, 0 classified as pending, 13 classified as past, 0 classified as rejected proposals.
 
 These counts reflect inventory classifications and do not establish current enforceability.
 

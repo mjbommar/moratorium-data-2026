@@ -3,7 +3,7 @@
 
 Working inventory for Colorado, generated **November 8, 2026**. Record-level refresh and later-action review remain incomplete.
 
-**34 records** — 25 classified as active or extended, 3 classified as pending, 6 classified as past.
+**34 records** — 25 classified as active or extended, 3 classified as pending, 6 classified as past, 0 classified as rejected proposals.
 
 These counts reflect inventory classifications and do not establish current enforceability.
 
@@ -519,7 +519,7 @@ State policy is tracked separately: **4 records** (4 typed bill rows) in [`state
 - **Date enacted:** 2026-02-27 (Resolution 2026-02-27-01 adopted)
 - **Normalized date:** `2026-02-27` (exact)
 - **Duration:** Six months, extended through 2026-12-31 by BOCC vote on 2026-08-20
-- **Current end date:** `—`
+- **Current end date:** `2026-12-31`
 - **Sectors:** data center
 - **Moratorium ID:** `co-phillips-county-2026`
 - **Legal basis:** Resolution 2026-02-27-01, extended by BOCC vote 2026-08-20
@@ -540,7 +540,7 @@ State policy is tracked separately: **4 records** (4 typed bill rows) in [`state
 - **Moratorium ID:** `co-saguache-county-2026`
 - **Legal basis:** Saguache County Board of County Commissioners emergency resolution (specific resolution number not located in this pass), adopted May 5, 2026
 - **What prompted it:** San Luis Valley Rural Electric Cooperative (SLVREC) CEO Eric Eriksen told commissioners at an April 21, 2026 meeting that the co-op had received three inquiries for 'rural data center' projects in the Valley; commissioners cited the need for 'immediate preservation and protection of the public health, safety, and welfare.'
-- **Affected projects:** None formally filed; three informal developer inquiries relayed to the county via SLVREC.
+- **Affected projects:** In May 2026, SLVREC reported three developer inquiries in the San Luis Valley; the Saguache County land-use administrator said her office had received no official inquiries for data centers.
 - **Detailed status:** Active as of 2026-09-23 (or superseded by permanent Land Use Code / 1041 regulations if adopted in the interim); six-month emergency moratorium adopted May 5, 2026. [VERIFY instrument number; primary source (news-only evidence) not confirmed at confidence 0.68 in the 2026-09 refresh]
 - **Outcome:** Board of County Commissioners adopted an emergency six-month moratorium on data center project applications to allow time to develop Land Use Code and 1041 standards specific to data centers.
 
@@ -548,16 +548,16 @@ State policy is tracked separately: **4 records** (4 typed bill rows) in [`state
 
 - **Type:** Town
 - **Recorded status:** 🟢 Active
-- **Date enacted:** The Town Board of the Town of South Fork introduced and passed Emergency Ordinance No. 2026-03 on June 18, 2026, per the archived legal notice published in the Valley Courier's July 1, 2026 edition. The notice's own adoption clause misstates the enacting body as 'Town of Center,' which is judged to be a drafting/scrivener error: every other part of the notice -- its heading ('TOWN OF SOUTH FORK'), all WHEREAS recitals, and the operative sections (which reference amending 'the South Fork Revised Municipal Code' and 'the South Fork Zoning Code') -- identifies the Town of South Fork, and the neighboring Town of Center's own published board-meeting calendar shows no meeting on June 18, 2026 at all.
+- **Date enacted:** The July 1, 2026 Valley Courier published Ordinance No. 2026-03 under a Town of South Fork heading and states that it passed and was signed June 18, 2026. Its introduction names the Town of Center; the discrepancy remains unresolved.
 - **Normalized date:** `2026-06-18` (exact)
-- **Duration:** One-year pause on permit and site-development applications for new primary-use data centers while the town considers code amendments and community engagement.
+- **Duration:** The published ordinance restricts applications for new primary-use data centers while regulations and community engagement are considered. Section 4 provides a one-year alternative measured from the effective date and an alternative tied to code amendments; its earlier/later wording requires clarification.
 - **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `co-south-fork-2026`
-- **Legal basis:** Town of South Fork Emergency Ordinance No. 2026-03. The ordinance's own adoption clause names 'Town of Center' rather than South Fork, but this is judged a scrivener's error (see date_enacted): the heading, every recital, and every operative section name South Fork, and the Town of Center's own agenda calendar (via towncloud.io) shows no board meeting on June 18, 2026.
+- **Legal basis:** Published Emergency Ordinance No. 2026-03 identifies South Fork in its heading and operative text, but names the Town of Center in its introduction; jurisdictional attribution requires clarification.
 - **What prompted it:** —
 - **Affected projects:** —
-- **Detailed status:** Active as of 2026-09-23; jurisdiction confirmed as the Town of South Fork (see legal_basis). Per Section 4 of the ordinance, the one-year pause on data center site-development and permit applications expires the earlier of June 18, 2027, or the effective date of South Fork Revised Municipal Code/Zoning Code amendments addressing data centers, whichever occurs later (the ordinance's own internal 'earlier of ... whichever occurs later' drafting, quoted verbatim). No repeal or amendment found.
+- **Detailed status:** Recorded active as of 2026-09-23. The published ordinance identifies South Fork in its heading and operative text but names Center in its introduction. Section 4 gives a one-year alternative from the effective date and an alternative tied to code amendments, with ambiguous earlier/later wording. Current force and the effective date remain unverified.
 - **Outcome:** —
 
 ### Washington County
@@ -582,14 +582,14 @@ State policy is tracked separately: **4 records** (4 typed bill rows) in [`state
 - **Recorded status:** 🟢 Active
 - **Date enacted:** City Council adopted Ordinance 1525 on 2026-07-16, following a first reading on 2026-06-18.
 - **Normalized date:** `2026-07-16` (exact)
-- **Duration:** Pauses submission, acceptance, processing, review, hearings, approval, and siting of new or expanded data centers while the city develops definitions and land-use, water, and wastewater rules. City Council passed Ordinance No. 1525 (Series 2026) on second/final reading July 16, 2026 as an 18-month moratorium: The Gazette's July 17, 2026 report of that meeting states 'The 18-month moratorium halts data centers' and quotes Councilmember Seth Bryant explaining why council chose 18 rather than 12 months. The city's posted first-reading document (posted June 19, 2026, before the amendment) still shows the pre-amendment 12-month figure and blank termination-date placeholders; a signed second-reading ordinance with the filled-in date was not located, but the 18-month figure is independently corroborated by Colorado Newsline and the Denver Gazette.
-- **Current end date:** `2028-01-16`
+- **Duration:** The city first-reading notice describes restrictions on data center applications and a 12-month draft term. The Gazette reported City Council passed an 18-month moratorium on July 16, 2026, and Colorado Newsline also reported an 18-month vote. The final enacted text, effective date and final scope have not been verified in the retained sources reviewed.
+- **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `co-woodland-park-2026`
 - **Legal basis:** City of Woodland Park Ordinance 1525 (Series 2026)
-- **What prompted it:** No data center proposal was pending at the time of adoption; described as a proactive measure.
+- **What prompted it:** Councilmember Seth Bryant said at the time that there was no current proposal to build what most would understand as a data center in Woodland Park and described the action as prudent.
 - **Affected projects:** —
-- **Detailed status:** Active as of 2026-09-23. Adopted 2026-07-16 as an 18-month moratorium (through approximately 2028-01-16), confirmed by The Gazette's July 17, 2026 report of the second-reading vote and corroborated by Colorado Newsline (August 10, 2026) and the Denver Gazette (September 12, 2026). No repeal or amendment found.
+- **Detailed status:** Recorded active as of 2026-09-23. The Gazette reported adoption on July 16, 2026 of an 18-month moratorium, and Colorado Newsline also reported an 18-month vote. The historical row additionally cited the Denver Gazette on September 12, 2026; that source was not rechecked here. The final operative effective date and termination date, and current force, remain unverified.
 - **Outcome:** —
 
 ---

@@ -3,7 +3,7 @@
 
 Working inventory for Georgia, generated **November 8, 2026**. Record-level refresh and later-action review remain incomplete.
 
-**71 records** — 50 classified as active or extended, 0 classified as pending, 21 classified as past.
+**71 records** — 50 classified as active or extended, 0 classified as pending, 21 classified as past, 0 classified as rejected proposals.
 
 These counts reflect inventory classifications and do not establish current enforceability.
 

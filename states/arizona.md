@@ -3,7 +3,7 @@
 
 Working inventory for Arizona, generated **November 8, 2026**. Record-level refresh and later-action review remain incomplete.
 
-**1 record** — 1 classified as active or extended, 0 classified as pending, 0 classified as past.
+**1 record** — 1 classified as active or extended, 0 classified as pending, 0 classified as past, 0 classified as rejected proposals.
 
 These counts reflect inventory classifications and do not establish current enforceability.
 
@@ -21,15 +21,15 @@ State policy is tracked separately: **13 records** (13 typed bill rows) in [`sta
 - **Recorded status:** 🟢 Active
 - **Date enacted:** —
 - **Normalized date:** `—` (unverified)
-- **Duration:** A 120-day moratorium was proposed in the August 11, 2026 direction to draft; an adopted term, effective date, expiration and any extension remain unverified. The earlier inventory recorded a possible extension amendment as a historical lead.
+- **Duration:** A 120-day moratorium was proposed in the August 11, 2026 direction to draft; the Tucson Sentinel reports a 120-day moratorium imposed by a September 22 vote. The operative term, effective date, expiration and any extension remain unverified. The earlier inventory recorded a possible extension amendment as a historical lead.
 - **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `az-pima-county-2026`
-- **Legal basis:** Pima County Board of Supervisors File ID 20637: August 11, 2026 addendum directing staff to develop a resolution. Adoption, operative resolution number and later action remain unverified.
+- **Legal basis:** Pima County Board of Supervisors File ID 20637: August 11, 2026 addendum directing staff to develop a resolution. The Tucson Sentinel reports a September 22 vote imposing a moratorium and an approved amendment; the operative resolution number and text and later action remain unverified.
 - **What prompted it:** The county file says the zoning code change process was initiated by a September 2025 Board vote. The legacy inventory associated the proposed moratorium with Project Gravel and described permit effects on Gravel and Project Blue; those project and applicability claims remain unverified historical leads pending source and operative-text review.
 - **Affected projects:** The legacy inventory identified Project Gravel as an 8-building, 160-acre proposal near Sahuarita and claimed it was affected while Project Blue was exempt. These are unverified historical leads; operative provisions and project applicability remain unestablished.
-- **Detailed status:** On August 11, 2026 the board directed staff to develop a proposed 120-day data-center moratorium; contemporaneous reporting describes a 3–2 vote with Christy and Scott dissenting. A later linked news headline reports a moratorium, but the linked article was not retrieved in the original capped run; adoption, operative scope, duration, later action and present force remain unverified. Recorded active as of September 23, 2026 in the legacy inventory; the as-of claim and related public-comment and zoning-amendment schedule remain unverified historical leads. [VERIFY resolution, dates, scope and later action]
-- **Outcome:** On August 11, 2026 the board directed staff to develop a proposed moratorium while county zoning work proceeded; subsequent adoption and operative terms remain unverified.
+- **Detailed status:** On August 11, 2026 the board directed staff to develop a proposed 120-day data-center moratorium. The Tucson Sentinel reported on September 22 that the board voted 3–2 that day to impose a 120-day moratorium on new data-center approvals in unincorporated Pima County, limited by amendment to projects not already in the county planning-permission process. The operative resolution, effective date, project-specific applicability and later action or present force remain unverified. The legacy inventory recorded active as of September 23, 2026; related public-comment and zoning-amendment schedule remain unverified historical leads. [VERIFY resolution, dates, scope and later action]
+- **Outcome:** On August 11, 2026 the board directed staff to develop a proposed moratorium while county zoning work proceeded. The Tucson Sentinel reports that on September 22 the board voted to impose a 120-day moratorium, limited by amendment to projects not already in the county planning-permission process. Operative terms and later action remain unverified.
 
 ---
 

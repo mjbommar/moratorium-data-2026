@@ -3,7 +3,7 @@
 
 Working inventory for Ohio, generated **November 8, 2026**. Record-level refresh and later-action review remain incomplete.
 
-**160 records** — 149 classified as active or extended, 2 classified as pending, 9 classified as past.
+**160 records** — 149 classified as active or extended, 2 classified as pending, 9 classified as past, 0 classified as rejected proposals.
 
 These counts reflect inventory classifications and do not establish current enforceability.
 

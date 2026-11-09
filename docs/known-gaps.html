@@ -233,7 +233,7 @@ PDF remains expressly unofficial; countywide precinct reporting does not establi
 contest certification. All three certification and implementation follow-ups remain
 open. New retrieval times do not renew the original report publication dates.</p>
 <h3 id="small-township-records-that-arent-online">Small-township records that aren't online</h3>
-<p>Many small townships and rural counties don't post agendas, minutes, or signed ordinances on the web. When we know a moratorium exists from news coverage but can't pull the underlying instrument, we record it with a <code>[VERIFY]</code> note in the relevant inventory field rather than guessing at the ordinance number or exact date. <strong>782 of the 1330 inventory rows</strong> have at least one such evidence-ceiling note (<code>has_verify_tags = True</code>). The earlier v2026.04.4 snapshot had 123 flagged rows out of 222; these are different inventory populations.</p>
+<p>Many small townships and rural counties don't post agendas, minutes, or signed ordinances on the web. When we know a moratorium exists from news coverage but can't pull the underlying instrument, we record it with a <code>[VERIFY]</code> note in the relevant inventory field rather than guessing at the ordinance number or exact date. <strong>783 of the 1330 inventory rows</strong> have at least one such evidence-ceiling note (<code>has_verify_tags = True</code>). The earlier v2026.04.4 snapshot had 123 flagged rows out of 222; these are different inventory populations.</p>
 <h3 id="legacy-instrument-identities">Legacy instrument identities</h3>
 <p>The working inventory still contains identities requiring reconciliation.
 <code>ma-leominster-undated</code> combines separate BESS and data-center petitions, each
@@ -254,13 +254,13 @@ The actual publication date and extension endpoint remain unresolved in the
 <a href="../work/research/2026-11-06/frenchtown-instrument-review/README.md">Frenchtown review</a>.
 Current record counts are working inventory totals, not
 proof that every legacy row satisfies the intended one-instrument grain.</p>
-<h3 id="ballot-candidates-retained-outside-the-reviewed-publication">Ballot candidates retained outside the reviewed publication</h3>
-<p>The frozen discovery cohort contains 56 logical candidate groups. The November 7 correspondence has 51 scoped canonical publications and five withheld payloads. A subsequent Augusta notice-only record is now canonical without accepting the frozen payload’s result/ordinance links; its correspondence to that payload remains unresolved. Do not add the canonical record count and held payload count as disjoint contests. Both Clarksville proposals are now published with explicitly conditional dates and unresolved final ballots and effects; their publication does not imply a vote or actual joint administration. Remaining groups are retained for follow-up, not rejected or treated as nonexistent.</p>
+<h3 id="ballot-publication-and-remaining-authority-gaps">Ballot publication and remaining authority gaps</h3>
+<p>The frozen discovery cohort contains 56 logical candidate groups. The historical November 7 correspondence had 51 scoped canonical publications and five withheld payloads. Subsequent reviewed Monroe and Sprigg publications bring definitive frozen correspondence to 53; three payloads remain held (Morgan, Augusta and Ottawa Question 2). A separate Augusta notice-only record is canonical without accepting the frozen payload’s result/ordinance links; its correspondence to that payload remains unresolved. See <a href="../work/research/2026-11-08/ballot-current-accounting/README.md">current ballot accounting</a>. Do not add the canonical record count and held payload count as disjoint contests. Both Clarksville proposals are now published with explicitly conditional dates and unresolved final ballots and effects; their publication does not imply a vote or actual joint administration. Remaining groups are retained for follow-up, not rejected or treated as nonexistent.</p>
 <table>
 <thead>
 <tr>
-<th>Candidate</th>
-<th>Evidence still needed before canonical publication</th>
+<th>Candidate or published question</th>
+<th>Remaining evidence and publication scope</th>
 </tr>
 </thead>
 <tbody>
@@ -274,11 +274,11 @@ proof that every legacy row satisfies the intended one-instrument grain.</p>
 </tr>
 <tr>
 <td>Monroe Township, Adams County, OH</td>
-<td>Official sample ballots and question identity/wording recovered; minimal-record preparation is in progress. Full plan provisions, sector coverage and operative effect remain unresolved.</td>
+<td>Published from reviewed official sample wording with unofficial 148 For / 100 Against. Full adopted plan, named-sector coverage, certification and operative effect remain unresolved.</td>
 </tr>
 <tr>
 <td>Sprigg Township, Adams County, OH</td>
-<td>Official sample ballot and question identity/wording recovered; 297-against count independently confirmed. Full plan provisions, sector coverage and operative effect remain unresolved.</td>
+<td>Published from reviewed official sample wording with unofficial 330 For / 297 Against. Full adopted plan, named-sector coverage, certification and operative effect remain unresolved.</td>
 </tr>
 <tr>
 <td>Ottawa, KS</td>
@@ -286,7 +286,7 @@ proof that every legacy row satisfies the intended one-instrument grain.</p>
 </tr>
 </tbody>
 </table>
-<p>The <a href="../work/audit/ballot-release-dispositions-2026-11-06.json">November 6 disposition ledger</a> retains the earlier seven-gap checkpoint. The <a href="../work/research/2026-11-05/ballot-census-review/canonical-projection-status.json">current correspondence</a> and <a href="../work/research/2026-11-07/clarksville-proposal-publication/README.md">Clarksville publication</a> record the two new scoped proposals and their remaining requirements. These gaps do not establish current legal force or a complete national ballot census.</p>
+<p>The <a href="../work/audit/ballot-release-dispositions-2026-11-06.json">November 6 disposition ledger</a> retains the earlier seven-gap checkpoint. The <a href="../work/research/2026-11-05/ballot-census-review/canonical-projection-status.json">earlier correspondence</a> and <a href="../work/research/2026-11-07/clarksville-proposal-publication/README.md">Clarksville publication</a> record the two new scoped proposals and their remaining requirements. These gaps do not establish current legal force or a complete national ballot census.</p>
 <h3 id="perry-village-geography-correction">Perry village geography correction</h3>
 <p>The November 6 geography review corrected <code>oh-perry-undated</code> from an unrelated
 point to the Census Bureau’s 2025 internal point for Perry village, Lake County,

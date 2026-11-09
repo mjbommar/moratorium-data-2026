@@ -1,5 +1,7 @@
 # Changelog
 
+The [first 105 additional-record review](work/research/2026-11-08/full-inventory-first105-application/README.md) applies 88 material cells and three derived verification fields across 43 records. Cromwell Application 26-25 is recorded as rejected following its September 24 denial: 78 pending and one rejected proposal remain, with 1,079 recorded active/extended and 172 past classifications. Verification-marked rows are 783. All 1,330 local and 447 policy IDs remain; unresolved authority and source dates are preserved. This is an applied increment, not full refresh completion.
+
 The [final cohort corrections](work/research/2026-11-08/freshness-225-final-corrections/README.md) apply 63 substantive cells and 36 verification fields across 54 records. Verification-marked rows are now 782, with 548 unflagged. All IDs and local classifications remain; source authority and conditional terms are explicit, and unverified South Carolina S 867 category becomes unknown. This completes the pending correction queue from the 225-record cohort.
 
 The [follow-up reconciliation](work/research/2026-11-08/freshness-followup-reconciliation/README.md) applies 59 substantive cells and 34 verification metadata fields across 30 records, including the revised six Baldwin cells. Distinguish authority, hearings, proposed terms and source dates; preserve unresolved histories without current-force claims. Verification-marked rows are now 766, with 564 unflagged; IDs, classifications, policy and ballot totals remain unchanged.
@@ -191,9 +193,9 @@ These are inventory classifications, not independently renewed legal-force findi
 |---|---:|
 | Moratoria in the list | **1330** |
 | Classified active or extended | **1079** |
-| Pending or not yet effective | **79** |
+| Pending or not yet effective | **78** |
 | Ended (replaced, expired, or rescinded) | **172** |
-| Rows we still want to confirm (`[VERIFY]`) | **782** |
+| Rows we still want to confirm (`[VERIFY]`) | **783** |
 | States with at least one | **47** |
 
 At the earlier Alabama checkpoint, totals were 1,330 local records (1,079 active/extended classifications),

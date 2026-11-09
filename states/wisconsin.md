@@ -3,7 +3,7 @@
 
 Working inventory for Wisconsin, generated **November 8, 2026**. Record-level refresh and later-action review remain incomplete.
 
-**41 records** — 40 classified as active or extended, 1 classified as pending, 0 classified as past.
+**41 records** — 40 classified as active or extended, 1 classified as pending, 0 classified as past, 0 classified as rejected proposals.
 
 These counts reflect inventory classifications and do not establish current enforceability.
 

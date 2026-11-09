@@ -3,7 +3,7 @@
 
 Working inventory for Nevada, generated **November 8, 2026**. Record-level refresh and later-action review remain incomplete.
 
-**7 records** — 5 classified as active or extended, 0 classified as pending, 2 classified as past.
+**7 records** — 5 classified as active or extended, 0 classified as pending, 2 classified as past, 0 classified as rejected proposals.
 
 These counts reflect inventory classifications and do not establish current enforceability.
 
