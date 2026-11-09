@@ -3,7 +3,7 @@
 
 Working inventory for Wisconsin, generated **November 8, 2026**. Record-level refresh and later-action review remain incomplete.
 
-**41 records** — 40 classified as active or extended, 1 classified as pending, 0 classified as past, 0 classified as rejected proposals.
+**41 records** — 40 classified as active or extended, 1 classified as pending, 0 classified as past, 0 classified as rejected proposals, 0 classified as unknown.
 
 These counts reflect inventory classifications and do not establish current enforceability.
 
@@ -39,7 +39,7 @@ State policy is tracked separately: **7 records** (7 typed bill rows) in [`state
 | Oshkosh | City | 2026-09-08 | data center | 🟢 Active |
 | Polk County | County | 2026-08-18 | data center | 🟢 Active |
 | Sauk County | County | 2026-09-15 | data center | 🟢 Active |
-| Sawyer County | County | 2026-08 | data center | 🟢 Active |
+| Sawyer County | County | 2026-08-20 | data center | 🟢 Active |
 | Shawano County | County | 2026-06-24 | data center | 🟢 Active |
 | St. Croix County | County | 2026-09-01 | data center | 🟢 Active |
 | Sun Prairie | City | 2026-09-01 | data center | 🟢 Active |
@@ -507,8 +507,8 @@ State policy is tracked separately: **7 records** (7 typed bill rows) in [`state
 
 - **Type:** County
 - **Recorded status:** 🟢 Active
-- **Date enacted:** August 2026 (county board vote, following a 5-0 zoning committee recommendation)
-- **Normalized date:** `2026-08` (month_only)
+- **Date enacted:** August 20, 2026 (County Board adoption of Resolution 2026-31, signed resolution, following a previously reported 5-0 zoning committee recommendation; final Exhibit A and publication remain unverified)
+- **Normalized date:** `2026-08-20` (exact)
 - **Duration:** 18 months
 - **Current end date:** `—`
 - **Sectors:** data center
@@ -612,8 +612,8 @@ State policy is tracked separately: **7 records** (7 typed bill rows) in [`state
 - **Legal basis:** Proposed Vilas County ordinance (draft; number not yet assigned per reviewed sources), Zoning & Planning Committee public hearing held 2026-09-23 under Wis. Stat. §§ 59.02(2), 59.03(2)(a), and 59.69
 - **What prompted it:** County currently lacks local zoning regulations for data centers, battery energy storage systems, or large-scale solar; officials cite fire hazards (BESS), noise/vibration from cooling units, light pollution, water/air quality, stormwater runoff, and traffic impacts.
 - **Affected projects:** —
-- **Detailed status:** Pending as of 2026-09-23. The Vilas County Zoning & Planning Committee held a public hearing on the proposed ordinance on 2026-09-23 (the date of this research); the full County Board of Supervisors is scheduled to vote at its October 27, 2026 meeting. As drafted, the moratorium would freeze acceptance, review, or approval of development permits for data centers, BESS, and solar energy systems exceeding one acre, for 12 months, with exemptions for solar installations of one acre or less, ordinary maintenance/repairs, emergency utility restoration, and projects already holding valid county permits.
-- **Outcome:** Public hearing held on a proposed 12-month moratorium on data centers, battery energy storage systems, and solar energy systems over one acre; County Board vote scheduled for 2026-10-27.
+- **Detailed status:** Pending as of 2026-09-23. The Vilas County Zoning & Planning Committee held a public hearing on the proposed ordinance on 2026-09-23 (the date of this research); the full County Board of Supervisors is scheduled to vote at its October 27, 2026 meeting. As drafted, the moratorium would freeze acceptance, review, or approval of development permits for data centers, BESS, and solar energy systems that exceed one acre (the acreage threshold applies to solar systems only), for 12 months, with exemptions for solar installations of one acre or less, ordinary maintenance/repairs, emergency utility restoration, and projects already holding valid county permits. Subsequent September 25 reporting states that the committee voted unanimously to recommend the proposal on September 23 and that a full-board vote was scheduled for November 10, 2026; this conflicts with the earlier October 27 schedule and the board outcome is unverified. The report also describes proposed changes involving home solar and battery backups; final exemptions remain unverified.
+- **Outcome:** Public hearing held on a proposed 12-month moratorium on data centers, battery energy storage systems, and solar energy systems over one acre (the acreage threshold applies to solar systems only); County Board vote scheduled for 2026-10-27. September 25 reporting says the committee unanimously recommended the proposal and expected a November 10 board vote; final board action remains unverified.
 
 ### Village of Ashwaubenon
 
@@ -692,7 +692,7 @@ State policy is tracked separately: **7 records** (7 typed bill rows) in [`state
 - **Legal basis:** Ordinance 26-01 (Town of Westport, Dane County), "Establishing a Temporary Moratorium on the Consideration and/or Issuance of Permits for [Data Centers and Telecommunication Centers]"
 - **What prompted it:** Modeled on a similar moratorium passed by the City of Madison; adopted amid growing data center prospecting activity in Dane County.
 - **Affected projects:** —
-- **Detailed status:** Active as of 2026-09-23; adopted April 6, 2026 on a motion by Werner, seconded by Crowell, with Supervisor Manering dissenting (she wanted the ordinance to apply to all data centers regardless of size). Applies to data centers exceeding 10,000 square feet; covers a one-year moratorium on considering or issuing permits for data centers and telecommunication centers.
+- **Detailed status:** Active as of 2026-09-23; adopted April 6, 2026 on a motion by Werner, seconded by Crowell, with Supervisor Manering dissenting (she wanted the ordinance to apply to all data centers regardless of size). Applies to data centers exceeding 10,000 square feet; covers a one-year moratorium on considering or issuing permits for data centers and telecommunication centers. A separate town statement describes the same ordinance as enacted April 20, 2026 by unanimous vote, conflicting with the April 6 minutes on date and vote; the signed ordinance and later force require verification.
 - **Outcome:** Adopted 12-month moratorium (Ordinance 26-01) on permits for data centers exceeding 10,000 square feet.
 
 ### Winnebago County

@@ -3,7 +3,7 @@
 
 Working inventory for Colorado, generated **November 8, 2026**. Record-level refresh and later-action review remain incomplete.
 
-**34 records** — 27 classified as active or extended, 1 classified as pending, 6 classified as past, 0 classified as rejected proposals.
+**34 records** — 27 classified as active or extended, 1 classified as pending, 6 classified as past, 0 classified as rejected proposals, 0 classified as unknown.
 
 These counts reflect inventory classifications and do not establish current enforceability.
 

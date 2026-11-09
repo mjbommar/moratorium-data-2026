@@ -6,26 +6,25 @@ Canonical records and reproducible derived downloads for this project.
 
 | File | What it is | Size | Format |
 |------|------------|------|--------|
-| [`moratorium_inventory.csv`](moratorium_inventory.csv) | 1330 local-moratorium records. **Start here.** | 1,700,481 bytes | CSV |
-| [`state_legislation.csv`](state_legislation.csv) | 447 state-policy records; mechanisms and legal effects vary | 311,312 bytes | CSV |
-| [`state_policy_scope_reviews.jsonl`](state_policy_scope_reviews.jsonl) | Reviewed analytical scope decisions; raw rows retained, applied by the separate scope exports | 1,744 bytes | JSONL |
-| [`summary_stats.json`](summary_stats.json) | Top-level aggregates (counts by state, by status, etc.) | 15,298 bytes | JSON |
+| [`moratorium_inventory.csv`](moratorium_inventory.csv) | 1330 local-moratorium records. **Start here.** | 1,816,794 bytes | CSV |
+| [`state_legislation.csv`](state_legislation.csv) | 447 state-policy records; mechanisms and legal effects vary | 329,165 bytes | CSV |
+| [`state_policy_scope_reviews.jsonl`](state_policy_scope_reviews.jsonl) | Reviewed analytical scope decisions; raw rows retained, applied by the separate scope exports | 835,287 bytes | JSONL |
+| [`summary_stats.json`](summary_stats.json) | Top-level aggregates (counts by state, by status, etc.) | 15,337 bytes | JSON |
 | [`structured_extractions.jsonl`](structured_extractions.jsonl) | 864 lines: 526 successful clause extractions + 338 LLM-call errors retained for transparency | ~2 MB | JSONL |
 | [`clause_extraction_analysis.json`](clause_extraction_analysis.json) | Pre-computed clause prevalence statistics for the n=348 cohort (confidence ≥ 0.4) | ~7 KB | JSON |
 | [`moratorium-extraction.json`](moratorium-extraction.json) | JSON Schema describing the 60-field extraction format | ~25 KB | JSON Schema |
 
 ## State-policy scope downloads
 
-The raw state-policy CSV retains all historical observations, including one
-reviewed exclusion concerning secure student/workforce research data. Use the
-[reviewed inclusion export](policy-scope/reviewed-included.csv) for explicitly
-accepted infrastructure scope; it currently contains headers only. The
-[annotated raw view](policy-scope/all-annotated.csv) preserves all 447 observations
-with their scope-review status. The
-[candidate pool](policy-scope/not-explicitly-excluded-candidates.csv) contains
-446 unreviewed observations after the known exclusion; it is not an accepted
-infrastructure census. These counts concern historical observations, not unique
-instruments or verified current law. The [receipt](policy-scope/receipt.json)
+The raw state-policy CSV retains all 447 historical observations. The
+[reviewed inclusion export](policy-scope/reviewed-included.csv) contains 374
+observations explicitly included in infrastructure scope; 19 are excluded and 54
+remain unresolved, with none unreviewed. The
+[annotated raw view](policy-scope/all-annotated.csv) preserves every observation
+and scope decision. The [candidate pool](policy-scope/not-explicitly-excluded-candidates.csv)
+contains 428 observations, including the unresolved cases. It is an exploratory
+pool, not an accepted infrastructure census. These counts concern observations,
+not unique instruments or verified current law. The [receipt](policy-scope/receipt.json)
 pins inputs, partitions and output hashes; see the [export contract](../docs/policy-scope-exports.md).
 
 ## Column definitions
@@ -36,7 +35,7 @@ See [`docs/codebook.md`](../docs/codebook.md) for full definitions of every colu
 
 The inventory CSV includes normalized fields alongside legacy descriptions. Useful fields include:
 
-- **`enacted_status`** — closed-vocab status: `active`, `extended`, `replaced`, `expired`, `rescinded`, or `pending`. Filter to `active` + `extended` for records classified active or extended. These classifications do not prove freshly verified current legal force.
+- **`enacted_status`** — closed-vocab status: `active`, `extended`, `replaced`, `expired`, `rescinded`, `pending`, `rejected`, or `unknown`. The last two preserve rejected proposals and genuinely unresolved recorded stages separately. Filter to `active` + `extended` for records classified active or extended. These classifications do not prove freshly verified current legal force.
 - **`moratorium_id`** — stable identifier (`<state>-<jurisdiction>-<year>`, with phase suffixes for repeat instruments). Use this as a primary key when joining with future releases of this dataset.
 - **`current_end_date_iso`** — current fixed endpoint after any extension. Use it for expiry monitoring; `duration_days` preserves the original instrument's term.
 - **`latitude` / `longitude`** — WGS84 coordinates of the jurisdiction centroid. Drop the CSV into Mapbox, kepler.gl, Tableau, or any GIS tool to get an instant point map. 1289 of 1330 rows have coordinates; nonblank coordinates do not establish correct jurisdiction identity or legal applicability. See [geocoding caveats](../docs/known-gaps.md#geocoding-caveats-added-v2026042).
@@ -84,12 +83,20 @@ Most `date_enacted` values are ISO format (`YYYY-MM-DD`). Some are `YYYY-MM` (da
 
 ## Updates
 
-The September 23, 2026 edition is a historical baseline. The November refresh is in progress; source/status dates vary by record. These local review batches have not been published as a new GitHub Release. Citation/version reconciliation remains part of the final release work.
+The September 23, 2026 edition is a historical baseline. The November refresh is in progress; source/status dates vary by record. The published `v2026.11.8` prerelease is explicitly an incomplete checkpoint; later working corrections are not yet a completed release. Citation/version reconciliation remains part of the final release work.
 
 ## Reviewed ballot records
 
-Canonical expanded records cover 54 reviewed proposal and measure records (51 mapped frozen-cohort publications, Jay's solar ballot, a separate Wilmington litigated initiative and an Augusta notice-only question with unresolved frozen-seed correspondence) across held or intended election dates,
-with 61 retained result observations and explicit supersession. Five frozen candidate payloads remain unresolved; Augusta’s notice-only record may overlap one of them, so they are not additional disjoint contests. Its sector and county-result/ordinance links remain unaccepted; see the [gap dispositions](../docs/known-gaps.md#ballot-candidates-retained-outside-the-reviewed-publication).
+Canonical expanded records cover 57 reviewed proposal and measure records:
+53 mapped frozen-cohort publications, Jay's solar ballot, Wilmington's litigated
+initiative, Bethel's town-meeting question, and an Augusta notice-only question
+with unresolved frozen-seed correspondence. There are 64 retained result versions
+and 53 current observations across 52 measures; five measures lack a current result.
+Three frozen candidate payloads remain held. Augusta's notice-only record may
+overlap one of them, so held payloads are not additional disjoint contests.
+Its sector and result/ordinance links remain unaccepted; see the
+[gap dispositions](../docs/known-gaps.md#ballot-candidates-retained-outside-the-reviewed-publication)
+and [current accounting](../work/research/2026-11-08/ballot-current-accounting/README.md).
 Certification and legal implementation remain separate, record-specific findings.
 [The generated results view](../docs/ballot-results.md) supplies current record and
 observation counts; explicit supersession retains earlier observations. Unreported

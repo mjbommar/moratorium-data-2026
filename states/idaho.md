@@ -3,7 +3,7 @@
 
 Working inventory for Idaho, generated **November 8, 2026**. Record-level refresh and later-action review remain incomplete.
 
-**4 records** — 2 classified as active or extended, 1 classified as pending, 1 classified as past, 0 classified as rejected proposals.
+**4 records** — 2 classified as active or extended, 1 classified as pending, 1 classified as past, 0 classified as rejected proposals, 0 classified as unknown.
 
 These counts reflect inventory classifications and do not establish current enforceability.
 
@@ -25,7 +25,7 @@ State policy is tracked separately: **9 records** (9 typed bill rows) in [`state
 - **Date enacted:** 2026-07-30 (Board of County Commissioners signed the emergency moratorium ordinance)
 - **Normalized date:** `2026-07-30` (exact)
 - **Duration:** 180 days from adoption (2026-07-30 to 2027-01-26)
-- **Current end date:** `—`
+- **Current end date:** `2027-01-26`
 - **Sectors:** data center
 - **Moratorium ID:** `id-bannock-county-2026`
 - **Legal basis:** Emergency moratorium ordinance, Instrument # 22609310, adopted under Idaho Code Section 67-6523 by the Bannock County Board of Commissioners (Jeff Hough, Chairman; Ernie Moser and Ken Bullock, Commissioners); signed 2026-07-30.
@@ -56,15 +56,15 @@ State policy is tracked separately: **9 records** (9 typed bill rows) in [`state
 - **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-07-02 (Board of County Commissioners regular meeting; Resolution No. 952-26 adopted unanimously, Corbus/Rodgers/Hofer all AYE)
 - **Normalized date:** `2026-07-02` (exact)
-- **Duration:** 182 days from adoption (2026-07-02 to 2026-12-31)
+- **Duration:** Not exceeding 182 days from 2026-07-02 adoption, unless sooner repealed or superseded by an interim or final ordinance; December 31, 2026 is a calculated outer bound, not an established fixed end.
 - **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `id-elmore-county-2026`
 - **Legal basis:** Resolution No. 952-26, "Emergency Moratorium on the Issuance of Permits for Data Center Development within [unincorporated] Elmore County," adopted by the Elmore County Board of Commissioners on 2026-07-02.
 - **What prompted it:** Commissioners cited concerns over water use, noise, land-use impacts, and the absence of existing county regulation specific to data centers.
 - **Affected projects:** None named in captured county minutes or press coverage.
-- **Detailed status:** Active as of 2026-09-23. Emergency moratorium on the issuance of permits for data center development in unincorporated Elmore County, adopted unanimously 2026-07-02, running 182 days to approximately 2026-12-31.
-- **Outcome:** Board of County Commissioners unanimously adopted Resolution No. 952-26, a 182-day emergency moratorium on data center development permits in unincorporated Elmore County.
+- **Detailed status:** Active as of 2026-09-23. Resolution No. 952-26 imposed an emergency moratorium on data-center development permits and zoning approvals in unincorporated Elmore County on 2026-07-02, for a period not exceeding 182 days unless sooner repealed or superseded. A September 24 declaration reported the moratorium affecting a proposed project.
+- **Outcome:** Board of County Commissioners unanimously adopted Resolution No. 952-26, an emergency moratorium on data-center development permits in unincorporated Elmore County for no more than 182 days, subject to earlier repeal or supersession.
 
 ### Kootenai County
 

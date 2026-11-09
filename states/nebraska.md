@@ -3,7 +3,7 @@
 
 Working inventory for Nebraska, generated **November 8, 2026**. Record-level refresh and later-action review remain incomplete.
 
-**24 records** — 20 classified as active or extended, 2 classified as pending, 2 classified as past, 0 classified as rejected proposals.
+**24 records** — 19 classified as active or extended, 2 classified as pending, 3 classified as past, 0 classified as rejected proposals, 0 classified as unknown.
 
 These counts reflect inventory classifications and do not establish current enforceability.
 
@@ -16,7 +16,7 @@ State policy is tracked separately: **11 records** (11 typed bill rows) in [`sta
 | Butler County | County | 2026-03-16 | wind, solar, battery storage, data center, general | 🟢 Active |
 | Cass County | County | 2026-08-11 | data center | 🟢 Active |
 | Cherry County | County | 2026-07-14 | data center, general | 🟢 Active |
-| Custer County | County | 2026-03-31 | data center | 🟢 Active |
+| Custer County | County | 2026-03-31 | data center | ⚪ Expired |
 | Dundy County | County | 2025-06 | data center, general | 🟢 Extended |
 | Fillmore County | County | 2026-06-23 | solar | 🟢 Active |
 | Furnas County | County | 2025-08-26 | wind, solar | 🟢 Active |
@@ -27,7 +27,7 @@ State policy is tracked separately: **11 records** (11 typed bill rows) in [`sta
 | Hitchcock County | County | 2025-02-03 | data center, cryptocurrency mining | ⚪ Replaced |
 | Hitchcock County | County | Unverified | wind, solar, battery storage, cryptocurrency mining, data center, general | 🟡 Pending |
 | Johnson County | County | 2026-05-05 | data center | 🟢 Active |
-| Kearney County | County | 2026 | data center | 🟢 Active |
+| Kearney County | County | 2026-04-07 | data center, cryptocurrency mining, battery storage | 🟢 Active |
 | Logan County | County | 2026-07-15 | data center, cryptocurrency mining, wind, solar, battery storage | 🟢 Active |
 | McPherson County | County | 2026-06-10 | wind, solar, battery storage, cryptocurrency mining, data center, general | 🟢 Active |
 | Otoe County | County | 2026-05-19 | data center | 🟢 Active |
@@ -42,7 +42,7 @@ State policy is tracked separately: **11 records** (11 typed bill rows) in [`sta
 
 - **Type:** County
 - **Recorded status:** 🟢 Active
-- **Date enacted:** Before 2026-07-16 (exact date and resolution number not located)
+- **Date enacted:** Reported in place as of 2026-07-02 by Nebraska Public Media; exact adoption date and instrument number not located.
 - **Normalized date:** `2026` (year_only)
 - **Duration:** Not documented
 - **Current end date:** `—`
@@ -51,7 +51,7 @@ State policy is tracked separately: **11 records** (11 typed bill rows) in [`sta
 - **Legal basis:** —
 - **What prompted it:** County studying data center regulations
 - **Affected projects:** None identified
-- **Detailed status:** Reported as one of the first wave of Nebraska county data center moratoria (adopted before 2026-07-16), per Nebraska Public Media; the county's own resolution/ordinance and exact date were not located within the research budget. [VERIFY instrument number; primary source (news-only evidence) not confirmed at confidence 0.5 in the 2026-09 refresh]
+- **Detailed status:** Nebraska Public Media reported Box Butte among counties with data-center moratoria as of July 2, 2026. The county instrument, exact date, duration and later action were not established in the retained review. [VERIFY: original instrument, operative interval and current legal force.]
 - **Outcome:** Reported to have a data center moratorium in place; primary source not located
 
 ### Broken Bow
@@ -68,7 +68,7 @@ State policy is tracked separately: **11 records** (11 typed bill rows) in [`sta
 - **What prompted it:** No existing regulations governing data centers; city wants time to draft zoning rules
 - **Affected projects:** None identified
 - **Detailed status:** Signed Ordinance 1314, passed/approved July 14, states six months from effectiveness or earlier effective permanent regulations. Its commencement requires passage, mayoral approval and publication. Signed zoning Ordinance 1317 was passed/approved September 8, but its effective-date section states no actual commencement rule. Publication, effectiveness and whether the moratorium ended under its condition remain unresolved; the legacy active classification is provisional. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
-- **Outcome:** City drafting data center zoning regulations
+- **Outcome:** The City Council passed and approved data-center zoning Ordinance 1317 on September 8, 2026. Its effective date and the resulting moratorium sunset remain unverified.
 
 ### Butler County
 
@@ -76,7 +76,7 @@ State policy is tracked separately: **11 records** (11 typed bill rows) in [`sta
 - **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-03-16, Butler County Board of Supervisors, 4-1 roll-call vote (Griess, Vandenberg, Bauer, Steager aye; Krafka nay)
 - **Normalized date:** `2026-03-16` (exact)
-- **Duration:** 9 months from adoption (2026-03-16)
+- **Duration:** Nine months from the March 16, 2026 resolution, or earlier completion and adoption of county zoning regulations and the comprehensive plan, whichever occurs first.
 - **Current end date:** `—`
 - **Sectors:** wind, solar, battery storage, data center, general
 - **Moratorium ID:** `ne-butler-county-2026`
@@ -84,7 +84,7 @@ State policy is tracked separately: **11 records** (11 typed bill rows) in [`sta
 - **What prompted it:** Butler County has no zoning; a countywide survey (~800 responses) found roughly 90% support for a moratorium on the top land uses of concern (wind, solar, data centers, battery storage, landfill), following years of unregulated development including the in-progress Sandhills Energy solar project.
 - **Affected projects:** Sandhills Energy solar project (in development since 2019, construction reportedly started February 2026, ~$15M invested/$100M in equipment orders per company representative Brian Boerner) was initially covered by the moratorium as adopted, then later exempted after the company threatened litigation.
 - **Detailed status:** Signed Resolution 2026-07 dated March 16 states nine months or earlier completion/adoption of county zoning regulations and comprehensive plan. Adoption minutes remove the proposed exclusion for projects under construction. A later solar exemption, amendments and operative ending were not established by this review. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
-- **Outcome:** 9-month countywide land-use moratorium adopted covering wind, solar, data centers, battery storage, and landfills, later amended to exempt an in-progress solar project.
+- **Outcome:** A nine-month countywide moratorium covering wind, solar, data centers, battery storage and landfills was adopted March 16, 2026, subject to earlier completion and adoption of the county zoning regulations and comprehensive plan. Earlier Flatwater Free Press reporting attributed a later exemption for an in-progress solar project; the exemption instrument has not been independently established.
 
 ### Cass County
 
@@ -99,8 +99,8 @@ State policy is tracked separately: **11 records** (11 typed bill rows) in [`sta
 - **Legal basis:** Board of Commissioners resolution (specific resolution number not located in sources reviewed)
 - **What prompted it:** specific_project trigger (Tenaska/Google-linked proposal: Tenaska optioned 1,354 acres in Cass County along Highway 75 south of Murray and Beaver Lake for a data center/natural-gas power plant project) combined with a regulatory gap; a separate set of proposed zoning regulations was tabled to Sept. 22, 2026 for further discussion.
 - **Affected projects:** Tenaska/Google-linked data center and natural-gas power plant proposal near Murray/Beaver Lake (1,354 acres optioned as of June 2026); no formal application had been submitted as of the Aug. 11 vote, per the county zoning administrator.
-- **Detailed status:** Active as of 2026-09-23. Adopted 2026-08-11 on a unanimous 5-0 vote following a Planning and Zoning Commission recommendation (7-1, mid-July 2026) for an 18-month term; commissioners instead set 12 months as a floor, extendable if needed. A companion set of proposed data-center zoning regulations was tabled the same day to the Board's Sept. 22, 2026 meeting.
-- **Outcome:** 12-month moratorium on data center permits adopted after extensive public hearings; proposed implementing zoning regulations tabled to Sept. 22, 2026 for further board discussion.
+- **Detailed status:** KLKN reported a unanimous 12-month data-center permit moratorium adopted August 11, 2026. Earlier review reported a 7–1 planning recommendation for 18 months and commissioners setting 12 months as a floor, extendable if needed; proposed zoning regulations were tabled to September 22. KETV reported that on November 3 the board approved zoning Resolution 2026-11 and agreed to keep the moratorium in place. The original moratorium and later resolution were not independently inspected. [VERIFY: official instruments, operative interval, later action and current legal force.]
+- **Outcome:** A 12-month moratorium on data-center permits was reported adopted August 11, 2026; KETV reported November 3 approval of zoning Resolution 2026-11 and continuation of the moratorium at that time.
 
 ### Cherry County
 
@@ -121,7 +121,7 @@ State policy is tracked separately: **11 records** (11 typed bill rows) in [`sta
 ### Custer County
 
 - **Type:** County
-- **Recorded status:** 🟢 Active
+- **Recorded status:** ⚪ Expired
 - **Date enacted:** 2026-03-31 (Resolution 75Z-26 adopted)
 - **Normalized date:** `2026-03-31` (exact)
 - **Duration:** Six months (March 31, 2026 to September 30, 2026)
@@ -131,8 +131,8 @@ State policy is tracked separately: **11 records** (11 typed bill rows) in [`sta
 - **Legal basis:** Resolution 75Z-26
 - **What prompted it:** County developing data center zoning regulations
 - **Affected projects:** None identified
-- **Detailed status:** Active as of 2026-09-23; Resolution 75Z-26 puts a moratorium on 'Tech Facilities' from 2026-03-31 to 2026-09-30 while the Planning Commission finalizes data center zoning regulations (public hearing held 2026-09-23).
-- **Outcome:** Planning Commission developing permanent data center zoning regulations; public hearing 2026-09-23
+- **Detailed status:** Resolution 75Z-26 established a Tech Facilities moratorium from March 31 to September 30, 2026 while the Planning Commission finalized data center zoning regulations (public hearing held September 23). On October 13, 2026, the Board adopted Resolution 77Z-26 adopting data center regulations. Later extension or current legal force of the moratorium remains unverified. [VERIFY later extensions or other action.]
+- **Outcome:** Planning Commission developed data center zoning regulations; public hearing held September 23, 2026. Board adopted data center regulations as Resolution 77Z-26 on October 13, 2026; any extension or other later action on the moratorium remains unverified.
 
 ### Dundy County
 
@@ -147,7 +147,7 @@ State policy is tracked separately: **11 records** (11 typed bill rows) in [`sta
 - **Legal basis:** Resolution 76-26-9 (2026-06-15 extension)
 - **What prompted it:** County studying comprehensive plan and zoning updates before accepting Conditional Use Permit applications (used by data center developers)
 - **Affected projects:** None identified
-- **Detailed status:** Active as of 2026-09-23; the Board of Commissioners voted 2026-06-15 to adopt Resolution 76-26-9, extending the county's Conditional Use Permit moratorium for another 12 months (to on or about 2027-06-15). The underlying CUP moratorium (which reaches data center siting, since data centers require a CUP) traces to a Planning Commission recommendation heard by the Board on 2025-06-23.
+- **Detailed status:** On June 15, 2026 the Board adopted Resolution 76-26-9 extending the Conditional Use Moratorium for another 12 months. The original CUP moratorium was previously attributed to a Planning Commission recommendation heard June 23, 2025; data centers reportedly require a CUP. The extension anchor, end date and subsequent actions remain unverified. [VERIFY operative terms and later action.]
 - **Outcome:** County continuing to require CUP moratorium while updating comprehensive plan/zoning
 
 ### Fillmore County
@@ -195,7 +195,7 @@ State policy is tracked separately: **11 records** (11 typed bill rows) in [`sta
 - **Legal basis:** Board of Supervisors resolution (specific resolution number not located in sources reviewed)
 - **What prompted it:** County has no data-center-specific regulations; Board wanted time to develop them following a contested public process (a June 2026 Planning and Zoning Commission hearing drew 170+ people and a Sept. 3, 2026 supervisors' hearing drew 120+ people, most urging an 18-month or longer term).
 - **Affected projects:** None named; officials stated no permit application was pending. Tenaska (an Omaha-based energy developer also behind projects in Cass and Otoe counties) was referenced as active in the region.
-- **Detailed status:** September 16 reporting describes approval of a twelve-month data-center permit moratorium. The operative resolution, effective-date anchor and later actions were not reviewed. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
+- **Detailed status:** September 16, 2026 reporting describes approval of a twelve-month data-center permit moratorium beginning that day. The operative resolution and later actions were not reviewed. [VERIFY operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** 12-month data center permit moratorium adopted to allow time to develop county-specific data center regulations; supersedes the county's prior 8-month moratorium from August 2026.
 
 ### Garfield County
@@ -227,8 +227,8 @@ State policy is tracked separately: **11 records** (11 typed bill rows) in [`sta
 - **Legal basis:** —
 - **What prompted it:** County studying data center regulations
 - **Affected projects:** None identified
-- **Detailed status:** Reported as one of the first wave of Nebraska county data center moratoria (adopted before 2026-07-16), per Nebraska Public Media; the county's own resolution/ordinance and exact date were not located within the research budget. [VERIFY instrument number; primary source (news-only evidence) not confirmed at confidence 0.5 in the 2026-09 refresh]
-- **Outcome:** Reported to have a data center moratorium in place; primary source not located
+- **Detailed status:** Nebraska Public Media reported Harlan among counties with a data-center moratorium on July 2, 2026. On July 21, 2026, the Board approved Resolution 2026-7 for a temporary moratorium on data-center development. Its relationship to the earlier reported pause, its term and its later legal force remain unverified. On October 20 the Board discussed a comprehensive plan and scheduled a hearing; adoption was not established. [VERIFY instrument identity, operative term and subsequent action.]
+- **Outcome:** A temporary data-center development moratorium was approved as Resolution 2026-7 on July 21, 2026; its relation to the earlier reported pause and subsequent force remain unverified.
 
 ### Hayes County
 
@@ -260,7 +260,7 @@ State policy is tracked separately: **11 records** (11 typed bill rows) in [`sta
 - **What prompted it:** Existing zoning did not adequately address data centers and crypto mining in AG-G and RCI districts. The resolution cited energy consumption, cooling and environmental footprint concerns, land-use impacts, and the need to study countywide zoning controls.
 - **Affected projects:** Steven R. Fries data mining conditional use request was denied on 2025-01-21 before the moratorium. MB Club LLC later received conditional use approval for a data center on 2025-10-06 [VERIFY: MB Club LLC project MW capacity not in captured Hitchcock County board minutes].
 - **Detailed status:** Replaced
-- **Outcome:** Resolution #25-9 amended county zoning after a 2025-03-17 public hearing. The framework allows data centers and crypto mining through conditional use in AG-G and RCI districts and addresses I district standards. Resolution #25-19 approved MB Club LLC's conditional use with an impact easement requirement.
+- **Outcome:** Resolution #25-9 amended county zoning after a 2025-03-17 public hearing. The framework allows data centers and crypto mining through conditional use in AG-G and RCI districts and addresses I district standards. Resolution #25-19 approved MB Club LLC's conditional use with an impact easement requirement. Resolution #25-9 was adopted March 17, 2025, with amendments effective May 1, 2025.
 
 ### Hitchcock County
 
@@ -275,8 +275,8 @@ State policy is tracked separately: **11 records** (11 typed bill rows) in [`sta
 - **Legal basis:** Proposed Resolution 26-18 (not yet adopted as of 2026-09-21), described in the Sept. 8, 2026 agenda as superseding 'Resolution 2025-8'
 - **What prompted it:** Regulatory-gap/preemptive: county attorney and chair described ongoing work to update the county's comprehensive plan and zoning regulations (targeted for completion by May 2027) and encouraged public participation in town-hall meetings on the update; the proposed moratorium would pause applications while that update is completed.
 - **Affected projects:** None named in the agenda or minutes reviewed.
-- **Detailed status:** Pending as of 2026-09-23. The Sept. 8, 2026 board agenda listed 'Consider imposing a 12 month moratorium on the acceptance of applications for wind energy systems, solar energy systems, battery energy storage systems, cryptocurrency-mining operations, data centers, artificial intelligence facilities, carbon dioxide capture, transport, and sequestration facilities, high-voltage transmission infrastructure, and other utility scale or specialized technology facilities superseding Resolution 2025-8.' At the Sept. 8 meeting the board discussed the item but did not vote (no resolution number was assigned in the minutes for this item, unlike the numbered resolutions that followed for other business). At the Sept. 21, 2026 meeting, the item returned as 'proposed Resolution 26-18'; the minutes record discussion but 'No action taken at this time.' No adoption vote had occurred as of the last confirmed meeting (Sept. 21, 2026), two days before this research date. [VERIFY adoption date not confirmed at confidence 0.6 in the 2026-09 refresh]
-- **Outcome:** Broader successor moratorium proposal (covering wind, solar, battery storage, crypto mining, data centers, AI facilities, CO2 pipeline infrastructure, and high-voltage transmission) remains under discussion by the Board as of the Sept. 21, 2026 meeting; not yet adopted.
+- **Detailed status:** Pending as of 2026-09-23. The Sept. 8, 2026 board agenda listed 'Consider imposing a 12 month moratorium on the acceptance of applications for wind energy systems, solar energy systems, battery energy storage systems, cryptocurrency-mining operations, data centers, artificial intelligence facilities, carbon dioxide capture, transport, and sequestration facilities, high-voltage transmission infrastructure, and other utility scale or specialized technology facilities superseding Resolution 2025-8.' At the Sept. 8 meeting the board discussed the item but did not vote (no resolution number was assigned in the minutes for this item, unlike the numbered resolutions that followed for other business). At the Sept. 21, 2026 meeting, the item returned as 'proposed Resolution 26-18'; the minutes record discussion but 'No action taken at this time.' No adoption vote had occurred as of the last confirmed meeting (Sept. 21, 2026), two days before this research date. [VERIFY adoption date not confirmed at confidence 0.6 in the 2026-09 refresh] Later minutes of October 5, October 19 and November 2, 2026 do not identify a final disposition; November 2 records continuing comprehensive-plan work. Resolution 26-18 adopted September 22 concerns the county budget, so its number alone cannot establish adoption of this proposal.
+- **Outcome:** Broader successor moratorium proposal (covering wind, solar, battery storage, crypto mining, data centers, AI facilities, CO2 pipeline infrastructure, and high-voltage transmission) remains under discussion by the Board as of the Sept. 21, 2026 meeting; not yet adopted. Later minutes reviewed through November 2, 2026 do not establish its final disposition.
 
 ### Johnson County
 
@@ -292,23 +292,23 @@ State policy is tracked separately: **11 records** (11 typed bill rows) in [`sta
 - **What prompted it:** County studying data center regulations
 - **Affected projects:** None identified
 - **Detailed status:** May 5, 2026 official minutes record a carried motion approving a one-year data-center moratorium, with Weber, Agena and Borrenpohl voting yes and none voting no. Operative instrument, effective-date anchor and later actions remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
-- **Outcome:** Reported to have a data center moratorium in place; primary source not located
+- **Outcome:** The Johnson County Board approved a one-year data-center moratorium on May 5, 2026; the operative effective date and later actions remain unverified.
 
 ### Kearney County
 
 - **Type:** County
 - **Recorded status:** 🟢 Active
-- **Date enacted:** Before 2026-07-16 (exact date and resolution number not located)
-- **Normalized date:** `2026` (year_only)
+- **Date enacted:** 2026-04-07: county board approved a data-center and other large-energy applications moratorium; its relationship to the September 15, 2026 six-month resolution remains unverified.
+- **Normalized date:** `2026-04-07` (exact)
 - **Duration:** Not documented
 - **Current end date:** `—`
-- **Sectors:** data center
+- **Sectors:** data center, cryptocurrency mining, battery storage
 - **Moratorium ID:** `ne-kearney-county-2026`
 - **Legal basis:** —
 - **What prompted it:** County studying data center regulations on unincorporated land
 - **Affected projects:** None identified
-- **Detailed status:** Reported as one of the first-wave Nebraska county data center moratoria (adopted before 2026-07-16), applying to unincorporated Kearney County land; primary resolution not located. Distinct from the City of Kearney (in Buffalo County), which adopted a permissive data-center zoning ordinance in August 2026 rather than a moratorium. [VERIFY instrument number; primary source (news-only evidence) not confirmed at confidence 0.5 in the 2026-09 refresh]
-- **Outcome:** Reported to have a data center moratorium on unincorporated land; primary source not located
+- **Detailed status:** On April 7, 2026, Kearney County approved a moratorium on accepting or approving data-center, crypto-mining, other large-energy permits or battery-storage applications. On September 15, 2026, the Board approved a six-month data-center moratorium resolution and discussed a regulations working group. The relationship between these actions, operative dates and later force remain unverified. The county is distinct from the City of Kearney in Buffalo County, which adopted a permissive data-center zoning ordinance in August 2026. [VERIFY instrument identity, operative terms and subsequent action.]
+- **Outcome:** County approved an applications moratorium April 7, 2026 and a six-month data-center moratorium resolution September 15, 2026; their relationship and later force remain unverified.
 
 ### Logan County
 
@@ -323,7 +323,7 @@ State policy is tracked separately: **11 records** (11 typed bill rows) in [`sta
 - **Legal basis:** Resolution 26-2, Board of County Commissioners
 - **What prompted it:** Adopted alongside a wave of Nebraska county moratoria addressing data centers and related utility-scale/specialized-technology development.
 - **Affected projects:** —
-- **Detailed status:** Active as of 2026-07-31; 12-month moratorium effective 2026-07-15.
+- **Detailed status:** Resolution 26-2 was adopted July 15, 2026, imposing a 12-month moratorium on specified applications. The earlier row recorded it as active July 31 and effective July 15; the retained minutes establish approval and term but do not independently establish the effective-date clause. October 21 minutes do not identify a moratorium action. [VERIFY operative start and material intervening action.]
 - **Outcome:** —
 
 ### McPherson County
@@ -339,7 +339,7 @@ State policy is tracked separately: **11 records** (11 typed bill rows) in [`sta
 - **Legal basis:** Resolution 2026-11 (McPherson County Board of Commissioners), superseding Resolutions 2025-19, 2025-21, and 2025-25
 - **What prompted it:** regulatory_gap: broad pause covering utility-scale and specialized technology facilities pending county zoning/regulatory development.
 - **Affected projects:** None named in the meeting-minutes summary reviewed.
-- **Detailed status:** Active as of 2026-09-23. Resolution 2026-11, adopted 2026-06-10, imposes a 12-month moratorium on acceptance of applications for wind and solar energy systems, battery energy storage systems, cryptocurrency-mining operations, data centers, artificial intelligence facilities, carbon dioxide capture/transport/sequestration facilities, and high-voltage electric transmission infrastructure; it supersedes the county's prior 2025 moratorium resolutions (2025-19, 2025-21, 2025-25).
+- **Detailed status:** Earlier source review recorded active status as of 2026-09-23. Resolution 2026-11, adopted 2026-06-10, imposes a 12-month moratorium on acceptance of applications for wind and solar energy systems, battery energy storage systems, cryptocurrency-mining operations, data centers, artificial intelligence facilities, carbon dioxide capture/transport/sequestration facilities, and high-voltage electric transmission infrastructure; it supersedes the county's prior 2025 moratorium resolutions (2025-19, 2025-21, 2025-25). The October 14, 2026 minutes reviewed do not identify action on this moratorium; operative anchor and intervening actions remain unverified. [VERIFY operative terms and subsequent action.]
 - **Outcome:** 12-month moratorium adopted covering a broad set of utility-scale and specialized technology facility types, consolidating and superseding the county's prior 2025 moratorium resolutions.
 
 ### Otoe County
@@ -355,8 +355,8 @@ State policy is tracked separately: **11 records** (11 typed bill rows) in [`sta
 - **Legal basis:** Otoe County Board of Commissioners motion (made by Commissioner Cole, seconded by Commissioner Crownover), adopted by unanimous voice vote (4-0; Commissioner Freshman absent) at the May 19, 2026 regular meeting, following a public hearing and the Planning Commission's April 16, 2026 recommendation. The same meeting also created a zoning review committee (Commissioners Jerad Sornson and Chuck Cole, Dan Thomson, and Jenniffer Panko-Rahe, plus Planning Board representatives Dan Hodges, Howard Bebout, and Cheri Wirthele) to update the county's zoning regulations. No separately numbered ordinance or resolution was adopted for the moratorium itself (compare Resolution 5-19-26-4 and Resolution 5-19-26-5, both adopted at the same meeting for unrelated matters).
 - **What prompted it:** Large public response and concern over potential health, environmental, and community-fit impacts of data centers.
 - **Affected projects:** No specific project application was named in the May 19, 2026 public hearing; the certified minutes record public comments about noise, pollution, water/power usage, and preserving agricultural land in general terms, not a named applicant. Possible Tenaska-related southeast Nebraska land assembly and industrial/data-center discussion had been reported in March 2026, but no formal Otoe County application docket was identified in any source checked in this pass either.
-- **Detailed status:** Adopted. The Otoe County Board of Commissioners voted 4-0 on 2026-05-19 to enter a moratorium on building and conditional-use permits for data centers, for up to one year, with a newly created zoning review committee directed to update regulations; the moratorium may be lifted earlier once updated regulations are approved.
-- **Outcome:** No enacted moratorium or replacement zoning action identified in captured sources. Otoe County's 2025 zoning draft defines "Data Center" but the captured text did not surface a complete use-matrix classification. [CITE]
+- **Detailed status:** Adopted. The Otoe County Board of Commissioners voted 4-0 on 2026-05-19 to enter a moratorium on building and conditional-use permits for data centers, for up to one year, with a newly created zoning review committee directed to update regulations; the moratorium may be lifted earlier once updated regulations are approved. Later board and zoning-review actions remain unverified. [VERIFY whether updated regulations were approved or the moratorium was lifted earlier.]
+- **Outcome:** On May 19, 2026, the Board adopted a moratorium on data-center building and conditional-use permits for up to one year, with possible earlier lifting if updated regulations are approved. The earlier 2025 zoning draft defined "Data Center"; the complete use-matrix classification remains unconfirmed. [CITE]
 
 ### Red Willow County
 
@@ -396,15 +396,15 @@ State policy is tracked separately: **11 records** (11 typed bill rows) in [`sta
 - **Recorded status:** 🟢 Extended
 - **Date enacted:** 2023-08-01, Seward County Board of Commissioners (original adoption); most recently continued by Resolution No. 3947, adopted 2026-08-25
 - **Normalized date:** `2023-08-01` (exact)
-- **Duration:** Originally a 6-month moratorium adopted 2023-08-01, repeatedly continued/renewed by separate board resolutions (including at the Jan. 6, 2026 meeting) for further 6-month terms or until new zoning regulations are formally adopted, whichever occurs first; most recently continued by Resolution No. 3947 (2026-08-25) for 6 months from that date.
-- **Current end date:** `2027-02-25`
+- **Duration:** The earlier inventory attributed a six-month original moratorium on August 1, 2023; its original instrument and term remain unverified. Resolution 3947 continued or renewed the moratorium effective August 25, 2026 for six months or until qualifying regulations became legally binding, whichever first; later force is unverified.
+- **Current end date:** `—`
 - **Sectors:** wind, solar, battery storage
 - **Moratorium ID:** `ne-seward-county-2023`
 - **Legal basis:** Resolution No. 3947 (Seward County Board of Commissioners, adopted 2026-08-25), continuing the moratorium first imposed 2023-08-01 and repeatedly renewed since (cites Neb. Rev. Stat. section 23-114)
 - **What prompted it:** regulatory_gap: the county's zoning regulations do not yet address commercial-scale renewable energy systems; the moratorium is intended to remain in place only until new zoning regulations governing such systems are formally adopted and become legally binding.
 - **Affected projects:** None specifically named in sources reviewed; framed generally as covering commercial-scale renewable energy development countywide.
-- **Detailed status:** Active as of 2026-09-23. This is a distinct, longer-running moratorium from the county's separate 2026-06-30 data-center-specific moratorium already in the inventory (ne-seward-county-2026, Resolution 3937): this row covers commercial wind, solar, and battery-generated energy projects, was first imposed 2023-08-01, and has been repeatedly extended by the Board (including at its Jan. 6, 2026 meeting). Most recently, the Board voted 2026-08-25 (Resolution No. 3947, unanimous) to continue the moratorium for six more months from that date (to approximately 2027-02-25) or until new zoning regulations are adopted and legally binding, whichever comes first. It applies to solar systems of 500kW AC or greater and wind systems serving off-site customers/community/grid.
-- **Outcome:** Long-running (since Aug. 2023), repeatedly-renewed county moratorium on commercial wind, solar, and battery-storage development, most recently continued through approximately Feb. 2027 while the county finalizes new zoning regulations for these systems.
+- **Detailed status:** On August 25, 2026, the Board unanimously adopted Resolution 3947 to continue or renew the commercial renewable-energy moratorium, effective immediately for six months or until new zoning regulations are formally adopted, published and legally binding, whichever comes first. Resolution 3947 identifies an August 1, 2023 original moratorium and a January 6, 2026 extension; it permits renewal if the prior moratorium had expired, so uninterrupted continuity is not established. Solar systems of at least 500 kW AC supplying a community or grid and wind systems supplying off-site customers are included. September 29 minutes describe proposed renewable zoning. It is distinct from the data-center moratorium under Resolution 3937. [VERIFY actual end, later binding regulations and original term.]
+- **Outcome:** The row previously described a moratorium beginning in August 2023 and repeated extensions. Resolution 3947 identifies the August 1, 2023 original and January 6, 2026 extension, and continued or renewed the commercial renewable-energy moratorium on August 25, 2026, for six months or until qualifying regulations become legally binding, whichever comes first. Later legal force and whether earlier renewals were continuous remain unresolved.
 
 ### Seward County
 
@@ -419,7 +419,7 @@ State policy is tracked separately: **11 records** (11 typed bill rows) in [`sta
 - **Legal basis:** Resolution 3937, Board of County Commissioners
 - **What prompted it:** County had discussed a draft moratorium after a commissioner proposed a pause; adopted while the county develops permanent data center zoning regulations.
 - **Affected projects:** —
-- **Detailed status:** Active as of 2026-07-31; up-to-12-month moratorium effective 2026-06-30, or earlier upon adoption of new zoning regulations.
+- **Detailed status:** Resolution 3937 was adopted June 30, 2026, effective immediately, imposing a data-center moratorium for the earlier of 12 months or the date qualifying new data-center zoning regulations are formally adopted, published and legally binding, unless separately extended. The retained September 29 and October 6–November 3 minutes identify no final disposition of the moratorium. [VERIFY whether qualifying regulations became legally binding or other material action occurred.]
 - **Outcome:** —
 
 ---

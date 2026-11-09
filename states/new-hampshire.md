@@ -3,7 +3,7 @@
 
 Working inventory for New Hampshire, generated **November 8, 2026**. Record-level refresh and later-action review remain incomplete.
 
-**2 records** — 2 classified as active or extended, 0 classified as pending, 0 classified as past, 0 classified as rejected proposals.
+**2 records** — 2 classified as active or extended, 0 classified as pending, 0 classified as past, 0 classified as rejected proposals, 0 classified as unknown.
 
 These counts reflect inventory classifications and do not establish current enforceability.
 
@@ -22,7 +22,7 @@ State policy is tracked separately: **6 records** (6 typed bill rows) in [`state
 - **Recorded status:** 🟢 Active
 - **Date enacted:** On or about September 17, 2026 (Planning Board vote)
 - **Normalized date:** `2026-09-17` (exact)
-- **Duration:** One year
+- **Duration:** The earlier inventory attributed a one-year term; no adopted instrument or operative term was established in the reviewed minutes.
 - **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `nh-bow-2026`
@@ -38,14 +38,14 @@ State policy is tracked separately: **6 records** (6 typed bill rows) in [`state
 - **Recorded status:** 🟢 Active
 - **Date enacted:** Planning Board voted 5-0-0 on 2026-07-01 to adopt and advance the proposed ordinance; Nottingham voters ratified it at a September 8, 2026 special town election (held with the state primary) by a vote of 1,335 to 143, per the town's official election results.
 - **Normalized date:** `2026-09-08` (exact)
-- **Duration:** 12 months from voter adoption on 2026-09-08 (to approximately 2027-09-08).
-- **Current end date:** `2027-09-08`
+- **Duration:** Twelve months from adoption by the legislative body, unless repealed earlier; NHPR reports voter approval on September 8, 2026. The exact operative start and end dates remain unverified.
+- **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `nh-town-of-nottingham-undated`
-- **Legal basis:** Nottingham Planning Board vote (5-0-0), July 1, 2026, adopting a signed 'Temporary Moratorium on Data Centers Ordinance' under RSA 674:23 (interim growth management); ratified by Nottingham voters 1,335-143 at the September 8, 2026 special town election, at which point it took legal effect.
+- **Legal basis:** The earlier inventory attributes a 5-0-0 Planning Board vote on July 1, 2026 to adopt and advance a temporary data-center moratorium under RSA 674:23. NHPR reports voter approval 1,335-143 on September 8, 2026. The town-hosted ordinance states that it takes effect upon adoption by the legislative body and lasts twelve months from adoption unless repealed earlier; the ordinance PDF does not certify the vote or establish later force.
 - **What prompted it:** Local opposition to a withdrawn Nottingham Business Park data center concept (145 Old Turnpike Road) and an online petition that drew more than 25,000 signatures
 - **Affected projects:** Would apply townwide to data center applications, including any resubmission of the withdrawn Nottingham Business Park (145 Old Turnpike Road) concept.
-- **Detailed status:** NHPR reports September 8, 2026 approval of the twelve-month data-center moratorium, 1,335 yes to 143 no. The town-hosted sample ballot bears the same handwritten totals and twelve-month wording; no explicit result certification statement is supplied on the page. Operative ordinance, effective-date anchor and later actions remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
+- **Detailed status:** NHPR reports September 8, 2026 voter approval of the twelve-month data-center moratorium, 1,335 yes to 143 no. The town-hosted sample ballot bears the same handwritten totals and twelve-month wording; no explicit result certification statement is supplied on that page. The town-hosted ordinance provides for effectiveness upon legislative-body adoption and twelve months from adoption unless repealed earlier. Later action and current legal force remain unresolved. [VERIFY: later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** Nottingham voters approved the proposed 12-month data-center moratorium at the September 8, 2026 special town election, 1,335 to 143, according to NHPR.
 
 ---

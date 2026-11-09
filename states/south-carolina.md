@@ -3,7 +3,7 @@
 
 Working inventory for South Carolina, generated **November 8, 2026**. Record-level refresh and later-action review remain incomplete.
 
-**17 records** — 14 classified as active or extended, 2 classified as pending, 1 classified as past, 0 classified as rejected proposals.
+**17 records** — 16 classified as active or extended, 1 classified as pending, 0 classified as past, 0 classified as rejected proposals, 0 classified as unknown.
 
 These counts reflect inventory classifications and do not establish current enforceability.
 
@@ -16,17 +16,17 @@ State policy is tracked separately: **7 records** (5 typed bill rows and 2 non-b
 | Chester County | County | 2026-07-20 | data center | 🟢 Active |
 | Chesterfield County | County | 2026-06-01 | data center, cryptocurrency mining | 🟢 Active |
 | Clarendon County | County | 2026-09-14 | data center, battery storage | 🟢 Active |
-| Colleton County | County | 2026-07-06 | data center, battery storage | ⚪ Replaced |
+| Colleton County | County | 2026-07-06 | data center, battery storage | 🟢 Active |
 | Fairfield County | County | 2026-09-14 | data center | 🟢 Active |
 | Greenwood County | County | 2026-07-21 | data center | 🟢 Active |
 | Jasper County | County | 2026-09-21 | data center, cryptocurrency mining | 🟢 Active |
 | Kershaw County | County | 2026-09-22 | data center, cryptocurrency mining | 🟢 Active |
 | Laurens County | County | 2026-09-14 | data center | 🟢 Active |
-| Mount Pleasant | Town | Unverified | data center | 🟡 Pending |
+| Mount Pleasant | Town | 2026-10-13 | data center | 🟢 Active |
 | Newberry County | County | 2026-07-15 | data center | 🟢 Active |
-| Orangeburg County | County | 2026-09-08 | data center, cryptocurrency mining | 🟢 Active |
+| Orangeburg County | County | Unverified | data center, cryptocurrency mining | 🟢 Active |
 | Spartanburg County | County | 2026-09-21 | data center | 🟢 Active |
-| Sumter County | County | 2026-08-11 | data center, battery storage, solar | 🟢 Active |
+| Sumter County | County | 2026-06-23 | data center, battery storage, solar | 🟢 Active |
 | York County | County | 2026-07-13 | data center | 🟢 Active |
 
 ## Detailed entries
@@ -60,7 +60,7 @@ State policy is tracked separately: **7 records** (5 typed bill rows and 2 non-b
 - **Legal basis:** Draft Ordinance 2026-34
 - **What prompted it:** Town studies data-center and cryptocurrency land-use/infrastructure regulation.
 - **Affected projects:** —
-- **Detailed status:** Official unsigned Ordinance 2026-34 supports source-stage pending proposal only. [VERIFY actual council readings/adoption, hearing/publication, executed final text, operative interval, later action, current legal status and coordinates]
+- **Detailed status:** The unsigned proposed Ordinance 2026-34 recites a Planning Commission recommendation on September 17, 2026. Its proposed coverage includes qualifying data facilities with peak electrical demand of at least 1 MW and expansions increasing peak demand by at least 1 MW, with vested rights preserved; adoption is not established. [VERIFY actual council readings/adoption, hearing/publication, executed final text, operative interval, later action, current legal status and coordinates]
 - **Outcome:** —
 
 ### Chester County
@@ -77,7 +77,7 @@ State policy is tracked separately: **7 records** (5 typed bill rows and 2 non-b
 - **What prompted it:** Pause to allow the county to develop rules and guidelines, with public educational meetings planned to begin in August 2026; first-reading materials cited electric-grid and utility capacity, economic, environmental, and community effects.
 - **Affected projects:** —
 - **Detailed status:** July 20 minutes record third-reading approval with the unusual notation 7-7-0, not interpreted as a conventional tally. Section 9 of the final-reading packet states applicability from first reading and termination at earlier repeal or December 31, 2026 unless extended. Separately signed final text, operative interval and later action remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
-- **Outcome:** Approved six-month moratorium on new data center development.
+- **Outcome:** July 20, 2026 minutes report third-reading approval of Ordinance 2026-14. The final-reading packet provides for termination at the earlier of repeal or December 31, 2026 unless extended; signed final text and later action remain unverified.
 
 ### Chesterfield County
 
@@ -92,7 +92,7 @@ State policy is tracked separately: **7 records** (5 typed bill rows and 2 non-b
 - **Legal basis:** Ordinance 25-26-23 (Chesterfield County Council)
 - **What prompted it:** Immediately stops acceptance, review, or action on zoning approvals, construction permits, site plans, and other county approvals for data centers, data processing facilities, cryptocurrency mining operations, and related uses in unincorporated Chesterfield County; followed an emergency moratorium adopted April 6, 2026.
 - **Affected projects:** —
-- **Detailed status:** Active as of 2026-09-23; regular ordinance (No. 25-26-23) replacing an April 6, 2026 emergency moratorium, in effect until 2028-01-01 or earlier adoption of permanent regulations. Confirmed against the county's own ordinance text ("shall remain in effect until January 1, 2028, or until such time as the County adopts regulations governing these uses, whichever occurs first") and the county's current ordinances index, which lists no later ordinance amending or repealing 25-26-23 through its most recent entry (09/14/2026).
+- **Detailed status:** Active as of 2026-09-23 under the earlier review. The earlier review attributed replacement of an April 6 emergency moratorium to regular Ordinance 25-26-23; the relationship remains unverified. Ordinance 25-26-23 states it remains effective until 2028-01-01 or earlier adoption of regulations governing the covered uses. The earlier county index ran through September 14; the index captured November 5 also lists Ordinance 26-27-09, adopted October 5, replacing zoning Chapter 156. Its 103-page OCR did not identify data center or crypto terms; whether the replacement triggers the earlier termination condition is unresolved. [VERIFY the effect of Ordinance 26-27-09, subsequent action and current legal force.]
 - **Outcome:** Adopted long-term temporary moratorium on data center and related approvals in unincorporated Chesterfield County.
 
 ### Clarendon County
@@ -114,7 +114,7 @@ State policy is tracked separately: **7 records** (5 typed bill rows and 2 non-b
 ### Colleton County
 
 - **Type:** County
-- **Recorded status:** ⚪ Replaced
+- **Recorded status:** 🟢 Active
 - **Date enacted:** July 6, 2026 (County Council third reading and enactment of Ordinance 26-O-04, effective immediately)
 - **Normalized date:** `2026-07-06` (exact)
 - **Duration:** Original ordinance: six months from enactment. September 14 amendment partially repeals it and states that the moratorium remains in effect in specified areas until final approval of the five-year comprehensive-plan update. The interaction of these provisions needs review.
@@ -124,7 +124,7 @@ State policy is tracked separately: **7 records** (5 typed bill rows and 2 non-b
 - **Legal basis:** Ordinance 26-O-04 (Colleton County Council), partially repealed as of 2026-09-14 for areas west of Interstate 95 and land already zoned Light/Industrial/Heavy Industrial, by a new ordinance establishing a "Digital Infrastructure Overlay District" (which also repeals and replaces the county's separate data-center zoning ordinance, No. 25-O-10) and a companion zoning-map amendment, both adopted on third reading 2026-09-14.
 - **What prompted it:** Pauses consideration of special exceptions, conditional uses, and other land-use approvals for data centers while county staff and the Planning Commission study appropriate locations/conditions and prepare comprehensive-plan and code amendments; also holds received-but-unconsidered applications in abeyance.
 - **Affected projects:** Unspecified data center project(s) subject to related Southern Environmental Law Center litigation, paused during the moratorium.
-- **Detailed status:** On September 14, 2026, Ordinance 26-O-08 partially repealed the moratorium for areas west of I-95 and areas zoned LID, ID or HID; it states that the moratorium remains in effect east of I-95 outside those industrial zones until final approval of the specified comprehensive-plan update. Later actions and current force require further review. [VERIFY: interaction of original calendar term and later event condition, operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
+- **Detailed status:** On September 14, 2026, Ordinance 26-O-08 partially repealed the moratorium for areas west of I-95 and areas zoned LID, ID or HID; it states that the moratorium remains in effect east of I-95 outside those industrial zones until final approval of the specified comprehensive-plan update. An October 5 report says the county and litigants reached a settlement and agreed to establish an ACE Basin data-center exclusion area; the agreement and its implementation have not been reviewed, and its effect on the remaining moratorium is unresolved. Later actions and current force require further review. [VERIFY: interaction of original calendar term and later event condition, operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** July 6, 2026: adopted a six-month data center moratorium. September 14: Ordinance 26-O-08 partially repealed it and set an event-based provision for the remaining area; later legal developments require review.
 
 ### Fairfield County
@@ -141,7 +141,7 @@ State policy is tracked separately: **7 records** (5 typed bill rows and 2 non-b
 - **What prompted it:** Inquiries regarding data center development; county lacks a regulatory framework or zoning ordinance structure sufficient to manage the industry's scale and impact.
 - **Affected projects:** —
 - **Detailed status:** Posted Ordinance 856 lists first reading July 13, public hearing August 31 and third reading September 14. Section 3 states no more than twelve months from effectiveness with regulatory-framework provisions; the copy has blank execution fields. Final executed wording, operative interval and later action remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
-- **Outcome:** Adopted twelve-month moratorium on data center permitting, construction, and development.
+- **Outcome:** Posted Ordinance 856 lists September 14 third reading and describes a moratorium of no more than twelve months from effectiveness, subject to regulatory-framework provisions; actual final vote and executed wording remain unresolved.
 
 ### Greenwood County
 
@@ -156,7 +156,7 @@ State policy is tracked separately: **7 records** (5 typed bill rows and 2 non-b
 - **Legal basis:** Ordinance 2026-25 (Greenwood County Council)
 - **What prompted it:** Pause on new data center approvals following citizen concerns; sponsored by Councilmembers Mark Allison, Cathy Miller, and Dayne Pruitt; twenty-four people registered for public comment on third reading.
 - **Affected projects:** —
-- **Detailed status:** Active as of 2026-09-23. Confirmed via three independent news organizations (Index-Journal, twice, including an Aug. 21, 2026 follow-up reporting that the county has since formed a data-center ad hoc committee under the moratorium; and Fox Carolina) all describing the same July 21, 2026 4-3 third-reading vote on Ordinance 2026-25. No county-published ordinance document was located despite searching greenwoodcounty-sc.gov directly; the [VERIFY] marker is left in place because it specifically calls for a primary (non-news) source. [VERIFY primary source (news-only evidence) not confirmed at confidence 0.65 in the 2026-07 refresh]
+- **Detailed status:** Active as of 2026-09-23 under the earlier review. Fox Carolina and Index-Journal reported the July 21, 2026 4-3 third-reading vote; the earlier review attributed Ordinance 2026-25 and an August 21 follow-up about a data-center ad hoc committee to Index-Journal. Two articles from Index-Journal are not independent organizations. No county-published ordinance document was located in that earlier review. [VERIFY primary ordinance, later action and current legal force.]
 - **Outcome:** Adopted one-year moratorium on new data center approvals by a 4-3 third-reading vote.
 
 ### Jasper County
@@ -210,18 +210,18 @@ State policy is tracked separately: **7 records** (5 typed bill rows and 2 non-b
 ### Mount Pleasant
 
 - **Type:** Town
-- **Recorded status:** 🟡 Pending
-- **Date enacted:** —
-- **Normalized date:** `—` (unverified)
-- **Duration:** 120 days (proposed)
-- **Current end date:** `—`
+- **Recorded status:** 🟢 Active
+- **Date enacted:** October 13, 2026 (Town Council final reading of Ordinance 26045, as recorded in draft minutes; signed ordinance effective upon final reading).
+- **Normalized date:** `2026-10-13` (exact)
+- **Duration:** Two years after second/final reading, unless terminated earlier or extended by council resolution; later action remains unverified.
+- **Current end date:** `2028-10-13`
 - **Sectors:** data center
 - **Moratorium ID:** `sc-mount-pleasant-undated`
-- **Legal basis:** —
+- **Legal basis:** Town of Mount Pleasant Ordinance 26045, adopted on final reading October 13, 2026.
 - **What prompted it:** Groundwater capacity-use limits, water supply, energy demand, noise, and a by-right zoning loophole for data centers
 - **Affected projects:** —
-- **Detailed status:** Pending as of 2026-09-23; Planning Commission recommended a 120-day moratorium on data center applications on Aug. 31, 2026 (first-reading council discussion held Sept. 8, 2026); full Town Council final vote not confirmed as of the most recent source reviewed. [VERIFY instrument number; adoption date; primary source (news-only evidence) not confirmed at confidence 0.6 in the 2026-09 refresh]
-- **Outcome:** Recommended; council vote status unconfirmed
+- **Detailed status:** October 13, 2026 draft council minutes record adoption of Ordinance 26045 after amendment to a two-year term; the signed ordinance is effective upon final reading and allows earlier termination or extension by council resolution. The earlier 120-day recommendation was superseded. The November 2 planning committee agenda listed data-center zoning discussion; the special council agenda and draft minutes record no action on this moratorium. [VERIFY other subsequent council action and current legal force.]
+- **Outcome:** Ordinance 26045 passed final reading October 13, 2026 with a two-year term, subject to earlier termination or extension by council resolution.
 
 ### Newberry County
 
@@ -237,23 +237,23 @@ State policy is tracked separately: **7 records** (5 typed bill rows and 2 non-b
 - **What prompted it:** Resident opposition to a proposed AI data center development and the council's rejection of an associated data center deal
 - **Affected projects:** A proposed AI data center development that the council voted on/rejected in early June 2026
 - **Detailed status:** Ordinance No. 06-01-2026 received third reading July 15, 2026; it states a moratorium of twelve months or less. Subsequent action and current legal force were not established in the 2026-11-05 research pass. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
-- **Outcome:** One-year countywide data center moratorium adopted and later unanimously reconfirmed
+- **Outcome:** Ordinance 06-01-2026 received third reading July 15, 2026 with a term of twelve months or less; a separate later reconfirmation is not established.
 
 ### Orangeburg County
 
 - **Type:** County
 - **Recorded status:** 🟢 Active
-- **Date enacted:** September 8, 2026 (County Council third reading and public hearing, per the county's own official Sept. 8, 2026 agenda; first reading was at a July 23, 2026 special called meeting)
-- **Normalized date:** `2026-09-08` (exact)
-- **Duration:** One year
+- **Date enacted:** The September 8, 2026 county agenda scheduled third reading and a public hearing; WLTX subsequently reported council approval, but the retained sources do not establish the vote date.
+- **Normalized date:** `—` (unverified)
+- **Duration:** Previously recorded as one year; the retained agenda and recovered WLTX description do not establish the adopted term.
 - **Current end date:** `—`
 - **Sectors:** data center, cryptocurrency mining
 - **Moratorium ID:** `sc-orangeburg-county-2026`
-- **Legal basis:** Orangeburg County Council data center/data processing facility/cryptocurrency mining moratorium ordinance (ordinance number not located in reviewed sources); third reading and public hearing held 2026-09-08 per the county's own agenda
+- **Legal basis:** Orangeburg County Council data center, data processing and cryptocurrency mining moratorium ordinance; the September 8, 2026 agenda scheduled third reading and a public hearing. WLTX later reported approval; the adopted text has not been recovered.
 - **What prompted it:** Concerns over data center impacts on residents raised at town halls in July/August 2026; county sought time to study and develop rules before further data center development.
 - **Affected projects:** —
-- **Detailed status:** Active as of 2026-09-23; adopted on third reading and public hearing Sept. 8, 2026, per the county's own agenda and WLTX news coverage. Data centers are prohibited in Orangeburg County for a year following adoption.
-- **Outcome:** Adopted one-year moratorium halting acceptance, review, or action on rezoning, special exceptions, special use permits, building permits, site plans, and incentive approvals for data centers, data processing facilities, and cryptocurrency mining operations.
+- **Detailed status:** WLTX reported by September 14, 2026 that council approved a moratorium on new data center development. The previously recorded one-year term, exact adoption date, operative provisions and later force remain unverified.
+- **Outcome:** WLTX reported council approval of a moratorium on new data center development. The September 8 agenda listed restrictions on applications for data centers, data processing and cryptocurrency mining; the adopted text and previously recorded one-year term remain unverified.
 
 ### Spartanburg County
 
@@ -265,27 +265,27 @@ State policy is tracked separately: **7 records** (5 typed bill rows and 2 non-b
 - **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `sc-spartanburg-county-2026`
-- **Legal basis:** Spartanburg County Council data center moratorium ordinance (ordinance number not located in reviewed sources); amended before third reading to exempt data centers of 65 IT megawatts or less that are sited in an established industrial park or former industrial site and meet specified conditions
+- **Legal basis:** Spartanburg County Council data-center moratorium ordinance, amended before the September 21, 2026 final reading. Fox Carolina and the Post and Courier report size and industrial-site carveouts; the final ordinance and interaction of those conditions have not been verified.
 - **What prompted it:** Public outcry over power grid strain, water resources, and air quality; moratorium was first proposed in response to the Lightstone Group's proposed data center on Jones Road (a 60-megawatt facility on a former industrial site).
 - **Affected projects:** Lightstone Group's proposed Jones Road data center (the original trigger); does not apply to the already-approved Valara data center under construction on South Pine Street.
-- **Detailed status:** Active as of 2026-09-23; adopted on third reading Sept. 21, 2026 by a 5-1 vote (Coker dissenting). The moratorium applies to data centers exceeding a combined 65 IT-megawatt electrical load; data centers at or below that threshold sited in a named industrial park or former industrial site, that do not self-generate power (except emergency backup), may still be approved under specified conditions. Does not apply to the already-approved Valara data center or to cryptocurrency mining.
-- **Outcome:** Adopted one-year moratorium on new data center development, with amendments exempting facilities of 65 megawatts or less on qualifying industrial sites.
+- **Detailed status:** Fox Carolina reported September 21, 2026 third-reading adoption by a 5-1 vote and a one-year moratorium. It reported conditional exemptions for qualifying industrial-site facilities of 65 MW or less, previously approved facilities, and cryptocurrency mining. The Post and Courier reported a 65 IT MW measure and an industrial-site exception; the precise threshold, interaction of exemptions and later legal force require the final ordinance and subsequent actions.
+- **Outcome:** News reported adoption of a one-year moratorium on new data-center development with size and industrial-site carveouts; the precise interaction of the reported exemptions requires the adopted text.
 
 ### Sumter County
 
 - **Type:** County
 - **Recorded status:** 🟢 Active
-- **Date enacted:** An emergency 60-day moratorium (Ordinance 26-1049) covering solar, BESS, and data centers was approved and took effect immediately at the June 23, 2026 County Council meeting. Companion 180-day moratorium ordinances tailored to each use (Solar: Ordinance 26-1050; BESS: Ordinance 26-1051; Data Centers: Ordinance 26-1052) received second reading at a July 21, 2026 special called meeting, then unanimous third and final reading at the August 11, 2026 regular Council meeting, per the county's own final minutes.
-- **Normalized date:** `2026-08-11` (exact)
-- **Duration:** 180 days from the August 11, 2026 third-reading adoption of Ordinances 26-1050 (solar), 26-1051 (BESS), and 26-1052 (data centers), which superseded the 60-day emergency Ordinance 26-1049 (approved June 23, 2026, since lapsed)
-- **Current end date:** `2027-02-07`
+- **Date enacted:** An emergency 60-day moratorium (Ordinance 26-1049) covering solar, BESS, and data centers was approved and took effect immediately at the June 23, 2026 County Council meeting. Companion ordinances (Solar: 26-1050; BESS: 26-1051; Data Centers: 26-1052) received second reading July 21, 2026. County minutes record unanimous third-reading approval of 26-1050 and 26-1051 on August 11, 2026, and a third-reading motion for 26-1052 without a recorded vote.
+- **Normalized date:** `2026-06-23` (exact)
+- **Duration:** The emergency ordinance was for 60 days from June 23, 2026. The companion ordinances were previously described as 180 days; their adopted operative terms and effective anchors remain unverified.
+- **Current end date:** `—`
 - **Sectors:** data center, battery storage, solar
 - **Moratorium ID:** `sc-sumter-county-2026`
-- **Legal basis:** Emergency Ordinance 26-1049 (60-day moratorium on BESS, data centers, and solar farms, approved and effective June 23, 2026, since lapsed); superseded by Ordinances 26-1050 (Solar), 26-1051 (BESS), and 26-1052 (Data Centers), each imposing a 180-day moratorium, given second reading July 21, 2026 and unanimous third/final reading August 11, 2026 per the county's posted regular-meeting minutes
+- **Legal basis:** Emergency Ordinance 26-1049 (60-day moratorium on BESS, data centers and solar farms, effective June 23, 2026); companion Ordinances 26-1050 (solar), 26-1051 (BESS), and 26-1052 (data centers) received second reading July 21. August 11 minutes record unanimous third-reading approval of 26-1050 and 26-1051 and a third-reading motion for 26-1052 without a recorded vote. Continuity and operative terms remain unresolved.
 - **What prompted it:** County has no zoning provisions for battery energy storage systems or data centers; follows public opposition to, and council's rejection of, a proposed 1,700-acre solar farm.
 - **Affected projects:** A proposed 1,700-acre solar farm that county council rejected, which prompted the moratorium push.
-- **Detailed status:** The August 11, 2026 council minutes record unanimous third-reading approval of Ordinances 26-1050 (solar), 26-1051 (BESS) and 26-1052 (data centers). Final operative terms, continuity and later legal force remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
-- **Outcome:** The August 11, 2026 council minutes record unanimous third-reading approval of Ordinances 26-1050 (solar), 26-1051 (BESS) and 26-1052 (data centers). Final operative terms, continuity and later legal force remain unresolved.
+- **Detailed status:** The August 11, 2026 council minutes record unanimous third-reading approval of Ordinances 26-1050 (solar) and 26-1051 (BESS), and a third-reading motion for Ordinance 26-1052 (data centers), without a recorded vote in the minutes. The county’s October 23 index links a document titled "26-1056 Data Center Moratorium Rescind" but does not report a vote or adoption. Final operative terms, continuity and later legal force remain unresolved. [VERIFY: data-center vote, operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
+- **Outcome:** The August 11, 2026 council minutes record unanimous third-reading approval of Ordinances 26-1050 (solar) and 26-1051 (BESS), and a third-reading motion for Ordinance 26-1052 (data centers), without a recorded vote in the minutes. Final operative terms, continuity and later legal force remain unresolved.
 
 ### York County
 

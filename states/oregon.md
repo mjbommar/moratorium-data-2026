@@ -3,7 +3,7 @@
 
 Working inventory for Oregon, generated **November 8, 2026**. Record-level refresh and later-action review remain incomplete.
 
-**5 records** — 4 classified as active or extended, 1 classified as pending, 0 classified as past, 0 classified as rejected proposals.
+**5 records** — 4 classified as active or extended, 1 classified as pending, 0 classified as past, 0 classified as rejected proposals, 0 classified as unknown.
 
 These counts reflect inventory classifications and do not establish current enforceability.
 
@@ -80,7 +80,7 @@ State policy is tracked separately: **5 records** (5 typed bill rows) in [`state
 - **Legal basis:** Moratorium ordinance adopted by the Salem City Council on 2026-09-21, following an August 3, 2026 council vote to move forward with the moratorium and a resolution to begin updating zoning/land-use code; required 45-day notice to the Oregon Department of Land Conservation and Development preceded formal adoption.
 - **What prompted it:** specific_project
 - **Affected projects:** Verrus Group filed a land use application in late July 2026 for a roughly 600,000-square-foot data center in Salem; the application proceeds under pre-moratorium review rules, but the moratorium bars construction while it is in effect.
-- **Detailed status:** Active as of 2026-09-23. Moratorium halts construction of all data centers (as a primary use) and accessory data centers with facility capacity greater than 2 megawatts, effective 2026-09-21 through 2027-01-19. City Attorney Dan Atchison based the moratorium on a compelling need to prevent public harm, citing the city's water supply risk from the impending deep drawdown of the Detroit Reservoir (serving roughly 220,000 water customers). The moratorium does not block Verrus's already-filed land use application for a 600,000-square-foot data center (filed late July 2026, before the moratorium), since Oregon law generally requires applications to be reviewed under rules in effect when filed, but the city attorney confirmed construction itself can be prohibited during the moratorium.
+- **Detailed status:** Contemporaneous reporting states that the council approved an immediate 120-day moratorium on September 21, 2026. The proposed agenda covers primary-use data centers and accessory data centers exceeding both 2 MW and PUE 1.5; final adopted wording remains unverified. Previously attributed reporting said City Attorney Dan Atchison cited water supply risks from the Detroit Reservoir drawdown, affecting roughly 220,000 customers, and that Verrus had filed a 600,000-square-foot data-center application in late July before the moratorium; the application could continue to be reviewed, though construction itself could be prohibited during the moratorium. The initial 2027-01-19 endpoint is conditional on final terms and later action. [VERIFY: adopted instrument and final accessory-use PUE threshold; subsequent amendments, extension, repeal and current legal force.]
 - **Outcome:** City Council unanimously adopted a 120-day moratorium halting data center construction while the city develops permanent zoning and land-use regulations.
 
 ### Woodburn

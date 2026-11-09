@@ -3,7 +3,7 @@
 
 Working inventory for Alaska, generated **November 8, 2026**. Record-level refresh and later-action review remain incomplete.
 
-**3 records** — 1 classified as active or extended, 2 classified as pending, 0 classified as past, 0 classified as rejected proposals.
+**3 records** — 1 classified as active or extended, 2 classified as pending, 0 classified as past, 0 classified as rejected proposals, 0 classified as unknown.
 
 These counts reflect inventory classifications and do not establish current enforceability.
 

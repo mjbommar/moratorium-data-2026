@@ -3,7 +3,7 @@
 
 Working inventory for New Jersey, generated **November 8, 2026**. Record-level refresh and later-action review remain incomplete.
 
-**5 records** — 3 classified as active or extended, 2 classified as pending, 0 classified as past, 0 classified as rejected proposals.
+**5 records** — 4 classified as active or extended, 1 classified as pending, 0 classified as past, 0 classified as rejected proposals, 0 classified as unknown.
 
 These counts reflect inventory classifications and do not establish current enforceability.
 
@@ -13,8 +13,8 @@ State policy is tracked separately: **17 records** (16 typed bill rows and 1 non
 |---|---|---|---|---|
 | Asbury Park | City | 2026-06-10 | data center | 🟢 Active |
 | East Windsor | Township | Unverified | data center | 🟡 Pending |
-| Galloway Township | Township | 2026-07-14 | data center | 🟢 Active |
-| Mullica Township | Township | Unverified | data center | 🟡 Pending |
+| Galloway Township | Township | Unverified | data center | 🟢 Active |
+| Mullica Township | Township | 2026-10-27 | data center | 🟢 Active |
 | Sayreville | Town | 2026-07-20 | data center | 🟢 Active |
 
 ## Detailed entries
@@ -25,14 +25,14 @@ State policy is tracked separately: **17 records** (16 typed bill rows and 1 non
 - **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-06-10 (City Council, unanimous, Resolution 2026-264)
 - **Normalized date:** `2026-06-10` (exact)
-- **Duration:** Pause on local data center applications/site plans until the city completes its zoning code rewrite
+- **Duration:** City release describes a requested local pause while the city reviews and amends its zoning codes; the original resolution and operative end condition remain unverified.
 - **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `nj-asbury-park-2026`
 - **Legal basis:** Resolution 2026-264, a council resolution (not a zoning ordinance)
 - **What prompted it:** Council concern about AI data center impacts on grid/water; simultaneous call for a statewide moratorium.
 - **Affected projects:** —
-- **Detailed status:** Active as of 2026-09-23. On 2026-06-10 the City Council unanimously adopted Resolution 2026-264, which (a) urges Gov. Sherrill and the legislature to enact a statewide data-center moratorium, and (b) pauses acceptance/processing of any pending or future Asbury Park data-center applications, zoning changes, and site plans while the city rewrites its zoning code. No end date is stated; the pause runs until the rewrite is complete or the resolution is rescinded. [VERIFY primary source (news-only evidence) not confirmed at confidence 0.55 in the 2026-09 refresh]
+- **Detailed status:** The city reports that on 2026-06-10 the City Council unanimously adopted Resolution 2026-264, urging a statewide data-center moratorium and calling for a temporary local pause on pending or future data-center applications, zoning changes and site plans while the city reviews and amends its zoning codes. The original resolution, operative effect, subsequent zoning action and present force remain unverified. [VERIFY original resolution, operative effect, later action and current legal status.]
 - **Outcome:** —
 
 ### East Windsor
@@ -55,33 +55,33 @@ State policy is tracked separately: **17 records** (16 typed bill rows and 1 non
 
 - **Type:** Township
 - **Recorded status:** 🟢 Active
-- **Date enacted:** 2026-06-16 was the ordinance's introduction/first reading (per the June 16, 2026 Council agenda listing Ordinance 2172-2026 for public hearing). Final passage occurred at the July 14, 2026 Council meeting (per that meeting's official agenda/ordinance statements) and the Township's public notice titled 'Publication Final Passage Ordinance #2172-2026 Temporary Moratorium of Data Centers' was posted July 15, 2026.
-- **Normalized date:** `2026-07-14` (exact)
+- **Date enacted:** The July 14, 2026 council agenda scheduled Ordinance 2172-2026 for second reading. Interactive News reported August 10 that the township public-notices page listed it as finally passed July 15, 2026; the actual vote date and conflicting reported introduction dates remain unverified.
+- **Normalized date:** `—` (unverified)
 - **Duration:** Six months while the Planning Board and Environmental Commission study data centers
 - **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `nj-galloway-township-2026`
-- **Legal basis:** Ordinance 2172-2026 (Township of Galloway), a temporary moratorium on the approval, development, construction, expansion, and operation of data centers, introduced 2026-05-12 and finally passed per the township's own final-passage affidavit
+- **Legal basis:** Ordinance 2172-2026 (Township of Galloway), described in the July 14 council agenda and township-hosted affidavit form as a six-month data-center moratorium. The prior row reported final passage July 14 and gave conflicting May 12 and June 16 introduction dates; the retained agenda and unsigned affidavit do not independently establish final passage or publication.
 - **What prompted it:** Planning Board and Environmental Commission to study data center land use and make recommendations before further approvals proceed
 - **Affected projects:** —
-- **Detailed status:** The township-hosted affidavit form identifies Ordinance 2172-2026 as a six-month data-center moratorium and states a July 15 posting date. Clerk signature and notary fields are blank; the form alone does not establish sworn execution, final-passage approval, operative effectiveness or current legal force. The prior January 10, 2027 endpoint was an unsupported 180-day calculation and is cleared. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
+- **Detailed status:** Interactive News reported that Ordinance 2172-2026 was listed as finally passed on the township public-notices page July 15, 2026; the report does not establish the actual vote date. The township-hosted unsigned affidavit form identifies a six-month data-center moratorium and states a July 15 posting date, but does not establish sworn execution, the effective date or current legal force. The prior January 10, 2027 endpoint was an unsupported 180-day calculation and is cleared. [VERIFY: actual vote, full ordinance, operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** —
 
 ### Mullica Township
 
 - **Type:** Township
-- **Recorded status:** 🟡 Pending
-- **Date enacted:** Introduced (first reading) August 25, 2026 by the Mullica Township Committee; referred to the Planning Board and Environmental Commission for study and recommendation, as required before final adoption; not yet finally passed as of the September 22, 2026 Committee meeting agenda, which does not list it for second reading.
-- **Normalized date:** `—` (unverified)
-- **Duration:** Six (6) months from final adoption, if adopted as introduced.
+- **Recorded status:** 🟢 Active
+- **Date enacted:** Township notice reports final adoption after public hearing 2026-10-27; it lists first reading 2026-09-22, conflicting with the earlier reported 2026-08-25 introduction. Effectiveness remains unverified.
+- **Normalized date:** `2026-10-27` (exact)
+- **Duration:** The introduced text specifies six calendar months from the effective date; the later adoption notice describes a six-month moratorium but the operative final text and effective date are unverified.
 - **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `nj-mullica-township-undated`
-- **Legal basis:** Ordinance No. 09-2026 (Township of Mullica), 'Establishing a Temporary Six (6) Month Moratorium on the Approval, Development, Construction, Expansion, and Operation of Data Centers Within the Township of Mullica Pending Further Study, Review, and Recommendations by the Mullica Township Planning Board and Environmental Commission, and Amending and Supplementing Section 144-9 of the Township's Code,' introduced August 25, 2026.
+- **Legal basis:** Ordinance No. 09-2026 (Township of Mullica), establishing a temporary six-month data-center moratorium pending Planning Board and Environmental Commission study and amending Section 144-9. Township notice reports first reading September 22 and final adoption October 27, 2026; an earlier account attributed introduction to August 25 and referral to those bodies. The introduction dates require reconciliation.
 - **What prompted it:** Regulatory gap; the Township referred the question to its Planning Board and Environmental Commission to study infrastructure, water, noise, stormwater, traffic, zoning, and emergency-response impacts before any data center could be approved.
 - **Affected projects:** None named; no data-center application was reported pending in the Township.
-- **Detailed status:** Pending as of 2026-09-23. Ordinance 09-2026 was introduced (first reading) at the Township Committee's August 25, 2026 meeting and referred to the Planning Board and Environmental Commission, consistent with New Jersey's Municipal Land Use Law referral process for a zoning-related ordinance. The Committee's September 22, 2026 meeting agenda does not list Ordinance 09-2026 for a second reading/public hearing, so final adoption had not occurred as of that meeting; the next regular Committee meeting is scheduled for October 27, 2026.
-- **Outcome:** Township Committee introduced a six-month moratorium ordinance on data centers August 25, 2026 and referred it to the Planning Board and Environmental Commission; not yet finally adopted as of 2026-09-23.
+- **Detailed status:** The first-reading notice reports Ordinance 09-2026 introduced and passed August 25, 2026 and scheduled a September 22 hearing. A later township notice instead reports a first reading September 22 and final adoption after an October 27 hearing. These notices conflict on first reading; the earlier row also attributed Planning Board and Environmental Commission referrals. Final operative text, effective date and current force remain unverified. [VERIFY: final text, effective date and later action.]
+- **Outcome:** The township notice reports final adoption on October 27, 2026 after a public hearing. The earlier account reported an August 25 introduction and referral to the Planning Board and Environmental Commission; the notice gives September 22 for first reading. Effectiveness and current force remain unverified.
 
 ### Sayreville
 

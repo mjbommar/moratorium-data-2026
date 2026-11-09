@@ -113,6 +113,7 @@ def facts() -> dict:
         "expired": c["expired"],
         "rescinded": c["rescinded"],
         "rejected": c["rejected"],
+        "unknown": c["unknown"],
         "past": c["replaced"] + c["expired"] + c["rescinded"],
         "states": len(by_state),
         "geocoded": sum(1 for r in inv if r["latitude"].strip()),
@@ -149,7 +150,7 @@ def changes_section(f: dict) -> str:
   <h2>The November working snapshot</h2>
   <p class="lede">The inventory tracks {f['rows']} local inventory records across {f['states']} states.
   Recorded classifications include {f['active']} active and {f['extended']} extended records,
-  {f['pending']} pending, {f['replaced']} replaced, {f['expired']} expired, {f['rescinded']} rescinded and {f['rejected']} rejected proposals.
+  {f['pending']} pending, {f['replaced']} replaced, {f['expired']} expired, {f['rescinded']} rescinded, {f['rejected']} rejected proposals and {f['unknown']} unknown.
   Source dates vary by record; these totals do not establish freshly verified current legal force.</p>
   <h3>Ballots and state policy have separate denominators</h3>
   <p><a href="docs/ballot-results.html">Reviewed ballot results</a> distinguish vote observations,

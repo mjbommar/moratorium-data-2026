@@ -3,7 +3,7 @@
 
 Working inventory for Virginia, generated **November 8, 2026**. Record-level refresh and later-action review remain incomplete.
 
-**6 records** — 4 classified as active or extended, 1 classified as pending, 1 classified as past, 0 classified as rejected proposals.
+**6 records** — 5 classified as active or extended, 0 classified as pending, 1 classified as past, 0 classified as rejected proposals, 0 classified as unknown.
 
 These counts reflect inventory classifications and do not establish current enforceability.
 
@@ -13,9 +13,9 @@ State policy is tracked separately: **18 records** (18 typed bill rows) in [`sta
 |---|---|---|---|---|
 | City of Chesapeake | City | 2026-07-21 | data center | 🟢 Active |
 | Fluvanna County | County | 2025-09-17 | data center | ⚪ Replaced |
-| Front Royal | Town | 2026-07-06 | data center | 🟢 Active |
-| Loudoun County | County | 2026-09-16 | data center | 🟢 Active |
-| Suffolk | City | Unverified | data center | 🟡 Pending |
+| Front Royal | Town | 2026-07-06 | data center | 🟢 Extended |
+| Loudoun County | County | 2026-09-15 | data center | 🟢 Active |
+| Suffolk | City | Unverified | data center | 🟢 Active |
 | Virginia Beach | City | 2026-08-18 | data center | 🟢 Active |
 
 ## Detailed entries
@@ -33,7 +33,7 @@ State policy is tracked separately: **18 records** (18 typed bill rows) in [`sta
 - **Legal basis:** Resolution 26-R-042, adopted by Chesapeake City Council 9-0 on July 21, 2026
 - **What prompted it:** Council sought to pause discretionary review of data center land-use applications while comprehensive plan amendment PLN-COMP-2026-002 is pending
 - **Affected projects:** No single named project; applies citywide to discretionary data center land-use applications pending before the Planning Commission or City Council.
-- **Detailed status:** Active as of 2026-09-23. The Resolution 26-R-042 deferral remains in force, running 8 months from its July 21, 2026 adoption (to approximately 2027-03-21) or until Council takes final action on comprehensive plan amendment PLN-COMP-2026-002, whichever occurs first. On August 18, 2026 the City Council separately and unanimously adopted a zoning ordinance amendment that removes data centers from by-right development, requires a conditional use permit for all future data center proposals in the M-1/M-2 industrial districts, and prohibits data centers from drawing groundwater; this closed a loophole that could have let a data center proceed administratively despite the moratorium, but it is a permanent zoning change layered on top of, not a replacement for, the still-active Resolution 26-R-042 deferral. The zoning change was prompted partly by Praetorian Fund's August 2026 purchase of the Frank Williams Farm Tract (Coastal Virginia Commerce Park); because that site does not connect to public utilities, city officials confirmed the moratorium independently applies to it. No repeal, extension, or expiration of the moratorium itself was found in sources reviewed through 2026-09-23.
+- **Detailed status:** Active as of 2026-09-23. The Resolution 26-R-042 deferral remains in force, running 8 months from its July 21, 2026 adoption (to approximately 2027-03-21) or until Council takes final action on comprehensive plan amendment PLN-COMP-2026-002, whichever occurs first. On August 18, 2026 the City Council separately and unanimously adopted a zoning ordinance amendment that requires a conditional use permit for data centers across the city except within Coastal Virginia Commerce Park (CoVAC), where the city says data centers may still be built by-right, and prohibits data centers from drawing groundwater; this closed a loophole that could have let a data center proceed administratively despite the moratorium, but it is a permanent zoning change layered on top of, not a replacement for, the still-active Resolution 26-R-042 deferral. The zoning change was prompted partly by Praetorian Fund's August 2026 purchase of the Frank Williams Farm Tract (Coastal Virginia Commerce Park); because that site does not connect to public utilities, city officials confirmed the moratorium independently applies to it. No repeal, extension, or expiration of the moratorium itself was found in sources reviewed through 2026-09-23.
 - **Outcome:** Enacted deferral of discretionary data center land-use applications pending completion of a related comprehensive plan amendment.
 
 ### Fluvanna County
@@ -49,56 +49,56 @@ State policy is tracked separately: **18 records** (18 typed bill rows) in [`sta
 - **Legal basis:** Board motion approving a moratorium on new data center applications; related resolution of intention and ZTA 25:10
 - **What prompted it:** Data centers were by-right uses in I-1 and I-2 districts, and the Board directed staff to prepare amendments requiring special use permits.
 - **Affected projects:** No named project or MW total identified in the captured packets; contemporaneous rezoning comments raised concern about possible data center use.
-- **Detailed status:** Replaced / expired
+- **Detailed status:** Replaced / expired for the 2025 moratorium, as previously recorded; a local report says the Board approved the special-use zoning change on 2025-12-17. A separate August 2026 report describes a later pause through December 31 while a further zoning change was considered; it is a distinct action.
 - **Outcome:** ZTA 25:10 moved data centers from by-right use to special use permit treatment in I-1 and I-2 and modified the data center definition.
 
 ### Front Royal
 
 - **Type:** Town
-- **Recorded status:** 🟢 Active
+- **Recorded status:** 🟢 Extended
 - **Date enacted:** 2026-07-06, Front Royal Town Council work session, 6-0 vote (Vice Mayor Amber F. Veitenthal and Councilmembers DeDomenico-Payne, Ingram, Rappaport, Sealock, and Wood; Mayor Cockrell present but votes only to break ties), per the town's own approved council minutes.
 - **Normalized date:** `2026-07-06` (exact)
-- **Duration:** 90 days from adoption (to approximately 2026-10-04).
+- **Duration:** 90-day administrative moratorium adopted 2026-07-06; council extended it by an additional 60 days on 2026-09-28. The exact final end date and effect of the later zoning action remain unverified.
 - **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `va-front-royal-2026`
 - **Legal basis:** Resolution Establishing a Temporary Ninety (90) Day Moratorium on the Acceptance of Data Center Land Use Applications, adopted 6-0 by Front Royal Town Council at its July 6, 2026 work session. Town Attorney George Sonnett advised the moratorium was structured as an administrative action (rather than a legislative zoning-ordinance amendment) because, in his opinion, Virginia law does not authorize a legislative moratorium through the zoning ordinance.
 - **What prompted it:** The town sought to preserve the status quo while it drafts a permanent zoning text amendment to define data centers separately from 'technology' uses and prohibit data centers in all town zoning districts; no data center application had been received as of adoption.
 - **Affected projects:** None named; Town Manager Joseph Petty confirmed no data center applications had been received as of the July 6, 2026 vote.
-- **Detailed status:** Active as of 2026-09-23. The Town Council's July 6, 2026 resolution imposing a 90-day moratorium on accepting data center land-use applications (rezonings, special uses, site development plans) remains in force, with its term running through approximately October 4, 2026. The companion permanent zoning-ordinance prohibition has not yet been adopted: a September 8, 2026 work session reviewed revised ordinance language from outside legal counsel, and the Council decided against setting a public hearing date that month over concerns about the wording, so the permanent measure remains pending as of this research date.
+- **Detailed status:** The 90-day application moratorium adopted 2026-07-06 was extended by 60 days on 2026-09-28. Local news reports the council unanimously adopted a zoning text prohibition on 2026-10-26, after the September work-session review. Whether that action terminated the administrative moratorium and its exact end date remain unresolved.
 - **Outcome:** Front Royal Town Council adopted a 90-day administrative moratorium on data center land-use applications while it drafts a permanent zoning prohibition.
 
 ### Loudoun County
 
 - **Type:** County
 - **Recorded status:** 🟢 Active
-- **Date enacted:** 2026-09-16, Loudoun County Board of Supervisors, 7-1-1 vote (Supervisor opposed on the base pause; a separate 7-1-1 vote with Supervisor Briskman opposed approved a grid-reliability substation exception), per the Board's own press release.
-- **Normalized date:** `2026-09-16` (exact)
-- **Duration:** Open-ended; in effect while the Board continues Phase 2 of its Data Center Standards and Locations initiative (zoning ordinance and comprehensive plan amendments), which is anticipated to be completed in 2027. County staff are to return with a formal resolution memorializing the pause at the Board's October 20, 2026 Business Meeting.
+- **Date enacted:** 2026-09-15, Loudoun County Board of Supervisors vote, as reported in its September 16 release; the base pause and grid-reliability exception each passed 7-1-1.
+- **Normalized date:** `2026-09-15` (exact)
+- **Duration:** The September 15 immediate pause was tied to Phase 2 of the Data Center Standards and Locations initiative. A formal resolution proposed a limit of 12 months from each application’s first submission to the Planning Commission; its October 20 consideration was deferred to November 17.
 - **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `va-loudoun-county-2026`
-- **Legal basis:** Board of Supervisors action taken September 16, 2026 enacting a temporary pause on Board consideration of certain legislative (Special Exception) applications for data centers and substations, pending a formal resolution to be brought to the Board's October 20, 2026 Business Meeting; per the County Attorney, Virginia law does not permit a blanket moratorium on administrative applications, so the pause applies only to legislative applications and does not affect roughly 17 land-use cases (11+ million square feet) 'grandfathered' under the county's March 2025 Data Center Grandfathering Resolution, which continue through the by-right administrative process.
+- **Legal basis:** September 15, 2026 Board action, described in the county’s September 16 release as an immediate pause on consideration of certain legislative applications with a grid-reliability exception. The October 20 proposed formal resolution was deferred; its proposed per-application limit and retroactive language are not treated as adopted. Grandfathered administrative cases were reported unaffected. The prior record attributes to the County Attorney that Virginia law does not permit a blanket moratorium on administrative applications and reports roughly 17 grandfathered cases totaling more than 11 million square feet under the March 2025 resolution.
 - **What prompted it:** Regulatory gap and community pressure over rapid data center growth in the county ("Data Center Alley"); effort led by Algonkian District Supervisor Juli Briskman, tied to the county's ongoing Phase 2 Data Center Standards and Locations initiative (begun September 2025) addressing data center/substation siting, noise, building heights, on-site power generation, and battery storage standards.
 - **Affected projects:** At least 17 land-use cases representing more than 11 million square feet of data center development are 'grandfathered' under the county's March 2025 resolution and continue through by-right administrative review, unaffected by this pause.
-- **Detailed status:** Active as of 2026-09-23. The Board of Supervisors voted 7-1-1 on September 16, 2026 to enact, effective immediately, a temporary pause on Board consideration of certain legislative data center and substation applications while Phase 2 of its Data Center Standards and Locations initiative continues; a companion 7-1-1 vote (Briskman opposed) approved an exception allowing consideration of applications involving a 'grid reliability' substation during the pause. The pause does not apply to administratively processed, 'grandfathered' data center cases. A formal resolution memorializing the pause is scheduled to come before the Board at its October 20, 2026 Business Meeting; separately, the Board is set to receive legal analysis on October 6, 2026 on whether the 2025 grandfathering exceptions can be ended for cases that have not yet achieved vested rights.
-- **Outcome:** Loudoun County Board of Supervisors enacted an immediate, open-ended pause on Board consideration of most new legislative data center and substation applications while it completes Phase 2 of its data center zoning and siting standards.
+- **Detailed status:** The county’s September 16 release reports that the Board voted 7-1-1 on September 15 for an immediate pause on certain legislative data center and substation applications during Phase 2, with a separate 7-1-1 grid-reliability exception. It reports grandfathered administrative cases are unaffected. On October 20 a formal resolution with a proposed 12-month per-application limit was deferred to November 17, according to October 21 reporting; this does not establish repeal of the earlier action. Current legal effect and scope remain qualified pending primary confirmation. The earlier record attributes the separate exception vote opposition to Supervisor Briskman and reports that the Board was to receive legal analysis on October 6 concerning grandfathered cases without vested rights.
+- **Outcome:** Loudoun County reported an immediate pause on Board consideration of certain legislative data center and substation applications during its Phase 2 review, subject to applicable deadlines and a grid-reliability exception. A later proposed formal resolution was deferred.
 
 ### Suffolk
 
 - **Type:** City
-- **Recorded status:** 🟡 Pending
+- **Recorded status:** 🟢 Active
 - **Date enacted:** —
 - **Normalized date:** `—` (unverified)
-- **Duration:** Proposed pause on data center applications pending a UDO text amendment; Council vote expected October 2026
+- **Duration:** WTKR reports a temporary prohibition with no duration specified; the proposed ordinance in the October 21 package specifies no fixed sunset. Final adopted text and current endpoint require verification.
 - **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `va-suffolk-undated`
-- **Legal basis:** UDO Text Amendment OTA2026-008, recommended by the Planning Commission on 2026-09-15
+- **Legal basis:** OTA2026-008, recommended by the Planning Commission on 2026-09-15 and presented to City Council on 2026-10-21; WTKR reports approval of a temporary prohibition. The adopted ordinance text and instrument number remain to be verified.
 - **What prompted it:** City's development ordinance does not mention data centers; warehouse-use rules could be construed to allow them; council wants to avoid being 'blindsided' as happened with solar farms.
 - **Affected projects:** —
-- **Detailed status:** Pending as of 2026-09-23. Council directed the Planning Commission on 2026-06-17 to draft a UDO amendment prohibiting data centers while regulations are developed. The Planning Commission recommended the ban and a data-center definition to Council on 2026-09-15 (OTA2026-008); Council is scheduled to vote in October 2026. Not yet a binding pause; staff have informally been treating applications cautiously in the interim per earlier reporting, but no adopted ordinance exists. [VERIFY instrument number; adoption date; primary source (news-only evidence) not confirmed at confidence 0.55 in the 2026-09 refresh]
-- **Outcome:** —
+- **Detailed status:** WTKR reported on October 22, 2026 that City Council approved a temporary prohibition on data centers by an 8–0 vote after the October 21 OTA2026-008 hearing, and that the city would not accept data center applications. The official package contains a proposed ordinance; the final adopted text, effective date, duration and later legal status remain unverified. [VERIFY adopted instrument, effective date, duration and subsequent action]
+- **Outcome:** WTKR reports unanimous council approval of a temporary prohibition and a halt to data center applications; the final adopted instrument and later status remain unverified.
 
 ### Virginia Beach
 

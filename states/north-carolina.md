@@ -3,7 +3,7 @@
 
 Working inventory for North Carolina, generated **November 8, 2026**. Record-level refresh and later-action review remain incomplete.
 
-**70 records** — 58 classified as active or extended, 5 classified as pending, 7 classified as past, 0 classified as rejected proposals.
+**70 records** — 58 classified as active or extended, 5 classified as pending, 7 classified as past, 0 classified as rejected proposals, 0 classified as unknown.
 
 These counts reflect inventory classifications and do not establish current enforceability.
 
@@ -60,7 +60,7 @@ State policy is tracked separately: **3 records** (3 typed bill rows) in [`state
 | Town of Cary | Town | 2026-08-27 | data center, cryptocurrency mining | 🟢 Active |
 | Town of Clyde | Town | 2026-04-16 | data center | 🟢 Active |
 | Town of Elizabethtown | Town | Unverified | data center | 🟡 Pending |
-| Town of Farmville | Town | 2026-08-03 | data center | 🟢 Active |
+| Town of Farmville | Town | 2026-08-03 | data center, cryptocurrency mining | 🟢 Active |
 | Town of Franklin | Town | 2026-07-06 | data center | 🟢 Active |
 | Town of Garner | Town | 2026-05-19 | data center, cryptocurrency mining | 🟢 Active |
 | Town of Highlands | Town | 2026-08-20 | data center, cryptocurrency mining | 🟢 Active |
@@ -177,8 +177,8 @@ State policy is tracked separately: **3 records** (3 typed bill rows) in [`state
 - **Legal basis:** Ordinance 26-0061; N.C.G.S. 160D-107; hearing under N.C.G.S. 160D-601
 - **What prompted it:** Potential large-scale data center interest at Triangle Innovation Point West in Moncure; county findings cite water and electricity use, greenhouse gas emissions, pollution, e-waste, noise, and unaddressed zoning categories.
 - **Affected projects:** Triangle Innovation Point West; ordinance covers data centers, data processing facilities, cryptocurrency mining operations, and related uses in unincorporated Chatham County outside municipal ETJs.
-- **Detailed status:** Active as of 2026-09-23 until 2027-02-11 (or earlier adoption of zoning rules). On 2026-09-17 Superior Court Judge John Morris granted summary judgment to Eco TIP West, LLC in its suit against Chatham County, holding its 750 MW Triangle Innovation Point West data center project may proceed notwithstanding the moratorium (exemption under N.C.G.S. 160D-107(c) / vested rights) and ordering a damages determination; the moratorium itself remains in force for other projects.
-- **Outcome:** Pending. Staff studying impacts and preparing zoning text amendments; the Eco TIP West project was held exempt by court order on 2026-09-17, with damages to be determined.
+- **Detailed status:** The signed ordinance began 2026-02-11 for twelve months, ending no later than 2027-02-11 or upon earlier qualifying zoning amendments. On 2026-09-17 Judge John Morris granted Eco TIP West summary judgment on liability and attorney fees, reserving damages; the order was filed September 18. Its discussion lists exemption and vested-rights grounds as plaintiff claims without identifying a specific ground for judgment. Earlier reporting described the 750 MW Triangle Innovation Point West project as able to proceed and the moratorium as continuing for other projects. [VERIFY: later court orders or appeal, zoning amendments and current legal force.]
+- **Outcome:** The county adopted a twelve-month moratorium and planned zoning work. The court granted Eco TIP West summary judgment on liability and attorney fees on 2026-09-17 and reserved damages for later proceedings; the retained order does not specify which pleaded legal ground controlled.
 
 ### Cherokee County (high-impact facilities; cryptocurrency mining; data-center-adjacent)
 
@@ -209,7 +209,7 @@ State policy is tracked separately: **3 records** (3 typed bill rows) in [`state
 - **Legal basis:** City Council moratorium ordinance applying to new development, uses, or changes of use within NAICS 518210 or functionally equivalent facilities; ordinance number not located in reviewed sources
 - **What prompted it:** —
 - **Affected projects:** —
-- **Detailed status:** Active as of researched_as_of
+- **Detailed status:** The city reports approval of a moratorium on new data-center development on 2026-06-23. The existing row describes a one-year term through approximately 2027-06-22, but the retained city summary does not establish that term or subsequent action. [VERIFY: adopted ordinance, term and effective end, later zoning changes and current legal force.]
 - **Outcome:** —
 
 ### City of Boiling Spring Lakes
@@ -266,14 +266,14 @@ State policy is tracked separately: **3 records** (3 typed bill rows) in [`state
 - **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-09-03, City Council adoption (reported unanimous) of Ordinance #O-26-29 after the legislative hearing (agenda item 'Data and Hyperscale Data Center Moratorium')
 - **Normalized date:** `2026-09-03` (exact)
-- **Duration:** 12 months from adoption (to about 2027-09-03) unless ended earlier by adoption of zoning text amendments
-- **Current end date:** `2027-09-03`
+- **Duration:** Prior review reported a 12-month moratorium adopted 2026-09-03. The unsigned agenda attachment gives an end at 11:59 p.m. on 2027-09-02 unless earlier ended; the final adopted term requires verification.
+- **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `nc-city-of-hendersonville-undated`
 - **Legal basis:** Ordinance #O-26-29, Ordinance Imposing a Temporary Moratorium on Data Centers, N.C.G.S. 160D-107
 - **What prompted it:** Concerns about high water and electricity consumption and noise from data centers.
 - **Affected projects:** None identified in reporting.
-- **Detailed status:** Active as of 2026-09-23; City Council adopted the 12-month data center moratorium (Ordinance #O-26-29) on 2026-09-03, effective on adoption and expiring about 2027-09-03 unless ended earlier; staff presented a year-long research plan with milestones through April 30, 2027.
+- **Detailed status:** Earlier review reported that City Council adopted a 12-month moratorium on 2026-09-03 and reported it active as of 2026-09-23. Agenda attachment O-26-29 instead specifies a 2027-09-02 11:59 p.m. endpoint unless ended earlier; it is unsigned and names Brevard in one findings clause. Staff presented a research plan with milestones through April 30, 2027. [VERIFY: adopted ordinance, exact end, later action and current legal force.]
 - **Outcome:** 12-month moratorium adopted 2026-09-03; staff to study data centers and propose Zoning Ordinance text amendments.
 
 ### City of Kings Mountain
@@ -497,8 +497,8 @@ State policy is tracked separately: **3 records** (3 typed bill rows) in [`state
 - **Legal basis:** Proposed Guilford County temporary moratorium on data centers (up to 180 days), N.C.G.S. 160D-107
 - **What prompted it:** Growing data center controversy; county deciding how to regulate large, power-hungry facilities
 - **Affected projects:** None named.
-- **Detailed status:** Pending as of 2026-09-23; legislative public hearing scheduled for 2026-10-15.
-- **Outcome:** Hearing scheduled.
+- **Detailed status:** The board was reported to have scheduled a hearing on an up-to-180-day proposal in September. WXII reported the hearing occurred 2026-10-15 and the decision was delayed until 2026-11-05. [VERIFY: November 5 outcome, any adopted instrument and current legal status.]
+- **Outcome:** Public hearing held 2026-10-15; WXII reported a decision deferred to 2026-11-05. The outcome of that meeting has not been verified.
 
 ### Halifax County
 
@@ -510,11 +510,11 @@ State policy is tracked separately: **3 records** (3 typed bill rows) in [`state
 - **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `nc-halifax-county-undated`
-- **Legal basis:** Proposed Halifax County data center moratorium, N.C.G.S. 160D-107; legislative hearing set for 2026-10-19
+- **Legal basis:** Proposed Halifax County data-center moratorium under N.C.G.S. 160D-107; the originally scheduled October 19, 2026 regular meeting was canceled.
 - **What prompted it:** Zoning ordinance does not regulate data centers; Quiet Data Centers Halifax 88 MW AI project at the county-owned 301 Industrial Site near Enfield
 - **Affected projects:** Quiet Data Centers Halifax AI data center, 301 Industrial Site (county attorney warned a moratorium could affect the existing agreement).
-- **Detailed status:** Pending as of 2026-09-23; legislative hearing on a possible moratorium scheduled for 2026-10-19. [VERIFY instrument number; adoption date; primary source (news-only evidence) not confirmed at confidence 0.6 in the 2026-09 refresh]
-- **Outcome:** Hearing scheduled.
+- **Detailed status:** Pending as of 2026-09-23, when a legislative hearing was scheduled for October 19. The county canceled that regular meeting on 2026-10-06. An October 15 news report says the data-center hearing was postponed but gives both November 16 and November 19, so the replacement date is unresolved. [VERIFY: subject-specific hearing date, instrument, adoption and current legal status.]
+- **Outcome:** The originally scheduled October 19 regular meeting was canceled; a later news report describes a postponed data-center hearing but gives conflicting November dates. No adoption is established.
 
 ### Harnett County
 
@@ -523,13 +523,13 @@ State policy is tracked separately: **3 records** (3 typed bill rows) in [`state
 - **Date enacted:** 2026-05-04, Board of Commissioners adoption of Ordinance 2026-17 after a nearly two-hour public hearing
 - **Normalized date:** `2026-05-04` (exact)
 - **Duration:** One year
-- **Current end date:** `2027-05-04`
+- **Current end date:** `2027-05-03`
 - **Sectors:** data center, cryptocurrency mining
 - **Moratorium ID:** `nc-harnett-county-2026`
 - **Legal basis:** Ordinance 2026-17, An Ordinance of the County of Harnett Imposing a Temporary Moratorium on Development Approvals for Data Centers (covers data centers, data processing facilities and cryptocurrency mining)
-- **What prompted it:** A pending data-center proposal in the county prompted commissioners to pause new applications while they study how to regulate the industry
-- **Affected projects:** An unnamed pending data-center proposal referenced in contemporaneous coverage
-- **Detailed status:** Active as of 2026-09-23; one-year moratorium (Ordinance 2026-17) adopted 2026-05-04, running to about 2027-05-04; WUNC's Sept. 16, 2026 roundup still lists it in force.
+- **What prompted it:** The county sought time to study data centers and develop regulations; a developer was reportedly considering the county, but staff reported no application as of 2026-05-04.
+- **Affected projects:** No application had been received as of 2026-05-04; a developer was reportedly considering the county.
+- **Detailed status:** Active as of 2026-09-23; Ordinance 2026-17 was adopted 2026-05-04 for one year. Contemporaneous reporting gives a scheduled expiration of 2027-05-03 unless rescinded or extended; WUNC’s 2026-09-16 roundup was previously cited as listing it in force.
 - **Outcome:** One-year moratorium adopted to allow time to study how to regulate the data-center industry
 
 ### Henderson County (cryptocurrency mining; data-center-adjacent)
@@ -555,13 +555,13 @@ State policy is tracked separately: **3 records** (3 typed bill rows) in [`state
 - **Date enacted:** 2026-08-18, Board of Commissioners unanimous approval of a one-year data center moratorium ordinance
 - **Normalized date:** `2026-08-18` (exact)
 - **Duration:** One year, through 2027-08-18; commissioners may end it early by majority vote
-- **Current end date:** `—`
+- **Current end date:** `2027-08-18`
 - **Sectors:** data center
 - **Moratorium ID:** `nc-jackson-county-2026`
 - **Legal basis:** Jackson County Ordinance O2026-02; N.C.G.S. 160D-107; bars zoning, development, building and demolition permits, related site plans and rezonings for data centers in the county's planning jurisdiction
 - **What prompted it:** UDO lacks a data center definition; county wants to study benefits and impacts before a proposal arrives and avoid nonconformity problems
 - **Affected projects:** None named.
-- **Detailed status:** August 18 minutes record unanimous adoption of Ordinance O2026-02, a one-year data-center moratorium. [VERIFY: operative text and interval, later amendments/extensions/repeal, judicial developments and current legal force.]
+- **Detailed status:** August 18, 2026 minutes record unanimous adoption of Ordinance O2026-02 as presented, effective August 18 and expiring no later than August 18, 2027, subject to earlier termination. Later amendments and actual legal force have not been independently established. [VERIFY: later amendments/extensions/repeal and actual end.]
 - **Outcome:** One-year moratorium with a work plan toward UDO data center regulations.
 
 ### Lincolnton
@@ -571,7 +571,7 @@ State policy is tracked separately: **3 records** (3 typed bill rows) in [`state
 - **Date enacted:** 2026-09-03
 - **Normalized date:** `2026-09-03` (exact)
 - **Duration:** From 2026-09-03 to 2027-01-01, extendable
-- **Current end date:** `—`
+- **Current end date:** `2027-01-01`
 - **Sectors:** data center
 - **Moratorium ID:** `nc-lincolnton-2026`
 - **Legal basis:** Lincolnton City Council motion/ordinance adopting a moratorium on data center applications (2026-09-03)
@@ -590,11 +590,11 @@ State policy is tracked separately: **3 records** (3 typed bill rows) in [`state
 - **Current end date:** `—`
 - **Sectors:** data center, cryptocurrency mining
 - **Moratorium ID:** `nc-madison-county-2023`
-- **Legal basis:** Madison County Board of Commissioners approved the limited moratorium on data processing facilities on June 13, 2023, according to county minutes, referring to attachment 5.4. The operative instrument and later actions require further review.
+- **Legal basis:** Madison County Board of Commissioners adopted the limited moratorium on data processing facilities on 2023-06-13; signed ordinance at attachment 5.4 of the meeting packet.
 - **What prompted it:** Growing prevalence of data processing/crypto mining facilities; need to study infrastructure, energy, environmental, and economic impacts before regulating.
 - **Affected projects:** Data processing facilities and crypto mining operations countywide.
-- **Detailed status:** June 13, 2023 county minutes record unanimous adoption of the limited data-processing moratorium, referring to attachment 5.4. News quotes the county manager describing twelve months. Only pages 1-2 of the 73-page packet were substantively reviewed; the operative attachment and later actions remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
-- **Outcome:** Pending verification — county planned to study impacts and develop regulations; replacement text not located in captured fetches; the absence of a listed instrument on Madison County's Planning page suggests the moratorium may have lapsed without a replacement, but this cannot be confirmed without access to BOC minutes (not posted online by Madison County).
+- **Detailed status:** June 13, 2023 county minutes and signed ordinance record unanimous adoption of the limited data-processing moratorium, effective immediately for twelve months, subject to renewal, extension or early termination. The county manager also described twelve months in a June 16 report. Later action and actual end remain unresolved. [VERIFY: later amendments/extensions/repeal and actual end.]
+- **Outcome:** The county planned to study impacts and develop regulations; the signed ordinance set a twelve-month term subject to earlier termination or extension. Replacement text was not located in previously captured fetches; later actions and any replacement remain unverified.
 
 ### McDowell County
 
@@ -635,7 +635,7 @@ State policy is tracked separately: **3 records** (3 typed bill rows) in [`state
 - **Date enacted:** 2026-09-08, Board of Commissioners unanimous adoption after a public hearing (hearing set by resolution 2026-08-03)
 - **Normalized date:** `2026-09-08` (exact)
 - **Duration:** Until 2027-06-30 or earlier adoption of new zoning regulations
-- **Current end date:** `—`
+- **Current end date:** `2027-06-30`
 - **Sectors:** data center, cryptocurrency mining
 - **Moratorium ID:** `nc-nash-county-2026`
 - **Legal basis:** Nash County temporary development moratorium ordinance on data centers, data processing facilities, cryptocurrency mining and similar high-impact uses in unincorporated areas (number not located)
@@ -651,7 +651,7 @@ State policy is tracked separately: **3 records** (3 typed bill rows) in [`state
 - **Date enacted:** 2026-05-04, Board of Commissioners unanimous adoption
 - **Normalized date:** `2026-05-04` (exact)
 - **Duration:** 32 months, effective through January 4, 2029
-- **Current end date:** `—`
+- **Current end date:** `2029-01-04`
 - **Sectors:** data center, cryptocurrency mining
 - **Moratorium ID:** `nc-northampton-county-2026`
 - **Legal basis:** Board of Commissioners moratorium ordinance covering unincorporated areas; ordinance/resolution number not located in reviewed sources; N.C.G.S. 160D-107 procedure implied for a development moratorium of this length
@@ -683,29 +683,29 @@ State policy is tracked separately: **3 records** (3 typed bill rows) in [`state
 - **Date enacted:** 2026-05-18, Board of Commissioners unanimous adoption, effective May 18, 2026 through May 17, 2027, or until earlier zoning amendments take effect
 - **Normalized date:** `2026-05-18` (exact)
 - **Duration:** 12 months (May 18, 2026 through May 17, 2027, or until earlier zoning amendments take effect)
-- **Current end date:** `—`
+- **Current end date:** `2027-05-17`
 - **Sectors:** data center, cryptocurrency mining
 - **Moratorium ID:** `nc-pasquotank-county-2026`
 - **Legal basis:** Board of Commissioners moratorium ordinance; N.C.G.S. 160D-107 (implied)
 - **What prompted it:** —
 - **Affected projects:** —
-- **Detailed status:** Active as of researched_as_of; covers unincorporated county territory outside municipal extraterritorial jurisdictions; incidental onsite server rooms exempt
+- **Detailed status:** Ordinance adopted May 18, 2026 applies in unincorporated county territory outside municipal extraterritorial jurisdictions; incidental onsite server rooms are exempt. It runs no later than May 17, 2027 or until earlier zoning amendments. As of the county planning page captured November 5, 2026, a draft UDO was scheduled for a November 16 public hearing; adoption is not established.
 - **Outcome:** —
 
 ### Pasquotank County (solar)
 
 - **Type:** County
 - **Recorded status:** 🟢 Active
-- **Date enacted:** 2026-07-20, Board of Commissioners vote to implement a 12-month moratorium on new solar farm construction
+- **Date enacted:** 2026-07-20, Board of Commissioners unanimously adopted a 12-month moratorium on acceptance of special use permit applications for solar farms.
 - **Normalized date:** `2026-07-20` (exact)
 - **Duration:** 12 months, commencing July 20, 2026 and expiring no later than July 19, 2027, or earlier upon approval of zoning ordinance amendments regarding solar farms.
 - **Current end date:** `2027-07-19`
 - **Sectors:** solar
 - **Moratorium ID:** `nc-pasquotank-county-solar-2026`
 - **Legal basis:** Pasquotank County solar farm moratorium (instrument number not located)
-- **What prompted it:** Commissioners want to reduce the maximum solar farm acreage (currently 15,000 acres) and update UDO solar standards
+- **What prompted it:** Commissioners sought to reduce the maximum solar farm acreage, which the county manager stated was 1,500 acres at the July 20, 2026 hearing, and update solar zoning standards.
 - **Affected projects:** None named.
-- **Detailed status:** July 20 minutes record approval of a solar-development moratorium through July 19, 2027 or earlier approval of specified zoning amendments. [VERIFY: later amendments/extensions/repeal, judicial developments and current legal force; operative implementation where not established by the reviewed source.]
+- **Detailed status:** July 20, 2026 minutes record unanimous adoption of a moratorium on solar farm special use permit applications through July 19, 2027 or earlier approval of solar zoning amendments. The county planning page captured November 5 describes a draft UDO and a November 16 hearing, not adoption. [VERIFY: later action and actual end.]
 - **Outcome:** 12-month solar moratorium; UDO revision under way.
 
 ### Rowan County
@@ -753,7 +753,7 @@ State policy is tracked separately: **3 records** (3 typed bill rows) in [`state
 - **Legal basis:** County moratorium ordinance on permitting and development approvals for data centers and other high-impact facilities, agenda voting item V(a) for the April 21, 2026 regular session; adopted under N.C.G.S. 160D-107. [Evidence ceiling: Swain County does not maintain a Granicus, Legistar, or CivicClerk-style ordinance index; BPR's coverage and the captured Swain agenda PDF reference the moratorium item without an instrument number.]
 - **What prompted it:** March 31 public meeting with roughly 140 residents and 34 speakers; concerns included water use, energy use, noise, visual impacts, fisheries, and mountain watershed effects.
 - **Affected projects:** No named project identified in captured reporting.
-- **Detailed status:** Active
+- **Detailed status:** BPR reported that commissioners unanimously adopted a 12-month data-center moratorium on 2026-04-21. The operative instrument, exact end and later action have not been established.
 - **Outcome:** Pending. Commissioners voted to create two resident ad hoc committees to guide the research and ordinance process.
 
 ### Town of Apex
@@ -833,7 +833,7 @@ State policy is tracked separately: **3 records** (3 typed bill rows) in [`state
 - **Legal basis:** Ordinance Establishing a Temporary 18-month Moratorium on the Acceptance, Processing, and Approval of Development Applications for Data Centers, cryptocurrency mining operations and associated uses in Cary's planning jurisdiction (N.C.G.S. 160D-107); ordinance number not located
 - **What prompted it:** Cary's Land Development Ordinance does not define data centers; concerns about electricity demand, cooling water, generator and cooling noise, stormwater, tree canopy and air quality
 - **Affected projects:** None named; Cary hosts some smaller data center operations.
-- **Detailed status:** Active as of 2026-09-23; 18-month moratorium adopted 2026-08-27, running to about 2028-02-27, while staff conduct technical studies, community engagement and regional coordination.
+- **Detailed status:** ABC11 reported unanimous adoption of an 18-month moratorium on 2026-08-27, effective immediately and scheduled through February 2028; it reported the council changed a proposed exemption threshold from 25 MW to 1 MW. Adopted text and later actions remain unverified. The previous row recorded active status as of September 23, 2026; that observation was not independently rechecked here.
 - **Outcome:** 18-month moratorium; ordinance hearing anticipated October 2027 and Council decision February 2028.
 
 ### Town of Clyde
@@ -856,7 +856,7 @@ State policy is tracked separately: **3 records** (3 typed bill rows) in [`state
 
 - **Type:** Town
 - **Recorded status:** 🟡 Pending
-- **Date enacted:** Proposed; legislative hearing and consideration of a one-year moratorium ordinance held 2026-06-15; outcome not located
+- **Date enacted:** Proposed; public notice scheduled a legislative hearing for 2026-06-15 on a one-year moratorium ordinance. Hearing outcome and adoption date not established.
 - **Normalized date:** `—` (unverified)
 - **Duration:** Proposed one year
 - **Current end date:** `—`
@@ -865,7 +865,7 @@ State policy is tracked separately: **3 records** (3 typed bill rows) in [`state
 - **Legal basis:** Proposed Code of Ordinances amendment: temporary moratorium on development approvals for data centers under G.S. 160D-107 (draft ordinance posted June 2026)
 - **What prompted it:** Evaluate infrastructure capacity, land-use impacts and regulatory needs
 - **Affected projects:** None named.
-- **Detailed status:** Pending/unknown as of 2026-09-23: the June 15, 2026 council agenda included the public hearing and 'Ordinance Consideration' for a one-year data center moratorium, but no minutes (June minutes not yet posted) or news report of the outcome were found, and the statewide tracker does not list Elizabethtown. [VERIFY instrument number; adoption date not confirmed at confidence 0.45 in the 2026-09 refresh]
+- **Detailed status:** Pending/unknown: the town scheduled a June 15, 2026 hearing on a proposed one-year data-center moratorium. The retained June 2 draft is labeled Ordinance 2026-02 but has a blank adoption line; the captured agenda index did not yield meeting records. The 2026-09 refresh found no outcome and the statewide tracker did not list Elizabethtown. [VERIFY: hearing outcome, adopted instrument and adoption date.]
 - **Outcome:** Outcome of the June 15 consideration unknown.
 
 ### Town of Farmville
@@ -876,9 +876,9 @@ State policy is tracked separately: **3 records** (3 typed bill rows) in [`state
 - **Normalized date:** `2026-08-03` (exact)
 - **Duration:** 12 months (to about 2027-08-03)
 - **Current end date:** `—`
-- **Sectors:** data center
+- **Sectors:** data center, cryptocurrency mining
 - **Moratorium ID:** `nc-town-of-farmville-2026`
-- **Legal basis:** Town of Farmville data center moratorium ordinance (number not located), N.C.G.S. 160D-107
+- **Legal basis:** Farmville data-center moratorium under N.C.G.S. 160D-107; the Calyx register identifies it as Ordinance (2026) 1079 and attributes its account to August 3 draft minutes in the August 31 agenda packet. The instrument itself has not been inspected here.
 - **What prompted it:** Residents opposed a potential data center concept presented by East Energy Renewables; town lacks standards for such uses
 - **Affected projects:** Data center concept presented by East Energy Renewables at a February 2026 budget workshop.
 - **Detailed status:** Active as of 2026-09-23; 12-month moratorium adopted 2026-08-03 (to about 2027-08-03) while staff develop ordinance standards.
@@ -897,7 +897,7 @@ State policy is tracked separately: **3 records** (3 typed bill rows) in [`state
 - **Legal basis:** Ordinance No. 2026-002
 - **What prompted it:** —
 - **Affected projects:** —
-- **Detailed status:** Active as of researched_as_of; suspends acceptance, processing, review, approval, and issuance of development approvals for new data centers within town limits and extraterritorial jurisdiction
+- **Detailed status:** July 6, 2026 town council minutes record unanimous adoption of a temporary moratorium on new data center development within Franklin’s planning jurisdiction. The enacted text, original interval and later action remain unverified. The previous row described suspension of acceptance, processing, review, approval and issuance of development approvals in town limits and ETJ; that detailed scope was not independently verified against enacted text here.
 - **Outcome:** —
 
 ### Town of Garner
@@ -929,7 +929,7 @@ State policy is tracked separately: **3 records** (3 typed bill rows) in [`state
 - **Legal basis:** Town of Highlands temporary moratorium ordinance on data centers, cryptocurrency mining and other high-intensity computing facilities (number not located)
 - **What prompted it:** Town wants zoning to prevent high-impact computing uses; follows Macon County's data center ordinance changes
 - **Affected projects:** None.
-- **Detailed status:** Active as of 2026-09-23; moratorium approved 2026-08-20; the planning board is reviewing data center regulations. Confirmed by the Highlander (Highlands' local paper), which headlined the town board's approval, and corroborated by a Macon County official's Sept. 14 reference to it. Ordinance number still not located.
+- **Detailed status:** The Highlander previously reported town board approval on August 20, 2026; a Macon County attorney also described that approval and planning-board review on September 8. The town meeting attachment states an August 20, 2027 termination subject to earlier UDO action or extension, but its blank execution fields leave the adopted text unverified. The previous row also attributed a September 14 reference to a Macon County official; that earlier attribution was not independently rechecked here.
 - **Outcome:** Temporary moratorium adopted; planning board review under way.
 
 ### Town of Hildebran
@@ -1035,13 +1035,13 @@ State policy is tracked separately: **3 records** (3 typed bill rows) in [`state
 - **Date enacted:** 2026-08-04, Town Council adoption of Ordinance 2026-23 after a public hearing (hearing set July 22; moratorium runs from July 23)
 - **Normalized date:** `2026-08-04` (exact)
 - **Duration:** 12 months: begins 2026-07-23 and lasts until 2027-07-23 or earlier approval of new zoning regulations
-- **Current end date:** `—`
+- **Current end date:** `2027-07-23`
 - **Sectors:** data center, cryptocurrency mining
 - **Moratorium ID:** `nc-town-of-nashville-2026`
 - **Legal basis:** Ordinance 2026-23, temporary moratorium on data centers, data processing facilities, cryptocurrency mining operations and similar uses, N.C.G.S. 160D-107
 - **What prompted it:** Chapter 18 land use regulations do not define data centers or crypto mining; concerns about electrical demand, water use and land-use compatibility
 - **Affected projects:** None named.
-- **Detailed status:** Active as of 2026-09-23 through 2027-07-23 (or earlier adoption of zoning regulations).
+- **Detailed status:** Ordinance 2026-23 states a July 23, 2026 commencement and July 23, 2027 scheduled end or earlier adoption of zoning rules; it also says it takes effect on its August 4, 2026 adoption. The effective-date discrepancy and later actions remain unresolved. The previous row recorded active status as of September 23, 2026; that later observation was not independently rechecked here.
 - **Outcome:** 12-month moratorium adopted.
 
 ### Town of Newport
@@ -1073,7 +1073,7 @@ State policy is tracked separately: **3 records** (3 typed bill rows) in [`state
 - **Legal basis:** Resolution 2026-01, imposing a one-year pause on data centers within the town and its extraterritorial jurisdiction
 - **What prompted it:** —
 - **Affected projects:** —
-- **Detailed status:** Active as of researched_as_of
+- **Detailed status:** Resolution 2026-01 was unanimously approved May 4, 2026; meeting minutes describe a one-year pause for data centers in town and ETJ. The original instrument, effective date and subsequent action remain unverified. [VERIFY: original resolution, operative interval, later amendments, termination or extension and current legal force.]
 - **Outcome:** —
 
 ### Town of Waxhaw
@@ -1089,7 +1089,7 @@ State policy is tracked separately: **3 records** (3 typed bill rows) in [`state
 - **Legal basis:** Ordinance ORD2026014, An Ordinance Imposing a Temporary Moratorium on the acceptance, processing and approval of development applications for data centers, cryptocurrency mining, data storage and processing and related telecommunications infrastructure, N.C.G.S. 160D-107
 - **What prompted it:** Land development code does not address data centers; proactive pause (no proposals pending) to study and draft amendments
 - **Affected projects:** None; no proposals pending.
-- **Detailed status:** Active as of 2026-09-23; 12-month moratorium in effect through 2027-08-10 unless ended earlier.
+- **Detailed status:** The town reports unanimous adoption of Ordinance ORD2026014 on August 11, 2026, for up to 12 months, ending no later than August 10, 2027 or earlier upon qualifying regulations or Board action. The town FAQ describes its status as of August 2026; later action and current legal force remain unverified. [VERIFY: later amendments, termination or extension and current legal force.] The earlier row recorded it as active on September 23, 2026; this August-dated FAQ does not independently establish that later observation.
 - **Outcome:** 12-month moratorium while the town drafts land development code amendments.
 
 ### Town of Wendell
@@ -1105,8 +1105,8 @@ State policy is tracked separately: **3 records** (3 typed bill rows) in [`state
 - **Legal basis:** Town moratorium on acceptance/processing of development applications for data centers, data processing facilities, and cryptocurrency mining; cited authority N.C.G.S. 160D-107; >61-day duration triggered required public hearing. [Evidence ceiling: Wendell's planning-department data-center-moratorium FAQ does not post a numbered ordinance, and the town does not maintain a Granicus, CivicWeb, IQM2, or comparable agenda-archive portal as of 2026-04-30.]
 - **What prompted it:** UDO lacked definitions for data centers and cryptocurrency mining; town wanted clearer development standards before applications.
 - **Affected projects:** No applications reported by town officials.
-- **Detailed status:** Active as of 2026-09-23; runs through 2026-12-31 or until updated data center and cryptocurrency mining regulations are adopted. WUNC's Sept. 16, 2026 Triangle roundup lists it as in force and expiring at the end of December 2026.
-- **Outcome:** Pending. Town will study impacts and prepare regulations.
+- **Detailed status:** The Town FAQ says the Board voted April 13, 2026 to impose a temporary moratorium on development applications for data centers, data processing and cryptocurrency mining. WUNC reported on September 16, 2026 that the moratorium would expire at the end of December 2026; Wake Weekly reported April 14 that the April 13 vote was unanimous and the pause ran through year end or until updated regulations were in place. The adopted instrument and actual operative interval and later legal force remain unverified. [VERIFY: adopted text, operative interval, later action and current legal force.]
+- **Outcome:** The Board approved a temporary moratorium on April 13, 2026, according to the town FAQ and Wake Weekly. Town staff will study impacts and prepare regulations. The newspaper reports a year-end limit or earlier updated regulations; the adopted instrument and operative interval remain unverified.
 
 ### Town of Whitakers
 
@@ -1121,7 +1121,7 @@ State policy is tracked separately: **3 records** (3 typed bill rows) in [`state
 - **Legal basis:** Town of Whitakers data center moratorium (instrument not located)
 - **What prompted it:** Regional Nash/Edgecombe effort to study data center impacts
 - **Affected projects:** None named.
-- **Detailed status:** Active as of 2026-09-23; per Whitakers Town Clerk Tamica Gray (Rocky Mount Telegram, Aug. 2026), the town instituted a data center pause effective June 1, 2026. No ordinance document, instrument number, or duration/term has been located; this remains a secondhand (clerk-quoted) source, not a primary document. [VERIFY instrument number; term/duration; primary source (ordinance text) still not located]
+- **Detailed status:** The Rocky Mount Telegram reports that Whitakers Town Clerk Tamica Gray said the town instituted a data center pause on June 1, 2026. The primary instrument, operative date, duration and subsequent action remain unverified. [VERIFY: instrument, term, operative interval, subsequent action and current legal force.]
 - **Outcome:** Moratorium reported.
 
 ### Town of Woodfin
@@ -1137,7 +1137,7 @@ State policy is tracked separately: **3 records** (3 typed bill rows) in [`state
 - **Legal basis:** Ordinance 2026-04
 - **What prompted it:** —
 - **Affected projects:** —
-- **Detailed status:** The signed May 19, 2026 ordinance states twelve months from effectiveness unless repealed earlier. Publication/filing and later actions were not independently established. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
+- **Detailed status:** Ordinance 2026-04 states adoption and immediate effectiveness on May 19, 2026, and twelve months from effectiveness unless terminated earlier; it also refers to publication and filing, not independently established. The retained ordinance index lists later titles through October 20, 2026 without an identified data-center successor. [VERIFY: publication and filing, later amendments, extension or repeal, judicial developments and current legal force.]
 - **Outcome:** —
 
 ### Vance County
@@ -1153,7 +1153,7 @@ State policy is tracked separately: **3 records** (3 typed bill rows) in [`state
 - **Legal basis:** Vance County 60-day data center moratorium (number not located), N.C.G.S. 160D-107; the legal notice advertised 60 days, so a 6-month motion was ruled out of order
 - **What prompted it:** Natelli Holdings filed a preliminary plan for a 900 MW, 12-building data center campus on ~530 acres along U.S. 158 while the county revises its UDO data center rules
 - **Affected projects:** Natelli Holdings 900 MW data center campus (Technology Lane / U.S. 158).
-- **Detailed status:** Active as of 2026-09-23; 60-day moratorium adopted 2026-09-14, ending 2026-11-13 or on adoption of the pending zoning text amendment.
+- **Detailed status:** WIZS reported that the county adopted a 60-day moratorium September 14, 2026; the county manager said it began on adoption and would end November 13, 2026 or on adoption of the specified data-center zoning amendment. Later action and current legal force remain unverified. [VERIFY: adopted instrument, intervening amendment or extension and current legal force.] The earlier row recorded it as active on September 23, 2026; the September report does not independently establish that later observation.
 - **Outcome:** 60-day moratorium pending UDO text amendment.
 
 ### Warren County
@@ -1162,7 +1162,7 @@ State policy is tracked separately: **3 records** (3 typed bill rows) in [`state
 - **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-08-19, Board of Commissioners approval at its work session after a public hearing
 - **Normalized date:** `2026-08-19` (exact)
-- **Duration:** 12 months (to about 2027-08-19)
+- **Duration:** 12 months; local reporting states through 2027-08-19. Original adopted text and later actions remain unverified.
 - **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `nc-warren-county-2026`
@@ -1179,7 +1179,7 @@ State policy is tracked separately: **3 records** (3 typed bill rows) in [`state
 - **Date enacted:** 2026-04-21, Board of Commissioners meeting; Board voted unanimously to adopt a one-year countywide data center moratorium at this meeting (Watauga Democrat).
 - **Normalized date:** `2026-04-21` (unverified)
 - **Duration:** One year (adopted 2026-04-21; to about 2027-04-21)
-- **Current end date:** `2027-04-21`
+- **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `nc-watauga-county-2026`
 - **Legal basis:** County data center moratorium proposed under N.C.G.S. 160D-107. [Evidence ceiling: Watauga County's BOC agendas/minutes archives at wataugacounty.org/App_Pages/Dept/BOC/{agendas,minutes}.aspx confirmed via real-Chrome fetch on 2026-04-30 to contain zero 2026 records.]

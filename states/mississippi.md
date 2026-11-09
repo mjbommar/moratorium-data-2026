@@ -3,7 +3,7 @@
 
 Working inventory for Mississippi, generated **November 8, 2026**. Record-level refresh and later-action review remain incomplete.
 
-**1 record** — 1 classified as active or extended, 0 classified as pending, 0 classified as past, 0 classified as rejected proposals.
+**1 record** — 1 classified as active or extended, 0 classified as pending, 0 classified as past, 0 classified as rejected proposals, 0 classified as unknown.
 
 These counts reflect inventory classifications and do not establish current enforceability.
 
@@ -21,15 +21,15 @@ State policy is tracked separately: **7 records** (7 typed bill rows) in [`state
 - **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-07-14 (City Council adopted the moratorium ordinance by a 5-2 vote)
 - **Normalized date:** `2026-07-14` (exact)
-- **Duration:** 183 days from the ordinance's effective date; because the vote was not unanimous, the ordinance takes effect 30 days after passage (approximately 2026-08-13)
-- **Current end date:** `2027-02-12`
+- **Duration:** 183 days from the effective date. WLBT reported a 30-day wait after the non-unanimous July 14 vote, implying approximately 2026-08-13; the actual effective date has not been independently verified.
+- **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `ms-city-of-jackson-2026`
 - **Legal basis:** City of Jackson ordinance adopted by City Council 5-2 on July 14, 2026, establishing a citywide data center application moratorium
 - **What prompted it:** Council sought time to identify appropriate sites, study impacts, and develop a data center regulatory framework
 - **Affected projects:** Citywide; no single named project. Excludes approximately 1,100 acres of city-owned land near Jackson-Medgar Wiley Evers International Airport.
-- **Detailed status:** Active as of 2026-09-23. The moratorium took legal effect on or about August 13, 2026 (30 days after the July 14 passage) and runs 183 days from that date, through approximately 2027-02-12. On August 11, 2026 the Council separately passed a non-binding resolution (introduced by Ward 3 Councilman Kenneth Stokes) urging the administration to identify appropriate data-center sites; it does not alter or shorten the moratorium, which remains in force. During the moratorium the city does not accept, process, or approve data center applications for special or conditional use permits, zoning map amendments, building permits, or other zoning changes; about 1,100 acres of city-owned land near Jackson-Medgar Wiley Evers International Airport remain exempted. No repeal, extension, or replacement ordinance was found in sources reviewed through 2026-09-23.
-- **Outcome:** Enacted by council vote 5-2 on July 14, 2026; took legal effect approximately August 13, 2026 and runs 183 days from that date (to approximately February 12, 2027). A separate non-binding August 11, 2026 council resolution urging site identification does not change the moratorium's status.
+- **Detailed status:** Reported adopted 5-2 on 2026-07-14 for 183 days from its effective date; WLBT reported a 30-day wait, implying approximately 2026-08-13. An earlier review reported active status as of 2026-09-23 and attributed to WLBT a separate non-binding 2026-08-11 site-identification resolution. That review also reported approximately 1,100 acres of airport-area city land exempt and no repeal, extension or replacement found through 2026-09-23; the underlying August article is not retained. The July report says an airport-land exemption amendment was approved, and describes a pause on processing specified data-center permits and zoning applications. [VERIFY: adopted ordinance, effective date, exact exemption, later amendments or termination, and current legal force.]
+- **Outcome:** WLBT reported adoption by a 5-2 vote on 2026-07-14 of a 183-day moratorium from its effective date and reported an approved airport-land exemption amendment. The reported 30-day wait implies an approximately 2026-08-13 start; the actual effective date and end remain unverified. An earlier review attributed a separate non-binding August 11 site-identification resolution to WLBT.
 
 ---
 

@@ -1,0 +1,133 @@
+{
+  "applied_at": "2026-11-09T04:07:41.177238+00:00",
+  "substantive_cells": 10,
+  "derived_cells": 0,
+  "changed_cells": 10,
+  "changed_records": 5,
+  "csv_before_sha256": {
+    "local_inventory": "3fbd165666b3ae197ad1bae77b6c302637a023d964c68056923cc6bdb873de97",
+    "state_policy": "e99ab1770f78f46414a819415b6c90611fb33f890900d435ac5a041ac5427faf"
+  },
+  "csv_after_sha256": {
+    "local_inventory": "329a0340971a1011a2322f3d59bd93f107064d42c7c5704b548e79963ab43597",
+    "state_policy": "e99ab1770f78f46414a819415b6c90611fb33f890900d435ac5a041ac5427faf"
+  },
+  "scope_rebound_ids": [],
+  "scope_registry_sha256": "876fac42c46548ef7be41e590047d9c5606e4e36197438602e4ff5bc2ad5fae2",
+  "changes": [
+    {
+      "dataset": "local_inventory",
+      "id": "ga-rockdale-county-undated",
+      "field": "enacted_status",
+      "before": "extended",
+      "after": "expired",
+      "kind": "substantive"
+    },
+    {
+      "dataset": "local_inventory",
+      "id": "mi-saugatuck-township-2026",
+      "field": "enacted_status",
+      "before": "extended",
+      "after": "expired",
+      "kind": "substantive"
+    },
+    {
+      "dataset": "local_inventory",
+      "id": "oh-swancreek-township-fulton-county-2026",
+      "field": "enacted_status",
+      "before": "active",
+      "after": "expired",
+      "kind": "substantive"
+    },
+    {
+      "dataset": "local_inventory",
+      "id": "oh-waynesville-2026",
+      "field": "current_end_date_iso",
+      "before": "2026-10-31",
+      "after": "",
+      "kind": "substantive"
+    },
+    {
+      "dataset": "local_inventory",
+      "id": "oh-waynesville-2026",
+      "field": "duration_kind",
+      "before": "fixed_days",
+      "after": "unknown",
+      "kind": "substantive"
+    },
+    {
+      "dataset": "local_inventory",
+      "id": "oh-waynesville-2026",
+      "field": "duration_days",
+      "before": "180",
+      "after": "",
+      "kind": "substantive"
+    },
+    {
+      "dataset": "local_inventory",
+      "id": "wa-covington-2024",
+      "field": "duration_kind",
+      "before": "until_date",
+      "after": "calendar_term",
+      "kind": "substantive"
+    },
+    {
+      "dataset": "local_inventory",
+      "id": "wa-covington-2024",
+      "field": "current_end_date_iso",
+      "before": "2026-10-25",
+      "after": "",
+      "kind": "substantive"
+    },
+    {
+      "dataset": "local_inventory",
+      "id": "wa-covington-2024",
+      "field": "duration",
+      "before": "Ordinance 02-2026 states six months from April 25 effectiveness; Ordinance 09-2026 renews for six months from November 7 effectiveness unless earlier repealed, renewed or modified. Applicability at the November 5 cutoff unresolved.",
+      "after": "Ordinance 02-2026 states six months from April 25 effectiveness; Ordinance 09-2026 renews for six months from November 7 effectiveness unless earlier repealed, renewed or modified. Continuity across the intervening period and later action remain unresolved.",
+      "kind": "substantive"
+    },
+    {
+      "dataset": "local_inventory",
+      "id": "wa-covington-2024",
+      "field": "current_status",
+      "before": "Ordinance 02-2026 states April 25 effectiveness and a six-month term. Signed Ordinance 09-2026 records October 27 adoption, November 2 publication and November 7 effectiveness, renewing for six months from that date unless earlier repealed, renewed or modified. The renewal is not yet effective at the November 5 cutoff. Any intervening restriction, continuity and current force remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+      "after": "Ordinance 02-2026 states April 25 effectiveness and a six-month term. Signed Ordinance 09-2026 records October 27 adoption, November 2 publication and November 7 effectiveness, renewing for six months from that date unless earlier repealed, renewed or modified. Its stated effective date has arrived at the fixed November 7 event cutoff. Any intervening restriction, continuity, subsequent action and current legal force remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+      "kind": "substantive"
+    }
+  ],
+  "verify_rows": 979,
+  "row_transitions": [
+    {
+      "dataset": "local_inventory",
+      "id": "ga-rockdale-county-undated",
+      "before_sha256": "f450d0820048b3e3689d7673dff3aa78c646160b69d0c503f702f9c46b6bf50d",
+      "after_sha256": "343e3b717fbc2f6f1ce449308265bca918bc4df5095f1a4709fa6bf2b29bd7b3"
+    },
+    {
+      "dataset": "local_inventory",
+      "id": "mi-saugatuck-township-2026",
+      "before_sha256": "5b0d09243fc9533572d3b724613b76da38b7ecc81da5942c131a0f2f1858e627",
+      "after_sha256": "3a8535605616a0f5d69e19ab00373ff582ab4e2996721e086a4a8b0707b3e5bd"
+    },
+    {
+      "dataset": "local_inventory",
+      "id": "oh-swancreek-township-fulton-county-2026",
+      "before_sha256": "5de8f4fff45ba95ba10826efafa52124587886b30a6540d6276545da904bf109",
+      "after_sha256": "f108a7107e2401c2e5e64437acbc68bb0205934f6e93f15bee3352c49d2b24a4"
+    },
+    {
+      "dataset": "local_inventory",
+      "id": "oh-waynesville-2026",
+      "before_sha256": "5db25fb2c1bae897b336875e4d4315a750c78005af5dc745da2aadd0f53480db",
+      "after_sha256": "9e6690172c9515b3459f20bf316383b4641e7befa83e826f018f73e0275e5479"
+    },
+    {
+      "dataset": "local_inventory",
+      "id": "wa-covington-2024",
+      "before_sha256": "9facc0fee0a629ee4ec0d37f1ea1a1dfc794013c15de6161298c33cc5a00edfd",
+      "after_sha256": "0358976a1af0882a1db1cb344b72f5865f4212f1615daf9382894b528aa8ffba"
+    }
+  ],
+  "scope": "Reviewed source observations, classification correction and explicit unresolved facts; all IDs retained. No current-law census asserted."
+}

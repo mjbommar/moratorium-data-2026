@@ -27,7 +27,7 @@ the working count is not a completed deduplicated instrument census.
 | `verify_count` | How many `[VERIFY]` flags remain on this row. | `2` |
 | `cite_count` | How many citation markers exist on this row (legacy field, often 0). | `0` |
 | `activity_level` | The state's overall moratorium-activity classification. **Closed vocabulary: `None`, `Low`, `Medium`, `High`.** | `High` |
-| `enacted_status` | **Closed-vocab status bucket** derived from the free-text fields. One of: `active`, `extended`, `replaced`, `expired`, `rescinded`, `pending`, `rejected`. See breakdown below. | `active` |
+| `enacted_status` | **Closed-vocab status bucket** derived from the free-text fields. One of: `active`, `extended`, `replaced`, `expired`, `rescinded`, `pending`, `rejected`, `unknown`. See breakdown below. | `active` |
 | `moratorium_id` | **Stable identifier** of the form `<state-abbrev>-<jurisdiction-slug>-<year>`, with `-pN` appended for explicitly-numbered phases (e.g., Oliver County) or `-N` appended for repeat instruments at the same jurisdiction in the same year. When no adoption year is established, the year segment is the literal `undated`. Use this column as a primary key when joining with future releases. | `mi-pittsfield-township-2025` |
 | `latitude` | WGS84 latitude of the jurisdiction's centroid. Geocoded via OSM Nominatim (with U.S. Census Geocoder fallback). For counties, the centroid is the county; for cities/towns/villages/townships, the centroid is the local government boundary. Six decimal places (~10 cm precision); blank if geocoding failed. | `42.238500` |
 | `longitude` | WGS84 longitude of the jurisdiction's centroid (see `latitude`). Negative for U.S. jurisdictions. | `-83.706940` |
@@ -51,6 +51,7 @@ This is the column most users want for filtering. The values:
 - **`expired`** — recorded term has elapsed; later actions or replacement may remain unverified
 - **`rescinded`** — documented affirmative repeal; this does not establish that the original event-based endpoint had not already occurred
 - **`rejected`** — an existing tracked proposal was explicitly denied or defeated. Retained for identity and research history; it is neither an adopted moratorium nor a pending proposal. A later distinct proposal requires its own identity review.
+- **`unknown`** — the record is retained, but independently disputed identity, adoption, or status evidence does not support any definite recorded stage. Use this for an explicit dispute, not merely because current legal force has not been exhaustively verified; retain supported historical `active` classifications.
 - **`pending`** — recorded as pending. This legacy category alone does not establish whether a vote has occurred or the current legal effect
 
 To filter to recorded active/extended classifications (not renewed legal-force findings):
@@ -158,9 +159,9 @@ Top-level keys:
 - `policy_scope_review`: additive four-way scope-review counts and explicitly labelled candidate-pool count. Raw headline totals remain historical observation counts. Only active reviewed include decisions establish scope inclusion; see the [scope export contract](policy-scope-exports.md). A scope decision does not establish current legal force or freshness.
 - `states_with_moratoria`: 47
 - `states_without_moratoria`: 3
-- `moratoria_with_verify_tags`: 784 — rows with at least one `[VERIFY]` flag remaining in any field (matches `has_verify_tags = True` in the inventory CSV)
-- `moratoria_without_verify_tags`: 546
-- `enacted_status_breakdown`: `{active, extended, replaced, expired, rescinded, pending, rejected}` — the breakdown of the 1330 working inventory rows by `enacted_status`
+- `moratoria_with_verify_tags`: 979 — rows with at least one `[VERIFY]` flag remaining in any field (matches `has_verify_tags = True` in the inventory CSV)
+- `moratoria_without_verify_tags`: 351
+- `enacted_status_breakdown`: `{active, extended, replaced, expired, rescinded, pending, rejected, unknown}` — the breakdown of the 1330 working inventory rows by `enacted_status`
 - `sweep_coverage`: which states received a systematic month-by-month sweep for the release's window, plus `swept_states_with_no_adoptions_in_window`. **Read this before interpreting a state's absence.** A state with no rows in a window may have been searched and found empty, or may never have been searched; the inventory alone cannot tell you which. Note that `swept_states_with_no_adoptions_in_window` is about the window, not the state's whole history -- Idaho appears there while still carrying a 2025 instrument. Generated from [`data/sweep_coverage.json`](../data/sweep_coverage.json)
 - `top_states_by_moratoria`: list of `{state, count}` objects, top 10 (fixed API shape; README prose includes all states tied at tenth)
 - `top_states_by_bills`: list of `[state_name, bill_count]` pairs, top 15

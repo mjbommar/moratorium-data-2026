@@ -1,5 +1,7 @@
 # Changelog
 
+The [integrated inventory batch](work/research/2026-11-08/full-inventory-integrated-application/README.md) applies 2,063 factual cells and 428 derived verification fields across 787 records after full review-return accounting. Genuine recorded-stage disputes now use `unknown`; supported historical approvals retain source-specific qualifications. Final endpoint reconciliation, consumer delivery, quality gates and release verification remain open.
+
 The [Bethel town-meeting publication](work/research/2026-11-08/bethel-town-meeting-publication/README.md) adds one official Article 3 question and one source-reported approval. There are now 57 measures, 64 retained results and 53 current observations across 52 measures. Counts, certification and operative law remain unknown for this reported approval; question-to-report correspondence is explicit inference. The frozen 56-group denominator is unchanged. All prior canonical rows are preserved.
 
 The [next 90-record batch](work/research/2026-11-08/full-inventory-next90-application/README.md) applies 143 material and six derived verification fields across 52 records. Six supported approvals move recorded classifications from pending to active: 1,085 active/extended, 72 pending, 172 past and one rejected proposal. Unknown force, effective dates and Dover’s conflicting index remain explicit. Verification-marked rows are 784. All IDs are retained; the full refresh remains in progress.
@@ -196,10 +198,10 @@ These are inventory classifications, not independently renewed legal-force findi
 | Metric | Current |
 |---|---:|
 | Moratoria in the list | **1330** |
-| Classified active or extended | **1085** |
-| Pending or not yet effective | **72** |
-| Ended (replaced, expired, or rescinded) | **172** |
-| Rows we still want to confirm (`[VERIFY]`) | **784** |
+| Classified active or extended | **1089** |
+| Pending or not yet effective | **64** |
+| Ended (replaced, expired, or rescinded) | **171** |
+| Rows we still want to confirm (`[VERIFY]`) | **979** |
 | States with at least one | **47** |
 
 At the earlier Alabama checkpoint, totals were 1,330 local records (1,079 active/extended classifications),

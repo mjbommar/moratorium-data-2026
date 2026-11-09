@@ -46,7 +46,7 @@ JURISDICTION_TYPES = {
     "Aggregate meta-row",
 }
 ACTIVITY_LEVELS = {"None", "Low", "Medium", "High"}
-ENACTED_STATUSES = {"active", "extended", "replaced", "expired", "rescinded", "pending", "rejected"}
+ENACTED_STATUSES = {"active", "extended", "replaced", "expired", "rescinded", "pending", "rejected", "unknown"}
 DATE_UNCERTAINTY = {"exact", "month_only", "year_only", "range", "unverified"}
 DURATION_KINDS = {"fixed_days", "calendar_term", "until_date", "until_event", "indefinite", "unknown"}
 SECTORS = {"data_center", "battery_storage", "solar", "wind", "cryptocurrency_mining", "general"}
@@ -276,9 +276,9 @@ def check_inventory(rows: list[dict], fieldnames: list[str], today: dt.date, rep
                 if prec == "day" and unc in {"month_only", "year_only"}:
                     rep.error("date.precision", f"{where}: day-precision date but uncertainty={unc}")
         else:
-            # No ISO date is expected for pending instruments.
-            if row["enacted_status"] not in {"pending", "rejected"}:
-                rep.warn("date.missing", f"{where}: no date_enacted_iso on a non-pending row")
+            # Adoption dates may be absent for pending, rejected, or disputed records.
+            if row["enacted_status"] not in {"pending", "rejected", "unknown"}:
+                rep.warn("date.missing", f"{where}: no date_enacted_iso on a row with a recorded adopted status")
 
         current_end = row["current_end_date_iso"].strip()
         if current_end:

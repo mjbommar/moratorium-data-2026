@@ -1,6 +1,7 @@
 import csv
 import datetime as dt
 import importlib.util
+import re
 from pathlib import Path
 import unittest
 
@@ -18,7 +19,7 @@ class CalendarTerms(unittest.TestCase):
             reader=csv.DictReader(f);fields=reader.fieldnames
             row=next(reader)
         row.update(duration_kind='calendar_term',duration_days='',current_end_date_iso='')
-        for status in ('active','extended','replaced','expired','rescinded','pending','rejected'):
+        for status in ('active','extended','replaced','expired','rescinded','pending','rejected','unknown'):
             row['enacted_status']=status
             report=validate.Report()
             validate.check_inventory([row],fields,dt.date(2026,11,5),report)
@@ -42,7 +43,34 @@ class CalendarTerms(unittest.TestCase):
     def test_rejected_proposal_is_separate_in_state_counts(self):
         rows=[{'enacted_status':s}for s in validate.ENACTED_STATUSES]
         counts=state_pages.counts_for(rows)
-        self.assertEqual(counts,dict(in_force=2,pending=1,past=3,rejected=1,total=7))
+        self.assertEqual(counts,dict(in_force=2,pending=1,past=3,rejected=1,unknown=1,total=8))
+
+    def test_disputed_unknown_without_adoption_date_and_constraints(self):
+        with (ROOT/'data/moratorium_inventory.csv').open() as f:
+            reader=csv.DictReader(f); fields=reader.fieldnames; row=next(reader)
+        row.update(enacted_status='unknown', date_enacted_iso='',
+                   date_enacted_uncertainty='unverified', duration_kind='calendar_term',
+                   duration_days='', current_end_date_iso='')
+        report=validate.Report()
+        validate.check_inventory([row],fields,dt.date(2026,11,5),report)
+        self.assertFalse(any(code=='vocab.enacted_status' for code,_ in report.errors))
+        self.assertFalse(any(code=='date.missing' for code,_ in report.warnings))
+        row.update(duration_days='30', current_end_date_iso='2026-99-99')
+        report=validate.Report()
+        validate.check_inventory([row],fields,dt.date(2026,11,5),report)
+        self.assertTrue({'duration.kind','date.current_end_parse'} <= {code for code,_ in report.errors})
+
+    def test_unknown_map_filter_is_separate_and_in_all(self):
+        html=(ROOT/'index.html').read_text()
+        block=html.split('var FILTER_GROUPS = {',1)[1].split('};',1)[0]
+        groups={name: re.findall(r"'([^']+)'", values) for name,values in
+                re.findall(r"'([^']+)':\s*\[([^]]*)\]", block)}
+        self.assertIn('data-filter="unknown"',html)
+        self.assertEqual(groups['unknown'],['unknown'])
+        self.assertEqual(set(groups['all']),validate.ENACTED_STATUSES)
+        for group in ('in-force','pending','past','rejected'):
+            self.assertNotIn('unknown',groups[group])
+        self.assertEqual(set().union(*(set(groups[g]) for g in ('in-force','pending','past','rejected','unknown'))),set(groups['all']))
 
     def test_unknown_extension_endpoint_does_not_reuse_original_expiry(self):
         row={'enacted_status':'extended','duration_kind':'fixed_days','duration_days':'45',

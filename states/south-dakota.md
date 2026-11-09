@@ -3,7 +3,7 @@
 
 Working inventory for South Dakota, generated **November 8, 2026**. Record-level refresh and later-action review remain incomplete.
 
-**4 records** — 4 classified as active or extended, 0 classified as pending, 0 classified as past, 0 classified as rejected proposals.
+**4 records** — 4 classified as active or extended, 0 classified as pending, 0 classified as past, 0 classified as rejected proposals, 0 classified as unknown.
 
 These counts reflect inventory classifications and do not establish current enforceability.
 
@@ -11,7 +11,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 
 | Jurisdiction | Type | Enacted | Sectors | Recorded status |
 |---|---|---|---|---|
-| Aberdeen | City | 2026-07-20 | data center | 🟢 Extended |
+| Aberdeen | City | 2026-07-20 | data center, cryptocurrency mining | 🟢 Extended |
 | Pennington County | County | 2024-11-19 | wind, solar | 🟢 Active |
 | Turner County | County | 2025-08-26 | wind, solar | 🟢 Extended |
 | Yankton County | County | 2026-07-21 | data center, cryptocurrency mining | 🟢 Active |
@@ -26,7 +26,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 - **Normalized date:** `2026-07-20` (exact)
 - **Duration:** Extended by Resolution 26-10-01R to 12:01 a.m. local time July 1, 2027, or the earlier effective date of an ordinance amending the zoning regulations to regulate data centers.
 - **Current end date:** `2027-07-01`
-- **Sectors:** data center
+- **Sectors:** data center, cryptocurrency mining
 - **Moratorium ID:** `sd-aberdeen-2026`
 - **Legal basis:** Resolution No. 26-07-04R adopted July 20, 2026, as amended by Resolution No. 26-10-01R adopted October 19, 2026.
 - **What prompted it:** City's current zoning/building regulations and staff may not adequately address data centers; council found officials 'hampered' in assessing permit applications, creating unpredictability and risk of stranded investment pending a comprehensive study
@@ -40,7 +40,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 - **Recorded status:** 🟢 Active
 - **Date enacted:** 2024-11-19 (Board of Commissioners unanimous vote); effective 2024-12-12; extended one additional year by unanimous vote on 2025-10-21
 - **Normalized date:** `2024-11-19` (exact)
-- **Duration:** One year from its December 12, 2024 effective date; extended unanimously on October 21, 2025 through November 18, 2026
+- **Duration:** Original Ordinance 741 specified expiration November 18, 2025 unless extended and took effect on completed publication. The board voted unanimously October 21, 2025 to extend it; the August 25, 2026 Rapid City Journal reported an end date of November 18, 2026. The adopted extension text has not been verified.
 - **Current end date:** `—`
 - **Sectors:** wind, solar
 - **Moratorium ID:** `sd-pennington-county-2024`
@@ -48,7 +48,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 - **What prompted it:** More than 450 citizens petitioned for a moratorium after the Planning and Zoning Commission approved conditional-use permits (2024-10-28) for the Cheyenne River Ranch Wind and Solar Farm near New Underwood
 - **Affected projects:** Cheyenne River Ranch Wind and Solar Farm (7 miles south of New Underwood, 30 miles southeast of Rapid City), which received conditional-use permit approval October 28, 2024 that triggered the petition and moratorium.
 - **Detailed status:** Active as of 2026-09-23. Pennington County's temporary zoning moratorium on utility-scale wind and solar development (enacted unanimously November 19, 2024, effective December 12, 2024, after 450+ citizens petitioned against the Cheyenne River Ranch Wind and Solar Farm's conditional-use permits) was extended unanimously by the Board of Commissioners on October 21, 2025 through November 18, 2026, to give an alternative-energy task force (formed March 2025) and the Planning Commission time to finish a consolidated ordinance amending zoning Section 3-17. A related but legally separate zoning-ordinance amendment permanently barring utility-scale wind and solar from agricultural (non-industrial) land passed its second and final reading 3-2 on August 18, 2026, after a multi-month back-and-forth (first reading May 19, 2026; delayed multiple times); commissioners indicated the moratorium could be lifted early once the Planning Commission's consolidated ordinance is finalized.
-- **Outcome:** Extended by unanimous vote (moved by Commissioner Durr, seconded by Commissioner Rosknecht) at the October 21, 2025 Board of Commissioners meeting.
+- **Outcome:** Extended by unanimous vote on October 21, 2025 (moved by Commissioner Derr, seconded by Commissioner Hadcock).
 
 ### Turner County
 
@@ -78,7 +78,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 - **Moratorium ID:** `sd-yankton-county-2026`
 - **Legal basis:** Yankton County Resolution No. 26-7, 'Resolution Establishing a Temporary Moratorium on the Acceptance of Applications, or Issuing of Permits, for Approval of Building, Planning or Use Permits for Data Collection/Storage/Processing or Bitcoin Mining Facilities Exceeding a Power Capacity of 250 kW,' passed and approved 5-0 on July 21, 2026
 - **What prompted it:** Concern about incoming data center and Bitcoin mining facility proposals; commission wants time to draft permanent siting standards
-- **Affected projects:** None named; general countywide pause on new data center and greater-than-250kW Bitcoin mining permits and applications.
+- **Affected projects:** None named; resolution addresses applications and permits for data centers or Bitcoin mining facilities exceeding a power capacity of 250 kW. Whether the threshold qualifies both categories requires interpretation.
 - **Detailed status:** Published Resolution 26-7 records July 21, 2026 passage, 5-0, immediate effect after passage and approval, and six consecutive months unless extended. The unsupported 180-day conversion and January 17 endpoint are cleared. No independently verified later-action or current-force conclusion. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** Enacted six-month moratorium after an initial motion for a 12-month term failed for lack of a second.
 

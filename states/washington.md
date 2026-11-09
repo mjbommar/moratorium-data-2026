@@ -3,7 +3,7 @@
 
 Working inventory for Washington, generated **November 8, 2026**. Record-level refresh and later-action review remain incomplete.
 
-**43 records** — 30 classified as active or extended, 0 classified as pending, 13 classified as past, 0 classified as rejected proposals.
+**43 records** — 31 classified as active or extended, 0 classified as pending, 12 classified as past, 0 classified as rejected proposals, 0 classified as unknown.
 
 These counts reflect inventory classifications and do not establish current enforceability.
 
@@ -15,7 +15,7 @@ State policy is tracked separately: **5 records** (5 typed bill rows) in [`state
 | Bonney Lake | City | 2026-04-14 | battery storage | 🟢 Active |
 | Burien | City | 2026-06-29 | data center | 🟢 Active |
 | City of Chelan | City | 2018-04-24 | cryptocurrency mining | ⚪ Expired |
-| City of Cheney | City | 2018-04-21 | cryptocurrency mining | ⚪ Expired |
+| City of Cheney | City | 2018-04-24 | cryptocurrency mining | ⚪ Expired |
 | City of East Wenatchee | City | 2018-03-27 | data center, cryptocurrency mining | ⚪ Replaced |
 | City of Entiat | City | 2018-03-08 | cryptocurrency mining | ⚪ Expired |
 | City of Ephrata | City | 2018-10-17 | cryptocurrency mining | ⚪ Replaced |
@@ -35,7 +35,7 @@ State policy is tracked separately: **5 records** (5 typed bill rows) in [`state
 | Lincoln County | County | 2026-09-08 | data center, battery storage | 🟢 Active |
 | Marysville | City | 2026-07-13 | data center | 🟢 Active |
 | Mount Vernon | City | 2025-05-28 | battery storage | 🟢 Extended |
-| Mount Vernon | City | 2026-08-12 | data center | 🟢 Active |
+| Mount Vernon | City | 2026-08-12 | data center | 🟢 Extended |
 | North Bend | City | 2026-05-19 | battery storage | 🟢 Active |
 | Pasco | City | 2026-07-20 | data center, cryptocurrency mining | 🟢 Active |
 | Pierce County | County | 2026-08-25 | data center | 🟢 Active |
@@ -45,13 +45,13 @@ State policy is tracked separately: **5 records** (5 typed bill rows) in [`state
 | Renton | City | 2026-08-17 | data center | 🟢 Active |
 | Skagit County | County | 2024-09-23 | battery storage | ⚪ Expired |
 | Skagit County | County | 2026-06-01 | data center | 🟢 Active |
-| Skamania County | County | 2026-08-18 | data center | 🟢 Active |
+| Skamania County | County | 2026-08-18 | data center | 🟢 Extended |
 | Snohomish County | County | 2026-06-24 | data center | 🟢 Active |
 | Snoqualmie | City | 2026-05-26 | battery storage | 🟢 Active |
 | Spokane | City | 2026-06-22 | data center | 🟢 Active |
 | Spokane County | County | 2026-08-18 | data center | 🟢 Active |
 | Spokane Valley | City | 2026-02-03 | battery storage | 🟢 Active |
-| Town of Waterville | Town | 2018 | cryptocurrency mining | ⚪ Replaced |
+| Town of Waterville | Town | 2018 | cryptocurrency mining | 🟢 Active |
 | Whitman County | County | 2025-05-05 | wind, solar, battery storage | ⚪ Expired |
 | Yakima County | County | 2026-08-11 | data center | 🟢 Active |
 
@@ -86,7 +86,7 @@ State policy is tracked separately: **5 records** (5 typed bill rows) in [`state
 - **Legal basis:** Ordinance 1754 (agenda bill AB26-33)
 - **What prompted it:** Candidate BESS site near police/fire stations and residences; groundwater/fire-runoff concerns near Granger Springs wells
 - **Affected projects:** None named; preemptive
-- **Detailed status:** Active as of 2026-09-23 (six-month term runs to Oct. 11, 2026); carina lists an Aug. 14, 2026 expiry that does not match the reported April 14, 2026 adoption date and appears to be a tracker error.
+- **Detailed status:** The city notice states Ordinance 1754 was adopted and effective on 2026-04-14 for an initial six-month moratorium. The notice does not establish the precise termination date or later extension or replacement. A third-party indexed lead suggests a later Ordinance 1763, but its adopted text and relationship to this moratorium remain unverified. An earlier tracker listed 2026-08-14 as an expiry; that date conflicts with the notice’s six-month term. [VERIFY later action and actual end date]
 - **Outcome:** Staff and Community Development Committee to develop BESS siting regulations before expiry
 
 ### Burien
@@ -125,8 +125,8 @@ State policy is tracked separately: **5 records** (5 typed bill rows) in [`state
 
 - **Type:** City
 - **Recorded status:** ⚪ Expired
-- **Date enacted:** 2018-04-21 (passed by City Council; effective immediately as a public-emergency ordinance per RCW 35A.11.090(2))
-- **Normalized date:** `2018-04-21` (exact)
+- **Date enacted:** 2018-04-24 (passed by City Council; effective immediately as a public-emergency ordinance per RCW 35A.11.090(2))
+- **Normalized date:** `2018-04-24` (exact)
 - **Duration:** Six months, 2018-04-24 to 2018-10-24 (Ordinance X-27, Section on Term)
 - **Current end date:** `—`
 - **Sectors:** cryptocurrency mining
@@ -214,7 +214,7 @@ State policy is tracked separately: **5 records** (5 typed bill rows) in [`state
 - **Legal basis:** Ordinance 2899 (interim provisions; "Repealed by 2900"); Ordinance 2900 (moratorium on cryptocurrency mining, server farms, and data centers; repealed Ordinance 2899); RCW 35A.63.220 and statutory 60-day public hearing requirement noted by Columbia Basin Herald
 - **What prompted it:** City received inquiries for cryptocurrency operations; local report cited seven known operations (four unpermitted), a recent fire tied to an unpermitted Central Business District operation, residential-zone complaints, and absence of zoning-code treatment
 - **Affected projects:** Seven known cryptocurrency operations reported; properly permitted/vested operations were not affected
-- **Detailed status:** The municipal legislative-history page for Ordinance 2899 dates adoption May 22, 2018 and reports repeal by Ordinance 2900. Contemporary news describes an initial term up to twelve months. The successor instrument and final disposition of the restriction remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
+- **Detailed status:** The municipal legislative-history page dates Ordinance 2899 to May 22, 2018 and reports its repeal by Ordinance 2900; contemporary news describes an initial term up to twelve months with exceptions for industrial zones. An indexed excerpt of the city’s June 18 ordinance summary reports that Ordinance 2900 was adopted June 12, 2018, immediately replacing 2899 with a one-year moratorium. A separate indexed June 15 news report says the successor covered all city zones. The full successor instrument and final disposition remain unresolved. [VERIFY: successor instrument and its operative provisions.]
 - **Outcome:** Permanent code now regulates cryptocurrency mining operations, server farms, and data centers under Moses Lake Municipal Code Chapter 15.615
 
 ### City of Seattle
@@ -271,14 +271,14 @@ State policy is tracked separately: **5 records** (5 typed bill rows) in [`state
 - **Recorded status:** 🟢 Extended
 - **Date enacted:** 2024-05-14 (original 12-month BESS moratorium, Ordinance No. 07-2024); renewed six months at a time by Ordinance No. 03-2025, No. 09-2025, and most recently No. 02-2026 (adopted 2026-04-14); Ordinance No. 09-2026 adopted 2026-10-27, effective 2026-11-07.
 - **Normalized date:** `2024-05-14` (exact)
-- **Duration:** Ordinance 02-2026 states six months from April 25 effectiveness; Ordinance 09-2026 renews for six months from November 7 effectiveness unless earlier repealed, renewed or modified. Applicability at the November 5 cutoff unresolved.
-- **Current end date:** `2026-10-25`
+- **Duration:** Ordinance 02-2026 states six months from April 25 effectiveness; Ordinance 09-2026 renews for six months from November 7 effectiveness unless earlier repealed, renewed or modified. Continuity across the intervening period and later action remain unresolved.
+- **Current end date:** `—`
 - **Sectors:** battery storage
 - **Moratorium ID:** `wa-covington-2024`
 - **Legal basis:** Covington Ordinance No. 07-2024 (2024-05-14, original 12-month BESS moratorium under RCW 35A.63.220/36.70A.390), renewed by Ordinance No. 03-2025, No. 09-2025, and most recently No. 02-2026 (adopted 2026-04-14, six-month renewal with public hearing held the same day); Ordinance 09-2026, adopted 2026-10-27 and effective 2026-11-07, renews Ordinance 02-2026.
 - **What prompted it:** BESS facilities present fire, explosion, hazardous-chemical, noise, visual, and wildlife-impact risks not addressed by the City's outdated 'Utility Facility' zoning definition (CMC 18.20.050/18.125.040); City wants to align with King County's BESS siting standards and Dept. of Ecology guidance before permitting such facilities
 - **Affected projects:** Not identified; moratorium is preemptive/study-driven rather than tied to a specific pending project
-- **Detailed status:** Ordinance 02-2026 states April 25 effectiveness and a six-month term. Signed Ordinance 09-2026 records October 27 adoption, November 2 publication and November 7 effectiveness, renewing for six months from that date unless earlier repealed, renewed or modified. The renewal is not yet effective at the November 5 cutoff. Any intervening restriction, continuity and current force remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
+- **Detailed status:** Ordinance 02-2026 states April 25 effectiveness and a six-month term. Signed Ordinance 09-2026 records October 27 adoption, November 2 publication and November 7 effectiveness, renewing for six months from that date unless earlier repealed, renewed or modified. Its stated effective date has arrived at the fixed November 7 event cutoff. Any intervening restriction, continuity, subsequent action and current legal force remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** The City adopted Ordinance 09-2026 on October 27, 2026, to renew Ordinance 02-2026 for six months from its November 7, 2026 effective date. Continuity across the intervening period has not been established.
 
 ### Douglas County
@@ -357,8 +357,8 @@ State policy is tracked separately: **5 records** (5 typed bill rows) in [`state
 - **Moratorium ID:** `wa-kitsap-county-2025`
 - **Legal basis:** Kitsap County Ordinance No. 639-2025 (adopted 2025-06-11, 365-day BESS application moratorium under RCW 36.70.795/36.70A.390), extended 180 days by Ordinance No. 645-2026 (following a public hearing held 2026-05-11)
 - **What prompted it:** Increased developer requests to site BESS facilities countywide; County zoning code does not contemplate BESS development or ensure adequate protections; County wants to complete workplan studies (fire, noise, wildlife, Dept. of Ecology guidance, HB 1216/WAC 51.54A.0322 compliance) before adopting permanent regulations
-- **Affected projects:** Not identified
-- **Detailed status:** Active as of 2026-09-23. Moratorium on new BESS facility applications in unincorporated Kitsap County, originally adopted 2025-06-11 (365 days) and extended 180 days by Ordinance No. 645-2026 following a 2026-05-11 public hearing; runs through approximately 2026-12-08 absent further extension or the adoption of permanent regulations.
+- **Affected projects:** DCD reported a 170 MW BESS application in north Kitsap in mid-2024 that prompted the moratorium; the retained briefing does not establish whether that pre-existing application is subject to the moratorium.
+- **Detailed status:** Ordinance 645-2026, adopted May 11, 2026, extended the June 11, 2025 BESS application moratorium by 180 days from June 10 to December 7, 2026, unless terminated sooner or further extended. At the October 20, 2026 planning commission briefing, DCD reported requesting a second six-month extension; the briefing does not establish that it was adopted.
 - **Outcome:** Kitsap County Board of Commissioners adopted a 365-day BESS moratorium (Ordinance No. 639-2025) on 2025-06-11, later extended 180 days by Ordinance No. 645-2026.
 
 ### Kittitas County
@@ -368,7 +368,7 @@ State policy is tracked separately: **5 records** (5 typed bill rows) in [`state
 - **Date enacted:** 2026-08-10, Board of County Commissioners approved (2-0, one commissioner absent) an emergency six-month moratorium on data center applications by resolution; extended a further six months following a 2026-09-15 public hearing
 - **Normalized date:** `2026-08-10` (exact)
 - **Duration:** Originally six months; extended an additional six months on/around 2026-09-15 (approximately one year total)
-- **Current end date:** `2027-08-10`
+- **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `wa-kittitas-county-2026`
 - **Legal basis:** Kittitas County Board of Commissioners resolution, adopted 2026-08-10, imposing an emergency six-month moratorium on acceptance/processing/review/approval of data center land-use applications in unincorporated Kittitas County under RCW 36.70A.390; extended an additional six months by a further resolution following a 2026-09-15 public hearing and five-page work plan (through September 2027)
@@ -381,13 +381,13 @@ State policy is tracked separately: **5 records** (5 typed bill rows) in [`state
 
 - **Type:** Town
 - **Recorded status:** 🟢 Active
-- **Date enacted:** 2026-07-28, Town Council unanimous vote adopting an emergency moratorium (likely Ordinance No. 1274, per the ordinance-number tracker shown on the July 28, 2026 council agenda; the draft ordinance text itself left the number blank)
+- **Date enacted:** 2026-07-28, Town Council unanimous vote adopting emergency Ordinance No. 1274, effective immediately.
 - **Normalized date:** `2026-07-28` (exact)
 - **Duration:** The ordinance imposes an immediate six-month moratorium. Subject to its hearing and findings condition, section 4 refers to six months after adoption or completion of the listed tasks, whichever is sooner; the Council decides termination by ordinance and termination is not otherwise presumed.
 - **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `wa-la-conner-2026`
-- **Legal basis:** La Conner Town Council emergency ordinance (likely No. 1274) adopted 2026-07-28 under RCW 35.63.200 and RCW 36.70A.390, effective immediately
+- **Legal basis:** La Conner Town Council emergency Ordinance No. 1274 adopted 2026-07-28 under RCW 35.63.200 and RCW 36.70A.390, effective immediately
 - **What prompted it:** Town lacks guidelines/policies addressing data centers' large-scale water and electricity use, which could strain public infrastructure, deplete water resources during drought, and constrain industrial growth/climate resilience; adopted following Skagit County's June 2026 moratorium
 - **Affected projects:** None proposed as of adoption
 - **Detailed status:** The ordinance imposes an immediate six-month moratorium. Section 4, conditioned on hearing and supporting findings, refers to six months after adoption or completion of listed tasks, whichever is sooner, with termination by council ordinance and not otherwise presumed. It does not establish an unconditional six-month minimum. Hearing outcome, operative interval and later force remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
@@ -399,7 +399,7 @@ State policy is tracked separately: **5 records** (5 typed bill rows) in [`state
 - **Recorded status:** 🟢 Active
 - **Date enacted:** Adopted by the Board of County Commissioners on September 8, 2026.
 - **Normalized date:** `2026-09-08` (exact)
-- **Duration:** Six months from adoption unless repealed or changed
+- **Duration:** Six-month emergency moratorium; the retained county clerk summary does not establish the operative starting date or early-termination provisions.
 - **Current end date:** `—`
 - **Sectors:** data center, battery storage
 - **Moratorium ID:** `wa-lincoln-county-2026`
@@ -438,13 +438,13 @@ State policy is tracked separately: **5 records** (5 typed bill rows) in [`state
 - **Legal basis:** Mount Vernon Ordinance No. 3913 (2025-05-28), an emergency moratorium on accepting permits to construct/site/develop grid-scale battery energy storage systems, continued and ratified by Ordinance No. 3915 (2025-07-23) for a maximum of one year from Ordinance 3913's adoption; renewed for a further six months by Ordinance No. 3940, adopted 2026-05-27 (public hearing held the same day), extending the moratorium through approximately 2026-11-27
 - **What prompted it:** City lacked siting criteria/safety standards/emergency-response requirements for grid-scale BESS; concern over lithium-ion fire and thermal-runaway risk, noise, and aesthetic compatibility with residential/retail zones
 - **Affected projects:** Not identified
-- **Detailed status:** Active as of 2026-09-23. The BESS permit-application moratorium first adopted via Ordinance 3913 (2025-05-28) and continued via Ordinance 3915 (2025-07-23) was renewed for a further six months by Ordinance No. 3940, adopted 2026-05-27 following a public hearing held the same day; runs through approximately 2026-11-27 absent further renewal or the adoption of permanent BESS regulations, which the City is still developing.
+- **Detailed status:** The BESS permit-application moratorium first adopted through Ordinance 3913 (2025-05-28) and continued by Ordinance 3915 (2025-07-23) was renewed by Ordinance 3940 on May 27, 2026 for a maximum six months; the municipal index states an end of November 27, 2026. A November 5 indexed public-notice excerpt describes a proposed further renewal and a hearing scheduled for November 12, 2026. The notice does not establish that the hearing occurred or the renewal was adopted.
 - **Outcome:** Mount Vernon City Council adopted an emergency BESS moratorium (Ordinance 3913) on 2025-05-28, continued it via Ordinance 3915 (2025-07-23) for up to one year, and renewed it for a further six months via Ordinance 3940 (adopted 2026-05-27); the moratorium remains in force through approximately 2026-11-27.
 
 ### Mount Vernon
 
 - **Type:** City
-- **Recorded status:** 🟢 Active
+- **Recorded status:** 🟢 Extended
 - **Date enacted:** 2026-08-12, City Council vote (one dissent) for a six-month moratorium, Ordinance No. 3943
 - **Normalized date:** `2026-08-12` (exact)
 - **Duration:** Ordinance 3943 established a six-month moratorium. The September 23 minutes describe an additional six months, but the Ordinance 3946 packet text specifies a maximum of six months from adoption of Ordinance 3943; the applicable end remains unresolved.
@@ -454,7 +454,7 @@ State policy is tracked separately: **5 records** (5 typed bill rows) in [`state
 - **Legal basis:** Mount Vernon Ordinance No. 3943 adopted August 12, 2026 imposed a data-center permit application moratorium; the council adopted Ordinance No. 3946 on September 23, 2026 continuing it. The packet text and minutes differ on the term anchor.
 - **What prompted it:** Concerns over electricity and water demand, city capacity to accommodate large facilities, stormwater/sewer planning, and the city's location within the Skagit River 100-year floodplain
 - **Affected projects:** None proposed as of adoption; future data center permit applications citywide
-- **Detailed status:** September 23 minutes record Ordinance 3946 adoption 7-0 and describe an additional six months. The unexecuted packet text instead specifies a maximum six months from adoption of Ordinance 3943 and also includes legislative-process/termination provisions. Final executed wording, term anchor, operative interval and later force remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
+- **Detailed status:** September 23 minutes record Ordinance 3946 adoption 7-0 and describe an additional six months. The unexecuted packet text instead specifies a maximum six months from adoption of Ordinance 3943 and also includes legislative-process/termination provisions. The municipal new-laws index lists an expiration of March 23, 2027 for Ordinance 3946, but also contains an apparent erroneous 2026 expiration for Ordinance 3943. Final executed wording, term anchor, operative interval and later force remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** Mount Vernon City Council adopted a six-month moratorium on data center permit applications via Ordinance No. 3943 on 2026-08-12, following Skagit County (June 2026) and La Conner (July 2026).
 
 ### North Bend
@@ -468,8 +468,8 @@ State policy is tracked separately: **5 records** (5 typed bill rows) in [`state
 - **Sectors:** battery storage
 - **Moratorium ID:** `wa-north-bend-2026`
 - **Legal basis:** North Bend City Council ordinance, adopted 2026-05-19, enacting a 12-month moratorium on acceptance/processing/approval of BESS-related land development applications
-- **What prompted it:** Opposition to Jupiter Power's proposed 130 MW BESS facility near Fisher Creek Park, within North Bend's/Snoqualmie's urban growth area (sited in unincorporated King County); Council also authorized a formal objection letter to the Washington Utilities and Transportation Commission
-- **Affected projects:** Jupiter Power's proposed 130 MW battery energy storage facility near Fisher Creek Park (sited in unincorporated King County within North Bend's/Snoqualmie's urban growth area, so not directly covered by the moratorium itself)
+- **What prompted it:** Opposition to Jupiter Power's proposed 130 MW BESS facility near Fisher Creek Park, within Snoqualmie's urban growth area (sited in unincorporated King County); Council also authorized a formal objection letter to the Washington Utilities and Transportation Commission
+- **Affected projects:** Jupiter Power's proposed 130 MW battery energy storage facility near Fisher Creek Park (sited in unincorporated King County within Snoqualmie's urban growth area, so not directly covered by the moratorium itself)
 - **Detailed status:** The city announcement reports unanimous May 19 adoption of a twelve-month BESS moratorium within city limits. Its separate objection to a proposed facility in unincorporated King County does not extend the moratorium jurisdiction. Final operative wording and later force remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** North Bend City Council unanimously adopted a 12-month BESS moratorium on 2026-05-19.
 
@@ -479,7 +479,7 @@ State policy is tracked separately: **5 records** (5 typed bill rows) in [`state
 - **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-07-20, City Council unanimously (6-0) adopted emergency Ordinance No. 4850
 - **Normalized date:** `2026-07-20` (exact)
-- **Duration:** Six-month (180-day) moratorium from adoption of emergency Ordinance No. 4850 on 2026-07-20; a required public hearing was held within 60 days, on 2026-09-08, with no formal extension vote taken
+- **Duration:** Six-month moratorium effective upon adoption of emergency Ordinance No. 4850 on 2026-07-20. An earlier review attributed a September 8 public hearing and no formal extension vote to contemporaneous reporting; that reporting was not independently inspected in this pass.
 - **Current end date:** `2027-01-20`
 - **Sectors:** data center, cryptocurrency mining
 - **Moratorium ID:** `wa-pasco-undated`
@@ -518,7 +518,7 @@ State policy is tracked separately: **5 records** (5 typed bill rows) in [`state
 - **Legal basis:** City Council resolution (no number reported), Sept. 1, 2026
 - **What prompted it:** Council concern over water, power, noise and environmental effects of data centers; no application had been filed
 - **Affected projects:** None; no data center applications filed as of adoption
-- **Detailed status:** October 30 news reports September 1 adoption of a six-month moratorium and a September 15 council hearing, correcting the stale September 16 account. Proposed regulations and scheduled later readings are not final adoption. Original instrument, exact operative interval and later current force remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
+- **Detailed status:** October 30 news reports September 1 adoption of a six-month moratorium, a September 15 council hearing, and a scheduled expiration of February 28, 2027. Proposed regulations and scheduled later readings are not final adoption. Original instrument, exact operative interval and later current force remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** Staff directed to return with permanent regulations within the moratorium term
 
 ### Puyallup
@@ -559,14 +559,14 @@ State policy is tracked separately: **5 records** (5 typed bill rows) in [`state
 - **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-08-17, City Council unanimous vote approving a one-year moratorium (city administration had been directed to begin drafting it by a June 1, 2026 council motion)
 - **Normalized date:** `2026-08-17` (exact)
-- **Duration:** Up to one year (365 days) from the effective date
+- **Duration:** Up to one year from the effective date
 - **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `wa-renton-2026`
-- **Legal basis:** City of Renton moratorium ordinance, adopted 2026-08-17 under RCW 36.70A.390
+- **Legal basis:** City of Renton data-center moratorium, approved 2026-08-17 according to Renton Reporter; the city’s August 17 agenda identifies the proposed instrument as Ordinance No. 6200 under RCW 36.70A.390.
 - **What prompted it:** Community concern about AI-driven data center growth's impacts on electrical/water utility capacity, utility rates, land use, traffic, noise, air quality from backup generation, and public infrastructure; originated with Councilmember Kim-Khanh Van's June 1, 2026 motion
 - **Affected projects:** New or expanded large data center siting citywide; no specific proposed project identified in reporting
-- **Detailed status:** Active as of 2026-09-23. Moratorium on filing, acceptance, processing, and approval of applications/permits for the siting, establishment, or expansion of large data centers, adopted 2026-08-17 for up to one year; does not apply to applications pending before the effective date or to maintenance/repair of existing facilities that do not expand footprint or utility capacity.
+- **Detailed status:** Renton Reporter reported that the council unanimously approved a moratorium on applications and permits for the siting, establishment, or expansion of large data centers on 2026-08-17 for up to one year. The city’s October 5 agenda listed a hearing on the moratorium; the retained agenda does not establish its outcome. Previously attributed exceptions for pre-effective-date applications and maintenance or repair without expansion remain reported. [VERIFY: enacted ordinance, effective anchor, hearing outcome, later action and current force.]
 - **Outcome:** Renton City Council unanimously approved a one-year moratorium on large data centers on 2026-08-17, following a June 1, 2026 council motion directing staff to begin drafting it.
 
 ### Skagit County
@@ -579,7 +579,7 @@ State policy is tracked separately: **5 records** (5 typed bill rows) in [`state
 - **Current end date:** `—`
 - **Sectors:** battery storage
 - **Moratorium ID:** `wa-skagit-county-2024`
-- **Legal basis:** Interim Ordinance (Ordinance #O20240073 per staff report)
+- **Legal basis:** Interim ordinance imposing a moratorium on major electrical generation or storage applications on Ag-NRL land: the signed September 23, 2024 image header was read as O20240007; the existing staff-report attribution gives O20240073. The identifier discrepancy remains unresolved.
 - **What prompted it:** Board concern that a proposed new Ag-NRL energy-facility ordinance could trigger a rush of permit applications on Skagit farmland
 - **Affected projects:** None named at adoption; precautionary, ahead of anticipated permit rush
 - **Detailed status:** The signed September 23, 2024 copy states six months, immediate effect upon passage and possible six-month renewals after hearings/findings. It concerns major-utility electrical generation or storage applications on Ag-NRL lands, with vested applications excepted. The image header reads O20240007, differing from the legacy instrument number; authoritative index reconciliation and later disposition remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
@@ -598,23 +598,23 @@ State policy is tracked separately: **5 records** (5 typed bill rows) in [`state
 - **Legal basis:** Board of County Commissioners action under RCW 36.70A.390 (interim zoning control); public hearing held 2026-07-14
 - **What prompted it:** Concerns about protecting farmland and water resources in unincorporated Skagit County from large-scale data center development
 - **Affected projects:** Facilities larger than 2,000 square feet or with an anticipated electrical load of 2 megawatts or greater.
-- **Detailed status:** The original ordinance states immediate effect upon passage and six months, with renewal permitted after a subsequent hearing and findings and an exception for vested applications. Later renewal, replacement, operative interval and current force remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
+- **Detailed status:** The original ordinance states immediate effect upon June 1, 2026 passage and six months, with renewal permitted after a subsequent hearing and findings and an exception for vested applications. July 14 county minutes document a hearing and an official’s expectation of expiration in December 2026 unless extended; that forecast does not establish a later renewal. Later renewal, replacement, operative interval and current force remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** Temporary ban on data centers in unincorporated Skagit County while the county considers longer-term regulation.
 
 ### Skamania County
 
 - **Type:** County
-- **Recorded status:** 🟢 Active
+- **Recorded status:** 🟢 Extended
 - **Date enacted:** 2026-08-18, Board of Commissioners adopted Resolution 2026-22 (unanimous), after first approving it by motion earlier in the same meeting
 - **Normalized date:** `2026-08-18` (exact)
-- **Duration:** Six months (the default term under RCW 36.70A.390 absent a work plan for a longer period; the Board was told at adoption that the moratorium 'lasts... six months, with another hearing to continue it')
+- **Duration:** Resolution 2026-22 does not specify an original term. The Board was told at adoption that a moratorium lasts six months with a hearing to continue it. An October 28 local news report reports an October 13 hearing and a 180-day extension; the published-minutes excerpt did not state an end date.
 - **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `wa-skamania-county-2026`
 - **Legal basis:** Skamania County Resolution 2026-22, 'Moratorium on Data Centers,' adopted unanimously 2026-08-18 under RCW 36.70A.390; because no hearing was held before adoption, a public hearing must be held within 60 days (by 2026-10-17)
 - **What prompted it:** Eight of nine public commenters at the August 18, 2026 meeting requested a pause on data center development, citing electricity/water demand, noise/light, limited county land and resources, and the view that applications 'seem to pop out of nowhere at a rapid pace'; no specific project or pending applications
 - **Affected projects:** None; zero applications received as of 2026-08-25
-- **Detailed status:** Active as of 2026-09-23. County-wide moratorium on data center development, adopted by motion and then as Resolution 2026-22 on 2026-08-18; zero applications for a data center had been received as of 2026-08-25. A public hearing was expected around 2026-10-13, required no later than 2026-10-17 under RCW 36.70A.390; as of the Board's September 9, 2026 minutes, no hearing date had been formally set.
+- **Detailed status:** Resolution 2026-22 was adopted on August 18, 2026; county staff reported no applications as of August 25. An October 28 Skamania Dispatch report states that the Board held a public hearing on October 13 and voted a 180-day extension; the report says the extension end date was not yet in published minutes. [VERIFY: October 13 official action and extension anchor, later actions and current force.]
 - **Outcome:** Skamania County Board of Commissioners adopted a moratorium on data center development, first by motion and then as Resolution 2026-22, both unanimous, at its 2026-08-18 meeting.
 
 ### Snohomish County
@@ -630,7 +630,7 @@ State policy is tracked separately: **5 records** (5 typed bill rows) in [`state
 - **Legal basis:** Emergency Ordinance 26-026; RCW 36.70A.390 interim zoning control
 - **What prompted it:** Covers data centers with a total planned electrical load of at least 2 MW; adopted while the county develops permanent regulations.
 - **Affected projects:** —
-- **Detailed status:** Active as of 2026-07-31; six-month interim control effective 2026-06-24, renewable in six-month increments after hearing and findings.
+- **Detailed status:** Emergency Ordinance 26-026 was approved and effective June 24, 2026 for six months, renewable after a subsequent hearing and findings. An August 20 news report says a public hearing occurred August 19; the county legislative docket also lists August 19 as final action but does not describe that event in its action rows. Later renewal, permanent regulations and current force remain unverified. [VERIFY: later actions and current force.]
 - **Outcome:** —
 
 ### Snoqualmie
@@ -645,8 +645,8 @@ State policy is tracked separately: **5 records** (5 typed bill rows) in [`state
 - **Moratorium ID:** `wa-snoqualmie-2026`
 - **Legal basis:** Snoqualmie Ordinance No. 1322, adopted 2026-05-26, establishing a 12-month moratorium on acceptance/processing/approval of land use and building permit applications for new BESS facilities, with a required public hearing within 60 days
 - **What prompted it:** Jupiter Power's proposed 130 MW BESS on a 45-acre lot behind Fisher Creek Park near Snoqualmie Ridge, within Snoqualmie's urban growth area but in unincorporated King County; residents formed a nonprofit opposing the project
-- **Affected projects:** Jupiter Power's proposed 130 MW BESS near Fisher Creek Park (in unincorporated King County, outside city jurisdiction, so unaffected by this moratorium)
-- **Detailed status:** Active as of 2026-09-23. 12-month moratorium (Ordinance No. 1322) on new BESS facility applications, adopted 2026-05-26; does not affect the Jupiter Power project itself, which sits in unincorporated King County outside Snoqualmie's jurisdiction.
+- **Affected projects:** Jupiter Power's proposed 130 MW BESS near Fisher Creek Park is in unincorporated King County outside Snoqualmie city limits. Project-specific applicability of Ordinance 1322 has not been determined, including whether it uses city infrastructure or falls under any city ordinance.
+- **Detailed status:** Ordinance 1322 was adopted May 26, 2026 for twelve months. Section 3 states immediate effect upon adoption, while Section 9 states five days after passage and publication; the operative anchor remains unresolved. The Jupiter Power project is in unincorporated King County, but Section 2 also refers to facilities subject to city ordinances or using city infrastructure; project-specific applicability has not been determined. [VERIFY: effective anchor, project-specific city nexus, hearing outcome and later actions.]
 - **Outcome:** Snoqualmie City Council unanimously adopted Ordinance No. 1322 on 2026-05-26, a 12-month moratorium on new BESS facility permit applications.
 
 ### Spokane
@@ -700,17 +700,17 @@ State policy is tracked separately: **5 records** (5 typed bill rows) in [`state
 ### Town of Waterville
 
 - **Type:** Town
-- **Recorded status:** ⚪ Replaced
+- **Recorded status:** 🟢 Active
 - **Date enacted:** 2018 (Ordinance 792) [VERIFY: exact passage date not confirmed; Waterville Municipal Code is hosted on eCode360 (WA4837) which is JS-rendered and did not yield the ordinance table on automated fetch as of 2026-04-29]
 - **Normalized date:** `2018` (unverified)
 - **Duration:** Not verified from primary text [VERIFY: Ordinance 792 PDF not located on Waterville town website as of 2026-04-29]
 - **Current end date:** `—`
 - **Sectors:** cryptocurrency mining
 - **Moratorium ID:** `wa-waterville-2018`
-- **Legal basis:** Ordinance 792 (2018), interim official control on cryptocurrency mining per MRSC's May 2018 report (exact adoption date and full text still not located this pass); superseded by Ordinance 815 (2020, codified at WMC 17.10.165 and 17.10.175), which added permanent cryptocurrency-mining and data-center definitions and zoning treatment; RCW 35A.63.220 and RCW 36.70A.390.
+- **Legal basis:** Ordinance 792 (2018) was previously attributed to the interim cryptocurrency-mining control; its original text and identification remain unverified. MRSC reported a moratorium on mining applications on May 22, 2018. A later third-party code mirror attributes WMC 17.10.165 and 17.10.175 definitions to Ordinance 815 (2020), but does not establish legal supersession of the 2018 moratorium. RCW 35A.63.220 and RCW 36.70A.390 were previously cited.
 - **What prompted it:** Douglas County-area cryptocurrency mining applications and utility capacity concerns; MRSC May 2018 report identified Waterville as having imposed a moratorium on accepting applications for mining operations (alongside East Wenatchee)
 - **Affected projects:** Not identified
-- **Detailed status:** Replaced. Waterville's zoning code now defines and regulates 'cryptocurrency mining' (WMC 17.10.165) and 'data center' (WMC 17.10.175), added via Ordinance 815 (2020), and the Chapter 17.40 District Use Chart lists cryptocurrency mining as a regulated ('PRM3') use rather than a prohibited one, confirmed via a current mirror of the town's zoning code as of 2026-09-23.
+- **Detailed status:** A third-party code mirror captured November 8, 2026 Eastern displays definitions of cryptocurrency mining and data center and a district use chart listing cryptocurrency mining as PRM superscript 3 in C-B and L-I. The mirror does not establish legal replacement of the 2018 moratorium or current force. [VERIFY: original ordinance and term, and any legal replacement.]
 - **Outcome:** Town code presumably includes cryptocurrency mining provisions but the eCode360 ordinance table could not be retrieved automatically; primary ordinance text remains uncaptured
 
 ### Whitman County

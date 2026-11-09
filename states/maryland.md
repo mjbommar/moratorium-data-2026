@@ -3,7 +3,7 @@
 
 Working inventory for Maryland, generated **November 8, 2026**. Record-level refresh and later-action review remain incomplete.
 
-**25 records** — 18 classified as active or extended, 4 classified as pending, 3 classified as past, 0 classified as rejected proposals.
+**25 records** — 19 classified as active or extended, 3 classified as pending, 3 classified as past, 0 classified as rejected proposals, 0 classified as unknown.
 
 These counts reflect inventory classifications and do not establish current enforceability.
 
@@ -12,7 +12,7 @@ State policy is tracked separately: **17 records** (16 typed bill rows and 1 non
 | Jurisdiction | Type | Enacted | Sectors | Recorded status |
 |---|---|---|---|---|
 | Anne Arundel County | County | 2026-10-12 | data center | 🟡 Pending |
-| Baltimore City | City | 2026-05-11 | data center | 🟢 Active |
+| Baltimore City | City | 2026-06-16 | data center | 🟢 Active |
 | Baltimore County | County | 2026-02-02 | data center | 🟢 Extended |
 | Calvert County | County | 2026-08-18 | data center | 🟢 Active |
 | Caroline County | County | 2023-06-13 | battery storage | ⚪ Expired |
@@ -27,9 +27,9 @@ State policy is tracked separately: **17 records** (16 typed bill rows and 1 non
 | Pocomoke City | City | 2026-09-21 | data center | 🟢 Active |
 | Prince George's County | County | 2025-09-16 | data center | 🟢 Extended |
 | Proposed or Rejected Local Pauses | Aggregate meta-row | Unverified | general | 🟡 Pending |
-| Queen Anne's County | County | 2026-06-04 | data center | 🟢 Active |
+| Queen Anne's County | County | 2026-05-26 | data center | 🟢 Active |
 | Ridgely | Town | 2026-08-03 | data center | 🟢 Active |
-| Salisbury | City | Unverified | data center | 🟡 Pending |
+| Salisbury | City | Unverified | data center | 🟢 Active |
 | Somerset County | County | Unverified | data center | 🟡 Pending |
 | Talbot County | County | 2022-04-26 | solar | ⚪ Expired |
 | Talbot County | County | 2026-09-08 | data center | 🟢 Active |
@@ -53,22 +53,22 @@ State policy is tracked separately: **17 records** (16 typed bill rows and 1 non
 - **What prompted it:** Originally proposed as an outright countywide data center ban; converted to a temporary moratorium after pushback from advocates for Fort George G. Meade-adjacent defense/cybersecurity interests and for Microsoft's ongoing Annapolis Junction Business Park data center campus.
 - **Affected projects:** Would not affect existing or under-construction data centers, including Microsoft's Annapolis Junction Business Park campus (purchased 2020)
 - **Detailed status:** Enacted 2026-10-12 following passage 2026-10-05; effective 2026-11-26, after the 2026-11-05 research cutoff. The temporary moratorium is scheduled to end at the earlier of 2028-01-31 or effective date of qualifying comprehensive legislation. [VERIFY: later amendments, qualifying replacement legislation and commencement on the future effective date; pending means not yet effective here, not awaiting a vote.]
-- **Outcome:** If finally adopted, would establish an 11-member work group (7 appointed one-per-Council-member, 4 by the County Executive) to study data center best practices in other jurisdictions and recommend permanent regulation before the moratorium's expiration.
+- **Outcome:** Enacted Bill 63-26 establishes a work group with seven Council appointees and four County Executive appointees subject to Council confirmation, plus designated ex officio members, to study data-center regulation and report within 10 months after the effective date.
 
 ### Baltimore City
 
 - **Type:** City
 - **Recorded status:** 🟢 Active
-- **Date enacted:** 2026-05-11 (Bill 26-0158 passed by City Council and sent to the Mayor for signature, per newsletter reporting)
-- **Normalized date:** `2026-05-11` (exact)
+- **Date enacted:** 2026-06-16 (mayoral approval of Ordinance 26-128; Council passage 2026-05-11; effective 2026-07-16)
+- **Normalized date:** `2026-06-16` (exact)
 - **Duration:** Remains in effect for one year following its effective date (2026-07-16, i.e., 30 days after the 2026-06-16 signing), automatically abrogated on 2027-07-16 with no further Council action required. A companion Department of Planning data-center impact study/report is due to the Mayor, Council, and Planning Commission no later than 9 months after enactment.
 - **Current end date:** `2027-07-16`
 - **Sectors:** data center
 - **Moratorium ID:** `md-baltimore-city-2026`
 - **Legal basis:** Ordinance 26-128 (enacted Council Bill 26-0158), certified as passed by the Council President 2026-05-11, delivered to the Mayor 2026-05-13, and signed/approved by Mayor Brandon Scott on 2026-06-16; takes effect 30 days after enactment.
 - **What prompted it:** Not detailed in the available source beyond general data-center development concerns.
-- **Affected projects:** Data centers using 10 MW or more of power.
-- **Detailed status:** Active as of 2026-09-23. Mayor Brandon Scott signed the bill into law (Ordinance 26-128) on 2026-06-16; it took effect 2026-07-16 and blocks construction of new data centers projected to use 10 MW or more of electricity annually through 2027-07-16. It does not affect a sub-10-MW expansion of the existing Johns Hopkins University data center at its Bayview campus. A separate, non-moratorium bill (Council Bill 26-0174, sponsored by Councilmember Phylicia Porter) proposing a conditional-use pathway with a health-equity assessment for future data centers remains under Planning Commission review as of September 2026 and had not been adopted.
+- **Affected projects:** Facilities or portions used primarily for remote storage, processing and distribution of data and capable of using 10 MW or more of electricity.
+- **Detailed status:** Active as of 2026-09-23. Mayor Brandon Scott signed the bill into law (Ordinance 26-128) on 2026-06-16; it took effect 2026-07-16 and prohibits citywide the defined data-center use for facilities capable of using 10 MW or more of electricity through 2027-07-16. It does not affect a sub-10-MW expansion of the existing Johns Hopkins University data center at its Bayview campus. A separate, non-moratorium bill (Council Bill 26-0174, sponsored by Councilmember Phylicia Porter) proposing a conditional-use pathway with a health-equity assessment for future data centers remains under Planning Commission review as of September 2026 and had not been adopted.
 - **Outcome:** Signed into law as Ordinance 26-128 on 2026-06-16 (effective 2026-07-16 through 2027-07-16). The Department of Planning's required impact study is due within 9 months of enactment. Separately, Councilmember Porter's Council Bill 26-0174, which would create a conditional-use approval pathway for future data centers, has drawn public opposition and remained under Planning Commission review (a contentious hearing was held) as of September 2026, without final Council action.
 
 ### Baltimore County
@@ -85,7 +85,7 @@ State policy is tracked separately: **17 records** (16 typed bill rows and 1 non
 - **What prompted it:** County concern that Bill 54-24 had opened broad zoning pathways before the county had studied electricity demand, public water demand, siting, notice, public health, environmental, and incentive issues
 - **Affected projects:** Countywide suspension on accepting or approving development plans, zoning petitions, permits, and other approvals for data centers
 - **Detailed status:** Active as of 2026-09-23; extended through 2027-12-31 by Bill 79-26, passed unanimously by the County Council on 2026-09-22. The Planning Board approved its final Data Center Study Report on 2026-09-17 (following a contentious 2026-09-03 public hearing); Council Chairman Mike Ertel said the Council had received the report but had not yet reviewed it as of the extension vote.
-- **Outcome:** The Planning Board approved its 51-page Data Center Study Report on 2026-09-17, ahead of its 2026-10-01 deadline, after a standing-room-only public hearing on 2026-09-03. Rather than let the original moratorium lapse on 2027-01-01, the County Council unanimously passed Bill 79-26 on 2026-09-22, extending the suspension on data center permitting/approvals through 2027-12-31 to give the Council time to review the report and draft permanent regulations.
+- **Outcome:** The Planning Board approved its 51-page Data Center Study Report on 2026-09-17, ahead of its 2026-10-01 deadline, after a public hearing on 2026-09-03, according to prior reporting. Before the original moratorium’s alternative end conditions (2027-01-01 or 90 days after submission of the report), WYPR and CBS reported the Council unanimously passed Bill 79-26 on 2026-09-22, extending the suspension on data-center permitting and approvals through 2027-12-31. The retained bill copy has an unfilled disposition block; the final signed instrument or official disposition remains to be verified.
 
 ### Calvert County
 
@@ -93,14 +93,14 @@ State policy is tracked separately: **17 records** (16 typed bill rows and 1 non
 - **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-08-18 (Board of County Commissioners public hearing and unanimous adoption)
 - **Normalized date:** `2026-08-18` (exact)
-- **Duration:** Six months from the effective date (2026-08-28) to 2027-02-28, per Title 4 of the Land Use Article of the Maryland Annotated Code
-- **Current end date:** `—`
+- **Duration:** From 2026-08-28 until the earlier of six months after effectiveness (2027-02-28) or termination by Board resolution upon finding that all necessary conditions have been satisfied; subject to any later amendment.
+- **Current end date:** `2027-02-28`
 - **Sectors:** data center
 - **Moratorium ID:** `md-calvert-county-2026`
 - **Legal basis:** Ordinance 42-26, adding a temporary Calvert County Code Chapter 145, 'Temporary Moratorium on Data Center Site Plan Approvals'
 - **What prompted it:** Amazon Web Services withdrew its 'Calvert Technology Center' site plan application (accepted for processing 2026-05-27, withdrawn as announced 2026-08-04) amid sustained community opposition to a proposed seven-facility data center campus near the Calvert Cliffs nuclear plant in Lusby; three incumbent commissioners who had previously opposed a moratorium were ousted in the June 2026 Republican primary.
-- **Affected projects:** Countywide suspension on data center site plan approvals; catalyzed by (but not limited to) the withdrawn AWS 'Calvert Technology Center' application
-- **Detailed status:** The county data-center page describes passage of a six-month moratorium. [VERIFY: executed text, operative start/end and later actions/current legal force.]
+- **Affected projects:** Countywide suspension on acceptance of new data-center site-plan applications and approval of pending or new plans; no grading, building or other county permit for a new data center during the moratorium. The county reported withdrawal of AWS’s Calvert Technology Center application on 2026-08-04.
+- **Detailed status:** Ordinance 42-26 was adopted 2026-08-18 and became effective 2026-08-28, according to the county page observed 2026-11-05. It suspends data-center site-plan applications and approvals until the earlier of six months after effectiveness or Board termination by resolution upon the required findings. [VERIFY: later termination, amendment or extension.]
 - **Outcome:** The Board of County Commissioners is expected to discuss potential Calvert County Zoning Ordinance amendments addressing data centers as a permitted use at a future meeting; the ordinance automatically self-repeals ('sunset') upon expiration of the moratorium period.
 
 ### Caroline County
@@ -116,8 +116,8 @@ State policy is tracked separately: **17 records** (16 typed bill rows and 1 non
 - **Legal basis:** Resolution #2023-011 (original), extended by Resolution #2024-012 and Resolution #2025-008 (adopted 2025-02-11, through 2026-03-31)
 - **What prompted it:** Time needed for careful study of proposed BESS legislative changes and local siting standards
 - **Affected projects:** —
-- **Detailed status:** Expired 2026-03-31 (last confirmed extension); Caroline County's Battery Energy Storage System moratorium, originally adopted June 13, 2023 and twice extended, lapsed on its stated end date with no further extension confirmed. A separate BESS text-amendment/ordinance package (referenced as Bill 2025-012 in Maryland General Assembly county-legislation filings) was in process around the same time, which may indicate the moratorium was followed by permanent regulation, but the filed document could not be read (unreadable scanned PDF) in the time available. [VERIFY details not confirmed at confidence 0.6 in the 2026-09 refresh]
-- **Outcome:** Term lapsed; possible replacement by permanent ordinance unconfirmed
+- **Detailed status:** Resolution 2025-008, adopted 2025-02-11, extended Caroline County’s 2023 battery-storage moratorium through 2026-03-31. A later extension was not checked; the resolution alone does not establish that none occurred. A separate BESS text-amendment package referenced as Bill 2025-012 was reported in process, but its text and adoption were not confirmed.
+- **Outcome:** Last documented moratorium term ended on 2026-03-31 absent a later extension; possible replacement by permanent ordinance remains unconfirmed.
 
 ### Caroline County
 
@@ -126,13 +126,13 @@ State policy is tracked separately: **17 records** (16 typed bill rows and 1 non
 - **Date enacted:** 2026-07-21 (County Commissioners' adoption of Resolution #2026-012)
 - **Normalized date:** `2026-07-21` (exact)
 - **Duration:** One year from adoption (2026-07-21) to 2027-07-21; applies only to unincorporated areas of the county
-- **Current end date:** `—`
+- **Current end date:** `2027-07-21`
 - **Sectors:** data center
 - **Moratorium ID:** `md-caroline-county-2026`
 - **Legal basis:** Resolution #2026-012, 'Temporary Moratorium on Data Centers'
 - **What prompted it:** Community concern following a data center proposal in nearby Federalsburg; Commissioners sought time to study electricity/water demand impacts and craft siting, notice, and permitting regulations before any local application arrived.
 - **Affected projects:** New and pending data center applications in unincorporated Caroline County only; does not apply within incorporated municipalities such as Federalsburg
-- **Detailed status:** Resolution 2026-012 describes a one-year term following effectiveness. [VERIFY: precise operative interval, subsequent amendments or replacement and present legal force.]
+- **Detailed status:** Resolution 2026-012 was adopted and became effective 2026-07-21; it suspends covered new and pending applications in unincorporated Caroline County for one year, through 2027-07-21 absent later action. [VERIFY: later amendment, replacement or termination.]
 - **Outcome:** Passed the same week a data center was publicly proposed in the incorporated town of Federalsburg, which is outside the county's zoning jurisdiction and adopted (and later replaced) its own separate local moratorium.
 
 ### Carroll County
@@ -142,13 +142,13 @@ State policy is tracked separately: **17 records** (16 typed bill rows and 1 non
 - **Date enacted:** 2026-02-19 (effective date of Ordinance 2026-02)
 - **Normalized date:** `2026-02-19` (exact)
 - **Duration:** One year from the effective date (2026-02-19) to 2027-02-19
-- **Current end date:** `—`
+- **Current end date:** `2027-02-19`
 - **Sectors:** data center
 - **Moratorium ID:** `md-carroll-county-2026`
 - **Legal basis:** Ordinance 2026-02, codified at Carroll County Code Section 158.176 ('Data Processing Centers; Temporary Deferral')
 - **What prompted it:** Board of Commissioners voted (2026-01-16 draft-ordinance instruction) to preemptively study and regulate data centers even though no developer had yet applied for a permit in the county.
-- **Affected projects:** —
-- **Detailed status:** The official February 19, 2026 voting record reports approval of a one-year data-center deferral. [VERIFY: full operative instrument, effective-date anchor and later actions/current legal force.]
+- **Affected projects:** Acceptance, processing, review and approval of all plans for data processing centers as defined in Carroll County Code § 158.002.
+- **Detailed status:** The Commissioners approved a one-year data-center deferral on 2026-02-19; County Code § 158.176 identifies 2026-02-19 as the effective date and defers acceptance, processing, review and approval of covered plans for one year. [VERIFY: later action or replacement.]
 - **Outcome:** The county has not yet adopted a permitted-use table entry, district list, or dimensional standard for data processing centers separate from this deferral, which functions as a placeholder while the Commissioners work out permanent siting rules.
 
 ### Dorchester County
@@ -158,13 +158,13 @@ State policy is tracked separately: **17 records** (16 typed bill rows and 1 non
 - **Date enacted:** 2026-08-04 (County Council adoption of Resolution No. 712)
 - **Normalized date:** `2026-08-04` (exact)
 - **Duration:** 12 months, effective the day of adoption (2026-08-04) to 2027-08-04
-- **Current end date:** `—`
+- **Current end date:** `2027-08-04`
 - **Sectors:** data center
 - **Moratorium ID:** `md-dorchester-county-2026`
 - **Legal basis:** Resolution No. 712, 'A Resolution of the County Council of Dorchester County, Maryland to Adopt a Temporary Moratorium on Data Centers in Dorchester County for a Period of 12 Months'
 - **What prompted it:** Council sought time to study data centers and craft a regulatory framework proactively, before any local application arrived; applies to unincorporated areas, while municipalities such as Hurlock have pursued their own separate measures.
 - **Affected projects:** Applies only to unincorporated areas of Dorchester County
-- **Detailed status:** The retained social-media public notice describes Resolution 712 and a twelve-month moratorium. [VERIFY: issuing authority/source identity, final adoption and executed text, effective-date anchor and later actions/current legal force; notice alone is not proof of adoption.]
+- **Detailed status:** A Dorchester County Government public notice states that the County Council adopted Resolution 712 on 2026-08-04, effective on adoption, for 12 months; local reporting describes its application to unincorporated areas. [VERIFY: later action and the full executed resolution.]
 - **Outcome:** The county also engaged a lobbying firm (R&R Solutions) around the same time to help secure state funding and facilitate meetings on infrastructure priorities, including data-center-related issues.
 
 ### Federalsburg
@@ -221,7 +221,7 @@ State policy is tracked separately: **17 records** (16 typed bill rows and 1 non
 - **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-08-10 (Town Council adoption, introduced by Council President Russell Murphy)
 - **Normalized date:** `2026-08-10` (exact)
-- **Duration:** Three years from adoption (2026-08-10) to 2029-08-10
+- **Duration:** Reported as three years; approval at the 2026-08-10 council meeting was reported, but the operative effective date and endpoint require confirmation from the municipal instrument.
 - **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `md-hurlock-2026`
@@ -238,13 +238,13 @@ State policy is tracked separately: **17 records** (16 typed bill rows and 1 non
 - **Date enacted:** 2026-07-28 (Council press release date; Expedited Bill 19-26 and companion Zoning Text Amendment 26-01)
 - **Normalized date:** `2026-07-28` (exact)
 - **Duration:** 18 months from the bill's effective date (specific calendar end date not stated in the press release)
-- **Current end date:** `—`
+- **Current end date:** `2028-02-10`
 - **Sectors:** data center
 - **Moratorium ID:** `md-montgomery-county-2026`
 - **Legal basis:** Expedited Bill 19-26 (Department of Permitting Services barred from issuing data center permits during the moratorium) paired with Zoning Text Amendment 26-01 (prohibits hyperscale data centers countywide and redefines 'data center').
 - **What prompted it:** Council concern over unresolved zoning/permitting pathway for data centers following prior zoning changes; competing council proposals (6-month vs. 2-year) were reconciled into an 18-month compromise.
-- **Affected projects:** Applications submitted before or after the bill's effective date, pending regulatory review, or approved without an issued building permit are subject to the moratorium.
-- **Detailed status:** Council enacted Bill 19-26E July 28, 2026; the signed act states effective August 10. Section 3 says the Act expires eighteen months after effectiveness, with deleted six-month text shown in double brackets; the cover metadata says Sunset Date: None. [VERIFY: reconcile the metadata/operative-clause discrepancy, exact endpoint and subsequent legal changes/current force; no typed endpoint promoted.]
+- **Affected projects:** Covered data centers have existing or projected aggregate monthly electricity demand of at least 25 MW, subject to specified exclusions. The Act applies to the specified conditional-use applications filed before or after effectiveness, pending regulatory review, or approved without an issued permit.
+- **Detailed status:** Council enacted Bill 19-26E on 2026-07-28; it was signed and became effective 2026-08-10. Section 3 expressly expires the Act 18 months after effectiveness, on 2028-02-10 absent later change; the cover metadata says Sunset Date: None. [VERIFY: later amendment or repeal and any authoritative correction of the cover metadata.]
 - **Outcome:** Council intends to use the 18-month period to develop comprehensive data-center development guidelines in coordination with state officials.
 
 ### Pocomoke City
@@ -254,12 +254,12 @@ State policy is tracked separately: **17 records** (16 typed bill rows and 1 non
 - **Date enacted:** 2026-09-21 (council adoption of Resolution 2027-R-1)
 - **Normalized date:** `2026-09-21` (exact)
 - **Duration:** Earlier of one year after adoption or effective date of comprehensive city legislation; council reserves extension or modification.
-- **Current end date:** `—`
+- **Current end date:** `2027-09-21`
 - **Sectors:** data center
 - **Moratorium ID:** `md-pocomoke-city-undated`
 - **Legal basis:** Resolution 2027-R-1, adopted 2026-09-21.
 - **What prompted it:** Officials cited energy and water consumption concerns, echoing neighboring Worcester County's moratorium and its commissioners' stated grid- and irrigation-capacity concerns.
-- **Affected projects:** —
+- **Affected projects:** Preliminary subdivision plans and detailed site plans involving a data center; covered board-of-appeals and privately initiated zoning text-amendment applications. The resolution distinguishes ordinary server rooms.
 - **Detailed status:** Adopted 2026-09-21 and effective immediately; pauses specified data-center subdivision and detailed site-plan applications until the earlier of one year after adoption or effective comprehensive legislation, subject to extension or modification. Later changes and current force on 2026-11-05 have not been independently established. [VERIFY: later modification, termination or extension and present legal force; active classification remains provisional after documented adoption.]
 - **Outcome:** Pocomoke City maintains its own board of zoning separate from Worcester County (in which it sits), prompting city officials to pursue a separate local measure rather than relying on the county's existing moratorium.
 
@@ -267,15 +267,15 @@ State policy is tracked separately: **17 records** (16 typed bill rows and 1 non
 
 - **Type:** County
 - **Recorded status:** 🟢 Extended
-- **Date enacted:** 2025-09-16 (CR-098-2025); 2026-01-23 (EO 1-2026, later administratively extended through 2026-06-30 per news reporting); 2026-07-07 (CR-066-2026, new 2-year Council resolution, adopted 7-1 with 3 abstaining/absent)
+- **Date enacted:** 2025-09-16 (CR-098-2025); 2026-01-23 (EO 1-2026, later administratively extended through 2026-06-30 per news reporting); 2026-07-07 (CR-066-2026, new 2-year Council resolution, adopted with 7 in favor, 1 abstention and 3 absent, per earlier news reporting)
 - **Normalized date:** `2025-09-16` (exact)
-- **Duration:** CR-098-2025: 180 days or until comprehensive legislation; EO 1-2026: temporary hold from 2025-12-31 through 2026-04-30
+- **Duration:** CR-098-2025: 180 days or until comprehensive legislation; EO 1-2026 extended the permit hold through 2026-04-30, with an extension through 2026-06-30 per earlier reporting; EO 15-2026 further extended the permit hold from 2026-06-30 to 2026-09-30, as recited in CR-066-2026. CR-066-2026 pauses specified plans until the earlier of two years after 2026-07-07 or the effective date of comprehensive legislation, subject to extension or modification.
 - **Current end date:** `2028-07-07`
 - **Sectors:** data center
 - **Moratorium ID:** `md-prince-george-s-county-2025`
-- **Legal basis:** CR-098-2025; Executive Order 1-2026; underlying task force created by CR-016-2025
+- **Legal basis:** CR-098-2025; Executive Orders 1-2026 and 15-2026; CR-066-2026 (adopted 2026-07-07); task force identified in CR-066-2026 as established by CB-016-2025.
 - **What prompted it:** Community concerns and task force review of energy demand, ratepayer impacts, air, water, woodland, quality-of-life, revenue, and siting issues
-- **Affected projects:** Preliminary plans of subdivision that include qualified data centers; executive hold on accepting, considering, and processing qualified data center permit applications
+- **Affected projects:** CR-066-2026 pauses preliminary subdivision and detailed site plans proposing qualified data centers. Separate executive orders held acceptance, consideration and processing of qualified data-center permit applications; Legistar background also describes building and grading permits.
 - **Detailed status:** Active as of 2026-09-23; unchanged since CR-066-2026 (adopted 2026-07-07, effective through 2028-07-07 or until comprehensive data-center zoning legislation, whichever is earlier). Councilmember Wanika Fisher has introduced separate legislation that would establish siting/setback standards for data centers and could create a pathway to lift the moratorium early, but Council Chair Krystal Oriadha has publicly opposed lifting it and the measure had not advanced as of this reference date. Separately, on 2026-09-17 (outside my packet's row scope) the Council's Planning, Housing and Economic Development Committee unanimously advanced a different bill to reinstate detailed site-plan review for data centers (repealing a 2021 exemption); sponsors stated this bill would not affect or lift the existing moratorium and is intended to close a gap for projects that predate it (e.g., the Landover Mall proposal). Neither measure had received final Council passage as of 2026-09-23.
 - **Outcome:** As of 2026-07-31, no comprehensive data-center zoning ordinance has been enacted. Instead, the Council extended the temporary pause via CR-066-2026 (2026-07-07, two years). A competing zoning proposal by Councilmember Wanika Fisher to permit data centers in specified rural/agricultural/residential zones (with site-plan review for campuses under 200 acres) was introduced around 2026-07-21 and was pending before the Planning Board as of that date; it had not passed as of 2026-07-31.
 
@@ -299,16 +299,16 @@ State policy is tracked separately: **17 records** (16 typed bill rows and 1 non
 
 - **Type:** County
 - **Recorded status:** 🟢 Active
-- **Date enacted:** 2026-06-04 (County Commissioners approval)
-- **Normalized date:** `2026-06-04` (exact)
-- **Duration:** 12 months from adoption (2026-06-04) to 2027-06-04
-- **Current end date:** `—`
+- **Date enacted:** 2026-05-26 (date handwritten on signed Resolution 26-07; effective immediately upon enactment)
+- **Normalized date:** `2026-05-26` (exact)
+- **Duration:** Twelve months from the resolution date of 2026-05-26, through 2027-05-26 absent later extension or modification; Resolution 26-07 reserves those powers.
+- **Current end date:** `2027-05-26`
 - **Sectors:** data center
 - **Moratorium ID:** `md-queen-anne-s-county-2026`
 - **Legal basis:** Resolution No. 26-07
 - **What prompted it:** Existing zoning and regulatory framework found insufficient to address the scale, impacts, and operational characteristics of contemporary data center development.
-- **Affected projects:** —
-- **Detailed status:** The June 8 county newsletter describes approval of a twelve-month moratorium. Resolution 26-07 says effective immediately on enactment, but its extracted adoption date is illegible or blank. [VERIFY: exact adoption/operative date, later actions and present legal force.]
+- **Affected projects:** Data-center applications, permits and submittals that county departments, agencies, boards or commissions would otherwise accept, process or approve.
+- **Detailed status:** Signed Resolution 26-07 is dated 2026-05-26 and provides immediate effect on enactment and a twelve-month pause, subject to extension or modification. A county release dated 2026-06-04 reported approval; the signed instrument bears the earlier date. [VERIFY: later extension, modification or replacement.]
 - **Outcome:** Not intended to permanently prohibit data center development; the County is using the period to conduct studies, engage residents/stakeholders, and consider Zoning Ordinance updates.
 
 ### Ridgely
@@ -323,25 +323,25 @@ State policy is tracked separately: **17 records** (16 typed bill rows and 1 non
 - **Moratorium ID:** `md-ridgely-2026`
 - **Legal basis:** Town commissioners data center moratorium; Resolution No. 2026-03 was scheduled for introduction and vote on 2026-08-03. Adopted text not retrieved.
 - **What prompted it:** Part of an Eastern Shore wave of local action following a controversial Federalsburg data center proposal
-- **Affected projects:** —
+- **Affected projects:** Processing applications for data centers within Ridgely town limits, as reported for the one-year moratorium.
 - **Detailed status:** Contemporaneous reporting describes unanimous adoption of a one-year moratorium at the August 3, 2026 meeting. The agenda schedules Resolution 2026-03, but is not proof of its final adopted text. [VERIFY: executed resolution, effective-date anchor, later actions and present legal force; exact adoption date remains news-qualified.]
 - **Outcome:** Adopted
 
 ### Salisbury
 
 - **Type:** City
-- **Recorded status:** 🟡 Pending
-- **Date enacted:** —
+- **Recorded status:** 🟢 Active
+- **Date enacted:** Adoption reported by October 29, 2026; exact date unverified.
 - **Normalized date:** `—` (unverified)
-- **Duration:** 1 year (proposed)
+- **Duration:** One year was recommended by the Planning Commission; the reported resolution’s operative term and start are not established by the retained report.
 - **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `md-salisbury-undated`
-- **Legal basis:** —
+- **Legal basis:** A data-center moratorium is reported adopted; the instrument number and enacted text remain unverified.
 - **What prompted it:** Planning Commission recommendation; mayor supports the pause
 - **Affected projects:** —
-- **Detailed status:** Pending as of 2026-09-23; Planning Commission recommended a one-year moratorium on data center development on Aug. 14, 2026; City Council vote still pending as of the most recent source reviewed. [VERIFY instrument number; adoption date; primary source (news-only evidence) not confirmed at confidence 0.55 in the 2026-09 refresh]
-- **Outcome:** Recommended; council vote pending
+- **Detailed status:** The Planning Commission recommended a one-year data-center moratorium in August 2026. The Capital Gazette retained human editorial body on October 29, 2026 describes Salisbury’s data-center moratorium as adopted and as having taken effect, and describes it as one year; officials and an applicant disputed whether a project had been approved before the moratorium. The accessible passage does not establish the adoption date, instrument number, operative wording or legal effective date. Later action and present legal force remain unverified. [VERIFY: exact adoption date, instrument, enacted text, legal effective date, operative term and present force.]
+- **Outcome:** Capital Gazette described the city moratorium as adopted by October 29, 2026; the exact vote and operative text remain unverified.
 
 ### Somerset County
 
@@ -356,7 +356,7 @@ State policy is tracked separately: **17 records** (16 typed bill rows and 1 non
 - **Legal basis:** —
 - **What prompted it:** No data center currently proposed; county evaluating options to regulate ahead of one being proposed
 - **Affected projects:** —
-- **Detailed status:** Pending as of 2026-09-23; a one-year moratorium on data center siting was recommended to the County Commissioners; as of a July 2026 report the county was still 'looking at the options available' with no ordinance adopted. [VERIFY instrument number; adoption date; primary source (news-only evidence) not confirmed at confidence 0.45 in the 2026-09 refresh]
+- **Detailed status:** A 2026-07-22 report said Somerset County Commissioners would be formally asked to implement a one-year moratorium on data-center siting. On 2026-07-28 a county official said Somerset was evaluating regulatory options and had no data-center proposal. A later adoption or decision was not established in the retained review. [VERIFY: any adopted instrument, effective date and subsequent status; legacy pending classification remains provisional.]
 - **Outcome:** Recommended; outcome not confirmed
 
 ### Talbot County
@@ -371,7 +371,7 @@ State policy is tracked separately: **17 records** (16 typed bill rows and 1 non
 - **Moratorium ID:** `md-talbot-county-2022`
 - **Legal basis:** Resolution 329, as enacted and enrolled
 - **What prompted it:** County reviews mitigation and agricultural-land offset requirements for large-scale solar energy systems.
-- **Affected projects:** —
+- **Affected projects:** Large-scale solar applications beyond the special-exception stage and pending review or permit requests lacking final approval; administrative acceptance continues, and finally approved projects may proceed.
 - **Detailed status:** Historical recorded-term classification: Resolution 329 adopted and effective April 26, 2022 with five-calendar-month term. [VERIFY subsequent extensions, replacement/repeal, present restrictions and coordinates; no current-force renewal]
 - **Outcome:** —
 
@@ -382,13 +382,13 @@ State policy is tracked separately: **17 records** (16 typed bill rows and 1 non
 - **Date enacted:** 2026-09-08 (County Council unanimous adoption of Resolution No. 395, after introduction 2026-08-11)
 - **Normalized date:** `2026-09-08` (exact)
 - **Duration:** 12 months from adoption (2026-09-08) to 2027-09-08; the Council reserves the right to extend for up to two additional six-month periods
-- **Current end date:** `—`
+- **Current end date:** `2027-09-08`
 - **Sectors:** data center
 - **Moratorium ID:** `md-talbot-county-2026`
 - **Legal basis:** Resolution No. 395
 - **What prompted it:** Council concern about sustainability, energy/water usage, noise, vibration, and quality-of-life impacts of data centers, and a desire to avoid hastily prepared zoning rules given the county's current lack of data-center-specific regulations.
-- **Affected projects:** —
-- **Detailed status:** Enrolled Resolution 395 specifies a twelve-month data-center moratorium and permits amendment or extension. [VERIFY: precise operative anchor, later actions and present legal force.]
+- **Affected projects:** Pending and future data-center applications, plans, permits and other authorizations; excludes covered equipment accessory and subordinate to a lawful principal use serving only its occupant.
+- **Detailed status:** Enrolled Resolution 395 was adopted and took effect 2026-09-08 for twelve months, through 2027-09-08 absent amendment or extension; the Council may extend for up to two additional six-month periods. [VERIFY: subsequent amendment or extension.]
 - **Outcome:** Adopted unanimously following a public hearing at the Council's 2026-09-08 regular meeting; the County Council may extend the moratorium for up to two additional six-month periods if needed.
 
 ### Washington County
@@ -397,14 +397,14 @@ State policy is tracked separately: **17 records** (16 typed bill rows and 1 non
 - **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-06-30 (Board of County Commissioners adoption and effectiveness)
 - **Normalized date:** `2026-06-30` (exact)
-- **Duration:** 12 months
-- **Current end date:** `—`
+- **Duration:** Twelve months from immediate effectiveness on 2026-06-30, through 2027-06-30 absent modification or extension by the Board.
+- **Current end date:** `2027-06-30`
 - **Sectors:** data center
 - **Moratorium ID:** `md-washington-county-2026`
 - **Legal basis:** Ordinance ORD-2026-12
 - **What prompted it:** Pause on accepting, processing, reviewing, or approving data center applications, plans, or requests while the county studies regulation
-- **Affected projects:** —
-- **Detailed status:** The July 1 county release reports June 30 adoption of a twelve-month moratorium. The agenda draft instead used six months and is not treated as final adopted text. [VERIFY: executed resolution, precise operative interval and later actions/current legal force.]
+- **Affected projects:** Data-center applications, plans and requests in unincorporated Washington County; incorporated municipalities have their own planning and zoning jurisdiction, subject to applicable annexation law.
+- **Detailed status:** County releases report adoption and immediate effectiveness on 2026-06-30 for twelve months, subject to modification or extension. A 2026-09-30 county statement describes the moratorium as applying to unincorporated areas and sets out a prospective regulatory review timeline. The earlier agenda packet used a six-month draft. [VERIFY: enacted ordinance text and later action.]
 - **Outcome:** Board of County Commissioners approved Ordinance ORD-2026-12, a 12-month moratorium
 
 ### Wicomico County
@@ -414,13 +414,13 @@ State policy is tracked separately: **17 records** (16 typed bill rows and 1 non
 - **Date enacted:** 2026-08-04 (County Council unanimous adoption of Resolution No. 125-2026, following a public hearing)
 - **Normalized date:** `2026-08-04` (exact)
 - **Duration:** One year from adoption (2026-08-04) to 2027-08-04, or until the effective date of comprehensive data center legislation, whichever is earlier
-- **Current end date:** `—`
+- **Current end date:** `2027-08-04`
 - **Sectors:** data center
 - **Moratorium ID:** `md-wicomico-county-2026`
 - **Legal basis:** Resolution No. 125-2026
 - **What prompted it:** Concerns over electric grid demand, water usage, noise, and light pollution; coincides with the county's ongoing comprehensive plan update and rezoning process.
-- **Affected projects:** —
-- **Detailed status:** The reviewed resolution specifies one year after adoption or earlier effectiveness of comprehensive legislation. [VERIFY: subsequent legislation, modification and present legal force; original term alone does not establish continuation.]
+- **Affected projects:** Preliminary subdivision and detailed site plans proposing a data center, plus covered unclassified-use determinations and privately initiated zoning-text amendments; ordinary server rooms are distinguished.
+- **Detailed status:** Resolution 125-2026 was adopted and effective 2026-08-04. Its original term ends at the earlier of 2027-08-04 or effective comprehensive data-center legislation; the Council may modify or extend it. [VERIFY: later comprehensive legislation, modification or extension.]
 - **Outcome:** County officials say they have been advised that an outright ban could invite costly legal challenges, so the county is instead pursuing siting requirements, environmental regulations, and permitted zones for data centers during the moratorium period.
 
 ### Worcester County
@@ -429,14 +429,14 @@ State policy is tracked separately: **17 records** (16 typed bill rows and 1 non
 - **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-07-21 (Worcester County Board of County Commissioners' formal adoption of Resolution No. 26-18, establishing the one-year moratorium on data centers and cable landing stations)
 - **Normalized date:** `2026-07-21` (exact)
-- **Duration:** One year, while staff develop definitions, permitted locations, and operating standards
+- **Duration:** Twelve months following the county-reported 2026-07-21 action, or until rescinded earlier by the commissioners; the scheduled 2027-07-21 endpoint remains conditional.
 - **Current end date:** `2027-07-21`
 - **Sectors:** data center
 - **Moratorium ID:** `md-worcester-county-2026`
 - **Legal basis:** Resolution No. 26-18, adopted by the Worcester County Commissioners on 2026-07-21, imposing a temporary moratorium on the submittal and issuance of permits for data centers and cable landing stations for 12 months or until rescinded, and placing a temporary hold on related Board of Zoning Appeals proceedings.
 - **What prompted it:** County study of zoning definitions, permitted locations, and operating standards for data centers and cable landing stations
-- **Affected projects:** —
-- **Detailed status:** The county release describes a twelve-month moratorium or earlier rescission by commissioners. [VERIFY: adopted instrument, effective-date anchor and subsequent rescission/modification/current legal force.]
+- **Affected projects:** Pending and future permit applications for data centers and cable landing stations; related Board of Zoning Appeals proceedings and applications are on hold.
+- **Detailed status:** The county reports that Resolution 26-18 placed a twelve-month moratorium on 2026-07-21, or until earlier rescission, affecting data centers and cable landing stations and related Board of Zoning Appeals proceedings. [VERIFY: adopted instrument, exact operative anchor and later rescission or modification.]
 - **Outcome:** Board of County Commissioners formally adopted Resolution No. 26-18 on 2026-07-21, establishing the one-year moratorium; staff are directed to develop comprehensive zoning regulations governing the construction, location, and operation of data centers and cable landing stations, with legislation to be presented for public consideration once drafting is complete.
 
 ---

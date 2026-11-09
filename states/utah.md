@@ -3,7 +3,7 @@
 
 Working inventory for Utah, generated **November 8, 2026**. Record-level refresh and later-action review remain incomplete.
 
-**9 records** — 9 classified as active or extended, 0 classified as pending, 0 classified as past, 0 classified as rejected proposals.
+**9 records** — 9 classified as active or extended, 0 classified as pending, 0 classified as past, 0 classified as rejected proposals, 0 classified as unknown.
 
 These counts reflect inventory classifications and do not establish current enforceability.
 
@@ -52,7 +52,7 @@ State policy is tracked separately: **8 records** (8 typed bill rows) in [`state
 - **Legal basis:** Ordinance 2026-32, Cache County Council
 - **What prompted it:** Proactive measure; minutes state the county had received no data center inquiries and the action was not a response to a pending project.
 - **Affected projects:** —
-- **Detailed status:** Active as of 2026-07-31; 180-day pause from 2026-06-23, adopted proactively with no pending data center project.
+- **Detailed status:** Recorded active as of 2026-07-31; county adopted the 180-day pause on 2026-06-23, and the council chair reported no inquiries about potential data centers. The attached ordinance ties effectiveness to passage and publication, so the exact start and end dates require verification.
 - **Outcome:** —
 
 ### Clearfield
@@ -61,7 +61,7 @@ State policy is tracked separately: **8 records** (8 typed bill rows) in [`state
 - **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-09-08, Clearfield City Council adopted Ordinance 2026-13; the signed ordinance records four affirmative votes and Councilmember Thompson absent.
 - **Normalized date:** `2026-09-08` (exact)
-- **Duration:** 180 days from adoption (to approximately 2027-03-07).
+- **Duration:** 180 days from the ordinance effective date unless terminated earlier; the retained signed ordinance does not specify that date.
 - **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `ut-clearfield-2026`
@@ -77,7 +77,7 @@ State policy is tracked separately: **8 records** (8 typed bill rows) in [`state
 - **Recorded status:** 🟢 Active
 - **Date enacted:** County Commission voted 7-0 on 2026-07-07 to adopt a temporary land use regulation, effective immediately.
 - **Normalized date:** `2026-07-07` (exact)
-- **Duration:** 180-day pause on acceptance and processing of applications for data centers, data center power plants, and associated digital infrastructure. Planning and Zoning Director Andrew Jackson said no data center application was pending and the county code lacked a data center definition and standards addressing water, power, noise, lighting, and visual impacts.
+- **Duration:** Pause for up to 180 days on acceptance and processing of applications for data centers, data center power plants, and associated digital infrastructure. Planning and Zoning Director Andrew Jackson said no data center application was pending and the county code lacked a data center definition and standards addressing water, power, noise, lighting, and visual impacts.
 - **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `ut-grand-county-2026`
@@ -100,7 +100,7 @@ State policy is tracked separately: **8 records** (8 typed bill rows) in [`state
 - **Legal basis:** Ordinance 2026-13, Iron County Commission
 - **What prompted it:** Adopted while the county develops updated data center and solar power plant regulations.
 - **Affected projects:** Pronghorn Development LLC's Antelope Data Center application (deemed complete, exempt); BrightNight's Red Butte Energy and Data Center Campus application (incomplete, placed on hold)
-- **Detailed status:** Active as of 2026-07-31; 180-day pause from 2026-05-26. This is distinct from the Antelope Data Center conditional-use permit the Planning Commission approved on 2026-06-04, which county staff say was deemed complete before the moratorium took effect and so was not blocked by it.
+- **Detailed status:** Recorded active as of 2026-07-31; the county reports adoption on 2026-05-26. The county form ties the 180-day period to passage and publication; the publication date is unverified. The Antelope Data Center conditional-use permit was approved on 2026-06-04 and county staff say its application was deemed complete before the moratorium took effect, so it was not blocked. An August 10 agenda considered a BESS exception; a secondary report attributes adoption to an August 10 vote, though its page header is dated August 9; the adopted amendment has not been independently verified.
 - **Outcome:** —
 
 ### Logan
@@ -141,7 +141,7 @@ State policy is tracked separately: **8 records** (8 typed bill rows) in [`state
 - **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-08-04, Sanpete County Commission regular meeting, following a recommendation from the Sanpete County Planning Commission.
 - **Normalized date:** `2026-08-04` (exact)
-- **Duration:** Six months from adoption (to approximately 2027-01-31); county officials described the moratorium as renewable 'six months at a time' as long as the county shows it is working toward permanent regulations.
+- **Duration:** Six months reported following the August 4, 2026 approval; the effective date and precise end require verification. County officials described the moratorium as renewable “six months at a time” while the county works toward permanent regulations.
 - **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `ut-sanpete-county-2026`
@@ -164,7 +164,7 @@ State policy is tracked separately: **8 records** (8 typed bill rows) in [`state
 - **Legal basis:** Resolution 2026-04, Wayne County Commission
 - **What prompted it:** —
 - **Affected projects:** —
-- **Detailed status:** Active as of 2026-07-31; 180-day suspension effective 2026-07-08.
+- **Detailed status:** Recorded active as of 2026-07-31; the County Commission approved Resolution 2026-04 on 2026-07-08. The 180-day term begins upon passage and publication as required by law; the publication and precise effective date require verification.
 - **Outcome:** —
 
 ---

@@ -3,7 +3,7 @@
 
 Working inventory for Indiana, generated **November 8, 2026**. Record-level refresh and later-action review remain incomplete.
 
-**35 records** — 24 classified as active or extended, 4 classified as pending, 7 classified as past, 0 classified as rejected proposals.
+**35 records** — 24 classified as active or extended, 4 classified as pending, 7 classified as past, 0 classified as rejected proposals, 0 classified as unknown.
 
 These counts reflect inventory classifications and do not establish current enforceability.
 
@@ -44,7 +44,7 @@ State policy is tracked separately: **10 records** (10 typed bill rows) in [`sta
 | Vermillion County | County | Unverified | data center | 🟡 Pending |
 | Wabash County | County | 2026-08-31 | data center | 🟢 Active |
 | Warrick County | County | 2026-08-11 | data center | 🟢 Active |
-| White County | County | 2025-10-20 | data center | ⚪ Replaced |
+| White County | County | 2025-10-20 | data center | ⚪ Expired |
 | Zionsville | Town | Unverified | data center, battery storage, solar, wind | 🟡 Pending |
 
 ## Detailed entries
@@ -119,14 +119,14 @@ State policy is tracked separately: **10 records** (10 typed bill rows) in [`sta
 - **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-04-13
 - **Normalized date:** `2026-04-13` (exact)
-- **Duration:** 6 months
+- **Duration:** Six calendar months, or until relevant unified zoning ordinance amendments are adopted, whichever occurs first, under Ordinance 2026-O-3.
 - **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `in-dekalb-county-2026`
-- **Legal basis:** Zoning ordinance amendment adopted by unanimous Board of Commissioners vote on 2026-04-13, following unanimous Plan Commission favorable recommendation on 2026-04-08; ordinance or resolution number not captured
+- **Legal basis:** DeKalb County Ordinance 2026-O-3 establishes a moratorium on acceptance, processing and approval of data-center development applications, permits and approvals in unincorporated county jurisdiction. The signed ordinance provides six months or until relevant unified zoning amendments are adopted, whichever occurs first; effectiveness is in accordance with state law.
 - **What prompted it:** Proactive concern that applicants could vest before rules are adopted; energy use, water consumption, size, and accessory facilities
 - **Affected projects:** No specific project identified
-- **Detailed status:** Active
+- **Detailed status:** Commissioners adopted Ordinance 2026-O-3 in April 2026 for six months or until qualifying zoning amendments are adopted, whichever occurs first. A county data-center zoning document, 2026-O-10/UDO-106, was indexed October 12, 2026, but its captured execution fields are blank. [VERIFY: actual effective and end dates, enactment and legal effect of the later document, and later actions/current force.]
 - **Outcome:** County Zoning Administrator Chris Gaumer leading drafting committee; Gaumer and plan commission member Tyler Lanning attending data center seminar; draft regulations targeted for early fall 2026
 
 ### Elkhart
@@ -158,7 +158,7 @@ State policy is tracked separately: **10 records** (10 typed bill rows) in [`sta
 - **Legal basis:** Fayette County Commissioners ordinance pausing data center approvals for one year to allow the Area Plan Commission to develop zoning regulations
 - **What prompted it:** Allow the Area Plan Commission to develop data center zoning regulations
 - **Affected projects:** —
-- **Detailed status:** Active as of 2026-09-23. The News-Examiner's May 2026 coverage of the Connersville Common Council meeting confirms the City of Connersville also agreed to a one-year moratorium on data center consideration, described as "an identical measure" to the county's May 5 ordinance, resolving the contingency the county's moratorium depended on. No news of extension, repeal, or a replacement ordinance was found as of 2026-09-23. [VERIFY exact ordinance/instrument number: still not located in county or city sources reviewed]
+- **Detailed status:** May 2026 News-Examiner coverage reported that the Fayette County Commissioners approved a one-year moratorium on May 5, with a stated May 18 start. A prior review quoted a separate News-Examiner report that the Connersville Common Council agreed to an identical one-year measure; that article body was unavailable in the inspected later capture. [VERIFY: signed county and city instruments, operative term and later actions/current force.]
 - **Outcome:** Fayette County Commissioners approved an ordinance for a one-year pause on data center approvals with a stated May 18, 2026 start.
 
 ### Fort Wayne
@@ -190,8 +190,8 @@ State policy is tracked separately: **10 records** (10 typed bill rows) in [`sta
 - **Legal basis:** Commissioner moratorium extension following 12-month recommendation from Area Plan Commission; signed ordinance or resolution number not captured in available records as of 2026-04-29
 - **What prompted it:** Existing code ambiguity; need for zoning language covering water, electricity, noise, heat, setbacks, and public safety
 - **Affected projects:** No specific project identified
-- **Detailed status:** Active as of 2026-07-31; the moratorium remains the operative instrument, and permanent replacement regulations are still in draft form. Per the Franklin County Area Plan Commission's own July 8, 2026 meeting agenda, 'Moratorium - Update (Data Centers)' remained an item under Unfinished Business, with the next APC meeting calendared for 2026-08-12. The county's posted Data Center Regulations draft (Section 80.06.09) had reached only 'v.4.0', issued 2026-06-22, and is explicitly marked 'a working draft ... It does not carry the force of law.' A May 13, 2026 public hearing gathered comments that the work group was still incorporating as of the June 22 draft.
-- **Outcome:** The Data Center Moratorium Work Group and APC advanced the draft ordinance to v4.0 (dated 2026-06-22) following a May 13, 2026 public hearing that produced roughly 25 public comments; the item remained on the APC's unfinished-business agenda as of the July 8, 2026 meeting, with the next meeting calendared for August 12, 2026. No final adoption vote by the APC or Board of Commissioners has been confirmed as of 2026-07-31.
+- **Detailed status:** Earlier reporting described an extended Franklin County data-center moratorium through February 24, 2027. The APC listed a moratorium update on its July 8, 2026 agenda; a June 22 v4.0 draft and August 28 v5.3 draft were expressly unadopted. The Brookville American reported that commissioners adopted data-center zoning regulations September 30, 2026, following a September 23 APC favorable recommendation. [VERIFY: signed zoning and moratorium instruments, the zoning ordinance’s effect on the moratorium, and later actions/current force.]
+- **Outcome:** The work group and APC advanced draft data-center regulations through v4.0 on June 22 and v5.3 on August 28, 2026. The Brookville American reported an APC favorable recommendation on September 23 and commissioner adoption of zoning regulations on September 30, 2026; their legal effect on the moratorium remains unverified.
 
 ### Fulton County
 
@@ -203,10 +203,10 @@ State policy is tracked separately: **10 records** (10 typed bill rows) in [`sta
 - **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `in-fulton-county-2026`
-- **Legal basis:** Ordinance No. 3022026 per meeting-summary reporting; signed instrument not located on Fulton County agenda center (CivicEngage agenda center returns 404 for the meeting URL slug) as of 2026-04-29
+- **Legal basis:** Fulton County commissioners approved Ordinance 03022026, a data-center moratorium, on March 2, 2026 by a 2–1 vote according to official minutes. The signed instrument and operative term have not been inspected.
 - **What prompted it:** Proposed or rumored data center sites near Akron; concern about water, electricity, displacement, and inadequate zoning ordinance
 - **Affected projects:** Decennial Group's proposed 500 MW data center on a 300-acre site near Akron, confirmed by WNDU and DataCenterDynamics reporting; co-founder David Pavlick stated the end user would be a hyperscale company
-- **Detailed status:** Active
+- **Detailed status:** On March 2, 2026 commissioners approved a data-center moratorium by 2–1 vote. [VERIFY: original ordinance term and effective date, later actions and current force.]
 - **Outcome:** Area Plan Commission expected to appoint a data center committee to study economic and environmental impacts and recommend zoning updates
 
 ### Gary
@@ -232,13 +232,13 @@ State policy is tracked separately: **10 records** (10 typed bill rows) in [`sta
 - **Date enacted:** 2026-03-16 (Board of Commissioners unanimous adoption)
 - **Normalized date:** `2026-03-16` (exact)
 - **Duration:** 24 months from adoption (through approx. 2028-03-16), or until a Grant County zoning ordinance amendment addressing data centers is adopted, whichever occurs first
-- **Current end date:** `2028-03-16`
+- **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `in-grant-county-2026`
 - **Legal basis:** Ordinance 4-2026, adopted unanimously by the Grant County Board of Commissioners on 2026-03-16, citing IC 36-7-2-8 and IC 36-8-4-603
 - **What prompted it:** Halt issuance/receipt of improvement-location permits and related applications for data centers in unincorporated Grant County while the Area Planning Commission studies definitions and drafts zoning standards for siting, installation, operation, and drainage
 - **Affected projects:** —
-- **Detailed status:** Active as of 2026-09-23. Grant County Ordinance 4-2026, adopted unanimously on 2026-03-16, halts issuance of improvement-location permits and related applications for data center structures in unincorporated Grant County for 24 months or until a zoning amendment addressing data centers is adopted, whichever is sooner (through approx. 2028-03-16). As of late July 2026, an Area Plan Commission subcommittee (three citizen members, four APC members) was still drafting ordinance language, including whether to cover cryptocurrency mining, with no permanent ordinance adopted as of the sources reviewed. Independently corroborated by the Grant County Chronicle-Tribune (local newspaper of record; headline/snippet only, body paywalled) and the savrn.com Indiana moratorium tracker.
+- **Detailed status:** CitizenPortal reported that Grant County commissioners adopted Ordinance 4-2026 on March 16, 2026, imposing a 24-month moratorium on data-center improvement-location permits in unincorporated areas. An earlier CitizenPortal review reported an advisory subcommittee discussion of draft data-center rules, including possible cryptocurrency coverage. [VERIFY: signed ordinance and earlier-termination condition, exact endpoint, later zoning actions and current force.]
 - **Outcome:** Board of Commissioners adopted a 24-month moratorium on data center improvement-location permits in unincorporated Grant County
 
 ### Howard County
@@ -311,14 +311,14 @@ State policy is tracked separately: **10 records** (10 typed bill rows) in [`sta
 - **Recorded status:** 🟢 Extended
 - **Date enacted:** 2026-06-16
 - **Normalized date:** `2026-06-16` (exact)
-- **Duration:** One year from adoption (2026-06-16), extended from the original six months by a unanimous Board of Commissioners vote on 2026-08-04
-- **Current end date:** `2027-06-16`
+- **Duration:** Original ordinance provided six calendar months from June 16, 2026 adoption, or until adoption of comprehensive-plan and zoning amendments addressing data centers, whichever occurs first. On August 4, 2026 Indiana Public Radio reported a unanimous extension to a full year; the extension instrument and exact end remain unverified.
+- **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `in-madison-county-2026`
 - **Legal basis:** Ordinance 2026-BC-O-05, adopted unanimously by the Board of Commissioners, following the Plan Commission's 8-1 recommendation after a 2026-06-09 public hearing
 - **What prompted it:** Immediately pause accepting, processing, or approving applications and permits related to data center development, construction, or operation in unincorporated Madison County, and stay pending applications
 - **Affected projects:** —
-- **Detailed status:** Active (extended) as of 2026-09-23. The Madison County Commissioners unanimously approved extending the data center moratorium to a full year (through approximately 2027-06-16) at their 2026-08-04 meeting, following the Planning Commission's 2026-07-15 recommendation. Officials are using the period to draft zoning rules for data center projects, which could include a permanent ban; a new committee (two Planning Commission members, two citizen appointees) was formed to research the issue.
+- **Detailed status:** The June 16, 2026 signed ordinance established a six-month data-center moratorium with an earlier-end condition. Indiana Public Radio reported on August 4 that commissioners unanimously extended the moratorium to a full year while officials drafted zoning rules. [VERIFY: adopted extension text, exact end and earlier-end condition, subsequent actions and current force.]
 - **Outcome:** Board of Commissioners unanimously adopted Ordinance 2026-BC-O-05 (six-month moratorium, effective 2026-06-16), then unanimously voted on 2026-08-04 to extend it to a full year following the Planning Commission's recommendation.
 
 ### Marshall County
@@ -334,7 +334,7 @@ State policy is tracked separately: **10 records** (10 typed bill rows) in [`sta
 - **Legal basis:** Ordinance 2025-9, Certified Proposal to Amend the Marshall County Zoning Ordinance Regarding a Moratorium on Data Centers
 - **What prompted it:** County desire to study data centers, farm-scale solar, utility-scale battery energy storage, and carbon capture before allowing applications; regional pressure from northern Indiana data center proposals
 - **Affected projects:** No specific Marshall County project identified; regional context includes AWS projects in New Carlisle and northern Indiana
-- **Detailed status:** Replaced by permanent data center ban approved 2026-04-20
+- **Detailed status:** The county zoning compilation states that data centers are prohibited within Marshall County zoning jurisdiction. Earlier reporting placed approval of the data-center prohibition on April 20, 2026. [VERIFY: final adopted instrument, its effective date and relationship to the earlier moratorium, including its solar and battery-storage scope.]
 - **Outcome:** Commissioners approved a permanent data center prohibition on 2026-04-20; secondary reporting describes it as possibly Indiana's first permanent county data center ban
 
 ### Merrillville (Lake County)
@@ -427,10 +427,10 @@ State policy is tracked separately: **10 records** (10 typed bill rows) in [`sta
 - **Current end date:** `—`
 - **Sectors:** data center, solar, wind
 - **Moratorium ID:** `in-putnam-county-2025`
-- **Legal basis:** Ordinance No. 2025-11-17-1 establishing a moratorium on new small modular reactors, data centers, solar energy conservation systems, and wind energy systems
+- **Legal basis:** The November 17, 2025 commissioners minutes record a separate 2–1 solar moratorium vote; GIANT FM reported the measure also covered data centers and wind. The moratorium’s actual instrument number and full text remain unverified.
 - **What prompted it:** County review of UDO standards after solar project controversy; concern that newer technologies, including data centers, were not adequately addressed
 - **Affected projects:** Primarily triggered by EnergyRe/4Leaf solar dispute; no named data center project identified
-- **Detailed status:** Active
+- **Detailed status:** GIANT FM reported a 2–1 vote on November 17, 2025 for a one-year moratorium covering data centers, solar and wind, with a reported end of November 17, 2026. [VERIFY: actual moratorium instrument, operative scope and term, later actions and current force.]
 - **Outcome:** Pending UDO review; EnergyRe later withdrew a 150 MW solar rezoning application, but no data center replacement rules were identified
 
 ### Shelby County
@@ -455,14 +455,14 @@ State policy is tracked separately: **10 records** (10 typed bill rows) in [`sta
 - **Recorded status:** 🟢 Active
 - **Date enacted:** 2025-12-15
 - **Normalized date:** `2025-12-15` (exact)
-- **Duration:** Up to 1 year
+- **Duration:** Up to one year from adoption on 2025-12-15, pending adoption of data-center zoning regulations
 - **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `in-starke-county-2025`
 - **Legal basis:** Ordinance No. 2025-37
 - **What prompted it:** Zoning ordinances lacked hyperscale data center standards; residents raised light, environmental, and infrastructure concerns
 - **Affected projects:** Hyperscale data centers of 5,000 square feet or larger; no named project in captured ordinance
-- **Detailed status:** Active; Plan Commission circulated a draft Resolution No. 2026-PC-XX (Findings of Fact for regulation/restriction of commercial data centers) dated March 2026 but no replacement adopted as of 2026-04-29
+- **Detailed status:** Adopted 2025-12-15 for up to one year, pending data-center zoning. Plan Commission circulated a draft Resolution No. 2026-PC-XX dated March 2026; no replacement adopted as of 2026-04-29. [VERIFY later action and current force]
 - **Outcome:** Pending zoning amendment process for hyperscale data center regulation
 
 ### Starke County
@@ -580,7 +580,7 @@ State policy is tracked separately: **10 records** (10 typed bill rows) in [`sta
 ### White County
 
 - **Type:** County
-- **Recorded status:** ⚪ Replaced
+- **Recorded status:** ⚪ Expired
 - **Date enacted:** 2025-10-20
 - **Normalized date:** `2025-10-20` (exact)
 - **Duration:** 6 months, through 2026-04-20, or until comprehensive plan and zoning updates were adopted
@@ -590,7 +590,7 @@ State policy is tracked separately: **10 records** (10 typed bill rows) in [`sta
 - **Legal basis:** Ordinance No. 2025-10-20-02
 - **What prompted it:** Existing comprehensive plan and zoning ordinance did not adequately address data center impacts; public opposition and uncertainty around a proposed project near Wolcott
 - **Affected projects:** Proposed White County project near Wolcott; no verified MW total in local ordinance capture
-- **Detailed status:** Replaced by permanent zoning framework. The captured updated 2008 Zoning Ordinance (through 2026-02-09) includes a dedicated Section 3.20 Data Centers; no separate termination ordinance for Ordinance No. 2025-10-20-02 was located in captured records as of 2026-04-29
+- **Detailed status:** The signed October 20, 2025 ordinance sets a six-month outside term ending April 20, 2026, or earlier upon adoption of both plan and zoning amendments. Recorded expired on that scheduled outside term; actual earlier termination and later extension or other action remain unverified. The September 2026 zoning compilation alone does not prove replacement.
 - **Outcome:** White County zoning now includes a dedicated Section 3.20 Data Centers with application, water, noise, setback, screening, and emergency-response requirements
 
 ### Zionsville

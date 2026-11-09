@@ -3,7 +3,7 @@
 
 Working inventory for New Mexico, generated **November 8, 2026**. Record-level refresh and later-action review remain incomplete.
 
-**7 records** — 5 classified as active or extended, 1 classified as pending, 1 classified as past, 0 classified as rejected proposals.
+**7 records** — 5 classified as active or extended, 1 classified as pending, 1 classified as past, 0 classified as rejected proposals, 0 classified as unknown.
 
 These counts reflect inventory classifications and do not establish current enforceability.
 
@@ -13,7 +13,7 @@ State policy is tracked separately: **3 records** (3 typed bill rows) in [`state
 |---|---|---|---|---|
 | Colfax County | County | 2026-08-25 | data center | 🟢 Active |
 | Grant County | County | 2026-10-22 | data center | 🟡 Pending |
-| Rio Communities | City | 2026-08-26 | data center, general | 🟢 Active |
+| Rio Communities | City | 2026-08-24 | data center, general | 🟢 Active |
 | Santa Fe County | County | 2026-06-30 | data center | 🟢 Active |
 | Sierra County | County | 2026-07-21 | data center | 🟢 Active |
 | Silver City | Town | 2021-08-24 | solar | 🔴 Rescinded |
@@ -27,14 +27,14 @@ State policy is tracked separately: **3 records** (3 typed bill rows) in [`state
 - **Recorded status:** 🟢 Active
 - **Date enacted:** Reported adopted 'late last month' (late August 2026) per CPR.org's September 3, 2026 article; a public hearing on the proposed ordinance was held August 11, 2026 and the county's own public notice states the Board of Commissioners could consider adoption at its August 25, 2026 meeting.
 - **Normalized date:** `2026-08-25` (unverified)
-- **Duration:** One year from adoption (to approximately 2027-08-25).
+- **Duration:** One year from the effective date; the retained unsigned ordinance provides effectiveness 30 days after clerk recordation and automatic repeal one year later. Executed text and recordation date remain to be verified.
 - **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `nm-colfax-county-2026`
 - **Legal basis:** Ordinance No. 2026-02 (Colfax County), 'An Ordinance for a Data Center Moratorium,' prohibiting the establishment or expansion of any data center in unincorporated areas of the county and putting municipalities within the county on notice that the county opposes data centers in incorporated areas as well; public hearing held August 11, 2026 per the county's official notice, adoption considered at the August 25, 2026 commission meeting.
 - **What prompted it:** Concern over water use during a severe/extreme drought affecting the county, plus concerns about energy use, heat, and noise; came after the City of Raton's since-expired memorandum of understanding with a data-center developer (Atterix LLC) drew controversy.
 - **Affected projects:** None sited in unincorporated Colfax County; the City of Raton separately had a since-expired memorandum of understanding with Atterix LLC to consider a data center at a former K-Mart site, but that is a municipal, not county, matter and is unaffected by this county ordinance.
-- **Detailed status:** Active as of 2026-09-23. Colfax County Commissioners unanimously adopted Ordinance No. 2026-02, a one-year moratorium on establishing or expanding data centers in unincorporated areas of the county, at their August 25, 2026 meeting (per the county's own public notice scheduling that consideration and CPR.org's September 3, 2026 report that the ordinance 'passed unanimously late last month'). The moratorium does not bind municipalities within the county (such as the City of Raton), which could still approve a data center; Raton itself considered but postponed its own moratorium proposal around the same time.
+- **Detailed status:** CPR reported on September 3, 2026 that commissioners unanimously adopted a one-year moratorium late in August on data centers in unincorporated Colfax County. The retained county text is unsigned and provides effectiveness 30 days after recordation; the exact adoption date, recordation and later legal force have not been established. Municipalities retain authority over their own land use. [VERIFY: executed ordinance, recordation, operative interval and subsequent action.]
 - **Outcome:** Colfax County Commission unanimously adopted a one-year moratorium on new or expanded data centers in unincorporated county territory.
 
 ### Grant County
@@ -57,8 +57,8 @@ State policy is tracked separately: **3 records** (3 typed bill rows) in [`state
 
 - **Type:** City
 - **Recorded status:** 🟢 Active
-- **Date enacted:** 2026-08-26 (City Council, 4-0)
-- **Normalized date:** `2026-08-26` (exact)
+- **Date enacted:** Reported approved Monday, August 24, 2026 (inferred from the August 27 report); executed measure and minutes not reviewed.
+- **Normalized date:** `2026-08-24` (unverified)
 - **Duration:** 365-day moratorium
 - **Current end date:** `—`
 - **Sectors:** data center, general
@@ -66,7 +66,7 @@ State policy is tracked separately: **3 records** (3 typed bill rows) in [`state
 - **Legal basis:** Council-approved 365-day moratorium on undefined land uses exceeding 20,000 sq ft in commercial, industrial, and manufacturing zones
 - **What prompted it:** CBRE marketing 365+ acres as a premier data center development site; city zoning code has no definition for data centers.
 - **Affected projects:** CBRE-marketed 365+ acre site.
-- **Detailed status:** Active as of 2026-09-23. Council approved 4-0 (reported as Monday, 2026-08-24/26) a 365-day moratorium on undefined uses over 20,000 sq ft in commercial/industrial/manufacturing zones, targeting data centers without naming them by definition; also directed staff to draft data-center-specific zoning definitions.
+- **Detailed status:** An August 27, 2026 report describes council approval on Monday of a 365-day moratorium on undefined uses over 20,000 square feet in commercial, industrial and manufacturing zones, following discussion of data centers. The reported 4-0 vote was to table the zoning definitions item. Staff were directed to develop definitions; the operative start and later action are not established. [VERIFY: signed measure, effective date and later legal force.]
 - **Outcome:** Staff drafting data center zoning definitions.
 
 ### Santa Fe County
@@ -91,7 +91,7 @@ State policy is tracked separately: **3 records** (3 typed bill rows) in [`state
 - **Recorded status:** 🟢 Active
 - **Date enacted:** Reportedly 2026-07-21, Board of County Commissioners, unanimous vote amending agenda item Resolution 2026-51 during the meeting
 - **Normalized date:** `2026-07-21` (exact)
-- **Duration:** 18 months from adoption (2026-07-21), to approximately 2028-01-21, confirmed by Resolution No. 2026-51 as named in KRQE and gpkmedia.com/Sierra County Sentinel reporting and listed on the Sierra County Clerk's resolutions index.
+- **Duration:** Eighteen months; the signed resolution does not establish an explicit start date or endpoint in the reviewed text.
 - **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `nm-sierra-county-2026`
@@ -123,14 +123,14 @@ State policy is tracked separately: **3 records** (3 typed bill rows) in [`state
 - **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-06-09, unanimous vote of the Socorro County Board of Commissioners.
 - **Normalized date:** `2026-06-09` (exact)
-- **Duration:** One year from adoption (to approximately 2027-06-09).
+- **Duration:** One year, as reported at adoption; the instrument and effective-date anchor have not been established.
 - **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `nm-socorro-county-2026`
 - **Legal basis:** Socorro County Board of Commissioners moratorium action (instrument number/ordinance-vs-resolution designation not located; no primary county document was retrievable, as the county's own resolution archive and meeting-packet portal are behind an auth-gated Google Drive/Sites link).
-- **What prompted it:** Public opposition to a proposed roughly 10,000-acre solar-plus-data-center facility ("Green Data Center" project) and concerns over water rights/use, energy infrastructure, and public safety; commission appointed a 15-member Blue Ribbon Committee (named 2026-07-29 from 35 applicants) to study these issues and deliver non-binding recommendations at least two months before the moratorium expires.
+- **What prompted it:** Public opposition to a proposed roughly 10,000-acre solar-plus-data-center facility ("Green Data Center" project) and concerns over water rights/use, energy infrastructure, and public safety. Earlier attribution named a 15-member Blue Ribbon Committee on July 29 from 35 applicants and said it would deliver nonbinding recommendations at least two months before expiration. An October 23 Albuquerque Journal article instead reports 15 members appointed in August to study data centers and related infrastructure and make nonbinding recommendations; the dates and deadline remain unverified.
 - **Affected projects:** Proposed 'Green Data Center' project (~10,000-acre solar and data-center facility) that drew public opposition ahead of the vote.
-- **Detailed status:** Active as of 2026-07-31 (adopted 2026-06-09, one-year term). Blue Ribbon Committee named 2026-07-29 and is actively working; committee must report at least two months before the moratorium's expiration.
+- **Detailed status:** June 10, 2026 reporting describes unanimous June 9 adoption of a one-year moratorium on data centers and related infrastructure in unincorporated Socorro County. The earlier record reports a Blue Ribbon Committee named July 29 from 35 applicants and a requirement to report at least two months before expiration; these details were not independently verified. An October 23 Albuquerque Journal article instead reports 15 members appointed in August to study data centers and related infrastructure and make nonbinding recommendations. The dates may refer to different steps. The county instrument, term anchor and later legal force remain unverified. [VERIFY: official instrument, term anchor, committee details and later action.]
 - **Outcome:** County commission unanimously adopted a one-year moratorium on data centers and their direct supporting infrastructure; a fact-finding Blue Ribbon Committee was subsequently appointed to advise the board before expiration.
 
 ---

@@ -3,7 +3,7 @@
 
 Working inventory for Pennsylvania, generated **November 8, 2026**. Record-level refresh and later-action review remain incomplete.
 
-**26 records** — 23 classified as active or extended, 0 classified as pending, 3 classified as past, 0 classified as rejected proposals.
+**26 records** — 22 classified as active or extended, 0 classified as pending, 4 classified as past, 0 classified as rejected proposals, 0 classified as unknown.
 
 These counts reflect inventory classifications and do not establish current enforceability.
 
@@ -17,7 +17,7 @@ State policy is tracked separately: **22 records** (18 typed bill rows and 4 non
 | Buffalo Township (Butler County) | Township | 2026-08-12 | data center | 🟢 Active |
 | Butler Township (Luzerne County) | Township | 2026-05-12 | data center | 🟢 Active |
 | Center Township (Butler County) | Township | 2026-06-10 | data center, general | 🟢 Active |
-| Clinton Township (Wayne County) | Township | 2026-04-30 | data center | 🟢 Active |
+| Clinton Township (Wayne County) | Township | Unverified | data center | 🟢 Active |
 | Conewago Township (York County) | Township | 2026-07-07 | data center | 🟢 Active |
 | Dorrance Township | Township | 2025-08-11 | data center | ⚪ Replaced |
 | Doylestown Township | Township | 2026-06-16 | data center | 🟢 Active |
@@ -32,10 +32,10 @@ State policy is tracked separately: **22 records** (18 typed bill rows and 4 non
 | Mount Carmel Township | Township | 2026-05-18 | data center | 🟢 Active |
 | Muncy Township | Township | 2026-04-28 | data center | 🟢 Active |
 | Smithfield Township (Monroe County) | Township | 2026-05-06 | data center | ⚪ Replaced |
-| Upper Burrell Township | Township | 2026-05 | data center | 🟢 Active |
+| Upper Burrell Township | Township | 2026-05 | data center | ⚪ Expired |
 | Warrington Township (York County) | Township | 2026-05-13 | data center | 🟢 Active |
 | West Mahanoy Township | Township | 2026-09-15 | data center, solar | 🟢 Active |
-| West Whiteland Township | Township | 2026-05 | data center | 🟢 Active |
+| West Whiteland Township | Township | Unverified | data center | 🟢 Active |
 | Williamsport | City | 2026-06-25 | data center | 🟢 Active |
 
 ## Detailed entries
@@ -46,14 +46,14 @@ State policy is tracked separately: **22 records** (18 typed bill rows and 4 non
 - **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-07-13, Adams Township Board of Supervisors, unanimous resolution formalizing a June 22, 2026 motion to establish the moratorium (Butler County)
 - **Normalized date:** `2026-07-13` (exact)
-- **Duration:** 180 days from the July 13, 2026 resolution (following the June 22, 2026 motion) to draft a curative amendment addressing six business types not covered by current zoning: data centers, power generation plants, large-scale and accessory solar power systems, last-mile fulfillment centers, micro-warehouses, and dispensaries.
+- **Duration:** The June 23 report describes a 180-day moratorium on applications for data centers, power generation plants, large-scale and accessory solar systems, last-mile fulfillment centers, micro-warehouses, and dispensaries following the June 22 vote. A July 13 resolution allowed up to 180 days to draft a curative amendment. The operative start and end remain unverified.
 - **Current end date:** `—`
 - **Sectors:** data center, solar, general
 - **Moratorium ID:** `pa-adams-township-butler-county-2026`
 - **Legal basis:** Adams Township Board of Supervisors resolution (a follow-up to the June 22, 2026 motion), invoking the municipal curative amendment process under the PA Municipalities Planning Code and declaring the zoning ordinance's exclusion of the six business types 'does not bear a substantial relationship to the public health, safety or morals' of residents, and that a sweeping ban 'cannot pass constitutional muster' and is therefore invalid (specific resolution number not located in sources reviewed).
 - **What prompted it:** Regulatory gap: current zoning ordinance does not address data centers, power generation plants, large-scale/accessory solar, last-mile fulfillment centers, micro-warehouses, or dispensaries, allowing any of them to be built anywhere in the township. Board Chairman Russell Ford emphasized the action was preemptive, not prompted by any pending application.
 - **Affected projects:** None named; officials stated the moratorium was preemptive and not prompted by any pending application for any of the six covered business types.
-- **Detailed status:** Active as of 2026-09-23, running toward its computed 180-day expiry (~2027-01-09). Adopted via a unanimous June 22, 2026 motion and formalized by resolution at the July 13, 2026 meeting, the moratorium pauses applications for six business types (data centers, power generation plants, large-scale/accessory solar, last-mile fulfillment centers, micro-warehouses, dispensaries) while the township prepares a curative amendment to correct the declared invalidity. No news of an extension, adoption of the amendment, or repeal was found in sources reviewed through 2026-09-23.
+- **Detailed status:** Butler Eagle reported a June 22, 2026 vote approving a 180-day application moratorium on six uses: data centers, power generation plants, large-scale and accessory solar systems, last-mile fulfillment centers, micro-warehouses, and dispensaries. It reported that the unanimous July 13 resolution followed the motion and allowed up to 180 days for a curative zoning amendment. Officials described the action as preemptive rather than responding to a pending application. The earlier review found no news of extension, amendment adoption or repeal through 2026-09-23; later action is not established by the retained sources. [VERIFY: operative start and end, final resolution text and subsequent action.]
 - **Outcome:** Adams Township Board of Supervisors adopted a 180-day moratorium (via a June 22, 2026 motion, formalized by resolution on July 13, 2026) on six business types including data centers and large-scale solar, to allow time to draft a curative amendment to the zoning ordinance.
 
 ### Bensalem Township
@@ -69,7 +69,7 @@ State policy is tracked separately: **22 records** (18 typed bill rows and 4 non
 - **Legal basis:** Township Council resolution, Municipal Curative Amendment (Pennsylvania Municipalities Planning Code Section 609.2)
 - **What prompted it:** Zoning ordinance lacked provisions for data centers, solar energy, and wind energy.
 - **Affected projects:** —
-- **Detailed status:** Active as of 2026-07-31; 180-day curative-amendment period from 2026-06-08. No data center application was pending at adoption.
+- **Detailed status:** June 8, 2026 council minutes record a 5-0 curative-amendment resolution and describe a 180-day period concerning data centers, solar and wind. Earlier reporting attributed no pending data-center application at adoption. On September 28 council discussed a draft data-center ordinance and requested changes; no vote on that draft was reported. Later adoption and the actual operative end remain unverified. [VERIFY: final amendment, operative interval and subsequent action.]
 - **Outcome:** —
 
 ### Brookville Borough
@@ -101,7 +101,7 @@ State policy is tracked separately: **22 records** (18 typed bill rows and 4 non
 - **Legal basis:** Buffalo Township Resolution 2026-8, approved August 12, 2026, initiating a municipal curative amendment relative to data centers.
 - **What prompted it:** Regulatory gap: township zoning ordinance does not address data centers; adopted proactively -- following similar action in other Butler County townships (Adams, Center, Lancaster) -- specifically to prevent a developer from forcing the issue via a landowner curative amendment.
 - **Affected projects:** None named; no application was pending as of adoption.
-- **Detailed status:** August 12 minutes record unanimous approval of Resolution 2026-8 initiating a municipal curative amendment relative to data centers. Final operative text, precise legal effect, effective interval and later action remain unresolved; initiating a curative process is distinguished from completed zoning adoption. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
+- **Detailed status:** August 12 minutes record unanimous approval of Resolution 2026-8 initiating a municipal curative amendment relative to data centers. On October 14 supervisors voted to send a draft data-center ordinance to the Butler County Planning Commission for review, according to October 15 reporting; adoption was anticipated, not reported. Final operative text, precise legal effect, effective interval and later action remain unresolved; initiating a curative process is distinguished from completed zoning adoption. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** Buffalo Township Board of Supervisors created a municipal curative amendment, giving the township 180 days to draft data-center zoning rules and effectively barring new data-center proposals during that period.
 
 ### Butler Township (Luzerne County)
@@ -117,7 +117,7 @@ State policy is tracked separately: **22 records** (18 typed bill rows and 4 non
 - **Legal basis:** Resolution No. 05122026, Municipal Curative Amendment (Pennsylvania Municipalities Planning Code Section 609.2)
 - **What prompted it:** Zoning ordinance did not define or regulate data centers.
 - **Affected projects:** —
-- **Detailed status:** Active as of 2026-07-31; 180-day curative-amendment period from 2026-05-12.
+- **Detailed status:** A May 13 report says Butler Township (Luzerne County) supervisors approved a resolution declaring zoning invalid and described a 180-day limited moratorium for a municipal curative amendment. The retained official resolution URL returned 404; later action and actual operative interval are unresolved. [VERIFY: resolution text, operative interval and subsequent action.]
 - **Outcome:** —
 
 ### Center Township (Butler County)
@@ -126,7 +126,7 @@ State policy is tracked separately: **22 records** (18 typed bill rows and 4 non
 - **Recorded status:** 🟢 Active
 - **Date enacted:** On 2026-06-10, the Board of Supervisors carried a motion declaring the zoning ordinance substantively invalid as to data centers and power generation plant/systems and directing preparation of a resolution for July 8; the July 8 minutes record approval of a data-center curative amendment resolution.
 - **Normalized date:** `2026-06-10` (unverified)
-- **Duration:** 180-day pause halting data center and power-generation-plant-system development while the township prepares zoning standards.
+- **Duration:** June 10 minutes direct preparation and adoption of a curative amendment within 180 days of the motion. Contemporaneous reporting describes a 180-day pause on data-center and power-generation development; the July resolution text and operative legal interval are unverified.
 - **Current end date:** `—`
 - **Sectors:** data center, general
 - **Moratorium ID:** `pa-center-township-2026`
@@ -140,17 +140,17 @@ State policy is tracked separately: **22 records** (18 typed bill rows and 4 non
 
 - **Type:** Township
 - **Recorded status:** 🟢 Active
-- **Date enacted:** Board of Supervisors instituted a six-month moratorium in April 2026; the River Reporter dates it to the April 8 meeting in one story and to April 30 in another (April 30 is also the date the Linde Corporation application was received). Recorded as 2026-04-30 pending minutes. [VERIFY exact April meeting date]
-- **Normalized date:** `2026-04-30` (range)
+- **Date enacted:** The River Reporter reports an April 2026 six-month moratorium, but dates the action to April 8 in one story and April 30 in another; April 30 is also the Linde application receipt date. [VERIFY exact April action date]
+- **Normalized date:** `—` (range)
 - **Duration:** A six-month moratorium on data center development was reported in April 2026; the exact adoption date and legal effect remain disputed. Six calendar months are not assumed to equal 180 days.
 - **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `pa-clinton-township-wayne-county-2026`
-- **Legal basis:** Clinton Township Board of Supervisors vote (April 30, 2026 meeting) adopting a six-month moratorium on data-center applications while a draft Subdivision and Land Development Ordinance (SALDO) amendment, prepared by Solicitor Jeffrey Treat since a December 2025 request, is reviewed by the Township and Wayne County Planning Commissions (specific resolution number not located in sources reviewed).
-- **What prompted it:** Specific project combined with a regulatory gap: the moratorium was adopted the same day Linde Corporation submitted a proposal for a data center and gas-fired power plants on a 758-acre former mining parcel near Browndale, on land identified as containing one of only two 'exceptional value waters' streams in Wayne County (Roger's Creek, tributary to the Lackawanna/Susquehanna); the township had already been drafting data-center standards since a December 2025 board request.
-- **Affected projects:** Linde Corporation's proposed $6 billion data center and two gas-fired power plants on 758 acres of former mining land near Browndale; the application was submitted April 30, 2026 (the same day the moratorium was adopted) and was unanimously rejected by the Board of Supervisors on 2026-09-14 for failing to meet SALDO standards; an appeal to Wayne County Court is expected.
+- **Legal basis:** A six-month data-center moratorium was reported by The River Reporter, with its reports assigning adoption to April 8 or April 30, 2026. May 29 minutes record the solicitor’s opinion that the April moratorium would not hold up legally because the township lacks zoning; the underlying instrument and actual effect are unverified.
+- **What prompted it:** Specific project combined with a regulatory gap: the moratorium was reported in April and Linde Corporation submitted a proposal for a data center and gas-fired power plants on a 758-acre former mining parcel near Browndale, on land identified as containing one of only two 'exceptional value waters' streams in Wayne County (Roger's Creek, tributary to the Lackawanna/Susquehanna); the township had already been drafting data-center standards since a December 2025 board request.
+- **Affected projects:** Linde Corporation's proposed $6 billion data center and two gas-fired power plants on 758 acres of former mining land near Browndale; the application was submitted April 30, 2026 (the reported moratorium date is disputed) and was unanimously rejected by the Board of Supervisors on 2026-09-14 for failing to meet SALDO standards; an appeal to Wayne County Court is expected.
 - **Detailed status:** June reporting describes a six-month April pause. May 29 official emergency-meeting minutes record solicitor Bugaj opinion that it would not hold up legally because the township lacks zoning; this is not a judicial determination. Exact adoption chronology, valid operative term, actual effect and later action remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
-- **Outcome:** Clinton Township (Wayne County) Board of Supervisors voted on 2026-04-30 to impose a six-month moratorium on data-center applications while it finalized a data-center ordinance; the township separately and unanimously rejected the pending Linde Corporation data center/power-plant land development plan on 2026-09-14 for failing to meet subdivision and land development standards.
+- **Outcome:** The township reportedly instituted a six-month data-center moratorium in April 2026; the reported adoption date and legal effect are disputed. The prior record separately reports that supervisors rejected Linde Corporation’s land-development plan on September 14, 2026; the retained June sources do not address that later action.
 
 ### Conewago Township (York County)
 
@@ -165,7 +165,7 @@ State policy is tracked separately: **22 records** (18 typed bill rows and 4 non
 - **Legal basis:** Resolution 2026-13 (Conewago Township, York County), adopted unanimously at the July 7, 2026 Board of Supervisors meeting, invoking the municipal curative-amendment process to prevent a developer from filing a substantive validity challenge to the township's zoning ordinance over its silence on data centers.
 - **What prompted it:** Regulatory gap: zoning ordinance did not address data centers; a draft data-center ordinance and zoning overlay map, developed with township counsel (Eckert Seamans) and engineering consultant (CS Davidson), was presented to the public at a July 23, 2026 special joint meeting of the Board of Supervisors and Planning Commission.
 - **Affected projects:** None named; a prior 2025 proposal to rezone land near Bible Baptist Church for a data center (developer identified in some coverage) drew opposition but is treated separately from this proactive, township-wide moratorium.
-- **Detailed status:** Active as of 2026-09-23, running toward its official 2027-01-03 end date (per the township's own presentation). A draft ordinance establishing a Data Center Overlay district (100-acre minimum parcel, 250-foot perimeter setback, 90-foot height cap, 50-foot landscaped buffer, acoustic standards, etc.) has been presented publicly but not yet adopted as of this research pass; residents continue to organize opposition to rezoning for data centers in the township.
+- **Detailed status:** Township presentation reports adoption of Resolution 2026-13 on July 7, 2026 and states the initial 180-day moratorium ends January 3, 2027. The township information page lists a September draft data-center ordinance and August 20 meeting materials; listing a draft does not establish adoption. Later extension, replacement or repeal and actual legal force remain unverified. [VERIFY: later adopted ordinance, operative end and current legal force.]
 - **Outcome:** Conewago Township Board of Supervisors unanimously adopted Resolution 2026-13 on 2026-07-07, a 180-day moratorium on data-center applications (ending 2027-01-03), while it develops a Data Center Overlay zoning ordinance.
 
 ### Dorrance Township
@@ -174,15 +174,15 @@ State policy is tracked separately: **22 records** (18 typed bill rows and 4 non
 - **Recorded status:** ⚪ Replaced
 - **Date enacted:** 2025-08-11, Dorrance Township Board of Supervisors, unanimous vote (Luzerne County)
 - **Normalized date:** `2025-08-11` (exact)
-- **Duration:** Up to 180 days from Aug. 11, 2025 to amend the zoning ordinance; the process concluded early when the township adopted a permanent zoning amendment on 2025-09-22 (about six weeks later).
+- **Duration:** Previously reported as up to 180 days from August 11, 2025 to amend the zoning ordinance. Supervisors adopted a zoning amendment on September 22, 2025; its effective date does not itself establish when the moratorium ended.
 - **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `pa-dorrance-township-2025`
-- **Legal basis:** Dorrance Township Board of Supervisors ordinance (adopted 2025-08-11) imposing 'a temporary moratorium of the acceptance, processing, and approval of applications for data centers and similar technology, related businesses that consume large amounts of power and use water for cooling, throughout all zoning districts of the township'; superseded by a permanent zoning amendment adopted 2025-09-22 (unanimous 3-0 vote) establishing conditional-use standards for data centers, data center accessory structures, power substations, and data center campuses.
+- **Legal basis:** Dorrance Township supervisors approved an ordinance imposing a temporary moratorium on acceptance, processing and approval of data-center and similar high-power and water-cooling applications throughout the township. Supervisors adopted a zoning amendment on September 22, 2025 establishing conditional-use standards; whether it immediately terminated the moratorium is unverified.
 - **What prompted it:** Regulatory gap combined with public pressure: zoning ordinance was silent on data centers; adopted after more than 100 residents packed a planning commission meeting following rumors that a data center was planned for the township, though officials said no proposal had been received.
 - **Affected projects:** None named as pending at the original moratorium's adoption. The subsequent zoning-validity challenge came from Brewster Land Company over a 155-acre B-2 parcel, adjudicated separately by the Zoning Hearing Board and later appealed to court by the developer.
-- **Detailed status:** Replaced as of 2025-09-22. The township's Aug. 11, 2025 temporary moratorium was superseded about six weeks later when supervisors voted 3-0 to permanently amend the zoning ordinance's conditional-use standards to regulate data centers, data center accessory structures, power substations, and data center campuses (covering noise, vibration, traffic and police/fire impact, and a water feasibility study requirement). The permanent amendment was later challenged by developer Brewster Land Company (landowner curative amendment / validity challenge over a 155-acre B-2-zoned parcel); the Zoning Hearing Board rejected that challenge (outcome reported as a township 'win' around 2026-05/06), and the developer has since appealed to court (as of an Aug. 31, 2026 report).
-- **Outcome:** Dorrance Township Board of Supervisors adopted a temporary moratorium on data-center applications on 2025-08-11, which was replaced about six weeks later by a permanent zoning amendment (2025-09-22) establishing conditional-use standards for data centers, data center accessory structures, power substations, and data center campuses.
+- **Detailed status:** The township's Aug. 11, 2025 temporary moratorium was followed by supervisors' 3-0 vote on September 22, 2025 to amend the zoning ordinance's conditional-use standards to regulate data centers, data center accessory structures, power substations, and data center campuses (covering noise, vibration, traffic and police/fire impact, and a water feasibility study requirement). The permanent amendment was later challenged by developer Brewster Land Company (landowner curative amendment / validity challenge over a 155-acre B-2-zoned parcel); the Zoning Hearing Board rejected that challenge (outcome reported as a township 'win' around 2026-05/06), and the developer has since appealed to court (as of an Aug. 31, 2026 report). [VERIFY: whether the September 22 amendment immediately terminated or superseded the moratorium and the later court disposition.]
+- **Outcome:** Dorrance Township supervisors adopted a temporary moratorium on data-center applications on August 11, 2025. On September 22, 2025 they adopted a zoning amendment establishing conditional-use standards; whether that amendment immediately ended the temporary moratorium is unverified.
 
 ### Doylestown Township
 
@@ -197,7 +197,7 @@ State policy is tracked separately: **22 records** (18 typed bill rows and 4 non
 - **Legal basis:** Doylestown Township Board of Supervisors resolution (adopted June 16, 2026) invoking the municipal curative amendment process, declaring the zoning ordinance's failure to identify or regulate data centers 'substantively invalid' (specific resolution number not located in sources reviewed); township solicitor Peter Nelson advised the process requires adoption of a new ordinance within 180 days and bars reuse of the same curative-amendment tool for three years.
 - **What prompted it:** Regulatory gap: zoning ordinance does not identify or regulate data centers as a permitted use; adopted proactively as part of a broader wave of Bucks County municipalities (following neighboring Falls Township's contested Amazon data center) acting to define and regulate the use before an application arrives.
 - **Affected projects:** None; no data center application is pending in Doylestown Township.
-- **Detailed status:** Active as of 2026-09-23, nearing its computed 2026-12-13 end date. The vote does not itself adopt final zoning rules; it starts a 180-day period for officials and consultants to draft standards on where data centers may be located, how they are defined, and what development standards would apply. No application is pending in the township.
+- **Detailed status:** The record reports a June 16, 2026 curative-amendment process and no pending application. On September 28 the Planning Commission voted 5-0 to recommend a draft ordinance, and an October 27 supervisors agenda listed a hearing and action on the proposal. The agenda does not establish the hearing outcome or adoption. [VERIFY: original resolution, operative interval and later board action.]
 - **Outcome:** Doylestown Township Board of Supervisors voted on June 16, 2026 to begin a 180-day municipal curative amendment process, temporarily freezing any data-center applications while the township drafts zoning rules.
 
 ### East Whiteland Township
@@ -245,24 +245,24 @@ State policy is tracked separately: **22 records** (18 typed bill rows and 4 non
 - **Legal basis:** Resolution 2026-03 (Gregg Township, Union County), adopted at an Aug. 20, 2026 special meeting
 - **What prompted it:** Curative-amendment process to add data-center zoning standards, prompted by PNK Group's pending application for a large data-center campus at Great Stream Commons and the absence of applicable standards in the township's zoning ordinance.
 - **Affected projects:** PNK Group's pending application for a data center at Great Stream Commons (an initial 60-megawatt phase with a full build-out up to 240 megawatts) is expressly excluded from the moratorium and continues to be processed.
-- **Detailed status:** Active as of 2026-09-23. Adopted unanimously at an Aug. 20, 2026 special meeting; bars new data center/technical development applications for up to 180 days (through approximately 2027-02-16) while the township completes a curative amendment. Does not apply to PNK Group's pending application, which continues to be processed and has been the subject of contested public hearings (through at least Aug. 25, 2026), including reports that several formerly opposed neighboring households signed non-opposition or support letters after a confidential settlement offer from PNK.
+- **Detailed status:** Active as of 2026-09-23. Adopted unanimously at an Aug. 20, 2026 special meeting; bars new data center/technical development applications for up to 180 days (through approximately 2027-02-16) while the township completes a curative amendment. Does not apply to PNK Group's pending application, which continues to be processed and has been the subject of contested public hearings (through at least Aug. 25, 2026), including reports that several formerly opposed neighboring households signed non-opposition or support letters after a confidential settlement offer from PNK. [VERIFY: executed resolution, actual operative interval, subsequent board action and project disposition.]
 - **Outcome:** Gregg Township (Union County) Board of Supervisors adopted Resolution 2026-03, a moratorium on new data-center applications (excluding the pending PNK Group application), to allow time to complete a curative amendment to the zoning ordinance.
 
 ### Hazle Township
 
 - **Type:** Township
 - **Recorded status:** 🟢 Active
-- **Date enacted:** 2026-06-08, Hazle Township (Luzerne County) Board of Supervisors, unanimous vote adopting a curative amendment.
+- **Date enacted:** 2026-06-08: Hazle Township supervisors unanimously adopted a resolution declaring parts of the zoning ordinance invalid and initiating a curative process, according to contemporaneous reporting.
 - **Normalized date:** `2026-06-08` (exact)
-- **Duration:** 180 days from adoption (to approximately 2026-12-05).
+- **Duration:** A 180-day period for preparing a curative amendment was reported after the June 8 vote; the solicitor described protection against zoning-validity challenges. The precise legal interval and application-level effect are not established by the retained report.
 - **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `pa-hazle-township-2026`
 - **Legal basis:** Municipal curative amendment adopted by the Hazle Township Board of Supervisors, temporarily invalidating portions of the township zoning ordinance for 180 days on the stated grounds that the ordinance is deficient because it does not address data centers (instrument number not located).
 - **What prompted it:** Followed sustained community opposition ("Project Hazelnot") to NorthPoint Development's proposed ~1,300-acre, 15-building "Project Hazelnut" data-center campus with substation, which the township had already rejected in November 2025 and which a Luzerne County judge ruled against in spring 2026.
 - **Affected projects:** NorthPoint Development's proposed 'Project Hazelnut' data-center campus, previously denied by the township and by a county court.
-- **Detailed status:** Active as of 2026-07-31 (expires approximately 2026-12-05).
-- **Outcome:** Board of Supervisors unanimously adopted a 180-day curative amendment pausing consideration of new data-center applications while permanent zoning language is drafted.
+- **Detailed status:** June 8 reporting describes a unanimous resolution and a 180-day curative period, with the solicitor describing protection against zoning-validity challenges. A township-hosted zoning document is labeled October 19 working draft; its posting does not establish enactment. [VERIFY: resolution text, exact operative interval, application effect and later action.]
+- **Outcome:** Supervisors unanimously adopted a resolution initiating a 180-day curative process, according to June reporting. The report describes protection against zoning-validity challenges; it does not establish a blanket bar on new data-center applications.
 
 ### Little Britain Township
 
@@ -293,7 +293,7 @@ State policy is tracked separately: **22 records** (18 typed bill rows and 4 non
 - **Legal basis:** Resolution 2026-16 (Lycoming County), adopted 3-0 by the Board of Commissioners at its regular public meeting on 2026-06-18, declaring the county's zoning ordinance (enacted 1991, amended 2021) 'substantially invalid' for failing to provide appropriate zoning regulation of data centers and accessory/similar uses, and triggering the 180-day curative-amendment period under the PA Municipalities Planning Code.
 - **What prompted it:** County zoning ordinance lacked appropriate regulation of data centers and related uses.
 - **Affected projects:** —
-- **Detailed status:** June 18 minutes record 3-0 approval of Resolution 2026-16 and describe a data-center stopgap pending an ordinance. The appended commissioner statement describes a county planning partnership serving 19 municipalities; it is not evidence of universal countywide permit authority. Final operative scope, interval and later action remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
+- **Detailed status:** June 18 minutes record 3-0 approval of Resolution 2026-16 and describe a data-center stopgap pending an ordinance. The appended commissioner statement describes a county planning partnership serving 19 municipalities; it is not evidence of universal countywide permit authority. An October 14 consultant memorandum presents a proposed zoning amendment to the County Planning Commission; it is not evidence of adoption. Final operative scope, interval and later action remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** —
 
 ### Montour County
@@ -309,7 +309,7 @@ State policy is tracked separately: **22 records** (18 typed bill rows and 4 non
 - **Legal basis:** Resolution R-11-19-2025 (the moratorium, now superseded); Ordinance No. 1-2026, the 'Data Center Land Use Ordinance,' enacted by the Montour County Board of Commissioners on April 14, 2026, amending the County Zoning Ordinance to define and regulate Data Centers and Data Center Accessory Uses.
 - **What prompted it:** Concern over potential data centers or similar large-scale digital/technology facilities; county needed time for Planning Commission ad-hoc committee ordinance work
 - **Affected projects:** No pending data center applications at enactment; Talen Energy later sought rezoning of Anthony Township parcels for a data-center-related industrial use
-- **Detailed status:** Superseded. The Montour County Board of Commissioners enacted Ordinance No. 1-2026 ('Data Center Land Use Ordinance') on April 14, 2026 -- before the moratorium's own nominal 2026-05-17 expiration -- amending the County Zoning Ordinance to permit Data Centers as a Conditional Use in the Industrial Zoning District, subject to detailed siting, setback/buffer-yard, noise, lighting, and 'Sensitive Receptor' protections and a Conditional Use review process. The moratorium (Resolution R-11-19-2025) is no longer the operative instrument; Ordinance 1-2026 governs data center siting in Montour County as of 2026-07-31.
+- **Detailed status:** Contemporaneous November 2025 reporting describes a 180-day pause or until approval of a data-center ordinance. The county enacted Ordinance 1-2026 on April 14, 2026, providing conditional-use rules, and enacted Ordinance 2-2026 amending it on June 9, 2026. The latter states it takes effect on passage or the first day allowed by law. The original moratorium resolution and exact termination date have not been reviewed. [VERIFY: original end condition and exact termination.]
 - **Outcome:** Following the 2026-02-12 denial of Talen Energy's zoning map amendment, the county completed and enacted the Data Center Land Use Ordinance (Ordinance 1-2026) on 2026-04-14, permitting data centers by conditional use in the Industrial Zoning District rather than prohibiting them outright.
 
 ### Morrisville Borough
@@ -325,7 +325,7 @@ State policy is tracked separately: **22 records** (18 typed bill rows and 4 non
 - **Legal basis:** Morrisville Borough Council resolution (adopted July 21, 2026) declaring a portion of the borough's zoning ordinance invalid and initiating a municipal curative amendment under the PA Municipalities Planning Code to shield the borough from data-center-related zoning challenges (specific resolution number not located in sources reviewed).
 - **What prompted it:** Regulatory gap, adopted in the same week as neighboring Falls Township's similar action amid broader Bucks County concern over data-center energy consumption, noise, and water usage.
 - **Affected projects:** None named; adopted proactively.
-- **Detailed status:** Active as of 2026-09-23, running toward its computed 2027-01-17 end date. The borough plans to use the 180-day period to review land-use impacts and prepare new zoning regulations related to data-center development; no application is reported pending in the borough.
+- **Detailed status:** July 29 reporting describes a July 21 council action declaring zoning partly invalid and starting a 180-day curative period to protect against zoning challenges while new data-center regulations are prepared. Earlier reporting described no pending application; later adoption or actual operative end has not been established. [VERIFY: original resolution, operative interval and subsequent action.]
 - **Outcome:** Morrisville Borough Council adopted a resolution on 2026-07-21 declaring part of its zoning ordinance invalid and opening a 180-day curative-amendment/waiting period to draft data-center zoning regulations.
 
 ### Mount Carmel Township
@@ -341,8 +341,8 @@ State policy is tracked separately: **22 records** (18 typed bill rows and 4 non
 - **Legal basis:** Mount Carmel Township municipal curative amendment under the PA Municipalities Planning Code; the township's own site describes it simply as the '180 day moratorium enacted on May 18, 2026,' the end result of which will be a curative amendment to correct zoning invalidities regarding data centers (specific resolution number not located in sources reviewed).
 - **What prompted it:** Regulatory gap combined with sustained community opposition: hundreds of residents packed public meetings (including a May 13, 2026 hearing) opposing data-center development in the township; officials say they cannot outright ban the use but are working to limit and define it through zoning.
 - **Affected projects:** None named as pending at adoption; the moratorium responded to general community opposition and rumors of data-center interest in the township rather than a specific filed application.
-- **Detailed status:** Active as of 2026-09-23, nearing its computed 2026-11-14 end date. The township presented an ordinance work-progress update on July 15, 2026 and a preliminary draft ordinance update on Aug. 12, 2026; a public hearing for comment only (no board vote that night) was advertised for Sept. 23, 2026 at Mount Carmel Area High School. No news of an extension, adoption of the final ordinance, or repeal was found in sources reviewed through 2026-09-23.
-- **Outcome:** Mount Carmel Township Board of Supervisors adopted a 180-day moratorium on data-center proposals on 2026-05-18 to allow time to draft a curative-amendment zoning ordinance, with a public-comment hearing on the draft ordinance held Sept. 23, 2026.
+- **Detailed status:** The township reports that supervisors enacted a data-center zoning ordinance on October 21, 2026 as the municipal curative amendment. The posted ordinance says it becomes effective as provided by law following adoption; its exact effective date and relationship to termination of the earlier 180-day measure are not established. Township page also reports October 9 Blue Creek submissions were found incomplete. [VERIFY: original moratorium text, actual end and later legal action.]
+- **Outcome:** The township reports a 180-day data-center moratorium was enacted May 18, 2026 and supervisors enacted a curative zoning ordinance on October 21, 2026. The original moratorium and the exact legal effective and termination dates require verification.
 
 ### Muncy Township
 
@@ -379,17 +379,17 @@ State policy is tracked separately: **22 records** (18 typed bill rows and 4 non
 ### Upper Burrell Township
 
 - **Type:** Township
-- **Recorded status:** 🟢 Active
+- **Recorded status:** ⚪ Expired
 - **Date enacted:** 2026-05, Upper Burrell Township Board of Supervisors (Westmoreland County); exact day not confirmed in sources reviewed
 - **Normalized date:** `2026-05` (month_only)
-- **Duration:** 180 days; does not apply to building permits already granted to TECfusions for work on its existing 'Building J' (already operational), and did not prevent the township from later approving a land development plan (Aug. 5, 2026) for further electrical/mechanical upgrades to that building. Ends 2026-11-02.
+- **Duration:** 180 days; does not apply to building permits already granted to TECfusions for work on its existing 'Building J' (already operational), and did not prevent the township from later approving a land development plan (Aug. 5, 2026) for further electrical/mechanical upgrades to that building. October 22 reporting gave a scheduled end of 2026-11-02; actual termination or extension is unverified.
 - **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `pa-upper-burrell-township-2026`
 - **Legal basis:** Upper Burrell Township municipal curative amendment/moratorium on new data-center development (specific resolution number not located in sources reviewed)
 - **What prompted it:** Public pressure over TECfusions' 'Keystone Connect' hyperscale data-center campus (up to 1,400 acres, potentially up to 3 gigawatts, at the former Alcoa/Arconic Technical Center); residents sought more transparency and regulation before further development.
 - **Affected projects:** TECfusions' 'Keystone Connect' campus at the former Alcoa/Arconic Technical Center (up to 1,400 acres, potentially up to 3 GW); Building J is already operational and exempted from the moratorium, and a land-development plan for further work on that building was approved Aug. 5, 2026 despite the moratorium.
-- **Detailed status:** Active as of 2026-09-23, ending 2026-11-02. Bars new data-center development but does not apply to TECfusions' existing Building J permits (already operational, delivering GPU capacity per an Aug. 27, 2026 company release) or to a land-development plan the township approved Aug. 5, 2026 for further work on that building. A new draft ordinance (H-1-style Heavy Industrial standards, noise/vibration studies, and a contested requirement that developers provide their own baseload power generation) was under Planning Commission review, with a meeting held Sept. 15, 2026. A land-use appeal (Protect PT and two New Kensington residents, filed in Westmoreland County Court of Common Pleas) argues the township improperly allowed TECfusions' expansion to proceed via permits and a land-development-plan approval without requiring a full zoning/special-exception process.
+- **Detailed status:** Active as of 2026-09-23; October 22 reporting says the pause was scheduled to end 2026-11-02. On October 22 supervisors unanimously adopted data-center zoning standards. The ordinance effective date and actual subsequent status of the pause, including any extension, remain unverified. The earlier review described a bar on new data-center development that did not apply to TECfusions' existing Building J permits (already operational, delivering GPU capacity per an Aug. 27, 2026 company release) or to a land-development plan the township approved Aug. 5, 2026 for further work on that building. The ordinance followed a draft reviewed at a September 15 Planning Commission meeting; October 22 reporting describes adopted setbacks, noise limits, cooling and power requirements. A land-use appeal (Protect PT and two New Kensington residents, filed in Westmoreland County Court of Common Pleas) argues the township improperly allowed TECfusions' expansion to proceed via permits and a land-development-plan approval without requiring a full zoning/special-exception process.
 - **Outcome:** Upper Burrell Township Board of Supervisors adopted a 180-day moratorium/curative amendment on new data-center development (excluding already-permitted TECfusions work), to allow time to draft a data-center zoning ordinance; a land-use appeal challenging the township's handling of TECfusions' existing permits is pending in Westmoreland County court.
 
 ### Warrington Township (York County)
@@ -422,14 +422,14 @@ State policy is tracked separately: **22 records** (18 typed bill rows and 4 non
 - **What prompted it:** Regulatory gap: the zoning ordinance does not explicitly permit or provide standards for data centers or solar farms ('we don't have the protections in place'); adopted proactively, with no application pending, amid data-center and warehouse-development activity in neighboring Butler and Kline townships.
 - **Affected projects:** None; officials confirmed no application for a data center or solar farm was pending as of adoption. Nearby, data-center-related developments are proceeding under warehouse permits in Butler and Kline townships.
 - **Detailed status:** Active as of 2026-09-23. Adopted unanimously on 2026-09-15, covering both data centers and solar farms (plus on-site power generation and accessory uses); the township hired Siana Law as special zoning counsel, with a draft corrective ordinance (addressing noise, buffers, power sources, and community benefits) expected the following month. No application for either use is currently pending.
-- **Outcome:** West Mahanoy Township Board of Supervisors adopted a resolution declaring its zoning ordinance invalid as to data centers and solar farms, triggering a 180-day municipal curative-amendment period during which no applications for either use will be entertained.
+- **Outcome:** A September 15 report says West Mahanoy Township supervisors adopted a resolution declaring zoning invalid as to data centers and solar farms and initiating a 180-day municipal curative-amendment period. The report quotes the resolution as saying the township need not entertain or consider landowner curative amendments or proposals for a data center use or solar farm; an official told the reporter applications would be held.
 
 ### West Whiteland Township
 
 - **Type:** Township
 - **Recorded status:** 🟢 Active
-- **Date enacted:** 2026-05, West Whiteland Township Board of Supervisors vote to invoke a municipal curative amendment (Chester County); exact day not confirmed, reported to the Planning Commission as already invoked on 2026-05-05
-- **Normalized date:** `2026-05` (month_only)
+- **Date enacted:** Township staff reported on May 5, 2026 that the Board had invoked a municipal curative amendment. A retained account reports an April 22 vote but displays an April 21 publication date. Exact adoption date remains unverified.
+- **Normalized date:** `—` (unverified)
 - **Duration:** 180 days from adoption to adopt corrective zoning amendments addressing data centers.
 - **Current end date:** `—`
 - **Sectors:** data center
@@ -437,8 +437,8 @@ State policy is tracked separately: **22 records** (18 typed bill rows and 4 non
 - **Legal basis:** West Whiteland Township municipal curative amendment under the PA Municipalities Planning Code, declaring the zoning ordinance deficient for regulating data centers (specific resolution number not located in sources reviewed)
 - **What prompted it:** Regulatory gap: zoning ordinance did not address data centers; adopted proactively, with no application pending, following neighboring East Whiteland Township's contested Green Fig data-center dispute.
 - **Affected projects:** None; no data center application is pending in West Whiteland.
-- **Detailed status:** Active as of 2026-09-23, nearing its 2026-11-01 end date. Township planning staff told the Planning Commission on May 5, 2026 that the Board of Supervisors had invoked the municipal cure; the draft ordinance under development uses a 20,000-sq-ft threshold (excluding small server rooms), a dbC low-frequency noise standard, and was informed by model language PennFuture prepared for Allegheny County. No application is pending. [VERIFY instrument number; primary source (news-only evidence) not confirmed at confidence 0.68 in the 2026-09 refresh]
-- **Outcome:** West Whiteland Township Board of Supervisors invoked a municipal curative amendment declaring its zoning ordinance deficient for regulating data centers, giving the township 180 days (through approximately Nov. 1, 2026) to adopt corrective standards.
+- **Detailed status:** Active as of 2026-09-23 according to the earlier review. On October 14, 2026, the Board unanimously adopted data-center zoning Ordinance 492; its effective date and effect on the municipal cure are unverified. The previously stated November 1 end date lacks a verified adoption anchor. Township planning staff told the Planning Commission on May 5, 2026 that the Board of Supervisors had invoked the municipal cure; the draft ordinance under development uses a 20,000-sq-ft threshold (excluding small server rooms), a dbC low-frequency noise standard, and was informed by model language PennFuture prepared for Allegheny County. No application was reported pending in the earlier review; later application status is unverified. [VERIFY instrument number; primary source (news-only evidence) not confirmed at confidence 0.68 in the 2026-09 refresh]
+- **Outcome:** West Whiteland Township invoked a municipal curative amendment to address data centers, initiating a 180-day period for corrective standards; a retained account reports an April 22 vote, with date ambiguity. On October 14, 2026 the Board adopted data-center zoning Ordinance 492; its effective date and effect on the cure remain unverified.
 
 ### Williamsport
 
@@ -453,7 +453,7 @@ State policy is tracked separately: **22 records** (18 typed bill rows and 4 non
 - **Legal basis:** Resolution #10088 (City of Williamsport), adopted June 25, 2026, declaring the city's Zoning Ordinance substantively invalid insofar as it excludes data centers and ancillary buildings or uses, including power generating facilities, and proposing a curative amendment under 53 P.S. Section 10609.2. The July 9, 2026 meeting addressed follow-up Resolution #10091 concerning specific findings.
 - **What prompted it:** Regulatory gap: 1998 zoning ordinance does not account for data centers or their accessory uses; adopted proactively, following similar curative-amendment action by Lycoming County and several county townships, to close the loophole that would otherwise let a developer file a landowner curative amendment and force approval of a data center anywhere in the city.
 - **Affected projects:** None; no data center application is pending in the City of Williamsport as of adoption.
-- **Detailed status:** Signed Resolution 10088 records June 25, 2026 adoption, declaring zoning exclusionary/substantively invalid and directing a curative amendment within 180 days. July 9 minutes address follow-up Resolution 10091, not the original adoption. Original numerical vote count, precise operative legal effect and later termination/replacement remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
+- **Detailed status:** Signed Resolution 10088 records June 25, 2026 adoption, declaring zoning exclusionary/substantively invalid and directing a curative amendment within 180 days. July 9 minutes address follow-up Resolution 10091, not the original adoption. A newspaper article available by November 5, 2026 reported a draft zoning amendment, not its adoption. Original numerical vote count, precise operative legal effect and later termination/replacement remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** Williamsport City Council adopted Resolution #10088 on 2026-06-25, declaring the city's zoning ordinance substantively invalid as to data centers and proposing a curative amendment within 180 days.
 
 ---

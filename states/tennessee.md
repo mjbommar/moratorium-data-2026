@@ -3,7 +3,7 @@
 
 Working inventory for Tennessee, generated **November 8, 2026**. Record-level refresh and later-action review remain incomplete.
 
-**46 records** — 38 classified as active or extended, 6 classified as pending, 2 classified as past, 0 classified as rejected proposals.
+**46 records** — 38 classified as active or extended, 6 classified as pending, 2 classified as past, 0 classified as rejected proposals, 0 classified as unknown.
 
 These counts reflect inventory classifications and do not establish current enforceability.
 
@@ -32,12 +32,12 @@ State policy is tracked separately: **9 records** (9 typed bill rows) in [`state
 | Kingston Springs | Town | 2026-08-20 | data center | 🟢 Active |
 | Knox County | County | 2026-06-22 | data center | 🟢 Active |
 | Knoxville | City | 2026-07-07 | data center | 🟢 Active |
-| LaFollette | City | 2026-08-04 | data center | 🟢 Active |
+| LaFollette | City | Unverified | data center | 🟡 Pending |
 | Loudon | City | 2026-08-24 | data center | 🟢 Active |
 | Loudon County | County | 2026-06-29 | data center | 🟢 Active |
 | Maury County | County | 2026-07-20 | data center | 🟢 Active |
-| McMinnville | City | Unverified | data center | 🟢 Active |
-| Memphis | City | Unverified | data center, cryptocurrency mining | 🟡 Pending |
+| McMinnville | City | 2026-06-09 | data center | 🟢 Active |
+| Memphis | City | 2026-10-20 | data center, cryptocurrency mining | 🟢 Active |
 | Moore County | County | 2026-04-20 | data center | 🟢 Active |
 | Morgan County | County | 2026-06-12 | data center | 🟢 Active |
 | Nashville-Davidson County | City | 2026-07-24 | data center | 🟢 Active |
@@ -53,7 +53,7 @@ State policy is tracked separately: **9 records** (9 typed bill rows) in [`state
 | Sullivan County | County | 2026-01 | data center, cryptocurrency mining | 🟢 Extended |
 | Trousdale County | County | Unverified | data center | 🟡 Pending |
 | Unincorporated Hamilton County | County | 2026-07-15 | data center | 🟢 Active |
-| Warren County | County | 2026-06-22 | data center | 🟢 Active |
+| Warren County | County | 2026-06-22 | data center, cryptocurrency mining | 🟢 Active |
 | Washington County | County | 2026-03-23 | data center, cryptocurrency mining | 🟢 Active |
 | White County | County | 2026-07-20 | data center | 🟢 Active |
 | Wilson County | County | 2026-07-20 | data center, cryptocurrency mining | 🟢 Active |
@@ -73,7 +73,7 @@ State policy is tracked separately: **9 records** (9 typed bill rows) in [`state
 - **Legal basis:** County Commission moratorium on future data centers; the adopted instrument was not located in the county's online materials
 - **What prompted it:** Hearing on proposed data center, cryptocurrency, and battery-storage zoning safeguards
 - **Affected projects:** —
-- **Detailed status:** Active as of 2026-09-23 per news reporting; two-year moratorium on data centers, cryptocurrency mining facilities, and large battery storage facilities adopted by motion (McNabb/Allen) at the 2026-06-15 commission meeting in place of the Planning Commission's zoning amendments (Resolutions 26-06-1257, 26-06-1258, 26-06-1259), which did not pass. [VERIFY instrument number not confirmed at confidence 0.55 in the 2026-07 refresh]
+- **Detailed status:** The Courier News reported that the County Commission unanimously passed a two-year moratorium on data centers, cryptocurrency mining facilities, and large battery storage facilities on June 15, 2026, by motion of McNabb and Allen, while the separate zoning amendments did not pass. The same publisher reported in July that the county measure applied outside municipal limits. The prior review described it as active as of September 23, 2026; later legal force and operative text were not independently established here. [VERIFY instrument number and operative terms.]
 - **Outcome:** —
 
 ### Blount County
@@ -89,14 +89,14 @@ State policy is tracked separately: **9 records** (9 typed bill rows) in [`state
 - **Legal basis:** Planning Commission recommendation (motion Nick Bright/Wright, second Jessica Hannah) for a 12-month moratorium on Development Services accepting plans for AI data centers, cryptocurrency mining, or blockchain computing centers
 - **What prompted it:** Time to draft zoning amendments after the County Commission's June 18 resolution requesting restrictive data center rules; a 5,000-foot buffer would leave no eligible sites
 - **Affected projects:** None; no permit requests received
-- **Detailed status:** Pending as of 2026-09-23; Planning Commission recommendation forwarded to the County Commission; adoption not found. [VERIFY instrument number; adoption date; primary source (news-only evidence) not confirmed at confidence 0.6 in the 2026-09 refresh]
+- **Detailed status:** The Daily Times reported that the Planning Commission recommended a 12-month moratorium in July 2026 and forwarded it for County Commission consideration; the earlier September review did not find adoption. Draft Resolution 26-10-014 proposes a 365-day moratorium from lawful effectiveness, with earlier termination conditions, but its unfilled certification does not establish adoption or identity with the July recommendation. [VERIFY instrument number, adoption, effective date and relationship to the planning recommendation.]
 - **Outcome:** —
 
 ### Bristol
 
 - **Type:** City
 - **Recorded status:** 🟢 Active
-- **Date enacted:** Second and final reading of Ordinance 25-20 was adopted by the Bristol City Council on October 7, 2025, per the Council's own meeting agenda; first reading passed unanimously September 9, 2025. The ordinance's effective date, per the Planning Commission staff memo dated 2026-03-19, is October 24, 2025 (17 days after adoption, consistent with standard publication timing).
+- **Date enacted:** The October 7, 2025 City Council agenda scheduled second reading of Ordinance 25-20; the agenda does not itself record the vote. Prior news reporting placed the first reading on September 9, 2025. A March 2026 Planning Commission staff memorandum states that the ordinance took effect October 24, 2025 for two years; the actual final council vote date remains unverified.
 - **Normalized date:** `2025-10-24` (unverified)
 - **Duration:** Two years; expires 2027-10-24 unless extended or replaced
 - **Current end date:** `—`
@@ -178,14 +178,14 @@ State policy is tracked separately: **9 records** (9 typed bill rows) in [`state
 - **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-06-15, Cocke County Legislative Body, agenda amended to adopt the Planning Commission-recommended moratorium resolution presented by the county attorney (roll call; eight of 14 commissioners present)
 - **Normalized date:** `2026-06-15` (exact)
-- **Duration:** One year, through June 30, 2027
+- **Duration:** One year; an earlier CitizenPortal review reported an end of June 30, 2027, but the archived article and adopted resolution have not been independently recovered in this review.
 - **Current end date:** `—`
 - **Sectors:** data center, battery storage, cryptocurrency mining
 - **Moratorium ID:** `tn-cocke-county-2026`
 - **Legal basis:** Cocke County Legislative Body resolution imposing a moratorium on "data center facilities", defined to include data processing, data mining, cryptocurrency mining, and lithium-ion battery energy storage systems (number not published)
 - **What prompted it:** Fire risk of large lithium battery storage sites; noise; power and water demand; few jobs
 - **Affected projects:** None named
-- **Detailed status:** Active as of 2026-09-23; one-year moratorium through 2027-06-30 while the Planning Commission drafts ordinance amendments.
+- **Detailed status:** Newport Plain Talk reported a one-year county legislative-body moratorium on data centers, data processing and lithium battery storage in June 2026. The prior review described it as active as of September 23, 2026 and attributed a June 30, 2027 end and mining coverage to CitizenPortal. Operative text and later legal force remain unverified. [VERIFY effective interval, end date and subsequent action.]
 - **Outcome:** Moratorium adopted; replaced a narrower battery-storage-only proposal from the public safety committee
 
 ### Coffee County
@@ -211,7 +211,7 @@ State policy is tracked separately: **9 records** (9 typed bill rows) in [`state
 - **Date enacted:** Third and final reading of Ordinance 26-0286 adopted 2026-08-11 on the Crossville City Council consent agenda (first reading 2026-07-14; second reading approved at the late-July meeting).
 - **Normalized date:** `2026-08-11` (exact)
 - **Duration:** Posted unsigned ordinance states twenty-four months from effectiveness, subject to amendment; final executed term unresolved.
-- **Current end date:** `2028-08-11`
+- **Current end date:** `—`
 - **Sectors:** data center, cryptocurrency mining
 - **Moratorium ID:** `tn-crossville-undated`
 - **Legal basis:** Ordinance 26-0286, adding Title 14, Chapter 12 to the Crossville Municipal Code: a 24-month temporary moratorium on new data centers and high-density computing facilities (existing lawfully operating facilities and vested applications exempt)
@@ -262,10 +262,10 @@ State policy is tracked separately: **9 records** (9 typed bill rows) in [`state
 - **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `tn-gallatin-undated`
-- **Legal basis:** Proposed Gallatin ordinance enacting a moratorium on accepting new applications for data center development (first reading only); projects already approved exempt
+- **Legal basis:** Proposed Gallatin Ordinance O26Ø9-67 enacting a moratorium on accepting and processing new applications for data center development (first reading reported); projects already approved exempt
 - **What prompted it:** Few regulations on data centers; noise and utility impact concerns near the existing Meta campus
 - **Affected projects:** New data center applications; existing approvals (including Meta) exempt unless adding space
-- **Detailed status:** Pending as of 2026-09-23; passed first reading 2026-09-15; second reading pending. [VERIFY instrument number; adoption date; primary source (news-only evidence) not confirmed at confidence 0.65 in the 2026-09 refresh]
+- **Detailed status:** First reading passed 2026-09-15; November 2 reporting scheduled second reading for 2026-11-03. Outcome and current legal force unresolved. [VERIFY second-reading outcome, adopted text and effective date.]
 - **Outcome:** —
 
 ### Grundy County
@@ -274,7 +274,7 @@ State policy is tracked separately: **9 records** (9 typed bill rows) in [`state
 - **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-05-18, County Commission unanimous adoption of the "Data Mining Moratorium"
 - **Normalized date:** `2026-05-18` (exact)
-- **Duration:** Two years (May 18, 2026 through May 18, 2028)
+- **Duration:** Two years from the resolution’s effective date. The mayor described the period as May 18, 2026 to May 18, 2028; the operative effective anchor is unverified.
 - **Current end date:** `—`
 - **Sectors:** data center, cryptocurrency mining
 - **Moratorium ID:** `tn-grundy-county-2026`
@@ -297,7 +297,7 @@ State policy is tracked separately: **9 records** (9 typed bill rows) in [`state
 - **Legal basis:** Draft ordinance "Hamblen County Interim Moratorium on High-Intensity Electrical Load Facilities Ordinance" (5 MW threshold; data centers, crypto mining, HPC, ancillary battery systems; industrial property in the First Civil District excepted), under T.C.A. 13-7-101
 - **What prompted it:** Electrical, water, noise, emissions, fire-safety, and land-use compatibility impacts of high-intensity computing
 - **Affected projects:** None named
-- **Detailed status:** Pending as of 2026-09-23; recommended by the Planning Commission 2026-07-06; County Commission adoption not found. [VERIFY instrument number; adoption date not confirmed at confidence 0.6 in the 2026-09 refresh]
+- **Detailed status:** Pending as of 2026-09-23; recommended by the Planning Commission 2026-07-06. A September 27 report states the County Commission approved a one-year moratorium on Thursday night; the retained article is truncated and the adopted instrument and effective date have not been verified. [VERIFY instrument number, final wording, effective date and later action.]
 - **Outcome:** —
 
 ### Jefferson County
@@ -313,7 +313,7 @@ State policy is tracked separately: **9 records** (9 typed bill rows) in [`state
 - **Legal basis:** Resolution 2023-40
 - **What prompted it:** Public concern over BESS siting; regional planning commissions wanted time to study regulations and development standards
 - **Affected projects:** —
-- **Detailed status:** Expired 2024-01-27; a six-month resolution directing county agencies not to issue permits or approvals for Battery Energy Storage Systems, adopted July 27, 2023. No row for Jefferson County, TN currently exists in the inventory; this instrument predates 2026 and has long since lapsed.
+- **Detailed status:** Resolution 2023-40 imposed a six-month BESS moratorium through January 27, 2024; contemporaneous reporting dates the vote to July 27, 2023, and the signed resolution bears July 28, 2023 approval and attestation dates. Later changes were not reviewed.
 - **Outcome:** Term lapsed
 
 ### Johnson City
@@ -322,14 +322,14 @@ State policy is tracked separately: **9 records** (9 typed bill rows) in [`state
 - **Recorded status:** 🟢 Extended
 - **Date enacted:** 2025-06-05
 - **Normalized date:** `2025-06-05` (exact)
-- **Duration:** 12 months from 2025-06-05, extended on 2026-05-21 by unanimous City Commission vote to 2026-12-03
-- **Current end date:** `2026-12-03`
+- **Duration:** 12 months from 2025-06-05; extended by unanimous City Commission vote on 2026-05-21. The proposed resolution states November 21, 2026, while post-meeting reporting states December 3, 2026; the operative end date remains unresolved.
+- **Current end date:** `—`
 - **Sectors:** data center, cryptocurrency mining
 - **Moratorium ID:** `tn-johnson-city-2025`
 - **Legal basis:** Resolution instituting a twelve-month moratorium on new industrial land-use applications and new-construction building permits in the I-2 district
 - **What prompted it:** Proposed data center and cryptocurrency-mining uses exposed a code gap for heavy industrial uses, noise, vibration, pollution, utility, traffic, neighborhood, and public-health impacts.
 - **Affected projects:** New I-2 industrial land-use applications and new-construction permits; applications already approved or officially submitted were exempt.
-- **Detailed status:** Extended; active as of 2026-09-23. On 2026-05-21 the Johnson City Commission unanimously extended the moratorium, which was set to expire 2026-06-05, to 2026-12-03 while the city finishes data center noise, buffer, and siting rules (the Planning Commission has approved draft rules; final adoption was expected in October or November 2026).
+- **Detailed status:** Extended; reported active as of 2026-09-23. On 2026-05-21 the Johnson City Commission unanimously extended the moratorium, which was set to expire 2026-06-05, while the city finishes data center noise, buffer, and siting rules (the Planning Commission has approved draft rules; final adoption was expected in October or November 2026). The proposed extension says November 21, 2026; post-meeting reporting says December 3, 2026. [VERIFY adopted endpoint and subsequent action.]
 - **Outcome:** Same meeting adopted Ordinance 4914-25, adding data centers as a permitted I-2 use with conditions. Standards include enclosed operations, 200-foot residential separation, 60-foot front setback, Type 4 buffer, equipment screening, and review for injurious noise, vibration, smoke, gas, fumes, odors, dust, and fire hazards.
 
 ### Jonesborough
@@ -346,7 +346,7 @@ State policy is tracked separately: **9 records** (9 typed bill rows) in [`state
 - **What prompted it:** Need to update land-use controls for emerging technologies, evaluate land-use compatibility, infrastructure demands, environmental and neighborhood impacts, and broader policy considerations.
 - **Affected projects:** Rezoning requests, site plans, development plans, or building permit applications that propose or would allow a data processing center or similar facility within town limits.
 - **Detailed status:** November 3, 2025 minutes record final-reading approval of the two-year data-processing-center moratorium, identifying October 13 as first reading. May 11, 2026 minutes record final passage of data-center and cryptocurrency zoning amendments but do not reproduce the ordinance, instead stating INSERT ORDINANCE. Repeal/supersession of 2025-12 and its effective date remain unresolved. Legacy replaced classification is provisional, not independently verified. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
-- **Outcome:** Pending. Ordinance directs study by the Planning Commission, Board of Mayor and Aldermen, and staff.
+- **Outcome:** May 11, 2026 minutes record final passage of data-center and cryptocurrency zoning amendments. Whether those amendments repealed or superseded the moratorium remains unverified.
 
 ### Kingston Springs
 
@@ -361,7 +361,7 @@ State policy is tracked separately: **9 records** (9 typed bill rows) in [`state
 - **Legal basis:** Town of Kingston Springs ordinance imposing a 12-month moratorium on accepting, processing, and approving applications for high-resource usage facilities such as data centers (number not published)
 - **What prompted it:** Study utility cost allocation, water conservation, infrastructure protection, noise mitigation and acoustic standards
 - **Affected projects:** None named
-- **Detailed status:** Active as of 2026-09-23; 12-month moratorium adopted on second reading 2026-08-20. [VERIFY instrument number; primary source (news-only evidence) not confirmed at confidence 0.55 in the 2026-09 refresh]
+- **Detailed status:** Reported active as of 2026-09-23; September 1 reporting describes second-reading approval on 2026-08-20 of a 12-month moratorium. A July portal attachment for Ordinance 26-006 instead states 18 months from effectiveness, 15 days after final passage, and lacks execution signatures. Final adopted wording and operative interval remain unresolved. [VERIFY adopted term, instrument and effective date; later action.]
 - **Outcome:** Ordinance adopted on second reading
 
 ### Knox County
@@ -370,7 +370,7 @@ State policy is tracked separately: **9 records** (9 typed bill rows) in [`state
 - **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-06-22, County Commission 10-0 adoption (one member recused), effective immediately
 - **Normalized date:** `2026-06-22` (exact)
-- **Duration:** Effective immediately through June 30, 2027
+- **Duration:** The available unsigned attachment states effective immediately through June 30, 2027 or until the County Commission adopts data-center regulations, whichever is earlier. Executed amended wording and any earlier termination remain unverified.
 - **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `tn-knox-county-2026`
@@ -399,18 +399,18 @@ State policy is tracked separately: **9 records** (9 typed bill rows) in [`state
 ### LaFollette
 
 - **Type:** City
-- **Recorded status:** 🟢 Active
-- **Date enacted:** 2026-08-04 (Tuesday before the 2026-08-05 report), LaFollette City Council unanimous 4-0 approval of an ordinance
-- **Normalized date:** `2026-08-04` (exact)
+- **Recorded status:** 🟡 Pending
+- **Date enacted:** August 4, 2026: a 4-0 council approval was reported; separate WLAF reporting identifies Ordinance 2026-07 as first reading. Final reading was scheduled September 1, 2026; outcome and adoption date remain unverified.
+- **Normalized date:** `—` (unverified)
 - **Duration:** One year
 - **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `tn-lafollette-2026`
-- **Legal basis:** City of LaFollette ordinance imposing a one-year moratorium on processing, accepting, and approving applications for new data centers (number not published)
+- **Legal basis:** Proposed City of LaFollette Ordinance 2026-07 imposing a one-year moratorium on processing, accepting, and approving applications for new data centers; first reading reported August 4 and final reading scheduled September 1, with outcome unverified.
 - **What prompted it:** Time to consult TVA and LaFollette Utilities Board on impacts
 - **Affected projects:** None named
-- **Detailed status:** Active as of 2026-09-23 per news reporting; one-year moratorium approved 2026-08-04. [VERIFY instrument number; primary source (news-only evidence) not confirmed at confidence 0.5 in the 2026-09 refresh]
-- **Outcome:** Ordinance approved 4-0
+- **Detailed status:** The earlier row reported the moratorium active as of 2026-09-23. August 4 council approval was reported 4-0, but WLAF describes it as first reading of Ordinance 2026-07. Final reading was scheduled September 1; the result and current legal force have not been established. [VERIFY final vote, adopted text and effective date.]
+- **Outcome:** First reading reported August 4, 2026; final reading scheduled September 1, outcome unverified.
 
 ### Loudon
 
@@ -438,7 +438,7 @@ State policy is tracked separately: **9 records** (9 typed bill rows) in [`state
 - **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `tn-loudon-county-2026`
-- **Legal basis:** County Commission resolution barring covered facilities from filing development plans and seeking county permits, zoning or building approvals, utility extensions, text amendments, or development agreements; standard on-site business computing uses excluded
+- **Legal basis:** County Commission resolution barring covered facilities from filing development plans and seeking county permits, zoning or building approvals, utility extensions, text amendments, or development agreements; standard on-site business computing uses excluded. June 29 reporting says the measure applies to facilities projected to require at least 50 MW in their first three years, with state-owned or operated facilities and facilities primarily supporting telecommunications or broadband exempt; enacted text requires verification.
 - **What prompted it:** —
 - **Affected projects:** —
 - **Detailed status:** Active as of researched_as_of
@@ -464,33 +464,33 @@ State policy is tracked separately: **9 records** (9 typed bill rows) in [`state
 
 - **Type:** City
 - **Recorded status:** 🟢 Active
-- **Date enacted:** 2026-06-03 first reading of Ordinance 2026-09; final passage and effective date unverified.
-- **Normalized date:** `—` (unverified)
+- **Date enacted:** June 3, 2026 first reading of Ordinance 2026-09; contemporaneous reports describe passage on June 9, including a local report identifying final reading. Signed text and effective date remain unverified.
+- **Normalized date:** `2026-06-09` (exact)
 - **Duration:** 18 months
 - **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `tn-mcminnville-2026`
-- **Legal basis:** City Ordinance No. 2026-09, proposed and approved on first reading June 3, 2026; final passage unverified.
+- **Legal basis:** McMinnville Ordinance No. 2026-09; first reading June 3, 2026, with final passage June 9 reported by local media. Signed final text remains unverified.
 - **What prompted it:** Proposed 'Hixson Data Center,' a 96,000-square-foot, 25-megawatt AI supercomputing facility, opposed by a resident petition that gathered nearly 3,000 signatures
 - **Affected projects:** Proposed Hixson Data Center (96,000 sq ft, 25 MW, AI supercomputing)
-- **Detailed status:** June 3 special-session minutes record first-reading approval of Ordinance 2026-09, not final passage. The June 9 agenda schedules second and final reading, and hearing minutes record public comments, but neither establishes the final-reading vote. The posted draft makes effectiveness contingent on final passage. Final adoption, Hixson applicability, operative interval and later action remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
-- **Outcome:** 18-month moratorium adopted, blocking acceptance/processing/approval of data center land-use, zoning, building, site-plan, and conditional-use permit applications pending impact studies
+- **Detailed status:** June 3 special-session minutes record first-reading approval of Ordinance 2026-09, and June 9 hearing minutes record public comments. Contemporaneous reporting describes final passage June 9 of an 18-month moratorium. Signed final wording, Hixson applicability, operative interval and later action remain unresolved. [VERIFY: adopted text, operative interval, later action and current legal force.]
+- **Outcome:** Final passage of an 18-month moratorium reported June 9, 2026. The mayor described a halt to acceptance, processing and approval of data-center land-use, zoning, building, site-plan and conditional-use applications; adopted text and application to Hixson remain unverified.
 
 ### Memphis
 
 - **Type:** City
-- **Recorded status:** 🟡 Pending
-- **Date enacted:** Pending: passed first reading 2026-08-18 (7-0) and second reading 2026-09-01; third and final reading deferred on 2026-09-15 to the 2026-10-06 council meeting, where sponsor JB Smiley plans an amended version
-- **Normalized date:** `—` (unverified)
-- **Duration:** 12 months from effective date, or until comprehensive data center zoning is adopted or the ordinance is repealed, whichever is earlier; extendable
+- **Recorded status:** 🟢 Active
+- **Date enacted:** Original one-year proposal passed first and second readings in August and September 2026; CBS reports it failed October 20 and a 135-day substitute passed. The city identifies the substitute as Ordinance 5986; its effective date is unverified.
+- **Normalized date:** `2026-10-20` (exact)
+- **Duration:** Original proposal: 12 months from effectiveness or earlier zoning/repeal. The city reports the later passed Substitute Ordinance 5986 imposed a 135-day pause; its effective anchor and final wording remain unverified.
 - **Current end date:** `—`
 - **Sectors:** data center, cryptocurrency mining
 - **Moratorium ID:** `tn-memphis-undated`
-- **Legal basis:** Proposed ordinance declaring a temporary moratorium on acceptance, processing, approval, and issuance of zoning, land use, building, and infrastructure permits for data center developments within the City of Memphis (sponsors Smiley, Swearengen-Washington, Cooper-Sutton, Green), under T.C.A. 13-7-201
+- **Legal basis:** Original proposed ordinance under T.C.A. 13-7-201 sponsored by Smiley, Swearengen-Washington, Cooper-Sutton and Green sought a moratorium on specified data-center approvals. CBS reports that proposal failed October 20, 2026 and a 135-day substitute passed; the city identifies the latter as Substitute Ordinance 5986. Adopted text and precise scope remain unverified.
 - **What prompted it:** Expansion of xAI/SpaceX Colossus facilities, air pollution and noise in Boxtown and Whitehaven; no data center classification in the Unified Development Code; aquifer and water concerns
 - **Affected projects:** xAI/SpaceX Colossus 2 expansion into Whitehaven and other new data center proposals (vested applications exempt)
-- **Detailed status:** Pending as of 2026-09-23; passed two of three readings; final vote set for 2026-10-06 on an amended version.
-- **Outcome:** —
+- **Detailed status:** CBS reports the October 20, 2026 council vote rejected the one-year proposal and passed a 135-day substitute. The October 26 city recap identifies Substitute Ordinance 5986. Recorded approval is established; adopted wording, effective date, scope and later legal force remain unverified.
+- **Outcome:** One-year proposal failed October 20, 2026 according to CBS; a 135-day substitute passed, identified in the city recap as Ordinance 5986.
 
 ### Moore County
 
@@ -569,7 +569,7 @@ State policy is tracked separately: **9 records** (9 typed bill rows) in [`state
 - **Legal basis:** Paris Ordinance No. 1339; Paris Commission moratorium (voice vote), on recommendation of the Paris Municipal Regional Planning Commission
 - **What prompted it:** City is reworking its zoning ordinances with an outside consultant; no current end date until that work concludes
 - **Affected projects:** —
-- **Detailed status:** The July 1 official agenda and attached text identify proposed Ordinance 1339, with termination tied to completion and approval of the revised zoning ordinance. The agenda does not establish the final vote or later satisfaction of that condition. Final adopted wording, operative interval and later legal force remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
+- **Detailed status:** The July 1 official agenda and attached text identify proposed Ordinance 1339, with termination when the revised zoning ordinance takes effect. July 2 news reports commission approval by unanimous voice vote with one member absent; its weekday reference does not align with the agenda date. Final adopted wording, exact vote date, satisfaction of the zoning condition and later legal force remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** Adopted
 
 ### Rhea County
@@ -592,17 +592,17 @@ State policy is tracked separately: **9 records** (9 typed bill rows) in [`state
 
 - **Type:** County
 - **Recorded status:** 🟡 Pending
-- **Date enacted:** Pending: 2026-07-13 Roane County Commission unanimously adopted a resolution requesting a Regional Planning Commission recommendation on a two-year moratorium (amended from 180 days); the moratorium itself was not yet adopted
+- **Date enacted:** July 13, 2026: commission requested a planning recommendation on a two-year moratorium, not adoption of the moratorium. An October 19 adoption claim in a CitizenPortal AI summary is an unverified lead; official action and effective date remain unverified.
 - **Normalized date:** `—` (unverified)
 - **Duration:** Two years (requested)
 - **Current end date:** `—`
 - **Sectors:** data center, battery storage, cryptocurrency mining
 - **Moratorium ID:** `tn-roane-county-undated`
-- **Legal basis:** Roane County Commission resolution requesting a Regional Planning Commission recommendation on a temporary moratorium on zoning requests, permits, and site plans for data centers, battery energy storage, and cryptocurrency mining facilities
+- **Legal basis:** July 13 county commission resolution requested a planning recommendation on a moratorium for data centers, battery storage and cryptocurrency mining facilities. CitizenPortal AI identifies Resolution 10-26-03 in an unverified October adoption claim; official minutes and adopted text are needed to establish any later instrument and its terms.
 - **What prompted it:** Water and electricity demand, cooling-fan noise, and fire and emergency response capacity
 - **Affected projects:** None named
-- **Detailed status:** Pending as of 2026-09-23; awaiting a Regional Planning Commission recommendation and a final commission vote. [VERIFY instrument number; adoption date; primary source (news-only evidence) not confirmed at confidence 0.6 in the 2026-09 refresh]
-- **Outcome:** —
+- **Detailed status:** On July 13, 2026 the county commission requested a planning recommendation for a two-year moratorium; that request did not adopt the moratorium. An October 19 adoption of Resolution 10-26-03 is an unverified lead in a gated CitizenPortal AI meeting summary. Obtain official minutes or adopted text; the final action, term, effective date and subsequent legal force remain unresolved. [VERIFY official action, operative interval and current legal force.]
+- **Outcome:** July 13, 2026 request for a planning recommendation on a two-year moratorium. An October 19 adoption claim in a CitizenPortal AI summary is an unverified lead; final action and terms remain unresolved.
 
 ### Sevierville
 
@@ -643,7 +643,7 @@ State policy is tracked separately: **9 records** (9 typed bill rows) in [`state
 - **Date enacted:** Ordinance 543 adopted on second and final reading by the Smithville Board of Mayor and Aldermen at its regular meeting on 2026-08-03 (first reading 2026-07-15 at a special-called session)
 - **Normalized date:** `2026-08-03` (exact)
 - **Duration:** 18 months from final passage (through about 2028-02-03), or until permanent zoning amendments are adopted, whichever occurs first; extendable by ordinance amendment
-- **Current end date:** `2028-02-03`
+- **Current end date:** `—`
 - **Sectors:** data center, cryptocurrency mining
 - **Moratorium ID:** `tn-smithville-undated`
 - **Legal basis:** Ordinance 543, imposing a temporary 18-month moratorium on the acceptance, processing, and approval of building permits, zoning certificates, site plans, variances, and special exceptions for high-density computing, data centers, and cryptocurrency mining operations
@@ -740,7 +740,7 @@ State policy is tracked separately: **9 records** (9 typed bill rows) in [`state
 - **Normalized date:** `2026-06-22` (exact)
 - **Duration:** 12 months, extendable
 - **Current end date:** `—`
-- **Sectors:** data center
+- **Sectors:** data center, cryptocurrency mining
 - **Moratorium ID:** `tn-warren-county-2026`
 - **Legal basis:** County Commission moratorium covering high-electricity computing uses; adopted resolution text not located online
 - **What prompted it:** Officials study code, fire, infrastructure, and utility issues
@@ -774,7 +774,7 @@ State policy is tracked separately: **9 records** (9 typed bill rows) in [`state
 - **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `tn-white-county-2026`
-- **Legal basis:** County Commission resolution; the county has no general zoning and described the resolution as an initial protective step; original resolution not located
+- **Legal basis:** County Commission Resolution 41-07-2026, as identified in local reporting; the county has no general zoning and described the resolution as an initial protective step; original resolution not located
 - **What prompted it:** —
 - **Affected projects:** —
 - **Detailed status:** Active as of 2026-09-23 per news reporting; the indefinite resolution remains on the books, but without county zoning it has limited legal force: a rumored 4.9 MW crypto/data-mining facility on a 5-acre Pleasant Hill Road parcel surfaced in August 2026 and the County Executive said he was reviewing legal options. [VERIFY instrument number; primary source (news-only evidence) not confirmed at confidence 0.45 in the 2026-07 refresh]

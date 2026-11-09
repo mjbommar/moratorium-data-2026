@@ -6,8 +6,8 @@ Plan: [Research modernization and ballot-measure expansion](docs/research-and-ba
 
 The earlier completion claim was wrong. `v2026.11.8` is now explicitly an **incomplete prerelease checkpoint**, preserving its assets and audit history. Internal artifact validation does not close full-record review or consumer delivery.
 
-- [ ] Reconcile every one of the 1,777 raw records, reusing valid existing evidence; close actual source gaps with bounded collection.
-- [ ] Review and apply material changes with exact guards; retain genuine investigated uncertainties and source dates.
+- [x] Reconcile every one of the 1,777 raw records using primary and independent retained-source review, bounded collection and explicit source-specific residual uncertainty ([coverage](work/research/2026-11-08/full-inventory-integrated-application/review-coverage.json)); this does not certify universal current legal force.
+- [x] Review and apply the material correction queues with exact guards; retain genuine investigated uncertainties and source dates ([integrated application](work/research/2026-11-08/full-inventory-integrated-application/README.md)). The remaining-cohort compiled queue has zero pending cells.
 - [x] Reconcile the 57 current ballot identities/results and retain all frozen-candidate dispositions, including three held payloads, uncertain Augusta correspondence and the newly reviewed Bethel town-meeting question ([accounting](work/research/2026-11-08/ballot-current-accounting/README.md)); source-specific limits remain.
 - [ ] Finish evidenced handoffs/copy dispositions across all seven consumers.
 - [ ] Account explicitly for the original required quality gates; do not silently waive or expand them.

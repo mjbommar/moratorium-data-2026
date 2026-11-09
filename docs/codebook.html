@@ -284,7 +284,7 @@ the working count is not a completed deduplicated instrument census.</p>
 </tr>
 <tr>
 <td><code>enacted_status</code></td>
-<td><strong>Closed-vocab status bucket</strong> derived from the free-text fields. One of: <code>active</code>, <code>extended</code>, <code>replaced</code>, <code>expired</code>, <code>rescinded</code>, <code>pending</code>, <code>rejected</code>. See breakdown below.</td>
+<td><strong>Closed-vocab status bucket</strong> derived from the free-text fields. One of: <code>active</code>, <code>extended</code>, <code>replaced</code>, <code>expired</code>, <code>rescinded</code>, <code>pending</code>, <code>rejected</code>, <code>unknown</code>. See breakdown below.</td>
 <td><code>active</code></td>
 </tr>
 <tr>
@@ -349,6 +349,7 @@ the working count is not a completed deduplicated instrument census.</p>
 <li><strong><code>expired</code></strong> — recorded term has elapsed; later actions or replacement may remain unverified</li>
 <li><strong><code>rescinded</code></strong> — documented affirmative repeal; this does not establish that the original event-based endpoint had not already occurred</li>
 <li><strong><code>rejected</code></strong> — an existing tracked proposal was explicitly denied or defeated. Retained for identity and research history; it is neither an adopted moratorium nor a pending proposal. A later distinct proposal requires its own identity review.</li>
+<li><strong><code>unknown</code></strong> — the record is retained, but independently disputed identity, adoption, or status evidence does not support any definite recorded stage. Use this for an explicit dispute, not merely because current legal force has not been exhaustively verified; retain supported historical <code>active</code> classifications.</li>
 <li><strong><code>pending</code></strong> — recorded as pending. This legacy category alone does not establish whether a vote has occurred or the current legal effect</li>
 </ul>
 <p>To filter to recorded active/extended classifications (not renewed legal-force findings):</p>
@@ -520,9 +521,9 @@ records the governing session context per state in the audit log under
 <li><code>policy_scope_review</code>: additive four-way scope-review counts and explicitly labelled candidate-pool count. Raw headline totals remain historical observation counts. Only active reviewed include decisions establish scope inclusion; see the <a href="policy-scope-exports.html">scope export contract</a>. A scope decision does not establish current legal force or freshness.</li>
 <li><code>states_with_moratoria</code>: 47</li>
 <li><code>states_without_moratoria</code>: 3</li>
-<li><code>moratoria_with_verify_tags</code>: 784 — rows with at least one <code>[VERIFY]</code> flag remaining in any field (matches <code>has_verify_tags = True</code> in the inventory CSV)</li>
-<li><code>moratoria_without_verify_tags</code>: 546</li>
-<li><code>enacted_status_breakdown</code>: <code>{active, extended, replaced, expired, rescinded, pending, rejected}</code> — the breakdown of the 1330 working inventory rows by <code>enacted_status</code></li>
+<li><code>moratoria_with_verify_tags</code>: 979 — rows with at least one <code>[VERIFY]</code> flag remaining in any field (matches <code>has_verify_tags = True</code> in the inventory CSV)</li>
+<li><code>moratoria_without_verify_tags</code>: 351</li>
+<li><code>enacted_status_breakdown</code>: <code>{active, extended, replaced, expired, rescinded, pending, rejected, unknown}</code> — the breakdown of the 1330 working inventory rows by <code>enacted_status</code></li>
 <li><code>sweep_coverage</code>: which states received a systematic month-by-month sweep for the release's window, plus <code>swept_states_with_no_adoptions_in_window</code>. <strong>Read this before interpreting a state's absence.</strong> A state with no rows in a window may have been searched and found empty, or may never have been searched; the inventory alone cannot tell you which. Note that <code>swept_states_with_no_adoptions_in_window</code> is about the window, not the state's whole history -- Idaho appears there while still carrying a 2025 instrument. Generated from <a href="../data/sweep_coverage.json"><code>data/sweep_coverage.json</code></a></li>
 <li><code>top_states_by_moratoria</code>: list of <code>{state, count}</code> objects, top 10 (fixed API shape; README prose includes all states tied at tenth)</li>
 <li><code>top_states_by_bills</code>: list of <code>[state_name, bill_count]</code> pairs, top 15</li>

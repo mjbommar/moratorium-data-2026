@@ -3,7 +3,7 @@
 
 Working inventory for Montana, generated **November 8, 2026**. Record-level refresh and later-action review remain incomplete.
 
-**2 records** — 1 classified as active or extended, 1 classified as pending, 0 classified as past, 0 classified as rejected proposals.
+**2 records** — 1 classified as active or extended, 1 classified as pending, 0 classified as past, 0 classified as rejected proposals, 0 classified as unknown.
 
 These counts reflect inventory classifications and do not establish current enforceability.
 
@@ -22,15 +22,15 @@ State policy is tracked separately: **6 records** (5 typed bill rows and 1 non-b
 - **Recorded status:** 🟡 Pending
 - **Date enacted:** —
 - **Normalized date:** `—` (unverified)
-- **Duration:** As proposed (not yet adopted): a six-month moratorium on data center construction, with up to two additional one-year extensions available, after which the Council of Commissioners would be required to enact permanent regulations. At its 2026-09-02 meeting, the Butte-Silver Bow Council of Commissioners voted 11-0 to direct the county attorney to prepare a temporary moratorium/interim zoning ordinance draft; no draft ordinance had been brought back for a final adoption vote as of 2026-09-23.
+- **Duration:** Earlier reporting described a proposed six-month moratorium with up to two one-year extensions, followed by permanent regulations; the underlying historical source is not retained. An October 28 secondary account likewise describes a proposed six-month moratorium. The enacted term, if any, is unverified.
 - **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `mt-butte-silver-bow-undated`
-- **Legal basis:** Council of Commissioners motion (introduced by Commissioner Michele Shea) directing the county attorney to prepare a temporary data-center moratorium ordinance; adopted 11-0 on 2026-09-02. No ordinance number exists because the moratorium itself has not yet been adopted.
+- **Legal basis:** Council motion introduced by Commissioner Michele Shea directing the county attorney to prepare a temporary data-center moratorium, reported adopted 11-0 on 2026-09-02. A secondary report identifies proposed council bill 2026-03 on 2026-10-28; its text and official status are unverified.
 - **What prompted it:** Ongoing local debate over data center development, including a separately litigated local ballot initiative (406 People First / Local Initiative 00-02) to require voter approval of data centers, a pending Montana Supreme Court appeal over that initiative's ballot eligibility, and public testimony citing power-supply concerns tied to a still-pending Montana Public Service Commission large-load tariff proceeding.
 - **Affected projects:** News coverage references a company exploring potential data center sites in Silver Bow County (behind the ballot-initiative and moratorium debate), but no specific named project or MW figure was located in captured sources.
-- **Detailed status:** Pending as of 2026-09-23. The Butte-Silver Bow Council of Commissioners voted 11-0 on 2026-09-02 to have the county attorney prepare a temporary data center moratorium, intended to give officials and the public more time to evaluate infrastructure, economic, environmental, and quality-of-life impacts before any new data center development proceeds. No draft ordinance had returned to the Council for final adoption as of this pass. Separately, a district court ruled against a citizens' group (406 People First) that sued the county clerk over rejected signatures for a data-center ballot initiative; that ruling is being appealed to the Montana Supreme Court, which has temporarily allowed the initiative to remain alive pending appeal (a related report indicated the initiative was ultimately kept off the November 2026 ballot). [VERIFY instrument number; adoption date; primary source (news-only evidence) not confirmed at confidence 0.6 in the 2026-09 refresh]
-- **Outcome:** Council of Commissioners voted 11-0 to direct the county attorney to draft a temporary data center moratorium ordinance; not yet adopted as of this pass.
+- **Detailed status:** Pending as of 2026-09-23, when the reported September 2 council vote directed the county attorney to prepare a moratorium. A later Citizen Portal account dated 2026-10-28 reports that the Committee of the Whole held proposed council bill 2026-03 in abeyance by a 12-0 vote and returned it for drafting; the account is gated and the official action was not independently established. The earlier review reported a district-court ruling against the citizen group, a Montana Supreme Court appeal and temporary permission for the initiative to remain alive; it also cited a related report that the initiative was ultimately kept off the November 2026 ballot. Those litigation details have not been reverified here. [VERIFY: proposed instrument and official action, any adoption or later changes, and current legal status.]
+- **Outcome:** Council voted 11-0 on 2026-09-02 to direct preparation of a proposed moratorium. A secondary October 28 account reports that proposed council bill 2026-03 was held in abeyance for further drafting; later action and adoption remain unverified.
 
 ### Missoula County
 
@@ -45,7 +45,7 @@ State policy is tracked separately: **6 records** (5 typed bill rows and 1 non-b
 - **Legal basis:** Interim zoning overlay resolution adopted unanimously by the Missoula County Board of County Commissioners on July 9, 2026, under Mont. Code Ann. Section 76-2-206
 - **What prompted it:** County commissioners directed to study an asserted emergency and possible mitigation measures related to data center development pressure in unincorporated county areas
 - **Affected projects:** No specific named project identified in the captured record; applies prospectively countywide in unincorporated areas.
-- **Detailed status:** The county project page reports a one-year moratorium adopted July 9, 2026, ending July 8, 2027 unless replaced sooner by new zoning regulations. This source-supported term does not establish the absence of subsequent action. [VERIFY: operative resolution, later amendments/extensions/repeal, judicial developments and current legal force.]
+- **Detailed status:** The county project page, updated 2026-10-22, reports a one-year moratorium adopted July 9, 2026, ending July 8, 2027 unless replaced sooner by new zoning regulations. The county reported a draft study and scheduled presentations; the page does not establish their completion or later legal changes. [VERIFY: operative resolution, later amendments/extensions/repeal, judicial developments and current legal force.]
 - **Outcome:** Enacted one-year interim zoning moratorium on new or expanded data centers in unincorporated Missoula County.
 
 ---

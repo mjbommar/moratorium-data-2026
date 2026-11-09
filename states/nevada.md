@@ -3,7 +3,7 @@
 
 Working inventory for Nevada, generated **November 8, 2026**. Record-level refresh and later-action review remain incomplete.
 
-**7 records** — 5 classified as active or extended, 0 classified as pending, 2 classified as past, 0 classified as rejected proposals.
+**7 records** — 5 classified as active or extended, 0 classified as pending, 2 classified as past, 0 classified as rejected proposals, 0 classified as unknown.
 
 These counts reflect inventory classifications and do not establish current enforceability.
 
@@ -43,31 +43,31 @@ State policy is tracked separately: **7 records** (7 typed bill rows) in [`state
 - **Recorded status:** ⚪ Expired
 - **Date enacted:** 2024-11-14, Lander County Commission approved Resolution 2024-09 (date reported in July 24, 2025 county staff report).
 - **Normalized date:** `2024-11-14` (exact)
-- **Duration:** 9 months originally; extended 6 months by Resolution 2025-11 (adopted 2025-07-24) through Jan. 24, 2026
+- **Duration:** Nine months originally, as recited in the July 24, 2025 county packet; Resolution 2025-11 proposed a further period of up to six months, but its adoption and any actual endpoint remain unverified.
 - **Current end date:** `—`
 - **Sectors:** solar, wind, battery storage
 - **Moratorium ID:** `nv-lander-county-2024`
-- **Legal basis:** Resolution 2024-09 (original), extended by Resolution 2025-11 (adopted 2025-07-24, through 2026-01-24)
+- **Legal basis:** Resolution 2024-09 (original, according to the July 2025 county packet); Resolution 2025-11 was proposed as a continuation, with adoption not established.
 - **What prompted it:** Time to study standards for renewable energy generation facility siting (solar, wind, storage)
 - **Affected projects:** —
 - **Detailed status:** The July 24, 2025 county staff report states the original moratorium was approved November 14, 2024. The extension material in that packet is proposed, not proof of adoption; bridging continuation, BESS scope and actual expiry remain unresolved. The legacy expired classification is retained provisionally. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
-- **Outcome:** Term lapsed; status after Jan. 24, 2026 not confirmed
+- **Outcome:** The county proposed a continuation on July 24, 2025; adoption and actual end of the moratorium remain unverified.
 
 ### Nye County
 
 - **Type:** County
 - **Recorded status:** ⚪ Replaced
-- **Date enacted:** 2023 (original moratorium on renewable energy generation facilities; exact date not confirmed)
+- **Date enacted:** A November 2023 draft recites adoption of a further moratorium by Resolution 2023-15 on May 16, 2023, after the original Resolution 2022-45 of November 15, 2022; the underlying signed resolutions were not reviewed.
 - **Normalized date:** `2023` (year_only)
-- **Duration:** Continued by Resolution 2024-25 (Sept. 17, 2024 agenda item) through Dec. 21, 2024
+- **Duration:** The September 2024 extension was reported to end December 21, 2024 or on adoption of the new code, whichever came first; January 2025 reporting says the commercial solar moratorium would expire January 6 with the new rules. Intervening continuation and exact legal endpoint are unverified.
 - **Current end date:** `—`
 - **Sectors:** solar, battery storage
 - **Moratorium ID:** `nv-nye-county-2023`
-- **Legal basis:** Nye County resolution(s) continuing a temporary moratorium on renewable energy generation facilities (most recently Resolution 2024-25), superseded by Bill 2024-03 (permanent special-use-permit code for renewable energy siting, including battery energy storage)
+- **Legal basis:** The November 2023 draft for Resolution 2023-36 recites predecessor Resolution 2022-45 and Resolution 2023-15; the earlier row identifies a 2024 continuation as Resolution 2024-25. Ordinance 611 was reported adopted December 17, 2024 to replace the renewable-energy zoning chapter; precise legal relationship to the moratorium and intervening actions remain unverified.
 - **What prompted it:** Time to finalize permanent special-use-permit standards for renewable energy/BESS siting
 - **Affected projects:** —
-- **Detailed status:** Replaced; Nye County's temporary moratorium on renewable energy generation facilities (including battery storage), last extended to Dec. 21, 2024 via Resolution 2024-25, was superseded by Bill 2024-03, a permanent rewrite of the county's special-use-permit code (Title 17, Ch. 17.10) governing renewable energy, battery energy storage, and related aboveground utility projects. [VERIFY details not confirmed at confidence 0.55 in the 2026-09 refresh]
-- **Outcome:** Superseded by permanent zoning code
+- **Detailed status:** January 1, 2025 reporting says Nye County adopted Ordinance 611 on December 17, 2024 to replace its renewable-energy zoning chapter and that commercial solar rules and moratorium expiration were expected January 6, 2025. The September 2024 continuation was reported through December 21 or earlier code adoption; intervening action, exact legal endpoint and the precise relationship of the ordinance to this moratorium remain unresolved. [VERIFY: original and intervening resolutions, operative interval and formal legal effect.]
+- **Outcome:** Ordinance 611 and the reported expiration of the commercial solar moratorium were described in January 2025 reporting; the exact intervening and replacement mechanics remain unresolved.
 
 ### Nye County
 
@@ -82,23 +82,23 @@ State policy is tracked separately: **7 records** (7 typed bill rows) in [`state
 - **Legal basis:** Board of County Commissioners resolution under NRS 244.110/244.119
 - **What prompted it:** Nye County Water District Governing Board's 2026-05-27 emergency request that the commission impose a moratorium, driven by concerns over data center water demand on a 'critically over-appropriated' aquifer (Nevada Hydrographic Basin 162) in the Pahrump Regional Planning District
 - **Affected projects:** Manse Technology Campus (formerly 'Project Blackjack'), a proposed ~900-acre, $18.4B Gigawatt Development Partners LLC data center campus in the Pahrump area, is now blocked by the August 18, 2026 Basin 162 ban; per KTNV (2026-09), 'given the ban, [it] appears to no longer be feasible, at least not where it was originally proposed.'
-- **Detailed status:** Active as of 2026-09-23. The countywide temporary moratorium adopted June 2, 2026 remains in force outside Hydrographic Basin 162, per Nevada Current (2026-08-20): 'Following a county-wide moratorium on any new data center applications... which will remain in effect until the county adopts local data center regulations.' On August 18, 2026 the Board separately voted 5-0 to permanently ban data center construction/operation within Basin 162 (Pahrump Valley) -- reported as Nevada's first outright local data-center ban -- while directing staff to bring county-wide siting regulations (Bill No. 2026-14) for the remainder of the county. A September 14, 2026 special meeting/public hearing on Bill No. 2026-14 was canceled (announced 2026-09-04): 'The proposed bill remains under review. No new hearing date has been scheduled at this time' (Nye County Public Communications Manager Arnold Knightly, via Pahrump Valley Times). As of 2026-09-23 no new hearing date had been announced, so the temporary countywide moratorium continues to govern areas outside Basin 162.
-- **Outcome:** Countywide moratorium on new data center applications adopted 2026-06-02 and still in force outside Hydrographic Basin 162 as of 2026-09-23; a separate permanent ban on data centers within Basin 162 (Pahrump Valley) was adopted 2026-08-18, and a county-wide permanent siting ordinance (Bill No. 2026-14) for the rest of the county remains under review with no hearing scheduled.
+- **Detailed status:** June 5, 2026 reporting describes a countywide moratorium on new data-center applications adopted June 2 until local regulations. Nevada Current reported August 20 that the board voted 5–0 on August 18 to ban construction and operation in Basin 162 and planned a September 14 meeting on regulations outside that area. A county notice reports adoption of Ordinance 631 on August 18 with September 7 effectiveness conditional on publication; its linked PDF is labeled Bill 2026-11 and describes potentially broader unincorporated-area scope. On September 4 the Pahrump Valley Times reported cancellation of a special meeting on Bill 2026-14 and no replacement hearing scheduled at that time, but calls the meeting Monday, September 4, an internally inconsistent date; it does not establish the canceled meeting was September 14. These later captures do not restore custody of the original September source bodies. Final text, publication, adopted scope, relationship to the countywide moratorium and later force remain unverified. [VERIFY: Ordinance 631 scope and publication, subsequent countywide action.]
+- **Outcome:** June reporting describes the June 2, 2026 countywide application moratorium. August 20 reporting describes an August 18, 5–0 Basin 162 ban; the county notice reports Ordinance 631 adoption, conditional publication for effect, while a linked bill suggests potentially broader scope. September 4 reporting says a Bill 2026-14 special meeting was canceled and no replacement hearing was scheduled at that time; its meeting date is internally inconsistent. Final legal scope and later force remain unverified.
 
 ### Reno
 
 - **Type:** City
 - **Recorded status:** 🟢 Extended
 - **Date enacted:** Reno City Council approved a final moratorium resolution on/around 2026-06-01, extending an earlier temporary pause on special-use permits for new data centers through August 31, 2027, by a 6-1 vote (Councilmember Kathleen Taylor dissenting). Coverage headlines describe this both as an 'extension' of an existing pause and as the council 'approving' the moratorium, consistent with an initial shorter pause enacted earlier in 2026 that was then extended.
-- **Normalized date:** `2026-06-01` (range)
+- **Normalized date:** `2026-06-01` (exact)
 - **Duration:** Runs through August 31, 2027, or until the city adopts new data center regulations, whichever comes first.
-- **Current end date:** `2027-08-31`
+- **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `nv-reno-2026`
 - **Legal basis:** City Council resolution adopted 2026-06-01 under Reno Municipal Code (RMC) Section 1.07.010 moratorium procedures, applying to data center conditional-use-permit applications as defined in RMC 18.09.301 and required by RMC 18.03.206; a preceding 30-day 'pending moratorium' was adopted 2026-05-14. No numbered 'Resolution No.' for the final moratorium was located in city materials or news coverage as of 2026-09-23.
 - **What prompted it:** Concerns over water use and rising power costs from new data center development
 - **Affected projects:** Not specifically named in sources reviewed
-- **Detailed status:** Active/extended as of 2026-09-23. Confirmed via the City of Reno's own official Development Services 'Initiatives and Updates' page (primary/official source, not just news): the final moratorium resolution, adopted 2026-06-01 on a 6-1 vote (Councilmember Kathleen Taylor dissenting), runs through 2027-08-31 or until new data center regulations are adopted, whichever is earlier. [VERIFY instrument/resolution number: still not published in city materials, reno.legistar.com, or the news coverage reviewed as of 2026-09-23]
+- **Detailed status:** The city page captured November 5 states that the final moratorium resolution was approved June 1, 2026 and runs until August 31, 2027 or adoption of adequate regulations. Nevada Current reported a 6-1 vote, with Kathleen Taylor dissenting. [VERIFY instrument/resolution number and later formal action.]
 - **Outcome:** Moratorium on new data center special-use permits extended through August 2027
 
 ### Wells
@@ -115,7 +115,7 @@ State policy is tracked separately: **7 records** (7 typed bill rows) in [`state
 - **What prompted it:** Preemptive/precautionary pause; city stated no data center projects were proposed or approved in Wells at adoption, but wanted time to study land use, infrastructure, water, electricity, noise, and emergency-response impacts before any proposal arrives.
 - **Affected projects:** None; the city stated there were no approved data center projects within Wells at the time of adoption.
 - **Detailed status:** Resolution 26-06 is reported adopted June 23. Its scanned section 8 literally states twelve months (12) days from effectiveness, with earlier-change conditions. This review does not resolve that contradiction or establish a June 23, 2027 endpoint. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
-- **Outcome:** Wells City Council adopted a 12-month moratorium on data center land use applications, business licenses, and building permits, directing staff to work with Elko County and neighboring jurisdictions on regulations, zoning requirements, and development standards.
+- **Outcome:** Wells City Council adopted Resolution 26-06, suspending specified data-center approvals and directing staff to study regulations and coordinate with other jurisdictions. Section 8 states “twelve months (12) days”; the intended duration remains unresolved.
 
 ### White Pine County
 
@@ -123,14 +123,14 @@ State policy is tracked separately: **7 records** (7 typed bill rows) in [`state
 - **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-07-22, White Pine County Board of County Commissioners, adopted at a duly noticed public meeting (per the signed resolution's adoption clause)
 - **Normalized date:** `2026-07-22` (exact)
-- **Duration:** 180 calendar days from the effective date (adoption), renewable by Board resolution for one additional period of up to 180 days after a noticed public hearing.
+- **Duration:** 180 calendar days from July 22, 2026 adoption, unless the Board terminates it earlier upon adoption of data-center-specific regulations; the Board may extend it once for up to 180 days after a noticed hearing and required findings.
 - **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `nv-white-pine-county-2026`
 - **Legal basis:** Resolution No. 2026-18 (White Pine County), imposing a temporary moratorium on acceptance, processing, and approval of land use applications for data center development, under NRS 244.137-244.146 and NRS 278.250/278.260
 - **What prompted it:** Preemptive pause after White Pine County was identified at an April 24, 2026 Nevada Legislature Joint Interim Committee on Public Lands meeting as a target for data center development (with BLM officials present), combined with concerns over the Steptoe Valley aquifer, limited rural electric infrastructure, and the lack of data-center-specific zoning standards in Title 17.
 - **Affected projects:** None named; the county had not yet received formal data center applications as of the resolution's adoption, but was reportedly identified as an industry target.
-- **Detailed status:** Active as of 2026-09-23. 180-day moratorium adopted July 22, 2026 (Resolution No. 2026-18), running through approximately January 18, 2027 while staff study water supply, grid capacity, and road impacts and draft a Title 17 data-center ordinance; renewable for one further 180-day period.
+- **Detailed status:** Resolution 2026-18 was adopted and took effect July 22, 2026. It specifies 180 calendar days, subject to earlier termination upon Board adoption of regulations or one qualifying extension. The row previously reported active status as of September 23, 2026; later formal action and present legal force are not established. [VERIFY: later regulations, termination or extension and current legal force.]
 - **Outcome:** White Pine County Board of Commissioners adopted Resolution 2026-18, a 180-day moratorium on data center land use applications, directing staff to study water, power, and infrastructure impacts and draft data-center-specific zoning regulations.
 
 ---

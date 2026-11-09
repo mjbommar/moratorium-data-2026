@@ -3,7 +3,7 @@
 
 Working inventory for Connecticut, generated **November 8, 2026**. Record-level refresh and later-action review remain incomplete.
 
-**6 records** — 4 classified as active or extended, 0 classified as pending, 1 classified as past, 1 classified as rejected proposals.
+**6 records** — 4 classified as active or extended, 0 classified as pending, 1 classified as past, 1 classified as rejected proposals, 0 classified as unknown.
 
 These counts reflect inventory classifications and do not establish current enforceability.
 

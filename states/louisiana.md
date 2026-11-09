@@ -3,7 +3,7 @@
 
 Working inventory for Louisiana, generated **November 8, 2026**. Record-level refresh and later-action review remain incomplete.
 
-**3 records** — 2 classified as active or extended, 0 classified as pending, 1 classified as past, 0 classified as rejected proposals.
+**3 records** — 2 classified as active or extended, 0 classified as pending, 1 classified as past, 0 classified as rejected proposals, 0 classified as unknown.
 
 These counts reflect inventory classifications and do not establish current enforceability.
 
@@ -55,7 +55,7 @@ State policy is tracked separately: **5 records** (4 typed bill rows and 1 non-b
 - **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-01-28
 - **Normalized date:** `2026-01-28` (exact)
-- **Duration:** One year from adoption, subject to one 180-day extension under City Charter Section 3-126
+- **Duration:** Motion M-26-63 directs consideration of a one-year interim zoning district from the motion’s adoption, subject to one 180-day extension under City Charter Section 3-126. Its interim permit and license application hold continues until the proposed district is denied or is approved and becomes legally effective; the final ordinance’s term and relationship to the hold remain unresolved.
 - **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `la-new-orleans-2026`

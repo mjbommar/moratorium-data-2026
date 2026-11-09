@@ -39,12 +39,12 @@ US_STATES = {
 
 GROUPS = {
     "active": "in_force", "extended": "in_force", "pending": "pending",
-    "replaced": "past", "expired": "past", "rescinded": "past", "rejected": "rejected",
+    "replaced": "past", "expired": "past", "rescinded": "past", "rejected": "rejected", "unknown": "unknown",
 }
 
 STATUS_LABEL = {
     "active": "🟢 Active", "extended": "🟢 Extended", "pending": "🟡 Pending",
-    "replaced": "⚪ Replaced", "expired": "⚪ Expired", "rescinded": "🔴 Rescinded", "rejected": "🔴 Rejected proposal",
+    "replaced": "⚪ Replaced", "expired": "⚪ Expired", "rescinded": "🔴 Rescinded", "rejected": "🔴 Rejected proposal", "unknown": "❔ Unknown",
 }
 
 
@@ -76,7 +76,7 @@ def sectors(value: str | None) -> str:
 
 
 def counts_for(rows: list[dict[str, str]]) -> dict[str, int]:
-    out = {"in_force": 0, "pending": 0, "past": 0, "rejected": 0, "total": len(rows)}
+    out = {"in_force": 0, "pending": 0, "past": 0, "rejected": 0, "unknown": 0, "total": len(rows)}
     for row in rows:
         out[GROUPS[row["enacted_status"]]] += 1
     return out
@@ -107,7 +107,8 @@ def state_page(
         f"Working inventory for {state}, generated **{date_label}**. Record-level refresh and later-action review remain incomplete.", "",
         f"**{counts['total']} record{'s' if counts['total'] != 1 else ''}** — "
         f"{counts['in_force']} classified as active or extended, {counts['pending']} classified as pending, "
-        f"{counts['past']} classified as past, {counts['rejected']} classified as rejected proposals.", "",
+        f"{counts['past']} classified as past, {counts['rejected']} classified as rejected proposals, "
+        f"{counts['unknown']} classified as unknown.", "",
         "These counts reflect inventory classifications and do not establish current enforceability.", "",
         policy_note, "",
         "| Jurisdiction | Type | Enacted | Sectors | Recorded status |",
@@ -163,19 +164,20 @@ def state_index(by_state: dict[str, list[dict[str, str]]], as_of: dt.date) -> st
         f"- 🟢 **{totals['in_force']} classified as active or extended**",
         f"- 🟡 **{totals['pending']} classified as pending**",
         f"- ⚪ **{totals['past']} classified as past** (expired, replaced, or rescinded)",
-        f"- 🔴 **{totals['rejected']} rejected proposals retained**", "",
+        f"- 🔴 **{totals['rejected']} rejected proposals retained**",
+        f"- ❔ **{totals['unknown']} with unknown status**", "",
         "These counts reflect inventory classifications and do not establish current enforceability.", "",
         "State-policy records, including bills, resolutions, precursor memos and binding actions, are a separate legal layer. "
         "They are typed in [`state_legislation.csv`](../data/state_legislation.csv) and are not included in these local counts.", "",
         "## States with at least one local moratorium", "",
-        "| State | Total records | 🟢 Active or extended | 🟡 Pending | ⚪ Past | 🔴 Rejected |",
-        "|---|---:|---:|---:|---:|---:|",
+        "| State | Total records | 🟢 Active or extended | 🟡 Pending | ⚪ Past | 🔴 Rejected | ❔ Unknown |",
+        "|---|---:|---:|---:|---:|---:|---:|",
     ]
     ordered = sorted(per_state.items(), key=lambda item: (-item[1]["total"], item[0]))
     for state, counts in ordered:
         lines.append(
             f"| [{state}]({slug_for(state)}.md) | {counts['total']} | "
-            f"{counts['in_force']} | {counts['pending']} | {counts['past']} | {counts['rejected']} |"
+            f"{counts['in_force']} | {counts['pending']} | {counts['past']} | {counts['rejected']} | {counts['unknown']} |"
         )
     lines += [
         "", f"## States without records in this working inventory ({len(missing)})", "",

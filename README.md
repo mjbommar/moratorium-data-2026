@@ -12,7 +12,7 @@ This is the open companion dataset for the working paper *Moratorium Nation: A S
 > Includes the reviewed November 6 Seattle duplicate retirement; both original IDs remain resolvable.
 > Release coverage: a 225-record priority cohort received separate primary and independent source review. Status dates vary by record; these are recorded classifications, not a claim that every instrument was freshly verified. See the [November release notes](docs/release-notes-2026-11-08.md).
 >
-> 🟢 **1085 classified active or extended** (current legal force remains record-specific) · 🟡 **72 classified pending** · ⚪ **172 classified past** (recorded as expired, replaced, or rescinded) · **1 rejected proposal retained**
+> 🟢 **1089 classified active or extended** (current legal force remains record-specific) · 🟡 **64 classified pending** · ⚪ **171 classified past** (recorded as expired, replaced, or rescinded) · **2 rejected proposal retained**
 >
 > Leading states by total records: Ohio (160), New York (152), Michigan (148), Georgia (71), North Carolina (70), Iowa (60), Tennessee (46), Washington (43), Wisconsin (41), Florida (35), Indiana (35), Kentucky (35). Florida, Indiana and Kentucky tie for tenth.
 >
@@ -20,7 +20,7 @@ This is the open companion dataset for the working paper *Moratorium Nation: A S
 
 [Reviewed ballot results](docs/ballot-results.md) cover **57 proposal and measure records** (**52 voted, 3 scheduled, 1 litigated, 1 unknown**), tracked separately from the legacy moratorium counts; **3 frozen candidate payloads remain withheld**; a separate [Augusta notice-only record](work/research/2026-11-08/augusta-notice-publication/README.md) may overlap one of those payloads, so these are not disjoint contest counts. Its sector, final wording, result and ordinance linkage remain unknown. The [Bethel Article 3 publication](work/research/2026-11-08/bethel-town-meeting-publication/README.md) adds an official October town-meeting question and a source-reported approval without a tally, certification or legal-effect finding. The [Monroe and Sprigg publication](work/research/2026-11-08/adams-ballot-publication/README.md) adds two general-zoning questions with unofficial observations and unknown sector and legal effect. The total includes [Jay's solar ballot](work/audit/jay-solar-ballot-followup-2026-11-06.json), reviewed after the original frozen cohort; its primary return and operative legal history remain unresolved. The separate [Wilmington initiative history](work/research/2026-11-07/wilmington-initiative-history/README.md) records dated litigation and an intended election, without a vote result or finding of later status. Two [Clarksville referrals](work/research/2026-11-07/clarksville-proposal-publication/README.md) are conditional future proposals with unknown final election dates and ballots. A vote, certification and an operative legal restriction are distinct observations. Legal-effect review remains record-specific.
 
-Latest reviewed corrections: [next 90 records and stage corrections](work/research/2026-11-08/full-inventory-next90-application/README.md), [first 105 additional records](work/research/2026-11-08/full-inventory-first105-application/README.md), [final 225-record cohort corrections](work/research/2026-11-08/freshness-225-final-corrections/README.md), [30-record source reconciliation](work/research/2026-11-08/freshness-followup-reconciliation/README.md), and [first twenty-record reconciliation](work/research/2026-11-08/freshness-first20-reconciliation/README.md). All IDs are preserved; unsupported dates, terms and authority claims are qualified. **784 rows carry verification flags**, while absence of a flag is not a current-force guarantee. See the [changelog](CHANGELOG.md) and [remaining evidence gaps](docs/known-gaps.md).
+Latest reviewed corrections: [next 90 records and stage corrections](work/research/2026-11-08/full-inventory-next90-application/README.md), [first 105 additional records](work/research/2026-11-08/full-inventory-first105-application/README.md), [final 225-record cohort corrections](work/research/2026-11-08/freshness-225-final-corrections/README.md), [30-record source reconciliation](work/research/2026-11-08/freshness-followup-reconciliation/README.md), and [first twenty-record reconciliation](work/research/2026-11-08/freshness-first20-reconciliation/README.md). All IDs are preserved; unsupported dates, terms and authority claims are qualified. **979 rows carry verification flags**, while absence of a flag is not a current-force guarantee. See the [changelog](CHANGELOG.md) and [remaining evidence gaps](docs/known-gaps.md).
 
 The linked April 2026 paper is a historical edition. Its figures and conclusions have not been synchronized to this November dataset.
 
@@ -73,10 +73,10 @@ For more, see the [FAQ](docs/FAQ.md).
 Working snapshot during the **November 5, 2026** refresh (record-level source dates vary):
 
 - **1330 moratorium records** tracked in our cleaned inventory
-  - **1085 classified active or extended** (893 active + 192 extended)
-  - **72 classified pending**
-  - **94 classified replaced**
-  - **66 classified expired**
+  - **1089 classified active or extended** (892 active + 197 extended)
+  - **64 classified pending**
+  - **82 classified replaced**
+  - **77 classified expired**
   - **12 classified rescinded**; earlier event-based expiry may remain unresolved
 - **47 states** have at least one moratorium. We searched the other **3 states** (Hawaii, West Virginia, and Wyoming) and found none. Alaska, Arizona, Delaware, Rhode Island, and Vermont joined the list in the September 2026 update
 - **Leading states by record count**: Ohio (160), New York (152), Michigan (148), Georgia (71), North Carolina (70), Iowa (60), Tennessee (46), Washington (43), Wisconsin (41), Florida (35), Indiana (35), Kentucky (35). Florida, Indiana and Kentucky tie for tenth.
@@ -187,7 +187,7 @@ moratorium-data-2026/
 ├── states/                        # 50-state index + per-state pages
 ├── data/                          # canonical CSVs and JSON
 │   ├── moratorium_inventory.csv   # the 1330-row local-moratorium table
-│   ├── state_legislation.csv      # 443-row state-policy tracker with typed legal forms
+│   ├── state_legislation.csv      # 447-row state-policy tracker with typed legal forms
 │   ├── summary_stats.json         # top-level aggregates
 │   ├── structured_extractions.jsonl  # 864 lines (526 successful + 338 errors)
 │   └── clause_extraction_analysis.json  # n=348 cohort summary
