@@ -2,16 +2,22 @@
 
 Plan: [Research modernization and ballot-measure expansion](docs/research-and-ballot-expansion-plan.md).
 
-## Completed: dataset update v2026.11.8
+## Active: complete the end-to-end dataset update
 
-Published [v2026.11.8](https://github.com/mjbommar/moratorium-data-2026/releases/tag/v2026.11.8); [delivery verification](work/research/2026-11-08/dataset-release-2026.11.8/README.md). The user reset the active goal to dataset closeout on November 8. Publish the reviewed data with explicit coverage and unresolved facts; experimental extraction/P4 and the larger research-modernization program remain separately tracked below.
+The earlier completion claim was wrong. `v2026.11.8` is now explicitly an **incomplete prerelease checkpoint**, preserving its assets and audit history. Internal artifact validation does not close full-record review or consumer delivery.
 
-- [x] Finish the 225-record primary/independent review cohort and adjudicate its pending correction queue.
-- [x] Apply the last 63 substantive cells and 36 verification fields; preserve all raw IDs and explicit scope limitations.
-- [x] Prepare November citation metadata and dataset release notes.
-- [x] Complete final data/release checks and pin the release source.
-- [x] Build, restore and publish the dataset release with its verified assets.
-- [x] Verify downloaded release assets and selected hosted data; record the final release receipt.
+- [ ] Reconcile every one of the 1,777 raw records, reusing valid existing evidence; close actual source gaps with bounded collection.
+- [ ] Review and apply material changes with exact guards; retain genuine investigated uncertainties and source dates.
+- [ ] Reconcile all ballot identities/results and retain explicit held-candidate dispositions.
+- [ ] Finish evidenced handoffs/copy dispositions across all seven consumers.
+- [ ] Account explicitly for the original required quality gates; do not silently waive or expand them.
+- [ ] Freeze one integrated source, validate once, and publish/verify the complete release and consumer delivery.
+
+### Completed checkpoint work, not overall completion
+
+- [x] Review the 225-record priority cohort and apply its reviewed correction queue.
+- [x] Publish ten internally verified checkpoint assets and retain clean-restore evidence.
+- [x] Correct the checkpoint release to prerelease status and label its incomplete coverage.
 
 ## Research-modernization program backlog
 

@@ -1,6 +1,6 @@
 # Moratorium Data 2026
 
-**Released:** [November dataset update · v2026.11.8](https://github.com/mjbommar/moratorium-data-2026/releases/tag/v2026.11.8) — direct CSV downloads, full archive and checksums.
+**Incomplete refresh checkpoint:** [v2026.11.8](https://github.com/mjbommar/moratorium-data-2026/releases/tag/v2026.11.8) — verified artifact files are available, but full-record freshness and end-to-end consumer delivery remain incomplete. The earlier overall completion claim was incorrect.
 
 **Open data on local-government moratoria targeting data centers, battery storage, solar, wind, and cryptocurrency mining across the United States.**
 
