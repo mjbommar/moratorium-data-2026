@@ -1,12 +1,12 @@
 {
   "manifest_sha256": {
-    "work/sources/TX/manifest.jsonl": "26707e6fb67cbc0cf36d066b8ea8f3eb0fe690867b8ad099887efa03a5a294b6"
+    "work/sources/TX/manifest.jsonl": "840bdb60451c2d97804a1a3e558ef725f8b70f6b80bad37dacd07ca175a6c96f"
   },
-  "record_count": 5,
-  "eligible_verified_body_records": 5,
+  "record_count": 6,
+  "eligible_verified_body_records": 6,
   "gap_records": 0,
   "issue_counts": {},
-  "migrated_records": 5,
+  "migrated_records": 6,
   "records": [
     {
       "manifest": "work/sources/TX/manifest.jsonl",
@@ -137,8 +137,34 @@
       "observation_id": "84fe90197d6f7945",
       "metadata_derivation_id": "b3a4a0d535ff4745",
       "text_derivation_id": "9c59b560adfb1ae1"
+    },
+    {
+      "manifest": "work/sources/TX/manifest.jsonl",
+      "line": 69,
+      "legacy_key": "8396810670f7da47-d73fabec7beb",
+      "row_sha256": "ccedd02f78a914b9aad95f3daaf34a15d50bb53f8044c7721575a55586a428c0",
+      "url": "https://capitol.texas.gov/tlodocs/89R/analysis/html/HB03970H.htm",
+      "original_body_sha256": "d73fabec7beb769c037f2b8d5890583ae91658d0033135bcda70aae6e8e8c791",
+      "original_text_sha256": "da77b4707f4f80ae6df9334604ab8ac8877da0cd71240e17d90c187a6bc6f708",
+      "fetched_at": "2026-11-09T22:14:39.646704+00:00",
+      "published": false,
+      "payload": {
+        "path": "work/sources/TX/8396810670f7da47-d73fabec7beb.bin",
+        "sha256": "d73fabec7beb769c037f2b8d5890583ae91658d0033135bcda70aae6e8e8c791",
+        "bytes": 21904
+      },
+      "text": {
+        "path": "work/sources/TX/8396810670f7da47-d73fabec7beb.txt",
+        "sha256": "da77b4707f4f80ae6df9334604ab8ac8877da0cd71240e17d90c187a6bc6f708",
+        "bytes": 4888
+      },
+      "missing_files": [],
+      "issues": [],
+      "observation_id": "b4ca0c0cf19f5bf0",
+      "metadata_derivation_id": "255b4296de1a75fe",
+      "text_derivation_id": "d2755503e92d74c9"
     }
   ],
   "scope": "Reversible legacy-manifest mapping and retained-byte verification only. Original publication values are preserved, not reassessed. All store material remains private; no source/legal acceptance, complete extraction, fresh acquisition or automatic public export. Missing bodies are not migrated as hash-only payloads.",
-  "exact_body_and_text_readbacks": 5
+  "exact_body_and_text_readbacks": 6
 }
