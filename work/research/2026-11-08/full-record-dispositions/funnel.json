@@ -1,16 +1,16 @@
 {
   "event_cutoff_utc": "2026-11-07T13:38:39.877065Z",
   "counts": {
-    "unresolved": 1443,
+    "unresolved": 1439,
     "corrected_resolved": 130,
-    "confirmed_unchanged": 202,
+    "confirmed_unchanged": 206,
     "superseded_duplicate": 0,
     "not_attempted": 0
   },
   "cohort_counts": {
     "earlier225": {
-      "confirmed_unchanged": 3,
-      "unresolved": 222
+      "confirmed_unchanged": 7,
+      "unresolved": 218
     },
     "remaining1552": {
       "corrected_resolved": 130,
@@ -30651,12 +30651,9 @@
     {
       "id": "pa-sb1408",
       "dataset": "state_policy",
-      "disposition": "unresolved",
-      "public_receipt_pointer": "work/research/2026-11-08/full-inventory-integrated-application/README.md",
-      "residual_reference": {
-        "dataset": "state_policy",
-        "id": "pa-sb1408"
-      },
+      "disposition": "confirmed_unchanged",
+      "public_receipt_pointer": "work/research/2026-11-09/post-release-qa/pennsylvania-history-adjudications.json",
+      "residual_reference": null,
       "recorded_evidence_fingerprints_sha256": [
         "1134d1465ca13974242a535aa4d91f1496e2cb9f2ba0a1130f123076ab6110f4",
         "2780450695d252770c30dcdc69a31bf19bb5855fc07c2659064964410cff0f9b",
@@ -30670,12 +30667,9 @@
     {
       "id": "pa-sb724",
       "dataset": "state_policy",
-      "disposition": "unresolved",
-      "public_receipt_pointer": "work/research/2026-11-08/full-inventory-integrated-application/README.md",
-      "residual_reference": {
-        "dataset": "state_policy",
-        "id": "pa-sb724"
-      },
+      "disposition": "confirmed_unchanged",
+      "public_receipt_pointer": "work/research/2026-11-09/post-release-qa/pennsylvania-history-adjudications.json",
+      "residual_reference": null,
       "recorded_evidence_fingerprints_sha256": [
         "0ba5b0df7a7e412515a4278c159af5e5dc4aa58aaa75451f801b887d145c5c69",
         "289c958b4e80d94c7ba2b0209c6e7bcbf184146865613519ddf1c8c4fb141ea7",
@@ -30711,12 +30705,9 @@
     {
       "id": "pa-sb991",
       "dataset": "state_policy",
-      "disposition": "unresolved",
-      "public_receipt_pointer": "work/research/2026-11-08/full-inventory-integrated-application/README.md",
-      "residual_reference": {
-        "dataset": "state_policy",
-        "id": "pa-sb991"
-      },
+      "disposition": "confirmed_unchanged",
+      "public_receipt_pointer": "work/research/2026-11-09/post-release-qa/pennsylvania-history-adjudications.json",
+      "residual_reference": null,
       "recorded_evidence_fingerprints_sha256": [
         "1788202995757f5e6de41e4b140ba792d57211852605fb84aadcdaa8c19873da",
         "1b05c487bc845eac9ff70cdaea60981d74313e93e14017f121db71e8301a5a8d",
@@ -30752,12 +30743,9 @@
     {
       "id": "pa-sr185",
       "dataset": "state_policy",
-      "disposition": "unresolved",
-      "public_receipt_pointer": "work/research/2026-11-08/full-inventory-integrated-application/README.md",
-      "residual_reference": {
-        "dataset": "state_policy",
-        "id": "pa-sr185"
-      },
+      "disposition": "confirmed_unchanged",
+      "public_receipt_pointer": "work/research/2026-11-09/post-release-qa/pennsylvania-history-adjudications.json",
+      "residual_reference": null,
       "recorded_evidence_fingerprints_sha256": [
         "18b84058b9f08615c498bdd15df059a87cbf68bb56ce9478e974bdf546e64768",
         "4349945c68220c00322a04d7740977267116cf191e45f204dbb2debb08c47020",
@@ -37643,6 +37631,42 @@
       "disposition": "confirmed_unchanged",
       "receipt": "work/research/2026-11-09/post-release-qa/texas-session-adjudications.json",
       "scope": "Retained final history plus independent June2 House/Senate journals support the historical nonpassage inference. The complete17-proposition November4,2025 Secretary of State list confirms SJR72 was not submitted at its proposed election. No canonical field changes or future-election claim."
+    },
+    {
+      "reviewed_at": "2026-11-09T22:20:22.196137+00:00",
+      "id": "pa-sb724",
+      "cohort": "earlier225",
+      "prior_disposition": "unresolved",
+      "disposition": "confirmed_unchanged",
+      "receipt": "work/research/2026-11-09/post-release-qa/pennsylvania-history-adjudications.json",
+      "scope": "Fresh official named-instrument history generated November9 confirms the same last recorded action and print as the prior accepted historical review. The sole later-history check is now performed; no new enactment or current-law claim."
+    },
+    {
+      "reviewed_at": "2026-11-09T22:20:22.196137+00:00",
+      "id": "pa-sb991",
+      "cohort": "earlier225",
+      "prior_disposition": "unresolved",
+      "disposition": "confirmed_unchanged",
+      "receipt": "work/research/2026-11-09/post-release-qa/pennsylvania-history-adjudications.json",
+      "scope": "Fresh official named-instrument history generated November9 confirms the same last recorded action and print as the prior accepted historical review. The sole later-history check is now performed; no new enactment or current-law claim."
+    },
+    {
+      "reviewed_at": "2026-11-09T22:20:22.196137+00:00",
+      "id": "pa-sr185",
+      "cohort": "earlier225",
+      "prior_disposition": "unresolved",
+      "disposition": "confirmed_unchanged",
+      "receipt": "work/research/2026-11-09/post-release-qa/pennsylvania-history-adjudications.json",
+      "scope": "Fresh official named-instrument history generated November9 confirms the same last recorded action and print as the prior accepted historical review. The sole later-history check is now performed; no new enactment or current-law claim."
+    },
+    {
+      "reviewed_at": "2026-11-09T22:20:22.196137+00:00",
+      "id": "pa-sb1408",
+      "cohort": "earlier225",
+      "prior_disposition": "unresolved",
+      "disposition": "confirmed_unchanged",
+      "receipt": "work/research/2026-11-09/post-release-qa/pennsylvania-history-adjudications.json",
+      "scope": "Fresh official named-instrument history generated November9 confirms the same last recorded action and print as the prior accepted historical review. The sole later-history check is now performed; no new enactment or current-law claim."
     }
   ]
 }

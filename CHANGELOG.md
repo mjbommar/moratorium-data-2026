@@ -2,6 +2,8 @@
 
 ## Working QA after v2026.11.9.post1
 
+Fresh November9 official histories confirm the recorded stages of Pennsylvania SB724,SB991,SR185 and SB1408. Four earlier-cohort later-history holds close without canonical field or category changes:1,439 unresolved,130 corrected-resolved,206 confirmed-unchanged. [Evidence and scope](work/research/2026-11-09/post-release-qa/pennsylvania-history-adjudications.json).
+
 Texas SJR72’s retained history, both June2 regular-session journals and the complete November4,2025 ballot list resolve its historical source holds. Two large-load bills retain analytical applicability questions. One scoped hold closes:1,443 unresolved,130 corrected-resolved,202 confirmed-unchanged; no canonical field or status-category changes. [Review](work/research/2026-11-09/post-release-qa/texas-session-adjudications.json).
 
 Washington’s Code Reviser notice independently confirms March 12 adjournment, resolving HB 2515’s source hold. SB 6171’s status now distinguishes recorded committee/referral actions from inferred nonpassage. Two scoped holds close: 1,444 unresolved, 130 corrected-resolved, 201 confirmed-unchanged. Arizona’s seven held-bill categories remain unknown; an authority check rejects stale manuals and date-only material as sufficient governing-rule proof. [Review](work/research/2026-11-09/post-release-qa/washington-session-review.md).
