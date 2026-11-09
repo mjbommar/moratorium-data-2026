@@ -1,5 +1,28 @@
 # Full-inventory closeout: accepted review queue and recovered-source custody
 
+## Current review checkpoint
+
+All **1,552 remaining primary and independent review returns** and **119 targeted
+source follow-ups** are accounted for. The latest compiled coordinator queue accepts
+1,267 records; 19 packets were awaiting acceptance at that compile. These are review
+execution and acceptance counts, not a finding that every legal question is resolved.
+[Queue checkpoint](review-queue-checkpoint.json) records its timestamp and dispositions.
+
+Two integrated applications already made **231 material changes plus nine derived
+verification changes** across 93 distinct records: [first 105 reviews](../full-inventory-first105-application/README.md)
+and [next 90 reviews](../full-inventory-next90-application/README.md).
+The compiled pending queue contains 1,529 further material cells across 606 records.
+Held proposals require correction or explicit rejection before final integration;
+five returned dispositions still need bounded attempt/source reconciliation.
+
+The fourth recovery wave completes **315 successful new source versions**, each
+with native-store readback verification. Source acquisition, substantive acceptance,
+canonical application and release delivery remain separate. No new broad searches
+were admitted. [Bethel's separate publication](../bethel-town-meeting-publication/README.md)
+brings the expanded table to 57 measures. The full release remains incomplete.
+
+## Earlier checkpoint receipts
+
 This increment does **not** complete the update or publish another dataset release.
 The [receipt](review-and-custody.json) records 45 independently reviewed records
 accepted by the coordinator under current complete-row and expected-cell guards:
