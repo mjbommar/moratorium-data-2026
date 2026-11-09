@@ -6,7 +6,8 @@ Plan: [Research modernization and ballot-measure expansion](docs/research-and-ba
 
 
 - [x] Integrate the newly retained Massachusetts H 5175 energy package and Senate S 3166 reprint after provision-level comparison, guarded identity/scope accounting and generated-copy checks. Preserve proposed conference status and version differences; keep H 4144's study-order record separate. Independent QA remains open. [Evidence](work/research/2026-11-09/post-release-qa/massachusetts-energy-conference-evidence.json).
-- [ ] Complete independent QA and affected consumer handoffs for the post-release Massachusetts addition; preserve the immutable published release snapshots.
+- [ ] Complete independent record QA for the post-release Massachusetts addition.
+- [x] Deliver authenticated V5 working inputs to the integration consumer and record historical dispositions for the other six consumers; preserve immutable release snapshots. [Receipt](work/research/2026-11-09/post-release-qa/consumer-v5-handoff.md).
 
 
 The earlier completion claim was wrong. `v2026.11.8` is now explicitly an **incomplete prerelease checkpoint**, preserving its assets and audit history. Internal artifact validation does not close full-record review or consumer delivery.
