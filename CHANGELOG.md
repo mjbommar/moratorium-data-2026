@@ -1,5 +1,9 @@
 # Changelog
 
+## v2026.11.9.post2 — qualified publication, QA ongoing
+
+Published the current dataset and prose from `9174793a`, with ten hash-verified public assets and full clean-restore verification of 1,990 archive members. Relative to post1: seven local records change in 32 cells; 33 existing policy records change in 46 cells; one Massachusetts package is added; two existing status categories change. All 1,415 unresolved dispositions remain explicit. [Release notes and verification](work/research/2026-11-09/release-2026.11.9.post2/README.md).
+
 ## Working QA after v2026.11.9.post1
 
 A5462 second-reprint review verifies the final strict >100MW commercial-load definition and proposed tariff safeguards; pocket-veto status is unchanged. Four cells change and the versioned policy observation is included in analytical scope:377 included,19 excluded,52 unresolved. One scoped hold closes:1,415 unresolved,135 corrected-resolved,226 confirmed-unchanged. [Review](work/research/2026-11-09/post-release-qa/new-jersey-a5462-adjudication.json).

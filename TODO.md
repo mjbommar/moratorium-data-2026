@@ -746,3 +746,5 @@ Exit: repeatable refresh with visible freshness, costs, failures and unresolved 
 
 - [x] Compare retained LB1111 introduced and LB1010 enacted data-center clauses, preserving distinct unthresholded/20-MW proposed, 10-MW enacted and greater-than-20-MW large-load classes, reporting actors/recipients and revised decommissioning terms. Confine the known July 18 date to section 70-1506; actual AM2422/PRB path and act-wide later force remain open.
 - [x] Verify five LB613 marked-text artifacts served from `4b52fc3`; Pages run `42686417813` succeeded.
+
+- [x] Publish qualified v2026.11.9.post2 from `9174793a`: deterministic builds, full clean restore, ten anonymous asset hashes, all 1,990 archive members and eight hosted surfaces verified. Preserve 1,415 unresolved QA dispositions and independent QA pending for the new Massachusetts record; see `work/research/2026-11-09/release-2026.11.9.post2/README.md`.
