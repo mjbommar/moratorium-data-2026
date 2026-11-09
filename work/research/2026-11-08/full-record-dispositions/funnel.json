@@ -1,9 +1,9 @@
 {
   "event_cutoff_utc": "2026-11-07T13:38:39.877065Z",
   "counts": {
-    "unresolved": 1446,
-    "corrected_resolved": 129,
-    "confirmed_unchanged": 200,
+    "unresolved": 1444,
+    "corrected_resolved": 130,
+    "confirmed_unchanged": 201,
     "superseded_duplicate": 0,
     "not_attempted": 0
   },
@@ -13,9 +13,9 @@
       "unresolved": 222
     },
     "remaining1552": {
-      "corrected_resolved": 129,
-      "confirmed_unchanged": 197,
-      "unresolved": 1224,
+      "corrected_resolved": 130,
+      "confirmed_unchanged": 198,
+      "unresolved": 1222,
       "superseded_duplicate": 0
     }
   },
@@ -34711,12 +34711,9 @@
     {
       "id": "wa-hb-2515-2025-26",
       "dataset": "state_policy",
-      "disposition": "unresolved",
-      "public_receipt_pointer": "work/research/2026-11-08/full-inventory-integrated-application/README.md",
-      "residual_reference": {
-        "dataset": "state_policy",
-        "id": "wa-hb-2515-2025-26"
-      },
+      "disposition": "confirmed_unchanged",
+      "public_receipt_pointer": "work/research/2026-11-09/post-release-qa/washington-session-adjudications.json",
+      "residual_reference": null,
       "recorded_evidence_fingerprints_sha256": [
         "02802744f82ad12ee226c1a6f324f1f16c668c60fe85c1ec2c1f35a0ed43143a",
         "09f1a3c821a2d43527f89b95132cda67b4e92ab997b52e0a11b7390a747021bd",
@@ -34725,7 +34722,8 @@
         "9dc171171ebd59fc3c514aaa16f59ea607bd472f166b79153ac0a23416454d2d",
         "d5736ae1bb43638e555a22f3b922c79b6a9495020b35a1145a11469261654efb",
         "f85be9753f06f33478c9d87462e90a75b9636acbb916bc97c9f0ad7afb8b2b63"
-      ]
+      ],
+      "post_release_question_review_pointer": "work/research/2026-11-09/post-release-qa/washington-session-adjudications.json"
     },
     {
       "id": "wa-kitsap-county-2025",
@@ -35125,12 +35123,9 @@
     {
       "id": "wa-sb-6171-2025-26",
       "dataset": "state_policy",
-      "disposition": "unresolved",
-      "public_receipt_pointer": "work/research/2026-11-08/full-inventory-integrated-application/README.md",
-      "residual_reference": {
-        "dataset": "state_policy",
-        "id": "wa-sb-6171-2025-26"
-      },
+      "disposition": "corrected_resolved",
+      "public_receipt_pointer": "work/research/2026-11-09/post-release-qa/washington-session-adjudications.json",
+      "residual_reference": null,
       "recorded_evidence_fingerprints_sha256": [
         "09f1a3c821a2d43527f89b95132cda67b4e92ab997b52e0a11b7390a747021bd",
         "0d086fa291b0a40e0adadc8a0d9099de09579ff8d39f80bcc7f4ab13c1eb6dbc",
@@ -35140,7 +35135,7 @@
         "e98663a012c04283d0c150a02e0e295f6cf3cdd71c34f338692925abd12af526",
         "ec99b3e80b953303400b598264c667cbef04279bd35003dc1fb77e4a5ad7558f"
       ],
-      "post_release_question_review_pointer": "work/research/2026-11-09/post-release-qa/terminal-residual-audit.json"
+      "post_release_question_review_pointer": "work/research/2026-11-09/post-release-qa/washington-session-adjudications.json"
     },
     {
       "id": "wa-sb-6231-2025-26",
@@ -37624,6 +37619,24 @@
       "disposition": "corrected_resolved",
       "receipt": "work/research/2026-11-09/post-release-qa/oklahoma-adjudications.json",
       "scope": "Remove the unsupported assertion of a separately recorded death in committee. The corrected field distinguishes the actual last bill-specific action from the explicit nonpassage inference using both official second-session final journals."
+    },
+    {
+      "reviewed_at": "2026-11-09T22:02:29.762900+00:00",
+      "id": "wa-hb-2515-2025-26",
+      "cohort": "remaining1552",
+      "prior_disposition": "unresolved",
+      "disposition": "confirmed_unchanged",
+      "receipt": "work/research/2026-11-09/post-release-qa/washington-session-adjudications.json",
+      "scope": "Official Code Reviser notice independently confirms March12,2026adjournment, resolving the sole scoped missing-source question. Existing qualified historical observation and canonical fields remain unchanged."
+    },
+    {
+      "reviewed_at": "2026-11-09T22:02:29.762900+00:00",
+      "id": "wa-sb-6171-2025-26",
+      "cohort": "remaining1552",
+      "prior_disposition": "unresolved",
+      "disposition": "corrected_resolved",
+      "receipt": "work/research/2026-11-09/post-release-qa/washington-session-adjudications.json",
+      "scope": "Replace unsupported separately recorded death-in-committee attribution with actual retained committee/referral actions and explicit combined-record nonpassage inference, using independent official session-end notice."
     }
   ]
 }

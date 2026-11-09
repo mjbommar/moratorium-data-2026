@@ -1,5 +1,5 @@
 {
-  "scope": "Residual-accounting/source-question audit of 55 named terminal bills. A row fingerprint is a drift guard, not proof of all fields. No canonical cell changes. Accepted closure is bounded to the named record/source observations; other instruments and current law retain separate scope. Kentucky followup retains the prior guarded questions and rebinds five corrected records to their current rows. Oklahoma followup retains prior guarded questions and replaces unsupported terminal-event wording with explicit combined-record inference.",
+  "scope": "Residual-accounting/source-question audit of 55 named terminal bills. A row fingerprint is a drift guard, not proof of all fields. No canonical cell changes. Accepted closure is bounded to the named record/source observations; other instruments and current law retain separate scope. Kentucky followup retains the prior guarded questions and rebinds five corrected records to their current rows. Oklahoma followup retains prior guarded questions and replaces unsupported terminal-event wording with explicit combined-record inference. Washington session followup retains the prior SB6171 question and guard alongside the corrected source attribution.",
   "review_artifact_sha256": {
     "part-01": "0310e0e89dc4e1f136d2b831144060014a06d5eeada41eb29346fa300ccd3388",
     "part-02": "ab788cc5f7d93196d082e56a8a18b09d395f81b89b9bc5bb43807accb94bafe7",
@@ -8,10 +8,10 @@
   },
   "counts": {
     "reviewed": 55,
-    "unresolved": 40,
+    "unresolved": 39,
     "confirmed_unchanged": 2,
-    "corrected_resolved": 13,
-    "canonical_field_changes": 15
+    "corrected_resolved": 14,
+    "canonical_field_changes": 16
   },
   "records": [
     {
@@ -1849,12 +1849,10 @@
     {
       "id": "wa-sb-6171-2025-26",
       "dataset": "state_policy",
-      "current_row_sha256": "a4b7346f0693d8ab57cfa654ccc363950aab24c0ee48fa9b0ffd12f2a5ea65c0",
-      "recommendation": "unresolved",
-      "rationale": "The retained official page ends at Ways and Means referral; the earlier researcher expressly retained the failed baseline without independent revalidation. The report describes the substitute proposal, not a terminal action.",
-      "remaining_questions": [
-        "What official bill-specific terminal disposition establishes the claimed death in committee at sine die after the last Ways and Means referral?"
-      ],
+      "current_row_sha256": "0563e3a741be0c53da2b353875cdce32648afbcb3ff963e65951694f35c6766f",
+      "recommendation": "corrected_resolved",
+      "rationale": "Replace unsupported separately recorded death-in-committee attribution with actual retained committee/referral actions and explicit combined-record nonpassage inference, using independent official session-end notice.",
+      "remaining_questions": [],
       "separate_qualifications": [
         "This conclusion is bounded to this instrument and its retained observation dates; it is not a current-law certification.",
         "No independent survey of different successor bills or current regulatory framework is implied.",
@@ -1879,7 +1877,19 @@
           "locator": "Summary of Bill, ELEUF definition, tariffs, reporting, clean energy and fee"
         }
       ],
-      "review_part": "part-03"
+      "review_part": "part-03",
+      "prior_question_review": {
+        "current_row_sha256": "a4b7346f0693d8ab57cfa654ccc363950aab24c0ee48fa9b0ffd12f2a5ea65c0",
+        "recommendation": "unresolved",
+        "rationale": "The retained official page ends at Ways and Means referral; the earlier researcher expressly retained the failed baseline without independent revalidation. The report describes the substitute proposal, not a terminal action.",
+        "remaining_questions": [
+          "What official bill-specific terminal disposition establishes the claimed death in committee at sine die after the last Ways and Means referral?"
+        ],
+        "coordinator_override": null
+      },
+      "coordinator_override": "Correct source attribution and retain explicit inference with actual recorded referral.",
+      "superseding_review_pointer": "work/research/2026-11-09/post-release-qa/washington-session-adjudications.json",
+      "field_application_pointer": "work/research/2026-11-09/post-release-qa/washington-session-field-application.json"
     },
     {
       "id": "wi-ab245-sb244",
@@ -2314,5 +2324,12 @@
     "confirmed_unchanged": 2,
     "corrected_resolved": 5,
     "canonical_field_changes": 7
+  },
+  "counts_before_washington_followup": {
+    "reviewed": 55,
+    "unresolved": 40,
+    "confirmed_unchanged": 2,
+    "corrected_resolved": 13,
+    "canonical_field_changes": 15
   }
 }

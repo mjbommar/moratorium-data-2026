@@ -1,0 +1,62 @@
+{
+  "reviewed_at": "2026-11-09T22:02:29.661920+00:00",
+  "sources": [
+    {
+      "record_ids": [
+        "wa-hb-2515-2025-26",
+        "wa-sb-6171-2025-26"
+      ],
+      "attempt_id": "e9790ad082c74e45b025476826378b9c",
+      "url": "https://leg.wa.gov/about-the-legislature/legislative-agencies/cro/",
+      "body_sha256": "111810249fb5f03c4a7419e412ea77cc9278e2b75fc9a0efdaaf99a6f9095d47",
+      "text_sha256": "3e05f89c6976fc343e71c8ba911411540bac3ed3819d2c76d9a35f7efd4e099b",
+      "body_observed_at": "2026-11-09T22:00:58.078942Z",
+      "locator": "Code Reviser Office page, activity notice: 2026 Regular Session adjourned sine die on March12. Independent of the named bill pages and proposed-version reports."
+    }
+  ],
+  "retained_evidence_hash_checks": [
+    {
+      "record_id": "wa-hb-2515-2025-26",
+      "url": "https://app.leg.wa.gov/billsummary/?BillNumber=2515&Year=2025",
+      "body_sha256": "f85be9753f06f33478c9d87462e90a75b9636acbb916bc97c9f0ad7afb8b2b63",
+      "text_sha256": "7297d3262eaaf20fd1c24482aa5c57f95415341fa936683b4403acc2d1ff9e6d",
+      "locator": "2026 regular session, February 14 amendments and March 12 returned to House Rules",
+      "event_date": "2026-03-12",
+      "acquisition_date": "2026-11-06T00:33:47.641534+00:00"
+    },
+    {
+      "record_id": "wa-hb-2515-2025-26",
+      "url": "https://lawfilesext.leg.wa.gov/biennium/2025-26/Htm/Bill%20Reports/Senate/2515-S2.E%20SBR%20WM%20TA%2026.htm",
+      "body_sha256": "02802744f82ad12ee226c1a6f324f1f16c668c60fe85c1ec2c1f35a0ed43143a",
+      "text_sha256": "d5736ae1bb43638e555a22f3b922c79b6a9495020b35a1145a11469261654efb",
+      "locator": "Summary of Amended Bill: ELEUF definition, tariffs, sustainability, clean energy, fee",
+      "event_date": "2026 session, amended bill report",
+      "acquisition_date": "2026-11-06T00:34:27.146437+00:00"
+    },
+    {
+      "record_id": "wa-sb-6171-2025-26",
+      "url": "https://app.leg.wa.gov/billsummary/?BillNumber=6171&Year=2025",
+      "body_sha256": "e98663a012c04283d0c150a02e0e295f6cf3cdd71c34f338692925abd12af526",
+      "text_sha256": "b5df9fe092a30b613b32b0ecc867a4f87733690273fa21b10a1adbcf54da36e5",
+      "locator": "2026 regular session, February 3 committee action and February 4 Ways & Means referral",
+      "event_date": "2026-02-04",
+      "acquisition_date": "2026-11-06T00:33:52.887024+00:00"
+    },
+    {
+      "record_id": "wa-sb-6171-2025-26",
+      "url": "https://lawfilesext.leg.wa.gov/biennium/2025-26/Htm/Bill%20Reports/Senate/6171%20SBR%20ENET%20OC%2026.htm",
+      "body_sha256": "0d086fa291b0a40e0adadc8a0d9099de09579ff8d39f80bcc7f4ab13c1eb6dbc",
+      "text_sha256": "54a3e2f04f24d03daa314c1863417a995b56026e742709e020f1640b0528a76e",
+      "locator": "Summary of Bill, ELEUF definition, tariffs, reporting, clean energy and fee",
+      "event_date": "2026 session, committee bill report",
+      "acquisition_date": "2026-11-06T00:34:28.424111+00:00"
+    }
+  ],
+  "findings": [
+    "The official Code Reviser Office independently confirms the2026session ended March12. This resolves HB2515\u2019s sole recorded adjournment-source gap without changing its canonical row.",
+    "The retained HB2515 history records March12 return to HouseRules for thirdreading. Its historical status remains source-bounded and is not an enactment finding.",
+    "The retained SB6171 currentstatus is SenateWays&Means, with February3committee referral recommendation and February4referral. It does not separately record a terminal event called Died. Replace the categorical death-in-committee wording with an explicitly labeled nonpassage inference from that final history plus independent session-end notice.",
+    "No first-substitute adoption is asserted in the new status field; only the committee action and referral actually stated in the inspected retained history are used."
+  ],
+  "scope": "Independent source gap for one unchanged historical record, corrected terminal attribution for the second; no successor-law or current-force census."
+}

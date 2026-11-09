@@ -2,6 +2,8 @@
 
 ## Working QA after v2026.11.9.post1
 
+Washington’s Code Reviser notice independently confirms March 12 adjournment, resolving HB 2515’s source hold. SB 6171’s status now distinguishes recorded committee/referral actions from inferred nonpassage. Two scoped holds close: 1,444 unresolved, 130 corrected-resolved, 201 confirmed-unchanged. Arizona’s seven held-bill categories remain unknown; an authority check rejects stale manuals and date-only material as sufficient governing-rule proof. [Review](work/research/2026-11-09/post-release-qa/washington-session-review.md).
+
 Oklahoma’s final journals establish May 14, 2026 adjournment in both chambers, correcting the compound 2025 row’s May 29 claim. Nine status narratives distinguish recorded bill actions from nonpassage inferences, with no category changes. Eight terminal-assertion holds close; the title-bill compound retains its analytical-scope hold. Current dispositions: 1,446 unresolved, 129 corrected-resolved, 200 confirmed-unchanged. [Review](work/research/2026-11-09/post-release-qa/oklahoma-review.md).
 
 Kentucky’s 2021 directory resolves four historical sponsor affiliations; official sponsor/roster evidence resolves HB 544’s Lawrence identity and party. The official 2026 sine-die record supports explicitly labeled nonpassage inferences for four bills, and retained HB 593 HCS1 text clarifies section-specific exceptions. Seven cells across five rows change, with five scope fingerprint rebindings and no membership/category changes. Five historical QA holds close: 1,454 unresolved, 121 corrected-resolved, 200 confirmed-unchanged. [Review](work/research/2026-11-09/post-release-qa/kentucky-review.md).

@@ -1,0 +1,25 @@
+{
+  "admitted_at": "2026-11-09T22:00:56.842766+00:00",
+  "authorization_basis": "Standing user goal: two bounded HTTP retrievals for independent Washington2026 adjournment-source holds. Reuse retained HB2515/SB6171 final histories and proposed-version reports. No paid APIs, browser, models or outreach.",
+  "target_record_ids": [
+    "wa-hb-2515-2025-26",
+    "wa-sb-6171-2025-26"
+  ],
+  "caps": {
+    "exa": 0,
+    "serpapi": 0,
+    "googlenews": 0,
+    "gdelt": 0,
+    "search_total": 0,
+    "fetch": 2
+  },
+  "initial_targets": [
+    "https://leg.wa.gov/about-the-legislature/legislative-agencies/cro/"
+  ],
+  "duplicate_check": "WA archive and frozen nationwide ledger checked; bill histories/reports already retained, but no captured CodeReviserOffice2026adjournment notice.",
+  "stop_conditions": [
+    "Two HTTP client retrievals maximum.",
+    "A shared adjournment notice is not a new bill-specific docket event.",
+    "Do not import Arizona held-bill conclusions into Washington or claim current legal force."
+  ]
+}
