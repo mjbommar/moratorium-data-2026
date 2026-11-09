@@ -25,3 +25,8 @@ Remaining primary reviews and independent adjudications use distinct finite batc
 reuse retained source evidence, and stay separate from coordinator acceptance and
 canonical application. The full release, seven-consumer delivery and required quality
 gates remain open in the root TODO.
+
+The [second recovery wave](source-recovery-wave2.json) adds 74 exact-URL HTTP
+attempts after global attempt-ledger deduplication: 72 succeeded and two failed.
+Across both waves, 100 successful source versions have native-store readback proof.
+No new search calls were made; substantive acceptance remains separate.
