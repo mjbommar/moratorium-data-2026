@@ -10,6 +10,10 @@ Further QA qualifies South Dakota SB 232’s recorded tabling, fills three offic
 
 Final-session QA clears four South Dakota named-bill questions and qualifies SB 193’s reconsideration narrative using the official final index and formal rules. No typed stage or headline total changes. See [applied review](work/research/2026-11-09/post-release-qa/README.md#final-session-review-applied).
 
+Four further South Dakota failed-bill QA holds are cleared using final-session histories, retained proposal/amendment evidence and member affiliations. Two party cells replace obsolete verification notes with confirmed bipartisan-cosponsor descriptions; typed stages and headline totals are unchanged.
+
+HB 1038 and SB 135 receive official enacted-source links, precise signature/recording histories, clarified summaries and explicitly qualified July 1 statutory-default dates. Both legal-effect fields and whole-record dispositions remain unresolved pending current-force and referendum checks.
+
 Current working snapshot: **1,328 local records**, **447 policy observations**, and **57 proposal/measure records** with **53 current result observations** (five certified).
 
 | Metric | Working QA after v2026.11.9 |

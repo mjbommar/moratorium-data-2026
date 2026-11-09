@@ -691,3 +691,11 @@ Exit: repeatable refresh with visible freshness, costs, failures and unresolved 
 - [x] Verify successful Pages deployment `42658110384` at `62eaca2` and exact hosted bytes for both canonical CSVs, metadata, the batch validation receipt and index.
 - [x] Independently adjudicate the captured 2026 Taffy Howard profile and verify existing sponsor/party cells; narrow SB 232’s residual to terminal disposition. The upcoming-meetings schedule remains nonresponsive for final status.
 - [x] Apply independent review of four named South Dakota final-session disposition questions using the newly recovered official final index and formal rules, verify sponsor-party values in the same final index and apply one guarded SB 193 narrative correction. Preserve recall/reconsideration limits; close three records unchanged and one corrected-resolved. Five session sources are archived and native-readback verified.
+
+- [x] Independently clear the remaining four South Dakota failed-bill holds (HB 1198, HB 1246, SB 127, SB 128); apply two guarded party-cell corrections and preserve failed-stage classifications, scope membership and named-bill limitations. Reuse the final index and retained introduced/adopted sources without new discovery.
+
+- [x] Recover and independently review complete official HB 1038/SB 135 enacted copies, final-session histories, volume authentication and effective-date rule. Apply ten guarded cells with explicit conditional-default-date qualifications; retain unknown legal effect and two narrowed QA holds. Archive/readback all five new versions.
+- [ ] Verify any referendum/other legal circumstance affecting the inferred July 1 effective dates and subsequent amendments/current force for HB 1038/SB 135; neither enacted record is whole-record resolved.
+
+- [x] Confirm terminal Pages timeout for `42660674146` (`23e1b9f`): build passed, deploy remained syncing_files then timed out. Retain receipt; push the subsequent completed QA batch after terminal status.
+- [ ] Verify the next Pages deployment and exact hosted current CSV/metadata/QA bytes before calling the website current.

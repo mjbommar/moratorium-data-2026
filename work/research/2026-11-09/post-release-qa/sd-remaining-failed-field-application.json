@@ -1,0 +1,54 @@
+{
+  "applied_at": "2026-11-09T17:06:38.563888+00:00",
+  "substantive_cells": 2,
+  "derived_cells": 0,
+  "changed_cells": 2,
+  "changed_records": 2,
+  "csv_before_sha256": {
+    "local_inventory": "533bab9144db8cc57fe2280ba7165238031231583b2cee9d84f52f4344b1b4d2",
+    "state_policy": "c60c62db769614858239580e7af43d2e01038c6014b9715714c04cb257749077"
+  },
+  "csv_after_sha256": {
+    "local_inventory": "533bab9144db8cc57fe2280ba7165238031231583b2cee9d84f52f4344b1b4d2",
+    "state_policy": "68f67971683068c0a9c6d300e688a6aa9fe186471b194b8ef421aeb416374241"
+  },
+  "scope_rebound_ids": [
+    "sd-hb-1246-2026",
+    "sd-sb-127-2026"
+  ],
+  "scope_registry_sha256": "dd36e9e86a4a00eebc0d939ab06cd7e784ca1d9932fe41961e922028763688aa",
+  "changes": [
+    {
+      "dataset": "state_policy",
+      "id": "sd-hb-1246-2026",
+      "field": "party",
+      "before": "R lead [VERIFY: bipartisan Senate cosponsor list not extracted from captured SD Legislature bill page as of 2026-04-29]",
+      "after": "R lead; bipartisan cosponsors",
+      "kind": "substantive"
+    },
+    {
+      "dataset": "state_policy",
+      "id": "sd-sb-127-2026",
+      "field": "party",
+      "before": "R lead [VERIFY: bipartisan cosponsor list not extracted from captured SD Legislature bill page as of 2026-04-29]",
+      "after": "R lead; bipartisan cosponsors",
+      "kind": "substantive"
+    }
+  ],
+  "verify_rows": 979,
+  "row_transitions": [
+    {
+      "dataset": "state_policy",
+      "id": "sd-hb-1246-2026",
+      "before_sha256": "3435d714f08f966716e9f3f07289a7ebd6f5e8061270401fb6de89b30603d8e8",
+      "after_sha256": "f725026285af4510ff66c28d8832cebc5a7f3e7e8d7a1796c78e72efc859cbb2"
+    },
+    {
+      "dataset": "state_policy",
+      "id": "sd-sb-127-2026",
+      "before_sha256": "6c3e38e9325297195e36e3299b50dfb0db611d66087495d51a024a21fd9eca73",
+      "after_sha256": "bf196141927ee4e4798a600a995336e8a976d0d66ea0450b0cc2ab8760b48a41"
+    }
+  ],
+  "scope": "Reviewed source observations, classification correction and explicit unresolved facts; all IDs retained. No current-law census asserted."
+}
