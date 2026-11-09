@@ -1,0 +1,73 @@
+{
+  "source": {
+    "attempt_id": "7fdbd7bc3aa34182906cfb53906c5340",
+    "url": "https://nebraskalegislature.gov/FloorDocs/109/PDF/Slip/LB613.pdf",
+    "fetched_at": "2026-11-05T23:56:37.699386+00:00",
+    "sha256": "63cd746cbcf73ff2e33751dafaafa8ec8b162d62e99ae0fa490ae2be75148435",
+    "text_sha256": "09f4583e5603c8820caa5045c7725228b2071b55c66272ca617f63ad6a32529f"
+  },
+  "source_pages": 9,
+  "renders": [
+    {
+      "printed_page": 3,
+      "sha256": "f508199877d1919f41d0930106eee2a31d83916bd02551f380b64f5e5c11e3ce",
+      "bytes": 668981,
+      "reviewed_visually": true
+    },
+    {
+      "printed_page": 5,
+      "sha256": "6fbee8eee19067a67894297a5d8958d0235686f024358a878127b67814eebfd5",
+      "bytes": 682204,
+      "reviewed_visually": true
+    },
+    {
+      "printed_page": 6,
+      "sha256": "e47a71b380e5a6f9521e0d1e3b81728e80856546abac2011db6cf991705480b9",
+      "bytes": 612164,
+      "reviewed_visually": true
+    },
+    {
+      "printed_page": 7,
+      "sha256": "19d1730d71a89cd4ddd20194407d3ebefa327116b01b7fee5c0e1cd5456d63dc",
+      "bytes": 592175,
+      "reviewed_visually": true
+    },
+    {
+      "printed_page": 8,
+      "sha256": "f15229cb802d9019916dc180136f636f92a531e0b64df6fd7677a3db69b413b4",
+      "bytes": 572992,
+      "reviewed_visually": true
+    },
+    {
+      "printed_page": 9,
+      "sha256": "11964d8e44f55dcf786c3266949d1c42f2acdd37b828115bd64b28bf60c111a1",
+      "bytes": 374916,
+      "reviewed_visually": true
+    }
+  ],
+  "reading_aid": {
+    "method": "pdftotext -layout; actual PDF-page rasterizations by pdftoppm -png",
+    "layout_sha256": "7c6d54388924152b00b2c3707480b76a956e2a8640f8d5d4bd155c12d4e35b15",
+    "role": "Reading aid only; underlining/strike interpretation verified from rendered pixels."
+  },
+  "findings": [
+    {
+      "locator": "printed page 7, Sec.3, section 77-5725(3)(a)",
+      "observation": "Underlined (7) replaces struck (6) in the section 77-27,144 disclosure cross-reference."
+    },
+    {
+      "locator": "printed page 5, Sec.2, section 77-27,144(7)",
+      "observation": "Annual business-disclosure requirement is carried forward; its June 30 deadline is moved from old (6)(c) into new (7)(a). New (7)(b) allows a municipality to request a list of qualifying incentive applicants annually by June 30."
+    },
+    {
+      "locator": "printed pages 6-9, Sec.3, section 77-5725",
+      "observation": "Surrounding tier-2 large-data-center investment/employment, exemption/refund and property-tax provisions appear as unamended text; no added investment/hiring threshold identified in this marked section."
+    },
+    {
+      "locator": "printed page 3, Sec.1, section 77-2711(13)-(14)",
+      "observation": "Marked changes restructure municipal requests for tax information and permit defined limited sharing; they are municipal information-access changes, not a newly stated data-center investment/hiring threshold."
+    }
+  ],
+  "new_network_acquisitions": 0,
+  "scope": "Visual marked-text assessment of the retained enacted slip; no provision-specific effective-date, implementation or later-force acceptance. Raw PDF and images remain private."
+}

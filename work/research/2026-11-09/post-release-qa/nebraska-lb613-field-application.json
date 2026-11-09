@@ -1,0 +1,39 @@
+{
+  "applied_at": "2026-11-09T19:42:42.499377+00:00",
+  "substantive_cells": 1,
+  "derived_cells": 0,
+  "changed_cells": 1,
+  "changed_records": 1,
+  "csv_before_sha256": {
+    "local_inventory": "062e8a9932b807538d512b53fba73fbbf7ecb64620a262500b8084a98c4a55f0",
+    "state_policy": "9f3d6596c2eb26f7ef7a59b87dcba31561a2ee84d1268c66af5afe8075bbb039"
+  },
+  "csv_after_sha256": {
+    "local_inventory": "062e8a9932b807538d512b53fba73fbbf7ecb64620a262500b8084a98c4a55f0",
+    "state_policy": "8d39e7991d0bf093c79ab0e2176320d1d5a1eed24270faf70d524ac30a10e43e"
+  },
+  "scope_rebound_ids": [
+    "ne-lb613-2025"
+  ],
+  "scope_registry_sha256": "4971510145a65e6cbd8438f4a08a14ce8a6ceecfead936e202beb8f97b970bf0",
+  "changes": [
+    {
+      "dataset": "state_policy",
+      "id": "ne-lb613-2025",
+      "field": "key_provisions",
+      "before": "Revenue measure changing disclosure of tax information to municipalities, including disclosure requirements applicable to certain large data-center incentive agreements. The act also reproduces tier 2 large data-center provisions concerning local sales/use tax refunds and exemptions; whether the changed language imposes an additional data-center incentive condition remains unresolved.",
+      "after": "Municipal tax-information disclosure measure. Section 1 changes municipal access to tax records and permits defined limited sharing. Section 2 adds a municipal request for lists of incentive applicants and reorganizes the existing annual incentive-disclosure provisions. Section 3 carries forward the tier-2 large-data-center investment/employment, exemption and refund terms while changing section 77-5725(3)(a)\u2019s disclosure cross-reference from section 77-27,144(6) to (7). Visual review of the marked section identifies no added data-center investment or hiring threshold. These are enacted-version text observations; provision-specific effectiveness and later force remain unverified.",
+      "kind": "substantive"
+    }
+  ],
+  "verify_rows": 979,
+  "row_transitions": [
+    {
+      "dataset": "state_policy",
+      "id": "ne-lb613-2025",
+      "before_sha256": "856682317ae89a14901fee70ac742a3d362d27a5e259d1815f414ffd40546a9f",
+      "after_sha256": "27acf5ca1d933fc8720ce0af27db0d4941207ee4e1ab9ba2140aafe6228a6e14"
+    }
+  ],
+  "scope": "Reviewed source observations, classification correction and explicit unresolved facts; all IDs retained. No current-law census asserted."
+}

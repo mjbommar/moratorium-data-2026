@@ -201,3 +201,7 @@ The [hosted verification](va-wy-hosted-verification.json) confirms six named pub
 ## Nebraska retained sponsor-source followup applied
 
 [LB1111’s introduced print and retained official history](nebraska-retained-review.md) establish Cavanaugh/McKinney and Spivey’s January 20 addition. Two guarded cells replace an obsolete sponsor-source note and qualify the unverified inherited PRB-minutes assertion. The underlying minutes and provision-transfer comparison remain open; zero new acquisitions and no whole-record closure.
+
+## Nebraska LB613 marked-text assessment applied
+
+[Visual review of six enacted-slip pages](nebraska-lb613-review.md) resolves the reproduced-incentive-versus-amendment uncertainty: municipal disclosure/access changes and a subsection renumbering are distinct from unchanged surrounding data-center investment/hiring terms. One guarded summary cell changes; full sponsor identity and provision-specific effectiveness/current-force questions remain open. No new acquisition, category change or whole-record closure.

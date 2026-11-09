@@ -732,3 +732,6 @@ Exit: repeatable refresh with visible freshness, costs, failures and unresolved 
 
 - [x] Resolve LB1111’s named sponsor observations from the retained introduced print and January 20 Spivey addition; qualify the inherited unverified PRB-minutes assertion. Two guarded fields, no new collection; underlying minutes and provision-transfer comparison remain open.
 - [x] Verify six Wyoming data/scope/guidance artifacts served from `a36e03c`; Pages run `42684163324` succeeded.
+
+- [x] Visually assess LB613’s enacted marked text on pages 3/5/6/7/8/9; distinguish municipal information-access changes and the subsection (6)→(7) cross-reference from unchanged surrounding data-center incentive terms. Apply one guarded summary cell; preserve sponsor/effective-date/current-force holds.
+- [x] Verify five LB1111 working artifacts served from `564c42f`; Pages run `42685417546` succeeded.

@@ -2,6 +2,8 @@
 
 ## Working QA after v2026.11.9.post1
 
+Nebraska LB613’s enacted marked text clarifies municipal disclosure/access amendments and an updated cross-reference while carrying forward surrounding data-center investment/hiring terms. One summary cell changes after visual page review; sponsor and provision-specific effectiveness/current-force holds remain. See [review](work/research/2026-11-09/post-release-qa/nebraska-lb613-review.md).
+
 Nebraska LB1111’s retained introduced print and official name-added history support two guarded sponsor/summary clarifications. Underlying PRB minutes and the LB1010 amendment-transfer comparison remain unresolved; no categories or headline counts change. See [review](work/research/2026-11-09/post-release-qa/nebraska-retained-review.md).
 
 Wyoming retained-source review corrects four sponsor/party cells and changes HB0325’s analytical include to unresolved, applying the existing data-center-specific evidence standard. Current scope is 372 included / 19 excluded / 56 unresolved. All raw rows, recorded stages and whole-record dispositions remain unchanged. See [review](work/research/2026-11-09/post-release-qa/wy-retained-review.md).
