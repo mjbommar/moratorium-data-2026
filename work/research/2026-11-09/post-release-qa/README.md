@@ -217,3 +217,7 @@ The [hosted verification](va-wy-hosted-verification.json) confirms six named pub
 ## LB1111 original source gaps cleared
 
 [Closure review](nebraska-lb1111-closure.json) maps every original hold to the completed source reviews. Current dispositions are **1,479 unresolved, 102 corrected-resolved and 194 confirmed-unchanged**. The unexplained reason for removing the PRB report remains a limitation, not an asserted fact or newly invented completion requirement. LB1010 retains its separate legal-effect questions. No canonical CSV or status change accompanies this disposition closure. Earlier batch totals above are historical.
+
+## Georgia residual questions made actionable
+
+[Nine bill-specific question sets](georgia-residual-review.md) replace process-only queue placeholders with the actual retained terminal-history and bill-version gaps. Body/text integrity was checked without refetching. Dispositions, canonical values and observation dates are unchanged.
