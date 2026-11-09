@@ -1,0 +1,46 @@
+{
+  "result": "pass",
+  "scope": "Current combined SD procedural and Hampden identity batch; not universal current-force certification.",
+  "local_records": 1328,
+  "state_policy_records": 447,
+  "surviving_local_rows_unchanged": 1328,
+  "retired_alias": "wi-hampden-2026-2",
+  "canonical_id": "wi-hampden-2026",
+  "policy_changed_cells": 4,
+  "policy_changed_records": 3,
+  "typed_status_changes": 0,
+  "dispositions": {
+    "unresolved": 1495,
+    "corrected_resolved": 97,
+    "confirmed_unchanged": 183,
+    "superseded_duplicate": 0,
+    "not_attempted": 0
+  },
+  "residual_index_records": 1495,
+  "hashes": {
+    "data/moratorium_inventory.csv": "533bab9144db8cc57fe2280ba7165238031231583b2cee9d84f52f4344b1b4d2",
+    "data/state_legislation.csv": "36c05634b1a916780646af5327f0358525c036959c55319e42ebe5b8d2b29c40",
+    "data/identities/legacy-moratoria.jsonl": "400ed8a9bb54a2144b661736a71cdd49c86899c3639701295c72a224dea3d449",
+    "data/state_policy_scope_reviews.jsonl": "4d0e48dfe98f8b29ab71dc16173ecd7dde8ffc19fc2e03c389841c55b58e1dee",
+    "work/research/2026-11-08/full-record-dispositions/funnel.json": "5c3c44b3d7679c0d7fcf96b7fb3e52683c9646567bc127f4cb9bb7cb34a3bdc4"
+  },
+  "checks": [
+    "CSV contracts",
+    "policy scope exports",
+    "summary statistics",
+    "GeoJSON",
+    "timeline",
+    "95 documented numbers",
+    "inventory table",
+    "index generation",
+    "source classification"
+  ],
+  "checks_log_sha256": "cecfb0b5f10b9849af439af392b703239e864d1b4102ae579ed8be15ba332956",
+  "maps_regenerated": [
+    "counts",
+    "sector",
+    "timeline"
+  ],
+  "expanded_publication": "Unchanged; immutable release and expanded generation preserved.",
+  "remaining_qa": "1495 unresolved record dispositions; held ballot questions retained separately."
+}

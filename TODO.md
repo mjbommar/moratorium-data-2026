@@ -684,3 +684,6 @@ Exit: repeatable refresh with visible freshness, costs, failures and unresolved 
 - [x] Recover official Renton August 17 adoption and October 5 hearing minutes through PrimeGov; independently verify and apply two guarded fields, preserve remaining operative-term/exception/later-action gaps, and update the residual index. Retain Covina/Brownsville/Cle Elum source-specific holds and decline nonresponsive pre-meeting/invalid targets.
 
 - [x] Audit 55 terminal-bill residuals with three disjoint retained-evidence reviews; independently verify four rendered official party profiles, clear two named South Dakota QA holds and retain 53 precise gaps, including coordinator rejection of the Kentucky guard-only closure recommendation. Canonical CSV/status values remain unchanged.
+
+- [x] Independently review South Dakota procedural sources, qualify SB 232 tabling, fill three official bill links and clear two bounded failed-stage QA dispositions; preserve the 2021-guide versus 2026-rules limitation.
+- [x] Trace both Hampden observations through September answers and a matching historical source-body hash; retire the proven Ordinance 18 duplicate with full alias/preimage preservation and all surviving rows unchanged. Rebuild affected tables, maps and site; verify all 1,775 active raw IDs and 1,495 indexed unresolved records.

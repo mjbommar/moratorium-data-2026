@@ -2,16 +2,18 @@
 
 ## Post-release QA, November 9
 
-Retire the Kentucky-labelled Boone observation as a source-proven duplicate of the existing Indiana Ordinance 2026-08 row. Preserve both IDs, the full original row and all surviving Indiana fields through the identity registry. Eight independently adjudicated Lavon/Ashland fields are corrected, including removal of unsupported adoption-day precision. Current working local count is 1,329; frozen v2026.11.9 remains unchanged at 1,330. The remaining local identity/term questions continue under QA.
+Retire the Kentucky-labelled Boone observation as a source-proven duplicate of the existing Indiana Ordinance 2026-08 row. Preserve both IDs, the full original row and all surviving Indiana fields through the identity registry. Eight independently adjudicated Lavon/Ashland fields are corrected, including removal of unsupported adoption-day precision. At that checkpoint the working local count was 1,329; frozen v2026.11.9 remains unchanged at 1,330. The remaining local identity/term questions continue under QA.
 
 Two recovered full news bodies support seven further guarded edits to the same Lavon/Ashland records. Lavon’s timestamp/body chronology conflicts remain explicit; Ashland’s reported February 26 vote is a contextual inference marked unverified. The 90-day and six-month/180-day descriptions do not establish operative endpoints. See the [follow-up evidence and validation](work/research/2026-11-09/post-release-qa/README.md#recovered-source-follow-up-applied).
 
-Current working snapshot: **1,329 local records**, **447 policy observations**, and **57 proposal/measure records** with **53 current result observations** (five certified).
+Further QA qualifies South Dakota SB 232’s recorded tabling, fills three official bill links, and resolves two recorded failed-stage questions with source-specific limits. Historical provenance and matching September PDF bytes establish the second Hampden entry as the same Ordinance 18; its row is retired with the permanent ID and original observation preserved. Current working counts differ from frozen v2026.11.9.
+
+Current working snapshot: **1,328 local records**, **447 policy observations**, and **57 proposal/measure records** with **53 current result observations** (five certified).
 
 | Metric | Working QA after v2026.11.9 |
 |---|---:|
-| Moratoria in the list | **1,329** |
-| Classified active or extended | **1,089** |
+| Moratoria in the list | **1,328** |
+| Classified active or extended | **1,088** |
 | Pending or not yet effective | **64** |
 | Ended (replaced, expired, or rescinded) | **171** |
 | Rows we still want to confirm (`[VERIFY]`) | **979** |

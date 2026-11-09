@@ -6,7 +6,7 @@ Canonical records and reproducible derived downloads for this project.
 
 | File | What it is | Size | Format |
 |------|------------|------|--------|
-| [`moratorium_inventory.csv`](moratorium_inventory.csv) | 1329 local-moratorium records. **Start here.** | 1,816,794 bytes | CSV |
+| [`moratorium_inventory.csv`](moratorium_inventory.csv) | 1328 local-moratorium records. **Start here.** | 1,816,794 bytes | CSV |
 | [`state_legislation.csv`](state_legislation.csv) | 447 state-policy records; mechanisms and legal effects vary | 329,165 bytes | CSV |
 | [`state_policy_scope_reviews.jsonl`](state_policy_scope_reviews.jsonl) | Reviewed analytical scope decisions; raw rows retained, applied by the separate scope exports | 835,287 bytes | JSONL |
 | [`summary_stats.json`](summary_stats.json) | Top-level aggregates (counts by state, by status, etc.) | 15,337 bytes | JSON |
@@ -38,7 +38,7 @@ The inventory CSV includes normalized fields alongside legacy descriptions. Usef
 - **`enacted_status`** — closed-vocab status: `active`, `extended`, `replaced`, `expired`, `rescinded`, `pending`, `rejected`, or `unknown`. The last two preserve rejected proposals and genuinely unresolved recorded stages separately. Filter to `active` + `extended` for records classified active or extended. These classifications do not prove freshly verified current legal force.
 - **`moratorium_id`** — stable identifier (`<state>-<jurisdiction>-<year>`, with phase suffixes for repeat instruments). Use this as a primary key when joining with future releases of this dataset.
 - **`current_end_date_iso`** — current fixed endpoint after any extension. Use it for expiry monitoring; `duration_days` preserves the original instrument's term.
-- **`latitude` / `longitude`** — WGS84 coordinates of the jurisdiction centroid. Drop the CSV into Mapbox, kepler.gl, Tableau, or any GIS tool to get an instant point map. 1288 of 1329 rows have coordinates; nonblank coordinates do not establish correct jurisdiction identity or legal applicability. See [geocoding caveats](../docs/known-gaps.md#geocoding-caveats-added-v2026042).
+- **`latitude` / `longitude`** — WGS84 coordinates of the jurisdiction centroid. Drop the CSV into Mapbox, kepler.gl, Tableau, or any GIS tool to get an instant point map. 1287 of 1328 rows have coordinates; nonblank coordinates do not establish correct jurisdiction identity or legal applicability. See [geocoding caveats](../docs/known-gaps.md#geocoding-caveats-added-v2026042).
 
 ## Quick examples
 

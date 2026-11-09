@@ -1,7 +1,7 @@
 # Figure editions and denominators
 
 The count, sector and recorded-date maps use the November reviewed working
-inventory: 1,329 raw rows. They count records rather than verified currently
+inventory: 1,328 raw rows. They count records rather than verified currently
 operative restrictions. State totals include the two aggregate meta-rows; the
 separate cleaned LaTeX inventory/sector tables omit those two rows and declare
 their own denominator. None is a nationwide current-law census.

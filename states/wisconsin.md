@@ -3,7 +3,7 @@
 
 Working inventory for Wisconsin, generated **November 9, 2026**. Record-level refresh and later-action review remain incomplete.
 
-**41 records** — 40 classified as active or extended, 1 classified as pending, 0 classified as past, 0 classified as rejected proposals, 0 classified as unknown.
+**40 records** — 39 classified as active or extended, 1 classified as pending, 0 classified as past, 0 classified as rejected proposals, 0 classified as unknown.
 
 These counts reflect inventory classifications and do not establish current enforceability.
 
@@ -25,7 +25,6 @@ State policy is tracked separately: **7 records** (7 typed bill rows) in [`state
 | Grant County | County | 2026-06-16 | data center | 🟢 Active |
 | Green County | County | 2026-07-14 | data center | 🟢 Active |
 | Greenville | Village | 2026-07-13 | data center | 🟢 Active |
-| Hampden | Town | 2026-05-26 | data center | 🟢 Active |
 | Hampden | Town | 2026-05-26 | data center | 🟢 Active |
 | Janesville (Rock County town) | Town | 2026-08-03 | data center | 🟢 Active |
 | La Crosse | City | 2026-08-13 | data center | 🟢 Active |
@@ -294,22 +293,6 @@ State policy is tracked separately: **7 records** (7 typed bill rows) in [`state
 - **Affected projects:** None named; the town has no industrial zoning.
 - **Detailed status:** Active as of 2026-09-23; Ordinance No. 18 enacted 2026-05-26 bars rezoning and subdivision approvals for data centers as a principal use for 12 months from its effective date (about late May/early June 2027) or until a data center ordinance takes effect.
 - **Outcome:** Town to draft a data center ordinance and comprehensive plan revisions before the moratorium expires.
-
-### Hampden
-
-- **Type:** Town
-- **Recorded status:** 🟢 Active
-- **Date enacted:** May 26, 2026 (per town page 'Last Updated'; not independently confirmed to the day)
-- **Normalized date:** `2026-05-26` (exact)
-- **Duration:** 12 months from effective date, or until a data center ordinance is adopted, whichever is earlier; may be extended up to 6 additional months
-- **Current end date:** `—`
-- **Sectors:** data center
-- **Moratorium ID:** `wi-hampden-2026-2`
-- **Legal basis:** Ordinance No. 13 (Town of Hampden Data Center Temporary Moratorium)
-- **What prompted it:** Town wants time to research and draft comprehensive data-center regulations and update its comprehensive plan
-- **Affected projects:** None named
-- **Detailed status:** Active as of 2026-09-23.
-- **Outcome:** Existing data centers treated as nonconforming uses during the moratorium; may be extended up to 6 months under Wis. Stat. 66.1002(3)(b)2
 
 ### Janesville (Rock County town)
 

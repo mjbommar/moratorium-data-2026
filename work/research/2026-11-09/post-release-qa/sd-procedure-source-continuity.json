@@ -1,0 +1,50 @@
+{
+  "source_versions": 4,
+  "explanatory_pdfs": 2,
+  "sources": [
+    {
+      "url": "https://sdlegislature.gov/js/app.101397de.js",
+      "role": "navigation_script",
+      "body_sha256": "4e1b64155a4b8b05b717d84ff2c76a7839a52d84efd981d105a27dd8ff3a59ca",
+      "text_sha256": "4e1b64155a4b8b05b717d84ff2c76a7839a52d84efd981d105a27dd8ff3a59ca",
+      "captured_at": "2026-11-09T16:08:10.171185+00:00",
+      "observation_id": "e5350b4b4d861004",
+      "native_body_and_text_readback_matched": true
+    },
+    {
+      "url": "https://sdlegislature.gov/Students/Resources",
+      "role": "rendered_resource_index",
+      "body_sha256": "32086aa6f8690b76f7020160796bef6712a4d6ce352452cf8ecb5ea89cdc29ed",
+      "text_sha256": "229548b10a49f39ab9629a59fa2a88734a0b12697c82de17f2d3c08039adeba1",
+      "captured_at": "2026-11-09T16:09:05.451013+00:00",
+      "observation_id": "a31d347d28aeda33",
+      "native_body_and_text_readback_matched": true
+    },
+    {
+      "url": "https://mylrc.sdlegislature.gov/api/Documents/Student%20Reference%20Series/72118.pdf",
+      "role": "explanatory_reference_pdf",
+      "body_sha256": "64ddfba5057b310c5637ebb875ac2654a9574baf95ee2292a6fb49717e5c72d7",
+      "text_sha256": "f9fbcd0542fe708f64ce411df3adb3fe2f65181a5401a0ef04c24ff91fc31c59",
+      "captured_at": "2026-11-09T16:10:17.301269+00:00",
+      "observation_id": "84757d95780bae53",
+      "native_body_and_text_readback_matched": true
+    },
+    {
+      "url": "https://mylrc.sdlegislature.gov/api/Documents/Student%20Reference%20Series/72124.pdf",
+      "role": "explanatory_reference_pdf",
+      "body_sha256": "92f09c12152cc2194ecdd73610198de7b488cd37ca78502d2317ae40162fd74b",
+      "text_sha256": "6bf5fc48d411d83e66eb2533698fa1008d3e62f10258cebaaf4d215a9905794a",
+      "captured_at": "2026-11-09T16:10:18.999133+00:00",
+      "observation_id": "1e8599982d7abe11",
+      "native_body_and_text_readback_matched": true
+    }
+  ],
+  "layout_derivation": {
+    "derivation_id": "dfe8371b41f663fe",
+    "sha256": "182194d699eb0dbf1e290a54ac58db29a3e77c3b69dd8a7620878e8e56255473",
+    "source_body_sha256": "92f09c12152cc2194ecdd73610198de7b488cd37ca78502d2317ae40162fd74b",
+    "observation_id": "1e8599982d7abe11",
+    "method": "pdftotext -layout"
+  },
+  "scope": "Original body and extracted-text versions remain unchanged. A separate deterministic layout derivation and direct PDF page reading address column-order extraction errors. These are official student references canonically marked Year=2021, not formal 2026 Standing Rules. New captures: three HTTP, one headless Pydoll render; zero paid search or direct model API calls."
+}

@@ -1,0 +1,77 @@
+{
+  "applied_at": "2026-11-09T16:19:25.009064+00:00",
+  "substantive_cells": 4,
+  "derived_cells": 0,
+  "changed_cells": 4,
+  "changed_records": 3,
+  "csv_before_sha256": {
+    "local_inventory": "5806ad1a8fb2b8587cb1d63820e4fa6765792319bf838f3474e91ad07f7a975e",
+    "state_policy": "e99ab1770f78f46414a819415b6c90611fb33f890900d435ac5a041ac5427faf"
+  },
+  "csv_after_sha256": {
+    "local_inventory": "5806ad1a8fb2b8587cb1d63820e4fa6765792319bf838f3474e91ad07f7a975e",
+    "state_policy": "36c05634b1a916780646af5327f0358525c036959c55319e42ebe5b8d2b29c40"
+  },
+  "scope_rebound_ids": [
+    "sd-sb-232-2026",
+    "sd-sb-234-2026",
+    "sd-sb-235-2026"
+  ],
+  "scope_registry_sha256": "4d0e48dfe98f8b29ab71dc16173ecd7dde8ffc19fc2e03c389841c55b58e1dee",
+  "changes": [
+    {
+      "dataset": "state_policy",
+      "id": "sd-sb-232-2026",
+      "field": "status",
+      "before": "Amended version failed Do Pass 3-5 in Senate State Affairs, then tabled 5-3 on 2026-02-18; no further action recorded (bill died).",
+      "after": "Amended version failed Do Pass 3-5 in Senate State Affairs, then was tabled 5-3 on 2026-02-18; no further action recorded in the history captured 2026-11-06 UTC.",
+      "kind": "substantive"
+    },
+    {
+      "dataset": "state_policy",
+      "id": "sd-sb-232-2026",
+      "field": "primary_source_url",
+      "before": "",
+      "after": "https://sdlegislature.gov/Session/Bill/27269",
+      "kind": "substantive"
+    },
+    {
+      "dataset": "state_policy",
+      "id": "sd-sb-234-2026",
+      "field": "primary_source_url",
+      "before": "",
+      "after": "https://sdlegislature.gov/Session/Bill/27289",
+      "kind": "substantive"
+    },
+    {
+      "dataset": "state_policy",
+      "id": "sd-sb-235-2026",
+      "field": "primary_source_url",
+      "before": "",
+      "after": "https://sdlegislature.gov/Session/Bill/27290",
+      "kind": "substantive"
+    }
+  ],
+  "verify_rows": 979,
+  "row_transitions": [
+    {
+      "dataset": "state_policy",
+      "id": "sd-sb-232-2026",
+      "before_sha256": "42574752f9bb0afbb25920b670371be5fb174c2c8f4a3159b00611f3d2b50ecd",
+      "after_sha256": "c81bd9f1a4f9a2a85c299bfbc1916db166d9055e10b02cb3b3422e8296618469"
+    },
+    {
+      "dataset": "state_policy",
+      "id": "sd-sb-234-2026",
+      "before_sha256": "a8ec00a822bf3af2c753dd1e31124d6b265b8d86469053f90238ccd11ecab51f",
+      "after_sha256": "02fd8cf3a336581bcc0c5b3b32d35eebd2b865fa6e20249861771ac8e8338878"
+    },
+    {
+      "dataset": "state_policy",
+      "id": "sd-sb-235-2026",
+      "before_sha256": "965f832d2a96f76f0e8ef157cf8e72137c30efa48b629be4c748af6b4e5cf98a",
+      "after_sha256": "827da77b1364cb3968dbcd55341b9e1f959f32980efec5bffa86a0228075bca2"
+    }
+  ],
+  "scope": "Reviewed source observations, classification correction and explicit unresolved facts; all IDs retained. No current-law census asserted."
+}

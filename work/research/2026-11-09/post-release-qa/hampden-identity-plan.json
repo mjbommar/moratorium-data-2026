@@ -1,0 +1,90 @@
+{
+  "schema_version": "legacy-moratorium-retirement-1",
+  "preview_plan": {
+    "schema_version": "legacy-identity-preview-1",
+    "inventory_sha256": "5806ad1a8fb2b8587cb1d63820e4fa6765792319bf838f3474e91ad07f7a975e",
+    "reviewer": "coordinator after independent historical-provenance identity audit",
+    "reviewed_at": "2026-11-09T16:36:32.414981+00:00",
+    "merges": [
+      {
+        "canonical_id": "wi-hampden-2026",
+        "alias_ids": [
+          "wi-hampden-2026-2"
+        ],
+        "record_sha256": {
+          "wi-hampden-2026": "dfd46d3087f690c86bf0c9ec9bb49d30be60803619fdabc30162fbef99f92daa",
+          "wi-hampden-2026-2": "d13d156a88a10127ecdacd0caf75f44f7b7eeb1715e29d66358409b7ad6cc3f0"
+        },
+        "evidence": [
+          {
+            "url": "https://townofhampden.wi.gov/docs/ch-18-data-center-temporary-moratorium.pdf",
+            "body_sha256": "58aa88d8ea74f971fc11a8e26edd1a40665eb8a9810977f9aa7c64a36f506a32",
+            "locator": "Page 1 header and article 3; page 2 article 5 exemptions. Both historical answer records cite this PDF; September 23 manifest key 5d41700ee871ac9f pins this body."
+          },
+          {
+            "url": "https://townofhampden.wi.gov/docs/special-public-n-board-meeting-minutes-2026-05-26.pdf",
+            "body_sha256": "45b57f3d208040b1c0feb88733043011ee6cdfdd972d1c3ca59ed11e6e3be0c6",
+            "locator": "Page 1, Special Board Meeting motion enacting Ordinance No. 18 as presented."
+          },
+          {
+            "url": "https://townofhampden.wi.gov/docs/town-board-meeting-minutes-2026-06.pdf",
+            "body_sha256": "25b4131d7bcadd43468f46b45cdc9e48085405336557710d2c0cd93fed4ff82a",
+            "locator": "Page 1, citizen correspondence and approval of May 26 special meeting minutes."
+          },
+          {
+            "url": "https://raw.githubusercontent.com/mjbommar/moratorium-data-2026/4a53040/work/answers/qa3-gaps/gaps-5.json",
+            "body_sha256": "fb4d0adab316aa330c4ee67f8d3e3b8555460e1c42d20d55f53e415297482fbf",
+            "locator": "Hampden No. 13 answer: explicit PDF citation and matching term/nonconforming-use claims"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/mjbommar/moratorium-data-2026/4a53040/work/sources/WI/manifest.jsonl",
+            "body_sha256": "0f7b33b2d10fb7be72ad9e779e1fab13ec18fb294d9109f96ba1c204e2bab553",
+            "locator": "Original key 5d41700ee871ac9f, September 23 14:25:13 UTC; body hash matches the examined scan"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/mjbommar/moratorium-data-2026/4a53040/data/moratorium_inventory.csv",
+            "body_sha256": "7d6d252da231ec8e00fb4bba37489629f931cc9bd2bdaae796ee9c6d77e3f4c7",
+            "locator": "wi-hampden-2026-2 corresponds to the No. 13 answer; canonical No. 18 row corresponds to qa4 answer"
+          },
+          {
+            "url": "https://raw.githubusercontent.com/mjbommar/moratorium-data-2026/4a53040/work/answers/qa4/leads-WI.json",
+            "body_sha256": "fdcc4f8335c75a15e68cee650baabe6efc56900aed26d4e10b5344f9da3a4d68",
+            "locator": "Canonical No. 18 answer cites the same pinned PDF and May 26 minutes"
+          }
+        ],
+        "rationale": "The historically corresponding No. 13 answer expressly cites the same September body-pinned town ordinance PDF as the No. 18 answer. The retained scan visually identifies 18 and its distinctive provisions match the alias answer; official minutes identify the May 26 No. 18 action. Preserve both observations without field merging or legal-force inference."
+      }
+    ]
+  },
+  "event_id": "11d9c220-32c8-43e4-95b7-e4cfbcdbca8c",
+  "expected_registry_sha256": "8abc04716797ba89e210531f2956407b1407ff3a3fd06ff64e4d38fcb8a6fc82",
+  "inventory_after_sha256": "533bab9144db8cc57fe2280ba7165238031231583b2cee9d84f52f4344b1b4d2",
+  "retired_record": {
+    "state": "Wisconsin",
+    "state_abbrev": "WI",
+    "jurisdiction": "Hampden",
+    "jurisdiction_type": "Town",
+    "date_enacted": "May 26, 2026 (per town page 'Last Updated'; not independently confirmed to the day)",
+    "duration": "12 months from effective date, or until a data center ordinance is adopted, whichever is earlier; may be extended up to 6 additional months",
+    "legal_basis": "Ordinance No. 13 (Town of Hampden Data Center Temporary Moratorium)",
+    "trigger": "Town wants time to research and draft comprehensive data-center regulations and update its comprehensive plan",
+    "current_status": "Active as of 2026-09-23.",
+    "affected_projects": "None named",
+    "outcome": "Existing data centers treated as nonconforming uses during the moratorium; may be extended up to 6 months under Wis. Stat. 66.1002(3)(b)2",
+    "has_verify_tags": "False",
+    "verify_count": "0",
+    "cite_count": "0",
+    "activity_level": "Medium",
+    "enacted_status": "active",
+    "moratorium_id": "wi-hampden-2026-2",
+    "latitude": "43.325989",
+    "longitude": "-89.186184",
+    "date_enacted_iso": "2026-05-26",
+    "date_enacted_uncertainty": "exact",
+    "duration_days": "365",
+    "duration_kind": "fixed_days",
+    "current_end_date_iso": "",
+    "sectors": "[\"data_center\"]",
+    "trigger_categories": "[\"regulatory_gap\"]"
+  }
+}

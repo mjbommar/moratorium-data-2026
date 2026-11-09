@@ -206,7 +206,7 @@
 <tbody>
 <tr>
 <td><a href="moratorium_inventory.csv"><code>moratorium_inventory.csv</code></a></td>
-<td>1329 local-moratorium records. <strong>Start here.</strong></td>
+<td>1328 local-moratorium records. <strong>Start here.</strong></td>
 <td>1,816,794 bytes</td>
 <td>CSV</td>
 </tr>
@@ -267,7 +267,7 @@ pins inputs, partitions and output hashes; see the <a href="../docs/policy-scope
 <li><strong><code>enacted_status</code></strong> — closed-vocab status: <code>active</code>, <code>extended</code>, <code>replaced</code>, <code>expired</code>, <code>rescinded</code>, <code>pending</code>, <code>rejected</code>, or <code>unknown</code>. The last two preserve rejected proposals and genuinely unresolved recorded stages separately. Filter to <code>active</code> + <code>extended</code> for records classified active or extended. These classifications do not prove freshly verified current legal force.</li>
 <li><strong><code>moratorium_id</code></strong> — stable identifier (<code>&lt;state&gt;-&lt;jurisdiction&gt;-&lt;year&gt;</code>, with phase suffixes for repeat instruments). Use this as a primary key when joining with future releases of this dataset.</li>
 <li><strong><code>current_end_date_iso</code></strong> — current fixed endpoint after any extension. Use it for expiry monitoring; <code>duration_days</code> preserves the original instrument's term.</li>
-<li><strong><code>latitude</code> / <code>longitude</code></strong> — WGS84 coordinates of the jurisdiction centroid. Drop the CSV into Mapbox, kepler.gl, Tableau, or any GIS tool to get an instant point map. 1288 of 1329 rows have coordinates; nonblank coordinates do not establish correct jurisdiction identity or legal applicability. See <a href="../docs/known-gaps.html#geocoding-caveats-added-v2026042">geocoding caveats</a>.</li>
+<li><strong><code>latitude</code> / <code>longitude</code></strong> — WGS84 coordinates of the jurisdiction centroid. Drop the CSV into Mapbox, kepler.gl, Tableau, or any GIS tool to get an instant point map. 1287 of 1328 rows have coordinates; nonblank coordinates do not establish correct jurisdiction identity or legal applicability. See <a href="../docs/known-gaps.html#geocoding-caveats-added-v2026042">geocoding caveats</a>.</li>
 </ul>
 <h2 id="quick-examples">Quick examples</h2>
 <p><strong>Count records classified active or extended, by state (Excel):</strong> Open <code>moratorium_inventory.csv</code>, filter <code>enacted_status</code> to <code>active</code> and <code>extended</code>, then PivotTable on <code>state</code>.</p>
