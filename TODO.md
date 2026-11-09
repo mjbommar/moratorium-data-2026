@@ -748,3 +748,5 @@ Exit: repeatable refresh with visible freshness, costs, failures and unresolved 
 - [x] Verify five LB613 marked-text artifacts served from `4b52fc3`; Pages run `42686417813` succeeded.
 
 - [x] Publish qualified v2026.11.9.post2 from `9174793a`: deterministic builds, full clean restore, ten anonymous asset hashes, all 1,990 archive members and eight hosted surfaces verified. Preserve 1,415 unresolved QA dispositions and independent QA pending for the new Massachusetts record; see `work/research/2026-11-09/release-2026.11.9.post2/README.md`.
+
+- [x] Perform bounded A5466 agency report-index follow-up: retain one accepted index capture with exact native body/text readback, record three nonaccepted retrieval outcomes, and narrow the guarded residual question without inferring submission, non-submission or expiration. All 1,415 queue records retain explicit questions; see `work/research/2026-11-09/post-release-qa/new-jersey-bpu-report-adjudication.json`.

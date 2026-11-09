@@ -1,0 +1,62 @@
+{
+  "records": [
+    {
+      "id": "nj-a5466-2024-2025",
+      "current_row_sha256": "16c2488e0625b96e729c7bace30d303f86d9d23a51756cc0349b7172013c451a",
+      "recommendation": "unresolved",
+      "prior_questions": [
+        "Actual report submission, date and current legal force not verified; a targeted BPU report search was not performed in this turn."
+      ],
+      "remaining_questions": [
+        "Actual submission and date of the report required by P.L.2025, c.98, and the resulting 30-day expiration/current-force consequence remain unverified. The November 9 BPU reports-index capture does not establish submission or non-submission; broad targeted searches and 2025/2026 news-index discovery are already recorded. Next seek a statute-linked report or official submission/receipt record."
+      ],
+      "finding": "Agency report index inspected; no statutory submission match established. Absence is not proof of non-submission.",
+      "native_continuity": "new-jersey-bpu-report-native-continuity.json"
+    }
+  ],
+  "retrieval_caps": {
+    "fetch": 4,
+    "used": 4
+  },
+  "captures": [
+    {
+      "attempt_id": "31961450131c485b8d92ce07222fc231",
+      "url": "https://www.nj.gov/bpu/newsroom/reports/",
+      "status": 200,
+      "ok": true,
+      "body_sha256": "e9fd0fa582ac8abbc55194fc8970923816fa465b6afd57e2fca04c20444a1271",
+      "text_sha256": "d63565eec7b5abd7fa64726b32c1ea4240c61abab7f0ad53d0b9277b4b4e56b8",
+      "body_observed_at": "2026-11-09T23:32:11.305456Z"
+    },
+    {
+      "attempt_id": "2f3f2301e36c4a4f858a3015a679a8c1",
+      "url": "https://www.nj.gov/bpu/newsroom/2026/",
+      "status": 404,
+      "ok": false,
+      "body_sha256": "da87a3fd12ab7ef0b03ab60a64fea8c935d035add888460a37f669ad66cd7d2e",
+      "text_sha256": "dae4652e7ab8a705498b1758c0e816c88a8627f2ba0eb3ab8d133bdec0df4ecf",
+      "body_observed_at": "2026-11-09T23:32:37.508143Z"
+    },
+    {
+      "attempt_id": "3e7841236cf14ae9a1b6d96024f7ada3",
+      "url": "https://www.nj.gov/bpu/newsroom/2026/approved/news_archive.html",
+      "status": 200,
+      "ok": false,
+      "body_sha256": "f835a525863c925da5be845aa81a735d50bafc3bbb561951054124bfd7516b26",
+      "text_sha256": "cd85d5cdc334fa32dc41b2de090a62ff20e74d5980befe596a0da42fcde13ecf",
+      "body_observed_at": "2026-11-09T23:33:06.313118Z"
+    },
+    {
+      "attempt_id": "b72549029c5c45158a730fcea26e6739",
+      "url": "https://www.nj.gov/bpu/newsroom/2025/approved/news_archive.html",
+      "status": 200,
+      "ok": false,
+      "body_sha256": "adedf91e88c713060019a3d40d51933be4cccc0aeec8604528454d67ae1997a6",
+      "text_sha256": "2344b9b630e0be5d00dcd57417bb9536a3c8e1682c69f654fd37c61ae285b9bf",
+      "body_observed_at": "2026-11-09T23:33:06.291250Z"
+    }
+  ],
+  "retrieval_qualification": "Only reports-index capture has ok=true and is archived/migrated. Two HTTP200 news archives have ok=false and remain private discovery inputs; one guessed directory returned404. No unsuccessful observation is promoted.",
+  "canonical_changes": 0,
+  "disposition_changes": 0
+}
