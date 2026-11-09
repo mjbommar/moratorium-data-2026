@@ -20,7 +20,7 @@
   "consumer_dispositions": "delivered_with_historical_editions_preserved",
   "experimental_extractor": "failed_no_automatic_promotion",
   "quality_gate_disposition": "User authorized publication of the current state with qualifications on pending QA, followed by continued double checking and resolution of outstanding questions.",
-  "reviewed_data_source_commit": "4764e0604f02ebd67fd2c6f4fcb2420a576451d0",
+  "reviewed_data_source_commit": "a41088429728b4f729637d182415ce0a80eabb84",
   "record_dispositions": {
     "unresolved": 1411,
     "corrected_resolved": 139,
@@ -42,20 +42,11 @@
   "prior_published_source_commit": "76493282e16a7ce94c8cd8eaa4e26f659e2c9735",
   "published_source_reference": "The v2026.11.9.post2 release tag and asset manifest source_commit identify the exact source; source identity is not self-referential metadata.",
   "latest_consumer_handoff": {
-    "source_commit": "269572ee7573904c2f6d3858e3f48d29b37185b1",
-    "consumer_commit": "1e7930c3a900261e1cd566be7840b3fe8d47027d",
-    "manifest_sha256": "d79a18a8ed292eefac373446f7e9c89fbadd090db4f5633b698ff8cc289fb821",
-    "receipt": "work/research/2026-11-09/post-release-qa/consumer-v6-handoff.json",
-    "scope": "Current canonical input delivery; independent record QA and historical joins remain separate."
+    "source_commit": "a41088429728b4f729637d182415ce0a80eabb84",
+    "consumer_commit": "47d1038fe2cda0b913f01ff4e08f39178d5ca538",
+    "manifest_sha256": "d9473f45dfcc98f020130fbea50038ced68862a2a557d5ced61db8c38fa4266d",
+    "receipt": "work/research/2026-11-09/post-release-qa/consumer-v7-handoff.json",
+    "scope": "Current canonical input delivery; remaining independent/source QA and historical joins remain separate."
   },
-  "published_source_commit": "9174793a5e0a8111d7c33c91599bf87f9155c26d",
-  "pending_consumer_input_delta": {
-    "baseline_source_commit": "269572ee7573904c2f6d3858e3f48d29b37185b1",
-    "baseline_consumer_commit": "1e7930c3a900261e1cd566be7840b3fe8d47027d",
-    "changed_policy_rows": 4,
-    "changed_cells": 4,
-    "status_category_changes": 0,
-    "receipt": "work/research/2026-11-09/post-release-qa/illinois-adjudications.json",
-    "scope": "Version-specific provision narratives; a new consumer handoff remains pending."
-  }
+  "published_source_commit": "9174793a5e0a8111d7c33c91599bf87f9155c26d"
 }

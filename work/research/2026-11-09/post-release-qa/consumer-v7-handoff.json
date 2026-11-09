@@ -1,0 +1,294 @@
+{
+  "source_commit": "a41088429728b4f729637d182415ce0a80eabb84",
+  "manifest_sha256": "d9473f45dfcc98f020130fbea50038ced68862a2a557d5ced61db8c38fa4266d",
+  "expanded_snapshot": "8d1a4df738c50cb71a066c1dc755019f77c94c62fb089cad8a7a9153559f79bb",
+  "current_counts": {
+    "moratorium_records": 1328,
+    "state_policy_records": 448,
+    "ballot_measures": 57,
+    "retained_results": 64,
+    "current_results": 53,
+    "retained_events": 10,
+    "current_accepted_historical_events": 10,
+    "restriction_records": 2,
+    "measure_instrument_link_records": 1
+  },
+  "files": 2061,
+  "entries": 2243,
+  "verified_at": "2026-11-09T23:52:54.276266+00:00",
+  "consumer_verification": {
+    "handoff": {
+      "state": "verified",
+      "source_commit": "a41088429728b4f729637d182415ce0a80eabb84",
+      "manifest_sha256": "d9473f45dfcc98f020130fbea50038ced68862a2a557d5ced61db8c38fa4266d",
+      "expanded_snapshot": "8d1a4df738c50cb71a066c1dc755019f77c94c62fb089cad8a7a9153559f79bb",
+      "files": 2061,
+      "entries": 2243,
+      "checks": [
+        {
+          "command": [
+            "scripts/check_expanded_publication.py"
+          ],
+          "exit_code": 0,
+          "result": {
+            "state": "consistent",
+            "snapshot_sha256": "8d1a4df738c50cb71a066c1dc755019f77c94c62fb089cad8a7a9153559f79bb",
+            "generations_checked": 46,
+            "records": {
+              "jurisdictions": 52,
+              "elections": 51,
+              "ballot_measures": 57,
+              "measure_provisions": 52,
+              "measure_results": 64,
+              "local_restrictions": 2,
+              "instrument_events": 10,
+              "measure_instrument_links": 1,
+              "source_documents": 165,
+              "claims": 613,
+              "review_decisions": 2716,
+              "search_runs": 1,
+              "search_attempts": 3,
+              "search_sightings": 18,
+              "coverage_observations": 1
+            },
+            "scope": "Offline publication/receipt consistency only; no source reacquisition, renewed factual acceptance or current-force confirmation."
+          }
+        },
+        {
+          "command": [
+            "scripts/build_expanded_csv.py",
+            "--check"
+          ],
+          "exit_code": 0,
+          "result": {
+            "state": "matches",
+            "source_snapshot": "8d1a4df738c50cb71a066c1dc755019f77c94c62fb089cad8a7a9153559f79bb",
+            "projection_sha256": "099c003dec2ad3a6592e69f985c61cbcd7a7b2cc21577a4e5d96e7553d643694",
+            "csv_views": 18
+          }
+        },
+        {
+          "command": [
+            "scripts/build_policy_scope_exports.py",
+            "--check"
+          ],
+          "exit_code": 0,
+          "result": "policy-scope exports current"
+        }
+      ],
+      "checks_run": true,
+      "scope": "Pinned input integrity and offline publication consistency, not source reacquisition or downstream join acceptance."
+    },
+    "policy_semantics": {
+      "total_state_policy_actions": 448,
+      "total_state_bills": 427,
+      "state_policy_instrument_type_counts": {
+        "bill": 427,
+        "executive_order": 2,
+        "governor_directive": 1,
+        "legislative_amendment": 1,
+        "legislative_precursor": 3,
+        "legislative_resolution": 12,
+        "statute": 2
+      },
+      "top_states_by_bills": [
+        [
+          "Pennsylvania",
+          18
+        ],
+        [
+          "Virginia",
+          18
+        ],
+        [
+          "West Virginia",
+          18
+        ],
+        [
+          "Maryland",
+          16
+        ],
+        [
+          "New Jersey",
+          16
+        ],
+        [
+          "California",
+          14
+        ],
+        [
+          "South Dakota",
+          14
+        ],
+        [
+          "Arizona",
+          13
+        ],
+        [
+          "Iowa",
+          13
+        ],
+        [
+          "Michigan",
+          13
+        ],
+        [
+          "Minnesota",
+          12
+        ],
+        [
+          "Ohio",
+          12
+        ],
+        [
+          "Oklahoma",
+          12
+        ],
+        [
+          "Illinois",
+          11
+        ],
+        [
+          "Kansas",
+          11
+        ]
+      ],
+      "top_states_by_policy_actions": [
+        [
+          "Pennsylvania",
+          22
+        ],
+        [
+          "Virginia",
+          18
+        ],
+        [
+          "West Virginia",
+          18
+        ],
+        [
+          "Maryland",
+          17
+        ],
+        [
+          "New Jersey",
+          17
+        ],
+        [
+          "California",
+          14
+        ],
+        [
+          "Michigan",
+          14
+        ],
+        [
+          "South Dakota",
+          14
+        ],
+        [
+          "Arizona",
+          13
+        ],
+        [
+          "Iowa",
+          13
+        ],
+        [
+          "Kansas",
+          12
+        ],
+        [
+          "Minnesota",
+          12
+        ],
+        [
+          "Ohio",
+          12
+        ],
+        [
+          "Oklahoma",
+          12
+        ],
+        [
+          "Illinois",
+          11
+        ]
+      ]
+    },
+    "scope": "Authenticated reviewed inputs; historical downstream joins retain their cutoffs."
+  },
+  "index_verification": {
+    "snapshot": "data/source-snapshots/moratoria/2026-11-09-reviewed-v7",
+    "source_commit": "a41088429728b4f729637d182415ce0a80eabb84",
+    "manifest_sha256": "d9473f45dfcc98f020130fbea50038ced68862a2a557d5ced61db8c38fa4266d",
+    "tracked_files_and_symlinks": 2062,
+    "exact_staged_git_blob_bytes_and_modes": true,
+    "scope": "Exact staged snapshot content, Git modes and path set against the pinned manifest, including the manifest itself. This is not an independent legal review."
+  },
+  "delta_from_v6": {
+    "baseline_source_commit": "269572ee7573904c2f6d3858e3f48d29b37185b1",
+    "current_source_commit": "a41088429728b4f729637d182415ce0a80eabb84",
+    "changed_existing_policy_rows": 4,
+    "changed_cells": 4,
+    "status_category_changes": 0,
+    "added_ids": [],
+    "removed_ids": [],
+    "local_csv_byte_identical": true,
+    "ballot_event_jsonl_byte_identical": true,
+    "changes": [
+      {
+        "id": "il-hb5513-hyperscale-data-centers-power-act-companion",
+        "field": "key_provisions",
+        "before": "Introduced proposal combines environmental impact assessments, public notice and community benefits, water planning and permits, energy and water reporting, renewable-energy measures, and residential solar permitting provisions. A relationship to SB4016 is a qualified companion lead pending comparison of bill versions.",
+        "after": "Introduced proposal combines environmental impact assessments, public notice and community benefits, water planning and permits, energy and water reporting, renewable-energy measures, and residential solar permitting provisions. Its retained introduced operative text matches SB4016 after removal of page headers, line numbers and whitespace across all 637 pages. This verifies introduced-text equality, not formal consolidation, equality of later versions or enactment."
+      },
+      {
+        "id": "il-sb3830-data-centers-various",
+        "field": "key_provisions",
+        "before": "As introduced, the bill proposes a clean-energy self-direct program, utility tariff changes, water-discharge pollutant monitoring and DNR water-use disclosures, and Water Use Act and groundwater-emergency changes. Filed Senate Committee Amendment No. 2 proposes replacing the text after the enacting clause with hyperscale load curtailment and cost allocation provisions; the retained history records referral, not adoption.",
+        "after": "As introduced, proposes a clean-energy self-direct program, utility tariff changes, water-discharge pollutant monitoring and DNR water-use disclosures, and Water Use Act and groundwater-emergency changes. Filed Senate Committee Amendment No. 1 proposes replacement with PJM curtailment limited to the new large-load customer, pass-through of backstop capacity obligations, financial security and load information; its text is not a data-center-specific definition. Filed Amendment No. 2 separately proposes hyperscale load curtailment and cost allocation. The fresh official history records filing and referral of both amendments, not adoption."
+      },
+      {
+        "id": "il-sb4004-aquifer-protection-act",
+        "field": "key_provisions",
+        "before": "As introduced, would prohibit data centers from using Mahomet Aquifer water and state agencies from issuing or renewing permits for data center groundwater withdrawals from that aquifer. Data centers operating before the Act's effective date would cease Mahomet Aquifer groundwater withdrawals by January 1, 2028 and transition to alternative sources; local water-use nondisclosure clauses are restricted. The official synopsis states a January 1, 2027 start for the use prohibition, but introduced section 15 contains no such date; reconcile before assigning one.",
+        "after": "As introduced, proposes a blanket Mahomet Aquifer data-center water prohibition and a January 1, 2028 transition for existing facilities. The introduced synopsis names January 1, 2027, while introduced section 15 contains no such start date; no date is assigned from that discrepancy. Filed Senate Committee Amendment No. 1 proposes replacing the bill with water-resource plans, Illinois State Water Survey impact reports, an adverse-resource-impact-dependent Mahomet withdrawal prohibition, quarterly DNR reporting, scarcity plans and water-use NDA restrictions. Existing centers would submit plans within six months; January 1, 2028 withdrawal cessation depends on an adverse-impact determination. The amendment is recorded filed/re-referred, not adopted; neither proposal is represented as current law."
+      },
+      {
+        "id": "il-sb4016-hyperscale-data-centers-power-act",
+        "field": "key_provisions",
+        "before": "The introduced synopsis describes cumulative impact review, public notice and community benefit agreements, NDA restrictions, water-impact permits and water reporting and planning, energy and water reporting to ICC, a hyperscale self-direct program, peak-demand-based fees, labor and equity provisions, and residential automated solar permitting. The introduced operative text and its qualifications remain to be checked.",
+        "after": "Introduced proposal combines cumulative impact review, public notice and community benefit agreements, NDA restrictions, water-impact permits and water reporting and planning, energy and water reporting to ICC, a hyperscale self-direct program, peak-demand-based fees, labor and equity provisions, and residential automated solar permitting. Retained introduced operative text matches HB5513 after removal of page headers, line numbers and whitespace across all 637 pages. This confirms the introduced proposal, not enactment or later-version equality."
+      }
+    ]
+  },
+  "trusted_verifier_sha256": "7b05070929c964e2b4f9225cfb3a81ef4c52729633b3f86b421b2eee1d3b7364",
+  "scope": "Authenticated current canonical input delivery. Historical populations, joins and manuscript editions retain their clocks; source/legal QA remains open.",
+  "consumer_commit": "47d1038fe2cda0b913f01ff4e08f39178d5ca538",
+  "consumer_remote_main_verified": true,
+  "consumer_remote_main_observed_at": "2026-11-09T23:54:06.859996+00:00",
+  "hosted_source_verification": {
+    "source_commit": "a41088429728b4f729637d182415ce0a80eabb84",
+    "pages_run": 42723305600,
+    "observed_at": "2026-11-09T23:50:03.770014+00:00",
+    "files": {
+      "data/state_legislation.csv": {
+        "sha256": "a70886ddb13a68e988cc6fdbde6505a3b4dc7f4eaa3b6497127b43624306335d",
+        "bytes": 339113,
+        "state": "byte_equal"
+      },
+      "data/release_metadata.json": {
+        "sha256": "c0f63b8e1cecb943dedaddd69b8f4083fbfb09bbf36926717b90a244065f480e",
+        "bytes": 3598,
+        "state": "byte_equal"
+      },
+      "data/summary_stats.json": {
+        "sha256": "938a8b872a2842007f566d21ca63fdff68748ad1ceb64ac434e3e0ed2b889341",
+        "bytes": 15337,
+        "state": "byte_equal"
+      }
+    }
+  },
+  "other_consumer_scope": "Earlier consumer deliveries, frozen cohorts and dated editions retain their historical boundaries; no new joins or other manuscript updates are claimed."
+}
