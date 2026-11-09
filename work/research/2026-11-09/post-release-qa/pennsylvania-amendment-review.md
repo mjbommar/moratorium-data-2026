@@ -1,0 +1,7 @@
+# Pennsylvania amendment-source review — November 9, 2026
+
+The official Senate rollcall RCS969 confirms June30,2026 consideration of **A04084 to SB1345 PN1766**, with two yeas and nine nays. Brown and Comitta voted yea; the remaining nine members voted nay. The question is adoption of that amendment, not passage or rejection of SB1359. The official SB1345 bill page still records September30,2026 re-referral to Rules and Executive Nominations as its last action.
+
+Two captures are retained with verified original bodies, reviewed derived text and exact native-store readbacks. Automatic extraction omitted substantive vote positions and bill history; separate body-pinned HTMLParser derivations preserve the print-only vote labels and full history. These recoveries narrow four records' source questions without changing canonical fields or closing a whole record. The guarded [adjudications](pennsylvania-amendment-adjudications.json) record each remaining question.
+
+A query bearing amendment04084 returned a listing for04177; it cannot establish04084 content. The direct04084 text route returned HTTP200 with **Not Available**, not an amendment. Neither response is promoted into accepted substantive evidence. The amendment text and original Brown statement remain unresolved. Four of six admitted HTTP retrievals were used; no paid API, model, browser or outreach was used. The guarded queue rebuild and source-classification check passed; dispositions remain1,443 unresolved,130 corrected-resolved,202 confirmed-unchanged.
