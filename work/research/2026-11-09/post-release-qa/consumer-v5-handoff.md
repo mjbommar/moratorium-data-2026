@@ -25,3 +25,5 @@ in that dated copy. This is a scope disposition, not a new full-site HTTP audit.
 The machine [delivery receipt](consumer-v5-handoff.json) records manifest pins,
 independent consumer verification, staged-storage proof and remote refs. The
 immutable GitHub release archives remain unchanged.
+
+The first site deployment for source `f714c63c` failed on November 9 after ten minutes in `syncing_files` (run42713460280); its build passed. A subsequent hosted check still returned the older policy CSV. GitHub main and the authenticated consumer snapshot contain the new policy observation; the site requires a successful subsequent deployment and byte verification.

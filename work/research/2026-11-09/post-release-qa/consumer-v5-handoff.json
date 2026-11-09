@@ -263,6 +263,26 @@
   "publication_site_run": {
     "id": 42713460280,
     "source_commit": "f714c63c386f52d0ac768b5ea10e2255b6a5bdfb",
-    "last_observed_status": "deploy in progress; build succeeded"
+    "last_observed_status": "failed: deployment timed out after ten minutes in syncing_files; build and report jobs passed",
+    "conclusion": "failure",
+    "failed_job_id": 129488999742,
+    "hosted_verification": {
+      "observed_at": "2026-11-09T22:46:31.684537+00:00",
+      "files": [
+        {
+          "path": "data/state_legislation.csv",
+          "status": 200,
+          "sha256": "08814a277fd59b05c54d76c300c23c044596974a71baf3df6d1935c7e5cc91bc",
+          "matches_working_data": false
+        },
+        {
+          "path": "data/summary_stats.json",
+          "status": 200,
+          "sha256": "ac49fa61bec79a9d352a80613a2a04e16aa7a7c2885cc0d9f3b76bea2132f175",
+          "matches_working_data": false
+        }
+      ]
+    },
+    "recovery": "A new push publishes queued audit/QA commits after the prior run became terminal. Monitor the resulting deployment; do not claim hosted data refreshed until verified."
   }
 }
