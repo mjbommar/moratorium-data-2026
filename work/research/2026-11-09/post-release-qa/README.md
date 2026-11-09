@@ -237,3 +237,7 @@ The [hosted verification](va-wy-hosted-verification.json) confirms six named pub
 ## Tennessee regular-session adjournment verified
 
 [Three primary sources](tennessee-session-evidence.json) establish April23,2026 regular-session sine-die adjournment separately from later speaker signatures and extraordinary sessions. [Six scoped holds close](tennessee-session-adjudications.json) after the sole independent source gap is cleared; HB2047 retains amendment-adoption and scope questions. Current dispositions: **1,466 unresolved, 109 corrected-resolved and 200 confirmed-unchanged**. No canonical CSV edits or status changes.
+
+## HB2047 proposed data-center scope established
+
+[Retained SA0665 and refreshed official history](tennessee-hb2047-evidence.json) establish explicit proposed facility/equipment and incentive eligibility scope. The [append-only scope decision](tennessee-hb2047-scope-application.json) changes unresolved to include: **373 included / 19 excluded / 55 unresolved**. Final amendment adoption remains unverified; no CSV or whole-record-disposition change. The four-fetch Tennessee batch is exhausted.

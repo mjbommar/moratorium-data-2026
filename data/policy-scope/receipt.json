@@ -3,12 +3,12 @@
   "analytical_scope": "data-center infrastructure policy analytical census",
   "inputs": {
     "raw_csv_sha256": "587c0843a14658d1da4473c2f9f7e09bb45c57fee6f8af273ff328d2311788bd",
-    "registry_sha256": "7888be5c97cbfb8ebbd06ea79143f570d1aaab6df1142be7d18ec3c9608f6eea"
+    "registry_sha256": "c0002e638eae607e1bdcd30503e7bb30793002d19d162f75f3a84ab52ce28142"
   },
   "raw_observation_count": 447,
   "partitions": {
     "reviewed_include": {
-      "count": 372,
+      "count": 373,
       "policy_action_ids": [
         "al-hb399-2026",
         "al-hb403-2026",
@@ -320,6 +320,7 @@
         "sd-sb-239-2026",
         "tn-hb1461-sb1832",
         "tn-hb1847-sb2128",
+        "tn-hb2047-sb2584",
         "tn-hb2054-sb1999",
         "tn-hb2061-sb1682",
         "tn-hb2392-sb2653",
@@ -409,7 +410,7 @@
       ]
     },
     "reviewed_unresolved": {
-      "count": 56,
+      "count": 55,
       "policy_action_ids": [
         "az-hb2457-2026",
         "ca-ab2170-2025-2026",
@@ -447,7 +448,6 @@
         "nj-a5462-2024-2025",
         "nm-sb-235-2026-microgrid-oversight-act",
         "ok-hb-1919-hb-1920-2025",
-        "tn-hb2047-sb2584",
         "tx-hb-3970-89r-2025",
         "tx-sb-1942-89r-2025",
         "tx-sb-6-89r-2025",
@@ -476,9 +476,9 @@
   },
   "candidate_pool_count": 428,
   "artifacts_sha256": {
-    "all-annotated.csv": "f38b6f1802c72ca81a152417d626d29afbdf08b2250fd60d4059fea355409434",
-    "reviewed-included.csv": "8100a8ea34979a27bb3bfa8b71458e8e48b5dd3cb8ff00071189173f04919c53",
-    "not-explicitly-excluded-candidates.csv": "a5490f02fe4f3353e67b9f4e9e9a507192d425ef5bb689a685c2336130c1886f"
+    "all-annotated.csv": "6cfbbc0a15dbd2de072301b0663b24b55a24f1ee3c9fe097303b80821bae13db",
+    "reviewed-included.csv": "87cf68ede3475f7ab7a523727e5170eafeadd54efbaf80b8726f6d276ba1298e",
+    "not-explicitly-excluded-candidates.csv": "a742f9679b838e9271d696781404d9d7a5592ccde2c8711eb33911f0084a69c0"
   },
   "caveat": "Rows are historical observations, not a unique instrument census. The candidate pool is not reviewed inclusion. Scope review does not establish freshness or current legal force."
 }

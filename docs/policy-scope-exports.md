@@ -22,9 +22,9 @@ Output replacement is atomic per file, not as a multi-file transaction; run
 - `receipt.json` gives input fingerprints, partition counts and IDs, and hashes
   of the three CSVs. The receipt cannot contain its own hash.
 
-The current registry explicitly includes 372 observations, excludes 19, leaves
-56 reviewed-unresolved, and leaves zero unreviewed. The exploratory candidate
-pool has 428 observations; only the 372 explicit inclusions belong to the reviewed
+The current registry explicitly includes 373 observations, excludes 19, leaves
+55 reviewed-unresolved, and leaves zero unreviewed. The exploratory candidate
+pool has 428 observations; only the 373 explicit inclusions belong to the reviewed
 scope view. These are observations, not necessarily unique instruments.
 
 The existing `md-hb0293-sb0056-2026` exclusion concerns secure student/workforce
