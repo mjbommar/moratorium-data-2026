@@ -1,5 +1,12 @@
 # November refresh closeout
 
+## Current integrated source and consumer delivery
+
+Source `51352fd` applies the remaining full-inventory queue: 2,063 factual cells and 428 derived fields across 787 records, followed by ten endpoint consistency cells across five records. All 1,777 raw IDs have primary and independent review artifacts; the remaining-cohort compiled queue has zero pending cells. Full `make check` passes, and eight selected hosted outputs match the pushed source. [Application and validation](../work/research/2026-11-08/full-inventory-integrated-application/README.md) preserve exact changes and bounded uncertainty.
+
+The authenticated integration handoff is pushed at `f1ce90b6`, with profile 1.0.4, all 447 policy IDs and 57 measures. [Seven-consumer dispositions](../work/research/2026-11-08/consumer-final-dispositions/README.md) verify current copy and preserve explicitly dated historical editions. No new complete GitHub release is claimed. The [original quality-gate accounting](../work/research/2026-11-08/final-quality-gate-accounting/README.md) identifies the outstanding successful experimental evaluation requirement; it cannot be silently counted as passed or replaced by offline tests. Final release metadata, assets and downloaded verification remain open. Earlier sections retain dated checkpoint states.
+
+
 ## End-to-end update remains incomplete
 
 The original requested end-to-end update remains active. The earlier narrower completion interpretation was incorrect. All 63 pending source-reviewed cells are now applied, plus 36 verification fields, across 54 records ([application](../work/research/2026-11-08/freshness-225-final-corrections/README.md)). [Dataset v2026.11.8](https://github.com/mjbommar/moratorium-data-2026/releases/tag/v2026.11.8) is retained as an explicitly incomplete prerelease checkpoint with ten internally verified assets. The [delivery receipt](../work/research/2026-11-08/dataset-release-2026.11.8/README.md) records two identical builds, downloaded-asset hashes, a clean restore of 1,499 members/45 generations, the public tag and nine selected hosted files. The [release notes](release-notes-2026-11-08.md) state the actual coverage and remaining source questions. Experimental extraction/P4 remains separate and unvalidated; the dataset uses scoped coordinator adjudication. Earlier checkpoints below retain their dated states.

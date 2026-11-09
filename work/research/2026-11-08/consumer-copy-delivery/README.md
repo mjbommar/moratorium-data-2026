@@ -1,5 +1,8 @@
 # Consumer copy and working-code delivery
 
+The latest [seven-consumer disposition and authenticated V4 handoff](../consumer-final-dispositions/README.md) supersedes the pending states below. The earlier receipts retain their own source/date boundaries.
+
+
 The author-site project description now dates the 533-instrument/42-state figure to its August 2026 snapshot. Its 429-status figure is explicitly recorded in that snapshot rather than presented as current force. Newer remote work was merged and preserved; the merged production build generated **3,799 pages**. Amplify job **332** passed BUILD, DEPLOY and VERIFY at `6bfeae6`. The served project metadata and table markers were separately observed.
 
 Fight a Data Center now attributes five undated moratorium-count occurrences to the **July 2026 survey of 208 local data-center actions across 34 states**. The unsupported undated Michigan component was removed from the living summary table; book quotations and historical editions were preserved. Its **95-page** build passed, `168bfd4` is verified on remote master, and the selected chapter pages serve the dated sentence and table. Hosted markers do not prove a full deployment revision or independently validate all other book/project claims.

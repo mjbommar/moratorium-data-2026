@@ -52,3 +52,5 @@ pending cells in the compiled remaining-cohort queue. The complete release and
 quality/consumer gates remain open.
 
 The complete `make check` now passes at this applied state; [validation](validation.json) pins the command and log hash. This covers the full retained expanded publication history, derived ballot/CSV outputs, source tracking and all 79 documented-number assertions. No private source text is tracked. Original P4 acceptance and final consumer/release delivery remain separate and open.
+
+Source `51352fd` is pushed, and Pages run **42560375857** succeeded. [Eight selected hosted outputs](hosted-selected-files.json), including both raw CSVs, statistics, status codebook and ballot results, match that commit byte for byte. This is working-data deployment evidence; no new complete GitHub release is claimed.

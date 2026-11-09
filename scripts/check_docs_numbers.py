@@ -120,6 +120,7 @@ CLAIMS: list[tuple[str, str, str, str]] = [
     ("CHANGELOG.md", r"Current working snapshot: .*?with \*\*([\d,]+) current result observations\*\*", "expanded_current_results", "CHANGELOG current result denominator"),
     ("states/README.md", r"\*\*([\d,]+) with unknown status\*\*", "unknown", "state index unknown status"),
     ("README.md", r"\*\*([\d,]+) rejected proposal(?:s)? retained\*\*", "rejected", "README rejected tracked proposals"),
+    ("README.md", r"\*\*([\d,]+) with unknown recorded stage\*\*", "unknown", "README unknown recorded stage"),
     ("README.md", r"\*\*([\d,]+) rows carry verification flags\*\*", "verify_rows", "README verification rows"),
     ("docs/known-gaps.md", r"complete fresh review of the current ([\d,]+) local and [\d,]+ state-policy records\.", "rows", "Known gaps current local denominator"),
     ("docs/known-gaps.md", r"complete fresh review of the current [\d,]+ local and ([\d,]+) state-policy records\.", "state_policy_actions", "Known gaps current policy denominator"),
