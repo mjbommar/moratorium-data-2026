@@ -2,6 +2,8 @@
 
 ## Working QA after v2026.11.9.post1
 
+Covina’s published minutes confirm September16,2025 adoption of BESS Ordinance25-10,5–0; the codepublisher records repeal of25-04. The city now reports the separate EdnaPlace application was withdrawnOctober27,2026. Five local fields change; exact repeal-effectiveness/publication remains unverified and no headline/status category changes. [Sources and limits](work/research/2026-11-09/post-release-qa/covina-followup-evidence.json).
+
 New Hampshire SB439’s introduced/Senate-amended clauses are now distinguished; HB1724’s unsupported June4sine-die characterization is removed after direct House-journal review. Two cells change and two scoped holds close. Current dispositions:1,461 unresolved,114 corrected-resolved,200 confirmed-unchanged. Status categories and scope membership remain unchanged. [Evidence](work/research/2026-11-09/post-release-qa/nh-version-journal-evidence.json).
 
 Four New Hampshire introduced texts support three summary clarifications and clear three QA holds. HB1722/HB1724 now have explicit data-center applicability: scope375 included,19 excluded,53 unresolved. Current dispositions:1,463 unresolved,112 corrected-resolved,200 confirmed-unchanged. No status-category changes. [Evidence](work/research/2026-11-09/post-release-qa/nh-introduced-text-evidence.json).

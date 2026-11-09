@@ -134,15 +134,15 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 - **Recorded status:** ⚪ Replaced
 - **Date enacted:** 2025-05-06 (Ordinance 25-01, 45 days); extended 2025-06-17 by Ordinance 25-04.
 - **Normalized date:** `2025-05-06` (exact)
-- **Duration:** 45-day urgency ordinance extended 10 months 15 days; final adoption and effective date of the proposed repeal remain unverified.
+- **Duration:** 45-day initial urgency moratorium, extended by Ordinance 25-04 for 10 months 15 days; Council adopted repealing Ordinance 25-10 on September 16, 2025. The precise repeal-effective/publication date remains unverified.
 - **Current end date:** `—`
 - **Sectors:** battery storage
 - **Moratorium ID:** `ca-covina-2025`
-- **Legal basis:** Urgency Ordinance 25-01 adopted May 6, 2025; extended by Urgency Ordinance 25-04 adopted June 17, 2025. Ordinance 25-10 was proposed to repeal Ordinance 25-04; its final adoption and effective date require verification.
+- **Legal basis:** Urgency Ordinance 25-01 adopted May 6, 2025; extended by Urgency Ordinance 25-04 on June 17, 2025. Published September 16, 2025 Council minutes record adoption of Ordinance 25-10, repealing 25-04, 5–0; the city code publisher confirms 25-04 is repealed by 25-10.
 - **What prompted it:** Inquiries about siting BESS in the industrial area; city zoning code had no BESS land-use category.
-- **Affected projects:** 522, 534 & 680 Edna Place BESS project under Planning Commission review by June 2026.
-- **Detailed status:** Ordinance 25-04 extended the BESS moratorium. A September 2, 2025 staff report recommended introduction of Ordinance 25-10, which proposed M-1 conditional-use regulations and repeal of 25-04; the Planning Commission recommended the amendment 5-0-0 on August 12. Final adoption, effective repeal, later history and current force remain unverified. A prior record identified an Edna Place BESS application by June 2026; its status and relationship to the moratorium remain unverified. [VERIFY]
-- **Outcome:** Proposed BESS zoning regulations would make BESS a conditional use in M-1; final adoption and effective date remain unverified. [VERIFY]
+- **Affected projects:** Covina Reliability/RWE Edna Place BESS application: the city’s dated project page reports applicant withdrawal on October 27, 2026, after a June 30 Planning Commission recommendation to deny. The page identifies 522, 534, and 680 Edna Place in headings/description but uses 690 for the third address in its timeline; that inconsistency is retained.
+- **Detailed status:** Published Council minutes record adoption of Ordinance 25-10 on September 16, 2025, 5–0, adding BESS conditional-use regulations in M-1 and repealing 25-04. The city code publisher lists 25-04 as repealed. Exact repeal-effective/publication date remains unverified. [VERIFY] The city’s Edna Place project page separately reports applicant withdrawal on October 27, 2026; no causal relationship to the moratorium is asserted.
+- **Outcome:** Council minutes and the city code publisher confirm adoption of BESS zoning regulations and repeal of Ordinance 25-04 through Ordinance 25-10, adopted September 16, 2025. The project page reports the separate Edna Place application was withdrawn October 27, 2026; a recommendation to deny is not represented as a final Council denial, and no moratorium-causation inference is made.
 
 ### Desert Hot Springs
 

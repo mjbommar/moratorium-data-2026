@@ -1,0 +1,76 @@
+{
+  "record_id": "ca-covina-2025",
+  "prior_row_sha256": "634701add0247902a146d0bf4bc27e1df8995c5301d9a8071ec951a6cfe58f4a",
+  "sources": [
+    {
+      "attempt_id": "031b66eb4f714774a85b25851570787d",
+      "url": "https://ecode360.com/46924151",
+      "status": 200,
+      "ok": true,
+      "body_sha256": "26fdc5e9d5eaaf58ccdf67f9496e924acdc70ea6db3c846d1d319a72b32aa470",
+      "text_sha256": "84925964dd82c4a31162bb4f28ca81bfce3b9baf2c1546616c2b3d2edd12c531",
+      "body_observed_at": "2026-11-09T20:54:27.842531Z",
+      "locator": "HTML table rows25-04 and25-10:25-04 repealed by25-10;25-10 adoptionSeptember16,2025. Reviewed full-table derivation retains816rows; selected current rows directly inspected.",
+      "reviewed_table_derivation_sha256": "90ad860a54a3208986c036691d549b9310cf6121c64c723cc3292ebabd2a8d7e",
+      "extraction_limitation": "Automatic text omitted the current ordinance rows; full retained HTML table extraction supplies them. Only selected relevant rows adjudicated."
+    },
+    {
+      "attempt_id": "671e37e8853e4bfba652ae5685e458e4",
+      "url": "https://pub-covinaca.escribemeetings.com/filestream.ashx?DocumentId=3820",
+      "status": 200,
+      "ok": true,
+      "body_sha256": "5553f0c436629e12b32be34fb933ebc359d4c8239089559ca080233c0f0eb8b4",
+      "text_sha256": "094473a3b2867edff5cd40bb881b41c0ae358a4c37819843449f5d55d99a87d3",
+      "body_observed_at": "2026-11-09T20:54:27.924021Z",
+      "locator": "September16,2025 published Council minutes, page5, consent itemCC5, adoption of25-10 and5\u20130 approval; page rendered and reviewed"
+    },
+    {
+      "attempt_id": "9530159272a54427b4b07b8c89437228",
+      "url": "https://covinaca.gov/522-e-edna-place/",
+      "status": 200,
+      "ok": true,
+      "body_sha256": "2993e702d2c4513a8ff96bdd90d81a99a5594bc7e5ef00d86f2ebbf96ff88dd2",
+      "text_sha256": "df094bc318f3f7ad293f23640f21ffbe2d315ea3183b61dc0f95f45a86c4a1b6",
+      "body_observed_at": "2026-11-09T20:54:27.791494Z",
+      "locator": "Current official EdnaPlace project page: datedOctober27,2026 withdrawal entry; June30 recommendation-to-deny entry; May1,2025 formal application timeline"
+    },
+    {
+      "attempt_id": "93120e29ea324202b5a4d51f31821de0",
+      "url": "https://covinaca.gov/city-departments/community-development/majors-projects-summary/",
+      "status": 200,
+      "ok": true,
+      "body_sha256": "43e957dd8aada4e0948c794ac44ab91264d96d8bd22d684a8706e964030c9714",
+      "text_sha256": "c47ab7018a310c6c36f969a1b6d09696a663bf3731272dae744f96a06c7d302e",
+      "body_observed_at": "2026-11-09T20:57:40.792016Z",
+      "locator": "CityInitiatives short-term rental/home experience sharing section identifies25-11 and25-16 as unrelated moratoria"
+    }
+  ],
+  "findings": [
+    "Published council minutes recordSeptember16,2025 adoption of25-10,5\u20130, with the repeal of25-04 in its title. The codepublisher independently lists25-04 repealed by25-10 and dates adoptionSeptember16.",
+    "City project page reports aJune30,2026 PlanningCommission recommendation todeny, followed byOctober27 applicant withdrawal. Recommendation is not a final Council denial; withdrawal is not attributed causally to the old moratorium.",
+    "City page uses680EdnaPlace in headings/project description but690 in the timeline. Preserve this source inconsistency ratherthan silently selecting a corrected parcel address.",
+    "The city identifies later25-11/25-16 moratoria as short-term rental/home experience sharing measures; they are not treated as BESS extensions."
+  ],
+  "remaining_questions": [
+    "Obtain the executed Ordinance25-10 and publication/effective-date record needed to establish the precise historical repeal endpoint. Adoption and current codifier repeal status are now directly confirmed; do not infer a specific end day from the retained draft\u2019s within30days wording."
+  ],
+  "limitations": [
+    "No exact repeal-effective date, publication date or renewed current-law certification inferred.",
+    "The word under-review on a broad project list is not used tooverride the project-specific dated withdrawal entry."
+  ],
+  "retrievals_reserved": 6,
+  "retrieval_cap": 6,
+  "new_substantive_source_captures": 4,
+  "other_attempts": [
+    {
+      "result": "404",
+      "scope": "Candidate official executed-ordinance path; no absence inference."
+    },
+    {
+      "result": "HTTP200 media search with unrelated dated attachments",
+      "scope": "No responsive executed ordinance found in this limited query; not proof none exists."
+    }
+  ],
+  "whole_record_closures": 0,
+  "current_row_sha256": "c1a00ce08c1f51b0a0f9c975ad7e5a3a6a3b9e76c35f7e3e6ec21aa60070d276"
+}

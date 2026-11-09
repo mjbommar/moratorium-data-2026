@@ -1,0 +1,77 @@
+{
+  "applied_at": "2026-11-09T21:02:51.430750+00:00",
+  "substantive_cells": 5,
+  "derived_cells": 1,
+  "changed_cells": 6,
+  "changed_records": 1,
+  "csv_before_sha256": {
+    "local_inventory": "062e8a9932b807538d512b53fba73fbbf7ecb64620a262500b8084a98c4a55f0",
+    "state_policy": "b3b5c945169b97fd1094807f66e122b8c95f17c8f33ca18eb50fcc7c8c5ec180"
+  },
+  "csv_after_sha256": {
+    "local_inventory": "cec18ddd72b6130c34fd089ecf0c24c275f3675a3ed9966988ac1617dbf2f62b",
+    "state_policy": "b3b5c945169b97fd1094807f66e122b8c95f17c8f33ca18eb50fcc7c8c5ec180"
+  },
+  "scope_rebound_ids": [],
+  "scope_registry_sha256": "53b772dab2fdc924b089f1e82679ec6152e3ca81da0ab223b8d056a13fd2c08d",
+  "changes": [
+    {
+      "dataset": "local_inventory",
+      "id": "ca-covina-2025",
+      "field": "duration",
+      "before": "45-day urgency ordinance extended 10 months 15 days; final adoption and effective date of the proposed repeal remain unverified.",
+      "after": "45-day initial urgency moratorium, extended by Ordinance 25-04 for 10 months 15 days; Council adopted repealing Ordinance 25-10 on September 16, 2025. The precise repeal-effective/publication date remains unverified.",
+      "kind": "substantive"
+    },
+    {
+      "dataset": "local_inventory",
+      "id": "ca-covina-2025",
+      "field": "legal_basis",
+      "before": "Urgency Ordinance 25-01 adopted May 6, 2025; extended by Urgency Ordinance 25-04 adopted June 17, 2025. Ordinance 25-10 was proposed to repeal Ordinance 25-04; its final adoption and effective date require verification.",
+      "after": "Urgency Ordinance 25-01 adopted May 6, 2025; extended by Urgency Ordinance 25-04 on June 17, 2025. Published September 16, 2025 Council minutes record adoption of Ordinance 25-10, repealing 25-04, 5\u20130; the city code publisher confirms 25-04 is repealed by 25-10.",
+      "kind": "substantive"
+    },
+    {
+      "dataset": "local_inventory",
+      "id": "ca-covina-2025",
+      "field": "current_status",
+      "before": "Ordinance 25-04 extended the BESS moratorium. A September 2, 2025 staff report recommended introduction of Ordinance 25-10, which proposed M-1 conditional-use regulations and repeal of 25-04; the Planning Commission recommended the amendment 5-0-0 on August 12. Final adoption, effective repeal, later history and current force remain unverified. A prior record identified an Edna Place BESS application by June 2026; its status and relationship to the moratorium remain unverified. [VERIFY]",
+      "after": "Published Council minutes record adoption of Ordinance 25-10 on September 16, 2025, 5\u20130, adding BESS conditional-use regulations in M-1 and repealing 25-04. The city code publisher lists 25-04 as repealed. Exact repeal-effective/publication date remains unverified. [VERIFY] The city\u2019s Edna Place project page separately reports applicant withdrawal on October 27, 2026; no causal relationship to the moratorium is asserted.",
+      "kind": "substantive"
+    },
+    {
+      "dataset": "local_inventory",
+      "id": "ca-covina-2025",
+      "field": "affected_projects",
+      "before": "522, 534 & 680 Edna Place BESS project under Planning Commission review by June 2026.",
+      "after": "Covina Reliability/RWE Edna Place BESS application: the city\u2019s dated project page reports applicant withdrawal on October 27, 2026, after a June 30 Planning Commission recommendation to deny. The page identifies 522, 534, and 680 Edna Place in headings/description but uses 690 for the third address in its timeline; that inconsistency is retained.",
+      "kind": "substantive"
+    },
+    {
+      "dataset": "local_inventory",
+      "id": "ca-covina-2025",
+      "field": "outcome",
+      "before": "Proposed BESS zoning regulations would make BESS a conditional use in M-1; final adoption and effective date remain unverified. [VERIFY]",
+      "after": "Council minutes and the city code publisher confirm adoption of BESS zoning regulations and repeal of Ordinance 25-04 through Ordinance 25-10, adopted September 16, 2025. The project page reports the separate Edna Place application was withdrawn October 27, 2026; a recommendation to deny is not represented as a final Council denial, and no moratorium-causation inference is made.",
+      "kind": "substantive"
+    },
+    {
+      "dataset": "local_inventory",
+      "id": "ca-covina-2025",
+      "field": "verify_count",
+      "before": "2",
+      "after": "1",
+      "kind": "derived_verification"
+    }
+  ],
+  "verify_rows": 979,
+  "row_transitions": [
+    {
+      "dataset": "local_inventory",
+      "id": "ca-covina-2025",
+      "before_sha256": "634701add0247902a146d0bf4bc27e1df8995c5301d9a8071ec951a6cfe58f4a",
+      "after_sha256": "c1a00ce08c1f51b0a0f9c975ad7e5a3a6a3b9e76c35f7e3e6ec21aa60070d276"
+    }
+  ],
+  "scope": "Reviewed source observations, classification correction and explicit unresolved facts; all IDs retained. No current-law census asserted."
+}

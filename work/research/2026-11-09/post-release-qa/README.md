@@ -253,3 +253,7 @@ The [hosted verification](va-wy-hosted-verification.json) confirms six named pub
 ## New Hampshire version and adjournment correction
 
 [Direct SB439 version comparison and June4Housejournal](nh-version-journal-evidence.json) correct two cells and clear the two remaining source holds in the five-record NH batch. SB439’s introduced10percent and Senate-amended25percent exclusions and omitted clauses remain distinct. HB1724 retains its documented failed outcome while the unsupported exact June4sine-die characterization is removed; journal actually says call-of-chair adjournment. Current dispositions: **1,461 unresolved, 114 corrected-resolved and 200 confirmed-unchanged**. Scope remains375/19/53. The eight-fetch phase is exhausted.
+
+## Covina BESS repeal and project status updated
+
+[Published council minutes, code tables and current city project pages](covina-followup-evidence.json) confirm September 16, 2025 adoption of Ordinance25-10,5–0, recorded repeal of25-04, and the separate October27,2026 EdnaPlace application withdrawal. Five local fields and one derived verification count change. [The precise repeal-effective/publication endpoint remains open](covina-adjudication.json); no whole-record closure or status-category change. The city page’s680/690 third-address inconsistency is retained, and no causal link between moratorium and withdrawal is inferred.
