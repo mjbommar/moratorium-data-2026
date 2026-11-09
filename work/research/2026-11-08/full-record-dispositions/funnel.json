@@ -1,9 +1,9 @@
 {
   "event_cutoff_utc": "2026-11-07T13:38:39.877065Z",
   "counts": {
-    "unresolved": 1500,
+    "unresolved": 1499,
     "corrected_resolved": 95,
-    "confirmed_unchanged": 180,
+    "confirmed_unchanged": 181,
     "superseded_duplicate": 1,
     "not_attempted": 0
   },
@@ -12,9 +12,9 @@
       "unresolved": 225
     },
     "remaining1552": {
-      "unresolved": 1275,
+      "unresolved": 1274,
       "corrected_resolved": 95,
-      "confirmed_unchanged": 180,
+      "confirmed_unchanged": 181,
       "superseded_duplicate": 1
     }
   },
@@ -13373,7 +13373,7 @@
     {
       "id": "me-ld-307-hp-207-132nd-legislature",
       "dataset": "state_policy",
-      "disposition": "unresolved",
+      "disposition": "confirmed_unchanged",
       "public_receipt_pointer": "work/research/2026-11-08/full-inventory-integrated-application/README.md",
       "residual_reference": {
         "dataset": "state_policy",
@@ -13392,7 +13392,9 @@
         "e77b202fb527bd7c402614a913cfd4b81c69a26a700d53f2af19a0f0e47df880",
         "f1c654ca6f9036023ad16da3439f3057934269f2500e83830d461e888e355711",
         "fc6a143407c15da5a0976dfc882b9665c2de7d1a4f598dfe7ec363c6a780e387"
-      ]
+      ],
+      "disposition_review_pointer": "work/research/2026-11-09/post-release-qa/maine-terminal-dispositions.json",
+      "disposition_scope": "Named failed bill and reviewed source observations; terminal veto and proposed-only terms supported. No successor-law census or present-force claim for other instruments; statewide activity classification remains qualified."
     },
     {
       "id": "me-ld-713-hp-452-132nd-legislature-public-law-2026-c-768",
@@ -37032,6 +37034,16 @@
       "disposition": "source_proven_wrong_jurisdiction_duplicate_retired",
       "registry_sha256": "8abc04716797ba89e210531f2956407b1407ff3a3fd06ff64e4d38fcb8a6fc82",
       "original_release": "v2026.11.9"
+    }
+  ],
+  "post_release_disposition_reviews": [
+    {
+      "id": "me-ld-307-hp-207-132nd-legislature",
+      "dataset": "state_policy",
+      "before": "unresolved",
+      "after": "confirmed_unchanged",
+      "review_pointer": "work/research/2026-11-09/post-release-qa/maine-terminal-dispositions.json",
+      "scope": "Named failed bill and reviewed source observations; terminal veto and proposed-only terms supported. No successor-law census or present-force claim for other instruments; statewide activity classification remains qualified."
     }
   ]
 }

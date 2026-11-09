@@ -677,3 +677,6 @@ Exit: repeatable refresh with visible freshness, costs, failures and unresolved 
 - [x] Follow the official Oliver ordinance chain and independently review the 122-page compilation against May minutes; preserve no-change disposition and exact missing executed-resolution/recording/publication evidence. Verify native archive continuity for all five post-release source versions.
 
 - [x] Independently double-check Morgan/Ottawa held ballot authority through bounded official indexes and correct CivicEngage AJAX retrieval; retain both holds and exact remaining authority gaps. Archive and native-readback all eleven source versions; document transport/JSON techniques to prevent duplicate work.
+
+- [x] Verify successful Pages retry `42641271349` and exact hosted bytes for six selected files at `c6e141a`; preserve the earlier timeout receipt.
+- [x] Reconstruct the complete current residual-question index from prior reviews, including nested check lists; independently audit four Maine disposition inconsistencies, resolve LD 307 accounting and preserve three concrete party-field gaps. All 1,499 unresolved records have explicit indexed questions; none is silently dropped.
