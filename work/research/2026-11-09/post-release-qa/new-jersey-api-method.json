@@ -1,0 +1,27 @@
+{
+  "discovery_assets": [
+    {
+      "url": "https://www.njleg.state.nj.us/_next/static/chunks/pages/bill-search/%5Bsession%5D/%5BbillNumber%5D-d358adecd23be0c3.js",
+      "attempt_id": "e5d8adaa63f241539ac264994ebdee4f",
+      "body_sha256": "251ccda70d0d26ead98b6ac3e109ba5c662ea53114ce5c62d803c09900b6ed11",
+      "body_observed_at": "2026-11-09T22:54:11.450267Z"
+    },
+    {
+      "url": "https://www.njleg.state.nj.us/_next/static/chunks/6173-656463bfca2aa7b7.js",
+      "attempt_id": "51097fbbf8c14f3087cfd8d5128db5f4",
+      "body_sha256": "e0ea848eeb5f99bf639f61fb969e1c814f0bf91c8c9efb071df00a5eafaed450",
+      "body_observed_at": "2026-11-09T22:54:38.207968Z"
+    }
+  ],
+  "official_endpoint_template": "https://www.njleg.state.nj.us/api/billDetail/billHistory/{billNumber}/{sessionYear}",
+  "historical_endpoint_template_from_same_bundle": "https://www.njleg.state.nj.us/api/billDetailHist/billHistory/{billNumber}/{sessionYear}",
+  "accepted_response_contract": "Nonempty JSON array with ActionDate and HistoryAction for the requested bill/session URL. Preserve literal fields and verify the requested identity; a portal loading shell is not a refreshed record.",
+  "method": "Inspect the exact script resources linked by the official bill page; verify one endpoint response before batching further named histories. No login, subscription, CAPTCHA or browser interaction is used.",
+  "text_derivation": "Lossless JSON pretty-print accepted separately; automatic extraction returns zero characters for JSON. Original body hashes and all values remain preserved.",
+  "nonpromoted_shell_count": 9,
+  "substantive_history_count": 9,
+  "html_phase_http_used": 9,
+  "api_phase_http_used": 11,
+  "api_phase_http_cap": 12,
+  "scope": "Reusable read-only source-recovery route, not automatic factual acceptance, equivalence, legislative-effect classification or proof of absent later actions."
+}

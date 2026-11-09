@@ -2,6 +2,8 @@
 
 ## Working QA after v2026.11.9.post1
 
+NewJersey official API histories establish S4304 Senate passage38–0 on October22 and Assembly referral October29, correcting the paired A2774/S4304 category to passed_one_chamber while retaining separate proceedings. S4402 history is now explicit. Four cells across two rows change; six scoped holds close:1,418 unresolved,132 corrected-resolved,226 confirmed-unchanged. [Review](work/research/2026-11-09/post-release-qa/new-jersey-history-adjudications.json).
+
 Recovered Pennsylvania SB939 original PN1048 and amendment A02384, and refreshed its official history. The amended summary is confirmed; one scoped hold closes:1,424 unresolved,130 corrected-resolved,222 confirmed-unchanged. Drafting January30 and adoption February4 remain distinct; no canonical field or status-category changes. [Review](work/research/2026-11-09/post-release-qa/pennsylvania-sb939-adjudication.json).
 
 Added one Massachusetts H 5175 energy-package observation with distinct House and Senate S 3166 provisions and proposed conference status. Working policy rows448, bill-type rows427, reviewed includes376, candidate observations429, total raw IDs1,776. The new addition retains independent QA:1,425 unresolved,130 corrected-resolved,221 confirmed-unchanged. Existing status categories and original release assets are unchanged. [Integration](work/research/2026-11-09/post-release-qa/massachusetts-energy-integration.json).
