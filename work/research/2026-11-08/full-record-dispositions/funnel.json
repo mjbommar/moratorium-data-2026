@@ -1,8 +1,8 @@
 {
   "event_cutoff_utc": "2026-11-07T13:38:39.877065Z",
   "counts": {
-    "unresolved": 1479,
-    "corrected_resolved": 102,
+    "unresolved": 1477,
+    "corrected_resolved": 104,
     "confirmed_unchanged": 194,
     "superseded_duplicate": 0,
     "not_attempted": 0
@@ -13,8 +13,8 @@
       "confirmed_unchanged": 3
     },
     "remaining1552": {
-      "unresolved": 1257,
-      "corrected_resolved": 102,
+      "unresolved": 1255,
+      "corrected_resolved": 104,
       "confirmed_unchanged": 191,
       "superseded_duplicate": 0
     }
@@ -5069,12 +5069,9 @@
     {
       "id": "ga-hb-1012-2026",
       "dataset": "state_policy",
-      "disposition": "unresolved",
-      "public_receipt_pointer": "work/research/2026-11-08/full-inventory-integrated-application/README.md",
-      "residual_reference": {
-        "dataset": "state_policy",
-        "id": "ga-hb-1012-2026"
-      },
+      "disposition": "corrected_resolved",
+      "public_receipt_pointer": "work/research/2026-11-09/post-release-qa/georgia-session-closures.json",
+      "residual_reference": null,
       "recorded_evidence_fingerprints_sha256": [
         "0f9354781b898bb3d661cc4632b2eaa58bec07c24320d4e96b3b6d8516deea1e",
         "225f5843027764fafd4e319c018dbf2e1e8a10ae884eb1eec6cb92d46a586d0e",
@@ -5086,7 +5083,8 @@
         "e53270f2afa45c684543e8dc90e02e82541bbb27a69332d275776241213729ee",
         "eb65d0e0cf2e5531fe4552cb44f3bef8230d46a769f42bd3dab15254675d47da",
         "ee400ee03161a8939d9bfea51e97cd253468c495cc0a1abeb1aea4b70bbb6679"
-      ]
+      ],
+      "post_release_question_review_pointer": "work/research/2026-11-09/post-release-qa/georgia-session-closures.json"
     },
     {
       "id": "ga-hb-1059-2026",
@@ -5168,12 +5166,9 @@
     {
       "id": "ga-hb-559-2025",
       "dataset": "state_policy",
-      "disposition": "unresolved",
-      "public_receipt_pointer": "work/research/2026-11-08/full-inventory-integrated-application/README.md",
-      "residual_reference": {
-        "dataset": "state_policy",
-        "id": "ga-hb-559-2025"
-      },
+      "disposition": "corrected_resolved",
+      "public_receipt_pointer": "work/research/2026-11-09/post-release-qa/georgia-session-closures.json",
+      "residual_reference": null,
       "recorded_evidence_fingerprints_sha256": [
         "214c8a40a1ad556aeff05909fddf5a4b28e79010e3dd528b15a3c717bee80d44",
         "3dbfe5bdb8055bab86719d833ac156a514d1de864849b109dc03ca5da9a65f99",
@@ -5183,7 +5178,8 @@
         "ef6c91d6e2277152a0a7a30c211fa432d9d03145e3a7309e8c7ed176464145d2",
         "efa99cf84b594aa5d38e524c27a2c972a8172ea8210dad650cce35c430c20817",
         "eff9b9aaec358580abe102560fe8eed9069b9b7a173221a62a3e859de384523c"
-      ]
+      ],
+      "post_release_question_review_pointer": "work/research/2026-11-09/post-release-qa/georgia-session-closures.json"
     },
     {
       "id": "ga-heard-county-2026",
@@ -37345,6 +37341,26 @@
       "cohort": "remaining1552",
       "review_pointer": "work/research/2026-11-09/post-release-qa/nebraska-lb1111-closure.json",
       "reviewed_at": "2026-11-09T20:07:32.679487+00:00"
+    },
+    {
+      "id": "ga-hb-1012-2026",
+      "dataset": "state_policy",
+      "before": "unresolved",
+      "after": "corrected_resolved",
+      "row_sha256": "6328c6cd925b2f9cc6719829300317d4ab3002af2f64ebb3e48ecc95ab0feaa4",
+      "cohort": "remaining1552",
+      "review_pointer": "work/research/2026-11-09/post-release-qa/georgia-session-closures.json",
+      "reviewed_at": "2026-11-09T20:14:44.874723+00:00"
+    },
+    {
+      "id": "ga-hb-559-2025",
+      "dataset": "state_policy",
+      "before": "unresolved",
+      "after": "corrected_resolved",
+      "row_sha256": "efa99cf84b594aa5d38e524c27a2c972a8172ea8210dad650cce35c430c20817",
+      "cohort": "remaining1552",
+      "review_pointer": "work/research/2026-11-09/post-release-qa/georgia-session-closures.json",
+      "reviewed_at": "2026-11-09T20:14:44.874723+00:00"
     }
   ]
 }

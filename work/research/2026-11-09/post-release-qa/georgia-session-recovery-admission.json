@@ -1,0 +1,32 @@
+{
+  "admitted_at": "2026-11-09T20:10:12.703392+00:00",
+  "authorization_basis": "Standing user goal authorizes bounded common-source followup; six HTTP retrievals, no paid search/model/browser work. Prior ledgers unchanged.",
+  "target_record_ids": [
+    "ga-hb-1012-2026",
+    "ga-hb-1059-2026",
+    "ga-hb-1063-2026",
+    "ga-hb-559-2025",
+    "ga-sb-34-2025-2026",
+    "ga-sb-408-2026",
+    "ga-sb-410-2026",
+    "ga-sb-421-2026"
+  ],
+  "caps": {
+    "exa": 0,
+    "serpapi": 0,
+    "googlenews": 0,
+    "gdelt": 0,
+    "search_total": 0,
+    "fetch": 6
+  },
+  "initial_targets": [
+    "https://www.legis.ga.gov/api/document/docs/default-source/house-journal-document-library/2026-regular-session-house-journal.pdf",
+    "https://dlg.usg.edu/record/dlg_ggpd_1019824201-2026-04-02"
+  ],
+  "scope": "Inspect actual adjournment and any named-bill entries; scheduled calendar alone does not establish actual adjournment or each bill outcome.",
+  "stop_conditions": [
+    "Six reserved HTTP calls including failures.",
+    "No automatic target or budget expansion.",
+    "No closure from search snippets or absence in incomplete histories."
+  ]
+}
