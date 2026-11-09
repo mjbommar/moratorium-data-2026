@@ -119,7 +119,7 @@ def select_files(commit, names):
     # Carry the public post-release QA ledger with the corrected data; raw sources stay private.
     exact.update(n for n in names if n.startswith('work/research/2026-11-09/post-release-qa/')
                  and Path(n).suffix in {'.md', '.json', '.jsonl'})
-    exact.update(n for n in names if n.startswith('work/research/2026-11-09/release-2026.11.9.post1/')
+    exact.update(n for n in names if re.fullmatch(r'work/research/2026-11-09/release-2026\.11\.9\.post[12]/[^/]+', n)
                  and Path(n).name in {'README.md', 'dataset-delta.json', 'release-body.md'})
     exact.update(n for n in names if re.fullmatch(r'docs/release-notes-\d{4}-\d{2}-\d{2}\.md', n))
     exact.update(n for n in names if n.startswith('figures/') and Path(n).suffix in {'.png', '.svg', '.pdf', '.md'})
