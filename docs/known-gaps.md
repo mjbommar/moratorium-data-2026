@@ -6,21 +6,19 @@ record-level observations and `[VERIFY]` markers identify unresolved work.
 ## What we know we don't have
 
 
-### Newly retained Massachusetts energy-package candidate
+### Massachusetts energy-package addition
 
-The November 9 [related-version review](../work/research/2026-11-09/post-release-qa/massachusetts-energy-conference-evidence.json)
-retains H 5175's House text and Senate reprint S 3166. They contain distinct
-proposed data-center operating, tariff, certification and interconnection provisions.
-The inspected history ends at conference appointment; these are not enacted rules.
-This package is not yet integrated as a separate canonical policy observation.
-Its version comparison and identity/scope accounting remain required; do not add
-the two versions as two enactments or fold them into H 4144's study-order status.
-
+The November 9 [integration](../work/research/2026-11-09/post-release-qa/massachusetts-energy-integration.json)
+adds H 5175 with its distinct House text and Senate reprint S 3166 as one proposed
+policy observation. Its history ends at conference appointment. Independent
+record-level QA and any final conference/enacted language remain open. Neither
+version is counted as an enactment, and H 4144 retains its separate study-order status.
 
 ### Record review and current-force limits
 
-All 1775 raw IDs now have primary and independent review artifacts. These are
-the current 1328 local and 447 state-policy records. The
+All 1776 raw IDs now have review accounting. The 1775 surviving original IDs
+have primary and independent artifacts; the new Massachusetts observation has
+direct source review with independent QA pending. These are the current 1328 local and 448 state-policy records. The
 [full-inventory application](../work/research/2026-11-08/full-inventory-integrated-application/README.md)
 records exact corrections, zero pending cells in the remaining-cohort queue and
 full repository consistency checks. Those facts do not establish complete discovery,

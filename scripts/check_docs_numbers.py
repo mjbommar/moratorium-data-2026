@@ -119,8 +119,8 @@ def facts() -> dict[str, int | float]:
 # Patterns are anchored on distinctive surrounding words so they cannot drift
 # onto an unrelated number.
 CLAIMS: list[tuple[str, str, str, str]] = [
-    ('docs/known-gaps.md', r'All ([\d,]+) raw IDs now have primary', 'raw_records', 'known gaps full raw review population'),
-    ('docs/methodology.md', r'for all ([\d,]+) raw records', 'raw_records', 'methodology full raw review population'),
+    ('docs/known-gaps.md', r'All ([\d,]+) raw IDs now have review accounting', 'raw_records', 'known gaps full raw review population'),
+    ('docs/methodology.md', r'covers all ([\d,]+) raw records', 'raw_records', 'methodology full raw review population'),
     ('docs/expanded-data-contracts.md', r'records currently cover ([\d,]+) reviewed proposal', 'expanded_records', 'expanded contract measure count'),
     ('docs/refresh-operations.md', 'and ([\\d,]+) measure/proposal records', 'expanded_records', 'operations measures'),
     ('docs/refresh-operations.md', 'with ([\\d,]+) retained results', 'expanded_retained_results', 'operations retained results'),

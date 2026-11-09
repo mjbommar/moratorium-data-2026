@@ -2,6 +2,8 @@
 
 ## Working QA after v2026.11.9.post1
 
+Added one Massachusetts H 5175 energy-package observation with distinct House and Senate S 3166 provisions and proposed conference status. Working policy rows448, bill-type rows427, reviewed includes376, candidate observations429, total raw IDs1,776. The new addition retains independent QA:1,425 unresolved,130 corrected-resolved,221 confirmed-unchanged. Existing status categories and original release assets are unchanged. [Integration](work/research/2026-11-09/post-release-qa/massachusetts-energy-integration.json).
+
 Six fresh NewYork Senate-hosted chamber histories confirm the recorded stages and active versions of three paired observations. Three scoped later-history holds close:1,424 unresolved,130 corrected-resolved,221 confirmed-unchanged. S8645/A9136 remain separate bills; no canonical field, scope membership or status-category changes. [Review](work/research/2026-11-09/post-release-qa/new-york-history-adjudications.json).
 
 Fresh November9 histories confirm the last actions of12 Pennsylvania House bills. Twelve scoped later-history holds close:1,427 unresolved,130 corrected-resolved,218 confirmed-unchanged. Tabled HB1764/HB1924 retain unknown final-disposition categories; proposals remain proposals. No canonical fields or status categories change. [Review](work/research/2026-11-09/post-release-qa/pennsylvania-house-history-adjudications.json).

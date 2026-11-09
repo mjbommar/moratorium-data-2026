@@ -2,12 +2,12 @@
 
 How this dataset was built, in plain English.
 
-The November reviewed source has primary and independent source-review artifacts
-for all 1775 raw records, followed by coordinator application of the correction
-queue. The event cutoff is November 7 at 13:38:39.877065 UTC; capture and review
-timestamps remain separate. Bounded record review does not establish complete
-discovery or current legal force. Historical collection, extraction and geocode
-audits below retain their original cohorts. Final release remains pending.
+Review accounting covers all 1776 raw records. The 1775 surviving original IDs
+have primary and independent source-review artifacts; one post-release Massachusetts
+observation has direct source review and pending independent QA. The original event
+cutoff is November 7 at 13:38:39.877065 UTC; later captures and reviews carry separate
+timestamps. Bounded review does not establish complete discovery or current legal
+force. Published release tags preserve their dated snapshots; working QA continues.
 
 ## What we set out to do
 

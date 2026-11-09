@@ -2,13 +2,13 @@
   "schema_version": "1.0.0",
   "analytical_scope": "data-center infrastructure policy analytical census",
   "inputs": {
-    "raw_csv_sha256": "08814a277fd59b05c54d76c300c23c044596974a71baf3df6d1935c7e5cc91bc",
-    "registry_sha256": "e4c5c7512da9654cfc606b576fed1242618220c74234d7e74320b1389258cf66"
+    "raw_csv_sha256": "03c6cb8923b72439b8d1c4f2bb5373d0a5b5cbd03ae0952f2ba0d6ae3f771bb1",
+    "registry_sha256": "c566263cce86ffae556c2e10b3d1f5e41fba67be8cf286ee0640ca46fa8b1ff8"
   },
-  "raw_observation_count": 447,
+  "raw_observation_count": 448,
   "partitions": {
     "reviewed_include": {
-      "count": 375,
+      "count": 376,
       "policy_action_ids": [
         "al-hb399-2026",
         "al-hb403-2026",
@@ -384,7 +384,8 @@
         "wy-hb0088-2021",
         "wy-hb0117-2011",
         "wy-sf0193-2025",
-        "md-executive-order-01-01-2026-16-2026"
+        "md-executive-order-01-01-2026-16-2026",
+        "ma-h5175-s3166-194th"
       ]
     },
     "reviewed_exclude": {
@@ -474,11 +475,11 @@
       "policy_action_ids": []
     }
   },
-  "candidate_pool_count": 428,
+  "candidate_pool_count": 429,
   "artifacts_sha256": {
-    "all-annotated.csv": "7d9b9da52d4c2ff774dff8506a3d342111c357189c572f3b7390c786ca2bb396",
-    "reviewed-included.csv": "775f88046947f642229a671b4fee15be671eca30280c5a73633c5446083b2c2a",
-    "not-explicitly-excluded-candidates.csv": "9a9c5e5660464ce18d566a2ccabe69161de76da9cd179cf67f2a9104867050a6"
+    "all-annotated.csv": "9ca68bd439084bcf8053128d4710632f3b830c2e2de7f67c79b4a7a4168b49ae",
+    "reviewed-included.csv": "86134ffe5e88188a11f0035bcd76ff437984d406294e076fe2204e196e5aabf3",
+    "not-explicitly-excluded-candidates.csv": "ee97acd6f1b3d3205d83f130b0d4bc1c192088f0e5c813057b4192de81aef4a4"
   },
   "caveat": "Rows are historical observations, not a unique instrument census. The candidate pool is not reviewed inclusion. Scope review does not establish freshness or current legal force."
 }
