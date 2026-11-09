@@ -233,7 +233,7 @@ def main() -> int:
         original = path.read_text(encoding="utf-8")
         text = original
         offset = 0
-        if filename == "CHANGELOG.md":
+        if filename == "CHANGELOG.md" and not pattern.startswith("Current working snapshot:"):
             text = changelog_head(text)
             offset = original.find(text)
         m = re.search(pattern, text)
