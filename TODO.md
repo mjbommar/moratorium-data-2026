@@ -707,3 +707,7 @@ Exit: repeatable refresh with visible freshness, costs, failures and unresolved 
 - [x] Verify successful Pages deployment `42664285007` at `c0f9a95` and six exact hosted files.
 - [x] Recover/review signed Lochbuie Ordinance 2026-720 and minutes, signed Loveland Resolution R-48-2026 and voting results, and the retained Paonia execution/audit appendix. Apply twelve guarded identity/term cells; preserve actual publication, earlier-ending and later-force gaps. Retain OCR as separate visually checked reading aids, not replacements for empty original extracts.
 - [ ] Continue actual Lochbuie publication/date-counting and three Colorado later-action/current-force questions; original term clarification does not close these records.
+
+- [x] Verify successful Pages deployment `42667803840` at `d83b417` and six exact hosted files.
+- [x] Independently clear three Maine historical sponsor-party holds using the correct library session rows and prior material/status sources; preserve chamber/time context for Dill.
+- [x] Independently resolve three California bill-specific material/scope/party/author-identity holds using retained relevant bill versions, dated official floor analyses and official member pages; preserve inherited activity classification as aggregate context. Six named holds close unchanged, with no CSV or headline status changes.

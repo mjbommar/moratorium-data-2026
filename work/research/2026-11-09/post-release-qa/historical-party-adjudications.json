@@ -1,0 +1,664 @@
+{
+  "scope": "Six named historical/recorded-version bill QA holds cleared using actual material, party and identity evidence. Not a current-law census or renewed state-level classification assessment.",
+  "records": [
+    {
+      "id": "me-ld-1259-sp-380-125th-legislature",
+      "dataset": "state_policy",
+      "current_row_sha256": "f3f82e91ff6840ad584d906e40e7b422c92570c84d6299fd71a3d6c8ad085c73",
+      "row_hash_algorithm": "SHA-256 of UTF-8 JSON, sorted keys, compact separators, ensure_ascii=false",
+      "recommendation": "confirmed_unchanged",
+      "whole_record_closure_recommended": true,
+      "scope": "Identified historical bill QA hold; prior full-field and historical disposition judgments reused with matching row guard.",
+      "rationale": "Original sponsor matches the chamber summary and the name, session, residence, chamber and party in the rendered library Sessions row. The party row is substantive new evidence. Prior accepted bill text and disposition reviews remain supported by verified source versions.",
+      "questions_cleared": [
+        "Historical sponsor party for this bill and legislative session.",
+        "Identified historical bill QA hold when combined with prior accepted field and disposition reviews."
+      ],
+      "remaining_questions": [],
+      "proposed_cells": [],
+      "source_evidence": [
+        {
+          "url": "https://legislature.maine.gov/LawMakerWeb/summary.asp?LD=1259&SessionID=9",
+          "body_sha256": "e93c872c1d06aecc5f02abd857185ce1881476139531d60b596649c9e1bedc0f",
+          "text_sha256": "4a4a466494b4358a643b8b1847d89a0973187dd34d8fdbbbc37cd2cc2df0ffe1",
+          "capture_datetime": "2026-11-08T00:14:32.399192Z",
+          "locator": "Chamber summary: Sponsors, original bill sponsor",
+          "event_date": "2011-03-22",
+          "body_and_text_sha256_recomputed": true
+        },
+        {
+          "evidence_id": "h1259",
+          "url": "https://legislature.maine.gov/legis/bills/display_ps.asp?LD=1259&snum=125",
+          "body_sha256": "29169c704bb3b354bfb3fd0e36f55816ab45a97a1b49b38eafd19fec37f65181",
+          "text_sha256": "d5eeb5e10b253c7ef0162848fb6de2e47394c80cceef5db2785bfcf26c7969f1",
+          "locator": "official bill history: final disposition; text: Documents and Disposition and committee action",
+          "event_date": "2011-05-17",
+          "acquisition_datetime": "2026-11-05T16:31:09.235532Z",
+          "role": "official bill history"
+        },
+        {
+          "evidence_id": "t1259",
+          "url": "https://legislature.maine.gov/legis/bills/bills_125th/billtexts/SP038001.asp",
+          "body_sha256": "80abcde1895c6794a94bc6a622f63e144f15cec2983e4c46a17e552260247888",
+          "text_sha256": "e11972317e6594cb3ccddade6ae211ba246ee3736b8a315fd4ed1375dd0ce793",
+          "locator": "introduced text summary: proposal and conditions",
+          "event_date": "2011-03-22",
+          "acquisition_datetime": "2026-11-05T16:32:28.078312Z",
+          "role": "introduced bill HTML"
+        },
+        {
+          "url": "https://history.mainelegislature.org/Presto/search/SearchResults.aspx?q=KFNlc3Npb25zLkxhc3RfTmFtZTooU2hlcm1hbikp",
+          "request_url": "https://history.mainelegislature.org/Presto/search/ClearSearchRedirect.aspx?q=KFNlc3Npb25zLkxhc3RfTmFtZTooU2hlcm1hbikp",
+          "body_sha256": "065a5c74156fd5df9f678b976d483d05895366ace2069157b29cf1df5a83e927",
+          "text_sha256": "db293b74693cd0cdfd8a6ba3591cafb4b636ecb5f644b8c8cc2cd5e6ad1f61c6",
+          "capture_datetime": "2026-11-09T18:02:16.885976+00:00",
+          "locator": "Sessions grid, matching data row: 125th | 2011-2012 | Sherman | Roger L. | Hodgdon | Senate | Republican",
+          "body_and_text_sha256_recomputed": true,
+          "legislative_session": "2011-2012",
+          "dom_row_and_inner_text_examined": true
+        },
+        {
+          "url": "https://legislature.maine.gov/lawlibrary/legislators/9212",
+          "request_url": "https://legislature.maine.gov/lawlibrary/legislators/9212",
+          "body_sha256": "ed67521e3f8247394f0fd7bbed1b74665825e41397311ebd7739bb131dff3c96",
+          "text_sha256": "73a7b99a40c0ccced52697a67241f2771fb08e04346915a4ab1291634968a150",
+          "capture_datetime": "2026-11-09T17:48:42.265116Z",
+          "locator": "PAST LEGISLATORS: Legislators Biographical Database link",
+          "body_and_text_sha256_recomputed": true
+        },
+        {
+          "url": "https://history.mainelegislature.org/Presto/content/AdvancedSearch.aspx?ctID=NjJkY2RjYTMtM2Q5Zi00NmUyLWJjOTctMDA0NWVkZWNmNTRk",
+          "request_url": "https://history.mainelegislature.org/Presto/content/AdvancedSearch.aspx?ctID=NjJkY2RjYTMtM2Q5Zi00NmUyLWJjOTctMDA0NWVkZWNmNTRk",
+          "body_sha256": "a2eb96687a7e3814587d8ea85aea7f5b629fc9f2c463b88220653b1e4d39ef2d",
+          "text_sha256": "52d526d0eec0d40f4bef523ab20f3d01e21ef065b633d30f4ff20e2257d910fa",
+          "capture_datetime": "2026-11-09T17:50:00.195732Z",
+          "locator": "About the Maine Legislators Biographical Database; Sessions view and source description",
+          "body_and_text_sha256_recomputed": true
+        }
+      ]
+    },
+    {
+      "id": "me-ld-1722-hp-1202-128th-legislature",
+      "dataset": "state_policy",
+      "current_row_sha256": "244fdd5916907d6a5d425601da3ea03e4c919327e0a694cd99cc004b9856baf4",
+      "row_hash_algorithm": "SHA-256 of UTF-8 JSON, sorted keys, compact separators, ensure_ascii=false",
+      "recommendation": "confirmed_unchanged",
+      "whole_record_closure_recommended": true,
+      "scope": "Identified historical bill QA hold; prior full-field and historical disposition judgments reused with matching row guard.",
+      "rationale": "Original sponsor matches the chamber summary and the name, session, residence, chamber and party in the rendered library Sessions row. The party row is substantive new evidence. Prior accepted bill text and disposition reviews remain supported by verified source versions.",
+      "questions_cleared": [
+        "Historical sponsor party for this bill and legislative session.",
+        "Identified historical bill QA hold when combined with prior accepted field and disposition reviews."
+      ],
+      "remaining_questions": [],
+      "proposed_cells": [],
+      "source_evidence": [
+        {
+          "url": "https://legislature.maine.gov/LawMakerWeb/summary.asp?LD=1722&SessionID=12",
+          "body_sha256": "f7eebb7a0e31f3611a7ee9d0a3c77c51fe560d7da59491d577be19520b34f953",
+          "text_sha256": "cbc10fedcb49c431462aa996d2f770a523c5103913df8d140b0be107f456f414",
+          "capture_datetime": "2026-11-08T00:14:33.707215Z",
+          "locator": "Chamber summary: Sponsors, original bill sponsor",
+          "event_date": "2017-12-19",
+          "body_and_text_sha256_recomputed": true
+        },
+        {
+          "evidence_id": "h1722",
+          "url": "https://legislature.maine.gov/legis/bills/display_ps.asp?LD=1722&snum=128",
+          "body_sha256": "d76c24b2a6c770e39bb536f5733a310176d9f7ab6cfef20ba1b766075ff10df5",
+          "text_sha256": "3b3c9a7c46ced4637ce3e5a749f5aad2de96c56f92fbdefe5513daa3824596df",
+          "locator": "official bill history: final disposition; text: Documents and Disposition and committee action",
+          "event_date": "2018-03-22",
+          "acquisition_datetime": "2026-11-05T16:31:12.792546Z",
+          "role": "official bill history"
+        },
+        {
+          "evidence_id": "t1722",
+          "url": "https://legislature.maine.gov/legis/bills/bills_128th/billtexts/HP120201.asp",
+          "body_sha256": "10f1a568296710039a3e88d6b25b974771a5cb560345341f19bc652f7132da22",
+          "text_sha256": "b7c12593cd96ddd4c1895017afda06702b640fd048bfb31e43e105c701a2d1b3",
+          "locator": "introduced text summary: proposal and conditions",
+          "event_date": "2017-12-19",
+          "acquisition_datetime": "2026-11-08T00:13:52.860614Z",
+          "role": "introduced bill HTML"
+        },
+        {
+          "url": "https://history.mainelegislature.org/Presto/search/SearchResults.aspx?q=KFNlc3Npb25zLkxhc3RfTmFtZTooU3RhbmxleSkp",
+          "request_url": "https://history.mainelegislature.org/Presto/search/ClearSearchRedirect.aspx?q=KFNlc3Npb25zLkxhc3RfTmFtZTooU3RhbmxleSkp",
+          "body_sha256": "2704888307180c3373d269fc9d5dcb4ff92ee42ee900c527577075988d52fa97",
+          "text_sha256": "d1771af65d21e6d99982ffdb1abd1bd5d9487a751540d6b3f09a8dde60e13ce6",
+          "capture_datetime": "2026-11-09T18:03:34.935791+00:00",
+          "locator": "Sessions grid, matching data row: 128th | 2017-2018 | Stanley | Stephen S. | Medway | House | Democrat",
+          "body_and_text_sha256_recomputed": true,
+          "legislative_session": "2017-2018",
+          "dom_row_and_inner_text_examined": true
+        },
+        {
+          "url": "https://legislature.maine.gov/lawlibrary/legislators/9212",
+          "request_url": "https://legislature.maine.gov/lawlibrary/legislators/9212",
+          "body_sha256": "ed67521e3f8247394f0fd7bbed1b74665825e41397311ebd7739bb131dff3c96",
+          "text_sha256": "73a7b99a40c0ccced52697a67241f2771fb08e04346915a4ab1291634968a150",
+          "capture_datetime": "2026-11-09T17:48:42.265116Z",
+          "locator": "PAST LEGISLATORS: Legislators Biographical Database link",
+          "body_and_text_sha256_recomputed": true
+        },
+        {
+          "url": "https://history.mainelegislature.org/Presto/content/AdvancedSearch.aspx?ctID=NjJkY2RjYTMtM2Q5Zi00NmUyLWJjOTctMDA0NWVkZWNmNTRk",
+          "request_url": "https://history.mainelegislature.org/Presto/content/AdvancedSearch.aspx?ctID=NjJkY2RjYTMtM2Q5Zi00NmUyLWJjOTctMDA0NWVkZWNmNTRk",
+          "body_sha256": "a2eb96687a7e3814587d8ea85aea7f5b629fc9f2c463b88220653b1e4d39ef2d",
+          "text_sha256": "52d526d0eec0d40f4bef523ab20f3d01e21ef065b633d30f4ff20e2257d910fa",
+          "capture_datetime": "2026-11-09T17:50:00.195732Z",
+          "locator": "About the Maine Legislators Biographical Database; Sessions view and source description",
+          "body_and_text_sha256_recomputed": true
+        }
+      ]
+    },
+    {
+      "id": "me-ld-192-hp-169-125th-legislature",
+      "dataset": "state_policy",
+      "current_row_sha256": "31c7808ff5ddb1a7b3e9ad1d371c96f1cf47f9d71a9d32233d9c3d3d959abae0",
+      "row_hash_algorithm": "SHA-256 of UTF-8 JSON, sorted keys, compact separators, ensure_ascii=false",
+      "recommendation": "confirmed_unchanged",
+      "whole_record_closure_recommended": true,
+      "scope": "Identified historical bill QA hold; prior full-field and historical disposition judgments reused with matching row guard.",
+      "rationale": "Original sponsor matches the chamber summary and the name, session, residence, chamber and party in the rendered library Sessions row. The party row is substantive new evidence. Prior accepted bill text and disposition reviews remain supported by verified source versions. The combined session row lists both chambers; the original bill summary identifies Dill as Representative.",
+      "questions_cleared": [
+        "Historical sponsor party for this bill and legislative session.",
+        "Identified historical bill QA hold when combined with prior accepted field and disposition reviews."
+      ],
+      "remaining_questions": [],
+      "proposed_cells": [],
+      "source_evidence": [
+        {
+          "url": "https://legislature.maine.gov/LawMakerWeb/summary.asp?LD=192&SessionID=9",
+          "body_sha256": "b449a8c8d64c901bc8ae606c14dc2aa3733999320b0931be046360f3b19abc61",
+          "text_sha256": "75f959154f346331551cb965baddf51385036554d429570e1865f8c70b64a4c1",
+          "capture_datetime": "2026-11-08T00:14:34.983415Z",
+          "locator": "Chamber summary: Sponsors, original bill sponsor",
+          "event_date": "2011-01-27",
+          "body_and_text_sha256_recomputed": true
+        },
+        {
+          "evidence_id": "h192",
+          "url": "https://legislature.maine.gov/legis/bills/display_ps.asp?LD=192&snum=125",
+          "body_sha256": "4bec77e9752dff3ed66339d30c5fb82dd73f1cb771f0bbf72de1baceb46761f1",
+          "text_sha256": "7558371fda8c3f284fd4e9151b138be033477b91934416e3a15430a1161d9e09",
+          "locator": "official bill history: final disposition; text: Documents and Disposition and committee action",
+          "event_date": "2011-03-15",
+          "acquisition_datetime": "2026-11-05T16:31:11.142686Z",
+          "role": "official bill history"
+        },
+        {
+          "evidence_id": "t192",
+          "url": "https://legislature.maine.gov/legis/bills/bills_125th/billtexts/HP016901.asp",
+          "body_sha256": "06e40379fb1e7deda61a6522c5be7b220e030eba73c563ffdda60313404cebf3",
+          "text_sha256": "c0f6d823a7375a83e85551fa6ee43373a2833b52251d837ab86caac5780ca61e",
+          "locator": "introduced text summary: proposal and conditions",
+          "event_date": "2011-01-27",
+          "acquisition_datetime": "2026-11-05T16:32:29.401541Z",
+          "role": "introduced concept HTML"
+        },
+        {
+          "url": "https://history.mainelegislature.org/Presto/search/SearchResults.aspx?q=KFNlc3Npb25zLkxhc3RfTmFtZTooRGlsbCkp",
+          "request_url": "https://history.mainelegislature.org/Presto/search/ClearSearchRedirect.aspx?q=KFNlc3Npb25zLkxhc3RfTmFtZTooRGlsbCkp",
+          "body_sha256": "6aa6d5b46e12134d90e17ac48c05b6157ee58d2de0494c9fb7ee6c3fc63d0315",
+          "text_sha256": "e8d955947baff1dbf7e129368816e2815d54257a8261103ea1c4f424af3491a8",
+          "capture_datetime": "2026-11-09T18:03:39.604563+00:00",
+          "locator": "Sessions grid, matching data row: 125th | 2011-2012 | Dill | Cynthia A. | Cape Elizabeth | House and Senate | Democrat",
+          "body_and_text_sha256_recomputed": true,
+          "legislative_session": "2011-2012",
+          "dom_row_and_inner_text_examined": true
+        },
+        {
+          "url": "https://legislature.maine.gov/lawlibrary/legislators/9212",
+          "request_url": "https://legislature.maine.gov/lawlibrary/legislators/9212",
+          "body_sha256": "ed67521e3f8247394f0fd7bbed1b74665825e41397311ebd7739bb131dff3c96",
+          "text_sha256": "73a7b99a40c0ccced52697a67241f2771fb08e04346915a4ab1291634968a150",
+          "capture_datetime": "2026-11-09T17:48:42.265116Z",
+          "locator": "PAST LEGISLATORS: Legislators Biographical Database link",
+          "body_and_text_sha256_recomputed": true
+        },
+        {
+          "url": "https://history.mainelegislature.org/Presto/content/AdvancedSearch.aspx?ctID=NjJkY2RjYTMtM2Q5Zi00NmUyLWJjOTctMDA0NWVkZWNmNTRk",
+          "request_url": "https://history.mainelegislature.org/Presto/content/AdvancedSearch.aspx?ctID=NjJkY2RjYTMtM2Q5Zi00NmUyLWJjOTctMDA0NWVkZWNmNTRk",
+          "body_sha256": "a2eb96687a7e3814587d8ea85aea7f5b629fc9f2c463b88220653b1e4d39ef2d",
+          "text_sha256": "52d526d0eec0d40f4bef523ab20f3d01e21ef065b633d30f4ff20e2257d910fa",
+          "capture_datetime": "2026-11-09T17:50:00.195732Z",
+          "locator": "About the Maine Legislators Biographical Database; Sessions view and source description",
+          "body_and_text_sha256_recomputed": true
+        }
+      ]
+    },
+    {
+      "id": "ca-ab1095-2025-2026",
+      "recommendation": "confirmed_unchanged",
+      "whole_record_closure_recommended": true,
+      "questions_cleared": [
+        "AB1095 financing and waste-heat provision",
+        "author surname and legislative chamber",
+        "Dated official party support for Assembly Member Papan in 2025, correlated to both bill author lines",
+        "Full given-name identity corroborated by official member page",
+        "Inherited state-level activity classification consistency checked",
+        "Prior historical procedural judgment reused within its original scope"
+      ],
+      "remaining_questions": [],
+      "field_adjudications": {
+        "sponsors": "SUPPORTED: Official bill identifies Assembly Member Papan; separately retained official member site identifies Assemblymember Diane Papan. Same office and surname support identification; the 2026 identity page is not used to establish historical party.",
+        "party": "SUPPORTED: AB93 official Senate floor analysis identifies Papan (D), dated 2025-09-05. Both AB93 and AB1095 official bill bodies identify Assembly Member Papan as their author in the 2025-2026 session, introduced January 7 and February 20, 2025 respectively. The shared office, surname, session and year establish the correlation used here; the floor analysis is direct for AB93 and cross-bill for AB1095. The documents use surname rather than given name.",
+        "key_provisions": "SUPPORTED: Legislative Counsel digest and section 1, Government Code 63048.93(f)(6), add projects enabling capture and conversion of data-center waste heat to I-Bank Climate Catalyst financing; financial assistance is conditional and not a grant of funding.",
+        "activity_level": "INHERITED CONTEXT: Medium is consistent with the codebook and all 34 California local and 14 policy rows; consistency is not independent validation of the aggregate classification."
+      },
+      "sources": [
+        {
+          "url": "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB1095",
+          "version_id": "20250AB109597AMD",
+          "version_date": "2025-04-21",
+          "acquired_utc": "2026-11-05T23:14:54.633151+00:00",
+          "locators": [
+            "bill_authors",
+            "Legislative Counsel digest",
+            "section 1; Government Code 63048.93(f)(6)"
+          ],
+          "extraction_limit": "Extracted text omits author and digest for this bill; HTML body supplies them and shows amendment markup.",
+          "body": {
+            "sha256": "c9c38ef3d42d26641a9a4a3b902dcc502e7758285268820ddecb07a179bfc171",
+            "expected_sha256": "c9c38ef3d42d26641a9a4a3b902dcc502e7758285268820ddecb07a179bfc171",
+            "matches": true
+          },
+          "text": {
+            "sha256": "2b8b2f9d2075098a02458daa0cc822cba23a24cd2669c3419fa30f14391bf938",
+            "expected_sha256": "2b8b2f9d2075098a02458daa0cc822cba23a24cd2669c3419fa30f14391bf938",
+            "matches": true
+          }
+        },
+        {
+          "url": "https://leginfo.legislature.ca.gov/faces/billAnalysisClient.xhtml",
+          "request_method": "POST",
+          "bill_id": "202520260AB93",
+          "analysis_id": "393031",
+          "office": "Senate Rules Committee, Office of Senate Floor Analyses",
+          "index_date": "2025-09-09",
+          "analysis_amended_date": "2025-09-05",
+          "body": {
+            "sha256": "babdddd878cd418fe2704561d5e5033c93db898051b3d87be579cd096766b69d",
+            "pdf_magic_verified": true,
+            "native_readback_sha256": "babdddd878cd418fe2704561d5e5033c93db898051b3d87be579cd096766b69d"
+          },
+          "text": {
+            "sha256": "6a7c448f5594bbe4f0730fb3c09b38b9e72cfb77e3ebf16cffccfada0b3b1acb",
+            "native_readback_sha256": "6a7c448f5594bbe4f0730fb3c09b38b9e72cfb77e3ebf16cffccfada0b3b1acb"
+          },
+          "locators": [
+            "PDF page 1, header: bill number, author and amended date",
+            "independent pdftotext first-page readback"
+          ],
+          "body_observed_at": "2026-11-09T17:57:16.585217+00:00",
+          "native_observation_id": "6cc4631110ba0750",
+          "role": "AB93 party evidence and same-session Papan identity correlation for AB1095"
+        },
+        {
+          "url": "https://a21.asmdc.org/",
+          "final_url": "https://papan.asmdc.org/",
+          "title_actual_html": "Official Website - Assemblymember Diane Papan Representing the 21st California Assembly District",
+          "body": {
+            "sha256": "6f7e2cb5881c7e709c971fd98be51bacfa808a49513096e5dd5f8456300866a1",
+            "native_readback_match": true
+          },
+          "text": {
+            "sha256": "2d4827fdc7c7c83043526217342314d7a2c04950bd1eb179dfbfa7d5c4d4a830",
+            "native_readback_match": true
+          },
+          "locators": [
+            "HTML title",
+            "page body identifies Diane Papan"
+          ],
+          "observed_at": "2026-11-09T18:06:32.877030Z",
+          "native_observation_id": "470eceda2ca9cb5e",
+          "role": "full author identity only; not evidence of historical party"
+        }
+      ],
+      "proposed_cells": [],
+      "clocks": {
+        "bill_version_date": "2025-04-21",
+        "source_acquired_utc": "2026-11-05T23:14:54.633151+00:00",
+        "prior_collection_cutoff_utc": "2026-11-07T13:38:39.877065+00:00",
+        "audit_utc": "2026-11-09T17:50:02.973537+00:00",
+        "continuation_audit_utc": "2026-11-09T18:03:21.383384+00:00",
+        "identity_continuation_audit_utc": "2026-11-09T18:09:31.288658+00:00"
+      },
+      "prior_review_scope": "The exact prior review in the sibling packet was read; its substantive finding was confined to historical disposition and last action. It was not used as material-field acceptance.",
+      "analysis_index_source": {
+        "url": "https://leginfo.legislature.ca.gov/faces/billAnalysisClient.xhtml?bill_id=202520260AB1095",
+        "body": {
+          "sha256": "bb490600ad024eee9758e7d4dbdb44a39de96004dfe1f185caca13469963fda2"
+        },
+        "text": {
+          "sha256": "dd983fe7671a34d1d719a2e8b4ada6dba8aabfea0b07666f992ca2633d5939e2"
+        },
+        "observed_at": "2026-11-09T17:52:35.784824Z"
+      },
+      "recommendation_reason": "The named historical bill questions are supported by retained version-specific bill text, dated official party analysis, official author identity, and prior bounded history review. Medium is consistent inherited state-level context, without independent statewide classification validation.",
+      "party_specific_bill_analysis_required": false,
+      "alternative_bill_specific_analysis_form": {
+        "index_url": "https://leginfo.legislature.ca.gov/faces/billAnalysisClient.xhtml?bill_id=202520260AB1095",
+        "bill_id": "202520260AB1095",
+        "version": "20250AB109597AMD",
+        "analysis_id": "386669",
+        "office": "Assembly Appropriations",
+        "index_date": "2025-05-12",
+        "status": "Observed form control only; PDF not retrieved or used as evidence."
+      },
+      "closure_scope": "Recorded-version named-bill QA, including prior bounded historical procedural judgments; no renewed cutoff-wide freshness, current law, successor-law or independent state-level classification certification.",
+      "aggregate_context_followup": "Optional separate statewide research could reassess whether Medium is substantively appropriate; not a missing bill-specific source or a blocker.",
+      "activity_context": {
+        "interpretation": "State overall moratorium-activity classification inherited across datasets, not a bill-specific legal claim; consistency does not independently validate the underlying statewide assessment. Any reassessment is separate aggregate research.",
+        "codebook": {
+          "sha256": "7e3f37a98b2bd5b25cab78a1f6b65fe0520df22b10f378afce43380b5ae62cc8",
+          "locators": [
+            "line 29",
+            "line 106"
+          ]
+        },
+        "local_inventory": {
+          "sha256": "24505d2451d8fa886abb24ad38f008eb35c86c55f8de5f9f76483de1713df82b",
+          "california_rows": 34,
+          "values": {
+            "Medium": 34
+          }
+        },
+        "state_policy": {
+          "sha256": "fcb5f09f7647cd6cdff820704f12a4e0f79f9eb79ba169ba8490dd67ebfcbcce",
+          "california_rows": 14,
+          "values": {
+            "Medium": 14
+          }
+        },
+        "observed_at": "2026-11-09T18:09:31.288658+00:00"
+      },
+      "dataset": "state_policy",
+      "current_row_sha256": "2decbd889ebc17164b9a12b4d080860de911cf07b0f5c340a9bdb1d0b8f602b2"
+    },
+    {
+      "id": "ca-ab93-2025-2026",
+      "recommendation": "confirmed_unchanged",
+      "whole_record_closure_recommended": true,
+      "questions_cleared": [
+        "AB93 water-reporting mechanism",
+        "AB93 statewide scope with statutory qualifications",
+        "author surname and legislative chamber",
+        "Dated official party support for Assembly Member Papan in 2025, correlated to both bill author lines",
+        "Full given-name identity corroborated by official member page",
+        "Inherited state-level activity classification consistency checked",
+        "Prior historical procedural judgment reused within its original scope"
+      ],
+      "remaining_questions": [],
+      "field_adjudications": {
+        "sponsors": "SUPPORTED: Official bill identifies Assembly Member Papan; separately retained official member site identifies Assemblymember Diane Papan. Same office and surname support identification; the 2026 identity page is not used to establish historical party.",
+        "party": "SUPPORTED: AB93 official Senate floor analysis identifies Papan (D), dated 2025-09-05. Both AB93 and AB1095 official bill bodies identify Assembly Member Papan as their author in the 2025-2026 session, introduced January 7 and February 20, 2025 respectively. The shared office, surname, session and year establish the correlation used here; the floor analysis is direct for AB93 and cross-bill for AB1095. The documents use surname rather than given name.",
+        "key_provisions": "SUPPORTED with qualification: enrolled sections 2-3 require expected-use estimates to water suppliers before initial city/county license, equivalent instrument or permit application, and self-certification; renewal applications require certification that an annual-use report was supplied. The bill does not itself establish an independent annual submission schedule.",
+        "scope_of_action": "SUPPORTED: enrolled section 5 declares statewide concern and applies sections 2 and 3 to all cities including charter cities; section 3 separately addresses county applications. This is statewide legislative reach, not universal coverage of every facility: sections 2-3 define data centers and water suppliers.",
+        "activity_level": "INHERITED CONTEXT: Medium is consistent with the codebook and all 34 California local and 14 policy rows; consistency is not independent validation of the aggregate classification."
+      },
+      "sources": [
+        {
+          "url": "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260AB93",
+          "version_id": "20250AB9391ENR",
+          "version_date": "2025-09-15",
+          "acquired_utc": "2026-11-05T23:14:54.806724+00:00",
+          "locators": [
+            "bill_authors",
+            "Legislative Counsel digest",
+            "sections 2, 3 and 5"
+          ],
+          "extraction_limit": "Body and extracted text inspected.",
+          "body": {
+            "sha256": "aeb98ba9517a98cd8adb3a61c89efbb849ef60a1b3495a2e1276255a7e81d394",
+            "expected_sha256": "aeb98ba9517a98cd8adb3a61c89efbb849ef60a1b3495a2e1276255a7e81d394",
+            "matches": true
+          },
+          "text": {
+            "sha256": "ccbe867ec7c299e57237131870d4e7aefeebfe5ece6553b5601dac8202e2039d",
+            "expected_sha256": "ccbe867ec7c299e57237131870d4e7aefeebfe5ece6553b5601dac8202e2039d",
+            "matches": true
+          }
+        },
+        {
+          "url": "https://leginfo.legislature.ca.gov/faces/billAnalysisClient.xhtml",
+          "request_method": "POST",
+          "bill_id": "202520260AB93",
+          "analysis_id": "393031",
+          "office": "Senate Rules Committee, Office of Senate Floor Analyses",
+          "index_date": "2025-09-09",
+          "analysis_amended_date": "2025-09-05",
+          "body": {
+            "sha256": "babdddd878cd418fe2704561d5e5033c93db898051b3d87be579cd096766b69d",
+            "pdf_magic_verified": true,
+            "native_readback_sha256": "babdddd878cd418fe2704561d5e5033c93db898051b3d87be579cd096766b69d"
+          },
+          "text": {
+            "sha256": "6a7c448f5594bbe4f0730fb3c09b38b9e72cfb77e3ebf16cffccfada0b3b1acb",
+            "native_readback_sha256": "6a7c448f5594bbe4f0730fb3c09b38b9e72cfb77e3ebf16cffccfada0b3b1acb"
+          },
+          "locators": [
+            "PDF page 1, header: bill number, author and amended date",
+            "independent pdftotext first-page readback"
+          ],
+          "body_observed_at": "2026-11-09T17:57:16.585217+00:00",
+          "native_observation_id": "6cc4631110ba0750",
+          "role": "AB93 party evidence and same-session Papan identity correlation for AB1095"
+        },
+        {
+          "url": "https://a21.asmdc.org/",
+          "final_url": "https://papan.asmdc.org/",
+          "title_actual_html": "Official Website - Assemblymember Diane Papan Representing the 21st California Assembly District",
+          "body": {
+            "sha256": "6f7e2cb5881c7e709c971fd98be51bacfa808a49513096e5dd5f8456300866a1",
+            "native_readback_match": true
+          },
+          "text": {
+            "sha256": "2d4827fdc7c7c83043526217342314d7a2c04950bd1eb179dfbfa7d5c4d4a830",
+            "native_readback_match": true
+          },
+          "locators": [
+            "HTML title",
+            "page body identifies Diane Papan"
+          ],
+          "observed_at": "2026-11-09T18:06:32.877030Z",
+          "native_observation_id": "470eceda2ca9cb5e",
+          "role": "full author identity only; not evidence of historical party"
+        }
+      ],
+      "proposed_cells": [],
+      "clocks": {
+        "bill_version_date": "2025-09-15",
+        "source_acquired_utc": "2026-11-05T23:14:54.806724+00:00",
+        "prior_collection_cutoff_utc": "2026-11-07T13:38:39.877065+00:00",
+        "audit_utc": "2026-11-09T17:50:02.973979+00:00",
+        "continuation_audit_utc": "2026-11-09T18:03:21.383384+00:00",
+        "identity_continuation_audit_utc": "2026-11-09T18:09:31.288658+00:00"
+      },
+      "prior_review_scope": "The exact prior review in the sibling packet was read; its substantive finding was confined to historical disposition and last action. It was not used as material-field acceptance.",
+      "analysis_index_source": {
+        "url": "https://leginfo.legislature.ca.gov/faces/billAnalysisClient.xhtml?bill_id=202520260AB93",
+        "body": {
+          "sha256": "ce07b9855ae822b46747701c6d6f6f3fbbdbe22dd185e4611a44d9be42ca9d95"
+        },
+        "text": {
+          "sha256": "952dc7e89936f5bc45842bece29f3ac9453087251f67f08684d980822236a6f3"
+        },
+        "observed_at": "2026-11-09T17:52:37.095781Z"
+      },
+      "recommendation_reason": "The named historical bill questions are supported by retained version-specific bill text, dated official party analysis, official author identity, and prior bounded history review. Medium is consistent inherited state-level context, without independent statewide classification validation.",
+      "party_specific_bill_analysis_required": null,
+      "closure_scope": "Recorded-version named-bill QA, including prior bounded historical procedural judgments; no renewed cutoff-wide freshness, current law, successor-law or independent state-level classification certification.",
+      "aggregate_context_followup": "Optional separate statewide research could reassess whether Medium is substantively appropriate; not a missing bill-specific source or a blocker.",
+      "activity_context": {
+        "interpretation": "State overall moratorium-activity classification inherited across datasets, not a bill-specific legal claim; consistency does not independently validate the underlying statewide assessment. Any reassessment is separate aggregate research.",
+        "codebook": {
+          "sha256": "7e3f37a98b2bd5b25cab78a1f6b65fe0520df22b10f378afce43380b5ae62cc8",
+          "locators": [
+            "line 29",
+            "line 106"
+          ]
+        },
+        "local_inventory": {
+          "sha256": "24505d2451d8fa886abb24ad38f008eb35c86c55f8de5f9f76483de1713df82b",
+          "california_rows": 34,
+          "values": {
+            "Medium": 34
+          }
+        },
+        "state_policy": {
+          "sha256": "fcb5f09f7647cd6cdff820704f12a4e0f79f9eb79ba169ba8490dd67ebfcbcce",
+          "california_rows": 14,
+          "values": {
+            "Medium": 14
+          }
+        },
+        "observed_at": "2026-11-09T18:09:31.288658+00:00"
+      },
+      "dataset": "state_policy",
+      "current_row_sha256": "bf89578ea9458b2b3d55fedf0d0b4ee0f1a40639fe805e76fc242587dcaf8644"
+    },
+    {
+      "id": "ca-sb1298-2023-2024",
+      "recommendation": "confirmed_unchanged",
+      "whole_record_closure_recommended": true,
+      "questions_cleared": [
+        "SB1298 thermal-powerplant certification and exemption provision",
+        "author surname and legislative chamber",
+        "Dated official party support for Senator Cortese in 2024",
+        "Full given-name identity corroborated by official member page",
+        "Inherited state-level activity classification consistency checked",
+        "Prior historical procedural judgment reused within its original scope"
+      ],
+      "remaining_questions": [],
+      "field_adjudications": {
+        "sponsors": "SUPPORTED: Official bill identifies Senator Cortese; separately retained official member site identifies Senator Dave Cortese. Same office and surname support identification; the 2026 identity page is not used to establish historical party.",
+        "party": "SUPPORTED directly: SB1298 official Senate floor analysis, page 1, identifies Cortese (D), amended 2024-04-22; the August 19 bill identifies Senator Cortese as author. Older analysis is used only for party; August 19 primary bill version supports provisions.",
+        "key_provisions": "SUPPORTED: Legislative Counsel digest and section 1, Public Resources Code 25541(b), propose a discretionary certification exemption for qualifying thermal powerplants up to 150 MW solely for data-center backup, customer-side and not interconnected to distribution, conditioned on commission environmental findings and district best-available-control-technology determination. Section 3 adds air-quality mitigation; district authority is preserved. Source is a proposed bill, not evidence of an enacted exemption.",
+        "activity_level": "INHERITED CONTEXT: Medium is consistent with the codebook and all 34 California local and 14 policy rows; consistency is not independent validation of the aggregate classification."
+      },
+      "sources": [
+        {
+          "url": "https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202320240SB1298",
+          "version_id": "20230SB129893AMD",
+          "version_date": "2024-08-19",
+          "acquired_utc": "2026-11-05T23:16:43.532421+00:00",
+          "locators": [
+            "bill_authors",
+            "Legislative Counsel digest",
+            "sections 1 and 3; Public Resources Code 25541(b) and 25541.2"
+          ],
+          "extraction_limit": "Extracted text omits author and digest for this bill; HTML body supplies them and shows amendment markup.",
+          "body": {
+            "sha256": "57bf770bf24874198fd49709c1e4bb27b433d3d332077bfe6f9338b657793abb",
+            "expected_sha256": "57bf770bf24874198fd49709c1e4bb27b433d3d332077bfe6f9338b657793abb",
+            "matches": true
+          },
+          "text": {
+            "sha256": "03cb090e7e4e1057030a2751989d715329684ec949ad31f4eb1690d4cb29fcf0",
+            "expected_sha256": "03cb090e7e4e1057030a2751989d715329684ec949ad31f4eb1690d4cb29fcf0",
+            "matches": true
+          }
+        },
+        {
+          "url": "https://leginfo.legislature.ca.gov/faces/billAnalysisClient.xhtml",
+          "request_method": "POST",
+          "bill_id": "202320240SB1298",
+          "analysis_id": "374262",
+          "office": "Senate Rules Committee, Office of Senate Floor Analyses",
+          "index_date": "2024-05-17",
+          "analysis_amended_date": "2024-04-22",
+          "body": {
+            "sha256": "d81ab21d353d69b9b2ffb564dcdcd4c5b3d44ef0a8d3043df689f082775db71e",
+            "pdf_magic_verified": true,
+            "native_readback_sha256": "d81ab21d353d69b9b2ffb564dcdcd4c5b3d44ef0a8d3043df689f082775db71e"
+          },
+          "text": {
+            "sha256": "03851265aa17bdd810f212d1ce27dbd3679273b7d2bb58f1403f83a32e448827",
+            "native_readback_sha256": "03851265aa17bdd810f212d1ce27dbd3679273b7d2bb58f1403f83a32e448827"
+          },
+          "locators": [
+            "PDF page 1, header: bill number, author and amended date",
+            "independent pdftotext first-page readback"
+          ],
+          "body_observed_at": "2026-11-09T17:57:17.393668+00:00",
+          "native_observation_id": "8317a2b58b206157",
+          "role": "party and author evidence only"
+        },
+        {
+          "url": "https://sd15.senate.ca.gov/",
+          "final_url": "https://sd15.senate.ca.gov/",
+          "title_actual_html": "Senator Dave Cortese | Proudly Representing California Senate District 15",
+          "body": {
+            "sha256": "a04cd0851aae0e11bca6b215ad2ec03fea873b6022164345ddd68464c870f5c7",
+            "native_readback_match": true
+          },
+          "text": {
+            "sha256": "5d5a7aedbcce081e4616ddf1e95ec8422be82353aef27c500c122ec495bfe4c3",
+            "native_readback_match": true
+          },
+          "locators": [
+            "HTML title",
+            "page body identifies Dave Cortese"
+          ],
+          "observed_at": "2026-11-09T18:06:34.228720Z",
+          "native_observation_id": "ad7350319c6b237a",
+          "role": "full author identity only; not evidence of historical party"
+        }
+      ],
+      "proposed_cells": [],
+      "clocks": {
+        "bill_version_date": "2024-08-19",
+        "source_acquired_utc": "2026-11-05T23:16:43.532421+00:00",
+        "prior_collection_cutoff_utc": "2026-11-07T13:38:39.877065+00:00",
+        "audit_utc": "2026-11-09T17:50:02.974305+00:00",
+        "continuation_audit_utc": "2026-11-09T18:03:21.383384+00:00",
+        "identity_continuation_audit_utc": "2026-11-09T18:09:31.288658+00:00"
+      },
+      "prior_review_scope": "The exact prior review in the sibling packet was read; its substantive finding was confined to historical disposition and last action. It was not used as material-field acceptance.",
+      "analysis_index_source": {
+        "url": "https://leginfo.legislature.ca.gov/faces/billAnalysisClient.xhtml?bill_id=202320240SB1298",
+        "body": {
+          "sha256": "389aa684c4e2da694770beafd7d54404aba6e577f2c11dfe0655449edae25755"
+        },
+        "text": {
+          "sha256": "ee6ec2a7259e27bd845a002c41f46118064aef985382de5033d84e2078205575"
+        },
+        "observed_at": "2026-11-09T17:52:38.416841Z"
+      },
+      "recommendation_reason": "The named historical bill questions are supported by retained version-specific bill text, dated official party analysis, official author identity, and prior bounded history review. Medium is consistent inherited state-level context, without independent statewide classification validation.",
+      "party_specific_bill_analysis_required": null,
+      "closure_scope": "Recorded-version named-bill QA, including prior bounded historical procedural judgments; no renewed cutoff-wide freshness, current law, successor-law or independent state-level classification certification.",
+      "aggregate_context_followup": "Optional separate statewide research could reassess whether Medium is substantively appropriate; not a missing bill-specific source or a blocker.",
+      "activity_context": {
+        "interpretation": "State overall moratorium-activity classification inherited across datasets, not a bill-specific legal claim; consistency does not independently validate the underlying statewide assessment. Any reassessment is separate aggregate research.",
+        "codebook": {
+          "sha256": "7e3f37a98b2bd5b25cab78a1f6b65fe0520df22b10f378afce43380b5ae62cc8",
+          "locators": [
+            "line 29",
+            "line 106"
+          ]
+        },
+        "local_inventory": {
+          "sha256": "24505d2451d8fa886abb24ad38f008eb35c86c55f8de5f9f76483de1713df82b",
+          "california_rows": 34,
+          "values": {
+            "Medium": 34
+          }
+        },
+        "state_policy": {
+          "sha256": "fcb5f09f7647cd6cdff820704f12a4e0f79f9eb79ba169ba8490dd67ebfcbcce",
+          "california_rows": 14,
+          "values": {
+            "Medium": 14
+          }
+        },
+        "observed_at": "2026-11-09T18:09:31.288658+00:00"
+      },
+      "dataset": "state_policy",
+      "current_row_sha256": "b26d8e780af6ff1cc04c85c43ede93a71d7d35cf153c08219020f4d1fa43a033"
+    }
+  ]
+}

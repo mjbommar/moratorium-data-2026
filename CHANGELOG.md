@@ -18,6 +18,8 @@ North Port receives seven source-bounded clarifications using linked first-readi
 
 Three Colorado records receive twelve adopted-identity and term clarifications from signed municipal copies, meeting/voting records and visual review of scanned signatures. Preserve conditional timing, newspaper discrepancies and later-action/current-force holds; recorded stages and headline totals are unchanged.
 
+Six named historical/recorded-version policy QA holds are cleared using session-specific Maine party rows and California primary bill, analysis and identity evidence. All CSV cells and headline status counts are unchanged; unresolved record dispositions fall to 1,481.
+
 Current working snapshot: **1,328 local records**, **447 policy observations**, and **57 proposal/measure records** with **53 current result observations** (five certified).
 
 | Metric | Working QA after v2026.11.9 |
