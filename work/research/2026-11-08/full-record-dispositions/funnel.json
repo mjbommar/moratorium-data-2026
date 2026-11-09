@@ -1,16 +1,16 @@
 {
   "event_cutoff_utc": "2026-11-07T13:38:39.877065Z",
   "counts": {
-    "unresolved": 1425,
+    "unresolved": 1424,
     "corrected_resolved": 130,
-    "confirmed_unchanged": 221,
+    "confirmed_unchanged": 222,
     "superseded_duplicate": 0,
     "not_attempted": 0
   },
   "cohort_counts": {
     "earlier225": {
-      "confirmed_unchanged": 19,
-      "unresolved": 206
+      "confirmed_unchanged": 20,
+      "unresolved": 205
     },
     "remaining1552": {
       "corrected_resolved": 130,
@@ -30642,12 +30642,9 @@
     {
       "id": "pa-sb939",
       "dataset": "state_policy",
-      "disposition": "unresolved",
-      "public_receipt_pointer": "work/research/2026-11-08/full-inventory-integrated-application/README.md",
-      "residual_reference": {
-        "dataset": "state_policy",
-        "id": "pa-sb939"
-      },
+      "disposition": "confirmed_unchanged",
+      "public_receipt_pointer": "work/research/2026-11-09/post-release-qa/pennsylvania-sb939-adjudication.json",
+      "residual_reference": null,
       "recorded_evidence_fingerprints_sha256": [
         "30362e175b0f57c3f6ea7c1b7677b63137e4679dac854ce77d8e4e686aa1a3b4",
         "305311a6812751a778bb7699fc340bf8387d0c14da02315529cfcc4fda6539f9",
@@ -37786,6 +37783,15 @@
       "disposition": "unresolved",
       "receipt": "work/research/2026-11-09/post-release-qa/massachusetts-energy-integration.json",
       "scope": "New direct-reviewed observation; independent review explicitly pending. Original release cohorts remain unchanged."
+    },
+    {
+      "reviewed_at": "2026-11-09T22:46:10.358252+00:00",
+      "id": "pa-sb939",
+      "cohort": "earlier225",
+      "prior_disposition": "unresolved",
+      "disposition": "confirmed_unchanged",
+      "receipt": "work/research/2026-11-09/post-release-qa/pennsylvania-sb939-adjudication.json",
+      "scope": "Fresh official history retains February4,2026 amendment action and PN1424, with10\u20130 adoption labels for A02384. Recovered original PN1048 and actual A02384 close the missing-version checks. Existing qualified PN1424 summary remains supported; no enactment or final terminal outcome is claimed."
     }
   ]
 }
