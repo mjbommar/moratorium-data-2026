@@ -1,9 +1,9 @@
 {
   "event_cutoff_utc": "2026-11-07T13:38:39.877065Z",
   "counts": {
-    "unresolved": 1427,
+    "unresolved": 1424,
     "corrected_resolved": 130,
-    "confirmed_unchanged": 218,
+    "confirmed_unchanged": 221,
     "superseded_duplicate": 0,
     "not_attempted": 0
   },
@@ -14,8 +14,8 @@
     },
     "remaining1552": {
       "corrected_resolved": 130,
-      "confirmed_unchanged": 199,
-      "unresolved": 1221,
+      "confirmed_unchanged": 202,
+      "unresolved": 1218,
       "superseded_duplicate": 0
     }
   },
@@ -24512,12 +24512,9 @@
     {
       "id": "ny-s8518-a9138-2025-2026",
       "dataset": "state_policy",
-      "disposition": "unresolved",
-      "public_receipt_pointer": "work/research/2026-11-08/full-inventory-integrated-application/README.md",
-      "residual_reference": {
-        "dataset": "state_policy",
-        "id": "ny-s8518-a9138-2025-2026"
-      },
+      "disposition": "confirmed_unchanged",
+      "public_receipt_pointer": "work/research/2026-11-09/post-release-qa/new-york-history-adjudications.json",
+      "residual_reference": null,
       "recorded_evidence_fingerprints_sha256": [
         "097afb3dbf91bb7a4f1576a9afb0f22d37aebb6d8f537e5ae6b578b1876a3b32",
         "3194ce5eabb29727f5461b1a09c0b0a487a8dacfff348fd773752fb99b0996d4",
@@ -24596,12 +24593,9 @@
     {
       "id": "ny-s8645-a9136-2025-2026",
       "dataset": "state_policy",
-      "disposition": "unresolved",
-      "public_receipt_pointer": "work/research/2026-11-08/full-inventory-integrated-application/README.md",
-      "residual_reference": {
-        "dataset": "state_policy",
-        "id": "ny-s8645-a9136-2025-2026"
-      },
+      "disposition": "confirmed_unchanged",
+      "public_receipt_pointer": "work/research/2026-11-09/post-release-qa/new-york-history-adjudications.json",
+      "residual_reference": null,
       "recorded_evidence_fingerprints_sha256": [
         "3194ce5eabb29727f5461b1a09c0b0a487a8dacfff348fd773752fb99b0996d4",
         "48e858b9267957838f80211ac44c4ba7a185198768c7c792eee7b630c02dcd34",
@@ -24617,12 +24611,9 @@
     {
       "id": "ny-s9144-a10141-2026",
       "dataset": "state_policy",
-      "disposition": "unresolved",
-      "public_receipt_pointer": "work/research/2026-11-08/full-inventory-integrated-application/README.md",
-      "residual_reference": {
-        "dataset": "state_policy",
-        "id": "ny-s9144-a10141-2026"
-      },
+      "disposition": "confirmed_unchanged",
+      "public_receipt_pointer": "work/research/2026-11-09/post-release-qa/new-york-history-adjudications.json",
+      "residual_reference": null,
       "recorded_evidence_fingerprints_sha256": [
         "07a813018ebb91789058bfc0f29bd1f0be5ec20246df22c5acadc67bd43ea5b8",
         "3194ce5eabb29727f5461b1a09c0b0a487a8dacfff348fd773752fb99b0996d4",
@@ -37739,6 +37730,33 @@
       "disposition": "confirmed_unchanged",
       "receipt": "work/research/2026-11-09/post-release-qa/pennsylvania-house-history-adjudications.json",
       "scope": "Fresh official named-instrument history generated November9 confirms the same last recorded action and print as the prior accepted historical review. The sole later-history check is now performed; no new enactment or current-law claim."
+    },
+    {
+      "reviewed_at": "2026-11-09T22:25:40.964720+00:00",
+      "id": "ny-s8518-a9138-2025-2026",
+      "cohort": "remaining1552",
+      "prior_disposition": "unresolved",
+      "disposition": "confirmed_unchanged",
+      "receipt": "work/research/2026-11-09/post-release-qa/new-york-history-adjudications.json",
+      "scope": "Both named chamber histories still show the recorded referrals/amended versions in the fresh November9 retrievals. The missing post-November6 action check is performed; prior accepted provision/version qualifications are preserved. No enactment or legal-force inference."
+    },
+    {
+      "reviewed_at": "2026-11-09T22:25:40.964720+00:00",
+      "id": "ny-s8645-a9136-2025-2026",
+      "cohort": "remaining1552",
+      "prior_disposition": "unresolved",
+      "disposition": "confirmed_unchanged",
+      "receipt": "work/research/2026-11-09/post-release-qa/new-york-history-adjudications.json",
+      "scope": "Both named chamber histories still show the recorded referrals/amended versions in the fresh November9 retrievals. The missing post-November6 action check is performed; prior accepted provision/version qualifications are preserved. No enactment or legal-force inference."
+    },
+    {
+      "reviewed_at": "2026-11-09T22:25:40.964720+00:00",
+      "id": "ny-s9144-a10141-2026",
+      "cohort": "remaining1552",
+      "prior_disposition": "unresolved",
+      "disposition": "confirmed_unchanged",
+      "receipt": "work/research/2026-11-09/post-release-qa/new-york-history-adjudications.json",
+      "scope": "Both named chamber histories still show the recorded referrals/amended versions in the fresh November9 retrievals. The missing post-November6 action check is performed; prior accepted provision/version qualifications are preserved. No enactment or legal-force inference."
     }
   ]
 }
