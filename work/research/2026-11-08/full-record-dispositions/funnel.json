@@ -1,8 +1,8 @@
 {
   "event_cutoff_utc": "2026-11-07T13:38:39.877065Z",
   "counts": {
-    "unresolved": 1460,
-    "corrected_resolved": 115,
+    "unresolved": 1459,
+    "corrected_resolved": 116,
     "confirmed_unchanged": 200,
     "superseded_duplicate": 0,
     "not_attempted": 0
@@ -13,9 +13,9 @@
       "unresolved": 222
     },
     "remaining1552": {
-      "corrected_resolved": 115,
+      "corrected_resolved": 116,
       "confirmed_unchanged": 197,
-      "unresolved": 1238,
+      "unresolved": 1237,
       "superseded_duplicate": 0
     }
   },
@@ -3139,19 +3139,17 @@
     {
       "id": "co-washington-county-2023",
       "dataset": "local_inventory",
-      "disposition": "unresolved",
-      "public_receipt_pointer": "work/research/2026-11-08/full-inventory-integrated-application/README.md",
-      "residual_reference": {
-        "dataset": "local_inventory",
-        "id": "co-washington-county-2023"
-      },
+      "disposition": "corrected_resolved",
+      "public_receipt_pointer": "work/research/2026-11-09/post-release-qa/washington-county-adjudication.json",
+      "residual_reference": null,
       "recorded_evidence_fingerprints_sha256": [
         "28b0bac23b95c2144a7e3443007dd8cb9ce6d83f16f97cd9dd78df894b8dc68d",
         "58414573e06275b346f6eb94f17e8b8af8beb2e487e98bb3156367128d77cbcc",
         "9bc92a008938f67d7e00ebdec5681c5946db8d17261fb68576d5400f1af9dfdd",
         "af905c84c2ca1f4a7770a2c24b9c4c6778063f18ecbf2c6b4e4796a3631bfc67",
         "f972ebc2aca3455b62c8ac5e50ccb30585ba8ef6bea19fa98f1b33a833a1e58e"
-      ]
+      ],
+      "post_release_question_review_pointer": "work/research/2026-11-09/post-release-qa/washington-county-adjudication.json"
     },
     {
       "id": "co-woodland-park-2026",
@@ -37529,6 +37527,15 @@
       "disposition": "unresolved",
       "receipt": "work/research/2026-11-09/post-release-qa/coachella-vacaville-adjudications.json",
       "scope": "Source-specific residual refinement; no whole-record closure."
+    },
+    {
+      "reviewed_at": "2026-11-09T21:35:44.425237+00:00",
+      "id": "co-washington-county-2023",
+      "cohort": "remaining1552",
+      "prior_disposition": "unresolved",
+      "disposition": "corrected_resolved",
+      "receipt": "work/research/2026-11-09/post-release-qa/washington-county-adjudication.json",
+      "scope": "Bounded historical identity, last-extension terms and explicit termination; unsupported chain wording corrected, not silently accepted."
     }
   ]
 }

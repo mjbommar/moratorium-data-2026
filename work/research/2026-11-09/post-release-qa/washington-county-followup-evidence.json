@@ -1,0 +1,35 @@
+{
+  "reviewed_at": "2026-11-09T21:35:44.364801+00:00",
+  "sources": [
+    {
+      "attempt_id": "e665606b503a497d956f3c8a7ea186cb",
+      "url": "https://washingtoncounty.colorado.gov/sites/g/files/lrnvjt1191/files/59%20Temp%20moratorium%20Battery%20Energy.pdf",
+      "body_sha256": "0dd3eec9d2f12a39314c6bdb5f1b0a9471c02dc251ae8758e549e5b330e0e938",
+      "automatic_text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "reviewed_text_sha256": "05e5db89acce3b86283b862d865b1b79498d6af45aedeb63b7c59ae46508851a",
+      "body_observed_at": "2026-11-09T21:34:11.956154Z",
+      "original_manifest_body_sha256": "0dd3eec9d2f12a39314c6bdb5f1b0a9471c02dc251ae8758e549e5b330e0e938",
+      "original_manifest_acquisition": "2026-09-23T14:25:31+00:00",
+      "recovery_matches_original_body_hash": true,
+      "locator": "Resolution 59-2025 page 1: original 88-2023 recital, last seven-month estimate, paragraphs 1\u20132 scope and June 30, 2026 scheduled end; page 2: signed November 25, 2025 adoption."
+    },
+    {
+      "url": "https://washingtoncounty.colorado.gov/sites/g/files/lrnvjt1191/files/16-Approval-for-BESS-Regulations.pdf",
+      "body_sha256": "28b0bac23b95c2144a7e3443007dd8cb9ce6d83f16f97cd9dd78df894b8dc68d",
+      "reviewed_text_sha256": "58414573e06275b346f6eb94f17e8b8af8beb2e487e98bb3156367128d77cbcc",
+      "locator": "Resolution 16-2026 page 1 section 3 expressly ends 59-2025 upon passage/approval; page 2 signed approval April 14, 2026.",
+      "reuse": "Retained November5 source reused without refetch; body/text hashes and both signed/operative pages checked."
+    }
+  ],
+  "findings": [
+    "Signed Resolution 59-2025 recites that original 88-2023 imposed the BESS moratorium December 27, 2023. This is primary county retrospective evidence, not direct inspection of 88-2023.",
+    "Resolution 59-2025 is signed November 25, 2025 and estimates seven additional months; operative paragraph 2 sets June 30, 2026 unless terminated or extended. It acknowledges several prior extensions but does not establish all were seven months.",
+    "Paragraph 1 bars accepting, processing or approving applications, including special-use and right-of-way permits, for BESS land development in unincorporated Washington County.",
+    "Signed Resolution 16-2026 section 3 expressly ends 59-2025 upon passage and approval; signed approval is April 14, 2026. This is direct termination evidence, not inference from later web-listing absence."
+  ],
+  "resolution": "Correct the original-date attribution and unsupported repeated-seven-month claim. The bounded historical identity, last-extension and express termination account is now source-supported. Do not assert all earlier extension dates/terms or current force of replacement zoning.",
+  "scope": "One exact-byte original recovery; one reused signed termination source; four pages visually reviewed.",
+  "historical_original_body_alias": "work/sources/CO/3ed1a805abf61ed9.pdf",
+  "retained_september_ocr_current_sha256": "671434049bdd8e823c75996be41a153d560e1b49ee4eeffc118c0d0c9a17fe95",
+  "retained_september_ocr_pin_note": "The original manifest recorded the PDF hash, not a separate original text hash. This is the currently verified retained-text hash; new OCR lineage is body-pinned separately."
+}

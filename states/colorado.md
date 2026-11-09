@@ -43,7 +43,7 @@ State policy is tracked separately: **4 records** (4 typed bill rows) in [`state
 | Phillips County | County | 2026-02-27 | data center | 🟢 Extended |
 | Saguache County | County | 2026-05-05 | data center | 🟢 Active |
 | South Fork | Town | 2026-06-18 | data center | 🟢 Active |
-| Washington County | County | 2023 | battery storage | ⚪ Replaced |
+| Washington County | County | 2023-12-27 | battery storage | ⚪ Replaced |
 | Woodland Park | City | 2026-07-16 | data center | 🟢 Active |
 
 ## Detailed entries
@@ -564,13 +564,13 @@ State policy is tracked separately: **4 records** (4 typed bill rows) in [`state
 
 - **Type:** County
 - **Recorded status:** ⚪ Replaced
-- **Date enacted:** 2023 (original Resolution 88-2023; repeatedly extended)
-- **Normalized date:** `2023` (year_only)
-- **Duration:** Repeatedly extended in 7-month increments
+- **Date enacted:** 2023-12-27, as expressly recited for Resolution 88-2023 in signed extension Resolution 59-2025; original 88-2023 text not independently inspected
+- **Normalized date:** `2023-12-27` (exact)
+- **Duration:** Signed Resolution 59-2025, dated November 25, 2025, estimates seven additional months and expressly sets June 30, 2026 as the scheduled endpoint unless terminated or extended. It acknowledges several earlier extensions without enumerating their terms; repeated seven-month increments are not established. Resolution 16-2026 expressly terminated 59-2025 upon passage and approval on April 14, 2026.
 - **Current end date:** `2026-04-14`
 - **Sectors:** battery storage
 - **Moratorium ID:** `co-washington-county-2023`
-- **Legal basis:** Resolution 88-2023 and subsequent extensions, including Resolution 59-2025; superseded by Resolution 16-2026, approved April 14, 2026.
+- **Legal basis:** Resolution 88-2023 imposed the original December 27, 2023 moratorium, as recited in signed Resolution 59-2025. The latter continues the prohibition on accepting, processing or approving BESS development applications in unincorporated Washington County, including special-use and right-of-way permits. Resolution 16-2026 section 3 expressly ends the 59-2025 moratorium upon passage and approval; its signed approval is April 14, 2026. Earlier extension instruments are not individually asserted as reviewed.
 - **What prompted it:** County developing battery energy storage system regulations
 - **Affected projects:** None identified
 - **Detailed status:** Replaced. Resolution 16-2026, approved April 14, 2026, adopted BESS zoning regulations and expressly ended the BESS moratorium under Resolution 59-2025.
