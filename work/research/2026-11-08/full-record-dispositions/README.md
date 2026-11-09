@@ -1,7 +1,7 @@
 # Full raw-record review dispositions
 
 The [funnel](funnel.json) assigns one disposition to each of the **1,775 active raw IDs**:
-**1,481 unresolved, 100 corrected-resolved, 194 confirmed-unchanged, zero active superseded
+**1,480 unresolved, 101 corrected-resolved, 194 confirmed-unchanged, zero active superseded
 duplicates and zero not-attempted**. The original release reviewed 225 earlier and 1,552 remaining IDs. Post-release QA retires two source-proven duplicates, retaining its original row and permanent ID as an alias. The current funnel exactly covers the remaining 1,775 active IDs. This is
 bounded record/source accounting, not a universal current-law certification.
 
@@ -14,7 +14,7 @@ observations; hash references are declared evidence fingerprints, including revi
 source and row identities, not an assertion that all are independently reverified
 source bodies.
 
-All 225 earlier records retain unresolved record-level limits after review. Four
+The original 225-record cohort retains 222 unresolved and three confirmed-unchanged source-specific dispositions after followup. Four
 original California whole-record `not_attempted` labels are preserved privately;
 the closeout actually inspected retained official histories/chapter text and the
 original November 5 attempts. AB1095's terminal history, AB1577/2383/2469's adopted

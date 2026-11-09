@@ -2,6 +2,8 @@
 
 ## Post-release QA, November 9
 
+Arizona’s official final-disposition index and seven bill histories support sixteen guarded edits, including HB 4009 unknown → failed. One source-specific QA hold closes; 1,480 records remain unresolved. Six other bills retain unknown terminal categories despite directly confirmed held-in-committee dispositions. See [review](work/research/2026-11-09/post-release-qa/arizona-final-review.md).
+
 Virginia/Wyoming primary-source followup corrects two Wyoming sponsor/party cells and changes its analytical scope from include to unresolved. Reviewed inclusions become 373 and unresolved scope observations 55; raw rows and legislative statuses remain unchanged. See [findings](work/research/2026-11-09/post-release-qa/va-wy-followup.md).
 
 

@@ -1,0 +1,103 @@
+{
+  "scope": "Official portal, observed scripts/constants, disposition vocabulary and three returned disposition lists, and seven rendered bill histories. XML lists parsed from original bodies; failed missing-body-parameter request remains private journal metadata.",
+  "sources": [
+    {
+      "attempt_id": "afad08079b1d46748666be1972553c7e",
+      "url": "https://apps.azleg.gov/BillStatus/FinalDisposition?SessionId=130",
+      "body_sha256": "ce3c034c6f5583f24b6eb7e06b9d22e0fc96567a8143f780dc576c7e5723356d",
+      "text_sha256": "df3c95c9517e55cda59eadf83790b86234b0db3ed375168937c41ac498c13cfa",
+      "body_observed_at": "2026-11-09T18:32:46.850626Z"
+    },
+    {
+      "attempt_id": "a90f9fb02835487ca72a3a272a5d8855",
+      "url": "https://apps.azleg.gov/Scripts/FinalDispBundle?v=ig8NjdwNWOegxVNR1EIS6_XpTeDt9RXKeQzBmD6I4JQ1",
+      "body_sha256": "87d69aab6a6ff21b709cec01e0844638d02bc880eb82ce9b3b90a1b0bd872e1f",
+      "text_sha256": "87d69aab6a6ff21b709cec01e0844638d02bc880eb82ce9b3b90a1b0bd872e1f",
+      "body_observed_at": "2026-11-09T18:33:09.573381Z"
+    },
+    {
+      "attempt_id": "148f5f8e2bae4105999985c8f712efc0",
+      "url": "https://apps.azleg.gov/Home/JavascriptConstants",
+      "body_sha256": "403d796e55d742b516cc12a9e6b925556270c17166fcea9cc6aff8e03939bed7",
+      "text_sha256": "403d796e55d742b516cc12a9e6b925556270c17166fcea9cc6aff8e03939bed7",
+      "body_observed_at": "2026-11-09T18:33:23.987431Z"
+    },
+    {
+      "attempt_id": "5b315b8f1e47422c96752a71c32034a4",
+      "url": "https://apps.azleg.gov/api/Disposition/?sessionId=130&body=",
+      "body_sha256": "86325e6304a589f16f0e89f6ec2d83c861a20c62334bc8b2eba61908ba06b1e5",
+      "text_sha256": "f26899892611be7db297227699a0cf76afaed8acf763f969ea1a6c71f793f4af",
+      "body_observed_at": "2026-11-09T18:33:55.791386Z"
+    },
+    {
+      "attempt_id": "627f99c712384b158a5553d4d4d22dec",
+      "url": "https://apps.azleg.gov/api/BillStatus/?sessionId=130&dispositionId=976&body=",
+      "body_sha256": "2e366ae4d146459199fefd0381820ec3a0004daa576167c1d93b182e70cf5171",
+      "text_sha256": "ed4062e9e82df4c3f770aa3fc62ced9d731457ade4fccd5e971981e2b6720635",
+      "body_observed_at": "2026-11-09T18:34:18.041602Z"
+    },
+    {
+      "attempt_id": "2d9f0827bc38489cac8be6416dab71ae",
+      "url": "https://apps.azleg.gov/api/BillStatus/?sessionId=130&dispositionId=967&body=",
+      "body_sha256": "779a8899c97a18da81ca668eb07be3a846ae03667194f09ced4e4feebd601b98",
+      "text_sha256": "4a22eff07c68e7a78993d7fcac07c5952f0c741af57059f883bb364cbb59a51b",
+      "body_observed_at": "2026-11-09T18:34:23.114212Z"
+    },
+    {
+      "attempt_id": "1c3396144ae2455e8ba275556f2b901a",
+      "url": "https://apps.azleg.gov/api/BillStatus/?sessionId=130&dispositionId=996&body=",
+      "body_sha256": "a5109748b9a266f76f4068beea736159229c828e9134834f123b725f1706e64a",
+      "text_sha256": "f8714187815b21ad5921a55876889bd81e8b36a1c8712a51c80a1405f522fa2d",
+      "body_observed_at": "2026-11-09T18:34:18.222878Z"
+    },
+    {
+      "attempt_id": "6051180ea78e45f1a6d95c3eabf5029c",
+      "url": "https://apps.azleg.gov/BillStatus/BillOverview/84240?SessionId=130",
+      "body_sha256": "2946bbe8441c883d98b6bcc08b6a8e956b932e7459b5883288bd0befa59ad71b",
+      "text_sha256": "1ddca8927d10815e5f6be14fa7a4edbe571b68afcd21aeb5bfc03fc6b621660f",
+      "body_observed_at": "2026-11-09T18:34:53.476971Z"
+    },
+    {
+      "attempt_id": "337eabb844bb465eaa663ded40888e9e",
+      "url": "https://apps.azleg.gov/BillStatus/BillOverview/84445?SessionId=130",
+      "body_sha256": "abcb5fd8faace49764f26675b328652c963d5e24163aa21b68da335fa744af32",
+      "text_sha256": "2257defe39fc37e1bba12e10f066f59984c19949bc8adbc5a0d8b7933cddd9e7",
+      "body_observed_at": "2026-11-09T18:34:53.701110Z"
+    },
+    {
+      "attempt_id": "ba003aa4acdb4338b34c3a13d6af4798",
+      "url": "https://apps.azleg.gov/BillStatus/BillOverview/84654?SessionId=130",
+      "body_sha256": "e430d291b227e9ba1f76b7d449f921fadbbb4c531036d86bdc54912fc52b232b",
+      "text_sha256": "51319e47a57d47ff58ab90eefc51e3f6eebb16659b65fad1e9fb72654bca4b47",
+      "body_observed_at": "2026-11-09T18:34:53.559169Z"
+    },
+    {
+      "attempt_id": "b34cecc45d124aa9a446e028cc2be729",
+      "url": "https://apps.azleg.gov/BillStatus/BillOverview/85088?SessionId=130",
+      "body_sha256": "411b908debfbb4cdc5e1b4f4560fde47738c1566595818268c7acbb8cf8e96ca",
+      "text_sha256": "104c6773e5e7e4773ed8611e102af3a32fcbb3b70cb9a8aa05aa4982a2c9399f",
+      "body_observed_at": "2026-11-09T18:34:53.802875Z"
+    },
+    {
+      "attempt_id": "35ec257672b44c94904a13686a9f3c66",
+      "url": "https://apps.azleg.gov/BillStatus/BillOverview/85520?SessionId=130",
+      "body_sha256": "1295311598a39d16e98b3dc576945c691ce378e3ded9cabd3c36bb4916ffb862",
+      "text_sha256": "70721cafedfe31a85208321123c3b98e6768c9f48cda3d733cf7ca6d03dc2c23",
+      "body_observed_at": "2026-11-09T18:34:53.871731Z"
+    },
+    {
+      "attempt_id": "00c941b15dd944339328fa06757419bd",
+      "url": "https://apps.azleg.gov/BillStatus/BillOverview/85051?SessionId=130",
+      "body_sha256": "79daf3f617994ea840cea4646cb4ee6159aa5a413f885b8b187c98d0d53a7741",
+      "text_sha256": "43f7dae3359f12afb0528e47d054cf94cd0d1e85683c73da93f3b1e316176c27",
+      "body_observed_at": "2026-11-09T18:34:53.579710Z"
+    },
+    {
+      "attempt_id": "8937abaad47f46f4bb823ad0bb15834b",
+      "url": "https://apps.azleg.gov/BillStatus/BillOverview/85055?SessionId=130",
+      "body_sha256": "f7b486e907badef5accfee89ac2ed49512357be2ee7628a50311932879357101",
+      "text_sha256": "c9c0fc969d66135beb8140b84eb2aa4e3372beda183b33c36e60ceeba3b7e398",
+      "body_observed_at": "2026-11-09T18:34:53.417051Z"
+    }
+  ]
+}
