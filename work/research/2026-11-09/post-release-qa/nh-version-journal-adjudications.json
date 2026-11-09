@@ -1,0 +1,81 @@
+{
+  "records": [
+    {
+      "id": "nh-hb1724-2026-lsr-26-2735",
+      "cohort": "remaining1552",
+      "current_row_sha256": "5a299a68b88591e8d69c8de00aca11f3b0deeaf8f38355c50a91223f19d6a9e0",
+      "recommendation": "corrected_resolved",
+      "remaining_questions": [],
+      "basis": "Previously verified introduced5MW/reporting text and independent failed disposition retained; actual June4Housejournal fails tosupport the claimed sine-die characterization and records call-of-chair adjournment. Remove the unsupported exactdate claim, retaining documented DIED,SESSIONENDED outcome without inventing replacement date.",
+      "retained_source_evidence": [
+        {
+          "url": "https://gc.nh.gov/bill_status/billinfo.aspx?id=1943&inflect=2",
+          "body_sha256": "3bc08ed4ec1f27b07a91dcf4cdada4390a858f08b79ed34ccf843b450f2e2eb4",
+          "text_sha256": "af56f4ae737596cdc145c80841889c4d74ef17f630c980683ff655b609797cd4",
+          "locator": "title, LSR, died session ended status, last listed action committee reports Feb 17"
+        }
+      ],
+      "new_source_evidence": [
+        {
+          "attempt_id": "19215d03b9d34dfda2d76637016c03e9",
+          "url": "https://gc.nh.gov/house/calendars_journals/viewer.aspx?fileName=journals%5C2026%5CHJ%2015%20June%204%2C%202026.pdf",
+          "status": 200,
+          "ok": true,
+          "body_sha256": "840913aab961e29d31f25b3cfef89c11dcd8c52cb9e460333f606f04de6d615f",
+          "text_sha256": "51e024034fc94e6e104a87d58a5263bbe81cfc5fb2a1e7a21bb9093cdd33a59d",
+          "body_observed_at": "2026-11-09T20:45:24.363585Z",
+          "record_id": "nh-hb1724-2026-lsr-26-2735",
+          "locator": "June4 HouseRecord printed/PDF pages35 and56; adopted early/late-session motion and actual final adjournment tocallChair"
+        }
+      ],
+      "reviewer": "root coordinator; targeted primary-source followup to retained independent assessments",
+      "reviewed_at": "2026-11-09T20:49:01.334748+00:00",
+      "prior_text_review_pointer": "nh-text-adjudications.json"
+    },
+    {
+      "id": "nh-sb439-2026-lsr-26-2236",
+      "cohort": "remaining1552",
+      "current_row_sha256": "b873f1678a34d4eee52d8cffcb548266a049ed01e8fe1136546f9e2a593e0f78",
+      "recommendation": "corrected_resolved",
+      "remaining_questions": [],
+      "basis": "Prior independent status/field assessment retained; actual introduced and Senate-amended2026 texts now inspected and version-specific clauses corrected. No enactment, adopted House amendment or fresh universal force assertion.",
+      "retained_source_evidence": [
+        {
+          "url": "https://gc.nh.gov/bill_status/billinfo.aspx?id=1435&inflect=2",
+          "body_sha256": "9aadfa78472bd54f735914b7b1d5309516a03f22098b829756fa8011008968f6",
+          "text_sha256": "bb6863fc5210e626b0357e95a88afd2785f6592709c681df1f63928d7cba14bb",
+          "locator": "title and LSR; Jan 29 Senate amendment, May 14 tabling, Aug 19 died on table session ended HJ16"
+        }
+      ],
+      "new_source_evidence": [
+        {
+          "attempt_id": "d3805090c7724f738be4d90da377fe6c",
+          "url": "https://gc.nh.gov/bill_status/legacy/bs2016/billText.aspx?sy=2026&id=1435&txtFormat=html",
+          "status": 200,
+          "ok": true,
+          "body_sha256": "f81cca19335f30daea229c9330735fa70d57f54d3a653e99e62d85ed37ff3be6",
+          "text_sha256": "883065b6caa0e69dfd5db6d9d645a9b7bf6235a9e8546ddf11313c0d5c093166",
+          "body_observed_at": "2026-11-09T20:44:37.770978Z",
+          "record_id": "nh-sb439-2026-lsr-26-2236",
+          "locator": "Senate-amended January29,2026/0176s; proposedRSA674:81\u201383"
+        },
+        {
+          "attempt_id": "4f04819caf3b4159b85a3cf0830bbee2",
+          "url": "https://gc.nh.gov/bill_Status/pdf.aspx?id=21986&q=billVersion",
+          "status": 200,
+          "ok": true,
+          "body_sha256": "f6deb00d775fb82153752c634fdda9525bc7d447846bdef4f04cab911ebbdf43",
+          "text_sha256": "8468c6edc9fbabcc9d2d2118cc189f9345b27b9ee69edf560d0513cd544b0a79",
+          "body_observed_at": "2026-11-09T20:45:39.256508Z",
+          "record_id": "nh-sb439-2026-lsr-26-2236",
+          "locator": "Introduced LSR26-2236; PDF pages2\u20133, proposedRSA674:81\u201384"
+        }
+      ],
+      "reviewer": "root coordinator; targeted primary-source followup to retained independent assessments",
+      "reviewed_at": "2026-11-09T20:49:01.334748+00:00"
+    }
+  ],
+  "whole_record_closures": 2,
+  "canonical_cells_changed": 2,
+  "scope": "Clear identified version/date assertion gaps with direct sources and correction; no replacement final-date or operative-zoning claim."
+}

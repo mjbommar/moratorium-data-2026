@@ -1,0 +1,66 @@
+{
+  "sources": [
+    {
+      "attempt_id": "d3805090c7724f738be4d90da377fe6c",
+      "url": "https://gc.nh.gov/bill_status/legacy/bs2016/billText.aspx?sy=2026&id=1435&txtFormat=html",
+      "status": 200,
+      "ok": true,
+      "body_sha256": "f81cca19335f30daea229c9330735fa70d57f54d3a653e99e62d85ed37ff3be6",
+      "text_sha256": "883065b6caa0e69dfd5db6d9d645a9b7bf6235a9e8546ddf11313c0d5c093166",
+      "body_observed_at": "2026-11-09T20:44:37.770978Z",
+      "record_id": "nh-sb439-2026-lsr-26-2236",
+      "locator": "Senate-amended January29,2026/0176s; proposedRSA674:81\u201383"
+    },
+    {
+      "attempt_id": "4f04819caf3b4159b85a3cf0830bbee2",
+      "url": "https://gc.nh.gov/bill_Status/pdf.aspx?id=21986&q=billVersion",
+      "status": 200,
+      "ok": true,
+      "body_sha256": "f6deb00d775fb82153752c634fdda9525bc7d447846bdef4f04cab911ebbdf43",
+      "text_sha256": "8468c6edc9fbabcc9d2d2118cc189f9345b27b9ee69edf560d0513cd544b0a79",
+      "body_observed_at": "2026-11-09T20:45:39.256508Z",
+      "record_id": "nh-sb439-2026-lsr-26-2236",
+      "locator": "Introduced LSR26-2236; PDF pages2\u20133, proposedRSA674:81\u201384"
+    },
+    {
+      "attempt_id": "19215d03b9d34dfda2d76637016c03e9",
+      "url": "https://gc.nh.gov/house/calendars_journals/viewer.aspx?fileName=journals%5C2026%5CHJ%2015%20June%204%2C%202026.pdf",
+      "status": 200,
+      "ok": true,
+      "body_sha256": "840913aab961e29d31f25b3cfef89c11dcd8c52cb9e460333f606f04de6d615f",
+      "text_sha256": "51e024034fc94e6e104a87d58a5263bbe81cfc5fb2a1e7a21bb9093cdd33a59d",
+      "body_observed_at": "2026-11-09T20:45:24.363585Z",
+      "record_id": "nh-hb1724-2026-lsr-26-2735",
+      "locator": "June4 HouseRecord printed/PDF pages35 and56; adopted early/late-session motion and actual final adjournment tocallChair"
+    },
+    {
+      "attempt_id": "f38edd8461224c129cbf67801f28e57f",
+      "url": "https://gc.nh.gov/house/calendars_journals/",
+      "status": 200,
+      "ok": true,
+      "body_sha256": "4c08e88454cc442c6d72fd030b9d00bef4cdefed49949a33004a0ddb63db78b0",
+      "text_sha256": "724d66030326e1068777a8c9cc59307cdb27fdad89ea00ffd3c630ef2f261613",
+      "body_observed_at": "2026-11-09T20:44:37.815920Z",
+      "record_id": null,
+      "locator": "Navigation capture; no bill outcome or adjournment fact promoted"
+    }
+  ],
+  "reviewer": "root coordinator direct version comparison and rendered journal review",
+  "findings": [
+    "SB439 introduced text proposesRSA674:81\u201384, with10percent on-site enterprise-computing exclusion, utility capacity confirmation, transit separation, noise and detailed design/siting standards.",
+    "Senate-amended January29/0176s print proposesRSA674:81\u201383, raises the on-site exclusion to25percent, states data centers are allowed in commercial/industrial districts subject tolocal land-use regulations, and retains board rulemaking with local legislative-body approval. The introduced prescriptive utility/noise/siting clauses are absent from this compared amended text.",
+    "June4 House journal page35 adopts a motion that adjournment be tocallChair; page56 records final adjournment tocallChair. It doesnot establish the earlier unqualified June4 sine-die characterization. Retained HB1724 docket independently labels the bill DIED, SESSION ENDED. Remove the unsupported exactdate characterization ratherthan invent a replacement date."
+  ],
+  "limitations": [
+    "No amendment is represented as enacted; House proposed amendment1807h is not treated as adopted or imported as Senate text.",
+    "No alternative exact final sine-die date is asserted from the June4journal.",
+    "SB439\u2019s retained August19 session-ended docket entry remains separate from the June4proceedings."
+  ],
+  "new_source_acquisitions": 4,
+  "http_reservations_cumulative": 8,
+  "http_cap": 8,
+  "visually_reviewed_pages": [
+    "SB439 introducedPDF2\u20133",
+    "June4HouseRecord35and56"
+  ]
+}

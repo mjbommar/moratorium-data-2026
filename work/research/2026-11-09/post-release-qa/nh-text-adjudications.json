@@ -69,11 +69,9 @@
     {
       "id": "nh-hb1724-2026-lsr-26-2735",
       "cohort": "remaining1552",
-      "current_row_sha256": "824d9c6bd5b07ab508c1eb2213bcc5381b8837de241660c407c1dfd08af7dda5",
-      "recommendation": "unresolved",
-      "remaining_questions": [
-        "Independently establish the exact June4,2026 sine-die date asserted in the status narrative; retained docket establishes DIED, SESSION ENDED, not that exact adjournment date."
-      ],
+      "current_row_sha256": "5a299a68b88591e8d69c8de00aca11f3b0deeaf8f38355c50a91223f19d6a9e0",
+      "recommendation": "corrected_resolved",
+      "remaining_questions": [],
       "resolved_questions": [
         "Actual introduced bill text recovered and detailed provision claims inspected."
       ],
@@ -99,7 +97,13 @@
         "locator": "Proposed378:37(II)(b)\u2013(e): annual reporting,5MW-or-more data-center generation-needs analysis and ratepayer-risk recommendations"
       },
       "reviewer": "root coordinator; source-specific followup to retained independent assessment",
-      "reviewed_at": "2026-11-09T20:42:29.393098+00:00"
+      "reviewed_at": "2026-11-09T20:42:29.393098+00:00",
+      "subsequent_review": "nh-version-journal-adjudications.json",
+      "row_guard_rebinding": {
+        "before_sha256": "824d9c6bd5b07ab508c1eb2213bcc5381b8837de241660c407c1dfd08af7dda5",
+        "after_sha256": "5a299a68b88591e8d69c8de00aca11f3b0deeaf8f38355c50a91223f19d6a9e0",
+        "application": "nh-version-journal-field-application.json"
+      }
     },
     {
       "id": "nh-hb1739-fn-2026-lsr-26-2699",
@@ -135,8 +139,8 @@
       "reviewed_at": "2026-11-09T20:42:29.393098+00:00"
     }
   ],
-  "whole_record_closures": 3,
+  "whole_record_closures": 4,
   "canonical_cells_changed": 3,
   "scope_membership_changes": 2,
-  "scope": "Named failed proposals; HB1724 retains the separate exact-adjournment-date hold."
+  "scope": "Original introduced-text reviews retained. Subsequent journal review clears HB1724 by correcting the unsupported exact-date characterization; no alternative exact final date asserted."
 }

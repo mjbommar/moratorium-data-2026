@@ -2,6 +2,8 @@
 
 ## Working QA after v2026.11.9.post1
 
+New Hampshire SB439’s introduced/Senate-amended clauses are now distinguished; HB1724’s unsupported June4sine-die characterization is removed after direct House-journal review. Two cells change and two scoped holds close. Current dispositions:1,461 unresolved,114 corrected-resolved,200 confirmed-unchanged. Status categories and scope membership remain unchanged. [Evidence](work/research/2026-11-09/post-release-qa/nh-version-journal-evidence.json).
+
 Four New Hampshire introduced texts support three summary clarifications and clear three QA holds. HB1722/HB1724 now have explicit data-center applicability: scope375 included,19 excluded,53 unresolved. Current dispositions:1,463 unresolved,112 corrected-resolved,200 confirmed-unchanged. No status-category changes. [Evidence](work/research/2026-11-09/post-release-qa/nh-introduced-text-evidence.json).
 
 HB2047/SB2584’s linked SA0665 expressly defines data-center facilities/equipment and incentive qualification, clearing analytical scope. Current scope: 373 included, 19 excluded, 55 unresolved. Refreshed history retains final-adoption uncertainty; no CSV or whole-record-disposition changes. [Evidence](work/research/2026-11-09/post-release-qa/tennessee-hb2047-evidence.json).

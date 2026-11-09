@@ -1,0 +1,54 @@
+{
+  "applied_at": "2026-11-09T20:47:43.980453+00:00",
+  "substantive_cells": 2,
+  "derived_cells": 0,
+  "changed_cells": 2,
+  "changed_records": 2,
+  "csv_before_sha256": {
+    "local_inventory": "062e8a9932b807538d512b53fba73fbbf7ecb64620a262500b8084a98c4a55f0",
+    "state_policy": "ba922d9293616afe1343d2ce5105a0b75e3793c8b218730484cdbad469408e84"
+  },
+  "csv_after_sha256": {
+    "local_inventory": "062e8a9932b807538d512b53fba73fbbf7ecb64620a262500b8084a98c4a55f0",
+    "state_policy": "b3b5c945169b97fd1094807f66e122b8c95f17c8f33ca18eb50fcc7c8c5ec180"
+  },
+  "scope_rebound_ids": [
+    "nh-hb1724-2026-lsr-26-2735",
+    "nh-sb439-2026-lsr-26-2236"
+  ],
+  "scope_registry_sha256": "53b772dab2fdc924b089f1e82679ec6152e3ca81da0ab223b8d056a13fd2c08d",
+  "changes": [
+    {
+      "dataset": "state_policy",
+      "id": "nh-hb1724-2026-lsr-26-2735",
+      "field": "status",
+      "before": "Died without a House floor vote; last docketed action 2026-02-17 (Science, Technology and Energy committee majority report Inexpedient to Legislate 10-8, minority report Ought to Pass with Amendment #2026-0737h); remained in House status 'Miscellaneous' with no further action through the 2026-06-04 sine die adjournment",
+      "after": "Official docket labels HB1724 DIED, SESSION ENDED; last listed committee action is February 17, 2026 (Science, Technology and Energy majority report Inexpedient to Legislate 10\u20138, minority Ought to Pass with Amendment 2026-0737h). The June 4 House journal records adjournment to the call of the chair; no exact final sine-die date is asserted from that journal.",
+      "kind": "substantive"
+    },
+    {
+      "dataset": "state_policy",
+      "id": "nh-sb439-2026-lsr-26-2236",
+      "field": "key_provisions",
+      "before": "As introduced, would add RSA 674:81-83, define data centers, and authorize municipalities to permit data centers in commercial or industrial zones with utility capacity confirmation, noise limits near residential districts, and design/siting standards. Senate amendment reportedly broadened the bill and NHMA opposed it because it would require municipalities to permit data centers on land that permits commercial or industrial uses.",
+      "after": "Introduced SB439 would add RSA 674:81\u201384, with a 10 percent on-site enterprise-computing exclusion, discretionary municipal permitting in commercial/industrial zones, and utility-capacity, transit-separation, noise and design/siting conditions. The Senate-amended January 29, 2026/0176s text instead proposes RSA 674:81\u201383, a 25 percent on-site exclusion, data centers allowed in commercial/industrial districts subject to local land-use regulations, and planning-board rulemaking with local legislative-body approval. The compared Senate text omits the introduced prescriptive utility/noise/siting clauses. These are distinct proposed versions, not enacted zoning rights; the later House proposed amendment is not treated as adopted.",
+      "kind": "substantive"
+    }
+  ],
+  "verify_rows": 979,
+  "row_transitions": [
+    {
+      "dataset": "state_policy",
+      "id": "nh-hb1724-2026-lsr-26-2735",
+      "before_sha256": "824d9c6bd5b07ab508c1eb2213bcc5381b8837de241660c407c1dfd08af7dda5",
+      "after_sha256": "5a299a68b88591e8d69c8de00aca11f3b0deeaf8f38355c50a91223f19d6a9e0"
+    },
+    {
+      "dataset": "state_policy",
+      "id": "nh-sb439-2026-lsr-26-2236",
+      "before_sha256": "1686bf519676cc36479228c8dbdd39f58b2b74319a4774a1e1d1776d04b9c40b",
+      "after_sha256": "b873f1678a34d4eee52d8cffcb548266a049ed01e8fe1136546f9e2a593e0f78"
+    }
+  ],
+  "scope": "Reviewed source observations, classification correction and explicit unresolved facts; all IDs retained. No current-law census asserted."
+}
