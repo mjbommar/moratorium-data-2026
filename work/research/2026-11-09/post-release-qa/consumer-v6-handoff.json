@@ -1,0 +1,355 @@
+{
+  "source_commit": "269572ee7573904c2f6d3858e3f48d29b37185b1",
+  "manifest_sha256": "d79a18a8ed292eefac373446f7e9c89fbadd090db4f5633b698ff8cc289fb821",
+  "expanded_snapshot": "8d1a4df738c50cb71a066c1dc755019f77c94c62fb089cad8a7a9153559f79bb",
+  "current_counts": {
+    "moratorium_records": 1328,
+    "state_policy_records": 448,
+    "ballot_measures": 57,
+    "retained_results": 64,
+    "current_results": 53,
+    "retained_events": 10,
+    "current_accepted_historical_events": 10,
+    "restriction_records": 2,
+    "measure_instrument_link_records": 1
+  },
+  "files": 2045,
+  "entries": 2226,
+  "verified_at": "2026-11-09T23:18:48.779293+00:00",
+  "consumer_verification": {
+    "handoff": {
+      "state": "verified",
+      "source_commit": "269572ee7573904c2f6d3858e3f48d29b37185b1",
+      "manifest_sha256": "d79a18a8ed292eefac373446f7e9c89fbadd090db4f5633b698ff8cc289fb821",
+      "expanded_snapshot": "8d1a4df738c50cb71a066c1dc755019f77c94c62fb089cad8a7a9153559f79bb",
+      "files": 2045,
+      "entries": 2226,
+      "checks": [
+        {
+          "command": [
+            "scripts/check_expanded_publication.py"
+          ],
+          "exit_code": 0,
+          "result": {
+            "state": "consistent",
+            "snapshot_sha256": "8d1a4df738c50cb71a066c1dc755019f77c94c62fb089cad8a7a9153559f79bb",
+            "generations_checked": 46,
+            "records": {
+              "jurisdictions": 52,
+              "elections": 51,
+              "ballot_measures": 57,
+              "measure_provisions": 52,
+              "measure_results": 64,
+              "local_restrictions": 2,
+              "instrument_events": 10,
+              "measure_instrument_links": 1,
+              "source_documents": 165,
+              "claims": 613,
+              "review_decisions": 2716,
+              "search_runs": 1,
+              "search_attempts": 3,
+              "search_sightings": 18,
+              "coverage_observations": 1
+            },
+            "scope": "Offline publication/receipt consistency only; no source reacquisition, renewed factual acceptance or current-force confirmation."
+          }
+        },
+        {
+          "command": [
+            "scripts/build_expanded_csv.py",
+            "--check"
+          ],
+          "exit_code": 0,
+          "result": {
+            "state": "matches",
+            "source_snapshot": "8d1a4df738c50cb71a066c1dc755019f77c94c62fb089cad8a7a9153559f79bb",
+            "projection_sha256": "099c003dec2ad3a6592e69f985c61cbcd7a7b2cc21577a4e5d96e7553d643694",
+            "csv_views": 18
+          }
+        },
+        {
+          "command": [
+            "scripts/build_policy_scope_exports.py",
+            "--check"
+          ],
+          "exit_code": 0,
+          "result": "policy-scope exports current"
+        }
+      ],
+      "checks_run": true,
+      "scope": "Pinned input integrity and offline publication consistency, not source reacquisition or downstream join acceptance."
+    },
+    "policy_semantics": {
+      "total_state_policy_actions": 448,
+      "total_state_bills": 427,
+      "state_policy_instrument_type_counts": {
+        "bill": 427,
+        "executive_order": 2,
+        "governor_directive": 1,
+        "legislative_amendment": 1,
+        "legislative_precursor": 3,
+        "legislative_resolution": 12,
+        "statute": 2
+      },
+      "top_states_by_bills": [
+        [
+          "Pennsylvania",
+          18
+        ],
+        [
+          "Virginia",
+          18
+        ],
+        [
+          "West Virginia",
+          18
+        ],
+        [
+          "Maryland",
+          16
+        ],
+        [
+          "New Jersey",
+          16
+        ],
+        [
+          "California",
+          14
+        ],
+        [
+          "South Dakota",
+          14
+        ],
+        [
+          "Arizona",
+          13
+        ],
+        [
+          "Iowa",
+          13
+        ],
+        [
+          "Michigan",
+          13
+        ],
+        [
+          "Minnesota",
+          12
+        ],
+        [
+          "Ohio",
+          12
+        ],
+        [
+          "Oklahoma",
+          12
+        ],
+        [
+          "Illinois",
+          11
+        ],
+        [
+          "Kansas",
+          11
+        ]
+      ],
+      "top_states_by_policy_actions": [
+        [
+          "Pennsylvania",
+          22
+        ],
+        [
+          "Virginia",
+          18
+        ],
+        [
+          "West Virginia",
+          18
+        ],
+        [
+          "Maryland",
+          17
+        ],
+        [
+          "New Jersey",
+          17
+        ],
+        [
+          "California",
+          14
+        ],
+        [
+          "Michigan",
+          14
+        ],
+        [
+          "South Dakota",
+          14
+        ],
+        [
+          "Arizona",
+          13
+        ],
+        [
+          "Iowa",
+          13
+        ],
+        [
+          "Kansas",
+          12
+        ],
+        [
+          "Minnesota",
+          12
+        ],
+        [
+          "Ohio",
+          12
+        ],
+        [
+          "Oklahoma",
+          12
+        ],
+        [
+          "Illinois",
+          11
+        ]
+      ]
+    },
+    "scope": "Authenticated reviewed inputs; historical downstream joins retain their cutoffs."
+  },
+  "index_verification": {
+    "tracked_files_and_symlinks_including_manifest": 2046,
+    "all_manifest_bytes_and_git_modes_match": true,
+    "manifest_sha256": "d79a18a8ed292eefac373446f7e9c89fbadd090db4f5633b698ff8cc289fb821"
+  },
+  "delta_from_v5": {
+    "source_commit": "269572ee7573904c2f6d3858e3f48d29b37185b1",
+    "baseline_source_commit": "f714c63c386f52d0ac768b5ea10e2255b6a5bdfb",
+    "changed_policy_rows": 5,
+    "changed_cells": 12,
+    "status_category_changes": 1,
+    "scope_membership_changes": 1,
+    "added_ids": [],
+    "removed_ids": [],
+    "local_csv_bytes_unchanged": true,
+    "changes": [
+      {
+        "id": "nj-a2774-s4304-2026-2027",
+        "cells": [
+          {
+            "field": "status",
+            "before": "A2774 introduced 2026-01-13 and referred to Assembly Science, Innovation and Technology Committee; no later Assembly action listed in official history captured 2026-11-05. That history identifies S4304 as identical; its separate Senate proceedings have not been verified.",
+            "after": "A2774 remains at its 2026-01-13 Assembly Science, Innovation and Technology referral. Separate S4304 was reported for second reading 2026-10-01, passed the Senate 38-0 on 2026-10-22, and was received in the Assembly and referred to Science, Innovation and Technology on 2026-10-29. Official history API observed 2026-11-09; Senate passage is not passage of A2774 or enactment."
+          },
+          {
+            "field": "bill_status_category",
+            "before": "in_committee",
+            "after": "passed_one_chamber"
+          },
+          {
+            "field": "last_action_date_iso",
+            "before": "2026-01-13",
+            "after": "2026-10-29"
+          }
+        ]
+      },
+      {
+        "id": "nj-a3966-2026-2027",
+        "cells": [
+          {
+            "field": "status",
+            "before": "Passed by the Assembly 2026-10-29 (76-0-1), after committee report and second reading 2026-10-22; March 16 committee report with amendments referred it to Appropriations. Official Assembly history identifies S4400 as identical; separate Senate proceedings not reviewed.",
+            "after": "A3966 passed the Assembly 76-0-1 on 2026-10-29 after an October 22 committee report/second reading; its March 16 committee amendments produced the first reprint. The official description lists S4400 as identical; separate S4400 history shows October 8 second reading and referral to Senate Budget and Appropriations. API histories observed 2026-11-09; no enactment established."
+          },
+          {
+            "field": "key_provisions",
+            "before": "Directs DEP to study short- and long-term effects of large-scale data center water use.",
+            "after": "First reprint proposes a DEP evaluation within one year after an enacted effective date of large-scale data-center water use, covering drinking-water systems, wastewater systems and the environment. DEP, consulting BPU, would establish coverage thresholds using water use, electric demand, size, cooling/computing capacity or other resource factors; the print sets no fixed MW cutoff. The study covers preceding three- and seven-year effects, permits specified data requests and estimates, and requires a report within 15 months after an enacted effective date. These are proposed duties."
+          }
+        ]
+      },
+      {
+        "id": "nj-a4769-2026-2027",
+        "cells": [
+          {
+            "field": "status",
+            "before": "Introduced 2026-03-19, referred to Assembly Telecommunications and Utilities Committee; no further action through 2026-07-31",
+            "after": "A4769 remains at its 2026-03-19 Assembly Telecommunications and Utilities referral. Separate S3639 remains at its 2026-02-24 Senate Economic Growth referral. Official histories observed 2026-11-09 show no later actions; no passage or enactment established."
+          },
+          {
+            "field": "key_provisions",
+            "before": "Requires certain State agencies to establish expedited approval and permitting procedures for artificial intelligence data centers powered by small modular nuclear reactors; a siting/permitting-track bill (companion S3639).",
+            "after": "Would require BPU, DCA and DEP to establish expedited approval and permitting procedures for AI data centers powered by on-site small modular nuclear reactors, with rules due within 12 months after an enacted effective date. Compared introduced A4769 and S3639 operative and statement text matches after whitespace normalization; their official description APIs do not list an identical-bill relationship. The text match is not a formal companion designation."
+          }
+        ]
+      },
+      {
+        "id": "nj-a5294-s4402-2026-2027",
+        "cells": [
+          {
+            "field": "status",
+            "before": "A5294 introduced 2026-06-18 and referred to Assembly Science, Innovation and Technology Committee; no later Assembly action listed in official history captured 2026-11-05. The page identifies S4402 as identical; its separate Senate history has not been verified.",
+            "after": "A5294 remains at its 2026-06-18 Assembly Science, Innovation and Technology referral. Separate S4402 was introduced and referred to Senate Community and Urban Affairs on 2026-06-04, its only displayed history action in the official API observed 2026-11-09. No passage or enactment is established."
+          }
+        ]
+      },
+      {
+        "id": "nj-a5462-2024-2025",
+        "cells": [
+          {
+            "field": "key_provisions",
+            "before": "The second reprint would have required utility tariff protections for other customers against costs from commercial large-load customers at centralized facilities with aggregate monthly demand exceeding 100 MW; facilities could be aggregated based on ownership, control and infrastructure. Qualifying data centers could be covered, but the final definition was not data-center-specific.",
+            "after": "Pocket-vetoed second reprint proposed utility tariffs for centralized commercial facilities with aggregate monthly demand over 100 MW, aggregable by ownership, control and infrastructure. Its final definition replaced the earlier data-center-specific language. Proposed safeguards included cost allocation, stranded-cost protection, financial guarantees covering at least 85% of requested service for at least 10 years, and security deposits, with BPU relaxation for sufficient operational flexibility or added energy/capacity. These failed-bill terms are not current tariff requirements."
+          },
+          {
+            "field": "policy_mechanism",
+            "before": "other",
+            "after": "utility_large_load_restriction"
+          },
+          {
+            "field": "scope_of_action",
+            "before": "unknown",
+            "after": "utility_grid"
+          },
+          {
+            "field": "primary_source_url",
+            "before": "",
+            "after": "https://pub.njleg.state.nj.us/Bills/2024/A5500/5462_R2.HTM"
+          }
+        ]
+      }
+    ]
+  },
+  "trusted_verifier_sha256": "7b05070929c964e2b4f9225cfb3a81ef4c52729633b3f86b421b2eee1d3b7364",
+  "scope": "Authenticated corrected working inputs only. Earlier snapshots, independent record QA and project-join acceptance remain separate.",
+  "consumer_commit": "1e7930c3a900261e1cd566be7840b3fe8d47027d",
+  "consumer_remote_main_verified": true,
+  "hosted_source_verification": {
+    "source_commit": "269572ee7573904c2f6d3858e3f48d29b37185b1",
+    "run_id": 42718665318,
+    "run_conclusion": "success",
+    "observed_at": "2026-11-09T23:18:12.185650+00:00",
+    "files": [
+      {
+        "path": "data/state_legislation.csv",
+        "status": 200,
+        "sha256": "27ed2162d54d599603d65ecc223758f1f4fb031b201b44777103ac8d206a3571",
+        "matches_source_269572ee": true
+      },
+      {
+        "path": "data/summary_stats.json",
+        "status": 200,
+        "sha256": "938a8b872a2842007f566d21ca63fdff68748ad1ceb64ac434e3e0ed2b889341",
+        "matches_source_269572ee": true
+      },
+      {
+        "path": "data/release_metadata.json",
+        "status": 200,
+        "sha256": "dc1f720ba516c76959a93216770b2f66eb4dce1ed738c9d92ca81560cf44f6fe",
+        "matches_source_269572ee": true
+      }
+    ]
+  },
+  "historical_other_consumers": "Six historical dispositions remain scoped as in consumer-v5-handoff.md; no new project joins or publication editions are implied."
+}

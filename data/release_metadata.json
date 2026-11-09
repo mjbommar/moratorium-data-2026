@@ -42,12 +42,11 @@
   "prior_published_source_commit": "71868989c954ed05c79a8992eda5cce0eb4519e8",
   "published_source_reference": "Release tag and manifest source_commit identify the exact qualified patch source.",
   "published_source_commit": "76493282e16a7ce94c8cd8eaa4e26f659e2c9735",
-  "pending_consumer_input_delta": {
-    "baseline_source_commit": "f714c63c386f52d0ac768b5ea10e2255b6a5bdfb",
-    "review": "work/research/2026-11-09/post-release-qa/new-jersey-history-review.md",
-    "changed_policy_rows": 5,
-    "changed_cells": 12,
-    "additional_review": "work/research/2026-11-09/post-release-qa/new-jersey-version-adjudications.json",
-    "second_additional_review": "work/research/2026-11-09/post-release-qa/new-jersey-a5462-adjudication.json"
+  "latest_consumer_handoff": {
+    "source_commit": "269572ee7573904c2f6d3858e3f48d29b37185b1",
+    "consumer_commit": "1e7930c3a900261e1cd566be7840b3fe8d47027d",
+    "manifest_sha256": "d79a18a8ed292eefac373446f7e9c89fbadd090db4f5633b698ff8cc289fb821",
+    "receipt": "work/research/2026-11-09/post-release-qa/consumer-v6-handoff.json",
+    "scope": "Current canonical input delivery; independent record QA and historical joins remain separate."
   }
 }
