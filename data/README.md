@@ -17,8 +17,8 @@ Canonical records and reproducible derived downloads for this project.
 ## State-policy scope downloads
 
 The raw state-policy CSV retains all 447 historical observations. The
-[reviewed inclusion export](policy-scope/reviewed-included.csv) contains 374
-observations explicitly included in infrastructure scope; 19 are excluded and 54
+[reviewed inclusion export](policy-scope/reviewed-included.csv) contains 373
+observations explicitly included in infrastructure scope; 19 are excluded and 55
 remain unresolved, with none unreviewed. The
 [annotated raw view](policy-scope/all-annotated.csv) preserves every observation
 and scope decision. The [candidate pool](policy-scope/not-explicitly-excluded-candidates.csv)

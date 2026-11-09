@@ -169,3 +169,7 @@ The [metadata extraction correction](residual-metadata-cleanup.json) removes 200
 [Source continuity](historical-party-source-continuity.json) separates twenty-four retained acquisition observations from the five new substantive party sources, preserves exact native body/text readbacks and records anonymous session/form techniques. Initial redirected/unrendered responses and operational failures supply no party evidence. The [preceding deployment check](colorado-term-hosted-verification.json) confirms six hosted files at `d83b417`.
 
 [Historical-party batch validation](historical-party-validation.json) confirms six exact guarded disposition changes, unchanged canonical CSV and scope-registry bytes, reconciled earlier/remaining cohorts, all 1,775 current IDs and 1,481 residual row fingerprints/questions. Nine focused checks pass. Headline classifications, maps, ballot tables and frozen release assets are unchanged.
+
+## Virginia and Wyoming followup applied
+
+[Primary sources and findings](va-wy-followup.md) confirm Thomas’s Democratic affiliation and identify Kevin Campbell, Republican. Two Wyoming sponsor/party cells remove speculation and retain the unresolved bill-listed Pearson attribution. A guarded append-only scope supersession changes Wyoming from include to unresolved: 373 included, 19 excluded, 55 unresolved, zero unreviewed. Virginia remains unresolved. Raw records, legislative stages and disposition totals are unchanged; the outstanding-question index now reflects these narrower gaps.
