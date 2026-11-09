@@ -1,7 +1,7 @@
 # Full raw-record review dispositions
 
 The [funnel](funnel.json) assigns one disposition to each of the **1,775 active raw IDs**:
-**1,439 unresolved, 130 corrected-resolved, 206 confirmed-unchanged, zero active superseded
+**1,427 unresolved, 130 corrected-resolved, 218 confirmed-unchanged, zero active superseded
 duplicates and zero not-attempted**. The original release reviewed 225 earlier and 1,552 remaining IDs. Post-release QA retires two source-proven duplicates, retaining its original row and permanent ID as an alias. The current funnel exactly covers the remaining 1,775 active IDs. This is
 bounded record/source accounting, not a universal current-law certification.
 
