@@ -1,13 +1,13 @@
 {
-  "version": "2026.11.8",
-  "release_date": "2026-11-08",
+  "version": "2026.11.9",
+  "release_date": "2026-11-09",
   "research_cutoff": "2026-11-07T13:38:39.877065+00:00",
   "source_observation_window": {
     "start": "2026-11-05",
-    "end": "2026-11-08"
+    "end": "2026-11-09"
   },
-  "asset_name": "moratorium-data-2026.11.8.tar.gz",
-  "coverage": "Nationwide discovery reused retained searches. A 225-record priority cohort received source-scoped primary and independent reconciliation; this is not a claim of newly verifying every raw record through the cutoff. Later captures retain their own observation dates.",
+  "asset_name": "moratorium-data-2026.11.9.tar.gz",
+  "coverage": "All 1777 raw records have primary and independent source-review artifacts. The remaining correction queue is applied with coordinator review and exact guards. Source-specific observation dates, bounded uncertainty and unperformed exhaustive later-force checks remain explicit; this is not a universal current-law census.",
   "limitations": [
     "Recorded active/extended classifications do not prove current enforceability.",
     "Ballot voting, certification, passage and operative legal effect remain distinct.",
@@ -15,6 +15,10 @@
     "Experimental model extraction/P4 has not passed; no experimental extraction output is accepted automatically.",
     "The companion April paper and dated sibling publications retain their historical editions."
   ],
-  "update_status": "incomplete_checkpoint",
-  "full_inventory_closeout": "in_progress"
+  "update_status": "prepared_pending_quality_gate_decision",
+  "full_inventory_closeout": "reviewed_and_applied",
+  "consumer_dispositions": "delivered_with_historical_editions_preserved",
+  "experimental_extractor": "failed_no_automatic_promotion",
+  "quality_gate_disposition": "pending_explicit_decision",
+  "reviewed_data_source_commit": "51352fd5d7a19aea5a1dee929162e143c2ca13d9"
 }

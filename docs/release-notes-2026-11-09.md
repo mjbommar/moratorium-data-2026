@@ -1,4 +1,4 @@
-# Prepared notes: comprehensive reviewed November update
+# Prepared v2026.11.9: comprehensive reviewed November update
 
 **Prepared, not published.** The successful experimental-extractor requirement and
 final release publication remain open. The existing `v2026.11.8` release stays an
