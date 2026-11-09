@@ -1,5 +1,22 @@
 # Changelog
 
+## Working QA after v2026.11.9.post2
+
+Current working snapshot: **1,328 local records**, **448 policy observations**, and **57 proposal/measure records** with **53 current result observations** (five certified).
+
+| Metric | Working QA after v2026.11.9.post2 |
+|---|---:|
+| Moratoria in the list | **1,328** |
+| Classified active or extended | **1,088** |
+| Pending or not yet effective | **64** |
+| Ended (replaced, expired, or rescinded) | **170** |
+| Rows we still want to confirm (`[VERIFY]`) | **979** |
+| States with at least one | **47** |
+
+These recorded classifications do not certify current enforceability. Published post2 assets retain their dated data; current main includes the subsequent corrections below.
+
+Illinois fresh histories confirm eleven recorded bill stages. Full637-page introduced HB5513/SB4016 text comparison and two filed amendment bodies resolve four version/history holds with four provision-narrative corrections; no category or scope membership changes. Seven successor-law questions remain open. Current dispositions:1,411 unresolved,139 corrected-resolved,226 confirmed-unchanged. [Review](work/research/2026-11-09/post-release-qa/illinois-adjudications.json).
+
 ## v2026.11.9.post2 — qualified publication, QA ongoing
 
 Published the current dataset and prose from `9174793a`, with ten hash-verified public assets and full clean-restore verification of 1,990 archive members. Relative to post1: seven local records change in 32 cells; 33 existing policy records change in 46 cells; one Massachusetts package is added; two existing status categories change. All 1,415 unresolved dispositions remain explicit. [Release notes and verification](work/research/2026-11-09/release-2026.11.9.post2/README.md).

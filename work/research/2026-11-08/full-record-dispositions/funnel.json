@@ -1,8 +1,8 @@
 {
   "event_cutoff_utc": "2026-11-07T13:38:39.877065Z",
   "counts": {
-    "unresolved": 1415,
-    "corrected_resolved": 135,
+    "unresolved": 1411,
+    "corrected_resolved": 139,
     "confirmed_unchanged": 226,
     "superseded_duplicate": 0,
     "not_attempted": 0
@@ -13,9 +13,9 @@
       "unresolved": 205
     },
     "remaining1552": {
-      "corrected_resolved": 135,
+      "corrected_resolved": 139,
       "confirmed_unchanged": 206,
-      "unresolved": 1209,
+      "unresolved": 1205,
       "superseded_duplicate": 0
     },
     "post_release_additions": {
@@ -8446,12 +8446,9 @@
     {
       "id": "il-hb5513-hyperscale-data-centers-power-act-companion",
       "dataset": "state_policy",
-      "disposition": "unresolved",
-      "public_receipt_pointer": "work/research/2026-11-08/full-inventory-integrated-application/README.md",
-      "residual_reference": {
-        "dataset": "state_policy",
-        "id": "il-hb5513-hyperscale-data-centers-power-act-companion"
-      },
+      "disposition": "corrected_resolved",
+      "public_receipt_pointer": "work/research/2026-11-09/post-release-qa/illinois-adjudications.json",
+      "residual_reference": null,
       "recorded_evidence_fingerprints_sha256": [
         "04b666c79c4354a00ad15bff18a00d9eda007d95b8cd198b89c36e15fe45cedc",
         "0d61ab63986f508949b27dd3cbff6a3faa694e2ca44643fbb8ba72828ff59d17",
@@ -8893,12 +8890,9 @@
     {
       "id": "il-sb3830-data-centers-various",
       "dataset": "state_policy",
-      "disposition": "unresolved",
-      "public_receipt_pointer": "work/research/2026-11-08/full-inventory-integrated-application/README.md",
-      "residual_reference": {
-        "dataset": "state_policy",
-        "id": "il-sb3830-data-centers-various"
-      },
+      "disposition": "corrected_resolved",
+      "public_receipt_pointer": "work/research/2026-11-09/post-release-qa/illinois-adjudications.json",
+      "residual_reference": null,
       "recorded_evidence_fingerprints_sha256": [
         "040017a58098eb57edc26aa469ddf23ef290cb75379a6e5166904dc1822fa8c9",
         "2326f46c8eb13dd6eb01d50ba7dd819126133c656df97b9a87519fc26147671b",
@@ -8916,12 +8910,9 @@
     {
       "id": "il-sb4004-aquifer-protection-act",
       "dataset": "state_policy",
-      "disposition": "unresolved",
-      "public_receipt_pointer": "work/research/2026-11-08/full-inventory-integrated-application/README.md",
-      "residual_reference": {
-        "dataset": "state_policy",
-        "id": "il-sb4004-aquifer-protection-act"
-      },
+      "disposition": "corrected_resolved",
+      "public_receipt_pointer": "work/research/2026-11-09/post-release-qa/illinois-adjudications.json",
+      "residual_reference": null,
       "recorded_evidence_fingerprints_sha256": [
         "171bf71b8145862709aa44a9aa6ae948a592206412ef7081f38fe56e88b1e85a",
         "647ec8891c96c2c187ef493a0f9ba917387f5156921bb0443081101366a03e7e",
@@ -8936,12 +8927,9 @@
     {
       "id": "il-sb4016-hyperscale-data-centers-power-act",
       "dataset": "state_policy",
-      "disposition": "unresolved",
-      "public_receipt_pointer": "work/research/2026-11-08/full-inventory-integrated-application/README.md",
-      "residual_reference": {
-        "dataset": "state_policy",
-        "id": "il-sb4016-hyperscale-data-centers-power-act"
-      },
+      "disposition": "corrected_resolved",
+      "public_receipt_pointer": "work/research/2026-11-09/post-release-qa/illinois-adjudications.json",
+      "residual_reference": null,
       "recorded_evidence_fingerprints_sha256": [
         "495aa185c8e93d30ce901ed31d38ddeac477f769d23aa0ae00a3f7e8d2d22ccd",
         "647ec8891c96c2c187ef493a0f9ba917387f5156921bb0443081101366a03e7e",
@@ -37846,6 +37834,42 @@
       "disposition": "corrected_resolved",
       "receipt": "work/research/2026-11-09/post-release-qa/new-jersey-a5462-adjudication.json",
       "scope": "Official second reprint supplies the missing final definition, strict demand threshold, aggregation and tariff safeguards. Retained final pocket-veto history is hash-verified. Scope inclusion is limited to the versioned infrastructure-policy observation; no enactment or facility-specific eligibility is claimed."
+    },
+    {
+      "reviewed_at": "2026-11-09T23:44:58.628889+00:00",
+      "id": "il-hb5513-hyperscale-data-centers-power-act-companion",
+      "cohort": "remaining1552",
+      "prior_disposition": "unresolved",
+      "disposition": "corrected_resolved",
+      "receipt": "work/research/2026-11-09/post-release-qa/illinois-adjudications.json",
+      "scope": "Recorded version/history question resolved; no current-force or exhaustive successor-law claim."
+    },
+    {
+      "reviewed_at": "2026-11-09T23:44:58.628889+00:00",
+      "id": "il-sb4016-hyperscale-data-centers-power-act",
+      "cohort": "remaining1552",
+      "prior_disposition": "unresolved",
+      "disposition": "corrected_resolved",
+      "receipt": "work/research/2026-11-09/post-release-qa/illinois-adjudications.json",
+      "scope": "Recorded version/history question resolved; no current-force or exhaustive successor-law claim."
+    },
+    {
+      "reviewed_at": "2026-11-09T23:44:58.628889+00:00",
+      "id": "il-sb3830-data-centers-various",
+      "cohort": "remaining1552",
+      "prior_disposition": "unresolved",
+      "disposition": "corrected_resolved",
+      "receipt": "work/research/2026-11-09/post-release-qa/illinois-adjudications.json",
+      "scope": "Recorded version/history question resolved; no current-force or exhaustive successor-law claim."
+    },
+    {
+      "reviewed_at": "2026-11-09T23:44:58.628889+00:00",
+      "id": "il-sb4004-aquifer-protection-act",
+      "cohort": "remaining1552",
+      "prior_disposition": "unresolved",
+      "disposition": "corrected_resolved",
+      "receipt": "work/research/2026-11-09/post-release-qa/illinois-adjudications.json",
+      "scope": "Recorded version/history question resolved; no current-force or exhaustive successor-law claim."
     }
   ]
 }

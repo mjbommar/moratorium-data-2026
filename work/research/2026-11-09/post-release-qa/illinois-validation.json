@@ -1,0 +1,89 @@
+{
+  "canonical_fields_changed": 4,
+  "changed_records": 4,
+  "status_category_changes": 0,
+  "scope_membership_changes": 0,
+  "ids_added": 0,
+  "ids_removed": 0,
+  "dispositions": {
+    "unresolved": 1411,
+    "corrected_resolved": 139,
+    "confirmed_unchanged": 226,
+    "superseded_duplicate": 0,
+    "not_attempted": 0
+  },
+  "checks": [
+    {
+      "command": [
+        "scripts/validate_dataset.py",
+        "--today",
+        "2026-11-09"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/build_policy_scope_exports.py",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/build_summary_stats.py",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/build_geojson.py",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/make_timeline.py",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/check_docs_numbers.py"
+      ],
+      "returncode": 0,
+      "qualification": "Passed after adding the current snapshot table to the new leading changelog section; other eight checks passed before that prose-only fix."
+    },
+    {
+      "command": [
+        "-m",
+        "scripts.generate_tables.inventory_clean",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/build_index.py",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/classify_sources.py",
+        "--check"
+      ],
+      "returncode": 0
+    }
+  ],
+  "dataset_errors": 0,
+  "dataset_warnings": 620,
+  "documented_numbers_matched": 95,
+  "native_exact_body_text_pairs": 13,
+  "retained_pairs_hash_checked": 26,
+  "source_archive_novelty": "Only the two newly inspected amendment documents add source-manifest rows. Fresh history captures match retained body/text pairs and are not counted as new independent sources.",
+  "pending_delivery": "Four provision cells in four policy records have not yet been handed to the integration consumer or added to immutable release assets."
+}
