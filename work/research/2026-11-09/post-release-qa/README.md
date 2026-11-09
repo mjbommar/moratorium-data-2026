@@ -173,3 +173,5 @@ The [metadata extraction correction](residual-metadata-cleanup.json) removes 200
 ## Virginia and Wyoming followup applied
 
 [Primary sources and findings](va-wy-followup.md) confirm Thomas’s Democratic affiliation and identify Kevin Campbell, Republican. Two Wyoming sponsor/party cells remove speculation and retain the unresolved bill-listed Pearson attribution. A guarded append-only scope supersession changes Wyoming from include to unresolved: 373 included, 19 excluded, 55 unresolved, zero unreviewed. Virginia remains unresolved. Raw records, legislative stages and disposition totals are unchanged; the outstanding-question index now reflects these narrower gaps.
+
+The [hosted verification](va-wy-hosted-verification.json) confirms six named public artifacts match source `287444e` byte for byte, including the corrected policy CSV, append-only scope registry, scope receipt, summary, release metadata and scope guidance. The two preceding Pages failures were terminal; the successful build serves the reviewed correction. This verifies publication of this increment, not completion of outstanding QA.
