@@ -1,5 +1,5 @@
 {
-  "scope": "Residual-accounting/source-question audit of 55 named terminal bills. A row fingerprint is a drift guard, not proof of all fields. No canonical cell changes. Accepted closure is bounded to the named record/source observations; other instruments and current law retain separate scope.",
+  "scope": "Residual-accounting/source-question audit of 55 named terminal bills. A row fingerprint is a drift guard, not proof of all fields. No canonical cell changes. Accepted closure is bounded to the named record/source observations; other instruments and current law retain separate scope. Kentucky followup retains the prior guarded questions and rebinds five corrected records to their current rows.",
   "review_artifact_sha256": {
     "part-01": "0310e0e89dc4e1f136d2b831144060014a06d5eeada41eb29346fa300ccd3388",
     "part-02": "ab788cc5f7d93196d082e56a8a18b09d395f81b89b9bc5bb43807accb94bafe7",
@@ -8,10 +8,10 @@
   },
   "counts": {
     "reviewed": 55,
-    "unresolved": 53,
+    "unresolved": 48,
     "confirmed_unchanged": 2,
-    "corrected_resolved": 0,
-    "canonical_field_changes": 0
+    "corrected_resolved": 5,
+    "canonical_field_changes": 7
   },
   "records": [
     {
@@ -93,12 +93,10 @@
     {
       "id": "ky-hb-372-2021-rs",
       "dataset": "state_policy",
-      "current_row_sha256": "76d90eaafafa016a1094c1a515e0683dfbe2eba3768b7b6c4255772644a7b9a2",
-      "recommendation": "unresolved",
-      "rationale": "Coordinator retains the party-source gap. The veto and FCCR1-qualified proposed endpoint are supported, and a separate successor-law survey or full EN/FCCR1 equivalence comparison is not required for those bounded claims. The inspected field ledger supplies guards and correction decisions rather than independent party proof.",
-      "remaining_questions": [
-        "Locate and verify retained historical party support for the four named 2021 sponsors. The inspected LRC bill history names the sponsors but contains no party affiliation; a matching 19-field row guard is not party-field evidence."
-      ],
+      "current_row_sha256": "fe8984acf9c807468de5e51cfbc9c36d98515ce97793c582b717c9edb578312f",
+      "recommendation": "corrected_resolved",
+      "rationale": "Official2021 directory directly supplies the only remaining four-sponsor historical party support.",
+      "remaining_questions": [],
       "separate_qualifications": [
         "Source observation dates are those recorded with the retained captures; no November 9 refresh or proof through the collection cutoff is implied.",
         "Separate successor bills require separate IDs; present regulatory framework and successor-law surveys are outside this instrument review.",
@@ -132,18 +130,26 @@
         }
       ],
       "review_part": "part-01",
-      "coordinator_override": "Decline whole-record closure; retain supported terminal/proposal findings."
+      "coordinator_override": "Source-supported direct followup resolves the named original hold; peer recommendation and original source findings remain preserved.",
+      "prior_question_review": {
+        "current_row_sha256": "76d90eaafafa016a1094c1a515e0683dfbe2eba3768b7b6c4255772644a7b9a2",
+        "recommendation": "unresolved",
+        "rationale": "Coordinator retains the party-source gap. The veto and FCCR1-qualified proposed endpoint are supported, and a separate successor-law survey or full EN/FCCR1 equivalence comparison is not required for those bounded claims. The inspected field ledger supplies guards and correction decisions rather than independent party proof.",
+        "remaining_questions": [
+          "Locate and verify retained historical party support for the four named 2021 sponsors. The inspected LRC bill history names the sponsors but contains no party affiliation; a matching 19-field row guard is not party-field evidence."
+        ],
+        "coordinator_override": "Decline whole-record closure; retain supported terminal/proposal findings."
+      },
+      "superseding_review_pointer": "work/research/2026-11-09/post-release-qa/kentucky-adjudications.json",
+      "field_application_pointer": "work/research/2026-11-09/post-release-qa/kentucky-field-application.json"
     },
     {
       "id": "ky-hb-544-2026-rs",
       "dataset": "state_policy",
-      "current_row_sha256": "79d1078823bdc629b78f68fc197fb66e7bac5fad64527706928a06f4b4f3b627",
-      "recommendation": "unresolved",
-      "rationale": "Retained evidence supports the bounded observations described in the source proof, but the following bill-specific field or disposition questions remain: Verify W. Lawrence party and district against a bill-specific source.; Establish the actual official terminal disposition; the retained docket ends with committee referral.",
-      "remaining_questions": [
-        "Verify W. Lawrence party and district against a bill-specific source.",
-        "Establish the actual official terminal disposition; the retained docket ends with committee referral."
-      ],
+      "current_row_sha256": "7515854e7489d85d0cd8bcd7908d05a8e678837756086d7ae27bb1368ba5e09e",
+      "recommendation": "corrected_resolved",
+      "rationale": "Official bill-specific sponsor join and current-year House roster resolve party/district; official2026 session source plus retained final history supports explicitly labeled nonpassage inference.",
+      "remaining_questions": [],
       "separate_qualifications": [
         "Source observation dates are those recorded with the retained captures; no November 9 refresh or proof through the collection cutoff is implied.",
         "Separate successor bills require separate IDs; present regulatory framework and successor-law surveys are outside this instrument review.",
@@ -176,18 +182,28 @@
           "acquired_at": "2026-11-05T23:37:34.054636Z"
         }
       ],
-      "review_part": "part-01"
+      "review_part": "part-01",
+      "prior_question_review": {
+        "current_row_sha256": "79d1078823bdc629b78f68fc197fb66e7bac5fad64527706928a06f4b4f3b627",
+        "recommendation": "unresolved",
+        "rationale": "Retained evidence supports the bounded observations described in the source proof, but the following bill-specific field or disposition questions remain: Verify W. Lawrence party and district against a bill-specific source.; Establish the actual official terminal disposition; the retained docket ends with committee referral.",
+        "remaining_questions": [
+          "Verify W. Lawrence party and district against a bill-specific source.",
+          "Establish the actual official terminal disposition; the retained docket ends with committee referral."
+        ],
+        "coordinator_override": null
+      },
+      "coordinator_override": "Source-supported direct followup resolves the named original hold; peer recommendation and original source findings remain preserved.",
+      "superseding_review_pointer": "work/research/2026-11-09/post-release-qa/kentucky-adjudications.json",
+      "field_application_pointer": "work/research/2026-11-09/post-release-qa/kentucky-field-application.json"
     },
     {
       "id": "ky-hb-593-2026-rs",
       "dataset": "state_policy",
-      "current_row_sha256": "2cd3a948c037ccf4ef1d3d2a6ac51791e4686e5fc2e20db25fb889739109a2ce",
-      "recommendation": "unresolved",
-      "rationale": "Retained evidence supports the bounded observations described in the source proof, but the following bill-specific field or disposition questions remain: Establish the actual official terminal disposition of HB 593; the retained docket ends with return to Senate committee.; Determine whether the recorded House substitute description accurately captures its relevant exceptions.",
-      "remaining_questions": [
-        "Establish the actual official terminal disposition of HB 593; the retained docket ends with return to Senate committee.",
-        "Determine whether the recorded House substitute description accurately captures its relevant exceptions."
-      ],
+      "current_row_sha256": "022a7c65581c85a1b78545dedc8360efb6a584dacb109d140310962a09dc2b2b",
+      "recommendation": "corrected_resolved",
+      "rationale": "Retained adopted House substitute directly resolves section-specific exceptions; official final session source and retained history support explicitly labeled nonpassage inference.",
+      "remaining_questions": [],
       "separate_qualifications": [
         "Source observation dates are those recorded with the retained captures; no November 9 refresh or proof through the collection cutoff is implied.",
         "Separate successor bills require separate IDs; present regulatory framework and successor-law surveys are outside this instrument review.",
@@ -220,17 +236,28 @@
           "acquired_at": "2026-11-05T23:37:34.054636Z"
         }
       ],
-      "review_part": "part-01"
+      "review_part": "part-01",
+      "prior_question_review": {
+        "current_row_sha256": "2cd3a948c037ccf4ef1d3d2a6ac51791e4686e5fc2e20db25fb889739109a2ce",
+        "recommendation": "unresolved",
+        "rationale": "Retained evidence supports the bounded observations described in the source proof, but the following bill-specific field or disposition questions remain: Establish the actual official terminal disposition of HB 593; the retained docket ends with return to Senate committee.; Determine whether the recorded House substitute description accurately captures its relevant exceptions.",
+        "remaining_questions": [
+          "Establish the actual official terminal disposition of HB 593; the retained docket ends with return to Senate committee.",
+          "Determine whether the recorded House substitute description accurately captures its relevant exceptions."
+        ],
+        "coordinator_override": null
+      },
+      "coordinator_override": "Source-supported direct followup resolves the named original hold; peer recommendation and original source findings remain preserved.",
+      "superseding_review_pointer": "work/research/2026-11-09/post-release-qa/kentucky-adjudications.json",
+      "field_application_pointer": "work/research/2026-11-09/post-release-qa/kentucky-field-application.json"
     },
     {
       "id": "ky-sb-319-2026-rs",
       "dataset": "state_policy",
-      "current_row_sha256": "ab14a8a5a76e31cc16173de0f2f5069b5509572bb05cc24943f1f6a040d725a8",
-      "recommendation": "unresolved",
-      "rationale": "Retained evidence supports the bounded observations described in the source proof, but the following bill-specific field or disposition questions remain: Establish the actual official terminal disposition of SB 319; the retained history ends at committee referral.",
-      "remaining_questions": [
-        "Establish the actual official terminal disposition of SB 319; the retained history ends at committee referral."
-      ],
+      "current_row_sha256": "db17b7625cbde2578d281c9153f8c65e5735c97164383f8f944a2bab00c041b1",
+      "recommendation": "corrected_resolved",
+      "rationale": "Official2026 session source and retained final referral history support the explicitly labeled session-end nonpassage inference, resolving the sole recorded terminal-source hold.",
+      "remaining_questions": [],
       "separate_qualifications": [
         "Source observation dates are those recorded with the retained captures; no November 9 refresh or proof through the collection cutoff is implied.",
         "Separate successor bills require separate IDs; present regulatory framework and successor-law surveys are outside this instrument review.",
@@ -263,17 +290,27 @@
           "acquired_at": "2026-11-05T23:37:34.054636Z"
         }
       ],
-      "review_part": "part-01"
+      "review_part": "part-01",
+      "prior_question_review": {
+        "current_row_sha256": "ab14a8a5a76e31cc16173de0f2f5069b5509572bb05cc24943f1f6a040d725a8",
+        "recommendation": "unresolved",
+        "rationale": "Retained evidence supports the bounded observations described in the source proof, but the following bill-specific field or disposition questions remain: Establish the actual official terminal disposition of SB 319; the retained history ends at committee referral.",
+        "remaining_questions": [
+          "Establish the actual official terminal disposition of SB 319; the retained history ends at committee referral."
+        ],
+        "coordinator_override": null
+      },
+      "coordinator_override": "Source-supported direct followup resolves the named original hold; peer recommendation and original source findings remain preserved.",
+      "superseding_review_pointer": "work/research/2026-11-09/post-release-qa/kentucky-adjudications.json",
+      "field_application_pointer": "work/research/2026-11-09/post-release-qa/kentucky-field-application.json"
     },
     {
       "id": "ky-sb-330-2026-rs",
       "dataset": "state_policy",
-      "current_row_sha256": "2859ec0b56302f83bd88c9db5e3f76ac3c84208dc57ba95a60c1511e790605fe",
-      "recommendation": "unresolved",
-      "rationale": "Retained evidence supports the bounded observations described in the source proof, but the following bill-specific field or disposition questions remain: Establish the actual official terminal disposition of SB 330; the retained history ends at committee referral.",
-      "remaining_questions": [
-        "Establish the actual official terminal disposition of SB 330; the retained history ends at committee referral."
-      ],
+      "current_row_sha256": "748a47f2e332b11bc563bc722575f403c3f4cac725df04efd29bdbbe33074fc0",
+      "recommendation": "corrected_resolved",
+      "rationale": "Official2026 session source and retained final referral history support the explicitly labeled session-end nonpassage inference, resolving the sole recorded terminal-source hold.",
+      "remaining_questions": [],
       "separate_qualifications": [
         "Source observation dates are those recorded with the retained captures; no November 9 refresh or proof through the collection cutoff is implied.",
         "Separate successor bills require separate IDs; present regulatory framework and successor-law surveys are outside this instrument review.",
@@ -306,7 +343,19 @@
           "acquired_at": "2026-11-05T23:37:34.054636Z"
         }
       ],
-      "review_part": "part-01"
+      "review_part": "part-01",
+      "prior_question_review": {
+        "current_row_sha256": "2859ec0b56302f83bd88c9db5e3f76ac3c84208dc57ba95a60c1511e790605fe",
+        "recommendation": "unresolved",
+        "rationale": "Retained evidence supports the bounded observations described in the source proof, but the following bill-specific field or disposition questions remain: Establish the actual official terminal disposition of SB 330; the retained history ends at committee referral.",
+        "remaining_questions": [
+          "Establish the actual official terminal disposition of SB 330; the retained history ends at committee referral."
+        ],
+        "coordinator_override": null
+      },
+      "coordinator_override": "Source-supported direct followup resolves the named original hold; peer recommendation and original source findings remain preserved.",
+      "superseding_review_pointer": "work/research/2026-11-09/post-release-qa/kentucky-adjudications.json",
+      "field_application_pointer": "work/research/2026-11-09/post-release-qa/kentucky-field-application.json"
     },
     {
       "id": "la-hb1206-2026-rs",
@@ -2171,5 +2220,12 @@
       ],
       "review_part": "part-03"
     }
-  ]
+  ],
+  "original_counts_before_kentucky_followup": {
+    "reviewed": 55,
+    "unresolved": 53,
+    "confirmed_unchanged": 2,
+    "corrected_resolved": 0,
+    "canonical_field_changes": 0
+  }
 }

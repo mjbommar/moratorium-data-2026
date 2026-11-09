@@ -1,0 +1,28 @@
+{
+  "admitted_at": "2026-11-09T21:39:39.545980+00:00",
+  "authorization_basis": "Standing user goal: six bounded HTTP retrievals for Kentucky2021 sponsor-party evidence,2026 sponsor identity/party and official session-end support. Reuse retained bill histories/texts. No paid APIs, browser, models or outreach.",
+  "target_record_ids": [
+    "ky-hb-372-2021-rs",
+    "ky-hb-544-2026-rs"
+  ],
+  "caps": {
+    "exa": 0,
+    "serpapi": 0,
+    "googlenews": 0,
+    "gdelt": 0,
+    "search_total": 0,
+    "fetch": 6
+  },
+  "initial_targets": [
+    "https://legislature.ky.gov/LRC/Publications/Documents/GA%20Directory%202021.pdf",
+    "https://apps.legislature.ky.gov/Legislators/hmembers_alpha.html",
+    "https://apps.legislature.ky.gov/record/26rs/record.html",
+    "https://apps.legislature.ky.gov/record/IndividualSponsorPages/472.html"
+  ],
+  "duplicate_check": "KY source manifest, CA-independent frozen nationwide ledger and KY001 request_url metadata checked. Named directory, roster, sponsor page and session-front-page URLs were not previously fetched; appearances as page links are not treated as captures. Existing bill-specific histories and text sources reused.",
+  "stop_conditions": [
+    "Six reserved HTTP client retrievals maximum, including failures.",
+    "Use2021 directory for2021 affiliations, never current roster as retrospective proof.",
+    "Session adjournment plus final bill history supports an explicitly stated inference, not an invented terminal docket label."
+  ]
+}

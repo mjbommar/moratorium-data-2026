@@ -1,0 +1,115 @@
+{
+  "applied_at": "2026-11-09T21:44:14.089004+00:00",
+  "substantive_cells": 7,
+  "derived_cells": 0,
+  "changed_cells": 7,
+  "changed_records": 5,
+  "csv_before_sha256": {
+    "local_inventory": "227f84fec56d59ee8c3dd15f0bda9dca099d83683fc845c556ae17b62365bb50",
+    "state_policy": "b3b5c945169b97fd1094807f66e122b8c95f17c8f33ca18eb50fcc7c8c5ec180"
+  },
+  "csv_after_sha256": {
+    "local_inventory": "227f84fec56d59ee8c3dd15f0bda9dca099d83683fc845c556ae17b62365bb50",
+    "state_policy": "f2e5daa294444e8b8635d520e6b32333b0adbfaaf743cc9a4b1c44c8c8cf26f5"
+  },
+  "scope_rebound_ids": [
+    "ky-hb-372-2021-rs",
+    "ky-hb-544-2026-rs",
+    "ky-hb-593-2026-rs",
+    "ky-sb-319-2026-rs",
+    "ky-sb-330-2026-rs"
+  ],
+  "scope_registry_sha256": "61a5365bf9385c97d3c6721eb091922f4be0ed5ebe8478995ffbd365d94ef566",
+  "changes": [
+    {
+      "dataset": "state_policy",
+      "id": "ky-hb-372-2021-rs",
+      "field": "party",
+      "before": "R (all four sponsors are members of the KY House Republican caucus per Ballotpedia/LRC)",
+      "after": "R (Phillip Pratt, Patrick Flannery, Melinda Gibbons Prunty and Russell Webber; official 2021 General Assembly directory, printed pages 38\u201339)",
+      "kind": "substantive"
+    },
+    {
+      "dataset": "state_policy",
+      "id": "ky-hb-544-2026-rs",
+      "field": "party",
+      "before": "D (Moore); R (Lawrence) \u2014 bipartisan introduction [VERIFY: precise district/affiliation for \"W. Lawrence\" not separately confirmed in captured records]",
+      "after": "D (Adam Moore, House District 45); R (William Lawrence, House District 70). Official House roster and Lawrence\u2019s 2026 bill-specific sponsorship page support the identity and affiliation.",
+      "kind": "substantive"
+    },
+    {
+      "dataset": "state_policy",
+      "id": "ky-hb-544-2026-rs",
+      "field": "status",
+      "before": "Died in House committee at 2026 RS sine die (2026-04-15); last recorded action 2026-02-10",
+      "after": "Inferred not passed before official 2026 regular-session sine die on 2026-04-15; retained official bill history ends with House Small Business and Information Technology referral on 2026-02-10. The inference is not a separately recorded terminal docket action.",
+      "kind": "substantive"
+    },
+    {
+      "dataset": "state_policy",
+      "id": "ky-hb-593-2026-rs",
+      "field": "status",
+      "before": "Passed House 2026-03-04 (90-8); died in Senate committee at 2026 RS sine die (2026-04-15); last recorded action 2026-03-31",
+      "after": "Passed House 2026-03-04 (90\u20138); retained official history ends with return to Senate Economic Development, Tourism, and Labor on 2026-03-31. The official final session page lists HB 593 among Senate bills with two readings and both chambers adjourned sine die 2026-04-15; failure to pass is inferred from those combined records.",
+      "kind": "substantive"
+    },
+    {
+      "dataset": "state_policy",
+      "id": "ky-hb-593-2026-rs",
+      "field": "key_provisions",
+      "before": "House-passed substitute would require qualifying data center electric service contracts, tariffs, at least $75,000 initial application fees and studies; dedicated resources for projected peak loads over 25 MW for municipal utilities and over 250 MW for regulated retail suppliers; and gas, water and wastewater cost protections, with section-specific exceptions.",
+      "after": "House-passed HCS1 would require qualifying data-center electric service contracts, tariffs, at least $75,000 initial application fees and studies, and dedicated resources for projected peak loads over 25 MW for municipal utilities and over 250 MW for regulated retail suppliers. Sections 1 and 3 exempt TVA distributors, DOE-site data centers and preexisting electric-service contracts. Sections 2 and 4 provide water, sewage and gas cost protections with an expressly stated DOE-site exception; do not extend the electric-contract or TVA exceptions uniformly to those sections. Proposed substitute text, not enacted requirements.",
+      "kind": "substantive"
+    },
+    {
+      "dataset": "state_policy",
+      "id": "ky-sb-319-2026-rs",
+      "field": "status",
+      "before": "Died in Senate Committee on Committees at 2026 RS sine die (2026-04-15); last recorded action 2026-03-02",
+      "after": "Inferred not passed before official 2026 regular-session sine die on 2026-04-15; retained official history ends with Senate Committee on Committees referral on 2026-03-02. The inference is not a separately recorded terminal docket action.",
+      "kind": "substantive"
+    },
+    {
+      "dataset": "state_policy",
+      "id": "ky-sb-330-2026-rs",
+      "field": "status",
+      "before": "Died in Senate Committee on Committees at 2026 RS sine die (2026-04-15); last recorded action 2026-03-02",
+      "after": "Inferred not passed before official 2026 regular-session sine die on 2026-04-15; retained official history ends with Senate Committee on Committees referral on 2026-03-02. The inference is not a separately recorded terminal docket action.",
+      "kind": "substantive"
+    }
+  ],
+  "verify_rows": 979,
+  "row_transitions": [
+    {
+      "dataset": "state_policy",
+      "id": "ky-hb-372-2021-rs",
+      "before_sha256": "76d90eaafafa016a1094c1a515e0683dfbe2eba3768b7b6c4255772644a7b9a2",
+      "after_sha256": "fe8984acf9c807468de5e51cfbc9c36d98515ce97793c582b717c9edb578312f"
+    },
+    {
+      "dataset": "state_policy",
+      "id": "ky-hb-544-2026-rs",
+      "before_sha256": "79d1078823bdc629b78f68fc197fb66e7bac5fad64527706928a06f4b4f3b627",
+      "after_sha256": "7515854e7489d85d0cd8bcd7908d05a8e678837756086d7ae27bb1368ba5e09e"
+    },
+    {
+      "dataset": "state_policy",
+      "id": "ky-hb-593-2026-rs",
+      "before_sha256": "2cd3a948c037ccf4ef1d3d2a6ac51791e4686e5fc2e20db25fb889739109a2ce",
+      "after_sha256": "022a7c65581c85a1b78545dedc8360efb6a584dacb109d140310962a09dc2b2b"
+    },
+    {
+      "dataset": "state_policy",
+      "id": "ky-sb-319-2026-rs",
+      "before_sha256": "ab14a8a5a76e31cc16173de0f2f5069b5509572bb05cc24943f1f6a040d725a8",
+      "after_sha256": "db17b7625cbde2578d281c9153f8c65e5735c97164383f8f944a2bab00c041b1"
+    },
+    {
+      "dataset": "state_policy",
+      "id": "ky-sb-330-2026-rs",
+      "before_sha256": "2859ec0b56302f83bd88c9db5e3f76ac3c84208dc57ba95a60c1511e790605fe",
+      "after_sha256": "748a47f2e332b11bc563bc722575f403c3f4cac725df04efd29bdbbe33074fc0"
+    }
+  ],
+  "scope": "Reviewed source observations, classification correction and explicit unresolved facts; all IDs retained. No current-law census asserted."
+}
