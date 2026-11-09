@@ -16,7 +16,7 @@ The earlier completion claim was wrong. `v2026.11.8` is now explicitly an **inco
 
 - [x] Apply 88 independently reviewed material corrections across 43 records from the first 105 additional-record reviews ([application](work/research/2026-11-08/full-inventory-first105-application/README.md)); remaining full-record review stays open.
 - [x] Apply the next 143 material corrections and six derived fields across 52 records ([application](work/research/2026-11-08/full-inventory-next90-application/README.md)); 231 material changes are applied across both batches.
-- [x] Account for all 1,552 remaining primary and independent review returns and all 119 targeted source follow-up returns ([checkpoint](work/research/2026-11-08/full-inventory-closeout/README.md)); coordinator acceptance and application remain separate open gates.
+- [x] Account for all 1,552 remaining primary and independent review returns and all 119 targeted source follow-up returns ([checkpoint](work/research/2026-11-08/full-inventory-closeout/README.md)); subsequent coordinator acceptance and application are complete in the [integrated receipt](work/research/2026-11-08/full-inventory-integrated-application/README.md).
 
 ### Completed checkpoint work, not overall completion
 
