@@ -197,3 +197,7 @@ The [hosted verification](va-wy-hosted-verification.json) confirms six named pub
 ## Wyoming retained-source followup applied
 
 [Previously captured bill bodies and 2026 rosters](wy-retained-review.md) resolve all nine HB0155 sponsor identities/roster affiliations, qualify HB0325’s source abbreviation and party assertions, and supersede its broad conditional-coverage inclusion with unresolved. Four cells and two append-only scope observations change; no new network request or whole-record closure. Current scope: 372 included, 19 excluded, 56 unresolved.
+
+## Nebraska retained sponsor-source followup applied
+
+[LB1111’s introduced print and retained official history](nebraska-retained-review.md) establish Cavanaugh/McKinney and Spivey’s January 20 addition. Two guarded cells replace an obsolete sponsor-source note and qualify the unverified inherited PRB-minutes assertion. The underlying minutes and provision-transfer comparison remain open; zero new acquisitions and no whole-record closure.

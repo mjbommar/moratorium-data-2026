@@ -729,3 +729,6 @@ Exit: repeatable refresh with visible freshness, costs, failures and unresolved 
 
 - [x] Reuse retained Wyoming bill bodies and 2026 rosters to resolve HB0155’s nine sponsor identities/roster affiliations; apply four guarded sponsor/party cells across two records and supersede HB0325 include with unresolved. Current scope is 372/19/56; zero new network acquisitions, no whole-record closure.
 - [x] Verify five Foley working artifacts served from `278ecbf`; Pages run `42682859495` succeeded.
+
+- [x] Resolve LB1111’s named sponsor observations from the retained introduced print and January 20 Spivey addition; qualify the inherited unverified PRB-minutes assertion. Two guarded fields, no new collection; underlying minutes and provision-transfer comparison remain open.
+- [x] Verify six Wyoming data/scope/guidance artifacts served from `a36e03c`; Pages run `42684163324` succeeded.

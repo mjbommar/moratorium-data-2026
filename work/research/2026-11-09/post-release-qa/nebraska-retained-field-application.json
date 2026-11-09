@@ -1,0 +1,47 @@
+{
+  "applied_at": "2026-11-09T19:36:35.062700+00:00",
+  "substantive_cells": 2,
+  "derived_cells": 0,
+  "changed_cells": 2,
+  "changed_records": 1,
+  "csv_before_sha256": {
+    "local_inventory": "062e8a9932b807538d512b53fba73fbbf7ecb64620a262500b8084a98c4a55f0",
+    "state_policy": "c957af2e87d9d615e4a9b263782c119f500c38db1512f880d77a716b2fcaa0f4"
+  },
+  "csv_after_sha256": {
+    "local_inventory": "062e8a9932b807538d512b53fba73fbbf7ecb64620a262500b8084a98c4a55f0",
+    "state_policy": "9f3d6596c2eb26f7ef7a59b87dcba31561a2ee84d1268c66af5afe8075bbb039"
+  },
+  "scope_rebound_ids": [
+    "ne-lb1111-2026"
+  ],
+  "scope_registry_sha256": "33aa264fb0588dd77f980365e77af60143e504cf03e1aa033aa169bf9e7a1f00",
+  "changes": [
+    {
+      "dataset": "state_policy",
+      "id": "ne-lb1111-2026",
+      "field": "sponsors",
+      "before": "Sen. Machaela Cavanaugh; additional cosponsors per earlier capture include Sen. McKinney and Sen. Spivey [VERIFY: full updated cosponsor list not extracted from a fresh capture as of 2026-04-29]",
+      "after": "Introduced print: Sen. Machaela Cavanaugh and Sen. McKinney; official history records Sen. Spivey added on 2026-01-20 (retained November 6 source versions).",
+      "kind": "substantive"
+    },
+    {
+      "dataset": "state_policy",
+      "id": "ne-lb1111-2026",
+      "field": "key_provisions",
+      "before": "Proposed annual data center load reporting to the Nebraska Power Review Board, public power service terms for large data centers, cost-shift protections, decommissioning resources, and community benefit agreements. PRB minutes state committee amendments removed the annual PRB data center report from the LB1010 package.",
+      "after": "Proposed annual data center load reporting to the Nebraska Power Review Board, public power service terms for large data centers, cost-shift protections, decommissioning resources, and community benefit agreements. An earlier record attributes removal of the annual PRB report from the LB1010 package to PRB minutes; the underlying minutes and amendment-level transfer have not been verified in this review.",
+      "kind": "substantive"
+    }
+  ],
+  "verify_rows": 979,
+  "row_transitions": [
+    {
+      "dataset": "state_policy",
+      "id": "ne-lb1111-2026",
+      "before_sha256": "14baba7ca2fa15870a4a02283ed93bf0f95c52fb5eb45f2a8c44691a9771241f",
+      "after_sha256": "f0d82ed5d23eb015bfb8a17975900558311937009e184b43ef0c17e8aacc84d5"
+    }
+  ],
+  "scope": "Reviewed source observations, classification correction and explicit unresolved facts; all IDs retained. No current-law census asserted."
+}
