@@ -1,0 +1,46 @@
+{
+  "observed_at": "2026-11-09T01:53:35.768670+00:00",
+  "scope": "Incremental full-inventory closeout evidence; not a release-completion receipt.",
+  "independent_batches": [
+    {
+      "batch": "independent-01a",
+      "records": 15,
+      "accepted_material_cells": 14,
+      "review_sha256": "f4d89d94d1e4c6f4f4500e6c4940af6ff93710bd918566cbcf76d91b73f1f45c",
+      "corrections_sha256": "b4c1feae48ec3c8e402607cc9827f1d28a47e2df3207237a056d057e61f11ac0",
+      "state": "accepted_for_integrated_application"
+    },
+    {
+      "batch": "independent-05a",
+      "records": 15,
+      "accepted_material_cells": 15,
+      "review_sha256": "9bc92a008938f67d7e00ebdec5681c5946db8d17261fb68576d5400f1af9dfdd",
+      "corrections_sha256": "bb081348a2c0a40f25b1fb231c6c68c1c63178370580151b6eceb9fd52b7c8de",
+      "state": "accepted_for_integrated_application"
+    },
+    {
+      "batch": "independent-05b",
+      "records": 15,
+      "accepted_material_cells": 19,
+      "review_sha256": "661b5b5a0f3a2f466f8f0b7cb7f618094491eadc6e4ddf04cc6f3e4345f5df2a",
+      "corrections_sha256": "ea033a7167e18eadd7a89c47a59ede4b5618ff815e5c24f142965aab85bcd1c2",
+      "state": "accepted_for_integrated_application"
+    }
+  ],
+  "coordinator_accepted_records": 45,
+  "accepted_material_cells": 48,
+  "additional_guarded_status_correction": {
+    "id": "ct-cromwell-undated",
+    "field": "enacted_status",
+    "before": "pending",
+    "after": "rejected",
+    "source_url": "https://cromwellct.gov/AgendaCenter/ViewFile/Minutes/_09242026-472",
+    "source_body_sha256": "9d6342217392630deaea53555def12beb9d64b15c6ecfa20f69a12ed82833fd3",
+    "finding": "Application 26-25 denied 5\u20132 on September 24. The later reported proposal has not been identified as the same application."
+  },
+  "new_native_source_versions_verified": 28,
+  "native_observation_readbacks": 28,
+  "historical_incomplete_manifest_rows_preserved": 8,
+  "canonical_application": false,
+  "full_closeout_complete": false
+}

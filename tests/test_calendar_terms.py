@@ -18,7 +18,7 @@ class CalendarTerms(unittest.TestCase):
             reader=csv.DictReader(f);fields=reader.fieldnames
             row=next(reader)
         row.update(duration_kind='calendar_term',duration_days='',current_end_date_iso='')
-        for status in ('active','extended','replaced','expired','rescinded','pending'):
+        for status in ('active','extended','replaced','expired','rescinded','pending','rejected'):
             row['enacted_status']=status
             report=validate.Report()
             validate.check_inventory([row],fields,dt.date(2026,11,5),report)
@@ -28,6 +28,16 @@ class CalendarTerms(unittest.TestCase):
         report=validate.Report()
         validate.check_inventory([row],fields,dt.date(2026,11,5),report)
         self.assertFalse(any(code=='duration.calendar_end_unverified' for code,_ in report.warnings))
+
+    def test_rejected_proposal_is_valid_without_adoption_date(self):
+        with (ROOT/'data/moratorium_inventory.csv').open() as f:
+            reader=csv.DictReader(f);fields=reader.fieldnames;row=next(reader)
+        row.update(enacted_status='rejected',date_enacted_iso='',
+                   date_enacted_uncertainty='unverified',current_end_date_iso='')
+        report=validate.Report()
+        validate.check_inventory([row],fields,dt.date(2026,11,5),report)
+        self.assertFalse(any(code=='vocab.enacted_status' for code,_ in report.errors))
+        self.assertFalse(any(code=='date.missing' for code,_ in report.warnings))
 
     def test_unknown_extension_endpoint_does_not_reuse_original_expiry(self):
         row={'enacted_status':'extended','duration_kind':'fixed_days','duration_days':'45',

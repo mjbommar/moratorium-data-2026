@@ -714,6 +714,7 @@
       <button data-filter="in-force">Recorded active / extended</button>
       <button data-filter="pending">Recorded pending</button>
       <button data-filter="past">Recorded past</button>
+      <button data-filter="rejected">Rejected proposals</button>
     </div>
   </div>
   <p style="font-size: 12px; color: var(--ink-soft); margin: -4px 0 22px;">Map shows 1289 of 1330 records. Two aggregate meta-rows ("Other Reported Local Moratoria, MI" and "Proposed or Rejected Local Pauses, MD") aren't real geographic points. Click any marker for jurisdiction details.</p>
@@ -850,6 +851,7 @@
     expired:   getComputedStyle(document.documentElement).getPropertyValue('--c-expired').trim(),
     rescinded: getComputedStyle(document.documentElement).getPropertyValue('--c-rescinded').trim(),
     pending:   getComputedStyle(document.documentElement).getPropertyValue('--c-pending').trim(),
+    rejected:  getComputedStyle(document.documentElement).getPropertyValue('--c-rescinded').trim(),
   };
   var STATUS_LABEL = {
     active:    'Recorded active',
@@ -858,11 +860,13 @@
     expired:   'Recorded expired',
     rescinded: 'Recorded rescinded',
     pending:   'Recorded pending',
+    rejected:  'Proposal rejected',
   };
   var FILTER_GROUPS = {
-    'all':      ['active','extended','replaced','expired','rescinded','pending'],
+    'all':      ['active','extended','replaced','expired','rescinded','pending','rejected'],
     'in-force': ['active','extended'],
     'pending':  ['pending'],
+    'rejected': ['rejected'],
     'past':     ['replaced','expired','rescinded'],
   };
 

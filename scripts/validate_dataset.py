@@ -46,7 +46,7 @@ JURISDICTION_TYPES = {
     "Aggregate meta-row",
 }
 ACTIVITY_LEVELS = {"None", "Low", "Medium", "High"}
-ENACTED_STATUSES = {"active", "extended", "replaced", "expired", "rescinded", "pending"}
+ENACTED_STATUSES = {"active", "extended", "replaced", "expired", "rescinded", "pending", "rejected"}
 DATE_UNCERTAINTY = {"exact", "month_only", "year_only", "range", "unverified"}
 DURATION_KINDS = {"fixed_days", "calendar_term", "until_date", "until_event", "indefinite", "unknown"}
 SECTORS = {"data_center", "battery_storage", "solar", "wind", "cryptocurrency_mining", "general"}
@@ -277,7 +277,7 @@ def check_inventory(rows: list[dict], fieldnames: list[str], today: dt.date, rep
                     rep.error("date.precision", f"{where}: day-precision date but uncertainty={unc}")
         else:
             # No ISO date is expected for pending instruments.
-            if row["enacted_status"] != "pending":
+            if row["enacted_status"] not in {"pending", "rejected"}:
                 rep.warn("date.missing", f"{where}: no date_enacted_iso on a non-pending row")
 
         current_end = row["current_end_date_iso"].strip()

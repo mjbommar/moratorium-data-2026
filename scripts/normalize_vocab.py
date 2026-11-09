@@ -51,7 +51,7 @@ VOCABS: dict[tuple[str, str], set[str]] = {
     },
     ("inventory", "activity_level"): {"None", "Low", "Medium", "High"},
     ("inventory", "enacted_status"): {
-        "active", "extended", "replaced", "expired", "rescinded", "pending",
+        "active", "extended", "replaced", "expired", "rescinded", "pending", "rejected",
     },
     ("legislation", "activity_level"): {"None", "Low", "Medium", "High"},
 }

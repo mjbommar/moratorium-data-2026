@@ -27,7 +27,7 @@ the working count is not a completed deduplicated instrument census.
 | `verify_count` | How many `[VERIFY]` flags remain on this row. | `2` |
 | `cite_count` | How many citation markers exist on this row (legacy field, often 0). | `0` |
 | `activity_level` | The state's overall moratorium-activity classification. **Closed vocabulary: `None`, `Low`, `Medium`, `High`.** | `High` |
-| `enacted_status` | **Closed-vocab status bucket** derived from the free-text fields. One of: `active`, `extended`, `replaced`, `expired`, `rescinded`, `pending`. See breakdown below. | `active` |
+| `enacted_status` | **Closed-vocab status bucket** derived from the free-text fields. One of: `active`, `extended`, `replaced`, `expired`, `rescinded`, `pending`, `rejected`. See breakdown below. | `active` |
 | `moratorium_id` | **Stable identifier** of the form `<state-abbrev>-<jurisdiction-slug>-<year>`, with `-pN` appended for explicitly-numbered phases (e.g., Oliver County) or `-N` appended for repeat instruments at the same jurisdiction in the same year. When no adoption year is established, the year segment is the literal `undated`. Use this column as a primary key when joining with future releases. | `mi-pittsfield-township-2025` |
 | `latitude` | WGS84 latitude of the jurisdiction's centroid. Geocoded via OSM Nominatim (with U.S. Census Geocoder fallback). For counties, the centroid is the county; for cities/towns/villages/townships, the centroid is the local government boundary. Six decimal places (~10 cm precision); blank if geocoding failed. | `42.238500` |
 | `longitude` | WGS84 longitude of the jurisdiction's centroid (see `latitude`). Negative for U.S. jurisdictions. | `-83.706940` |
@@ -50,6 +50,7 @@ This is the column most users want for filtering. The values:
 - **`replaced`** — recorded as replaced by a permanent ordinance
 - **`expired`** — recorded term has elapsed; later actions or replacement may remain unverified
 - **`rescinded`** — documented affirmative repeal; this does not establish that the original event-based endpoint had not already occurred
+- **`rejected`** — an existing tracked proposal was explicitly denied or defeated. Retained for identity and research history; it is neither an adopted moratorium nor a pending proposal. A later distinct proposal requires its own identity review.
 - **`pending`** — recorded as pending. This legacy category alone does not establish whether a vote has occurred or the current legal effect
 
 To filter to recorded active/extended classifications (not renewed legal-force findings):
@@ -66,7 +67,7 @@ non_pending = df[~df["enacted_status"].eq("pending")]
 
 ### Notes on the data
 
-- **What counts as a moratorium here.** The inventory records instruments that pause the *acceptance or approval of new development* — something that stops a project from being permitted. Three things that look similar are deliberately excluded: a **permanent** prohibition or zoning ban (not a pause); a **failed or tabled** proposal that never produced an instrument (nothing was adopted); and a freeze on **subsidy eligibility** rather than on permitting. On the last: Arizona HB 4168 s.31 froze new applications to the state data-center tax relief program for three years, which stops no construction and is recorded in `state_legislation.csv` instead. See `work/answers/rejected/` for the reasoning on excluded candidates.
+- **What counts as a moratorium here.** The inventory records instruments that pause the *acceptance or approval of new development* — something that stops a project from being permitted. Three things that look similar are deliberately excluded: a **permanent** prohibition or zoning ban (not a pause); a **failed or tabled** proposal that never produced an instrument (nothing was adopted; previously tracked rows remain identifiable as `rejected` when an explicit denial is verified); and a freeze on **subsidy eligibility** rather than on permitting. On the last: Arizona HB 4168 s.31 froze new applications to the state data-center tax relief program for three years, which stops no construction and is recorded in `state_legislation.csv` instead. See `work/answers/rejected/` for the reasoning on excluded candidates.
 - **Multi-sector instruments** (one ordinance covering data centers + solar + battery storage + wind) are recorded as one row. The `sectors` column gives a clean multi-label list; the `trigger`, `legal_basis`, and `outcome` text carry the prose.
 - **Several instruments adopted at once** are recorded as separate rows, because the grain of this table is the *instrument*, not the jurisdiction or the meeting. Shelby County, Iowa adopted four separate resolutions on 2026-03-17 — 2026-14 (solar), 2026-15 (battery storage), 2026-16 (data centers and cryptocurrency mining), and 2026-17 (wind) — and those are four rows sharing a date and a jurisdiction but differing in `legal_basis` and `sectors`. Deduplicate on `legal_basis`, not on jurisdiction alone.
 - **Extensions of the same instrument** (e.g., Resolution X adopts a 6-month moratorium, Resolution X-A extends it 6 more months) are recorded as updates to the original row's `current_status` and `enacted_status`, not as new rows.
@@ -159,7 +160,7 @@ Top-level keys:
 - `states_without_moratoria`: 3
 - `moratoria_with_verify_tags`: 782 — rows with at least one `[VERIFY]` flag remaining in any field (matches `has_verify_tags = True` in the inventory CSV)
 - `moratoria_without_verify_tags`: 548
-- `enacted_status_breakdown`: `{active, extended, replaced, expired, rescinded, pending}` — the breakdown of the 1330 working inventory rows by `enacted_status`
+- `enacted_status_breakdown`: `{active, extended, replaced, expired, rescinded, pending, rejected}` — the breakdown of the 1330 working inventory rows by `enacted_status`
 - `sweep_coverage`: which states received a systematic month-by-month sweep for the release's window, plus `swept_states_with_no_adoptions_in_window`. **Read this before interpreting a state's absence.** A state with no rows in a window may have been searched and found empty, or may never have been searched; the inventory alone cannot tell you which. Note that `swept_states_with_no_adoptions_in_window` is about the window, not the state's whole history -- Idaho appears there while still carrying a 2025 instrument. Generated from [`data/sweep_coverage.json`](../data/sweep_coverage.json)
 - `top_states_by_moratoria`: list of `{state, count}` objects, top 10 (fixed API shape; README prose includes all states tied at tenth)
 - `top_states_by_bills`: list of `[state_name, bill_count]` pairs, top 15
