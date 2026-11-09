@@ -1,0 +1,66 @@
+{
+  "manifest_sha256": {
+    "work/sources/CA/manifest.jsonl": "cb90e246e706507e1e2baefc890427902d29759d320498050ce543cdf4815e37"
+  },
+  "record_count": 2,
+  "eligible_verified_body_records": 2,
+  "gap_records": 0,
+  "issue_counts": {},
+  "migrated_records": 2,
+  "records": [
+    {
+      "manifest": "work/sources/CA/manifest.jsonl",
+      "line": 322,
+      "legacy_key": "e9574c0a5d2fe794-99c08b7d8590",
+      "row_sha256": "9593c1cfd8fb069f1ca2080ad66939c4b1877cb84d099bd2db9f62f691a85d2b",
+      "url": "https://irwindaleca.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=2317,plainText=false)",
+      "original_body_sha256": "99c08b7d859037a8d368bc3f37e9625e7c9998de61012c49c62b96ee6a206c75",
+      "original_text_sha256": "38468d0f5dcb5b330a3c6d21122ae6337f15ebff5f30baaac7bd7a6adef923ce",
+      "fetched_at": "2026-11-09T21:11:21.068724+00:00",
+      "published": false,
+      "payload": {
+        "path": "work/sources/CA/e9574c0a5d2fe794-99c08b7d8590.pdf",
+        "sha256": "99c08b7d859037a8d368bc3f37e9625e7c9998de61012c49c62b96ee6a206c75",
+        "bytes": 20653476
+      },
+      "text": {
+        "path": "work/sources/CA/e9574c0a5d2fe794-99c08b7d8590.txt",
+        "sha256": "38468d0f5dcb5b330a3c6d21122ae6337f15ebff5f30baaac7bd7a6adef923ce",
+        "bytes": 1515781
+      },
+      "missing_files": [],
+      "issues": [],
+      "observation_id": "ec843b6abcd18346",
+      "metadata_derivation_id": "3aaedbac20042020",
+      "text_derivation_id": "18933d4b8d2749e0"
+    },
+    {
+      "manifest": "work/sources/CA/manifest.jsonl",
+      "line": 323,
+      "legacy_key": "e7011380aed8af20-c4e0de165fde",
+      "row_sha256": "603130707aab3cc8beab3e4979f512f4f8a030899299dea5ab6dabf27e73c96a",
+      "url": "https://irwindaleca.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=2371,plainText=false)",
+      "original_body_sha256": "c4e0de165fdebcfc86f7f2c329bfdfa086853d9c219c940c9a807b31df3924a2",
+      "original_text_sha256": "3a69d77e324fce024f1e207490cc824384271313f3f853da5673502ede85eb0f",
+      "fetched_at": "2026-11-09T21:11:46.388183+00:00",
+      "published": false,
+      "payload": {
+        "path": "work/sources/CA/e7011380aed8af20-c4e0de165fde.pdf",
+        "sha256": "c4e0de165fdebcfc86f7f2c329bfdfa086853d9c219c940c9a807b31df3924a2",
+        "bytes": 19345558
+      },
+      "text": {
+        "path": "work/sources/CA/e7011380aed8af20-c4e0de165fde.txt",
+        "sha256": "3a69d77e324fce024f1e207490cc824384271313f3f853da5673502ede85eb0f",
+        "bytes": 676099
+      },
+      "missing_files": [],
+      "issues": [],
+      "observation_id": "48be974a1c6a68d7",
+      "metadata_derivation_id": "42ff09f424a74e8c",
+      "text_derivation_id": "43f65b1ce73721b4"
+    }
+  ],
+  "scope": "Exact retained primary PDF body and reviewed layout text replay; no new requests or automatic factual promotion.",
+  "exact_body_and_text_readbacks": 2
+}

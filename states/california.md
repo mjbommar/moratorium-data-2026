@@ -3,7 +3,7 @@
 
 Working inventory for California, generated **November 9, 2026**. Record-level refresh and later-action review remain incomplete.
 
-**34 records** — 25 classified as active or extended, 0 classified as pending, 9 classified as past, 0 classified as rejected proposals, 0 classified as unknown.
+**34 records** — 25 classified as active or extended, 0 classified as pending, 8 classified as past, 0 classified as rejected proposals, 1 classified as unknown.
 
 These counts reflect inventory classifications and do not establish current enforceability.
 
@@ -27,7 +27,7 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 | Imperial | City | 2026-06-03 | data center, battery storage | 🟢 Extended |
 | Imperial County | County | 2026-06-16 | data center | 🔴 Rescinded |
 | Indio | City | 2026-06-03 | data center | 🟢 Extended |
-| Irwindale | City | Unverified | data center | ⚪ Replaced |
+| Irwindale | City | Unverified | data center | ❔ Unknown |
 | Lake Elsinore | City | 2026-08-25 | data center | 🟢 Extended |
 | Los Angeles County | County | 2026-09-17 | data center | 🟢 Active |
 | Mendocino County | County | 2026-09-01 | data center, cryptocurrency mining | 🟢 Extended |
@@ -307,18 +307,18 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 ### Irwindale
 
 - **Type:** City
-- **Recorded status:** ⚪ Replaced
-- **Date enacted:** Draft Urgency Ordinance 819 was scheduled for a City Council public hearing and possible four-fifths adoption vote on 2026-05-27; whether it was adopted that day is unconfirmed
+- **Recorded status:** ❔ Unknown
+- **Date enacted:** Proposed Urgency Ordinance 819 was pulled from the May 27, 2026 City Council agenda and was not considered, according to the published minutes; no moratorium adoption date is established
 - **Normalized date:** `—` (unverified)
-- **Duration:** Draft ordinance proposed a 45-day moratorium on processing, approving, or accepting new data center applications and on converting existing facilities into data centers
+- **Duration:** The unadopted May 27 proposal specified a 45-day moratorium on new data center applications and conversions; no operative 45-day term is established by the reviewed minutes
 - **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `ca-irwindale-undated`
-- **Legal basis:** Draft Urgency Ordinance 819 proposed a 45-day moratorium for the May 27, 2026 hearing; its adoption remains unconfirmed. A CEQA notice describes proposed Ordinance 821 adding Chapter 17.42 to Title 17 to prohibit AI data center land uses citywide. The September 16 San Gabriel Valley Tribune reports a first reading on August 26, unanimous adoption September 9 and an October 9, 2026 effective date for Ordinance 821. The enacted text and any legal supersession of 819 remain unverified.
+- **Legal basis:** Proposed Urgency Ordinance 819 was pulled and not considered on May 27, 2026 (regular minutes item 21A). Published September 9 regular minutes item 19C confirm second-reading adoption of Ordinance 821 adding Chapter 17.42 to prohibit data-center land uses citywide, within the unanimously approved consent calendar. These minutes establish the permanent-ban adoption, not that an adopted temporary moratorium was legally replaced. Authenticated operative text and publication remain unverified.
 - **What prompted it:** Proposed pause on new and converted data center applications
 - **Affected projects:** —
-- **Detailed status:** The May 27, 2026 agenda proposed Urgency Ordinance 819; its disposition remains unconfirmed. The San Gabriel Valley Tribune reported September 16 that Ordinance 821 received a first reading August 26, was unanimously approved September 9, and would take effect October 9, 2026. The August 28 CEQA notice describes its proposed AI data-center zoning prohibition. The enacted text and any legal relationship to 819 remain unverified. [VERIFY adoption and disposition of Ordinance 819, enacted text and operative effect of Ordinance 821, and their legal relationship.]
-- **Outcome:** —
+- **Detailed status:** The May 27, 2026 minutes confirm proposed moratorium Ordinance 819 was pulled and not considered. The September 9 minutes directly confirm adoption of the separate permanent data-center prohibition, Ordinance 821. The September 16 San Gabriel Valley Tribune reports an October 9 effective date; that date is not independently established by the reviewed minutes. [VERIFY any later disposition of proposed Ordinance 819 and authenticated Ordinance 821 operative text and publication; do not infer replacement of an adopted moratorium.]
+- **Outcome:** Temporary moratorium proposal not considered at the May 27 meeting; a separate permanent data-center ban was adopted September 9. No adoption or legal replacement of the temporary restriction is established.
 
 ### Lake Elsinore
 

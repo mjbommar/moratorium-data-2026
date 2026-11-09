@@ -1,0 +1,35 @@
+{
+  "reviewed_at": "2026-11-09T21:13:00.548698+00:00",
+  "sources": [
+    {
+      "attempt_id": "4bc86eaeea424c40b4afb837863eabbe",
+      "url": "https://irwindaleca.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=2317,plainText=false)",
+      "body_sha256": "99c08b7d859037a8d368bc3f37e9625e7c9998de61012c49c62b96ee6a206c75",
+      "automatic_text_sha256": "4edff0f81cb2506e86e4a4c9925542262499592ae985d6402c0daba80928947c",
+      "reviewed_text_sha256": "38468d0f5dcb5b330a3c6d21122ae6337f15ebff5f30baaac7bd7a6adef923ce",
+      "body_observed_at": "2026-11-09T21:11:10.125870Z",
+      "event_date": "2026-05-27",
+      "locator": "July 22 agenda packet PDF page55 / May27 regular minutes page4, item21A; PDF page52 changes to agenda"
+    },
+    {
+      "attempt_id": "40ce3086aa48454c9cce95b0df6b0fb3",
+      "url": "https://irwindaleca.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=2371,plainText=false)",
+      "body_sha256": "c4e0de165fdebcfc86f7f2c329bfdfa086853d9c219c940c9a807b31df3924a2",
+      "automatic_text_sha256": "1db3af6c02144113b34c08ff312f3319fa838f6ecadcc9a7b301f331d56a3a21",
+      "reviewed_text_sha256": "3a69d77e324fce024f1e207490cc824384271313f3f853da5673502ede85eb0f",
+      "body_observed_at": "2026-11-09T21:11:10.076350Z",
+      "event_date": "2026-09-09",
+      "locator": "September23 agenda packet PDF page11 / September9 regular minutes page2, consent item19C and unanimous consent motion"
+    }
+  ],
+  "findings": [
+    "May27 proposed urgency Ordinance819 was pulled and not considered; this does not establish rejection or any subsequent adoption.",
+    "September9 minutes record unanimous consent approval and second-reading adoption of Ordinance821 prohibiting data-center land uses citywide.",
+    "These are minutes embedded in later agenda packets, not standalone signed ordinances. No independent approval date for the minutes is asserted.",
+    "Replaced status for the proposed moratorium is unsupported: no adopted temporary restriction has been established. Correct to unknown, retaining the proposal and separate permanent-ban history."
+  ],
+  "remaining_questions": [
+    "Check any later disposition of819 and authenticated821 operative text/publication; September9 adoption is established, but October9 remains attributed secondary reporting."
+  ],
+  "scope": "Two new primary captures; named pages reviewed directly; no universal later-force certification."
+}

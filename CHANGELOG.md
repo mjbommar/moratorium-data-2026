@@ -2,6 +2,8 @@
 
 ## Working QA after v2026.11.9.post1
 
+Irwindale’s city minutes establish that proposed moratorium819 was pulled and not considered May27, while permanent ban821 was adopted September9. Correct the unsupported moratorium “replaced” label to “unknown” and clarify five narrative fields. Current local categories:81 replaced,170 past,4 unknown; active/extended and pending counts unchanged. Exact821 operative text/publication and any later819 disposition remain held. [Evidence](work/research/2026-11-09/post-release-qa/irwindale-followup-evidence.json).
+
 Covina’s published minutes confirm September16,2025 adoption of BESS Ordinance25-10,5–0; the codepublisher records repeal of25-04. The city now reports the separate EdnaPlace application was withdrawnOctober27,2026. Five local fields change; exact repeal-effectiveness/publication remains unverified and no headline/status category changes. [Sources and limits](work/research/2026-11-09/post-release-qa/covina-followup-evidence.json).
 
 New Hampshire SB439’s introduced/Senate-amended clauses are now distinguished; HB1724’s unsupported June4sine-die characterization is removed after direct House-journal review. Two cells change and two scoped holds close. Current dispositions:1,461 unresolved,114 corrected-resolved,200 confirmed-unchanged. Status categories and scope membership remain unchanged. [Evidence](work/research/2026-11-09/post-release-qa/nh-version-journal-evidence.json).
@@ -70,7 +72,7 @@ Current working snapshot: **1,328 local records**, **447 policy observations**, 
 | Moratoria in the list | **1,328** |
 | Classified active or extended | **1,088** |
 | Pending or not yet effective | **64** |
-| Ended (replaced, expired, or rescinded) | **171** |
+| Ended (replaced, expired, or rescinded) | **170** |
 | Rows we still want to confirm (`[VERIFY]`) | **979** |
 | States with at least one | **47** |
 

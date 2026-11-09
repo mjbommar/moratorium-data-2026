@@ -1,0 +1,25 @@
+{
+  "admitted_at": "2026-11-09T21:11:07.785147+00:00",
+  "authorization_basis": "Standing user goal; six bounded HTTP retrievals for named Irwindale 819 disposition and 821 adoption/text questions. No paid APIs, models, browser or outreach.",
+  "target_record_ids": [
+    "ca-irwindale-undated"
+  ],
+  "caps": {
+    "exa": 0,
+    "serpapi": 0,
+    "googlenews": 0,
+    "gdelt": 0,
+    "search_total": 0,
+    "fetch": 6
+  },
+  "initial_targets": [
+    "https://irwindaleca.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=2317,plainText=false)",
+    "https://irwindaleca.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=2371,plainText=false)"
+  ],
+  "duplicate_check": "Neither named file ID appears in frozen nationwide retrieval ledger; existing May agenda/event, CEQA and Tribune evidence reused. Cities Index discovered these specific city-file links; its automated conclusions are leads only.",
+  "stop_conditions": [
+    "Six client retrievals including failures; no automatic extension.",
+    "Do not equate packet draft with executed ordinance.",
+    "Do not equate pulled hearing with rejection or later nonadoption."
+  ]
+}

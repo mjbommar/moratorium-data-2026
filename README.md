@@ -16,7 +16,7 @@ This is the open companion dataset for the working paper *Moratorium Nation: A S
 > Includes the reviewed November 6 Seattle duplicate retirement; both original IDs remain resolvable.
 > Working-source review now covers all 1,777 raw records with primary and independent artifacts. [The integrated application](work/research/2026-11-08/full-inventory-integrated-application/README.md) records applied corrections, zero pending cells in the reviewed queue, full consistency checks and selected hosted verification. Status dates vary; bounded source review does not establish universal current legal force. The published November 8 checkpoint retains its older coverage.
 >
-> 🟢 **1088 classified active or extended** (current legal force remains record-specific) · 🟡 **64 classified pending** · ⚪ **171 classified past** (recorded as expired, replaced, or rescinded) · **2 rejected proposals retained** · **3 with unknown recorded stage**
+> 🟢 **1088 classified active or extended** (current legal force remains record-specific) · 🟡 **64 classified pending** · ⚪ **170 classified past** (recorded as expired, replaced, or rescinded) · **2 rejected proposals retained** · **4 with unknown recorded stage**
 >
 > Leading states by total records: Ohio (160), New York (152), Michigan (148), Georgia (71), North Carolina (70), Iowa (60), Tennessee (46), Washington (43), Wisconsin (40), Florida (35), Indiana (35). Florida and Indiana tie for tenth.
 >
@@ -81,7 +81,7 @@ Working snapshot during the **November 5, 2026** refresh (record-level source da
 - **1328 moratorium records** tracked in our working inventory
   - **1088 classified active or extended** (891 active + 197 extended)
   - **64 classified pending**
-  - **82 classified replaced**
+  - **81 classified replaced**
   - **77 classified expired**
   - **12 classified rescinded**; earlier event-based expiry may remain unresolved
 - **47 states** have at least one moratorium. We searched the other **3 states** (Hawaii, West Virginia, and Wyoming) and found none. Alaska, Arizona, Delaware, Rhode Island, and Vermont joined the list in the September 2026 update

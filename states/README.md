@@ -5,9 +5,9 @@ _Working inventory generated November 9, 2026; record-level refresh remains inco
 
 - 🟢 **1088 classified as active or extended**
 - 🟡 **64 classified as pending**
-- ⚪ **171 classified as past** (expired, replaced, or rescinded)
+- ⚪ **170 classified as past** (expired, replaced, or rescinded)
 - 🔴 **2 rejected proposals retained**
-- ❔ **3 with unknown status**
+- ❔ **4 with unknown status**
 
 These counts reflect inventory classifications and do not establish current enforceability.
 
@@ -28,7 +28,7 @@ State-policy records, including bills, resolutions, precursor memos and binding 
 | [Wisconsin](wisconsin.md) | 40 | 39 | 1 | 0 | 0 | 0 |
 | [Florida](florida.md) | 35 | 31 | 3 | 1 | 0 | 0 |
 | [Indiana](indiana.md) | 35 | 24 | 4 | 7 | 0 | 0 |
-| [California](california.md) | 34 | 25 | 0 | 9 | 0 | 0 |
+| [California](california.md) | 34 | 25 | 0 | 8 | 0 | 1 |
 | [Colorado](colorado.md) | 34 | 27 | 1 | 6 | 0 | 0 |
 | [Kentucky](kentucky.md) | 34 | 31 | 1 | 1 | 0 | 1 |
 | [Illinois](illinois.md) | 33 | 28 | 2 | 3 | 0 | 0 |
