@@ -12,7 +12,7 @@ State policy is tracked separately: **8 records** (8 typed bill rows) in [`state
 | Jurisdiction | Type | Enacted | Sectors | Recorded status |
 |---|---|---|---|---|
 | Allen County | County | Unverified | data center | 🟢 Active |
-| Ashland | City | 2026-02 | data center | ❔ Unknown |
+| Ashland | City | 2026-02-26 | data center | ❔ Unknown |
 | Bell County | County | 2026-07-02 | data center | 🟢 Active |
 | Boyd County Fiscal Court | County | 2026-07-21 | data center | 🟢 Active |
 | Boyle County | County | 2026-06-09 | data center | 🟢 Active |
@@ -68,9 +68,9 @@ State policy is tracked separately: **8 records** (8 typed bill rows) in [`state
 
 - **Type:** City
 - **Recorded status:** ❔ Unknown
-- **Date enacted:** A July 23 report says the city imposed a moratorium in February 2026. February 26 is the date of a WSAZ headline, not a verified adoption date; the original instrument and precise vote date remain unverified.
-- **Normalized date:** `2026-02` (month_only)
-- **Duration:** July 23, 2026 reporting described a six-month moratorium imposed in February and expected to end in August. The original ordinance, exact operative dates and any early termination remain unverified.
+- **Date enacted:** WSAZ reported that Ashland commissioners voted Thursday to pause new data-center applications; the publication date and weekday imply February 26, 2026. This is a news-based inference; the ordinance and vote date remain unverified by primary records.
+- **Normalized date:** `2026-02-26` (unverified)
+- **Duration:** WSAZ described the reported pause as six months and 180 days; a July 23 report expected an August end. The original ordinance, effective date, exact term and any early termination remain unverified.
 - **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `ky-ashland-2026`

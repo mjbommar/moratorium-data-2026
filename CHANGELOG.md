@@ -4,6 +4,8 @@
 
 Retire the Kentucky-labelled Boone observation as a source-proven duplicate of the existing Indiana Ordinance 2026-08 row. Preserve both IDs, the full original row and all surviving Indiana fields through the identity registry. Eight independently adjudicated Lavon/Ashland fields are corrected, including removal of unsupported adoption-day precision. Current working local count is 1,329; frozen v2026.11.9 remains unchanged at 1,330. The remaining local identity/term questions continue under QA.
 
+Two recovered full news bodies support seven further guarded edits to the same Lavon/Ashland records. Lavon’s timestamp/body chronology conflicts remain explicit; Ashland’s reported February 26 vote is a contextual inference marked unverified. The 90-day and six-month/180-day descriptions do not establish operative endpoints. See the [follow-up evidence and validation](work/research/2026-11-09/post-release-qa/README.md#recovered-source-follow-up-applied).
+
 Current working snapshot: **1,329 local records**, **447 policy observations**, and **57 proposal/measure records** with **53 current result observations** (five certified).
 
 | Metric | Working QA after v2026.11.9 |

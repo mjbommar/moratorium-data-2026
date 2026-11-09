@@ -1,0 +1,140 @@
+[
+  {
+    "dataset": "local_inventory",
+    "id": "tx-lavon-2026",
+    "row_sha256": "b53c64794ba5c5717fddb69243abdaaeaf0115fe4c87504b98028c814562f65f",
+    "field": "date_enacted",
+    "expected_current": "Unresolved. A tracker attributed adoption to August 7, 2026; a separate retained news quotation reports a Lavon vote without establishing that date. The October 20 proposed ordinance passed a first reading reported not to start the pause. A second reading was scheduled for November 17; final adoption and its relationship to the earlier claim remain unverified.",
+    "after": "Unresolved. A tracker attributed adoption to August 7, 2026. A recovered WFAA report says Lavon approved a 90-day moratorium unanimously; its August 7 UTC timestamp corresponds to August 6 local time, but its reference to a mid-November second reading leaves the captured text's chronology and vote date uncertain. The October 20 proposal passed a first reading reported not to start the pause; a second reading was scheduled for November 17. Instrument identity and final adoption remain unverified.",
+    "evidence": [
+      {
+        "url": "https://www.yahoo.com/news/us/articles/lavon-approves-90-day-moratorium-020542449.html",
+        "body_sha256": "c004cc09b2f88ea41cdf565f0dc076d80cbf0334a6ac26ab9fb43bfdd0698a6a",
+        "locator": "JSON-LD datePublished/dateModified; article paragraphs 1\u20132, vote paragraph and final paragraph; captured 2026-11-09"
+      },
+      {
+        "url": "https://lavontx.gov/wp-content/uploads/Public-Documents/City%20Council%20Agendas/2026-10-20-Agenda-CC-Meeting.pdf",
+        "body_sha256": "7921574f5de4cb7443ae7c35e0699bcecc36d0fbd2c4e893e4430c2694fff897",
+        "locator": "pages 1\u20132 item 6A"
+      },
+      {
+        "url": "https://txlocalweekly.com/newsletter/lavon/lavon-approves-first-reading-of-data-center-moratorium-as-child-abuse-cases-surge/",
+        "body_sha256": "12d0c7e905f184d5cf604873ae06d93a8fcdc04752b4d6cc808576c98e0c0b05",
+        "locator": "first-reading and resident proposal paragraphs"
+      },
+      {
+        "url": "https://lavontx.gov/wp-content/uploads/Public-Documents/City%20Council%20Agendas/2026-11-03-Agenda-CC-Meeting.pdf",
+        "body_sha256": "e429d81eaad890d54e79ff68f6d3fb3dfcff565ef5bfb4ed2a6bce3788b20d42",
+        "locator": "page 3 item 10 future meetings"
+      }
+    ]
+  },
+  {
+    "dataset": "local_inventory",
+    "id": "tx-lavon-2026",
+    "row_sha256": "b53c64794ba5c5717fddb69243abdaaeaf0115fe4c87504b98028c814562f65f",
+    "field": "duration",
+    "expected_current": "A resident described the October proposal as an initial 90 days with a possible 90-day extension; the adopted term and operative interval are unverified.",
+    "after": "WFAA reports a 90-day moratorium with a possible additional 90-day extension, conditional on a second reading; the capture's chronology is uncertain. A resident described the October proposal in similar terms. The final adopted term and operative interval are unverified.",
+    "evidence": [
+      {
+        "url": "https://www.yahoo.com/news/us/articles/lavon-approves-90-day-moratorium-020542449.html",
+        "body_sha256": "c004cc09b2f88ea41cdf565f0dc076d80cbf0334a6ac26ab9fb43bfdd0698a6a",
+        "locator": "JSON-LD datePublished/dateModified; article paragraphs 1\u20132, vote paragraph and final paragraph; captured 2026-11-09"
+      },
+      {
+        "url": "https://lavontx.gov/wp-content/uploads/Public-Documents/City%20Council%20Agendas/2026-10-20-Agenda-CC-Meeting.pdf",
+        "body_sha256": "7921574f5de4cb7443ae7c35e0699bcecc36d0fbd2c4e893e4430c2694fff897",
+        "locator": "pages 1\u20132 item 6A"
+      },
+      {
+        "url": "https://txlocalweekly.com/newsletter/lavon/lavon-approves-first-reading-of-data-center-moratorium-as-child-abuse-cases-surge/",
+        "body_sha256": "12d0c7e905f184d5cf604873ae06d93a8fcdc04752b4d6cc808576c98e0c0b05",
+        "locator": "first-reading and resident proposal paragraphs"
+      },
+      {
+        "url": "https://lavontx.gov/wp-content/uploads/Public-Documents/City%20Council%20Agendas/2026-11-03-Agenda-CC-Meeting.pdf",
+        "body_sha256": "e429d81eaad890d54e79ff68f6d3fb3dfcff565ef5bfb4ed2a6bce3788b20d42",
+        "locator": "page 3 item 10 future meetings"
+      }
+    ]
+  },
+  {
+    "dataset": "local_inventory",
+    "id": "tx-lavon-2026",
+    "row_sha256": "b53c64794ba5c5717fddb69243abdaaeaf0115fe4c87504b98028c814562f65f",
+    "field": "current_status",
+    "expected_current": "The October 20 proposed ordinance advanced through first reading, which reporting says did not put the moratorium into effect or start its proposed 90-day period. The November 3 agenda scheduled a second reading for November 17. An August 7 adoption date comes from a tracker; a separate news quotation reports Lavon approval but does not establish that date or instrument identity. [VERIFY the earlier action, final ordinance and operative interval.]",
+    "after": "The October 20 proposed ordinance advanced through first reading, which reporting says did not put the moratorium into effect or start its proposed 90-day period. The November 3 agenda scheduled a second reading for November 17. A recovered WFAA report describes unanimous approval and a 90-day term, but its August timestamp and mid-November second-reading reference leave the captured text's chronology and instrument identity unresolved. [VERIFY the vote date, instrument identity, final ordinance and operative interval.]",
+    "evidence": [
+      {
+        "url": "https://www.yahoo.com/news/us/articles/lavon-approves-90-day-moratorium-020542449.html",
+        "body_sha256": "c004cc09b2f88ea41cdf565f0dc076d80cbf0334a6ac26ab9fb43bfdd0698a6a",
+        "locator": "JSON-LD datePublished/dateModified; article paragraphs 1\u20132, vote paragraph and final paragraph; captured 2026-11-09"
+      },
+      {
+        "url": "https://lavontx.gov/wp-content/uploads/Public-Documents/City%20Council%20Agendas/2026-10-20-Agenda-CC-Meeting.pdf",
+        "body_sha256": "7921574f5de4cb7443ae7c35e0699bcecc36d0fbd2c4e893e4430c2694fff897",
+        "locator": "pages 1\u20132 item 6A"
+      },
+      {
+        "url": "https://txlocalweekly.com/newsletter/lavon/lavon-approves-first-reading-of-data-center-moratorium-as-child-abuse-cases-surge/",
+        "body_sha256": "12d0c7e905f184d5cf604873ae06d93a8fcdc04752b4d6cc808576c98e0c0b05",
+        "locator": "first-reading and resident proposal paragraphs"
+      },
+      {
+        "url": "https://lavontx.gov/wp-content/uploads/Public-Documents/City%20Council%20Agendas/2026-11-03-Agenda-CC-Meeting.pdf",
+        "body_sha256": "e429d81eaad890d54e79ff68f6d3fb3dfcff565ef5bfb4ed2a6bce3788b20d42",
+        "locator": "page 3 item 10 future meetings"
+      }
+    ]
+  },
+  {
+    "dataset": "local_inventory",
+    "id": "ky-ashland-2026",
+    "row_sha256": "7b0d37a45bfd649fd8b700429bf1aa859714649c7ef283fa816969dd1ce8889a",
+    "field": "date_enacted",
+    "expected_current": "A July 23 report says the city imposed a moratorium in February 2026. February 26 is the date of a WSAZ headline, not a verified adoption date; the original instrument and precise vote date remain unverified.",
+    "after": "WSAZ reported that Ashland commissioners voted Thursday to pause new data-center applications; the publication date and weekday imply February 26, 2026. This is a news-based inference; the ordinance and vote date remain unverified by primary records.",
+    "body_sha256": "ec89036aa83b60147f9b624877f4007682ecf89cdd91b13f66a639e3f19d5fda",
+    "source_url": "https://www.wsaz.com/2026/02/26/ordinance-passed-data-center-applications/",
+    "locator": "article publication metadata and article text paragraph 2 (Thursday vote)",
+    "basis": "Publication Thursday and reported Thursday imply February 26; inference remains unverified."
+  },
+  {
+    "dataset": "local_inventory",
+    "id": "ky-ashland-2026",
+    "row_sha256": "7b0d37a45bfd649fd8b700429bf1aa859714649c7ef283fa816969dd1ce8889a",
+    "field": "date_enacted_iso",
+    "expected_current": "2026-02",
+    "after": "2026-02-26",
+    "body_sha256": "ec89036aa83b60147f9b624877f4007682ecf89cdd91b13f66a639e3f19d5fda",
+    "source_url": "https://www.wsaz.com/2026/02/26/ordinance-passed-data-center-applications/",
+    "locator": "article publication metadata and article text paragraph 2 (Thursday vote)",
+    "basis": "Publication Thursday and reported Thursday imply February 26; inference remains unverified."
+  },
+  {
+    "dataset": "local_inventory",
+    "id": "ky-ashland-2026",
+    "row_sha256": "7b0d37a45bfd649fd8b700429bf1aa859714649c7ef283fa816969dd1ce8889a",
+    "field": "date_enacted_uncertainty",
+    "expected_current": "month_only",
+    "after": "unverified",
+    "body_sha256": "ec89036aa83b60147f9b624877f4007682ecf89cdd91b13f66a639e3f19d5fda",
+    "source_url": "https://www.wsaz.com/2026/02/26/ordinance-passed-data-center-applications/",
+    "locator": "article publication metadata and article text paragraph 2 (Thursday vote)",
+    "basis": "Publication Thursday and reported Thursday imply February 26; inference remains unverified."
+  },
+  {
+    "dataset": "local_inventory",
+    "id": "ky-ashland-2026",
+    "row_sha256": "7b0d37a45bfd649fd8b700429bf1aa859714649c7ef283fa816969dd1ce8889a",
+    "field": "duration",
+    "expected_current": "July 23, 2026 reporting described a six-month moratorium imposed in February and expected to end in August. The original ordinance, exact operative dates and any early termination remain unverified.",
+    "after": "WSAZ described the reported pause as six months and 180 days; a July 23 report expected an August end. The original ordinance, effective date, exact term and any early termination remain unverified.",
+    "body_sha256": "ec89036aa83b60147f9b624877f4007682ecf89cdd91b13f66a639e3f19d5fda",
+    "source_url": "https://www.wsaz.com/2026/02/26/ordinance-passed-data-center-applications/",
+    "locator": "article text paragraphs 2\u20133 (six months and 180 days); existing row preserves July report attribution",
+    "basis": "Both descriptions appear in the source; operative term and anchor are unresolved."
+  }
+]

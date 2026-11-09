@@ -141,16 +141,16 @@ State policy is tracked separately: **11 records** (9 typed bill rows and 2 non-
 
 - **Type:** City
 - **Recorded status:** ❔ Unknown
-- **Date enacted:** Unresolved. A tracker attributed adoption to August 7, 2026; a separate retained news quotation reports a Lavon vote without establishing that date. The October 20 proposed ordinance passed a first reading reported not to start the pause. A second reading was scheduled for November 17; final adoption and its relationship to the earlier claim remain unverified.
+- **Date enacted:** Unresolved. A tracker attributed adoption to August 7, 2026. A recovered WFAA report says Lavon approved a 90-day moratorium unanimously; its August 7 UTC timestamp corresponds to August 6 local time, but its reference to a mid-November second reading leaves the captured text's chronology and vote date uncertain. The October 20 proposal passed a first reading reported not to start the pause; a second reading was scheduled for November 17. Instrument identity and final adoption remain unverified.
 - **Normalized date:** `—` (unverified)
-- **Duration:** A resident described the October proposal as an initial 90 days with a possible 90-day extension; the adopted term and operative interval are unverified.
+- **Duration:** WFAA reports a 90-day moratorium with a possible additional 90-day extension, conditional on a second reading; the capture's chronology is uncertain. A resident described the October proposal in similar terms. The final adopted term and operative interval are unverified.
 - **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `tx-lavon-2026`
 - **Legal basis:** Proposed City of Lavon data-center moratorium ordinance received a reported first reading October 20, 2026; an earlier claim of August adoption and final adoption remain unresolved.
 - **What prompted it:** Proposed hyperscale data center on 79 acres along FM 2755; resident concerns over water/electricity/character
 - **Affected projects:** Proposed hyperscale data center campus on 79 acres along FM 2755 (Elevon master-planned community)
-- **Detailed status:** The October 20 proposed ordinance advanced through first reading, which reporting says did not put the moratorium into effect or start its proposed 90-day period. The November 3 agenda scheduled a second reading for November 17. An August 7 adoption date comes from a tracker; a separate news quotation reports Lavon approval but does not establish that date or instrument identity. [VERIFY the earlier action, final ordinance and operative interval.]
+- **Detailed status:** The October 20 proposed ordinance advanced through first reading, which reporting says did not put the moratorium into effect or start its proposed 90-day period. The November 3 agenda scheduled a second reading for November 17. A recovered WFAA report describes unanimous approval and a 90-day term, but its August timestamp and mid-November second-reading reference leave the captured text's chronology and instrument identity unresolved. [VERIFY the vote date, instrument identity, final ordinance and operative interval.]
 - **Outcome:** The October 20 first reading advanced a proposal for time to develop data-center safeguards; it did not start the proposed 90-day period according to reporting.
 
 ### League City

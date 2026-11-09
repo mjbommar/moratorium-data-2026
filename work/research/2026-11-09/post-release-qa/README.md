@@ -42,3 +42,13 @@ Working counts are now **1,329 local records**, **447 policy records**, **1,776 
 All three data-dependent maps and current tables/site are regenerated from the revised CSV. The four legal maps retain their explicitly historical edition. Validation receipts are recorded with this batch. Outstanding source gaps remain in scope; this increment is not universal current-force certification.
 
 The [targeted source recovery](lavon-source-recovery.json) succeeded on November 9 after this batch applied. It supplies the missing conditional second-reading context and exposes a publication/body chronology conflict; its independent follow-up is separate from the first batch and no further canonical edit is automatic.
+
+## Recovered-source follow-up applied
+
+Two targeted HTTP fetches recovered the missing full Lavon syndicated report and Ashland WSAZ report. Independent Terra reviews and coordinator source review support [seven additional guarded cells](followup-field-application.json), with [source hashes, locators and exact before/after guards](followup-evidence-ledger.json). These revise two records already corrected in the first batch; they are seven additional edits, not seven additional records.
+
+[Lavon](lavon-followup-review.md) now records the August-metadata/mid-November-body chronology conflict explicitly. The full report supplies the conditional 90-day term and possible extension. It cannot establish a verified August vote, operative period or identity with the October proposal.
+
+[Ashland](ashland-followup-review.md) now records February 26 as a news-based weekday/publication inference, with normalized date marked `unverified`. WSAZ describes both six months and 180 days; the discrepancy and absent effective-date anchor prevent an inferred endpoint. Early termination remains open. Counts and recorded stages are unchanged.
+
+Both new bodies/texts are hash-checked and versioned in the existing private evidence archive; public receipts contain references and paraphrased findings. No broad discovery, paid search or model API trial was repeated. Immutable release assets remain unchanged.

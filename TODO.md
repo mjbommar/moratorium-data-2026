@@ -671,3 +671,5 @@ Exit: repeatable refresh with visible freshness, costs, failures and unresolved 
 - [x] Independently adjudicate the first four local identity/stage conflicts; apply eight guarded Lavon/Ashland cells and retire the proven Kentucky/Indiana Boone duplicate with alias/preimage preservation.
 - [ ] Obtain missing Lavon action identity, Ashland original term/termination, and Oliver executed phase-two term evidence; retain unknowns where evidence cannot establish them.
 - [ ] Continue material outstanding record questions from the full disposition ledger; do not repeat completed nationwide discovery.
+
+- [x] Recover full Lavon and Ashland news bodies through two targeted source fetches; independently adjudicate and apply seven further guarded fields, retaining unresolved chronology, term and current-force questions.
