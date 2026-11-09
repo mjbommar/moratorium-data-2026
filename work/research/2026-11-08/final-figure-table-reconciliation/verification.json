@@ -75,5 +75,111 @@
     "numpy": "2.5.4",
     "pyproj": "3.8.0",
     "pyogrio": "0.13.0"
+  },
+  "historical_notice_maps_rerendered": [
+    "map-legal-authority",
+    "map-home-rule",
+    "map-statutory-duration",
+    "map-preemption"
+  ],
+  "historical_notice": "Visible April 2026 edition notice embedded in each legal-classification image; classification inputs unchanged.",
+  "classification_input_sha256": "8e4f3c4a31ba75ea1d4923c07faa6aa3d76f9e7853cba9aa02957a6217c694c0",
+  "all_figure_files": {
+    "figures/pdf/map-home-rule.pdf": {
+      "bytes": 859840,
+      "sha256": "c2d02dfdee2f1a60e3e25a937a27e1a256e8dceff462c86b91598e93c4d5b04e"
+    },
+    "figures/pdf/map-legal-authority.pdf": {
+      "bytes": 864231,
+      "sha256": "1336685096fc186f683981dce036bda445d8dae2e1f0a658566407d4f3fe53c7"
+    },
+    "figures/pdf/map-moratorium-counts.pdf": {
+      "bytes": 834255,
+      "sha256": "8c06852d4ac1a1b04247eb8265030b6d5f735ae2db7b0917e57521ba89f18616"
+    },
+    "figures/pdf/map-preemption.pdf": {
+      "bytes": 863556,
+      "sha256": "ed4608f2ffc94df5564d546f5eb0e0c32336e04599ddd3f28310f40a92984d0b"
+    },
+    "figures/pdf/map-sector-composition.pdf": {
+      "bytes": 1678367,
+      "sha256": "2205b9c8320ed3e4aedb45a1d1f1b0af33f6d8199438d8ef1536aea6031a9b71"
+    },
+    "figures/pdf/map-statutory-duration.pdf": {
+      "bytes": 837690,
+      "sha256": "ea86a9322171f6eb3d028ec922acdf8fada4c1e57ef055bd1a1d4404cf2556c2"
+    },
+    "figures/pdf/map-timeline-heatmap.pdf": {
+      "bytes": 79283,
+      "sha256": "45f5d236fb55aa67fb1573703560aa233f7b598936de08677f29c0dc8320eeb6"
+    },
+    "figures/png/map-home-rule.png": {
+      "bytes": 457318,
+      "sha256": "4983966c9e283be972fcf8f5cab0fbdfe1b47dbe07bdac8d48c9290ceb2422c4"
+    },
+    "figures/png/map-legal-authority.png": {
+      "bytes": 438989,
+      "sha256": "016a1d5a1afe7bb981cc0b45a653d6715794d187f2a318991454f651644c10ec"
+    },
+    "figures/png/map-moratorium-counts.png": {
+      "bytes": 389481,
+      "sha256": "92e272e5ac1cd4498808b6b5366b1fceba75e3d4a0da37ef47b31729318705c5"
+    },
+    "figures/png/map-preemption.png": {
+      "bytes": 431411,
+      "sha256": "073a1a4394e976e5b26f5846b91b60fb2dbec644f40a41f16902c6ac705c0ca0"
+    },
+    "figures/png/map-sector-composition.png": {
+      "bytes": 470765,
+      "sha256": "813657200d656d36b88fae8cf712187701508ba4fcfae7091b307f43ae7cf652"
+    },
+    "figures/png/map-statutory-duration.png": {
+      "bytes": 393765,
+      "sha256": "47d2ae916f31ea135fea3b363f04317fbf023b6f2baae39849a1025c9dd9bc07"
+    },
+    "figures/png/map-timeline-heatmap.png": {
+      "bytes": 1440441,
+      "sha256": "bc818ec7f0c06a738cf56633716503d429cc05de5aa1ed5e32a28182141c9b5e"
+    },
+    "figures/svg/map-home-rule.svg": {
+      "bytes": 2384832,
+      "sha256": "aac1dceae95a0aec70f9ee0f74ef033a932fd237966bd551b1be9118f176cb2d"
+    },
+    "figures/svg/map-legal-authority.svg": {
+      "bytes": 2392285,
+      "sha256": "a62fc6fad48f2ea72ec5740e22af7a973336d37f47dc4f058c83a776f26d728c"
+    },
+    "figures/svg/map-moratorium-counts.svg": {
+      "bytes": 2223440,
+      "sha256": "ae264ec909d5953c2d72d2057efc6b9573e5511ecf0771a076c6ce4732ee5004"
+    },
+    "figures/svg/map-preemption.svg": {
+      "bytes": 2392452,
+      "sha256": "8e14a9fae3313d53ec9e5e9af5d1b2f904ec8a7c4fb98cef62bdc0647239f7d9"
+    },
+    "figures/svg/map-sector-composition.svg": {
+      "bytes": 4686792,
+      "sha256": "7c5768d5af501742f28c95f6e7c7a7c3369336c2239af61b5bd937924d5229d2"
+    },
+    "figures/svg/map-statutory-duration.svg": {
+      "bytes": 2237003,
+      "sha256": "24948db9813f2bf4005fd796a06349b0389b347fbbec34e10895998b9955e64d"
+    },
+    "figures/svg/map-timeline-heatmap.svg": {
+      "bytes": 1163910,
+      "sha256": "d2421821df3ad0affaa4c376dccc9ba27cdd8ecd73c3144a0e729d0485f375e6"
+    }
+  },
+  "sector_helper_real_data_equivalence": {
+    "records": 1330,
+    "counts_and_dominant_fills_match_rendered_version": true,
+    "optional_plot_dependencies_required_for_semantic_tests": false
+  },
+  "basemap_input_sha256": {
+    "cb_2023_us_state_5m.cpg": "3ad3031f5503a4404af825262ee8232cc04d4ea6683d42c5dd0a2f2a27ac9824",
+    "cb_2023_us_state_5m.dbf": "98d551372baf913065946f48db0ca477a6b2884e0ffc1d6f616cf67313f5f72f",
+    "cb_2023_us_state_5m.prj": "0b9041e921d9ebb43247d314608fe9e38a0b008ee793067fc1806199ea1fb9dd",
+    "cb_2023_us_state_5m.shp": "0652ebca9353ad71ebf8376ebd7ba7b57921b2b4e1b33f5f1fb50dcc9d35c2e0",
+    "cb_2023_us_state_5m.shx": "e276757f4455b581f8f931ad40459964df128946929ae935500f77e5b89c37fa"
   }
 }

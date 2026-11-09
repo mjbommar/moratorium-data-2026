@@ -20,7 +20,7 @@ their own denominator. None is a nationwide current-law census.
 The legal-authority, home-rule, preemption and maximum-statutory-duration maps
 retain the companion historical paper's classifications. They have not received
 a new November state-law survey and must not be presented as verified current
-law. Re-rendering those unchanged classifications would not update their evidence.
+law. They are re-rendered only to put the historical edition notice directly on each image; classification inputs are unchanged. Rendering those classifications does not update their evidence.
 The linked April manuscript and its embedded figures remain a historical edition.
 
 PNG, SVG and PDF variants of each refreshed data map are generated together.

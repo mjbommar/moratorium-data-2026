@@ -2,10 +2,12 @@
 
 How this dataset was built, in plain English.
 
-The November 5, 2026 refresh is in progress. Current inventory counts below
-include reviewed additions and corrections; they do not mean every record was
-verified through that date. Historical collection and geocode audits describe
-their original cohorts, not a fresh audit of every current row.
+The November reviewed source has primary and independent source-review artifacts
+for all 1,777 raw records, followed by coordinator application of the correction
+queue. The event cutoff is November 7 at 13:38:39.877065 UTC; capture and review
+timestamps remain separate. Bounded record review does not establish complete
+discovery or current legal force. Historical collection, extraction and geocode
+audits below retain their original cohorts. Final release remains pending.
 
 ## What we set out to do
 
@@ -76,7 +78,7 @@ We manually reviewed every extraction record to:
 - Resolve `[VERIFY]` flags by re-checking primary sources via real-Chrome browser sessions
 - Add moratoria identified through news coverage but missed by automated extraction
 
-During the November 5, 2026 working refresh the cleaned inventory has **1330 inventory records across 47 states** (`data/moratorium_inventory.csv`). It held 222 at v2026.04.4; see Phase 5 below for how the refresh cycle works.
+The November reviewed working inventory has **1330 inventory records across 47 states** (`data/moratorium_inventory.csv`). It held 222 at v2026.04.4; see Phase 5 below for how the refresh cycle works.
 
 ### Phase 4: Geocoding (added v2026.04.2)
 

@@ -21,12 +21,14 @@ class HistoryTests(unittest.TestCase):
             results = [{'result_observation_id':'old', 'supersedes_id':None, 'certification_status':'certified'},
                        {'result_observation_id':'new', 'supersedes_id':'old', 'certification_status':'amended_certification'},
                        {'result_observation_id':'part', 'supersedes_id':None, 'certification_status':'unofficial'}]
+            for row in results: row['measure_id'] = 'same-contest'
             for table, rows in [('ballot_measures', measures), ('measure_results', results)]:
                 (root / (table + '.jsonl')).write_text(''.join(json.dumps(row) + '\n' for row in rows))
             facts = mod.expanded_facts(root)
             self.assertEqual(facts, {'expanded_records':4, 'expanded_voted':1, 'expanded_scheduled':1,
                                      'expanded_litigated':1, 'expanded_unknown':1,
-                                     'expanded_current_results':2, 'expanded_certified_results':1})
+                                     'expanded_current_results':2, 'expanded_retained_results':3,
+                                     'expanded_result_measures':1, 'expanded_certified_results':1})
 
     def test_fixed_percentage_passes_followup_check(self):
         facts={k:0 for k in ('rows','in_force','pending','past','states','verify_rows','geocoded','bills','bills_typed','bills_enacted')}
