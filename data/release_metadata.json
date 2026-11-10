@@ -20,7 +20,7 @@
   "consumer_dispositions": "delivered_with_historical_editions_preserved",
   "experimental_extractor": "failed_no_automatic_promotion",
   "quality_gate_disposition": "User authorized publication of the current state with qualifications on pending QA, followed by continued double checking and resolution of outstanding questions.",
-  "reviewed_data_source_commit": "967cf31add54bd941ab39f9930bd792550e1b152",
+  "reviewed_data_source_commit": "18125103a37ceabaf6e2a46f698f90bdf0b689b9",
   "record_dispositions": {
     "unresolved": 1368,
     "corrected_resolved": 171,
@@ -31,7 +31,7 @@
   "record_disposition_path": "work/research/2026-11-08/full-record-dispositions/funnel.json",
   "qa_status": "ongoing",
   "publication_authorization": "publish current state with qualifications on pending QA, then continue to double check and clear the outstanding questions",
-  "working_revision": "qualified-patch-7",
+  "working_revision": "post7-delivery-receipt",
   "current_raw_counts": {
     "local": 1328,
     "state_policy": 448,
@@ -40,16 +40,16 @@
   "prior_release": "v2026.11.9.post6",
   "prior_release_source_commit": "fb6b44874138c742fd7505f6dfecd561e44e99ae",
   "prior_published_source_commit": "fb6b44874138c742fd7505f6dfecd561e44e99ae",
-  "published_source_reference": "The v2026.11.9.post6 release tag and manifest identify the exact source. Later delivery receipts do not rewrite the source cutoff or immutable assets.",
+  "published_source_reference": "The v2026.11.9.post7 release tag and manifest identify the exact source. Later delivery receipts do not rewrite source-cutoff metadata or immutable assets.",
   "latest_consumer_handoff": {
-    "source_commit": "fb6b44874138c742fd7505f6dfecd561e44e99ae",
-    "consumer_commit": "ee27beba175ed8d19f08d13dc8553b0914860f6f",
-    "manifest_sha256": "2ca27eb54583d953a6864d0f80b93387c9eaa0cecbb49ef78c23434064b010e0",
-    "receipt": "work/research/2026-11-09/post-release-qa/consumer-v11-handoff.json",
-    "scope": "Independently verified canonical input delivery matching qualified post6; source/legal and Massachusetts independent QA remain open."
+    "source_commit": "18125103a37ceabaf6e2a46f698f90bdf0b689b9",
+    "consumer_commit": "24af6752ba045d10bb1b5c3a5d465ea19e1a855e",
+    "manifest_sha256": "c7cc27627bf69b269f5f6fb959963241f5227f0cab003fce0f7188fd0b7ed88b",
+    "receipt": "work/research/2026-11-09/post-release-qa/consumer-v12-handoff.json",
+    "scope": "Independently verified canonical input delivery matching qualified post7; legal/source, Massachusetts independent QA and Starke expanded-model review remain open."
   },
   "release_date_timezone": "America/New_York",
-  "published_source_commit": "fb6b44874138c742fd7505f6dfecd561e44e99ae",
+  "published_source_commit": "18125103a37ceabaf6e2a46f698f90bdf0b689b9",
   "september_status_category_differences": {
     "local": 98,
     "policy": 39,
@@ -58,27 +58,6 @@
   },
   "latest_geography_review": "work/research/2026-11-09/post-release-qa/missing-geography-application.json",
   "latest_delivered_consumer_input_delta": {
-    "baseline_source_commit": "e70747fe78e35bd3d8cab85cdb2fff6dbce57406",
-    "baseline_consumer_commit": "f3ede1190bafbb32e3063a687d4067dbe430aeea",
-    "changed_local_rows": 5,
-    "changed_cells": 13,
-    "status_category_changes": 1,
-    "new_scope_inclusions": 0,
-    "receipt": "work/research/2026-11-09/post-release-qa/sedgwick-followup-adjudications.json",
-    "scope": "Delivered in qualified post6 and verified V11:13 cells/5local records,1 category correction,0 whole-record closures.",
-    "derived_prose_corrections": [
-      "Kansas record prose regenerated from four corrected cells.",
-      "Massachusetts state profile policy subtotal5\u21926 and typed-bill subtotal4\u21925 now reflect the already-present canonical rows; no new record."
-    ],
-    "additional_source_question_review": "work/research/2026-11-09/post-release-qa/sedgwick-publication-adjudication.json",
-    "additional_oshtemo_review": "work/research/2026-11-09/post-release-qa/oshtemo-followup-adjudications.json",
-    "additional_phillips_review": "work/research/2026-11-09/post-release-qa/phillips-followup-adjudications.json",
-    "additional_phillips_later_action_review": "work/research/2026-11-09/post-release-qa/phillips-later-actions-application.json",
-    "additional_phillips_code_review": "work/research/2026-11-09/post-release-qa/phillips-code-review.json",
-    "delivery_receipt": "work/research/2026-11-09/post-release-qa/consumer-v11-handoff.json"
-  },
-  "latest_source_followup": "work/research/2026-11-09/post-release-qa/boone-followup-adjudications.json",
-  "pending_consumer_input_delta": {
     "baseline_source_commit": "fb6b44874138c742fd7505f6dfecd561e44e99ae",
     "baseline_consumer_commit": "ee27beba175ed8d19f08d13dc8553b0914860f6f",
     "changed_local_rows": 10,
@@ -86,11 +65,13 @@
     "status_category_changes": 3,
     "new_scope_inclusions": 0,
     "receipt": "work/research/2026-11-09/post-release-qa/coweta-followup-adjudications.json",
-    "scope": "Thirty-two cells across ten local records: Coweta, Audubon, Lee, Starke and Boone. Three category corrections; no whole-record closures. Release/consumer synchronization pending.",
+    "scope": "Delivered in qualified post7 and verified V12:32 cells across ten local records, three category corrections, no whole-record closures.",
     "additional_instrument_review": "work/research/2026-11-09/post-release-qa/coweta-instruments-review.json",
     "additional_audubon_review": "work/research/2026-11-09/post-release-qa/audubon-followup-adjudications.json",
     "additional_lee_review": "work/research/2026-11-09/post-release-qa/lee-followup-adjudications.json",
     "additional_starke_review": "work/research/2026-11-09/post-release-qa/starke-followup-adjudications.json",
-    "additional_boone_review": "work/research/2026-11-09/post-release-qa/boone-followup-adjudications.json"
-  }
+    "additional_boone_review": "work/research/2026-11-09/post-release-qa/boone-followup-adjudications.json",
+    "delivery_receipt": "work/research/2026-11-09/post-release-qa/consumer-v12-handoff.json"
+  },
+  "latest_source_followup": "work/research/2026-11-09/post-release-qa/boone-followup-adjudications.json"
 }

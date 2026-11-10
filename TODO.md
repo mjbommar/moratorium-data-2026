@@ -786,3 +786,6 @@ Exit: repeatable refresh with visible freshness, costs, failures and unresolved 
 - [x] Retain six dated Ark Valley News publication candidates with exact native readbacks; record printed page identities and extracted-text limits, stop that guessed URL family and preserve the Sedgwick solar publication/later-action hold. No nonpublication inference or canonical changes.
 
 - [x] Publish qualified post6 and verified consumer V11 from `fb6b4487`:13 cells/5local rows,1 category correction; deterministic builds, clean restore, ten anonymous assets,2,086 archive members,13 hosted surfaces and independent consumer checks verified. Keep1,368 unresolved holds explicit.
+
+- [x] Publish qualified post7 and matching verified V12 from `18125103`: 32 cells across ten local records, three recorded category corrections; deterministic builds, clean restore, ten anonymous assets, all archive members, thirteen hosted surfaces and independent consumer checks verified. Keep 1,368 unresolved holds explicit.
+- [ ] Review Starke Ordinance 2026-34 as an expanded-model permanent restriction/instrument link; adopted-prohibition legacy prose does not itself promote a new expanded observation.
