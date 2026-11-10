@@ -1,0 +1,104 @@
+{
+  "exact_cell_delta": [
+    {
+      "id": "de-dover-undated",
+      "field": "date_enacted"
+    },
+    {
+      "id": "de-dover-undated",
+      "field": "duration"
+    },
+    {
+      "id": "de-dover-undated",
+      "field": "legal_basis"
+    },
+    {
+      "id": "de-dover-undated",
+      "field": "current_status"
+    },
+    {
+      "id": "de-dover-undated",
+      "field": "date_enacted_iso"
+    },
+    {
+      "id": "de-dover-undated",
+      "field": "date_enacted_uncertainty"
+    }
+  ],
+  "status_category_changes": 0,
+  "normalized_adoption_dates_added": 1,
+  "whole_record_closures": 0,
+  "unresolved_records": 1354,
+  "source_store_readbacks": 5,
+  "map_changed_features": 1,
+  "all_map_geometry_preserved": true,
+  "policy_and_summary_bytes_preserved": true,
+  "prior_hosted_and_consumer_receipts_preserved": true,
+  "checks": [
+    {
+      "command": [
+        "scripts/validate_dataset.py",
+        "--today",
+        "2026-11-10"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/build_policy_scope_exports.py",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/build_summary_stats.py",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/build_geojson.py",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/make_timeline.py",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/check_docs_numbers.py"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "-m",
+        "scripts.generate_tables.inventory_clean",
+        "--check"
+      ],
+      "returncode": 0,
+      "recheck": "Regenerated affected inventory table and rendered site; reran inventory_clean --check successfully."
+    },
+    {
+      "command": [
+        "scripts/build_index.py",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/classify_sources.py",
+        "--check"
+      ],
+      "returncode": 0
+    }
+  ]
+}
