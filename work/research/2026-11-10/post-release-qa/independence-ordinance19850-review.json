@@ -1,0 +1,144 @@
+{
+  "reviewed_at": "2026-11-10T14:45:04.509591+00:00",
+  "id": "mo-city-of-independence-2026",
+  "prior_disposition": "unresolved",
+  "recommendation": "unresolved",
+  "prior_row_sha256": "0fcfc5978fbef6f541524fe662fe5d42351c0640e4ff6d917afdfc0dc63c4fa1",
+  "current_row_sha256": "aef37b95d8e5d7c324aa8a06bd2b89ae2e5dbd66aa0537d6fb45fd3361bb0d8c",
+  "prior_operative_review": {
+    "path": "work/research/2026-11-10/post-release-qa/independence-operative-term-review.json",
+    "sha256": "9aff6e829bf9e26e3e0d40874c1dd131298000dcbcf35d5e8a5be8db7eb844f3"
+  },
+  "field_changes": [
+    {
+      "field": "current_status",
+      "before": "Recorded active. The July 6, 2026 meeting record reports separate 7\u20130 passage of Resolutions 7238 and 7239. Recovered signed copies establish the 180-day passage-and-approval anchor, superseding the prior anchor-unknown statement. An earlier Kansas City Star account concerned a delayed separate permanent-rules vote and reported the moratorium would be unaffected; no later enactment, amendment, extension, repeal or continuous-force conclusion is accepted. [VERIFY subsequent council actions and current operative interval.]",
+      "after": "Recorded active. Signed Resolutions 7238 and 7239 establish separate 180-day passage-and-approval moratoria following the July 6, 2026 votes. The later October 5 council record reports 6\u20130 passage of the separate data-center/BESS standards, Ordinance 19850; its signed copy confirms October 5 passage. This supersedes reliance solely on earlier reports of a delayed permanent-rules vote. Adoption of standards is not treated as automatic repeal or replacement of the moratoria. [VERIFY later amendments, extension, termination and current operative interval.]"
+    },
+    {
+      "field": "outcome",
+      "before": "Signed resolutions corroborate distinct 180-day pauses for data-processing/hosting and BESS facilities, effective from and after passage and approval, with prior-application/project-phase exceptions. They address permit/license issuance and application processing for zoning changes, variances, special/conditional uses and temporary uses. Later legislative history remains unresolved; recovery of the original acts does not establish uninterrupted current force.",
+      "after": "Original signed moratoria and their prior-application/project-phase exceptions are documented. A distinct signed October 5 enactment, Ordinance 19850, adds or amends data-processing/hosting and BESS standards in the Unified Development Ordinance. Its final clauses preserve other City Code provisions and authorize drafting-error corrections; no conclusion that it terminated Resolutions 7238/7239 is accepted here. Later legal history and current-force reconciliation remain open."
+    }
+  ],
+  "remaining_questions": [
+    "Review explicit moratorium amendment, extension or termination records and legal relationship to October5 Ordinance19850 before accepting a current operative interval. The October5 permanent-standards vote and signed enactment are now reviewed; do not repeat that lookup as an unresolved pending vote.",
+    "Review later council actions afterOctober5 through the desired cutoff and relevant legal developments. The date-filter API returned15earlier events with hasMoretrue; it was used for exact October5 identity, not as a complete negative later-history search.",
+    "Verify project-specific approval/phase records if an exemption eligibility conclusion is needed. Original moratorium exceptions and separately enacted permanent standards remain distinct."
+  ],
+  "sources": [
+    {
+      "attempt_id": "bdd6f9a328be4216b09d3ff03d5e449e",
+      "url": "https://www.independencemo.gov/events/town-hall-mayor-kevin-king-councilmember-brice-stewart",
+      "body_sha256": "88d2f40f555af6ef8542772c5dd3916dd766c74f7cf53e2054392b31dfcb52b9",
+      "original_text_sha256": "b24853c60dc66e902190479dab3008595eaee8459337cd137ea62d4c294e7b00",
+      "observed_at": "2026-11-10T14:35:15.777479Z"
+    },
+    {
+      "attempt_id": "b8019b61fc5d4e2a8575758fc0e34ff4",
+      "url": "https://www.independencemo.gov/government/city-departments/city-councilcity-clerk",
+      "body_sha256": "83e211684c1c1df78908eb8602efe4cf0f388d0ba244b3a7b281f267eff52a4b",
+      "original_text_sha256": "5e96105d907068c4e10251aded93c25a7424e79212bd534fa566a90ad634f2c5",
+      "observed_at": "2026-11-10T14:37:00.851005Z"
+    },
+    {
+      "attempt_id": "5841df3dea5347019534e28d967f3756",
+      "url": "https://www.independencemo.gov/public-meetings",
+      "body_sha256": "5065e5b524072a9262cf2df521f58ca4a7e2f9c35eff80f05d09631fbaee715e",
+      "original_text_sha256": "a2994e6408027f70b769387d8d0f3f1e546b999839488786f2bd878db416e166",
+      "observed_at": "2026-11-10T14:38:22.110019Z"
+    },
+    {
+      "attempt_id": "20967bcea4394e2193d117c358f3cb74",
+      "url": "https://independencemo.portal.civicclerk.com/",
+      "body_sha256": "702dee6af4de1d9c2698d6be3673544ec1ba504eba1ccd4f26eb0657006225ea",
+      "original_text_sha256": "8fde88df7adaa0fab123ca9325c6fa2dd00809d30ef7a45f2d26ef16eb1bdde4",
+      "observed_at": "2026-11-10T14:38:46.901091Z"
+    },
+    {
+      "attempt_id": "ac09217336f14d889c570c7609a77e21",
+      "url": "https://independencemo.api.civicclerk.com/v1/Events/GetEventsList(fromDate='',toDate='2026-10-06',categoryIds=[],skip=0,sortDescending=true,cursorId=0)",
+      "body_sha256": "eb39361f6ec1df8fa00147aaf8715a164494a89e98ba6fcd1fe4339c930d9142",
+      "original_text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "observed_at": "2026-11-10T14:39:26.317068Z"
+    },
+    {
+      "attempt_id": "d87e088c05624e45976397b973035a6d",
+      "url": "https://independencemo.api.civicclerk.com/v1/Meetings/2758",
+      "body_sha256": "1d5b9882db00db9358a2456964b4fdbc3ab4b00dda56e4bb87cd527b68a07766",
+      "original_text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "observed_at": "2026-11-10T14:39:57.872707Z"
+    },
+    {
+      "attempt_id": "617216ddb6304214acbccbf9f2e0e620",
+      "url": "https://civicclerk.blob.core.windows.net/stream/INDEPENDENCEMO/f5787843317f44798dda83749836de76.pdf",
+      "body_sha256": "660f3fca920850a6e37f679363fff63d744b44f1a1c346319e7455c98e381203",
+      "original_text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "observed_at": "2026-11-10T14:41:11.202889Z"
+    }
+  ],
+  "registered_ordinance_derivation": {
+    "attempt_id": "617216ddb6304214acbccbf9f2e0e620",
+    "source_body_sha256": "660f3fca920850a6e37f679363fff63d744b44f1a1c346319e7455c98e381203",
+    "derived_text_sha256": "a4e02dc14c8df5e7fd773fb33f2d7f1f27e5bdbe8a286ada422fbc9324178489",
+    "review_status": "accepted_derivation",
+    "method": "pdftoppm140dpi and Tesseract25scannedpages; physical pages1and25 visually reviewed for instrument number/title, October5passage, signatures, seal and final clauses. Full OCR searched for7238/7239/moratorium/repeal; no comprehensive current-law inference from search absence. Original empty extraction preserved.",
+    "visually_reviewed_pages": [
+      1,
+      25
+    ],
+    "page_image_sha256": {
+      "1": "527fab674a4654c284dd3df61a5e8372c9526d1a6c5be931b4fd4227df3d0692",
+      "25": "f191718ace89391f81d06b5dd506d6b6fe93604a596e07430b69d414904297d0"
+    }
+  },
+  "official_meeting_action": {
+    "meeting_id": 2758,
+    "event_id": 3252,
+    "selected_item_id": 13994,
+    "displayed_action": "26-072 2 R An ordinance amending the Unified Development Ordinance, Chapter 14, of the Independence City Code pertaining to data processing and hosting and battery energy storage systems uses. 2 R Item passes 6-0\u00a0 Ord. No. 19850",
+    "hasVote": false,
+    "minutesCompleted": 0,
+    "scope": "Reported6\u20130 outcome is part of official displayed item label; no independent roll-call object or complete procedural inference from hasVote/minutes flags."
+  },
+  "event_identity": {
+    "hasMore": true,
+    "returned_items": 15,
+    "selected_event": {
+      "id": 3252,
+      "agendaId": 2758,
+      "eventName": "Regular City Council Meeting",
+      "eventDate": "2026-10-05T18:00:00Z",
+      "categoryName": "Council Meetings"
+    },
+    "scope": "Existing date-filter route queried toOct6; returned15rows and hasMoretrue, not complete later-history coverage."
+  },
+  "canonical_cells_changed_this_review": 2,
+  "pending_unique_cells_since_post12": 16,
+  "status_category_changes": 0,
+  "normalized_date_changes": 0,
+  "whole_record_closures": 0,
+  "native_source_readbacks": 7,
+  "acquisition_accounting": {
+    "searches": 1,
+    "search_backend": "exa",
+    "search_cost_usd": 0.007,
+    "fetches": 7,
+    "stages": [
+      {
+        "purpose": "distinct city notice/council index",
+        "fetches": 2
+      },
+      {
+        "purpose": "newly linked public archive and actual API event/item discovery",
+        "fetches": 4
+      },
+      {
+        "purpose": "newly identified exact signed ordinance",
+        "fetches": 1
+      }
+    ],
+    "scope": "Original discovery ledgers/caps unchanged; separate one-document admission records revised seven-fetch campaign limit after concrete signed-ordinance lead. No original July6source, FAQ or resolution refetch."
+  },
+  "scope": "October5 permanent-standards enactment accepted from official item label and signed ordinance. No automatic moratorium termination, exhaustive later-history search, current force or project-applicability acceptance."
+}
