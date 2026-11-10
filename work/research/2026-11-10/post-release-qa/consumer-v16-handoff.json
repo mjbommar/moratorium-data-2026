@@ -279,6 +279,17 @@
   "consumer_remote_main_verified": true,
   "qualified_release": "v2026.11.10.post1",
   "qualified_release_manifest_sha256": "01cd3710fa1fea05fcdc407202563843554d04e1497812f02b1196b47a71b7d4",
-  "hosted_delivery_status": "pending_deployment_retry",
-  "committed_consumer_verifier_matches_trusted_pin": true
+  "hosted_delivery_status": "verified",
+  "committed_consumer_verifier_matches_trusted_pin": true,
+  "hosted_delivery_updates": [
+    {
+      "observed_at": "2026-11-10T06:42:35.770455+00:00",
+      "previous_status": "pending_deployment_retry",
+      "status": "verified",
+      "release_source_commit": "4c7b8e1ad70221f5ebdf114a41aa16b4742dea53",
+      "hosted_source_commit": "bbe50ac182c80d4dd6b8af44735de3bc4b8533ad",
+      "pages_run": 42769968101,
+      "receipt": "work/research/2026-11-10/release-2026.11.10.post1/hosted-copy-verification.json"
+    }
+  ]
 }

@@ -23,7 +23,7 @@ The earlier completion claim was wrong. `v2026.11.8` is now explicitly an **inco
 - [x] Publish and independently verify the qualified v2026.11.9 release and downloads ([receipt](work/research/2026-11-09/release-2026.11.9/README.md)).
 - [x] Publish qualified correction patch `v2026.11.9.post1` from `7649328`; verify two identical builds, full clean replay, all ten anonymous downloads and 1,764 archive members ([receipt](work/research/2026-11-09/release-2026.11.9.post1/README.md)). Original release remains immutable.
 - [x] Deliver five Louisiana committee-detail fields and three scoped review closures in qualified v2026.11.10.post1 and independently verified, pushed consumer V16; two identical builds, full clean restore, ten anonymous assets and all2,260 archive members pass.
-- [ ] Finish hosted-copy delivery for v2026.11.10.post1: Pages run42767261309 attempt1 timed out syncing files; retry requested from the same source, then verify exact hosted bytes.
+- [x] Finish hosted-copy delivery for v2026.11.10.post1: Pages run42769968101 successfully deployed receipt commit bbe50ac1; nineteen surfaces match, and released data are byte-identical to release source4c7b8e1a. Initial failed/retry history retained.
 - [ ] Continue source-specific QA and clear outstanding questions with reviewed, guarded corrections; preserve frozen release history.
 
 - [x] Apply 88 independently reviewed material corrections across 43 records from the first 105 additional-record reviews ([application](work/research/2026-11-08/full-inventory-first105-application/README.md)); remaining full-record review stays open.

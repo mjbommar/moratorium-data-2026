@@ -4,7 +4,7 @@
 
 - Louisiana HB1206 and HB922: official roll calls establish voluntary deferral after committee amendment adoption. Corrected proposal summaries distinguish original and committee versions; five cells across two records, with no status-category changes.
 - Nevada SB385: rendered official history confirms the existing April12,2025 terminal date without changing the row.
-- Three assigned historical record reviews close: 1,365 unresolved, 173 corrected-resolved and 238 confirmed-unchanged remain. Nine fresh archived body/text pairs were imported and read back without reacquisition. [Review and exact changes](work/research/2026-11-09/post-release-qa/committee-final-detail-adjudications.json). [Release and consumer V16 delivery](work/research/2026-11-10/release-2026.11.10.post1/README.md) are verified; hosted Pages delivery remains pending after a deployment timeout and retry.
+- Three assigned historical record reviews close: 1,365 unresolved, 173 corrected-resolved and 238 confirmed-unchanged remain. Nine fresh archived body/text pairs were imported and read back without reacquisition. [Review and exact changes](work/research/2026-11-09/post-release-qa/committee-final-detail-adjudications.json). [Release and consumer V16 delivery](work/research/2026-11-10/release-2026.11.10.post1/README.md) and nineteen hosted surfaces are verified; the initial deployment timeout and superseded retry remain documented.
 
 | Metric | Qualified v2026.11.10.post1 |
 |---|---:|

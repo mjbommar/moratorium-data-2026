@@ -15,7 +15,7 @@
     "Experimental model extraction/P4 has not passed; no experimental extraction output is accepted automatically.",
     "The companion April paper and dated sibling publications retain their historical editions."
   ],
-  "update_status": "qualified_release_with_hosted_delivery_pending_and_ongoing_qa",
+  "update_status": "qualified_release_with_ongoing_qa",
   "full_inventory_closeout": "reviewed_and_applied_with_bounded_unresolved_questions",
   "consumer_dispositions": "delivered_with_historical_editions_preserved",
   "experimental_extractor": "failed_no_automatic_promotion",
@@ -31,7 +31,7 @@
   "record_disposition_path": "work/research/2026-11-08/full-record-dispositions/funnel.json",
   "qa_status": "ongoing",
   "publication_authorization": "publish current state with qualifications on pending QA, then continue to double check and clear the outstanding questions",
-  "working_revision": "committee-detail-delivery-hosted-pending",
+  "working_revision": "committee-detail-hosted-delivery-verified",
   "current_raw_counts": {
     "local": 1328,
     "state_policy": 448,
@@ -40,14 +40,14 @@
   "prior_release": "v2026.11.10",
   "prior_release_source_commit": "738c40f310fb06d2e58bd6a71a74db1598414156",
   "prior_published_source_commit": "738c40f310fb06d2e58bd6a71a74db1598414156",
-  "published_source_reference": "The v2026.11.10.post1 release tag and manifest identify its exact source. Downloads and V16 are verified in later receipts; hosted Pages delivery is pending a retry after deployment timeout.",
+  "published_source_reference": "The v2026.11.10.post1 tag and manifest identify exact release source4c7b8e1a. Downloads and V16 are verified. Hosted receipt commit bbe50ac1 matches nineteen surfaces and retains byte-identical released data; later receipts do not rewrite immutable assets.",
   "latest_consumer_handoff": {
     "source_commit": "4c7b8e1ad70221f5ebdf114a41aa16b4742dea53",
     "consumer_commit": "363f45b1f2298e4ead024a43c340fd8aff4eae1e",
     "manifest_sha256": "7b33b3378ab85ceb3b5824b8f0a51a6521e897cda5a63d26ac0a71fff2823604",
     "trusted_verifier_sha256": "ebecf851d4196715df186cc81cc3c933ab7da550fbafd7207996cd94b9cd2739",
     "receipt": "work/research/2026-11-10/post-release-qa/consumer-v16-handoff.json",
-    "scope": "Verified release/consumer input delivery; Pages deployment retry remains pending. Three scoped historical reviews close;1365 holds remain."
+    "scope": "Verified release, consumer V16 and hosted input delivery; three scoped historical reviews close;1365 substantive holds remain."
   },
   "release_date_timezone": "America/New_York",
   "published_source_commit": "4c7b8e1ad70221f5ebdf114a41aa16b4742dea53",
@@ -67,7 +67,7 @@
     "scope_fingerprint_rebindings": 2,
     "whole_record_closures": 3,
     "additional_review": "work/research/2026-11-09/post-release-qa/committee-final-detail-adjudications.json",
-    "scope": "Delivered in qualified v2026.11.10.post1 and verified V16: five fields/two Louisiana rows, three scoped review closures, no status-category changes; hosted delivery pending.",
+    "scope": "Delivered in qualified v2026.11.10.post1 and verified V16: five fields/two Louisiana rows, three scoped review closures, no status-category changes; nineteen hosted surfaces verified.",
     "delivery_receipt": "work/research/2026-11-10/post-release-qa/consumer-v16-handoff.json"
   },
   "latest_source_followup": "work/research/2026-11-09/post-release-qa/committee-final-detail-adjudications.json",
@@ -109,9 +109,11 @@
     "delivery_receipt": "work/research/2026-11-10/post-release-qa/consumer-v15-handoff.json"
   },
   "latest_field_application": "work/research/2026-11-09/post-release-qa/nonblank-geography-application.json",
-  "pending_hosted_delivery": {
+  "latest_hosted_delivery": {
     "source_commit": "4c7b8e1ad70221f5ebdf114a41aa16b4742dea53",
-    "pages_run": 42767261309,
-    "receipt": "work/research/2026-11-10/release-2026.11.10.post1/hosted-deployment-pending.json"
+    "pages_run": 42769968101,
+    "receipt": "work/research/2026-11-10/release-2026.11.10.post1/hosted-copy-verification.json",
+    "hosted_source_commit": "bbe50ac182c80d4dd6b8af44735de3bc4b8533ad",
+    "state": "verified"
   }
 }
