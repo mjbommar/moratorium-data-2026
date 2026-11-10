@@ -20,7 +20,7 @@
   "consumer_dispositions": "delivered_with_historical_editions_preserved",
   "experimental_extractor": "failed_no_automatic_promotion",
   "quality_gate_disposition": "User authorized publication of the current state with qualifications on pending QA, followed by continued double checking and resolution of outstanding questions.",
-  "reviewed_data_source_commit": "dee9e87d22080a96f2f7fa5191d89afee8407d49",
+  "reviewed_data_source_commit": "dd4e06ceff1d5cb099575f84fdb16efa53694212",
   "record_dispositions": {
     "unresolved": 1347,
     "corrected_resolved": 190,
@@ -31,7 +31,7 @@
   "record_disposition_path": "work/research/2026-11-08/full-record-dispositions/funnel.json",
   "qa_status": "ongoing",
   "publication_authorization": "publish current state with qualifications on pending QA, then continue to double check and clear the outstanding questions",
-  "working_revision": "post11-qualified-release-preparation",
+  "working_revision": "post11-data-consumer-delivered-hosting-pending",
   "current_raw_counts": {
     "local": 1328,
     "state_policy": 448,
@@ -42,12 +42,12 @@
   "prior_published_source_commit": "abd5a14abe67a052b57fa037ad83bd63f781d195",
   "published_source_reference": "The v2026.11.10.post8 tag and manifest pin58a016a5. Deterministic assets, full clean restore, ten downloads, V23 and13selected hosted data/QA files are verified. Full hosted release-label/prose/receipt synchronization remains pending after three syncing-files timeouts; latest_verified_release retains the prior fully verified edition. No universal freshness or current-force claim.",
   "latest_consumer_handoff": {
-    "source_commit": "dee9e87d22080a96f2f7fa5191d89afee8407d49",
-    "consumer_commit": "30a1f1f8abcb310822a1c683728fb69219b07712",
-    "manifest_sha256": "0631abbec78db488ee35dc65650803063a02398a381cd50adc037526f37b1bee",
+    "source_commit": "dd4e06ceff1d5cb099575f84fdb16efa53694212",
+    "consumer_commit": "86c7e37169b9d679233847830abc19022e652518",
+    "manifest_sha256": "75a9f6ca519b07f0c429e5c89ebeb0ec3ee8c7c8709be1f075c330c4865f42f5",
     "trusted_verifier_sha256": "ebecf851d4196715df186cc81cc3c933ab7da550fbafd7207996cd94b9cd2739",
-    "receipt": "work/research/2026-11-10/post-release-qa/consumer-v25-handoff.json",
-    "scope": "Qualified post10 correction batch: Monument signed text, Missouri historical outcomes, Minnesota inferred failure and Virginia final returned-bill vetoes; seven historical review closures including stale Wyoming scope acceptance. Original cutoff retained; later force, sponsor-party, successor-law and independent Massachusetts QA holds remain. Hosting-copy hold and downstream applicability are separate."
+    "receipt": "work/research/2026-11-10/post-release-qa/consumer-v26-handoff.json",
+    "scope": "Qualified post11 reference/authorship batch: 104 retained primary links, ten Minnesota author/party corrections and one Georgia status summary. All 448 policy observations have references; freshness, claim support and legal force remain separately reviewed. No new whole-record closures; 1347 unresolved. Hosting synchronization and downstream applicability remain separate."
   },
   "release_date_timezone": "America/New_York",
   "published_source_commit": "4adc611e1a9ecc6be6438ab62ea5a1f28a482b93",
@@ -59,28 +59,28 @@
   },
   "latest_geography_review": "work/research/2026-11-09/post-release-qa/nonblank-geography-application.json",
   "latest_delivered_consumer_input_delta": {
-    "baseline_source_commit": "21bcb804e21dbe728387775aada997b29497c549",
-    "baseline_consumer_commit": "b22ba42c6fd78b72e0b0633873c3929677713a84",
-    "changed_cells": 16,
-    "changed_local_cells": 3,
-    "changed_local_rows": 1,
-    "changed_policy_cells": 13,
-    "changed_policy_rows": 7,
-    "status_category_changes": 1,
+    "baseline_source_commit": "dee9e87d22080a96f2f7fa5191d89afee8407d49",
+    "baseline_consumer_commit": "30a1f1f8abcb310822a1c683728fb69219b07712",
+    "changed_cells": 115,
+    "changed_policy_cells": 115,
+    "changed_policy_rows": 106,
+    "changed_local_cells": 0,
+    "changed_local_rows": 0,
+    "status_category_changes": 0,
     "normalized_date_changes": 0,
     "scope_membership_changes": 0,
-    "whole_record_closures": 7,
+    "whole_record_closures": 0,
     "additional_reviews": [
-      "work/research/2026-11-09/post-release-qa/monument-ordinance-adjudication.json",
-      "work/research/2026-11-09/post-release-qa/wyoming-sf193-disposition-reconciliation.json",
-      "work/research/2026-11-09/post-release-qa/missouri-final-passage-adjudications.json",
-      "work/research/2026-11-09/post-release-qa/minnesota-hf3793-terminal-adjudication.json",
-      "work/research/2026-11-09/post-release-qa/virginia-returned-veto-adjudications.json"
+      "work/research/2026-11-09/post-release-qa/georgia-sb34-history-adjudication.json",
+      "work/research/2026-11-09/post-release-qa/minnesota-author-roster-adjudications.json",
+      "work/research/2026-11-09/post-release-qa/minnesota-source-links-adjudications.json",
+      "work/research/2026-11-09/post-release-qa/texas-wv-source-links-adjudications.json",
+      "work/research/2026-11-09/post-release-qa/remaining-policy-source-links-adjudications.json"
     ],
-    "scope": "Delivered qualified post10/V25: sixteen fields across eight records and seven historical review closures. One category correction, three legal-effect labels; no normalized dates, raw IDs, analytical membership or native-history changes. Full restore, ten downloads and consumer checks passed. Website-copy hold and 1347 unresolved reviews remain separate.",
-    "delivered_source_commit": "dee9e87d22080a96f2f7fa5191d89afee8407d49",
-    "delivered_consumer_commit": "30a1f1f8abcb310822a1c683728fb69219b07712",
-    "delivery_receipt": "work/research/2026-11-10/post-release-qa/consumer-v25-handoff.json",
+    "scope": "Delivered qualified post11/V26: 115 fields across 106 policy observations: 104 retained primary links, ten Minnesota author/party fields and one Georgia status summary. No new closures, category, legal-effect, date, membership or native-history changes. Full restore, ten downloads and consumer checks passed. Website hold and 1347 unresolved reviews remain separate.",
+    "delivered_source_commit": "dd4e06ceff1d5cb099575f84fdb16efa53694212",
+    "delivered_consumer_commit": "86c7e37169b9d679233847830abc19022e652518",
+    "delivery_receipt": "work/research/2026-11-10/post-release-qa/consumer-v26-handoff.json",
     "hosted_copy_state": "pending"
   },
   "latest_source_followup": "work/research/2026-11-09/post-release-qa/remaining-policy-source-links-adjudications.json",
@@ -105,27 +105,28 @@
     "scope": "Qualified policy-history succession only; no formal termination, overlap or current-force acceptance."
   },
   "prior_delivered_consumer_input_delta": {
-    "baseline_source_commit": "58a016a569e268ad26a2ed6ecc19a4736a743b84",
-    "baseline_consumer_commit": "583b6f38f5b4d212f2b13e320dcba46d7c1df616",
-    "changed_policy_rows": 2,
-    "changed_policy_cells": 3,
+    "baseline_source_commit": "21bcb804e21dbe728387775aada997b29497c549",
+    "baseline_consumer_commit": "b22ba42c6fd78b72e0b0633873c3929677713a84",
+    "changed_cells": 16,
+    "changed_local_cells": 3,
     "changed_local_rows": 1,
-    "changed_local_cells": 6,
-    "changed_cells": 9,
-    "status_category_changes": 0,
-    "normalized_date_changes": 1,
+    "changed_policy_cells": 13,
+    "changed_policy_rows": 7,
+    "status_category_changes": 1,
+    "normalized_date_changes": 0,
     "scope_membership_changes": 0,
-    "whole_record_closures": 2,
+    "whole_record_closures": 7,
     "additional_reviews": [
-      "work/research/2026-11-09/post-release-qa/ohio-hb96-veto-adjudication.json",
-      "work/research/2026-11-09/post-release-qa/wyoming-scope-disposition-reconciliation.json",
-      "work/research/2026-11-09/post-release-qa/indiana-sb234-fiscal-review.json",
-      "work/research/2026-11-09/post-release-qa/dover-october12-minutes-adjudication.json"
+      "work/research/2026-11-09/post-release-qa/monument-ordinance-adjudication.json",
+      "work/research/2026-11-09/post-release-qa/wyoming-sf193-disposition-reconciliation.json",
+      "work/research/2026-11-09/post-release-qa/missouri-final-passage-adjudications.json",
+      "work/research/2026-11-09/post-release-qa/minnesota-hf3793-terminal-adjudication.json",
+      "work/research/2026-11-09/post-release-qa/virginia-returned-veto-adjudications.json"
     ],
-    "scope": "Two Ohio HB96 prose cells since post8/V23; item58 veto distinguished from DEVCD11 enacted application-recipient change. Record remains unresolved. Later release/consumer delivery pending; pre-existing hosted-copy hold remains separate. Two additional historical failed-proposal reviews closed by reconciling prior independent scope decisions; no further canonical cells changed. IndianaSB234 one-cell proposed class/reimbursement clarification, scope unresolved; three cells across two policy rows pending delivery. Dover six local cells including one historical adoption date from official minutes; total nine cells across three rows pending delivery. No status-category change or additional closure.",
-    "delivered_source_commit": "21bcb804e21dbe728387775aada997b29497c549",
-    "delivered_consumer_commit": "b22ba42c6fd78b72e0b0633873c3929677713a84",
-    "delivery_receipt": "work/research/2026-11-10/post-release-qa/consumer-v24-handoff.json",
+    "scope": "Delivered qualified post10/V25: sixteen fields across eight records and seven historical review closures. One category correction, three legal-effect labels; no normalized dates, raw IDs, analytical membership or native-history changes. Full restore, ten downloads and consumer checks passed. Website-copy hold and 1347 unresolved reviews remain separate.",
+    "delivered_source_commit": "dee9e87d22080a96f2f7fa5191d89afee8407d49",
+    "delivered_consumer_commit": "30a1f1f8abcb310822a1c683728fb69219b07712",
+    "delivery_receipt": "work/research/2026-11-10/post-release-qa/consumer-v25-handoff.json",
     "hosted_copy_state": "pending"
   },
   "latest_field_application": "work/research/2026-11-09/post-release-qa/remaining-policy-source-links-adjudications.json",
@@ -140,14 +141,14 @@
   "latest_expanded_result_review": "work/research/2026-11-10/canterbury-minutes-result-review/coordinator-adjudication.json",
   "latest_verified_release": "v2026.11.10.post7",
   "source_observation_window_scope": "Acquisition range includes source-specific QA captures through November10; this does not renew every record or move the original comprehensive research_cutoff.",
-  "latest_download_verified_release": "v2026.11.10.post10",
+  "latest_download_verified_release": "v2026.11.10.post11",
   "prior_latest_consumer_handoff": {
-    "source_commit": "21bcb804e21dbe728387775aada997b29497c549",
-    "consumer_commit": "b22ba42c6fd78b72e0b0633873c3929677713a84",
-    "manifest_sha256": "861c0ea074d55625d8aa5ce80f90d438bfd42e7d4d59e167c21392065be6b2f8",
+    "source_commit": "dee9e87d22080a96f2f7fa5191d89afee8407d49",
+    "consumer_commit": "30a1f1f8abcb310822a1c683728fb69219b07712",
+    "manifest_sha256": "0631abbec78db488ee35dc65650803063a02398a381cd50adc037526f37b1bee",
     "trusted_verifier_sha256": "ebecf851d4196715df186cc81cc3c933ab7da550fbafd7207996cd94b9cd2739",
-    "receipt": "work/research/2026-11-10/post-release-qa/consumer-v24-handoff.json",
-    "scope": "Qualified post9 correction batch; historical Dover adoption/text, Ohio veto distinction and Indiana failed proposal mechanism. Two stale Wyoming historical review questions reconciled. No universal current-law finding or renewed downstream project applicability review. Hosting-copy hold remains separate."
+    "receipt": "work/research/2026-11-10/post-release-qa/consumer-v25-handoff.json",
+    "scope": "Qualified post10 correction batch: Monument signed text, Missouri historical outcomes, Minnesota inferred failure and Virginia final returned-bill vetoes; seven historical review closures including stale Wyoming scope acceptance. Original cutoff retained; later force, sponsor-party, successor-law and independent Massachusetts QA holds remain. Hosting-copy hold and downstream applicability are separate."
   },
   "prior_published_source_reference": "The v2026.11.10.post7 tag and manifest pin source ad7af813. Ten anonymous assets, full clean restore, V22 and23 hosted surfaces are verified. Final receipt-copy delivery is tracked separately. No universal freshness or current-force claim.",
   "pending_hosted_delivery": {
@@ -162,8 +163,8 @@
       42807068191
     ],
     "active_deployment_run": null,
-    "latest_undelivered_release": "v2026.11.10.post10",
-    "latest_release_source_commit": "dee9e87d22080a96f2f7fa5191d89afee8407d49",
+    "latest_undelivered_release": "v2026.11.10.post11",
+    "latest_release_source_commit": "dd4e06ceff1d5cb099575f84fdb16efa53694212",
     "latest_diagnostic": "work/research/2026-11-10/release-2026.11.10.post9/hosting-limit-diagnostic.json",
     "timeout_remedy": "Custom client waiting beyond10minutes is not a supported remedy under documented Pages deployment limit; no workflow change or retry dispatched."
   },
@@ -175,26 +176,5 @@
     "scope": "Selected data/QA bytes only; no full release-label/prose/receipt synchronization claim."
   },
   "latest_disposition_review": "work/research/2026-11-09/post-release-qa/virginia-returned-veto-adjudications.json",
-  "status_baseline_comparison": "work/research/2026-11-09/post-release-qa/current-status-category-baseline-delta.json",
-  "pending_consumer_input_delta": {
-    "baseline_source_commit": "dee9e87d22080a96f2f7fa5191d89afee8407d49",
-    "baseline_consumer_commit": "30a1f1f8abcb310822a1c683728fb69219b07712",
-    "changed_cells": 115,
-    "changed_policy_cells": 115,
-    "changed_policy_rows": 106,
-    "changed_local_cells": 0,
-    "changed_local_rows": 0,
-    "status_category_changes": 0,
-    "normalized_date_changes": 0,
-    "scope_membership_changes": 0,
-    "whole_record_closures": 0,
-    "additional_reviews": [
-      "work/research/2026-11-09/post-release-qa/georgia-sb34-history-adjudication.json",
-      "work/research/2026-11-09/post-release-qa/minnesota-author-roster-adjudications.json",
-      "work/research/2026-11-09/post-release-qa/minnesota-source-links-adjudications.json",
-      "work/research/2026-11-09/post-release-qa/texas-wv-source-links-adjudications.json",
-      "work/research/2026-11-09/post-release-qa/remaining-policy-source-links-adjudications.json"
-    ],
-    "scope": "115 policy fields across106records since post10/V25: GeorgiaSB34 terminal-history prose, ten Minnesota author/partyVERIFY corrections, and104previously blank primary links. All448policy observations now carry a retained official primary reference. This is reference completeness, not universal source freshness or legal-force acceptance. No categories, dates, analytical membership, native history or prior historical outcome dispositions changed; no new closures. Release/consumer delivery pending."
-  }
+  "status_baseline_comparison": "work/research/2026-11-09/post-release-qa/current-status-category-baseline-delta.json"
 }

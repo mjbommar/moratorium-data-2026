@@ -1,5 +1,7 @@
 # Implementation TODO
 
+- [x] Deliver qualified post11 and additive V26: 115 fields across 106 policy observations (104 official primary links, ten Minnesota author/party corrections and one Georgia status summary). Two identical builds, full clean restore, ten anonymous downloads, all 2,453 archive members and independent consumer checks passed. All 448 policy observations have primary references; no new whole-record closures or category changes. 1,347 reviews and the separate website-copy hold remain open.
+
 - [x] Fill remaining 75 policy primary-reference blanks using retained official sources; all 448 observations now have a reference. Title/header omissions checked against raw HTML or PDF layout; zero new network calls. No outcome/closure changes; 1,347 reviews remain unresolved. 115 policy fields across 106 records await delivery.
 
 - [x] Fill nineteen Texas/West Virginia primary-source URLs from retained exact bill/session histories, with zero new network calls. Blank primary URLs 94 to 75; prior outcome dispositions and 1,347 unresolved reviews unchanged. Forty fields across 31 records now await delivery.

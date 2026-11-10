@@ -1,0 +1,1062 @@
+{
+  "source_commit": "dd4e06ceff1d5cb099575f84fdb16efa53694212",
+  "manifest_sha256": "75a9f6ca519b07f0c429e5c89ebeb0ec3ee8c7c8709be1f075c330c4865f42f5",
+  "expanded_snapshot": "3ce33d22288fa7bc7100c9ac621c041037702e8370af1e663d53a548ff794725",
+  "current_counts": {
+    "moratorium_records": 1328,
+    "state_policy_records": 448,
+    "ballot_measures": 57,
+    "retained_results": 65,
+    "current_results": 53,
+    "retained_events": 12,
+    "current_accepted_historical_events": 12,
+    "restriction_records": 3,
+    "measure_instrument_link_records": 1
+  },
+  "files": 2513,
+  "entries": 2725,
+  "verified_at": "2026-11-10T13:34:04.492387+00:00",
+  "consumer_verification": {
+    "handoff": {
+      "state": "verified",
+      "source_commit": "dd4e06ceff1d5cb099575f84fdb16efa53694212",
+      "manifest_sha256": "75a9f6ca519b07f0c429e5c89ebeb0ec3ee8c7c8709be1f075c330c4865f42f5",
+      "expanded_snapshot": "3ce33d22288fa7bc7100c9ac621c041037702e8370af1e663d53a548ff794725",
+      "files": 2513,
+      "entries": 2725,
+      "checks": [
+        {
+          "command": [
+            "scripts/check_expanded_publication.py"
+          ],
+          "exit_code": 0,
+          "result": {
+            "state": "consistent",
+            "snapshot_sha256": "3ce33d22288fa7bc7100c9ac621c041037702e8370af1e663d53a548ff794725",
+            "generations_checked": 49,
+            "records": {
+              "jurisdictions": 53,
+              "elections": 51,
+              "ballot_measures": 57,
+              "measure_provisions": 52,
+              "measure_results": 65,
+              "local_restrictions": 3,
+              "instrument_events": 12,
+              "measure_instrument_links": 1,
+              "source_documents": 168,
+              "claims": 625,
+              "review_decisions": 2756,
+              "search_runs": 1,
+              "search_attempts": 3,
+              "search_sightings": 18,
+              "coverage_observations": 1
+            },
+            "scope": "Offline publication/receipt consistency only; no source reacquisition, renewed factual acceptance or current-force confirmation."
+          }
+        },
+        {
+          "command": [
+            "scripts/build_expanded_csv.py",
+            "--check"
+          ],
+          "exit_code": 0,
+          "result": {
+            "state": "matches",
+            "source_snapshot": "3ce33d22288fa7bc7100c9ac621c041037702e8370af1e663d53a548ff794725",
+            "projection_sha256": "7b585b49998f8ca39b0ff433fe15c34335ea171bdd8960af1e7e9fdcf852f6cb",
+            "csv_views": 18
+          }
+        },
+        {
+          "command": [
+            "scripts/build_policy_scope_exports.py",
+            "--check"
+          ],
+          "exit_code": 0,
+          "result": "policy-scope exports current"
+        }
+      ],
+      "checks_run": true,
+      "scope": "Pinned input integrity and offline publication consistency, not source reacquisition or downstream join acceptance."
+    },
+    "policy_semantics": {
+      "total_state_policy_actions": 448,
+      "total_state_bills": 427,
+      "state_policy_instrument_type_counts": {
+        "bill": 427,
+        "executive_order": 2,
+        "governor_directive": 1,
+        "legislative_amendment": 1,
+        "legislative_precursor": 3,
+        "legislative_resolution": 12,
+        "statute": 2
+      },
+      "top_states_by_bills": [
+        [
+          "Pennsylvania",
+          18
+        ],
+        [
+          "Virginia",
+          18
+        ],
+        [
+          "West Virginia",
+          18
+        ],
+        [
+          "Maryland",
+          16
+        ],
+        [
+          "New Jersey",
+          16
+        ],
+        [
+          "California",
+          14
+        ],
+        [
+          "South Dakota",
+          14
+        ],
+        [
+          "Arizona",
+          13
+        ],
+        [
+          "Iowa",
+          13
+        ],
+        [
+          "Michigan",
+          13
+        ],
+        [
+          "Minnesota",
+          12
+        ],
+        [
+          "Ohio",
+          12
+        ],
+        [
+          "Oklahoma",
+          12
+        ],
+        [
+          "Illinois",
+          11
+        ],
+        [
+          "Kansas",
+          11
+        ]
+      ],
+      "top_states_by_policy_actions": [
+        [
+          "Pennsylvania",
+          22
+        ],
+        [
+          "Virginia",
+          18
+        ],
+        [
+          "West Virginia",
+          18
+        ],
+        [
+          "Maryland",
+          17
+        ],
+        [
+          "New Jersey",
+          17
+        ],
+        [
+          "California",
+          14
+        ],
+        [
+          "Michigan",
+          14
+        ],
+        [
+          "South Dakota",
+          14
+        ],
+        [
+          "Arizona",
+          13
+        ],
+        [
+          "Iowa",
+          13
+        ],
+        [
+          "Kansas",
+          12
+        ],
+        [
+          "Minnesota",
+          12
+        ],
+        [
+          "Ohio",
+          12
+        ],
+        [
+          "Oklahoma",
+          12
+        ],
+        [
+          "Illinois",
+          11
+        ]
+      ]
+    }
+  },
+  "index_verification": {
+    "snapshot": "data/source-snapshots/moratoria/2026-11-10-reviewed-v26",
+    "source_commit": "dd4e06ceff1d5cb099575f84fdb16efa53694212",
+    "manifest_sha256": "75a9f6ca519b07f0c429e5c89ebeb0ec3ee8c7c8709be1f075c330c4865f42f5",
+    "tracked_files_and_symlinks": 2514,
+    "exact_staged_git_blob_bytes_and_modes": true,
+    "scope": "Exact staged snapshot content, Git modes and path set against the pinned manifest, including the manifest itself. This is not an independent legal review."
+  },
+  "baseline_handoff": "V25",
+  "expanded_tables_byte_identical": true,
+  "summary_delta": "Byte-identical numerical summary and native history; no status-category change.",
+  "changed_cells": 115,
+  "changed_local_cells": 0,
+  "changed_policy_cells": 115,
+  "changed_local_rows": 0,
+  "changed_policy_rows": 106,
+  "status_category_changes": 0,
+  "legal_effect_status_changes": 0,
+  "normalized_date_changes": 0,
+  "scope_membership_changes": 0,
+  "whole_record_closures": 0,
+  "unresolved_records": 1347,
+  "corrected_resolved_records": 190,
+  "confirmed_unchanged_records": 239,
+  "September_status_differences": {
+    "local": 98,
+    "policy": 35,
+    "total": 133
+  },
+  "field_changes": [
+    {
+      "dataset": "policy",
+      "id": "ar-sr7-sr12-and-hr1010-hr1015-2026-fiscal-session",
+      "field": "primary_source_url",
+      "before": "",
+      "after": "https://www.arkleg.state.ar.us/Bills/Detail?id=SR7&ddBienniumSession=2025%2F2026F"
+    },
+    {
+      "dataset": "policy",
+      "id": "ga-sb-34-2025-2026",
+      "field": "status",
+      "before": "Historical research dated 2026-07-31 reports: Died at sine die 2026-04-02; last action Senate Committee Favorably Reported By Substitute 2026-02-25, never reached a Senate floor vote. Complete supporting official action/calendar records were not retained for this review.",
+      "after": "Historical2025\u20132026 regular-session nonpassage is inferred from the complete official rendered SB34 history, which lists Senate recommittal January12,2026 and ends at a favorable committee report by substitute February25,2026, combined with retained actual House/Senate sine-die adjournment April2,2026 and second-year biennium authority. The Votes panel reports no votes available; no floor-passage or bill-specific Died event is invented. AM56 0043 adoption remains independently unverified."
+    },
+    {
+      "dataset": "policy",
+      "id": "mn-hf-3793-2026",
+      "field": "party",
+      "before": "[VERIFY]",
+      "after": "DFL; R (bipartisan co-authors)"
+    },
+    {
+      "dataset": "policy",
+      "id": "mn-hf-4077-2026",
+      "field": "sponsors",
+      "before": "Sponsor list not parsed from captured Revisor page [VERIFY: HF 4077 author list not extracted from captured Revisor page]",
+      "after": "Reps. Greenman (lead); Roach; Freiberg; Rehrauer; Kozlowski; Frederick; Johnson, P.; Xiong; Hudson; Berg; Smith; Gomez; Tabke; Pursell; Jones; Virnig; Rehm; Fischer"
+    },
+    {
+      "dataset": "policy",
+      "id": "mn-hf-4077-2026",
+      "field": "party",
+      "before": "[VERIFY]",
+      "after": "DFL; R (bipartisan co-authors)"
+    },
+    {
+      "dataset": "policy",
+      "id": "mn-hf-4077-2026",
+      "field": "primary_source_url",
+      "before": "",
+      "after": "https://www.revisor.mn.gov/bills/bill.php?b=house&f=HF4077&ssn=0&y=2026"
+    },
+    {
+      "dataset": "policy",
+      "id": "mn-hf-4814-sf-4548-2026",
+      "field": "primary_source_url",
+      "before": "",
+      "after": "https://www.revisor.mn.gov/bills/bill.php?b=house&f=HF4814&ssn=0&y=2026"
+    },
+    {
+      "dataset": "policy",
+      "id": "mn-sf-3968-hf-2928-2026",
+      "field": "primary_source_url",
+      "before": "",
+      "after": "https://www.revisor.mn.gov/bills/bill.php?b=senate&f=SF3968&ssn=0&y=2026"
+    },
+    {
+      "dataset": "policy",
+      "id": "mn-sf-4203-2026",
+      "field": "sponsors",
+      "before": "Author list not parsed from captured Revisor page [VERIFY: SF 4203 author list not extracted from captured Revisor page]",
+      "after": "Sens. Maye Quade (lead); Boldon"
+    },
+    {
+      "dataset": "policy",
+      "id": "mn-sf-4203-2026",
+      "field": "party",
+      "before": "[VERIFY]",
+      "after": "DFL"
+    },
+    {
+      "dataset": "policy",
+      "id": "mn-sf-4203-2026",
+      "field": "primary_source_url",
+      "before": "",
+      "after": "https://www.revisor.mn.gov/bills/bill.php?b=senate&f=SF4203&ssn=0&y=2026"
+    },
+    {
+      "dataset": "policy",
+      "id": "mn-sf-4296-hf-4512-2026",
+      "field": "primary_source_url",
+      "before": "",
+      "after": "https://www.revisor.mn.gov/bills/bill.php?b=senate&f=SF4296&ssn=0&y=2026"
+    },
+    {
+      "dataset": "policy",
+      "id": "mn-sf-4298-hf-4888-2026",
+      "field": "primary_source_url",
+      "before": "",
+      "after": "https://www.revisor.mn.gov/bills/bill.php?b=senate&f=SF4298&ssn=0&y=2026"
+    },
+    {
+      "dataset": "policy",
+      "id": "mn-sf-4816-2026",
+      "field": "primary_source_url",
+      "before": "",
+      "after": "https://www.revisor.mn.gov/bills/bill.php?b=senate&f=SF4816&ssn=0&y=2026"
+    },
+    {
+      "dataset": "policy",
+      "id": "mn-sf-5100-2026",
+      "field": "sponsors",
+      "before": "Author list not parsed from captured Revisor page [VERIFY: SF 5100 author list not extracted from captured Revisor page]",
+      "after": "Sen. Andrew Mathews"
+    },
+    {
+      "dataset": "policy",
+      "id": "mn-sf-5100-2026",
+      "field": "party",
+      "before": "[VERIFY]",
+      "after": "R"
+    },
+    {
+      "dataset": "policy",
+      "id": "mn-sf-5100-2026",
+      "field": "primary_source_url",
+      "before": "",
+      "after": "https://www.revisor.mn.gov/bills/bill.php?b=senate&f=SF5100&ssn=0&y=2026"
+    },
+    {
+      "dataset": "policy",
+      "id": "mn-sf-5231-2026",
+      "field": "sponsors",
+      "before": "Author list not parsed from captured Revisor page [VERIFY: SF 5231 author list not extracted from captured Revisor page]",
+      "after": "Sens. Maye Quade (lead); Boldon"
+    },
+    {
+      "dataset": "policy",
+      "id": "mn-sf-5231-2026",
+      "field": "party",
+      "before": "[VERIFY]",
+      "after": "DFL"
+    },
+    {
+      "dataset": "policy",
+      "id": "mn-sf-5231-2026",
+      "field": "primary_source_url",
+      "before": "",
+      "after": "https://www.revisor.mn.gov/bills/bill.php?b=senate&f=SF5231&ssn=0&y=2026"
+    },
+    {
+      "dataset": "policy",
+      "id": "mn-sf-608-hf-1109-2025",
+      "field": "party",
+      "before": "Mixed R (Lieske, Wesenberg, Gruenhagen, Roach) and DFL (Maye Quade, McEwen) [VERIFY: full House author list for HF 1109 not separately confirmed beyond Roach]",
+      "after": "Mixed R (Lieske, Wesenberg, Gruenhagen; sole House companion author Roach) and DFL (Maye Quade, McEwen)"
+    },
+    {
+      "dataset": "policy",
+      "id": "mn-sf-608-hf-1109-2025",
+      "field": "primary_source_url",
+      "before": "",
+      "after": "https://www.revisor.mn.gov/bills/bill.php?b=senate&f=SF608&ssn=0&y=2025"
+    },
+    {
+      "dataset": "policy",
+      "id": "nv-ab226-83rd-2025",
+      "field": "primary_source_url",
+      "before": "",
+      "after": "https://www.leg.state.nv.us/Session/83rd2025/Bills/AB/AB226.pdf"
+    },
+    {
+      "dataset": "policy",
+      "id": "nv-ab77-83rd-2025",
+      "field": "primary_source_url",
+      "before": "",
+      "after": "https://archive.leg.state.nv.us/Session/83rd2025/Bills/AB/AB77.pdf"
+    },
+    {
+      "dataset": "policy",
+      "id": "nv-sb403-83rd-2025",
+      "field": "primary_source_url",
+      "before": "",
+      "after": "https://archive.leg.state.nv.us/Session/83rd2025/Bills/SB/SB403_R2.pdf"
+    },
+    {
+      "dataset": "policy",
+      "id": "nh-hb1265-2026-lsr-26-2482",
+      "field": "primary_source_url",
+      "before": "",
+      "after": "https://gc.nh.gov/bill_status/billinfo.aspx?id=1685&inflect=2"
+    },
+    {
+      "dataset": "policy",
+      "id": "nh-hb1722-2026-lsr-26-2682",
+      "field": "primary_source_url",
+      "before": "",
+      "after": "https://gc.nh.gov/bill_status/billinfo.aspx?id=1892&inflect=2"
+    },
+    {
+      "dataset": "policy",
+      "id": "nh-hb1724-2026-lsr-26-2735",
+      "field": "primary_source_url",
+      "before": "",
+      "after": "https://gc.nh.gov/bill_status/billinfo.aspx?id=1943&inflect=2"
+    },
+    {
+      "dataset": "policy",
+      "id": "nh-hb1739-fn-2026-lsr-26-2699",
+      "field": "primary_source_url",
+      "before": "",
+      "after": "https://gc.nh.gov/bill_status/billinfo.aspx?id=1907&inflect=2"
+    },
+    {
+      "dataset": "policy",
+      "id": "nh-sb439-2026-lsr-26-2236",
+      "field": "primary_source_url",
+      "before": "",
+      "after": "https://gc.nh.gov/bill_status/billinfo.aspx?id=1435&inflect=2"
+    },
+    {
+      "dataset": "policy",
+      "id": "nj-a2770-2026-2027",
+      "field": "primary_source_url",
+      "before": "",
+      "after": "https://www.njleg.state.nj.us/bill-search/2026/A2770"
+    },
+    {
+      "dataset": "policy",
+      "id": "nj-a2774-s4304-2026-2027",
+      "field": "primary_source_url",
+      "before": "",
+      "after": "https://www.njleg.state.nj.us/bill-search/2026/A2774"
+    },
+    {
+      "dataset": "policy",
+      "id": "nj-a3966-2026-2027",
+      "field": "primary_source_url",
+      "before": "",
+      "after": "https://www.njleg.state.nj.us/bill-search/2026/A3966"
+    },
+    {
+      "dataset": "policy",
+      "id": "nj-a4710-2026-2027",
+      "field": "primary_source_url",
+      "before": "",
+      "after": "https://www.njleg.state.nj.us/bill-search/2026/A4710"
+    },
+    {
+      "dataset": "policy",
+      "id": "nj-a4769-2026-2027",
+      "field": "primary_source_url",
+      "before": "",
+      "after": "https://pub.njleg.state.nj.us/Bills/2026/A5000/4769_I1.HTM"
+    },
+    {
+      "dataset": "policy",
+      "id": "nj-a5224-2026-2027",
+      "field": "primary_source_url",
+      "before": "",
+      "after": "https://www.njleg.state.nj.us/bill-search/2026/A5224"
+    },
+    {
+      "dataset": "policy",
+      "id": "nj-a5294-s4402-2026-2027",
+      "field": "primary_source_url",
+      "before": "",
+      "after": "https://www.njleg.state.nj.us/bill-search/2026/A5294"
+    },
+    {
+      "dataset": "policy",
+      "id": "nm-hb-27-2026-technology-jobs-r-d-tax-credit-expansion",
+      "field": "primary_source_url",
+      "before": "",
+      "after": "https://www.nmlegis.gov/Legislation/Legislation?Chamber=H&LegType=B&LegNo=27&year=26"
+    },
+    {
+      "dataset": "policy",
+      "id": "nm-hm-45-2026-importance-of-water-in-taos",
+      "field": "primary_source_url",
+      "before": "",
+      "after": "https://www.nmlegis.gov/Sessions/26%20Regular/memorials/house/HM045.HTML"
+    },
+    {
+      "dataset": "policy",
+      "id": "ny-a9107-2025-2026",
+      "field": "primary_source_url",
+      "before": "",
+      "after": "https://www.nysenate.gov/legislation/bills/2025/A9107"
+    },
+    {
+      "dataset": "policy",
+      "id": "ny-s6394a-a9086a-2025-2026",
+      "field": "primary_source_url",
+      "before": "",
+      "after": "https://www.nysenate.gov/legislation/bills/2025/S6394"
+    },
+    {
+      "dataset": "policy",
+      "id": "ny-s6486d-a7389c-2021-2022-enacted",
+      "field": "primary_source_url",
+      "before": "",
+      "after": "https://www.nysenate.gov/legislation/bills/2021/S6486"
+    },
+    {
+      "dataset": "policy",
+      "id": "ny-s8037-2025-2026",
+      "field": "primary_source_url",
+      "before": "",
+      "after": "https://www.nysenate.gov/legislation/bills/2025/S8037"
+    },
+    {
+      "dataset": "policy",
+      "id": "ny-s8518-a9138-2025-2026",
+      "field": "primary_source_url",
+      "before": "",
+      "after": "https://www.nysenate.gov/legislation/bills/2025/S8518"
+    },
+    {
+      "dataset": "policy",
+      "id": "ny-s8536-a9064-2025-2026",
+      "field": "primary_source_url",
+      "before": "",
+      "after": "https://www.nysenate.gov/legislation/bills/2025/S8536"
+    },
+    {
+      "dataset": "policy",
+      "id": "ny-s8540-a9039a-2025-2026",
+      "field": "primary_source_url",
+      "before": "",
+      "after": "https://www.nysenate.gov/legislation/bills/2025/S8540"
+    },
+    {
+      "dataset": "policy",
+      "id": "ny-s8546-a10049-2025-2026",
+      "field": "primary_source_url",
+      "before": "",
+      "after": "https://www.nysenate.gov/legislation/bills/2025/S8546"
+    },
+    {
+      "dataset": "policy",
+      "id": "ny-s8645-a9136-2025-2026",
+      "field": "primary_source_url",
+      "before": "",
+      "after": "https://www.nysenate.gov/legislation/bills/2025/S8645"
+    },
+    {
+      "dataset": "policy",
+      "id": "ok-hb-1919-hb-1920-2025",
+      "field": "primary_source_url",
+      "before": "",
+      "after": "https://www.oklegislature.gov/BillInfo.aspx?Bill=HB1919&Session=2600"
+    },
+    {
+      "dataset": "policy",
+      "id": "ok-hb-2836-2025",
+      "field": "primary_source_url",
+      "before": "",
+      "after": "https://www.oklegislature.gov/BillInfo.aspx?Bill=HB2836&Session=2600"
+    },
+    {
+      "dataset": "policy",
+      "id": "ok-hb-2992-2026",
+      "field": "primary_source_url",
+      "before": "",
+      "after": "https://www.oklegislature.gov/BillInfo.aspx?Bill=HB2992&Session=2600"
+    },
+    {
+      "dataset": "policy",
+      "id": "ok-hb-3392-2026",
+      "field": "primary_source_url",
+      "before": "",
+      "after": "https://www.oklegislature.gov/BillInfo.aspx?Bill=HB3392&Session=2600"
+    },
+    {
+      "dataset": "policy",
+      "id": "ok-hb-3394-2026",
+      "field": "primary_source_url",
+      "before": "",
+      "after": "https://www.oklegislature.gov/BillInfo.aspx?Bill=HB3394&Session=2600"
+    },
+    {
+      "dataset": "policy",
+      "id": "ok-hb-3397-2026",
+      "field": "primary_source_url",
+      "before": "",
+      "after": "https://www.oklegislature.gov/BillInfo.aspx?Bill=HB3397&Session=2600"
+    },
+    {
+      "dataset": "policy",
+      "id": "ok-hb-4194-2026",
+      "field": "primary_source_url",
+      "before": "",
+      "after": "https://www.oklegislature.gov/BillInfo.aspx?Bill=HB4194&Session=2600"
+    },
+    {
+      "dataset": "policy",
+      "id": "ok-hb-4219-2026",
+      "field": "primary_source_url",
+      "before": "",
+      "after": "https://www.oklegislature.gov/BillInfo.aspx?Bill=HB4219&Session=2600"
+    },
+    {
+      "dataset": "policy",
+      "id": "ok-hb-4424-2026",
+      "field": "primary_source_url",
+      "before": "",
+      "after": "https://www.oklegislature.gov/BillInfo.aspx?Bill=HB4424&Session=2600"
+    },
+    {
+      "dataset": "policy",
+      "id": "ok-sb-1488-2026",
+      "field": "primary_source_url",
+      "before": "",
+      "after": "https://www.oklegislature.gov/BillInfo.aspx?Bill=SB1488&Session=2600"
+    },
+    {
+      "dataset": "policy",
+      "id": "ok-sb-1706-2026",
+      "field": "primary_source_url",
+      "before": "",
+      "after": "https://www.oklegislature.gov/BillInfo.aspx?Bill=SB1706&Session=2600"
+    },
+    {
+      "dataset": "policy",
+      "id": "or-hb-3546-2025",
+      "field": "primary_source_url",
+      "before": "",
+      "after": "https://olis.oregonlegislature.gov/liz/2025R1/Downloads/MeasureDocument/HB3546/Enrolled"
+    },
+    {
+      "dataset": "policy",
+      "id": "or-hb-3698-2025",
+      "field": "primary_source_url",
+      "before": "",
+      "after": "https://olis.oregonlegislature.gov/liz/2025R1/Downloads/MeasureDocument/HB3698"
+    },
+    {
+      "dataset": "policy",
+      "id": "or-hb-4084-2026",
+      "field": "primary_source_url",
+      "before": "",
+      "after": "https://olis.oregonlegislature.gov/liz/2026R1/Downloads/MeasureDocument/HB4084/Enrolled"
+    },
+    {
+      "dataset": "policy",
+      "id": "or-sb-1586-2026",
+      "field": "primary_source_url",
+      "before": "",
+      "after": "https://olis.oregonlegislature.gov/liz/2026R1/Downloads/MeasureDocument/SB1586"
+    },
+    {
+      "dataset": "policy",
+      "id": "or-sb-553-2025",
+      "field": "primary_source_url",
+      "before": "",
+      "after": "https://olis.oregonlegislature.gov/liz/2025R1/Downloads/MeasureDocument/SB553"
+    },
+    {
+      "dataset": "policy",
+      "id": "ri-h6097-2025",
+      "field": "primary_source_url",
+      "before": "",
+      "after": "https://webserver.rilegislature.gov/BillText25/HouseText25/H6097.htm"
+    },
+    {
+      "dataset": "policy",
+      "id": "ri-h7270-2026",
+      "field": "primary_source_url",
+      "before": "",
+      "after": "https://webserver.rilegislature.gov/BillText26/HouseText26/H7270.htm"
+    },
+    {
+      "dataset": "policy",
+      "id": "ri-h7331-2026",
+      "field": "primary_source_url",
+      "before": "",
+      "after": "https://webserver.rilegislature.gov/BillText26/HouseText26/H7331.htm"
+    },
+    {
+      "dataset": "policy",
+      "id": "ri-h7695-2026",
+      "field": "primary_source_url",
+      "before": "",
+      "after": "https://webserver.rilegislature.gov/BillText26/HouseText26/H7695.htm"
+    },
+    {
+      "dataset": "policy",
+      "id": "ri-s0921-2025",
+      "field": "primary_source_url",
+      "before": "",
+      "after": "https://webserver.rilegislature.gov/BillText25/SenateText25/S0921.htm"
+    },
+    {
+      "dataset": "policy",
+      "id": "ri-s2346-2026",
+      "field": "primary_source_url",
+      "before": "",
+      "after": "https://webserver.rilegislature.gov/BillText26/SenateText26/S2346.htm"
+    },
+    {
+      "dataset": "policy",
+      "id": "ri-s2427-2026",
+      "field": "primary_source_url",
+      "before": "",
+      "after": "https://webserver.rilegislature.gov/BillText26/SenateText26/S2427.htm"
+    },
+    {
+      "dataset": "policy",
+      "id": "ri-s2776-2026",
+      "field": "primary_source_url",
+      "before": "",
+      "after": "https://webserver.rilegislature.gov/Billtext/BillText26/SenateText26/S2776.htm"
+    },
+    {
+      "dataset": "policy",
+      "id": "sd-hb-1005-2026",
+      "field": "primary_source_url",
+      "before": "",
+      "after": "https://sdlegislature.gov/Session/Bill/26317/291571"
+    },
+    {
+      "dataset": "policy",
+      "id": "sd-hb-1198-2026",
+      "field": "primary_source_url",
+      "before": "",
+      "after": "https://sdlegislature.gov/Session/Bill/27162/299234"
+    },
+    {
+      "dataset": "policy",
+      "id": "sd-hb-1246-2026",
+      "field": "primary_source_url",
+      "before": "",
+      "after": "https://sdlegislature.gov/Session/Bill/27243/299800"
+    },
+    {
+      "dataset": "policy",
+      "id": "sd-hb-1301-2026",
+      "field": "primary_source_url",
+      "before": "",
+      "after": "https://sdlegislature.gov/Session/Bill/27287/301188"
+    },
+    {
+      "dataset": "policy",
+      "id": "sd-sb-127-2026",
+      "field": "primary_source_url",
+      "before": "",
+      "after": "https://sdlegislature.gov/Session/Bill/26300/297147"
+    },
+    {
+      "dataset": "policy",
+      "id": "sd-sb-128-2026",
+      "field": "primary_source_url",
+      "before": "",
+      "after": "https://sdlegislature.gov/Session/Bill/26547/297148"
+    },
+    {
+      "dataset": "policy",
+      "id": "sd-sb-177-2025",
+      "field": "primary_source_url",
+      "before": "",
+      "after": "https://sdlegislature.gov/Session/Bill/25901"
+    },
+    {
+      "dataset": "policy",
+      "id": "sd-sb-193-2026",
+      "field": "primary_source_url",
+      "before": "",
+      "after": "https://sdlegislature.gov/Session/Bill/26863"
+    },
+    {
+      "dataset": "policy",
+      "id": "sd-sb-239-2026",
+      "field": "primary_source_url",
+      "before": "",
+      "after": "https://sdlegislature.gov/Session/Bill/27299"
+    },
+    {
+      "dataset": "policy",
+      "id": "tn-hb1461-sb1832",
+      "field": "primary_source_url",
+      "before": "",
+      "after": "https://wapp.capitol.tn.gov/apps/BillInfo/Default.aspx?BillNumber=HB1461&ga=114"
+    },
+    {
+      "dataset": "policy",
+      "id": "tn-hb2047-sb2584",
+      "field": "primary_source_url",
+      "before": "",
+      "after": "https://wapp.capitol.tn.gov/apps/BillInfo/Default.aspx?BillNumber=HB2047&ga=114"
+    },
+    {
+      "dataset": "policy",
+      "id": "tn-hb2054-sb1999",
+      "field": "primary_source_url",
+      "before": "",
+      "after": "https://wapp.capitol.tn.gov/apps/BillInfo/Default.aspx?BillNumber=HB2054&ga=114"
+    },
+    {
+      "dataset": "policy",
+      "id": "tn-hb2061-sb1682",
+      "field": "primary_source_url",
+      "before": "",
+      "after": "https://wapp.capitol.tn.gov/apps/BillInfo/Default.aspx?BillNumber=HB2061&ga=114"
+    },
+    {
+      "dataset": "policy",
+      "id": "tn-hb2392-sb2653",
+      "field": "primary_source_url",
+      "before": "",
+      "after": "https://wapp.capitol.tn.gov/apps/BillInfo/Default.aspx?BillNumber=HB2392&ga=114"
+    },
+    {
+      "dataset": "policy",
+      "id": "tn-hb2456-sb2112",
+      "field": "primary_source_url",
+      "before": "",
+      "after": "https://wapp.capitol.tn.gov/apps/BillInfo/Default.aspx?BillNumber=HB2456&ga=114"
+    },
+    {
+      "dataset": "policy",
+      "id": "tn-hb2463-sb2681",
+      "field": "primary_source_url",
+      "before": "",
+      "after": "https://wapp.capitol.tn.gov/apps/BillInfo/Default.aspx?BillNumber=HB2463&ga=114"
+    },
+    {
+      "dataset": "policy",
+      "id": "tx-hb-2482-sb-1265-sb-1143-88r-2023",
+      "field": "primary_source_url",
+      "before": "",
+      "after": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=88R&Bill=HB2482"
+    },
+    {
+      "dataset": "policy",
+      "id": "tx-hb-3104-88r-2023",
+      "field": "primary_source_url",
+      "before": "",
+      "after": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=88R&Bill=HB3104"
+    },
+    {
+      "dataset": "policy",
+      "id": "tx-hb-3970-89r-2025",
+      "field": "primary_source_url",
+      "before": "",
+      "after": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89R&Bill=HB3970"
+    },
+    {
+      "dataset": "policy",
+      "id": "tx-hb-5588-89r-2025",
+      "field": "primary_source_url",
+      "before": "",
+      "after": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89R&Bill=HB5588"
+    },
+    {
+      "dataset": "policy",
+      "id": "tx-sb-1929-88r-2023",
+      "field": "primary_source_url",
+      "before": "",
+      "after": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=88R&Bill=SB1929"
+    },
+    {
+      "dataset": "policy",
+      "id": "tx-sb-1942-89r-2025",
+      "field": "primary_source_url",
+      "before": "",
+      "after": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89R&Bill=SB1942"
+    },
+    {
+      "dataset": "policy",
+      "id": "tx-sb-2222-89r-2025",
+      "field": "primary_source_url",
+      "before": "",
+      "after": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89R&Bill=SB2222"
+    },
+    {
+      "dataset": "policy",
+      "id": "tx-sb-2888-89r-2025",
+      "field": "primary_source_url",
+      "before": "",
+      "after": "https://capitol.texas.gov/BillLookup/History.aspx?Bill=SB2888&LegSess=89R"
+    },
+    {
+      "dataset": "policy",
+      "id": "tx-sjr-72-89r-2025",
+      "field": "primary_source_url",
+      "before": "",
+      "after": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89R&Bill=SJR72"
+    },
+    {
+      "dataset": "policy",
+      "id": "ut-hb0076-2026",
+      "field": "primary_source_url",
+      "before": "",
+      "after": "https://le.utah.gov/~2026/bills/static/HB0076.html"
+    },
+    {
+      "dataset": "policy",
+      "id": "ut-hb0507-2026",
+      "field": "primary_source_url",
+      "before": "",
+      "after": "https://le.utah.gov/~2026/bills/static/HB0507.html"
+    },
+    {
+      "dataset": "policy",
+      "id": "ut-hb0585-2026",
+      "field": "primary_source_url",
+      "before": "",
+      "after": "https://le.utah.gov/~2026/bills/static/HB0585.html"
+    },
+    {
+      "dataset": "policy",
+      "id": "ut-sb0114-2020",
+      "field": "primary_source_url",
+      "before": "",
+      "after": "https://le.utah.gov/~2020/bills/static/SB0114.html"
+    },
+    {
+      "dataset": "policy",
+      "id": "ut-sb0132-2025",
+      "field": "primary_source_url",
+      "before": "",
+      "after": "https://le.utah.gov/~2025/bills/static/SB0132.html"
+    },
+    {
+      "dataset": "policy",
+      "id": "ut-sb0282-2026",
+      "field": "primary_source_url",
+      "before": "",
+      "after": "https://le.utah.gov/~2026/bills/static/SB0282.html"
+    },
+    {
+      "dataset": "policy",
+      "id": "ut-sb0318-2026",
+      "field": "primary_source_url",
+      "before": "",
+      "after": "https://le.utah.gov/~2026/bills/static/SB0318.html"
+    },
+    {
+      "dataset": "policy",
+      "id": "wv-hb-3137-2025",
+      "field": "primary_source_url",
+      "before": "",
+      "after": "https://www.wvlegislature.gov/bill_status/bills_history.cfm?input=3137&sessiontype=RS&year=2025"
+    },
+    {
+      "dataset": "policy",
+      "id": "wv-hb-4822-2026",
+      "field": "primary_source_url",
+      "before": "",
+      "after": "https://www.wvlegislature.gov/bill_status/bills_history.cfm?input=4822&sessiontype=RS&year=2026"
+    },
+    {
+      "dataset": "policy",
+      "id": "wv-hb-4832-2026",
+      "field": "primary_source_url",
+      "before": "",
+      "after": "https://www.wvlegislature.gov/bill_status/bills_history.cfm?input=4832&sessiontype=RS&year=2026"
+    },
+    {
+      "dataset": "policy",
+      "id": "wv-hb-4854-2026",
+      "field": "primary_source_url",
+      "before": "",
+      "after": "https://www.wvlegislature.gov/bill_status/bills_history.cfm?input=4854&sessiontype=RS&year=2026"
+    },
+    {
+      "dataset": "policy",
+      "id": "wv-hb-4948-2026",
+      "field": "primary_source_url",
+      "before": "",
+      "after": "https://www.wvlegislature.gov/bill_status/bills_history.cfm?input=4948&sessiontype=RS&year=2026"
+    },
+    {
+      "dataset": "policy",
+      "id": "wv-hb-4983-2026",
+      "field": "primary_source_url",
+      "before": "",
+      "after": "https://www.wvlegislature.gov/bill_status/bills_history.cfm?input=4983&sessiontype=RS&year=2026"
+    },
+    {
+      "dataset": "policy",
+      "id": "wv-hb-5032-2026",
+      "field": "primary_source_url",
+      "before": "",
+      "after": "https://www.wvlegislature.gov/bill_status/bills_history.cfm?input=5032&sessiontype=RS&year=2026"
+    },
+    {
+      "dataset": "policy",
+      "id": "wv-hb-5590-2026",
+      "field": "primary_source_url",
+      "before": "",
+      "after": "https://www.wvlegislature.gov/Bill_Status/Bills_history.cfm?btype=bill&input=5590&sessiontype=RS&year=2026"
+    },
+    {
+      "dataset": "policy",
+      "id": "wv-hb-5620-2026",
+      "field": "primary_source_url",
+      "before": "",
+      "after": "https://www.wvlegislature.gov/Bill_Status/Bills_history.cfm?btype=bill&input=5620&sessiontype=RS&year=2026"
+    },
+    {
+      "dataset": "policy",
+      "id": "wv-sb-907-2025",
+      "field": "primary_source_url",
+      "before": "",
+      "after": "https://www.wvlegislature.gov/Bill_Status/Bills_history.cfm?btype=bill&input=907&sessiontype=RS&year=2025"
+    },
+    {
+      "dataset": "policy",
+      "id": "wi-ab722-sb729",
+      "field": "primary_source_url",
+      "before": "",
+      "after": "https://docs.legis.wisconsin.gov/2025/proposals/ab722"
+    }
+  ],
+  "trusted_verifier_sha256": "ebecf851d4196715df186cc81cc3c933ab7da550fbafd7207996cd94b9cd2739",
+  "scope": "Qualified post11 reference/authorship batch: 104 retained primary links, ten Minnesota author/party corrections and one Georgia status summary. All 448 policy observations have references; freshness, claim support and legal force remain separately reviewed. No new whole-record closures; 1347 unresolved. Hosting synchronization and downstream applicability remain separate.",
+  "consumer_commit": "86c7e37169b9d679233847830abc19022e652518",
+  "release_url": "https://github.com/mjbommar/moratorium-data-2026/releases/tag/v2026.11.10.post11",
+  "release_manifest_sha256": "72a2a42e5012f89082e3d4e2f46e9315cf10d31a1a8c5258dddc8dd6a741ee4f",
+  "hosted_copy_state": "pending"
+}

@@ -2,7 +2,7 @@
 
 **November patch release with pending QA:** [v2026.11.10.post11](https://github.com/mjbommar/moratorium-data-2026/releases/tag/v2026.11.10.post11) publishes the reviewed current state with explicit unresolved source and legal-status questions. Further checking continues. The older `v2026.11.8` remains an incomplete prerelease checkpoint.
 
-**Qualified patch:** 115 policy fields across 106 observations corrected: 104 retained official primary links, ten Minnesota author/party fields and Georgia SB34 historical-status prose. All 448 policy observations now have primary references; this does not certify freshness or current legal force. No category changes or new whole-record closures. [Release scope and delivery checks](work/research/2026-11-10/release-2026.11.10.post11/README.md); website synchronization remains on hold.
+**Qualified patch:** 115 policy fields across 106 observations corrected: 104 retained official primary links, ten Minnesota author/party fields and Georgia SB34 historical-status prose. All 448 policy observations now have primary references; this does not certify freshness or current legal force. No category changes or new whole-record closures. [Release downloads, full clean restore and consumer V26](work/research/2026-11-10/release-2026.11.10.post11/README.md) are verified; website synchronization remains on hold.
 
 **Continuing QA:** 1,347 records remain unresolved. Independent Massachusetts H5175 QA and record-specific source, authorship and later-force questions remain open. September status-category differences remain 133 (98 local, 35 policy). Each release tag preserves its exact snapshot.
 
