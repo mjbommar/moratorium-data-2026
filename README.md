@@ -1,10 +1,10 @@
 # Moratorium Data 2026
 
-**November patch release with pending QA:** [v2026.11.10.post11](https://github.com/mjbommar/moratorium-data-2026/releases/tag/v2026.11.10.post11) publishes the reviewed current state with explicit unresolved source and legal-status questions. Further checking continues. The older `v2026.11.8` remains an incomplete prerelease checkpoint.
+**November patch release with pending QA:** [v2026.11.10.post12](https://github.com/mjbommar/moratorium-data-2026/releases/tag/v2026.11.10.post12) publishes the reviewed current state with explicit unresolved source and legal-status questions. Further checking continues. The older `v2026.11.8` remains an incomplete prerelease checkpoint.
 
-**Qualified patch:** 115 policy fields across 106 observations corrected: 104 retained official primary links, ten Minnesota author/party fields and Georgia SB34 historical-status prose. All 448 policy observations now have primary references; this does not certify freshness or current legal force. No category changes or new whole-record closures. [Release downloads, full clean restore and consumer V26](work/research/2026-11-10/release-2026.11.10.post11/README.md) are verified; website synchronization remains on hold.
+**Qualified patch:** Fifteen fields across four Nebraska and Connecticut records corrected. Morris's adopted two-year term and source-reported dates replace conflicting draft reliance; Trumbull's effective-date anchor depends on publication. No status category changes or new whole-record closures. [Release scope and delivery checks](work/research/2026-11-10/release-2026.11.10.post12/README.md); website synchronization remains on hold.
 
-**Continuing QA:** 1,347 records remain unresolved. Independent Massachusetts H5175 QA and record-specific source, authorship and later-force questions remain open. September status-category differences remain 133 (98 local, 35 policy). Each release tag preserves its exact snapshot.
+**Continuing QA:** 1,347 records remain unresolved. Independent Massachusetts QA, exact publication/filing evidence and record-specific later force remain open. September status-category differences remain 133 (98 local, 35 policy). All 448 policy observations have primary references, without universal freshness or legal-force certification. Each release tag preserves its exact snapshot.
 
 **Latest ballot review:** [Canterbury's official meeting minutes](work/research/2026-11-10/canterbury-minutes-result-review/README.md) explicitly report Article 4 passed, 322–63, with clerk reports finalized. A new observation supersedes the earlier one without changing its tally. There are now 65 retained result versions; current observations remain 53 across 52 measures, with five certified. Certification/date and operative legal effect remain unknown for Canterbury. [Qualified post3 and matching V18 delivery](work/research/2026-11-10/release-2026.11.10.post3/README.md) are verified.
 
@@ -170,7 +170,7 @@ A `CITATION.cff` file is included in the repo so GitHub renders a "Cite this rep
 - **Data** (`data/`, `states/`, `tables/`, `figures/`) is licensed under [Creative Commons Attribution 4.0 (CC-BY-4.0)](LICENSE-data). You can reuse, redistribute, and remix the data, including commercially, as long as you credit the source.
 - **Code** (`scripts/`, `notebooks/`, `examples/`) is licensed under the [MIT License](LICENSE-code).
 
-The latest qualified release is [v2026.11.10.post11](https://github.com/mjbommar/moratorium-data-2026/releases/tag/v2026.11.10.post11), published November 10 with explicit pending QA. September 23 remains the historical comparison baseline. Pin the release tag for replication; working main may contain subsequent reviewed corrections. Historical version labels describe their dated editions, and no DOI is asserted.
+The latest qualified release is [v2026.11.10.post12](https://github.com/mjbommar/moratorium-data-2026/releases/tag/v2026.11.10.post12), published November 10 with explicit pending QA. September 23 remains the historical comparison baseline. Pin the release tag for replication; working main may contain subsequent reviewed corrections. Historical version labels describe their dated editions, and no DOI is asserted.
 
 ---
 
