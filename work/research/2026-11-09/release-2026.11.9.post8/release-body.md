@@ -1,0 +1,11 @@
+# Qualified update: Starke historical restriction adoption
+
+This update adds signed Starke County Ordinance 2026-34, adopted October 19, 2026, to the expanded model: one jurisdiction, one restriction, one adoption event, one official source, six claims and eighteen review decisions. The definition retains the specified telecom/public-broadband and accessory-IT exclusions and separate BESS provisions. Handwritten instrument identity and adoption date were visually reviewed against the signed PDF.
+
+The normal source-evidence gate covered all 619 claims. Atomic publication, exact replay, prior-record preservation and all 18 CSV projections passed. There are now three restriction records and eleven historical instrument events; these totals include a proposal and historical instruments with unresolved force. They are not three certified operative bans.
+
+Both legacy CSVs and every prior expanded record are unchanged from post7. Ballot totals remain 57 measures, 64 retained results and 53 current observations across 52 measures, including five certified. Local totals remain 1,328 records: 1,087 classified active/extended, 64 pending and 171 past; 979 carry verification flags across 47 states. September status-category differences remain 98 local and 39 policy records, not 137 newly occurring government actions.
+
+QA continues: 1,368 whole-record dispositions remain unresolved, 171 corrected-resolved and 237 confirmed-unchanged. Starke's actual publication, effective date, current force, applicability and formal predecessor relationship remain open. A signed adoption is not proof of operative effect or formal moratorium termination. The Massachusetts addition still needs independent QA. Direct coordinator review is recorded without claiming a new independent reviewer. No complete nationwide freshness, current-law or project-specific certification is asserted. Earlier publications, snapshots and joins keep their historical editions.
+
+The original cohort cutoff remains historical metadata; later observations and reviews carry their own clocks. Release assets and consumer synchronization require separate delivery receipts. The source manifest and tag pin exact bytes; no DOI is asserted.
