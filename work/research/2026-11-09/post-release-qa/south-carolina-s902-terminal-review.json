@@ -1,0 +1,63 @@
+{
+  "reviewed_at": "2026-11-10T12:00:51.313840+00:00",
+  "records": [
+    {
+      "id": "sc-s-902-2026",
+      "prior_disposition": "unresolved",
+      "recommendation": "unresolved",
+      "prior_row_sha256": "d74e8992134720561134288c658030666e9a7fa6438da9e0cf72546ac1e91da5",
+      "current_row_sha256": "d74e8992134720561134288c658030666e9a7fa6438da9e0cf72546ac1e91da5",
+      "field_changes": [],
+      "remaining_questions": [
+        "Identify the controlling final126th-session adjournment disposition or any adopted superseding concurrent resolution and its treatment of S.902. Captured S.883 history shows Senate non-concurrence and House insistence/conference, so its proposed November8 date is not accepted as controlling. Section2-1-180 now supplies the general extension rule, not proof of S.902 final failure.",
+        "Verify definitive later S.902 action in an actual history/journal source. The new billsearch summary=B response contains the bill summary but no action-history table and cannot renew the retained November6 history observation."
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "name": "live-history",
+      "attempt_id": "efef311788de40648e0fe0991573cd34",
+      "url": "https://www.scstatehouse.gov/billsearch.php?billnumbers=902&session=126&summary=B",
+      "body_sha256": "d921b8b537c2b779ecf72593179c30b9d19d4df6c472f99ea2d21a83ff0a56cc",
+      "text_sha256": "4ec7fbbc5d059889dc020dcab4034ccecc2531f547aafb71321bf147d671abaa",
+      "body_observed_at": "2026-11-10T11:59:45.846680Z"
+    },
+    {
+      "name": "sine-die-resolution",
+      "attempt_id": "97871fc612594a50b22387b2dc8eedf3",
+      "url": "https://www.scstatehouse.gov/sess126_2025-2026/bills/883",
+      "body_sha256": "ee1a091f2ca9c11551d432afd94b02c919870ecb316e218989091817ec4eb35d",
+      "text_sha256": "6d11effb9a46666204967980da45d4db8102ad4971a650934cb20c94911ec28a",
+      "body_observed_at": "2026-11-10T11:59:46.641830Z"
+    },
+    {
+      "name": "adjournment-code",
+      "attempt_id": "b968f7f15c294c6a9b82b57d450a16d0",
+      "url": "https://www.scstatehouse.gov/code/t02c001.php",
+      "body_sha256": "837cb3ca72eefbb0c6e69cec1969c01b6990ea25597bc7b3fd2704f9ffd6cd12",
+      "text_sha256": "823d51c021b230012926fd355b97266cec95d550d7fbd24da6464956ff4d5e1c",
+      "body_observed_at": "2026-11-10T11:59:48.369007Z"
+    }
+  ],
+  "observations": [
+    "Targeted review of current code2-1-180: secondThursdayMay general adjournment, enumerated extensions, two-thirds concurrent-resolution conditions and June25,2026 Act246 amendment history. Only relevant provision reviewed, not entire code chapter.",
+    "S.883 captured history: May12 Senate non-concurrence; May13 House insists and conference committee. Proposed November8 terminal date not treated as an adopted controlling rule.",
+    "Live billsearch summary=B returned summary text, not definitive action history. Raw HTML inspected; its sole table does not supply February10 action history. Retained November6 original history/proposal captures are not recaptured or newly dated."
+  ],
+  "canonical_cells_changed": 0,
+  "status_category_changes": 0,
+  "whole_record_closures": 0,
+  "acquisition_accounting": {
+    "exa_used": 1,
+    "exa_cap": 1,
+    "fetch_used": 3,
+    "fetch_cap": 3,
+    "scope": "Three distinct official captures; no original bill-history/proposal recapture. Search snippets are discovery only."
+  },
+  "limitations": [
+    "No automatic failed/died category from apparent calendar passage or an unadopted proposed adjournment date.",
+    "No claim that all final journals, alternative sine-die resolutions or special sessions were searched.",
+    "Caps exhausted; next useful source would be final journal/adopted-resolution evidence, not repetition of these routes."
+  ]
+}
