@@ -1,5 +1,9 @@
 # Continuing QA after v2026.11.9
 
+## November 10: Nashville published adoption minutes
+
+The newly exposed Granicus archive supplied July 22 and August 4 minutes. The first records Resolution 2026-25 scheduling the second hearing; the second records unanimous adoption of Ordinance 2026-23. Four prose fields now reflect that sequence and the dated July 22 no-application/inquiry staff statement. The minutes do not reconcile the ordinance's distinct commencement/adoption-effective dates or prove later force. Seven cells across Lodi/Nashville now await release/consumer delivery after post6/V21; all status categories and 1,358 unresolved dispositions remain unchanged. [Review](nashville-meeting-minute-review.md).
+
 ## November 10: Lodi alternate signed certification
 
 Three Lodi prose fields now distinguish the newly captured July-hosted original ordinance from the retained February copy. The July-hosted signed certification lists publication February 11 and handwritten effectiveness February 12, consistent with section 8; the older copy lists February 11 for both. No express correction/supersession record or independent publication proof was inspected. Original endpoint, any gap, earlier regulatory endpoint and later force remain open. Nashville routing captures supplied no substantive 2026 minutes and do not resolve its distinct commencement/adoption-effective dates.

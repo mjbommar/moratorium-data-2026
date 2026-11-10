@@ -1,0 +1,11 @@
+# Nashville July 22 and August 4 minute review
+
+The Granicus archive linked from the official Town Council minutes page exposes the July 22 and August 4, 2026 meeting records. July 22 item 7.a records a first public hearing and unanimous approval of Resolution 2026-25 scheduling a second hearing for August 4. August 4 item 5.a records the second hearing and unanimous approval of Ordinance 2026-23 establishing a one-year data-center moratorium: Bill Lumpp, Kate Burns and Larry Taylor voted yea; no nays. The planning director's July 22 statement says no applications, inquiries or contacts about these uses had been received by the Town Manager or Planning Department in the Town or ETJ as of that meeting.
+
+Four prose fields now reflect that evidence: adoption description, current-status history, affected-project statement and outcome. The application/inquiry observation is historical, not a current check. The retained ordinance's July 23 commencement, July 23, 2027 scheduled end/earlier-regulation clause and effect-upon-August 4-adoption clause remain distinct. The minutes do not expressly reconcile those dates. Later zoning action and current legal force remain unresolved. Category, normalized adoption/end dates, duration metadata, coordinates, native tables and headline numbers are unchanged.
+
+One newly exposed archive and two directly linked HTML minute documents used all three admitted captures; no searches or old ordinance/routing-page recaptures occurred. All three captures were archived and exactly read back through the native store. Publication on the official linked archive does not independently certify legal effect or establish later force. Prior phase caps remain exhausted.
+
+The batch since post6/V21 is seven prose cells across two local records: three Lodi and four Nashville. Zero categories, normalized dates or whole-record dispositions changed. The unresolved total remains 1,358 and September status-category differences remain 134. Release and consumer delivery of this batch are pending.
+
+[Adjudication](nashville-meeting-minute-adjudication.json), [readbacks](nashville-meeting-minute-native-readback.json), [checks](nashville-meeting-minute-checks.json).
