@@ -1048,6 +1048,12 @@ def main():
             assert digest(json.dumps(current[key],sort_keys=True,separators=(',',':'),ensure_ascii=False).encode())==record['current_row_sha256']
             assert next(r for r in f['records'] if r['id']==record['id'])['disposition']==record['recommendation']=='unresolved'
             overlays[record['id']]=[public_text(q) for q in record['remaining_questions']]
+    ks_order_path=Path('work/research/2026-11-10/post-release-qa/kansas-sb51-amendment-order-review.json')
+    if ks_order_path.exists():
+        record=json.loads(ks_order_path.read_text());key=('state_policy',record['id'])
+        assert digest(json.dumps(current[key],sort_keys=True,separators=(',',':'),ensure_ascii=False).encode())==record['current_row_sha256']
+        assert next(r for r in f['records'] if r['id']==record['id'])['disposition']==record['recommendation']=='unresolved'
+        overlays[record['id']]=[public_text(q) for q in record['remaining_questions']]
     rows=[]
     for entry in f['records']:
         if entry['disposition']!='unresolved':continue
@@ -1075,6 +1081,7 @@ def main():
     summary['independence_operative_term_sha256']=digest(independence_path.read_bytes()) if independence_path.exists() else None
     summary['independence_ordinance19850_sha256']=digest(independence_later_path.read_bytes()) if independence_later_path.exists() else None
     summary['louisiana_hcr61_closing_window_sha256']=digest(la_hcr61_path.read_bytes()) if la_hcr61_path.exists() else None
+    summary['kansas_sb51_amendment_order_sha256']=digest(ks_order_path.read_bytes()) if ks_order_path.exists() else None
     summary['kansas_sb51_sb92_publication_sha256']=digest(ks_two_path.read_bytes()) if ks_two_path.exists() else None
     summary['kansas_sb98_publication_sha256']=digest(ks_publication_path.read_bytes()) if ks_publication_path.exists() else None
     summary['wyoming_sf91_fullname_sha256']=digest(wy_fullname_path.read_bytes()) if wy_fullname_path.exists() else None

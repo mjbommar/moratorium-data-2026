@@ -1,0 +1,69 @@
+{
+  "reviewed_at": "2026-11-10T16:59:16.617725+00:00",
+  "id": "ks-sb-51-2025-2026",
+  "current_row_sha256": "ccca2013054e966c3782b06a689f2d524531b72cdf893ea2121d1aa72f38ab40",
+  "recommendation": "unresolved",
+  "canonical_changes": 0,
+  "status_category_changes": 0,
+  "normalized_date_changes": 0,
+  "whole_record_closures": 0,
+  "native_source_readbacks": 3,
+  "sources": [
+    {
+      "attempt_id": "003a16c866614ff49aa5c01c2ebae7c8",
+      "url": "https://kslegislature.gov/b2025_26/laws/075_000_0000_chapter/075_072_0000_article/075_072_0005_section/075_072_0005_k/",
+      "body_sha256": "d1a616aa4a9bccb2758ccf991bd9ad442a4ce7b1bf32bc63d17d7651498376a8",
+      "text_sha256": "e1753d0eb6a4e7cdc187fc55572158e41a95620e927345e6e65bf7154f2e3fbc",
+      "fetched_at": "2026-11-10T16:57:15.618423+00:00",
+      "published": false
+    },
+    {
+      "attempt_id": "1a4268dda98d49b1bde71de6d25c5b0e",
+      "url": "https://kslegislature.gov/b2025_26/bills/HB2574/",
+      "body_sha256": "92b591d28d0964d49e4f517fc356443c38a59c1745e78844ffa5b529cd6e0f26",
+      "text_sha256": "8d48ebf8895c5d394fdf3ca13f361bfd92b5aa15033a4322915dba016c91be0e",
+      "fetched_at": "2026-11-10T16:57:29.575992+00:00",
+      "published": false
+    },
+    {
+      "attempt_id": "7a7ac0050c3c4622a34ca8656b68bb61",
+      "url": "https://kslegislature.gov/b2025_26/documents/view-leg/?apn=b2025_26/year2/ready_for_publication/hb_2574/hb2574_enrolled.pdf",
+      "body_sha256": "0839d056f5ddbd4565758b97c0fcfa60d028a83780e2e87e897d57189e7b81a5",
+      "text_sha256": "02abb1321fa5840892f379c43381504881e3c72631ff877d18ff931bc9dc3b27",
+      "fetched_at": "2026-11-10T16:57:48.280807+00:00",
+      "published": false
+    }
+  ],
+  "retained_sources_reused": [
+    {
+      "key": "cd3a45b8460c8383-503214f77343",
+      "locator": "SB51 enrolled HTML rendering section7; inspect semantic strike elements rather than flattened text alone"
+    },
+    {
+      "attempt_id": "d424d0cea4f84f1286562bf25f7a6319",
+      "locator": "2026 composite table PDF physical2 key and unreconciled-statutes list; physical51 version-order entries"
+    }
+  ],
+  "findings": [
+    "HB2574 section18 names a specific2024 amended version in its repeal; SB51 section7 names2025Supp version in its amendment. A broad repeal of every version is not established by this text.",
+    "The Revisor order column records sequencing, not necessarily an unresolved conflict.75-7205 is not in the preface unreconciled-statutes list.",
+    "Captured statute text omits SB51 additions(b)(12)-(14). Its body cannot establish consolidated2026 operative wording.",
+    "SB51 section7 retains an existing third-party data-center location provision(b)(10); this is not a new2026 exemption and does not revive the replaced original tax-exemption proposal."
+  ],
+  "remaining_questions": [
+    "Independent review of the Revisor2026 composite amendment table: SB51 section2/46-1135, sections3-6/75-4704,75-4705,75-4709,75-4714, section7/75-7205 and new section1/75-7247 are listed under session-law chapter153 with July1,2026 effective dates. PDF physical27/printed25 row46-1135 was visually checked; other relevant rows are in physical49-52. This is section-specific official publication evidence, not an inferred date from governor approval.",
+    "Independent reconciliation review: retainedHB2574 enrolled HTML section18 specifically repeals75-7205 as amended by2024 session-law chapter95 section23; retainedSB51 section7 amends2025Supp75-7205. Revisor table key defines order as sequence for reading versions; its unreconciled-statutes list does not include75-7205. Do not treat the repeal/amendment labels alone as proof of a surviving conflict. Review the actual version-specific chain before current-force acceptance.",
+    "The newly captured75-7205 statute body lacks SB51 section7 additions(b)(12)-(14), and retains conjunction/punctuation that SB51 strikes. The comparison removed HTML strike tags from the retained enrolled rendering and normalized whitespace only. The source page is not sufficient evidence of a consolidated2026 text. Preserve source/version provenance; review later changes and implementation before definitive present-force or actual-project conclusions."
+  ],
+  "acquisition_accounting": {
+    "exa_searches": 1,
+    "exa_cost_usd": 0.007,
+    "fetch_operations": 3,
+    "fetch_cap": 3
+  },
+  "limitations": [
+    "No independent material review completed; proposed normalized dates remain unapplied.",
+    "No comprehensive later-law, implementation or judicial audit; current-force status unchanged.",
+    "Enrolled view-leg responses are HTML renderings despite.pdf in their request parameter; they are not misrepresented as original PDF bytes."
+  ]
+}
