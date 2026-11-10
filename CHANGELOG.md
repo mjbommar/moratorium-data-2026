@@ -2,7 +2,7 @@
 
 ## Qualified v2026.11.10.post7
 
-Seven text fields across Lodi and Nashville clarified from distinct signed versions and published council minutes. No category, normalized-date, native-table or whole-record-disposition changes.1,358 unresolved and134 September category differences remain. Lodi version reconciliation/publication and Nashville commencement/effectiveness discrepancies remain explicit. [Qualified post7/V22 delivery](work/research/2026-11-10/release-2026.11.10.post7/README.md) is being verified.
+Seven text fields across Lodi and Nashville clarified from distinct signed versions and published council minutes. No category, normalized-date, native-table or whole-record-disposition changes.1,358 unresolved and134 September category differences remain. Lodi version reconciliation/publication and Nashville commencement/effectiveness discrepancies remain explicit. [Qualified post7/V22 delivery](work/research/2026-11-10/release-2026.11.10.post7/README.md) verified.
 
 | Metric | Qualified v2026.11.10.post7 |
 |---|---:|

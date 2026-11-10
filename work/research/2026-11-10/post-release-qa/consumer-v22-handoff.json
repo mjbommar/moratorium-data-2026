@@ -1,0 +1,301 @@
+{
+  "source_commit": "ad7af81345dc0bb72b9b48a09abc574199c9311e",
+  "manifest_sha256": "a2e318c1993a9338c8723cbe0dab41d77ad5d8872276920c467f6077355ecc7c",
+  "expanded_snapshot": "3ce33d22288fa7bc7100c9ac621c041037702e8370af1e663d53a548ff794725",
+  "current_counts": {
+    "moratorium_records": 1328,
+    "state_policy_records": 448,
+    "ballot_measures": 57,
+    "retained_results": 65,
+    "current_results": 53,
+    "retained_events": 12,
+    "current_accepted_historical_events": 12,
+    "restriction_records": 3,
+    "measure_instrument_link_records": 1
+  },
+  "files": 2438,
+  "entries": 2646,
+  "verified_at": "2026-11-10T10:20:07.960036+00:00",
+  "consumer_verification": {
+    "handoff": {
+      "state": "verified",
+      "source_commit": "ad7af81345dc0bb72b9b48a09abc574199c9311e",
+      "manifest_sha256": "a2e318c1993a9338c8723cbe0dab41d77ad5d8872276920c467f6077355ecc7c",
+      "expanded_snapshot": "3ce33d22288fa7bc7100c9ac621c041037702e8370af1e663d53a548ff794725",
+      "files": 2438,
+      "entries": 2646,
+      "checks": [
+        {
+          "command": [
+            "scripts/check_expanded_publication.py"
+          ],
+          "exit_code": 0,
+          "result": {
+            "state": "consistent",
+            "snapshot_sha256": "3ce33d22288fa7bc7100c9ac621c041037702e8370af1e663d53a548ff794725",
+            "generations_checked": 49,
+            "records": {
+              "jurisdictions": 53,
+              "elections": 51,
+              "ballot_measures": 57,
+              "measure_provisions": 52,
+              "measure_results": 65,
+              "local_restrictions": 3,
+              "instrument_events": 12,
+              "measure_instrument_links": 1,
+              "source_documents": 168,
+              "claims": 625,
+              "review_decisions": 2756,
+              "search_runs": 1,
+              "search_attempts": 3,
+              "search_sightings": 18,
+              "coverage_observations": 1
+            },
+            "scope": "Offline publication/receipt consistency only; no source reacquisition, renewed factual acceptance or current-force confirmation."
+          }
+        },
+        {
+          "command": [
+            "scripts/build_expanded_csv.py",
+            "--check"
+          ],
+          "exit_code": 0,
+          "result": {
+            "state": "matches",
+            "source_snapshot": "3ce33d22288fa7bc7100c9ac621c041037702e8370af1e663d53a548ff794725",
+            "projection_sha256": "7b585b49998f8ca39b0ff433fe15c34335ea171bdd8960af1e7e9fdcf852f6cb",
+            "csv_views": 18
+          }
+        },
+        {
+          "command": [
+            "scripts/build_policy_scope_exports.py",
+            "--check"
+          ],
+          "exit_code": 0,
+          "result": "policy-scope exports current"
+        }
+      ],
+      "checks_run": true,
+      "scope": "Pinned input integrity and offline publication consistency, not source reacquisition or downstream join acceptance."
+    },
+    "policy_semantics": {
+      "total_state_policy_actions": 448,
+      "total_state_bills": 427,
+      "state_policy_instrument_type_counts": {
+        "bill": 427,
+        "executive_order": 2,
+        "governor_directive": 1,
+        "legislative_amendment": 1,
+        "legislative_precursor": 3,
+        "legislative_resolution": 12,
+        "statute": 2
+      },
+      "top_states_by_bills": [
+        [
+          "Pennsylvania",
+          18
+        ],
+        [
+          "Virginia",
+          18
+        ],
+        [
+          "West Virginia",
+          18
+        ],
+        [
+          "Maryland",
+          16
+        ],
+        [
+          "New Jersey",
+          16
+        ],
+        [
+          "California",
+          14
+        ],
+        [
+          "South Dakota",
+          14
+        ],
+        [
+          "Arizona",
+          13
+        ],
+        [
+          "Iowa",
+          13
+        ],
+        [
+          "Michigan",
+          13
+        ],
+        [
+          "Minnesota",
+          12
+        ],
+        [
+          "Ohio",
+          12
+        ],
+        [
+          "Oklahoma",
+          12
+        ],
+        [
+          "Illinois",
+          11
+        ],
+        [
+          "Kansas",
+          11
+        ]
+      ],
+      "top_states_by_policy_actions": [
+        [
+          "Pennsylvania",
+          22
+        ],
+        [
+          "Virginia",
+          18
+        ],
+        [
+          "West Virginia",
+          18
+        ],
+        [
+          "Maryland",
+          17
+        ],
+        [
+          "New Jersey",
+          17
+        ],
+        [
+          "California",
+          14
+        ],
+        [
+          "Michigan",
+          14
+        ],
+        [
+          "South Dakota",
+          14
+        ],
+        [
+          "Arizona",
+          13
+        ],
+        [
+          "Iowa",
+          13
+        ],
+        [
+          "Kansas",
+          12
+        ],
+        [
+          "Minnesota",
+          12
+        ],
+        [
+          "Ohio",
+          12
+        ],
+        [
+          "Oklahoma",
+          12
+        ],
+        [
+          "Illinois",
+          11
+        ]
+      ]
+    }
+  },
+  "index_verification": {
+    "snapshot": "data/source-snapshots/moratoria/2026-11-10-reviewed-v22",
+    "source_commit": "ad7af81345dc0bb72b9b48a09abc574199c9311e",
+    "manifest_sha256": "a2e318c1993a9338c8723cbe0dab41d77ad5d8872276920c467f6077355ecc7c",
+    "tracked_files_and_symlinks": 2439,
+    "exact_staged_git_blob_bytes_and_modes": true,
+    "scope": "Exact staged snapshot content, Git modes and path set against the pinned manifest, including the manifest itself. This is not an independent legal review."
+  },
+  "baseline_handoff": "V21",
+  "expanded_tables_byte_identical": true,
+  "numeric_summary_byte_identical": true,
+  "changed_cells": 7,
+  "changed_local_cells": 7,
+  "changed_policy_cells": 0,
+  "changed_local_rows": 2,
+  "changed_policy_rows": 0,
+  "status_category_changes": 0,
+  "normalized_date_changes": 0,
+  "whole_record_closures": 0,
+  "unresolved_records": 1358,
+  "corrected_resolved_records": 179,
+  "confirmed_unchanged_records": 239,
+  "field_changes": [
+    {
+      "dataset": "local",
+      "id": "mi-lodi-township-2026",
+      "field": "duration",
+      "before": "Original Ordinance 2026-001: 180 days from its effective date or earlier qualifying regulations; section 8 and certification conflict on the February effective date. Successor Ordinance 2026-003: 180 days from August 20, 2026 or earlier qualifying regulations; approximately February 16, 2027 is a conditional outer endpoint.",
+      "after": "Original Ordinance 2026-001: 180 days from its effective date or earlier qualifying regulations; the July-hosted signed certification lists February 12, 2026, consistent with section 8, while the retained February copy lists February 11. Successor Ordinance 2026-003: 180 days from August 20, 2026 or earlier qualifying regulations; approximately February 16, 2027 is a conditional outer endpoint."
+    },
+    {
+      "dataset": "local",
+      "id": "mi-lodi-township-2026",
+      "field": "legal_basis",
+      "before": "Ordinance No. 2026-001 and Resolution No. 2026-007 adopted February 3, 2026. Section 8 of the original ordinance provides effect the day after publication, while its certification states both publication and effectiveness February 11; the operative date and original endpoint require verification. The Board adopted successor Ordinance No. 2026-003 on August 11, covering high-power facilities including data centers except small-scale accessory facilities, electrical substations over 10 MW and power-generating facilities over 1 MW.",
+      "after": "Ordinance No. 2026-001 and Resolution No. 2026-007 adopted February 3, 2026. Section 8 provides effect the day after publication. The July-hosted ordinance copy has a signed clerk certification listing publication February 11 and a handwritten effective date February 12, consistent with section 8; the retained February copy lists February 11 for both. No express correction/supersession statement or independent publication proof was inspected. The Board adopted successor Ordinance No. 2026-003 on August 11, covering high-power facilities including data centers except small-scale accessory facilities, electrical substations over 10 MW and power-generating facilities over 1 MW."
+    },
+    {
+      "dataset": "local",
+      "id": "mi-lodi-township-2026",
+      "field": "current_status",
+      "before": "Ordinance No. 2026-003 was adopted August 11, published August 19, and effective August 20, 2026. It imposes a 180-day moratorium on high-power facilities, including data centers with a small-scale accessory exception, or until relevant regulations take effect earlier. August 20 committee minutes report work on regulations. The original ordinance states effect the day after publication, but its certification lists February 11 as both publication and effective date. Later action, current legal force, the original endpoint and any gap remain unresolved. [VERIFY original effective date and endpoint, any gap, earlier regulatory endpoint and later action]",
+      "after": "Ordinance No. 2026-003 was adopted August 11, published August 19, and effective August 20, 2026. It imposes a 180-day moratorium on high-power facilities, including data centers with a small-scale accessory exception, or until relevant regulations take effect earlier. August 20 committee minutes report work on regulations. The July-hosted original Ordinance 2026-001 copy certifies publication February 11 and effectiveness February 12, consistent with its day-after-publication clause; the retained February copy instead lists February 11 for both. The alternate signed copy narrows the effective-date question but does not expressly reconcile the versions or prove independent publication, the actual original endpoint, any gap or later legal force. [VERIFY version reconciliation/publication, original endpoint, any gap, earlier regulatory endpoint and later action]"
+    },
+    {
+      "dataset": "local",
+      "id": "nc-town-of-nashville-2026",
+      "field": "date_enacted",
+      "before": "2026-08-04, Town Council adoption of Ordinance 2026-23 after a public hearing (hearing set July 22; moratorium runs from July 23)",
+      "after": "2026-08-04, published Town Council minutes record unanimous approval of Ordinance 2026-23 after the second public hearing. July 22 minutes record the first hearing and Resolution 2026-25 scheduling the August 4 hearing; the ordinance separately states July 23 commencement."
+    },
+    {
+      "dataset": "local",
+      "id": "nc-town-of-nashville-2026",
+      "field": "current_status",
+      "before": "Ordinance 2026-23 states a July 23, 2026 commencement and July 23, 2027 scheduled end or earlier adoption of zoning rules; it also says it takes effect on its August 4, 2026 adoption. The effective-date discrepancy and later actions remain unresolved. The previous row recorded active status as of September 23, 2026; that later observation was not independently rechecked here.",
+      "after": "Published August 4, 2026 Town Council minutes record unanimous approval of Ordinance 2026-23 by Bill Lumpp, Kate Burns and Larry Taylor. July 22 minutes record the first public hearing and Resolution 2026-25 scheduling the second hearing for August 4, rather than adoption of the moratorium ordinance at that meeting. The retained ordinance states July 23 commencement and July 23, 2027 scheduled end or earlier adoption of zoning rules, while also providing effect upon August 4 adoption. The minutes establish this hearing/adoption sequence but do not expressly reconcile those distinct dates. Later zoning action and current legal force remain unresolved."
+    },
+    {
+      "dataset": "local",
+      "id": "nc-town-of-nashville-2026",
+      "field": "affected_projects",
+      "before": "None named.",
+      "after": "The planning director stated in the published July 22, 2026 minutes that no individual or company had applied for, inquired about or contacted the Town Manager or Planning Department regarding a data center, cryptocurrency mining facility or similar use in the Town or ETJ as of that meeting. This is a dated staff statement, not a current application-status check."
+    },
+    {
+      "dataset": "local",
+      "id": "nc-town-of-nashville-2026",
+      "field": "outcome",
+      "before": "12-month moratorium adopted.",
+      "after": "Published August 4, 2026 minutes record approval of Ordinance 2026-23 establishing a one-year data-center moratorium, with Lumpp, Burns and Taylor voting yea and no nays. July 22 action scheduled the second hearing; the minutes do not resolve the ordinance's July 23 commencement/August 4 adoption-effective discrepancy or establish later legal force."
+    }
+  ],
+  "trusted_verifier_sha256": "ebecf851d4196715df186cc81cc3c933ab7da550fbafd7207996cd94b9cd2739",
+  "scope": "Qualified post7 Lodi/Nashville text clarification batch. No category, normalized date/end, membership or whole-record-disposition changes. Version/publication, commencement/effectiveness, later action and current-force questions remain. Technical delivery is not independent substantive legal review.",
+  "consumer_commit": "5760ec426b1a43072606495fad1a0418c70e127c",
+  "consumer_remote_main": "5760ec426b1a43072606495fad1a0418c70e127c",
+  "release": "v2026.11.10.post7",
+  "release_url": "https://github.com/mjbommar/moratorium-data-2026/releases/tag/v2026.11.10.post7",
+  "release_manifest_sha256": "3dea617957548d3a74c07fb1a3b1055c0c2e365bbc8fe1f30ed5600e9d0f3619",
+  "hosted_receipt": "work/research/2026-11-10/release-2026.11.10.post7/hosted-copy-verification.json"
+}

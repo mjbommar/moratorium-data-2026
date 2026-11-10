@@ -6,7 +6,7 @@ Plan: [Research modernization and ballot-measure expansion](docs/research-and-ba
 
 - [x] Compare the distinct Lodi original-ordinance PDF and record its internally consistent February 12 signed certification; retain the older conflicting version and remaining legal-force questions. [Review](work/research/2026-11-09/post-release-qa/lodi-effective-version-review.md).
 - [x] Obtain the newly exposed Nashville July 22 and August 4 minutes; distinguish hearing-scheduling resolution from ordinance adoption and retain the unresolved commencement/effectiveness question. [Review](work/research/2026-11-09/post-release-qa/nashville-meeting-minute-review.md).
-- [ ] Deliver the seven post6/V21 Lodi/Nashville prose corrections in the next qualified release/consumer batch.
+- [x] Deliver the seven post6/V21 Lodi/Nashville prose corrections as qualified post7/V22; two identical builds, full clean restore, ten downloads,23 hosted surfaces and exact consumer Git blobs pass. Final receipt-copy verification is separate.
 
 - [x] Deliver the consolidated New Jersey twelve-cell/five-row correction as authenticated V6 inputs; preserve V5 and earlier snapshots. [Receipt](work/research/2026-11-09/post-release-qa/consumer-v6-handoff.md).
 

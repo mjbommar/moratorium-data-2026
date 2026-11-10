@@ -2,7 +2,7 @@
 
 **November patch release with pending QA:** [v2026.11.10.post7](https://github.com/mjbommar/moratorium-data-2026/releases/tag/v2026.11.10.post7) publishes the reviewed current state with explicit unresolved source and legal-status questions. Further checking continues. The older `v2026.11.8` remains an incomplete prerelease checkpoint.
 
-**Qualified patch:** Seven text fields distinguish Lodi’s conflicting signed effective-date versions and corroborate Nashville’s hearing/adoption sequence and dated staff application statement. Status categories and normalized dates are unchanged. [Release scope and delivery checks](work/research/2026-11-10/release-2026.11.10.post7/README.md); verification is pending, and earlier tags remain immutable.
+**Qualified patch:** Seven text fields distinguish Lodi’s conflicting signed effective-date versions and corroborate Nashville’s hearing/adoption sequence and dated staff application statement. Status categories and normalized dates are unchanged. [Release downloads, consumer V22 and23 hosted surfaces](work/research/2026-11-10/release-2026.11.10.post7/README.md) are verified; earlier tags remain immutable.
 
 **Continuing QA:** The latest retained-text comparison closes the historical SB130 incorporation review, with 1,358 unresolved records retained. HCR206 exact convening and Massachusetts H5175 independent QA remain open. There are 448 policy observations and 1,776 raw records. Use each release tag for its exact snapshot; later working changes retain their own receipts.
 
