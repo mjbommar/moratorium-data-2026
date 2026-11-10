@@ -1,0 +1,20 @@
+{
+  "source_commit": "522c752107785fd435067dd0c01ed28b97806e6d",
+  "pages_run": 42792571764,
+  "initial_attempt": {
+    "state": "failure",
+    "deploy_started_at": "2026-11-10T09:40:12Z",
+    "error_at": "2026-11-10T09:50:27.4897926Z",
+    "reason": "Timeout reached, aborting while status remained syncing_files",
+    "failure_log_sha256": "f117e9746585c11589dc72c4606350ece8f1bf62ef791fd6827e59ac6e234c38"
+  },
+  "retry": {
+    "requested_action": "rerun failed jobs only",
+    "request_cli_exit_code": 0,
+    "last_observed_status": "queued",
+    "last_observed_jobs": [],
+    "state": "not_yet_verified"
+  },
+  "canonical_assets_unchanged": true,
+  "qualification": "No new data build or premature retry was started; first attempt was confirmed terminal before requesting the single failed-job retry. Revalidate actual run/attempt state rather than relying on this context file."
+}

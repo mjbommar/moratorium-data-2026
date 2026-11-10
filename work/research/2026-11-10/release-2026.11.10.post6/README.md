@@ -1,19 +1,5 @@
-# Qualified local/policy batch preparation
+# Post6 downloads and consumer verified; hosted copy pending
 
-# Qualified local and policy clarification batch
+Published [v2026.11.10.post6](https://github.com/mjbommar/moratorium-data-2026/releases/tag/v2026.11.10.post6) pins `522c752107785fd435067dd0c01ed28b97806e6d`. [Exact eleven-field delta](dataset-delta.json), [scope/qualifications](release-body.md), [two identical builds](build-and-assets.json), [archive comparison](archive-comparison.json), [full clean restore](clean-restore.json), [ten anonymous downloads and2,365 archive members](public-verification.json), and [additiveV21 delivery](../post-release-qa/consumer-v21-handoff.md) pass.
 
-Eleven canonical fields change across three records relative to post5: three policy fields for UtahSB231, three local fields for Cullman, and five for Homewood. No status category, analytical membership, normalized adoption date, computed end date, or full-record disposition changes. September category differences remain134:98 local and36 policy.
-
-UtahSB231’s introduced tax/notice program is now distinguished fromS1’s eminent-domain/proof-shift text andS2’s exceptions. The retained history records a House procedural voice vote; the summary now distinguishes that vote from final passage. Its official URL is restored. Specific data-center applicability remains unestablished.
-
-Cullman's agenda-linked Resolution2026-116 text supplies a one-year/immediate-adoption formulation and exemptions, but its council, clerk and mayor execution lines are blank. DocuSign signatures on the routing form are not resolution execution. Three prose fields now attribute those clauses to the unsigned agenda version. No operative end date is computed. The generated table correctly displays the primary instrument as Resolution, distinct from the separate permanent-ban proposal.
-
-Homewood's official June22 minutes identify Ordinance2979 and record all three council members present voting yea, with two absent. They record that no data-center development or expansion application was then pending; that statement is limited toJune22. Five fields now use those official observations. The minutes do not reproduce the reported12-month term, possible six-month extension or greater-than-one-megawatt scope. Executed ordinance, publication/effective anchor, subsequent actions and present force remain open.
-
-Source-specific acquisitions include three Utah captures, six Alabama-route captures, one separately admitted embedded-PDF resolution link, and two Homewood archive/minute captures. The newly identified2979 number received one exact search without repeating known pages. Source bodies, extraction lineage and visual checks remain retained; experimental extraction is not promoted. The acquisition-window end is corrected toNovember10 to include these QA captures, without moving the original comprehensive research cutoff or claiming every record was refreshed then.
-
-Headline counts remain1,328 local records,1,087 classified active/extended,64 pending,171 past,979 verification flags,47 states;448 policy observations including427 typed bills and92 enacted-category bills. Expanded publication is unchanged:57 measures,65 retained result versions and53 current observations across52 measures, five certified.1,358 records remain unresolved,179 corrected-resolved and239 confirmed-unchanged. Massachusetts independent QA and other source/legal-force gaps remain explicit.
-
-Deterministic builds, full clean restore, anonymous downloads, hosted copy and additive consumerV21 checks are recorded separately when completed. Earlier releases/snapshots remain immutable. No universal current-force certification or DOI is asserted.
-
-Release and consumer delivery verification pending.
+[Pages deployment history](pages-deployment-history.json) records timeout while syncing_files and the accepted retry queued without jobs. Hosted copy remains pending. This checkpoint records verified publication/input delivery without asserting the site is updated. No canonical data changed after source freeze.1,358 records retain source-specific holds and134 September category differences remain.
