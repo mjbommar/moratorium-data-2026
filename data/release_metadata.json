@@ -7,7 +7,7 @@
     "end": "2026-11-09"
   },
   "asset_name": "moratorium-data-2026.11.9.post3.tar.gz",
-  "coverage": "The original 1,777 records retain primary and independent review artifacts; two duplicates are retired. One new Massachusetts package has direct source review with independent QA pending. Current 1,776 active raw IDs retain 1,397 unresolved, 142 corrected-resolved and 237 confirmed-unchanged scoped dispositions. No universal current-law certification.",
+  "coverage": "The original1,777 records retain primary and independent review artifacts; two duplicates are retired. One new Massachusetts package has direct source review with independent QA pending. Current1,776 active raw IDs retain1,392 unresolved,147 corrected-resolved and237 confirmed-unchanged scoped dispositions. No universal current-law certification.",
   "limitations": [
     "Recorded active/extended classifications do not prove current enforceability.",
     "Ballot voting, certification, passage and operative legal effect remain distinct.",
@@ -15,15 +15,15 @@
     "Experimental model extraction/P4 has not passed; no experimental extraction output is accepted automatically.",
     "The companion April paper and dated sibling publications retain their historical editions."
   ],
-  "update_status": "qualified_publication_with_pending_qa",
+  "update_status": "working_qa_after_v2026.11.9.post3",
   "full_inventory_closeout": "reviewed_and_applied_with_bounded_unresolved_questions",
   "consumer_dispositions": "delivered_with_historical_editions_preserved",
   "experimental_extractor": "failed_no_automatic_promotion",
   "quality_gate_disposition": "User authorized publication of the current state with qualifications on pending QA, followed by continued double checking and resolution of outstanding questions.",
-  "reviewed_data_source_commit": "b91dab524964c866f416678b3bb789066afe1f65",
+  "reviewed_data_source_commit": "462dd915554764df174bf2d2c504db1696dc7a09",
   "record_dispositions": {
-    "unresolved": 1397,
-    "corrected_resolved": 142,
+    "unresolved": 1392,
+    "corrected_resolved": 147,
     "confirmed_unchanged": 237,
     "superseded_duplicate": 0,
     "not_attempted": 0
@@ -31,7 +31,7 @@
   "record_disposition_path": "work/research/2026-11-08/full-record-dispositions/funnel.json",
   "qa_status": "ongoing",
   "publication_authorization": "publish current state with qualifications on pending QA, then continue to double check and clear the outstanding questions",
-  "working_revision": "qualified-patch-3",
+  "working_revision": "post3-qa-1",
   "current_raw_counts": {
     "local": 1328,
     "state_policy": 448,
@@ -49,5 +49,15 @@
     "scope": "Current canonical input delivery, matching qualified post3 source; remaining source/independent QA and historical joins stay separate."
   },
   "release_date_timezone": "America/New_York",
-  "published_source_commit": "b91dab524964c866f416678b3bb789066afe1f65"
+  "published_source_commit": "b91dab524964c866f416678b3bb789066afe1f65",
+  "pending_consumer_input_delta": {
+    "baseline_source_commit": "b91dab524964c866f416678b3bb789066afe1f65",
+    "baseline_consumer_commit": "04cfac6d3bcd1908ec90148deb0b91e4624e4364",
+    "changed_policy_rows": 5,
+    "changed_cells": 11,
+    "status_category_changes": 0,
+    "new_scope_inclusions": 4,
+    "receipt": "work/research/2026-11-09/post-release-qa/wisconsin-text-adjudications.json",
+    "scope": "Wisconsin version/applicability corrections and four explicit infrastructure-scope inclusions; new consumer input delivery remains pending."
+  }
 }

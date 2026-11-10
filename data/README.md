@@ -7,8 +7,8 @@ Canonical records and reproducible derived downloads for this project.
 | File | What it is | Size | Format |
 |------|------------|------|--------|
 | [`moratorium_inventory.csv`](moratorium_inventory.csv) | 1328 local-moratorium records. **Start here.** | 1,816,794 bytes | CSV |
-| [`state_legislation.csv`](state_legislation.csv) | 448 state-policy records; mechanisms and legal effects vary | 339,382 bytes | CSV |
-| [`state_policy_scope_reviews.jsonl`](state_policy_scope_reviews.jsonl) | Reviewed analytical scope decisions; raw rows retained, applied by the separate scope exports | 964,856 bytes | JSONL |
+| [`state_legislation.csv`](state_legislation.csv) | 448 state-policy records; mechanisms and legal effects vary | 341,736 bytes | CSV |
+| [`state_policy_scope_reviews.jsonl`](state_policy_scope_reviews.jsonl) | Reviewed analytical scope decisions; raw rows retained, applied by the separate scope exports | 975,127 bytes | JSONL |
 | [`summary_stats.json`](summary_stats.json) | Top-level aggregates (counts by state, by status, etc.) | 15,337 bytes | JSON |
 | [`structured_extractions.jsonl`](structured_extractions.jsonl) | 864 lines: 526 successful clause extractions + 338 LLM-call errors retained for transparency | ~2 MB | JSONL |
 | [`clause_extraction_analysis.json`](clause_extraction_analysis.json) | Pre-computed clause prevalence statistics for the n=348 cohort (confidence ≥ 0.4) | ~7 KB | JSON |
@@ -17,8 +17,8 @@ Canonical records and reproducible derived downloads for this project.
 ## State-policy scope downloads
 
 The raw state-policy CSV retains all 448 observations. The
-[reviewed inclusion export](policy-scope/reviewed-included.csv) contains 377
-observations explicitly included in infrastructure scope; 19 are excluded and 52
+[reviewed inclusion export](policy-scope/reviewed-included.csv) contains 381
+observations explicitly included in infrastructure scope; 19 are excluded and 48
 remain unresolved, with none unreviewed. The
 [annotated raw view](policy-scope/all-annotated.csv) preserves every observation
 and scope decision. The [candidate pool](policy-scope/not-explicitly-excluded-candidates.csv)

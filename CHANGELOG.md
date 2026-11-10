@@ -1,5 +1,22 @@
 # Changelog
 
+## Working QA after v2026.11.9.post3
+
+Current working snapshot: **1,328 local records**, **448 policy observations**, and **57 proposal/measure records** with **53 current result observations** (five certified).
+
+| Metric | Working QA after v2026.11.9.post3 |
+|---|---:|
+| Moratoria in the list | **1,328** |
+| Classified active or extended | **1,088** |
+| Pending or not yet effective | **64** |
+| Ended (replaced, expired, or rescinded) | **170** |
+| Rows we still want to confirm (`[VERIFY]`) | **979** |
+| States with at least one | **47** |
+
+Wisconsin original, adopted-substitute and filed-amendment review closes five text/applicability holds with11 field corrections. Four previously held scope observations become explicit inclusions:381 included,19 excluded,48 unresolved. All failed-bill status categories remain unchanged. Current scoped dispositions:1,392 unresolved,147 corrected-resolved,237 confirmed-unchanged. Proposed referendum conditions do not add ballot contests. [Review](work/research/2026-11-09/post-release-qa/wisconsin-text-adjudications.json).
+
+Published post3 assets retain their dated contents; working corrections remain source-specific and do not certify current law.
+
 ## v2026.11.9.post3 — qualified publication, QA ongoing
 
 Fresh Ohio status/committee pages close eight later-history holds. Five cells across three records change: three latest-recorded-action dates incorporate documented hearings, and two narratives add those hearings without asserting passage. No category or scope membership changes. Current scoped dispositions:1,397 unresolved,142 corrected-resolved,237 confirmed-unchanged. [Review](work/research/2026-11-09/post-release-qa/ohio-history-adjudications.json).

@@ -761,3 +761,6 @@ Exit: repeatable refresh with visible freshness, costs, failures and unresolved 
 
 - [x] Refresh eight Ohio status and committee pages, close eight later-history holds (three corrected/five unchanged), and correct five narrative/date cells without category or scope membership changes. Verify16 native and17 retained pairs and all nine checks. Current unresolved1,397; HB96 remains held. See `work/research/2026-11-09/post-release-qa/ohio-review.md`.
 - [x] Deliver five Ohio narrative/date corrections across three policy records as independently verified consumer V8, source `b91dab52`, consumer `04cfac6d`; see `work/research/2026-11-09/post-release-qa/consumer-v8-handoff.md`.
+
+- [x] Resolve five Wisconsin historical text/applicability holds using15 primary PDF captures,11 retained source-pair checks,six text comparisons and two-page amendment typography review. Apply11 cells and four new analytical inclusions:381 included/19 excluded/48 unresolved. All nine checks pass; unresolved records1,392. Act16 current force remains held. See `work/research/2026-11-09/post-release-qa/wisconsin-review.md`.
+- [ ] Deliver the11 Wisconsin field corrections across five records and four new analytical inclusions to the integration consumer and next qualified release; post3/V8 retain their authenticated cutoffs.
