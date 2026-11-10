@@ -1,0 +1,43 @@
+{
+  "reviewed_at": "2026-11-10T13:40:38.891219+00:00",
+  "id": "ne-lb613-2025",
+  "recommendation": "unresolved",
+  "prior_disposition": "unresolved",
+  "prior_row_sha256": "27acf5ca1d933fc8720ce0af27db0d4941207ee4e1ab9ba2140aafe6228a6e14",
+  "current_row_sha256": "e01bffe55466681374a0fead658877d07920efd2a068bf6ec5bec023cdb50d9e",
+  "field_changes": [
+    {
+      "field": "sponsors",
+      "before": "Sen. Andersen; Sen. Clouse and Sen. Sorrentino listed in earlier capture [VERIFY: full updated cosponsor list not extracted from a fresh capture as of 2026-04-29]",
+      "after": "Sen. Andersen (official page identifies introducer); Clouse and Sorrentino were listed in an earlier capture [VERIFY complete relevant-session cosponsor list; current official document page displays the introducer only]"
+    }
+  ],
+  "remaining_questions": [
+    "Complete relevant-session cosponsor list remains unresolved. Official view_bill header confirms Andersen as introducer but does not display Clouse, Sorrentino or a complete cosponsor list. No absence is inferred from this display; do not repeat the same view_actions/view_bill captures merely to restate this gap.",
+    "Establish provision-specific effective dates, implementation and subsequent legal force before assigning legal-effect acceptance or an effective-date value. Governor approval and marked-text analysis do not settle those questions."
+  ],
+  "sources": [
+    {
+      "attempt_id": "b2eb137a34ec4c34a186c148044fdfdf",
+      "url": "https://nebraskalegislature.gov/bills/view_actions.php?DocumentID=59758",
+      "body_sha256": "054158bd9c30eb98a4b346662fbd41581c9cb7007fd0d5c956057520698dfc56",
+      "text_sha256": "6250ea8658907652b399d12a6ded7e88b28ade0ec506ce6ebc5a6782b9af2368",
+      "body_observed_at": "2026-11-10T13:38:59.314027Z"
+    },
+    {
+      "attempt_id": "ef6ce29cf4fa45e0883f06940f396ebc",
+      "url": "https://nebraskalegislature.gov/bills/view_bill.php?DocumentID=59758",
+      "body_sha256": "a7588e6eb4213cf23e1a16bbdc53f7343090fdcf327d8469b94a8670346d6446",
+      "text_sha256": "d98ae909e0c0081733bbdc9b0dd77a0634a5aba8882b10666a9448412dae963a",
+      "body_observed_at": "2026-11-10T13:39:18.193604Z"
+    }
+  ],
+  "prior_adjudication_sha256": "8114e09c30ad05209b0d8b9cd4acf02313b6a0438e8a011ad62215a34ba08b4c",
+  "canonical_cells_changed": 1,
+  "whole_record_closures": 0,
+  "native_source_readbacks": 2,
+  "scope_before": "unresolved",
+  "scope_after": "unresolved",
+  "scope_decision_id": "4a347123-c5b2-4434-9633-2e7afaf9c53f",
+  "scope": "Introducer confirmed by raw official HTML; full cosponsors and effectiveness remain unresolved. Main-text extraction omits the relevant header. No category/date/force/membership/native-ballot-history changes."
+}

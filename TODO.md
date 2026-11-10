@@ -1,5 +1,7 @@
 # Implementation TODO
 
+- [x] Confirm Nebraska LB613 official introducer from the raw HTML document header omitted by the main-text extractor. One sponsor-field clarification; full cosponsors and provision-specific force remain unresolved. Two official sources archived with exact native-store readbacks. No new whole-record closures; 1,347 unresolved. One field awaits the next batched release/consumer delivery.
+
 - [x] Complete bounded Fairbanks ordinance-text recovery attempt: one Exa search and three captures yielded no usable ordinance body. [Recorded failures and next-route requirements](work/research/2026-11-10/post-release-qa/fairbanks-ordinance-recovery.json) are carried into the outstanding queue to prevent repeated acquisition. No canonical changes or closures; 1,347 reviews remain unresolved.
 
 - [x] Deliver qualified post11 and additive V26: 115 fields across 106 policy observations (104 official primary links, ten Minnesota author/party corrections and one Georgia status summary). Two identical builds, full clean restore, ten anonymous downloads, all 2,453 archive members and independent consumer checks passed. All 448 policy observations have primary references; no new whole-record closures or category changes. 1,347 reviews and the separate website-copy hold remain open.
