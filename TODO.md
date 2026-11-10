@@ -782,3 +782,5 @@ Exit: repeatable refresh with visible freshness, costs, failures and unresolved 
 
 - [x] Resolve the Sedgwick May extension number from official Resolution 095-2026, visually verify its handwritten header and the blank publication lines on 095/120, and retain source-stage cancelled/deferred planning updates. Apply four cells, verify three native source pairs, and preserve all three whole-record holds.
 - [ ] Synchronize the four Sedgwick local corrections after qualified post5/V10; retain their immutable cutoffs and outstanding QA.
+
+- [x] Retain six dated Ark Valley News publication candidates with exact native readbacks; record printed page identities and extracted-text limits, stop that guessed URL family and preserve the Sedgwick solar publication/later-action hold. No nonpublication inference or canonical changes.
