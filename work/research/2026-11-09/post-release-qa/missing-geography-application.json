@@ -1,0 +1,2245 @@
+{
+  "reviewed_at": "2026-11-10T01:04:43.651531+00:00",
+  "reviewer": "root direct retained-source identity review; no new independent review",
+  "scope": "39 previously blank jurisdiction map anchors only. No statuses, dates, legal fields, scope membership, verification markers or dispositions change. Representative points do not establish policy coverage or present enforceability.",
+  "input_inventory_sha256": "227f84fec56d59ee8c3dd15f0bda9dca099d83683fc845c556ae17b62365bb50",
+  "output_inventory_sha256": "11ee9639e59454aaff8169040566ad9cf38f154dd526845f677d5da47a9defb8",
+  "records": [
+    {
+      "id": "ak-fairbanks-north-star-borough-undated",
+      "dataset": "local_inventory",
+      "prior_row_sha256": "67a5b8daa48ac38eb048456a75a9a000bb7471b5659c7047c6474ae3603a8ca4",
+      "current_row_sha256": "9a29b614a471de5c942e615a13fef23ca479fb9491314c6b0727720e0a4d75d6",
+      "decision": "apply_geographic_reference_point",
+      "geography_question_resolved": true,
+      "whole_record_disposition_unchanged": true,
+      "sources": [
+        {
+          "url": "https://fnsb.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=13379,plainText=false)",
+          "body_sha256": "e4488f12f791d73cabae98b419822194d07c961e3fc4b6b3aa318577e83897cd",
+          "text_sha256": "883e34a6d59b7d75165772b422277f86a5cf207213b4834f14791631f7fbac4e",
+          "locator": "action memorandum page 3, lines 148\u2013159; October 22 referral"
+        }
+      ],
+      "gazetteer": {
+        "kind": "counties",
+        "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2026_Gazetteer/2026_Gaz_counties_national.zip",
+        "body_sha256": "6a99ca00efbc0be5112e225d4102704c51d5ce3b16e3afd6e4159460595fd12a",
+        "member": "2026_Gaz_counties_national.txt",
+        "member_sha256": "0c9bb040b1cded73b77541cab8acae7b5851ff9c257ad97a1094c0d8adfab9c1",
+        "observed_at": "2026-11-10T00:59:35.401805Z"
+      },
+      "census_record": {
+        "USPS": "AK",
+        "GEOID": "02090",
+        "GEOIDFQ": "0500000US02090",
+        "ANSICODE": "01419969",
+        "NAME": "Fairbanks North Star Borough",
+        "ALAND": "18996741456",
+        "AWATER": "259669039",
+        "ALAND_SQMI": "7334.683",
+        "AWATER_SQMI": "100.259",
+        "INTPTLAT": "64.670454",
+        "INTPTLONG": "-146.496061"
+      },
+      "identity_review": "Retained instrument/report names this jurisdiction; exact state, government name and legal type matched to Census2026 internal representative point. No boundary or policy-coverage inference.",
+      "prior_questions": [
+        "Obtain the October 22 ordinance text; packet recovery produced an empty response. Check November 10 commission action and subsequent assembly disposition when available."
+      ],
+      "remaining_questions": [
+        "Obtain the October 22 ordinance text; packet recovery produced an empty response. Check November 10 commission action and subsequent assembly disposition when available."
+      ]
+    },
+    {
+      "id": "ak-petersburg-borough-undated",
+      "dataset": "local_inventory",
+      "prior_row_sha256": "0cfacbd40eeed6a3aed2938025d5ca3549e627627244203e175c40bebf5cbe57",
+      "current_row_sha256": "a0d6cb46fecf90476b06517270cad7c7ef4e8c5082c86c30887a284d4841d16a",
+      "decision": "apply_geographic_reference_point",
+      "geography_question_resolved": true,
+      "whole_record_disposition_unchanged": true,
+      "sources": [
+        {
+          "url": "https://petersburgak.api.civicclerk.com/v1/Meetings/GetMeetingFileStream%28fileId=1923,plainText=false%29",
+          "body_sha256": "0babd91fdc057d597f9e834ecc9a6d3979e692ebc38a1e59df60f6ada0f361e9",
+          "text_sha256": "be5501d408f4ba0cc62ed5fa4c04860a78117b6a57d996f9e45886332a9fb36e",
+          "locator": "agenda page 3; packet pages 21\u201325, draft sections 1\u20133 and 6"
+        }
+      ],
+      "gazetteer": {
+        "kind": "counties",
+        "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2026_Gazetteer/2026_Gaz_counties_national.zip",
+        "body_sha256": "6a99ca00efbc0be5112e225d4102704c51d5ce3b16e3afd6e4159460595fd12a",
+        "member": "2026_Gaz_counties_national.txt",
+        "member_sha256": "0c9bb040b1cded73b77541cab8acae7b5851ff9c257ad97a1094c0d8adfab9c1",
+        "observed_at": "2026-11-10T00:59:35.401805Z"
+      },
+      "census_record": {
+        "USPS": "AK",
+        "GEOID": "02195",
+        "GEOIDFQ": "0500000US02195",
+        "ANSICODE": "02516404",
+        "NAME": "Petersburg Borough",
+        "ALAND": "7515234845",
+        "AWATER": "2397841177",
+        "ALAND_SQMI": "2901.649",
+        "AWATER_SQMI": "925.812",
+        "INTPTLAT": "57.245959",
+        "INTPTLONG": "-132.788762"
+      },
+      "identity_review": "Retained instrument/report names this jurisdiction; exact state, government name and legal type matched to Census2026 internal representative point. No boundary or policy-coverage inference.",
+      "prior_questions": [
+        "Obtain the official November 2 first-reading vote/minutes for Ordinance 2026-24. Event 863 maps to meeting 851 and item 707; at this observation only agenda 1922 and packet 1923 are published, and the item has empty minutes content with hasMotion/hasVote false. Those metadata defaults are not evidence of a failed motion or no vote.",
+        "Check subsequent official readings and any final adopted instrument, amendments and operative legal effect when published. The portal lists November 16 as the next Assembly event; a future listed event is not evidence of action."
+      ],
+      "remaining_questions": [
+        "Obtain the official November 2 first-reading vote/minutes for Ordinance 2026-24. Event 863 maps to meeting 851 and item 707; at this observation only agenda 1922 and packet 1923 are published, and the item has empty minutes content with hasMotion/hasVote false. Those metadata defaults are not evidence of a failed motion or no vote.",
+        "Check subsequent official readings and any final adopted instrument, amendments and operative legal effect when published. The portal lists November 16 as the next Assembly event; a future listed event is not evidence of action."
+      ]
+    },
+    {
+      "id": "ca-hayward-2026",
+      "dataset": "local_inventory",
+      "prior_row_sha256": "6fddf233b2ef1591a265b9586e34bc61fb837084527a62f510aea897ba74601d",
+      "current_row_sha256": "61b9f414e0a7c7206e0d44519c9fbf55dbe5e6162aec305fe5f6d71976b74a28",
+      "decision": "apply_geographic_reference_point",
+      "geography_question_resolved": true,
+      "whole_record_disposition_unchanged": true,
+      "sources": [
+        {
+          "url": "https://hayward.legistar.com/LegislationDetail.aspx?GUID=2D407310-FB5E-43DB-B1B9-4A9BD75D1B4F&ID=8291024",
+          "body_sha256": "2959151117753f94591b925893e84c4782e2cf5360d78847880d647646817d71",
+          "text_sha256": "125ff9e54c7b9a11571653f344526785a4f7456365f52a74eb0c18f5efe51b69",
+          "locator": "lines 1-4"
+        }
+      ],
+      "gazetteer": {
+        "kind": "place",
+        "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2026_Gazetteer/2026_Gaz_place_national.zip",
+        "body_sha256": "af678e2d990827c89ee39b98c82de6e90b693c7361ff0e559ae3076670dd2863",
+        "member": "2026_Gaz_place_national.txt",
+        "member_sha256": "e10cb8004732684fa2a75b9d6030c6c9171674d6b112cff29dbc1bc31a9b82fa",
+        "observed_at": "2026-11-10T00:59:35.410441Z"
+      },
+      "census_record": {
+        "USPS": "CA",
+        "GEOID": "0633000",
+        "GEOIDFQ": "1600000US0633000",
+        "ANSICODE": "02410724",
+        "NAME": "Hayward city",
+        "LSAD": "25",
+        "FUNCSTAT": "A",
+        "ALAND": "118669027",
+        "AWATER": "47415914",
+        "ALAND_SQMI": "45.818",
+        "AWATER_SQMI": "18.307",
+        "INTPTLAT": "37.626826",
+        "INTPTLONG": "-122.104015"
+      },
+      "identity_review": "Retained instrument/report names this jurisdiction; exact state, government name and legal type matched to Census2026 internal representative point. No boundary or policy-coverage inference.",
+      "prior_questions": [
+        "The retained city action, vote history, announcement and presented attachment were inspected. The final modified ordinance and its original term are unresolved; next source is the Hayward City Clerk's adopted 26-09 and minutes identifying the modification. No search attempt beyond the retained references is asserted."
+      ],
+      "remaining_questions": [
+        "The retained city action, vote history, announcement and presented attachment were inspected. The final modified ordinance and its original term are unresolved; next source is the Hayward City Clerk's adopted 26-09 and minutes identifying the modification. No search attempt beyond the retained references is asserted."
+      ]
+    },
+    {
+      "id": "co-brighton-undated",
+      "dataset": "local_inventory",
+      "prior_row_sha256": "7e28ebf8598de8c80ba62b67e108ddb6f442b27ed5fec938342c29af64f62d3c",
+      "current_row_sha256": "3f71bdfd19396ed9e32b9e6095847c20c96b2badeaa38485d068e02b4d19dd89",
+      "decision": "apply_geographic_reference_point",
+      "geography_question_resolved": true,
+      "whole_record_disposition_unchanged": true,
+      "sources": [
+        {
+          "url": "https://www.brightonco.gov/m/NewsFlash/Home/Detail/2989",
+          "body_sha256": "a709ae8be9a70aff148789d673ea022286ceeca6544cdd23e581811aa9fa81d1",
+          "text_sha256": "354257cae647f2799607947a59a682f16289d447c97592f246074b230739397a",
+          "locator": "lines 1-9"
+        }
+      ],
+      "gazetteer": {
+        "kind": "place",
+        "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2026_Gazetteer/2026_Gaz_place_national.zip",
+        "body_sha256": "af678e2d990827c89ee39b98c82de6e90b693c7361ff0e559ae3076670dd2863",
+        "member": "2026_Gaz_place_national.txt",
+        "member_sha256": "e10cb8004732684fa2a75b9d6030c6c9171674d6b112cff29dbc1bc31a9b82fa",
+        "observed_at": "2026-11-10T00:59:35.410441Z"
+      },
+      "census_record": {
+        "USPS": "CO",
+        "GEOID": "0808675",
+        "GEOIDFQ": "1600000US0808675",
+        "ANSICODE": "02409911",
+        "NAME": "Brighton city",
+        "LSAD": "25",
+        "FUNCSTAT": "A",
+        "ALAND": "56259372",
+        "AWATER": "658972",
+        "ALAND_SQMI": "21.722",
+        "AWATER_SQMI": "0.254",
+        "INTPTLAT": "39.965676",
+        "INTPTLONG": "-104.794056"
+      },
+      "identity_review": "Retained instrument/report names this jurisdiction; exact state, government name and legal type matched to Census2026 internal representative point. No boundary or policy-coverage inference.",
+      "prior_questions": [],
+      "remaining_questions": []
+    },
+    {
+      "id": "co-fort-collins-undated",
+      "dataset": "local_inventory",
+      "prior_row_sha256": "f0dd5ef302c4ea357a1fe9c1131a9c6c58377f3defc02c868775e0ad0d3e9903",
+      "current_row_sha256": "c2c95e27a6eadc7803c16f0d264698f9d5538e282088d93d4c2aeb11c83e358a",
+      "decision": "apply_geographic_reference_point",
+      "geography_question_resolved": true,
+      "whole_record_disposition_unchanged": true,
+      "sources": [
+        {
+          "url": "https://mccmeetingspublic.blob.core.usgovcloudapi.net/fortcollco-meet-598bc75958fb449185d8e1246cf812dc/ITEM-Attachment-003-430c66a2a1bb4d1bb33b0d1412480f6f.pdf",
+          "body_sha256": "39c5b67ca06932ddf7e5e44134e4d1eb250b74754a298d5d4f511e829423c3b3",
+          "text_sha256": "5a87234f4eba1fc000e37357427d8fd636629d5fcbdcd33654bf73bef51fd66c",
+          "locator": "Full retained text, jurisdiction identity passage"
+        }
+      ],
+      "gazetteer": {
+        "kind": "place",
+        "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2026_Gazetteer/2026_Gaz_place_national.zip",
+        "body_sha256": "af678e2d990827c89ee39b98c82de6e90b693c7361ff0e559ae3076670dd2863",
+        "member": "2026_Gaz_place_national.txt",
+        "member_sha256": "e10cb8004732684fa2a75b9d6030c6c9171674d6b112cff29dbc1bc31a9b82fa",
+        "observed_at": "2026-11-10T00:59:35.410441Z"
+      },
+      "census_record": {
+        "USPS": "CO",
+        "GEOID": "0827425",
+        "GEOIDFQ": "1600000US0827425",
+        "ANSICODE": "02410526",
+        "NAME": "Fort Collins city",
+        "LSAD": "25",
+        "FUNCSTAT": "A",
+        "ALAND": "148446565",
+        "AWATER": "3264783",
+        "ALAND_SQMI": "57.316",
+        "AWATER_SQMI": "1.261",
+        "INTPTLAT": "40.548405",
+        "INTPTLONG": "-105.064988"
+      },
+      "identity_review": "Retained instrument/report names this jurisdiction; exact state, government name and legal type matched to Census2026 internal representative point. No boundary or policy-coverage inference.",
+      "prior_questions": [
+        "The source lacks executed signatures and the separate Resolution 2026-117 or certified passage record was not recovered in the supplied routing; obtain Council meeting minutes, publication and executed ordinance. No actual jurisdiction-specific search attempt was located in the supplied routing; no search is claimed."
+      ],
+      "remaining_questions": [
+        "The source lacks executed signatures and the separate Resolution 2026-117 or certified passage record was not recovered in the supplied routing; obtain Council meeting minutes, publication and executed ordinance. No actual jurisdiction-specific search attempt was located in the supplied routing; no search is claimed."
+      ]
+    },
+    {
+      "id": "co-phillips-county-2025",
+      "dataset": "local_inventory",
+      "prior_row_sha256": "53132373a305bd8352191df9ae665c6df59cb7b3c6b37edd9cca4a8f42b09445",
+      "current_row_sha256": "8322f6ed335ea0fe11026eae2924e7574201b9e8285eb4b72253ce628999b3dd",
+      "decision": "apply_geographic_reference_point",
+      "geography_question_resolved": true,
+      "whole_record_disposition_unchanged": true,
+      "sources": [
+        {
+          "url": "https://phillipscounty.colorado.gov/sites/g/files/lrnvjt1351/files/Resolution%202025-09-30-01%20Amended%202.27.26.pdf",
+          "body_sha256": "f193ff0586b012bf42820bc5a4d0aff94d2d03b82baf74791946b37f4d68754d",
+          "text_sha256": "0799f18bb80f61a782f1b1d4b1e5ce3908489d0992a6029452baafaea60e234a",
+          "locator": "PDF pp. 1\u20134; text lines 19\u201377, 142\u2013158, 164\u2013192, 218\u2013244, 309\u2013325; page 4 visually inspected"
+        }
+      ],
+      "gazetteer": {
+        "kind": "counties",
+        "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2026_Gazetteer/2026_Gaz_counties_national.zip",
+        "body_sha256": "6a99ca00efbc0be5112e225d4102704c51d5ce3b16e3afd6e4159460595fd12a",
+        "member": "2026_Gaz_counties_national.txt",
+        "member_sha256": "0c9bb040b1cded73b77541cab8acae7b5851ff9c257ad97a1094c0d8adfab9c1",
+        "observed_at": "2026-11-10T00:59:35.401805Z"
+      },
+      "census_record": {
+        "USPS": "CO",
+        "GEOID": "08095",
+        "GEOIDFQ": "0500000US08095",
+        "ANSICODE": "00198163",
+        "NAME": "Phillips County",
+        "ALAND": "1781724974",
+        "AWATER": "301808",
+        "ALAND_SQMI": "687.928",
+        "AWATER_SQMI": "0.117",
+        "INTPTLAT": "40.594712",
+        "INTPTLONG": "-102.345105"
+      },
+      "identity_review": "Retained instrument/report names this jurisdiction; exact state, government name and legal type matched to Census2026 internal representative point. No boundary or policy-coverage inference.",
+      "prior_questions": [
+        "Identity of the solar/storage extension in the September 3 report with the 2025 resolution and subsequent actions not verified."
+      ],
+      "remaining_questions": [
+        "Identity of the solar/storage extension in the September 3 report with the 2025 resolution and subsequent actions not verified."
+      ]
+    },
+    {
+      "id": "co-phillips-county-2024",
+      "dataset": "local_inventory",
+      "prior_row_sha256": "43203ca000b39e8d9ac01a63dbaacd590c9b6a78c1a08ebc419b01abc46f21a4",
+      "current_row_sha256": "c0497fe4071e4b48ac268ac7dd3d65f895c4ef6a78fb357b3f822b98968fbccc",
+      "decision": "apply_geographic_reference_point",
+      "geography_question_resolved": true,
+      "whole_record_disposition_unchanged": true,
+      "sources": [
+        {
+          "url": "https://phillipscounty.colorado.gov/sites/g/files/lrnvjt1351/files/Resolution%202024-06-18-02%20Amended%202.27.26.pdf",
+          "body_sha256": "10074f51cdc82a74d0bd35953db0796b998d51472d18c8f12698717f8f68d6d2",
+          "text_sha256": "c81127e29fe87433d21ba3b2037cb3368bd9a277c1e30b06685b32122e160fb2",
+          "locator": "original resolution and extension pages"
+        }
+      ],
+      "gazetteer": {
+        "kind": "counties",
+        "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2026_Gazetteer/2026_Gaz_counties_national.zip",
+        "body_sha256": "6a99ca00efbc0be5112e225d4102704c51d5ce3b16e3afd6e4159460595fd12a",
+        "member": "2026_Gaz_counties_national.txt",
+        "member_sha256": "0c9bb040b1cded73b77541cab8acae7b5851ff9c257ad97a1094c0d8adfab9c1",
+        "observed_at": "2026-11-10T00:59:35.401805Z"
+      },
+      "census_record": {
+        "USPS": "CO",
+        "GEOID": "08095",
+        "GEOIDFQ": "0500000US08095",
+        "ANSICODE": "00198163",
+        "NAME": "Phillips County",
+        "ALAND": "1781724974",
+        "AWATER": "301808",
+        "ALAND_SQMI": "687.928",
+        "AWATER_SQMI": "0.117",
+        "INTPTLAT": "40.594712",
+        "INTPTLONG": "-102.345105"
+      },
+      "identity_review": "Retained instrument/report names this jurisdiction; exact state, government name and legal type matched to Census2026 internal representative point. No boundary or policy-coverage inference.",
+      "prior_questions": [],
+      "remaining_questions": []
+    },
+    {
+      "id": "de-kent-county-2022",
+      "dataset": "local_inventory",
+      "prior_row_sha256": "9c97d42b10112665048a9775f83214461bd3e3705c372b994b176ab4a530702a",
+      "current_row_sha256": "989bf16eb9214bcc5aa8d46cd6e1ed1392418f1d67971d97a05c202f22f3eb7d",
+      "decision": "apply_geographic_reference_point",
+      "geography_question_resolved": true,
+      "whole_record_disposition_unchanged": true,
+      "sources": [
+        {
+          "url": "https://ecode360.com/KE1751/laws/LF1611012.pdf",
+          "body_sha256": "5f04507edcfccbbf1cec5e549aaffbaccd87af10072f1d5b9a4b3139ded7bf1e",
+          "text_sha256": "6545b1b6d9776fc1c9d6f6136d89cc247c3d24d0ac4f574277b4b4229b0d7426",
+          "locator": "PDF pages 1\u20132; text lines 19\u201332, 71\u2013111, 148"
+        }
+      ],
+      "gazetteer": {
+        "kind": "counties",
+        "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2026_Gazetteer/2026_Gaz_counties_national.zip",
+        "body_sha256": "6a99ca00efbc0be5112e225d4102704c51d5ce3b16e3afd6e4159460595fd12a",
+        "member": "2026_Gaz_counties_national.txt",
+        "member_sha256": "0c9bb040b1cded73b77541cab8acae7b5851ff9c257ad97a1094c0d8adfab9c1",
+        "observed_at": "2026-11-10T00:59:35.401805Z"
+      },
+      "census_record": {
+        "USPS": "DE",
+        "GEOID": "10001",
+        "GEOIDFQ": "0500000US10001",
+        "ANSICODE": "00217271",
+        "NAME": "Kent County",
+        "ALAND": "1517891100",
+        "AWATER": "549776927",
+        "ALAND_SQMI": "586.061",
+        "AWATER_SQMI": "212.27",
+        "INTPTLAT": "39.097088",
+        "INTPTLONG": "-75.502982"
+      },
+      "identity_review": "Retained instrument/report names this jurisdiction; exact state, government name and legal type matched to Census2026 internal representative point. No boundary or policy-coverage inference.",
+      "prior_questions": [],
+      "remaining_questions": []
+    },
+    {
+      "id": "de-kent-county-undated",
+      "dataset": "local_inventory",
+      "prior_row_sha256": "7b3b5aeedcba07f031bf0cfc3a07ff23f2a8be0dcbaf53944cb7734f1d9ae2ac",
+      "current_row_sha256": "a5b99237efa1979bb0bfa79dee0f9a9a7a038d513094c0e5a4a4c57d4fdc77c8",
+      "decision": "apply_geographic_reference_point",
+      "geography_question_resolved": true,
+      "whole_record_disposition_unchanged": true,
+      "sources": [
+        {
+          "url": "https://ecode360.com/KE1751/laws/LF1707640.pdf",
+          "body_sha256": "ff804973c049872f8dbc00746f088ef9f7f61abe6f96d74df53a7777ce7fc337",
+          "text_sha256": "20646e6479c8d9f95d324d3295c8ff78879e70a9f5c9d934b97c94cd10cd8c3c",
+          "locator": "PDF pages 1\u20132; text lines 14\u201318, 65\u2013126, 160"
+        }
+      ],
+      "gazetteer": {
+        "kind": "counties",
+        "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2026_Gazetteer/2026_Gaz_counties_national.zip",
+        "body_sha256": "6a99ca00efbc0be5112e225d4102704c51d5ce3b16e3afd6e4159460595fd12a",
+        "member": "2026_Gaz_counties_national.txt",
+        "member_sha256": "0c9bb040b1cded73b77541cab8acae7b5851ff9c257ad97a1094c0d8adfab9c1",
+        "observed_at": "2026-11-10T00:59:35.401805Z"
+      },
+      "census_record": {
+        "USPS": "DE",
+        "GEOID": "10001",
+        "GEOIDFQ": "0500000US10001",
+        "ANSICODE": "00217271",
+        "NAME": "Kent County",
+        "ALAND": "1517891100",
+        "AWATER": "549776927",
+        "ALAND_SQMI": "586.061",
+        "AWATER_SQMI": "212.27",
+        "INTPTLAT": "39.097088",
+        "INTPTLONG": "-75.502982"
+      },
+      "identity_review": "Retained instrument/report names this jurisdiction; exact state, government name and legal type matched to Census2026 internal representative point. No boundary or policy-coverage inference.",
+      "prior_questions": [],
+      "remaining_questions": []
+    },
+    {
+      "id": "ga-union-county-2026",
+      "dataset": "local_inventory",
+      "prior_row_sha256": "cf284fcc4fda97e7a434d1c5b8b3c79b7a15b626a07a46f0f74b6cd1896ef615",
+      "current_row_sha256": "5420cba4dc42ed0abd0e45020ab97801981cec20a1a0ef51ba87574e28c359be",
+      "decision": "apply_geographic_reference_point",
+      "geography_question_resolved": true,
+      "whole_record_disposition_unchanged": true,
+      "sources": [
+        {
+          "url": "https://www.unioncountyga.gov/DocumentCenter/View/855/R-2026-26-1",
+          "body_sha256": "9bd8daba3283e2380f3b6935dadd6ec97ede34ee0f118adecf4cf90e2be1361d",
+          "text_sha256": "d3e391071413b24cbf80d6e1ee219b1ee3574b47e874ff022e5738e68324e9c7",
+          "locator": "Full retained text, jurisdiction identity passage"
+        }
+      ],
+      "gazetteer": {
+        "kind": "counties",
+        "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2026_Gazetteer/2026_Gaz_counties_national.zip",
+        "body_sha256": "6a99ca00efbc0be5112e225d4102704c51d5ce3b16e3afd6e4159460595fd12a",
+        "member": "2026_Gaz_counties_national.txt",
+        "member_sha256": "0c9bb040b1cded73b77541cab8acae7b5851ff9c257ad97a1094c0d8adfab9c1",
+        "observed_at": "2026-11-10T00:59:35.401805Z"
+      },
+      "census_record": {
+        "USPS": "GA",
+        "GEOID": "13291",
+        "GEOIDFQ": "0500000US13291",
+        "ANSICODE": "00353193",
+        "NAME": "Union County",
+        "ALAND": "838100493",
+        "AWATER": "18088330",
+        "ALAND_SQMI": "323.592",
+        "AWATER_SQMI": "6.984",
+        "INTPTLAT": "34.833333",
+        "INTPTLONG": "-83.989257"
+      },
+      "identity_review": "Retained instrument/report names this jurisdiction; exact state, government name and legal type matched to Census2026 internal representative point. No boundary or policy-coverage inference.",
+      "prior_questions": [
+        "No network, API, new search, official contact, or source acquisition performed in this independent review.",
+        "No network access; later official action and source bodies not retained in this packet remain outside this review.",
+        "Later commissioner meetings, extension, repeal and present-force checks were not performed; no absence finding is made."
+      ],
+      "remaining_questions": [
+        "No network, API, new search, official contact, or source acquisition performed in this independent review.",
+        "No network access; later official action and source bodies not retained in this packet remain outside this review.",
+        "Later commissioner meetings, extension, repeal and present-force checks were not performed; no absence finding is made."
+      ]
+    },
+    {
+      "id": "id-blaine-county-undated",
+      "dataset": "local_inventory",
+      "prior_row_sha256": "f188537b21d87efd6c61cbab5c860d4c57bf7b832f57fc1fa5246191ed5148cf",
+      "current_row_sha256": "839bdb989357fe3a87ae76c49436d323f055a36ae7ac71364b0ffac0a334d15e",
+      "decision": "apply_geographic_reference_point",
+      "geography_question_resolved": true,
+      "whole_record_disposition_unchanged": true,
+      "sources": [
+        {
+          "url": "https://www.blainecountyid.gov/DocumentCenter/View/35339/ORDINANCE-2026-05-DECLARING-A-MORATORIUM-UPON-THE-ISSUANCE-OF-PERMITS-FOR-DATA-CENTERS",
+          "body_sha256": "5ee08abadcae9de5e081d60b8c2b81fa4045aded678c3d8d3c1ba5776f02cec0",
+          "text_sha256": "5bad489b54dc5360fec4a6d09543dfbc2be60b618a32813b47e9192ce1b55a99",
+          "locator": "Regularly passed, approved and adopted by the Board of County Commissioners of Blaine County"
+        }
+      ],
+      "gazetteer": {
+        "kind": "counties",
+        "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2026_Gazetteer/2026_Gaz_counties_national.zip",
+        "body_sha256": "6a99ca00efbc0be5112e225d4102704c51d5ce3b16e3afd6e4159460595fd12a",
+        "member": "2026_Gaz_counties_national.txt",
+        "member_sha256": "0c9bb040b1cded73b77541cab8acae7b5851ff9c257ad97a1094c0d8adfab9c1",
+        "observed_at": "2026-11-10T00:59:35.401805Z"
+      },
+      "census_record": {
+        "USPS": "ID",
+        "GEOID": "16013",
+        "GEOIDFQ": "0500000US16013",
+        "ANSICODE": "00395696",
+        "NAME": "Blaine County",
+        "ALAND": "6831709467",
+        "AWATER": "44656832",
+        "ALAND_SQMI": "2637.738",
+        "AWATER_SQMI": "17.242",
+        "INTPTLAT": "43.394179",
+        "INTPTLONG": "-113.955387"
+      },
+      "identity_review": "Retained instrument/report names this jurisdiction; exact state, government name and legal type matched to Census2026 internal representative point. No boundary or policy-coverage inference.",
+      "prior_questions": [
+        "Search Blaine-specific subsequent commissioners minutes and obtain adopted signed Ordinance 2026-05 or other final action and effective-date evidence."
+      ],
+      "remaining_questions": [
+        "Search Blaine-specific subsequent commissioners minutes and obtain adopted signed Ordinance 2026-05 or other final action and effective-date evidence."
+      ]
+    },
+    {
+      "id": "il-chicago-undated",
+      "dataset": "local_inventory",
+      "prior_row_sha256": "ef1229871c0609af72f866d1982a7793e17d11e9b637d574143b199fefacbf5b",
+      "current_row_sha256": "c4ad9c914ea54811f1a79f3b0dcd662a37225e7929166f6794df912ef4d0864f",
+      "decision": "apply_geographic_reference_point",
+      "geography_question_resolved": true,
+      "whole_record_disposition_unchanged": true,
+      "sources": [
+        {
+          "url": "https://www.chicago.gov/city/en/depts/mayor/press_room/press_releases/2026/september/data-center-moratorium.html",
+          "body_sha256": "75833a038c76c882e4efbeee8b878c953bfab20e76af1bbb70122be96d43741c",
+          "text_sha256": "c9b9e8896699bad1c539c12e9d1eb6bc86398c940deaac01546bb744feac4572",
+          "locator": "introduced the Data Center Moratorium Ordinance, which would temporarily pause the development of new data centers and the material expansion of existing facilities"
+        }
+      ],
+      "gazetteer": {
+        "kind": "place",
+        "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2026_Gazetteer/2026_Gaz_place_national.zip",
+        "body_sha256": "af678e2d990827c89ee39b98c82de6e90b693c7361ff0e559ae3076670dd2863",
+        "member": "2026_Gaz_place_national.txt",
+        "member_sha256": "e10cb8004732684fa2a75b9d6030c6c9171674d6b112cff29dbc1bc31a9b82fa",
+        "observed_at": "2026-11-10T00:59:35.410441Z"
+      },
+      "census_record": {
+        "USPS": "IL",
+        "GEOID": "1714000",
+        "GEOIDFQ": "1600000US1714000",
+        "ANSICODE": "00428803",
+        "NAME": "Chicago city",
+        "LSAD": "25",
+        "FUNCSTAT": "A",
+        "ALAND": "589839438",
+        "AWATER": "17575507",
+        "ALAND_SQMI": "227.738",
+        "AWATER_SQMI": "6.786",
+        "INTPTLAT": "41.837045",
+        "INTPTLONG": "-87.684939"
+      },
+      "identity_review": "Retained instrument/report names this jurisdiction; exact state, government name and legal type matched to Census2026 internal representative point. No boundary or policy-coverage inference.",
+      "prior_questions": [
+        "Inspect Chicago City Council legislative records for the ordinance identifier and later action; no record-specific search attempt is linked."
+      ],
+      "remaining_questions": [
+        "Inspect Chicago City Council legislative records for the ordinance identifier and later action; no record-specific search attempt is linked."
+      ]
+    },
+    {
+      "id": "il-stephenson-county-2026",
+      "dataset": "local_inventory",
+      "prior_row_sha256": "06e8190f84cfeea57c199ff84ab6f250208fd169c4fc1e287ebba75e84604445",
+      "current_row_sha256": "18dd9f291302e34cecb3d73349e301fe58a7d49187818f41237a9ce6ed0f6844",
+      "decision": "apply_geographic_reference_point",
+      "geography_question_resolved": true,
+      "whole_record_disposition_unchanged": true,
+      "sources": [
+        {
+          "url": "https://ecode360.com/ST2918/laws/LF2794597.pdf",
+          "body_sha256": "9206b210111eadbac6b160aebc0e4a413cda11d25b3b3330d7954dc0170a371d",
+          "text_sha256": "b2b39d9776eb5f075f9b68877235cbd5077263f0479c0384d59d295eb4fbdf6e",
+          "locator": "PDF pp. 1\u20134, sections 1\u20135 and 8; p. 4 signature (use visual review for date)"
+        }
+      ],
+      "gazetteer": {
+        "kind": "counties",
+        "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2026_Gazetteer/2026_Gaz_counties_national.zip",
+        "body_sha256": "6a99ca00efbc0be5112e225d4102704c51d5ce3b16e3afd6e4159460595fd12a",
+        "member": "2026_Gaz_counties_national.txt",
+        "member_sha256": "0c9bb040b1cded73b77541cab8acae7b5851ff9c257ad97a1094c0d8adfab9c1",
+        "observed_at": "2026-11-10T00:59:35.401805Z"
+      },
+      "census_record": {
+        "USPS": "IL",
+        "GEOID": "17177",
+        "GEOIDFQ": "0500000US17177",
+        "ANSICODE": "01785076",
+        "NAME": "Stephenson County",
+        "ALAND": "1461392051",
+        "AWATER": "1350223",
+        "ALAND_SQMI": "564.247",
+        "AWATER_SQMI": "0.521",
+        "INTPTLAT": "42.349726",
+        "INTPTLONG": "-89.665994"
+      },
+      "identity_review": "Retained instrument/report names this jurisdiction; exact state, government name and legal type matched to Census2026 internal representative point. No boundary or policy-coverage inference.",
+      "prior_questions": [
+        "Later board actions and actual effectiveness requirements were not independently examined."
+      ],
+      "remaining_questions": [
+        "Later board actions and actual effectiveness requirements were not independently examined."
+      ]
+    },
+    {
+      "id": "in-vermillion-county-undated",
+      "dataset": "local_inventory",
+      "prior_row_sha256": "cec4310537affcfd49186ba8922421250888b9a3b1cce0cc2e7c7858671d8c22",
+      "current_row_sha256": "872aac5b153080637a34ae64c1582e643a4f8ab4e9c7a24e351d6f977a96a887",
+      "decision": "apply_geographic_reference_point",
+      "geography_question_resolved": true,
+      "whole_record_disposition_unchanged": true,
+      "sources": [
+        {
+          "url": "https://www.vermilliongov.us/wp-content/uploads/2026/09/Moratorium-for-Data-Centers-9.4-1.pdf",
+          "body_sha256": "47d5c66ae27a06a93e3cae3f15f89751b72141068a1b8a4856e2e34ffd09e913",
+          "text_sha256": "d397330fa5f3e85389a8d32e48aa5ffcf4183aa6f3ee4cb66ff980c04df0e022",
+          "locator": "clauses 1\u20133 and execution lines 129\u2013147, 185\u2013210; unsigned, undated execution"
+        }
+      ],
+      "gazetteer": {
+        "kind": "counties",
+        "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2026_Gazetteer/2026_Gaz_counties_national.zip",
+        "body_sha256": "6a99ca00efbc0be5112e225d4102704c51d5ce3b16e3afd6e4159460595fd12a",
+        "member": "2026_Gaz_counties_national.txt",
+        "member_sha256": "0c9bb040b1cded73b77541cab8acae7b5851ff9c257ad97a1094c0d8adfab9c1",
+        "observed_at": "2026-11-10T00:59:35.401805Z"
+      },
+      "census_record": {
+        "USPS": "IN",
+        "GEOID": "18165",
+        "GEOIDFQ": "0500000US18165",
+        "ANSICODE": "00450397",
+        "NAME": "Vermillion County",
+        "ALAND": "665353006",
+        "AWATER": "7817398",
+        "ALAND_SQMI": "256.894",
+        "AWATER_SQMI": "3.018",
+        "INTPTLAT": "39.854045",
+        "INTPTLONG": "-87.462071"
+      },
+      "identity_review": "Retained instrument/report names this jurisdiction; exact state, government name and legal type matched to Census2026 internal representative point. No boundary or policy-coverage inference.",
+      "prior_questions": [
+        "No independent later meeting minutes, signed ordinance, publication or current authority index checked; no new acquisition."
+      ],
+      "remaining_questions": [
+        "No independent later meeting minutes, signed ordinance, publication or current authority index checked; no new acquisition."
+      ]
+    },
+    {
+      "id": "in-zionsville-undated",
+      "dataset": "local_inventory",
+      "prior_row_sha256": "cae6280e1a884dd5d088067d4d85a4f5488fa9b6391d3b4a0093be9b8ad68e38",
+      "current_row_sha256": "345086437bf4fe5c91657223c262416936a22fac429ce7340e72b79ea22a0f2d",
+      "decision": "apply_geographic_reference_point",
+      "geography_question_resolved": true,
+      "whole_record_disposition_unchanged": true,
+      "sources": [
+        {
+          "url": "https://www.zionsville-in.gov/AgendaCenter/ViewFile/Item/8691?fileID=16971",
+          "body_sha256": "072539312d6a6855a9f1da616facbe584f4b71e0fbe385fa7d0100688acff755",
+          "text_sha256": "9b56e91cc16024f134a8530f7db7b58296814a001f3909b5dc3da33c28353d5e",
+          "locator": "pp. 1\u20134; lines 60\u201375, 167\u2013195; initiation, proposed amendment and blank votes/signatures"
+        }
+      ],
+      "gazetteer": {
+        "kind": "place",
+        "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2026_Gazetteer/2026_Gaz_place_national.zip",
+        "body_sha256": "af678e2d990827c89ee39b98c82de6e90b693c7361ff0e559ae3076670dd2863",
+        "member": "2026_Gaz_place_national.txt",
+        "member_sha256": "e10cb8004732684fa2a75b9d6030c6c9171674d6b112cff29dbc1bc31a9b82fa",
+        "observed_at": "2026-11-10T00:59:35.410441Z"
+      },
+      "census_record": {
+        "USPS": "IN",
+        "GEOID": "1886372",
+        "GEOIDFQ": "1600000US1886372",
+        "ANSICODE": "02397761",
+        "NAME": "Zionsville town",
+        "LSAD": "43",
+        "FUNCSTAT": "A",
+        "ALAND": "173949214",
+        "AWATER": "321293",
+        "ALAND_SQMI": "67.162",
+        "AWATER_SQMI": "0.124",
+        "INTPTLAT": "39.991538",
+        "INTPTLONG": "-86.321762"
+      },
+      "identity_review": "Retained instrument/report names this jurisdiction; exact state, government name and legal type matched to Census2026 internal representative point. No boundary or policy-coverage inference.",
+      "prior_questions": [
+        "No later council or plan commission minutes, enacted amendment or publication checked; no new acquisition."
+      ],
+      "remaining_questions": [
+        "No later council or plan commission minutes, enacted amendment or publication checked; no new acquisition."
+      ]
+    },
+    {
+      "id": "ia-sac-county-2025",
+      "dataset": "local_inventory",
+      "prior_row_sha256": "548ec4ccaf9369ce8988765284d7f30de09714b631936e4e198d2cb1e5084bfc",
+      "current_row_sha256": "f6498f769d7efc6631f2ed6fb340f2bda3952729609f35af8d897790b576b6db",
+      "decision": "apply_geographic_reference_point",
+      "geography_question_resolved": true,
+      "whole_record_disposition_unchanged": true,
+      "sources": [
+        {
+          "url": "https://www.saccountyiowa.gov/files/resolutions/establishing_a_temporary_moratorium_on_the_issuance_of_conditional_use_permits_for_solar_gardens_or_68793.pdf",
+          "body_sha256": "0d5f3d16f3d74c0922d2c4b0e3a23e9650a5e0674f1e6749ae9b72130ecbf546",
+          "text_sha256": "3d4e78e4ee0fa710ddfd84a99b1403c61a775faed16a2c5175b3f9f2817928b2",
+          "locator": "Resolution 25-0204-1: solar gardens or utility-scale solar approvals, August 4 2025 11:59 p.m. Central unless extended, early termination and immediate effect"
+        }
+      ],
+      "gazetteer": {
+        "kind": "counties",
+        "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2026_Gazetteer/2026_Gaz_counties_national.zip",
+        "body_sha256": "6a99ca00efbc0be5112e225d4102704c51d5ce3b16e3afd6e4159460595fd12a",
+        "member": "2026_Gaz_counties_national.txt",
+        "member_sha256": "0c9bb040b1cded73b77541cab8acae7b5851ff9c257ad97a1094c0d8adfab9c1",
+        "observed_at": "2026-11-10T00:59:35.401805Z"
+      },
+      "census_record": {
+        "USPS": "IA",
+        "GEOID": "19161",
+        "GEOIDFQ": "0500000US19161",
+        "ANSICODE": "00465269",
+        "NAME": "Sac County",
+        "ALAND": "1489300197",
+        "AWATER": "8569436",
+        "ALAND_SQMI": "575.022",
+        "AWATER_SQMI": "3.309",
+        "INTPTLAT": "42.387526",
+        "INTPTLONG": "-95.105224"
+      },
+      "identity_review": "Retained instrument/report names this jurisdiction; exact state, government name and legal type matched to Census2026 internal representative point. No boundary or policy-coverage inference.",
+      "prior_questions": [],
+      "remaining_questions": []
+    },
+    {
+      "id": "ia-sioux-county-2023",
+      "dataset": "local_inventory",
+      "prior_row_sha256": "abd10c62f8c954c2bb06021b959b9754eb394bf3b679476e029dbec376965d11",
+      "current_row_sha256": "255159aa9fd4c455f5a03b4cccac6de62ee2ba195570047a7aead00fc6a3e14b",
+      "decision": "apply_geographic_reference_point",
+      "geography_question_resolved": true,
+      "whole_record_disposition_unchanged": true,
+      "sources": [
+        {
+          "url": "https://siouxcountyia.gov/wp-content/uploads/2023/09/2023-35-Wind-and-Solar-Moratorium-Ordinance-Signed.pdf",
+          "body_sha256": "27f29179d6c4e12119977974f3f1795eb445f20f7d33d55281a294c3c9271ce7",
+          "text_sha256": "ede4fd158028ca3550de8bf51cc338b2ad8f9387eeb5d009a8e10c29992ac0e5",
+          "locator": "RESOLUTION NO. 2023 - 35; section 2; PASSED AND APPROVED this 5th day of September, 2023."
+        }
+      ],
+      "gazetteer": {
+        "kind": "counties",
+        "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2026_Gazetteer/2026_Gaz_counties_national.zip",
+        "body_sha256": "6a99ca00efbc0be5112e225d4102704c51d5ce3b16e3afd6e4159460595fd12a",
+        "member": "2026_Gaz_counties_national.txt",
+        "member_sha256": "0c9bb040b1cded73b77541cab8acae7b5851ff9c257ad97a1094c0d8adfab9c1",
+        "observed_at": "2026-11-10T00:59:35.401805Z"
+      },
+      "census_record": {
+        "USPS": "IA",
+        "GEOID": "19167",
+        "GEOIDFQ": "0500000US19167",
+        "ANSICODE": "00465272",
+        "NAME": "Sioux County",
+        "ALAND": "1988881487",
+        "AWATER": "2802041",
+        "ALAND_SQMI": "767.911",
+        "AWATER_SQMI": "1.082",
+        "INTPTLAT": "43.082618",
+        "INTPTLONG": "-96.17798"
+      },
+      "identity_review": "Retained instrument/report names this jurisdiction; exact state, government name and legal type matched to Census2026 internal representative point. No boundary or policy-coverage inference.",
+      "prior_questions": [],
+      "remaining_questions": []
+    },
+    {
+      "id": "ky-camargo-2026",
+      "dataset": "local_inventory",
+      "prior_row_sha256": "04db6c998d1a42e01db5facb215dccb50db746d191c5a04fc93dbb18e1964780",
+      "current_row_sha256": "15af1d486f125f32510dc7681bb0f1767fefe11a9aa287c4d8ceb8383d29bea1",
+      "decision": "apply_geographic_reference_point",
+      "geography_question_resolved": true,
+      "whole_record_disposition_unchanged": true,
+      "sources": [
+        {
+          "url": "https://camargo.ky.gov/our-city/Ordinances/data-center-moratorium-ordinance-2026-04.pdf",
+          "body_sha256": "6e8182e3906a2710b76fd0bf64bcbd93a0a1bb9262a98064c73853cdc5412ce3",
+          "text_sha256": "5ef5440c566ad070608b3faa5cfffe5bf507c98329dd57b6abcddc780e31a5c0",
+          "locator": "pp. 1\u20133; scoped visual review in review.json"
+        }
+      ],
+      "gazetteer": {
+        "kind": "place",
+        "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2026_Gazetteer/2026_Gaz_place_national.zip",
+        "body_sha256": "af678e2d990827c89ee39b98c82de6e90b693c7361ff0e559ae3076670dd2863",
+        "member": "2026_Gaz_place_national.txt",
+        "member_sha256": "e10cb8004732684fa2a75b9d6030c6c9171674d6b112cff29dbc1bc31a9b82fa",
+        "observed_at": "2026-11-10T00:59:35.410441Z"
+      },
+      "census_record": {
+        "USPS": "KY",
+        "GEOID": "2112052",
+        "GEOIDFQ": "1600000US2112052",
+        "ANSICODE": "02403973",
+        "NAME": "Camargo city",
+        "LSAD": "25",
+        "FUNCSTAT": "A",
+        "ALAND": "5665325",
+        "AWATER": "66197",
+        "ALAND_SQMI": "2.187",
+        "AWATER_SQMI": "0.026",
+        "INTPTLAT": "37.999694",
+        "INTPTLONG": "-83.888489"
+      },
+      "identity_review": "Retained instrument/report names this jurisdiction; exact state, government name and legal type matched to Census2026 internal representative point. No boundary or policy-coverage inference.",
+      "prior_questions": [
+        "No publication, subsequent ordinance or current force check performed in this turn; no network permitted."
+      ],
+      "remaining_questions": [
+        "No publication, subsequent ordinance or current force check performed in this turn; no network permitted."
+      ]
+    },
+    {
+      "id": "la-bossier-parish-2022",
+      "dataset": "local_inventory",
+      "prior_row_sha256": "f7f6be87595bb17eb06415b6e0be605029e4a218fd752068db5fdd917f235f64",
+      "current_row_sha256": "bfe28f977fce39566dea73bc60e7535ed13b8f22b34c86f545db7582ca68d324",
+      "decision": "apply_geographic_reference_point",
+      "geography_question_resolved": true,
+      "whole_record_disposition_unchanged": true,
+      "sources": [
+        {
+          "url": "https://www.bossierparishla.gov/docs/default-source/police-jury/recent-ordinances/4910.pdf?sfvrsn=aa884719_3",
+          "body_sha256": "9e107af8febb28c509e09706009873f08e55c56923fd41cb40fd187e20ede152",
+          "text_sha256": "a7504e4b4cd7cc336b1dca8eb6d19b4e502c1d6bcb31be820fe25944e86fa8d6",
+          "locator": "Ordinance 4910 p. 1, moratorium clause, area and adoption vote"
+        }
+      ],
+      "gazetteer": {
+        "kind": "counties",
+        "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2026_Gazetteer/2026_Gaz_counties_national.zip",
+        "body_sha256": "6a99ca00efbc0be5112e225d4102704c51d5ce3b16e3afd6e4159460595fd12a",
+        "member": "2026_Gaz_counties_national.txt",
+        "member_sha256": "0c9bb040b1cded73b77541cab8acae7b5851ff9c257ad97a1094c0d8adfab9c1",
+        "observed_at": "2026-11-10T00:59:35.401805Z"
+      },
+      "census_record": {
+        "USPS": "LA",
+        "GEOID": "22015",
+        "GEOIDFQ": "0500000US22015",
+        "ANSICODE": "00558453",
+        "NAME": "Bossier Parish",
+        "ALAND": "2174607049",
+        "AWATER": "70690680",
+        "ALAND_SQMI": "839.621",
+        "AWATER_SQMI": "27.294",
+        "INTPTLAT": "32.693317",
+        "INTPTLONG": "-93.631366"
+      },
+      "identity_review": "Retained instrument/report names this jurisdiction; exact state, government name and legal type matched to Census2026 internal representative point. No boundary or policy-coverage inference.",
+      "prior_questions": [
+        "No later extension, early cancellation or current restrictions were independently investigated in this turn."
+      ],
+      "remaining_questions": [
+        "No later extension, early cancellation or current restrictions were independently investigated in this turn."
+      ]
+    },
+    {
+      "id": "me-ashland-2024",
+      "dataset": "local_inventory",
+      "prior_row_sha256": "ccbafa7f6d7f9c3a4740478107691318cfd9a0abcbb1522705b8156afdfee40f",
+      "current_row_sha256": "2b508a823ae226b3abce9bb444ee260d081eddac75b69637592af38b7f2e1bfe",
+      "decision": "apply_geographic_reference_point",
+      "geography_question_resolved": true,
+      "whole_record_disposition_unchanged": true,
+      "sources": [
+        {
+          "url": "https://townofashland.org/wp-content/uploads/2024/12/Wind-Energy-Facility-Moratorium-Ordinance.pdf",
+          "body_sha256": "d5376ced5b776df6905a2b9a6c41a81e8217db3fa02099cbd427482e20f53840",
+          "text_sha256": "3977b4f08f6c1b3de1674828afd947594c776d3ad32f573643bc70a70c7346d6",
+          "locator": "Ashland ordinance pp. 1\u20132: adopted header, effect upon adoption, 180-day sunset with noticed extensions, wind facility >100 kW"
+        }
+      ],
+      "gazetteer": {
+        "kind": "cousubs",
+        "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2026_Gazetteer/2026_Gaz_cousubs_national.zip",
+        "body_sha256": "9d528b39b70a27075c863b1572f27eadaf24484d5435fac17fc3b4cdd36434c2",
+        "member": "2026_Gaz_cousubs_national.txt",
+        "member_sha256": "6d19c4e9e7a8b24856528851064ccccb7b04be0404d2854d3c488a702312225c",
+        "observed_at": "2026-11-10T00:59:35.490795Z"
+      },
+      "census_record": {
+        "USPS": "ME",
+        "GEOID": "2300301710",
+        "GEOIDFQ": "0600000US2300301710",
+        "ANSICODE": "00582331",
+        "NAME": "Ashland town",
+        "FUNCSTAT": "A",
+        "ALAND": "208271608",
+        "AWATER": "2932058",
+        "ALAND_SQMI": "80.414",
+        "AWATER_SQMI": "1.132",
+        "INTPTLAT": "46.650441",
+        "INTPTLONG": "-68.388373"
+      },
+      "identity_review": "Retained instrument/report names this jurisdiction; exact state, government name and legal type matched to Census2026 internal representative point. No boundary or policy-coverage inference.",
+      "prior_questions": [],
+      "remaining_questions": []
+    },
+    {
+      "id": "me-bridgton-2022",
+      "dataset": "local_inventory",
+      "prior_row_sha256": "7b777dd766d8390a2387a7db6b30d3900ec964d61b4a9f9cf6bc8f5e9fd3f4d3",
+      "current_row_sha256": "4673d58545cd3d4624c5955484add4b1017d6c71acae764112aa01f04512e579",
+      "decision": "apply_geographic_reference_point",
+      "geography_question_resolved": true,
+      "whole_record_disposition_unchanged": true,
+      "sources": [
+        {
+          "url": "https://bridgtonmaine.org/wp-content/uploads/2022/09/Enacted-Bridgton-Moratorium-Commercial-Solar-Energy-Facilities-with-retroactivity-clause.pdf",
+          "body_sha256": "d9c83db2eac4e74ff90b4fd345f8561859211dd50f7f134ea0a03857ef550f7a",
+          "text_sha256": "5f9be80ef888bf013db127d6633d54c40169861dabe6f7d03fb2e240cc9642a7",
+          "locator": "Town-posted ordinance pp. 1\u20134: enacted cover, retroactive March 22 applicability, immediate effectiveness on adoption, 180-day term; p. 4 execution/attestation blank; exclusion 125 kW DC or less"
+        }
+      ],
+      "gazetteer": {
+        "kind": "cousubs",
+        "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2026_Gazetteer/2026_Gaz_cousubs_national.zip",
+        "body_sha256": "9d528b39b70a27075c863b1572f27eadaf24484d5435fac17fc3b4cdd36434c2",
+        "member": "2026_Gaz_cousubs_national.txt",
+        "member_sha256": "6d19c4e9e7a8b24856528851064ccccb7b04be0404d2854d3c488a702312225c",
+        "observed_at": "2026-11-10T00:59:35.490795Z"
+      },
+      "census_record": {
+        "USPS": "ME",
+        "GEOID": "2300507170",
+        "GEOIDFQ": "0600000US2300507170",
+        "ANSICODE": "00582368",
+        "NAME": "Bridgton town",
+        "FUNCSTAT": "A",
+        "ALAND": "147279656",
+        "AWATER": "19100967",
+        "ALAND_SQMI": "56.865",
+        "AWATER_SQMI": "7.375",
+        "INTPTLAT": "44.047513",
+        "INTPTLONG": "-70.743319"
+      },
+      "identity_review": "Retained instrument/report names this jurisdiction; exact state, government name and legal type matched to Census2026 internal representative point. No boundary or policy-coverage inference.",
+      "prior_questions": [],
+      "remaining_questions": []
+    },
+    {
+      "id": "md-talbot-county-2022",
+      "dataset": "local_inventory",
+      "prior_row_sha256": "6b381bfcd358efd9dcc409d011e6d1f9ce996cb59858175abdc865663e720713",
+      "current_row_sha256": "00069d31ca2dad8e4d34084870a3bbd51db0579a6031a9c989cab77b8000c7de",
+      "decision": "apply_geographic_reference_point",
+      "geography_question_resolved": true,
+      "whole_record_disposition_unchanged": true,
+      "sources": [
+        {
+          "url": "https://talbotcountymd.gov/uploads/File/Council_2022/Resolutions/Resolution%20329%20(Temporary%20Moratorium%20-%20Applications%20-%20Large%20Scale%20Solar%20Energy%20Systems)%20As%20Enacted%20and%20Enrolled.pdf",
+          "body_sha256": "80067f81509fecad7590b22a1fa7a55856a44505f951d211b35075f1be206501",
+          "text_sha256": "8a71a44e668ff57e0e9acd2093bf19a54be85c960ce13d36605aa45539e857b2",
+          "locator": "enrolled pages 3-5, sections 1, 3, 4 and signed adoption; page 4 visually inspected in this review"
+        }
+      ],
+      "gazetteer": {
+        "kind": "counties",
+        "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2026_Gazetteer/2026_Gaz_counties_national.zip",
+        "body_sha256": "6a99ca00efbc0be5112e225d4102704c51d5ce3b16e3afd6e4159460595fd12a",
+        "member": "2026_Gaz_counties_national.txt",
+        "member_sha256": "0c9bb040b1cded73b77541cab8acae7b5851ff9c257ad97a1094c0d8adfab9c1",
+        "observed_at": "2026-11-10T00:59:35.401805Z"
+      },
+      "census_record": {
+        "USPS": "MD",
+        "GEOID": "24041",
+        "GEOIDFQ": "0500000US24041",
+        "ANSICODE": "00592947",
+        "NAME": "Talbot County",
+        "ALAND": "695556060",
+        "AWATER": "539369003",
+        "ALAND_SQMI": "268.556",
+        "AWATER_SQMI": "208.252",
+        "INTPTLAT": "38.747066",
+        "INTPTLONG": "-76.177374"
+      },
+      "identity_review": "Retained instrument/report names this jurisdiction; exact state, government name and legal type matched to Census2026 internal representative point. No boundary or policy-coverage inference.",
+      "prior_questions": [
+        "No later extension, replacement or present restrictions review; no coordinate lookup."
+      ],
+      "remaining_questions": [
+        "No later extension, replacement or present restrictions review."
+      ]
+    },
+    {
+      "id": "ma-braintree-undated",
+      "dataset": "local_inventory",
+      "prior_row_sha256": "d42ceb65ed76cfb94992099afe69cae1d803ce6ac69c373a20b9a44e769ea99a",
+      "current_row_sha256": "ef18f5bc8c5882394cb24e750cb68904934ea3768bebc809d398c67f8863b402",
+      "decision": "apply_geographic_reference_point",
+      "geography_question_resolved": true,
+      "whole_record_disposition_unchanged": true,
+      "sources": [
+        {
+          "url": "https://www.braintreema.gov/DocumentCenter/View/18842/PB-Memo---TC-26-063-Data-Centers",
+          "body_sha256": "2ff4ad5bd64220e6c9f6306ce89065a80767723d93e2e4b0fef80caa790c8f3c",
+          "text_sha256": "6743c5b0962e4da7cfa125ba7a55c01b703f2dc3a34de5ad528e6d5507a518de",
+          "locator": "Planning memorandum and proposed Order 26-063 pp. 1\u20132: one year from adoption, possible earlier permanent regulation, possible future amendment to extend"
+        }
+      ],
+      "gazetteer": {
+        "kind": "place",
+        "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2026_Gazetteer/2026_Gaz_place_national.zip",
+        "body_sha256": "af678e2d990827c89ee39b98c82de6e90b693c7361ff0e559ae3076670dd2863",
+        "member": "2026_Gaz_place_national.txt",
+        "member_sha256": "e10cb8004732684fa2a75b9d6030c6c9171674d6b112cff29dbc1bc31a9b82fa",
+        "observed_at": "2026-11-10T00:59:35.410441Z"
+      },
+      "census_record": {
+        "USPS": "MA",
+        "GEOID": "2507740",
+        "GEOIDFQ": "1600000US2507740",
+        "ANSICODE": "00618316",
+        "NAME": "Braintree Town city",
+        "LSAD": "25",
+        "FUNCSTAT": "A",
+        "ALAND": "35644319",
+        "AWATER": "2076506",
+        "ALAND_SQMI": "13.762",
+        "AWATER_SQMI": "0.802",
+        "INTPTLAT": "42.206188",
+        "INTPTLONG": "-71.00232"
+      },
+      "identity_review": "Retained instrument/report names this jurisdiction; exact state, government name and legal type matched to Census2026 internal representative point. No boundary or policy-coverage inference. Census Braintree Town city identifies the municipality called Town in the inventory; the recorded type is preserved.",
+      "prior_questions": [
+        "No later council or planning board disposition, execution or effectiveness record was examined."
+      ],
+      "remaining_questions": [
+        "No later council or planning board disposition, execution or effectiveness record was examined."
+      ]
+    },
+    {
+      "id": "ma-methuen-undated",
+      "dataset": "local_inventory",
+      "prior_row_sha256": "092c60961722f09407cfd1fb79990b4e19eadbd7cce626cfc1e07eab92b13128",
+      "current_row_sha256": "5276737237f6d27f56664d3a1039340611b30c57fa9d5bd1b139926fb437e07c",
+      "decision": "apply_geographic_reference_point",
+      "geography_question_resolved": true,
+      "whole_record_disposition_unchanged": true,
+      "sources": [
+        {
+          "url": "https://www.methuen.gov/DocumentCenter/View/6315/TO-26-20-AS-AMENDED---9-8-2026-PDF",
+          "body_sha256": "d0352cd0b8eff7939ea9c50512bf370360e323cb3ffce9ef327de74b9b1941da",
+          "text_sha256": "1bb5aaa92505bdf1d2a458d020dffa1dea31482b7ef28d4719ccb268b074d873",
+          "locator": "TO-26-20 as-amended file pp. 1\u20132, proposal subject to procedures; one year from effective date or earlier regulation and one extension by 2/3 vote"
+        }
+      ],
+      "gazetteer": {
+        "kind": "place",
+        "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2026_Gazetteer/2026_Gaz_place_national.zip",
+        "body_sha256": "af678e2d990827c89ee39b98c82de6e90b693c7361ff0e559ae3076670dd2863",
+        "member": "2026_Gaz_place_national.txt",
+        "member_sha256": "e10cb8004732684fa2a75b9d6030c6c9171674d6b112cff29dbc1bc31a9b82fa",
+        "observed_at": "2026-11-10T00:59:35.410441Z"
+      },
+      "census_record": {
+        "USPS": "MA",
+        "GEOID": "2540675",
+        "GEOIDFQ": "1600000US2540675",
+        "ANSICODE": "00618302",
+        "NAME": "Methuen city",
+        "LSAD": "25",
+        "FUNCSTAT": "A",
+        "ALAND": "57530306",
+        "AWATER": "2019537",
+        "ALAND_SQMI": "22.213",
+        "AWATER_SQMI": "0.78",
+        "INTPTLAT": "42.742648",
+        "INTPTLONG": "-71.178643"
+      },
+      "identity_review": "Retained instrument/report names this jurisdiction; exact state, government name and legal type matched to Census2026 internal representative point. No boundary or policy-coverage inference.",
+      "prior_questions": [
+        "Later council disposition, required procedures and operative date were not examined."
+      ],
+      "remaining_questions": [
+        "Later council disposition, required procedures and operative date were not examined."
+      ]
+    },
+    {
+      "id": "mi-locke-township-2023",
+      "dataset": "local_inventory",
+      "prior_row_sha256": "43f7645091176319ea3154b7e608f49cd6a98a41bbe777736493c185621785a2",
+      "current_row_sha256": "01ecb3c0c624c9283ff00b0525eb455f9df03dfbe1d8dff9e9f42fd478701fb0",
+      "decision": "apply_geographic_reference_point",
+      "geography_question_resolved": true,
+      "whole_record_disposition_unchanged": true,
+      "sources": [
+        {
+          "url": "https://locketwp.com/wp-content/uploads/2023/05/2023-01-Z-O-Amend-Large-SES-Moratorium.pdf",
+          "body_sha256": "71a60ba8a82f452aaae0809f2f427255ea91047b63238b39ebc3f394e1fd8367",
+          "text_sha256": "f30bce4fbedca0f541eab9ab2b8a0c37dee20ae229421f6b5edb79cb1c5a4952",
+          "locator": "sections 2-5 and completed certification, PDF pages 1-2"
+        }
+      ],
+      "gazetteer": {
+        "kind": "cousubs",
+        "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2026_Gazetteer/2026_Gaz_cousubs_national.zip",
+        "body_sha256": "9d528b39b70a27075c863b1572f27eadaf24484d5435fac17fc3b4cdd36434c2",
+        "member": "2026_Gaz_cousubs_national.txt",
+        "member_sha256": "6d19c4e9e7a8b24856528851064ccccb7b04be0404d2854d3c488a702312225c",
+        "observed_at": "2026-11-10T00:59:35.490795Z"
+      },
+      "census_record": {
+        "USPS": "MI",
+        "GEOID": "2606549040",
+        "GEOIDFQ": "0600000US2606549040",
+        "ANSICODE": "01626634",
+        "NAME": "Locke township",
+        "FUNCSTAT": "A",
+        "ALAND": "92821126",
+        "AWATER": "582650",
+        "ALAND_SQMI": "35.838",
+        "AWATER_SQMI": "0.225",
+        "INTPTLAT": "42.733945",
+        "INTPTLONG": "-84.206362"
+      },
+      "identity_review": "Retained instrument/report names this jurisdiction; exact state, government name and legal type matched to Census2026 internal representative point. No boundary or policy-coverage inference. Retained text specifies Ingham County; subdivision GEOID county prefix26065 matches.",
+      "prior_questions": [
+        "No later extension, early termination or present sector-wide rules were inspected; original-term historical disposition does not assert their absence."
+      ],
+      "remaining_questions": [
+        "No later extension, early termination or present sector-wide rules were inspected; original-term historical disposition does not assert their absence."
+      ]
+    },
+    {
+      "id": "mi-locke-township-2023-2",
+      "dataset": "local_inventory",
+      "prior_row_sha256": "926b0ff9231566c457d92adfe9af3e7fa83f1a77b175706d503fa529cc549785",
+      "current_row_sha256": "10d183278f36abd6de89138ff7ea8197b98fe977a2eb273bde6c79e7c5a0210d",
+      "decision": "apply_geographic_reference_point",
+      "geography_question_resolved": true,
+      "whole_record_disposition_unchanged": true,
+      "sources": [
+        {
+          "url": "https://locketwp.com/wp-content/uploads/2023/05/2023-02-Z-O-Amend-CWTG-Moratorium.pdf",
+          "body_sha256": "bd3026e2fbf314d92ff2d3030d4f2b3238ba06427580c718b25eb0c4c156edef",
+          "text_sha256": "483a96933a8b9475385ffda109ad4e8cf05922fcc304231ab424b7a53caacadc",
+          "locator": "pages 1-2, sections 2-5 and clerk certification; text lines 49-80, 93-125"
+        }
+      ],
+      "gazetteer": {
+        "kind": "cousubs",
+        "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2026_Gazetteer/2026_Gaz_cousubs_national.zip",
+        "body_sha256": "9d528b39b70a27075c863b1572f27eadaf24484d5435fac17fc3b4cdd36434c2",
+        "member": "2026_Gaz_cousubs_national.txt",
+        "member_sha256": "6d19c4e9e7a8b24856528851064ccccb7b04be0404d2854d3c488a702312225c",
+        "observed_at": "2026-11-10T00:59:35.490795Z"
+      },
+      "census_record": {
+        "USPS": "MI",
+        "GEOID": "2606549040",
+        "GEOIDFQ": "0600000US2606549040",
+        "ANSICODE": "01626634",
+        "NAME": "Locke township",
+        "FUNCSTAT": "A",
+        "ALAND": "92821126",
+        "AWATER": "582650",
+        "ALAND_SQMI": "35.838",
+        "AWATER_SQMI": "0.225",
+        "INTPTLAT": "42.733945",
+        "INTPTLONG": "-84.206362"
+      },
+      "identity_review": "Retained instrument/report names this jurisdiction; exact state, government name and legal type matched to Census2026 internal representative point. No boundary or policy-coverage inference. Retained text specifies Ingham County; subdivision GEOID county prefix26065 matches.",
+      "prior_questions": [
+        "Later termination, extension, later regulations and coordinates not independently checked in this turn."
+      ],
+      "remaining_questions": [
+        "Later termination, extension, later regulations not independently checked in the prior review."
+      ]
+    },
+    {
+      "id": "mi-meridian-township-2026-2",
+      "dataset": "local_inventory",
+      "prior_row_sha256": "e2b78ec238d78023806e7eb61e59c7c4396222d97278d5cd42ac060863414629",
+      "current_row_sha256": "e53e456f901a6022cad10dc0595ca9a4a0633dd7ef6f3ddb5a04cf4bba78526d",
+      "decision": "apply_geographic_reference_point",
+      "geography_question_resolved": true,
+      "whole_record_disposition_unchanged": true,
+      "sources": [
+        {
+          "url": "https://media-002-us.cdn.govstack.com/meridian-us/media/rd0nafwi/6326-zoning-amendment-2026-04-battery-energy-storage-systems-moratorium.pdf",
+          "body_sha256": "3c4469b28fa7cb793a7c7ebe1ce7d7e7ffbd198e5193df98c11d8b743a081e11",
+          "text_sha256": "5e986b4670b5fd77e5b82cfd8e6ee4e9f9200da03dfefe41b2237cd32806bea1",
+          "locator": "clerk legal notice, final-adoption paragraph and June 3 publication instruction"
+        }
+      ],
+      "gazetteer": {
+        "kind": "cousubs",
+        "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2026_Gazetteer/2026_Gaz_cousubs_national.zip",
+        "body_sha256": "9d528b39b70a27075c863b1572f27eadaf24484d5435fac17fc3b4cdd36434c2",
+        "member": "2026_Gaz_cousubs_national.txt",
+        "member_sha256": "6d19c4e9e7a8b24856528851064ccccb7b04be0404d2854d3c488a702312225c",
+        "observed_at": "2026-11-10T00:59:35.490795Z"
+      },
+      "census_record": {
+        "USPS": "MI",
+        "GEOID": "2606553140",
+        "GEOIDFQ": "0600000US2606553140",
+        "ANSICODE": "01626727",
+        "NAME": "Meridian charter township",
+        "FUNCSTAT": "A",
+        "ALAND": "79139692",
+        "AWATER": "2801290",
+        "ALAND_SQMI": "30.556",
+        "AWATER_SQMI": "1.082",
+        "INTPTLAT": "42.725291",
+        "INTPTLONG": "-84.419722"
+      },
+      "identity_review": "Retained instrument/report names this jurisdiction; exact state, government name and legal type matched to Census2026 internal representative point. No boundary or policy-coverage inference. Retained text specifies Ingham County; subdivision GEOID county prefix26065 matches.",
+      "prior_questions": [
+        "Final executed text, actual publication and subsequent acts not independently located in inspected captures."
+      ],
+      "remaining_questions": [
+        "Final executed text, actual publication and subsequent acts not independently located in inspected captures."
+      ]
+    },
+    {
+      "id": "mn-pequot-lakes-undated",
+      "dataset": "local_inventory",
+      "prior_row_sha256": "19c70f2492df034847851a135bd24333b3ef8f4c241b82c70afe5a6a383e4a13",
+      "current_row_sha256": "bc9db79a04ece92080bd060fe5c41f2f670fb0e3f122b9654ab6b18c4973cac5",
+      "decision": "apply_geographic_reference_point",
+      "geography_question_resolved": true,
+      "whole_record_disposition_unchanged": true,
+      "sources": [
+        {
+          "url": "https://www.pequotlakes-mn.gov/uploads/dm/83100/8.5_Data_Center_Moratorium.pdf",
+          "body_sha256": "bf4ced703d0655f3e5a7f847389efc7c345bd80a29a96757b9a3fa3d4cea0f22",
+          "text_sha256": "27473d4eb567a692cb91df35302dc4c5f5b6d3db20ae448142cb2fbb0a9c184b",
+          "locator": "single page; background and council action requested; visually reviewed retained page image"
+        }
+      ],
+      "gazetteer": {
+        "kind": "place",
+        "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2026_Gazetteer/2026_Gaz_place_national.zip",
+        "body_sha256": "af678e2d990827c89ee39b98c82de6e90b693c7361ff0e559ae3076670dd2863",
+        "member": "2026_Gaz_place_national.txt",
+        "member_sha256": "e10cb8004732684fa2a75b9d6030c6c9171674d6b112cff29dbc1bc31a9b82fa",
+        "observed_at": "2026-11-10T00:59:35.410441Z"
+      },
+      "census_record": {
+        "USPS": "MN",
+        "GEOID": "2750416",
+        "GEOIDFQ": "1600000US2750416",
+        "ANSICODE": "02396180",
+        "NAME": "Pequot Lakes city",
+        "LSAD": "25",
+        "FUNCSTAT": "A",
+        "ALAND": "42410355",
+        "AWATER": "4636341",
+        "ALAND_SQMI": "16.375",
+        "AWATER_SQMI": "1.79",
+        "INTPTLAT": "46.588091",
+        "INTPTLONG": "-94.287969"
+      },
+      "identity_review": "Retained instrument/report names this jurisdiction; exact state, government name and legal type matched to Census2026 internal representative point. No boundary or policy-coverage inference. PDF page1 city letterhead visually checked; automatic text extraction omits its logo.",
+      "prior_questions": [],
+      "remaining_questions": []
+    },
+    {
+      "id": "ne-sarpy-county-2020",
+      "dataset": "local_inventory",
+      "prior_row_sha256": "3bbb2c46807ed33cd95d236a41f41a18ad18466e18ef4e5c338f13df567321ab",
+      "current_row_sha256": "2912cf4079dd1c97468ce995e594a483dc6cf60ded556b6394cc2167d32d1f49",
+      "decision": "apply_geographic_reference_point",
+      "geography_question_resolved": true,
+      "whole_record_disposition_unchanged": true,
+      "sources": [
+        {
+          "url": "https://sarpy.civicweb.net/document/23713/2020-01-28%20Resolution%202020-039%20Planning%20Department.pdf?handle=E917164A26DB4EDEBAD3AEC6987ED8DF",
+          "body_sha256": "810fdfcecbbb512e7a5028e2d70b793b3c49233392d8451bd40ceaf594cc45c5",
+          "text_sha256": "f89e95ffaf49a5270e0efb0386f014a4879dd67c8d72c94e13965885d94d75d8",
+          "locator": "lines 1-9, 49-73, 91-95; prior visual review page 2 signature"
+        }
+      ],
+      "gazetteer": {
+        "kind": "counties",
+        "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2026_Gazetteer/2026_Gaz_counties_national.zip",
+        "body_sha256": "6a99ca00efbc0be5112e225d4102704c51d5ce3b16e3afd6e4159460595fd12a",
+        "member": "2026_Gaz_counties_national.txt",
+        "member_sha256": "0c9bb040b1cded73b77541cab8acae7b5851ff9c257ad97a1094c0d8adfab9c1",
+        "observed_at": "2026-11-10T00:59:35.401805Z"
+      },
+      "census_record": {
+        "USPS": "NE",
+        "GEOID": "31153",
+        "GEOIDFQ": "0500000US31153",
+        "ANSICODE": "00835898",
+        "NAME": "Sarpy County",
+        "ALAND": "616429135",
+        "AWATER": "24664758",
+        "ALAND_SQMI": "238.005",
+        "AWATER_SQMI": "9.523",
+        "INTPTLAT": "41.115064",
+        "INTPTLONG": "-96.109125"
+      },
+      "identity_review": "Retained instrument/report names this jurisdiction; exact state, government name and legal type matched to Census2026 internal representative point. No boundary or policy-coverage inference.",
+      "prior_questions": [],
+      "remaining_questions": []
+    },
+    {
+      "id": "nj-east-windsor-undated",
+      "dataset": "local_inventory",
+      "prior_row_sha256": "c6b646c9daeb0b936f5e4e8cf86f1352be78abf560a2f6ec2be0209ea060a5d3",
+      "current_row_sha256": "2747e0ff496cf95b9a1aef8d655652d1b376c5edc7ad250b5326660c7413c58c",
+      "decision": "apply_geographic_reference_point",
+      "geography_question_resolved": true,
+      "whole_record_disposition_unchanged": true,
+      "sources": [
+        {
+          "url": "https://www.east-windsor.nj.us/media/Township%20Ordinance/2026/ordinance-2026-06-data-center-moratorium.pdf",
+          "body_sha256": "0ab3b8886fe5cb9269c8a98fd4bf8b6859d3b13ace0d31a3ad4e24fa317f9962",
+          "text_sha256": "60117c840572b5227640020378c187d30109b8c7a7ae5260f9ab3d5172d4ec30",
+          "locator": "pp.1\u20132, sections 1 and 4: three zoning districts; proposed Dec 31, 2027 sunset unless extended; 20 days after final passage and publication; blank introduction/adoption/effective dates and signatures"
+        }
+      ],
+      "gazetteer": {
+        "kind": "cousubs",
+        "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2026_Gazetteer/2026_Gaz_cousubs_national.zip",
+        "body_sha256": "9d528b39b70a27075c863b1572f27eadaf24484d5435fac17fc3b4cdd36434c2",
+        "member": "2026_Gaz_cousubs_national.txt",
+        "member_sha256": "6d19c4e9e7a8b24856528851064ccccb7b04be0404d2854d3c488a702312225c",
+        "observed_at": "2026-11-10T00:59:35.490795Z"
+      },
+      "census_record": {
+        "USPS": "NJ",
+        "GEOID": "3402119780",
+        "GEOIDFQ": "0600000US3402119780",
+        "ANSICODE": "00882123",
+        "NAME": "East Windsor township",
+        "FUNCSTAT": "A",
+        "ALAND": "40319309",
+        "AWATER": "230662",
+        "ALAND_SQMI": "15.567",
+        "AWATER_SQMI": "0.089",
+        "INTPTLAT": "40.259139",
+        "INTPTLONG": "-74.533576"
+      },
+      "identity_review": "Retained instrument/report names this jurisdiction; exact state, government name and legal type matched to Census2026 internal representative point. No boundary or policy-coverage inference. Draft names Mercer County; subdivision GEOID county prefix34021 matches.",
+      "prior_questions": [
+        "Formal introduction, final passage, publication, effective date, later action and coordinates not verified; no fresh acquisition."
+      ],
+      "remaining_questions": [
+        "Formal introduction, final passage, publication, effective date, later action not verified; no fresh legal-source acquisition."
+      ]
+    },
+    {
+      "id": "nm-silver-city-2021",
+      "dataset": "local_inventory",
+      "prior_row_sha256": "c2e5f0b4e8544a2087834a7114da47aa8193f38ac5240cd7421de607a38a3373",
+      "current_row_sha256": "2dc459eb49da0c070b070251d4252abd8e82b4b2835edb4a0c72c86a116d3e25",
+      "decision": "apply_geographic_reference_point",
+      "geography_question_resolved": true,
+      "whole_record_disposition_unchanged": true,
+      "sources": [
+        {
+          "url": "https://www.townofsilvercity.org/DocumentCenter/View/1581/Resolution-2021-19-Moratorium-for-Solar-Community-Facility-Projects",
+          "body_sha256": "624d60b3b158373ca3420d87eae7a1075d31577100a895bae1b787d3dd43f9c0",
+          "text_sha256": "c008b8880b3298825e46c1ba1a92adcec29ce6ea34d3fafd96d80d06773d2732",
+          "locator": "pages 1-2, operative clause and adoption"
+        }
+      ],
+      "gazetteer": {
+        "kind": "place",
+        "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2026_Gazetteer/2026_Gaz_place_national.zip",
+        "body_sha256": "af678e2d990827c89ee39b98c82de6e90b693c7361ff0e559ae3076670dd2863",
+        "member": "2026_Gaz_place_national.txt",
+        "member_sha256": "e10cb8004732684fa2a75b9d6030c6c9171674d6b112cff29dbc1bc31a9b82fa",
+        "observed_at": "2026-11-10T00:59:35.410441Z"
+      },
+      "census_record": {
+        "USPS": "NM",
+        "GEOID": "3573260",
+        "GEOIDFQ": "1600000US3573260",
+        "ANSICODE": "02413285",
+        "NAME": "Silver City town",
+        "LSAD": "43",
+        "FUNCSTAT": "A",
+        "ALAND": "26208176",
+        "AWATER": "51262",
+        "ALAND_SQMI": "10.119",
+        "AWATER_SQMI": "0.02",
+        "INTPTLAT": "32.778581",
+        "INTPTLONG": "-108.269409"
+      },
+      "identity_review": "Retained instrument/report names this jurisdiction; exact state, government name and legal type matched to Census2026 internal representative point. No boundary or policy-coverage inference.",
+      "prior_questions": [],
+      "remaining_questions": []
+    },
+    {
+      "id": "ny-massena-undated",
+      "dataset": "local_inventory",
+      "prior_row_sha256": "3a822bc21137f281ed5e98e2e46fa5050bac9e801220ecdaed28d413361453c6",
+      "current_row_sha256": "640e08ffa8deddbaea9eec4431fc0eb08e2b821b01c78088e3e28955cb0194c5",
+      "decision": "apply_geographic_reference_point",
+      "geography_question_resolved": true,
+      "whole_record_disposition_unchanged": true,
+      "sources": [
+        {
+          "url": "https://massena.us/m/newsflash/Home/Detail/114",
+          "body_sha256": "4f5ef9b7b90bbdf061bca0d433d932376506dd48e5ff4c4684488f4e5d8e9795",
+          "text_sha256": "5f14a9578db96e907926f72f1282ac3d403a27e2bb3831ccec243b05f29baef0",
+          "locator": "notice heading and embedded proposed law sections 3-6, 9-10, lines 3-29"
+        }
+      ],
+      "gazetteer": {
+        "kind": "cousubs",
+        "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2026_Gazetteer/2026_Gaz_cousubs_national.zip",
+        "body_sha256": "9d528b39b70a27075c863b1572f27eadaf24484d5435fac17fc3b4cdd36434c2",
+        "member": "2026_Gaz_cousubs_national.txt",
+        "member_sha256": "6d19c4e9e7a8b24856528851064ccccb7b04be0404d2854d3c488a702312225c",
+        "observed_at": "2026-11-10T00:59:35.490795Z"
+      },
+      "census_record": {
+        "USPS": "NY",
+        "GEOID": "3608946030",
+        "GEOIDFQ": "0600000US3608946030",
+        "ANSICODE": "00979205",
+        "NAME": "Massena town",
+        "FUNCSTAT": "A",
+        "ALAND": "114853793",
+        "AWATER": "30558177",
+        "ALAND_SQMI": "44.345",
+        "AWATER_SQMI": "11.799",
+        "INTPTLAT": "44.96202",
+        "INTPTLONG": "-74.83465"
+      },
+      "identity_review": "Retained instrument/report names this jurisdiction; exact state, government name and legal type matched to Census2026 internal representative point. No boundary or policy-coverage inference. Town government, not the separate village or Niagara Falls city.",
+      "prior_questions": [
+        "Recover the public-radio article body and September 16 board minutes to evaluate the reported vote and identity; inspect the linked corrected text if relevant."
+      ],
+      "remaining_questions": [
+        "Recover the public-radio article body and September 16 board minutes to evaluate the reported vote and identity; inspect the linked corrected text if relevant."
+      ]
+    },
+    {
+      "id": "ny-niagara-2024",
+      "dataset": "local_inventory",
+      "prior_row_sha256": "4e5613d85f5964a569ac268caa274e9e6cc53948e26b37781232072bf442d59d",
+      "current_row_sha256": "a4a83e0db7341e5997230e712aeb31a0e823ba46bbe23daedfe2db6b977c146d",
+      "decision": "apply_geographic_reference_point",
+      "geography_question_resolved": true,
+      "whole_record_disposition_unchanged": true,
+      "sources": [
+        {
+          "url": "https://ecode360.com/50043656",
+          "body_sha256": "a35b95c3545248b9660582599813fde5b9ffc0c3e874929b68ac08288f9e2ec9",
+          "text_sha256": "0e84b2ada4ba7c3c10e50d01cfd19e39cebd139ed523a12560d5efb08d21c50b",
+          "locator": "complete code section and editor note"
+        }
+      ],
+      "gazetteer": {
+        "kind": "cousubs",
+        "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2026_Gazetteer/2026_Gaz_cousubs_national.zip",
+        "body_sha256": "9d528b39b70a27075c863b1572f27eadaf24484d5435fac17fc3b4cdd36434c2",
+        "member": "2026_Gaz_cousubs_national.txt",
+        "member_sha256": "6d19c4e9e7a8b24856528851064ccccb7b04be0404d2854d3c488a702312225c",
+        "observed_at": "2026-11-10T00:59:35.490795Z"
+      },
+      "census_record": {
+        "USPS": "NY",
+        "GEOID": "3606351033",
+        "GEOIDFQ": "0600000US3606351033",
+        "ANSICODE": "00979275",
+        "NAME": "Niagara town",
+        "FUNCSTAT": "A",
+        "ALAND": "24562714",
+        "AWATER": "0",
+        "ALAND_SQMI": "9.484",
+        "AWATER_SQMI": "0.",
+        "INTPTLAT": "43.115446",
+        "INTPTLONG": "-78.98098"
+      },
+      "identity_review": "Retained instrument/report names this jurisdiction; exact state, government name and legal type matched to Census2026 internal representative point. No boundary or policy-coverage inference. Town government, not the separate village or Niagara Falls city.",
+      "prior_questions": [
+        "Full original filing and any later local instruments if current restrictions or precise operative filing are needed."
+      ],
+      "remaining_questions": [
+        "Full original filing and any later local instruments if current restrictions or precise operative filing are needed."
+      ]
+    },
+    {
+      "id": "nc-town-of-mooresville-undated",
+      "dataset": "local_inventory",
+      "prior_row_sha256": "b444550b5a2e130ee98cb872c35ced0f8a9dac9deb014ddd7a1a405f3dcb21b0",
+      "current_row_sha256": "1a4bb29e5351e150fe27af1b0ca202bf8eec568c4a50568a0d3c509b4b89a08f",
+      "decision": "apply_geographic_reference_point",
+      "geography_question_resolved": true,
+      "whole_record_disposition_unchanged": true,
+      "sources": [
+        {
+          "url": "https://www.mooresvillenc.gov/news_detail_T4_R441.php",
+          "body_sha256": "f02660ae281c320870afe2e9b50e15370650775254d44331de5ee167b04e1fbd",
+          "text_sha256": "f20acd75e49db175d8aa3b3123b30221f44f1890983e4e4f1ac4e9d7bcb22081",
+          "locator": "complete announcement: November 2 approval of twelve-month pause, no operative endpoint"
+        }
+      ],
+      "gazetteer": {
+        "kind": "place",
+        "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2026_Gazetteer/2026_Gaz_place_national.zip",
+        "body_sha256": "af678e2d990827c89ee39b98c82de6e90b693c7361ff0e559ae3076670dd2863",
+        "member": "2026_Gaz_place_national.txt",
+        "member_sha256": "e10cb8004732684fa2a75b9d6030c6c9171674d6b112cff29dbc1bc31a9b82fa",
+        "observed_at": "2026-11-10T00:59:35.410441Z"
+      },
+      "census_record": {
+        "USPS": "NC",
+        "GEOID": "3744220",
+        "GEOIDFQ": "1600000US3744220",
+        "ANSICODE": "02406189",
+        "NAME": "Mooresville town",
+        "LSAD": "43",
+        "FUNCSTAT": "A",
+        "ALAND": "73002616",
+        "AWATER": "181074",
+        "ALAND_SQMI": "28.186",
+        "AWATER_SQMI": "0.07",
+        "INTPTLAT": "35.583591",
+        "INTPTLONG": "-80.828328"
+      },
+      "identity_review": "Retained instrument/report names this jurisdiction; exact state, government name and legal type matched to Census2026 internal representative point. No boundary or policy-coverage inference.",
+      "prior_questions": [
+        "Obtain signed ordinance or authoritative final minutes to resolve effective date, numbered instrument and exclusions; coordinates not checked."
+      ],
+      "remaining_questions": [
+        "Obtain signed ordinance or authoritative final minutes to resolve effective date, numbered instrument and exclusions."
+      ]
+    },
+    {
+      "id": "sc-awendaw-undated",
+      "dataset": "local_inventory",
+      "prior_row_sha256": "abcfc19ab4550b4078689a1908cce96d985c7f33f9ff92129bbc3eed3138f9a8",
+      "current_row_sha256": "1d070dcb3df98aa442ba24b4579a7dd33b6a89c13e261583d7b3ed2ab031ac83",
+      "decision": "apply_geographic_reference_point",
+      "geography_question_resolved": true,
+      "whole_record_disposition_unchanged": true,
+      "sources": [
+        {
+          "url": "https://www.townofawendawsc.org/uploads/1/5/2/4/152494599/ord._2026-34_data_center_moratorium.pdf",
+          "body_sha256": "caa7c75d3f3477f80de6ecc09ed52f67538e024a7ed798eeba2c9ef4ca74f980",
+          "text_sha256": "dc60832595998058c6fc2e8f565f962a174ee365b2e4e673601b208bdc9f399e",
+          "locator": "three-page unsigned draft: September 17 Planning Commission recommendation, blank hearing/readings, sections 1\u20132 scope and one-year term"
+        }
+      ],
+      "gazetteer": {
+        "kind": "place",
+        "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2026_Gazetteer/2026_Gaz_place_national.zip",
+        "body_sha256": "af678e2d990827c89ee39b98c82de6e90b693c7361ff0e559ae3076670dd2863",
+        "member": "2026_Gaz_place_national.txt",
+        "member_sha256": "e10cb8004732684fa2a75b9d6030c6c9171674d6b112cff29dbc1bc31a9b82fa",
+        "observed_at": "2026-11-10T00:59:35.410441Z"
+      },
+      "census_record": {
+        "USPS": "SC",
+        "GEOID": "4503385",
+        "GEOIDFQ": "1600000US4503385",
+        "ANSICODE": "02405192",
+        "NAME": "Awendaw town",
+        "LSAD": "43",
+        "FUNCSTAT": "A",
+        "ALAND": "42569398",
+        "AWATER": "500108",
+        "ALAND_SQMI": "16.436",
+        "AWATER_SQMI": "0.193",
+        "INTPTLAT": "32.967885",
+        "INTPTLONG": "-79.654755"
+      },
+      "identity_review": "Retained instrument/report names this jurisdiction; exact state, government name and legal type matched to Census2026 internal representative point. No boundary or policy-coverage inference.",
+      "prior_questions": [
+        "Council readings, public hearing, executed text, later action and current force were not verified; posted filename is not evidence of adoption."
+      ],
+      "remaining_questions": [
+        "Council readings, public hearing, executed text, later action and current force were not verified; posted filename is not evidence of adoption."
+      ]
+    },
+    {
+      "id": "tn-orlinda-2026",
+      "dataset": "local_inventory",
+      "prior_row_sha256": "995cd29116891a9abc052e73e7fc229db4b4d40e0a8124d16105e13b8bbc18d7",
+      "current_row_sha256": "6494ebe915683c18ac63350f25cc990b30a376921588e7f2b0ec84f1e68d42f9",
+      "decision": "apply_geographic_reference_point",
+      "geography_question_resolved": true,
+      "whole_record_disposition_unchanged": true,
+      "sources": [
+        {
+          "url": "https://cityoforlindatn.com/wp-content/uploads/2026/06/Resolution-2026-03.pdf",
+          "body_sha256": "c1a99a38bf276fac61a9e8565851c8e254a0227ced8e82b5f4a8ac113ebf2f06",
+          "text_sha256": "123524e364af207134bf15e6c15c7e675b5f4ccf4aa3279d22cf7e0835c70ff9",
+          "locator": "page 1 visually inspected: city limits, two years from effective date, data center and crypto facility scope; page 2 extraction sections 4 and 6: existing fully approved/permitted operation exception, immediate upon passage June 11, 2026; prior review confirms mayor signature and blank recorder line"
+        }
+      ],
+      "gazetteer": {
+        "kind": "place",
+        "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2026_Gazetteer/2026_Gaz_place_national.zip",
+        "body_sha256": "af678e2d990827c89ee39b98c82de6e90b693c7361ff0e559ae3076670dd2863",
+        "member": "2026_Gaz_place_national.txt",
+        "member_sha256": "e10cb8004732684fa2a75b9d6030c6c9171674d6b112cff29dbc1bc31a9b82fa",
+        "observed_at": "2026-11-10T00:59:35.410441Z"
+      },
+      "census_record": {
+        "USPS": "TN",
+        "GEOID": "4756020",
+        "GEOIDFQ": "1600000US4756020",
+        "ANSICODE": "02404444",
+        "NAME": "Orlinda city",
+        "LSAD": "25",
+        "FUNCSTAT": "A",
+        "ALAND": "17064667",
+        "AWATER": "0",
+        "ALAND_SQMI": "6.589",
+        "AWATER_SQMI": "0.",
+        "INTPTLAT": "36.593839",
+        "INTPTLONG": "-86.701561"
+      },
+      "identity_review": "Retained instrument/report names this jurisdiction; exact state, government name and legal type matched to Census2026 internal representative point. No boundary or policy-coverage inference.",
+      "prior_questions": [
+        "Review later city actions for amendments or other changes; no later-action acquisition is evidenced in the discovery journal",
+        "Verify coordinates; not performed"
+      ],
+      "remaining_questions": [
+        "Review later city actions for amendments or other changes; no later-action acquisition is evidenced in the discovery journal"
+      ]
+    },
+    {
+      "id": "wa-spokane-valley-2026",
+      "dataset": "local_inventory",
+      "prior_row_sha256": "815025036a6728b0285759309a59e5aa92453c0cf3f157ffe39c4fb6eabbb8f5",
+      "current_row_sha256": "fc1eab2eff382f4f29d1163d4a30bf0562d348b6d83a53c59a34b71d77f9fa51",
+      "decision": "apply_geographic_reference_point",
+      "geography_question_resolved": true,
+      "whole_record_disposition_unchanged": true,
+      "sources": [
+        {
+          "url": "https://ecode360.com/SP4654/laws/LF2731355.pdf",
+          "body_sha256": "3dc2643bc819904c8e70b77c26aab67a1e28f645e6a6ceebd460ee0acbf70084",
+          "text_sha256": "3060387e1b84d118731b45694ca6b9249a00dcf62821474078ec28e30e5c7343",
+          "locator": "sections 2, 3, 5, 8 and Exhibit A; PDF pages 2\u20134"
+        }
+      ],
+      "gazetteer": {
+        "kind": "place",
+        "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2026_Gazetteer/2026_Gaz_place_national.zip",
+        "body_sha256": "af678e2d990827c89ee39b98c82de6e90b693c7361ff0e559ae3076670dd2863",
+        "member": "2026_Gaz_place_national.txt",
+        "member_sha256": "e10cb8004732684fa2a75b9d6030c6c9171674d6b112cff29dbc1bc31a9b82fa",
+        "observed_at": "2026-11-10T00:59:35.410441Z"
+      },
+      "census_record": {
+        "USPS": "WA",
+        "GEOID": "5367167",
+        "GEOIDFQ": "1600000US5367167",
+        "ANSICODE": "02411957",
+        "NAME": "Spokane Valley city",
+        "LSAD": "25",
+        "FUNCSTAT": "A",
+        "ALAND": "97693332",
+        "AWATER": "747133",
+        "ALAND_SQMI": "37.72",
+        "AWATER_SQMI": "0.288",
+        "INTPTLAT": "47.663353",
+        "INTPTLONG": "-117.23278"
+      },
+      "identity_review": "Retained instrument/report names this jurisdiction; exact state, government name and legal type matched to Census2026 internal representative point. No boundary or policy-coverage inference.",
+      "prior_questions": [
+        "No retained later hearing outcome, amendments, repeal, extension, or present-force authority was located in the supplied routing; no independent current legislative search performed.",
+        "Coordinates not verified."
+      ],
+      "remaining_questions": [
+        "No retained later hearing outcome, amendments, repeal, extension, or present-force authority was located in the supplied routing; no independent current legislative search performed."
+      ]
+    },
+    {
+      "id": "wa-whitman-county-2025",
+      "dataset": "local_inventory",
+      "prior_row_sha256": "8fa914834aeb5ee7d7bfb661a5cbfd765f1f1e669e1b48a1ad9fe337ae637113",
+      "current_row_sha256": "f04f693273cebc17ab2ff148ee69c130c087f5f806849d2a89ff5d518c29c96d",
+      "decision": "apply_geographic_reference_point",
+      "geography_question_resolved": true,
+      "whole_record_disposition_unchanged": true,
+      "sources": [
+        {
+          "url": "https://whitmancounty.gov/DocumentCenter/View/11410/Ordinance-No-089101-Interim-Zoning-Controls-Winf--Solar-Energy-Generation-Facilities-Storage---2025-05-05-PDF",
+          "body_sha256": "7ca6229e88fcae682485d1d13df654e5897693381af180f706ed575fa1326226",
+          "text_sha256": "840262e1703b0b80d932e867fdc28eb856d45a54d3aee88b42e5f1adfd64e89d",
+          "locator": "sections 2, 3, 5, signed page 3"
+        }
+      ],
+      "gazetteer": {
+        "kind": "counties",
+        "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2026_Gazetteer/2026_Gaz_counties_national.zip",
+        "body_sha256": "6a99ca00efbc0be5112e225d4102704c51d5ce3b16e3afd6e4159460595fd12a",
+        "member": "2026_Gaz_counties_national.txt",
+        "member_sha256": "0c9bb040b1cded73b77541cab8acae7b5851ff9c257ad97a1094c0d8adfab9c1",
+        "observed_at": "2026-11-10T00:59:35.401805Z"
+      },
+      "census_record": {
+        "USPS": "WA",
+        "GEOID": "53075",
+        "GEOIDFQ": "0500000US53075",
+        "ANSICODE": "01533501",
+        "NAME": "Whitman County",
+        "ALAND": "5592463290",
+        "AWATER": "48246694",
+        "ALAND_SQMI": "2159.262",
+        "AWATER_SQMI": "18.628",
+        "INTPTLAT": "46.905944",
+        "INTPTLONG": "-117.53539"
+      },
+      "identity_review": "Retained instrument/report names this jurisdiction; exact state, government name and legal type matched to Census2026 internal representative point. No boundary or policy-coverage inference.",
+      "prior_questions": [
+        "No independent later extension, repeal, replacement or current restrictions check performed; coordinates unverified."
+      ],
+      "remaining_questions": [
+        "No independent later extension, repeal, replacement or current restrictions check performed."
+      ]
+    },
+    {
+      "id": "wi-sun-prairie-2026",
+      "dataset": "local_inventory",
+      "prior_row_sha256": "93ff4172b9ffa335414c8abd636022bd53bf637555b1fbe6545ca56a9af479dd",
+      "current_row_sha256": "4c46cea19b74318a869caf5aa383f259f0d7a46b6aef8d08b521adc0460c8887",
+      "decision": "apply_geographic_reference_point",
+      "geography_question_resolved": true,
+      "whole_record_disposition_unchanged": true,
+      "sources": [
+        {
+          "url": "https://cityofsunprairie.com/3139/September-2026",
+          "body_sha256": "4ebf1b18197d3ed7d40d56536cf258341153dddf6fe7e926046418390b427482",
+          "text_sha256": "9c67483b462a245abd14972cc049b9c640d96da0bbab99cf4f87266978b85d3e",
+          "locator": "city September newsletter 12-Month Data Center Moratorium section, original DOM derivation"
+        }
+      ],
+      "gazetteer": {
+        "kind": "place",
+        "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2026_Gazetteer/2026_Gaz_place_national.zip",
+        "body_sha256": "af678e2d990827c89ee39b98c82de6e90b693c7361ff0e559ae3076670dd2863",
+        "member": "2026_Gaz_place_national.txt",
+        "member_sha256": "e10cb8004732684fa2a75b9d6030c6c9171674d6b112cff29dbc1bc31a9b82fa",
+        "observed_at": "2026-11-10T00:59:35.410441Z"
+      },
+      "census_record": {
+        "USPS": "WI",
+        "GEOID": "5578600",
+        "GEOIDFQ": "1600000US5578600",
+        "ANSICODE": "01584255",
+        "NAME": "Sun Prairie city",
+        "LSAD": "25",
+        "FUNCSTAT": "A",
+        "ALAND": "34521876",
+        "AWATER": "641345",
+        "ALAND_SQMI": "13.329",
+        "AWATER_SQMI": "0.248",
+        "INTPTLAT": "43.183796",
+        "INTPTLONG": "-89.234319"
+      },
+      "identity_review": "Retained instrument/report names this jurisdiction; exact state, government name and legal type matched to Census2026 internal representative point. No boundary or policy-coverage inference. City Common Council newsletter, not the separate town; reused reviewed full-DOM derivation because original text extraction contains only library material.",
+      "prior_questions": [
+        "Signed resolution, its operative dates, exemptions, later actions and coordinates were not independently verified; existing verification marker remains."
+      ],
+      "remaining_questions": [
+        "Signed resolution, its operative dates, exemptions, later actions were not independently verified; existing verification marker remains."
+      ]
+    }
+  ],
+  "field_changes": [
+    {
+      "id": "ak-fairbanks-north-star-borough-undated",
+      "field": "latitude",
+      "before": "",
+      "after": "64.670454"
+    },
+    {
+      "id": "ak-fairbanks-north-star-borough-undated",
+      "field": "longitude",
+      "before": "",
+      "after": "-146.496061"
+    },
+    {
+      "id": "ak-petersburg-borough-undated",
+      "field": "latitude",
+      "before": "",
+      "after": "57.245959"
+    },
+    {
+      "id": "ak-petersburg-borough-undated",
+      "field": "longitude",
+      "before": "",
+      "after": "-132.788762"
+    },
+    {
+      "id": "ca-hayward-2026",
+      "field": "latitude",
+      "before": "",
+      "after": "37.626826"
+    },
+    {
+      "id": "ca-hayward-2026",
+      "field": "longitude",
+      "before": "",
+      "after": "-122.104015"
+    },
+    {
+      "id": "co-brighton-undated",
+      "field": "latitude",
+      "before": "",
+      "after": "39.965676"
+    },
+    {
+      "id": "co-brighton-undated",
+      "field": "longitude",
+      "before": "",
+      "after": "-104.794056"
+    },
+    {
+      "id": "co-fort-collins-undated",
+      "field": "latitude",
+      "before": "",
+      "after": "40.548405"
+    },
+    {
+      "id": "co-fort-collins-undated",
+      "field": "longitude",
+      "before": "",
+      "after": "-105.064988"
+    },
+    {
+      "id": "co-phillips-county-2025",
+      "field": "latitude",
+      "before": "",
+      "after": "40.594712"
+    },
+    {
+      "id": "co-phillips-county-2025",
+      "field": "longitude",
+      "before": "",
+      "after": "-102.345105"
+    },
+    {
+      "id": "co-phillips-county-2024",
+      "field": "latitude",
+      "before": "",
+      "after": "40.594712"
+    },
+    {
+      "id": "co-phillips-county-2024",
+      "field": "longitude",
+      "before": "",
+      "after": "-102.345105"
+    },
+    {
+      "id": "de-kent-county-2022",
+      "field": "latitude",
+      "before": "",
+      "after": "39.097088"
+    },
+    {
+      "id": "de-kent-county-2022",
+      "field": "longitude",
+      "before": "",
+      "after": "-75.502982"
+    },
+    {
+      "id": "de-kent-county-undated",
+      "field": "latitude",
+      "before": "",
+      "after": "39.097088"
+    },
+    {
+      "id": "de-kent-county-undated",
+      "field": "longitude",
+      "before": "",
+      "after": "-75.502982"
+    },
+    {
+      "id": "ga-union-county-2026",
+      "field": "latitude",
+      "before": "",
+      "after": "34.833333"
+    },
+    {
+      "id": "ga-union-county-2026",
+      "field": "longitude",
+      "before": "",
+      "after": "-83.989257"
+    },
+    {
+      "id": "id-blaine-county-undated",
+      "field": "latitude",
+      "before": "",
+      "after": "43.394179"
+    },
+    {
+      "id": "id-blaine-county-undated",
+      "field": "longitude",
+      "before": "",
+      "after": "-113.955387"
+    },
+    {
+      "id": "il-chicago-undated",
+      "field": "latitude",
+      "before": "",
+      "after": "41.837045"
+    },
+    {
+      "id": "il-chicago-undated",
+      "field": "longitude",
+      "before": "",
+      "after": "-87.684939"
+    },
+    {
+      "id": "il-stephenson-county-2026",
+      "field": "latitude",
+      "before": "",
+      "after": "42.349726"
+    },
+    {
+      "id": "il-stephenson-county-2026",
+      "field": "longitude",
+      "before": "",
+      "after": "-89.665994"
+    },
+    {
+      "id": "in-vermillion-county-undated",
+      "field": "latitude",
+      "before": "",
+      "after": "39.854045"
+    },
+    {
+      "id": "in-vermillion-county-undated",
+      "field": "longitude",
+      "before": "",
+      "after": "-87.462071"
+    },
+    {
+      "id": "in-zionsville-undated",
+      "field": "latitude",
+      "before": "",
+      "after": "39.991538"
+    },
+    {
+      "id": "in-zionsville-undated",
+      "field": "longitude",
+      "before": "",
+      "after": "-86.321762"
+    },
+    {
+      "id": "ia-sac-county-2025",
+      "field": "latitude",
+      "before": "",
+      "after": "42.387526"
+    },
+    {
+      "id": "ia-sac-county-2025",
+      "field": "longitude",
+      "before": "",
+      "after": "-95.105224"
+    },
+    {
+      "id": "ia-sioux-county-2023",
+      "field": "latitude",
+      "before": "",
+      "after": "43.082618"
+    },
+    {
+      "id": "ia-sioux-county-2023",
+      "field": "longitude",
+      "before": "",
+      "after": "-96.17798"
+    },
+    {
+      "id": "ky-camargo-2026",
+      "field": "latitude",
+      "before": "",
+      "after": "37.999694"
+    },
+    {
+      "id": "ky-camargo-2026",
+      "field": "longitude",
+      "before": "",
+      "after": "-83.888489"
+    },
+    {
+      "id": "la-bossier-parish-2022",
+      "field": "latitude",
+      "before": "",
+      "after": "32.693317"
+    },
+    {
+      "id": "la-bossier-parish-2022",
+      "field": "longitude",
+      "before": "",
+      "after": "-93.631366"
+    },
+    {
+      "id": "me-ashland-2024",
+      "field": "latitude",
+      "before": "",
+      "after": "46.650441"
+    },
+    {
+      "id": "me-ashland-2024",
+      "field": "longitude",
+      "before": "",
+      "after": "-68.388373"
+    },
+    {
+      "id": "me-bridgton-2022",
+      "field": "latitude",
+      "before": "",
+      "after": "44.047513"
+    },
+    {
+      "id": "me-bridgton-2022",
+      "field": "longitude",
+      "before": "",
+      "after": "-70.743319"
+    },
+    {
+      "id": "md-talbot-county-2022",
+      "field": "latitude",
+      "before": "",
+      "after": "38.747066"
+    },
+    {
+      "id": "md-talbot-county-2022",
+      "field": "longitude",
+      "before": "",
+      "after": "-76.177374"
+    },
+    {
+      "id": "ma-braintree-undated",
+      "field": "latitude",
+      "before": "",
+      "after": "42.206188"
+    },
+    {
+      "id": "ma-braintree-undated",
+      "field": "longitude",
+      "before": "",
+      "after": "-71.00232"
+    },
+    {
+      "id": "ma-methuen-undated",
+      "field": "latitude",
+      "before": "",
+      "after": "42.742648"
+    },
+    {
+      "id": "ma-methuen-undated",
+      "field": "longitude",
+      "before": "",
+      "after": "-71.178643"
+    },
+    {
+      "id": "mi-locke-township-2023",
+      "field": "latitude",
+      "before": "",
+      "after": "42.733945"
+    },
+    {
+      "id": "mi-locke-township-2023",
+      "field": "longitude",
+      "before": "",
+      "after": "-84.206362"
+    },
+    {
+      "id": "mi-locke-township-2023-2",
+      "field": "latitude",
+      "before": "",
+      "after": "42.733945"
+    },
+    {
+      "id": "mi-locke-township-2023-2",
+      "field": "longitude",
+      "before": "",
+      "after": "-84.206362"
+    },
+    {
+      "id": "mi-meridian-township-2026-2",
+      "field": "latitude",
+      "before": "",
+      "after": "42.725291"
+    },
+    {
+      "id": "mi-meridian-township-2026-2",
+      "field": "longitude",
+      "before": "",
+      "after": "-84.419722"
+    },
+    {
+      "id": "mn-pequot-lakes-undated",
+      "field": "latitude",
+      "before": "",
+      "after": "46.588091"
+    },
+    {
+      "id": "mn-pequot-lakes-undated",
+      "field": "longitude",
+      "before": "",
+      "after": "-94.287969"
+    },
+    {
+      "id": "ne-sarpy-county-2020",
+      "field": "latitude",
+      "before": "",
+      "after": "41.115064"
+    },
+    {
+      "id": "ne-sarpy-county-2020",
+      "field": "longitude",
+      "before": "",
+      "after": "-96.109125"
+    },
+    {
+      "id": "nj-east-windsor-undated",
+      "field": "latitude",
+      "before": "",
+      "after": "40.259139"
+    },
+    {
+      "id": "nj-east-windsor-undated",
+      "field": "longitude",
+      "before": "",
+      "after": "-74.533576"
+    },
+    {
+      "id": "nm-silver-city-2021",
+      "field": "latitude",
+      "before": "",
+      "after": "32.778581"
+    },
+    {
+      "id": "nm-silver-city-2021",
+      "field": "longitude",
+      "before": "",
+      "after": "-108.269409"
+    },
+    {
+      "id": "ny-massena-undated",
+      "field": "latitude",
+      "before": "",
+      "after": "44.96202"
+    },
+    {
+      "id": "ny-massena-undated",
+      "field": "longitude",
+      "before": "",
+      "after": "-74.83465"
+    },
+    {
+      "id": "ny-niagara-2024",
+      "field": "latitude",
+      "before": "",
+      "after": "43.115446"
+    },
+    {
+      "id": "ny-niagara-2024",
+      "field": "longitude",
+      "before": "",
+      "after": "-78.98098"
+    },
+    {
+      "id": "nc-town-of-mooresville-undated",
+      "field": "latitude",
+      "before": "",
+      "after": "35.583591"
+    },
+    {
+      "id": "nc-town-of-mooresville-undated",
+      "field": "longitude",
+      "before": "",
+      "after": "-80.828328"
+    },
+    {
+      "id": "sc-awendaw-undated",
+      "field": "latitude",
+      "before": "",
+      "after": "32.967885"
+    },
+    {
+      "id": "sc-awendaw-undated",
+      "field": "longitude",
+      "before": "",
+      "after": "-79.654755"
+    },
+    {
+      "id": "tn-orlinda-2026",
+      "field": "latitude",
+      "before": "",
+      "after": "36.593839"
+    },
+    {
+      "id": "tn-orlinda-2026",
+      "field": "longitude",
+      "before": "",
+      "after": "-86.701561"
+    },
+    {
+      "id": "wa-spokane-valley-2026",
+      "field": "latitude",
+      "before": "",
+      "after": "47.663353"
+    },
+    {
+      "id": "wa-spokane-valley-2026",
+      "field": "longitude",
+      "before": "",
+      "after": "-117.23278"
+    },
+    {
+      "id": "wa-whitman-county-2025",
+      "field": "latitude",
+      "before": "",
+      "after": "46.905944"
+    },
+    {
+      "id": "wa-whitman-county-2025",
+      "field": "longitude",
+      "before": "",
+      "after": "-117.53539"
+    },
+    {
+      "id": "wi-sun-prairie-2026",
+      "field": "latitude",
+      "before": "",
+      "after": "43.183796"
+    },
+    {
+      "id": "wi-sun-prairie-2026",
+      "field": "longitude",
+      "before": "",
+      "after": "-89.234319"
+    }
+  ],
+  "canonical_cells_changed": 78,
+  "records_changed": 39,
+  "whole_record_closures": 0,
+  "geocoded_before": 1287,
+  "geocoded_after": 1326,
+  "blank_after": 2,
+  "status_changes": 0,
+  "source_requests_reused": 39,
+  "new_http_requests": 4
+}

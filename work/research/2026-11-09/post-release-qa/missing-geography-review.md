@@ -9,3 +9,9 @@ These are candidates, not applied corrections or closed legal QA questions. Iden
 The audit pins inventory bytes, each normalized input row, the source ZIPs, and exact member bytes. Inputs use pipe delimiters, unlike some earlier Gazetteer editions. Candidate coordinates preserve the source strings. Canonical CSV, maps, dispositions, published release and consumer snapshot remain unchanged by this discovery step.
 
 Next: authenticate the 39 jurisdiction identities against retained source context, integrate justified points with guarded writes and regenerated map outputs, and leave any ambiguous identities blank. Whole-record legal-force questions remain open unless separately resolved.
+
+## Applied identity review
+
+All39 candidate identities were checked against retained source bodies and text; their hashes were recomputed. Michigan Ingham County and New Jersey Mercer County identities match the Census subdivision county codes. New York towns remain distinct from villages/cities, Sun Prairie uses the city rather than town, and Braintree Town city retains the inventory label. Pequot Lakes letterhead was visually inspected because text extraction omits the city logo. Sun Prairie uses the already reviewed full-DOM derivation rather than the incomplete original extraction.
+
+The [guarded application](missing-geography-application.json) changes78 coordinate cells and no other canonical fields. The persistent overrides and interactive GeoJSON are updated. Legal questions and whole-record dispositions remain open. Seven exact native source-body/text pairs were read back and verified. The paper map generators aggregate by state and do not read coordinates; they require no image regeneration for this coordinate-only update. The downloadable map layer is regenerated.

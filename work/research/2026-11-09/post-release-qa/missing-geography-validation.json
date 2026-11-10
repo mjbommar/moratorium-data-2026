@@ -1,0 +1,84 @@
+{
+  "checks": [
+    {
+      "command": [
+        "scripts/validate_dataset.py",
+        "--today",
+        "2026-11-09"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/build_policy_scope_exports.py",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/build_summary_stats.py",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/build_geojson.py",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/make_timeline.py",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/check_docs_numbers.py"
+      ],
+      "returncode": 0,
+      "initial_returncode": 1,
+      "correction": "Updated methodology counts and preserved recognized count-claim wording; regenerated HTML and reran documentation checker."
+    },
+    {
+      "command": [
+        "-m",
+        "scripts.generate_tables.inventory_clean",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/build_index.py",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/classify_sources.py",
+        "--check"
+      ],
+      "returncode": 0
+    }
+  ],
+  "all_passed": true,
+  "dataset_errors": 0,
+  "dataset_warnings": 620,
+  "documented_numeric_claims": 95,
+  "additional_checks": {
+    "entire_inventory_diff": "78 cells across39rows; onlylatitude/longitude",
+    "geojson_features": 1326,
+    "remaining_blank_rows": 2,
+    "persistent_overrides": "All overrides already applied",
+    "rendered_download_sizes": "Match current file bytes",
+    "native_exact_pairs": 7,
+    "whole_record_disposition_changes": 0
+  },
+  "scope": "Mechanical consistency and explicit geographic identity review; no universal legal-force certification."
+}

@@ -82,14 +82,14 @@ The November reviewed working inventory has **1328 inventory records across 47 s
 
 ### Phase 4: Geocoding (added v2026.04.2)
 
-Each row in the cleaned inventory was assigned WGS84 latitude and longitude coordinates representing the jurisdiction's centroid. Two-tiered approach:
+Jurisdiction map anchors use WGS84 latitude and longitude. They are reference points, not legal boundaries or project locations, and are not necessarily geometric centroids. The initial geocoding used the following approach:
 
 1. **Primary geocoder: OSM Nominatim.** Free, open-source, with reasonable U.S. administrative boundary coverage. Rate-limited to 1 request/second per the public API usage policy.
 2. **Fallback: U.S. Census Geocoder.** Used when Nominatim returns no result. The Census Geocoder is authoritative for U.S. jurisdictions but works best for street addresses; for "Jurisdiction, State" queries we found Nominatim more reliable.
 
-Of 1328 rows, 1287 (96.9%) are successfully geocoded. The 41 blanks comprise two aggregate meta-rows (`Other Reported Local Moratoria, Michigan` and `Proposed or Rejected Local Pauses, Maryland`) and thirty-nine newly added instruments whose coordinates remain unreviewed: Hayward, Fairbanks North Star Borough, Petersburg Borough, Braintree, Methuen, Sun Prairie, two Kent County records, Brighton, Chicago, Sac County, the 2023 Sioux County record, the historical Silver City solar record, Orlinda, Blaine County, Sarpy County, Pequot Lakes, the historical Talbot County solar record, East Windsor, two historical Phillips County records, Fort Collins, Vermillion County, Zionsville, Union County, Camargo, Bossier Parish, Mooresville, Awendaw, Stephenson County, Whitman County, Spokane Valley, Niagara, Massena, two Locke Township records, Meridian Township, Bridgton and Ashland. Dubuque County's new successor instrument reuses the existing county centroid with recorded provenance; this was not a new geocoder query.
+Of 1328 rows, 1326 (99.8%) are successfully geocoded. The 2 blanks comprise two aggregate meta-rows (`Other Reported Local Moratoria, Michigan` and `Proposed or Rejected Local Pauses, Maryland`), which have no single geographic jurisdiction. The [November9 review](../work/research/2026-11-09/post-release-qa/missing-geography-application.json) fills39 prior blanks using official Census2026 Gazetteer internal representative points after checking retained jurisdiction identities. Exact state, government name, type and, for the ambiguous subdivisions, county identity are preserved in the receipt. ZIP and extracted-member hashes pin the source versions. Decimal precision does not establish positional accuracy or policy applicability. Earlier points retain their previous provenance; this batch does not re-audit them. Dubuque County's successor instrument reuses the existing county reference point with recorded provenance; this was not a new geocoder query.
 
-After geocoding, a triple-check audit ran 89 verifications across three independent methods:
+In the historical April2026 geocoding edition, a triple-check audit ran 89 verifications across three independent methods:
 
 1. **Random sampling against geographic knowledge** (24 rows): manually verify each coordinate matches a well-known location.
 2. **Wikipedia GeoSearch reverse-lookup** (50 rows): query Wikipedia for pages within 10 km of our coordinates; verify the jurisdiction name appears among them.

@@ -294,12 +294,12 @@ the working count is not a completed deduplicated instrument census.</p>
 </tr>
 <tr>
 <td><code>latitude</code></td>
-<td>WGS84 latitude of the jurisdiction's centroid. Geocoded via OSM Nominatim (with U.S. Census Geocoder fallback). For counties, the centroid is the county; for cities/towns/villages/townships, the centroid is the local government boundary. Six decimal places (~10 cm precision); blank if geocoding failed.</td>
+<td>WGS84 latitude of a jurisdiction reference point. Initial points use OSM Nominatim/Census geocoding; reviewed overrides include official Census Gazetteer internal representative points. Points are not boundaries, project locations or proof of policy applicability. Decimal precision is not positional accuracy. Blank for aggregate rows or unresolved geography; provenance is recorded in <code>scripts/apply_geo_overrides.py</code> and linked reviews.</td>
 <td><code>42.238500</code></td>
 </tr>
 <tr>
 <td><code>longitude</code></td>
-<td>WGS84 longitude of the jurisdiction's centroid (see <code>latitude</code>). Negative for U.S. jurisdictions.</td>
+<td>WGS84 longitude of the jurisdiction reference point (see <code>latitude</code>). Usually negative for U.S. jurisdictions; Alaska can cross the antimeridian.</td>
 <td><code>-83.706940</code></td>
 </tr>
 <tr>

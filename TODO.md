@@ -766,3 +766,5 @@ Exit: repeatable refresh with visible freshness, costs, failures and unresolved 
 - [ ] Deliver the accumulated41 Wisconsin/Minnesota field corrections across15 records,10 status-category changes and four Wisconsin analytical inclusions to the integration consumer and next qualified release; post3/V8 retain their authenticated cutoffs.
 
 - [x] Resolve ten Minnesota regular-session outcome holds with the actual final Senate journal, current even-year authority and19 named/companion histories. Apply30 fields as explicitly qualified nonpassage inferences; no fictitious Died event or omnibus-content absence claim. Verify26 native pairs,32 unique retained pairs and all nine checks. Current unresolved1,382; September status differences148 (95 local/53 policy). See `work/research/2026-11-09/post-release-qa/minnesota-review.md`.
+
+- [x] Fill39 missing jurisdiction map anchors from Census2026 with retained identity checks and source hashes; preserve two aggregate blanks, legal-status categories and outstanding legal questions. Regenerate the interactive GeoJSON and correct centroid/precision wording.
