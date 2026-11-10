@@ -897,4 +897,4 @@ Exit: repeatable refresh with visible freshness, costs, failures and unresolved 
 - [x] Complete live post14 Pages deployment and browser/byte checks: 64 generated HTML pages, 229 linked resources/downloads and desktop/mobile map/table interactions verified. Pending source QA and held Kentucky EO candidate remain.
 
 - [x] Qualified post15 / V30 data release: independently reviewed Bonney Lake replacement and end date; deterministic build, restore, ten anonymous downloads and consumer handoff verified.
-- [ ] Deploy and verify the complete post15 website, including Washington table, current map filters and updated metadata.
+- [x] Deploy and verify the complete post15 website: all 64 generated HTML pages, linked assets/current downloads, Washington correction, map filters, metadata and desktop/mobile behavior.

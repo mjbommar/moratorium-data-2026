@@ -1,6 +1,6 @@
 # Changelog
 
-## Qualified v2026.11.10.post15 — website verification pending
+## Qualified v2026.11.10.post15
 
 Independent tool-free Terra review supports Bonney Lake’s replacement by Ordinance 1763 and October 13, 2026 end date. Four canonical cells changed: status prose, outcome, recorded category and end date. One record moves from active to replaced; no raw records, native history or whole-record dispositions change. The verified hosted/download release remains post14 until the next delivery. [Review/application](work/research/2026-11-10/post-release-qa/bonney-lake-reviewed-application.json).
 

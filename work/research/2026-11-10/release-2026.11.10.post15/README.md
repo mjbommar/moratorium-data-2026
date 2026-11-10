@@ -4,4 +4,4 @@
 
 Two byte-identical builds, full clean restore, ten anonymous downloads and all 2,525 archive members verified. V30 consumer main `78be35aaecdea7fbda7bc47f8063aa2853e1ef77` is pushed and verified with three trusted consistency checks, policy semantics and exact Git bytes/modes. All 1,266 native historical members are unchanged.
 
-Bonney Lake is recorded as replaced, ending October 13, 2026. Classified active/extended is 1,086 and past 172. There are still 1,347 unresolved record reviews; no whole-record closure. Kentucky EO2026-494 remains a held candidate. Live deployment checks are pending.
+Bonney Lake is recorded as replaced, ending October 13, 2026. Classified active/extended is 1,086 and past 172. There are still 1,347 unresolved record reviews; no whole-record closure. Kentucky EO2026-494 remains a held candidate. [Live website checks](hosted-copy-verification.json) pass: all 64 generated HTML pages and 229 resources/downloads match pinned source bytes; desktop/mobile map/table checks include Bonney Lake’s replacement and end date. The complete 8,314-file payload retains all 49 native historical generations.
