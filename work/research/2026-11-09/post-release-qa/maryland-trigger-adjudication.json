@@ -1,0 +1,100 @@
+{
+  "reviewed_at": "2026-11-10T08:50:11.180520+00:00",
+  "reviewer": "root direct primary text and visual review; no new independent reviewer",
+  "id": "md-hb1532-sb0841-2026",
+  "existing_disposition": "unresolved",
+  "prior_row_sha256": "6df20e6c1167034081c5fb2f00ececac959d6cf110a5e65bc22b33219105d444",
+  "current_row_sha256": "245d489a9a96ea033a23757c03528c7c74f5f63e17ddf800808532257b02b6c6",
+  "field_changes": [
+    {
+      "field": "end_condition",
+      "before": "Section 21 conditionally terminates Section 6, not the whole act, upon the specified Chapter 595 of 2024 condition; trigger and current effect unverified.",
+      "after": "Section 21 ties termination of Section 6 (Customer-Sited Solar Program grant-funding amendment) to the termination specified in 2024 Chapter 595 Section 10: abrogation of that act's Section 2 at the end of June 30, 2027. This date is future as of November 10, 2026 under the reviewed enactments, and is not a whole-act or data-center construction-restriction sunset. Subsequent amendments and current force remain unverified."
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://mgaleg.maryland.gov/2026RS/Chapters_noln/CH_353_hb1532e.pdf",
+      "body_sha256": "cec30f5ad89f334df7a074330879a83b6eca9d6a2f4b05a8a1d7eb21a6121a6d",
+      "text_sha256": "05d420974662fed0093d548d0c10916216ca261e07f749783b96a50ff0355a15",
+      "locator": "Retained chapter353 PDF pages132-133 Section6: Customer-Sited Solar Program grant funding; pages143-144 Section21: only Section6 tied to2024 chapter595 Section10; all four pages visually reviewed at100dpi."
+    },
+    {
+      "url": "https://mgaleg.maryland.gov/2024RS/Chapters_noln/CH_595_sb0783e.pdf",
+      "body_sha256": "96c348f4eae3973281fcd097d959581da4c0ede65ef1c48f7995574e2bbce9ae",
+      "text_sha256": "0c4f5aa668d0890e6a1dbfc57acf0dba42ccb25344fd33289237e8ec2e4eafa5",
+      "observed_at": "2026-11-10T08:48:14.826496Z",
+      "locator": "2024 chapter595 PDF pages24-25, Section10: Section2 effectiveJuly1,2024, remains3years and abrogated at endJune30,2027; both pages visually reviewed at120dpi."
+    }
+  ],
+  "visual_review": [
+    {
+      "chapter": "353",
+      "pdf_page": 132,
+      "render_sha256": "e0aa26e75ae2c6e4e833e88e90045140da1d26fe8afb60b56ad0f8927e71021c",
+      "dpi": 100,
+      "reviewer": "root direct visual review"
+    },
+    {
+      "chapter": "353",
+      "pdf_page": 133,
+      "render_sha256": "5edd1279d6853beb43f78df905760364864aefa87774fbc022c22528fcdde982",
+      "dpi": 100,
+      "reviewer": "root direct visual review"
+    },
+    {
+      "chapter": "353",
+      "pdf_page": 143,
+      "render_sha256": "1fc25d8e271cac3c778dd679380c8e8f65240d2a079ae1bc9b39dac5b1a60f01",
+      "dpi": 100,
+      "reviewer": "root direct visual review"
+    },
+    {
+      "chapter": "353",
+      "pdf_page": 144,
+      "render_sha256": "d93abb6610957b617a5f1387445c213ae316a7001a56f7a00f3bad2c4eeb3836",
+      "dpi": 100,
+      "reviewer": "root direct visual review"
+    },
+    {
+      "chapter": "595",
+      "pdf_page": 24,
+      "render_sha256": "2ee1a2b43f47f9f81a547c5b342cd09793a91696ed4e13bdb1853380d518992a",
+      "dpi": 120,
+      "reviewer": "root direct visual review"
+    },
+    {
+      "chapter": "595",
+      "pdf_page": 25,
+      "render_sha256": "a4b23674fea6b3441bb91f45e8645070236d7e99dcaf0bb54bbecd45058ac0dc",
+      "dpi": 120,
+      "reviewer": "root direct visual review"
+    }
+  ],
+  "prior_questions": [
+    "Chapter 595 Section 10 and evidence of its triggering event not examined; current codification, subsequent amendments, litigation and implementation not checked. No failed capture is asserted."
+  ],
+  "remaining_questions": [
+    "Check current codification, subsequent amendments, litigation and implementation if asserting current legal force. The reviewed2024/2026 enactments now identify the Section6-only termination anchor as endJune30,2027, future at the November10,2026 review; no present termination is inferred."
+  ],
+  "resolved_question": "Exact2024 Chapter595 Section10 termination anchor and its2026 Chapter353 Section21 scope identified. It is endJune30,2027 and concerns the Section6 solar-program funding amendment, not the whole act or data-center construction restriction.",
+  "canonical_cells_changed": 1,
+  "status_category_changes": 0,
+  "scope_membership_changes": 0,
+  "whole_record_closures": 0,
+  "acquisition_accounting": {
+    "search_cap": 1,
+    "search_used": 1,
+    "fetch_cap": 3,
+    "fetch_used": 1,
+    "fetch_unused": 2,
+    "new_archive_versions": 1,
+    "native_exact_byte_readbacks": 1
+  },
+  "limitations": [
+    "Future termination date is not an observed event.",
+    "No subsequent-law, current-force, particular-facility or litigation acceptance.",
+    "Mixed-act effective date remains blank; no single date or sunset is assigned to all provisions.",
+    "Retained chapter353 was reused without network; original text derivations were not overwritten."
+  ]
+}
