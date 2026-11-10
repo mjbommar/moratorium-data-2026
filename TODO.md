@@ -781,6 +781,8 @@ Exit: repeatable refresh with visible freshness, costs, failures and unresolved 
 - [x] Publish qualified v2026.11.9.post5 from `e70747fe`: two identical builds, full clean restore, ten anonymous assets, all 2,054 archive members and 13 hosted surfaces verified; deliver matching consumer V10 with independent checks and exact Git blob/mode verification. Keep 1,368 unresolved records explicit.
 
 - [x] Resolve the Sedgwick May extension number from official Resolution 095-2026, visually verify its handwritten header and the blank publication lines on 095/120, and retain source-stage cancelled/deferred planning updates. Apply four cells, verify three native source pairs, and preserve all three whole-record holds.
-- [ ] Synchronize the four Sedgwick local corrections after qualified post5/V10; retain their immutable cutoffs and outstanding QA.
+- [x] Synchronize the four Sedgwick corrections alongside Oshtemo and Phillips updates in qualified post6 and verified V11; preserve post5/V10 cutoffs and unresolved QA.
 
 - [x] Retain six dated Ark Valley News publication candidates with exact native readbacks; record printed page identities and extracted-text limits, stop that guessed URL family and preserve the Sedgwick solar publication/later-action hold. No nonpublication inference or canonical changes.
+
+- [x] Publish qualified post6 and verified consumer V11 from `fb6b4487`:13 cells/5local rows,1 category correction; deterministic builds, clean restore, ten anonymous assets,2,086 archive members,13 hosted surfaces and independent consumer checks verified. Keep1,368 unresolved holds explicit.

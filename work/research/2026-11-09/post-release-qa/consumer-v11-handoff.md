@@ -1,0 +1,5 @@
+# Verified consumer V11 delivery
+
+Integration main `ee27beba175ed8d19f08d13dc8553b0914860f6f` is pushed and remote-verified. Snapshot `data/source-snapshots/moratoria/2026-11-09-reviewed-v11` pins `fb6b44874138c742fd7505f6dfecd561e44e99ae`, matching qualified post6. Manifest `2ca27eb54583d953a6864d0f80b93387c9eaa0cecbb49ef78c23434064b010e0`; 2146 files/symlinks and 2332 entries before adding the manifest.
+
+The machine receipt records three independent checks, policy semantics and exact staged Git blobs/modes. Thirteen cells across five local records change relative toV10, with one Phillips solar/storage expired-to-extended correction. No IDs, policy values, scope memberships, coordinates or expanded/ballot generations change. Whole-record dispositions remain1,368 unresolved,171 corrected-resolved,237 confirmed-unchanged. Source legal-force/publication questions and Massachusetts independent QA remain open. Older snapshots, frozen populations, historical joins and dated editions are preserved.

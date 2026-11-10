@@ -1,0 +1,327 @@
+{
+  "source_commit": "fb6b44874138c742fd7505f6dfecd561e44e99ae",
+  "manifest_sha256": "2ca27eb54583d953a6864d0f80b93387c9eaa0cecbb49ef78c23434064b010e0",
+  "expanded_snapshot": "8d1a4df738c50cb71a066c1dc755019f77c94c62fb089cad8a7a9153559f79bb",
+  "current_counts": {
+    "moratorium_records": 1328,
+    "state_policy_records": 448,
+    "ballot_measures": 57,
+    "retained_results": 64,
+    "current_results": 53,
+    "retained_events": 10,
+    "current_accepted_historical_events": 10,
+    "restriction_records": 2,
+    "measure_instrument_link_records": 1
+  },
+  "files": 2146,
+  "entries": 2332,
+  "verified_at": "2026-11-10T02:53:20.973082+00:00",
+  "consumer_verification": {
+    "handoff": {
+      "state": "verified",
+      "source_commit": "fb6b44874138c742fd7505f6dfecd561e44e99ae",
+      "manifest_sha256": "2ca27eb54583d953a6864d0f80b93387c9eaa0cecbb49ef78c23434064b010e0",
+      "expanded_snapshot": "8d1a4df738c50cb71a066c1dc755019f77c94c62fb089cad8a7a9153559f79bb",
+      "files": 2146,
+      "entries": 2332,
+      "checks": [
+        {
+          "command": [
+            "scripts/check_expanded_publication.py"
+          ],
+          "exit_code": 0,
+          "result": {
+            "state": "consistent",
+            "snapshot_sha256": "8d1a4df738c50cb71a066c1dc755019f77c94c62fb089cad8a7a9153559f79bb",
+            "generations_checked": 46,
+            "records": {
+              "jurisdictions": 52,
+              "elections": 51,
+              "ballot_measures": 57,
+              "measure_provisions": 52,
+              "measure_results": 64,
+              "local_restrictions": 2,
+              "instrument_events": 10,
+              "measure_instrument_links": 1,
+              "source_documents": 165,
+              "claims": 613,
+              "review_decisions": 2716,
+              "search_runs": 1,
+              "search_attempts": 3,
+              "search_sightings": 18,
+              "coverage_observations": 1
+            },
+            "scope": "Offline publication/receipt consistency only; no source reacquisition, renewed factual acceptance or current-force confirmation."
+          }
+        },
+        {
+          "command": [
+            "scripts/build_expanded_csv.py",
+            "--check"
+          ],
+          "exit_code": 0,
+          "result": {
+            "state": "matches",
+            "source_snapshot": "8d1a4df738c50cb71a066c1dc755019f77c94c62fb089cad8a7a9153559f79bb",
+            "projection_sha256": "099c003dec2ad3a6592e69f985c61cbcd7a7b2cc21577a4e5d96e7553d643694",
+            "csv_views": 18
+          }
+        },
+        {
+          "command": [
+            "scripts/build_policy_scope_exports.py",
+            "--check"
+          ],
+          "exit_code": 0,
+          "result": "policy-scope exports current"
+        }
+      ],
+      "checks_run": true,
+      "scope": "Pinned input integrity and offline publication consistency, not source reacquisition or downstream join acceptance."
+    },
+    "policy_semantics": {
+      "total_state_policy_actions": 448,
+      "total_state_bills": 427,
+      "state_policy_instrument_type_counts": {
+        "bill": 427,
+        "executive_order": 2,
+        "governor_directive": 1,
+        "legislative_amendment": 1,
+        "legislative_precursor": 3,
+        "legislative_resolution": 12,
+        "statute": 2
+      },
+      "top_states_by_bills": [
+        [
+          "Pennsylvania",
+          18
+        ],
+        [
+          "Virginia",
+          18
+        ],
+        [
+          "West Virginia",
+          18
+        ],
+        [
+          "Maryland",
+          16
+        ],
+        [
+          "New Jersey",
+          16
+        ],
+        [
+          "California",
+          14
+        ],
+        [
+          "South Dakota",
+          14
+        ],
+        [
+          "Arizona",
+          13
+        ],
+        [
+          "Iowa",
+          13
+        ],
+        [
+          "Michigan",
+          13
+        ],
+        [
+          "Minnesota",
+          12
+        ],
+        [
+          "Ohio",
+          12
+        ],
+        [
+          "Oklahoma",
+          12
+        ],
+        [
+          "Illinois",
+          11
+        ],
+        [
+          "Kansas",
+          11
+        ]
+      ],
+      "top_states_by_policy_actions": [
+        [
+          "Pennsylvania",
+          22
+        ],
+        [
+          "Virginia",
+          18
+        ],
+        [
+          "West Virginia",
+          18
+        ],
+        [
+          "Maryland",
+          17
+        ],
+        [
+          "New Jersey",
+          17
+        ],
+        [
+          "California",
+          14
+        ],
+        [
+          "Michigan",
+          14
+        ],
+        [
+          "South Dakota",
+          14
+        ],
+        [
+          "Arizona",
+          13
+        ],
+        [
+          "Iowa",
+          13
+        ],
+        [
+          "Kansas",
+          12
+        ],
+        [
+          "Minnesota",
+          12
+        ],
+        [
+          "Ohio",
+          12
+        ],
+        [
+          "Oklahoma",
+          12
+        ],
+        [
+          "Illinois",
+          11
+        ]
+      ]
+    },
+    "scope": "Authenticated reviewed inputs; historical downstream joins retain their cutoffs."
+  },
+  "index_verification": {
+    "snapshot": "data/source-snapshots/moratoria/2026-11-09-reviewed-v11",
+    "source_commit": "fb6b44874138c742fd7505f6dfecd561e44e99ae",
+    "manifest_sha256": "2ca27eb54583d953a6864d0f80b93387c9eaa0cecbb49ef78c23434064b010e0",
+    "tracked_files_and_symlinks": 2147,
+    "exact_staged_git_blob_bytes_and_modes": true,
+    "scope": "Exact staged snapshot content, Git modes and path set against the pinned manifest, including the manifest itself. This is not an independent legal review."
+  },
+  "delta_from_v10": {
+    "local": {
+      "changed_rows": 5,
+      "changed_cells": 13,
+      "changes": [
+        {
+          "id": "co-phillips-county-2025",
+          "field": "duration",
+          "before": "Original six-calendar-month term through March 30, 2026; recorded signed extension through August 27, 2026",
+          "after": "Original six-calendar-month term through March 30, 2026; February 27 extension through August 27, 2026; August 20, 2026 unanimous BOCC extension through December 31, 2026."
+        },
+        {
+          "id": "co-phillips-county-2025",
+          "field": "legal_basis",
+          "before": "Resolution 2025-09-30-01, amended October 20, 2025 and extended February 27, 2026",
+          "after": "Resolution 2025-09-30-01, amended October 20, 2025 and extended February 27, 2026; August 20, 2026 official minutes explicitly name the same resolution in a unanimous extension through December 31, 2026."
+        },
+        {
+          "id": "co-phillips-county-2025",
+          "field": "current_status",
+          "before": "Historical latest-recorded-term classification: signed/attested September 30, 2025 resolution, immediate effect, and signed February 27, 2026 extension through August 27, 2026. [VERIFY subsequent amendments/extensions, earlier termination, present restrictions and coordinates]",
+          "after": "Recorded extended through December 31, 2026 by unanimous August 20, 2026 BOCC vote expressly naming Resolution 2025-09-30-01 for utility-scale solar and battery energy storage applications in unincorporated Phillips County. The minutes describe an exemption for smaller battery systems; exact applicability requires the operative instrument. [VERIFY: executed extension text, later amendment or earlier termination and present legal force; seven later minutes through October 30 were screened without locating a superseding moratorium action, but the linked operative code, later proceedings and project-specific exemptions remain unverified.]"
+        },
+        {
+          "id": "co-phillips-county-2025",
+          "field": "enacted_status",
+          "before": "expired",
+          "after": "extended"
+        },
+        {
+          "id": "co-phillips-county-2025",
+          "field": "current_end_date_iso",
+          "before": "2026-08-27",
+          "after": "2026-12-31"
+        },
+        {
+          "id": "co-phillips-county-2026",
+          "field": "current_status",
+          "before": "Active as of 2026-09-23; Resolution 2026-02-27-01 (adopted 2026-02-27) imposed a six-month moratorium on data center facility applications in unincorporated Phillips County, extended by unanimous BOCC vote on 2026-08-20 through 2026-12-31.",
+          "after": "August 20, 2026 official minutes record a unanimous BOCC vote extending Resolution 2026-02-27-01 for data-center facility applications wholly or partially within unincorporated Phillips County through December 31, 2026. This confirms the previously reported extension vote and endpoint. An executed extension instrument, later modifications or early termination, and present legal force have not been independently established. Seven later minutes through October 30 were screened without locating a superseding moratorium action; land-use-code work sessions remain development steps rather than adopted code. The linked operative code and proceedings after October 30 remain unverified."
+        },
+        {
+          "id": "ks-sedgwick-county-2026",
+          "field": "duration",
+          "before": "Initially 90 days through 2026-04-17 under Resolution 014-2026; on 2026-03-04 the BoCC voted unanimously to extend the moratorium to 2026-06-11 (Resolution No. 162-2026 recites this as 'June 12, 2026'); on 2026-05-06 the BoCC voted unanimously a second time to extend the moratorium to 2026-09-11 [VERIFY extension resolution number]; on 2026-09-02 the BoCC voted unanimously a third time, adopting Resolution No. 162-2026, extending the interim development control to the earlier of 2026-12-25 or the effective date of new Wichita-Sedgwick County Unified Zoning Code data-center provisions, and adding an exemption for data centers that are accessory structures/uses on the same lot as their principal use.",
+          "after": "Initially 90 days through 2026-04-17 under Resolution 014-2026; on 2026-03-04 the BoCC voted unanimously to extend the moratorium to 2026-06-11 (Resolution No. 162-2026 recites this as 'June 12, 2026'); on 2026-05-06 the BoCC voted unanimously a second time to extend the moratorium to 2026-09-11 under Resolution No. 095-2026; on 2026-09-02 the BoCC voted unanimously a third time, adopting Resolution No. 162-2026, extending the interim development control to the earlier of 2026-12-25 or the effective date of new Wichita-Sedgwick County Unified Zoning Code data-center provisions, and adding an exemption for data centers that are accessory structures/uses on the same lot as their principal use."
+        },
+        {
+          "id": "ks-sedgwick-county-2026",
+          "field": "legal_basis",
+          "before": "Resolution No. 014-2026 (\"A Resolution Establishing an Interim Development Control and Providing for the Suspension of Certain Types of Use Applications and Building Permits\"), adopted 2026-01-14, citing K.S.A. 12-741 et seq. and K.S.A. 19-101 et seq. police power; extended by a BoCC resolution adopted 2026-03-04 (to 2026-06-11), and extended a second time by a BoCC resolution adopted 2026-05-06 (to 2026-09-11) [VERIFY extension resolution number: the official OnBase minutes for the 2026-05-06 meeting record the motion and unanimous vote but do not display an assigned resolution number in the fetched transcript; resolutions 089-2026 through 094-2026 assigned earlier in that same meeting cover unrelated agenda items]; extended a third time by Resolution No. 162-2026 (signed PDF), adopted 2026-09-02, extending the control to the earlier of 2026-12-25 or the effective date of new zoning code provisions for data centers.",
+          "after": "Resolution No. 014-2026 (\"A Resolution Establishing an Interim Development Control and Providing for the Suspension of Certain Types of Use Applications and Building Permits\"), adopted 2026-01-14, citing K.S.A. 12-741 et seq. and K.S.A. 19-101 et seq. police power; extended by a BoCC resolution adopted 2026-03-04 (to 2026-06-11), and extended a second time by Resolution No. 095-2026, adopted 2026-05-06, until the earlier of 2026-09-11 or the defined effective date of adopted and published data-center zoning provisions; the county legal-notice index lists first publication 2026-05-14, while the linked adopted copy has a blank publication-date line; extended a third time by Resolution No. 162-2026 (signed PDF), adopted 2026-09-02, extending the control to the earlier of 2026-12-25 or the effective date of new zoning code provisions for data centers."
+        },
+        {
+          "id": "ks-sedgwick-county-2026",
+          "field": "current_status",
+          "before": "Active as of 2026-09-23. The BoCC voted unanimously a third time on 2026-09-02 (Resolution No. 162-2026) to extend the interim development control to the earlier of 2026-12-25 or the effective date of new Wichita-Sedgwick County Unified Zoning Code data-center provisions (county and KWCH/KAKE/Times-Sentinel reporting describe the deadline colloquially as 'Dec. 24, 2026'). Planning and zoning staff continue drafting the data-center zoning rules; the county says no applications for data centers are currently pending.",
+          "after": "Recorded extended following the September 2, 2026 adoption of Resolution 162-2026, with its printed December 25 endpoint subject to earlier effective zoning; county summaries describe December 24. The official planning page observed November 9 reports the November 5 citizen-review meeting was cancelled, Advance Plans consideration on November 12, MAPC consideration deferred to December 3, and anticipated county consideration on December 16. These are planning steps, not adopted/published zoning. [VERIFY: adopted and published superseding zoning, exact operative interval and current legal force remain unverified; project-specific application status was not rechecked.]"
+        },
+        {
+          "id": "ks-sedgwick-county-2026",
+          "field": "verify_count",
+          "before": "2",
+          "after": "1"
+        },
+        {
+          "id": "mi-oshtemo-charter-township-2025",
+          "field": "legal_basis",
+          "before": "(first instrument, November 2025) Oshtemo Charter Township ordinance imposing a one-year moratorium on commercial energy storage system (BESS) development, adopted 5-2 on first reading and unanimously (two absent) on second/final reading at the November 25, 2025 Township Board meeting; specific ordinance number not confirmed despite checking the township's PA233-BESS information page, its Notices archive, news coverage (MLive, Energy-Storage.news), and the encodeplus.com compiled-ordinance viewer (which does show Ordinance No. 688, the later data-center moratorium, and No. 695, the later solar moratorium, but the relevant section for the November 2025 BESS moratorium could not be located by section ID)",
+          "after": "The November 25, 2025 second-reading packet attaches DRAFT Oshtemo Charter Township Ordinance No. 687, Commercial Energy Storage Facility General Moratorium Ordinance, described in its memorandum as the Final Ordinance. It specifies a one-year moratorium, until otherwise amended or repealed, effective upon publication after adoption. The meeting minutes confirm adoption 5-0 with two absent. An executed copy and actual publication date remain unverified."
+        },
+        {
+          "id": "mi-oshtemo-charter-township-2025",
+          "field": "current_status",
+          "before": "The township information page reports adoption of a one-year energy-storage moratorium on November 25, 2025. It does not establish the original effective-date anchor or an exact current endpoint; a proposed extension is not an approved one. [VERIFY: final operative interval, subsequent regulations/modification/repeal/extension and present legal force; classification remains provisional.]",
+          "after": "November 25, 2025 minutes confirm adoption of the commercial energy-storage moratorium 5-0 with two absent; the attached second-reading text provides a one-year term effective upon publication after adoption. The November 10, 2026 packet proposes a replacement or extension through December 31, 2027, with first reading November 10 and proposed second reading November 24; its draft is labeled No. 671. These are future proposed actions as of November 9, not approved extensions. [VERIFY: executed original text and identifier, publication date and operative interval, subsequent modification/repeal/extension and present legal force; reconcile original draft 687 with later draft 671; classification remains provisional.]"
+        },
+        {
+          "id": "mi-oshtemo-charter-township-2026",
+          "field": "current_status",
+          "before": "The March 10 second-reading packet describes a one-year data-center moratorium, until amended or repealed. Later reporting describes a proposed extension; no approved later extension is established here. [VERIFY: final operative interval, subsequent regulations/modification/repeal/extension and present legal force; classification remains provisional.]",
+          "after": "March 10, 2026 minutes confirm the commercial data-center moratorium motion passed 7-0. The second-reading packet labels the ordinance No. 688 and specifies a one-year term effective upon publication after adoption. The November 10, 2026 packet proposes a replacement or extension through December 31, 2027, with first reading November 10 and proposed second reading November 24; its draft is labeled No. 670. These are future proposed actions as of November 9, not approved extensions. [VERIFY: executed text, publication date and operative interval, subsequent modification/repeal/extension and present legal force; reconcile ordinance 688 with later draft 670; classification remains provisional.]"
+        }
+      ]
+    },
+    "policy": {
+      "changed_rows": 0,
+      "changed_cells": 0,
+      "changes": []
+    }
+  },
+  "trusted_verifier_sha256": "7b05070929c964e2b4f9225cfb3a81ef4c52729633b3f86b421b2eee1d3b7364",
+  "scope": "Authenticated current canonical input delivery from same source as qualified post6. Historical populations, joins and manuscript editions retain their cutoffs. Source/legal QA and independent QA of Massachusetts addition remain open.",
+  "consumer_commit": "ee27beba175ed8d19f08d13dc8553b0914860f6f",
+  "consumer_remote_main_verified": true,
+  "qualified_release": "v2026.11.9.post6",
+  "qualified_release_manifest_sha256": "eb767fd3e32a3b364b6d969c2001f45f4e455fa61dda06eebadf8efc43e1599c",
+  "hosted_source_verification": "work/research/2026-11-09/release-2026.11.9.post6/hosted-copy-verification.json"
+}
