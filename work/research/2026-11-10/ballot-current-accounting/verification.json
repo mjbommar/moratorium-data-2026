@@ -1,0 +1,42 @@
+{
+  "observed_at": "2026-11-10T13:44:22.766239+00:00",
+  "counts": {
+    "measures": 57,
+    "retained_result_versions": 65,
+    "current_result_observations": 53,
+    "measures_with_current_results": 52,
+    "measures_without_current_results": 5,
+    "current_certification_status_counts": {
+      "unknown": 15,
+      "unofficial": 33,
+      "certified": 5
+    },
+    "lifecycle_counts": {
+      "voted": 52,
+      "scheduled": 3,
+      "litigated": 1,
+      "unknown": 1
+    }
+  },
+  "all57_prior_measure_row_guards_matched": true,
+  "changed_current_result_id_sets": [
+    {
+      "measure_id": "5c04c593-949a-430b-88c0-c8e93b4618fd",
+      "prior_current_result_ids": [
+        "2dd57d11-090d-49e7-8509-2f5ac720af97"
+      ],
+      "current_result_ids": [
+        "479b58a0-af12-498f-8ef2-b3d998dd68aa"
+      ]
+    }
+  ],
+  "input_pins": {
+    "data/expanded/ballot_measures.jsonl": "589196fa9109273bc262013fba37531d1f16f40c2fe54c4b209229d7f96ccd51",
+    "data/expanded/measure_results.jsonl": "098b532015652cd73e238458b822c48c97207454605aa9765f84c8307a412b05",
+    "data/expanded/publication.json": "58a295220d1759e0dcb7956b0f715e1d86d1ed55ddc501b4754bc7d08b07fc07",
+    "work/research/2026-11-08/ballot-current-accounting/measure-dispositions.json": "21c11364bdc93a1c0c992f075a5de3117663d595979d20e51d243ed0a4b0b337",
+    "work/research/2026-11-10/canterbury-minutes-result-review/coordinator-adjudication.json": "117f832a813faab28cbc87c0b806ad36a3ba4d742b4c5675c4ff5b3b84723a79",
+    "work/research/2026-11-10/post-release-qa/bethel-official-minutes-review.json": "58fa9583a0d42d779c37e75248f0800b49d5a60a25b05654f3ed799550622596"
+  },
+  "scope": "Current accounting; all prior measure identities retained. Canterbury replacement observation already published; Bethel later board research action adds no result, certification or operative-law acceptance. No new source freshness or census claim."
+}

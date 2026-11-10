@@ -1,5 +1,8 @@
 # Implementation TODO
 
+- [x] Review Bethel official agenda archive and linked October21/November4 Select Board minutes. October21 5–0 motion requests ordinance-process research, not a town-meeting result. Three sources archived and exact native readbacks verified; ballot, certification and operative-text gaps remain. [Review](work/research/2026-11-10/post-release-qa/bethel-official-minutes-review.json).
+- [x] Reconcile current ballot accounting against all 57 prior measure guards: 65 retained result versions, 53 current observations across 52 measures, five certified. Only Canterbury current-result IDs changed through its already delivered observation. [Accounting and 97 operator tasks](work/research/2026-11-10/ballot-current-accounting/README.md). No new canonical changes or closures.
+
 - [x] Confirm Nebraska LB613 official introducer from the raw HTML document header omitted by the main-text extractor. One sponsor-field clarification; full cosponsors and provision-specific force remain unresolved. Two official sources archived with exact native-store readbacks. No new whole-record closures; 1,347 unresolved. One field awaits the next batched release/consumer delivery.
 
 - [x] Complete bounded Fairbanks ordinance-text recovery attempt: one Exa search and three captures yielded no usable ordinance body. [Recorded failures and next-route requirements](work/research/2026-11-10/post-release-qa/fairbanks-ordinance-recovery.json) are carried into the outstanding queue to prevent repeated acquisition. No canonical changes or closures; 1,347 reviews remain unresolved.
