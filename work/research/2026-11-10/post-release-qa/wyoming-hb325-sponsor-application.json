@@ -1,0 +1,60 @@
+{
+  "reviewed_at": "2026-11-10T14:58:00.348856+00:00",
+  "id": "wy-hb0325-2025",
+  "prior_disposition": "unresolved",
+  "recommendation": "unresolved",
+  "prior_row_sha256": "da9f0c43e699810a6c828b6934c9a1f0dcfc738c65a9e74eeb521b9c405ac6a6",
+  "current_row_sha256": "68214dbdc1a708561f22ea9866865fa8bc80a106da5991baaf88dc03f7e0e0dd",
+  "prior_source_review": {
+    "path": "work/research/2026-11-10/post-release-qa/wyoming-session-identity-review.json",
+    "sha256": "14ef172a050895ceb4247cfba24b65a42a1f7d6229000a4a75039e80b9468bad"
+  },
+  "field_changes": [
+    {
+      "field": "sponsors",
+      "before": "Rep. Lee Filer; cosponsors include Rep. \"Brown, L\", Rep. Johnson, Rep. Singh, Rep. Wasserburger, Rep. Wylie, Sen. Chris Rothfuss",
+      "after": "Rep. Lee Filer; cosponsors Reps. Landon Brown, Steve Johnson, Daniel Singh, Jacob Wasserburger and Cody Wylie; Sen. Chris Rothfuss"
+    },
+    {
+      "field": "party",
+      "before": "Recorded historical affiliations: Filer R; Rothfuss D. [VERIFY: confirm 2025 official affiliations and identities for every listed sponsor; no party-by-party tally is accepted for the remaining cosponsors.]",
+      "after": "Official 2025 House and Senate rosters list Filer, Landon Brown, Steve Johnson, Daniel Singh, Jacob Wasserburger and Cody Wylie as R, and Chris Rothfuss as D (six R, one D)."
+    }
+  ],
+  "remaining_questions": [
+    "Establish a data-center-specific relationship or incorporated class supporting analytical inclusion. Broad industrial-load procurement rights alone remain insufficient; the reviewed fiscal note says its substantive analysis was not completed.",
+    "Resolve mechanism taxonomy for enabling electricity procurement rights; the earlier rejected mechanism change is not applied automatically."
+  ],
+  "canonical_cells_changed": 2,
+  "status_category_changes": 0,
+  "normalized_date_changes": 0,
+  "scope_membership_changes": 0,
+  "whole_record_closures": 0,
+  "scope_decision_id": "bb91b963-b1ea-49ad-9897-52be7203e0a5",
+  "native_source_readbacks_this_review": 1,
+  "sources": [
+    {
+      "attempt_id": "2de7825b878544678f19380bbad280eb",
+      "url": "https://www.wyoleg.gov/Legislators/2025/H",
+      "body_sha256": "3b44f9437695c2261c20af8365c96a2e3045a4a1f9829926fddd1853a77d1fbb",
+      "text_sha256": "1eab376ee02059de579aefd3f00ec7a9d35c774ab787baa38eb1e7ea79ccffaf",
+      "body_observed_at": "2026-11-10T14:54:21.507786Z"
+    },
+    {
+      "attempt_id": "d8cc87aeeff8448e970b49fb9810a6b4",
+      "url": "https://www.wyoleg.gov/Legislators/2025/S",
+      "body_sha256": "b321f9a8b85907115a69f12bdfc05c902d1a64c7e27610d849cd882284a65fd6",
+      "text_sha256": "b47108f032a3081a130edb0c2e75214238b1cde7ed0cb9e226f1c24c6ba180bf",
+      "body_observed_at": "2026-11-10T14:56:41.903891Z"
+    }
+  ],
+  "acquisition_accounting": {
+    "fetches": 1,
+    "searches": 0,
+    "scope": "Distinct 2025 Senate roster only. Rendered directly after exact comparable application routes produced HTTP shells. Earlier House/profile/fiscal ledgers remain unchanged; no duplicate request."
+  },
+  "limitations": [
+    "Session-specific roster listings are used as official maintained session evidence; no affiliation-at-every-instant or independent review claim.",
+    "This closes the sponsor identity/party subquestion only. Analytical scope and mechanism questions keep the whole record unresolved."
+  ]
+}

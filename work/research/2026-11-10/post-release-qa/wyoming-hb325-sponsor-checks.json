@@ -1,0 +1,181 @@
+{
+  "checks": [
+    {
+      "command": [
+        "scripts/validate_dataset.py",
+        "--today",
+        "2026-11-10"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/build_policy_scope_exports.py",
+        "--check"
+      ],
+      "returncode": 1
+    },
+    {
+      "command": [
+        "scripts/build_summary_stats.py",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/build_geojson.py",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/make_timeline.py",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/check_docs_numbers.py"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "-m",
+        "scripts.generate_tables.inventory_clean",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/build_index.py",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/classify_sources.py",
+        "--check"
+      ],
+      "returncode": 0
+    }
+  ],
+  "followup": {
+    "command": [
+      ".venv/bin/python",
+      "scripts/build_policy_scope_exports.py",
+      "--check"
+    ],
+    "returncode": 0,
+    "stdout": "policy-scope exports current",
+    "reason": "Rebuilt expected stale policy exports after two sponsor fields and scope-row fingerprint correction."
+  },
+  "nine_checks_final_passed": true,
+  "outstanding_records": 1347,
+  "sponsor_subquestion_removed": true,
+  "delta_since_post12": {
+    "unique_cells": 18,
+    "local_cells": 16,
+    "policy_cells": 2,
+    "local_rows": 3,
+    "policy_rows": 1,
+    "field_locators": [
+      {
+        "dataset": "local",
+        "id": "ct-new-haven-undated",
+        "field": "date_enacted"
+      },
+      {
+        "dataset": "local",
+        "id": "ct-new-haven-undated",
+        "field": "legal_basis"
+      },
+      {
+        "dataset": "local",
+        "id": "ct-new-haven-undated",
+        "field": "current_status"
+      },
+      {
+        "dataset": "local",
+        "id": "ct-new-haven-undated",
+        "field": "affected_projects"
+      },
+      {
+        "dataset": "local",
+        "id": "ct-new-haven-undated",
+        "field": "outcome"
+      },
+      {
+        "dataset": "local",
+        "id": "ct-west-haven-2026",
+        "field": "duration"
+      },
+      {
+        "dataset": "local",
+        "id": "ct-west-haven-2026",
+        "field": "legal_basis"
+      },
+      {
+        "dataset": "local",
+        "id": "ct-west-haven-2026",
+        "field": "trigger"
+      },
+      {
+        "dataset": "local",
+        "id": "ct-west-haven-2026",
+        "field": "current_status"
+      },
+      {
+        "dataset": "local",
+        "id": "ct-west-haven-2026",
+        "field": "outcome"
+      },
+      {
+        "dataset": "local",
+        "id": "ct-west-haven-2026",
+        "field": "trigger_categories"
+      },
+      {
+        "dataset": "local",
+        "id": "mo-city-of-independence-2026",
+        "field": "duration"
+      },
+      {
+        "dataset": "local",
+        "id": "mo-city-of-independence-2026",
+        "field": "legal_basis"
+      },
+      {
+        "dataset": "local",
+        "id": "mo-city-of-independence-2026",
+        "field": "current_status"
+      },
+      {
+        "dataset": "local",
+        "id": "mo-city-of-independence-2026",
+        "field": "affected_projects"
+      },
+      {
+        "dataset": "local",
+        "id": "mo-city-of-independence-2026",
+        "field": "outcome"
+      },
+      {
+        "dataset": "policy",
+        "id": "wy-hb0325-2025",
+        "field": "sponsors"
+      },
+      {
+        "dataset": "policy",
+        "id": "wy-hb0325-2025",
+        "field": "party"
+      }
+    ]
+  },
+  "canonical_status_category_changes": 0
+}
