@@ -357,7 +357,7 @@ anything.
 
 ## Updates
 
-The November update is published as qualified release [v2026.11.9.post6](https://github.com/mjbommar/moratorium-data-2026/releases/tag/v2026.11.9.post6). Its source revision, deterministic assets, clean-restore replay and anonymous download checks are recorded in the [release receipts](../work/research/2026-11-09/release-2026.11.9.post6/README.md). Pending source-specific questions and current-force limits remain explicit. Historical version labels elsewhere describe prior work and do not establish a separate remote tag or DOI. No DOI is asserted.
+The November update is published as qualified release [v2026.11.9.post7](https://github.com/mjbommar/moratorium-data-2026/releases/tag/v2026.11.9.post7). Its source revision, deterministic assets, clean-restore replay and anonymous download checks are recorded in the [release receipts](../work/research/2026-11-09/release-2026.11.9.post7/README.md). Pending source-specific questions and current-force limits remain explicit. Historical version labels elsewhere describe prior work and do not establish a separate remote tag or DOI. No DOI is asserted.
 
 
 ## November collection and evidence review

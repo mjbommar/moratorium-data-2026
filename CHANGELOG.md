@@ -1,5 +1,20 @@
 # Changelog
 
+## v2026.11.9.post7 — qualified publication, QA ongoing
+
+Thirty-two cells across ten existing local records change since post6: Coweta5, Audubon4, Lee10, Starke10 and Boone3. Three recorded category corrections reflect signed fixed-term/replacement instruments: Lee storage active-to-expired, Starke data-center active-to-replaced and Starke solar/storage expired-to-replaced. No whole-record hold closes;1,368 remain unresolved. Publication, current-force, original-instrument and project-applicability limits remain source-specific.
+
+| Metric | Qualified patch v2026.11.9.post7 |
+|---|---:|
+| Moratoria in the list | **1,328** |
+| Classified active or extended | **1,087** |
+| Pending or not yet effective | **64** |
+| Ended (replaced, expired, or rescinded) | **171** |
+| Rows we still want to confirm (`[VERIFY]`) | **979** |
+| States with at least one | **47** |
+
+September category differences now137 (98 local,39 policy). IDs, policy values, scope memberships, coordinates and expanded/ballot generations remain unchanged. Starke's adopted permanent prohibition has separate expanded-model review pending. [Release notes](work/research/2026-11-09/release-2026.11.9.post7/release-body.md) and [exact delta](work/research/2026-11-09/release-2026.11.9.post7/dataset-delta.json) describe scope. Earlier tags/assets remain immutable.
+
 ## Working QA after v2026.11.9.post6
 
 Boone signed overlay ordinance and actualDecember19/2025 minutes establish adoption/effectiveness before the January22/2026 recording. Three cells separate these clocks and record the data-center internal-business-campus definition exclusion. The original2024 PDF returned404; full later history remains unresolved. [Review](work/research/2026-11-09/post-release-qa/boone-followup-adjudications.json). Thirty-two accumulated cells across ten rows await synchronization after post6/V11; no additional status changes or whole-record closures.
