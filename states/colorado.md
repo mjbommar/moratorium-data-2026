@@ -3,7 +3,7 @@
 
 Working inventory for Colorado, generated **November 9, 2026**. Record-level refresh and later-action review remain incomplete.
 
-**34 records** — 27 classified as active or extended, 1 classified as pending, 6 classified as past, 0 classified as rejected proposals, 0 classified as unknown.
+**34 records** — 28 classified as active or extended, 1 classified as pending, 5 classified as past, 0 classified as rejected proposals, 0 classified as unknown.
 
 These counts reflect inventory classifications and do not establish current enforceability.
 
@@ -39,7 +39,7 @@ State policy is tracked separately: **4 records** (4 typed bill rows) in [`state
 | Monument | Town | 2026-07-20 | data center | 🟢 Active |
 | Paonia | Town | 2026-08-11 | data center | 🟢 Active |
 | Phillips County | County | 2024-06-18 | wind | ⚪ Expired |
-| Phillips County | County | 2025-09-30 | solar, battery storage | ⚪ Expired |
+| Phillips County | County | 2025-09-30 | solar, battery storage | 🟢 Extended |
 | Phillips County | County | 2026-02-27 | data center | 🟢 Extended |
 | Saguache County | County | 2026-05-05 | data center | 🟢 Active |
 | South Fork | Town | 2026-06-18 | data center | 🟢 Active |
@@ -499,17 +499,17 @@ State policy is tracked separately: **4 records** (4 typed bill rows) in [`state
 ### Phillips County
 
 - **Type:** County
-- **Recorded status:** ⚪ Expired
+- **Recorded status:** 🟢 Extended
 - **Date enacted:** 2025-09-30
 - **Normalized date:** `2025-09-30` (exact)
-- **Duration:** Original six-calendar-month term through March 30, 2026; recorded signed extension through August 27, 2026
-- **Current end date:** `2026-08-27`
+- **Duration:** Original six-calendar-month term through March 30, 2026; February 27 extension through August 27, 2026; August 20, 2026 unanimous BOCC extension through December 31, 2026.
+- **Current end date:** `2026-12-31`
 - **Sectors:** solar, battery storage
 - **Moratorium ID:** `co-phillips-county-2025`
-- **Legal basis:** Resolution 2025-09-30-01, amended October 20, 2025 and extended February 27, 2026
+- **Legal basis:** Resolution 2025-09-30-01, amended October 20, 2025 and extended February 27, 2026; August 20, 2026 official minutes explicitly name the same resolution in a unanimous extension through December 31, 2026.
 - **What prompted it:** County reviews utility-scale solar and battery-storage land-use regulation.
 - **Affected projects:** —
-- **Detailed status:** Historical latest-recorded-term classification: signed/attested September 30, 2025 resolution, immediate effect, and signed February 27, 2026 extension through August 27, 2026. [VERIFY subsequent amendments/extensions, earlier termination, present restrictions and coordinates]
+- **Detailed status:** Recorded extended through December 31, 2026 by unanimous August 20, 2026 BOCC vote expressly naming Resolution 2025-09-30-01 for utility-scale solar and battery energy storage applications in unincorporated Phillips County. The minutes describe an exemption for smaller battery systems; exact applicability requires the operative instrument. [VERIFY: executed extension text, later amendment or earlier termination and present legal force; later minutes and project-specific exemptions have not been checked.]
 - **Outcome:** —
 
 ### Phillips County
@@ -525,7 +525,7 @@ State policy is tracked separately: **4 records** (4 typed bill rows) in [`state
 - **Legal basis:** Resolution 2026-02-27-01, extended by BOCC vote 2026-08-20
 - **What prompted it:** County developing regulations for data center facility applications
 - **Affected projects:** None identified
-- **Detailed status:** Active as of 2026-09-23; Resolution 2026-02-27-01 (adopted 2026-02-27) imposed a six-month moratorium on data center facility applications in unincorporated Phillips County, extended by unanimous BOCC vote on 2026-08-20 through 2026-12-31.
+- **Detailed status:** August 20, 2026 official minutes record a unanimous BOCC vote extending Resolution 2026-02-27-01 for data-center facility applications wholly or partially within unincorporated Phillips County through December 31, 2026. This confirms the previously reported extension vote and endpoint. An executed extension instrument, later modifications or early termination, and present legal force have not been independently established.
 - **Outcome:** County revising Land Use Code to address data center facilities
 
 ### Saguache County

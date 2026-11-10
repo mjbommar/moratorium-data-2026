@@ -2,14 +2,16 @@
 
 ## Working QA after v2026.11.9.post5
 
+Phillips County August 20 official minutes confirm unanimous extensions of solar/storage Resolution 2025-09-30-01 and data-center Resolution 2026-02-27-01 through December 31, 2026. Six cells across two rows change; the solar/storage category changes from expired to extended. Later-action and current-force questions remain open. Oshtemo adds three cells documenting confirmed votes and proposed extensions only. These changes join the four Sedgwick cells awaiting the next qualified release and consumer delivery. [Phillips review](work/research/2026-11-09/post-release-qa/phillips-followup-adjudications.json).
+
 Sedgwick's May extension is now identified as Resolution 095-2026 from the official index and visually checked adopted PDF. Four local cells remove obsolete number uncertainty and add source-stage planning updates; actual later zoning/publication and current-force holds remain explicit. No status category, flagged-row count or whole-record disposition changes. [Review](work/research/2026-11-09/post-release-qa/sedgwick-followup-review.md).
 
 | Metric | Working QA after v2026.11.9.post5 |
 |---|---:|
 | Moratoria in the list | **1,328** |
-| Classified active or extended | **1,088** |
+| Classified active or extended | **1,089** |
 | Pending or not yet effective | **64** |
-| Ended (replaced, expired, or rescinded) | **170** |
+| Ended (replaced, expired, or rescinded) | **169** |
 | Rows we still want to confirm (`[VERIFY]`) | **979** |
 | States with at least one | **47** |
 
@@ -420,7 +422,7 @@ These are inventory classifications, not independently renewed legal-force findi
 | Metric | Current |
 |---|---:|
 | Moratoria in the list | **1330** |
-| Classified active or extended | **1089** |
+| Classified active or extended | **1,089** |
 | Pending or not yet effective | **64** |
 | Ended (replaced, expired, or rescinded) | **171** |
 | Rows we still want to confirm (`[VERIFY]`) | **979** |

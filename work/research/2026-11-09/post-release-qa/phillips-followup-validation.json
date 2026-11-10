@@ -1,0 +1,107 @@
+{
+  "canonical_cells_changed": 6,
+  "changed_records": 2,
+  "status_category_changes": 1,
+  "field_changes": [
+    {
+      "id": "co-phillips-county-2026",
+      "field": "current_status"
+    },
+    {
+      "id": "co-phillips-county-2025",
+      "field": "duration"
+    },
+    {
+      "id": "co-phillips-county-2025",
+      "field": "legal_basis"
+    },
+    {
+      "id": "co-phillips-county-2025",
+      "field": "current_status"
+    },
+    {
+      "id": "co-phillips-county-2025",
+      "field": "enacted_status"
+    },
+    {
+      "id": "co-phillips-county-2025",
+      "field": "current_end_date_iso"
+    }
+  ],
+  "pending_release_consumer_delta": {
+    "cells": 13,
+    "local_records": 5,
+    "status_category_changes": 1,
+    "baseline": "e70747fe78e35bd3d8cab85cdb2fff6dbce57406"
+  },
+  "focused_checks": [
+    {
+      "command": [
+        "scripts/validate_dataset.py",
+        "--today",
+        "2026-11-09"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/build_policy_scope_exports.py",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/build_summary_stats.py",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/build_geojson.py",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/make_timeline.py",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/check_docs_numbers.py"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "-m",
+        "scripts.generate_tables.inventory_clean",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/build_index.py",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/classify_sources.py",
+        "--check"
+      ],
+      "returncode": 0
+    }
+  ],
+  "exact_native_source_pairs_verified": 4,
+  "inventory_sha256": "6c3e30ef3904e54f29f3326c62a8271d2d73d523e25547711ef6b08d38a4d692",
+  "whole_record_closures": 0,
+  "scope": "Positive extension votes; no universal current-force or later-action acceptance."
+}
