@@ -1,18 +1,23 @@
 {
   "prior_candidate_source_commit": "30a9a3734e4d89aa6348e9962e6d9329407703cd",
   "failure": "Source-tree list order only;2251 members, no missing/extra/different bytes. Path component order differs from fullPOSIX path order for base and dotted patch release folders.",
-  "fix": "Canonical full-path sort for source-tree comparisons only; historical directory-inclusive handoff-manifest ordering retained. All path/kind/size/hash, alias and symlink checks remain enforced.",
+  "fix": "Source-tree inventory and source-file projection equality both use canonical full POSIX path order; directory-inclusive handoff-manifest order and every integrity/symlink/alias check remain unchanged.",
   "real_source_tree_members_reverified": 2251,
   "historical_v14_manifest_verified": "4513dc7b848e562eb5b881eb1cff560a55d7112de124fcb24a8879f5c5222d3d",
   "historical_v14_checks_run": false,
   "source_identical_consumer_verifier": true,
-  "updated_verifier_sha256": "35908fd737a34585a9a54707be541999b40e18e739d524d4e88bdd2af08c20df",
+  "updated_verifier_sha256": "ebecf851d4196715df186cc81cc3c933ab7da550fbafd7207996cd94b9cd2739",
   "scope": "Transport ordering regression/compatibility validation, not renewed source/legal QA.",
   "unit_tests": {
     "command": "python -m unittest tests.test_export_reviewed_handoff",
-    "tests": 13,
-    "status": "passed"
+    "tests": 14,
+    "status": "passed",
+    "end_to_end_populate_and_verify_base_and_patch_fixture": "passed"
   },
   "regression_test": "tests/test_export_reviewed_handoff.py",
-  "regression_test_sha256": "1ca6a0c55b3a4a7743677ce6055ea88a2e0bc6ae7edd19e84392065e9cf59589"
+  "regression_test_sha256": "06dd3d60fbd310e7d50894df71883dd6eb97188460fe70cfc7fba5504a52c0f4",
+  "second_gate_failure": {
+    "candidate_source_commit": "c51c7b7ad136c457e16df94ea51f4d1f9ca15520",
+    "reason": "A second source-file projection comparison retained component ordering after source-tree inventory was corrected. Canonicalize both compared lists; do not change serialized handoff order or weaken content checks."
+  }
 }

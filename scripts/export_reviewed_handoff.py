@@ -137,7 +137,8 @@ def verify_handoff(destination,expected_manifest_sha256,*,run_checks=True):
         relative(item['path'])
         expected.append({'path':'source/'+item['path'],'kind':item['kind'],'bytes':item['bytes'],'sha256':item['sha256']})
     actual=[r for r in manifest['files'] if r['path'].startswith('source/') and r['kind']!='directory']
-    require(sorted(expected,key=lambda r:r['path'])==actual,'Source replay tree differs from upstream manifest')
+    require(sorted(expected,key=lambda r:r['path'])==sorted(actual,key=lambda r:r['path']),
+            'Source replay tree differs from upstream manifest')
     require(manifest['compatibility_aliases']==alias_specs(destination/'source'),'Compatibility alias coverage differs')
     metadata=current_metadata(destination/'source')
     require(all(json.dumps(manifest[k],sort_keys=True)==json.dumps(v,sort_keys=True) for k,v in metadata.items()),'Current metadata/profile/counts differ from pinned source')

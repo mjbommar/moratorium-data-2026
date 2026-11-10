@@ -12,4 +12,4 @@ Surviving September status-category differences remain 98 local and 39 policy re
 
 The immutable tag and manifest identify the exact source. Deterministic builds, full clean restore, public downloads, hosted copies and the matching consumer handoff are separately recorded when verified. No DOI is asserted.
 
-Consumer verification also corrects a source-tree ordering mismatch for base and patched release folders, with the historical handoff format and full path/kind/size/hash checks retained. Thirteen transport tests and the actual V14 manifest verify compatibility. The updated verifier is separately authenticated by its hash in the delivery receipt.
+Consumer verification also corrects a source-tree ordering mismatch for base and patched release folders, with the historical handoff format and full path/kind/size/hash checks retained. Fourteen transport tests and the actual V14 manifest verify compatibility. The updated verifier is separately authenticated by its hash in the delivery receipt.

@@ -4,6 +4,7 @@ import json
 from pathlib import Path
 import shutil
 import sys
+import tarfile
 import tempfile
 import unittest
 from unittest.mock import patch
@@ -51,6 +52,25 @@ class HandoffTests(unittest.TestCase):
         self.assertEqual([r['path'] for r in h.inventory(root,source_tree=True)],sorted(names))
         # Existing handoff manifests include directories in Path component order.
         self.assertEqual([r['path'] for r in h.inventory(root) if r['kind']=='file'],names)
+
+    def test_populate_and_verify_base_and_patch_release_directories(self):
+        source=self.stage/'source'
+        for name in ['release-2026.11.9','release-2026.11.9.post1']:
+            path=source/'work/research/2026-11-09'/name/'README.md'
+            path.parent.mkdir(parents=True);path.write_text(name)
+        bundle=self.root/'bundle';bundle.mkdir();archive=bundle/'source.tar.gz'
+        records=h.inventory(source,source_tree=True)
+        with tarfile.open(archive,'w:gz') as tar:
+            for record in records:
+                tar.add(source/record['path'],arcname=record['path'],recursive=False)
+        raw=archive.read_bytes()
+        upstream={'source_commit':'f'*40,'working_cohort_cutoff':'2026-11-09',
+                  'files':records,'archive':{'name':archive.name,'bytes':len(raw),'sha256':h.sha(raw)}}
+        (bundle/'manifest.json').write_bytes(h.encode(upstream))
+        stage=self.root/'populated';stage.mkdir()
+        h._populate(bundle,stage,b'Synthetic verifier placeholder; never executed.\n')
+        pin=h.sha((stage/'manifest.json').read_bytes())
+        self.assertEqual(h.verify_handoff(stage,pin,run_checks=False)['state'],'verified')
 
     def test_counts_are_separate_and_profile2_event_acceptance_is_explicit(self):
         result=h.verify_handoff(self.stage,self.pin,run_checks=False)
