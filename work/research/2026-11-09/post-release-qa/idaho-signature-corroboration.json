@@ -1,0 +1,64 @@
+{
+  "reviewed_at": "2026-11-10T08:46:11.058312+00:00",
+  "reviewer": "root direct official table and index review; no new independent reviewer",
+  "id": "id-h0911-2026",
+  "existing_disposition": "unresolved",
+  "prior_row_sha256": "2a7f2c4b844e9afc89567842b3d2419d1f371fb97668b72b2e8fa96ee685740b",
+  "current_row_sha256": "8a5d7b974ee7f69f9271e35997fcd271d3807fba5ad20df3ce34fc49c0fa942e",
+  "field_changes": [
+    {
+      "field": "status",
+      "before": "Passed House 65-3-2 on 2026-03-20 and Senate 34-1-0 on 2026-03-30. The unofficial bill history reports signature on 2026-04-10, chapter 335 and effective 2026-07-01, but places the signature report under an 04/02 row; the introduced bill declares an emergency and specifies July 1. Verify the signature in the enrolled session law or governor record.",
+      "after": "Passed House 65-3-2 on 2026-03-20 and Senate 34-1-0 on 2026-03-30. The Legislature's 2026 Enacted Legislation table separately lists H911 as chapter 335, governor signature 2026-04-10 and effective 2026-07-01, corroborating the signature date stated in the earlier bill history despite its inconsistent 04/02 row label. The signed session-law or governor action record has not been inspected; the introduced bill declares an emergency and specifies July 1."
+    }
+  ],
+  "exact_enacted_table_cells": [
+    "335",
+    "H 911",
+    "Electricity, new large loads",
+    "04/10/26",
+    "07/01/2026"
+  ],
+  "sources": [
+    {
+      "url": "https://legislature.idaho.gov/sessioninfo/2026/law/",
+      "body_sha256": "d27ca4e29543755195a68c4ac9662796180aefb3c6232247193f70d7bffe8c5d",
+      "text_sha256": "08dd28c38d71225c2f384f48b57649584eee9f6b9a0820ce9b2a5c53dc825f3e",
+      "body_observed_at": "2026-11-10T08:44:06.058013Z",
+      "locator": "Exact chapter335/H911 row: Governor signature04/10/26; effective07/01/2026."
+    },
+    {
+      "url": "https://legislature.idaho.gov/statutesrules/sessionlaws/",
+      "body_sha256": "af4cda4fc6419bca96ed05cc03ddd8531b4b616b3516b45f92ef16f665ae8848",
+      "text_sha256": "6aa0c5ce247e7229e3bd43fe4185abe20c51ddf5281465aff5bc23089639ea31",
+      "body_observed_at": "2026-11-10T08:44:27.023631Z",
+      "locator": "Captured session-law index contains2026 pre-order link, followed by2025 volume listings; absence of a2026 volume link is not proof of nonpublication."
+    }
+  ],
+  "prior_questions": [
+    "Inspect signed 2026 Session Laws chapter 335 or governor signed-bill record to resolve April 2 versus April 10 signature date; exact final source retrieval has not been attempted in this review."
+  ],
+  "remaining_questions": [
+    "Inspect the signed2026 session-law chapter335 or governor action record to independently confirm the actual signature. The separate official enacted-legislation table now corroborates April10; the earlier04/02 row label is not used as an alternative signature date."
+  ],
+  "canonical_cells_changed": 1,
+  "changed_rows": 1,
+  "status_category_changes": 0,
+  "scope_membership_changes": 0,
+  "whole_record_closures": 0,
+  "acquisition_accounting": {
+    "search_cap": 1,
+    "search_used": 1,
+    "fetch_cap": 3,
+    "fetch_used": 2,
+    "fetch_unused": 1,
+    "new_archive_versions": 2,
+    "native_exact_byte_readbacks": 2
+  },
+  "limitations": [
+    "Official legislative summary is corroboration, not an inspected signed act.",
+    "No current-force, subsequent-amendment or particular-project acceptance is added.",
+    "No2026 volume link on the captured index does not establish that no volume exists.",
+    "Do not repeat retained bill history, introduced bill, code, enacted table or index absent a new record signal. The unused fetch is reserved for a genuinely newly exposed signed-act or governor-record link."
+  ]
+}
