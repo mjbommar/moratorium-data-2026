@@ -250,7 +250,7 @@ rechecked four kinds of rows. We looked at rows past their end date and
 extensions with no new end date. We also looked at proposals more than 60 days
 old and rows with a `[VERIFY]` note.
 
-1087 moratoria are classified active or extended in the November 9 working cohort; this does not establish renewed current legal force. The following eleven-row discussion describes the historical September check, not the current validation warning count. That check flagged eleven rows that looked out of date. Eight of them, in
+1086 moratoria are classified active or extended in the November 9 working cohort; this does not establish renewed current legal force. The following eleven-row discussion describes the historical September check, not the current validation warning count. That check flagged eleven rows that looked out of date. Eight of them, in
 Cedartown, Georgia and seven New York towns, have passed their end date. We
 could not find out what happened next, so each carries a `[VERIFY]` note. The
 other three are fine. Waterford Township, Michigan and East Whiteland Township,

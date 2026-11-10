@@ -38,6 +38,19 @@ def main():
     current={}
     for dataset,path,key in [('local_inventory','data/moratorium_inventory.csv','moratorium_id'),('state_policy','data/state_legislation.csv','policy_action_id')]:
         for row in csv.DictReader((root/path).open(newline='')):current[dataset,row[key]]=row
+    bonney_application_path=Path('work/research/2026-11-10/post-release-qa/bonney-lake-reviewed-application.json')
+    bonney_application=json.loads(bonney_application_path.read_text()) if bonney_application_path.exists() else None
+    if bonney_application:
+        br=bonney_application['independent_review']
+        assert digest(Path(br['path']).read_bytes())==br['sha256']
+        key=('local_inventory',bonney_application['id'])
+        assert digest(json.dumps(current[key],sort_keys=True,separators=(',',':'),ensure_ascii=False).encode())==bonney_application['current_row_sha256']
+    def source_row_guard(key, expected):
+        actual=digest(json.dumps(current[key],sort_keys=True,separators=(',',':'),ensure_ascii=False).encode())
+        if bonney_application and key==('local_inventory',bonney_application['id']) and expected==bonney_application['prior_row_sha256']:
+            assert actual==bonney_application['current_row_sha256']
+        else:
+            assert actual==expected
     overlays={
       'tx-lavon-2026':['Obtain official vote minutes/final ordinance establishing action date and instrument identity; reconcile the recovered report chronology and establish any operative interval. November 17 remains scheduled, not an observed action.'],
       'ky-ashland-2026':['Obtain original ordinance/effective-date anchor and controlling term (six months versus 180 days); establish any explicit termination or intervening action. February 26 is now an attributed unverified news inference.'],
@@ -1065,19 +1078,19 @@ def main():
     if wa_local_path.exists():
         for record in json.loads(wa_local_path.read_text())['records']:
             key=('local_inventory',record['id'])
-            assert digest(json.dumps(current[key],sort_keys=True,separators=(',',':'),ensure_ascii=False).encode())==record['current_row_sha256']
+            source_row_guard(key, record['current_row_sha256'])
             assert next(r for r in f['records'] if r['id']==record['id'])['disposition']==record['recommendation']=='unresolved'
             overlays[record['id']]=[public_text(q) for q in record['remaining_questions']]
     bonney_disposition_path=Path('work/research/2026-11-10/post-release-qa/bonney-lake-d26-73-disposition-review.json')
     if bonney_disposition_path.exists():
         record=json.loads(bonney_disposition_path.read_text());key=('local_inventory',record['id'])
-        assert digest(json.dumps(current[key],sort_keys=True,separators=(',',':'),ensure_ascii=False).encode())==record['current_row_sha256']
+        source_row_guard(key, record['current_row_sha256'])
         assert next(r for r in f['records'] if r['id']==record['id'])['disposition']==record['recommendation']=='unresolved'
         overlays[record['id']]=[public_text(q) for q in record['remaining_questions']]
     bonney_final_path=Path('work/research/2026-11-10/post-release-qa/bonney-lake-oct13-final-text-review.json')
     if bonney_final_path.exists():
         record=json.loads(bonney_final_path.read_text());key=('local_inventory',record['id'])
-        assert digest(json.dumps(current[key],sort_keys=True,separators=(',',':'),ensure_ascii=False).encode())==record['current_row_sha256']
+        source_row_guard(key, record['current_row_sha256'])
         assert next(r for r in f['records'] if r['id']==record['id'])['disposition']==record['recommendation']=='unresolved'
         overlays[record['id']]=[public_text(q) for q in record['remaining_questions']]
     wa_library_path=Path('work/research/2026-11-10/post-release-qa/washington-local-code-library-review.json')
@@ -1087,6 +1100,8 @@ def main():
             assert digest(json.dumps(current[key],sort_keys=True,separators=(',',':'),ensure_ascii=False).encode())==record['current_row_sha256']
             assert next(r for r in f['records'] if r['id']==record['id'])['disposition']==record['recommendation']=='unresolved'
             overlays[record['id']]=[public_text(q) for q in record['remaining_questions']]
+    if bonney_application:
+        overlays[bonney_application['id']]=[public_text(q) for q in bonney_application['remaining_questions']]
     rows=[]
     for entry in f['records']:
         if entry['disposition']!='unresolved':continue
@@ -1114,6 +1129,7 @@ def main():
     summary['independence_operative_term_sha256']=digest(independence_path.read_bytes()) if independence_path.exists() else None
     summary['independence_ordinance19850_sha256']=digest(independence_later_path.read_bytes()) if independence_later_path.exists() else None
     summary['louisiana_hcr61_closing_window_sha256']=digest(la_hcr61_path.read_bytes()) if la_hcr61_path.exists() else None
+    summary['bonney_reviewed_application_sha256']=digest(bonney_application_path.read_bytes()) if bonney_application_path.exists() else None
     summary['washington_local_code_library_sha256']=digest(wa_library_path.read_bytes()) if wa_library_path.exists() else None
     summary['bonney_oct13_final_text_sha256']=digest(bonney_final_path.read_bytes()) if bonney_final_path.exists() else None
     summary['bonney_d26_73_disposition_sha256']=digest(bonney_disposition_path.read_bytes()) if bonney_disposition_path.exists() else None

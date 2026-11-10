@@ -24,4 +24,4 @@ The coordinator applies only supported, accepted cells with current guards, hand
 
 ## Current boundary
 
-The ten decisions are prepared, not independently approved. Canonical records, published totals and unresolved count remain unchanged. The broader queue contains 1,347 unresolved records; this batch does not supersede or waive their remaining work.
+Bonney Lake has completed independent tool-free Terra review and four supported cells are applied; its original legal-basis identifier and later-force questions remain open. The other nine decisions await independent review. The frozen input guards are retained alongside the Bonney Lake application transition; publication remains on post14 pending the next reviewed delivery. The broader queue contains 1,347 unresolved records; this batch does not supersede or waive their remaining work.

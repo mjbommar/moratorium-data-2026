@@ -31,7 +31,7 @@
   "record_disposition_path": "work/research/2026-11-08/full-record-dispositions/funnel.json",
   "qa_status": "ongoing",
   "publication_authorization": "publish current state with qualifications on pending QA, then continue to double check and clear the outstanding questions",
-  "working_revision": "post14-data-consumer-and-site-verified",
+  "working_revision": "post15-reviewed-bonney-status-correction-delivery-pending",
   "current_raw_counts": {
     "local": 1328,
     "state_policy": 448,
@@ -52,10 +52,10 @@
   "release_date_timezone": "America/New_York",
   "published_source_commit": "4adc611e1a9ecc6be6438ab62ea5a1f28a482b93",
   "september_status_category_differences": {
-    "local": 98,
+    "local": 99,
     "policy": 35,
-    "total": 133,
-    "receipt": "work/research/2026-11-09/post-release-qa/hawaii-status-baseline-delta.json"
+    "total": 134,
+    "receipt": "work/research/2026-11-09/post-release-qa/current-status-category-baseline-delta.json"
   },
   "latest_geography_review": "work/research/2026-11-09/post-release-qa/nonblank-geography-application.json",
   "latest_delivered_consumer_input_delta": {
@@ -127,7 +127,7 @@
     "delivery_receipt": "work/research/2026-11-10/post-release-qa/consumer-v28-handoff.json",
     "hosted_copy_state": "pending"
   },
-  "latest_field_application": "work/research/2026-11-10/post-release-qa/kentucky-current-incentive-code-review.json",
+  "latest_field_application": "work/research/2026-11-10/post-release-qa/bonney-lake-reviewed-application.json",
   "latest_hosted_delivery": {
     "source_commit": "6518022eeff0f097b18b29224fde969677f842df",
     "hosted_source_commit": "c5b188326bfb5f95b77ec33d3188d29e07e8d361",
@@ -156,7 +156,7 @@
     "receipt": "work/research/2026-11-10/release-2026.11.10.post14/hosted-copy-verification.json",
     "scope": "All public generated HTML pages, locally linked resources, all published figures/current downloads and live browser map/filter/table/mobile behavior verified. No universal factual freshness or legal-force claim."
   },
-  "latest_disposition_review": "work/research/2026-11-09/post-release-qa/virginia-returned-veto-adjudications.json",
+  "latest_disposition_review": "work/research/2026-11-10/post-release-qa/bonney-lake-independent-review.json",
   "status_baseline_comparison": "work/research/2026-11-09/post-release-qa/current-status-category-baseline-delta.json",
   "hosted_delivery_history": [
     {
@@ -196,5 +196,14 @@
     "selected_files": 13,
     "receipt": "work/research/2026-11-10/release-2026.11.10.post8/hosted-data-verification.json",
     "scope": "Selected data/QA bytes only; no full release-label/prose/receipt synchronization claim."
+  },
+  "pending_consumer_input_delta": {
+    "state": "reviewed_canonical_delta_pending_release_and_consumer_handoff",
+    "receipt": "work/research/2026-11-10/post-release-qa/bonney-lake-reviewed-application.json",
+    "prior_verified_release": "v2026.11.10.post14",
+    "canonical_cells_changed": 4,
+    "status_category_changes": 1,
+    "normalized_date_changes": 1,
+    "scope": "BonneyLakeactive-to-replaced historical correction; current release/download/hosted verification pointers remainpost14untilnew delivery."
   }
 }

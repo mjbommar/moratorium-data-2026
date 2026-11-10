@@ -1,0 +1,119 @@
+{
+  "applied_at": "2026-11-10T17:39:37.829588+00:00",
+  "id": "wa-bonney-lake-2026",
+  "prior_row_sha256": "9a9680d21522b02399b8abb5ba7289a08cf459960e1d50941854639a8b63fc9a",
+  "current_row_sha256": "8dea308d4b8da92d1467ef2eb3013520dfa2220f57760251263d095e752eca9b",
+  "prior_inventory_sha256": "fc8385a264690492828e4a99f6d05cfc3a6e8b6e218599be78e2173854254818",
+  "current_inventory_sha256": "ee068fa61e943ed9e4ab08a359a4c51564dc10409d31ed62399c159a75e7c272",
+  "independent_review": {
+    "path": "work/research/2026-11-10/post-release-qa/bonney-lake-independent-review.json",
+    "sha256": "dc8e602e7d587781f529558ca7b9a21612f3b9e2d59c26a5aa02647c0ff7b9cb"
+  },
+  "recommendation": "unresolved",
+  "field_changes": [
+    {
+      "field": "current_status",
+      "before": "The city notice states Ordinance 1754 was adopted and effective on 2026-04-14 for an initial six-month moratorium. The notice does not establish the precise termination date or later extension or replacement. A third-party indexed lead suggests a later Ordinance 1763, but its adopted text and relationship to this moratorium remain unverified. An earlier tracker listed 2026-08-14 as an expiry; that date conflicts with the notice\u2019s six-month term. [VERIFY later action and actual end date]",
+      "after": "The six-month moratorium adopted April 14, 2026 under Ordinance 1754 was replaced by permanent ESS regulations adopted October 13, 2026. Executed Ordinance 1763 section 11 terminates the moratorium upon the new ordinance\u2019s effective date; section 16 and the clerk\u2019s completed block record immediate effectiveness on October 13. Council minutes record AB26-73 approval 6-0. The replacement prohibits stationary utility-scale electrochemical energy storage systems in all zoning districts and regulates other systems. [VERIFY: later legal developments and project-specific applicability.]"
+    },
+    {
+      "field": "outcome",
+      "before": "Staff and Community Development Committee to develop BESS siting regulations before expiry",
+      "after": "Council approved permanent EESS regulations 6-0 on October 13, 2026. Ordinance 1763 terminated the Ordinance 1754 moratorium upon its immediate effectiveness. It prohibits stationary utility-scale EESS in all zoning districts and sets standards and restrictions for other EESS, including limited emergency use of mobile utility-scale EESS."
+    },
+    {
+      "field": "enacted_status",
+      "before": "active",
+      "after": "replaced"
+    },
+    {
+      "field": "current_end_date_iso",
+      "before": "",
+      "after": "2026-10-13"
+    }
+  ],
+  "canonical_cells_changed": 4,
+  "status_category_changes": 1,
+  "normalized_date_changes": 1,
+  "whole_record_closures": 0,
+  "remaining_questions": [
+    "Confirm the Ordinance 1754 agenda-bill identifier against its original record.",
+    "For any current-status or project-specific use, verify relevant later legal developments and the project\u2019s characteristics and applicability."
+  ],
+  "coordinator_adjudication": "Apply three exactly accepted cells and the independently supplied narrower EESS outcome wording after source/locator check. Keep old legal_basis unchanged because its retainedAB26-33identifier was held, not found false. Later-force/applicability residuals remain.",
+  "counter_delta": {
+    "active": -1,
+    "replaced": 1,
+    "local_records": 0
+  },
+  "verification": {
+    "checks": [
+      {
+        "command": [
+          "scripts/validate_dataset.py",
+          "--today",
+          "2026-11-10"
+        ],
+        "returncode": 0
+      },
+      {
+        "command": [
+          "scripts/build_policy_scope_exports.py",
+          "--check"
+        ],
+        "returncode": 0
+      },
+      {
+        "command": [
+          "scripts/build_summary_stats.py",
+          "--check"
+        ],
+        "returncode": 0
+      },
+      {
+        "command": [
+          "scripts/build_geojson.py",
+          "--check"
+        ],
+        "returncode": 0
+      },
+      {
+        "command": [
+          "scripts/make_timeline.py",
+          "--check"
+        ],
+        "returncode": 0
+      },
+      {
+        "command": [
+          "scripts/check_docs_numbers.py"
+        ],
+        "returncode": 0
+      },
+      {
+        "command": [
+          "-m",
+          "scripts.generate_tables.inventory_clean",
+          "--check"
+        ],
+        "returncode": 0
+      },
+      {
+        "command": [
+          "scripts/build_index.py",
+          "--check"
+        ],
+        "returncode": 0
+      },
+      {
+        "command": [
+          "scripts/classify_sources.py",
+          "--check"
+        ],
+        "returncode": 0
+      }
+    ],
+    "documented_number_claims": 95,
+    "native_published_bytes_unchanged_from_post14": true
+  }
+}

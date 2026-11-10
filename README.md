@@ -2,9 +2,11 @@
 
 **November patch release with pending QA:** [v2026.11.10.post14](https://github.com/mjbommar/moratorium-data-2026/releases/tag/v2026.11.10.post14) publishes the reviewed current state with explicit unresolved source and legal-status questions. Further checking continues. The older `v2026.11.8` remains an incomplete prerelease checkpoint.
 
-**Qualified patch:** Four Kentucky incentive fields clarified using current compiled provisions. The public dashboard now has generated local-status and ballot-certification charts and tables, accurate policy-form counts and refreshed current state pages/maps. No status category changes or whole-record closures. [Release downloads, restore and V29 delivery](work/research/2026-11-10/release-2026.11.10.post14/README.md) are verified. The live dashboard, all 50 state pages, charts, tables and current downloads are verified on desktop and mobile.
+**Working update pending delivery:** Independent tool-free Terra review supports Bonney Lake’s historical replacement and October 13 end date. Four fields are corrected in the working data; the verified release and hosted/download pointers remain post14 until the next delivery. [Review and application](work/research/2026-11-10/post-release-qa/bonney-lake-reviewed-application.json).
 
-**Continuing QA:** 1,347 records remain unresolved. Independent Massachusetts QA, publication/filing evidence and record-specific later force remain open. Newly recovered [Kentucky Executive Order 2026-494](work/research/2026-11-10/post-release-qa/kentucky-incentive-implementation-review.json) is a held candidate outside the canonical count pending independent review and integration. September status-category differences remain 133 (98 local, 35 policy). All 448 canonical policy observations have primary references, without universal freshness or legal-force certification. Each release tag preserves its exact snapshot.
+**Published post14 patch:** Four Kentucky incentive fields clarified using current compiled provisions. The public dashboard now has generated local-status and ballot-certification charts and tables, accurate policy-form counts and refreshed current state pages/maps. No status category changes or whole-record closures. [Release downloads, restore and V29 delivery](work/research/2026-11-10/release-2026.11.10.post14/README.md) are verified. The live dashboard, all 50 state pages, charts, tables and current downloads are verified on desktop and mobile.
+
+**Continuing QA:** 1,347 records remain unresolved. Independent Massachusetts QA, publication/filing evidence and record-specific later force remain open. Newly recovered [Kentucky Executive Order 2026-494](work/research/2026-11-10/post-release-qa/kentucky-incentive-implementation-review.json) is a held candidate outside the canonical count pending independent review and integration. September status-category differences are 134 (99 local, 35 policy). All 448 canonical policy observations have primary references, without universal freshness or legal-force certification. Each release tag preserves its exact snapshot.
 
 **Latest ballot review:** [Canterbury's official meeting minutes](work/research/2026-11-10/canterbury-minutes-result-review/README.md) explicitly report Article 4 passed, 322–63, with clerk reports finalized. A new observation supersedes the earlier one without changing its tally. There are now 65 retained result versions; current observations remain 53 across 52 measures, with five certified. Certification/date and operative legal effect remain unknown for Canterbury. [Qualified post3 and matching V18 delivery](work/research/2026-11-10/release-2026.11.10.post3/README.md) are verified.
 
@@ -18,7 +20,7 @@ This is the open companion dataset for the working paper *Moratorium Nation: A S
 > Includes the reviewed November 6 Seattle duplicate retirement; both original IDs remain resolvable.
 > Working-source review now covers the original 1,777 raw records with primary and independent artifacts. [The integrated application](work/research/2026-11-08/full-inventory-integrated-application/README.md) records applied corrections, zero pending cells in the reviewed queue, full consistency checks and selected hosted verification. Status dates vary; bounded source review does not establish universal current legal force. The published November 8 checkpoint retains its older coverage.
 >
-> 🟢 **1087 classified active or extended** (current legal force remains record-specific) · 🟡 **64 classified pending** · ⚪ **171 classified past** (recorded as expired, replaced, or rescinded) · **2 rejected proposals retained** · **4 with unknown recorded stage**
+> 🟢 **1086 classified active or extended** (current legal force remains record-specific) · 🟡 **64 classified pending** · ⚪ **172 classified past** (recorded as expired, replaced, or rescinded) · **2 rejected proposals retained** · **4 with unknown recorded stage**
 >
 > Leading states by total records: Ohio (160), New York (152), Michigan (148), Georgia (71), North Carolina (70), Iowa (60), Tennessee (46), Washington (43), Wisconsin (40), Florida (35), Indiana (35). Florida and Indiana tie for tenth.
 >
@@ -32,7 +34,7 @@ Latest committee review: [Louisiana adopted amendments and deferral roll calls; 
 
 Latest reviewed corrections: [full-inventory integrated application](work/research/2026-11-08/full-inventory-integrated-application/README.md), [next 90 records and stage corrections](work/research/2026-11-08/full-inventory-next90-application/README.md), [first 105 additional records](work/research/2026-11-08/full-inventory-first105-application/README.md), [final 225-record cohort corrections](work/research/2026-11-08/freshness-225-final-corrections/README.md), [30-record source reconciliation](work/research/2026-11-08/freshness-followup-reconciliation/README.md), and [first twenty-record reconciliation](work/research/2026-11-08/freshness-first20-reconciliation/README.md). All IDs are preserved; unsupported dates, terms and authority claims are qualified. The [full record-disposition funnel](work/research/2026-11-08/full-record-dispositions/README.md) retains 1,347 bounded unresolved records, 190 corrected-resolved, 239 confirmed-unchanged and zero active superseded duplicates; these are scoped review findings, not current-law totals. **979 rows carry verification flags**, while absence of a flag is not a current-force guarantee. See the [changelog](CHANGELOG.md) and [remaining evidence gaps](docs/known-gaps.md).
 
-Current [status-category comparison with September 23](work/research/2026-11-09/post-release-qa/current-status-category-baseline-delta.json): **133 surviving existing records differ — 98 local and 35 policy**. HF3793 now has a supported historical failed classification matching September, reducing the previous difference count by one. Earlier comparison receipts remain dated checkpoints. This includes corrections as well as events and excludes added/removed records.
+Current [status-category comparison with September 23](work/research/2026-11-09/post-release-qa/current-status-category-baseline-delta.json): **134 surviving existing records differ — 99 local and 35 policy**. The independently reviewed Bonney Lake replacement adds one local status difference. Earlier comparison receipts remain dated checkpoints. This includes corrections as well as events and excludes added/removed records.
 
 The linked April 2026 paper is a historical edition. Its figures and conclusions have not been synchronized to this November dataset.
 
@@ -87,9 +89,9 @@ For more, see the [FAQ](docs/FAQ.md).
 Working snapshot during the **November 9, 2026** refresh (record-level source dates vary):
 
 - **1328 moratorium records** tracked in our working inventory
-  - **1087 classified active or extended** (889 active + 198 extended)
+  - **1086 classified active or extended** (888 active + 198 extended)
   - **64 classified pending**
-  - **83 classified replaced**
+  - **84 classified replaced**
   - **76 classified expired**
   - **12 classified rescinded**; earlier event-based expiry may remain unresolved
 - **47 states** have at least one moratorium. We searched the other **3 states** (Hawaii, West Virginia, and Wyoming) and found none. Alaska, Arizona, Delaware, Rhode Island, and Vermont joined the list in the September 2026 update

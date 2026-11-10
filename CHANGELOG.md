@@ -1,5 +1,18 @@
 # Changelog
 
+## Working post15 — delivery pending
+
+Independent tool-free Terra review supports Bonney Lake’s replacement by Ordinance 1763 and October 13, 2026 end date. Four canonical cells changed: status prose, outcome, recorded category and end date. One record moves from active to replaced; no raw records, native history or whole-record dispositions change. The verified hosted/download release remains post14 until the next delivery. [Review/application](work/research/2026-11-10/post-release-qa/bonney-lake-reviewed-application.json).
+
+| Metric | Working post15 |
+|---|---:|
+| Moratoria in the list | **1,328** |
+| Classified active or extended | **1,086** |
+| Pending or not yet effective | **64** |
+| Ended (replaced, expired, or rescinded) | **172** |
+| Rows we still want to confirm (`[VERIFY]`) | **979** |
+| States with at least one | **47** |
+
 ## Qualified v2026.11.10.post14
 
 Public dashboard copy, status/ballot charts and tables, state tables and current inventory-driven maps refreshed. Four Kentucky incentive prose fields corrected. A newly recovered Kentucky executive order remains a held candidate outside canonical counts. No status categories, normalized dates, analytical membership, native history or whole-record dispositions change. There are 1,347 unresolved reviews. [Scope and delivery](work/research/2026-11-10/release-2026.11.10.post14/README.md).

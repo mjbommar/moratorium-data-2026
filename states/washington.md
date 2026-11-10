@@ -3,7 +3,7 @@
 
 Working inventory for Washington, generated **November 10, 2026**. Record-level refresh and later-action review remain incomplete.
 
-**43 records** — 31 classified as active or extended, 0 classified as pending, 12 classified as past, 0 classified as rejected proposals, 0 classified as unknown.
+**43 records** — 30 classified as active or extended, 0 classified as pending, 13 classified as past, 0 classified as rejected proposals, 0 classified as unknown.
 
 These counts reflect inventory classifications and do not establish current enforceability.
 
@@ -12,7 +12,7 @@ State policy is tracked separately: **5 records** (5 typed bill rows) in [`state
 | Jurisdiction | Type | Enacted | Sectors | Recorded status |
 |---|---|---|---|---|
 | Black Diamond | City | 2026-03-03 | battery storage | 🟢 Extended |
-| Bonney Lake | City | 2026-04-14 | battery storage | 🟢 Active |
+| Bonney Lake | City | 2026-04-14 | battery storage | ⚪ Replaced |
 | Burien | City | 2026-06-29 | data center | 🟢 Active |
 | City of Chelan | City | 2018-04-24 | cryptocurrency mining | ⚪ Expired |
 | City of Cheney | City | 2018-04-24 | cryptocurrency mining | ⚪ Expired |
@@ -76,18 +76,18 @@ State policy is tracked separately: **5 records** (5 typed bill rows) in [`state
 ### Bonney Lake
 
 - **Type:** City
-- **Recorded status:** 🟢 Active
+- **Recorded status:** ⚪ Replaced
 - **Date enacted:** April 14, 2026 (emergency adoption)
 - **Normalized date:** `2026-04-14` (exact)
 - **Duration:** Six months from adoption
-- **Current end date:** `—`
+- **Current end date:** `2026-10-13`
 - **Sectors:** battery storage
 - **Moratorium ID:** `wa-bonney-lake-2026`
 - **Legal basis:** Ordinance 1754 (agenda bill AB26-33)
 - **What prompted it:** Candidate BESS site near police/fire stations and residences; groundwater/fire-runoff concerns near Granger Springs wells
 - **Affected projects:** None named; preemptive
-- **Detailed status:** The city notice states Ordinance 1754 was adopted and effective on 2026-04-14 for an initial six-month moratorium. The notice does not establish the precise termination date or later extension or replacement. A third-party indexed lead suggests a later Ordinance 1763, but its adopted text and relationship to this moratorium remain unverified. An earlier tracker listed 2026-08-14 as an expiry; that date conflicts with the notice’s six-month term. [VERIFY later action and actual end date]
-- **Outcome:** Staff and Community Development Committee to develop BESS siting regulations before expiry
+- **Detailed status:** The six-month moratorium adopted April 14, 2026 under Ordinance 1754 was replaced by permanent ESS regulations adopted October 13, 2026. Executed Ordinance 1763 section 11 terminates the moratorium upon the new ordinance’s effective date; section 16 and the clerk’s completed block record immediate effectiveness on October 13. Council minutes record AB26-73 approval 6-0. The replacement prohibits stationary utility-scale electrochemical energy storage systems in all zoning districts and regulates other systems. [VERIFY: later legal developments and project-specific applicability.]
+- **Outcome:** Council approved permanent EESS regulations 6-0 on October 13, 2026. Ordinance 1763 terminated the Ordinance 1754 moratorium upon its immediate effectiveness. It prohibits stationary utility-scale EESS in all zoning districts and sets standards and restrictions for other EESS, including limited emergency use of mobile utility-scale EESS.
 
 ### Burien
 

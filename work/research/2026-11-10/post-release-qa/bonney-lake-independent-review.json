@@ -1,0 +1,94 @@
+{
+  "reviewed_at": "2026-11-10T17:39:37.778622+00:00",
+  "id": "wa-bonney-lake-2026",
+  "reviewer": "Independent tool-free gpt-6.1-terra API calls, source extraction then cell adjudication; separate context from root",
+  "model": "gpt-6.1-terra",
+  "agents_spawned": 0,
+  "tools": [],
+  "input_row_sha256": "9a9680d21522b02399b8abb5ba7289a08cf459960e1d50941854639a8b63fc9a",
+  "input_manifest_sha256": "ecb06a83db124919f1c1d2bce56830d96d67af34ce87afa90647e4be7d5872d1",
+  "source_body_sha256": {
+    "0c9969549b5143bbbe8c57588d468a39": "f9c599c0890e3ccc067343fb43d2853c294e0f141e29e83cc6d5e691d5937886",
+    "adada686a2994a3fa5a178440e46420b": "733cc206831d51304d6146c7f80115e67f1680f02788b59807a3902d51657d49"
+  },
+  "captures": [
+    {
+      "attempt_id": "462b685d8764474a872e695b588d129d",
+      "logical_invocation_id": "058d684eb33d4f588a34a123f87d392d",
+      "request_descriptor_sha256": "7a2df471a88d25e72f55150b761dba53dbed76eb97157a609765320a4a89708e",
+      "wire_request_sha256": "d5b81f2c82ab4e874b78bdf6eaea0d960dd8948ac36763f5bcf71b061ccbaa92",
+      "wire_response_sha256": "53013f5d901067f7488007bebcad824a27db1353da4413ceea2536e95ad0f2a6",
+      "status": 200
+    },
+    {
+      "attempt_id": "c080ab8db82143e6abca014cd54affcf",
+      "logical_invocation_id": "17d2c57fc7b545b8bac4e3a8f1b6be25",
+      "request_descriptor_sha256": "fba107246426ee3245ac3728489ebfdd18e90521c8af9aa022c08e9e78874e5a",
+      "wire_request_sha256": "640aa9b6d63b77590cf1d9e79cd2c48b0f95388758661fb453874bc251bbe319",
+      "wire_response_sha256": "880160fc33d1d35bd79ed71b23b4e9410eaf302880ff417fa6571f550e9112f8",
+      "status": 200
+    }
+  ],
+  "field_decisions": [
+    {
+      "field": "current_status",
+      "decision": "accept",
+      "value": "The six-month moratorium adopted April 14, 2026 under Ordinance 1754 was replaced by permanent ESS regulations adopted October 13, 2026. Executed Ordinance 1763 section 11 terminates the moratorium upon the new ordinance\u2019s effective date; section 16 and the clerk\u2019s completed block record immediate effectiveness on October 13. Council minutes record AB26-73 approval 6-0. The replacement prohibits stationary utility-scale electrochemical energy storage systems in all zoning districts and regulates other systems. [VERIFY: later legal developments and project-specific applicability.]",
+      "source_id": "0c9969549b5143bbbe8c57588d468a39; adada686a2994a3fa5a178440e46420b",
+      "locator": "Ordinance physical pages 6, 16, 19\u201320, printed pages 2, 12, 15\u201316; minutes physical pages 3\u20134, section IV.B",
+      "reason": "The sources support the historical termination and replacement. The VERIFY qualification appropriately distinguishes that history from later legal status and applicability to a particular project."
+    },
+    {
+      "field": "outcome",
+      "decision": "reject",
+      "value": "Council approved permanent EESS regulations 6-0 on October 13, 2026. Ordinance 1763 terminated the Ordinance 1754 moratorium upon its immediate effectiveness. It prohibits stationary utility-scale EESS in all zoning districts and sets standards and restrictions for other EESS, including limited emergency use of mobile utility-scale EESS.",
+      "source_id": "0c9969549b5143bbbe8c57588d468a39; adada686a2994a3fa5a178440e46420b",
+      "locator": "Ordinance physical pages 6, 14\u201316, 19\u201320, printed pages 2, 10\u201312, 15\u201316; minutes physical pages 3\u20134, section IV.B",
+      "reason": "The proposed reference to other ESS is broader than the EESS-specific development standards established in section 9. The correction preserves the limited mobile utility-scale emergency provision."
+    },
+    {
+      "field": "enacted_status",
+      "decision": "accept",
+      "value": "replaced",
+      "source_id": "0c9969549b5143bbbe8c57588d468a39",
+      "locator": "Physical page 6, printed page 2, recitals; physical page 19, printed page 15, section 11",
+      "reason": "Ordinance 1763 terminated the moratorium and adopted permanent regulations. This is a historical classification, not a certification of later legal force."
+    },
+    {
+      "field": "current_end_date_iso",
+      "decision": "accept",
+      "value": "2026-10-13",
+      "source_id": "0c9969549b5143bbbe8c57588d468a39",
+      "locator": "Physical page 19, printed page 15, section 11; physical page 20, printed page 16, section 16 and record box",
+      "reason": "Section 11 terminates the moratorium upon Ordinance 1763\u2019s effective date, recorded as October 13, 2026."
+    },
+    {
+      "field": "legal_basis",
+      "decision": "hold",
+      "value": "Ordinance 1754; terminated by Ordinance 1763 (AB26-73), section 11",
+      "source_id": "0c9969549b5143bbbe8c57588d468a39",
+      "locator": "Physical page 6, printed page 2, recitals; physical page 19, printed page 15, section 11; physical page 20, printed page 16, record box",
+      "reason": "The termination and AB26-73 are supported, but the supplied sources do not independently establish the retained identification of Ordinance 1754 as AB26-33. The corrected value omits that unverified identifier without finding it false."
+    }
+  ],
+  "whole_record_closure_supported": false,
+  "remaining_questions": [
+    "Confirm the Ordinance 1754 agenda-bill identifier against its original record.",
+    "For any current-status or project-specific use, verify relevant later legal developments and the project\u2019s characteristics and applicability."
+  ],
+  "review_limitations": [
+    "Review was limited to the supplied ordinance text and images and council minutes; no tools or later sources were available.",
+    "The recorded termination date and replacement do not establish comprehensive later legal force or applicability to a particular project."
+  ],
+  "accounting": {
+    "http_requests": 2,
+    "max_http_requests": 2,
+    "max_output_tokens_per_request": 6000,
+    "max_retries": 0,
+    "input_tokens": 42736,
+    "output_tokens": 3648,
+    "cost_usd": null,
+    "price_status": "No local model price; token/request ceilings enforced. Not claimed free."
+  },
+  "scope": "Independent review of supplied historical sources and proposed fields; no web tools or comprehensive current-force certification."
+}
