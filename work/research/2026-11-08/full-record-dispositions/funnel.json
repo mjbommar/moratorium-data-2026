@@ -1,8 +1,8 @@
 {
   "event_cutoff_utc": "2026-11-07T13:38:39.877065Z",
   "counts": {
-    "unresolved": 1357,
-    "corrected_resolved": 180,
+    "unresolved": 1356,
+    "corrected_resolved": 181,
     "confirmed_unchanged": 239,
     "superseded_duplicate": 0,
     "not_attempted": 0
@@ -10,7 +10,8 @@
   "cohort_counts": {
     "earlier225": {
       "confirmed_unchanged": 26,
-      "unresolved": 199
+      "unresolved": 198,
+      "corrected_resolved": 1
     },
     "remaining1552": {
       "corrected_resolved": 180,
@@ -36520,11 +36521,8 @@
       "id": "wy-hb0064-2013",
       "dataset": "state_policy",
       "disposition": "unresolved",
-      "public_receipt_pointer": "work/research/2026-11-08/full-inventory-integrated-application/README.md",
-      "residual_reference": {
-        "dataset": "state_policy",
-        "id": "wy-hb0064-2013"
-      },
+      "public_receipt_pointer": "work/research/2026-11-09/post-release-qa/wyoming-current-tax-code-adjudications.json",
+      "residual_reference": "work/research/2026-11-09/post-release-qa/wyoming-current-tax-code-adjudications.json",
       "recorded_evidence_fingerprints_sha256": [
         "0b56666ec2dfe80ccc81cb2bfddeb87986803838500ceb2d8c7ba7c2cb4c6a40",
         "433c05eff7d7d97a47969daa2f585aafb61b67edabd3924459d887356a8d8d1c",
@@ -36541,11 +36539,8 @@
       "id": "wy-hb0067-2010",
       "dataset": "state_policy",
       "disposition": "unresolved",
-      "public_receipt_pointer": "work/research/2026-11-08/full-inventory-integrated-application/README.md",
-      "residual_reference": {
-        "dataset": "state_policy",
-        "id": "wy-hb0067-2010"
-      },
+      "public_receipt_pointer": "work/research/2026-11-09/post-release-qa/wyoming-current-tax-code-adjudications.json",
+      "residual_reference": "work/research/2026-11-09/post-release-qa/wyoming-current-tax-code-adjudications.json",
       "recorded_evidence_fingerprints_sha256": [
         "016c1ce3dd995c89df7e1749bc492b5af52ced9f34d4625ea9c6f9b2bae617f6",
         "0b56666ec2dfe80ccc81cb2bfddeb87986803838500ceb2d8c7ba7c2cb4c6a40",
@@ -36583,11 +36578,8 @@
       "id": "wy-hb0117-2011",
       "dataset": "state_policy",
       "disposition": "unresolved",
-      "public_receipt_pointer": "work/research/2026-11-08/full-inventory-integrated-application/README.md",
-      "residual_reference": {
-        "dataset": "state_policy",
-        "id": "wy-hb0117-2011"
-      },
+      "public_receipt_pointer": "work/research/2026-11-09/post-release-qa/wyoming-current-tax-code-adjudications.json",
+      "residual_reference": "work/research/2026-11-09/post-release-qa/wyoming-current-tax-code-adjudications.json",
       "recorded_evidence_fingerprints_sha256": [
         "0b56666ec2dfe80ccc81cb2bfddeb87986803838500ceb2d8c7ba7c2cb4c6a40",
         "145cffe24179d7e54f3835e5a34c07afb29fa8cafa3b9b07972d861aa09012fa",
@@ -36603,12 +36595,9 @@
     {
       "id": "wy-hb0155-2026",
       "dataset": "state_policy",
-      "disposition": "unresolved",
-      "public_receipt_pointer": "work/research/2026-11-08/full-inventory-integrated-application/README.md",
-      "residual_reference": {
-        "dataset": "state_policy",
-        "id": "wy-hb0155-2026"
-      },
+      "disposition": "corrected_resolved",
+      "public_receipt_pointer": "work/research/2026-11-09/post-release-qa/wyoming-current-tax-code-adjudications.json",
+      "residual_reference": null,
       "recorded_evidence_fingerprints_sha256": [
         "0b56666ec2dfe80ccc81cb2bfddeb87986803838500ceb2d8c7ba7c2cb4c6a40",
         "3d74eea28fd22f9013302332089fd89977b8584cfd75ca933d007fdc779e0b04",
@@ -38293,6 +38282,42 @@
       "disposition": "corrected_resolved",
       "receipt": "work/research/2026-11-09/post-release-qa/montana-hj46-text-adjudication.json",
       "scope": "Full official resolution resolves detailed study-scope/infrastructure membership gap for historical failed proposal; no enactment/current-force finding."
+    },
+    {
+      "reviewed_at": "2026-11-10T10:47:08.096433+00:00",
+      "id": "wy-hb0064-2013",
+      "cohort": "earlier225",
+      "prior_disposition": "unresolved",
+      "disposition": "unresolved",
+      "receipt": "work/research/2026-11-09/post-release-qa/wyoming-current-tax-code-adjudications.json",
+      "scope": "Compiled exemption conditions and2026 consolidation now reviewed; HB0155 historical sector-class gap resolved, older enacted records retain case-specific/current-force holds."
+    },
+    {
+      "reviewed_at": "2026-11-10T10:47:08.096433+00:00",
+      "id": "wy-hb0067-2010",
+      "cohort": "earlier225",
+      "prior_disposition": "unresolved",
+      "disposition": "unresolved",
+      "receipt": "work/research/2026-11-09/post-release-qa/wyoming-current-tax-code-adjudications.json",
+      "scope": "Compiled exemption conditions and2026 consolidation now reviewed; HB0155 historical sector-class gap resolved, older enacted records retain case-specific/current-force holds."
+    },
+    {
+      "reviewed_at": "2026-11-10T10:47:08.096433+00:00",
+      "id": "wy-hb0117-2011",
+      "cohort": "earlier225",
+      "prior_disposition": "unresolved",
+      "disposition": "unresolved",
+      "receipt": "work/research/2026-11-09/post-release-qa/wyoming-current-tax-code-adjudications.json",
+      "scope": "Compiled exemption conditions and2026 consolidation now reviewed; HB0155 historical sector-class gap resolved, older enacted records retain case-specific/current-force holds."
+    },
+    {
+      "reviewed_at": "2026-11-10T10:47:08.096433+00:00",
+      "id": "wy-hb0155-2026",
+      "cohort": "earlier225",
+      "prior_disposition": "unresolved",
+      "disposition": "corrected_resolved",
+      "receipt": "work/research/2026-11-09/post-release-qa/wyoming-current-tax-code-adjudications.json",
+      "scope": "Compiled exemption conditions and2026 consolidation now reviewed; HB0155 historical sector-class gap resolved, older enacted records retain case-specific/current-force holds."
     }
   ]
 }

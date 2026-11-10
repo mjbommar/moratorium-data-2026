@@ -7,7 +7,7 @@
     "end": "2026-11-10"
   },
   "asset_name": "moratorium-data-2026.11.10.post7.tar.gz",
-  "coverage": "Original1777 records retain review provenance; two duplicates retired and one Massachusetts addition independently unreviewed. Current1776 active raw IDs:1357 unresolved,180 corrected-resolved,239 confirmed-unchanged scoped dispositions. No universal current-law certification.",
+  "coverage": "Original1777 records retain review provenance; two duplicates retired and one Massachusetts addition independently unreviewed. Current1776 active raw IDs:1356 unresolved,181 corrected-resolved,239 confirmed-unchanged scoped dispositions. No universal current-law certification.",
   "limitations": [
     "Recorded active/extended classifications do not prove current enforceability.",
     "Ballot voting, certification, passage and operative legal effect remain distinct.",
@@ -22,8 +22,8 @@
   "quality_gate_disposition": "User authorized publication of the current state with qualifications on pending QA, followed by continued double checking and resolution of outstanding questions.",
   "reviewed_data_source_commit": "ad7af81345dc0bb72b9b48a09abc574199c9311e",
   "record_dispositions": {
-    "unresolved": 1357,
-    "corrected_resolved": 180,
+    "unresolved": 1356,
+    "corrected_resolved": 181,
     "confirmed_unchanged": 239,
     "superseded_duplicate": 0,
     "not_attempted": 0
@@ -31,7 +31,7 @@
   "record_disposition_path": "work/research/2026-11-08/full-record-dispositions/funnel.json",
   "qa_status": "ongoing",
   "publication_authorization": "publish current state with qualifications on pending QA, then continue to double check and clear the outstanding questions",
-  "working_revision": "montana-enrolled-resolution-qa",
+  "working_revision": "montana-wyoming-code-qa",
   "current_raw_counts": {
     "local": 1328,
     "state_policy": 448,
@@ -78,7 +78,7 @@
     "delivered_source_commit": "ad7af81345dc0bb72b9b48a09abc574199c9311e",
     "delivered_consumer_commit": "5760ec426b1a43072606495fad1a0418c70e127c"
   },
-  "latest_source_followup": "work/research/2026-11-09/post-release-qa/montana-hj46-text-adjudication.json",
+  "latest_source_followup": "work/research/2026-11-09/post-release-qa/wyoming-current-tax-code-adjudications.json",
   "latest_expanded_candidate_review": "work/research/2026-11-09/starke-succession-review/validation.json",
   "latest_expanded_publication": {
     "generation_id": "3ce33d22288fa7bc7100c9ac621c041037702e8370af1e663d53a548ff794725",
@@ -120,7 +120,7 @@
     "delivered_source_commit": "522c752107785fd435067dd0c01ed28b97806e6d",
     "delivered_consumer_commit": "3a1ed93e3066a7c41f869d80c4c248a9a491b6b1"
   },
-  "latest_field_application": "work/research/2026-11-09/post-release-qa/montana-hj46-text-adjudication.json",
+  "latest_field_application": "work/research/2026-11-09/post-release-qa/wyoming-current-tax-code-adjudications.json",
   "latest_hosted_delivery": {
     "source_commit": "ad7af81345dc0bb72b9b48a09abc574199c9311e",
     "hosted_source_commit": "ad7af81345dc0bb72b9b48a09abc574199c9311e",
@@ -145,19 +145,20 @@
   "pending_consumer_input_delta": {
     "baseline_source_commit": "ad7af81345dc0bb72b9b48a09abc574199c9311e",
     "baseline_consumer_commit": "5760ec426b1a43072606495fad1a0418c70e127c",
-    "changed_policy_rows": 2,
-    "changed_policy_cells": 7,
+    "changed_policy_rows": 6,
+    "changed_policy_cells": 15,
     "changed_local_rows": 0,
     "changed_local_cells": 0,
-    "changed_cells": 7,
+    "changed_cells": 15,
     "status_category_changes": 0,
     "normalized_date_changes": 1,
-    "scope_membership_changes": 1,
-    "whole_record_closures": 1,
+    "scope_membership_changes": 2,
+    "whole_record_closures": 2,
     "additional_reviews": [
       "work/research/2026-11-09/post-release-qa/montana-enrolled-text-adjudication.json",
-      "work/research/2026-11-09/post-release-qa/montana-hj46-text-adjudication.json"
+      "work/research/2026-11-09/post-release-qa/montana-hj46-text-adjudication.json",
+      "work/research/2026-11-09/post-release-qa/wyoming-current-tax-code-adjudications.json"
     ],
-    "scope": "Seven Montana policy fields since post7/V22: SB212 enrolled/historical effective anchor and HJ46 full resolution/study schedule. HJ46 unresolved-to-included analytical scope and one historical record closure; no status-category change. SB212 later/current force remains open. Later batch delivery pending."
+    "scope": "Fifteen policy fields across six records since post7/V22: Montana enrolled/resolution review and four-record Wyoming code/consolidation followup. One historical normalized effective date, two analytical inclusions and two scoped historical record closures. No status-category or native-table change. Later release/consumer delivery pending."
   }
 }

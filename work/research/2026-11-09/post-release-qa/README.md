@@ -1,5 +1,9 @@
 # Continuing QA after v2026.11.9
 
+## November 10: Wyoming shared statutory baseline
+
+The four-record code review establishes conditional data-center exemption thresholds/aggregation and2026SF79's use-tax administration consolidation, distinguishing chapter repeal from exemption abolition. Eight fields change; HB155's sector-class gap resolves and its historical review closes, while three older enactments retain current-force/eligibility holds. Current totals are1,356 unresolved,181 corrected-resolved,239 confirmed-unchanged and383policy inclusions/46reviewed-unresolved. Fifteen Montana/Wyoming cells across six records await delivery after post7/V22. [Review](wyoming-current-tax-code-review.md).
+
 ## November 10: HJ46 full resolution recovered
 
 The Bill Text tab's exact endpoint supplied the complete official HJ46.1 PDF. Its explicit grid/ratepayer/stranded-investment/water study subjects resolve the historical scope gap. Three fields change; the failed proposal remains failed, analytical membership becomes included, and one scoped historical record closes. Current totals are1,357 unresolved,180 corrected-resolved,239 confirmed-unchanged and382 policy inclusions/47 reviewed-unresolved. Seven Montana cells await delivery after post7/V22. [Review](montana-hj46-text-review.md).
