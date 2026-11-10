@@ -1,5 +1,18 @@
 # Changelog
 
+## Qualified v2026.11.10.post10
+
+Sixteen fields across eight records corrected; seven historical reviews close. HF3793 changes from unknown to failed, matching September: 133 surviving existing status differences remain (98 local, 35 policy). No raw-ID, analytical membership, normalized-date or native-history change. There are 1,347 unresolved, 190 corrected-resolved and 239 confirmed-unchanged reviews. [Scope and delivery checks](work/research/2026-11-10/release-2026.11.10.post10/README.md).
+
+| Metric | Qualified v2026.11.10.post10 |
+|---|---:|
+| Moratoria in the list | **1,328** |
+| Classified active or extended | **1,087** |
+| Pending or not yet effective | **64** |
+| Ended (replaced, expired, or rescinded) | **171** |
+| Rows we still want to confirm (`[VERIFY]`) | **979** |
+| States with at least one | **47** |
+
 ## Qualified v2026.11.10.post9
 
 Nine fields across Dover, OhioHB96 and IndianaSB234 corrected; one historical adoption date added and two stale Wyoming historical review questions closed. No status-category, scope-membership or native-history changes.1,354 unresolved records remain. [Scope and delivery checks](work/research/2026-11-10/release-2026.11.10.post9/README.md).

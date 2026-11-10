@@ -1,10 +1,10 @@
 # Moratorium Data 2026
 
-**November patch release with pending QA:** [v2026.11.10.post9](https://github.com/mjbommar/moratorium-data-2026/releases/tag/v2026.11.10.post9) publishes the reviewed current state with explicit unresolved source and legal-status questions. Further checking continues. The older `v2026.11.8` remains an incomplete prerelease checkpoint.
+**November patch release with pending QA:** [v2026.11.10.post10](https://github.com/mjbommar/moratorium-data-2026/releases/tag/v2026.11.10.post10) publishes the reviewed current state with explicit unresolved source and legal-status questions. Further checking continues. The older `v2026.11.8` remains an incomplete prerelease checkpoint.
 
-**Qualified patch:** Nine corrected fields across Dover, Ohio HB96 and Indiana SB234; one historical adoption date added. Two stale Wyoming review questions close by reconciling prior independent scope decisions. Status categories and analytical membership are unchanged. [Release downloads, full clean restore and consumer V24](work/research/2026-11-10/release-2026.11.10.post9/README.md) are verified; website-copy synchronization remains on hold.
+**Qualified patch:** Sixteen fields across eight Monument, Missouri, Minnesota and Virginia records corrected; seven historical review questions closed. One status category changes from unknown to failed, matching September; 133 surviving existing status differences remain (98 local, 35 policy). [Release scope and delivery checks](work/research/2026-11-10/release-2026.11.10.post10/README.md) distinguish pending verification from completed delivery; website-copy synchronization remains on hold.
 
-**Continuing QA:** 1,354 records remain unresolved. Massachusetts H5175 independent QA, record-specific later force and source gaps remain open. There are448policy observations and1776raw records. Each release tag preserves its exact snapshot; subsequent working changes retain their own receipts.
+**Continuing QA:** 1,347 records remain unresolved. Massachusetts H5175 independent QA, record-specific later force, sponsor-party and source gaps remain open. There are 448 policy observations and 1,776 raw records. Each release tag preserves its exact snapshot; later working changes retain their own receipts.
 
 **Latest ballot review:** [Canterbury's official meeting minutes](work/research/2026-11-10/canterbury-minutes-result-review/README.md) explicitly report Article 4 passed, 322–63, with clerk reports finalized. A new observation supersedes the earlier one without changing its tally. There are now 65 retained result versions; current observations remain 53 across 52 measures, with five certified. Certification/date and operative legal effect remain unknown for Canterbury. [Qualified post3 and matching V18 delivery](work/research/2026-11-10/release-2026.11.10.post3/README.md) are verified.
 
@@ -170,7 +170,7 @@ A `CITATION.cff` file is included in the repo so GitHub renders a "Cite this rep
 - **Data** (`data/`, `states/`, `tables/`, `figures/`) is licensed under [Creative Commons Attribution 4.0 (CC-BY-4.0)](LICENSE-data). You can reuse, redistribute, and remix the data, including commercially, as long as you credit the source.
 - **Code** (`scripts/`, `notebooks/`, `examples/`) is licensed under the [MIT License](LICENSE-code).
 
-The latest qualified release is [v2026.11.10.post9](https://github.com/mjbommar/moratorium-data-2026/releases/tag/v2026.11.10.post9), published November 10 with explicit pending QA. September 23 remains the historical comparison baseline. Pin the release tag for replication; working main may contain subsequent reviewed corrections. Historical version labels describe their dated editions, and no DOI is asserted.
+The latest qualified release is [v2026.11.10.post10](https://github.com/mjbommar/moratorium-data-2026/releases/tag/v2026.11.10.post10), published November 10 with explicit pending QA. September 23 remains the historical comparison baseline. Pin the release tag for replication; working main may contain subsequent reviewed corrections. Historical version labels describe their dated editions, and no DOI is asserted.
 
 ---
 
