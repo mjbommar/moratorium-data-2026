@@ -1,0 +1,83 @@
+{
+  "reviewed_at": "2026-11-10T16:53:21.347949+00:00",
+  "id": "ks-sb-98-2025",
+  "current_row_sha256": "411fc559ba5eeee8ff454a8a3faf48c449bc9247a0bc99954f64394564448b86",
+  "recommendation": "unresolved",
+  "canonical_changes": 0,
+  "status_category_changes": 0,
+  "normalized_date_changes": 0,
+  "whole_record_closures": 0,
+  "native_source_readbacks": 4,
+  "sources": [
+    {
+      "attempt_id": "b9e4f0e11d154ecf9c9b531435cb6d03",
+      "url": "https://www.kslegislature.gov/b2025_26/laws/074_000_0000_chapter/074_050_0000_article/074_050_0332_section/074_050_0332_k",
+      "body_sha256": "894a683c4675fb6b25b72dac44259b217776b9b33be9df45a3c4e1d79c4411d4",
+      "text_sha256": "192c1e54b7eb2eee742ce808930b0892e094b7e4b2b10f18ecdb0c4e7cc31316",
+      "fetched_at": "2026-11-10T16:51:57.638280+00:00",
+      "published": false
+    },
+    {
+      "attempt_id": "83089b5e7c374cac9bb3cf72025e6cad",
+      "url": "https://www.ksrevisor.gov/statutes/chapters/ch74/074_050_0331.html",
+      "body_sha256": "230003740ca3b35c52e027b50b476fc3cc655f829591c108962110837e36f6b0",
+      "text_sha256": "a6d80399ed713d1a32ae33614b4f7036ee537836e74368e564b3d57ad867dac5",
+      "fetched_at": "2026-11-10T16:51:57.774215+00:00",
+      "published": false
+    },
+    {
+      "attempt_id": "22b38e4e5c864964824aa00de6647730",
+      "url": "https://www.ksrevenue.gov/taxnotices/notice25-03.pdf",
+      "body_sha256": "f600fca8773ab84c7227774d812c8b14a09dfabe7154b4ba31bb6f75f57bd052",
+      "text_sha256": "8821ca85b80664eaf2b6a05c5396250c513176b92ab04188f56024ab5d199efc",
+      "fetched_at": "2026-11-10T16:51:58.258904+00:00",
+      "published": false
+    },
+    {
+      "attempt_id": "97058267498041979efdeae0481463ee",
+      "url": "https://www.kslegislature.gov/b2025_26/laws/074_000_0000_chapter/074_050_0000_article/074_050_0333_section/074_050_0333_k/",
+      "body_sha256": "510365174c8ddadfcec1bbc5f52a4ef25094605546d40a44e245ffc233c6f4b8",
+      "text_sha256": "2b8005ab051c844e12a9fc11e7b7b8d6f4926e3d0231daca1dbd699a95999b5c",
+      "fetched_at": "2026-11-10T16:52:19.001962+00:00",
+      "published": false
+    }
+  ],
+  "findings": [
+    {
+      "source_attempt_id": "22b38e4e5c864964824aa00de6647730",
+      "locator": "Notice25-03, July3,2025, PDF page2 final paragraph; text and rendered page visually checked",
+      "finding": "Revenue notice identifies publication-in-statute-book trigger and expressly applies the exemption to qualified purchases made on or after July1,2025."
+    },
+    {
+      "source_attempt_id": "97058267498041979efdeae0481463ee",
+      "locator": "K.S.A.74-50,333(a)-(d), history",
+      "finding": "July1,2025 eligibility start,20 years from commencement of operations, Commerce certification before Revenue approval, and modification/revocation conditions; history L.2025,ch.124,section3;July1."
+    },
+    {
+      "source_attempt_id": "83089b5e7c374cac9bb3cf72025e6cad",
+      "locator": "K.S.A.74-50,331(c),(e),(g),(h),history",
+      "finding": "Codified equipment/facility/firm definitions; eligible costs exclude electricity; history L.2025,ch.124,section1;July1."
+    },
+    {
+      "source_attempt_id": "b9e4f0e11d154ecf9c9b531435cb6d03",
+      "locator": "K.S.A.74-50,332(a),(b),(c),(e),(g)",
+      "finding": "Investment250million,20jobs,conditions/agreement,breach cure and certification conditions. Confidentiality July2030 dates concern records disclosure, not an act-wide sunset."
+    }
+  ],
+  "remaining_questions": [
+    "Independent material review: Kansas Revenue Notice25-03 page2 explicitly applies the new exemption to qualified purchases on or after July1,2025; retained codified K.S.A.74-50,333(a) states the same eligibility start and subsection(b) the20-year period after commencement of operations. Decide whether/how to add this supported program date without conflating it with individual approval or an act-wide sunset. Publication/codification evidence is now retained; do not repeat the original enrolled bill merely to restate that gap.",
+    "Review material later changes, judicial developments and relevant implementation records through cutoff before a definitive current-force assertion. K.S.A.74-50,331/332/333 were inspected, but the whole exemption and related electricity/Fusion Center provisions were not comprehensively redlined. No project-specific certification, agreement or received benefit has been established."
+  ],
+  "acquisition_accounting": {
+    "exa_searches": 1,
+    "exa_cost_usd": 0.007,
+    "fetch_operations": 4,
+    "serpapi_searches": 0,
+    "remaining_fetch_cap": 0
+  },
+  "limitations": [
+    "No canonical current-force or normalized effective-date change accepted without independent material review.",
+    "Sources obtained specifically advance SB98; no SB51 or SB92 publication gap is claimed resolved.",
+    "No whole-act redline, court survey, individual project eligibility or received benefit determination."
+  ]
+}
