@@ -1,0 +1,104 @@
+{
+  "checks": [
+    {
+      "command": [
+        "scripts/validate_dataset.py",
+        "--today",
+        "2026-11-10"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/build_policy_scope_exports.py",
+        "--check"
+      ],
+      "returncode": 1
+    },
+    {
+      "command": [
+        "scripts/build_summary_stats.py",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/build_geojson.py",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/make_timeline.py",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/check_docs_numbers.py"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "-m",
+        "scripts.generate_tables.inventory_clean",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/build_index.py",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/classify_sources.py",
+        "--check"
+      ],
+      "returncode": 0
+    }
+  ],
+  "followup": {
+    "command": [
+      ".venv/bin/python",
+      "scripts/build_policy_scope_exports.py",
+      "--check"
+    ],
+    "returncode": 0,
+    "stdout": "policy-scope exports current",
+    "reason": "Expected stale policy-scope exports rebuilt after four prose corrections and two row fingerprints."
+  },
+  "nine_checks_final_passed": true,
+  "exact_post13_delta": [
+    {
+      "dataset": "policy",
+      "id": "ky-hb-775-2025-rs",
+      "field": "key_provisions"
+    },
+    {
+      "dataset": "policy",
+      "id": "ky-hb-775-2025-rs",
+      "field": "end_condition"
+    },
+    {
+      "dataset": "policy",
+      "id": "ky-hb-8-2024-rs",
+      "field": "key_provisions"
+    },
+    {
+      "dataset": "policy",
+      "id": "ky-hb-8-2024-rs",
+      "field": "end_condition"
+    }
+  ],
+  "unresolved_records": 1347,
+  "numerical_summary_and_geojson_byte_identical": true,
+  "scope": "No normalized dates, status categories, analytical membership or whole-record dispositions change. Current code/history subquestions narrowed; complete current-force and implementation remains unverified."
+}
