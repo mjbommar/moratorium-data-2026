@@ -1,0 +1,60 @@
+{
+  "reviewed_at": "2026-11-10T03:29:54.951750+00:00",
+  "records": [
+    {
+      "id": "in-boone-county-2024",
+      "dataset": "local_inventory",
+      "prior_row_sha256": "436e16bae035f6157ac85e3cb6387aee16c2760dbfda80d6e20fae83806d0cb2",
+      "current_row_sha256": "7bca72d08395dee734a8bbbcbbbf540af5b31ab00548e0edd3781f5077f4face",
+      "existing_disposition": "unresolved",
+      "whole_record_disposition_unchanged": true,
+      "prior_questions": [
+        "Original 2024 ordinance and full intervening amendment history not obtained. Whole-record freshness through cutoff is not asserted."
+      ],
+      "remaining_questions": [
+        "Obtain original Ordinance2024-06 and complete intervening amendment/termination history. Indexed original PDF returned404; later2025-18 adoptionDecember19/2025 and January22/2026 recording are now distinguished."
+      ]
+    },
+    {
+      "id": "in-boone-county-2026",
+      "dataset": "local_inventory",
+      "prior_row_sha256": "333f14434381f851d8109859d8e2aef9001df840e35714b2e9e1b779c5eb395b",
+      "current_row_sha256": "ade0c56c8cdbd8c96ff2f9761971f9cae941753c1f233733324537e832a8d309",
+      "existing_disposition": "unresolved",
+      "whole_record_disposition_unchanged": true,
+      "prior_questions": [
+        "No complete later amendment, repeal or termination history checked in this reconciliation; no current-force certification."
+      ],
+      "remaining_questions": [
+        "Establish complete later amendments/repeal/termination and individual project applicability before current-force certification. Internal-business-campus definition exclusion is now directly reviewed; August3/6 screening is not complete June-November coverage."
+      ]
+    }
+  ],
+  "field_changes": [
+    {
+      "id": "in-boone-county-2024",
+      "field": "legal_basis",
+      "before": "Ordinance 2024-06 (moratorium), superseded by Ordinance 2025-18 (Energy Overlay District), recorded January 2026",
+      "after": "Ordinance 2024-06 moratorium, as identified in the later signed Ordinance 2025-18. Ordinance 2025-18 adopted Energy Overlay District standards December 19, 2025, effective upon adoption; the recorder and auditor stamps are January 22, 2026, a separate recording/filing date."
+    },
+    {
+      "id": "in-boone-county-2024",
+      "field": "current_status",
+      "before": "Replaced before its stated end date; the Ordinance 2024-06 moratorium on commercial solar, wind, and battery storage siting in Boone County was superseded by Ordinance 2025-18, which adopted permanent Energy Overlay District standards (recorded ~January 2026).",
+      "after": "Recorded replaced by permanent Energy Overlay District standards adopted December 19, 2025 through Ordinance 2025-18, approved 3-0 and effective upon adoption. January 22, 2026 was the recording/filing date, not the adoption date. The later ordinance recites the earlier moratorium\u2019s April 15, 2026-or-earlier-standards condition. The original 2024 instrument and complete intervening amendment history remain unverified; its indexed PDF link returned 404 in this follow-up."
+    },
+    {
+      "id": "in-boone-county-2026",
+      "field": "current_status",
+      "before": "June 15, 2026 commissioners minutes record approval of Ordinance 2026-08, 3-0; the signed ordinance states a June 16, 2026 commencement and a one-year term through June 15, 2027. [VERIFY: full exemptions, subsequent actions and current legal force.]",
+      "after": "June 15, 2026 minutes confirm Ordinance 2026-08 approval 3-0; the signed text specifies June 16 commencement and a one-year term through June 15, 2027. The incorporated definition excludes computing facilities within the business campus for which they provide internal IT needs; this does not establish any individual project\u2019s exemption. August 3/6 minutes were screened without locating a relevant moratorium action, but complete June-November proceedings were not reviewed. [VERIFY: individual applicability, subsequent actions and present legal force.]"
+    }
+  ],
+  "canonical_cells_changed": 3,
+  "changed_records": 2,
+  "status_category_changes": 0,
+  "whole_record_closures": 0,
+  "reviewer": "root direct source and visual review; no new independent review",
+  "source_receipt": "work/research/2026-11-09/post-release-qa/boone-followup-discovery.json",
+  "scope": "Actual overlay adoption date separated from recording; static data-center definition reviewed. Original2024 and complete later history remain open."
+}

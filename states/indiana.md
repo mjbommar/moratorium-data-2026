@@ -59,10 +59,10 @@ State policy is tracked separately: **10 records** (10 typed bill rows) in [`sta
 - **Current end date:** `—`
 - **Sectors:** solar, wind, battery storage
 - **Moratorium ID:** `in-boone-county-2024`
-- **Legal basis:** Ordinance 2024-06 (moratorium), superseded by Ordinance 2025-18 (Energy Overlay District), recorded January 2026
+- **Legal basis:** Ordinance 2024-06 moratorium, as identified in the later signed Ordinance 2025-18. Ordinance 2025-18 adopted Energy Overlay District standards December 19, 2025, effective upon adoption; the recorder and auditor stamps are January 22, 2026, a separate recording/filing date.
 - **What prompted it:** Zoning ordinance had no standards for solar, wind, or battery energy storage development
 - **Affected projects:** —
-- **Detailed status:** Replaced before its stated end date; the Ordinance 2024-06 moratorium on commercial solar, wind, and battery storage siting in Boone County was superseded by Ordinance 2025-18, which adopted permanent Energy Overlay District standards (recorded ~January 2026).
+- **Detailed status:** Recorded replaced by permanent Energy Overlay District standards adopted December 19, 2025 through Ordinance 2025-18, approved 3-0 and effective upon adoption. January 22, 2026 was the recording/filing date, not the adoption date. The later ordinance recites the earlier moratorium’s April 15, 2026-or-earlier-standards condition. The original 2024 instrument and complete intervening amendment history remain unverified; its indexed PDF link returned 404 in this follow-up.
 - **Outcome:** Superseded by permanent zoning standards
 
 ### Boone County
@@ -78,7 +78,7 @@ State policy is tracked separately: **10 records** (10 typed bill rows) in [`sta
 - **Legal basis:** Boone County Board of Commissioners Ordinance 2026-08, approved 3-0 on June 15, 2026, after Area Plan Commission recommendations.
 - **What prompted it:** Pause new data center development in unincorporated areas while the county reviews its comprehensive plan and zoning rules
 - **Affected projects:** —
-- **Detailed status:** June 15, 2026 commissioners minutes record approval of Ordinance 2026-08, 3-0; the signed ordinance states a June 16, 2026 commencement and a one-year term through June 15, 2027. [VERIFY: full exemptions, subsequent actions and current legal force.]
+- **Detailed status:** June 15, 2026 minutes confirm Ordinance 2026-08 approval 3-0; the signed text specifies June 16 commencement and a one-year term through June 15, 2027. The incorporated definition excludes computing facilities within the business campus for which they provide internal IT needs; this does not establish any individual project’s exemption. August 3/6 minutes were screened without locating a relevant moratorium action, but complete June-November proceedings were not reviewed. [VERIFY: individual applicability, subsequent actions and present legal force.]
 - **Outcome:** Board of Commissioners unanimously adopted a one-year moratorium on new data center development, pausing filing, processing, review, and acceptance of applications in unincorporated areas.
 
 ### Clark County

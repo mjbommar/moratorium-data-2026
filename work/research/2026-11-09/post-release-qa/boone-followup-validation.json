@@ -1,0 +1,94 @@
+{
+  "focused_checks": [
+    {
+      "command": [
+        "scripts/validate_dataset.py",
+        "--today",
+        "2026-11-09"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/build_policy_scope_exports.py",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/build_summary_stats.py",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/build_geojson.py",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/make_timeline.py",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/check_docs_numbers.py"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "-m",
+        "scripts.generate_tables.inventory_clean",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/build_index.py",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/classify_sources.py",
+        "--check"
+      ],
+      "returncode": 0
+    }
+  ],
+  "canonical_cells_changed": 3,
+  "changed_records": 2,
+  "field_changes": [
+    {
+      "id": "in-boone-county-2026",
+      "field": "current_status"
+    },
+    {
+      "id": "in-boone-county-2024",
+      "field": "legal_basis"
+    },
+    {
+      "id": "in-boone-county-2024",
+      "field": "current_status"
+    }
+  ],
+  "status_category_changes": 0,
+  "whole_record_closures": 0,
+  "native_exact_source_pairs_verified": 5,
+  "retained_source_pairs_hash_checked": 3,
+  "failed_original_retrieval_status": 404,
+  "pending_post6_cells": 32,
+  "pending_post6_records": 10,
+  "pending_post6_category_changes": 3,
+  "inventory_sha256": "0e8a02c2a5fe388f1cbe95ffc8abd1756ea2727d5239677c7f6fc345d255eb58",
+  "scope": "Adoption-versus-recording and static definition corrections. Original2024 and full intervening/later history remain unverified; current force and individual applicability not certified."
+}

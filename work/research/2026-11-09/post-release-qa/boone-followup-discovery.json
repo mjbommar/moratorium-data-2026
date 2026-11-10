@@ -1,0 +1,98 @@
+{
+  "reviewed_at": "2026-11-10T03:28:35.947543+00:00",
+  "sources": [
+    {
+      "name": "december19-minutes",
+      "url": "https://boonecounty.in.gov/wp-content/uploads/2026/02/Approved-12.19.2025-Commissioners-Meeting-minutes-final.pdf",
+      "body_sha256": "c8858ed5ef12cd4773874217cb4a3a8ac50e78f7d5c1410c8a19303f37391334",
+      "reviewed_text_sha256": "8c7e93fdf34a4652ea38149ee737bf3e37c9b5653152a88124a9efb5f6028a7b",
+      "attempt_id": "8f19d666ea0b434aaf46cdb2f940f11b",
+      "body_observed_at": "2026-11-10T03:25:25.135982Z"
+    },
+    {
+      "name": "meetings-index",
+      "url": "https://boonecounty.in.gov/offices/commissioners/commissioners-meetings/",
+      "body_sha256": "1f831f7e22cdbbeaebc9ece9e0e510f61d04e5ddff635be9d82449c7d320bde8",
+      "reviewed_text_sha256": "6c12fee9bb9dab6e219a50a365a7d4567c210b056e2799ebe0f982248180e360",
+      "attempt_id": "643730543f5c4f36a61fa3b32fc521b8",
+      "body_observed_at": "2026-11-10T03:25:46.995699Z"
+    },
+    {
+      "name": "ordinance-index",
+      "url": "https://boonecounty.in.gov/offices/area-plan/ordinance-downloads/",
+      "body_sha256": "1f7022c47611af9a597da8940ca751ca668a9933a0c655a5fdc4c9988ddf9e19",
+      "reviewed_text_sha256": "9b6d5999a1a5035e9144cc57203a8617bee72ef1fbdeba1db72765ae8eeae8de",
+      "attempt_id": "0cf510746ae6476f9b1a6afa43e85a2a",
+      "body_observed_at": "2026-11-10T03:26:21.393976Z"
+    },
+    {
+      "name": "august3",
+      "url": "https://boonecounty.in.gov/wp-content/uploads/2026/08/8.03.2026-Commissioners-Meeting-minutes.pdf",
+      "body_sha256": "7cffb9c3888eff18968bc490c4d6369d759bf0e48fc32f7c49794a014789dfed",
+      "reviewed_text_sha256": "551b5c1892d8739d0a03b175d085b0fd1b6adebf01dd24b4cfd35f7b61e35c76",
+      "attempt_id": "c714149f08d54e41aa77e5e4f18d5e4a",
+      "body_observed_at": "2026-11-10T03:26:56.180655Z"
+    },
+    {
+      "name": "august6",
+      "url": "https://boonecounty.in.gov/wp-content/uploads/2026/08/8.06.2026-Commissioners-Special-Meeting-minutes.pdf",
+      "body_sha256": "0012947cb0939e4b7c4c132db3bdd3c19f214a9eede818b514aeb18ea248b5d2",
+      "reviewed_text_sha256": "52e1647195bb1977e723d3a99833730032c1e7dc27e5e64104a7e0584497705e",
+      "attempt_id": "5c9491b50b3f42628187ff2a0acdad91",
+      "body_observed_at": "2026-11-10T03:26:56.493040Z"
+    }
+  ],
+  "retained_source_pairs_hash_checked": [
+    {
+      "id": "in-boone-county-2024",
+      "url": "https://boonecounty.in.gov/wp-content/uploads/2026/01/Ord.-2025-18-Energy-Overlay-25ZO-16-253-Recorded.pdf",
+      "body_sha256": "12abb1d9490ccdb062c4958f8d4be05bfff35fc1fd869478ff5468eb9aa7ab83",
+      "text_sha256": "14b271811c8bf33d577beb5b583ac408aa92cb788359eb53e7fc87b26d71c976"
+    },
+    {
+      "id": "in-boone-county-2026",
+      "url": "https://boonecounty.in.gov/wp-content/uploads/2026/08/Approved-6.15.2026-Commissioners-Meeting-minutes.pdf",
+      "body_sha256": "c2ebfe59098d5a8dd6c9ade3285db1cf3daccb13929b2a6d7d28d0faa067ad72",
+      "text_sha256": "8b1446778300cb1eb8a70d9c7f7a87397fe3c68a1c5edd85da66e56202b98eb3"
+    },
+    {
+      "id": "in-boone-county-2026",
+      "url": "https://boonecounty.in.gov/wp-content/uploads/2026/07/Ordinance-2026-08.Moratorium-on-data-centers.pdf",
+      "body_sha256": "598da0033e60be806d7ca6e1ebf0dfbf6e6b9e429478bc885c9a94d635ec062e",
+      "text_sha256": "6b4ee048a035f3365d37ffda1dbdee15317db2b08913e396756f99e9f9432232"
+    }
+  ],
+  "http_cap": 6,
+  "http_requests": 6,
+  "failed_attempts": [
+    {
+      "url": "https://boonecounty.in.gov/wp-content/uploads/2024/04/Solar-and-Wind-Moratorium.pdf",
+      "attempt_id": "2d6f742f04334fd9b00449747d76afbd",
+      "status": 404,
+      "scope": "Indexed original2024-06 link returned a404HTML response. Not accepted as a PDF or evidence of nonexistence; no URL guesses or retry claimed."
+    }
+  ],
+  "findings": [
+    "Retained signed/recorded Ordinance2025-18 cover visually states adoptionDecember19/2025 and effectiveness upon adoption. Recorder stamp and auditor filing are January22/2026. These are separate clocks.",
+    "Fresh official December19/2025 minutes independently record Ordinance2025-18 approval3-0. The December17 APC hearing is not the board adoption.",
+    "The2025-18 recital attributes April15/2026-or-earlier-standards terms to Ordinance2024-06. Original2024-06 remains unlocated as a successfully retained original; the404 does not negate the recital or original enactment. Complete intervening amendments remain unverified.",
+    "Retained Ordinance2026-08 definition is limited to computing facilities not located within the business campus for which they provide internal IT needs. This is a definitional exclusion, not a project-specific exemption determination. The incorporated recitals and one-year operative period remain distinct.",
+    "August3 and6 minutes were text-screened without locating a relevant moratorium/energy-overlay action. The captured index lists later minutes only throughAugust6; completeJune-November proceedings are not established.",
+    "Current ordinance routing links adopted EnergyOverlay and data-center moratorium PDFs. These links are not independent proof no later amendment/repeal exists; retained originals were not redownloaded."
+  ],
+  "visual_reviews": [
+    {
+      "source": "retained2025-18",
+      "pdf_page": 1,
+      "image_sha256": "f00cba991258f099c160c2d5e55dc6867f747cca0a424e7a949b25d3f86ae1f7",
+      "finding": "AdoptedDecember19/2025,3-0; effectiveuponadoption; recorded/filedJanuary22/2026."
+    },
+    {
+      "source": "retained2026-08",
+      "pdf_page": 1,
+      "image_sha256": "94f4adeacb36a328ece9c786746550f3577a75ed0d498e22bb71d755891caa02",
+      "finding": "Business-campus/internalIT definitional exclusion; APC recommendation is not board enactment."
+    }
+  ],
+  "scope": "Positive adoption-versus-recording distinction and static definition; original2024 text, full later history and current-force/applicability remain open."
+}
