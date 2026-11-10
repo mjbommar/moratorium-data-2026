@@ -1,6 +1,6 @@
 # Prepared material review batch
 
-This is a nine-record decision batch, not a new discovery campaign or a completion claim. The adjacent JSON pins the packet bytes, canonical row guards and full policy-file guard. Retained source bodies and texts are mapped privately with verified hashes; 34 source references across four batches include the prior bill texts, named Louisiana history, Wyoming profile and sponsor API required for comparison. No source acquisition is needed to start these reviews.
+This is a ten-record decision batch, not a new discovery campaign or a completion claim. The adjacent JSON pins the packet bytes, canonical row guards and full policy-file guard. Retained source bodies and texts are mapped privately with verified hashes; 40 source references across five batches include the prior bill texts, named Louisiana history, Wyoming profile and sponsor API required for comparison. No source acquisition is needed to start these reviews.
 
 | Batch | Records | Decision needed |
 |---|---:|---|
@@ -8,6 +8,7 @@ This is a nine-record decision batch, not a new discovery campaign or a completi
 | Louisiana HCR61 | 1 existing | Historical nonpassage inference versus a held terminal category |
 | Wyoming and Kansas | 4 existing | Pearson attribution; Kansas program/section dates and version-specific amendment chain |
 | Washington enacted policies | 3 existing | Later tax amendment and implementation; CETA exception clarification |
+| Bonney Lake replacement | 1 existing | Executed Ordinance 1763, express termination of 1754 and October 13 effective/end date |
 
 ## Review procedure
 
@@ -23,4 +24,4 @@ The coordinator applies only supported, accepted cells with current guards, hand
 
 ## Current boundary
 
-The nine decisions are prepared, not independently approved. Canonical records, published totals and unresolved count remain unchanged. The broader queue contains 1,347 unresolved records; this batch does not supersede or waive their remaining work.
+The ten decisions are prepared, not independently approved. Canonical records, published totals and unresolved count remain unchanged. The broader queue contains 1,347 unresolved records; this batch does not supersede or waive their remaining work.

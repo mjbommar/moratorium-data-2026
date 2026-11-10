@@ -1,0 +1,90 @@
+{
+  "reviewed_at": "2026-11-10T17:19:57.195137+00:00",
+  "id": "wa-bonney-lake-2026",
+  "current_row_sha256": "9a9680d21522b02399b8abb5ba7289a08cf459960e1d50941854639a8b63fc9a",
+  "recommendation": "unresolved",
+  "canonical_changes": 0,
+  "status_category_changes": 0,
+  "normalized_date_changes": 0,
+  "whole_record_closures": 0,
+  "native_source_readbacks": 5,
+  "sources": [
+    {
+      "attempt_id": "931d16e1bc654c92b8baf4cfc441878c",
+      "url": "https://bonneylakewa.api.civicclerk.com/v1/Events/GetEventsList(fromDate='',toDate='2026-11-10',categoryIds=[],skip=0,sortDescending=true,cursorId=0)",
+      "body_sha256": "a11ad6d15e977bd62134fcf7b50490e5b0fa62530731ab9055a468c50e700f53",
+      "accepted_text_sha256": "821b1e3e4980ab4592da402726beaec9234548cbfa8dd5fa8f6c407634389399",
+      "fetched_at": "2026-11-10T17:14:34.743574+00:00",
+      "published": false
+    },
+    {
+      "attempt_id": "adada686a2994a3fa5a178440e46420b",
+      "url": "https://bonneylakewa.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=6454,plainText=false)",
+      "body_sha256": "733cc206831d51304d6146c7f80115e67f1680f02788b59807a3902d51657d49",
+      "accepted_text_sha256": "0005d3a9e567b7ebbdaaee7ed7dfaee5b39e74a02df7557cbffb61011e631896",
+      "fetched_at": "2026-11-10T17:15:15.428370+00:00",
+      "published": false
+    },
+    {
+      "attempt_id": "0209293802cf4ee2bf22fba157368662",
+      "url": "https://bonneylakewa.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=6439,plainText=false)",
+      "body_sha256": "820cf8563e2837a89ef0c51e3436d6273f023e46e99f7cc0062d9c94303a9ad3",
+      "accepted_text_sha256": "937c7b02f8f3c6a7c80c7cfd8bae188ec1eb232b785ce6d70188d779ef9b84a6",
+      "fetched_at": "2026-11-10T17:16:07.695791+00:00",
+      "published": false
+    },
+    {
+      "attempt_id": "e7260b5d45474f25bb90f3baedb844f8",
+      "url": "https://ecode360.com/BO4359/laws",
+      "body_sha256": "b1cfe027a1ea23c6af6cbfbafb58db44bb36761e84b2559a76b2789b4b39224b",
+      "accepted_text_sha256": "0655cffcf0f379126ece285ff6c1be3c96b8efce4df9c385adb203aad64698c4",
+      "fetched_at": "2026-11-10T17:17:53.000452+00:00",
+      "published": false
+    },
+    {
+      "attempt_id": "0c9969549b5143bbbe8c57588d468a39",
+      "url": "https://ecode360.com/BO4359/laws/LF2862288.pdf",
+      "body_sha256": "f9c599c0890e3ccc067343fb43d2853c294e0f141e29e83cc6d5e691d5937886",
+      "accepted_text_sha256": "4e03ecaf418671f7702f6ba2ed53351ec0571a816203d38420ca3658641fb36b",
+      "fetched_at": "2026-11-10T17:18:08.855093+00:00",
+      "published": false
+    }
+  ],
+  "findings": [
+    {
+      "source_attempt_id": "adada686a2994a3fa5a178440e46420b",
+      "locator": "October13minutes PDFphysical3-4,FullCouncilIssuesIV.B; both visually checked",
+      "finding": "AB26-73approved6-0; title identifiesESSstandards and immediate effective date."
+    },
+    {
+      "source_attempt_id": "0209293802cf4ee2bf22fba157368662",
+      "locator": "October13agenda packet238pages; relevantstaffpages117-120,draft121-136;117,132,135,136visually checked",
+      "finding": "Staffreport describes replacement and prior scheduledOctober14lapse; unsigneddraft expressly terminates1754and declares immediateeffect. Draft used for context, superseded for execution proof by signed1763."
+    },
+    {
+      "source_attempt_id": "0c9969549b5143bbbe8c57588d468a39",
+      "locator": "Signed48-pagefile:physical5/printed1 ordinance1763;physical19/printed15 section11;physical20/printed16 section16,signatures,clerkblock; these3pages visually checked",
+      "finding": "Mayor/clerk-executed1763 expressly terminates1754moratorium upon effectiveness. Clerkblock recordspassed/valid/effectiveOctober13,2026;publicationOctober22,2026."
+    }
+  ],
+  "remaining_questions": [
+    "Independent material adjudication of proposed replacement/October13termination: executed Ordinance1763, PDF physical19/printed15 section11, expressly terminates Ordinance1754moratorium upon its effective date. Physical20/printed16 section16 and filled clerk block record immediate passage/effectivenessOctober13,2026; mayor and clerk signatures visually checked. October13minutes physical3-4 recordAB26-73approval6-0, and retainedOctober20minutes physical4 approveOctober13minutes. The signed text is now recovered; do not repeat an unsigned-draft or missing-final-text inquiry.",
+    "Distinguish signed1763 from draftD26-73 in theOctober13packet. The signed file has48physicalpages, with the16-page ordinance at physical5-20. Its clerk block records publicationOctober22, while the reused secondary notice is labeledOctober21. Do not silently reconcile those publication labels or substitute either for the explicitOctober13effective date. Verify any necessary publication issue independently; no broader later-law/judicial or project-specific acceptance follows automatically."
+  ],
+  "acquisition_accounting": {
+    "searches": 0,
+    "fetch_operations": 6,
+    "successful_fetches": 5,
+    "failed_fetches": 1,
+    "fetch_cap": 8,
+    "unused_fetch_cap": 2,
+    "failed_packet_attempt_id": "2f5569c2c44c4a15b25a9c1908825e79",
+    "failure_reason": "Known65,713,464-bytecitypacket exceeded original50,000,000-bytebodycap; no payload retained in failed attempt.",
+    "changed_condition_for_one_retry": "Command-scoped BC_WEB_MAX_BODY_BYTES=80000000 for same trustedcitypacket, within existing8-operation cap. No globalconfiguration change or repeated failedroute loop."
+  },
+  "limitations": [
+    "No canonical promotion or independent review completed.",
+    "Source publication labels remain distinguished; no inferred publication date normalized.",
+    "No comprehensive post-October13court or project-specific applicability review."
+  ]
+}

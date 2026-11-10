@@ -1,7 +1,7 @@
 {
-  "prepared_at": "2026-11-10T17:05:20.333523+00:00",
+  "prepared_at": "2026-11-10T17:20:28.882838+00:00",
   "scope": "Prepared material decisions, not all outstanding records. No reviewer jobs launched by preparation; no factual acceptance or canonical application implied. Primary source references are receipt-scoped; reviewers must also inspect retained additional sources named by each packet.",
-  "record_count": 9,
+  "record_count": 10,
   "batches": [
     {
       "batch": "kentucky-new-order",
@@ -106,8 +106,32 @@
       "review_instruction": "Review agency implementation and exact CETA exception; inspect complete code-history derivatives. Decide proposed summary correction separately from broader current-force closure.",
       "review_state": "independent_review_pending",
       "canonical_changes": 0
+    },
+    {
+      "batch": "bonney-replacement",
+      "record_ids": [
+        "wa-bonney-lake-2026"
+      ],
+      "packets": [
+        {
+          "path": "work/research/2026-11-10/post-release-qa/bonney-lake-oct13-final-text-review.json",
+          "sha256": "cee1afc934544e339a7f967a53fb645cd5bf74a247e769f1a508440fdd6a3324"
+        },
+        {
+          "path": "work/research/2026-11-10/post-release-qa/bonney-lake-replacement-candidate.json",
+          "sha256": "060ce0ab682d20997c1c92f5359fd6e1c43788a3785c1797e1c46ed16b516526"
+        }
+      ],
+      "verified_current_row_guards": {
+        "wa-bonney-lake-2026": "9a9680d21522b02399b8abb5ba7289a08cf459960e1d50941854639a8b63fc9a"
+      },
+      "primary_retained_sources": 6,
+      "review_instruction": "Review executed1763 identity,section11termination,section16effective date,clerkblock and6-0minutes. Decide five proposed cells separately from whole-record closure; preserve publication-label distinction.",
+      "review_state": "independent_review_pending",
+      "canonical_changes": 0
     }
   ],
   "canonical_policy_sha256_guard": "2326a0e5a87a02e8db6af9690bad46e3c920c549778ba9832b8c9c9d462c64a1",
+  "canonical_local_sha256_guard": "fc8385a264690492828e4a99f6d05cfc3a6e8b6e218599be78e2173854254818",
   "unresolved_record_count_unchanged": 1347
 }
