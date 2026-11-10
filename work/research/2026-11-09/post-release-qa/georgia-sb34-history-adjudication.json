@@ -1,0 +1,84 @@
+{
+  "reviewed_at": "2026-11-10T12:59:14.930722+00:00",
+  "reviewer": "root direct rendered official action-history review; no new independent reviewer",
+  "records": [
+    {
+      "id": "ga-sb-34-2025-2026",
+      "prior_disposition": "unresolved",
+      "recommendation": "unresolved",
+      "prior_row_sha256": "5a160766b498f247759964a47db4370c2d092d1830aeff0f417bb5c8092ecaca",
+      "current_row_sha256": "7187d29a56eca8b296a99e3019f5f3cb25a7e8836ff49cfcc1142d868907235e",
+      "field_changes": [
+        {
+          "field": "status",
+          "before": "Historical research dated 2026-07-31 reports: Died at sine die 2026-04-02; last action Senate Committee Favorably Reported By Substitute 2026-02-25, never reached a Senate floor vote. Complete supporting official action/calendar records were not retained for this review.",
+          "after": "Historical2025\u20132026 regular-session nonpassage is inferred from the complete official rendered SB34 history, which lists Senate recommittal January12,2026 and ends at a favorable committee report by substitute February25,2026, combined with retained actual House/Senate sine-die adjournment April2,2026 and second-year biennium authority. The Votes panel reports no votes available; no floor-passage or bill-specific Died event is invented. AM56 0043 adoption remains independently unverified."
+        }
+      ],
+      "prior_questions": [
+        "Establish whether offered amendment AM 56 0043 was adopted; keep it distinct from the retained LC 56 0584S committee substitute.",
+        "Establish the named bill\u2019s terminal outcome from complete official action history and applicable session/no-carryover authority. House/Senate adjournment and the biennium consequence are now established; any remaining gap is bill-specific action-history completeness, not the session-end date."
+      ],
+      "remaining_questions": [
+        "Establish whether separately offeredAM56 0043 was adopted using the actual2026Senate journal, committee record or an explicit version/adoption record. Do not infer adoption from document availability or rejection from the Votes panel alone. The captured Senate journal index exposes2025documents; it is not proof that no2026journal or other record exists. Keep AM56 0043 distinct from retained LC56 0584S."
+      ],
+      "scope_before": "include",
+      "scope_after": "include",
+      "scope_decision_id": "5ac5fb7d-055d-4a26-ad1e-9939b94cc5ad"
+    }
+  ],
+  "sources": [
+    {
+      "name": "rendered-bill",
+      "attempt_id": "94d36324fe32476fbbf84abb2b5bb767",
+      "url": "https://www.legis.ga.gov/legislation/69551",
+      "body_sha256": "ae4458624f5ce6142177a8be1355acb018eeaf2db0fc73eebe4c40e8831b5807",
+      "text_sha256": "053b40884d27812263053df6eb4f50785d0e4c02a4b85bc2471dc279bcc03779",
+      "body_observed_at": "2026-11-10T12:56:27.292258Z"
+    },
+    {
+      "name": "senate-journal-index",
+      "attempt_id": "3de3714ea4594302b56dd88f2c8f0aa5",
+      "url": "https://www.legis.ga.gov/senate/journal",
+      "body_sha256": "e0943173368374bdf30af66e1199ea0201a9d8db8e527f4c74f7bd468d8f465a",
+      "text_sha256": "6abcf4ca443cb45ec41cc234068fcf191324079db8f956ef26510b094c767a1c",
+      "body_observed_at": "2026-11-10T12:57:49.452819Z"
+    }
+  ],
+  "registered_derivation": {
+    "attempt_id": "94d36324fe32476fbbf84abb2b5bb767",
+    "source_body_sha256": "ae4458624f5ce6142177a8be1355acb018eeaf2db0fc73eebe4c40e8831b5807",
+    "source_text_sha256": "053b40884d27812263053df6eb4f50785d0e4c02a4b85bc2471dc279bcc03779",
+    "derived_text_sha256": "a5ed0c9f241210a0757e785e9f47e19ab195e21a3eb06b59323141676541ff71",
+    "method": "Full rendered-DOM visible text via BeautifulSoup, preserving complete StatusHistory table and Votes panel omitted by original main-text extraction. Original summary-only extraction retained.",
+    "reviewer": "root direct rendered DOM/table review",
+    "review_status": "accepted_derivation",
+    "reviewed_at": "2026-11-10T12:59:14.930722+00:00",
+    "scope": "Extraction lineage only; not amendment-adoption or legal-force acceptance."
+  },
+  "retained_session_evidence": {
+    "receipt": "work/research/2026-11-09/post-release-qa/georgia-session-evidence.json",
+    "sha256": "614a86ffc6ea9a7375defdb36ad917e0c50406bdffca0eb3295f55a1bf6d028f",
+    "body_hashes_rechecked": 3
+  },
+  "prior_adjudication_sha256": "7f365882af186162b35b3be56c1a4ece88bb444fff627c362864cc3b08970117",
+  "resolved_dimensions": [
+    "Complete bill-specific official action history reviewed; prior absence-of-retained-support statement is superseded.",
+    "Historical nonpassage inferred under already reviewed actual adjournment and second-year biennium context."
+  ],
+  "canonical_cells_changed": 1,
+  "status_category_changes": 0,
+  "normalized_date_changes": 0,
+  "whole_record_closures": 0,
+  "acquisition_accounting": {
+    "searches": 0,
+    "fetch_used": 2,
+    "fetch_cap": 3,
+    "scope": "Distinct browser history and linked journal index captures. No proposed PDFs, prior broad searches or shared session sources repeated. One unused fetch reserved only for a relevant actually exposed record."
+  },
+  "limitations": [
+    "The default Senate journal index shows2025journal/title/index links; no speculative2026URL request or claim of source absence.",
+    "The exact bill history lists6actions and no recorded floor vote; not proof of offered-amendment committee adoption/rejection.",
+    "No formal Died action date or renewal of every Georgia record claimed."
+  ]
+}
