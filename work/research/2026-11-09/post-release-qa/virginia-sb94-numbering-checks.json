@@ -1,0 +1,98 @@
+{
+  "all_pass": true,
+  "checks": [
+    {
+      "command": [
+        "scripts/validate_dataset.py",
+        "--today",
+        "2026-11-10"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/build_policy_scope_exports.py",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/build_summary_stats.py",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/build_geojson.py",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/make_timeline.py",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/check_docs_numbers.py"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "-m",
+        "scripts.generate_tables.inventory_clean",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/build_index.py",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/classify_sources.py",
+        "--check"
+      ],
+      "returncode": 0
+    }
+  ],
+  "exact_current_delta": [
+    {
+      "id": "va-sb94-2026",
+      "field": "key_provisions"
+    }
+  ],
+  "batch_delta_since_post4": [
+    {
+      "id": "id-h0911-2026",
+      "field": "status"
+    },
+    {
+      "id": "md-hb1532-sb0841-2026",
+      "field": "end_condition"
+    },
+    {
+      "id": "va-sb130-2026",
+      "field": "key_provisions"
+    },
+    {
+      "id": "va-sb94-2026",
+      "field": "key_provisions"
+    }
+  ],
+  "all_seven_retained_code_chapter_subsections_equal": true,
+  "source_readback_manifest_hash_current": true,
+  "queue_rows": 1358,
+  "status_category_changes": 0,
+  "whole_record_closures": 0
+}
