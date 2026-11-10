@@ -7,7 +7,7 @@
     "end": "2026-11-09"
   },
   "asset_name": "moratorium-data-2026.11.9.post4.tar.gz",
-  "coverage": "The original1,777 records retain primary and independent review artifacts; two duplicates are retired. One new Massachusetts package has direct source review with independent QA pending. Current1,776 active raw IDs retain1,382 unresolved,157 corrected-resolved and237 confirmed-unchanged scoped dispositions. No universal current-law certification.",
+  "coverage": "Original1777 records retain review provenance; two duplicates retired and one Massachusetts addition independently unreviewed. Current1776 active raw IDs:1375 unresolved,164 corrected-resolved,237 confirmed-unchanged scoped dispositions. No universal current-law certification.",
   "limitations": [
     "Recorded active/extended classifications do not prove current enforceability.",
     "Ballot voting, certification, passage and operative legal effect remain distinct.",
@@ -15,15 +15,15 @@
     "Experimental model extraction/P4 has not passed; no experimental extraction output is accepted automatically.",
     "The companion April paper and dated sibling publications retain their historical editions."
   ],
-  "update_status": "qualified_publication_with_pending_qa",
+  "update_status": "working_qa_after_v2026.11.9.post4",
   "full_inventory_closeout": "reviewed_and_applied_with_bounded_unresolved_questions",
   "consumer_dispositions": "delivered_with_historical_editions_preserved",
   "experimental_extractor": "failed_no_automatic_promotion",
   "quality_gate_disposition": "User authorized publication of the current state with qualifications on pending QA, followed by continued double checking and resolution of outstanding questions.",
-  "reviewed_data_source_commit": "d1834f689d67af8f294dc028c74b22644ce72aa3",
+  "reviewed_data_source_commit": "8c1363093490e9bf5f4acffedb56700cd362b427",
   "record_dispositions": {
-    "unresolved": 1382,
-    "corrected_resolved": 157,
+    "unresolved": 1375,
+    "corrected_resolved": 164,
     "confirmed_unchanged": 237,
     "superseded_duplicate": 0,
     "not_attempted": 0
@@ -31,7 +31,7 @@
   "record_disposition_path": "work/research/2026-11-08/full-record-dispositions/funnel.json",
   "qa_status": "ongoing",
   "publication_authorization": "publish current state with qualifications on pending QA, then continue to double check and clear the outstanding questions",
-  "working_revision": "post4-delivery-receipt",
+  "working_revision": "post4-qa-1",
   "current_raw_counts": {
     "local": 1328,
     "state_policy": 448,
@@ -52,9 +52,9 @@
   "published_source_commit": "d1834f689d67af8f294dc028c74b22644ce72aa3",
   "september_status_category_differences": {
     "local": 95,
-    "policy": 53,
-    "total": 148,
-    "receipt": "work/research/2026-11-09/post-release-qa/minnesota-status-baseline-delta.json"
+    "policy": 46,
+    "total": 141,
+    "receipt": "work/research/2026-11-09/post-release-qa/arizona-status-baseline-delta.json"
   },
   "latest_geography_review": "work/research/2026-11-09/post-release-qa/missing-geography-application.json",
   "latest_delivered_consumer_input_delta": {
@@ -72,5 +72,15 @@
     "changed_policy_cells": 41,
     "geography_review": "work/research/2026-11-09/post-release-qa/missing-geography-application.json",
     "delivery_receipt": "work/research/2026-11-09/post-release-qa/consumer-v9-handoff.json"
+  },
+  "pending_consumer_input_delta": {
+    "baseline_source_commit": "d1834f689d67af8f294dc028c74b22644ce72aa3",
+    "baseline_consumer_commit": "c180a755a20cded5837055635b1f5dae028c5892",
+    "changed_policy_rows": 7,
+    "changed_cells": 21,
+    "status_category_changes": 7,
+    "new_scope_inclusions": 0,
+    "receipt": "work/research/2026-11-09/post-release-qa/arizona-governing-context-adjudications.json",
+    "scope": "Seven qualified Arizona historical regular-session nonpassage corrections; consumer and release synchronization pending."
   }
 }

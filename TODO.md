@@ -770,3 +770,6 @@ Exit: repeatable refresh with visible freshness, costs, failures and unresolved 
 - [x] Fill39 missing jurisdiction map anchors from Census2026 with retained identity checks and source hashes; preserve two aggregate blanks, legal-status categories and outstanding legal questions. Regenerate the interactive GeoJSON and correct centroid/precision wording.
 
 - [x] Publish qualified v2026.11.9.post4 from `d1834f68`: two identical builds, full clean restore, ten anonymous assets,2,034 members and13 hosted surfaces verified. Deliver matching V9 to integration main `c180a755`; preserve1,382 unresolved whole-record QA holds.
+
+- [x] Resolve seven Arizona named regular-session outcome holds using current annual-session/readings rules, actualJune13/2026 close and retained final-held histories. Preserve the distinction between reconsideration and passage, label CSG2023 corroboration and unavailable journals correctly, verify15 retained and seven native pairs, and apply21 cells without scope membership changes.
+- [ ] Synchronize the21 Arizona outcome/narrative cells across seven policy records after post4/V9; preserve their immutable cutoffs and pending QA.

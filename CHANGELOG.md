@@ -1,5 +1,20 @@
 # Changelog
 
+## Working QA after v2026.11.9.post4
+
+Current Arizona annual-session/readings rules, actualJune13/2026 session-close evidence and retained final-held histories resolve seven named regular-session outcome holds as explicit nonpassage inferences. Twenty-one cells across seven policy records change; no bill-specific Died event or universal later-law absence is asserted. Scope membership and IDs remain unchanged. Current dispositions:1,375 unresolved,164 corrected-resolved,237 confirmed-unchanged. September category differences:141 (95 local/46 policy). [Review](work/research/2026-11-09/post-release-qa/arizona-governing-context-review.md).
+
+| Metric | Working QA after v2026.11.9.post4 |
+|---|---:|
+| Moratoria in the list | **1,328** |
+| Classified active or extended | **1,088** |
+| Pending or not yet effective | **64** |
+| Ended (replaced, expired, or rescinded) | **170** |
+| Rows we still want to confirm (`[VERIFY]`) | **979** |
+| States with at least one | **47** |
+
+Ballot measures/current observations remain57/53, with five certified. Post4 and V9 remain immutable; new corrections await later delivery.
+
 ## v2026.11.9.post4 — qualified publication, QA ongoing
 
 This patch synchronizes119 canonical CSV cells across54 existing records:78 coordinate cells across39 local records and41 policy cells across15 Wisconsin/Minnesota records. Ten Minnesota status categories become explicitly inferred regular-session nonpassage; Wisconsin adds four reviewed scope inclusions. Fifteen scoped whole-record holds close relative to post3;1,382 remain unresolved. No IDs or ballot/event records change. Map coverage is1,326/1,328, with two aggregate blanks.
