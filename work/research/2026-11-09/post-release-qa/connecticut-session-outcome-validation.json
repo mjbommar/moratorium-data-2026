@@ -1,0 +1,97 @@
+{
+  "all_passed": true,
+  "checks": [
+    {
+      "command": [
+        "scripts/validate_dataset.py",
+        "--today",
+        "2026-11-09"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/build_policy_scope_exports.py",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/build_summary_stats.py",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/build_geojson.py",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/make_timeline.py",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/check_docs_numbers.py"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "-m",
+        "scripts.generate_tables.inventory_clean",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/build_index.py",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/classify_sources.py",
+        "--check"
+      ],
+      "returncode": 0
+    }
+  ],
+  "dataset_errors": 0,
+  "dataset_warnings": 620,
+  "documented_number_claims": 95,
+  "whole_csv_diff": {
+    "this_batch_cells": 21,
+    "this_batch_records": 7,
+    "accumulated_cells_after_post4": 42,
+    "accumulated_records_after_post4": 14,
+    "fields": [
+      "status",
+      "bill_status_category",
+      "legal_effect_status"
+    ],
+    "scope_membership_changes": 0,
+    "local_inventory_changes": 0
+  },
+  "retained_unique_body_text_pairs_hash_checked": 20,
+  "native_exact_original_body_text_pairs": 10,
+  "native_exact_full_html_history_derivations": 7,
+  "native_exact_original_private_receipt_metadata": 7,
+  "active_unresolved_records": 1368,
+  "every_unresolved_record_has_explicit_questions": true,
+  "september_status_differences": {
+    "local": 95,
+    "policy": 39,
+    "total": 134
+  },
+  "scope": "Mechanical consistency plus explicit source review for seven named historical regular-session outcomes. No universal current-law or successor-law certification."
+}

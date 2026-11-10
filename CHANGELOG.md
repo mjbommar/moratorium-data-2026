@@ -2,7 +2,9 @@
 
 ## Working QA after v2026.11.9.post4
 
-Current Arizona annual-session/readings rules, actualJune13/2026 session-close evidence and retained final-held histories resolve seven named regular-session outcome holds as explicit nonpassage inferences. Twenty-one cells across seven policy records change; no bill-specific Died event or universal later-law absence is asserted. Scope membership and IDs remain unchanged. Current dispositions:1,375 unresolved,164 corrected-resolved,237 confirmed-unchanged. September category differences:141 (95 local/46 policy). [Review](work/research/2026-11-09/post-release-qa/arizona-governing-context-review.md).
+Connecticut complete retained histories, actual final journals and operative constitutional annual-session context resolve seven named ordinary-bill outcome holds as qualified nonpassage inferences. Twenty-one cells change with no scope-membership change. No2025 rule is applied to2024 and no bill-specific Died event is invented. Current dispositions:1,368 unresolved,171 corrected-resolved,237 confirmed-unchanged. September category differences:134 (95 local/39 policy). [Review](work/research/2026-11-09/post-release-qa/connecticut-session-outcome-review.md).
+
+Current Arizona annual-session/readings rules, actualJune13/2026 session-close evidence and retained final-held histories resolve seven named regular-session outcome holds as explicit nonpassage inferences. Twenty-one cells across seven policy records change; no bill-specific Died event or universal later-law absence is asserted. Scope membership and IDs remain unchanged. At that Arizona review, dispositions were1,375 unresolved,164 corrected-resolved,237 confirmed-unchanged. September category differences were141 (95 local/46 policy). [Review](work/research/2026-11-09/post-release-qa/arizona-governing-context-review.md).
 
 | Metric | Working QA after v2026.11.9.post4 |
 |---|---:|

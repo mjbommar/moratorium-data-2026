@@ -7,7 +7,7 @@
     "end": "2026-11-09"
   },
   "asset_name": "moratorium-data-2026.11.9.post4.tar.gz",
-  "coverage": "Original1777 records retain review provenance; two duplicates retired and one Massachusetts addition independently unreviewed. Current1776 active raw IDs:1375 unresolved,164 corrected-resolved,237 confirmed-unchanged scoped dispositions. No universal current-law certification.",
+  "coverage": "Original1777 records retain review provenance; two duplicates retired and one Massachusetts addition independently unreviewed. Current1776 active raw IDs:1368 unresolved,171 corrected-resolved,237 confirmed-unchanged scoped dispositions. No universal current-law certification.",
   "limitations": [
     "Recorded active/extended classifications do not prove current enforceability.",
     "Ballot voting, certification, passage and operative legal effect remain distinct.",
@@ -20,10 +20,10 @@
   "consumer_dispositions": "delivered_with_historical_editions_preserved",
   "experimental_extractor": "failed_no_automatic_promotion",
   "quality_gate_disposition": "User authorized publication of the current state with qualifications on pending QA, followed by continued double checking and resolution of outstanding questions.",
-  "reviewed_data_source_commit": "8c1363093490e9bf5f4acffedb56700cd362b427",
+  "reviewed_data_source_commit": "954795d69f4dcc3598449ad7e021a04ab2e59c02",
   "record_dispositions": {
-    "unresolved": 1375,
-    "corrected_resolved": 164,
+    "unresolved": 1368,
+    "corrected_resolved": 171,
     "confirmed_unchanged": 237,
     "superseded_duplicate": 0,
     "not_attempted": 0
@@ -31,7 +31,7 @@
   "record_disposition_path": "work/research/2026-11-08/full-record-dispositions/funnel.json",
   "qa_status": "ongoing",
   "publication_authorization": "publish current state with qualifications on pending QA, then continue to double check and clear the outstanding questions",
-  "working_revision": "post4-qa-1",
+  "working_revision": "post4-qa-2",
   "current_raw_counts": {
     "local": 1328,
     "state_policy": 448,
@@ -52,9 +52,9 @@
   "published_source_commit": "d1834f689d67af8f294dc028c74b22644ce72aa3",
   "september_status_category_differences": {
     "local": 95,
-    "policy": 46,
-    "total": 141,
-    "receipt": "work/research/2026-11-09/post-release-qa/arizona-status-baseline-delta.json"
+    "policy": 39,
+    "total": 134,
+    "receipt": "work/research/2026-11-09/post-release-qa/connecticut-status-baseline-delta.json"
   },
   "latest_geography_review": "work/research/2026-11-09/post-release-qa/missing-geography-application.json",
   "latest_delivered_consumer_input_delta": {
@@ -76,11 +76,12 @@
   "pending_consumer_input_delta": {
     "baseline_source_commit": "d1834f689d67af8f294dc028c74b22644ce72aa3",
     "baseline_consumer_commit": "c180a755a20cded5837055635b1f5dae028c5892",
-    "changed_policy_rows": 7,
-    "changed_cells": 21,
-    "status_category_changes": 7,
+    "changed_policy_rows": 14,
+    "changed_cells": 42,
+    "status_category_changes": 14,
     "new_scope_inclusions": 0,
     "receipt": "work/research/2026-11-09/post-release-qa/arizona-governing-context-adjudications.json",
-    "scope": "Seven qualified Arizona historical regular-session nonpassage corrections; consumer and release synchronization pending."
+    "scope": "Seven Arizona plus seven Connecticut qualified historical regular-session nonpassage corrections; consumer and release synchronization pending.",
+    "additional_review": "work/research/2026-11-09/post-release-qa/connecticut-session-outcome-adjudications.json"
   }
 }
