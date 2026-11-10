@@ -1,0 +1,13 @@
+# Alabama local instrument review
+
+Chelsea, Cullman and Homewood were checked together for executed instruments and operative anchors. Two exact official-domain searches and six captures exhausted the original allowance. Cullman's June22 PDF then exposed an embedded annotation on Resolution2026-116 pointing to document321; one separately admitted exact linked capture followed it. The original cap was not reset. Seven archived versions passed exact native-store readback. Nine relevant PDF pages were visually reviewed, with source/render hashes in the adjudication.
+
+Document321 contains the two-page resolution text and an agenda request. The resolution's council, clerk and mayor execution lines are blank. DocuSign approvals on the request are June17/18 agenda-routing approvals, not signatures executing the resolution. The body provides immediate effect upon adoption, a one-year term subject to early termination/extension, a data-center definition and exemptions for prior complete approvals, maintenance/repairs, nonexpanding internal modifications and small accessory server rooms. These are attributed to the unsigned agenda version; actual executed terms/anchor remain unverified.
+
+Three Cullman prose fields now distinguish that evidence from city-reported adoption. No enactment category, adoption date, computed end date, duration-day value, coordinate or verification-count field changes. The derived map changes only this record's duration text. The generated table now labels the primary instrument Resolution rather than the separately mentioned permanent-ban proposal. No source-wide or operative-date inference follows.
+
+Chelsea's captured index points to the already-reviewed July21 minutes but does not supply executed1407 text. Homewood's recently-adopted list is not a full ordinance archive, and the linked article describes a proposed ordinance despite its approval-sounding URL. Cullman's November9 packet is a three-page agenda; silence there does not prove uninterrupted force or absence of other actions. Known minutes, articles, indices, agenda endpoints and draft321 should not be repeated without a new version or signed-instrument signal.
+
+All three records stay unresolved. The overall count remains1,358 and September category differences134. The pending batch after post5/V20 now comprises six cells across one policy and one local record; release/consumer batch delivery remains pending. No emails or clerk requests were sent.
+
+[Adjudications, embedded link and visual proof](alabama-local-instrument-adjudications.json), [native readbacks](alabama-local-native-readback.json), [nine checks and exact delta](alabama-local-instrument-checks.json).
