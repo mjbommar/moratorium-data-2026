@@ -1,0 +1,305 @@
+{
+  "source_commit": "07939fd2e2484d16dd6b9c7b177775eb4a5bafa6",
+  "manifest_sha256": "a78a5bee0203d132840372b42c2bc591fffeffd934c637fb8d92302e9451bbb6",
+  "expanded_snapshot": "3ce33d22288fa7bc7100c9ac621c041037702e8370af1e663d53a548ff794725",
+  "current_counts": {
+    "moratorium_records": 1328,
+    "state_policy_records": 448,
+    "ballot_measures": 57,
+    "retained_results": 65,
+    "current_results": 53,
+    "retained_events": 12,
+    "current_accepted_historical_events": 12,
+    "restriction_records": 3,
+    "measure_instrument_link_records": 1
+  },
+  "files": 2386,
+  "entries": 2591,
+  "verified_at": "2026-11-10T08:41:27.174699+00:00",
+  "consumer_verification": {
+    "handoff": {
+      "state": "verified",
+      "source_commit": "07939fd2e2484d16dd6b9c7b177775eb4a5bafa6",
+      "manifest_sha256": "a78a5bee0203d132840372b42c2bc591fffeffd934c637fb8d92302e9451bbb6",
+      "expanded_snapshot": "3ce33d22288fa7bc7100c9ac621c041037702e8370af1e663d53a548ff794725",
+      "files": 2386,
+      "entries": 2591,
+      "checks": [
+        {
+          "command": [
+            "scripts/check_expanded_publication.py"
+          ],
+          "exit_code": 0,
+          "result": {
+            "state": "consistent",
+            "snapshot_sha256": "3ce33d22288fa7bc7100c9ac621c041037702e8370af1e663d53a548ff794725",
+            "generations_checked": 49,
+            "records": {
+              "jurisdictions": 53,
+              "elections": 51,
+              "ballot_measures": 57,
+              "measure_provisions": 52,
+              "measure_results": 65,
+              "local_restrictions": 3,
+              "instrument_events": 12,
+              "measure_instrument_links": 1,
+              "source_documents": 168,
+              "claims": 625,
+              "review_decisions": 2756,
+              "search_runs": 1,
+              "search_attempts": 3,
+              "search_sightings": 18,
+              "coverage_observations": 1
+            },
+            "scope": "Offline publication/receipt consistency only; no source reacquisition, renewed factual acceptance or current-force confirmation."
+          }
+        },
+        {
+          "command": [
+            "scripts/build_expanded_csv.py",
+            "--check"
+          ],
+          "exit_code": 0,
+          "result": {
+            "state": "matches",
+            "source_snapshot": "3ce33d22288fa7bc7100c9ac621c041037702e8370af1e663d53a548ff794725",
+            "projection_sha256": "7b585b49998f8ca39b0ff433fe15c34335ea171bdd8960af1e7e9fdcf852f6cb",
+            "csv_views": 18
+          }
+        },
+        {
+          "command": [
+            "scripts/build_policy_scope_exports.py",
+            "--check"
+          ],
+          "exit_code": 0,
+          "result": "policy-scope exports current"
+        }
+      ],
+      "checks_run": true,
+      "scope": "Pinned input integrity and offline publication consistency, not source reacquisition or downstream join acceptance."
+    },
+    "policy_semantics": {
+      "total_state_policy_actions": 448,
+      "total_state_bills": 427,
+      "state_policy_instrument_type_counts": {
+        "bill": 427,
+        "executive_order": 2,
+        "governor_directive": 1,
+        "legislative_amendment": 1,
+        "legislative_precursor": 3,
+        "legislative_resolution": 12,
+        "statute": 2
+      },
+      "top_states_by_bills": [
+        [
+          "Pennsylvania",
+          18
+        ],
+        [
+          "Virginia",
+          18
+        ],
+        [
+          "West Virginia",
+          18
+        ],
+        [
+          "Maryland",
+          16
+        ],
+        [
+          "New Jersey",
+          16
+        ],
+        [
+          "California",
+          14
+        ],
+        [
+          "South Dakota",
+          14
+        ],
+        [
+          "Arizona",
+          13
+        ],
+        [
+          "Iowa",
+          13
+        ],
+        [
+          "Michigan",
+          13
+        ],
+        [
+          "Minnesota",
+          12
+        ],
+        [
+          "Ohio",
+          12
+        ],
+        [
+          "Oklahoma",
+          12
+        ],
+        [
+          "Illinois",
+          11
+        ],
+        [
+          "Kansas",
+          11
+        ]
+      ],
+      "top_states_by_policy_actions": [
+        [
+          "Pennsylvania",
+          22
+        ],
+        [
+          "Virginia",
+          18
+        ],
+        [
+          "West Virginia",
+          18
+        ],
+        [
+          "Maryland",
+          17
+        ],
+        [
+          "New Jersey",
+          17
+        ],
+        [
+          "California",
+          14
+        ],
+        [
+          "Michigan",
+          14
+        ],
+        [
+          "South Dakota",
+          14
+        ],
+        [
+          "Arizona",
+          13
+        ],
+        [
+          "Iowa",
+          13
+        ],
+        [
+          "Kansas",
+          12
+        ],
+        [
+          "Minnesota",
+          12
+        ],
+        [
+          "Ohio",
+          12
+        ],
+        [
+          "Oklahoma",
+          12
+        ],
+        [
+          "Illinois",
+          11
+        ]
+      ]
+    }
+  },
+  "index_verification": {
+    "snapshot": "data/source-snapshots/moratoria/2026-11-10-reviewed-v19",
+    "source_commit": "07939fd2e2484d16dd6b9c7b177775eb4a5bafa6",
+    "manifest_sha256": "a78a5bee0203d132840372b42c2bc591fffeffd934c637fb8d92302e9451bbb6",
+    "tracked_files_and_symlinks": 2387,
+    "exact_staged_git_blob_bytes_and_modes": true,
+    "scope": "Exact staged snapshot content, Git modes and path set against the pinned manifest, including the manifest itself. This is not an independent legal review."
+  },
+  "baseline_handoff": "V18",
+  "expanded_tables_byte_identical": true,
+  "local_csv_and_summary_byte_identical": true,
+  "policy_changed_cells": 10,
+  "policy_changed_rows": 4,
+  "status_category_changes": 1,
+  "whole_record_closures": 0,
+  "field_changes": [
+    {
+      "id": "me-ld-713-hp-452-132nd-legislature-public-law-2026-c-768",
+      "field": "status",
+      "before": "Signed by Governor 2026-04-23; official chapter citation Public Law 2025, c. 768 (132nd Legislature, enacted in 2026).",
+      "after": "Signed by Governor 2026-04-23; official chapter citation Public Law 2025, c. 768 (132nd Legislature, enacted in 2026). Effective 2026-07-29 under the official session-law title page and chapter effective-date reference; August1,2026 is the separate operations/applicability criterion."
+    },
+    {
+      "id": "me-ld-713-hp-452-132nd-legislature-public-law-2026-c-768",
+      "field": "effective_date_iso",
+      "before": "",
+      "after": "2026-07-29"
+    },
+    {
+      "id": "nh-hb672-fn-2025-lsr-25-0365-chapter-285",
+      "field": "primary_source_url",
+      "before": "",
+      "after": "https://gc.nh.gov/bill_status/legacy/bs2016/billText.aspx?id=372&sy=2025&txtFormat=html"
+    },
+    {
+      "id": "nm-sb-235-2026-microgrid-oversight-act",
+      "field": "status",
+      "before": "Committee-substituted in Senate Conservation and Senate Tax, Business and Transportation Committees; passed the Senate 22-20 on 2026-02-14; sent to House Judiciary Committee 2026-02-15; Action Postponed Indefinitely there; not enacted before 2026 sine die (2026-02-19)",
+      "after": "Senate Conservation Committee substitute recommended; Senate Tax, Business and Transportation Committee recommended Do Pass (report dated 2026-02-12, recorded 2026-02-13), not a second substitute. Passed Senate 22-20 on 2026-02-14; sent to House Judiciary Committee 2026-02-15; Action Postponed Indefinitely there; not enacted before 2026 sine die (2026-02-19)."
+    },
+    {
+      "id": "nm-sb-235-2026-microgrid-oversight-act",
+      "field": "key_provisions",
+      "before": "The Senate Conservation Committee substitute proposed oversight of qualifying microgrids, renewable portfolio requirements and annual reporting, alongside limits on public utility rate increases for microgrid infrastructure; the bill passed the Senate but died in House committee. A later floor amendment was not reviewed.",
+      "after": "The Senate Conservation Committee substitute proposed oversight of qualifying microgrids, renewable portfolio requirements and annual reporting, alongside limits on public utility rate increases for microgrid infrastructure. A February14 Senate floor amendment proposed county/population-based exemptions from the renewable portfolio standard, but the official bill history lists that amendment under Not Adopted; those exemptions were not adopted through that amendment. The bill failed in House committee. The fiscal report discusses data-center energy needs using agency comments on similar legislation; this does not establish that a particular data center qualifies."
+    },
+    {
+      "id": "nm-sb-235-2026-microgrid-oversight-act",
+      "field": "primary_source_url",
+      "before": "",
+      "after": "https://www.nmlegis.gov/Legislation/Legislation?Chamber=S&LegType=B&LegNo=235&year=26"
+    },
+    {
+      "id": "ri-h6476-2021",
+      "field": "status",
+      "before": "Introduced, referred to House Finance, 2021-06-25; no further action recorded (died at end of 2021 session)",
+      "after": "Introduced and referred to House Finance, 2021-06-25, as stated in the official introduced text. Final disposition not established by reviewed evidence; prior claim that the bill died at the end of the 2021 session is withdrawn pending a usable action history."
+    },
+    {
+      "id": "ri-h6476-2021",
+      "field": "bill_status_category",
+      "before": "failed_died",
+      "after": "unknown"
+    },
+    {
+      "id": "ri-h6476-2021",
+      "field": "legal_effect_status",
+      "before": "failed",
+      "after": "unknown"
+    },
+    {
+      "id": "ri-h6476-2021",
+      "field": "primary_source_url",
+      "before": "",
+      "after": "https://webserver.rilegislature.gov/BillText21/HouseText21/H6476.htm"
+    }
+  ],
+  "trusted_verifier_sha256": "ebecf851d4196715df186cc81cc3c933ab7da550fbafd7207996cd94b9cd2739",
+  "scope": "Qualified post4 endpoint corrections: Maine effective date, NewMexico committee/amendment detail, RhodeIsland unsupported failure becomes unknown, retained primary URLs.134 September category differences;1359 legacy holds remain. Technical delivery is not independent substantive legal acceptance.",
+  "consumer_commit": "584ed9bf6c4b6c84711fcd4bf65db179bc3e9b54",
+  "consumer_remote_main": "584ed9bf6c4b6c84711fcd4bf65db179bc3e9b54",
+  "release": "v2026.11.10.post4",
+  "release_url": "https://github.com/mjbommar/moratorium-data-2026/releases/tag/v2026.11.10.post4",
+  "release_manifest_sha256": "ebcb8c1e953b91fc987be01b4daf53a162cb1a9da5bf69e5fa782751a18e7067",
+  "hosted_receipt": "work/research/2026-11-10/release-2026.11.10.post4/hosted-copy-verification.json"
+}

@@ -1,8 +1,18 @@
 # Changelog
 
-## Qualified v2026.11.10.post4 preparation
+## Qualified v2026.11.10.post4
 
-Ten policy fields across four rows corrected; one status category becomes unknown, giving134 September differences. NewMexico floor amendment affirmatively not adopted; Maine general effective date verified. Local/native data unchanged;1,359 whole-record questions remain. Release/consumer verification pending.
+Ten policy fields across four rows corrected; one status category becomes unknown, giving134 September differences. NewMexico floor amendment affirmatively not adopted; Maine general effective date verified. Local/native data unchanged;1,359 whole-record questions remain. [Release and V19 delivery](work/research/2026-11-10/release-2026.11.10.post4/README.md) verified.
+
+| Metric | Qualified v2026.11.10.post4 |
+|---|---:|
+| Moratoria in the list | **1,328** |
+| Classified active or extended | **1,087** |
+| Pending or not yet effective | **64** |
+| Ended (replaced, expired, or rescinded) | **171** |
+| Rows we still want to confirm (`[VERIFY]`) | **979** |
+| States with at least one | **47** |
+
 
 ## Qualified v2026.11.10.post3
 
