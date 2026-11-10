@@ -1,0 +1,599 @@
+{
+  "source_commit": "e70747fe78e35bd3d8cab85cdb2fff6dbce57406",
+  "manifest_sha256": "14f577136bd5e6d57f67024eaf52a58c8f9733e3d545203f4cbb229a4bb4900a",
+  "expanded_snapshot": "8d1a4df738c50cb71a066c1dc755019f77c94c62fb089cad8a7a9153559f79bb",
+  "current_counts": {
+    "moratorium_records": 1328,
+    "state_policy_records": 448,
+    "ballot_measures": 57,
+    "retained_results": 64,
+    "current_results": 53,
+    "retained_events": 10,
+    "current_accepted_historical_events": 10,
+    "restriction_records": 2,
+    "measure_instrument_link_records": 1
+  },
+  "files": 2114,
+  "entries": 2299,
+  "verified_at": "2026-11-10T01:56:23.749024+00:00",
+  "consumer_verification": {
+    "handoff": {
+      "state": "verified",
+      "source_commit": "e70747fe78e35bd3d8cab85cdb2fff6dbce57406",
+      "manifest_sha256": "14f577136bd5e6d57f67024eaf52a58c8f9733e3d545203f4cbb229a4bb4900a",
+      "expanded_snapshot": "8d1a4df738c50cb71a066c1dc755019f77c94c62fb089cad8a7a9153559f79bb",
+      "files": 2114,
+      "entries": 2299,
+      "checks": [
+        {
+          "command": [
+            "scripts/check_expanded_publication.py"
+          ],
+          "exit_code": 0,
+          "result": {
+            "state": "consistent",
+            "snapshot_sha256": "8d1a4df738c50cb71a066c1dc755019f77c94c62fb089cad8a7a9153559f79bb",
+            "generations_checked": 46,
+            "records": {
+              "jurisdictions": 52,
+              "elections": 51,
+              "ballot_measures": 57,
+              "measure_provisions": 52,
+              "measure_results": 64,
+              "local_restrictions": 2,
+              "instrument_events": 10,
+              "measure_instrument_links": 1,
+              "source_documents": 165,
+              "claims": 613,
+              "review_decisions": 2716,
+              "search_runs": 1,
+              "search_attempts": 3,
+              "search_sightings": 18,
+              "coverage_observations": 1
+            },
+            "scope": "Offline publication/receipt consistency only; no source reacquisition, renewed factual acceptance or current-force confirmation."
+          }
+        },
+        {
+          "command": [
+            "scripts/build_expanded_csv.py",
+            "--check"
+          ],
+          "exit_code": 0,
+          "result": {
+            "state": "matches",
+            "source_snapshot": "8d1a4df738c50cb71a066c1dc755019f77c94c62fb089cad8a7a9153559f79bb",
+            "projection_sha256": "099c003dec2ad3a6592e69f985c61cbcd7a7b2cc21577a4e5d96e7553d643694",
+            "csv_views": 18
+          }
+        },
+        {
+          "command": [
+            "scripts/build_policy_scope_exports.py",
+            "--check"
+          ],
+          "exit_code": 0,
+          "result": "policy-scope exports current"
+        }
+      ],
+      "checks_run": true,
+      "scope": "Pinned input integrity and offline publication consistency, not source reacquisition or downstream join acceptance."
+    },
+    "policy_semantics": {
+      "total_state_policy_actions": 448,
+      "total_state_bills": 427,
+      "state_policy_instrument_type_counts": {
+        "bill": 427,
+        "executive_order": 2,
+        "governor_directive": 1,
+        "legislative_amendment": 1,
+        "legislative_precursor": 3,
+        "legislative_resolution": 12,
+        "statute": 2
+      },
+      "top_states_by_bills": [
+        [
+          "Pennsylvania",
+          18
+        ],
+        [
+          "Virginia",
+          18
+        ],
+        [
+          "West Virginia",
+          18
+        ],
+        [
+          "Maryland",
+          16
+        ],
+        [
+          "New Jersey",
+          16
+        ],
+        [
+          "California",
+          14
+        ],
+        [
+          "South Dakota",
+          14
+        ],
+        [
+          "Arizona",
+          13
+        ],
+        [
+          "Iowa",
+          13
+        ],
+        [
+          "Michigan",
+          13
+        ],
+        [
+          "Minnesota",
+          12
+        ],
+        [
+          "Ohio",
+          12
+        ],
+        [
+          "Oklahoma",
+          12
+        ],
+        [
+          "Illinois",
+          11
+        ],
+        [
+          "Kansas",
+          11
+        ]
+      ],
+      "top_states_by_policy_actions": [
+        [
+          "Pennsylvania",
+          22
+        ],
+        [
+          "Virginia",
+          18
+        ],
+        [
+          "West Virginia",
+          18
+        ],
+        [
+          "Maryland",
+          17
+        ],
+        [
+          "New Jersey",
+          17
+        ],
+        [
+          "California",
+          14
+        ],
+        [
+          "Michigan",
+          14
+        ],
+        [
+          "South Dakota",
+          14
+        ],
+        [
+          "Arizona",
+          13
+        ],
+        [
+          "Iowa",
+          13
+        ],
+        [
+          "Kansas",
+          12
+        ],
+        [
+          "Minnesota",
+          12
+        ],
+        [
+          "Ohio",
+          12
+        ],
+        [
+          "Oklahoma",
+          12
+        ],
+        [
+          "Illinois",
+          11
+        ]
+      ]
+    },
+    "scope": "Authenticated reviewed inputs; historical downstream joins retain their cutoffs."
+  },
+  "index_verification": {
+    "snapshot": "data/source-snapshots/moratoria/2026-11-09-reviewed-v10",
+    "source_commit": "e70747fe78e35bd3d8cab85cdb2fff6dbce57406",
+    "manifest_sha256": "14f577136bd5e6d57f67024eaf52a58c8f9733e3d545203f4cbb229a4bb4900a",
+    "tracked_files_and_symlinks": 2115,
+    "exact_staged_git_blob_bytes_and_modes": true,
+    "scope": "Exact staged snapshot content, Git modes and path set against the pinned manifest, including the manifest itself. This is not an independent legal review."
+  },
+  "delta_from_v9": {
+    "local": {
+      "changed_rows": 0,
+      "changed_cells": 0,
+      "changes": []
+    },
+    "policy": {
+      "changed_rows": 21,
+      "changed_cells": 58,
+      "changes": [
+        {
+          "id": "az-hb2452-2026",
+          "field": "status",
+          "before": "Failed House third reading 25-29 on 2026-02-25; reconsideration passed 2026-02-26; held awaiting third reading on reconsideration. The 2026 regular session adjourned sine die on 2026-06-13; the legal consequence for this bill remains unverified.",
+          "after": "Failed House third reading 25-29 on 2026-02-25; reconsideration passed 2026-02-26; held awaiting third reading on reconsideration. The 2026 regular session adjourned sine die on 2026-06-13; named regular-session nonpassage is assessed below. Current House Rules8(A)/2 and Senate Rules16(D)/27 distinguish passage and annual-session closure; the official2026 summary and Legislature notice confirm June13 sine die. With the retained final held disposition, classify named57th Legislature second-regular-session nonpassage as an explicit inference. No bill-specific Died entry, later-law-content absence or bar to reintroduction is asserted."
+        },
+        {
+          "id": "az-hb2452-2026",
+          "field": "bill_status_category",
+          "before": "unknown",
+          "after": "failed_died"
+        },
+        {
+          "id": "az-hb2452-2026",
+          "field": "legal_effect_status",
+          "before": "unknown",
+          "after": "failed"
+        },
+        {
+          "id": "az-hb2467-2026",
+          "field": "status",
+          "before": "Withdrawn from House Commerce and assigned to Artificial Intelligence and Innovation on 2026-01-22; official final disposition: Held in Committees. Observed 2026-11-09. No failed-at-adjournment classification is inferred.",
+          "after": "Withdrawn from House Commerce and assigned to Artificial Intelligence and Innovation on 2026-01-22; official final disposition: Held in Committees. Observed 2026-11-09. Current House Rules8(A)/2 and Senate Rules16(D)/27 distinguish passage and annual-session closure; the official2026 summary and Legislature notice confirm June13 sine die. With the retained final held disposition, classify named57th Legislature second-regular-session nonpassage as an explicit inference. No bill-specific Died entry, later-law-content absence or bar to reintroduction is asserted."
+        },
+        {
+          "id": "az-hb2467-2026",
+          "field": "bill_status_category",
+          "before": "unknown",
+          "after": "failed_died"
+        },
+        {
+          "id": "az-hb2467-2026",
+          "field": "legal_effect_status",
+          "before": "unknown",
+          "after": "failed"
+        },
+        {
+          "id": "az-hb2631-2026",
+          "field": "status",
+          "before": "Withdrawn from House Commerce and assigned to Artificial Intelligence and Innovation on 2026-01-22; official final disposition: Held in Committees. Observed 2026-11-09. No failed-at-adjournment classification is inferred.",
+          "after": "Withdrawn from House Commerce and assigned to Artificial Intelligence and Innovation on 2026-01-22; official final disposition: Held in Committees. Observed 2026-11-09. Current House Rules8(A)/2 and Senate Rules16(D)/27 distinguish passage and annual-session closure; the official2026 summary and Legislature notice confirm June13 sine die. With the retained final held disposition, classify named57th Legislature second-regular-session nonpassage as an explicit inference. No bill-specific Died entry, later-law-content absence or bar to reintroduction is asserted."
+        },
+        {
+          "id": "az-hb2631-2026",
+          "field": "bill_status_category",
+          "before": "unknown",
+          "after": "failed_died"
+        },
+        {
+          "id": "az-hb2631-2026",
+          "field": "legal_effect_status",
+          "before": "unknown",
+          "after": "failed"
+        },
+        {
+          "id": "az-hb2820-2026",
+          "field": "status",
+          "before": "House second reading 2026-01-26; official final disposition: Held in Committees. Observed 2026-11-09. No failed-at-adjournment classification is inferred.",
+          "after": "House second reading 2026-01-26; official final disposition: Held in Committees. Observed 2026-11-09. Current House Rules8(A)/2 and Senate Rules16(D)/27 distinguish passage and annual-session closure; the official2026 summary and Legislature notice confirm June13 sine die. With the retained final held disposition, classify named57th Legislature second-regular-session nonpassage as an explicit inference. No bill-specific Died entry, later-law-content absence or bar to reintroduction is asserted."
+        },
+        {
+          "id": "az-hb2820-2026",
+          "field": "bill_status_category",
+          "before": "unknown",
+          "after": "failed_died"
+        },
+        {
+          "id": "az-hb2820-2026",
+          "field": "legal_effect_status",
+          "before": "unknown",
+          "after": "failed"
+        },
+        {
+          "id": "az-hb2949-2026",
+          "field": "status",
+          "before": "House second reading 2026-02-05; official final disposition: Held in Committees. Observed 2026-11-09. No failed-at-adjournment classification is inferred.",
+          "after": "House second reading 2026-02-05; official final disposition: Held in Committees. Observed 2026-11-09. Current House Rules8(A)/2 and Senate Rules16(D)/27 distinguish passage and annual-session closure; the official2026 summary and Legislature notice confirm June13 sine die. With the retained final held disposition, classify named57th Legislature second-regular-session nonpassage as an explicit inference. No bill-specific Died entry, later-law-content absence or bar to reintroduction is asserted."
+        },
+        {
+          "id": "az-hb2949-2026",
+          "field": "bill_status_category",
+          "before": "unknown",
+          "after": "failed_died"
+        },
+        {
+          "id": "az-hb2949-2026",
+          "field": "legal_effect_status",
+          "before": "unknown",
+          "after": "failed"
+        },
+        {
+          "id": "az-sb1463-2026",
+          "field": "status",
+          "before": "Senate second reading 2026-02-02; official final disposition: Held in Committees. Observed 2026-11-09. No failed-at-adjournment classification is inferred.",
+          "after": "Senate second reading 2026-02-02; official final disposition: Held in Committees. Observed 2026-11-09. Current House Rules8(A)/2 and Senate Rules16(D)/27 distinguish passage and annual-session closure; the official2026 summary and Legislature notice confirm June13 sine die. With the retained final held disposition, classify named57th Legislature second-regular-session nonpassage as an explicit inference. No bill-specific Died entry, later-law-content absence or bar to reintroduction is asserted."
+        },
+        {
+          "id": "az-sb1463-2026",
+          "field": "bill_status_category",
+          "before": "unknown",
+          "after": "failed_died"
+        },
+        {
+          "id": "az-sb1463-2026",
+          "field": "legal_effect_status",
+          "before": "unknown",
+          "after": "failed"
+        },
+        {
+          "id": "az-sb1467-2026",
+          "field": "status",
+          "before": "Senate second reading 2026-02-02; official final disposition: Held in Committees. Observed 2026-11-09. No failed-at-adjournment classification is inferred.",
+          "after": "Senate second reading 2026-02-02; official final disposition: Held in Committees. Observed 2026-11-09. Current House Rules8(A)/2 and Senate Rules16(D)/27 distinguish passage and annual-session closure; the official2026 summary and Legislature notice confirm June13 sine die. With the retained final held disposition, classify named57th Legislature second-regular-session nonpassage as an explicit inference. No bill-specific Died entry, later-law-content absence or bar to reintroduction is asserted."
+        },
+        {
+          "id": "az-sb1467-2026",
+          "field": "bill_status_category",
+          "before": "unknown",
+          "after": "failed_died"
+        },
+        {
+          "id": "az-sb1467-2026",
+          "field": "legal_effect_status",
+          "before": "unknown",
+          "after": "failed"
+        },
+        {
+          "id": "ct-hb05076-2025",
+          "field": "status",
+          "before": "Referred to Joint Committee on Energy and Technology 2025-01-10; no further action recorded on the bill's CGA history; reported historical lead: died in committee at 2025 regular session sine die adjournment 2025-06-04; session death is an inference from recorded history and House adjournment, pending confirmation of the governing carryover rules; the House journal page header says 2025 but its attestation says 2023",
+          "after": "Referred to Joint Committee on Energy and Technology 2025-01-10; no further action recorded on the bill's CGA history. Full retained HTML history has no later final passage. The final House journal headed June4,2025 records midnight sine die; no civil-date conversion is assigned. ArticleIII section2 as replaced by AmendmentIII(1970) supplies annual regular-session limits and a veto-only reconvened-session distinction. With the named history and actual session close, classify this regular-session nonpassage as an explicit inference. No bill-specific Died entry, later-law-content absence or bar to reintroduction is asserted."
+        },
+        {
+          "id": "ct-hb05076-2025",
+          "field": "bill_status_category",
+          "before": "unknown",
+          "after": "failed_died"
+        },
+        {
+          "id": "ct-hb05076-2025",
+          "field": "legal_effect_status",
+          "before": "unknown",
+          "after": "failed"
+        },
+        {
+          "id": "ct-hb05469-2026",
+          "field": "status",
+          "before": "Joint Favorable 2026-03-19; filed with Legislative Commissioners' Office 2026-03-20 and reported out 2026-04-07 with File No. 421 and House Calendar No. 305 (Favorable Report, Tabled for the Calendar, House); no later House vote is recorded on the retained bill history; reported historical lead: died on the House calendar at 2026 regular session sine die adjournment 2026-05-06; session death is an inference from recorded history and House adjournment, pending confirmation of the governing carryover rules",
+          "after": "Joint Favorable 2026-03-19; filed with Legislative Commissioners' Office 2026-03-20 and reported out 2026-04-07 with File No. 421 and House Calendar No. 305 (Favorable Report, Tabled for the Calendar, House); no later House vote is recorded on the retained bill history. Full retained HTML history has no later final passage. The final House journal headed May6,2026 records midnight sine die; no civil-date conversion is assigned. ArticleIII section2 as replaced by AmendmentIII(1970) supplies annual regular-session limits and a veto-only reconvened-session distinction. With the named history and actual session close, classify this regular-session nonpassage as an explicit inference. No bill-specific Died entry, later-law-content absence or bar to reintroduction is asserted."
+        },
+        {
+          "id": "ct-hb05469-2026",
+          "field": "bill_status_category",
+          "before": "unknown",
+          "after": "failed_died"
+        },
+        {
+          "id": "ct-hb05469-2026",
+          "field": "legal_effect_status",
+          "before": "unknown",
+          "after": "failed"
+        },
+        {
+          "id": "ct-hb05926-2025",
+          "field": "status",
+          "before": "Referred to Joint Committee on Energy and Technology 2025-01-22; no further action recorded; reported historical lead: died in committee at 2025 regular session sine die adjournment 2025-06-04; session death is an inference from recorded history and House adjournment, pending confirmation of the governing carryover rules; the House journal page header says 2025 but its attestation says 2023",
+          "after": "Referred to Joint Committee on Energy and Technology 2025-01-22; no further action recorded. Full retained HTML history has no later final passage. The final House journal headed June4,2025 records midnight sine die; no civil-date conversion is assigned. ArticleIII section2 as replaced by AmendmentIII(1970) supplies annual regular-session limits and a veto-only reconvened-session distinction. With the named history and actual session close, classify this regular-session nonpassage as an explicit inference. No bill-specific Died entry, later-law-content absence or bar to reintroduction is asserted."
+        },
+        {
+          "id": "ct-hb05926-2025",
+          "field": "bill_status_category",
+          "before": "unknown",
+          "after": "failed_died"
+        },
+        {
+          "id": "ct-hb05926-2025",
+          "field": "legal_effect_status",
+          "before": "unknown",
+          "after": "failed"
+        },
+        {
+          "id": "ct-hb05955-2025",
+          "field": "status",
+          "before": "Referred to Joint Committee on Energy and Technology 2025-01-22; no further action recorded; reported historical lead: died in committee at 2025 regular session sine die adjournment 2025-06-04; session death is an inference from recorded history and House adjournment, pending confirmation of the governing carryover rules; the House journal page header says 2025 but its attestation says 2023",
+          "after": "Referred to Joint Committee on Energy and Technology 2025-01-22; no further action recorded. Full retained HTML history has no later final passage. The final House journal headed June4,2025 records midnight sine die; no civil-date conversion is assigned. ArticleIII section2 as replaced by AmendmentIII(1970) supplies annual regular-session limits and a veto-only reconvened-session distinction. With the named history and actual session close, classify this regular-session nonpassage as an explicit inference. No bill-specific Died entry, later-law-content absence or bar to reintroduction is asserted."
+        },
+        {
+          "id": "ct-hb05955-2025",
+          "field": "bill_status_category",
+          "before": "unknown",
+          "after": "failed_died"
+        },
+        {
+          "id": "ct-hb05955-2025",
+          "field": "legal_effect_status",
+          "before": "unknown",
+          "after": "failed"
+        },
+        {
+          "id": "ct-sb00079-2024",
+          "field": "status",
+          "before": "Referred to Joint Committee on Finance, Revenue and Bonding 2024-02-14; no further action recorded; reported historical lead: died in committee at 2024 regular session sine die adjournment 2024-05-08; session death is an inference from recorded history and House adjournment, pending confirmation of the governing carryover rules",
+          "after": "Referred to Joint Committee on Finance, Revenue and Bonding 2024-02-14; no further action recorded. Full retained HTML history has no later final passage. The final House journal headed May8,2024 records midnight sine die; no civil-date conversion is assigned. ArticleIII section2 as replaced by AmendmentIII(1970) supplies annual regular-session limits and a veto-only reconvened-session distinction. With the named history and actual session close, classify this regular-session nonpassage as an explicit inference. No bill-specific Died entry, later-law-content absence or bar to reintroduction is asserted."
+        },
+        {
+          "id": "ct-sb00079-2024",
+          "field": "bill_status_category",
+          "before": "unknown",
+          "after": "failed_died"
+        },
+        {
+          "id": "ct-sb00079-2024",
+          "field": "legal_effect_status",
+          "before": "unknown",
+          "after": "failed"
+        },
+        {
+          "id": "ct-sb00245-2026",
+          "field": "status",
+          "before": "Joint Favorable Change of Reference to Committee on Finance, Revenue and Bonding 2026-03-17; re-referred to Finance, Revenue and Bonding 2026-03-23; no further committee or floor action recorded; reported historical lead: died in committee at 2026 regular session sine die adjournment 2026-05-06; session death is an inference from recorded history and House adjournment, pending confirmation of the governing carryover rules",
+          "after": "Joint Favorable Change of Reference to Committee on Finance, Revenue and Bonding 2026-03-17; re-referred to Finance, Revenue and Bonding 2026-03-23; no further committee or floor action recorded. Full retained HTML history has no later final passage. The final House journal headed May6,2026 records midnight sine die; no civil-date conversion is assigned. ArticleIII section2 as replaced by AmendmentIII(1970) supplies annual regular-session limits and a veto-only reconvened-session distinction. With the named history and actual session close, classify this regular-session nonpassage as an explicit inference. No bill-specific Died entry, later-law-content absence or bar to reintroduction is asserted."
+        },
+        {
+          "id": "ct-sb00245-2026",
+          "field": "bill_status_category",
+          "before": "unknown",
+          "after": "failed_died"
+        },
+        {
+          "id": "ct-sb00245-2026",
+          "field": "legal_effect_status",
+          "before": "unknown",
+          "after": "failed"
+        },
+        {
+          "id": "ct-sb01292-2025",
+          "field": "status",
+          "before": "Joint Favorable Substitute 2025-03-18; filed with Legislative Commissioners' Office 2025-03-20 and reported out 2025-04-07 with File No. 538 and Senate Calendar No. 303 (Favorable Report, Tabled for the Calendar, Senate); no later Senate vote is recorded on the retained bill history; reported historical lead: died on the Senate calendar at 2025 regular session sine die adjournment 2025-06-04; session death is an inference from recorded history and House adjournment, pending confirmation of the governing carryover rules; the House journal page header says 2025 but its attestation says 2023",
+          "after": "Joint Favorable Substitute 2025-03-18; filed with Legislative Commissioners' Office 2025-03-20 and reported out 2025-04-07 with File No. 538 and Senate Calendar No. 303 (Favorable Report, Tabled for the Calendar, Senate); no later Senate vote is recorded on the retained bill history. Full retained HTML history has no later final passage. The final House journal headed June4,2025 records midnight sine die; no civil-date conversion is assigned. ArticleIII section2 as replaced by AmendmentIII(1970) supplies annual regular-session limits and a veto-only reconvened-session distinction. With the named history and actual session close, classify this regular-session nonpassage as an explicit inference. No bill-specific Died entry, later-law-content absence or bar to reintroduction is asserted."
+        },
+        {
+          "id": "ct-sb01292-2025",
+          "field": "bill_status_category",
+          "before": "unknown",
+          "after": "failed_died"
+        },
+        {
+          "id": "ct-sb01292-2025",
+          "field": "legal_effect_status",
+          "before": "unknown",
+          "after": "failed"
+        },
+        {
+          "id": "wv-sb-583-2025",
+          "field": "status",
+          "before": "Introduced and referred to Senate Economic Development (then Finance) 2025-02-24; no further action; died at 2025 regular session sine die adjournment",
+          "after": "Official history records introduction and referral to Senate Economic Development on 2025-02-24. The introduced caption directs a subsequent Finance referral; no separate Finance action is recorded. The retained 2025 Senate adjournment account supports a historical regular-session nonpassage inference, not a bill-specific Died entry. The exact West Virginia Senate carryover/default-rule application remains unverified; no current-law or later-law-content conclusion is asserted."
+        },
+        {
+          "id": "wv-sb-583-2025",
+          "field": "key_provisions",
+          "before": "Proposed West Virginia-Powered Data Center Incentive Act; tax and incentive structure for data centers.",
+          "after": "Introduced West Virginia-Powered Data Center Incentive Act proposes personal-property salvage valuation, sales/use-tax relief and coal-electricity utility B&O treatment. Eligibility includes West Virginia location, at least $50 million new capital investment on or after January1,2025, at least50 new jobs and coal-generated electricity for at least80% of primary operational capacity; backup/redundancy/secondary capacity is excluded. Coal-generated electricity separately requires at least75% coal-derived energy from a plant burning West Virginia coal or located in the state. The printed data-center capacity definition supplies no numeric MW threshold. Introduced SB583 uses four6H cross-references despite creating article6N. SB857 changes those references to6N; the source texts are not identical. Incentives and conditions are proposals, not enacted treatment."
+        },
+        {
+          "id": "wv-sb-583-2025",
+          "field": "primary_source_url",
+          "before": "",
+          "after": "https://www.wvlegislature.gov/Bill_Status/bills_text.cfm?billdoc=sb583+intr.htm&i=583&sesstype=RS&yr=2025"
+        },
+        {
+          "id": "wv-sb-623-2026",
+          "field": "status",
+          "before": "Introduced and referred to Senate Economic Development 2026-01-27; no further action; died at 2026-03-14 sine die adjournment",
+          "after": "Official history records introduction and referral to Senate Economic Development on 2026-01-27. The retained 2026 Senate adjournment account supports a historical regular-session nonpassage inference, not a bill-specific Died entry. The exact West Virginia Senate carryover/default-rule application remains unverified; no current-law or later-law-content conclusion is asserted."
+        },
+        {
+          "id": "wv-sb-623-2026",
+          "field": "primary_source_url",
+          "before": "",
+          "after": "https://www.wvlegislature.gov/Bill_Status/bills_text.cfm?billdoc=sb623+intr.htm&i=623&sesstype=RS&yr=2026"
+        },
+        {
+          "id": "wv-sb-652-2026",
+          "field": "status",
+          "before": "Introduced and referred to Senate Economic Development (then Finance) 2026-01-28; no further action; died at 2026-03-14 sine die adjournment",
+          "after": "Official history records introduction and referral to Senate Economic Development on 2026-01-28. The introduced caption directs a subsequent Finance referral; no separate Finance action is recorded. The retained 2026 Senate adjournment account supports a historical regular-session nonpassage inference, not a bill-specific Died entry. The exact West Virginia Senate carryover/default-rule application remains unverified; no current-law or later-law-content conclusion is asserted."
+        },
+        {
+          "id": "wv-sb-652-2026",
+          "field": "primary_source_url",
+          "before": "",
+          "after": "https://www.wvlegislature.gov/Bill_Status/bills_text.cfm?billdoc=sb652+intr.htm&i=652&sesstype=RS&yr=2026"
+        },
+        {
+          "id": "wv-sb-658-2026",
+          "field": "status",
+          "before": "Introduced and referred to Senate Economic Development 2026-01-29; no further action; died at 2026-03-14 sine die adjournment",
+          "after": "Official history records introduction and referral to Senate Economic Development on 2026-01-29. The retained 2026 Senate adjournment account supports a historical regular-session nonpassage inference, not a bill-specific Died entry. The exact West Virginia Senate carryover/default-rule application remains unverified; no current-law or later-law-content conclusion is asserted."
+        },
+        {
+          "id": "wv-sb-658-2026",
+          "field": "primary_source_url",
+          "before": "",
+          "after": "https://www.wvlegislature.gov/Bill_Status/bills_text.cfm?billdoc=sb658+intr.htm&i=658&sesstype=RS&yr=2026"
+        },
+        {
+          "id": "wv-sb-695-2026",
+          "field": "status",
+          "before": "Introduced and referred to Senate Judiciary 2026-01-30; no further action; died at 2026-03-14 sine die adjournment",
+          "after": "Official history records introduction and referral to Senate Judiciary on 2026-01-30. The retained 2026 Senate adjournment account supports a historical regular-session nonpassage inference, not a bill-specific Died entry. The exact West Virginia Senate carryover/default-rule application remains unverified; no current-law or later-law-content conclusion is asserted."
+        },
+        {
+          "id": "wv-sb-695-2026",
+          "field": "primary_source_url",
+          "before": "",
+          "after": "https://www.wvlegislature.gov/Bill_Status/bills_text.cfm?billdoc=sb695+intr.htm&i=695&sesstype=RS&yr=2026"
+        },
+        {
+          "id": "wv-sb-803-2025",
+          "field": "status",
+          "before": "Introduced and referred to Senate Economic Development 2025-03-19; no further action; died at 2025 regular session sine die adjournment",
+          "after": "Official history records introduction and referral to Senate Economic Development on 2025-03-19. The retained 2025 Senate adjournment account supports a historical regular-session nonpassage inference, not a bill-specific Died entry. The exact West Virginia Senate carryover/default-rule application remains unverified; no current-law or later-law-content conclusion is asserted."
+        },
+        {
+          "id": "wv-sb-803-2025",
+          "field": "primary_source_url",
+          "before": "",
+          "after": "https://www.wvlegislature.gov/Bill_Status/bills_text.cfm?billdoc=sb803+intr.htm&i=803&sesstype=RS&yr=2025"
+        },
+        {
+          "id": "wv-sb-857-2025",
+          "field": "status",
+          "before": "Introduced and referred to Senate Economic Development (then Finance) 2025-03-20; no further action; died at 2025 regular session sine die adjournment",
+          "after": "Official history records introduction and referral to Senate Economic Development on 2025-03-20. The introduced caption directs a subsequent Finance referral; no separate Finance action is recorded. The retained 2025 Senate adjournment account supports a historical regular-session nonpassage inference, not a bill-specific Died entry. The exact West Virginia Senate carryover/default-rule application remains unverified; no current-law or later-law-content conclusion is asserted."
+        },
+        {
+          "id": "wv-sb-857-2025",
+          "field": "key_provisions",
+          "before": "Proposed data center incentive structure similar to SB 583.",
+          "after": "Introduced West Virginia-Powered Data Center Incentive Act proposes personal-property salvage valuation, sales/use-tax relief and coal-electricity utility B&O treatment. Eligibility includes West Virginia location, at least $50 million new capital investment on or after January1,2025, at least50 new jobs and coal-generated electricity for at least80% of primary operational capacity; backup/redundancy/secondary capacity is excluded. Coal-generated electricity separately requires at least75% coal-derived energy from a plant burning West Virginia coal or located in the state. The printed data-center capacity definition supplies no numeric MW threshold. Compared with introduced SB583, SB857 changes four6H cross-references to6N in proposed11-6N-6,11-6N-7(b)(3), the utility provision in11-13-2o and11-15-9(a)(51). The remaining operative plain text matches only after declared editorial normalization; no formal consolidation, markup-aware legal equivalence or enactment is inferred."
+        },
+        {
+          "id": "wv-sb-857-2025",
+          "field": "primary_source_url",
+          "before": "",
+          "after": "https://www.wvlegislature.gov/Bill_Status/bills_text.cfm?billdoc=sb857+intr.htm&i=857&sesstype=RS&yr=2025"
+        }
+      ]
+    }
+  },
+  "trusted_verifier_sha256": "7b05070929c964e2b4f9225cfb3a81ef4c52729633b3f86b421b2eee1d3b7364",
+  "scope": "Authenticated current canonical input delivery from same source as qualified post5. Historical populations, joins and manuscript editions retain their cutoffs. Source/legal QA and independent QA of Massachusetts addition remain open.",
+  "consumer_commit": "f3ede1190bafbb32e3063a687d4067dbe430aeea",
+  "consumer_remote_main_verified": true,
+  "consumer_remote_main_observed_at": "2026-11-10T02:02:40.894511+00:00",
+  "hosted_source_verification": "work/research/2026-11-09/release-2026.11.9.post5/hosted-copy-verification.json",
+  "qualified_release": "v2026.11.9.post5",
+  "qualified_release_manifest_sha256": "0e10bec17b36876e0965a5c72730d2f41435c05f26240aa06e4c0ab673409ba7",
+  "other_consumer_scope": "Earlier snapshots, frozen populations, historical joins and dated editions remain unchanged. No new manuscript, project applicability or causal conclusion is delivered."
+}

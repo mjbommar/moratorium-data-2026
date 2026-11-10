@@ -772,8 +772,10 @@ Exit: repeatable refresh with visible freshness, costs, failures and unresolved 
 - [x] Publish qualified v2026.11.9.post4 from `d1834f68`: two identical builds, full clean restore, ten anonymous assets,2,034 members and13 hosted surfaces verified. Deliver matching V9 to integration main `c180a755`; preserve1,382 unresolved whole-record QA holds.
 
 - [x] Resolve seven Arizona named regular-session outcome holds using current annual-session/readings rules, actualJune13/2026 close and retained final-held histories. Preserve the distinction between reconsideration and passage, label CSG2023 corroboration and unavailable journals correctly, verify15 retained and seven native pairs, and apply21 cells without scope membership changes.
-- [ ] Synchronize58 accumulated cells across21 policy records after post4/V9:42 Arizona/Connecticut outcome cells and16 West Virginia narrative/summary/URL cells. Preserve14 category changes, immutable cutoffs and pending QA.
+- [x] Deliver 58 accumulated cells across 21 policy records in qualified post5 and verified V10: 42 Arizona/Connecticut outcome cells and 16 West Virginia narrative/summary/URL cells. Preserve 14 qualified category changes, immutable earlier cutoffs and pending QA.
 
 - [x] Resolve seven Connecticut named ordinary-bill outcomes using full retained history HTML, positive final journals and operative constitutional annual-session context. Preserve2024/2025 rule applicability, midnight date ambiguity and concept-versus-file distinctions; verify20 retained source pairs, ten native original pairs and seven new full-HTML derivations. Apply21 cells with scope membership unchanged.
 
 - [x] Compare retained introduced SB583/SB857 operative texts, document four cross-reference differences without declaring identical bills, distinguish75%-energy/80%-capacity conditions, populate seven verified primary URLs and qualify seven nonpassage narratives. Read both cited federal parliamentary treatments and preserve six WV Senate-specific application holds; no whole-record closures.
+
+- [x] Publish qualified v2026.11.9.post5 from `e70747fe`: two identical builds, full clean restore, ten anonymous assets, all 2,054 archive members and 13 hosted surfaces verified; deliver matching consumer V10 with independent checks and exact Git blob/mode verification. Keep 1,368 unresolved records explicit.

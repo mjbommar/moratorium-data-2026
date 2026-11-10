@@ -20,7 +20,7 @@
   "consumer_dispositions": "delivered_with_historical_editions_preserved",
   "experimental_extractor": "failed_no_automatic_promotion",
   "quality_gate_disposition": "User authorized publication of the current state with qualifications on pending QA, followed by continued double checking and resolution of outstanding questions.",
-  "reviewed_data_source_commit": "75fae6d472fe207d3b4bbd18c9507756e107c653",
+  "reviewed_data_source_commit": "e70747fe78e35bd3d8cab85cdb2fff6dbce57406",
   "record_dispositions": {
     "unresolved": 1368,
     "corrected_resolved": 171,
@@ -31,7 +31,7 @@
   "record_disposition_path": "work/research/2026-11-08/full-record-dispositions/funnel.json",
   "qa_status": "ongoing",
   "publication_authorization": "publish current state with qualifications on pending QA, then continue to double check and clear the outstanding questions",
-  "working_revision": "qualified-patch-5",
+  "working_revision": "post5-delivery-receipt",
   "current_raw_counts": {
     "local": 1328,
     "state_policy": 448,
@@ -40,16 +40,16 @@
   "prior_release": "v2026.11.9.post4",
   "prior_release_source_commit": "d1834f689d67af8f294dc028c74b22644ce72aa3",
   "prior_published_source_commit": "d1834f689d67af8f294dc028c74b22644ce72aa3",
-  "published_source_reference": "The v2026.11.9.post4 release tag and asset manifest source_commit identify the exact published source. Later receipt commits record delivery without rewriting that source.",
+  "published_source_reference": "The v2026.11.9.post5 release tag and asset manifest source_commit identify the exact published source. Later receipts record delivery without rewriting that source.",
   "latest_consumer_handoff": {
-    "source_commit": "d1834f689d67af8f294dc028c74b22644ce72aa3",
-    "consumer_commit": "c180a755a20cded5837055635b1f5dae028c5892",
-    "manifest_sha256": "c4fe3dfffd4a95e0e3817ef3dc8fbe4c3040c0195952373162d78c5cd7e06c2d",
-    "receipt": "work/research/2026-11-09/post-release-qa/consumer-v9-handoff.json",
-    "scope": "Verified current canonical input delivery, matching qualified post4; legal/independent QA and historical joins remain separate."
+    "source_commit": "e70747fe78e35bd3d8cab85cdb2fff6dbce57406",
+    "consumer_commit": "f3ede1190bafbb32e3063a687d4067dbe430aeea",
+    "manifest_sha256": "14f577136bd5e6d57f67024eaf52a58c8f9733e3d545203f4cbb229a4bb4900a",
+    "receipt": "work/research/2026-11-09/post-release-qa/consumer-v10-handoff.json",
+    "scope": "Verified current canonical input delivery, matching qualified post5; legal/independent QA and historical joins remain separate."
   },
   "release_date_timezone": "America/New_York",
-  "published_source_commit": "d1834f689d67af8f294dc028c74b22644ce72aa3",
+  "published_source_commit": "e70747fe78e35bd3d8cab85cdb2fff6dbce57406",
   "september_status_category_differences": {
     "local": 95,
     "policy": 39,
@@ -58,22 +58,6 @@
   },
   "latest_geography_review": "work/research/2026-11-09/post-release-qa/missing-geography-application.json",
   "latest_delivered_consumer_input_delta": {
-    "baseline_source_commit": "b91dab524964c866f416678b3bb789066afe1f65",
-    "baseline_consumer_commit": "04cfac6d3bcd1908ec90148deb0b91e4624e4364",
-    "changed_policy_rows": 15,
-    "changed_cells": 119,
-    "status_category_changes": 10,
-    "new_scope_inclusions": 4,
-    "receipt": "work/research/2026-11-09/post-release-qa/wisconsin-text-adjudications.json",
-    "scope": "Delivered in verified V9 and qualified post4. Wisconsin/Minnesota provision and category corrections plus39 geographic reference points; earlier snapshots retain their cutoffs.",
-    "additional_review": "work/research/2026-11-09/post-release-qa/minnesota-session-adjudications.json",
-    "changed_local_rows": 39,
-    "changed_local_cells": 78,
-    "changed_policy_cells": 41,
-    "geography_review": "work/research/2026-11-09/post-release-qa/missing-geography-application.json",
-    "delivery_receipt": "work/research/2026-11-09/post-release-qa/consumer-v9-handoff.json"
-  },
-  "pending_consumer_input_delta": {
     "baseline_source_commit": "d1834f689d67af8f294dc028c74b22644ce72aa3",
     "baseline_consumer_commit": "c180a755a20cded5837055635b1f5dae028c5892",
     "changed_policy_rows": 21,
@@ -81,8 +65,9 @@
     "status_category_changes": 14,
     "new_scope_inclusions": 0,
     "receipt": "work/research/2026-11-09/post-release-qa/arizona-governing-context-adjudications.json",
-    "scope": "42 Arizona/Connecticut outcome cells plus16 WV summary, qualified narrative and verified-primary-URL cells. Status-category changes remain14; no WV category or scope changes. Consumer/release synchronization pending.",
+    "scope": "Delivered in verified V10 and qualified post5: 58 cells across 21 policy records, including 14 qualified historical category corrections. Earlier snapshots retain their cutoffs.",
     "additional_review": "work/research/2026-11-09/post-release-qa/connecticut-session-outcome-adjudications.json",
-    "additional_west_virginia_review": "work/research/2026-11-09/post-release-qa/west-virginia-comparison-adjudications.json"
+    "additional_west_virginia_review": "work/research/2026-11-09/post-release-qa/west-virginia-comparison-adjudications.json",
+    "delivery_receipt": "work/research/2026-11-09/post-release-qa/consumer-v10-handoff.json"
   }
 }
