@@ -1,8 +1,8 @@
 {
   "event_cutoff_utc": "2026-11-07T13:38:39.877065Z",
   "counts": {
-    "unresolved": 1354,
-    "corrected_resolved": 183,
+    "unresolved": 1353,
+    "corrected_resolved": 184,
     "confirmed_unchanged": 239,
     "superseded_duplicate": 0,
     "not_attempted": 0
@@ -10,8 +10,8 @@
   "cohort_counts": {
     "earlier225": {
       "confirmed_unchanged": 26,
-      "unresolved": 196,
-      "corrected_resolved": 3
+      "unresolved": 195,
+      "corrected_resolved": 4
     },
     "remaining1552": {
       "corrected_resolved": 180,
@@ -36643,12 +36643,9 @@
     {
       "id": "wy-sf0193-2025",
       "dataset": "state_policy",
-      "disposition": "unresolved",
-      "public_receipt_pointer": "work/research/2026-11-08/freshness-225-final-corrections/application.json",
-      "residual_reference": {
-        "dataset": "state_policy",
-        "id": "wy-sf0193-2025"
-      },
+      "disposition": "corrected_resolved",
+      "public_receipt_pointer": "work/research/2026-11-09/post-release-qa/wyoming-sf193-disposition-reconciliation.json",
+      "residual_reference": null,
       "recorded_evidence_fingerprints_sha256": [
         "433c05eff7d7d97a47969daa2f585aafb61b67edabd3924459d887356a8d8d1c",
         "5a40cacbd18ff06aa396d1ed41ce9ffed75cfc58566addd9af58c7eb7073cb80",
@@ -38389,6 +38386,15 @@
       "disposition": "unresolved",
       "receipt": "work/research/2026-11-09/post-release-qa/monument-ordinance-adjudication.json",
       "scope": "Signed text recovered; duration/effectiveness distinguished; publication/later-force held."
+    },
+    {
+      "reviewed_at": "2026-11-10T12:33:11.379578+00:00",
+      "id": "wy-sf0193-2025",
+      "cohort": "earlier225",
+      "prior_disposition": "unresolved",
+      "disposition": "corrected_resolved",
+      "receipt": "work/research/2026-11-09/post-release-qa/wyoming-sf193-disposition-reconciliation.json",
+      "scope": "Stale conditional-scope acceptance question reconciled with prior independent scope decision; failed historical instrument only."
     }
   ]
 }

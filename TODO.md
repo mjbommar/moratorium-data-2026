@@ -1,5 +1,7 @@
 # Implementation TODO
 
+- [x] Reconcile stale Wyoming SF193 analytical-acceptance question against the exact-row independent scope decision and retained terminal digest. No new captures or canonical/status changes; 1,353 unresolved reviews remain.
+
 - [x] Deliver qualified post9 and additive V24: nine corrected fields, one historical adoption date, two scoped historical closures; deterministic builds, full clean restore, ten anonymous downloads and exact consumer checks pass. 1,354 reviews remain unresolved; website-copy synchronization remains pending.
 
 - [x] Reconcile two stale Wyoming failed-proposal disposition questions against prior independent scope decisions and retained terminal histories. No new captures or canonical/status changes; 1,354 unresolved records remain. [Evidence](work/research/2026-11-09/post-release-qa/wyoming-scope-disposition-reconciliation.json).

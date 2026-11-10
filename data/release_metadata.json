@@ -7,7 +7,7 @@
     "end": "2026-11-10"
   },
   "asset_name": "moratorium-data-2026.11.10.post9.tar.gz",
-  "coverage": "Original1777 records retain review provenance; two duplicates retired and one Massachusetts addition independently unreviewed. Current1776 active raw IDs:1354 unresolved,183 corrected-resolved,239 confirmed-unchanged scoped dispositions. No universal current-law certification.",
+  "coverage": "Original1777 records retain review provenance; two duplicates retired and one Massachusetts addition independently unreviewed. Current1776 active raw IDs:1353 unresolved,184 corrected-resolved,239 confirmed-unchanged scoped dispositions. No universal current-law certification.",
   "limitations": [
     "Recorded active/extended classifications do not prove current enforceability.",
     "Ballot voting, certification, passage and operative legal effect remain distinct.",
@@ -22,8 +22,8 @@
   "quality_gate_disposition": "User authorized publication of the current state with qualifications on pending QA, followed by continued double checking and resolution of outstanding questions.",
   "reviewed_data_source_commit": "21bcb804e21dbe728387775aada997b29497c549",
   "record_dispositions": {
-    "unresolved": 1354,
-    "corrected_resolved": 183,
+    "unresolved": 1353,
+    "corrected_resolved": 184,
     "confirmed_unchanged": 239,
     "superseded_duplicate": 0,
     "not_attempted": 0
@@ -173,7 +173,7 @@
     "receipt": "work/research/2026-11-10/release-2026.11.10.post8/hosted-data-verification.json",
     "scope": "Selected data/QA bytes only; no full release-label/prose/receipt synchronization claim."
   },
-  "latest_disposition_review": "work/research/2026-11-09/post-release-qa/wyoming-scope-disposition-reconciliation.json",
+  "latest_disposition_review": "work/research/2026-11-09/post-release-qa/wyoming-sf193-disposition-reconciliation.json",
   "pending_consumer_input_delta": {
     "baseline_source_commit": "21bcb804e21dbe728387775aada997b29497c549",
     "baseline_consumer_commit": "b22ba42c6fd78b72e0b0633873c3929677713a84",
@@ -185,10 +185,11 @@
     "status_category_changes": 0,
     "normalized_date_changes": 0,
     "scope_membership_changes": 0,
-    "whole_record_closures": 0,
+    "whole_record_closures": 1,
     "additional_reviews": [
-      "work/research/2026-11-09/post-release-qa/monument-ordinance-adjudication.json"
+      "work/research/2026-11-09/post-release-qa/monument-ordinance-adjudication.json",
+      "work/research/2026-11-09/post-release-qa/wyoming-sf193-disposition-reconciliation.json"
     ],
-    "scope": "Monument signed-ordinance recovery clarifies three prose fields; publication/current-force holds retained. Pending later release/consumer delivery, distinct from verified post9/V24."
+    "scope": "Monument signed-ordinance recovery clarifies three prose fields; publication/current-force holds retained. Pending later release/consumer delivery, distinct from verified post9/V24. One stale SF193 historical scope-acceptance question closed using prior independent decision; canonical cells unchanged."
   }
 }
