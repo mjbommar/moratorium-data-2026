@@ -733,3 +733,7 @@ November 5 discovery starting points, not an accepted canonical import:
 
 Archive and reverify these at implementation time. This plan records the research
 design and known edge cases, not a certification of every electoral or legal fact.
+
+### Research-technique update: observed read-only forms
+
+The [read-only government form protocol](read-only-form-research.md) adds an executed Kentucky journal example: retain the exact POST response, separate navigation from result extraction, account for session/viewstate navigation, and resolve identifier variants through actual result rows. It supplements the acquisition methods above without changing independent-review or canonical-promotion gates. The deployed post14 snapshot is unchanged by this source-only follow-up.

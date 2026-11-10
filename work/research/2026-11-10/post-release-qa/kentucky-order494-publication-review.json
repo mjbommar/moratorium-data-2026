@@ -1,0 +1,148 @@
+{
+  "reviewed_at": "2026-11-10T16:11:23.727102+00:00",
+  "candidate_id": "ky-executive-order-2026-494-2026",
+  "canonical_policy_sha256_guard": "2326a0e5a87a02e8db6af9690bad46e3c920c549778ba9832b8c9c9d462c64a1",
+  "canonical_counts_unchanged": true,
+  "canonical_policy_records": 448,
+  "canonical_changes": 0,
+  "whole_record_closures": 0,
+  "native_source_readbacks": 5,
+  "prior_candidate_receipt": "work/research/2026-11-10/post-release-qa/kentucky-incentive-implementation-review.json",
+  "sources": [
+    {
+      "attempt_id": "dcc2293cb1f9423fac6b5c25abb2676f",
+      "url": "https://web.sos.ky.gov/execjournal/jrnl.aspx",
+      "body_sha256": "06af3176955264b7c0d2454ac45228c90ccc59449c6df26097710bc30ece4eaf",
+      "body_observed_at": "2026-11-10T15:58:55.663129Z",
+      "original_text_sha256": "3a486a455423728e067d7155980510aba511f3eb0d0f56fe32deb8eb5de29aef",
+      "accepted_text_sha256": "3a486a455423728e067d7155980510aba511f3eb0d0f56fe32deb8eb5de29aef",
+      "accepted_text_method": "bc_research.pipeline.document_text via bounded research client"
+    },
+    {
+      "attempt_id": "96461e6dc6fe4a93bd16ab5b54880f7d",
+      "url": "https://governor.ky.gov/attachments/20260806_Executive-Order_2026-494_Related-to-Data-Centers.pdf",
+      "body_sha256": "aa6eb0bc128be34f144eea6f7093c71b2d3d4bd0e68c129c1d8979fce2d1a420",
+      "body_observed_at": "2026-11-10T15:58:55.685264Z",
+      "original_text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "accepted_text_sha256": "90d491843bae77f512651849101d71dd300189bdf9c33b304cdd9335b4ddb098",
+      "accepted_text_method": "Reuse reviewed OCR only after pixel-identical comparison of both governor-PDF renders against agency-packet pages3-4. Both direct governor pages visually reviewed. Original empty extraction preserved."
+    },
+    {
+      "attempt_id": "1ada74a32d3c44c89831e8467172531a",
+      "url": "https://web.sos.ky.gov/execjournal/jrnl.aspx",
+      "body_sha256": "e4e0f1ada3a02acc942a3f94fe00893f1adc26ee2fe852372211a7c1691bdb00",
+      "body_observed_at": "2026-11-10T16:02:28.543Z",
+      "original_text_sha256": "3a486a455423728e067d7155980510aba511f3eb0d0f56fe32deb8eb5de29aef",
+      "accepted_text_sha256": "6e8f8e24aa6cf9fff93b0e7b246a4616f14ab8ade27eaea370852750cfc05113",
+      "accepted_text_method": "Full visible-text extraction from exact retained same-origin read-only search POST response; input query verified in that response. Initial navigation extraction is not used as result evidence."
+    },
+    {
+      "attempt_id": "8cc3692064944d4fbdedeb7babf973f0",
+      "url": "https://web.sos.ky.gov/execjournal/jrnl.aspx",
+      "body_sha256": "70e866d4096927f905dc2cdbb5df0ab4a85772f70abbe3ef5d15e2df1779131a",
+      "body_observed_at": "2026-11-10T16:05:23.306Z",
+      "original_text_sha256": "ec7a4d299a9073bc986aeb99292b72a69f2fc2c491ecc9ac6a046f06a286328f",
+      "accepted_text_sha256": "379f494787b7db19c62a4428d1fcd60e8ada61343cb991c4c6ec3e6927134f86",
+      "accepted_text_method": "Full visible-text extraction from exact retained same-origin read-only search POST response; input query verified in that response. Initial navigation extraction is not used as result evidence."
+    },
+    {
+      "attempt_id": "0f43803c03294269aa8a8ca7ef39832c",
+      "url": "https://web.sos.ky.gov/execjournalimages/2026-MISC-2026-0494-301849.pdf",
+      "body_sha256": "32e04f6f11b49479ca5ae2f3179d9135d8385133deeb73b43f4c121449559696",
+      "body_observed_at": "2026-11-10T16:08:05.759520Z",
+      "original_text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "accepted_text_sha256": "b148f53c89a1c8822f2ee5f60d7f9ef88efa858744807a5dff79a600ea411280",
+      "accepted_text_method": "Tesseract on all3scanned filed-copy pages; all3pages visually reviewed. Page2 adds Secretary of State signature/attestation and seal; page3 received/filed August6,2026 stamp. Original empty extraction preserved."
+    }
+  ],
+  "governor_and_agency_pixel_comparison": [
+    {
+      "governor_pdf_page": 1,
+      "carrier_pdf_page": 3,
+      "pixel_identical": true,
+      "governor_render_sha256": "f1a9d4839e0dbad7a902a455f891ff9b1be9800bf1b8241fa314c7ee07e88911",
+      "carrier_render_sha256": "f1a9d4839e0dbad7a902a455f891ff9b1be9800bf1b8241fa314c7ee07e88911"
+    },
+    {
+      "governor_pdf_page": 2,
+      "carrier_pdf_page": 4,
+      "pixel_identical": true,
+      "governor_render_sha256": "2ae2e2e8d95dd9a024912c3de59f054d3659ab63566d41c3323e218c604e1b29",
+      "carrier_render_sha256": "2ae2e2e8d95dd9a024912c3de59f054d3659ab63566d41c3323e218c604e1b29"
+    }
+  ],
+  "official_journal_observation": {
+    "query": "494",
+    "field": "EONumber",
+    "administration": "ABeshear",
+    "returned_records": 6,
+    "selected_order": "2026-0494",
+    "selected_category": "Executive Orders",
+    "selected_filed_date": "2026-08-06",
+    "selected_book": "2026",
+    "filed_document_url": "https://web.sos.ky.gov/execjournalimages/2026-MISC-2026-0494-301849.pdf",
+    "initial_query": "2026-494",
+    "initial_query_returned_records": 0,
+    "scope": "Selected exact2026order from6partial-number results; not an exhaustive later-history/absence search."
+  },
+  "filed_copy_review": {
+    "pages": 3,
+    "all_pages_visually_reviewed": true,
+    "substantive_order_pages": [
+      1,
+      2
+    ],
+    "secretary_of_state_attestation_and_seal_page": 2,
+    "received_and_filed_stamp_page": 3,
+    "source_reported_filed_date": "2026-08-06",
+    "scope": "Filed copy corroborates printed order and adds attestation/seal/filing evidence; no independent legal-validity or current-force determination."
+  },
+  "subquestions_resolved_by_source_review": [
+    "Direct governor publication matches the agency carrier document.",
+    "Journal number format2026-0494 maps to the printed2026-494 instrument, supported by the filed copy itself.",
+    "Filing dateAugust6,2026 is supported by both the journal row and the filed-copy stamp."
+  ],
+  "remaining_questions": [
+    "Independent record-level review of identity, operative scope, dates and appropriate typed mechanism is still required before canonical admission. Provisional other mechanism reflects multiple directive families; permitting_restriction or utility_large_load_restriction require deliberate reviewer adjudication.",
+    "Review material later amendment/rescission, administrative/judicial developments and case-specific operation through the desired cutoff if claiming current force or applicability."
+  ],
+  "acquisition_accounting": {
+    "exa_searches": 1,
+    "exa_cost_usd": 0.007,
+    "fetch_operations": 5,
+    "phases": [
+      {
+        "purpose": "official publication, observed journal form, literal-number form search",
+        "fetch_operations": 3
+      },
+      {
+        "purpose": "changed partial-number form search after literal zero-result response",
+        "fetch_operations": 1
+      },
+      {
+        "purpose": "concrete actually linked filed PDF",
+        "fetch_operations": 1
+      }
+    ],
+    "browser_operations": 2,
+    "intentional_document_requests_excluding_redirects_and_assets": 7,
+    "no_cap_resets": true
+  },
+  "extraction_quality_correction": "The first browser POST response carried correct response bytes but reused initial navigation PageContent for its initial text extraction. That text is preserved and rejected as result evidence; an explicitly registered full-DOM derivation captures the zero-result response. The partial-number followup clears navigation PageContent before parsing the POST body and also has a registered exact-response derivation. No stale navigation extraction is accepted as result evidence.",
+  "older_leads_reused": {
+    "date": "2026-11-05",
+    "source_job": "full/ky-state-policy-001",
+    "attempts": [
+      "2576b4184e7c49fa831ab9f0f914e8cd",
+      "7023c56e00384ba09d77593561cdaeb0",
+      "89b0100d2ebb491198575b5e47fa9b96"
+    ],
+    "scope": "Retained provider hits mentioned the order, but no governor/SOS body fetch or independent order review was found in that job. New official bodies are not labelled a first-ever discovery."
+  },
+  "limitations": [
+    "Filing and effectiveness are separate observed claims; no present-force inference from a filing stamp.",
+    "Governor/agency copy has an unfilled Secretary signature line; the separately retrieved filed copy supplies the attestation/seal. Neither copy is silently substituted for the other.",
+    "Literal zero-result search was not evidence of absence; padded identifiers and exact response/body lineage matter.",
+    "Prior publication receipts and the deployed post14 snapshot remain immutable."
+  ]
+}
