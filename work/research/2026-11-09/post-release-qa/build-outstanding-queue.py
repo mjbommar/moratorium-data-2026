@@ -988,6 +988,13 @@ def main():
         assert digest(json.dumps(current[key],sort_keys=True,separators=(',',':'),ensure_ascii=False).encode())==record['current_row_sha256']
         assert next(r for r in f['records'] if r['id']==record['id'])['disposition']==record['recommendation']=='unresolved'
         overlays[record['id']]=[public_text(q) for q in record['remaining_questions']]
+    wy_session_path=Path('work/research/2026-11-10/post-release-qa/wyoming-session-identity-review.json')
+    if wy_session_path.exists():
+        for record in json.loads(wy_session_path.read_text())['records']:
+            key=('state_policy',record['id'])
+            assert digest(json.dumps(current[key],sort_keys=True,separators=(',',':'),ensure_ascii=False).encode())==record['current_row_sha256']
+            assert next(r for r in f['records'] if r['id']==record['id'])['disposition']==record['recommendation']=='unresolved'
+            overlays[record['id']]=list(dict.fromkeys(overlays.get(record['id'],[])+[public_text(q) for q in record['remaining_questions']]))
     rows=[]
     for entry in f['records']:
         if entry['disposition']!='unresolved':continue
@@ -1014,6 +1021,7 @@ def main():
     summary['new_haven_version_comparison_sha256']=digest(new_haven_version_path.read_bytes()) if new_haven_version_path.exists() else None
     summary['independence_operative_term_sha256']=digest(independence_path.read_bytes()) if independence_path.exists() else None
     summary['independence_ordinance19850_sha256']=digest(independence_later_path.read_bytes()) if independence_later_path.exists() else None
+    summary['wyoming_session_identity_sha256']=digest(wy_session_path.read_bytes()) if wy_session_path.exists() else None
     summary['fairbanks_recovery_sha256']=digest(fairbanks_recovery.read_bytes()) if fairbanks_recovery.exists() else None
     (args.output/'outstanding-queue-verification.json').write_text(json.dumps(summary,indent=2)+'\n');print(json.dumps(summary,indent=2))
 if __name__=='__main__':main()
