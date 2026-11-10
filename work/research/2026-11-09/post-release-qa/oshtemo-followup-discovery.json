@@ -1,0 +1,80 @@
+{
+  "reviewed_at": "2026-11-10T02:31:17.309153+00:00",
+  "as_of_local_date": "2026-11-09",
+  "sources": [
+    {
+      "name": "adopted-index",
+      "url": "https://www.oshtemo.org/Departments/Ordinance-Enforcement/Adopted-Ordinances",
+      "attempt_id": "179f16091ab14975b271fba74e5954cc",
+      "body_sha256": "b010668f2e71c05eb5eb695c75ef6559eb3b8fea769043718228fb10c9f0b662",
+      "reviewed_text_sha256": "5f9a9629eb3910000600ba9d5f74dc5fc5d270ab05c82e777e0c21966ad18669",
+      "body_observed_at": "2026-11-10T02:23:54.929135Z"
+    },
+    {
+      "name": "minutes-index",
+      "url": "https://www.oshtemo.org/Boards-Committees/Township-Board/Township-Board-Minutes",
+      "attempt_id": "b694e024636b49c1bb69f774001cd0aa",
+      "body_sha256": "e821935b45a254b3691d2a04cf67ce89a0e7d249f45a7d127cad2a25a48d24ad",
+      "reviewed_text_sha256": "5f9a9629eb3910000600ba9d5f74dc5fc5d270ab05c82e777e0c21966ad18669",
+      "body_observed_at": "2026-11-10T02:23:55.778456Z"
+    },
+    {
+      "name": "october27",
+      "url": "https://www.oshtemo.org/files/assets/public/v/1/boards-and-committees/township-board/minutes/10272026-meeting-minutes.pdf",
+      "attempt_id": "0cd754bd12a4485aad1db13c4c22fd22",
+      "body_sha256": "fa2942a765d3e71ad0e525959772b133ef9245282df7beb1e7b0687e93624de4",
+      "reviewed_text_sha256": "c6b63f26ff793d47535929919ab039ca766f6f6144614d861b2a71383cf5dcaf",
+      "body_observed_at": "2026-11-10T02:24:33.185053Z"
+    },
+    {
+      "name": "november25-2025",
+      "url": "https://www.oshtemo.org/files/assets/public/v/1/boards-and-committees/township-board/minutes/11252025-meeting-minutes.pdf",
+      "attempt_id": "c51ba0acd7114e6c9e6ae48626bcae2d",
+      "body_sha256": "c9fd3d470ab76a8bb779826e0065de88567df5fa4343978a086b46680f93dda3",
+      "reviewed_text_sha256": "2fbc8a016bda6b16f720f0dfac88cffdd87931b81186730f24e168819427747c",
+      "body_observed_at": "2026-11-10T02:24:51.748646Z"
+    },
+    {
+      "name": "march10-2026",
+      "url": "https://www.oshtemo.org/files/assets/public/v/1/boards-and-committees/township-board/minutes/03102026-meeting-minutes_1.pdf",
+      "attempt_id": "8c809a571c074cb99accccad6288ae9b",
+      "body_sha256": "c53553d02715911fd481d3f84e7c7e21aa57fcf53e7d9c10916a171a7f3d120b",
+      "reviewed_text_sha256": "e6b7ffba35941bd5ce60bdb0520928d389a4d51804eff32fb32fbbf5429197c4",
+      "body_observed_at": "2026-11-10T02:24:51.591646Z"
+    },
+    {
+      "name": "november10-packet",
+      "url": "https://www.oshtemo.org/files/assets/public/v/1/boards-and-committees/township-board/agenda-packets/2026.11.10-township-board-agenda-packet.pdf",
+      "attempt_id": "87c6b314f343432cb69a7d9c0d0cab31",
+      "body_sha256": "6cf6e4dd393cd5075738eccc995a44a93cd1031b0708d8f19129d839b327a82f",
+      "reviewed_text_sha256": "77b43e60418c9d5f6dddd9117935a47486561503b8669a7d1e01533bf90b199e",
+      "body_observed_at": "2026-11-10T02:25:26.340166Z"
+    }
+  ],
+  "http_requests": 6,
+  "additional_requests_authorized_in_phase": 0,
+  "canonical_cells_changed": 0,
+  "whole_record_closures": 0,
+  "records": [
+    "mi-oshtemo-charter-township-2025",
+    "mi-oshtemo-charter-township-2026",
+    "mi-oshtemo-charter-township-2026-2"
+  ],
+  "findings": [
+    "November 25, 2025 minutes confirm second-reading adoption of the commercial energy-storage moratorium 5-0 with two absent; the motion does not supply an ordinance number or publication date.",
+    "March 10, 2026 minutes confirm the commercial data-center moratorium motion passed 7-0; the motion does not independently establish publication or present legal force.",
+    "November 10, 2026 packet pages 119-122 propose first readings for data centers and commercial energy storage, with proposed second readings November 24. Both dates are future as of the local review date.",
+    "Both draft texts specify December 31, 2027 and effectiveness upon publication after adoption. Adopted and Effective header fields are blank. These are proposed terms, not approved extensions.",
+    "The packet labels the data-center draft ordinance 670 and storage draft 671. These printed draft identifiers are not substituted for the original enacted ordinance identifiers. The numbering discrepancy remains unresolved.",
+    "Items 20 and 21 concern data centers and energy storage, not a solar extension.",
+    "October 27 minutes summarize energy-ordinance work-session discussion; no extension adoption motion was located in their extracted text. This does not prove absence of other action.",
+    "The adopted-ordinance index is incomplete for the instruments at issue. Its omission does not prove nonadoption or repeal."
+  ],
+  "next_actions": [
+    "Locate original enacted storage instrument and publication proof; reconcile draft 671 against the original identifier.",
+    "Locate publication proof and final operative text for original data-center ordinance; reconcile draft 670 against ordinance 688.",
+    "Retain solar ordinance 695 publication and precise term questions separately; the two November proposals do not resolve them.",
+    "After the scheduled meetings, inspect actual votes and publication rather than promoting the agenda drafts to adopted status."
+  ],
+  "scope": "Direct source review of adoption motions and proposed extension terms. Current-force and original publication questions remain open; canonical status categories unchanged."
+}
