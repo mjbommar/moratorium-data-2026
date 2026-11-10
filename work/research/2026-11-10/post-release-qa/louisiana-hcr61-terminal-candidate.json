@@ -1,0 +1,31 @@
+{
+  "state": "held_pending_independent_terminal_adjudication",
+  "id": "la-hcr61-2025-rs",
+  "current_row_sha256_guard": "39c9f3325e057028dea8560a8097b70ef3ec7a6396040e3de25392c839550e4f",
+  "evidence_receipt": "work/research/2026-11-10/post-release-qa/louisiana-hcr61-closing-window-review.json",
+  "not_applied_to_csv": true,
+  "proposed_changes": [
+    {
+      "field": "status",
+      "before": "House adopted 93-0 on 2025-06-08; Senate received it that day and returned it to the calendar subject to call on 2025-06-09. The baseline reports that it died at adjournment; final disposition remains unverified.",
+      "after": "The retained named history records House adoption 93-0 on June 8, 2025 and Senate return to calendar subject to call June 9. No HCR61entry was found in the reviewed June 10\u201312Senate journals, including the final-day post-session administrative appendix. The Senate adjourned sine die June 12 at 5:52 p.m. Historical regular-session nonpassage is proposed as a bounded inference from those records, not a bill-specific Died event or a finding that similar policy was never adopted elsewhere."
+    },
+    {
+      "field": "bill_status_category",
+      "before": "unknown",
+      "after": "failed_died"
+    },
+    {
+      "field": "legal_effect_status",
+      "before": "unknown",
+      "after": "failed"
+    }
+  ],
+  "unchanged_normalized_last_named_action": "2025-06-09",
+  "review_requirements": [
+    "Independently adjudicate the historical regular-session nonpassage inference from the retained 14-entry named history, the reviewed complete June 10\u201312Senate journal window and actualJune 12adjournment before accepting a terminal category. No bill-specific Died event was recovered. Do not repeat these sources as an unperformed final-window lookup.",
+    "The House-bills-only final-disposition table does not list HCR61 and its code legend is not automatically applied to concurrent resolutions. The Journal Index to Actions is procedural rather than a complete per-instrument final-status census.",
+    "Distinguish regular-session passage from post-session signing/enrollment messages: the June 12journal explicitly contains post-session administrative actions after adjournment. All 108 pages of that file were text-searched, not only its main pre-adjournment proceedings. No finding that similar policy never became operative elsewhere is made."
+  ],
+  "scope": "Review-ready proposed terminal classification only; all canonical row fields, status totals and publication bytes remain unchanged."
+}
