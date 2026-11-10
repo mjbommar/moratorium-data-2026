@@ -1,0 +1,95 @@
+{
+  "canonical_fields_changed": 30,
+  "changed_records": 10,
+  "status_category_changes": 10,
+  "legal_effect_changes": 10,
+  "scope_membership_changes": 0,
+  "scope_fingerprint_rebindings": 10,
+  "raw_ids_added_or_removed": 0,
+  "whole_record_closures": 10,
+  "dispositions": {
+    "unresolved": 1382,
+    "corrected_resolved": 157,
+    "confirmed_unchanged": 237
+  },
+  "checks": [
+    {
+      "command": [
+        "scripts/validate_dataset.py",
+        "--today",
+        "2026-11-09"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/build_policy_scope_exports.py",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/build_summary_stats.py",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/build_geojson.py",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/make_timeline.py",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/check_docs_numbers.py"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "-m",
+        "scripts.generate_tables.inventory_clean",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/build_index.py",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/classify_sources.py",
+        "--check"
+      ],
+      "returncode": 0
+    }
+  ],
+  "dataset_errors": 0,
+  "dataset_warnings": 620,
+  "documented_numbers_matched": 95,
+  "exact_native_body_and_text_pairs": 26,
+  "retained_record_source_pairs_hash_checked": 59,
+  "retained_unique_source_pairs_hash_checked": 32,
+  "september_status_category_differences": {
+    "local": 95,
+    "policy": 53,
+    "total": 148
+  },
+  "classification_qualification": "Explicit bounded regular-session nonpassage inference. Calendar-only guidance is not represented as a blanket committee rule; actual adjournments, complete histories and constitutional even-year passage cutoff supply the committee-file inference. No bill-specific Died event, omnibus absence or current-force survey is invented.",
+  "generated_file_sizes_verified": true,
+  "pending_delivery": "Accumulated Wisconsin/Minnesota delta is41 canonical cells across15 policy records,10 status-category changes and four Wisconsin scope inclusions. Consumer and next release synchronization remain pending."
+}

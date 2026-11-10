@@ -2,6 +2,8 @@
 
 ## Working QA after v2026.11.9.post3
 
+Minnesota actual final Senate journal, current even-year authority and19 complete named/companion histories resolve ten terminal-outcome holds. Thirty cells across ten records change, with unknown categories/effects replaced by explicitly inferred regular-session nonpassage. No fictitious Died event or omnibus-content absence is claimed. Current dispositions:1,382 unresolved,157 corrected-resolved,237 confirmed-unchanged. Surviving status-category differences from September fall158→148 (95 local/53 policy) as these ten categories return to their old values. [Review](work/research/2026-11-09/post-release-qa/minnesota-session-adjudications.json).
+
 Current working snapshot: **1,328 local records**, **448 policy observations**, and **57 proposal/measure records** with **53 current result observations** (five certified).
 
 | Metric | Working QA after v2026.11.9.post3 |
