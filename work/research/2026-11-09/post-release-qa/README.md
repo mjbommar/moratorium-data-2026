@@ -1,5 +1,11 @@
 # Continuing QA after v2026.11.9
 
+## November 10: Lodi alternate signed certification
+
+Three Lodi prose fields now distinguish the newly captured July-hosted original ordinance from the retained February copy. The July-hosted signed certification lists publication February 11 and handwritten effectiveness February 12, consistent with section 8; the older copy lists February 11 for both. No express correction/supersession record or independent publication proof was inspected. Original endpoint, any gap, earlier regulatory endpoint and later force remain open. Nashville routing captures supplied no substantive 2026 minutes and do not resolve its distinct commencement/adoption-effective dates.
+
+Four exact archive/native readbacks pass. Status categories, normalized dates/endpoints, native tables, headline counts and 1,358 unresolved dispositions are unchanged. Three Lodi cells are pending release/consumer delivery after post6/V21. [Review](lodi-effective-version-review.md).
+
 The release is frozen and public with pending-QA qualifications. The complete
 [record-disposition ledger](../../2026-11-08/full-record-dispositions/README.md)
 remains in scope; the first batch below prioritizes material local identity/stage

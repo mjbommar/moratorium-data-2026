@@ -1,0 +1,106 @@
+{
+  "scope": "Focused verification of three Lodi prose corrections after post6/V21; not whole-record legal-force acceptance or release/consumer delivery.",
+  "canonical_delta": [
+    {
+      "id": "mi-lodi-township-2026",
+      "field": "duration",
+      "before": "Original Ordinance 2026-001: 180 days from its effective date or earlier qualifying regulations; section 8 and certification conflict on the February effective date. Successor Ordinance 2026-003: 180 days from August 20, 2026 or earlier qualifying regulations; approximately February 16, 2027 is a conditional outer endpoint.",
+      "after": "Original Ordinance 2026-001: 180 days from its effective date or earlier qualifying regulations; the July-hosted signed certification lists February 12, 2026, consistent with section 8, while the retained February copy lists February 11. Successor Ordinance 2026-003: 180 days from August 20, 2026 or earlier qualifying regulations; approximately February 16, 2027 is a conditional outer endpoint."
+    },
+    {
+      "id": "mi-lodi-township-2026",
+      "field": "legal_basis",
+      "before": "Ordinance No. 2026-001 and Resolution No. 2026-007 adopted February 3, 2026. Section 8 of the original ordinance provides effect the day after publication, while its certification states both publication and effectiveness February 11; the operative date and original endpoint require verification. The Board adopted successor Ordinance No. 2026-003 on August 11, covering high-power facilities including data centers except small-scale accessory facilities, electrical substations over 10 MW and power-generating facilities over 1 MW.",
+      "after": "Ordinance No. 2026-001 and Resolution No. 2026-007 adopted February 3, 2026. Section 8 provides effect the day after publication. The July-hosted ordinance copy has a signed clerk certification listing publication February 11 and a handwritten effective date February 12, consistent with section 8; the retained February copy lists February 11 for both. No express correction/supersession statement or independent publication proof was inspected. The Board adopted successor Ordinance No. 2026-003 on August 11, covering high-power facilities including data centers except small-scale accessory facilities, electrical substations over 10 MW and power-generating facilities over 1 MW."
+    },
+    {
+      "id": "mi-lodi-township-2026",
+      "field": "current_status",
+      "before": "Ordinance No. 2026-003 was adopted August 11, published August 19, and effective August 20, 2026. It imposes a 180-day moratorium on high-power facilities, including data centers with a small-scale accessory exception, or until relevant regulations take effect earlier. August 20 committee minutes report work on regulations. The original ordinance states effect the day after publication, but its certification lists February 11 as both publication and effective date. Later action, current legal force, the original endpoint and any gap remain unresolved. [VERIFY original effective date and endpoint, any gap, earlier regulatory endpoint and later action]",
+      "after": "Ordinance No. 2026-003 was adopted August 11, published August 19, and effective August 20, 2026. It imposes a 180-day moratorium on high-power facilities, including data centers with a small-scale accessory exception, or until relevant regulations take effect earlier. August 20 committee minutes report work on regulations. The July-hosted original Ordinance 2026-001 copy certifies publication February 11 and effectiveness February 12, consistent with its day-after-publication clause; the retained February copy instead lists February 11 for both. The alternate signed copy narrows the effective-date question but does not expressly reconcile the versions or prove independent publication, the actual original endpoint, any gap or later legal force. [VERIFY version reconciliation/publication, original endpoint, any gap, earlier regulatory endpoint and later action]"
+    }
+  ],
+  "changed_cells": 3,
+  "status_category_changes": 0,
+  "normalized_date_changes": 0,
+  "whole_record_closures": 0,
+  "source_manifest_prefixes_preserved": true,
+  "exact_archive_native_readbacks": 4,
+  "map_property_delta": [
+    [
+      "duration"
+    ]
+  ],
+  "all_map_geometries_preserved": true,
+  "summary_stats_bytes_preserved": true,
+  "september_status_category_differences": 134,
+  "unresolved_records": 1358,
+  "checks": [
+    {
+      "command": [
+        "scripts/validate_dataset.py",
+        "--today",
+        "2026-11-10"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/build_policy_scope_exports.py",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/build_summary_stats.py",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/build_geojson.py",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/make_timeline.py",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/check_docs_numbers.py"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "-m",
+        "scripts.generate_tables.inventory_clean",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/build_index.py",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/classify_sources.py",
+        "--check"
+      ],
+      "returncode": 0
+    }
+  ],
+  "adjudication_sha256": "9c6d634583b06e9a15bc09410db3174ffb1ca370824a8c82bf6bc497136d7741",
+  "delivery_state": "pending_next_qualified_release_consumer_batch"
+}

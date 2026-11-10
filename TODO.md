@@ -4,6 +4,9 @@ Plan: [Research modernization and ballot-measure expansion](docs/research-and-ba
 
 ## Active: publish the current state with pending QA, then clear outstanding questions
 
+- [x] Compare the distinct Lodi original-ordinance PDF and record its internally consistent February 12 signed certification; retain the older conflicting version and remaining legal-force questions. [Review](work/research/2026-11-09/post-release-qa/lodi-effective-version-review.md).
+- [ ] Deliver the three post6/V21 Lodi prose corrections in the next qualified release/consumer batch.
+
 - [x] Deliver the consolidated New Jersey twelve-cell/five-row correction as authenticated V6 inputs; preserve V5 and earlier snapshots. [Receipt](work/research/2026-11-09/post-release-qa/consumer-v6-handoff.md).
 
 
