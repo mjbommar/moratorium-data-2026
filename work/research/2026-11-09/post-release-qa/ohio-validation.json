@@ -1,0 +1,89 @@
+{
+  "canonical_fields_changed": 5,
+  "changed_records": 3,
+  "date_corrections": 3,
+  "narrative_corrections": 2,
+  "status_category_changes": 0,
+  "scope_membership_changes": 0,
+  "scope_fingerprint_rebindings": 3,
+  "whole_record_closures": 8,
+  "corrected_resolved": 3,
+  "confirmed_unchanged": 5,
+  "dispositions": {
+    "unresolved": 1397,
+    "corrected_resolved": 142,
+    "confirmed_unchanged": 237
+  },
+  "native_exact_body_text_pairs": 16,
+  "retained_pairs_hash_checked": 17,
+  "checks": [
+    {
+      "command": [
+        "scripts/validate_dataset.py",
+        "--today",
+        "2026-11-09"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/build_policy_scope_exports.py",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/build_summary_stats.py",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/build_geojson.py",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/make_timeline.py",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/check_docs_numbers.py"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "-m",
+        "scripts.generate_tables.inventory_clean",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/build_index.py",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/classify_sources.py",
+        "--check"
+      ],
+      "returncode": 0
+    }
+  ],
+  "dataset_errors": 0,
+  "dataset_warnings": 620,
+  "documented_numbers_matched": 95,
+  "pending_delivery": "Five Ohio cells across three policy records await integration-consumer handoff; these and four already delivered Illinois provision cells await release synchronization."
+}

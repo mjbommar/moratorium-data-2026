@@ -7,7 +7,7 @@
     "end": "2026-11-09"
   },
   "asset_name": "moratorium-data-2026.11.9.post2.tar.gz",
-  "coverage": "The original 1,777 records retain primary and independent review artifacts; two duplicates are retired. One new Massachusetts package has direct source review with independent QA pending. Current 1,776 active raw IDs retain 1,405 unresolved, 139 corrected-resolved and 232 confirmed-unchanged scoped dispositions. No universal current-law certification.",
+  "coverage": "The original 1,777 records retain primary and independent review artifacts; two duplicates are retired. One new Massachusetts package has direct source review with independent QA pending. Current 1,776 active raw IDs retain 1,397 unresolved, 142 corrected-resolved and 237 confirmed-unchanged scoped dispositions. No universal current-law certification.",
   "limitations": [
     "Recorded active/extended classifications do not prove current enforceability.",
     "Ballot voting, certification, passage and operative legal effect remain distinct.",
@@ -20,18 +20,18 @@
   "consumer_dispositions": "delivered_with_historical_editions_preserved",
   "experimental_extractor": "failed_no_automatic_promotion",
   "quality_gate_disposition": "User authorized publication of the current state with qualifications on pending QA, followed by continued double checking and resolution of outstanding questions.",
-  "reviewed_data_source_commit": "a41088429728b4f729637d182415ce0a80eabb84",
+  "reviewed_data_source_commit": "db3ae5257035dfffeb22e8c23767ba48cd9f90e2",
   "record_dispositions": {
-    "unresolved": 1405,
-    "corrected_resolved": 139,
-    "confirmed_unchanged": 232,
+    "unresolved": 1397,
+    "corrected_resolved": 142,
+    "confirmed_unchanged": 237,
     "superseded_duplicate": 0,
     "not_attempted": 0
   },
   "record_disposition_path": "work/research/2026-11-08/full-record-dispositions/funnel.json",
   "qa_status": "ongoing",
   "publication_authorization": "publish current state with qualifications on pending QA, then continue to double check and clear the outstanding questions",
-  "working_revision": "post2-qa-2",
+  "working_revision": "post2-qa-3",
   "current_raw_counts": {
     "local": 1328,
     "state_policy": 448,
@@ -48,5 +48,14 @@
     "receipt": "work/research/2026-11-09/post-release-qa/consumer-v7-handoff.json",
     "scope": "Current canonical input delivery; remaining independent/source QA and historical joins remain separate."
   },
-  "published_source_commit": "9174793a5e0a8111d7c33c91599bf87f9155c26d"
+  "published_source_commit": "9174793a5e0a8111d7c33c91599bf87f9155c26d",
+  "pending_consumer_input_delta": {
+    "baseline_source_commit": "a41088429728b4f729637d182415ce0a80eabb84",
+    "baseline_consumer_commit": "47d1038fe2cda0b913f01ff4e08f39178d5ca538",
+    "changed_policy_rows": 3,
+    "changed_cells": 5,
+    "status_category_changes": 0,
+    "receipt": "work/research/2026-11-09/post-release-qa/ohio-history-adjudications.json",
+    "scope": "Ohio hearing narratives and latest-recorded-action dates; a new consumer handoff remains pending."
+  }
 }

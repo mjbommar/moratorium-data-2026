@@ -2,6 +2,8 @@
 
 ## Working QA after v2026.11.9.post2
 
+Fresh Ohio status/committee pages close eight later-history holds. Five cells across three records change: three latest-recorded-action dates incorporate documented hearings, and two narratives add those hearings without asserting passage. No category or scope membership changes. Current scoped dispositions:1,397 unresolved,142 corrected-resolved,237 confirmed-unchanged. [Review](work/research/2026-11-09/post-release-qa/ohio-history-adjudications.json).
+
 Fresh South Carolina live history tables confirm six recorded bill stages and close six sole later-history holds unchanged. Current scoped dispositions:1,405 unresolved,139 corrected-resolved,232 confirmed-unchanged. No canonical cells, category or scope membership changes; S902 remains unresolved. [Review](work/research/2026-11-09/post-release-qa/south-carolina-history-adjudications.json).
 
 Current working snapshot: **1,328 local records**, **448 policy observations**, and **57 proposal/measure records** with **53 current result observations** (five certified).

@@ -755,6 +755,9 @@ Exit: repeatable refresh with visible freshness, costs, failures and unresolved 
 
 - [x] Review eleven Illinois histories, compare full retained HB5513/SB4016 introduced text and inspect SB3830/SB4004 amendment1 bodies. Apply four version-summary corrections and close four scoped holds; preserve seven successor-law questions. Verify13 native pairs,26 retained pairs and nine checks (0 errors,620 warnings,95 counts). Current unresolved1,411. See `work/research/2026-11-09/post-release-qa/illinois-review.md`.
 - [x] Deliver the four post2 Illinois provision-summary corrections to the integration consumer as verified V7, source `a4108842`, consumer `47d1038f`; see `work/research/2026-11-09/post-release-qa/consumer-v7-handoff.md`.
-- [ ] Include the four post2 Illinois provision-summary corrections in the next qualified release synchronization; current release assets remain immutable.
+- [ ] Include the four post2 Illinois provision-summary corrections and five Ohio narrative/date corrections (nine cells across seven policy records) in the next qualified release synchronization; current release assets remain immutable.
 
 - [x] Check six South Carolina live bill histories and close six sole later-history holds unchanged. Distinguish sponsor/scrivener entries from substantive actions, use reviewed full HTML where article extraction omitted history, verify12 native and12 retained source pairs, and preserve S902 procedural/scope hold. Current unresolved1,405; see `work/research/2026-11-09/post-release-qa/south-carolina-review.md`.
+
+- [x] Refresh eight Ohio status and committee pages, close eight later-history holds (three corrected/five unchanged), and correct five narrative/date cells without category or scope membership changes. Verify16 native and17 retained pairs and all nine checks. Current unresolved1,397; HB96 remains held. See `work/research/2026-11-09/post-release-qa/ohio-review.md`.
+- [ ] Deliver the five Ohio narrative/date corrections across three policy records to the integration consumer; V7 remains the delivered historical input cutoff.
