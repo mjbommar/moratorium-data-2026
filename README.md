@@ -1,8 +1,8 @@
 # Moratorium Data 2026
 
-**November patch release with pending QA:** [v2026.11.10.post12](https://github.com/mjbommar/moratorium-data-2026/releases/tag/v2026.11.10.post12) publishes the reviewed current state with explicit unresolved source and legal-status questions. Further checking continues. The older `v2026.11.8` remains an incomplete prerelease checkpoint.
+**November patch release with pending QA:** [v2026.11.10.post13](https://github.com/mjbommar/moratorium-data-2026/releases/tag/v2026.11.10.post13) publishes the reviewed current state with explicit unresolved source and legal-status questions. Further checking continues. The older `v2026.11.8` remains an incomplete prerelease checkpoint.
 
-**Qualified patch:** Fifteen fields across four Nebraska and Connecticut records corrected. Morris's adopted two-year term and source-reported dates replace conflicting draft reliance; Trumbull's effective-date anchor depends on publication. No status category changes or new whole-record closures. [Release downloads, full restore and consumer V27](work/research/2026-11-10/release-2026.11.10.post12/README.md) are verified; website synchronization remains on hold.
+**Qualified patch:** Eighteen fields across four Connecticut, Missouri and Wyoming records corrected. Adoption, signature and provision versions are distinguished; Independence's later standards do not automatically terminate its original moratoria. Wyoming HB0325 sponsor identities and parties now use 2025 rosters. No status category changes or new whole-record closures. [Release scope and delivery checks](work/research/2026-11-10/release-2026.11.10.post13/README.md); website synchronization remains on hold.
 
 **Continuing QA:** 1,347 records remain unresolved. Independent Massachusetts QA, exact publication/filing evidence and record-specific later force remain open. September status-category differences remain 133 (98 local, 35 policy). All 448 policy observations have primary references, without universal freshness or legal-force certification. Each release tag preserves its exact snapshot.
 
@@ -170,7 +170,7 @@ A `CITATION.cff` file is included in the repo so GitHub renders a "Cite this rep
 - **Data** (`data/`, `states/`, `tables/`, `figures/`) is licensed under [Creative Commons Attribution 4.0 (CC-BY-4.0)](LICENSE-data). You can reuse, redistribute, and remix the data, including commercially, as long as you credit the source.
 - **Code** (`scripts/`, `notebooks/`, `examples/`) is licensed under the [MIT License](LICENSE-code).
 
-The latest qualified release is [v2026.11.10.post12](https://github.com/mjbommar/moratorium-data-2026/releases/tag/v2026.11.10.post12), published November 10 with explicit pending QA. September 23 remains the historical comparison baseline. Pin the release tag for replication; working main may contain subsequent reviewed corrections. Historical version labels describe their dated editions, and no DOI is asserted.
+The latest qualified release is [v2026.11.10.post13](https://github.com/mjbommar/moratorium-data-2026/releases/tag/v2026.11.10.post13), published November 10 with explicit pending QA. September 23 remains the historical comparison baseline. Pin the release tag for replication; working main may contain subsequent reviewed corrections. Historical version labels describe their dated editions, and no DOI is asserted.
 
 ---
 

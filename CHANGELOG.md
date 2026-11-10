@@ -1,5 +1,18 @@
 # Changelog
 
+## Qualified v2026.11.10.post13
+
+Eighteen fields across four existing records corrected: West Haven adoption/packet distinction, New Haven signature/provision versions, Independence original terms and later permanent standards, Wyoming HB0325 sponsor identities/parties. No status categories, normalized dates, analytical membership, native history or whole-record dispositions change. There are 1,347 unresolved reviews. [Scope and delivery checks](work/research/2026-11-10/release-2026.11.10.post13/README.md).
+
+| Metric | Qualified v2026.11.10.post13 |
+|---|---:|
+| Moratoria in the list | **1,328** |
+| Classified active or extended | **1,087** |
+| Pending or not yet effective | **64** |
+| Ended (replaced, expired, or rescinded) | **171** |
+| Rows we still want to confirm (`[VERIFY]`) | **979** |
+| States with at least one | **47** |
+
 ## Qualified v2026.11.10.post12
 
 Fifteen fields across four records corrected: Nebraska introducer, Cromwell proposal identities, Morris adopted term/dates and Trumbull publication-dependent term. Two normalized dates corrected; no categories, raw IDs, analytical membership, native history or whole-record dispositions change. There are 1,347 unresolved reviews. [Scope and delivery checks](work/research/2026-11-10/release-2026.11.10.post12/README.md).
