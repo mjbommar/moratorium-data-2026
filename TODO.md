@@ -889,3 +889,6 @@ Exit: repeatable refresh with visible freshness, costs, failures and unresolved 
 
 - [x] Screen nonblank coordinates using retained Census references; directly review fourteen large-displacement candidates and correct thirteen jurisdiction reference points (26 coordinate cells plus five geographic-prose cleanups). Retain San Francisco and all unreviewed/nonunique matches without automatic edits; sixteen retained source pairs native-read back, zero network requests, no status/whole-record changes.
 - [x] Deliver thirteen geographic-reference corrections and rebuilt map/prose outputs in qualified v2026.11.10 and verified V15 from `738c40f3`; two identical builds, full clean restore, ten anonymous assets, all archive members, seventeen hosted surfaces and exact independently checked consumer input delivery pass. Transport ordering regression covered by14 tests and actualV14 compatibility; no status or whole-record changes.
+
+- [x] Deliver qualified post13 / V28: 18 corrected fields across four existing records; deterministic builds, full restore, anonymous downloads and exact consumer checks. No status/date changes or new whole-record closures.
+- [ ] Continue 1,347 unresolved legacy reviews, separate ballot follow-ups and qualified website synchronization hold; post13 delivery does not close these.

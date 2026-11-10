@@ -15,4 +15,4 @@ The follow-up index now includes previously recorded explicit source-followup fi
 
 The original research cutoff and historical releases/snapshots remain immutable. Targeted captures do not renew every record or establish a national census or universal legal force. Independent Massachusetts QA and the recorded source-specific holds remain open. Historical sibling publications and the April paper are not synchronized automatically.
 
-Deterministic builds, full clean restore, anonymous downloads and additive V28 consumer delivery require separate verification receipts. Website release-label/prose/receipt synchronization remains pending after three terminal syncing-files timeouts; no new deployment or successful current hosted-copy check is claimed.
+Two byte-identical builds, full clean restore, ten anonymous downloads, all 2,488 archive members and additive V28 consumer delivery are verified in separate receipts. Website release-label/prose/receipt synchronization remains pending after three terminal syncing-files timeouts; no new deployment or successful current hosted-copy check is claimed.

@@ -1,0 +1,5 @@
+# Qualified post13 / consumer V28 delivered
+
+Source `e515dec956c011e36ff71f57f380b4298d652f0c`; release manifest `f49498231539b0c11ef26d3726201946cef2d660b7682229653f1f71b42ef963`. Consumer main `a9934c94ec5a4e694dfa5ad4ec59565f5db5c2bc` is pushed and remote-verified. Exact 18-cell delta across four records, three trusted consistency checks, policy semantics and staged Git blobs/modes passed. Native history and numerical summary remain byte-identical to V27.
+
+West Haven adoption/packet distinction, New Haven signature/provision versions, Independence original moratoria and later standards, and Wyoming HB0325 sponsor identities/parties are corrected. No normalized dates, status categories, analytical membership or whole-record dispositions change. There are 1,347 unresolved reviews and 133 surviving September status differences (98 local, 35 policy). Publication, filing, complete enrollment, independent Massachusetts QA and later-force holds remain. Website synchronization remains pending.

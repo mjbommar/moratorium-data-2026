@@ -571,3 +571,7 @@ The explicit-workflow artifact was checked in full against pinned Git:8,129paylo
 ### Pages synchronization diagnostic, November 10
 
 The [post9 diagnostic](../work/research/2026-11-10/release-2026.11.10.post9/hosting-limit-diagnostic.json) confirms that GitHub documents a ten-minute deployment limit, separate from its custom-workflow exemption for the hourly build count. A custom REST client waiting thirty minutes is therefore not a supported timeout remedy. The verified prior artifact was 527,337,970 bytes, below the documented 1 GB published-site limit, with no symbolic/hard links. This does not identify the synchronization root cause. Preserve the complete payload, retain manual batching and require full hosted verification before clearing the hold. No new deployment was started for this diagnostic.
+
+## Qualified post13 / V28 delivery
+
+Source `e515dec956c011e36ff71f57f380b4298d652f0c` and consumer `a9934c94ec5a4e694dfa5ad4ec59565f5db5c2bc` are pinned in the [release receipt](../work/research/2026-11-10/release-2026.11.10.post13/README.md). Eighteen fields across four records corrected; native history and headline numerical summary unchanged. The HB0325 sponsor subquestion is resolved, but scope/mechanism questions keep its disposition unresolved. There are still 1,347 unresolved legacy reviews. Website synchronization remains held; `latest_verified_release` remains post7 while `latest_download_verified_release` is post13. No identical deployment retry was launched.
