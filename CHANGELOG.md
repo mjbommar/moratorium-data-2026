@@ -1,5 +1,9 @@
 # Changelog
 
+## Qualified v2026.11.10.post4 preparation
+
+Ten policy fields across four rows corrected; one status category becomes unknown, giving134 September differences. NewMexico floor amendment affirmatively not adopted; Maine general effective date verified. Local/native data unchanged;1,359 whole-record questions remain. Release/consumer verification pending.
+
 ## Qualified v2026.11.10.post3
 
 Canterbury's signed town minutes report Article 4 passed with 322 yes and 63 no and say clerk reports were finalized. One new result observation records reported approval and complete reporting, preserves the original observation and keeps certification/date, calculated passage rule and legal force unknown. Retained result versions rise to 65; current observations remain 53 across 52 measures, with five certified. No new measure, restriction, instrument event, legacy status or whole legacy-record closure. [Source review and publication](work/research/2026-11-10/canterbury-minutes-result-review/README.md). [Qualified post3 and V18 delivery](work/research/2026-11-10/release-2026.11.10.post3/README.md) are verified.
