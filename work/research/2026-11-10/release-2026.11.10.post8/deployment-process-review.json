@@ -17,13 +17,14 @@
   "upload_scope": "Repository root, dereferenced static artifact, include hidden files, exclude.git/.github as prior official artifact action; no historical/native/source subset removed.",
   "action_pins": {
     "checkout": "3d3c42e5aac5ba805825da76410c181273ba90b1",
-    "upload-pages-artifact": "7b1f4a764d45c48632c6b24a0339c27f5614fb0b",
+    "upload-pages-artifact": "56afc609e74202658d3ffba0e8f6dda462b719fa",
     "deploy-pages": "368f82528645a54fb793d4d04e342629a3f51346"
   },
   "references": [
     "https://github.com/actions/deploy-pages/blob/368f82528645a54fb793d4d04e342629a3f51346/action.yml",
-    "https://github.com/actions/upload-pages-artifact/blob/7b1f4a764d45c48632c6b24a0339c27f5614fb0b/action.yml",
+    "https://github.com/actions/upload-pages-artifact/blob/56afc609e74202658d3ffba0e8f6dda462b719fa/action.yml",
     "https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages"
   ],
-  "scope": "Operational mitigation for observed publication timeouts; not proof that timeout is the backend root cause or that hosted delivery succeeded. Release/data/source review unchanged."
+  "scope": "Operational mitigation for observed publication timeouts; not proof that timeout is the backend root cause or that hosted delivery succeeded. Release/data/source review unchanged.",
+  "preflight_correction": "Pinned uploadv4 does not expose include-hidden-files and would exclude hidden payloads. Preflight caught this before settings/push/deployment. Preserve the exact prior uploadv3 archive rules instead; no deployed run used the v4 candidate."
 }
