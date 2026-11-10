@@ -1,0 +1,88 @@
+{
+  "checked_at": "2026-11-10T05:05:30.668526+00:00",
+  "focused_checks": [
+    {
+      "command": [
+        "scripts/validate_dataset.py",
+        "--today",
+        "2026-11-10"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/build_policy_scope_exports.py",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/build_summary_stats.py",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/build_geojson.py",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/make_timeline.py",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/check_docs_numbers.py"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "-m",
+        "scripts.generate_tables.inventory_clean",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/build_index.py",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/classify_sources.py",
+        "--check"
+      ],
+      "returncode": 0
+    }
+  ],
+  "canonical_cells_changed": 31,
+  "coordinate_cells": 26,
+  "prose_cells": 5,
+  "changed_records": 13,
+  "geojson_points_moved": 13,
+  "geojson_feature_count": 1326,
+  "status_changes": 0,
+  "whole_record_closures": 0,
+  "network_requests": 0,
+  "source_pairs_native_read_back": 16,
+  "non_target_rows_unchanged": true,
+  "policy_inputs_unchanged": true,
+  "expanded_and_identity_history_unchanged": true,
+  "disposition_funnel_unchanged": true,
+  "qa_holds": 1368,
+  "scope": "Thirteen representative-coordinate corrections, with directly reviewed source identities and Census references. No boundary, project exposure, legal-force or complete geographic-validation claim.",
+  "real_data_replay_matches_initial_audit": true,
+  "audit_script": "work/research/2026-11-09/post-release-qa/audit-nonblank-geography.py",
+  "audit_script_sha256": "af9a29d093e88c82ac3a9602876695c83bb137d71d6924538c33dcec79532a49"
+}

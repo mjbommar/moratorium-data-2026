@@ -1,12 +1,12 @@
 {
-  "version": "2026.11.9.post9",
-  "release_date": "2026-11-09",
+  "version": "2026.11.10",
+  "release_date": "2026-11-10",
   "research_cutoff": "2026-11-07T13:38:39.877065+00:00",
   "source_observation_window": {
     "start": "2026-11-05",
     "end": "2026-11-09"
   },
-  "asset_name": "moratorium-data-2026.11.9.post9.tar.gz",
+  "asset_name": "moratorium-data-2026.11.10.tar.gz",
   "coverage": "Original1777 records retain review provenance; two duplicates retired and one Massachusetts addition independently unreviewed. Current1776 active raw IDs:1368 unresolved,171 corrected-resolved,237 confirmed-unchanged scoped dispositions. No universal current-law certification.",
   "limitations": [
     "Recorded active/extended classifications do not prove current enforceability.",
@@ -15,12 +15,12 @@
     "Experimental model extraction/P4 has not passed; no experimental extraction output is accepted automatically.",
     "The companion April paper and dated sibling publications retain their historical editions."
   ],
-  "update_status": "qualified_release_with_ongoing_qa",
+  "update_status": "qualified_release_pending_delivery",
   "full_inventory_closeout": "reviewed_and_applied_with_bounded_unresolved_questions",
   "consumer_dispositions": "delivered_with_historical_editions_preserved",
   "experimental_extractor": "failed_no_automatic_promotion",
   "quality_gate_disposition": "User authorized publication of the current state with qualifications on pending QA, followed by continued double checking and resolution of outstanding questions.",
-  "reviewed_data_source_commit": "84fc817cfb1d72d6049d0697ce2c5e281d1acaf9",
+  "reviewed_data_source_commit": "11c8a8e66c2a892fb934a396302b734e8dcb9ce7",
   "record_dispositions": {
     "unresolved": 1368,
     "corrected_resolved": 171,
@@ -31,16 +31,16 @@
   "record_disposition_path": "work/research/2026-11-08/full-record-dispositions/funnel.json",
   "qa_status": "ongoing",
   "publication_authorization": "publish current state with qualifications on pending QA, then continue to double check and clear the outstanding questions",
-  "working_revision": "post9-delivery-receipt",
+  "working_revision": "nov10-geography-release-prepared",
   "current_raw_counts": {
     "local": 1328,
     "state_policy": 448,
     "total": 1776
   },
-  "prior_release": "v2026.11.9.post8",
-  "prior_release_source_commit": "3e6078986fdc14e6ce2b1d6028698e1c3ac4e49e",
-  "prior_published_source_commit": "3e6078986fdc14e6ce2b1d6028698e1c3ac4e49e",
-  "published_source_reference": "The v2026.11.9.post9 release tag and manifest identify the exact source. Later delivery receipts do not rewrite source-cutoff metadata or immutable assets.",
+  "prior_release": "v2026.11.9.post9",
+  "prior_release_source_commit": "84fc817cfb1d72d6049d0697ce2c5e281d1acaf9",
+  "prior_published_source_commit": "84fc817cfb1d72d6049d0697ce2c5e281d1acaf9",
+  "published_source_reference": "The v2026.11.10 tag and manifest identify its exact source when published. Prior delivered-source/consumer pins retain their cutoffs until the later verified delivery receipt.",
   "latest_consumer_handoff": {
     "source_commit": "84fc817cfb1d72d6049d0697ce2c5e281d1acaf9",
     "consumer_commit": "3bd16dc6838645c1f27799640cfd9edd7f9c3601",
@@ -56,7 +56,7 @@
     "total": 137,
     "receipt": "work/research/2026-11-09/post-release-qa/starke-status-baseline-delta.json"
   },
-  "latest_geography_review": "work/research/2026-11-09/post-release-qa/missing-geography-application.json",
+  "latest_geography_review": "work/research/2026-11-09/post-release-qa/nonblank-geography-application.json",
   "latest_delivered_consumer_input_delta": {
     "baseline_source_commit": "3e6078986fdc14e6ce2b1d6028698e1c3ac4e49e",
     "baseline_consumer_commit": "f704e2f8ed60382ce72c932c9d7bac7080d796ed",
@@ -115,5 +115,22 @@
     "receipt": "work/research/2026-11-09/starke-expanded-review/publication-application.json",
     "scope": "Delivered in qualified post8 and verified V13: append-only expanded Starke historical adoption; legacy and ballot records unchanged; no whole-record closures.",
     "delivery_receipt": "work/research/2026-11-09/post-release-qa/consumer-v13-handoff.json"
+  },
+  "latest_field_application": "work/research/2026-11-09/post-release-qa/nonblank-geography-application.json",
+  "pending_consumer_input_delta": {
+    "baseline_source_commit": "84fc817cfb1d72d6049d0697ce2c5e281d1acaf9",
+    "baseline_consumer_commit": "3bd16dc6838645c1f27799640cfd9edd7f9c3601",
+    "changed_local_rows": 13,
+    "changed_policy_rows": 0,
+    "changed_cells": 31,
+    "coordinate_cells": 26,
+    "prose_cells": 5,
+    "status_category_changes": 0,
+    "new_scope_inclusions": 0,
+    "expanded_unchanged": true,
+    "geographic_subquestions_resolved": 13,
+    "whole_record_closures": 0,
+    "receipt": "work/research/2026-11-09/post-release-qa/nonblank-geography-application.json",
+    "scope": "Thirteen representative-point corrections with five geographic-prose cleanups. Legacy status, policy/ballot/native expanded values and all whole-record dispositions unchanged. Release/consumer synchronization pending."
   }
 }

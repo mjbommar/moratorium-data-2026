@@ -1379,7 +1379,7 @@ State policy is tracked separately: **11 records** (10 typed bill rows and 1 non
 - **Legal basis:** Original moratorium instrument unverified; Town of Montgomery, Orange County, Local Law 2 of 2025 addressed removal of BESS as a specially permitted use.
 - **What prompted it:** —
 - **Affected projects:** —
-- **Detailed status:** Town of Montgomery, Orange County minutes record adoption of Local Law 2-2025 removing BESS as a specially permitted use; the town attorney said filing would cancel the existing moratorium. A contemporaneous report identifies a November 28, 2023 twelve-month pause, without establishing the intervening instruments. The October 2026 tracker reports Montgomery lifted. Filing and the relationship between the two pauses remain unverified. The legacy coordinates require geographic review. [VERIFY original and intervening instruments, filing and coordinates.]
+- **Detailed status:** Town of Montgomery, Orange County minutes record adoption of Local Law 2-2025 removing BESS as a specially permitted use; the town attorney said filing would cancel the existing moratorium. A contemporaneous report identifies a November 28, 2023 twelve-month pause, without establishing the intervening instruments. The October 2026 tracker reports Montgomery lifted. Filing and the relationship between the two pauses remain unverified. [VERIFY original and intervening instruments and filing.]
 - **Outcome:** A twelve-month BESS pause was reported adopted November 28, 2023; Local Law 2-2025 addressed removal of BESS as a specially permitted use, and the tracker later reported the moratorium lifted. The intervening legal history and filing remain unverified.
 
 ### Mount Kisco
@@ -2435,7 +2435,7 @@ State policy is tracked separately: **11 records** (10 typed bill rows and 1 non
 - **Legal basis:** October 14, 2024 Town of Victory, Cayuga County minutes record adoption of Local Law #2, a temporary BESS land-use moratorium. The original law and filing remain unverified. The previously cited June 2025 county document concerns the Town of Mentz and does not establish a Victory extension.
 - **What prompted it:** —
 - **Affected projects:** —
-- **Detailed status:** July 8, 2024 Town of Victory, Cayuga County minutes introduce a BESS moratorium; October 14 minutes record a 5–0 adoption of Local Law #2, a temporary BESS land-use moratorium. The cited June 2025 document concerns Mentz, not a Victory extension; an industry tracker lists Victory, Cayuga County under review. [VERIFY original law, filing, term, later action and geographic identity.]
+- **Detailed status:** July 8, 2024 Town of Victory, Cayuga County minutes introduce a BESS moratorium; October 14 minutes record a 5–0 adoption of Local Law #2, a temporary BESS land-use moratorium. The cited June 2025 document concerns Mentz, not a Victory extension; an industry tracker lists Victory, Cayuga County under review. [VERIFY original law, filing, term and later action.]
 - **Outcome:** Victory minutes record adoption of a temporary BESS land-use moratorium in October 2024; the cited June 2025 Mentz document does not establish a Victory extension.
 
 ### Village of Mayville

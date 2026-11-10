@@ -1,5 +1,18 @@
 # Changelog
 
+## Qualified v2026.11.10 preparation
+
+Corrected thirteen mislocated jurisdiction map references using retained source identities and the 2026 Census Gazetteer: 26 coordinate cells and five removals of resolved geographic-prose gaps. Thirty-one cells across thirteen existing local rows change. A read-only screen compared 1,158 unique state/name/type matches among 1,326 populated points; fourteen large-displacement candidates were reviewed, with San Francisco retained because displacement alone did not establish an error. The 168 unmatched/unsupported points and within-threshold points are not independently certified by the screen. Sixteen retained identity/reference source pairs read back exactly from the native store; no network request was made. No status, policy/ballot/expanded-native value, verification flag or whole-record disposition changes. Legal histories and current-force questions remain open. Release/consumer synchronization is pending. [Review](work/research/2026-11-09/post-release-qa/nonblank-geography-application.json).
+
+| Metric | Qualified v2026.11.10 preparation |
+|---|---:|
+| Moratoria in the list | **1,328** |
+| Classified active or extended | **1,087** |
+| Pending or not yet effective | **64** |
+| Ended (replaced, expired, or rescinded) | **171** |
+| Rows we still want to confirm (`[VERIFY]`) | **979** |
+| States with at least one | **47** |
+
 ## Qualified v2026.11.9.post9
 
 Published one qualified Starke policy-succession event from the temporary permit moratorium to the adopted zoning prohibition, with one retained original source, two claims and eight decisions. All 621 claims pass the normal evidence/publication gate, with exact replay and preservation verified. Current expanded totals are twelve historical events and three restriction records. Legacy CSVs, ballot records and every earlier expanded row are unchanged. The policy-relationship review task is resolved; actual publication, formal termination, overlap and force remain open. No whole-record QA hold closes. [Post9 and matching consumer V14 delivery](work/research/2026-11-09/release-2026.11.9.post9/README.md) are verified. [Review](work/research/2026-11-09/starke-succession-review/README.md).

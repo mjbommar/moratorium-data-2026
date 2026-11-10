@@ -1,0 +1,817 @@
+{
+  "reviewed_at": "2026-11-10T05:00:09.724601+00:00",
+  "reviewer": "root direct retained-source/Census identity review; no new independent reviewer",
+  "records": [
+    {
+      "id": "ca-imperial-2026",
+      "dataset": "local_inventory",
+      "prior_row_sha256": "9752812d89c7d7e785d51896a90ecbbef751073d8868d4a9dfce9b0c3346caf0",
+      "existing_disposition": "unresolved",
+      "whole_record_disposition_unchanged": true,
+      "geography_question_resolved": true,
+      "census_record": {
+        "USPS": "CA",
+        "GEOID": "0636280",
+        "GEOIDFQ": "1600000US0636280",
+        "ANSICODE": "02410097",
+        "NAME": "Imperial city",
+        "LSAD": "25",
+        "FUNCSTAT": "A",
+        "ALAND": "16333318",
+        "AWATER": "0",
+        "ALAND_SQMI": "6.306",
+        "AWATER_SQMI": "0.",
+        "INTPTLAT": "32.838801",
+        "INTPTLONG": "-115.572012"
+      },
+      "gazetteer": {
+        "kind": "place",
+        "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2026_Gazetteer/2026_Gaz_place_national.zip",
+        "body_sha256": "af678e2d990827c89ee39b98c82de6e90b693c7361ff0e559ae3076670dd2863",
+        "member": "2026_Gaz_place_national.txt",
+        "member_sha256": "e10cb8004732684fa2a75b9d6030c6c9171674d6b112cff29dbc1bc31a9b82fa",
+        "observed_at": "2026-11-10T00:59:35.410441Z"
+      },
+      "identity_source": {
+        "url": "https://calexicochronicle.com/wp-content/uploads/2026/07/City-of-Imperial-Public-Hearing-9447.pdf",
+        "body_sha256": "98165cea504a354a484975491a71ebf94711044c88e95c9a80b627953202febf",
+        "text_sha256": "ec9d761e180056f89f610b094df775c50f88eac46a0c00741dcde6142d50cf0e",
+        "quote": "City of Imperial",
+        "locator": "lines 15-37"
+      },
+      "identity_review": "Direct retained body/text review identifies the named state and municipal type; exact state/name/type Census match supplies an internal representative point. No boundary, project exposure or legal-force inference.",
+      "distance_km": 29.115,
+      "prior_questions": [
+        "November 5 city-specific Exa and SerpAPI searches, public-hearing notice and KPBS report were inspected. Next source: City of Imperial clerk's adopted Ordinances 834 and 835 and July 15 minutes; exact vote and operative endpoint remain unresolved.",
+        "The November 9 UTC recovery attempt for the automated 835 report returned 403 and no text; obtain the report or, preferably, the city clerk records identified above."
+      ],
+      "remaining_questions": [
+        "November 5 city-specific Exa and SerpAPI searches, public-hearing notice and KPBS report were inspected. Next source: City of Imperial clerk's adopted Ordinances 834 and 835 and July 15 minutes; exact vote and operative endpoint remain unresolved.",
+        "The November 9 UTC recovery attempt for the automated 835 report returned 403 and no text; obtain the report or, preferably, the city clerk records identified above."
+      ],
+      "current_row_sha256": "47ff12b03ee50c19978e65c26f9d36c97a39ad26d50a8639f6697962ef62520e"
+    },
+    {
+      "id": "il-city-of-west-chicago-2026",
+      "dataset": "local_inventory",
+      "prior_row_sha256": "627477f18723da86fe64f9f38b88091585bfcabc8ab51d7601618b0139538084",
+      "existing_disposition": "unresolved",
+      "whole_record_disposition_unchanged": true,
+      "geography_question_resolved": true,
+      "census_record": {
+        "USPS": "IL",
+        "GEOID": "1780060",
+        "GEOIDFQ": "1600000US1780060",
+        "ANSICODE": "02397264",
+        "NAME": "West Chicago city",
+        "LSAD": "25",
+        "FUNCSTAT": "A",
+        "ALAND": "40045586",
+        "AWATER": "788523",
+        "ALAND_SQMI": "15.462",
+        "AWATER_SQMI": "0.304",
+        "INTPTLAT": "41.895343",
+        "INTPTLONG": "-88.220469"
+      },
+      "gazetteer": {
+        "kind": "place",
+        "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2026_Gazetteer/2026_Gaz_place_national.zip",
+        "body_sha256": "af678e2d990827c89ee39b98c82de6e90b693c7361ff0e559ae3076670dd2863",
+        "member": "2026_Gaz_place_national.txt",
+        "member_sha256": "e10cb8004732684fa2a75b9d6030c6c9171674d6b112cff29dbc1bc31a9b82fa",
+        "observed_at": "2026-11-10T00:59:35.410441Z"
+      },
+      "identity_source": {
+        "url": "https://westchicago.org/data-centers-and-battery-energy-storage-systems-project/",
+        "body_sha256": "3f6069d23bd9f7d0a6ba1806a252a0327a6843aac1596ea15f522af57c0cd0c0",
+        "text_sha256": "9bb30ca192290890ff61c40b36bca1a772b48f938c8b687fbd5fa46ee386da1e",
+        "quote": "West Chicago City Council",
+        "locator": "which expires on January 16, 2027"
+      },
+      "identity_review": "Direct retained body/text review identifies the named state and municipal type; exact state/name/type Census match supplies an internal representative point. No boundary, project exposure or legal-force inference.",
+      "distance_km": 37.274,
+      "prior_questions": [
+        "The last dated review action is the November 2, 2026 interim report. The original ordinance linked from the city page was not separately retrieved in inspected retained attempts: https://westchicago.org/wp-content/uploads/2026/08/2026-O-0011_Moratorium-Data-Centers-and-BESS_072026.pdf . Inspect it to resolve the distinction between proposals and covered applications; the study presentation is not adoption."
+      ],
+      "remaining_questions": [
+        "The last dated review action is the November 2, 2026 interim report. The original ordinance linked from the city page was not separately retrieved in inspected retained attempts: https://westchicago.org/wp-content/uploads/2026/08/2026-O-0011_Moratorium-Data-Centers-and-BESS_072026.pdf . Inspect it to resolve the distinction between proposals and covered applications; the study presentation is not adoption."
+      ],
+      "current_row_sha256": "319bfe8c3f68890c3c72208ff9a6f3f7c41c3b34c1aadede1055864a656cfd79"
+    },
+    {
+      "id": "mi-big-rapids-charter-township-2026",
+      "dataset": "local_inventory",
+      "prior_row_sha256": "a04b3ddbe29185a4b80848008423b786fba29b48055af4654bea685eb7b5195c",
+      "existing_disposition": "unresolved",
+      "whole_record_disposition_unchanged": true,
+      "geography_question_resolved": true,
+      "census_record": {
+        "USPS": "MI",
+        "GEOID": "2610708320",
+        "GEOIDFQ": "0600000US2610708320",
+        "ANSICODE": "01625935",
+        "NAME": "Big Rapids charter township",
+        "FUNCSTAT": "A",
+        "ALAND": "78919324",
+        "AWATER": "1118171",
+        "ALAND_SQMI": "30.471",
+        "AWATER_SQMI": "0.432",
+        "INTPTLAT": "43.679795",
+        "INTPTLONG": "-85.502554"
+      },
+      "gazetteer": {
+        "kind": "cousubs",
+        "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2026_Gazetteer/2026_Gaz_cousubs_national.zip",
+        "body_sha256": "9d528b39b70a27075c863b1572f27eadaf24484d5435fac17fc3b4cdd36434c2",
+        "member": "2026_Gaz_cousubs_national.txt",
+        "member_sha256": "6d19c4e9e7a8b24856528851064ccccb7b04be0404d2854d3c488a702312225c",
+        "observed_at": "2026-11-10T00:59:35.490795Z"
+      },
+      "identity_source": {
+        "url": "https://bigrapidstownshipmi.gov/wp-content/uploads/2026/02/Data-Center-Moratorium.pdf",
+        "body_sha256": "86d2c4f97cb6592eeb4cd77bd28e3ead559413cebb38d2a79d5ff96f3bf2e157",
+        "text_sha256": "8463e0e4fea48e5cda226d6ef73f13e5c320a8635a7575e757827d47cb751172",
+        "quote": "BIG RAPIDS CHARTER TOWNSHIP",
+        "locator": "Retained source version and literal claim; derivative where named."
+      },
+      "identity_review": "Direct retained body/text review identifies the named state and municipal type; exact state/name/type Census match supplies an internal representative point. No boundary, project exposure or legal-force inference.",
+      "distance_km": 74.585,
+      "prior_questions": [
+        "Publication and complete later ordinance/extension records not checked."
+      ],
+      "remaining_questions": [
+        "Publication and complete later ordinance/extension records not checked."
+      ],
+      "current_row_sha256": "f979825c41942366af5555f75f942a8cc77b91af348c3e9567dd9a42c6f89892"
+    },
+    {
+      "id": "mi-houghton-2026",
+      "dataset": "local_inventory",
+      "prior_row_sha256": "2e2316d70c8d285d3d9618896940752aa56e710b0ae5a36ccf265bda4ed4ff7f",
+      "existing_disposition": "unresolved",
+      "whole_record_disposition_unchanged": true,
+      "geography_question_resolved": true,
+      "census_record": {
+        "USPS": "MI",
+        "GEOID": "2639360",
+        "GEOIDFQ": "1600000US2639360",
+        "ANSICODE": "01626492",
+        "NAME": "Houghton city",
+        "LSAD": "25",
+        "FUNCSTAT": "A",
+        "ALAND": "11593986",
+        "AWATER": "629976",
+        "ALAND_SQMI": "4.476",
+        "AWATER_SQMI": "0.243",
+        "INTPTLAT": "47.111751",
+        "INTPTLONG": "-88.567237"
+      },
+      "gazetteer": {
+        "kind": "place",
+        "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2026_Gazetteer/2026_Gaz_place_national.zip",
+        "body_sha256": "af678e2d990827c89ee39b98c82de6e90b693c7361ff0e559ae3076670dd2863",
+        "member": "2026_Gaz_place_national.txt",
+        "member_sha256": "e10cb8004732684fa2a75b9d6030c6c9171674d6b112cff29dbc1bc31a9b82fa",
+        "observed_at": "2026-11-10T00:59:35.410441Z"
+      },
+      "identity_source": {
+        "url": "https://www.uppermichiganssource.com/2026/07/09/houghton-city-council-approves-temporary-data-center-moratorium/",
+        "body_sha256": "dc1e987a8811e1105da1a385c83c99f082f56cba4468e9a1f2103add6f79f4b6",
+        "text_sha256": "76e80e5be7d4bd90e4fe71be116156ca0ce0091c537fa1f7aeceb98272b1c62e",
+        "quote": "HOUGHTON, Mich.",
+        "locator": "text lines 1-9"
+      },
+      "identity_review": "Direct retained body/text review identifies the named state and municipal type; exact state/name/type Census match supplies an internal representative point. No boundary, project exposure or legal-force inference.",
+      "distance_km": 32.301,
+      "prior_questions": [
+        "Inspect July 8 original instrument, effective date and subsequent city actions."
+      ],
+      "remaining_questions": [
+        "Inspect July 8 original instrument, effective date and subsequent city actions."
+      ],
+      "current_row_sha256": "f0d795467e272da48f3c0cd2848970e28fa566fe4cd5e8be4c94c5501726b040"
+    },
+    {
+      "id": "mi-mason-2026",
+      "dataset": "local_inventory",
+      "prior_row_sha256": "df8090e9a72e1c954a36611f87f05205ccd2f8d36ae55f83ea37d4d1022697f1",
+      "existing_disposition": "unresolved",
+      "whole_record_disposition_unchanged": true,
+      "geography_question_resolved": true,
+      "census_record": {
+        "USPS": "MI",
+        "GEOID": "2652180",
+        "GEOIDFQ": "1600000US2652180",
+        "ANSICODE": "01626706",
+        "NAME": "Mason city",
+        "LSAD": "25",
+        "FUNCSTAT": "A",
+        "ALAND": "13235583",
+        "AWATER": "54809",
+        "ALAND_SQMI": "5.11",
+        "AWATER_SQMI": "0.021",
+        "INTPTLAT": "42.580693",
+        "INTPTLONG": "-84.442283"
+      },
+      "gazetteer": {
+        "kind": "place",
+        "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2026_Gazetteer/2026_Gaz_place_national.zip",
+        "body_sha256": "af678e2d990827c89ee39b98c82de6e90b693c7361ff0e559ae3076670dd2863",
+        "member": "2026_Gaz_place_national.txt",
+        "member_sha256": "e10cb8004732684fa2a75b9d6030c6c9171674d6b112cff29dbc1bc31a9b82fa",
+        "observed_at": "2026-11-10T00:59:35.410441Z"
+      },
+      "identity_source": {
+        "url": "https://cms7files.revize.com/masonmi/document_center/Governments/City%20Council/2025%20City%20Council%20Documents/01_05_2026%20-%20CC%20Minutes%20-%20Final.pdf",
+        "body_sha256": "b87f0c5668ee5d335028e31478373c89710cb09eece8c8e24587e10459064ddf",
+        "text_sha256": "0fec433b281a54e50ca87925ddb88a285fb2fdbab1545efc90d9d490050b555b",
+        "quote": "CITY OF MASON",
+        "locator": "page 4, item Ordinance 267; 4-2 motion and express first-reading-only note"
+      },
+      "identity_review": "Direct retained body/text review identifies the named state and municipal type; exact state/name/type Census match supplies an internal representative point. No boundary, project exposure or legal-force inference.",
+      "distance_km": 213.212,
+      "prior_questions": [
+        "Obtain January 19 approved minutes or executed Ordinance 267, including posting/publication and effective date; check coordinate identity. The newly recovered packet was inspected and does not supply the vote."
+      ],
+      "remaining_questions": [
+        "Obtain January19 approved minutes or executed Ordinance267, posting/publication and effective date. The previously recovered packet did not supply the vote; the separate coordinate-reference issue is now resolved."
+      ],
+      "current_row_sha256": "4ce28bb1aaa9babb6c343b224e166012cdee2f283a77cf9d0fd88f73e10e83bd"
+    },
+    {
+      "id": "mi-saline-city-2026",
+      "dataset": "local_inventory",
+      "prior_row_sha256": "692ad40258bc469058d8102028a27fb9c1ac8e1f9f5bb911ce595ebebb1afd29",
+      "existing_disposition": "unresolved",
+      "whole_record_disposition_unchanged": true,
+      "geography_question_resolved": true,
+      "census_record": {
+        "USPS": "MI",
+        "GEOID": "2671140",
+        "GEOIDFQ": "1600000US2671140",
+        "ANSICODE": "01627036",
+        "NAME": "Saline city",
+        "LSAD": "25",
+        "FUNCSTAT": "A",
+        "ALAND": "11267942",
+        "AWATER": "183095",
+        "ALAND_SQMI": "4.351",
+        "AWATER_SQMI": "0.071",
+        "INTPTLAT": "42.173829",
+        "INTPTLONG": "-83.776924"
+      },
+      "gazetteer": {
+        "kind": "place",
+        "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2026_Gazetteer/2026_Gaz_place_national.zip",
+        "body_sha256": "af678e2d990827c89ee39b98c82de6e90b693c7361ff0e559ae3076670dd2863",
+        "member": "2026_Gaz_place_national.txt",
+        "member_sha256": "e10cb8004732684fa2a75b9d6030c6c9171674d6b112cff29dbc1bc31a9b82fa",
+        "observed_at": "2026-11-10T00:59:35.410441Z"
+      },
+      "identity_source": {
+        "url": "https://www.themidwesterner.news/2026/01/saline-city-council-approves-one-year-pragmatic-and-prudent-moratorium-on-data-centers/",
+        "body_sha256": "8a0b0b357f812ad3c37a2e7c5ca16ce497f5379960a76413723a1297ef7878d5",
+        "text_sha256": "53579646be10cbb6c205fe8b54b35bf057224dba046dbcf3f47a3a729ae7a6a5",
+        "quote": "Saline City Council",
+        "locator": "lines 1-3 and 13-17: Jan 12 unanimous city council resolution, 365 days, petition override and study; published Jan 21"
+      },
+      "identity_review": "Direct retained body/text review identifies the named state and municipal type; exact state/name/type Census match supplies an internal representative point. No boundary, project exposure or legal-force inference.",
+      "distance_km": 160.518,
+      "prior_questions": [
+        "City resolution, operative anchor and later action have not been examined."
+      ],
+      "remaining_questions": [
+        "City resolution, operative anchor and later action have not been examined."
+      ],
+      "current_row_sha256": "cf08b0036ce4e5adeb3892e2d5c2ae5522ba723b4fc93ebbe67f1a9fd006bdee"
+    },
+    {
+      "id": "mn-rice-undated",
+      "dataset": "local_inventory",
+      "prior_row_sha256": "f07d0e4aa44fb20742add36e12199bfa52968b53f61d658f29bbc29576742cd8",
+      "existing_disposition": "unresolved",
+      "whole_record_disposition_unchanged": true,
+      "geography_question_resolved": true,
+      "census_record": {
+        "USPS": "MN",
+        "GEOID": "2753998",
+        "GEOIDFQ": "1600000US2753998",
+        "ANSICODE": "02396359",
+        "NAME": "Rice city",
+        "LSAD": "25",
+        "FUNCSTAT": "A",
+        "ALAND": "14767683",
+        "AWATER": "95766",
+        "ALAND_SQMI": "5.702",
+        "AWATER_SQMI": "0.037",
+        "INTPTLAT": "45.758617",
+        "INTPTLONG": "-94.242906"
+      },
+      "gazetteer": {
+        "kind": "place",
+        "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2026_Gazetteer/2026_Gaz_place_national.zip",
+        "body_sha256": "af678e2d990827c89ee39b98c82de6e90b693c7361ff0e559ae3076670dd2863",
+        "member": "2026_Gaz_place_national.txt",
+        "member_sha256": "e10cb8004732684fa2a75b9d6030c6c9171674d6b112cff29dbc1bc31a9b82fa",
+        "observed_at": "2026-11-10T00:59:35.410441Z"
+      },
+      "identity_source": {
+        "url": "https://wjon.com/rice-city-council-data-center-vote/",
+        "body_sha256": "9415c137f8db8ba2ab206a1e7587e48bf308b45dc7295000410eeaddf45acfd2",
+        "text_sha256": "8d74e9ce52c5e58d4f446d99aafdbab4fddc0f476102271230757cc557bb8acd",
+        "quote": "Rice City Council",
+        "locator": "opening and proposed study/early expiration"
+      },
+      "identity_review": "Direct retained body/text review identifies the named state and municipal type; exact state/name/type Census match supplies an internal representative point. No boundary, project exposure or legal-force inference.",
+      "distance_km": 174.583,
+      "prior_questions": [
+        "No new network, county/city clerk, authoritative geospatial, publication, court or later-action review was performed."
+      ],
+      "remaining_questions": [
+        "Obtain the September21/2026 city vote result, adopted ordinance if any, operative/publication details and later actions. Establish whether the separately mentioned RiceCounty petition has any relationship to this CityofRice proposal; no relationship is inferred from the corrected map reference."
+      ],
+      "current_row_sha256": "5eaa8ec287cf2df945702cc5c39826bb9832e70ee19967815491c92c133275e8"
+    },
+    {
+      "id": "ny-glenville-2025",
+      "dataset": "local_inventory",
+      "prior_row_sha256": "229cdaffb0653de888d1151a6b381d7fe3588f3875a1a89c66e432845715264b",
+      "existing_disposition": "unresolved",
+      "whole_record_disposition_unchanged": true,
+      "geography_question_resolved": true,
+      "census_record": {
+        "USPS": "NY",
+        "GEOID": "3609329366",
+        "GEOIDFQ": "0600000US3609329366",
+        "ANSICODE": "00979005",
+        "NAME": "Glenville town",
+        "FUNCSTAT": "A",
+        "ALAND": "127633466",
+        "AWATER": "3762409",
+        "ALAND_SQMI": "49.28",
+        "AWATER_SQMI": "1.453",
+        "INTPTLAT": "42.888252",
+        "INTPTLONG": "-73.9887"
+      },
+      "gazetteer": {
+        "kind": "cousubs",
+        "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2026_Gazetteer/2026_Gaz_cousubs_national.zip",
+        "body_sha256": "9d528b39b70a27075c863b1572f27eadaf24484d5435fac17fc3b4cdd36434c2",
+        "member": "2026_Gaz_cousubs_national.txt",
+        "member_sha256": "6d19c4e9e7a8b24856528851064ccccb7b04be0404d2854d3c488a702312225c",
+        "observed_at": "2026-11-10T00:59:35.490795Z"
+      },
+      "identity_source": {
+        "url": "https://www.townofglenville.gov/AgendaCenter/ViewFile/Minutes/_03092026-79",
+        "body_sha256": "8f0abc7e45457a2dc0d670d811e67a3226f363ddee32f6650b580a77c9ad7d39",
+        "text_sha256": "425e67dec763b51b10606160e51f2a37f659b8c0ec68ad300f871d4f69b25b11",
+        "quote": "Town of Glenville",
+        "locator": "Planning and Zoning Commission minutes: GECC presenter says town passed moratorium through end of July; draft regulation still work in progress"
+      },
+      "identity_review": "Direct retained body/text review identifies the named state and municipal type; exact state/name/type Census match supplies an internal representative point. No boundary, project exposure or legal-force inference.",
+      "distance_km": 207.862,
+      "prior_questions": [
+        "Complete town board record after July, the original filed law, later extension and filing not checked; geographic coordinates not independently verified."
+      ],
+      "remaining_questions": [
+        "Inspect the complete town-board record after July, original filed law, later extension and filing. The representative-coordinate question is now resolved."
+      ],
+      "current_row_sha256": "4a527574d2e936140518915407fff2ac7c37fd194b773b95145d8d4bc0ab0861"
+    },
+    {
+      "id": "ny-montgomery-2025",
+      "dataset": "local_inventory",
+      "prior_row_sha256": "9721ccaec0765d727ac3b0c5c47fcdacff80a285646f2992b29d3b22d0fa7ea1",
+      "existing_disposition": "unresolved",
+      "whole_record_disposition_unchanged": true,
+      "geography_question_resolved": true,
+      "census_record": {
+        "USPS": "NY",
+        "GEOID": "3607148153",
+        "GEOIDFQ": "0600000US3607148153",
+        "ANSICODE": "00979232",
+        "NAME": "Montgomery town",
+        "FUNCSTAT": "A",
+        "ALAND": "130163104",
+        "AWATER": "2417090",
+        "ALAND_SQMI": "50.256",
+        "AWATER_SQMI": "0.933",
+        "INTPTLAT": "41.539726",
+        "INTPTLONG": "-74.209958"
+      },
+      "gazetteer": {
+        "kind": "cousubs",
+        "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2026_Gazetteer/2026_Gaz_cousubs_national.zip",
+        "body_sha256": "9d528b39b70a27075c863b1572f27eadaf24484d5435fac17fc3b4cdd36434c2",
+        "member": "2026_Gaz_cousubs_national.txt",
+        "member_sha256": "6d19c4e9e7a8b24856528851064ccccb7b04be0404d2854d3c488a702312225c",
+        "observed_at": "2026-11-10T00:59:35.490795Z"
+      },
+      "identity_source": {
+        "url": "https://ecode360.com/MO0967/document/753136221.pdf",
+        "body_sha256": "18695090871ad3b817c003670145282a93e6667183e2fa4bd184c88aa970f1ac",
+        "text_sha256": "81f4c7273620500e07a52b9c31c6ebe41aa18d2114646d387b8a7a01f25192e5",
+        "quote": "County Of Orange",
+        "locator": "board minutes Feb 25, 2025 pp 1-3, text lines 63-115"
+      },
+      "identity_review": "Direct retained body/text review identifies the named state and municipal type; exact state/name/type Census match supplies an internal representative point. No boundary, project exposure or legal-force inference.",
+      "distance_km": 151.5,
+      "prior_questions": [
+        "Recover the original and intervening local laws and filed LL 2-2025 to connect the 2023 pause and the 2025 cancellation; geocoding of the Orange County town."
+      ],
+      "remaining_questions": [
+        "Recover original and intervening local laws and filedLL2-2025 to connect the2023 pause and2025 cancellation. The OrangeCounty town reference point is now resolved."
+      ],
+      "current_row_sha256": "9f7c40ee5a4b316480a5e8560008b3e7147e00de3108ee5482135b934b7be597"
+    },
+    {
+      "id": "ny-victory-2024",
+      "dataset": "local_inventory",
+      "prior_row_sha256": "76f7d1bc2421cf321a512a2aa41d8bbc853cd799c36c6acf448282522550e9ce",
+      "existing_disposition": "unresolved",
+      "whole_record_disposition_unchanged": true,
+      "geography_question_resolved": true,
+      "census_record": {
+        "USPS": "NY",
+        "GEOID": "3601177420",
+        "GEOIDFQ": "0600000US3601177420",
+        "ANSICODE": "00979585",
+        "NAME": "Victory town",
+        "FUNCSTAT": "A",
+        "ALAND": "89084916",
+        "AWATER": "151048",
+        "ALAND_SQMI": "34.396",
+        "AWATER_SQMI": "0.058",
+        "INTPTLAT": "43.210319",
+        "INTPTLONG": "-76.648094"
+      },
+      "gazetteer": {
+        "kind": "cousubs",
+        "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2026_Gazetteer/2026_Gaz_cousubs_national.zip",
+        "body_sha256": "9d528b39b70a27075c863b1572f27eadaf24484d5435fac17fc3b4cdd36434c2",
+        "member": "2026_Gaz_cousubs_national.txt",
+        "member_sha256": "6d19c4e9e7a8b24856528851064ccccb7b04be0404d2854d3c488a702312225c",
+        "observed_at": "2026-11-10T00:59:35.490795Z"
+      },
+      "identity_source": {
+        "url": "http://www.cayugacounty.gov/DocumentCenter/View/28724/7--July-8th-minutes-2024",
+        "body_sha256": "bfe1f413a7241285c1223ad2a9fb31378d36cb80c2efcd2171c3aa04184a6190",
+        "text_sha256": "f58293aa1cecd08abe0fdcebebf0e56912c801c7bea7e79e0b0b967dcd8e162c",
+        "quote": "Victory Town Board",
+        "locator": "minutes, local law introduced"
+      },
+      "identity_review": "Direct retained body/text review identifies the named state and municipal type; exact state/name/type Census match supplies an internal representative point. No boundary, project exposure or legal-force inference.",
+      "distance_km": 248.274,
+      "prior_questions": [
+        "No network, API, new search, official contact or acquisition this turn.",
+        "Recover October 14 Victory minutes for direct verification and investigate later Victory action and verified Cayuga coordinates; Mentz is not Victory."
+      ],
+      "remaining_questions": [
+        "Recover originalLocalLaw2, actual filing/effective anchor and controlling term, plus any later extension or termination. The unrelatedMentz document is not evidence of a Victory extension. Geographic reference now identifies the CayugaCounty town, not the SaratogaCounty village."
+      ],
+      "current_row_sha256": "ed3d8b3fa21e781e4141f476bcba043ac3c656f4aa85e2ee2c79a5c075153177"
+    },
+    {
+      "id": "nc-town-of-franklin-2026",
+      "dataset": "local_inventory",
+      "prior_row_sha256": "87df107c52b574f43958174efe92e0174f584609ecd6f90a1c4fe6a01139476b",
+      "existing_disposition": "unresolved",
+      "whole_record_disposition_unchanged": true,
+      "geography_question_resolved": true,
+      "census_record": {
+        "USPS": "NC",
+        "GEOID": "3724640",
+        "GEOIDFQ": "1600000US3724640",
+        "ANSICODE": "02406519",
+        "NAME": "Franklin town",
+        "LSAD": "43",
+        "FUNCSTAT": "A",
+        "ALAND": "12893583",
+        "AWATER": "222032",
+        "ALAND_SQMI": "4.978",
+        "AWATER_SQMI": "0.086",
+        "INTPTLAT": "35.179422",
+        "INTPTLONG": "-83.380691"
+      },
+      "gazetteer": {
+        "kind": "place",
+        "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2026_Gazetteer/2026_Gaz_place_national.zip",
+        "body_sha256": "af678e2d990827c89ee39b98c82de6e90b693c7361ff0e559ae3076670dd2863",
+        "member": "2026_Gaz_place_national.txt",
+        "member_sha256": "e10cb8004732684fa2a75b9d6030c6c9171674d6b112cff29dbc1bc31a9b82fa",
+        "observed_at": "2026-11-10T00:59:35.410441Z"
+      },
+      "identity_source": {
+        "url": "https://www.franklinnc.com/Documents/Government/Agenda%20and%20Minutes/Minutes%20July%206,%202026.pdf",
+        "body_sha256": "9c482c67158fac6e4f0994a818b350e9371d5b01e15ebac343129f0bf7993b3f",
+        "text_sha256": "4e1150ae8e1ab14c5f820edca661a07945da4828c1daf29a7fe2d49cff3ddd6f",
+        "quote": "TOWN OF FRANKLIN",
+        "locator": "lines 236-296 and motion following hearing: Franklin town council approval, planning jurisdiction and no pending application; public comments do not prove enacted term"
+      },
+      "identity_review": "Direct retained body/text review identifies the named state and municipal type; exact state/name/type Census match supplies an internal representative point. No boundary, project exposure or legal-force inference.",
+      "distance_km": 472.278,
+      "prior_questions": [
+        "Recover enacted ordinance and validate term, number, and effective date; verify correct coordinates against a suitable geographic authority before a coordinate proposal. Later actions not checked."
+      ],
+      "remaining_questions": [
+        "Recover the enacted ordinance and validate its term, instrument number, effective date and later actions. The representative-coordinate question is now resolved from retained official-town identity and Census reference."
+      ],
+      "current_row_sha256": "2cb7095ef4df077c180ef0ac70c0ca660023e4ddf75d6855ae881c801dd71a1a"
+    },
+    {
+      "id": "oh-providence-township-2026",
+      "dataset": "local_inventory",
+      "prior_row_sha256": "27a27ea3517d2af28c125f1f773c5c39f625407cd453d48b4e401ca10f8bd220",
+      "existing_disposition": "unresolved",
+      "whole_record_disposition_unchanged": true,
+      "geography_question_resolved": true,
+      "census_record": {
+        "USPS": "OH",
+        "GEOID": "3909564836",
+        "GEOIDFQ": "0600000US3909564836",
+        "ANSICODE": "01086531",
+        "NAME": "Providence township",
+        "FUNCSTAT": "A",
+        "ALAND": "67524200",
+        "AWATER": "1267829",
+        "ALAND_SQMI": "26.071",
+        "AWATER_SQMI": "0.49",
+        "INTPTLAT": "41.4697",
+        "INTPTLONG": "-83.836485"
+      },
+      "gazetteer": {
+        "kind": "cousubs",
+        "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2026_Gazetteer/2026_Gaz_cousubs_national.zip",
+        "body_sha256": "9d528b39b70a27075c863b1572f27eadaf24484d5435fac17fc3b4cdd36434c2",
+        "member": "2026_Gaz_cousubs_national.txt",
+        "member_sha256": "6d19c4e9e7a8b24856528851064ccccb7b04be0404d2854d3c488a702312225c",
+        "observed_at": "2026-11-10T00:59:35.490795Z"
+      },
+      "identity_source": {
+        "url": "https://toledofreepress.com/providence-township-passes-data-center-moratorium/",
+        "body_sha256": "e3adc3bc70fdd9ebe97b2b95ac29aa7c86a66e64d7f31d289e4215b199dfa7e8",
+        "text_sha256": "6c337b8532fedb4ee5474b814b7c4f7752f6c44e19c6a8c4d63492ad0b1714c3",
+        "quote": "PROVIDENCE TOWNSHIP",
+        "locator": "text paragraphs 1-3, 7, 15"
+      },
+      "identity_review": "Direct retained body/text review identifies the named state and municipal type; exact state/name/type Census match supplies an internal representative point. No boundary, project exposure or legal-force inference.",
+      "distance_km": 240.39,
+      "prior_questions": [
+        "Original instrument, later trustee actions and authoritative coordinates were not obtained."
+      ],
+      "remaining_questions": [
+        "Obtain the original moratorium instrument, operative anchor and later trustee actions; the representative-coordinate question is now resolved."
+      ],
+      "current_row_sha256": "b489a1d9472ca60340a26def1870ef15b183c88cae33ddf7cd39a997ed8390b1"
+    },
+    {
+      "id": "ok-choctaw-2026",
+      "dataset": "local_inventory",
+      "prior_row_sha256": "1b50ec9a29aab380fc29562d03688d087ce4e8fe94761b59c47ecf92f1e7bb11",
+      "existing_disposition": "unresolved",
+      "whole_record_disposition_unchanged": true,
+      "geography_question_resolved": true,
+      "census_record": {
+        "USPS": "OK",
+        "GEOID": "4014200",
+        "GEOIDFQ": "1600000US4014200",
+        "ANSICODE": "02409457",
+        "NAME": "Choctaw city",
+        "LSAD": "25",
+        "FUNCSTAT": "A",
+        "ALAND": "70492006",
+        "AWATER": "90603",
+        "ALAND_SQMI": "27.217",
+        "AWATER_SQMI": "0.035",
+        "INTPTLAT": "35.484983",
+        "INTPTLONG": "-97.269942"
+      },
+      "gazetteer": {
+        "kind": "place",
+        "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2026_Gazetteer/2026_Gaz_place_national.zip",
+        "body_sha256": "af678e2d990827c89ee39b98c82de6e90b693c7361ff0e559ae3076670dd2863",
+        "member": "2026_Gaz_place_national.txt",
+        "member_sha256": "e10cb8004732684fa2a75b9d6030c6c9171674d6b112cff29dbc1bc31a9b82fa",
+        "observed_at": "2026-11-10T00:59:35.410441Z"
+      },
+      "identity_source": {
+        "url": "https://www.centraloklahomaweeklies.com/2026/07/30/city-puts-moratorium-on-data-centers/",
+        "body_sha256": "6384435ff53c952216e69a4cf829e3534ed7982245cec4b45e6da16725b0e32b",
+        "text_sha256": "ff0e837c17fc1b2a92c811aff42a443c060e59cafe941d1dc4d18288e7884042",
+        "quote": "Choctaw City Council",
+        "locator": "article lines 1–19, July 21 vote, term, emergency clause"
+      },
+      "identity_review": "Direct retained body/text review identifies the named state and municipal type; exact state/name/type Census match supplies an internal representative point. No boundary, project exposure or legal-force inference.",
+      "distance_km": 227.832,
+      "prior_questions": [
+        "Official instrument and later city action not checked; no exact official instrument URL is available from the inspected routing.",
+        "Coordinates not verified."
+      ],
+      "remaining_questions": [
+        "Official instrument and later city action not checked; no exact official instrument URL is available from the inspected routing.",
+        "Coordinates not verified."
+      ],
+      "current_row_sha256": "f4214e2541dc973c5754a86dac147b50498de8c1b33c82834fd7daff737a8adb"
+    }
+  ],
+  "field_changes": [
+    {
+      "id": "ca-imperial-2026",
+      "field": "latitude",
+      "before": "33.030549",
+      "after": "32.838801"
+    },
+    {
+      "id": "ca-imperial-2026",
+      "field": "longitude",
+      "before": "-115.359567",
+      "after": "-115.572012"
+    },
+    {
+      "id": "il-city-of-west-chicago-2026",
+      "field": "latitude",
+      "before": "41.930953",
+      "after": "41.895343"
+    },
+    {
+      "id": "il-city-of-west-chicago-2026",
+      "field": "longitude",
+      "before": "-87.772554",
+      "after": "-88.220469"
+    },
+    {
+      "id": "mi-big-rapids-charter-township-2026",
+      "field": "latitude",
+      "before": "43.013441",
+      "after": "43.679795"
+    },
+    {
+      "id": "mi-big-rapids-charter-township-2026",
+      "field": "longitude",
+      "before": "-85.608119",
+      "after": "-85.502554"
+    },
+    {
+      "id": "mi-houghton-2026",
+      "field": "latitude",
+      "before": "46.859129",
+      "after": "47.111751"
+    },
+    {
+      "id": "mi-houghton-2026",
+      "field": "longitude",
+      "before": "-88.777473",
+      "after": "-88.567237"
+    },
+    {
+      "id": "mi-mason-2026",
+      "field": "latitude",
+      "before": "43.977883",
+      "after": "42.580693"
+    },
+    {
+      "id": "mi-mason-2026",
+      "field": "longitude",
+      "before": "-86.246291",
+      "after": "-84.442283"
+    },
+    {
+      "id": "mi-mason-2026",
+      "field": "current_status",
+      "before": "The January 5, 2026 official minutes record only first reading of Ordinance 267; contemporaneous news reported approval. Whether the moratorium became operative and its relationship to Ordinance 266 remain unresolved. Ordinance 266 was adopted February 2; the city index records its repeal March 16 after referendum petitions. Earlier Fox47 reporting attributed suspension to citizen petition and described a 4-2 repeal and return to M2 regulations. [VERIFY Ordinance 267 adoption, effect and termination; jurisdiction coordinates]",
+      "after": "The January 5, 2026 official minutes record only first reading of Ordinance 267; contemporaneous news reported approval. Whether the moratorium became operative and its relationship to Ordinance 266 remain unresolved. Ordinance 266 was adopted February 2; the city index records its repeal March 16 after referendum petitions. Earlier Fox47 reporting attributed suspension to citizen petition and described a 4-2 repeal and return to M2 regulations. [VERIFY Ordinance 267 adoption, effect and termination]"
+    },
+    {
+      "id": "mi-saline-city-2026",
+      "field": "latitude",
+      "before": "43.616689",
+      "after": "42.173829"
+    },
+    {
+      "id": "mi-saline-city-2026",
+      "field": "longitude",
+      "before": "-83.838902",
+      "after": "-83.776924"
+    },
+    {
+      "id": "mn-rice-undated",
+      "field": "latitude",
+      "before": "44.341338",
+      "after": "45.758617"
+    },
+    {
+      "id": "mn-rice-undated",
+      "field": "longitude",
+      "before": "-93.286548",
+      "after": "-94.242906"
+    },
+    {
+      "id": "mn-rice-undated",
+      "field": "current_status",
+      "before": "WJON reported that the City of Rice was scheduled to consider a proposed one-year moratorium and study on September 21, 2026; the retained article does not report the vote result. A Rice County-labelled blog repeats that report. [VERIFY vote result, city identity, coordinates and whether the Rice County petition relates to this proposal.]",
+      "after": "WJON reported that the City of Rice was scheduled to consider a proposed one-year moratorium and study on September 21, 2026; the retained article does not report the vote result. A Rice County-labelled blog repeats that report. [VERIFY vote result and whether the Rice County petition relates to this proposal.]"
+    },
+    {
+      "id": "ny-glenville-2025",
+      "field": "latitude",
+      "before": "41.034419",
+      "after": "42.888252"
+    },
+    {
+      "id": "ny-glenville-2025",
+      "field": "longitude",
+      "before": "-73.665470",
+      "after": "-73.9887"
+    },
+    {
+      "id": "ny-montgomery-2025",
+      "field": "latitude",
+      "before": "42.894127",
+      "after": "41.539726"
+    },
+    {
+      "id": "ny-montgomery-2025",
+      "field": "longitude",
+      "before": "-74.409975",
+      "after": "-74.209958"
+    },
+    {
+      "id": "ny-montgomery-2025",
+      "field": "current_status",
+      "before": "Town of Montgomery, Orange County minutes record adoption of Local Law 2-2025 removing BESS as a specially permitted use; the town attorney said filing would cancel the existing moratorium. A contemporaneous report identifies a November 28, 2023 twelve-month pause, without establishing the intervening instruments. The October 2026 tracker reports Montgomery lifted. Filing and the relationship between the two pauses remain unverified. The legacy coordinates require geographic review. [VERIFY original and intervening instruments, filing and coordinates.]",
+      "after": "Town of Montgomery, Orange County minutes record adoption of Local Law 2-2025 removing BESS as a specially permitted use; the town attorney said filing would cancel the existing moratorium. A contemporaneous report identifies a November 28, 2023 twelve-month pause, without establishing the intervening instruments. The October 2026 tracker reports Montgomery lifted. Filing and the relationship between the two pauses remain unverified. [VERIFY original and intervening instruments and filing.]"
+    },
+    {
+      "id": "ny-victory-2024",
+      "field": "latitude",
+      "before": "43.091857",
+      "after": "43.210319"
+    },
+    {
+      "id": "ny-victory-2024",
+      "field": "longitude",
+      "before": "-73.591758",
+      "after": "-76.648094"
+    },
+    {
+      "id": "ny-victory-2024",
+      "field": "current_status",
+      "before": "July 8, 2024 Town of Victory, Cayuga County minutes introduce a BESS moratorium; October 14 minutes record a 5–0 adoption of Local Law #2, a temporary BESS land-use moratorium. The cited June 2025 document concerns Mentz, not a Victory extension; an industry tracker lists Victory, Cayuga County under review. [VERIFY original law, filing, term, later action and geographic identity.]",
+      "after": "July 8, 2024 Town of Victory, Cayuga County minutes introduce a BESS moratorium; October 14 minutes record a 5–0 adoption of Local Law #2, a temporary BESS land-use moratorium. The cited June 2025 document concerns Mentz, not a Victory extension; an industry tracker lists Victory, Cayuga County under review. [VERIFY original law, filing, term and later action.]"
+    },
+    {
+      "id": "nc-town-of-franklin-2026",
+      "field": "latitude",
+      "before": "36.102860",
+      "after": "35.179422"
+    },
+    {
+      "id": "nc-town-of-franklin-2026",
+      "field": "longitude",
+      "before": "-78.278723",
+      "after": "-83.380691"
+    },
+    {
+      "id": "oh-providence-township-2026",
+      "field": "latitude",
+      "before": "39.324878",
+      "after": "41.4697"
+    },
+    {
+      "id": "oh-providence-township-2026",
+      "field": "longitude",
+      "before": "-84.192426",
+      "after": "-83.836485"
+    },
+    {
+      "id": "oh-providence-township-2026",
+      "field": "current_status",
+      "before": "The Toledo Free Press reported a unanimous trustee vote on 2026-04-15 for a 12-month moratorium on data center construction. Effective date and later action are unverified. [VERIFY: primary instrument, operative interval, subsequent action and township coordinates.]",
+      "after": "The Toledo Free Press reported a unanimous trustee vote on 2026-04-15 for a 12-month moratorium on data center construction. Effective date and later action are unverified. [VERIFY: primary instrument, operative interval, subsequent action.]"
+    },
+    {
+      "id": "ok-choctaw-2026",
+      "field": "latitude",
+      "before": "34.024623",
+      "after": "35.484983"
+    },
+    {
+      "id": "ok-choctaw-2026",
+      "field": "longitude",
+      "before": "-95.520550",
+      "after": "-97.269942"
+    }
+  ],
+  "input_inventory_sha256": "0e8a02c2a5fe388f1cbe95ffc8abd1756ea2727d5239677c7f6fc345d255eb58",
+  "output_inventory_sha256": "1b8a46e93e3980ef7c6a768ff9f5bf7baaff170515d009b5eff2384e943c6daa",
+  "canonical_cells_changed": 31,
+  "coordinate_cells": 26,
+  "prose_cells": 5,
+  "changed_records": 13,
+  "status_category_changes": 0,
+  "whole_record_closures": 0,
+  "geographic_subquestions_resolved": 13,
+  "retained_san_francisco_unchanged": true,
+  "network_requests": 0,
+  "scope": "Thirteen reviewed representative-point corrections and five removals of resolved geographic-prose gaps. No policy dates/statuses, boundaries, force, applicability, verification flags, IDs or whole-record dispositions change."
+}

@@ -424,7 +424,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 - **Legal basis:** A proposed interim ordinance was scheduled for a City Council vote on September 21, 2026, to prohibit the establishment, construction, or expansion of data centers within the city for one year and to authorize a Planning Commission study, under Minn. Stat. Sec. 462.355; the outcome of that vote was not confirmed in sources located as of 2026-09-23.
 - **What prompted it:** The reported proposal would protect the city planning process while data-center land uses are studied. The claimed connection to a Rice County petition is unverified for the City of Rice proposal.
 - **Affected projects:** None named.
-- **Detailed status:** WJON reported that the City of Rice was scheduled to consider a proposed one-year moratorium and study on September 21, 2026; the retained article does not report the vote result. A Rice County-labelled blog repeats that report. [VERIFY vote result, city identity, coordinates and whether the Rice County petition relates to this proposal.]
+- **Detailed status:** WJON reported that the City of Rice was scheduled to consider a proposed one-year moratorium and study on September 21, 2026; the retained article does not report the vote result. A Rice County-labelled blog repeats that report. [VERIFY vote result and whether the Rice County petition relates to this proposal.]
 - **Outcome:** Vote scheduled for 2026-09-21; outcome not confirmed in sources located in this pass.
 
 ### Rosemount

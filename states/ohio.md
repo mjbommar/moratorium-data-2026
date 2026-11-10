@@ -1947,7 +1947,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 - **Legal basis:** Trustee action using Waterville Township language, per Toledo Free Press [CITE primary text not captured]
 - **What prompted it:** Residents' concern about potential east-side township data center siting and lack of zoning language
 - **Affected projects:** No specific application identified
-- **Detailed status:** The Toledo Free Press reported a unanimous trustee vote on 2026-04-15 for a 12-month moratorium on data center construction. Effective date and later action are unverified. [VERIFY: primary instrument, operative interval, subsequent action and township coordinates.]
+- **Detailed status:** The Toledo Free Press reported a unanimous trustee vote on 2026-04-15 for a 12-month moratorium on data center construction. Effective date and later action are unverified. [VERIFY: primary instrument, operative interval, subsequent action.]
 - **Outcome:** Township intends to follow Waterville Township committee recommendations for zoning updates
 
 ### Ravenna

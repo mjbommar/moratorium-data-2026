@@ -117,12 +117,13 @@ def select_files(commit, names):
     exact.update(n for n in names if n.startswith('work/research/2026-11-08/')
                  and n.endswith(('.json', '.md')))
     # Carry the public post-release QA ledger with the corrected data; raw sources stay private.
-    exact.update(n for n in names if n.startswith('work/research/2026-11-09/post-release-qa/')
-                 and Path(n).suffix in {'.md', '.json', '.jsonl'})
+    exact.update(n for n in names if re.fullmatch(r'work/research/\d{4}-\d{2}-\d{2}/post-release-qa/[^/]+', n)
+                 and (Path(n).suffix in {'.md', '.json', '.jsonl'}
+                      or Path(n).name == 'audit-nonblank-geography.py'))
     exact.update(n for n in names if n.startswith(('work/research/2026-11-09/starke-expanded-review/',
                                                   'work/research/2026-11-09/starke-succession-review/'))
                  and Path(n).suffix in {'.md', '.json'})
-    exact.update(n for n in names if re.fullmatch(r'work/research/2026-11-09/release-2026\.11\.9\.post[1-9]\d*/[^/]+', n)
+    exact.update(n for n in names if re.fullmatch(r'work/research/\d{4}-\d{2}-\d{2}/release-\d{4}\.\d{1,2}\.\d{1,2}(?:\.post[1-9]\d*)?/[^/]+', n)
                  and Path(n).name in {'README.md', 'dataset-delta.json', 'release-body.md'})
     exact.update(n for n in names if re.fullmatch(r'docs/release-notes-\d{4}-\d{2}-\d{2}\.md', n))
     exact.update(n for n in names if n.startswith('figures/') and Path(n).suffix in {'.png', '.svg', '.pdf', '.md'})

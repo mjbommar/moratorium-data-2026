@@ -1471,7 +1471,7 @@ State policy is tracked separately: **14 records** (13 typed bill rows and 1 non
 - **Legal basis:** Proposed Ordinance 267, data-center moratorium; January 5, 2026 minutes record first reading only and a 4-2 vote; final adoption remains unverified.
 - **What prompted it:** Need to create new Technology Innovation (M-3) zoning district
 - **Affected projects:** Not specified
-- **Detailed status:** The January 5, 2026 official minutes record only first reading of Ordinance 267; contemporaneous news reported approval. Whether the moratorium became operative and its relationship to Ordinance 266 remain unresolved. Ordinance 266 was adopted February 2; the city index records its repeal March 16 after referendum petitions. Earlier Fox47 reporting attributed suspension to citizen petition and described a 4-2 repeal and return to M2 regulations. [VERIFY Ordinance 267 adoption, effect and termination; jurisdiction coordinates]
+- **Detailed status:** The January 5, 2026 official minutes record only first reading of Ordinance 267; contemporaneous news reported approval. Whether the moratorium became operative and its relationship to Ordinance 266 remain unresolved. Ordinance 266 was adopted February 2; the city index records its repeal March 16 after referendum petitions. Earlier Fox47 reporting attributed suspension to citizen petition and described a 4-2 repeal and return to M2 regulations. [VERIFY Ordinance 267 adoption, effect and termination]
 - **Outcome:** New M-3 Technology Innovation zoning district was adopted then repealed; no replacement ordinance in effect as of 2026-04-29
 
 ### Mason Township (Cass County)

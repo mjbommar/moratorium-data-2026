@@ -215,3 +215,5 @@ moratorium-data-2026/
 ```
 
 The [qualified Starke succession relationship](work/research/2026-11-09/starke-succession-review/README.md) links the temporary permit pause to the later adopted zoning prohibition as policy history. It does not establish formal termination, overlap or current legal force.
+
+Thirteen mislocated jurisdiction [map reference points were corrected](work/research/2026-11-09/post-release-qa/nonblank-geography-application.json) against retained source identities and Census internal points. These representative points identify jurisdictions; they do not define policy boundaries or project exposure.
