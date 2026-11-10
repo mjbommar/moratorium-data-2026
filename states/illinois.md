@@ -3,7 +3,7 @@
 
 Working inventory for Illinois, generated **November 9, 2026**. Record-level refresh and later-action review remain incomplete.
 
-**33 records** — 28 classified as active or extended, 2 classified as pending, 3 classified as past, 0 classified as rejected proposals, 0 classified as unknown.
+**33 records** — 27 classified as active or extended, 2 classified as pending, 4 classified as past, 0 classified as rejected proposals, 0 classified as unknown.
 
 These counts reflect inventory classifications and do not establish current enforceability.
 
@@ -28,7 +28,7 @@ State policy is tracked separately: **11 records** (11 typed bill rows) in [`sta
 | Lake County | County | 2026-09-08 | data center | 🟢 Active |
 | Lawrence County | County | 2026-09-17 | data center | 🟢 Active |
 | Lee County | County | 2026-08-20 | data center | 🟢 Active |
-| Lee County | County | 2026-03 | battery storage | 🟢 Active |
+| Lee County | County | 2026-03-19 | battery storage | ⚪ Expired |
 | Logan County | County | 2026-05-19 | data center | 🔴 Rescinded |
 | Macon County | County | Unverified | data center | 🟡 Pending |
 | Mattoon | City | 2026-09-01 | data center | 🟢 Active |
@@ -316,23 +316,23 @@ State policy is tracked separately: **11 records** (11 typed bill rows) in [`sta
 - **Legal basis:** Lee County Resolution No. 2026-08-002, 'Resolution Imposing a Temporary Moratorium on Applications for Technology Overlay District Designation'
 - **What prompted it:** The Lee County Board wanted to review and consider amendments to the Technology Overlay District regulations (the zoning mechanism used to site technology-related/data-center uses) to address land-use, infrastructure, public-safety, environmental, and community impacts; no TOD petition was pending at the time.
 - **Affected projects:** None; no complete or active TOD petition was pending before the county as of the resolution's passage.
-- **Detailed status:** Active as of 2026-09-23; runs through November 19, 2026 per the resolution. No TOD petitions are pending, per the county's own petition-tracking page.
+- **Detailed status:** Recorded active under signed Resolution 2026-08-002, with scheduled expiry November 19, 2026 at 11:59 p.m. unless earlier terminated, extended or modified. The county TOD page captured November 9 repeats that conditional endpoint and reports no petitions pending. September/October minute-bundle OCR screening did not locate a later TOD action; complete intervening board actions and individual project files have not been independently audited.
 - **Outcome:** Pauses new Technology Overlay District applications while the county reviews and considers amendments to its TOD zoning regulations.
 
 ### Lee County
 
 - **Type:** County
-- **Recorded status:** 🟢 Active
-- **Date enacted:** March 2026 (County Board meeting; exact date not confirmed)
-- **Normalized date:** `2026-03` (month_only)
-- **Duration:** Until the state issues implementing regulations under Public Act 104-0458
-- **Current end date:** `—`
+- **Recorded status:** ⚪ Expired
+- **Date enacted:** March 19, 2026: Resolution 2026-03-003 approved unanimously by voice vote; signed and sealed copy attached to official minutes. Resolution 2026-05-004 approved May 21, 2026.
+- **Normalized date:** `2026-03-19` (exact)
+- **Duration:** Resolution 2026-03-003 took effect upon passage March 19, 2026 and specified May 21, 2026. Resolution 2026-05-004 took effect upon passage May 21 and specified June 23, 2026. Neither operative clause makes the endpoint contingent on state implementing regulations.
+- **Current end date:** `2026-06-23`
 - **Sectors:** battery storage
 - **Moratorium ID:** `il-lee-county-2026-2`
-- **Legal basis:** County Board resolution placing a moratorium on energy-storage projects pending state implementing regulations under Public Act 104-0458
+- **Legal basis:** Lee County Resolution 2026-03-003, Energy Storage Systems Moratorium, adopted March 19, 2026; Resolution 2026-05-004, Energy Storage Systems Moratorium, adopted May 21, 2026. Signed and sealed copies bar acceptance of zoning petitions for energy-storage systems and/or energy-storage power stations until their stated dates.
 - **What prompted it:** Awaiting state implementing regulations for utility-scale energy storage siting under PA 104-0458
 - **Affected projects:** —
-- **Detailed status:** The earlier dataset recorded an energy-storage moratorium as active on 2026-09-23, but its original resolution and later status have not been independently verified. A May 21 county board agenda listed an energy-storage moratorium resolution; a separate secondary summary dated May 20 reported a short moratorium, without establishing the relationship to the March 2026 measure. On June 25, 2026, the County Board approved Ordinance 2026-06-004 creating energy-storage regulations under Public Act 104-0458; whether it ended the earlier moratorium remains unverified. [VERIFY instrument number; primary source (news-only evidence) not confirmed at confidence 0.6 in the 2026-09 refresh]
+- **Detailed status:** Historical latest-recorded-term classification: expired after the June 23, 2026 endpoint in signed Resolution 2026-05-004; the prior indefinite state-regulations description was incorrect for the two recovered instruments. June 25 minutes record approval of storage Ordinance 2026-06-004, not a June 23 termination vote. The two-day transition and any additional intervening act are not established here. September/October OCR screening did not locate a later moratorium action, but complete intervening/later proceedings were not reviewed. [VERIFY: any additional extension or modification, exact operative history and present legal force.]
 - **Outcome:** Adopted
 
 ### Logan County

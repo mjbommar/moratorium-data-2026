@@ -3,9 +3,9 @@
 
 _Working inventory generated November 9, 2026; record-level refresh remains incomplete. 1328 local moratorium records tracked across 47 states._
 
-- 🟢 **1089 classified as active or extended**
+- 🟢 **1088 classified as active or extended**
 - 🟡 **64 classified as pending**
-- ⚪ **169 classified as past** (expired, replaced, or rescinded)
+- ⚪ **170 classified as past** (expired, replaced, or rescinded)
 - 🔴 **2 rejected proposals retained**
 - ❔ **4 with unknown status**
 
@@ -31,7 +31,7 @@ State-policy records, including bills, resolutions, precursor memos and binding 
 | [California](california.md) | 34 | 25 | 0 | 8 | 0 | 1 |
 | [Colorado](colorado.md) | 34 | 28 | 1 | 5 | 0 | 0 |
 | [Kentucky](kentucky.md) | 34 | 31 | 1 | 1 | 0 | 1 |
-| [Illinois](illinois.md) | 33 | 28 | 2 | 3 | 0 | 0 |
+| [Illinois](illinois.md) | 33 | 27 | 2 | 4 | 0 | 0 |
 | [Minnesota](minnesota.md) | 29 | 28 | 1 | 0 | 0 | 0 |
 | [Kansas](kansas.md) | 26 | 23 | 0 | 3 | 0 | 0 |
 | [Pennsylvania](pennsylvania.md) | 26 | 22 | 0 | 4 | 0 | 0 |

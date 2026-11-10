@@ -1,0 +1,131 @@
+{
+  "focused_checks": [
+    {
+      "command": [
+        "scripts/validate_dataset.py",
+        "--today",
+        "2026-11-09"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/build_policy_scope_exports.py",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/build_summary_stats.py",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/build_geojson.py",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/make_timeline.py",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/check_docs_numbers.py"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "-m",
+        "scripts.generate_tables.inventory_clean",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/build_index.py",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/classify_sources.py",
+        "--check"
+      ],
+      "returncode": 0
+    }
+  ],
+  "canonical_cells_changed": 10,
+  "changed_records": 2,
+  "field_changes": [
+    {
+      "id": "il-lee-county-2026",
+      "field": "current_status"
+    },
+    {
+      "id": "il-lee-county-2026-2",
+      "field": "date_enacted"
+    },
+    {
+      "id": "il-lee-county-2026-2",
+      "field": "duration"
+    },
+    {
+      "id": "il-lee-county-2026-2",
+      "field": "legal_basis"
+    },
+    {
+      "id": "il-lee-county-2026-2",
+      "field": "current_status"
+    },
+    {
+      "id": "il-lee-county-2026-2",
+      "field": "enacted_status"
+    },
+    {
+      "id": "il-lee-county-2026-2",
+      "field": "date_enacted_iso"
+    },
+    {
+      "id": "il-lee-county-2026-2",
+      "field": "date_enacted_uncertainty"
+    },
+    {
+      "id": "il-lee-county-2026-2",
+      "field": "duration_kind"
+    },
+    {
+      "id": "il-lee-county-2026-2",
+      "field": "current_end_date_iso"
+    }
+  ],
+  "status_category_changes": 1,
+  "whole_record_closures": 0,
+  "native_exact_source_pairs_verified": 7,
+  "ocr_pages": 204,
+  "decisive_signed_pages_visually_verified": [
+    {
+      "source": "march19",
+      "pdf_page": 53
+    },
+    {
+      "source": "may21",
+      "pdf_page": 11
+    }
+  ],
+  "pending_post6_cells": 19,
+  "pending_post6_records": 6,
+  "pending_post6_category_changes": 1,
+  "inventory_sha256": "e9f1cd63fc928d57e7c81632fa2e0501d347f72e15afd2eea3c95bb87b75fd2b",
+  "scope": "Original instruments and fixed endpoints accepted; latest-recorded-term historical category only. Complete intervening/later proceedings and current force remain open."
+}
