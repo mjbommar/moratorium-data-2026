@@ -14,7 +14,8 @@ def questions(value):
     found=[]
     if isinstance(value,dict):
         for key,item in value.items():
-            if any(term in key.lower() for term in ('unperformed','precise_gap','outstanding_question','remaining_question')):
+            if (key.lower() in ('source_followup', 'source_followup_required')
+                or any(term in key.lower() for term in ('unperformed','precise_gap','outstanding_question','remaining_question'))):
                 found.extend(residual_values(item))
             elif isinstance(item,(dict,list)): found.extend(questions(item))
     elif isinstance(value,list):

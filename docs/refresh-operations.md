@@ -48,6 +48,10 @@ The [November 7 ballot followup](../work/research/2026-11-07/ballot-primary-gap-
 illustrates this check: Joliet's signed referral resolution already supported its
 canonical placement fields, while certification and filing-history gaps remained.
 
+## Outstanding question extraction
+
+The queue indexes both method limitations and explicit `source_followup` / `source_followup_required` instructions from retained reviews. The [November 10 index audit](../work/research/2026-11-10/post-release-qa/outstanding-followup-index-audit.md) recovered 424 previously omitted instructions across 421 records without changing dispositions or inventing new questions. At that checkpoint, 1,347 unresolved records correspond to 2,094 question entries; the two denominators are separate. A generic statement that an independent review made no network calls does not establish that primary collection was absent; inspect its actual evidence and specific next source. Do not automatically close a record or renew its cutoff from this mechanical index.
+
 ## Acquisition and interruption
 
 Use a bounded `scripts/research_client.py` directory with persistent caps. Preserve
