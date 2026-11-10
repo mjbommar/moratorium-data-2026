@@ -15,7 +15,7 @@
     "Experimental model extraction/P4 has not passed; no experimental extraction output is accepted automatically.",
     "The companion April paper and dated sibling publications retain their historical editions."
   ],
-  "update_status": "qualified_release_with_ongoing_qa",
+  "update_status": "working_qa_after_v2026.11.10.post3",
   "full_inventory_closeout": "reviewed_and_applied_with_bounded_unresolved_questions",
   "consumer_dispositions": "delivered_with_historical_editions_preserved",
   "experimental_extractor": "failed_no_automatic_promotion",
@@ -31,7 +31,7 @@
   "record_disposition_path": "work/research/2026-11-08/full-record-dispositions/funnel.json",
   "qa_status": "ongoing",
   "publication_authorization": "publish current state with qualifications on pending QA, then continue to double check and clear the outstanding questions",
-  "working_revision": "post3-delivered-nottingham-source-review-no-data-change",
+  "working_revision": "policy-proposal-endpoint-qa",
   "current_raw_counts": {
     "local": 1328,
     "state_policy": 448,
@@ -81,7 +81,7 @@
     "scope": "Delivered in qualified v2026.11.10.post3 and verified V18: one superseding Canterbury reported approval/complete observation, with unchanged tally and unknown certification/force. Legacy CSVs and all prior native records preserved.",
     "delivery_receipt": "work/research/2026-11-10/post-release-qa/consumer-v18-handoff.json"
   },
-  "latest_source_followup": "work/research/2026-11-10/post-release-qa/nottingham-september-source-review.json",
+  "latest_source_followup": "work/research/2026-11-09/post-release-qa/policy-proposal-endpoint-adjudications.json",
   "latest_expanded_candidate_review": "work/research/2026-11-09/starke-succession-review/validation.json",
   "latest_expanded_publication": {
     "generation_id": "3ce33d22288fa7bc7100c9ac621c041037702e8370af1e663d53a548ff794725",
@@ -123,5 +123,17 @@
     "receipt": "work/research/2026-11-10/release-2026.11.10.post3/hosted-copy-verification.json",
     "state": "verified"
   },
-  "latest_expanded_result_review": "work/research/2026-11-10/canterbury-minutes-result-review/coordinator-adjudication.json"
+  "latest_expanded_result_review": "work/research/2026-11-10/canterbury-minutes-result-review/coordinator-adjudication.json",
+  "pending_consumer_input_delta": {
+    "baseline_source_commit": "4adc611e1a9ecc6be6438ab62ea5a1f28a482b93",
+    "baseline_consumer_commit": "8a94851d549307a01d87d983fa2da66398a9ba07",
+    "changed_policy_rows": 4,
+    "changed_cells": 10,
+    "status_category_changes": 1,
+    "scope_membership_changes": 0,
+    "scope_fingerprint_rebindings": 4,
+    "whole_record_closures": 0,
+    "additional_review": "work/research/2026-11-09/post-release-qa/policy-proposal-endpoint-adjudications.json",
+    "scope": "Maine general effective date; NewMexico proposal versions; RhodeIsland unsupported failure qualified; retained official URI recovery. Frozen post3/V18 unchanged; synchronization pending."
+  }
 }
