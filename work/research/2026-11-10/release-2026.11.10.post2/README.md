@@ -1,3 +1,9 @@
-# Qualified Hawaii correction preparation
+# Qualified Hawaii correction delivered
 
-[Scope and qualifications](release-body.md), [exact changes](dataset-delta.json), [source review](../../2026-11-09/post-release-qa/hawaii-session-outcome-adjudications.json), and [validation](../../2026-11-09/post-release-qa/hawaii-session-outcome-validation.json). Remote release and consumer delivery remain pending until separately verified.
+Published [v2026.11.10.post2](https://github.com/mjbommar/moratorium-data-2026/releases/tag/v2026.11.10.post2) pins `abd5a14abe67a052b57fa037ad83bd63f781d195`. [Scope](release-body.md), [exact changes](dataset-delta.json), [source review](../../2026-11-09/post-release-qa/hawaii-session-outcome-adjudications.json) and [validation](../../2026-11-09/post-release-qa/hawaii-session-outcome-validation.json) describe fourteen fields across six Hawaii rows and six scoped review closures.
+
+[Two identical builds and ten assets](build-and-assets.json), [clean restore](clean-restore.json), [ten anonymous downloads and all2270 archive members](public-verification.json), and [nineteen hosted surfaces](hosted-copy-verification.json) pass. Release manifest `f187c684851925b10a9abcb88d2ef7d464308b5d86f4c8c0c709b343bd0bd3c7`. [Comparison](archive-comparison.json) confirms the exact14-field delta and unchanged local, summary, ballot, native expanded and identity values. [Edition-label validation](release-label-validation.json) checks actual archived citation version/date and current README/FAQ/methodology labels; six tests include the prior post1 citation regression. Earlier post1 citation limitations remain qualified without rewriting its assets.
+
+[Consumer V17](../post-release-qa/consumer-v17-handoff.md) is independently technically verified, pushed and remote-verified from the same source. Source-cutoff pending-delivery metadata is fulfilled by these later receipts. Historical joins, frozen populations and dated sibling publications are preserved.
+
+The1,359 remaining record holds, HCR206 exact convening/attendance and Massachusetts independent QA remain open. No universal present-force certification, later-law-content survey or new nationwide acquisition is claimed. Historical nonpassage is qualified as an inference; LRB compilations are subject to Chief Clerk confirmation and absence alone is not proof. No DOI is asserted.

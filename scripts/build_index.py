@@ -40,7 +40,9 @@ _RELEASE = json.loads((REPO / "data/release_metadata.json").read_text())
 _RELEASE_DAY = date.fromisoformat(_RELEASE["release_date"])
 _SOURCE_DAY = date.fromisoformat(_RELEASE["research_cutoff"].split("T", 1)[0])
 RELEASE_VERSION = _RELEASE["version"]
-RELEASE_CONTEXT = "Qualified release" if _RELEASE.get("update_status") == "published_qualified_patch_pending_qa" else "Working QA after"
+RELEASE_CONTEXT = "Qualified release" if _RELEASE.get("update_status") in {
+    "published_qualified_patch_pending_qa", "qualified_release_with_ongoing_qa",
+} else "Working QA after"
 RELEASE_LABEL = f"{_RELEASE_DAY:%B} {_RELEASE_DAY.day}, {_RELEASE_DAY.year}"
 RELEASE_DATE = f"{_RELEASE_DAY.day} {_RELEASE_DAY:%B %Y}"
 RELEASE_ISO = _RELEASE_DAY.isoformat()

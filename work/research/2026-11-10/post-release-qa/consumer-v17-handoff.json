@@ -1,0 +1,338 @@
+{
+  "source_commit": "abd5a14abe67a052b57fa037ad83bd63f781d195",
+  "manifest_sha256": "a0a243df707092511131970148d84de880ea137c266249792508fbc31236374e",
+  "expanded_snapshot": "216e9ca5a0b9533e0413ae70eb3d35499c3bd4dd978637b582acab8a9fb94887",
+  "current_counts": {
+    "moratorium_records": 1328,
+    "state_policy_records": 448,
+    "ballot_measures": 57,
+    "retained_results": 64,
+    "current_results": 53,
+    "retained_events": 12,
+    "current_accepted_historical_events": 12,
+    "restriction_records": 3,
+    "measure_instrument_link_records": 1
+  },
+  "files": 2330,
+  "entries": 2531,
+  "verified_at": "2026-11-10T07:08:35.510131+00:00",
+  "consumer_verification": {
+    "handoff": {
+      "state": "verified",
+      "source_commit": "abd5a14abe67a052b57fa037ad83bd63f781d195",
+      "manifest_sha256": "a0a243df707092511131970148d84de880ea137c266249792508fbc31236374e",
+      "expanded_snapshot": "216e9ca5a0b9533e0413ae70eb3d35499c3bd4dd978637b582acab8a9fb94887",
+      "files": 2330,
+      "entries": 2531,
+      "checks": [
+        {
+          "command": [
+            "scripts/check_expanded_publication.py"
+          ],
+          "exit_code": 0,
+          "result": {
+            "state": "consistent",
+            "snapshot_sha256": "216e9ca5a0b9533e0413ae70eb3d35499c3bd4dd978637b582acab8a9fb94887",
+            "generations_checked": 48,
+            "records": {
+              "jurisdictions": 53,
+              "elections": 51,
+              "ballot_measures": 57,
+              "measure_provisions": 52,
+              "measure_results": 64,
+              "local_restrictions": 3,
+              "instrument_events": 12,
+              "measure_instrument_links": 1,
+              "source_documents": 167,
+              "claims": 621,
+              "review_decisions": 2742,
+              "search_runs": 1,
+              "search_attempts": 3,
+              "search_sightings": 18,
+              "coverage_observations": 1
+            },
+            "scope": "Offline publication/receipt consistency only; no source reacquisition, renewed factual acceptance or current-force confirmation."
+          }
+        },
+        {
+          "command": [
+            "scripts/build_expanded_csv.py",
+            "--check"
+          ],
+          "exit_code": 0,
+          "result": {
+            "state": "matches",
+            "source_snapshot": "216e9ca5a0b9533e0413ae70eb3d35499c3bd4dd978637b582acab8a9fb94887",
+            "projection_sha256": "d9ceae98a0b54763703244dc397c147504f0bcbf8763e54abcabde00d2c05cee",
+            "csv_views": 18
+          }
+        },
+        {
+          "command": [
+            "scripts/build_policy_scope_exports.py",
+            "--check"
+          ],
+          "exit_code": 0,
+          "result": "policy-scope exports current"
+        }
+      ],
+      "checks_run": true,
+      "scope": "Pinned input integrity and offline publication consistency, not source reacquisition or downstream join acceptance."
+    },
+    "policy_semantics": {
+      "total_state_policy_actions": 448,
+      "total_state_bills": 427,
+      "state_policy_instrument_type_counts": {
+        "bill": 427,
+        "executive_order": 2,
+        "governor_directive": 1,
+        "legislative_amendment": 1,
+        "legislative_precursor": 3,
+        "legislative_resolution": 12,
+        "statute": 2
+      },
+      "top_states_by_bills": [
+        [
+          "Pennsylvania",
+          18
+        ],
+        [
+          "Virginia",
+          18
+        ],
+        [
+          "West Virginia",
+          18
+        ],
+        [
+          "Maryland",
+          16
+        ],
+        [
+          "New Jersey",
+          16
+        ],
+        [
+          "California",
+          14
+        ],
+        [
+          "South Dakota",
+          14
+        ],
+        [
+          "Arizona",
+          13
+        ],
+        [
+          "Iowa",
+          13
+        ],
+        [
+          "Michigan",
+          13
+        ],
+        [
+          "Minnesota",
+          12
+        ],
+        [
+          "Ohio",
+          12
+        ],
+        [
+          "Oklahoma",
+          12
+        ],
+        [
+          "Illinois",
+          11
+        ],
+        [
+          "Kansas",
+          11
+        ]
+      ],
+      "top_states_by_policy_actions": [
+        [
+          "Pennsylvania",
+          22
+        ],
+        [
+          "Virginia",
+          18
+        ],
+        [
+          "West Virginia",
+          18
+        ],
+        [
+          "Maryland",
+          17
+        ],
+        [
+          "New Jersey",
+          17
+        ],
+        [
+          "California",
+          14
+        ],
+        [
+          "Michigan",
+          14
+        ],
+        [
+          "South Dakota",
+          14
+        ],
+        [
+          "Arizona",
+          13
+        ],
+        [
+          "Iowa",
+          13
+        ],
+        [
+          "Kansas",
+          12
+        ],
+        [
+          "Minnesota",
+          12
+        ],
+        [
+          "Ohio",
+          12
+        ],
+        [
+          "Oklahoma",
+          12
+        ],
+        [
+          "Illinois",
+          11
+        ]
+      ]
+    }
+  },
+  "index_verification": {
+    "snapshot": "data/source-snapshots/moratoria/2026-11-10-reviewed-v17",
+    "source_commit": "abd5a14abe67a052b57fa037ad83bd63f781d195",
+    "manifest_sha256": "a0a243df707092511131970148d84de880ea137c266249792508fbc31236374e",
+    "tracked_files_and_symlinks": 2331,
+    "exact_staged_git_blob_bytes_and_modes": true,
+    "scope": "Exact staged snapshot content, Git modes and path set against the pinned manifest, including the manifest itself. This is not an independent legal review."
+  },
+  "delta_from_v16": {
+    "local": {
+      "changed_rows": 0,
+      "changed_cells": 0,
+      "changes": []
+    },
+    "policy": {
+      "changed_rows": 6,
+      "changed_cells": 14,
+      "changes": [
+        {
+          "id": "hi-hb1784-2024",
+          "field": "status",
+          "before": "Passed House 2024-03-01; Senate passed second reading as SD1 and referred to WAM 2024-03-20; no later action listed in the official 2024 history observed 2026-11-05. Biennium-end disposition requires independent verification.",
+          "after": "Passed House 2024-03-01; Senate passed second reading as SD1 and referred to WAM 2024-03-20. Complete official history retained2026-11-05 records no later final passage. LRB reports actual regular-session sine die on 2024-05-03; ArticleIIIsection15 carries pending bills only from an odd-year regular session into the next regular session. Infer nonpassage at the end of the 2024 regular-session biennium, not present pendency. This is a historical session-outcome inference, not a bill-specific Died entry or absence-of-successor-law claim."
+        },
+        {
+          "id": "hi-hb1784-2024",
+          "field": "bill_status_category",
+          "before": "passed_one_chamber",
+          "after": "failed_died"
+        },
+        {
+          "id": "hi-hb1784-2024",
+          "field": "legal_effect_status",
+          "before": "unknown",
+          "after": "failed"
+        },
+        {
+          "id": "hi-hcr206-2026",
+          "field": "status",
+          "before": "House adopted HD1 2026-04-09; Senate adopted 2026-04-27 and transmitted to House; House adopted in final form 2026-04-27. Senate committees recommended passage unamended. The Hawaii State Energy Office page captured 2026-11-08 Eastern Time reports actively convening the HCR206 working group and lists meetings dated September 21, October 5 and October 27 without specifying a year; the page does not independently establish whether each listed meeting occurred.",
+          "after": "House adopted HD1 2026-04-09; Senate adopted 2026-04-27 and transmitted to House; House adopted in final form 2026-04-27. Senate committees recommended passage unamended. The Hawaii State Energy Office canonical page captured2026-11-10 UTC reports actively convening the HCR206 working group and explicitly lists September21, October5 and October27,2026 meetings, with linked materials. It says meetings are invitation-only and not recorded. Listing dates and materials does not independently establish attendance or occurrence of each meeting; the exact initial convening remains unverified."
+        },
+        {
+          "id": "hi-sb2527-2024",
+          "field": "status",
+          "before": "Senate passed 2024-03-05; House passed second reading as HD1 and referred to FIN 2024-03-20; no later action listed in the official history observed 2026-11-05. Biennium-end disposition requires independent verification.",
+          "after": "Senate passed 2024-03-05; House passed second reading as HD1 and referred to FIN 2024-03-20. Complete official history retained2026-11-05 records no later final passage. LRB reports actual regular-session sine die on 2024-05-03; ArticleIIIsection15 carries pending bills only from an odd-year regular session into the next regular session. Infer nonpassage at the end of the 2024 regular-session biennium, not present pendency. This is a historical session-outcome inference, not a bill-specific Died entry or absence-of-successor-law claim."
+        },
+        {
+          "id": "hi-sb2527-2024",
+          "field": "bill_status_category",
+          "before": "passed_one_chamber",
+          "after": "failed_died"
+        },
+        {
+          "id": "hi-sb2527-2024",
+          "field": "legal_effect_status",
+          "before": "unknown",
+          "after": "failed"
+        },
+        {
+          "id": "hi-sb284-2023-2024",
+          "field": "status",
+          "before": "Senate passed SD2 2023-03-07; House passed second reading HD1 and referred to FIN 2023-03-24; carried over 2023-12-11 to 2024. No later action listed in the official 2024 history observed 2026-11-05; biennium-end disposition requires independent verification.",
+          "after": "Senate passed SD2 2023-03-07; House passed second reading HD1 and referred to FIN 2023-03-24; carried over 2023-12-11 to 2024. Complete official history retained2026-11-05 records no later final passage. LRB reports actual regular-session sine die on 2024-05-03; ArticleIIIsection15 carries pending bills only from an odd-year regular session into the next regular session. Infer nonpassage at the end of the 2024 regular-session biennium, not present pendency. This is a historical session-outcome inference, not a bill-specific Died entry or absence-of-successor-law claim."
+        },
+        {
+          "id": "hi-sb284-2023-2024",
+          "field": "bill_status_category",
+          "before": "carried_over",
+          "after": "failed_died"
+        },
+        {
+          "id": "hi-sb284-2023-2024",
+          "field": "legal_effect_status",
+          "before": "unknown",
+          "after": "failed"
+        },
+        {
+          "id": "hi-sb338-2025-2026",
+          "field": "status",
+          "before": "Senate passed SD2 2025-03-04; House passed second reading HD1 and referred to FIN 2025-03-21; carried over 2025-12-08 to 2026. No later action listed in the official history observed 2026-11-05; biennium-end disposition requires independent verification.",
+          "after": "Senate passed SD2 2025-03-04; House passed second reading HD1 and referred to FIN 2025-03-21; carried over 2025-12-08 to 2026. Complete official history retained2026-11-05 records no later final passage. LRB reports actual regular-session sine die on 2026-05-08; ArticleIIIsection15 carries pending bills only from an odd-year regular session into the next regular session. Infer nonpassage at the end of the 2026 regular-session biennium, not present pendency. This is a historical session-outcome inference, not a bill-specific Died entry or absence-of-successor-law claim."
+        },
+        {
+          "id": "hi-sb338-2025-2026",
+          "field": "bill_status_category",
+          "before": "carried_over",
+          "after": "failed_died"
+        },
+        {
+          "id": "hi-sb338-2025-2026",
+          "field": "legal_effect_status",
+          "before": "unknown",
+          "after": "failed"
+        },
+        {
+          "id": "hi-scr95-sr90-2026",
+          "field": "status",
+          "before": "SR90 adopted as SD1 2026-04-09; certified copies sent 2026-05-12. SCR95 adopted in Senate as SD1 2026-04-09 and referred to House EEP/FIN 2026-04-10; no later action listed in the official history observed 2026-11-05. Its final disposition requires independent verification.",
+          "after": "SR90 adopted as SD1 2026-04-09; certified copies sent 2026-05-12 (administrative distribution). SCR95 adopted in Senate as SD1 2026-04-09 and referred to House EEP/FIN 2026-04-10; complete retained history has no House final adoption. LRB lists SR90 among adopted2026 resolutions, omits SCR95, and records actual regular-session sine die2026-05-08. Infer SCR95 did not achieve concurrent adoption in that regular session. This legacy ID retains two distinct resolutions; SR90 adoption is not SCR95 adoption."
+        }
+      ]
+    }
+  },
+  "status_category_changes": 4,
+  "expanded_additions": {},
+  "expanded_tables_unchanged": true,
+  "ballot_records_unchanged": true,
+  "whole_record_closures": 6,
+  "trusted_verifier_sha256": "ebecf851d4196715df186cc81cc3c933ab7da550fbafd7207996cd94b9cd2739",
+  "scope": "Canonical input delivery:14 fields across6 Hawaii rows,4 historical bill category corrections,6 scoped review closures,1359 unresolved. SR90 and SCR95 outcomes remain distinct under the existing combined ID; HCR206 meeting years explicit, exact convening/attendance unknown. No local, native expanded, ballot, identity or analytical-membership changes; earlier snapshots and joins preserved.",
+  "consumer_commit": "44cc47fbd92536688e484a61059105a69fc8d607",
+  "consumer_remote_main_verified": true,
+  "qualified_release": "v2026.11.10.post2",
+  "qualified_release_manifest_sha256": "f187c684851925b10a9abcb88d2ef7d464308b5d86f4c8c0c709b343bd0bd3c7",
+  "hosted_source_verification": "work/research/2026-11-10/release-2026.11.10.post2/hosted-copy-verification.json",
+  "committed_consumer_verifier_matches_trusted_pin": true
+}
