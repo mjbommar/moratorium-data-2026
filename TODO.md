@@ -1,5 +1,7 @@
 # Implementation TODO
 
+- [x] Close four Missouri historical regular-session disposition reviews using the complete official 102-measure final-passage list and session calendar. Four status-prose cells corrected; categories/dates unchanged. 1,349 unresolved reviews remain; seven corrected cells and five historical closures await later release/consumer delivery.
+
 - [x] Reconcile stale Wyoming SF193 analytical-acceptance question against the exact-row independent scope decision and retained terminal digest. No new captures or canonical/status changes; 1,353 unresolved reviews remain.
 
 - [x] Deliver qualified post9 and additive V24: nine corrected fields, one historical adoption date, two scoped historical closures; deterministic builds, full clean restore, ten anonymous downloads and exact consumer checks pass. 1,354 reviews remain unresolved; website-copy synchronization remains pending.

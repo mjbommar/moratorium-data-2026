@@ -1,8 +1,8 @@
 {
   "event_cutoff_utc": "2026-11-07T13:38:39.877065Z",
   "counts": {
-    "unresolved": 1353,
-    "corrected_resolved": 184,
+    "unresolved": 1349,
+    "corrected_resolved": 188,
     "confirmed_unchanged": 239,
     "superseded_duplicate": 0,
     "not_attempted": 0
@@ -14,9 +14,9 @@
       "corrected_resolved": 4
     },
     "remaining1552": {
-      "corrected_resolved": 180,
+      "corrected_resolved": 184,
       "confirmed_unchanged": 213,
-      "unresolved": 1157,
+      "unresolved": 1153,
       "superseded_duplicate": 0
     },
     "post_release_additions": {
@@ -18024,12 +18024,9 @@
     {
       "id": "mo-hb-2239-2026",
       "dataset": "state_policy",
-      "disposition": "unresolved",
-      "public_receipt_pointer": "work/research/2026-11-08/full-inventory-integrated-application/README.md",
-      "residual_reference": {
-        "dataset": "state_policy",
-        "id": "mo-hb-2239-2026"
-      },
+      "disposition": "corrected_resolved",
+      "public_receipt_pointer": "work/research/2026-11-09/post-release-qa/missouri-final-passage-adjudications.json",
+      "residual_reference": null,
       "recorded_evidence_fingerprints_sha256": [
         "23540209fdbd37a40702fdd0c6daad6cf2519bf04a42470f2e20fae59aa33e79",
         "2abc7608a20054406eff6781e87e0468a902d4217aef9aaf29e54b241d429c22",
@@ -18084,12 +18081,9 @@
     {
       "id": "mo-hb-3369-2026",
       "dataset": "state_policy",
-      "disposition": "unresolved",
-      "public_receipt_pointer": "work/research/2026-11-08/full-inventory-integrated-application/README.md",
-      "residual_reference": {
-        "dataset": "state_policy",
-        "id": "mo-hb-3369-2026"
-      },
+      "disposition": "corrected_resolved",
+      "public_receipt_pointer": "work/research/2026-11-09/post-release-qa/missouri-final-passage-adjudications.json",
+      "residual_reference": null,
       "recorded_evidence_fingerprints_sha256": [
         "289d85f91ff45f316c8e23a46721480abea132ed326e4b0d53d585dc920b00b5",
         "31a5860c3e3dc275ff19f336004ec48be8cfb25bb5618e6503f87a90d1445010",
@@ -18104,12 +18098,9 @@
     {
       "id": "mo-hb-3390-2026",
       "dataset": "state_policy",
-      "disposition": "unresolved",
-      "public_receipt_pointer": "work/research/2026-11-08/full-inventory-integrated-application/README.md",
-      "residual_reference": {
-        "dataset": "state_policy",
-        "id": "mo-hb-3390-2026"
-      },
+      "disposition": "corrected_resolved",
+      "public_receipt_pointer": "work/research/2026-11-09/post-release-qa/missouri-final-passage-adjudications.json",
+      "residual_reference": null,
       "recorded_evidence_fingerprints_sha256": [
         "3610eff8adb7ee8f40af526b6289bb2ccacfb4d46b47c6314bd82a6f5a04bf69",
         "4d5e79be30b76074ee547b2dc1b34618bf5a330bfbd1524841d765b6a9ee9ef4",
@@ -18271,12 +18262,9 @@
     {
       "id": "mo-sb-1750-2026",
       "dataset": "state_policy",
-      "disposition": "unresolved",
-      "public_receipt_pointer": "work/research/2026-11-08/full-inventory-integrated-application/README.md",
-      "residual_reference": {
-        "dataset": "state_policy",
-        "id": "mo-sb-1750-2026"
-      },
+      "disposition": "corrected_resolved",
+      "public_receipt_pointer": "work/research/2026-11-09/post-release-qa/missouri-final-passage-adjudications.json",
+      "residual_reference": null,
       "recorded_evidence_fingerprints_sha256": [
         "1e36d02df514744ee2dfc1ad861a8cd4cc3b596fc5d9f05a12aa391d7554c4bb",
         "32911a91bbd517f73524fd51be3e32c55c40bc44a57f54f8df5700398f8e1634",
@@ -38395,6 +38383,42 @@
       "disposition": "corrected_resolved",
       "receipt": "work/research/2026-11-09/post-release-qa/wyoming-sf193-disposition-reconciliation.json",
       "scope": "Stale conditional-scope acceptance question reconciled with prior independent scope decision; failed historical instrument only."
+    },
+    {
+      "reviewed_at": "2026-11-10T12:37:01.140493+00:00",
+      "id": "mo-hb-2239-2026",
+      "cohort": "remaining1552",
+      "prior_disposition": "unresolved",
+      "disposition": "corrected_resolved",
+      "receipt": "work/research/2026-11-09/post-release-qa/missouri-final-passage-adjudications.json",
+      "scope": "Complete official final-passage list plus session calendar closes historical terminal-outcome question only."
+    },
+    {
+      "reviewed_at": "2026-11-10T12:37:01.140493+00:00",
+      "id": "mo-hb-3369-2026",
+      "cohort": "remaining1552",
+      "prior_disposition": "unresolved",
+      "disposition": "corrected_resolved",
+      "receipt": "work/research/2026-11-09/post-release-qa/missouri-final-passage-adjudications.json",
+      "scope": "Complete official final-passage list plus session calendar closes historical terminal-outcome question only."
+    },
+    {
+      "reviewed_at": "2026-11-10T12:37:01.140493+00:00",
+      "id": "mo-hb-3390-2026",
+      "cohort": "remaining1552",
+      "prior_disposition": "unresolved",
+      "disposition": "corrected_resolved",
+      "receipt": "work/research/2026-11-09/post-release-qa/missouri-final-passage-adjudications.json",
+      "scope": "Complete official final-passage list plus session calendar closes historical terminal-outcome question only."
+    },
+    {
+      "reviewed_at": "2026-11-10T12:37:01.140493+00:00",
+      "id": "mo-sb-1750-2026",
+      "cohort": "remaining1552",
+      "prior_disposition": "unresolved",
+      "disposition": "corrected_resolved",
+      "receipt": "work/research/2026-11-09/post-release-qa/missouri-final-passage-adjudications.json",
+      "scope": "Complete official final-passage list plus session calendar closes historical terminal-outcome question only."
     }
   ]
 }
