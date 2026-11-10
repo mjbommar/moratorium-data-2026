@@ -20,7 +20,7 @@
   "consumer_dispositions": "delivered_with_historical_editions_preserved",
   "experimental_extractor": "failed_no_automatic_promotion",
   "quality_gate_disposition": "User authorized publication of the current state with qualifications on pending QA, followed by continued double checking and resolution of outstanding questions.",
-  "reviewed_data_source_commit": "recorded in immutable release manifest",
+  "reviewed_data_source_commit": "e12c1efcd8696de71ad7ab3e416fddeeb149d69e",
   "record_dispositions": {
     "unresolved": 1358,
     "corrected_resolved": 179,
@@ -31,7 +31,7 @@
   "record_disposition_path": "work/research/2026-11-08/full-record-dispositions/funnel.json",
   "qa_status": "ongoing",
   "publication_authorization": "publish current state with qualifications on pending QA, then continue to double check and clear the outstanding questions",
-  "working_revision": "post5-prepared-reviewed-policy-batch",
+  "working_revision": "post5-delivered-reviewed-policy-batch",
   "current_raw_counts": {
     "local": 1328,
     "state_policy": 448,
@@ -59,21 +59,25 @@
   },
   "latest_geography_review": "work/research/2026-11-09/post-release-qa/nonblank-geography-application.json",
   "latest_delivered_consumer_input_delta": {
-    "baseline_source_commit": "4adc611e1a9ecc6be6438ab62ea5a1f28a482b93",
-    "baseline_consumer_commit": "8a94851d549307a01d87d983fa2da66398a9ba07",
+    "baseline_source_commit": "07939fd2e2484d16dd6b9c7b177775eb4a5bafa6",
+    "baseline_consumer_commit": "584ed9bf6c4b6c84711fcd4bf65db179bc3e9b54",
     "changed_policy_rows": 4,
-    "changed_cells": 10,
-    "status_category_changes": 1,
+    "changed_cells": 4,
+    "status_category_changes": 0,
     "scope_membership_changes": 0,
-    "scope_fingerprint_rebindings": 4,
-    "whole_record_closures": 0,
-    "additional_review": "work/research/2026-11-09/post-release-qa/policy-proposal-endpoint-adjudications.json",
-    "scope": "Delivered qualified post4/V19: ten unique policy cells across four rows; one category correction; zero whole-record closures. Prior native/local history unchanged.",
-    "subsequent_review": "work/research/2026-11-09/post-release-qa/nm-sb235-amendment-outcome-review.json",
-    "qualification": "Ten unique changed cells across four rows since post3; NewMexico key provisions received a subsequent retained-HTML amendment-outcome clarification. One open question resolved; no whole-record closures.",
-    "delivery_receipt": "work/research/2026-11-10/post-release-qa/consumer-v19-handoff.json",
-    "delivered_source_commit": "07939fd2e2484d16dd6b9c7b177775eb4a5bafa6",
-    "delivered_consumer_commit": "584ed9bf6c4b6c84711fcd4bf65db179bc3e9b54"
+    "whole_record_closures": 1,
+    "additional_review": "work/research/2026-11-09/post-release-qa/idaho-signature-corroboration.json",
+    "scope": "Delivered qualified post5/V20: four policy cells/four rows, one scoped historical closure and zero category changes; local/native history unchanged.",
+    "additional_reviews": [
+      "work/research/2026-11-09/post-release-qa/idaho-signature-corroboration.json",
+      "work/research/2026-11-09/post-release-qa/maryland-trigger-adjudication.json",
+      "work/research/2026-11-09/post-release-qa/utah-hb507-retained-signature-review.json",
+      "work/research/2026-11-09/post-release-qa/virginia-sb130-incorporation-review.json",
+      "work/research/2026-11-09/post-release-qa/virginia-sb94-numbering-review.json"
+    ],
+    "delivery_receipt": "work/research/2026-11-10/post-release-qa/consumer-v20-handoff.json",
+    "delivered_source_commit": "e12c1efcd8696de71ad7ab3e416fddeeb149d69e",
+    "delivered_consumer_commit": "6799358eadb2c8f6343c5c0fc9bfe273979f696d"
   },
   "latest_source_followup": "work/research/2026-11-09/post-release-qa/virginia-sb94-numbering-review.json",
   "latest_expanded_candidate_review": "work/research/2026-11-09/starke-succession-review/validation.json",
@@ -97,54 +101,30 @@
     "scope": "Qualified policy-history succession only; no formal termination, overlap or current-force acceptance."
   },
   "prior_delivered_consumer_input_delta": {
-    "baseline_source_commit": "abd5a14abe67a052b57fa037ad83bd63f781d195",
-    "baseline_consumer_commit": "44cc47fbd92536688e484a61059105a69fc8d607",
-    "changed_local_rows": 0,
-    "changed_policy_rows": 0,
-    "changed_cells": 0,
-    "status_category_changes": 0,
+    "baseline_source_commit": "4adc611e1a9ecc6be6438ab62ea5a1f28a482b93",
+    "baseline_consumer_commit": "8a94851d549307a01d87d983fa2da66398a9ba07",
+    "changed_policy_rows": 4,
+    "changed_cells": 10,
+    "status_category_changes": 1,
+    "scope_membership_changes": 0,
+    "scope_fingerprint_rebindings": 4,
     "whole_record_closures": 0,
-    "expanded_additions": {
-      "measure_results": 1,
-      "source_documents": 1,
-      "claims": 4,
-      "review_decisions": 14
-    },
-    "new_measures": 0,
-    "new_certified_results": 0,
-    "retained_result_versions": 65,
-    "current_result_observations": 53,
-    "current_measures_with_result": 52,
-    "receipt": "work/research/2026-11-10/canterbury-minutes-result-review/publication-application.json",
-    "scope": "Delivered in qualified v2026.11.10.post3 and verified V18: one superseding Canterbury reported approval/complete observation, with unchanged tally and unknown certification/force. Legacy CSVs and all prior native records preserved.",
-    "delivery_receipt": "work/research/2026-11-10/post-release-qa/consumer-v18-handoff.json"
+    "additional_review": "work/research/2026-11-09/post-release-qa/policy-proposal-endpoint-adjudications.json",
+    "scope": "Delivered qualified post4/V19: ten unique policy cells across four rows; one category correction; zero whole-record closures. Prior native/local history unchanged.",
+    "subsequent_review": "work/research/2026-11-09/post-release-qa/nm-sb235-amendment-outcome-review.json",
+    "qualification": "Ten unique changed cells across four rows since post3; NewMexico key provisions received a subsequent retained-HTML amendment-outcome clarification. One open question resolved; no whole-record closures.",
+    "delivery_receipt": "work/research/2026-11-10/post-release-qa/consumer-v19-handoff.json",
+    "delivered_source_commit": "07939fd2e2484d16dd6b9c7b177775eb4a5bafa6",
+    "delivered_consumer_commit": "584ed9bf6c4b6c84711fcd4bf65db179bc3e9b54"
   },
   "latest_field_application": "work/research/2026-11-09/post-release-qa/hawaii-session-outcome-adjudications.json",
   "latest_hosted_delivery": {
-    "source_commit": "07939fd2e2484d16dd6b9c7b177775eb4a5bafa6",
-    "hosted_source_commit": "07939fd2e2484d16dd6b9c7b177775eb4a5bafa6",
-    "pages_run": 42784022496,
-    "receipt": "work/research/2026-11-10/release-2026.11.10.post4/hosted-copy-verification.json",
+    "source_commit": "e12c1efcd8696de71ad7ab3e416fddeeb149d69e",
+    "hosted_source_commit": "e12c1efcd8696de71ad7ab3e416fddeeb149d69e",
+    "pages_run": 42787777859,
+    "receipt": "work/research/2026-11-10/release-2026.11.10.post5/hosted-copy-verification.json",
     "state": "verified"
   },
   "latest_expanded_result_review": "work/research/2026-11-10/canterbury-minutes-result-review/coordinator-adjudication.json",
-  "latest_verified_release": "v2026.11.10.post4",
-  "pending_consumer_input_delta": {
-    "baseline_source_commit": "07939fd2e2484d16dd6b9c7b177775eb4a5bafa6",
-    "baseline_consumer_commit": "584ed9bf6c4b6c84711fcd4bf65db179bc3e9b54",
-    "changed_policy_rows": 4,
-    "changed_cells": 4,
-    "status_category_changes": 0,
-    "scope_membership_changes": 0,
-    "whole_record_closures": 1,
-    "additional_review": "work/research/2026-11-09/post-release-qa/idaho-signature-corroboration.json",
-    "scope": "Four policy fields since post4/V19 (Idaho, Maryland, VirginiaSB130 incorporation and SB94 numbering/text comparison), plus zero-field Utah history recovery. One scoped closure; no status-category change. Later batch delivery pending.",
-    "additional_reviews": [
-      "work/research/2026-11-09/post-release-qa/idaho-signature-corroboration.json",
-      "work/research/2026-11-09/post-release-qa/maryland-trigger-adjudication.json",
-      "work/research/2026-11-09/post-release-qa/utah-hb507-retained-signature-review.json",
-      "work/research/2026-11-09/post-release-qa/virginia-sb130-incorporation-review.json",
-      "work/research/2026-11-09/post-release-qa/virginia-sb94-numbering-review.json"
-    ]
-  }
+  "latest_verified_release": "v2026.11.10.post5"
 }

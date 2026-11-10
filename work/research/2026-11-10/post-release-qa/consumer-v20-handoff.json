@@ -1,0 +1,272 @@
+{
+  "source_commit": "e12c1efcd8696de71ad7ab3e416fddeeb149d69e",
+  "manifest_sha256": "894a48048bf746abfe56a96d155c33045592977e3ac2d99cbcda87f8f555f7f8",
+  "expanded_snapshot": "3ce33d22288fa7bc7100c9ac621c041037702e8370af1e663d53a548ff794725",
+  "current_counts": {
+    "moratorium_records": 1328,
+    "state_policy_records": 448,
+    "ballot_measures": 57,
+    "retained_results": 65,
+    "current_results": 53,
+    "retained_events": 12,
+    "current_accepted_historical_events": 12,
+    "restriction_records": 3,
+    "measure_instrument_link_records": 1
+  },
+  "files": 2408,
+  "entries": 2614,
+  "verified_at": "2026-11-10T09:10:59.053478+00:00",
+  "consumer_verification": {
+    "handoff": {
+      "state": "verified",
+      "source_commit": "e12c1efcd8696de71ad7ab3e416fddeeb149d69e",
+      "manifest_sha256": "894a48048bf746abfe56a96d155c33045592977e3ac2d99cbcda87f8f555f7f8",
+      "expanded_snapshot": "3ce33d22288fa7bc7100c9ac621c041037702e8370af1e663d53a548ff794725",
+      "files": 2408,
+      "entries": 2614,
+      "checks": [
+        {
+          "command": [
+            "scripts/check_expanded_publication.py"
+          ],
+          "exit_code": 0,
+          "result": {
+            "state": "consistent",
+            "snapshot_sha256": "3ce33d22288fa7bc7100c9ac621c041037702e8370af1e663d53a548ff794725",
+            "generations_checked": 49,
+            "records": {
+              "jurisdictions": 53,
+              "elections": 51,
+              "ballot_measures": 57,
+              "measure_provisions": 52,
+              "measure_results": 65,
+              "local_restrictions": 3,
+              "instrument_events": 12,
+              "measure_instrument_links": 1,
+              "source_documents": 168,
+              "claims": 625,
+              "review_decisions": 2756,
+              "search_runs": 1,
+              "search_attempts": 3,
+              "search_sightings": 18,
+              "coverage_observations": 1
+            },
+            "scope": "Offline publication/receipt consistency only; no source reacquisition, renewed factual acceptance or current-force confirmation."
+          }
+        },
+        {
+          "command": [
+            "scripts/build_expanded_csv.py",
+            "--check"
+          ],
+          "exit_code": 0,
+          "result": {
+            "state": "matches",
+            "source_snapshot": "3ce33d22288fa7bc7100c9ac621c041037702e8370af1e663d53a548ff794725",
+            "projection_sha256": "7b585b49998f8ca39b0ff433fe15c34335ea171bdd8960af1e7e9fdcf852f6cb",
+            "csv_views": 18
+          }
+        },
+        {
+          "command": [
+            "scripts/build_policy_scope_exports.py",
+            "--check"
+          ],
+          "exit_code": 0,
+          "result": "policy-scope exports current"
+        }
+      ],
+      "checks_run": true,
+      "scope": "Pinned input integrity and offline publication consistency, not source reacquisition or downstream join acceptance."
+    },
+    "policy_semantics": {
+      "total_state_policy_actions": 448,
+      "total_state_bills": 427,
+      "state_policy_instrument_type_counts": {
+        "bill": 427,
+        "executive_order": 2,
+        "governor_directive": 1,
+        "legislative_amendment": 1,
+        "legislative_precursor": 3,
+        "legislative_resolution": 12,
+        "statute": 2
+      },
+      "top_states_by_bills": [
+        [
+          "Pennsylvania",
+          18
+        ],
+        [
+          "Virginia",
+          18
+        ],
+        [
+          "West Virginia",
+          18
+        ],
+        [
+          "Maryland",
+          16
+        ],
+        [
+          "New Jersey",
+          16
+        ],
+        [
+          "California",
+          14
+        ],
+        [
+          "South Dakota",
+          14
+        ],
+        [
+          "Arizona",
+          13
+        ],
+        [
+          "Iowa",
+          13
+        ],
+        [
+          "Michigan",
+          13
+        ],
+        [
+          "Minnesota",
+          12
+        ],
+        [
+          "Ohio",
+          12
+        ],
+        [
+          "Oklahoma",
+          12
+        ],
+        [
+          "Illinois",
+          11
+        ],
+        [
+          "Kansas",
+          11
+        ]
+      ],
+      "top_states_by_policy_actions": [
+        [
+          "Pennsylvania",
+          22
+        ],
+        [
+          "Virginia",
+          18
+        ],
+        [
+          "West Virginia",
+          18
+        ],
+        [
+          "Maryland",
+          17
+        ],
+        [
+          "New Jersey",
+          17
+        ],
+        [
+          "California",
+          14
+        ],
+        [
+          "Michigan",
+          14
+        ],
+        [
+          "South Dakota",
+          14
+        ],
+        [
+          "Arizona",
+          13
+        ],
+        [
+          "Iowa",
+          13
+        ],
+        [
+          "Kansas",
+          12
+        ],
+        [
+          "Minnesota",
+          12
+        ],
+        [
+          "Ohio",
+          12
+        ],
+        [
+          "Oklahoma",
+          12
+        ],
+        [
+          "Illinois",
+          11
+        ]
+      ]
+    }
+  },
+  "index_verification": {
+    "snapshot": "data/source-snapshots/moratoria/2026-11-10-reviewed-v20",
+    "source_commit": "e12c1efcd8696de71ad7ab3e416fddeeb149d69e",
+    "manifest_sha256": "894a48048bf746abfe56a96d155c33045592977e3ac2d99cbcda87f8f555f7f8",
+    "tracked_files_and_symlinks": 2409,
+    "exact_staged_git_blob_bytes_and_modes": true,
+    "scope": "Exact staged snapshot content, Git modes and path set against the pinned manifest, including the manifest itself. This is not an independent legal review."
+  },
+  "baseline_handoff": "V19",
+  "expanded_tables_byte_identical": true,
+  "local_csv_and_summary_byte_identical": true,
+  "policy_changed_cells": 4,
+  "policy_changed_rows": 4,
+  "status_category_changes": 0,
+  "whole_record_closures": 1,
+  "unresolved_records": 1358,
+  "corrected_resolved_records": 179,
+  "confirmed_unchanged_records": 239,
+  "field_changes": [
+    {
+      "id": "id-h0911-2026",
+      "field": "status",
+      "before": "Passed House 65-3-2 on 2026-03-20 and Senate 34-1-0 on 2026-03-30. The unofficial bill history reports signature on 2026-04-10, chapter 335 and effective 2026-07-01, but places the signature report under an 04/02 row; the introduced bill declares an emergency and specifies July 1. Verify the signature in the enrolled session law or governor record.",
+      "after": "Passed House 65-3-2 on 2026-03-20 and Senate 34-1-0 on 2026-03-30. The Legislature's 2026 Enacted Legislation table separately lists H911 as chapter 335, governor signature 2026-04-10 and effective 2026-07-01, corroborating the signature date stated in the earlier bill history despite its inconsistent 04/02 row label. The signed session-law or governor action record has not been inspected; the introduced bill declares an emergency and specifies July 1."
+    },
+    {
+      "id": "md-hb1532-sb0841-2026",
+      "field": "end_condition",
+      "before": "Section 21 conditionally terminates Section 6, not the whole act, upon the specified Chapter 595 of 2024 condition; trigger and current effect unverified.",
+      "after": "Section 21 ties termination of Section 6 (Customer-Sited Solar Program grant-funding amendment) to the termination specified in 2024 Chapter 595 Section 10: abrogation of that act's Section 2 at the end of June 30, 2027. This date is future as of November 10, 2026 under the reviewed enactments, and is not a whole-act or data-center construction-restriction sunset. Subsequent amendments and current force remain unverified."
+    },
+    {
+      "id": "va-sb130-2026",
+      "field": "key_provisions",
+      "before": "Introduced SB130 proposed requiring applicants for specified local approvals of a new high energy use facility to assess sound effects on homes and schools within 500 feet, and permitting additional resource assessments, subject to its stated expansion exception and preserved local authority. It was incorporated into SB94, which was approved as Chapter 568; incorporation alone does not establish that every SB130 provision was enacted.",
+      "after": "Introduced SB130 proposed a 100 MW high energy use facility definition; applicant sound assessment for homes/schools within 500 feet; optional resource assessments; utility substation/transmission disclosures; consistency review; and preserved State Corporation Commission and local zoning authority, with the stated expansion exception. Its February3 incorporation into SB94 is distinguished from independent enactment. Direct comparison with enacted Chapter568 shows two wording changes: subsection A omits proposed before facility, and subsection B changes effect of the HEUF to effect of the proposed facility. Subsections C-G retain identical substantive text after layout normalization. These are provisions in the receiving enacted chapter, not an additional enactment of SB130; later force and particular facility applicability are not established by this comparison."
+    },
+    {
+      "id": "va-sb94-2026",
+      "field": "key_provisions",
+      "before": "Observed code site-assessment framework requires an applicant's sound assessment before specified local approvals for a new facility reasonably anticipated to require at least 100 MW of retail utility power. Sound impacts concern homes and schools within 500 feet of the facility property boundary; other resource assessments are optional, and utility substation/voltage information is also required subject to stated qualifications. The framework preserves the existing-approval/expansion exception; its phrase \u201cdoes not exceed an additional 100 megawatts or more\u201d is not converted into a definitive boundary here. The observed code publishes the framework as 15.2-2209.5 and cites chapters 567 and 568. SB94\u2019s Chapter 568 print was not recovered in the initial cohort; the subsequently recovered approved print numbers the section 15.2-2209.4; the observed code numbers it 15.2-2209.5. The cause and legal effect of the numbering difference have not been independently determined. Later force is not independently confirmed.",
+      "after": "Observed code site-assessment framework requires an applicant's sound assessment before specified local approvals for a new facility reasonably anticipated to require at least 100 MW of retail utility power. Sound impacts concern homes and schools within 500 feet of the facility property boundary; other resource assessments are optional, and utility substation/voltage information is also required subject to stated qualifications. The framework preserves the existing-approval/expansion exception; its phrase \u201cdoes not exceed an additional 100 megawatts or more\u201d is not converted into a definitive boundary here. The observed code publishes the framework as 15.2-2209.5 and cites chapters 567 and 568. Direct comparison confirms that all seven subsections A-G of the retained Chapter 568 data-center text match the retained code text after whitespace normalization, although the chapter prints 15.2-2209.4 and the code publishes 15.2-2209.5. A separate enactment, Chapter 1075 (HB888, approved April22,2026), also adds 15.2-2209.4 for parking, which the observed code publishes at that number. This documents the same-number conflict and the observed allocation; formal editorial renumbering authority and later legal changes/current force have not been independently established."
+    }
+  ],
+  "trusted_verifier_sha256": "ebecf851d4196715df186cc81cc3c933ab7da550fbafd7207996cd94b9cd2739",
+  "scope": "Qualified post5 Idaho/Maryland/Virginia policy clarification batch with zero-field Utah recovery. One assigned historical SB130 incorporation review closes; current force, unresolved source gaps and independent Massachusetts QA remain. Technical delivery is not new independent substantive legal review.",
+  "consumer_commit": "6799358eadb2c8f6343c5c0fc9bfe273979f696d",
+  "consumer_remote_main": "6799358eadb2c8f6343c5c0fc9bfe273979f696d",
+  "release": "v2026.11.10.post5",
+  "release_url": "https://github.com/mjbommar/moratorium-data-2026/releases/tag/v2026.11.10.post5",
+  "release_manifest_sha256": "d5cb9af12e78780007136869cc0ea872120f636e0e730a6fc54d534378bc1aeb",
+  "hosted_receipt": "work/research/2026-11-10/release-2026.11.10.post5/hosted-copy-verification.json"
+}

@@ -1,8 +1,8 @@
 # Changelog
 
-## Qualified v2026.11.10.post5 preparation
+## Qualified v2026.11.10.post5
 
-Four policy fields across four records clarified; one historical SB130 comparison closes, leaving1,358 unresolved,179 corrected-resolved,239 confirmed-unchanged. Utah’s signature-history gap resolves without a data edit. No category or native/local publication changes;134 September differences remain. Release/consumer delivery pending.
+Four policy fields across four records clarified; one historical SB130 comparison closes, leaving1,358 unresolved,179 corrected-resolved,239 confirmed-unchanged. Utah’s signature-history gap resolves without a data edit. No category or native/local publication changes;134 September differences remain. [Qualified post5/V20 delivery](work/research/2026-11-10/release-2026.11.10.post5/README.md) verified.
 
 | Metric | Qualified v2026.11.10.post5 |
 |---|---:|

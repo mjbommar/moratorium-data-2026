@@ -2,7 +2,7 @@
 
 **November patch release with pending QA:** [v2026.11.10.post5](https://github.com/mjbommar/moratorium-data-2026/releases/tag/v2026.11.10.post5) publishes the reviewed current state with explicit unresolved source and legal-status questions. Further checking continues. The older `v2026.11.8` remains an incomplete prerelease checkpoint.
 
-**Qualified patch:** Four policy fields clarify Idaho’s reported signature date, Maryland’s future section-specific termination, and Virginia’s incorporation/text-numbering comparisons. One historical review closes; a Utah history gap is resolved without a data edit. [Release and consumer delivery](work/research/2026-11-10/release-2026.11.10.post5/README.md) is pending. Earlier tags remain immutable.
+**Qualified patch:** Four policy fields clarify Idaho’s reported signature date, Maryland’s future section-specific termination, and Virginia’s incorporation/text-numbering comparisons. One historical review closes; a Utah history gap is resolved without a data edit. [Release downloads, consumer V20 and23 hosted surfaces](work/research/2026-11-10/release-2026.11.10.post5/README.md) are verified. Earlier tags remain immutable.
 
 **Continuing QA:** The latest retained-text comparison closes the historical SB130 incorporation review, with 1,358 unresolved records retained. HCR206 exact convening and Massachusetts H5175 independent QA remain open. There are 448 policy observations and 1,776 raw records. Use each release tag for its exact snapshot; later working changes retain their own receipts.
 
