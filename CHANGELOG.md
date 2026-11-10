@@ -1,5 +1,20 @@
 # Changelog
 
+## v2026.11.9.post6 — qualified publication, QA ongoing
+
+Thirteen cells across five existing local records change since post5: four Sedgwick identifier/planning cells, three Oshtemo instrument/vote/proposal cells, and six Phillips County extension cells. Official August 20 minutes correct the Phillips solar/storage classification from expired to extended through December 31, 2026. No whole-record hold closes; 1,368 remain unresolved. Proposed Oshtemo extensions remain explicitly unapproved as of November 9.
+
+| Metric | Qualified patch v2026.11.9.post6 |
+|---|---:|
+| Moratoria in the list | **1,328** |
+| Classified active or extended | **1,089** |
+| Pending or not yet effective | **64** |
+| Ended (replaced, expired, or rescinded) | **169** |
+| Rows we still want to confirm (`[VERIFY]`) | **979** |
+| States with at least one | **47** |
+
+Policy, scope membership, identity and expanded/ballot generations are unchanged. Source-specific publication and current-force holds remain explicit. [Release notes](work/research/2026-11-09/release-2026.11.9.post6/release-body.md) and [exact delta](work/research/2026-11-09/release-2026.11.9.post6/dataset-delta.json) state the limits. Earlier assets and tags remain immutable.
+
 ## Working QA after v2026.11.9.post5
 
 Phillips County August 20 official minutes confirm unanimous extensions of solar/storage Resolution 2025-09-30-01 and data-center Resolution 2026-02-27-01 through December 31, 2026. Six cells across two rows change; the solar/storage category changes from expired to extended. Later-action and current-force questions remain open. Oshtemo adds three cells documenting confirmed votes and proposed extensions only. These changes join the four Sedgwick cells awaiting the next qualified release and consumer delivery. [Phillips review](work/research/2026-11-09/post-release-qa/phillips-followup-adjudications.json).
