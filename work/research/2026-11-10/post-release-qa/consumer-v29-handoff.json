@@ -1,0 +1,285 @@
+{
+  "source_commit": "6518022eeff0f097b18b29224fde969677f842df",
+  "manifest_sha256": "0c09c700fb9401aa051de0e5e908de4f4c33161244675ea077ae7a6a5a93800f",
+  "expanded_snapshot": "3ce33d22288fa7bc7100c9ac621c041037702e8370af1e663d53a548ff794725",
+  "current_counts": {
+    "moratorium_records": 1328,
+    "state_policy_records": 448,
+    "ballot_measures": 57,
+    "retained_results": 65,
+    "current_results": 53,
+    "retained_events": 12,
+    "current_accepted_historical_events": 12,
+    "restriction_records": 3,
+    "measure_instrument_link_records": 1
+  },
+  "files": 2559,
+  "entries": 2774,
+  "verified_at": "2026-11-10T15:39:27.979789+00:00",
+  "consumer_verification": {
+    "handoff": {
+      "state": "verified",
+      "source_commit": "6518022eeff0f097b18b29224fde969677f842df",
+      "manifest_sha256": "0c09c700fb9401aa051de0e5e908de4f4c33161244675ea077ae7a6a5a93800f",
+      "expanded_snapshot": "3ce33d22288fa7bc7100c9ac621c041037702e8370af1e663d53a548ff794725",
+      "files": 2559,
+      "entries": 2774,
+      "checks": [
+        {
+          "command": [
+            "scripts/check_expanded_publication.py"
+          ],
+          "exit_code": 0,
+          "result": {
+            "state": "consistent",
+            "snapshot_sha256": "3ce33d22288fa7bc7100c9ac621c041037702e8370af1e663d53a548ff794725",
+            "generations_checked": 49,
+            "records": {
+              "jurisdictions": 53,
+              "elections": 51,
+              "ballot_measures": 57,
+              "measure_provisions": 52,
+              "measure_results": 65,
+              "local_restrictions": 3,
+              "instrument_events": 12,
+              "measure_instrument_links": 1,
+              "source_documents": 168,
+              "claims": 625,
+              "review_decisions": 2756,
+              "search_runs": 1,
+              "search_attempts": 3,
+              "search_sightings": 18,
+              "coverage_observations": 1
+            },
+            "scope": "Offline publication/receipt consistency only; no source reacquisition, renewed factual acceptance or current-force confirmation."
+          }
+        },
+        {
+          "command": [
+            "scripts/build_expanded_csv.py",
+            "--check"
+          ],
+          "exit_code": 0,
+          "result": {
+            "state": "matches",
+            "source_snapshot": "3ce33d22288fa7bc7100c9ac621c041037702e8370af1e663d53a548ff794725",
+            "projection_sha256": "7b585b49998f8ca39b0ff433fe15c34335ea171bdd8960af1e7e9fdcf852f6cb",
+            "csv_views": 18
+          }
+        },
+        {
+          "command": [
+            "scripts/build_policy_scope_exports.py",
+            "--check"
+          ],
+          "exit_code": 0,
+          "result": "policy-scope exports current"
+        }
+      ],
+      "checks_run": true,
+      "scope": "Pinned input integrity and offline publication consistency, not source reacquisition or downstream join acceptance."
+    },
+    "policy_semantics": {
+      "total_state_policy_actions": 448,
+      "total_state_bills": 427,
+      "state_policy_instrument_type_counts": {
+        "bill": 427,
+        "executive_order": 2,
+        "governor_directive": 1,
+        "legislative_amendment": 1,
+        "legislative_precursor": 3,
+        "legislative_resolution": 12,
+        "statute": 2
+      },
+      "top_states_by_bills": [
+        [
+          "Pennsylvania",
+          18
+        ],
+        [
+          "Virginia",
+          18
+        ],
+        [
+          "West Virginia",
+          18
+        ],
+        [
+          "Maryland",
+          16
+        ],
+        [
+          "New Jersey",
+          16
+        ],
+        [
+          "California",
+          14
+        ],
+        [
+          "South Dakota",
+          14
+        ],
+        [
+          "Arizona",
+          13
+        ],
+        [
+          "Iowa",
+          13
+        ],
+        [
+          "Michigan",
+          13
+        ],
+        [
+          "Minnesota",
+          12
+        ],
+        [
+          "Ohio",
+          12
+        ],
+        [
+          "Oklahoma",
+          12
+        ],
+        [
+          "Illinois",
+          11
+        ],
+        [
+          "Kansas",
+          11
+        ]
+      ],
+      "top_states_by_policy_actions": [
+        [
+          "Pennsylvania",
+          22
+        ],
+        [
+          "Virginia",
+          18
+        ],
+        [
+          "West Virginia",
+          18
+        ],
+        [
+          "Maryland",
+          17
+        ],
+        [
+          "New Jersey",
+          17
+        ],
+        [
+          "California",
+          14
+        ],
+        [
+          "Michigan",
+          14
+        ],
+        [
+          "South Dakota",
+          14
+        ],
+        [
+          "Arizona",
+          13
+        ],
+        [
+          "Iowa",
+          13
+        ],
+        [
+          "Kansas",
+          12
+        ],
+        [
+          "Minnesota",
+          12
+        ],
+        [
+          "Ohio",
+          12
+        ],
+        [
+          "Oklahoma",
+          12
+        ],
+        [
+          "Illinois",
+          11
+        ]
+      ]
+    }
+  },
+  "index_verification": {
+    "snapshot": "data/source-snapshots/moratoria/2026-11-10-reviewed-v29",
+    "source_commit": "6518022eeff0f097b18b29224fde969677f842df",
+    "manifest_sha256": "0c09c700fb9401aa051de0e5e908de4f4c33161244675ea077ae7a6a5a93800f",
+    "tracked_files_and_symlinks": 2560,
+    "exact_staged_git_blob_bytes_and_modes": true,
+    "scope": "Exact staged snapshot content, Git modes and path set against the pinned manifest, including the manifest itself. This is not an independent legal review."
+  },
+  "baseline_handoff": "V28",
+  "expanded_tables_byte_identical": true,
+  "summary_delta": "Byte-identical numerical summary and native history; no status-category change.",
+  "changed_cells": 4,
+  "changed_local_cells": 0,
+  "changed_policy_cells": 4,
+  "changed_local_rows": 0,
+  "changed_policy_rows": 2,
+  "status_category_changes": 0,
+  "legal_effect_status_changes": 0,
+  "normalized_date_changes": 0,
+  "scope_membership_changes": 0,
+  "whole_record_closures": 0,
+  "unresolved_records": 1347,
+  "corrected_resolved_records": 190,
+  "confirmed_unchanged_records": 239,
+  "September_status_differences": {
+    "local": 98,
+    "policy": 35,
+    "total": 133
+  },
+  "field_changes": [
+    {
+      "dataset": "policy",
+      "id": "ky-hb-775-2025-rs",
+      "field": "key_provisions",
+      "before": "Amended KRS 154.20-220 to remove the prior 500,000-population consolidated-government location requirement and add county-population-based minimum investments for owners, operators, and colocation tenants in the qualified data center incentive program.",
+      "after": "Amended KRS 154.20-220 to remove the prior 500,000-population consolidated-government location requirement and add county-population-based minimum investments for owners, operators and colocation tenants. The currently retrieved definition requires at least $450 million in counties with population at least 100,000, $100 million above 50,000 but below 100,000, or $25 million at 50,000 or below, using the specified ACS estimate at application; project organizers have a separate $150 million threshold. These minimum investments are due by the fifth anniversary of preliminary approval. This is statutory eligibility text, not a finding that an individual project qualifies."
+    },
+    {
+      "dataset": "policy",
+      "id": "ky-hb-775-2025-rs",
+      "field": "end_condition",
+      "before": "",
+      "after": "The retrieved definition lists the HB 775 section 34 amendment effective June 27, 2025 and the original HB 8 section 37 effective July 15, 2024. These are provision-specific statutory-history dates, not blanket dates for the omnibus acts. The current memorandum term maximum is 15 years for a project organizer; otherwise 50 years at capital investment of at least $450 million, or 25 years below that threshold. No whole-act sunset, actual agreement term or present project eligibility is established; complete later administrative/judicial and successor-law review remains open."
+    },
+    {
+      "dataset": "policy",
+      "id": "ky-hb-8-2024-rs",
+      "field": "key_provisions",
+      "before": "Created the core qualified data center sales and use tax exemption structure and economic development program.",
+      "after": "Created the qualified data-center equipment sales/use-tax exemption and economic-development program. Retrieved KRS 139.499 conditions the exemption on a preliminary or approved company, memorandum of agreement and certificate; its history identifies creation by 2024 Acts chapter 166 section 42 effective July 15, 2024. It requires company reporting beginning September 1, 2025 and Department of Revenue reporting beginning November 1, 2025, annually thereafter. Reporting duties in the statute are not proof that reports were delivered. Retrieved KRS 154.20-220 now contains the later HB 775 county-population investment tiers, distinguished from the historical 2024 design."
+    },
+    {
+      "dataset": "policy",
+      "id": "ky-hb-8-2024-rs",
+      "field": "end_condition",
+      "before": "",
+      "after": "No whole-act end date is established. The current exemption certificate expires based on the memorandum term. Retrieved 154.20-220 caps that term at 15 years for project organizers and otherwise 50 years at capital investment of at least $450 million or 25 years below that amount; statutory exclusions and approval conditions still apply. These maximum terms are not actual project-specific benefit periods. Complete subsequent administrative/judicial and successor-law review, actual approvals, agreements and reporting remain unverified."
+    }
+  ],
+  "trusted_verifier_sha256": "ebecf851d4196715df186cc81cc3c933ab7da550fbafd7207996cd94b9cd2739",
+  "scope": "Qualified post14: four Kentucky prose fields; current public dashboard tables/charts/maps/state pages refreshed. No category/date/membership/native changes or closures. New Kentucky EO candidate held outside canonical counts; current-force, independent QA and ballot holds remain.",
+  "consumer_commit": "38c8f2e7dc8f74e02c798de880df1b3c162da3ba",
+  "release_url": "https://github.com/mjbommar/moratorium-data-2026/releases/tag/v2026.11.10.post14",
+  "release_manifest_sha256": "babba98264f5720bbc334926411cb2447719d1494476909215206cc76681e8df",
+  "hosted_copy_state": "pending"
+}

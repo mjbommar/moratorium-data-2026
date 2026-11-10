@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Moratorium Nation | 1328 Local Moratorium Records + State Data Center Restrictions</title>
+<title>Moratorium Nation | 1328 Local Records, State Policy &amp; Ballot Measures</title>
 <meta name="description" content="Open data and a 116-page working paper on 1328 local-government moratorium records targeting data centers, battery storage, solar, wind, and cryptocurrency mining across the United States. Updated November 10, 2026.">
 <meta name="author" content="Michael J. Bommarito">
 <meta name="robots" content="index,follow,max-image-preview:large">
@@ -12,31 +12,31 @@
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%232a78d6'/%3E%3Cpath d='M19 16h10v32H19zm16 0h10v32H35z' fill='white'/%3E%3C/svg%3E">
 
 <!-- Open Graph -->
-<meta property="og:title" content="Moratorium Nation | Local Pauses + State Data Center Restrictions">
+<meta property="og:title" content="Moratorium Nation | Local Pauses, State Policy &amp; Ballot Measures">
 <meta property="og:description" content="1328 local moratorium records across 47 states, plus 448 state policy actions. Open data, working cohort through November 7, 2026.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://mjbommar.github.io/moratorium-data-2026/">
 <meta property="og:site_name" content="Moratorium Nation">
 <meta property="og:image" content="https://mjbommar.github.io/moratorium-data-2026/figures/png/map-moratorium-counts.png">
-<meta property="og:image:width" content="2202">
-<meta property="og:image:height" content="1727">
+<meta property="og:image:width" content="2222">
+<meta property="og:image:height" content="1728">
 <meta property="og:image:alt" content="Map of documented local infrastructure moratoria across the United States">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Moratorium Nation | Local Pauses + State Restrictions">
+<meta name="twitter:title" content="Moratorium Nation | Local Pauses, State Policy &amp; Ballot Measures">
 <meta name="twitter:description" content="1328 local moratorium records across 47 states, plus 448 state policy actions. Updated November 10, 2026.">
 <meta name="twitter:image" content="https://mjbommar.github.io/moratorium-data-2026/figures/png/map-moratorium-counts.png">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "Dataset",
-  "name": "Moratorium Nation: U.S. Infrastructure Moratorium and State Policy Tracker",
-  "description": "Open data on local-government infrastructure moratoria and state-level data center policy actions in the United States.",
+  "name": "Moratorium Nation: U.S. Infrastructure Moratoria, State Policy and Ballot Measures",
+  "description": "Open data on local-government infrastructure moratoria, state policy observations and related ballot measures in the United States. Vote observations, certification and legal effect are tracked separately.",
   "url": "https://mjbommar.github.io/moratorium-data-2026/",
   "dateModified": "2026-11-10",
   "spatialCoverage": "United States",
   "license": "https://creativecommons.org/licenses/by/4.0/",
   "creator": {"@type": "Person", "name": "Michael J. Bommarito", "url": "https://michaelbommarito.com/"},
-  "keywords": ["data centers", "moratoria", "land use", "permitting", "large loads", "energy policy", "local government"],
+  "keywords": ["data centers", "moratoria", "land use", "permitting", "large loads", "energy policy", "local government", "ballot measures", "referenda"],
   "distribution": [
     {
       "@type": "DataDownload",
@@ -49,6 +49,18 @@
       "name": "State policy tracker",
       "encodingFormat": "text/csv",
       "contentUrl": "https://mjbommar.github.io/moratorium-data-2026/data/state_legislation.csv"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "Ballot proposals and measures",
+      "encodingFormat": "text/csv",
+      "contentUrl": "https://mjbommar.github.io/moratorium-data-2026/data/expanded-csv/ballot_measures.csv"
+    },
+    {
+      "@type": "DataDownload",
+      "name": "Current ballot result observations",
+      "encodingFormat": "text/csv",
+      "contentUrl": "https://mjbommar.github.io/moratorium-data-2026/data/expanded-csv/measure_results_current.csv"
     }
   ]
 }
@@ -635,7 +647,7 @@
 <header class="hero">
   <div class="eyebrow"><span class="dot"></span>Updated 10 November 2026</div>
   <h1>Moratorium Nation</h1>
-  <p class="subtitle">Track local pauses on <strong>data centers</strong>, <strong>battery storage</strong>, <strong>solar</strong>, <strong>wind</strong>, and <strong>crypto mining</strong>—plus the distinct state-level rules now shaping permits, grid access, costs, and local authority.</p>
+  <p class="subtitle">Track local pauses on <strong>data centers</strong>, <strong>battery storage</strong>, <strong>solar</strong>, <strong>wind</strong>, and <strong>crypto mining</strong>—plus the distinct state-level rules now shaping permits, grid access, costs, and local authority. Related ballot measures are tracked separately.</p>
 </header>
 
 <div class="stats-row">
@@ -841,7 +853,7 @@ The newly recovered <a href="work/research/2026-11-10/post-release-qa/kentucky-i
 
 <section>
   <h2>Methodology</h2>
-  <div class="panel"><p>We collect the primary documents first - ordinances, resolutions, board minutes - then code them. The corpus runs to roughly 4,600 files gathered across all 50 states. 348 moratorium texts have been read line by line against a 44-clause taxonomy; that sample predates 28 April 2026 and covers 211 jurisdictions, so it describes what moratoria contain rather than all 1328 of them. Coordinates were checked three ways across 89 verifications, with no confirmed errors. Where we could not confirm something, the row says so. </p><div class="doclinks"><a href="docs/methodology.html">Full methodology</a><a href="docs/codebook.html">Codebook</a><a href="docs/known-gaps.html">Known gaps</a><a href="docs/FAQ.html">FAQ</a></div></div>
+  <div class="panel"><p>We collect the primary documents first - ordinances, resolutions, board minutes - then code them. Sources span all 50 states; a nationwide search is not a complete census. 348 moratorium texts have been read line by line against a 44-clause taxonomy; that sample predates 28 April 2026 and covers 211 jurisdictions, so it describes what moratoria contain rather than all 1328 of them. An earlier coordinate-check sample covered 89 verifications with no confirmed errors; that sample is not a fresh check of every mapped record. Where we could not confirm something, the row says so. </p><div class="doclinks"><a href="docs/methodology.html">Full methodology</a><a href="docs/codebook.html">Codebook</a><a href="docs/known-gaps.html">Known gaps</a><a href="docs/FAQ.html">FAQ</a></div></div>
 </section>
 
 <section>

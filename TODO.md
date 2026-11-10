@@ -892,3 +892,6 @@ Exit: repeatable refresh with visible freshness, costs, failures and unresolved 
 
 - [x] Deliver qualified post13 / V28: 18 corrected fields across four existing records; deterministic builds, full restore, anonymous downloads and exact consumer checks. No status/date changes or new whole-record closures.
 - [ ] Continue 1,347 unresolved legacy reviews, separate ballot follow-ups and qualified website synchronization hold; post13 delivery does not close these.
+
+- [x] Qualified post14 / V29 release/download/consumer delivery; four Kentucky prose corrections and refreshed public tables/charts/state pages.
+- [ ] Complete live post14 Pages deployment and browser/byte checks; preserve pending source QA and held Kentucky EO candidate.

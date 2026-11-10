@@ -24,6 +24,7 @@ import json
 import html as html_lib
 import re
 import sys
+import struct
 from collections import Counter
 from pathlib import Path
 from datetime import date
@@ -107,7 +108,10 @@ def facts() -> dict:
     results = [json.loads(line) for line in (expanded / 'measure_results.jsonl').read_text().splitlines() if line.strip()]
     superseded = {row['supersedes_id'] for row in results if row.get('supersedes_id')}
     current_results = [row for row in results if row['result_observation_id'] not in superseded]
+    share_width, share_height = struct.unpack('>II', (REPO / 'figures/png/map-moratorium-counts.png').read_bytes()[16:24])
     return {
+        "share_width": share_width,
+        "share_height": share_height,
         "local_status_counts": dict(c),
         "policy_forms": dict(Counter(r['policy_instrument_type'] for r in leg)),
         "ballot_lifecycle": dict(Counter(r['lifecycle'] for r in measures)),
@@ -275,8 +279,14 @@ def build_edits(f: dict) -> list[tuple[str, str, str]]:
     )
     return [
         ("document title",
-         r'(<title>Moratorium Nation \| )\d+( Local Moratorium Records \+ State Data Center Restrictions</title>)',
-         rf"\g<1>{f['rows']}\g<2>"),
+         r'(<title>Moratorium Nation \| )\d+(?: Local Moratorium Records \+ State Data Center Restrictions| Local Records, State Policy &amp; Ballot Measures)</title>',
+         rf"\g<1>{f['rows']} Local Records, State Policy &amp; Ballot Measures</title>"),
+        ("share image width",
+         r'(<meta property="og:image:width" content=")\d+(">)',
+         rf"\g<1>{f['share_width']}\g<2>"),
+        ("share image height",
+         r'(<meta property="og:image:height" content=")\d+(">)',
+         rf"\g<1>{f['share_height']}\g<2>"),
         ("meta description",
          r'(<meta name="description" content="Open data and a 116-page working paper on )\d+( local-government moratorium records)',
          rf"\g<1>{f['rows']}\g<2>"),
