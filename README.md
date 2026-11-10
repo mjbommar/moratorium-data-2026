@@ -1,10 +1,10 @@
 # Moratorium Data 2026
 
-**November patch release with pending QA:** [v2026.11.9.post7](https://github.com/mjbommar/moratorium-data-2026/releases/tag/v2026.11.9.post7) publishes the reviewed current state with explicit unresolved source and legal-status questions. Further checking continues. The older `v2026.11.8` remains an incomplete prerelease checkpoint.
+**November patch release with pending QA:** [v2026.11.10.post1](https://github.com/mjbommar/moratorium-data-2026/releases/tag/v2026.11.10.post1) publishes the reviewed current state with explicit unresolved source and legal-status questions. Further checking continues. The older `v2026.11.8` remains an incomplete prerelease checkpoint.
 
-**Qualified patch:** This release incorporates the Boone County and Hampden duplicate retirements, reviewed field corrections and current QA ledger. Original `v2026.11.9` remains immutable. Further working changes may follow; use each tag for exact replication.
+**Qualified patch:** The latest release corrects Louisiana committee-action and proposal-version summaries and confirms Nevada's terminal-action date. Release downloads, matching consumer V16 and hosted delivery are verified in the [delivery receipt](work/research/2026-11-10/release-2026.11.10.post1/README.md). Earlier tags remain immutable.
 
-**Working QA after the patch:** The newly integrated [Massachusetts H 5175 energy package](work/research/2026-11-09/post-release-qa/massachusetts-energy-integration.json) adds one proposed policy observation with distinct House/Senate versions. Working totals are 448 policy rows and 1,776 total raw records; its independent QA remains pending. Use the release tag for the immutable snapshot.
+**Working QA after the patch:** Fourteen Hawaii fields across six policy rows are corrected, with six scoped reviews closed; release and consumer synchronization of this newer batch remain pending. Working totals remain 448 policy rows and 1,776 raw records. The Massachusetts H5175 package is already included, with independent QA still pending. Use each release tag for its exact snapshot.
 
 **Open data on local-government moratoria targeting data centers, battery storage, solar, wind, and cryptocurrency mining across the United States.**
 
@@ -168,7 +168,7 @@ A `CITATION.cff` file is included in the repo so GitHub renders a "Cite this rep
 - **Data** (`data/`, `states/`, `tables/`, `figures/`) is licensed under [Creative Commons Attribution 4.0 (CC-BY-4.0)](LICENSE-data). You can reuse, redistribute, and remix the data, including commercially, as long as you credit the source.
 - **Code** (`scripts/`, `notebooks/`, `examples/`) is licensed under the [MIT License](LICENSE-code).
 
-The latest qualified release is [v2026.11.9.post7](https://github.com/mjbommar/moratorium-data-2026/releases/tag/v2026.11.9.post7), published November 9 with explicit pending QA. September 23 remains the historical comparison baseline. Pin the release tag for replication; working main may contain subsequent reviewed corrections. Historical version labels describe their dated editions, and no DOI is asserted.
+The latest qualified release is [v2026.11.10.post1](https://github.com/mjbommar/moratorium-data-2026/releases/tag/v2026.11.10.post1), published November 10 with explicit pending QA. September 23 remains the historical comparison baseline. Pin the release tag for replication; working main may contain subsequent reviewed corrections. Historical version labels describe their dated editions, and no DOI is asserted.
 
 ---
 
