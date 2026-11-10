@@ -1,0 +1,176 @@
+{
+  "baseline_source_commit": "ad7af81345dc0bb72b9b48a09abc574199c9311e",
+  "source_commit": "58a016a569e268ad26a2ed6ecc19a4736a743b84",
+  "added_members": [
+    "work/research/2026-11-09/post-release-qa/montana-enrolled-text-adjudication.json",
+    "work/research/2026-11-09/post-release-qa/montana-enrolled-text-checks.json",
+    "work/research/2026-11-09/post-release-qa/montana-enrolled-text-native-readback.json",
+    "work/research/2026-11-09/post-release-qa/montana-enrolled-text-review.md",
+    "work/research/2026-11-09/post-release-qa/montana-hj46-text-adjudication.json",
+    "work/research/2026-11-09/post-release-qa/montana-hj46-text-checks.json",
+    "work/research/2026-11-09/post-release-qa/montana-hj46-text-native-readback.json",
+    "work/research/2026-11-09/post-release-qa/montana-hj46-text-review.md",
+    "work/research/2026-11-09/post-release-qa/wyoming-current-tax-code-adjudications.json",
+    "work/research/2026-11-09/post-release-qa/wyoming-current-tax-code-checks.json",
+    "work/research/2026-11-09/post-release-qa/wyoming-current-tax-code-native-readback.json",
+    "work/research/2026-11-09/post-release-qa/wyoming-current-tax-code-review.md",
+    "work/research/2026-11-10/post-release-qa/consumer-v22-handoff.json",
+    "work/research/2026-11-10/post-release-qa/consumer-v22-handoff.md",
+    "work/research/2026-11-10/release-2026.11.10.post8/README.md",
+    "work/research/2026-11-10/release-2026.11.10.post8/dataset-delta.json",
+    "work/research/2026-11-10/release-2026.11.10.post8/release-body.md"
+  ],
+  "removed_members": [],
+  "changed_members": [
+    "CHANGELOG.md",
+    "CITATION.cff",
+    "README.md",
+    "data/README.md",
+    "data/policy-scope/all-annotated.csv",
+    "data/policy-scope/not-explicitly-excluded-candidates.csv",
+    "data/policy-scope/receipt.json",
+    "data/policy-scope/reviewed-included.csv",
+    "data/release_metadata.json",
+    "data/state_legislation.csv",
+    "data/state_policy_scope_reviews.jsonl",
+    "data/summary_stats.json",
+    "docs/FAQ.md",
+    "docs/methodology.md",
+    "docs/policy-scope-exports.md",
+    "docs/refresh-operations.md",
+    "work/research/2026-11-08/full-record-dispositions/README.md",
+    "work/research/2026-11-08/full-record-dispositions/funnel.json",
+    "work/research/2026-11-08/full-record-dispositions/verification.json",
+    "work/research/2026-11-09/post-release-qa/README.md",
+    "work/research/2026-11-09/post-release-qa/outstanding-queue-verification.json",
+    "work/research/2026-11-09/post-release-qa/outstanding-record-questions.jsonl",
+    "work/research/2026-11-10/release-2026.11.10.post7/README.md",
+    "work/research/2026-11-10/release-2026.11.10.post7/release-body.md"
+  ],
+  "verified_members": 2395,
+  "exact_canonical_delta": [
+    {
+      "dataset": "policy",
+      "id": "mt-hj46-lc0933",
+      "field": "key_provisions",
+      "before": "Would have requested an interim study of data center impacts on grid adequacy, electric rates, stranded utility investment, water demand, affordability, and regulatory safeguards. Not a moratorium bill.",
+      "after": "Failed HJ46.1 study resolution would have requested an interim committee, statutory committee or staff study of data-center effects on electric adequacy, reliability, affordability and safety; ratepayer costs and regulatory safeguards; load management; bonding or other mitigation of stranded utility investment; distinct utility customer classification; ground/surface-water demand; economic, jobs, tax and housing-affordability impacts; and related high-load industrial topics. It proposed committee review of staff findings and reporting to the 70th Legislature. It did not impose a development moratorium, and its study directions were not adopted through this failed resolution."
+    },
+    {
+      "dataset": "policy",
+      "id": "mt-hj46-lc0933",
+      "field": "end_condition",
+      "before": "",
+      "after": "Failed proposal: all study aspects, including presentation and review, would have concluded prior to September 15, 2026, with final results reported to the 70th Legislature. This was a proposed study schedule, not an operative restriction endpoint or proof a study occurred."
+    },
+    {
+      "dataset": "policy",
+      "id": "mt-hj46-lc0933",
+      "field": "primary_source_url",
+      "before": "https://bearbeta.legmt.gov/bills/v1/bills/findBySessionIdAndDraftNumber?sessionId=2&draftNumber=LC0933",
+      "after": "https://bearbeta.legmt.gov/docs/v1/documents/getBillText?legislatureOrdinal=69&sessionOrdinal=20251&billType=HJ&billNumber=46"
+    },
+    {
+      "dataset": "policy",
+      "id": "mt-sb212-lc0292",
+      "field": "key_provisions",
+      "before": "\"Right to Compute Act.\" Creates a right to use computational resources and requires risk-management policies for critical infrastructure controlled by artificial intelligence systems. It expressly preserves government action to prevent or abate common-law nuisances from physical datacenter infrastructure. Not a moratorium bill.",
+      "after": "Right to Compute Act. Enrolled section 3 limits government restrictions infringing property/free-expression rights to those demonstrably necessary and narrowly tailored to a compelling government interest. Section 4 requires a reasonable risk-management policy after deploying a critical AI system controlling critical infrastructure; a plan prepared under federal requirements constitutes compliance. Section 7(2)(d) includes prevention or abatement of common-law nuisances created by physical datacenter infrastructure within compelling government interests. This is not a moratorium or blanket exemption from regulation. Later amendments, implementation and current force remain unverified."
+    },
+    {
+      "dataset": "policy",
+      "id": "mt-sb212-lc0292",
+      "field": "effective_date_iso",
+      "before": "",
+      "after": "2025-04-16"
+    },
+    {
+      "dataset": "policy",
+      "id": "mt-sb212-lc0292",
+      "field": "end_condition",
+      "before": "",
+      "after": "Enrolled section 10 provides effect on passage and approval; April 16, 2025 is derived from that clause and the retained official governor-signature event. No sunset is specified in the reviewed enrolled act. Later amendments and present force were not checked."
+    },
+    {
+      "dataset": "policy",
+      "id": "mt-sb212-lc0292",
+      "field": "primary_source_url",
+      "before": "https://bearbeta.legmt.gov/bills/v1/bills/findBySessionIdAndDraftNumber?sessionId=2&draftNumber=LC0292",
+      "after": "https://archive.legmt.gov/content/Sessions/69th/Contractor_index/CH0150.pdf"
+    },
+    {
+      "dataset": "policy",
+      "id": "wy-hb0064-2013",
+      "field": "key_provisions",
+      "before": "Extended eligibility for co-located data center structures under Wyoming's data processing services center exemption framework.",
+      "after": "Historical co-location expansion of the data-processing-services-center exemption. Retrieved 39-15-105(a)(viii)(S)(IV) allows entities occupying a data-center facility to satisfy subdivision(III) requirements in aggregate regardless of multiple ownerships of buildings and equipment. The $2 million annual-purchase threshold and $5 million/$50 million capital tiers, applicable location/retention and record conditions, and Business Council job certification still matter. The Business Council handout describes certification and Department of Revenue qualification; this is not automatic eligibility for every co-located facility."
+    },
+    {
+      "dataset": "policy",
+      "id": "wy-hb0064-2013",
+      "field": "end_condition",
+      "before": "",
+      "after": "The retrieved Title39 compilation retains the conditional data-center exemption at 39-15-105(a)(viii)(S). SF0079/2026 Chapter19 consolidates use-tax administration into Chapter15 and repeals Chapter16 generally effective July1,2026; its section2 alone is delayed to July1,2027. The old separate use-tax section is not current code, and its repeal is not itself abolition of the data-center exemption. No sunset is stated in the reviewed data-center clause; individual eligibility, comprehensive amendment lineage, rulings and litigation remain unverified."
+    },
+    {
+      "dataset": "policy",
+      "id": "wy-hb0067-2010",
+      "field": "key_provisions",
+      "before": "Created sales and use tax exemptions for qualifying data processing centers and related equipment.",
+      "after": "Created the historical data-processing-center sales/use-tax exemption framework. Retrieved 39-15-101(a)(xliv) defines the physical server/storage infrastructure class. Current 39-15-105(a)(viii)(S)(I),(III) covers qualifying software/computer equipment when annual qualifying purchases exceed $2 million, with at least $5 million capital investment or the specified five-year lookback alternative, physical-location/equipment-retention, records and Business Council job-certification conditions. This is statutory eligibility text, not a finding that any taxpayer qualifies. Later2026 administration was consolidated under Chapter15."
+    },
+    {
+      "dataset": "policy",
+      "id": "wy-hb0067-2010",
+      "field": "end_condition",
+      "before": "",
+      "after": "The retrieved Title39 compilation retains the conditional data-center exemption at 39-15-105(a)(viii)(S). SF0079/2026 Chapter19 consolidates use-tax administration into Chapter15 and repeals Chapter16 generally effective July1,2026; its section2 alone is delayed to July1,2027. The old separate use-tax section is not current code, and its repeal is not itself abolition of the data-center exemption. No sunset is stated in the reviewed data-center clause; individual eligibility, comprehensive amendment lineage, rulings and litigation remain unverified."
+    },
+    {
+      "dataset": "policy",
+      "id": "wy-hb0117-2011",
+      "field": "key_provisions",
+      "before": "Expanded the data processing services center exemption framework, including software and additional qualifying equipment categories.",
+      "after": "Historical expansion of the data-processing-services-center exemption, including software and additional equipment categories. Retrieved 39-15-105(a)(viii)(S)(II),(III) includes UPS, backup generators and specialized environmental-control equipment when annual qualifying purchases exceed $2 million, with at least $50 million capital investment or the specified five-year lookback alternative, plus location, retention, records and job-certification conditions. These current compiled conditions are distinguished from the original2011 enactment; no taxpayer-specific eligibility or unbroken amendment history is established."
+    },
+    {
+      "dataset": "policy",
+      "id": "wy-hb0117-2011",
+      "field": "end_condition",
+      "before": "",
+      "after": "The retrieved Title39 compilation retains the conditional data-center exemption at 39-15-105(a)(viii)(S). SF0079/2026 Chapter19 consolidates use-tax administration into Chapter15 and repeals Chapter16 generally effective July1,2026; its section2 alone is delayed to July1,2027. The old separate use-tax section is not current code, and its repeal is not itself abolition of the data-center exemption. No sunset is stated in the reviewed data-center clause; individual eligibility, comprehensive amendment lineage, rulings and litigation remain unverified."
+    },
+    {
+      "dataset": "policy",
+      "id": "wy-hb0155-2026",
+      "field": "key_provisions",
+      "before": "Would require specified sales or use tax exemption claimants to report when at least $250,000 of the applicable tax is exempted in the year; failure to report by February 1 would require payment of the prior-year tax difference plus applicable interest and penalties and bar specified exemptions in the year the report was due.",
+      "after": "Failed reporting proposal covering specified sales/use-tax exemption claimants when at least $250,000 of the applicable tax is exempted in the year; nonreporting by February1 would require prior-year tax repayment plus applicable interest/penalties and loss of specified exemptions for the reporting year. Introduced pages2 and5 explicitly list sales-tax subparagraph(S) and former use-tax subparagraph(H). The retrieved2026 code identifies(S) as the physical data-processing-center class and retains its conditional exemption. Later SF0079/Chapter19 reorganizes use tax under Chapter15 and repeals Chapter16; those current-law changes are separate from this failed proposal and do not enact its reporting duties."
+    },
+    {
+      "dataset": "policy",
+      "id": "wy-hb0155-2026",
+      "field": "primary_source_url",
+      "before": "https://www.wyoleg.gov/Legislation/2026/HB0155",
+      "after": "https://wyoleg.gov/2026/Introduced/HB0155.pdf"
+    }
+  ],
+  "native_history_and_csv_bytes_unchanged": true,
+  "local_inventory_and_source_map_bytes_unchanged": true,
+  "summary_delta": "Only policy-scope partition counts381/48 to383/46; all other summary values unchanged.",
+  "reviewed_included_added_ids": [
+    "mt-hj46-lc0933",
+    "wy-hb0155-2026"
+  ],
+  "reviewed_included_existing_changed_ids": [
+    "mt-sb212-lc0292",
+    "wy-hb0067-2010",
+    "wy-hb0117-2011",
+    "wy-hb0064-2013"
+  ],
+  "archive_citation_markdown_current_release_labels_verified": true,
+  "source_HTML_current_release_labels_verified": true,
+  "HTML_scope": "Rendered HTML is not bundled; source-Git labels checked here and exact hosted bytes checked separately.",
+  "current_changelog_table_verified": true,
+  "scope": "Exact edition/archive and source-map comparison; no universal freshness or current-force acceptance."
+}

@@ -132,7 +132,7 @@
   "latest_expanded_result_review": "work/research/2026-11-10/canterbury-minutes-result-review/coordinator-adjudication.json",
   "latest_verified_release": "v2026.11.10.post7",
   "source_observation_window_scope": "Acquisition range includes source-specific QA captures through November10; this does not renew every record or move the original comprehensive research_cutoff.",
-  "latest_download_verified_release": "v2026.11.10.post7",
+  "latest_download_verified_release": "v2026.11.10.post8",
   "prior_latest_consumer_handoff": {
     "source_commit": "4adc611e1a9ecc6be6438ab62ea5a1f28a482b93",
     "consumer_commit": "8a94851d549307a01d87d983fa2da66398a9ba07",
@@ -159,6 +159,15 @@
       "work/research/2026-11-09/post-release-qa/montana-hj46-text-adjudication.json",
       "work/research/2026-11-09/post-release-qa/wyoming-current-tax-code-adjudications.json"
     ],
-    "scope": "Fifteen policy fields across six records since post7/V22: Montana enrolled/resolution review and four-record Wyoming code/consolidation followup. One historical normalized effective date, two analytical inclusions and two scoped historical record closures. No status-category or native-table change. Later release/consumer delivery pending."
+    "scope": "Fifteen policy fields across six records since post7/V22: Montana enrolled/resolution review and four-record Wyoming code/consolidation followup. One historical normalized effective date, two analytical inclusions and two scoped historical record closures. No status-category or native-table change. Later release/consumer delivery pending.",
+    "consumer_commit": "583b6f38f5b4d212f2b13e320dcba46d7c1df616",
+    "consumer_delivery_state": "verified_hosted_pending"
+  },
+  "pending_hosted_delivery": {
+    "release": "v2026.11.10.post8",
+    "release_source_commit": "58a016a569e268ad26a2ed6ecc19a4736a743b84",
+    "failed_pages_run": 42802736516,
+    "state": "waiting_for_delivery_checkpoint_deployment",
+    "receipt": "work/research/2026-11-10/release-2026.11.10.post8/download-consumer-delivery-checkpoint.json"
   }
 }
