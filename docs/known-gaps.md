@@ -563,3 +563,8 @@ The [bounded terminal-status review](../work/research/2026-11-07/minnesota-termi
 ## Starke historical restriction adoption
 
 The [Starke publication](../work/research/2026-11-09/starke-expanded-review/README.md) adds the signed October 19, 2026 adoption of Ordinance 2026-34 and its defined provisions. Current expanded totals are eleven instrument events and three restriction records. Earlier cohort counts above retain their publication dates. The effective/publication date, applicability, current force and formal relationship to the earlier moratorium remain unresolved. The definition retains specified exclusions and the ordinance preserves lawful-use standalone BESS rules; no blanket ban on every computing installation is inferred. No ballot observation or legacy status changes in this increment.
+
+
+## Starke qualified policy succession
+
+The later [succession publication](../work/research/2026-11-09/starke-succession-review/README.md) records a qualified policy-history relationship based on the original pending-zoning purpose and the already accepted successor identity, scope and adoption date. Current totals are twelve historical events and three restriction records. This resolves the relationship-review task without certifying formal termination, overlap, publication or current force. The original solar/BESS adoption dates also remain unknown after two bounded targeted searches; no source returned by those searches established the dates. Earlier publication counts retain their dated cutoffs.

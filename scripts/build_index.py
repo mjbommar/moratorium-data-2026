@@ -154,7 +154,7 @@ def changes_section(f: dict) -> str:
     """
     return f"""{CHANGES_START}
 <section class="release-notes">
-  <div class="stamp">{RELEASE_CONTEXT} v{RELEASE_VERSION} &middot; source cutoff {SOURCE_LABEL} &middot; QA continues</div>
+  <div class="stamp">{RELEASE_CONTEXT} v{RELEASE_VERSION} &middot; original cohort cutoff {SOURCE_LABEL} &middot; QA continues</div>
   <h2>The November dataset update</h2>
   <p class="lede">The inventory tracks {f['rows']} local inventory records across {f['states']} states.
   Recorded classifications include {f['active']} active and {f['extended']} extended records,
@@ -288,9 +288,12 @@ def build_edits(f: dict) -> list[tuple[str, str, str]]:
          f"{f['cohort_jurisdictions']} jurisdictions, so it describes what moratoria contain "
          f"rather than all {f['rows']} of them."),
         ("status snapshot",
-         r'(This working snapshot uses a cohort cutoff of <strong>)[^<]+(</strong>\. '
-         r'(?:The latest tagged release remains|The latest qualified release is) <strong>)v[0-9A-Za-z_.-]+(</strong>\.)',
-         rf'\g<1>{SOURCE_DATE}\g<2>v{RELEASE_VERSION}\g<3>'),
+         r'This working snapshot (?:uses a|retains an original) cohort cutoff of <strong>[^<]+</strong>\. '
+         r'(?:Later additions retain their own observation and review dates\. )?'
+         r'(?:The latest tagged release remains|The latest qualified release is) <strong>v[0-9A-Za-z_.-]+</strong>\.',
+         f'This working snapshot retains an original cohort cutoff of <strong>{SOURCE_DATE}</strong>. '
+         'Later additions retain their own observation and review dates. '
+         f'The latest qualified release is <strong>v{RELEASE_VERSION}</strong>.'),
         ("release qualifications link",
          r'(<a href="https://github.com/mjbommar/moratorium-data-2026/releases/tag/)v[0-9A-Za-z_.-]+(">release qualifications</a>)',
          rf'\g<1>v{RELEASE_VERSION}\g<2>'),

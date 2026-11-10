@@ -792,8 +792,10 @@ Exit: repeatable refresh with visible freshness, costs, failures and unresolved 
 
 - [x] Prepare the unpublished Starke 2026-34 expanded candidate: one restriction/adoption event, six source-verified claims and three reproducible visual reviews; profile 1.0.4 validation passes. Production pointers were unchanged at that candidate checkpoint; the later qualified post8 publication is recorded above. See `work/research/2026-11-09/starke-expanded-review/README.md`.
 
-- [ ] Review the qualified policy-predecessor relationship for Starke separately; a restriction-adoption event does not itself establish formal moratorium termination.
+- [x] Review and publish the qualified Starke policy-predecessor relationship using the original pending-zoning purpose and accepted successor identity/adoption/scope. Formal termination, overlap and current force remain unresolved.
 - [x] Synchronize Starke expanded generation/projections in qualified post8 and verified V13 from `3e607898`; deterministic builds, full clean restore, ten anonymous assets, all archive members, thirteen hosted surfaces and independent consumer checks passed. Legal-effect/predecessor and whole-record QA remain open.
 
 - [x] Run two bounded Exa/SerpAPI searches for original Starke06-2025/07-2025 enactments; no returned source establishes the adoption dates. Decline duplicate extension material and unrelated results; retain the precise original-instrument hold.
-- [ ] Complete normal publication/application/replay of the source-reviewed Starke qualified policy-succession candidate; do not infer formal termination, overlap or force. See `work/research/2026-11-09/starke-succession-review/README.md`.
+- [x] Complete normal 621-claim publication/application/replay of the source-reviewed Starke qualified policy-succession increment; no formal termination, overlap or force inferred. See `work/research/2026-11-09/starke-succession-review/README.md`.
+
+- [ ] Include the later Starke qualified succession generation in the next qualified release and verified consumer handoff; post8/V13 remain the prior delivered cutoff.
