@@ -1,0 +1,366 @@
+{
+  "source_commit": "58a016a569e268ad26a2ed6ecc19a4736a743b84",
+  "manifest_sha256": "49b98443fa0d988719fd91363a1b51fb98bde54066555585beebb5137d451524",
+  "expanded_snapshot": "3ce33d22288fa7bc7100c9ac621c041037702e8370af1e663d53a548ff794725",
+  "current_counts": {
+    "moratorium_records": 1328,
+    "state_policy_records": 448,
+    "ballot_measures": 57,
+    "retained_results": 65,
+    "current_results": 53,
+    "retained_events": 12,
+    "current_accepted_historical_events": 12,
+    "restriction_records": 3,
+    "measure_instrument_link_records": 1
+  },
+  "files": 2455,
+  "entries": 2664,
+  "verified_at": "2026-11-10T10:58:58.806146+00:00",
+  "consumer_verification": {
+    "handoff": {
+      "state": "verified",
+      "source_commit": "58a016a569e268ad26a2ed6ecc19a4736a743b84",
+      "manifest_sha256": "49b98443fa0d988719fd91363a1b51fb98bde54066555585beebb5137d451524",
+      "expanded_snapshot": "3ce33d22288fa7bc7100c9ac621c041037702e8370af1e663d53a548ff794725",
+      "files": 2455,
+      "entries": 2664,
+      "checks": [
+        {
+          "command": [
+            "scripts/check_expanded_publication.py"
+          ],
+          "exit_code": 0,
+          "result": {
+            "state": "consistent",
+            "snapshot_sha256": "3ce33d22288fa7bc7100c9ac621c041037702e8370af1e663d53a548ff794725",
+            "generations_checked": 49,
+            "records": {
+              "jurisdictions": 53,
+              "elections": 51,
+              "ballot_measures": 57,
+              "measure_provisions": 52,
+              "measure_results": 65,
+              "local_restrictions": 3,
+              "instrument_events": 12,
+              "measure_instrument_links": 1,
+              "source_documents": 168,
+              "claims": 625,
+              "review_decisions": 2756,
+              "search_runs": 1,
+              "search_attempts": 3,
+              "search_sightings": 18,
+              "coverage_observations": 1
+            },
+            "scope": "Offline publication/receipt consistency only; no source reacquisition, renewed factual acceptance or current-force confirmation."
+          }
+        },
+        {
+          "command": [
+            "scripts/build_expanded_csv.py",
+            "--check"
+          ],
+          "exit_code": 0,
+          "result": {
+            "state": "matches",
+            "source_snapshot": "3ce33d22288fa7bc7100c9ac621c041037702e8370af1e663d53a548ff794725",
+            "projection_sha256": "7b585b49998f8ca39b0ff433fe15c34335ea171bdd8960af1e7e9fdcf852f6cb",
+            "csv_views": 18
+          }
+        },
+        {
+          "command": [
+            "scripts/build_policy_scope_exports.py",
+            "--check"
+          ],
+          "exit_code": 0,
+          "result": "policy-scope exports current"
+        }
+      ],
+      "checks_run": true,
+      "scope": "Pinned input integrity and offline publication consistency, not source reacquisition or downstream join acceptance."
+    },
+    "policy_semantics": {
+      "total_state_policy_actions": 448,
+      "total_state_bills": 427,
+      "state_policy_instrument_type_counts": {
+        "bill": 427,
+        "executive_order": 2,
+        "governor_directive": 1,
+        "legislative_amendment": 1,
+        "legislative_precursor": 3,
+        "legislative_resolution": 12,
+        "statute": 2
+      },
+      "top_states_by_bills": [
+        [
+          "Pennsylvania",
+          18
+        ],
+        [
+          "Virginia",
+          18
+        ],
+        [
+          "West Virginia",
+          18
+        ],
+        [
+          "Maryland",
+          16
+        ],
+        [
+          "New Jersey",
+          16
+        ],
+        [
+          "California",
+          14
+        ],
+        [
+          "South Dakota",
+          14
+        ],
+        [
+          "Arizona",
+          13
+        ],
+        [
+          "Iowa",
+          13
+        ],
+        [
+          "Michigan",
+          13
+        ],
+        [
+          "Minnesota",
+          12
+        ],
+        [
+          "Ohio",
+          12
+        ],
+        [
+          "Oklahoma",
+          12
+        ],
+        [
+          "Illinois",
+          11
+        ],
+        [
+          "Kansas",
+          11
+        ]
+      ],
+      "top_states_by_policy_actions": [
+        [
+          "Pennsylvania",
+          22
+        ],
+        [
+          "Virginia",
+          18
+        ],
+        [
+          "West Virginia",
+          18
+        ],
+        [
+          "Maryland",
+          17
+        ],
+        [
+          "New Jersey",
+          17
+        ],
+        [
+          "California",
+          14
+        ],
+        [
+          "Michigan",
+          14
+        ],
+        [
+          "South Dakota",
+          14
+        ],
+        [
+          "Arizona",
+          13
+        ],
+        [
+          "Iowa",
+          13
+        ],
+        [
+          "Kansas",
+          12
+        ],
+        [
+          "Minnesota",
+          12
+        ],
+        [
+          "Ohio",
+          12
+        ],
+        [
+          "Oklahoma",
+          12
+        ],
+        [
+          "Illinois",
+          11
+        ]
+      ]
+    }
+  },
+  "index_verification": {
+    "snapshot": "data/source-snapshots/moratoria/2026-11-10-reviewed-v23",
+    "source_commit": "58a016a569e268ad26a2ed6ecc19a4736a743b84",
+    "manifest_sha256": "49b98443fa0d988719fd91363a1b51fb98bde54066555585beebb5137d451524",
+    "tracked_files_and_symlinks": 2456,
+    "exact_staged_git_blob_bytes_and_modes": true,
+    "scope": "Exact staged snapshot content, Git modes and path set against the pinned manifest, including the manifest itself. This is not an independent legal review."
+  },
+  "baseline_handoff": "V22",
+  "expanded_tables_byte_identical": true,
+  "summary_delta": "Only analytical scope partition counts381/48 to383/46; every other summary value unchanged.",
+  "changed_cells": 15,
+  "changed_local_cells": 0,
+  "changed_policy_cells": 15,
+  "changed_local_rows": 0,
+  "changed_policy_rows": 6,
+  "status_category_changes": 0,
+  "normalized_date_changes": 1,
+  "scope_membership_changes": 2,
+  "whole_record_closures": 2,
+  "unresolved_records": 1356,
+  "corrected_resolved_records": 181,
+  "confirmed_unchanged_records": 239,
+  "field_changes": [
+    {
+      "dataset": "policy",
+      "id": "mt-hj46-lc0933",
+      "field": "key_provisions",
+      "before": "Would have requested an interim study of data center impacts on grid adequacy, electric rates, stranded utility investment, water demand, affordability, and regulatory safeguards. Not a moratorium bill.",
+      "after": "Failed HJ46.1 study resolution would have requested an interim committee, statutory committee or staff study of data-center effects on electric adequacy, reliability, affordability and safety; ratepayer costs and regulatory safeguards; load management; bonding or other mitigation of stranded utility investment; distinct utility customer classification; ground/surface-water demand; economic, jobs, tax and housing-affordability impacts; and related high-load industrial topics. It proposed committee review of staff findings and reporting to the 70th Legislature. It did not impose a development moratorium, and its study directions were not adopted through this failed resolution."
+    },
+    {
+      "dataset": "policy",
+      "id": "mt-hj46-lc0933",
+      "field": "end_condition",
+      "before": "",
+      "after": "Failed proposal: all study aspects, including presentation and review, would have concluded prior to September 15, 2026, with final results reported to the 70th Legislature. This was a proposed study schedule, not an operative restriction endpoint or proof a study occurred."
+    },
+    {
+      "dataset": "policy",
+      "id": "mt-hj46-lc0933",
+      "field": "primary_source_url",
+      "before": "https://bearbeta.legmt.gov/bills/v1/bills/findBySessionIdAndDraftNumber?sessionId=2&draftNumber=LC0933",
+      "after": "https://bearbeta.legmt.gov/docs/v1/documents/getBillText?legislatureOrdinal=69&sessionOrdinal=20251&billType=HJ&billNumber=46"
+    },
+    {
+      "dataset": "policy",
+      "id": "mt-sb212-lc0292",
+      "field": "key_provisions",
+      "before": "\"Right to Compute Act.\" Creates a right to use computational resources and requires risk-management policies for critical infrastructure controlled by artificial intelligence systems. It expressly preserves government action to prevent or abate common-law nuisances from physical datacenter infrastructure. Not a moratorium bill.",
+      "after": "Right to Compute Act. Enrolled section 3 limits government restrictions infringing property/free-expression rights to those demonstrably necessary and narrowly tailored to a compelling government interest. Section 4 requires a reasonable risk-management policy after deploying a critical AI system controlling critical infrastructure; a plan prepared under federal requirements constitutes compliance. Section 7(2)(d) includes prevention or abatement of common-law nuisances created by physical datacenter infrastructure within compelling government interests. This is not a moratorium or blanket exemption from regulation. Later amendments, implementation and current force remain unverified."
+    },
+    {
+      "dataset": "policy",
+      "id": "mt-sb212-lc0292",
+      "field": "effective_date_iso",
+      "before": "",
+      "after": "2025-04-16"
+    },
+    {
+      "dataset": "policy",
+      "id": "mt-sb212-lc0292",
+      "field": "end_condition",
+      "before": "",
+      "after": "Enrolled section 10 provides effect on passage and approval; April 16, 2025 is derived from that clause and the retained official governor-signature event. No sunset is specified in the reviewed enrolled act. Later amendments and present force were not checked."
+    },
+    {
+      "dataset": "policy",
+      "id": "mt-sb212-lc0292",
+      "field": "primary_source_url",
+      "before": "https://bearbeta.legmt.gov/bills/v1/bills/findBySessionIdAndDraftNumber?sessionId=2&draftNumber=LC0292",
+      "after": "https://archive.legmt.gov/content/Sessions/69th/Contractor_index/CH0150.pdf"
+    },
+    {
+      "dataset": "policy",
+      "id": "wy-hb0064-2013",
+      "field": "key_provisions",
+      "before": "Extended eligibility for co-located data center structures under Wyoming's data processing services center exemption framework.",
+      "after": "Historical co-location expansion of the data-processing-services-center exemption. Retrieved 39-15-105(a)(viii)(S)(IV) allows entities occupying a data-center facility to satisfy subdivision(III) requirements in aggregate regardless of multiple ownerships of buildings and equipment. The $2 million annual-purchase threshold and $5 million/$50 million capital tiers, applicable location/retention and record conditions, and Business Council job certification still matter. The Business Council handout describes certification and Department of Revenue qualification; this is not automatic eligibility for every co-located facility."
+    },
+    {
+      "dataset": "policy",
+      "id": "wy-hb0064-2013",
+      "field": "end_condition",
+      "before": "",
+      "after": "The retrieved Title39 compilation retains the conditional data-center exemption at 39-15-105(a)(viii)(S). SF0079/2026 Chapter19 consolidates use-tax administration into Chapter15 and repeals Chapter16 generally effective July1,2026; its section2 alone is delayed to July1,2027. The old separate use-tax section is not current code, and its repeal is not itself abolition of the data-center exemption. No sunset is stated in the reviewed data-center clause; individual eligibility, comprehensive amendment lineage, rulings and litigation remain unverified."
+    },
+    {
+      "dataset": "policy",
+      "id": "wy-hb0067-2010",
+      "field": "key_provisions",
+      "before": "Created sales and use tax exemptions for qualifying data processing centers and related equipment.",
+      "after": "Created the historical data-processing-center sales/use-tax exemption framework. Retrieved 39-15-101(a)(xliv) defines the physical server/storage infrastructure class. Current 39-15-105(a)(viii)(S)(I),(III) covers qualifying software/computer equipment when annual qualifying purchases exceed $2 million, with at least $5 million capital investment or the specified five-year lookback alternative, physical-location/equipment-retention, records and Business Council job-certification conditions. This is statutory eligibility text, not a finding that any taxpayer qualifies. Later2026 administration was consolidated under Chapter15."
+    },
+    {
+      "dataset": "policy",
+      "id": "wy-hb0067-2010",
+      "field": "end_condition",
+      "before": "",
+      "after": "The retrieved Title39 compilation retains the conditional data-center exemption at 39-15-105(a)(viii)(S). SF0079/2026 Chapter19 consolidates use-tax administration into Chapter15 and repeals Chapter16 generally effective July1,2026; its section2 alone is delayed to July1,2027. The old separate use-tax section is not current code, and its repeal is not itself abolition of the data-center exemption. No sunset is stated in the reviewed data-center clause; individual eligibility, comprehensive amendment lineage, rulings and litigation remain unverified."
+    },
+    {
+      "dataset": "policy",
+      "id": "wy-hb0117-2011",
+      "field": "key_provisions",
+      "before": "Expanded the data processing services center exemption framework, including software and additional qualifying equipment categories.",
+      "after": "Historical expansion of the data-processing-services-center exemption, including software and additional equipment categories. Retrieved 39-15-105(a)(viii)(S)(II),(III) includes UPS, backup generators and specialized environmental-control equipment when annual qualifying purchases exceed $2 million, with at least $50 million capital investment or the specified five-year lookback alternative, plus location, retention, records and job-certification conditions. These current compiled conditions are distinguished from the original2011 enactment; no taxpayer-specific eligibility or unbroken amendment history is established."
+    },
+    {
+      "dataset": "policy",
+      "id": "wy-hb0117-2011",
+      "field": "end_condition",
+      "before": "",
+      "after": "The retrieved Title39 compilation retains the conditional data-center exemption at 39-15-105(a)(viii)(S). SF0079/2026 Chapter19 consolidates use-tax administration into Chapter15 and repeals Chapter16 generally effective July1,2026; its section2 alone is delayed to July1,2027. The old separate use-tax section is not current code, and its repeal is not itself abolition of the data-center exemption. No sunset is stated in the reviewed data-center clause; individual eligibility, comprehensive amendment lineage, rulings and litigation remain unverified."
+    },
+    {
+      "dataset": "policy",
+      "id": "wy-hb0155-2026",
+      "field": "key_provisions",
+      "before": "Would require specified sales or use tax exemption claimants to report when at least $250,000 of the applicable tax is exempted in the year; failure to report by February 1 would require payment of the prior-year tax difference plus applicable interest and penalties and bar specified exemptions in the year the report was due.",
+      "after": "Failed reporting proposal covering specified sales/use-tax exemption claimants when at least $250,000 of the applicable tax is exempted in the year; nonreporting by February1 would require prior-year tax repayment plus applicable interest/penalties and loss of specified exemptions for the reporting year. Introduced pages2 and5 explicitly list sales-tax subparagraph(S) and former use-tax subparagraph(H). The retrieved2026 code identifies(S) as the physical data-processing-center class and retains its conditional exemption. Later SF0079/Chapter19 reorganizes use tax under Chapter15 and repeals Chapter16; those current-law changes are separate from this failed proposal and do not enact its reporting duties."
+    },
+    {
+      "dataset": "policy",
+      "id": "wy-hb0155-2026",
+      "field": "primary_source_url",
+      "before": "https://www.wyoleg.gov/Legislation/2026/HB0155",
+      "after": "https://wyoleg.gov/2026/Introduced/HB0155.pdf"
+    }
+  ],
+  "trusted_verifier_sha256": "ebecf851d4196715df186cc81cc3c933ab7da550fbafd7207996cd94b9cd2739",
+  "scope": "Qualified post8 Montana/Wyoming correction batch: historical enrolled/resolution/code review; no new status categories, raw IDs or native history. Three Wyoming enactments and MontanaSB212 retain later/current-force/eligibility questions; two failed-proposal historical reviews close. Technical delivery is not independent substantive legal review. Release/input delivery and selected raw website files are verified; release-label/prose/receipt copy is still pending. No successful deployment or full hosted-copy verification is claimed.",
+  "consumer_commit": "583b6f38f5b4d212f2b13e320dcba46d7c1df616",
+  "consumer_remote_main": "583b6f38f5b4d212f2b13e320dcba46d7c1df616",
+  "release": "v2026.11.10.post8",
+  "release_url": "https://github.com/mjbommar/moratorium-data-2026/releases/tag/v2026.11.10.post8",
+  "release_manifest_sha256": "ec9c1591bf2c01bf159b8f407e290f116c2ebab2f5a43326e6e1fc0f9799a63f",
+  "data_input_delivery": "verified",
+  "selected_hosted_data_delivery": "verified_13_data_QA_files",
+  "hosted_copy_delivery": "pending_after_three_terminal_sync_timeouts",
+  "hosted_data_receipt": "work/research/2026-11-10/release-2026.11.10.post8/hosted-data-verification.json",
+  "failed_pages_runs": [
+    42802736516,
+    42804415026,
+    42807068191
+  ]
+}

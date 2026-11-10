@@ -1,0 +1,69 @@
+{
+  "conclusion": "failure",
+  "createdAt": "2026-11-10T11:23:25Z",
+  "headSha": "3bcdce9d8ffcbd9f1d751bdde0a2e285e06eaed4",
+  "jobs": [
+    {
+      "completedAt": "2026-11-10T11:34:12Z",
+      "conclusion": "failure",
+      "databaseId": 129798809941,
+      "name": "deploy",
+      "startedAt": "2026-11-10T11:23:32Z",
+      "status": "completed",
+      "steps": [
+        {
+          "completedAt": "2026-11-10T11:23:33Z",
+          "conclusion": "success",
+          "name": "Set up job",
+          "number": 1,
+          "startedAt": "2026-11-10T11:23:32Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-11-10T11:23:41Z",
+          "conclusion": "success",
+          "name": "Checkout pinned source",
+          "number": 2,
+          "startedAt": "2026-11-10T11:23:33Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-11-10T11:23:52Z",
+          "conclusion": "success",
+          "name": "Upload complete static site",
+          "number": 3,
+          "startedAt": "2026-11-10T11:23:41Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-11-10T11:34:10Z",
+          "conclusion": "failure",
+          "name": "Deploy complete static site",
+          "number": 4,
+          "startedAt": "2026-11-10T11:23:52Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-11-10T11:34:11Z",
+          "conclusion": "success",
+          "name": "Post Checkout pinned source",
+          "number": 8,
+          "startedAt": "2026-11-10T11:34:10Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-11-10T11:34:11Z",
+          "conclusion": "success",
+          "name": "Complete job",
+          "number": 9,
+          "startedAt": "2026-11-10T11:34:11Z",
+          "status": "completed"
+        }
+      ],
+      "url": "https://github.com/mjbommar/moratorium-data-2026/actions/runs/42807068191/job/129798809941"
+    }
+  ],
+  "status": "completed",
+  "updatedAt": "2026-11-10T11:34:13Z",
+  "url": "https://github.com/mjbommar/moratorium-data-2026/actions/runs/42807068191"
+}

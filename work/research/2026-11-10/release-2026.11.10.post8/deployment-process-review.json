@@ -2,17 +2,18 @@
   "observed_at": "2026-11-10T11:20:03.181518+00:00",
   "failed_runs": [
     42802736516,
-    42804415026
+    42804415026,
+    42807068191
   ],
   "failure_phase": "syncing_files until default600000ms timeout; deployment action then cancels backend deployment",
   "artifact_uploaded_bytes": 106211773,
   "tracked_source_bytes": 519213415,
   "tracked_source_files": 8097,
-  "mitigation_state": "enabled_awaiting_explicit_run",
+  "mitigation_state": "manual_batching_enabled_timeout_extension_capped_hosting_unresolved",
   "workflow": ".github/workflows/pages.yml",
   "deployment_trigger": "workflow_dispatch only; no deployment on ordinary research push",
-  "deployment_timeout_ms": 1800000,
-  "job_timeout_minutes": 40,
+  "deployment_timeout_ms": 600000,
+  "job_timeout_minutes": 20,
   "full_static_payload_preserved": true,
   "upload_scope": "Repository root, dereferenced static artifact, include hidden files, exclude.git/.github as prior official artifact action; no historical/native/source subset removed.",
   "action_pins": {
@@ -23,13 +24,22 @@
   "references": [
     "https://github.com/actions/deploy-pages/blob/368f82528645a54fb793d4d04e342629a3f51346/action.yml",
     "https://github.com/actions/upload-pages-artifact/blob/56afc609e74202658d3ffba0e8f6dda462b719fa/action.yml",
-    "https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages"
+    "https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages",
+    "https://github.com/mjbommar/moratorium-data-2026/actions/runs/42807068191"
   ],
-  "scope": "Operational mitigation for observed publication timeouts; not proof that timeout is the backend root cause or that hosted delivery succeeded. Release/data/source review unchanged.",
+  "scope": "Manual batch dispatch and complete payload continuity verified. Timeout extension did not take effect; hosted copy remains unresolved. No diagnosis of provider root cause or legal freshness.",
   "preflight_correction": "Pinned uploadv4 does not expose include-hidden-files and would exclude hidden payloads. Preflight caught this before settings/push/deployment. Preserve the exact prior uploadv3 archive rules instead; no deployed run used the v4 candidate.",
   "pages_build_type_before": "legacy",
   "pages_build_type_after": "workflow",
   "site_URL_domain_visibility_HTTPS_preserved": true,
   "action_input_preflight": "All configured inputs checked against each pinned action.yml; uploadv3 tar flags match the prior run log.",
-  "enabled_at": "2026-11-10T11:23:22.124125+00:00"
+  "enabled_at": "2026-11-10T11:23:22.124125+00:00",
+  "requested_timeout_ms": 1800000,
+  "effective_timeout_observation": "Pinned deploy-pagesv5 warned that1800000 exceeds the maximum and set600000ms; run then timed out/canceled while syncing_files.",
+  "artifact_proof": "explicit-workflow-artifact-check.json",
+  "artifact_verified_files": 8129,
+  "artifact_verified_native_generations": 49,
+  "hosted_data_proof": "hosted-data-verification.json",
+  "selected_hosted_data_files_verified": 13,
+  "active_retry": null
 }

@@ -609,6 +609,11 @@ that the remote release exists or serves the intended bytes.
 8. Verify the public landing page/Pages deployment after publication: version, key
    totals, source cutoffs, working links, paper edition and downloadable bytes. Keep
    the GitHub-release and site-deployment results separate if one succeeds first.
+   Pages is now an explicit batch step: use `gh workflow run pages.yml --ref main`
+   after the intended source/copy checks, then pin the observed run/head SHA.
+   Research pushes alone do not deploy. Retain a distinct hosted-copy hold after
+   terminal synchronization failures; verified release/input delivery remains a
+   separate fact. See [current operations](refresh-operations.md).
 9. Verify required sibling updates at their intended branch/deployment or deliver
    an explicit pending/blocked disposition. Finish with a release receipt linking
    the public release, tag/commit, asset checksums, deployed page, validation evidence

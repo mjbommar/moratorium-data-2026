@@ -2,7 +2,7 @@
 
 ## Qualified v2026.11.10.post8
 
-Fifteen policy fields across six Montana/Wyoming records clarified. SB212 gains an enrolled-text historical effective anchor; HJ46 full text and Wyoming HB155's explicit statutory class resolve two scoped historical reviews. The Wyoming use-tax chapter repeal is distinguished from data-center exemption abolition. Analytical scope is383included,19excluded,46reviewed-unresolved and0unreviewed;1,356 records remain unresolved,181 corrected-resolved and239 confirmed-unchanged. No status-category or native-table change;134 September status-category differences remain. [Qualified post8/V23 delivery](work/research/2026-11-10/release-2026.11.10.post8/README.md) is being verified.
+Fifteen policy fields across six Montana/Wyoming records clarified. SB212 gains an enrolled-text historical effective anchor; HJ46 full text and Wyoming HB155's explicit statutory class resolve two scoped historical reviews. The Wyoming use-tax chapter repeal is distinguished from data-center exemption abolition. Analytical scope is383included,19excluded,46reviewed-unresolved and0unreviewed;1,356 records remain unresolved,181 corrected-resolved and239 confirmed-unchanged. No status-category or native-table change;134 September status-category differences remain. [Qualified post8/V23 data-input delivery](work/research/2026-11-10/release-2026.11.10.post8/README.md) is verified, including13selected hosted data/QA files; full hosted-copy synchronization remains pending.
 
 | Metric | Qualified v2026.11.10.post8 |
 |---|---:|

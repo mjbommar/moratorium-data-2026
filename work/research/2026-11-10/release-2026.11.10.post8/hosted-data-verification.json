@@ -1,0 +1,86 @@
+{
+  "observed_at": "2026-11-10T11:41:03.529875+00:00",
+  "release_source_commit": "58a016a569e268ad26a2ed6ecc19a4736a743b84",
+  "files": {
+    "data/moratorium_inventory.csv": {
+      "bytes": 1830850,
+      "sha256": "4fd443839d7ffc2cdc5dec6727a70f6193aa142116f1c93eb33f6928c9091cc9",
+      "expected_sha256": "4fd443839d7ffc2cdc5dec6727a70f6193aa142116f1c93eb33f6928c9091cc9",
+      "byte_equal": true
+    },
+    "data/state_legislation.csv": {
+      "bytes": 363817,
+      "sha256": "94634358553f247f3ac3c373a08a7c665929332ed7f58b5cdcb5081dbe0fa761",
+      "expected_sha256": "94634358553f247f3ac3c373a08a7c665929332ed7f58b5cdcb5081dbe0fa761",
+      "byte_equal": true
+    },
+    "data/summary_stats.json": {
+      "bytes": 15337,
+      "sha256": "93a039556a92bd56064f9de8d1fffdef775dca474aa783c70ea271733588b995",
+      "expected_sha256": "93a039556a92bd56064f9de8d1fffdef775dca474aa783c70ea271733588b995",
+      "byte_equal": true
+    },
+    "data/policy-scope/reviewed-included.csv": {
+      "bytes": 335363,
+      "sha256": "3ea4eab3229d6b0d282ff292a6c9cd87ef75ebbe3f09dfc0d5b5aeb9abb671b5",
+      "expected_sha256": "3ea4eab3229d6b0d282ff292a6c9cd87ef75ebbe3f09dfc0d5b5aeb9abb671b5",
+      "byte_equal": true
+    },
+    "data/policy-scope/all-annotated.csv": {
+      "bytes": 387736,
+      "sha256": "ad7ae4edb0d1000766533f2618915ebecc0bee0db3ea2c00ececde2ab15c3e5d",
+      "expected_sha256": "ad7ae4edb0d1000766533f2618915ebecc0bee0db3ea2c00ececde2ab15c3e5d",
+      "byte_equal": true
+    },
+    "data/policy-scope/not-explicitly-excluded-candidates.csv": {
+      "bytes": 375794,
+      "sha256": "a17b0fbd9371b9916872534f33c7509a21a185937d623a912e387374e91f9594",
+      "expected_sha256": "a17b0fbd9371b9916872534f33c7509a21a185937d623a912e387374e91f9594",
+      "byte_equal": true
+    },
+    "data/policy-scope/receipt.json": {
+      "bytes": 14474,
+      "sha256": "5e3fc7648410b6f0e52797e01c55d5a44efc44cc712b58d2d89b0c0d6e0d7954",
+      "expected_sha256": "5e3fc7648410b6f0e52797e01c55d5a44efc44cc712b58d2d89b0c0d6e0d7954",
+      "byte_equal": true
+    },
+    "site/moratoria.geojson": {
+      "bytes": 1228252,
+      "sha256": "92bd5d36e6bf669e21272a6abc843a0cc07865b2c9cb458b4bf187ff21e29c25",
+      "expected_sha256": "92bd5d36e6bf669e21272a6abc843a0cc07865b2c9cb458b4bf187ff21e29c25",
+      "byte_equal": true
+    },
+    "data/expanded-snapshots/3ce33d22288fa7bc7100c9ac621c041037702e8370af1e663d53a548ff794725/measure_results.jsonl": {
+      "bytes": 151579,
+      "sha256": "098b532015652cd73e238458b822c48c97207454605aa9765f84c8307a412b05",
+      "expected_sha256": "098b532015652cd73e238458b822c48c97207454605aa9765f84c8307a412b05",
+      "byte_equal": true
+    },
+    "data/expanded-csv-snapshots/7b585b49998f8ca39b0ff433fe15c34335ea171bdd8960af1e7e9fdcf852f6cb/measure_results_current.csv": {
+      "bytes": 97173,
+      "sha256": "e36f40368777e8683531854351c7f06e203e5d61a0f6c34c84fc61255f8aa4ab",
+      "expected_sha256": "e36f40368777e8683531854351c7f06e203e5d61a0f6c34c84fc61255f8aa4ab",
+      "byte_equal": true
+    },
+    "work/research/2026-11-08/full-record-dispositions/funnel.json": {
+      "bytes": 2003036,
+      "sha256": "dbcf267da2a197b530a4fb11974887f52ec2ea412795bc84b3e440f86e35b527",
+      "expected_sha256": "dbcf267da2a197b530a4fb11974887f52ec2ea412795bc84b3e440f86e35b527",
+      "byte_equal": true
+    },
+    "work/research/2026-11-08/full-record-dispositions/verification.json": {
+      "bytes": 1826,
+      "sha256": "cdb75083e87ed95bf31e3b2cb0b87a0dec9d969ed641ff7cb11d0f6a655fd3cd",
+      "expected_sha256": "cdb75083e87ed95bf31e3b2cb0b87a0dec9d969ed641ff7cb11d0f6a655fd3cd",
+      "byte_equal": true
+    },
+    "work/research/2026-11-09/post-release-qa/outstanding-record-questions.jsonl": {
+      "bytes": 743163,
+      "sha256": "c42f231cb9961cd8c729f32190d3b5efc56a73926206135b109e3d373db5b093",
+      "expected_sha256": "c42f231cb9961cd8c729f32190d3b5efc56a73926206135b109e3d373db5b093",
+      "byte_equal": true
+    }
+  },
+  "all_selected_data_files_match": true,
+  "scope": "Selected canonical data/current ballot result/QA data delivery only; no assertion of successful recent deployment, current release-label/prose/receipt synchronization, all historical website paths or factual legal freshness. Current release-copy synchronization remains pending after three failed jobs."
+}

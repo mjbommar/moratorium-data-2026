@@ -20,7 +20,7 @@
   "consumer_dispositions": "delivered_with_historical_editions_preserved",
   "experimental_extractor": "failed_no_automatic_promotion",
   "quality_gate_disposition": "User authorized publication of the current state with qualifications on pending QA, followed by continued double checking and resolution of outstanding questions.",
-  "reviewed_data_source_commit": "ad7af81345dc0bb72b9b48a09abc574199c9311e",
+  "reviewed_data_source_commit": "58a016a569e268ad26a2ed6ecc19a4736a743b84",
   "record_dispositions": {
     "unresolved": 1356,
     "corrected_resolved": 181,
@@ -31,7 +31,7 @@
   "record_disposition_path": "work/research/2026-11-08/full-record-dispositions/funnel.json",
   "qa_status": "ongoing",
   "publication_authorization": "publish current state with qualifications on pending QA, then continue to double check and clear the outstanding questions",
-  "working_revision": "post8-prepared-montana-wyoming",
+  "working_revision": "post8-inputs-delivered-hosted-copy-pending-qa-active",
   "current_raw_counts": {
     "local": 1328,
     "state_policy": 448,
@@ -40,14 +40,14 @@
   "prior_release": "v2026.11.10.post7",
   "prior_release_source_commit": "ad7af81345dc0bb72b9b48a09abc574199c9311e",
   "prior_published_source_commit": "abd5a14abe67a052b57fa037ad83bd63f781d195",
-  "published_source_reference": "The v2026.11.10.post7 tag and manifest pin source ad7af813. Ten anonymous assets, full clean restore, V22 and23 hosted surfaces are verified. Final receipt-copy delivery is tracked separately. No universal freshness or current-force claim.",
+  "published_source_reference": "The v2026.11.10.post8 tag and manifest pin58a016a5. Deterministic assets, full clean restore, ten downloads, V23 and13selected hosted data/QA files are verified. Full hosted release-label/prose/receipt synchronization remains pending after three syncing-files timeouts; latest_verified_release retains the prior fully verified edition. No universal freshness or current-force claim.",
   "latest_consumer_handoff": {
-    "source_commit": "ad7af81345dc0bb72b9b48a09abc574199c9311e",
-    "consumer_commit": "5760ec426b1a43072606495fad1a0418c70e127c",
-    "manifest_sha256": "a2e318c1993a9338c8723cbe0dab41d77ad5d8872276920c467f6077355ecc7c",
+    "source_commit": "58a016a569e268ad26a2ed6ecc19a4736a743b84",
+    "consumer_commit": "583b6f38f5b4d212f2b13e320dcba46d7c1df616",
+    "manifest_sha256": "49b98443fa0d988719fd91363a1b51fb98bde54066555585beebb5137d451524",
     "trusted_verifier_sha256": "ebecf851d4196715df186cc81cc3c933ab7da550fbafd7207996cd94b9cd2739",
-    "receipt": "work/research/2026-11-10/post-release-qa/consumer-v22-handoff.json",
-    "scope": "Qualified post7 Lodi/Nashville text clarification batch. No category, normalized date/end, membership or whole-record-disposition changes. Version/publication, commencement/effectiveness, later action and current-force questions remain. Technical delivery is not independent substantive legal review."
+    "receipt": "work/research/2026-11-10/post-release-qa/consumer-v23-handoff.json",
+    "scope": "Qualified post8 Montana/Wyoming correction batch: historical enrolled/resolution/code review; no new status categories, raw IDs or native history. Three Wyoming enactments and MontanaSB212 retain later/current-force/eligibility questions; two failed-proposal historical reviews close. Technical delivery is not independent substantive legal review. Release/input delivery and selected raw website files are verified; release-label/prose/receipt copy is still pending. No successful deployment or full hosted-copy verification is claimed."
   },
   "release_date_timezone": "America/New_York",
   "published_source_commit": "4adc611e1a9ecc6be6438ab62ea5a1f28a482b93",
@@ -59,24 +59,28 @@
   },
   "latest_geography_review": "work/research/2026-11-09/post-release-qa/nonblank-geography-application.json",
   "latest_delivered_consumer_input_delta": {
-    "baseline_source_commit": "522c752107785fd435067dd0c01ed28b97806e6d",
-    "baseline_consumer_commit": "3a1ed93e3066a7c41f869d80c4c248a9a491b6b1",
-    "changed_local_rows": 2,
-    "changed_local_cells": 7,
-    "changed_policy_rows": 0,
-    "changed_policy_cells": 0,
-    "changed_cells": 7,
+    "baseline_source_commit": "ad7af81345dc0bb72b9b48a09abc574199c9311e",
+    "baseline_consumer_commit": "5760ec426b1a43072606495fad1a0418c70e127c",
+    "changed_policy_rows": 6,
+    "changed_policy_cells": 15,
+    "changed_local_rows": 0,
+    "changed_local_cells": 0,
+    "changed_cells": 15,
     "status_category_changes": 0,
-    "scope_membership_changes": 0,
-    "whole_record_closures": 0,
+    "normalized_date_changes": 1,
+    "scope_membership_changes": 2,
+    "whole_record_closures": 2,
     "additional_reviews": [
-      "work/research/2026-11-09/post-release-qa/lodi-effective-version-adjudication.json",
-      "work/research/2026-11-09/post-release-qa/nashville-meeting-minute-adjudication.json"
+      "work/research/2026-11-09/post-release-qa/montana-enrolled-text-adjudication.json",
+      "work/research/2026-11-09/post-release-qa/montana-hj46-text-adjudication.json",
+      "work/research/2026-11-09/post-release-qa/wyoming-current-tax-code-adjudications.json"
     ],
-    "scope": "Delivered qualified post7/V22: seven text cells/two local records; no category/date/whole-record change. Lodi version/publication, Nashville commencement/effectiveness and later-force questions remain.",
-    "delivery_receipt": "work/research/2026-11-10/post-release-qa/consumer-v22-handoff.json",
-    "delivered_source_commit": "ad7af81345dc0bb72b9b48a09abc574199c9311e",
-    "delivered_consumer_commit": "5760ec426b1a43072606495fad1a0418c70e127c"
+    "scope": "Data-input delivery complete for qualified post8/V23:15policy cells/6records, one historical date, two analytical inclusions and two scoped closures. Release assets, clean restore, consumer and13selected hosted data/QA files verified. Release labels/prose/receipt synchronization remains pending after three terminal deployment failures.",
+    "consumer_commit": "583b6f38f5b4d212f2b13e320dcba46d7c1df616",
+    "delivery_receipt": "work/research/2026-11-10/post-release-qa/consumer-v23-handoff.json",
+    "delivered_source_commit": "58a016a569e268ad26a2ed6ecc19a4736a743b84",
+    "delivered_consumer_commit": "583b6f38f5b4d212f2b13e320dcba46d7c1df616",
+    "hosted_copy_state": "pending"
   },
   "latest_source_followup": "work/research/2026-11-09/post-release-qa/wyoming-current-tax-code-adjudications.json",
   "latest_expanded_candidate_review": "work/research/2026-11-09/starke-succession-review/validation.json",
@@ -100,25 +104,24 @@
     "scope": "Qualified policy-history succession only; no formal termination, overlap or current-force acceptance."
   },
   "prior_delivered_consumer_input_delta": {
-    "baseline_source_commit": "e12c1efcd8696de71ad7ab3e416fddeeb149d69e",
-    "baseline_consumer_commit": "6799358eadb2c8f6343c5c0fc9bfe273979f696d",
-    "changed_policy_rows": 1,
-    "changed_cells": 11,
+    "baseline_source_commit": "522c752107785fd435067dd0c01ed28b97806e6d",
+    "baseline_consumer_commit": "3a1ed93e3066a7c41f869d80c4c248a9a491b6b1",
+    "changed_local_rows": 2,
+    "changed_local_cells": 7,
+    "changed_policy_rows": 0,
+    "changed_policy_cells": 0,
+    "changed_cells": 7,
     "status_category_changes": 0,
     "scope_membership_changes": 0,
     "whole_record_closures": 0,
     "additional_reviews": [
-      "work/research/2026-11-09/post-release-qa/utah-sb231-version-adjudication.json",
-      "work/research/2026-11-09/post-release-qa/alabama-local-instrument-adjudications.json",
-      "work/research/2026-11-09/post-release-qa/homewood-2979-minute-adjudication.json"
+      "work/research/2026-11-09/post-release-qa/lodi-effective-version-adjudication.json",
+      "work/research/2026-11-09/post-release-qa/nashville-meeting-minute-adjudication.json"
     ],
-    "scope": "Delivered qualified post6/V21: eleven cells/three records, zero category or whole-record changes. Source-qualified local/policy clarifications; native tables and numeric summary preserved.",
-    "changed_local_rows": 2,
-    "changed_local_cells": 8,
-    "changed_policy_cells": 3,
-    "delivery_receipt": "work/research/2026-11-10/post-release-qa/consumer-v21-handoff.json",
-    "delivered_source_commit": "522c752107785fd435067dd0c01ed28b97806e6d",
-    "delivered_consumer_commit": "3a1ed93e3066a7c41f869d80c4c248a9a491b6b1"
+    "scope": "Delivered qualified post7/V22: seven text cells/two local records; no category/date/whole-record change. Lodi version/publication, Nashville commencement/effectiveness and later-force questions remain.",
+    "delivery_receipt": "work/research/2026-11-10/post-release-qa/consumer-v22-handoff.json",
+    "delivered_source_commit": "ad7af81345dc0bb72b9b48a09abc574199c9311e",
+    "delivered_consumer_commit": "5760ec426b1a43072606495fad1a0418c70e127c"
   },
   "latest_field_application": "work/research/2026-11-09/post-release-qa/wyoming-current-tax-code-adjudications.json",
   "latest_hosted_delivery": {
@@ -134,40 +137,32 @@
   "source_observation_window_scope": "Acquisition range includes source-specific QA captures through November10; this does not renew every record or move the original comprehensive research_cutoff.",
   "latest_download_verified_release": "v2026.11.10.post8",
   "prior_latest_consumer_handoff": {
-    "source_commit": "4adc611e1a9ecc6be6438ab62ea5a1f28a482b93",
-    "consumer_commit": "8a94851d549307a01d87d983fa2da66398a9ba07",
-    "manifest_sha256": "d26b9e615e21246b0119dbfb95620b486345f23f7b66449c50282560bc47950e",
+    "source_commit": "ad7af81345dc0bb72b9b48a09abc574199c9311e",
+    "consumer_commit": "5760ec426b1a43072606495fad1a0418c70e127c",
+    "manifest_sha256": "a2e318c1993a9338c8723cbe0dab41d77ad5d8872276920c467f6077355ecc7c",
     "trusted_verifier_sha256": "ebecf851d4196715df186cc81cc3c933ab7da550fbafd7207996cd94b9cd2739",
-    "receipt": "work/research/2026-11-10/post-release-qa/consumer-v18-handoff.json",
-    "scope": "Verified Canterbury superseding reported-result delivery. Same322/63 tally; unknown certification/force. No legacy status changes or whole-record closures;1359 legacy holds remain."
+    "receipt": "work/research/2026-11-10/post-release-qa/consumer-v22-handoff.json",
+    "scope": "Qualified post7 Lodi/Nashville text clarification batch. No category, normalized date/end, membership or whole-record-disposition changes. Version/publication, commencement/effectiveness, later action and current-force questions remain. Technical delivery is not independent substantive legal review."
   },
-  "prior_published_source_reference": "The v2026.11.10.post3 tag and manifest identify exact source4adc611e. Ten anonymous assets, full clean restore, V18 and23 hosted surfaces are verified. Archived citation/version/date and current-release labels agree; later receipts do not rewrite immutable assets.",
-  "pending_consumer_input_delta": {
-    "baseline_source_commit": "ad7af81345dc0bb72b9b48a09abc574199c9311e",
-    "baseline_consumer_commit": "5760ec426b1a43072606495fad1a0418c70e127c",
-    "changed_policy_rows": 6,
-    "changed_policy_cells": 15,
-    "changed_local_rows": 0,
-    "changed_local_cells": 0,
-    "changed_cells": 15,
-    "status_category_changes": 0,
-    "normalized_date_changes": 1,
-    "scope_membership_changes": 2,
-    "whole_record_closures": 2,
-    "additional_reviews": [
-      "work/research/2026-11-09/post-release-qa/montana-enrolled-text-adjudication.json",
-      "work/research/2026-11-09/post-release-qa/montana-hj46-text-adjudication.json",
-      "work/research/2026-11-09/post-release-qa/wyoming-current-tax-code-adjudications.json"
-    ],
-    "scope": "Fifteen policy fields across six records since post7/V22: Montana enrolled/resolution review and four-record Wyoming code/consolidation followup. One historical normalized effective date, two analytical inclusions and two scoped historical record closures. No status-category or native-table change. Later release/consumer delivery pending.",
-    "consumer_commit": "583b6f38f5b4d212f2b13e320dcba46d7c1df616",
-    "consumer_delivery_state": "verified_hosted_pending"
-  },
+  "prior_published_source_reference": "The v2026.11.10.post7 tag and manifest pin source ad7af813. Ten anonymous assets, full clean restore, V22 and23 hosted surfaces are verified. Final receipt-copy delivery is tracked separately. No universal freshness or current-force claim.",
   "pending_hosted_delivery": {
     "release": "v2026.11.10.post8",
     "release_source_commit": "58a016a569e268ad26a2ed6ecc19a4736a743b84",
     "failed_pages_run": 42802736516,
-    "state": "waiting_for_delivery_checkpoint_deployment",
-    "receipt": "work/research/2026-11-10/release-2026.11.10.post8/download-consumer-delivery-checkpoint.json"
+    "state": "copy_pending_after_three_terminal_sync_timeouts",
+    "receipt": "work/research/2026-11-10/release-2026.11.10.post8/hosted-data-verification.json",
+    "failed_pages_runs": [
+      42802736516,
+      42804415026,
+      42807068191
+    ],
+    "active_deployment_run": null
+  },
+  "latest_verified_hosted_data": {
+    "release": "v2026.11.10.post8",
+    "release_source_commit": "58a016a569e268ad26a2ed6ecc19a4736a743b84",
+    "selected_files": 13,
+    "receipt": "work/research/2026-11-10/release-2026.11.10.post8/hosted-data-verification.json",
+    "scope": "Selected data/QA bytes only; no full release-label/prose/receipt synchronization claim."
   }
 }
