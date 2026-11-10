@@ -15,12 +15,12 @@
     "Experimental model extraction/P4 has not passed; no experimental extraction output is accepted automatically.",
     "The companion April paper and dated sibling publications retain their historical editions."
   ],
-  "update_status": "qualified_release_pending_delivery",
+  "update_status": "qualified_release_with_ongoing_qa",
   "full_inventory_closeout": "reviewed_and_applied_with_bounded_unresolved_questions",
   "consumer_dispositions": "delivered_with_historical_editions_preserved",
   "experimental_extractor": "failed_no_automatic_promotion",
   "quality_gate_disposition": "User authorized publication of the current state with qualifications on pending QA, followed by continued double checking and resolution of outstanding questions.",
-  "reviewed_data_source_commit": "d97143837fed9b7aa3e2488cf47ebbf8b0bc740a",
+  "reviewed_data_source_commit": "3e6078986fdc14e6ce2b1d6028698e1c3ac4e49e",
   "record_dispositions": {
     "unresolved": 1368,
     "corrected_resolved": 171,
@@ -31,7 +31,7 @@
   "record_disposition_path": "work/research/2026-11-08/full-record-dispositions/funnel.json",
   "qa_status": "ongoing",
   "publication_authorization": "publish current state with qualifications on pending QA, then continue to double check and clear the outstanding questions",
-  "working_revision": "post8-prepared",
+  "working_revision": "post8-delivery-receipt",
   "current_raw_counts": {
     "local": 1328,
     "state_policy": 448,
@@ -40,16 +40,16 @@
   "prior_release": "v2026.11.9.post7",
   "prior_release_source_commit": "18125103a37ceabaf6e2a46f698f90bdf0b689b9",
   "prior_published_source_commit": "18125103a37ceabaf6e2a46f698f90bdf0b689b9",
-  "published_source_reference": "The v2026.11.9.post8 tag and manifest identify its source when published. Previous published_source_commit and consumer receipt remain historical until verified delivery.",
+  "published_source_reference": "The v2026.11.9.post8 release tag and manifest identify the exact source. Later delivery receipts do not rewrite source-cutoff metadata or immutable assets.",
   "latest_consumer_handoff": {
-    "source_commit": "18125103a37ceabaf6e2a46f698f90bdf0b689b9",
-    "consumer_commit": "24af6752ba045d10bb1b5c3a5d465ea19e1a855e",
-    "manifest_sha256": "c7cc27627bf69b269f5f6fb959963241f5227f0cab003fce0f7188fd0b7ed88b",
-    "receipt": "work/research/2026-11-09/post-release-qa/consumer-v12-handoff.json",
-    "scope": "Independently verified canonical input delivery matching qualified post7; legal/source, Massachusetts independent QA and Starke expanded-model review remain open."
+    "source_commit": "3e6078986fdc14e6ce2b1d6028698e1c3ac4e49e",
+    "consumer_commit": "f704e2f8ed60382ce72c932c9d7bac7080d796ed",
+    "manifest_sha256": "ed05ddabdf9e072056d61bb0ec7d17376bf4f2e514612f4a8878d948bfc48085",
+    "receipt": "work/research/2026-11-09/post-release-qa/consumer-v13-handoff.json",
+    "scope": "Verified input delivery matching qualified post8; historical Starke adoption accepted, legal-effect/predecessor and Massachusetts independent QA remain open."
   },
   "release_date_timezone": "America/New_York",
-  "published_source_commit": "18125103a37ceabaf6e2a46f698f90bdf0b689b9",
+  "published_source_commit": "3e6078986fdc14e6ce2b1d6028698e1c3ac4e49e",
   "september_status_category_differences": {
     "local": 98,
     "policy": 39,
@@ -58,34 +58,6 @@
   },
   "latest_geography_review": "work/research/2026-11-09/post-release-qa/missing-geography-application.json",
   "latest_delivered_consumer_input_delta": {
-    "baseline_source_commit": "fb6b44874138c742fd7505f6dfecd561e44e99ae",
-    "baseline_consumer_commit": "ee27beba175ed8d19f08d13dc8553b0914860f6f",
-    "changed_local_rows": 10,
-    "changed_cells": 32,
-    "status_category_changes": 3,
-    "new_scope_inclusions": 0,
-    "receipt": "work/research/2026-11-09/post-release-qa/coweta-followup-adjudications.json",
-    "scope": "Delivered in qualified post7 and verified V12:32 cells across ten local records, three category corrections, no whole-record closures.",
-    "additional_instrument_review": "work/research/2026-11-09/post-release-qa/coweta-instruments-review.json",
-    "additional_audubon_review": "work/research/2026-11-09/post-release-qa/audubon-followup-adjudications.json",
-    "additional_lee_review": "work/research/2026-11-09/post-release-qa/lee-followup-adjudications.json",
-    "additional_starke_review": "work/research/2026-11-09/post-release-qa/starke-followup-adjudications.json",
-    "additional_boone_review": "work/research/2026-11-09/post-release-qa/boone-followup-adjudications.json",
-    "delivery_receipt": "work/research/2026-11-09/post-release-qa/consumer-v12-handoff.json"
-  },
-  "latest_source_followup": "work/research/2026-11-09/post-release-qa/boone-followup-adjudications.json",
-  "latest_expanded_candidate_review": "work/research/2026-11-09/starke-expanded-review/validation.json",
-  "latest_expanded_publication": {
-    "generation_id": "ca1d948627ecd9ef9b74dbd81ebbb8e79322c586ff773c9d91f8798610187e6b",
-    "tables_sha256": "5df43b23fb78f3e239065f9a6276f46705fefc2254749b0a7fec287d26cb07f8",
-    "publication_sha256": "4b57d34be09da49adedcf1b9f5a18e3228779897a1f7de25648174f69a7fdc30",
-    "reviewed_at": "2026-11-10T03:52:57.026762+00:00",
-    "receipt": "work/research/2026-11-09/starke-expanded-review/publication-application.json",
-    "profile": "1.0.4",
-    "scope": "Historical adoption and provisions; operative status, publication, applicability and legal force remain unknown."
-  },
-  "research_cutoff_scope": "Historical cutoff retained from earlier publication; later additions carry their own observation and publication-review timestamps. It is not a universal source-freshness cutoff.",
-  "pending_consumer_input_delta": {
     "baseline_source_commit": "18125103a37ceabaf6e2a46f698f90bdf0b689b9",
     "baseline_consumer_commit": "24af6752ba045d10bb1b5c3a5d465ea19e1a855e",
     "changed_local_rows": 0,
@@ -102,6 +74,19 @@
       "review_decisions": 18
     },
     "receipt": "work/research/2026-11-09/starke-expanded-review/publication-application.json",
-    "scope": "Expanded historical-adoption publication; legacy and ballot records unchanged. Release/consumer synchronization pending."
-  }
+    "scope": "Delivered in qualified post8 and verified V13: append-only expanded Starke historical adoption; legacy and ballot records unchanged; no whole-record closures.",
+    "delivery_receipt": "work/research/2026-11-09/post-release-qa/consumer-v13-handoff.json"
+  },
+  "latest_source_followup": "work/research/2026-11-09/post-release-qa/boone-followup-adjudications.json",
+  "latest_expanded_candidate_review": "work/research/2026-11-09/starke-expanded-review/validation.json",
+  "latest_expanded_publication": {
+    "generation_id": "ca1d948627ecd9ef9b74dbd81ebbb8e79322c586ff773c9d91f8798610187e6b",
+    "tables_sha256": "5df43b23fb78f3e239065f9a6276f46705fefc2254749b0a7fec287d26cb07f8",
+    "publication_sha256": "4b57d34be09da49adedcf1b9f5a18e3228779897a1f7de25648174f69a7fdc30",
+    "reviewed_at": "2026-11-10T03:52:57.026762+00:00",
+    "receipt": "work/research/2026-11-09/starke-expanded-review/publication-application.json",
+    "profile": "1.0.4",
+    "scope": "Historical adoption and provisions; operative status, publication, applicability and legal force remain unknown."
+  },
+  "research_cutoff_scope": "Historical cutoff retained from earlier publication; later additions carry their own observation and publication-review timestamps. It is not a universal source-freshness cutoff."
 }

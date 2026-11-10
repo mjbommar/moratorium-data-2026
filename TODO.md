@@ -793,4 +793,4 @@ Exit: repeatable refresh with visible freshness, costs, failures and unresolved 
 - [x] Prepare the unpublished Starke 2026-34 expanded candidate: one restriction/adoption event, six source-verified claims and three reproducible visual reviews; profile 1.0.4 validation passes. Production expanded generation and identity registry remain unchanged. See `work/research/2026-11-09/starke-expanded-review/README.md`.
 
 - [ ] Review the qualified policy-predecessor relationship for Starke separately; a restriction-adoption event does not itself establish formal moratorium termination.
-- [ ] Synchronize the new Starke expanded generation and projections to a qualified release and verified consumer snapshot after post7/V12.
+- [x] Synchronize Starke expanded generation/projections in qualified post8 and verified V13 from `3e607898`; deterministic builds, full clean restore, ten anonymous assets, all archive members, thirteen hosted surfaces and independent consumer checks passed. Legal-effect/predecessor and whole-record QA remain open.

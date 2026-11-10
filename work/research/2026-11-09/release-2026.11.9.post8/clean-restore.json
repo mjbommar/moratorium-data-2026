@@ -1,0 +1,50 @@
+{
+  "manifest_sha256": "3f0da011ee3778c95dc50bae85c39d38a4f60b08488bfdb863511eead747a07a",
+  "verified_members": 2174,
+  "checks": {
+    "policy_scope_exports": {
+      "status": "verified",
+      "outputs": 4,
+      "summary": "verified"
+    },
+    "publication": {
+      "state": "consistent",
+      "snapshot_sha256": "ca1d948627ecd9ef9b74dbd81ebbb8e79322c586ff773c9d91f8798610187e6b",
+      "generations_checked": 47,
+      "records": {
+        "jurisdictions": 53,
+        "elections": 51,
+        "ballot_measures": 57,
+        "measure_provisions": 52,
+        "measure_results": 64,
+        "local_restrictions": 3,
+        "instrument_events": 11,
+        "measure_instrument_links": 1,
+        "source_documents": 166,
+        "claims": 619,
+        "review_decisions": 2734,
+        "search_runs": 1,
+        "search_attempts": 3,
+        "search_sightings": 18,
+        "coverage_observations": 1
+      },
+      "scope": "Offline publication/receipt consistency only; no source reacquisition, renewed factual acceptance or current-force confirmation."
+    },
+    "replay": {
+      "state": "already_applied",
+      "sha256": "5df43b23fb78f3e239065f9a6276f46705fefc2254749b0a7fec287d26cb07f8",
+      "generation_id": "ca1d948627ecd9ef9b74dbd81ebbb8e79322c586ff773c9d91f8798610187e6b",
+      "publication_sha256": "4b57d34be09da49adedcf1b9f5a18e3228779897a1f7de25648174f69a7fdc30"
+    },
+    "csv_generation": "1291b5c509193fee0bb8dc5a1b593658aec31cfc6cbfd04d3f69b9427e19ea9d",
+    "csv_outputs": 19,
+    "legacy_aliases": 3,
+    "legacy_validation": {
+      "as_of": "2026-11-09",
+      "errors": 0,
+      "warnings": 619
+    },
+    "policy_scope_reviews": 448
+  },
+  "scope": "Internal portable consistency only; no source acceptance, freshness or release determination."
+}
