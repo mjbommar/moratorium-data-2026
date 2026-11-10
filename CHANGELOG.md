@@ -1,5 +1,20 @@
 # Changelog
 
+## v2026.11.9.post5 — qualified publication, QA ongoing
+
+This patch delivers 58 corrected cells across 21 existing policy records: 42 Arizona/Connecticut outcome cells and 16 West Virginia narrative, provision-summary and primary-URL cells. Fourteen scoped outcome holds close; 1,368 remain unresolved. Fourteen category corrections are explicitly inferred historical regular-session nonpassage, not invented bill-specific Died events. No IDs, local inventory, scope memberships or ballot/event records change.
+
+| Metric | Qualified patch v2026.11.9.post5 |
+|---|---:|
+| Moratoria in the list | **1,328** |
+| Classified active or extended | **1,088** |
+| Pending or not yet effective | **64** |
+| Ended (replaced, expired, or rescinded) | **170** |
+| Rows we still want to confirm (`[VERIFY]`) | **979** |
+| States with at least one | **47** |
+
+Scope remains 381 included, 19 excluded and 48 unresolved. Ballot totals remain 57 measures and 53 current result observations, five certified. Map coverage remains 1,326/1,328. [Detailed notes](work/research/2026-11-09/release-2026.11.9.post5/release-body.md) retain source-specific qualifications. Earlier tags and assets remain immutable; later receipts establish delivery without rewriting this source cutoff.
+
 ## Working QA after v2026.11.9.post4
 
 West Virginia source review documents four introduced-text cross-reference differences between SB583/SB857, qualifies seven historical nonpassage narratives, and populates seven primary-source URLs. Six Senate terminal-rule holds remain; no status categories or dispositions change. Sixteen cells across seven records change. Current unresolved1,368; September category differences134. [Review](work/research/2026-11-09/post-release-qa/west-virginia-comparison-review.md).
