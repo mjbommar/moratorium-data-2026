@@ -2,11 +2,11 @@
 
 **November patch release with pending QA:** [v2026.11.10.post3](https://github.com/mjbommar/moratorium-data-2026/releases/tag/v2026.11.10.post3) publishes the reviewed current state with explicit unresolved source and legal-status questions. Further checking continues. The older `v2026.11.8` remains an incomplete prerelease checkpoint.
 
-**Qualified patch:** This edition incorporates Canterbury's source-reported Article 4 approval and completed reporting, with unchanged vote totals and unknown certification/legal force. The [release and delivery record](work/research/2026-11-10/release-2026.11.10.post3/README.md) distinguishes preparation from verified remote delivery. Earlier tags remain immutable.
+**Qualified patch:** This edition incorporates Canterbury's source-reported Article 4 approval and completed reporting, with unchanged vote totals and unknown certification/legal force. [Release downloads, matching V18 and twenty-three hosted surfaces](work/research/2026-11-10/release-2026.11.10.post3/README.md) are verified. Earlier tags remain immutable.
 
 **Continuing QA:** The Hawaii review closes six scoped historical records, with 1,359 unresolved records retained. HCR206 exact convening and Massachusetts H5175 independent QA remain open. There are 448 policy observations and 1,776 raw records. Use each release tag for its exact snapshot; later working changes retain their own receipts.
 
-**Latest ballot review:** [Canterbury's official meeting minutes](work/research/2026-11-10/canterbury-minutes-result-review/README.md) explicitly report Article 4 passed, 322–63, with clerk reports finalized. A new observation supersedes the earlier one without changing its tally. There are now 65 retained result versions; current observations remain 53 across 52 measures, with five certified. Certification/date and operative legal effect remain unknown for Canterbury. Release and consumer synchronization of this newer result revision are pending.
+**Latest ballot review:** [Canterbury's official meeting minutes](work/research/2026-11-10/canterbury-minutes-result-review/README.md) explicitly report Article 4 passed, 322–63, with clerk reports finalized. A new observation supersedes the earlier one without changing its tally. There are now 65 retained result versions; current observations remain 53 across 52 measures, with five certified. Certification/date and operative legal effect remain unknown for Canterbury. [Qualified post3 and matching V18 delivery](work/research/2026-11-10/release-2026.11.10.post3/README.md) are verified.
 
 **Open data on local-government moratoria targeting data centers, battery storage, solar, wind, and cryptocurrency mining across the United States.**
 

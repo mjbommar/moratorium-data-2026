@@ -1,3 +1,9 @@
-# Qualified Canterbury result preparation
+# Qualified Canterbury result update delivered
 
-[Scope](release-body.md), [delta](dataset-delta.json), [source review](../canterbury-minutes-result-review/README.md) and [verification](../canterbury-minutes-result-review/verification.json). Remote release and consumer delivery remain pending until separately verified.
+Published [v2026.11.10.post3](https://github.com/mjbommar/moratorium-data-2026/releases/tag/v2026.11.10.post3) pins `4adc611e1a9ecc6be6438ab62ea5a1f28a482b93`. [Scope](release-body.md), [delta](dataset-delta.json), [source review](../canterbury-minutes-result-review/README.md) and [verification](../canterbury-minutes-result-review/verification.json) describe source-reported approval and completed reporting from official minutes, with unchanged 322–63 votes and unknown certification/legal effect.
+
+[Two identical builds and ten assets](build-and-assets.json), [full clean restore](clean-restore.json), [ten anonymous downloads and all 2,313 archive members](public-verification.json), and [twenty-three hosted surfaces](hosted-copy-verification.json) pass. Hosted checks include the new native result history, current-result CSV and ballot summary. Manifest `dfa20acec720dba1e61ca8620f40b55dc70809a6e010c2b2a9f57e75784c7fc8`. [Archive comparison](archive-comparison.json) verifies unchanged legacy CSVs, every prior native record/history member and identity prefix, plus the single-observation current-view replacement. [Actual archived edition labels](release-label-validation.json) agree; six producer tests include the earlier citation regression.
+
+[Consumer V18](../post-release-qa/consumer-v18-handoff.md) is independently technically verified, pushed and remote-verified from the same source. Source-cutoff pending-delivery metadata is fulfilled by these later receipts. Earlier snapshots, publications, joins and assets are preserved.
+
+There are 65 retained result versions and 53 current observations across 52 measures; five remain certified. No new measure, restriction/event, legacy status or whole-record closure. The 1,359 legacy holds, Massachusetts independent QA and the Nottingham/Wrightstown/Port Washington certification/operative gaps remain open. No universal current-law certification, complete census or DOI is asserted.

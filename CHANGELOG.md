@@ -1,12 +1,12 @@
 # Changelog
 
-## Qualified v2026.11.10.post3 preparation
+## Qualified v2026.11.10.post3
 
-Canterbury's signed town minutes report Article 4 passed with 322 yes and 63 no and say clerk reports were finalized. One new result observation records reported approval and complete reporting, preserves the original observation and keeps certification/date, calculated passage rule and legal force unknown. Retained result versions rise to 65; current observations remain 53 across 52 measures, with five certified. No new measure, restriction, instrument event, legacy status or whole legacy-record closure. [Source review and publication](work/research/2026-11-10/canterbury-minutes-result-review/README.md). Release and consumer synchronization are pending.
+Canterbury's signed town minutes report Article 4 passed with 322 yes and 63 no and say clerk reports were finalized. One new result observation records reported approval and complete reporting, preserves the original observation and keeps certification/date, calculated passage rule and legal force unknown. Retained result versions rise to 65; current observations remain 53 across 52 measures, with five certified. No new measure, restriction, instrument event, legacy status or whole legacy-record closure. [Source review and publication](work/research/2026-11-10/canterbury-minutes-result-review/README.md). [Qualified post3 and V18 delivery](work/research/2026-11-10/release-2026.11.10.post3/README.md) are verified.
 
 Two retained Canterbury captures were added to archive/native continuity without network calls. Two targeted searches and eight captures produced seven new source archive versions and one existing exact version; notices and general election reports did not resolve the Nottingham, Wrightstown or Port Washington certification/operative questions. Raw source bodies, registered OCR and renders remain private.
 
-| Metric | Qualified v2026.11.10.post3 preparation |
+| Metric | Qualified v2026.11.10.post3 |
 |---|---:|
 | Moratoria in the list | **1,328** |
 | Classified active or extended | **1,087** |
