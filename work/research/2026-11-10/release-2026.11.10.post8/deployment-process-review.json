@@ -8,7 +8,7 @@
   "artifact_uploaded_bytes": 106211773,
   "tracked_source_bytes": 519213415,
   "tracked_source_files": 8097,
-  "mitigation_state": "prepared_not_yet_deployed",
+  "mitigation_state": "enabled_awaiting_explicit_run",
   "workflow": ".github/workflows/pages.yml",
   "deployment_trigger": "workflow_dispatch only; no deployment on ordinary research push",
   "deployment_timeout_ms": 1800000,
@@ -26,5 +26,10 @@
     "https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages"
   ],
   "scope": "Operational mitigation for observed publication timeouts; not proof that timeout is the backend root cause or that hosted delivery succeeded. Release/data/source review unchanged.",
-  "preflight_correction": "Pinned uploadv4 does not expose include-hidden-files and would exclude hidden payloads. Preflight caught this before settings/push/deployment. Preserve the exact prior uploadv3 archive rules instead; no deployed run used the v4 candidate."
+  "preflight_correction": "Pinned uploadv4 does not expose include-hidden-files and would exclude hidden payloads. Preflight caught this before settings/push/deployment. Preserve the exact prior uploadv3 archive rules instead; no deployed run used the v4 candidate.",
+  "pages_build_type_before": "legacy",
+  "pages_build_type_after": "workflow",
+  "site_URL_domain_visibility_HTTPS_preserved": true,
+  "action_input_preflight": "All configured inputs checked against each pinned action.yml; uploadv3 tar flags match the prior run log.",
+  "enabled_at": "2026-11-10T11:23:22.124125+00:00"
 }

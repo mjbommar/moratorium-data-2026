@@ -556,7 +556,7 @@ New York's four BESS records have independent recommendations, with whole-record
 
 ## Explicit Pages batch publication (November 10)
 
-Pages publication now uses the manually dispatched [workflow](../.github/workflows/pages.yml). Research commits alone do not start a site deployment. After the release/source and copy checks, dispatch `gh workflow run pages.yml --ref main`, record its exact run/head SHA, and verify hosted bytes against that source. Keep release-source and later receipt-source commits distinct.
+Pages publication now uses the manually dispatched [workflow](https://github.com/mjbommar/moratorium-data-2026/blob/main/.github/workflows/pages.yml). Research commits alone do not start a site deployment. After the release/source and copy checks, dispatch `gh workflow run pages.yml --ref main`, record its exact run/head SHA, and verify hosted bytes against that source. Keep release-source and later receipt-source commits distinct.
 
 The workflow uploads the complete repository-root static payload, including the same hidden files and dereferenced current snapshots as the prior official artifact action; `.git` and `.github` remain excluded. Historical data and evidence coverage are preserved. Official actions are pinned to reviewed commit SHAs. Deployment gets a bounded30-minute synchronization window and the job40minutes. Two default10-minute runs had timed out while `syncing_files`; increasing the window is a mitigation to verify, not a diagnosed root cause or a successful deployment claim. Do not start competing deployments or repeat dataset builds when only hosting is waiting.
 
