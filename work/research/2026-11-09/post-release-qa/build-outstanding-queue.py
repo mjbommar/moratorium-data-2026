@@ -957,6 +957,12 @@ def main():
         assert digest(json.dumps(current[key],sort_keys=True,separators=(',',':'),ensure_ascii=False).encode())==record['current_row_sha256']
         assert next(r for r in f['records'] if r['id']==record['id'])['disposition']==record['recommendation']=='unresolved'
         overlays[record['id']]=[public_text(q) for q in record['remaining_questions']]
+    new_haven_path=Path('work/research/2026-11-10/post-release-qa/new-haven-signature-review.json')
+    if new_haven_path.exists():
+        record=json.loads(new_haven_path.read_text());key=('local_inventory',record['id'])
+        assert digest(json.dumps(current[key],sort_keys=True,separators=(',',':'),ensure_ascii=False).encode())==record['current_row_sha256']
+        assert next(r for r in f['records'] if r['id']==record['id'])['disposition']==record['recommendation']=='unresolved'
+        overlays[record['id']]=[public_text(q) for q in record['remaining_questions']]
     rows=[]
     for entry in f['records']:
         if entry['disposition']!='unresolved':continue
@@ -979,6 +985,7 @@ def main():
     summary['morris_term_review_sha256']=digest(morris_path.read_bytes()) if morris_path.exists() else None
     summary['trumbull_retained_minutes_sha256']=digest(trumbull_path.read_bytes()) if trumbull_path.exists() else None
     summary['west_haven_text_sha256']=digest(west_haven_path.read_bytes()) if west_haven_path.exists() else None
+    summary['new_haven_signature_sha256']=digest(new_haven_path.read_bytes()) if new_haven_path.exists() else None
     summary['fairbanks_recovery_sha256']=digest(fairbanks_recovery.read_bytes()) if fairbanks_recovery.exists() else None
     (args.output/'outstanding-queue-verification.json').write_text(json.dumps(summary,indent=2)+'\n');print(json.dumps(summary,indent=2))
 if __name__=='__main__':main()
