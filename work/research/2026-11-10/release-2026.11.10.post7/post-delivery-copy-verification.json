@@ -1,0 +1,48 @@
+{
+  "release_source_commit": "ad7af81345dc0bb72b9b48a09abc574199c9311e",
+  "receipt_source_commit": "b197da25c81d2d708858ed61bcaa208cd386b037",
+  "pages_run": 42798377249,
+  "observed_at": "2026-11-10T10:22:30.967642+00:00",
+  "files": {
+    "README.md": {
+      "bytes": 22684,
+      "sha256": "68c1f5cdfabd64e0d2dd470f4c71c7bdca97ced75fd56c00019cba700a1f938e",
+      "state": "byte_equal"
+    },
+    "CHANGELOG.md": {
+      "bytes": 186331,
+      "sha256": "bc2f8f30313e0fb0340af59d85cefec7fd948835827956bd522059c3e8cfaa12",
+      "state": "byte_equal"
+    },
+    "docs/refresh-operations.md": {
+      "bytes": 83581,
+      "sha256": "403dbf21a8c1fc489dc948df67d834b53b2c1d403223d442531d97a3ce180d2c",
+      "state": "byte_equal"
+    },
+    "data/release_metadata.json": {
+      "bytes": 9854,
+      "sha256": "616eae7716c71977037556d23dbcd668e945335870da1a0c7afcaf0870e06b27",
+      "state": "byte_equal"
+    },
+    "work/research/2026-11-10/release-2026.11.10.post7/README.md": {
+      "bytes": 2107,
+      "sha256": "ec9f749f00ffbe27bc2b1bf66dcdc03fa65a6aed7e234be23c5c0000c9bdfae5",
+      "state": "byte_equal"
+    },
+    "work/research/2026-11-10/release-2026.11.10.post7/release-body.md": {
+      "bytes": 1849,
+      "sha256": "8d16bf8bc1c6a5d35cd7078537035f83279bcd177a1e77dd4cee4eb7b47f9726",
+      "state": "byte_equal"
+    }
+  },
+  "canonical_inputs_byte_identical_to_release": [
+    "data/moratorium_inventory.csv",
+    "data/state_legislation.csv",
+    "data/summary_stats.json",
+    "site/moratoria.geojson",
+    "data/policy-scope/reviewed-included.csv",
+    "data/policy-scope/receipt.json",
+    "data/expanded-snapshots/3ce33d22288fa7bc7100c9ac621c041037702e8370af1e663d53a548ff794725/measure_results.jsonl"
+  ],
+  "scope": "Exact final receipt-copy delivery and release-canonical continuity; not new substantive source review or current-force acceptance."
+}

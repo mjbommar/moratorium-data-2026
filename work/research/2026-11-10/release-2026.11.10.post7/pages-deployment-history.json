@@ -1,0 +1,20 @@
+{
+  "release_source_commit": "ad7af81345dc0bb72b9b48a09abc574199c9311e",
+  "runs": [
+    {
+      "run": 42797598108,
+      "source_commit": "ad7af81345dc0bb72b9b48a09abc574199c9311e",
+      "state": "completed",
+      "conclusion": "success",
+      "scope": "Initial source deployment;23 hosted surfaces checked."
+    },
+    {
+      "run": 42798377249,
+      "source_commit": "b197da25c81d2d708858ed61bcaa208cd386b037",
+      "state": "completed",
+      "conclusion": "success",
+      "scope": "Final delivery receipts; six prose/metadata surfaces checked; canonical inputs byte-identical to release."
+    }
+  ],
+  "scope": "Both admitted deployment runs succeeded; no failed/restarted job or dataset rebuild was needed. Later receipt-only commits do not alter checked surface hashes."
+}
