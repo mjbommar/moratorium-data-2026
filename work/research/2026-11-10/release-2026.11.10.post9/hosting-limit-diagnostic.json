@@ -1,0 +1,42 @@
+{
+  "observed_at": "2026-11-10T12:22:32.746773+00:00",
+  "pages": {
+    "build_type": "workflow",
+    "status": "errored",
+    "html_url": "https://mjbommar.github.io/moratorium-data-2026/"
+  },
+  "explicit_workflow_runs": [
+    {
+      "conclusion": "failure",
+      "databaseId": 42807068191,
+      "headSha": "3bcdce9d8ffcbd9f1d751bdde0a2e285e06eaed4",
+      "status": "completed",
+      "url": "https://github.com/mjbommar/moratorium-data-2026/actions/runs/42807068191"
+    }
+  ],
+  "documented_limits": {
+    "deployment_minutes": 10,
+    "published_site_bytes": 1000000000,
+    "source": "https://docs.github.com/en/pages/getting-started-with-github-pages/github-pages-limits",
+    "scope": "Custom-workflow exception applies to10builds/hour, not the separate10-minute deployment limit."
+  },
+  "prior_artifact": {
+    "receipt": "../release-2026.11.10.post8/explicit-workflow-artifact-check.json",
+    "verified_payload_bytes": 527337970,
+    "regular_files": 8129,
+    "scope": "Prior actual failed-run artifact; not a size/integrity claim about an unbuilt post9 deployment artifact."
+  },
+  "action_limit_source": "https://github.com/actions/deploy-pages/blob/368f82528645a54fb793d4d04e342629a3f51346/src/internal/deployment.js",
+  "findings": [
+    "Pinned action clamps timeout to600000ms and explicitly cancels on timeout.",
+    "Official service documentation also imposes10-minute deployment timeout; replacing client to wait30minutes is not a supported remedy.",
+    "Verified prior artifact527337970bytes is below documented1GB published-site limit; absence of symlinks/hardlinks already verified. These checks do not establish backend synchronization root cause.",
+    "All observed explicit workflow runs are terminal; no new deployment/API creation/cancellation was performed in this diagnostic.",
+    "No evidence of provider global outage, rate limiting or successful current hosted-copy verification is inferred."
+  ],
+  "next_actions": [
+    "Preserve full site payload and manual publication workflow; no identical immediate retry or unsupported timeout override.",
+    "Continue substantive QA independently; website synchronization remains a separate incomplete delivery gate.",
+    "Any future deployment must follow a materially changed condition or later deliberate batch, with actual run/head and full hosted-byte checks."
+  ]
+}
