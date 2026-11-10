@@ -1,0 +1,78 @@
+{
+  "focused_checks": [
+    {
+      "command": [
+        "scripts/validate_dataset.py",
+        "--today",
+        "2026-11-09"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/build_policy_scope_exports.py",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/build_summary_stats.py",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/build_geojson.py",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/make_timeline.py",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/check_docs_numbers.py"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "-m",
+        "scripts.generate_tables.inventory_clean",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/build_index.py",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/classify_sources.py",
+        "--check"
+      ],
+      "returncode": 0
+    }
+  ],
+  "canonical_cells_changed": 2,
+  "changed_records": 2,
+  "status_category_changes": 0,
+  "whole_record_closures": 0,
+  "pending_baseline_cells": 13,
+  "pending_baseline_records": 5,
+  "pending_baseline_status_category_changes": 1,
+  "native_exact_pairs_verified": 8,
+  "inventory_sha256": "b3aff008bfc89d8093b770b713496683c13e2e88afdb35a5c1e821361611d733",
+  "scope": "Bounded text screening with explicit coverage limits. Not proof of legal absence or present force."
+}

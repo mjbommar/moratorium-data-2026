@@ -509,7 +509,7 @@ State policy is tracked separately: **4 records** (4 typed bill rows) in [`state
 - **Legal basis:** Resolution 2025-09-30-01, amended October 20, 2025 and extended February 27, 2026; August 20, 2026 official minutes explicitly name the same resolution in a unanimous extension through December 31, 2026.
 - **What prompted it:** County reviews utility-scale solar and battery-storage land-use regulation.
 - **Affected projects:** —
-- **Detailed status:** Recorded extended through December 31, 2026 by unanimous August 20, 2026 BOCC vote expressly naming Resolution 2025-09-30-01 for utility-scale solar and battery energy storage applications in unincorporated Phillips County. The minutes describe an exemption for smaller battery systems; exact applicability requires the operative instrument. [VERIFY: executed extension text, later amendment or earlier termination and present legal force; later minutes and project-specific exemptions have not been checked.]
+- **Detailed status:** Recorded extended through December 31, 2026 by unanimous August 20, 2026 BOCC vote expressly naming Resolution 2025-09-30-01 for utility-scale solar and battery energy storage applications in unincorporated Phillips County. The minutes describe an exemption for smaller battery systems; exact applicability requires the operative instrument. [VERIFY: executed extension text, later amendment or earlier termination and present legal force; seven later minutes through October 30 were screened without locating a superseding moratorium action, but the linked operative code, later proceedings and project-specific exemptions remain unverified.]
 - **Outcome:** —
 
 ### Phillips County
@@ -525,7 +525,7 @@ State policy is tracked separately: **4 records** (4 typed bill rows) in [`state
 - **Legal basis:** Resolution 2026-02-27-01, extended by BOCC vote 2026-08-20
 - **What prompted it:** County developing regulations for data center facility applications
 - **Affected projects:** None identified
-- **Detailed status:** August 20, 2026 official minutes record a unanimous BOCC vote extending Resolution 2026-02-27-01 for data-center facility applications wholly or partially within unincorporated Phillips County through December 31, 2026. This confirms the previously reported extension vote and endpoint. An executed extension instrument, later modifications or early termination, and present legal force have not been independently established.
+- **Detailed status:** August 20, 2026 official minutes record a unanimous BOCC vote extending Resolution 2026-02-27-01 for data-center facility applications wholly or partially within unincorporated Phillips County through December 31, 2026. This confirms the previously reported extension vote and endpoint. An executed extension instrument, later modifications or early termination, and present legal force have not been independently established. Seven later minutes through October 30 were screened without locating a superseding moratorium action; land-use-code work sessions remain development steps rather than adopted code. The linked operative code and proceedings after October 30 remain unverified.
 - **Outcome:** County revising Land Use Code to address data center facilities
 
 ### Saguache County
