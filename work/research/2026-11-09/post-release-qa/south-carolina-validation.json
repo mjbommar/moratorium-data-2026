@@ -1,0 +1,23 @@
+{
+  "whole_record_closures": 6,
+  "canonical_field_changes": 0,
+  "status_category_changes": 0,
+  "scope_membership_changes": 0,
+  "raw_csv_registry_and_summary_byte_identical_to_parent": true,
+  "dispositions": {
+    "unresolved": 1405,
+    "corrected_resolved": 139,
+    "confirmed_unchanged": 232
+  },
+  "queue_records_with_explicit_questions": 1405,
+  "exact_native_body_and_text_pairs": 12,
+  "retained_pairs_hash_checked": 12,
+  "checks": [
+    "guarded current-row and original-evidence hashes",
+    "queue current IDs and dispositions",
+    "check_docs_numbers:95 matched",
+    "build_index --check",
+    "classify_sources --check"
+  ],
+  "scope": "Source history and review-accounting changes only; no new current-force acceptance. No full dataset test rerun is claimed or needed for unchanged canonical CSV bytes."
+}
