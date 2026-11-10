@@ -1,5 +1,7 @@
 # Implementation TODO
 
+- [x] Fill ten Minnesota primary-source URLs from retained official pages and resolve SF608/HF1109’s remaining companion-author/party flag using cached rosters. Eleven fields corrected with zero new network calls; blank primary URLs 104 to 94. No new outcomes/closures; 1,347 reviews remain unresolved.
+
 - [x] Resolve nine explicit Minnesota author/party VERIFY cells across five records using retained Revisor author lists and official House/Senate directories. No bill/history recapture, outcome change or new closure; 1,347 reviews remain unresolved. Ten policy fields across six records await later release/consumer delivery. Other party flags remain explicit.
 
 - [x] Deliver qualified post10 and additive V25: sixteen corrected fields across eight records, seven historical closures, one category correction; deterministic builds, full restore, ten downloads and exact consumer checks passed. 1,347 reviews remain unresolved; 133 September status differences and separate website-copy hold remain.
