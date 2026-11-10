@@ -1068,6 +1068,12 @@ def main():
             assert digest(json.dumps(current[key],sort_keys=True,separators=(',',':'),ensure_ascii=False).encode())==record['current_row_sha256']
             assert next(r for r in f['records'] if r['id']==record['id'])['disposition']==record['recommendation']=='unresolved'
             overlays[record['id']]=[public_text(q) for q in record['remaining_questions']]
+    bonney_disposition_path=Path('work/research/2026-11-10/post-release-qa/bonney-lake-d26-73-disposition-review.json')
+    if bonney_disposition_path.exists():
+        record=json.loads(bonney_disposition_path.read_text());key=('local_inventory',record['id'])
+        assert digest(json.dumps(current[key],sort_keys=True,separators=(',',':'),ensure_ascii=False).encode())==record['current_row_sha256']
+        assert next(r for r in f['records'] if r['id']==record['id'])['disposition']==record['recommendation']=='unresolved'
+        overlays[record['id']]=[public_text(q) for q in record['remaining_questions']]
     rows=[]
     for entry in f['records']:
         if entry['disposition']!='unresolved':continue
@@ -1095,6 +1101,7 @@ def main():
     summary['independence_operative_term_sha256']=digest(independence_path.read_bytes()) if independence_path.exists() else None
     summary['independence_ordinance19850_sha256']=digest(independence_later_path.read_bytes()) if independence_later_path.exists() else None
     summary['louisiana_hcr61_closing_window_sha256']=digest(la_hcr61_path.read_bytes()) if la_hcr61_path.exists() else None
+    summary['bonney_d26_73_disposition_sha256']=digest(bonney_disposition_path.read_bytes()) if bonney_disposition_path.exists() else None
     summary['washington_local_operative_sha256']=digest(wa_local_path.read_bytes()) if wa_local_path.exists() else None
     summary['washington_enacted_current_law_sha256']=digest(wa_current_path.read_bytes()) if wa_current_path.exists() else None
     summary['kansas_sb51_amendment_order_sha256']=digest(ks_order_path.read_bytes()) if ks_order_path.exists() else None

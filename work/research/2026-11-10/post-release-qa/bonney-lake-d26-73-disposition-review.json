@@ -1,0 +1,64 @@
+{
+  "reviewed_at": "2026-11-10T17:14:02.384755+00:00",
+  "id": "wa-bonney-lake-2026",
+  "current_row_sha256": "9a9680d21522b02399b8abb5ba7289a08cf459960e1d50941854639a8b63fc9a",
+  "recommendation": "unresolved",
+  "canonical_changes": 0,
+  "status_category_changes": 0,
+  "normalized_date_changes": 0,
+  "whole_record_closures": 0,
+  "native_source_readbacks": 2,
+  "sources": [
+    {
+      "attempt_id": "2829736dfac84c26910aa122c40edba2",
+      "url": "https://www.bonneylake.gov/129/Meeting-Agendas-Minutes",
+      "body_sha256": "6bf91651cbb16ac0beaf3ecf3d44d2b0cc19a68e948df3d2bf13d64b4b65c339",
+      "accepted_text_sha256": "bb44a5f126caac3af9bda00015c532764591b180f22ff1e7253e996796dfe1c0",
+      "fetched_at": "2026-11-10T17:11:37.798517+00:00",
+      "published": false
+    },
+    {
+      "attempt_id": "68d27e6a198e4e92b70e65cea94c352d",
+      "url": "https://bonneylakewa.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=6457,plainText=false)",
+      "body_sha256": "ce52c48cc18937fd1802191946d17900ce8d7cda0a79516391f1904f57f080c2",
+      "accepted_text_sha256": "5010a5bcb936a28a71817fce9406b19eb2741bf545c36b6829d8028524357461",
+      "fetched_at": "2026-11-10T17:12:21.117606+00:00",
+      "published": false
+    }
+  ],
+  "portal_source_role": "Actual browser-rendered event row and file-menu association; not an operative ordinance. Original navigational body/text preserved; selected association derivation omits unrelated language/advertising/chat content.",
+  "findings": [
+    {
+      "source_attempt_id": "68d27e6a198e4e92b70e65cea94c352d",
+      "locator": "PDF physical4, Workshop Discussion Items VIII.A, visually checked",
+      "finding": "October20minutes stateOctober13minutes were approved."
+    },
+    {
+      "source_attempt_id": "68d27e6a198e4e92b70e65cea94c352d",
+      "locator": "Extracted text across42-pagePDF; full-page visual review not performed",
+      "finding": "No selectedESS/moratorium identifiers matched; bounded text-search outcome only."
+    }
+  ],
+  "observed_next_endpoint": "https://bonneylakewa.api.civicclerk.com/v1/Events/GetEventsList(fromDate='',toDate='2026-11-10',categoryIds=[],skip=0,sortDescending=true,cursorId=0)",
+  "endpoint_scope": "Actually captured browser network metadata. Not yet fetched as a standalone retained response; no invented parameter expansion or person/file ID.",
+  "remaining_questions": [
+    "Obtain adopted Ordinance1754 and any later1763/D26-73 final text, including express moratorium termination/replacement and effective-date clauses. The new official portal identifiesOctober20meeting1275 and its linked minutes6457; October20minutes page4 expressly approvesOctober13minutes. That is evidence theOctober13minutes exist, not evidence of any D26-73 decision. Next locate the actualOctober13meeting/file through the observed official events API or rendered portal, without guessing IDs.",
+    "No AB26-73,D26-73,1763,1754,energy-storage or moratorium match was found in the6457 extracted text. The42-page PDF includes other meeting/record material and was not visually proofread throughout; text-search absence does not establish that no action occurred. Retain theSeptember16notice and itsOctober13earliest-final-action statement, but no adoption/termination inference.",
+    "Do not repeat the June16code root, legal-notice index, the two129page captures orOctober20minutes just to restate the gap. The bounded SerpAPI query returned only off-domain results despite the requested domain; it is not an official-domain absence check. Use the actually observed civicclerk event/file linkage for the next source."
+  ],
+  "acquisition_accounting": {
+    "serpapi_searches": 1,
+    "serpapi_cost_usd": null,
+    "cost_note": "Provider did not report a price; not asserted free or zero-spend.",
+    "fetch_operations": 3,
+    "http_index_captures": 1,
+    "browser_rendered_captures": 1,
+    "minutes_document_captures": 1,
+    "fetch_cap": 3,
+    "archived_selected_source_versions": 2
+  },
+  "limitations": [
+    "No actualD26-73/1763adoption or moratorium termination established.",
+    "No independent material review, canonical correction or disposition closure."
+  ]
+}
