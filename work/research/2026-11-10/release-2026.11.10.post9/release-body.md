@@ -1,0 +1,13 @@
+Qualified source-specific QA update; overall QA remains active.
+
+Nine fields across three existing records change since post8/V23:
+
+- Ohio HB96: two prose fields distinguish the enacted application-recipient change from the vetoed new-agreement cutoff. Item58-specific override and later legal force remain unresolved.
+- Indiana SB234: one proposed-mechanism summary now states the aggregate customer/load definition and attributes the all-cost versus at-least80% comparison to the introduced fiscal note. This failed proposal remains analytically unresolved; no actual data-center application is established.
+- Dover, Delaware: six fields now reflect official October12 minutes recording unanimous roll-call adoption with Sudler absent, complete ordinance text, immediate-effect wording and an18-month term. One historical normalized adoption date is added. Separate executed-copy authentication and subsequent legal force remain open.
+
+Two stale Wyoming historical failed-proposal review questions close by reconciling previously accepted independent analytical-scope decisions with retained terminal histories; no new scope decision or source recapture was needed. South Carolina S902 procedural followup documents the general rule but does not infer final failure from an unadopted proposed adjournment date.
+
+No raw IDs, status categories, analytical membership, coordinates or native tables/history change. Raw counts remain1328local records,448policy observations and1776total active IDs. Scope remains383included/19excluded/46reviewed-unresolved/0unreviewed. Scoped dispositions are1354unresolved,183corrected-resolved and239confirmed-unchanged.134surviving existing status-category differences from September23 remain98local+36policy; corrections are not necessarily new government actions. Ballot counts remain57measures/proposals and53current observations across52measures, with5certified; certification and legal effect remain distinct.
+
+The original comprehensive research cutoff is retained; targeted later captures do not renew all records. Prior tags/assets/snapshots and native history remain immutable. Independent Massachusetts-addition QA remains pending. The April paper and historical sibling publications are not synchronized. Release downloads, full clean restore and additive consumer delivery require separate verification receipts. Website release-label/prose/receipt synchronization remains pending after three prior terminal syncing-files timeouts; no successful current hosted-copy check or active deployment is claimed. No universal current-law or enforceability certification is made.

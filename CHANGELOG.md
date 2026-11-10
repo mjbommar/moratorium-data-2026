@@ -1,5 +1,18 @@
 # Changelog
 
+## Qualified v2026.11.10.post9
+
+Nine fields across Dover, OhioHB96 and IndianaSB234 corrected; one historical adoption date added and two stale Wyoming historical review questions closed. No status-category, scope-membership or native-history changes.1,354 unresolved records remain. [Scope and delivery checks](work/research/2026-11-10/release-2026.11.10.post9/README.md).
+
+| Metric | Qualified v2026.11.10.post9 |
+|---|---:|
+| Moratoria in the list | **1,328** |
+| Classified active or extended | **1,087** |
+| Pending or not yet effective | **64** |
+| Ended (replaced, expired, or rescinded) | **171** |
+| Rows we still want to confirm (`[VERIFY]`) | **979** |
+| States with at least one | **47** |
+
 ## Qualified v2026.11.10.post8
 
 Fifteen policy fields across six Montana/Wyoming records clarified. SB212 gains an enrolled-text historical effective anchor; HJ46 full text and Wyoming HB155's explicit statutory class resolve two scoped historical reviews. The Wyoming use-tax chapter repeal is distinguished from data-center exemption abolition. Analytical scope is383included,19excluded,46reviewed-unresolved and0unreviewed;1,356 records remain unresolved,181 corrected-resolved and239 confirmed-unchanged. No status-category or native-table change;134 September status-category differences remain. [Qualified post8/V23 data-input delivery](work/research/2026-11-10/release-2026.11.10.post8/README.md) is verified, including13selected hosted data/QA files; full hosted-copy synchronization remains pending.
