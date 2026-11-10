@@ -1,0 +1,362 @@
+{
+  "source_commit": "9d95822fb0265d939da98db8c8951094a8e6a0dd",
+  "manifest_sha256": "f162572dfa6f7eaa41975179d90ad7d051c3cc7636c03652c2e35ef886665b1b",
+  "expanded_snapshot": "3ce33d22288fa7bc7100c9ac621c041037702e8370af1e663d53a548ff794725",
+  "current_counts": {
+    "moratorium_records": 1328,
+    "state_policy_records": 448,
+    "ballot_measures": 57,
+    "retained_results": 65,
+    "current_results": 53,
+    "retained_events": 12,
+    "current_accepted_historical_events": 12,
+    "restriction_records": 3,
+    "measure_instrument_link_records": 1
+  },
+  "files": 2529,
+  "entries": 2742,
+  "verified_at": "2026-11-10T14:05:59.524678+00:00",
+  "consumer_verification": {
+    "handoff": {
+      "state": "verified",
+      "source_commit": "9d95822fb0265d939da98db8c8951094a8e6a0dd",
+      "manifest_sha256": "f162572dfa6f7eaa41975179d90ad7d051c3cc7636c03652c2e35ef886665b1b",
+      "expanded_snapshot": "3ce33d22288fa7bc7100c9ac621c041037702e8370af1e663d53a548ff794725",
+      "files": 2529,
+      "entries": 2742,
+      "checks": [
+        {
+          "command": [
+            "scripts/check_expanded_publication.py"
+          ],
+          "exit_code": 0,
+          "result": {
+            "state": "consistent",
+            "snapshot_sha256": "3ce33d22288fa7bc7100c9ac621c041037702e8370af1e663d53a548ff794725",
+            "generations_checked": 49,
+            "records": {
+              "jurisdictions": 53,
+              "elections": 51,
+              "ballot_measures": 57,
+              "measure_provisions": 52,
+              "measure_results": 65,
+              "local_restrictions": 3,
+              "instrument_events": 12,
+              "measure_instrument_links": 1,
+              "source_documents": 168,
+              "claims": 625,
+              "review_decisions": 2756,
+              "search_runs": 1,
+              "search_attempts": 3,
+              "search_sightings": 18,
+              "coverage_observations": 1
+            },
+            "scope": "Offline publication/receipt consistency only; no source reacquisition, renewed factual acceptance or current-force confirmation."
+          }
+        },
+        {
+          "command": [
+            "scripts/build_expanded_csv.py",
+            "--check"
+          ],
+          "exit_code": 0,
+          "result": {
+            "state": "matches",
+            "source_snapshot": "3ce33d22288fa7bc7100c9ac621c041037702e8370af1e663d53a548ff794725",
+            "projection_sha256": "7b585b49998f8ca39b0ff433fe15c34335ea171bdd8960af1e7e9fdcf852f6cb",
+            "csv_views": 18
+          }
+        },
+        {
+          "command": [
+            "scripts/build_policy_scope_exports.py",
+            "--check"
+          ],
+          "exit_code": 0,
+          "result": "policy-scope exports current"
+        }
+      ],
+      "checks_run": true,
+      "scope": "Pinned input integrity and offline publication consistency, not source reacquisition or downstream join acceptance."
+    },
+    "policy_semantics": {
+      "total_state_policy_actions": 448,
+      "total_state_bills": 427,
+      "state_policy_instrument_type_counts": {
+        "bill": 427,
+        "executive_order": 2,
+        "governor_directive": 1,
+        "legislative_amendment": 1,
+        "legislative_precursor": 3,
+        "legislative_resolution": 12,
+        "statute": 2
+      },
+      "top_states_by_bills": [
+        [
+          "Pennsylvania",
+          18
+        ],
+        [
+          "Virginia",
+          18
+        ],
+        [
+          "West Virginia",
+          18
+        ],
+        [
+          "Maryland",
+          16
+        ],
+        [
+          "New Jersey",
+          16
+        ],
+        [
+          "California",
+          14
+        ],
+        [
+          "South Dakota",
+          14
+        ],
+        [
+          "Arizona",
+          13
+        ],
+        [
+          "Iowa",
+          13
+        ],
+        [
+          "Michigan",
+          13
+        ],
+        [
+          "Minnesota",
+          12
+        ],
+        [
+          "Ohio",
+          12
+        ],
+        [
+          "Oklahoma",
+          12
+        ],
+        [
+          "Illinois",
+          11
+        ],
+        [
+          "Kansas",
+          11
+        ]
+      ],
+      "top_states_by_policy_actions": [
+        [
+          "Pennsylvania",
+          22
+        ],
+        [
+          "Virginia",
+          18
+        ],
+        [
+          "West Virginia",
+          18
+        ],
+        [
+          "Maryland",
+          17
+        ],
+        [
+          "New Jersey",
+          17
+        ],
+        [
+          "California",
+          14
+        ],
+        [
+          "Michigan",
+          14
+        ],
+        [
+          "South Dakota",
+          14
+        ],
+        [
+          "Arizona",
+          13
+        ],
+        [
+          "Iowa",
+          13
+        ],
+        [
+          "Kansas",
+          12
+        ],
+        [
+          "Minnesota",
+          12
+        ],
+        [
+          "Ohio",
+          12
+        ],
+        [
+          "Oklahoma",
+          12
+        ],
+        [
+          "Illinois",
+          11
+        ]
+      ]
+    }
+  },
+  "index_verification": {
+    "snapshot": "data/source-snapshots/moratoria/2026-11-10-reviewed-v27",
+    "source_commit": "9d95822fb0265d939da98db8c8951094a8e6a0dd",
+    "manifest_sha256": "f162572dfa6f7eaa41975179d90ad7d051c3cc7636c03652c2e35ef886665b1b",
+    "tracked_files_and_symlinks": 2530,
+    "exact_staged_git_blob_bytes_and_modes": true,
+    "scope": "Exact staged snapshot content, Git modes and path set against the pinned manifest, including the manifest itself. This is not an independent legal review."
+  },
+  "baseline_handoff": "V26",
+  "expanded_tables_byte_identical": true,
+  "summary_delta": "Byte-identical numerical summary and native history; no status-category change.",
+  "changed_cells": 15,
+  "changed_local_cells": 14,
+  "changed_policy_cells": 1,
+  "changed_local_rows": 3,
+  "changed_policy_rows": 1,
+  "status_category_changes": 0,
+  "legal_effect_status_changes": 0,
+  "normalized_date_changes": 2,
+  "scope_membership_changes": 0,
+  "whole_record_closures": 0,
+  "unresolved_records": 1347,
+  "corrected_resolved_records": 190,
+  "confirmed_unchanged_records": 239,
+  "September_status_differences": {
+    "local": 98,
+    "policy": 35,
+    "total": 133
+  },
+  "field_changes": [
+    {
+      "dataset": "local",
+      "id": "ct-cromwell-undated",
+      "field": "current_status",
+      "before": "Pending as of 2026-09-23. At its August 18, 2026 regular meeting, the Cromwell Planning and Zoning Commission voted 5-1 to accept Application #26-25 (the proposed 12-month data center moratorium text amendment) and schedule it for a public hearing at a Special Meeting on September 24, 2026 -- the Commission did not adopt the moratorium at the August 18 meeting itself. Staff confirmed no data center application is currently pending, though one commissioner referenced an interested prospective applicant. A secondary aggregator (mytownview.com) inaccurately described this August 18 procedural vote as the Commission having 'approved' and 'passed' the moratorium itself; the official filed minutes make clear only the scheduling of a hearing was voted on. On September 24, 2026, after the public hearing, the Commission denied Application #26-25 by a 5\u20132 vote.",
+      "after": "Application #26-25, the proposed 12-month data-center moratorium, was denied after the September 24, 2026 hearing (previously reviewed 5\u20132 vote). Later official records identify a distinct Application #26-37 for data-center definitions and use-specific regulations, accepted October 20 for a December 3 public hearing. The amended November 5 agenda separately schedules discussion of a potential data-center moratorium. The November 5 reported six-month proposal remains unverified as to text, instrument identity, disposition and adoption; no later pause or operative force is established."
+    },
+    {
+      "dataset": "local",
+      "id": "ct-cromwell-undated",
+      "field": "outcome",
+      "before": "Planning and Zoning Commission voted 5-1 to schedule a public hearing (Sept. 24, 2026) on a proposed 12-month data center moratorium text amendment; the moratorium itself has not been adopted as of September 23, 2026. On September 24, 2026, after the public hearing, the Commission denied Application #26-25 by a 5\u20132 vote.",
+      "after": "The original 12-month Application #26-25 remains recorded as rejected. October 20 minutes establish acceptance and hearing scheduling for Application #26-37, not adoption of its rules or a moratorium. November 5 agenda item 9(a) is discussion of a potential moratorium, not an adoption record; subsequent minutes and proposal text remain required."
+    },
+    {
+      "dataset": "local",
+      "id": "ct-morris-2026",
+      "field": "date_enacted",
+      "before": "The identical moratorium text (prepared by the Town Planner and dated 2026-03-23) was re-filed by the Commission under its 'regulations' folder -- rather than the earlier 'generals'/draft-agenda-attachment folder it occupied as of the April 15, 2026 meeting -- under the title 'Public Hearing Two Year Moratorium on Battery Storage Facilities and Data Centers,' with a document date of 2026-05-20. Secondary reporting describes a public hearing held on a Tuesday and Commission approval the same week, consistent with adoption around 2026-05-19/20. Neither the exact adoption-vote date nor the Connecticut-statute-required newspaper publication date (which triggers legal effectiveness) was found in any source I could access.",
+      "after": "Minutes headed May 20, 2026 record unanimous Planning and Zoning Commission approval of a two-year BESS/data-center moratorium after the public hearing. The received stamp displays May 27, 2025, inconsistent with the meeting header; actual filing and newspaper publication dates remain unverified."
+    },
+    {
+      "dataset": "local",
+      "id": "ct-morris-2026",
+      "field": "duration",
+      "before": "A March 23, 2026 town-planner text states 12 months from the effective date of adoption, unless earlier terminated or extended. A May 23, 2026 news report describes an approved two-year data-center moratorium; the adopted term and effective date remain unverified.",
+      "after": "Twenty-four months, effective June 1, 2026 through June 1, 2028, unless terminated or extended in accordance with applicable law, as stated in the town-posted compiled regulations. This supersedes reliance on the March 23 twelve-month draft; publication compliance and later legal changes remain unverified."
+    },
+    {
+      "dataset": "local",
+      "id": "ct-morris-2026",
+      "field": "current_status",
+      "before": "Secondary reporting describes commission approval after a public hearing; the dataset places this in May 2026, but the vote date and publication and filing dates remain unverified. A March 23 moratorium text retained under the Commission regulations path states a 12-month term from the effective date of adoption, subject to earlier termination or extension. Secondary reporting describes a two-year moratorium; the adopted version and the discrepancy remain unresolved.",
+      "after": "Recorded active. Official minutes headed May 20, 2026 record unanimous approval of a two-year moratorium. The compiled regulations state that, effective June 1, 2026, the commission shall not process, hear or approve specified BESS/data-center applications, with a term ending June 1, 2028 unless terminated or extended. The twelve-month March 23 text is an earlier draft, not the accepted term. The minutes received-stamp year conflicts with the header; actual filing/publication compliance and later amendments, repeal or current force remain unresolved."
+    },
+    {
+      "dataset": "local",
+      "id": "ct-morris-2026",
+      "field": "outcome",
+      "before": "A May 23, 2026 report says the Planning and Zoning Commission approved a data-center moratorium after a public hearing; the adopted text, duration, and effective date require verification. The retained March 23 text calls for the commission to prepare zoning amendments as appropriate.",
+      "after": "The two-year term is supported by the commission approval recorded in the May 20-headed minutes and the town-posted compiled regulations. The moratorium covers establishment, construction, installation or expansion of BESS and establishment, construction or expansion of data centers as described in the compiled clause. Historical adoption/term clarified; later legal force and statutory publication compliance are not certified."
+    },
+    {
+      "dataset": "local",
+      "id": "ct-morris-2026",
+      "field": "date_enacted_iso",
+      "before": "2026-05",
+      "after": "2026-05-20"
+    },
+    {
+      "dataset": "local",
+      "id": "ct-morris-2026",
+      "field": "date_enacted_uncertainty",
+      "before": "month_only",
+      "after": "exact"
+    },
+    {
+      "dataset": "local",
+      "id": "ct-morris-2026",
+      "field": "current_end_date_iso",
+      "before": "",
+      "after": "2028-06-01"
+    },
+    {
+      "dataset": "local",
+      "id": "ct-trumbull-2026",
+      "field": "duration",
+      "before": "Two years; September 10 reporting describes the moratorium as effective immediately upon adoption. The final adopted text and operative effective date remain unverified.",
+      "after": "Twenty-four months from the ordinance effective date (TC31-65 section D). The September 9 minutes record unanimous adoption as emergency legislation; counsel explained that emergency legislation becomes effective on publication. Actual publication/effective date and later actions remain unverified; no end date is calculated from adoption."
+    },
+    {
+      "dataset": "local",
+      "id": "ct-trumbull-2026",
+      "field": "legal_basis",
+      "before": "Resolution TC31-65 (Trumbull Town Council), amending the Trumbull Municipal Code: 'The Town hereby adopts a two-year moratorium on the establishment and development of any new data centers within the Town of Trumbull.' Public hearing held at the same September 9, 2026 Town Council meeting.",
+      "after": "Resolution/Ordinance TC31-65, adopted unanimously by Trumbull Town Council on September 9, 2026 and unanimously passed as emergency legislation. Attached text sections A-D imposes a two-year moratorium on establishment/development of new data centers, expressly excludes existing data centers, defines the covered use and sunsets twenty-four months from effectiveness."
+    },
+    {
+      "dataset": "local",
+      "id": "ct-trumbull-2026",
+      "field": "current_status",
+      "before": "Recorded active as of 2026-09-23. September 10 reporting says the Town Council unanimously adopted a two-year moratorium on 2026-09-09, effective immediately on the 'establishment and development' of any new data centers in Trumbull. The moratorium does NOT apply to the modernization/upgrade of the town's existing 80 Merritt Blvd. data center (a 15 MW facility in operation 50+ years, now being converted to AI-ready use by 365 Data Centers), which the town characterizes as a renovation rather than new construction; residents have petitioned unsuccessfully to have that project included and are considering a signature drive (requiring roughly 2,400 voters) to force a referendum. The final adopted text and operative effective date have not been verified.",
+      "after": "Recorded active. September 9, 2026 council minutes confirm unanimous adoption of TC31-65 and a separate unanimous emergency-legislation vote. The attached ordinance imposes a two-year pause on new data-center establishment/development and expressly exempts existing data centers. Counsel explained that publication, not the adoption vote alone, would trigger effectiveness. Actual publication/effective date, any executed final copy and later amendment/repeal remain unverified. The existing 80 Merritt Boulevard facility was discussed as outside this new-facility moratorium."
+    },
+    {
+      "dataset": "local",
+      "id": "ct-trumbull-2026",
+      "field": "affected_projects",
+      "before": "80 Merritt Blvd. (former Nasdaq data center, 15 MW capacity) -- explicitly excluded from the moratorium's scope as an existing-facility modernization, not a new data center; First Selectman Vicki Tesoro reported the operator (365 Data Centers/Aphorio Carter) agreed to no increase in electrical draw, noise, or water use, and no expansion of the building footprint, as part of ongoing negotiations.",
+      "after": "The existing 80 Merritt Boulevard facility was discussed as exempt under TC31-65 section B, which states that existing data centers are unaffected. Counsel described written communications and operator commitments concerning the modernization but said there was no formal agreement or agreed enforcement provision at the meeting. This is not a finding that negotiated operating limits were executed or enforceable."
+    },
+    {
+      "dataset": "local",
+      "id": "ct-trumbull-2026",
+      "field": "outcome",
+      "before": "2-year moratorium on new data center establishment/development adopted unanimously; does not reach the town's existing (and currently most active) data center project, which continues as a modernization outside the moratorium's scope.",
+      "after": "Official minutes confirm unanimous adoption of TC31-65 and emergency treatment, with the complete attached ordinance preserving an existing-facility exemption and a twenty-four-month sunset from effectiveness. The prior secondary effective-immediately-on-adoption account is superseded by the recorded publication explanation. Actual publication, operative interval and subsequent legal force remain unresolved."
+    },
+    {
+      "dataset": "policy",
+      "id": "ne-lb613-2025",
+      "field": "sponsors",
+      "before": "Sen. Andersen; Sen. Clouse and Sen. Sorrentino listed in earlier capture [VERIFY: full updated cosponsor list not extracted from a fresh capture as of 2026-04-29]",
+      "after": "Sen. Andersen (official page identifies introducer); Clouse and Sorrentino were listed in an earlier capture [VERIFY complete relevant-session cosponsor list; current official document page displays the introducer only]"
+    }
+  ],
+  "trusted_verifier_sha256": "ebecf851d4196715df186cc81cc3c933ab7da550fbafd7207996cd94b9cd2739",
+  "scope": "Qualified post12:15fields across4records; Nebraska introducer, Cromwell proposal identities, Morris adopted term/dates and Trumbull publication-dependent term. Two normalized dates; zero category/membership/native-history changes or new closures. Publication, signature, later-force and independent Massachusetts holds remain. Website synchronization separate.",
+  "consumer_commit": "49016ece19205e198778b663601bc523135206c4",
+  "release_url": "https://github.com/mjbommar/moratorium-data-2026/releases/tag/v2026.11.10.post12",
+  "release_manifest_sha256": "6c026994fbe502e7be37a4ec5aef2d11a1175f41723114c07505000bccb32da3",
+  "hosted_copy_state": "pending"
+}
