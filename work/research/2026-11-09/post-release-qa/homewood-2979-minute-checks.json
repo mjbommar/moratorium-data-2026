@@ -1,0 +1,164 @@
+{
+  "all_pass": true,
+  "checks": [
+    {
+      "command": [
+        "scripts/validate_dataset.py",
+        "--today",
+        "2026-11-10"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/build_policy_scope_exports.py",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/build_summary_stats.py",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/build_geojson.py",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/make_timeline.py",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/check_docs_numbers.py"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "-m",
+        "scripts.generate_tables.inventory_clean",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/build_index.py",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/classify_sources.py",
+        "--check"
+      ],
+      "returncode": 0
+    }
+  ],
+  "exact_current_delta": [
+    {
+      "id": "al-homewood-2026",
+      "field": "date_enacted",
+      "before": "2026-06-22, per WBRC reporting of the city council vote",
+      "after": "2026-06-22, official council minutes record adoption of Ordinance2979 with all three council members present voting yea; two members were absent."
+    },
+    {
+      "id": "al-homewood-2026",
+      "field": "legal_basis",
+      "before": "Homewood City Council ordinance, unanimously adopted, temporarily suspending approval of data centers larger than one megawatt",
+      "after": "Ordinance No. 2979, identified and approved in official June22,2026 council minutes after unanimous consent for immediate consideration. The full executed ordinance and publication record remain uninspected. The greater-than-one-megawatt scope is reported by WBRC and is not independently established by the minutes alone."
+    },
+    {
+      "id": "al-homewood-2026",
+      "field": "current_status",
+      "before": "City recap reports council approval on 2026-06-22 of a temporary moratorium on new large-scale data-center applications and expansions; WBRC reports a 12-month term and possible six-month extension. [VERIFY original ordinance, effective date, subsequent action and current legal force.]",
+      "after": "Official June22,2026 minutes record approval of Ordinance2979 by all three council members present, with two absent. WBRC reports a12-month temporary data-center moratorium and possible six-month extension; the minutes do not reproduce those operative terms. [VERIFY executed ordinance, effective/publication anchor, later council actions and current legal force.]"
+    },
+    {
+      "id": "al-homewood-2026",
+      "field": "affected_projects",
+      "before": "Not identified in captured news coverage",
+      "after": "The statement recorded in the June22,2026 council minutes says no application for development or expansion of a data center was pending at that meeting. This is not a current application-status check."
+    },
+    {
+      "id": "al-homewood-2026",
+      "field": "outcome",
+      "before": "Council approved a temporary moratorium; the 12-month term and greater-than-one-megawatt threshold were reported. The legacy record describes the vote as unanimous.",
+      "after": "Official minutes confirm adoption of Ordinance2979, with all three members present voting yea after unanimous consent; two council members were absent. This confirms instrument identity and the recorded adoption vote, not publication, operative term or uninterrupted legal force."
+    }
+  ],
+  "batch_delta_since_post5": [
+    {
+      "dataset": "local",
+      "id": "al-cullman-2026",
+      "field": "duration"
+    },
+    {
+      "dataset": "local",
+      "id": "al-cullman-2026",
+      "field": "legal_basis"
+    },
+    {
+      "dataset": "local",
+      "id": "al-cullman-2026",
+      "field": "current_status"
+    },
+    {
+      "dataset": "local",
+      "id": "al-homewood-2026",
+      "field": "date_enacted"
+    },
+    {
+      "dataset": "local",
+      "id": "al-homewood-2026",
+      "field": "legal_basis"
+    },
+    {
+      "dataset": "local",
+      "id": "al-homewood-2026",
+      "field": "current_status"
+    },
+    {
+      "dataset": "local",
+      "id": "al-homewood-2026",
+      "field": "affected_projects"
+    },
+    {
+      "dataset": "local",
+      "id": "al-homewood-2026",
+      "field": "outcome"
+    },
+    {
+      "dataset": "policy",
+      "id": "ut-sb0231-2026",
+      "field": "status"
+    },
+    {
+      "dataset": "policy",
+      "id": "ut-sb0231-2026",
+      "field": "key_provisions"
+    },
+    {
+      "dataset": "policy",
+      "id": "ut-sb0231-2026",
+      "field": "primary_source_url"
+    }
+  ],
+  "source_store_manifest_hash_current": true,
+  "dates_end_date_duration_category_verify_counts_unchanged": true,
+  "earlier_alabama_guard_rebound_with_preserved_history": true,
+  "status_category_changes": 0,
+  "whole_record_closures": 0,
+  "queue_rows": 1358
+}

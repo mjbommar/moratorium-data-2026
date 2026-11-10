@@ -1,0 +1,11 @@
+# Homewood Ordinance2979 minute review
+
+The official council archive exposed the June22,2026 minutes. They identify the data-center measure as Ordinance2979. Page6 records unanimous consent for immediate consideration, followed by a distinct adoption motion and roll call: Simmons, Sims and Lane voted yea. Page1 lists these three present and two members absent. Page5 records the statement that no data-center development or expansion application was then pending. Pages5-6 were visually reviewed at110dpi; exact source/render hashes are retained.
+
+Five fields now use those official observations: adoption prose, legal basis, current-status qualifications, affected-project statement and outcome. Adoption dateISO, category, reported duration, blank operative end date, duration metadata and verification counts remain unchanged. The statement about no pending applications is explicitly limited to June22, not current application status. The12-month term, possible six-month extension and greater-than-one-megawatt scope remain attributed reports; the minutes do not reproduce them. Full executed ordinance, publication/effective anchor and later force remain unresolved.
+
+Two captures were used within the new three-fetch archive-route allowance, with one fetch still reserved for an exact newly exposed ordinance link. A separate one-query/no-fetch phase searched the newly identified2979 number; returned known pages were not recaptured and no direct ordinance link was exposed. This does not prove the ordinance is unavailable or nonexistent. Earlier Alabama/Cullman allowances remain exhausted. Both captures were archived and exactly read back through the native store. The prior Alabama review retains its original field delta and guard history, with its Homewood guard explicitly rebound to this later review.
+
+All nine focused checks pass. The pending batch since post5/V20 now has eleven cells across three records: three Utah policy fields, three Cullman local fields and five Homewood local fields.1,358 records remain unresolved; September category differences remain134. Later batch release/consumer delivery remains pending.
+
+[Adjudication](homewood-2979-minute-adjudication.json), [source readbacks](homewood-2979-native-readback.json), [checks and exact batch delta](homewood-2979-minute-checks.json).
