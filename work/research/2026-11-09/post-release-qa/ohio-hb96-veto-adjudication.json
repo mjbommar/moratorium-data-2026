@@ -1,0 +1,124 @@
+{
+  "prepared_at": "2026-11-10T11:50:39.925444+00:00",
+  "id": "oh-hb-96",
+  "sources": [
+    {
+      "name": "veto-message",
+      "attempt_id": "ac975244a1e7438387351f7b152f51ba",
+      "url": "https://www.legislature.ohio.gov/assets/legislation/legislation-documents/136/VetoMessageAmSubHB96.pdf",
+      "body_sha256": "8a088790b9608c102c6af880fd17d207a76a7c65c02ab90fef7e32ef60ee5181",
+      "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "body_observed_at": "2026-11-10T11:00:28.859652Z"
+    },
+    {
+      "name": "lsc-budget-index",
+      "attempt_id": "7d05697a41154441970e0ea18d3ff506",
+      "url": "https://www.lsc.ohio.gov/budget/136/main-operating-budget",
+      "body_sha256": "94757b34192edc163e763f5596da8dcc71f72d50241ed5c827eaf898eb8d7c67",
+      "text_sha256": "ab2a47c19c3807b609c6c17bacb8f83bfe8d1dc36540dc9d31b2a3d4e51c2939",
+      "body_observed_at": "2026-11-10T11:09:05.858216Z"
+    },
+    {
+      "name": "dev-enacted-comparison",
+      "attempt_id": "35291e3c76034761957a257a364587e0",
+      "url": "https://www.lsc.ohio.gov/assets/legislation/136/hb96/en0/files/hb96-dev-comparison-document-as-enacted-136th-general-assembly.pdf",
+      "body_sha256": "b7845968df442874f1cffd296d67c5e6b1f21ee2e3d60311e64488260a4528dc",
+      "text_sha256": "b8705ea2473bfdc4222f14518c19ac4c7619b8a232a897fab06300eed4d665f2",
+      "body_observed_at": "2026-11-10T11:12:26.306595Z"
+    },
+    {
+      "name": "tax-enacted-comparison",
+      "attempt_id": "14ac96c15e154368b3f6f001f0483410",
+      "url": "https://www.lsc.ohio.gov/assets/legislation/136/hb96/en0/files/hb96-tax-comparison-document-as-enacted-136th-general-assembly.pdf",
+      "body_sha256": "27309df94e568158dde78345088e7169cfb160d1895eb52e9d0a6b55b79fff0b",
+      "text_sha256": "e8769ffedbced124e16c192648b57744e2d534678dc9b52295e4a7f6f65dbaa6",
+      "body_observed_at": "2026-11-10T11:30:15.183789Z"
+    }
+  ],
+  "visual_review": [
+    {
+      "document": "veto-message",
+      "pdf_page": 44,
+      "render_sha256": "0bc9a24746d71e1c46f49089f9786cf4958da5ad8346e9d659d2182757261297"
+    },
+    {
+      "document": "tax-enacted-comparison",
+      "pdf_page": 15,
+      "render_sha256": "9a01108fdd403eb6c4ad4485c41778d8cdf9fb3ee2ea3fc3355b7593a16d18c8"
+    },
+    {
+      "document": "tax-enacted-comparison",
+      "pdf_page": 81,
+      "render_sha256": "ba30c5cc3a4e311618c0ee1ff7629b3729abe47891b1da690b175951e6a3f0a0"
+    }
+  ],
+  "gov_partial_derivation": [
+    {
+      "attempt_id": "ac975244a1e7438387351f7b152f51ba",
+      "source_body_sha256": "8a088790b9608c102c6af880fd17d207a76a7c65c02ab90fef7e32ef60ee5181",
+      "source_text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "derived_text_sha256": "420efc86951af1bf80b35bdc491693d192543102af6761799d103b0c63ee6cdb",
+      "method": "Partial OCR extraction of item58 on PDFpage44, visually reviewed against page44 at100dpi;57-page OCR used as keyword index only",
+      "pages": [
+        44
+      ],
+      "reviewer": "root direct item58 text/visual review",
+      "review_status": "accepted_derivation",
+      "reviewed_at": "2026-11-10T11:06:13.431217+00:00",
+      "scope": "Extraction lineage only; no substantive claim or legal-effect acceptance."
+    }
+  ],
+  "planned_canonical_cells": 2,
+  "status_category_changes": 0,
+  "scope_membership_changes": 0,
+  "whole_record_closures": 0,
+  "source_collection_accounting": {
+    "initial_phase_fetch_used": 3,
+    "initial_phase_fetch_cap": 3,
+    "tax_crosswalk_fetch_used": 1,
+    "tax_crosswalk_fetch_cap": 1,
+    "searches": 0,
+    "scope": "Four distinct official captures; no retained status/code/documents-page recapture or full enrolled-budget download. Captured index is routing only.57-page OCR was a keyword index; onlyitem58/page44 received substantive visual review. Only relevant LSC rows reviewed, not all88/115pages."
+  },
+  "reviewed_at": "2026-11-10T11:57:21.185845+00:00",
+  "review_status": "canonical_application",
+  "records": [
+    {
+      "id": "oh-hb-96",
+      "prior_disposition": "unresolved",
+      "recommendation": "unresolved",
+      "prior_row_sha256": "ccd1fafea3b3488ac3494c5663328ccfae87553b3a3c05a3105434208b7ae4e3",
+      "current_row_sha256": "a59abc408949db0ae32517c943218769af609a68a0ad93fa13a37f2f16e60e6f",
+      "field_changes": [
+        {
+          "field": "status",
+          "before": "Signed by the Governor 2025-06-30. The retained history lists a Senate item passed notwithstanding the Governor's objections on 2025-10-01, without identifying the item. Operating appropriations are listed effective 2025-06-30 and other provisions generally 2025-09-30, subject to special dates. The prior attribution of ORC 122.175 exemption preservation to a specific veto remains unverified pending item-level records.",
+          "after": "Signed by the Governor 2025-06-30 with line-item vetoes. Governor veto item 58 deletes the before-October 1, 2025 limitation on new computer data-center tax-exemption agreements; LSC marks TAXCD117 as vetoed. The retained history lists a Senate item passed notwithstanding the Governor's objections on 2025-10-01 without identifying the item; it is not attributed to item 58 here. Operating appropriations are listed effective 2025-06-30 and other provisions generally 2025-09-30, subject to special dates. Item58-specific override proceedings and later legal changes remain unresolved."
+        },
+        {
+          "field": "key_provisions",
+          "before": "Budget measure associated with the published ORC 122.175 computer data center sales and use tax exemption framework. The retained code page identifies HB 96 and a 2025-09-30 section date; the specific veto/override treatment and current provision-level operation remain unresolved.",
+          "after": "LSC's enacted comparison separates two R.C. 122.175 provisions: DEVCD11 removes the OBM Director as a recipient of Tax Credit Authority copies of computer data-center exemption applications; TAXCD117 marks as vetoed the Senate proposal to bar new exemption agreements beginning October 1, 2025. Governor veto item 58 on PDF page 44 deletes the date limitation from enrolled-budget page 167 and describes exemption awards as discretionary, not automatic. These distinguish an enacted application-recipient change from the vetoed cutoff; they do not establish a later item 58 override outcome, project eligibility or current legal force."
+        }
+      ],
+      "prior_questions": [
+        "Inspect linked veto message and disapproved language, item-level override records, and compare enacted and prior section text to determine HB 96 changes and any relevant veto/override.",
+        "Later changes after retained code capture."
+      ],
+      "remaining_questions": [
+        "Identify any item58-specific House/Senate override proceedings; the retained October1 generic history entry does not identify its item.",
+        "Check subsequent code/legal changes after the retained R.C.122.175 capture. The LSC version comparison was read, but no independent full enrolled/prior-statute redline or exhaustive current-force review is claimed."
+      ],
+      "scope_before": "include",
+      "scope_after": "include",
+      "scope_decision_id": "46c0aefd-9d17-4582-8e93-3ec8abe3985b"
+    }
+  ],
+  "canonical_cells_changed": 2,
+  "limitations": [
+    "LSC TAXCD117 heading and bracketed text mark the cutoff as vetoed despite the generic Same-as-Senate column; do not read that shorthand as an operative cutoff.",
+    "Retain bill enacted status and unknown legal-effect status; do not infer a sector moratorium or operative restriction.",
+    "Mechanism remains historical proposed incentive restriction; no new mechanism taxonomy change is proposed here.",
+    "Two canonical prose fields changed; post8/V23 remains an immutable earlier snapshot. No whole-record closure or current-force conclusion."
+  ]
+}

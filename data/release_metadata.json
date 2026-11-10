@@ -31,7 +31,7 @@
   "record_disposition_path": "work/research/2026-11-08/full-record-dispositions/funnel.json",
   "qa_status": "ongoing",
   "publication_authorization": "publish current state with qualifications on pending QA, then continue to double check and clear the outstanding questions",
-  "working_revision": "post8-inputs-delivered-hosted-copy-pending-qa-active",
+  "working_revision": "ohio-hb96-item-veto-qa",
   "current_raw_counts": {
     "local": 1328,
     "state_policy": 448,
@@ -82,7 +82,7 @@
     "delivered_consumer_commit": "583b6f38f5b4d212f2b13e320dcba46d7c1df616",
     "hosted_copy_state": "pending"
   },
-  "latest_source_followup": "work/research/2026-11-09/post-release-qa/wyoming-current-tax-code-adjudications.json",
+  "latest_source_followup": "work/research/2026-11-09/post-release-qa/ohio-hb96-veto-adjudication.json",
   "latest_expanded_candidate_review": "work/research/2026-11-09/starke-succession-review/validation.json",
   "latest_expanded_publication": {
     "generation_id": "3ce33d22288fa7bc7100c9ac621c041037702e8370af1e663d53a548ff794725",
@@ -123,7 +123,7 @@
     "delivered_source_commit": "ad7af81345dc0bb72b9b48a09abc574199c9311e",
     "delivered_consumer_commit": "5760ec426b1a43072606495fad1a0418c70e127c"
   },
-  "latest_field_application": "work/research/2026-11-09/post-release-qa/wyoming-current-tax-code-adjudications.json",
+  "latest_field_application": "work/research/2026-11-09/post-release-qa/ohio-hb96-veto-adjudication.json",
   "latest_hosted_delivery": {
     "source_commit": "ad7af81345dc0bb72b9b48a09abc574199c9311e",
     "hosted_source_commit": "ad7af81345dc0bb72b9b48a09abc574199c9311e",
@@ -164,5 +164,22 @@
     "selected_files": 13,
     "receipt": "work/research/2026-11-10/release-2026.11.10.post8/hosted-data-verification.json",
     "scope": "Selected data/QA bytes only; no full release-label/prose/receipt synchronization claim."
+  },
+  "pending_consumer_input_delta": {
+    "baseline_source_commit": "58a016a569e268ad26a2ed6ecc19a4736a743b84",
+    "baseline_consumer_commit": "583b6f38f5b4d212f2b13e320dcba46d7c1df616",
+    "changed_policy_rows": 1,
+    "changed_policy_cells": 2,
+    "changed_local_rows": 0,
+    "changed_local_cells": 0,
+    "changed_cells": 2,
+    "status_category_changes": 0,
+    "normalized_date_changes": 0,
+    "scope_membership_changes": 0,
+    "whole_record_closures": 0,
+    "additional_reviews": [
+      "work/research/2026-11-09/post-release-qa/ohio-hb96-veto-adjudication.json"
+    ],
+    "scope": "Two Ohio HB96 prose cells since post8/V23; item58 veto distinguished from DEVCD11 enacted application-recipient change. Record remains unresolved. Later release/consumer delivery pending; pre-existing hosted-copy hold remains separate."
   }
 }
