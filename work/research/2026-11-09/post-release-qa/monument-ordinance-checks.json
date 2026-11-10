@@ -1,0 +1,94 @@
+{
+  "exact_cell_delta": [
+    {
+      "id": "co-monument-2026",
+      "field": "duration"
+    },
+    {
+      "id": "co-monument-2026",
+      "field": "legal_basis"
+    },
+    {
+      "id": "co-monument-2026",
+      "field": "current_status"
+    }
+  ],
+  "status_category_changes": 0,
+  "normalized_date_changes": 0,
+  "whole_record_closures": 0,
+  "unresolved_records": 1354,
+  "source_store_readbacks": 2,
+  "map_changed_features": [
+    "co-monument-2026"
+  ],
+  "geometry_preserved": true,
+  "policy_scope_summary_timeline_bytes_preserved": true,
+  "prior_delivery_hold_states_preserved": true,
+  "checks": [
+    {
+      "command": [
+        "scripts/validate_dataset.py",
+        "--today",
+        "2026-11-10"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/build_policy_scope_exports.py",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/build_summary_stats.py",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/build_geojson.py",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/make_timeline.py",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/check_docs_numbers.py"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "-m",
+        "scripts.generate_tables.inventory_clean",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/build_index.py",
+        "--check"
+      ],
+      "returncode": 0,
+      "recheck": "Regenerated affected index and passed build_index --check."
+    },
+    {
+      "command": [
+        "scripts/classify_sources.py",
+        "--check"
+      ],
+      "returncode": 0
+    }
+  ]
+}
