@@ -1,0 +1,125 @@
+{
+  "validated_at": "2026-11-10T06:49:34.311334+00:00",
+  "checks": [
+    {
+      "command": [
+        "scripts/validate_dataset.py",
+        "--today",
+        "2026-11-10"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/build_policy_scope_exports.py",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/build_summary_stats.py",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/build_geojson.py",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/make_timeline.py",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/check_docs_numbers.py"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "-m",
+        "scripts.generate_tables.inventory_clean",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/build_index.py",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/classify_sources.py",
+        "--check"
+      ],
+      "returncode": 0
+    }
+  ],
+  "csv_key_set_unchanged": true,
+  "policy_rows": 448,
+  "canonical_policy_rows_changed": 6,
+  "canonical_cells_changed": 14,
+  "status_category_changes": 4,
+  "scope_membership_changes": 0,
+  "whole_record_closures": 6,
+  "remaining_unresolved": 1359,
+  "retained_unique_source_versions_rehashed": 17,
+  "fresh_archived_native_source_pairs": 8,
+  "visual_review": [
+    {
+      "source_body_sha256": "47a59f8e42fbbda175ba33d1155516bee188723e8412ab552b909c3841d4f076",
+      "physical_page": 2,
+      "render_sha256": "f0878c49b367188706df82945584d0564d5983597c7cf253a9c3ab84120d5fc1",
+      "max_dimension_pixels": 1400,
+      "status": "visually_reviewed_by_root"
+    },
+    {
+      "source_body_sha256": "2989e8bf2a8dbd8980294e1029b02cda88fe8997814f63e992848c1061ac1f1a",
+      "physical_page": 2,
+      "render_sha256": "51e4676763bc9c853dc72c8cfb010ddf1b8ad3896aa236679afd621ed1dbbdad",
+      "max_dimension_pixels": 1400,
+      "status": "visually_reviewed_by_root"
+    },
+    {
+      "source_body_sha256": "2989e8bf2a8dbd8980294e1029b02cda88fe8997814f63e992848c1061ac1f1a",
+      "physical_page": 18,
+      "render_sha256": "fdca5104a402fea64e54db2c6c1c412901a394b139dcc714ef4b7612d6200d99",
+      "max_dimension_pixels": 1400,
+      "status": "visually_reviewed_by_root"
+    },
+    {
+      "source_body_sha256": "2989e8bf2a8dbd8980294e1029b02cda88fe8997814f63e992848c1061ac1f1a",
+      "physical_page": 32,
+      "render_sha256": "3cd988942da14fd84fa683c00915c67246d9faf8f29957f44b08b0c9c89cc99f",
+      "max_dimension_pixels": 1400,
+      "status": "visually_reviewed_by_root"
+    },
+    {
+      "source_body_sha256": "2989e8bf2a8dbd8980294e1029b02cda88fe8997814f63e992848c1061ac1f1a",
+      "physical_page": 47,
+      "render_sha256": "0733a3b0c195ad1e4395294c3de879124dd306686ed028efdfe845a1eb9420dd",
+      "max_dimension_pixels": 1400,
+      "status": "visually_reviewed_by_root"
+    }
+  ],
+  "local_csv_byte_unchanged": true,
+  "tracked_native_expanded_identity_paths_unchanged": true,
+  "september_status_category_differences": {
+    "local": 98,
+    "policy": 35,
+    "total": 133
+  },
+  "source_receipt_sha256": "3db5ab33a4ccfdb63b0b2cd1a1b0cdd43f44c9c51808d7e7b9f4e4e36b41fb39",
+  "scope": "Exact guarded field delta, source hash/visual continuity and focused technical checks; no new independent substantive reviewer or universal present-force certification."
+}

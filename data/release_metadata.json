@@ -7,7 +7,7 @@
     "end": "2026-11-09"
   },
   "asset_name": "moratorium-data-2026.11.10.post1.tar.gz",
-  "coverage": "Original1777 records retain review provenance; two duplicates retired and one Massachusetts addition independently unreviewed. Current1776 active raw IDs:1365 unresolved,173 corrected-resolved,238 confirmed-unchanged scoped dispositions. No universal current-law certification.",
+  "coverage": "Original1777 records retain review provenance; two duplicates retired and one Massachusetts addition independently unreviewed. Current1776 active raw IDs:1359 unresolved,178 corrected-resolved,239 confirmed-unchanged scoped dispositions. No universal current-law certification.",
   "limitations": [
     "Recorded active/extended classifications do not prove current enforceability.",
     "Ballot voting, certification, passage and operative legal effect remain distinct.",
@@ -15,23 +15,23 @@
     "Experimental model extraction/P4 has not passed; no experimental extraction output is accepted automatically.",
     "The companion April paper and dated sibling publications retain their historical editions."
   ],
-  "update_status": "qualified_release_with_ongoing_qa",
+  "update_status": "working_qa_after_v2026.11.10.post1",
   "full_inventory_closeout": "reviewed_and_applied_with_bounded_unresolved_questions",
   "consumer_dispositions": "delivered_with_historical_editions_preserved",
   "experimental_extractor": "failed_no_automatic_promotion",
   "quality_gate_disposition": "User authorized publication of the current state with qualifications on pending QA, followed by continued double checking and resolution of outstanding questions.",
   "reviewed_data_source_commit": "4c7b8e1ad70221f5ebdf114a41aa16b4742dea53",
   "record_dispositions": {
-    "unresolved": 1365,
-    "corrected_resolved": 173,
-    "confirmed_unchanged": 238,
+    "unresolved": 1359,
+    "corrected_resolved": 178,
+    "confirmed_unchanged": 239,
     "superseded_duplicate": 0,
     "not_attempted": 0
   },
   "record_disposition_path": "work/research/2026-11-08/full-record-dispositions/funnel.json",
   "qa_status": "ongoing",
   "publication_authorization": "publish current state with qualifications on pending QA, then continue to double check and clear the outstanding questions",
-  "working_revision": "committee-detail-hosted-delivery-verified",
+  "working_revision": "hawaii-session-outcome-qa",
   "current_raw_counts": {
     "local": 1328,
     "state_policy": 448,
@@ -53,9 +53,9 @@
   "published_source_commit": "4c7b8e1ad70221f5ebdf114a41aa16b4742dea53",
   "september_status_category_differences": {
     "local": 98,
-    "policy": 39,
-    "total": 137,
-    "receipt": "work/research/2026-11-09/post-release-qa/starke-status-baseline-delta.json"
+    "policy": 35,
+    "total": 133,
+    "receipt": "work/research/2026-11-09/post-release-qa/hawaii-status-baseline-delta.json"
   },
   "latest_geography_review": "work/research/2026-11-09/post-release-qa/nonblank-geography-application.json",
   "latest_delivered_consumer_input_delta": {
@@ -70,7 +70,7 @@
     "scope": "Delivered in qualified v2026.11.10.post1 and verified V16: five fields/two Louisiana rows, three scoped review closures, no status-category changes; nineteen hosted surfaces verified.",
     "delivery_receipt": "work/research/2026-11-10/post-release-qa/consumer-v16-handoff.json"
   },
-  "latest_source_followup": "work/research/2026-11-09/post-release-qa/committee-final-detail-adjudications.json",
+  "latest_source_followup": "work/research/2026-11-09/post-release-qa/hawaii-session-outcome-adjudications.json",
   "latest_expanded_candidate_review": "work/research/2026-11-09/starke-succession-review/validation.json",
   "latest_expanded_publication": {
     "generation_id": "216e9ca5a0b9533e0413ae70eb3d35499c3bd4dd978637b582acab8a9fb94887",
@@ -115,5 +115,17 @@
     "receipt": "work/research/2026-11-10/release-2026.11.10.post1/hosted-copy-verification.json",
     "hosted_source_commit": "bbe50ac182c80d4dd6b8af44735de3bc4b8533ad",
     "state": "verified"
+  },
+  "pending_consumer_input_delta": {
+    "baseline_source_commit": "4c7b8e1ad70221f5ebdf114a41aa16b4742dea53",
+    "baseline_consumer_commit": "363f45b1f2298e4ead024a43c340fd8aff4eae1e",
+    "changed_policy_rows": 6,
+    "changed_local_rows": 0,
+    "changed_cells": 14,
+    "status_category_changes": 4,
+    "scope_fingerprint_rebindings": 6,
+    "whole_record_closures": 6,
+    "additional_review": "work/research/2026-11-09/post-release-qa/hawaii-session-outcome-adjudications.json",
+    "scope": "Four qualified Hawaii historical bill nonpassage corrections, separate SR90/SCR95 outcomes, HCR206 meeting-year precision and HR196 adoption confirmation; release/consumer synchronization pending."
   }
 }
