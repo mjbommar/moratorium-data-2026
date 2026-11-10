@@ -1,0 +1,106 @@
+{
+  "checked_at": "2026-11-10T04:03:32.036812+00:00",
+  "focused_checks": [
+    {
+      "command": [
+        "scripts/validate_dataset.py",
+        "--today",
+        "2026-11-09"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/build_policy_scope_exports.py",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/build_summary_stats.py",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/build_geojson.py",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/make_timeline.py",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/check_docs_numbers.py"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "-m",
+        "scripts.generate_tables.inventory_clean",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/build_index.py",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/classify_sources.py",
+        "--check"
+      ],
+      "returncode": 0
+    }
+  ],
+  "publication_consistency": {
+    "state": "consistent",
+    "snapshot_sha256": "ca1d948627ecd9ef9b74dbd81ebbb8e79322c586ff773c9d91f8798610187e6b",
+    "generations_checked": 47,
+    "records": {
+      "jurisdictions": 53,
+      "elections": 51,
+      "ballot_measures": 57,
+      "measure_provisions": 52,
+      "measure_results": 64,
+      "local_restrictions": 3,
+      "instrument_events": 11,
+      "measure_instrument_links": 1,
+      "source_documents": 166,
+      "claims": 619,
+      "review_decisions": 2734,
+      "search_runs": 1,
+      "search_attempts": 3,
+      "search_sightings": 18,
+      "coverage_observations": 1
+    },
+    "scope": "Offline publication/receipt consistency only; no source reacquisition, renewed factual acceptance or current-force confirmation."
+  },
+  "csv_projection": {
+    "state": "matches",
+    "source_snapshot": "ca1d948627ecd9ef9b74dbd81ebbb8e79322c586ff773c9d91f8798610187e6b",
+    "projection_sha256": "1291b5c509193fee0bb8dc5a1b593658aec31cfc6cbfd04d3f69b9427e19ea9d",
+    "csv_views": 18
+  },
+  "legacy_csvs_identical_to": "18125103a37ceabaf6e2a46f698f90bdf0b689b9",
+  "public_path_screen": {
+    "new_rows_and_packet_pass": true,
+    "inherited_decisions_with_local_locators": 4,
+    "inherited_rows_unchanged": true
+  },
+  "qa_status": "ongoing",
+  "scope": "Mechanical consistency and preservation; source acceptance is documented in publication receipts. No present legal force or full QA completion claim."
+}

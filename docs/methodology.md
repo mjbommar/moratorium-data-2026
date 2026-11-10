@@ -6,8 +6,9 @@ Review accounting covers all 1776 raw records. The 1775 surviving original IDs
 have primary and independent source-review artifacts; one post-release Massachusetts
 observation has direct source review and pending independent QA. The original event
 cutoff is November 7 at 13:38:39.877065 UTC; later captures and reviews carry separate
-timestamps. Bounded review does not establish complete discovery or current legal
-force. Published release tags preserve their dated snapshots; working QA continues.
+timestamps. The later Starke restriction/adoption publication carries its own sealed
+review and row-observation clocks. Bounded review does not establish complete discovery
+or current legal force. Published release tags preserve their dated snapshots; working QA continues.
 
 ## What we set out to do
 

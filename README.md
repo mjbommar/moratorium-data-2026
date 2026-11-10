@@ -97,6 +97,8 @@ Full state-by-state breakdown: [**states/README.md**](states/README.md).
 
 The headline counts inventory records, including proposals. The intended grain is one instrument per row, but aggregate and compound rows and possible duplicates remain unresolved. Recorded status classifications do not establish current enforceability. Use `enacted_status` to filter classifications; the codebook explains.
 
+The [expanded history](work/research/2026-11-09/starke-expanded-review/README.md) now contains eleven instrument events and three restriction records, spanning proposals and historically adopted instruments. Effectiveness and current force remain record-specific; these are not three certified operative bans. Ballot counts are unchanged.
+
 ---
 
 ## How to use the data

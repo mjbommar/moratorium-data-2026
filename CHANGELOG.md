@@ -1,5 +1,18 @@
 # Changelog
 
+## Working QA after v2026.11.9.post7
+
+Starke Ordinance 2026-34 is now represented as one expanded restriction and one October 19, 2026 adoption event. One jurisdiction/source, six claims and eighteen decisions are added. All 619 claims pass the normal publication gate; exact replay and preservation checks pass. Current expanded totals are three restriction records and eleven historical events. Status, effectiveness, publication and applicability remain unresolved. Legacy CSVs, ballot records and all earlier expanded rows are unchanged. Release/consumer synchronization is pending. [Publication review](work/research/2026-11-09/starke-expanded-review/README.md).
+
+| Metric | Working QA after v2026.11.9.post7 |
+|---|---:|
+| Moratoria in the list | **1,328** |
+| Classified active or extended | **1,087** |
+| Pending or not yet effective | **64** |
+| Ended (replaced, expired, or rescinded) | **171** |
+| Rows we still want to confirm (`[VERIFY]`) | **979** |
+| States with at least one | **47** |
+
 ## v2026.11.9.post7 — qualified publication, QA ongoing
 
 Thirty-two cells across ten existing local records change since post6: Coweta5, Audubon4, Lee10, Starke10 and Boone3. Three recorded category corrections reflect signed fixed-term/replacement instruments: Lee storage active-to-expired, Starke data-center active-to-replaced and Starke solar/storage expired-to-replaced. No whole-record hold closes;1,368 remain unresolved. Publication, current-force, original-instrument and project-applicability limits remain source-specific.

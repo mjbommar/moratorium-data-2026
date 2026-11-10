@@ -788,6 +788,9 @@ Exit: repeatable refresh with visible freshness, costs, failures and unresolved 
 - [x] Publish qualified post6 and verified consumer V11 from `fb6b4487`:13 cells/5local rows,1 category correction; deterministic builds, clean restore, ten anonymous assets,2,086 archive members,13 hosted surfaces and independent consumer checks verified. Keep1,368 unresolved holds explicit.
 
 - [x] Publish qualified post7 and matching verified V12 from `18125103`: 32 cells across ten local records, three recorded category corrections; deterministic builds, clean restore, ten anonymous assets, all archive members, thirteen hosted surfaces and independent consumer checks verified. Keep 1,368 unresolved holds explicit.
-- [ ] Review Starke Ordinance 2026-34 as an expanded-model permanent restriction/instrument link; adopted-prohibition legacy prose does not itself promote a new expanded observation.
+- [x] Publish Starke Ordinance 2026-34 as an expanded restriction and dated adoption event after the complete 619-claim gate, atomic publication and exact replay; current force remains unknown.
 
 - [x] Prepare the unpublished Starke 2026-34 expanded candidate: one restriction/adoption event, six source-verified claims and three reproducible visual reviews; profile 1.0.4 validation passes. Production expanded generation and identity registry remain unchanged. See `work/research/2026-11-09/starke-expanded-review/README.md`.
+
+- [ ] Review the qualified policy-predecessor relationship for Starke separately; a restriction-adoption event does not itself establish formal moratorium termination.
+- [ ] Synchronize the new Starke expanded generation and projections to a qualified release and verified consumer snapshot after post7/V12.

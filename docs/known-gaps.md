@@ -558,3 +558,8 @@ The [Coachella expanded publication](../work/research/2026-11-07/coachella-restr
 ### Minnesota terminal outcomes — November 7 review
 
 The [bounded terminal-status review](../work/research/2026-11-07/minnesota-terminal-status-review/README.md) leaves eleven bill outcomes unknown. Their earlier failed/died assertions are preserved as unverified legacy text; a House adjournment record and last recorded actions do not establish the missing Senate/session/carryover and complete terminal histories. HF 16's enactment remains supported, with current force unresolved by provision. No record was removed and no source observation date was advanced. The wider Minnesota field contract remains incomplete.
+
+
+## Starke historical restriction adoption
+
+The [Starke publication](../work/research/2026-11-09/starke-expanded-review/README.md) adds the signed October 19, 2026 adoption of Ordinance 2026-34 and its defined provisions. Current expanded totals are eleven instrument events and three restriction records. Earlier cohort counts above retain their publication dates. The effective/publication date, applicability, current force and formal relationship to the earlier moratorium remain unresolved. The definition retains specified exclusions and the ordinance preserves lawful-use standalone BESS rules; no blanket ban on every computing installation is inferred. No ballot observation or legacy status changes in this increment.
