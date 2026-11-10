@@ -1,0 +1,110 @@
+{
+  "canonical_delta": [
+    {
+      "id": "mt-sb212-lc0292",
+      "field": "key_provisions",
+      "before": "\"Right to Compute Act.\" Creates a right to use computational resources and requires risk-management policies for critical infrastructure controlled by artificial intelligence systems. It expressly preserves government action to prevent or abate common-law nuisances from physical datacenter infrastructure. Not a moratorium bill.",
+      "after": "Right to Compute Act. Enrolled section 3 limits government restrictions infringing property/free-expression rights to those demonstrably necessary and narrowly tailored to a compelling government interest. Section 4 requires a reasonable risk-management policy after deploying a critical AI system controlling critical infrastructure; a plan prepared under federal requirements constitutes compliance. Section 7(2)(d) includes prevention or abatement of common-law nuisances created by physical datacenter infrastructure within compelling government interests. This is not a moratorium or blanket exemption from regulation. Later amendments, implementation and current force remain unverified."
+    },
+    {
+      "id": "mt-sb212-lc0292",
+      "field": "effective_date_iso",
+      "before": "",
+      "after": "2025-04-16"
+    },
+    {
+      "id": "mt-sb212-lc0292",
+      "field": "end_condition",
+      "before": "",
+      "after": "Enrolled section 10 provides effect on passage and approval; April 16, 2025 is derived from that clause and the retained official governor-signature event. No sunset is specified in the reviewed enrolled act. Later amendments and present force were not checked."
+    },
+    {
+      "id": "mt-sb212-lc0292",
+      "field": "primary_source_url",
+      "before": "https://bearbeta.legmt.gov/bills/v1/bills/findBySessionIdAndDraftNumber?sessionId=2&draftNumber=LC0292",
+      "after": "https://archive.legmt.gov/content/Sessions/69th/Contractor_index/CH0150.pdf"
+    }
+  ],
+  "canonical_cells_changed": 4,
+  "normalized_date_changes": 1,
+  "status_category_changes": 0,
+  "whole_record_closures": 0,
+  "scope_membership_changes": 0,
+  "previous_scope_events_byte_preserved": true,
+  "new_scope_events": 1,
+  "scope_exports_same_ID_sets": true,
+  "scope_exports_only_SB212_changed": true,
+  "source_manifest_prefix_preserved": true,
+  "native_readbacks": 3,
+  "local_inventory_map_summary_bytes_unchanged": true,
+  "unresolved_records": 1358,
+  "checks": [
+    {
+      "command": [
+        "scripts/validate_dataset.py",
+        "--today",
+        "2026-11-10"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/build_policy_scope_exports.py",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/build_summary_stats.py",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/build_geojson.py",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/make_timeline.py",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/check_docs_numbers.py"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "-m",
+        "scripts.generate_tables.inventory_clean",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/build_index.py",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/classify_sources.py",
+        "--check"
+      ],
+      "returncode": 0
+    }
+  ],
+  "adjudication_sha256": "d3e01b4ff8022abf35a1d464c7da2dc3b833145a9327059e58ddb705643bc896",
+  "scope": "Focused enrolled-text/historical-date correction, not exhaustive current-law verification or release/consumer delivery.",
+  "delivery_state": "pending_next_qualified_release_consumer_batch"
+}

@@ -1,5 +1,9 @@
 # Continuing QA after v2026.11.9
 
+## November 10: Montana enrolled SB212 text
+
+Four SB212 fields now use the enrolled act: operative provisions, April16,2025 historical effectiveness derived from section10 and retained official approval history, end-condition qualification and primary source. Analytical inclusion remains supported by the explicit physical-datacenter nuisance clause. Later law/current force and HJ46 full-text review remain unresolved. Four policy cells await the next delivery batch after post7/V22; categories and1,358 unresolved dispositions are unchanged. [Review](montana-enrolled-text-review.md).
+
 ## November 10: Nashville published adoption minutes
 
 The newly exposed Granicus archive supplied July 22 and August 4 minutes. The first records Resolution 2026-25 scheduling the second hearing; the second records unanimous adoption of Ordinance 2026-23. Four prose fields now reflect that sequence and the dated July 22 no-application/inquiry staff statement. The minutes do not reconcile the ordinance's distinct commencement/adoption-effective dates or prove later force. Seven cells across Lodi/Nashville now await release/consumer delivery after post6/V21; all status categories and 1,358 unresolved dispositions remain unchanged. [Review](nashville-meeting-minute-review.md).
