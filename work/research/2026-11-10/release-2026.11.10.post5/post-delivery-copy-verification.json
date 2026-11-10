@@ -1,0 +1,44 @@
+{
+  "source_commit": "f3d53927e8d2ce997954cea669d675862f87f641",
+  "pages_run": 42788697399,
+  "observed_at": "2026-11-10T09:13:10.884983+00:00",
+  "changed_delivery_copy_surfaces": {
+    "README.md": {
+      "bytes": 22706,
+      "sha256": "27e79dc4c0478bea266200bf70cf8eec4039b5562db5504f778fa8bc38e6310f",
+      "state": "byte_equal"
+    },
+    "data/release_metadata.json": {
+      "bytes": 8753,
+      "sha256": "ac1049c1b5f1800e721fd6be38d32a71e5cb921597d34b8f57089adc4d50c62c",
+      "state": "byte_equal"
+    },
+    "CHANGELOG.md": {
+      "bytes": 184729,
+      "sha256": "dc6d8fa50f2db51c13574a01e1866572bfcea47524fe1f785a4d4d5ae545d58e",
+      "state": "byte_equal"
+    },
+    "docs/refresh-operations.md": {
+      "bytes": 83487,
+      "sha256": "41729d70bcc787fa02d6d9852724611eef8b61bdf62a8cee156263d08f5d4d17",
+      "state": "byte_equal"
+    },
+    "TODO.md": {
+      "bytes": 146975,
+      "sha256": "5e891bce9734f7524d7609d74d71e591119941850969c8a4d1eb1419f02b8bc2",
+      "state": "byte_equal"
+    },
+    "index.html": {
+      "bytes": 40095,
+      "sha256": "b44cded787b1d6912bd58be161049dab1fedbbd8e854730d1009e8327f5d4d78",
+      "state": "byte_equal"
+    }
+  },
+  "released_canonical_inputs_byte_unchanged": [
+    "data/state_legislation.csv",
+    "data/state_policy_scope_reviews.jsonl",
+    "data/moratorium_inventory.csv",
+    "data/summary_stats.json"
+  ],
+  "scope": "Verifies final delivery prose/metadata after the release-source23-surface check. Added receipt files do not alter these verified surface hashes or canonical inputs."
+}
