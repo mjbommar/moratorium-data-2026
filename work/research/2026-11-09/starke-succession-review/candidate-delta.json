@@ -1,0 +1,268 @@
+{
+  "instrument_events": [
+    {
+      "schema_version": "1.0.0",
+      "event_id": "9ad9e81b-4a51-42b0-9be2-d4e21ed71887",
+      "instrument": {
+        "kind": "restriction",
+        "id": "8a588483-e418-4554-b30f-6db49f2a43a3"
+      },
+      "action": "policy_successor_adopted",
+      "occurrence": {
+        "earliest": "2026-10-19",
+        "latest": "2026-10-19",
+        "original_text": "19 October 2026",
+        "precision": "day"
+      },
+      "observed_at": "2026-11-10T04:15:05.434459+00:00",
+      "published_at": null,
+      "related_instrument": {
+        "instrument": {
+          "kind": "moratorium",
+          "id": "in-starke-county-2025"
+        },
+        "relation": "policy_predecessor",
+        "qualification": "Policy succession does not establish formal termination, overlap, or current force."
+      },
+      "claim_ids": [
+        "dc7a75be-96f2-4243-92d4-ae50e5b04e79",
+        "80115c21-aa4d-442f-a555-5006fc3b8033"
+      ]
+    }
+  ],
+  "source_documents": [
+    {
+      "schema_version": "1.0.0",
+      "source_document_id": "8eb9e849-34e4-49e8-9917-2cccab1c2b0f",
+      "url": "https://starke.in.gov/wp-content/uploads/2026/02/ORD-2025-37-Hyperscale-Data-Center-Moratorium.pdf",
+      "body_sha256": "c0ff6bca800dffee1a5c24493928bdd659e6d0428b24834f53cdbc5679fa03cd",
+      "text_sha256": "0a175c9931a8551039e19db47de8003ba4ac531955134a57f83045208b6a5d57",
+      "retrieved_at": "2026-11-05T19:35:46.635615Z",
+      "published_date": null,
+      "retrieval_method": "Byte-preserving replay of November5 acquisition; no fresh source observation",
+      "extraction_version": "Retained local OCR; printed predecessor-purpose clause reviewed",
+      "access_classification": "Public official county ordinance; raw body and OCR remain private",
+      "publication_classification": "Reviewed metadata and short official-act excerpt"
+    }
+  ],
+  "claims": [
+    {
+      "schema_version": "1.0.0",
+      "claim_id": "80115c21-aa4d-442f-a555-5006fc3b8033",
+      "subject": {
+        "table": "instrument_events",
+        "id": "9ad9e81b-4a51-42b0-9be2-d4e21ed71887"
+      },
+      "predicate": "policy_predecessor_purpose",
+      "value": {
+        "instrument": {
+          "kind": "moratorium",
+          "id": "in-starke-county-2025"
+        },
+        "temporary_purpose": "Temporary permit moratorium pending adoption of county zoning regulations for hyperscale data projects; one-year maximum remains a separate condition."
+      },
+      "source_document_id": "8eb9e849-34e4-49e8-9917-2cccab1c2b0f",
+      "quote": "pending adoption. of an ordinance amending the Statke County Zoning",
+      "span": "Original ordinance PDF page2 continuation of paragraph2",
+      "temporal_support": {
+        "earliest": null,
+        "latest": null,
+        "precision": "unknown",
+        "original_text": null
+      },
+      "extraction_provenance": "Printed continuation identifies the temporary zoning-development purpose. OCR spelling is preserved in quote. No exact end date, automatic termination, overlap or current force is inferred."
+    },
+    {
+      "schema_version": "1.0.0",
+      "claim_id": "dc7a75be-96f2-4243-92d4-ae50e5b04e79",
+      "subject": {
+        "table": "instrument_events",
+        "id": "9ad9e81b-4a51-42b0-9be2-d4e21ed71887"
+      },
+      "predicate": "instrument_event",
+      "value": {
+        "instrument": {
+          "kind": "restriction",
+          "id": "8a588483-e418-4554-b30f-6db49f2a43a3"
+        },
+        "action": "policy_successor_adopted",
+        "occurrence": {
+          "earliest": "2026-10-19",
+          "latest": "2026-10-19",
+          "original_text": "19 October 2026",
+          "precision": "day"
+        },
+        "related_instrument": {
+          "instrument": {
+            "kind": "moratorium",
+            "id": "in-starke-county-2025"
+          },
+          "relation": "policy_predecessor",
+          "qualification": "Policy succession does not establish formal termination, overlap, or current force."
+        }
+      },
+      "source_document_id": "47a5e5c0-bef1-4ed5-b4ca-d1665f7a3bab",
+      "quote": "AN ORDINANCE AMENDING THE STARKE COUNTY ZONING ORDINANCE",
+      "span": "Successor PDF page2 title; signed page4 date is accepted component claim",
+      "temporal_support": {
+        "earliest": "2026-10-19",
+        "latest": "2026-10-19",
+        "original_text": "19 October 2026",
+        "precision": "day"
+      },
+      "extraction_provenance": "Manually composed policy relationship: original permit pause pending zoning, later adopted zoning definition/prohibition addressing hyperscale facilities. Successor identity/date and scope are supported by existing accepted title/adoption/provision claims; predecessor purpose has its own original-source claim. This is a policy-history relation, not explicit repeal, actual publication, termination, overlap or present force."
+    }
+  ],
+  "review_decisions": [
+    {
+      "schema_version": "1.0.0",
+      "decision_id": "ba91c3ce-d7a8-4f82-8dfc-d7344495311f",
+      "target": {
+        "table": "claims",
+        "id": "80115c21-aa4d-442f-a555-5006fc3b8033"
+      },
+      "scope": "policy_predecessor_purpose",
+      "claim_ids": [
+        "80115c21-aa4d-442f-a555-5006fc3b8033"
+      ],
+      "disposition": "accepted",
+      "supersedes_id": null,
+      "reviewer": "coordinator",
+      "method": "direct coordinator composite-source review; no new independent reviewer",
+      "rationale": "Printed continuation identifies the temporary zoning-development purpose. OCR spelling is preserved in quote. No exact end date, automatic termination, overlap or current force is inferred.",
+      "decided_at": "2026-11-10T04:15:05.434459+00:00"
+    },
+    {
+      "schema_version": "1.0.0",
+      "decision_id": "6be53ac2-d9ad-4c30-ac8c-a73d39b5e84c",
+      "target": {
+        "table": "claims",
+        "id": "dc7a75be-96f2-4243-92d4-ae50e5b04e79"
+      },
+      "scope": "instrument_event",
+      "claim_ids": [
+        "dc7a75be-96f2-4243-92d4-ae50e5b04e79"
+      ],
+      "disposition": "accepted",
+      "supersedes_id": null,
+      "reviewer": "coordinator",
+      "method": "direct coordinator composite-source review; no new independent reviewer",
+      "rationale": "Manually composed policy relationship: original permit pause pending zoning, later adopted zoning definition/prohibition addressing hyperscale facilities. Successor identity/date and scope are supported by existing accepted title/adoption/provision claims; predecessor purpose has its own original-source claim. This is a policy-history relation, not explicit repeal, actual publication, termination, overlap or present force.",
+      "decided_at": "2026-11-10T04:15:05.434459+00:00"
+    },
+    {
+      "schema_version": "1.0.0",
+      "decision_id": "68400b43-7ed6-4412-b433-119ac66832a3",
+      "target": {
+        "table": "instrument_events",
+        "id": "9ad9e81b-4a51-42b0-9be2-d4e21ed71887"
+      },
+      "scope": "instrument",
+      "claim_ids": [
+        "dc7a75be-96f2-4243-92d4-ae50e5b04e79",
+        "80115c21-aa4d-442f-a555-5006fc3b8033"
+      ],
+      "disposition": "accepted",
+      "supersedes_id": null,
+      "reviewer": "coordinator",
+      "method": "direct coordinator composite-source review; no new independent reviewer",
+      "rationale": "Qualified historical policy succession based on the reviewed original purpose and already accepted successor identity/adoption/scope. Not formal termination or current legal effect.",
+      "decided_at": "2026-11-10T04:15:05.434459+00:00"
+    },
+    {
+      "schema_version": "1.0.0",
+      "decision_id": "8e4a7cde-506a-44b8-a731-a6375cd236a0",
+      "target": {
+        "table": "instrument_events",
+        "id": "9ad9e81b-4a51-42b0-9be2-d4e21ed71887"
+      },
+      "scope": "action",
+      "claim_ids": [
+        "dc7a75be-96f2-4243-92d4-ae50e5b04e79",
+        "80115c21-aa4d-442f-a555-5006fc3b8033"
+      ],
+      "disposition": "accepted",
+      "supersedes_id": null,
+      "reviewer": "coordinator",
+      "method": "direct coordinator composite-source review; no new independent reviewer",
+      "rationale": "Qualified historical policy succession based on the reviewed original purpose and already accepted successor identity/adoption/scope. Not formal termination or current legal effect.",
+      "decided_at": "2026-11-10T04:15:05.434459+00:00"
+    },
+    {
+      "schema_version": "1.0.0",
+      "decision_id": "25706040-c3bc-4d12-ac21-fa7246d6b934",
+      "target": {
+        "table": "instrument_events",
+        "id": "9ad9e81b-4a51-42b0-9be2-d4e21ed71887"
+      },
+      "scope": "occurrence",
+      "claim_ids": [
+        "dc7a75be-96f2-4243-92d4-ae50e5b04e79",
+        "80115c21-aa4d-442f-a555-5006fc3b8033"
+      ],
+      "disposition": "accepted",
+      "supersedes_id": null,
+      "reviewer": "coordinator",
+      "method": "direct coordinator composite-source review; no new independent reviewer",
+      "rationale": "Qualified historical policy succession based on the reviewed original purpose and already accepted successor identity/adoption/scope. Not formal termination or current legal effect.",
+      "decided_at": "2026-11-10T04:15:05.434459+00:00"
+    },
+    {
+      "schema_version": "1.0.0",
+      "decision_id": "e2670c05-136e-424b-ad03-68632d04bc42",
+      "target": {
+        "table": "instrument_events",
+        "id": "9ad9e81b-4a51-42b0-9be2-d4e21ed71887"
+      },
+      "scope": "related_instrument",
+      "claim_ids": [
+        "dc7a75be-96f2-4243-92d4-ae50e5b04e79",
+        "80115c21-aa4d-442f-a555-5006fc3b8033"
+      ],
+      "disposition": "accepted",
+      "supersedes_id": null,
+      "reviewer": "coordinator",
+      "method": "direct coordinator composite-source review; no new independent reviewer",
+      "rationale": "Qualified historical policy succession based on the reviewed original purpose and already accepted successor identity/adoption/scope. Not formal termination or current legal effect.",
+      "decided_at": "2026-11-10T04:15:05.434459+00:00"
+    },
+    {
+      "schema_version": "1.0.0",
+      "decision_id": "99e534c1-d4d5-466b-a917-dc7f772d1bb1",
+      "target": {
+        "table": "instrument_events",
+        "id": "9ad9e81b-4a51-42b0-9be2-d4e21ed71887"
+      },
+      "scope": "observed_at",
+      "claim_ids": [
+        "dc7a75be-96f2-4243-92d4-ae50e5b04e79",
+        "80115c21-aa4d-442f-a555-5006fc3b8033"
+      ],
+      "disposition": "accepted",
+      "supersedes_id": null,
+      "reviewer": "coordinator",
+      "method": "direct coordinator composite-source review; no new independent reviewer",
+      "rationale": "Qualified historical policy succession based on the reviewed original purpose and already accepted successor identity/adoption/scope. Not formal termination or current legal effect.",
+      "decided_at": "2026-11-10T04:15:05.434459+00:00"
+    },
+    {
+      "schema_version": "1.0.0",
+      "decision_id": "66c631d9-27f1-4786-bdca-d5e6c3d4d42b",
+      "target": {
+        "table": "instrument_events",
+        "id": "9ad9e81b-4a51-42b0-9be2-d4e21ed71887"
+      },
+      "scope": "event_validity",
+      "claim_ids": [
+        "dc7a75be-96f2-4243-92d4-ae50e5b04e79",
+        "80115c21-aa4d-442f-a555-5006fc3b8033"
+      ],
+      "disposition": "accepted",
+      "supersedes_id": null,
+      "reviewer": "coordinator",
+      "method": "direct coordinator composite-source review; no new independent reviewer",
+      "rationale": "Qualified historical policy succession based on the reviewed original purpose and already accepted successor identity/adoption/scope. Not formal termination or current legal effect.",
+      "decided_at": "2026-11-10T04:15:05.434459+00:00"
+    }
+  ]
+}

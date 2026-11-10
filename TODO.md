@@ -790,7 +790,10 @@ Exit: repeatable refresh with visible freshness, costs, failures and unresolved 
 - [x] Publish qualified post7 and matching verified V12 from `18125103`: 32 cells across ten local records, three recorded category corrections; deterministic builds, clean restore, ten anonymous assets, all archive members, thirteen hosted surfaces and independent consumer checks verified. Keep 1,368 unresolved holds explicit.
 - [x] Publish Starke Ordinance 2026-34 as an expanded restriction and dated adoption event after the complete 619-claim gate, atomic publication and exact replay; current force remains unknown.
 
-- [x] Prepare the unpublished Starke 2026-34 expanded candidate: one restriction/adoption event, six source-verified claims and three reproducible visual reviews; profile 1.0.4 validation passes. Production expanded generation and identity registry remain unchanged. See `work/research/2026-11-09/starke-expanded-review/README.md`.
+- [x] Prepare the unpublished Starke 2026-34 expanded candidate: one restriction/adoption event, six source-verified claims and three reproducible visual reviews; profile 1.0.4 validation passes. Production pointers were unchanged at that candidate checkpoint; the later qualified post8 publication is recorded above. See `work/research/2026-11-09/starke-expanded-review/README.md`.
 
 - [ ] Review the qualified policy-predecessor relationship for Starke separately; a restriction-adoption event does not itself establish formal moratorium termination.
 - [x] Synchronize Starke expanded generation/projections in qualified post8 and verified V13 from `3e607898`; deterministic builds, full clean restore, ten anonymous assets, all archive members, thirteen hosted surfaces and independent consumer checks passed. Legal-effect/predecessor and whole-record QA remain open.
+
+- [x] Run two bounded Exa/SerpAPI searches for original Starke06-2025/07-2025 enactments; no returned source establishes the adoption dates. Decline duplicate extension material and unrelated results; retain the precise original-instrument hold.
+- [ ] Complete normal publication/application/replay of the source-reviewed Starke qualified policy-succession candidate; do not infer formal termination, overlap or force. See `work/research/2026-11-09/starke-succession-review/README.md`.
