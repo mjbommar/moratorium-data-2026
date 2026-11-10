@@ -779,3 +779,6 @@ Exit: repeatable refresh with visible freshness, costs, failures and unresolved 
 - [x] Compare retained introduced SB583/SB857 operative texts, document four cross-reference differences without declaring identical bills, distinguish75%-energy/80%-capacity conditions, populate seven verified primary URLs and qualify seven nonpassage narratives. Read both cited federal parliamentary treatments and preserve six WV Senate-specific application holds; no whole-record closures.
 
 - [x] Publish qualified v2026.11.9.post5 from `e70747fe`: two identical builds, full clean restore, ten anonymous assets, all 2,054 archive members and 13 hosted surfaces verified; deliver matching consumer V10 with independent checks and exact Git blob/mode verification. Keep 1,368 unresolved records explicit.
+
+- [x] Resolve the Sedgwick May extension number from official Resolution 095-2026, visually verify its handwritten header and the blank publication lines on 095/120, and retain source-stage cancelled/deferred planning updates. Apply four cells, verify three native source pairs, and preserve all three whole-record holds.
+- [ ] Synchronize the four Sedgwick local corrections after qualified post5/V10; retain their immutable cutoffs and outstanding QA.

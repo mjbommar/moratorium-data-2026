@@ -1,5 +1,20 @@
 # Changelog
 
+## Working QA after v2026.11.9.post5
+
+Sedgwick's May extension is now identified as Resolution 095-2026 from the official index and visually checked adopted PDF. Four local cells remove obsolete number uncertainty and add source-stage planning updates; actual later zoning/publication and current-force holds remain explicit. No status category, flagged-row count or whole-record disposition changes. [Review](work/research/2026-11-09/post-release-qa/sedgwick-followup-review.md).
+
+| Metric | Working QA after v2026.11.9.post5 |
+|---|---:|
+| Moratoria in the list | **1,328** |
+| Classified active or extended | **1,088** |
+| Pending or not yet effective | **64** |
+| Ended (replaced, expired, or rescinded) | **170** |
+| Rows we still want to confirm (`[VERIFY]`) | **979** |
+| States with at least one | **47** |
+
+Ballot measures/current observations remain 57/53, including five certified. Qualified post5 and consumer V10 retain their cutoffs; four new local cells await delivery.
+
 ## v2026.11.9.post5 — qualified publication, QA ongoing
 
 This patch delivers 58 corrected cells across 21 existing policy records: 42 Arizona/Connecticut outcome cells and 16 West Virginia narrative, provision-summary and primary-URL cells. Fourteen scoped outcome holds close; 1,368 remain unresolved. Fourteen category corrections are explicitly inferred historical regular-session nonpassage, not invented bill-specific Died events. No IDs, local inventory, scope memberships or ballot/event records change.
