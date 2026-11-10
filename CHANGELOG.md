@@ -1,5 +1,20 @@
 # Changelog
 
+## v2026.11.9.post4 — qualified publication, QA ongoing
+
+This patch synchronizes119 canonical CSV cells across54 existing records:78 coordinate cells across39 local records and41 policy cells across15 Wisconsin/Minnesota records. Ten Minnesota status categories become explicitly inferred regular-session nonpassage; Wisconsin adds four reviewed scope inclusions. Fifteen scoped whole-record holds close relative to post3;1,382 remain unresolved. No IDs or ballot/event records change. Map coverage is1,326/1,328, with two aggregate blanks.
+
+| Metric | Qualified patch v2026.11.9.post4 |
+|---|---:|
+| Moratoria in the list | **1,328** |
+| Classified active or extended | **1,088** |
+| Pending or not yet effective | **64** |
+| Ended (replaced, expired, or rescinded) | **170** |
+| Rows we still want to confirm (`[VERIFY]`) | **979** |
+| States with at least one | **47** |
+
+Scope totals:381 included,19 excluded,48 unresolved. Ballot totals remain57 measures and53 current result observations, five certified. [Detailed patch notes](work/research/2026-11-09/release-2026.11.9.post4/release-body.md) retain all qualifications. Earlier tags and assets remain immutable; later receipts establish delivery without rewriting this source cutoff.
+
 ## Working QA after v2026.11.9.post3
 
 Filled39 missing geographic reference points after matching retained jurisdiction evidence to official Census2026 counties, places and county subdivisions. Map coverage rises1,287→1,326 of1,328; the two aggregate rows remain blank. No legal-status categories, verification markers or whole-record dispositions change. Internal points are not legal boundaries or project sites. [Application receipt](work/research/2026-11-09/post-release-qa/missing-geography-application.json).

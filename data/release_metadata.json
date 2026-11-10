@@ -1,12 +1,12 @@
 {
-  "version": "2026.11.9.post3",
+  "version": "2026.11.9.post4",
   "release_date": "2026-11-09",
   "research_cutoff": "2026-11-07T13:38:39.877065+00:00",
   "source_observation_window": {
     "start": "2026-11-05",
     "end": "2026-11-09"
   },
-  "asset_name": "moratorium-data-2026.11.9.post3.tar.gz",
+  "asset_name": "moratorium-data-2026.11.9.post4.tar.gz",
   "coverage": "The original1,777 records retain primary and independent review artifacts; two duplicates are retired. One new Massachusetts package has direct source review with independent QA pending. Current1,776 active raw IDs retain1,382 unresolved,157 corrected-resolved and237 confirmed-unchanged scoped dispositions. No universal current-law certification.",
   "limitations": [
     "Recorded active/extended classifications do not prove current enforceability.",
@@ -15,12 +15,12 @@
     "Experimental model extraction/P4 has not passed; no experimental extraction output is accepted automatically.",
     "The companion April paper and dated sibling publications retain their historical editions."
   ],
-  "update_status": "working_qa_after_v2026.11.9.post3",
+  "update_status": "qualified_publication_with_pending_qa",
   "full_inventory_closeout": "reviewed_and_applied_with_bounded_unresolved_questions",
   "consumer_dispositions": "delivered_with_historical_editions_preserved",
   "experimental_extractor": "failed_no_automatic_promotion",
   "quality_gate_disposition": "User authorized publication of the current state with qualifications on pending QA, followed by continued double checking and resolution of outstanding questions.",
-  "reviewed_data_source_commit": "d5bd0050a4ebf5bd22efc45f399a62d587f638b3",
+  "reviewed_data_source_commit": "715901617e30fbf6ce4ae731c47487f0f2148328",
   "record_dispositions": {
     "unresolved": 1382,
     "corrected_resolved": 157,
@@ -31,15 +31,15 @@
   "record_disposition_path": "work/research/2026-11-08/full-record-dispositions/funnel.json",
   "qa_status": "ongoing",
   "publication_authorization": "publish current state with qualifications on pending QA, then continue to double check and clear the outstanding questions",
-  "working_revision": "post3-qa-3",
+  "working_revision": "qualified-patch-4",
   "current_raw_counts": {
     "local": 1328,
     "state_policy": 448,
     "total": 1776
   },
-  "prior_release": "v2026.11.9.post2",
-  "prior_release_source_commit": "9174793a5e0a8111d7c33c91599bf87f9155c26d",
-  "prior_published_source_commit": "9174793a5e0a8111d7c33c91599bf87f9155c26d",
+  "prior_release": "v2026.11.9.post3",
+  "prior_release_source_commit": "b91dab524964c866f416678b3bb789066afe1f65",
+  "prior_published_source_commit": "b91dab524964c866f416678b3bb789066afe1f65",
   "published_source_reference": "The v2026.11.9.post3 release tag and asset manifest source_commit identify the exact source; source identity is not self-referential metadata.",
   "latest_consumer_handoff": {
     "source_commit": "b91dab524964c866f416678b3bb789066afe1f65",
@@ -54,12 +54,16 @@
     "baseline_source_commit": "b91dab524964c866f416678b3bb789066afe1f65",
     "baseline_consumer_commit": "04cfac6d3bcd1908ec90148deb0b91e4624e4364",
     "changed_policy_rows": 15,
-    "changed_cells": 41,
+    "changed_cells": 119,
     "status_category_changes": 10,
     "new_scope_inclusions": 4,
     "receipt": "work/research/2026-11-09/post-release-qa/wisconsin-text-adjudications.json",
-    "scope": "Wisconsin version/applicability corrections plus ten explicit Minnesota regular-session nonpassage inferences. Four new Wisconsin scope inclusions retained; new consumer delivery remains pending.",
-    "additional_review": "work/research/2026-11-09/post-release-qa/minnesota-session-adjudications.json"
+    "scope": "Wisconsin provision corrections and four scope inclusions, ten qualified Minnesota regular-session nonpassage inferences, and39 jurisdiction reference points. Consumer delivery pending at this source cutoff.",
+    "additional_review": "work/research/2026-11-09/post-release-qa/minnesota-session-adjudications.json",
+    "changed_local_rows": 39,
+    "changed_local_cells": 78,
+    "changed_policy_cells": 41,
+    "geography_review": "work/research/2026-11-09/post-release-qa/missing-geography-application.json"
   },
   "september_status_category_differences": {
     "local": 95,
