@@ -1,0 +1,100 @@
+{
+  "all_pass": true,
+  "checks": [
+    {
+      "command": [
+        "scripts/validate_dataset.py",
+        "--today",
+        "2026-11-10"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/build_policy_scope_exports.py",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/build_summary_stats.py",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/build_geojson.py",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/make_timeline.py",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/check_docs_numbers.py"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "-m",
+        "scripts.generate_tables.inventory_clean",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/build_index.py",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/classify_sources.py",
+        "--check"
+      ],
+      "returncode": 0
+    }
+  ],
+  "followup_registry_description_checks": [
+    "policy_scope_exports --check passed",
+    "summary_stats --check passed",
+    "all95 documented-number claims passed"
+  ],
+  "exact_delta": [
+    {
+      "id": "ut-sb0231-2026",
+      "field": "status",
+      "before": "Passed Senate 2026-03-03 (27-0-2, as substituted); received by House and placed on the House 3rd Reading Calendar; circled on 2026-03-06, sent back to House Rules Committee, and killed via 'strike enacting clause'; Senate filed the bill as not passed at 2026-03-06 23:59:59, the close of the 45-day session; it never received a House floor vote",
+      "after": "Passed Senate 2026-03-03 (27-0-2) after substitution from S1 to S2. House read the bill on its 3rd Reading Calendar and circled it by voice vote 2026-03-06; it returned to House Rules, its enacting clause was struck, and the Senate filed it as not passed late on March6. No House final-passage vote is recorded in the retained history; the procedural voice vote is not bill passage."
+    },
+    {
+      "id": "ut-sb0231-2026",
+      "field": "key_provisions",
+      "before": "Energy User Amendments. Earlier versions were described in the prior record as addressing large-load customer property tax and notice issues; the Senate-passed S2 substitute instead addressed eminent-domain limitations relating to energy generation. Filed without enactment.",
+      "after": "Introduced Energy User Property Tax Amendments proposed statewide distribution of large-load property-tax revenue through population-based county shares, tax-increment agreement restrictions with a pre-May6,2026 agreement exception, and customer-address notice within30days of commission approval of a large-load contract. S1 replaced that program with limits on private pipeline eminent domain serving principally own-use/beneficiary energy generation and a property-owner evidence provision shifting rebuttal to clear-and-convincing proof. Senate-passed S2 omitted the primarily/objective-evidence wording and separate proof-shifting section, and added easement exceptions for pipelines within existing utility easements or immediately adjacent and parallel to existing utility lines; pipelines within or immediately adjacent and parallel to existing/planned roadways; and pipelines able to serve more than one customer on completion. S2 retained prospective/pending-action coverage. These were failed proposals, not current requirements; specific data-center applicability remains unestablished."
+    },
+    {
+      "id": "ut-sb0231-2026",
+      "field": "primary_source_url",
+      "before": "",
+      "after": "https://le.utah.gov/~2026/bills/static/SB0231.html"
+    }
+  ],
+  "source_store_manifest_hash_current": true,
+  "status_category_changes": 0,
+  "scope_membership_changes": 0,
+  "whole_record_closures": 0,
+  "queue_rows": 1358,
+  "original_scope_registry_prefix_preserved": true
+}
