@@ -22,6 +22,7 @@ The earlier completion claim was wrong. `v2026.11.8` is now explicitly an **inco
 - [x] Record the user’s explicit authorization to publish the current state with pending QA and continue checking outstanding questions; no successful P4 evaluation is claimed.
 - [x] Publish and independently verify the qualified v2026.11.9 release and downloads ([receipt](work/research/2026-11-09/release-2026.11.9/README.md)).
 - [x] Publish qualified correction patch `v2026.11.9.post1` from `7649328`; verify two identical builds, full clean replay, all ten anonymous downloads and 1,764 archive members ([receipt](work/research/2026-11-09/release-2026.11.9.post1/README.md)). Original release remains immutable.
+- [ ] Deliver the five-field Louisiana committee corrections and three closed reviews in qualified v2026.11.10.post1 and matching consumer V16.
 - [ ] Continue source-specific QA and clear outstanding questions with reviewed, guarded corrections; preserve frozen release history.
 
 - [x] Apply 88 independently reviewed material corrections across 43 records from the first 105 additional-record reviews ([application](work/research/2026-11-08/full-inventory-first105-application/README.md)); remaining full-record review stays open.

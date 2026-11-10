@@ -1,5 +1,11 @@
 # Changelog
 
+## Qualified v2026.11.10.post1 preparation
+
+- Louisiana HB1206 and HB922: official roll calls establish voluntary deferral after committee amendment adoption. Corrected proposal summaries distinguish original and committee versions; five cells across two records, with no status-category changes.
+- Nevada SB385: rendered official history confirms the existing April12,2025 terminal date without changing the row.
+- Three assigned historical record reviews close: 1,365 unresolved, 173 corrected-resolved and 238 confirmed-unchanged remain. Nine fresh archived body/text pairs were imported and read back without reacquisition. [Review and exact changes](work/research/2026-11-09/post-release-qa/committee-final-detail-adjudications.json). Release and consumer synchronization pending.
+
 ## Qualified v2026.11.10
 
 Corrected thirteen mislocated jurisdiction map references using retained source identities and the 2026 Census Gazetteer: 26 coordinate cells and five removals of resolved geographic-prose gaps. Thirty-one cells across thirteen existing local rows change. A read-only screen compared 1,158 unique state/name/type matches among 1,326 populated points; fourteen large-displacement candidates were reviewed, with San Francisco retained because displacement alone did not establish an error. The 168 unmatched/unsupported points and within-threshold points are not independently certified by the screen. Sixteen retained identity/reference source pairs read back exactly from the native store; no network request was made. No status, policy/ballot/expanded-native value, verification flag or whole-record disposition changes. Legal histories and current-force questions remain open. [QualifiedNovember10 and matchingV15 delivery](work/research/2026-11-10/release-2026.11.10/README.md) are verified. [Review](work/research/2026-11-09/post-release-qa/nonblank-geography-application.json). The consumer source-tree comparator also now uses canonical full-path ordering for base and dotted patch release folders, while preserving historical handoff ordering and all byte/path checks. Fourteen transport tests, the initial candidate’s 2,251-member source tree and the historical V14 manifest pass. [Transport validation](work/research/2026-11-10/post-release-qa/handoff-ordering-validation.json).

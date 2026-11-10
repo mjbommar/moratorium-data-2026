@@ -1,9 +1,9 @@
 {
   "event_cutoff_utc": "2026-11-07T13:38:39.877065Z",
   "counts": {
-    "unresolved": 1368,
-    "corrected_resolved": 171,
-    "confirmed_unchanged": 237,
+    "unresolved": 1365,
+    "corrected_resolved": 173,
+    "confirmed_unchanged": 238,
     "superseded_duplicate": 0,
     "not_attempted": 0
   },
@@ -13,9 +13,9 @@
       "unresolved": 199
     },
     "remaining1552": {
-      "corrected_resolved": 171,
-      "confirmed_unchanged": 211,
-      "unresolved": 1168,
+      "corrected_resolved": 173,
+      "confirmed_unchanged": 212,
+      "unresolved": 1165,
       "superseded_duplicate": 0
     },
     "post_release_additions": {
@@ -11559,12 +11559,9 @@
     {
       "id": "la-hb1206-2026-rs",
       "dataset": "state_policy",
-      "disposition": "unresolved",
-      "public_receipt_pointer": "work/research/2026-11-08/full-inventory-integrated-application/README.md",
-      "residual_reference": {
-        "dataset": "state_policy",
-        "id": "la-hb1206-2026-rs"
-      },
+      "disposition": "corrected_resolved",
+      "public_receipt_pointer": "work/research/2026-11-09/post-release-qa/committee-final-detail-adjudications.json",
+      "residual_reference": null,
       "recorded_evidence_fingerprints_sha256": [
         "24a9f5f29dd27db3cacf2c53f34da26de60197b253153b69ee3edf4c9a99c2be",
         "3b833556fe96862919202a80aa20c75223189ec9baf878be109a3365319b3973",
@@ -11604,12 +11601,9 @@
     {
       "id": "la-hb922-2026-rs",
       "dataset": "state_policy",
-      "disposition": "unresolved",
-      "public_receipt_pointer": "work/research/2026-11-08/full-inventory-integrated-application/README.md",
-      "residual_reference": {
-        "dataset": "state_policy",
-        "id": "la-hb922-2026-rs"
-      },
+      "disposition": "corrected_resolved",
+      "public_receipt_pointer": "work/research/2026-11-09/post-release-qa/committee-final-detail-adjudications.json",
+      "residual_reference": null,
       "recorded_evidence_fingerprints_sha256": [
         "02509510ff320ed529b828e3707758bdce317b1d378e06e97f872858ef782559",
         "3b833556fe96862919202a80aa20c75223189ec9baf878be109a3365319b3973",
@@ -22050,12 +22044,9 @@
     {
       "id": "nv-sb385-83rd-2025",
       "dataset": "state_policy",
-      "disposition": "unresolved",
-      "public_receipt_pointer": "work/research/2026-11-08/full-inventory-integrated-application/README.md",
-      "residual_reference": {
-        "dataset": "state_policy",
-        "id": "nv-sb385-83rd-2025"
-      },
+      "disposition": "confirmed_unchanged",
+      "public_receipt_pointer": "work/research/2026-11-09/post-release-qa/committee-final-detail-adjudications.json",
+      "residual_reference": null,
       "recorded_evidence_fingerprints_sha256": [
         "322d58f452a412d6cea7e9522a9893a8e4289c9fe2eac9ceca361dde37785929",
         "38734ab152b7ecaf704463dbe8767438ffeb6a313aceacd6e7e76fd86f9c4334",
@@ -38128,6 +38119,33 @@
       "disposition": "corrected_resolved",
       "receipt": "work/research/2026-11-09/post-release-qa/connecticut-session-outcome-adjudications.json",
       "scope": "Named regular-session nonpassage inferred from complete retained history, actual final House journal and applicable constitutional annual-session limits. CSG2023 no-bill-carryover table is dated corroboration. Current2025 rules are not applied to2024; labor-agreement and constitutional-amendment carryover analogies are not used."
+    },
+    {
+      "reviewed_at": "2026-11-10T06:12:45.709395+00:00",
+      "id": "la-hb1206-2026-rs",
+      "cohort": "remaining1552",
+      "prior_disposition": "unresolved",
+      "disposition": "corrected_resolved",
+      "receipt": "work/research/2026-11-09/post-release-qa/committee-final-detail-adjudications.json",
+      "scope": "Official roll call resolves assigned committee-detail gap; adopted amendment text is separately versioned from original proposal; retained final-disposition and session-close evidence support historical nonpassage."
+    },
+    {
+      "reviewed_at": "2026-11-10T06:12:45.709395+00:00",
+      "id": "la-hb922-2026-rs",
+      "cohort": "remaining1552",
+      "prior_disposition": "unresolved",
+      "disposition": "corrected_resolved",
+      "receipt": "work/research/2026-11-09/post-release-qa/committee-final-detail-adjudications.json",
+      "scope": "Official roll call resolves assigned committee-detail gap; adopted amendment text is separately versioned from original proposal; retained final-disposition and session-close evidence support historical nonpassage."
+    },
+    {
+      "reviewed_at": "2026-11-10T06:12:45.709395+00:00",
+      "id": "nv-sb385-83rd-2025",
+      "cohort": "remaining1552",
+      "prior_disposition": "unresolved",
+      "disposition": "confirmed_unchanged",
+      "receipt": "work/research/2026-11-09/post-release-qa/committee-final-detail-adjudications.json",
+      "scope": "Rendered official bill-specific history confirms April12,2025 Rule14.3.1 terminal entry; retained original text and failed-deadline record remain applicable."
     }
   ]
 }

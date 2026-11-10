@@ -1,0 +1,81 @@
+{
+  "checks": [
+    {
+      "command": [
+        "scripts/validate_dataset.py",
+        "--today",
+        "2026-11-10"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/build_policy_scope_exports.py",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/build_summary_stats.py",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/build_geojson.py",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/make_timeline.py",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/check_docs_numbers.py"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "-m",
+        "scripts.generate_tables.inventory_clean",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/build_index.py",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/classify_sources.py",
+        "--check"
+      ],
+      "returncode": 0
+    }
+  ],
+  "validation_date": "2026-11-10",
+  "scope": "Dataset, policy scope, summary, map, timeline, documentation numbers, inventory table, index and source-classification checks. No new independent factual reviewer.",
+  "canonical_cells_changed": 5,
+  "changed_policy_records": 2,
+  "whole_record_closures": 3,
+  "status_category_changes": 0,
+  "remaining_unresolved": 1365,
+  "september_status_differences": {
+    "local": 98,
+    "policy": 39,
+    "total": 137
+  },
+  "source_receipt_sha256": "1cf0be718c1249f110ee5e42307c200e2129c5bf5b1e471b9a4e9ff5cc90e9ca"
+}
