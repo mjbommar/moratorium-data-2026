@@ -1,8 +1,8 @@
 # Moratorium Data 2026
 
-**November patch release with pending QA:** [v2026.11.10.post7](https://github.com/mjbommar/moratorium-data-2026/releases/tag/v2026.11.10.post7) publishes the reviewed current state with explicit unresolved source and legal-status questions. Further checking continues. The older `v2026.11.8` remains an incomplete prerelease checkpoint.
+**November patch release with pending QA:** [v2026.11.10.post8](https://github.com/mjbommar/moratorium-data-2026/releases/tag/v2026.11.10.post8) publishes the reviewed current state with explicit unresolved source and legal-status questions. Further checking continues. The older `v2026.11.8` remains an incomplete prerelease checkpoint.
 
-**Qualified patch:** Seven text fields distinguish Lodi’s conflicting signed effective-date versions and corroborate Nashville’s hearing/adoption sequence and dated staff application statement. Status categories and normalized dates are unchanged. [Release downloads, consumer V22 and23 hosted surfaces](work/research/2026-11-10/release-2026.11.10.post7/README.md) are verified; earlier tags remain immutable.
+**Qualified patch:** Fifteen fields across six Montana/Wyoming records now reflect enrolled texts, a recovered study resolution and current exemption-code/reorganization provisions. One historical effective date is added; two analytical inclusions and two scoped historical closures are supported. Status categories are unchanged. [Release scope and delivery checks](work/research/2026-11-10/release-2026.11.10.post8/README.md) are being verified; prior tags remain immutable.
 
 **Continuing QA:** The HJ46 resolution and Wyoming HB155 sector-class reviews close two historical questions, with 1,356 unresolved records retained. HCR206 exact convening and Massachusetts H5175 independent QA remain open. There are 448 policy observations and 1,776 raw records. Use each release tag for its exact snapshot; later working changes retain their own receipts.
 
@@ -170,7 +170,7 @@ A `CITATION.cff` file is included in the repo so GitHub renders a "Cite this rep
 - **Data** (`data/`, `states/`, `tables/`, `figures/`) is licensed under [Creative Commons Attribution 4.0 (CC-BY-4.0)](LICENSE-data). You can reuse, redistribute, and remix the data, including commercially, as long as you credit the source.
 - **Code** (`scripts/`, `notebooks/`, `examples/`) is licensed under the [MIT License](LICENSE-code).
 
-The latest qualified release is [v2026.11.10.post7](https://github.com/mjbommar/moratorium-data-2026/releases/tag/v2026.11.10.post7), published November 10 with explicit pending QA. September 23 remains the historical comparison baseline. Pin the release tag for replication; working main may contain subsequent reviewed corrections. Historical version labels describe their dated editions, and no DOI is asserted.
+The latest qualified release is [v2026.11.10.post8](https://github.com/mjbommar/moratorium-data-2026/releases/tag/v2026.11.10.post8), published November 10 with explicit pending QA. September 23 remains the historical comparison baseline. Pin the release tag for replication; working main may contain subsequent reviewed corrections. Historical version labels describe their dated editions, and no DOI is asserted.
 
 ---
 

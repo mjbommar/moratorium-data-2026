@@ -1,0 +1,16 @@
+# Qualified Montana and Wyoming batch
+
+Qualified source-specific QA update; overall QA remains active.
+
+Fifteen policy fields across six existing records change since post7/V22:
+
+- Montana SB212: enrolled text establishes precise computing-right/risk-policy/nuisance provisions; historical effectiveness April16,2025 derives from section10 and retained official approval history. Later law, implementation and current force remain open.
+- Montana HJ46: complete official resolution establishes the detailed infrastructure study scope and proposed schedule. Its failed status remains; the historical text/scope review closes and analytical membership becomes included. No actual study, moratorium or report completion is inferred.
+- Wyoming HB67/2010, HB117/2011 and HB64/2013: current published exemption conditions and the2026use-tax administration reorganization are distinguished from the original enactments. Taxpayer-specific eligibility, complete amendment lineage and administrative/judicial/current-force questions remain.
+- Wyoming HB155/2026: the failed reporting proposal's express statutory data-center class is established. Its historical sector-class review closes and analytical membership becomes included; its reporting duties were not enacted. SF79/Chapter19 consolidation and chapter repeal do not by themselves abolish the data-center exemption.
+
+No raw IDs, status categories, local records/coordinates or native tables/history change. Analytical policy scope is383included,19excluded,46reviewed-unresolved and0unreviewed; the exploratory candidate pool remains429. Scoped record dispositions are1,356unresolved,181corrected-resolved and239confirmed-unchanged. Headline raw counts remain1,328local records and448policy observations;57measure/proposal records and53current result observations across52measures remain.134surviving existing status-category differences from September23 include98local and36policy; corrections are not necessarily new government actions. Independent QA for the Massachusetts addition remains pending.
+
+Prior tags/assets/snapshots and native history remain immutable. The original comprehensive research cutoff is retained; source-specific captures do not renew every record. Targeted PDF page review does not claim full review of the514-page code compilation or all37pages of SF79. LSO-summary disclaimers, blank execution lines, empty retrieval shells and malformed original extractions remain explicit in the review receipts. The historical April paper is not synchronized. Downloads, full clean restore, hosted copy and V23consumer delivery are being verified; receipts distinguish each stage. No universal enforceability or ballot legal-effect finding is made.
+
+[Exact fifteen-field delta](dataset-delta.json). Verification and delivery are pending.

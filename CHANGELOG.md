@@ -1,5 +1,18 @@
 # Changelog
 
+## Qualified v2026.11.10.post8
+
+Fifteen policy fields across six Montana/Wyoming records clarified. SB212 gains an enrolled-text historical effective anchor; HJ46 full text and Wyoming HB155's explicit statutory class resolve two scoped historical reviews. The Wyoming use-tax chapter repeal is distinguished from data-center exemption abolition. Analytical scope is383included,19excluded,46reviewed-unresolved and0unreviewed;1,356 records remain unresolved,181 corrected-resolved and239 confirmed-unchanged. No status-category or native-table change;134 September status-category differences remain. [Qualified post8/V23 delivery](work/research/2026-11-10/release-2026.11.10.post8/README.md) is being verified.
+
+| Metric | Qualified v2026.11.10.post8 |
+|---|---:|
+| Moratoria in the list | **1,328** |
+| Classified active or extended | **1,087** |
+| Pending or not yet effective | **64** |
+| Ended (replaced, expired, or rescinded) | **171** |
+| Rows we still want to confirm (`[VERIFY]`) | **979** |
+| States with at least one | **47** |
+
 ## Qualified v2026.11.10.post7
 
 Seven text fields across Lodi and Nashville clarified from distinct signed versions and published council minutes. No category, normalized-date, native-table or whole-record-disposition changes.1,358 unresolved and134 September category differences remain. Lodi version reconciliation/publication and Nashville commencement/effectiveness discrepancies remain explicit. [Qualified post7/V22 delivery](work/research/2026-11-10/release-2026.11.10.post7/README.md) verified.
