@@ -763,8 +763,10 @@ Exit: repeatable refresh with visible freshness, costs, failures and unresolved 
 - [x] Deliver five Ohio narrative/date corrections across three policy records as independently verified consumer V8, source `b91dab52`, consumer `04cfac6d`; see `work/research/2026-11-09/post-release-qa/consumer-v8-handoff.md`.
 
 - [x] Resolve five Wisconsin historical text/applicability holds using15 primary PDF captures,11 retained source-pair checks,six text comparisons and two-page amendment typography review. Apply11 cells and four new analytical inclusions:381 included/19 excluded/48 unresolved. All nine checks pass; unresolved records1,392. Act16 current force remains held. See `work/research/2026-11-09/post-release-qa/wisconsin-review.md`.
-- [ ] Deliver the accumulated41 Wisconsin/Minnesota field corrections across15 records,10 status-category changes and four Wisconsin analytical inclusions to the integration consumer and next qualified release; post3/V8 retain their authenticated cutoffs.
+- [x] Deliver41 Wisconsin/Minnesota cells across15 records,10 status-category changes, four Wisconsin scope inclusions and78 coordinate cells across39 local records in qualified post4 and independently verified consumer V9; post3/V8 retain their authenticated cutoffs.
 
 - [x] Resolve ten Minnesota regular-session outcome holds with the actual final Senate journal, current even-year authority and19 named/companion histories. Apply30 fields as explicitly qualified nonpassage inferences; no fictitious Died event or omnibus-content absence claim. Verify26 native pairs,32 unique retained pairs and all nine checks. Current unresolved1,382; September status differences148 (95 local/53 policy). See `work/research/2026-11-09/post-release-qa/minnesota-review.md`.
 
 - [x] Fill39 missing jurisdiction map anchors from Census2026 with retained identity checks and source hashes; preserve two aggregate blanks, legal-status categories and outstanding legal questions. Regenerate the interactive GeoJSON and correct centroid/precision wording.
+
+- [x] Publish qualified v2026.11.9.post4 from `d1834f68`: two identical builds, full clean restore, ten anonymous assets,2,034 members and13 hosted surfaces verified. Deliver matching V9 to integration main `c180a755`; preserve1,382 unresolved whole-record QA holds.

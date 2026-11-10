@@ -1,0 +1,966 @@
+{
+  "source_commit": "d1834f689d67af8f294dc028c74b22644ce72aa3",
+  "manifest_sha256": "c4fe3dfffd4a95e0e3817ef3dc8fbe4c3040c0195952373162d78c5cd7e06c2d",
+  "expanded_snapshot": "8d1a4df738c50cb71a066c1dc755019f77c94c62fb089cad8a7a9153559f79bb",
+  "current_counts": {
+    "moratorium_records": 1328,
+    "state_policy_records": 448,
+    "ballot_measures": 57,
+    "retained_results": 64,
+    "current_results": 53,
+    "retained_events": 10,
+    "current_accepted_historical_events": 10,
+    "restriction_records": 2,
+    "measure_instrument_link_records": 1
+  },
+  "files": 2094,
+  "entries": 2278,
+  "verified_at": "2026-11-10T01:14:22.703120+00:00",
+  "consumer_verification": {
+    "handoff": {
+      "state": "verified",
+      "source_commit": "d1834f689d67af8f294dc028c74b22644ce72aa3",
+      "manifest_sha256": "c4fe3dfffd4a95e0e3817ef3dc8fbe4c3040c0195952373162d78c5cd7e06c2d",
+      "expanded_snapshot": "8d1a4df738c50cb71a066c1dc755019f77c94c62fb089cad8a7a9153559f79bb",
+      "files": 2094,
+      "entries": 2278,
+      "checks": [
+        {
+          "command": [
+            "scripts/check_expanded_publication.py"
+          ],
+          "exit_code": 0,
+          "result": {
+            "state": "consistent",
+            "snapshot_sha256": "8d1a4df738c50cb71a066c1dc755019f77c94c62fb089cad8a7a9153559f79bb",
+            "generations_checked": 46,
+            "records": {
+              "jurisdictions": 52,
+              "elections": 51,
+              "ballot_measures": 57,
+              "measure_provisions": 52,
+              "measure_results": 64,
+              "local_restrictions": 2,
+              "instrument_events": 10,
+              "measure_instrument_links": 1,
+              "source_documents": 165,
+              "claims": 613,
+              "review_decisions": 2716,
+              "search_runs": 1,
+              "search_attempts": 3,
+              "search_sightings": 18,
+              "coverage_observations": 1
+            },
+            "scope": "Offline publication/receipt consistency only; no source reacquisition, renewed factual acceptance or current-force confirmation."
+          }
+        },
+        {
+          "command": [
+            "scripts/build_expanded_csv.py",
+            "--check"
+          ],
+          "exit_code": 0,
+          "result": {
+            "state": "matches",
+            "source_snapshot": "8d1a4df738c50cb71a066c1dc755019f77c94c62fb089cad8a7a9153559f79bb",
+            "projection_sha256": "099c003dec2ad3a6592e69f985c61cbcd7a7b2cc21577a4e5d96e7553d643694",
+            "csv_views": 18
+          }
+        },
+        {
+          "command": [
+            "scripts/build_policy_scope_exports.py",
+            "--check"
+          ],
+          "exit_code": 0,
+          "result": "policy-scope exports current"
+        }
+      ],
+      "checks_run": true,
+      "scope": "Pinned input integrity and offline publication consistency, not source reacquisition or downstream join acceptance."
+    },
+    "policy_semantics": {
+      "total_state_policy_actions": 448,
+      "total_state_bills": 427,
+      "state_policy_instrument_type_counts": {
+        "bill": 427,
+        "executive_order": 2,
+        "governor_directive": 1,
+        "legislative_amendment": 1,
+        "legislative_precursor": 3,
+        "legislative_resolution": 12,
+        "statute": 2
+      },
+      "top_states_by_bills": [
+        [
+          "Pennsylvania",
+          18
+        ],
+        [
+          "Virginia",
+          18
+        ],
+        [
+          "West Virginia",
+          18
+        ],
+        [
+          "Maryland",
+          16
+        ],
+        [
+          "New Jersey",
+          16
+        ],
+        [
+          "California",
+          14
+        ],
+        [
+          "South Dakota",
+          14
+        ],
+        [
+          "Arizona",
+          13
+        ],
+        [
+          "Iowa",
+          13
+        ],
+        [
+          "Michigan",
+          13
+        ],
+        [
+          "Minnesota",
+          12
+        ],
+        [
+          "Ohio",
+          12
+        ],
+        [
+          "Oklahoma",
+          12
+        ],
+        [
+          "Illinois",
+          11
+        ],
+        [
+          "Kansas",
+          11
+        ]
+      ],
+      "top_states_by_policy_actions": [
+        [
+          "Pennsylvania",
+          22
+        ],
+        [
+          "Virginia",
+          18
+        ],
+        [
+          "West Virginia",
+          18
+        ],
+        [
+          "Maryland",
+          17
+        ],
+        [
+          "New Jersey",
+          17
+        ],
+        [
+          "California",
+          14
+        ],
+        [
+          "Michigan",
+          14
+        ],
+        [
+          "South Dakota",
+          14
+        ],
+        [
+          "Arizona",
+          13
+        ],
+        [
+          "Iowa",
+          13
+        ],
+        [
+          "Kansas",
+          12
+        ],
+        [
+          "Minnesota",
+          12
+        ],
+        [
+          "Ohio",
+          12
+        ],
+        [
+          "Oklahoma",
+          12
+        ],
+        [
+          "Illinois",
+          11
+        ]
+      ]
+    },
+    "scope": "Authenticated reviewed inputs; historical downstream joins retain their cutoffs."
+  },
+  "index_verification": {
+    "snapshot": "data/source-snapshots/moratoria/2026-11-09-reviewed-v9",
+    "source_commit": "d1834f689d67af8f294dc028c74b22644ce72aa3",
+    "manifest_sha256": "c4fe3dfffd4a95e0e3817ef3dc8fbe4c3040c0195952373162d78c5cd7e06c2d",
+    "tracked_files_and_symlinks": 2095,
+    "exact_staged_git_blob_bytes_and_modes": true,
+    "scope": "Exact staged snapshot content, Git modes and path set against the pinned manifest, including the manifest itself. This is not an independent legal review."
+  },
+  "delta_from_v8": {
+    "local": {
+      "changed_rows": 39,
+      "changed_cells": 78,
+      "changes": [
+        {
+          "id": "ak-fairbanks-north-star-borough-undated",
+          "field": "latitude",
+          "before": "",
+          "after": "64.670454"
+        },
+        {
+          "id": "ak-fairbanks-north-star-borough-undated",
+          "field": "longitude",
+          "before": "",
+          "after": "-146.496061"
+        },
+        {
+          "id": "ak-petersburg-borough-undated",
+          "field": "latitude",
+          "before": "",
+          "after": "57.245959"
+        },
+        {
+          "id": "ak-petersburg-borough-undated",
+          "field": "longitude",
+          "before": "",
+          "after": "-132.788762"
+        },
+        {
+          "id": "ca-hayward-2026",
+          "field": "latitude",
+          "before": "",
+          "after": "37.626826"
+        },
+        {
+          "id": "ca-hayward-2026",
+          "field": "longitude",
+          "before": "",
+          "after": "-122.104015"
+        },
+        {
+          "id": "co-brighton-undated",
+          "field": "latitude",
+          "before": "",
+          "after": "39.965676"
+        },
+        {
+          "id": "co-brighton-undated",
+          "field": "longitude",
+          "before": "",
+          "after": "-104.794056"
+        },
+        {
+          "id": "co-fort-collins-undated",
+          "field": "latitude",
+          "before": "",
+          "after": "40.548405"
+        },
+        {
+          "id": "co-fort-collins-undated",
+          "field": "longitude",
+          "before": "",
+          "after": "-105.064988"
+        },
+        {
+          "id": "co-phillips-county-2024",
+          "field": "latitude",
+          "before": "",
+          "after": "40.594712"
+        },
+        {
+          "id": "co-phillips-county-2024",
+          "field": "longitude",
+          "before": "",
+          "after": "-102.345105"
+        },
+        {
+          "id": "co-phillips-county-2025",
+          "field": "latitude",
+          "before": "",
+          "after": "40.594712"
+        },
+        {
+          "id": "co-phillips-county-2025",
+          "field": "longitude",
+          "before": "",
+          "after": "-102.345105"
+        },
+        {
+          "id": "de-kent-county-2022",
+          "field": "latitude",
+          "before": "",
+          "after": "39.097088"
+        },
+        {
+          "id": "de-kent-county-2022",
+          "field": "longitude",
+          "before": "",
+          "after": "-75.502982"
+        },
+        {
+          "id": "de-kent-county-undated",
+          "field": "latitude",
+          "before": "",
+          "after": "39.097088"
+        },
+        {
+          "id": "de-kent-county-undated",
+          "field": "longitude",
+          "before": "",
+          "after": "-75.502982"
+        },
+        {
+          "id": "ga-union-county-2026",
+          "field": "latitude",
+          "before": "",
+          "after": "34.833333"
+        },
+        {
+          "id": "ga-union-county-2026",
+          "field": "longitude",
+          "before": "",
+          "after": "-83.989257"
+        },
+        {
+          "id": "ia-sac-county-2025",
+          "field": "latitude",
+          "before": "",
+          "after": "42.387526"
+        },
+        {
+          "id": "ia-sac-county-2025",
+          "field": "longitude",
+          "before": "",
+          "after": "-95.105224"
+        },
+        {
+          "id": "ia-sioux-county-2023",
+          "field": "latitude",
+          "before": "",
+          "after": "43.082618"
+        },
+        {
+          "id": "ia-sioux-county-2023",
+          "field": "longitude",
+          "before": "",
+          "after": "-96.17798"
+        },
+        {
+          "id": "id-blaine-county-undated",
+          "field": "latitude",
+          "before": "",
+          "after": "43.394179"
+        },
+        {
+          "id": "id-blaine-county-undated",
+          "field": "longitude",
+          "before": "",
+          "after": "-113.955387"
+        },
+        {
+          "id": "il-chicago-undated",
+          "field": "latitude",
+          "before": "",
+          "after": "41.837045"
+        },
+        {
+          "id": "il-chicago-undated",
+          "field": "longitude",
+          "before": "",
+          "after": "-87.684939"
+        },
+        {
+          "id": "il-stephenson-county-2026",
+          "field": "latitude",
+          "before": "",
+          "after": "42.349726"
+        },
+        {
+          "id": "il-stephenson-county-2026",
+          "field": "longitude",
+          "before": "",
+          "after": "-89.665994"
+        },
+        {
+          "id": "in-vermillion-county-undated",
+          "field": "latitude",
+          "before": "",
+          "after": "39.854045"
+        },
+        {
+          "id": "in-vermillion-county-undated",
+          "field": "longitude",
+          "before": "",
+          "after": "-87.462071"
+        },
+        {
+          "id": "in-zionsville-undated",
+          "field": "latitude",
+          "before": "",
+          "after": "39.991538"
+        },
+        {
+          "id": "in-zionsville-undated",
+          "field": "longitude",
+          "before": "",
+          "after": "-86.321762"
+        },
+        {
+          "id": "ky-camargo-2026",
+          "field": "latitude",
+          "before": "",
+          "after": "37.999694"
+        },
+        {
+          "id": "ky-camargo-2026",
+          "field": "longitude",
+          "before": "",
+          "after": "-83.888489"
+        },
+        {
+          "id": "la-bossier-parish-2022",
+          "field": "latitude",
+          "before": "",
+          "after": "32.693317"
+        },
+        {
+          "id": "la-bossier-parish-2022",
+          "field": "longitude",
+          "before": "",
+          "after": "-93.631366"
+        },
+        {
+          "id": "ma-braintree-undated",
+          "field": "latitude",
+          "before": "",
+          "after": "42.206188"
+        },
+        {
+          "id": "ma-braintree-undated",
+          "field": "longitude",
+          "before": "",
+          "after": "-71.00232"
+        },
+        {
+          "id": "ma-methuen-undated",
+          "field": "latitude",
+          "before": "",
+          "after": "42.742648"
+        },
+        {
+          "id": "ma-methuen-undated",
+          "field": "longitude",
+          "before": "",
+          "after": "-71.178643"
+        },
+        {
+          "id": "md-talbot-county-2022",
+          "field": "latitude",
+          "before": "",
+          "after": "38.747066"
+        },
+        {
+          "id": "md-talbot-county-2022",
+          "field": "longitude",
+          "before": "",
+          "after": "-76.177374"
+        },
+        {
+          "id": "me-ashland-2024",
+          "field": "latitude",
+          "before": "",
+          "after": "46.650441"
+        },
+        {
+          "id": "me-ashland-2024",
+          "field": "longitude",
+          "before": "",
+          "after": "-68.388373"
+        },
+        {
+          "id": "me-bridgton-2022",
+          "field": "latitude",
+          "before": "",
+          "after": "44.047513"
+        },
+        {
+          "id": "me-bridgton-2022",
+          "field": "longitude",
+          "before": "",
+          "after": "-70.743319"
+        },
+        {
+          "id": "mi-locke-township-2023",
+          "field": "latitude",
+          "before": "",
+          "after": "42.733945"
+        },
+        {
+          "id": "mi-locke-township-2023",
+          "field": "longitude",
+          "before": "",
+          "after": "-84.206362"
+        },
+        {
+          "id": "mi-locke-township-2023-2",
+          "field": "latitude",
+          "before": "",
+          "after": "42.733945"
+        },
+        {
+          "id": "mi-locke-township-2023-2",
+          "field": "longitude",
+          "before": "",
+          "after": "-84.206362"
+        },
+        {
+          "id": "mi-meridian-township-2026-2",
+          "field": "latitude",
+          "before": "",
+          "after": "42.725291"
+        },
+        {
+          "id": "mi-meridian-township-2026-2",
+          "field": "longitude",
+          "before": "",
+          "after": "-84.419722"
+        },
+        {
+          "id": "mn-pequot-lakes-undated",
+          "field": "latitude",
+          "before": "",
+          "after": "46.588091"
+        },
+        {
+          "id": "mn-pequot-lakes-undated",
+          "field": "longitude",
+          "before": "",
+          "after": "-94.287969"
+        },
+        {
+          "id": "nc-town-of-mooresville-undated",
+          "field": "latitude",
+          "before": "",
+          "after": "35.583591"
+        },
+        {
+          "id": "nc-town-of-mooresville-undated",
+          "field": "longitude",
+          "before": "",
+          "after": "-80.828328"
+        },
+        {
+          "id": "ne-sarpy-county-2020",
+          "field": "latitude",
+          "before": "",
+          "after": "41.115064"
+        },
+        {
+          "id": "ne-sarpy-county-2020",
+          "field": "longitude",
+          "before": "",
+          "after": "-96.109125"
+        },
+        {
+          "id": "nj-east-windsor-undated",
+          "field": "latitude",
+          "before": "",
+          "after": "40.259139"
+        },
+        {
+          "id": "nj-east-windsor-undated",
+          "field": "longitude",
+          "before": "",
+          "after": "-74.533576"
+        },
+        {
+          "id": "nm-silver-city-2021",
+          "field": "latitude",
+          "before": "",
+          "after": "32.778581"
+        },
+        {
+          "id": "nm-silver-city-2021",
+          "field": "longitude",
+          "before": "",
+          "after": "-108.269409"
+        },
+        {
+          "id": "ny-massena-undated",
+          "field": "latitude",
+          "before": "",
+          "after": "44.96202"
+        },
+        {
+          "id": "ny-massena-undated",
+          "field": "longitude",
+          "before": "",
+          "after": "-74.83465"
+        },
+        {
+          "id": "ny-niagara-2024",
+          "field": "latitude",
+          "before": "",
+          "after": "43.115446"
+        },
+        {
+          "id": "ny-niagara-2024",
+          "field": "longitude",
+          "before": "",
+          "after": "-78.98098"
+        },
+        {
+          "id": "sc-awendaw-undated",
+          "field": "latitude",
+          "before": "",
+          "after": "32.967885"
+        },
+        {
+          "id": "sc-awendaw-undated",
+          "field": "longitude",
+          "before": "",
+          "after": "-79.654755"
+        },
+        {
+          "id": "tn-orlinda-2026",
+          "field": "latitude",
+          "before": "",
+          "after": "36.593839"
+        },
+        {
+          "id": "tn-orlinda-2026",
+          "field": "longitude",
+          "before": "",
+          "after": "-86.701561"
+        },
+        {
+          "id": "wa-spokane-valley-2026",
+          "field": "latitude",
+          "before": "",
+          "after": "47.663353"
+        },
+        {
+          "id": "wa-spokane-valley-2026",
+          "field": "longitude",
+          "before": "",
+          "after": "-117.23278"
+        },
+        {
+          "id": "wa-whitman-county-2025",
+          "field": "latitude",
+          "before": "",
+          "after": "46.905944"
+        },
+        {
+          "id": "wa-whitman-county-2025",
+          "field": "longitude",
+          "before": "",
+          "after": "-117.53539"
+        },
+        {
+          "id": "wi-sun-prairie-2026",
+          "field": "latitude",
+          "before": "",
+          "after": "43.183796"
+        },
+        {
+          "id": "wi-sun-prairie-2026",
+          "field": "longitude",
+          "before": "",
+          "after": "-89.234319"
+        }
+      ]
+    },
+    "policy": {
+      "changed_rows": 15,
+      "changed_cells": 41,
+      "changes": [
+        {
+          "id": "mn-hf-4077-2026",
+          "field": "status",
+          "before": "Terminal outcome unknown. Unverified legacy assertion: Died in House Judiciary Finance and Civil Law Committee (last log entry: authors added 2026-05-11); Sine Die 2026-05-18. Senate final journal, applicable carryover authority and complete bill and companion histories remain required.",
+          "after": "Fresh official 94th regular-session histories observed November 9, 2026 Eastern record HF4077 through 2026-05-11 (Authors added Rehm and Fischer); SF4379 through 2026-04-07 (Second reading). Both houses adjourned sine die on May 18, 2026 calendar date; the final Senate journal is headed May 17 legislative day. Regular-session nonpassage is inferred from the complete named/companion histories, constitutional even-year passage cutoff and actual adjournments. No bill-specific Died entry or absence of enactment through another omnibus bill is asserted."
+        },
+        {
+          "id": "mn-hf-4077-2026",
+          "field": "bill_status_category",
+          "before": "unknown",
+          "after": "failed_died"
+        },
+        {
+          "id": "mn-hf-4077-2026",
+          "field": "legal_effect_status",
+          "before": "unknown",
+          "after": "failed"
+        },
+        {
+          "id": "mn-hf-4814-sf-4548-2026",
+          "field": "status",
+          "before": "Terminal outcome unknown. Unverified legacy assertion: Died in committee, both chambers (HF4814 last authors added 2026-04-22; SF4548 re-referred to Judiciary and Public Safety 2026-03-25); Sine Die 2026-05-18. Senate final journal, applicable carryover authority and complete bill and companion histories remain required.",
+          "after": "Fresh official 94th regular-session histories observed November 9, 2026 Eastern record HF4814 through 2026-04-22 (Author added Rehrauer); SF4548 through 2026-03-25 (Comm report: To pass as amended and re-refer to Judiciary and Public Safety). Both houses adjourned sine die on May 18, 2026 calendar date; the final Senate journal is headed May 17 legislative day. Regular-session nonpassage is inferred from the complete named/companion histories, constitutional even-year passage cutoff and actual adjournments. No bill-specific Died entry or absence of enactment through another omnibus bill is asserted."
+        },
+        {
+          "id": "mn-hf-4814-sf-4548-2026",
+          "field": "bill_status_category",
+          "before": "unknown",
+          "after": "failed_died"
+        },
+        {
+          "id": "mn-hf-4814-sf-4548-2026",
+          "field": "legal_effect_status",
+          "before": "unknown",
+          "after": "failed"
+        },
+        {
+          "id": "mn-sf-3968-hf-2928-2026",
+          "field": "status",
+          "before": "Terminal outcome unknown. Unverified legacy assertion: Died in committee, both chambers (SF3968 no action after referral 2026-02-26; HF2928 last authors added 2026-04-09); Sine Die 2026-05-18. Senate final journal, applicable carryover authority and complete bill and companion histories remain required.",
+          "after": "Fresh official 94th regular-session histories observed November 9, 2026 Eastern record SF3968 through 2026-02-26 (Referred to Energy, Utilities, Environment, and Climate); HF2928 through 2026-04-09 (Author added Jones). Both houses adjourned sine die on May 18, 2026 calendar date; the final Senate journal is headed May 17 legislative day. Regular-session nonpassage is inferred from the complete named/companion histories, constitutional even-year passage cutoff and actual adjournments. No bill-specific Died entry or absence of enactment through another omnibus bill is asserted."
+        },
+        {
+          "id": "mn-sf-3968-hf-2928-2026",
+          "field": "bill_status_category",
+          "before": "unknown",
+          "after": "failed_died"
+        },
+        {
+          "id": "mn-sf-3968-hf-2928-2026",
+          "field": "legal_effect_status",
+          "before": "unknown",
+          "after": "failed"
+        },
+        {
+          "id": "mn-sf-4203-2026",
+          "field": "status",
+          "before": "Terminal outcome unknown. Unverified legacy assertion: Died in Senate Taxes Committee (last log entry: co-author added 2026-03-17); Sine Die 2026-05-18. Senate final journal, applicable carryover authority and complete bill and companion histories remain required.",
+          "after": "Fresh official 94th regular-session histories observed November 9, 2026 Eastern record SF4203 through 2026-03-17 (Author added Boldon); HF4173 through 2026-05-06 (Author added Kozlowski). Both houses adjourned sine die on May 18, 2026 calendar date; the final Senate journal is headed May 17 legislative day. Regular-session nonpassage is inferred from the complete named/companion histories, constitutional even-year passage cutoff and actual adjournments. No bill-specific Died entry or absence of enactment through another omnibus bill is asserted."
+        },
+        {
+          "id": "mn-sf-4203-2026",
+          "field": "bill_status_category",
+          "before": "unknown",
+          "after": "failed_died"
+        },
+        {
+          "id": "mn-sf-4203-2026",
+          "field": "legal_effect_status",
+          "before": "unknown",
+          "after": "failed"
+        },
+        {
+          "id": "mn-sf-4296-hf-4512-2026",
+          "field": "status",
+          "before": "Terminal outcome unknown. Unverified legacy assertion: Died in committee, both chambers (SF4296 passed second reading 2026-03-18 but no third-reading floor vote; HF4512 last authors added 2026-04-09); Sine Die 2026-05-18. Senate final journal, applicable carryover authority and complete bill and companion histories remain required.",
+          "after": "Fresh official 94th regular-session histories observed November 9, 2026 Eastern record SF4296 through 2026-03-18 (Second reading); HF4512 through 2026-04-09 (Author added Jones). Both houses adjourned sine die on May 18, 2026 calendar date; the final Senate journal is headed May 17 legislative day. Regular-session nonpassage is inferred from the complete named/companion histories, constitutional even-year passage cutoff and actual adjournments. No bill-specific Died entry or absence of enactment through another omnibus bill is asserted."
+        },
+        {
+          "id": "mn-sf-4296-hf-4512-2026",
+          "field": "bill_status_category",
+          "before": "unknown",
+          "after": "failed_died"
+        },
+        {
+          "id": "mn-sf-4296-hf-4512-2026",
+          "field": "legal_effect_status",
+          "before": "unknown",
+          "after": "failed"
+        },
+        {
+          "id": "mn-sf-4298-hf-4888-2026",
+          "field": "status",
+          "before": "Terminal outcome unknown. Unverified legacy assertion: Died in committee, both chambers (SF4298 no action after referral 2026-03-09; HF4888 last co-author added 2026-05-05); Sine Die 2026-05-18. Senate final journal, applicable carryover authority and complete bill and companion histories remain required.",
+          "after": "Fresh official 94th regular-session histories observed November 9, 2026 Eastern record SF4298 through 2026-03-09 (Referred to Energy, Utilities, Environment, and Climate); HF4888 through 2026-05-05 (Author added Fischer). Both houses adjourned sine die on May 18, 2026 calendar date; the final Senate journal is headed May 17 legislative day. Regular-session nonpassage is inferred from the complete named/companion histories, constitutional even-year passage cutoff and actual adjournments. No bill-specific Died entry or absence of enactment through another omnibus bill is asserted."
+        },
+        {
+          "id": "mn-sf-4298-hf-4888-2026",
+          "field": "bill_status_category",
+          "before": "unknown",
+          "after": "failed_died"
+        },
+        {
+          "id": "mn-sf-4298-hf-4888-2026",
+          "field": "legal_effect_status",
+          "before": "unknown",
+          "after": "failed"
+        },
+        {
+          "id": "mn-sf-4816-2026",
+          "field": "status",
+          "before": "Terminal outcome unknown. Unverified legacy assertion: Died in Senate Environment, Climate, and Legacy Committee (no action after referral 2026-03-25); Sine Die 2026-05-18. Senate final journal, applicable carryover authority and complete bill and companion histories remain required.",
+          "after": "Fresh official 94th regular-session histories observed November 9, 2026 Eastern record SF4816 through 2026-03-25 (Referred to Environment, Climate, and Legacy). Both houses adjourned sine die on May 18, 2026 calendar date; the final Senate journal is headed May 17 legislative day. Regular-session nonpassage is inferred from the complete named/companion histories, constitutional even-year passage cutoff and actual adjournments. No bill-specific Died entry or absence of enactment through another omnibus bill is asserted."
+        },
+        {
+          "id": "mn-sf-4816-2026",
+          "field": "bill_status_category",
+          "before": "unknown",
+          "after": "failed_died"
+        },
+        {
+          "id": "mn-sf-4816-2026",
+          "field": "legal_effect_status",
+          "before": "unknown",
+          "after": "failed"
+        },
+        {
+          "id": "mn-sf-5100-2026",
+          "field": "status",
+          "before": "Terminal outcome unknown. Retained Senate and recovered House companion histories show the latest listed paired action on 2026-04-16; House adjourned sine die 2026-05-18. Final outcome and applicable end-of-biennium authority remain unresolved.",
+          "after": "Fresh official 94th regular-session histories observed November 9, 2026 Eastern record SF5100 through 2026-04-13 (Referred to Energy, Utilities, Environment, and Climate); HF4990 through 2026-04-16 (Introduction and first reading, referred to Environment and Natural Resources Finance and Policy). Both houses adjourned sine die on May 18, 2026 calendar date; the final Senate journal is headed May 17 legislative day. Regular-session nonpassage is inferred from the complete named/companion histories, constitutional even-year passage cutoff and actual adjournments. No bill-specific Died entry or absence of enactment through another omnibus bill is asserted."
+        },
+        {
+          "id": "mn-sf-5100-2026",
+          "field": "bill_status_category",
+          "before": "unknown",
+          "after": "failed_died"
+        },
+        {
+          "id": "mn-sf-5100-2026",
+          "field": "legal_effect_status",
+          "before": "unknown",
+          "after": "failed"
+        },
+        {
+          "id": "mn-sf-5231-2026",
+          "field": "status",
+          "before": "Terminal outcome unknown. Retained Senate and recovered House companion histories show the latest listed paired action on 2026-05-17; House adjourned sine die 2026-05-18. Final outcome and applicable end-of-biennium authority remain unresolved.",
+          "after": "Fresh official 94th regular-session histories observed November 9, 2026 Eastern record SF5231 through 2026-04-28 (Author added Boldon); HF5125 through 2026-05-17 (Author added Pursell). Both houses adjourned sine die on May 18, 2026 calendar date; the final Senate journal is headed May 17 legislative day. Regular-session nonpassage is inferred from the complete named/companion histories, constitutional even-year passage cutoff and actual adjournments. No bill-specific Died entry or absence of enactment through another omnibus bill is asserted."
+        },
+        {
+          "id": "mn-sf-5231-2026",
+          "field": "bill_status_category",
+          "before": "unknown",
+          "after": "failed_died"
+        },
+        {
+          "id": "mn-sf-5231-2026",
+          "field": "legal_effect_status",
+          "before": "unknown",
+          "after": "failed"
+        },
+        {
+          "id": "mn-sf-608-hf-1109-2025",
+          "field": "status",
+          "before": "Terminal outcome unknown. Unverified legacy assertion: Died in committee, both chambers (SF608 no action after 2025-03-20; HF1109 no action after introduction 2025-02-19); Sine Die 2026-05-18. Senate final journal, applicable carryover authority and complete bill and companion histories remain required.",
+          "after": "Fresh official 94th regular-session histories observed November 9, 2026 Eastern record SF608 through 2025-03-20 (Author added McEwen); HF1109 through 2025-02-19 (Introduction and first reading, referred to Elections Finance and Government Operations). Both houses adjourned sine die on May 18, 2026 calendar date; the final Senate journal is headed May 17 legislative day. Regular-session nonpassage is inferred from the complete named/companion histories, constitutional even-year passage cutoff and actual adjournments. No bill-specific Died entry or absence of enactment through another omnibus bill is asserted."
+        },
+        {
+          "id": "mn-sf-608-hf-1109-2025",
+          "field": "bill_status_category",
+          "before": "unknown",
+          "after": "failed_died"
+        },
+        {
+          "id": "mn-sf-608-hf-1109-2025",
+          "field": "legal_effect_status",
+          "before": "unknown",
+          "after": "failed"
+        },
+        {
+          "id": "wi-ab228-sb241",
+          "field": "key_provisions",
+          "before": "Would have created a broader TIF exception for districts containing qualified data centers.",
+          "after": "Failed proposal for WEDC-certified data-center TIF districts: except a district from the 12% equalized-value-limit findings requirement only when all project costs relate to an in-district qualified data center; prohibit later non-data-center project costs; and exclude excepted district value increments from other municipal TIF-limit calculations. Introduced AB228/SB241 operative texts match after documented normalization."
+        },
+        {
+          "id": "wi-ab228-sb241",
+          "field": "policy_mechanism",
+          "before": "other",
+          "after": "incentive_support"
+        },
+        {
+          "id": "wi-ab228-sb241",
+          "field": "scope_of_action",
+          "before": "unknown",
+          "after": "fiscal"
+        },
+        {
+          "id": "wi-ab245-sb244",
+          "field": "key_provisions",
+          "before": "Would have modified the qualified data center sales and use tax exemption and excluded cryptocurrency operations from the definition.",
+          "after": "Introduced sales/use-tax proposal revised qualified-data-center certification, including a separate colocation/rental-services alternative and a cryptocurrency exclusion. Recommended AB245 AA1 replaces that alternative with standalone/networked server computing for an owner, operator or tenant, for themselves or others; changes the crypto exclusion from AND to OR; restricts qualified-investment spending to the business entity specified in section238.40(1)(b) or its affiliate; and adds crypto-based certification revocation. SB244 SA1 has matching amendment instructions. Committee recommendation does not establish enactment; both bills failed."
+        },
+        {
+          "id": "wi-ab245-sb244",
+          "field": "policy_mechanism",
+          "before": "other",
+          "after": "incentive_support"
+        },
+        {
+          "id": "wi-ab840-sb843",
+          "field": "key_provisions",
+          "before": "Would have required utility cost protections, onsite or directly accessible renewable resources, closed-loop cooling, annual water reporting, bonding, and reclamation for large data centers.",
+          "after": "Introduced AB840/SB843 proposed infrastructure-cost protections, onsite siting of renewable facilities primarily serving a data center, closed-loop cooling, annual water reports, bonding and reclamation. AB840 adopted ASA1 targets defined large data centers, expands protection to all utility costs, allows cooling using no more water than a closed loop, and ties restoration after permit expiry to municipal requirements. Its renewable-siting, cooling and bonding provisions exempt centers already operating or under construction on the proposed effective date. Offered SB843 SSA2 additionally proposes local approval of certain wind/solar projects; it is not treated as adopted. These are failed-bill terms."
+        },
+        {
+          "id": "wi-ab840-sb843",
+          "field": "primary_source_url",
+          "before": "",
+          "after": "https://docs.legis.wisconsin.gov/document/amends/2025/REG/AB840-ASA1.pdf"
+        },
+        {
+          "id": "wi-sb1061-ab1099",
+          "field": "key_provisions",
+          "before": "Statewide moratorium bill. It would have barred operation of data centers unless state law first created a planning authority, cost-shift protections, subsidy limits, public water and power reporting, pollution safeguards, renewable energy requirements, labor standards, NDA limits, local referendum approval, and enforcement provisions.",
+          "after": "Failed proposed operation moratorium for facilities primarily storing, managing and processing digital data that satisfy any one of: at least5000 servers, at least10000 square feet, or at least100MW demand. Operation would depend on all14 safeguards being provided by law, as determined by the DATCP secretary: planning authority, utility/infrastructure cost protections, recovery funding, subsidy elimination, water/energy reporting, pollution safeguards,100% newly built directly accessible renewables, construction wage standards, restored PSC planning, NDA restrictions, local referendum approval and enforcement. The referendum condition is a proposed legal prerequisite, not an observed ballot contest."
+        },
+        {
+          "id": "wi-sb1061-ab1099",
+          "field": "primary_source_url",
+          "before": "",
+          "after": "https://docs.legis.wisconsin.gov/document/proposaltext/2025/REG/SB1061.pdf"
+        },
+        {
+          "id": "wi-sb969-ab1036",
+          "field": "key_provisions",
+          "before": "Would have prohibited nondisclosure agreements intended to conceal data center information from the public, with trade-secret exceptions.",
+          "after": "Failed proposal barring political subdivisions and data centers or their agents from agreements, including NDAs, whose purpose or effect conceals development details or prevents public review. The exception is an agreement with the sole purpose of protecting a trade secret. A political subdivision could not permit or approve a data-center project while it or the center/agent violates the specified disclosure-agreement rules. Introduced SB969/AB1036 operative texts match after documented normalization."
+        },
+        {
+          "id": "wi-sb969-ab1036",
+          "field": "primary_source_url",
+          "before": "",
+          "after": "https://docs.legis.wisconsin.gov/document/proposaltext/2025/REG/SB969.pdf"
+        }
+      ]
+    }
+  },
+  "trusted_verifier_sha256": "7b05070929c964e2b4f9225cfb3a81ef4c52729633b3f86b421b2eee1d3b7364",
+  "scope": "Authenticated current canonical input delivery from same source as qualified post4. Historical populations, joins and manuscript editions retain their cutoffs. Source/legal QA and independent QA of Massachusetts addition remain open.",
+  "consumer_commit": "c180a755a20cded5837055635b1f5dae028c5892",
+  "consumer_remote_main_verified": true,
+  "consumer_remote_main_observed_at": "2026-11-10T01:15:47.977604+00:00",
+  "hosted_source_verification": "work/research/2026-11-09/release-2026.11.9.post4/hosted-copy-verification.json",
+  "qualified_release": "v2026.11.9.post4",
+  "qualified_release_manifest_sha256": "3c2a454e261bea0e60f7ac3a2a521590ebae605e3ffb6afaa0ab66069d32b02e",
+  "other_consumer_scope": "Earlier consumer deliveries, frozen cohorts, historical joins and dated editions retain their boundaries. No new manuscript, project applicability or causal conclusion is delivered."
+}
