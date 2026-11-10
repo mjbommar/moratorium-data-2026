@@ -789,3 +789,5 @@ Exit: repeatable refresh with visible freshness, costs, failures and unresolved 
 
 - [x] Publish qualified post7 and matching verified V12 from `18125103`: 32 cells across ten local records, three recorded category corrections; deterministic builds, clean restore, ten anonymous assets, all archive members, thirteen hosted surfaces and independent consumer checks verified. Keep 1,368 unresolved holds explicit.
 - [ ] Review Starke Ordinance 2026-34 as an expanded-model permanent restriction/instrument link; adopted-prohibition legacy prose does not itself promote a new expanded observation.
+
+- [x] Prepare the unpublished Starke 2026-34 expanded candidate: one restriction/adoption event, six source-verified claims and three reproducible visual reviews; profile 1.0.4 validation passes. Production expanded generation and identity registry remain unchanged. See `work/research/2026-11-09/starke-expanded-review/README.md`.

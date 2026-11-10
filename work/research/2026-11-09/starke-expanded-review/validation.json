@@ -1,0 +1,34 @@
+{
+  "state": "validated_unpublished_candidate",
+  "validation_profile": "1.0.4",
+  "schema_errors": [],
+  "validated_tables": 15,
+  "baseline_generation": "8d1a4df738c50cb71a066c1dc755019f77c94c62fb089cad8a7a9153559f79bb",
+  "baseline_tables_sha256": "7efdbf363c398e3bf9b1a15f06389c9d0a6aa20afaf9c9d8db165a10a635112e",
+  "candidate_tables_sha256": "5df43b23fb78f3e239065f9a6276f46705fefc2254749b0a7fec287d26cb07f8",
+  "canonical_registry_sha256": "6b7e4386e1c9774e6ee4ce37121fd350048bfe41662f368d08f2923aeab29cb3",
+  "private_preview_registry_sha256": "303cd33f59cbd0b8d8fb018f174debda72a1dec4fc7f3de638f5b3b96bbf635a",
+  "canonical_registry_unchanged": true,
+  "prior_rows_unchanged": true,
+  "new_records": {
+    "jurisdictions": 1,
+    "local_restrictions": 1,
+    "instrument_events": 1,
+    "source_documents": 1,
+    "claims": 6,
+    "review_decisions": 18
+  },
+  "legacy_input_sha256": {
+    "data/moratorium_inventory.csv": "0e8a02c2a5fe388f1cbe95ffc8abd1756ea2727d5239677c7f6fc345d255eb58",
+    "data/state_legislation.csv": "af968b595443fdb6a70463c506c37fd60cdec4c4009a92478c45c34e9675edcd"
+  },
+  "new_claims_verified": 6,
+  "visual_claims_verified": 3,
+  "canonical_publication_changed": false,
+  "remaining": [
+    "Reconcile publication plan against current sealed predecessor and independently rebind prior evidence proofs.",
+    "Run complete publication gate, apply and exact replay before claiming published expanded counts.",
+    "Review policy-predecessor relationship separately; current candidate is a signed restriction-adoption event, not formal moratorium termination.",
+    "Keep actual publication, effectiveness, applicability and current status unresolved."
+  ]
+}

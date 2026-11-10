@@ -1,0 +1,11 @@
+# Starke expanded-model candidate review
+
+Prepared a schema-valid, evidence-checked **unpublished candidate** for signed Starke County Ordinance 2026-34. It adds one jurisdiction, one official source, one local restriction, one historical adoption event, six claims and eighteen scoped candidate review decisions. See [candidate records](candidate-delta.json), [field dispositions](reviewed-fields.json), [identity plan](identity-plan.json), [evidence checks](source-preflight.json) and [validation](validation.json).
+
+The restriction `8a588483-e418-4554-b30f-6db49f2a43a3` records the defined commercial-data-center prohibition, specified exclusions and preservation of permitted-use BESS rules. Adoption event `d9dbfe35-960a-40a2-a011-02bd87a7844d` records October 19, 2026. Three reproducible visual-value reviews bind the handwritten number and date to the retained official PDF. No vote tally is inferred from signatures. Direct root/coordinator review is identified truthfully; no new independent reviewer is claimed.
+
+Adoption is accepted historically in the candidate. Status, effective date, applicability and end remain unknown. The passage-and-publication clause is retained without inventing a publication date. The recommendation cover's typed 2026-26 reference is distinguished from the signed ordinance heading 2026-34. A policy-predecessor relationship to the legacy moratorium requires its own reviewed claim; this adoption event does not declare formal termination.
+
+The candidate preserves every previously published row and all legacy CSV inputs. The production identity registry and expanded publication pointer are unchanged. Current published counts remain two restriction records and ten instrument events; candidate additions are excluded from those counts. Post7 and consumer V12 retain their delivered source cutoffs.
+
+Before publication, bind the complete publication plan to the current sealed predecessor, revalidate prior evidence bindings, pass the full publication gate, apply the identity/domain plans and verify exact replay. Then regenerate projections, update all affected prose and deliver a qualified release/consumer snapshot. Raw sources, OCR, renderings, failed-draft diagnostics and the full candidate copy remain private; this packet contains reviewed metadata and legal-text excerpts only.

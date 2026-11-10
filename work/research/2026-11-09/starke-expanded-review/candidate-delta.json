@@ -1,0 +1,569 @@
+{
+  "jurisdictions": [
+    {
+      "schema_version": "1.0.0",
+      "jurisdiction_id": "b6ed46cb-c855-4c9b-8e95-460ad229e3d2",
+      "name": "Starke County",
+      "state": "IN",
+      "government_type": "county",
+      "county": null,
+      "authoritative_ids": {},
+      "aliases": [],
+      "boundary_reference": null,
+      "valid_from": null,
+      "valid_until": null
+    }
+  ],
+  "local_restrictions": [
+    {
+      "schema_version": "1.0.0",
+      "restriction_id": "8a588483-e418-4554-b30f-6db49f2a43a3",
+      "jurisdiction_id": "b6ed46cb-c855-4c9b-8e95-460ad229e3d2",
+      "title": "Starke County Ordinance No. 2026-34: commercial data-center prohibition",
+      "status": "unknown",
+      "provisions": [
+        "Prohibits defined commercial data centers as principal or accessory uses in all zoning districts within Plan Commission jurisdiction, including PUDs. Includes hyperscale facilities, crypto-mining and server farms, while retaining specified telecom/public-broadband and bounded accessory-IT exclusions. Adds infrastructure-circumvention restrictions for prohibited facilities while preserving standalone BESS rules for permitted uses."
+      ],
+      "adoption": {
+        "earliest": "2026-10-19",
+        "latest": "2026-10-19",
+        "precision": "day",
+        "original_text": "19 October 2026"
+      },
+      "effective": {
+        "earliest": null,
+        "latest": null,
+        "precision": "unknown",
+        "original_text": null
+      },
+      "applicability_start": {
+        "earliest": null,
+        "latest": null,
+        "precision": "unknown",
+        "original_text": null
+      },
+      "retroactivity_explanation": null,
+      "end": {
+        "earliest": null,
+        "latest": null,
+        "precision": "unknown",
+        "original_text": null
+      },
+      "duration_original": null,
+      "claim_ids": [
+        "cb361d79-7f74-41b0-abaa-1335ee19fd1e",
+        "04a37e24-3482-48f8-a307-27760b939fe4",
+        "1b14e24d-b2d2-44ff-854b-116bbee31fea",
+        "4508acae-135e-48f4-88a1-7878c2186c44"
+      ]
+    }
+  ],
+  "instrument_events": [
+    {
+      "schema_version": "1.0.0",
+      "event_id": "d9dbfe35-960a-40a2-a011-02bd87a7844d",
+      "instrument": {
+        "kind": "restriction",
+        "id": "8a588483-e418-4554-b30f-6db49f2a43a3"
+      },
+      "action": "adopted",
+      "occurrence": {
+        "earliest": "2026-10-19",
+        "latest": "2026-10-19",
+        "precision": "day",
+        "original_text": "19 October 2026"
+      },
+      "observed_at": "2026-11-10T03:47:32.265827+00:00",
+      "published_at": null,
+      "claim_ids": [
+        "081f6a59-4d0d-4b9b-9af9-01ca274f80ea"
+      ]
+    }
+  ],
+  "source_documents": [
+    {
+      "schema_version": "1.0.0",
+      "source_document_id": "47a5e5c0-bef1-4ed5-b4ca-d1665f7a3bab",
+      "url": "https://starke.in.gov/wp-content/uploads/2026/10/ORD-2026-34-Regulation-and-Prohibition-of-Data-Centers.pdf",
+      "body_sha256": "e9586be9cde1e691406a6e760566c171f138db71a14ebe5f4a3bd56abf9658b7",
+      "text_sha256": "3e696bf4e454b2fc748716d758dfdc3d8dd3c6ee65e3c37b05023624e205065f",
+      "retrieved_at": "2026-11-10T03:16:22.227449Z",
+      "published_date": null,
+      "retrieval_method": "Retained bounded-client HTTP capture; no new acquisition",
+      "extraction_version": "pdftoppm120dpi grayscale plus tesseract eng psm3; decisive160dpi images reviewed",
+      "access_classification": "Publicly accessible official county ordinance; raw body/images remain private",
+      "publication_classification": "Reviewed source metadata and short legal-text excerpts only"
+    }
+  ],
+  "claims": [
+    {
+      "schema_version": "1.0.0",
+      "claim_id": "cae2bca8-5c09-4aaa-82c5-6b453c4db654",
+      "subject": {
+        "table": "jurisdictions",
+        "id": "b6ed46cb-c855-4c9b-8e95-460ad229e3d2"
+      },
+      "predicate": "jurisdiction",
+      "value": {
+        "name": "Starke County",
+        "state": "IN",
+        "government_type": "county"
+      },
+      "source_document_id": "47a5e5c0-bef1-4ed5-b4ca-d1665f7a3bab",
+      "quote": "Board of Commissioners of Starke County, Indiana",
+      "span": "PDF page2 enacting clause",
+      "temporal_support": {
+        "earliest": null,
+        "latest": null,
+        "precision": "unknown",
+        "original_text": null
+      },
+      "extraction_provenance": "Official county enacting clause identifies jurisdiction; territorial boundaries and authoritative geographic IDs remain unresolved."
+    },
+    {
+      "schema_version": "1.0.0",
+      "claim_id": "cb361d79-7f74-41b0-abaa-1335ee19fd1e",
+      "subject": {
+        "table": "local_restrictions",
+        "id": "8a588483-e418-4554-b30f-6db49f2a43a3"
+      },
+      "predicate": "title",
+      "value": "Starke County Ordinance No. 2026-34: commercial data-center prohibition",
+      "source_document_id": "47a5e5c0-bef1-4ed5-b4ca-d1665f7a3bab",
+      "quote": "AN ORDINANCE AMENDING THE STARKE COUNTY ZONING ORDINANCE",
+      "span": "PDF page2 heading and handwritten number",
+      "temporal_support": {
+        "earliest": null,
+        "latest": null,
+        "precision": "unknown",
+        "original_text": null
+      },
+      "extraction_provenance": "Handwritten2026-34 visually controls over the recommendation cover typed2026-26 reference. No publication date inferred."
+    },
+    {
+      "schema_version": "1.0.0",
+      "claim_id": "04a37e24-3482-48f8-a307-27760b939fe4",
+      "subject": {
+        "table": "local_restrictions",
+        "id": "8a588483-e418-4554-b30f-6db49f2a43a3"
+      },
+      "predicate": "provisions",
+      "value": [
+        "Prohibits defined commercial data centers as principal or accessory uses in all zoning districts within Plan Commission jurisdiction, including PUDs. Includes hyperscale facilities, crypto-mining and server farms, while retaining specified telecom/public-broadband and bounded accessory-IT exclusions. Adds infrastructure-circumvention restrictions for prohibited facilities while preserving standalone BESS rules for permitted uses."
+      ],
+      "source_document_id": "47a5e5c0-bef1-4ed5-b4ca-d1665f7a3bab",
+      "quote": "within all zoning districts under the territorial jurisdiction",
+      "span": "PDF pages2-3 definition, prohibition, exclusions and BESS preservation",
+      "temporal_support": {
+        "earliest": null,
+        "latest": null,
+        "precision": "unknown",
+        "original_text": null
+      },
+      "extraction_provenance": "Quote anchors jurisdictional prohibition; full summary reviewed against exclusions and the independent permitted-use BESS clause. Numeric accessory-IT boundaries are retained in the source rather than reinterpreted here."
+    },
+    {
+      "schema_version": "1.0.0",
+      "claim_id": "1b14e24d-b2d2-44ff-854b-116bbee31fea",
+      "subject": {
+        "table": "local_restrictions",
+        "id": "8a588483-e418-4554-b30f-6db49f2a43a3"
+      },
+      "predicate": "adoption",
+      "value": {
+        "earliest": "2026-10-19",
+        "latest": "2026-10-19",
+        "precision": "day",
+        "original_text": "19 October 2026"
+      },
+      "source_document_id": "47a5e5c0-bef1-4ed5-b4ca-d1665f7a3bab",
+      "quote": "PASSED AND ADOPTED BY THE STARKE COUNTY BOARD OF COMMISSIONERS",
+      "span": "PDF page4 signed adoption date",
+      "temporal_support": {
+        "earliest": "2026-10-19",
+        "latest": "2026-10-19",
+        "precision": "day",
+        "original_text": "19 October 2026"
+      },
+      "extraction_provenance": "Date read directly from handwritten19 October2026 and signed/attested adoption page. No vote count inferred from signatures."
+    },
+    {
+      "schema_version": "1.0.0",
+      "claim_id": "4508acae-135e-48f4-88a1-7878c2186c44",
+      "subject": {
+        "table": "local_restrictions",
+        "id": "8a588483-e418-4554-b30f-6db49f2a43a3"
+      },
+      "predicate": "effective_clause",
+      "value": "After passage and publication as required by law; actual effective/publication date unknown.",
+      "source_document_id": "47a5e5c0-bef1-4ed5-b4ca-d1665f7a3bab",
+      "quote": "and publication as required by law.",
+      "span": "PDF page3 section6",
+      "temporal_support": {
+        "earliest": null,
+        "latest": null,
+        "precision": "unknown",
+        "original_text": null
+      },
+      "extraction_provenance": "Relative effectiveness clause only; publication, operative date, present force and individual applicability remain unknown."
+    },
+    {
+      "schema_version": "1.0.0",
+      "claim_id": "081f6a59-4d0d-4b9b-9af9-01ca274f80ea",
+      "subject": {
+        "table": "instrument_events",
+        "id": "d9dbfe35-960a-40a2-a011-02bd87a7844d"
+      },
+      "predicate": "instrument_event",
+      "value": {
+        "instrument": {
+          "kind": "restriction",
+          "id": "8a588483-e418-4554-b30f-6db49f2a43a3"
+        },
+        "action": "adopted",
+        "occurrence": {
+          "earliest": "2026-10-19",
+          "latest": "2026-10-19",
+          "precision": "day",
+          "original_text": "19 October 2026"
+        }
+      },
+      "source_document_id": "47a5e5c0-bef1-4ed5-b4ca-d1665f7a3bab",
+      "quote": "PASSED AND ADOPTED BY THE STARKE COUNTY BOARD OF COMMISSIONERS",
+      "span": "PDF pages2 and4 ordinance identity and signed adoption",
+      "temporal_support": {
+        "earliest": "2026-10-19",
+        "latest": "2026-10-19",
+        "precision": "day",
+        "original_text": "19 October 2026"
+      },
+      "extraction_provenance": "Composite historical adoption event: title/number bound to page2 and date/adoption to page4. This does not assert effectiveness, publication, formal termination of the earlier moratorium or current force."
+    }
+  ],
+  "review_decisions": [
+    {
+      "schema_version": "1.0.0",
+      "decision_id": "32ca06d7-f205-468e-ae40-d98e2d0a6af2",
+      "target": {
+        "table": "claims",
+        "id": "cae2bca8-5c09-4aaa-82c5-6b453c4db654"
+      },
+      "scope": "jurisdiction",
+      "claim_ids": [
+        "cae2bca8-5c09-4aaa-82c5-6b453c4db654"
+      ],
+      "disposition": "accepted",
+      "supersedes_id": null,
+      "reviewer": "coordinator",
+      "method": "root direct retained-source text and visual review; no new independent reviewer",
+      "rationale": "Official county enacting clause identifies jurisdiction; territorial boundaries and authoritative geographic IDs remain unresolved.",
+      "decided_at": "2026-11-10T03:47:32.265827+00:00"
+    },
+    {
+      "schema_version": "1.0.0",
+      "decision_id": "fb14f1ff-be77-4aab-a6bd-6ee83cdca23a",
+      "target": {
+        "table": "jurisdictions",
+        "id": "b6ed46cb-c855-4c9b-8e95-460ad229e3d2"
+      },
+      "scope": "name",
+      "claim_ids": [
+        "cae2bca8-5c09-4aaa-82c5-6b453c4db654"
+      ],
+      "disposition": "accepted",
+      "supersedes_id": null,
+      "reviewer": "coordinator",
+      "method": "root direct retained-source text and visual review; no new independent reviewer",
+      "rationale": "Direct official enacting-clause identification; no boundary claim.",
+      "decided_at": "2026-11-10T03:47:32.265827+00:00"
+    },
+    {
+      "schema_version": "1.0.0",
+      "decision_id": "d7f79979-2f81-4572-980e-cedbfe1552e9",
+      "target": {
+        "table": "jurisdictions",
+        "id": "b6ed46cb-c855-4c9b-8e95-460ad229e3d2"
+      },
+      "scope": "state",
+      "claim_ids": [
+        "cae2bca8-5c09-4aaa-82c5-6b453c4db654"
+      ],
+      "disposition": "accepted",
+      "supersedes_id": null,
+      "reviewer": "coordinator",
+      "method": "root direct retained-source text and visual review; no new independent reviewer",
+      "rationale": "Direct official enacting-clause identification; no boundary claim.",
+      "decided_at": "2026-11-10T03:47:32.265827+00:00"
+    },
+    {
+      "schema_version": "1.0.0",
+      "decision_id": "658726fe-db5e-4b46-8956-520f43c146c2",
+      "target": {
+        "table": "jurisdictions",
+        "id": "b6ed46cb-c855-4c9b-8e95-460ad229e3d2"
+      },
+      "scope": "government_type",
+      "claim_ids": [
+        "cae2bca8-5c09-4aaa-82c5-6b453c4db654"
+      ],
+      "disposition": "accepted",
+      "supersedes_id": null,
+      "reviewer": "coordinator",
+      "method": "root direct retained-source text and visual review; no new independent reviewer",
+      "rationale": "Direct official enacting-clause identification; no boundary claim.",
+      "decided_at": "2026-11-10T03:47:32.265827+00:00"
+    },
+    {
+      "schema_version": "1.0.0",
+      "decision_id": "6eca86dc-5d2c-4a91-8da7-add56c30e427",
+      "target": {
+        "table": "claims",
+        "id": "cb361d79-7f74-41b0-abaa-1335ee19fd1e"
+      },
+      "scope": "title",
+      "claim_ids": [
+        "cb361d79-7f74-41b0-abaa-1335ee19fd1e"
+      ],
+      "disposition": "accepted",
+      "supersedes_id": null,
+      "reviewer": "coordinator",
+      "method": "root direct retained-source text and visual review; no new independent reviewer",
+      "rationale": "Handwritten2026-34 visually controls over the recommendation cover typed2026-26 reference. No publication date inferred.",
+      "decided_at": "2026-11-10T03:47:32.265827+00:00"
+    },
+    {
+      "schema_version": "1.0.0",
+      "decision_id": "0af6df13-3756-4e58-9ab7-8dbd9dc3bd86",
+      "target": {
+        "table": "claims",
+        "id": "04a37e24-3482-48f8-a307-27760b939fe4"
+      },
+      "scope": "provisions",
+      "claim_ids": [
+        "04a37e24-3482-48f8-a307-27760b939fe4"
+      ],
+      "disposition": "accepted",
+      "supersedes_id": null,
+      "reviewer": "coordinator",
+      "method": "root direct retained-source text and visual review; no new independent reviewer",
+      "rationale": "Quote anchors jurisdictional prohibition; full summary reviewed against exclusions and the independent permitted-use BESS clause. Numeric accessory-IT boundaries are retained in the source rather than reinterpreted here.",
+      "decided_at": "2026-11-10T03:47:32.265827+00:00"
+    },
+    {
+      "schema_version": "1.0.0",
+      "decision_id": "dc92cb0c-57d9-4cd0-a941-7be2289678a1",
+      "target": {
+        "table": "claims",
+        "id": "1b14e24d-b2d2-44ff-854b-116bbee31fea"
+      },
+      "scope": "adoption",
+      "claim_ids": [
+        "1b14e24d-b2d2-44ff-854b-116bbee31fea"
+      ],
+      "disposition": "accepted",
+      "supersedes_id": null,
+      "reviewer": "coordinator",
+      "method": "root direct retained-source text and visual review; no new independent reviewer",
+      "rationale": "Date read directly from handwritten19 October2026 and signed/attested adoption page. No vote count inferred from signatures.",
+      "decided_at": "2026-11-10T03:47:32.265827+00:00"
+    },
+    {
+      "schema_version": "1.0.0",
+      "decision_id": "91dea0a9-17bf-4a80-a2e3-f1ba73757185",
+      "target": {
+        "table": "claims",
+        "id": "4508acae-135e-48f4-88a1-7878c2186c44"
+      },
+      "scope": "effective_clause",
+      "claim_ids": [
+        "4508acae-135e-48f4-88a1-7878c2186c44"
+      ],
+      "disposition": "accepted",
+      "supersedes_id": null,
+      "reviewer": "coordinator",
+      "method": "root direct retained-source text and visual review; no new independent reviewer",
+      "rationale": "Relative effectiveness clause only; publication, operative date, present force and individual applicability remain unknown.",
+      "decided_at": "2026-11-10T03:47:32.265827+00:00"
+    },
+    {
+      "schema_version": "1.0.0",
+      "decision_id": "326b4c1b-6ab8-4a0b-8152-99f0c809c672",
+      "target": {
+        "table": "local_restrictions",
+        "id": "8a588483-e418-4554-b30f-6db49f2a43a3"
+      },
+      "scope": "jurisdiction_id",
+      "claim_ids": [
+        "cb361d79-7f74-41b0-abaa-1335ee19fd1e"
+      ],
+      "disposition": "accepted",
+      "supersedes_id": null,
+      "reviewer": "coordinator",
+      "method": "root direct retained-source text and visual review; no new independent reviewer",
+      "rationale": "Candidate historical/wording acceptance only; current status and operative dates stay unresolved.",
+      "decided_at": "2026-11-10T03:47:32.265827+00:00"
+    },
+    {
+      "schema_version": "1.0.0",
+      "decision_id": "c8d78988-7841-4212-8f9d-8d39d3113a0d",
+      "target": {
+        "table": "local_restrictions",
+        "id": "8a588483-e418-4554-b30f-6db49f2a43a3"
+      },
+      "scope": "title",
+      "claim_ids": [
+        "cb361d79-7f74-41b0-abaa-1335ee19fd1e"
+      ],
+      "disposition": "accepted",
+      "supersedes_id": null,
+      "reviewer": "coordinator",
+      "method": "root direct retained-source text and visual review; no new independent reviewer",
+      "rationale": "Candidate historical/wording acceptance only; current status and operative dates stay unresolved.",
+      "decided_at": "2026-11-10T03:47:32.265827+00:00"
+    },
+    {
+      "schema_version": "1.0.0",
+      "decision_id": "ced2eed7-8909-4337-a64f-d587e5510b12",
+      "target": {
+        "table": "local_restrictions",
+        "id": "8a588483-e418-4554-b30f-6db49f2a43a3"
+      },
+      "scope": "provisions",
+      "claim_ids": [
+        "04a37e24-3482-48f8-a307-27760b939fe4"
+      ],
+      "disposition": "accepted",
+      "supersedes_id": null,
+      "reviewer": "coordinator",
+      "method": "root direct retained-source text and visual review; no new independent reviewer",
+      "rationale": "Candidate historical/wording acceptance only; current status and operative dates stay unresolved.",
+      "decided_at": "2026-11-10T03:47:32.265827+00:00"
+    },
+    {
+      "schema_version": "1.0.0",
+      "decision_id": "adc70e1e-f581-4dad-b22a-4174c8f91e31",
+      "target": {
+        "table": "local_restrictions",
+        "id": "8a588483-e418-4554-b30f-6db49f2a43a3"
+      },
+      "scope": "adoption",
+      "claim_ids": [
+        "1b14e24d-b2d2-44ff-854b-116bbee31fea"
+      ],
+      "disposition": "accepted",
+      "supersedes_id": null,
+      "reviewer": "coordinator",
+      "method": "root direct retained-source text and visual review; no new independent reviewer",
+      "rationale": "Candidate historical/wording acceptance only; current status and operative dates stay unresolved.",
+      "decided_at": "2026-11-10T03:47:32.265827+00:00"
+    },
+    {
+      "schema_version": "1.0.0",
+      "decision_id": "062a9192-de27-48bb-adb0-b4b37c71bb17",
+      "target": {
+        "table": "claims",
+        "id": "081f6a59-4d0d-4b9b-9af9-01ca274f80ea"
+      },
+      "scope": "instrument_event",
+      "claim_ids": [
+        "081f6a59-4d0d-4b9b-9af9-01ca274f80ea"
+      ],
+      "disposition": "accepted",
+      "supersedes_id": null,
+      "reviewer": "coordinator",
+      "method": "root direct retained-source text and visual review; no new independent reviewer",
+      "rationale": "Composite historical adoption event: title/number bound to page2 and date/adoption to page4. This does not assert effectiveness, publication, formal termination of the earlier moratorium or current force.",
+      "decided_at": "2026-11-10T03:47:32.265827+00:00"
+    },
+    {
+      "schema_version": "1.0.0",
+      "decision_id": "dd35eb4c-7e56-4dd9-a040-6b28f20a973d",
+      "target": {
+        "table": "instrument_events",
+        "id": "d9dbfe35-960a-40a2-a011-02bd87a7844d"
+      },
+      "scope": "instrument",
+      "claim_ids": [
+        "081f6a59-4d0d-4b9b-9af9-01ca274f80ea"
+      ],
+      "disposition": "accepted",
+      "supersedes_id": null,
+      "reviewer": "coordinator",
+      "method": "root direct retained-source text and visual review; no new independent reviewer",
+      "rationale": "Exact signed-instrument adoption event only; publication and legal-effect clocks remain unknown.",
+      "decided_at": "2026-11-10T03:47:32.265827+00:00"
+    },
+    {
+      "schema_version": "1.0.0",
+      "decision_id": "58a6a157-6dd8-49c4-940e-e8051ed54fc4",
+      "target": {
+        "table": "instrument_events",
+        "id": "d9dbfe35-960a-40a2-a011-02bd87a7844d"
+      },
+      "scope": "action",
+      "claim_ids": [
+        "081f6a59-4d0d-4b9b-9af9-01ca274f80ea"
+      ],
+      "disposition": "accepted",
+      "supersedes_id": null,
+      "reviewer": "coordinator",
+      "method": "root direct retained-source text and visual review; no new independent reviewer",
+      "rationale": "Exact signed-instrument adoption event only; publication and legal-effect clocks remain unknown.",
+      "decided_at": "2026-11-10T03:47:32.265827+00:00"
+    },
+    {
+      "schema_version": "1.0.0",
+      "decision_id": "bae98cb7-47e3-41a3-9d83-1095f804b5fd",
+      "target": {
+        "table": "instrument_events",
+        "id": "d9dbfe35-960a-40a2-a011-02bd87a7844d"
+      },
+      "scope": "occurrence",
+      "claim_ids": [
+        "081f6a59-4d0d-4b9b-9af9-01ca274f80ea"
+      ],
+      "disposition": "accepted",
+      "supersedes_id": null,
+      "reviewer": "coordinator",
+      "method": "root direct retained-source text and visual review; no new independent reviewer",
+      "rationale": "Exact signed-instrument adoption event only; publication and legal-effect clocks remain unknown.",
+      "decided_at": "2026-11-10T03:47:32.265827+00:00"
+    },
+    {
+      "schema_version": "1.0.0",
+      "decision_id": "92f5de3e-3f9a-43ed-936d-bd44ed97c8fb",
+      "target": {
+        "table": "instrument_events",
+        "id": "d9dbfe35-960a-40a2-a011-02bd87a7844d"
+      },
+      "scope": "observed_at",
+      "claim_ids": [
+        "081f6a59-4d0d-4b9b-9af9-01ca274f80ea"
+      ],
+      "disposition": "accepted",
+      "supersedes_id": null,
+      "reviewer": "coordinator",
+      "method": "root direct retained-source text and visual review; no new independent reviewer",
+      "rationale": "Exact signed-instrument adoption event only; publication and legal-effect clocks remain unknown.",
+      "decided_at": "2026-11-10T03:47:32.265827+00:00"
+    },
+    {
+      "schema_version": "1.0.0",
+      "decision_id": "add4ac80-22d3-44d0-9673-3c79d3c54c04",
+      "target": {
+        "table": "instrument_events",
+        "id": "d9dbfe35-960a-40a2-a011-02bd87a7844d"
+      },
+      "scope": "event_validity",
+      "claim_ids": [
+        "081f6a59-4d0d-4b9b-9af9-01ca274f80ea"
+      ],
+      "disposition": "accepted",
+      "supersedes_id": null,
+      "reviewer": "coordinator",
+      "method": "root direct retained-source text and visual review; no new independent reviewer",
+      "rationale": "Exact signed-instrument adoption event only; publication and legal-effect clocks remain unknown.",
+      "decided_at": "2026-11-10T03:47:32.265827+00:00"
+    }
+  ]
+}

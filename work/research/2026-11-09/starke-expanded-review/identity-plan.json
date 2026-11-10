@@ -1,0 +1,790 @@
+{
+  "schema_version": "1.0.0",
+  "expected_sha256": "6b7e4386e1c9774e6ee4ce37121fd350048bfe41662f368d08f2923aeab29cb3",
+  "events": [
+    {
+      "schema_version": "1.0.0",
+      "event_id": "af0050df-bcc5-43f7-b650-8bb07358b3e5",
+      "action": "allocate",
+      "table": "source_documents",
+      "inputs": [],
+      "outputs": [
+        "47a5e5c0-bef1-4ed5-b4ca-d1665f7a3bab"
+      ],
+      "aliases": [
+        {
+          "namespace": "starke-expanded-preparation-2026-11-09",
+          "source_id": "source:2026-34:47a5e5c0-bef1-4ed5-b4ca-d1665f7a3bab",
+          "record_sha256": "4dbae90cd6a55448f576167d280764b8990b0e83d07a58f4362bfc62e1a0a7a8"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-10T03:47:32.265827+00:00",
+      "rationale": "Candidate identity allocation from retained official ordinance; no canonical registry change or force certification.",
+      "evidence": [
+        {
+          "url": "https://starke.in.gov/wp-content/uploads/2026/10/ORD-2026-34-Regulation-and-Prohibition-of-Data-Centers.pdf",
+          "body_sha256": "e9586be9cde1e691406a6e760566c171f138db71a14ebe5f4a3bd56abf9658b7",
+          "locator": "source:2026-34"
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "d1abdca7-9e19-4039-9820-acfa4fccdb94",
+      "action": "allocate",
+      "table": "jurisdictions",
+      "inputs": [],
+      "outputs": [
+        "b6ed46cb-c855-4c9b-8e95-460ad229e3d2"
+      ],
+      "aliases": [
+        {
+          "namespace": "starke-expanded-preparation-2026-11-09",
+          "source_id": "jurisdiction:starke:b6ed46cb-c855-4c9b-8e95-460ad229e3d2",
+          "record_sha256": "10c3544166381ae408d7a353c3bcc38136091f088d75f4689c554fe7a6cfb2c4"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-10T03:47:32.265827+00:00",
+      "rationale": "Candidate identity allocation from retained official ordinance; no canonical registry change or force certification.",
+      "evidence": [
+        {
+          "url": "https://starke.in.gov/wp-content/uploads/2026/10/ORD-2026-34-Regulation-and-Prohibition-of-Data-Centers.pdf",
+          "body_sha256": "e9586be9cde1e691406a6e760566c171f138db71a14ebe5f4a3bd56abf9658b7",
+          "locator": "jurisdiction:starke"
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "65653a3e-879e-4b44-bb67-e46e5cae7dfc",
+      "action": "allocate",
+      "table": "claims",
+      "inputs": [],
+      "outputs": [
+        "cae2bca8-5c09-4aaa-82c5-6b453c4db654"
+      ],
+      "aliases": [
+        {
+          "namespace": "starke-expanded-preparation-2026-11-09",
+          "source_id": "claim:jurisdiction:cae2bca8-5c09-4aaa-82c5-6b453c4db654",
+          "record_sha256": "6dd32c44ad038ba33b91be23da59a5997381cafd75097a427d1141085de99dd5"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-10T03:47:32.265827+00:00",
+      "rationale": "Candidate identity allocation from retained official ordinance; no canonical registry change or force certification.",
+      "evidence": [
+        {
+          "url": "https://starke.in.gov/wp-content/uploads/2026/10/ORD-2026-34-Regulation-and-Prohibition-of-Data-Centers.pdf",
+          "body_sha256": "e9586be9cde1e691406a6e760566c171f138db71a14ebe5f4a3bd56abf9658b7",
+          "locator": "claim:jurisdiction"
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "66c413aa-3bdf-4059-a838-29ec753e32b3",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "32ca06d7-f205-468e-ae40-d98e2d0a6af2"
+      ],
+      "aliases": [
+        {
+          "namespace": "starke-expanded-preparation-2026-11-09",
+          "source_id": "candidate-decision:jurisdiction:32ca06d7-f205-468e-ae40-d98e2d0a6af2",
+          "record_sha256": "e22c75866717329fb503a81e51d8a2b23f3269ebb8844e06e5bae85d9607a748"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-10T03:47:32.265827+00:00",
+      "rationale": "Candidate identity allocation from retained official ordinance; no canonical registry change or force certification.",
+      "evidence": [
+        {
+          "url": "https://starke.in.gov/wp-content/uploads/2026/10/ORD-2026-34-Regulation-and-Prohibition-of-Data-Centers.pdf",
+          "body_sha256": "e9586be9cde1e691406a6e760566c171f138db71a14ebe5f4a3bd56abf9658b7",
+          "locator": "candidate-decision:jurisdiction"
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "02caabe3-8a60-4f10-bbdb-4ffd663c9669",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "fb14f1ff-be77-4aab-a6bd-6ee83cdca23a"
+      ],
+      "aliases": [
+        {
+          "namespace": "starke-expanded-preparation-2026-11-09",
+          "source_id": "candidate-decision:name:fb14f1ff-be77-4aab-a6bd-6ee83cdca23a",
+          "record_sha256": "b2564a0ddb1d8672eb434166c1c7ba8b7d37ff29f0c8aca4ace921f60cdf3a5d"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-10T03:47:32.265827+00:00",
+      "rationale": "Candidate identity allocation from retained official ordinance; no canonical registry change or force certification.",
+      "evidence": [
+        {
+          "url": "https://starke.in.gov/wp-content/uploads/2026/10/ORD-2026-34-Regulation-and-Prohibition-of-Data-Centers.pdf",
+          "body_sha256": "e9586be9cde1e691406a6e760566c171f138db71a14ebe5f4a3bd56abf9658b7",
+          "locator": "candidate-decision:name"
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "50408bb7-7120-49e0-867d-22984a996a27",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "d7f79979-2f81-4572-980e-cedbfe1552e9"
+      ],
+      "aliases": [
+        {
+          "namespace": "starke-expanded-preparation-2026-11-09",
+          "source_id": "candidate-decision:state:d7f79979-2f81-4572-980e-cedbfe1552e9",
+          "record_sha256": "24a5c7f800adef9a2f662f9015a4556cd2ec44ca14588ed88c65e26b3f3c34b3"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-10T03:47:32.265827+00:00",
+      "rationale": "Candidate identity allocation from retained official ordinance; no canonical registry change or force certification.",
+      "evidence": [
+        {
+          "url": "https://starke.in.gov/wp-content/uploads/2026/10/ORD-2026-34-Regulation-and-Prohibition-of-Data-Centers.pdf",
+          "body_sha256": "e9586be9cde1e691406a6e760566c171f138db71a14ebe5f4a3bd56abf9658b7",
+          "locator": "candidate-decision:state"
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "c7ad9a3d-83aa-402e-abc5-711ce49ebb3d",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "658726fe-db5e-4b46-8956-520f43c146c2"
+      ],
+      "aliases": [
+        {
+          "namespace": "starke-expanded-preparation-2026-11-09",
+          "source_id": "candidate-decision:government_type:658726fe-db5e-4b46-8956-520f43c146c2",
+          "record_sha256": "98d7dd3d2ab54f10f18a56b3060a793189013fc3fd89bfcb5712959ad20830ea"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-10T03:47:32.265827+00:00",
+      "rationale": "Candidate identity allocation from retained official ordinance; no canonical registry change or force certification.",
+      "evidence": [
+        {
+          "url": "https://starke.in.gov/wp-content/uploads/2026/10/ORD-2026-34-Regulation-and-Prohibition-of-Data-Centers.pdf",
+          "body_sha256": "e9586be9cde1e691406a6e760566c171f138db71a14ebe5f4a3bd56abf9658b7",
+          "locator": "candidate-decision:government_type"
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "55d29ebb-97ad-4aa7-9c0d-e9f4d0a38d8c",
+      "action": "allocate",
+      "table": "local_restrictions",
+      "inputs": [],
+      "outputs": [
+        "8a588483-e418-4554-b30f-6db49f2a43a3"
+      ],
+      "aliases": [
+        {
+          "namespace": "starke-expanded-preparation-2026-11-09",
+          "source_id": "restriction:2026-34:8a588483-e418-4554-b30f-6db49f2a43a3",
+          "record_sha256": "8a991a9d55294a382a5792fe6e1879052264b3a5d21a4a204c777f06dbe8ea2a"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-10T03:47:32.265827+00:00",
+      "rationale": "Candidate identity allocation from retained official ordinance; no canonical registry change or force certification.",
+      "evidence": [
+        {
+          "url": "https://starke.in.gov/wp-content/uploads/2026/10/ORD-2026-34-Regulation-and-Prohibition-of-Data-Centers.pdf",
+          "body_sha256": "e9586be9cde1e691406a6e760566c171f138db71a14ebe5f4a3bd56abf9658b7",
+          "locator": "restriction:2026-34"
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "9eeda1ef-fbe3-4142-ad89-4fa1bd2e2f0d",
+      "action": "allocate",
+      "table": "claims",
+      "inputs": [],
+      "outputs": [
+        "cb361d79-7f74-41b0-abaa-1335ee19fd1e"
+      ],
+      "aliases": [
+        {
+          "namespace": "starke-expanded-preparation-2026-11-09",
+          "source_id": "claim:title:cb361d79-7f74-41b0-abaa-1335ee19fd1e",
+          "record_sha256": "f676e45fc3040e67d1fe45987246c8afdb3b76bf57c7b30f251329638decd383"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-10T03:47:32.265827+00:00",
+      "rationale": "Candidate identity allocation from retained official ordinance; no canonical registry change or force certification.",
+      "evidence": [
+        {
+          "url": "https://starke.in.gov/wp-content/uploads/2026/10/ORD-2026-34-Regulation-and-Prohibition-of-Data-Centers.pdf",
+          "body_sha256": "e9586be9cde1e691406a6e760566c171f138db71a14ebe5f4a3bd56abf9658b7",
+          "locator": "claim:title"
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "9653ec3f-3a2f-4c3a-836a-80a44b6d804b",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "6eca86dc-5d2c-4a91-8da7-add56c30e427"
+      ],
+      "aliases": [
+        {
+          "namespace": "starke-expanded-preparation-2026-11-09",
+          "source_id": "candidate-decision:title:6eca86dc-5d2c-4a91-8da7-add56c30e427",
+          "record_sha256": "d21b7f924b005a0c8dbc6e467da4a519c2aec84408e11ac1e7dd629e1ffaf737"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-10T03:47:32.265827+00:00",
+      "rationale": "Candidate identity allocation from retained official ordinance; no canonical registry change or force certification.",
+      "evidence": [
+        {
+          "url": "https://starke.in.gov/wp-content/uploads/2026/10/ORD-2026-34-Regulation-and-Prohibition-of-Data-Centers.pdf",
+          "body_sha256": "e9586be9cde1e691406a6e760566c171f138db71a14ebe5f4a3bd56abf9658b7",
+          "locator": "candidate-decision:title"
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "e8f0959f-b46b-4902-93fc-648e657019e6",
+      "action": "allocate",
+      "table": "claims",
+      "inputs": [],
+      "outputs": [
+        "04a37e24-3482-48f8-a307-27760b939fe4"
+      ],
+      "aliases": [
+        {
+          "namespace": "starke-expanded-preparation-2026-11-09",
+          "source_id": "claim:provisions:04a37e24-3482-48f8-a307-27760b939fe4",
+          "record_sha256": "5880443c0b78f8e0d4babb0208b0a295a0029ebd94d8e38285f312cf86bd7307"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-10T03:47:32.265827+00:00",
+      "rationale": "Candidate identity allocation from retained official ordinance; no canonical registry change or force certification.",
+      "evidence": [
+        {
+          "url": "https://starke.in.gov/wp-content/uploads/2026/10/ORD-2026-34-Regulation-and-Prohibition-of-Data-Centers.pdf",
+          "body_sha256": "e9586be9cde1e691406a6e760566c171f138db71a14ebe5f4a3bd56abf9658b7",
+          "locator": "claim:provisions"
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "549e45ac-6955-4ba1-9bab-5250b85b7f76",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "0af6df13-3756-4e58-9ab7-8dbd9dc3bd86"
+      ],
+      "aliases": [
+        {
+          "namespace": "starke-expanded-preparation-2026-11-09",
+          "source_id": "candidate-decision:provisions:0af6df13-3756-4e58-9ab7-8dbd9dc3bd86",
+          "record_sha256": "4ebff559d09e478b578429f98ecae2d57e5a0089c684af765914e9ab3846501f"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-10T03:47:32.265827+00:00",
+      "rationale": "Candidate identity allocation from retained official ordinance; no canonical registry change or force certification.",
+      "evidence": [
+        {
+          "url": "https://starke.in.gov/wp-content/uploads/2026/10/ORD-2026-34-Regulation-and-Prohibition-of-Data-Centers.pdf",
+          "body_sha256": "e9586be9cde1e691406a6e760566c171f138db71a14ebe5f4a3bd56abf9658b7",
+          "locator": "candidate-decision:provisions"
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "299b6597-0aa7-4bbc-a1a2-76bba41df8ef",
+      "action": "allocate",
+      "table": "claims",
+      "inputs": [],
+      "outputs": [
+        "1b14e24d-b2d2-44ff-854b-116bbee31fea"
+      ],
+      "aliases": [
+        {
+          "namespace": "starke-expanded-preparation-2026-11-09",
+          "source_id": "claim:adoption:1b14e24d-b2d2-44ff-854b-116bbee31fea",
+          "record_sha256": "f800e1967393fd713b796c14a04a649b6b485bb4017615d607ab7409fb69313b"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-10T03:47:32.265827+00:00",
+      "rationale": "Candidate identity allocation from retained official ordinance; no canonical registry change or force certification.",
+      "evidence": [
+        {
+          "url": "https://starke.in.gov/wp-content/uploads/2026/10/ORD-2026-34-Regulation-and-Prohibition-of-Data-Centers.pdf",
+          "body_sha256": "e9586be9cde1e691406a6e760566c171f138db71a14ebe5f4a3bd56abf9658b7",
+          "locator": "claim:adoption"
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "dd57b47b-28f6-456a-90d4-d39890599975",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "dc92cb0c-57d9-4cd0-a941-7be2289678a1"
+      ],
+      "aliases": [
+        {
+          "namespace": "starke-expanded-preparation-2026-11-09",
+          "source_id": "candidate-decision:adoption:dc92cb0c-57d9-4cd0-a941-7be2289678a1",
+          "record_sha256": "fb493cb570edc6eed6fa62199e0ddf4280f50b07a019236e0607e1745b8e37d6"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-10T03:47:32.265827+00:00",
+      "rationale": "Candidate identity allocation from retained official ordinance; no canonical registry change or force certification.",
+      "evidence": [
+        {
+          "url": "https://starke.in.gov/wp-content/uploads/2026/10/ORD-2026-34-Regulation-and-Prohibition-of-Data-Centers.pdf",
+          "body_sha256": "e9586be9cde1e691406a6e760566c171f138db71a14ebe5f4a3bd56abf9658b7",
+          "locator": "candidate-decision:adoption"
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "84eaabfd-2a0f-4f60-b93e-ee5c7c53b208",
+      "action": "allocate",
+      "table": "claims",
+      "inputs": [],
+      "outputs": [
+        "4508acae-135e-48f4-88a1-7878c2186c44"
+      ],
+      "aliases": [
+        {
+          "namespace": "starke-expanded-preparation-2026-11-09",
+          "source_id": "claim:effective_clause:4508acae-135e-48f4-88a1-7878c2186c44",
+          "record_sha256": "5c81fc4944b323c603fc49d9e17833a112bcb71b8d91fc7791695d8e6535a773"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-10T03:47:32.265827+00:00",
+      "rationale": "Candidate identity allocation from retained official ordinance; no canonical registry change or force certification.",
+      "evidence": [
+        {
+          "url": "https://starke.in.gov/wp-content/uploads/2026/10/ORD-2026-34-Regulation-and-Prohibition-of-Data-Centers.pdf",
+          "body_sha256": "e9586be9cde1e691406a6e760566c171f138db71a14ebe5f4a3bd56abf9658b7",
+          "locator": "claim:effective_clause"
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "4eacd5f3-9bbf-4f71-a92f-c544e8f9de08",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "91dea0a9-17bf-4a80-a2e3-f1ba73757185"
+      ],
+      "aliases": [
+        {
+          "namespace": "starke-expanded-preparation-2026-11-09",
+          "source_id": "candidate-decision:effective_clause:91dea0a9-17bf-4a80-a2e3-f1ba73757185",
+          "record_sha256": "3253b91decc8cf08498099aa00219953450201ecca4659def50322305569ce3f"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-10T03:47:32.265827+00:00",
+      "rationale": "Candidate identity allocation from retained official ordinance; no canonical registry change or force certification.",
+      "evidence": [
+        {
+          "url": "https://starke.in.gov/wp-content/uploads/2026/10/ORD-2026-34-Regulation-and-Prohibition-of-Data-Centers.pdf",
+          "body_sha256": "e9586be9cde1e691406a6e760566c171f138db71a14ebe5f4a3bd56abf9658b7",
+          "locator": "candidate-decision:effective_clause"
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "1410b23d-9bc6-4c3d-8821-738177aa6a8d",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "326b4c1b-6ab8-4a0b-8152-99f0c809c672"
+      ],
+      "aliases": [
+        {
+          "namespace": "starke-expanded-preparation-2026-11-09",
+          "source_id": "candidate-decision:jurisdiction_id:326b4c1b-6ab8-4a0b-8152-99f0c809c672",
+          "record_sha256": "54137c50f021152d0fa01bf495ed7f36d15251d56e06a40c37a61d23599a2dc0"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-10T03:47:32.265827+00:00",
+      "rationale": "Candidate identity allocation from retained official ordinance; no canonical registry change or force certification.",
+      "evidence": [
+        {
+          "url": "https://starke.in.gov/wp-content/uploads/2026/10/ORD-2026-34-Regulation-and-Prohibition-of-Data-Centers.pdf",
+          "body_sha256": "e9586be9cde1e691406a6e760566c171f138db71a14ebe5f4a3bd56abf9658b7",
+          "locator": "candidate-decision:jurisdiction_id"
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "0f369ce1-d330-4a9c-8d1f-c266d4f40ade",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "c8d78988-7841-4212-8f9d-8d39d3113a0d"
+      ],
+      "aliases": [
+        {
+          "namespace": "starke-expanded-preparation-2026-11-09",
+          "source_id": "candidate-decision:title:c8d78988-7841-4212-8f9d-8d39d3113a0d",
+          "record_sha256": "c252649d15e8dc4040761081ba5668d6c8c2672ffc77160c3687ec874784ee58"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-10T03:47:32.265827+00:00",
+      "rationale": "Candidate identity allocation from retained official ordinance; no canonical registry change or force certification.",
+      "evidence": [
+        {
+          "url": "https://starke.in.gov/wp-content/uploads/2026/10/ORD-2026-34-Regulation-and-Prohibition-of-Data-Centers.pdf",
+          "body_sha256": "e9586be9cde1e691406a6e760566c171f138db71a14ebe5f4a3bd56abf9658b7",
+          "locator": "candidate-decision:title"
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "39622959-a3ae-437f-8fe8-709ac3234374",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "ced2eed7-8909-4337-a64f-d587e5510b12"
+      ],
+      "aliases": [
+        {
+          "namespace": "starke-expanded-preparation-2026-11-09",
+          "source_id": "candidate-decision:provisions:ced2eed7-8909-4337-a64f-d587e5510b12",
+          "record_sha256": "bd06b02c10eb5fc56a7479325996241f98448c895c1ce4f166528bf58801c33b"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-10T03:47:32.265827+00:00",
+      "rationale": "Candidate identity allocation from retained official ordinance; no canonical registry change or force certification.",
+      "evidence": [
+        {
+          "url": "https://starke.in.gov/wp-content/uploads/2026/10/ORD-2026-34-Regulation-and-Prohibition-of-Data-Centers.pdf",
+          "body_sha256": "e9586be9cde1e691406a6e760566c171f138db71a14ebe5f4a3bd56abf9658b7",
+          "locator": "candidate-decision:provisions"
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "675fd905-7232-4b0f-9adf-a210896ef790",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "adc70e1e-f581-4dad-b22a-4174c8f91e31"
+      ],
+      "aliases": [
+        {
+          "namespace": "starke-expanded-preparation-2026-11-09",
+          "source_id": "candidate-decision:adoption:adc70e1e-f581-4dad-b22a-4174c8f91e31",
+          "record_sha256": "9129261dc958fec0d7dbcec219e50605675d17def65fda9ea3e91875c3cafa81"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-10T03:47:32.265827+00:00",
+      "rationale": "Candidate identity allocation from retained official ordinance; no canonical registry change or force certification.",
+      "evidence": [
+        {
+          "url": "https://starke.in.gov/wp-content/uploads/2026/10/ORD-2026-34-Regulation-and-Prohibition-of-Data-Centers.pdf",
+          "body_sha256": "e9586be9cde1e691406a6e760566c171f138db71a14ebe5f4a3bd56abf9658b7",
+          "locator": "candidate-decision:adoption"
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "ee8ca1d3-aea7-4a14-a87b-a519a2aac63b",
+      "action": "allocate",
+      "table": "instrument_events",
+      "inputs": [],
+      "outputs": [
+        "d9dbfe35-960a-40a2-a011-02bd87a7844d"
+      ],
+      "aliases": [
+        {
+          "namespace": "starke-expanded-preparation-2026-11-09",
+          "source_id": "event:restriction-adopted:d9dbfe35-960a-40a2-a011-02bd87a7844d",
+          "record_sha256": "d27e78c3906040f53fdc199ce0d8692559ec8b43c57c081f7cd268720a8e88fd"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-10T03:47:32.265827+00:00",
+      "rationale": "Candidate identity allocation from retained official ordinance; no canonical registry change or force certification.",
+      "evidence": [
+        {
+          "url": "https://starke.in.gov/wp-content/uploads/2026/10/ORD-2026-34-Regulation-and-Prohibition-of-Data-Centers.pdf",
+          "body_sha256": "e9586be9cde1e691406a6e760566c171f138db71a14ebe5f4a3bd56abf9658b7",
+          "locator": "event:restriction-adopted"
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "ecf707c3-2f38-47d7-bd7e-373d76320d89",
+      "action": "allocate",
+      "table": "claims",
+      "inputs": [],
+      "outputs": [
+        "081f6a59-4d0d-4b9b-9af9-01ca274f80ea"
+      ],
+      "aliases": [
+        {
+          "namespace": "starke-expanded-preparation-2026-11-09",
+          "source_id": "claim:instrument_event:081f6a59-4d0d-4b9b-9af9-01ca274f80ea",
+          "record_sha256": "513d2f017f7fcb617004192c47f04db8598b38acc7cc3e433919250013d5c966"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-10T03:47:32.265827+00:00",
+      "rationale": "Candidate identity allocation from retained official ordinance; no canonical registry change or force certification.",
+      "evidence": [
+        {
+          "url": "https://starke.in.gov/wp-content/uploads/2026/10/ORD-2026-34-Regulation-and-Prohibition-of-Data-Centers.pdf",
+          "body_sha256": "e9586be9cde1e691406a6e760566c171f138db71a14ebe5f4a3bd56abf9658b7",
+          "locator": "claim:instrument_event"
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "e5d3dfe0-b0cd-4d41-b973-0e285a71d125",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "062a9192-de27-48bb-adb0-b4b37c71bb17"
+      ],
+      "aliases": [
+        {
+          "namespace": "starke-expanded-preparation-2026-11-09",
+          "source_id": "candidate-decision:instrument_event:062a9192-de27-48bb-adb0-b4b37c71bb17",
+          "record_sha256": "7947eb5de42a72c5df4a29b957fe3a153e582d2dd4b52194e40638938a7ae361"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-10T03:47:32.265827+00:00",
+      "rationale": "Candidate identity allocation from retained official ordinance; no canonical registry change or force certification.",
+      "evidence": [
+        {
+          "url": "https://starke.in.gov/wp-content/uploads/2026/10/ORD-2026-34-Regulation-and-Prohibition-of-Data-Centers.pdf",
+          "body_sha256": "e9586be9cde1e691406a6e760566c171f138db71a14ebe5f4a3bd56abf9658b7",
+          "locator": "candidate-decision:instrument_event"
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "4e722966-3801-4178-8c1c-b53c7e037503",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "dd35eb4c-7e56-4dd9-a040-6b28f20a973d"
+      ],
+      "aliases": [
+        {
+          "namespace": "starke-expanded-preparation-2026-11-09",
+          "source_id": "candidate-decision:instrument:dd35eb4c-7e56-4dd9-a040-6b28f20a973d",
+          "record_sha256": "c713a7c998722bb645876a528f65d5e434f1546b8ae2455c2e36320fd77bc8b0"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-10T03:47:32.265827+00:00",
+      "rationale": "Candidate identity allocation from retained official ordinance; no canonical registry change or force certification.",
+      "evidence": [
+        {
+          "url": "https://starke.in.gov/wp-content/uploads/2026/10/ORD-2026-34-Regulation-and-Prohibition-of-Data-Centers.pdf",
+          "body_sha256": "e9586be9cde1e691406a6e760566c171f138db71a14ebe5f4a3bd56abf9658b7",
+          "locator": "candidate-decision:instrument"
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "fab97e7c-29e1-4bc5-bf9b-ed5f99e1e814",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "58a6a157-6dd8-49c4-940e-e8051ed54fc4"
+      ],
+      "aliases": [
+        {
+          "namespace": "starke-expanded-preparation-2026-11-09",
+          "source_id": "candidate-decision:action:58a6a157-6dd8-49c4-940e-e8051ed54fc4",
+          "record_sha256": "b4c28d9c18471934f529142739ba81df53155a04acfbf113264bc0cdb3f4fffc"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-10T03:47:32.265827+00:00",
+      "rationale": "Candidate identity allocation from retained official ordinance; no canonical registry change or force certification.",
+      "evidence": [
+        {
+          "url": "https://starke.in.gov/wp-content/uploads/2026/10/ORD-2026-34-Regulation-and-Prohibition-of-Data-Centers.pdf",
+          "body_sha256": "e9586be9cde1e691406a6e760566c171f138db71a14ebe5f4a3bd56abf9658b7",
+          "locator": "candidate-decision:action"
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "92358bcb-b602-4495-92ec-7475114293ab",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "bae98cb7-47e3-41a3-9d83-1095f804b5fd"
+      ],
+      "aliases": [
+        {
+          "namespace": "starke-expanded-preparation-2026-11-09",
+          "source_id": "candidate-decision:occurrence:bae98cb7-47e3-41a3-9d83-1095f804b5fd",
+          "record_sha256": "6c5c896d70ba51607c72639fe3cda605915dc8dc418793fce9dd2b855d89d6b6"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-10T03:47:32.265827+00:00",
+      "rationale": "Candidate identity allocation from retained official ordinance; no canonical registry change or force certification.",
+      "evidence": [
+        {
+          "url": "https://starke.in.gov/wp-content/uploads/2026/10/ORD-2026-34-Regulation-and-Prohibition-of-Data-Centers.pdf",
+          "body_sha256": "e9586be9cde1e691406a6e760566c171f138db71a14ebe5f4a3bd56abf9658b7",
+          "locator": "candidate-decision:occurrence"
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "1cc117f9-9b97-4407-a1d8-fa6410cb8231",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "92f5de3e-3f9a-43ed-936d-bd44ed97c8fb"
+      ],
+      "aliases": [
+        {
+          "namespace": "starke-expanded-preparation-2026-11-09",
+          "source_id": "candidate-decision:observed_at:92f5de3e-3f9a-43ed-936d-bd44ed97c8fb",
+          "record_sha256": "31b22fc4b7b8e831e0f78c181fdf9ab6c7092f697cffd5c46104d09a760feb23"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-10T03:47:32.265827+00:00",
+      "rationale": "Candidate identity allocation from retained official ordinance; no canonical registry change or force certification.",
+      "evidence": [
+        {
+          "url": "https://starke.in.gov/wp-content/uploads/2026/10/ORD-2026-34-Regulation-and-Prohibition-of-Data-Centers.pdf",
+          "body_sha256": "e9586be9cde1e691406a6e760566c171f138db71a14ebe5f4a3bd56abf9658b7",
+          "locator": "candidate-decision:observed_at"
+        }
+      ]
+    },
+    {
+      "schema_version": "1.0.0",
+      "event_id": "f731a733-ea98-4cf2-a926-65a510114c08",
+      "action": "allocate",
+      "table": "review_decisions",
+      "inputs": [],
+      "outputs": [
+        "add4ac80-22d3-44d0-9673-3c79d3c54c04"
+      ],
+      "aliases": [
+        {
+          "namespace": "starke-expanded-preparation-2026-11-09",
+          "source_id": "candidate-decision:event_validity:add4ac80-22d3-44d0-9673-3c79d3c54c04",
+          "record_sha256": "5bc04aa2ff184f03985834576439bbb825321cf7674788d755410ff1b464dda2"
+        }
+      ],
+      "assignments": [],
+      "reviewer": "coordinator",
+      "reviewed_at": "2026-11-10T03:47:32.265827+00:00",
+      "rationale": "Candidate identity allocation from retained official ordinance; no canonical registry change or force certification.",
+      "evidence": [
+        {
+          "url": "https://starke.in.gov/wp-content/uploads/2026/10/ORD-2026-34-Regulation-and-Prohibition-of-Data-Centers.pdf",
+          "body_sha256": "e9586be9cde1e691406a6e760566c171f138db71a14ebe5f4a3bd56abf9658b7",
+          "locator": "candidate-decision:event_validity"
+        }
+      ]
+    }
+  ]
+}
