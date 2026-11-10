@@ -1,5 +1,18 @@
 # Changelog
 
+## Qualified v2026.11.10.post7
+
+Seven text fields across Lodi and Nashville clarified from distinct signed versions and published council minutes. No category, normalized-date, native-table or whole-record-disposition changes.1,358 unresolved and134 September category differences remain. Lodi version reconciliation/publication and Nashville commencement/effectiveness discrepancies remain explicit. [Qualified post7/V22 delivery](work/research/2026-11-10/release-2026.11.10.post7/README.md) is being verified.
+
+| Metric | Qualified v2026.11.10.post7 |
+|---|---:|
+| Moratoria in the list | **1,328** |
+| Classified active or extended | **1,087** |
+| Pending or not yet effective | **64** |
+| Ended (replaced, expired, or rescinded) | **171** |
+| Rows we still want to confirm (`[VERIFY]`) | **979** |
+| States with at least one | **47** |
+
 ## Qualified v2026.11.10.post6
 
 Eleven fields across UtahSB231, Cullman and Homewood clarified. No category, normalized-date, native or whole-record-disposition changes.1,358 unresolved and134 September category differences remain. Acquisition-window end includes November10 QA captures without changing the original comprehensive cutoff. [Qualified post6/V21 delivery](work/research/2026-11-10/release-2026.11.10.post6/README.md) verified.
