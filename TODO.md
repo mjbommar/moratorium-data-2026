@@ -894,4 +894,4 @@ Exit: repeatable refresh with visible freshness, costs, failures and unresolved 
 - [ ] Continue 1,347 unresolved legacy reviews, separate ballot follow-ups and qualified website synchronization hold; post13 delivery does not close these.
 
 - [x] Qualified post14 / V29 release/download/consumer delivery; four Kentucky prose corrections and refreshed public tables/charts/state pages.
-- [ ] Complete live post14 Pages deployment and browser/byte checks; preserve pending source QA and held Kentucky EO candidate.
+- [x] Complete live post14 Pages deployment and browser/byte checks: 64 generated HTML pages, 229 linked resources/downloads and desktop/mobile map/table interactions verified. Pending source QA and held Kentucky EO candidate remain.

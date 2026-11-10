@@ -31,7 +31,7 @@
   "record_disposition_path": "work/research/2026-11-08/full-record-dispositions/funnel.json",
   "qa_status": "ongoing",
   "publication_authorization": "publish current state with qualifications on pending QA, then continue to double check and clear the outstanding questions",
-  "working_revision": "post14-data-consumer-delivered-hosting-pending",
+  "working_revision": "post14-data-consumer-and-site-verified",
   "current_raw_counts": {
     "local": 1328,
     "state_policy": 448,
@@ -78,7 +78,7 @@
     "delivered_source_commit": "6518022eeff0f097b18b29224fde969677f842df",
     "delivered_consumer_commit": "38c8f2e7dc8f74e02c798de880df1b3c162da3ba",
     "delivery_receipt": "work/research/2026-11-10/post-release-qa/consumer-v29-handoff.json",
-    "hosted_copy_state": "pending"
+    "hosted_copy_state": "verified"
   },
   "latest_source_followup": "work/research/2026-11-10/post-release-qa/kentucky-incentive-implementation-review.json",
   "latest_expanded_candidate_review": "work/research/2026-11-09/starke-succession-review/validation.json",
@@ -129,15 +129,15 @@
   },
   "latest_field_application": "work/research/2026-11-10/post-release-qa/kentucky-current-incentive-code-review.json",
   "latest_hosted_delivery": {
-    "source_commit": "ad7af81345dc0bb72b9b48a09abc574199c9311e",
-    "hosted_source_commit": "ad7af81345dc0bb72b9b48a09abc574199c9311e",
-    "release_source_commit": "ad7af81345dc0bb72b9b48a09abc574199c9311e",
-    "pages_run": 42797598108,
-    "receipt": "work/research/2026-11-10/release-2026.11.10.post7/hosted-copy-verification.json",
+    "source_commit": "6518022eeff0f097b18b29224fde969677f842df",
+    "hosted_source_commit": "c5b188326bfb5f95b77ec33d3188d29e07e8d361",
+    "release_source_commit": "6518022eeff0f097b18b29224fde969677f842df",
+    "pages_run": 42847105263,
+    "receipt": "work/research/2026-11-10/release-2026.11.10.post14/hosted-copy-verification.json",
     "state": "verified"
   },
   "latest_expanded_result_review": "work/research/2026-11-10/canterbury-minutes-result-review/coordinator-adjudication.json",
-  "latest_verified_release": "v2026.11.10.post7",
+  "latest_verified_release": "v2026.11.10.post14",
   "source_observation_window_scope": "Acquisition range includes source-specific QA captures through November10; this does not renew every record or move the original comprehensive research_cutoff.",
   "latest_download_verified_release": "v2026.11.10.post14",
   "prior_latest_consumer_handoff": {
@@ -149,30 +149,52 @@
     "scope": "Qualified post13: 18 fields across 4 records. West Haven adoption/packet, New Haven signature/provision versions, Independence original moratoria/later standards, Wyoming HB0325 sponsor identities/parties. Zero category/date/membership/native-history changes or new closures. Publication, signature, later-force and independent Massachusetts holds remain. Website synchronization separate."
   },
   "prior_published_source_reference": "The v2026.11.10.post7 tag and manifest pin source ad7af813. Ten anonymous assets, full clean restore, V22 and23 hosted surfaces are verified. Final receipt-copy delivery is tracked separately. No universal freshness or current-force claim.",
-  "pending_hosted_delivery": {
-    "release": "v2026.11.10.post8",
-    "release_source_commit": "58a016a569e268ad26a2ed6ecc19a4736a743b84",
-    "failed_pages_run": 42802736516,
-    "state": "copy_pending_after_three_terminal_sync_timeouts",
-    "receipt": "work/research/2026-11-10/release-2026.11.10.post8/hosted-data-verification.json",
-    "failed_pages_runs": [
-      42802736516,
-      42804415026,
-      42807068191
-    ],
-    "active_deployment_run": null,
-    "latest_undelivered_release": "v2026.11.10.post14",
-    "latest_release_source_commit": "6518022eeff0f097b18b29224fde969677f842df",
-    "latest_diagnostic": "work/research/2026-11-10/release-2026.11.10.post9/hosting-limit-diagnostic.json",
-    "timeout_remedy": "Custom client waiting beyond10minutes is not a supported remedy under documented Pages deployment limit; no workflow change or retry dispatched."
-  },
   "latest_verified_hosted_data": {
+    "release": "v2026.11.10.post14",
+    "release_source_commit": "6518022eeff0f097b18b29224fde969677f842df",
+    "selected_files": 229,
+    "receipt": "work/research/2026-11-10/release-2026.11.10.post14/hosted-copy-verification.json",
+    "scope": "All public generated HTML pages, locally linked resources, all published figures/current downloads and live browser map/filter/table/mobile behavior verified. No universal factual freshness or legal-force claim."
+  },
+  "latest_disposition_review": "work/research/2026-11-09/post-release-qa/virginia-returned-veto-adjudications.json",
+  "status_baseline_comparison": "work/research/2026-11-09/post-release-qa/current-status-category-baseline-delta.json",
+  "hosted_delivery_history": [
+    {
+      "resolved_at": "2026-11-10T15:50:41.303779+00:00",
+      "prior_hold": {
+        "release": "v2026.11.10.post8",
+        "release_source_commit": "58a016a569e268ad26a2ed6ecc19a4736a743b84",
+        "failed_pages_run": 42802736516,
+        "state": "copy_pending_after_three_terminal_sync_timeouts",
+        "receipt": "work/research/2026-11-10/release-2026.11.10.post8/hosted-data-verification.json",
+        "failed_pages_runs": [
+          42802736516,
+          42804415026,
+          42807068191
+        ],
+        "active_deployment_run": null,
+        "latest_undelivered_release": "v2026.11.10.post14",
+        "latest_release_source_commit": "6518022eeff0f097b18b29224fde969677f842df",
+        "latest_diagnostic": "work/research/2026-11-10/release-2026.11.10.post9/hosting-limit-diagnostic.json",
+        "timeout_remedy": "Custom client waiting beyond10minutes is not a supported remedy under documented Pages deployment limit; no workflow change or retry dispatched."
+      },
+      "resolution": "work/research/2026-11-10/release-2026.11.10.post14/hosted-copy-verification.json",
+      "recovered_pages_run": 42847105263
+    }
+  ],
+  "prior_latest_hosted_delivery": {
+    "source_commit": "ad7af81345dc0bb72b9b48a09abc574199c9311e",
+    "hosted_source_commit": "ad7af81345dc0bb72b9b48a09abc574199c9311e",
+    "release_source_commit": "ad7af81345dc0bb72b9b48a09abc574199c9311e",
+    "pages_run": 42797598108,
+    "receipt": "work/research/2026-11-10/release-2026.11.10.post7/hosted-copy-verification.json",
+    "state": "verified"
+  },
+  "prior_latest_verified_hosted_data": {
     "release": "v2026.11.10.post8",
     "release_source_commit": "58a016a569e268ad26a2ed6ecc19a4736a743b84",
     "selected_files": 13,
     "receipt": "work/research/2026-11-10/release-2026.11.10.post8/hosted-data-verification.json",
     "scope": "Selected data/QA bytes only; no full release-label/prose/receipt synchronization claim."
-  },
-  "latest_disposition_review": "work/research/2026-11-09/post-release-qa/virginia-returned-veto-adjudications.json",
-  "status_baseline_comparison": "work/research/2026-11-09/post-release-qa/current-status-category-baseline-delta.json"
+  }
 }

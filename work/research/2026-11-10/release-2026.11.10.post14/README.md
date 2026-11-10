@@ -4,4 +4,4 @@
 
 Two byte-identical builds, full clean restore, ten anonymous downloads and all 2,499 archive members verified. V29 consumer main `38c8f2e7dc8f74e02c798de880df1b3c162da3ba` is pushed and verified with three trusted consistency checks, policy semantics and exact Git bytes/modes. All 1,266 native historical members and numerical summary remain unchanged.
 
-There are 1,347 unresolved legacy reviews. Kentucky EO2026-494 is a held new candidate outside canonical counts. Live deployment checks remain pending; previous Pages failures remain in history.
+There are 1,347 unresolved legacy reviews. Kentucky EO2026-494 is a held new candidate outside canonical counts. [Live website verification](hosted-copy-verification.json) passed: all 64 generated HTML pages and 229 linked resources/downloads match the pinned source, with desktop/mobile map, filter and table checks. The complete 8,273-file artifact preserves all 49 native historical generations. Previous Pages failures remain in history.
