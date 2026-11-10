@@ -1,0 +1,138 @@
+{
+  "all_pass": true,
+  "checks": [
+    {
+      "command": [
+        "scripts/validate_dataset.py",
+        "--today",
+        "2026-11-10"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/build_policy_scope_exports.py",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/build_summary_stats.py",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/build_geojson.py",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/make_timeline.py",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/check_docs_numbers.py"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "-m",
+        "scripts.generate_tables.inventory_clean",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/build_index.py",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/classify_sources.py",
+        "--check"
+      ],
+      "returncode": 0
+    }
+  ],
+  "baseline_source_commit": "4adc611e1a9ecc6be6438ab62ea5a1f28a482b93",
+  "unique_changed_cells": 10,
+  "changed_rows": 4,
+  "field_changes": [
+    {
+      "id": "me-ld-713-hp-452-132nd-legislature-public-law-2026-c-768",
+      "field": "status",
+      "before": "Signed by Governor 2026-04-23; official chapter citation Public Law 2025, c. 768 (132nd Legislature, enacted in 2026).",
+      "after": "Signed by Governor 2026-04-23; official chapter citation Public Law 2025, c. 768 (132nd Legislature, enacted in 2026). Effective 2026-07-29 under the official session-law title page and chapter effective-date reference; August1,2026 is the separate operations/applicability criterion."
+    },
+    {
+      "id": "me-ld-713-hp-452-132nd-legislature-public-law-2026-c-768",
+      "field": "effective_date_iso",
+      "before": "",
+      "after": "2026-07-29"
+    },
+    {
+      "id": "nh-hb672-fn-2025-lsr-25-0365-chapter-285",
+      "field": "primary_source_url",
+      "before": "",
+      "after": "https://gc.nh.gov/bill_status/legacy/bs2016/billText.aspx?id=372&sy=2025&txtFormat=html"
+    },
+    {
+      "id": "nm-sb-235-2026-microgrid-oversight-act",
+      "field": "status",
+      "before": "Committee-substituted in Senate Conservation and Senate Tax, Business and Transportation Committees; passed the Senate 22-20 on 2026-02-14; sent to House Judiciary Committee 2026-02-15; Action Postponed Indefinitely there; not enacted before 2026 sine die (2026-02-19)",
+      "after": "Senate Conservation Committee substitute recommended; Senate Tax, Business and Transportation Committee recommended Do Pass (report dated 2026-02-12, recorded 2026-02-13), not a second substitute. Passed Senate 22-20 on 2026-02-14; sent to House Judiciary Committee 2026-02-15; Action Postponed Indefinitely there; not enacted before 2026 sine die (2026-02-19)."
+    },
+    {
+      "id": "nm-sb-235-2026-microgrid-oversight-act",
+      "field": "key_provisions",
+      "before": "The Senate Conservation Committee substitute proposed oversight of qualifying microgrids, renewable portfolio requirements and annual reporting, alongside limits on public utility rate increases for microgrid infrastructure; the bill passed the Senate but died in House committee. A later floor amendment was not reviewed.",
+      "after": "The Senate Conservation Committee substitute proposed oversight of qualifying microgrids, renewable portfolio requirements and annual reporting, alongside limits on public utility rate increases for microgrid infrastructure. A February14 Senate floor amendment proposed county/population-based exemptions from the renewable portfolio standard, but the official bill history lists that amendment under Not Adopted; those exemptions were not adopted through that amendment. The bill failed in House committee. The fiscal report discusses data-center energy needs using agency comments on similar legislation; this does not establish that a particular data center qualifies."
+    },
+    {
+      "id": "nm-sb-235-2026-microgrid-oversight-act",
+      "field": "primary_source_url",
+      "before": "",
+      "after": "https://www.nmlegis.gov/Legislation/Legislation?Chamber=S&LegType=B&LegNo=235&year=26"
+    },
+    {
+      "id": "ri-h6476-2021",
+      "field": "status",
+      "before": "Introduced, referred to House Finance, 2021-06-25; no further action recorded (died at end of 2021 session)",
+      "after": "Introduced and referred to House Finance, 2021-06-25, as stated in the official introduced text. Final disposition not established by reviewed evidence; prior claim that the bill died at the end of the 2021 session is withdrawn pending a usable action history."
+    },
+    {
+      "id": "ri-h6476-2021",
+      "field": "bill_status_category",
+      "before": "failed_died",
+      "after": "unknown"
+    },
+    {
+      "id": "ri-h6476-2021",
+      "field": "legal_effect_status",
+      "before": "failed",
+      "after": "unknown"
+    },
+    {
+      "id": "ri-h6476-2021",
+      "field": "primary_source_url",
+      "before": "",
+      "after": "https://webserver.rilegislature.gov/BillText21/HouseText21/H6476.htm"
+    }
+  ],
+  "status_category_changes": 1,
+  "whole_record_closures": 0,
+  "new_network_requests_for_amendment_resolution": 0,
+  "expanded_publication_unchanged": true
+}

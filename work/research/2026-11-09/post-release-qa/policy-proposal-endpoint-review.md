@@ -5,11 +5,11 @@ Ten supported field corrections across four existing policy records are applied 
 | Record | Applied change | Remaining question |
 |---|---|---|
 | Maine LD713 | July 29, 2026 general effective date, with explicit separation from August 1 operations criteria | Study submission and later current-force review remain unverified |
-| New Mexico SB235 | Correct second-committee action from substitute to Do Pass; describe county exemptions in the later floor-amendment proposal; supply official history URL | Amendment adoption/incorporation and data-center analytical applicability remain unresolved |
+| New Mexico SB235 | Correct second-committee action from substitute to Do Pass; describe county exemptions in the later floor-amendment proposal; supply official history URL | Data-center analytical applicability remains unresolved; retained HTML now establishes the amendment was not adopted |
 | Rhode Island H6476 (2021) | Withdraw unsupported end-of-session failure claim; status category and legal effect become unknown; supply official introduced-text URL | Usable exact-year final action history |
 | New Hampshire HB672 | Supply previously retained official chapter URL | Particular facility qualification and changes after the retained statutory capture |
 
-Maine's official session-law volume title page states the general effective date, and chapter768 on printed pages1839–1841 explicitly refers to that title page. Its August1 threshold is an operations/applicability criterion. Neither date proves report submission. New Mexico's signed amendment proposal has blank adopted/not-adopted lines; its content is reviewed without inferring adoption. The fiscal report's data-center discussion attributes agency comments to similar legislation and does not settle particular facility qualification.
+Maine's official session-law volume title page states the general effective date, and chapter768 on printed pages1839–1841 explicitly refers to that title page. Its August1 threshold is an operations/applicability criterion. Neither date proves report submission. New Mexico's signed amendment proposal has blank adopted/not-adopted lines. Subsequent review of the retained official HTML establishes that the exact amendment is under the explicit Not Adopted heading; the canonical summary now records its failure. This resolved one question without a new request. The fiscal report's data-center discussion attributes agency comments to similar legislation and does not settle particular facility qualification.
 
 Two bounded Exa searches and four official fetches were used, within the original two-search/eight-fetch allowance. All four fetched source versions were archived and read back through the native evidence store with exact bytes. The image-only floor amendment received a separate, registered OCR derivation and full-page visual review; original empty extraction remains intact. Retained sources were rehashed without new requests. No blocked Legiscan retry or nationwide rediscovery was performed. Remaining fetch allowance is four and must not be reset.
 
@@ -20,3 +20,5 @@ Nine focused checks pass: dataset validation, scope exports, summary statistics,
 Evidence: [field adjudications](policy-proposal-endpoint-adjudications.json), [exact source-store readbacks](policy-proposal-endpoint-native-readback.json), [checks](policy-proposal-endpoint-checks.json), and [September comparison](policy-proposal-endpoint-status-baseline-delta.json).
 
 Next review must seek genuinely new evidence for the residuals above. Do not treat a search miss, introduced text, blank adoption lines, report deadline, or recovered URL as a final disposition or current-force finding.
+
+Follow-up: [retained HTML amendment-outcome review](nm-sb235-amendment-outcome-review.json) supersedes the initial adoption uncertainty and rebinds the current row guard. Original field-change observations remain historical; consult this follow-up for the final New Mexico summary.
