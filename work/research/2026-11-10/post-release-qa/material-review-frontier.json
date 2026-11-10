@@ -1,0 +1,113 @@
+{
+  "prepared_at": "2026-11-10T17:05:20.333523+00:00",
+  "scope": "Prepared material decisions, not all outstanding records. No reviewer jobs launched by preparation; no factual acceptance or canonical application implied. Primary source references are receipt-scoped; reviewers must also inspect retained additional sources named by each packet.",
+  "record_count": 9,
+  "batches": [
+    {
+      "batch": "kentucky-new-order",
+      "record_ids": [
+        "ky-executive-order-2026-494-2026"
+      ],
+      "packets": [
+        {
+          "path": "work/research/2026-11-10/post-release-qa/kentucky-order494-publication-review.json",
+          "sha256": "875c141d9f9dc3b791ce8ee997262a2fe54643efab6bfa04e087074d50313c9c"
+        },
+        {
+          "path": "work/research/2026-11-10/post-release-qa/kentucky-order494-candidate-preview.json",
+          "sha256": "25c393469e0a10da322315cde18c8d23ca7c653319bf1d0e4924e3255962a5be"
+        }
+      ],
+      "verified_current_row_guards": {},
+      "primary_retained_sources": 5,
+      "review_instruction": "Extract issuance, filing, substantive scope and dates from sources first; then compare candidate fields. Decide admission and mechanism without claiming current force.",
+      "review_state": "independent_review_pending",
+      "canonical_changes": 0
+    },
+    {
+      "batch": "louisiana-terminal",
+      "record_ids": [
+        "la-hcr61-2025-rs"
+      ],
+      "packets": [
+        {
+          "path": "work/research/2026-11-10/post-release-qa/louisiana-hcr61-closing-window-review.json",
+          "sha256": "85a4510633600084ad3a79ca9092f4b9e4c43761c19f72b6afd683cd10488388"
+        },
+        {
+          "path": "work/research/2026-11-10/post-release-qa/louisiana-hcr61-terminal-candidate.json",
+          "sha256": "2bacc5a35bd97e96aeed71dae913178e9550a0fc48b25a3c1b64563d1a227137"
+        }
+      ],
+      "verified_current_row_guards": {
+        "la-hcr61-2025-rs": "39c9f3325e057028dea8560a8097b70ef3ec7a6396040e3de25392c839550e4f"
+      },
+      "primary_retained_sources": 8,
+      "review_instruction": "Extract last named action, journal coverage and adjournment first; then adjudicate proposed nonpassage inference, distinguishing post-session administrative messages.",
+      "review_state": "independent_review_pending",
+      "canonical_changes": 0
+    },
+    {
+      "batch": "identity-and-kansas",
+      "record_ids": [
+        "wy-sf0091-2026",
+        "ks-sb-98-2025",
+        "ks-sb-51-2025-2026",
+        "ks-sb-92-2025-2026"
+      ],
+      "packets": [
+        {
+          "path": "work/research/2026-11-10/post-release-qa/wyoming-sf91-full-name-review.json",
+          "sha256": "ae4668d3887e5ff37d51a7d7bc6eaae1ed39b920100a15467006105b44f33e97"
+        },
+        {
+          "path": "work/research/2026-11-10/post-release-qa/kansas-sb98-publication-review.json",
+          "sha256": "e85453f01eb1065ccaa705ba1e355e15e1c72dac10e2807ff875d4fb3d111ebb"
+        },
+        {
+          "path": "work/research/2026-11-10/post-release-qa/kansas-sb51-sb92-publication-review.json",
+          "sha256": "aa8ce7f83f19b8440ba51c63d3222a1691d201ef0a43abf7865cd786d8374453"
+        },
+        {
+          "path": "work/research/2026-11-10/post-release-qa/kansas-sb51-amendment-order-review.json",
+          "sha256": "1d45082f93c5eba503ad59e1a87fe401b2504b7e2d80edc086d33c48f3e5c8a2"
+        }
+      ],
+      "verified_current_row_guards": {
+        "wy-sf0091-2026": "55a9943f7adcbca59e6c8402e8c88387f037fb5a3521c55d1bdda73205bbf96a",
+        "ks-sb-98-2025": "411fc559ba5eeee8ff454a8a3faf48c449bc9247a0bc99954f64394564448b86",
+        "ks-sb-51-2025-2026": "ccca2013054e966c3782b06a689f2d524531b72cdf893ea2121d1aa72f38ab40",
+        "ks-sb-92-2025-2026": "59bd5fe755180706ea2e48a4dffbe865fbb0ca1b1ce1a7e87a658900159b3a99"
+      },
+      "primary_retained_sources": 16,
+      "review_instruction": "Review sponsor attribution and section/program dates separately. Distinguish historical amendment from current force; inspect actual markup/version chain.",
+      "review_state": "independent_review_pending",
+      "canonical_changes": 0
+    },
+    {
+      "batch": "washington-enacted",
+      "record_ids": [
+        "wa-sb-5431-ssb-5431-2025-26",
+        "wa-sb-5982-2025-26",
+        "wa-sb-6231-2025-26"
+      ],
+      "packets": [
+        {
+          "path": "work/research/2026-11-10/post-release-qa/washington-enacted-current-law-review.json",
+          "sha256": "2026dadcf7876b3c70adffef6599d7d4798c290db223b25677ff9dfbcc95a2bf"
+        }
+      ],
+      "verified_current_row_guards": {
+        "wa-sb-5431-ssb-5431-2025-26": "adea0589ac08ca910d60462def1c060cf3fb3e182207ff65a1cb8048228c2a5f",
+        "wa-sb-5982-2025-26": "41efc9ae893f94e80dc5041d755e7727abf3ebbd8c71d5e6bd1a04394f5b2535",
+        "wa-sb-6231-2025-26": "934062a6bd818905e10f667ffcdf92d0cf796574d68051a7254909ecfc81bdbb"
+      },
+      "primary_retained_sources": 5,
+      "review_instruction": "Review agency implementation and exact CETA exception; inspect complete code-history derivatives. Decide proposed summary correction separately from broader current-force closure.",
+      "review_state": "independent_review_pending",
+      "canonical_changes": 0
+    }
+  ],
+  "canonical_policy_sha256_guard": "2326a0e5a87a02e8db6af9690bad46e3c920c549778ba9832b8c9c9d462c64a1",
+  "unresolved_record_count_unchanged": 1347
+}
