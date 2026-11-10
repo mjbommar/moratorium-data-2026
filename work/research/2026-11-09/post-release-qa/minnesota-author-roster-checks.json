@@ -1,0 +1,139 @@
+{
+  "exact_cell_changes": [
+    {
+      "id": "mn-hf-3793-2026",
+      "field": "party",
+      "before": "[VERIFY]",
+      "after": "DFL; R (bipartisan co-authors)"
+    },
+    {
+      "id": "mn-hf-4077-2026",
+      "field": "sponsors",
+      "before": "Sponsor list not parsed from captured Revisor page [VERIFY: HF 4077 author list not extracted from captured Revisor page]",
+      "after": "Reps. Greenman (lead); Roach; Freiberg; Rehrauer; Kozlowski; Frederick; Johnson, P.; Xiong; Hudson; Berg; Smith; Gomez; Tabke; Pursell; Jones; Virnig; Rehm; Fischer"
+    },
+    {
+      "id": "mn-hf-4077-2026",
+      "field": "party",
+      "before": "[VERIFY]",
+      "after": "DFL; R (bipartisan co-authors)"
+    },
+    {
+      "id": "mn-sf-4203-2026",
+      "field": "sponsors",
+      "before": "Author list not parsed from captured Revisor page [VERIFY: SF 4203 author list not extracted from captured Revisor page]",
+      "after": "Sens. Maye Quade (lead); Boldon"
+    },
+    {
+      "id": "mn-sf-4203-2026",
+      "field": "party",
+      "before": "[VERIFY]",
+      "after": "DFL"
+    },
+    {
+      "id": "mn-sf-5100-2026",
+      "field": "sponsors",
+      "before": "Author list not parsed from captured Revisor page [VERIFY: SF 5100 author list not extracted from captured Revisor page]",
+      "after": "Sen. Andrew Mathews"
+    },
+    {
+      "id": "mn-sf-5100-2026",
+      "field": "party",
+      "before": "[VERIFY]",
+      "after": "R"
+    },
+    {
+      "id": "mn-sf-5231-2026",
+      "field": "sponsors",
+      "before": "Author list not parsed from captured Revisor page [VERIFY: SF 5231 author list not extracted from captured Revisor page]",
+      "after": "Sens. Maye Quade (lead); Boldon"
+    },
+    {
+      "id": "mn-sf-5231-2026",
+      "field": "party",
+      "before": "[VERIFY]",
+      "after": "DFL"
+    }
+  ],
+  "explicit_verify_cells_resolved": 9,
+  "targeted_five_party_verify_cells_remaining": 0,
+  "other_policy_party_verify_cells_remaining": 11,
+  "status_category_changes": 0,
+  "normalized_date_changes": 0,
+  "scope_membership_changes": 0,
+  "whole_record_closures": 0,
+  "prior_dispositions_and_cohort_counts_preserved": true,
+  "unresolved_records": 1347,
+  "retained_author_body_hashes_verified": 5,
+  "new_source_store_readbacks": 3,
+  "scope_registry_append_only": true,
+  "inventory_summary_map_bytes_preserved": true,
+  "old_review_guards_preserved_and_chained": true,
+  "prior_delivery_and_hosting_states_preserved": true,
+  "checks": [
+    {
+      "command": [
+        "scripts/validate_dataset.py",
+        "--today",
+        "2026-11-10"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/build_policy_scope_exports.py",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/build_summary_stats.py",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/build_geojson.py",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/make_timeline.py",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/check_docs_numbers.py"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "-m",
+        "scripts.generate_tables.inventory_clean",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/build_index.py",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/classify_sources.py",
+        "--check"
+      ],
+      "returncode": 0
+    }
+  ]
+}

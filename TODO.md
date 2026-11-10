@@ -1,5 +1,7 @@
 # Implementation TODO
 
+- [x] Resolve nine explicit Minnesota author/party VERIFY cells across five records using retained Revisor author lists and official House/Senate directories. No bill/history recapture, outcome change or new closure; 1,347 reviews remain unresolved. Ten policy fields across six records await later release/consumer delivery. Other party flags remain explicit.
+
 - [x] Deliver qualified post10 and additive V25: sixteen corrected fields across eight records, seven historical closures, one category correction; deterministic builds, full restore, ten downloads and exact consumer checks passed. 1,347 reviews remain unresolved; 133 September status differences and separate website-copy hold remain.
 
 - [x] Resolve HB1601/SB1449 final returned-bill veto questions using Virginia Article V section6(c)(iii), actual reconvened-session date and retained LIS histories. Six fields corrected, two historical reviews closed; 1,347 unresolved reviews remain. No ordinary override vote invented; proposal-boundary ambiguity retained.
