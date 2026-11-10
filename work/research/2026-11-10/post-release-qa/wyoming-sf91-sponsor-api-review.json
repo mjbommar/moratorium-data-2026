@@ -1,0 +1,104 @@
+{
+  "reviewed_at": "2026-11-10T16:23:00.353994+00:00",
+  "id": "wy-sf0091-2026",
+  "current_row_sha256": "55a9943f7adcbca59e6c8402e8c88387f037fb5a3521c55d1bdda73205bbf96a",
+  "recommendation": "unresolved",
+  "canonical_changes": 0,
+  "status_category_changes": 0,
+  "normalized_date_changes": 0,
+  "whole_record_closures": 0,
+  "native_source_readbacks": 1,
+  "sources": [
+    {
+      "attempt_id": "b71aa9fd129544baad47a9ef445a42d0",
+      "url": "https://api.wyoleg.gov/v1/odata/BillReferences?year=2026&billNumber=SF0091&expand=substituteBills,vetoes,amendments($expand=amendmentBudgetSections)",
+      "body_sha256": "2c0cae409e3a568a6c026fde25eb66121d10f0c0eb446e487dd0922e1301de30",
+      "body_observed_at": "2026-11-10T16:19:44.229101Z"
+    }
+  ],
+  "original_text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "accepted_text_sha256": "395eb0413a4e6cd99c306e9b0bc449ddab9135efcce97f354c2edc8c59b16ae8",
+  "source_projection_scope": "Bill-reference id is a bill entity identifier. Sponsor objects expose names/titles/chambers/primary flags only, with no person/legislator identifiers. Raw proposed effectiveDate is not treated as operative law after failed introduction.",
+  "api_sponsors": [
+    {
+      "name": "Allemand",
+      "primarySponsor": false,
+      "house": "H",
+      "sponsorTitle": "Representative"
+    },
+    {
+      "name": "Bear",
+      "primarySponsor": false,
+      "house": "H",
+      "sponsorTitle": "Representative"
+    },
+    {
+      "name": "Campbell, K",
+      "primarySponsor": false,
+      "house": "H",
+      "sponsorTitle": "Representative"
+    },
+    {
+      "name": "Heiner",
+      "primarySponsor": false,
+      "house": "H",
+      "sponsorTitle": "Representative"
+    },
+    {
+      "name": "Neiman",
+      "primarySponsor": false,
+      "house": "H",
+      "sponsorTitle": "Representative"
+    },
+    {
+      "name": "Webber",
+      "primarySponsor": false,
+      "house": "H",
+      "sponsorTitle": "Representative"
+    },
+    {
+      "name": "French",
+      "primarySponsor": false,
+      "house": "S",
+      "sponsorTitle": "Senator"
+    },
+    {
+      "name": "Pearson",
+      "primarySponsor": false,
+      "house": "S",
+      "sponsorTitle": "Senator"
+    },
+    {
+      "name": "Steinmetz",
+      "primarySponsor": true,
+      "house": "S",
+      "sponsorTitle": "Senator"
+    }
+  ],
+  "bill_reference_id": 13287,
+  "raw_effective_date_not_accepted": "3/1/2026",
+  "remaining_questions": [
+    "Resolve bill-listed Senator Pearson with explicit official identity/alias or person-linked sponsor evidence. The actual BillReferences API is now reviewed: its nine sponsor objects contain name, primary flag, chamber and title, but no legislator/person ID. Its id13287 identifies the bill, not a member. Do not join that ID to profile2138 or repeat this bill-page/API capture merely to seek a missing person ID. The roster-linked Taliaferro profile alone remains insufficient alias evidence.",
+    "Establish a data-center-specific relationship supporting analytical scope. The API embedded introduced text, digest and fiscal note are now reviewed; no explicit data-center relationship was established in those passages. Broad industrial-load coverage is not itself an exclusion finding or specific sector proof.",
+    "Preserve the failed-introduction outcome. The API raw effectiveDate3/1/2026 is not accepted as a law-effective date; no new operative date or current-force conclusion follows from API availability."
+  ],
+  "acquisition_accounting": {
+    "fetch_operations": 2,
+    "browser_operation": {
+      "attempt_id": "525588ae66c24463bbb6619ba8280deb",
+      "main_text_chars": 1021,
+      "scope": "Browser capture remained a retrieving-data/navigation shell; retained privately for actual network endpoint discovery, not primary substantive bill evidence."
+    },
+    "api_operation": {
+      "attempt_id": "b71aa9fd129544baad47a9ef445a42d0",
+      "scope": "Exact actually observed API URL fetched once to retain its response body; no invented API expansion or endpoint."
+    },
+    "searches": 0,
+    "original_caps_unchanged": true
+  },
+  "limitations": [
+    "No stable sponsor-person link or alias assertion accepted.",
+    "The selected API field review does not establish comprehensive later history/current force or analytical exclusion.",
+    "No canonical data, public dashboard or deployment was changed."
+  ]
+}
