@@ -1,5 +1,7 @@
 # Implementation TODO
 
+- [x] Deliver qualified post10 and additive V25: sixteen corrected fields across eight records, seven historical closures, one category correction; deterministic builds, full restore, ten downloads and exact consumer checks passed. 1,347 reviews remain unresolved; 133 September status differences and separate website-copy hold remain.
+
 - [x] Resolve HB1601/SB1449 final returned-bill veto questions using Virginia Article V section6(c)(iii), actual reconvened-session date and retained LIS histories. Six fields corrected, two historical reviews closed; 1,347 unresolved reviews remain. No ordinary override vote invented; proposal-boundary ambiguity retained.
 
 - [x] Resolve HF3793 historical terminal classification using one missing companion history and seven retained shared Minnesota authorities. Three fields corrected; September surviving status differences decrease from 134 to 133 (98 local, 35 policy). Broader policy/party holds remain; 1,349 unresolved reviews.

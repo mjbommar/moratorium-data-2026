@@ -2,7 +2,7 @@
 
 **November patch release with pending QA:** [v2026.11.10.post10](https://github.com/mjbommar/moratorium-data-2026/releases/tag/v2026.11.10.post10) publishes the reviewed current state with explicit unresolved source and legal-status questions. Further checking continues. The older `v2026.11.8` remains an incomplete prerelease checkpoint.
 
-**Qualified patch:** Sixteen fields across eight Monument, Missouri, Minnesota and Virginia records corrected; seven historical review questions closed. One status category changes from unknown to failed, matching September; 133 surviving existing status differences remain (98 local, 35 policy). [Release scope and delivery checks](work/research/2026-11-10/release-2026.11.10.post10/README.md) distinguish pending verification from completed delivery; website-copy synchronization remains on hold.
+**Qualified patch:** Sixteen fields across eight Monument, Missouri, Minnesota and Virginia records corrected; seven historical review questions closed. One status category changes from unknown to failed, matching September; 133 surviving existing status differences remain (98 local, 35 policy). [Release downloads, full clean restore and consumer V25](work/research/2026-11-10/release-2026.11.10.post10/README.md) are verified; website-copy synchronization remains on hold.
 
 **Continuing QA:** 1,347 records remain unresolved. Massachusetts H5175 independent QA, record-specific later force, sponsor-party and source gaps remain open. There are 448 policy observations and 1,776 raw records. Each release tag preserves its exact snapshot; later working changes retain their own receipts.
 
