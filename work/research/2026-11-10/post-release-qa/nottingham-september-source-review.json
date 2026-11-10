@@ -1,0 +1,77 @@
+{
+  "reviewed_at": "2026-11-10T08:09:17.527145+00:00",
+  "reviewer": "root direct source review; no new independent reviewer",
+  "measure_id": "f03cb5ab-72d5-46cc-a493-81f0f8279b43",
+  "jurisdiction": "Nottingham, NH",
+  "disposition": "unresolved",
+  "canonical_changes": 0,
+  "new_certified_results": 0,
+  "sources": [
+    {
+      "url": "https://www.nottingham-nh.gov/election-voting-information",
+      "body_sha256": "0d2f330c0454bd45e4b800f2422dff2c03a62e9f48bd95f3b12cd519eb50d96f",
+      "text_sha256": "36efe2f2d57ceaaebb4095d1b7dc64b78c9be7dab2acce2d46f969d2e2cbcb81",
+      "observed_at": "2026-11-10T08:01:11.250552Z"
+    },
+    {
+      "url": "https://www.nottingham-nh.gov/election-voting-information/news/september-8th-voting-results",
+      "body_sha256": "c279cbcf3ef9af570d65a9d0e6a9531caad9d784e9ddd52ae3827838d29fb9bf",
+      "text_sha256": "270b93e028e7a33bd687779317eec2e8448cdc21135e03788357554818a687ec",
+      "observed_at": "2026-11-10T08:03:06.718260Z"
+    },
+    {
+      "url": "https://www.nottingham-nh.gov/election-voting-information/pages/2026-special-town-election",
+      "body_sha256": "f7d9ffb8a1b1b608de2c7e5150bb9212e921500a7d6d3ad67a0e6a2e632eab65",
+      "text_sha256": "8145861e54dfe7af8a17e5c00de8a6d7a008e58257486b0feafa533e396bb918",
+      "observed_at": "2026-11-10T08:03:07.266403Z"
+    },
+    {
+      "url": "https://www.nottingham-nh.gov/finance/pages/town-meeting-minutes",
+      "body_sha256": "37b1b0d5776c19fc43107d2efdde34eccbec9d82f947e623036ec1d65b9d1639",
+      "text_sha256": "612f58d80cdd88b7e4b795b64d78cf5866414caa8b4747488658a91d1b3be3f3",
+      "observed_at": "2026-11-10T08:07:20.697497Z"
+    },
+    {
+      "url": "https://www.nottingham-nh.gov/sites/g/files/vyhlif3611/f/uploads/nottingham_temporary_moratorium_on_data_centers_ordinance_final_signed.pdf",
+      "body_sha256": "6a68684c195468a9af053675799e98393cdcb70efdf63ddc242138ff1df02b10",
+      "text_sha256": "29dfd8462a2cab4133a294ea7497c32bc42c1236c289f05cfb4b86b2a46d1be3",
+      "observed_at": "2026-11-10T08:07:20.835272Z"
+    }
+  ],
+  "findings": [
+    "The September8 voting-results news page is dated September9,2026 at9:41am and links the already reviewed f/news marked return. Posting time is not a certification date.",
+    "The special-election page links an f/uploads final_signed ordinance alias whose body exactly matches the retained pre-vote Planning Board proposal; no new post-vote execution is established by its filename.",
+    "Finance town-meeting-minutes index describes official minutes but the captured list exposes older2025/2024 sessions and no relevant2026 minute link. This is not evidence that no later minutes exist."
+  ],
+  "retained_comparison": {
+    "known_original_url": "https://www.nottingham-nh.gov/sites/g/files/vyhlif3611/f/news/nottingham_temporary_moratorium_on_data_centers_ordinance_final_signed.pdf",
+    "known_alternative_archived_before_this_review": "https://www.nottingham-nh.gov/sites/g/files/vyhlif3611/f/pages/nottingham_temporary_moratorium_on_data_centers_ordinance_final_signed.pdf",
+    "body_sha256": "6a68684c195468a9af053675799e98393cdcb70efdf63ddc242138ff1df02b10",
+    "new_linked_upload_alias_byte_identical": true,
+    "unchanged_proposal_not_rereviewed_as_new_execution": true
+  },
+  "acquisition_accounting": {
+    "event_specific_search_cap": 1,
+    "event_specific_search_used": 1,
+    "event_specific_fetch_cap": 3,
+    "event_specific_fetch_used": 3,
+    "explicit_linked_record_supplement_fetch_cap": 3,
+    "supplement_fetch_used": 2,
+    "supplement_unused_allowance": 1,
+    "new_archive_versions": 5,
+    "scope": "Earlier four-measure2search/8fetch phase remains exhausted. No old marked-return/proposal URL re-fetch, repeated county-certificate OCR or nationwide discovery. Newly discovered alias is compared by exact body hash; no new legal interpretation of unchanged bytes."
+  },
+  "remaining_questions": [
+    "Independently establish dated result certification or accepted legislative adoption/implementation and controlling operative text.",
+    "Do not infer enactment, effectiveness, current force or a certification date from a posted results page, file name or pre-vote Planning Board signatures."
+  ],
+  "legacy_unresolved_count_unchanged": 1359,
+  "next_action": "Move to a different unresolved record family. Do not repeat these pages, known proposal aliases or marked return absent a new relevant dated record signal. The unused supplemental allowance is restricted to a newly exposed relevant September-or-later minute link.",
+  "validation": {
+    "legacy_inputs_identity_and_snapshot_links_equal_published_post3": true,
+    "source_classification_check_passed": true,
+    "documentation_numbers_check": "95 claims pass",
+    "new_certified_results": 0,
+    "canonical_changes": 0
+  }
+}
