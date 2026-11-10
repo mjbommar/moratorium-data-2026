@@ -1029,6 +1029,12 @@ def main():
         assert digest(json.dumps(current[key],sort_keys=True,separators=(',',':'),ensure_ascii=False).encode())==record['current_row_sha256']
         assert next(r for r in f['records'] if r['id']==record['id'])['disposition']==record['recommendation']=='unresolved'
         overlays[record['id']]=[public_text(q) for q in record['remaining_questions']]
+    wy_fullname_path=Path('work/research/2026-11-10/post-release-qa/wyoming-sf91-full-name-review.json')
+    if wy_fullname_path.exists():
+        record=json.loads(wy_fullname_path.read_text());key=('state_policy',record['id'])
+        assert digest(json.dumps(current[key],sort_keys=True,separators=(',',':'),ensure_ascii=False).encode())==record['current_row_sha256']
+        assert next(r for r in f['records'] if r['id']==record['id'])['disposition']==record['recommendation']=='unresolved'
+        overlays[record['id']]=[public_text(q) for q in record['remaining_questions']]
     rows=[]
     for entry in f['records']:
         if entry['disposition']!='unresolved':continue
@@ -1056,6 +1062,7 @@ def main():
     summary['independence_operative_term_sha256']=digest(independence_path.read_bytes()) if independence_path.exists() else None
     summary['independence_ordinance19850_sha256']=digest(independence_later_path.read_bytes()) if independence_later_path.exists() else None
     summary['louisiana_hcr61_closing_window_sha256']=digest(la_hcr61_path.read_bytes()) if la_hcr61_path.exists() else None
+    summary['wyoming_sf91_fullname_sha256']=digest(wy_fullname_path.read_bytes()) if wy_fullname_path.exists() else None
     summary['wyoming_sf91_api_sha256']=digest(wy_api_path.read_bytes()) if wy_api_path.exists() else None
     summary['kentucky_current_code_sha256']=digest(ky_code_path.read_bytes()) if ky_code_path.exists() else None
     summary['wyoming_hb325_sponsors_sha256']=digest(wy_sponsors_path.read_bytes()) if wy_sponsors_path.exists() else None

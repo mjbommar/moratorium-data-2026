@@ -1,0 +1,54 @@
+{
+  "reviewed_at": "2026-11-10T16:50:09.732021+00:00",
+  "id": "wy-sf0091-2026",
+  "current_row_sha256": "55a9943f7adcbca59e6c8402e8c88387f037fb5a3521c55d1bdda73205bbf96a",
+  "recommendation": "unresolved",
+  "canonical_changes": 0,
+  "status_category_changes": 0,
+  "normalized_date_changes": 0,
+  "whole_record_closures": 0,
+  "native_source_readbacks": 2,
+  "sources": [
+    {
+      "attempt_id": "c5e053cf23a64e68a99384a4b0754579",
+      "url": "https://sos.wyo.gov/Elections/Docs/2024/2024_WY_General_Election_Winners.pdf",
+      "body_sha256": "38d712a7163584c92ad74c8e287beca5cb04c8d9d43a723fed6ac39a34bb3fea",
+      "text_sha256": "4671a94320574fa89ae8d924eafe28ee8884489a42c112344d7d34aeeab9cf55",
+      "fetched_at": "2026-11-10T16:44:33.540490+00:00",
+      "published": false,
+      "visually_reviewed_pdf_page": 2
+    },
+    {
+      "attempt_id": "e595900b7a7a4d9c9b65537da0a1a25f",
+      "url": "https://sos.wyo.gov/Services/docs/LegislativeWomen.pdf",
+      "body_sha256": "4b6c96f8a66fa58d63d63e300cab6b390496b3bd0a5dbed1d7d43cbdaca0dc89",
+      "text_sha256": "b5a2b20cc53711ed097c2af893bb334fb44d235fe24e090b928f604a9abf6242",
+      "fetched_at": "2026-11-10T16:44:34.090391+00:00",
+      "published": false,
+      "visually_reviewed_pdf_page": 1
+    }
+  ],
+  "finding": "Two official Secretary of State publications explicitly name Laura Taliaferro Pearson, Republican, Senate District 14. This provides a full-name bridge between the bill-listed Pearson and the retained 2026 roster/profile Taliaferro. It is source-supported attribution evidence, held for independent review before canonical promotion.",
+  "retained_profile": {
+    "url": "https://www.wyoleg.gov/Legislators/2026/S/2138",
+    "attempt_id": "3cd0647e82654d738edf0a65a4e53de7",
+    "body_sha256": "af5270f0bb6515196db678367cc65b0447bef532652330045f43769f77a8bffc",
+    "reuse_only": true
+  },
+  "remaining_questions": [
+    "Independent attribution review: official Secretary of State 2024 election winners roster (PDF page 2) names Laura Taliaferro Pearson, Republican, Senate District 14; official women legislators list (PDF page 1, revised November 2024) corroborates the full name, party and district. Compare these with the retained official 2026 Senate District 14 profile naming Laura Taliaferro, Republican, service 2025-present, and the bill/API sponsor Pearson. A full-name bridge is now captured; do not repeat the bill API seeking person IDs. Do not infer a legal name change or its cause. Proposed party clarification remains unapplied pending independent review.",
+    "Establish a data-center-specific relationship supporting analytical scope. The API embedded introduced text, digest and fiscal note are now reviewed; no explicit data-center relationship was established in those passages. Broad industrial-load coverage is not itself an exclusion finding or specific sector proof.",
+    "Preserve the failed-introduction outcome. The API raw effectiveDate3/1/2026 is not accepted as a law-effective date; no new operative date or current-force conclusion follows from API availability."
+  ],
+  "acquisition_accounting": {
+    "exa_searches": 1,
+    "exa_cost_usd": 0.007,
+    "fetch_operations": 2,
+    "no_refetches_this_review": true
+  },
+  "limitations": [
+    "No legal name change, cause of name difference, or retrospective party change is asserted.",
+    "No data-center-specific relationship, current-force determination or operative date established.",
+    "Canonical row, disposition totals, public dashboard and release are unchanged."
+  ]
+}
