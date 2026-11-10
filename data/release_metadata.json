@@ -15,12 +15,12 @@
     "Experimental model extraction/P4 has not passed; no experimental extraction output is accepted automatically.",
     "The companion April paper and dated sibling publications retain their historical editions."
   ],
-  "update_status": "qualified_release_pending_delivery",
+  "update_status": "qualified_release_with_hosted_delivery_pending_and_ongoing_qa",
   "full_inventory_closeout": "reviewed_and_applied_with_bounded_unresolved_questions",
   "consumer_dispositions": "delivered_with_historical_editions_preserved",
   "experimental_extractor": "failed_no_automatic_promotion",
   "quality_gate_disposition": "User authorized publication of the current state with qualifications on pending QA, followed by continued double checking and resolution of outstanding questions.",
-  "reviewed_data_source_commit": "738c40f310fb06d2e58bd6a71a74db1598414156",
+  "reviewed_data_source_commit": "4c7b8e1ad70221f5ebdf114a41aa16b4742dea53",
   "record_dispositions": {
     "unresolved": 1365,
     "corrected_resolved": 173,
@@ -31,7 +31,7 @@
   "record_disposition_path": "work/research/2026-11-08/full-record-dispositions/funnel.json",
   "qa_status": "ongoing",
   "publication_authorization": "publish current state with qualifications on pending QA, then continue to double check and clear the outstanding questions",
-  "working_revision": "committee-detail-release-prepared",
+  "working_revision": "committee-detail-delivery-hosted-pending",
   "current_raw_counts": {
     "local": 1328,
     "state_policy": 448,
@@ -40,17 +40,17 @@
   "prior_release": "v2026.11.10",
   "prior_release_source_commit": "738c40f310fb06d2e58bd6a71a74db1598414156",
   "prior_published_source_commit": "738c40f310fb06d2e58bd6a71a74db1598414156",
-  "published_source_reference": "The v2026.11.10.post1 tag and manifest identify the exact source when published. Earlier delivery pins retain their cutoffs until the verified delivery receipt.",
+  "published_source_reference": "The v2026.11.10.post1 release tag and manifest identify its exact source. Downloads and V16 are verified in later receipts; hosted Pages delivery is pending a retry after deployment timeout.",
   "latest_consumer_handoff": {
-    "source_commit": "738c40f310fb06d2e58bd6a71a74db1598414156",
-    "consumer_commit": "963d8c8a4918ebf0638aacb4da306b140b3752cf",
-    "manifest_sha256": "37f15b25bac26b19a3bf888cdf96f680091347545f57ca32781e2d98e2cc9fd8",
+    "source_commit": "4c7b8e1ad70221f5ebdf114a41aa16b4742dea53",
+    "consumer_commit": "363f45b1f2298e4ead024a43c340fd8aff4eae1e",
+    "manifest_sha256": "7b33b3378ab85ceb3b5824b8f0a51a6521e897cda5a63d26ac0a71fff2823604",
     "trusted_verifier_sha256": "ebecf851d4196715df186cc81cc3c933ab7da550fbafd7207996cd94b9cd2739",
-    "receipt": "work/research/2026-11-10/post-release-qa/consumer-v15-handoff.json",
-    "scope": "Verified input delivery matching qualifiedNovember10 release: thirteen coordinate-reference corrections only; historical spatial joins not recomputed and legal/source QA remains open."
+    "receipt": "work/research/2026-11-10/post-release-qa/consumer-v16-handoff.json",
+    "scope": "Verified release/consumer input delivery; Pages deployment retry remains pending. Three scoped historical reviews close;1365 holds remain."
   },
   "release_date_timezone": "America/New_York",
-  "published_source_commit": "738c40f310fb06d2e58bd6a71a74db1598414156",
+  "published_source_commit": "4c7b8e1ad70221f5ebdf114a41aa16b4742dea53",
   "september_status_category_differences": {
     "local": 98,
     "policy": 39,
@@ -59,21 +59,16 @@
   },
   "latest_geography_review": "work/research/2026-11-09/post-release-qa/nonblank-geography-application.json",
   "latest_delivered_consumer_input_delta": {
-    "baseline_source_commit": "84fc817cfb1d72d6049d0697ce2c5e281d1acaf9",
-    "baseline_consumer_commit": "3bd16dc6838645c1f27799640cfd9edd7f9c3601",
-    "changed_local_rows": 13,
-    "changed_policy_rows": 0,
-    "changed_cells": 31,
-    "coordinate_cells": 26,
-    "prose_cells": 5,
+    "baseline_source_commit": "738c40f310fb06d2e58bd6a71a74db1598414156",
+    "baseline_consumer_commit": "963d8c8a4918ebf0638aacb4da306b140b3752cf",
+    "changed_policy_rows": 2,
+    "changed_cells": 5,
     "status_category_changes": 0,
-    "new_scope_inclusions": 0,
-    "expanded_unchanged": true,
-    "geographic_subquestions_resolved": 13,
-    "whole_record_closures": 0,
-    "receipt": "work/research/2026-11-09/post-release-qa/nonblank-geography-application.json",
-    "scope": "Delivered in qualifiedNovember10 release and verifiedV15:31 cells across13 local rows,26 coordinate cells and5 geographic-prose clauses; no status/policy/expanded/ballot or whole-record disposition changes.",
-    "delivery_receipt": "work/research/2026-11-10/post-release-qa/consumer-v15-handoff.json"
+    "scope_fingerprint_rebindings": 2,
+    "whole_record_closures": 3,
+    "additional_review": "work/research/2026-11-09/post-release-qa/committee-final-detail-adjudications.json",
+    "scope": "Delivered in qualified v2026.11.10.post1 and verified V16: five fields/two Louisiana rows, three scoped review closures, no status-category changes; hosted delivery pending.",
+    "delivery_receipt": "work/research/2026-11-10/post-release-qa/consumer-v16-handoff.json"
   },
   "latest_source_followup": "work/research/2026-11-09/post-release-qa/committee-final-detail-adjudications.json",
   "latest_expanded_candidate_review": "work/research/2026-11-09/starke-succession-review/validation.json",
@@ -97,33 +92,26 @@
     "scope": "Historical adoption and provisions; operative status, publication, applicability and legal force remain unknown."
   },
   "prior_delivered_consumer_input_delta": {
-    "baseline_source_commit": "3e6078986fdc14e6ce2b1d6028698e1c3ac4e49e",
-    "baseline_consumer_commit": "f704e2f8ed60382ce72c932c9d7bac7080d796ed",
-    "changed_local_rows": 0,
+    "baseline_source_commit": "84fc817cfb1d72d6049d0697ce2c5e281d1acaf9",
+    "baseline_consumer_commit": "3bd16dc6838645c1f27799640cfd9edd7f9c3601",
+    "changed_local_rows": 13,
     "changed_policy_rows": 0,
-    "changed_cells": 0,
+    "changed_cells": 31,
+    "coordinate_cells": 26,
+    "prose_cells": 5,
     "status_category_changes": 0,
-    "expanded_additions": {
-      "instrument_events": 1,
-      "source_documents": 1,
-      "claims": 2,
-      "review_decisions": 8
-    },
-    "receipt": "work/research/2026-11-09/starke-succession-review/publication-application.json",
-    "scope": "Delivered in qualified post9 and verified V14: append-only Starke policy-succession relationship and Alaska QA notes; legacy and ballot records unchanged; no whole-record closures.",
-    "additional_source_followup": "work/research/2026-11-09/post-release-qa/alaska-terminal-adjudications.json",
-    "delivery_receipt": "work/research/2026-11-09/post-release-qa/consumer-v14-handoff.json"
+    "new_scope_inclusions": 0,
+    "expanded_unchanged": true,
+    "geographic_subquestions_resolved": 13,
+    "whole_record_closures": 0,
+    "receipt": "work/research/2026-11-09/post-release-qa/nonblank-geography-application.json",
+    "scope": "Delivered in qualifiedNovember10 release and verifiedV15:31 cells across13 local rows,26 coordinate cells and5 geographic-prose clauses; no status/policy/expanded/ballot or whole-record disposition changes.",
+    "delivery_receipt": "work/research/2026-11-10/post-release-qa/consumer-v15-handoff.json"
   },
   "latest_field_application": "work/research/2026-11-09/post-release-qa/nonblank-geography-application.json",
-  "pending_consumer_input_delta": {
-    "baseline_source_commit": "738c40f310fb06d2e58bd6a71a74db1598414156",
-    "baseline_consumer_commit": "963d8c8a4918ebf0638aacb4da306b140b3752cf",
-    "changed_policy_rows": 2,
-    "changed_cells": 5,
-    "status_category_changes": 0,
-    "scope_fingerprint_rebindings": 2,
-    "whole_record_closures": 3,
-    "additional_review": "work/research/2026-11-09/post-release-qa/committee-final-detail-adjudications.json",
-    "scope": "Louisiana committee-action and proposal-version corrections; Nevada precise terminal date confirmed unchanged. Release and consumer synchronization pending."
+  "pending_hosted_delivery": {
+    "source_commit": "4c7b8e1ad70221f5ebdf114a41aa16b4742dea53",
+    "pages_run": 42767261309,
+    "receipt": "work/research/2026-11-10/release-2026.11.10.post1/hosted-deployment-pending.json"
   }
 }

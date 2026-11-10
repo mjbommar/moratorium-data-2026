@@ -1,0 +1,284 @@
+{
+  "source_commit": "4c7b8e1ad70221f5ebdf114a41aa16b4742dea53",
+  "manifest_sha256": "7b33b3378ab85ceb3b5824b8f0a51a6521e897cda5a63d26ac0a71fff2823604",
+  "expanded_snapshot": "216e9ca5a0b9533e0413ae70eb3d35499c3bd4dd978637b582acab8a9fb94887",
+  "current_counts": {
+    "moratorium_records": 1328,
+    "state_policy_records": 448,
+    "ballot_measures": 57,
+    "retained_results": 64,
+    "current_results": 53,
+    "retained_events": 12,
+    "current_accepted_historical_events": 12,
+    "restriction_records": 3,
+    "measure_instrument_link_records": 1
+  },
+  "files": 2320,
+  "entries": 2520,
+  "verified_at": "2026-11-10T06:27:46.521613+00:00",
+  "consumer_verification": {
+    "handoff": {
+      "state": "verified",
+      "source_commit": "4c7b8e1ad70221f5ebdf114a41aa16b4742dea53",
+      "manifest_sha256": "7b33b3378ab85ceb3b5824b8f0a51a6521e897cda5a63d26ac0a71fff2823604",
+      "expanded_snapshot": "216e9ca5a0b9533e0413ae70eb3d35499c3bd4dd978637b582acab8a9fb94887",
+      "files": 2320,
+      "entries": 2520,
+      "checks": [
+        {
+          "command": [
+            "scripts/check_expanded_publication.py"
+          ],
+          "exit_code": 0,
+          "result": {
+            "state": "consistent",
+            "snapshot_sha256": "216e9ca5a0b9533e0413ae70eb3d35499c3bd4dd978637b582acab8a9fb94887",
+            "generations_checked": 48,
+            "records": {
+              "jurisdictions": 53,
+              "elections": 51,
+              "ballot_measures": 57,
+              "measure_provisions": 52,
+              "measure_results": 64,
+              "local_restrictions": 3,
+              "instrument_events": 12,
+              "measure_instrument_links": 1,
+              "source_documents": 167,
+              "claims": 621,
+              "review_decisions": 2742,
+              "search_runs": 1,
+              "search_attempts": 3,
+              "search_sightings": 18,
+              "coverage_observations": 1
+            },
+            "scope": "Offline publication/receipt consistency only; no source reacquisition, renewed factual acceptance or current-force confirmation."
+          }
+        },
+        {
+          "command": [
+            "scripts/build_expanded_csv.py",
+            "--check"
+          ],
+          "exit_code": 0,
+          "result": {
+            "state": "matches",
+            "source_snapshot": "216e9ca5a0b9533e0413ae70eb3d35499c3bd4dd978637b582acab8a9fb94887",
+            "projection_sha256": "d9ceae98a0b54763703244dc397c147504f0bcbf8763e54abcabde00d2c05cee",
+            "csv_views": 18
+          }
+        },
+        {
+          "command": [
+            "scripts/build_policy_scope_exports.py",
+            "--check"
+          ],
+          "exit_code": 0,
+          "result": "policy-scope exports current"
+        }
+      ],
+      "checks_run": true,
+      "scope": "Pinned input integrity and offline publication consistency, not source reacquisition or downstream join acceptance."
+    },
+    "policy_semantics": {
+      "total_state_policy_actions": 448,
+      "total_state_bills": 427,
+      "state_policy_instrument_type_counts": {
+        "bill": 427,
+        "executive_order": 2,
+        "governor_directive": 1,
+        "legislative_amendment": 1,
+        "legislative_precursor": 3,
+        "legislative_resolution": 12,
+        "statute": 2
+      },
+      "top_states_by_bills": [
+        [
+          "Pennsylvania",
+          18
+        ],
+        [
+          "Virginia",
+          18
+        ],
+        [
+          "West Virginia",
+          18
+        ],
+        [
+          "Maryland",
+          16
+        ],
+        [
+          "New Jersey",
+          16
+        ],
+        [
+          "California",
+          14
+        ],
+        [
+          "South Dakota",
+          14
+        ],
+        [
+          "Arizona",
+          13
+        ],
+        [
+          "Iowa",
+          13
+        ],
+        [
+          "Michigan",
+          13
+        ],
+        [
+          "Minnesota",
+          12
+        ],
+        [
+          "Ohio",
+          12
+        ],
+        [
+          "Oklahoma",
+          12
+        ],
+        [
+          "Illinois",
+          11
+        ],
+        [
+          "Kansas",
+          11
+        ]
+      ],
+      "top_states_by_policy_actions": [
+        [
+          "Pennsylvania",
+          22
+        ],
+        [
+          "Virginia",
+          18
+        ],
+        [
+          "West Virginia",
+          18
+        ],
+        [
+          "Maryland",
+          17
+        ],
+        [
+          "New Jersey",
+          17
+        ],
+        [
+          "California",
+          14
+        ],
+        [
+          "Michigan",
+          14
+        ],
+        [
+          "South Dakota",
+          14
+        ],
+        [
+          "Arizona",
+          13
+        ],
+        [
+          "Iowa",
+          13
+        ],
+        [
+          "Kansas",
+          12
+        ],
+        [
+          "Minnesota",
+          12
+        ],
+        [
+          "Ohio",
+          12
+        ],
+        [
+          "Oklahoma",
+          12
+        ],
+        [
+          "Illinois",
+          11
+        ]
+      ]
+    }
+  },
+  "index_verification": {
+    "snapshot": "data/source-snapshots/moratoria/2026-11-10-reviewed-v16",
+    "source_commit": "4c7b8e1ad70221f5ebdf114a41aa16b4742dea53",
+    "manifest_sha256": "7b33b3378ab85ceb3b5824b8f0a51a6521e897cda5a63d26ac0a71fff2823604",
+    "tracked_files_and_symlinks": 2321,
+    "exact_staged_git_blob_bytes_and_modes": true,
+    "scope": "Exact staged snapshot content, Git modes and path set against the pinned manifest, including the manifest itself. This is not an independent legal review."
+  },
+  "delta_from_v15": {
+    "local": {
+      "changed_rows": 0,
+      "changed_cells": 0,
+      "changes": []
+    },
+    "policy": {
+      "changed_rows": 2,
+      "changed_cells": 5,
+      "changes": [
+        {
+          "id": "la-hb1206-2026-rs",
+          "field": "status",
+          "before": "Died in House committee at final adjournment 2026-06-01; bill page reports consideration 2026-04-28. Referred to House Natural Resources and Environment; the assigned no-report detail awaits committee minutes.",
+          "after": "Died in House committee at final adjournment 2026-06-01. On 2026-04-28, House Natural Resources and Environment adopted substitute-form amendment HCAHB1206 4563 4596 (11-0), then voluntarily deferred HB1206 (11-0). Amendment adoption was not bill passage."
+        },
+        {
+          "id": "la-hb1206-2026-rs",
+          "field": "key_provisions",
+          "before": "Would define data centers as facilities designed for 100 MW or more; require a permit for proposed consumptive water use exceeding 100 million gallons per year, quarterly water-use reporting, parish notice and public hearings, and a unique identifier for each data center on associated permits.",
+          "after": "Original proposal: define data centers designed for at least 100 MW; require permits above 100 million gallons of annual consumptive water use, quarterly reporting, parish notice/public hearings and project permit identifiers. Committee-adopted substitute-form amendment4596 retained the 100 MW definition but instead proposed a water-use permit before any defined data center commences operations, without the original 100-million-gallon trigger or quarterly reporting requirement; added an agricultural water-use exemption, proposed rulemaking by August31,2027, hearing cross-references and common project identifiers across associated permits. The amendment document is not a separate bill in bill form; neither version became law."
+        },
+        {
+          "id": "la-hb1206-2026-rs",
+          "field": "primary_source_url",
+          "before": "https://legis.la.gov/legis/Bill.aspx?i=251542",
+          "after": "https://legis.la.gov/legis/BillInfo.aspx?i=251542"
+        },
+        {
+          "id": "la-hb922-2026-rs",
+          "field": "status",
+          "before": "Died in House committee at final adjournment 2026-06-01; bill page reports consideration 2026-04-21. Referred to House Commerce; the assigned no-report detail awaits committee minutes.",
+          "after": "Died in House committee at final adjournment 2026-06-01. On 2026-04-21, House Commerce adopted amendment3833 (16-0) and amendment4028 (15-0), then voluntarily deferred HB922 (15-0). Amendment adoption was not bill passage."
+        },
+        {
+          "id": "la-hb922-2026-rs",
+          "field": "key_provisions",
+          "before": "Would define data centers as facilities imposing at least 50 MW of new or expanded electric demand and prohibit covered utility cost recovery from household customers, with PSC cost allocation and rulemaking.",
+          "after": "Original proposal: define data centers imposing at least 50 MW of new or expanded electric demand and prohibit covered utility cost recovery from household customers, with PSC cost allocation and rulemaking. Committee-adopted amendment4028 reduced the definition threshold to 20 MW, added a PSC report by February15 on the preceding calendar year, and deleted the original minimum15-year contract and associated full-cost/overrun/decommissioning/abandonment clause. Amendment3833 made grammatical changes to the household-cost prohibition. These were failed proposals, not enacted utility requirements."
+        }
+      ]
+    }
+  },
+  "status_category_changes": 0,
+  "expanded_additions": {},
+  "expanded_tables_unchanged": true,
+  "ballot_records_unchanged": true,
+  "whole_record_closures": 3,
+  "trusted_verifier_sha256": "ebecf851d4196715df186cc81cc3c933ab7da550fbafd7207996cd94b9cd2739",
+  "scope": "Canonical input delivery: five fields across two Louisiana rows corrected; Nevada exact terminal date confirmed unchanged; three assigned scoped record reviews close,1365 holds remain. Historical failed proposals do not establish current legal obligations. No native expanded, ballot, local, scope membership or status category changes; earlier snapshots and joins preserved.",
+  "consumer_commit": "363f45b1f2298e4ead024a43c340fd8aff4eae1e",
+  "consumer_remote_main_verified": true,
+  "qualified_release": "v2026.11.10.post1",
+  "qualified_release_manifest_sha256": "01cd3710fa1fea05fcdc407202563843554d04e1497812f02b1196b47a71b7d4",
+  "hosted_delivery_status": "pending_deployment_retry",
+  "committed_consumer_verifier_matches_trusted_pin": true
+}

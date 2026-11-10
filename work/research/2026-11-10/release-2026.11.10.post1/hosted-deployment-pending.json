@@ -1,0 +1,19 @@
+{
+  "observed_at": "2026-11-10T06:27:46.521613+00:00",
+  "source_commit": "4c7b8e1ad70221f5ebdf114a41aa16b4742dea53",
+  "pages_run": 42767261309,
+  "initial_attempt": {
+    "conclusion": "failure",
+    "reason": "Deploy to GitHub Pages timeout after repeated syncing_files; deployment canceled by action"
+  },
+  "retry_requested": true,
+  "current_run": {
+    "attempt": 1,
+    "conclusion": "",
+    "headSha": "4c7b8e1ad70221f5ebdf114a41aa16b4742dea53",
+    "status": "queued"
+  },
+  "hosted_metadata_last_observed_version": "2026.11.10",
+  "hosted_exact_copy_verified": false,
+  "next_action": "Poll this same retried run. After success compare hosted surfaces with pinned source before recording final delivery. Do not restart on observation timeout."
+}

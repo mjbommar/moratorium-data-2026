@@ -1,0 +1,7 @@
+# Verified consumer V16 delivery
+
+Integration main `363f45b1f2298e4ead024a43c340fd8aff4eae1e` is pushed and remote-verified. Additive snapshot `data/source-snapshots/moratoria/2026-11-10-reviewed-v16` pins `4c7b8e1ad70221f5ebdf114a41aa16b4742dea53`, matching qualified v2026.11.10.post1. Manifest `7b33b3378ab85ceb3b5824b8f0a51a6521e897cda5a63d26ac0a71fff2823604`. Three separate consistency checks, independent policy semantics and all2,321 staged files/symlinks match exact Git bytes and modes. The committed verifier matches trusted SHA-256 `ebecf851d4196715df186cc81cc3c933ab7da550fbafd7207996cd94b9cd2739`.
+
+Five fields across two Louisiana records change; Nevada's existing April12,2025 terminal date is confirmed unchanged. Three scoped historical reviews close, leaving1,365 unresolved,173 corrected-resolved and238 confirmed-unchanged. No status category, local, ballot, native expanded or analytical membership changes. Neither Louisiana bill passed. Technical delivery verification is not a new independent substantive legal review. Earlier snapshots, publications and joins remain unchanged; Massachusetts independent QA and other source-specific legal/source holds remain open.
+
+Release downloads and consumer delivery are verified. GitHub Pages attempt1 timed out syncing files; the failed job was retried from the same source. Hosted-copy delivery remains pending and is not claimed verified.
