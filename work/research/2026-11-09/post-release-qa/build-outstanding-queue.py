@@ -1080,6 +1080,13 @@ def main():
         assert digest(json.dumps(current[key],sort_keys=True,separators=(',',':'),ensure_ascii=False).encode())==record['current_row_sha256']
         assert next(r for r in f['records'] if r['id']==record['id'])['disposition']==record['recommendation']=='unresolved'
         overlays[record['id']]=[public_text(q) for q in record['remaining_questions']]
+    wa_library_path=Path('work/research/2026-11-10/post-release-qa/washington-local-code-library-review.json')
+    if wa_library_path.exists():
+        for record in json.loads(wa_library_path.read_text())['records']:
+            key=('local_inventory',record['id'])
+            assert digest(json.dumps(current[key],sort_keys=True,separators=(',',':'),ensure_ascii=False).encode())==record['current_row_sha256']
+            assert next(r for r in f['records'] if r['id']==record['id'])['disposition']==record['recommendation']=='unresolved'
+            overlays[record['id']]=[public_text(q) for q in record['remaining_questions']]
     rows=[]
     for entry in f['records']:
         if entry['disposition']!='unresolved':continue
@@ -1107,6 +1114,7 @@ def main():
     summary['independence_operative_term_sha256']=digest(independence_path.read_bytes()) if independence_path.exists() else None
     summary['independence_ordinance19850_sha256']=digest(independence_later_path.read_bytes()) if independence_later_path.exists() else None
     summary['louisiana_hcr61_closing_window_sha256']=digest(la_hcr61_path.read_bytes()) if la_hcr61_path.exists() else None
+    summary['washington_local_code_library_sha256']=digest(wa_library_path.read_bytes()) if wa_library_path.exists() else None
     summary['bonney_oct13_final_text_sha256']=digest(bonney_final_path.read_bytes()) if bonney_final_path.exists() else None
     summary['bonney_d26_73_disposition_sha256']=digest(bonney_disposition_path.read_bytes()) if bonney_disposition_path.exists() else None
     summary['washington_local_operative_sha256']=digest(wa_local_path.read_bytes()) if wa_local_path.exists() else None
