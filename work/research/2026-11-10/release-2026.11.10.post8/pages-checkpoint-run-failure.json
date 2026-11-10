@@ -1,0 +1,131 @@
+{
+  "conclusion": "failure",
+  "createdAt": "2026-11-10T11:04:21Z",
+  "headSha": "28e25def1c2cee91577e177d800c179ab92e14e0",
+  "jobs": [
+    {
+      "completedAt": "2026-11-10T11:04:45Z",
+      "conclusion": "success",
+      "databaseId": 129789806706,
+      "name": "build",
+      "startedAt": "2026-11-10T11:04:24Z",
+      "status": "completed",
+      "steps": [
+        {
+          "completedAt": "2026-11-10T11:04:26Z",
+          "conclusion": "success",
+          "name": "Set up job",
+          "number": 1,
+          "startedAt": "2026-11-10T11:04:25Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-11-10T11:04:34Z",
+          "conclusion": "success",
+          "name": "Checkout",
+          "number": 2,
+          "startedAt": "2026-11-10T11:04:26Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-11-10T11:04:42Z",
+          "conclusion": "success",
+          "name": "Upload artifact",
+          "number": 3,
+          "startedAt": "2026-11-10T11:04:34Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-11-10T11:04:43Z",
+          "conclusion": "success",
+          "name": "Post Checkout",
+          "number": 6,
+          "startedAt": "2026-11-10T11:04:42Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-11-10T11:04:43Z",
+          "conclusion": "success",
+          "name": "Complete job",
+          "number": 7,
+          "startedAt": "2026-11-10T11:04:43Z",
+          "status": "completed"
+        }
+      ],
+      "url": "https://github.com/mjbommar/moratorium-data-2026/actions/runs/42804415026/job/129789806706"
+    },
+    {
+      "completedAt": "2026-11-10T11:04:52Z",
+      "conclusion": "success",
+      "databaseId": 129789984796,
+      "name": "report-build-status",
+      "startedAt": "2026-11-10T11:04:47Z",
+      "status": "completed",
+      "steps": [
+        {
+          "completedAt": "2026-11-10T11:04:48Z",
+          "conclusion": "success",
+          "name": "Set up job",
+          "number": 1,
+          "startedAt": "2026-11-10T11:04:48Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-11-10T11:04:50Z",
+          "conclusion": "success",
+          "name": "Report Build Status",
+          "number": 2,
+          "startedAt": "2026-11-10T11:04:49Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-11-10T11:04:50Z",
+          "conclusion": "success",
+          "name": "Complete job",
+          "number": 3,
+          "startedAt": "2026-11-10T11:04:50Z",
+          "status": "completed"
+        }
+      ],
+      "url": "https://github.com/mjbommar/moratorium-data-2026/actions/runs/42804415026/job/129789984796"
+    },
+    {
+      "completedAt": "2026-11-10T11:15:31Z",
+      "conclusion": "failure",
+      "databaseId": 129789984798,
+      "name": "deploy",
+      "startedAt": "2026-11-10T11:04:50Z",
+      "status": "completed",
+      "steps": [
+        {
+          "completedAt": "2026-11-10T11:04:51Z",
+          "conclusion": "success",
+          "name": "Set up job",
+          "number": 1,
+          "startedAt": "2026-11-10T11:04:50Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-11-10T11:15:29Z",
+          "conclusion": "failure",
+          "name": "Deploy to GitHub Pages",
+          "number": 2,
+          "startedAt": "2026-11-10T11:04:51Z",
+          "status": "completed"
+        },
+        {
+          "completedAt": "2026-11-10T11:15:29Z",
+          "conclusion": "success",
+          "name": "Complete job",
+          "number": 3,
+          "startedAt": "2026-11-10T11:15:29Z",
+          "status": "completed"
+        }
+      ],
+      "url": "https://github.com/mjbommar/moratorium-data-2026/actions/runs/42804415026/job/129789984798"
+    }
+  ],
+  "status": "completed",
+  "updatedAt": "2026-11-10T11:15:31Z",
+  "url": "https://github.com/mjbommar/moratorium-data-2026/actions/runs/42804415026"
+}
