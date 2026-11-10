@@ -1,8 +1,8 @@
 # Changelog
 
-## Qualified v2026.11.10.post6 preparation
+## Qualified v2026.11.10.post6
 
-Eleven fields across UtahSB231, Cullman and Homewood clarified. No category, normalized-date, native or whole-record-disposition changes.1,358 unresolved and134 September category differences remain. Acquisition-window end includes November10 QA captures without changing the original comprehensive cutoff. Post6 release downloads andV21 inputs verified; hosted copy pending GitHub deployment.
+Eleven fields across UtahSB231, Cullman and Homewood clarified. No category, normalized-date, native or whole-record-disposition changes.1,358 unresolved and134 September category differences remain. Acquisition-window end includes November10 QA captures without changing the original comprehensive cutoff. [Qualified post6/V21 delivery](work/research/2026-11-10/release-2026.11.10.post6/README.md) verified.
 
 | Metric | Qualified v2026.11.10.post6 |
 |---|---:|

@@ -31,7 +31,7 @@
   "record_disposition_path": "work/research/2026-11-08/full-record-dispositions/funnel.json",
   "qa_status": "ongoing",
   "publication_authorization": "publish current state with qualifications on pending QA, then continue to double check and clear the outstanding questions",
-  "working_revision": "post6-downloads-consumer-verified-hosted-pending",
+  "working_revision": "post6-delivered-local-policy-batch",
   "current_raw_counts": {
     "local": 1328,
     "state_policy": 448,
@@ -71,14 +71,13 @@
       "work/research/2026-11-09/post-release-qa/alabama-local-instrument-adjudications.json",
       "work/research/2026-11-09/post-release-qa/homewood-2979-minute-adjudication.json"
     ],
-    "scope": "Release downloads and additiveV21 inputs verified for eleven-field batch; hosted copy pending platform deployment. No category/disposition changes.",
+    "scope": "Delivered qualified post6/V21: eleven cells/three records, zero category or whole-record changes. Source-qualified local/policy clarifications; native tables and numeric summary preserved.",
     "changed_local_rows": 2,
     "changed_local_cells": 8,
     "changed_policy_cells": 3,
     "delivery_receipt": "work/research/2026-11-10/post-release-qa/consumer-v21-handoff.json",
     "delivered_source_commit": "522c752107785fd435067dd0c01ed28b97806e6d",
-    "delivered_consumer_commit": "3a1ed93e3066a7c41f869d80c4c248a9a491b6b1",
-    "hosted_delivery_state": "pending_platform_deployment"
+    "delivered_consumer_commit": "3a1ed93e3066a7c41f869d80c4c248a9a491b6b1"
   },
   "latest_source_followup": "work/research/2026-11-09/post-release-qa/homewood-2979-minute-adjudication.json",
   "latest_expanded_candidate_review": "work/research/2026-11-09/starke-succession-review/validation.json",
@@ -124,21 +123,15 @@
   },
   "latest_field_application": "work/research/2026-11-09/post-release-qa/hawaii-session-outcome-adjudications.json",
   "latest_hosted_delivery": {
-    "source_commit": "e12c1efcd8696de71ad7ab3e416fddeeb149d69e",
-    "hosted_source_commit": "e12c1efcd8696de71ad7ab3e416fddeeb149d69e",
-    "pages_run": 42787777859,
-    "receipt": "work/research/2026-11-10/release-2026.11.10.post5/hosted-copy-verification.json",
+    "source_commit": "dad86ce65c11f33ad618a231c0e159f86f863c7c",
+    "hosted_source_commit": "dad86ce65c11f33ad618a231c0e159f86f863c7c",
+    "release_source_commit": "522c752107785fd435067dd0c01ed28b97806e6d",
+    "pages_run": 42794701224,
+    "receipt": "work/research/2026-11-10/release-2026.11.10.post6/hosted-copy-verification.json",
     "state": "verified"
   },
   "latest_expanded_result_review": "work/research/2026-11-10/canterbury-minutes-result-review/coordinator-adjudication.json",
-  "latest_verified_release": "v2026.11.10.post5",
+  "latest_verified_release": "v2026.11.10.post6",
   "source_observation_window_scope": "Acquisition range includes source-specific QA captures through November10; this does not renew every record or move the original comprehensive research_cutoff.",
-  "latest_download_verified_release": "v2026.11.10.post6",
-  "pending_hosted_delivery": {
-    "release": "v2026.11.10.post6",
-    "source_commit": "522c752107785fd435067dd0c01ed28b97806e6d",
-    "failed_pages_run": 42792571764,
-    "retry_state": "queued_without_jobs",
-    "receipt": "work/research/2026-11-10/release-2026.11.10.post6/pages-deployment-history.json"
-  }
+  "latest_download_verified_release": "v2026.11.10.post6"
 }

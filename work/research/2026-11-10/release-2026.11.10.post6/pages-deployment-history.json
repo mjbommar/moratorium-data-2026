@@ -13,8 +13,19 @@
     "request_cli_exit_code": 0,
     "last_observed_status": "queued",
     "last_observed_jobs": [],
-    "state": "not_yet_verified"
+    "state": "not_yet_verified",
+    "disposition": "Superseded as delivery evidence by the new verification-receipt source deployment.",
+    "last_observed_attempt": 1,
+    "cancel_response": "Cannot cancel a workflow run that is completed",
+    "qualification": "Contradictory queue/cancellation telemetry retained. No success is claimed for that retry. Only its local watcher was stopped."
   },
   "canonical_assets_unchanged": true,
-  "qualification": "No new data build or premature retry was started; first attempt was confirmed terminal before requesting the single failed-job retry. Revalidate actual run/attempt state rather than relying on this context file."
+  "qualification": "No new data build or premature retry was started; first attempt was confirmed terminal before requesting the single failed-job retry. Revalidate actual run/attempt state rather than relying on this context file.",
+  "verified_receipt_deployment": {
+    "source_commit": "dad86ce65c11f33ad618a231c0e159f86f863c7c",
+    "pages_run": 42794701224,
+    "conclusion": "success",
+    "hosted_surfaces_verified": 23,
+    "canonical_data_byte_equal_to_release_source": true
+  }
 }

@@ -1,5 +1,5 @@
-# Post6 downloads and consumer V21 verified; hosted copy pending
+# Qualified post6 consumer V21 delivered
 
-Release source `522c752107785fd435067dd0c01ed28b97806e6d` and manifest `8b22c6a4b0f3b8f515e94e2f55354ac98d34304dea9b53f11c17fa0c89b34823` pass two identical builds, full clean restore and ten anonymous downloads/all2,365 archive members. Additive consumerV21 at `3a1ed93e3066a7c41f869d80c4c248a9a491b6b1` is remote-verified; three consistency checks, separate policy semantics and exact Git blobs/modes pass.
+Release source `522c752107785fd435067dd0c01ed28b97806e6d` is delivered in additive V21 at `3a1ed93e3066a7c41f869d80c4c248a9a491b6b1`, remote-verified on main. Manifest `501af2972b198e01beb897608aa558dab3b75734f58e1bd4d0b191b08000359e`. [Technical receipt](consumer-v21-handoff.json) records three consistency checks, separate policy semantics and exact staged Git blobs/modes.
 
-GitHub Pages run42792571764 timed out in syncing_files; its failed-job retry is queued with no jobs. Hosted copy is not marked verified. The eleven-field dataset is complete for this batch; canonical data match the released source.1,358 source-specific record holds remain, with134 September category differences. No category or whole-record-disposition change.
+Eleven fields across UtahSB231, Cullman and Homewood change. Numeric summary, native tables, categories, normalized dates/end dates and all record dispositions are unchanged.1,358 unresolved,179 corrected-resolved,239 confirmed-unchanged and134 September category differences remain. Earlier snapshots and joins remain intact; current legal force is not certified.
