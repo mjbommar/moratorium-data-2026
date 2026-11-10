@@ -939,6 +939,12 @@ def main():
         assert digest(json.dumps(current[key],sort_keys=True,separators=(',',':'),ensure_ascii=False).encode())==cromwell['current_row_sha256']
         assert next(r for r in f['records'] if r['id']==cromwell['id'])['disposition']==cromwell['recommendation']=='unresolved'
         overlays[cromwell['id']]=[public_text(q) for q in cromwell['remaining_questions']]
+    morris_path=Path('work/research/2026-11-10/post-release-qa/morris-adopted-term-review.json')
+    if morris_path.exists():
+        morris=json.loads(morris_path.read_text());key=('local_inventory',morris['id'])
+        assert digest(json.dumps(current[key],sort_keys=True,separators=(',',':'),ensure_ascii=False).encode())==morris['current_row_sha256']
+        assert next(r for r in f['records'] if r['id']==morris['id'])['disposition']==morris['recommendation']=='unresolved'
+        overlays[morris['id']]=[public_text(q) for q in morris['remaining_questions']]
     rows=[]
     for entry in f['records']:
         if entry['disposition']!='unresolved':continue
@@ -958,6 +964,7 @@ def main():
     summary['lb613_introducer_sha256']=digest(lb613_introducer_path.read_bytes()) if lb613_introducer_path.exists() else None
     summary['ma_conference_discovery_sha256']=digest(ma_conference_discovery.read_bytes()) if ma_conference_discovery.exists() else None
     summary['cromwell_later_proposal_sha256']=digest(cromwell_path.read_bytes()) if cromwell_path.exists() else None
+    summary['morris_term_review_sha256']=digest(morris_path.read_bytes()) if morris_path.exists() else None
     summary['fairbanks_recovery_sha256']=digest(fairbanks_recovery.read_bytes()) if fairbanks_recovery.exists() else None
     (args.output/'outstanding-queue-verification.json').write_text(json.dumps(summary,indent=2)+'\n');print(json.dumps(summary,indent=2))
 if __name__=='__main__':main()
