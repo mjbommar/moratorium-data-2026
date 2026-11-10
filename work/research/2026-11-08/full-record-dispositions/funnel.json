@@ -1,8 +1,8 @@
 {
   "event_cutoff_utc": "2026-11-07T13:38:39.877065Z",
   "counts": {
-    "unresolved": 1349,
-    "corrected_resolved": 188,
+    "unresolved": 1347,
+    "corrected_resolved": 190,
     "confirmed_unchanged": 239,
     "superseded_duplicate": 0,
     "not_attempted": 0
@@ -14,9 +14,9 @@
       "corrected_resolved": 4
     },
     "remaining1552": {
-      "corrected_resolved": 184,
+      "corrected_resolved": 186,
       "confirmed_unchanged": 213,
-      "unresolved": 1153,
+      "unresolved": 1151,
       "superseded_duplicate": 0
     },
     "post_release_additions": {
@@ -33708,12 +33708,9 @@
     {
       "id": "va-hb1601-2025",
       "dataset": "state_policy",
-      "disposition": "unresolved",
-      "public_receipt_pointer": "work/research/2026-11-08/full-inventory-integrated-application/README.md",
-      "residual_reference": {
-        "dataset": "state_policy",
-        "id": "va-hb1601-2025"
-      },
+      "disposition": "corrected_resolved",
+      "public_receipt_pointer": "work/research/2026-11-09/post-release-qa/virginia-returned-veto-adjudications.json",
+      "residual_reference": null,
       "recorded_evidence_fingerprints_sha256": [
         "2847e5884775a7c60a1c544879aabae9600f03c7396b2a09d3e4200dc374d3db",
         "30bfac5d1271a63374ae6308ec31ca1cc0f887c53c890d40b0247c3d4f3b99d4",
@@ -33863,12 +33860,9 @@
     {
       "id": "va-sb1449-2025",
       "dataset": "state_policy",
-      "disposition": "unresolved",
-      "public_receipt_pointer": "work/research/2026-11-08/full-inventory-integrated-application/README.md",
-      "residual_reference": {
-        "dataset": "state_policy",
-        "id": "va-sb1449-2025"
-      },
+      "disposition": "corrected_resolved",
+      "public_receipt_pointer": "work/research/2026-11-09/post-release-qa/virginia-returned-veto-adjudications.json",
+      "residual_reference": null,
       "recorded_evidence_fingerprints_sha256": [
         "30bfac5d1271a63374ae6308ec31ca1cc0f887c53c890d40b0247c3d4f3b99d4",
         "6bdcbcf478cd9bdfc51a3ed424153a50270c4032e56c5a051a8304632fa04812",
@@ -38424,6 +38418,24 @@
       "disposition": "unresolved",
       "receipt": "work/research/2026-11-09/post-release-qa/minnesota-hf3793-terminal-adjudication.json",
       "scope": "Three-cell inferred terminal-outcome correction; later-policy/party questions retained."
+    },
+    {
+      "reviewed_at": "2026-11-10T12:45:49.000803+00:00",
+      "id": "va-hb1601-2025",
+      "cohort": "remaining1552",
+      "prior_disposition": "unresolved",
+      "disposition": "corrected_resolved",
+      "receipt": "work/research/2026-11-09/post-release-qa/virginia-returned-veto-adjudications.json",
+      "scope": "Final returned-bill veto under ArticleV6(c)(iii), not an ordinary unresolved override."
+    },
+    {
+      "reviewed_at": "2026-11-10T12:45:49.000803+00:00",
+      "id": "va-sb1449-2025",
+      "cohort": "remaining1552",
+      "prior_disposition": "unresolved",
+      "disposition": "corrected_resolved",
+      "receipt": "work/research/2026-11-09/post-release-qa/virginia-returned-veto-adjudications.json",
+      "scope": "Final returned-bill veto under ArticleV6(c)(iii), not an ordinary unresolved override."
     }
   ]
 }

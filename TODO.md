@@ -1,5 +1,7 @@
 # Implementation TODO
 
+- [x] Resolve HB1601/SB1449 final returned-bill veto questions using Virginia Article V section6(c)(iii), actual reconvened-session date and retained LIS histories. Six fields corrected, two historical reviews closed; 1,347 unresolved reviews remain. No ordinary override vote invented; proposal-boundary ambiguity retained.
+
 - [x] Resolve HF3793 historical terminal classification using one missing companion history and seven retained shared Minnesota authorities. Three fields corrected; September surviving status differences decrease from 134 to 133 (98 local, 35 policy). Broader policy/party holds remain; 1,349 unresolved reviews.
 
 - [x] Close four Missouri historical regular-session disposition reviews using the complete official 102-measure final-passage list and session calendar. Four status-prose cells corrected; categories/dates unchanged. 1,349 unresolved reviews remain; seven corrected cells and five historical closures await later release/consumer delivery.
