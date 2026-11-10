@@ -1,5 +1,7 @@
 # Implementation TODO
 
+- [x] Reconcile two stale Wyoming failed-proposal disposition questions against prior independent scope decisions and retained terminal histories. No new captures or canonical/status changes; 1,354 unresolved records remain. [Evidence](work/research/2026-11-09/post-release-qa/wyoming-scope-disposition-reconciliation.json).
+
 Plan: [Research modernization and ballot-measure expansion](docs/research-and-ballot-expansion-plan.md).
 
 ## Active: publish the current state with pending QA, then clear outstanding questions

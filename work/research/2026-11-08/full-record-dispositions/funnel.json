@@ -1,8 +1,8 @@
 {
   "event_cutoff_utc": "2026-11-07T13:38:39.877065Z",
   "counts": {
-    "unresolved": 1356,
-    "corrected_resolved": 181,
+    "unresolved": 1354,
+    "corrected_resolved": 183,
     "confirmed_unchanged": 239,
     "superseded_duplicate": 0,
     "not_attempted": 0
@@ -10,8 +10,8 @@
   "cohort_counts": {
     "earlier225": {
       "confirmed_unchanged": 26,
-      "unresolved": 198,
-      "corrected_resolved": 1
+      "unresolved": 196,
+      "corrected_resolved": 3
     },
     "remaining1552": {
       "corrected_resolved": 180,
@@ -36550,12 +36550,9 @@
     {
       "id": "wy-hb0088-2021",
       "dataset": "state_policy",
-      "disposition": "unresolved",
-      "public_receipt_pointer": "work/research/2026-11-08/full-inventory-integrated-application/README.md",
-      "residual_reference": {
-        "dataset": "state_policy",
-        "id": "wy-hb0088-2021"
-      },
+      "disposition": "corrected_resolved",
+      "public_receipt_pointer": "work/research/2026-11-09/post-release-qa/wyoming-scope-disposition-reconciliation.json",
+      "residual_reference": null,
       "recorded_evidence_fingerprints_sha256": [
         "0b56666ec2dfe80ccc81cb2bfddeb87986803838500ceb2d8c7ba7c2cb4c6a40",
         "0eede0daae0b7078ad7ceea9b7241ece95d897ab8237b7190bac07224ff8d21f",
@@ -36632,12 +36629,9 @@
     {
       "id": "wy-sf0076-2026",
       "dataset": "state_policy",
-      "disposition": "unresolved",
-      "public_receipt_pointer": "work/research/2026-11-08/full-inventory-integrated-application/README.md",
-      "residual_reference": {
-        "dataset": "state_policy",
-        "id": "wy-sf0076-2026"
-      },
+      "disposition": "corrected_resolved",
+      "public_receipt_pointer": "work/research/2026-11-09/post-release-qa/wyoming-scope-disposition-reconciliation.json",
+      "residual_reference": null,
       "recorded_evidence_fingerprints_sha256": [
         "0b56666ec2dfe80ccc81cb2bfddeb87986803838500ceb2d8c7ba7c2cb4c6a40",
         "433c05eff7d7d97a47969daa2f585aafb61b67edabd3924459d887356a8d8d1c",
@@ -38330,6 +38324,24 @@
       "disposition": "unresolved",
       "receipt": "work/research/2026-11-09/post-release-qa/south-carolina-s902-terminal-review.json",
       "scope": "General adjournment rule now reviewed; S.883 adoption and final S.902 action not established. No canonical changes."
+    },
+    {
+      "reviewed_at": "2026-11-10T12:02:59.829654+00:00",
+      "id": "wy-hb0088-2021",
+      "cohort": "earlier225",
+      "prior_disposition": "unresolved",
+      "disposition": "corrected_resolved",
+      "receipt": "work/research/2026-11-09/post-release-qa/wyoming-scope-disposition-reconciliation.json",
+      "scope": "Historical failed proposal and already accepted independent scope decision reconciled; no present-force certification."
+    },
+    {
+      "reviewed_at": "2026-11-10T12:02:59.829654+00:00",
+      "id": "wy-sf0076-2026",
+      "cohort": "earlier225",
+      "prior_disposition": "unresolved",
+      "disposition": "corrected_resolved",
+      "receipt": "work/research/2026-11-09/post-release-qa/wyoming-scope-disposition-reconciliation.json",
+      "scope": "Historical failed proposal and already accepted independent scope decision reconciled; no present-force certification."
     }
   ]
 }

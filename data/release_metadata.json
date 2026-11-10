@@ -7,7 +7,7 @@
     "end": "2026-11-10"
   },
   "asset_name": "moratorium-data-2026.11.10.post8.tar.gz",
-  "coverage": "Original1777 records retain review provenance; two duplicates retired and one Massachusetts addition independently unreviewed. Current1776 active raw IDs:1356 unresolved,181 corrected-resolved,239 confirmed-unchanged scoped dispositions. No universal current-law certification.",
+  "coverage": "Original1777 records retain review provenance; two duplicates retired and one Massachusetts addition independently unreviewed. Current1776 active raw IDs:1354 unresolved,183 corrected-resolved,239 confirmed-unchanged scoped dispositions. No universal current-law certification.",
   "limitations": [
     "Recorded active/extended classifications do not prove current enforceability.",
     "Ballot voting, certification, passage and operative legal effect remain distinct.",
@@ -22,8 +22,8 @@
   "quality_gate_disposition": "User authorized publication of the current state with qualifications on pending QA, followed by continued double checking and resolution of outstanding questions.",
   "reviewed_data_source_commit": "58a016a569e268ad26a2ed6ecc19a4736a743b84",
   "record_dispositions": {
-    "unresolved": 1356,
-    "corrected_resolved": 181,
+    "unresolved": 1354,
+    "corrected_resolved": 183,
     "confirmed_unchanged": 239,
     "superseded_duplicate": 0,
     "not_attempted": 0
@@ -176,10 +176,12 @@
     "status_category_changes": 0,
     "normalized_date_changes": 0,
     "scope_membership_changes": 0,
-    "whole_record_closures": 0,
+    "whole_record_closures": 2,
     "additional_reviews": [
-      "work/research/2026-11-09/post-release-qa/ohio-hb96-veto-adjudication.json"
+      "work/research/2026-11-09/post-release-qa/ohio-hb96-veto-adjudication.json",
+      "work/research/2026-11-09/post-release-qa/wyoming-scope-disposition-reconciliation.json"
     ],
-    "scope": "Two Ohio HB96 prose cells since post8/V23; item58 veto distinguished from DEVCD11 enacted application-recipient change. Record remains unresolved. Later release/consumer delivery pending; pre-existing hosted-copy hold remains separate."
-  }
+    "scope": "Two Ohio HB96 prose cells since post8/V23; item58 veto distinguished from DEVCD11 enacted application-recipient change. Record remains unresolved. Later release/consumer delivery pending; pre-existing hosted-copy hold remains separate. Two additional historical failed-proposal reviews closed by reconciling prior independent scope decisions; no further canonical cells changed."
+  },
+  "latest_disposition_review": "work/research/2026-11-09/post-release-qa/wyoming-scope-disposition-reconciliation.json"
 }

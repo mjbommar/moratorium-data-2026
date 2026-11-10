@@ -1,0 +1,69 @@
+{
+  "reviewed_at": "2026-11-10T12:02:59.829654+00:00",
+  "reviewer": "root direct reconciliation of retained terminal history/text with already accepted independent scope decisions; no new independent review claimed",
+  "records": [
+    {
+      "id": "wy-hb0088-2021",
+      "prior_disposition": "unresolved",
+      "recommendation": "corrected_resolved",
+      "prior_row_sha256": "2ccd0e828f64bef90e9201bfd12b8d15f848241f61e277be1b6722c6bb96b820",
+      "current_row_sha256": "2ccd0e828f64bef90e9201bfd12b8d15f848241f61e277be1b6722c6bb96b820",
+      "field_changes": [],
+      "prior_questions": [
+        "Analytical inclusion and unrelated subsequent law are separate and were not assessed; no whole-record freshness claim."
+      ],
+      "remaining_questions": [],
+      "scope_decision_id": "11ffd954-c3f5-41a1-a554-090525f34a76",
+      "scope_decision": "include",
+      "prior_independent_scope_reviewer": "coordinator after primary and independent gpt-6.1-terra scope review",
+      "scope_rationale": "The 2021 proposal expressly repeals the sales and use tax exemptions for purchases by data processing services centers, including the identified statutory subsections. A proposed repeal of this facility incentive is within scope regardless of enactment. Scope membership only; no determination of enactment, present legal force, unique-instrument identity, or complete freshness.",
+      "source": {
+        "url": "https://www.wyoleg.gov/Legislation/2021/HB0088",
+        "attempt_id": "df42dc0ee4f4435f98901ff7ecb43b8a",
+        "body_sha256": "592cd8f97372d90520321f4768d473e6516d977b349a5333376ec7243bd07d95",
+        "text_sha256": "9df040eebda8762ffc1b6e9ea548958673b2ef576911acf81b86b8f9c94b3f22",
+        "acquired_at": "2026-11-06T00:40:01.068513+00:00",
+        "locator": "2021 HB 88 section 2, embedded text lines 25\u201339"
+      }
+    },
+    {
+      "id": "wy-sf0076-2026",
+      "prior_disposition": "unresolved",
+      "recommendation": "corrected_resolved",
+      "prior_row_sha256": "a4a53d8e04a6fbc173a899da3e2eeb86c6dca37fc01af9cb6966ae42e1d62e7d",
+      "current_row_sha256": "a4a53d8e04a6fbc173a899da3e2eeb86c6dca37fc01af9cb6966ae42e1d62e7d",
+      "field_changes": [],
+      "prior_questions": [
+        "Separate sector inclusion and facility-specific applicability were not assessed; no current-law conclusion follows from a failed proposal."
+      ],
+      "remaining_questions": [],
+      "scope_decision_id": "19662549-68fa-4251-a038-bf5471c1c620",
+      "scope_decision": "exclude",
+      "prior_independent_scope_reviewer": "coordinator after primary and independent gpt-6.1-terra scope review",
+      "scope_rationale": "The proposal defines a very large electrical load as at least 100 MW, requires vendors to report such sales separately, and distributes the resulting sales-tax revenues to a local-government account. The operative change is revenue distribution and vendor tax reporting, not a facility or utility-service condition or an infrastructure incentive. A qualifying data center could be a customer but that does not change the rule\u2019s object. Scope membership only; no determination of enactment, present legal force, unique-instrument identity, or complete freshness.",
+      "source": {
+        "url": "https://www.wyoleg.gov/Legislation/2026/SF0076",
+        "attempt_id": "e81a8cfcff0f45019f4b5e3a462b70e9",
+        "body_sha256": "e095f0264dd32f76c7b4abc22b35d9ee9198a24d37bfc1a03b2fbe46478637a6",
+        "text_sha256": "e2748fd92a930d9fa8cc8eb31a2cb3258ffe98ba30ac531d5ef05c5a7d4e27b1",
+        "acquired_at": "2026-11-06T00:40:09.413054+00:00",
+        "locator": "2026 SF 76, proposed W.S. 39-15-101(a)(xlviii), 39-15-111(s), embedded text lines 35\u201347"
+      }
+    }
+  ],
+  "canonical_cells_changed": 0,
+  "status_category_changes": 0,
+  "scope_membership_changes": 0,
+  "whole_record_closures": 2,
+  "acquisition_accounting": {
+    "searches": 0,
+    "fetches": 0,
+    "scope": "Retained November6 official captures and November8 independent analytical-scope decisions; no source observation date renewed."
+  },
+  "basis": "The frozen historical review left analytical inclusion as a separate unresolved dimension. The current append-only scope registry already independently resolves that dimension for these exact guarded rows. Terminal failed proposal histories remain supported. SF76 exclusion does not require proving that no facility could satisfy its generic threshold. HB88 explicitly targets the physical facility incentive. Unrelated successor law does not turn either failed proposal into operative law.",
+  "limitations": [
+    "Scoped historical proposal/outcome and analytical membership closures only; not a present-force certification.",
+    "No assertion about an actual data-center taxpayer, customer or beneficiary.",
+    "No new scope decision, canonical data change, raw deletion or native event."
+  ]
+}
