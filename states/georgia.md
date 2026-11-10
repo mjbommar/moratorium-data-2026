@@ -425,16 +425,16 @@ State policy is tracked separately: **9 records** (9 typed bill rows) in [`state
 
 - **Type:** County
 - **Recorded status:** ⚪ Replaced
-- **Date enacted:** May 6, 2025 (180-day moratorium), per news coverage of the Board of Commissioners meeting (4-1 vote, Chairman Bill McKenzie dissenting).
+- **Date enacted:** May 6, 2025; official Board of Commissioners minutes record a unanimous vote to execute, with five ayes including Chairman Bill McKenzie.
 - **Normalized date:** `2025-05-06` (exact)
-- **Duration:** 180 days, expiring 2025-11-03 (per Coweta County spokesperson statement quoted in GPB 2025-10-22)
+- **Duration:** May 6 minutes describe immediate commencement and a 180-day term ending at the earliest of close of business November 3, 2025, adoption of amended land-use regulations, or affirmative board action. Actual termination history remains unverified.
 - **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `ga-coweta-county-2025`
 - **Legal basis:** Board of Commissioners moratorium resolution (May 2025); subsequently, Coweta County Ordinance 038-25, adopted 2025-12-16, amended the zoning and development code for data centers. This review did not establish the moratorium’s termination history.
 - **What prompted it:** Project Peach, Project Sail, petitions, and need for countywide standards
 - **Affected projects:** Project Peach, about $1 billion and 320 acres; Project Sail (Atlas Development), 829 acres rezoned 3-2 from Rural Conservation to Industrial on 2026-04-07 with 17 conditions, ~4.34 million square feet, ~900 MW
-- **Detailed status:** The prior inventory reports a 180-day moratorium scheduled to expire November 3, 2025. Ordinance 038-25 amended data center zoning on December 16, 2025; its legal relationship to the moratorium remains unverified. The prior inventory reports litigation concerning Project Sail; the docket, current case status, and relationship to the moratorium have not been verified in this review. [VERIFY: termination history and litigation]
+- **Detailed status:** May 6, 2025 official minutes record a unanimous vote to execute the limited data-center moratorium; all five commissioners are listed as ayes, contradicting the prior inventory report of a 4-1 vote. The minutes describe a November 3 endpoint subject to earlier amendment or affirmative action. Ordinance 038-25 amended data-center zoning on December 16, 2025; its legal relationship to the moratorium and actual termination history remain unverified. The prior inventory reports Project Sail litigation; the docket, present case status and relationship to the moratorium have not been verified. [VERIFY: final executed resolution, termination history and litigation]
 - **Outcome:** A data center zoning ordinance was adopted December 16, 2025; whether and when the moratorium terminated is unverified.
 
 ### Coweta County
@@ -443,14 +443,14 @@ State policy is tracked separately: **9 records** (9 typed bill rows) in [`state
 - **Recorded status:** 🟢 Active
 - **Date enacted:** Coweta County Board of Commissioners, unanimous vote at its Tuesday night meeting (2026-06-16) on a 180-day moratorium to review the county's data center ordinance
 - **Normalized date:** `2026-06-16` (exact)
-- **Duration:** 180 days (to about 2026-12-13)
+- **Duration:** June 16, 2026 minutes describe a 180-day term beginning June 16 and expiring December 13, 2026 at 11:59 p.m., unless earlier land-use amendment or affirmative board action extends or terminates it.
 - **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `ga-coweta-county-2026`
 - **Legal basis:** (second instrument, June 2026) Coweta County Board of Commissioners resolution imposing a 180-day moratorium on acceptance of permits, land use amendments, rezoning/conditional use and variance applications and public hearings related to data centers (2026 review of the December 2025 data center ordinance)
 - **What prompted it:** Review of the county's data center ordinance (on-site power generation, cap on number of data centers) with five data centers already proposed
 - **Affected projects:** Five proposed data centers (including Project Sail) vested and exempt
-- **Detailed status:** Active as of 2026-09-23; 180-day moratorium adopted 2026-06-16 runs to about 2026-12-13; five pending proposals with vested rights are exempt.
+- **Detailed status:** June 16, 2026 official minutes record unanimous execution of the data-center moratorium and describe a December 13, 2026 at 11:59 p.m. endpoint, subject to earlier amendment or affirmative extension/termination. The discussion treats vested rights as case-specific and does not establish a blanket exemption for five projects. Final executed terms, later action, present legal force and individual exemption determinations remain unverified.
 - **Outcome:** Commissioners unanimously adopted a 180-day moratorium to review the county's data center ordinance.
 
 ### Crawford County

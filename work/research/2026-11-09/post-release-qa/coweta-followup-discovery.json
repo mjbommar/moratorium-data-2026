@@ -1,0 +1,69 @@
+{
+  "reviewed_at": "2026-11-10T02:57:22.813072+00:00",
+  "sources": [
+    {
+      "name": "calendar",
+      "url": "https://www.coweta.ga.us/Calendar.aspx?EID=650&calType=0&day=3&month=6&year=2026",
+      "body_sha256": "1737635a7e6614272fc1fac0b3857c30dbd4f37dc0e369fbc5b72a7b3e74f400",
+      "reviewed_text_sha256": "7c189ac3ba7d9471e1ab9c2f095e7365ff7992032fea221b5f5266863c041aca",
+      "attempt_id": "4b6d3cce1fca4583bbd0ca56529ce65e",
+      "body_observed_at": "2026-11-10T02:54:28.315819Z"
+    },
+    {
+      "name": "agenda-index",
+      "url": "https://www.coweta.ga.us/AgendaCenter",
+      "body_sha256": "193c63294e0e706116da75890564e217ed2a71fedceb9033577ac539964d2c53",
+      "reviewed_text_sha256": "9234ffe4aa25782591fdec15cdd135b92e7e48f83b5d07e33acd8b402cbf5a1e",
+      "attempt_id": "cb8d6e6feda34c22bad098946b7ec453",
+      "body_observed_at": "2026-11-10T02:54:58.949179Z"
+    },
+    {
+      "name": "events",
+      "url": "https://cowetacoga.api.civicclerk.com/v1/Events",
+      "body_sha256": "9272aad87b9eed7ed7738649f58d4be95799ff693dce53dbbde2e2128e44cfa6",
+      "reviewed_text_sha256": "d5c981006d16dde3f0124f8097173a39ea0b0fae913aa0c9a5fe97759c6135bd",
+      "attempt_id": "be554cfc56044747848a26345c020cc4",
+      "body_observed_at": "2026-11-10T02:55:17.248228Z"
+    },
+    {
+      "name": "target-events",
+      "url": "https://cowetacoga.api.civicclerk.com/v1/Events?$filter=eventDate%20eq%202026-06-16T18:00:00Z%20or%20eventDate%20eq%202025-05-06T18:00:00Z&$top=100",
+      "body_sha256": "1c9bf3e2a7e49c437f01efad7c3a2351b5c4b60ced73d8c328ecfc902692b6ee",
+      "reviewed_text_sha256": "3632b87931399fe652b2bba44b072c058aac113f193d89547c4fed031a842e5b",
+      "attempt_id": "146b34d5bb4643c7872b273f88202164",
+      "body_observed_at": "2026-11-10T02:55:46.137379Z"
+    },
+    {
+      "name": "may6",
+      "url": "https://cowetacoga.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=2661,plainText=false)",
+      "body_sha256": "4ac30ddea66862a7c0289358cbff312edb0034baaeb0b73d4d5362675b1d5adb",
+      "reviewed_text_sha256": "0b87901add7e91139f8dfc4b29eb0699d789e36eccb8b00cb883adc09050c539",
+      "attempt_id": "9fdb793435fe49d4a5d465a952a8ea0b",
+      "body_observed_at": "2026-11-10T02:56:01.878238Z"
+    },
+    {
+      "name": "june16",
+      "url": "https://cowetacoga.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=3543,plainText=false)",
+      "body_sha256": "4f1e3ed1140684f3ecf4d1eab7244c51a313bee25371ce2f3ef724bb14d274f1",
+      "reviewed_text_sha256": "fbfb095db675c12021a41e833c2045e07936d27a2a9563b9cf55f7f04c33e4e3",
+      "attempt_id": "ce2b4ae29ee44b8d9b6a4435034df491",
+      "body_observed_at": "2026-11-10T02:56:01.636089Z"
+    }
+  ],
+  "http_cap": 6,
+  "http_requests": 6,
+  "findings": [
+    "The filtered official CivicClerk Events response identifies Board meetings May6/2025 and June16/2026 and links Minutes fileIds2661 and3543. The existing June16 agenda3495 was not refetched.",
+    "May6/2025 official minutes item27, printed pages20-21, record a unanimous execution vote with all five commissioners named as ayes, including ChairmanMcKenzie as mover. This contradicts the inventory date prose reporting4-1 with McKenzie dissenting. The five-aye motion is distinct from the earlier motion to add the item to the agenda.",
+    "May6 discussion describes immediate commencement and termination at the earliest of close of business November3/2025, adoption of amended land-use regulations, or affirmative board action. These described terms do not prove actual termination history.",
+    "June16/2026 item15, printed pages19-22, describes180days beginningJune16, expiringDecember13 at11:59pm unless earlier amendment or affirmative extension/termination, and records a unanimous vote to execute.",
+    "June16 discussion describes case-specific vested-rights review, not a five-project blanket exemption. The number and actual status of individual exemptions are not independently established.",
+    "The current calendar and new AgendaCenter did not supply these adoption records. The older official portal did; calendar and agenda presence are not treated as adoption proof."
+  ],
+  "remaining_questions": [
+    "Obtain final executed resolutions and later acts to determine actual termination/current force.",
+    "Inspect litigation docket and relationship between the2025 moratorium, zoning ordinance038-25 and ProjectSail case.",
+    "Verify individual vested-rights determinations before asserting exemptions."
+  ],
+  "scope": "Positive dated official adoption motions and described terms. No whole-record or current-law certification."
+}

@@ -1,5 +1,18 @@
 # Changelog
 
+## Working QA after v2026.11.9.post6
+
+Coweta County official May6/2025 and June16/2026 minutes confirm both adoption motions. Five cells across two records correct the May vote to unanimous, specify the described termination conditions and remove an unverified five-project blanket-exemption claim. Executed resolutions, later acts, litigation and individual vested rights remain unresolved; no status category or whole-record disposition changes. [Review](work/research/2026-11-09/post-release-qa/coweta-followup-adjudications.json). Post6 and V11 retain their immutable source cutoff; these five fields await later synchronization.
+
+| Metric | Working QA after v2026.11.9.post6 |
+|---|---:|
+| Moratoria in the list | **1,328** |
+| Classified active or extended | **1,089** |
+| Pending or not yet effective | **64** |
+| Ended (replaced, expired, or rescinded) | **169** |
+| Rows we still want to confirm (`[VERIFY]`) | **979** |
+| States with at least one | **47** |
+
 ## v2026.11.9.post6 — qualified publication, QA ongoing
 
 Thirteen cells across five existing local records change since post5: four Sedgwick identifier/planning cells, three Oshtemo instrument/vote/proposal cells, and six Phillips County extension cells. Official August 20 minutes correct the Phillips solar/storage classification from expired to extended through December 31, 2026. No whole-record hold closes; 1,368 remain unresolved. Proposed Oshtemo extensions remain explicitly unapproved as of November 9.
