@@ -1,6 +1,6 @@
 # Changelog
 
-## Working QA after v2026.11.9.post2
+## v2026.11.9.post3 — qualified publication, QA ongoing
 
 Fresh Ohio status/committee pages close eight later-history holds. Five cells across three records change: three latest-recorded-action dates incorporate documented hearings, and two narratives add those hearings without asserting passage. No category or scope membership changes. Current scoped dispositions:1,397 unresolved,142 corrected-resolved,237 confirmed-unchanged. [Review](work/research/2026-11-09/post-release-qa/ohio-history-adjudications.json).
 
@@ -8,7 +8,7 @@ Fresh South Carolina live history tables confirm six recorded bill stages and cl
 
 Current working snapshot: **1,328 local records**, **448 policy observations**, and **57 proposal/measure records** with **53 current result observations** (five certified).
 
-| Metric | Working QA after v2026.11.9.post2 |
+| Metric | Qualified patch v2026.11.9.post3 |
 |---|---:|
 | Moratoria in the list | **1,328** |
 | Classified active or extended | **1,088** |
@@ -17,7 +17,7 @@ Current working snapshot: **1,328 local records**, **448 policy observations**, 
 | Rows we still want to confirm (`[VERIFY]`) | **979** |
 | States with at least one | **47** |
 
-These recorded classifications do not certify current enforceability. Published post2 assets retain their dated data; current main includes the subsequent corrections below.
+These recorded classifications do not certify current enforceability. This patch incorporates the subsequent corrections below; prior release assets retain their dated data.
 
 Illinois fresh histories confirm eleven recorded bill stages. Full637-page introduced HB5513/SB4016 text comparison and two filed amendment bodies resolve four version/history holds with four provision-narrative corrections; no category or scope membership changes. Seven successor-law questions remain open. Current dispositions:1,411 unresolved,139 corrected-resolved,226 confirmed-unchanged. [Review](work/research/2026-11-09/post-release-qa/illinois-adjudications.json).
 

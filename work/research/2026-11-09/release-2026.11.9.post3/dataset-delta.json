@@ -1,0 +1,98 @@
+{
+  "baseline_commit": "9174793a5e0a8111d7c33c91599bf87f9155c26d",
+  "comparison": "Immutable post2 versus current canonical CSVs",
+  "datasets": {
+    "data/moratorium_inventory.csv": {
+      "before": 1328,
+      "after": 1328,
+      "added_ids": [],
+      "removed_ids": [],
+      "changed_existing_records": 0,
+      "changed_cells": 0,
+      "status_category_changes": 0,
+      "changes": []
+    },
+    "data/state_legislation.csv": {
+      "before": 448,
+      "after": 448,
+      "added_ids": [],
+      "removed_ids": [],
+      "changed_existing_records": 7,
+      "changed_cells": 9,
+      "status_category_changes": 0,
+      "changes": [
+        {
+          "id": "il-hb5513-hyperscale-data-centers-power-act-companion",
+          "fields": {
+            "key_provisions": {
+              "before": "Introduced proposal combines environmental impact assessments, public notice and community benefits, water planning and permits, energy and water reporting, renewable-energy measures, and residential solar permitting provisions. A relationship to SB4016 is a qualified companion lead pending comparison of bill versions.",
+              "after": "Introduced proposal combines environmental impact assessments, public notice and community benefits, water planning and permits, energy and water reporting, renewable-energy measures, and residential solar permitting provisions. Its retained introduced operative text matches SB4016 after removal of page headers, line numbers and whitespace across all 637 pages. This verifies introduced-text equality, not formal consolidation, equality of later versions or enactment."
+            }
+          }
+        },
+        {
+          "id": "il-sb3830-data-centers-various",
+          "fields": {
+            "key_provisions": {
+              "before": "As introduced, the bill proposes a clean-energy self-direct program, utility tariff changes, water-discharge pollutant monitoring and DNR water-use disclosures, and Water Use Act and groundwater-emergency changes. Filed Senate Committee Amendment No. 2 proposes replacing the text after the enacting clause with hyperscale load curtailment and cost allocation provisions; the retained history records referral, not adoption.",
+              "after": "As introduced, proposes a clean-energy self-direct program, utility tariff changes, water-discharge pollutant monitoring and DNR water-use disclosures, and Water Use Act and groundwater-emergency changes. Filed Senate Committee Amendment No. 1 proposes replacement with PJM curtailment limited to the new large-load customer, pass-through of backstop capacity obligations, financial security and load information; its text is not a data-center-specific definition. Filed Amendment No. 2 separately proposes hyperscale load curtailment and cost allocation. The fresh official history records filing and referral of both amendments, not adoption."
+            }
+          }
+        },
+        {
+          "id": "il-sb4004-aquifer-protection-act",
+          "fields": {
+            "key_provisions": {
+              "before": "As introduced, would prohibit data centers from using Mahomet Aquifer water and state agencies from issuing or renewing permits for data center groundwater withdrawals from that aquifer. Data centers operating before the Act's effective date would cease Mahomet Aquifer groundwater withdrawals by January 1, 2028 and transition to alternative sources; local water-use nondisclosure clauses are restricted. The official synopsis states a January 1, 2027 start for the use prohibition, but introduced section 15 contains no such date; reconcile before assigning one.",
+              "after": "As introduced, proposes a blanket Mahomet Aquifer data-center water prohibition and a January 1, 2028 transition for existing facilities. The introduced synopsis names January 1, 2027, while introduced section 15 contains no such start date; no date is assigned from that discrepancy. Filed Senate Committee Amendment No. 1 proposes replacing the bill with water-resource plans, Illinois State Water Survey impact reports, an adverse-resource-impact-dependent Mahomet withdrawal prohibition, quarterly DNR reporting, scarcity plans and water-use NDA restrictions. Existing centers would submit plans within six months; January 1, 2028 withdrawal cessation depends on an adverse-impact determination. The amendment is recorded filed/re-referred, not adopted; neither proposal is represented as current law."
+            }
+          }
+        },
+        {
+          "id": "il-sb4016-hyperscale-data-centers-power-act",
+          "fields": {
+            "key_provisions": {
+              "before": "The introduced synopsis describes cumulative impact review, public notice and community benefit agreements, NDA restrictions, water-impact permits and water reporting and planning, energy and water reporting to ICC, a hyperscale self-direct program, peak-demand-based fees, labor and equity provisions, and residential automated solar permitting. The introduced operative text and its qualifications remain to be checked.",
+              "after": "Introduced proposal combines cumulative impact review, public notice and community benefit agreements, NDA restrictions, water-impact permits and water reporting and planning, energy and water reporting to ICC, a hyperscale self-direct program, peak-demand-based fees, labor and equity provisions, and residential automated solar permitting. Retained introduced operative text matches HB5513 after removal of page headers, line numbers and whitespace across all 637 pages. This confirms the introduced proposal, not enactment or later-version equality."
+            }
+          }
+        },
+        {
+          "id": "oh-hb-706",
+          "fields": {
+            "last_action_date_iso": {
+              "before": "2026-02-25",
+              "after": "2026-06-03"
+            }
+          }
+        },
+        {
+          "id": "oh-hb-710",
+          "fields": {
+            "status": {
+              "before": "Official history observed November 5, 2026 lists introduction on 2026-02-24 and referral to House General Government on 2026-02-25. Later disposition and current legal force were not independently established by this review.",
+              "after": "Fresh official website status history observed November 9, 2026 lists introduction on 2026-02-24 and referral to House General Government on 2026-02-25. Its committee activity page lists a first hearing on 2026-05-19. The latest recorded-action date reflects that hearing, not floor passage; enactment and current legal force are not asserted."
+            },
+            "last_action_date_iso": {
+              "before": "2026-02-25",
+              "after": "2026-05-19"
+            }
+          }
+        },
+        {
+          "id": "oh-sb-145",
+          "fields": {
+            "status": {
+              "before": "Official history observed November 5, 2026 lists introduction on 2025-03-12 and referral to Senate Housing on 2025-03-19. Later disposition and current legal force were not independently established by this review.",
+              "after": "Fresh official website status history observed November 9, 2026 lists introduction on 2025-03-12 and referral to Senate Housing on 2025-03-19. Its committee activity page lists first and second hearings on 2025-05-06 and 2025-05-13. The latest recorded-action date reflects the second hearing, not floor passage; enactment and current legal force are not asserted."
+            },
+            "last_action_date_iso": {
+              "before": "2025-03-19",
+              "after": "2025-05-13"
+            }
+          }
+        }
+      ]
+    }
+  }
+}
