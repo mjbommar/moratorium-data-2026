@@ -1,0 +1,290 @@
+{
+  "source_commit": "a7165fee6e433945a598222fedd95d7d2e300e70",
+  "manifest_sha256": "20d28b063803b83431d987b4f03a51283119a79769c0fafe688b0ced081d3459",
+  "expanded_snapshot": "3ce33d22288fa7bc7100c9ac621c041037702e8370af1e663d53a548ff794725",
+  "current_counts": {
+    "moratorium_records": 1328,
+    "state_policy_records": 448,
+    "ballot_measures": 57,
+    "retained_results": 65,
+    "current_results": 53,
+    "retained_events": 12,
+    "current_accepted_historical_events": 12,
+    "restriction_records": 3,
+    "measure_instrument_link_records": 1
+  },
+  "files": 2585,
+  "entries": 2801,
+  "verified_at": "2026-11-10T17:51:35.007894+00:00",
+  "consumer_verification": {
+    "handoff": {
+      "state": "verified",
+      "source_commit": "a7165fee6e433945a598222fedd95d7d2e300e70",
+      "manifest_sha256": "20d28b063803b83431d987b4f03a51283119a79769c0fafe688b0ced081d3459",
+      "expanded_snapshot": "3ce33d22288fa7bc7100c9ac621c041037702e8370af1e663d53a548ff794725",
+      "files": 2585,
+      "entries": 2801,
+      "checks": [
+        {
+          "command": [
+            "scripts/check_expanded_publication.py"
+          ],
+          "exit_code": 0,
+          "result": {
+            "state": "consistent",
+            "snapshot_sha256": "3ce33d22288fa7bc7100c9ac621c041037702e8370af1e663d53a548ff794725",
+            "generations_checked": 49,
+            "records": {
+              "jurisdictions": 53,
+              "elections": 51,
+              "ballot_measures": 57,
+              "measure_provisions": 52,
+              "measure_results": 65,
+              "local_restrictions": 3,
+              "instrument_events": 12,
+              "measure_instrument_links": 1,
+              "source_documents": 168,
+              "claims": 625,
+              "review_decisions": 2756,
+              "search_runs": 1,
+              "search_attempts": 3,
+              "search_sightings": 18,
+              "coverage_observations": 1
+            },
+            "scope": "Offline publication/receipt consistency only; no source reacquisition, renewed factual acceptance or current-force confirmation."
+          }
+        },
+        {
+          "command": [
+            "scripts/build_expanded_csv.py",
+            "--check"
+          ],
+          "exit_code": 0,
+          "result": {
+            "state": "matches",
+            "source_snapshot": "3ce33d22288fa7bc7100c9ac621c041037702e8370af1e663d53a548ff794725",
+            "projection_sha256": "7b585b49998f8ca39b0ff433fe15c34335ea171bdd8960af1e7e9fdcf852f6cb",
+            "csv_views": 18
+          }
+        },
+        {
+          "command": [
+            "scripts/build_policy_scope_exports.py",
+            "--check"
+          ],
+          "exit_code": 0,
+          "result": "policy-scope exports current"
+        }
+      ],
+      "checks_run": true,
+      "scope": "Pinned input integrity and offline publication consistency, not source reacquisition or downstream join acceptance."
+    },
+    "policy_semantics": {
+      "total_state_policy_actions": 448,
+      "total_state_bills": 427,
+      "state_policy_instrument_type_counts": {
+        "bill": 427,
+        "executive_order": 2,
+        "governor_directive": 1,
+        "legislative_amendment": 1,
+        "legislative_precursor": 3,
+        "legislative_resolution": 12,
+        "statute": 2
+      },
+      "top_states_by_bills": [
+        [
+          "Pennsylvania",
+          18
+        ],
+        [
+          "Virginia",
+          18
+        ],
+        [
+          "West Virginia",
+          18
+        ],
+        [
+          "Maryland",
+          16
+        ],
+        [
+          "New Jersey",
+          16
+        ],
+        [
+          "California",
+          14
+        ],
+        [
+          "South Dakota",
+          14
+        ],
+        [
+          "Arizona",
+          13
+        ],
+        [
+          "Iowa",
+          13
+        ],
+        [
+          "Michigan",
+          13
+        ],
+        [
+          "Minnesota",
+          12
+        ],
+        [
+          "Ohio",
+          12
+        ],
+        [
+          "Oklahoma",
+          12
+        ],
+        [
+          "Illinois",
+          11
+        ],
+        [
+          "Kansas",
+          11
+        ]
+      ],
+      "top_states_by_policy_actions": [
+        [
+          "Pennsylvania",
+          22
+        ],
+        [
+          "Virginia",
+          18
+        ],
+        [
+          "West Virginia",
+          18
+        ],
+        [
+          "Maryland",
+          17
+        ],
+        [
+          "New Jersey",
+          17
+        ],
+        [
+          "California",
+          14
+        ],
+        [
+          "Michigan",
+          14
+        ],
+        [
+          "South Dakota",
+          14
+        ],
+        [
+          "Arizona",
+          13
+        ],
+        [
+          "Iowa",
+          13
+        ],
+        [
+          "Kansas",
+          12
+        ],
+        [
+          "Minnesota",
+          12
+        ],
+        [
+          "Ohio",
+          12
+        ],
+        [
+          "Oklahoma",
+          12
+        ],
+        [
+          "Illinois",
+          11
+        ]
+      ]
+    }
+  },
+  "index_verification": {
+    "snapshot": "data/source-snapshots/moratoria/2026-11-10-reviewed-v30",
+    "source_commit": "a7165fee6e433945a598222fedd95d7d2e300e70",
+    "manifest_sha256": "20d28b063803b83431d987b4f03a51283119a79769c0fafe688b0ced081d3459",
+    "tracked_files_and_symlinks": 2586,
+    "exact_staged_git_blob_bytes_and_modes": true,
+    "scope": "Exact staged snapshot content, Git modes and path set against the pinned manifest, including the manifest itself. This is not an independent legal review."
+  },
+  "baseline_handoff": "V29",
+  "expanded_tables_byte_identical": true,
+  "summary_delta": {
+    "active": -1,
+    "replaced": 1,
+    "active_or_extended": -1,
+    "past": 1
+  },
+  "changed_cells": 4,
+  "changed_local_cells": 4,
+  "changed_policy_cells": 0,
+  "changed_local_rows": 1,
+  "changed_policy_rows": 0,
+  "status_category_changes": 1,
+  "legal_effect_status_changes": 0,
+  "normalized_date_changes": 1,
+  "scope_membership_changes": 0,
+  "whole_record_closures": 0,
+  "unresolved_records": 1347,
+  "corrected_resolved_records": 190,
+  "confirmed_unchanged_records": 239,
+  "September_status_differences": {
+    "local": 99,
+    "policy": 35,
+    "total": 134
+  },
+  "field_changes": [
+    {
+      "dataset": "local",
+      "id": "wa-bonney-lake-2026",
+      "field": "current_status",
+      "before": "The city notice states Ordinance 1754 was adopted and effective on 2026-04-14 for an initial six-month moratorium. The notice does not establish the precise termination date or later extension or replacement. A third-party indexed lead suggests a later Ordinance 1763, but its adopted text and relationship to this moratorium remain unverified. An earlier tracker listed 2026-08-14 as an expiry; that date conflicts with the notice\u2019s six-month term. [VERIFY later action and actual end date]",
+      "after": "The six-month moratorium adopted April 14, 2026 under Ordinance 1754 was replaced by permanent ESS regulations adopted October 13, 2026. Executed Ordinance 1763 section 11 terminates the moratorium upon the new ordinance\u2019s effective date; section 16 and the clerk\u2019s completed block record immediate effectiveness on October 13. Council minutes record AB26-73 approval 6-0. The replacement prohibits stationary utility-scale electrochemical energy storage systems in all zoning districts and regulates other systems. [VERIFY: later legal developments and project-specific applicability.]"
+    },
+    {
+      "dataset": "local",
+      "id": "wa-bonney-lake-2026",
+      "field": "outcome",
+      "before": "Staff and Community Development Committee to develop BESS siting regulations before expiry",
+      "after": "Council approved permanent EESS regulations 6-0 on October 13, 2026. Ordinance 1763 terminated the Ordinance 1754 moratorium upon its immediate effectiveness. It prohibits stationary utility-scale EESS in all zoning districts and sets standards and restrictions for other EESS, including limited emergency use of mobile utility-scale EESS."
+    },
+    {
+      "dataset": "local",
+      "id": "wa-bonney-lake-2026",
+      "field": "enacted_status",
+      "before": "active",
+      "after": "replaced"
+    },
+    {
+      "dataset": "local",
+      "id": "wa-bonney-lake-2026",
+      "field": "current_end_date_iso",
+      "before": "",
+      "after": "2026-10-13"
+    }
+  ],
+  "trusted_verifier_sha256": "ebecf851d4196715df186cc81cc3c933ab7da550fbafd7207996cd94b9cd2739",
+  "scope": "Qualified post15: independently reviewed BonneyLake historical replacement/enddate; four local cells. One active-to-replaced classification, no raw identity/native-history change or whole-record closure. Source-specific later-force and held-candidate questions remain.",
+  "consumer_commit": "78be35aaecdea7fbda7bc47f8063aa2853e1ef77",
+  "release_url": "https://github.com/mjbommar/moratorium-data-2026/releases/tag/v2026.11.10.post15",
+  "release_manifest_sha256": "7dd0ef8c398c4939f739e61f2d8f1c869cf9c6b3e9397f20dd89498f2a2d021c",
+  "hosted_copy_state": "pending"
+}

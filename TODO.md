@@ -895,3 +895,6 @@ Exit: repeatable refresh with visible freshness, costs, failures and unresolved 
 
 - [x] Qualified post14 / V29 release/download/consumer delivery; four Kentucky prose corrections and refreshed public tables/charts/state pages.
 - [x] Complete live post14 Pages deployment and browser/byte checks: 64 generated HTML pages, 229 linked resources/downloads and desktop/mobile map/table interactions verified. Pending source QA and held Kentucky EO candidate remain.
+
+- [x] Qualified post15 / V30 data release: independently reviewed Bonney Lake replacement and end date; deterministic build, restore, ten anonymous downloads and consumer handoff verified.
+- [ ] Deploy and verify the complete post15 website, including Washington table, current map filters and updated metadata.

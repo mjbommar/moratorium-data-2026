@@ -1,8 +1,8 @@
 # Moratorium Data 2026
 
-**Qualified post15 candidate — delivery pending:** [v2026.11.10.post15](https://github.com/mjbommar/moratorium-data-2026/releases/tag/v2026.11.10.post15) packages the independently reviewed Bonney Lake historical correction. Verified public release/download pointers remain post14 until delivery checks pass. Broader QA continues.
+**Qualified post15 data release — website checks pending:** [v2026.11.10.post15](https://github.com/mjbommar/moratorium-data-2026/releases/tag/v2026.11.10.post15) publishes the independently reviewed Bonney Lake historical correction. Downloads, restore and V30 handoff are verified; the last verified website edition remains post14 while deployment is checked. Broader QA continues.
 
-**Working update pending delivery:** Independent tool-free Terra review supports Bonney Lake’s historical replacement and October 13 end date. Four fields are corrected in the working data; the verified release and hosted/download pointers remain post14 until the post15 delivery. [Review and application](work/research/2026-11-10/post-release-qa/bonney-lake-reviewed-application.json).
+**Reviewed correction:** Bonney Lake is classified as replaced with an October 13 end date. Four fields are corrected. [Release/download/V30 checks](work/research/2026-11-10/release-2026.11.10.post15/README.md) are verified; live website checks are pending.
 
 **Published post14 patch:** Four Kentucky incentive fields clarified using current compiled provisions. The public dashboard now has generated local-status and ballot-certification charts and tables, accurate policy-form counts and refreshed current state pages/maps. No status category changes or whole-record closures. [Release downloads, restore and V29 delivery](work/research/2026-11-10/release-2026.11.10.post14/README.md) are verified. The live dashboard, all 50 state pages, charts, tables and current downloads are verified on desktop and mobile.
 
@@ -172,7 +172,7 @@ A `CITATION.cff` file is included in the repo so GitHub renders a "Cite this rep
 - **Data** (`data/`, `states/`, `tables/`, `figures/`) is licensed under [Creative Commons Attribution 4.0 (CC-BY-4.0)](LICENSE-data). You can reuse, redistribute, and remix the data, including commercially, as long as you credit the source.
 - **Code** (`scripts/`, `notebooks/`, `examples/`) is licensed under the [MIT License](LICENSE-code).
 
-The latest qualified release is [v2026.11.10.post15](https://github.com/mjbommar/moratorium-data-2026/releases/tag/v2026.11.10.post15), prepared November 10 with explicit pending QA; delivery checks are pending and the last verified public edition remains post14. September 23 remains the historical comparison baseline. Pin the release tag for replication; working main may contain subsequent reviewed corrections. Historical version labels describe their dated editions, and no DOI is asserted.
+The latest qualified release is [v2026.11.10.post15](https://github.com/mjbommar/moratorium-data-2026/releases/tag/v2026.11.10.post15), published November 10 with explicit pending QA; data/download and V30 checks pass while website verification is pending. September 23 remains the historical comparison baseline. Pin the release tag for replication; working main may contain subsequent reviewed corrections. Historical version labels describe their dated editions, and no DOI is asserted.
 
 ---
 
