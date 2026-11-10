@@ -25,7 +25,7 @@ The earlier completion claim was wrong. `v2026.11.8` is now explicitly an **inco
 - [x] Deliver five Louisiana committee-detail fields and three scoped review closures in qualified v2026.11.10.post1 and independently verified, pushed consumer V16; two identical builds, full clean restore, ten anonymous assets and all2,260 archive members pass.
 - [x] Finish hosted-copy delivery for v2026.11.10.post1: Pages run42769968101 successfully deployed receipt commit bbe50ac1; nineteen surfaces match, and released data are byte-identical to release source4c7b8e1a. Initial failed/retry history retained.
 - [x] Apply fourteen Hawaii fields across six rows and close six scoped historical reviews;1,359 remain unresolved. HCR206 meeting years corrected, exact convening/attendance retained as a hold.
-- [ ] Before the next qualified release, check citation version/date and current-release links against the release metadata; post1 immutable archive retains an older citation label, now qualified in release prose.
+- [x] Add a release-builder gate for citation version/date and current README/FAQ/methodology labels; six tests include the actual post1 citation regression. Prepared post2 labels agree. Prior immutable citation limitation remains qualified in post1 prose.
 - [ ] Synchronize the Hawaii fourteen-field batch and six scoped review closures to the next qualified release and consumer snapshot after v2026.11.10.post1/V16.
 - [ ] Continue source-specific QA and clear outstanding questions with reviewed, guarded corrections; preserve frozen release history.
 

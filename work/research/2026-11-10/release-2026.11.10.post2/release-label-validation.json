@@ -1,0 +1,6 @@
+{
+  "tests_passed": 6,
+  "command": ".venv/bin/python -m unittest tests.test_build_release_candidate -q",
+  "regression": "Actual post1 source4c7b8e1a is rejected for its stale citation label. Current citation/version/date and current-release links must match edition metadata before archive creation.",
+  "scope": "Edition-label coherence, not factual source or legal-force certification."
+}

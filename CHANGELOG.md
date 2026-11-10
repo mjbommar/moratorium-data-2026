@@ -1,12 +1,12 @@
 # Changelog
 
-## Working QA after v2026.11.10.post1
+## Qualified v2026.11.10.post2 preparation
 
 Four Hawaii bills now have qualified historical end-of-biennium nonpassage findings, supported by complete retained histories, the constitutional odd-year carryover rule and actual2024/2026 adjournment dates. The combined SR90/SCR95 row separates adopted SR90 from inferred regular-session nonadoption of SCR95. HCR206 meeting years are now sourced explicitly to2026, with exact convening/attendance still unresolved. HR196 House-only adoption is confirmed unchanged. Fourteen fields across six rows change; six scoped historical reviews close, leaving1,359 unresolved,178 corrected-resolved and239 confirmed-unchanged. [Review](work/research/2026-11-09/post-release-qa/hawaii-session-outcome-adjudications.json).
 
 The four bill category corrections restore September categories with stronger evidence: surviving status differences are now133 (98 local,35 policy), compared with137 in the prior released snapshot. These are corrections, not four new political actions. No local/ballot/native expanded/identity or analytical-membership changes. Release and consumer synchronization of this batch are pending.
 
-| Metric | Working Hawaii QA |
+| Metric | Qualified v2026.11.10.post2 preparation |
 |---|---:|
 | Moratoria in the list | **1,328** |
 | Classified active or extended | **1,087** |

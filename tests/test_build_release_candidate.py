@@ -1,4 +1,5 @@
 import importlib.util
+import json
 import unittest
 from pathlib import Path
 
@@ -45,6 +46,34 @@ class ReleaseSelectionTest(unittest.TestCase):
         missing = builder.PUBLIC_NOV7_METADATA[0]
         self.assertNotIn(missing, builder.select_files(self.commit, [n for n in self.tracked if n != missing]))
         self.assertTrue(self.selected <= set(self.tracked))
+
+
+class ReleaseLabelsTest(unittest.TestCase):
+    def contents(self, revision='HEAD'):
+        return {path: builder.git('show', revision + ':' + path) for path in
+                ['data/release_metadata.json', 'CITATION.cff', 'README.md',
+                 'docs/FAQ.md', 'docs/methodology.md']}
+
+    def test_current_edition_labels_agree(self):
+        builder.check_release_labels(self.contents())
+
+    def test_actual_post1_citation_regression_is_rejected(self):
+        with self.assertRaisesRegex(ValueError, 'CITATION.cff version'):
+            builder.check_release_labels(self.contents('4c7b8e1ad70221f5ebdf114a41aa16b4742dea53'))
+
+    def test_stale_current_faq_is_rejected(self):
+        contents = self.contents()
+        contents['docs/FAQ.md'] = b'The latest qualified release is [v2020.1](example)\n'
+        with self.assertRaisesRegex(ValueError, 'docs/FAQ.md current release'):
+            builder.check_release_labels(contents)
+
+    def test_stale_citation_date_is_rejected(self):
+        contents = self.contents()
+        metadata = json.loads(contents['data/release_metadata.json'])
+        contents['CITATION.cff'] = contents['CITATION.cff'].replace(
+            metadata['release_date'].encode(), b'2000-01-01')
+        with self.assertRaisesRegex(ValueError, 'CITATION.cff date-released'):
+            builder.check_release_labels(contents)
 
 
 if __name__ == '__main__':

@@ -52,7 +52,7 @@ def git(*args):
 def select_files(commit, names):
     exact = {'data/moratorium_inventory.csv', 'data/state_legislation.csv', 'data/summary_stats.json',
              'data/identities/expanded.jsonl', 'data/expanded', 'LICENSE-data', 'LICENSE-code', 'CITATION.cff',
-             'docs/codebook.md', 'docs/expanded-data-contracts.md', 'docs/expanded-promotion.md',
+             'docs/codebook.md', 'docs/FAQ.md', 'docs/expanded-data-contracts.md', 'docs/expanded-promotion.md',
              'docs/expanded-identity-registry.md', 'docs/ballot-results.md', 'docs/ballot-measures.md',
              'docs/known-gaps.md', 'docs/methodology.md', 'docs/refresh-operations.md',
              'work/audit/ohio-place-coordinate-postreview-2026-11-06.json',
@@ -158,12 +158,35 @@ def select_files(commit, names):
     return selected
 
 
+def check_release_labels(contents):
+    """Reject stale current-edition labels before producing immutable assets."""
+    if 'data/release_metadata.json' not in contents:
+        return
+    metadata = json.loads(contents['data/release_metadata.json'])
+    citation = contents['CITATION.cff'].decode()
+    for key, expected in [('version', metadata['version']),
+                          ('date-released', metadata['release_date'])]:
+        values = re.findall(r'^' + re.escape(key) + r':\s*([^\n]+)$', citation, re.M)
+        if len(values) != 1 or values[0].strip().strip('\"\'') != expected:
+            raise ValueError('CITATION.cff ' + key + ' disagrees with release metadata')
+    patterns = {
+        'README.md': r'^The latest qualified release is \[v([^\]]+)\]',
+        'docs/FAQ.md': r'^The latest qualified release is \[v([^\]]+)\]',
+        'docs/methodology.md': r'^The November update is published as qualified release \[v([^\]]+)\]',
+    }
+    for path, pattern in patterns.items():
+        labels = re.findall(pattern, contents[path].decode(), re.M)
+        if labels != [metadata['version']]:
+            raise ValueError(path + ' current release label disagrees with release metadata')
+
+
 def build(destination, revision):
     commit = git('rev-parse', revision+'^{commit}').decode().strip()
     names = git('ls-tree', '-r', '--name-only', commit).decode().splitlines()
     selected = select_files(commit, names)
     # Capture the selected commit bytes once; both the scope check and archive use them.
     contents = {name: git('show', commit + ':' + name) for name in selected}
+    check_release_labels(contents)
     if 'scripts/build_policy_scope_exports.py' in selected:
         with tempfile.TemporaryDirectory(prefix='policy-scope-release-') as tmp:
             root = Path(tmp)
