@@ -1,8 +1,8 @@
 # Moratorium Data 2026
 
-**November patch release with pending QA:** [v2026.11.10.post4](https://github.com/mjbommar/moratorium-data-2026/releases/tag/v2026.11.10.post4) publishes the reviewed current state with explicit unresolved source and legal-status questions. Further checking continues. The older `v2026.11.8` remains an incomplete prerelease checkpoint.
+**November patch release with pending QA:** [v2026.11.10.post5](https://github.com/mjbommar/moratorium-data-2026/releases/tag/v2026.11.10.post5) publishes the reviewed current state with explicit unresolved source and legal-status questions. Further checking continues. The older `v2026.11.8` remains an incomplete prerelease checkpoint.
 
-**Qualified patch:** This edition adds ten corrected policy fields across four records, including Maine’s effective date and Rhode Island’s unsupported failure changed to unknown. New Mexico’s floor amendment is explicitly not adopted. [Release downloads, consumer V19 and23 hosted surfaces](work/research/2026-11-10/release-2026.11.10.post4/README.md) are verified; earlier tags remain immutable.
+**Qualified patch:** Four policy fields clarify Idaho’s reported signature date, Maryland’s future section-specific termination, and Virginia’s incorporation/text-numbering comparisons. One historical review closes; a Utah history gap is resolved without a data edit. [Release and consumer delivery](work/research/2026-11-10/release-2026.11.10.post5/README.md) is pending. Earlier tags remain immutable.
 
 **Continuing QA:** The latest retained-text comparison closes the historical SB130 incorporation review, with 1,358 unresolved records retained. HCR206 exact convening and Massachusetts H5175 independent QA remain open. There are 448 policy observations and 1,776 raw records. Use each release tag for its exact snapshot; later working changes retain their own receipts.
 
@@ -170,7 +170,7 @@ A `CITATION.cff` file is included in the repo so GitHub renders a "Cite this rep
 - **Data** (`data/`, `states/`, `tables/`, `figures/`) is licensed under [Creative Commons Attribution 4.0 (CC-BY-4.0)](LICENSE-data). You can reuse, redistribute, and remix the data, including commercially, as long as you credit the source.
 - **Code** (`scripts/`, `notebooks/`, `examples/`) is licensed under the [MIT License](LICENSE-code).
 
-The latest qualified release is [v2026.11.10.post4](https://github.com/mjbommar/moratorium-data-2026/releases/tag/v2026.11.10.post4), published November 10 with explicit pending QA. September 23 remains the historical comparison baseline. Pin the release tag for replication; working main may contain subsequent reviewed corrections. Historical version labels describe their dated editions, and no DOI is asserted.
+The latest qualified release is [v2026.11.10.post5](https://github.com/mjbommar/moratorium-data-2026/releases/tag/v2026.11.10.post5), published November 10 with explicit pending QA. September 23 remains the historical comparison baseline. Pin the release tag for replication; working main may contain subsequent reviewed corrections. Historical version labels describe their dated editions, and no DOI is asserted.
 
 ---
 
