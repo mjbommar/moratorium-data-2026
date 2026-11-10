@@ -1,0 +1,102 @@
+{
+  "all_passed": true,
+  "checks": [
+    {
+      "command": [
+        "scripts/validate_dataset.py",
+        "--today",
+        "2026-11-09"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/build_policy_scope_exports.py",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/build_summary_stats.py",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/build_geojson.py",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/make_timeline.py",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/check_docs_numbers.py"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "-m",
+        "scripts.generate_tables.inventory_clean",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/build_index.py",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/classify_sources.py",
+        "--check"
+      ],
+      "returncode": 0
+    }
+  ],
+  "dataset_errors": 0,
+  "dataset_warnings": 620,
+  "documented_number_claims": 95,
+  "whole_csv_diff": {
+    "changed_cells": 16,
+    "changed_records": 7,
+    "field_counts": {
+      "status": 7,
+      "key_provisions": 2,
+      "primary_source_url": 7
+    },
+    "status_category_changes": 0,
+    "scope_membership_changes": 0,
+    "whole_record_closures": 0
+  },
+  "introduced_text_cross_reference_differences": 4,
+  "comparison_subquestions_resolved": 1,
+  "wv_senate_terminal_holds_retained": 6,
+  "retained_unique_body_text_pairs_hash_checked": 17,
+  "retained_record_source_references": 22,
+  "native_exact_new_body_text_pairs": 2,
+  "active_unresolved_records": 1368,
+  "accumulated_pending_delivery": {
+    "changed_cells": 58,
+    "changed_policy_records": 21,
+    "status_category_changes": 14
+  },
+  "september_status_differences": {
+    "local": 95,
+    "policy": 39,
+    "total": 134
+  },
+  "scope": "Mechanical consistency and explicitly bounded source comparison. Federal authority capture does not by itself resolve West Virginia Senate incorporation/application; no new current-law acceptance."
+}

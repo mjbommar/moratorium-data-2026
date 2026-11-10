@@ -20,7 +20,7 @@
   "consumer_dispositions": "delivered_with_historical_editions_preserved",
   "experimental_extractor": "failed_no_automatic_promotion",
   "quality_gate_disposition": "User authorized publication of the current state with qualifications on pending QA, followed by continued double checking and resolution of outstanding questions.",
-  "reviewed_data_source_commit": "954795d69f4dcc3598449ad7e021a04ab2e59c02",
+  "reviewed_data_source_commit": "fa3b478ab6d42c6b47224c42c271e130e495f1bf",
   "record_dispositions": {
     "unresolved": 1368,
     "corrected_resolved": 171,
@@ -31,7 +31,7 @@
   "record_disposition_path": "work/research/2026-11-08/full-record-dispositions/funnel.json",
   "qa_status": "ongoing",
   "publication_authorization": "publish current state with qualifications on pending QA, then continue to double check and clear the outstanding questions",
-  "working_revision": "post4-qa-2",
+  "working_revision": "post4-qa-3",
   "current_raw_counts": {
     "local": 1328,
     "state_policy": 448,
@@ -76,12 +76,13 @@
   "pending_consumer_input_delta": {
     "baseline_source_commit": "d1834f689d67af8f294dc028c74b22644ce72aa3",
     "baseline_consumer_commit": "c180a755a20cded5837055635b1f5dae028c5892",
-    "changed_policy_rows": 14,
-    "changed_cells": 42,
+    "changed_policy_rows": 21,
+    "changed_cells": 58,
     "status_category_changes": 14,
     "new_scope_inclusions": 0,
     "receipt": "work/research/2026-11-09/post-release-qa/arizona-governing-context-adjudications.json",
-    "scope": "Seven Arizona plus seven Connecticut qualified historical regular-session nonpassage corrections; consumer and release synchronization pending.",
-    "additional_review": "work/research/2026-11-09/post-release-qa/connecticut-session-outcome-adjudications.json"
+    "scope": "42 Arizona/Connecticut outcome cells plus16 WV summary, qualified narrative and verified-primary-URL cells. Status-category changes remain14; no WV category or scope changes. Consumer/release synchronization pending.",
+    "additional_review": "work/research/2026-11-09/post-release-qa/connecticut-session-outcome-adjudications.json",
+    "additional_west_virginia_review": "work/research/2026-11-09/post-release-qa/west-virginia-comparison-adjudications.json"
   }
 }

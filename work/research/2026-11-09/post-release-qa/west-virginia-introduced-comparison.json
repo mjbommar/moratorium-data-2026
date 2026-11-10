@@ -1,0 +1,66 @@
+{
+  "sources": [
+    {
+      "id": "wv-sb-583-2025",
+      "url": "https://www.wvlegislature.gov/Bill_Status/bills_text.cfm?billdoc=sb583+intr.htm&i=583&sesstype=RS&yr=2025",
+      "body_sha256": "37f06d895a42411e82b8067f76c7b187d2e4e79f4e9a09b793a4e611118a708d",
+      "text_sha256": "a6aa67088979bb87901c4f478272095a19267909bcfac87ce23fef42ca478edc"
+    },
+    {
+      "id": "wv-sb-857-2025",
+      "url": "https://www.wvlegislature.gov/Bill_Status/bills_text.cfm?billdoc=sb857+intr.htm&i=857&sesstype=RS&yr=2025",
+      "body_sha256": "58d7ef401f511503f1d4d4df1fc71fbb881c89cb4f4b8d084311715139f499bf",
+      "text_sha256": "912d03d3e8beabccc6a081849b21e71a1437b6499138a58074c2f13a7314e9e5"
+    }
+  ],
+  "bodies": [
+    {
+      "id": "wv-sb-583-2025",
+      "operative_body_sha256": "b2e0d4ba4262724d8b8366324047a5e938851a02304b382a735c6c0737563e13",
+      "operative_body_characters": 56935,
+      "editorial_normalized_sha256": "c7241110e78658a8fc8c33c6ce2b45ee7878696d37475a17bff2bc55eee7c69a",
+      "xref_normalized_sha256": "a58db445b10d81b50d1f23663b4f72c10fa122b18bdd49cb3cc645f4d72a30ae",
+      "xref_6h_count": 4,
+      "xref_6n_count": 10
+    },
+    {
+      "id": "wv-sb-857-2025",
+      "operative_body_sha256": "2965292255738f02f4a1682c2269d7bd8a7148176e1307f8289c23d0add4f569",
+      "operative_body_characters": 56937,
+      "editorial_normalized_sha256": "a58db445b10d81b50d1f23663b4f72c10fa122b18bdd49cb3cc645f4d72a30ae",
+      "xref_normalized_sha256": "a58db445b10d81b50d1f23663b4f72c10fa122b18bdd49cb3cc645f4d72a30ae",
+      "xref_6h_count": 0,
+      "xref_6n_count": 14
+    }
+  ],
+  "normalization": [
+    "Remove pre-enacting title/sponsor/date material and post-body NOTE explanation.",
+    "Collapse whitespace only for operative-body hashes.",
+    "Separately normalize curly apostrophes, the exact maintenance ofthe spacing difference and the period immediately after either in the coal definition.",
+    "Only for the final comparison substitute four6H reference occurrences with6N, preserving any intervening source space."
+  ],
+  "findings": [
+    {
+      "section": "proposed11-6N-6",
+      "before": "11-6H-4",
+      "after": "11-6N-4"
+    },
+    {
+      "section": "proposed11-6N-7(b)(3)",
+      "before": "11-6H-3",
+      "after": "11-6N-3"
+    },
+    {
+      "section": "11-13-2o coal-generation utility provision",
+      "before": "11-6H-1 et seq.",
+      "after": "11-6N-1 et seq."
+    },
+    {
+      "section": "11-15-9(a)(51)",
+      "before": "11- 6H-3",
+      "after": "11- 6N-3"
+    }
+  ],
+  "equal_after_declared_formatting_and_four_reference_substitutions": true,
+  "scope": "Introduced operative plain-text comparison only, not identical source bytes, formal bill consolidation, future version identity, markup-aware legal equivalence or enacted-law/current-force acceptance."
+}
