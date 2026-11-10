@@ -1,0 +1,39 @@
+{
+  "observed_at": "2026-11-10T13:45:44.954285+00:00",
+  "record_id": "ma-h5175-s3166-194th",
+  "current_row_sha256": "fb2ddb17a16e6910fb245b1d29257164e322da19b51f068c2fd4207cf2aa1198",
+  "prior_direct_review": {
+    "path": "work/research/2026-11-09/post-release-qa/massachusetts-energy-integration.json",
+    "sha256": "5f2c48fe731c9148b1548ca88405ce2fda6bca74eca8420fb4538bc23374d84d"
+  },
+  "query": "\"H.5175\" \"conference\" energy",
+  "include_domains": [
+    "malegislature.gov"
+  ],
+  "attempt_id": "534b3d686d544e03b890bce6af0c0284",
+  "response_sha256": "9d546865d4c4642d492a9263127f3dfb702cc30140120f11342afa369ce8edde",
+  "cost_usd": 0.007,
+  "returned_sources": [
+    {
+      "url": "https://malegislature.gov/Bills/194/H5175/Bills",
+      "title": "Bill H.5175"
+    },
+    {
+      "url": "https://malegislature.gov/Bills/194/H5175/BillHistory",
+      "title": "Bill H.5175"
+    }
+  ],
+  "finding": "Both returned URLs are alternate H5175 docket views. No distinct conference report or successor act identified in this bounded result set. Search results are leads, not new substantive source acceptance or evidence of nonenactment.",
+  "searches_used": 1,
+  "fetches_used": 0,
+  "unused_fetch_allowance": 2,
+  "no_fetch_reason": "Returned alternate docket routes supply no distinct conference/enactment lead; canonical H5175 history already captured.",
+  "canonical_fields_changed": 0,
+  "whole_record_closures": 0,
+  "independent_review_completed": false,
+  "remaining_questions": [
+    "Independent record-level review remains pending; coordinator followup does not satisfy it.",
+    "Obtain a distinct final conference report, enacted act or other controlling subsequent outcome record before reconciling operative effect or succession from H4144. Do not re-fetch the same H5175 history or its /Bills and /BillHistory alternate views merely to restate the hold."
+  ],
+  "scope": "Bounded lead-discovery outcome; no comprehensive later-law search, factual renewal or closure."
+}

@@ -1,5 +1,7 @@
 # Implementation TODO
 
+- [x] Check for a distinct Massachusetts H5175 conference/enactment source using one bounded official-domain Exa search. Only alternate views of the already captured docket returned; no redundant fetch performed. [Discovery receipt](work/research/2026-11-10/post-release-qa/massachusetts-conference-discovery.json). Independent record review and final conference outcome remain open; no canonical change or closure.
+
 - [x] Review Bethel official agenda archive and linked October21/November4 Select Board minutes. October21 5–0 motion requests ordinance-process research, not a town-meeting result. Three sources archived and exact native readbacks verified; ballot, certification and operative-text gaps remain. [Review](work/research/2026-11-10/post-release-qa/bethel-official-minutes-review.json).
 - [x] Reconcile current ballot accounting against all 57 prior measure guards: 65 retained result versions, 53 current observations across 52 measures, five certified. Only Canterbury current-result IDs changed through its already delivered observation. [Accounting and 97 operator tasks](work/research/2026-11-10/ballot-current-accounting/README.md). No new canonical changes or closures.
 
