@@ -1,0 +1,18 @@
+{
+  "prior_candidate_source_commit": "30a9a3734e4d89aa6348e9962e6d9329407703cd",
+  "failure": "Source-tree list order only;2251 members, no missing/extra/different bytes. Path component order differs from fullPOSIX path order for base and dotted patch release folders.",
+  "fix": "Canonical full-path sort for source-tree comparisons only; historical directory-inclusive handoff-manifest ordering retained. All path/kind/size/hash, alias and symlink checks remain enforced.",
+  "real_source_tree_members_reverified": 2251,
+  "historical_v14_manifest_verified": "4513dc7b848e562eb5b881eb1cff560a55d7112de124fcb24a8879f5c5222d3d",
+  "historical_v14_checks_run": false,
+  "source_identical_consumer_verifier": true,
+  "updated_verifier_sha256": "35908fd737a34585a9a54707be541999b40e18e739d524d4e88bdd2af08c20df",
+  "scope": "Transport ordering regression/compatibility validation, not renewed source/legal QA.",
+  "unit_tests": {
+    "command": "python -m unittest tests.test_export_reviewed_handoff",
+    "tests": 13,
+    "status": "passed"
+  },
+  "regression_test": "tests/test_export_reviewed_handoff.py",
+  "regression_test_sha256": "1ca6a0c55b3a4a7743677ce6055ea88a2e0bc6ae7edd19e84392065e9cf59589"
+}

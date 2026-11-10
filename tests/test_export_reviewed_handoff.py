@@ -43,6 +43,15 @@ class HandoffTests(unittest.TestCase):
     def seal(self):
         (self.stage/'manifest.json').write_bytes(h.encode(self.manifest));self.pin=h.sha((self.stage/'manifest.json').read_bytes())
 
+    def test_source_order_handles_base_and_patch_release_directories(self):
+        root=self.root/'ordering';root.mkdir()
+        names=['release-2026.11.9/README.md','release-2026.11.9.post1/README.md']
+        for name in names:
+            path=root/name;path.parent.mkdir();path.write_text(name)
+        self.assertEqual([r['path'] for r in h.inventory(root,source_tree=True)],sorted(names))
+        # Existing handoff manifests include directories in Path component order.
+        self.assertEqual([r['path'] for r in h.inventory(root) if r['kind']=='file'],names)
+
     def test_counts_are_separate_and_profile2_event_acceptance_is_explicit(self):
         result=h.verify_handoff(self.stage,self.pin,run_checks=False)
         self.assertEqual(result['state'],'verified');self.assertFalse(result['checks_run'])

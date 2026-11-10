@@ -45,7 +45,9 @@ def inventory(root,*,source_tree=False):
         name=path.relative_to(root).as_posix()
         if name=='manifest.json':continue
         records.append({'path':name,'kind':kind,'bytes':len(raw),'sha256':sha(raw)})
-    return records
+    # Git/archive manifests sort full POSIX paths. Keep the established
+    # directory-inclusive handoff order unchanged for historical snapshots.
+    return sorted(records,key=lambda r:r['path']) if source_tree else records
 
 
 def verify_tree(root,records):
