@@ -1,0 +1,73 @@
+{
+  "reviewed_at": "2026-11-10T13:50:45.051017+00:00",
+  "id": "ct-cromwell-undated",
+  "prior_disposition": "unresolved",
+  "recommendation": "unresolved",
+  "prior_row_sha256": "436c989b0e3e1adf740bc46e421d6faaf79049d7d078739a4613ee79d8f6b8d7",
+  "current_row_sha256": "151ca7bc2ef050f2c3a8a2ee6b8854dedc48ff79fa55ffdf2769075e384bef21",
+  "field_changes": [
+    {
+      "field": "current_status",
+      "before": "Pending as of 2026-09-23. At its August 18, 2026 regular meeting, the Cromwell Planning and Zoning Commission voted 5-1 to accept Application #26-25 (the proposed 12-month data center moratorium text amendment) and schedule it for a public hearing at a Special Meeting on September 24, 2026 -- the Commission did not adopt the moratorium at the August 18 meeting itself. Staff confirmed no data center application is currently pending, though one commissioner referenced an interested prospective applicant. A secondary aggregator (mytownview.com) inaccurately described this August 18 procedural vote as the Commission having 'approved' and 'passed' the moratorium itself; the official filed minutes make clear only the scheduling of a hearing was voted on. On September 24, 2026, after the public hearing, the Commission denied Application #26-25 by a 5\u20132 vote.",
+      "after": "Application #26-25, the proposed 12-month data-center moratorium, was denied after the September 24, 2026 hearing (previously reviewed 5\u20132 vote). Later official records identify a distinct Application #26-37 for data-center definitions and use-specific regulations, accepted October 20 for a December 3 public hearing. The amended November 5 agenda separately schedules discussion of a potential data-center moratorium. The November 5 reported six-month proposal remains unverified as to text, instrument identity, disposition and adoption; no later pause or operative force is established."
+    },
+    {
+      "field": "outcome",
+      "before": "Planning and Zoning Commission voted 5-1 to schedule a public hearing (Sept. 24, 2026) on a proposed 12-month data center moratorium text amendment; the moratorium itself has not been adopted as of September 23, 2026. On September 24, 2026, after the public hearing, the Commission denied Application #26-25 by a 5\u20132 vote.",
+      "after": "The original 12-month Application #26-25 remains recorded as rejected. October 20 minutes establish acceptance and hearing scheduling for Application #26-37, not adoption of its rules or a moratorium. November 5 agenda item 9(a) is discussion of a potential moratorium, not an adoption record; subsequent minutes and proposal text remain required."
+    }
+  ],
+  "remaining_questions": [
+    "Recover the actual later six-month moratorium proposal and November5 or subsequent commission action record; distinguish discussion from application acceptance, hearing, denial and adoption.",
+    "Application26-37 was accepted October20 for a December3 hearing and concerns data-center definitions/use rules. Establish any relationship to the later moratorium only from exact text or explicit commission action; no shared identity inferred.",
+    "Do not repeat the current agenda index, October20 minutes or November5 amended agenda merely to restate these gaps."
+  ],
+  "prior_reconciliation_sha256": "20a02de74783614227b3dfecad88dc78f079080009e4887a7bc8bca5de1f3dbf",
+  "sources": [
+    {
+      "attempt_id": "9cd2516c0f364e6b82d137cc2fe89e32",
+      "url": "https://www.cromwellct.gov/agendacenter",
+      "final_url": "https://www.cromwellct.gov/agendacenter",
+      "body_sha256": "113f560ca16707dcdf1d641e6091b2648d41fe56bfb88e6453c1a7c75ab3098a",
+      "text_sha256": "04c065c3a6c0adc919eda397210951b99017139c0876b23f8b11b24c28c1527a",
+      "body_observed_at": "2026-11-10T13:47:56.747522Z"
+    },
+    {
+      "attempt_id": "e19c54935fa64d7899812acce2c37f60",
+      "url": "https://www.cromwellct.gov/AgendaCenter/ViewFile/Agenda/_11052026-498",
+      "final_url": "https://www.cromwellct.gov/AgendaCenter/ViewFile/Agenda/_11052026-498",
+      "body_sha256": "62ce7e89ba3f24e0413a5876efa29639730b2434b41ab2e50fe85cead2720dc0",
+      "text_sha256": "48495fb1bb213c924032a12a2c76520f6adc5d27f1648da768a87385873ea24b",
+      "body_observed_at": "2026-11-10T13:48:33.330914Z"
+    },
+    {
+      "attempt_id": "a497d791d46d4b5283d94fc4bf685165",
+      "url": "https://www.cromwellct.gov/AgendaCenter/ViewFile/Minutes/_10202026-493",
+      "final_url": "https://www.cromwellct.gov/AgendaCenter/ViewFile/Minutes/_10202026-493",
+      "body_sha256": "ded5d9ce25508de69a7bf8dc0809e11f425e1bddf172d90e693a0af91e733568",
+      "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "body_observed_at": "2026-11-10T13:48:48.233214Z"
+    }
+  ],
+  "registered_derivation": {
+    "attempt_id": "a497d791d46d4b5283d94fc4bf685165",
+    "source_body_sha256": "ded5d9ce25508de69a7bf8dc0809e11f425e1bddf172d90e693a0af91e733568",
+    "derived_text_sha256": "6a15b33022e3f4607deff4af8450210f5cfd6b7a23eaca0eca9488f6767d370a",
+    "review_status": "accepted_derivation",
+    "method": "pdftoppm160dpi and Tesseract eight scanned pages; visual review pages1and3. OCR header October26 corrected to visually observed October20; original empty extraction and raw OCR pages preserved.",
+    "visually_reviewed_pages": [
+      1,
+      3
+    ],
+    "page_image_sha256": {
+      "1": "b025e8e1ebde194c1183aaec0fe92619fe3662291029a3464e9d409d761a42f9",
+      "3": "0026b950e3b81330868c6d4ed87b5ca3ff47ef80ac3c9bb6a38079cf8a81799b"
+    }
+  },
+  "native_source_readbacks": 3,
+  "canonical_cells_changed": 2,
+  "status_category_changes": 0,
+  "normalized_date_changes": 0,
+  "whole_record_closures": 0,
+  "scope": "Official later proposal identity and agenda context clarified; historical26-25 denial preserved. No current moratorium, text-amendment adoption, signature or legal-force acceptance."
+}

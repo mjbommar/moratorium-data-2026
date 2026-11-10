@@ -1,5 +1,7 @@
 # Implementation TODO
 
+- [x] Recover and review scanned Cromwell October20 minutes plus November5 amended agenda. Application26-37 concerns data-center definitions/use rules; its December3 hearing and separate potential-moratorium discussion do not establish adoption. Two local summaries clarified; original26-25 rejection preserved. Three sources/native readbacks verified, original empty extraction preserved, OCR header date visually corrected. Nine checks pass; 1,347 reviews remain unresolved. Three total fields across two records await the next release batch. [Review](work/research/2026-11-10/post-release-qa/cromwell-later-proposal-review.json).
+
 - [x] Check for a distinct Massachusetts H5175 conference/enactment source using one bounded official-domain Exa search. Only alternate views of the already captured docket returned; no redundant fetch performed. [Discovery receipt](work/research/2026-11-10/post-release-qa/massachusetts-conference-discovery.json). Independent record review and final conference outcome remain open; no canonical change or closure.
 
 - [x] Review Bethel official agenda archive and linked October21/November4 Select Board minutes. October21 5–0 motion requests ordinance-process research, not a town-meeting result. Three sources archived and exact native readbacks verified; ballot, certification and operative-text gaps remain. [Review](work/research/2026-11-10/post-release-qa/bethel-official-minutes-review.json).
