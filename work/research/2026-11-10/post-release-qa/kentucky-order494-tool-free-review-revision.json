@@ -1,0 +1,115 @@
+{
+  "reviewed_at": "2026-11-10T18:34:05.268996+00:00",
+  "reviewer": "Independent tool-free gpt-6.1-terra API contexts; no subagents or external tools",
+  "model": "gpt-6.1-terra",
+  "input_manifest_sha256": "fe12ee67d0d1b2926a8d6be7230e228dd50ab00306b32ab6e2e2701376b50877",
+  "input_manifest": {
+    "model": "gpt-6.1-terra",
+    "candidate_id": "ky-executive-order-2026-494-2026",
+    "canonical_policy_sha256_guard": "2326a0e5a87a02e8db6af9690bad46e3c920c549778ba9832b8c9c9d462c64a1",
+    "prior_review_sha256": "02188c4e5aa7831940989d0a27cff790a18b947b873541d18f3483e4bba05d7f",
+    "source_pins": [
+      {
+        "source_id": "0f43803c03294269aa8a8ca7ef39832c",
+        "url": "https://web.sos.ky.gov/execjournalimages/2026-MISC-2026-0494-301849.pdf",
+        "body_sha256": "32e04f6f11b49479ca5ae2f3179d9135d8385133deeb73b43f4c121449559696",
+        "accepted_text_sha256": "b148f53c89a1c8822f2ee5f60d7f9ef88efa858744807a5dff79a600ea411280",
+        "captured_at": "2026-11-10T16:08:06.189205+00:00"
+      },
+      {
+        "source_id": "8cc3692064944d4fbdedeb7babf973f0",
+        "url": "https://web.sos.ky.gov/execjournal/jrnl.aspx",
+        "body_sha256": "70e866d4096927f905dc2cdbb5df0ab4a85772f70abbe3ef5d15e2df1779131a",
+        "accepted_text_sha256": "379f494787b7db19c62a4428d1fcd60e8ada61343cb991c4c6ec3e6927134f86",
+        "captured_at": "2026-11-10T16:05:23.660518+00:00"
+      }
+    ],
+    "max_http_requests": 1,
+    "original_phase_calls": 2,
+    "total_admitted_calls": 3,
+    "max_output_tokens_per_request": 6000,
+    "tools": [],
+    "agents_spawned": 0
+  },
+  "captures": [
+    {
+      "attempt_id": "1caa0d8e7f594d1580605cc4839a1c05",
+      "logical_invocation_id": "bda128dc60a74ab8b92bbdb942b131da",
+      "request_descriptor_sha256": "66c39b4b2c35628ec8cc2399207665a887d3b3581761649116d5a831ad2a307d",
+      "wire_request_sha256": "89b13bd34b9c6ad86951464d20a683fe2518e8a0d37df368254a3e5f6fd6a5f9",
+      "wire_response_sha256": "875a60475b1fc175b6715ac01c1c5c161a03d3b0162495b15f9b6f6c6e749747",
+      "decoded_content_encoding": "BrotliDecoder",
+      "wire_output_text_matches_sdk": true,
+      "status": 200,
+      "response_status": "completed",
+      "usage": {
+        "input_tokens": 10113,
+        "input_tokens_details": {
+          "cache_write_tokens": 10110,
+          "cached_tokens": 0
+        },
+        "output_tokens": 1056,
+        "output_tokens_details": {
+          "reasoning_tokens": 196
+        },
+        "total_tokens": 11169
+      }
+    }
+  ],
+  "phases": {
+    "revised_cells": {
+      "answer_sha256": "78350220aa64b6178be0c28d330522f379449a411246009440518f3adb8ea105",
+      "answer": {
+        "record_id": "ky-executive-order-2026-494-2026",
+        "input_row_sha256": "2326a0e5a87a02e8db6af9690bad46e3c920c549778ba9832b8c9c9d462c64a1",
+        "field_decisions": [
+          {
+            "field": "key_provisions",
+            "decision": "accept",
+            "value": "Requires data-center developers to submit energy plans protecting residential ratepayers and assuring energy needs can be met now, in the near term and long term without additional costs to other utility ratepayers. Directs the Public Service Commission not to allow utilities to increase rates paid by other ratepayers to recover costs caused by data-center development and operation. Directs the Energy and Environment Cabinet to deny permit applications where a data center would negatively affect listed environmental resources and requires compliance with applicable environmental laws and public-engagement requirements. Requires tax and community-engagement commitments and preserves local-community decisions on data-center operations. The order does not establish a categorical moratorium or repeal all statutory incentives.",
+            "source_id": "0f43803c03294269aa8a8ca7ef39832c",
+            "locator": "Physical page 1, sections I.A–C; page 2, continuation of I.C, sections II–III and local-decisions paragraph",
+            "reason": "The summary follows the order, including its specific prohibition on rate increases to recover data-center development and operation costs."
+          },
+          {
+            "field": "end_condition",
+            "decision": "accept",
+            "value": "No express end date identified in the complete two-page order. Later amendment, rescission, judicial developments and actual project applicability remain unverified.",
+            "source_id": "0f43803c03294269aa8a8ca7ef39832c",
+            "locator": "Physical pages 1–2, complete order; page 2, effective clause",
+            "reason": "The order specifies an effective date but no express end date. The revised value makes no assertion about unsupplied KEDFA guidance and preserves later-force and applicability uncertainty."
+          },
+          {
+            "field": "activity_level",
+            "decision": "accept",
+            "value": "Medium",
+            "source_id": "FIELD CONTRACT AND EDITORIAL CARRY-FORWARD",
+            "locator": "Kentucky_state_summary.activity_level in kentucky.md; activity_level_field_definition citing docs/codebook.md; unchanged_policy_Kentucky_activity_values",
+            "reason": "Medium is supported as an editorial carry-forward of the state overall classification, not as a legal finding or a measure of this instrument's intensity."
+          },
+          {
+            "field": "last_action_date_iso",
+            "decision": "accept",
+            "value": "2026-08-06",
+            "source_id": "0f43803c03294269aa8a8ca7ef39832c; 8cc3692064944d4fbdedeb7babf973f0",
+            "locator": "Filed PDF, physical pages 1–3, heading, effective clause and filing stamp; Executive Journal, first result for order 2026-0494",
+            "reason": "August 6 is the latest action recorded in the supplied history. This field does not assert the absence of unknown later acts; subsequent legal force remains unverified."
+          }
+        ],
+        "whole_record_closure_supported": false,
+        "remaining_questions": [
+          "Have later amendments, rescissions or judicial developments affected the order at the desired cutoff?",
+          "How does the order apply to a particular project or proceeding?"
+        ],
+        "review_limitations": [
+          "Only the four specified fields were reconsidered; prior decisions on the other fields remain separately retained and are not newly approved.",
+          "Review was limited to the supplied sources and editorial carry-forward; no independent search was performed.",
+          "This review does not certify current legal force or project eligibility."
+        ]
+      }
+    }
+  },
+  "cost_usd": null,
+  "price_status": "Price unavailable locally; request and output-token ceilings enforced. Not claimed free.",
+  "application_status": "Not applied to canonical data by this receipt. Earlier holds and rejections remain preserved; revised decisions apply only to expressly revised fields."
+}

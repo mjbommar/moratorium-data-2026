@@ -1,0 +1,323 @@
+{
+  "reviewed_at": "2026-11-10T18:34:05.275652+00:00",
+  "reviewer": "Independent tool-free gpt-6.1-terra API contexts; no subagents or external tools",
+  "model": "gpt-6.1-terra",
+  "input_manifest_sha256": "682a1c7c820c896ce8cdae8733981409ba17050a0d4c10b53e16696b293185e3",
+  "input_manifest": {
+    "model": "gpt-6.1-terra",
+    "source_pins": [
+      {
+        "source_id": "42af572885524bf4bb4728776e5a1a56",
+        "url": "https://dor.wa.gov/forms-publications/publications-subject/special-notices/modification-sales-and-use-tax-exemption-urban-data-centers",
+        "captured_at": "2026-11-10T17:00:46.883089+00:00",
+        "body_sha256": "4f4a8578713ac087eb352d9cf109692e53778bc8480348fe408bd9548b48f2e8",
+        "accepted_text_sha256": "2d59febf917d89a5e026471a42c8ac2dd969ca6d1392db087a994a01a14f9e26"
+      },
+      {
+        "source_id": "5cfde5b9446a4401930ec8011c4e32a1",
+        "url": "https://dor.wa.gov/forms-publications/publications-subject/special-notices/modification-sales-and-use-tax-exemption-rural-data-centers",
+        "captured_at": "2026-11-10T17:00:46.916505+00:00",
+        "body_sha256": "d95dffe99b1fb5f3e2a10d4785478b1fbc92e4526a5b1169214ca6b02f424b7f",
+        "accepted_text_sha256": "d61a3ae7315049aca1165a07471fc718e63b83254dbf5b11111e263b82cd2845"
+      },
+      {
+        "source_id": "272654532e294b32b4b00f211107b6f2",
+        "url": "https://app.leg.wa.gov/RCW/default.aspx?cite=19.405.020",
+        "captured_at": "2026-11-10T17:00:47.212805+00:00",
+        "body_sha256": "d1ed4d470a58e43b538157972288d15218a1d4fa547c2b1cf0f123edbf00dc01",
+        "accepted_text_sha256": "6fede6654c2d59d285d7ab811475830d61c64edce02ec643a21884b45178d551"
+      },
+      {
+        "source_id": "7c59d2dd8b3a4b91b8ad21cffa5b61bf",
+        "url": "https://app.leg.wa.gov/RCW/default.aspx?cite=82.08.986",
+        "captured_at": "2026-11-10T17:00:47.342478+00:00",
+        "body_sha256": "9ece19397971ae81a6c7e19d22b405ac6dc0fae2c90f019147421625273fb4bf",
+        "accepted_text_sha256": "0e266e95aaee068b05ad4c0bd9b6f53bf4c1b20df9101317a8a3315489ec8321"
+      },
+      {
+        "source_id": "6573134c3e3f48fcbb217a7be26e4e38",
+        "url": "https://dor.wa.gov/sites/default/files/2026-04/2026_Legislative_Report.pdf",
+        "captured_at": "2026-11-10T17:00:49.466201+00:00",
+        "body_sha256": "4d4ec6792f889f5dbe219b06b15106c8bfdfd1d33aa55472bf7a8a9430da627a",
+        "accepted_text_sha256": "1df90d11f6a737756b6160f4ca0f50069b5597e97339f850e03baf655f75b065"
+      }
+    ],
+    "tools": [],
+    "agents_spawned": 0,
+    "max_http_requests": 2,
+    "max_output_tokens_per_request": 6000,
+    "max_retries": 0,
+    "price_usd": null,
+    "procedure": "Blind extraction of shared official code and Revenue guidance; then three summary-cell adjudications. No new acquisition or canonical writes."
+  },
+  "captures": [
+    {
+      "attempt_id": "925e957a88024f3da06621d1422de402",
+      "logical_invocation_id": "9afbaede7fa94d32bd5b78197a7a210b",
+      "request_descriptor_sha256": "9fbfddc6cc866bfb659e577d2728e16851398a0b1dcac765179bed7721d8d4ba",
+      "wire_request_sha256": "9b047f5b2c898acd3de6b659467bc5f1ed338a7f2f25aa98f38ce09064c3e9ff",
+      "wire_response_sha256": "1cf800dfec8b484069c2ce2501f63dfd536dcf3d51868ad7b77af942924871a9",
+      "decoded_content_encoding": "BrotliDecoder",
+      "wire_output_text_matches_sdk": true,
+      "status": 200,
+      "response_status": "completed",
+      "usage": {
+        "input_tokens": 12696,
+        "input_tokens_details": {
+          "cache_write_tokens": 12693,
+          "cached_tokens": 0
+        },
+        "output_tokens": 3465,
+        "output_tokens_details": {
+          "reasoning_tokens": 90
+        },
+        "total_tokens": 16161
+      }
+    },
+    {
+      "attempt_id": "4acba6a116a24f2aaa02aff9b8e5d13a",
+      "logical_invocation_id": "8fe38e6a0a4d451f8ccf483aa7184986",
+      "request_descriptor_sha256": "6f01abed64b17a82d7adc5e6f89572ce3f8810c19f4f8f2427435b0fd0032747",
+      "wire_request_sha256": "6771960ffad73270726062ce3fbaa23c0d1c638cc34840b07e21f743bd036a97",
+      "wire_response_sha256": "43c69fe6dff4833d651f498f80fa4b5c6a093ab30b4751f2dbc6475d8637ca42",
+      "decoded_content_encoding": "BrotliDecoder",
+      "wire_output_text_matches_sdk": true,
+      "status": 200,
+      "response_status": "completed",
+      "usage": {
+        "input_tokens": 17759,
+        "input_tokens_details": {
+          "cache_write_tokens": 17756,
+          "cached_tokens": 0
+        },
+        "output_tokens": 1776,
+        "output_tokens_details": {
+          "reasoning_tokens": 516
+        },
+        "total_tokens": 19535
+      }
+    }
+  ],
+  "phases": {
+    "blind_extraction": {
+      "answer_sha256": "db878250544863922abe3363ac28226c425668729ad8de54734e40dcf13081df",
+      "answer": {
+        "facts": [
+          {
+            "instrument_or_section": "Rural data centers — Department of Revenue special notice",
+            "field": "Issue date and refurbishment",
+            "value": "The notice, issued June 3, 2026, says the exemption for rural data centers qualifying through refurbishment expires July 1, 2026, and no new refurbishment certificates may be issued on or after that date.",
+            "source_id": "5cfde5b9446a4401930ec8011c4e32a1",
+            "locator": "Issue Date; paragraphs 1–2",
+            "supporting_quote": "Effective July 1, 2026, the sales and use tax exemption for rural data centers that qualify through refurbishment expires. New exemption certificates for refurbishment of a rural data center may not be issued on or after July 1, 2026."
+          },
+          {
+            "instrument_or_section": "RCW 82.08.986",
+            "field": "Rural refurbishment certificates and exemption",
+            "value": "The statute retains a limit of six refurbishment certificates per calendar year, allocated first-in-time by application receipt, with one application per qualifying business per year. It also prohibits new certificates for centers qualifying through refurbishment on or after July 1, 2026, and expires that refurbishment exemption on July 1, 2026.",
+            "source_id": "7c59d2dd8b3a4b91b8ad21cffa5b61bf",
+            "locator": "RCW 82.08.986(1)(e)(i)–(iii)",
+            "supporting_quote": "New exemption certificates may not be issued on or after July 1, 2026, for data centers that qualify through refurbishment. ... The exemption granted to data centers that qualify through refurbishment under this subsection (1)(e) expires July 1, 2026."
+          },
+          {
+            "instrument_or_section": "RCW 82.08.986",
+            "field": "Rural refurbishment definition and certification",
+            "value": "Refurbishment is a substantial improvement to an eligible data center to update or modernize servers, server space, ventilation, or power infrastructure. The qualifying business must certify completion to the department in its prescribed form and manner; completion is when the improved portion is operationally complete and usable for its intended purpose.",
+            "source_id": "7c59d2dd8b3a4b91b8ad21cffa5b61bf",
+            "locator": "RCW 82.08.986(8)(k)(i)–(ii)",
+            "supporting_quote": "the qualifying business must certify ... that the refurbishment of an eligible computer data center is complete. The refurbishment is considered complete on the date that the improved portion ... is operationally complete and able to be used for its intended purpose."
+          },
+          {
+            "instrument_or_section": "RCW 82.08.986",
+            "field": "Rural program eligibility and construction dates",
+            "value": "An eligible center must be in a rural county as defined by RCW 82.14.370 when the exemption application is received, have at least 20,000 square feet dedicated to working servers, and commence construction in one of three windows: after March 31, 2010 and before July 1, 2011; after March 31, 2012 and before July 1, 2015; or after June 30, 2015 and before July 1, 2035. The facility must also meet the computer data center definition, including at least 100,000 combined square feet and specified power, fire-safety and security characteristics.",
+            "source_id": "7c59d2dd8b3a4b91b8ad21cffa5b61bf",
+            "locator": "RCW 82.08.986(8)(d)(i)–(iii), (f)(i)",
+            "supporting_quote": "Located in a rural county ... at the time an application for an exemption under this section is received; ... Having at least 20,000 square feet dedicated to housing working servers"
+          },
+          {
+            "instrument_or_section": "RCW 82.08.986",
+            "field": "Construction commencement for renovation or refurbishment",
+            "value": "Commencement generally means issuance of the building permit. Construction includes expansion, renovation or refurbishment of existing facilities, including leased or rented space, regardless of prior eligibility or the original facility's commencement date. If no building permit is required for renovation or refurbishment, commencement is when that work begins; specified preliminary site work does not count.",
+            "source_id": "7c59d2dd8b3a4b91b8ad21cffa5b61bf",
+            "locator": "RCW 82.08.986(8)(f)(ii)",
+            "supporting_quote": "If no building permit is required for renovation or refurbishment, then the date that renovation or refurbishment begins is the \"commencement of construction.\""
+          },
+          {
+            "instrument_or_section": "RCW 82.08.986",
+            "field": "Rural exemption scope and general dates",
+            "value": "The retail sales tax exemption covers qualifying business or tenant purchases of eligible server equipment installed without intervening use in an eligible center with a valid certificate, and installation labor and services. It also covers eligible power infrastructure and specified associated labor and services at a center for which a certificate has been issued. Generally, no new certificates may be issued on or after July 1, 2036; the exemptions and section expire July 1, 2048. These general dates do not override the earlier refurbishment-specific date.",
+            "source_id": "7c59d2dd8b3a4b91b8ad21cffa5b61bf",
+            "locator": "RCW 82.08.986(1)(a)–(e), (9)",
+            "supporting_quote": "No new exemption certificates may be issued on or after July 1, 2036. ... The exemptions provided in this section expire July 1, 2048."
+          },
+          {
+            "instrument_or_section": "RCW 82.08.986",
+            "field": "Rural certificate effective date",
+            "value": "A certificate is effective on the date the department receives the application, deemed its issuance date. Only purchases on or after issuance qualify; refunds for earlier purchases are not authorized. Certificates expire two years after issuance unless construction has commenced.",
+            "source_id": "7c59d2dd8b3a4b91b8ad21cffa5b61bf",
+            "locator": "RCW 82.08.986(2)(d)–(e)",
+            "supporting_quote": "Only purchases on or after the date of issuance qualify for the exemption under this section. No tax refunds are authorized for purchases made before the effective date of the exemption certificate."
+          },
+          {
+            "instrument_or_section": "RCW 82.08.986",
+            "field": "Rural replacement server equipment — earlier construction windows",
+            "value": "For a qualifying business in the first construction window, eligible equipment includes original equipment installed from April 1, 2010 to before January 1, 2026, and replacement equipment replacing equipment whose sale or use qualified for exemption, if installed and put into regular use before April 1, 2018. For the second window, the corresponding original-equipment start is April 1, 2012, the same January 1, 2026 end applies, and replacement must have been installed and put into regular use before April 1, 2024.",
+            "source_id": "7c59d2dd8b3a4b91b8ad21cffa5b61bf",
+            "locator": "RCW 82.08.986(8)(h)(i)–(ii)",
+            "supporting_quote": "Replaces existing server equipment, if the sale or use of the server equipment to be replaced qualified for an exemption under this section or RCW 82.12.986"
+          },
+          {
+            "instrument_or_section": "RCW 82.08.986",
+            "field": "Rural server equipment — later construction window and tenants",
+            "value": "For a qualifying business in the third construction window, eligible server equipment means original equipment installed in a building within an eligible center on or after July 1, 2015; equipment installed in specified stand-alone, prefabricated or modular units is not directly installed in a building. For a qualifying tenant, eligible equipment means original equipment installed on or after April 1, 2010 in its leased space in an eligible center with an exemption certificate.",
+            "source_id": "7c59d2dd8b3a4b91b8ad21cffa5b61bf",
+            "locator": "RCW 82.08.986(8)(h)(iii)–(iv)",
+            "supporting_quote": "the original server equipment installed in a building within an eligible computer data center on or after July 1, 2015"
+          },
+          {
+            "instrument_or_section": "Urban data centers — Department of Revenue special notice",
+            "field": "Issue date and refurbishment",
+            "value": "The notice, issued July 16, 2026, says the urban exemption for centers qualifying through refurbishment expires July 1, 2026, and centers refurbished on or after that date do not qualify for the exemption.",
+            "source_id": "42af572885524bf4bb4728776e5a1a56",
+            "locator": "Issue Date; paragraph 1",
+            "supporting_quote": "Effective July 1, 2026, the sales and use tax exemption for urban data centers that qualify through refurbishment expires. This means urban data centers refurbished on or after July 1, 2026, do not qualify for the exemption."
+          },
+          {
+            "instrument_or_section": "Rural and urban data centers — Department of Revenue special notices",
+            "field": "Replacement equipment — agency notice summaries",
+            "value": "Both notices state that replacement server equipment is removed from the eligible-equipment definition, making its purchase ineligible for a retail sales and use tax exemption.",
+            "source_id": "5cfde5b9446a4401930ec8011c4e32a1",
+            "locator": "Rural special notice, final paragraph",
+            "supporting_quote": "Replacement server equipment is removed from the definition of eligible server equipment, making purchases of replacement server equipment ineligible for a retail sales and use tax exemption."
+          },
+          {
+            "instrument_or_section": "Urban data centers — Department of Revenue special notice",
+            "field": "Replacement equipment — agency notice summary",
+            "value": "The urban notice gives the same generalized replacement-equipment summary.",
+            "source_id": "42af572885524bf4bb4728776e5a1a56",
+            "locator": "Urban special notice, final paragraph",
+            "supporting_quote": "Replacement server equipment is removed from the definition of eligible server equipment, making purchases of replacement server equipment ineligible for a retail sales and use tax exemption."
+          },
+          {
+            "instrument_or_section": "Department of Revenue Summary of 2026 Legislation",
+            "field": "Chapter 266 agency bill summary",
+            "value": "The agency summarizes the bill as expiring existing certificates for centers qualifying through refurbishment, preventing new refurbishment certificates on or after July 1, 2026, and allowing newly constructed centers to apply. It describes the equipment exemption as limited to the first round of original equipment, not subsequent server refreshes. It says the bill takes effect July 1, 2026.",
+            "source_id": "6573134c3e3f48fcbb217a7be26e4e38",
+            "locator": "Page 15, bill 6231, Data Center Equipment Sales Tax Exemption",
+            "supporting_quote": "This bill expires existing sales and use tax exemption certificates for data centers that qualified through the “refurbishment” of a pre-existing facility."
+          },
+          {
+            "instrument_or_section": "RCW 82.08.986 — source history and notes",
+            "field": "2025 and 2026 chapter relationship",
+            "value": "The section's source history lists 2026 chapter 266 section 2 and, before it, 2025 chapter 411 section 4. A note states that sections 2 and 3 of the 2026 act take effect July 1, 2026. The listing establishes a source-history relationship for this section, not the full contents of either act.",
+            "source_id": "7c59d2dd8b3a4b91b8ad21cffa5b61bf",
+            "locator": "Source history following RCW 82.08.986(9); Notes, Effective date — 2026 c 266",
+            "supporting_quote": "2026 c 266 s 2; 2025 c 411 s 4 ... Sections 2 and 3 of this act take effect July 1, 2026."
+          },
+          {
+            "instrument_or_section": "RCW 19.405.020",
+            "field": "Consumer-owned utility definition",
+            "value": "For chapter 19.405, unless context clearly requires otherwise, a consumer-owned utility includes the listed municipal electric utilities, public utility districts, irrigation districts, cooperatives, mutual corporations or associations, and Title 53 port districts, if engaged in distributing electricity to at least one retail electric customer in Washington.",
+            "source_id": "272654532e294b32b4b00f211107b6f2",
+            "locator": "RCW 19.405.020 introductory clause and (10)(a)",
+            "supporting_quote": "a port district formed under Title 53 RCW, that is engaged in the business of distributing electricity to at least one retail electric customer in the state."
+          },
+          {
+            "instrument_or_section": "RCW 19.405.020",
+            "field": "Single-customer PUD exception",
+            "value": "A Title 54 public utility district with only one retail electric customer in Washington is excluded from the consumer-owned utility definition provided the customer remains the same as of January 1, 2026, and the district continues to receive 100 percent of its electricity needs from the Bonneville Power Administration.",
+            "source_id": "272654532e294b32b4b00f211107b6f2",
+            "locator": "RCW 19.405.020(10)(b)",
+            "supporting_quote": "provided the customer remains the same as of January 1, 2026, and the public utility district continues to receive 100 percent of its electricity needs from the Bonneville power administration."
+          }
+        ],
+        "uncertainties": [
+          "The supplied sources contain the urban notice but not the urban statutory text, so detailed urban statutory eligibility and certificate conditions cannot be independently extracted here.",
+          "The agency's generalized replacement-equipment summaries should be read separately from the rural statute's retained, date-limited replacement definitions for the first two construction windows.",
+          "The agency bill summary describes expiring existing refurbishment certificates; RCW 82.08.986(1)(e)(iii) expressly describes expiration of the refurbishment exemption. The supplied material does not establish the effect on any particular certificate.",
+          "The source-history listing does not by itself establish which specific changes 2025 chapter 411 or 2026 chapter 266 made, or the completeness of the law currently in force.",
+          "No supplied fact establishes actual refurbishment certification, issuance of an exemption certificate, or any particular project's eligibility."
+        ]
+      }
+    },
+    "cell_adjudication": {
+      "answer_sha256": "4bcbbe12c14d071543ece2206e3965c5c5fd1160522c2f8c99fb4825049c1864",
+      "answer": {
+        "records": [
+          {
+            "record_id": "wa-sb-5431-ssb-5431-2025-26",
+            "input_row_sha256": "adea0589ac08ca910d60462def1c060cf3fb3e182207ff65a1cb8048228c2a5f",
+            "field_decisions": [
+              {
+                "field": "key_provisions",
+                "decision": "accept",
+                "value": "Clarified administration of data center sales and use tax exemptions, including treatment of existing employment positions for qualifying refurbishment or newly eligible facilities. Later 2026 chapter 266, section 2 amended RCW 82.08.986: the rural refurbishment-based exemption expires July 1, 2026, and new refurbishment certificates may not be issued on or after that date.",
+                "source_id": "7c59d2dd8b3a4b91b8ad21cffa5b61bf",
+                "locator": "RCW 82.08.986(1)(e)(ii)–(iii); source history and 2026 effective-date note",
+                "reason": "The source history lists both 2025 chapter 411 section 4 and the later 2026 chapter 266 section 2. The rural statute states the refurbishment-specific expiration and certificate cutoff."
+              }
+            ],
+            "whole_record_closure_supported": false,
+            "remaining_questions": [
+              "The supplied source history does not establish the full contents of either act or the effect on a particular certificate."
+            ],
+            "review_limitations": [
+              "The unchanged 2025 summary and other row fields were not re-certified; this is not a comprehensive current-law audit."
+            ]
+          },
+          {
+            "record_id": "wa-sb-5982-2025-26",
+            "input_row_sha256": "41efc9ae893f94e80dc5041d755e7727abf3ebbd8c71d5e6bd1a04394f5b2535",
+            "field_decisions": [
+              {
+                "field": "key_provisions",
+                "decision": "hold",
+                "value": "The existing summary states that the bill expands Clean Energy Transformation Act coverage to affected market customers and that committee reports describe it as closing data-center clean-power compliance gaps. For chapter 19.405, the consumer-owned utility definition includes listed utilities, including Title 53 port districts, engaged in distributing electricity to at least one retail electric customer in Washington. It excludes a Title 54 public utility district with only one retail electric customer in Washington, provided the customer remains the same as of January 1, 2026 and the district continues to receive 100 percent of its electricity needs from the Bonneville Power Administration.",
+                "source_id": "272654532e294b32b4b00f211107b6f2",
+                "locator": "RCW 19.405.020 introductory clause, (10)(a)–(b), (25); source history",
+                "reason": "The proposed exception omits the Title 54 and in-state qualifications. The current statutory text supports the revised definition, but the supplied source history alone does not establish which coverage changes the bill made. The committee-report and affected-market-customer claims are identified as carry-forward."
+              }
+            ],
+            "whole_record_closure_supported": false,
+            "remaining_questions": [
+              "Which specific changes to utility and affected-market-customer coverage did the 2026 act make?"
+            ],
+            "review_limitations": [
+              "The committee-report claim and other row fields were not re-certified; this is not a complete CETA implementation audit."
+            ]
+          },
+          {
+            "record_id": "wa-sb-6231-2025-26",
+            "input_row_sha256": "934062a6bd818905e10f667ffcdf92d0cf796574d68051a7254909ecfc81bdbb",
+            "field_decisions": [
+              {
+                "field": "key_provisions",
+                "decision": "accept",
+                "value": "Expires or narrows certain data center sales and use tax exemption certificates, including certificates for qualifying refurbished data centers; bill reports document industry opposition and state revenue/ratepayer arguments. Revenue’s June 3 rural and July 16 urban notices describe July 1, 2026 changes to refurbishment eligibility and exclusion of replacement server equipment; the rural notice expressly bars new refurbishment certificates on or after July 1.",
+                "source_id": "5cfde5b9446a4401930ec8011c4e32a1",
+                "locator": "Rural notice: issue date and paragraphs 1–3; urban notice 42af572885524bf4bb4728776e5a1a56: issue date and paragraphs 1–2",
+                "reason": "The added sentence accurately attributes the generalized descriptions to the two notices and distinguishes the rural notice’s explicit certificate cutoff. It does not claim a blanket repeal of the data center exemption."
+              }
+            ],
+            "whole_record_closure_supported": false,
+            "remaining_questions": [
+              "The urban statutory text and the effect on any particular certificate were not supplied."
+            ],
+            "review_limitations": [
+              "The notices are official guidance, not a full legal or implementation audit. The rural statute retains date-limited replacement-equipment definitions for two earlier construction windows.",
+              "The unchanged certificate and bill-report wording and other row fields were not re-certified. The act’s June 11 date and July 1 dates for sections 2 and 3 were not changed."
+            ]
+          }
+        ],
+        "batch_limitations": [
+          "Review was limited to the supplied original-source text; no tools or independent retrieval were available.",
+          "Acceptance of a proposed cell does not certify unchanged record facts or support whole-record closure."
+        ]
+      }
+    }
+  },
+  "cost_usd": null,
+  "price_status": "Price unavailable locally; request and output-token ceilings enforced. Not claimed free.",
+  "application_status": "Not applied to canonical data by this receipt. Earlier holds and rejections remain preserved; revised decisions apply only to expressly revised fields."
+}

@@ -1,0 +1,241 @@
+{
+  "reviewed_at": "2026-11-10T18:34:05.280282+00:00",
+  "reviewer": "Independent tool-free gpt-6.1-terra API contexts; no subagents or external tools",
+  "model": "gpt-6.1-terra",
+  "input_manifest_sha256": "bd977ac12ab04a124f7f26fb9eacc9cce40d2f636ba949dd978fe3ab0e0e1f58",
+  "input_manifest": {
+    "model": "gpt-6.1-terra",
+    "record_id": "la-hcr61-2025-rs",
+    "row_sha256": "39c9f3325e057028dea8560a8097b70ef3ec7a6396040e3de25392c839550e4f",
+    "source_pins": [
+      {
+        "source_id": "7d1371054b3446129d9a142d5f180ee0",
+        "url": "https://www.legis.la.gov/legis/BillInfo.aspx?s=25RS&b=HCR61",
+        "captured_at": "2026-11-05T23:37:33.097829+00:00",
+        "body_sha256": "b55ef3f714e52f214c348ac7c7ea1e6560747c6192b1c084a9cca6fcf0699c73",
+        "text_scope": "Complete retained named instrument history;14renderedentries. Reused capture, not a new cutoff query."
+      },
+      {
+        "source_id": "7a4c8c8ad3b847d8b9501a148df9e068",
+        "url": "https://senate.la.gov/Journals/2025/RS/25RS%20-%20SJ%200612%2030.PDF",
+        "captured_at": "2026-11-10T16:26:28.888089+00:00",
+        "body_sha256": "8e08b5423676d082ff35b6aebf67e23184eb0e5748b537b9a5b8e1836450cf68",
+        "text_scope": "Mechanically selected HCR-related text contexts from full retained journal; final journal includes complete physical100-108 adjournment/post-session appendix. Full source body remains pinned; snippets are not full visual/semantic coverage of every page."
+      },
+      {
+        "source_id": "bcde00abf94844aca09b0c09f3a874f7",
+        "url": "https://senate.la.gov/Journals/2025/RS/25RS%20-%20SJ%200611%2029.PDF",
+        "captured_at": "2026-11-10T16:33:57.017431+00:00",
+        "body_sha256": "9807e001f76b1ff647ace189c4b3a20c1263ed2e202aa7b2a96a1c19cb2f150f",
+        "text_scope": "Mechanically selected HCR-related text contexts from full retained journal; final journal includes complete physical100-108 adjournment/post-session appendix. Full source body remains pinned; snippets are not full visual/semantic coverage of every page."
+      },
+      {
+        "source_id": "203fbdb7c7d14a23826b38e138525b00",
+        "url": "https://senate.la.gov/Journals/2025/RS/25RS%20-%20SJ%200610%2028.PDF",
+        "captured_at": "2026-11-10T16:34:00.674721+00:00",
+        "body_sha256": "3908db118941d8dd239cf0ae1df381ab4f9669e34000e21b8d0b3e16f7d0d7aa",
+        "text_scope": "Mechanically selected HCR-related text contexts from full retained journal; final journal includes complete physical100-108 adjournment/post-session appendix. Full source body remains pinned; snippets are not full visual/semantic coverage of every page."
+      }
+    ],
+    "source_image_sha256": "33945a25aba41b4cb9d35c6833c55c92b35ffada3810b04c9f18f623d1b58eb7",
+    "selection_audit": [
+      {
+        "source_id": "7a4c8c8ad3b847d8b9501a148df9e068",
+        "full_extracted_text_sha256": "81e9fdac8127975032e2d3c0ffa048aa8519cd935a555b2152c08e04ae344777",
+        "physical_pages": 108,
+        "selection_regex": "House\\s+Concurrent\\s+Resolution|\\bH\\s*\\.?\\s*C\\s*\\.?\\s*R\\.?\\b",
+        "selection_scope": "All matched HCR-title/shortform contexts, merged overlapping windows; complete physical100+pages of final journal retained below. Text-based selection is not complete-page visual review.",
+        "broad_61_near_HCR_or_Coates": [
+          {
+            "physical_page": 104,
+            "window": "gh (3), (E)(1), (F), (H)(1), (I)(2) and\nAffairs to submit the following report:                                       (4), the introductory paragraph of (M)(1), and (M)(1)(c), 41, 42,\n                                                                              44, 45, 48, introductory paragraph of 61, 73(1), 74(A) and (B),\n     The following Senate Concurrent Resolution has been properly             79(A), (B), and (C), 82(1), (6), (7), (11), and (14), 83(A)(5) and\nenrolled:                                                                     (7), 83.1(B)(3), 85(A)(3) and (C), 86(A)(2), (D)(8), "
+          }
+        ]
+      },
+      {
+        "source_id": "bcde00abf94844aca09b0c09f3a874f7",
+        "full_extracted_text_sha256": "1ba8065558ddd3e9f126663d4c9901384da3c79110be193ae06c073fdfffefb0",
+        "physical_pages": 54,
+        "selection_regex": "House\\s+Concurrent\\s+Resolution|\\bH\\s*\\.?\\s*C\\s*\\.?\\s*R\\.?\\b",
+        "selection_scope": "All matched HCR-title/shortform contexts, merged overlapping windows; complete physical100+pages of final journal retained below. Text-based selection is not complete-page visual review.",
+        "broad_61_near_HCR_or_Coates": []
+      },
+      {
+        "source_id": "203fbdb7c7d14a23826b38e138525b00",
+        "full_extracted_text_sha256": "37fc2b6faf9dcce200add5b3a02f8eb1fff75ec925790e3bbab5da6232a11b81",
+        "physical_pages": 66,
+        "selection_regex": "House\\s+Concurrent\\s+Resolution|\\bH\\s*\\.?\\s*C\\s*\\.?\\s*R\\.?\\b",
+        "selection_scope": "All matched HCR-title/shortform contexts, merged overlapping windows; complete physical100+pages of final journal retained below. Text-based selection is not complete-page visual review.",
+        "broad_61_near_HCR_or_Coates": []
+      }
+    ],
+    "candidate_sha256": "2bacc5a35bd97e96aeed71dae913178e9550a0fc48b25a3c1b64563d1a227137",
+    "max_http_requests": 2,
+    "max_output_tokens_per_request": 6000,
+    "tools": [],
+    "agents_spawned": 0,
+    "scope": "Independent adjudication of proposed bounded historical nonpassage inference; no new retrieval or exhaustive legal-force claim."
+  },
+  "captures": [
+    {
+      "attempt_id": "09774a1ec1e14716863f82cbcb348a1f",
+      "logical_invocation_id": "d036db3cd92a4240b44658c6f5bd68f0",
+      "request_descriptor_sha256": "802e739fa533b85fa0060fe6462ea8857b22edfbefd715708a41b9c13c5855c8",
+      "wire_request_sha256": "d2c87fd78a391b09ab9e8b2cc26fd0255fd81303455a71d8cca1798917dafc63",
+      "wire_response_sha256": "4e7e754c7b86f72c0b73229bdb1f0bc2e45aad470fe7a280a488810f71f2e2b4",
+      "decoded_content_encoding": "BrotliDecoder",
+      "wire_output_text_matches_sdk": true,
+      "status": 200,
+      "response_status": "completed",
+      "usage": {
+        "input_tokens": 32219,
+        "input_tokens_details": {
+          "cache_write_tokens": 32216,
+          "cached_tokens": 0
+        },
+        "output_tokens": 1677,
+        "output_tokens_details": {
+          "reasoning_tokens": 205
+        },
+        "total_tokens": 33896
+      }
+    },
+    {
+      "attempt_id": "8e459803de504c9a96abd6ded3046f43",
+      "logical_invocation_id": "2cdf281f86134c71a80ec53a00050545",
+      "request_descriptor_sha256": "38c4390bbf7d3c3e9f9adf7cbef0b594f8a8ee91faf355e3da8493328aba2de3",
+      "wire_request_sha256": "08e77673d891623cc221a0f7b3a8b11ba8104df343dc32239a4a4abbdca9ffff",
+      "wire_response_sha256": "20fd6438cfb212e922d3b10ce2bc09c7ad4f8d247466b752c1e54d8ea231b63f",
+      "decoded_content_encoding": "BrotliDecoder",
+      "wire_output_text_matches_sdk": true,
+      "status": 200,
+      "response_status": "completed",
+      "usage": {
+        "input_tokens": 34648,
+        "input_tokens_details": {
+          "cache_write_tokens": 34645,
+          "cached_tokens": 0
+        },
+        "output_tokens": 887,
+        "output_tokens_details": {
+          "reasoning_tokens": 189
+        },
+        "total_tokens": 35535
+      }
+    }
+  ],
+  "phases": {
+    "blind_extraction": {
+      "answer_sha256": "55bf13168c8bbae16e1bd71b2e74cf081fd4ff81d487ac5ac1d83f4954eace57",
+      "answer": {
+        "facts": [
+          {
+            "field": "instrument",
+            "value": "HCR 61 proposed a special task force to study interagency consultation for data centers and more complete natural-resource planning and management.",
+            "source_id": "7d1371054b3446129d9a142d5f180ee0",
+            "locator": "Named instrument history, heading",
+            "supporting_quote": "Creates a special task force to study the interagency consultation process for data centers to ensure more complete natural resource planning and management"
+          },
+          {
+            "field": "house_history_through_june_4",
+            "value": "On May 21, the resolution was read and lay over. On May 22, it was referred to Natural Resources and Environment. It was reported with amendments May 28, amended and recommitted to House and Governmental Affairs May 29, and reported with amendments June 3; both committee reports were 10–0. On June 4, it was amended, ordered reengrossed and passed to third reading; floor debate was scheduled for June 8.",
+            "source_id": "7d1371054b3446129d9a142d5f180ee0",
+            "locator": "Named history, May 21–June 4; House journal pages 5, 4, 38, 10, 69 and 10",
+            "supporting_quote": "06/04 H 10 Read by title, amended, ordered reengrossed, passed to 3rd reading."
+          },
+          {
+            "field": "house_adoption",
+            "value": "On June 8, the House suspended the rules, called HCR 61 out of order, read it and returned it to the calendar; it was then amended and returned, called from the calendar, amended again and adopted 93–0. It was ordered to the Senate.",
+            "source_id": "7d1371054b3446129d9a142d5f180ee0",
+            "locator": "Named history, June 8; House journal pages 18, 23 and 49",
+            "supporting_quote": "Read by title, amended, roll called on final consideration, yeas 93, nays 0. The resolution was adopted and ordered to the Senate."
+          },
+          {
+            "field": "last_recorded_senate_stage",
+            "value": "The Senate received HCR 61 on June 8, suspended the rules, read it a first time and placed it on the calendar for second reading. Its last recorded action was June 9: read by title and returned to the calendar, subject to call. The displayed status is 'Subject to call - Senate referral.'",
+            "source_id": "7d1371054b3446129d9a142d5f180ee0",
+            "locator": "Named history, June 8 Senate journal page 97 and June 9 Senate journal page 62; current-status heading",
+            "supporting_quote": "06/09 S 62 Read by title and returned to the Calendar, subject to call."
+          },
+          {
+            "field": "final_adjournment",
+            "value": "The Senate adjourned sine die at 5:52 p.m. on June 12, 2025. The journal separately identifies the following material as post-session legislative actions.",
+            "source_id": "7a4c8c8ad3b847d8b9501a148df9e068",
+            "locator": "June 12 Senate journal, physical page 100, printed page 1338",
+            "supporting_quote": "On motion of Senator Talbot, at 5:52 o'clock P.M. the Senate adjourned until Sine Die."
+          },
+          {
+            "field": "closing_journal_action_evidence",
+            "value": "No HCR 61 passage or later action is identified in the supplied closing-journal selections. The June 10 signed-HCR message lists HCR 60 and other numbered resolutions, not HCR 61 in the displayed list. The June 11 and June 12 selections likewise show actions on other HCRs, including HCR 69.",
+            "source_id": "203fbdb7c7d14a23826b38e138525b00",
+            "locator": "June 10 Senate journal, physical pages 65–66; also bcde00abf94844aca09b0c09f3a874f7, physical pages 52–53, and 7a4c8c8ad3b847d8b9501a148df9e068, physical pages 2, 16–17 and 99–100",
+            "supporting_quote": "HOUSE CONCURRENT RESOLUTION NO. 60— BY REPRESENTATIVE FISHER ... To memorialize the United States Congress"
+          },
+          {
+            "field": "broad_61_match",
+            "value": "The closing-journal selection audit identifies one broad 61 match near HCR-related text: the introductory paragraph of statutory section 61 in Senate Bill 244, not HCR 61.",
+            "source_id": "7a4c8c8ad3b847d8b9501a148df9e068",
+            "locator": "June 12 Senate journal, physical page 104, printed page 1342; deterministic selection audit",
+            "supporting_quote": "44, 45, 48, introductory paragraph of 61, 73(1), 74(A) and (B)"
+          },
+          {
+            "field": "post_session_context",
+            "value": "The final journal says instruments in the following messages were acted upon after final adjournment on the indicated dates. Such administrative messages are not, by themselves, proof of HCR 61 passage.",
+            "source_id": "7a4c8c8ad3b847d8b9501a148df9e068",
+            "locator": "June 12 Senate journal, physical page 100, printed page 1338",
+            "supporting_quote": "Following final adjournment, the instruments contained in the following messages were acted upon on the dates indicated."
+          }
+        ],
+        "uncertainties": [
+          "The named instrument history is the complete retained 14-entry capture, but it is a reused capture rather than a new cutoff query.",
+          "The closing-journal evidence consists of mechanically selected text contexts and the complete physical pages 100–108 of the final journal, not a visual or semantic review of all 228 physical pages across the three journals. Encoding and multi-item messages may limit absence conclusions; portions of some messages are outside the displayed snippets.",
+          "The supplied evidence establishes House adoption and the last recorded Senate stage, but does not establish Senate concurrence or a formal HCR-specific 'Died' event."
+        ]
+      }
+    },
+    "cell_adjudication": {
+      "answer_sha256": "a5887bc72aaf372f0108a0ae4b06dfef8f5d8a88356436bb08dceb26190234f2",
+      "answer": {
+        "record_id": "la-hcr61-2025-rs",
+        "input_row_sha256": "39c9f3325e057028dea8560a8097b70ef3ec7a6396040e3de25392c839550e4f",
+        "field_decisions": [
+          {
+            "field": "status",
+            "decision": "reject",
+            "value": "The retained named history records House adoption 93-0 on June 8, 2025, and a last recorded Senate action on June 9: return to the calendar subject to call. Searches of extracted June 10–12 Senate journal text, including the final-day post-session appendix, identified no HCR 61 action. The Senate adjourned sine die on June 12 at 5:52 p.m. Historical regular-session nonpassage is a bounded inference from these records, not a bill-specific Died event.",
+            "source_id": "7d1371054b3446129d9a142d5f180ee0",
+            "locator": "Named history, June 8–9; June 10–12 journal selection audit; June 12 journal physical page 100",
+            "reason": "Revised wording makes the text-search boundary explicit rather than implying complete visual review of all journals. The named history and adjournment support the qualified inference."
+          },
+          {
+            "field": "bill_status_category",
+            "decision": "accept",
+            "value": "failed_died",
+            "source_id": "7d1371054b3446129d9a142d5f180ee0",
+            "locator": "Named history, June 8–9; closing-journal selection audit and June 12 journal physical page 100",
+            "reason": "Acceptable under the stated contract as qualified historical regular-session nonpassage, not as a recorded bill-specific Died event."
+          },
+          {
+            "field": "legal_effect_status",
+            "decision": "accept",
+            "value": "failed",
+            "source_id": "7d1371054b3446129d9a142d5f180ee0",
+            "locator": "Named history, June 8–9; closing-journal selection audit and June 12 journal physical page 100",
+            "reason": "Supported as the same bounded nonpassage inference for HCR 61, not a determination about similar policy elsewhere."
+          }
+        ],
+        "whole_record_closure_supported": true,
+        "remaining_questions": [],
+        "review_limitations": [
+          "Closure addresses the original final-Senate/session-disposition residual at the qualified inference level; no formal HCR-specific Died event or Senate concurrence was recovered.",
+          "The complete retained named history is a reused capture, not a new cutoff query. The closing-journal checks are text-based; encoding and multi-item messages may limit absence conclusions, and the checks are not complete visual review.",
+          "Post-session administrative actions are separately identified in the final journal. The House-bill-only disposition legend and procedural index do not independently prove HCR 61 failed.",
+          "The last named action date remains 2025-06-09; adjournment is not substituted for that date."
+        ]
+      }
+    }
+  },
+  "cost_usd": null,
+  "price_status": "Price unavailable locally; request and output-token ceilings enforced. Not claimed free.",
+  "application_status": "Not applied to canonical data by this receipt. Earlier holds and rejections remain preserved; revised decisions apply only to expressly revised fields."
+}

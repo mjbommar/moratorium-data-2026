@@ -1,0 +1,85 @@
+{
+  "reviewed_at": "2026-11-10T18:34:05.263938+00:00",
+  "reviewer": "Independent tool-free gpt-6.1-terra API contexts; no subagents or external tools",
+  "model": "gpt-6.1-terra",
+  "input_manifest_sha256": "d951b4536ca4bb50713414854814acfb985366bbdcf051e1c98e6a7b57d748d3",
+  "input_manifest": {
+    "model": "gpt-6.1-terra",
+    "record_id": "wy-sf0091-2026",
+    "row_sha256": "55a9943f7adcbca59e6c8402e8c88387f037fb5a3521c55d1bdda73205bbf96a",
+    "original_review_input_manifest_sha256": "15671cc5d3651b358f887e704cda8e6b4e87ed5de3323c8c3a7861b0a70fd0e4",
+    "original_held_review_sha256": "41fe66956a59a7d313d56ff73b365ad3876a790c1bf9bbfd3b77a1ed907541cb",
+    "source_body_sha256": {
+      "c5e053cf23a64e68a99384a4b0754579": "38d712a7163584c92ad74c8e287beca5cb04c8d9d43a723fed6ac39a34bb3fea",
+      "e595900b7a7a4d9c9b65537da0a1a25f": "4b6c96f8a66fa58d63d63e300cab6b390496b3bd0a5dbed1d7d43cbdaca0dc89",
+      "3cd0647e82654d738edf0a65a4e53de7": "af5270f0bb6515196db678367cc65b0447bef532652330045f43769f77a8bffc",
+      "b71aa9fd129544baad47a9ef445a42d0": "2c0cae409e3a568a6c026fde25eb66121d10f0c0eb446e487dd0922e1301de30"
+    },
+    "tools": [],
+    "agents_spawned": 0,
+    "max_http_requests": 1,
+    "max_output_tokens_per_request": 6000,
+    "original_phase_calls": 2,
+    "total_admitted_calls_across_phases": 3,
+    "correction_scope": "Correct retained API projection and add omitted source URL/capture provenance; original held review preserved, no original cap reset and no new acquisition."
+  },
+  "captures": [
+    {
+      "attempt_id": "3ea372bcd6e547e6967ec68aec2e07b0",
+      "logical_invocation_id": "f3073dfde8d14806b42d8d954fb1773a",
+      "request_descriptor_sha256": "7a635aee185cb07d64b2b1372d11f19df65ab941cc59c51445b0549251943a72",
+      "wire_request_sha256": "2394115ace3f5e33370bfcb3dc9e3fc8a33f7730ceeb32c903d5f7a2999418fe",
+      "wire_response_sha256": "2fb2bd346313de50627fd048461949461e43b831745843b350886e100eabed5f",
+      "decoded_content_encoding": "BrotliDecoder",
+      "wire_output_text_matches_sdk": true,
+      "status": 200,
+      "response_status": "completed",
+      "usage": {
+        "input_tokens": 8411,
+        "input_tokens_details": {
+          "cache_write_tokens": 8408,
+          "cached_tokens": 0
+        },
+        "output_tokens": 1116,
+        "output_tokens_details": {
+          "reasoning_tokens": 464
+        },
+        "total_tokens": 9527
+      }
+    }
+  ],
+  "phases": {
+    "provenance_revision": {
+      "answer_sha256": "093bc3a26beb509b83d114df4f78f8d275127ddc5dde8c059210622802d57abf",
+      "answer": {
+        "record_id": "wy-sf0091-2026",
+        "input_row_sha256": "55a9943f7adcbca59e6c8402e8c88387f037fb5a3521c55d1bdda73205bbf96a",
+        "field_decisions": [
+          {
+            "field": "party",
+            "decision": "accept",
+            "value": "R confirmed for Steinmetz, French, Allemand, Bear, Kevin Campbell, Heiner, Neiman and Webber in the official 2026 rosters. Senator Pearson is identified as Laura Taliaferro Pearson, Republican, Senate District 14: the official 2026 profile uses Laura Taliaferro, while official state election and legislative publications supply the full name.",
+            "source_id": "b71aa9fd129544baad47a9ef445a42d0; c5e053cf23a64e68a99384a4b0754579; e595900b7a7a4d9c9b65537da0a1a25f; 3cd0647e82654d738edf0a65a4e53de7",
+            "locator": "BillReferences sponsors array, Senator Pearson; 2024 winners roster, physical page 2, STATE SENATOR 14; Wyoming State Senate table, physical page 1, Laura Taliaferro Pearson row; 2026-session legislator profile, heading, Years of Service and contact details",
+            "reason": "The corrected bill projection lists Senator Pearson. The 2024 winners roster identifies Laura Taliaferro Pearson as Republican for Senate District 14, and the legislative table also gives her full name, party and district. The 2026-session profile identifies Senator Laura Taliaferro as Republican for that district, serving from 2025, with the same address and phone as the winners roster. Together these support the attribution and removal of the VERIFY clause. The eight-sponsor prefix is unchanged carry-forward."
+          }
+        ],
+        "whole_record_closure_supported": false,
+        "remaining_questions": [
+          "The sponsor entry does not itself provide a person ID; the Pearson attribution rests on the combined name, district, service and contact evidence.",
+          "The later-captured profile does not independently prove affiliation at every instant, including the bill's February 11 action date.",
+          "Analytical scope and current-force questions remain outside this party-cell review."
+        ],
+        "review_limitations": [
+          "Review was limited to supplied excerpts, images and retained retrieval metadata; no tools or new fetches were available.",
+          "The profile is a 2026-session profile, but its original publication date is not established. Its retrieval timestamp is not an enactment date or proof of uninterrupted affiliation.",
+          "Official hosting supports provenance, not an automatic claim of authorship by a particular state office. No cause for the differing name forms is established.",
+          "The eight-sponsor prefix and other row fields were not newly reviewed."
+        ]
+      }
+    }
+  },
+  "cost_usd": null,
+  "price_status": "Price unavailable locally; request and output-token ceilings enforced. Not claimed free.",
+  "application_status": "Not applied to canonical data by this receipt. Earlier holds and rejections remain preserved; revised decisions apply only to expressly revised fields."
+}

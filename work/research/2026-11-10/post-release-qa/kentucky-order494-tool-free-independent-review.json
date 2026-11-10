@@ -1,0 +1,424 @@
+{
+  "reviewed_at": "2026-11-10T18:34:05.267340+00:00",
+  "reviewer": "Independent tool-free gpt-6.1-terra API contexts; no subagents or external tools",
+  "model": "gpt-6.1-terra",
+  "input_manifest_sha256": "9e196a41c90aa9bed032a5dd2f7f38d672cac964c09476e30eb5029754f23245",
+  "input_manifest": {
+    "model": "gpt-6.1-terra",
+    "candidate_id": "ky-executive-order-2026-494-2026",
+    "canonical_policy_sha256_guard": "2326a0e5a87a02e8db6af9690bad46e3c920c549778ba9832b8c9c9d462c64a1",
+    "source_pins": [
+      {
+        "source_id": "0f43803c03294269aa8a8ca7ef39832c",
+        "url": "https://web.sos.ky.gov/execjournalimages/2026-MISC-2026-0494-301849.pdf",
+        "body_sha256": "32e04f6f11b49479ca5ae2f3179d9135d8385133deeb73b43f4c121449559696",
+        "accepted_text_sha256": "b148f53c89a1c8822f2ee5f60d7f9ef88efa858744807a5dff79a600ea411280",
+        "captured_at": "2026-11-10T16:08:06.189205+00:00"
+      },
+      {
+        "source_id": "8cc3692064944d4fbdedeb7babf973f0",
+        "url": "https://web.sos.ky.gov/execjournal/jrnl.aspx",
+        "body_sha256": "70e866d4096927f905dc2cdbb5df0ab4a85772f70abbe3ef5d15e2df1779131a",
+        "accepted_text_sha256": "379f494787b7db19c62a4428d1fcd60e8ada61343cb991c4c6ec3e6927134f86",
+        "captured_at": "2026-11-10T16:05:23.660518+00:00"
+      }
+    ],
+    "image_pins": [
+      {
+        "source_id": "0f43803c03294269aa8a8ca7ef39832c",
+        "physical_page": 1,
+        "sha256": "0743bccd522fccc3e2a7d61c5baadc8aa9fc200d50c4999bbad55049fe3da5d9"
+      },
+      {
+        "source_id": "0f43803c03294269aa8a8ca7ef39832c",
+        "physical_page": 2,
+        "sha256": "072f9bf3eb2e295f3ad1d5fb145afdf4505de488fe940be8a5bf469c3047463c"
+      },
+      {
+        "source_id": "0f43803c03294269aa8a8ca7ef39832c",
+        "physical_page": 3,
+        "sha256": "71933bf0dc57cc935617c3a3fd324d435e08cbbcb1a3a633c81fce8fc38040d7"
+      }
+    ],
+    "candidate_sha256": "25c393469e0a10da322315cde18c8d23ca7c653319bf1d0e4924e3255962a5be",
+    "max_http_requests": 2,
+    "max_output_tokens_per_request": 6000,
+    "max_retries": 0,
+    "tools": [],
+    "agents_spawned": 0,
+    "price_usd": null,
+    "procedure": "Blind primary-source extraction before seeing the candidate; then field-level independent admission review. No new acquisition or canonical write."
+  },
+  "captures": [
+    {
+      "attempt_id": "8866d431027f4110b4b108a8bb49b24f",
+      "logical_invocation_id": "40aca951a11d49038dbf99be0340d1b1",
+      "request_descriptor_sha256": "06919e554e6fc3d908ac7044b890c971c522078e7fc11555cd5af8f3cdff42ef",
+      "wire_request_sha256": "5cc5613cca0dc99c5e16dee5f3c4d911cb2b50ff700368aed596946ee174f3fe",
+      "wire_response_sha256": "ed0185d94b2e496948bb831b769550bafd7ee83903c04b13ebb534188c7049b6",
+      "decoded_content_encoding": "BrotliDecoder",
+      "wire_output_text_matches_sdk": true,
+      "status": 200,
+      "response_status": "completed",
+      "usage": {
+        "input_tokens": 6711,
+        "input_tokens_details": {
+          "cache_write_tokens": 6708,
+          "cached_tokens": 0
+        },
+        "output_tokens": 2259,
+        "output_tokens_details": {
+          "reasoning_tokens": 106
+        },
+        "total_tokens": 8970
+      }
+    },
+    {
+      "attempt_id": "ec0c748af35c46adb15c3dc1d0d8210e",
+      "logical_invocation_id": "67bf631335544db6bd21fb8e42e2989c",
+      "request_descriptor_sha256": "4ab1a6709a94d61ce49b3d2d992fd88a1b65f1694b97da4056b105163af0c1d6",
+      "wire_request_sha256": "78489c3ce804712222fe32ca605ee77553668e4c3bcc20b3cd07142dbcd59dea",
+      "wire_response_sha256": "61d5c5d63fc89cfeba978b3b9a5fa4c3c8082d99bb139770eb69198413899eb1",
+      "decoded_content_encoding": "BrotliDecoder",
+      "wire_output_text_matches_sdk": true,
+      "status": 200,
+      "response_status": "completed",
+      "usage": {
+        "input_tokens": 9805,
+        "input_tokens_details": {
+          "cache_write_tokens": 9802,
+          "cached_tokens": 0
+        },
+        "output_tokens": 2715,
+        "output_tokens_details": {
+          "reasoning_tokens": 376
+        },
+        "total_tokens": 12520
+      }
+    }
+  ],
+  "phases": {
+    "blind_extraction": {
+      "answer_sha256": "0b20d12f8f63c4d54835b1fc98c0e764a1621d2cbdef485b90af4587cbf139df",
+      "answer": {
+        "facts": [
+          {
+            "field": "instrument_identity",
+            "value": "Kentucky executive order concerning commitments by data center developers; printed number 2026-494.",
+            "source_id": "0f43803c03294269aa8a8ca7ef39832c",
+            "locator": "Physical page 1, heading and directive introduction",
+            "supporting_quote": "EXECUTIVE ORDER ... 2026-494"
+          },
+          {
+            "field": "issuer",
+            "value": "Andy Beshear, Governor of the Commonwealth of Kentucky.",
+            "source_id": "0f43803c03294269aa8a8ca7ef39832c",
+            "locator": "Physical page 1, directive introduction",
+            "supporting_quote": "I, Andy Beshear, Governor of the Commonwealth of Kentucky"
+          },
+          {
+            "field": "issuance_date",
+            "value": "August 6, 2026, as dated in the order heading.",
+            "source_id": "0f43803c03294269aa8a8ca7ef39832c",
+            "locator": "Physical page 1, heading",
+            "supporting_quote": "August 6, 2026"
+          },
+          {
+            "field": "effective_date",
+            "value": "August 6, 2026.",
+            "source_id": "0f43803c03294269aa8a8ca7ef39832c",
+            "locator": "Physical page 2, final paragraph before signatures",
+            "supporting_quote": "This Order is effective August 6, 2026."
+          },
+          {
+            "field": "filing_date",
+            "value": "August 6, 2026, handwritten on the filing stamp.",
+            "source_id": "0f43803c03294269aa8a8ca7ef39832c",
+            "locator": "Physical page 3, filing stamp",
+            "supporting_quote": "RECEIVED AND FILED ... DATE August 6, 2026"
+          },
+          {
+            "field": "padded_journal_number",
+            "value": "2026-0494; the journal lists it under Executive Orders, filed August 6, 2026, in book 2026.",
+            "source_id": "8cc3692064944d4fbdedeb7babf973f0",
+            "locator": "Executive Journal search results, first result",
+            "supporting_quote": "Order #2026-0494\nCategory:\nExecutive Orders\nFiled: 8/6/2026\nBook: 2026"
+          },
+          {
+            "field": "energy_plan",
+            "value": "Developers must submit an energy plan to the Energy and Environment Cabinet showing protection of residential ratepayers and assuring that energy needs can be met now, in the near term and long term without additional costs to other utility ratepayers.",
+            "source_id": "0f43803c03294269aa8a8ca7ef39832c",
+            "locator": "Physical page 1, section I.A",
+            "supporting_quote": "Data center project developers are required to submit an energy plan to the Energy and Environment Cabinet showing how it will protect residential ratepayers, including assurances it can meet its energy needs now, into the near term, and long term without imposing additional costs on other utility ratepayers."
+          },
+          {
+            "field": "utility_rates",
+            "value": "The Public Service Commission shall not allow a utility to recover data-center development and operation costs by increasing rates paid by other ratepayers.",
+            "source_id": "0f43803c03294269aa8a8ca7ef39832c",
+            "locator": "Physical page 1, section I.B",
+            "supporting_quote": "The Public Service Commission shall not allow a utility to increase rates paid by other ratepayers to recover costs caused by the development and operation of a data center."
+          },
+          {
+            "field": "environmental_permitting",
+            "value": "The Energy and Environment Cabinet is directed to deny permitting applications where a data center would negatively affect the listed environmental resources.",
+            "source_id": "0f43803c03294269aa8a8ca7ef39832c",
+            "locator": "Physical page 1, section I.C",
+            "supporting_quote": "The Energy and Environment Cabinet is directed to deny any permitting applications where a data center would negatively impact Kentucky’s air quality, water use, water quality, water supply, federal jurisdictional wetlands, or natural resources."
+          },
+          {
+            "field": "environmental_compliance",
+            "value": "Developers must demonstrate compliance with applicable environmental laws and public-engagement requirements.",
+            "source_id": "0f43803c03294269aa8a8ca7ef39832c",
+            "locator": "Physical pages 1–2, section I.C",
+            "supporting_quote": "Data center developers must also demonstrate compliance with all applicable environmental laws and public engagement requirements."
+          },
+          {
+            "field": "tax_commitment",
+            "value": "Developers must commit to paying their full and fair share of state and local taxes and not attempt to avoid taxes, especially those for local communities and schools.",
+            "source_id": "0f43803c03294269aa8a8ca7ef39832c",
+            "locator": "Physical page 2, section II",
+            "supporting_quote": "Data center project developers must commit to paying their full and fair share of state and local taxes and not attempt to avoid paying taxes, especially those for our local communities and schools."
+          },
+          {
+            "field": "community_engagement",
+            "value": "Developers must commit to public discussions with local leaders and members and transparently address community questions, including local job opportunities.",
+            "source_id": "0f43803c03294269aa8a8ca7ef39832c",
+            "locator": "Physical page 2, section III",
+            "supporting_quote": "Data center project developers must commit to engaging in public discussions with local community leaders and members where the project is proposing to locate, addressing with full transparency the community’s questions, including how the data center will create local job opportunities."
+          },
+          {
+            "field": "local_decisions",
+            "value": "The order states that it does not affect local communities’ decisions about data center operations within their jurisdictions.",
+            "source_id": "0f43803c03294269aa8a8ca7ef39832c",
+            "locator": "Physical page 2, paragraph following section III",
+            "supporting_quote": "Nothing in this Order shall impact decisions made by local communities regarding the operation of data centers within their jurisdiction."
+          },
+          {
+            "field": "monitoring",
+            "value": "The Governor’s office states that it will monitor projects and hold them accountable for their commitments.",
+            "source_id": "0f43803c03294269aa8a8ca7ef39832c",
+            "locator": "Physical page 2, paragraph before effective date",
+            "supporting_quote": "My Office will actively monitor data center projects and hold them accountable for the commitments they make to our local communities and people."
+          },
+          {
+            "field": "moratorium",
+            "value": "The order does not state a categorical moratorium on data centers; it sets commitments and directs permit denial where specified negative environmental impacts would occur.",
+            "source_id": "0f43803c03294269aa8a8ca7ef39832c",
+            "locator": "Physical page 1, directive introduction and section I.C; physical page 2, sections II–III",
+            "supporting_quote": "the following three commitments shall be demonstrated"
+          },
+          {
+            "field": "governor_signature",
+            "value": "A handwritten governor’s signature is visible above Andy Beshear’s printed name and title.",
+            "source_id": "0f43803c03294269aa8a8ca7ef39832c",
+            "locator": "Physical page 2, signature block",
+            "supporting_quote": "ANDY BESHEAR, Governor\nCommonwealth of Kentucky"
+          },
+          {
+            "field": "secretary_attestation",
+            "value": "A handwritten signature and seal are visible at the Secretary of State’s block.",
+            "source_id": "0f43803c03294269aa8a8ca7ef39832c",
+            "locator": "Physical page 2, signature block",
+            "supporting_quote": "MICHAEL G. ADAMS\nSecretary of State"
+          },
+          {
+            "field": "filing_stamp",
+            "value": "A received-and-filed stamp, handwritten date and handwritten signature after “BY” are visible.",
+            "source_id": "0f43803c03294269aa8a8ca7ef39832c",
+            "locator": "Physical page 3",
+            "supporting_quote": "RECEIVED AND FILED ... MICHAEL G. ADAMS SECRETARY OF STATE ... BY"
+          },
+          {
+            "field": "term_or_end_clause",
+            "value": "No expiration date or end clause appears in the two-page order.",
+            "source_id": "0f43803c03294269aa8a8ca7ef39832c",
+            "locator": "Physical pages 1–2, complete order; page 2, concluding provisions",
+            "supporting_quote": "This Order is effective August 6, 2026."
+          }
+        ],
+        "governor_signature_visible": true,
+        "secretary_attestation_visible": true,
+        "filing_stamp_visible": true,
+        "uncertainties": [
+          "The absence of an end clause does not establish the order’s later or current legal force.",
+          "The order does not establish that all statutory incentives were repealed, or that any particular project was eligible or implemented."
+        ]
+      }
+    },
+    "cell_adjudication": {
+      "answer_sha256": "02188c4e5aa7831940989d0a27cff790a18b947b873541d18f3483e4bba05d7f",
+      "answer": {
+        "record_id": "ky-executive-order-2026-494-2026",
+        "input_row_sha256": "2326a0e5a87a02e8db6af9690bad46e3c920c549778ba9832b8c9c9d462c64a1",
+        "field_decisions": [
+          {
+            "field": "state",
+            "decision": "accept",
+            "value": "Kentucky",
+            "source_id": "0f43803c03294269aa8a8ca7ef39832c",
+            "locator": "Physical page 1, heading and directive introduction",
+            "reason": "The order identifies the Commonwealth of Kentucky."
+          },
+          {
+            "field": "state_abbrev",
+            "decision": "accept",
+            "value": "KY",
+            "source_id": "0f43803c03294269aa8a8ca7ef39832c",
+            "locator": "Physical page 1, heading",
+            "reason": "KY is the standard abbreviation for the identified state."
+          },
+          {
+            "field": "bill",
+            "decision": "accept",
+            "value": "Executive Order 2026-494 (2026)",
+            "source_id": "0f43803c03294269aa8a8ca7ef39832c",
+            "locator": "Physical page 1, heading",
+            "reason": "The document is labeled executive order 2026-494 and dated in 2026."
+          },
+          {
+            "field": "sponsors",
+            "decision": "accept",
+            "value": "Governor Andy Beshear",
+            "source_id": "0f43803c03294269aa8a8ca7ef39832c",
+            "locator": "Physical page 1, directive introduction; page 2, signature block",
+            "reason": "Beshear issued and signed the order; the field identifies its executive issuer."
+          },
+          {
+            "field": "party",
+            "decision": "accept",
+            "value": "",
+            "source_id": "0f43803c03294269aa8a8ca7ef39832c",
+            "locator": "Physical pages 1–2",
+            "reason": "The blank makes no unsupported party-affiliation assertion."
+          },
+          {
+            "field": "status",
+            "decision": "accept",
+            "value": "Governor-signed order dated August 6, 2026; official journal lists the padded number 2026-0494 as filed August 6, 2026, and the filed copy includes the attestation/seal and received-and-filed stamp. The order expressly states effectiveness August 6, 2026; subsequent legal force remains unverified.",
+            "source_id": "0f43803c03294269aa8a8ca7ef39832c; 8cc3692064944d4fbdedeb7babf973f0",
+            "locator": "Order pages 1–3, heading, effective clause, signatures and filing stamp; journal first result",
+            "reason": "The order and journal support the historical issuance, filing and stated effective date; neither establishes later force."
+          },
+          {
+            "field": "key_provisions",
+            "decision": "reject",
+            "value": "Requires data-center developers to submit energy plans protecting residential ratepayers and assuring energy needs can be met now, in the near term and long term without additional costs to other utility ratepayers. Directs the Public Service Commission not to allow utilities to increase rates paid by other ratepayers to recover costs caused by data-center development and operation. Directs the Energy and Environment Cabinet to deny permit applications where a data center would negatively affect listed environmental resources and requires compliance with applicable environmental laws and public-engagement requirements. Requires tax and community-engagement commitments and preserves local-community decisions on data-center operations. The order does not establish a categorical moratorium or repeal all statutory incentives.",
+            "source_id": "0f43803c03294269aa8a8ca7ef39832c",
+            "locator": "Physical page 1, sections I.A–C; page 2, sections I.C, II–III and local-decisions paragraph",
+            "reason": "The proposed PSC description is broader than the order: it bars a specified rate increase to recover development and operation costs, not every possible cost shift."
+          },
+          {
+            "field": "activity_level",
+            "decision": "hold",
+            "value": "",
+            "source_id": "0f43803c03294269aa8a8ca7ef39832c",
+            "locator": "Physical pages 1–2",
+            "reason": "Medium is editorial metadata, not a fact established by the order; no coding rubric is provided."
+          },
+          {
+            "field": "bill_status_category",
+            "decision": "accept",
+            "value": "enacted",
+            "source_id": "0f43803c03294269aa8a8ca7ef39832c",
+            "locator": "Physical pages 1–3, order, signatures and filing stamp",
+            "reason": "The supplied taxonomy permits enacted for a formally issued executive order. It does not establish current force."
+          },
+          {
+            "field": "last_action_date_iso",
+            "decision": "hold",
+            "value": "2026-08-06",
+            "source_id": "0f43803c03294269aa8a8ca7ef39832c; 8cc3692064944d4fbdedeb7babf973f0",
+            "locator": "Order pages 1–3, heading, effective clause and filing stamp; journal first result",
+            "reason": "This is the documented issuance, effective and filing date, but the supplied evidence does not establish that no later action occurred. Retain only as a provisional latest documented action."
+          },
+          {
+            "field": "chamber_of_origin",
+            "decision": "accept",
+            "value": "",
+            "source_id": "0f43803c03294269aa8a8ca7ef39832c",
+            "locator": "Physical page 1, directive introduction",
+            "reason": "The instrument is a gubernatorial order; the blank asserts no legislative chamber."
+          },
+          {
+            "field": "policy_instrument_type",
+            "decision": "accept",
+            "value": "executive_order",
+            "source_id": "0f43803c03294269aa8a8ca7ef39832c",
+            "locator": "Physical page 1, heading",
+            "reason": "The instrument expressly identifies itself as an executive order."
+          },
+          {
+            "field": "policy_mechanism",
+            "decision": "accept",
+            "value": "other",
+            "source_id": "0f43803c03294269aa8a8ca7ef39832c",
+            "locator": "Physical page 1, sections I.A–C; page 2, sections II–III",
+            "reason": "The order combines utility-rate protections, environmental permitting restrictions, and tax and community commitments. No single enumerated mechanism is clearly primary; other preserves that mixed character."
+          },
+          {
+            "field": "legal_effect_status",
+            "decision": "accept",
+            "value": "unknown",
+            "source_id": "0f43803c03294269aa8a8ca7ef39832c",
+            "locator": "Physical page 2, effective clause; pages 1–2, complete order",
+            "reason": "The stated original effective date does not resolve subsequent amendment, rescission or judicial developments."
+          },
+          {
+            "field": "scope_of_action",
+            "decision": "accept",
+            "value": "mixed",
+            "source_id": "0f43803c03294269aa8a8ca7ef39832c",
+            "locator": "Physical page 1, sections I.A–C; page 2, sections II–III and local-decisions paragraph",
+            "reason": "The order covers several distinct regulatory and developer-commitment subjects while preserving local decisions."
+          },
+          {
+            "field": "effective_date_iso",
+            "decision": "accept",
+            "value": "2026-08-06",
+            "source_id": "0f43803c03294269aa8a8ca7ef39832c",
+            "locator": "Physical page 2, effective clause",
+            "reason": "The order expressly states that it is effective August 6, 2026."
+          },
+          {
+            "field": "end_condition",
+            "decision": "reject",
+            "value": "No express end date identified in the complete two-page order. Later amendment, rescission, judicial developments and actual project applicability remain unverified.",
+            "source_id": "0f43803c03294269aa8a8ca7ef39832c",
+            "locator": "Physical pages 1–2, complete order",
+            "reason": "The order contains no express end date, but the supplied primary sources do not establish the asserted subsequent KEDFA guidance or its character."
+          },
+          {
+            "field": "primary_source_url",
+            "decision": "accept",
+            "value": "https://web.sos.ky.gov/execjournalimages/2026-MISC-2026-0494-301849.pdf",
+            "source_id": "0f43803c03294269aa8a8ca7ef39832c",
+            "locator": "Source provenance; filed PDF, physical pages 1–3",
+            "reason": "The supplied source at this URL is the filed order and its filing stamp."
+          },
+          {
+            "field": "policy_action_id",
+            "decision": "accept",
+            "value": "ky-executive-order-2026-494-2026",
+            "source_id": "0f43803c03294269aa8a8ca7ef39832c",
+            "locator": "Physical page 1, heading",
+            "reason": "This is an editorial identifier consistent with the order's jurisdiction, type, number and year, not a claimed official identifier."
+          }
+        ],
+        "whole_record_closure_supported": false,
+        "remaining_questions": [
+          "What activity-level coding rubric, if any, supports an editorial value?",
+          "Were there later amendments, rescissions, judicial developments or other actions affecting the order by the desired cutoff?",
+          "How does the order apply to any particular project or administrative proceeding?"
+        ],
+        "review_limitations": [
+          "The signed and filed order supports admission of a historical policy observation, not a conclusion about current force.",
+          "Review was limited to the supplied primary-source text and images; no independent search or current-force audit was available.",
+          "The supplied sources do not establish the asserted subsequent KEDFA guidance."
+        ]
+      }
+    }
+  },
+  "cost_usd": null,
+  "price_status": "Price unavailable locally; request and output-token ceilings enforced. Not claimed free.",
+  "application_status": "Not applied to canonical data by this receipt. Earlier holds and rejections remain preserved; revised decisions apply only to expressly revised fields."
+}

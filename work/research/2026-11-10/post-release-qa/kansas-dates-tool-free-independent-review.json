@@ -1,0 +1,332 @@
+{
+  "reviewed_at": "2026-11-10T18:34:05.274177+00:00",
+  "reviewer": "Independent tool-free gpt-6.1-terra API contexts; no subagents or external tools",
+  "model": "gpt-6.1-terra",
+  "input_manifest_sha256": "30b67c8aa3d29b9e8e88f10f0d8ea8a6c4b83ac691d7d5137acf107fd2c49099",
+  "input_manifest": {
+    "model": "gpt-6.1-terra",
+    "source_pins": [
+      {
+        "source_id": "d424d0cea4f84f1286562bf25f7a6319",
+        "url": "https://www.ksrevisor.gov/rpts/2026NewAmendsAndRepealsKSAOrder.pdf",
+        "captured_at": "2026-11-10T16:54:58.848209+00:00",
+        "body_sha256": "0cf22e854d82ef253a976621c7024ee428498b3ecc48989b7f2d66b997452b35",
+        "text_scope": "Selected original page-text or explicitly described HTML derivation; original body is retained."
+      },
+      {
+        "source_id": "cd3a45b8460c8383-503214f77343",
+        "url": "https://www.kslegislature.gov/b2025_26/documents/view-leg/?apn=b2025_26/year2/ready_for_publication/sb_51/sb51_enrolled.pdf",
+        "captured_at": "2026-11-07T21:54:25.387563+00:00",
+        "body_sha256": "503214f773439d697ef62f7ec2e3e5faa64c6faaf5920259d674aec87e26c73a",
+        "text_scope": "Selected original page-text or explicitly described HTML derivation; original body is retained."
+      },
+      {
+        "source_id": "cc52f1db1bac284c-9bedc81307cb",
+        "url": "https://www.kslegislature.gov/b2025_26/documents/view-leg/?apn=b2025_26/year2/ready_for_publication/sb_92/sb92_enrolled.pdf",
+        "captured_at": "2026-11-05T23:36:27.596045+00:00",
+        "body_sha256": "9bedc81307cb8d51dd2a1ed1c8aab34d00b66ffe86fd3dc29fa8ba51a2080879",
+        "text_scope": "Selected original page-text or explicitly described HTML derivation; original body is retained."
+      },
+      {
+        "source_id": "22b38e4e5c864964824aa00de6647730",
+        "url": "https://www.ksrevenue.gov/taxnotices/notice25-03.pdf",
+        "captured_at": "2026-11-10T16:51:58.258904+00:00",
+        "body_sha256": "f600fca8773ab84c7227774d812c8b14a09dfabe7154b4ba31bb6f75f57bd052",
+        "text_scope": "Selected original page-text or explicitly described HTML derivation; original body is retained."
+      },
+      {
+        "source_id": "97058267498041979efdeae0481463ee",
+        "url": "https://www.kslegislature.gov/b2025_26/laws/074_000_0000_chapter/074_050_0000_article/074_050_0333_section/074_050_0333_k/",
+        "captured_at": "2026-11-10T16:52:19.001962+00:00",
+        "body_sha256": "510365174c8ddadfcec1bbc5f52a4ef25094605546d40a44e245ffc233c6f4b8",
+        "text_scope": "Selected original page-text or explicitly described HTML derivation; original body is retained."
+      }
+    ],
+    "image_pins": [
+      {
+        "source_id": "d424d0cea4f84f1286562bf25f7a6319",
+        "physical_page": 27,
+        "sha256": "8640821e079823d1d2f98f6f76d024ce4a05d0f480d99e38fd41236036497a9b"
+      },
+      {
+        "source_id": "d424d0cea4f84f1286562bf25f7a6319",
+        "physical_page": 38,
+        "sha256": "8bd25bfa5ff1111cb069d8e58cfe88ea3f96ae016b0abbde236c1468ff4afb4e"
+      },
+      {
+        "source_id": "22b38e4e5c864964824aa00de6647730",
+        "physical_page": 2,
+        "sha256": "65f6eafd30f529ae11dcb714afc118fac6b352516b46b9f6a6f5a40a3a4dd3af"
+      }
+    ],
+    "tools": [],
+    "agents_spawned": 0,
+    "max_http_requests": 2,
+    "max_output_tokens_per_request": 6000,
+    "max_retries": 0,
+    "price_usd": null,
+    "procedure": "Shared primary-source blind extraction then three-record cell adjudication. No new source acquisition or canonical writes."
+  },
+  "captures": [
+    {
+      "attempt_id": "5566cf2dc1bb4b6788bd9349b84ce619",
+      "logical_invocation_id": "216e75b61d40495ab352407d3df551d7",
+      "request_descriptor_sha256": "00ad01eceb3f47a32600c7a052aa40182d9f3e4d2f4aa1397fc2bfa3ef3fbfca",
+      "wire_request_sha256": "9b5b875b2c302a5b185effc76c1ae011c462bdd7a64138709bbc422135e8e7b7",
+      "wire_response_sha256": "9b5940781a44781a09d673de774f5d54dfe46515295c6480a2352abb0da72667",
+      "decoded_content_encoding": "BrotliDecoder",
+      "wire_output_text_matches_sdk": true,
+      "status": 200,
+      "response_status": "completed",
+      "usage": {
+        "input_tokens": 21267,
+        "input_tokens_details": {
+          "cache_write_tokens": 21264,
+          "cached_tokens": 0
+        },
+        "output_tokens": 2798,
+        "output_tokens_details": {
+          "reasoning_tokens": 150
+        },
+        "total_tokens": 24065
+      }
+    },
+    {
+      "attempt_id": "7854098efcaa4a78830541d2a385202e",
+      "logical_invocation_id": "9892a59535634f1ba2c5a47a848a3c00",
+      "request_descriptor_sha256": "29b714d59c75f59ed6103cf734cef4acf8d21ce754b0a6bffcfeecf5db89ef10",
+      "wire_request_sha256": "d78b6a2c95a7e31995869f5bde7c9d52e4088faf8f48cae51543672b6d9ed221",
+      "wire_response_sha256": "a8cc43fd4b4670fb08511e6249f20d2cde5b4a657c75f43788df9eac33baf63f",
+      "decoded_content_encoding": "BrotliDecoder",
+      "wire_output_text_matches_sdk": true,
+      "status": 200,
+      "response_status": "completed",
+      "usage": {
+        "input_tokens": 25652,
+        "input_tokens_details": {
+          "cache_write_tokens": 25649,
+          "cached_tokens": 0
+        },
+        "output_tokens": 1607,
+        "output_tokens_details": {
+          "reasoning_tokens": 457
+        },
+        "total_tokens": 27259
+      }
+    }
+  ],
+  "phases": {
+    "blind_extraction": {
+      "answer_sha256": "f6634ec2863b5757b84d61bcb57c7e4a14ae02017aecef32bdf26f680c6aedff",
+      "answer": {
+        "facts": [
+          {
+            "instrument": "2026 Revisor composite listing",
+            "field": "Column key and bill-number convention",
+            "value": "Type identifies new, amended or repealed statutes; Bill identifies Senate or House bills, numbered from 1 and 2001 respectively; Sec is the bill section; SL Ch is the 2026 session-law chapter except in the specified delayed-section tables. O gives the reading order for multiple amendments. Thus entries 51 and 92 are Senate bills.",
+            "source_id": "d424d0cea4f84f1286562bf25f7a6319",
+            "locator": "Physical page 2, Key and Note",
+            "supporting_quote": "Bill - includes Senate Bills (commencing with SB Number 1) and House Bills (commencing with HB Number 2001)."
+          },
+          {
+            "instrument": "House Substitute for SB 51",
+            "field": "Publication trigger",
+            "value": "The act takes effect upon publication in the statute book; the enrolled text does not supply a dated approval.",
+            "source_id": "cd3a45b8460c8383-503214f77343",
+            "locator": "Operative legislative HTML rendering, section 9 and approval block",
+            "supporting_quote": "This act shall take effect and be in force from and after its publication in the statute book."
+          },
+          {
+            "instrument": "House Substitute for SB 51",
+            "field": "Official section dates and mapping: sections 1–2",
+            "value": "Both are listed as effective July 1, 2026, in 2026 session-law chapter 153: section 1 creates K.S.A. 75-7247; section 2 amends K.S.A. 46-1135.",
+            "source_id": "d424d0cea4f84f1286562bf25f7a6319",
+            "locator": "Physical page 52, printed page 50; physical page 27, printed page 25",
+            "supporting_quote": "75-7247 (Supp.) New 51 1 153 7/1/2026; 46-1135 Am 51 2 153 7/1/2026"
+          },
+          {
+            "instrument": "House Substitute for SB 51",
+            "field": "Official section dates and mapping: sections 3–4",
+            "value": "Both are listed as effective July 1, 2026, in 2026 session-law chapter 153: section 3 amends K.S.A. 75-4704; section 4 amends K.S.A. 75-4705.",
+            "source_id": "d424d0cea4f84f1286562bf25f7a6319",
+            "locator": "Physical page 49, printed page 47",
+            "supporting_quote": "75-4704 Am 51 3 153 7/1/2026; 75-4705 Am 51 4 153 7/1/2026"
+          },
+          {
+            "instrument": "House Substitute for SB 51",
+            "field": "Official section dates and mapping: sections 5–6",
+            "value": "Both are listed as effective July 1, 2026, in 2026 session-law chapter 153: section 5 amends K.S.A. 75-4709; section 6 amends K.S.A. 75-4714.",
+            "source_id": "d424d0cea4f84f1286562bf25f7a6319",
+            "locator": "Physical page 50, printed page 48",
+            "supporting_quote": "75-4709 Am 51 5 153 7/1/2026; 75-4714 Am 51 6 153 7/1/2026"
+          },
+          {
+            "instrument": "House Substitute for SB 51",
+            "field": "Official section date and mapping: section 7",
+            "value": "Section 7 amends K.S.A. 75-7205 and is listed as effective July 1, 2026, in 2026 session-law chapter 153, reading order 3. All seven substantive sections therefore carry the same listed date.",
+            "source_id": "d424d0cea4f84f1286562bf25f7a6319",
+            "locator": "Physical page 51, printed page 49",
+            "supporting_quote": "75-7205 (Supp.) Am 51 7 153 3 7/1/2026"
+          },
+          {
+            "instrument": "SB 92",
+            "field": "Official section date and mapping",
+            "value": "The Revisor lists one amended statutory section: section 1 amends K.S.A. 66-1,184, 2026 session-law chapter 113, effective July 1, 2026.",
+            "source_id": "d424d0cea4f84f1286562bf25f7a6319",
+            "locator": "Physical page 38, printed page 36",
+            "supporting_quote": "66-1,184 (Supp.) Am 92 1 113 7/1/2026"
+          },
+          {
+            "instrument": "SB 92",
+            "field": "Act structure and publication trigger",
+            "value": "The enrolled bill has one substantive amended statutory section, followed by repeal of the existing section and an act-wide publication trigger.",
+            "source_id": "cc52f1db1bac284c-9bedc81307cb",
+            "locator": "Operative legislative HTML rendering, sections 1–3",
+            "supporting_quote": "Sec. 2. K.S.A. 2025 Supp. 66-1,184 is hereby repealed. Sec. 3. This act shall take effect and be in force from and after its publication in the statute book."
+          },
+          {
+            "instrument": "SB 92",
+            "field": "Subsection sunset",
+            "value": "July 1, 2027 is the expiration date for K.S.A. 66-1,184 subsection (i), concerning specified large-load customers and historic peak demand—not the expiration of the entire act.",
+            "source_id": "cc52f1db1bac284c-9bedc81307cb",
+            "locator": "Operative legislative HTML rendering, section 1, subsection (i)(1)–(3)",
+            "supporting_quote": "The provisions of this subsection shall expire on July 1, 2027."
+          },
+          {
+            "instrument": "SB 92",
+            "field": "Separate paragraph sunset",
+            "value": "July 1, 2030 is the expiration date for subsection (d)(4), concerning specified methods of determining compensation for exported energy.",
+            "source_id": "cc52f1db1bac284c-9bedc81307cb",
+            "locator": "Operative legislative HTML rendering, section 1, subsection (d)(4)",
+            "supporting_quote": "The provisions of this paragraph shall expire on July 1, 2030."
+          },
+          {
+            "instrument": "SB 92",
+            "field": "Capacity thresholds and customer-service anchor",
+            "value": "Subsection (h) specifies aggregate export-capacity thresholds of 6% from July 1, 2025, 7% from July 1, 2026, and 8% from July 1, 2027 and each year thereafter. Subsection (i) uses July 1, 2025 as the relevant service-commencement threshold for specified facilities.",
+            "source_id": "cc52f1db1bac284c-9bedc81307cb",
+            "locator": "Operative legislative HTML rendering, section 1, subsections (h)(1) and (i)(1)–(2)",
+            "supporting_quote": "Commencing on July 1, 2025, 6% ... commencing on July 1, 2026, 7% ... commencing on July 1, 2027, and each year thereafter, 8%"
+          },
+          {
+            "instrument": "SB 98",
+            "field": "Approval and publication trigger",
+            "value": "The Department of Revenue says SB 98 passed and was signed during the 2025 session, and that its provisions take effect upon publication in the statute book. The notice does not give the signature date.",
+            "source_id": "22b38e4e5c864964824aa00de6647730",
+            "locator": "Notice 25-03, physical pages 1–2, printed page 2",
+            "supporting_quote": "During the 2025 Legislative Session Senate Bill 98 was passed and signed into law. ... The provisions of Senate Bill 98 take effect and are in force from and after publication in the statute book."
+          },
+          {
+            "instrument": "SB 98",
+            "field": "Program eligibility start and statutory mapping",
+            "value": "K.S.A. 74-50,333(a) states that on and after July 1, 2025 a qualified firm meeting the referenced requirements may be eligible. Its history identifies 2025 session-law chapter 124, section 3, with a July 1 date.",
+            "source_id": "97058267498041979efdeae0481463ee",
+            "locator": "K.S.A. 74-50,333(a), (c) and History",
+            "supporting_quote": "On and after July 1, 2025, a qualified firm that meets the requirements ... may be eligible for a sales tax exemption ... History: L. 2025, ch. 124, § 3; July 1."
+          },
+          {
+            "instrument": "SB 98",
+            "field": "Qualified-purchase date and additional statutory mapping",
+            "value": "The Revenue notice says the K.S.A. 79-3606 exemption applies to qualified purchases made on or after July 1, 2025. It identifies SB 98 section 5 as amending K.S.A. 66-101j and section 6 as amending K.S.A. 79-3606.",
+            "source_id": "22b38e4e5c864964824aa00de6647730",
+            "locator": "Notice 25-03, physical page 2, printed page 2",
+            "supporting_quote": "The new sales tax exemption found in K.S.A. 79-3606 applies to qualified purchases made on or after July 1, 2025."
+          },
+          {
+            "instrument": "SB 98",
+            "field": "Individual firm approval and duration",
+            "value": "The program date does not itself establish approval for an individual firm: the secretary of revenue may not approve an exemption without certification by the secretary of commerce. The statute states a 20-year period after commencement of operations.",
+            "source_id": "97058267498041979efdeae0481463ee",
+            "locator": "K.S.A. 74-50,333(b)–(c)",
+            "supporting_quote": "No sales tax exemption shall be approved by the secretary of revenue unless the qualified firm has been certified by the secretary of commerce"
+          }
+        ],
+        "uncertainties": [
+          "The supplied enrolled renderings for SB 51 and SB 92 have blank approval blocks, so their gubernatorial approval dates are not established here. The SB 98 notice confirms signing but gives no date.",
+          "The SB 92 rendering removes semantic strike tags. It establishes one substantive amended statutory section and the displayed July 1, 2027 sunset, but does not by itself reliably establish the prior sunset date or the full set of textual changes.",
+          "No supplied source identifies an individual firm's certification or approval date. The sources do not establish current force or entitlement to benefits.",
+          "The supplied SB 98 sources expressly map section 3 to chapter 124 and K.S.A. 74-50,333, but do not provide a complete Revisor mapping for every SB 98 section."
+        ]
+      }
+    },
+    "cell_adjudication": {
+      "answer_sha256": "cff1fea4085de815f2fdb85dc5cdafff8ea60e781ab0647f92377a0e98c56309",
+      "answer": {
+        "records": [
+          {
+            "record_id": "ks-sb-51-2025-2026",
+            "input_row_sha256": "ccca2013054e966c3782b06a689f2d524531b72cdf893ea2121d1aa72f38ab40",
+            "field_decisions": [
+              {
+                "field": "effective_date_iso",
+                "decision": "accept",
+                "value": "2026-07-01",
+                "source_id": "d424d0cea4f84f1286562bf25f7a6319; cd3a45b8460c8383-503214f77343",
+                "locator": "Composite listing, physical pp. 2, 27, 49–52; enrolled act § 9",
+                "reason": "The Revisor maps all seven substantive sections of SB 51, chapter 153, to July 1, 2026. The act has a single statute-book publication trigger. Together these support the normalized instrument date, independently of the claimed approval date."
+              }
+            ],
+            "whole_record_closure_supported": false,
+            "remaining_questions": [
+              "Later-law effects and current force remain outside this review."
+            ],
+            "review_limitations": [
+              "The enrolled rendering does not establish a dated gubernatorial approval.",
+              "Unchanged row claims were not independently adjudicated."
+            ]
+          },
+          {
+            "record_id": "ks-sb-92-2025-2026",
+            "input_row_sha256": "59bd5fe755180706ea2e48a4dffbe865fbb0ca1b1ce1a7e87a658900159b3a99",
+            "field_decisions": [
+              {
+                "field": "effective_date_iso",
+                "decision": "accept",
+                "value": "2026-07-01",
+                "source_id": "d424d0cea4f84f1286562bf25f7a6319; cc52f1db1bac284c-9bedc81307cb",
+                "locator": "Composite listing, physical pp. 2 and 38; enrolled act §§ 1–3, especially § 1(d)(4), (i)(3), and § 3",
+                "reason": "The Revisor maps the act’s sole substantive section, chapter 113 § 1, to July 1, 2026; the act has a single statute-book publication trigger. July 1, 2027 is the subsection (i) sunset, not an act-wide expiration; subsection (d)(4) has a separate July 1, 2030 sunset."
+              }
+            ],
+            "whole_record_closure_supported": false,
+            "remaining_questions": [
+              "Later-law effects and current force remain outside this review."
+            ],
+            "review_limitations": [
+              "The enrolled rendering does not establish a dated gubernatorial approval.",
+              "Removed strike tags prevent verification of the prior sunset date from that rendering alone; unchanged row claims were not independently adjudicated."
+            ]
+          },
+          {
+            "record_id": "ks-sb-98-2025",
+            "input_row_sha256": "411fc559ba5eeee8ff454a8a3faf48c449bc9247a0bc99954f64394564448b86",
+            "field_decisions": [
+              {
+                "field": "key_provisions",
+                "decision": "accept",
+                "value": "Enrolled act created a qualified data center sales tax exemption for construction, equipment, eligible costs and certain labor, subject to a $250 million investment commitment, jobs and other conditions; eligible costs exclude electricity. It also limits a specified economic-development electric-rate discount and requires fusion-center review and approval before public financial assistance or benefits. K.S.A. 74-50,333(a) and Revenue Notice 25-03 apply the exemption to qualified purchases made on or after July 1, 2025; approval still requires Commerce certification.",
+                "source_id": "97058267498041979efdeae0481463ee; 22b38e4e5c864964824aa00de6647730",
+                "locator": "K.S.A. 74-50,333(a)–(c), History; Revenue Notice 25-03, pp. 1–2",
+                "reason": "Section 74-50,333(a) sets eligibility on and after July 1, 2025; the Revenue notice states that the exemption applies to qualified purchases on or after that date. Section 74-50,333(c) requires Commerce certification before Revenue approval. This is a provision-specific statement, not a normalized whole-act date or evidence that any individual firm received benefits."
+              }
+            ],
+            "whole_record_closure_supported": false,
+            "remaining_questions": [
+              "Later-law effects, current force and any individual firm’s certification or approval remain outside this review."
+            ],
+            "review_limitations": [
+              "The supplied sources do not completely map every SB 98 section to an effective date.",
+              "Unchanged row claims were not independently adjudicated."
+            ]
+          }
+        ],
+        "batch_limitations": [
+          "This review addresses only the three proposed cells; it does not determine current legal effect or waive unresolved later-law questions."
+        ]
+      }
+    }
+  },
+  "cost_usd": null,
+  "price_status": "Price unavailable locally; request and output-token ceilings enforced. Not claimed free.",
+  "application_status": "Not applied to canonical data by this receipt. Earlier holds and rejections remain preserved; revised decisions apply only to expressly revised fields."
+}

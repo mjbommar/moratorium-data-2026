@@ -1,0 +1,72 @@
+{
+  "reviewed_at": "2026-11-10T18:34:05.276216+00:00",
+  "reviewer": "Independent tool-free gpt-6.1-terra API contexts; no subagents or external tools",
+  "model": "gpt-6.1-terra",
+  "input_manifest_sha256": "7041e599125e3fbb717005d3d887c5a285c833d8a5a3671ff29da43f3790b445",
+  "input_manifest": {
+    "model": "gpt-6.1-terra",
+    "source_id": "272654532e294b32b4b00f211107b6f2",
+    "prior_review_sha256": "4bcbbe12c14d071543ece2206e3965c5c5fd1160522c2f8c99fb4825049c1864",
+    "max_http_requests": 1,
+    "original_batch_calls": 2,
+    "max_output_tokens_per_request": 6000,
+    "tools": [],
+    "agents_spawned": 0,
+    "correction_scope": "Restore exact unchanged old sentence; append full codified exception without claiming new version-comparison evidence."
+  },
+  "captures": [
+    {
+      "attempt_id": "0ddfe9bddc4b465db1e3beaef8e627a1",
+      "logical_invocation_id": "f459fa00a2094c769abe68cad1e2f4d1",
+      "request_descriptor_sha256": "f4854b6bbf9c22c917a07f3acff7e6b4c21d13227361ac88afd103dabbf0d7ed",
+      "wire_request_sha256": "728ffd7550f9f088160089f7a00bfab9b6971842b7fc24af227032e3da9e3d6b",
+      "wire_response_sha256": "f776c2779af17563a999183426f0fa00156c851c716d6e4a98aa391e4a6d94fc",
+      "decoded_content_encoding": "BrotliDecoder",
+      "wire_output_text_matches_sdk": true,
+      "status": 200,
+      "response_status": "completed",
+      "usage": {
+        "input_tokens": 4817,
+        "input_tokens_details": {
+          "cache_write_tokens": 4814,
+          "cached_tokens": 0
+        },
+        "output_tokens": 450,
+        "output_tokens_details": {
+          "reasoning_tokens": 70
+        },
+        "total_tokens": 5267
+      }
+    }
+  ],
+  "phases": {
+    "revised_cell": {
+      "answer_sha256": "e4b91e1fee7b29e75a89380a22f153846f327e4e40b27d0832939220fc5d0d3b",
+      "answer": {
+        "record_id": "wa-sb-5982-2025-26",
+        "input_row_sha256": "41efc9ae893f94e80dc5041d755e7727abf3ebbd8c71d5e6bd1a04394f5b2535",
+        "field_decisions": [
+          {
+            "field": "key_provisions",
+            "decision": "accept",
+            "value": "Expands Clean Energy Transformation Act coverage to certain port districts, single-customer consumer-owned utilities, and affected market customers; committee reports describe the bill as closing data center clean-power compliance gaps. The codified consumer-owned utility definition excludes a public utility district formed under Title 54 RCW with only one retail electric customer in Washington, provided that customer remains the same as of January 1, 2026 and the district continues receiving 100 percent of its electricity needs from Bonneville Power Administration.",
+            "source_id": "272654532e294b32b4b00f211107b6f2",
+            "locator": "RCW 19.405.020 introductory clause and (10)(b)",
+            "reason": "The added sentence accurately includes the Title 54, one in-state retail customer, January 1, 2026 customer-identity, and continued 100 percent Bonneville electricity-needs conditions. It does not attribute introduction of the exception to this act. The first sentence is unchanged carry-forward outside this review."
+          }
+        ],
+        "whole_record_closure_supported": false,
+        "remaining_questions": [
+          "Which specific changes to utility and affected-market-customer coverage did the 2026 act make?"
+        ],
+        "review_limitations": [
+          "The prior held review remains part of the review history; this decision addresses the revised cell, not that historical decision.",
+          "The original summary sentence and other row fields were not re-certified. This is not a broader current-force or implementation certification."
+        ]
+      }
+    }
+  },
+  "cost_usd": null,
+  "price_status": "Price unavailable locally; request and output-token ceilings enforced. Not claimed free.",
+  "application_status": "Not applied to canonical data by this receipt. Earlier holds and rejections remain preserved; revised decisions apply only to expressly revised fields."
+}

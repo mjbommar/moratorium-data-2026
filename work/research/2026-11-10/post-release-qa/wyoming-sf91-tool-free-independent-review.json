@@ -1,0 +1,160 @@
+{
+  "reviewed_at": "2026-11-10T18:34:05.262246+00:00",
+  "reviewer": "Independent tool-free gpt-6.1-terra API contexts; no subagents or external tools",
+  "model": "gpt-6.1-terra",
+  "input_manifest_sha256": "15671cc5d3651b358f887e704cda8e6b4e87ed5de3323c8c3a7861b0a70fd0e4",
+  "input_manifest": {
+    "model": "gpt-6.1-terra",
+    "record_id": "wy-sf0091-2026",
+    "row_sha256": "55a9943f7adcbca59e6c8402e8c88387f037fb5a3521c55d1bdda73205bbf96a",
+    "source_body_sha256": {
+      "c5e053cf23a64e68a99384a4b0754579": "38d712a7163584c92ad74c8e287beca5cb04c8d9d43a723fed6ac39a34bb3fea",
+      "e595900b7a7a4d9c9b65537da0a1a25f": "4b6c96f8a66fa58d63d63e300cab6b390496b3bd0a5dbed1d7d43cbdaca0dc89",
+      "3cd0647e82654d738edf0a65a4e53de7": "af5270f0bb6515196db678367cc65b0447bef532652330045f43769f77a8bffc",
+      "b71aa9fd129544baad47a9ef445a42d0": "2c0cae409e3a568a6c026fde25eb66121d10f0c0eb446e487dd0922e1301de30"
+    },
+    "images": [
+      {
+        "source_id": "c5e053cf23a64e68a99384a4b0754579",
+        "physical_page": 2,
+        "sha256": "8f1d6870dfe687aa9fda680a5753dc83bbbb3bfad5e4a2b91635a0b79f53d296"
+      },
+      {
+        "source_id": "e595900b7a7a4d9c9b65537da0a1a25f",
+        "physical_page": 1,
+        "sha256": "dd4db008e2c9b9b81342fa8b3d627379ef320f6267d5e68c3148b786acb71e02"
+      }
+    ],
+    "tools": [],
+    "agents_spawned": 0,
+    "max_http_requests": 2,
+    "max_output_tokens_per_request": 6000,
+    "max_retries": 0,
+    "price_usd": null
+  },
+  "captures": [
+    {
+      "attempt_id": "355ecd7fe59e45298eeddc933f9a7fd6",
+      "logical_invocation_id": "18ac9844720d48d080634f5639343d0e",
+      "request_descriptor_sha256": "ee8251a7bfe8c3f7f87b53256a50b03fe059d55c3ef22d6f6d92345588f6e0a1",
+      "wire_request_sha256": "60d00c9f5c586ed2f4459f5ee797601d85b1946a272ed630c8f5c9c30220ead9",
+      "wire_response_sha256": "cde1bc8d64cced7b9f6e00abc581b2d8d5f726479b7988ea7fe12a4bb0eb084f",
+      "decoded_content_encoding": "BrotliDecoder",
+      "wire_output_text_matches_sdk": true,
+      "status": 200,
+      "response_status": "completed",
+      "usage": {
+        "input_tokens": 6109,
+        "input_tokens_details": {
+          "cache_write_tokens": 6106,
+          "cached_tokens": 0
+        },
+        "output_tokens": 809,
+        "output_tokens_details": {
+          "reasoning_tokens": 130
+        },
+        "total_tokens": 6918
+      }
+    },
+    {
+      "attempt_id": "d8e82d4a3f6d4494a2463c632ca59325",
+      "logical_invocation_id": "84a1955c55e4427b8950020697aef142",
+      "request_descriptor_sha256": "c56dd73f8bf78a83cebde488c8d72edf689947437b364edadb36f37592236361",
+      "wire_request_sha256": "d6bf2a44d6525ffa89d9a592adb5d0ae49061c7f10dc2eb7a558cc0013f0b59c",
+      "wire_response_sha256": "01f558ee21f162d57fa9c57f09e9987eb9bd5b1b9cb7f810d29b4901aabf1d67",
+      "decoded_content_encoding": "BrotliDecoder",
+      "wire_output_text_matches_sdk": true,
+      "status": 200,
+      "response_status": "completed",
+      "usage": {
+        "input_tokens": 7451,
+        "input_tokens_details": {
+          "cache_write_tokens": 7448,
+          "cached_tokens": 0
+        },
+        "output_tokens": 1394,
+        "output_tokens_details": {
+          "reasoning_tokens": 836
+        },
+        "total_tokens": 8845
+      }
+    }
+  ],
+  "phases": {
+    "blind_extraction": {
+      "answer_sha256": "ca3319044c969115e34ca89021d555ca9230ec654e42ecc035cfcc6ef21fb7fe",
+      "answer": {
+        "facts": [
+          {
+            "field": "2024 election roster",
+            "value": "Laura Taliaferro Pearson; Republican; Wyoming state senator, District 14; 2024 general election winner.",
+            "source_id": "c5e053cf23a64e68a99384a4b0754579",
+            "locator": "PDF physical page 2, STATE SENATOR 14",
+            "supporting_quote": "2024 General Election Winners Roster (Includes Judges); STATE SENATOR 14; Republican; Laura Taliaferro Pearson"
+          },
+          {
+            "field": "Senate election listing",
+            "value": "Laura Taliaferro Pearson (R); Wyoming State Senate, District 14; elected 2024.",
+            "source_id": "e595900b7a7a4d9c9b65537da0a1a25f",
+            "locator": "PDF physical page 1, Wyoming State Senate table",
+            "supporting_quote": "Laura Taliaferro Pearson (R)          Senate District 14        La Barge           2024"
+          },
+          {
+            "field": "Legislator profile",
+            "value": "Senator Laura Taliaferro; Republican; Senate District 14; Senate service 2025–present.",
+            "source_id": "3cd0647e82654d738edf0a65a4e53de7",
+            "locator": "Legislator Profile, heading and Years of Service",
+            "supporting_quote": "Republican\n\nSenate District 14: Senator Laura Taliaferro\n\nYears of Service:\n\nSenate: District 14, 2025-Present"
+          },
+          {
+            "field": "Senate election listing",
+            "value": "Cheri E. Steinmetz (R); Wyoming State Senate, District 3; elected 2018 and 2022.",
+            "source_id": "e595900b7a7a4d9c9b65537da0a1a25f",
+            "locator": "PDF physical page 1, Wyoming State Senate table",
+            "supporting_quote": "Cheri E. Steinmetz (R)                Senate District 3         Lingle             2018, 2022"
+          },
+          {
+            "field": "Bill API sponsor spelling",
+            "value": "Senator Steinmetz",
+            "source_id": "b71aa9fd129544baad47a9ef445a42d0",
+            "locator": "JSON sponsor field",
+            "supporting_quote": "\"bill_reference_id\": 13287,\n  \"sponsor\": \"Senator Steinmetz\""
+          }
+        ],
+        "uncertainties": [
+          "The sources list Laura Taliaferro Pearson and Laura Taliaferro for the same party and Senate district, but do not explicitly state a full-name bridge between the two forms.",
+          "The bill API gives only the sponsor spelling “Senator Steinmetz”; it does not explicitly identify that sponsor by full name or supply a personID."
+        ]
+      }
+    },
+    "cell_adjudication": {
+      "answer_sha256": "41fe66956a59a7d313d56ff73b365ad3876a790c1bf9bbfd3b77a1ed907541cb",
+      "answer": {
+        "record_id": "wy-sf0091-2026",
+        "input_row_sha256": "55a9943f7adcbca59e6c8402e8c88387f037fb5a3521c55d1bdda73205bbf96a",
+        "field_decisions": [
+          {
+            "field": "party",
+            "decision": "hold",
+            "value": "R confirmed for Steinmetz, French, Allemand, Bear, Kevin Campbell, Heiner, Neiman and Webber in the official 2026 rosters. For the carried-forward Senator Pearson, the 2024 winners roster identifies Laura Taliaferro Pearson as Republican, Senate District 14; the legislator profile lists Senator Laura Taliaferro as Republican for that district, with service from 2025–present. Matching address and phone support the identity link.",
+            "source_id": "c5e053cf23a64e68a99384a4b0754579; e595900b7a7a4d9c9b65537da0a1a25f; 3cd0647e82654d738edf0a65a4e53de7",
+            "locator": "2024 winners roster, physical page 2, STATE SENATOR 14; Wyoming State Senate table, physical page 1; legislator profile, heading, Years of Service and contact details",
+            "reason": "The 2024 official sources support Pearson's name, Republican affiliation, Senate district and election date. The profile supports the same party and district from 2025–present; its matching address and phone support linking the two name forms. This supports removing the identity-and-party VERIFY qualifier. However, the supplied profile has no explicit 2026 publication or capture date, and the inputs do not establish that both full-name publications are Secretary of State publications. The value is corrected wording, not acceptance of the exact proposal."
+          }
+        ],
+        "whole_record_closure_supported": false,
+        "remaining_questions": [
+          "Can the profile be dated to 2026, and can the issuing authority of each publication be established if those claims are retained?",
+          "The supplied bill API excerpt names only Senator Steinmetz; it does not independently verify the carried-forward Pearson sponsor entry."
+        ],
+        "review_limitations": [
+          "Review was limited to the supplied official-source excerpts and images; no tools were available.",
+          "The eight-sponsor prefix is unchanged carry-forward, not newly verified here. Analytical scope and failed-introduction safeguards remain outside this review."
+        ]
+      }
+    }
+  },
+  "cost_usd": null,
+  "price_status": "Price unavailable locally; request and output-token ceilings enforced. Not claimed free.",
+  "application_status": "Not applied to canonical data by this receipt. Earlier holds and rejections remain preserved; revised decisions apply only to expressly revised fields."
+}
