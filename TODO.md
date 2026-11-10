@@ -27,6 +27,8 @@ The earlier completion claim was wrong. `v2026.11.8` is now explicitly an **inco
 - [x] Apply fourteen Hawaii fields across six rows and close six scoped historical reviews;1,359 remain unresolved. HCR206 meeting years corrected, exact convening/attendance retained as a hold.
 - [x] Add a release-builder gate for citation version/date and current README/FAQ/methodology labels; six tests include the actual post1 citation regression. Prepared post2 labels agree. Prior immutable citation limitation remains qualified in post1 prose.
 - [x] Deliver the Hawaii fourteen-field/six-row batch and six scoped review closures in qualified v2026.11.10.post2 and verified V17; deterministic builds, clean restore, ten anonymous assets,2270 archive members, nineteen hosted surfaces and exact consumer inputs pass. Citation/version/date and current-release labels agree in the actual archive.
+- [x] Apply one superseding Canterbury result from signed official minutes: reported approval and complete reporting, same322/63 tally;65 retained versions,53 current observations,5 certified. All prior records preserved; no legal-force or certification inference.
+- [ ] Synchronize the Canterbury minute-result revision and archive continuity to a later qualified release and consumer snapshot after post2/V17.
 - [ ] Continue source-specific QA and clear outstanding questions with reviewed, guarded corrections; preserve frozen release history.
 
 - [x] Apply 88 independently reviewed material corrections across 43 records from the first 105 additional-record reviews ([application](work/research/2026-11-08/full-inventory-first105-application/README.md)); remaining full-record review stays open.

@@ -1,0 +1,432 @@
+{
+  "measure_results": [
+    {
+      "ballots_cast": null,
+      "calculated_outcome": "unknown",
+      "certification_date": null,
+      "certification_status": "unknown",
+      "measure_id": "5c04c593-949a-430b-88c0-c8e93b4618fd",
+      "no_votes": 63,
+      "observed_at": "2026-11-10T07:18:15.230356Z",
+      "other_votes": null,
+      "outcome_direction": "unresolved",
+      "overvotes": null,
+      "passage_threshold": null,
+      "percentage_denominator": "unknown",
+      "precincts_reporting": null,
+      "precincts_total": null,
+      "published_at": null,
+      "registered_voters": null,
+      "reported_outcome": "approved",
+      "reporting_status": "complete",
+      "result_observation_id": "479b58a0-af12-498f-8ef2-b3d998dd68aa",
+      "schema_version": "1.0.0",
+      "source_document_id": "5e8b5413-47c0-4e93-b787-f959a0fc12fe",
+      "source_yes_percent": null,
+      "supersedes_id": "2dd57d11-090d-49e7-8509-2f5ac720af97",
+      "threshold_comparison": "unknown",
+      "undervotes": null,
+      "valid_votes": null,
+      "value_methods": {
+        "no_votes": {
+          "claim_ids": [
+            "c41f01bd-cffa-4827-9c3c-9dd59762bbe0"
+          ],
+          "method": "visual",
+          "note": "Physicalpage1 verified against OCR; same63 as original return."
+        },
+        "reported_outcome": {
+          "claim_ids": [
+            "91b978e4-4c49-42d6-9906-ec5091888bd0"
+          ],
+          "method": "source_reported",
+          "note": "Town minutes explicitly state Article4 passed. Calculated outcome, certification, bindingness and force remain unresolved."
+        },
+        "reporting_status": {
+          "claim_ids": [
+            "8286c6d4-7b87-48b3-a55f-ea266ef94552"
+          ],
+          "method": "source_reported",
+          "note": "Town Clerk report finalized at11pm; not result certification."
+        },
+        "yes_no_votes": {
+          "claim_ids": [
+            "c41f01bd-cffa-4827-9c3c-9dd59762bbe0"
+          ],
+          "method": "derived",
+          "note": "322+63=385; not ballots cast or a legal passage denominator."
+        },
+        "yes_votes": {
+          "claim_ids": [
+            "c41f01bd-cffa-4827-9c3c-9dd59762bbe0"
+          ],
+          "method": "visual",
+          "note": "Physicalpage1 verified against OCR; same322 as original return."
+        }
+      },
+      "yes_no_votes": 385,
+      "yes_votes": 322
+    }
+  ],
+  "source_documents": [
+    {
+      "access_classification": "Public official town minutes; raw PDF, page renders and OCR remain private",
+      "body_sha256": "bc9a37158e71db0d765feb73d91e4a5483060bec215dfee20a79430357ecc88d",
+      "extraction_version": "Separately registered local Tesseract150DPI pages1–9; original empty extraction retained; substantive pages1/9 visually reviewed",
+      "publication_classification": "Reviewed metadata and short factual vote-report excerpts",
+      "published_date": null,
+      "retrieval_method": "Bounded research-client capture of town-hosted minutes PDF; original return and warrant reused, not reacquired",
+      "retrieved_at": "2026-11-10T07:18:15.230356Z",
+      "schema_version": "1.0.0",
+      "source_document_id": "5e8b5413-47c0-4e93-b787-f959a0fc12fe",
+      "text_sha256": "22d684da873f3ba6226177f15e74b14d6c577117b2f2ab774e16bf260b0447eb",
+      "url": "https://www.canterburynh.gov/wp-content/uploads/2026/06/2026-Town-Meeting-Minutes.pdf"
+    }
+  ],
+  "claims": [
+    {
+      "claim_id": "8286c6d4-7b87-48b3-a55f-ea266ef94552",
+      "extraction_provenance": "The minute report states finalization after polls closed and results were announced. Complete describes this reported tally, not certification. Page9 is signed by the Town Clerk March23; that is a minutes-submission date, not an accepted result-certification date.",
+      "predicate": "reporting_status",
+      "quote": "Reports were finalized at 11 p.m. by the Town Clerk.",
+      "schema_version": "1.0.0",
+      "source_document_id": "5e8b5413-47c0-4e93-b787-f959a0fc12fe",
+      "span": "Physical page1 of town minutes; visual150DPI comparison to registered OCR",
+      "subject": {
+        "id": "479b58a0-af12-498f-8ef2-b3d998dd68aa",
+        "table": "measure_results"
+      },
+      "temporal_support": {
+        "earliest": "2026-03-10",
+        "latest": "2026-03-10",
+        "original_text": "First Session — Tuesday March10,2026",
+        "precision": "day"
+      },
+      "value": "complete"
+    },
+    {
+      "claim_id": "91b978e4-4c49-42d6-9906-ec5091888bd0",
+      "extraction_provenance": "Source explicitly reports passage; approved normalizes passed. No calculated passage rule, result certification, operative adoption/effectiveness or current force is inferred.",
+      "predicate": "reported_outcome",
+      "quote": "Article 4 passed, 322 Yes to 63 No.",
+      "schema_version": "1.0.0",
+      "source_document_id": "5e8b5413-47c0-4e93-b787-f959a0fc12fe",
+      "span": "Physical page1 of town minutes; visual150DPI comparison to registered OCR",
+      "subject": {
+        "id": "479b58a0-af12-498f-8ef2-b3d998dd68aa",
+        "table": "measure_results"
+      },
+      "temporal_support": {
+        "earliest": "2026-03-10",
+        "latest": "2026-03-10",
+        "original_text": "First Session — Tuesday March10,2026",
+        "precision": "day"
+      },
+      "value": "approved"
+    },
+    {
+      "claim_id": "c41f01bd-cffa-4827-9c3c-9dd59762bbe0",
+      "extraction_provenance": "Counts match the retained original town return.385 is derived yes plus no only. The separate392 election-wide voters,1946 checklist and6 new registrants are not Article4 denominators or registered-voter counts.",
+      "predicate": "vote_counts",
+      "quote": "Article 4 passed, 322 Yes to 63 No.",
+      "schema_version": "1.0.0",
+      "source_document_id": "5e8b5413-47c0-4e93-b787-f959a0fc12fe",
+      "span": "Physical page1 of town minutes; visual150DPI comparison to registered OCR",
+      "subject": {
+        "id": "479b58a0-af12-498f-8ef2-b3d998dd68aa",
+        "table": "measure_results"
+      },
+      "temporal_support": {
+        "earliest": "2026-03-10",
+        "latest": "2026-03-10",
+        "original_text": "First Session — Tuesday March10,2026",
+        "precision": "day"
+      },
+      "value": {
+        "no": 63,
+        "yes": 322
+      }
+    },
+    {
+      "claim_id": "ca39e6b8-0bb5-426f-8173-11864601f093",
+      "extraction_provenance": "The town-hosted first-session minutes identify Canterbury in the polling paragraph and Article4 in the result row. Match to the existing Canterbury March10 Article4 identity is explicit composite-source review; no new measure or election identity.",
+      "predicate": "result_identity",
+      "quote": "First Session — Tuesday March 10, 2026",
+      "schema_version": "1.0.0",
+      "source_document_id": "5e8b5413-47c0-4e93-b787-f959a0fc12fe",
+      "span": "Physical page1 of town minutes; visual150DPI comparison to registered OCR",
+      "subject": {
+        "id": "479b58a0-af12-498f-8ef2-b3d998dd68aa",
+        "table": "measure_results"
+      },
+      "temporal_support": {
+        "earliest": "2026-03-10",
+        "latest": "2026-03-10",
+        "original_text": "First Session — Tuesday March10,2026",
+        "precision": "day"
+      },
+      "value": {
+        "designation": "Article 4",
+        "election_date": "2026-03-10",
+        "measure_id": "5c04c593-949a-430b-88c0-c8e93b4618fd"
+      }
+    }
+  ],
+  "review_decisions": [
+    {
+      "claim_ids": [
+        "c41f01bd-cffa-4827-9c3c-9dd59762bbe0"
+      ],
+      "decided_at": "2026-11-10T07:29:35.831899+00:00",
+      "decision_id": "0ce281b4-7f7c-4df8-8d95-ba89948091c5",
+      "disposition": "accepted",
+      "method": "root direct OCR and physical-page visual source review; no new independent reviewer",
+      "rationale": "Scoped result version from official first-session minutes with matching identity/tally and explicit reported passage/finalization. Prior observation is preserved; unknown certification/date/threshold/denominator/calculated outcome/force remain unknown.",
+      "reviewer": "coordinator",
+      "schema_version": "1.0.0",
+      "scope": "no_votes",
+      "supersedes_id": null,
+      "target": {
+        "id": "479b58a0-af12-498f-8ef2-b3d998dd68aa",
+        "table": "measure_results"
+      }
+    },
+    {
+      "claim_ids": [
+        "c41f01bd-cffa-4827-9c3c-9dd59762bbe0"
+      ],
+      "decided_at": "2026-11-10T07:29:35.831899+00:00",
+      "decision_id": "1b285446-fd62-4bb8-9529-2ef5184e200e",
+      "disposition": "accepted",
+      "method": "root direct OCR and physical-page visual source review; no new independent reviewer",
+      "rationale": "Scoped result version from official first-session minutes with matching identity/tally and explicit reported passage/finalization. Prior observation is preserved; unknown certification/date/threshold/denominator/calculated outcome/force remain unknown.",
+      "reviewer": "coordinator",
+      "schema_version": "1.0.0",
+      "scope": "yes_no_votes",
+      "supersedes_id": null,
+      "target": {
+        "id": "479b58a0-af12-498f-8ef2-b3d998dd68aa",
+        "table": "measure_results"
+      }
+    },
+    {
+      "claim_ids": [
+        "ca39e6b8-0bb5-426f-8173-11864601f093"
+      ],
+      "decided_at": "2026-11-10T07:29:35.831899+00:00",
+      "decision_id": "21efb318-17f8-4b68-87da-88a2a2821317",
+      "disposition": "accepted",
+      "method": "root direct OCR and physical-page visual source review; no new independent reviewer",
+      "rationale": "The town-hosted first-session minutes identify Canterbury in the polling paragraph and Article4 in the result row. Match to the existing Canterbury March10 Article4 identity is explicit composite-source review; no new measure or election identity.",
+      "reviewer": "coordinator",
+      "schema_version": "1.0.0",
+      "scope": "result_identity",
+      "supersedes_id": null,
+      "target": {
+        "id": "ca39e6b8-0bb5-426f-8173-11864601f093",
+        "table": "claims"
+      }
+    },
+    {
+      "claim_ids": [
+        "c41f01bd-cffa-4827-9c3c-9dd59762bbe0"
+      ],
+      "decided_at": "2026-11-10T07:29:35.831899+00:00",
+      "decision_id": "255cfbcb-8f39-418b-820a-df10d40230f5",
+      "disposition": "accepted",
+      "method": "root direct OCR and physical-page visual source review; no new independent reviewer",
+      "rationale": "Scoped result version from official first-session minutes with matching identity/tally and explicit reported passage/finalization. Prior observation is preserved; unknown certification/date/threshold/denominator/calculated outcome/force remain unknown.",
+      "reviewer": "coordinator",
+      "schema_version": "1.0.0",
+      "scope": "yes_votes",
+      "supersedes_id": null,
+      "target": {
+        "id": "479b58a0-af12-498f-8ef2-b3d998dd68aa",
+        "table": "measure_results"
+      }
+    },
+    {
+      "claim_ids": [
+        "8286c6d4-7b87-48b3-a55f-ea266ef94552"
+      ],
+      "decided_at": "2026-11-10T07:29:35.831899+00:00",
+      "decision_id": "36f1c6e8-2842-4049-9e15-6cc856399a20",
+      "disposition": "accepted",
+      "method": "root direct OCR and physical-page visual source review; no new independent reviewer",
+      "rationale": "The minute report states finalization after polls closed and results were announced. Complete describes this reported tally, not certification. Page9 is signed by the Town Clerk March23; that is a minutes-submission date, not an accepted result-certification date.",
+      "reviewer": "coordinator",
+      "schema_version": "1.0.0",
+      "scope": "reporting_status",
+      "supersedes_id": null,
+      "target": {
+        "id": "8286c6d4-7b87-48b3-a55f-ea266ef94552",
+        "table": "claims"
+      }
+    },
+    {
+      "claim_ids": [
+        "ca39e6b8-0bb5-426f-8173-11864601f093",
+        "c41f01bd-cffa-4827-9c3c-9dd59762bbe0",
+        "91b978e4-4c49-42d6-9906-ec5091888bd0",
+        "8286c6d4-7b87-48b3-a55f-ea266ef94552"
+      ],
+      "decided_at": "2026-11-10T07:29:35.831899+00:00",
+      "decision_id": "43522bac-0284-4b35-9d89-4c77de486b51",
+      "disposition": "accepted",
+      "method": "root direct OCR and physical-page visual source review; no new independent reviewer",
+      "rationale": "Scoped result version from official first-session minutes with matching identity/tally and explicit reported passage/finalization. Prior observation is preserved; unknown certification/date/threshold/denominator/calculated outcome/force remain unknown.",
+      "reviewer": "coordinator",
+      "schema_version": "1.0.0",
+      "scope": "value_methods",
+      "supersedes_id": null,
+      "target": {
+        "id": "479b58a0-af12-498f-8ef2-b3d998dd68aa",
+        "table": "measure_results"
+      }
+    },
+    {
+      "claim_ids": [
+        "91b978e4-4c49-42d6-9906-ec5091888bd0"
+      ],
+      "decided_at": "2026-11-10T07:29:35.831899+00:00",
+      "decision_id": "4b73c8b3-817a-46bc-8d4b-e34c29fdec5f",
+      "disposition": "accepted",
+      "method": "root direct OCR and physical-page visual source review; no new independent reviewer",
+      "rationale": "Scoped result version from official first-session minutes with matching identity/tally and explicit reported passage/finalization. Prior observation is preserved; unknown certification/date/threshold/denominator/calculated outcome/force remain unknown.",
+      "reviewer": "coordinator",
+      "schema_version": "1.0.0",
+      "scope": "reported_outcome",
+      "supersedes_id": null,
+      "target": {
+        "id": "479b58a0-af12-498f-8ef2-b3d998dd68aa",
+        "table": "measure_results"
+      }
+    },
+    {
+      "claim_ids": [
+        "ca39e6b8-0bb5-426f-8173-11864601f093"
+      ],
+      "decided_at": "2026-11-10T07:29:35.831899+00:00",
+      "decision_id": "613952a4-09bb-48e1-bb48-f80591594bc0",
+      "disposition": "accepted",
+      "method": "root direct OCR and physical-page visual source review; no new independent reviewer",
+      "rationale": "Scoped result version from official first-session minutes with matching identity/tally and explicit reported passage/finalization. Prior observation is preserved; unknown certification/date/threshold/denominator/calculated outcome/force remain unknown.",
+      "reviewer": "coordinator",
+      "schema_version": "1.0.0",
+      "scope": "source_document_id",
+      "supersedes_id": null,
+      "target": {
+        "id": "479b58a0-af12-498f-8ef2-b3d998dd68aa",
+        "table": "measure_results"
+      }
+    },
+    {
+      "claim_ids": [
+        "ca39e6b8-0bb5-426f-8173-11864601f093"
+      ],
+      "decided_at": "2026-11-10T07:29:35.831899+00:00",
+      "decision_id": "67bdec16-702f-45a4-98ba-29a1e53161e6",
+      "disposition": "accepted",
+      "method": "root direct OCR and physical-page visual source review; no new independent reviewer",
+      "rationale": "Scoped result version from official first-session minutes with matching identity/tally and explicit reported passage/finalization. Prior observation is preserved; unknown certification/date/threshold/denominator/calculated outcome/force remain unknown.",
+      "reviewer": "coordinator",
+      "schema_version": "1.0.0",
+      "scope": "supersedes_id",
+      "supersedes_id": null,
+      "target": {
+        "id": "479b58a0-af12-498f-8ef2-b3d998dd68aa",
+        "table": "measure_results"
+      }
+    },
+    {
+      "claim_ids": [
+        "91b978e4-4c49-42d6-9906-ec5091888bd0"
+      ],
+      "decided_at": "2026-11-10T07:29:35.831899+00:00",
+      "decision_id": "9cb28f44-b80c-407d-babd-08be97ccfe73",
+      "disposition": "accepted",
+      "method": "root direct OCR and physical-page visual source review; no new independent reviewer",
+      "rationale": "Source explicitly reports passage; approved normalizes passed. No calculated passage rule, result certification, operative adoption/effectiveness or current force is inferred.",
+      "reviewer": "coordinator",
+      "schema_version": "1.0.0",
+      "scope": "reported_outcome",
+      "supersedes_id": null,
+      "target": {
+        "id": "91b978e4-4c49-42d6-9906-ec5091888bd0",
+        "table": "claims"
+      }
+    },
+    {
+      "claim_ids": [
+        "ca39e6b8-0bb5-426f-8173-11864601f093"
+      ],
+      "decided_at": "2026-11-10T07:29:35.831899+00:00",
+      "decision_id": "a32f2aec-c96b-4b1d-91f7-fa4d947df9e5",
+      "disposition": "accepted",
+      "method": "root direct OCR and physical-page visual source review; no new independent reviewer",
+      "rationale": "Scoped result version from official first-session minutes with matching identity/tally and explicit reported passage/finalization. Prior observation is preserved; unknown certification/date/threshold/denominator/calculated outcome/force remain unknown.",
+      "reviewer": "coordinator",
+      "schema_version": "1.0.0",
+      "scope": "observed_at",
+      "supersedes_id": null,
+      "target": {
+        "id": "479b58a0-af12-498f-8ef2-b3d998dd68aa",
+        "table": "measure_results"
+      }
+    },
+    {
+      "claim_ids": [
+        "c41f01bd-cffa-4827-9c3c-9dd59762bbe0"
+      ],
+      "decided_at": "2026-11-10T07:29:35.831899+00:00",
+      "decision_id": "c92fcc7a-94f1-41f8-b37c-f2d8af2aa3b7",
+      "disposition": "accepted",
+      "method": "root direct OCR and physical-page visual source review; no new independent reviewer",
+      "rationale": "Counts match the retained original town return.385 is derived yes plus no only. The separate392 election-wide voters,1946 checklist and6 new registrants are not Article4 denominators or registered-voter counts.",
+      "reviewer": "coordinator",
+      "schema_version": "1.0.0",
+      "scope": "vote_counts",
+      "supersedes_id": null,
+      "target": {
+        "id": "c41f01bd-cffa-4827-9c3c-9dd59762bbe0",
+        "table": "claims"
+      }
+    },
+    {
+      "claim_ids": [
+        "8286c6d4-7b87-48b3-a55f-ea266ef94552"
+      ],
+      "decided_at": "2026-11-10T07:29:35.831899+00:00",
+      "decision_id": "cb14f566-1dcf-410a-892b-76c35ec0f4ee",
+      "disposition": "accepted",
+      "method": "root direct OCR and physical-page visual source review; no new independent reviewer",
+      "rationale": "Scoped result version from official first-session minutes with matching identity/tally and explicit reported passage/finalization. Prior observation is preserved; unknown certification/date/threshold/denominator/calculated outcome/force remain unknown.",
+      "reviewer": "coordinator",
+      "schema_version": "1.0.0",
+      "scope": "reporting_status",
+      "supersedes_id": null,
+      "target": {
+        "id": "479b58a0-af12-498f-8ef2-b3d998dd68aa",
+        "table": "measure_results"
+      }
+    },
+    {
+      "claim_ids": [
+        "ca39e6b8-0bb5-426f-8173-11864601f093"
+      ],
+      "decided_at": "2026-11-10T07:29:35.831899+00:00",
+      "decision_id": "de25ea33-43e7-426c-a1a9-b9609a277f71",
+      "disposition": "accepted",
+      "method": "root direct OCR and physical-page visual source review; no new independent reviewer",
+      "rationale": "Scoped result version from official first-session minutes with matching identity/tally and explicit reported passage/finalization. Prior observation is preserved; unknown certification/date/threshold/denominator/calculated outcome/force remain unknown.",
+      "reviewer": "coordinator",
+      "schema_version": "1.0.0",
+      "scope": "measure_id",
+      "supersedes_id": null,
+      "target": {
+        "id": "479b58a0-af12-498f-8ef2-b3d998dd68aa",
+        "table": "measure_results"
+      }
+    }
+  ]
+}

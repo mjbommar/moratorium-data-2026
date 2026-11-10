@@ -6,6 +6,8 @@
 
 **Continuing QA:** The Hawaii review closes six scoped historical records, with 1,359 unresolved records retained. HCR206 exact convening and Massachusetts H5175 independent QA remain open. There are 448 policy observations and 1,776 raw records. Use each release tag for its exact snapshot; later working changes retain their own receipts.
 
+**Working ballot update after the release:** [Canterbury's official meeting minutes](work/research/2026-11-10/canterbury-minutes-result-review/README.md) explicitly report Article 4 passed, 322–63, with clerk reports finalized. A new observation supersedes the earlier one without changing its tally. There are now 65 retained result versions; current observations remain 53 across 52 measures, with five certified. Certification/date and operative legal effect remain unknown for Canterbury. Release and consumer synchronization of this newer result revision are pending.
+
 **Open data on local-government moratoria targeting data centers, battery storage, solar, wind, and cryptocurrency mining across the United States.**
 
 This is the open companion dataset for the working paper *Moratorium Nation: A Survey of Data Center, Renewable Energy, and Battery Storage Moratoria in the United States*.

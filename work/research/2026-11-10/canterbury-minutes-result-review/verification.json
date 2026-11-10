@@ -1,0 +1,92 @@
+{
+  "validated_at": "2026-11-10T07:47:29.085285+00:00",
+  "focused_checks": [
+    {
+      "command": [
+        "scripts/validate_dataset.py",
+        "--today",
+        "2026-11-10"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/build_policy_scope_exports.py",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/build_summary_stats.py",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/build_geojson.py",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/make_timeline.py",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/check_docs_numbers.py"
+      ],
+      "returncode": 0,
+      "rechecked_after": "Current operations paragraph updated from64 to65 retained results, and current event/restriction/cohort qualifiers reconciled."
+    },
+    {
+      "command": [
+        "-m",
+        "scripts.generate_tables.inventory_clean",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/build_index.py",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/classify_sources.py",
+        "--check"
+      ],
+      "returncode": 0
+    }
+  ],
+  "csv_projection_check": {
+    "state": "matches",
+    "source_snapshot": "3ce33d22288fa7bc7100c9ac621c041037702e8370af1e663d53a548ff794725",
+    "projection_sha256": "7b585b49998f8ca39b0ff433fe15c34335ea171bdd8960af1e7e9fdcf852f6cb",
+    "csv_views": 18
+  },
+  "retained_result_versions": 65,
+  "current_result_observations": 53,
+  "current_measures_with_result": 52,
+  "current_certified_observations": 5,
+  "reported_outcome_change": "unknown to source-reported approved",
+  "reporting_status_change": "unknown to source-reported complete",
+  "vote_counts_unchanged": [
+    322,
+    63
+  ],
+  "no_question_denominator_or_certification_date_inferred": true,
+  "generated_canterbury_row_points_to_new_source_and_reports_approval": true,
+  "legacy_inputs_unchanged": true,
+  "whole_legacy_record_closures": 0,
+  "legacy_unresolved_count": 1359,
+  "scope": "Full625-claim publisher preflight, atomic application and exact replay are recorded separately; focused checks/projection/current-row/doc assertions verify the delivered working revision without claiming a new independent reviewer or legal force."
+}

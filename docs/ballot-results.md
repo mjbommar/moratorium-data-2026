@@ -39,7 +39,7 @@ Yes-vote direction follows the question wording. Advisory results express voter 
 | [Wells, ME — Article 5](<https://www.wellstown.org/DocumentCenter/View/8559/November-3-2026-Official-Election-Results?bidId=>) | 2026-11-03 | scope not recorded | unresolved | restricts | 5818 | 1282 | 459 | unknown | certified 2026-11-04 | unknown |
 | [Wiscasset, ME — Question 2](<https://www.wiscasset.gov/m/newsflash/Home/Detail/211>) | 2026-11-03 | scope not recorded | unresolved | restricts | 1363 | 712 | unknown | unknown | unofficial | unknown |
 | [Harwood, ND — Home Rule Charter Amendment — Article X Public Protection and Responsible Municipal Decision-Making](<https://resultsnd.sos.nd.gov/#election=348&location=cass+county&filter=MUN&contest=1830>) | 2026-11-03 | Whole jurisdiction: City of Harwood | unresolved | unresolved | 105 | 325 | unknown | unknown | unofficial | unknown |
-| [Canterbury, NH — Article 4](<https://www.canterburynh.gov/wp-content/uploads/2026/03/Town-Meeting-Election-Results-3_10_26.pdf>) | 2026-03-10 | scope not recorded | unresolved | restricts | 322 | 63 | unknown | unknown | unknown | unknown |
+| [Canterbury, NH — Article 4](<https://www.canterburynh.gov/wp-content/uploads/2026/06/2026-Town-Meeting-Minutes.pdf>) | 2026-03-10 | scope not recorded | unresolved | restricts | 322 | 63 | unknown | unknown | unknown | approved |
 | [Nottingham, NH — Ballot Question](<https://www.nottingham-nh.gov/sites/g/files/vyhlif3611/f/news/2026_nottingham_special_town_election_results.pdf>) | 2026-09-08 | scope not recorded | unresolved | restricts | 1335 | 143 | unknown | unknown | unknown | unknown |
 | [Downe Township, NJ — Public Question](<https://www.nj.com/cumberland/2026/11/nj-election-day-2026-cumberland-county-live-results.html>) | 2026-11-03 | Whole jurisdiction: Downe Township Public Question; secondary publisher reports100percentprecincts, without numeric precinct denominator | advisory | facilitates | 62 | 425 | unknown | unknown | unknown | unknown |
 | [Boulder City, NV — Question 1](<https://elections.clarkcountynv.gov/ElectionResultsTV/ENR.aspx>) | 2026-11-03 | Whole jurisdiction: City of Boulder City Question 1; Clark County unofficial report headed Updated 11/04/26 11:49 PM, timezone unspecified; retained November 5 acquisition, not a fresh return. | unresolved | facilitates | 2064 | 4947 | unknown | unknown | unofficial | unknown |
@@ -121,7 +121,7 @@ Relationship acceptance is separate from instrument status. A `proposes` link do
 
 Reported outcomes and certification are separate from calculated passage rules, operative dates and legal force. A reported approval does not automatically add an in-force legacy moratorium. See [scope and interpretation](ballot-measures.md) for unresolved legal implementation.
 
-64 result observations are retained, including explicitly superseded history. This view excludes superseded observations without deleting them. Classification or provenance corrections can add a successor without new votes or a new retrieval; consult source acquisition times and the result value_methods notes.
+65 result observations are retained, including explicitly superseded history. This view excludes superseded observations without deleting them. Classification or provenance corrections can add a successor without new votes or a new retrieval; consult source acquisition times and the result value_methods notes.
 
 ## Sources for reported outcomes
 
@@ -129,7 +129,8 @@ Reported outcomes and certification are separate from calculated passage rules, 
 - Bethel: [reported-outcome source](<https://www.sunjournal.com/2026/10/22/bethel-approves-6-month-data-center-moratorium/>).
 - Eliot: [reported-outcome source](<https://www.bangordailynews.com/2026/11/05/politics/elections/maine-election-towns-temporary-data-center-bans/>).
 - Sabattus: [reported-outcome source](<https://www.bangordailynews.com/2026/11/05/politics/elections/maine-election-towns-temporary-data-center-bans/>).
+- Canterbury: [reported-outcome source](<https://www.canterburynh.gov/wp-content/uploads/2026/06/2026-Town-Meeting-Minutes.pdf>).
 
-Pinned canonical snapshot: `8d1a4df738c50cb71a066c1dc755019f77c94c62fb089cad8a7a9153559f79bb`. Source acquisition times and result review-time explanations remain in the records; this generation is not a renewed current-force check.
+Pinned canonical snapshot: `3ce33d22288fa7bc7100c9ac621c041037702e8370af1e663d53a548ff794725`. Source acquisition times and result review-time explanations remain in the records; this generation is not a renewed current-force check.
 
-[Canonical publication protocol](expanded-promotion.md) · [Raw reviewed tables](../data/expanded-snapshots/8d1a4df738c50cb71a066c1dc755019f77c94c62fb089cad8a7a9153559f79bb/ballot_measures.jsonl)
+[Canonical publication protocol](expanded-promotion.md) · [Raw reviewed tables](../data/expanded-snapshots/3ce33d22288fa7bc7100c9ac621c041037702e8370af1e663d53a548ff794725/ballot_measures.jsonl)

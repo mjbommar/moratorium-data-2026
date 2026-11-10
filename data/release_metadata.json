@@ -15,7 +15,7 @@
     "Experimental model extraction/P4 has not passed; no experimental extraction output is accepted automatically.",
     "The companion April paper and dated sibling publications retain their historical editions."
   ],
-  "update_status": "qualified_release_with_ongoing_qa",
+  "update_status": "working_qa_after_v2026.11.10.post2",
   "full_inventory_closeout": "reviewed_and_applied_with_bounded_unresolved_questions",
   "consumer_dispositions": "delivered_with_historical_editions_preserved",
   "experimental_extractor": "failed_no_automatic_promotion",
@@ -31,7 +31,7 @@
   "record_disposition_path": "work/research/2026-11-08/full-record-dispositions/funnel.json",
   "qa_status": "ongoing",
   "publication_authorization": "publish current state with qualifications on pending QA, then continue to double check and clear the outstanding questions",
-  "working_revision": "hawaii-patch-delivery-receipt",
+  "working_revision": "canterbury-minute-result-qa",
   "current_raw_counts": {
     "local": 1328,
     "state_policy": 448,
@@ -71,9 +71,19 @@
     "scope": "Delivered in qualified v2026.11.10.post2 and verified V17:14 fields across6 Hawaii rows;6 scoped reviews close,4 historical status categories corrected;1359 holds remain.",
     "delivery_receipt": "work/research/2026-11-10/post-release-qa/consumer-v17-handoff.json"
   },
-  "latest_source_followup": "work/research/2026-11-09/post-release-qa/hawaii-session-outcome-adjudications.json",
+  "latest_source_followup": "work/research/2026-11-10/post-release-qa/older-ballot-certification-followup.json",
   "latest_expanded_candidate_review": "work/research/2026-11-09/starke-succession-review/validation.json",
   "latest_expanded_publication": {
+    "generation_id": "3ce33d22288fa7bc7100c9ac621c041037702e8370af1e663d53a548ff794725",
+    "tables_sha256": "f35af783d4368640a462163bf6e995d7716375d77c2f9fec4fdc42f921232c2e",
+    "publication_sha256": "58a295220d1759e0dcb7956b0f715e1d86d1ed55ddc501b4754bc7d08b07fc07",
+    "reviewed_at": "2026-11-10T07:32:34.264462+00:00",
+    "receipt": "work/research/2026-11-10/canterbury-minutes-result-review/publication-application.json",
+    "profile": "1.0.4",
+    "scope": "Canterbury official minute report: source-reported approval and complete reporting, unchanged322/63 tally. No certification/date, calculated threshold, bindingness, operative restriction/event or current-force acceptance."
+  },
+  "research_cutoff_scope": "Historical cutoff retained from earlier publication; later additions carry their own observation and publication-review timestamps. It is not a universal source-freshness cutoff.",
+  "prior_expanded_publication": {
     "generation_id": "216e9ca5a0b9533e0413ae70eb3d35499c3bd4dd978637b582acab8a9fb94887",
     "tables_sha256": "06d22df54d3a957cbb1c4cb4aa2a517d294a1dfa63cd205e249b14c7cc006e8c",
     "publication_sha256": "c963c00538f3c06539512d7cb2241544d7bfc750edd26b99808e2fefa07f8dc7",
@@ -81,16 +91,6 @@
     "receipt": "work/research/2026-11-09/starke-succession-review/publication-application.json",
     "profile": "1.0.4",
     "scope": "Qualified policy-history succession only; no formal termination, overlap or current-force acceptance."
-  },
-  "research_cutoff_scope": "Historical cutoff retained from earlier publication; later additions carry their own observation and publication-review timestamps. It is not a universal source-freshness cutoff.",
-  "prior_expanded_publication": {
-    "generation_id": "ca1d948627ecd9ef9b74dbd81ebbb8e79322c586ff773c9d91f8798610187e6b",
-    "tables_sha256": "5df43b23fb78f3e239065f9a6276f46705fefc2254749b0a7fec287d26cb07f8",
-    "publication_sha256": "4b57d34be09da49adedcf1b9f5a18e3228779897a1f7de25648174f69a7fdc30",
-    "reviewed_at": "2026-11-10T03:52:57.026762+00:00",
-    "receipt": "work/research/2026-11-09/starke-expanded-review/publication-application.json",
-    "profile": "1.0.4",
-    "scope": "Historical adoption and provisions; operative status, publication, applicability and legal force remain unknown."
   },
   "prior_delivered_consumer_input_delta": {
     "baseline_source_commit": "738c40f310fb06d2e58bd6a71a74db1598414156",
@@ -111,5 +111,28 @@
     "pages_run": 42771965102,
     "receipt": "work/research/2026-11-10/release-2026.11.10.post2/hosted-copy-verification.json",
     "state": "verified"
+  },
+  "latest_expanded_result_review": "work/research/2026-11-10/canterbury-minutes-result-review/coordinator-adjudication.json",
+  "pending_consumer_input_delta": {
+    "baseline_source_commit": "abd5a14abe67a052b57fa037ad83bd63f781d195",
+    "baseline_consumer_commit": "44cc47fbd92536688e484a61059105a69fc8d607",
+    "changed_local_rows": 0,
+    "changed_policy_rows": 0,
+    "changed_cells": 0,
+    "status_category_changes": 0,
+    "whole_record_closures": 0,
+    "expanded_additions": {
+      "measure_results": 1,
+      "source_documents": 1,
+      "claims": 4,
+      "review_decisions": 14
+    },
+    "new_measures": 0,
+    "new_certified_results": 0,
+    "retained_result_versions": 65,
+    "current_result_observations": 53,
+    "current_measures_with_result": 52,
+    "receipt": "work/research/2026-11-10/canterbury-minutes-result-review/publication-application.json",
+    "scope": "One superseding Canterbury source-reported result; original observation preserved. Vote totals unchanged. Source archives repaired/reviewed; release and consumer synchronization pending."
   }
 }
