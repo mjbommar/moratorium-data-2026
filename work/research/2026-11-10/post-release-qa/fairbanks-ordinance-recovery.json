@@ -1,0 +1,66 @@
+{
+  "record_id": "ak-fairbanks-north-star-borough-undated",
+  "source_commit": "c4a365393696ebe78ca63a3071697361336096f4",
+  "current_row_sha256": "9a29b614a471de5c942e615a13fef23ca479fb9491314c6b0727720e0a4d75d6",
+  "prior_evidence": "work/research/2026-11-06/alaska-discovery-review/review.json",
+  "attempts": [
+    {
+      "attempt_id": "23e4450495404ecd81b94accdbe835f5",
+      "kind": "exa",
+      "observed_at": "2026-11-10T13:35:48.121229+00:00",
+      "payload_sha256": "ac0fc148774e952a01d01ad285b77c501cc9c99d514766c63607abce48233bba",
+      "query": "\"2026-42\" \"data\"",
+      "include_domains": [
+        "fnsb.gov"
+      ],
+      "hits": 6,
+      "cost_usd": 0.007,
+      "relevant_alternative_document_found": false
+    },
+    {
+      "attempt_id": "3d3e1700172c4ce9ab5702009fa547f6",
+      "kind": "fetch",
+      "observed_at": "2026-11-10T13:36:38.180436+00:00",
+      "payload_sha256": "fa6166fded00a76ed222169e164acfa356036052b0a80618f001d8db116a073e",
+      "url": "https://fnsb.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=13344,plainText=false)",
+      "mode": "browser",
+      "status": null,
+      "transport_ok": false,
+      "body_bytes": 0,
+      "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "substantive_acquisition": false
+    },
+    {
+      "attempt_id": "68e7348a20174163a38fef2e65cf406e",
+      "kind": "fetch",
+      "observed_at": "2026-11-10T13:37:00.080795+00:00",
+      "payload_sha256": "9f6e7f5305efab3fb731dcec093bfdc3b2295f38185b96193155da6802f27359",
+      "url": "https://fnsb.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=13344,plainText=false)",
+      "mode": "http",
+      "status": null,
+      "transport_ok": false,
+      "body_bytes": 0,
+      "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "substantive_acquisition": false
+    },
+    {
+      "attempt_id": "3d551b518ae5450fa5274bbd15d08323",
+      "kind": "fetch",
+      "observed_at": "2026-11-10T13:37:09.629278+00:00",
+      "payload_sha256": "5fa4aa8b67b543836a56f1da5aba6e5b83e12d469de771502c0ee8d7666ebe8b",
+      "url": "https://fnsb.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=13344,plainText=true)",
+      "mode": "http",
+      "status": 200,
+      "transport_ok": true,
+      "body_bytes": 0,
+      "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "substantive_acquisition": false
+    }
+  ],
+  "finding": "Official attachment file13344 remains unavailable: browser navigation ERR_ABORTED, HTTP acquisition failed, plaintext200 empty. Search returned unrelated official-domain pages, not an alternative ordinance. Transport success for empty plaintext is not substantive evidence.",
+  "canonical_fields_changed": 0,
+  "whole_record_closures": 0,
+  "unresolved_records": 1347,
+  "next_action": "Do not repeat these file13344 routes or the same domain query without a changed condition. Seek a distinct published ordinance attachment, retained full packet from the official portal, or subsequent official action record after the scheduled November10 hearing. The current early-November10 capture does not establish a completed hearing.",
+  "scope": "Recovery-attempt evidence only; no proposed term, adoption, operative date or current-force acceptance."
+}

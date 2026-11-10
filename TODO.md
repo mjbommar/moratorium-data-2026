@@ -1,5 +1,7 @@
 # Implementation TODO
 
+- [x] Complete bounded Fairbanks ordinance-text recovery attempt: one Exa search and three captures yielded no usable ordinance body. [Recorded failures and next-route requirements](work/research/2026-11-10/post-release-qa/fairbanks-ordinance-recovery.json) are carried into the outstanding queue to prevent repeated acquisition. No canonical changes or closures; 1,347 reviews remain unresolved.
+
 - [x] Deliver qualified post11 and additive V26: 115 fields across 106 policy observations (104 official primary links, ten Minnesota author/party corrections and one Georgia status summary). Two identical builds, full clean restore, ten anonymous downloads, all 2,453 archive members and independent consumer checks passed. All 448 policy observations have primary references; no new whole-record closures or category changes. 1,347 reviews and the separate website-copy hold remain open.
 
 - [x] Fill remaining 75 policy primary-reference blanks using retained official sources; all 448 observations now have a reference. Title/header omissions checked against raw HTML or PDF layout; zero new network calls. No outcome/closure changes; 1,347 reviews remain unresolved. 115 policy fields across 106 records await delivery.
