@@ -1,0 +1,103 @@
+{
+  "exact_cell_changes": [
+    {
+      "id": "mn-hf-3793-2026",
+      "field": "status",
+      "before": "Terminal outcome unknown. Unverified legacy assertion: Died in House Environment and Natural Resources Finance and Policy Committee (last log entry: author added 2026-05-13); Sine Die 2026-05-18. Senate final journal, applicable carryover authority and complete bill and companion histories remain required.",
+      "after": "Historical94th regular-session nonpassage is inferred from the complete retained HF3793 House history (last action: author added May13,2026), newly captured SF3852 companion history (last action: author added April7,2026), the constitutional even-year passage cutoff and already reviewed final House/Senate adjournments on May18 calendar date. The final Senate journal is headed May17 legislative day. Neither history records final passage. This is not a fabricated bill-specific Died event or a finding that the policy failed in every other bill."
+    },
+    {
+      "id": "mn-hf-3793-2026",
+      "field": "bill_status_category",
+      "before": "unknown",
+      "after": "failed_died"
+    },
+    {
+      "id": "mn-hf-3793-2026",
+      "field": "legal_effect_status",
+      "before": "unknown",
+      "after": "failed"
+    }
+  ],
+  "status_category_changes": 1,
+  "normalized_date_changes": 0,
+  "scope_membership_changes": 0,
+  "whole_record_closures": 0,
+  "unresolved_records": 1349,
+  "retained_shared_authority_hashes_checked": 7,
+  "new_source_store_readbacks": 1,
+  "September_status_differences": {
+    "local": 98,
+    "policy": 35,
+    "total": 133
+  },
+  "inventory_summary_map_bytes_unchanged": true,
+  "scope_registry_append_only": true,
+  "prior_delivery_and_hosting_hold_preserved": true,
+  "checks": [
+    {
+      "command": [
+        "scripts/validate_dataset.py",
+        "--today",
+        "2026-11-10"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/build_policy_scope_exports.py",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/build_summary_stats.py",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/build_geojson.py",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/make_timeline.py",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/check_docs_numbers.py"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "-m",
+        "scripts.generate_tables.inventory_clean",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/build_index.py",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/classify_sources.py",
+        "--check"
+      ],
+      "returncode": 0
+    }
+  ]
+}

@@ -82,7 +82,7 @@
     "delivery_receipt": "work/research/2026-11-10/post-release-qa/consumer-v24-handoff.json",
     "hosted_copy_state": "pending"
   },
-  "latest_source_followup": "work/research/2026-11-09/post-release-qa/missouri-final-passage-adjudications.json",
+  "latest_source_followup": "work/research/2026-11-09/post-release-qa/minnesota-hf3793-terminal-adjudication.json",
   "latest_expanded_candidate_review": "work/research/2026-11-09/starke-succession-review/validation.json",
   "latest_expanded_publication": {
     "generation_id": "3ce33d22288fa7bc7100c9ac621c041037702e8370af1e663d53a548ff794725",
@@ -127,7 +127,7 @@
     "delivered_consumer_commit": "583b6f38f5b4d212f2b13e320dcba46d7c1df616",
     "hosted_copy_state": "pending"
   },
-  "latest_field_application": "work/research/2026-11-09/post-release-qa/missouri-final-passage-adjudications.json",
+  "latest_field_application": "work/research/2026-11-09/post-release-qa/minnesota-hf3793-terminal-adjudication.json",
   "latest_hosted_delivery": {
     "source_commit": "ad7af81345dc0bb72b9b48a09abc574199c9311e",
     "hosted_source_commit": "ad7af81345dc0bb72b9b48a09abc574199c9311e",
@@ -177,20 +177,22 @@
   "pending_consumer_input_delta": {
     "baseline_source_commit": "21bcb804e21dbe728387775aada997b29497c549",
     "baseline_consumer_commit": "b22ba42c6fd78b72e0b0633873c3929677713a84",
-    "changed_cells": 7,
+    "changed_cells": 10,
     "changed_local_cells": 3,
     "changed_local_rows": 1,
-    "changed_policy_cells": 4,
-    "changed_policy_rows": 4,
-    "status_category_changes": 0,
+    "changed_policy_cells": 7,
+    "changed_policy_rows": 5,
+    "status_category_changes": 1,
     "normalized_date_changes": 0,
     "scope_membership_changes": 0,
     "whole_record_closures": 5,
     "additional_reviews": [
       "work/research/2026-11-09/post-release-qa/monument-ordinance-adjudication.json",
       "work/research/2026-11-09/post-release-qa/wyoming-sf193-disposition-reconciliation.json",
-      "work/research/2026-11-09/post-release-qa/missouri-final-passage-adjudications.json"
+      "work/research/2026-11-09/post-release-qa/missouri-final-passage-adjudications.json",
+      "work/research/2026-11-09/post-release-qa/minnesota-hf3793-terminal-adjudication.json"
     ],
-    "scope": "Monument signed-ordinance recovery clarifies three prose fields; publication/current-force holds retained. Pending later release/consumer delivery, distinct from verified post9/V24. One stale SF193 historical scope-acceptance question closed using prior independent decision; canonical cells unchanged. Four Missouri status-prose fields and four historical terminal-outcome closures; seven cells across five records and five scoped closures pending delivery. No category/date/membership change."
-  }
+    "scope": "Monument signed-ordinance recovery clarifies three prose fields; publication/current-force holds retained. Pending later release/consumer delivery, distinct from verified post9/V24. One stale SF193 historical scope-acceptance question closed using prior independent decision; canonical cells unchanged. Four Missouri status-prose fields and four historical terminal-outcome closures; seven cells across five records and five scoped closures pending delivery. No category/date/membership change. MinnesotaHF3793 three-cell historical terminal inference, one category correction; September surviving differences now133(98local+35policy). Ten pending cells across six records; five historical closures unchanged."
+  },
+  "status_baseline_comparison": "work/research/2026-11-09/post-release-qa/current-status-category-baseline-delta.json"
 }

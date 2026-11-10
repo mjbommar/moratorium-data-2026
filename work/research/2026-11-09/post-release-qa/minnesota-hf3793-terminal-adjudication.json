@@ -1,0 +1,78 @@
+{
+  "reviewed_at": "2026-11-10T12:41:18.286185+00:00",
+  "records": [
+    {
+      "id": "mn-hf-3793-2026",
+      "prior_disposition": "unresolved",
+      "recommendation": "unresolved",
+      "prior_row_sha256": "fa790e6d8d75a6793307de63373793c83031173390408be6cb844b987322a2f1",
+      "current_row_sha256": "9213b472254902776be03d353980c6790574dc3ee67910e47a8e8b0ebcf82554",
+      "field_changes": [
+        {
+          "field": "status",
+          "before": "Terminal outcome unknown. Unverified legacy assertion: Died in House Environment and Natural Resources Finance and Policy Committee (last log entry: author added 2026-05-13); Sine Die 2026-05-18. Senate final journal, applicable carryover authority and complete bill and companion histories remain required.",
+          "after": "Historical94th regular-session nonpassage is inferred from the complete retained HF3793 House history (last action: author added May13,2026), newly captured SF3852 companion history (last action: author added April7,2026), the constitutional even-year passage cutoff and already reviewed final House/Senate adjournments on May18 calendar date. The final Senate journal is headed May17 legislative day. Neither history records final passage. This is not a fabricated bill-specific Died event or a finding that the policy failed in every other bill."
+        },
+        {
+          "field": "bill_status_category",
+          "before": "unknown",
+          "after": "failed_died"
+        },
+        {
+          "field": "legal_effect_status",
+          "before": "unknown",
+          "after": "failed"
+        }
+      ],
+      "prior_questions": [
+        "No network, clerk, publication, court, new subsequent-action or complete current-law review was performed."
+      ],
+      "remaining_questions": [
+        "Review different successor/omnibus legislation and actual later legal developments if assessing whether the proposed water-use policy became operative elsewhere. Historical named-bill/companion regular-session nonpassage is now inferred, not a current-law finding.",
+        "Sponsor party remains explicitly markedVERIFY; no independent party-roster verification or current project-applicability review was performed."
+      ],
+      "scope_before": "include",
+      "scope_after": "include",
+      "scope_decision_id": "893157dc-7949-477b-99f9-5d2d148d7ede"
+    }
+  ],
+  "new_source": {
+    "attempt_id": "2fa823342d08467787c2375d763c02b7",
+    "url": "https://www.revisor.mn.gov/bills/bill.php?b=senate&f=SF3852&ssn=0&y=2026",
+    "body_sha256": "7362374888b87c58fe41f72b46dcd1dc4865bf458d3cfc141cdef775d1382e91",
+    "text_sha256": "3c62719826f481f5e487389473fd34f481a830fe889b9d8198f9bccb127b4501",
+    "body_observed_at": "2026-11-10T12:39:36.036886Z"
+  },
+  "retained_house_history": {
+    "url": "https://www.revisor.mn.gov/bills/bill.php?b=house&f=HF3793&ssn=0&y=2026",
+    "body_sha256": "f80774b6639a2f885b2fda5f350312fffe82a4daeebf8493c41f79c93b6f59c3",
+    "source_observation": "2026-11-05T23:45:08.594964+00:00",
+    "scope": "Complete retained action tables read without recapture; observation date not renewed."
+  },
+  "shared_authority_receipt": "work/research/2026-11-09/post-release-qa/minnesota-session-adjudications.json",
+  "shared_authority_receipt_sha256": "94b9d66b3e0c54a9e7c8e698616c96775c47ccd603f6904354fe5c6f264dd0b0",
+  "shared_authority_body_hashes_rechecked": 7,
+  "governing_context": {
+    "constitution": "Retained and hash-checked ArticleIV12 regular-session limit and ArticleIV21 last-prescribed-day passage prohibition; enrollment/transmittal remain distinct from passage.",
+    "joint_rule": "Retained Joint Rule3.02 is an odd-year date-certain carryover rule; it is not authority for carrying these bills into a new biennium.",
+    "current_faq": "Even-year FAQ184 reviewed2026-09-14 supplies current broad passage-deadline context. Calendar FAQ32 reviewed2026-09-22 and linked2023 House Research floor guide are applied directly only to floor calendars.",
+    "committee_inference": "For committee-held files, bounded regular-session nonpassage follows from complete named/companion histories without final passage, both actual adjournments, and the constitutional even-year cutoff. No calendar-only rule is falsely asserted to cover all committees.",
+    "date_distinction": "Final Senate journal legislative day78 is headed May17,2026; the official Legislative Reference Library records actual calendar adjournment after midnight May18. Retained House final journal confirms its May18 actual adjournment."
+  },
+  "canonical_cells_changed": 3,
+  "status_category_changes": 1,
+  "normalized_date_changes": 0,
+  "scope_membership_changes": 0,
+  "whole_record_closures": 0,
+  "acquisition_accounting": {
+    "searches": 0,
+    "fetch_used": 1,
+    "fetch_cap": 1,
+    "scope": "Only missing companion captured; retained House history/introduced text and seven shared authorities not reacquired."
+  },
+  "limitations": [
+    "No direct committee Died event claimed; infer nonpassage under complete named/companion histories and actual constitutional/session-end context.",
+    "Floor-calendar FAQ is not misapplied as a rule directly governing all committee files.",
+    "Whole-record later-policy and sponsor-party questions remain open; no closure."
+  ]
+}
