@@ -6,6 +6,8 @@
 
 **Continuing QA:** 1,347 records remain unresolved. Massachusetts H5175 independent QA, record-specific later force, sponsor-party and source gaps remain open. There are 448 policy observations and 1,776 raw records. Each release tag preserves its exact snapshot; later working changes retain their own receipts.
 
+**Working reference audit:** All 448 policy observations now have a retained official primary reference; [the source-link audit](work/research/2026-11-09/post-release-qa/remaining-policy-source-links-adjudications.json) fills the remaining blanks without new network calls. This improves traceability and does not establish current legal force or close the 1,347 unresolved reviews. These working corrections await the next release/consumer delivery.
+
 **Latest ballot review:** [Canterbury's official meeting minutes](work/research/2026-11-10/canterbury-minutes-result-review/README.md) explicitly report Article 4 passed, 322–63, with clerk reports finalized. A new observation supersedes the earlier one without changing its tally. There are now 65 retained result versions; current observations remain 53 across 52 measures, with five certified. Certification/date and operative legal effect remain unknown for Canterbury. [Qualified post3 and matching V18 delivery](work/research/2026-11-10/release-2026.11.10.post3/README.md) are verified.
 
 **Open data on local-government moratoria targeting data centers, battery storage, solar, wind, and cryptocurrency mining across the United States.**

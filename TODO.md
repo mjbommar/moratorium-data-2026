@@ -1,5 +1,7 @@
 # Implementation TODO
 
+- [x] Fill remaining 75 policy primary-reference blanks using retained official sources; all 448 observations now have a reference. Title/header omissions checked against raw HTML or PDF layout; zero new network calls. No outcome/closure changes; 1,347 reviews remain unresolved. 115 policy fields across 106 records await delivery.
+
 - [x] Fill nineteen Texas/West Virginia primary-source URLs from retained exact bill/session histories, with zero new network calls. Blank primary URLs 94 to 75; prior outcome dispositions and 1,347 unresolved reviews unchanged. Forty fields across 31 records now await delivery.
 
 - [x] Fill ten Minnesota primary-source URLs from retained official pages and resolve SF608/HF1109’s remaining companion-author/party flag using cached rosters. Eleven fields corrected with zero new network calls; blank primary URLs 104 to 94. No new outcomes/closures; 1,347 reviews remain unresolved.
