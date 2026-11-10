@@ -1,0 +1,1074 @@
+{
+  "schema": "missing-geography-candidates-v1",
+  "inventory_sha256": "227f84fec56d59ee8c3dd15f0bda9dca099d83683fc845c556ae17b62365bb50",
+  "scope": "Missing coordinates only. Exact state/name/type candidates; no canonical edits or QA closures. Internal points are neither boundaries nor project locations. Unique matches still require identity review.",
+  "sources": [
+    {
+      "kind": "counties",
+      "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2026_Gazetteer/2026_Gaz_counties_national.zip",
+      "body_sha256": "6a99ca00efbc0be5112e225d4102704c51d5ce3b16e3afd6e4159460595fd12a",
+      "member": "2026_Gaz_counties_national.txt",
+      "member_sha256": "0c9bb040b1cded73b77541cab8acae7b5851ff9c257ad97a1094c0d8adfab9c1",
+      "observed_at": "2026-11-10T00:59:35.401805Z"
+    },
+    {
+      "kind": "cousubs",
+      "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2026_Gazetteer/2026_Gaz_cousubs_national.zip",
+      "body_sha256": "9d528b39b70a27075c863b1572f27eadaf24484d5435fac17fc3b4cdd36434c2",
+      "member": "2026_Gaz_cousubs_national.txt",
+      "member_sha256": "6d19c4e9e7a8b24856528851064ccccb7b04be0404d2854d3c488a702312225c",
+      "observed_at": "2026-11-10T00:59:35.490795Z"
+    },
+    {
+      "kind": "place",
+      "url": "https://www2.census.gov/geo/docs/maps-data/data/gazetteer/2026_Gazetteer/2026_Gaz_place_national.zip",
+      "body_sha256": "af678e2d990827c89ee39b98c82de6e90b693c7361ff0e559ae3076670dd2863",
+      "member": "2026_Gaz_place_national.txt",
+      "member_sha256": "e10cb8004732684fa2a75b9d6030c6c9171674d6b112cff29dbc1bc31a9b82fa",
+      "observed_at": "2026-11-10T00:59:35.410441Z"
+    }
+  ],
+  "records": [
+    {
+      "id": "ak-fairbanks-north-star-borough-undated",
+      "jurisdiction": "Fairbanks North Star Borough",
+      "type": "County",
+      "state": "AK",
+      "row_sha256": "67a5b8daa48ac38eb048456a75a9a000bb7471b5659c7047c6474ae3603a8ca4",
+      "table": "counties",
+      "candidate_count": 1,
+      "candidates": [
+        {
+          "USPS": "AK",
+          "GEOID": "02090",
+          "GEOIDFQ": "0500000US02090",
+          "ANSICODE": "01419969",
+          "NAME": "Fairbanks North Star Borough",
+          "ALAND": "18996741456",
+          "AWATER": "259669039",
+          "ALAND_SQMI": "7334.683",
+          "AWATER_SQMI": "100.259",
+          "INTPTLAT": "64.670454",
+          "INTPTLONG": "-146.496061"
+        }
+      ],
+      "decision": "candidate_only_requires_identity_review"
+    },
+    {
+      "id": "ak-petersburg-borough-undated",
+      "jurisdiction": "Petersburg Borough",
+      "type": "County",
+      "state": "AK",
+      "row_sha256": "0cfacbd40eeed6a3aed2938025d5ca3549e627627244203e175c40bebf5cbe57",
+      "table": "counties",
+      "candidate_count": 1,
+      "candidates": [
+        {
+          "USPS": "AK",
+          "GEOID": "02195",
+          "GEOIDFQ": "0500000US02195",
+          "ANSICODE": "02516404",
+          "NAME": "Petersburg Borough",
+          "ALAND": "7515234845",
+          "AWATER": "2397841177",
+          "ALAND_SQMI": "2901.649",
+          "AWATER_SQMI": "925.812",
+          "INTPTLAT": "57.245959",
+          "INTPTLONG": "-132.788762"
+        }
+      ],
+      "decision": "candidate_only_requires_identity_review"
+    },
+    {
+      "id": "ca-hayward-2026",
+      "jurisdiction": "Hayward",
+      "type": "City",
+      "state": "CA",
+      "row_sha256": "6fddf233b2ef1591a265b9586e34bc61fb837084527a62f510aea897ba74601d",
+      "table": "place",
+      "candidate_count": 1,
+      "candidates": [
+        {
+          "USPS": "CA",
+          "GEOID": "0633000",
+          "GEOIDFQ": "1600000US0633000",
+          "ANSICODE": "02410724",
+          "NAME": "Hayward city",
+          "LSAD": "25",
+          "FUNCSTAT": "A",
+          "ALAND": "118669027",
+          "AWATER": "47415914",
+          "ALAND_SQMI": "45.818",
+          "AWATER_SQMI": "18.307",
+          "INTPTLAT": "37.626826",
+          "INTPTLONG": "-122.104015"
+        }
+      ],
+      "decision": "candidate_only_requires_identity_review"
+    },
+    {
+      "id": "co-brighton-undated",
+      "jurisdiction": "Brighton",
+      "type": "City",
+      "state": "CO",
+      "row_sha256": "7e28ebf8598de8c80ba62b67e108ddb6f442b27ed5fec938342c29af64f62d3c",
+      "table": "place",
+      "candidate_count": 1,
+      "candidates": [
+        {
+          "USPS": "CO",
+          "GEOID": "0808675",
+          "GEOIDFQ": "1600000US0808675",
+          "ANSICODE": "02409911",
+          "NAME": "Brighton city",
+          "LSAD": "25",
+          "FUNCSTAT": "A",
+          "ALAND": "56259372",
+          "AWATER": "658972",
+          "ALAND_SQMI": "21.722",
+          "AWATER_SQMI": "0.254",
+          "INTPTLAT": "39.965676",
+          "INTPTLONG": "-104.794056"
+        }
+      ],
+      "decision": "candidate_only_requires_identity_review"
+    },
+    {
+      "id": "co-fort-collins-undated",
+      "jurisdiction": "Fort Collins",
+      "type": "City",
+      "state": "CO",
+      "row_sha256": "f0dd5ef302c4ea357a1fe9c1131a9c6c58377f3defc02c868775e0ad0d3e9903",
+      "table": "place",
+      "candidate_count": 1,
+      "candidates": [
+        {
+          "USPS": "CO",
+          "GEOID": "0827425",
+          "GEOIDFQ": "1600000US0827425",
+          "ANSICODE": "02410526",
+          "NAME": "Fort Collins city",
+          "LSAD": "25",
+          "FUNCSTAT": "A",
+          "ALAND": "148446565",
+          "AWATER": "3264783",
+          "ALAND_SQMI": "57.316",
+          "AWATER_SQMI": "1.261",
+          "INTPTLAT": "40.548405",
+          "INTPTLONG": "-105.064988"
+        }
+      ],
+      "decision": "candidate_only_requires_identity_review"
+    },
+    {
+      "id": "co-phillips-county-2025",
+      "jurisdiction": "Phillips County",
+      "type": "County",
+      "state": "CO",
+      "row_sha256": "53132373a305bd8352191df9ae665c6df59cb7b3c6b37edd9cca4a8f42b09445",
+      "table": "counties",
+      "candidate_count": 1,
+      "candidates": [
+        {
+          "USPS": "CO",
+          "GEOID": "08095",
+          "GEOIDFQ": "0500000US08095",
+          "ANSICODE": "00198163",
+          "NAME": "Phillips County",
+          "ALAND": "1781724974",
+          "AWATER": "301808",
+          "ALAND_SQMI": "687.928",
+          "AWATER_SQMI": "0.117",
+          "INTPTLAT": "40.594712",
+          "INTPTLONG": "-102.345105"
+        }
+      ],
+      "decision": "candidate_only_requires_identity_review"
+    },
+    {
+      "id": "co-phillips-county-2024",
+      "jurisdiction": "Phillips County",
+      "type": "County",
+      "state": "CO",
+      "row_sha256": "43203ca000b39e8d9ac01a63dbaacd590c9b6a78c1a08ebc419b01abc46f21a4",
+      "table": "counties",
+      "candidate_count": 1,
+      "candidates": [
+        {
+          "USPS": "CO",
+          "GEOID": "08095",
+          "GEOIDFQ": "0500000US08095",
+          "ANSICODE": "00198163",
+          "NAME": "Phillips County",
+          "ALAND": "1781724974",
+          "AWATER": "301808",
+          "ALAND_SQMI": "687.928",
+          "AWATER_SQMI": "0.117",
+          "INTPTLAT": "40.594712",
+          "INTPTLONG": "-102.345105"
+        }
+      ],
+      "decision": "candidate_only_requires_identity_review"
+    },
+    {
+      "id": "de-kent-county-2022",
+      "jurisdiction": "Kent County",
+      "type": "County",
+      "state": "DE",
+      "row_sha256": "9c97d42b10112665048a9775f83214461bd3e3705c372b994b176ab4a530702a",
+      "table": "counties",
+      "candidate_count": 1,
+      "candidates": [
+        {
+          "USPS": "DE",
+          "GEOID": "10001",
+          "GEOIDFQ": "0500000US10001",
+          "ANSICODE": "00217271",
+          "NAME": "Kent County",
+          "ALAND": "1517891100",
+          "AWATER": "549776927",
+          "ALAND_SQMI": "586.061",
+          "AWATER_SQMI": "212.27",
+          "INTPTLAT": "39.097088",
+          "INTPTLONG": "-75.502982"
+        }
+      ],
+      "decision": "candidate_only_requires_identity_review"
+    },
+    {
+      "id": "de-kent-county-undated",
+      "jurisdiction": "Kent County",
+      "type": "County",
+      "state": "DE",
+      "row_sha256": "7b3b5aeedcba07f031bf0cfc3a07ff23f2a8be0dcbaf53944cb7734f1d9ae2ac",
+      "table": "counties",
+      "candidate_count": 1,
+      "candidates": [
+        {
+          "USPS": "DE",
+          "GEOID": "10001",
+          "GEOIDFQ": "0500000US10001",
+          "ANSICODE": "00217271",
+          "NAME": "Kent County",
+          "ALAND": "1517891100",
+          "AWATER": "549776927",
+          "ALAND_SQMI": "586.061",
+          "AWATER_SQMI": "212.27",
+          "INTPTLAT": "39.097088",
+          "INTPTLONG": "-75.502982"
+        }
+      ],
+      "decision": "candidate_only_requires_identity_review"
+    },
+    {
+      "id": "ga-union-county-2026",
+      "jurisdiction": "Union County",
+      "type": "County",
+      "state": "GA",
+      "row_sha256": "cf284fcc4fda97e7a434d1c5b8b3c79b7a15b626a07a46f0f74b6cd1896ef615",
+      "table": "counties",
+      "candidate_count": 1,
+      "candidates": [
+        {
+          "USPS": "GA",
+          "GEOID": "13291",
+          "GEOIDFQ": "0500000US13291",
+          "ANSICODE": "00353193",
+          "NAME": "Union County",
+          "ALAND": "838100493",
+          "AWATER": "18088330",
+          "ALAND_SQMI": "323.592",
+          "AWATER_SQMI": "6.984",
+          "INTPTLAT": "34.833333",
+          "INTPTLONG": "-83.989257"
+        }
+      ],
+      "decision": "candidate_only_requires_identity_review"
+    },
+    {
+      "id": "id-blaine-county-undated",
+      "jurisdiction": "Blaine County",
+      "type": "County",
+      "state": "ID",
+      "row_sha256": "f188537b21d87efd6c61cbab5c860d4c57bf7b832f57fc1fa5246191ed5148cf",
+      "table": "counties",
+      "candidate_count": 1,
+      "candidates": [
+        {
+          "USPS": "ID",
+          "GEOID": "16013",
+          "GEOIDFQ": "0500000US16013",
+          "ANSICODE": "00395696",
+          "NAME": "Blaine County",
+          "ALAND": "6831709467",
+          "AWATER": "44656832",
+          "ALAND_SQMI": "2637.738",
+          "AWATER_SQMI": "17.242",
+          "INTPTLAT": "43.394179",
+          "INTPTLONG": "-113.955387"
+        }
+      ],
+      "decision": "candidate_only_requires_identity_review"
+    },
+    {
+      "id": "il-chicago-undated",
+      "jurisdiction": "Chicago",
+      "type": "City",
+      "state": "IL",
+      "row_sha256": "ef1229871c0609af72f866d1982a7793e17d11e9b637d574143b199fefacbf5b",
+      "table": "place",
+      "candidate_count": 1,
+      "candidates": [
+        {
+          "USPS": "IL",
+          "GEOID": "1714000",
+          "GEOIDFQ": "1600000US1714000",
+          "ANSICODE": "00428803",
+          "NAME": "Chicago city",
+          "LSAD": "25",
+          "FUNCSTAT": "A",
+          "ALAND": "589839438",
+          "AWATER": "17575507",
+          "ALAND_SQMI": "227.738",
+          "AWATER_SQMI": "6.786",
+          "INTPTLAT": "41.837045",
+          "INTPTLONG": "-87.684939"
+        }
+      ],
+      "decision": "candidate_only_requires_identity_review"
+    },
+    {
+      "id": "il-stephenson-county-2026",
+      "jurisdiction": "Stephenson County",
+      "type": "County",
+      "state": "IL",
+      "row_sha256": "06e8190f84cfeea57c199ff84ab6f250208fd169c4fc1e287ebba75e84604445",
+      "table": "counties",
+      "candidate_count": 1,
+      "candidates": [
+        {
+          "USPS": "IL",
+          "GEOID": "17177",
+          "GEOIDFQ": "0500000US17177",
+          "ANSICODE": "01785076",
+          "NAME": "Stephenson County",
+          "ALAND": "1461392051",
+          "AWATER": "1350223",
+          "ALAND_SQMI": "564.247",
+          "AWATER_SQMI": "0.521",
+          "INTPTLAT": "42.349726",
+          "INTPTLONG": "-89.665994"
+        }
+      ],
+      "decision": "candidate_only_requires_identity_review"
+    },
+    {
+      "id": "in-vermillion-county-undated",
+      "jurisdiction": "Vermillion County",
+      "type": "County",
+      "state": "IN",
+      "row_sha256": "cec4310537affcfd49186ba8922421250888b9a3b1cce0cc2e7c7858671d8c22",
+      "table": "counties",
+      "candidate_count": 1,
+      "candidates": [
+        {
+          "USPS": "IN",
+          "GEOID": "18165",
+          "GEOIDFQ": "0500000US18165",
+          "ANSICODE": "00450397",
+          "NAME": "Vermillion County",
+          "ALAND": "665353006",
+          "AWATER": "7817398",
+          "ALAND_SQMI": "256.894",
+          "AWATER_SQMI": "3.018",
+          "INTPTLAT": "39.854045",
+          "INTPTLONG": "-87.462071"
+        }
+      ],
+      "decision": "candidate_only_requires_identity_review"
+    },
+    {
+      "id": "in-zionsville-undated",
+      "jurisdiction": "Zionsville",
+      "type": "Town",
+      "state": "IN",
+      "row_sha256": "cae6280e1a884dd5d088067d4d85a4f5488fa9b6391d3b4a0093be9b8ad68e38",
+      "table": "place",
+      "candidate_count": 1,
+      "candidates": [
+        {
+          "USPS": "IN",
+          "GEOID": "1886372",
+          "GEOIDFQ": "1600000US1886372",
+          "ANSICODE": "02397761",
+          "NAME": "Zionsville town",
+          "LSAD": "43",
+          "FUNCSTAT": "A",
+          "ALAND": "173949214",
+          "AWATER": "321293",
+          "ALAND_SQMI": "67.162",
+          "AWATER_SQMI": "0.124",
+          "INTPTLAT": "39.991538",
+          "INTPTLONG": "-86.321762"
+        }
+      ],
+      "decision": "candidate_only_requires_identity_review"
+    },
+    {
+      "id": "ia-sac-county-2025",
+      "jurisdiction": "Sac County",
+      "type": "County",
+      "state": "IA",
+      "row_sha256": "548ec4ccaf9369ce8988765284d7f30de09714b631936e4e198d2cb1e5084bfc",
+      "table": "counties",
+      "candidate_count": 1,
+      "candidates": [
+        {
+          "USPS": "IA",
+          "GEOID": "19161",
+          "GEOIDFQ": "0500000US19161",
+          "ANSICODE": "00465269",
+          "NAME": "Sac County",
+          "ALAND": "1489300197",
+          "AWATER": "8569436",
+          "ALAND_SQMI": "575.022",
+          "AWATER_SQMI": "3.309",
+          "INTPTLAT": "42.387526",
+          "INTPTLONG": "-95.105224"
+        }
+      ],
+      "decision": "candidate_only_requires_identity_review"
+    },
+    {
+      "id": "ia-sioux-county-2023",
+      "jurisdiction": "Sioux County",
+      "type": "County",
+      "state": "IA",
+      "row_sha256": "abd10c62f8c954c2bb06021b959b9754eb394bf3b679476e029dbec376965d11",
+      "table": "counties",
+      "candidate_count": 1,
+      "candidates": [
+        {
+          "USPS": "IA",
+          "GEOID": "19167",
+          "GEOIDFQ": "0500000US19167",
+          "ANSICODE": "00465272",
+          "NAME": "Sioux County",
+          "ALAND": "1988881487",
+          "AWATER": "2802041",
+          "ALAND_SQMI": "767.911",
+          "AWATER_SQMI": "1.082",
+          "INTPTLAT": "43.082618",
+          "INTPTLONG": "-96.17798"
+        }
+      ],
+      "decision": "candidate_only_requires_identity_review"
+    },
+    {
+      "id": "ky-camargo-2026",
+      "jurisdiction": "Camargo",
+      "type": "City",
+      "state": "KY",
+      "row_sha256": "04db6c998d1a42e01db5facb215dccb50db746d191c5a04fc93dbb18e1964780",
+      "table": "place",
+      "candidate_count": 1,
+      "candidates": [
+        {
+          "USPS": "KY",
+          "GEOID": "2112052",
+          "GEOIDFQ": "1600000US2112052",
+          "ANSICODE": "02403973",
+          "NAME": "Camargo city",
+          "LSAD": "25",
+          "FUNCSTAT": "A",
+          "ALAND": "5665325",
+          "AWATER": "66197",
+          "ALAND_SQMI": "2.187",
+          "AWATER_SQMI": "0.026",
+          "INTPTLAT": "37.999694",
+          "INTPTLONG": "-83.888489"
+        }
+      ],
+      "decision": "candidate_only_requires_identity_review"
+    },
+    {
+      "id": "la-bossier-parish-2022",
+      "jurisdiction": "Bossier Parish",
+      "type": "Parish",
+      "state": "LA",
+      "row_sha256": "f7f6be87595bb17eb06415b6e0be605029e4a218fd752068db5fdd917f235f64",
+      "table": "counties",
+      "candidate_count": 1,
+      "candidates": [
+        {
+          "USPS": "LA",
+          "GEOID": "22015",
+          "GEOIDFQ": "0500000US22015",
+          "ANSICODE": "00558453",
+          "NAME": "Bossier Parish",
+          "ALAND": "2174607049",
+          "AWATER": "70690680",
+          "ALAND_SQMI": "839.621",
+          "AWATER_SQMI": "27.294",
+          "INTPTLAT": "32.693317",
+          "INTPTLONG": "-93.631366"
+        }
+      ],
+      "decision": "candidate_only_requires_identity_review"
+    },
+    {
+      "id": "me-ashland-2024",
+      "jurisdiction": "Ashland",
+      "type": "Town",
+      "state": "ME",
+      "row_sha256": "ccbafa7f6d7f9c3a4740478107691318cfd9a0abcbb1522705b8156afdfee40f",
+      "table": "cousubs",
+      "candidate_count": 1,
+      "candidates": [
+        {
+          "USPS": "ME",
+          "GEOID": "2300301710",
+          "GEOIDFQ": "0600000US2300301710",
+          "ANSICODE": "00582331",
+          "NAME": "Ashland town",
+          "FUNCSTAT": "A",
+          "ALAND": "208271608",
+          "AWATER": "2932058",
+          "ALAND_SQMI": "80.414",
+          "AWATER_SQMI": "1.132",
+          "INTPTLAT": "46.650441",
+          "INTPTLONG": "-68.388373"
+        }
+      ],
+      "decision": "candidate_only_requires_identity_review"
+    },
+    {
+      "id": "me-bridgton-2022",
+      "jurisdiction": "Bridgton",
+      "type": "Town",
+      "state": "ME",
+      "row_sha256": "7b777dd766d8390a2387a7db6b30d3900ec964d61b4a9f9cf6bc8f5e9fd3f4d3",
+      "table": "cousubs",
+      "candidate_count": 1,
+      "candidates": [
+        {
+          "USPS": "ME",
+          "GEOID": "2300507170",
+          "GEOIDFQ": "0600000US2300507170",
+          "ANSICODE": "00582368",
+          "NAME": "Bridgton town",
+          "FUNCSTAT": "A",
+          "ALAND": "147279656",
+          "AWATER": "19100967",
+          "ALAND_SQMI": "56.865",
+          "AWATER_SQMI": "7.375",
+          "INTPTLAT": "44.047513",
+          "INTPTLONG": "-70.743319"
+        }
+      ],
+      "decision": "candidate_only_requires_identity_review"
+    },
+    {
+      "id": "md-proposed-or-rejected-local-pauses-undated",
+      "jurisdiction": "Proposed or Rejected Local Pauses",
+      "type": "Aggregate meta-row",
+      "state": "MD",
+      "row_sha256": "25726b329fdd285beb7bb05c479867c6057dc32feaca0f9219d0ea2ab43c46b2",
+      "table": null,
+      "candidate_count": 0,
+      "candidates": [],
+      "decision": "unmatched_or_aggregate"
+    },
+    {
+      "id": "md-talbot-county-2022",
+      "jurisdiction": "Talbot County",
+      "type": "County",
+      "state": "MD",
+      "row_sha256": "6b381bfcd358efd9dcc409d011e6d1f9ce996cb59858175abdc865663e720713",
+      "table": "counties",
+      "candidate_count": 1,
+      "candidates": [
+        {
+          "USPS": "MD",
+          "GEOID": "24041",
+          "GEOIDFQ": "0500000US24041",
+          "ANSICODE": "00592947",
+          "NAME": "Talbot County",
+          "ALAND": "695556060",
+          "AWATER": "539369003",
+          "ALAND_SQMI": "268.556",
+          "AWATER_SQMI": "208.252",
+          "INTPTLAT": "38.747066",
+          "INTPTLONG": "-76.177374"
+        }
+      ],
+      "decision": "candidate_only_requires_identity_review"
+    },
+    {
+      "id": "ma-braintree-undated",
+      "jurisdiction": "Braintree",
+      "type": "Town",
+      "state": "MA",
+      "row_sha256": "d42ceb65ed76cfb94992099afe69cae1d803ce6ac69c373a20b9a44e769ea99a",
+      "table": "place",
+      "candidate_count": 1,
+      "candidates": [
+        {
+          "USPS": "MA",
+          "GEOID": "2507740",
+          "GEOIDFQ": "1600000US2507740",
+          "ANSICODE": "00618316",
+          "NAME": "Braintree Town city",
+          "LSAD": "25",
+          "FUNCSTAT": "A",
+          "ALAND": "35644319",
+          "AWATER": "2076506",
+          "ALAND_SQMI": "13.762",
+          "AWATER_SQMI": "0.802",
+          "INTPTLAT": "42.206188",
+          "INTPTLONG": "-71.00232"
+        }
+      ],
+      "decision": "candidate_only_requires_identity_review"
+    },
+    {
+      "id": "ma-methuen-undated",
+      "jurisdiction": "Methuen",
+      "type": "City",
+      "state": "MA",
+      "row_sha256": "092c60961722f09407cfd1fb79990b4e19eadbd7cce626cfc1e07eab92b13128",
+      "table": "place",
+      "candidate_count": 1,
+      "candidates": [
+        {
+          "USPS": "MA",
+          "GEOID": "2540675",
+          "GEOIDFQ": "1600000US2540675",
+          "ANSICODE": "00618302",
+          "NAME": "Methuen city",
+          "LSAD": "25",
+          "FUNCSTAT": "A",
+          "ALAND": "57530306",
+          "AWATER": "2019537",
+          "ALAND_SQMI": "22.213",
+          "AWATER_SQMI": "0.78",
+          "INTPTLAT": "42.742648",
+          "INTPTLONG": "-71.178643"
+        }
+      ],
+      "decision": "candidate_only_requires_identity_review"
+    },
+    {
+      "id": "mi-locke-township-2023",
+      "jurisdiction": "Locke Township",
+      "type": "Township",
+      "state": "MI",
+      "row_sha256": "43f7645091176319ea3154b7e608f49cd6a98a41bbe777736493c185621785a2",
+      "table": "cousubs",
+      "candidate_count": 1,
+      "candidates": [
+        {
+          "USPS": "MI",
+          "GEOID": "2606549040",
+          "GEOIDFQ": "0600000US2606549040",
+          "ANSICODE": "01626634",
+          "NAME": "Locke township",
+          "FUNCSTAT": "A",
+          "ALAND": "92821126",
+          "AWATER": "582650",
+          "ALAND_SQMI": "35.838",
+          "AWATER_SQMI": "0.225",
+          "INTPTLAT": "42.733945",
+          "INTPTLONG": "-84.206362"
+        }
+      ],
+      "decision": "candidate_only_requires_identity_review"
+    },
+    {
+      "id": "mi-locke-township-2023-2",
+      "jurisdiction": "Locke Township",
+      "type": "Township",
+      "state": "MI",
+      "row_sha256": "926b0ff9231566c457d92adfe9af3e7fa83f1a77b175706d503fa529cc549785",
+      "table": "cousubs",
+      "candidate_count": 1,
+      "candidates": [
+        {
+          "USPS": "MI",
+          "GEOID": "2606549040",
+          "GEOIDFQ": "0600000US2606549040",
+          "ANSICODE": "01626634",
+          "NAME": "Locke township",
+          "FUNCSTAT": "A",
+          "ALAND": "92821126",
+          "AWATER": "582650",
+          "ALAND_SQMI": "35.838",
+          "AWATER_SQMI": "0.225",
+          "INTPTLAT": "42.733945",
+          "INTPTLONG": "-84.206362"
+        }
+      ],
+      "decision": "candidate_only_requires_identity_review"
+    },
+    {
+      "id": "mi-meridian-township-2026-2",
+      "jurisdiction": "Meridian Township",
+      "type": "Township",
+      "state": "MI",
+      "row_sha256": "e2b78ec238d78023806e7eb61e59c7c4396222d97278d5cd42ac060863414629",
+      "table": "cousubs",
+      "candidate_count": 1,
+      "candidates": [
+        {
+          "USPS": "MI",
+          "GEOID": "2606553140",
+          "GEOIDFQ": "0600000US2606553140",
+          "ANSICODE": "01626727",
+          "NAME": "Meridian charter township",
+          "FUNCSTAT": "A",
+          "ALAND": "79139692",
+          "AWATER": "2801290",
+          "ALAND_SQMI": "30.556",
+          "AWATER_SQMI": "1.082",
+          "INTPTLAT": "42.725291",
+          "INTPTLONG": "-84.419722"
+        }
+      ],
+      "decision": "candidate_only_requires_identity_review"
+    },
+    {
+      "id": "mi-other-reported-local-moratoria-undated",
+      "jurisdiction": "Other Reported Local Moratoria",
+      "type": "Aggregate meta-row",
+      "state": "MI",
+      "row_sha256": "94dc78ec6598553b7fb045e740399cff6256f97ef7c1c3087fdfe15ff97d9c51",
+      "table": null,
+      "candidate_count": 0,
+      "candidates": [],
+      "decision": "unmatched_or_aggregate"
+    },
+    {
+      "id": "mn-pequot-lakes-undated",
+      "jurisdiction": "Pequot Lakes",
+      "type": "City",
+      "state": "MN",
+      "row_sha256": "19c70f2492df034847851a135bd24333b3ef8f4c241b82c70afe5a6a383e4a13",
+      "table": "place",
+      "candidate_count": 1,
+      "candidates": [
+        {
+          "USPS": "MN",
+          "GEOID": "2750416",
+          "GEOIDFQ": "1600000US2750416",
+          "ANSICODE": "02396180",
+          "NAME": "Pequot Lakes city",
+          "LSAD": "25",
+          "FUNCSTAT": "A",
+          "ALAND": "42410355",
+          "AWATER": "4636341",
+          "ALAND_SQMI": "16.375",
+          "AWATER_SQMI": "1.79",
+          "INTPTLAT": "46.588091",
+          "INTPTLONG": "-94.287969"
+        }
+      ],
+      "decision": "candidate_only_requires_identity_review"
+    },
+    {
+      "id": "ne-sarpy-county-2020",
+      "jurisdiction": "Sarpy County",
+      "type": "County",
+      "state": "NE",
+      "row_sha256": "3bbb2c46807ed33cd95d236a41f41a18ad18466e18ef4e5c338f13df567321ab",
+      "table": "counties",
+      "candidate_count": 1,
+      "candidates": [
+        {
+          "USPS": "NE",
+          "GEOID": "31153",
+          "GEOIDFQ": "0500000US31153",
+          "ANSICODE": "00835898",
+          "NAME": "Sarpy County",
+          "ALAND": "616429135",
+          "AWATER": "24664758",
+          "ALAND_SQMI": "238.005",
+          "AWATER_SQMI": "9.523",
+          "INTPTLAT": "41.115064",
+          "INTPTLONG": "-96.109125"
+        }
+      ],
+      "decision": "candidate_only_requires_identity_review"
+    },
+    {
+      "id": "nj-east-windsor-undated",
+      "jurisdiction": "East Windsor",
+      "type": "Township",
+      "state": "NJ",
+      "row_sha256": "c6b646c9daeb0b936f5e4e8cf86f1352be78abf560a2f6ec2be0209ea060a5d3",
+      "table": "cousubs",
+      "candidate_count": 1,
+      "candidates": [
+        {
+          "USPS": "NJ",
+          "GEOID": "3402119780",
+          "GEOIDFQ": "0600000US3402119780",
+          "ANSICODE": "00882123",
+          "NAME": "East Windsor township",
+          "FUNCSTAT": "A",
+          "ALAND": "40319309",
+          "AWATER": "230662",
+          "ALAND_SQMI": "15.567",
+          "AWATER_SQMI": "0.089",
+          "INTPTLAT": "40.259139",
+          "INTPTLONG": "-74.533576"
+        }
+      ],
+      "decision": "candidate_only_requires_identity_review"
+    },
+    {
+      "id": "nm-silver-city-2021",
+      "jurisdiction": "Silver City",
+      "type": "Town",
+      "state": "NM",
+      "row_sha256": "c2e5f0b4e8544a2087834a7114da47aa8193f38ac5240cd7421de607a38a3373",
+      "table": "place",
+      "candidate_count": 1,
+      "candidates": [
+        {
+          "USPS": "NM",
+          "GEOID": "3573260",
+          "GEOIDFQ": "1600000US3573260",
+          "ANSICODE": "02413285",
+          "NAME": "Silver City town",
+          "LSAD": "43",
+          "FUNCSTAT": "A",
+          "ALAND": "26208176",
+          "AWATER": "51262",
+          "ALAND_SQMI": "10.119",
+          "AWATER_SQMI": "0.02",
+          "INTPTLAT": "32.778581",
+          "INTPTLONG": "-108.269409"
+        }
+      ],
+      "decision": "candidate_only_requires_identity_review"
+    },
+    {
+      "id": "ny-massena-undated",
+      "jurisdiction": "Massena",
+      "type": "Town",
+      "state": "NY",
+      "row_sha256": "3a822bc21137f281ed5e98e2e46fa5050bac9e801220ecdaed28d413361453c6",
+      "table": "cousubs",
+      "candidate_count": 1,
+      "candidates": [
+        {
+          "USPS": "NY",
+          "GEOID": "3608946030",
+          "GEOIDFQ": "0600000US3608946030",
+          "ANSICODE": "00979205",
+          "NAME": "Massena town",
+          "FUNCSTAT": "A",
+          "ALAND": "114853793",
+          "AWATER": "30558177",
+          "ALAND_SQMI": "44.345",
+          "AWATER_SQMI": "11.799",
+          "INTPTLAT": "44.96202",
+          "INTPTLONG": "-74.83465"
+        }
+      ],
+      "decision": "candidate_only_requires_identity_review"
+    },
+    {
+      "id": "ny-niagara-2024",
+      "jurisdiction": "Niagara",
+      "type": "Town",
+      "state": "NY",
+      "row_sha256": "4e5613d85f5964a569ac268caa274e9e6cc53948e26b37781232072bf442d59d",
+      "table": "cousubs",
+      "candidate_count": 1,
+      "candidates": [
+        {
+          "USPS": "NY",
+          "GEOID": "3606351033",
+          "GEOIDFQ": "0600000US3606351033",
+          "ANSICODE": "00979275",
+          "NAME": "Niagara town",
+          "FUNCSTAT": "A",
+          "ALAND": "24562714",
+          "AWATER": "0",
+          "ALAND_SQMI": "9.484",
+          "AWATER_SQMI": "0.",
+          "INTPTLAT": "43.115446",
+          "INTPTLONG": "-78.98098"
+        }
+      ],
+      "decision": "candidate_only_requires_identity_review"
+    },
+    {
+      "id": "nc-town-of-mooresville-undated",
+      "jurisdiction": "Town of Mooresville",
+      "type": "Town",
+      "state": "NC",
+      "row_sha256": "b444550b5a2e130ee98cb872c35ced0f8a9dac9deb014ddd7a1a405f3dcb21b0",
+      "table": "place",
+      "candidate_count": 1,
+      "candidates": [
+        {
+          "USPS": "NC",
+          "GEOID": "3744220",
+          "GEOIDFQ": "1600000US3744220",
+          "ANSICODE": "02406189",
+          "NAME": "Mooresville town",
+          "LSAD": "43",
+          "FUNCSTAT": "A",
+          "ALAND": "73002616",
+          "AWATER": "181074",
+          "ALAND_SQMI": "28.186",
+          "AWATER_SQMI": "0.07",
+          "INTPTLAT": "35.583591",
+          "INTPTLONG": "-80.828328"
+        }
+      ],
+      "decision": "candidate_only_requires_identity_review"
+    },
+    {
+      "id": "sc-awendaw-undated",
+      "jurisdiction": "Awendaw",
+      "type": "Town",
+      "state": "SC",
+      "row_sha256": "abcfc19ab4550b4078689a1908cce96d985c7f33f9ff92129bbc3eed3138f9a8",
+      "table": "place",
+      "candidate_count": 1,
+      "candidates": [
+        {
+          "USPS": "SC",
+          "GEOID": "4503385",
+          "GEOIDFQ": "1600000US4503385",
+          "ANSICODE": "02405192",
+          "NAME": "Awendaw town",
+          "LSAD": "43",
+          "FUNCSTAT": "A",
+          "ALAND": "42569398",
+          "AWATER": "500108",
+          "ALAND_SQMI": "16.436",
+          "AWATER_SQMI": "0.193",
+          "INTPTLAT": "32.967885",
+          "INTPTLONG": "-79.654755"
+        }
+      ],
+      "decision": "candidate_only_requires_identity_review"
+    },
+    {
+      "id": "tn-orlinda-2026",
+      "jurisdiction": "Orlinda",
+      "type": "City",
+      "state": "TN",
+      "row_sha256": "995cd29116891a9abc052e73e7fc229db4b4d40e0a8124d16105e13b8bbc18d7",
+      "table": "place",
+      "candidate_count": 1,
+      "candidates": [
+        {
+          "USPS": "TN",
+          "GEOID": "4756020",
+          "GEOIDFQ": "1600000US4756020",
+          "ANSICODE": "02404444",
+          "NAME": "Orlinda city",
+          "LSAD": "25",
+          "FUNCSTAT": "A",
+          "ALAND": "17064667",
+          "AWATER": "0",
+          "ALAND_SQMI": "6.589",
+          "AWATER_SQMI": "0.",
+          "INTPTLAT": "36.593839",
+          "INTPTLONG": "-86.701561"
+        }
+      ],
+      "decision": "candidate_only_requires_identity_review"
+    },
+    {
+      "id": "wa-spokane-valley-2026",
+      "jurisdiction": "Spokane Valley",
+      "type": "City",
+      "state": "WA",
+      "row_sha256": "815025036a6728b0285759309a59e5aa92453c0cf3f157ffe39c4fb6eabbb8f5",
+      "table": "place",
+      "candidate_count": 1,
+      "candidates": [
+        {
+          "USPS": "WA",
+          "GEOID": "5367167",
+          "GEOIDFQ": "1600000US5367167",
+          "ANSICODE": "02411957",
+          "NAME": "Spokane Valley city",
+          "LSAD": "25",
+          "FUNCSTAT": "A",
+          "ALAND": "97693332",
+          "AWATER": "747133",
+          "ALAND_SQMI": "37.72",
+          "AWATER_SQMI": "0.288",
+          "INTPTLAT": "47.663353",
+          "INTPTLONG": "-117.23278"
+        }
+      ],
+      "decision": "candidate_only_requires_identity_review"
+    },
+    {
+      "id": "wa-whitman-county-2025",
+      "jurisdiction": "Whitman County",
+      "type": "County",
+      "state": "WA",
+      "row_sha256": "8fa914834aeb5ee7d7bfb661a5cbfd765f1f1e669e1b48a1ad9fe337ae637113",
+      "table": "counties",
+      "candidate_count": 1,
+      "candidates": [
+        {
+          "USPS": "WA",
+          "GEOID": "53075",
+          "GEOIDFQ": "0500000US53075",
+          "ANSICODE": "01533501",
+          "NAME": "Whitman County",
+          "ALAND": "5592463290",
+          "AWATER": "48246694",
+          "ALAND_SQMI": "2159.262",
+          "AWATER_SQMI": "18.628",
+          "INTPTLAT": "46.905944",
+          "INTPTLONG": "-117.53539"
+        }
+      ],
+      "decision": "candidate_only_requires_identity_review"
+    },
+    {
+      "id": "wi-sun-prairie-2026",
+      "jurisdiction": "Sun Prairie",
+      "type": "City",
+      "state": "WI",
+      "row_sha256": "93ff4172b9ffa335414c8abd636022bd53bf637555b1fbe6545ca56a9af479dd",
+      "table": "place",
+      "candidate_count": 1,
+      "candidates": [
+        {
+          "USPS": "WI",
+          "GEOID": "5578600",
+          "GEOIDFQ": "1600000US5578600",
+          "ANSICODE": "01584255",
+          "NAME": "Sun Prairie city",
+          "LSAD": "25",
+          "FUNCSTAT": "A",
+          "ALAND": "34521876",
+          "AWATER": "641345",
+          "ALAND_SQMI": "13.329",
+          "AWATER_SQMI": "0.248",
+          "INTPTLAT": "43.183796",
+          "INTPTLONG": "-89.234319"
+        }
+      ],
+      "decision": "candidate_only_requires_identity_review"
+    }
+  ],
+  "counts": {
+    "missing": 41,
+    "unique_candidates": 39,
+    "ambiguous_candidates": 0,
+    "unmatched": 2
+  }
+}
