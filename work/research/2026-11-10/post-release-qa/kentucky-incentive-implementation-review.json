@@ -1,0 +1,76 @@
+{
+  "reviewed_at": "2026-11-10T15:24:34.902391+00:00",
+  "target_records": [
+    "ky-hb-775-2025-rs",
+    "ky-hb-8-2024-rs"
+  ],
+  "canonical_changes": 0,
+  "whole_record_closures": 0,
+  "native_source_readbacks": 4,
+  "sources": [
+    {
+      "attempt_id": "95ede54dfba040c9bb2630af4b0f0791",
+      "url": "https://fisearch.ced.ky.gov/SearchCriteria",
+      "body_sha256": "7fa0c17a549dca763eb8b86e801ce042eb7ea3c036fc03a7f2858fc080910d2b",
+      "text_sha256": "23126035ac756016c083e5a579fac6db0fb92af0f16af13caf992c7f624bf0f6",
+      "body_observed_at": "2026-11-10T15:16:19.290533Z"
+    },
+    {
+      "attempt_id": "8be1598074f74980aabfbc65a5718528",
+      "url": "https://ced.ky.gov/Locating_Expanding/kybizince/",
+      "body_sha256": "a9ff1f485932c0cd592affc2d9db5c1caebe960b22f9eef1e95a150ea09144ac",
+      "text_sha256": "c64c6862331bf6631e02733704cbab891c1e3efe741d83b93183b99279721ca6",
+      "body_observed_at": "2026-11-10T15:16:48.616586Z"
+    },
+    {
+      "attempt_id": "478e28f6061d4a8ba7b41699d646de9c",
+      "url": "https://cedky.com/cdn/1740_Qualified_Data_Center_Program.pdf",
+      "body_sha256": "66e38daace9b972d174690a5fc6559d3415bd95f552091b0b06dced7a2273aeb",
+      "text_sha256": "73d82bab2afb76a88b3ef1c011f4e9b93fda314837e964022c6d7ecea8a13581",
+      "body_observed_at": "2026-11-10T15:17:07.505203Z"
+    },
+    {
+      "attempt_id": "f1b29430199d432b8914eae7d22673f4",
+      "url": "https://cedky.com/cdn/1740_Data_Center_Program_Policy_wExecOrder.pdf",
+      "body_sha256": "f1335b68fd5aa8a77eb699f30a43e6bb5040bdcb73ed586d9330da33cca1e863",
+      "text_sha256": "58d64e16b9e105bbaab205b8858be7f1992facf3d53033a0c977ce61cd5fddc2",
+      "body_observed_at": "2026-11-10T15:17:07.757730Z"
+    }
+  ],
+  "findings": [
+    "The official incentive index links to the policy and process documents on cedky.com, establishing agency publication provenance.",
+    "Policy pages1-2 limit agreement term to the committed phase and relevant local community-benefits/PILOT agreement; statutory maximum periods are not automatic awards. The policy also addresses eligible costs, employment commitments and annual reporting.",
+    "The process document is headed Updated10/29/2026 and describes application, KEDFA resolution, post-resolution and agreement phases; its introduction mixes current requirements and additional policy recommendations. It is not treated as proof that every described recommendation is adopted law or any particular project has completed these phases.",
+    "Policy pages3-4 contain signed Executive Order2026-494, dated and expressly effectiveAugust6,2026. It addresses ratepayer protection/PSC cost shifting, environmental permits, tax/community commitments and preserves local community decisions. No later-force or independent review conclusion is accepted.",
+    "The financial-incentives database capture is an unsubmitted search form and does not establish a complete approval list. SerpAPI returned no requested official-domain sources; its results provide no evidence of report absence."
+  ],
+  "new_policy_candidate": {
+    "candidate_id": "ky-executive-order-2026-494-2026",
+    "instrument": "Executive Order2026-494",
+    "source_reported_date": "2026-08-06",
+    "source_reported_effective_date": "2026-08-06",
+    "primary_source_url": "https://cedky.com/cdn/1740_Data_Center_Program_Policy_wExecOrder.pdf",
+    "primary_source_body_sha256": "f1335b68fd5aa8a77eb699f30a43e6bb5040bdcb73ed586d9330da33cca1e863",
+    "locator": "Physical PDFpages3-4, both visually reviewed",
+    "state": "held_pending_independent_record_review_and_canonical_integration",
+    "in_canonical_policy_counts": false,
+    "questions": [
+      "Independently review exact instrument identity, scope, operative directives and appropriate typed mechanisms before canonical admission.",
+      "Review material later amendment/rescission, administrative/judicial developments and distinguish the order from subsequent KEDFA policy/process documents."
+    ]
+  },
+  "acquisition_accounting": {
+    "exa_searches": 1,
+    "exa_cost_usd": 0.007,
+    "serpapi_searches": 1,
+    "serpapi_cost_usd": null,
+    "serpapi_pricing": "Response unpriced; do not report a zero cost.",
+    "fetches": 4,
+    "scope": "Two official database/index pages and two actually linked agency PDFs; no prior code or original act refetch."
+  },
+  "limitations": [
+    "No actual company approval, memorandum, exemption certificate or annual report delivery established.",
+    "New EO candidate is outside canonical counts until its own review/integration; finding it disproves a complete-census claim, not existing-source integrity.",
+    "PDF metadata timestamps are not used as publication/effective dates."
+  ]
+}

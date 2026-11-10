@@ -486,6 +486,8 @@ class BaseUSMap:
             outdir.mkdir(parents=True, exist_ok=True)
             path = outdir / f"{filename}.{fmt}"
             self._fig.savefig(path, format=fmt, bbox_inches="tight", pad_inches=0.1)
+            if fmt == "svg":
+                path.write_text("\n".join(line.rstrip() for line in path.read_text().splitlines()) + "\n")
             paths.append(path)
             print(f"  Saved: {path.relative_to(parent.parent)}")
 

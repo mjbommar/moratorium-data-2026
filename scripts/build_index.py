@@ -21,6 +21,7 @@ from __future__ import annotations
 import argparse
 import csv
 import json
+import html as html_lib
 import re
 import sys
 from collections import Counter
@@ -101,7 +102,20 @@ def facts() -> dict:
         if (x := _d(r["date_enacted_iso"])) and _dt.date(2026, 8, 1) <= x <= _dt.date(2026, 8, 19)
     )
 
+    expanded = REPO / 'data/expanded'
+    measures = [json.loads(line) for line in (expanded / 'ballot_measures.jsonl').read_text().splitlines() if line.strip()]
+    results = [json.loads(line) for line in (expanded / 'measure_results.jsonl').read_text().splitlines() if line.strip()]
+    superseded = {row['supersedes_id'] for row in results if row.get('supersedes_id')}
+    current_results = [row for row in results if row['result_observation_id'] not in superseded]
     return {
+        "local_status_counts": dict(c),
+        "policy_forms": dict(Counter(r['policy_instrument_type'] for r in leg)),
+        "ballot_lifecycle": dict(Counter(r['lifecycle'] for r in measures)),
+        "ballot_records": len(measures),
+        "ballot_current_results": len(current_results),
+        "ballot_result_measures": len({r['measure_id'] for r in current_results}),
+        "ballot_retained_results": len(results),
+        "ballot_certification": dict(Counter(r['certification_status'] for r in current_results)),
         "rows": len(inv),
         "window_adoptions": window_adoptions,
         "august_adoptions": august_adoptions,
@@ -182,6 +196,72 @@ def changes_section(f: dict) -> str:
 {CHANGES_END}"""
 
 
+DASHBOARD_START = '<!-- BEGIN dashboard-summaries -->'
+DASHBOARD_END = '<!-- END dashboard-summaries -->'
+
+
+def dashboard_section(f: dict) -> str:
+    def table(title, rows, total, caption):
+        body = ''.join(f'<tr><th scope="row">{html_lib.escape(label)}</th><td>{count:,}</td></tr>' for label, count in rows)
+        return f'<div class="dashboard-card"><h3>{title}</h3><table><caption>{caption}</caption><thead><tr><th scope="col">Classification</th><th scope="col">Records</th></tr></thead><tbody>{body}</tbody><tfoot><tr><th scope="row">Total</th><td>{total:,}</td></tr></tfoot></table></div>'
+
+    def bars(rows, title, color):
+        maximum = max((count for _, count in rows), default=1) or 1
+        height = 32 * len(rows) + 26
+        content = []
+        for i, (label, count) in enumerate(rows):
+            y = i * 32 + 15
+            width = 235 * count / maximum
+            content.append(f'<text x="0" y="{y + 14}" fill="currentColor" font-size="13">{html_lib.escape(label)}</text><rect x="155" y="{y}" width="{width:.2f}" height="19" rx="3" fill="{color}"/><text x="{163 + width:.2f}" y="{y + 14}" fill="currentColor" font-size="13">{count:,}</text>')
+        return f'<svg viewBox="0 0 445 {height}" role="img" aria-label="{html_lib.escape(title)}" style="width:100%;height:auto"><title>{html_lib.escape(title)}</title>{"".join(content)}</svg>'
+
+    status = [(label, f['local_status_counts'].get(key, 0)) for key, label in [('active', 'Active'), ('extended', 'Extended'), ('pending', 'Pending'), ('replaced', 'Replaced'), ('expired', 'Expired'), ('rescinded', 'Rescinded'), ('rejected', 'Rejected'), ('unknown', 'Unknown')]]
+    certification = [(label, f['ballot_certification'].get(key, 0)) for key, label in [('certified', 'Certified'), ('unofficial', 'Unofficial'), ('unknown', 'Unknown')]]
+    amended = f['ballot_certification'].get('amended_certification', 0)
+    if amended:
+        certification.append(('Amended certification', amended))
+    forms = [(key.replace('_', ' ').capitalize(), count) for key, count in sorted(f['policy_forms'].items(), key=lambda item: (-item[1], item[0]))]
+    life = ', '.join(f"{count} {key.replace('_', ' ')}" for key, count in sorted(f['ballot_lifecycle'].items()))
+    dispositions = _RELEASE['record_dispositions']
+    unresolved = dispositions['unresolved']
+    certified = f['ballot_certification'].get('certified', 0) + amended
+    return f'''{DASHBOARD_START}
+<section class="dashboard-summary" aria-labelledby="dashboard-heading">
+<style>
+.dashboard-summary {{ margin:32px 0; padding:26px 0; border-top:1px solid var(--line); }}
+.dashboard-grid {{ display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,290px),1fr));gap:24px; }}
+.dashboard-card {{ min-width:0;padding:18px;border:1px solid var(--line);border-radius:10px; }}
+.dashboard-card table {{ border-collapse:collapse;width:100%;font-size:14px; }}
+.dashboard-card caption {{ text-align:left;color:var(--ink-soft);font-size:13px;padding-bottom:10px; }}
+.dashboard-card th,.dashboard-card td {{ text-align:left;padding:7px 3px;border-bottom:1px solid var(--line); }}
+.dashboard-card td:last-child,.dashboard-card thead th:last-child {{ text-align:right; }}
+.dashboard-card tbody th {{ font-weight:400; }}
+.dashboard-card svg {{ margin-bottom:12px; }}
+.qa-note {{ padding:16px;border-left:4px solid var(--accent);margin-top:22px; }}
+</style>
+<h2 id="dashboard-heading">Current data at a glance</h2>
+<p>The three trackers count different things. Local records are not added to policy observations or ballot measures.</p>
+<div class="dashboard-grid">
+<div class="dashboard-card"><h3>Recorded local status</h3>{bars(status, 'Local status counts; tabulated below', '#3975b5')}
+<p>{f['rows']:,} inventory records; classifications do not certify current legal force.</p></div>
+<div class="dashboard-card"><h3>Ballot result observations</h3>{bars(certification, 'Certification status of current result observations; tabulated below', '#3a8c72')}
+<p><strong>{f['ballot_records']} proposal and measure records</strong>: {life}. There are {f['ballot_current_results']} current result observations across {f['ballot_result_measures']} measures and {f['ballot_retained_results']} retained result versions. {certified} current observations are certified.</p>
+<p>Multiple reporting scopes can belong to one measure. Certification is separate from approval and operative legal effect.</p>
+<a href="docs/ballot-results.html">Read every reviewed result and source →</a><br><a href="data/expanded-csv/measure_results_current.csv" download>Download current results CSV →</a></div>
+</div>
+<div class="dashboard-grid" style="margin-top:24px">
+{table('Local inventory', status, f['rows'], 'Recorded status, one category per local row.')}
+{table('State-policy forms', forms, f['state_policy_actions'], 'Raw observations, not a count of enacted restrictions or unique bills.')}
+{table('Ballot certification', certification, f['ballot_current_results'], 'Current result observations, including distinct reporting scopes.')}
+</div>
+<div class="qa-note"><strong>{unresolved:,} record reviews remain unresolved.</strong>
+{dispositions['corrected_resolved']:,} are corrected/resolved and {dispositions['confirmed_unchanged']:,} confirmed unchanged within their recorded review scopes. Searches do not establish a complete nationwide census. Original cohort cutoff: {SOURCE_LABEL}; targeted later captures have their own dates.
+<a href="docs/known-gaps.html">Read the limitations</a> and <a href="work/research/2026-11-09/post-release-qa/outstanding-record-questions.jsonl">download the remaining questions</a>.
+The newly recovered <a href="work/research/2026-11-10/post-release-qa/kentucky-incentive-implementation-review.json">Kentucky executive-order candidate</a> awaits independent review and canonical integration; it is outside the policy count above.</div>
+</section>
+{DASHBOARD_END}'''
+
+
 def build_edits(f: dict) -> list[tuple[str, str, str]]:
     """(label, regex, replacement). Each regex must match exactly once."""
     top_n = len(f["top"])
@@ -250,6 +330,9 @@ def build_edits(f: dict) -> list[tuple[str, str, str]]:
         ("scope state count",
          r'(<strong class="scope-number" id="scope-state-count">)\d+(</strong>)',
          rf"\g<1>{f['state_policy_actions']}\g<2>"),
+        ("state-policy form description",
+         r'(<strong class="scope-number" id="scope-state-count">\d+</strong>\s*)<p>[^<]*</p>',
+         rf"\g<1><p>{f['bills']} bills and {f['state_policy_actions'] - f['bills']} other policy observations, including executive actions, resolutions and precursor memos. These are not all enacted or binding.</p>"),
         ("map caption",
          r"(Map shows )\d+( of )\d+( records\.)",
          rf"\g<1>{f['geocoded']}\g<2>{f['rows']}\g<3>"),
@@ -327,6 +410,17 @@ def main() -> int:
             applied.append("whats-changed section (inserted)")
         else:
             missing.append("whats-changed anchor")
+
+    dashboard = dashboard_section(f)
+    if DASHBOARD_START in html:
+        start = html.index(DASHBOARD_START)
+        end = html.index(DASHBOARD_END) + len(DASHBOARD_END)
+        if html[start:end] != dashboard:
+            html = html[:start] + dashboard + html[end:]
+            applied.append('dashboard summaries')
+    else:
+        html = html.replace(CHANGES_END, CHANGES_END + '\n\n' + dashboard, 1)
+        applied.append('dashboard summaries (inserted)')
 
     for label, pattern, repl in build_edits(f):
         if label == "top-states rows":

@@ -1,5 +1,9 @@
 # Changelog
 
+## Qualified v2026.11.10.post14
+
+Public dashboard copy, status/ballot charts and tables, state tables and current inventory-driven maps refreshed. Four Kentucky incentive prose fields corrected. A newly recovered Kentucky executive order remains a held candidate outside canonical counts. No status categories, normalized dates, analytical membership, native history or whole-record dispositions change. There are 1,347 unresolved reviews. [Scope and delivery](work/research/2026-11-10/release-2026.11.10.post14/README.md).
+
 ## Qualified v2026.11.10.post13
 
 Eighteen fields across four existing records corrected: West Haven adoption/packet distinction, New Haven signature/provision versions, Independence original terms and later permanent standards, Wyoming HB0325 sponsor identities/parties. No status categories, normalized dates, analytical membership, native history or whole-record dispositions change. There are 1,347 unresolved reviews. [Scope and delivery checks](work/research/2026-11-10/release-2026.11.10.post13/README.md).
