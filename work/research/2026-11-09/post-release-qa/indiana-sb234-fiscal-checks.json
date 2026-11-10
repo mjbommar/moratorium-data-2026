@@ -1,0 +1,96 @@
+{
+  "exact_current_batch_delta": [
+    {
+      "id": "in-sb-234",
+      "field": "key_provisions"
+    }
+  ],
+  "exact_pending_post8_policy_delta": [
+    {
+      "id": "in-sb-234",
+      "field": "key_provisions"
+    },
+    {
+      "id": "oh-hb-96",
+      "field": "status"
+    },
+    {
+      "id": "oh-hb-96",
+      "field": "key_provisions"
+    }
+  ],
+  "checks": [
+    {
+      "command": [
+        "scripts/validate_dataset.py",
+        "--today",
+        "2026-11-10"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/build_policy_scope_exports.py",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/build_summary_stats.py",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/build_geojson.py",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/make_timeline.py",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/check_docs_numbers.py"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "-m",
+        "scripts.generate_tables.inventory_clean",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/build_index.py",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/classify_sources.py",
+        "--check"
+      ],
+      "returncode": 0
+    }
+  ],
+  "unresolved_records": 1354,
+  "scope_membership_changes": 0,
+  "status_category_changes": 0,
+  "whole_record_closures": 0,
+  "source_store_readbacks": 1,
+  "scope_registry_append_only": true,
+  "summary_bytes_unchanged": true,
+  "prior_hosted_and_consumer_delivery_receipts_preserved": true
+}
