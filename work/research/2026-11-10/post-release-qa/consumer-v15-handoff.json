@@ -1,0 +1,444 @@
+{
+  "source_commit": "738c40f310fb06d2e58bd6a71a74db1598414156",
+  "manifest_sha256": "37f15b25bac26b19a3bf888cdf96f680091347545f57ca32781e2d98e2cc9fd8",
+  "expanded_snapshot": "216e9ca5a0b9533e0413ae70eb3d35499c3bd4dd978637b582acab8a9fb94887",
+  "current_counts": {
+    "moratorium_records": 1328,
+    "state_policy_records": 448,
+    "ballot_measures": 57,
+    "retained_results": 64,
+    "current_results": 53,
+    "retained_events": 12,
+    "current_accepted_historical_events": 12,
+    "restriction_records": 3,
+    "measure_instrument_link_records": 1
+  },
+  "files": 2312,
+  "entries": 2511,
+  "verified_at": "2026-11-10T05:42:55.789692+00:00",
+  "consumer_verification": {
+    "handoff": {
+      "state": "verified",
+      "source_commit": "738c40f310fb06d2e58bd6a71a74db1598414156",
+      "manifest_sha256": "37f15b25bac26b19a3bf888cdf96f680091347545f57ca32781e2d98e2cc9fd8",
+      "expanded_snapshot": "216e9ca5a0b9533e0413ae70eb3d35499c3bd4dd978637b582acab8a9fb94887",
+      "files": 2312,
+      "entries": 2511,
+      "checks": [
+        {
+          "command": [
+            "scripts/check_expanded_publication.py"
+          ],
+          "exit_code": 0,
+          "result": {
+            "state": "consistent",
+            "snapshot_sha256": "216e9ca5a0b9533e0413ae70eb3d35499c3bd4dd978637b582acab8a9fb94887",
+            "generations_checked": 48,
+            "records": {
+              "jurisdictions": 53,
+              "elections": 51,
+              "ballot_measures": 57,
+              "measure_provisions": 52,
+              "measure_results": 64,
+              "local_restrictions": 3,
+              "instrument_events": 12,
+              "measure_instrument_links": 1,
+              "source_documents": 167,
+              "claims": 621,
+              "review_decisions": 2742,
+              "search_runs": 1,
+              "search_attempts": 3,
+              "search_sightings": 18,
+              "coverage_observations": 1
+            },
+            "scope": "Offline publication/receipt consistency only; no source reacquisition, renewed factual acceptance or current-force confirmation."
+          }
+        },
+        {
+          "command": [
+            "scripts/build_expanded_csv.py",
+            "--check"
+          ],
+          "exit_code": 0,
+          "result": {
+            "state": "matches",
+            "source_snapshot": "216e9ca5a0b9533e0413ae70eb3d35499c3bd4dd978637b582acab8a9fb94887",
+            "projection_sha256": "d9ceae98a0b54763703244dc397c147504f0bcbf8763e54abcabde00d2c05cee",
+            "csv_views": 18
+          }
+        },
+        {
+          "command": [
+            "scripts/build_policy_scope_exports.py",
+            "--check"
+          ],
+          "exit_code": 0,
+          "result": "policy-scope exports current"
+        }
+      ],
+      "checks_run": true,
+      "scope": "Pinned input integrity and offline publication consistency, not source reacquisition or downstream join acceptance."
+    },
+    "policy_semantics": {
+      "total_state_policy_actions": 448,
+      "total_state_bills": 427,
+      "state_policy_instrument_type_counts": {
+        "bill": 427,
+        "executive_order": 2,
+        "governor_directive": 1,
+        "legislative_amendment": 1,
+        "legislative_precursor": 3,
+        "legislative_resolution": 12,
+        "statute": 2
+      },
+      "top_states_by_bills": [
+        [
+          "Pennsylvania",
+          18
+        ],
+        [
+          "Virginia",
+          18
+        ],
+        [
+          "West Virginia",
+          18
+        ],
+        [
+          "Maryland",
+          16
+        ],
+        [
+          "New Jersey",
+          16
+        ],
+        [
+          "California",
+          14
+        ],
+        [
+          "South Dakota",
+          14
+        ],
+        [
+          "Arizona",
+          13
+        ],
+        [
+          "Iowa",
+          13
+        ],
+        [
+          "Michigan",
+          13
+        ],
+        [
+          "Minnesota",
+          12
+        ],
+        [
+          "Ohio",
+          12
+        ],
+        [
+          "Oklahoma",
+          12
+        ],
+        [
+          "Illinois",
+          11
+        ],
+        [
+          "Kansas",
+          11
+        ]
+      ],
+      "top_states_by_policy_actions": [
+        [
+          "Pennsylvania",
+          22
+        ],
+        [
+          "Virginia",
+          18
+        ],
+        [
+          "West Virginia",
+          18
+        ],
+        [
+          "Maryland",
+          17
+        ],
+        [
+          "New Jersey",
+          17
+        ],
+        [
+          "California",
+          14
+        ],
+        [
+          "Michigan",
+          14
+        ],
+        [
+          "South Dakota",
+          14
+        ],
+        [
+          "Arizona",
+          13
+        ],
+        [
+          "Iowa",
+          13
+        ],
+        [
+          "Kansas",
+          12
+        ],
+        [
+          "Minnesota",
+          12
+        ],
+        [
+          "Ohio",
+          12
+        ],
+        [
+          "Oklahoma",
+          12
+        ],
+        [
+          "Illinois",
+          11
+        ]
+      ]
+    },
+    "scope": "Authenticated canonical input consistency and semantics; not independent substantive legal QA."
+  },
+  "index_verification": {
+    "snapshot": "data/source-snapshots/moratoria/2026-11-10-reviewed-v15",
+    "source_commit": "738c40f310fb06d2e58bd6a71a74db1598414156",
+    "manifest_sha256": "37f15b25bac26b19a3bf888cdf96f680091347545f57ca32781e2d98e2cc9fd8",
+    "tracked_files_and_symlinks": 2313,
+    "exact_staged_git_blob_bytes_and_modes": true,
+    "scope": "Exact staged snapshot content, Git modes and path set against the pinned manifest, including the manifest itself. This is not an independent legal review."
+  },
+  "delta_from_v14": {
+    "local": {
+      "changed_rows": 13,
+      "changed_cells": 31,
+      "changes": [
+        {
+          "id": "ca-imperial-2026",
+          "field": "latitude",
+          "before": "33.030549",
+          "after": "32.838801"
+        },
+        {
+          "id": "ca-imperial-2026",
+          "field": "longitude",
+          "before": "-115.359567",
+          "after": "-115.572012"
+        },
+        {
+          "id": "il-city-of-west-chicago-2026",
+          "field": "latitude",
+          "before": "41.930953",
+          "after": "41.895343"
+        },
+        {
+          "id": "il-city-of-west-chicago-2026",
+          "field": "longitude",
+          "before": "-87.772554",
+          "after": "-88.220469"
+        },
+        {
+          "id": "mi-big-rapids-charter-township-2026",
+          "field": "latitude",
+          "before": "43.013441",
+          "after": "43.679795"
+        },
+        {
+          "id": "mi-big-rapids-charter-township-2026",
+          "field": "longitude",
+          "before": "-85.608119",
+          "after": "-85.502554"
+        },
+        {
+          "id": "mi-houghton-2026",
+          "field": "latitude",
+          "before": "46.859129",
+          "after": "47.111751"
+        },
+        {
+          "id": "mi-houghton-2026",
+          "field": "longitude",
+          "before": "-88.777473",
+          "after": "-88.567237"
+        },
+        {
+          "id": "mi-mason-2026",
+          "field": "current_status",
+          "before": "The January 5, 2026 official minutes record only first reading of Ordinance 267; contemporaneous news reported approval. Whether the moratorium became operative and its relationship to Ordinance 266 remain unresolved. Ordinance 266 was adopted February 2; the city index records its repeal March 16 after referendum petitions. Earlier Fox47 reporting attributed suspension to citizen petition and described a 4-2 repeal and return to M2 regulations. [VERIFY Ordinance 267 adoption, effect and termination; jurisdiction coordinates]",
+          "after": "The January 5, 2026 official minutes record only first reading of Ordinance 267; contemporaneous news reported approval. Whether the moratorium became operative and its relationship to Ordinance 266 remain unresolved. Ordinance 266 was adopted February 2; the city index records its repeal March 16 after referendum petitions. Earlier Fox47 reporting attributed suspension to citizen petition and described a 4-2 repeal and return to M2 regulations. [VERIFY Ordinance 267 adoption, effect and termination]"
+        },
+        {
+          "id": "mi-mason-2026",
+          "field": "latitude",
+          "before": "43.977883",
+          "after": "42.580693"
+        },
+        {
+          "id": "mi-mason-2026",
+          "field": "longitude",
+          "before": "-86.246291",
+          "after": "-84.442283"
+        },
+        {
+          "id": "mi-saline-city-2026",
+          "field": "latitude",
+          "before": "43.616689",
+          "after": "42.173829"
+        },
+        {
+          "id": "mi-saline-city-2026",
+          "field": "longitude",
+          "before": "-83.838902",
+          "after": "-83.776924"
+        },
+        {
+          "id": "mn-rice-undated",
+          "field": "current_status",
+          "before": "WJON reported that the City of Rice was scheduled to consider a proposed one-year moratorium and study on September 21, 2026; the retained article does not report the vote result. A Rice County-labelled blog repeats that report. [VERIFY vote result, city identity, coordinates and whether the Rice County petition relates to this proposal.]",
+          "after": "WJON reported that the City of Rice was scheduled to consider a proposed one-year moratorium and study on September 21, 2026; the retained article does not report the vote result. A Rice County-labelled blog repeats that report. [VERIFY vote result and whether the Rice County petition relates to this proposal.]"
+        },
+        {
+          "id": "mn-rice-undated",
+          "field": "latitude",
+          "before": "44.341338",
+          "after": "45.758617"
+        },
+        {
+          "id": "mn-rice-undated",
+          "field": "longitude",
+          "before": "-93.286548",
+          "after": "-94.242906"
+        },
+        {
+          "id": "nc-town-of-franklin-2026",
+          "field": "latitude",
+          "before": "36.102860",
+          "after": "35.179422"
+        },
+        {
+          "id": "nc-town-of-franklin-2026",
+          "field": "longitude",
+          "before": "-78.278723",
+          "after": "-83.380691"
+        },
+        {
+          "id": "ny-glenville-2025",
+          "field": "latitude",
+          "before": "41.034419",
+          "after": "42.888252"
+        },
+        {
+          "id": "ny-glenville-2025",
+          "field": "longitude",
+          "before": "-73.665470",
+          "after": "-73.9887"
+        },
+        {
+          "id": "ny-montgomery-2025",
+          "field": "current_status",
+          "before": "Town of Montgomery, Orange County minutes record adoption of Local Law 2-2025 removing BESS as a specially permitted use; the town attorney said filing would cancel the existing moratorium. A contemporaneous report identifies a November 28, 2023 twelve-month pause, without establishing the intervening instruments. The October 2026 tracker reports Montgomery lifted. Filing and the relationship between the two pauses remain unverified. The legacy coordinates require geographic review. [VERIFY original and intervening instruments, filing and coordinates.]",
+          "after": "Town of Montgomery, Orange County minutes record adoption of Local Law 2-2025 removing BESS as a specially permitted use; the town attorney said filing would cancel the existing moratorium. A contemporaneous report identifies a November 28, 2023 twelve-month pause, without establishing the intervening instruments. The October 2026 tracker reports Montgomery lifted. Filing and the relationship between the two pauses remain unverified. [VERIFY original and intervening instruments and filing.]"
+        },
+        {
+          "id": "ny-montgomery-2025",
+          "field": "latitude",
+          "before": "42.894127",
+          "after": "41.539726"
+        },
+        {
+          "id": "ny-montgomery-2025",
+          "field": "longitude",
+          "before": "-74.409975",
+          "after": "-74.209958"
+        },
+        {
+          "id": "ny-victory-2024",
+          "field": "current_status",
+          "before": "July 8, 2024 Town of Victory, Cayuga County minutes introduce a BESS moratorium; October 14 minutes record a 5–0 adoption of Local Law #2, a temporary BESS land-use moratorium. The cited June 2025 document concerns Mentz, not a Victory extension; an industry tracker lists Victory, Cayuga County under review. [VERIFY original law, filing, term, later action and geographic identity.]",
+          "after": "July 8, 2024 Town of Victory, Cayuga County minutes introduce a BESS moratorium; October 14 minutes record a 5–0 adoption of Local Law #2, a temporary BESS land-use moratorium. The cited June 2025 document concerns Mentz, not a Victory extension; an industry tracker lists Victory, Cayuga County under review. [VERIFY original law, filing, term and later action.]"
+        },
+        {
+          "id": "ny-victory-2024",
+          "field": "latitude",
+          "before": "43.091857",
+          "after": "43.210319"
+        },
+        {
+          "id": "ny-victory-2024",
+          "field": "longitude",
+          "before": "-73.591758",
+          "after": "-76.648094"
+        },
+        {
+          "id": "oh-providence-township-2026",
+          "field": "current_status",
+          "before": "The Toledo Free Press reported a unanimous trustee vote on 2026-04-15 for a 12-month moratorium on data center construction. Effective date and later action are unverified. [VERIFY: primary instrument, operative interval, subsequent action and township coordinates.]",
+          "after": "The Toledo Free Press reported a unanimous trustee vote on 2026-04-15 for a 12-month moratorium on data center construction. Effective date and later action are unverified. [VERIFY: primary instrument, operative interval, subsequent action.]"
+        },
+        {
+          "id": "oh-providence-township-2026",
+          "field": "latitude",
+          "before": "39.324878",
+          "after": "41.4697"
+        },
+        {
+          "id": "oh-providence-township-2026",
+          "field": "longitude",
+          "before": "-84.192426",
+          "after": "-83.836485"
+        },
+        {
+          "id": "ok-choctaw-2026",
+          "field": "latitude",
+          "before": "34.024623",
+          "after": "35.484983"
+        },
+        {
+          "id": "ok-choctaw-2026",
+          "field": "longitude",
+          "before": "-95.520550",
+          "after": "-97.269942"
+        }
+      ]
+    },
+    "policy": {
+      "changed_rows": 0,
+      "changed_cells": 0,
+      "changes": []
+    }
+  },
+  "coordinate_cells": 26,
+  "prose_cells": 5,
+  "status_category_changes": 0,
+  "expanded_additions": {},
+  "expanded_tables_unchanged": true,
+  "ballot_records_unchanged": true,
+  "whole_record_closures": 0,
+  "trusted_verifier_sha256": "ebecf851d4196715df186cc81cc3c933ab7da550fbafd7207996cd94b9cd2739",
+  "scope": "Authenticated canonical input delivery matching qualifiedNovember10 release; thirteen reference-point corrections only, no boundary/project exposure or legal-force acceptance. Transport sorting fix retains historical manifest format and all checks.1368 whole-record holds remain.",
+  "verifier_staged_blob_matches_trusted_pin": true,
+  "consumer_commit": "963d8c8a4918ebf0638aacb4da306b140b3752cf",
+  "consumer_remote_main_verified": true,
+  "qualified_release": "v2026.11.10",
+  "qualified_release_manifest_sha256": "5029b1a73047e63f338c37240774f768e9d031dccb027e7aa3b7ccc2b7f04c0b",
+  "hosted_source_verification": "work/research/2026-11-10/release-2026.11.10/hosted-copy-verification.json",
+  "committed_consumer_verifier_matches_trusted_pin": true
+}
