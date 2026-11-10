@@ -1,0 +1,84 @@
+{
+  "reviewed_at": "2026-11-10T03:02:57.426717+00:00",
+  "sources": [
+    {
+      "name": "may-packet-retry",
+      "url": "https://cowetacoga.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=2584,plainText=false)",
+      "body_sha256": "c79dcea8c191cecdad3b8e5a2f6f4b81be0e78eaa1a56b396c3e8e251e4cf7e6",
+      "reviewed_text_sha256": "48aa02ff8e962388f959d8116044d37b952c2240376aa45b1f4542cb926f1234",
+      "attempt_id": "f84774bbd8774a00b4d8ec213e7cdb0c",
+      "body_bytes": 84762812,
+      "body_observed_at": "2026-11-10T03:00:51.525359Z"
+    },
+    {
+      "name": "june-packet-retry",
+      "url": "https://cowetacoga.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=3500,plainText=false)",
+      "body_sha256": "b5109324899c42a4f2fc9834bf3fabf65c0a4cf96789adc00df9ca8ada49b42d",
+      "reviewed_text_sha256": "17b9e22aeda0d87b07611de3e1507f4bfc94f30e031db523493b8c43dfacbfc1",
+      "attempt_id": "5214e6ec42ef44e58a851ac594973a14",
+      "body_bytes": 87605627,
+      "body_observed_at": "2026-11-10T03:00:51.272785Z"
+    },
+    {
+      "name": "later-events",
+      "url": "https://cowetacoga.api.civicclerk.com/v1/Events?$filter=eventDate%20ge%202026-06-17T00:00:00Z%20and%20eventDate%20le%202026-11-10T00:00:00Z%20and%20categoryName%20eq%20%27Board%20of%20Commissioners%27&$top=100",
+      "body_sha256": "0c03e98f97898b78eb7e8e3087cd41d16865ea2fa780611d54ac9c2a33d0decd",
+      "reviewed_text_sha256": "15d746080e5771cbc0e1bb04fb876130b2e95cdf2c937bc320f21ce5a5ed1912",
+      "attempt_id": "6b25146988dc4e7d95417733a7d59977",
+      "body_bytes": 54935,
+      "body_observed_at": "2026-11-10T03:00:07.303654Z"
+    },
+    {
+      "name": "october20-agenda",
+      "url": "https://cowetacoga.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=3712,plainText=false)",
+      "body_sha256": "ed1317350abf6e55999af2c2abdd079b1aae93d397b74a0e21cd57740aaeaa68",
+      "reviewed_text_sha256": "4b96c13f4c6f6affec0e2b8a69ecfa9576fc18b7340de100f9759245a39ae3cd",
+      "attempt_id": "134fa8a33d1e4d6e8f6d083573219996",
+      "body_bytes": 142985,
+      "body_observed_at": "2026-11-10T03:01:03.303974Z"
+    }
+  ],
+  "failed_attempts": [
+    {
+      "name": "may-packet",
+      "url": "https://cowetacoga.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=2584,plainText=false)",
+      "attempt_id": "0e465efc3d394e6e9c17474bfa5b7c17",
+      "reason": "Response body of 84762812 bytes exceeds the cap of 50000000 bytes (url=https://cowetacoga.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=2584,plainText=false)) Raise BC_WEB_MAX_BODY_BYTES if this target is trusted.",
+      "retained_response_bytes": 0
+    },
+    {
+      "name": "june-packet",
+      "url": "https://cowetacoga.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=3500,plainText=false)",
+      "attempt_id": "175e4489ec3844558d781072ce92c5a4",
+      "reason": "Response body of 87605627 bytes exceeds the cap of 50000000 bytes (url=https://cowetacoga.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=3500,plainText=false)) Raise BC_WEB_MAX_BODY_BYTES if this target is trusted.",
+      "retained_response_bytes": 0
+    }
+  ],
+  "http_cap": 6,
+  "http_requests": 6,
+  "successful_captures": 4,
+  "body_cap_override": {
+    "default_bytes": 50000000,
+    "trusted_retry_bytes": 100000000,
+    "scope": "Only two exact official packet IDs2584/3500; failed initial attempts retained, not counted as substantive captures."
+  },
+  "findings": [
+    "June16/2026 packet pages513-514 attach a resolution matching the minutes:180-day bar on specified application/hearing classes through11:59pm December13, subject to earlier amendment or affirmative extension/termination; section4 states effectiveness on board approval.",
+    "The packet recital expresses intent not to disturb previously approved development or applications made before adoption. It does not establish individual vested-rights determinations or a five-project exemption.",
+    "June packet page514 has visually blank chairman/clerk signature lines. It is not accepted as an executed resolution copy.",
+    "The May6 packet has531 pages. No moratorium word match was found in retained reading-order extraction; the record was introduced as non-agenda item27. This is not proof the resolution is absent from every page or nonexistent. No complete visual/OCR coverage is claimed.",
+    "The later official events query returns13 Board events throughNovember5, with no nextLink. Minutes are listed throughOctober6; October13/20, November3/5 files listed here are agenda/packets. Missing minute metadata is not proof no meeting or no legal action.",
+    "October20 agenda3712 was reviewed. No adoption/current-force conclusion is inferred from its agenda items. Earlier original adoption minutes and zoning ordinance038-25 are reused rather than refetched."
+  ],
+  "visual_review": {
+    "source": "june-packet-retry",
+    "pdf_page": 514,
+    "image_sha256": "0b5edef86f90e898b54583baff8c27e5bd4a09779cf621ce6c282e4c7b268d27",
+    "finding": "Blank chairman and clerk signature lines; dated June16/2026 text."
+  },
+  "canonical_cells_changed": 0,
+  "status_category_changes": 0,
+  "whole_record_closures": 0,
+  "next_action": "Seek executed resolutions or certified records; retrieve relevant later minutes when available or affirmative later ordinance records. Do not repeat the two large packet downloads or interpret index/agenda absence as legal absence.",
+  "scope": "Original instrument draft text and exact acquisition/availability limits; no acceptance of current force, actual termination, litigation outcome or project exemptions."
+}
