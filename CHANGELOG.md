@@ -1,10 +1,10 @@
 # Changelog
 
-## Qualified v2026.11.9.post9 preparation
+## Qualified v2026.11.9.post9
 
-Published one qualified Starke policy-succession event from the temporary permit moratorium to the adopted zoning prohibition, with one retained original source, two claims and eight decisions. All 621 claims pass the normal evidence/publication gate, with exact replay and preservation verified. Current expanded totals are twelve historical events and three restriction records. Legacy CSVs, ballot records and every earlier expanded row are unchanged. The policy-relationship review task is resolved; actual publication, formal termination, overlap and force remain open. No whole-record QA hold closes. Release/consumer synchronization is pending. [Review](work/research/2026-11-09/starke-succession-review/README.md).
+Published one qualified Starke policy-succession event from the temporary permit moratorium to the adopted zoning prohibition, with one retained original source, two claims and eight decisions. All 621 claims pass the normal evidence/publication gate, with exact replay and preservation verified. Current expanded totals are twelve historical events and three restriction records. Legacy CSVs, ballot records and every earlier expanded row are unchanged. The policy-relationship review task is resolved; actual publication, formal termination, overlap and force remain open. No whole-record QA hold closes. [Post9 and matching consumer V14 delivery](work/research/2026-11-09/release-2026.11.9.post9/README.md) are verified. [Review](work/research/2026-11-09/starke-succession-review/README.md).
 
-| Metric | Qualified v2026.11.9.post9 preparation |
+| Metric | Qualified v2026.11.9.post9 |
 |---|---:|
 | Moratoria in the list | **1,328** |
 | Classified active or extended | **1,087** |

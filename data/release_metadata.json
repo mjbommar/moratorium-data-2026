@@ -15,12 +15,12 @@
     "Experimental model extraction/P4 has not passed; no experimental extraction output is accepted automatically.",
     "The companion April paper and dated sibling publications retain their historical editions."
   ],
-  "update_status": "qualified_release_pending_delivery",
+  "update_status": "qualified_release_with_ongoing_qa",
   "full_inventory_closeout": "reviewed_and_applied_with_bounded_unresolved_questions",
   "consumer_dispositions": "delivered_with_historical_editions_preserved",
   "experimental_extractor": "failed_no_automatic_promotion",
   "quality_gate_disposition": "User authorized publication of the current state with qualifications on pending QA, followed by continued double checking and resolution of outstanding questions.",
-  "reviewed_data_source_commit": "2a466afc5b140d004d69b769599da6cfb104a3bb",
+  "reviewed_data_source_commit": "84fc817cfb1d72d6049d0697ce2c5e281d1acaf9",
   "record_dispositions": {
     "unresolved": 1368,
     "corrected_resolved": 171,
@@ -31,7 +31,7 @@
   "record_disposition_path": "work/research/2026-11-08/full-record-dispositions/funnel.json",
   "qa_status": "ongoing",
   "publication_authorization": "publish current state with qualifications on pending QA, then continue to double check and clear the outstanding questions",
-  "working_revision": "post9-prepared",
+  "working_revision": "post9-delivery-receipt",
   "current_raw_counts": {
     "local": 1328,
     "state_policy": 448,
@@ -40,16 +40,16 @@
   "prior_release": "v2026.11.9.post8",
   "prior_release_source_commit": "3e6078986fdc14e6ce2b1d6028698e1c3ac4e49e",
   "prior_published_source_commit": "3e6078986fdc14e6ce2b1d6028698e1c3ac4e49e",
-  "published_source_reference": "The v2026.11.9.post9 tag and manifest identify the source when published. Previous published_source_commit and consumer receipts retain historical delivered cutoffs until separately verified delivery.",
+  "published_source_reference": "The v2026.11.9.post9 release tag and manifest identify the exact source. Later delivery receipts do not rewrite source-cutoff metadata or immutable assets.",
   "latest_consumer_handoff": {
-    "source_commit": "3e6078986fdc14e6ce2b1d6028698e1c3ac4e49e",
-    "consumer_commit": "f704e2f8ed60382ce72c932c9d7bac7080d796ed",
-    "manifest_sha256": "ed05ddabdf9e072056d61bb0ec7d17376bf4f2e514612f4a8878d948bfc48085",
-    "receipt": "work/research/2026-11-09/post-release-qa/consumer-v13-handoff.json",
-    "scope": "Verified input delivery matching qualified post8; historical Starke adoption accepted, legal-effect/predecessor and Massachusetts independent QA remain open."
+    "source_commit": "84fc817cfb1d72d6049d0697ce2c5e281d1acaf9",
+    "consumer_commit": "3bd16dc6838645c1f27799640cfd9edd7f9c3601",
+    "manifest_sha256": "4513dc7b848e562eb5b881eb1cff560a55d7112de124fcb24a8879f5c5222d3d",
+    "receipt": "work/research/2026-11-09/post-release-qa/consumer-v14-handoff.json",
+    "scope": "Verified input delivery matching qualified post9; qualified Starke policy relationship accepted, legal-effect/termination and Alaska terminal holds plus Massachusetts independent QA remain open."
   },
   "release_date_timezone": "America/New_York",
-  "published_source_commit": "3e6078986fdc14e6ce2b1d6028698e1c3ac4e49e",
+  "published_source_commit": "84fc817cfb1d72d6049d0697ce2c5e281d1acaf9",
   "september_status_category_differences": {
     "local": 98,
     "policy": 39,
@@ -58,24 +58,22 @@
   },
   "latest_geography_review": "work/research/2026-11-09/post-release-qa/missing-geography-application.json",
   "latest_delivered_consumer_input_delta": {
-    "baseline_source_commit": "18125103a37ceabaf6e2a46f698f90bdf0b689b9",
-    "baseline_consumer_commit": "24af6752ba045d10bb1b5c3a5d465ea19e1a855e",
+    "baseline_source_commit": "3e6078986fdc14e6ce2b1d6028698e1c3ac4e49e",
+    "baseline_consumer_commit": "f704e2f8ed60382ce72c932c9d7bac7080d796ed",
     "changed_local_rows": 0,
     "changed_policy_rows": 0,
     "changed_cells": 0,
     "status_category_changes": 0,
-    "new_scope_inclusions": 0,
     "expanded_additions": {
-      "jurisdictions": 1,
-      "local_restrictions": 1,
       "instrument_events": 1,
       "source_documents": 1,
-      "claims": 6,
-      "review_decisions": 18
+      "claims": 2,
+      "review_decisions": 8
     },
-    "receipt": "work/research/2026-11-09/starke-expanded-review/publication-application.json",
-    "scope": "Delivered in qualified post8 and verified V13: append-only expanded Starke historical adoption; legacy and ballot records unchanged; no whole-record closures.",
-    "delivery_receipt": "work/research/2026-11-09/post-release-qa/consumer-v13-handoff.json"
+    "receipt": "work/research/2026-11-09/starke-succession-review/publication-application.json",
+    "scope": "Delivered in qualified post9 and verified V14: append-only Starke policy-succession relationship and Alaska QA notes; legacy and ballot records unchanged; no whole-record closures.",
+    "additional_source_followup": "work/research/2026-11-09/post-release-qa/alaska-terminal-adjudications.json",
+    "delivery_receipt": "work/research/2026-11-09/post-release-qa/consumer-v14-handoff.json"
   },
   "latest_source_followup": "work/research/2026-11-09/post-release-qa/alaska-terminal-adjudications.json",
   "latest_expanded_candidate_review": "work/research/2026-11-09/starke-succession-review/validation.json",
@@ -98,21 +96,24 @@
     "profile": "1.0.4",
     "scope": "Historical adoption and provisions; operative status, publication, applicability and legal force remain unknown."
   },
-  "pending_consumer_input_delta": {
-    "baseline_source_commit": "3e6078986fdc14e6ce2b1d6028698e1c3ac4e49e",
-    "baseline_consumer_commit": "f704e2f8ed60382ce72c932c9d7bac7080d796ed",
+  "prior_delivered_consumer_input_delta": {
+    "baseline_source_commit": "18125103a37ceabaf6e2a46f698f90bdf0b689b9",
+    "baseline_consumer_commit": "24af6752ba045d10bb1b5c3a5d465ea19e1a855e",
     "changed_local_rows": 0,
     "changed_policy_rows": 0,
     "changed_cells": 0,
     "status_category_changes": 0,
+    "new_scope_inclusions": 0,
     "expanded_additions": {
+      "jurisdictions": 1,
+      "local_restrictions": 1,
       "instrument_events": 1,
       "source_documents": 1,
-      "claims": 2,
-      "review_decisions": 8
+      "claims": 6,
+      "review_decisions": 18
     },
-    "receipt": "work/research/2026-11-09/starke-succession-review/publication-application.json",
-    "scope": "Qualified historical policy succession; legacy, ballot and prior expanded rows unchanged. Release/consumer synchronization pending.",
-    "additional_source_followup": "work/research/2026-11-09/post-release-qa/alaska-terminal-adjudications.json"
+    "receipt": "work/research/2026-11-09/starke-expanded-review/publication-application.json",
+    "scope": "Delivered in qualified post8 and verified V13: append-only expanded Starke historical adoption; legacy and ballot records unchanged; no whole-record closures.",
+    "delivery_receipt": "work/research/2026-11-09/post-release-qa/consumer-v13-handoff.json"
   }
 }

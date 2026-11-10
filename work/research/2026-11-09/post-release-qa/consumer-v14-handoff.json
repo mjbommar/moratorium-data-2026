@@ -1,0 +1,255 @@
+{
+  "source_commit": "84fc817cfb1d72d6049d0697ce2c5e281d1acaf9",
+  "manifest_sha256": "4513dc7b848e562eb5b881eb1cff560a55d7112de124fcb24a8879f5c5222d3d",
+  "expanded_snapshot": "216e9ca5a0b9533e0413ae70eb3d35499c3bd4dd978637b582acab8a9fb94887",
+  "current_counts": {
+    "moratorium_records": 1328,
+    "state_policy_records": 448,
+    "ballot_measures": 57,
+    "retained_results": 64,
+    "current_results": 53,
+    "retained_events": 12,
+    "current_accepted_historical_events": 12,
+    "restriction_records": 3,
+    "measure_instrument_link_records": 1
+  },
+  "files": 2297,
+  "entries": 2492,
+  "verified_at": "2026-11-10T04:44:49.789300+00:00",
+  "consumer_verification": {
+    "handoff": {
+      "state": "verified",
+      "source_commit": "84fc817cfb1d72d6049d0697ce2c5e281d1acaf9",
+      "manifest_sha256": "4513dc7b848e562eb5b881eb1cff560a55d7112de124fcb24a8879f5c5222d3d",
+      "expanded_snapshot": "216e9ca5a0b9533e0413ae70eb3d35499c3bd4dd978637b582acab8a9fb94887",
+      "files": 2297,
+      "entries": 2492,
+      "checks": [
+        {
+          "command": [
+            "scripts/check_expanded_publication.py"
+          ],
+          "exit_code": 0,
+          "result": {
+            "state": "consistent",
+            "snapshot_sha256": "216e9ca5a0b9533e0413ae70eb3d35499c3bd4dd978637b582acab8a9fb94887",
+            "generations_checked": 48,
+            "records": {
+              "jurisdictions": 53,
+              "elections": 51,
+              "ballot_measures": 57,
+              "measure_provisions": 52,
+              "measure_results": 64,
+              "local_restrictions": 3,
+              "instrument_events": 12,
+              "measure_instrument_links": 1,
+              "source_documents": 167,
+              "claims": 621,
+              "review_decisions": 2742,
+              "search_runs": 1,
+              "search_attempts": 3,
+              "search_sightings": 18,
+              "coverage_observations": 1
+            },
+            "scope": "Offline publication/receipt consistency only; no source reacquisition, renewed factual acceptance or current-force confirmation."
+          }
+        },
+        {
+          "command": [
+            "scripts/build_expanded_csv.py",
+            "--check"
+          ],
+          "exit_code": 0,
+          "result": {
+            "state": "matches",
+            "source_snapshot": "216e9ca5a0b9533e0413ae70eb3d35499c3bd4dd978637b582acab8a9fb94887",
+            "projection_sha256": "d9ceae98a0b54763703244dc397c147504f0bcbf8763e54abcabde00d2c05cee",
+            "csv_views": 18
+          }
+        },
+        {
+          "command": [
+            "scripts/build_policy_scope_exports.py",
+            "--check"
+          ],
+          "exit_code": 0,
+          "result": "policy-scope exports current"
+        }
+      ],
+      "checks_run": true,
+      "scope": "Pinned input integrity and offline publication consistency, not source reacquisition or downstream join acceptance."
+    },
+    "policy_semantics": {
+      "total_state_policy_actions": 448,
+      "total_state_bills": 427,
+      "state_policy_instrument_type_counts": {
+        "bill": 427,
+        "executive_order": 2,
+        "governor_directive": 1,
+        "legislative_amendment": 1,
+        "legislative_precursor": 3,
+        "legislative_resolution": 12,
+        "statute": 2
+      },
+      "top_states_by_bills": [
+        [
+          "Pennsylvania",
+          18
+        ],
+        [
+          "Virginia",
+          18
+        ],
+        [
+          "West Virginia",
+          18
+        ],
+        [
+          "Maryland",
+          16
+        ],
+        [
+          "New Jersey",
+          16
+        ],
+        [
+          "California",
+          14
+        ],
+        [
+          "South Dakota",
+          14
+        ],
+        [
+          "Arizona",
+          13
+        ],
+        [
+          "Iowa",
+          13
+        ],
+        [
+          "Michigan",
+          13
+        ],
+        [
+          "Minnesota",
+          12
+        ],
+        [
+          "Ohio",
+          12
+        ],
+        [
+          "Oklahoma",
+          12
+        ],
+        [
+          "Illinois",
+          11
+        ],
+        [
+          "Kansas",
+          11
+        ]
+      ],
+      "top_states_by_policy_actions": [
+        [
+          "Pennsylvania",
+          22
+        ],
+        [
+          "Virginia",
+          18
+        ],
+        [
+          "West Virginia",
+          18
+        ],
+        [
+          "Maryland",
+          17
+        ],
+        [
+          "New Jersey",
+          17
+        ],
+        [
+          "California",
+          14
+        ],
+        [
+          "Michigan",
+          14
+        ],
+        [
+          "South Dakota",
+          14
+        ],
+        [
+          "Arizona",
+          13
+        ],
+        [
+          "Iowa",
+          13
+        ],
+        [
+          "Kansas",
+          12
+        ],
+        [
+          "Minnesota",
+          12
+        ],
+        [
+          "Ohio",
+          12
+        ],
+        [
+          "Oklahoma",
+          12
+        ],
+        [
+          "Illinois",
+          11
+        ]
+      ]
+    },
+    "scope": "Authenticated reviewed input delivery and semantics; not independent substantive legal QA. Historical downstream joins retain their cutoffs."
+  },
+  "index_verification": {
+    "snapshot": "data/source-snapshots/moratoria/2026-11-09-reviewed-v14",
+    "source_commit": "84fc817cfb1d72d6049d0697ce2c5e281d1acaf9",
+    "manifest_sha256": "4513dc7b848e562eb5b881eb1cff560a55d7112de124fcb24a8879f5c5222d3d",
+    "tracked_files_and_symlinks": 2298,
+    "exact_staged_git_blob_bytes_and_modes": true,
+    "scope": "Exact staged snapshot content, Git modes and path set against the pinned manifest, including the manifest itself. This is not an independent legal review."
+  },
+  "delta_from_v13": {
+    "local": {
+      "changed_rows": 0,
+      "changed_cells": 0,
+      "changes": []
+    },
+    "policy": {
+      "changed_rows": 0,
+      "changed_cells": 0,
+      "changes": []
+    }
+  },
+  "trusted_verifier_sha256": "7b05070929c964e2b4f9225cfb3a81ef4c52729633b3f86b421b2eee1d3b7364",
+  "scope": "Authenticated current canonical input delivery from same source as qualified post9. Historical populations, joins and manuscript editions retain their cutoffs. Source/legal QA and independent QA of Massachusetts addition remain open.",
+  "expanded_additions": {
+    "instrument_events": 1,
+    "source_documents": 1,
+    "claims": 2,
+    "review_decisions": 8
+  },
+  "ballot_records_unchanged": true,
+  "consumer_commit": "3bd16dc6838645c1f27799640cfd9edd7f9c3601",
+  "consumer_remote_main_verified": true,
+  "qualified_release": "v2026.11.9.post9",
+  "qualified_release_manifest_sha256": "8ce3d922f255e185ba366994eb1be95aec5f7811b2d02c3a755f66dc4011a47a",
+  "hosted_source_verification": "work/research/2026-11-09/release-2026.11.9.post9/hosted-copy-verification.json"
+}

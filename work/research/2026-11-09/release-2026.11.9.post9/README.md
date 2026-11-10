@@ -1,3 +1,7 @@
-# Qualified post9 preparation
+# Qualified post9 delivery
 
-The [scope and qualifications](release-body.md), [exact table delta](dataset-delta.json), [Starke review](../starke-succession-review/README.md), and [Alaska review](../post-release-qa/alaska-terminal-adjudications.json) describe this update. Remote release and consumer delivery remain pending until verified.
+Published [post9](https://github.com/mjbommar/moratorium-data-2026/releases/tag/v2026.11.9.post9) pins `84fc817cfb1d72d6049d0697ce2c5e281d1acaf9`. [Scope and qualifications](release-body.md), [exact table delta](dataset-delta.json), [Starke composition/source review](../starke-succession-review/README.md) and [Alaska QA](../post-release-qa/alaska-terminal-adjudications.json) describe this update.
+
+[Two identical builds and ten assets](build-and-assets.json), [full clean restore](clean-restore.json), [ten anonymous downloads and all 2,237 archive members](public-verification.json), and [thirteen hosted surfaces](hosted-copy-verification.json) are verified. Release manifest `8ce3d922f255e185ba366994eb1be95aec5f7811b2d02c3a755f66dc4011a47a`. [Six unchanged assets and eleven unchanged expanded tables](archive-comparison.json) preserve the legacy/ballot data. All prior expanded records and generations are retained.
+
+[Consumer V14](../post-release-qa/consumer-v14-handoff.md) is independently verified technically and pushed from the same source. Source-cutoff pending metadata is historical and fulfilled by later receipts, without rewriting immutable assets. Actual publication, formal termination, overlap, operative force and project applicability remain open. Alaska terminal dispositions, 1,368 whole-record holds and Massachusetts independent QA remain pending. No DOI is asserted.
