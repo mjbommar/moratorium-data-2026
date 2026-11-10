@@ -2,6 +2,8 @@
 
 ## Working QA after v2026.11.9.post6
 
+Audubon County February24 minutes establish the missing BESS Resolution2026-12, effective immediately untilMay1/2026 or earlier permanent ordinance. Four cells add the intermediate instrument and qualify later-action coverage for storage/data centers. October20 Ordinance2026-2 concerns towers and commission membership. Continuity across earlier term boundaries and current force remain unresolved. [Review](work/research/2026-11-09/post-release-qa/audubon-followup-adjudications.json). Nine accumulated cells across four local rows await synchronization after post6/V11; no status or whole-record disposition changes.
+
 Coweta County official May6/2025 and June16/2026 minutes confirm both adoption motions. Five cells across two records correct the May vote to unanimous, specify the described termination conditions and remove an unverified five-project blanket-exemption claim. Executed resolutions, later acts, litigation and individual vested rights remain unresolved; no status category or whole-record disposition changes. [Review](work/research/2026-11-09/post-release-qa/coweta-followup-adjudications.json). Post6 and V11 retain their immutable source cutoff; these five fields await later synchronization.
 
 | Metric | Working QA after v2026.11.9.post6 |

@@ -96,14 +96,14 @@ State policy is tracked separately: **13 records** (13 typed bill rows) in [`sta
 - **Recorded status:** 🟢 Extended
 - **Date enacted:** 2025-08-12 -- Board of Supervisors adopted Resolution 2025-46 imposing a temporary moratorium on utility-scale BESS until January 1, 2026 (after public hearing); extended 2026-05-05 by Resolution 2026-25 until May 1, 2027.
 - **Normalized date:** `2025-08-12` (exact)
-- **Duration:** Originally until January 1, 2026 or earlier passage of a utility-scale BESS development ordinance; Resolution 2026-25, described as an extension, imposed a moratorium effective May 5, 2026 until May 1, 2027 or earlier passage of a permanent utility-scale BESS development ordinance. Continuity between the two terms is not established.
+- **Duration:** Resolution 2025-46 specified January 1, 2026 or earlier permanent BESS ordinance. Resolution 2026-12 imposed an immediately effective February 24, 2026 term until May 1, 2026 or earlier permanent BESS development ordinance. Resolution 2026-25 imposed an immediately effective May 5, 2026 term until May 1, 2027 or earlier permanent BESS development ordinance. Continuity across the January 1-February 24 and May 1-May 5 intervals remains unverified.
 - **Current end date:** `2027-05-01`
 - **Sectors:** battery storage
 - **Moratorium ID:** `ia-audubon-county-2025`
-- **Legal basis:** Resolution 2025-46 (2025-08-12); extended by Resolution 2026-25 (2026-05-05)
+- **Legal basis:** Resolution 2025-46 (August 12, 2025); Resolution 2026-12 (February 24, 2026), described as an extension until May 1, 2026; Resolution 2026-25 (May 5, 2026), described as an extension until May 1, 2027. Each instrument retains its stated early-termination condition.
 - **What prompted it:** County has no specific ordinance for utility-scale BESS; time needed to coordinate with agencies and create ordinances.
 - **Affected projects:** One company considering a BESS in the county reportedly supported the pause.
-- **Detailed status:** Extended; active as of 2026-09-23 through 2027-05-01 or earlier passage of a BESS ordinance.
+- **Detailed status:** Recorded extended following the May 5, 2026 adoption of Resolution 2026-25 through May 1, 2027 or earlier permanent BESS development ordinance. February 24 minutes establish the intervening Resolution 2026-12; uninterrupted force across the stated term boundaries is not established. October 20 Ordinance 2026-2 addresses towers and commission membership and is not accepted as a permanent BESS ordinance. Complete later-action history, actual operative interval and current legal force remain unverified.
 - **Outcome:** —
 
 ### Audubon County
@@ -119,7 +119,7 @@ State policy is tracked separately: **13 records** (13 typed bill rows) in [`sta
 - **Legal basis:** Resolution 2026-27, immediately stopping the acceptance or processing of applications to construct commercial data centers, including commercial cryptocurrency mining operations
 - **What prompted it:** Pause pending adoption of a permanent data center development ordinance
 - **Affected projects:** —
-- **Detailed status:** Active as of 2026-09-23; runs until 2027-05-01 or earlier passage of a permanent data center development ordinance. No permanent data center ordinance or rescission was found in county minutes or regional coverage through September 2026.
+- **Detailed status:** Resolution 2026-27, adopted May 5, 2026, records a term until May 1, 2027 or earlier permanent data-center development ordinance. October 6 minutes discuss and explain the temporary data-center moratorium without recording a permanent-ordinance adoption in that discussion. October 20 Ordinance 2026-2 concerns towers and commission membership and is not accepted as a superseding data-center development ordinance. Only October 6/13/20 later minutes were inspected in this follow-up; complete intervening action history and present legal force remain unverified.
 - **Outcome:** —
 
 ### Boone County
