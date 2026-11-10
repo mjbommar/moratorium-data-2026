@@ -1,0 +1,122 @@
+{
+  "reviewed_at": "2026-11-10T08:55:54.056267+00:00",
+  "reviewer": "root direct retained original-text and visual review; no new independent reviewer",
+  "id": "va-sb130-2026",
+  "recommendation": "corrected_resolved",
+  "prior_row_sha256": "91b2f014d0ed75e9dfdf033f341401afe8da4cafd89437b253d9b94a83f2b3d6",
+  "current_row_sha256": "39f74eddef804167b36ec9b111c0acc19eed2279b44f5b1c993e9e624cc2d80f",
+  "prior_questions": [
+    "No provision-by-provision comparison with receiving Chapter 568 was performed."
+  ],
+  "remaining_questions": [],
+  "sources": [
+    {
+      "url": "https://lis.virginia.gov/bill-details/20261/SB130",
+      "body_sha256": "0dd5641162409b72d05b1612c21eefeca855ce88d0d4cc82ce0e04af23f82482",
+      "text_sha256": "3d5eeb0c150e753046279f8bf9ad7a55bb21d90c60d027343648d4b0a926bd1e",
+      "locator": "introduced summary; body history February 3 incorporation into SB94"
+    },
+    {
+      "url": "https://lis.virginia.gov/bill-details/20261/SB94",
+      "body_sha256": "3d4ea88551c764db16e0f675852cb253c4ec40d084b09e9aef8b80d270b8c428",
+      "text_sha256": "bbd442a4205ec84855968f744967019872e90fd3aac704594e0bb03da5f49afe",
+      "locator": "as-passed summary and April 13 approval as Chapter 568, stated July 1 effective date"
+    },
+    {
+      "url": "https://lis.blob.core.windows.net/files/1082949.PDF",
+      "body_sha256": "0ba82c243a7d10f5d01291bf32245bc61fab688a9daab468b81b16af8c818865",
+      "text_sha256": "59c8b1b9f161d949adfca0d8e10ffb7358a42c436b22cb6d8a3244b507390374",
+      "locator": "introduced print, material operative provision; layout extracted from retained PDF"
+    },
+    {
+      "url": "https://lis.blob.core.windows.net/files/1218755.PDF",
+      "body_sha256": "f67529fc8b7eabde4e0f17c50844da6eefb082b8067c6ecac55b40b6ce6e8026",
+      "text_sha256": "a90f79038764703cfd44c55f20a1eddc1ffcf637247c4c194ed7bcc53d0ec254",
+      "locator": "Complete one-page2026 Acts of Assembly Chapter568 (SB94), approvedApril13; all subsections A-G compared against introducedSB130 and both pages visually reviewed at130dpi."
+    }
+  ],
+  "subsection_comparisons": [
+    {
+      "subsection": "A",
+      "introduced_text_sha256": "5bf2db083a89b1c1e015e70bc03d548e75ae0a5e202d366662d5512a830ce6d6",
+      "enacted_text_sha256": "086a0fad50a605e49f9554a9e295558b24758d6458697bc15d3b9e4944c0da0e",
+      "equal_after_layout_normalization": false
+    },
+    {
+      "subsection": "B",
+      "introduced_text_sha256": "63235ebb14415ba2caa0c183f1de856f4c3a61f02c1e622d3028d91ceccdea98",
+      "enacted_text_sha256": "2e2a86fea8662f00c799c33aaf6f3abdf4676f73c1554d541aaafd6f8b91159b",
+      "equal_after_layout_normalization": false
+    },
+    {
+      "subsection": "C",
+      "introduced_text_sha256": "b4e9e677aaa9242bc04a0434d823d45aa3d3ab1c748cff2f39b0099adcd8d39a",
+      "enacted_text_sha256": "b4e9e677aaa9242bc04a0434d823d45aa3d3ab1c748cff2f39b0099adcd8d39a",
+      "equal_after_layout_normalization": true
+    },
+    {
+      "subsection": "D",
+      "introduced_text_sha256": "da8c4a99e4482728be79f5768f56a14fd75a99e96b449914e7e6737222c3daf7",
+      "enacted_text_sha256": "da8c4a99e4482728be79f5768f56a14fd75a99e96b449914e7e6737222c3daf7",
+      "equal_after_layout_normalization": true
+    },
+    {
+      "subsection": "E",
+      "introduced_text_sha256": "3af4ed69eadc0cac992cc26751eeb9dc333273963869ccb195e5ad6897edcad1",
+      "enacted_text_sha256": "3af4ed69eadc0cac992cc26751eeb9dc333273963869ccb195e5ad6897edcad1",
+      "equal_after_layout_normalization": true
+    },
+    {
+      "subsection": "F",
+      "introduced_text_sha256": "9834949e742e7618d32aa1c749977fe7abfe649ca486730de0fe9d0d19a45aeb",
+      "enacted_text_sha256": "9834949e742e7618d32aa1c749977fe7abfe649ca486730de0fe9d0d19a45aeb",
+      "equal_after_layout_normalization": true
+    },
+    {
+      "subsection": "G",
+      "introduced_text_sha256": "338e0612bb13d73db349ea98ce2809506b27bc4d52605e2818f247c706d3b9a2",
+      "enacted_text_sha256": "338e0612bb13d73db349ea98ce2809506b27bc4d52605e2818f247c706d3b9a2",
+      "equal_after_layout_normalization": true
+    }
+  ],
+  "normalization": "pdftotext -layout; introduced line numbers, repeated SB130 footer and extraction timestamp removed; whitespace collapsed; no substantive words otherwise removed.",
+  "wording_differences": [
+    {
+      "subsection": "A",
+      "before": "a proposed facility",
+      "after": "a facility"
+    },
+    {
+      "subsection": "B",
+      "before": "effect of the HEUF on",
+      "after": "effect of the proposed facility on"
+    }
+  ],
+  "visual_review": [
+    {
+      "document": "introduced",
+      "page": 1,
+      "dpi": 130,
+      "render_sha256": "3da31d8552403edb734328be2de8d12a934efe29b991b6f39b2278337603f4d4"
+    },
+    {
+      "document": "chapter568",
+      "page": 1,
+      "dpi": 130,
+      "render_sha256": "715fedc9866a97014456588362b2103d9a47d511bf53504b6970418227d00d94"
+    }
+  ],
+  "field_changes": [
+    {
+      "field": "key_provisions",
+      "before": "Introduced SB130 proposed requiring applicants for specified local approvals of a new high energy use facility to assess sound effects on homes and schools within 500 feet, and permitting additional resource assessments, subject to its stated expansion exception and preserved local authority. It was incorporated into SB94, which was approved as Chapter 568; incorporation alone does not establish that every SB130 provision was enacted.",
+      "after": "Introduced SB130 proposed a 100 MW high energy use facility definition; applicant sound assessment for homes/schools within 500 feet; optional resource assessments; utility substation/transmission disclosures; consistency review; and preserved State Corporation Commission and local zoning authority, with the stated expansion exception. Its February3 incorporation into SB94 is distinguished from independent enactment. Direct comparison with enacted Chapter568 shows two wording changes: subsection A omits proposed before facility, and subsection B changes effect of the HEUF to effect of the proposed facility. Subsections C-G retain identical substantive text after layout normalization. These are provisions in the receiving enacted chapter, not an additional enactment of SB130; later force and particular facility applicability are not established by this comparison."
+    }
+  ],
+  "canonical_cells_changed": 1,
+  "status_category_changes": 0,
+  "scope_membership_changes": 0,
+  "whole_record_closures": 1,
+  "new_network_requests": 0,
+  "scope": "Closes assigned historical named-bill incorporation-content comparison. Receiving enacted law is not counted as a separate enactment of SB130. No comprehensive later-law/current-force, facility-applicability, litigation or implementation finding."
+}

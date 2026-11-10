@@ -1,8 +1,8 @@
 {
   "event_cutoff_utc": "2026-11-07T13:38:39.877065Z",
   "counts": {
-    "unresolved": 1359,
-    "corrected_resolved": 178,
+    "unresolved": 1358,
+    "corrected_resolved": 179,
     "confirmed_unchanged": 239,
     "superseded_duplicate": 0,
     "not_attempted": 0
@@ -13,9 +13,9 @@
       "unresolved": 199
     },
     "remaining1552": {
-      "corrected_resolved": 178,
+      "corrected_resolved": 179,
       "confirmed_unchanged": 213,
-      "unresolved": 1159,
+      "unresolved": 1158,
       "superseded_duplicate": 0
     },
     "post_release_additions": {
@@ -33898,12 +33898,9 @@
     {
       "id": "va-sb130-2026",
       "dataset": "state_policy",
-      "disposition": "unresolved",
-      "public_receipt_pointer": "work/research/2026-11-08/full-inventory-integrated-application/README.md",
-      "residual_reference": {
-        "dataset": "state_policy",
-        "id": "va-sb130-2026"
-      },
+      "disposition": "corrected_resolved",
+      "public_receipt_pointer": "work/research/2026-11-09/post-release-qa/virginia-sb130-incorporation-review.json",
+      "residual_reference": null,
       "recorded_evidence_fingerprints_sha256": [
         "0ba82c243a7d10f5d01291bf32245bc61fab688a9daab468b81b16af8c818865",
         "0dd5641162409b72d05b1612c21eefeca855ce88d0d4cc82ce0e04af23f82482",
@@ -38224,6 +38221,15 @@
       "disposition": "unresolved",
       "receipt": "work/research/2026-11-09/post-release-qa/utah-hb507-retained-signature-review.json",
       "scope": "Retained original HTML resolves history-body/signature-date gap; later-law and implementation review remains."
+    },
+    {
+      "reviewed_at": "2026-11-10T08:55:54.056267+00:00",
+      "id": "va-sb130-2026",
+      "cohort": "remaining1552",
+      "prior_disposition": "unresolved",
+      "disposition": "corrected_resolved",
+      "receipt": "work/research/2026-11-09/post-release-qa/virginia-sb130-incorporation-review.json",
+      "scope": "Assigned historical named-bill A-G incorporation-content comparison completed; no receiving-law current-force acceptance."
     }
   ]
 }
