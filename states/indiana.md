@@ -3,7 +3,7 @@
 
 Working inventory for Indiana, generated **November 9, 2026**. Record-level refresh and later-action review remain incomplete.
 
-**35 records** — 24 classified as active or extended, 4 classified as pending, 7 classified as past, 0 classified as rejected proposals, 0 classified as unknown.
+**35 records** — 23 classified as active or extended, 4 classified as pending, 8 classified as past, 0 classified as rejected proposals, 0 classified as unknown.
 
 These counts reflect inventory classifications and do not establish current enforceability.
 
@@ -36,8 +36,8 @@ State policy is tracked separately: **10 records** (10 typed bill rows) in [`sta
 | Pulaski County | County | 2026-02-02 | data center | 🟢 Active |
 | Putnam County | County | 2025-11-17 | data center, solar, wind | 🟢 Active |
 | Shelby County | County | 2026-02-23 | data center | ⚪ Replaced |
-| Starke County | County | 2025-12-15 | data center | 🟢 Active |
-| Starke County | County | 2026-02-17 | battery storage, solar | ⚪ Expired |
+| Starke County | County | 2025-12-15 | data center | ⚪ Replaced |
+| Starke County | County | 2026-02-17 | battery storage, solar | ⚪ Replaced |
 | Steuben County | County | 2026-09-15 | data center | 🟢 Active |
 | Tippecanoe County | County | 2025-06-16 | solar | ⚪ Expired |
 | Valparaiso (Porter County) | City | 2026-08-10 | data center | 🟢 Active |
@@ -452,34 +452,34 @@ State policy is tracked separately: **10 records** (10 typed bill rows) in [`sta
 ### Starke County
 
 - **Type:** County
-- **Recorded status:** 🟢 Active
+- **Recorded status:** ⚪ Replaced
 - **Date enacted:** 2025-12-15
 - **Normalized date:** `2025-12-15` (exact)
-- **Duration:** Up to one year from adoption on 2025-12-15, pending adoption of data-center zoning regulations
+- **Duration:** Original December 15, 2025 moratorium was pending adoption of hyperscale-data-center zoning regulations, with a one-year maximum. The Board adopted the later commercial-data-center prohibition, Ordinance 2026-34, on October 19, 2026; its separate passage/publication effectiveness condition remains distinct from the original adoption trigger.
 - **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `in-starke-county-2025`
-- **Legal basis:** Ordinance No. 2025-37
+- **Legal basis:** Ordinance 2025-37 imposed the temporary hyperscale-data-center permit moratorium pending zoning adoption. Signed Ordinance 2026-34, adopted October 19, 2026, amends the zoning ordinance to define and prohibit commercial data centers, with specified exclusions and effectiveness after passage and required publication.
 - **What prompted it:** Zoning ordinances lacked hyperscale data center standards; residents raised light, environmental, and infrastructure concerns
 - **Affected projects:** Hyperscale data centers of 5,000 square feet or larger; no named project in captured ordinance
-- **Detailed status:** Adopted 2025-12-15 for up to one year, pending data-center zoning. Plan Commission circulated a draft Resolution No. 2026-PC-XX dated March 2026; no replacement adopted as of 2026-04-29. [VERIFY later action and current force]
-- **Outcome:** Pending zoning amendment process for hyperscale data center regulation
+- **Detailed status:** Recorded replaced following October 19, 2026 adoption of Ordinance 2026-34 defining and prohibiting commercial data centers within the Plan Commission jurisdiction. The original moratorium was pending adoption of zoning regulations; this is a recorded instrument transition, not proof of the new prohibition’s publication or present enforceability. The later ordinance preserves defined exclusions and does not repeal standalone BESS rules for permitted uses. [VERIFY: actual legal publication, exact operative transition, subsequent amendment/challenge and present legal force.]
+- **Outcome:** Later adopted zoning imposes a prohibition on defined commercial data centers through Ordinance 2026-34, with specified exclusions; actual publication and present legal effect remain unverified.
 
 ### Starke County
 
 - **Type:** County
-- **Recorded status:** ⚪ Expired
+- **Recorded status:** ⚪ Replaced
 - **Date enacted:** Ordinance Number 02 of 2026 and Ordinance Number 03 of 2026, adopted Feb. 17, 2026 (extensions of prior moratoriums; original enactment date not confirmed)
 - **Normalized date:** `2026-02-17` (exact)
 - **Duration:** Extended through July 25, 2026
-- **Current end date:** `—`
+- **Current end date:** `2026-07-25`
 - **Sectors:** battery storage, solar
 - **Moratorium ID:** `in-starke-county-2026`
-- **Legal basis:** Ordinance Number 02 of 2026 and Ordinance Number 03 of 2026 (extending BESS and CSES moratoriums)
+- **Legal basis:** Ordinance 02 of 2026 extended solar Ordinance 07-2025 and Ordinance 03 of 2026 extended BESS Ordinance 06-2025 through July 25, 2026. Signed Ordinances 2026-16 (solar) and 2026-17 (BESS), adopted June 1, 2026, establish development standards with printed July 25, 2026 effective dates.
 - **What prompted it:** Need to finish regulations for BESS and Commercial Solar Energy Systems before permits can issue
 - **Affected projects:** —
-- **Detailed status:** County adoption notices dated February 17, 2026 state Ordinance 02 extended the commercial solar moratorium and Ordinance 03 extended the BESS moratorium through July 25, 2026. [VERIFY: original instruments, later extension or replacement, actual termination and present force.]
-- **Outcome:** Extension term lapsed; status after July 25, 2026 not confirmed
+- **Detailed status:** Recorded replaced by adopted solar and BESS development standards, rather than an unexplained lapse alone. Ordinances 02 and 03 of 2026, adopted February 17, extend the two moratoriums through July 25, 2026. The Board signed Ordinances 2026-16 and 2026-17 on June 1, with printed July 25 effective dates; the May 20 Plan Commission recommendations are distinct. [VERIFY: original 2025 enactment dates, publication and exact operative transition, later actions and present force.]
+- **Outcome:** Permanent solar and BESS standards adopted June 1, 2026 with printed July 25, 2026 effective dates; publication/current force and individual project applicability remain unverified.
 
 ### Steuben County
 

@@ -2,7 +2,9 @@
 
 ## Working QA after v2026.11.9.post6
 
-Lee County signed Resolution2026-03-003 (March19) specifiesMay21 and signed2026-05-004 (May21) specifiesJune23, correcting the indefinite state-regulations description. Ten cells across two rows change, including storage active-to-expired as a historical latest-recorded-term classification. June25 ordinance approval remains distinct from theJune23 endpoint. Later/current-force holds remain open. [Review](work/research/2026-11-09/post-release-qa/lee-followup-adjudications.json). Nineteen accumulated cells across six rows await synchronization;1,368 whole-record holds remain unresolved.
+Starke signed later instruments establish recorded replacement transitions: Ordinance2026-34 adoptedOctober19 prohibits defined commercial data centers; solar/BESS Ordinances2026-16/17 adoptedJune1 printJuly25 effective dates. Ten cells change across two rows, including active-to-replaced and expired-to-replaced. Publication, exact operation and current-force questions remain open; no expanded-model restriction is promoted. [Review](work/research/2026-11-09/post-release-qa/starke-followup-adjudications.json). Twenty-nine accumulated cells across eight rows await synchronization;1,368 whole-record holds remain unresolved.
+
+Lee County signed Resolution2026-03-003 (March19) specifiesMay21 and signed2026-05-004 (May21) specifiesJune23, correcting the indefinite state-regulations description. Ten cells across two rows change, including storage active-to-expired as a historical latest-recorded-term classification. June25 ordinance approval remains distinct from theJune23 endpoint. Later/current-force holds remain open. [Review](work/research/2026-11-09/post-release-qa/lee-followup-adjudications.json). At the Lee review, nineteen accumulated cells across six rows awaited synchronization;1,368 whole-record holds remained unresolved.
 
 Audubon County February24 minutes establish the missing BESS Resolution2026-12, effective immediately untilMay1/2026 or earlier permanent ordinance. Four cells add the intermediate instrument and qualify later-action coverage for storage/data centers. October20 Ordinance2026-2 concerns towers and commission membership. Continuity across earlier term boundaries and current force remain unresolved. [Review](work/research/2026-11-09/post-release-qa/audubon-followup-adjudications.json). At the Audubon review, nine accumulated cells across four local rows awaited synchronization after post6/V11; that increment changed no status or whole-record disposition.
 
@@ -11,9 +13,9 @@ Coweta County official May6/2025 and June16/2026 minutes confirm both adoption m
 | Metric | Working QA after v2026.11.9.post6 |
 |---|---:|
 | Moratoria in the list | **1,328** |
-| Classified active or extended | **1088** |
+| Classified active or extended | **1087** |
 | Pending or not yet effective | **64** |
-| Ended (replaced, expired, or rescinded) | **170** |
+| Ended (replaced, expired, or rescinded) | **171** |
 | Rows we still want to confirm (`[VERIFY]`) | **979** |
 | States with at least one | **47** |
 
