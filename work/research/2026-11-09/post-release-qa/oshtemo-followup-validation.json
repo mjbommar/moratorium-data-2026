@@ -1,0 +1,94 @@
+{
+  "focused_checks": [
+    {
+      "command": [
+        "scripts/validate_dataset.py",
+        "--today",
+        "2026-11-09"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/build_policy_scope_exports.py",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/build_summary_stats.py",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/build_geojson.py",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/make_timeline.py",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/check_docs_numbers.py"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "-m",
+        "scripts.generate_tables.inventory_clean",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/build_index.py",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/classify_sources.py",
+        "--check"
+      ],
+      "returncode": 0
+    }
+  ],
+  "canonical_cells_changed": 3,
+  "changed_local_records": 2,
+  "changed_fields": [
+    {
+      "id": "mi-oshtemo-charter-township-2026",
+      "field": "current_status"
+    },
+    {
+      "id": "mi-oshtemo-charter-township-2025",
+      "field": "legal_basis"
+    },
+    {
+      "id": "mi-oshtemo-charter-township-2025",
+      "field": "current_status"
+    }
+  ],
+  "status_category_changes": 0,
+  "pending_release_consumer_delta": {
+    "baseline": "e70747fe78e35bd3d8cab85cdb2fff6dbce57406",
+    "cells": 7,
+    "local_records": 3,
+    "status_category_changes": 0
+  },
+  "unresolved_records": 1368,
+  "inventory_sha256": "bd7471e79f32e88fc737cdcb0ee993058164c7a418ee155574df74d6050bbda0",
+  "scope": "Exact canonical-cell and baseline delivery-delta audit; no publication proof or whole-record closure implied."
+}
