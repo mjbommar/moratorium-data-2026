@@ -1,5 +1,18 @@
 # Changelog
 
+## Qualified v2026.11.10.post6 preparation
+
+Eleven fields across UtahSB231, Cullman and Homewood clarified. No category, normalized-date, native or whole-record-disposition changes.1,358 unresolved and134 September category differences remain. Acquisition-window end includes November10 QA captures without changing the original comprehensive cutoff. Release/consumer delivery pending.
+
+| Metric | Qualified v2026.11.10.post6 |
+|---|---:|
+| Moratoria in the list | **1,328** |
+| Classified active or extended | **1,087** |
+| Pending or not yet effective | **64** |
+| Ended (replaced, expired, or rescinded) | **171** |
+| Rows we still want to confirm (`[VERIFY]`) | **979** |
+| States with at least one | **47** |
+
 ## Qualified v2026.11.10.post5
 
 Four policy fields across four records clarified; one historical SB130 comparison closes, leaving1,358 unresolved,179 corrected-resolved,239 confirmed-unchanged. Utah’s signature-history gap resolves without a data edit. No category or native/local publication changes;134 September differences remain. [Qualified post5/V20 delivery](work/research/2026-11-10/release-2026.11.10.post5/README.md) verified.

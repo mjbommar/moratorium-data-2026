@@ -1,12 +1,12 @@
 {
-  "version": "2026.11.10.post5",
+  "version": "2026.11.10.post6",
   "release_date": "2026-11-10",
   "research_cutoff": "2026-11-07T13:38:39.877065+00:00",
   "source_observation_window": {
     "start": "2026-11-05",
-    "end": "2026-11-09"
+    "end": "2026-11-10"
   },
-  "asset_name": "moratorium-data-2026.11.10.post5.tar.gz",
+  "asset_name": "moratorium-data-2026.11.10.post6.tar.gz",
   "coverage": "Original1777 records retain review provenance; two duplicates retired and one Massachusetts addition independently unreviewed. Current1776 active raw IDs:1358 unresolved,179 corrected-resolved,239 confirmed-unchanged scoped dispositions. No universal current-law certification.",
   "limitations": [
     "Recorded active/extended classifications do not prove current enforceability.",
@@ -15,12 +15,12 @@
     "Experimental model extraction/P4 has not passed; no experimental extraction output is accepted automatically.",
     "The companion April paper and dated sibling publications retain their historical editions."
   ],
-  "update_status": "working_qa_after_v2026.11.10.post5",
+  "update_status": "qualified_release_with_ongoing_qa",
   "full_inventory_closeout": "reviewed_and_applied_with_bounded_unresolved_questions",
   "consumer_dispositions": "delivered_with_historical_editions_preserved",
   "experimental_extractor": "failed_no_automatic_promotion",
   "quality_gate_disposition": "User authorized publication of the current state with qualifications on pending QA, followed by continued double checking and resolution of outstanding questions.",
-  "reviewed_data_source_commit": "e12c1efcd8696de71ad7ab3e416fddeeb149d69e",
+  "reviewed_data_source_commit": "recorded in immutable release manifest",
   "record_dispositions": {
     "unresolved": 1358,
     "corrected_resolved": 179,
@@ -31,7 +31,7 @@
   "record_disposition_path": "work/research/2026-11-08/full-record-dispositions/funnel.json",
   "qa_status": "ongoing",
   "publication_authorization": "publish current state with qualifications on pending QA, then continue to double check and clear the outstanding questions",
-  "working_revision": "utah-alabama-homewood-minute-qa",
+  "working_revision": "post6-prepared-local-policy-batch",
   "current_raw_counts": {
     "local": 1328,
     "state_policy": 448,
@@ -144,5 +144,6 @@
     "changed_local_rows": 2,
     "changed_local_cells": 8,
     "changed_policy_cells": 3
-  }
+  },
+  "source_observation_window_scope": "Acquisition range includes source-specific QA captures through November10; this does not renew every record or move the original comprehensive research_cutoff."
 }
