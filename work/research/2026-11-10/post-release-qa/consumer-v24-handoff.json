@@ -1,0 +1,314 @@
+{
+  "source_commit": "21bcb804e21dbe728387775aada997b29497c549",
+  "manifest_sha256": "861c0ea074d55625d8aa5ce80f90d438bfd42e7d4d59e167c21392065be6b2f8",
+  "expanded_snapshot": "3ce33d22288fa7bc7100c9ac621c041037702e8370af1e663d53a548ff794725",
+  "current_counts": {
+    "moratorium_records": 1328,
+    "state_policy_records": 448,
+    "ballot_measures": 57,
+    "retained_results": 65,
+    "current_results": 53,
+    "retained_events": 12,
+    "current_accepted_historical_events": 12,
+    "restriction_records": 3,
+    "measure_instrument_link_records": 1
+  },
+  "files": 2474,
+  "entries": 2684,
+  "verified_at": "2026-11-10T12:20:07.413152+00:00",
+  "consumer_verification": {
+    "handoff": {
+      "state": "verified",
+      "source_commit": "21bcb804e21dbe728387775aada997b29497c549",
+      "manifest_sha256": "861c0ea074d55625d8aa5ce80f90d438bfd42e7d4d59e167c21392065be6b2f8",
+      "expanded_snapshot": "3ce33d22288fa7bc7100c9ac621c041037702e8370af1e663d53a548ff794725",
+      "files": 2474,
+      "entries": 2684,
+      "checks": [
+        {
+          "command": [
+            "scripts/check_expanded_publication.py"
+          ],
+          "exit_code": 0,
+          "result": {
+            "state": "consistent",
+            "snapshot_sha256": "3ce33d22288fa7bc7100c9ac621c041037702e8370af1e663d53a548ff794725",
+            "generations_checked": 49,
+            "records": {
+              "jurisdictions": 53,
+              "elections": 51,
+              "ballot_measures": 57,
+              "measure_provisions": 52,
+              "measure_results": 65,
+              "local_restrictions": 3,
+              "instrument_events": 12,
+              "measure_instrument_links": 1,
+              "source_documents": 168,
+              "claims": 625,
+              "review_decisions": 2756,
+              "search_runs": 1,
+              "search_attempts": 3,
+              "search_sightings": 18,
+              "coverage_observations": 1
+            },
+            "scope": "Offline publication/receipt consistency only; no source reacquisition, renewed factual acceptance or current-force confirmation."
+          }
+        },
+        {
+          "command": [
+            "scripts/build_expanded_csv.py",
+            "--check"
+          ],
+          "exit_code": 0,
+          "result": {
+            "state": "matches",
+            "source_snapshot": "3ce33d22288fa7bc7100c9ac621c041037702e8370af1e663d53a548ff794725",
+            "projection_sha256": "7b585b49998f8ca39b0ff433fe15c34335ea171bdd8960af1e7e9fdcf852f6cb",
+            "csv_views": 18
+          }
+        },
+        {
+          "command": [
+            "scripts/build_policy_scope_exports.py",
+            "--check"
+          ],
+          "exit_code": 0,
+          "result": "policy-scope exports current"
+        }
+      ],
+      "checks_run": true,
+      "scope": "Pinned input integrity and offline publication consistency, not source reacquisition or downstream join acceptance."
+    },
+    "policy_semantics": {
+      "total_state_policy_actions": 448,
+      "total_state_bills": 427,
+      "state_policy_instrument_type_counts": {
+        "bill": 427,
+        "executive_order": 2,
+        "governor_directive": 1,
+        "legislative_amendment": 1,
+        "legislative_precursor": 3,
+        "legislative_resolution": 12,
+        "statute": 2
+      },
+      "top_states_by_bills": [
+        [
+          "Pennsylvania",
+          18
+        ],
+        [
+          "Virginia",
+          18
+        ],
+        [
+          "West Virginia",
+          18
+        ],
+        [
+          "Maryland",
+          16
+        ],
+        [
+          "New Jersey",
+          16
+        ],
+        [
+          "California",
+          14
+        ],
+        [
+          "South Dakota",
+          14
+        ],
+        [
+          "Arizona",
+          13
+        ],
+        [
+          "Iowa",
+          13
+        ],
+        [
+          "Michigan",
+          13
+        ],
+        [
+          "Minnesota",
+          12
+        ],
+        [
+          "Ohio",
+          12
+        ],
+        [
+          "Oklahoma",
+          12
+        ],
+        [
+          "Illinois",
+          11
+        ],
+        [
+          "Kansas",
+          11
+        ]
+      ],
+      "top_states_by_policy_actions": [
+        [
+          "Pennsylvania",
+          22
+        ],
+        [
+          "Virginia",
+          18
+        ],
+        [
+          "West Virginia",
+          18
+        ],
+        [
+          "Maryland",
+          17
+        ],
+        [
+          "New Jersey",
+          17
+        ],
+        [
+          "California",
+          14
+        ],
+        [
+          "Michigan",
+          14
+        ],
+        [
+          "South Dakota",
+          14
+        ],
+        [
+          "Arizona",
+          13
+        ],
+        [
+          "Iowa",
+          13
+        ],
+        [
+          "Kansas",
+          12
+        ],
+        [
+          "Minnesota",
+          12
+        ],
+        [
+          "Ohio",
+          12
+        ],
+        [
+          "Oklahoma",
+          12
+        ],
+        [
+          "Illinois",
+          11
+        ]
+      ]
+    }
+  },
+  "index_verification": {
+    "snapshot": "data/source-snapshots/moratoria/2026-11-10-reviewed-v24",
+    "source_commit": "21bcb804e21dbe728387775aada997b29497c549",
+    "manifest_sha256": "861c0ea074d55625d8aa5ce80f90d438bfd42e7d4d59e167c21392065be6b2f8",
+    "tracked_files_and_symlinks": 2475,
+    "exact_staged_git_blob_bytes_and_modes": true,
+    "scope": "Exact staged snapshot content, Git modes and path set against the pinned manifest, including the manifest itself. This is not an independent legal review."
+  },
+  "baseline_handoff": "V23",
+  "expanded_tables_byte_identical": true,
+  "summary_delta": "Byte-identical summary; no headline or scope count changes.",
+  "changed_cells": 9,
+  "changed_local_cells": 6,
+  "changed_policy_cells": 3,
+  "changed_local_rows": 1,
+  "changed_policy_rows": 2,
+  "status_category_changes": 0,
+  "normalized_date_changes": 1,
+  "scope_membership_changes": 0,
+  "whole_record_closures": 2,
+  "unresolved_records": 1354,
+  "corrected_resolved_records": 183,
+  "confirmed_unchanged_records": 239,
+  "field_changes": [
+    {
+      "dataset": "local",
+      "id": "de-dover-undated",
+      "field": "date_enacted",
+      "before": "",
+      "after": "2026-10-12, City Council adopted Ordinance 2026-14 by unanimous roll call (Sudler absent), on motion of Hall seconded by Anderson; official minutes page41."
+    },
+    {
+      "dataset": "local",
+      "id": "de-dover-undated",
+      "field": "duration",
+      "before": "18 months from the ordinance's effective date, as drafted; the Council may extend by ordinance upon findings that additional study remains necessary. Not yet adopted as of 2026-09-23.",
+      "after": "Eighteen months from the effective date, unless sooner repealed; Council may extend by ordinance upon findings that additional study remains necessary. Adopted text section3 states immediate effect upon adoption; section8 supplies the term. Later amendment, repeal or extension remains unchecked."
+    },
+    {
+      "dataset": "local",
+      "id": "de-dover-undated",
+      "field": "legal_basis",
+      "before": "Draft ordinance amending the Dover Code to add a 'Large Energy Use Facility' moratorium, sponsored by Councilwoman Donyale Hall and Councilman David Anderson; heard by the Council Committee of the Whole (Legislative, Finance and Administration Committee) on 2026-09-15, which recommended forwarding it to full Council and the Planning Commission for review. No ordinance number assigned; the city's official Ordinances/Resolutions register lists nothing past Ordinance 2026-13 (adopted 2026-08-10) as of 2026-09-23. Later retained city materials identify proposed Ordinance 2026-14; its action history lists a September 28 first reading and an October 12 scheduled final reading.",
+      "after": "Ordinance 2026-14, reproduced as adopted in official October12,2026 Council minutes pages41-43, following September28 first reading. Section3 states immediate effect upon adoption. The dated adoption minutes supersede the older undated register status as evidence of the October12 action. The minutes include a mayoral approval statement on page44 but no handwritten execution signatures; separate signed/enrolled copy and later actions are not established."
+    },
+    {
+      "dataset": "local",
+      "id": "de-dover-undated",
+      "field": "current_status",
+      "before": "Pending as of 2026-09-23. The draft ordinance would immediately suspend the City's acceptance, processing, review, approval, and issuance of permits, site plan approvals, conditional-use approvals, rezonings, subdivision approvals, building permits, utility service agreements, and certificates of occupancy for any new 'Large Energy Use Facility' (a facility using 75+ MW at 85%+ load factor, 100+ MW instantaneous demand, or 30+ MW and NAICS 518210) for 18 months, with exemptions for government/hospital/university/public-safety/clean-hydrogen facilities and small expansions. First proposed publicly in August 2026 (a City Council committee voted unanimously to advance a draft to full Council); the Council Committee of the Whole heard the finalized ordinance text on 2026-09-15 and recommended it go to full Council and the Planning Commission, but no first or final reading before full Council, and no ordinance number, had been recorded as of 2026-09-23. A sponsor's public social-media post described the proposal as a 24-month moratorium, which conflicts with the 18-month term stated in the drafted ordinance text reviewed here; the ordinance text is treated as authoritative. Later retained evidence conflicts: the city register captured 2026-11-05 lists Ordinance 2026-14 as pending, while WBOC reported on 2026-10-12 that Council passed an 18-month pause. Formal adoption and current force remain unresolved.",
+      "after": "Official October12,2026 minutes record adoption of Ordinance2026-14 by unanimous roll call, Sudler absent. The reproduced text immediately pauses acceptance, processing, review and listed approvals for new Large Energy Use Facilities: at least75MW monthly maximum demand with at least85% load factor; at least100MW monthly instantaneous demand; or a defined NAICS518210 data center using or capable of using at least30MW monthly maximum demand. Complete pre-effective applications are stayed unless withdrawn; limited vested-right/takings exemptions require Council approval following City Manager recommendation. Section5 exempts listed public/institutional uses, existing industrial expansions below20% demand, routine maintenance, existing telecommunications, defined clean-hydrogen production and public-utility infrastructure. The term is18months unless sooner repealed, extendable by ordinance. This establishes the historical action/text, not uninterrupted current force; subsequent council actions, litigation and separate executed-copy verification remain open."
+    },
+    {
+      "dataset": "local",
+      "id": "de-dover-undated",
+      "field": "date_enacted_iso",
+      "before": "",
+      "after": "2026-10-12"
+    },
+    {
+      "dataset": "local",
+      "id": "de-dover-undated",
+      "field": "date_enacted_uncertainty",
+      "before": "unverified",
+      "after": "exact"
+    },
+    {
+      "dataset": "policy",
+      "id": "in-sb-234",
+      "field": "key_provisions",
+      "before": "Introduced proposal would require standard tariffs offered after March 14, 2026 to large-load customers to reimburse all reasonably allocable project costs whether or not service is taken in the anticipated amount and time; cap certain basic-rate increases using national energy price changes; restrict recovery of specified political and other expenses; and urge assignment of a 2026 interim tracker study.",
+      "after": "Failed introduced proposal: large-load class covers one customer or up to four customers requesting aggregate new/additional demand exceeding the lesser of 5% of the utility\u2019s three-year average peak demand or 150 MW. Standard tariffs offered after March 14, 2026 would require reimbursement of all reasonably allocable project costs even if anticipated service is not taken. The LSA introduced fiscal note describes this as replacing an at-least-80% reimbursement requirement; this is proposed change analysis, not proof of current law. Other provisions would cap certain basic-rate increases, restrict recovery of specified political/other expenses, and urge a 2026 interim tracker study. The generic load class and fiscal note do not independently establish a qualifying data-center application."
+    },
+    {
+      "dataset": "policy",
+      "id": "oh-hb-96",
+      "field": "status",
+      "before": "Signed by the Governor 2025-06-30. The retained history lists a Senate item passed notwithstanding the Governor's objections on 2025-10-01, without identifying the item. Operating appropriations are listed effective 2025-06-30 and other provisions generally 2025-09-30, subject to special dates. The prior attribution of ORC 122.175 exemption preservation to a specific veto remains unverified pending item-level records.",
+      "after": "Signed by the Governor 2025-06-30 with line-item vetoes. Governor veto item 58 deletes the before-October 1, 2025 limitation on new computer data-center tax-exemption agreements; LSC marks TAXCD117 as vetoed. The retained history lists a Senate item passed notwithstanding the Governor's objections on 2025-10-01 without identifying the item; it is not attributed to item 58 here. Operating appropriations are listed effective 2025-06-30 and other provisions generally 2025-09-30, subject to special dates. Item58-specific override proceedings and later legal changes remain unresolved."
+    },
+    {
+      "dataset": "policy",
+      "id": "oh-hb-96",
+      "field": "key_provisions",
+      "before": "Budget measure associated with the published ORC 122.175 computer data center sales and use tax exemption framework. The retained code page identifies HB 96 and a 2025-09-30 section date; the specific veto/override treatment and current provision-level operation remain unresolved.",
+      "after": "LSC's enacted comparison separates two R.C. 122.175 provisions: DEVCD11 removes the OBM Director as a recipient of Tax Credit Authority copies of computer data-center exemption applications; TAXCD117 marks as vetoed the Senate proposal to bar new exemption agreements beginning October 1, 2025. Governor veto item 58 on PDF page 44 deletes the date limitation from enrolled-budget page 167 and describes exemption awards as discretionary, not automatic. These distinguish an enacted application-recipient change from the vetoed cutoff; they do not establish a later item 58 override outcome, project eligibility or current legal force."
+    }
+  ],
+  "trusted_verifier_sha256": "ebecf851d4196715df186cc81cc3c933ab7da550fbafd7207996cd94b9cd2739",
+  "scope": "Qualified post9 correction batch; historical Dover adoption/text, Ohio veto distinction and Indiana failed proposal mechanism. Two stale Wyoming historical review questions reconciled. No universal current-law finding or renewed downstream project applicability review. Hosting-copy hold remains separate.",
+  "consumer_commit": "b22ba42c6fd78b72e0b0633873c3929677713a84",
+  "release_url": "https://github.com/mjbommar/moratorium-data-2026/releases/tag/v2026.11.10.post9",
+  "release_manifest_sha256": "dcf14e33c2258cc75eb88abeadb89ec3d16fb90d6bee6cd2b7902cc320fcb947",
+  "hosted_copy_state": "pending"
+}
