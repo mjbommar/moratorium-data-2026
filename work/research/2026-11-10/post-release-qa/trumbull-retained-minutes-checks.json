@@ -1,0 +1,68 @@
+[
+  {
+    "command": [
+      "scripts/validate_dataset.py",
+      "--today",
+      "2026-11-10"
+    ],
+    "returncode": 0
+  },
+  {
+    "command": [
+      "scripts/build_policy_scope_exports.py",
+      "--check"
+    ],
+    "returncode": 0
+  },
+  {
+    "command": [
+      "scripts/build_summary_stats.py",
+      "--check"
+    ],
+    "returncode": 0
+  },
+  {
+    "command": [
+      "scripts/build_geojson.py",
+      "--check"
+    ],
+    "returncode": 0,
+    "followup": "Affected generated view rebuilt; focused --check passed."
+  },
+  {
+    "command": [
+      "scripts/make_timeline.py",
+      "--check"
+    ],
+    "returncode": 0
+  },
+  {
+    "command": [
+      "scripts/check_docs_numbers.py"
+    ],
+    "returncode": 0
+  },
+  {
+    "command": [
+      "-m",
+      "scripts.generate_tables.inventory_clean",
+      "--check"
+    ],
+    "returncode": 0,
+    "followup": "Affected generated view rebuilt; focused --check passed."
+  },
+  {
+    "command": [
+      "scripts/build_index.py",
+      "--check"
+    ],
+    "returncode": 0
+  },
+  {
+    "command": [
+      "scripts/classify_sources.py",
+      "--check"
+    ],
+    "returncode": 0
+  }
+]
