@@ -799,3 +799,5 @@ Exit: repeatable refresh with visible freshness, costs, failures and unresolved 
 - [x] Complete normal 621-claim publication/application/replay of the source-reviewed Starke qualified policy-succession increment; no formal termination, overlap or force inferred. See `work/research/2026-11-09/starke-succession-review/README.md`.
 
 - [ ] Include the later Starke qualified succession generation in the next qualified release and verified consumer handoff; post8/V13 remain the prior delivered cutoff.
+
+- [x] Review three fresh Alaska bill histories and enrolled HCR301 carryover context under a two-search/eight-fetch cap. Retain all three final-disposition holds; source rules404 and navigation shell are not final-session evidence, and SCR202A is introduced-stage only. Six initial official source versions archived/read back. A separate two-request follow-up uses exact homepage links for rules/proclamation; nine total source versions now archive/read back. The rules PDF is amended2023; current34th adoption/version and terminal consequence remain held. Initial eight-request cap stays unchanged/exhausted. No CSV or status changes.

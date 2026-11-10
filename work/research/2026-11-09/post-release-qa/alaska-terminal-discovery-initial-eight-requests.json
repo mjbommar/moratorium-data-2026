@@ -1,0 +1,91 @@
+{
+  "reviewed_at": "2026-11-10T04:29:05.957501+00:00",
+  "sources": [
+    {
+      "name": "carryover-detail",
+      "url": "https://www.akleg.gov/basis/Bill/Detail/34?Root=HCR301",
+      "body_sha256": "244fe8a77eacb1dba0971d6878b4ed19f3a35e7814f4e3e4366ed7c8cbd7431c",
+      "reviewed_text_sha256": "2299dfa3d1403308b731d3fffd3582bfde3b422d254a9d29afc72ac1d92ddf1b",
+      "attempt_id": "e7d77e6270de423b8e9a66738d711899",
+      "body_observed_at": "2026-11-10T04:25:38.339269Z"
+    },
+    {
+      "name": "scr202",
+      "url": "https://www.akleg.gov/basis/Bill/Text/34?Hsid=SCR202A",
+      "body_sha256": "8ae20ee085ad5536bdd313368fabacedd98ff4fcc08b0bd2fa06ba9246c5aa75",
+      "reviewed_text_sha256": "7c90ba2cd563b805fef174c837b8e27605a8dcf87d13b959d94001713ea6f596",
+      "attempt_id": "1b1a72adae1948fc8a4f2f6e23abcbd4",
+      "body_observed_at": "2026-11-10T04:25:38.203734Z"
+    },
+    {
+      "name": "carryover-enrolled",
+      "url": "https://www.akleg.gov/basis/Bill/Text/34?Hsid=HCR301Z",
+      "body_sha256": "aac72511c84f2fd70d7125f47e34cca69659de6e470cb868360442c86883776e",
+      "reviewed_text_sha256": "f155b749de8af344737461a8f506498a3f37be8f3191a9a6361d9a8d9ca1b2d3",
+      "attempt_id": "1f728fbaa65c4aca8bd7d33befaf2a85",
+      "body_observed_at": "2026-11-10T04:26:36.179253Z"
+    },
+    {
+      "name": "hb259",
+      "url": "https://www.akleg.gov/basis/Bill/Detail/34?Root=HB%20259",
+      "body_sha256": "3dd61a35499098431dc786296679246b95d755e2fd86cae0983aa58bcbe0ee3b",
+      "reviewed_text_sha256": "d372e404534605815d4562056c171e4fe41617a1cbfca82d5b8ec9193e8f156f",
+      "attempt_id": "38701af6a1a54b93a749586ccbebfe8a",
+      "body_observed_at": "2026-11-10T04:26:37.627262Z"
+    },
+    {
+      "name": "hcr3",
+      "url": "https://www.akleg.gov/basis/Bill/Detail/34?Root=HCR%20%203",
+      "body_sha256": "b63502f4f2e624f27ec5da1ddf071856383a34d137bf9c23efe20fbe5a537243",
+      "reviewed_text_sha256": "45f9f931ad130d53f7b0c42660325e2931594b0542085568d1338d33243007b6",
+      "attempt_id": "20bcddcd03b64e12a1a79fbb7bdcde13",
+      "body_observed_at": "2026-11-10T04:26:37.772453Z"
+    },
+    {
+      "name": "sb250",
+      "url": "https://www.akleg.gov/basis/Bill/Detail/34?Root=SB%20250",
+      "body_sha256": "07188e4e502d7da98f900de65852cf32a1d2dce100dfff0058cc949aec57dc3e",
+      "reviewed_text_sha256": "9131095afbfa34a53fccc13219e3b9034cafe8b894b8389b87f0056aef910e2e",
+      "attempt_id": "459eb812b21e4bcc82e0c86d5ed84235",
+      "body_observed_at": "2026-11-10T04:26:37.744876Z"
+    }
+  ],
+  "searches": [
+    {
+      "attempt_id": "4b9f536faa7f4fe3b730526ededa4452",
+      "kind": "exa",
+      "query": "Alaska legislature 2026 second session adjournment bills carry over special session Joint Rule",
+      "hits": 6,
+      "cost_usd": 0.007,
+      "unpriced": false
+    },
+    {
+      "attempt_id": "1d90839be9c3446fb1248658cacb3083",
+      "kind": "serpapi",
+      "query": "Alaska 34th legislature 2026 final status HB 259 HCR 3 SB 250",
+      "hits": 6,
+      "cost_usd": null,
+      "unpriced": true
+    }
+  ],
+  "http_cap": 8,
+  "http_requests": 8,
+  "search_cap": 2,
+  "search_requests": 2,
+  "unused_capacity": 0,
+  "nonaccepted_fetches": [
+    {
+      "name": "rules",
+      "url": "https://lec.akleg.gov/docs/pdf/uniform%5Frules.pdf",
+      "ok": false,
+      "reason": "HTTP404 HTML response is not a rules PDF; not retried."
+    },
+    {
+      "name": "home",
+      "url": "https://akleg.gov/",
+      "ok": true,
+      "reason": "No substantive extracted session-end text; not accepted as an adjournment record."
+    }
+  ],
+  "scope": "Six exact official source versions reviewed and archived. Two nonresponsive/failed captures remain private. Neither search snippets nor the SCR202 introduced proposal are accepted as a final-session outcome."
+}
