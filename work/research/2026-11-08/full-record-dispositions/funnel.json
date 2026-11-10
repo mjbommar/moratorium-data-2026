@@ -1,8 +1,8 @@
 {
   "event_cutoff_utc": "2026-11-07T13:38:39.877065Z",
   "counts": {
-    "unresolved": 1358,
-    "corrected_resolved": 179,
+    "unresolved": 1357,
+    "corrected_resolved": 180,
     "confirmed_unchanged": 239,
     "superseded_duplicate": 0,
     "not_attempted": 0
@@ -13,9 +13,9 @@
       "unresolved": 199
     },
     "remaining1552": {
-      "corrected_resolved": 179,
+      "corrected_resolved": 180,
       "confirmed_unchanged": 213,
-      "unresolved": 1158,
+      "unresolved": 1157,
       "superseded_duplicate": 0
     },
     "post_release_additions": {
@@ -18631,12 +18631,9 @@
     {
       "id": "mt-hj46-lc0933",
       "dataset": "state_policy",
-      "disposition": "unresolved",
-      "public_receipt_pointer": "work/research/2026-11-08/full-inventory-integrated-application/README.md",
-      "residual_reference": {
-        "dataset": "state_policy",
-        "id": "mt-hj46-lc0933"
-      },
+      "disposition": "corrected_resolved",
+      "public_receipt_pointer": "work/research/2026-11-09/post-release-qa/montana-hj46-text-adjudication.json",
+      "residual_reference": null,
       "recorded_evidence_fingerprints_sha256": [
         "1b2b6960406177633c57a03a50f8567782fb30bc2100f626e91c285a80dc2264",
         "2417bb2fdca92c1aadb0cf1cfb93bfa95a3db0bb68e25e0f2a2414c683030084",
@@ -38287,6 +38284,15 @@
       "disposition": "unresolved",
       "receipt": "work/research/2026-11-09/post-release-qa/montana-enrolled-text-adjudication.json",
       "scope": "Enrolled-text gap and historical effective anchor resolved; later law/current force held."
+    },
+    {
+      "reviewed_at": "2026-11-10T10:33:33.986721+00:00",
+      "id": "mt-hj46-lc0933",
+      "cohort": "remaining1552",
+      "prior_disposition": "unresolved",
+      "disposition": "corrected_resolved",
+      "receipt": "work/research/2026-11-09/post-release-qa/montana-hj46-text-adjudication.json",
+      "scope": "Full official resolution resolves detailed study-scope/infrastructure membership gap for historical failed proposal; no enactment/current-force finding."
     }
   ]
 }

@@ -5,7 +5,8 @@ Plan: [Research modernization and ballot-measure expansion](docs/research-and-ba
 ## Active: publish the current state with pending QA, then clear outstanding questions
 
 - [x] Inspect official enrolled SB212/Chapter150-linked text; record historical effective condition/date and precise risk-policy/nuisance provisions. Later-law/current-force and HJ46 full-resolution checks remain open. [Review](work/research/2026-11-09/post-release-qa/montana-enrolled-text-review.md).
-- [ ] Deliver four post7/V22 Montana policy-field corrections in the next qualified release/consumer batch.
+- [x] Recover full HJ46.1 through the exact Bill Text endpoint; close historical study-scope review and include the observation analytically. [Review](work/research/2026-11-09/post-release-qa/montana-hj46-text-review.md).
+- [ ] Deliver seven post7/V22 Montana policy-field corrections, one historical effective date, one analytical inclusion and one scoped historical closure in the next qualified release/consumer batch.
 
 - [x] Compare the distinct Lodi original-ordinance PDF and record its internally consistent February 12 signed certification; retain the older conflicting version and remaining legal-force questions. [Review](work/research/2026-11-09/post-release-qa/lodi-effective-version-review.md).
 - [x] Obtain the newly exposed Nashville July 22 and August 4 minutes; distinguish hearing-scheduling resolution from ordinance adoption and retain the unresolved commencement/effectiveness question. [Review](work/research/2026-11-09/post-release-qa/nashville-meeting-minute-review.md).

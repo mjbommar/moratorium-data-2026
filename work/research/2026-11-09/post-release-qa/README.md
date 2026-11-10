@@ -1,5 +1,9 @@
 # Continuing QA after v2026.11.9
 
+## November 10: HJ46 full resolution recovered
+
+The Bill Text tab's exact endpoint supplied the complete official HJ46.1 PDF. Its explicit grid/ratepayer/stranded-investment/water study subjects resolve the historical scope gap. Three fields change; the failed proposal remains failed, analytical membership becomes included, and one scoped historical record closes. Current totals are1,357 unresolved,180 corrected-resolved,239 confirmed-unchanged and382 policy inclusions/47 reviewed-unresolved. Seven Montana cells await delivery after post7/V22. [Review](montana-hj46-text-review.md).
+
 ## November 10: Montana enrolled SB212 text
 
 Four SB212 fields now use the enrolled act: operative provisions, April16,2025 historical effectiveness derived from section10 and retained official approval history, end-condition qualification and primary source. Analytical inclusion remains supported by the explicit physical-datacenter nuisance clause. Later law/current force and HJ46 full-text review remain unresolved. Four policy cells await the next delivery batch after post7/V22; categories and1,358 unresolved dispositions are unchanged. [Review](montana-enrolled-text-review.md).
