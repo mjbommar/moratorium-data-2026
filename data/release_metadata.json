@@ -1,12 +1,12 @@
 {
-  "version": "2026.11.10.post14",
+  "version": "2026.11.10.post15",
   "release_date": "2026-11-10",
   "research_cutoff": "2026-11-07T13:38:39.877065+00:00",
   "source_observation_window": {
     "start": "2026-11-05",
     "end": "2026-11-10"
   },
-  "asset_name": "moratorium-data-2026.11.10.post14.tar.gz",
+  "asset_name": "moratorium-data-2026.11.10.post15.tar.gz",
   "coverage": "Original1777 records retain review provenance; two duplicates retired and one Massachusetts addition independently unreviewed. Current1776 active raw IDs:1347 unresolved,190 corrected-resolved,239 confirmed-unchanged scoped dispositions. No universal current-law certification.",
   "limitations": [
     "Recorded active/extended classifications do not prove current enforceability.",
@@ -31,14 +31,14 @@
   "record_disposition_path": "work/research/2026-11-08/full-record-dispositions/funnel.json",
   "qa_status": "ongoing",
   "publication_authorization": "publish current state with qualifications on pending QA, then continue to double check and clear the outstanding questions",
-  "working_revision": "post15-reviewed-bonney-status-correction-delivery-pending",
+  "working_revision": "post15-release-preparation",
   "current_raw_counts": {
     "local": 1328,
     "state_policy": 448,
     "total": 1776
   },
-  "prior_release": "v2026.11.10.post7",
-  "prior_release_source_commit": "ad7af81345dc0bb72b9b48a09abc574199c9311e",
+  "prior_release": "v2026.11.10.post14",
+  "prior_release_source_commit": "6518022eeff0f097b18b29224fde969677f842df",
   "prior_published_source_commit": "abd5a14abe67a052b57fa037ad83bd63f781d195",
   "published_source_reference": "The v2026.11.10.post8 tag and manifest pin58a016a5. Deterministic assets, full clean restore, ten downloads, V23 and13selected hosted data/QA files are verified. Full hosted release-label/prose/receipt synchronization remains pending after three syncing-files timeouts; latest_verified_release retains the prior fully verified edition. No universal freshness or current-force claim.",
   "latest_consumer_handoff": {
@@ -204,6 +204,10 @@
     "canonical_cells_changed": 4,
     "status_category_changes": 1,
     "normalized_date_changes": 1,
-    "scope": "BonneyLakeactive-to-replaced historical correction; current release/download/hosted verification pointers remainpost14untilnew delivery."
+    "scope": "BonneyLakeactive-to-replaced historical correction; current release/download/hosted verification pointers remainpost14untilnew delivery.",
+    "changed_cells": 4,
+    "changed_local_rows": 1,
+    "changed_policy_rows": 0,
+    "whole_record_closures": 0
   }
 }
