@@ -1,0 +1,105 @@
+{
+  "reviewed_at": "2026-11-10T14:10:58.164356+00:00",
+  "id": "ct-west-haven-2026",
+  "prior_disposition": "unresolved",
+  "recommendation": "unresolved",
+  "prior_row_sha256": "8050a103020018bb4ebedcfb181e1e53ef3a234849d94232a4c3203c875dedaf",
+  "current_row_sha256": "6e722c30ec11f468b90ef7c4334437759ec03ee05468fbee0c3cc8f197e63c72",
+  "field_changes": [
+    {
+      "field": "duration",
+      "before": "1 year",
+      "after": "Twelve months. The resolution text in the June 8 council packet specifies effectiveness immediately upon adoption; the separately reviewed minutes confirm unanimous approval of Communication B. Packet attestation/certification lines are blank, so executed text, governing procedural compliance and the operative interval remain unverified; no end date is calculated."
+    },
+    {
+      "field": "legal_basis",
+      "before": "City Council resolution requiring a 1-year moratorium on the development of data centers, requested by Mayor Dorinda Borer",
+      "after": "City Council approval of Mayor Dorinda Borer Communication B on June 8, 2026. The accompanying packet resolution, Moratorium on the Development of Data Centers, contains six numbered provisions: twelve-month term; immediate-on-adoption clause; municipal review duties; covered definition; application-processing prohibition; and listed approval forms. This is packet text read with adoption minutes, not an executed/enrolled resolution."
+    },
+    {
+      "field": "trigger",
+      "before": "Not detailed beyond the mayor's request in captured minutes",
+      "after": "Packet resolution recitals identify land-use, environmental, infrastructure and public-safety impacts; the need to review ordinances, zoning, licensing and enforcement; natural-resource protection, limited infrastructure capacity and compatibility with residential, agricultural and environmentally sensitive areas. These recitals describe the stated purpose, not a judicial determination of authority or actual impacts."
+    },
+    {
+      "field": "current_status",
+      "before": "Adopted unanimously; not independently re-checked past 2026-06-08",
+      "after": "Recorded active. Direct review of June 8, 2026 council minutes confirms unanimous approval of Communication B for a one-year data-center moratorium. The linked packet text addresses establishment/development and applications for establishment, construction, installation or expansion; its definition excludes small-scale server rooms or equipment clearly incidental/accessory to another permitted principal use. The packet states immediate effectiveness on adoption, but the attestation and certification are unexecuted. Actual final enrolled text, procedural effectiveness and later amendment, repeal or continuous force remain unresolved."
+    },
+    {
+      "field": "outcome",
+      "before": "Council unanimously approved a 1-year moratorium on data center development",
+      "after": "Unanimous June 8 approval is confirmed. The packet resolution would stop acceptance, processing, hearings and approval of covered applications across zoning permits, special permits/exceptions, site plans, subdivision/re-subdivision approvals and facilitating zoning amendments/map changes. Its typed certification language is not accepted as an executed certification or proof of current force."
+    },
+    {
+      "field": "trigger_categories",
+      "before": "[\"regulatory_gap\"]",
+      "after": "[\"regulatory_gap\",\"environmental\",\"infrastructure_capacity\",\"land_use_compatibility\"]"
+    }
+  ],
+  "remaining_questions": [
+    "Obtain executed/enrolled resolution or authenticated final text and any controlling publication/effectiveness requirements. Packet pages23\u201324 contain blank attestation/certification lines; typed June8 certification wording is not accepted as execution or current-force proof.",
+    "Check subsequent amendments, repeal, extension and legal developments before asserting continuous force or an operative end date. The adopted one-year request and detailed packet terms are reviewed, but later history remains open."
+  ],
+  "sources": [
+    {
+      "attempt_id": "3d7a502ca797479fb0d23a009e80842c",
+      "url": "https://cityofwesthaven.com/AgendaCenter/ViewFile/Minutes/_06082026-3643",
+      "final_url": "https://cityofwesthaven.com/AgendaCenter/ViewFile/Minutes/_06082026-3643",
+      "body_sha256": "75a259d30356a0ec69dffd8ebd060e007cfb0e08a44b3eed069c284ceae0e97d",
+      "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "body_observed_at": "2026-11-10T14:07:51.745059Z"
+    },
+    {
+      "attempt_id": "962df2ee179d4672b88dc46720fad785",
+      "url": "https://cityofwesthaven.com/AgendaCenter/ViewFile/Agenda/_06082026-3645",
+      "final_url": "https://cityofwesthaven.com/AgendaCenter/ViewFile/Agenda/_06082026-3645",
+      "body_sha256": "8926872bb300dee25537107adacbf09284482f78ddbe3b5a7ce41e62cb5215ea",
+      "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "body_observed_at": "2026-11-10T14:08:08.853966Z"
+    }
+  ],
+  "registered_derivations": [
+    {
+      "attempt_id": "3d7a502ca797479fb0d23a009e80842c",
+      "source_body_sha256": "75a259d30356a0ec69dffd8ebd060e007cfb0e08a44b3eed069c284ceae0e97d",
+      "derived_text_sha256": "7a1209ffe54659a62ea3c712859aca165597e0567a5378d8b6e5a43f66481046",
+      "review_status": "accepted_derivation",
+      "method": "pdftoppm130/140dpi and Tesseract all12scannedpages; relevant physical pages[10] visually reviewed. Original empty extraction unchanged. Packet attestation/certification blanks do not establish executed certification.",
+      "visually_reviewed_pages": [
+        10
+      ],
+      "page_image_sha256": {
+        "10": "c15ce7735930df5d4bd904a5b6b59a08aeb4b93e62526545f27a2c30cf707766"
+      }
+    },
+    {
+      "attempt_id": "962df2ee179d4672b88dc46720fad785",
+      "source_body_sha256": "8926872bb300dee25537107adacbf09284482f78ddbe3b5a7ce41e62cb5215ea",
+      "derived_text_sha256": "3c09c1f73d146cd2b86135437c53afc594b0af35b898bd9050884b4e4447acd9",
+      "review_status": "accepted_derivation",
+      "method": "pdftoppm130/140dpi and Tesseract all61scannedpages; relevant physical pages[22, 23, 24] visually reviewed. Original empty extraction unchanged. Packet attestation/certification blanks do not establish executed certification.",
+      "visually_reviewed_pages": [
+        22,
+        23,
+        24
+      ],
+      "page_image_sha256": {
+        "22": "b0fcb37c89ce1f0a0bb1cbca09d0e715da39e9c3c8a832a6132fadee82d2476e",
+        "23": "ddbb232a67e2dd515d4b3847743c5ca92745a9db466c7435e3aafc8ac096bcb4",
+        "24": "b1aab6f90f0753cbcabf6a48f48e21757e10c238bb5d5cc6763aacd753b61d71"
+      }
+    }
+  ],
+  "canonical_cells_changed": 6,
+  "status_category_changes": 0,
+  "normalized_date_changes": 0,
+  "whole_record_closures": 0,
+  "native_source_readbacks": 2,
+  "acquisition_accounting": {
+    "searches": 0,
+    "fetches": 2,
+    "scope": "Exact minutes and packet links from retained official archive; no broad search or archive re-fetch. Adoption was previously reported; detailed packet terms and signature blanks directly inspected here."
+  },
+  "scope": "Historical adoption confirmed and packet terms reviewed; no signed certification, final-version procedural-effectiveness acceptance or later-force conclusion."
+}
