@@ -1,8 +1,8 @@
 # Changelog
 
-## Qualified v2026.11.11.post6 — website verification pending
+## Qualified v2026.11.11.post6
 
-Eleven cells correct Fort Wayne’s historical rejection and update attributed Eagan litigation news. Working counts are 63 pending, three rejected, 978 VERIFY-tagged and 1,346 unresolved reviews; one historical proposal review closes. In-force/raw/policy/date/endpoint/native totals unchanged. Two identical builds, full clean restore, ten anonymous downloads and V40 pass. Hosted checks are pending; post5/V39 remains the last verified website edition.
+Eleven cells correct Fort Wayne’s historical rejection and update attributed Eagan litigation news. Working counts are 63 pending, three rejected, 978 VERIFY-tagged and 1,346 unresolved reviews; one historical proposal review closes. In-force/raw/policy/date/endpoint/native totals unchanged. Two identical builds, full clean restore, ten anonymous downloads, V40 and current hosted desktop/mobile checks pass.
 
 | Metric | Qualified November 11 post6 |
 |---|---:|

@@ -100,4 +100,4 @@ Latest delivery: [six East Whiteland original/date fields](east-whiteland-origin
 Latest delivery: [four Alachua prose corrections](alachua-reading-review.md) in qualified post5/V39 and verified current public pages. Final adoption/effect and later force remain unresolved. [Receipts](../release-2026.11.11.post5/README.md).
 
 
-Working post6/V40 batch: eleven accepted Fort Wayne/Eagan cells, one historical proposal closure, 1,346 unresolved reviews. Publication pending; post5/V39 remains verified. [Prepared receipts](../release-2026.11.11.post6/README.md).
+Latest post6/V40 delivery: eleven accepted Fort Wayne/Eagan cells, one historical proposal closure, 1,346 unresolved reviews. Current public pages are verified. [Prepared receipts](../release-2026.11.11.post6/README.md).

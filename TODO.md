@@ -988,7 +988,7 @@ Exit: repeatable refresh with visible freshness, costs, failures and unresolved 
 
 - [x] Audit eight queue entries containing only generic review limitations against original reviews/current rows. All eight retain real source-specific gaps; replace vague language without automatic closures.
 - [x] Check Eagan named litigation: two distinct searches and three new source captures, two exact Terra reviews, two attributed-news prose corrections. Preserve separate company challenge/city enforcement, allegations versus findings and local publication date; no court ruling or category/count change.
-- [ ] Deliver the two accepted Eagan prose corrections in the next combined release/consumer/Pages batch from post5/V39; actual court records and later force remain open.
+- [x] Deliver the two Eagan attributed-news prose corrections in qualified post6/V40 and verified current pages; actual court records and later force remain open.
 
 - [x] Recover Fort Wayne official October13 minutes and complete amended R-26-09-17 proposal; inspect all seven pages and independently accept nine cells. Pending→rejected, one VERIFY tag resolved and one historical proposal review closed. Five exact source pairs read back.
-- [ ] Deliver combined Eagan/Fort Wayne batch: 11 cells, two rows, pending63/rejected3, VERIFY978 and unresolved1346; post5/V39 remains the verified public edition until delivery.
+- [x] Deliver combined Eagan/Fort Wayne batch in qualified post6/V40 and verified current pages: 11 cells, two rows, 63 pending/three rejected, 978 VERIFY-tagged and 1,346 unresolved reviews. Final uploaded-payload audit follows.
