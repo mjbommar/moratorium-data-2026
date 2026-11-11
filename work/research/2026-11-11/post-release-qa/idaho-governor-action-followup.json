@@ -1,0 +1,114 @@
+{
+  "recorded_at": "2026-11-11T07:51:21.363825+00:00",
+  "baseline_commit": "47c4f841d8bc41aafc76b7d54b1596ea60611e92",
+  "id": "id-h0911-2026",
+  "dataset": "state_policy",
+  "current_row_sha256": "8a5d7b974ee7f69f9271e35997fcd271d3807fba5ad20df3ce34fc49c0fa942e",
+  "prior_review": {
+    "path": "work/research/2026-11-09/post-release-qa/idaho-signature-corroboration.json",
+    "sha256": "bd817b1e164c579784bec8ef259a6a550714fe0eb99d344887e5b0fb046d716a"
+  },
+  "admission": {
+    "caps": {
+      "fetch": 2,
+      "exa": 0,
+      "serpapi": 1,
+      "googlenews": 0,
+      "gdelt": 0,
+      "search_total": 1
+    },
+    "target_record_ids": [
+      "id-h0911-2026"
+    ],
+    "admission": "Actualpriorquery/readreceipt inspected. Do not repeat genericH911signaturequery or legislativebill/history/enactedtable/sessionlawindex. Discover governorofficial2026legislativeactionindex once via scopedSerpAPI, then atmost2actualnewreturnedgovernorsourceURLs. This authority-specificnavigationroute is unperformed; no guessedpaths/sourceabsenceinference/capreset."
+  },
+  "attempts": [
+    {
+      "attempt_id": "21bb1b574ae84298a9b286446549612e",
+      "kind": "serpapi",
+      "cost_usd": null,
+      "payload_sha256": "d27465ddc79ef3b98d4156166425dbd87997c3cf48205b7f940783a329622443",
+      "query": "2026 legislative action bills signed governor",
+      "returned_urls": [
+        "https://gov.idaho.gov/pressrelease/gov-little-signs-executive-order-to-cut-red-tape-for-idaho-farmers-and-ranchers-during-harvest/",
+        "https://gov.idaho.gov/legislative-sessions/2026-session/",
+        "https://gov.idaho.gov/pressrelease/",
+        "https://gov.idaho.gov/pressrelease/idaho-continues-to-strengthen-partnership-with-ice-to-enforce-nations-immigration-laws/",
+        "https://gov.idaho.gov/pressrelease/gov-little-grants-additional-leave-for-state-employees-to-celebrate-america250/",
+        "https://gov.idaho.gov/legislative-sessions/2025-session/"
+      ]
+    },
+    {
+      "attempt_id": "ed0082a915984942803994f87cb6c480",
+      "kind": "fetch",
+      "status": 200,
+      "ok": true,
+      "body_sha256": "7c33ca9ff6d83a574a6fc9b347acc91a0c45036d6e4d15c0bd700975a24853c6",
+      "text_sha256": "f0825c5646c5dffc5da37f3af614dbea496e89978283cb0574f97963107a822d",
+      "payload_sha256": "6b52b5770ca85331662518109d42398fb4b5a6453cb64d2ae7573b1c0c31ddf1",
+      "url": "https://gov.idaho.gov/legislative-sessions/2026-session/",
+      "acquired_at": "2026-11-11T07:48:49.666910Z"
+    },
+    {
+      "attempt_id": "8f74f477f0374f7babe3731a583033ca",
+      "kind": "fetch",
+      "status": 200,
+      "ok": true,
+      "body_sha256": "d8b89a9e148e30269c220f8765f1e1bc26997f1226f07d7154f4ed867deb877c",
+      "text_sha256": "2fa9b82e1150ab519bc6b0b525aef19d326141d1db3d592f7b46898fab41778e",
+      "payload_sha256": "112d018d740155fd570adcab97a8cadead6642be93c6498f4b8ef86f1d1dbb13",
+      "url": "https://gov.idaho.gov/wp-content/uploads/2026/04/daily-bill-action_041026_10-AM-MT.pdf",
+      "acquired_at": "2026-11-11T07:49:19.405777Z"
+    }
+  ],
+  "governor_index_label": "Daily Tracking Sheet \u2013 Friday, April 10, 2026 at 10 AM Mountain Time",
+  "tracker_row": {
+    "physical_page": 10,
+    "bill": "HB 911",
+    "delivered_time": "12:50 p.m.",
+    "delivered_date": "04/01/26",
+    "due_date": "04/14/26",
+    "due_time": "6:28 p.m.",
+    "action": null,
+    "date_signed": null,
+    "time_signed": null,
+    "null_scope": "Visiblyblank cells in this datedsnapshot, not claimofnoaction."
+  },
+  "pdf_physical_pages": 12,
+  "coordinator_inspected_pdf_pages": [
+    1,
+    10
+  ],
+  "image_pins": [
+    {
+      "physical_page": 1,
+      "sha256": "0614fb6707097a29ef983372234365e549d8bcdc908b1428a908affc51e98968"
+    },
+    {
+      "physical_page": 10,
+      "sha256": "5d7531b4c80452bc53d2d2c59754aa98fda7a79f164353180b9d717ccbcbf266"
+    }
+  ],
+  "layout_sha256": "7294cf1efee9b8115d0994f547663af4070fc3303293ef249e2f6d0944060c71",
+  "form_dump_sha256": "f6c7a8d7b13807e547c06e524892dcb626aa2270222f64f8ed7d1e0a60093a0a",
+  "canonical_changes": 0,
+  "whole_record_closures": 0,
+  "recommendation": "unresolved",
+  "native_readback_gaps": 0,
+  "client_operations": {
+    "serpapi": 1,
+    "fetch": 2,
+    "total": 3
+  },
+  "model_requests": 0,
+  "cost_usd": null,
+  "source_continuity": {
+    "path": "work/research/2026-11-11/post-release-qa/idaho-governor-source-continuity.json",
+    "sha256": "577ce6b4591b323b405c7d579ea2959f76999f2bdebca7ecfbd259a86e6de671"
+  },
+  "remaining_questions": [
+    "The governor2026sessionpage and its linked DailyTrackingSheet labelled FridayApril10,2026at10AMMountainTime have now been acquired. Physicalpage10HB911row has blankaction/date-signed/time-signedcells, with deliveryApril1and dueApril14. Page1columnheaders and page10row were visuallychecked; noAcroFormfields exist. Delivery/due dates are notsignature dates. Do not repeat this same index/PDF merely to inspect this row again.",
+    "Obtain a distinct completed signature/actionrecord or signed2026sessionlawchapter335. The captured same-day10AMtrackingrecord does not independentlyconfirm a signature or exclude actionlaterthatday. Preserve the separatelyreviewed legislativeenactedtable corroboration of April10; no contrarynon-signature, veto, changedstatus or currentforce inference follows. Do not repeat the genericH911signaturequery or oldlegislativehistory/index absent a changedsource."
+  ],
+  "scope": "Source-specific governorroute nowperformed. Newprimaryrecordis incompletesame-daytracking, notsignedact orconfirmedsignature; canonicalpolicy/local/native/history/status/headlines unchanged."
+}

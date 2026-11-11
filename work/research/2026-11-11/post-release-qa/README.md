@@ -83,3 +83,6 @@ Working QA update: [four Clay original-packet prose corrections](clay-original-r
 
 
 Source-only follow-up: [East Fishkill and Salina filing-image audit](ny-retained-filing-screen.md). All fourteen retained pages inspected; no missed state filing receipt recovered. Two queue entries become source-specific; data and public pages remain unchanged.
+
+
+Source-only follow-up: [Idaho governor H0911 action tracking](idaho-governor-action-followup.md). A newly acquired same-day morning snapshot has blank action/signature cells. It does not resolve signature or negate existing legislative corroboration. Canonical data and public pages are unchanged.

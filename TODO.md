@@ -952,3 +952,5 @@ Exit: repeatable refresh with visible freshness, costs, failures and unresolved 
 - [ ] Include four Clay working corrections in the next combined release/consumer/Pages batch after further reviewed corrections accumulate; qualified post1/V35 remains delivered.
 
 - [x] Complete retained filing-image audit for EastFishkill/Salina: all14pages inspected, municipal request letters/seals distinguished from state receipt, two exact nativepairs read back. Two distinct state-domain searches produced no usable filingrecord; no sourcefetch/model/canonicalchange. Two residual queue entries updated; actualfiling/laterforce remain open.
+
+- [x] Inspect Idaho governor2026sessionindex and actualApril10at10AMdailyactionPDF: page1headers/page10HB911row visuallychecked; action/signaturecells blank, delivery/due dates notsignature. Archive/readback2pairs, update1sourcequestion, preserve April10legislativecorroboration and existingcanonicalvalues. Completedaction/signedchapter stillneeded; no repeatunchangedrecord.
