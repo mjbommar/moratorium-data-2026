@@ -31,7 +31,7 @@
   "record_disposition_path": "work/research/2026-11-08/full-record-dispositions/funnel.json",
   "qa_status": "ongoing",
   "publication_authorization": "publish current state with qualifications on pending QA, then continue to double check and clear the outstanding questions",
-  "working_revision": "2026.11.11.post7-data-consumer-delivered-hosting-pending",
+  "working_revision": "2026.11.11.post7-delivery-verified",
   "current_raw_counts": {
     "local": 1328,
     "state_policy": 449,
@@ -40,7 +40,7 @@
   "prior_release": "v2026.11.11.post6",
   "prior_release_source_commit": "6015c205faca3a0a800295f3ac739d0946693218",
   "prior_published_source_commit": "6015c205faca3a0a800295f3ac739d0946693218",
-  "published_source_reference": "Qualified post7 pins f3d67fa20374512aab842ea5cb7ab2bb8948af47; identical builds, full restore, ten anonymous downloads and V41 verified. Hosted verification pending; post6 is prior verified site. LA memorandum scope/later action and broader QA remain qualified.",
+  "published_source_reference": "Qualified post7 pins f3d67fa20374512aab842ea5cb7ab2bb8948af47; builds,restore,tenanonymousdownloads,V41andinitialcurrentpagesverified. Final acknowledgment payload check follows.",
   "latest_consumer_handoff": {
     "source_commit": "f3d67fa20374512aab842ea5cb7ab2bb8948af47",
     "manifest_sha256": "fd21e1f324faed6b8369e0e73bbd2c67f08ffbcbf089a871e45a36745a835a8a",
@@ -71,12 +71,13 @@
     "changed_policy_rows": 0,
     "status_category_changes": 0,
     "normalized_date_changes": 0,
-    "scope": "Two LA County prose cells delivered in post7/V41; no whole-record closures. Pending63/rejected3, VERIFY978, unresolved1346. Hosted checks pending; LA memorandum scope/later action and wider QA unresolved.",
-    "state": "delivered_data_consumer_pending_hosted_verification",
+    "scope": "Two LA County prose cells delivered in post7/V41 and verified current pages. No closures or headline changes;1346unresolved.",
+    "state": "delivered_and_hosted_verified",
     "delivered_source_commit": "f3d67fa20374512aab842ea5cb7ab2bb8948af47",
     "delivered_consumer_commit": "763565e87a5a328ae569dedee2a9a73f6728cd8c",
     "delivery_receipt": "work/research/2026-11-11/post-release-qa/consumer-v41-handoff.json",
-    "hosted_copy_state": "pending"
+    "hosted_copy_state": "verified",
+    "hosted_receipt": "work/research/2026-11-11/release-2026.11.11.post7/hosted-copy-verification.json"
   },
   "latest_source_followup": "work/research/2026-11-11/post-release-qa/brookhaven-operative-application.json",
   "latest_expanded_candidate_review": "work/research/2026-11-09/starke-succession-review/validation.json",
@@ -124,15 +125,15 @@
   },
   "latest_field_application": "work/research/2026-11-11/post-release-qa/los-angeles-operative-application.json",
   "latest_hosted_delivery": {
-    "source_commit": "6015c205faca3a0a800295f3ac739d0946693218",
-    "hosted_source_commit": "c268e5b01b6350ceae661b16c15b3c62021598b0",
-    "release_source_commit": "6015c205faca3a0a800295f3ac739d0946693218",
-    "pages_run": 43013462618,
-    "receipt": "work/research/2026-11-11/release-2026.11.11.post6/hosted-copy-verification.json",
+    "source_commit": "f3d67fa20374512aab842ea5cb7ab2bb8948af47",
+    "hosted_source_commit": "13abc32127e401299eb9205b842a21abd0230212",
+    "release_source_commit": "f3d67fa20374512aab842ea5cb7ab2bb8948af47",
+    "pages_run": 43018127052,
+    "receipt": "work/research/2026-11-11/release-2026.11.11.post7/hosted-copy-verification.json",
     "state": "verified"
   },
   "latest_expanded_result_review": "work/research/2026-11-10/canterbury-minutes-result-review/coordinator-adjudication.json",
-  "latest_verified_release": "v2026.11.11.post6",
+  "latest_verified_release": "v2026.11.11.post7",
   "source_observation_window_scope": "Acquisition range includes source-specific QA captures through November10; this does not renew every record or move the original comprehensive research_cutoff.",
   "latest_download_verified_release": "v2026.11.11.post7",
   "prior_latest_consumer_handoff": {
@@ -145,11 +146,11 @@
   },
   "prior_published_source_reference": "Qualified post6 pins 6015c205faca3a0a800295f3ac739d0946693218; identical builds, clean restore, ten anonymous downloads, V40 and all current hosted pages/browser checks verified. Initial hosted source c268e5b01b6350ceae661b16c15b3c62021598b0; receipt work/research/2026-11-11/release-2026.11.11.post6/hosted-copy-verification.json. Eagan court outcome/later force and broader QA remain qualified.",
   "latest_verified_hosted_data": {
-    "release": "v2026.11.11.post6",
-    "release_source_commit": "6015c205faca3a0a800295f3ac739d0946693218",
+    "release": "v2026.11.11.post7",
+    "release_source_commit": "f3d67fa20374512aab842ea5cb7ab2bb8948af47",
     "selected_files": 231,
-    "receipt": "work/research/2026-11-11/release-2026.11.11.post6/hosted-copy-verification.json",
-    "scope": "Every currentHTMLpage and linkedlocalresource/download matches pinnedsource. Actual desktop/mobile/dark, mapfilters, charts/tables, Fort Wayne rejected pointer popup, Eagan reporting and revised counts pass. Full final artifact and acknowledgment recheck follows; no universal currentlaw or freshness certification."
+    "receipt": "work/research/2026-11-11/release-2026.11.11.post7/hosted-copy-verification.json",
+    "scope": "All current HTML and linked local bytes match; actual browser desktop/mobile/dark, maps, tables, charts and LA referral/qualifications pass. Final artifact and acknowledgment verification follows."
   },
   "latest_disposition_review": "work/research/2026-11-11/post-release-qa/fort-wayne-final-disposition-application.json",
   "status_baseline_comparison": "work/research/2026-11-11/post-release-qa/fort-wayne-september-status-delta.json",
@@ -307,31 +308,34 @@
       },
       "resolution": "work/research/2026-11-11/release-2026.11.11.post6/hosted-copy-verification.json",
       "pages_run": 43013462618
+    },
+    {
+      "resolved_at": "2026-11-11T12:12:20.315829+00:00",
+      "prior_hold": {
+        "release": "v2026.11.11.post7",
+        "release_source_commit": "f3d67fa20374512aab842ea5cb7ab2bb8948af47",
+        "state": "verified_data_release_pending_full_site_deployment",
+        "receipt": "work/research/2026-11-11/release-2026.11.11.post7/public-verification.json",
+        "active_deployment_run": null
+      },
+      "resolution": "work/research/2026-11-11/release-2026.11.11.post7/hosted-copy-verification.json",
+      "pages_run": 43018127052
     }
   ],
   "prior_latest_hosted_delivery": {
-    "source_commit": "4c83f245891fe025d28c00b29c662a040e0bcd92",
-    "hosted_source_commit": "bc2579c67d16635b13320ecd2bb378754a357f68",
-    "release_source_commit": "4c83f245891fe025d28c00b29c662a040e0bcd92",
-    "pages_run": 43005629551,
-    "receipt": "work/research/2026-11-11/release-2026.11.11.post5/hosted-copy-verification.json",
+    "source_commit": "6015c205faca3a0a800295f3ac739d0946693218",
+    "hosted_source_commit": "c268e5b01b6350ceae661b16c15b3c62021598b0",
+    "release_source_commit": "6015c205faca3a0a800295f3ac739d0946693218",
+    "pages_run": 43013462618,
+    "receipt": "work/research/2026-11-11/release-2026.11.11.post6/hosted-copy-verification.json",
     "state": "verified"
   },
   "prior_latest_verified_hosted_data": {
-    "release": "v2026.11.11.post5",
-    "release_source_commit": "4c83f245891fe025d28c00b29c662a040e0bcd92",
+    "release": "v2026.11.11.post6",
+    "release_source_commit": "6015c205faca3a0a800295f3ac739d0946693218",
     "selected_files": 231,
-    "receipt": "work/research/2026-11-11/release-2026.11.11.post5/hosted-copy-verification.json",
-    "scope": "Every currentHTMLpage and linkedlocalresource/download matches pinnedsource. Actual desktop/mobile/dark, mapfilters, charts/tables, Alachua pointer popup and Florida corrected reading/vote prose pass. Full final artifact and acknowledgment recheck follows; no universal currentlaw or freshness certification."
+    "receipt": "work/research/2026-11-11/release-2026.11.11.post6/hosted-copy-verification.json",
+    "scope": "Every currentHTMLpage and linkedlocalresource/download matches pinnedsource. Actual desktop/mobile/dark, mapfilters, charts/tables, Fort Wayne rejected pointer popup, Eagan reporting and revised counts pass. Full final artifact and acknowledgment recheck follows; no universal currentlaw or freshness certification."
   },
-  "latest_independent_record_review": "work/research/2026-11-11/post-release-qa/los-angeles-operative-application.json",
-  "prepared_release": "v2026.11.11.post7",
-  "prepared_release_qualifications": "Two LA County prose corrections; no headline/status/native changes or whole-record closures. 1346 reviews remain unresolved. Delivery pending.",
-  "pending_hosted_delivery": {
-    "release": "v2026.11.11.post7",
-    "release_source_commit": "f3d67fa20374512aab842ea5cb7ab2bb8948af47",
-    "state": "verified_data_release_pending_full_site_deployment",
-    "receipt": "work/research/2026-11-11/release-2026.11.11.post7/public-verification.json",
-    "active_deployment_run": null
-  }
+  "latest_independent_record_review": "work/research/2026-11-11/post-release-qa/los-angeles-operative-application.json"
 }
