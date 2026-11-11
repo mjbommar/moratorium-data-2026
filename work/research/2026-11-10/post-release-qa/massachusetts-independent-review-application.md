@@ -15,3 +15,5 @@ Final conference/enacted outcome, actual named sponsor/party and any later legal
 These three policy prose corrections await the next synchronized release/consumer/site batch. The verified public edition remains post17/V32. Historical integration and release receipts are preserved with their original review status; this review supersedes the pending-independent-review question.
 
 Subsequent follow-up: [originating committee attribution](massachusetts-origin-attribution-application.md) resolves the institutional sponsor question and supersedes the two initially unknown sponsor/party fields. This initial review and its original applied values remain preserved.
+
+Delivery follow-up: these reviewed corrections are included in qualified post18 and consumer V33. Earlier pending-delivery statements above describe the review-time state. See [current post18 delivery status](../release-2026.11.10.post18/README.md); substantive outcome/force qualifications remain.

@@ -9,3 +9,5 @@ The reviewer's whole-record-closure flag is **rejected** because it conflicts wi
 These two edits supersede the immediately preceding unknown sponsor/party wording. There are **three unique policy fields** different from public post17 (sponsors, party, key provisions), following five intermediate cell edits across the two reviews. The earlier application and all source/review hashes remain intact; the guarded transition chain recognizes both prior observations.
 
 [Guarded application](massachusetts-origin-attribution-application.json), [independent review](massachusetts-origin-independent-review.json), [verification](massachusetts-origin-and-ohio-verification.json). Public post17/V32 remains the verified edition; the cumulative corrections await the next synchronized delivery batch.
+
+Delivery follow-up: these reviewed corrections are included in qualified post18 and consumer V33. Earlier pending-delivery statements above describe the review-time state. See [current post18 delivery status](../release-2026.11.10.post18/README.md); substantive outcome/force qualifications remain.

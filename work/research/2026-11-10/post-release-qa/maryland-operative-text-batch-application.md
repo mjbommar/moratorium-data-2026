@@ -11,3 +11,5 @@ The signed Worcester copy has no separately printed effective-date clause or cal
 No status category, normalized date, identity, scope membership, headline total, native-governance or whole-record disposition changes. The unresolved-record count stays 1,347. There are now **sixteen unique pending prose cells across three records**: thirteen Maryland local cells plus three Massachusetts policy cells, following eighteen intermediate edits that include superseded sponsor wording. Public post17/V32 remains the verified edition until the next synchronized delivery.
 
 [Guarded application](maryland-operative-text-batch-application.json), [independent review](maryland-operative-text-independent-review.json), [source discovery/accounting](maryland-operative-source-discovery.json), [exact delta and checks](maryland-operative-text-verification.json).
+
+Delivery follow-up: these reviewed corrections are included in qualified post18 and consumer V33. Earlier pending-delivery statements above describe the review-time state. See [current post18 delivery status](../release-2026.11.10.post18/README.md); substantive outcome/force qualifications remain.

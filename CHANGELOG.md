@@ -1,6 +1,6 @@
 # Changelog
 
-## Qualified v2026.11.10.post18 — delivery pending
+## Qualified v2026.11.10.post18 — website verification pending
 
 Sixteen prose cells across three records: thirteen Ridgely/Worcester local fields use newly recovered official minutes and signed text; three Massachusetts fields incorporate independent record QA, originating House Ways and Means attribution and version/nonenactment qualifications. Two later Massachusetts edits supersede earlier unknown attribution wording, so eighteen intermediate edits produce sixteen unique delivered cells.
 
