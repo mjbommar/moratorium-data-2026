@@ -93,17 +93,17 @@ State policy is tracked separately: **5 records** (5 typed bill rows) in [`state
 
 - **Type:** City
 - **Recorded status:** 🟢 Active
-- **Date enacted:** City Council adopted Ordinance 905 by a 6-0 vote on 2026-06-29, effective immediately.
+- **Date enacted:** June 29, 2026: City Council minutes report unanimous adoption of Ordinance 905 and list six councilmembers present. The ordinance states immediate effectiveness upon passage.
 - **Normalized date:** `2026-06-29` (exact)
-- **Duration:** One-year moratorium in all city districts on accepting, processing, or approving applications to establish, expand, or change a use to a data center with capacity exceeding 20 MVA. Preserves vested rights for complete permit applications filed before the effective date. Public hearing scheduled for 2026-07-13.
+- **Duration:** One-year moratorium in all city districts on accepting, processing, or approving applications to establish, expand, or change a use to a data center with capacity exceeding 20 MVA. Preserves vested rights for complete permit applications filed before the effective date. Draft July 13 minutes included in the July 27 agenda packet report that the hearing was held; that packet does not independently establish approval of those minutes.
 - **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `wa-burien-2026`
 - **Legal basis:** Ordinance 905; RCW 36.70A.390 interim zoning control
 - **What prompted it:** —
 - **Affected projects:** —
-- **Detailed status:** Ordinance 905 records June 29 adoption and immediate effect upon passage. Section Four states one year from effectiveness, subject to extension or earlier termination. The operative definition uses capacity in excess of 20 MVA, not MW. Later amendments, operative interval and current force remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
-- **Outcome:** —
+- **Detailed status:** Ordinance 905 records June 29 adoption and immediate effect upon passage. Section Four states one year from effectiveness, subject to extension or earlier termination. The operative definition uses capacity in excess of 20 MVA, not MW. Draft July 13 minutes included in the July 27 agenda packet report a public hearing from 6:37 to 6:44 p.m. with public comments; approval of those draft minutes is not independently established by that packet. Later amendments, operative interval and current force remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
+- **Outcome:** City Council adopted Ordinance 905 unanimously on June 29, 2026; six councilmembers were listed as present. Draft July 13 minutes included in the July 27 agenda packet report that Council held the data-center moratorium public hearing and received comments. The supplied packet excerpts do not independently establish approval of the draft minutes, a change to the moratorium or later legal force.
 
 ### City of Chelan
 

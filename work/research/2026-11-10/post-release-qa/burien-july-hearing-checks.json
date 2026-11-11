@@ -1,0 +1,77 @@
+{
+  "verified_at": "2026-11-11T03:08:30.489785+00:00",
+  "checks": [
+    {
+      "command": [
+        "scripts/validate_dataset.py",
+        "--today",
+        "2026-11-10"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/build_policy_scope_exports.py",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/build_summary_stats.py",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/build_geojson.py",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/make_timeline.py",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/check_docs_numbers.py"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "-m",
+        "scripts.generate_tables.inventory_clean",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/build_index.py",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/classify_sources.py",
+        "--check"
+      ],
+      "returncode": 0
+    }
+  ],
+  "all_checks_passed": true,
+  "new_native_source_readbacks": 2,
+  "native_source_readback_gaps": 0,
+  "application": "work/research/2026-11-10/post-release-qa/burien-july-hearing-reviewed-application.json",
+  "application_sha256": "53489aabf35399f0a6672a2ee5efa8dcf356425578a55abee73690327aa2ceed",
+  "delivery_state": "reviewed_working_delta_pending_next_synchronized_batch",
+  "last_verified_release": "v2026.11.10.post16",
+  "scope": "Validation of four accepted prose cells and their regenerated inventory/map/state-page views; no current-force acceptance or new deployment claim."
+}

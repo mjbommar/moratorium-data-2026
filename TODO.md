@@ -901,3 +901,6 @@ Exit: repeatable refresh with visible freshness, costs, failures and unresolved 
 
 - [x] Qualified post16/V31 data delivery: ten policy corrections and Kentucky historical-order admission; deterministic build, clean restore, ten downloads and consumer checks verified.
 - [x] Deploy and verify complete post16 public pages, policy totals, Kentucky order, map filters, downloads and desktop/mobile behavior.
+
+- [x] Independently review and apply four Burien historical prose corrections: draft July 13 hearing report and source-faithful vote wording; preserve later-force and approval questions.
+- [ ] Include the Burien correction in the next synchronized release/consumer/site batch; post16/V31 remains the verified public edition.

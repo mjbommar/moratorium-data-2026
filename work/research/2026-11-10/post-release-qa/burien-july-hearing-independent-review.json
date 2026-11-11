@@ -1,0 +1,246 @@
+{
+  "reviewed_at": "2026-11-11T03:03:11.195683+00:00",
+  "id": "wa-burien-2026",
+  "model": "gpt-6.1-terra",
+  "tools": [],
+  "agents_spawned": 0,
+  "input_manifest_sha256": "9c8f0aa783ec106c52a3964607f8bb160ac88144ad823eec69da647cf904bcde",
+  "input_row_sha256": "944b475afb7a27e2fcc295953dd4bca5836c391c3db9ed432724394469a9ded9",
+  "source_pins": [
+    {
+      "source_id": "0e1b8142a9ca48758b538dc47e20fadd",
+      "url": "https://burienwa.civicweb.net/document/221268/",
+      "captured_at": "2026-11-05T22:51:43.071611+00:00",
+      "body_sha256": "baa989f073a0be0f2b4d78349cf82bb65f8c7c071c620f0fb386ffe390cd23a4",
+      "layout_sha256": "4843e2217254b2469864427a861121e6fe13edca6c044783a8fff318be96af3f",
+      "selected_physical_pages": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "scope": "Original retained PDF body verified; selected pdftotext-layout text. Complete original ordinance and June29minutes, and complete seven-page July13draft minutes."
+    },
+    {
+      "source_id": "ae7266cf1aa740e38794fb74cc903ffb",
+      "url": "https://burienwa.civicweb.net/document/221548/",
+      "captured_at": "2026-11-05T22:51:43.092581+00:00",
+      "body_sha256": "12dc03a25a280b2bc22e6e72cf4bed0f5c3432d3e43c5a3a82ff6a3dab406cb3",
+      "layout_sha256": "5f3f6b187b4647cd6d3f006b5d266fc22fc7b73a3b901441c7e3d450bda766fe",
+      "selected_physical_pages": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "scope": "Original retained PDF body verified; selected pdftotext-layout text. Complete original ordinance and June29minutes, and complete seven-page July13draft minutes."
+    },
+    {
+      "source_id": "a749f968999246a0a767d3745050cb5f",
+      "url": "https://burienwa.civicweb.net/document/221773/City%20Council%20Regular%20Meeting%20-%2027%20Jul%202026.pdf?handle=D521455191EB408D824E8E1C7208D472",
+      "captured_at": "2026-11-11T02:54:27.259301Z",
+      "body_sha256": "3f4883fdb1a107d91fcabc3af63b58053b4c7c70ae4644d4febf696aa21c7fe3",
+      "layout_sha256": "4b69f1ff3f17e865ff8c5d22b3db8b83345b24a023233725e3bf88d90e4f7af5",
+      "selected_physical_pages": [
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79
+      ],
+      "scope": "Original retained PDF body verified; selected pdftotext-layout text. Complete original ordinance and June29minutes, and complete seven-page July13draft minutes."
+    }
+  ],
+  "image_pins": [
+    {
+      "source_id": "a749f968999246a0a767d3745050cb5f",
+      "physical_page": 73,
+      "sha256": "6f82729b1c14c5b0fab2ff1d9b38b5015bd745af417d675a86e69018aa35cef5"
+    },
+    {
+      "source_id": "a749f968999246a0a767d3745050cb5f",
+      "physical_page": 76,
+      "sha256": "14ade14abb5ef2623a5c8a37ca78735f89b1eb6a480cd817888f4a2a9e9b5310"
+    },
+    {
+      "source_id": "a749f968999246a0a767d3745050cb5f",
+      "physical_page": 79,
+      "sha256": "7c7431f02ac37956f7cff0cc86f5e21312e2df0690e98c8140710f8909c7dc2b"
+    }
+  ],
+  "captures": [
+    {
+      "attempt_id": "8392a83ca80a4e2eb469b379aab1c703",
+      "request_descriptor_sha256": "1801bad8923144ac15ac57362b26cf637bfe61c96ac2ba2e85b86475a5df3fd2",
+      "wire_request_sha256": "c4d07d2e6136bb97b12fcad1309da15211e9ae490ebeaab78a5f455dd7e281c2",
+      "wire_response_sha256": "fe169e9e8b0316b89d5a128b336d35a690c9d4524948b63726f427109b257add",
+      "status": 200,
+      "response_status": "completed",
+      "wire_output_matches_sdk": true,
+      "usage": {
+        "input_tokens": 12434,
+        "input_tokens_details": {
+          "cache_write_tokens": 12431,
+          "cached_tokens": 0
+        },
+        "output_tokens": 1836,
+        "output_tokens_details": {
+          "reasoning_tokens": 178
+        },
+        "total_tokens": 14270
+      }
+    },
+    {
+      "attempt_id": "b536f5006c6d4446984af27c083b7ec2",
+      "request_descriptor_sha256": "95eab97fb1edc0afad7f5095e9e7395e6b381815a89590166f8b4d9802717768",
+      "wire_request_sha256": "585842973240b2a06c2d705c5d3b5dd06236fe7cdd2ec807ce82ee523d38477a",
+      "wire_response_sha256": "bfc1ba55edc6d6786551d666b6f0797925f4cdf18a7189debe801ece8e10c6f5",
+      "status": 200,
+      "response_status": "completed",
+      "wire_output_matches_sdk": true,
+      "usage": {
+        "input_tokens": 15001,
+        "input_tokens_details": {
+          "cache_write_tokens": 14998,
+          "cached_tokens": 0
+        },
+        "output_tokens": 2093,
+        "output_tokens_details": {
+          "reasoning_tokens": 1184
+        },
+        "total_tokens": 17094
+      }
+    }
+  ],
+  "phases": {
+    "cell_adjudication": {
+      "raw_answer_sha256": "073f054d6cdd337f7d3b33d51762ba86e9281b648b49301e36e8b0faf3bcb60e",
+      "assessment": {
+        "record_id": "wa-burien-2026",
+        "input_row_sha256": "944b475afb7a27e2fcc295953dd4bca5836c391c3db9ed432724394469a9ded9",
+        "field_decisions": [
+          {
+            "field": "duration",
+            "decision": "accept",
+            "value": "One-year moratorium in all city districts on accepting, processing, or approving applications to establish, expand, or change a use to a data center with capacity exceeding 20 MVA. Preserves vested rights for complete permit applications filed before the effective date. Draft July 13 minutes included in the July 27 agenda packet report that the hearing was held; that packet does not independently establish approval of those minutes.",
+            "source_id": "0e1b8142a9ca48758b538dc47e20fadd; a749f968999246a0a767d3745050cb5f",
+            "locator": "Ordinance physical page 3, Sections 2–5; draft minutes physical pages 73, 76 and 79",
+            "reason": "The ordinance supplies the original term, scope and vested-rights provision. The draft reports the hearing; its approval footer alone does not establish approval."
+          },
+          {
+            "field": "current_status",
+            "decision": "accept",
+            "value": "Ordinance 905 records June 29 adoption and immediate effect upon passage. Section Four states one year from effectiveness, subject to extension or earlier termination. The operative definition uses capacity in excess of 20 MVA, not MW. Draft July 13 minutes included in the July 27 agenda packet report a public hearing from 6:37 to 6:44 p.m. with public comments; approval of those draft minutes is not independently established by that packet. Later amendments, operative interval and current force remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+            "source_id": "0e1b8142a9ca48758b538dc47e20fadd; a749f968999246a0a767d3745050cb5f",
+            "locator": "Ordinance physical pages 3–4, Sections 2, Four and Ten; draft minutes physical pages 73, 76 and 79",
+            "reason": "The wording distinguishes the ordinance’s original terms from the hearing reported in draft minutes and leaves later actions and current force unresolved."
+          },
+          {
+            "field": "outcome",
+            "decision": "hold",
+            "value": "City Council adopted Ordinance 905 unanimously on June 29, 2026; six councilmembers were listed as present. Draft July 13 minutes included in the July 27 agenda packet report that Council held the data-center moratorium public hearing and received comments. The supplied packet excerpts do not independently establish approval of the draft minutes, a change to the moratorium or later legal force.",
+            "source_id": "ae7266cf1aa740e38794fb74cc903ffb; a749f968999246a0a767d3745050cb5f",
+            "locator": "June 29 minutes physical pages 1 and 4, roll call and item 12(c); draft July 13 minutes physical pages 73, 76 and 79",
+            "reason": "The June 29 minutes list six members present and report unanimous passage, but do not explicitly record a 6-0 tally. The narrower value preserves those reported facts."
+          }
+        ],
+        "whole_record_closure_supported": false,
+        "remaining_questions": [
+          "Were the July 13 minutes subsequently approved?",
+          "Were there later amendments, extensions, termination, repeal or judicial developments affecting the moratorium?",
+          "What is the moratorium’s operative interval and current legal force?"
+        ],
+        "review_limitations": [
+          "The supplied July 27 packet excerpts include the complete seven-page draft July 13 minutes, not the entire packet.",
+          "The draft identifies hearing speakers but does not report the substance of their comments.",
+          "The supplied documents do not establish a comprehensive later-action history or current enforceability."
+        ]
+      }
+    },
+    "blind_extraction": {
+      "raw_answer_sha256": "7b85217d50f53d6f59304c229cac6258f24b8e6523f467a31dc82bc87757b133",
+      "assessment": {
+        "facts": [
+          {
+            "field": "ordinance_adoption_and_vote",
+            "value": "Burien City Council adopted Ordinance No. 905 on June 29, 2026. Councilmember Kevin Schilling moved adoption, Councilmember Rocco DeVito seconded, and the motion passed unanimously. The signed ordinance is attested by the city clerk.",
+            "source_id": "ae7266cf1aa740e38794fb74cc903ffb",
+            "locator": "June 29 minutes, physical page 4, item 12(c); signed ordinance, source 0e1b8142a9ca48758b538dc47e20fadd, physical page 4"
+          },
+          {
+            "field": "effectiveness",
+            "value": "The ordinance declared an emergency and became effective immediately upon passage on June 29, 2026.",
+            "source_id": "0e1b8142a9ca48758b538dc47e20fadd",
+            "locator": "Physical page 4, Section Ten and adoption block"
+          },
+          {
+            "field": "original_term",
+            "value": "The original moratorium runs for one year from its effective date and automatically expires at the end of that period unless extended under the cited statutes or terminated sooner by the council.",
+            "source_id": "0e1b8142a9ca48758b538dc47e20fadd",
+            "locator": "Physical page 3, Section Four"
+          },
+          {
+            "field": "moratorium_scope",
+            "value": "The moratorium covers acceptance, processing and/or approval of applications to establish or expand qualifying data centers, or change use to them, as principal or accessory uses in all Burien districts. It applies whether the data center is a component of a project or the entire project.",
+            "source_id": "0e1b8142a9ca48758b538dc47e20fadd",
+            "locator": "Physical page 3, Section 2"
+          },
+          {
+            "field": "data_center_definition_and_threshold",
+            "value": "A qualifying facility is primarily used for housing, operating or co-locating computer and networking equipment and handling, storing, managing, processing and backing up digital data; has capacity strictly greater than 20 megavolt amperes (MVA); and generally requires uninterruptible power supplies and associated infrastructure such as cooling, backup power and battery storage.",
+            "source_id": "0e1b8142a9ca48758b538dc47e20fadd",
+            "locator": "Physical page 3, Section 2"
+          },
+          {
+            "field": "vested_rights",
+            "value": "The moratorium applies prospectively and prevents acceptance of permit applications submitted after the effective date. It does not extinguish, limit or infringe vested development rights as defined by state law and city regulations, provided the applicant filed a completed permit application before the effective date.",
+            "source_id": "0e1b8142a9ca48758b538dc47e20fadd",
+            "locator": "Physical page 3, Section 3"
+          },
+          {
+            "field": "work_plan",
+            "value": "The ordinance approves the work plan identified as Exhibit A and directs city staff and the Business and Economic Development Partnership to study the issues and develop appropriate land-use regulations.",
+            "source_id": "0e1b8142a9ca48758b538dc47e20fadd",
+            "locator": "Physical page 3, Section Six"
+          },
+          {
+            "field": "july_13_minutes_status",
+            "value": "The July 13 meeting account is labeled DRAFT MINUTES in the July 27 agenda. Its footer says 'Approved July 27, 2026,' but that prefilled footer does not establish that the draft was approved.",
+            "source_id": "a749f968999246a0a767d3745050cb5f",
+            "locator": "July 27 agenda, physical pages 73 and 79, item 11(b)"
+          },
+          {
+            "field": "july_13_hearing",
+            "value": "The draft reports that Mayor Sarah Moore opened the data-center moratorium hearing at 6:37 p.m. and closed it at 6:44 p.m. Karin Sinkula, Daniel Martin, Stephen Lamphear and Quinton Thompson shared comments.",
+            "source_id": "a749f968999246a0a767d3745050cb5f",
+            "locator": "Physical page 76, item 11(a)"
+          },
+          {
+            "field": "hearing_item_action",
+            "value": "The draft hearing item says the council could decide to adopt additional findings, but the item itself records no adoption of additional or changed findings or changed moratorium terms.",
+            "source_id": "a749f968999246a0a767d3745050cb5f",
+            "locator": "Physical page 76, item 11(a)"
+          }
+        ],
+        "uncertainties": [
+          "The draft hearing item identifies speakers but does not report the substance of their comments.",
+          "The draft and its prefilled approval footer do not establish approval of the July 13 minutes.",
+          "These sources do not establish a comprehensive account of later action or the moratorium's current legal status."
+        ]
+      }
+    }
+  },
+  "accounting": {
+    "http_requests": 2,
+    "max_http_requests": 2,
+    "max_output_tokens_per_request": 6000,
+    "max_retries": 0,
+    "cost_usd": null,
+    "price_status": "Price unavailable locally; request/token ceilings enforced, not claimed free."
+  },
+  "scope": "Independent historical-field review; draft authority and later-force residuals remain explicit. Initial held numeric-tally proposal preserved separately from accepted revised wording."
+}

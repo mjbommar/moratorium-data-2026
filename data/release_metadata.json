@@ -31,7 +31,7 @@
   "record_disposition_path": "work/research/2026-11-08/full-record-dispositions/funnel.json",
   "qa_status": "ongoing",
   "publication_authorization": "publish current state with qualifications on pending QA, then continue to double check and clear the outstanding questions",
-  "working_revision": "post16-data-consumer-and-site-verified",
+  "working_revision": "burien-july-hearing-correction-pending-next-reviewed-batch",
   "current_raw_counts": {
     "local": 1328,
     "state_policy": 449,
@@ -114,7 +114,7 @@
     "delivery_receipt": "work/research/2026-11-10/post-release-qa/consumer-v30-handoff.json",
     "hosted_copy_state": "verified"
   },
-  "latest_field_application": "work/research/2026-11-10/post-release-qa/bonney-lake-reviewed-application.json",
+  "latest_field_application": "work/research/2026-11-10/post-release-qa/burien-july-hearing-reviewed-application.json",
   "latest_hosted_delivery": {
     "source_commit": "b1fb539aa8da2ba6b50b588e1f7c542c76b6bc18",
     "hosted_source_commit": "66b845a40e58964b398b6008a0a3ca3d5f125043",
@@ -207,5 +207,17 @@
     "selected_files": 229,
     "receipt": "work/research/2026-11-10/release-2026.11.10.post15/hosted-copy-verification.json",
     "scope": "All generated HTML pages, local links/assets, figures/current downloads and live desktop/mobile browser/map/filter/Washington row verified. No universal source freshness or legal-force claim."
+  },
+  "pending_consumer_input_delta": {
+    "state": "reviewed_canonical_delta_pending_release_and_consumer_handoff",
+    "receipt": "work/research/2026-11-10/post-release-qa/burien-july-hearing-reviewed-application.json",
+    "prior_verified_release": "v2026.11.10.post16",
+    "changed_cells": 4,
+    "changed_local_rows": 1,
+    "changed_policy_rows": 0,
+    "status_category_changes": 0,
+    "normalized_date_changes": 0,
+    "whole_record_closures": 0,
+    "scope": "Historical hearing report and vote-description qualification; local/policy/ballot totals and native governance history unchanged. Later-force and draft-approval questions remain open. Batch with subsequent accepted corrections before next synchronized delivery."
   }
 }
