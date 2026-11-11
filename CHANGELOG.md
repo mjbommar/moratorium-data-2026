@@ -2,7 +2,7 @@
 
 ## Qualified v2026.11.11.post12
 
-This release adds Fairfax, Iowa’s proposed 18-month battery-storage moratorium and updates two fields in its data-center record. Final adoption and publication remain unconfirmed. Local records increase to 1,329 and pending records to 64. No existing record changes status. The review queue has 1,347 open records. The data files are published. Final page checks are still running.
+This release adds Fairfax, Iowa’s proposed 18-month battery-storage moratorium and updates two fields in its data-center record. Final adoption and publication remain unconfirmed. Local records increase to 1,329 and pending records to 64. No existing record changes status. The review queue has 1,347 open records. The public pages have also passed deployment checks.
 
 | Metric | Qualified November 11 post12 |
 |---|---:|

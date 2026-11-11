@@ -31,7 +31,7 @@
   "record_disposition_path": "work/research/2026-11-08/full-record-dispositions/funnel.json",
   "qa_status": "ongoing",
   "publication_authorization": "publish current state with qualifications on pending QA, then continue to double check and clear the outstanding questions",
-  "working_revision": "2026.11.11.post12-data-consumer-delivered-hosting-pending",
+  "working_revision": "2026.11.11.post12-delivery-verified",
   "current_raw_counts": {
     "local": 1329,
     "state_policy": 449,
@@ -40,7 +40,7 @@
   "prior_release": "v2026.11.11.post11",
   "prior_release_source_commit": "e2d510e0014721ec2bf04f401248b64f642da6a5",
   "prior_published_source_commit": "e2d510e0014721ec2bf04f401248b64f642da6a5",
-  "published_source_reference": "Qualified post12 pins 92715b1171dced0a29ec0c181a98aa2d435f9685; identical builds, full restore, ten anonymous downloads and V46 verified. Hosted verification pending; post11 is prior verified site. Final adopted texts, effect, interval, later force and broader QA remain qualified.",
+  "published_source_reference": "Qualified post12 pins 92715b1171dced0a29ec0c181a98aa2d435f9685; builds, restore, ten anonymous downloads, V46 and current pages verified. Final acknowledgment payload check follows.",
   "latest_consumer_handoff": {
     "source_commit": "92715b1171dced0a29ec0c181a98aa2d435f9685",
     "manifest_sha256": "b366fbf82bb17cc42e4e1b59e05ceeaab6c5a3063a0a46b97b9f0a28ef6572e8",
@@ -75,11 +75,12 @@
     "new_pending_rows": 1,
     "normalized_date_changes": 0,
     "scope": "Two existing data-center prose fields updated and one separate pending battery-storage proposal added in Fairfax. No existing record changes status. Local total rises from1328to1329, pending from63to64; other status counts and ballot data are unchanged.",
-    "state": "delivered_data_consumer_pending_hosted_verification",
+    "state": "delivered_and_hosted_verified",
     "delivered_source_commit": "92715b1171dced0a29ec0c181a98aa2d435f9685",
     "delivered_consumer_commit": "42970681c6dde5bbd543d82958c00d61ea86fc26",
     "delivery_receipt": "work/research/2026-11-11/post-release-qa/consumer-v46-handoff.json",
-    "hosted_copy_state": "pending"
+    "hosted_copy_state": "verified",
+    "hosted_receipt": "work/research/2026-11-11/release-2026.11.11.post12/hosted-copy-verification.json"
   },
   "latest_source_followup": "work/research/2026-11-11/post-release-qa/brookhaven-operative-application.json",
   "latest_expanded_candidate_review": "work/research/2026-11-09/starke-succession-review/validation.json",
@@ -126,15 +127,15 @@
   },
   "latest_field_application": "work/research/2026-11-11/post-release-qa/fairfax-data-center-operative-application.json",
   "latest_hosted_delivery": {
-    "source_commit": "e2d510e0014721ec2bf04f401248b64f642da6a5",
-    "hosted_source_commit": "79c721c24bd67794e68270aa0e8352fc44d438c4",
-    "release_source_commit": "e2d510e0014721ec2bf04f401248b64f642da6a5",
-    "pages_run": 43041420435,
-    "receipt": "work/research/2026-11-11/release-2026.11.11.post11/hosted-copy-verification.json",
+    "source_commit": "92715b1171dced0a29ec0c181a98aa2d435f9685",
+    "hosted_source_commit": "dcce24fb245d99085936fb154f0a42a3355fe311",
+    "release_source_commit": "92715b1171dced0a29ec0c181a98aa2d435f9685",
+    "pages_run": 43058116825,
+    "receipt": "work/research/2026-11-11/release-2026.11.11.post12/hosted-copy-verification.json",
     "state": "verified"
   },
   "latest_expanded_result_review": "work/research/2026-11-10/canterbury-minutes-result-review/coordinator-adjudication.json",
-  "latest_verified_release": "v2026.11.11.post11",
+  "latest_verified_release": "v2026.11.11.post12",
   "source_observation_window_scope": "Acquisition includes source-specific QA captures through November11; this does not renew every record or move the original comprehensive research_cutoff.",
   "latest_download_verified_release": "v2026.11.11.post12",
   "prior_latest_consumer_handoff": {
@@ -147,11 +148,11 @@
   },
   "prior_published_source_reference": "Qualified post11 pins e2d510e0014721ec2bf04f401248b64f642da6a5; builds, restore, ten anonymous downloads, V45 and current pages verified. Final acknowledgment payload check follows.",
   "latest_verified_hosted_data": {
-    "release": "v2026.11.11.post11",
-    "release_source_commit": "e2d510e0014721ec2bf04f401248b64f642da6a5",
-    "selected_files": 230,
-    "receipt": "work/research/2026-11-11/release-2026.11.11.post11/hosted-copy-verification.json",
-    "scope": "All current HTML and linked local bytes match; full desktop/mobile/dark browser checks pass. Both changed state entries match all five complete updated prose values. Final artifact and acknowledgment verification follows."
+    "release": "v2026.11.11.post12",
+    "release_source_commit": "92715b1171dced0a29ec0c181a98aa2d435f9685",
+    "selected_files": 227,
+    "receipt": "work/research/2026-11-11/release-2026.11.11.post12/hosted-copy-verification.json",
+    "scope": "All current HTML and linked local bytes match; full desktop/mobile/dark browser checks pass. Both Fairfax entries match the reviewed text, and the new pending proposal appears on the map. Final artifact and acknowledgment verification follows."
   },
   "latest_disposition_review": "work/research/2026-11-11/post-release-qa/fort-wayne-final-disposition-application.json",
   "status_baseline_comparison": "work/research/2026-11-11/post-release-qa/lowndes-september-status-delta.json",
@@ -369,29 +370,34 @@
       },
       "resolution": "work/research/2026-11-11/release-2026.11.11.post11/hosted-copy-verification.json",
       "pages_run": 43041420435
+    },
+    {
+      "resolved_at": "2026-11-11T16:26:24.810071+00:00",
+      "prior_hold": {
+        "release": "v2026.11.11.post12",
+        "release_source_commit": "92715b1171dced0a29ec0c181a98aa2d435f9685",
+        "state": "verified_data_release_pending_full_site_deployment",
+        "receipt": "work/research/2026-11-11/release-2026.11.11.post12/public-verification.json",
+        "active_deployment_run": null
+      },
+      "resolution": "work/research/2026-11-11/release-2026.11.11.post12/hosted-copy-verification.json",
+      "pages_run": 43058116825
     }
   ],
   "prior_latest_hosted_delivery": {
-    "source_commit": "8538114339069cf97465b04df74d1438625ad511",
-    "hosted_source_commit": "18ccbeb22180e48d7191da33db4e2e96e8d34895",
-    "release_source_commit": "8538114339069cf97465b04df74d1438625ad511",
-    "pages_run": 43033621137,
-    "receipt": "work/research/2026-11-11/release-2026.11.11.post10/hosted-copy-verification.json",
+    "source_commit": "e2d510e0014721ec2bf04f401248b64f642da6a5",
+    "hosted_source_commit": "79c721c24bd67794e68270aa0e8352fc44d438c4",
+    "release_source_commit": "e2d510e0014721ec2bf04f401248b64f642da6a5",
+    "pages_run": 43041420435,
+    "receipt": "work/research/2026-11-11/release-2026.11.11.post11/hosted-copy-verification.json",
     "state": "verified"
   },
   "prior_latest_verified_hosted_data": {
-    "release": "v2026.11.11.post10",
-    "release_source_commit": "8538114339069cf97465b04df74d1438625ad511",
+    "release": "v2026.11.11.post11",
+    "release_source_commit": "e2d510e0014721ec2bf04f401248b64f642da6a5",
     "selected_files": 230,
-    "receipt": "work/research/2026-11-11/release-2026.11.11.post10/hosted-copy-verification.json",
-    "scope": "All current HTML and linked local bytes match; actual browser desktop/mobile/dark, maps, tables, charts and combined batch adoption/calendar-term and source qualifications pass. Final artifact and acknowledgment verification follows."
+    "receipt": "work/research/2026-11-11/release-2026.11.11.post11/hosted-copy-verification.json",
+    "scope": "All current HTML and linked local bytes match; full desktop/mobile/dark browser checks pass. Both changed state entries match all five complete updated prose values. Final artifact and acknowledgment verification follows."
   },
-  "latest_independent_record_review": "work/research/2026-11-11/post-release-qa/fairfax-battery-addition-application.json",
-  "pending_hosted_delivery": {
-    "release": "v2026.11.11.post12",
-    "release_source_commit": "92715b1171dced0a29ec0c181a98aa2d435f9685",
-    "state": "verified_data_release_pending_full_site_deployment",
-    "receipt": "work/research/2026-11-11/release-2026.11.11.post12/public-verification.json",
-    "active_deployment_run": null
-  }
+  "latest_independent_record_review": "work/research/2026-11-11/post-release-qa/fairfax-battery-addition-application.json"
 }
