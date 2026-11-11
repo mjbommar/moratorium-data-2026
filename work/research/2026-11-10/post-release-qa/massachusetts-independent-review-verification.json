@@ -1,0 +1,116 @@
+{
+  "verified_at": "2026-11-11T03:53:58.281161+00:00",
+  "baseline_commit": "e41b9539fd63cd9176d6605536c3a5d464c3555c",
+  "id": "ma-h5175-s3166-194th",
+  "independent_review_completed": true,
+  "fields_reviewed": 19,
+  "canonical_changes": [
+    {
+      "id": "ma-h5175-s3166-194th",
+      "field": "sponsors",
+      "before": "House energy legislation; Senate amendment S.3166",
+      "after": "House energy legislative package; Senate amendment reprinted as S.3166. Named sponsor not identified in retained excerpts."
+    },
+    {
+      "id": "ma-h5175-s3166-194th",
+      "field": "party",
+      "before": "N/A",
+      "after": "Unknown; named sponsor not identified in retained excerpts."
+    },
+    {
+      "id": "ma-h5175-s3166-194th",
+      "field": "key_provisions",
+      "before": "Distinct proposed versions: House H.5175 chapter 164 section 163 defines data centers by designed load of at least 20 MW and digital-data purpose; specified new/expanded permit applicants face at least 80% renewable supply and a battery-infeasibility showing before fossil-backup permitting, alongside data-center tariffs protecting other customers. Senate S.3166 section 3 proposes data-center exemption certification conditions; sections 88 and 114 propose flexible interconnection and a working group including data-center operators. Version differences remain explicit; these are not enacted requirements.",
+      "after": "Distinct proposed versions: House H.5175 proposes chapter 164 section 163, defining a data center by a designed load of at least 20 MW and digital-data purpose. Specified new or expanded data centers seeking permits from the department or the energy facilities siting board would procure sufficient electricity for operational needs using at least 80% renewable resources; those seeking a Department of Environmental Protection permit to operate fossil-fuel backup generation would first demonstrate on-site battery storage infeasibility. The House also proposes data-center tariffs protecting other ratepayers and incentivizing efficiency. Senate S.3166 section 3 proposes conditions for specified data-center tax benefits; sections 88 and 114 propose flexible interconnection and a working group including data-center representatives. The excerpts do not establish enactment of either version or the provisions' present force."
+    }
+  ],
+  "canonical_cells_changed": 3,
+  "status_category_changes": 0,
+  "normalized_date_changes": 0,
+  "whole_record_closures": 0,
+  "raw_id_changes": 0,
+  "native_governance_changes": 0,
+  "scope_registry_changes": 0,
+  "retained_sources_reused_and_rehashed": 4,
+  "new_source_fetches": 0,
+  "source_observation_dates_renewed": false,
+  "model_http_requests": 3,
+  "all_wire_sdk_input_bindings_verified": true,
+  "initial_holds_retained": true,
+  "corrected_input_values_explicitly_accepted": true,
+  "inherited_activity_metadata_unchanged": true,
+  "source_heading_and_locator_anomalies_retained": true,
+  "checks": [
+    {
+      "command": [
+        "scripts/validate_dataset.py",
+        "--today",
+        "2026-11-10"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/build_policy_scope_exports.py",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/build_summary_stats.py",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/build_geojson.py",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/make_timeline.py",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/check_docs_numbers.py"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "-m",
+        "scripts.generate_tables.inventory_clean",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/build_index.py",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/classify_sources.py",
+        "--check"
+      ],
+      "returncode": 0
+    }
+  ],
+  "unresolved_records": 1347,
+  "remaining_questions": [
+    "Obtain a distinct final conference report, enacted act or other controlling subsequent outcome record for H5175/S3166. Retained captures establish differing proposed versions and July16conference appointments only; do not re-fetch the same docket or alternate/Bills and/BillHistory views merely to restate the hold.",
+    "Named individual sponsorship and party remain unidentified in the retained excerpts; current fields now disclose that limit. Any further attribution needs a primary attribution record.",
+    "If any relevant text was enacted, establish its effective provisions and current force, and any actual relationship to H4144; the retained excerpts establish no legal succession."
+  ],
+  "delivery_state": "Three policy prose cells pending next synchronized batch; public post17/V32 remains verified."
+}

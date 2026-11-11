@@ -1,5 +1,7 @@
 # Implementation TODO
 
+- [x] Complete Massachusetts H5175/S3166 independent record review with three captured Terra requests and four retained official sources, zero new source fetches. Three prose cells corrected; no category/date/count/native changes or whole-record closure. Nine focused checks and exact delta verified; three policy cells await the next synchronized delivery. [Review](work/research/2026-11-10/post-release-qa/massachusetts-independent-review-application.md).
+
 - [x] Recover exact2021H6476 official history through observed previous-session/year/numeric controls and its actual returned GET report URL. It lists only June25referral; terminal consequence remains unresolved. Preserve the invalid H-prefixed submission as a diagnostic, without outcome inference. Separately inspect the Maine August13council deck: its January2027report is distinct from the November4statutory incentives report. Five new source/store readbacks, zero canonical changes or closures; seven accepted prose cells remain pending delivery. [RI](work/research/2026-11-10/post-release-qa/rhode-island-exact-history-review.md), [Maine](work/research/2026-11-10/post-release-qa/maine-incentives-report-source-review.md).
 
 - [x] Recover the exact Howard County final amended CB31-2026 from its retained official docket link. Three prose cells now preserve the separate comprehensive-rezoning sunset trigger, conjunctive task-force/zoning trigger, fixed outside date and exemptions. Three bounded Terra reviews retain initial holds and corrected image inputs; one source/native readback, exact three-cell delta and nine focused checks verified. No category/date change or whole-record closure; 1,347 unresolved. Seven cumulative prose fields across two local records await the next synchronized delivery. [Review](work/research/2026-11-10/post-release-qa/howard-amended-act-application.md).
@@ -75,7 +77,7 @@ Plan: [Research modernization and ballot-measure expansion](docs/research-and-ba
 
 
 - [x] Integrate the newly retained Massachusetts H 5175 energy package and Senate S 3166 reprint after provision-level comparison, guarded identity/scope accounting and generated-copy checks. Preserve proposed conference status and version differences; keep H 4144's study-order record separate. Independent QA remains open. [Evidence](work/research/2026-11-09/post-release-qa/massachusetts-energy-conference-evidence.json).
-- [ ] Complete independent record QA for the post-release Massachusetts addition.
+- [x] Complete independent record QA for the post-release Massachusetts addition; all 19 fields adjudicated, three qualifications corrected, inherited activity metadata resolved. Final conference/enactment, named sponsorship and later force remain open.
 - [x] Deliver authenticated V5 working inputs to the integration consumer and record historical dispositions for the other six consumers; preserve immutable release snapshots. [Receipt](work/research/2026-11-09/post-release-qa/consumer-v5-handoff.md).
 
 

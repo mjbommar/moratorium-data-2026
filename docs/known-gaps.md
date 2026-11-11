@@ -10,9 +10,8 @@ record-level observations and `[VERIFY]` markers identify unresolved work.
 
 The November 9 [integration](../work/research/2026-11-09/post-release-qa/massachusetts-energy-integration.json)
 adds H 5175 with its distinct House text and Senate reprint S 3166 as one proposed
-policy observation. Its history ends at conference appointment. Independent
-record-level QA and any final conference/enacted language remain open. Neither
-version is counted as an enactment, and H 4144 retains its separate study-order status.
+policy observation. Its retained history ends at conference appointment. [Independent
+record-level QA](../work/research/2026-11-10/post-release-qa/massachusetts-independent-review-application.md) is complete, with three sponsor/party/provision qualifications corrected in working data. Actual named sponsorship, final conference/enacted language and later force remain unresolved. Neither version is counted as an enactment, and H 4144 retains its separate study-order status. The verified released snapshot remains post17/V32 until the next synchronized delivery.
 
 ### Latest policy review boundaries
 
@@ -22,7 +21,7 @@ The [post16 application](../work/research/2026-11-10/post-release-qa/policy-revi
 
 All 1777 raw IDs now have review accounting. The 1775 surviving original IDs
 have primary and independent artifacts; the new Massachusetts observation has
-direct source review with independent QA pending. The Kentucky executive-order addition has independent historical field review and retains later-force questions. These are the current 1328 local and 449 state-policy records. The
+direct source review and completed independent historical-record QA, with outcome/force questions retained. The Kentucky executive-order addition has independent historical field review and retains later-force questions. These are the current 1328 local and 449 state-policy records. The
 [full-inventory application](../work/research/2026-11-08/full-inventory-integrated-application/README.md)
 records exact corrections, zero pending cells in the remaining-cohort queue and
 full repository consistency checks. Those facts do not establish complete discovery,

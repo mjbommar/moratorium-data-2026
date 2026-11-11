@@ -4,7 +4,7 @@ How this dataset was built, in plain English.
 
 Review accounting covers all 1777 raw records. The 1775 surviving original IDs
 have primary and independent source-review artifacts; one post-release Massachusetts
-observation has direct source review and pending independent QA. A second post-release addition, Kentucky Executive Order 2026-494, has independent historical field review; subsequent legal force remains unknown. The original event
+observation has direct source review and [completed independent historical-record QA](../work/research/2026-11-10/post-release-qa/massachusetts-independent-review-application.md), with final conference/enacted outcome and later force unresolved. A second post-release addition, Kentucky Executive Order 2026-494, has independent historical field review; subsequent legal force remains unknown. The original event
 cutoff is November 7 at 13:38:39.877065 UTC; later captures and reviews carry separate
 timestamps. The later Starke restriction/adoption publication carries its own sealed
 review and row-observation clocks. Bounded review does not establish complete discovery

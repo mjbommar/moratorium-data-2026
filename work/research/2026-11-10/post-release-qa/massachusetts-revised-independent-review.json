@@ -1,0 +1,203 @@
+{
+  "reviewed_at": "2026-11-11T03:50:57.184505+00:00",
+  "id": "ma-h5175-s3166-194th",
+  "model": "gpt-6.1-terra",
+  "tools": [],
+  "agents_spawned": 0,
+  "input_manifest_sha256": "af57df95f4596d0970e2c45149602faf7a778aa90b34e126b3626b027d1986f8",
+  "input_row_sha256": "fb2ddb17a16e6910fb245b1d29257164e322da19b51f068c2fd4207cf2aa1198",
+  "source_pins": [
+    {
+      "url": "https://malegislature.gov/Bills/194/H5175",
+      "attempt_id": "150c37cb14964a68aeafab4b61ed306d",
+      "body_sha256": "f0232c2d19970f4943de9db277d68c88008400b6ef608af7fd5a8b8370f376b3",
+      "text_sha256": "591a4432d2d5f8466ffc91d4ff81cf370890cd5e5a0aa3d311dfe69a6332cc03",
+      "body_observed_at": "2026-11-09T22:31:07.647479Z",
+      "selected_text_ranges": [
+        {
+          "start_character": 0,
+          "end_character_exclusive": 2533,
+          "locator": "Complete retained docket extraction",
+          "excerpt_sha256": "591a4432d2d5f8466ffc91d4ff81cf370890cd5e5a0aa3d311dfe69a6332cc03"
+        }
+      ]
+    },
+    {
+      "url": "https://malegislature.gov/Bills/194/S3166",
+      "attempt_id": "d032981fc4234a468882cec3a6a3855d",
+      "body_sha256": "0ca459202c63749f6ec01e88646057f22bf315e5862b6259b5c286893f432362",
+      "text_sha256": "80f7ea01eb035c57c6a92ded93df7440f8f8acc73bc3d369f2a060ffd5c49797",
+      "body_observed_at": "2026-11-09T22:31:08.376886Z",
+      "selected_text_ranges": [
+        {
+          "start_character": 0,
+          "end_character_exclusive": 949,
+          "locator": "Complete retained docket extraction",
+          "excerpt_sha256": "80f7ea01eb035c57c6a92ded93df7440f8f8acc73bc3d369f2a060ffd5c49797"
+        }
+      ]
+    },
+    {
+      "url": "https://malegislature.gov/Bills/194/H5175/House/Bill/Text",
+      "attempt_id": "a0bef8d84f484e94b5ef5459f7eb27c4",
+      "body_sha256": "6a27b9dd7dcb8f0e31b648cde5e52acfd417ae0b43ef1d10c14c060db8a4ca42",
+      "text_sha256": "30b0322d55f9f0aeea367ff66c70674ea96d961eea396218b99eb4e30f647bba",
+      "body_observed_at": "2026-11-09T22:31:06.894621Z",
+      "selected_text_ranges": [
+        {
+          "start_character": 135485,
+          "end_character_exclusive": 135585,
+          "locator": "SECTION54 chapter164 amendment header",
+          "excerpt_sha256": "7b7828d16f46d594b139b20f25e67696b2993aeb5acc18005bb485f96a50e9a6"
+        },
+        {
+          "start_character": 176243,
+          "end_character_exclusive": 178023,
+          "locator": "Complete proposed chapter164 section163",
+          "excerpt_sha256": "0d757eaa2e99a784e4fb8ead3009367de5f4f933e76edb282ad54429c324beae"
+        },
+        {
+          "start_character": 188857,
+          "end_character_exclusive": 197662,
+          "locator": "Complete sections68through68E, including68Edata-center tariff implementation",
+          "excerpt_sha256": "a86fcf6509992c288d0a4d31cacf06f6ee37de43b0b9a6fd14a911d4e08e4079"
+        }
+      ]
+    },
+    {
+      "url": "https://malegislature.gov/Bills/194/S3166/Senate/Bill/Text",
+      "attempt_id": "915cfedd33c2479598ddff2a6e313d3d",
+      "body_sha256": "9458be2df6a67e45ffe13042725bfd071412689221cd5cd1b166b44f0fa0b027",
+      "text_sha256": "39f20df6796dd07bc9d628a2dc98bef7a8efabd9f00115a5c2b16804813c5ad0",
+      "body_observed_at": "2026-11-09T22:31:07.411201Z",
+      "selected_text_ranges": [
+        {
+          "start_character": 915,
+          "end_character_exclusive": 3461,
+          "locator": "Complete SECTION3 proposed exemption certification",
+          "excerpt_sha256": "37ee67e87e576b83221026e77207f157933a0b0d833f9102ea91c64c9d18d81f"
+        },
+        {
+          "start_character": 241515,
+          "end_character_exclusive": 241615,
+          "locator": "SECTION88 chapter164 amendment header",
+          "excerpt_sha256": "53ee2d1ed605a7b57a88caa15849affc5a5968d667f652344d5bbd75412f1c51"
+        },
+        {
+          "start_character": 259440,
+          "end_character_exclusive": 261359,
+          "locator": "Complete proposed chapter164 section157 flexible interconnection",
+          "excerpt_sha256": "93d94b881d6c01beabaf7f6d40ccf9b3d83f409befff8d8f1ad19cead49ee365"
+        },
+        {
+          "start_character": 319720,
+          "end_character_exclusive": 324555,
+          "locator": "Complete SECTION114 working group",
+          "excerpt_sha256": "fb26b2a837e9c931afd7448d946decf831335aecf6f2dea30c2d3fc88f3f3124"
+        }
+      ]
+    }
+  ],
+  "metadata_pins": [
+    {
+      "path": "docs/codebook.md",
+      "sha256": "ab975886067e6fdfe91aaf9a949bf0ea07fabba7e89cf7cb57b56f3254401425"
+    },
+    {
+      "path": "scripts/apply_legislation.py",
+      "sha256": "3b3a58ead2d90f151b7d3889b97e35748aba161eac36a74e09f6009e1f1eaaec"
+    },
+    {
+      "path": "scripts/build_summary_stats.py",
+      "sha256": "c12ff2f35c301f528f9af99436f5660bfd38b998754052396d348bcaa6b0cb56"
+    },
+    {
+      "path": "data/summary_stats.json",
+      "sha256": "e4f20a65f0aca2c97399323230e52f9a9877ae05f6f8b53f08952b20b9c879d0"
+    }
+  ],
+  "captures": [
+    {
+      "attempt_id": "8c6fdb383b284cfe9854107bc9a3e632",
+      "request_descriptor_sha256": "60bc5c14f3233afd812b75ec62839cd166db52c9fed72518966269524acd8bca",
+      "wire_request_sha256": "6ea36bcea6f5d949ff628d0c395b1c53ef4c06b57e492157e30251a0b2e83055",
+      "wire_response_sha256": "a0714c7e0ea12a06731fc8c7a8bc8947ad4deea1f3139709fb8f48adbae16152",
+      "status": 200,
+      "wire_output_matches_sdk": true,
+      "actual_input_descriptor_matches": true,
+      "usage": {
+        "input_tokens": 6999,
+        "input_tokens_details": {
+          "cache_write_tokens": 6996,
+          "cached_tokens": 0
+        },
+        "output_tokens": 999,
+        "output_tokens_details": {
+          "reasoning_tokens": 140
+        },
+        "total_tokens": 7998
+      }
+    }
+  ],
+  "phases": {
+    "revised_cells": {
+      "raw_answer_sha256": "43306942fde96034b40a9c3c301298e2b5f9480eb2afe56bbfc4a85f40746108",
+      "assessment": {
+        "record_id": "ma-h5175-s3166-194th",
+        "input_row_sha256": "fb2ddb17a16e6910fb245b1d29257164e322da19b51f068c2fd4207cf2aa1198",
+        "field_decisions": [
+          {
+            "field": "sponsors",
+            "decision": "accept",
+            "value": "House energy legislative package; Senate amendment reprinted as S.3166. Named sponsor not identified in retained excerpts.",
+            "source_id": "https://malegislature.gov/Bills/194/H5175; https://malegislature.gov/Bills/194/S3166",
+            "locator": "Complete retained docket extractions",
+            "reason": "The wording describes the package and amendment without asserting an unidentified named sponsor."
+          },
+          {
+            "field": "party",
+            "decision": "accept",
+            "value": "Unknown; named sponsor not identified in retained excerpts.",
+            "source_id": "https://malegislature.gov/Bills/194/H5175; https://malegislature.gov/Bills/194/S3166",
+            "locator": "Complete retained docket extractions",
+            "reason": "The retained excerpts do not identify a named sponsor or establish a sponsor's party."
+          },
+          {
+            "field": "key_provisions",
+            "decision": "accept",
+            "value": "Distinct proposed versions: House H.5175 proposes chapter 164 section 163, defining a data center by a designed load of at least 20 MW and digital-data purpose. Specified new or expanded data centers seeking permits from the department or the energy facilities siting board would procure sufficient electricity for operational needs using at least 80% renewable resources; those seeking a Department of Environmental Protection permit to operate fossil-fuel backup generation would first demonstrate on-site battery storage infeasibility. The House also proposes data-center tariffs protecting other ratepayers and incentivizing efficiency. Senate S.3166 section 3 proposes conditions for specified data-center tax benefits; sections 88 and 114 propose flexible interconnection and a working group including data-center representatives. The excerpts do not establish enactment of either version or the provisions' present force.",
+            "source_id": "https://malegislature.gov/Bills/194/H5175/House/Bill/Text; https://malegislature.gov/Bills/194/S3166/Senate/Bill/Text; https://malegislature.gov/Bills/194/H5175",
+            "locator": "House SECTION 54 and proposed chapter 164 section 163; House sections 68 through 68E, including 68E tariff implementation; Senate SECTION 3, SECTION 88 and proposed chapter 164 section 157, and SECTION 114; H.5175 docket",
+            "reason": "The summary preserves the distinct versions, permit triggers and proposed status. The excerpts do not establish later enactment or present force."
+          },
+          {
+            "field": "activity_level",
+            "decision": "accept",
+            "value": "Medium",
+            "source_id": "docs/codebook.md; scripts/apply_legislation.py; scripts/build_summary_stats.py; data/summary_stats.json",
+            "locator": "Activity-level definition, state-value inheritance and summary-stat aggregation; Massachusetts summary and existing policy rows",
+            "reason": "Medium is the inherited Massachusetts state-level classification, not a bill-specific assessment or a newly calibrated ranking."
+          }
+        ],
+        "whole_record_closure_supported": false,
+        "remaining_questions": [
+          "What was the final conference outcome?",
+          "Was any relevant text enacted, and what provisions are presently in force?"
+        ],
+        "review_limitations": [
+          "The S.3166 docket heading says July 1, 2016, while its retained history lists 2026 actions. The heading anomaly is retained without adopting an alternate session date.",
+          "The supplied excerpts do not establish a final conference result, enacted text or present force."
+        ]
+      }
+    }
+  },
+  "accounting": {
+    "http_requests": 1,
+    "max_http_requests": 1,
+    "max_output_tokens_per_request": 6000,
+    "max_retries": 0,
+    "cost_usd": null,
+    "price_status": "No local catalog price; request/token ceilings enforced, not claimed free."
+  },
+  "scope": "Independent record-level QA of historical package identity/status and specifically summarized data-center provisions. Complete retained dockets and complete named statutory/proposed units, not every unrelated energy section; no new retrieval or current-law certification."
+}

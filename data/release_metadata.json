@@ -7,7 +7,7 @@
     "end": "2026-11-10"
   },
   "asset_name": "moratorium-data-2026.11.10.post17.tar.gz",
-  "coverage": "Original1777 records retain review provenance; two duplicates retired and two post-release additions retained. Massachusetts independent QA remains pending; Kentucky historical order independently reviewed, later force unknown. Current1777 active raw IDs:1347 unresolved,191 corrected-resolved,239 confirmed-unchanged scoped dispositions. No universal current-law certification.",
+  "coverage": "Original1777 records retain review provenance; two duplicates retired and two post-release additions retained. Massachusetts independent historical-record QA completed; final conference/enactment remains unresolved; Kentucky historical order independently reviewed, later force unknown. Current1777 active raw IDs:1347 unresolved,191 corrected-resolved,239 confirmed-unchanged scoped dispositions. No universal current-law certification.",
   "limitations": [
     "Recorded active/extended classifications do not prove current enforceability.",
     "Ballot voting, certification, passage and operative legal effect remain distinct.",
@@ -31,7 +31,7 @@
   "record_disposition_path": "work/research/2026-11-08/full-record-dispositions/funnel.json",
   "qa_status": "ongoing",
   "publication_authorization": "publish current state with qualifications on pending QA, then continue to double check and clear the outstanding questions",
-  "working_revision": "post17-data-consumer-and-site-verified",
+  "working_revision": "massachusetts-independent-review-pending-next-reviewed-delivery",
   "current_raw_counts": {
     "local": 1328,
     "state_policy": 449,
@@ -118,7 +118,7 @@
     "delivery_receipt": "work/research/2026-11-10/post-release-qa/consumer-v31-handoff.json",
     "hosted_copy_state": "verified"
   },
-  "latest_field_application": "work/research/2026-11-10/post-release-qa/howard-amended-act-application.json",
+  "latest_field_application": "work/research/2026-11-10/post-release-qa/massachusetts-independent-review-application.json",
   "latest_hosted_delivery": {
     "source_commit": "1e241a08f83128c1bd562daec803f6f14e0b0adc",
     "hosted_source_commit": "9631f3b6d9520a97ff1cec938dcd9edab9a4bd29",
@@ -223,5 +223,18 @@
     "selected_files": 229,
     "receipt": "work/research/2026-11-10/release-2026.11.10.post16/hosted-copy-verification.json",
     "scope": "All generated public HTML pages, local resources, figures/current downloads and desktop/mobile map/table behavior verified, including Kentucky order and updated policy totals. No universal legal-force or freshness claim."
+  },
+  "latest_independent_record_review": "work/research/2026-11-10/post-release-qa/massachusetts-independent-review-application.json",
+  "pending_consumer_input_delta": {
+    "state": "reviewed_canonical_delta_pending_release_and_consumer_handoff",
+    "receipt": "work/research/2026-11-10/post-release-qa/massachusetts-independent-review-application.json",
+    "prior_verified_release": "v2026.11.10.post17",
+    "changed_cells": 3,
+    "changed_local_rows": 0,
+    "changed_policy_rows": 1,
+    "status_category_changes": 0,
+    "normalized_date_changes": 0,
+    "whole_record_closures": 0,
+    "scope": "Independent Massachusetts19field review complete. Three policy prose qualifications corrected; final conference/enactment, named sponsor and later force remain unresolved. Headline counts and native history unchanged. Batch with subsequent accepted corrections."
   }
 }

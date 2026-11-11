@@ -1,0 +1,438 @@
+{
+  "reviewed_at": "2026-11-11T03:50:57.183610+00:00",
+  "id": "ma-h5175-s3166-194th",
+  "model": "gpt-6.1-terra",
+  "tools": [],
+  "agents_spawned": 0,
+  "input_manifest_sha256": "1994ccc354a71bbb326fa904a00255074062203c125d18d6b472c74540a72516",
+  "input_row_sha256": "fb2ddb17a16e6910fb245b1d29257164e322da19b51f068c2fd4207cf2aa1198",
+  "source_pins": [
+    {
+      "url": "https://malegislature.gov/Bills/194/H5175",
+      "attempt_id": "150c37cb14964a68aeafab4b61ed306d",
+      "body_sha256": "f0232c2d19970f4943de9db277d68c88008400b6ef608af7fd5a8b8370f376b3",
+      "text_sha256": "591a4432d2d5f8466ffc91d4ff81cf370890cd5e5a0aa3d311dfe69a6332cc03",
+      "body_observed_at": "2026-11-09T22:31:07.647479Z",
+      "selected_text_ranges": [
+        {
+          "start_character": 0,
+          "end_character_exclusive": 2533,
+          "locator": "Complete retained docket extraction",
+          "excerpt_sha256": "591a4432d2d5f8466ffc91d4ff81cf370890cd5e5a0aa3d311dfe69a6332cc03"
+        }
+      ]
+    },
+    {
+      "url": "https://malegislature.gov/Bills/194/S3166",
+      "attempt_id": "d032981fc4234a468882cec3a6a3855d",
+      "body_sha256": "0ca459202c63749f6ec01e88646057f22bf315e5862b6259b5c286893f432362",
+      "text_sha256": "80f7ea01eb035c57c6a92ded93df7440f8f8acc73bc3d369f2a060ffd5c49797",
+      "body_observed_at": "2026-11-09T22:31:08.376886Z",
+      "selected_text_ranges": [
+        {
+          "start_character": 0,
+          "end_character_exclusive": 949,
+          "locator": "Complete retained docket extraction",
+          "excerpt_sha256": "80f7ea01eb035c57c6a92ded93df7440f8f8acc73bc3d369f2a060ffd5c49797"
+        }
+      ]
+    },
+    {
+      "url": "https://malegislature.gov/Bills/194/H5175/House/Bill/Text",
+      "attempt_id": "a0bef8d84f484e94b5ef5459f7eb27c4",
+      "body_sha256": "6a27b9dd7dcb8f0e31b648cde5e52acfd417ae0b43ef1d10c14c060db8a4ca42",
+      "text_sha256": "30b0322d55f9f0aeea367ff66c70674ea96d961eea396218b99eb4e30f647bba",
+      "body_observed_at": "2026-11-09T22:31:06.894621Z",
+      "selected_text_ranges": [
+        {
+          "start_character": 135485,
+          "end_character_exclusive": 135585,
+          "locator": "SECTION54 chapter164 amendment header",
+          "excerpt_sha256": "7b7828d16f46d594b139b20f25e67696b2993aeb5acc18005bb485f96a50e9a6"
+        },
+        {
+          "start_character": 176243,
+          "end_character_exclusive": 178023,
+          "locator": "Complete proposed chapter164 section163",
+          "excerpt_sha256": "0d757eaa2e99a784e4fb8ead3009367de5f4f933e76edb282ad54429c324beae"
+        },
+        {
+          "start_character": 188857,
+          "end_character_exclusive": 197662,
+          "locator": "Complete SECTION68, including data-center tariff implementation",
+          "excerpt_sha256": "a86fcf6509992c288d0a4d31cacf06f6ee37de43b0b9a6fd14a911d4e08e4079"
+        }
+      ]
+    },
+    {
+      "url": "https://malegislature.gov/Bills/194/S3166/Senate/Bill/Text",
+      "attempt_id": "915cfedd33c2479598ddff2a6e313d3d",
+      "body_sha256": "9458be2df6a67e45ffe13042725bfd071412689221cd5cd1b166b44f0fa0b027",
+      "text_sha256": "39f20df6796dd07bc9d628a2dc98bef7a8efabd9f00115a5c2b16804813c5ad0",
+      "body_observed_at": "2026-11-09T22:31:07.411201Z",
+      "selected_text_ranges": [
+        {
+          "start_character": 915,
+          "end_character_exclusive": 3461,
+          "locator": "Complete SECTION3 proposed exemption certification",
+          "excerpt_sha256": "37ee67e87e576b83221026e77207f157933a0b0d833f9102ea91c64c9d18d81f"
+        },
+        {
+          "start_character": 241515,
+          "end_character_exclusive": 241615,
+          "locator": "SECTION88 chapter164 amendment header",
+          "excerpt_sha256": "53ee2d1ed605a7b57a88caa15849affc5a5968d667f652344d5bbd75412f1c51"
+        },
+        {
+          "start_character": 259440,
+          "end_character_exclusive": 261359,
+          "locator": "Complete proposed chapter164 section157 flexible interconnection",
+          "excerpt_sha256": "93d94b881d6c01beabaf7f6d40ccf9b3d83f409befff8d8f1ad19cead49ee365"
+        },
+        {
+          "start_character": 319720,
+          "end_character_exclusive": 324555,
+          "locator": "Complete SECTION114 working group",
+          "excerpt_sha256": "fb26b2a837e9c931afd7448d946decf831335aecf6f2dea30c2d3fc88f3f3124"
+        }
+      ]
+    }
+  ],
+  "metadata_pins": [],
+  "captures": [
+    {
+      "attempt_id": "710f0d42a69b47ed8fa5ffa0f412f281",
+      "request_descriptor_sha256": "dde4a364c89985d7deaa8bae0d53ed64726a485d9c500c20f70c470e9423928d",
+      "wire_request_sha256": "a60ad09ef808e3c6653f438c126a43eaf1ceb3d698ca5f2f354b7acc9bc3486d",
+      "wire_response_sha256": "421ed5073b6c4feaffe694a017c140a9e107e339f1e3946f5bd1d830cfef6d1d",
+      "status": 200,
+      "wire_output_matches_sdk": true,
+      "actual_input_descriptor_matches": true,
+      "usage": {
+        "input_tokens": 6045,
+        "input_tokens_details": {
+          "cache_write_tokens": 6042,
+          "cached_tokens": 0
+        },
+        "output_tokens": 2652,
+        "output_tokens_details": {
+          "reasoning_tokens": 179
+        },
+        "total_tokens": 8697
+      }
+    },
+    {
+      "attempt_id": "d64ee4ae21784f829757a0eaa117060c",
+      "request_descriptor_sha256": "a2a3a7ba5c93bad1ecef381efb0d77afde0205908967c2c08500999f4a3341c3",
+      "wire_request_sha256": "0c596b71027e7a4f34e01cc1442a168d23ce0ba4e1718d65438babe7a6b06a64",
+      "wire_response_sha256": "70ee1fb5f34df9ae0c580edc97b35e53c9d4d9d487b9c405ec82352c50ccbbcd",
+      "status": 200,
+      "wire_output_matches_sdk": true,
+      "actual_input_descriptor_matches": true,
+      "usage": {
+        "input_tokens": 9471,
+        "input_tokens_details": {
+          "cache_write_tokens": 9468,
+          "cached_tokens": 0
+        },
+        "output_tokens": 2826,
+        "output_tokens_details": {
+          "reasoning_tokens": 458
+        },
+        "total_tokens": 12297
+      }
+    }
+  ],
+  "phases": {
+    "record_adjudication": {
+      "raw_answer_sha256": "d07707c0e8023cc13a8beb2d4859459988749832a134fdcdb20f572e549d156f",
+      "assessment": {
+        "record_id": "ma-h5175-s3166-194th",
+        "input_row_sha256": "fb2ddb17a16e6910fb245b1d29257164e322da19b51f068c2fd4207cf2aa1198",
+        "field_decisions": [
+          {
+            "field": "state",
+            "decision": "accept",
+            "value": "Massachusetts",
+            "source_id": "https://malegislature.gov/Bills/194/H5175",
+            "locator": "Docket and provenance",
+            "reason": "The docket is supplied from the Massachusetts legislature."
+          },
+          {
+            "field": "state_abbrev",
+            "decision": "accept",
+            "value": "MA",
+            "source_id": "https://malegislature.gov/Bills/194/H5175",
+            "locator": "Docket and provenance",
+            "reason": "MA is the abbreviation for Massachusetts."
+          },
+          {
+            "field": "bill",
+            "decision": "accept",
+            "value": "H.5175 (194th; House text and Senate amendment S.3166)",
+            "source_id": "https://malegislature.gov/Bills/194/H5175",
+            "locator": "Heading and Bill History, 7/1/2026",
+            "reason": "The docket identifies H.5175 and the Senate amendment reprinted as S.3166."
+          },
+          {
+            "field": "sponsors",
+            "decision": "hold",
+            "value": "House energy legislative package; Senate amendment reprinted as S.3166. Named sponsor not identified in retained excerpts.",
+            "source_id": "https://malegislature.gov/Bills/194/H5175",
+            "locator": "Heading and Bill History",
+            "reason": "The existing string describes a package and amendment, not named individual sponsorship; the field should make that limitation explicit."
+          },
+          {
+            "field": "party",
+            "decision": "hold",
+            "value": "Unknown; named sponsor not identified in retained excerpts.",
+            "source_id": "https://malegislature.gov/Bills/194/H5175",
+            "locator": "Complete retained docket extraction",
+            "reason": "N/A could imply that party is inapplicable, which is not established by the absence of a named sponsor in the excerpts."
+          },
+          {
+            "field": "status",
+            "decision": "accept",
+            "value": "House engrossed H.5175 on 2026-02-26 (128-27). Senate engrossed an amended version on 2026-07-01 (32-8), reprinted as S.3166. House nonconcurred and both chambers appointed a conference committee on 2026-07-16, the latest displayed H.5175 actions in the November 9 capture; no enactment established.",
+            "source_id": "https://malegislature.gov/Bills/194/H5175",
+            "locator": "Bill History; capture provenance",
+            "reason": "The status distinguishes the versions and confines the enactment observation to the supplied capture."
+          },
+          {
+            "field": "key_provisions",
+            "decision": "hold",
+            "value": "Distinct proposed versions: House H.5175 proposes chapter 164 section 163, defining a data center by a designed load of at least 20 MW and digital-data purpose. Specified new or expanded data centers seeking permits from the department or the energy facilities siting board would procure sufficient electricity for operational needs using at least 80% renewable resources; those seeking a Department of Environmental Protection permit to operate fossil-fuel backup generation would first demonstrate on-site battery storage infeasibility. The House also proposes data-center tariffs protecting other ratepayers and incentivizing efficiency. Senate S.3166 section 3 proposes conditions for specified data-center tax benefits; sections 88 and 114 propose flexible interconnection and a working group including data-center representatives. The excerpts do not establish enactment of either version or the provisions' present force.",
+            "source_id": "https://malegislature.gov/Bills/194/H5175/House/Bill/Text; https://malegislature.gov/Bills/194/S3166/Senate/Bill/Text",
+            "locator": "House section 54 and proposed section 163; Senate sections 3, 88 and 114",
+            "reason": "The existing closing assertion that the provisions are not enacted goes beyond the capture: later enactment has not been resolved. The correction also specifies the permit triggers."
+          },
+          {
+            "field": "activity_level",
+            "decision": "hold",
+            "value": "Not assessed; activity-level classification criteria not supplied.",
+            "source_id": "https://malegislature.gov/Bills/194/H5175",
+            "locator": "Bill History",
+            "reason": "The docket shows legislative activity, but no supplied rubric establishes the Medium rating. The rating is metadata, not a statutory fact."
+          },
+          {
+            "field": "bill_status_category",
+            "decision": "accept",
+            "value": "passed_both_chambers",
+            "source_id": "https://malegislature.gov/Bills/194/H5175",
+            "locator": "Bill History, 2/26/2026, 7/1/2026 and 7/16/2026",
+            "reason": "Each chamber passed a version to be engrossed. This taxonomy label does not establish matching versions or enactment; the status field supplies the necessary qualification."
+          },
+          {
+            "field": "last_action_date_iso",
+            "decision": "accept",
+            "value": "2026-07-16",
+            "source_id": "https://malegislature.gov/Bills/194/H5175",
+            "locator": "Bill History, final displayed actions",
+            "reason": "July 16 is the latest action date displayed in the retained H.5175 docket, not necessarily the last action ever taken."
+          },
+          {
+            "field": "chamber_of_origin",
+            "decision": "accept",
+            "value": "House",
+            "source_id": "https://malegislature.gov/Bills/194/H5175",
+            "locator": "Heading and Bill History",
+            "reason": "H.5175 is the House bill and its heading identifies the House-adopted text."
+          },
+          {
+            "field": "policy_instrument_type",
+            "decision": "accept",
+            "value": "bill",
+            "source_id": "https://malegislature.gov/Bills/194/H5175",
+            "locator": "Heading and Bill History",
+            "reason": "Bill is an appropriate instrument classification for the displayed legislative package."
+          },
+          {
+            "field": "policy_mechanism",
+            "decision": "accept",
+            "value": "other",
+            "source_id": "https://malegislature.gov/Bills/194/H5175/House/Bill/Text",
+            "locator": "Proposed chapter 164 section 163",
+            "reason": "Other is a broad taxonomy classification, not a statement of statutory effect; no more specific taxonomy was supplied."
+          },
+          {
+            "field": "legal_effect_status",
+            "decision": "accept",
+            "value": "proposed",
+            "source_id": "https://malegislature.gov/Bills/194/H5175",
+            "locator": "Bill History through 7/16/2026",
+            "reason": "Appropriate as a capture-bounded classification of the displayed versions. It does not establish their present legal effect or disprove later enactment."
+          },
+          {
+            "field": "scope_of_action",
+            "decision": "accept",
+            "value": "mixed",
+            "source_id": "https://malegislature.gov/Bills/194/H5175/House/Bill/Text; https://malegislature.gov/Bills/194/S3166/Senate/Bill/Text",
+            "locator": "House proposed section 163; Senate sections 3, 88 and 114",
+            "reason": "Mixed is a reasonable broad classification of the different proposed measures, not a statutory conclusion."
+          },
+          {
+            "field": "effective_date_iso",
+            "decision": "accept",
+            "value": "",
+            "source_id": "https://malegislature.gov/Bills/194/H5175",
+            "locator": "Complete retained docket extraction",
+            "reason": "A blank is appropriate as unknown: the excerpts do not establish enactment or an operative effective date. It does not prove that no effective date exists."
+          },
+          {
+            "field": "end_condition",
+            "decision": "accept",
+            "value": "",
+            "source_id": "https://malegislature.gov/Bills/194/H5175/House/Bill/Text; https://malegislature.gov/Bills/194/S3166/Senate/Bill/Text",
+            "locator": "Supplied text excerpts",
+            "reason": "A blank is appropriate as unknown from the excerpts, not as proof that no end condition exists."
+          },
+          {
+            "field": "primary_source_url",
+            "decision": "accept",
+            "value": "https://malegislature.gov/Bills/194/H5175",
+            "source_id": "https://malegislature.gov/Bills/194/H5175",
+            "locator": "Source provenance",
+            "reason": "This is the supplied primary docket URL for the House bill and its subsequent history."
+          },
+          {
+            "field": "policy_action_id",
+            "decision": "accept",
+            "value": "ma-h5175-s3166-194th",
+            "source_id": "CURRENT ROW/CANDIDATE FOR ALL-FIELD QA",
+            "locator": "id and policy_action_id",
+            "reason": "The internal identifier matches the candidate record ID; it is metadata, not a legislative fact."
+          }
+        ],
+        "whole_record_closure_supported": false,
+        "remaining_questions": [
+          "What occurred after the displayed July 16 conference appointments, and were any provisions ultimately enacted?",
+          "Who is the named sponsor, if any, and what party attribution would be appropriate?",
+          "If legislation was enacted, what effective dates and provisions apply, and what is their present force?",
+          "Is there any relevant relationship to H.4144? The supplied excerpts do not establish one."
+        ],
+        "review_limitations": [
+          "All candidate fields were independently reviewed against the supplied excerpts and provenance; no later docket or current-force survey was supplied.",
+          "The S.3166 heading prints July 1, 2016, while its history and related H.5175 actions say July 1, 2026. The anomaly does not establish an alternate legislative session.",
+          "The House text locator labels the retained range as section 68, but the data-center tariff implementation is in section 68E.",
+          "No activity-level scoring rubric or complete taxonomy definitions were supplied."
+        ]
+      }
+    },
+    "blind_extraction": {
+      "raw_answer_sha256": "eaf1d157f00b0a252feec3f56e40b88c528737740f6f457238f8e2be05cb2b1f",
+      "assessment": {
+        "facts": [
+          {
+            "field": "package_identity",
+            "value": "Massachusetts 194th General Court H.5175, titled An Act relative to energy affordability, clean power and economic competitiveness, is the House-adopted, amended text of H.5151.",
+            "source_id": "https://malegislature.gov/Bills/194/H5175",
+            "locator": "Heading"
+          },
+          {
+            "field": "sponsor_and_attribution",
+            "value": "The retained excerpts identify the House text and Senate reprint but do not name a sponsor. Reprint attribution does not establish sponsorship.",
+            "source_id": "https://malegislature.gov/Bills/194/S3166",
+            "locator": "Heading and Bill History"
+          },
+          {
+            "field": "house_senate_relationship",
+            "value": "The Senate amended H.5175 by replacing everything after the enacting clause with S.3143 text; S.3166 is the Senate text reprinted as amended. The House and Senate provisions are distinct texts.",
+            "source_id": "https://malegislature.gov/Bills/194/H5175",
+            "locator": "Bill History, 7/1/2026"
+          },
+          {
+            "field": "house_data_center_definition",
+            "value": "House section 54 proposes chapter 164 section 163. It defines a data center as a facility designed for at least 20 MW whose primary purpose is digital-data storage, management and processing, including specified related infrastructure.",
+            "source_id": "https://malegislature.gov/Bills/194/H5175/House/Bill/Text",
+            "locator": "Section 54; proposed chapter 164 section 163(a)"
+          },
+          {
+            "field": "house_renewable_procurement",
+            "value": "A new or expanded data center seeking a permit from the department or the energy facilities siting board would have to procure sufficient electricity for operational needs using at least 80% renewable energy resources.",
+            "source_id": "https://malegislature.gov/Bills/194/H5175/House/Bill/Text",
+            "locator": "Proposed chapter 164 section 163(b)"
+          },
+          {
+            "field": "house_backup_generation",
+            "value": "A new or expanded data center seeking a Department of Environmental Protection permit to operate fossil-fuel backup generation would first have to demonstrate that on-site battery energy storage is infeasible.",
+            "source_id": "https://malegislature.gov/Bills/194/H5175/House/Bill/Text",
+            "locator": "Proposed chapter 164 section 163(c)"
+          },
+          {
+            "field": "house_data_center_tariff",
+            "value": "Each electric company would file for a data-center electricity tariff designed to protect other ratepayers from increased costs caused by data-center demand and incentivize efficiency, including use of captured heat. The department would review and approve compliant applications.",
+            "source_id": "https://malegislature.gov/Bills/194/H5175/House/Bill/Text",
+            "locator": "Proposed chapter 164 section 163(d)-(e)"
+          },
+          {
+            "field": "house_tariff_implementation",
+            "value": "House section 68E would require each electric company to file its tariff application within 180 days after the act's effective date and apply the tariff to each data center in its service area within one year.",
+            "source_id": "https://malegislature.gov/Bills/194/H5175/House/Bill/Text",
+            "locator": "Section 68E"
+          },
+          {
+            "field": "senate_data_center_tax_exemption",
+            "value": "Senate section 3 proposes conditions for receiving, maintaining or renewing specified sales-tax benefits, covering clean energy, efficiency and grid impacts, water, environmental and health effects, labor, community benefits, economic development and accountability. The executive office could condition, suspend, revoke, limit or decline an exemption for noncompliance; other applicable requirements would remain in place.",
+            "source_id": "https://malegislature.gov/Bills/194/S3166/Senate/Bill/Text",
+            "locator": "Section 3; proposed chapter 23A section 70(i)-(l)"
+          },
+          {
+            "field": "senate_flexible_interconnection",
+            "value": "Senate section 88 proposes chapter 164 section 157, requiring distribution companies to offer department-approved flexible interconnection programs for new customer loads and distributed energy resources, based on curtailment arrangements. This is a general interconnection provision, not the House's data-center-specific tariff.",
+            "source_id": "https://malegislature.gov/Bills/194/S3166/Senate/Bill/Text",
+            "locator": "Section 88; proposed chapter 164 section 157"
+          },
+          {
+            "field": "senate_working_group",
+            "value": "Senate section 114 proposes a sustainable economic development zones working group, including data-center representatives, to address connection delays and recommend infrastructure, tariff and financing options. It would convene within 60 days and report within 10 months after the effective date; DPU action and an update would follow on stated deadlines.",
+            "source_id": "https://malegislature.gov/Bills/194/S3166/Senate/Bill/Text",
+            "locator": "Section 114"
+          },
+          {
+            "field": "house_action",
+            "value": "On February 26, 2026, the House passed H.5175 to be engrossed, 128 yeas to 27 nays, Yea and Nay No. 141. On February 27, H.5151 was published as amended.",
+            "source_id": "https://malegislature.gov/Bills/194/H5175",
+            "locator": "Bill History, 2/26/2026–2/27/2026"
+          },
+          {
+            "field": "senate_referral_and_committee_action",
+            "value": "On March 2, 2026, the Senate read and referred the bill to Senate Ways and Means. On June 23 it adopted an order relative to subject matter. On June 25 it listed additional Senate bills as bases, recommended replacing the text and title, and placed the bill in the orders for July 1.",
+            "source_id": "https://malegislature.gov/Bills/194/H5175",
+            "locator": "Bill History, 3/2/2026–6/25/2026"
+          },
+          {
+            "field": "senate_passage",
+            "value": "On July 1, 2026, the Senate read the bill a second time, substituted S.3143 text, reprinted it as S.3166, ordered and gave it a third reading, and passed it to be engrossed, 32 yeas to 8 nays, Roll Call 205.",
+            "source_id": "https://malegislature.gov/Bills/194/H5175",
+            "locator": "Bill History, 7/1/2026"
+          },
+          {
+            "field": "latest_displayed_status",
+            "value": "The latest displayed actions are July 16, 2026: both branches suspended rules; the House non-concurred and appointed Cusack, Michlewitz and Jones to conference; the Senate insisted on its amendment and appointed Barrett, Creem and Tarr in concurrence. The excerpts do not establish enactment.",
+            "source_id": "https://malegislature.gov/Bills/194/H5175",
+            "locator": "Bill History, 7/16/2026"
+          }
+        ],
+        "source_anomalies": [
+          "The S.3166 heading says “Senate, July 1, 2016,” while its two history entries and the related H.5175 actions are dated July 1, 2026. The heading date is recorded as printed, not silently corrected.",
+          "The House text extraction locator describes “Complete SECTION68, including data-center tariff implementation,” but the tariff implementation appears in SECTION 68E, after sections 68 and 68A–68D.",
+          "The H.5175 docket heading identifies the text as House bill No. 5151 as amended and adopted; its history is displayed under H.5175. These identifiers should not be treated as interchangeable without the stated reprint relationship."
+        ],
+        "remaining_questions": [
+          "Who is the named sponsor, if any? The retained excerpts do not identify one.",
+          "What happened after the displayed July 16 conference appointments, and what provisions, if any, became law? No current-force survey was supplied.",
+          "Is there any relationship to H.4144? The supplied excerpts do not establish one."
+        ]
+      }
+    }
+  },
+  "accounting": {
+    "http_requests": 2,
+    "max_http_requests": 2,
+    "max_output_tokens_per_request": 6000,
+    "max_retries": 0,
+    "cost_usd": null,
+    "price_status": "No local catalog price; request/token ceilings enforced, not claimed free."
+  },
+  "scope": "Independent record-level QA of historical package identity/status and specifically summarized data-center provisions. Complete retained dockets and complete named statutory/proposed units, not every unrelated energy section; no new retrieval or current-law certification."
+}
