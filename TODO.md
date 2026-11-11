@@ -1002,3 +1002,5 @@ Exit: repeatable refresh with visible freshness, costs, failures and unresolved 
 - [x] Deliver four Butler County, Ohio prose corrections in qualified post9/V43 and verified current pages; ten assets, full restore, final artifact,64HTMLpages and desktop/mobile checks pass. Signed text, controlling effect, endpoint and later force remain unresolved; no status/count changes or record closure.
 
 - [ ] Deliver nine accepted Morgan Township, Butler County Ohio corrections in the next combined QA publication batch after post9/V43: exact March23adoption and12monthcalendarterm; no status/count changes or closure. Effective date, endpoint and later force remain unresolved.
+
+- [ ] Include four accepted Adams Township, Butler County PA prose corrections with Morgan Ohio in the next combined batch:13cells/two rows total, no category/count changes or closures. Resolution2026-09 identity and separateJune22/July13actions clarified; executed text, operative interval and later force remain open.

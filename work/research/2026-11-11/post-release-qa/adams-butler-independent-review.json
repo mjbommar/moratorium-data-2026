@@ -1,0 +1,367 @@
+{
+  "initial_two_request_review": {
+    "input_manifest_sha256": "6f96d9a30dbcc914113a9c6014a109a4cfb8d41d5e75db6161c873d87aedffe2",
+    "source_pins": [
+      {
+        "source_id": "june22",
+        "url": "https://adamstwp.org/wp-content/uploads/2026/07/06-22-26-Supervisors.pdf",
+        "body_sha256": "00abebc8864a634c9d2e1a945a96b7eec235302fcdc0291adbd40f96b9bc0587",
+        "text_sha256": "335237dd27ca20b2d1483ab31221be99131754e5274e7aa9262df544e4eef10b",
+        "role": "Full3pageofficial scanned meeting minutes, Tesseract120dpiOCR; image priority for dropped words. Not standalone executed resolution."
+      },
+      {
+        "source_id": "july13",
+        "url": "https://adamstwp.org/wp-content/uploads/2026/07/07-13-26-Supervisors.pdf",
+        "body_sha256": "2939fb518372e4275756e89ca59d9893195e259f65f404d10d1b41775c93dc59",
+        "text_sha256": "d797c35c7d36f4445b8f0200e73ecbca3350dfb8f7e80ba748b6a6712f91ec66",
+        "role": "Full3pageofficial scanned meeting minutes, Tesseract120dpiOCR; image priority for dropped words. Not standalone executed resolution."
+      }
+    ],
+    "image_pins": [
+      {
+        "source_id": "june22",
+        "sha256": "966aa4b6445fd2b6a2a95e4faaebc055b12e408cd3f17eb4d11b30a7e8c5ee81",
+        "physical_page": 2
+      },
+      {
+        "source_id": "july13",
+        "sha256": "8e7f84d7c8bae7fdad4768af50bb5c8fc8f50036f93adca3ab363ad1aadef684",
+        "physical_page": 1
+      },
+      {
+        "source_id": "july13",
+        "sha256": "16f00fa917c1374a70d32d7851a3479bac61f70f5023c9fa09937a87d4b1bfb8",
+        "physical_page": 2
+      }
+    ],
+    "candidate": {
+      "id": "pa-adams-township-butler-county-2026",
+      "row_sha256": "fac7ef5aa375909accdd8f9dc4ddfa78bb1da52ba5e1f57ec906ca7f62234c6a",
+      "proposed_changes": [
+        {
+          "field": "date_enacted",
+          "before": "2026-07-13, Adams Township Board of Supervisors, unanimous resolution formalizing a June 22, 2026 motion to establish the moratorium (Butler County)",
+          "after": "July 13, 2026: official Adams Township (Butler County) minutes record unanimous approval of Resolution 2026-09. June 22 minutes separately record unanimous approval of a motion declaring certain parts of the zoning ordinance invalid. The operative interval remains unverified."
+        },
+        {
+          "field": "legal_basis",
+          "before": "Adams Township Board of Supervisors resolution (a follow-up to the June 22, 2026 motion), invoking the municipal curative amendment process under the PA Municipalities Planning Code and declaring the zoning ordinance's exclusion of the six business types 'does not bear a substantial relationship to the public health, safety or morals' of residents, and that a sweeping ban 'cannot pass constitutional muster' and is therefore invalid (specific resolution number not located in sources reviewed).",
+          "after": "Adams Township (Butler County) Board of Supervisors Resolution 2026-09, identified in the July 13, 2026 minutes as a curative amendment regarding data centers, power generation plant/systems, solar power systems, last-mile fulfillment center/micro-warehouses and dispensaries. A standalone executed resolution and its full operative text remain unverified."
+        },
+        {
+          "field": "current_status",
+          "before": "Butler Eagle reported a June 22, 2026 vote approving a 180-day application moratorium on six uses: data centers, power generation plants, large-scale and accessory solar systems, last-mile fulfillment centers, micro-warehouses, and dispensaries. It reported that the unanimous July 13 resolution followed the motion and allowed up to 180 days for a curative zoning amendment. Officials described the action as preemptive rather than responding to a pending application. The earlier review found no news of extension, amendment adoption or repeal through 2026-09-23; later action is not established by the retained sources. [VERIFY: operative start and end, final resolution text and subsequent action.]",
+          "after": "June 22 official minutes record a unanimous zoning-invalidity motion; July 13 official minutes record unanimous approval of Resolution 2026-09. The retained Butler Eagle accounts describe a 180-day moratorium and curative-amendment preparation period, but the minute entries do not reproduce a complete prohibition or establish the operative start, end or later force. [VERIFY: executed resolution, precise scope, interval and subsequent action.]"
+        },
+        {
+          "field": "outcome",
+          "before": "Adams Township Board of Supervisors adopted a 180-day moratorium (via a June 22, 2026 motion, formalized by resolution on July 13, 2026) on six business types including data centers and large-scale solar, to allow time to draft a curative amendment to the zoning ordinance.",
+          "after": "Official minutes record the June 22 zoning-invalidity motion and July 13 approval of Resolution 2026-09 as separate actions. For July 13, Ronald J. Shemela moved, Darryl M. Brandon seconded, and all were in favor. The resolution title covers data centers and related listed uses; its full operative provisions, curative ordinance adoption/effect and later force remain unverified."
+        }
+      ]
+    },
+    "captures": [
+      {
+        "stage": "blind_extraction",
+        "attempt_id": "2ac7285111d04d15905d70c7754e5063",
+        "descriptor_sha256": "ae2fd0c7404e15f30231a86c4bc4f7a4cf9c7248add477c2a096811f938731d8",
+        "wire_request_sha256": "018535eeaf15b53907ad167951bf34b1a0bba149d29a6f7c309778d822c641a9",
+        "wire_response_sha256": "d7b1ab8a962729f0d170530c7852f8fce1f8f5ed2915ab4981803d6c4cfc5ed7",
+        "all_original_page_images_bound": true,
+        "actual_input_descriptor_matches": true,
+        "wire_sdk_output_matches_after_null_default_normalization": true,
+        "parsed_answer_matches": true,
+        "usage": {
+          "input_tokens": 8040,
+          "input_tokens_details": {
+            "cache_write_tokens": 8037,
+            "cached_tokens": 0
+          },
+          "output_tokens": 627,
+          "output_tokens_details": {
+            "reasoning_tokens": 65
+          },
+          "total_tokens": 8667
+        }
+      },
+      {
+        "stage": "cell_adjudication",
+        "attempt_id": "f20892082d1441bca7f439d471374f15",
+        "descriptor_sha256": "95f2e1093ca8babda665eeaaeff7dca18a2bcc2b39a8951b19e033e3018754f1",
+        "wire_request_sha256": "3e2fbe090d4a9c11390a53b73e5e04cb6ac9c3a34ebf0cacbbb5156e66a3058c",
+        "wire_response_sha256": "993eb78f08a2f79505b11e34dec8d4b6d712bd35024d6a360024e34fa85d8629",
+        "all_original_page_images_bound": true,
+        "actual_input_descriptor_matches": true,
+        "wire_sdk_output_matches_after_null_default_normalization": true,
+        "parsed_answer_matches": true,
+        "usage": {
+          "input_tokens": 10114,
+          "input_tokens_details": {
+            "cache_write_tokens": 10111,
+            "cached_tokens": 0
+          },
+          "output_tokens": 1062,
+          "output_tokens_details": {
+            "reasoning_tokens": 142
+          },
+          "total_tokens": 11176
+        }
+      }
+    ],
+    "answers": {
+      "blind_extraction": {
+        "facts": [
+          {
+            "field": "june22_action",
+            "value": "On June 22, 2026, the Adams Township Board of Supervisors approved a motion declaring certain parts of the zoning ordinance invalid.",
+            "source_id": "june22",
+            "locator": "Pages 1\u20132; New Business, item 2",
+            "supporting_summary": "The minutes identify the item as a curative amendment and say the motion was approved."
+          },
+          {
+            "field": "june22_mover_second_vote",
+            "value": "Darryl M. Brandon moved; Ronald J. Shemela seconded; all were in favor.",
+            "source_id": "june22",
+            "locator": "Page 2; New Business, item 2",
+            "supporting_summary": "The minutes record the mover, seconder, and unanimous approval."
+          },
+          {
+            "field": "july13_action_and_identity",
+            "value": "On July 13, 2026, the board approved Resolution #2026-09, identified as a curative amendment.",
+            "source_id": "july13",
+            "locator": "Pages 1\u20132; New Business",
+            "supporting_summary": "The minutes identify the resolution and record its approval."
+          },
+          {
+            "field": "july13_title_scope",
+            "value": "Data centers, power generation plant/systems, solar power systems, last mile fulfillment center/micro-warehouses, and dispensaries.",
+            "source_id": "july13",
+            "locator": "Page 2 image; New Business, Resolution #2026-09 title",
+            "supporting_summary": "The page image includes dispensaries in the title, although the supplied OCR omits that word."
+          },
+          {
+            "field": "july13_mover_second_vote",
+            "value": "Ronald J. Shemela moved; Darryl M. Brandon seconded; all were in favor.",
+            "source_id": "july13",
+            "locator": "Page 2; New Business, Resolution #2026-09",
+            "supporting_summary": "The minutes record the mover, seconder, and unanimous approval."
+          }
+        ],
+        "uncertainties": [
+          "The minutes do not reproduce the full executed resolution or establish its complete legal restrictions or any 180-day endpoint.",
+          "The supplied materials do not establish current force, enactment of a related ordinance, or a universal ban.",
+          "No candidate or current row was supplied for comparison."
+        ]
+      },
+      "cell_adjudication": {
+        "record_id": "pa-adams-township-butler-county-2026",
+        "input_row_sha256": "fac7ef5aa375909accdd8f9dc4ddfa78bb1da52ba5e1f57ec906ca7f62234c6a",
+        "field_decisions": [
+          {
+            "field": "date_enacted",
+            "decision": "accept",
+            "value": "July 13, 2026: official Adams Township (Butler County) minutes record unanimous approval of Resolution 2026-09. June 22 minutes separately record unanimous approval of a motion declaring certain parts of the zoning ordinance invalid. The operative interval remains unverified.",
+            "source_id": "june22; july13",
+            "locator": "June 22, page 2, New Business item 2; July 13, page 2, New Business",
+            "reason": "The minutes support the two recorded actions without establishing the operative interval."
+          },
+          {
+            "field": "legal_basis",
+            "decision": "accept",
+            "value": "Adams Township (Butler County) Board of Supervisors Resolution 2026-09, identified in the July 13, 2026 minutes as a curative amendment regarding data centers, power generation plant/systems, solar power systems, last-mile fulfillment center/micro-warehouses and dispensaries. A standalone executed resolution and its full operative text remain unverified.",
+            "source_id": "july13",
+            "locator": "Page 2 image, New Business, Resolution #2026-09",
+            "reason": "The image supplies the resolution title, including dispensaries, and records approval; it is not the executed resolution."
+          },
+          {
+            "field": "current_status",
+            "decision": "reject",
+            "value": "June 22 official minutes record a unanimous motion declaring certain parts of the zoning ordinance invalid; July 13 minutes record unanimous approval of Resolution 2026-09. The existing row attributes to Butler Eagle a report of a 180-day application moratorium following the June 22 vote and up to 180 days for a curative amendment following the July 13 resolution. The existing row also reports that an earlier review found no news of extension, amendment adoption or repeal through 2026-09-23. Those accounts were not newly supplied for review. The minutes do not establish the complete restrictions, operative start or end, or later force. [VERIFY: executed resolution, precise scope, interval and subsequent action.]",
+            "source_id": "current_row; june22; july13",
+            "locator": "Existing row, current_status; June 22 and July 13 minutes, page 2, New Business",
+            "reason": "The proposed reference to retained Butler Eagle accounts could imply that the underlying news was supplied and reviewed. The revision attributes the reports to existing-row context."
+          },
+          {
+            "field": "outcome",
+            "decision": "reject",
+            "value": "Official minutes record the June 22 zoning-invalidity motion and July 13 approval of Resolution 2026-09 as separate actions. For July 13, Ronald J. Shemela moved, Darryl M. Brandon seconded, and all were in favor. The resolution title refers to data centers and other listed uses; its full operative provisions, precise scope, curative ordinance adoption or effect, and later force remain unverified.",
+            "source_id": "june22; july13",
+            "locator": "June 22, page 2, New Business item 2; July 13, page 2 image, New Business",
+            "reason": "The title identifies subjects but does not establish the precise operative scope of the resolution."
+          }
+        ],
+        "whole_record_closure_supported": false,
+        "remaining_questions": [
+          "What does the full executed resolution provide, including its precise restrictions and operative start and end?",
+          "Was a related curative ordinance adopted, and what later action or current force can be established?"
+        ],
+        "review_limitations": [
+          "The official minutes are not the standalone executed resolution.",
+          "The Butler Eagle reports are attributed existing-row context, not newly supplied original news or controlling law.",
+          "No status, date, or duration normalization is proposed."
+        ]
+      }
+    },
+    "model_http_requests": 2,
+    "model": "gpt-6.1-terra",
+    "tools": [],
+    "agents_spawned": 0,
+    "price_usd": null
+  },
+  "distinct_news_scope_followup": {
+    "input_manifest_sha256": "2fd43b2dae9c44f44d5d94b22b36c0f6fa9170ee1f729bbb09304d78f9cadc6d",
+    "source_pins": [
+      {
+        "source_id": "june22",
+        "text_sha256": "335237dd27ca20b2d1483ab31221be99131754e5274e7aa9262df544e4eef10b",
+        "role": "Official3page minutesOCR; preciseimage available below"
+      },
+      {
+        "source_id": "july13",
+        "text_sha256": "d797c35c7d36f4445b8f0200e73ecbca3350dfb8f7e80ba748b6a6712f91ec66",
+        "role": "Official3page minutesOCR; title dispensaries omitted inOCR, imagebelow controls"
+      },
+      {
+        "source_id": "news-june23",
+        "text_sha256": "a2827d6fef36652d116cb9ec691ec8db7b957c8d2c08269c18876a3bdd65dc4a",
+        "role": "Already retained ButlerEagleJune23article; reporting not executedlaw"
+      },
+      {
+        "source_id": "news-july14",
+        "text_sha256": "4484f5d12d3c567e0b5af367f491311f030c651238c21ef49284cca1ffb75557",
+        "role": "Already retained ButlerEagleJuly14article; reporting not executedlaw"
+      }
+    ],
+    "image_pins": [
+      {
+        "source_id": "june22",
+        "sha256": "966aa4b6445fd2b6a2a95e4faaebc055b12e408cd3f17eb4d11b30a7e8c5ee81",
+        "physical_page": 2
+      },
+      {
+        "source_id": "july13",
+        "sha256": "16f00fa917c1374a70d32d7851a3479bac61f70f5023c9fa09937a87d4b1bfb8",
+        "physical_page": 2
+      }
+    ],
+    "candidate": {
+      "id": "pa-adams-township-butler-county-2026",
+      "row_sha256": "fac7ef5aa375909accdd8f9dc4ddfa78bb1da52ba5e1f57ec906ca7f62234c6a",
+      "proposed_changes": [
+        {
+          "field": "current_status",
+          "before": "Butler Eagle reported a June 22, 2026 vote approving a 180-day application moratorium on six uses: data centers, power generation plants, large-scale and accessory solar systems, last-mile fulfillment centers, micro-warehouses, and dispensaries. It reported that the unanimous July 13 resolution followed the motion and allowed up to 180 days for a curative zoning amendment. Officials described the action as preemptive rather than responding to a pending application. The earlier review found no news of extension, amendment adoption or repeal through 2026-09-23; later action is not established by the retained sources. [VERIFY: operative start and end, final resolution text and subsequent action.]",
+          "after": "June 22 official minutes record a unanimous motion declaring certain parts of the zoning ordinance invalid; July 13 minutes record unanimous approval of Resolution 2026-09. Butler Eagle reported a 180-day application moratorium following June 22 and a July 13 follow-up allowing up to 180 days to draft a curative amendment. Those reports and the minute entries do not establish the full operative restrictions, start, end or later force. [VERIFY: executed resolution, precise scope, interval and subsequent action.]"
+        },
+        {
+          "field": "outcome",
+          "before": "Adams Township Board of Supervisors adopted a 180-day moratorium (via a June 22, 2026 motion, formalized by resolution on July 13, 2026) on six business types including data centers and large-scale solar, to allow time to draft a curative amendment to the zoning ordinance.",
+          "after": "Official minutes record the June 22 zoning-invalidity motion and July 13 approval of Resolution 2026-09 as separate actions. For July 13, Ronald J. Shemela moved, Darryl M. Brandon seconded, and all were in favor. The resolution title refers to data centers and other listed uses; its full operative provisions, precise scope, curative ordinance adoption or effect, and later force remain unverified."
+        }
+      ]
+    },
+    "captures": [
+      {
+        "stage": "attribution_scope_adjudication",
+        "attempt_id": "bb5e1cafdd4048e78296c4a39c748ecd",
+        "descriptor_sha256": "c038e12e85e50e317b2979b8ab5d924a7f7d71f6be8a6fc33fde260520081a5c",
+        "wire_request_sha256": "4a015d2db0c3bcec9941bc00f322bec2dbbbb3db7cc57786aec8b889c15d68e7",
+        "wire_response_sha256": "61560ec6421181ecf3d526d38ee70cc2f675b64612193794795bb01e37ce52c7",
+        "all_original_page_images_bound": true,
+        "actual_input_descriptor_matches": true,
+        "wire_sdk_output_matches_after_null_default_normalization": true,
+        "parsed_answer_matches": true,
+        "usage": {
+          "input_tokens": 9094,
+          "input_tokens_details": {
+            "cache_write_tokens": 9091,
+            "cached_tokens": 0
+          },
+          "output_tokens": 643,
+          "output_tokens_details": {
+            "reasoning_tokens": 61
+          },
+          "total_tokens": 9737
+        }
+      }
+    ],
+    "answers": {
+      "attribution_scope_adjudication": {
+        "record_id": "pa-adams-township-butler-county-2026",
+        "input_row_sha256": "fac7ef5aa375909accdd8f9dc4ddfa78bb1da52ba5e1f57ec906ca7f62234c6a",
+        "field_decisions": [
+          {
+            "field": "current_status",
+            "decision": "accept",
+            "value": "June 22 official minutes record a unanimous motion declaring certain parts of the zoning ordinance invalid; July 13 minutes record unanimous approval of Resolution 2026-09. Butler Eagle reported a 180-day application moratorium following June 22 and a July 13 follow-up allowing up to 180 days to draft a curative amendment. Those reports and the minute entries do not establish the full operative restrictions, start, end or later force. [VERIFY: executed resolution, precise scope, interval and subsequent action.]",
+            "source_id": "june22; july13; news-june23; news-july14",
+            "locator": "Minutes, page 2, New Business; June 23 and July 14 articles",
+            "reason": "The supplied original articles support the attributed reporting, while the minutes support the recorded actions. Neither establishes the complete operative provisions or later force."
+          },
+          {
+            "field": "outcome",
+            "decision": "accept",
+            "value": "Official minutes record the June 22 zoning-invalidity motion and July 13 approval of Resolution 2026-09 as separate actions. For July 13, Ronald J. Shemela moved, Darryl M. Brandon seconded, and all were in favor. The resolution title refers to data centers and other listed uses; its full operative provisions, precise scope, curative ordinance adoption or effect, and later force remain unverified.",
+            "source_id": "june22; july13",
+            "locator": "June 22 and July 13 minutes, page 2 images, New Business",
+            "reason": "The narrowed revision describes the title's subjects without treating it as proof of precise restrictions."
+          }
+        ],
+        "whole_record_closure_supported": false,
+        "remaining_questions": [
+          "What does the executed resolution provide concerning restrictions and the operative interval?",
+          "Was a curative ordinance adopted, and what subsequent action or force can be established?"
+        ],
+        "review_limitations": [
+          "This review covers only the revised current_status and outcome fields; prior rejections remain in the review history.",
+          "The minutes are not the executed resolution, and newspaper reporting is not controlling law.",
+          "No effective endpoint, current status, or whole-record closure is inferred."
+        ]
+      }
+    },
+    "model_http_requests": 1,
+    "model": "gpt-6.1-terra",
+    "tools": [],
+    "agents_spawned": 0,
+    "price_usd": null
+  },
+  "original_rejections_preserved": true,
+  "all_3_requests_completed": true,
+  "final_field_decisions": [
+    {
+      "field": "date_enacted",
+      "decision": "accept",
+      "value": "July 13, 2026: official Adams Township (Butler County) minutes record unanimous approval of Resolution 2026-09. June 22 minutes separately record unanimous approval of a motion declaring certain parts of the zoning ordinance invalid. The operative interval remains unverified.",
+      "source_id": "june22; july13",
+      "locator": "June 22, page 2, New Business item 2; July 13, page 2, New Business",
+      "reason": "The minutes support the two recorded actions without establishing the operative interval."
+    },
+    {
+      "field": "legal_basis",
+      "decision": "accept",
+      "value": "Adams Township (Butler County) Board of Supervisors Resolution 2026-09, identified in the July 13, 2026 minutes as a curative amendment regarding data centers, power generation plant/systems, solar power systems, last-mile fulfillment center/micro-warehouses and dispensaries. A standalone executed resolution and its full operative text remain unverified.",
+      "source_id": "july13",
+      "locator": "Page 2 image, New Business, Resolution #2026-09",
+      "reason": "The image supplies the resolution title, including dispensaries, and records approval; it is not the executed resolution."
+    },
+    {
+      "field": "current_status",
+      "decision": "accept",
+      "value": "June 22 official minutes record a unanimous motion declaring certain parts of the zoning ordinance invalid; July 13 minutes record unanimous approval of Resolution 2026-09. Butler Eagle reported a 180-day application moratorium following June 22 and a July 13 follow-up allowing up to 180 days to draft a curative amendment. Those reports and the minute entries do not establish the full operative restrictions, start, end or later force. [VERIFY: executed resolution, precise scope, interval and subsequent action.]",
+      "source_id": "june22; july13; news-june23; news-july14",
+      "locator": "Minutes, page 2, New Business; June 23 and July 14 articles",
+      "reason": "The supplied original articles support the attributed reporting, while the minutes support the recorded actions. Neither establishes the complete operative provisions or later force."
+    },
+    {
+      "field": "outcome",
+      "decision": "accept",
+      "value": "Official minutes record the June 22 zoning-invalidity motion and July 13 approval of Resolution 2026-09 as separate actions. For July 13, Ronald J. Shemela moved, Darryl M. Brandon seconded, and all were in favor. The resolution title refers to data centers and other listed uses; its full operative provisions, precise scope, curative ordinance adoption or effect, and later force remain unverified.",
+      "source_id": "june22; july13",
+      "locator": "June 22 and July 13 minutes, page 2 images, New Business",
+      "reason": "The narrowed revision describes the title's subjects without treating it as proof of precise restrictions."
+    }
+  ],
+  "coordinator_whole_record_closure": false,
+  "price_usd": null,
+  "scope": "News sources added from existing retained bytes; original2requestcap notreset. Final narrower title/attribution revisions accepted; not a whole-recordclose or legalforcecertification."
+}
