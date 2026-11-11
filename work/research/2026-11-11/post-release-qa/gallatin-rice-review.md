@@ -6,7 +6,7 @@ Gallatin, Tennessee’s November 3 packet contains an unsigned six-month draft a
 
 Ten text fields in the working inventory have been corrected, five in each record. Neither record changes status. Counts, normalized dates, map coordinates, state-policy records, and ballot tables are unchanged. Both records still have open questions, so the remaining-record count stays at 1,347.
 
-The public dashboard and downloadable release remain **post12**. These working corrections are ready for the next combined publication; they have not yet been deployed or delivered to the receiving project. The pending change is recorded in `data/release_metadata.json`.
+These corrections were delivered in post13 after the data, receiving-project and live-site checks passed. The remaining questions below are still open.
 
 ## Evidence and checks
 

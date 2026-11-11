@@ -31,7 +31,7 @@
   "record_disposition_path": "work/research/2026-11-08/full-record-dispositions/funnel.json",
   "qa_status": "ongoing",
   "publication_authorization": "publish current state with qualifications on pending QA, then continue to double check and clear the outstanding questions",
-  "working_revision": "2026.11.11.post13-data-consumer-delivered-hosting-pending",
+  "working_revision": "2026.11.11.post13-delivery-verified",
   "current_raw_counts": {
     "local": 1329,
     "state_policy": 449,
@@ -40,7 +40,7 @@
   "prior_release": "v2026.11.11.post12",
   "prior_release_source_commit": "92715b1171dced0a29ec0c181a98aa2d435f9685",
   "prior_published_source_commit": "92715b1171dced0a29ec0c181a98aa2d435f9685",
-  "published_source_reference": "Qualified post13 pins 2ab30e9b022b90c9e92ac431f15d3669cd82d83d; identical builds, full restore, ten anonymous downloads and V47 verified. Hosted verification pending; post12 is prior verified site. Final adopted texts, effect, interval, later force and broader QA remain qualified.",
+  "published_source_reference": "Qualified post13 pins 2ab30e9b022b90c9e92ac431f15d3669cd82d83d; builds, restore, ten anonymous downloads, V47 and current pages verified. Final acknowledgment payload check follows.",
   "latest_consumer_handoff": {
     "source_commit": "2ab30e9b022b90c9e92ac431f15d3669cd82d83d",
     "manifest_sha256": "428768f37d4cd543fd1c05f967a79175c214063dce520d24f0374da0fbd0e8c4",
@@ -75,11 +75,12 @@
     "new_pending_rows": 0,
     "normalized_date_changes": 0,
     "scope": "Rice\u2019s September21 vote and Gallatin\u2019s proposal/hearing/draft conditions are clarified in ten text cells. No final Gallatin adoption, Rice effective date, project eligibility or current legal force is established. Existing classifications and all headline totals remain unchanged.",
-    "state": "delivered_data_consumer_pending_hosted_verification",
+    "state": "delivered_and_hosted_verified",
     "delivered_source_commit": "2ab30e9b022b90c9e92ac431f15d3669cd82d83d",
     "delivered_consumer_commit": "41b835d1914928907f9b12e9c96de6159f06e98f",
     "delivery_receipt": "work/research/2026-11-11/post-release-qa/consumer-v47-handoff.json",
-    "hosted_copy_state": "pending"
+    "hosted_copy_state": "verified",
+    "hosted_receipt": "work/research/2026-11-11/release-2026.11.11.post13/hosted-copy-verification.json"
   },
   "latest_source_followup": "work/research/2026-11-11/post-release-qa/brookhaven-operative-application.json",
   "latest_expanded_candidate_review": "work/research/2026-11-09/starke-succession-review/validation.json",
@@ -131,15 +132,15 @@
     "work/research/2026-11-11/post-release-qa/rice-operative-application.json"
   ],
   "latest_hosted_delivery": {
-    "source_commit": "92715b1171dced0a29ec0c181a98aa2d435f9685",
-    "hosted_source_commit": "dcce24fb245d99085936fb154f0a42a3355fe311",
-    "release_source_commit": "92715b1171dced0a29ec0c181a98aa2d435f9685",
-    "pages_run": 43058116825,
-    "receipt": "work/research/2026-11-11/release-2026.11.11.post12/hosted-copy-verification.json",
+    "source_commit": "2ab30e9b022b90c9e92ac431f15d3669cd82d83d",
+    "hosted_source_commit": "da46bf9824ed76059d3cb39673d6c43c09c1836f",
+    "release_source_commit": "2ab30e9b022b90c9e92ac431f15d3669cd82d83d",
+    "pages_run": 43067917614,
+    "receipt": "work/research/2026-11-11/release-2026.11.11.post13/hosted-copy-verification.json",
     "state": "verified"
   },
   "latest_expanded_result_review": "work/research/2026-11-10/canterbury-minutes-result-review/coordinator-adjudication.json",
-  "latest_verified_release": "v2026.11.11.post12",
+  "latest_verified_release": "v2026.11.11.post13",
   "source_observation_window_scope": "Acquisition includes source-specific QA captures through November11; this does not renew every record or move the original comprehensive research_cutoff.",
   "latest_download_verified_release": "v2026.11.11.post13",
   "prior_latest_consumer_handoff": {
@@ -152,11 +153,11 @@
   },
   "prior_published_source_reference": "Qualified post12 pins 92715b1171dced0a29ec0c181a98aa2d435f9685; builds, restore, ten anonymous downloads, V46 and current pages verified. Final acknowledgment payload check follows.",
   "latest_verified_hosted_data": {
-    "release": "v2026.11.11.post12",
-    "release_source_commit": "92715b1171dced0a29ec0c181a98aa2d435f9685",
-    "selected_files": 227,
-    "receipt": "work/research/2026-11-11/release-2026.11.11.post12/hosted-copy-verification.json",
-    "scope": "All current HTML and linked local bytes match; full desktop/mobile/dark browser checks pass. Both Fairfax entries match the reviewed text, and the new pending proposal appears on the map. Final artifact and acknowledgment verification follows."
+    "release": "v2026.11.11.post13",
+    "release_source_commit": "2ab30e9b022b90c9e92ac431f15d3669cd82d83d",
+    "selected_files": 229,
+    "receipt": "work/research/2026-11-11/release-2026.11.11.post13/hosted-copy-verification.json",
+    "scope": "All current HTML and linked local bytes match; full desktop/mobile/dark browser checks pass. Both updated records show all ten reviewed fields. Theme preferences, keyboard use, mobile views, charts and map popups pass. Final artifact and acknowledgment verification follows."
   },
   "latest_disposition_review": "work/research/2026-11-11/post-release-qa/fort-wayne-final-disposition-application.json",
   "status_baseline_comparison": "work/research/2026-11-11/post-release-qa/lowndes-september-status-delta.json",
@@ -386,29 +387,34 @@
       },
       "resolution": "work/research/2026-11-11/release-2026.11.11.post12/hosted-copy-verification.json",
       "pages_run": 43058116825
+    },
+    {
+      "resolved_at": "2026-11-11T17:27:49.912405+00:00",
+      "prior_hold": {
+        "release": "v2026.11.11.post13",
+        "release_source_commit": "2ab30e9b022b90c9e92ac431f15d3669cd82d83d",
+        "state": "verified_data_release_pending_full_site_deployment",
+        "receipt": "work/research/2026-11-11/release-2026.11.11.post13/public-verification.json",
+        "active_deployment_run": null
+      },
+      "resolution": "work/research/2026-11-11/release-2026.11.11.post13/hosted-copy-verification.json",
+      "pages_run": 43067917614
     }
   ],
   "prior_latest_hosted_delivery": {
-    "source_commit": "e2d510e0014721ec2bf04f401248b64f642da6a5",
-    "hosted_source_commit": "79c721c24bd67794e68270aa0e8352fc44d438c4",
-    "release_source_commit": "e2d510e0014721ec2bf04f401248b64f642da6a5",
-    "pages_run": 43041420435,
-    "receipt": "work/research/2026-11-11/release-2026.11.11.post11/hosted-copy-verification.json",
+    "source_commit": "92715b1171dced0a29ec0c181a98aa2d435f9685",
+    "hosted_source_commit": "dcce24fb245d99085936fb154f0a42a3355fe311",
+    "release_source_commit": "92715b1171dced0a29ec0c181a98aa2d435f9685",
+    "pages_run": 43058116825,
+    "receipt": "work/research/2026-11-11/release-2026.11.11.post12/hosted-copy-verification.json",
     "state": "verified"
   },
   "prior_latest_verified_hosted_data": {
-    "release": "v2026.11.11.post11",
-    "release_source_commit": "e2d510e0014721ec2bf04f401248b64f642da6a5",
-    "selected_files": 230,
-    "receipt": "work/research/2026-11-11/release-2026.11.11.post11/hosted-copy-verification.json",
-    "scope": "All current HTML and linked local bytes match; full desktop/mobile/dark browser checks pass. Both changed state entries match all five complete updated prose values. Final artifact and acknowledgment verification follows."
+    "release": "v2026.11.11.post12",
+    "release_source_commit": "92715b1171dced0a29ec0c181a98aa2d435f9685",
+    "selected_files": 227,
+    "receipt": "work/research/2026-11-11/release-2026.11.11.post12/hosted-copy-verification.json",
+    "scope": "All current HTML and linked local bytes match; full desktop/mobile/dark browser checks pass. Both Fairfax entries match the reviewed text, and the new pending proposal appears on the map. Final artifact and acknowledgment verification follows."
   },
-  "latest_independent_record_review": "work/research/2026-11-11/post-release-qa/fairfax-battery-addition-application.json",
-  "pending_hosted_delivery": {
-    "release": "v2026.11.11.post13",
-    "release_source_commit": "2ab30e9b022b90c9e92ac431f15d3669cd82d83d",
-    "state": "verified_data_release_pending_full_site_deployment",
-    "receipt": "work/research/2026-11-11/release-2026.11.11.post13/public-verification.json",
-    "active_deployment_run": null
-  }
+  "latest_independent_record_review": "work/research/2026-11-11/post-release-qa/fairfax-battery-addition-application.json"
 }
