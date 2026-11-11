@@ -1,8 +1,8 @@
 {
   "event_cutoff_utc": "2026-11-07T13:38:39.877065Z",
   "counts": {
-    "unresolved": 1347,
-    "corrected_resolved": 191,
+    "unresolved": 1346,
+    "corrected_resolved": 192,
     "confirmed_unchanged": 239,
     "superseded_duplicate": 0,
     "not_attempted": 0
@@ -10,8 +10,8 @@
   "cohort_counts": {
     "earlier225": {
       "confirmed_unchanged": 26,
-      "unresolved": 195,
-      "corrected_resolved": 4
+      "unresolved": 194,
+      "corrected_resolved": 5
     },
     "remaining1552": {
       "corrected_resolved": 187,
@@ -9127,12 +9127,9 @@
     {
       "id": "in-fort-wayne-undated",
       "dataset": "local_inventory",
-      "disposition": "unresolved",
-      "public_receipt_pointer": "work/research/2026-11-08/full-inventory-integrated-application/README.md",
-      "residual_reference": {
-        "dataset": "local_inventory",
-        "id": "in-fort-wayne-undated"
-      },
+      "disposition": "corrected_resolved",
+      "public_receipt_pointer": "work/research/2026-11-11/post-release-qa/fort-wayne-final-disposition-application.json",
+      "residual_reference": null,
       "recorded_evidence_fingerprints_sha256": [
         "0cf30f3131cf21955690a4a52209d22c862801cdf90f7a3908b479ad13a344f1",
         "104ecab2365cd3a1346e0615582d3d05f57bdacacacc0112b90e4bddb23f6427",
@@ -9140,7 +9137,9 @@
         "4aec3ea2cc3e53e9fcc7084136416e15d1c595ffd0a4d97d5c85525ceb089e82",
         "79d883129687acb4ebd1894e4052acb1cd2d20aadf34c96147739fdd96a3f0c3",
         "c29193ac3a4a6dc07eb0bb6beb1d1f42c60e4f96a3512ee52696281a5535651c",
-        "ddffb0ad1a0e262b2ffc738deb8621566fec4c36e980099f1211b57d991e902f"
+        "ddffb0ad1a0e262b2ffc738deb8621566fec4c36e980099f1211b57d991e902f",
+        "ff25ff5eadad26716720bdeb879d47389caadd4648128fff396aa48d5bcbe66f",
+        "fd392a4d931b2ec96dacbf7e080a0745112d7f69a471833d54d076fc45f46319"
       ]
     },
     {
@@ -39680,6 +39679,14 @@
       "disposition": "unresolved",
       "receipt": "work/research/2026-11-11/post-release-qa/eagan-operative-application.json",
       "scope": "Two exact attributed-news prose cells: current_status andoutcome. Reported June15filing and separate city enforcement added, with no officialcourt outcome/currentforce inference. No status/normalizeddate/endpoint/term/scope/VERIFYcount/headline/nativechanges; no whole-recordclosure. Pending next combined publication batch."
+    },
+    {
+      "reviewed_at": "2026-11-11T11:12:32.309113+00:00",
+      "id": "in-fort-wayne-undated",
+      "prior_disposition": "unresolved",
+      "disposition": "corrected_resolved",
+      "receipt": "work/research/2026-11-11/post-release-qa/fort-wayne-final-disposition-application.json",
+      "scope": "Historical September2026BillR-26-09-17asAmended: identity, completeproposedterm/scope and October13finaldefeat established. No enactedinterval exists. Distinct laterproposals are not continuedpendency of thisfailedbill and require separateidentityreview."
     }
   ]
 }

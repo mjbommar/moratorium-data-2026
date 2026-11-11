@@ -3,7 +3,7 @@
 
 Working inventory for Indiana, generated **November 11, 2026**. Record-level refresh and later-action review remain incomplete.
 
-**35 records** — 23 classified as active or extended, 4 classified as pending, 8 classified as past, 0 classified as rejected proposals, 0 classified as unknown.
+**35 records** — 23 classified as active or extended, 3 classified as pending, 8 classified as past, 1 classified as rejected proposals, 0 classified as unknown.
 
 These counts reflect inventory classifications and do not establish current enforceability.
 
@@ -18,7 +18,7 @@ State policy is tracked separately: **10 records** (10 typed bill rows) in [`sta
 | DeKalb County | County | 2026-04-13 | data center | 🟢 Active |
 | Elkhart | City | 2026-08-27 | data center, battery storage | 🟢 Active |
 | Fayette County | County | 2026-05-05 | data center | 🟢 Active |
-| Fort Wayne | City | Unverified | data center | 🟡 Pending |
+| Fort Wayne | City | Unverified | data center | 🔴 Rejected proposal |
 | Franklin County | County | 2025-12-24 | data center | 🟢 Extended |
 | Fulton County | County | 2026-03-02 | data center | 🟢 Active |
 | Gary | City | 2026-09-16 | data center | 🟢 Active |
@@ -164,18 +164,18 @@ State policy is tracked separately: **10 records** (10 typed bill rows) in [`sta
 ### Fort Wayne
 
 - **Type:** City
-- **Recorded status:** 🟡 Pending
+- **Recorded status:** 🔴 Rejected proposal
 - **Date enacted:** —
 - **Normalized date:** `—` (unverified)
-- **Duration:** A 365-day moratorium was proposed in September 2026; WANE reports that the proposal failed on October 13, 2026.
+- **Duration:** Proposed period not exceeding 365 days after passage, ending earlier on qualifying zoning amendments or subsequent Council termination; any extension beyond 365 days would require further Council action (sections 1, 4 and 6). The proposal failed on October 13, 2026, so it created no operative moratorium term.
 - **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `in-fort-wayne-undated`
-- **Legal basis:** Ordinance(s) introduced by Councilwoman Rohli Booker in September 2026, including a proposed 365-day data center moratorium and a directive for the Department of Planning Services to create a comprehensive data center development standard; a related task-force proposal from Councilman Russ Jehl was withdrawn
-- **What prompted it:** Council concern about the pace of data center development in the city, following the Google data center already under construction in southeast Fort Wayne
-- **Affected projects:** Would not affect the existing Google data center project under construction in southeast Fort Wayne
-- **Detailed status:** WANE reported that Fort Wayne City Council voted 4-4 against the proposed 365-day data-center moratorium on October 13, 2026. [VERIFY: official roll call and any subsequent reintroduction or action.]
-- **Outcome:** WANE reported the proposed 365-day moratorium failed on a 4-4 council vote on October 13, 2026.
+- **Legal basis:** Proposed resolution, Bill No. R-26-09-17 as amended, titled as a temporary moratorium on certain data-center approvals; its separate resolution-number line is blank. October 13, 2026 regular-session minutes, entry IV, record failure 4-4. The minutes’ generic Ordinance Number label does not establish an adopted ordinance. Entry III records the separate CIERC proposal, G-26-09-16 as amended as amended, failing 3-5.
+- **What prompted it:** The proposal’s recitals sought time to review data-center definitions, development standards and impacts on electrical capacity, water and wastewater systems, public infrastructure, land and community resources while the zoning code lacked comprehensive standards for large-scale data-center development.
+- **Affected projects:** The rejected proposal concerned final discretionary Common Council approvals for new hyperscale or large-scale data-center developments, aggregating related phases, expansions and facilities under common ownership/control, contiguous sites, shared infrastructure or the same planned development. It excluded principally telecommunications and emergency-communications facilities and preserved prior lawfully granted approvals. It requested corresponding measures by other approving bodies without directing action beyond their legal authority, and allowed study/planning/review short of final Council approval. The failed bill imposed no moratorium on any project.
+- **Detailed status:** Rejected: the October 13, 2026 regular-session minutes record amended Bill R-26-09-17 failing 4-4. Ayes: Booker, Ensley, Jehl and Paddock; nays: Bender, Chambers, Hartman and Myers. Thomas Freistroffer was absent. The mayor-signature field is N/A. This records the disposition of that proposal; a distinct later proposal requires its own identity review.
+- **Outcome:** Amended Bill R-26-09-17 failed 4-4 on October 13, 2026; no moratorium was enacted by that bill. The separate CIERC proposal failed 3-5 and is not the moratorium vote.
 
 ### Franklin County
 

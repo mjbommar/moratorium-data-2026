@@ -1457,6 +1457,26 @@ def main():
             # Preserve a later accepted field application's more recent residuals.
             if key not in operative_transitions and key not in policy_transitions:
                 overlays[record['id']]=[public_text(q) for q in record['remaining_questions']]
+    fort_wayne_final_path=Path('work/research/2026-11-11/post-release-qa/fort-wayne-final-disposition-application.json')
+    if fort_wayne_final_path.exists():
+        application=json.loads(fort_wayne_final_path.read_text())
+        assert application['id']=='in-fort-wayne-undated' and application['dataset']=='local_inventory'
+        assert application['prior_disposition']=='unresolved' and application['recommendation']=='corrected_resolved'
+        assert application['whole_record_closures']==1 and application['canonical_cells_changed']==9 and application['remaining_questions']==[]
+        assert {c['field'] for c in application['field_changes']}=={'duration','legal_basis','trigger','current_status','affected_projects','outcome','has_verify_tags','verify_count','enacted_status'}
+        row=current['local_inventory',application['id']].copy()
+        assert digest(json.dumps(row,sort_keys=True,separators=(',',':'),ensure_ascii=False).encode())==application['current_row_sha256']
+        for change in application['field_changes']:
+            assert row[change['field']]==change['after']
+            row[change['field']]=change['before']
+        assert digest(json.dumps(row,sort_keys=True,separators=(',',':'),ensure_ascii=False).encode())==application['prior_row_sha256']
+        for pin in (application['independent_review'],application['source_continuity']):
+            assert digest(Path(pin['path']).read_bytes())==pin['sha256']
+        proof=json.loads(Path(application['independent_review']['path']).read_text())
+        decision=proof['answers']['cell_adjudication']
+        assert proof['coordinator_whole_record_closure'] and decision['whole_record_closure_supported'] and decision['remaining_questions']==[]
+        assert all(x['decision']=='accept' for x in decision['field_decisions'])
+        assert next(r for r in f['records'] if r['id']==application['id'])['disposition']=='corrected_resolved'
     rows=[]
     for entry in f['records']:
         if entry['disposition']!='unresolved':continue
@@ -1485,6 +1505,7 @@ def main():
     summary['idaho_governor_action_followup_sha256']=digest(idaho_governor_path.read_bytes()) if idaho_governor_path.exists() else None
     summary['east_whiteland_statutory_review_sha256']=digest(east_whiteland_scope_path.read_bytes()) if east_whiteland_scope_path.exists() else None
     summary['nassau_clerk_route_review_sha256']=digest(nassau_clerk_path.read_bytes()) if nassau_clerk_path.exists() else None
+    summary['fort_wayne_final_disposition_application_sha256']=digest(fort_wayne_final_path.read_bytes()) if fort_wayne_final_path.exists() else None
     summary['generic_question_specificity_audit_sha256']=digest(generic_specificity_path.read_bytes()) if generic_specificity_path.exists() else None
     summary['mattoon_instrument_followup_sha256']=digest(mattoon_instrument_path.read_bytes()) if mattoon_instrument_path.exists() else None
     summary['houston_minutes_followup_sha256']=digest(houston_minutes_path.read_bytes()) if houston_minutes_path.exists() else None

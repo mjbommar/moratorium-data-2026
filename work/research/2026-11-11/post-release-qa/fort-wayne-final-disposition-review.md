@@ -1,0 +1,11 @@
+# Fort Wayne proposal disposition corrected
+
+All three official October 13 regular-session minute pages and all four pages of amended Bill R-26-09-17 were visually and independently reviewed. The moratorium proposal failed 4–4: Booker, Ensley, Jehl and Paddock voted aye; Bender, Chambers, Hartman and Myers voted nay; Freistroffer was absent. The separate CIERC proposal failed 3–5. The generic minutes header does not override the explicit failed vote, and the blank proposed resolution-number/signature fields are not evidence of an enacted moratorium.
+
+The proposal would have paused final discretionary Common Council approvals for no more than 365 days after passage, with earlier termination conditions, prior-approval protection, specified telecommunications/emergency exclusions and limited requests to other approving bodies. It failed, so no operative moratorium interval is inferred. Google-specific eligibility is replaced by the actual proposed prior-approval language. Adoption/effective/end dates stay blank.
+
+The existing codebook already permits `rejected`; the earlier enum limitation is stale. Nine exact cells were independently accepted, including pending → rejected and removal of the resolved VERIFY tag. The historical proposal review is corrected/resolved, reducing unresolved reviews from 1,347 to 1,346. This closes that defeated bill’s historical questions, not a census of all later Fort Wayne proposals or restrictions.
+
+Five source body/text pairs were archived and exactly read back. The city page embeds the document host; its actual October 13 row links meeting 814, which links both PDFs. One targeted SerpAPI query and five successful fetches in two separately capped phases are terminal; no existing capture/query was repeated or cap reset. Search price and model cost remain unknown. Two tool-free Terra calls bind all seven original images and actual wire/SDK outputs; both field acceptance and whole-record closure were checked.
+
+Publication is pending in the combined batch with Eagan’s two news-prose corrections: 11 changed cells across two rows. Working counts become 63 pending, three rejected, 978 VERIFY-tagged and 1,346 unresolved reviews; 1,086 active/extended records and all raw row totals are unchanged. Post5/V39 remains the verified public edition.

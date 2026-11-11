@@ -1,0 +1,375 @@
+{
+  "input_manifest_sha256": "d184a49b11e3bebb5b55ec1f13bdf1a013594e92853a2b616bc6b01171638ad4",
+  "source_pins": [
+    {
+      "source_id": "d09e8f0352174ba2887e085c4e03d2e7",
+      "url": "https://citycouncildocuments.acfw.net/documents/download/2026-10-16/10-13-26%20Minutes%20-%20new%20format.pdf",
+      "body_sha256": "36164e198bb9bbb204cc69f3d56dffd9f995587b105fc06e502eda7cdb380a49",
+      "layout_sha256": "6b6c15482640ce377fb00ce0d2092b6745149c1e57b93b3b4df5f2a4095ac515",
+      "physical_pages": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "source_id": "17e3ecbba0b64efb82c8d573b984a66a",
+      "url": "https://citycouncildocuments.acfw.net/documents/download/2026-10-09/R-26-09-17%20As%20Amended.pdf",
+      "body_sha256": "3ca10f731ea8f3e0d8ae73d6fd10d75d4ac5ac382414b54b4ab22d81a14df7b9",
+      "layout_sha256": "7b05959afe6a65a160b73fe208e134645898b7d636000550367f9eb4ec25ff1c",
+      "physical_pages": [
+        1,
+        2,
+        3,
+        4
+      ]
+    }
+  ],
+  "image_pins": [
+    {
+      "source_id": "d09e8f0352174ba2887e085c4e03d2e7",
+      "physical_page": 1,
+      "sha256": "ccdf62d516229a61dae8b76f15cdcae06cc2d87e50417d4841354675169dfd89"
+    },
+    {
+      "source_id": "d09e8f0352174ba2887e085c4e03d2e7",
+      "physical_page": 2,
+      "sha256": "12e5973a82344f225418311d74a728e6efd0318ca5bfad916b66eb0ac4c41e64"
+    },
+    {
+      "source_id": "d09e8f0352174ba2887e085c4e03d2e7",
+      "physical_page": 3,
+      "sha256": "baa4bc105ba9f34432c1ecc0796eef2b2a579c47601feee646d01755da1c5f7a"
+    },
+    {
+      "source_id": "17e3ecbba0b64efb82c8d573b984a66a",
+      "physical_page": 1,
+      "sha256": "f7eb71e1bf782121fef33b6bbd990ecc70ce80471c22307db13529fc0b7bd7b0"
+    },
+    {
+      "source_id": "17e3ecbba0b64efb82c8d573b984a66a",
+      "physical_page": 2,
+      "sha256": "59f349775d379e8cfe317c69fb9b91b620f258b0add8aa65435270c3acdaca17"
+    },
+    {
+      "source_id": "17e3ecbba0b64efb82c8d573b984a66a",
+      "physical_page": 3,
+      "sha256": "4083ebfd3c62767fa2d898a41db1b9e711efc2a0c55398c455d5aa89f9ea2231"
+    },
+    {
+      "source_id": "17e3ecbba0b64efb82c8d573b984a66a",
+      "physical_page": 4,
+      "sha256": "8befe23ea97c39423c60f45f52a164a6e57648959d491c3f728c4619079d7f3c"
+    }
+  ],
+  "candidate": {
+    "id": "in-fort-wayne-undated",
+    "row_sha256": "c29193ac3a4a6dc07eb0bb6beb1d1f42c60e4f96a3512ee52696281a5535651c",
+    "proposed_changes": [
+      {
+        "field": "duration",
+        "before": "A 365-day moratorium was proposed in September 2026; WANE reports that the proposal failed on October 13, 2026.",
+        "after": "Proposed period not exceeding 365 days after passage, ending earlier on qualifying zoning amendments or subsequent Council termination; any extension beyond 365 days would require further Council action (sections 1, 4 and 6). The proposal failed on October 13, 2026, so it created no operative moratorium term."
+      },
+      {
+        "field": "legal_basis",
+        "before": "Ordinance(s) introduced by Councilwoman Rohli Booker in September 2026, including a proposed 365-day data center moratorium and a directive for the Department of Planning Services to create a comprehensive data center development standard; a related task-force proposal from Councilman Russ Jehl was withdrawn",
+        "after": "Proposed resolution, Bill No. R-26-09-17 as amended, titled as a temporary moratorium on certain data-center approvals; its separate resolution-number line is blank. October 13, 2026 regular-session minutes, entry IV, record failure 4-4. The minutes\u2019 generic Ordinance Number label does not establish an adopted ordinance. Entry III records the separate CIERC proposal, G-26-09-16 as amended as amended, failing 3-5."
+      },
+      {
+        "field": "trigger",
+        "before": "Council concern about the pace of data center development in the city, following the Google data center already under construction in southeast Fort Wayne",
+        "after": "The proposal\u2019s recitals sought time to review data-center definitions, development standards and impacts on electrical capacity, water and wastewater systems, public infrastructure, land and community resources while the zoning code lacked comprehensive standards for large-scale data-center development."
+      },
+      {
+        "field": "current_status",
+        "before": "WANE reported that Fort Wayne City Council voted 4-4 against the proposed 365-day data-center moratorium on October 13, 2026. [VERIFY: official roll call and any subsequent reintroduction or action.]",
+        "after": "Rejected: the October 13, 2026 regular-session minutes record amended Bill R-26-09-17 failing 4-4. Ayes: Booker, Ensley, Jehl and Paddock; nays: Bender, Chambers, Hartman and Myers. Thomas Freistroffer was absent. The mayor-signature field is N/A. This records the disposition of that proposal; a distinct later proposal requires its own identity review."
+      },
+      {
+        "field": "affected_projects",
+        "before": "Would not affect the existing Google data center project under construction in southeast Fort Wayne",
+        "after": "The rejected proposal concerned final discretionary Common Council approvals for new hyperscale or large-scale data-center developments, aggregating related phases, expansions and facilities under common ownership/control, contiguous sites, shared infrastructure or the same planned development. It excluded principally telecommunications and emergency-communications facilities and preserved prior lawfully granted approvals. It requested corresponding measures by other approving bodies without directing action beyond their legal authority, and allowed study/planning/review short of final Council approval. The failed bill imposed no moratorium on any project."
+      },
+      {
+        "field": "outcome",
+        "before": "WANE reported the proposed 365-day moratorium failed on a 4-4 council vote on October 13, 2026.",
+        "after": "Amended Bill R-26-09-17 failed 4-4 on October 13, 2026; no moratorium was enacted by that bill. The separate CIERC proposal failed 3-5 and is not the moratorium vote."
+      },
+      {
+        "field": "has_verify_tags",
+        "before": "True",
+        "after": "False"
+      },
+      {
+        "field": "verify_count",
+        "before": "1",
+        "after": "0"
+      },
+      {
+        "field": "enacted_status",
+        "before": "pending",
+        "after": "rejected"
+      }
+    ],
+    "closure_scope": "Historical identity, proposed scope/term and completed defeat of this tracked bill. Do not treat a possible later distinct proposal as continued pendency of the defeated bill, or certify the absence of all other FortWayne restrictions. Whole-record closure requires independent substantive support, not merely enumavailability. Adoption/effective/end dates stayblank; no operative365day interval."
+  },
+  "captures": [
+    {
+      "stage": "blind_extraction",
+      "attempt_id": "1a15a47c4c7f4b93bfd048e1b5dfe2b4",
+      "descriptor_sha256": "00e290cc92c38e1c2f1038505c93721fc929da3b6bdfc54e09550d6fb3e9c894",
+      "wire_request_sha256": "fe07c55361fc46b4096c31af6d895a55f0396c79e78c9e07f463ea987a07f8c7",
+      "wire_response_sha256": "6a16aaba218e8d9684dd196ff842a3d87d0d9ed85d3146d098fe2102c2e6eefc",
+      "actual_input_descriptor_matches": true,
+      "wire_sdk_output_matches_after_null_default_normalization": true,
+      "parsed_answer_matches": true,
+      "usage": {
+        "input_tokens": 20309,
+        "input_tokens_details": {
+          "cache_write_tokens": 20306,
+          "cached_tokens": 0
+        },
+        "output_tokens": 1970,
+        "output_tokens_details": {
+          "reasoning_tokens": 50
+        },
+        "total_tokens": 22279
+      },
+      "all_original_minute_and_proposal_page_images_bound": true
+    },
+    {
+      "stage": "cell_adjudication",
+      "attempt_id": "bf2d62df0ed044118945714363bca3b3",
+      "descriptor_sha256": "6baaefec72ab52b2580e49f784954f5998214363b90c3051b1712e7d99d2021a",
+      "wire_request_sha256": "3bf9f9a697468e599fc4539fc5c253e673504f2ddaa74cbaf3a0897389cffd2c",
+      "wire_response_sha256": "6214136517b71bfebfa3a21f78760c3353b70b3caf8b3c0e1daa89d31f353e86",
+      "actual_input_descriptor_matches": true,
+      "wire_sdk_output_matches_after_null_default_normalization": true,
+      "parsed_answer_matches": true,
+      "usage": {
+        "input_tokens": 23551,
+        "input_tokens_details": {
+          "cache_write_tokens": 23548,
+          "cached_tokens": 0
+        },
+        "output_tokens": 2196,
+        "output_tokens_details": {
+          "reasoning_tokens": 516
+        },
+        "total_tokens": 25747
+      },
+      "all_original_minute_and_proposal_page_images_bound": true
+    }
+  ],
+  "answers": {
+    "blind_extraction": {
+      "facts": [
+        {
+          "field": "proposal_identity",
+          "value": "Bill No. R-26-09-17 As Amended, a resolution proposing a temporary moratorium on certain data center approvals in Fort Wayne.",
+          "source_id": "17e3ecbba0b64efb82c8d573b984a66a",
+          "locator": "Page 1, header and title",
+          "supporting_summary": "The proposal identifies itself by bill number; its separate resolution-number line is blank."
+        },
+        {
+          "field": "meeting",
+          "value": "Fort Wayne City Council regular session, October 13, 2026, at 5:30 p.m., Room 35, Citizen Square.",
+          "source_id": "d09e8f0352174ba2887e085c4e03d2e7",
+          "locator": "Page 1, meeting header",
+          "supporting_summary": "The minutes give the session date, time, and location."
+        },
+        {
+          "field": "outcome",
+          "value": "Rejected: the amended data center moratorium resolution failed 4\u20134.",
+          "source_id": "d09e8f0352174ba2887e085c4e03d2e7",
+          "locator": "Page 2, entry IV",
+          "supporting_summary": "The minutes explicitly mark the proposal failed; this is not an enacted 365-day pause."
+        },
+        {
+          "field": "vote",
+          "value": "Ayes: Rohli Booker, Paul Ensley, Russ Jehl, Geoff Paddock. Nays: Martin Bender, Michelle Chambers, Nathan Hartman, Scott Myers. Absent: Thomas Freistroffer. Mayor signature: N/A.",
+          "source_id": "d09e8f0352174ba2887e085c4e03d2e7",
+          "locator": "Page 1, roll call; page 2, entry IV",
+          "supporting_summary": "The roll call identifies the absent member, and entry IV records the individual votes and mayor-signature status."
+        },
+        {
+          "field": "minutes_identifier",
+          "value": "Entry IV uses the heading 'Ordinance Number R-26-09-17 As Amended' but describes the measure as a resolution.",
+          "source_id": "d09e8f0352174ba2887e085c4e03d2e7",
+          "locator": "Page 2, entry IV",
+          "supporting_summary": "The minutes use an ordinance-number heading for this resolution; the proposal itself labels R-26-09-17 as the bill number and leaves the assigned resolution number blank."
+        },
+        {
+          "field": "committee_and_representative",
+          "value": "Regulations Committee; Rohli Booker was listed as committee chair and representative.",
+          "source_id": "d09e8f0352174ba2887e085c4e03d2e7",
+          "locator": "Page 2, entry IV",
+          "supporting_summary": "The entry identifies the committee and lists Booker in both roles."
+        },
+        {
+          "field": "proposed_scope",
+          "value": "The proposed moratorium would have applied to final Common Council approval of new hyperscale or large-scale data center developments requiring discretionary council action or approval.",
+          "source_id": "17e3ecbba0b64efb82c8d573b984a66a",
+          "locator": "Page 1, section 1; page 3, section 6",
+          "supporting_summary": "The text limits the proposed restriction to specified final council approvals, within the council's lawful authority."
+        },
+        {
+          "field": "proposed_related_development_rule",
+          "value": "Reasonably anticipated components of a substantially related development would have been considered together when under common ownership or control, on the same or contiguous properties, sharing substantial infrastructure, or part of the same planned development.",
+          "source_id": "17e3ecbba0b64efb82c8d573b984a66a",
+          "locator": "Pages 1\u20132, section 1",
+          "supporting_summary": "The proposal addresses related phases, expansions, buildings, facilities, and other components when determining whether a development is covered."
+        },
+        {
+          "field": "proposed_exceptions_and_preservation",
+          "value": "Facilities primarily providing telecommunications services or emergency communications infrastructure would not be classified as data centers. Lawfully granted prior approvals would remain undisturbed, and study, discussion, planning, and review could continue without covered final council approval.",
+          "source_id": "17e3ecbba0b64efb82c8d573b984a66a",
+          "locator": "Page 2, section 1; page 3, section 5",
+          "supporting_summary": "The text excludes specified communications facilities, preserves prior approvals, and permits non-final activities."
+        },
+        {
+          "field": "proposed_duration_and_effect",
+          "value": "The moratorium would have begun upon passage and lasted no more than 365 days, subject to earlier termination.",
+          "source_id": "17e3ecbba0b64efb82c8d573b984a66a",
+          "locator": "Page 2, section 1; page 3, section 6",
+          "supporting_summary": "The duration and effective-date provisions are proposed terms; the minutes report that the measure failed."
+        },
+        {
+          "field": "proposed_termination_and_extension",
+          "value": "The proposed moratorium would have ended at the earliest of effective zoning amendments establishing relevant definitions and standards, subsequent council repeal or termination, or 365 days after passage. Extension beyond 365 days would require subsequent council action.",
+          "source_id": "17e3ecbba0b64efb82c8d573b984a66a",
+          "locator": "Page 3, section 4",
+          "supporting_summary": "Section 4 specifies three termination events and requires a separate council action for an extension."
+        },
+        {
+          "field": "proposed_review",
+          "value": "The proposal requested Planning Services to recommend zoning-code amendments during the proposed moratorium, in consultation with relevant departments, utilities, officials, experts, and CIERC upon its establishment.",
+          "source_id": "17e3ecbba0b64efb82c8d573b984a66a",
+          "locator": "Page 2, section 2",
+          "supporting_summary": "Suggested review topics included definitions, zoning and approvals, site standards, backup power, resource demands, infrastructure capacity, environmental impacts, and full buildout."
+        },
+        {
+          "field": "proposed_other_approving_bodies",
+          "value": "Other governmental bodies with approval authority would have been requested, within applicable law, to consider corresponding temporary measures; the proposal did not direct action beyond their legal authority.",
+          "source_id": "17e3ecbba0b64efb82c8d573b984a66a",
+          "locator": "Page 3, section 3",
+          "supporting_summary": "The proposal framed corresponding measures by other bodies as a request subject to legal authority."
+        },
+        {
+          "field": "separate_cierc_vote",
+          "value": "The separate CIERC creation resolution, G-26-09-16 As Amended As Amended, failed 3\u20135. Ayes: Booker, Jehl, Paddock. Nays: Bender, Chambers, Ensley, Hartman, Myers. Mayor signature: N/A.",
+          "source_id": "d09e8f0352174ba2887e085c4e03d2e7",
+          "locator": "Page 2, entry III",
+          "supporting_summary": "Entry III concerns the proposed Community Infrastructure & Environmental Review Commission, not the data center moratorium vote in entry IV."
+        },
+        {
+          "field": "proposal_signature_lines",
+          "value": "The proposal has unsigned lines for Council Member Rohli Booker and Council Attorney Joseph G. Bonahoom.",
+          "source_id": "17e3ecbba0b64efb82c8d573b984a66a",
+          "locator": "Page 4",
+          "supporting_summary": "The final page names Booker and Bonahoom beneath blank signature lines."
+        }
+      ],
+      "uncertainties": [
+        "The minutes place the failed entries under a general heading referring to measures passed and signed, but entry IV expressly records failure and mayor signature as N/A.",
+        "No candidate or current tracking row was supplied for an identity comparison.",
+        "The supplied materials do not establish whether any distinct later Fort Wayne proposal or restriction exists; no comprehensive search for one is documented."
+      ]
+    },
+    "cell_adjudication": {
+      "record_id": "in-fort-wayne-undated",
+      "input_row_sha256": "c29193ac3a4a6dc07eb0bb6beb1d1f42c60e4f96a3512ee52696281a5535651c",
+      "field_decisions": [
+        {
+          "field": "duration",
+          "decision": "accept",
+          "value": "Proposed period not exceeding 365 days after passage, ending earlier on qualifying zoning amendments or subsequent Council termination; any extension beyond 365 days would require further Council action (sections 1, 4 and 6). The proposal failed on October 13, 2026, so it created no operative moratorium term.",
+          "source_id": "17e3ecbba0b64efb82c8d573b984a66a; d09e8f0352174ba2887e085c4e03d2e7",
+          "locator": "Proposal pp. 2\u20133, sections 1, 4 and 6; minutes pp. 1\u20132, entry IV",
+          "reason": "The proposed term and termination conditions are supported; the minutes establish failure rather than an operative term."
+        },
+        {
+          "field": "legal_basis",
+          "decision": "accept",
+          "value": "Proposed resolution, Bill No. R-26-09-17 as amended, titled as a temporary moratorium on certain data-center approvals; its separate resolution-number line is blank. October 13, 2026 regular-session minutes, entry IV, record failure 4-4. The minutes\u2019 generic Ordinance Number label does not establish an adopted ordinance. Entry III records the separate CIERC proposal, G-26-09-16 as amended as amended, failing 3-5.",
+          "source_id": "17e3ecbba0b64efb82c8d573b984a66a; d09e8f0352174ba2887e085c4e03d2e7",
+          "locator": "Proposal p. 1, header; minutes pp. 1\u20132, entries III\u2013IV",
+          "reason": "The documents identify the amended bill and distinguish it from the separately defeated CIERC measure. The replaced claim about a withdrawn Jehl task-force proposal is not established by these sources."
+        },
+        {
+          "field": "trigger",
+          "decision": "accept",
+          "value": "The proposal\u2019s recitals sought time to review data-center definitions, development standards and impacts on electrical capacity, water and wastewater systems, public infrastructure, land and community resources while the zoning code lacked comprehensive standards for large-scale data-center development.",
+          "source_id": "17e3ecbba0b64efb82c8d573b984a66a",
+          "locator": "Page 1, recitals",
+          "reason": "The recitals support the stated regulatory and resource concerns; they do not establish the replaced Google-specific claim."
+        },
+        {
+          "field": "current_status",
+          "decision": "accept",
+          "value": "Rejected: the October 13, 2026 regular-session minutes record amended Bill R-26-09-17 failing 4-4. Ayes: Booker, Ensley, Jehl and Paddock; nays: Bender, Chambers, Hartman and Myers. Thomas Freistroffer was absent. The mayor-signature field is N/A. This records the disposition of that proposal; a distinct later proposal requires its own identity review.",
+          "source_id": "d09e8f0352174ba2887e085c4e03d2e7",
+          "locator": "Page 1, meeting date and roll call; page 2, entry IV",
+          "reason": "The minutes explicitly record failure, the votes, absence and signature status. A distinct later proposal is not continued pendency of this bill."
+        },
+        {
+          "field": "affected_projects",
+          "decision": "accept",
+          "value": "The rejected proposal concerned final discretionary Common Council approvals for new hyperscale or large-scale data-center developments, aggregating related phases, expansions and facilities under common ownership/control, contiguous sites, shared infrastructure or the same planned development. It excluded principally telecommunications and emergency-communications facilities and preserved prior lawfully granted approvals. It requested corresponding measures by other approving bodies without directing action beyond their legal authority, and allowed study/planning/review short of final Council approval. The failed bill imposed no moratorium on any project.",
+          "source_id": "17e3ecbba0b64efb82c8d573b984a66a; d09e8f0352174ba2887e085c4e03d2e7",
+          "locator": "Proposal pp. 1\u20133, sections 1, 3 and 5; minutes p. 2, entry IV",
+          "reason": "The summary describes the proposed scope and safeguards without certifying Google permits. The aggregation provision also covers components on the same property."
+        },
+        {
+          "field": "outcome",
+          "decision": "accept",
+          "value": "Amended Bill R-26-09-17 failed 4-4 on October 13, 2026; no moratorium was enacted by that bill. The separate CIERC proposal failed 3-5 and is not the moratorium vote.",
+          "source_id": "d09e8f0352174ba2887e085c4e03d2e7",
+          "locator": "Pages 1\u20132, meeting date and entries III\u2013IV",
+          "reason": "The minutes expressly distinguish the two failed votes."
+        },
+        {
+          "field": "has_verify_tags",
+          "decision": "accept",
+          "value": "False",
+          "source_id": "d09e8f0352174ba2887e085c4e03d2e7",
+          "locator": "Pages 1\u20132, roll call and entry IV",
+          "reason": "The accepted current-status replacement removes the sole literal verify tag; the official minutes resolve its roll-call question for this bill."
+        },
+        {
+          "field": "verify_count",
+          "decision": "accept",
+          "value": "0",
+          "source_id": "d09e8f0352174ba2887e085c4e03d2e7",
+          "locator": "Pages 1\u20132, roll call and entry IV",
+          "reason": "No literal verify tag remains in the accepted replacements. This count does not certify the absence of distinct later restrictions."
+        },
+        {
+          "field": "enacted_status",
+          "decision": "accept",
+          "value": "rejected",
+          "source_id": "d09e8f0352174ba2887e085c4e03d2e7",
+          "locator": "Page 2, entry IV",
+          "reason": "The existing codebook assigns rejected to an expressly defeated tracked proposal; the minutes mark this bill failed 4-4."
+        }
+      ],
+      "whole_record_closure_supported": true,
+      "remaining_questions": [],
+      "review_limitations": [
+        "Closure concerns the identity, proposed scope and term, and defeat of R-26-09-17 as amended. No comprehensive search for distinct later proposals or other Fort Wayne restrictions was documented.",
+        "The supplied sources do not establish the Google project's permit status, the claimed withdrawn Jehl task-force proposal, the row coordinates, or the basis for its High activity classification.",
+        "The blank adoption and end dates should remain blank; 365 days was a proposed maximum, not an operative interval.",
+        "The minutes place failed entries under a general passed-and-signed heading, but entry IV explicitly says Failed and gives the mayor signature as N/A."
+      ]
+    }
+  },
+  "model_http_requests": 2,
+  "model": "gpt-6.1-terra",
+  "tools": [],
+  "agents_spawned": 0,
+  "price_usd": null,
+  "input_row_sha256": "c29193ac3a4a6dc07eb0bb6beb1d1f42c60e4f96a3512ee52696281a5535651c",
+  "coordinator_whole_record_closure": true,
+  "scope": "All7originalimages/full layouts: historical billidentity, proposedterm/scope and completed4-4defeat. Independentreview supportsclosing that tracked historicalproposal. Not universalabsenceoflaterproposals orotherFortWaynerestrictions; those require distinctidentityreview."
+}

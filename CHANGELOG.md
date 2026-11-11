@@ -1,5 +1,18 @@
 # Changelog
 
+## Qualified v2026.11.11.post6 — delivery pending
+
+Eleven cells correct Fort Wayne’s historical rejection and update attributed Eagan litigation news. Working counts are 63 pending, three rejected, 978 VERIFY-tagged and 1,346 unresolved reviews; one historical proposal review closes. In-force/raw/policy/date/endpoint/native totals unchanged. Deterministic builds, restore, downloads, V40 and hosted verification are pending.
+
+| Metric | Qualified November 11 post6 |
+|---|---:|
+| Moratoria in the list | **1,328** |
+| Classified active or extended | **1,086** |
+| Pending or not yet effective | **63** |
+| Ended (replaced, expired, or rescinded) | **172** |
+| Rows we still want to confirm (`[VERIFY]`) | **978** |
+| States with at least one | **47** |
+
 ## Qualified v2026.11.11.post5
 
 Four Alachua prose corrections distinguish the September 14 motion (5–0) from the October 5 first reading (4–1). Final adoption, effectiveness and later force remain unresolved. Status, headline counts, dates, endpoints and native history are unchanged; 1,347 reviews remain unresolved. Two identical builds, full clean restore, ten anonymous downloads, V39 and current hosted desktop/mobile checks pass.

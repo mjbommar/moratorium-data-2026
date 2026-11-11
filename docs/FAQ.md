@@ -79,7 +79,7 @@ If you publish something based on this data, we'd love to hear about it — drop
 
 ## How often is this updated?
 
-The latest qualified release is [v2026.11.11.post5](https://github.com/mjbommar/moratorium-data-2026/releases/tag/v2026.11.11.post5), published November 11 with explicit pending QA. Two identical builds, full clean restore, ten anonymous downloads, V39 and current hosted desktop/mobile checks pass. Original research cutoff and September baseline are unchanged. [Release receipts](../work/research/2026-11-11/release-2026.11.11.post5/README.md).
+The latest qualified release is [v2026.11.11.post6](https://github.com/mjbommar/moratorium-data-2026/releases/tag/v2026.11.11.post6), prepared November 11 with explicit pending QA. Eleven Fort Wayne/Eagan cells include one historical proposal closure. Pending/rejected and VERIFY counts change; 1,346 reviews remain unresolved. Delivery checks pending; post5/V39 remains verified. [Release receipts](../work/research/2026-11-11/release-2026.11.11.post6/README.md).
 
 ## Who built this?
 
@@ -112,6 +112,6 @@ moratorium count. See [reviewed results](ballot-results.md) and
 [Open a question issue](https://github.com/mjbommar/moratorium-data-2026/issues/new?template=question.md) or email [Michael](mailto:michael.bommarito@gmail.com).
 
 
-Qualified v2026.11.11.post1 and consumer V35 deliver fourteen reviewed Baltimore/Hamilton/Brookhaven cells. Two identical builds, full clean restore, ten anonymous downloads, all 64 current HTML pages and desktop/mobile browser checks pass. Both changed map popups and all three state pages are verified. Headline counts/categories/native history are unchanged. Hamilton’s calculated anniversary and later-force questions remain qualified; 1,347 whole-record reviews remain unresolved. Complete final workflow artifact verification is recorded separately.
+Historical post1 checkpoint: qualified v2026.11.11.post1 and consumer V35 delivered fourteen reviewed Baltimore/Hamilton/Brookhaven cells. Two identical builds, full clean restore, ten anonymous downloads, all 64 current HTML pages and desktop/mobile browser checks pass. Both changed map popups and all three state pages are verified. Headline counts/categories/native history are unchanged. Hamilton’s calculated anniversary and later-force questions remained qualified; 1,347 whole-record reviews were unresolved at that checkpoint. Complete final workflow artifact verification is recorded separately.
 
 Follow [CITATION.cff](../CITATION.cff) and the release metadata for citation. No DOI is asserted.
