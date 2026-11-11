@@ -31,7 +31,7 @@
   "record_disposition_path": "work/research/2026-11-08/full-record-dispositions/funnel.json",
   "qa_status": "ongoing",
   "publication_authorization": "publish current state with qualifications on pending QA, then continue to double check and clear the outstanding questions",
-  "working_revision": "2026.11.11.post9-data-consumer-delivered-hosting-pending",
+  "working_revision": "2026.11.11.post9-delivery-verified",
   "current_raw_counts": {
     "local": 1328,
     "state_policy": 449,
@@ -40,7 +40,7 @@
   "prior_release": "v2026.11.11.post8",
   "prior_release_source_commit": "9d9d4e637d3a0afa26e8fa8155ef3d52a49df586",
   "prior_published_source_commit": "9d9d4e637d3a0afa26e8fa8155ef3d52a49df586",
-  "published_source_reference": "Qualified post9 pins 4d6ba88131a4406e124aa3e3089f81b2ef2b2e8c; identical builds, full restore, ten anonymous downloads and V43 verified. Hosted verification pending; post8 is prior verified site. Butler signedtext/effect/endpoint/lateraction and broader QA remain qualified.",
+  "published_source_reference": "Qualified post9 pins 4d6ba88131a4406e124aa3e3089f81b2ef2b2e8c; builds,restore,tenanonymousdownloads,V43andinitialcurrentpagesverified. Final acknowledgment payload check follows.",
   "latest_consumer_handoff": {
     "source_commit": "4d6ba88131a4406e124aa3e3089f81b2ef2b2e8c",
     "manifest_sha256": "6af855b785e0f44e8d58391c039b28cede1745a201ed0d9ef0bb0b3ec5325c1f",
@@ -71,12 +71,13 @@
     "changed_policy_rows": 0,
     "status_category_changes": 0,
     "normalized_date_changes": 0,
-    "scope": "Four Butler Ohio prose fields delivered in post9/V43; unchanged inforce1085/past173, no whole-record closures. Pending63/rejected3, VERIFY978, unresolved1346. Hosted checks pending; Butler signedtext/effect/endpoint/lateraction and wider QA unresolved.",
-    "state": "delivered_data_consumer_pending_hosted_verification",
+    "scope": "Four Butler Ohio prose fields delivered in post9/V43 and verified current pages. Inforce1085/past173; no closures;1346unresolved.",
+    "state": "delivered_and_hosted_verified",
     "delivered_source_commit": "4d6ba88131a4406e124aa3e3089f81b2ef2b2e8c",
     "delivered_consumer_commit": "d1de34ac2a12fb3704256c330d536fffbf6dcf17",
     "delivery_receipt": "work/research/2026-11-11/post-release-qa/consumer-v43-handoff.json",
-    "hosted_copy_state": "pending"
+    "hosted_copy_state": "verified",
+    "hosted_receipt": "work/research/2026-11-11/release-2026.11.11.post9/hosted-copy-verification.json"
   },
   "latest_source_followup": "work/research/2026-11-11/post-release-qa/brookhaven-operative-application.json",
   "latest_expanded_candidate_review": "work/research/2026-11-09/starke-succession-review/validation.json",
@@ -122,15 +123,15 @@
   },
   "latest_field_application": "work/research/2026-11-11/post-release-qa/butler-oh-operative-application.json",
   "latest_hosted_delivery": {
-    "source_commit": "9d9d4e637d3a0afa26e8fa8155ef3d52a49df586",
-    "hosted_source_commit": "fc9a0d0d40af41e82629506c0c4f27144eb42304",
-    "release_source_commit": "9d9d4e637d3a0afa26e8fa8155ef3d52a49df586",
-    "pages_run": 43023164756,
-    "receipt": "work/research/2026-11-11/release-2026.11.11.post8/hosted-copy-verification.json",
+    "source_commit": "4d6ba88131a4406e124aa3e3089f81b2ef2b2e8c",
+    "hosted_source_commit": "2c5434d30458e251f575a9dfe4835039e932d797",
+    "release_source_commit": "4d6ba88131a4406e124aa3e3089f81b2ef2b2e8c",
+    "pages_run": 43028565101,
+    "receipt": "work/research/2026-11-11/release-2026.11.11.post9/hosted-copy-verification.json",
     "state": "verified"
   },
   "latest_expanded_result_review": "work/research/2026-11-10/canterbury-minutes-result-review/coordinator-adjudication.json",
-  "latest_verified_release": "v2026.11.11.post8",
+  "latest_verified_release": "v2026.11.11.post9",
   "source_observation_window_scope": "Acquisition range includes source-specific QA captures through November10; this does not renew every record or move the original comprehensive research_cutoff.",
   "latest_download_verified_release": "v2026.11.11.post9",
   "prior_latest_consumer_handoff": {
@@ -143,11 +144,11 @@
   },
   "prior_published_source_reference": "Qualified post8 pins 9d9d4e637d3a0afa26e8fa8155ef3d52a49df586; builds,restore,tenanonymousdownloads,V42andinitialcurrentpagesverified. Final acknowledgment payload check follows.",
   "latest_verified_hosted_data": {
-    "release": "v2026.11.11.post8",
-    "release_source_commit": "9d9d4e637d3a0afa26e8fa8155ef3d52a49df586",
-    "selected_files": 231,
-    "receipt": "work/research/2026-11-11/release-2026.11.11.post8/hosted-copy-verification.json",
-    "scope": "All current HTML and linked local bytes match; actual browser desktop/mobile/dark, maps, tables, charts and Lowndes expiry/draft qualifications pass. Final artifact and acknowledgment verification follows."
+    "release": "v2026.11.11.post9",
+    "release_source_commit": "4d6ba88131a4406e124aa3e3089f81b2ef2b2e8c",
+    "selected_files": 230,
+    "receipt": "work/research/2026-11-11/release-2026.11.11.post9/hosted-copy-verification.json",
+    "scope": "All current HTML and linked local bytes match; actual browser desktop/mobile/dark, maps, tables, charts and Butler Ohio attribution/scope qualifications pass. Final artifact and acknowledgment verification follows."
   },
   "latest_disposition_review": "work/research/2026-11-11/post-release-qa/fort-wayne-final-disposition-application.json",
   "status_baseline_comparison": "work/research/2026-11-11/post-release-qa/lowndes-september-status-delta.json",
@@ -329,29 +330,34 @@
       },
       "resolution": "work/research/2026-11-11/release-2026.11.11.post8/hosted-copy-verification.json",
       "pages_run": 43023164756
+    },
+    {
+      "resolved_at": "2026-11-11T13:25:32.887424+00:00",
+      "prior_hold": {
+        "release": "v2026.11.11.post9",
+        "release_source_commit": "4d6ba88131a4406e124aa3e3089f81b2ef2b2e8c",
+        "state": "verified_data_release_pending_full_site_deployment",
+        "receipt": "work/research/2026-11-11/release-2026.11.11.post9/public-verification.json",
+        "active_deployment_run": null
+      },
+      "resolution": "work/research/2026-11-11/release-2026.11.11.post9/hosted-copy-verification.json",
+      "pages_run": 43028565101
     }
   ],
   "prior_latest_hosted_delivery": {
-    "source_commit": "f3d67fa20374512aab842ea5cb7ab2bb8948af47",
-    "hosted_source_commit": "13abc32127e401299eb9205b842a21abd0230212",
-    "release_source_commit": "f3d67fa20374512aab842ea5cb7ab2bb8948af47",
-    "pages_run": 43018127052,
-    "receipt": "work/research/2026-11-11/release-2026.11.11.post7/hosted-copy-verification.json",
+    "source_commit": "9d9d4e637d3a0afa26e8fa8155ef3d52a49df586",
+    "hosted_source_commit": "fc9a0d0d40af41e82629506c0c4f27144eb42304",
+    "release_source_commit": "9d9d4e637d3a0afa26e8fa8155ef3d52a49df586",
+    "pages_run": 43023164756,
+    "receipt": "work/research/2026-11-11/release-2026.11.11.post8/hosted-copy-verification.json",
     "state": "verified"
   },
   "prior_latest_verified_hosted_data": {
-    "release": "v2026.11.11.post7",
-    "release_source_commit": "f3d67fa20374512aab842ea5cb7ab2bb8948af47",
+    "release": "v2026.11.11.post8",
+    "release_source_commit": "9d9d4e637d3a0afa26e8fa8155ef3d52a49df586",
     "selected_files": 231,
-    "receipt": "work/research/2026-11-11/release-2026.11.11.post7/hosted-copy-verification.json",
-    "scope": "All current HTML and linked local bytes match; actual browser desktop/mobile/dark, maps, tables, charts and LA referral/qualifications pass. Final artifact and acknowledgment verification follows."
+    "receipt": "work/research/2026-11-11/release-2026.11.11.post8/hosted-copy-verification.json",
+    "scope": "All current HTML and linked local bytes match; actual browser desktop/mobile/dark, maps, tables, charts and Lowndes expiry/draft qualifications pass. Final artifact and acknowledgment verification follows."
   },
-  "latest_independent_record_review": "work/research/2026-11-11/post-release-qa/butler-oh-operative-application.json",
-  "pending_hosted_delivery": {
-    "release": "v2026.11.11.post9",
-    "release_source_commit": "4d6ba88131a4406e124aa3e3089f81b2ef2b2e8c",
-    "state": "verified_data_release_pending_full_site_deployment",
-    "receipt": "work/research/2026-11-11/release-2026.11.11.post9/public-verification.json",
-    "active_deployment_run": null
-  }
+  "latest_independent_record_review": "work/research/2026-11-11/post-release-qa/butler-oh-operative-application.json"
 }
