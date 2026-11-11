@@ -1,0 +1,37 @@
+{
+  "id": "mn-eagan-2026",
+  "dataset": "local_inventory",
+  "baseline_commit": "90f16735f904e45c95e4caeb5e07bf1d18a09a4b",
+  "applied_at": "2026-11-11T10:57:18.551826+00:00",
+  "prior_row_sha256": "2ac69db75e267b45581de75e86fdd35249cdb887692f1030d3474bc7d6104ce0",
+  "current_row_sha256": "e459db21d9a3a4c06bd5ff2dbd0b1b9dea6ec27de376cc035c8a8ecea1dfbdb6",
+  "canonical_cells_changed": 2,
+  "field_changes": [
+    {
+      "field": "current_status",
+      "before": "Active as of 2026-09-23; in effect through February 17, 2027 unless ended sooner. The City is defending a lawsuit filed in Dakota County District Court by Eagan Capital (owner/operator of an existing Eagan data center) around late June/early July 2026, after the City denied Eagan Capital a temporary use permit in May 2026; Eagan Capital seeks to void the moratorium. No ruling had been reported as of 2026-09-23.",
+      "after": "Recorded active; present legal force remains unverified. MPR News reported on July 7, 2026 that Eagan Capital filed its moratorium challenge on June 15, seeking $50,000 and disputing the city\u2019s authority over electricity demand. CBS Minnesota reported on November 9 that the city was separately suing the company over chiller permits, zoning and noise allegations; it reported that the mayor announced the legal action on November 2. These are reported claims and actions, not judicial findings. Case identifiers, court orders, subsequent moratorium amendments and actual project applicability remain unverified."
+    },
+    {
+      "field": "outcome",
+      "before": "Pending study and possible permanent regulations",
+      "after": "A moratorium challenge and a separate city enforcement action have been reported. Court dispositions and any resulting change to the moratorium\u2019s operative force remain unverified."
+    }
+  ],
+  "independent_review": {
+    "path": "work/research/2026-11-11/post-release-qa/eagan-litigation-independent-review.json",
+    "sha256": "95b576923a9aab33bc5923c860bc67d0fc79fcf68d2d2ca02d08c54bd8ceb31f"
+  },
+  "source_continuity": {
+    "path": "work/research/2026-11-11/post-release-qa/eagan-litigation-source-continuity.json",
+    "sha256": "21a924a8c90baec231925786f1b1459a78bc2396ce077ae1d905dd86c6ccb891"
+  },
+  "recommendation": "unresolved",
+  "whole_record_closures": 0,
+  "remaining_questions": [
+    "MPR July7 reporting dates the company\u2019s moratorium challenge to June15; CBS localNovember9reporting describes a separate city chiller/permit/zoning/noise enforcement suit announced November2. These reported events are now recorded; do not repeat the same articles or named-party queries solely to recover them. CREdocket cites the same MPR article and is not independent corroboration.",
+    "Obtain actual complaints, official case identifiers and court orders for each action. Neither reported allegations nor the city\u2019s enforcement action establish a ruling, injunction, legal validity or later force of Ordinance643. November2announcement is not independently authenticated filingdate. Preserve controlling more-than20MW OR residential-distance scope and9MWexisting-improvement provision instead of media scope summaries.",
+    "Exclude unrelated EaganCapital/Zurichinsurance litigation, CE EaganPlace/DakotaCounty property-tax litigation and the2023HudsonFinancial case. The scoped search produced these lookalikes, not authenticated dockets for the target actions. Verify distinct moratorium changes, actualprojectapplicability and presentforce."
+  ],
+  "scope": "Two exact attributed-news prose cells: current_status andoutcome. Reported June15filing and separate city enforcement added, with no officialcourt outcome/currentforce inference. No status/normalizeddate/endpoint/term/scope/VERIFYcount/headline/nativechanges; no whole-recordclosure. Pending next combined publication batch."
+}

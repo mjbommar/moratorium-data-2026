@@ -31,7 +31,7 @@
   "record_disposition_path": "work/research/2026-11-08/full-record-dispositions/funnel.json",
   "qa_status": "ongoing",
   "publication_authorization": "publish current state with qualifications on pending QA, then continue to double check and clear the outstanding questions",
-  "working_revision": "2026.11.11.post5-data-consumer-and-site-verified",
+  "working_revision": "eagan-attributed-litigation-two-prose-cells-pending-batch",
   "current_raw_counts": {
     "local": 1328,
     "state_policy": 449,
@@ -120,7 +120,7 @@
     "delivery_receipt": "work/research/2026-11-11/post-release-qa/consumer-v38-handoff.json",
     "hosted_copy_state": "verified"
   },
-  "latest_field_application": "work/research/2026-11-11/post-release-qa/alachua-operative-application.json",
+  "latest_field_application": "work/research/2026-11-11/post-release-qa/eagan-operative-application.json",
   "latest_hosted_delivery": {
     "source_commit": "4c83f245891fe025d28c00b29c662a040e0bcd92",
     "hosted_source_commit": "bc2579c67d16635b13320ecd2bb378754a357f68",
@@ -310,5 +310,20 @@
     "receipt": "work/research/2026-11-11/release-2026.11.11.post4/hosted-copy-verification.json",
     "scope": "Every currentHTMLpage and linkedlocalresource/download matches pinnedsource. Actual desktop/mobile/dark, mapfilters, charts/tables, East Whiteland pointerpopup and Pennsylvania date/provenance prose pass. Full final artifact and acknowledgment recheck follows; no universal currentlaw or freshness certification."
   },
-  "latest_independent_record_review": "work/research/2026-11-11/post-release-qa/alachua-operative-application.json"
+  "latest_independent_record_review": "work/research/2026-11-11/post-release-qa/eagan-operative-application.json",
+  "pending_consumer_input_delta": {
+    "baseline_release": "v2026.11.11.post5",
+    "baseline_source_commit": "4c83f245891fe025d28c00b29c662a040e0bcd92",
+    "baseline_handoff": "V39",
+    "receipt": "work/research/2026-11-11/post-release-qa/eagan-operative-application.json",
+    "receipts": [
+      "work/research/2026-11-11/post-release-qa/eagan-operative-application.json"
+    ],
+    "changed_cells": 2,
+    "changed_local_rows": 1,
+    "changed_policy_rows": 0,
+    "status_category_changes": 0,
+    "normalized_date_changes": 0,
+    "scope": "Two exact attributed-news prose cells: current_status andoutcome. Reported June15filing and separate city enforcement added, with no officialcourt outcome/currentforce inference. No status/normalizeddate/endpoint/term/scope/VERIFYcount/headline/nativechanges; no whole-recordclosure. Pending next combined publication batch. Qualified post5/V39 remains the verified public edition."
+  }
 }

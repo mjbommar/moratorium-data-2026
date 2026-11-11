@@ -985,3 +985,7 @@ Exit: repeatable refresh with visible freshness, costs, failures and unresolved 
 - [x] Deliver four accepted Alachua prose corrections in qualified post5/V39 and verified current public pages. No status/count/date/endpoint changes; final adoption/effect and later force remain unresolved. Final uploaded-payload audit follows.
 
 - [x] Final qualifiedpost5delivery: exact uploadedpayload,49nativegenerations,64HTMLpages,currentdownloads and second actualbrowser run verified; Alachua prose corrections live, broaderQA active.
+
+- [x] Audit eight queue entries containing only generic review limitations against original reviews/current rows. All eight retain real source-specific gaps; replace vague language without automatic closures.
+- [x] Check Eagan named litigation: two distinct searches and three new source captures, two exact Terra reviews, two attributed-news prose corrections. Preserve separate company challenge/city enforcement, allegations versus findings and local publication date; no court ruling or category/count change.
+- [ ] Deliver the two accepted Eagan prose corrections in the next combined release/consumer/Pages batch from post5/V39; actual court records and later force remain open.

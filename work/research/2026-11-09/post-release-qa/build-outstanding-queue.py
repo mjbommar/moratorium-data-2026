@@ -134,8 +134,8 @@ def main():
             row[change['field']]=change['before']
         assert digest(json.dumps(row,sort_keys=True,separators=(',',':'),ensure_ascii=False).encode())==baltimore['prior_row_sha256']
     operative_transitions={}
-    operative_paths=[Path('work/research/2026-11-11/post-release-qa')/(name+'-operative-application.json') for name in ('hamilton','brookhaven','clay','cedartown','east-whiteland','alachua')]
-    expected_fields={'tn-unincorporated-hamilton-county-2026':{'duration','legal_basis','current_status','affected_projects','duration_kind','current_end_date_iso'},'ny-town-of-brookhaven-2026':{'date_enacted','legal_basis','current_status'},'ny-clay-2026':{'date_enacted','duration','legal_basis','current_status'},'ga-cedartown-2026':{'duration','legal_basis','current_status','enacted_status','duration_kind','duration_days'},'pa-east-whiteland-township-2026':{'date_enacted','date_enacted_iso','date_enacted_uncertainty','duration','legal_basis','current_status'},'fl-alachua-undated':{'duration','legal_basis','current_status','outcome'}}
+    operative_paths=[Path('work/research/2026-11-11/post-release-qa')/(name+'-operative-application.json') for name in ('hamilton','brookhaven','clay','cedartown','east-whiteland','alachua','eagan')]
+    expected_fields={'tn-unincorporated-hamilton-county-2026':{'duration','legal_basis','current_status','affected_projects','duration_kind','current_end_date_iso'},'ny-town-of-brookhaven-2026':{'date_enacted','legal_basis','current_status'},'ny-clay-2026':{'date_enacted','duration','legal_basis','current_status'},'ga-cedartown-2026':{'duration','legal_basis','current_status','enacted_status','duration_kind','duration_days'},'pa-east-whiteland-township-2026':{'date_enacted','date_enacted_iso','date_enacted_uncertainty','duration','legal_basis','current_status'},'fl-alachua-undated':{'duration','legal_basis','current_status','outcome'},'mn-eagan-2026':{'current_status','outcome'}}
     for app_path in operative_paths:
         if not app_path.exists():continue
         application=json.loads(app_path.read_text())
@@ -1442,6 +1442,21 @@ def main():
         assert digest(Path(pin['path']).read_bytes())==pin['sha256']
         assert json.loads(Path(pin['path']).read_text())['exact_body_text_pairs_read_back']==3
         overlays[review['id']]=[public_text(q) for q in review['remaining_questions']]
+    generic_specificity_path=Path('work/research/2026-11-11/post-release-qa/generic-question-specificity-audit.json')
+    if generic_specificity_path.exists():
+        audit=json.loads(generic_specificity_path.read_text())
+        assert audit['candidate_records']==audit['records_with_remaining_source_specific_gaps']==8
+        assert audit['frozen_ledger_sha256']==digest(raw)
+        assert audit['canonical_changes']==audit['whole_record_closures']==audit['model_requests_in_this_mechanical_audit']==audit['search_requests_in_this_mechanical_audit']==0
+        assert {r['id'] for r in audit['records']}=={'ga-roswell-2026','mn-carlton-county-2026','mn-city-of-elko-new-market-2026','mn-eagan-2026','mn-hastings-2026','mo-marion-county-2026','ky-sb-197-2026-rs','mn-2025-1st-special-session-hf-16-chapter-12'}
+        for record in audit['records']:
+            key=(record['dataset'],record['id'])
+            source_row_guard(key,record['current_row_sha256'])
+            source_disposition_guard(record)
+            assert record['canonical_changes']==record['whole_record_closures']==0 and record['remaining_questions']
+            # Preserve a later accepted field application's more recent residuals.
+            if key not in operative_transitions and key not in policy_transitions:
+                overlays[record['id']]=[public_text(q) for q in record['remaining_questions']]
     rows=[]
     for entry in f['records']:
         if entry['disposition']!='unresolved':continue
@@ -1470,6 +1485,7 @@ def main():
     summary['idaho_governor_action_followup_sha256']=digest(idaho_governor_path.read_bytes()) if idaho_governor_path.exists() else None
     summary['east_whiteland_statutory_review_sha256']=digest(east_whiteland_scope_path.read_bytes()) if east_whiteland_scope_path.exists() else None
     summary['nassau_clerk_route_review_sha256']=digest(nassau_clerk_path.read_bytes()) if nassau_clerk_path.exists() else None
+    summary['generic_question_specificity_audit_sha256']=digest(generic_specificity_path.read_bytes()) if generic_specificity_path.exists() else None
     summary['mattoon_instrument_followup_sha256']=digest(mattoon_instrument_path.read_bytes()) if mattoon_instrument_path.exists() else None
     summary['houston_minutes_followup_sha256']=digest(houston_minutes_path.read_bytes()) if houston_minutes_path.exists() else None
     summary['california_status_followup_sha256']=digest(california_status_followup_path.read_bytes()) if california_status_followup_path.exists() else None

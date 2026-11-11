@@ -1,0 +1,124 @@
+{
+  "verified_at": "2026-11-11T10:58:55.305978+00:00",
+  "baseline_commit": "90f16735f904e45c95e4caeb5e07bf1d18a09a4b",
+  "canonical_cells_changed": 2,
+  "changed_local_rows": 1,
+  "field_changes": [
+    {
+      "id": "mn-eagan-2026",
+      "field": "current_status",
+      "before": "Active as of 2026-09-23; in effect through February 17, 2027 unless ended sooner. The City is defending a lawsuit filed in Dakota County District Court by Eagan Capital (owner/operator of an existing Eagan data center) around late June/early July 2026, after the City denied Eagan Capital a temporary use permit in May 2026; Eagan Capital seeks to void the moratorium. No ruling had been reported as of 2026-09-23.",
+      "after": "Recorded active; present legal force remains unverified. MPR News reported on July 7, 2026 that Eagan Capital filed its moratorium challenge on June 15, seeking $50,000 and disputing the city\u2019s authority over electricity demand. CBS Minnesota reported on November 9 that the city was separately suing the company over chiller permits, zoning and noise allegations; it reported that the mayor announced the legal action on November 2. These are reported claims and actions, not judicial findings. Case identifiers, court orders, subsequent moratorium amendments and actual project applicability remain unverified."
+    },
+    {
+      "id": "mn-eagan-2026",
+      "field": "outcome",
+      "before": "Pending study and possible permanent regulations",
+      "after": "A moratorium challenge and a separate city enforcement action have been reported. Court dispositions and any resulting change to the moratorium\u2019s operative force remain unverified."
+    }
+  ],
+  "status_count_date_endpoint_verify_count_changes": 0,
+  "other_policy_summary_geography_timeline_bytes_identical": true,
+  "native_governance_jsonl_csv_files_unchanged": 1191,
+  "native_governance_roots": [
+    "data/expanded",
+    "data/expanded-snapshots",
+    "data/expanded-csv",
+    "data/expanded-csv-snapshots"
+  ],
+  "exact_new_source_pairs_read_back": 3,
+  "verified_model_requests": 2,
+  "canonical_prose_in_minnesota_markdown_html": true,
+  "queue_records_refined": [
+    "ga-roswell-2026",
+    "ky-sb-197-2026-rs",
+    "mn-2025-1st-special-session-hf-16-chapter-12",
+    "mn-carlton-county-2026",
+    "mn-city-of-elko-new-market-2026",
+    "mn-eagan-2026",
+    "mn-hastings-2026",
+    "mo-marion-county-2026"
+  ],
+  "other_queue_records_identical": 1339,
+  "unresolved_records": 1347,
+  "whole_record_closures": 0,
+  "checks": [
+    {
+      "command": [
+        ".venv/bin/python",
+        "scripts/validate_dataset.py",
+        "--today",
+        "2026-11-11"
+      ],
+      "exit_code": 0,
+      "log_sha256": "6e6b862b6af577d6c87e478a551e93d707cb04bf5781e2cc12c8c89dc8b5aa0f"
+    },
+    {
+      "command": [
+        ".venv/bin/python",
+        "scripts/build_summary_stats.py",
+        "--check"
+      ],
+      "exit_code": 0,
+      "log_sha256": "e2580643fc2d825c440b1fa8cdb9ca7d12e08fb59be901c4271dd0a3a6801587"
+    },
+    {
+      "command": [
+        ".venv/bin/python",
+        "scripts/build_geojson.py",
+        "--check"
+      ],
+      "exit_code": 0,
+      "log_sha256": "bfb31083b4e00dd2a1b45a49245ef1bafe5036fe4d70619b8897921e19f67233"
+    },
+    {
+      "command": [
+        ".venv/bin/python",
+        "scripts/make_timeline.py",
+        "--check"
+      ],
+      "exit_code": 0,
+      "log_sha256": "3619c0b8a38be4f2497aef9beebfbe50553bba29d4d8e6edbfdc317100290cb6"
+    },
+    {
+      "command": [
+        ".venv/bin/python",
+        "scripts/check_docs_numbers.py"
+      ],
+      "exit_code": 0,
+      "log_sha256": "61344145ac6fdbc7109188670ac85fb93733623cd19cf2672a5da3e4d162f9e5"
+    },
+    {
+      "command": [
+        ".venv/bin/python",
+        "-m",
+        "scripts.generate_tables.inventory_clean",
+        "--check"
+      ],
+      "exit_code": 0,
+      "log_sha256": "bf1a45f7fdee05c639b9bba4c3fe1ee6b026c0a3f202e0b3e38b03b7acf8b918"
+    },
+    {
+      "command": [
+        ".venv/bin/python",
+        "scripts/build_index.py",
+        "--check"
+      ],
+      "exit_code": 0,
+      "log_sha256": "4b453f57bc7d508eec5246a6f7e899e3d64d1c762526c6e147beff4cc826624e"
+    },
+    {
+      "command": [
+        ".venv/bin/python",
+        "scripts/classify_sources.py",
+        "--check"
+      ],
+      "exit_code": 0,
+      "log_sha256": "64183ad0c3b68469b556fbd18f9cef64f66daa59a420c34158465f64ec2faf80"
+    }
+  ],
+  "latest_verified_public_release": "v2026.11.11.post5",
+  "consumer_verified_public_handoff": "V39",
+  "two_cell_publication": "pending_combined_batch",
+  "scope": "Exact two-cell attributed-news working delta and eight specificity refinements. No claimed court ruling, case identifier, official instrument change or renewed present-force finding. Full expanded replay not repeated because all1191tracked native governance files/pointers are unchanged."
+}
