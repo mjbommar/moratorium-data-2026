@@ -30,8 +30,10 @@ scope view. These are observations, not necessarily unique instruments.
 The existing `md-hb0293-sb0056-2026` exclusion concerns secure student/workforce
 research data. The new exclusions, PA HB 2153 and WY SF 76 (2026), concern revenue
 distribution rather than infrastructure conditions; all raw rows remain intact.
-CA AB 2170 and WY HB 155 (2026) remain unresolved pending authoritative
-applicability and baseline cross-reference evidence respectively. The
+CA AB 2170 remains unresolved on authoritative applicability. WY HB 155 (2026)
+is now included: the independently reviewed statutory cross-reference identifies
+the physical data-processing-center exemption. Inclusion does not imply that the
+failed proposal was enacted, that a taxpayer qualifies or that current force is certified. The
 [52-record review receipt](../work/research/2026-11-08/policy-52-scope-reconciliation/README.md)
 describes the first primary, independent and coordinator review. The
 [90-record follow-up](../work/research/2026-11-08/policy-scope-wave2-reconciliation/README.md)
