@@ -921,3 +921,7 @@ Exit: repeatable refresh with visible freshness, costs, failures and unresolved 
 
 - [x] Deliver qualified post18/V33: sixteen prose corrections, deterministic builds, full clean restore, ten downloads and exact consumer checks verified.
 - [x] Deploy and verify complete post18 pages, Ridgely/Worcester/Massachusetts prose, downloads and desktop/mobile map/table behavior. Final post18 artifact verifies all 8,424 files and preserves 49 native generations; all 64 HTML pages and 232 resources/downloads match final hosted source. Sixteen-cell batch fully delivered; broader QA remains open.
+
+
+- [x] Prevent retained-URL collection with an opt-in pre-reservation guard; reconcile five prior ballot certification reviews into a pinned operator overlay. All 97 obligations retained; no dataset changes. See `work/research/2026-11-10/ballot-followup-operator-plan/README.md`.
+- [ ] Continue the outstanding ballot and legacy factual questions using prior-work checks and distinct-source admission; deployment of post18 does not close these.

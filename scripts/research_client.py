@@ -13,13 +13,85 @@ import hashlib
 import json
 from pathlib import Path
 import re
-from urllib.parse import urlsplit
+from urllib.parse import urlsplit, urlunsplit
 import uuid
 import os
+
+SOURCE_ROOT = Path(__file__).resolve().parents[1] / 'work/sources'
 
 
 def timestamp():
     return dt.datetime.now(dt.timezone.utc).isoformat()
+
+
+def fetch_url_key(url):
+    """Compare request URLs without discarding functional paths or queries."""
+    parts = urlsplit(url)
+    if parts.scheme.lower() not in ('http', 'https') or not parts.hostname:
+        return None
+    scheme = parts.scheme.lower()
+    host = parts.hostname.lower()
+    if ':' in host:
+        host = '[' + host + ']'
+    port = parts.port
+    if port is not None and (scheme, port) not in (('http', 80), ('https', 443)):
+        host += ':' + str(port)
+    if '@' in parts.netloc:
+        host = parts.netloc.rsplit('@', 1)[0] + '@' + host
+    return urlunsplit((scheme, host, parts.path or '/', parts.query, ''))
+
+
+def retained_fetch_matches(url, directory, source_root=None):
+    """Find retained URLs, including redirects and this job's prior fetch reservations."""
+    source_root = source_root or SOURCE_ROOT
+    key = fetch_url_key(url)
+    if key is None:
+        raise ValueError('New-source-only fetch requires an HTTP(S) URL')
+    matches = []
+    for manifest in sorted(source_root.glob('*/manifest.jsonl')):
+        for line in manifest.read_text().splitlines():
+            if not line.strip():
+                continue
+            row = json.loads(line)
+            if any(fetch_url_key(row.get(field) or '') == key
+                   for field in ('url', 'final_url')):
+                matches.append({'kind': 'retained_manifest', 'manifest': str(manifest),
+                                'key': row.get('key'), 'body_sha256': row.get('sha256')})
+    ledger = directory / 'attempts.private.jsonl'
+    if ledger.exists():
+        for line in ledger.read_text().splitlines():
+            if not line.strip():
+                continue
+            row = json.loads(line)
+            if (row.get('state') == 'reserved' and row.get('kind') == 'fetch'
+                    and fetch_url_key((row.get('intent') or {}).get('url') or '') == key):
+                matches.append({'kind': 'prior_job_fetch_attempt',
+                                'attempt_id': row['attempt_id']})
+            if (row.get('state') == 'finished' and row.get('kind') == 'fetch'
+                    and row.get('ok') is True
+                    and any(fetch_url_key(row.get(field) or '') == key
+                            for field in ('url', 'final_url'))):
+                matches.append({'kind': 'completed_job_fetch',
+                                'attempt_id': row['attempt_id'],
+                                'body_sha256': row.get('body_sha256')})
+    return matches
+
+
+def require_new_fetch(url, directory):
+    matches = retained_fetch_matches(url, directory)
+    if not matches:
+        return
+    denial = {'observed_at': timestamp(), 'url': url, 'matches': matches,
+              'outcome': 'blocked_before_reservation_and_network',
+              'scope': 'URL reuse guard, not semantic document deduplication. '
+                       'An admitted changed-version or transport review can omit the flag.'}
+    with (directory / 'source-novelty-denials.private.jsonl').open('a') as f:
+        fcntl.flock(f, fcntl.LOCK_EX)
+        f.write(json.dumps(denial) + '\n')
+        f.flush()
+        os.fsync(f.fileno())
+    raise ValueError('Retained source URL: reuse its capture or explicitly admit a '
+                     'changed-version/transport review without --new-source-only')
 
 
 def search_scope(query,hits):
@@ -43,6 +115,10 @@ def reserve(directory, kind, *, intent=None):
         fcntl.flock(f, fcntl.LOCK_EX)
         f.seek(0)
         events = [json.loads(x) for x in f if x.strip()]
+        # Keep the novelty check and reservation under the same job lock so two
+        # concurrent new-source requests cannot both reserve the same URL.
+        if kind == 'fetch' and (intent or {}).get('source_novelty_policy'):
+            require_new_fetch(intent['url'], directory)
         reserved = [x for x in events if x["state"] == "reserved"]
         phase = config.get('priced_phase')
         if phase:
@@ -117,6 +193,8 @@ async def execute(args):
                'publication_window': {'since': args.since, 'until': args.until},
                'max_results': args.max_results, 'include_domains': args.domains}
               if args.action == 'search' else {'url': args.url, 'mode': args.mode})
+    if args.action == 'fetch' and getattr(args, 'new_source_only', False):
+        intent['source_novelty_policy'] = 'reject_retained_request_or_redirect_url'
     attempt = reserve(directory, kind, intent=intent)
     stem = directory / (attempt["attempt_id"] + ".private")
     metadata = {"attempt_id": attempt["attempt_id"], "kind": kind}
@@ -225,6 +303,8 @@ if __name__ == "__main__":
     q.add_argument("--until", help="Publication date upper bound, not legal event cutoff")
     q.add_argument("--domain",dest="domains",action="append",default=[],help="Native backend include_domains filter; repeat for multiple domains. Exa sends includeDomains, SerpAPI compiles site operators. Returned hosts are diagnosed.")
     f = s.add_parser("fetch"); f.add_argument("url"); f.add_argument("--mode", choices=["http", "auto", "browser"], default="auto")
+    f.add_argument('--new-source-only', action='store_true',
+                   help='Reject retained request/redirect URLs and prior job fetch reservations before reservation or network; omit only for an explicitly admitted refresh or transport review')
     f.add_argument('--settle-ms',type=int,choices=range(0,15001),metavar='0..15000',help='Bounded additional browser settle time for JavaScript portals')
     f.add_argument('--conditional-cache',action='store_true',help='HTTP only: use private job cache with zero TTL and conditional origin revalidation; never refresh legal facts automatically')
     f.add_argument('--record-network',action='store_true',help='Retain browser subrequest metadata privately for portal endpoint discovery')

@@ -124,3 +124,19 @@ same persistent cap still applies; unsupported mode/control combinations fail
 before reserving a paid attempt. Azure signed download capabilities stay in private
 retrieval artifacts. The archive publishes unsigned resource identifiers, private
 retrieval-URL hashes and reviewed portal/document context instead.
+
+
+For newly discovered source collection, use `fetch URL --new-source-only`. The
+client checks retained request/redirect URLs and this job's prior reservations
+under the reservation lock, before charging the cap or making a network request.
+Denials are retained in `source-novelty-denials.private.jsonl`. This is URL-level
+reuse prevention, not semantic deduplication across aliases or other running jobs.
+For a separately admitted changed-version or transport review, omit the flag and
+record the reason; existing caps and priced-phase runtime pins still apply.
+
+Before ballot follow-up collection, build the offline operator overlay with
+`build_ballot_followup_plan.py --due-work FILE --review-register FILE --output FILE`.
+It verifies snapshot, native input, current-result and prior-review pins, retains
+all original obligations, and gates only the named certification lookups on
+distinct evidence. Other tasks require a prior-work check; they are not assumed
+unresearched. See `work/research/2026-11-10/ballot-followup-operator-plan/README.md`.
