@@ -1,0 +1,110 @@
+{
+  "recorded_at": "2026-11-11T08:19:33.641167+00:00",
+  "intended_source_commit": "33657eabd376cec1171376ef58238ac85914bff8",
+  "wrong_source_dispatch": {
+    "conclusion": "success",
+    "createdAt": "2026-11-11T08:14:29Z",
+    "databaseId": 42985468485,
+    "event": "workflow_dispatch",
+    "headSha": "03c39c8c17f107dff3802f18c65cc82b2b67749d",
+    "startedAt": "2026-11-11T08:14:29Z",
+    "status": "completed",
+    "updatedAt": "2026-11-11T08:15:04Z",
+    "url": "https://github.com/mjbommar/moratorium-data-2026/actions/runs/42985468485",
+    "workflowName": "Publish verified Pages batch",
+    "requested_source_commit": "33657eabd376cec1171376ef58238ac85914bff8",
+    "requested_ref": "main",
+    "accepted_as_final": false,
+    "recovery": "Bind a new dedicated ref to the intended acknowledgment commit; prior wrong-source run is terminal and retained, not accepted/reused as finalverification."
+  },
+  "dedicated_ref_dispatch": {
+    "requested_at": "2026-11-11T08:16:30.205428+00:00",
+    "requested_ref": "pages/post2-33657eab",
+    "source_commit": "33657eabd376cec1171376ef58238ac85914bff8",
+    "conclusion": "",
+    "createdAt": "2026-11-11T08:16:32Z",
+    "databaseId": 42985744032,
+    "headSha": "33657eabd376cec1171376ef58238ac85914bff8",
+    "status": "queued",
+    "url": "https://github.com/mjbommar/moratorium-data-2026/actions/runs/42985744032"
+  },
+  "dedicated_ref_terminal_run": {
+    "conclusion": "failure",
+    "databaseId": 42985744032,
+    "headSha": "33657eabd376cec1171376ef58238ac85914bff8",
+    "jobs": [
+      {
+        "completedAt": "2026-11-11T08:16:35Z",
+        "conclusion": "failure",
+        "databaseId": 130406361503,
+        "name": "deploy",
+        "startedAt": "2026-11-11T08:16:33Z",
+        "status": "completed",
+        "steps": [],
+        "url": "https://github.com/mjbommar/moratorium-data-2026/actions/runs/42985744032/job/130406361503"
+      }
+    ],
+    "status": "completed",
+    "url": "https://github.com/mjbommar/moratorium-data-2026/actions/runs/42985744032"
+  },
+  "environment_failure_annotations": [
+    {
+      "path": ".github",
+      "blob_href": "https://github.com/mjbommar/moratorium-data-2026/blob/33657eabd376cec1171376ef58238ac85914bff8/.github",
+      "start_line": 1,
+      "start_column": null,
+      "end_line": 1,
+      "end_column": null,
+      "annotation_level": "failure",
+      "title": ".github#L1",
+      "message": "Branch \"pages/post2-33657eab\" is not allowed to deploy to github-pages due to environment protection rules.",
+      "raw_details": null
+    },
+    {
+      "path": ".github",
+      "blob_href": "https://github.com/mjbommar/moratorium-data-2026/blob/33657eabd376cec1171376ef58238ac85914bff8/.github",
+      "start_line": 1,
+      "start_column": null,
+      "end_line": 1,
+      "end_column": null,
+      "annotation_level": "failure",
+      "title": "",
+      "message": "The deployment was rejected or didn't satisfy other protection rules.",
+      "raw_details": ""
+    }
+  ],
+  "environment_branch_policy": {
+    "total_count": 1,
+    "branch_policies": [
+      {
+        "id": 48339530,
+        "node_id": "MDE2OkdhdGVCcmFuY2hQb2xpY3k0ODMzOTUzMA==",
+        "name": "main",
+        "type": "branch"
+      }
+    ]
+  },
+  "main_branch_api_confirmed_source": "33657eabd376cec1171376ef58238ac85914bff8",
+  "accepted_final_dispatch": {
+    "requested_at": "2026-11-11T08:17:19.301828+00:00",
+    "requested_ref": "main",
+    "source_commit": "33657eabd376cec1171376ef58238ac85914bff8",
+    "conclusion": "",
+    "createdAt": "2026-11-11T08:17:21Z",
+    "databaseId": 42985845363,
+    "headSha": "33657eabd376cec1171376ef58238ac85914bff8",
+    "status": "queued",
+    "url": "https://github.com/mjbommar/moratorium-data-2026/actions/runs/42985845363"
+  },
+  "policy_changes_made": false,
+  "automatic_retry_of_same_live_or_unknown_run": false,
+  "coordinator_error": "The dedicated-reference attempt was not preceded by checking the Pages environment branch policy. It failed before deploy. Existing policy was preserved; actual annotations confirm main-only restriction.",
+  "recovery": "Wrong-source run inspected to terminal, dedicated-ref failure inspected to terminal, GitHub main branch API checked for intended commit, then a new allowed-main dispatch was bound to its actual matching headSHA. Neither prior run accepted as final verification.",
+  "future_controls": [
+    "Check environment branch policy before choosing a dispatch reference.",
+    "Verify GitHub branch API agrees with intended pushed source before dispatch.",
+    "Always bind actual returned run ID and compare actual headSHA; request success or a branch name alone is not source proof.",
+    "On observation timeout inspect the same returned run; do not blindly dispatch again.",
+    "Keep temporary references isolated and remove only references created by this recovery after completion."
+  ]
+}
