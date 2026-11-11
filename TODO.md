@@ -898,3 +898,6 @@ Exit: repeatable refresh with visible freshness, costs, failures and unresolved 
 
 - [x] Qualified post15 / V30 data release: independently reviewed Bonney Lake replacement and end date; deterministic build, restore, ten anonymous downloads and consumer handoff verified.
 - [x] Deploy and verify the complete post15 website: all 64 generated HTML pages, linked assets/current downloads, Washington correction, map filters, metadata and desktop/mobile behavior.
+
+- [x] Qualified post16/V31 data delivery: ten policy corrections and Kentucky historical-order admission; deterministic build, clean restore, ten downloads and consumer checks verified.
+- [ ] Deploy and verify complete post16 public pages, policy totals and Kentucky order.
