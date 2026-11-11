@@ -315,17 +315,17 @@ State policy is tracked separately: **17 records** (16 typed bill rows and 1 non
 
 - **Type:** Town
 - **Recorded status:** 🟢 Active
-- **Date enacted:** 2026-08-03 (reported town commissioners adoption)
+- **Date enacted:** 2026-08-03 (official town meeting minutes report approval of Resolution 2026-03)
 - **Normalized date:** `2026-08-03` (exact)
-- **Duration:** One year
+- **Duration:** Twelve months as described in the August 3, 2026 minutes; the executed resolution and operative effective-date anchor remain unverified.
 - **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `md-ridgely-2026`
-- **Legal basis:** Town commissioners data center moratorium; Resolution No. 2026-03 was scheduled for introduction and vote on 2026-08-03. Adopted text not retrieved.
-- **What prompted it:** Part of an Eastern Shore wave of local action following a controversial Federalsburg data center proposal
-- **Affected projects:** Processing applications for data centers within Ridgely town limits, as reported for the one-year moratorium.
-- **Detailed status:** Contemporaneous reporting describes unanimous adoption of a one-year moratorium at the August 3, 2026 meeting. The agenda schedules Resolution 2026-03, but is not proof of its final adopted text. [VERIFY: executed resolution, effective-date anchor, later actions and present legal force; exact adoption date remains news-qualified.]
-- **Outcome:** Adopted
+- **Legal basis:** Resolution No. 2026-03; official August 3, 2026 minutes report introduction and approval by voice vote. The executed resolution itself has not been retrieved.
+- **What prompted it:** The minutes cite Caroline County’s moratorium and concern that restricted development interests could shift toward municipalities, alongside water/sewer capacity, energy demand, noise, vibration and regulatory review.
+- **Affected projects:** Processing applications for data centers within the corporate limits of the Town of Ridgely, as described in the August 3, 2026 official minutes.
+- **Detailed status:** Official August 3, 2026 minutes report introduction and voice-vote approval of Resolution 2026-03, described as a temporary twelve-month moratorium on processing data-center applications within the town corporate limits. The minutes do not print a tally or state that the vote was unanimous. The executed resolution, operative effective-date anchor and subsequent legal developments remain unverified. [VERIFY: executed text, effective interval, later amendments/extensions/repeal and current legal force.]
+- **Outcome:** The August 3, 2026 minutes report approval of Resolution 2026-03 by voice vote after a motion and second. Commissioner Sears stated that he would lead a program-management plan and work toward presenting a draft ordinance by April 2027; that prospective plan is not proof of later ordinance adoption.
 
 ### Salisbury
 
@@ -427,17 +427,17 @@ State policy is tracked separately: **17 records** (16 typed bill rows and 1 non
 
 - **Type:** County
 - **Recorded status:** 🟢 Active
-- **Date enacted:** 2026-07-21 (Worcester County Board of County Commissioners' formal adoption of Resolution No. 26-18, establishing the one-year moratorium on data centers and cable landing stations)
+- **Date enacted:** 2026-07-21 (passage date printed on signed Resolution No. 26-18)
 - **Normalized date:** `2026-07-21` (exact)
-- **Duration:** Twelve months following the county-reported 2026-07-21 action, or until rescinded earlier by the commissioners; the scheduled 2027-07-21 endpoint remains conditional.
+- **Duration:** The signed resolution specifies twelve months or until the commissioners rescind it. It does not separately print an effective-date clause or calendar end date; the existing 2027-07-21 entry remains a conditional projection of the county-reported July 21 action, not a newly verified operative endpoint.
 - **Current end date:** `2027-07-21`
 - **Sectors:** data center
 - **Moratorium ID:** `md-worcester-county-2026`
-- **Legal basis:** Resolution No. 26-18, adopted by the Worcester County Commissioners on 2026-07-21, imposing a temporary moratorium on the submittal and issuance of permits for data centers and cable landing stations for 12 months or until rescinded, and placing a temporary hold on related Board of Zoning Appeals proceedings.
+- **Legal basis:** Signed Resolution No. 26-18, passed July 21, 2026, citing County Zoning Ordinance section 1-118(b)(6); it imposes twelve-month-or-rescission moratoria on application for or issuance of permits and on all related Board of Zoning Appeals proceedings for data centers and cable landing stations.
 - **What prompted it:** County study of zoning definitions, permitted locations, and operating standards for data centers and cable landing stations
-- **Affected projects:** Pending and future permit applications for data centers and cable landing stations; related Board of Zoning Appeals proceedings and applications are on hold.
-- **Detailed status:** The county reports that Resolution 26-18 placed a twelve-month moratorium on 2026-07-21, or until earlier rescission, affecting data centers and cable landing stations and related Board of Zoning Appeals proceedings. [VERIFY: adopted instrument, exact operative anchor and later rescission or modification.]
-- **Outcome:** Board of County Commissioners formally adopted Resolution No. 26-18 on 2026-07-21, establishing the one-year moratorium; staff are directed to develop comprehensive zoning regulations governing the construction, location, and operation of data centers and cable landing stations, with legislation to be presented for public consideration once drafting is complete.
+- **Affected projects:** Application for or issuance of permits for data centers and cable landing stations, and all related Board of Zoning Appeals proceedings. The county notice describes pending and future applications. The resolution’s cable-landing-station definition excludes data storage, management, processing or computation.
+- **Detailed status:** The recovered signed Resolution 26-18 records July 21, 2026 passage and imposes moratoria on application for or issuance of permits for data centers and cable landing stations, and on all related Board of Zoning Appeals proceedings, for twelve months or until rescission. The county notice describes application to pending and future matters. The signed text does not separately print an effective-date clause or calendar end date. [VERIFY: exact operative start/end, subsequent rescission, amendment/replacement and current legal force.]
+- **Outcome:** The signed copy records passage on July 21, 2026. Its recitals describe a study period and proposed legislative accommodation; the county notice anticipates future regulations. These sources do not establish later zoning adoption, rescission or current legal force.
 
 ## State-policy observations
 

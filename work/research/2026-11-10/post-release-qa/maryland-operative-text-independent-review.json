@@ -1,0 +1,385 @@
+{
+  "reviewed_at": "2026-11-11T04:15:18.106957+00:00",
+  "record_ids": [
+    "md-ridgely-2026",
+    "md-worcester-county-2026"
+  ],
+  "model": "gpt-6.1-terra",
+  "tools": [],
+  "agents_spawned": 0,
+  "input_manifest_sha256": "d725b430123ef15e8c7978f9837425a201a992fef083a5f57a15fc00eb19a2bd",
+  "input_row_sha256": {
+    "md-ridgely-2026": "a7d32a6a2ea8b3088253d57ef69bb7a3135d8816e56dddec5224f422bb118b63",
+    "md-worcester-county-2026": "4d9df78cbf93801fdf5e021a06f009b4bee80c6c84a72b9bb3836454a8ca3f9c"
+  },
+  "source_pins": [
+    {
+      "record_id": "md-ridgely-2026",
+      "attempt_id": "f9aeff7fff2b43f9af3867ff87202c9d",
+      "url": "https://ridgelymd.org/wp-content/uploads/2026/09/8-3-2026-TOWN-MEETING-MINUTES.pdf",
+      "captured_at": "2026-11-11T04:05:07.792483Z",
+      "body_sha256": "523ac127218eb10ef20cd9ab9badbbfe0450df23d99a11c0f163277d265d2911",
+      "layout_sha256": "9bad94eec4f30a4b29a87948b29d189062df330beb4771c73772d036163a9709",
+      "selected_physical_pages": [
+        1,
+        2,
+        3
+      ],
+      "scope": "Complete three-page PDF layout extraction, all pages visually supplied. No omitted operative or signature pages."
+    },
+    {
+      "record_id": "md-worcester-county-2026",
+      "attempt_id": "d0320c91adc14b9e87bd8d0b933de2f1",
+      "url": "https://worcestermd.gov/sites/default/files/2026-09/Resolution%2026-18%20Moratorium%20Cable%20Landings%20Data%20Centers.pdf",
+      "captured_at": "2026-11-11T04:07:12.320383Z",
+      "body_sha256": "fd5c38a4a09caa1e67be83c8a3d89af9ce6ced16f353967260d673157ab3a2c4",
+      "layout_sha256": "f395d251867af28f489733d78b4d15d41bdbadac2f51d823a568ae840edefb7c",
+      "selected_physical_pages": [
+        1,
+        2,
+        3
+      ],
+      "scope": "Complete three-page PDF layout extraction, all pages visually supplied. No omitted operative or signature pages."
+    },
+    {
+      "record_id": "md-worcester-county-2026",
+      "source_key": "33216228847f91fc-b60977dad9a5",
+      "url": "https://worcestermd.gov/news/worcester-county-enacts-moratorium-data-centers-and-cable-landing-stations-while-new",
+      "captured_at": "2026-11-05T20:01:24.828799+00:00",
+      "body_sha256": "b60977dad9a598971d5d404152d061846b4c0f457c1630eedf9418316bbf9835",
+      "text_sha256": "7b98bcd70b064f0df6bae2768a65f9d21a19979649819e1ebfff4b88df357b9b",
+      "scope": "Complete retained county notice; no fresh retrieval or date renewal."
+    }
+  ],
+  "image_pins": [
+    {
+      "attempt_id": "f9aeff7fff2b43f9af3867ff87202c9d",
+      "physical_page": 1,
+      "sha256": "e6ce9597fea02232d854cbfdc36ada864b14773771ac69ff96afa7348fc155e1"
+    },
+    {
+      "attempt_id": "f9aeff7fff2b43f9af3867ff87202c9d",
+      "physical_page": 2,
+      "sha256": "ccebbbded01c1b81c11f131997d1bce62d1ed6c1be267a28e41e589db47d8cdb"
+    },
+    {
+      "attempt_id": "f9aeff7fff2b43f9af3867ff87202c9d",
+      "physical_page": 3,
+      "sha256": "9d4bd66b89a208fe533455861142223451a48a4851dbddd58210cdd55dc50ff2"
+    },
+    {
+      "attempt_id": "d0320c91adc14b9e87bd8d0b933de2f1",
+      "physical_page": 1,
+      "sha256": "ca6f63a3ad84b3e67d9d76d7a17848cb3d3dcc967bbaa0fbea10b64e1c11c3f5"
+    },
+    {
+      "attempt_id": "d0320c91adc14b9e87bd8d0b933de2f1",
+      "physical_page": 2,
+      "sha256": "ab4ddd9cf27cdddc74591592eb314a8d740e5e8d3215279a660d6ce9d276bb1c"
+    },
+    {
+      "attempt_id": "d0320c91adc14b9e87bd8d0b933de2f1",
+      "physical_page": 3,
+      "sha256": "40fd9bfe80059ad41902ab65e7673b61e5c0cc585bfe509131afa38cb878d543"
+    }
+  ],
+  "captures": [
+    {
+      "attempt_id": "e3e00b1dfc6b465db649495bcb53e853",
+      "request_descriptor_sha256": "5b0a38277aa96939583d23a2dc1992fcc15156fa62c328f55f9df80792dac302",
+      "wire_request_sha256": "79b940b03c9633fea607bd102cfef0fa77f274b7a7ad19cd49962d11d90070bd",
+      "wire_response_sha256": "b5d057c14076aaef8a73f84b0a7e3b47c9939d77db263dd677a5a07b637e57ca",
+      "status": 200,
+      "wire_output_matches_sdk": true,
+      "actual_input_descriptor_matches": true,
+      "usage": {
+        "input_tokens": 16737,
+        "input_tokens_details": {
+          "cache_write_tokens": 16734,
+          "cached_tokens": 0
+        },
+        "output_tokens": 1842,
+        "output_tokens_details": {
+          "reasoning_tokens": 123
+        },
+        "total_tokens": 18579
+      }
+    },
+    {
+      "attempt_id": "32f6108056c6418a8825249b65725716",
+      "request_descriptor_sha256": "34ce3ca12d50552c8fc8f941acc844c3e967d8eed80c7f67ec5982eabf587eca",
+      "wire_request_sha256": "3ee55a2d7c21ab2d87528a0d87d4ca91ae518d842ec7ef53d0e69cf5793242ab",
+      "wire_response_sha256": "cb9fdc697dc9732034b8109ca6919e89c58be5ac6561cb0aaa7b0d93c0a6283c",
+      "status": 200,
+      "wire_output_matches_sdk": true,
+      "actual_input_descriptor_matches": true,
+      "usage": {
+        "input_tokens": 20800,
+        "input_tokens_details": {
+          "cache_write_tokens": 20797,
+          "cached_tokens": 0
+        },
+        "output_tokens": 2437,
+        "output_tokens_details": {
+          "reasoning_tokens": 65
+        },
+        "total_tokens": 23237
+      }
+    }
+  ],
+  "phases": {
+    "batch_adjudication": {
+      "raw_answer_sha256": "1ce8dbd3cad40b578dbfe3dea519d2edc83fa5a4d65813ce90bdeb5da8d65c12",
+      "assessment": {
+        "records": [
+          {
+            "record_id": "md-ridgely-2026",
+            "input_row_sha256": "a7d32a6a2ea8b3088253d57ef69bb7a3135d8816e56dddec5224f422bb118b63",
+            "field_decisions": [
+              {
+                "field": "date_enacted",
+                "decision": "accept",
+                "value": "2026-08-03 (official town meeting minutes report approval of Resolution 2026-03)",
+                "source_id": "f9aeff7fff2b43f9af3867ff87202c9d",
+                "locator": "Pages 1 and 3, meeting date and New Business",
+                "reason": "The dated minutes report approval of the resolution."
+              },
+              {
+                "field": "duration",
+                "decision": "accept",
+                "value": "Twelve months as described in the August 3, 2026 minutes; the executed resolution and operative effective-date anchor remain unverified.",
+                "source_id": "f9aeff7fff2b43f9af3867ff87202c9d",
+                "locator": "Page 3, New Business",
+                "reason": "The minutes describe a temporary 12-month moratorium but do not supply the executed resolution or an effective-date anchor."
+              },
+              {
+                "field": "legal_basis",
+                "decision": "accept",
+                "value": "Resolution No. 2026-03; official August 3, 2026 minutes report introduction and approval by voice vote. The executed resolution itself has not been retrieved.",
+                "source_id": "f9aeff7fff2b43f9af3867ff87202c9d",
+                "locator": "Page 3, New Business",
+                "reason": "The minutes identify the resolution and report its approval by voice vote."
+              },
+              {
+                "field": "current_status",
+                "decision": "accept",
+                "value": "Official August 3, 2026 minutes report introduction and voice-vote approval of Resolution 2026-03, described as a temporary twelve-month moratorium on processing data-center applications within the town corporate limits. The minutes do not print a tally or state that the vote was unanimous. The executed resolution, operative effective-date anchor and subsequent legal developments remain unverified. [VERIFY: executed text, effective interval, later amendments/extensions/repeal and current legal force.]",
+                "source_id": "f9aeff7fff2b43f9af3867ff87202c9d",
+                "locator": "Page 3, New Business",
+                "reason": "The proposal accurately limits the approval and scope claims to the minutes and preserves unresolved operative and later-force questions."
+              },
+              {
+                "field": "affected_projects",
+                "decision": "accept",
+                "value": "Processing applications for data centers within the corporate limits of the Town of Ridgely, as described in the August 3, 2026 official minutes.",
+                "source_id": "f9aeff7fff2b43f9af3867ff87202c9d",
+                "locator": "Page 3, New Business",
+                "reason": "The minutes describe this application-processing scope; the discussion spells the town name Ridgeley."
+              },
+              {
+                "field": "outcome",
+                "decision": "accept",
+                "value": "The August 3, 2026 minutes report approval of Resolution 2026-03 by voice vote after a motion and second. Commissioner Sears stated that he would lead a program-management plan and work toward presenting a draft ordinance by April 2027; that prospective plan is not proof of later ordinance adoption.",
+                "source_id": "f9aeff7fff2b43f9af3867ff87202c9d",
+                "locator": "Page 3, New Business",
+                "reason": "The minutes report the vote and Sears's prospective plan, not subsequent ordinance adoption."
+              },
+              {
+                "field": "trigger",
+                "decision": "accept",
+                "value": "The minutes cite Caroline County’s moratorium and concern that restricted development interests could shift toward municipalities, alongside water/sewer capacity, energy demand, noise, vibration and regulatory review.",
+                "source_id": "f9aeff7fff2b43f9af3867ff87202c9d",
+                "locator": "Page 3, New Business",
+                "reason": "The discussion identifies the county resolution, potential development shift and listed regulatory concerns."
+              }
+            ],
+            "whole_record_closure_supported": false,
+            "remaining_questions": [
+              "What does the executed resolution provide regarding operative scope, authority, effective date and duration?",
+              "What calendar endpoint follows from the verified operative anchor and applicable counting rules?",
+              "Were there later amendments, extensions, repeal or related ordinance adoption, and what is the current legal force?"
+            ],
+            "review_limitations": [
+              "The supplied source is a complete meeting-minutes PDF, not the executed resolution.",
+              "A voice vote does not establish unanimity or individual votes.",
+              "No later-action or current-force source was supplied; no tools were used."
+            ]
+          },
+          {
+            "record_id": "md-worcester-county-2026",
+            "input_row_sha256": "4d9df78cbf93801fdf5e021a06f009b4bee80c6c84a72b9bb3836454a8ca3f9c",
+            "field_decisions": [
+              {
+                "field": "date_enacted",
+                "decision": "accept",
+                "value": "2026-07-21 (passage date printed on signed Resolution No. 26-18)",
+                "source_id": "d0320c91adc14b9e87bd8d0b933de2f1",
+                "locator": "Page 3, passage and signature image",
+                "reason": "The signed page expressly states that the resolution was passed July 21, 2026."
+              },
+              {
+                "field": "duration",
+                "decision": "accept",
+                "value": "The signed resolution specifies twelve months or until the commissioners rescind it. It does not separately print an effective-date clause or calendar end date; the existing 2027-07-21 entry remains a conditional projection of the county-reported July 21 action, not a newly verified operative endpoint.",
+                "source_id": "d0320c91adc14b9e87bd8d0b933de2f1; 33216228847f91fc-b60977dad9a5",
+                "locator": "Resolution pages 2–3, resolving clause and passage; county notice, first paragraph",
+                "reason": "The signed text states the term and passage date, but no separate effective-date clause or calendar endpoint. The existing projection remains conditional metadata."
+              },
+              {
+                "field": "legal_basis",
+                "decision": "accept",
+                "value": "Signed Resolution No. 26-18, passed July 21, 2026, citing County Zoning Ordinance section 1-118(b)(6); it imposes twelve-month-or-rescission moratoria on application for or issuance of permits and on all related Board of Zoning Appeals proceedings for data centers and cable landing stations.",
+                "source_id": "d0320c91adc14b9e87bd8d0b933de2f1",
+                "locator": "Pages 1–3, recital D, resolving clause and signature image",
+                "reason": "The resolution cites the ordinance provision and states both moratoria and their terms."
+              },
+              {
+                "field": "current_status",
+                "decision": "accept",
+                "value": "The recovered signed Resolution 26-18 records July 21, 2026 passage and imposes moratoria on application for or issuance of permits for data centers and cable landing stations, and on all related Board of Zoning Appeals proceedings, for twelve months or until rescission. The county notice describes application to pending and future matters. The signed text does not separately print an effective-date clause or calendar end date. [VERIFY: exact operative start/end, subsequent rescission, amendment/replacement and current legal force.]",
+                "source_id": "d0320c91adc14b9e87bd8d0b933de2f1; 33216228847f91fc-b60977dad9a5",
+                "locator": "Resolution pages 2–3; county notice, fourth paragraph",
+                "reason": "The proposal distinguishes the signed operative text, the notice's application description and unresolved subsequent force."
+              },
+              {
+                "field": "affected_projects",
+                "decision": "accept",
+                "value": "Application for or issuance of permits for data centers and cable landing stations, and all related Board of Zoning Appeals proceedings. The county notice describes pending and future applications. The resolution’s cable-landing-station definition excludes data storage, management, processing or computation.",
+                "source_id": "d0320c91adc14b9e87bd8d0b933de2f1; 33216228847f91fc-b60977dad9a5",
+                "locator": "Resolution pages 1–2, recital A and resolving clause; county notice, fourth paragraph",
+                "reason": "The resolution states the scope and definition; the separate notice addresses pending and future applications."
+              },
+              {
+                "field": "outcome",
+                "decision": "accept",
+                "value": "The signed copy records passage on July 21, 2026. Its recitals describe a study period and proposed legislative accommodation; the county notice anticipates future regulations. These sources do not establish later zoning adoption, rescission or current legal force.",
+                "source_id": "d0320c91adc14b9e87bd8d0b933de2f1; 33216228847f91fc-b60977dad9a5",
+                "locator": "Resolution pages 1–3, recitals C and E and passage; county notice, final substantive paragraph",
+                "reason": "The proposal accurately separates passage and prospective legislative work from unverified later action."
+              }
+            ],
+            "whole_record_closure_supported": false,
+            "remaining_questions": [
+              "What is the legally operative start and calendar endpoint, including the effect of the rescission language?",
+              "Were there subsequent rescission, amendment, replacement or zoning adoption, and what is the current legal force?",
+              "What was the vote method and tally, if relevant?"
+            ],
+            "review_limitations": [
+              "The existing 2027-07-21 projection is retained as previously county-reported conditional metadata, not newly normalized or certified; it is not a date expressly printed in the signed resolution.",
+              "The signature image does not establish unanimity or individual votes.",
+              "The retained county notice was not freshly retrieved; no later-action or current-force source was supplied and no tools were used."
+            ]
+          }
+        ]
+      }
+    },
+    "blind_extraction": {
+      "raw_answer_sha256": "360db2c322193eea86965e5439b0bce340b787593dbfc276d2573c89eea1c08f",
+      "assessment": {
+        "records": [
+          {
+            "record_id": "md-ridgely-2026",
+            "facts": [
+              {
+                "field": "jurisdiction_and_source",
+                "value": "Ridgely, Maryland; August 3, 2026 town meeting minutes. The header says Ridgely, while the resolution discussion says Ridgeley.",
+                "source_id": "f9aeff7fff2b43f9af3867ff87202c9d",
+                "locator": "Pages 1 and 3"
+              },
+              {
+                "field": "measure_and_authority",
+                "value": "Resolution No. 2026-03, introduced and considered by the Commissioners.",
+                "source_id": "f9aeff7fff2b43f9af3867ff87202c9d",
+                "locator": "Page 3, New Business"
+              },
+              {
+                "field": "adoption_and_vote",
+                "value": "The minutes report approval on August 3, 2026, upon motion and second by voice vote.",
+                "source_id": "f9aeff7fff2b43f9af3867ff87202c9d",
+                "locator": "Pages 1 and 3"
+              },
+              {
+                "field": "scope_term_and_reported_anchor",
+                "value": "The minutes report a temporary 12-month moratorium on processing data-center applications within the town's corporate limits while the town studies the issue and considers local regulations. This is a minute report, not the executed resolution's operative text.",
+                "source_id": "f9aeff7fff2b43f9af3867ff87202c9d",
+                "locator": "Page 3, New Business"
+              },
+              {
+                "field": "minutes_submission",
+                "value": "The minutes are attributed to Clerk-Treasurer Stephanie L. Berkey; the page does not show an executed-resolution signature block.",
+                "source_id": "f9aeff7fff2b43f9af3867ff87202c9d",
+                "locator": "Page 3, closing"
+              }
+            ],
+            "uncertainties": [
+              "The minutes do not state unanimity, a vote tally, or individual votes.",
+              "The executed resolution, its precise operative wording, signatures, legal authority, and any separate effective date are not supplied.",
+              "No end date, later force, or absence of later amendments is established."
+            ]
+          },
+          {
+            "record_id": "md-worcester-county-2026",
+            "facts": [
+              {
+                "field": "measure_and_jurisdiction",
+                "value": "Worcester County, Maryland Resolution No. 26-18, concerning data centers and cable landing stations.",
+                "source_id": "d0320c91adc14b9e87bd8d0b933de2f1",
+                "locator": "Page 1, title"
+              },
+              {
+                "field": "passage",
+                "value": "The executed resolution states it was passed July 21, 2026.",
+                "source_id": "d0320c91adc14b9e87bd8d0b933de2f1",
+                "locator": "Page 3, passage and signature page"
+              },
+              {
+                "field": "authority",
+                "value": "The resolution cites Worcester County Zoning Ordinance section 1-118(b)(6) as authority for the County Commissioners to impose moratoria by resolution.",
+                "source_id": "d0320c91adc14b9e87bd8d0b933de2f1",
+                "locator": "Pages 1–2, recital D"
+              },
+              {
+                "field": "operative_anchor_scope_and_term",
+                "value": "The executed text imposes a moratorium on applications for or issuance of permits and on all related Board of Zoning Appeals proceedings, each for twelve months or until the Commissioners rescind the resolution.",
+                "source_id": "d0320c91adc14b9e87bd8d0b933de2f1",
+                "locator": "Page 2, resolving clause"
+              },
+              {
+                "field": "definitions",
+                "value": "The resolution defines data centers and cable landing stations; its cable-landing-station definition excludes data storage, management, processing or computation.",
+                "source_id": "d0320c91adc14b9e87bd8d0b933de2f1",
+                "locator": "Page 1, recital A"
+              },
+              {
+                "field": "county_notice_on_applications",
+                "value": "A separate county notice says the moratorium applies to pending and future applications and that previously submitted BZA applications were placed on hold.",
+                "source_id": "33216228847f91fc-b60977dad9a5",
+                "locator": "County notice, fourth paragraph"
+              },
+              {
+                "field": "signatures",
+                "value": "The image shows signatures on the lines for President Theodore J. Elder, Vice President Madison J. Bunting Jr., and Commissioners Caryn G. Abbott, Eric J. Fiori, Joseph M. Mitrecic and Diana Purnell. Chief Administrative Officer Weston S. Young signed the attestation. Commissioner Anthony W. Bertino Jr.'s line is blank.",
+                "source_id": "d0320c91adc14b9e87bd8d0b933de2f1",
+                "locator": "Page 3, signature image"
+              }
+            ],
+            "uncertainties": [
+              "The supplied resolution and notice do not state a vote method, unanimity, tally, or individual votes.",
+              "The signed passage date is stated; no separate effective date is identified in the supplied resolution.",
+              "No computed end date, later force, or absence of later amendments is established."
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "accounting": {
+    "http_requests": 2,
+    "max_http_requests": 2,
+    "max_output_tokens_per_request": 6000,
+    "max_retries": 0,
+    "cost_usd": null,
+    "price_status": "No local catalog price; request/token ceilings enforced, not claimed free."
+  },
+  "scope": "Two-record historical adoption/text review. No current-force survey, inferred unanimous tally, legal effective date or newly computed calendar endpoint."
+}

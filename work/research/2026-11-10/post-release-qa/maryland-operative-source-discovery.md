@@ -1,0 +1,9 @@
+# Maryland source-directed instrument follow-up
+
+Four capped exact-instrument queries target recorded local gaps. Six distinct official source versions were captured, archived privately and read back exactly from the native store; no gaps. Prior Ridgely agenda and Worcester notice were reused rather than re-fetched. Four Exa searches report $0.028 collectively; the single SerpAPI fallback has unknown cost, so the overall search cost is not asserted as $0.028 or zero.
+
+Ridgely: newly found August 3 minutes report voice-vote approval and twelve-month application-processing scope. They are not the missing executed resolution. Worcester: the actual resolution index links `/node/3604`, which supplies the actual signed PDF attachment. All three pages were inspected, including definitions, operative clauses and signatures. [Independent review/application](maryland-operative-text-batch-application.md) applies thirteen accepted prose fields; no dates or categories change.
+
+Dorchester: returned older minutes/reports and Resolution 518 do not supply executed Resolution 712. Unrelated documents were not fetched, and no absence conclusion follows. Salisbury: retrieved official resolution catalog lists 3488 first, with no 3494 entry found in that page. The clerk page confirms recordkeeping responsibility but supplies no missing instrument. The alternate provider received the intended exact-number/site query yet returned only real-estate/stock URLs outside the requested host; they were rejected. This is failed search scope, not evidence of nonadoption, nonpublication or legal status.
+
+[Attempt, source and budget accounting](maryland-operative-source-discovery.json) retains all results and unused allowances. The two source-only records and both corrected records remain unresolved on their actual specified questions; no whole-record closure is inferred from successful source recovery.

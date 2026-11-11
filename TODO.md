@@ -1,5 +1,7 @@
 # Implementation TODO
 
+- [x] Recover Ridgely August3minutes and signed Worcester Resolution26-18 via actual official links. Source-first/two-record independent Terra review accepts13exact prose cells; no category/date/count/native changes or whole-record closures. Six new source/store readbacks, zero gaps, nine focused checks and exact delta verified. Dorchester unrelated hits remain unfetched; Salisbury missing-body question and failed-scope SerpAPI result explicitly retained. Sixteen unique cells/three records await the next synchronized delivery. [Review](work/research/2026-11-10/post-release-qa/maryland-operative-text-batch-application.md).
+
 - [x] Resolve Massachusetts originating-committee attribution with one new linked H5151 docket and one independent Terra request; two sponsor/party fields supersede prior unknowns. Reject the model whole-record-closure flag because final conference/force remain unproved. Three unique fields remain pending next delivery, with no category/date/count/native changes or closures. One native source readback and nine checks verified. [Review](work/research/2026-11-10/post-release-qa/massachusetts-origin-attribution-application.md).
 - [x] Diagnose Ohio item58 discovery false match: one official-domain SerpAPI query and one Senate article capture identify local-levy content plus data-center navigation, not exemption-veto proceedings. One native readback; no canonical changes or closure. [Review](work/research/2026-11-10/post-release-qa/ohio-item58-override-discovery-review.md).
 
