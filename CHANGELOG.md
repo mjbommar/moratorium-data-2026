@@ -1,11 +1,11 @@
 # Changelog
 
-## Qualified v2026.11.10.post17 — website verification pending
+## Qualified v2026.11.10.post17
 
 - Seven prose cells across Burien and Howard County correct historical hearing/vote descriptions, alternative sunset conditions and exceptions using independently reviewed primary evidence.
 - No category, normalized date, raw identity, headline total, scope membership or native ballot-history changes; no whole-record closure. 1,347 source-specific reviews remain unresolved.
 - Exact Rhode Island 2021 H6476 history recovered; terminal consequence remains unresolved. Maine advisory-council report distinguished from the separate statutory incentives-report submission question.
-- Deterministic release, clean restore, consumer V32 and complete hosted verification are separate pending delivery checks.
+- Deterministic builds, full clean restore, ten anonymous downloads, consumer V32 and complete current hosted-page/browser checks pass. Complete uploaded historical artifact verification is separately recorded.
 
 | Metric | Qualified post17 |
 |---|---:|

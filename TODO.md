@@ -910,4 +910,4 @@ Exit: repeatable refresh with visible freshness, costs, failures and unresolved 
 - [ ] Include the Burien correction in the next synchronized release/consumer/site batch; post16/V31 remains the verified public edition.
 
 - [x] Deliver qualified post17/V32: seven local prose corrections, deterministic builds, full clean restore, ten downloads and exact consumer checks verified.
-- [ ] Deploy and verify complete post17 public pages, corrected Burien/Howard prose, downloads and desktop/mobile map/table behavior.
+- [x] Deploy and verify complete post17 public pages, corrected Burien/Howard prose, downloads and desktop/mobile map/table behavior. Complete final artifact is verified separately.
