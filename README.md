@@ -4,7 +4,7 @@ This project tracks local pauses on data centers, battery storage, solar, wind, 
 
 **[Open the dashboard](https://mjbommar.github.io/moratorium-data-2026/)** · [Browse states](states/README.md) · [Download local records](data/moratorium_inventory.csv) · [Read ballot results](docs/ballot-results.md)
 
-The next release is [v2026.11.11.post13](https://github.com/mjbommar/moratorium-data-2026/releases/tag/v2026.11.11.post13). Publication checks are running. Post12 is the current published version.
+The current release is [v2026.11.11.post13](https://github.com/mjbommar/moratorium-data-2026/releases/tag/v2026.11.11.post13), published November 11, 2026. Some records still have open questions.
 
 ## What the data contains
 

@@ -20,7 +20,7 @@
   "consumer_dispositions": "delivered_with_historical_editions_preserved",
   "experimental_extractor": "failed_no_automatic_promotion",
   "quality_gate_disposition": "User authorized publication of the current state with qualifications on pending QA, followed by continued double checking and resolution of outstanding questions.",
-  "reviewed_data_source_commit": "92715b1171dced0a29ec0c181a98aa2d435f9685",
+  "reviewed_data_source_commit": "2ab30e9b022b90c9e92ac431f15d3669cd82d83d",
   "record_dispositions": {
     "unresolved": 1347,
     "corrected_resolved": 192,
@@ -31,7 +31,7 @@
   "record_disposition_path": "work/research/2026-11-08/full-record-dispositions/funnel.json",
   "qa_status": "ongoing",
   "publication_authorization": "publish current state with qualifications on pending QA, then continue to double check and clear the outstanding questions",
-  "working_revision": "post13-theme-and-reviewed-text-update-awaiting-publication",
+  "working_revision": "2026.11.11.post13-data-consumer-delivered-hosting-pending",
   "current_raw_counts": {
     "local": 1329,
     "state_policy": 449,
@@ -39,18 +39,18 @@
   },
   "prior_release": "v2026.11.11.post12",
   "prior_release_source_commit": "92715b1171dced0a29ec0c181a98aa2d435f9685",
-  "prior_published_source_commit": "e2d510e0014721ec2bf04f401248b64f642da6a5",
-  "published_source_reference": "Qualified post12 pins 92715b1171dced0a29ec0c181a98aa2d435f9685; builds, restore, ten anonymous downloads, V46 and current pages verified. Final acknowledgment payload check follows.",
+  "prior_published_source_commit": "92715b1171dced0a29ec0c181a98aa2d435f9685",
+  "published_source_reference": "Qualified post13 pins 2ab30e9b022b90c9e92ac431f15d3669cd82d83d; identical builds, full restore, ten anonymous downloads and V47 verified. Hosted verification pending; post12 is prior verified site. Final adopted texts, effect, interval, later force and broader QA remain qualified.",
   "latest_consumer_handoff": {
-    "source_commit": "92715b1171dced0a29ec0c181a98aa2d435f9685",
-    "manifest_sha256": "b366fbf82bb17cc42e4e1b59e05ceeaab6c5a3063a0a46b97b9f0a28ef6572e8",
+    "source_commit": "2ab30e9b022b90c9e92ac431f15d3669cd82d83d",
+    "manifest_sha256": "428768f37d4cd543fd1c05f967a79175c214063dce520d24f0374da0fbd0e8c4",
     "trusted_verifier_sha256": "ebecf851d4196715df186cc81cc3c933ab7da550fbafd7207996cd94b9cd2739",
-    "scope": "Fairfax adds one pending battery-storage proposal and two existing data-center text corrections. Final adoption, effective dates, project applicability and later actions remain unconfirmed. No existing record changes status; ballot tables are unchanged.",
-    "consumer_commit": "42970681c6dde5bbd543d82958c00d61ea86fc26",
-    "receipt": "work/research/2026-11-11/post-release-qa/consumer-v46-handoff.json"
+    "scope": "Ten text fields across Gallatin and Rice are corrected. Rice\u2019s historical council vote is confirmed. Final adopted texts, effective dates, later actions and project eligibility remain unconfirmed. No record changes status; ballot tables are unchanged.",
+    "consumer_commit": "41b835d1914928907f9b12e9c96de6159f06e98f",
+    "receipt": "work/research/2026-11-11/post-release-qa/consumer-v47-handoff.json"
   },
   "release_date_timezone": "America/New_York",
-  "published_source_commit": "92715b1171dced0a29ec0c181a98aa2d435f9685",
+  "published_source_commit": "2ab30e9b022b90c9e92ac431f15d3669cd82d83d",
   "september_status_category_differences": {
     "local": 102,
     "policy": 34,
@@ -59,28 +59,27 @@
   },
   "latest_geography_review": "work/research/2026-11-09/post-release-qa/nonblank-geography-application.json",
   "latest_delivered_consumer_input_delta": {
-    "baseline_release": "v2026.11.11.post11",
-    "baseline_source_commit": "e2d510e0014721ec2bf04f401248b64f642da6a5",
-    "baseline_handoff": "V45",
+    "baseline_release": "v2026.11.11.post12",
+    "baseline_source_commit": "92715b1171dced0a29ec0c181a98aa2d435f9685",
+    "baseline_handoff": "V46",
     "receipts": [
-      "work/research/2026-11-11/post-release-qa/fairfax-data-center-operative-application.json",
-      "work/research/2026-11-11/post-release-qa/fairfax-battery-addition-application.json"
+      "work/research/2026-11-11/post-release-qa/gallatin-operative-application.json",
+      "work/research/2026-11-11/post-release-qa/rice-operative-application.json"
     ],
-    "changed_cells": 2,
+    "changed_cells": 10,
     "changed_local_rows": 2,
-    "changed_existing_local_rows": 1,
-    "added_local_rows": 1,
+    "changed_existing_local_rows": 2,
+    "added_local_rows": 0,
     "changed_policy_rows": 0,
     "status_category_changes": 0,
-    "new_pending_rows": 1,
+    "new_pending_rows": 0,
     "normalized_date_changes": 0,
-    "scope": "Two existing data-center prose fields updated and one separate pending battery-storage proposal added in Fairfax. No existing record changes status. Local total rises from1328to1329, pending from63to64; other status counts and ballot data are unchanged.",
-    "state": "delivered_and_hosted_verified",
-    "delivered_source_commit": "92715b1171dced0a29ec0c181a98aa2d435f9685",
-    "delivered_consumer_commit": "42970681c6dde5bbd543d82958c00d61ea86fc26",
-    "delivery_receipt": "work/research/2026-11-11/post-release-qa/consumer-v46-handoff.json",
-    "hosted_copy_state": "verified",
-    "hosted_receipt": "work/research/2026-11-11/release-2026.11.11.post12/hosted-copy-verification.json"
+    "scope": "Rice\u2019s September21 vote and Gallatin\u2019s proposal/hearing/draft conditions are clarified in ten text cells. No final Gallatin adoption, Rice effective date, project eligibility or current legal force is established. Existing classifications and all headline totals remain unchanged.",
+    "state": "delivered_data_consumer_pending_hosted_verification",
+    "delivered_source_commit": "2ab30e9b022b90c9e92ac431f15d3669cd82d83d",
+    "delivered_consumer_commit": "41b835d1914928907f9b12e9c96de6159f06e98f",
+    "delivery_receipt": "work/research/2026-11-11/post-release-qa/consumer-v47-handoff.json",
+    "hosted_copy_state": "pending"
   },
   "latest_source_followup": "work/research/2026-11-11/post-release-qa/brookhaven-operative-application.json",
   "latest_expanded_candidate_review": "work/research/2026-11-09/starke-succession-review/validation.json",
@@ -104,26 +103,28 @@
     "scope": "Qualified policy-history succession only; no formal termination, overlap or current-force acceptance."
   },
   "prior_delivered_consumer_input_delta": {
-    "baseline_release": "v2026.11.11.post10",
-    "baseline_source_commit": "8538114339069cf97465b04df74d1438625ad511",
-    "baseline_handoff": "V44",
-    "receipt": "work/research/2026-11-11/post-release-qa/stclair-butler-operative-application.json",
+    "baseline_release": "v2026.11.11.post11",
+    "baseline_source_commit": "e2d510e0014721ec2bf04f401248b64f642da6a5",
+    "baseline_handoff": "V45",
     "receipts": [
-      "work/research/2026-11-11/post-release-qa/stclair-butler-operative-application.json",
-      "work/research/2026-11-11/post-release-qa/fort-collins-operative-application.json"
+      "work/research/2026-11-11/post-release-qa/fairfax-data-center-operative-application.json",
+      "work/research/2026-11-11/post-release-qa/fairfax-battery-addition-application.json"
     ],
-    "changed_cells": 5,
+    "changed_cells": 2,
     "changed_local_rows": 2,
+    "changed_existing_local_rows": 1,
+    "added_local_rows": 1,
     "changed_policy_rows": 0,
     "status_category_changes": 0,
+    "new_pending_rows": 1,
     "normalized_date_changes": 0,
-    "scope": "Five prosefields/twolocalrows: StClair attributedcommissionactions with finaltrusteeapprovalpending; FortCollins completedresolutionadoption and separateordinancefirstreading, finalpassage/effect/currentforceunverified. No status/date/count/nativechanges or closures.",
+    "scope": "Two existing data-center prose fields updated and one separate pending battery-storage proposal added in Fairfax. No existing record changes status. Local total rises from1328to1329, pending from63to64; other status counts and ballot data are unchanged.",
     "state": "delivered_and_hosted_verified",
-    "delivered_source_commit": "e2d510e0014721ec2bf04f401248b64f642da6a5",
-    "delivered_consumer_commit": "8ca292bd41ad1de360bddb02d50276769a90b57c",
-    "delivery_receipt": "work/research/2026-11-11/post-release-qa/consumer-v45-handoff.json",
+    "delivered_source_commit": "92715b1171dced0a29ec0c181a98aa2d435f9685",
+    "delivered_consumer_commit": "42970681c6dde5bbd543d82958c00d61ea86fc26",
+    "delivery_receipt": "work/research/2026-11-11/post-release-qa/consumer-v46-handoff.json",
     "hosted_copy_state": "verified",
-    "hosted_receipt": "work/research/2026-11-11/release-2026.11.11.post11/hosted-copy-verification.json"
+    "hosted_receipt": "work/research/2026-11-11/release-2026.11.11.post12/hosted-copy-verification.json"
   },
   "latest_field_application": [
     "work/research/2026-11-11/post-release-qa/gallatin-operative-application.json",
@@ -140,16 +141,16 @@
   "latest_expanded_result_review": "work/research/2026-11-10/canterbury-minutes-result-review/coordinator-adjudication.json",
   "latest_verified_release": "v2026.11.11.post12",
   "source_observation_window_scope": "Acquisition includes source-specific QA captures through November11; this does not renew every record or move the original comprehensive research_cutoff.",
-  "latest_download_verified_release": "v2026.11.11.post12",
+  "latest_download_verified_release": "v2026.11.11.post13",
   "prior_latest_consumer_handoff": {
-    "source_commit": "e2d510e0014721ec2bf04f401248b64f642da6a5",
-    "manifest_sha256": "e8a9676d80dd4f30fcf6ac1e5052c9ac86b99d798fb5a99d20b986ca8cc52656",
+    "source_commit": "92715b1171dced0a29ec0c181a98aa2d435f9685",
+    "manifest_sha256": "b366fbf82bb17cc42e4e1b59e05ceeaab6c5a3063a0a46b97b9f0a28ef6572e8",
     "trusted_verifier_sha256": "ebecf851d4196715df186cc81cc3c933ab7da550fbafd7207996cd94b9cd2739",
-    "scope": "Five prose fields across two local records are corrected. St. Clair Township, Butler County Ohio records reported commission actions while retaining final trustee approval as pending. Fort Collins, Colorado now distinguishes the completed October 6 adoption of Resolution 2026-117 from Ordinance 147\u2019s October 20 first reading. Final adopted texts, ordinance passage/effect, operative intervals and later legal force remain qualified. No status, date, endpoint, count, VERIFY or native-history changes, and no whole-record closures. There remain 1,346 unresolved reviews.",
-    "consumer_commit": "8ca292bd41ad1de360bddb02d50276769a90b57c",
-    "receipt": "work/research/2026-11-11/post-release-qa/consumer-v45-handoff.json"
+    "scope": "Fairfax adds one pending battery-storage proposal and two existing data-center text corrections. Final adoption, effective dates, project applicability and later actions remain unconfirmed. No existing record changes status; ballot tables are unchanged.",
+    "consumer_commit": "42970681c6dde5bbd543d82958c00d61ea86fc26",
+    "receipt": "work/research/2026-11-11/post-release-qa/consumer-v46-handoff.json"
   },
-  "prior_published_source_reference": "Qualified post11 pins e2d510e0014721ec2bf04f401248b64f642da6a5; builds, restore, ten anonymous downloads, V45 and current pages verified. Final acknowledgment payload check follows.",
+  "prior_published_source_reference": "Qualified post12 pins 92715b1171dced0a29ec0c181a98aa2d435f9685; builds, restore, ten anonymous downloads, V46 and current pages verified. Final acknowledgment payload check follows.",
   "latest_verified_hosted_data": {
     "release": "v2026.11.11.post12",
     "release_source_commit": "92715b1171dced0a29ec0c181a98aa2d435f9685",
@@ -403,22 +404,11 @@
     "scope": "All current HTML and linked local bytes match; full desktop/mobile/dark browser checks pass. Both changed state entries match all five complete updated prose values. Final artifact and acknowledgment verification follows."
   },
   "latest_independent_record_review": "work/research/2026-11-11/post-release-qa/fairfax-battery-addition-application.json",
-  "pending_consumer_input_delta": {
-    "baseline_release": "v2026.11.11.post12",
-    "baseline_source_commit": "92715b1171dced0a29ec0c181a98aa2d435f9685",
-    "baseline_handoff": "V46",
-    "receipts": [
-      "work/research/2026-11-11/post-release-qa/gallatin-operative-application.json",
-      "work/research/2026-11-11/post-release-qa/rice-operative-application.json"
-    ],
-    "changed_cells": 10,
-    "changed_local_rows": 2,
-    "changed_existing_local_rows": 2,
-    "added_local_rows": 0,
-    "changed_policy_rows": 0,
-    "status_category_changes": 0,
-    "new_pending_rows": 0,
-    "normalized_date_changes": 0,
-    "scope": "Rice\u2019s September21 vote and Gallatin\u2019s proposal/hearing/draft conditions are clarified in ten text cells. No final Gallatin adoption, Rice effective date, project eligibility or current legal force is established. Existing classifications and all headline totals remain unchanged."
+  "pending_hosted_delivery": {
+    "release": "v2026.11.11.post13",
+    "release_source_commit": "2ab30e9b022b90c9e92ac431f15d3669cd82d83d",
+    "state": "verified_data_release_pending_full_site_deployment",
+    "receipt": "work/research/2026-11-11/release-2026.11.11.post13/public-verification.json",
+    "active_deployment_run": null
   }
 }

@@ -1,0 +1,318 @@
+{
+  "source_commit": "2ab30e9b022b90c9e92ac431f15d3669cd82d83d",
+  "manifest_sha256": "428768f37d4cd543fd1c05f967a79175c214063dce520d24f0374da0fbd0e8c4",
+  "expanded_snapshot": "3ce33d22288fa7bc7100c9ac621c041037702e8370af1e663d53a548ff794725",
+  "current_counts": {
+    "moratorium_records": 1329,
+    "state_policy_records": 449,
+    "ballot_measures": 57,
+    "retained_results": 65,
+    "current_results": 53,
+    "retained_events": 12,
+    "current_accepted_historical_events": 12,
+    "restriction_records": 3,
+    "measure_instrument_link_records": 1
+  },
+  "files": 2900,
+  "entries": 3135,
+  "verified_at": "2026-11-11T17:22:40.114172+00:00",
+  "consumer_verification": {
+    "handoff": {
+      "state": "verified",
+      "source_commit": "2ab30e9b022b90c9e92ac431f15d3669cd82d83d",
+      "manifest_sha256": "428768f37d4cd543fd1c05f967a79175c214063dce520d24f0374da0fbd0e8c4",
+      "expanded_snapshot": "3ce33d22288fa7bc7100c9ac621c041037702e8370af1e663d53a548ff794725",
+      "files": 2900,
+      "entries": 3135,
+      "checks": [
+        {
+          "command": [
+            "scripts/check_expanded_publication.py"
+          ],
+          "exit_code": 0,
+          "result": {
+            "state": "consistent",
+            "snapshot_sha256": "3ce33d22288fa7bc7100c9ac621c041037702e8370af1e663d53a548ff794725",
+            "generations_checked": 49,
+            "records": {
+              "jurisdictions": 53,
+              "elections": 51,
+              "ballot_measures": 57,
+              "measure_provisions": 52,
+              "measure_results": 65,
+              "local_restrictions": 3,
+              "instrument_events": 12,
+              "measure_instrument_links": 1,
+              "source_documents": 168,
+              "claims": 625,
+              "review_decisions": 2756,
+              "search_runs": 1,
+              "search_attempts": 3,
+              "search_sightings": 18,
+              "coverage_observations": 1
+            },
+            "scope": "Offline publication/receipt consistency only; no source reacquisition, renewed factual acceptance or current-force confirmation."
+          }
+        },
+        {
+          "command": [
+            "scripts/build_expanded_csv.py",
+            "--check"
+          ],
+          "exit_code": 0,
+          "result": {
+            "state": "matches",
+            "source_snapshot": "3ce33d22288fa7bc7100c9ac621c041037702e8370af1e663d53a548ff794725",
+            "projection_sha256": "7b585b49998f8ca39b0ff433fe15c34335ea171bdd8960af1e7e9fdcf852f6cb",
+            "csv_views": 18
+          }
+        },
+        {
+          "command": [
+            "scripts/build_policy_scope_exports.py",
+            "--check"
+          ],
+          "exit_code": 0,
+          "result": "policy-scope exports current"
+        }
+      ],
+      "checks_run": true,
+      "scope": "Pinned input integrity and offline publication consistency, not source reacquisition or downstream join acceptance."
+    },
+    "policy_semantics": {
+      "total_state_policy_actions": 449,
+      "total_state_bills": 427,
+      "state_policy_instrument_type_counts": {
+        "bill": 427,
+        "executive_order": 3,
+        "governor_directive": 1,
+        "legislative_amendment": 1,
+        "legislative_precursor": 3,
+        "legislative_resolution": 12,
+        "statute": 2
+      },
+      "top_states_by_bills": [
+        [
+          "Pennsylvania",
+          18
+        ],
+        [
+          "Virginia",
+          18
+        ],
+        [
+          "West Virginia",
+          18
+        ],
+        [
+          "Maryland",
+          16
+        ],
+        [
+          "New Jersey",
+          16
+        ],
+        [
+          "California",
+          14
+        ],
+        [
+          "South Dakota",
+          14
+        ],
+        [
+          "Arizona",
+          13
+        ],
+        [
+          "Iowa",
+          13
+        ],
+        [
+          "Michigan",
+          13
+        ],
+        [
+          "Minnesota",
+          12
+        ],
+        [
+          "Ohio",
+          12
+        ],
+        [
+          "Oklahoma",
+          12
+        ],
+        [
+          "Illinois",
+          11
+        ],
+        [
+          "Kansas",
+          11
+        ]
+      ],
+      "top_states_by_policy_actions": [
+        [
+          "Pennsylvania",
+          22
+        ],
+        [
+          "Virginia",
+          18
+        ],
+        [
+          "West Virginia",
+          18
+        ],
+        [
+          "Maryland",
+          17
+        ],
+        [
+          "New Jersey",
+          17
+        ],
+        [
+          "California",
+          14
+        ],
+        [
+          "Michigan",
+          14
+        ],
+        [
+          "South Dakota",
+          14
+        ],
+        [
+          "Arizona",
+          13
+        ],
+        [
+          "Iowa",
+          13
+        ],
+        [
+          "Kansas",
+          12
+        ],
+        [
+          "Minnesota",
+          12
+        ],
+        [
+          "Ohio",
+          12
+        ],
+        [
+          "Oklahoma",
+          12
+        ],
+        [
+          "Illinois",
+          11
+        ]
+      ]
+    }
+  },
+  "index_verification": {
+    "snapshot": "data/source-snapshots/moratoria/2026-11-11-reviewed-v47",
+    "source_commit": "2ab30e9b022b90c9e92ac431f15d3669cd82d83d",
+    "manifest_sha256": "428768f37d4cd543fd1c05f967a79175c214063dce520d24f0374da0fbd0e8c4",
+    "tracked_files_and_symlinks": 2901,
+    "exact_staged_git_blob_bytes_and_modes": true,
+    "scope": "Exact staged snapshot content, Git modes and path set against the pinned manifest, including the manifest itself. This is not an independent legal review."
+  },
+  "baseline_handoff": "V46",
+  "expanded_tables_byte_identical": true,
+  "changed_cells": 10,
+  "changed_local_rows": 2,
+  "changed_policy_rows": 0,
+  "added_local_rows": 0,
+  "status_category_changes": 0,
+  "normalized_date_changes": 0,
+  "whole_record_closures": 0,
+  "unresolved_records": 1347,
+  "corrected_resolved_records": 192,
+  "verify_tagged_rows": 979,
+  "field_changes": [
+    {
+      "id": "mn-rice-undated",
+      "field": "date_enacted",
+      "before": "",
+      "after": "On September 21, 2026, the council voted 5\u20130 to approve Resolution #092126-27, described in the signed minutes as a resolution concerning an interim ordinance authorizing a study and imposing a data-center moratorium. The full instrument and its effective-date provisions have not been confirmed."
+    },
+    {
+      "id": "mn-rice-undated",
+      "field": "duration",
+      "before": "As proposed: one year, or earlier upon amending the zoning ordinance regarding data centers or a council resolution ending the moratorium.",
+      "after": "At the September 21 meeting, Skroch said the moratorium was for up to a year. The full instrument, term anchor, and any early-termination conditions remain unconfirmed."
+    },
+    {
+      "id": "mn-rice-undated",
+      "field": "legal_basis",
+      "before": "A proposed interim ordinance was scheduled for a City Council vote on September 21, 2026, to prohibit the establishment, construction, or expansion of data centers within the city for one year and to authorize a Planning Commission study, under Minn. Stat. Sec. 462.355; the outcome of that vote was not confirmed in sources located as of 2026-09-23.",
+      "after": "Signed September 21, 2026 council minutes identify Resolution #092126-27 as an interim ordinance authorizing a study and imposing a moratorium on data centers. The minutes record approval by 5\u20130 but do not supply the adopted legal text or its effective-date provisions."
+    },
+    {
+      "id": "mn-rice-undated",
+      "field": "current_status",
+      "before": "WJON reported that the City of Rice was scheduled to consider a proposed one-year moratorium and study on September 21, 2026; the retained article does not report the vote result. A Rice County-labelled blog repeats that report. [VERIFY vote result and whether the Rice County petition relates to this proposal.]",
+      "after": "Signed September 21, 2026 minutes confirm a 5\u20130 vote to approve Resolution #092126-27 on a data-center study and moratorium. They resolve the previously unconfirmed vote result. [VERIFY adopted instrument, publication and effective date, exact scope and term, and later actions.]"
+    },
+    {
+      "id": "mn-rice-undated",
+      "field": "outcome",
+      "before": "Vote scheduled for 2026-09-21; outcome not confirmed in sources located in this pass.",
+      "after": "The council approved Resolution #092126-27 on September 21, 2026, by 5\u20130. The minutes describe it as an interim ordinance authorizing a study and imposing a data-center moratorium. The separate solar ordinance 2026-01 and solar publication Resolution #092126-24 do not identify the data-center instrument."
+    },
+    {
+      "id": "tn-gallatin-undated",
+      "field": "duration",
+      "before": "Six months (as amended on first reading)",
+      "after": "Proposed term: six months. The draft would take effect upon final passage. No effective date or end date is confirmed."
+    },
+    {
+      "id": "tn-gallatin-undated",
+      "field": "legal_basis",
+      "before": "Proposed Gallatin Ordinance O26\u00d89-67 enacting a moratorium on accepting and processing new applications for data center development (first reading reported); projects already approved exempt",
+      "after": "The November 3, 2026 council packet contains an unsigned amended draft of Ordinance O26\u00d89-67. It proposes a six-month moratorium on accepting and processing new applications for data-center development. Section 7 would make it effective upon final passage; final passage is not confirmed."
+    },
+    {
+      "id": "tn-gallatin-undated",
+      "field": "current_status",
+      "before": "First reading passed 2026-09-15; November 2 reporting scheduled second reading for 2026-11-03. Outcome and current legal force unresolved. [VERIFY second-reading outcome, adopted text and effective date.]",
+      "after": "The November 3, 2026 agenda lists amended Ordinance O26\u00d89-67 for second reading. The attached October 20 minutes record a public hearing, not final passage. The draft has a blank second-reading date and unsigned execution lines. [VERIFY November 3 vote, final adopted text, effective date, and later actions.]"
+    },
+    {
+      "id": "tn-gallatin-undated",
+      "field": "affected_projects",
+      "before": "New data center applications; existing approvals (including Meta) exempt unless adding space",
+      "after": "The draft would exempt data-center projects with an approved master development plan, site plan, permit, or current entitlement through an approved site plan or master development plan. An amendment to an existing approved data center would qualify only if it requests no additional data-center space, measured in square feet, beyond the amount previously approved. Facilities used primarily for telecommunications services or emergency communications infrastructure would not be classified as data centers. Whether a particular Meta project qualifies remains unconfirmed."
+    },
+    {
+      "id": "tn-gallatin-undated",
+      "field": "outcome",
+      "before": "",
+      "after": "October 20 minutes confirm that the council held and closed the data-center moratorium hearing. They do not record final passage of that proposal. The city agenda index row links the November 3 agenda but has no minutes link for that meeting."
+    }
+  ],
+  "status_counts": {
+    "active": 886,
+    "extended": 199,
+    "replaced": 84,
+    "expired": 77,
+    "pending": 64,
+    "rescinded": 12,
+    "unknown": 4,
+    "rejected": 3
+  },
+  "trusted_verifier_sha256": "ebecf851d4196715df186cc81cc3c933ab7da550fbafd7207996cd94b9cd2739",
+  "scope": "Ten text fields across Gallatin and Rice are corrected. Rice\u2019s historical council vote is confirmed. Final adopted texts, effective dates, later actions and project eligibility remain unconfirmed. No record changes status; ballot tables are unchanged.",
+  "consumer_commit": "41b835d1914928907f9b12e9c96de6159f06e98f",
+  "release_url": "https://github.com/mjbommar/moratorium-data-2026/releases/tag/v2026.11.11.post13",
+  "release_manifest_sha256": "1114cbbe83806fffb4baf16a466505466a201bca65c8f12f877b5f02e285f58b",
+  "hosted_copy_state": "pending"
+}
