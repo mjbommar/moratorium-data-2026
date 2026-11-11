@@ -1,0 +1,286 @@
+{
+  "source_commit": "70b4d217dca964e28e70714a40cf90853edc36ea",
+  "manifest_sha256": "224900b66777c19f7616b6c770c2a1ac0c42951f24cdc10a74333f7006692ec2",
+  "expanded_snapshot": "3ce33d22288fa7bc7100c9ac621c041037702e8370af1e663d53a548ff794725",
+  "current_counts": {
+    "moratorium_records": 1328,
+    "state_policy_records": 449,
+    "ballot_measures": 57,
+    "retained_results": 65,
+    "current_results": 53,
+    "retained_events": 12,
+    "current_accepted_historical_events": 12,
+    "restriction_records": 3,
+    "measure_instrument_link_records": 1
+  },
+  "files": 2730,
+  "entries": 2955,
+  "verified_at": "2026-11-11T08:47:09.162330+00:00",
+  "consumer_verification": {
+    "handoff": {
+      "state": "verified",
+      "source_commit": "70b4d217dca964e28e70714a40cf90853edc36ea",
+      "manifest_sha256": "224900b66777c19f7616b6c770c2a1ac0c42951f24cdc10a74333f7006692ec2",
+      "expanded_snapshot": "3ce33d22288fa7bc7100c9ac621c041037702e8370af1e663d53a548ff794725",
+      "files": 2730,
+      "entries": 2955,
+      "checks": [
+        {
+          "command": [
+            "scripts/check_expanded_publication.py"
+          ],
+          "exit_code": 0,
+          "result": {
+            "state": "consistent",
+            "snapshot_sha256": "3ce33d22288fa7bc7100c9ac621c041037702e8370af1e663d53a548ff794725",
+            "generations_checked": 49,
+            "records": {
+              "jurisdictions": 53,
+              "elections": 51,
+              "ballot_measures": 57,
+              "measure_provisions": 52,
+              "measure_results": 65,
+              "local_restrictions": 3,
+              "instrument_events": 12,
+              "measure_instrument_links": 1,
+              "source_documents": 168,
+              "claims": 625,
+              "review_decisions": 2756,
+              "search_runs": 1,
+              "search_attempts": 3,
+              "search_sightings": 18,
+              "coverage_observations": 1
+            },
+            "scope": "Offline publication/receipt consistency only; no source reacquisition, renewed factual acceptance or current-force confirmation."
+          }
+        },
+        {
+          "command": [
+            "scripts/build_expanded_csv.py",
+            "--check"
+          ],
+          "exit_code": 0,
+          "result": {
+            "state": "matches",
+            "source_snapshot": "3ce33d22288fa7bc7100c9ac621c041037702e8370af1e663d53a548ff794725",
+            "projection_sha256": "7b585b49998f8ca39b0ff433fe15c34335ea171bdd8960af1e7e9fdcf852f6cb",
+            "csv_views": 18
+          }
+        },
+        {
+          "command": [
+            "scripts/build_policy_scope_exports.py",
+            "--check"
+          ],
+          "exit_code": 0,
+          "result": "policy-scope exports current"
+        }
+      ],
+      "checks_run": true,
+      "scope": "Pinned input integrity and offline publication consistency, not source reacquisition or downstream join acceptance."
+    },
+    "policy_semantics": {
+      "total_state_policy_actions": 449,
+      "total_state_bills": 427,
+      "state_policy_instrument_type_counts": {
+        "bill": 427,
+        "executive_order": 3,
+        "governor_directive": 1,
+        "legislative_amendment": 1,
+        "legislative_precursor": 3,
+        "legislative_resolution": 12,
+        "statute": 2
+      },
+      "top_states_by_bills": [
+        [
+          "Pennsylvania",
+          18
+        ],
+        [
+          "Virginia",
+          18
+        ],
+        [
+          "West Virginia",
+          18
+        ],
+        [
+          "Maryland",
+          16
+        ],
+        [
+          "New Jersey",
+          16
+        ],
+        [
+          "California",
+          14
+        ],
+        [
+          "South Dakota",
+          14
+        ],
+        [
+          "Arizona",
+          13
+        ],
+        [
+          "Iowa",
+          13
+        ],
+        [
+          "Michigan",
+          13
+        ],
+        [
+          "Minnesota",
+          12
+        ],
+        [
+          "Ohio",
+          12
+        ],
+        [
+          "Oklahoma",
+          12
+        ],
+        [
+          "Illinois",
+          11
+        ],
+        [
+          "Kansas",
+          11
+        ]
+      ],
+      "top_states_by_policy_actions": [
+        [
+          "Pennsylvania",
+          22
+        ],
+        [
+          "Virginia",
+          18
+        ],
+        [
+          "West Virginia",
+          18
+        ],
+        [
+          "Maryland",
+          17
+        ],
+        [
+          "New Jersey",
+          17
+        ],
+        [
+          "California",
+          14
+        ],
+        [
+          "Michigan",
+          14
+        ],
+        [
+          "South Dakota",
+          14
+        ],
+        [
+          "Arizona",
+          13
+        ],
+        [
+          "Iowa",
+          13
+        ],
+        [
+          "Kansas",
+          12
+        ],
+        [
+          "Minnesota",
+          12
+        ],
+        [
+          "Ohio",
+          12
+        ],
+        [
+          "Oklahoma",
+          12
+        ],
+        [
+          "Illinois",
+          11
+        ]
+      ]
+    }
+  },
+  "index_verification": {
+    "snapshot": "data/source-snapshots/moratoria/2026-11-11-reviewed-v37",
+    "source_commit": "70b4d217dca964e28e70714a40cf90853edc36ea",
+    "manifest_sha256": "224900b66777c19f7616b6c770c2a1ac0c42951f24cdc10a74333f7006692ec2",
+    "tracked_files_and_symlinks": 2731,
+    "exact_staged_git_blob_bytes_and_modes": true,
+    "scope": "Exact staged snapshot content, Git modes and path set against the pinned manifest, including the manifest itself. This is not an independent legal review."
+  },
+  "baseline_handoff": "V36",
+  "expanded_tables_byte_identical": true,
+  "changed_cells": 6,
+  "changed_local_cells": 6,
+  "changed_policy_cells": 0,
+  "changed_local_rows": 1,
+  "changed_policy_rows": 0,
+  "new_policy_rows": 0,
+  "status_category_changes": 1,
+  "normalized_adoption_date_changes": 0,
+  "normalized_endpoint_changes": 0,
+  "duration_kind_changes": 1,
+  "whole_record_closures": 0,
+  "unresolved_records": 1347,
+  "field_changes": [
+    {
+      "id": "ga-cedartown-2026",
+      "field": "duration",
+      "before": "Six months per the city manager's public statement ahead of the vote.",
+      "after": "The signed October 12, 2026 commission minutes record approval of Resolution 22, 2026, a six-month data-center moratorium extension. The earlier initial six-month term was reported before the March 23 vote. The extension resolution text, effective anchor and precise endpoint remain unverified; no fixed-day conversion or exact end date is established."
+    },
+    {
+      "id": "ga-cedartown-2026",
+      "field": "legal_basis",
+      "before": "Cedartown City Commission Resolution 4, 2026, adopted March 23, 2026 (unanimous).",
+      "after": "Cedartown City Commission Resolution 4, 2026, adopted March 23, 2026 according to the previously reviewed minutes; the signed October 12, 2026 minutes additionally record unanimous approval of Resolution 22, 2026, Data Center Moratorium 6 Month Extension. The executed resolution text has not been recovered."
+    },
+    {
+      "id": "ga-cedartown-2026",
+      "field": "current_status",
+      "before": "Enacted March 23, 2026; no subsequent news of extension, replacement, or expiration was located in this research pass. [VERIFY status: six-month term ended about 2026-09-22; no extension, replacement or lapse found in the 2026-09 QA pass]",
+      "after": "The signed October 12, 2026 commission minutes record unanimous approval of Resolution 22, 2026, extending the data-center moratorium by six months. This supersedes the earlier statement that no extension was located; it does not establish uninterrupted force after the initial term. [VERIFY: executed Resolutions 4 and 22, extension effective anchor and exact endpoint, any intervening lapse, later replacement or termination, litigation and actual applicability/current force.]"
+    },
+    {
+      "id": "ga-cedartown-2026",
+      "field": "enacted_status",
+      "before": "active",
+      "after": "extended"
+    },
+    {
+      "id": "ga-cedartown-2026",
+      "field": "duration_days",
+      "before": "183",
+      "after": ""
+    },
+    {
+      "id": "ga-cedartown-2026",
+      "field": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term"
+    }
+  ],
+  "trusted_verifier_sha256": "ebecf851d4196715df186cc81cc3c933ab7da550fbafd7207996cd94b9cd2739",
+  "scope": "Six Cedartown cells confirm October12Resolution22six-month extension. Active887/extended199 retain1086recorded in-force. Exact interval, any lapse and laterforce unresolved. No normalizeddate/endpoint, sector, identity or nativehistory changes or whole-record closures.",
+  "consumer_commit": "7e8f016660550a10147af18f9f38ac3927b2f569",
+  "release_url": "https://github.com/mjbommar/moratorium-data-2026/releases/tag/v2026.11.11.post3",
+  "release_manifest_sha256": "f18090118c6e74c7ecd55670e570b91ee6c60fc8d7dfb034957c7b1dd8f3f1b6",
+  "hosted_copy_state": "pending"
+}
