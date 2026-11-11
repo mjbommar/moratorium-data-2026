@@ -1,0 +1,92 @@
+{
+  "manifest_sha256": {
+    "work/sources/MA/manifest.jsonl": "02ee34d90aaa4be7556ada9f55b4fe5e4929c1b04021a440bcdc14a4372922da"
+  },
+  "record_count": 2,
+  "eligible_verified_body_records": 2,
+  "gap_records": 0,
+  "issue_counts": {},
+  "migrated_records": 2,
+  "records": [
+    {
+      "manifest": "work/sources/MA/manifest.jsonl",
+      "line": 124,
+      "legacy_key": "efac330e74c92208-7a6b04a5f32b",
+      "row_sha256": "874c882c5bdcea696251264e060ed471da41621797f95f2b10f6b708059519bb",
+      "url": "https://townofheath.org/files/PB_2026_06_24_Minutes.pdf",
+      "original_body_sha256": "7a6b04a5f32bad3bf29eb1e301056402ecc36e9df83ff8b09459fd107543202e",
+      "original_text_sha256": "b91f381324e65d1bf0914a39d1320b66334f8de34a483b301a037a80712eb7ec",
+      "fetched_at": "2026-11-11T11:52:14.651265+00:00",
+      "published": false,
+      "payload": {
+        "path": "work/sources/MA/efac330e74c92208-7a6b04a5f32b.pdf",
+        "sha256": "7a6b04a5f32bad3bf29eb1e301056402ecc36e9df83ff8b09459fd107543202e",
+        "bytes": 137283
+      },
+      "text": {
+        "path": "work/sources/MA/efac330e74c92208-7a6b04a5f32b.txt",
+        "sha256": "b91f381324e65d1bf0914a39d1320b66334f8de34a483b301a037a80712eb7ec",
+        "bytes": 3929
+      },
+      "missing_files": [],
+      "issues": [],
+      "observation_id": "0f04d15f6b3c5c18",
+      "metadata_derivation_id": "b26a6d4d870d9d8a",
+      "text_derivation_id": "b6884fcc8f93bdd9"
+    },
+    {
+      "manifest": "work/sources/MA/manifest.jsonl",
+      "line": 125,
+      "legacy_key": "f5b89a0e39d30143-cdfa6ba63923",
+      "row_sha256": "c0eb36caeb9175f7ea4644f9e88ddde98870128ffb72863cdb53ae36d8c5b4db",
+      "url": "https://townofheath.org/files/PB_2026_09_02_Minutes.pdf",
+      "original_body_sha256": "cdfa6ba6392385cb520b5e9dcbc6de12491f91ec29b2ba00e09b0b64f94cd662",
+      "original_text_sha256": "f1e4e4bc7757eba9c84c2ab86a7c7d9c4363f487a6e3fd574e37d97aab0be0c1",
+      "fetched_at": "2026-11-11T11:52:14.996580+00:00",
+      "published": false,
+      "payload": {
+        "path": "work/sources/MA/f5b89a0e39d30143-cdfa6ba63923.pdf",
+        "sha256": "cdfa6ba6392385cb520b5e9dcbc6de12491f91ec29b2ba00e09b0b64f94cd662",
+        "bytes": 250606
+      },
+      "text": {
+        "path": "work/sources/MA/f5b89a0e39d30143-cdfa6ba63923.txt",
+        "sha256": "f1e4e4bc7757eba9c84c2ab86a7c7d9c4363f487a6e3fd574e37d97aab0be0c1",
+        "bytes": 3170
+      },
+      "missing_files": [],
+      "issues": [],
+      "observation_id": "42c393ac8ba57796",
+      "metadata_derivation_id": "a8a1574dfbf652d7",
+      "text_derivation_id": "171f70a78c897371"
+    }
+  ],
+  "scope": "Reversible legacy-manifest mapping and retained-byte verification only. Original publication values are preserved, not reassessed. All store material remains private; no source/legal acceptance, complete extraction, fresh acquisition or automatic public export. Missing bodies are not migrated as hash-only payloads.",
+  "exact_body_text_pairs_read_back": 2,
+  "canonical_changes": 0,
+  "whole_record_closures": 0,
+  "model_requests": 0,
+  "findings": [
+    "June24 minutes concern a residential special permit, with energy-related zoning left for further discussion. They do not record moratorium adoption.",
+    "September2 minutes record preference for a separate BESS bylaw and preparation of a town-specific draft. No moratorium adoption is recorded in these minutes. These are not later than the already reviewed October7 minutes."
+  ],
+  "blocked_routes": [
+    "https://townofheath.org/f/0/1075/Town-Clerk-Files",
+    "https://townofheath.org/f/0/5/Planning-Board-Meetings"
+  ],
+  "blocked_route_observation": "Web tool returned explicit bad-bot block for each. No bypass attempted; this is not evidence that records do not exist.",
+  "remaining_questions": [
+    "Distinct completed later Town Meeting action and any applicable AG disposition remain unverified. Do not repeat these retained June24/September2 minutes or October7 minutes for unchanged content."
+  ],
+  "searches": [
+    {
+      "provider": "web",
+      "query": "site:townofheath.org 2026 \"moratorium\""
+    },
+    {
+      "provider": "web",
+      "query": "site:townofheath.org 2026 \"Town Meeting\" November warrant"
+    }
+  ],
+  "search_limitations": "Search hits included 2025 meetings mentioning FY2026. Those are not 2026 moratorium outcomes; search absence does not establish absence of later action."
+}
