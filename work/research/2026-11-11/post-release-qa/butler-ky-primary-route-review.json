@@ -1,0 +1,38 @@
+{
+  "id": "ky-butler-county-2026",
+  "reviewed_at": "2026-11-11T13:02:58.198988+00:00",
+  "source_continuity": {
+    "path": "work/research/2026-11-11/post-release-qa/butler-ky-primary-source-continuity.json",
+    "sha256": "36ea30efd2d4966009d2728aeb2f44f2f0d9ac508a19460238f222a4fc1d8ffe"
+  },
+  "acquisition_outcomes": [
+    {
+      "url": "https://butlercountyclerk.ky.gov/record/",
+      "status": 200
+    },
+    {
+      "url": "https://butlercounty.ky.gov/County-Government/Pages/Fiscal-Court.aspx",
+      "status": 403
+    }
+  ],
+  "observations": [
+    "Clerk records page advertises eCCLIX. Free route is expressly for Butler County residents, personal reasons, zero commercial gain, limited to five searches per day. Commercial document research route requires subscription. Neither route was entered; no account created or payment made.",
+    "Fiscal Court page HTTP403 does not establish absence of minutes or adoption. No challenge bypass attempted.",
+    "Other trackers assert July13 adoption but do not replace a completed final vote, adopted instrument or publication record. Existing first/second-reading reporting was not re-fetched."
+  ],
+  "remaining_questions": [
+    "July13 final vote/minutes, executed ordinance number and adopted term.",
+    "Publication, legal effective date and later county actions through cutoff."
+  ],
+  "resume_condition": "Distinct accessible official minutes/ordinance/publication or newly supplied authorized records access; avoid repeating unchanged tracker claims or restricted clerk route.",
+  "canonical_changes": 0,
+  "whole_record_closures": 0,
+  "queries": [
+    "Butler County Kentucky data center moratorium July 13 2026 ordinance fiscal court",
+    "site.butlercounty.ky.gov ordinances data 2026",
+    "Butler county Kentucky fiscal court ordinances minutes official July 13 2026",
+    "Butler moratorium 2026 site:kypublicnotice.com",
+    "Butler data July 13 2026 ordinance",
+    "site:butlercounty.ky.gov Ordinances"
+  ]
+}
