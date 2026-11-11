@@ -10,6 +10,8 @@ Run from repo root:
 
 from __future__ import annotations
 
+from site_navigation import navigation
+
 import posixpath
 import re
 from pathlib import Path
@@ -52,6 +54,7 @@ PAGE_TEMPLATE = """<!doctype html>
 <title>{title} · Moratorium Nation</title>
 <script src="{prefix}site/theme.js"></script>
 <link rel="stylesheet" href="{prefix}site/theme.css">
+<link rel="stylesheet" href="{prefix}site/navigation.css">
 <meta name="description" content="{title} — Moratorium Nation, the open dataset and working paper on local-government moratoria targeting data centers, battery storage, solar, wind, and cryptocurrency mining across the United States.">
 <style>
   :root {{
@@ -85,37 +88,6 @@ PAGE_TEMPLATE = """<!doctype html>
   }}
   a {{ color: var(--accent); text-decoration: none; }}
   a:hover {{ text-decoration: underline; }}
-
-  .topbar {{
-    background: var(--surface);
-    border-bottom: 1px solid var(--line);
-    padding: 12px 24px;
-  }}
-  .topbar-inner {{
-    max-width: 920px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
-    gap: 16px;
-    flex-wrap: wrap;
-  }}
-  .topbar a.brand {{
-    font-weight: 600;
-    color: var(--ink);
-    font-size: 15px;
-    letter-spacing: -0.01em;
-  }}
-  .topbar a.brand:hover {{ text-decoration: none; color: var(--accent); }}
-  .topbar nav {{
-    display: flex;
-    flex-wrap: wrap;
-    max-width: 100%;
-    gap: 18px;
-    font-size: 14px;
-  }}
-  .topbar nav a {{ color: var(--ink-soft); }}
-  .topbar nav a:hover {{ color: var(--accent); }}
 
   main.doc {{
     overflow-wrap: anywhere;
@@ -237,21 +209,7 @@ PAGE_TEMPLATE = """<!doctype html>
 </head>
 <body>
 
-<div class="topbar">
-  <div class="topbar-inner">
-    <a class="brand" href="{home}">Moratorium Nation</a>
-    <nav>
-      <a href="{home}">Map</a>
-      <a href="{prefix}states/index.html">States</a>
-      <a href="{prefix}docs/ballot-results.html">Ballots</a>
-      <a href="{prefix}docs/FAQ.html">FAQ</a>
-      <a href="{prefix}docs/methodology.html">Methodology</a>
-      <a href="{prefix}paper/moratorium-nation-2026-04-30.pdf">Paper</a>
-      <a href="https://github.com/mjbommar/moratorium-data-2026">GitHub</a>
-      <button class="theme-toggle" id="theme-toggle" type="button" aria-pressed="false" hidden><span class="theme-indicator" aria-hidden="true"></span>Dark mode</button>
-    </nav>
-  </div>
-</div>
+{navigation}
 
 <main class="doc">
   <div class="breadcrumb"><a href="{home}">← Home</a></div>
@@ -342,6 +300,7 @@ def render() -> None:
         body_with_breadcrumb = body  # breadcrumb is already in the template
         # Replace the default breadcrumb with the contextual one
         page_html = PAGE_TEMPLATE.format(
+            navigation=navigation(prefix, dst),
             title=title,
             home=home,
             prefix=prefix,

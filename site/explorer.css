@@ -1,0 +1,22 @@
+.record-explorer { max-width:1200px; margin:36px auto; padding:24px; border:1px solid var(--line); border-radius:8px; background:var(--surface); scroll-margin-top:16px; }
+.record-explorer h2 { margin-top:0; }
+.explorer-filters { display:grid; grid-template-columns:2fr repeat(3,1fr); gap:16px; }
+.explorer-filters label { display:flex; flex-direction:column; gap:6px; font-size:14px; font-weight:600; }
+.record-explorer input, .record-explorer select, .record-explorer button { font:inherit; color:var(--ink); background:var(--surface); border:1px solid var(--line); border-radius:5px; padding:10px; min-height:44px; }
+.record-explorer input, .record-explorer select { width:100%; min-width:0; }
+.record-explorer button { cursor:pointer; }
+.record-explorer button:disabled { opacity:.5; cursor:default; }
+.record-explorer :focus-visible { outline:2px solid var(--accent); outline-offset:2px; }
+.explorer-actions { display:flex; align-items:center; flex-wrap:wrap; gap:12px; margin:18px 0; font-size:14px; }
+.record-table-scroll { overflow:auto; }
+.record-table { width:100%; border-collapse:collapse; font-size:14px; text-align:left; }
+.record-table caption { text-align:left; padding:8px 0; color:var(--ink-soft); }
+.record-table th, .record-table td { border-bottom:1px solid var(--line); padding:12px 8px; vertical-align:top; }
+.record-table th button { border:0; padding:4px 0; text-align:left; font-weight:600; }
+.record-table td { min-width:100px; }
+.record-table td:first-child { min-width:140px; }
+.record-table details { min-width:180px; max-width:420px; }
+.record-table summary { cursor:pointer; color:var(--accent); padding:4px 0; }
+.record-table details p { overflow-wrap:anywhere; }
+@media(max-width:900px) { .record-explorer { margin:24px 16px; padding:16px; } .explorer-filters { grid-template-columns:1fr 1fr; } }
+@media(max-width:480px) { .explorer-filters { grid-template-columns:1fr; } }

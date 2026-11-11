@@ -18,6 +18,9 @@ Run from repo root:
 
 from __future__ import annotations
 
+from site_navigation import navigation
+from site_explorer import explorer, write_explorer_data
+
 import argparse
 import csv
 import json
@@ -284,7 +287,13 @@ def main() -> int:
     f = facts()
     html = INDEX.read_text(encoding="utf-8")
     original = html
-    applied, missing = [], []
+    for name, content in [('shared navigation', navigation()), ('record explorer', explorer())]:
+        html = re.sub(r'<!-- BEGIN ' + name + r' -->.*?<!-- END ' + name + r' -->',
+                      '<!-- BEGIN ' + name + ' -->\n' + content + '\n<!-- END ' + name + ' -->', html, flags=re.S)
+    if not args.check:
+        write_explorer_data()
+
+    applied, missing = (["navigation and record browser"] if html != original else []), []
 
     # Insert or refresh the generated "what changed" section.
     block = changes_section(f)

@@ -10,6 +10,9 @@
 <meta name="theme-color" content="#2a78d6">
 <script src="site/theme.js"></script>
 <link rel="stylesheet" href="site/theme.css">
+<link rel="stylesheet" href="site/navigation.css">
+<link rel="stylesheet" href="site/explorer.css">
+<script defer src="site/explorer.js"></script>
 <link rel="canonical" href="https://mjbommar.github.io/moratorium-data-2026/">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%232a78d6'/%3E%3Cpath d='M19 16h10v32H19zm16 0h10v32H35z' fill='white'/%3E%3C/svg%3E">
 
@@ -645,11 +648,22 @@
 </style>
 </head>
 <body>
+<!-- BEGIN shared navigation -->
+<header class="site-header">
+  <div class="site-header-inner">
+    <a class="site-brand" href="index.html">Moratorium Nation</a>
+    <details class="site-menu"><summary>Menu</summary>
+      <nav aria-label="Main navigation"><a href="index.html#explore" aria-current="page">Explore</a><a href="states/index.html">States</a><a href="docs/ballot-results.html">Ballot measures</a><a href="data/index.html">Data</a><a href="docs/FAQ.html">About the data</a></nav>
+    </details>
+    <button class="theme-toggle" id="theme-toggle" type="button" aria-pressed="false" hidden><span class="theme-indicator" aria-hidden="true"></span>Dark mode</button>
+  </div>
+</header>
+<!-- END shared navigation -->
 
 <header class="hero">
   <div class="hero-meta">
   <div class="eyebrow"><span class="dot"></span>Updated November 11, 2026</div>
-  <button class="theme-toggle" id="theme-toggle" type="button" aria-pressed="false" hidden><span class="theme-indicator" aria-hidden="true"></span>Dark mode</button>
+
   </div>
   <h1>Moratorium Nation</h1>
   <p class="subtitle">Track local pauses on data centers, battery storage, solar, wind, and cryptocurrency mining in the United States. Browse state policies and related ballot measures in separate trackers.</p>
@@ -718,6 +732,36 @@
     </div>
   </div>
 </div>
+
+<!-- BEGIN record explorer -->
+<section class="record-explorer" id="explore" aria-labelledby="explore-title">
+  <h2 id="explore-title">Explore local moratoria</h2>
+  <p>Search all local records, including those without map coordinates. Status describes the recorded action; check the details for dates and unresolved questions. State policies and ballot measures have separate trackers.</p>
+  <p><a href="data/moratorium_inventory.csv" download>Download the complete local inventory (CSV)</a></p>
+  <div id="explorer-app" hidden>
+    <div class="explorer-filters">
+      <label>Search records<input id="record-search" type="search" placeholder="Place, project, ordinance, or keyword"></label>
+      <label>State<select id="record-state"><option value="">All states</option></select></label>
+      <label>Sector<select id="record-sector"><option value="">All sectors</option></select></label>
+      <label>Recorded status<select id="record-status"><option value="">All statuses</option></select></label>
+    </div>
+    <div class="explorer-actions"><button type="button" id="record-reset">Clear filters</button><button type="button" id="record-export">Export matching records (CSV)</button><span id="record-count" role="status" aria-live="polite"></span></div>
+    <div class="record-table-scroll" tabindex="0" role="region" aria-label="Moratorium records; scroll horizontally for more columns">
+      <table class="record-table"><caption>Local moratorium records. Select a column heading to sort.</caption><thead><tr>
+        <th scope="col" aria-sort="ascending"><button data-sort="jurisdiction" type="button">Place ↕</button></th>
+        <th scope="col"><button data-sort="state" type="button">State ↕</button></th>
+        <th scope="col"><button data-sort="sectors" type="button">Sector ↕</button></th>
+        <th scope="col"><button data-sort="enacted_status" type="button">Recorded status ↕</button></th>
+        <th scope="col"><button data-sort="date_enacted_iso" type="button">Listed enactment date ↕</button></th>
+        <th scope="col">Details</th>
+      </tr></thead><tbody id="record-rows"></tbody></table>
+    </div>
+    <div class="explorer-actions"><button type="button" id="record-prev">Previous</button><span id="record-page"></span><button type="button" id="record-next">Next</button></div>
+  </div>
+  <p id="explorer-message">Loading the record browser. The complete CSV is also available above.</p>
+  <noscript><p>Enable JavaScript to search and filter records here, or browse <a href="states/index.html">records by state</a>.</p></noscript>
+</section>
+<!-- END record explorer -->
 
 <div class="map-wrap">
   <div id="map"></div>
