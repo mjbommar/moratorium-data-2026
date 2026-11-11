@@ -1,0 +1,62 @@
+{
+  "id": "tn-gallatin-undated",
+  "dataset": "local_inventory",
+  "baseline_commit": "5750550fc8d54006fde06d40f579378b76d3c870",
+  "applied_at": "2026-11-11T16:50:03.446655+00:00",
+  "prior_row_sha256": "58568a515594a2d638d1d3e12e6dc0806813f7ccdb8dd8244d1550a267f29360",
+  "current_row_sha256": "99ded3649d4f7b6b3d87d7b5742b09cc558491921ebffd1511af4a8960b5d21f",
+  "canonical_cells_changed": 5,
+  "field_changes": [
+    {
+      "field": "duration",
+      "before": "Six months (as amended on first reading)",
+      "after": "Proposed term: six months. The draft would take effect upon final passage. No effective date or end date is confirmed.",
+      "acceptance": "independent_revision_review"
+    },
+    {
+      "field": "legal_basis",
+      "before": "Proposed Gallatin Ordinance O26\u00d89-67 enacting a moratorium on accepting and processing new applications for data center development (first reading reported); projects already approved exempt",
+      "after": "The November 3, 2026 council packet contains an unsigned amended draft of Ordinance O26\u00d89-67. It proposes a six-month moratorium on accepting and processing new applications for data-center development. Section 7 would make it effective upon final passage; final passage is not confirmed.",
+      "acceptance": "independent_initial_review"
+    },
+    {
+      "field": "current_status",
+      "before": "First reading passed 2026-09-15; November 2 reporting scheduled second reading for 2026-11-03. Outcome and current legal force unresolved. [VERIFY second-reading outcome, adopted text and effective date.]",
+      "after": "The November 3, 2026 agenda lists amended Ordinance O26\u00d89-67 for second reading. The attached October 20 minutes record a public hearing, not final passage. The draft has a blank second-reading date and unsigned execution lines. [VERIFY November 3 vote, final adopted text, effective date, and later actions.]",
+      "acceptance": "independent_initial_review"
+    },
+    {
+      "field": "outcome",
+      "before": "",
+      "after": "October 20 minutes confirm that the council held and closed the data-center moratorium hearing. They do not record final passage of that proposal. The city agenda index row links the November 3 agenda but has no minutes link for that meeting.",
+      "acceptance": "independent_revision_review"
+    },
+    {
+      "field": "affected_projects",
+      "before": "New data center applications; existing approvals (including Meta) exempt unless adding space",
+      "after": "The draft would exempt data-center projects with an approved master development plan, site plan, permit, or current entitlement through an approved site plan or master development plan. An amendment to an existing approved data center would qualify only if it requests no additional data-center space, measured in square feet, beyond the amount previously approved. Facilities used primarily for telecommunications services or emergency communications infrastructure would not be classified as data centers. Whether a particular Meta project qualifies remains unconfirmed.",
+      "acceptance": "coordinator_source_adjudication_after_independent_hold"
+    }
+  ],
+  "independent_review": {
+    "path": "work/research/2026-11-11/post-release-qa/gallatin-rice-independent-review.json",
+    "sha256": "ad43765209286265dd3f9e02231a2866c3ad4afc572fd668aba0a930e9f86951"
+  },
+  "source_continuity": {
+    "path": "work/research/2026-11-11/post-release-qa/gallatin-rice-source-continuity.json",
+    "sha256": "d92e04ad01eecc8c471dd77328950570da856de71c910c80c2ce665e1f754543"
+  },
+  "recommendation": "unresolved",
+  "whole_record_closures": 0,
+  "resolved_questions": [
+    "The October 20 council minutes establish that a public hearing on amended Ordinance O2609-67 was held and closed.",
+    "The November 3 agenda scheduled the amended ordinance for second reading.",
+    "The amended draft specifies a six-month proposal and conditional exceptions; it states that it would take effect upon final passage."
+  ],
+  "remaining_questions": [
+    "The October 20 hearing, November 3 second-reading agenda, six-month unsigned draft, conditional exceptions, and final-passage clause have been recovered. Reuse the retained November 3 packet and November 11 agenda-index capture; do not repeat the same draft or pre-meeting news to establish these facts.",
+    "Obtain the actual November 3 vote and final adopted text, if any. The blank second-reading and signature lines do not establish final passage.",
+    "Establish the effective and end dates and any distinct later amendment, extension, repeal, court action or project-specific exception. No particular Meta project eligibility is confirmed."
+  ],
+  "scope": "Five prose corrections. No status, normalized adoption/effective/end date, identity, count, coordinate, ballot or native-history change. Rice historical vote is confirmed; exact legal effect and later force remain unconfirmed."
+}

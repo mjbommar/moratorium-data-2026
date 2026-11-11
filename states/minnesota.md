@@ -415,17 +415,17 @@ The separate state tracker has **12 records** for Minnesota: 12 bill records and
 
 - **Type:** City
 - **Status:** 🟡 Pending
-- **Recorded date:** —
+- **Recorded date:** On September 21, 2026, the council voted 5–0 to approve Resolution #092126-27, described in the signed minutes as a resolution concerning an interim ordinance authorizing a study and imposing a data-center moratorium. The full instrument and its effective-date provisions have not been confirmed.
 - **Date field:** `—` (unverified)
-- **Duration:** As proposed: one year, or earlier upon amending the zoning ordinance regarding data centers or a council resolution ending the moratorium.
+- **Duration:** At the September 21 meeting, Skroch said the moratorium was for up to a year. The full instrument, term anchor, and any early-termination conditions remain unconfirmed.
 - **Current end date:** `—`
 - **Sectors:** data center
 - **Record ID:** `mn-rice-undated`
-- **Authority and source:** A proposed interim ordinance was scheduled for a City Council vote on September 21, 2026, to prohibit the establishment, construction, or expansion of data centers within the city for one year and to authorize a Planning Commission study, under Minn. Stat. Sec. 462.355; the outcome of that vote was not confirmed in sources located as of 2026-09-23.
+- **Authority and source:** Signed September 21, 2026 council minutes identify Resolution #092126-27 as an interim ordinance authorizing a study and imposing a moratorium on data centers. The minutes record approval by 5–0 but do not supply the adopted legal text or its effective-date provisions.
 - **What prompted it:** The reported proposal would protect the city planning process while data-center land uses are studied. The claimed connection to a Rice County petition is unverified for the City of Rice proposal.
 - **Affected projects:** None named.
-- **Status notes:** WJON reported that the City of Rice was scheduled to consider a proposed one-year moratorium and study on September 21, 2026; the retained article does not report the vote result. A Rice County-labelled blog repeats that report. [VERIFY vote result and whether the Rice County petition relates to this proposal.]
-- **Outcome:** Vote scheduled for 2026-09-21; outcome not confirmed in sources located in this pass.
+- **Status notes:** Signed September 21, 2026 minutes confirm a 5–0 vote to approve Resolution #092126-27 on a data-center study and moratorium. They resolve the previously unconfirmed vote result. [VERIFY adopted instrument, publication and effective date, exact scope and term, and later actions.]
+- **Outcome:** The council approved Resolution #092126-27 on September 21, 2026, by 5–0. The minutes describe it as an interim ordinance authorizing a study and imposing a data-center moratorium. The separate solar ordinance 2026-01 and solar publication Resolution #092126-24 do not identify the data-center instrument.
 
 ### Rosemount
 

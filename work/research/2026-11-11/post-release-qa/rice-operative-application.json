@@ -1,0 +1,62 @@
+{
+  "id": "mn-rice-undated",
+  "dataset": "local_inventory",
+  "baseline_commit": "5750550fc8d54006fde06d40f579378b76d3c870",
+  "applied_at": "2026-11-11T16:50:03.448958+00:00",
+  "prior_row_sha256": "5eaa8ec287cf2df945702cc5c39826bb9832e70ee19967815491c92c133275e8",
+  "current_row_sha256": "34d4752d22c69c7297e151907760d14e904dec4b2bba8c9a8f16f2364aec7f93",
+  "canonical_cells_changed": 5,
+  "field_changes": [
+    {
+      "field": "date_enacted",
+      "before": "",
+      "after": "On September 21, 2026, the council voted 5\u20130 to approve Resolution #092126-27, described in the signed minutes as a resolution concerning an interim ordinance authorizing a study and imposing a data-center moratorium. The full instrument and its effective-date provisions have not been confirmed.",
+      "acceptance": "independent_revision_review"
+    },
+    {
+      "field": "duration",
+      "before": "As proposed: one year, or earlier upon amending the zoning ordinance regarding data centers or a council resolution ending the moratorium.",
+      "after": "At the September 21 meeting, Skroch said the moratorium was for up to a year. The full instrument, term anchor, and any early-termination conditions remain unconfirmed.",
+      "acceptance": "independent_revision_review"
+    },
+    {
+      "field": "legal_basis",
+      "before": "A proposed interim ordinance was scheduled for a City Council vote on September 21, 2026, to prohibit the establishment, construction, or expansion of data centers within the city for one year and to authorize a Planning Commission study, under Minn. Stat. Sec. 462.355; the outcome of that vote was not confirmed in sources located as of 2026-09-23.",
+      "after": "Signed September 21, 2026 council minutes identify Resolution #092126-27 as an interim ordinance authorizing a study and imposing a moratorium on data centers. The minutes record approval by 5\u20130 but do not supply the adopted legal text or its effective-date provisions.",
+      "acceptance": "independent_initial_review"
+    },
+    {
+      "field": "current_status",
+      "before": "WJON reported that the City of Rice was scheduled to consider a proposed one-year moratorium and study on September 21, 2026; the retained article does not report the vote result. A Rice County-labelled blog repeats that report. [VERIFY vote result and whether the Rice County petition relates to this proposal.]",
+      "after": "Signed September 21, 2026 minutes confirm a 5\u20130 vote to approve Resolution #092126-27 on a data-center study and moratorium. They resolve the previously unconfirmed vote result. [VERIFY adopted instrument, publication and effective date, exact scope and term, and later actions.]",
+      "acceptance": "independent_initial_review"
+    },
+    {
+      "field": "outcome",
+      "before": "Vote scheduled for 2026-09-21; outcome not confirmed in sources located in this pass.",
+      "after": "The council approved Resolution #092126-27 on September 21, 2026, by 5\u20130. The minutes describe it as an interim ordinance authorizing a study and imposing a data-center moratorium. The separate solar ordinance 2026-01 and solar publication Resolution #092126-24 do not identify the data-center instrument.",
+      "acceptance": "independent_initial_review"
+    }
+  ],
+  "independent_review": {
+    "path": "work/research/2026-11-11/post-release-qa/gallatin-rice-independent-review.json",
+    "sha256": "ad43765209286265dd3f9e02231a2866c3ad4afc572fd668aba0a930e9f86951"
+  },
+  "source_continuity": {
+    "path": "work/research/2026-11-11/post-release-qa/gallatin-rice-source-continuity.json",
+    "sha256": "d92e04ad01eecc8c471dd77328950570da856de71c910c80c2ce665e1f754543"
+  },
+  "recommendation": "unresolved",
+  "whole_record_closures": 0,
+  "resolved_questions": [
+    "The previously unconfirmed September 21 vote resulted in approval of Resolution #092126-27 by 5\u20130.",
+    "The minutes describe that item as involving an interim ordinance authorizing a study and imposing a data-center moratorium.",
+    "The data-center action is distinct from solar Ordinance 2026-01 and solar publication Resolution #092126-24."
+  ],
+  "remaining_questions": [
+    "Signed September 21 minutes, page1 item5(h), resolve the vote result: Resolution092126-27 was approved5\u20130. Page2 has clerk and mayor signatures. Reuse these retained original PDF bytes and both page images; do not repeat the failed separate download link or treat its home-page redirect as minutes.",
+    "Obtain the full data-center instrument, its precise legal form, scope, effective/publication provisions, term anchor and any early-termination conditions. The separately approved solar Ordinance2026-01 and solar publication Resolution092126-24 are not the data-center instrument. Skroch\u2019s statement of up to a year is not the exact legal term.",
+    "Check distinct later city actions and actual project applicability/current force. The reviewed city minutes do not establish a relationship to the separately reported Rice County petition."
+  ],
+  "scope": "Five prose corrections. No status, normalized adoption/effective/end date, identity, count, coordinate, ballot or native-history change. Rice historical vote is confirmed; exact legal effect and later force remain unconfirmed."
+}

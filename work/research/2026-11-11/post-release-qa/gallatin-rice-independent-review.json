@@ -1,0 +1,740 @@
+{
+  "initial_review": {
+    "input_manifest_sha256": "60d9218cdca43924856254da0fcb6e873daaecf5bcb7c93460d034eed9f26d9c",
+    "source_pins": [
+      {
+        "source_id": "gallatin-nov03-agenda",
+        "state": "TN",
+        "key": "gallatin-nov03-agenda-9fe192b88534",
+        "url": "https://www.gallatintn.gov/AgendaCenter/ViewFile/Agenda/_11032026-1008",
+        "body_sha256": "9fe192b885345506dbb9525e8cb04b3c4598a4edbdb68f57aeaa232f73bbccab",
+        "body_private_path": "/data0/moratorium-refresh-2026/gallatin-primary-2026-11-11/nov03-agenda.pdf",
+        "text_private_path": "/data0/moratorium-refresh-2026/gallatin-primary-2026-11-11/nov03-agenda.txt",
+        "text_sha256": "20987f624507bf9161cf67187449782025eb957867c5cd5180a92c197c4eaa56",
+        "review_text_path": "/data0/moratorium-refresh-2026/gallatin-rice-review-2026-11-11/gallatin-selected.txt",
+        "review_text_sha256": "6684a72d5b3416eabfdd78d3317735cce53f7375a45680d704e4902be3d613ec",
+        "selection": "Complete physical pages 1,2,8,9,34,35,36,37 of the 188-page packet; other pages not supplied."
+      },
+      {
+        "source_id": "gallatin-agenda-index",
+        "state": "TN",
+        "key": "gallatin-agenda-index-2e789bf308e0",
+        "url": "https://www.gallatintn.gov/agendacenter",
+        "body_sha256": "2e789bf308e018fbb9fec2be7edf33f1605370b97dbac2d8c9c80f8b9044ae9e",
+        "body_private_path": "/data0/moratorium-refresh-2026/gallatin-primary-2026-11-11/agenda-index.html",
+        "text_private_path": "/data0/moratorium-refresh-2026/gallatin-primary-2026-11-11/agenda-index.txt",
+        "text_sha256": "393dec160c5f47a843ddd1ff20026bfb1a784de5f85e38431cb3b22762495c99",
+        "review_text_path": "/data0/moratorium-refresh-2026/gallatin-rice-review-2026-11-11/gallatin-index-selected.txt",
+        "review_text_sha256": "e51805494413ea49a9d66e0c7159b6cc7a3f187c1f4c301a2a7e306d614719e8",
+        "selection": "Exact complete HTML table row for November 3; empty minutes cell in original HTML."
+      },
+      {
+        "source_id": "rice-sep21-signed-minutes",
+        "state": "MN",
+        "key": "rice-sep21-signed-minutes-4209b5e55a18",
+        "url": "https://www.ricemn.us/api/blob/viewBlob?i=SJ4sSPoFOMuOM1yAGKNRnAsH5raHFBq2Cw%2fpnIILmVNShbKN0sq5TFDGCyt5Z5LW",
+        "body_sha256": "4209b5e55a18cc08ee9dd683fe3a4185e53ad7b1810773084af3d4bf5904a8b7",
+        "body_private_path": "/data0/moratorium-refresh-2026/rice-primary-2026-11-11/sep21-minutes.pdf",
+        "text_private_path": "/data0/moratorium-refresh-2026/rice-primary-2026-11-11/sep21-minutes-ocr.txt",
+        "text_sha256": "cf2b9c81f0bf1b48c37a9aaed7d6649084852c0d6defced496ebe58ebc763054",
+        "review_text_path": "/data0/moratorium-refresh-2026/gallatin-rice-review-2026-11-11/rice-selected.txt",
+        "review_text_sha256": "cf2b9c81f0bf1b48c37a9aaed7d6649084852c0d6defced496ebe58ebc763054",
+        "selection": "OCR of both scanned pages. Original page images are authoritative for votes, signatures and exact wording."
+      }
+    ],
+    "image_pins": [
+      {
+        "source_id": "gallatin-nov03-agenda",
+        "pdf_page": 8,
+        "sha256": "9e76e977847e926663249d3935c63762b5a96f5e391be5c80007b3421ac85153",
+        "path": "/data0/moratorium-refresh-2026/gallatin-rice-review-2026-11-11/gallatin-page8.png"
+      },
+      {
+        "source_id": "gallatin-nov03-agenda",
+        "pdf_page": 34,
+        "sha256": "f9c64a2c161b2530787faf89a6e588704453082b2215e85a64e2d28e77821d2c",
+        "path": "/data0/moratorium-refresh-2026/gallatin-rice-review-2026-11-11/gallatin-page34.png"
+      },
+      {
+        "source_id": "gallatin-nov03-agenda",
+        "pdf_page": 35,
+        "sha256": "fc805abdea0be18c0a071f1fbc79d3b76a57bb7dc39e26da133ba38758adc662",
+        "path": "/data0/moratorium-refresh-2026/gallatin-rice-review-2026-11-11/gallatin-page35.png"
+      },
+      {
+        "source_id": "gallatin-nov03-agenda",
+        "pdf_page": 36,
+        "sha256": "9e0521336e6fea3901b3a7624de0d3905a80ef5ad8579be30d7ba235bf8c5ec0",
+        "path": "/data0/moratorium-refresh-2026/gallatin-rice-review-2026-11-11/gallatin-page36.png"
+      },
+      {
+        "source_id": "rice-sep21-signed-minutes",
+        "pdf_page": 1,
+        "sha256": "3da67d7f6dc5e7a7c51b3ef5e74325861ef83b8276040f279e2e67745de34ec8",
+        "path": "/data0/moratorium-refresh-2026/rice-primary-2026-11-11/sep21-1.png"
+      },
+      {
+        "source_id": "rice-sep21-signed-minutes",
+        "pdf_page": 2,
+        "sha256": "9870d3d384487cf974633b3b4f1e2a9508029f134ee603d44f7bad3f93747e42",
+        "path": "/data0/moratorium-refresh-2026/rice-primary-2026-11-11/sep21-2.png"
+      }
+    ],
+    "candidate": [
+      {
+        "id": "tn-gallatin-undated",
+        "row_sha256": "58568a515594a2d638d1d3e12e6dc0806813f7ccdb8dd8244d1550a267f29360",
+        "proposed_changes": [
+          {
+            "field": "duration",
+            "before": "Six months (as amended on first reading)",
+            "after": "Proposed term: six calendar months. The draft would take effect upon final passage. No effective date or end date is confirmed."
+          },
+          {
+            "field": "legal_basis",
+            "before": "Proposed Gallatin Ordinance O26\u00d89-67 enacting a moratorium on accepting and processing new applications for data center development (first reading reported); projects already approved exempt",
+            "after": "The November 3, 2026 council packet contains an unsigned amended draft of Ordinance O26\u00d89-67. It proposes a six-month moratorium on accepting and processing new applications for data-center development. Section 7 would make it effective upon final passage; final passage is not confirmed."
+          },
+          {
+            "field": "current_status",
+            "before": "First reading passed 2026-09-15; November 2 reporting scheduled second reading for 2026-11-03. Outcome and current legal force unresolved. [VERIFY second-reading outcome, adopted text and effective date.]",
+            "after": "The November 3, 2026 agenda lists amended Ordinance O26\u00d89-67 for second reading. The attached October 20 minutes record a public hearing, not final passage. The draft has a blank second-reading date and unsigned execution lines. [VERIFY November 3 vote, final adopted text, effective date, and later actions.]"
+          },
+          {
+            "field": "affected_projects",
+            "before": "New data center applications; existing approvals (including Meta) exempt unless adding space",
+            "after": "The draft would exempt approved master development plans, site plans, permits, and current entitlements through an approved site or master development plan. Amendments would be exempt only if they request no additional data-center floor area. Facilities used primarily for telecommunications or emergency communications would not be classified as data centers. The draft does not establish whether a particular Meta expansion qualifies for an exemption."
+          },
+          {
+            "field": "outcome",
+            "before": "",
+            "after": "October 20 minutes confirm that the council held and closed the data-center moratorium hearing. They do not record final passage of that proposal. The city agenda index checked November 11 links the November 3 agenda but has no minutes link for that meeting."
+          }
+        ],
+        "status_and_normalized_dates": "Unchanged pending classification and blank normalized dates; these cells do not determine current legal force."
+      },
+      {
+        "id": "mn-rice-undated",
+        "row_sha256": "5eaa8ec287cf2df945702cc5c39826bb9832e70ee19967815491c92c133275e8",
+        "proposed_changes": [
+          {
+            "field": "date_enacted",
+            "before": "",
+            "after": "On September 21, 2026, the council voted 5\u20130 to approve Resolution #092126-27, described in the signed minutes as an interim ordinance authorizing a study and imposing a data-center moratorium. The adopted instrument and its effective-date provisions have not been confirmed."
+          },
+          {
+            "field": "duration",
+            "before": "As proposed: one year, or earlier upon amending the zoning ordinance regarding data centers or a council resolution ending the moratorium.",
+            "after": "The September 21 minutes describe a term of up to one year. The adopted instrument, term anchor, and any early-termination conditions remain unconfirmed."
+          },
+          {
+            "field": "legal_basis",
+            "before": "A proposed interim ordinance was scheduled for a City Council vote on September 21, 2026, to prohibit the establishment, construction, or expansion of data centers within the city for one year and to authorize a Planning Commission study, under Minn. Stat. Sec. 462.355; the outcome of that vote was not confirmed in sources located as of 2026-09-23.",
+            "after": "Signed September 21, 2026 council minutes identify Resolution #092126-27 as an interim ordinance authorizing a study and imposing a moratorium on data centers. The minutes record approval by 5\u20130 but do not supply the adopted legal text or its effective-date provisions."
+          },
+          {
+            "field": "current_status",
+            "before": "WJON reported that the City of Rice was scheduled to consider a proposed one-year moratorium and study on September 21, 2026; the retained article does not report the vote result. A Rice County-labelled blog repeats that report. [VERIFY vote result and whether the Rice County petition relates to this proposal.]",
+            "after": "Signed September 21, 2026 minutes confirm a 5\u20130 vote to approve Resolution #092126-27 on a data-center study and moratorium. They resolve the previously unconfirmed vote result. [VERIFY adopted instrument, publication and effective date, exact scope and term, and later actions.]"
+          },
+          {
+            "field": "outcome",
+            "before": "Vote scheduled for 2026-09-21; outcome not confirmed in sources located in this pass.",
+            "after": "The council approved Resolution #092126-27 on September 21, 2026, by 5\u20130. The minutes describe it as an interim ordinance authorizing a study and imposing a data-center moratorium. The separate solar ordinance 2026-01 and solar publication Resolution #092126-24 do not identify the data-center instrument."
+          }
+        ],
+        "status_and_normalized_dates": "Unchanged pending classification and blank normalized dates; these cells do not determine current legal force."
+      }
+    ],
+    "captures": [
+      {
+        "stage": "blind_extraction",
+        "attempt_id": "9eb35320d7e3483a8ed12d00234cd4be",
+        "descriptor_sha256": "aacae4186e41bb8f951b323c74ca1609a7af3779cd9ae5c25eb6b3e0fb884ffb",
+        "wire_request_sha256": "32a6f8e04a9b9e9a26af538f940aad50a85aaf9a2e48449b1565f9a0ec895a87",
+        "wire_response_sha256": "09ec641e2abab746734f4c146bbd74f7f4f868b198ab3eacc3a78e242dc4b1d6",
+        "actual_input_descriptor_matches": true,
+        "wire_sdk_output_matches_after_null_default_normalization": true,
+        "parsed_answer_matches": true,
+        "usage": {
+          "input_tokens": 22566,
+          "input_tokens_details": {
+            "cache_write_tokens": 22563,
+            "cached_tokens": 0
+          },
+          "output_tokens": 1642,
+          "output_tokens_details": {
+            "reasoning_tokens": 60
+          },
+          "total_tokens": 24208
+        },
+        "all_selected_source_page_images_bound": true
+      },
+      {
+        "stage": "cell_adjudication",
+        "attempt_id": "0119affa69b741c3a4593ee8f05498f8",
+        "descriptor_sha256": "3450fca8eedd73e9f1b828cb5f27c063a417f740c25add802f0770ad4f74801d",
+        "wire_request_sha256": "2bf0dad02b95ddd06d0a93a74f577043aa8a59ee86e53638d3bf76b466665f9f",
+        "wire_response_sha256": "2ff844efc21ada24f2f8d78126cfbcfeb472fb8e5e981e0d2714618af7d1d5f8",
+        "actual_input_descriptor_matches": true,
+        "wire_sdk_output_matches_after_null_default_normalization": true,
+        "parsed_answer_matches": true,
+        "usage": {
+          "input_tokens": 26205,
+          "input_tokens_details": {
+            "cache_write_tokens": 26202,
+            "cached_tokens": 0
+          },
+          "output_tokens": 2614,
+          "output_tokens_details": {
+            "reasoning_tokens": 492
+          },
+          "total_tokens": 28819
+        },
+        "all_selected_source_page_images_bound": true
+      }
+    ],
+    "answers": {
+      "blind_extraction": {
+        "facts": [
+          {
+            "topic": "Gallatin, TN data centers",
+            "field": "planning recommendation",
+            "value": "On August 24, 2026, the planning commission voted 5\u20132 to recommend a moratorium.",
+            "source_id": "gallatin-nov03-agenda",
+            "locator": "Physical PDF page 37, recommendation",
+            "supporting_summary": "The September 8 committee agenda describes a 12-month proposal and identifies GMPC Resolution No. 2026-113. The later amended draft describes six months."
+          },
+          {
+            "topic": "Gallatin, TN data centers",
+            "field": "first reading",
+            "value": "The amended draft records first-reading passage on September 15, 2026, for Ordinance O2609-67.",
+            "source_id": "gallatin-nov03-agenda",
+            "locator": "Physical PDF page 35, passage lines",
+            "supporting_summary": "The first-reading date is filled in; the second-reading line and signature lines are blank."
+          },
+          {
+            "topic": "Gallatin, TN data centers",
+            "field": "public hearing",
+            "value": "On October 20, 2026, the council held a public hearing on amended Ordinance O2609-67.",
+            "source_id": "gallatin-nov03-agenda",
+            "locator": "Physical PDF pages 8\u20139, October 20 minutes, item 4",
+            "supporting_summary": "The minutes describe a proposed six-month moratorium on accepting and processing new data-center development applications. The hearing was closed; this item does not record final passage."
+          },
+          {
+            "topic": "Gallatin, TN data centers",
+            "field": "scheduled second reading",
+            "value": "Amended Ordinance O2609-67 was scheduled for second reading on November 3, 2026.",
+            "source_id": "gallatin-nov03-agenda",
+            "locator": "Physical PDF pages 1\u20132, agenda item 3",
+            "supporting_summary": "The agenda describes a six-month moratorium on accepting and processing new data-center development applications. Scheduling is not evidence of the meeting's outcome."
+          },
+          {
+            "topic": "Gallatin, TN data centers",
+            "field": "draft scope and exceptions",
+            "value": "The amended draft proposes a six-month moratorium on accepting and processing new data-center applications within Gallatin city limits, subject to specified exceptions.",
+            "source_id": "gallatin-nov03-agenda",
+            "locator": "Physical PDF pages 34\u201335, sections 1\u20133",
+            "supporting_summary": "Exceptions cover approved plans or permits and existing entitlements, and amendments to approved data centers that request no additional data-center square footage. The draft also excludes facilities primarily for telecommunications services or emergency communications infrastructure from classification as data centers."
+          },
+          {
+            "topic": "Gallatin, TN data centers",
+            "field": "draft effective clause",
+            "value": "The unsigned amended draft states that it takes effect upon final passage.",
+            "source_id": "gallatin-nov03-agenda",
+            "locator": "Physical PDF pages 35\u201336, section 7 and signature lines",
+            "supporting_summary": "The draft has a blank second-reading date and unsigned mayor, recorder and attorney lines; its clause does not establish that final passage occurred."
+          },
+          {
+            "topic": "Gallatin, TN apartments",
+            "field": "hearing and scheduled second reading",
+            "value": "Ordinance O2609-66 received a public hearing on October 20, 2026, and was scheduled for second reading on November 3, 2026.",
+            "source_id": "gallatin-nov03-agenda",
+            "locator": "Physical PDF page 8, October 20 minutes item 3; page 1, agenda item 2",
+            "supporting_summary": "Both entries describe a six-month moratorium on accepting and processing new apartment-development applications. Neither establishes the November 3 outcome."
+          },
+          {
+            "topic": "Gallatin, TN November 3 meeting",
+            "field": "agenda index",
+            "value": "The November 3, 2026 meeting agenda was posted October 30 at 12:30 PM; the supplied index row has an empty minutes cell.",
+            "source_id": "gallatin-agenda-index",
+            "locator": "November 3, 2026 HTML table row",
+            "supporting_summary": "The empty cell establishes only that this supplied index row contains no minutes link, not that the council took no action."
+          },
+          {
+            "topic": "Rice, MN data centers",
+            "field": "council approval",
+            "value": "On September 21, 2026, the council approved Resolution #092126-27, described as \u201ca Resolution an Interim Ordinance Authorizing a Study and Imposing a Moratorium on Data Centers,\u201d by 5 ayes and 0 nays.",
+            "source_id": "rice-sep21-signed-minutes",
+            "locator": "Physical PDF page 1, business item 5.h",
+            "supporting_summary": "Scheel moved approval and Kampa seconded. The signed minutes report approval of the resolution; a separately adopted ordinance text is not supplied."
+          },
+          {
+            "topic": "Rice, MN data centers",
+            "field": "duration discussed",
+            "value": "At the September 21, 2026 meeting, Skroch said the data-center moratorium was for up to a year.",
+            "source_id": "rice-sep21-signed-minutes",
+            "locator": "Physical PDF page 1, business item 5.h",
+            "supporting_summary": "The statement followed Kampa's question about duration; the minutes do not provide an effective date or an exact expiration date."
+          },
+          {
+            "topic": "Rice, MN solar",
+            "field": "separate solar actions",
+            "value": "On September 21, 2026, the council approved Solar Energy Systems Ordinance 2026-01 and Resolution #092126-24 authorizing publication by title and summary, each by 4 ayes and 1 nay, with Nodo opposed.",
+            "source_id": "rice-sep21-signed-minutes",
+            "locator": "Physical PDF page 1, business items 5.d\u20135.e",
+            "supporting_summary": "These are separate solar actions, not the data-center resolution. Authorization of publication does not establish that publication occurred."
+          }
+        ],
+        "uncertainties": [
+          "The supplied Gallatin windows do not establish whether either ordinance passed on November 3, the actual final-passage or effective date, or later force. A missing minutes link is not evidence that no action occurred.",
+          "The Gallatin data-center scope and effective clause are from an unsigned amended draft; the ultimately enacted text, if any, may differ.",
+          "For Rice, the supplied signed minutes establish council approval of Resolution #092126-27 but do not supply a separately recovered adopted ordinance, publication, effective date, precise legal scope, expiration date, or later force.",
+          "Candidate and current rows were not supplied, so no comparison or update to such rows can be established."
+        ]
+      },
+      "cell_adjudication": {
+        "records": [
+          {
+            "record_id": "tn-gallatin-undated",
+            "input_row_sha256": "58568a515594a2d638d1d3e12e6dc0806813f7ccdb8dd8244d1550a267f29360",
+            "field_decisions": [
+              {
+                "field": "duration",
+                "decision": "hold",
+                "value": "Proposed term: six months. The draft would take effect upon final passage. No effective date or end date is confirmed.",
+                "source_id": "gallatin-nov03-agenda",
+                "locator": "Physical PDF pages 34\u201335, sections 1 and 7",
+                "reason": "The draft says six months, not six calendar months."
+              },
+              {
+                "field": "legal_basis",
+                "decision": "accept",
+                "value": "The November 3, 2026 council packet contains an unsigned amended draft of Ordinance O26\u00d89-67. It proposes a six-month moratorium on accepting and processing new applications for data-center development. Section 7 would make it effective upon final passage; final passage is not confirmed.",
+                "source_id": "gallatin-nov03-agenda",
+                "locator": "Physical PDF pages 34\u201336, amended draft and signature lines",
+                "reason": "The proposed wording accurately distinguishes the draft from confirmed final passage."
+              },
+              {
+                "field": "current_status",
+                "decision": "accept",
+                "value": "The November 3, 2026 agenda lists amended Ordinance O26\u00d89-67 for second reading. The attached October 20 minutes record a public hearing, not final passage. The draft has a blank second-reading date and unsigned execution lines. [VERIFY November 3 vote, final adopted text, effective date, and later actions.]",
+                "source_id": "gallatin-nov03-agenda",
+                "locator": "Physical PDF pages 1\u20132, 8\u20139, and 35\u201336",
+                "reason": "The agenda, hearing minutes, and unsigned draft support the wording, but do not establish the November 3 outcome."
+              },
+              {
+                "field": "affected_projects",
+                "decision": "hold",
+                "value": "The draft would except approved master development plans, site plans, or permits for data centers, and current entitlements through an approved site plan or master development plan. Amendments to existing approved data centers would be excepted only if they request no additional data-center square footage beyond what was previously approved. Facilities whose primary purpose is telecommunications services or emergency communications infrastructure would not be classified as data centers. The draft does not establish whether a particular Meta expansion qualifies for an exception.",
+                "source_id": "gallatin-nov03-agenda",
+                "locator": "Physical PDF pages 34\u201335, sections 2\u20133",
+                "reason": "The proposed wording omits that the amendment exception applies to existing approved data centers and must be measured against previously approved space."
+              },
+              {
+                "field": "outcome",
+                "decision": "hold",
+                "value": "October 20 minutes confirm that the council held and closed the data-center moratorium hearing. They do not record final passage of that proposal. The supplied city agenda index row links the November 3 agenda but has no minutes link for that meeting.",
+                "source_id": "gallatin-nov03-agenda; gallatin-agenda-index",
+                "locator": "Physical PDF pages 8\u20139, October 20 minutes item 4; November 3 agenda-index row",
+                "reason": "The supplied index row supports the absence of a minutes link, but does not itself establish that it was checked on November 11."
+              }
+            ],
+            "whole_record_closure_supported": false,
+            "resolved_questions": [
+              "The October 20 council minutes establish that a public hearing on amended Ordinance O2609-67 was held and closed.",
+              "The November 3 agenda scheduled the amended ordinance for second reading.",
+              "The amended draft specifies a six-month proposal and conditional exceptions; it states that it would take effect upon final passage."
+            ],
+            "remaining_questions": [
+              "What happened at the November 3 second reading, and was the ordinance finally passed?",
+              "What is the final adopted text, if any, and what are its effective date, end date, and later legal force?",
+              "Does any particular Meta project qualify for an exception?"
+            ],
+            "review_limitations": [
+              "The draft's first-reading date is printed, but the second-reading and execution lines are blank; these fields do not prove final passage.",
+              "The earlier September 8 committee agenda describes a 12-month proposal, while the later amended draft describes six months.",
+              "An empty minutes cell does not establish that the council took no action."
+            ]
+          },
+          {
+            "record_id": "mn-rice-undated",
+            "input_row_sha256": "5eaa8ec287cf2df945702cc5c39826bb9832e70ee19967815491c92c133275e8",
+            "field_decisions": [
+              {
+                "field": "date_enacted",
+                "decision": "hold",
+                "value": "On September 21, 2026, the council voted 5\u20130 to approve Resolution #092126-27, described in the signed minutes as a resolution concerning an interim ordinance authorizing a study and imposing a data-center moratorium. The full instrument and its effective-date provisions have not been confirmed.",
+                "source_id": "rice-sep21-signed-minutes",
+                "locator": "Physical PDF page 1, business item 5.h; page 2, signatures",
+                "reason": "The minutes confirm approval of the numbered resolution, but not the full instrument or a legal enactment or effective date."
+              },
+              {
+                "field": "duration",
+                "decision": "hold",
+                "value": "At the September 21 meeting, Skroch said the moratorium was for up to a year. The full instrument, term anchor, and any early-termination conditions remain unconfirmed.",
+                "source_id": "rice-sep21-signed-minutes",
+                "locator": "Physical PDF page 1, business item 5.h",
+                "reason": "The minutes attribute the duration statement to Skroch; they do not establish the instrument's exact legal term."
+              },
+              {
+                "field": "legal_basis",
+                "decision": "accept",
+                "value": "Signed September 21, 2026 council minutes identify Resolution #092126-27 as an interim ordinance authorizing a study and imposing a moratorium on data centers. The minutes record approval by 5\u20130 but do not supply the adopted legal text or its effective-date provisions.",
+                "source_id": "rice-sep21-signed-minutes",
+                "locator": "Physical PDF page 1, business item 5.h; page 2, signatures",
+                "reason": "The minutes label the item Resolution #092126-27 and describe an interim ordinance, study, and moratorium; they do not provide the full legal text."
+              },
+              {
+                "field": "current_status",
+                "decision": "accept",
+                "value": "Signed September 21, 2026 minutes confirm a 5\u20130 vote to approve Resolution #092126-27 on a data-center study and moratorium. They resolve the previously unconfirmed vote result. [VERIFY adopted instrument, publication and effective date, exact scope and term, and later actions.]",
+                "source_id": "rice-sep21-signed-minutes",
+                "locator": "Physical PDF page 1, business item 5.h; page 2, signatures",
+                "reason": "The vote is confirmed, while the full instrument and its subsequent legal status remain open."
+              },
+              {
+                "field": "outcome",
+                "decision": "accept",
+                "value": "The council approved Resolution #092126-27 on September 21, 2026, by 5\u20130. The minutes describe it as an interim ordinance authorizing a study and imposing a data-center moratorium. The separate solar ordinance 2026-01 and solar publication Resolution #092126-24 do not identify the data-center instrument.",
+                "source_id": "rice-sep21-signed-minutes",
+                "locator": "Physical PDF page 1, business items 5.d\u20135.e and 5.h",
+                "reason": "The data-center vote is distinct from the two solar actions, each recorded as 4\u20131."
+              }
+            ],
+            "whole_record_closure_supported": false,
+            "resolved_questions": [
+              "The previously unconfirmed September 21 vote resulted in approval of Resolution #092126-27 by 5\u20130.",
+              "The minutes describe that item as involving an interim ordinance authorizing a study and imposing a data-center moratorium.",
+              "The data-center action is distinct from solar Ordinance 2026-01 and solar publication Resolution #092126-24."
+            ],
+            "remaining_questions": [
+              "What is the full adopted instrument, including its exact scope, term, and any early-termination conditions?",
+              "Was the instrument published, when did it legally take effect, and what is its end date or later force?",
+              "Is the reported Rice County petition connected to the City of Rice proposal?"
+            ],
+            "review_limitations": [
+              "The signed minutes record the vote and Skroch's statement of up to a year, but do not supply the full instrument.",
+              "The solar publication resolution does not establish publication of the data-center measure."
+            ]
+          }
+        ],
+        "batch_limitations": [
+          "Only the supplied source windows and page images were reviewed. No external tools or canonical writes were used.",
+          "No status-category or normalized-date changes are adjudicated. Answers to individual questions do not establish whole-record closure."
+        ]
+      }
+    },
+    "model_http_requests": 2,
+    "model": "gpt-6.1-terra",
+    "tools": [],
+    "agents_spawned": 0,
+    "price_usd": null
+  },
+  "revision_review": {
+    "input_manifest_sha256": "786890f38af3da61abd2b3cc2bd9f83fedf54f3887b704b411935ce6e65074d9",
+    "source_pins": [
+      {
+        "source_id": "gallatin-nov03-agenda",
+        "state": "TN",
+        "key": "gallatin-nov03-agenda-9fe192b88534",
+        "url": "https://www.gallatintn.gov/AgendaCenter/ViewFile/Agenda/_11032026-1008",
+        "body_sha256": "9fe192b885345506dbb9525e8cb04b3c4598a4edbdb68f57aeaa232f73bbccab",
+        "body_private_path": "/data0/moratorium-refresh-2026/gallatin-primary-2026-11-11/nov03-agenda.pdf",
+        "text_private_path": "/data0/moratorium-refresh-2026/gallatin-primary-2026-11-11/nov03-agenda.txt",
+        "text_sha256": "20987f624507bf9161cf67187449782025eb957867c5cd5180a92c197c4eaa56",
+        "review_text_path": "/data0/moratorium-refresh-2026/gallatin-rice-review-2026-11-11/gallatin-selected.txt",
+        "review_text_sha256": "6684a72d5b3416eabfdd78d3317735cce53f7375a45680d704e4902be3d613ec",
+        "selection": "Complete physical pages 1,2,8,9,34,35,36,37 of the 188-page packet; other pages not supplied."
+      },
+      {
+        "source_id": "gallatin-agenda-index",
+        "state": "TN",
+        "key": "gallatin-agenda-index-2e789bf308e0",
+        "url": "https://www.gallatintn.gov/agendacenter",
+        "body_sha256": "2e789bf308e018fbb9fec2be7edf33f1605370b97dbac2d8c9c80f8b9044ae9e",
+        "body_private_path": "/data0/moratorium-refresh-2026/gallatin-primary-2026-11-11/agenda-index.html",
+        "text_private_path": "/data0/moratorium-refresh-2026/gallatin-primary-2026-11-11/agenda-index.txt",
+        "text_sha256": "393dec160c5f47a843ddd1ff20026bfb1a784de5f85e38431cb3b22762495c99",
+        "review_text_path": "/data0/moratorium-refresh-2026/gallatin-rice-review-2026-11-11/gallatin-index-selected.txt",
+        "review_text_sha256": "e51805494413ea49a9d66e0c7159b6cc7a3f187c1f4c301a2a7e306d614719e8",
+        "selection": "Exact complete HTML table row for November 3; empty minutes cell in original HTML."
+      },
+      {
+        "source_id": "rice-sep21-signed-minutes",
+        "state": "MN",
+        "key": "rice-sep21-signed-minutes-4209b5e55a18",
+        "url": "https://www.ricemn.us/api/blob/viewBlob?i=SJ4sSPoFOMuOM1yAGKNRnAsH5raHFBq2Cw%2fpnIILmVNShbKN0sq5TFDGCyt5Z5LW",
+        "body_sha256": "4209b5e55a18cc08ee9dd683fe3a4185e53ad7b1810773084af3d4bf5904a8b7",
+        "body_private_path": "/data0/moratorium-refresh-2026/rice-primary-2026-11-11/sep21-minutes.pdf",
+        "text_private_path": "/data0/moratorium-refresh-2026/rice-primary-2026-11-11/sep21-minutes-ocr.txt",
+        "text_sha256": "cf2b9c81f0bf1b48c37a9aaed7d6649084852c0d6defced496ebe58ebc763054",
+        "review_text_path": "/data0/moratorium-refresh-2026/gallatin-rice-review-2026-11-11/rice-selected.txt",
+        "review_text_sha256": "cf2b9c81f0bf1b48c37a9aaed7d6649084852c0d6defced496ebe58ebc763054",
+        "selection": "OCR of both scanned pages. Original page images are authoritative for votes, signatures and exact wording."
+      }
+    ],
+    "image_pins": [
+      {
+        "source_id": "gallatin-nov03-agenda",
+        "pdf_page": 8,
+        "sha256": "9e76e977847e926663249d3935c63762b5a96f5e391be5c80007b3421ac85153",
+        "path": "/data0/moratorium-refresh-2026/gallatin-rice-review-2026-11-11/gallatin-page8.png"
+      },
+      {
+        "source_id": "gallatin-nov03-agenda",
+        "pdf_page": 34,
+        "sha256": "f9c64a2c161b2530787faf89a6e588704453082b2215e85a64e2d28e77821d2c",
+        "path": "/data0/moratorium-refresh-2026/gallatin-rice-review-2026-11-11/gallatin-page34.png"
+      },
+      {
+        "source_id": "gallatin-nov03-agenda",
+        "pdf_page": 35,
+        "sha256": "fc805abdea0be18c0a071f1fbc79d3b76a57bb7dc39e26da133ba38758adc662",
+        "path": "/data0/moratorium-refresh-2026/gallatin-rice-review-2026-11-11/gallatin-page35.png"
+      },
+      {
+        "source_id": "gallatin-nov03-agenda",
+        "pdf_page": 36,
+        "sha256": "9e0521336e6fea3901b3a7624de0d3905a80ef5ad8579be30d7ba235bf8c5ec0",
+        "path": "/data0/moratorium-refresh-2026/gallatin-rice-review-2026-11-11/gallatin-page36.png"
+      },
+      {
+        "source_id": "rice-sep21-signed-minutes",
+        "pdf_page": 1,
+        "sha256": "3da67d7f6dc5e7a7c51b3ef5e74325861ef83b8276040f279e2e67745de34ec8",
+        "path": "/data0/moratorium-refresh-2026/rice-primary-2026-11-11/sep21-1.png"
+      },
+      {
+        "source_id": "rice-sep21-signed-minutes",
+        "pdf_page": 2,
+        "sha256": "9870d3d384487cf974633b3b4f1e2a9508029f134ee603d44f7bad3f93747e42",
+        "path": "/data0/moratorium-refresh-2026/rice-primary-2026-11-11/sep21-2.png"
+      }
+    ],
+    "candidate": [
+      {
+        "id": "tn-gallatin-undated",
+        "row_sha256": "58568a515594a2d638d1d3e12e6dc0806813f7ccdb8dd8244d1550a267f29360",
+        "revised_changes": [
+          {
+            "field": "duration",
+            "value": "Proposed term: six months. The draft would take effect upon final passage. No effective date or end date is confirmed.",
+            "initial_hold_reason": "The draft says six months, not six calendar months."
+          },
+          {
+            "field": "affected_projects",
+            "value": "The draft would exempt data-center projects with an approved master development plan, site plan, permit, or current entitlement through an approved site plan or master development plan. An amendment to an existing approved data center would qualify only if it requests no additional floor area beyond the amount previously approved. Facilities used primarily for telecommunications services or emergency communications infrastructure would not be classified as data centers. Whether a particular Meta project qualifies remains unconfirmed.",
+            "initial_hold_reason": "The proposed wording omits that the amendment exception applies to existing approved data centers and must be measured against previously approved space."
+          },
+          {
+            "field": "outcome",
+            "value": "October 20 minutes confirm that the council held and closed the data-center moratorium hearing. They do not record final passage of that proposal. The city agenda index row links the November 3 agenda but has no minutes link for that meeting.",
+            "initial_hold_reason": "The supplied index row supports the absence of a minutes link, but does not itself establish that it was checked on November 11."
+          }
+        ]
+      },
+      {
+        "id": "mn-rice-undated",
+        "row_sha256": "5eaa8ec287cf2df945702cc5c39826bb9832e70ee19967815491c92c133275e8",
+        "revised_changes": [
+          {
+            "field": "date_enacted",
+            "value": "On September 21, 2026, the council voted 5\u20130 to approve Resolution #092126-27, described in the signed minutes as a resolution concerning an interim ordinance authorizing a study and imposing a data-center moratorium. The full instrument and its effective-date provisions have not been confirmed.",
+            "initial_hold_reason": "The minutes confirm approval of the numbered resolution, but not the full instrument or a legal enactment or effective date."
+          },
+          {
+            "field": "duration",
+            "value": "At the September 21 meeting, Skroch said the moratorium was for up to a year. The full instrument, term anchor, and any early-termination conditions remain unconfirmed.",
+            "initial_hold_reason": "The minutes attribute the duration statement to Skroch; they do not establish the instrument's exact legal term."
+          }
+        ]
+      }
+    ],
+    "captures": [
+      {
+        "stage": "revised_cells",
+        "attempt_id": "f0245f51764d4caf9b1a024ebc536f00",
+        "descriptor_sha256": "70512ee2eb1f1cfd42e3ab61e887f716455536659219559d9608ab2c91f39e73",
+        "wire_request_sha256": "8e7c27d073eef3e440a461f8643f41d6a2e1363dec83252a9ffac9da3ee2ee78",
+        "wire_response_sha256": "260df2338658039e98e303c0e55e63ca4a57e3f91955eb41813c0c3688511713",
+        "actual_input_descriptor_matches": true,
+        "wire_sdk_output_matches_after_null_default_normalization": true,
+        "parsed_answer_matches": true,
+        "usage": {
+          "input_tokens": 25189,
+          "input_tokens_details": {
+            "cache_write_tokens": 25186,
+            "cached_tokens": 0
+          },
+          "output_tokens": 1291,
+          "output_tokens_details": {
+            "reasoning_tokens": 215
+          },
+          "total_tokens": 26480
+        },
+        "all_selected_source_page_images_bound": true
+      }
+    ],
+    "answers": {
+      "revised_cells": {
+        "records": [
+          {
+            "record_id": "tn-gallatin-undated",
+            "input_row_sha256": "58568a515594a2d638d1d3e12e6dc0806813f7ccdb8dd8244d1550a267f29360",
+            "field_decisions": [
+              {
+                "field": "duration",
+                "decision": "accept",
+                "value": "Proposed term: six months. The draft would take effect upon final passage. No effective date or end date is confirmed.",
+                "source_id": "gallatin-nov03-agenda",
+                "locator": "Physical PDF pages 34\u201335, sections 1 and 7",
+                "reason": "Initially held because the draft says six months, not six calendar months. The revised wording uses the supported term and does not claim final passage."
+              },
+              {
+                "field": "affected_projects",
+                "decision": "hold",
+                "value": "The draft would exempt data-center projects with an approved master development plan, site plan, permit, or current entitlement through an approved site plan or master development plan. An amendment to an existing approved data center would qualify only if it requests no additional floor area beyond the amount previously approved. Facilities used primarily for telecommunications services or emergency communications infrastructure would not be classified as data centers. Whether a particular Meta project qualifies remains unconfirmed.",
+                "source_id": "gallatin-nov03-agenda",
+                "locator": "Physical PDF pages 34\u201335, sections 2\u20133",
+                "reason": "The initial hold concerned the existing-approved-center and previously-approved-space conditions. The revision adds those conditions, but says no additional 'floor area'; the draft specifies no additional data center space in square feet beyond what was previously approved."
+              },
+              {
+                "field": "outcome",
+                "decision": "accept",
+                "value": "October 20 minutes confirm that the council held and closed the data-center moratorium hearing. They do not record final passage of that proposal. The city agenda index row links the November 3 agenda but has no minutes link for that meeting.",
+                "source_id": "gallatin-nov03-agenda; gallatin-agenda-index",
+                "locator": "Physical PDF pages 8\u20139, October 20 minutes item 4; November 3 agenda-index row",
+                "reason": "Initially held because the index row did not establish a November 11 check date. The revision makes no check-date claim and accurately describes the supplied row and minutes."
+              }
+            ],
+            "whole_record_closure_supported": false,
+            "remaining_questions": [
+              "What happened at the November 3 second reading, and was the ordinance finally passed?",
+              "What is the final adopted text, if any, and what are its effective date, end date, and later legal force?",
+              "Does a particular Meta project qualify for an exception?"
+            ]
+          },
+          {
+            "record_id": "mn-rice-undated",
+            "input_row_sha256": "5eaa8ec287cf2df945702cc5c39826bb9832e70ee19967815491c92c133275e8",
+            "field_decisions": [
+              {
+                "field": "date_enacted",
+                "decision": "accept",
+                "value": "On September 21, 2026, the council voted 5\u20130 to approve Resolution #092126-27, described in the signed minutes as a resolution concerning an interim ordinance authorizing a study and imposing a data-center moratorium. The full instrument and its effective-date provisions have not been confirmed.",
+                "source_id": "rice-sep21-signed-minutes",
+                "locator": "Physical PDF page 1, business item 5.h; page 2, signatures",
+                "reason": "Initially held because the minutes did not establish the full instrument or a legal enactment or effective date. The candidate reports the resolution vote with those limits; it does not establish a normalized enactment date."
+              },
+              {
+                "field": "duration",
+                "decision": "accept",
+                "value": "At the September 21 meeting, Skroch said the moratorium was for up to a year. The full instrument, term anchor, and any early-termination conditions remain unconfirmed.",
+                "source_id": "rice-sep21-signed-minutes",
+                "locator": "Physical PDF page 1, business item 5.h",
+                "reason": "Initially held because the minutes attribute the statement to Skroch rather than establishing an exact legal term. The candidate retains that attribution and limitation."
+              }
+            ],
+            "whole_record_closure_supported": false,
+            "remaining_questions": [
+              "What is the full adopted instrument, including its exact scope, term, and any early-termination conditions?",
+              "Was the instrument published, when did it legally take effect, and what is its end date or later force?",
+              "Is the reported Rice County petition connected to the City of Rice proposal?"
+            ]
+          }
+        ]
+      }
+    },
+    "model_http_requests": 1,
+    "model": "gpt-6.1-terra",
+    "tools": [],
+    "agents_spawned": 0,
+    "price_usd": null
+  },
+  "model_http_requests": 3,
+  "agents_spawned": 0,
+  "price_usd": null,
+  "source_continuity": {
+    "path": "work/research/2026-11-11/post-release-qa/gallatin-rice-source-continuity.json",
+    "sha256": "d92e04ad01eecc8c471dd77328950570da856de71c910c80c2ce665e1f754543"
+  },
+  "initial_holds_preserved": {
+    "tn-gallatin-undated": [
+      "duration",
+      "affected_projects",
+      "outcome"
+    ],
+    "mn-rice-undated": [
+      "date_enacted",
+      "duration"
+    ]
+  },
+  "independently_accepted_fields": 9,
+  "coordinator_adjudicated_fields": 1,
+  "coordinator_adjudication": {
+    "id": "tn-gallatin-undated",
+    "field": "affected_projects",
+    "initial_and_revision_holds_preserved": true,
+    "independent_revision_reason": "The initial hold concerned the existing-approved-center and previously-approved-space conditions. The revision adds those conditions, but says no additional 'floor area'; the draft specifies no additional data center space in square feet beyond what was previously approved.",
+    "held_value": "The draft would exempt data-center projects with an approved master development plan, site plan, permit, or current entitlement through an approved site plan or master development plan. An amendment to an existing approved data center would qualify only if it requests no additional floor area beyond the amount previously approved. Facilities used primarily for telecommunications services or emergency communications infrastructure would not be classified as data centers. Whether a particular Meta project qualifies remains unconfirmed.",
+    "accepted_value": "The draft would exempt data-center projects with an approved master development plan, site plan, permit, or current entitlement through an approved site plan or master development plan. An amendment to an existing approved data center would qualify only if it requests no additional data-center space, measured in square feet, beyond the amount previously approved. Facilities used primarily for telecommunications services or emergency communications infrastructure would not be classified as data centers. Whether a particular Meta project qualifies remains unconfirmed.",
+    "changed_phrase_from": "no additional floor area beyond the amount previously approved",
+    "changed_phrase_to": "no additional data-center space, measured in square feet, beyond the amount previously approved",
+    "source_id": "gallatin-nov03-agenda",
+    "physical_page": 35,
+    "section": "2(b)",
+    "source_phrase": "additional data center space (in square feet) than what was previously approved",
+    "coordinator_visually_inspected_original_page": true,
+    "basis": "The source expressly measures additional data-center space in square feet. The correction uses that measure instead of substituting floor area. The existing-approved-center condition, earlier approval limit, and proposal qualifications are preserved. The model hold remains a hold in the recorded review.",
+    "authorization": "docs/process-reset-plan-2026-11-08.md section 7 permits coordinator adjudication of conflicts; this is recorded separately from independently accepted cells."
+  },
+  "final_fields": {
+    "tn-gallatin-undated": {
+      "duration": {
+        "value": "Proposed term: six months. The draft would take effect upon final passage. No effective date or end date is confirmed.",
+        "acceptance": "independent_revision_review"
+      },
+      "legal_basis": {
+        "value": "The November 3, 2026 council packet contains an unsigned amended draft of Ordinance O26\u00d89-67. It proposes a six-month moratorium on accepting and processing new applications for data-center development. Section 7 would make it effective upon final passage; final passage is not confirmed.",
+        "acceptance": "independent_initial_review"
+      },
+      "current_status": {
+        "value": "The November 3, 2026 agenda lists amended Ordinance O26\u00d89-67 for second reading. The attached October 20 minutes record a public hearing, not final passage. The draft has a blank second-reading date and unsigned execution lines. [VERIFY November 3 vote, final adopted text, effective date, and later actions.]",
+        "acceptance": "independent_initial_review"
+      },
+      "outcome": {
+        "value": "October 20 minutes confirm that the council held and closed the data-center moratorium hearing. They do not record final passage of that proposal. The city agenda index row links the November 3 agenda but has no minutes link for that meeting.",
+        "acceptance": "independent_revision_review"
+      },
+      "affected_projects": {
+        "value": "The draft would exempt data-center projects with an approved master development plan, site plan, permit, or current entitlement through an approved site plan or master development plan. An amendment to an existing approved data center would qualify only if it requests no additional data-center space, measured in square feet, beyond the amount previously approved. Facilities used primarily for telecommunications services or emergency communications infrastructure would not be classified as data centers. Whether a particular Meta project qualifies remains unconfirmed.",
+        "acceptance": "coordinator_source_adjudication_after_independent_hold"
+      }
+    },
+    "mn-rice-undated": {
+      "date_enacted": {
+        "value": "On September 21, 2026, the council voted 5\u20130 to approve Resolution #092126-27, described in the signed minutes as a resolution concerning an interim ordinance authorizing a study and imposing a data-center moratorium. The full instrument and its effective-date provisions have not been confirmed.",
+        "acceptance": "independent_revision_review"
+      },
+      "duration": {
+        "value": "At the September 21 meeting, Skroch said the moratorium was for up to a year. The full instrument, term anchor, and any early-termination conditions remain unconfirmed.",
+        "acceptance": "independent_revision_review"
+      },
+      "legal_basis": {
+        "value": "Signed September 21, 2026 council minutes identify Resolution #092126-27 as an interim ordinance authorizing a study and imposing a moratorium on data centers. The minutes record approval by 5\u20130 but do not supply the adopted legal text or its effective-date provisions.",
+        "acceptance": "independent_initial_review"
+      },
+      "current_status": {
+        "value": "Signed September 21, 2026 minutes confirm a 5\u20130 vote to approve Resolution #092126-27 on a data-center study and moratorium. They resolve the previously unconfirmed vote result. [VERIFY adopted instrument, publication and effective date, exact scope and term, and later actions.]",
+        "acceptance": "independent_initial_review"
+      },
+      "outcome": {
+        "value": "The council approved Resolution #092126-27 on September 21, 2026, by 5\u20130. The minutes describe it as an interim ordinance authorizing a study and imposing a data-center moratorium. The separate solar ordinance 2026-01 and solar publication Resolution #092126-24 do not identify the data-center instrument.",
+        "acceptance": "independent_initial_review"
+      }
+    }
+  },
+  "whole_record_closures": 0,
+  "scope": "Three tool-free Terra requests and one separately recorded source-literal coordinator adjudication. Five initially held cells were reviewed again; one scope wording hold remains in the model history and is resolved by the coordinator against original page35. No status, normalized date, final-law or current-force conclusion."
+}

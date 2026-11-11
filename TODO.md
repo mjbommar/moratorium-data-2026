@@ -1018,3 +1018,8 @@ Exit: repeatable refresh with visible freshness, costs, failures and unresolved 
 - [x] Rewrite public overview copy and shared page templates in plain American English using the writing-style guidance. All103number checks and32focusedtests pass; current64HTMLpages, both changed state records and63mobile document widths verified. Editorial style is documented for future updates.
 
 - [x] Publish the reviewed Fairfax update: two data-center text fields and one separate pending battery-storage proposal. Local records rise to 1,329 and pending records to 64. Final adoption and legal effect remain unconfirmed.
+
+- [x] Recover Rice, Minnesota’s signed September 21 minutes and confirm the 5–0 vote on Resolution 092126-27. Keep the solar ordinance and its publication resolution separate.
+- [x] Review and validate ten working text corrections across Gallatin and Rice. Preserve the original model holds and the separate source-based coordinator decision. Counts, statuses, dates, coordinates, state policy, and ballot tables are unchanged. [Review](work/research/2026-11-11/post-release-qa/gallatin-rice-review.md).
+- [ ] Include the validated Gallatin and Rice corrections in the next combined dataset release, receiving-project update, and dashboard deployment. Post12 remains the published version.
+- [ ] Review Gallatin’s official November 3 recording at 43:35–44:23 or obtain completed minutes and final adopted text. Do not infer a vote result from silence in automatic captions. [Saved source and review window](work/research/2026-11-11/post-release-qa/gallatin-recording-followup.json).

@@ -31,7 +31,7 @@
   "record_disposition_path": "work/research/2026-11-08/full-record-dispositions/funnel.json",
   "qa_status": "ongoing",
   "publication_authorization": "publish current state with qualifications on pending QA, then continue to double check and clear the outstanding questions",
-  "working_revision": "2026.11.11.post12-delivery-verified",
+  "working_revision": "gallatin-rice-reviewed-text-corrections-awaiting-next-publication",
   "current_raw_counts": {
     "local": 1329,
     "state_policy": 449,
@@ -125,7 +125,10 @@
     "hosted_copy_state": "verified",
     "hosted_receipt": "work/research/2026-11-11/release-2026.11.11.post11/hosted-copy-verification.json"
   },
-  "latest_field_application": "work/research/2026-11-11/post-release-qa/fairfax-data-center-operative-application.json",
+  "latest_field_application": [
+    "work/research/2026-11-11/post-release-qa/gallatin-operative-application.json",
+    "work/research/2026-11-11/post-release-qa/rice-operative-application.json"
+  ],
   "latest_hosted_delivery": {
     "source_commit": "92715b1171dced0a29ec0c181a98aa2d435f9685",
     "hosted_source_commit": "dcce24fb245d99085936fb154f0a42a3355fe311",
@@ -399,5 +402,23 @@
     "receipt": "work/research/2026-11-11/release-2026.11.11.post11/hosted-copy-verification.json",
     "scope": "All current HTML and linked local bytes match; full desktop/mobile/dark browser checks pass. Both changed state entries match all five complete updated prose values. Final artifact and acknowledgment verification follows."
   },
-  "latest_independent_record_review": "work/research/2026-11-11/post-release-qa/fairfax-battery-addition-application.json"
+  "latest_independent_record_review": "work/research/2026-11-11/post-release-qa/fairfax-battery-addition-application.json",
+  "pending_consumer_input_delta": {
+    "baseline_release": "v2026.11.11.post12",
+    "baseline_source_commit": "92715b1171dced0a29ec0c181a98aa2d435f9685",
+    "baseline_handoff": "V46",
+    "receipts": [
+      "work/research/2026-11-11/post-release-qa/gallatin-operative-application.json",
+      "work/research/2026-11-11/post-release-qa/rice-operative-application.json"
+    ],
+    "changed_cells": 10,
+    "changed_local_rows": 2,
+    "changed_existing_local_rows": 2,
+    "added_local_rows": 0,
+    "changed_policy_rows": 0,
+    "status_category_changes": 0,
+    "new_pending_rows": 0,
+    "normalized_date_changes": 0,
+    "scope": "Rice\u2019s September21 vote and Gallatin\u2019s proposal/hearing/draft conditions are clarified in ten text cells. No final Gallatin adoption, Rice effective date, project eligibility or current legal force is established. Existing classifications and all headline totals remain unchanged."
+  }
 }

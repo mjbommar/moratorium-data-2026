@@ -1,0 +1,97 @@
+{
+  "reviewed_at": "2026-11-11T16:59:56.627989+00:00",
+  "requests": [
+    {
+      "attempt_id": "01adf92b20624045afa4d29a09dfe60d",
+      "kind": "exa",
+      "query": "Gallatin ordinance O2609-67 data center moratorium adopted November 3 2026",
+      "hits": 5,
+      "cost_usd": 0.007,
+      "publication_window": {
+        "since": null,
+        "until": null
+      },
+      "query_scope_check": {
+        "status": "all_returned_urls_in_declared_sites",
+        "declared_sites": [
+          "gallatintn.gov"
+        ],
+        "matching_hits": 5,
+        "nonmatching_hits": 0,
+        "observed_hosts": [
+          "gallatintn.gov",
+          "www.gallatintn.gov"
+        ],
+        "scope": "Diagnostic of returned URL hosts, not query-language validation or evidence of absence. Check ambiguous OR branches and fetch substantive sources."
+      },
+      "returned_links": [
+        {
+          "url": "https://www.gallatintn.gov/AgendaCenter/ViewFile/Agenda/_10202026-1004",
+          "title": "City of Gallatin City Council Meeting October 20, 2026, 6:00 PM"
+        },
+        {
+          "url": "https://gallatintn.gov/AgendaCenter/ViewFile/Agenda/_10062026-1001",
+          "title": "City of Gallatin City Council Meeting October 6, 2026, 6:00 PM"
+        },
+        {
+          "url": "https://www.gallatintn.gov/DocumentCenter/View/12048/102026-Public-Hearing---ORDINANCE-NO-O26%C3%981-4--ORDINANCE-NO-O26%C3%989-66-ORDINANCE-NO-O26%C3%989-67",
+          "title": "NOTICE OF PUBLIC HEARING"
+        },
+        {
+          "url": "https://www.gallatintn.gov/2477/Notices-Meetings",
+          "title": "Notices & Meetings | Gallatin, TN"
+        },
+        {
+          "url": "https://www.gallatintn.gov/AgendaCenter",
+          "title": "Agenda Center \u2022 Gallatin, TN \u2022 CivicEngage"
+        }
+      ]
+    },
+    {
+      "attempt_id": "ec2c5101f612428e92469917fbce9022",
+      "kind": "serpapi",
+      "query": "Gallatin \"data center\" \"moratorium\" November 3 council vote",
+      "hits": 6,
+      "cost_usd": null,
+      "publication_window": {
+        "since": "2026-11-03",
+        "until": "2026-11-12"
+      },
+      "query_scope_check": {
+        "status": "not_evaluated",
+        "declared_sites": []
+      },
+      "returned_links": [
+        {
+          "url": "https://www.facebook.com/groups/1672268779660760/preview/1583824263513252/",
+          "title": "The moratorium for approval of new apartments and ..."
+        },
+        {
+          "url": "https://www.facebook.com/groups/674699993953857/posts/1880592843364560/",
+          "title": "Hip Gallatin"
+        },
+        {
+          "url": "https://www.facebook.com/groups/439613496844361/posts/2427710764701281/",
+          "title": "A clip from Memphis City Council meeting today. They are ..."
+        },
+        {
+          "url": "https://programs.com/resources/data-center-moratoriums-tracker/",
+          "title": "Data Center Moratoriums by State: Tracker and Statistics ..."
+        },
+        {
+          "url": "https://www.theolympian.com/news/business/article317981681.html",
+          "title": "Data center boom could leave Americans 'on the hook' for ..."
+        },
+        {
+          "url": "https://ballotpedia.org/Bloomington,_Illinois,_Large-Scale_Data_Center_Moratorium_Advisory_Measure_(November_2026)",
+          "title": "Bloomington, Illinois, Large-Scale Data Center Moratorium ..."
+        }
+      ]
+    }
+  ],
+  "search_provider_requests": 2,
+  "model_http_requests": 3,
+  "accepted_final_vote_evidence_from_search": false,
+  "qualification": "The returned hearing and second-reading notices are not completed decisions. Unrelated search results, third-party agenda summaries and pre-meeting social snippets were not accepted as outcomes. The source-specific official packet and index were fetched separately.",
+  "price_status": "Exa reports0.007USD. SerpAPI and model prices are unknown, not zero."
+}
