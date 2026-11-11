@@ -31,7 +31,7 @@
   "record_disposition_path": "work/research/2026-11-08/full-record-dispositions/funnel.json",
   "qa_status": "ongoing",
   "publication_authorization": "publish current state with qualifications on pending QA, then continue to double check and clear the outstanding questions",
-  "working_revision": "2026.11.11.post2-data-consumer-and-site-verified",
+  "working_revision": "cedartown-six-month-extension-pending-batch",
   "current_raw_counts": {
     "local": 1328,
     "state_policy": 449,
@@ -52,10 +52,10 @@
   "release_date_timezone": "America/New_York",
   "published_source_commit": "9d70e076fd6770e45cd7af2e28de5da5f4c91696",
   "september_status_category_differences": {
-    "local": 99,
+    "local": 100,
     "policy": 34,
-    "total": 133,
-    "receipt": "work/research/2026-11-09/post-release-qa/current-status-category-baseline-delta.json"
+    "total": 134,
+    "receipt": "work/research/2026-11-11/post-release-qa/cedartown-september-status-delta.json"
   },
   "latest_geography_review": "work/research/2026-11-09/post-release-qa/nonblank-geography-application.json",
   "latest_delivered_consumer_input_delta": {
@@ -123,7 +123,7 @@
     "delivery_receipt": "work/research/2026-11-11/post-release-qa/consumer-v35-handoff.json",
     "hosted_copy_state": "verified"
   },
-  "latest_field_application": "work/research/2026-11-11/post-release-qa/clay-operative-application.json",
+  "latest_field_application": "work/research/2026-11-11/post-release-qa/cedartown-operative-application.json",
   "latest_hosted_delivery": {
     "source_commit": "9d70e076fd6770e45cd7af2e28de5da5f4c91696",
     "hosted_source_commit": "03c39c8c17f107dff3802f18c65cc82b2b67749d",
@@ -277,5 +277,20 @@
     "receipt": "work/research/2026-11-11/release-2026.11.11.post1/hosted-copy-verification.json",
     "scope": "Every generated currentHTMLpage, linkedresources/currentdownloads and actualdesktop/mobilemap/table behavior verified, including both changed map popups and all3statepages. Fullworkflowartifact/finalacknowledgment recheck follows. No universal currentforce/freshness claim."
   },
-  "latest_independent_record_review": "work/research/2026-11-11/post-release-qa/clay-operative-application.json"
+  "latest_independent_record_review": "work/research/2026-11-11/post-release-qa/cedartown-operative-application.json",
+  "pending_consumer_input_delta": {
+    "baseline_release": "v2026.11.11.post2",
+    "baseline_source_commit": "9d70e076fd6770e45cd7af2e28de5da5f4c91696",
+    "baseline_handoff": "V36",
+    "receipt": "work/research/2026-11-11/post-release-qa/cedartown-operative-application.json",
+    "receipts": [
+      "work/research/2026-11-11/post-release-qa/cedartown-operative-application.json"
+    ],
+    "changed_cells": 6,
+    "changed_local_rows": 1,
+    "changed_policy_rows": 0,
+    "status_category_changes": 1,
+    "normalized_date_changes": 0,
+    "scope": "Six exact cells: three prose, active to extended, calendar_term, and remove unsupported183fixed-day conversion. No exact enddate/adoptiondate/identity/sector/native changes. Recorded in-force total unchanged; original/extension operative interval and laterforce unresolved. Next combined release/consumer/Pages delivery pending; qualifiedpost2/V36 remains delivered."
+  }
 }

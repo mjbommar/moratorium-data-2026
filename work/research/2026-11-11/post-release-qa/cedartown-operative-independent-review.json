@@ -1,0 +1,311 @@
+{
+  "input_manifest_sha256": "95a0fa5131b7a9a0e423b308a54fb8c13e97ff1410fcb30cde0926327e94c66e",
+  "source_pins": [
+    {
+      "source_id": "b900c8aa44494f9dbf34f91a54f84bc1",
+      "body_sha256": "91019fd68bb6c45c51b42add652656ec556fc0fe6ed75f7548c0ccfdd472e220",
+      "physical_pages": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "source_id": "0a53f8525db3453e95ba8fcaa5449f47",
+      "body_sha256": "a34056359b2e6705c2de7d88ff9d4dd8583c2c174a70ea4d0719d56260ecaebe",
+      "physical_pages": [
+        1,
+        2,
+        3,
+        4
+      ]
+    }
+  ],
+  "image_pins": [
+    {
+      "source_id": "b900c8aa44494f9dbf34f91a54f84bc1",
+      "physical_page": 1,
+      "sha256": "78ab75ebaf2f2a7cd0302948cb9cb2e3192723ea410e39ac0062dad5548917bb"
+    },
+    {
+      "source_id": "b900c8aa44494f9dbf34f91a54f84bc1",
+      "physical_page": 2,
+      "sha256": "8fbd0c6a5fc689b1e85ed9a895fa310c1d26e4a11c217fcc7a41f63e9baa621f"
+    },
+    {
+      "source_id": "b900c8aa44494f9dbf34f91a54f84bc1",
+      "physical_page": 3,
+      "sha256": "c825c901ada7ac3164b454bf3f067979ee1d731530df21e3b587ee74e2be2ab7"
+    },
+    {
+      "source_id": "b900c8aa44494f9dbf34f91a54f84bc1",
+      "physical_page": 4,
+      "sha256": "f2fcff20c6e4ea882d7348db9a2217126990a767af023b9ee076aff9bddc3f97"
+    },
+    {
+      "source_id": "0a53f8525db3453e95ba8fcaa5449f47",
+      "physical_page": 1,
+      "sha256": "63691282c74562cd6406979a961c7505e97241791eb81e9cefbabb35d61f14cd"
+    },
+    {
+      "source_id": "0a53f8525db3453e95ba8fcaa5449f47",
+      "physical_page": 2,
+      "sha256": "2fc64e9a8f1d4713fc7ac6483aa011df8abbf2dd3b38a7bdc9a082f19df2343a"
+    },
+    {
+      "source_id": "0a53f8525db3453e95ba8fcaa5449f47",
+      "physical_page": 3,
+      "sha256": "3fb3b218951bf53372ecf50fdee2a676000280eabb437dfd5bca7e1c36cd934b"
+    },
+    {
+      "source_id": "0a53f8525db3453e95ba8fcaa5449f47",
+      "physical_page": 4,
+      "sha256": "b7f10bc344beb4e6f0360144c6464b6316eccf04686ebcbfc85163adfa1e82aa"
+    }
+  ],
+  "candidate": {
+    "id": "ga-cedartown-2026",
+    "row_sha256": "133028a61b8c61ca04dc85e87160d4ee3f43eadbce95b12523ad234d46349130",
+    "proposed_changes": [
+      {
+        "field": "duration",
+        "before": "Six months per the city manager's public statement ahead of the vote.",
+        "after": "The signed October 12, 2026 commission minutes record approval of Resolution 22, 2026, a six-month data-center moratorium extension. The earlier initial six-month term was reported before the March 23 vote. The extension resolution text, effective anchor and precise endpoint remain unverified; no fixed-day conversion or exact end date is established."
+      },
+      {
+        "field": "legal_basis",
+        "before": "Cedartown City Commission Resolution 4, 2026, adopted March 23, 2026 (unanimous).",
+        "after": "Cedartown City Commission Resolution 4, 2026, adopted March 23, 2026 according to the previously reviewed minutes; the signed October 12, 2026 minutes additionally record unanimous approval of Resolution 22, 2026, Data Center Moratorium 6 Month Extension. The executed resolution text has not been recovered."
+      },
+      {
+        "field": "current_status",
+        "before": "Enacted March 23, 2026; no subsequent news of extension, replacement, or expiration was located in this research pass. [VERIFY status: six-month term ended about 2026-09-22; no extension, replacement or lapse found in the 2026-09 QA pass]",
+        "after": "The signed October 12, 2026 commission minutes record unanimous approval of Resolution 22, 2026, extending the data-center moratorium by six months. This supersedes the earlier statement that no extension was located; it does not establish uninterrupted force after the initial term. [VERIFY: executed Resolutions 4 and 22, extension effective anchor and exact endpoint, any intervening lapse, later replacement or termination, litigation and actual applicability/current force.]"
+      },
+      {
+        "field": "enacted_status",
+        "before": "active",
+        "after": "extended"
+      },
+      {
+        "field": "duration_kind",
+        "before": "fixed_days",
+        "after": "calendar_term"
+      },
+      {
+        "field": "duration_days",
+        "before": "183",
+        "after": ""
+      }
+    ]
+  },
+  "captures": [
+    {
+      "stage": "blind_extraction",
+      "attempt_id": "0a3d0b793df8462b94180ae2dc647d06",
+      "descriptor_sha256": "b8fb517caa1c2110fa6a7133e4ac76dfaeecc14b9714d9c83250e689e10ade79",
+      "wire_request_sha256": "9833a73aa819b75989df6b353f3a52077bec7095915e4c6520d93a16b5b86aa2",
+      "wire_response_sha256": "ec08a04f669b914f3e305d07390467a89aaee1596cdbcf3495814ce5ca5c1b21",
+      "all_original_page_images_bound": true,
+      "actual_input_descriptor_matches": true,
+      "wire_sdk_output_matches_after_null_default_normalization": true,
+      "parsed_answer_matches": true,
+      "usage": {
+        "input_tokens": 20451,
+        "input_tokens_details": {
+          "cache_write_tokens": 20448,
+          "cached_tokens": 0
+        },
+        "output_tokens": 1672,
+        "output_tokens_details": {
+          "reasoning_tokens": 141
+        },
+        "total_tokens": 22123
+      }
+    },
+    {
+      "stage": "cell_adjudication",
+      "attempt_id": "8b1062741f2b4cea91ef8de0d7e7726a",
+      "descriptor_sha256": "e7c0d47fa638e0ad7dd2339f5de1c8bb6fc8b20cb66e6842a3d093f65f5aff4a",
+      "wire_request_sha256": "d6e785e291940ae3c5ed8e739b15433a9f471dd0caa04b34d27e1ae60ccc7f97",
+      "wire_response_sha256": "e31a2d1164ab58c29bccd47bcc5ca0b315ef72fa8116f721f1ec69b28cfac790",
+      "all_original_page_images_bound": true,
+      "actual_input_descriptor_matches": true,
+      "wire_sdk_output_matches_after_null_default_normalization": true,
+      "parsed_answer_matches": true,
+      "usage": {
+        "input_tokens": 22862,
+        "input_tokens_details": {
+          "cache_write_tokens": 22859,
+          "cached_tokens": 0
+        },
+        "output_tokens": 1409,
+        "output_tokens_details": {
+          "reasoning_tokens": 351
+        },
+        "total_tokens": 24271
+      }
+    }
+  ],
+  "answers": {
+    "blind_extraction": {
+      "facts": [
+        {
+          "field": "meeting_date",
+          "value": "September 14, 2026: Cedartown City Commission meeting.",
+          "source_id": "0a53f8525db3453e95ba8fcaa5449f47",
+          "locator": "Physical page 1, heading",
+          "supporting_quote": "September 14th, 2026 / Cedartown City Commission Meeting"
+        },
+        {
+          "field": "meeting_date",
+          "value": "October 12, 2026: Cedartown City Commission meeting.",
+          "source_id": "b900c8aa44494f9dbf34f91a54f84bc1",
+          "locator": "Physical page 1, heading",
+          "supporting_quote": "October 12th, 2026 / Cedartown City Commission Meeting"
+        },
+        {
+          "field": "data_center_extension",
+          "value": "On October 12, the Commission approved Resolution 22, 2026, identified as a six-month data-center moratorium extension. Commissioner Tuck moved and Commissioner Payton seconded; all voted aye and none voted no.",
+          "source_id": "b900c8aa44494f9dbf34f91a54f84bc1",
+          "locator": "Physical page 3, consideration of data center moratorium extension",
+          "supporting_quote": "A motion was made by Commissioner Tuck, seconded by Commissioner Payton, all voting \u201cAye\u201d, none voting \u201cNo,\u201d the Commission approved RESOLUTION 22, 2026, Data Center Moratorium 6 Month Extension."
+        },
+        {
+          "field": "data_center_vote_context",
+          "value": "The October minutes list five commissioners present: Sam Branch, Matt Foster, Ryan Casey, Jessica Payton, and Dale Tuck.",
+          "source_id": "b900c8aa44494f9dbf34f91a54f84bc1",
+          "locator": "Physical page 1, commissioners present",
+          "supporting_quote": "Commissioners Present: Sam Branch, Chairman / Matt Foster, Pro-Tem / Ryan Casey / Jessica Payton / Dale Tuck"
+        },
+        {
+          "field": "separate_build_to_rent_extension",
+          "value": "On September 14, the Commission unanimously approved a separate 30-day build-to-rent moratorium extension, on Payton's motion and Tuck's second.",
+          "source_id": "0a53f8525db3453e95ba8fcaa5449f47",
+          "locator": "Physical page 3, consideration of the extension of the build-to-rent moratorium",
+          "supporting_quote": "A motion was made by Commissioner Payton, seconded by Commissioner Tuck, all voting \u201cAye\u201d, none voting \u201cNo,\u201d the Commission approved the extension of the Build-to-Rent Moratorium by 30 days."
+        },
+        {
+          "field": "separate_build_to_rent_extension",
+          "value": "On October 12, the Commission unanimously approved Resolution 21, 2026, a separate 60-day build-to-rent moratorium extension, on Payton's motion and Foster's second.",
+          "source_id": "b900c8aa44494f9dbf34f91a54f84bc1",
+          "locator": "Physical page 3, consideration of a build-to-rent moratorium extension",
+          "supporting_quote": "the Commission approved RESOLUTION 21, 2026, Build-to-Rent Moratorium 60 day Extension"
+        },
+        {
+          "field": "separate_zoning_revision",
+          "value": "On September 14, the Commission tabled a proposed Chapter 94 zoning-code revision concerning build-to-rent and subdivision leasing regulations; it was not the data-center extension.",
+          "source_id": "0a53f8525db3453e95ba8fcaa5449f47",
+          "locator": "Physical page 3, consideration of a zoning code revision",
+          "supporting_quote": "the Commission tabled the Build-to-Rent zoning code revision."
+        },
+        {
+          "field": "separate_resolution",
+          "value": "Resolution 20, 2026, approved September 14, concerned the LWCF Biggers Field grant, not the data-center moratorium.",
+          "source_id": "0a53f8525db3453e95ba8fcaa5449f47",
+          "locator": "Physical page 3, consideration of LWCF grant resolution",
+          "supporting_quote": "the Commission approved RESOLUTION 20, 2026, LWCF Biggers Field"
+        },
+        {
+          "field": "september_minutes_approval",
+          "value": "The October 12 meeting minutes record unanimous approval of the September 14 Commission and Executive Session minutes.",
+          "source_id": "b900c8aa44494f9dbf34f91a54f84bc1",
+          "locator": "Physical page 1, approval of meeting minutes",
+          "supporting_quote": "the Commission approved the Commission and Executive Session Meeting Minutes of September 14th, 2026"
+        },
+        {
+          "field": "signed_approval_and_attestation",
+          "value": "The September minutes show signatures in the approval block for Chairman Sam Branch and the attestation block for City Clerk Mitzi Allen.",
+          "source_id": "0a53f8525db3453e95ba8fcaa5449f47",
+          "locator": "Physical page 4, approval and attestation blocks",
+          "supporting_quote": "APPROVED: / SAM BRANCH, CHAIRMAN / CEDARTOWN CITY COMMISSION / ATTEST: / MITZI ALLEN, CITY CLERK"
+        },
+        {
+          "field": "signed_approval_and_attestation",
+          "value": "The October minutes show signatures in the approval block for Chairman Sam Branch and the attestation block for City Clerk Mitzi Allen.",
+          "source_id": "b900c8aa44494f9dbf34f91a54f84bc1",
+          "locator": "Physical page 4, approval and attestation blocks",
+          "supporting_quote": "APPROVED: / SAM BRANCH, CHAIRMAN / CEDARTOWN CITY COMMISSION / ATTEST: / MITZI ALLEN, CITY CLERK"
+        }
+      ],
+      "uncertainties": [
+        "The minutes identify a six-month data-center extension but do not state its effective-date anchor or exact expiration date. The October 12 vote date alone does not establish either endpoint.",
+        "The supplied pages are meeting minutes, not the full text of Resolution 22, 2026 or the original data-center moratorium. Their precise operative terms and original expiration are not established here.",
+        "These records do not establish uninterrupted force of the data-center moratorium or whether it was subsequently amended, extended, repealed, or allowed to expire.",
+        "The signatures on the minutes are visible, but the approval and attestation blocks do not state signature dates."
+      ]
+    },
+    "cell_adjudication": {
+      "record_id": "ga-cedartown-2026",
+      "input_row_sha256": "133028a61b8c61ca04dc85e87160d4ee3f43eadbce95b12523ad234d46349130",
+      "field_decisions": [
+        {
+          "field": "duration",
+          "decision": "accept",
+          "value": "The signed October 12, 2026 commission minutes record approval of Resolution 22, 2026, a six-month data-center moratorium extension. The earlier initial six-month term was reported before the March 23 vote. The extension resolution text, effective anchor and precise endpoint remain unverified; no fixed-day conversion or exact end date is established.",
+          "source_id": "b900c8aa44494f9dbf34f91a54f84bc1",
+          "locator": "Physical pages 1, 3 and 4: meeting date, data-center extension, signatures",
+          "reason": "The minutes record a six-month extension. The initial term is retained prior context, not independently established by these later minutes."
+        },
+        {
+          "field": "legal_basis",
+          "decision": "accept",
+          "value": "Cedartown City Commission Resolution 4, 2026, adopted March 23, 2026 according to the previously reviewed minutes; the signed October 12, 2026 minutes additionally record unanimous approval of Resolution 22, 2026, Data Center Moratorium 6 Month Extension. The executed resolution text has not been recovered.",
+          "source_id": "b900c8aa44494f9dbf34f91a54f84bc1",
+          "locator": "Physical pages 3 and 4: data-center extension and signatures",
+          "reason": "Resolution 22 is supported by the signed minutes. Resolution 4 is retained from the prior row; its adoption and earlier source provenance were not independently checked here."
+        },
+        {
+          "field": "current_status",
+          "decision": "accept",
+          "value": "The signed October 12, 2026 commission minutes record unanimous approval of Resolution 22, 2026, extending the data-center moratorium by six months. This supersedes the earlier statement that no extension was located; it does not establish uninterrupted force after the initial term. [VERIFY: executed Resolutions 4 and 22, extension effective anchor and exact endpoint, any intervening lapse, later replacement or termination, litigation and actual applicability/current force.]",
+          "source_id": "b900c8aa44494f9dbf34f91a54f84bc1",
+          "locator": "Physical pages 1, 3 and 4: meeting date, data-center extension, signatures",
+          "reason": "The recorded extension replaces the earlier no-extension statement without asserting uninterrupted or later force."
+        },
+        {
+          "field": "enacted_status",
+          "decision": "accept",
+          "value": "extended",
+          "source_id": "b900c8aa44494f9dbf34f91a54f84bc1",
+          "locator": "Physical page 3: consideration of data center moratorium extension",
+          "reason": "The minutes record an extension; this is a lifecycle classification, not certification of current legal force."
+        },
+        {
+          "field": "duration_kind",
+          "decision": "accept",
+          "value": "calendar_term",
+          "source_id": "b900c8aa44494f9dbf34f91a54f84bc1",
+          "locator": "Physical page 3: data-center moratorium six-month extension",
+          "reason": "The recorded term is in months, not a fixed number of days."
+        },
+        {
+          "field": "duration_days",
+          "decision": "accept",
+          "value": "",
+          "source_id": "b900c8aa44494f9dbf34f91a54f84bc1",
+          "locator": "Physical page 3: data-center moratorium six-month extension",
+          "reason": "Six months does not establish a fixed 183-day duration."
+        }
+      ],
+      "whole_record_closure_supported": false,
+      "remaining_questions": [
+        "What do the executed Resolutions 4 and 22 establish about operative terms, the extension's effective anchor and exact endpoint?",
+        "Was there an intervening lapse or any later extension, replacement, termination, litigation or change in applicability?"
+      ],
+      "review_limitations": [
+        "The supplied documents are September and October meeting minutes, not the original or extension resolution text. The March adoption is prior retained context, not re-proved here.",
+        "Resolution 21 and the September 30-day extension concern build-to-rent, not the data-center moratorium.",
+        "The minutes do not establish uninterrupted force, subsequent legal status or current applicability. No tools were used and no records were written."
+      ]
+    }
+  },
+  "model_http_requests": 2,
+  "model": "gpt-6.1-terra",
+  "tools": [],
+  "agents_spawned": 0,
+  "price_usd": null,
+  "input_row_sha256": "133028a61b8c61ca04dc85e87160d4ee3f43eadbce95b12523ad234d46349130",
+  "coordinator_whole_record_closure": false
+}

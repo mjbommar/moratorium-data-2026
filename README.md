@@ -95,7 +95,7 @@ For more, see the [FAQ](docs/FAQ.md).
 Working snapshot during the **November 9, 2026** refresh (record-level source dates vary):
 
 - **1328 moratorium records** tracked in our working inventory
-  - **1086 classified active or extended** (888 active + 198 extended)
+  - **1086 classified active or extended** (887 active + 199 extended)
   - **64 classified pending**
   - **84 classified replaced**
   - **76 classified expired**

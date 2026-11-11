@@ -1,0 +1,57 @@
+{
+  "id": "ga-cedartown-2026",
+  "dataset": "local_inventory",
+  "baseline_commit": "e801054c2ab04af17ac0b9f33bb8c4e2847958b4",
+  "applied_at": "2026-11-11T08:38:18.794165+00:00",
+  "prior_row_sha256": "133028a61b8c61ca04dc85e87160d4ee3f43eadbce95b12523ad234d46349130",
+  "current_row_sha256": "bba6fb0a99348bad22d617ac9280371ac0af09aa34b87010bacca5e8b464474b",
+  "canonical_cells_changed": 6,
+  "field_changes": [
+    {
+      "field": "duration",
+      "before": "Six months per the city manager's public statement ahead of the vote.",
+      "after": "The signed October 12, 2026 commission minutes record approval of Resolution 22, 2026, a six-month data-center moratorium extension. The earlier initial six-month term was reported before the March 23 vote. The extension resolution text, effective anchor and precise endpoint remain unverified; no fixed-day conversion or exact end date is established."
+    },
+    {
+      "field": "legal_basis",
+      "before": "Cedartown City Commission Resolution 4, 2026, adopted March 23, 2026 (unanimous).",
+      "after": "Cedartown City Commission Resolution 4, 2026, adopted March 23, 2026 according to the previously reviewed minutes; the signed October 12, 2026 minutes additionally record unanimous approval of Resolution 22, 2026, Data Center Moratorium 6 Month Extension. The executed resolution text has not been recovered."
+    },
+    {
+      "field": "current_status",
+      "before": "Enacted March 23, 2026; no subsequent news of extension, replacement, or expiration was located in this research pass. [VERIFY status: six-month term ended about 2026-09-22; no extension, replacement or lapse found in the 2026-09 QA pass]",
+      "after": "The signed October 12, 2026 commission minutes record unanimous approval of Resolution 22, 2026, extending the data-center moratorium by six months. This supersedes the earlier statement that no extension was located; it does not establish uninterrupted force after the initial term. [VERIFY: executed Resolutions 4 and 22, extension effective anchor and exact endpoint, any intervening lapse, later replacement or termination, litigation and actual applicability/current force.]"
+    },
+    {
+      "field": "enacted_status",
+      "before": "active",
+      "after": "extended"
+    },
+    {
+      "field": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term"
+    },
+    {
+      "field": "duration_days",
+      "before": "183",
+      "after": ""
+    }
+  ],
+  "independent_review": {
+    "path": "work/research/2026-11-11/post-release-qa/cedartown-operative-independent-review.json",
+    "sha256": "2cebd7d4d9243de69c1b4c2bc2433fa239ac0934a6c1ab66b1920cb1d3f4cf7e"
+  },
+  "source_continuity": {
+    "path": "work/research/2026-11-11/post-release-qa/cedartown-source-continuity.json",
+    "sha256": "0f31c8f399f15bd828c3b18a5254b413a56956243f2fd31b55e91a78c0147996"
+  },
+  "recommendation": "unresolved",
+  "whole_record_closures": 0,
+  "remaining_questions": [
+    "Signed October12minutes physicalpage3 establish unanimous approval of Resolution22,2026, six-month data-center extension; all4October and4September pages reviewed. Resolution21is build-to-rent, not data-center. Do not repeat these unchanged minutes or the original generic extension query.",
+    "Recover distinct executed Resolutions4and22 to establish original/extension operative terms, precise effective anchor and endpoint, scope and any intervening lapse. Do not calculate an extension endpoint from approval date alone.",
+    "Verify distinct later replacement/termination/amendment, litigation and actual project applicability/currentforce. Recorded extended classification reflects approved extension, not universal enforceability."
+  ],
+  "scope": "Six exact cells: three prose, active to extended, calendar_term, and remove unsupported183fixed-day conversion. No exact enddate/adoptiondate/identity/sector/native changes. Recorded in-force total unchanged; original/extension operative interval and laterforce unresolved."
+}

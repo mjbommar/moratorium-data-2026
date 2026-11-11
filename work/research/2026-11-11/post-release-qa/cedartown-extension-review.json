@@ -1,0 +1,95 @@
+{
+  "record_id": "ga-cedartown-2026",
+  "baseline_commit": "e801054c2ab04af17ac0b9f33bb8c4e2847958b4",
+  "client_config": {
+    "caps": {
+      "fetch": 4,
+      "exa": 0,
+      "serpapi": 1,
+      "googlenews": 0,
+      "gdelt": 0,
+      "search_total": 1
+    },
+    "target_record_ids": [
+      "ga-cedartown-2026"
+    ],
+    "admission": "Seek distinctly dated post-term official commission minutes. Prior November5 Exa query Cedartown Georgia resolution4 2026 data center moratorium extension and original March23minutes already reviewed; do not repeat either. One scoped official minutes-index search and four actual linked new sources maximum. September23 manager-page raw HTML unavailable; if refresh needed explicitly record later-version navigation scope, not renewed law acceptance."
+  },
+  "attempts": [
+    {
+      "attempt_id": "750bdbddeb984859bd25e198132c2850",
+      "kind": "serpapi",
+      "query": "site:cedartowngeorgia.gov commission minutes September October 2026",
+      "hits": 6,
+      "cost_usd": null,
+      "query_scope_check": {
+        "status": "no_returned_url_in_declared_sites",
+        "declared_sites": [
+          "cedartowngeorgia.gov"
+        ],
+        "matching_hits": 0,
+        "nonmatching_hits": 6,
+        "observed_hosts": [
+          "citizenportal.ai",
+          "clrc.ca.gov",
+          "sacramento.granicus.com",
+          "www.facebook.com",
+          "www.youtube.com"
+        ],
+        "scope": "Diagnostic of returned URL hosts, not query-language validation or evidence of absence. Check ambiguous OR branches and fetch substantive sources."
+      }
+    },
+    {
+      "attempt_id": "7e21248d336e4cd9ac3225e4505edcc1",
+      "kind": "fetch",
+      "url": "https://cedartowngeorgia.gov/our-government/meet-our-city-manager/",
+      "final_url": "https://cedartowngeorgia.gov/our-government/meet-our-city-manager/",
+      "ok": true,
+      "status": 200,
+      "body_sha256": "411e505cfc21d704037199b031408340df3ac1b17f35cd66be034f795d80fb36",
+      "text_sha256": "bcffb5775abaeff7d332093914d0cde4d3aec7cdd0db26cc1f850e3b4d07b8e7"
+    },
+    {
+      "attempt_id": "98676074a4c34bb8bcd75f5a4d4a91a4",
+      "kind": "fetch",
+      "url": "https://cedartowngeorgia.gov/our-government/meet-our-city-manager/meeting-minutes/",
+      "final_url": "https://cedartowngeorgia.gov/our-government/meet-our-city-manager/meeting-minutes/",
+      "ok": true,
+      "status": 200,
+      "body_sha256": "9f8f46e38350d80a92298ef20066df64ddf14a527e9b9535ca72de186baa1f1d",
+      "text_sha256": "a109ed8a99b68b011df98f202125729dd6e073f6857b84fe23a807dde4076554"
+    },
+    {
+      "attempt_id": "0a53f8525db3453e95ba8fcaa5449f47",
+      "kind": "fetch",
+      "url": "https://cedartowngeorgia.gov/wp-content/uploads/2026/10/September-14th-2026-Commission-Minutes.pdf",
+      "final_url": "https://cedartowngeorgia.gov/wp-content/uploads/2026/10/September-14th-2026-Commission-Minutes.pdf",
+      "ok": true,
+      "status": 200,
+      "body_sha256": "a34056359b2e6705c2de7d88ff9d4dd8583c2c174a70ea4d0719d56260ecaebe",
+      "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "attempt_id": "b900c8aa44494f9dbf34f91a54f84bc1",
+      "kind": "fetch",
+      "url": "https://cedartowngeorgia.gov/wp-content/uploads/2026/11/October-12th-2026-Commission-Meeting-Minutes-Signed.pdf",
+      "final_url": "https://cedartowngeorgia.gov/wp-content/uploads/2026/11/October-12th-2026-Commission-Meeting-Minutes-Signed.pdf",
+      "ok": true,
+      "status": 200,
+      "body_sha256": "91019fd68bb6c45c51b42add652656ec556fc0fe6ed75f7548c0ccfdd472e220",
+      "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ],
+  "search_cost_usd": null,
+  "model_cost_usd": null,
+  "physical_pages_visually_inspected": 8,
+  "source_continuity": {
+    "path": "work/research/2026-11-11/post-release-qa/cedartown-source-continuity.json",
+    "sha256": "0f31c8f399f15bd828c3b18a5254b413a56956243f2fd31b55e91a78c0147996"
+  },
+  "application": {
+    "path": "work/research/2026-11-11/post-release-qa/cedartown-operative-application.json",
+    "sha256": "2e591033c1acbdd03317469e4ed290265e4e3ef68440b7f960a9c754233e62e1"
+  },
+  "scope": "One scoped Serp search returned six URLs outside official city domain, not absence evidence. Later-version city manager navigation exposed actual minutes index and two distinct signed PDFs. OCR recovered extension; images govern. Four fetches and one search terminal, no repeats of prior generic Exa query or original March23PDF."
+}

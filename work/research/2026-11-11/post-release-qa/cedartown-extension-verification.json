@@ -1,0 +1,137 @@
+{
+  "verified_at": "2026-11-11T08:39:57.500870+00:00",
+  "baseline_commit": "e801054c2ab04af17ac0b9f33bb8c4e2847958b4",
+  "field_changes": [
+    {
+      "id": "ga-cedartown-2026",
+      "field": "duration",
+      "before": "Six months per the city manager's public statement ahead of the vote.",
+      "after": "The signed October 12, 2026 commission minutes record approval of Resolution 22, 2026, a six-month data-center moratorium extension. The earlier initial six-month term was reported before the March 23 vote. The extension resolution text, effective anchor and precise endpoint remain unverified; no fixed-day conversion or exact end date is established."
+    },
+    {
+      "id": "ga-cedartown-2026",
+      "field": "legal_basis",
+      "before": "Cedartown City Commission Resolution 4, 2026, adopted March 23, 2026 (unanimous).",
+      "after": "Cedartown City Commission Resolution 4, 2026, adopted March 23, 2026 according to the previously reviewed minutes; the signed October 12, 2026 minutes additionally record unanimous approval of Resolution 22, 2026, Data Center Moratorium 6 Month Extension. The executed resolution text has not been recovered."
+    },
+    {
+      "id": "ga-cedartown-2026",
+      "field": "current_status",
+      "before": "Enacted March 23, 2026; no subsequent news of extension, replacement, or expiration was located in this research pass. [VERIFY status: six-month term ended about 2026-09-22; no extension, replacement or lapse found in the 2026-09 QA pass]",
+      "after": "The signed October 12, 2026 commission minutes record unanimous approval of Resolution 22, 2026, extending the data-center moratorium by six months. This supersedes the earlier statement that no extension was located; it does not establish uninterrupted force after the initial term. [VERIFY: executed Resolutions 4 and 22, extension effective anchor and exact endpoint, any intervening lapse, later replacement or termination, litigation and actual applicability/current force.]"
+    },
+    {
+      "id": "ga-cedartown-2026",
+      "field": "enacted_status",
+      "before": "active",
+      "after": "extended"
+    },
+    {
+      "id": "ga-cedartown-2026",
+      "field": "duration_days",
+      "before": "183",
+      "after": ""
+    },
+    {
+      "id": "ga-cedartown-2026",
+      "field": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term"
+    }
+  ],
+  "changed_cells": 6,
+  "changed_local_rows": 1,
+  "other_local_rows_identical": 1327,
+  "policy_csv_identical": true,
+  "other_queue_records_identical": 1346,
+  "unresolved_records": 1347,
+  "status_category_changes": 1,
+  "recorded_in_force_total_change": 0,
+  "current_counts": {
+    "active": 887,
+    "extended": 199,
+    "recorded_in_force": 1086
+  },
+  "model_requests": 2,
+  "original_page_images_per_request": 8,
+  "source_pairs_read_back": 4,
+  "native_readback_gaps": 0,
+  "whole_record_closures": 0,
+  "checks": [
+    {
+      "command": [
+        "scripts/validate_dataset.py",
+        "--today",
+        "2026-11-11"
+      ],
+      "returncode": 0,
+      "log_sha256": "819e41aa8db7bed5645006222f60aadcd1b960dbeb9a08944266754535badfa5"
+    },
+    {
+      "command": [
+        "scripts/build_policy_scope_exports.py",
+        "--check"
+      ],
+      "returncode": 0,
+      "log_sha256": "8e715d0290562bb595579f256175abadf54c2e7df243fef821d044d802de88bd"
+    },
+    {
+      "command": [
+        "scripts/build_summary_stats.py",
+        "--check"
+      ],
+      "returncode": 0,
+      "log_sha256": "e2580643fc2d825c440b1fa8cdb9ca7d12e08fb59be901c4271dd0a3a6801587"
+    },
+    {
+      "command": [
+        "scripts/build_geojson.py",
+        "--check"
+      ],
+      "returncode": 0,
+      "log_sha256": "bfb31083b4e00dd2a1b45a49245ef1bafe5036fe4d70619b8897921e19f67233"
+    },
+    {
+      "command": [
+        "scripts/make_timeline.py",
+        "--check"
+      ],
+      "returncode": 0,
+      "log_sha256": "3619c0b8a38be4f2497aef9beebfbe50553bba29d4d8e6edbfdc317100290cb6"
+    },
+    {
+      "command": [
+        "scripts/check_docs_numbers.py"
+      ],
+      "returncode": 0,
+      "log_sha256": "61344145ac6fdbc7109188670ac85fb93733623cd19cf2672a5da3e4d162f9e5"
+    },
+    {
+      "command": [
+        "-m",
+        "scripts.generate_tables.inventory_clean",
+        "--check"
+      ],
+      "returncode": 0,
+      "log_sha256": "bf1a45f7fdee05c639b9bba4c3fe1ee6b026c0a3f202e0b3e38b03b7acf8b918"
+    },
+    {
+      "command": [
+        "scripts/build_index.py",
+        "--check"
+      ],
+      "returncode": 0,
+      "log_sha256": "4b453f57bc7d508eec5246a6f7e899e3d64d1c762526c6e147beff4cc826624e"
+    },
+    {
+      "command": [
+        "scripts/classify_sources.py",
+        "--check"
+      ],
+      "returncode": 0,
+      "log_sha256": "c90671a064ca4bfb3f3419657edc628df12e100d8142fbb60a1f1ceda1331054"
+    }
+  ],
+  "frozen_review_ledger_unchanged": true,
+  "delivery_state": "Working six-cell correction awaits next combined release, consumer and Pages delivery; qualifiedpost2/V36 remains delivered."
+}

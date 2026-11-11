@@ -134,8 +134,8 @@ def main():
             row[change['field']]=change['before']
         assert digest(json.dumps(row,sort_keys=True,separators=(',',':'),ensure_ascii=False).encode())==baltimore['prior_row_sha256']
     operative_transitions={}
-    operative_paths=[Path('work/research/2026-11-11/post-release-qa')/(name+'-operative-application.json') for name in ('hamilton','brookhaven','clay')]
-    expected_fields={'tn-unincorporated-hamilton-county-2026':{'duration','legal_basis','current_status','affected_projects','duration_kind','current_end_date_iso'},'ny-town-of-brookhaven-2026':{'date_enacted','legal_basis','current_status'},'ny-clay-2026':{'date_enacted','duration','legal_basis','current_status'}}
+    operative_paths=[Path('work/research/2026-11-11/post-release-qa')/(name+'-operative-application.json') for name in ('hamilton','brookhaven','clay','cedartown')]
+    expected_fields={'tn-unincorporated-hamilton-county-2026':{'duration','legal_basis','current_status','affected_projects','duration_kind','current_end_date_iso'},'ny-town-of-brookhaven-2026':{'date_enacted','legal_basis','current_status'},'ny-clay-2026':{'date_enacted','duration','legal_basis','current_status'},'ga-cedartown-2026':{'duration','legal_basis','current_status','enacted_status','duration_kind','duration_days'}}
     for app_path in operative_paths:
         if not app_path.exists():continue
         application=json.loads(app_path.read_text())

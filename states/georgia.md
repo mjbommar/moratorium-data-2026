@@ -24,7 +24,7 @@ State policy is tracked separately: **9 records** (9 typed bill rows) in [`state
 | Calhoun (Gordon County) | City | 2026-04-27 | data center | 🟢 Extended |
 | Camden County | County | 2026-05-05 | data center | 🟢 Extended |
 | Carroll County | County | 2026-03-03 | data center, battery storage, solar | 🟢 Extended |
-| Cedartown | City | 2026-03-23 | data center | 🟢 Active |
+| Cedartown | City | 2026-03-23 | data center | 🟢 Extended |
 | Chamblee | City | 2026-07-21 | data center | 🟢 Active |
 | Chatham County | County | 2026-09-11 | data center | 🟢 Active |
 | Cherokee County | County | 2026-07-21 | data center | 🟢 Extended |
@@ -296,17 +296,17 @@ State policy is tracked separately: **9 records** (9 typed bill rows) in [`state
 ### Cedartown
 
 - **Type:** City
-- **Recorded status:** 🟢 Active
+- **Recorded status:** 🟢 Extended
 - **Date enacted:** Cedartown City Commission unanimously approved Resolution 4, 2026 at its March 23, 2026 meeting.
 - **Normalized date:** `2026-03-23` (exact)
-- **Duration:** Six months per the city manager's public statement ahead of the vote.
+- **Duration:** The signed October 12, 2026 commission minutes record approval of Resolution 22, 2026, a six-month data-center moratorium extension. The earlier initial six-month term was reported before the March 23 vote. The extension resolution text, effective anchor and precise endpoint remain unverified; no fixed-day conversion or exact end date is established.
 - **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `ga-cedartown-2026`
-- **Legal basis:** Cedartown City Commission Resolution 4, 2026, adopted March 23, 2026 (unanimous).
+- **Legal basis:** Cedartown City Commission Resolution 4, 2026, adopted March 23, 2026 according to the previously reviewed minutes; the signed October 12, 2026 minutes additionally record unanimous approval of Resolution 22, 2026, Data Center Moratorium 6 Month Extension. The executed resolution text has not been recovered.
 - **What prompted it:** City wanted time to study how other jurisdictions were regulating data centers before adopting its own rules.
 - **Affected projects:** Not specified in sources reviewed
-- **Detailed status:** Enacted March 23, 2026; no subsequent news of extension, replacement, or expiration was located in this research pass. [VERIFY status: six-month term ended about 2026-09-22; no extension, replacement or lapse found in the 2026-09 QA pass]
+- **Detailed status:** The signed October 12, 2026 commission minutes record unanimous approval of Resolution 22, 2026, extending the data-center moratorium by six months. This supersedes the earlier statement that no extension was located; it does not establish uninterrupted force after the initial term. [VERIFY: executed Resolutions 4 and 22, extension effective anchor and exact endpoint, any intervening lapse, later replacement or termination, litigation and actual applicability/current force.]
 - **Outcome:** Study moratorium; outcome pending as of sources reviewed
 
 ### Chamblee
