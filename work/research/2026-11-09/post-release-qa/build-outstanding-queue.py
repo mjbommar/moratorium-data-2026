@@ -1478,6 +1478,25 @@ def main():
         assert proof['gap_records']==0 and proof['exact_body_text_pairs_read_back']==3
         assert proof['canonical_changes']==proof['whole_record_closures']==proof['model_requests']==0
         overlays[review['id']]=[public_text(q) for q in review['remaining_questions']]
+    butler_oh_refinement_path=Path('work/research/2026-11-11/post-release-qa/butler-oh-question-refinement.json')
+    if butler_oh_refinement_path.exists():
+        review=json.loads(butler_oh_refinement_path.read_text())
+        assert review['id']=='oh-butler-county-2026' and review['dataset']=='local_inventory'
+        source_row_guard(('local_inventory',review['id']),review['current_row_sha256'])
+        source_disposition_guard(review)
+        assert review['canonical_changes']==review['whole_record_closures']==0
+        for field in ['source_continuity','independent_review']:
+            pin=review[field]
+            assert digest(Path(pin['path']).read_bytes())==pin['sha256']
+        proof=json.loads(Path(review['source_continuity']['path']).read_text())
+        assert proof['gap_records']==0 and proof['exact_body_text_pairs_read_back']==3
+        model=json.loads(Path(review['independent_review']['path']).read_text())
+        assert model['model_http_requests']==2 and model['canonical_changes']==model['whole_record_closures']==0
+        decisions=model['answers']['cell_adjudication']
+        assert decisions['input_row_sha256']==review['current_row_sha256'] and not decisions['whole_record_closure_supported']
+        assert {d['field'] for d in decisions['field_decisions'] if d['decision']=='accept'}=={'duration','legal_basis'}
+        assert {d['field'] for d in decisions['field_decisions'] if d['decision']=='hold'}=={'current_status','outcome'}
+        overlays[review['id']]=[public_text(q) for q in review['remaining_questions']]
     heath_refinement_path=Path('work/research/2026-11-11/post-release-qa/heath-question-refinement.json')
     if heath_refinement_path.exists():
         review=json.loads(heath_refinement_path.read_text())
@@ -1560,6 +1579,7 @@ def main():
     summary['lyon_extension_lead_review_sha256']=digest(lyon_extension_review_path.read_bytes()) if lyon_extension_review_path.exists() else None
     summary['butler_luzerne_operative_review_sha256']=digest(butler_luzerne_review_path.read_bytes()) if butler_luzerne_review_path.exists() else None
     summary['bazetta_operative_review_sha256']=digest(bazetta_review_path.read_bytes()) if bazetta_review_path.exists() else None
+    summary['butler_oh_question_refinement_sha256']=digest(butler_oh_refinement_path.read_bytes()) if butler_oh_refinement_path.exists() else None
     summary['heath_question_refinement_sha256']=digest(heath_refinement_path.read_bytes()) if heath_refinement_path.exists() else None
     summary['generic_question_specificity_audit_sha256']=digest(generic_specificity_path.read_bytes()) if generic_specificity_path.exists() else None
     summary['mattoon_instrument_followup_sha256']=digest(mattoon_instrument_path.read_bytes()) if mattoon_instrument_path.exists() else None
