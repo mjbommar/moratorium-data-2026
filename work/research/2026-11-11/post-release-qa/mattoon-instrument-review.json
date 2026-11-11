@@ -1,0 +1,50 @@
+{
+  "id": "il-mattoon-2026",
+  "dataset": "local_inventory",
+  "recommendation": "unresolved",
+  "current_row_sha256": "71b842d8561b6f0535cbce4188a7041980d1207bb20f3d4321ae52f39077dd47",
+  "baseline_commit": "e98ff6fad45d8078b0fbcee91e8b9c5fd1328edc",
+  "reviewed_at": "2026-11-11T10:15:48.591320+00:00",
+  "canonical_changes": 0,
+  "whole_record_closures": 0,
+  "model_requests": 0,
+  "fetch_reservations": 3,
+  "successful_navigation_fetches": 3,
+  "native_readback_gaps": 0,
+  "source_continuity": {
+    "path": "work/research/2026-11-11/post-release-qa/mattoon-instrument-source-continuity.json",
+    "sha256": "3e3ddbaca88a450e57f51fc372db6c9aea3e042adb417d63b8f081f39e4996f7"
+  },
+  "prior_work_dedup": {
+    "inspected_announcement_body_sha256": "ea80bceea51574646eb3938803f198c83626f33a81de5a747f732717865c9f53",
+    "retained_exa_attempt": "999c822dcaf44634b8e5473f44dc73ed",
+    "retained_serpapi_attempt": "1869a312d23a42598e181d19238c803e",
+    "new_searches": 0
+  },
+  "manual_browser": {
+    "navigation": 1,
+    "minutes_click": 1,
+    "download_observed": false,
+    "terminal": true,
+    "journal_sha256": "f4bb14b8ec6ffb870a629dc7d2a90acf24413baa56db0ffde8198494ac733ee5",
+    "outcome": "One click produced no browser download within 10 seconds; rendered result retained, no retry.",
+    "scope": "One actual click, not a synthetic download URL or evidence of absent records. A POST400 was observed but its request body/initiator was not retained, so it is not attributed conclusively to the click or a legal-record lookup."
+  },
+  "findings": [
+    "Retained Exa hit2 quotes proposed September1 agenda motion to adopt Resolution2026-3352; canonical legal_basis currently calls the instrument an ordinance. This is an identity discrepancy requiring actual completed minutes/executed instrument, not a basis to accept an agenda/search snippet as adoption.",
+    "Official meeting archive links September1 landing page; that page lists agenda130kb, packet4.7mb and minutes280kb. Each actual download anchor was #unlock with package5501 and separate data-file IDs. These metadata are not the underlying legal document.",
+    "Explicit browser navigation and one later manualminutesclick produced no browser download within10seconds. No guessed endpoint, CAPTCHA bypass, automatic retry, new search or model request. No specific access-control cause proven."
+  ],
+  "remaining_questions": [
+    "Resolve instrument identity: canonical legal_basis calls the measure an ordinance, but retained Exa agenda hit2 names proposed Resolution2026-3352. Obtain actual executed resolution and completed September1minutes before accepting the identity/number, adopted annual-renewal mechanics, scope or vote. Announcement and proposed agenda alone do not establish those legal particulars.",
+    "Official September1meeting landingpage lists agenda,4.7mbpacket and280kbminutes; captured #unlock Download anchors and one actual minutesclick yielded no PDF. Do not repeat the same unchanged landingpage/defaultclick or invent a download route. Next acquire a distinct public document rendition, functioning actual download condition or official codification. Later amendment/repeal and currentforce remain unverified."
+  ],
+  "canonical_hashes": {
+    "data/moratorium_inventory.csv": "a35f0e4c72cb0ae91583591b72d70eba3e36e9def80c8de658da5f3a0accd5f3",
+    "data/state_legislation.csv": "53b79966a15c10e79dce358b1a31b788260757cb709dea621d31f687777522d3",
+    "data/release_metadata.json": "b207eddf68d0b19c9b9ac9358c3b2311f0eef7fbb9456fcfc29cc9702d25f1ea",
+    "data/summary_stats.json": "f48ada8090ed930d35354e5cc1abade82f4bd93148a92fbc35a0db586276060e",
+    "site/moratoria.geojson": "c91782a295b2601ee6b00b9e4be2d9be9e3b8e72c7f4ab7792323dd989eb09a7",
+    "site/timeline.svg": "4b3febd7a4fa3c81d8fdb1c52ab2e2bad9fbefb99b8d9be04318d8b6193eb095"
+  }
+}

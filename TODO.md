@@ -978,3 +978,5 @@ Exit: repeatable refresh with visible freshness, costs, failures and unresolved 
 - [x] Close bounded Calaveras/Eureka source follow-ups: eight exact source pairs archived/read back; actual Calaveras proposal metadata and unsigned Eureka draft do not establish extension adoption. Two residual questions refined, 1,345 others identical; five URL-redaction tests pass. No canonical or public-release change; post4/V38 remains the delivered version.
 
 - [x] Inspect all five signed Houston October8 council-minute pages: direct unanimous-adoption corroboration matches current data; undated minutes signatures do not supply ordinance execution/effect. Two new source pairs archived and exactly read back, one residual question refined; no canonical/publication change.
+
+- [x] Check Mattoon actual meeting archive/September1landing page and one minutes Download click. Three navigation captures archived/read back; no PDF acquired. Record proposed Resolution2026-3352 versus canonical ordinance identity discrepancy explicitly, with no promotion from agenda snippet. One residual queue entry refined; unchanged-route retries excluded.
