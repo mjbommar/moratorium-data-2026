@@ -68,3 +68,6 @@ Run from the repository root:
 
 Broader factual QA remains open. This tooling-only change requires no new data
 release or Pages deployment.
+
+
+November 11 follow-up: the [qualification prior-work overlay](../../2026-11-11/ballot-qualification-routing/README.md) completes four further prior-work checks while preserving all 97 obligations and this certification-only plan. Its combined routing is 85 prior-work checks required, 10 requiring distinct evidence and two not due. Qualified v2026.11.11.post1 / V35 is now delivered; earlier edition wording above is the historical checkpoint. No qualification task is closed.

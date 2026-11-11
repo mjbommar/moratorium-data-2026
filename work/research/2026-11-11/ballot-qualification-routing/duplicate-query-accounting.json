@@ -1,0 +1,23 @@
+{
+  "attempt_id": "31910e291d474d4baa5e17ca46e229cc",
+  "query": "Clarksville Johnson County Arkansas \"December\" \"2026\" \"special election\" referendum ballot",
+  "backend": "exa",
+  "hits": 6,
+  "cost_usd": 0.007,
+  "payload_sha256": "fe0f986d2c6c7e5a02cac5d146508a3d585709d6e2dc7b402f866ef474e2d628",
+  "prior_queries": [
+    {
+      "query": "Clarksville Arkansas December 1 2026 special election Ordinance 26-1007 26-1008 ballot",
+      "backend": "exa"
+    },
+    {
+      "query": "Johnson County Arkansas election commission December 2026 Clarksville special election ballot 1007 1008",
+      "backend": "serpapi"
+    }
+  ],
+  "finding": "Semanticduplicate of earlierDecemberdate/ballotqueries. Executionerror, not new researchcoverage. PriorreviewREADME was read beforedispatch, but actualpriorquerypayloads were inspected onlyafterdispatch; that check was too shallow.",
+  "new_sources_acquired": 0,
+  "model_requests": 0,
+  "canonical_changes": 0,
+  "followup": "Collectionstopped; originalreservation/providerexchange retained. No capreset or repeatedproviderquery. Four qualificationtasks nowhavepinned source-specific priorworkrouting."
+}
