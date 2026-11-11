@@ -192,7 +192,7 @@ A `CITATION.cff` file is included in the repo so GitHub renders a "Cite this rep
 - **Data** (`data/`, `states/`, `tables/`, `figures/`) is licensed under [Creative Commons Attribution 4.0 (CC-BY-4.0)](LICENSE-data). You can reuse, redistribute, and remix the data, including commercially, as long as you credit the source.
 - **Code** (`scripts/`, `notebooks/`, `examples/`) is licensed under the [MIT License](LICENSE-code).
 
-The latest qualified release is [v2026.11.11.post8](https://github.com/mjbommar/moratorium-data-2026/releases/tag/v2026.11.11.post8), published November 11 with explicit pending QA. Two identical builds, full clean restore, ten anonymous downloads, V42 and current hosted desktop/mobile checks pass. Original research cutoff and September baseline are unchanged. [Receipts](work/research/2026-11-11/release-2026.11.11.post8/README.md).
+The latest qualified release is [v2026.11.11.post9](https://github.com/mjbommar/moratorium-data-2026/releases/tag/v2026.11.11.post9), prepared November 11 with publication verification pending. Post8/V42 remains the verified public edition until delivery completes. Four Butler County, Ohio prose corrections preserve qualifications on signed text, effective date, endpoint and later force. Original research cutoff and September baseline are unchanged.
 
 ---
 
