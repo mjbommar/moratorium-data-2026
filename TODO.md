@@ -994,3 +994,5 @@ Exit: repeatable refresh with visible freshness, costs, failures and unresolved 
 - [x] Deliver combined Eagan/Fort Wayne batch in qualified post6/V40 and verified current pages: 11 cells, two rows, 63 pending/three rejected, 978 VERIFY-tagged and 1,346 unresolved reviews. Final uploaded-payload audit follows.
 
 - [x] Final qualifiedpost6delivery: exact uploadedpayload,49nativegenerations,64HTMLpages,currentdownloads and second actualbrowser run verified; Fort Wayne/Eagan corrections live, broaderQA active.
+
+- [x] Deliver two LA County October 6 referral prose corrections in qualified post7/V41; full payload, current downloads and final desktop/mobile browser verified. Memorandum scope and later outcomes remain unresolved.
