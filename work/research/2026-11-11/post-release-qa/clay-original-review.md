@@ -1,6 +1,6 @@
 # Clay: original filing packet recovered
 
-Four independently accepted prose cells correct the Clay computing-moratorium entry on working main. They await the next combined release/consumer/Pages batch; qualified v2026.11.11.post1 / V35 remains the verified public edition. Headline totals, status category, sectors, identity, June 29 normalized adoption date, calendar-term classification and blank computing endpoint are unchanged. No whole record is closed.
+Four independently accepted prose cells correct the Clay computing-moratorium entry and are delivered in qualified v2026.11.11.post2 / V36 and verified current public pages. Headline totals, status category, sectors, identity, June 29 normalized adoption date, calendar-term classification and blank computing endpoint are unchanged. No whole record is closed.
 
 The prior review had only an uncertified third-party transcription. It explicitly left original-PDF inspection unperformed. The exact retained HTML links to a [Widen PDF viewer](https://itswebny.widen.net/view/pdf/ot9zmyr91p/09021343803e6b8d.pdf?u=ocgj46). That first capture was HTML, not a PDF. Its inline `viewerPdfUrl` supplied the actual rendition URL; the second capture returned a six-page PDF. No URL was guessed and no provider search was made. Both fetches used the new-source guard; the fixed two-fetch cap was not reset. The optional third-party archived-copy route was not dispatched.
 
@@ -30,3 +30,6 @@ Nine dataset/publication checks pass after rebuilding the release-status spans i
 - [Independent review and capture bindings](clay-operative-independent-review.json).
 - [Two-pair source continuity](clay-original-source-continuity.json).
 - [Delta, queue and validation verification](clay-original-verification.json).
+
+
+Delivery follow-up: [qualified post2 / V36 receipts](../release-2026.11.11.post2/README.md) verify downloads, restore, consumer snapshot and current public pages. Earlier application/verification JSON retains review-time pending-delivery state. Broader QA and the packet conflict remain unresolved.

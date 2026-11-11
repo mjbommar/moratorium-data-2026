@@ -1,0 +1,10 @@
+{
+  "recorded_at": "2026-11-11T08:14:23.982951+00:00",
+  "initial_source_commit": "03c39c8c17f107dff3802f18c65cc82b2b67749d",
+  "initial_failed_test": "Force-click at Clay marker center opened an overlapping Victory marker at national zoom. Exact Clay popup assertion correctly failed; no wrong popup accepted.",
+  "original_script_sha256": "0445d99d50c16260123f642a2f8a4c4f04cb1a90f1bceab2f934aa2cf4a1cea2",
+  "correction": "Choose an actually visible hit-tested point of the target SVG; if occluded, use bounded real pointer double-click zoom and retry. No synthetic popup event, private map API or webpage change.",
+  "corrected_script_sha256": "627a5d608f53b0db6adadaa8c54e480469dac32b7558d97b7d3b8e49fcdf467e",
+  "fresh_full_browser_rerun": "initial-browser-verification.json",
+  "scope": "Browser harness targeting recovery only; dataset, source acceptance and deployment payload unchanged. Final browser runs independently against the acknowledgment deployment."
+}

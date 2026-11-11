@@ -1,6 +1,6 @@
 # November 11 source follow-ups
 
-Latest delivery: fourteen Baltimore/Hamilton/Brookhaven cells are synchronized in qualified v2026.11.11.post1 / V35 and verified current public pages. Counts/categories/native history remain unchanged; broader QA remains active. [Receipts](../release-2026.11.11.post1/README.md).
+Previous delivery: fourteen Baltimore/Hamilton/Brookhaven cells are synchronized in qualified v2026.11.11.post1 / V35 and verified current public pages. Counts/categories/native history remain unchanged; broader QA remains active. [Receipts](../release-2026.11.11.post1/README.md).
 
 Previous delivery: [four Mendocino signed-instrument corrections](mendocino-signed-review.md) are synchronized in qualified v2026.11.11, consumer V34 and verified public pages. Counts and categories are unchanged.
 
@@ -79,7 +79,7 @@ legacy and ballot questions remain active.
 Post-delivery source follow-up: [Fairbanks November 10 hearing](fairbanks-post-hearing-review.md). A bounded search/meeting-API phase exposed a distinct packet route, but acquired no completed action or ordinance. One queue entry changes; canonical data and the verified public edition are unchanged.
 
 
-Working QA update: [four Clay original-packet prose corrections](clay-original-review.md) await the next combined batch. Primary-image evidence now replaces the third-party-only characterization, while the real computing/battery attachment conflict remains explicit. Counts/categories/native history are unchanged; qualified post1/V35 remains delivered.
+Latest delivery: [four Clay original-packet prose corrections](clay-original-review.md) are synchronized in qualified post2 / V36 and verified current public pages. Real packet identity and later-force questions remain explicit; counts, categories, normalized dates and native history are unchanged. [Receipts](../release-2026.11.11.post2/README.md).
 
 
 Source-only follow-up: [East Fishkill and Salina filing-image audit](ny-retained-filing-screen.md). All fourteen retained pages inspected; no missed state filing receipt recovered. Two queue entries become source-specific; data and public pages remain unchanged.

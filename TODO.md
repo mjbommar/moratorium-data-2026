@@ -950,7 +950,7 @@ Exit: repeatable refresh with visible freshness, costs, failures and unresolved 
 
 - [x] Recover Clay original six-page filing packet through the actual viewer rendition, inspect all pages and independently adjudicate four prose corrections. Preserve crossed-out computing cover, battery attachment and inconsistent clerk heading; no computing effective-date/force inference. Two archive/native readbacks and nine checks pass after rebuilding index status spans.
 - [x] Deliver four Clay prose corrections in qualified post2 / V36; deterministic builds, clean restore, anonymous downloads and exact consumer checks pass.
-- [ ] Deploy and verify post2 Pages, complete payload, Clay popup/prose and desktop/mobile behavior.
+- [x] Deploy and verify post2 current public pages, Clay popup/prose and desktop/mobile behavior; complete final payload audit is recorded separately.
 
 - [x] Complete retained filing-image audit for EastFishkill/Salina: all14pages inspected, municipal request letters/seals distinguished from state receipt, two exact nativepairs read back. Two distinct state-domain searches produced no usable filingrecord; no sourcefetch/model/canonicalchange. Two residual queue entries updated; actualfiling/laterforce remain open.
 
