@@ -1,5 +1,18 @@
 # Changelog
 
+## Qualified v2026.11.11.post3 — delivery pending
+
+Six Cedartown cells confirm unanimous approval of Resolution22,2026, a six-month data-center extension. Active887/extended199 retain1,086 recorded in force. No exact endpoint or uninterrupted/current-force inference; 1,347 reviews remain unresolved. Deterministic builds, restore, downloads, V37 and hosted verification are pending.
+
+| Metric | Qualified November 11 post3 |
+|---|---:|
+| Moratoria in the list | **1,328** |
+| Classified active or extended | **1,086** |
+| Pending or not yet effective | **64** |
+| Ended (replaced, expired, or rescinded) | **172** |
+| Rows we still want to confirm (`[VERIFY]`) | **979** |
+| States with at least one | **47** |
+
 ## Qualified v2026.11.11.post2
 
 Four Clay prose cells recover primary-image evidence and preserve the real computing/battery filing-packet conflict. Correct instrument identity, filing association, effective anchor and later force remain unresolved. No count, category, normalized date/endpoint, sector, identity, scope or native-history changes; no whole-record closure. There remain 1,347 unresolved legacy reviews. Two identical builds, full clean restore, ten anonymous downloads, V36 and current hosted desktop/mobile checks pass.
