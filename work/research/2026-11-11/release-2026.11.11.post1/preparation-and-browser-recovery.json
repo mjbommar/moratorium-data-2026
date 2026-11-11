@@ -1,0 +1,26 @@
+{
+  "recorded_at": "2026-11-11T07:17:46.445609+00:00",
+  "initial_label_failure": {
+    "source_commit": "2c243fd3",
+    "error": "CITATION.cff version disagrees with release metadata",
+    "failed_builds": 2,
+    "failed_export": 1,
+    "logs": {
+      "handoff-v35-export.private.json": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "build-b.private.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "build-a.private.log": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "build-0.stderr.private.log": "608b6244e24d16872f983e21b8207946fd62ea1c29a9523324b9d0a9df5d02b7",
+      "build-1.stderr.private.log": "608b6244e24d16872f983e21b8207946fd62ea1c29a9523324b9d0a9df5d02b7",
+      "build-2.stderr.private.log": "ecb2f09ad33e72a7cc206b0449f03813571ac279ff5c523d71fe377dad81bfc5"
+    },
+    "correction": "Align release metadata version/asset and all current README/FAQ/methodology labels before freezing corrected source2fa6ae74. Failed outputs retained. No assets built or published from rejected source."
+  },
+  "initial_browser_failure": {
+    "source_commit": "490ae0d5a1318a960492b396bca329c7b821edb2",
+    "failed_script_sha256": "8d1ec0956f2c47a59e71beb7acfe1947e364ac905bddda1e677713c7805e9403",
+    "failure": "Redundant arbitrary first-marker click did not show a visible popup after three successful named popup tests. Cause not established; no site defect inferred.",
+    "correction": "Remove redundant generic first-marker check, retain actual pointer tests for namedMendocino/Hamilton/Brookhaven markers, run remainder of fullsuite again in freshbrowser.",
+    "verified_rerun": "initial-browser-verification.json"
+  },
+  "scope": "Mechanical release preparation and test-harness recoveries. No new source acquisition, model retries, legalacceptance or canonicalcorrections in these recoveries."
+}

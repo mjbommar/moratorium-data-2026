@@ -941,3 +941,5 @@ Exit: repeatable refresh with visible freshness, costs, failures and unresolved 
 - [x] Deploy and verify qualified post1 current public pages, changed map popups/state prose and desktop/mobile behavior. Final workflow artifact/full-payload verification is recorded separately.
 - [x] Perform the previously unsubmitted exact Hamilton726-23portal lookup, recover the completed three-page instrument, independently review all pages and correct six cells including calendar term/calculated anniversary. Preserve literal1MW and later-force questions.
 - [x] Inspect all six retained Brookhaven packet images, recover scanned physicalpage2statefiling acknowledgment, independently review and correct three prose cells. Archive an augmented OCR derivation; preserve later-force questions.
+
+- [x] Final qualified post1 delivery audit: 8,488 uploaded files match pinned Git source; all 49 native generations preserved, 64 HTML pages and 232 resources/downloads byte-verified. A second actual live browser run passes; release notes match GitHub. Release/source/consumer pins and pending QA are recorded in the final delivery receipt.
