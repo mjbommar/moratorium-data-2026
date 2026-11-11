@@ -1,0 +1,51 @@
+{
+  "id": "pa-adams-township-butler-county-2026",
+  "dataset": "local_inventory",
+  "source_continuity": {
+    "path": "work/research/2026-11-11/post-release-qa/adams-butler-primary-source-continuity.json",
+    "sha256": "1866767f44f7a240df2a1f9b5faadf615e7005afc11303ff6b2624cc43e73f3d"
+  },
+  "findings": [
+    "June22officialminutes page2 record unanimous motion declaring certain parts of the zoning ordinance invalid; Brandon moved, Shemela seconded. The minute entry does not itself reproduce a blanket180day permit/application prohibition.",
+    "July13officialminutes page2 identify Resolution2026-09, a curative amendment regarding data centers, powergenerationplant/systems, solar, lastmilefulfillment/microwarehouses and dispensaries. Shemela moved, Brandon seconded, all in favor. July13page1 also approves June22minutes.",
+    "July13OCRdrops the dispensaries heading line; coordinator visually read it on page2. Retain uncorrected OCR and supply image with candidate adjudication rather than silently treating OCR as complete.",
+    "Official ordinance index lists DRAFT Currative Amendment10-6-2026 under DraftOrdinances. This index label is not enactment or proof no later adoption. Draft contents not downloaded/reviewed in this pass.",
+    "October12officialminutes3pages were OCR-read. No data-center/curative item located in this bounded text review; the minutes do not resolve all lateractions or prove no adoption elsewhere.",
+    "Standalone executed Resolution2026-09 not obtained. Existing180day reporting and MPCcurative mechanisms must not be conflated with an authenticated blanketban or exact legal endpoint."
+  ],
+  "review_scope": {
+    "pdf_pages_ocr_read": 9,
+    "visually_inspected": {
+      "june22": [
+        2
+      ],
+      "july13": [
+        1,
+        2
+      ]
+    },
+    "image_sha256": {
+      "june22-page-2.png": "966aa4b6445fd2b6a2a95e4faaebc055b12e408cd3f17eb4d11b30a7e8c5ee81",
+      "july13-page-1.png": "8e7f84d7c8bae7fdad4768af50bb5c8fc8f50036f93adca3ab363ad1aadef684",
+      "july13-page-2.png": "16f00fa917c1374a70d32d7851a3479bac61f70f5023c9fa09937a87d4b1bfb8"
+    },
+    "standalone_resolution_obtained": false,
+    "draft_full_text_reviewed": false
+  },
+  "remaining_questions": [
+    "Independently adjudicate resolution-number and primary-source-adoption prose updates; no canonical application in this source-only pass.",
+    "Obtain executed Resolution2026-09 and clarify relationship to June22declaration, operative scope, legal protection/start/termination and180daycure duty. No exact endpoint or status change follows from these minute entries alone.",
+    "Inspect distinct later completed proceedings, including curative ordinance adoption/effect, amendments, litigation and presentforce. The mislabeled11-04supervisorsagenda link actually namesBOS-Agenda-11-09-26; title/date mismatches require document inspection, not guessed completion."
+  ],
+  "canonical_changes": 0,
+  "whole_record_closures": 0,
+  "search_queries": [
+    "Adams Township Butler County July13 2026 Resolution2026-09 data centers minutes",
+    "Adams Township 2026-09 resolution",
+    "Adams Township Butler2026Minutes site:adamstwp.org"
+  ],
+  "discovery_notes": [
+    "ThirdpartyRegbase supplied original township links, used only as discovery leads; its180day endpoint/currentlaw assertions not accepted.",
+    "Actual township index links selected June22/October12 PDFs; no guessed document filenames or numeric IDs."
+  ]
+}
