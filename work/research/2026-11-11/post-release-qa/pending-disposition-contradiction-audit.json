@@ -1,0 +1,31 @@
+{
+  "checked_at": "2026-11-11T11:48:53.336605+00:00",
+  "inventory_sha256": "e1faff51dfb1fbfa63a68ca2591ac51bf74efd46edb507037154e5f7ed8e03a5",
+  "pending_rows_examined": 63,
+  "method": "Case-insensitive fail*, reject*, defeat*, denied, withdraw*, voted against in current_status and outcome; human readback of each matching complete row and outstanding questions. This is a bounded lexical audit, not full proposal disposition verification.",
+  "matches": [
+    {
+      "id": "fl-st-johns-county-undated",
+      "matched_fields": [
+        "current_status"
+      ],
+      "row_sha256": "9c068a4b31b0ab0ac43bb9d17c5a7ad8923997d509583b85434b7b13eb6c8ed2"
+    },
+    {
+      "id": "ma-heath-2026",
+      "matched_fields": [
+        "current_status",
+        "outcome"
+      ],
+      "row_sha256": "aa7673710fc1f73b4e28df5897105ab77a9a972e9a585b6820f070a3e30c8eef"
+    }
+  ],
+  "findings": {
+    "fl-st-johns-county-undated": "Withdrawal concerned a motion accompanied by direction to prepare a hearing package. It is not evidence of explicit denial of the tracked proposal. Later hearing/adoption remains unresolved.",
+    "ma-heath-2026": "Prose describes withdrawal before warrant finalization; the defeated Article20 is a separate meeting-posting bylaw. Withdrawal is not explicit denial under the current local rejected definition. Earlier signed warrant and later Town Meeting/AG disposition remain unresolved."
+  },
+  "canonical_changes": 0,
+  "closures": 0,
+  "network_requests": 0,
+  "next_action": "Heath: locate already-retained signed warrant and actual subsequent Town Meeting/AG records before new search; do not convert withdrawal or unrelated Article20 defeat into rejected status. St Johns: distinct later completed hearing/action evidence needed, not a rerun of June16 minutes."
+}
