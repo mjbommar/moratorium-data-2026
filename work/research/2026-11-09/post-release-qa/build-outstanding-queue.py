@@ -134,8 +134,8 @@ def main():
             row[change['field']]=change['before']
         assert digest(json.dumps(row,sort_keys=True,separators=(',',':'),ensure_ascii=False).encode())==baltimore['prior_row_sha256']
     operative_transitions={}
-    operative_paths=[Path('work/research/2026-11-11/post-release-qa')/(name+'-operative-application.json') for name in ('hamilton','brookhaven','clay','cedartown','east-whiteland','alachua','eagan','los-angeles','lowndes')]
-    expected_fields={'tn-unincorporated-hamilton-county-2026':{'duration','legal_basis','current_status','affected_projects','duration_kind','current_end_date_iso'},'ny-town-of-brookhaven-2026':{'date_enacted','legal_basis','current_status'},'ny-clay-2026':{'date_enacted','duration','legal_basis','current_status'},'ga-cedartown-2026':{'duration','legal_basis','current_status','enacted_status','duration_kind','duration_days'},'pa-east-whiteland-township-2026':{'date_enacted','date_enacted_iso','date_enacted_uncertainty','duration','legal_basis','current_status'},'fl-alachua-undated':{'duration','legal_basis','current_status','outcome'},'mn-eagan-2026':{'current_status','outcome'},'ca-los-angeles-county-2026':{'duration','current_status'},'ga-lowndes-county-2026':{'duration','current_status','outcome','enacted_status'}}
+    operative_paths=[Path('work/research/2026-11-11/post-release-qa')/(name+'-operative-application.json') for name in ('hamilton','brookhaven','clay','cedartown','east-whiteland','alachua','eagan','los-angeles','lowndes','butler-oh')]
+    expected_fields={'tn-unincorporated-hamilton-county-2026':{'duration','legal_basis','current_status','affected_projects','duration_kind','current_end_date_iso'},'ny-town-of-brookhaven-2026':{'date_enacted','legal_basis','current_status'},'ny-clay-2026':{'date_enacted','duration','legal_basis','current_status'},'ga-cedartown-2026':{'duration','legal_basis','current_status','enacted_status','duration_kind','duration_days'},'pa-east-whiteland-township-2026':{'date_enacted','date_enacted_iso','date_enacted_uncertainty','duration','legal_basis','current_status'},'fl-alachua-undated':{'duration','legal_basis','current_status','outcome'},'mn-eagan-2026':{'current_status','outcome'},'ca-los-angeles-county-2026':{'duration','current_status'},'ga-lowndes-county-2026':{'duration','current_status','outcome','enacted_status'},'oh-butler-county-2026':{'duration','legal_basis','current_status','outcome'}}
     for app_path in operative_paths:
         if not app_path.exists():continue
         application=json.loads(app_path.read_text())
@@ -1496,7 +1496,8 @@ def main():
         assert decisions['input_row_sha256']==review['current_row_sha256'] and not decisions['whole_record_closure_supported']
         assert {d['field'] for d in decisions['field_decisions'] if d['decision']=='accept'}=={'duration','legal_basis'}
         assert {d['field'] for d in decisions['field_decisions'] if d['decision']=='hold'}=={'current_status','outcome'}
-        overlays[review['id']]=[public_text(q) for q in review['remaining_questions']]
+        if ('local_inventory',review['id']) not in operative_transitions:
+            overlays[review['id']]=[public_text(q) for q in review['remaining_questions']]
     heath_refinement_path=Path('work/research/2026-11-11/post-release-qa/heath-question-refinement.json')
     if heath_refinement_path.exists():
         review=json.loads(heath_refinement_path.read_text())

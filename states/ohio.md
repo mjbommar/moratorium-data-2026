@@ -564,15 +564,15 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 - **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-06-16
 - **Normalized date:** `2026-06-16` (exact)
-- **Duration:** Six months; county administrator reported effectiveness June 17, 2026; operative resolution not verified.
+- **Duration:** Six months following the effective date under Section 1 of the reproduced resolution text. The county administrator reported June 17, 2026 effectiveness; a controlling effective-date instrument and exact endpoint remain unverified.
 - **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `oh-butler-county-2026`
-- **Legal basis:** Board of County Commissioners resolution; Resolution 26-06-00963, covering unincorporated areas of Hanover, Lemon, Madison, Milford, Oxford, and Ross townships where the county administers zoning
+- **Legal basis:** Butler County Board of Commissioners Resolution 26-06-00963, recorded adopted June 16, 2026; reproduced Sections 1–5 restrict data-center application/permit processing in county-zoned Hanover, Lemon, Madison, Milford, Oxford and Ross townships. A signed executed copy remains unverified.
 - **What prompted it:** County-initiated pause on data center applications and permits in county-zoned townships pending policy development
 - **Affected projects:** —
-- **Detailed status:** June 16 county action was reported to impose a six-month moratorium in six county-zoned townships; the county administrator reported June 17 effectiveness. Actual end date and later force remain unverified. [VERIFY]
-- **Outcome:** Commissioners were reported to have approved a six-month moratorium on approval, establishment, construction or issuance of permits for data or data processing centers in Hanover, Lemon, Madison, Milford, Oxford and Ross townships. The administrator reported June 17 effectiveness; the resolution number and operative text remain unverified in the retained account. [VERIFY]
+- **Detailed status:** Official June 16, 2026 meeting minutes record Resolution 26-06-00963 adopted. The legislative file records unanimous adoption and reproduces a six-month term following the effective date. In a July 2 report, Oxford Free Press attributed June 17 effectiveness to an email from County Administrator Judi Boyko. [VERIFY: controlling effective date, exact endpoint and later actions/current force.]
+- **Outcome:** June 16 official minutes record the six-month moratorium adopted; the legislative file records Dixon moving, Carpenter seconding and Rogers, Carpenter and Dixon voting aye. Reproduced Sections 1–5 cover application and permit processing for establishment or expansion and suspend or toll specified review periods. The legislative meeting-history section also displays Draft; the linked minutes corroborate adoption. In a July 2 report, Oxford Free Press attributed June 17 effectiveness to an email from County Administrator Judi Boyko. [VERIFY: signed executed text, controlling effective date, exact endpoint and later force.]
 
 ### Canton Township
 

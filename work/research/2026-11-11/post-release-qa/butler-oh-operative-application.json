@@ -1,0 +1,47 @@
+{
+  "id": "oh-butler-county-2026",
+  "dataset": "local_inventory",
+  "baseline_commit": "3b5e589a1c21c3a87878d303d18655e4eb47fd94",
+  "applied_at": "2026-11-11T13:11:30.879103+00:00",
+  "prior_row_sha256": "f4154135893c7a7d5eaffdacbde2cfa506f85e94239e69b62e6c3ea7b28f92db",
+  "current_row_sha256": "1989dc194d88713b254ab4c4b35d6979205e93bb19b65d9a390cf8776d7a413d",
+  "canonical_cells_changed": 4,
+  "field_changes": [
+    {
+      "field": "duration",
+      "before": "Six months; county administrator reported effectiveness June 17, 2026; operative resolution not verified.",
+      "after": "Six months following the effective date under Section 1 of the reproduced resolution text. The county administrator reported June 17, 2026 effectiveness; a controlling effective-date instrument and exact endpoint remain unverified."
+    },
+    {
+      "field": "legal_basis",
+      "before": "Board of County Commissioners resolution; Resolution 26-06-00963, covering unincorporated areas of Hanover, Lemon, Madison, Milford, Oxford, and Ross townships where the county administers zoning",
+      "after": "Butler County Board of Commissioners Resolution 26-06-00963, recorded adopted June 16, 2026; reproduced Sections 1\u20135 restrict data-center application/permit processing in county-zoned Hanover, Lemon, Madison, Milford, Oxford and Ross townships. A signed executed copy remains unverified."
+    },
+    {
+      "field": "current_status",
+      "before": "June 16 county action was reported to impose a six-month moratorium in six county-zoned townships; the county administrator reported June 17 effectiveness. Actual end date and later force remain unverified. [VERIFY]",
+      "after": "Official June 16, 2026 meeting minutes record Resolution 26-06-00963 adopted. The legislative file records unanimous adoption and reproduces a six-month term following the effective date. In a July 2 report, Oxford Free Press attributed June 17 effectiveness to an email from County Administrator Judi Boyko. [VERIFY: controlling effective date, exact endpoint and later actions/current force.]"
+    },
+    {
+      "field": "outcome",
+      "before": "Commissioners were reported to have approved a six-month moratorium on approval, establishment, construction or issuance of permits for data or data processing centers in Hanover, Lemon, Madison, Milford, Oxford and Ross townships. The administrator reported June 17 effectiveness; the resolution number and operative text remain unverified in the retained account. [VERIFY]",
+      "after": "June 16 official minutes record the six-month moratorium adopted; the legislative file records Dixon moving, Carpenter seconding and Rogers, Carpenter and Dixon voting aye. Reproduced Sections 1\u20135 cover application and permit processing for establishment or expansion and suspend or toll specified review periods. The legislative meeting-history section also displays Draft; the linked minutes corroborate adoption. In a July 2 report, Oxford Free Press attributed June 17 effectiveness to an email from County Administrator Judi Boyko. [VERIFY: signed executed text, controlling effective date, exact endpoint and later force.]"
+    }
+  ],
+  "independent_review": {
+    "path": "work/research/2026-11-11/post-release-qa/butler-oh-final-prose-review.json",
+    "sha256": "0c37c3b324da380dec10a31252437f1b84a7cf6f504db09bb5ef7ce93fecee52"
+  },
+  "source_continuity": {
+    "path": "work/research/2026-11-11/post-release-qa/butler-oh-complete-source-continuity.json",
+    "sha256": "94a4c3ab4e63009fc9748c9ebbd9559a8ac32c5131308b45d1dbed56dec06d4f"
+  },
+  "recommendation": "unresolved",
+  "whole_record_closures": 0,
+  "remaining_questions": [
+    "Resolution26-06-00963 identity, recordedJune16adoption, six-month term and reproduced Sections1\u20135 scope are recovered and incorporated. Retained July2OxfordFreePress report attributes June17effect to administrator email; do not repeat these unchanged sources.",
+    "Obtain signed/executed text and controlling effective-date evidence; exact endpoint remains open. Reproduced request text and administrator attribution do not establish the controlling legal date.",
+    "Review distinct later action/currentforce, including legacy IQM2 through November3 and CivicPlus from November10, extensions, replacement, rescission, litigation and actual applicability. Historical adoption does not close later-force review."
+  ],
+  "scope": "Four prose fields; no status, normalized date, VERIFY, count or native ballot changes. Returned conservative model revisions coordinator-adopted; original holds preserved. Pending publication after post8/V42."
+}

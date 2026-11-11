@@ -1,0 +1,87 @@
+{
+  "exact_canonical_delta": [
+    {
+      "id": "oh-butler-county-2026",
+      "field": "duration"
+    },
+    {
+      "id": "oh-butler-county-2026",
+      "field": "legal_basis"
+    },
+    {
+      "id": "oh-butler-county-2026",
+      "field": "current_status"
+    },
+    {
+      "id": "oh-butler-county-2026",
+      "field": "outcome"
+    }
+  ],
+  "status_changes": 0,
+  "normalized_date_changes": 0,
+  "record_closures": 0,
+  "queue_count": 1346,
+  "other_queue_records_identical": 1345,
+  "native_tables_unchanged": true,
+  "checks": [
+    {
+      "command": [
+        "scripts/validate_dataset.py",
+        "--today",
+        "2026-11-11"
+      ],
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "scripts/build_policy_scope_exports.py",
+        "--check"
+      ],
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "scripts/build_summary_stats.py",
+        "--check"
+      ],
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "scripts/build_geojson.py",
+        "--check"
+      ],
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "scripts/make_timeline.py",
+        "--check"
+      ],
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "scripts/check_docs_numbers.py"
+      ],
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "-m",
+        "scripts.generate_tables.inventory_clean",
+        "--check"
+      ],
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "scripts/build_index.py",
+        "--check"
+      ],
+      "exit_code": 0
+    }
+  ],
+  "publication": "Pending next release/consumer/Pages delivery; qualified post8/V42 remains live public edition.",
+  "review_scope": "Coordinator applies returned conservative revisions; exact held model candidates remain held and retained, not re-labelled accepted."
+}

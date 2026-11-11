@@ -1,0 +1,331 @@
+{
+  "initial_review": {
+    "input_manifest_sha256": "0d51c118c0bd243491de31c6e6f2305a321d3a8f08c693f6ee571162f022a8b5",
+    "source_pins": [
+      {
+        "source_id": "resolution",
+        "text_sha256": "f5b046e3f2aa395fbd8808773da13bf7f0cc4cb284306cb578a81ee76cf0c9e3",
+        "role": "Official legislative file24632: reproduced request body and meeting history, not signed executed scan; history includes Draft label."
+      },
+      {
+        "source_id": "minutes",
+        "text_sha256": "e763db18c8d3873fc27e8b8f9ad3736d3797b73858ff991922d64f226d98d5a3",
+        "role": "Full extracted text of9page linked official meeting minutes; coordinator visually checked physicalpage1 adoption entry."
+      }
+    ],
+    "image_pins": [],
+    "candidate": {
+      "id": "oh-butler-county-2026",
+      "row_sha256": "f4154135893c7a7d5eaffdacbde2cfa506f85e94239e69b62e6c3ea7b28f92db",
+      "proposed_changes": [
+        {
+          "field": "duration",
+          "before": "Six months; county administrator reported effectiveness June 17, 2026; operative resolution not verified.",
+          "after": "Six months following the effective date under Section 1 of the reproduced resolution text. The county administrator reported June 17, 2026 effectiveness; a controlling effective-date instrument and exact endpoint remain unverified."
+        },
+        {
+          "field": "legal_basis",
+          "before": "Board of County Commissioners resolution; Resolution 26-06-00963, covering unincorporated areas of Hanover, Lemon, Madison, Milford, Oxford, and Ross townships where the county administers zoning",
+          "after": "Butler County Board of Commissioners Resolution 26-06-00963, recorded adopted June 16, 2026; reproduced Sections 1\u20135 restrict data-center application/permit processing in county-zoned Hanover, Lemon, Madison, Milford, Oxford and Ross townships. A signed executed copy remains unverified."
+        },
+        {
+          "field": "current_status",
+          "before": "June 16 county action was reported to impose a six-month moratorium in six county-zoned townships; the county administrator reported June 17 effectiveness. Actual end date and later force remain unverified. [VERIFY]",
+          "after": "Official June 16, 2026 meeting minutes record Resolution 26-06-00963 adopted. The legislative file records unanimous adoption and reproduces a six-month term following the effective date. [VERIFY: controlling effective date, exact endpoint and later actions/current force.]"
+        },
+        {
+          "field": "outcome",
+          "before": "Commissioners were reported to have approved a six-month moratorium on approval, establishment, construction or issuance of permits for data or data processing centers in Hanover, Lemon, Madison, Milford, Oxford and Ross townships. The administrator reported June 17 effectiveness; the resolution number and operative text remain unverified in the retained account. [VERIFY]",
+          "after": "June 16 official minutes record the six-month moratorium adopted; the legislative file records Dixon moving, Carpenter seconding and Rogers, Carpenter and Dixon voting aye. Reproduced Sections 1\u20135 cover application/permit processing for establishment or expansion and suspend/toll specified review periods in the six county-zoned townships. The legislative meeting-history section also displays Draft; the linked minutes corroborate adoption. [VERIFY: signed executed text, controlling effective date and later force.]"
+        }
+      ]
+    },
+    "captures": [
+      {
+        "stage": "blind_extraction",
+        "attempt_id": "e652645e17104645a5af7e0a5fc2bd90",
+        "descriptor_sha256": "0036a47352debf9eb42df851bba571054220355a66c179b8ed51e9e5554604d6",
+        "wire_request_sha256": "03cb023adeaf6b9e6fcd8fa160bf01197f7f2fd060ee0814e6551258144b77fc",
+        "wire_response_sha256": "fb30606c96c10a3c5d051d1cfc5ce5da22a39a3043087af61a6a28c5b6fefd00",
+        "actual_input_descriptor_matches": true,
+        "wire_sdk_output_matches_after_null_default_normalization": true,
+        "parsed_answer_matches": true,
+        "usage": {
+          "input_tokens": 6579,
+          "input_tokens_details": {
+            "cache_write_tokens": 6576,
+            "cached_tokens": 0
+          },
+          "output_tokens": 968,
+          "output_tokens_details": {
+            "reasoning_tokens": 66
+          },
+          "total_tokens": 7547
+        },
+        "all_selected_source_text_inputs_bound": true
+      },
+      {
+        "stage": "cell_adjudication",
+        "attempt_id": "5aa8b8fe119242dea4724cabf7f23e1f",
+        "descriptor_sha256": "7cb8689783875b82801b05a1c7db25e5ea9652d81ffb0130ee836c432978c08b",
+        "wire_request_sha256": "e086ef801cd73df5dc4aa6fedd2b39be0358c2f6e9135fd4ec0a88bf58e75347",
+        "wire_response_sha256": "674e01fdc9b69bf346a972737c50b35c1dd170d00544726f504a25e5518bd95f",
+        "actual_input_descriptor_matches": true,
+        "wire_sdk_output_matches_after_null_default_normalization": true,
+        "parsed_answer_matches": true,
+        "usage": {
+          "input_tokens": 8449,
+          "input_tokens_details": {
+            "cache_write_tokens": 8446,
+            "cached_tokens": 0
+          },
+          "output_tokens": 1299,
+          "output_tokens_details": {
+            "reasoning_tokens": 449
+          },
+          "total_tokens": 9748
+        },
+        "all_selected_source_text_inputs_bound": true
+      }
+    ],
+    "answers": {
+      "blind_extraction": {
+        "facts": [
+          {
+            "field": "resolution",
+            "value": "Butler County Resolution 26-06-00963",
+            "source_id": "resolution",
+            "locator": "Resolution heading",
+            "supporting_summary": "The legislative file identifies the measure as Resolution 26-06-00963."
+          },
+          {
+            "field": "adoption",
+            "value": "Adopted June 16, 2026, at 9:30 AM",
+            "source_id": "resolution",
+            "locator": "Resolution heading and Meeting History",
+            "supporting_summary": "The file reports adoption; its regular-meeting history also carries a Draft label."
+          },
+          {
+            "field": "adoption_corroboration",
+            "value": "The linked minutes list Resolution 26-06-00963 as Adopted.",
+            "source_id": "minutes",
+            "locator": "Physical page 1, County Administrator's Report",
+            "supporting_summary": "The minutes' adoption entry agrees with the legislative file's adopted result, notwithstanding the Draft label in the file's meeting history."
+          },
+          {
+            "field": "vote",
+            "value": "Adopted unanimously; ayes: T.C. Rogers, Cindy Carpenter, and Donald Dixon.",
+            "source_id": "resolution",
+            "locator": "Meeting History",
+            "supporting_summary": "Donald Dixon moved and Cindy Carpenter seconded the measure."
+          },
+          {
+            "field": "geographic_scope",
+            "value": "Butler County territory subject to the Butler County Zoning Resolution in Hanover, Lemon, Madison, Milford, Oxford, and Ross Townships.",
+            "source_id": "resolution",
+            "locator": "Resolution heading and request body, Section 1",
+            "supporting_summary": "The heading limits the moratorium to county-zoned territory in the six named townships."
+          },
+          {
+            "field": "facility_scope",
+            "value": "Data centers or data processing centers, including establishment or expansion.",
+            "source_id": "resolution",
+            "locator": "Resolution Request Body, Sections 1\u20132",
+            "supporting_summary": "Section 2 defines the facilities as industrial-scale facilities or buildings housing centralized computing, server, storage, and networking equipment for storing, processing, and distributing data, applications, and digital services."
+          },
+          {
+            "field": "prohibited_actions",
+            "value": "Acceptance, processing, review, or official action on relevant applications, petitions, permits, and zoning, building, or land-use approvals.",
+            "source_id": "resolution",
+            "locator": "Resolution Request Body, Sections 1 and 3",
+            "supporting_summary": "Section 1 addresses zoning certificates and building permits for establishment or expansion; Section 3 describes broader prohibited governmental actions and applications."
+          },
+          {
+            "field": "other_effects",
+            "value": "Specified township land-use regulations and notice periods are suspended, and specified county action and review time periods are suspended and tolled during the moratorium.",
+            "source_id": "resolution",
+            "locator": "Resolution Request Body, Sections 4\u20135",
+            "supporting_summary": "Section 4 addresses the six townships' regulations with respect to data center development; Section 5 addresses legally prescribed county application and review deadlines."
+          },
+          {
+            "field": "interval",
+            "value": "Six months following the resolution's effective date.",
+            "source_id": "resolution",
+            "locator": "Resolution Request Body, Section 1",
+            "supporting_summary": "The reproduced request body states the duration relative to the effective date, rather than specifying calendar start and end dates."
+          }
+        ],
+        "uncertainties": [
+          "The supplied text does not establish the effective date or a calendar end date; neither can be inferred from the adoption date.",
+          "The legislative file reproduces a resolution request body, not a signed executed scan. Its meeting history is labeled Draft, although it reports unanimous adoption and the linked minutes independently list the resolution as Adopted.",
+          "No candidate or current row was supplied, so no comparison with an existing record or determination of later legal force is supported."
+        ]
+      },
+      "cell_adjudication": {
+        "record_id": "oh-butler-county-2026",
+        "input_row_sha256": "f4154135893c7a7d5eaffdacbde2cfa506f85e94239e69b62e6c3ea7b28f92db",
+        "field_decisions": [
+          {
+            "field": "duration",
+            "decision": "accept",
+            "value": "Six months following the effective date under Section 1 of the reproduced resolution text. The county administrator reported June 17, 2026 effectiveness; a controlling effective-date instrument and exact endpoint remain unverified.",
+            "source_id": "resolution",
+            "locator": "Resolution Request Body, Section 1",
+            "reason": "The six-month term is supported. The June 17 statement is retained as an attributed prior report from the current row, not established by the supplied sources."
+          },
+          {
+            "field": "legal_basis",
+            "decision": "accept",
+            "value": "Butler County Board of Commissioners Resolution 26-06-00963, recorded adopted June 16, 2026; reproduced Sections 1\u20135 restrict data-center application/permit processing in county-zoned Hanover, Lemon, Madison, Milford, Oxford and Ross townships. A signed executed copy remains unverified.",
+            "source_id": "resolution",
+            "locator": "Resolution heading, Request Body Sections 1\u20135, and Meeting History",
+            "reason": "The file identifies the resolution, its recorded adoption and the scope of its reproduced provisions; it is not a signed executed copy."
+          },
+          {
+            "field": "current_status",
+            "decision": "hold",
+            "value": "Official June 16, 2026 meeting minutes record Resolution 26-06-00963 adopted. The legislative file records unanimous adoption and reproduces a six-month term following the effective date. The current row attributes June 17 effectiveness to a county administrator's report, which these sources do not verify. [VERIFY: controlling effective date, exact endpoint and later actions/current force.]",
+            "source_id": "minutes",
+            "locator": "Physical page 1, County Administrator's Report",
+            "reason": "The proposed wording is supported but removes the attributed June 17 report. Retain it as a prior report without treating the date as established."
+          },
+          {
+            "field": "outcome",
+            "decision": "hold",
+            "value": "June 16 official minutes record the six-month moratorium adopted; the legislative file records Dixon moving, Carpenter seconding and Rogers, Carpenter and Dixon voting aye. Reproduced Sections 1\u20135 cover application/permit processing for establishment or expansion and suspend or toll specified review periods. The legislative meeting-history section also displays Draft; the linked minutes corroborate adoption. The current row attributes June 17 effectiveness to a county administrator's report, which these sources do not verify. [VERIFY: signed executed text, controlling effective date, exact endpoint and later force.]",
+            "source_id": "resolution",
+            "locator": "Request Body Sections 1\u20135 and Meeting History; minutes, physical page 1",
+            "reason": "The proposed wording removes the attributed June 17 report. The corrected value preserves it as unverified and retains the signed-copy and later-force gaps."
+          }
+        ],
+        "whole_record_closure_supported": false,
+        "remaining_questions": [
+          "What is the controlling effective date and exact endpoint?",
+          "Is a signed executed copy available, and does it match the reproduced request body?",
+          "Were there later actions affecting the moratorium, and what is its current force?"
+        ],
+        "review_limitations": [
+          "The legislative file reproduces a request body rather than a signed executed scan and labels the meeting-history entry Draft.",
+          "The June 17 effectiveness claim comes from the existing row's attributed prior report, not the supplied primary sources.",
+          "No status or date category change was proposed or adjudicated."
+        ]
+      }
+    },
+    "model_http_requests": 2,
+    "model": "gpt-6.1-terra",
+    "tools": [],
+    "agents_spawned": 0,
+    "price_usd": null,
+    "canonical_changes": 0,
+    "whole_record_closures": 0,
+    "disposition": "Two proposed fields accepted, two held with revised values. No canonical application. Preserve prior June17report as attributed; no effective-date certification.",
+    "pre_dispatch_error": "Missing uuid import failed before reservation. Transport event ledger was verified empty before correcting script; request budget not reset."
+  },
+  "attribution_followup": {
+    "input_manifest_sha256": "138a23347a8760e037c99087a251bd23cb742dd4e3d6c7bce3012f07b8894cb5",
+    "source_pins": [
+      {
+        "source_id": "resolution",
+        "text_sha256": "f5b046e3f2aa395fbd8808773da13bf7f0cc4cb284306cb578a81ee76cf0c9e3",
+        "role": "Official reproduced request text and recorded history; not signed executed copy"
+      },
+      {
+        "source_id": "minutes",
+        "text_sha256": "e763db18c8d3873fc27e8b8f9ad3736d3797b73858ff991922d64f226d98d5a3",
+        "role": "Linked official minutes9pages, adoption on physicalpage1"
+      },
+      {
+        "source_id": "news",
+        "text_sha256": "699f5bd1e85b894be70fe393dd1e1bfa493ba0bc5de1ddeeef329ed9590823f6",
+        "role": "Already retained Oxford Free Press report, published July2; administrator email statement attributed in text. Not a controlling legal effect instrument."
+      }
+    ],
+    "image_pins": [],
+    "candidate": {
+      "id": "oh-butler-county-2026",
+      "row_sha256": "f4154135893c7a7d5eaffdacbde2cfa506f85e94239e69b62e6c3ea7b28f92db",
+      "proposed_changes": [
+        {
+          "field": "current_status",
+          "before": "June 16 county action was reported to impose a six-month moratorium in six county-zoned townships; the county administrator reported June 17 effectiveness. Actual end date and later force remain unverified. [VERIFY]",
+          "after": "Official June 16, 2026 meeting minutes record Resolution 26-06-00963 adopted. The legislative file records unanimous adoption and reproduces a six-month term following the effective date. The current row attributes June 17 effectiveness to a county administrator's report, which these sources do not verify. [VERIFY: controlling effective date, exact endpoint and later actions/current force.]"
+        },
+        {
+          "field": "outcome",
+          "before": "Commissioners were reported to have approved a six-month moratorium on approval, establishment, construction or issuance of permits for data or data processing centers in Hanover, Lemon, Madison, Milford, Oxford and Ross townships. The administrator reported June 17 effectiveness; the resolution number and operative text remain unverified in the retained account. [VERIFY]",
+          "after": "June 16 official minutes record the six-month moratorium adopted; the legislative file records Dixon moving, Carpenter seconding and Rogers, Carpenter and Dixon voting aye. Reproduced Sections 1\u20135 cover application/permit processing for establishment or expansion and suspend or toll specified review periods. The legislative meeting-history section also displays Draft; the linked minutes corroborate adoption. The current row attributes June 17 effectiveness to a county administrator's report, which these sources do not verify. [VERIFY: signed executed text, controlling effective date, exact endpoint and later force.]"
+        }
+      ]
+    },
+    "captures": [
+      {
+        "stage": "attribution_adjudication",
+        "attempt_id": "f900895a767b45fcb23f68504808606f",
+        "descriptor_sha256": "97791a67fa541fecb1f829622419e50b991284114ff3c6584930c006edac356c",
+        "wire_request_sha256": "e377e10b0ae9b1919933155ad9a5e285faf740611b2f11c273183eaf775848c3",
+        "wire_response_sha256": "3a4f6d47f5fec54176b5d68dd54b280a166ceb08c72e4ef952e479b7e32b91fb",
+        "actual_input_descriptor_matches": true,
+        "wire_sdk_output_matches_after_null_default_normalization": true,
+        "parsed_answer_matches": true,
+        "usage": {
+          "input_tokens": 9004,
+          "input_tokens_details": {
+            "cache_write_tokens": 9001,
+            "cached_tokens": 0
+          },
+          "output_tokens": 712,
+          "output_tokens_details": {
+            "reasoning_tokens": 89
+          },
+          "total_tokens": 9716
+        },
+        "all_selected_source_text_inputs_bound": true
+      }
+    ],
+    "answers": {
+      "attribution_adjudication": {
+        "record_id": "oh-butler-county-2026",
+        "input_row_sha256": "f4154135893c7a7d5eaffdacbde2cfa506f85e94239e69b62e6c3ea7b28f92db",
+        "field_decisions": [
+          {
+            "field": "current_status",
+            "decision": "hold",
+            "value": "Official June 16, 2026 meeting minutes record Resolution 26-06-00963 adopted. The legislative file records unanimous adoption and reproduces a six-month term following the effective date. In a July 2 report, Oxford Free Press attributed June 17 effectiveness to an email from County Administrator Judi Boyko. [VERIFY: controlling effective date, exact endpoint and later actions/current force.]",
+            "source_id": "minutes; resolution; news",
+            "locator": "Minutes, physical page 1; resolution, Section 1 and Meeting History; news, administrator email paragraph",
+            "reason": "Hold the exact revision: the newly supplied report verifies the attribution, although it is not controlling evidence of legal effectiveness."
+          },
+          {
+            "field": "outcome",
+            "decision": "hold",
+            "value": "June 16 official minutes record the six-month moratorium adopted; the legislative file records Dixon moving, Carpenter seconding and Rogers, Carpenter and Dixon voting aye. Reproduced Sections 1\u20135 cover application and permit processing for establishment or expansion and suspend or toll specified review periods. The legislative meeting-history section also displays Draft; the linked minutes corroborate adoption. In a July 2 report, Oxford Free Press attributed June 17 effectiveness to an email from County Administrator Judi Boyko. [VERIFY: signed executed text, controlling effective date, exact endpoint and later force.]",
+            "source_id": "resolution; minutes; news",
+            "locator": "Resolution, Sections 1\u20135 and Meeting History; minutes, physical page 1; news, administrator email paragraph",
+            "reason": "Hold the exact revision because the newly supplied report supports the attribution. It does not establish the controlling effective date or later legal force."
+          }
+        ],
+        "whole_record_closure_supported": false,
+        "remaining_questions": [
+          "What is the controlling effective date and exact endpoint?",
+          "Is a signed executed copy available, and does it match the reproduced request body?",
+          "Were there later actions affecting the moratorium, and what is its current force?"
+        ],
+        "review_limitations": [
+          "The legislative file reproduces a request body rather than a signed executed copy and labels its meeting-history entry Draft.",
+          "The July 2 news report attributes June 17 effectiveness to the administrator's email; neither the report nor the attributed statement is a controlling legal effect instrument.",
+          "No uninterrupted current force or endpoint has been inferred. Only current_status and outcome were reviewed."
+        ]
+      }
+    },
+    "model_http_requests": 1,
+    "model": "gpt-6.1-terra",
+    "tools": [],
+    "agents_spawned": 0,
+    "price_usd": null
+  },
+  "original_holds_preserved": true,
+  "coordinator_accepts_returned_conservative_revisions": true,
+  "coordinator_rationale": "The followup holds the exact earlier candidate because its these-sources-do-not-verify phrasing became misleading once the attribution source was supplied. Its returned values and reasons support the narrower attribution. Coordinator applies those returned values; does not call held exact candidates accepted or infer legal effectiveness.",
+  "coordinator_whole_record_closure": false,
+  "price_usd": null
+}

@@ -31,7 +31,7 @@
   "record_disposition_path": "work/research/2026-11-08/full-record-dispositions/funnel.json",
   "qa_status": "ongoing",
   "publication_authorization": "publish current state with qualifications on pending QA, then continue to double check and clear the outstanding questions",
-  "working_revision": "2026.11.11.post8-delivery-verified",
+  "working_revision": "butler-oh-primary-prose-pending-publication",
   "current_raw_counts": {
     "local": 1328,
     "state_policy": 449,
@@ -121,7 +121,7 @@
     "hosted_copy_state": "verified",
     "hosted_receipt": "work/research/2026-11-11/release-2026.11.11.post7/hosted-copy-verification.json"
   },
-  "latest_field_application": "work/research/2026-11-11/post-release-qa/lowndes-operative-application.json",
+  "latest_field_application": "work/research/2026-11-11/post-release-qa/butler-oh-operative-application.json",
   "latest_hosted_delivery": {
     "source_commit": "9d9d4e637d3a0afa26e8fa8155ef3d52a49df586",
     "hosted_source_commit": "fc9a0d0d40af41e82629506c0c4f27144eb42304",
@@ -347,5 +347,20 @@
     "receipt": "work/research/2026-11-11/release-2026.11.11.post7/hosted-copy-verification.json",
     "scope": "All current HTML and linked local bytes match; actual browser desktop/mobile/dark, maps, tables, charts and LA referral/qualifications pass. Final artifact and acknowledgment verification follows."
   },
-  "latest_independent_record_review": "work/research/2026-11-11/post-release-qa/lowndes-operative-application.json"
+  "latest_independent_record_review": "work/research/2026-11-11/post-release-qa/butler-oh-operative-application.json",
+  "pending_consumer_input_delta": {
+    "baseline_release": "v2026.11.11.post8",
+    "baseline_source_commit": "9d9d4e637d3a0afa26e8fa8155ef3d52a49df586",
+    "baseline_handoff": "V42",
+    "receipt": "work/research/2026-11-11/post-release-qa/butler-oh-operative-application.json",
+    "receipts": [
+      "work/research/2026-11-11/post-release-qa/butler-oh-operative-application.json"
+    ],
+    "changed_cells": 4,
+    "changed_local_rows": 1,
+    "changed_policy_rows": 0,
+    "status_category_changes": 0,
+    "normalized_date_changes": 0,
+    "scope": "Four prose fields; no status, normalized date, VERIFY, count or native ballot changes. Returned conservative model revisions coordinator-adopted; original holds preserved. Pending publication after post8/V42."
+  }
 }
