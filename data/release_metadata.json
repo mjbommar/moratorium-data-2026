@@ -1,12 +1,12 @@
 {
-  "version": "2026.11.10.post17",
+  "version": "2026.11.10.post18",
   "release_date": "2026-11-10",
   "research_cutoff": "2026-11-07T13:38:39.877065+00:00",
   "source_observation_window": {
     "start": "2026-11-05",
     "end": "2026-11-10"
   },
-  "asset_name": "moratorium-data-2026.11.10.post17.tar.gz",
+  "asset_name": "moratorium-data-2026.11.10.post18.tar.gz",
   "coverage": "Original1777 records retain review provenance; two duplicates retired and two post-release additions retained. Massachusetts independent historical-record QA completed; final conference/enactment remains unresolved; Kentucky historical order independently reviewed, later force unknown. Current1777 active raw IDs:1347 unresolved,191 corrected-resolved,239 confirmed-unchanged scoped dispositions. No universal current-law certification.",
   "limitations": [
     "Recorded active/extended classifications do not prove current enforceability.",
@@ -31,14 +31,14 @@
   "record_disposition_path": "work/research/2026-11-08/full-record-dispositions/funnel.json",
   "qa_status": "ongoing",
   "publication_authorization": "publish current state with qualifications on pending QA, then continue to double check and clear the outstanding questions",
-  "working_revision": "maryland-operative-and-massachusetts-corrections-pending-batch",
+  "working_revision": "post18-prepared-pending-delivery",
   "current_raw_counts": {
     "local": 1328,
     "state_policy": 449,
     "total": 1777
   },
-  "prior_release": "v2026.11.10.post16",
-  "prior_release_source_commit": "b1fb539aa8da2ba6b50b588e1f7c542c76b6bc18",
+  "prior_release": "v2026.11.10.post17",
+  "prior_release_source_commit": "1e241a08f83128c1bd562daec803f6f14e0b0adc",
   "prior_published_source_commit": "b1fb539aa8da2ba6b50b588e1f7c542c76b6bc18",
   "published_source_reference": "Qualified post17 pins 1e241a08f83128c1bd562daec803f6f14e0b0adc; deterministic builds, clean restore, ten anonymous downloads, V32 and complete current hosted pages verified. Hosted source 9631f3b6d9520a97ff1cec938dcd9edab9a4bd29; receipt work/research/2026-11-10/release-2026.11.10.post17/hosted-copy-verification.json. Pending substantive QA remains explicit.",
   "latest_consumer_handoff": {
@@ -241,6 +241,7 @@
       "work/research/2026-11-10/post-release-qa/massachusetts-origin-attribution-application.json",
       "work/research/2026-11-10/post-release-qa/maryland-operative-text-batch-application.json"
     ],
-    "intermediate_cell_edits": 18
+    "intermediate_cell_edits": 18,
+    "target_release": "v2026.11.10.post18"
   }
 }

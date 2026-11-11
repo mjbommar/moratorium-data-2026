@@ -1,8 +1,8 @@
 # Moratorium Data 2026
 
-**Qualified post17 release and website verified:** [v2026.11.10.post17](https://github.com/mjbommar/moratorium-data-2026/releases/tag/v2026.11.10.post17) delivers seven reviewed prose corrections across Burien and Howard County. Downloads, clean restore, V32 and desktop/mobile pages are verified. Broader QA continues.
+**Qualified post18 prepared; verified public edition remains post17:** Sixteen reviewed prose corrections across Ridgely, Worcester County and Massachusetts are being synchronized into the release, consumer inputs and website. Broader QA continues.
 
-**Working follow-up pending the next delivery batch:** Sixteen unique prose fields across Ridgely, Worcester County and Massachusetts now reflect independently reviewed primary evidence. Maryland minutes/signed text clarify adoption, scope and term; Massachusetts attribution and version qualifications are corrected. Headline counts, categories, normalized dates and native history are unchanged. [Maryland review](work/research/2026-11-10/post-release-qa/maryland-operative-text-batch-application.md) and [Massachusetts review](work/research/2026-11-10/post-release-qa/massachusetts-origin-attribution-application.md). The verified public edition remains post17/V32.
+**Reviewed corrections:** Maryland minutes and signed text clarify historical adoption, scope and term; Massachusetts independent review and originating-committee attribution are complete. Final outcomes and later force remain qualified. Counts, categories, normalized dates and native history are unchanged. [Exact delta](work/research/2026-11-10/release-2026.11.10.post18/dataset-delta.json).
 
 **Reviewed correction:** Bonney Lake is classified as replaced with an October 13 end date. Four fields are corrected. [Release/download/V30 checks](work/research/2026-11-10/release-2026.11.10.post15/README.md) are verified; the complete website and updated Bonney Lake entry pass desktop/mobile and byte checks.
 
@@ -174,7 +174,7 @@ A `CITATION.cff` file is included in the repo so GitHub renders a "Cite this rep
 - **Data** (`data/`, `states/`, `tables/`, `figures/`) is licensed under [Creative Commons Attribution 4.0 (CC-BY-4.0)](LICENSE-data). You can reuse, redistribute, and remix the data, including commercially, as long as you credit the source.
 - **Code** (`scripts/`, `notebooks/`, `examples/`) is licensed under the [MIT License](LICENSE-code).
 
-The latest qualified release is [v2026.11.10.post17](https://github.com/mjbommar/moratorium-data-2026/releases/tag/v2026.11.10.post17), published November 10 with explicit pending QA. Downloads, clean restore, V32 and full hosted desktop/mobile checks pass. September 23 remains the historical comparison baseline. Pin release tags for replication; working main may contain subsequent reviewed corrections.
+The latest qualified release is [v2026.11.10.post18](https://github.com/mjbommar/moratorium-data-2026/releases/tag/v2026.11.10.post18), prepared November 10 with explicit pending QA. Post18 delivery checks are pending; the verified public edition remains post17/V32. September 23 remains the historical comparison baseline. Pin release tags for replication; working main may contain subsequent reviewed corrections.
 
 ---
 

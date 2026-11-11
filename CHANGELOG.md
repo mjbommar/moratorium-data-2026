@@ -1,5 +1,22 @@
 # Changelog
 
+## Qualified v2026.11.10.post18 — delivery pending
+
+Sixteen prose cells across three records: thirteen Ridgely/Worcester local fields use newly recovered official minutes and signed text; three Massachusetts fields incorporate independent record QA, originating House Ways and Means attribution and version/nonenactment qualifications. Two later Massachusetts edits supersede earlier unknown attribution wording, so eighteen intermediate edits produce sixteen unique delivered cells.
+
+No status category, normalized date, identity, analytical membership, headline total, native ballot-history or whole-record disposition changes. The unresolved-record count remains 1,347. Massachusetts final conference/enacted outcome, Ridgely executed text/effective anchor, Worcester precise operative interval and later-force questions remain open. Dorchester/Salisbury search limits and the Ohio unrelated-override lead are retained without absence-based conclusions.
+
+Deterministic release, full clean restore, consumer V33 and complete hosted verification are separate pending delivery checks.
+
+| Metric | Qualified post18 |
+|---|---:|
+| Moratoria in the list | **1,328** |
+| Classified active or extended | **1,086** |
+| Pending or not yet effective | **64** |
+| Ended (replaced, expired, or rescinded) | **172** |
+| Rows we still want to confirm (`[VERIFY]`) | **979** |
+| States with at least one | **47** |
+
 ## Qualified v2026.11.10.post17
 
 - Seven prose cells across Burien and Howard County correct historical hearing/vote descriptions, alternative sunset conditions and exceptions using independently reviewed primary evidence.
