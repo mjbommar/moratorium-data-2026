@@ -31,7 +31,7 @@
   "record_disposition_path": "work/research/2026-11-08/full-record-dispositions/funnel.json",
   "qa_status": "ongoing",
   "publication_authorization": "publish current state with qualifications on pending QA, then continue to double check and clear the outstanding questions",
-  "working_revision": "post16-data-consumer-delivered-hosting-pending",
+  "working_revision": "post16-data-consumer-and-site-verified",
   "current_raw_counts": {
     "local": 1328,
     "state_policy": 449,
@@ -40,7 +40,7 @@
   "prior_release": "v2026.11.10.post15",
   "prior_release_source_commit": "a7165fee6e433945a598222fedd95d7d2e300e70",
   "prior_published_source_commit": "a7165fee6e433945a598222fedd95d7d2e300e70",
-  "published_source_reference": "Qualified post16 pins b1fb539aa8da2ba6b50b588e1f7c542c76b6bc18; deterministic builds, full clean restore, ten anonymous downloads and V31 verified. Full hosted checks pending; verified website remains post15. No universal freshness/current-force claim.",
+  "published_source_reference": "Qualified post16 pins b1fb539aa8da2ba6b50b588e1f7c542c76b6bc18; deterministic builds, clean restore, ten anonymous downloads, V31 and complete hosted copy verified. Hosted source 66b845a40e58964b398b6008a0a3ca3d5f125043; receipt work/research/2026-11-10/release-2026.11.10.post16/hosted-copy-verification.json. Pending substantive QA remains explicit.",
   "latest_consumer_handoff": {
     "source_commit": "b1fb539aa8da2ba6b50b588e1f7c542c76b6bc18",
     "manifest_sha256": "6a44c7ad44d4a7843dd710499ccf2368409745b9ceff14c6dbc84088eb5b9f39",
@@ -59,7 +59,7 @@
   },
   "latest_geography_review": "work/research/2026-11-09/post-release-qa/nonblank-geography-application.json",
   "latest_delivered_consumer_input_delta": {
-    "state": "delivered_data_consumer_pending_hosted_verification",
+    "state": "delivered_data_consumer_and_hosted_verified",
     "receipt": "work/research/2026-11-10/post-release-qa/policy-reviewed-batch-application.json",
     "prior_verified_release": "v2026.11.10.post15",
     "canonical_cells_changed": 10,
@@ -74,7 +74,7 @@
     "delivered_source_commit": "b1fb539aa8da2ba6b50b588e1f7c542c76b6bc18",
     "delivered_consumer_commit": "31dc009efd9480484628c539f685e737d52d712a",
     "delivery_receipt": "work/research/2026-11-10/post-release-qa/consumer-v31-handoff.json",
-    "hosted_copy_state": "pending"
+    "hosted_copy_state": "verified"
   },
   "latest_source_followup": "work/research/2026-11-10/post-release-qa/kentucky-incentive-implementation-review.json",
   "latest_expanded_candidate_review": "work/research/2026-11-09/starke-succession-review/validation.json",
@@ -116,15 +116,15 @@
   },
   "latest_field_application": "work/research/2026-11-10/post-release-qa/bonney-lake-reviewed-application.json",
   "latest_hosted_delivery": {
-    "source_commit": "a7165fee6e433945a598222fedd95d7d2e300e70",
-    "hosted_source_commit": "86f612767552ba6a467d62be630d86dc04e4d69e",
-    "release_source_commit": "a7165fee6e433945a598222fedd95d7d2e300e70",
-    "pages_run": 42869752389,
-    "receipt": "work/research/2026-11-10/release-2026.11.10.post15/hosted-copy-verification.json",
+    "source_commit": "b1fb539aa8da2ba6b50b588e1f7c542c76b6bc18",
+    "hosted_source_commit": "66b845a40e58964b398b6008a0a3ca3d5f125043",
+    "release_source_commit": "b1fb539aa8da2ba6b50b588e1f7c542c76b6bc18",
+    "pages_run": 42944444805,
+    "receipt": "work/research/2026-11-10/release-2026.11.10.post16/hosted-copy-verification.json",
     "state": "verified"
   },
   "latest_expanded_result_review": "work/research/2026-11-10/canterbury-minutes-result-review/coordinator-adjudication.json",
-  "latest_verified_release": "v2026.11.10.post15",
+  "latest_verified_release": "v2026.11.10.post16",
   "source_observation_window_scope": "Acquisition range includes source-specific QA captures through November10; this does not renew every record or move the original comprehensive research_cutoff.",
   "latest_download_verified_release": "v2026.11.10.post16",
   "prior_latest_consumer_handoff": {
@@ -137,11 +137,11 @@
   },
   "prior_published_source_reference": "Qualified v2026.11.10.post15 pins a7165fee6e433945a598222fedd95d7d2e300e70; deterministic assets, clean restore, ten anonymous downloads, V30 and complete hosted copy verified. Hosted source 86f612767552ba6a467d62be630d86dc04e4d69e; receipt work/research/2026-11-10/release-2026.11.10.post15/hosted-copy-verification.json. Pending substantive QA remains explicit.",
   "latest_verified_hosted_data": {
-    "release": "v2026.11.10.post15",
-    "release_source_commit": "a7165fee6e433945a598222fedd95d7d2e300e70",
+    "release": "v2026.11.10.post16",
+    "release_source_commit": "b1fb539aa8da2ba6b50b588e1f7c542c76b6bc18",
     "selected_files": 229,
-    "receipt": "work/research/2026-11-10/release-2026.11.10.post15/hosted-copy-verification.json",
-    "scope": "All generated HTML pages, local links/assets, figures/current downloads and live desktop/mobile browser/map/filter/Washington row verified. No universal source freshness or legal-force claim."
+    "receipt": "work/research/2026-11-10/release-2026.11.10.post16/hosted-copy-verification.json",
+    "scope": "All generated public HTML pages, local resources, figures/current downloads and desktop/mobile map/table behavior verified, including Kentucky order and updated policy totals. No universal legal-force or freshness claim."
   },
   "latest_disposition_review": "work/research/2026-11-10/post-release-qa/policy-reviewed-batch-application.json",
   "status_baseline_comparison": "work/research/2026-11-09/post-release-qa/current-status-category-baseline-delta.json",
@@ -179,28 +179,33 @@
       },
       "resolution": "work/research/2026-11-10/release-2026.11.10.post15/hosted-copy-verification.json",
       "pages_run": 42869752389
+    },
+    {
+      "resolved_at": "2026-11-11T02:15:53.219481+00:00",
+      "prior_hold": {
+        "release": "v2026.11.10.post16",
+        "release_source_commit": "b1fb539aa8da2ba6b50b588e1f7c542c76b6bc18",
+        "state": "verified_data_release_pending_full_site_deployment",
+        "receipt": "work/research/2026-11-10/release-2026.11.10.post16/public-verification.json",
+        "active_deployment_run": null
+      },
+      "resolution": "work/research/2026-11-10/release-2026.11.10.post16/hosted-copy-verification.json",
+      "pages_run": 42944444805
     }
   ],
   "prior_latest_hosted_delivery": {
-    "source_commit": "6518022eeff0f097b18b29224fde969677f842df",
-    "hosted_source_commit": "c5b188326bfb5f95b77ec33d3188d29e07e8d361",
-    "release_source_commit": "6518022eeff0f097b18b29224fde969677f842df",
-    "pages_run": 42847105263,
-    "receipt": "work/research/2026-11-10/release-2026.11.10.post14/hosted-copy-verification.json",
+    "source_commit": "a7165fee6e433945a598222fedd95d7d2e300e70",
+    "hosted_source_commit": "86f612767552ba6a467d62be630d86dc04e4d69e",
+    "release_source_commit": "a7165fee6e433945a598222fedd95d7d2e300e70",
+    "pages_run": 42869752389,
+    "receipt": "work/research/2026-11-10/release-2026.11.10.post15/hosted-copy-verification.json",
     "state": "verified"
   },
   "prior_latest_verified_hosted_data": {
-    "release": "v2026.11.10.post14",
-    "release_source_commit": "6518022eeff0f097b18b29224fde969677f842df",
+    "release": "v2026.11.10.post15",
+    "release_source_commit": "a7165fee6e433945a598222fedd95d7d2e300e70",
     "selected_files": 229,
-    "receipt": "work/research/2026-11-10/release-2026.11.10.post14/hosted-copy-verification.json",
-    "scope": "All public generated HTML pages, locally linked resources, all published figures/current downloads and live browser map/filter/table/mobile behavior verified. No universal factual freshness or legal-force claim."
-  },
-  "pending_hosted_delivery": {
-    "release": "v2026.11.10.post16",
-    "release_source_commit": "b1fb539aa8da2ba6b50b588e1f7c542c76b6bc18",
-    "state": "verified_data_release_pending_full_site_deployment",
-    "receipt": "work/research/2026-11-10/release-2026.11.10.post16/public-verification.json",
-    "active_deployment_run": null
+    "receipt": "work/research/2026-11-10/release-2026.11.10.post15/hosted-copy-verification.json",
+    "scope": "All generated HTML pages, local links/assets, figures/current downloads and live desktop/mobile browser/map/filter/Washington row verified. No universal source freshness or legal-force claim."
   }
 }

@@ -900,4 +900,4 @@ Exit: repeatable refresh with visible freshness, costs, failures and unresolved 
 - [x] Deploy and verify the complete post15 website: all 64 generated HTML pages, linked assets/current downloads, Washington correction, map filters, metadata and desktop/mobile behavior.
 
 - [x] Qualified post16/V31 data delivery: ten policy corrections and Kentucky historical-order admission; deterministic build, clean restore, ten downloads and consumer checks verified.
-- [ ] Deploy and verify complete post16 public pages, policy totals and Kentucky order.
+- [x] Deploy and verify complete post16 public pages, policy totals, Kentucky order, map filters, downloads and desktop/mobile behavior.

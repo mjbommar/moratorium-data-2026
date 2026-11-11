@@ -10,4 +10,4 @@ There are 449 policy observations: 427 legacy bill-type rows and 22 other typed 
 
 Local data is unchanged: 1,328 records, 1,086 classified active/extended, 64 pending and 172 past, across 47 states. Native ballot history is unchanged: 57 measure/proposal records, 65 retained result versions and 53 current observations across 52 measures, five certified. Held ballot evidence and other source-specific questions remain explicit. Targeted reviews do not renew the original nationwide research cutoff or establish universal current legal force.
 
-Two identical builds, full clean restore, ten anonymous downloads, all 2,544 archive members and V31 handoff are verified. Full hosted-page verification is pending.
+Two identical builds, full clean restore, ten anonymous downloads, all 2,544 archive members and V31 handoff are verified. Full hosted-page verification passes: 64 HTML pages and 229 resources/downloads match pinned source; desktop/mobile/map/table checks pass, including 449 policy observations and Kentucky’s historical order. Complete artifact preserves 49 native generations.

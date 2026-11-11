@@ -1,5 +1,7 @@
 # Independent policy review batch — November 10, 2026
 
+Subsequent status: [guarded canonical application](policy-reviewed-batch-application.json) and [exact delta verification](policy-reviewed-batch-delta-verification.json) are complete. The preparation statements below describe the earlier review-packet phase.
+
 The eight review receipts retain all initial decisions and explicit revisions. All 13 bounded, tool-free gpt-6.1-terra API requests completed with HTTP 200. Request and compressed response capture hashes were verified; decoded response text matches the SDK output and the saved parsed answers. No sources were fetched again and no subagents were spawned.
 
 This packet prepares ten corrected cells across eight existing records and one new 19-field Kentucky executive-order observation. It does not modify the canonical CSV or the public post15 release. Exact accepted values, row guards and integration requirements are in `policy-reviewed-batch-application-candidate.json`.

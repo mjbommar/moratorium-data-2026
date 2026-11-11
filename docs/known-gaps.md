@@ -14,6 +14,10 @@ policy observation. Its history ends at conference appointment. Independent
 record-level QA and any final conference/enacted language remain open. Neither
 version is counted as an enactment, and H 4144 retains its separate study-order status.
 
+### Latest policy review boundaries
+
+The [post16 application](../work/research/2026-11-10/post-release-qa/policy-reviewed-batch-application.json) corrects ten cells and admits Kentucky Executive Order 2026-494 as a historical observation. The order is not a categorical moratorium or blanket incentive repeal; subsequent force and project applicability remain unknown. Louisiana HCR61’s original session-disposition question closes as a bounded nonpassage inference from retained history and closing journals, with text-search limits explicit. Kansas effective dates and Washington later-law summaries do not establish uninterrupted current force. Wyoming’s affiliation/name bridge does not establish a legal-name-change cause. These field decisions do not close the remaining questions for those records.
+
 ### Record review and current-force limits
 
 All 1777 raw IDs now have review accounting. The 1775 surviving original IDs

@@ -1,6 +1,6 @@
 # Changelog
 
-## Qualified v2026.11.10.post16 — website verification pending
+## Qualified v2026.11.10.post16
 
 Ten cells across eight existing policy records corrected after independent Terra review. Kansas SB51/SB92 gain July 1, 2026 effective dates; SB98 gains provision-specific purchase eligibility language. Washington summaries distinguish later refurbishment restrictions and the precisely qualified utility exception. Wyoming SF0091 sponsor affiliation is corroborated across official records. Louisiana HCR61 returns to failed classifications as a qualified historical regular-session nonpassage inference, closing its original disposition question; its last named action remains June 9.
 
