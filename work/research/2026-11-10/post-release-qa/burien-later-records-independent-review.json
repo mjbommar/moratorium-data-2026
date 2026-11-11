@@ -1,0 +1,189 @@
+{
+  "reviewed_at": "2026-11-11T02:47:57.819217+00:00",
+  "model": "gpt-6.1-terra",
+  "agents_spawned": 0,
+  "tools": [],
+  "input_manifest_sha256": "38055d913003eab7181c281518c576859e84a5542062560eba11a6e2d972b1f2",
+  "source_pins": [
+    {
+      "source_id": "95dcafa5b1bb4cacb14bab02cd5693bc",
+      "url": "https://burienwa.civicweb.net/document/223349/City%20Council%20Regular%20Meeting%20-%2028%20Sep%202026.pdf?handle=572DBBA15BE845E98FA35CCF6AC9E59C",
+      "captured_at": "2026-11-11T02:37:28.876914Z",
+      "body_sha256": "bf8693bace736aa1360445bd1e46dea57be57e83f7f3867af6b37a8add21d5e5",
+      "layout_sha256": "476b807bcac611daff7726bb6f0af52ddda83103063114910a2c01dc89130409",
+      "selected_physical_pages": [
+        33,
+        34,
+        35,
+        36,
+        37,
+        353
+      ],
+      "scope": "Original PDF body retained and verified. Selected pdftotext-layout page text; complete eight-page October26 draft minutes are included."
+    },
+    {
+      "source_id": "121d5dd3d189467d9b73596e184d72f1",
+      "url": "https://burienwa.civicweb.net/document/223743/City%20Council%20Regular%20Meeting%20-%2012%20Oct%202026.pdf?handle=7094ED705ABF443288733CF60B51C9DA",
+      "captured_at": "2026-11-11T02:37:08.161850Z",
+      "body_sha256": "9ebd2b695ebc45418d86d8be0b030b8adbbca770423458fbeca6c8c6cc810a93",
+      "layout_sha256": "a8e943fd9ce236956aedce284e5b8bdf073613c2b4753f6fb566a19a2bc2448b",
+      "selected_physical_pages": [
+        191
+      ],
+      "scope": "Original PDF body retained and verified. Selected pdftotext-layout page text; complete eight-page October26 draft minutes are included."
+    },
+    {
+      "source_id": "3c319b2826cc41ed88235e48f6d13df7",
+      "url": "https://burienwa.civicweb.net/document/224704/City%20Council%20Regular%20Meeting%20-%2009%20Nov%202026.pdf?handle=68FD79F83E5D4FAD96DB0CCA03D76D30",
+      "captured_at": "2026-11-11T02:40:31.908567Z",
+      "body_sha256": "390695610c396c8ad36a6216fb64ae18c839e304d77d863661029b86f8533dfe",
+      "layout_sha256": "801924eeca8d578686b28767a6c5c85e72824b4ff154d63880f1eace394d70cf",
+      "selected_physical_pages": [
+        191,
+        192,
+        193,
+        194,
+        195,
+        196,
+        197,
+        198,
+        575,
+        576,
+        577,
+        578,
+        579,
+        580,
+        581,
+        582,
+        583
+      ],
+      "scope": "Original PDF body retained and verified. Selected pdftotext-layout page text; complete eight-page October26 draft minutes are included."
+    }
+  ],
+  "image_pins": [
+    {
+      "source_id": "3c319b2826cc41ed88235e48f6d13df7",
+      "physical_page": 191,
+      "sha256": "d56a3e88248f0e2d12d3fd2ebf13c6189044dd1427fcf9b2219b8a38988cedab"
+    },
+    {
+      "source_id": "3c319b2826cc41ed88235e48f6d13df7",
+      "physical_page": 196,
+      "sha256": "cb7083b78a2fd785a66d20b75a0af65d68a9def644506c474e8f311a4473a916"
+    },
+    {
+      "source_id": "3c319b2826cc41ed88235e48f6d13df7",
+      "physical_page": 583,
+      "sha256": "60039d4e60f1e4dc615139e7b97bcd259bf2f015d0fd22c5000a8e0e1522f4a5"
+    }
+  ],
+  "capture": {
+    "attempt_id": "1a893f3150444af2bcf195d115172e15",
+    "logical_invocation_id": "d5eadeeaa32941b2bd3e9ff8d83f3f4d",
+    "request_descriptor_sha256": "65396c385f15e4f7b084e29a5590d6e3d2cf44049285bba9ec5308bedac42218",
+    "wire_request_sha256": "26b7e94dbdc99aa3e107542346fd1823885ea398016ce1639bc704c15d32df38",
+    "wire_response_sha256": "a619c940139fe635afb2c28b582eaab99531d8e15161bd9f7aa87196c0f0fa49",
+    "status": 200,
+    "response_status": "completed",
+    "wire_output_text_matches_sdk": true,
+    "saved_answer_matches_wire_text": true
+  },
+  "raw_answer_sha256": "35d6ad71c76b9915d89f1bcd059f5100653bd91a5314994e9c027d1d4ac0ab56",
+  "assessment": {
+    "ordinance902_oct26_disposition": "The draft October 26 minutes report a 3-4-0 failure of a motion to schedule 902 for future consent-agenda adoption, followed by unanimous referral of the item to the next available business meeting. That was not a final vote on the entire ordinance. Source 3c319b2826cc41ed88235e48f6d13df7, physical page 196, agenda item 12.b, minutes item 12.d.",
+    "ordinance911_subject_and_record_authority": "The draft minutes report unanimous adoption of an immediately effective six-month emergency moratorium on applications to establish or expand detention centers, not data centers. This is reported council action in draft minutes, not the signed ordinance itself. Source 3c319b2826cc41ed88235e48f6d13df7, physical pages 191 and 196, agenda item 12.b, minutes item 12.e.",
+    "nov9_material_authority": "The November 9 packet establishes that 902 was presented for continued consideration, with adoption and non-adoption options and recommendations. It does not establish a November 9 vote on 902, approval of the October 26 draft minutes, or the outcome of the reported 911 hearing. Source 3c319b2826cc41ed88235e48f6d13df7, physical pages 191, 196, 198 and 575–576, agenda items 12.b and 13.b.",
+    "ordinance905_replacement_supported": false,
+    "whole_record_closure_supported": false,
+    "remaining_questions": [
+      "What are the complete terms and signed text of Ordinance 905, and what comprehensive later-action record applies to it?",
+      "What did the council actually decide on November 9 concerning Ordinance 902, the October 26 minutes and the detention-center hearing?",
+      "Were there other later actions or judicial proceedings affecting Ordinance 905?"
+    ],
+    "review_limitations": [
+      "Only the supplied extracts were reviewed; no tools or independent court research were available.",
+      "The complete eight-page October 26 minutes are supplied, but they are labeled draft. Their approval footer is not independent evidence of approval.",
+      "The complete signed text of Ordinance 905 and a comprehensive later-action record are not supplied. Source classification does not close the whole-record review.",
+      "The extracts do not establish that no later action occurred or resolve current enforceability."
+    ],
+    "findings": [
+      {
+        "instrument_or_record": "Ordinance 902 — North of NERA zoning proposal",
+        "fact": "The proposal would establish Mixed-Use Business, Neighborhood Business 1 and Neighborhood Business 2 districts for the North of NERA project area.",
+        "source_id": "3c319b2826cc41ed88235e48f6d13df7",
+        "locator": "Physical pages 578 and 581, agenda item 13.b",
+        "qualification": "The area is bounded by Des Moines Memorial Drive, S 138th Street, S 128th Street, and portions of 12th and 10th Avenues South. This is a geographically specific proposal, not an adopted citywide data-center rule."
+      },
+      {
+        "instrument_or_record": "Ordinance 902 — staff description of proposed uses",
+        "fact": "Staff reported that data centers and other higher-impact uses would not be permitted under the proposed zoning framework, while existing single-family homes would remain conforming.",
+        "source_id": "3c319b2826cc41ed88235e48f6d13df7",
+        "locator": "Physical page 583, agenda item 13.b",
+        "qualification": "This is an October 26 staff memorandum included in the November 9 packet. It describes a proposal; it is not proof of enactment or replacement of Ordinance 905."
+      },
+      {
+        "instrument_or_record": "October 26 council minutes — draft",
+        "fact": "The complete supplied minutes report that the motion to place Ordinance 902 on the next regular meeting’s consent agenda for adoption failed 3-4-0; a motion to move the item to the next available business meeting then passed unanimously.",
+        "source_id": "3c319b2826cc41ed88235e48f6d13df7",
+        "locator": "Physical pages 191–198, agenda item 12.b; especially page 196, minutes item 12.d",
+        "qualification": "The failed vote concerned future consent scheduling, not a final vote rejecting the entire ordinance. The minutes are explicitly labeled DRAFT; the 'Approved on November 9, 2026' footer alone does not establish that approval occurred."
+      },
+      {
+        "instrument_or_record": "Ordinance 911 — reported council action",
+        "fact": "The draft minutes report unanimous adoption of an immediately effective six-month emergency moratorium on acceptance, processing and/or approval of applications to establish or expand detention centers.",
+        "source_id": "3c319b2826cc41ed88235e48f6d13df7",
+        "locator": "Physical page 196, agenda item 12.b, minutes item 12.e",
+        "qualification": "This is a draft-minutes report of adoption, not the supplied signed ordinance text. The presentation also described a November 9 public hearing; the minutes do not establish that hearing’s outcome."
+      },
+      {
+        "instrument_or_record": "September 28 detention-center agenda bill",
+        "fact": "The bill is titled as a detention-center moratorium discussion but includes an isolated reference to research on procedures that may apply to data centers.",
+        "source_id": "95dcafa5b1bb4cacb14bab02cd5693bc",
+        "locator": "Physical page 353, agenda item 13.d",
+        "qualification": "The inconsistent wording does not establish a data-center moratorium, an action on Ordinance 905, or completed research."
+      },
+      {
+        "instrument_or_record": "October 12 detention-center agenda bill",
+        "fact": "The bill repeats the data-center wording but identifies the discussion and the anticipated update as concerning detention centers and federal detention centers.",
+        "source_id": "121d5dd3d189467d9b73596e184d72f1",
+        "locator": "Physical page 191, agenda item 13.a",
+        "qualification": "Read with the title and the October 26 draft minutes’ express description of Ordinance 911, the isolated wording does not establish that 911 concerns data centers. The record does not explain the inconsistency."
+      },
+      {
+        "instrument_or_record": "November 9 agenda bill and staff recommendation — Ordinance 902",
+        "fact": "The agenda presents continued introduction of Ordinance 902, options to adopt or not adopt, a Planning Commission recommendation to adopt, and a staff recommendation to schedule adoption on a later consent agenda.",
+        "source_id": "3c319b2826cc41ed88235e48f6d13df7",
+        "locator": "Physical pages 575–576, agenda item 13.b",
+        "qualification": "An agenda, options, recommendation and suggested motion are not a record of what the council actually did on November 9. A listed attachment described as ready for signature is not proof of signature or adoption."
+      },
+      {
+        "instrument_or_record": "Ordinance 905 — data-center ordinance identified in the request",
+        "fact": "The supplied extracts do not provide its complete signed text or establish an amendment, extension, repeal or replacement of it.",
+        "source_id": "3c319b2826cc41ed88235e48f6d13df7",
+        "locator": "Physical pages 196 and 575–583, agenda items 12.b and 13.b",
+        "qualification": "The source quote identifies the separate subjects of 902 and 911; it does not itself identify or establish the terms of 905. Its characterization as a data-center ordinance comes from the request."
+      }
+    ]
+  },
+  "accounting": {
+    "http_requests": 1,
+    "max_http_requests": 1,
+    "max_output_tokens": 6000,
+    "max_retries": 0,
+    "usage": {
+      "input_tokens": 15427,
+      "input_tokens_details": {
+        "cache_write_tokens": 15424,
+        "cached_tokens": 0
+      },
+      "output_tokens": 2167,
+      "output_tokens_details": {
+        "reasoning_tokens": 92
+      },
+      "total_tokens": 17594
+    },
+    "cost_usd": null,
+    "price_status": "Price unavailable locally; request/output-token ceilings enforced. Not claimed free."
+  },
+  "coordinator_scope_note": "This independent review did not receive the already retained signed905orJune29minutes. Its input limitation is not a new finding that those project artifacts are missing. Reuse those artifacts; later force and actual902outcomes remain open. Source-only classification supports no canonical row change."
+}

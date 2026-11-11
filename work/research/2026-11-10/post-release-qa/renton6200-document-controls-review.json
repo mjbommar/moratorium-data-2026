@@ -1,0 +1,100 @@
+{
+  "reviewed_at": "2026-11-11T02:31:46.923781+00:00",
+  "id": "wa-renton-2026",
+  "current_row_sha256": "0961b8d21e3d57fe7dcfa0e7f327866b79dae0f03c80bca13773fdab2b7041d7",
+  "recommendation": "unresolved",
+  "canonical_changes": 0,
+  "status_category_changes": 0,
+  "normalized_date_changes": 0,
+  "whole_record_closures": 0,
+  "official_document_url": "https://edocs.rentonwa.gov/Documents/DocView.aspx?id=12336978&dbid=0&repo=CityofRenton",
+  "source_operation_scope": "Read-only viewer controls and transport diagnostics. No operative-text acceptance or signed-document review.",
+  "observed_print_range": "1 - 10",
+  "observed_control_ids": [
+    "TEXTMODE",
+    "STR_DOWNLOAD_PDF",
+    "pdfPageRange"
+  ],
+  "observed_confirmation_label": "Download & Print",
+  "pdf_recovered": false,
+  "phase_accounting": [
+    {
+      "phase": "renton6200-text-control-review-2026-11-10",
+      "config_sha256": "beb485a8607383e932f219c3317089ebec0fb0787cf3fee9912cd7a6f8e396b1",
+      "max_fetches": 2,
+      "attempts": [
+        {
+          "attempt_id": "b229df65f49d4199965a51d4061f7391",
+          "outcome": "response",
+          "error_type": null,
+          "finished_at": "2026-11-11T02:22:59.967275+00:00",
+          "body_sha256": "c199856a0ac4d76ed36cff1dc839ed6c603228fb9e6810b36d31f6a16539ad55",
+          "metadata_sha256": "8f0a04db30efe295acc1b76a5651bbd778644f0fd5ebc0ee3d43efddc968f44f",
+          "status": 200,
+          "operation": "read_only_observed_TEXTMODE"
+        },
+        {
+          "attempt_id": "595e708d85a94c6ea679b13b0f81332a",
+          "outcome": "response",
+          "error_type": null,
+          "finished_at": "2026-11-11T02:24:48.432354+00:00",
+          "body_sha256": "888bde06e63ea40988eb730b8874fe2099fbbe31679e1a2bd764411bbaded712",
+          "metadata_sha256": "984c65acb174e5be7cbe4b3d97fbf83dea4e84c782495a6b54b5ba1cf8cc2a3e",
+          "status": 200,
+          "operation": "Read-only observed Print as PDF control"
+        }
+      ],
+      "diagnostic_logs_sha256": {
+        "read-text.private.log": "059eefd63a75a97e4d5c27ef95f1e9797d43e806c93f64c2d3e4e1665964d88b",
+        "read-pdf.private.log": "1234872c7921f686c316e8b037eaeae41a28df31b21ea2f84a0df63853406000"
+      }
+    },
+    {
+      "phase": "renton6200-download-print-review-2026-11-10",
+      "config_sha256": "6a0fd70cc6e0313e3e302b9f4d61658b3ecc204ace92423a77ab6023fa69876f",
+      "max_fetches": 1,
+      "attempts": [
+        {
+          "attempt_id": "895bd8c825cb4cbeafe0ab430353e807",
+          "outcome": "error",
+          "error_type": "AssertionError",
+          "finished_at": "2026-11-11T02:26:08.014987+00:00"
+        }
+      ],
+      "diagnostic_logs_sha256": {
+        "read-pdf.private.log": "5b9961d0117d1d539e091d928b4d4ed4ba20bd7d30a103af3a0ea01a5bb36fef"
+      }
+    },
+    {
+      "phase": "renton6200-download-aware-review-2026-11-10",
+      "config_sha256": "085ab6c327cebd97294bbbe419f960ade5bac91c664b34025b9fd991c34d15d4",
+      "max_fetches": 1,
+      "attempts": [
+        {
+          "attempt_id": "b7921224990d440d89f78d5a8072f2ff",
+          "outcome": "error",
+          "error_type": "TimeoutError",
+          "finished_at": "2026-11-11T02:28:06.450635+00:00",
+          "failure_capture_sha256": "82ede418ddf93cb7960c7b8c98a4af56928a6e38142d66d08af0a3122afb56a0"
+        }
+      ],
+      "diagnostic_logs_sha256": {
+        "capture.private.log": "b2f2764020f02df3a2da039e563b871f4b61d44e7c56bb7f87df7e012d1a0163"
+      }
+    }
+  ],
+  "fetch_attempts": 4,
+  "search_attempts": 0,
+  "model_requests": 0,
+  "remaining_questions": [
+    "Recover and review the complete signed Ordinance 6200 before normalizing the effective/end anchor, term or exceptions. Official viewer metadata gives adoption August 17 and effectiveness August 25, while its description says immediate effectiveness; metadata and title alone do not reconcile that conflict.",
+    "The actual Print (as PDF) dialog now exposes the default complete range 1 - 10 and visible Download & Print button. No PDF was captured: bc-web in-page evaluation failed when export navigated/closed the target; the terminal download-aware headless fallback could not render the export control. Retain these failed attempts; do not repeat the same viewer strategies without a changed source/version condition or supported download-aware capture. Seek an actual original PDF/export response or alternative official clerk copy.",
+    "The retained Text mode operation did not expose operative ordinance text. A no-pages string is a hidden viewer template, not evidence that the ten-page record has no pages. Preserve the August 17 adoption and October 5 hearing evidence; later amendments and current legal force remain unverified."
+  ],
+  "limitations": [
+    "No full ordinance, signed execution block or operative clause was recovered in this phase.",
+    "A successful viewer response and actual page-image resources do not prove acceptance of any legal field.",
+    "Failed target navigation and headless rendering are transport outcomes, not evidence of legal absence.",
+    "Earlier12fetch cap and later2fetch/1fetch phase caps were preserved; one separately admitted terminal download-aware fallback was used. No further identical viewer retry is admitted."
+  ]
+}
