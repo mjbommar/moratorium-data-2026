@@ -1413,6 +1413,22 @@ def main():
             source_disposition_guard(record)
             assert record['canonical_changes']==record['whole_record_closures']==record['native_readback_gaps']==0
             overlays[record['id']]=[public_text(q) for q in record['remaining_questions']]
+    houston_minutes_path=Path('work/research/2026-11-11/post-release-qa/houston-adoption-minutes-review.json')
+    if houston_minutes_path.exists():
+        review=json.loads(houston_minutes_path.read_text())
+        assert review['id']=='ak-houston-undated'
+        source_row_guard(('local_inventory',review['id']),review['current_row_sha256'])
+        source_disposition_guard(review)
+        assert review['canonical_changes']==review['whole_record_closures']==review['model_requests']==review['native_readback_gaps']==0
+        assert review['fetch_reservations']==review['successful_fetches']==2
+        assert review['visually_inspected_physical_pages']==[1,2,3,4,5]
+        pin=review['source_continuity']
+        assert digest(Path(pin['path']).read_bytes())==pin['sha256']
+        proof=json.loads(Path(pin['path']).read_text())
+        assert proof['exact_body_text_pairs_read_back']==2
+        for path,expected in review['canonical_hashes'].items():
+            assert digest(Path(path).read_bytes())==expected
+        overlays[review['id']]=[public_text(q) for q in review['remaining_questions']]
     rows=[]
     for entry in f['records']:
         if entry['disposition']!='unresolved':continue
@@ -1441,6 +1457,7 @@ def main():
     summary['idaho_governor_action_followup_sha256']=digest(idaho_governor_path.read_bytes()) if idaho_governor_path.exists() else None
     summary['east_whiteland_statutory_review_sha256']=digest(east_whiteland_scope_path.read_bytes()) if east_whiteland_scope_path.exists() else None
     summary['nassau_clerk_route_review_sha256']=digest(nassau_clerk_path.read_bytes()) if nassau_clerk_path.exists() else None
+    summary['houston_minutes_followup_sha256']=digest(houston_minutes_path.read_bytes()) if houston_minutes_path.exists() else None
     summary['california_status_followup_sha256']=digest(california_status_followup_path.read_bytes()) if california_status_followup_path.exists() else None
     summary['retained_finality_audit_sha256']=digest(retained_finality_path.read_bytes()) if retained_finality_path.exists() else None
     summary['massachusetts_origin_application_sha256']=digest(ma_origin_path.read_bytes()) if ma_origin_path.exists() else None

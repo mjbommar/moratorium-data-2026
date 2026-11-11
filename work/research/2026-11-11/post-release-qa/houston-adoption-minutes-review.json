@@ -1,0 +1,66 @@
+{
+  "id": "ak-houston-undated",
+  "dataset": "local_inventory",
+  "recommendation": "unresolved",
+  "current_row_sha256": "f48ea0ce776662a04f87b4cec2d86c125b6f88b0b74edcd3f65ed9d417b41d52",
+  "baseline_commit": "1d1bdb7deba3c98d82d8c5fc7539c4d222e562cd",
+  "reviewed_at": "2026-11-11T10:12:02.252691+00:00",
+  "canonical_changes": 0,
+  "whole_record_closures": 0,
+  "model_requests": 0,
+  "fetch_reservations": 2,
+  "successful_fetches": 2,
+  "native_readback_gaps": 0,
+  "source_continuity": {
+    "path": "work/research/2026-11-11/post-release-qa/houston-adoption-minutes-source-continuity.json",
+    "sha256": "8ef2f5ebb2370c0a5e26d357f58bdb9814cf43338870a416b0fdd8cacbb317e5"
+  },
+  "source_body_sha256": "7f9cfad2fa32b1e8907a02e491e84b9af94ff70c76565c2b8991d1ce12b165c0",
+  "visually_inspected_physical_pages": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "findings": [
+    "Physical page2 section7.B.1 records October8,2026 public hearing on Ordinance26-20, opened7:30pm/closed7:31pm. Mitchell moved approval; Johansen seconded; rollcall passed unanimously. This corroborates already recorded adoption/unanimity, not a new status change.",
+    "Physical page5 bears mayor Carter R.Cole and clerk Tani R.Schoneman signatures and seal on these minutes, with no written signing date. They are not dated execution of Ordinance26-20. PDF creation timestampOctober13 is technical metadata, not legal signature/effect date.",
+    "Physical page3 schedules a November12 hearing for distinct Ordinance26-22 accepting a chamber-of-commerce donation; physicalpage4 Resolution26-20 is personnel policy, distinct from moratorium Ordinance26-20. Do not conflate identifiers.",
+    "Observed index has seven2026minutes entries includingOctober8 and a futureNovember12agenda/packet. This captured list is not an exhaustive later-action or legal-force finding."
+  ],
+  "remaining_questions": [
+    "October8 signed official council minutes (physicalpage2) now directly corroborate the already recorded unanimous adoption of Ordinance26-20. All five pages inspected; minutes signatures onpage5 are undated and do not establish the ordinance signing/effective date. Do not repeat these minutes or the same index without a documented changed-version signal.",
+    "Obtain a distinct dated mayoral execution record or legally authoritative effective-date evidence for Ordinance26-20; its two-calendar-year term requires the actual effective anchor. PDF creation/upload timestamps and signatures on council minutes do not supply that anchor. Examine distinct subsequent legislation/minutes for amendments, repeal/extension and project applicability; index omissions and a future agenda do not prove later force."
+  ],
+  "images": [
+    {
+      "physical_page": 1,
+      "sha256": "46ca92114ad7898d449bc47838f122f4423552454d5fb9fc267e3c71c1693603"
+    },
+    {
+      "physical_page": 2,
+      "sha256": "cd45c7f85949b9ec7d9c9fe2a2fa6a987968392d3c0e38455863e1763e26d619"
+    },
+    {
+      "physical_page": 3,
+      "sha256": "48c510f0c3412f43f72f2795e017e47e54a2c478a3293a521b27c952f20029fe"
+    },
+    {
+      "physical_page": 4,
+      "sha256": "c6ffde148d8c6205cf486bf08ee7e84a5c26bd7c216bd22b90c1fa1725220358"
+    },
+    {
+      "physical_page": 5,
+      "sha256": "0c46bc739c46069f4e270df471b0855c21f83a536f1f0ac01260d2c1996cd22f"
+    }
+  ],
+  "canonical_hashes": {
+    "data/moratorium_inventory.csv": "a35f0e4c72cb0ae91583591b72d70eba3e36e9def80c8de658da5f3a0accd5f3",
+    "data/state_legislation.csv": "53b79966a15c10e79dce358b1a31b788260757cb709dea621d31f687777522d3",
+    "data/release_metadata.json": "b207eddf68d0b19c9b9ac9358c3b2311f0eef7fbb9456fcfc29cc9702d25f1ea",
+    "data/summary_stats.json": "f48ada8090ed930d35354e5cc1abade82f4bd93148a92fbc35a0db586276060e",
+    "site/moratoria.geojson": "c91782a295b2601ee6b00b9e4be2d9be9e3b8e72c7f4ab7792323dd989eb09a7",
+    "site/timeline.svg": "4b3febd7a4fa3c81d8fdb1c52ab2e2bad9fbefb99b8d9be04318d8b6193eb095"
+  }
+}
