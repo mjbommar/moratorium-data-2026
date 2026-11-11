@@ -963,4 +963,4 @@ Exit: repeatable refresh with visible freshness, costs, failures and unresolved 
 - [x] Inspect Arcata official eSCRIBE regular/special meeting routes and October28/November4 agendas: six terminal operations, six exact native source pairs, zero scoped gaps. No completed extension vote established; datasets and residual queue unchanged. Retain the distinct-source follow-up requirement and avoid repeating unchanged captures.
 
 - [x] Recover Cedartown signed October12minutes, inspect all8October/Septemberpages and independently accept six cells including active-to-extended. Preserve actual Resolution22six-month term, separate Resolution21build-to-rent, no assumed endpoint/continuousforce. Four sourcepairs and nine checks pass; only one residual queue entry changes.
-- [ ] Deliver the pending six-cell Cedartown correction from post2/V36 baseline through the next combined release, consumer handoff and Pages verification; working counts887active/199extended, recorded in-force1086 unchanged.
+- [x] Deliver six Cedartown corrections in qualifiedpost3/V37 and verified currentpublicpages; active887/extended199 retain1086inforce. Final uploadedpayload audit follows.

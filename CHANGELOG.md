@@ -1,8 +1,8 @@
 # Changelog
 
-## Qualified v2026.11.11.post3 — website verification pending
+## Qualified v2026.11.11.post3
 
-Six Cedartown cells confirm unanimous approval of Resolution22,2026, a six-month data-center extension. Active887/extended199 retain1,086 recorded in force. No exact endpoint or uninterrupted/current-force inference; 1,347 reviews remain unresolved. Two identical builds, full clean restore, ten anonymous downloads and V37 pass. Hosted checks are pending; post2/V36 remains the last verified website edition.
+Six Cedartown cells confirm unanimous approval of Resolution22,2026, a six-month data-center extension. Active887/extended199 retain1,086 recorded in force. No exact endpoint or uninterrupted/current-force inference; 1,347 reviews remain unresolved. Two identical builds, full clean restore, ten anonymous downloads, V37 and current hosted desktop/mobile checks pass.
 
 | Metric | Qualified November 11 post3 |
 |---|---:|

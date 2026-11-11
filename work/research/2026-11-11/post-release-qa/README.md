@@ -89,3 +89,6 @@ Source-only follow-up: [Idaho governor H0911 action tracking](idaho-governor-act
 
 
 Source-only follow-up: [Nassau clerk ordinance route](nassau-clerk-route-review.md). The actual records form returned human verification, not a record result. The specific automated route is now documented; final ordinance/filing and later-force questions remain unresolved. Data/public pages are unchanged.
+
+
+Latest delivery: [six Cedartown corrections](cedartown-extension-review.md) in qualified post3/V37 and verified current public pages. Active887/extended199 retain1086inforce; exact interval, possible lapse and laterforce unresolved. [Receipts](../release-2026.11.11.post3/README.md).

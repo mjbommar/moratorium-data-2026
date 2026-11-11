@@ -8,4 +8,4 @@ The prior generic Exa extension query and original March minutes were inspected 
 
 Working totals are 887 active plus 199 extended, retaining 1,086 recorded in force. Compared with September, 100 surviving local records and 34 policy records now have different status categories, totaling 134. No other local row or policy CSV changed. Only the Cedartown residual queue entry changed; all 1,347 unresolved records remain unresolved. All nine routine validation and derived-data checks pass.
 
-The qualified post2 release, V36 consumer snapshot and deployed dashboard remain the delivered edition. This six-cell correction and rebuilt copy/map are pending the next combined release, consumer handoff and Pages deployment. See release metadata and the verification receipt for the exact pending delta.
+The six-cell correction and rebuilt copy/map are delivered in qualified post3/V37 and verified current public pages. [Delivery receipts](../release-2026.11.11.post3/README.md) record actual completion. Earlier application/verification JSON preserves its review-time pending-delivery state. Broader QA and Cedartown operative interval/laterforce remain unresolved.

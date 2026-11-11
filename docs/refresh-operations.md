@@ -3,7 +3,7 @@
 Work from a pinned commit and retain the cohort cutoff separately from the date
 of an individual source review. Research jobs are not a substantive acceptance gate.
 
-Qualified post3/V37: Six Cedartown corrections confirm the approved October 12 six-month extension. Active 887 and extended 199 retain 1,086 recorded in force. Exact operative interval, any intervening lapse and later force remain unresolved; no endpoint is inferred. There remain 1,347 unresolved reviews. Two identical builds, full clean restore, ten anonymous downloads and V37 pass. Hosted checks are pending; post2/V36 remains the last verified website edition. [Receipts](../work/research/2026-11-11/release-2026.11.11.post3/README.md).
+Qualified post3/V37: Six Cedartown corrections confirm the approved October 12 six-month extension. Active 887 and extended 199 retain 1,086 recorded in force. Exact operative interval, any intervening lapse and later force remain unresolved; no endpoint is inferred. There remain 1,347 unresolved reviews. Two identical builds, full clean restore, ten anonymous downloads, V37 and current hosted desktop/mobile checks pass. [Receipts](../work/research/2026-11-11/release-2026.11.11.post3/README.md).
 
 The current qualified expanded snapshot tracks policy observations and 57 measure/proposal records, with 65 retained results and 53 current observations across 52 measures. This is separate from legacy moratorium counts and does not certify every result.
 

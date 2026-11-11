@@ -1,0 +1,12 @@
+{
+  "failed_script_sha256": "f034e043104a03e65a28d4192408f041f61169ed79f4fa345d3d2ff6faf853b2",
+  "corrected_script_sha256": "81bf16f5e3a81c04c8023e8e61f98c6368bd87f98fc64728d0d212ebcbf262f3",
+  "failure": "Test expected six months, but actual duration popup correctly renders six-month. Actual Cedartown identity, Resolution22, effective-anchor qualification and Recorded extended were visible.",
+  "correction": "Match exact existing duration wording and explicitly assert Recorded extended. No webpage/data changes; prior failed browser run not accepted. Repeat only failed full browser suite with new output directory; hosted byte check already passed.",
+  "second_test_correction": {
+    "failed_script_sha256": "81bf16f5e3a81c04c8023e8e61f98c6368bd87f98fc64728d0d212ebcbf262f3",
+    "corrected_script_sha256": "204c950aab20d0562bce5f533eda6a74ac6d724b3f4a99154b56d394b9526aa1",
+    "failure": "State page label is Extended with capital E, but test expected lowercase extended. Entire Cedartown first sibling contains correct resolution, effective-anchor and lapse qualifications.",
+    "correction": "Match actual displayed Extended label. No product changes. Previous failed browser directories retained; repeat failed full browser suite only."
+  }
+}
