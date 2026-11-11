@@ -3,7 +3,7 @@
 
 Working inventory for Georgia, generated **November 11, 2026**. Record-level refresh and later-action review remain incomplete.
 
-**71 records** — 49 classified as active or extended, 0 classified as pending, 22 classified as past, 0 classified as rejected proposals, 0 classified as unknown.
+**71 records** — 48 classified as active or extended, 0 classified as pending, 23 classified as past, 0 classified as rejected proposals, 0 classified as unknown.
 
 These counts reflect inventory classifications and do not establish current enforceability.
 
@@ -56,7 +56,7 @@ State policy is tracked separately: **9 records** (9 typed bill rows) in [`state
 | LaGrange | City | 2025-09-23 | data center | ⚪ Replaced |
 | Lamar County | County | 2025-09-16 | data center | 🟢 Extended |
 | Lee County | County | Unverified | data center | 🟢 Extended |
-| Lowndes County | County | 2026-08-25 | data center | 🟢 Active |
+| Lowndes County | County | 2026-08-25 | data center | ⚪ Expired |
 | Madison County | County | 2026-08-03 | data center | 🟢 Extended |
 | Marietta | City | 2026-07 | data center | 🟢 Active |
 | Maysville | City | 2026-07-16 | data center | 🟢 Active |
@@ -808,18 +808,18 @@ State policy is tracked separately: **9 records** (9 typed bill rows) in [`state
 ### Lowndes County
 
 - **Type:** County
-- **Recorded status:** 🟢 Active
+- **Recorded status:** ⚪ Expired
 - **Date enacted:** 2026-08-25, Lowndes County Board of Commissioners regular session (Tuesday)
 - **Normalized date:** `2026-08-25` (exact)
-- **Duration:** 60 days (to about 2026-10-24)
+- **Duration:** 60 days (reported original term); the exact operative expiry date remains unverified.
 - **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `ga-lowndes-county-2026`
 - **Legal basis:** Board of Commissioners moratorium on accepting applications for data center permits in unincorporated Lowndes County (instrument number not published)
 - **What prompted it:** County drafting a comprehensive data center ordinance; organized resident opposition (Lowndes Citizens Against Data Centers)
 - **Affected projects:** None named
-- **Detailed status:** Active as of 2026-09-23; 60-day moratorium adopted 2026-08-25 on data center permit applications in unincorporated Lowndes County, running to about 2026-10-24 while the county drafts an ordinance.
-- **Outcome:** Commissioners approved a 60-day moratorium on data center permit applications pending a comprehensive ordinance.
+- **Detailed status:** The Spectator reported on October 28, 2026 that the 60-day data-center moratorium had ended and that commissioners announced an upcoming draft ordinance at their October 27 meeting. The county posted a notice titled “Lowndes County Data Center Ordinance Draft” on November 2; a county document is labeled as a draft dated November 2, not an adopted replacement. The report anticipated public feedback on November 10 and a vote on December 8; those scheduled events do not establish completed actions. The original executed moratorium, exact expiry date, subsequent commission decisions and current legal force remain unverified.
+- **Outcome:** The moratorium was reported ended before the county posted a draft-ordinance notice on November 2. Adoption and effectiveness of replacement regulations remain unverified.
 
 ### Madison County
 

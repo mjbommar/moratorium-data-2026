@@ -31,7 +31,7 @@
   "record_disposition_path": "work/research/2026-11-08/full-record-dispositions/funnel.json",
   "qa_status": "ongoing",
   "publication_authorization": "publish current state with qualifications on pending QA, then continue to double check and clear the outstanding questions",
-  "working_revision": "2026.11.11.post7-delivery-verified",
+  "working_revision": "lowndes-reported-expiry-pending-publication",
   "current_raw_counts": {
     "local": 1328,
     "state_policy": 449,
@@ -52,10 +52,10 @@
   "release_date_timezone": "America/New_York",
   "published_source_commit": "f3d67fa20374512aab842ea5cb7ab2bb8948af47",
   "september_status_category_differences": {
-    "local": 101,
+    "local": 102,
     "policy": 34,
-    "total": 135,
-    "receipt": "work/research/2026-11-11/post-release-qa/fort-wayne-september-status-delta.json"
+    "total": 136,
+    "receipt": "work/research/2026-11-11/post-release-qa/lowndes-september-status-delta.json"
   },
   "latest_geography_review": "work/research/2026-11-09/post-release-qa/nonblank-geography-application.json",
   "latest_delivered_consumer_input_delta": {
@@ -123,7 +123,7 @@
     "delivery_receipt": "work/research/2026-11-11/post-release-qa/consumer-v40-handoff.json",
     "hosted_copy_state": "verified"
   },
-  "latest_field_application": "work/research/2026-11-11/post-release-qa/los-angeles-operative-application.json",
+  "latest_field_application": "work/research/2026-11-11/post-release-qa/lowndes-operative-application.json",
   "latest_hosted_delivery": {
     "source_commit": "f3d67fa20374512aab842ea5cb7ab2bb8948af47",
     "hosted_source_commit": "13abc32127e401299eb9205b842a21abd0230212",
@@ -153,7 +153,7 @@
     "scope": "All current HTML and linked local bytes match; actual browser desktop/mobile/dark, maps, tables, charts and LA referral/qualifications pass. Final artifact and acknowledgment verification follows."
   },
   "latest_disposition_review": "work/research/2026-11-11/post-release-qa/fort-wayne-final-disposition-application.json",
-  "status_baseline_comparison": "work/research/2026-11-11/post-release-qa/fort-wayne-september-status-delta.json",
+  "status_baseline_comparison": "work/research/2026-11-11/post-release-qa/lowndes-september-status-delta.json",
   "hosted_delivery_history": [
     {
       "resolved_at": "2026-11-10T15:50:41.303779+00:00",
@@ -337,5 +337,20 @@
     "receipt": "work/research/2026-11-11/release-2026.11.11.post6/hosted-copy-verification.json",
     "scope": "Every currentHTMLpage and linkedlocalresource/download matches pinnedsource. Actual desktop/mobile/dark, mapfilters, charts/tables, Fort Wayne rejected pointer popup, Eagan reporting and revised counts pass. Full final artifact and acknowledgment recheck follows; no universal currentlaw or freshness certification."
   },
-  "latest_independent_record_review": "work/research/2026-11-11/post-release-qa/los-angeles-operative-application.json"
+  "latest_independent_record_review": "work/research/2026-11-11/post-release-qa/lowndes-operative-application.json",
+  "pending_consumer_input_delta": {
+    "baseline_release": "v2026.11.11.post7",
+    "baseline_source_commit": "f3d67fa20374512aab842ea5cb7ab2bb8948af47",
+    "baseline_handoff": "V41",
+    "receipt": "work/research/2026-11-11/post-release-qa/lowndes-operative-application.json",
+    "receipts": [
+      "work/research/2026-11-11/post-release-qa/lowndes-operative-application.json"
+    ],
+    "changed_cells": 4,
+    "changed_local_rows": 1,
+    "changed_policy_rows": 0,
+    "status_category_changes": 1,
+    "normalized_date_changes": 0,
+    "scope": "Four accepted fields: attributed end/draft prose and active-to-expired recorded classification. No exact end/date/VERIFY/native changes or whole-record closure. Pending next publication batch. Post7/V41 remains verified public edition."
+  }
 }

@@ -1,5 +1,18 @@
 # Changelog
 
+## Working follow-up after post7 — publication pending
+
+Four independently reviewed Lowndes County fields record reported expiry and distinguish a November draft from adopted replacement rules. Active-to-expired changes one category; exact expiry and later force remain unresolved. Post7/V41 remains the verified public edition.
+
+| Metric | Working follow-up after post7 |
+|---|---:|
+| Moratoria in the list | **1,328** |
+| Classified active or extended | **1085** |
+| Pending or not yet effective | **63** |
+| Ended (replaced, expired, or rescinded) | **173** |
+| Rows we still want to confirm (`[VERIFY]`) | **978** |
+| States with at least one | **47** |
+
 ## Qualified v2026.11.11.post7
 
 Two LA County prose cells establish October 6 referral of motion 26-6069 rather than adoption of the proposed permanent prohibition. No whole-record closures or status/date/headline/native changes. There remain 1,346 unresolved reviews. The September memorandum scope and later actions remain unverified. Two identical builds, full clean restore, ten anonymous downloads, V41 and current hosted desktop/mobile checks pass.

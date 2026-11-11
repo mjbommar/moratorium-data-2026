@@ -4,6 +4,8 @@
 
 **Reviewed corrections:** Signed Mendocino Ordinances 4561 and 4562 establish historical adoption, votes, terms and literal threshold wording. Intended scope, later force and actual applicability remain qualified. Counts, categories, normalized dates and native history are unchanged. [Exact delta](work/research/2026-11-11/release-2026.11.11/dataset-delta.json).
 
+**Working follow-up, not yet published:** Four accepted Lowndes County fields record reported expiry; the exact end date and replacement adoption remain open. Working counts are 1,085 active/extended and 173 past; post7/V41 remains the verified public edition.
+
 **Latest LA County corrections:** Two LA County prose cells establish October 6 referral of motion 26-6069 rather than adoption of the proposed permanent prohibition. No whole-record closures or status/date/headline/native changes. There remain 1,346 unresolved reviews. The September memorandum scope and later actions remain unverified. Two identical builds, full clean restore, ten anonymous downloads, V41 and current hosted desktop/mobile checks pass.
 
 **Prior Fort Wayne/Eagan corrections:** Eleven Fort Wayne/Eagan cells establish Fort Wayne’s historical 4–4 rejection and update attributed Eagan litigation news. One historical proposal review closes. Counts are 63 pending, three rejected, 978 VERIFY-tagged and 1,346 unresolved reviews. The 1,086 active/extended records and raw, policy and native totals are unchanged. Eagan court dispositions and later force remain unverified. Two identical builds, full clean restore, ten anonymous downloads, V40 and current hosted desktop/mobile checks pass. [Fort Wayne](work/research/2026-11-11/post-release-qa/fort-wayne-final-disposition-review.md) · [Eagan](work/research/2026-11-11/post-release-qa/eagan-litigation-review.md).
@@ -22,7 +24,7 @@
 
 **Published post14 patch:** Four Kentucky incentive fields clarified using current compiled provisions. The public dashboard now has generated local-status and ballot-certification charts and tables, accurate policy-form counts and refreshed current state pages/maps. No status category changes or whole-record closures. [Release downloads, restore and V29 delivery](work/research/2026-11-10/release-2026.11.10.post14/README.md) are verified. The live dashboard, all 50 state pages, charts, tables and current downloads are verified on desktop and mobile.
 
-**Continuing QA:** 1,346 records remain unresolved. The Massachusetts addition now has [independent historical-record QA](work/research/2026-11-10/post-release-qa/massachusetts-independent-review-application.md); its final conference/enacted outcome and later force remain open. [Originating committee attribution](work/research/2026-11-10/post-release-qa/massachusetts-origin-attribution-application.md) is now established. [Independent policy review](work/research/2026-11-10/post-release-qa/policy-independent-review-batch.md) supports ten corrected cells across eight existing records and admission of Kentucky Executive Order 2026-494 as a historical policy observation, with subsequent force unknown. Louisiana HCR61’s historical session-disposition question closes at a qualified inference level. September status-category differences are 135 (101 local, 34 policy). All 449 canonical policy observations have primary references, without universal freshness or legal-force certification. The post18 data release, V33 and hosted page checks are verified; each existing release tag preserves its exact snapshot.
+**Continuing QA:** 1,346 records remain unresolved. The Massachusetts addition now has [independent historical-record QA](work/research/2026-11-10/post-release-qa/massachusetts-independent-review-application.md); its final conference/enacted outcome and later force remain open. [Originating committee attribution](work/research/2026-11-10/post-release-qa/massachusetts-origin-attribution-application.md) is now established. [Independent policy review](work/research/2026-11-10/post-release-qa/policy-independent-review-batch.md) supports ten corrected cells across eight existing records and admission of Kentucky Executive Order 2026-494 as a historical policy observation, with subsequent force unknown. Louisiana HCR61’s historical session-disposition question closes at a qualified inference level. Working September status-category differences are 136 (102 local, 34 policy); post7 retains its dated comparison. All 449 canonical policy observations have primary references, without universal freshness or legal-force certification. The post18 data release, V33 and hosted page checks are verified; each existing release tag preserves its exact snapshot.
 
 **Latest ballot review:** [Canterbury's official meeting minutes](work/research/2026-11-10/canterbury-minutes-result-review/README.md) explicitly report Article 4 passed, 322–63, with clerk reports finalized. A new observation supersedes the earlier one without changing its tally. There are now 65 retained result versions; current observations remain 53 across 52 measures, with five certified. Certification/date and operative legal effect remain unknown for Canterbury. [Qualified post3 and matching V18 delivery](work/research/2026-11-10/release-2026.11.10.post3/README.md) are verified.
 
@@ -36,7 +38,7 @@ This is the open companion dataset for the working paper *Moratorium Nation: A S
 > Includes the reviewed November 6 Seattle duplicate retirement; both original IDs remain resolvable.
 > Working-source review now covers the original 1,777 raw records with primary and independent artifacts. [The integrated application](work/research/2026-11-08/full-inventory-integrated-application/README.md) records applied corrections, zero pending cells in the reviewed queue, full consistency checks and selected hosted verification. Status dates vary; bounded source review does not establish universal current legal force. The published November 8 checkpoint retains its older coverage.
 >
-> 🟢 **1086 classified active or extended** (current legal force remains record-specific) · 🟡 **63 classified pending** · ⚪ **172 classified past** (recorded as expired, replaced, or rescinded) · **3 rejected proposals retained** · **4 with unknown recorded stage**
+> 🟢 **1085 classified active or extended** (current legal force remains record-specific) · 🟡 **63 classified pending** · ⚪ **173 classified past** (recorded as expired, replaced, or rescinded) · **3 rejected proposals retained** · **4 with unknown recorded stage**
 >
 > Leading states by total records: Ohio (160), New York (152), Michigan (148), Georgia (71), North Carolina (70), Iowa (60), Tennessee (46), Washington (43), Wisconsin (40), Florida (35), Indiana (35). Florida and Indiana tie for tenth.
 >
@@ -105,10 +107,10 @@ For more, see the [FAQ](docs/FAQ.md).
 Working snapshot during the **November 9, 2026** refresh (record-level source dates vary):
 
 - **1328 moratorium records** tracked in our working inventory
-  - **1086 classified active or extended** (887 active + 199 extended)
+  - **1085 classified active or extended** (886 active + 199 extended)
   - **63 classified pending**
   - **84 classified replaced**
-  - **76 classified expired**
+  - **77 classified expired**
   - **12 classified rescinded**; earlier event-based expiry may remain unresolved
 - **47 states** have at least one moratorium. We searched the other **3 states** (Hawaii, West Virginia, and Wyoming) and found none. Alaska, Arizona, Delaware, Rhode Island, and Vermont joined the list in the September 2026 update
 - **Leading states by record count**: Ohio (160), New York (152), Michigan (148), Georgia (71), North Carolina (70), Iowa (60), Tennessee (46), Washington (43), Wisconsin (40), Florida (35), Indiana (35). Florida and Indiana tie for tenth.

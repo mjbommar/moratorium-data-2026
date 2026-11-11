@@ -1,0 +1,395 @@
+{
+  "initial_two_request_review": {
+    "input_manifest_sha256": "a8d5af4b51d15d9df7a72f3681b2ad5e35da549e67f8b5c4703c918531505a76",
+    "source_pins": [
+      {
+        "source_id": "spectator",
+        "url": "https://vsuspectator.com/2026/10/28/data-center-moratorium-ends-leaves-residents-with-concerns/",
+        "text_sha256": "318cb3c15c9cc91ba538d2e2730ee71c7c869362d72816fa701a25f0833579dd",
+        "role": "Complete retained local newsroom article; dates and explicit ending report, not authenticated original resolution or final minutes"
+      },
+      {
+        "source_id": "draft",
+        "url": "https://www.lowndescounty.com/DocumentCenter/View/4723/Lowndes-County-Data-Center-Ordinance-Draft",
+        "text_sha256": "8ee091903039d272f5548e3091504f01ca78965d4e3aa3e41cd58439ca2fa6bb",
+        "role": "Only physical coverpage1of26 OCR, manually checked. Draft label/date, not adopted ordinance; remainder not supplied"
+      },
+      {
+        "source_id": "archive",
+        "url": "https://www.lowndescounty.com/archive.aspx",
+        "text_sha256": "e1efdbed4ea3e70d11df546e9de8e224e76d8e9bf2e7c704ba9eb0f4318c5003",
+        "role": "Observed archive index only. No2026minutes captured here, not proof no later action"
+      }
+    ],
+    "image_pins": [],
+    "candidate": {
+      "id": "ga-lowndes-county-2026",
+      "row_sha256": "6e281aa9e4c6b21a6d4b2d347f288572df12ed450de64ef2398811bfe70042d5",
+      "proposed_changes": [
+        {
+          "field": "duration",
+          "before": "60 days (to about 2026-10-24)",
+          "after": "60 days (reported original term); the exact operative expiry date remains unverified."
+        },
+        {
+          "field": "current_status",
+          "before": "Active as of 2026-09-23; 60-day moratorium adopted 2026-08-25 on data center permit applications in unincorporated Lowndes County, running to about 2026-10-24 while the county drafts an ordinance.",
+          "after": "The Spectator reported on October 28, 2026 that the 60-day data-center moratorium had ended and that commissioners announced an upcoming draft ordinance at their October 27 meeting. The county published a draft notice on November 2; the linked document is labeled a draft, not an adopted replacement. The report anticipated public feedback on November 10 and a vote on December 8; those scheduled events do not establish completed actions. The original executed moratorium, exact expiry date, subsequent commission decisions and current legal force remain unverified."
+        },
+        {
+          "field": "outcome",
+          "before": "Commissioners approved a 60-day moratorium on data center permit applications pending a comprehensive ordinance.",
+          "after": "Reported ended before the county published its November 2 draft data-center ordinance. Adoption and effectiveness of replacement regulations remain unverified."
+        },
+        {
+          "field": "enacted_status",
+          "before": "active",
+          "after": "expired"
+        }
+      ],
+      "scope": "Four proposed fields, including recorded active-to-expired classification based on explicit dated reporting, not arithmetic. Hold status if evidence is insufficient. No exact expiry date, original instrument authentication, replacement adoption/currentforce or whole-record closure inferred."
+    },
+    "captures": [
+      {
+        "stage": "blind_extraction",
+        "attempt_id": "1abf5676ae6f424fa078199093ed6bf6",
+        "descriptor_sha256": "871cddd349008c1f7ff364d5b1755bc4c291782a0321db983147a013ae6e0736",
+        "wire_request_sha256": "19bbe507306821ca25722d4ff43278a2e0333ff30f9fc97de0c518d1edc24cff",
+        "wire_response_sha256": "f500b30575608a96e8455632584fe37789a3eecfaf1ef3c8ddc3426b0b113d95",
+        "actual_input_descriptor_matches": true,
+        "wire_sdk_output_matches_after_null_default_normalization": true,
+        "parsed_answer_matches": true,
+        "usage": {
+          "input_tokens": 2959,
+          "input_tokens_details": {
+            "cache_write_tokens": 2956,
+            "cached_tokens": 0
+          },
+          "output_tokens": 1137,
+          "output_tokens_details": {
+            "reasoning_tokens": 52
+          },
+          "total_tokens": 4096
+        },
+        "all_selected_source_text_inputs_bound": true
+      },
+      {
+        "stage": "cell_adjudication",
+        "attempt_id": "bccb3bc4a3034e3e880d4f026920d3d9",
+        "descriptor_sha256": "4d8cac68cbef9349b92e7bd5f97e515cce63912ac8fe5dc348ca50518415af1d",
+        "wire_request_sha256": "58162c7c8794fa751a8975f7aa1d5cdf229835285a821a762d92a807d4575859",
+        "wire_response_sha256": "8983da367cd1c1ee9db6a66f55701ba52c52c316ce9813f76c06158b9f2ae579",
+        "actual_input_descriptor_matches": true,
+        "wire_sdk_output_matches_after_null_default_normalization": true,
+        "parsed_answer_matches": true,
+        "usage": {
+          "input_tokens": 4815,
+          "input_tokens_details": {
+            "cache_write_tokens": 4812,
+            "cached_tokens": 0
+          },
+          "output_tokens": 869,
+          "output_tokens_details": {
+            "reasoning_tokens": 124
+          },
+          "total_tokens": 5684
+        },
+        "all_selected_source_text_inputs_bound": true
+      }
+    ],
+    "answers": {
+      "blind_extraction": {
+        "facts": [
+          {
+            "field": "moratorium_status_report",
+            "value": "By October 28, 2026, the Spectator reported that Lowndes County's 60-day moratorium on applications to build AI data centers had ended.",
+            "source_id": "spectator",
+            "locator": "Headline and opening paragraph, October 28, 2026",
+            "supporting_summary": "The local news article explicitly describes the moratorium as ended; it does not give an exact expiration date."
+          },
+          {
+            "field": "draft_release_announcement",
+            "value": "At its October 27, 2026 regular meeting, the Lowndes County Board of Commissioners announced a planned November 2 release of a data-center ordinance draft.",
+            "source_id": "spectator",
+            "locator": "Opening paragraph",
+            "supporting_summary": "The article reports the announcement and scheduled release, rather than confirming that the release occurred."
+          },
+          {
+            "field": "draft_document",
+            "value": "A Lowndes County Data Center Ordinance draft is dated November 2, 2026 and proposes Chapter 7 of the Unified Land Development Code.",
+            "source_id": "draft",
+            "locator": "Cover page heading",
+            "supporting_summary": "The supplied document identifies itself as a draft and gives its proposed chapter and date."
+          },
+          {
+            "field": "draft_scope",
+            "value": "The November 2, 2026 draft synopsis describes proposed requirements for data-center development, construction, operation and decommissioning in unincorporated Lowndes County.",
+            "source_id": "draft",
+            "locator": "Cover page, Synopsis",
+            "supporting_summary": "The synopsis says the proposed ordinance would apply, once approved, to new data centers and operational expansions after adoption."
+          },
+          {
+            "field": "draft_standards_and_procedure",
+            "value": "The draft synopsis would allow principal-use data centers in industrial districts subject to supplemental standards and would require a favorable commissioners' decision before permit applications.",
+            "source_id": "draft",
+            "locator": "Cover page, Synopsis and Procedure",
+            "supporting_summary": "The listed proposed standards cover site and building characteristics, environmental and utility issues, and fire suppression. The procedure refers to a public hearing and a preponderance-of-the-evidence standard."
+          },
+          {
+            "field": "scheduled_feedback",
+            "value": "The commissioners were scheduled to accept resident feedback on the draft at their November 10, 2026 meeting.",
+            "source_id": "spectator",
+            "locator": "Paragraph on the November meeting",
+            "supporting_summary": "The October 28 article presents feedback as a future event, not a completed action."
+          },
+          {
+            "field": "scheduled_vote",
+            "value": "The commissioners were scheduled to vote for or against the data-center ordinance on December 8, 2026.",
+            "source_id": "spectator",
+            "locator": "Paragraph on the December meeting",
+            "supporting_summary": "The article describes a planned vote and does not establish its outcome."
+          },
+          {
+            "field": "earlier_project_context",
+            "value": "Residents first learned of plans for an AI data center in July 2025, after land near the Foxborough subdivision was rezoned for light industrial use.",
+            "source_id": "spectator",
+            "locator": "Paragraph on residents discovering the plans",
+            "supporting_summary": "The article associates discovery of the plans with the earlier rezoning."
+          },
+          {
+            "field": "local_opposition",
+            "value": "Lowndes Citizens Against Data Centers has opposed data centers since December 2025, according to the October 28, 2026 article.",
+            "source_id": "spectator",
+            "locator": "Paragraph introducing LCAD",
+            "supporting_summary": "The article identifies LCAD as a local activist group and dates the start of its opposition."
+          },
+          {
+            "field": "archive_index",
+            "value": "The supplied archive index lists commission agendas and minutes through December 9, 2025, but captures no 2026 commission minutes.",
+            "source_id": "archive",
+            "locator": "Commission Meeting Agendas and Commission Meeting Minutes sections",
+            "supporting_summary": "This is an observation about the supplied index, not evidence that no later meeting or legal action occurred."
+          }
+        ],
+        "uncertainties": [
+          "The exact moratorium expiration date and the terms of the original resolution are not supplied.",
+          "Only the draft's cover page, identified as page 1 of 26, is supplied; the full text and any enacted ordinance are not available here.",
+          "The sources do not confirm that the scheduled November 10 feedback session or December 8 vote occurred, or establish an adoption outcome.",
+          "The archive index's omission of 2026 minutes does not establish that later action was legally absent.",
+          "No candidate or current-row information was supplied for comparison."
+        ]
+      },
+      "cell_adjudication": {
+        "record_id": "ga-lowndes-county-2026",
+        "input_row_sha256": "6e281aa9e4c6b21a6d4b2d347f288572df12ed450de64ef2398811bfe70042d5",
+        "field_decisions": [
+          {
+            "field": "duration",
+            "decision": "accept",
+            "value": "60 days (reported original term); the exact operative expiry date remains unverified.",
+            "source_id": "spectator",
+            "locator": "October 28, 2026 article, opening paragraph",
+            "reason": "The article reports a 60-day moratorium but does not establish its exact operative expiry date or authenticate the original instrument."
+          },
+          {
+            "field": "current_status",
+            "decision": "hold",
+            "value": "The Spectator reported on October 28, 2026 that the 60-day data-center moratorium had ended and that commissioners announced an upcoming draft ordinance at their October 27 meeting. The county published a draft notice on November 2; the linked document is labeled a draft, not an adopted replacement. The report anticipated public feedback on November 10 and a vote on December 8; those scheduled events do not establish completed actions. The original executed moratorium, exact expiry date, subsequent commission decisions and current legal force remain unverified.",
+            "source_id": "spectator; draft",
+            "locator": "Article opening and scheduling paragraphs; draft cover page",
+            "reason": "The reporting supports the historical ending and planned events, but a draft dated November 2 does not establish that the county published a draft notice on that date. The proposed field should be revised to describe the dated draft without asserting its publication."
+          },
+          {
+            "field": "outcome",
+            "decision": "hold",
+            "value": "Reported ended before the county published its November 2 draft data-center ordinance. Adoption and effectiveness of replacement regulations remain unverified.",
+            "source_id": "spectator; draft",
+            "locator": "Article opening paragraph; draft cover page",
+            "reason": "The article reports the moratorium had ended by October 28, and the draft is dated November 2. Neither source establishes when the county published the draft, so the proposed publication chronology is not fully supported."
+          },
+          {
+            "field": "enacted_status",
+            "decision": "accept",
+            "value": "expired",
+            "source_id": "spectator",
+            "locator": "October 28, 2026 article, headline and opening paragraph",
+            "reason": "Accepted as a recorded historical classification based on the article's explicit report that the 60-day moratorium had ended, not on a calculated expiry. The exact expiry, original instrument and present legal force remain unverified."
+          }
+        ],
+        "whole_record_closure_supported": false,
+        "remaining_questions": [
+          "What were the terms and operative dates of the executed moratorium?",
+          "When was the November 2 draft published?",
+          "Did the scheduled feedback session and vote occur, and were replacement regulations adopted or made effective?",
+          "What subsequent actions affect the present legal status?"
+        ],
+        "review_limitations": [
+          "Only the draft's cover page was supplied; it is not evidence of an adopted ordinance.",
+          "The supplied archive index does not capture 2026 commission minutes; that omission is not evidence that later action did not occur."
+        ]
+      }
+    },
+    "model_http_requests": 2,
+    "model": "gpt-6.1-terra",
+    "tools": [],
+    "agents_spawned": 0,
+    "price_usd": null
+  },
+  "publication_notice_one_request_followup": {
+    "input_manifest_sha256": "7cb4453f16d651295aa3b1487fb529223caa6b5cbbf9c232e11eea44f44a76fd",
+    "source_pins": [
+      {
+        "source_id": "spectator",
+        "url": "https://vsuspectator.com/2026/10/28/data-center-moratorium-ends-leaves-residents-with-concerns/",
+        "text_sha256": "318cb3c15c9cc91ba538d2e2730ee71c7c869362d72816fa701a25f0833579dd",
+        "role": "Retained complete newsroom article"
+      },
+      {
+        "source_id": "draft",
+        "url": "https://www.lowndescounty.com/DocumentCenter/View/4723/Lowndes-County-Data-Center-Ordinance-Draft",
+        "text_sha256": "8ee091903039d272f5548e3091504f01ca78965d4e3aa3e41cd58439ca2fa6bb",
+        "role": "Selected coverpage1of26 only"
+      },
+      {
+        "source_id": "notice",
+        "url": "https://www.lowndescounty.com/m/newsflash/Home/Detail/1367",
+        "text_sha256": "24627b816c733d7e6ca680cffad78aad4ad22afcf249b8e33db0e11b84779d26",
+        "role": "Retained official CountyClerk notice; PostedonNovember02,2026 header. Not ordinance adoption."
+      }
+    ],
+    "image_pins": [],
+    "candidate": {
+      "id": "ga-lowndes-county-2026",
+      "row_sha256": "6e281aa9e4c6b21a6d4b2d347f288572df12ed450de64ef2398811bfe70042d5",
+      "proposed_changes": [
+        {
+          "field": "duration",
+          "before": "60 days (to about 2026-10-24)",
+          "after": "60 days (reported original term); the exact operative expiry date remains unverified."
+        },
+        {
+          "field": "current_status",
+          "before": "Active as of 2026-09-23; 60-day moratorium adopted 2026-08-25 on data center permit applications in unincorporated Lowndes County, running to about 2026-10-24 while the county drafts an ordinance.",
+          "after": "The Spectator reported on October 28, 2026 that the 60-day data-center moratorium had ended and that commissioners announced an upcoming draft ordinance at their October 27 meeting. The county published a draft notice on November 2; the linked document is labeled a draft, not an adopted replacement. The report anticipated public feedback on November 10 and a vote on December 8; those scheduled events do not establish completed actions. The original executed moratorium, exact expiry date, subsequent commission decisions and current legal force remain unverified."
+        },
+        {
+          "field": "outcome",
+          "before": "Commissioners approved a 60-day moratorium on data center permit applications pending a comprehensive ordinance.",
+          "after": "Reported ended before the county published its November 2 draft data-center ordinance. Adoption and effectiveness of replacement regulations remain unverified."
+        },
+        {
+          "field": "enacted_status",
+          "before": "active",
+          "after": "expired"
+        }
+      ],
+      "scope": "Four proposed fields, including recorded active-to-expired classification based on explicit dated reporting, not arithmetic. Hold status if evidence is insufficient. No exact expiry date, original instrument authentication, replacement adoption/currentforce or whole-record closure inferred."
+    },
+    "captures": [
+      {
+        "stage": "publication_notice_adjudication",
+        "attempt_id": "78e49dcaa4e54dd7ba6a1d673839d8b4",
+        "descriptor_sha256": "1e4b74c8c359971ce0f0eb859e800bb063ac78167e513dfd3d0e39f49888eb94",
+        "wire_request_sha256": "694409d85c92d84277e1b6a38b4e1c11c7ae8700879ee42cf5571b9a2a1a91fa",
+        "wire_response_sha256": "08920d9378a95ecf9732f4829de15d42b6427f72d3de602897a56712a79b021f",
+        "actual_input_descriptor_matches": true,
+        "wire_sdk_output_matches_after_null_default_normalization": true,
+        "parsed_answer_matches": true,
+        "usage": {
+          "input_tokens": 3522,
+          "input_tokens_details": {
+            "cache_write_tokens": 3519,
+            "cached_tokens": 0
+          },
+          "output_tokens": 708,
+          "output_tokens_details": {
+            "reasoning_tokens": 118
+          },
+          "total_tokens": 4230
+        },
+        "all_selected_source_text_inputs_bound": true
+      }
+    ],
+    "answers": {
+      "publication_notice_adjudication": {
+        "record_id": "ga-lowndes-county-2026",
+        "input_row_sha256": "6e281aa9e4c6b21a6d4b2d347f288572df12ed450de64ef2398811bfe70042d5",
+        "field_decisions": [
+          {
+            "field": "current_status",
+            "decision": "accept",
+            "value": "The Spectator reported on October 28, 2026 that the 60-day data-center moratorium had ended and that commissioners announced an upcoming draft ordinance at their October 27 meeting. The county posted a notice titled \u201cLowndes County Data Center Ordinance Draft\u201d on November 2; a county document is labeled as a draft dated November 2, not an adopted replacement. The report anticipated public feedback on November 10 and a vote on December 8; those scheduled events do not establish completed actions. The original executed moratorium, exact expiry date, subsequent commission decisions and current legal force remain unverified.",
+            "source_id": "spectator; notice; draft",
+            "locator": "Article opening and scheduling paragraphs; County Clerk notice header; draft cover page",
+            "reason": "The official notice resolves the prior hold concerning publication of a draft notice on November 2. The revised wording does not assume that the supplied notice links to the draft or that the ordinance was adopted."
+          },
+          {
+            "field": "outcome",
+            "decision": "accept",
+            "value": "The moratorium was reported ended before the county posted a draft-ordinance notice on November 2. Adoption and effectiveness of replacement regulations remain unverified.",
+            "source_id": "spectator; notice; draft",
+            "locator": "Article opening paragraph; County Clerk notice header; draft cover page",
+            "reason": "The notice resolves the prior hold as to publication of a draft notice, but its header does not establish publication of the ordinance document itself. The value is revised accordingly."
+          }
+        ],
+        "whole_record_closure_supported": false,
+        "remaining_questions": [
+          "What were the terms and operative dates of the executed moratorium?",
+          "When was the draft ordinance document itself published?",
+          "Did the scheduled feedback session and vote occur, and were replacement regulations adopted or made effective?",
+          "What subsequent actions affect the present legal status?"
+        ],
+        "review_limitations": [
+          "Only the draft's cover page was supplied; it is not evidence of an adopted ordinance.",
+          "The retained notice header establishes the notice posting date but does not show a link to the draft document.",
+          "The supplied archive index does not capture 2026 commission minutes; that omission is not evidence that later action did not occur."
+        ]
+      }
+    },
+    "model_http_requests": 1,
+    "model": "gpt-6.1-terra",
+    "tools": [],
+    "agents_spawned": 0,
+    "price_usd": null
+  },
+  "original_holds_preserved": true,
+  "all_3_model_requests_completed": true,
+  "coordinator_whole_record_closure": false,
+  "final_field_decisions": [
+    {
+      "field": "duration",
+      "decision": "accept",
+      "value": "60 days (reported original term); the exact operative expiry date remains unverified.",
+      "source_id": "spectator",
+      "locator": "October 28, 2026 article, opening paragraph",
+      "reason": "The article reports a 60-day moratorium but does not establish its exact operative expiry date or authenticate the original instrument."
+    },
+    {
+      "field": "enacted_status",
+      "decision": "accept",
+      "value": "expired",
+      "source_id": "spectator",
+      "locator": "October 28, 2026 article, headline and opening paragraph",
+      "reason": "Accepted as a recorded historical classification based on the article's explicit report that the 60-day moratorium had ended, not on a calculated expiry. The exact expiry, original instrument and present legal force remain unverified."
+    },
+    {
+      "field": "current_status",
+      "decision": "accept",
+      "value": "The Spectator reported on October 28, 2026 that the 60-day data-center moratorium had ended and that commissioners announced an upcoming draft ordinance at their October 27 meeting. The county posted a notice titled \u201cLowndes County Data Center Ordinance Draft\u201d on November 2; a county document is labeled as a draft dated November 2, not an adopted replacement. The report anticipated public feedback on November 10 and a vote on December 8; those scheduled events do not establish completed actions. The original executed moratorium, exact expiry date, subsequent commission decisions and current legal force remain unverified.",
+      "source_id": "spectator; notice; draft",
+      "locator": "Article opening and scheduling paragraphs; County Clerk notice header; draft cover page",
+      "reason": "The official notice resolves the prior hold concerning publication of a draft notice on November 2. The revised wording does not assume that the supplied notice links to the draft or that the ordinance was adopted."
+    },
+    {
+      "field": "outcome",
+      "decision": "accept",
+      "value": "The moratorium was reported ended before the county posted a draft-ordinance notice on November 2. Adoption and effectiveness of replacement regulations remain unverified.",
+      "source_id": "spectator; notice; draft",
+      "locator": "Article opening paragraph; County Clerk notice header; draft cover page",
+      "reason": "The notice resolves the prior hold as to publication of a draft notice, but its header does not establish publication of the ordinance document itself. The value is revised accordingly."
+    }
+  ],
+  "coordinator_accepts_reviewer_revised_prose": true,
+  "price_usd": null,
+  "scope": "Original hold concerned omitted publication notice in reviewer bundle; distinct one-request followup adds already retained official notice. No reset/retry of exhausted phase. Selected draft cover only, no full law or original minutes authentication."
+}
