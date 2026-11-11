@@ -1,0 +1,135 @@
+{
+  "verified_at": "2026-11-11T06:46:10.525468+00:00",
+  "baseline_commit": "3586ab62cb3adaa7e133ed3fb1ee3ba12d451e48",
+  "changed_cells": 5,
+  "changed_local_rows": 1,
+  "field_changes": [
+    {
+      "id": "md-baltimore-county-2026",
+      "field": "duration",
+      "before": "Until 2027-12-31, per Council Bill 79-26 (final reading and unanimous vote 2026-09-22), which repealed and re-enacted Section 2 of Bill 3-26 to extend the suspension from its original 'earlier of 2027-01-01 or 90 days after the Planning Board's report' endpoint to a flat 2027-12-31.",
+      "after": "Bill 79-26 replaces the original earlier-of-January-1-2027-or-90-days-after-report condition with December 31, 2027. Its completed disposition page records enactment on September 28, 2026 and effectiveness on October 12, 2026. Later changes and present legal force remain unverified."
+    },
+    {
+      "id": "md-baltimore-county-2026",
+      "field": "legal_basis",
+      "before": "Bill 3-26 (Zoning Regulations - Data Center Study), as extended by Bill 79-26 (Data Centers - Extension of Temporary Controls Enacted Under Bill 3-26), introduced 2026-08-03 and adopted unanimously on final reading 2026-09-22, taking effect 14 days after enactment per its own terms.",
+      "after": "Bill 3-26, Section 2, was repealed and re-enacted with amendments by Bill 79-26, which is dated August 3, 2026. The retained bill includes a completed disposition page marked PASSED, with enactment September 28 and effectiveness October 12, 2026. Section 2 of Bill 79-26 states that, having been passed by the affirmative vote of five councilmembers, the Act takes effect 14 days after enactment."
+    },
+    {
+      "id": "md-baltimore-county-2026",
+      "field": "current_status",
+      "before": "Active as of 2026-09-23; extended through 2027-12-31 by Bill 79-26, passed unanimously by the County Council on 2026-09-22. The Planning Board approved its final Data Center Study Report on 2026-09-17 (following a contentious 2026-09-03 public hearing); Council Chairman Mike Ertel said the Council had received the report but had not yet reviewed it as of the extension vote.",
+      "after": "The retained Bill 79-26 disposition page marks the bill PASSED, records enactment September 28, 2026 and effectiveness October 12, 2026, and shows seven checked aye boxes and no checked nay boxes in the bill roll call. Its text sets December 31, 2027 as the suspension endpoint. These historical records do not establish subsequent amendments, termination, actual project applicability or present legal force."
+    },
+    {
+      "id": "md-baltimore-county-2026",
+      "field": "affected_projects",
+      "before": "Countywide suspension on accepting or approving development plans, zoning petitions, permits, and other approvals for data centers",
+      "after": "The authority to issue or grant a permit for a data center is suspended. County agencies and departments, including the Department of Permits, Approvals, and Inspections, may not approve a development plan or zoning petition regarding a data center, including an application for a permit regarding a data center."
+    },
+    {
+      "id": "md-baltimore-county-2026",
+      "field": "outcome",
+      "before": "The Planning Board approved its 51-page Data Center Study Report on 2026-09-17, ahead of its 2026-10-01 deadline, after a public hearing on 2026-09-03, according to prior reporting. Before the original moratorium\u2019s alternative end conditions (2027-01-01 or 90 days after submission of the report), WYPR and CBS reported the Council unanimously passed Bill 79-26 on 2026-09-22, extending the suspension on data-center permitting and approvals through 2027-12-31. The retained bill copy has an unfilled disposition block; the final signed instrument or official disposition remains to be verified.",
+      "after": "Bill 79-26 is marked PASSED with NO amendments on its completed disposition page. Seven aye boxes and no nay boxes are checked in the bill roll call; the page records enactment September 28 and effectiveness October 12, 2026. This bill copy does not establish later legal developments or current force."
+    }
+  ],
+  "status_category_changes": 0,
+  "normalized_date_changes": 0,
+  "normalized_endpoint_changes": 0,
+  "numeric_original_duration_changes": 0,
+  "headline_count_changes": 0,
+  "identity_or_scope_changes": 0,
+  "native_governance_changes": 0,
+  "whole_record_closures": 0,
+  "unresolved_legacy_records": 1347,
+  "changed_queue_records": [
+    "co-fremont-county-unincorporated-2024",
+    "ia-linn-county-2026",
+    "il-city-of-effingham-2026",
+    "il-rockford-2026",
+    "md-baltimore-county-2026"
+  ],
+  "other_1342_queue_records_identical": true,
+  "map_changed_fields": [
+    "duration"
+  ],
+  "new_source_network_requests": 0,
+  "new_source_captures": 0,
+  "model_http_requests": 3,
+  "bound_original_images_per_request": 3,
+  "original_baltimore_bytes_and_capture_time_unchanged": true,
+  "new_manifest_extraction_variants": 1,
+  "restored_existing_body_paths": 1,
+  "fremont_manifest_unchanged": true,
+  "exact_retained_source_pairs_read_back": 5,
+  "native_readback_gaps": 0,
+  "checks": [
+    {
+      "command": [
+        "scripts/validate_dataset.py",
+        "--today",
+        "2026-11-11"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/build_policy_scope_exports.py",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/build_summary_stats.py",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/build_geojson.py",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/make_timeline.py",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/check_docs_numbers.py"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "-m",
+        "scripts.generate_tables.inventory_clean",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/build_index.py",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/classify_sources.py",
+        "--check"
+      ],
+      "returncode": 0
+    }
+  ],
+  "delivery_state": "Five Baltimore working-data corrections await next synchronized batch; v2026.11.11/V34 remains delivered. Broader QA active."
+}

@@ -4,6 +4,8 @@
 
 **Reviewed corrections:** Signed Mendocino Ordinances 4561 and 4562 establish historical adoption, votes, terms and literal threshold wording. Intended scope, later force and actual applicability remain qualified. Counts, categories, normalized dates and native history are unchanged. [Exact delta](work/research/2026-11-11/release-2026.11.11/dataset-delta.json).
 
+**Working QA update:** Five reviewed Baltimore County prose corrections recover the retained bill’s completed disposition and precise permit-approval scope. They await the next synchronized batch; v2026.11.11/V34 remains the delivered edition. [Review and remaining questions](work/research/2026-11-11/post-release-qa/baltimore-completed-form-review.md).
+
 **Reviewed correction:** Bonney Lake is classified as replaced with an October 13 end date. Four fields are corrected. [Release/download/V30 checks](work/research/2026-11-10/release-2026.11.10.post15/README.md) are verified; the complete website and updated Bonney Lake entry pass desktop/mobile and byte checks.
 
 **Published post14 patch:** Four Kentucky incentive fields clarified using current compiled provisions. The public dashboard now has generated local-status and ballot-certification charts and tables, accurate policy-form counts and refreshed current state pages/maps. No status category changes or whole-record closures. [Release downloads, restore and V29 delivery](work/research/2026-11-10/release-2026.11.10.post14/README.md) are verified. The live dashboard, all 50 state pages, charts, tables and current downloads are verified on desktop and mobile.

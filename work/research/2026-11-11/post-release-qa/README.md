@@ -1,5 +1,7 @@
 # November 11 source follow-ups
 
+Working QA update: [five Baltimore County completed-form corrections](baltimore-completed-form-review.md) await the next synchronized batch. This offline audit used retained bytes; the latest delivered edition remains v2026.11.11/V34.
+
 Latest delivery: [four Mendocino signed-instrument corrections](mendocino-signed-review.md) are synchronized in qualified v2026.11.11, consumer V34 and verified public pages. Counts and categories are unchanged.
 
 At the initial Hueytown/Salisbury checkpoint, post18/V33 was the delivered edition. The initial Hueytown/Salisbury source-only batch

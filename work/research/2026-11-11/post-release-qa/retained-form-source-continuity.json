@@ -1,0 +1,74 @@
+{
+  "manifest_sha256": {
+    "work/sources/CO/manifest.jsonl": "9e5875dbff22c22644bda6a6c9776ea166698575b3ddda39762cc2e29303c9fb",
+    "work/sources/MD/manifest.jsonl": "c60aac9bb739b8a8addb62fd9ee730fe60abf41a3e92c2d0c79dedf8a69ce9b0"
+  },
+  "record_count": 2,
+  "eligible_verified_body_records": 2,
+  "gap_records": 0,
+  "issue_counts": {},
+  "migrated_records": 2,
+  "records": [
+    {
+      "manifest": "work/sources/CO/manifest.jsonl",
+      "line": 64,
+      "legacy_key": "b64d5d11aa3b71db",
+      "row_sha256": "eca19dc5f3a9cd46f6c3c4ef17342cbace24d3a083d2e43c9578628cd3237d1d",
+      "url": "https://fremontcountyco.gov/sites/default/files/9.6_1041_Moratorium_Resolution.pdf",
+      "original_body_sha256": "b985a67c74d3c8f6334594ba8567498aaeaebcd64178cd71380f1e60490591a5",
+      "original_text_sha256": null,
+      "fetched_at": "2026-09-23T14:26:22+00:00",
+      "published": true,
+      "payload": {
+        "path": "work/sources/CO/b64d5d11aa3b71db.pdf",
+        "sha256": "b985a67c74d3c8f6334594ba8567498aaeaebcd64178cd71380f1e60490591a5",
+        "bytes": 78875
+      },
+      "text": {
+        "path": "work/sources/CO/b64d5d11aa3b71db.txt",
+        "sha256": "89984a2b276c76d00adc766e53332872c7e3f0edcd735f370212f26fe591ebc1",
+        "bytes": 6275
+      },
+      "missing_files": [],
+      "issues": [],
+      "observation_id": "873bc680ca7ea7a9",
+      "metadata_derivation_id": "27df3e09be900ce5",
+      "text_derivation_id": "7edee026d0c6079a"
+    },
+    {
+      "manifest": "work/sources/MD/manifest.jsonl",
+      "line": 177,
+      "legacy_key": "9afa75c903934cff-d8be5119ab9d-99850726d375",
+      "row_sha256": "5ef4291fceba6c347b79d777a942dbbeaa6eb10a21ca70dda09809a13320a882",
+      "url": "https://countycouncilweb.s3.amazonaws.com/Bills%202026/b07926.pdf",
+      "original_body_sha256": "d8be5119ab9da71395932ddeae6c09cfbc7c89ce00c4900a5f1fbe2e5ca5e33e",
+      "original_text_sha256": "99850726d375eb6af8d64a8dfa8d958c17e88699d83a2559addff31e3e28f850",
+      "fetched_at": "2026-11-05T19:58:51.058324+00:00",
+      "published": false,
+      "payload": {
+        "path": "work/sources/MD/9afa75c903934cff-d8be5119ab9d-99850726d375.pdf",
+        "sha256": "d8be5119ab9da71395932ddeae6c09cfbc7c89ce00c4900a5f1fbe2e5ca5e33e",
+        "bytes": 499769
+      },
+      "text": {
+        "path": "work/sources/MD/9afa75c903934cff-d8be5119ab9d-99850726d375.txt",
+        "sha256": "99850726d375eb6af8d64a8dfa8d958c17e88699d83a2559addff31e3e28f850",
+        "bytes": 6753
+      },
+      "missing_files": [],
+      "issues": [],
+      "observation_id": "1e9457a577c852e9",
+      "metadata_derivation_id": "977beeb25040f5ee",
+      "text_derivation_id": "5efdde2099eedeed"
+    }
+  ],
+  "scope": "Offline replay only. The Baltimore body was already archived; one new augmented AcroForm text variant shares the same body, URL and capture timestamp. Original captured text is unchanged. Exact matching Fremont bytes restore an ignored indexed path without changing its manifest/date/publication flag/text. Neither is new acquisition or independent confirmation of original capture timing. No legal/current-force acceptance from bridge.",
+  "exact_body_text_pairs_read_back": 2,
+  "new_network_requests": 0,
+  "new_retrieval_events": 0,
+  "added_manifest_extraction_variants": 1,
+  "restored_existing_body_paths": 1,
+  "original_md_capture_text_and_ledger_not_rewritten": true,
+  "original_co_manifest_unchanged": true,
+  "original_fremont_publication_flag_preserved": true
+}

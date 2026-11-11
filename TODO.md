@@ -934,3 +934,7 @@ Exit: repeatable refresh with visible freshness, costs, failures and unresolved 
 
 - [x] Deliver qualified v2026.11.11 and V34: four Mendocino prose corrections, deterministic builds, clean restore, ten anonymous downloads and exact consumer checks verified.
 - [x] Deploy and verify complete November 11 Pages payload: 8,458 files, 49 native generations, 64 HTML pages, 232 resources/downloads and a second actual final desktop/mobile browser run. Mendocino signed prose/map popup and current downloads pass. Broader QA remains active.
+
+- [x] Audit the seven-row retained unsigned/finality subset: five PDFs rendered, nine selected images inspected, Baltimore independently reviewed, Coweta's two-row prior check reused. Restore Fremont's exact missing body path and native-read back five pairs without source-acquisition calls.
+- [x] Apply five independently accepted Baltimore County prose corrections from populated disposition widgets; preserve the initially held legal-basis proposal and accept its narrower reviewed replacement. Keep original normalized dates/status/endpoint and all whole-record holds unchanged.
+- [ ] Include the five Baltimore corrections in the next synchronized release/consumer/Pages batch after further reviewed corrections accumulate; v2026.11.11/V34 remains delivered.

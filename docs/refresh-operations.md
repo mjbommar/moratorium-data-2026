@@ -577,3 +577,8 @@ The [post9 diagnostic](../work/research/2026-11-10/release-2026.11.10.post9/host
 ## Qualified post13 / V28 delivery
 
 Source `e515dec956c011e36ff71f57f380b4298d652f0c` and consumer `a9934c94ec5a4e694dfa5ad4ec59565f5db5c2bc` are pinned in the [release receipt](../work/research/2026-11-10/release-2026.11.10.post13/README.md). Eighteen fields across four records corrected; native history and headline numerical summary unchanged. The HB0325 sponsor subquestion is resolved, but scope/mechanism questions keep its disposition unresolved. There are still 1,347 unresolved legacy reviews. Website synchronization remains held; `latest_verified_release` remains post7 while `latest_download_verified_release` is post13. No identical deployment retry was launched.
+
+
+### Retained PDF form and signature appearances
+
+The [November 11 retained-form review](../work/research/2026-11-11/post-release-qa/baltimore-completed-form-review.md) corrects Baltimore County's supposedly blank disposition using the original three-page PDF, rendered widget appearances and a `mutool show form` dump. Five exact prose cells are independently accepted and await the next synchronized batch. No new source was fetched, and a completed disposition is not described as a wet signature. Four other retained PDFs keep their visually blank/draft findings; Coweta's earlier visual receipt is reused. The audit covers seven named queue rows and does not certify current legal force. Original extraction bytes and capture dates remain immutable; augmented text has its own derivation.

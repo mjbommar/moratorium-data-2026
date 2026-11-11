@@ -140,3 +140,14 @@ It verifies snapshot, native input, current-result and prior-review pins, retain
 all original obligations, and gates only the named certification lookups on
 distinct evidence. Other tasks require a prior-work check; they are not assumed
 unresearched. See `work/research/2026-11-10/ballot-followup-operator-plan/README.md`.
+
+
+PDF finality checks must compare page images with extracted text. Populated
+AcroForm widgets and graphical signatures can be absent from `pdftotext` output.
+For a retained PDF, render the relevant pages with `pdftoppm` and record the body
+and image hashes; use `mutool show SOURCE.pdf form` to inspect stored widget
+values. Compare field values with their actual page labels and visible states,
+since stored values alone do not prove appearance, execution or legal force.
+Retain original text unchanged and register any augmented form-field extraction
+as a separate derivation; never invent a fresh acquisition date. The Baltimore
+79-26 review under `work/research/2026-11-11/post-release-qa/` records this case.

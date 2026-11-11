@@ -31,7 +31,7 @@
   "record_disposition_path": "work/research/2026-11-08/full-record-dispositions/funnel.json",
   "qa_status": "ongoing",
   "publication_authorization": "publish current state with qualifications on pending QA, then continue to double check and clear the outstanding questions",
-  "working_revision": "2026.11.11-data-consumer-and-site-verified",
+  "working_revision": "baltimore-completed-form-five-fields-pending-batch",
   "current_raw_counts": {
     "local": 1328,
     "state_policy": 449,
@@ -79,7 +79,7 @@
     "delivery_receipt": "work/research/2026-11-11/post-release-qa/consumer-v34-handoff.json",
     "hosted_copy_state": "verified"
   },
-  "latest_source_followup": "work/research/2026-11-11/post-release-qa/california-operative-recovery.json",
+  "latest_source_followup": "work/research/2026-11-11/post-release-qa/retained-finality-audit.json",
   "latest_expanded_candidate_review": "work/research/2026-11-09/starke-succession-review/validation.json",
   "latest_expanded_publication": {
     "generation_id": "3ce33d22288fa7bc7100c9ac621c041037702e8370af1e663d53a548ff794725",
@@ -123,7 +123,7 @@
     "delivery_receipt": "work/research/2026-11-10/post-release-qa/consumer-v33-handoff.json",
     "hosted_copy_state": "verified"
   },
-  "latest_field_application": "work/research/2026-11-11/post-release-qa/mendocino-signed-application.json",
+  "latest_field_application": "work/research/2026-11-11/post-release-qa/baltimore-completed-form-application.json",
   "latest_hosted_delivery": {
     "source_commit": "b921cf586bb0699565e36303a8d408f4e0fe9c3b",
     "hosted_source_commit": "2e93d580f4464ff302e6eb171fe5ddcf34979458",
@@ -253,5 +253,20 @@
     "receipt": "work/research/2026-11-10/release-2026.11.10.post18/hosted-copy-verification.json",
     "scope": "Every generated current HTML page, linked local resources, figures/current downloads and desktop/mobile map/table behavior verified. Corrected Ridgely/Worcester/Massachusetts text verified. Complete uploaded historical payload is checked separately on final acknowledgment deployment; no universal legal-force or freshness claim."
   },
-  "latest_independent_record_review": "work/research/2026-11-11/post-release-qa/mendocino-signed-application.json"
+  "latest_independent_record_review": "work/research/2026-11-11/post-release-qa/baltimore-completed-form-application.json",
+  "pending_consumer_input_delta": {
+    "baseline_release": "v2026.11.11",
+    "baseline_source_commit": "b921cf586bb0699565e36303a8d408f4e0fe9c3b",
+    "baseline_handoff": "V34",
+    "receipt": "work/research/2026-11-11/post-release-qa/baltimore-completed-form-application.json",
+    "receipts": [
+      "work/research/2026-11-11/post-release-qa/baltimore-completed-form-application.json"
+    ],
+    "changed_cells": 5,
+    "changed_local_rows": 1,
+    "changed_policy_rows": 0,
+    "status_category_changes": 0,
+    "normalized_date_changes": 0,
+    "scope": "Five independently accepted Baltimore prose corrections from a retained completed disposition and precise approvals/issuance language. No new source capture, categories/dates/counts/native changes or closures. Accumulate further reviewed corrections before the next synchronized release batch; v2026.11.11/V34 remains delivered."
+  }
 }

@@ -1,0 +1,370 @@
+{
+  "reviewed_at": "2026-11-11T06:29:33.468063+00:00",
+  "record_id": "md-baltimore-county-2026",
+  "input_row_sha256": "13a91a60ff281c8c53c0cbd48c1690e1b25eac8dd068cbe950f3a15c26c4828f",
+  "model": "gpt-6.1-terra",
+  "tools": [],
+  "agents_spawned": 0,
+  "phases": [
+    {
+      "input_manifest_sha256": "019d7c61b0be5146272713a34c32c7e9a5f5a1f3b6b0932638a15cbd85419f47",
+      "source_pins": [
+        {
+          "url": "https://countycouncilweb.s3.amazonaws.com/Bills%202026/b07926.pdf",
+          "body_sha256": "d8be5119ab9da71395932ddeae6c09cfbc7c89ce00c4900a5f1fbe2e5ca5e33e",
+          "captured_at": "2026-11-05T19:58:51.058324+00:00",
+          "source_id": "retained-8f1218b41b5a4c6d837482ee2fe15dcb",
+          "layout_sha256": "7cfd9e0021b1bf105e1ee735eb0c09001eefc2fa2655b73f504f3f2e11171f2b",
+          "form_field_dump_sha256": "afc98fdc6e1f346f31c1e789caa425c04285bc4204f0e94db3a7d3db0930f082",
+          "physical_pages": [
+            1,
+            2,
+            3
+          ],
+          "scope": "Exact retained November5PDF, complete3page layout and images. Mutool form dump corroborates widget values omitted by text extraction. No new acquisition, fresh source version or date."
+        }
+      ],
+      "image_pins": [
+        {
+          "source_id": "retained-8f1218b41b5a4c6d837482ee2fe15dcb",
+          "physical_page": 1,
+          "sha256": "08244eb75b11feea0cb01eada92fd0dfb74f5bedc31247711eb4e898cf69f6c5"
+        },
+        {
+          "source_id": "retained-8f1218b41b5a4c6d837482ee2fe15dcb",
+          "physical_page": 2,
+          "sha256": "e9090a6bcd828517901654dba519022a5f0e75c39c191144ddce0ee02142e4c7"
+        },
+        {
+          "source_id": "retained-8f1218b41b5a4c6d837482ee2fe15dcb",
+          "physical_page": 3,
+          "sha256": "8f12dcf0df79cd170f4260ca5d7bab0f39cc5d2061d37a6e231e3b835f34bc44"
+        }
+      ],
+      "candidate": {
+        "id": "md-baltimore-county-2026",
+        "row_sha256": "13a91a60ff281c8c53c0cbd48c1690e1b25eac8dd068cbe950f3a15c26c4828f",
+        "proposed_changes": [
+          {
+            "field": "duration",
+            "before": "Until 2027-12-31, per Council Bill 79-26 (final reading and unanimous vote 2026-09-22), which repealed and re-enacted Section 2 of Bill 3-26 to extend the suspension from its original 'earlier of 2027-01-01 or 90 days after the Planning Board's report' endpoint to a flat 2027-12-31.",
+            "after": "Bill 79-26 replaces the original earlier-of-January-1-2027-or-90-days-after-report condition with December 31, 2027. Its completed disposition page records enactment on September 28, 2026 and effectiveness on October 12, 2026. Later changes and present legal force remain unverified."
+          },
+          {
+            "field": "legal_basis",
+            "before": "Bill 3-26 (Zoning Regulations - Data Center Study), as extended by Bill 79-26 (Data Centers - Extension of Temporary Controls Enacted Under Bill 3-26), introduced 2026-08-03 and adopted unanimously on final reading 2026-09-22, taking effect 14 days after enactment per its own terms.",
+            "after": "Bill 3-26, section 2, repealed and re-enacted with amendments by Bill 79-26, introduced August 3, 2026. The retained bill includes a completed disposition page marked PASSED, with enactment September 28 and effectiveness October 12, 2026. Section 2 of Bill 79-26 specifies effect fourteen days after enactment when passed by five affirmative council votes."
+          },
+          {
+            "field": "current_status",
+            "before": "Active as of 2026-09-23; extended through 2027-12-31 by Bill 79-26, passed unanimously by the County Council on 2026-09-22. The Planning Board approved its final Data Center Study Report on 2026-09-17 (following a contentious 2026-09-03 public hearing); Council Chairman Mike Ertel said the Council had received the report but had not yet reviewed it as of the extension vote.",
+            "after": "The retained Bill 79-26 disposition page marks the bill PASSED, records enactment September 28, 2026 and effectiveness October 12, 2026, and shows seven checked aye boxes and no checked nay boxes in the bill roll call. Its text sets December 31, 2027 as the suspension endpoint. These historical records do not establish subsequent amendments, termination, actual project applicability or present legal force."
+          },
+          {
+            "field": "affected_projects",
+            "before": "Countywide suspension on accepting or approving development plans, zoning petitions, permits, and other approvals for data centers",
+            "after": "The authority to issue or grant a permit for a data center is suspended. County agencies and departments, including the Department of Permits, Approvals, and Inspections, may not approve a development plan or zoning petition regarding a data center, including an application for a permit regarding a data center."
+          },
+          {
+            "field": "outcome",
+            "before": "The Planning Board approved its 51-page Data Center Study Report on 2026-09-17, ahead of its 2026-10-01 deadline, after a public hearing on 2026-09-03, according to prior reporting. Before the original moratorium\u2019s alternative end conditions (2027-01-01 or 90 days after submission of the report), WYPR and CBS reported the Council unanimously passed Bill 79-26 on 2026-09-22, extending the suspension on data-center permitting and approvals through 2027-12-31. The retained bill copy has an unfilled disposition block; the final signed instrument or official disposition remains to be verified.",
+            "after": "Bill 79-26 is marked PASSED with NO amendments on its completed disposition page. Seven aye boxes and no nay boxes are checked in the bill roll call; the page records enactment September 28 and effectiveness October 12, 2026. This bill copy does not establish later legal developments or current force."
+          }
+        ]
+      },
+      "captures": [
+        {
+          "stage": "blind_extraction",
+          "attempt_id": "8758a5277b4148f38ea500fbfeb572ec",
+          "descriptor_sha256": "1d6e2b7d3a809bc35ce0af4a04a42c5a8866b53b1e040ba7c5483e7ef5e43676",
+          "wire_request_sha256": "b2b8175bd1f6509a24f254563bc65d08eca5989fde990317f5228fa030a3b158",
+          "wire_response_sha256": "ae67dfdfc3d6e1340683a4d249efb704297b2fcfdaa7c8cb110b74a9a54dd968",
+          "all_three_page_images_bound": true,
+          "actual_input_descriptor_matches": true,
+          "wire_sdk_output_matches_after_null_default_normalization": true,
+          "parsed_answer_matches": true,
+          "usage": {
+            "input_tokens": 7029,
+            "input_tokens_details": {
+              "cache_write_tokens": 7026,
+              "cached_tokens": 0
+            },
+            "output_tokens": 1568,
+            "output_tokens_details": {
+              "reasoning_tokens": 133
+            },
+            "total_tokens": 8597
+          }
+        },
+        {
+          "stage": "cell_adjudication",
+          "attempt_id": "122f832f174844b2a00beab3cbc33e10",
+          "descriptor_sha256": "a0a18cc3f582bd2b8bfd60574bae95a24c41b5d6b498bde8b986df698cb6f0f5",
+          "wire_request_sha256": "5e4cb39577412258470b103a222466a2d6d2031f4de12eca414c181c85492150",
+          "wire_response_sha256": "d01a46db4b12d62d9158fe5088e150202562f9e1ad5023303c2229d55e60ea47",
+          "all_three_page_images_bound": true,
+          "actual_input_descriptor_matches": true,
+          "wire_sdk_output_matches_after_null_default_normalization": true,
+          "parsed_answer_matches": true,
+          "usage": {
+            "input_tokens": 10095,
+            "input_tokens_details": {
+              "cache_write_tokens": 10092,
+              "cached_tokens": 0
+            },
+            "output_tokens": 1983,
+            "output_tokens_details": {
+              "reasoning_tokens": 813
+            },
+            "total_tokens": 12078
+          }
+        }
+      ],
+      "answers": {
+        "blind_extraction": {
+          "facts": [
+            {
+              "field": "legislation",
+              "value": "Baltimore County Bill 79-26, Data Centers \u2013 Extension of Temporary Controls Enacted Under Bill 3-26; by all councilmembers, dated August 3, 2026.",
+              "source_id": "retained-8f1218b41b5a4c6d837482ee2fe15dcb",
+              "locator": "Page 1",
+              "supporting_quote": "Bill No. 79-26 ... All Councilmembers ... By the County Council, August 3, 2026"
+            },
+            {
+              "field": "amended_law",
+              "value": "Bill 79-26 repeals and re-enacts, with amendments, Section 2 of the earlier Bill 3-26.",
+              "source_id": "retained-8f1218b41b5a4c6d837482ee2fe15dcb",
+              "locator": "Page 1, BY clause",
+              "supporting_quote": "repealing and re-enacting, with amendments Section 2 of Bill 3-26"
+            },
+            {
+              "field": "suspended_authority",
+              "value": "The authority to issue or grant a permit for a data center is suspended.",
+              "source_id": "retained-8f1218b41b5a4c6d837482ee2fe15dcb",
+              "locator": "Page 2, lines 9\u201310",
+              "supporting_quote": "the authority to issue or grant a permit for a data center is hereby suspended"
+            },
+            {
+              "field": "prohibited_approvals",
+              "value": "County agencies and departments, including Permits, Approvals, and Inspections, may not approve data-center development plans or zoning petitions, including applications for data-center permits. The text addresses approval, not merely acceptance of applications.",
+              "source_id": "retained-8f1218b41b5a4c6d837482ee2fe15dcb",
+              "locator": "Page 2, lines 10\u201313",
+              "supporting_quote": "a County agency or department, including the Department of Permits, Approvals, and Inspections, may not approve any development plan or zoning petition regarding a data center, including an application for any permit regarding a data center"
+            },
+            {
+              "field": "end_condition",
+              "value": "The amendment replaces the earlier-of condition\u2014January 1, 2027, or 90 days after the Planning Board submits its report and recommendations\u2014with a fixed end condition of until December 31, 2027.",
+              "source_id": "retained-8f1218b41b5a4c6d837482ee2fe15dcb",
+              "locator": "Page 2, lines 6\u20139",
+              "supporting_quote": "until [either January 1, 2027 or 90 days after the Planning Board submits its report and recommendations to the County Council under Section 3 of this Act, whichever is earlier:] DECEMBER 31, 2027"
+            },
+            {
+              "field": "disposition",
+              "value": "The completed legislation-detail form records Bill 79-26 as passed. It is a disposition form, not an autograph or certification.",
+              "source_id": "retained-8f1218b41b5a4c6d837482ee2fe15dcb",
+              "locator": "Page 3, legislation-detail form; raw text fields 241\u2013242",
+              "supporting_quote": "LEGISLATION BILLS 79-26; DISPOSITION PASSED"
+            },
+            {
+              "field": "enactment_and_effective_dates",
+              "value": "The form records this extension as enacted September 28, 2026, and effective October 12, 2026.",
+              "source_id": "retained-8f1218b41b5a4c6d837482ee2fe15dcb",
+              "locator": "Page 3, legislation-detail form; raw text fields 243\u2013244",
+              "supporting_quote": "ENACTED 09/28/26; EFFECTIVE 10/12/26"
+            },
+            {
+              "field": "stated_effective_date_contingency",
+              "value": "The Act states that, having been passed by the affirmative vote of five councilmembers, it takes effect 14 days after enactment.",
+              "source_id": "retained-8f1218b41b5a4c6d837482ee2fe15dcb",
+              "locator": "Page 2, lines 17\u201319",
+              "supporting_quote": "this Act, having been passed by the affirmative vote of five members of the County Council, shall take effect 14 days from the date of its enactment"
+            },
+            {
+              "field": "bill_roll_call",
+              "value": "Seven aye boxes and no nay boxes are checked: Young, Patoka, Mangione, Jones, Marks, Ertel, and Crandell. Patoka made the motion and Marks seconded it.",
+              "source_id": "retained-8f1218b41b5a4c6d837482ee2fe15dcb",
+              "locator": "Page 3, ROLL CALL - BILL; raw checkbox fields 246\u2013259 and text fields 302\u2013303",
+              "supporting_quote": "MOTION PATOKA SECOND MARKS; AYE ... Councilman Young ... Councilman Patoka ... Councilman Mangione ... Councilman Jones ... Councilman Marks ... Councilman Ertel ... Councilman Crandell"
+            },
+            {
+              "field": "amendments_to_bill_79_26",
+              "value": "The disposition form records no amendments to Bill 79-26, although the bill itself amends Section 2 of Bill 3-26. The amendment roll-call boxes are blank.",
+              "source_id": "retained-8f1218b41b5a4c6d837482ee2fe15dcb",
+              "locator": "Page 3, AMENDMENTS and amendment roll-call sections",
+              "supporting_quote": "AMENDMENTS NO"
+            }
+          ],
+          "uncertainties": [
+            "The retained PDF does not state the date of the council roll-call vote; the September 28 date is labeled enactment and should not be treated as the vote date.",
+            "The source does not establish whether any later legislation changed the controls or whether they remained in force after the recorded effective date."
+          ]
+        },
+        "cell_adjudication": {
+          "record_id": "md-baltimore-county-2026",
+          "input_row_sha256": "13a91a60ff281c8c53c0cbd48c1690e1b25eac8dd068cbe950f3a15c26c4828f",
+          "field_decisions": [
+            {
+              "field": "duration",
+              "decision": "accept",
+              "value": "Bill 79-26 replaces the original earlier-of-January-1-2027-or-90-days-after-report condition with December 31, 2027. Its completed disposition page records enactment on September 28, 2026 and effectiveness on October 12, 2026. Later changes and present legal force remain unverified.",
+              "source_id": "retained-8f1218b41b5a4c6d837482ee2fe15dcb",
+              "locator": "Page 2, lines 6\u20139; page 3, legislation detail",
+              "reason": "The amended endpoint and recorded enactment and effective dates are supported; the later-force limitation is appropriate."
+            },
+            {
+              "field": "legal_basis",
+              "decision": "hold",
+              "value": "Bill 3-26, Section 2, was repealed and re-enacted with amendments by Bill 79-26, which is dated August 3, 2026. The retained bill includes a completed disposition page marked PASSED, with enactment September 28 and effectiveness October 12, 2026. Section 2 of Bill 79-26 states that, having been passed by the affirmative vote of five councilmembers, the Act takes effect 14 days after enactment.",
+              "source_id": "retained-8f1218b41b5a4c6d837482ee2fe15dcb",
+              "locator": "Page 1, header and BY clause; page 2, lines 17\u201319; page 3, legislation detail",
+              "reason": "The header dates the bill August 3 but does not expressly label that the introduction date. The correction also preserves the Act's retrospective wording about five affirmative votes rather than presenting it as a condition."
+            },
+            {
+              "field": "current_status",
+              "decision": "accept",
+              "value": "The retained Bill 79-26 disposition page marks the bill PASSED, records enactment September 28, 2026 and effectiveness October 12, 2026, and shows seven checked aye boxes and no checked nay boxes in the bill roll call. Its text sets December 31, 2027 as the suspension endpoint. These historical records do not establish subsequent amendments, termination, actual project applicability or present legal force.",
+              "source_id": "retained-8f1218b41b5a4c6d837482ee2fe15dcb",
+              "locator": "Page 2, lines 6\u201313; page 3, legislation detail and bill roll call",
+              "reason": "The disposition, dates, roll call and stated endpoint are supported without asserting later legal force."
+            },
+            {
+              "field": "affected_projects",
+              "decision": "accept",
+              "value": "The authority to issue or grant a permit for a data center is suspended. County agencies and departments, including the Department of Permits, Approvals, and Inspections, may not approve a development plan or zoning petition regarding a data center, including an application for a permit regarding a data center.",
+              "source_id": "retained-8f1218b41b5a4c6d837482ee2fe15dcb",
+              "locator": "Page 2, lines 9\u201313",
+              "reason": "The wording tracks the permit-issuance suspension and approval restrictions without asserting a blanket prohibition on accepting applications."
+            },
+            {
+              "field": "outcome",
+              "decision": "accept",
+              "value": "Bill 79-26 is marked PASSED with NO amendments on its completed disposition page. Seven aye boxes and no nay boxes are checked in the bill roll call; the page records enactment September 28 and effectiveness October 12, 2026. This bill copy does not establish later legal developments or current force.",
+              "source_id": "retained-8f1218b41b5a4c6d837482ee2fe15dcb",
+              "locator": "Page 3, legislation detail and bill roll call",
+              "reason": "The completed disposition page supports the stated historical facts; it does not establish later force."
+            }
+          ],
+          "whole_record_closure_supported": false,
+          "remaining_questions": [
+            "Was August 3, 2026 the bill's introduction date?",
+            "When did the council roll-call vote occur?",
+            "Did later legislation or other developments change or terminate the controls?",
+            "Can the prior reporting and Planning Board Study Report facts be independently verified?"
+          ],
+          "review_limitations": [
+            "Review is limited to the retained three-page PDF, supplied page images and form-field dump; no new source was acquired.",
+            "The original February 2 date, normalized duration, end date, status and IDs were unchanged and not newly reviewed.",
+            "Prior reporting and Study Report facts are outside this packet and were not independently validated.",
+            "The completed disposition page is not evidence of a wet-signed instrument.",
+            "No canonical writes or tools were used."
+          ]
+        }
+      },
+      "max_requests": 2
+    },
+    {
+      "input_manifest_sha256": "28363584c5a9a86f913c3ecd131613347c0c32bf41e07a31e0586e4d92949ea5",
+      "source_pins": [
+        {
+          "url": "https://countycouncilweb.s3.amazonaws.com/Bills%202026/b07926.pdf",
+          "body_sha256": "d8be5119ab9da71395932ddeae6c09cfbc7c89ce00c4900a5f1fbe2e5ca5e33e",
+          "captured_at": "2026-11-05T19:58:51.058324+00:00",
+          "source_id": "retained-8f1218b41b5a4c6d837482ee2fe15dcb",
+          "layout_sha256": "7cfd9e0021b1bf105e1ee735eb0c09001eefc2fa2655b73f504f3f2e11171f2b",
+          "form_field_dump_sha256": "afc98fdc6e1f346f31c1e789caa425c04285bc4204f0e94db3a7d3db0930f082",
+          "physical_pages": [
+            1,
+            2,
+            3
+          ],
+          "scope": "Exact retained November5PDF, complete3page layout and images. Mutool form dump corroborates widget values omitted by text extraction. No new acquisition, fresh source version or date."
+        }
+      ],
+      "image_pins": [
+        {
+          "source_id": "retained-8f1218b41b5a4c6d837482ee2fe15dcb",
+          "physical_page": 1,
+          "sha256": "08244eb75b11feea0cb01eada92fd0dfb74f5bedc31247711eb4e898cf69f6c5"
+        },
+        {
+          "source_id": "retained-8f1218b41b5a4c6d837482ee2fe15dcb",
+          "physical_page": 2,
+          "sha256": "e9090a6bcd828517901654dba519022a5f0e75c39c191144ddce0ee02142e4c7"
+        },
+        {
+          "source_id": "retained-8f1218b41b5a4c6d837482ee2fe15dcb",
+          "physical_page": 3,
+          "sha256": "8f12dcf0df79cd170f4260ca5d7bab0f39cc5d2061d37a6e231e3b835f34bc44"
+        }
+      ],
+      "candidate": {
+        "id": "md-baltimore-county-2026",
+        "row_sha256": "13a91a60ff281c8c53c0cbd48c1690e1b25eac8dd068cbe950f3a15c26c4828f",
+        "proposed_changes": [
+          {
+            "field": "legal_basis",
+            "before": "Bill 3-26 (Zoning Regulations - Data Center Study), as extended by Bill 79-26 (Data Centers - Extension of Temporary Controls Enacted Under Bill 3-26), introduced 2026-08-03 and adopted unanimously on final reading 2026-09-22, taking effect 14 days after enactment per its own terms.",
+            "after": "Bill 3-26, Section 2, was repealed and re-enacted with amendments by Bill 79-26, which is dated August 3, 2026. The retained bill includes a completed disposition page marked PASSED, with enactment September 28 and effectiveness October 12, 2026. Section 2 of Bill 79-26 states that, having been passed by the affirmative vote of five councilmembers, the Act takes effect 14 days after enactment."
+          }
+        ]
+      },
+      "captures": [
+        {
+          "stage": "narrow_legal_adjudication",
+          "attempt_id": "4260cb3af7e643328ae4336e2a35720d",
+          "descriptor_sha256": "1190575661336010fafb00d97adecfbcfd6035e4a8c48f1c55d6734d0e845297",
+          "wire_request_sha256": "7c87e713870ea98cdb8dd99db5b8824cf619d155ba68c96cd246da1943f47c54",
+          "wire_response_sha256": "ab2e049192dae329c3abdfadfb56c10505f160a1dd8cff9fa2adf81990d77de3",
+          "all_three_page_images_bound": true,
+          "actual_input_descriptor_matches": true,
+          "wire_sdk_output_matches_after_null_default_normalization": true,
+          "parsed_answer_matches": true,
+          "usage": {
+            "input_tokens": 8049,
+            "input_tokens_details": {
+              "cache_write_tokens": 8046,
+              "cached_tokens": 0
+            },
+            "output_tokens": 590,
+            "output_tokens_details": {
+              "reasoning_tokens": 140
+            },
+            "total_tokens": 8639
+          }
+        }
+      ],
+      "answers": {
+        "narrow_legal_adjudication": {
+          "record_id": "md-baltimore-county-2026",
+          "input_row_sha256": "13a91a60ff281c8c53c0cbd48c1690e1b25eac8dd068cbe950f3a15c26c4828f",
+          "field_decisions": [
+            {
+              "field": "legal_basis",
+              "decision": "accept",
+              "value": "Bill 3-26, Section 2, was repealed and re-enacted with amendments by Bill 79-26, which is dated August 3, 2026. The retained bill includes a completed disposition page marked PASSED, with enactment September 28 and effectiveness October 12, 2026. Section 2 of Bill 79-26 states that, having been passed by the affirmative vote of five councilmembers, the Act takes effect 14 days after enactment.",
+              "source_id": "retained-8f1218b41b5a4c6d837482ee2fe15dcb",
+              "locator": "PDF pp. 1\u20133; p. 2 lines 6\u201319; p. 3 legislation detail and bill roll call",
+              "reason": "The proposal accurately describes the dated header, amendment, completed disposition and retrospective five-vote wording. The roll call records seven affirmative votes; the quoted wording does not assert that only five voted aye. The proposed value adds no conditional language."
+            }
+          ],
+          "whole_record_closure_supported": false,
+          "remaining_questions": [
+            "The introduction and council-vote dates require independent verification; the header date and enactment date do not establish them.",
+            "Other row fields remain unresolved, including the outcome's claim that the disposition block is unfilled."
+          ],
+          "review_limitations": [
+            "Review was limited to the supplied retained PDF layout, page images and form-field dump. The completed form is not evidence of a wet signature.",
+            "No determination was made about later legal force or subsequent changes."
+          ]
+        }
+      },
+      "max_requests": 1
+    }
+  ],
+  "model_http_requests": 3,
+  "coordinator_adjudication": {
+    "scope": "Five final exact prose values independently accepted: four in initial adjudication, one in focused review of the corrected legal-basis proposal. Initial held proposal retained and not applied. All three source pages and raw form values supplied; complete disposition is not a wet signature. No inferred council-vote/introduction dates, original Bill3-26 enactment re-review or current-force acceptance.",
+    "whole_record_closure": false,
+    "price_usd": null
+  }
+}
