@@ -997,4 +997,4 @@ Exit: repeatable refresh with visible freshness, costs, failures and unresolved 
 
 - [x] Deliver two LA County October 6 referral prose corrections in qualified post7/V41; full payload, current downloads and final desktop/mobile browser verified. Memorandum scope and later outcomes remain unresolved.
 
-- [ ] Deliver four accepted Lowndes County reported-expiry corrections in the next combined release/consumer/Pages batch from post7/V41; working in-force1085/past173, no record closure. Exact expiry and later ordinance action remain open.
+- [x] Deliver four Lowndes reported-expiry corrections in qualified post8/V42 and verified current pages; in-force1085/past173, no record closure. Exact expiry and later ordinance action remain open.
