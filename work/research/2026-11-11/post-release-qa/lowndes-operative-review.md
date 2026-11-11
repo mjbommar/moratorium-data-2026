@@ -8,4 +8,4 @@ Two sequential Terra calls accepted duration and recorded expired status but hel
 
 Four cells change: duration, current status, outcome and enacted status. Working active/extended count falls from 1,086 to 1,085; expired rises from 76 to 77 and past from 172 to 173. Raw records, pending, rejected, VERIFY and native ballot counts are unchanged. There remain 1,346 unresolved reviews; this record is not closed. September surviving-ID category differences become 136 (102 local, 34 policy).
 
-Publication is pending in the next batch. Qualified post7/V41 remains the verified public edition.
+The four corrections are delivered in qualified post8/V42 and verified current pages. [Delivery receipts](../release-2026.11.11.post8/README.md) record completion; earlier application JSON retains review-time pending state. Exact expiry and later ordinance action remain unresolved.
