@@ -6,10 +6,7 @@ specific source questions are cleared: inspecting executed Ordinance 4562 and
 corroborating the original five-aye adoption. The record remains unresolved for
 later force, intended threshold interpretation and actual project applicability.
 
-These four working-data corrections await synchronized release, consumer and
-Pages delivery. **Post18 / V33 remains the delivered public edition.** Headline
-counts, status categories, normalized dates, numeric original duration and the
-existing August 21, 2028 endpoint are unchanged. Native ballot data is unchanged.
+Delivery follow-up: these four corrections are included in qualified v2026.11.11, verified consumer V34 and the verified current public pages. Headline counts, status categories, normalized dates, numeric original duration, existing August 21, 2028 endpoint and native ballot data are unchanged. [Delivery receipts](../release-2026.11.11/README.md). Earlier pending-delivery receipts retain their review-time state.
 
 | Accepted field | What the primary records establish |
 |---|---|
