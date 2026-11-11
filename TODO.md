@@ -998,3 +998,5 @@ Exit: repeatable refresh with visible freshness, costs, failures and unresolved 
 - [x] Deliver two LA County October 6 referral prose corrections in qualified post7/V41; full payload, current downloads and final desktop/mobile browser verified. Memorandum scope and later outcomes remain unresolved.
 
 - [x] Deliver four Lowndes reported-expiry corrections in qualified post8/V42 and verified current pages; in-force1085/past173, no record closure. Exact expiry and later ordinance action remain open.
+
+- [x] Deliver four Butler County, Ohio prose corrections in qualified post9/V43 and verified current pages; ten assets, full restore, final artifact,64HTMLpages and desktop/mobile checks pass. Signed text, controlling effect, endpoint and later force remain unresolved; no status/count changes or record closure.
