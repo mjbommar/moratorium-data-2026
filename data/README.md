@@ -59,6 +59,35 @@ A reported result, certification, and legal effect are separate fields. Do not t
 
 The `expanded` and `expanded-csv` folders link to saved versions. Keep those links and their snapshot folders together when copying the complete dataset. The [publication documentation](../docs/expanded-promotion.md) describes the file layout.
 
+## All ballot and source tables
+
+The table below links to the saved CSV files used in this release.
+
+<!-- BEGIN EXPANDED CSV DOWNLOADS -->
+| CSV view | Records |
+|---|---:|
+| [ballot_measures.csv](expanded-csv-snapshots/7b585b49998f8ca39b0ff433fe15c34335ea171bdd8960af1e7e9fdcf852f6cb/ballot_measures.csv) | 57 |
+| [claims.csv](expanded-csv-snapshots/7b585b49998f8ca39b0ff433fe15c34335ea171bdd8960af1e7e9fdcf852f6cb/claims.csv) | 625 |
+| [coverage_observations.csv](expanded-csv-snapshots/7b585b49998f8ca39b0ff433fe15c34335ea171bdd8960af1e7e9fdcf852f6cb/coverage_observations.csv) | 1 |
+| [elections.csv](expanded-csv-snapshots/7b585b49998f8ca39b0ff433fe15c34335ea171bdd8960af1e7e9fdcf852f6cb/elections.csv) | 51 |
+| [instrument_event_status.csv](expanded-csv-snapshots/7b585b49998f8ca39b0ff433fe15c34335ea171bdd8960af1e7e9fdcf852f6cb/instrument_event_status.csv) | 12 |
+| [instrument_events.csv](expanded-csv-snapshots/7b585b49998f8ca39b0ff433fe15c34335ea171bdd8960af1e7e9fdcf852f6cb/instrument_events.csv) | 12 |
+| [instrument_events_current.csv](expanded-csv-snapshots/7b585b49998f8ca39b0ff433fe15c34335ea171bdd8960af1e7e9fdcf852f6cb/instrument_events_current.csv) | 12 |
+| [jurisdictions.csv](expanded-csv-snapshots/7b585b49998f8ca39b0ff433fe15c34335ea171bdd8960af1e7e9fdcf852f6cb/jurisdictions.csv) | 53 |
+| [local_restrictions.csv](expanded-csv-snapshots/7b585b49998f8ca39b0ff433fe15c34335ea171bdd8960af1e7e9fdcf852f6cb/local_restrictions.csv) | 3 |
+| [measure_instrument_links.csv](expanded-csv-snapshots/7b585b49998f8ca39b0ff433fe15c34335ea171bdd8960af1e7e9fdcf852f6cb/measure_instrument_links.csv) | 1 |
+| [measure_provisions.csv](expanded-csv-snapshots/7b585b49998f8ca39b0ff433fe15c34335ea171bdd8960af1e7e9fdcf852f6cb/measure_provisions.csv) | 52 |
+| [measure_results.csv](expanded-csv-snapshots/7b585b49998f8ca39b0ff433fe15c34335ea171bdd8960af1e7e9fdcf852f6cb/measure_results.csv) | 65 |
+| [measure_results_current.csv](expanded-csv-snapshots/7b585b49998f8ca39b0ff433fe15c34335ea171bdd8960af1e7e9fdcf852f6cb/measure_results_current.csv) | 53 |
+| [review_decisions.csv](expanded-csv-snapshots/7b585b49998f8ca39b0ff433fe15c34335ea171bdd8960af1e7e9fdcf852f6cb/review_decisions.csv) | 2756 |
+| [search_attempts.csv](expanded-csv-snapshots/7b585b49998f8ca39b0ff433fe15c34335ea171bdd8960af1e7e9fdcf852f6cb/search_attempts.csv) | 3 |
+| [search_runs.csv](expanded-csv-snapshots/7b585b49998f8ca39b0ff433fe15c34335ea171bdd8960af1e7e9fdcf852f6cb/search_runs.csv) | 1 |
+| [search_sightings.csv](expanded-csv-snapshots/7b585b49998f8ca39b0ff433fe15c34335ea171bdd8960af1e7e9fdcf852f6cb/search_sightings.csv) | 18 |
+| [source_documents.csv](expanded-csv-snapshots/7b585b49998f8ca39b0ff433fe15c34335ea171bdd8960af1e7e9fdcf852f6cb/source_documents.csv) | 168 |
+
+[Projection manifest](expanded-csv-snapshots/7b585b49998f8ca39b0ff433fe15c34335ea171bdd8960af1e7e9fdcf852f6cb/manifest.json) pins the source generation, schema, exporter and every file hash.
+<!-- END EXPANDED CSV DOWNLOADS -->
+
 ## Historical text analysis
 
 [structured_extractions.jsonl](structured_extractions.jsonl) contains 526 successful model extractions and 338 recorded call errors. The earlier clause analysis used 348 extractions with model confidence scores of at least 0.4. Those scores are model assessments, not measured accuracy.
