@@ -31,7 +31,7 @@
   "record_disposition_path": "work/research/2026-11-08/full-record-dispositions/funnel.json",
   "qa_status": "ongoing",
   "publication_authorization": "publish current state with qualifications on pending QA, then continue to double check and clear the outstanding questions",
-  "working_revision": "massachusetts-independent-review-pending-next-reviewed-delivery",
+  "working_revision": "massachusetts-independent-review-and-origin-attribution-pending-batch",
   "current_raw_counts": {
     "local": 1328,
     "state_policy": 449,
@@ -118,7 +118,7 @@
     "delivery_receipt": "work/research/2026-11-10/post-release-qa/consumer-v31-handoff.json",
     "hosted_copy_state": "verified"
   },
-  "latest_field_application": "work/research/2026-11-10/post-release-qa/massachusetts-independent-review-application.json",
+  "latest_field_application": "work/research/2026-11-10/post-release-qa/massachusetts-origin-attribution-application.json",
   "latest_hosted_delivery": {
     "source_commit": "1e241a08f83128c1bd562daec803f6f14e0b0adc",
     "hosted_source_commit": "9631f3b6d9520a97ff1cec938dcd9edab9a4bd29",
@@ -227,7 +227,7 @@
   "latest_independent_record_review": "work/research/2026-11-10/post-release-qa/massachusetts-independent-review-application.json",
   "pending_consumer_input_delta": {
     "state": "reviewed_canonical_delta_pending_release_and_consumer_handoff",
-    "receipt": "work/research/2026-11-10/post-release-qa/massachusetts-independent-review-application.json",
+    "receipt": "work/research/2026-11-10/post-release-qa/massachusetts-origin-attribution-application.json",
     "prior_verified_release": "v2026.11.10.post17",
     "changed_cells": 3,
     "changed_local_rows": 0,
@@ -235,6 +235,11 @@
     "status_category_changes": 0,
     "normalized_date_changes": 0,
     "whole_record_closures": 0,
-    "scope": "Independent Massachusetts19field review complete. Three policy prose qualifications corrected; final conference/enactment, named sponsor and later force remain unresolved. Headline counts and native history unchanged. Batch with subsequent accepted corrections."
+    "scope": "Three unique Massachusetts prose fields differ from post17 after19field independent QA and originating-committee attribution. Two subsequent sponsor/party edits supersede earlier unknown wording; total five intermediate edits, three net delivered cells. Final conference/enactment and later force remain unresolved. Counts/categories/dates/native history unchanged.",
+    "receipts": [
+      "work/research/2026-11-10/post-release-qa/massachusetts-independent-review-application.json",
+      "work/research/2026-11-10/post-release-qa/massachusetts-origin-attribution-application.json"
+    ],
+    "intermediate_cell_edits": 5
   }
 }

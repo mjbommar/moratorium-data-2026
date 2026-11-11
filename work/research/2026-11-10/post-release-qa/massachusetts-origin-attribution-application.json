@@ -1,0 +1,50 @@
+{
+  "applied_at": "2026-11-11T03:58:44.391561+00:00",
+  "id": "ma-h5175-s3166-194th",
+  "prior_row_sha256": "04249caa7fa2382c4c2540ce8b5e5e699a82c9b722fb36933188edec09d7c106",
+  "current_row_sha256": "e0970c535197069da68f799d5ce16a5757f1de9d4004cc2b076206e81b482d49",
+  "prior_policy_sha256": "b4d83991c207c3dc149268185948c81bf6a3b742315895a372610f3b619b4332",
+  "independent_reviews": [
+    {
+      "path": "work/research/2026-11-10/post-release-qa/massachusetts-origin-independent-review.json",
+      "sha256": "f0adb34315318f2fc332734b0bba2661bf1cf5247bdf7238fcaff2ece434b4b7"
+    }
+  ],
+  "canonical_cells_changed": 2,
+  "status_category_changes": 0,
+  "normalized_date_changes": 0,
+  "raw_id_changes": 0,
+  "whole_record_closures": 0,
+  "native_governance_changes": 0,
+  "recommendation": "unresolved",
+  "field_changes": [
+    {
+      "field": "sponsors",
+      "before": "House energy legislative package; Senate amendment reprinted as S.3166. Named sponsor not identified in retained excerpts.",
+      "after": "Originating H.5151: House Committee on Ways and Means; published as amended H.5175. Senate amendment reprinted as S.3166."
+    },
+    {
+      "field": "party",
+      "before": "Unknown; named sponsor not identified in retained excerpts.",
+      "after": "Committee attribution; no individual sponsor party asserted."
+    }
+  ],
+  "remaining_questions": [
+    "Obtain a distinct final conference report, enacted act or other controlling subsequent outcome record for H5175/S3166. Retained captures establish differing proposed versions and July16conference appointments only; do not re-fetch the same docket or alternate/Bills and/BillHistory views merely to restate the hold.",
+    "If relevant text was enacted, establish effective provisions, present force and any actual relationship to H4144. The institutional sponsor attribution is now resolved at the originating-H5151committee level; do not invent an individual sponsor or party."
+  ],
+  "source_fetches": 1,
+  "native_source_readbacks": 1,
+  "source_attempt_id": "a714011f7c05460d805c0819dbec6685",
+  "prior_application": {
+    "path": "work/research/2026-11-10/post-release-qa/massachusetts-independent-review-application.json",
+    "sha256": "bbdd89026d3272d10ef3df5d055ea4e99edeebcb131ef0f3d6a05ef91e94d5c5"
+  },
+  "resolved_subquestions": [
+    "Institutional sponsor attribution at originating-H5151committee level."
+  ],
+  "model_whole_record_closure_recommendation": true,
+  "coordinator_whole_record_closure_accepted": false,
+  "coordinator_adjudication": "Accept only the two exact field decisions. Reject model whole-record-closure boolean because it conflicts with its explicit unresolved final conference/current-force limitations and the prior19field review. Committee attribution resolves the bounded sponsor question, not the entire policy record. Preserve source publication-day discrepancy: H5151recordsFeb26publication; H5175recordsFeb27. No date field changed.",
+  "current_policy_sha256": "53b79966a15c10e79dce358b1a31b788260757cb709dea621d31f687777522d3"
+}

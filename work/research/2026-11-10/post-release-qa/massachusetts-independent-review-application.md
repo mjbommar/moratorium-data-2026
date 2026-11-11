@@ -13,3 +13,5 @@ Final conference/enacted outcome, actual named sponsor/party and any later legal
 [Guarded three-cell application](massachusetts-independent-review-application.json), [initial source-first/all-field review](massachusetts-independent-record-review.json) and [corrected-input review](massachusetts-revised-independent-review.json). [Exact delta and checks](massachusetts-independent-review-verification.json) record validation.
 
 These three policy prose corrections await the next synchronized release/consumer/site batch. The verified public edition remains post17/V32. Historical integration and release receipts are preserved with their original review status; this review supersedes the pending-independent-review question.
+
+Subsequent follow-up: [originating committee attribution](massachusetts-origin-attribution-application.md) resolves the institutional sponsor question and supersedes the two initially unknown sponsor/party fields. This initial review and its original applied values remain preserved.

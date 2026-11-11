@@ -1,0 +1,72 @@
+{
+  "reviewed_at": "2026-11-11T04:01:05.355461+00:00",
+  "id": "oh-hb-96",
+  "current_row_sha256": "a59abc408949db0ae32517c943218769af609a68a0ad93fa13a37f2f16e60e6f",
+  "recommendation": "unresolved",
+  "canonical_changes": 0,
+  "whole_record_closures": 0,
+  "native_readback_gaps": 0,
+  "source_native_readbacks": 1,
+  "discovery": {
+    "attempt_id": "8d33e668edb2415a846c833fdf9a4492",
+    "provider": "serpapi",
+    "query": "site:ohiosenate.gov \"House Bill 96\" \"override\" \"data\"",
+    "max_results": 6,
+    "reported_cost_usd": null,
+    "price_status": "Provider returned no price; actual cost unknown, not claimed zero. Persistent one-query cap enforced.",
+    "wire_response_sha256": "b0ffc918e4cfb47a0809ac9ac69e0529edee8699449ea29e44fb5a1f19d748e2",
+    "all_returned_url_hosts_official": true,
+    "hits": [
+      {
+        "url": "https://ohiosenate.gov/members/kyle-koehler/news/koehler-joins-senate-in-overriding-governors-budget-veto",
+        "title": "Koehler Joins Senate in Overriding Governor's Budget Veto",
+        "captured": true
+      },
+      {
+        "url": "https://ohiosenate.gov/members/terry-johnson/news/senator-johnson-praises-override-of-property-tax-reform-veto",
+        "title": "Senator Johnson Praises Override Of Property Tax Reform ...",
+        "captured": false
+      },
+      {
+        "url": "https://ohiosenate.gov/members/michele-reynolds/news/senator-reynolds-praises-override-of-property-tax-reform-veto",
+        "title": "Senator Reynolds Praises Override Of Property Tax ...",
+        "captured": false
+      },
+      {
+        "url": "https://ohiosenate.gov/members/tim-schaffer/news/schaffer-praises-override-of-property-tax-reform-veto",
+        "title": "Schaffer Praises Override Of Property Tax Reform Veto",
+        "captured": false
+      },
+      {
+        "url": "https://ohiosenate.gov/members/kristina-d-roegner/news/senator-roegner-praises-override-of-property-tax-reform-veto",
+        "title": "Senator Roegner Praises Override Of Property Tax Reform ...",
+        "captured": false
+      },
+      {
+        "url": "https://ohiosenate.gov/members/jane-m-timken/news/timken-praises-override-of-property-tax-reform-veto",
+        "title": "Timken Praises Override Of Property Tax Reform Veto",
+        "captured": false
+      }
+    ]
+  },
+  "source": {
+    "attempt_id": "fda5b30761a249c69c1b72de0ae328e1",
+    "url": "https://ohiosenate.gov/members/kyle-koehler/news/koehler-joins-senate-in-overriding-governors-budget-veto",
+    "body_sha256": "376049f0520007e046c13afb8e5a289d3c2d7753ad001bfef261ccff13dc3971",
+    "text_sha256": "4bc2b5ca721970b555639d406a698d90d790120a59d437d035d849d6ab285911",
+    "captured_at": "2026-11-11T03:57:23.363661Z",
+    "article_date": "2025-10-02",
+    "locator": "Complete article body, including levy language and21–11vote; navigation excluded from extracted body.",
+    "published": false
+  },
+  "observations": [
+    "The fetched official Senate article, dated October2,2025, reports a21–11override involving local replacement/substitute emergency levies. It does not identify data-center exemption veto item58.",
+    "The original HTML includes data-center committee navigation, but the extracted article body contains no data-center discussion. Domain filtering alone did not make the data-keyword hit substantive item58evidence.",
+    "No actual voting date is stated in the article beyond its publication date. Do not automatically identify the generic October1history entry solely by this article date/vote count.",
+    "The remaining returned titles are property-tax reform leads, not captured item-specific evidence; they were not redundantly fetched. Search failure to locate an item58result does not establish no override."
+  ],
+  "remaining_questions": [
+    "Identify actual item58-specific House/Senate override proceedings or explicit authoritative disposition. The October2,2025Senate article captured in this phase concerns levy types, not the data-center exemption cutoff; data-center navigation produced the query match. Do not repeat these generic/menu-contaminated hits as substantive evidence.",
+    "Check subsequent code/legal changes after the retained R.C.122.175capture if assessing present force. The prior veto text and LSC comparison remain retained; this bounded discovery does not replace a provision-specific later-law review."
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "reviewed_at": "2026-11-11T03:58:44.388869+00:00",
+  "id": "ma-h5175-s3166-194th",
+  "model": "gpt-6.1-terra",
+  "tools": [],
+  "agents_spawned": 0,
+  "input_manifest_sha256": "1757d6c31913d5c117b88764b70822620191da21ab37222bf09fff057afc9335",
+  "input_row_sha256": "04249caa7fa2382c4c2540ce8b5e5e699a82c9b722fb36933188edec09d7c106",
+  "source_pins": [
+    {
+      "attempt_id": "a714011f7c05460d805c0819dbec6685",
+      "url": "https://malegislature.gov/Bills/194/H5151",
+      "captured_at": "2026-11-11T03:54:46.260119Z",
+      "body_sha256": "8c68a95aaff74ac3a904da96d1fcb0940cd6ebde0a7cf9246ebdbf6239be8b80",
+      "text_sha256": "a0c969428d7344239e7923d150dfc2296ac5a4c11840f7d7e718b0b0d960f6f0",
+      "scope": "Complete retained official docket extraction; original body independently hash-checked by coordinator."
+    },
+    {
+      "attempt_id": "150c37cb14964a68aeafab4b61ed306d",
+      "url": "https://malegislature.gov/Bills/194/H5175",
+      "captured_at": "2026-11-09T22:31:07.647479Z",
+      "body_sha256": "f0232c2d19970f4943de9db277d68c88008400b6ef608af7fd5a8b8370f376b3",
+      "text_sha256": "591a4432d2d5f8466ffc91d4ff81cf370890cd5e5a0aa3d311dfe69a6332cc03",
+      "scope": "Complete retained official docket extraction; original body independently hash-checked by coordinator."
+    },
+    {
+      "attempt_id": "d032981fc4234a468882cec3a6a3855d",
+      "url": "https://malegislature.gov/Bills/194/S3166",
+      "captured_at": "2026-11-09T22:31:08.376886Z",
+      "body_sha256": "0ca459202c63749f6ec01e88646057f22bf315e5862b6259b5c286893f432362",
+      "text_sha256": "80f7ea01eb035c57c6a92ded93df7440f8f8acc73bc3d369f2a060ffd5c49797",
+      "scope": "Complete retained official docket extraction; original body independently hash-checked by coordinator."
+    }
+  ],
+  "metadata_pins": [],
+  "captures": [
+    {
+      "attempt_id": "ed5dbf9e4d3049c1b02760537978a245",
+      "request_descriptor_sha256": "a81d7b4f34073ad36525e2e3a82b21eac0bb865f2466ca761ab2e6832e94a978",
+      "wire_request_sha256": "25075288c36b73d732ee3b275c5bbc52695ca8581cb37d539fb4df7c197e8ff1",
+      "wire_response_sha256": "ee68365689ef45607ee761f2ac546c87497d7548a423250e17ce5573773d8c82",
+      "status": 200,
+      "wire_output_matches_sdk": true,
+      "actual_input_descriptor_matches": true,
+      "usage": {
+        "input_tokens": 2641,
+        "input_tokens_details": {
+          "cache_write_tokens": 2638,
+          "cached_tokens": 0
+        },
+        "output_tokens": 829,
+        "output_tokens_details": {
+          "reasoning_tokens": 260
+        },
+        "total_tokens": 3470
+      }
+    }
+  ],
+  "phases": {
+    "origin_adjudication": {
+      "raw_answer_sha256": "a19faab7bcd59b6badffe826b904d801dd9f8e04ee03177d5ee4cd0931470f3a",
+      "assessment": {
+        "record_id": "ma-h5175-s3166-194th",
+        "input_row_sha256": "04249caa7fa2382c4c2540ce8b5e5e699a82c9b722fb36933188edec09d7c106",
+        "field_decisions": [
+          {
+            "field": "sponsors",
+            "decision": "accept",
+            "value": "Originating H.5151: House Committee on Ways and Means; published as amended H.5175. Senate amendment reprinted as S.3166.",
+            "source_id": "a714011f7c05460d805c0819dbec6685; 150c37cb14964a68aeafab4b61ed306d; d032981fc4234a468882cec3a6a3855d",
+            "locator": "H.5151 Bill Information and February 26 history; H.5175 heading and July 1 history; S.3166 heading and history",
+            "reason": "H.5151 names the committee as sponsor and identifies H.5175 as its amended publication. H.5175 identifies itself as H.5151 as amended and adopted, and records the Senate amendment's reprinting as S.3166. The attribution is qualified to the originating bill."
+          },
+          {
+            "field": "party",
+            "decision": "accept",
+            "value": "Committee attribution; no individual sponsor party asserted.",
+            "source_id": "a714011f7c05460d805c0819dbec6685; 150c37cb14964a68aeafab4b61ed306d",
+            "locator": "H.5151 Bill Information; H.5175 heading and Bill Information",
+            "reason": "The originating docket names a committee, not an individual sponsor; the H.5175 docket does not identify an individual sponsor or party."
+          }
+        ],
+        "whole_record_closure_supported": true,
+        "remaining_questions": [
+          "The final conference and enacted outcome remain separate from the resolved institutional attribution question."
+        ],
+        "review_limitations": [
+          "The S.3166 heading says July 1, 2016, while its history and the H.5175 history date the reprinting to July 1, 2026.",
+          "H.5151 records publication as amended on February 26, 2026; H.5175 records H.5151 published as amended on February 27, 2026.",
+          "The retained dockets do not establish current legal force."
+        ]
+      }
+    }
+  },
+  "accounting": {
+    "http_requests": 1,
+    "max_http_requests": 1,
+    "max_output_tokens_per_request": 6000,
+    "max_retries": 0,
+    "cost_usd": null,
+    "price_status": "No local catalog price; request/token ceilings enforced, not claimed free."
+  },
+  "scope": "Exact two-field institutional-origin attribution review using bidirectional publication link. No inferred named individual, party, final outcome or current force."
+}

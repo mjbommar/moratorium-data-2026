@@ -1,0 +1,142 @@
+{
+  "verified_at": "2026-11-11T04:02:24.773201+00:00",
+  "baseline_commit": "b20f714f1b8ebd4e8d838c15383b6b5035e9c3ec",
+  "step_canonical_cells_changed": 2,
+  "step_changes": [
+    {
+      "id": "ma-h5175-s3166-194th",
+      "field": "sponsors",
+      "before": "House energy legislative package; Senate amendment reprinted as S.3166. Named sponsor not identified in retained excerpts.",
+      "after": "Originating H.5151: House Committee on Ways and Means; published as amended H.5175. Senate amendment reprinted as S.3166."
+    },
+    {
+      "id": "ma-h5175-s3166-194th",
+      "field": "party",
+      "before": "Unknown; named sponsor not identified in retained excerpts.",
+      "after": "Committee attribution; no individual sponsor party asserted."
+    }
+  ],
+  "net_release_baseline": "v2026.11.10.post17",
+  "net_release_changes": [
+    {
+      "id": "ma-h5175-s3166-194th",
+      "field": "sponsors",
+      "before": "House energy legislation; Senate amendment S.3166",
+      "after": "Originating H.5151: House Committee on Ways and Means; published as amended H.5175. Senate amendment reprinted as S.3166."
+    },
+    {
+      "id": "ma-h5175-s3166-194th",
+      "field": "party",
+      "before": "N/A",
+      "after": "Committee attribution; no individual sponsor party asserted."
+    },
+    {
+      "id": "ma-h5175-s3166-194th",
+      "field": "key_provisions",
+      "before": "Distinct proposed versions: House H.5175 chapter 164 section 163 defines data centers by designed load of at least 20 MW and digital-data purpose; specified new/expanded permit applicants face at least 80% renewable supply and a battery-infeasibility showing before fossil-backup permitting, alongside data-center tariffs protecting other customers. Senate S.3166 section 3 proposes data-center exemption certification conditions; sections 88 and 114 propose flexible interconnection and a working group including data-center operators. Version differences remain explicit; these are not enacted requirements.",
+      "after": "Distinct proposed versions: House H.5175 proposes chapter 164 section 163, defining a data center by a designed load of at least 20 MW and digital-data purpose. Specified new or expanded data centers seeking permits from the department or the energy facilities siting board would procure sufficient electricity for operational needs using at least 80% renewable resources; those seeking a Department of Environmental Protection permit to operate fossil-fuel backup generation would first demonstrate on-site battery storage infeasibility. The House also proposes data-center tariffs protecting other ratepayers and incentivizing efficiency. Senate S.3166 section 3 proposes conditions for specified data-center tax benefits; sections 88 and 114 propose flexible interconnection and a working group including data-center representatives. The excerpts do not establish enactment of either version or the provisions' present force."
+    }
+  ],
+  "net_unique_changed_cells": 3,
+  "net_changed_policy_rows": 1,
+  "intermediate_cell_edits": 5,
+  "guarded_two_application_replay_matches_current_row": true,
+  "institutional_sponsor_subquestion_resolved": true,
+  "model_whole_record_closure_rejected": true,
+  "whole_record_closures": 0,
+  "unresolved_records": 1347,
+  "status_category_changes": 0,
+  "normalized_date_changes": 0,
+  "native_governance_changes": 0,
+  "scope_registry_changes": 0,
+  "ohio_canonical_changes": 0,
+  "new_source_readbacks": [
+    {
+      "state": "MA",
+      "report_sha256": "fd72e4ab735f5bffb288def8c47595b6695db82747dc6a4a525524c50a9f6b5c",
+      "source_versions": 1,
+      "gaps": 0
+    },
+    {
+      "state": "OH",
+      "report_sha256": "8a18b476636c2bbe496d28355becf6d87339838fefbc394653341b6ba7b5c356",
+      "source_versions": 1,
+      "gaps": 0
+    }
+  ],
+  "model_http_requests_this_phase": 1,
+  "new_discovery_queries_this_phase": 1,
+  "serpapi_cost_usd": null,
+  "source_fetches_this_phase": 2,
+  "unused_fetch_allowance": {
+    "massachusetts_origin": 1,
+    "ohio_item58": 1
+  },
+  "checks": [
+    {
+      "command": [
+        "scripts/validate_dataset.py",
+        "--today",
+        "2026-11-10"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/build_policy_scope_exports.py",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/build_summary_stats.py",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/build_geojson.py",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/make_timeline.py",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/check_docs_numbers.py"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "-m",
+        "scripts.generate_tables.inventory_clean",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/build_index.py",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/classify_sources.py",
+        "--check"
+      ],
+      "returncode": 0
+    }
+  ],
+  "delivery_state": "Three unique Massachusetts prose cells await next synchronized batch; public post17/V32 unchanged."
+}

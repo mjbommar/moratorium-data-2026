@@ -11,7 +11,7 @@ record-level observations and `[VERIFY]` markers identify unresolved work.
 The November 9 [integration](../work/research/2026-11-09/post-release-qa/massachusetts-energy-integration.json)
 adds H 5175 with its distinct House text and Senate reprint S 3166 as one proposed
 policy observation. Its retained history ends at conference appointment. [Independent
-record-level QA](../work/research/2026-11-10/post-release-qa/massachusetts-independent-review-application.md) is complete, with three sponsor/party/provision qualifications corrected in working data. Actual named sponsorship, final conference/enacted language and later force remain unresolved. Neither version is counted as an enactment, and H 4144 retains its separate study-order status. The verified released snapshot remains post17/V32 until the next synchronized delivery.
+record-level QA](../work/research/2026-11-10/post-release-qa/massachusetts-independent-review-application.md) is complete, with three sponsor/party/provision qualifications corrected in working data. The [originating H.5151 committee attribution](../work/research/2026-11-10/post-release-qa/massachusetts-origin-attribution-application.md) is now established without an individual-party assertion. Final conference/enacted language and later force remain unresolved. Neither version is counted as an enactment, and H 4144 retains its separate study-order status. The verified released snapshot remains post17/V32 until the next synchronized delivery.
 
 ### Latest policy review boundaries
 
