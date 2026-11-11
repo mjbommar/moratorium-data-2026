@@ -8,5 +8,38 @@
     "status": "completed",
     "url": "https://github.com/mjbommar/moratorium-data-2026/actions/runs/42989943398"
   },
-  "action": "Cancelled the actual mismatched-source run and verified completed/cancelled before any replacement dispatch. No branch policy change or temporary branch. API precheck alone did not guarantee actual workflow head; actual run binding remains mandatory."
+  "action": "Cancelled the actual mismatched-source run and verified completed/cancelled before any replacement dispatch. No branch policy change or temporary branch. API precheck alone did not guarantee actual workflow head; actual run binding remains mandatory.",
+  "accepted_initial": {
+    "requested_at": "2026-11-11T08:49:21.283144+00:00",
+    "requested_ref": "main",
+    "source_commit": "666fe28b4fcc5ed0f20d701b86bb2ed59b1e2cb1",
+    "conclusion": "",
+    "createdAt": "2026-11-11T08:49:24Z",
+    "databaseId": 42990078879,
+    "headSha": "666fe28b4fcc5ed0f20d701b86bb2ed59b1e2cb1",
+    "status": "queued",
+    "url": "https://github.com/mjbommar/moratorium-data-2026/actions/runs/42990078879"
+  },
+  "accepted_final": {
+    "requested_at": "2026-11-11T08:53:56.252491+00:00",
+    "requested_ref": "main",
+    "source_commit": "b17e7a2bbda431b2a4a57df999faa74f136cfd52",
+    "conclusion": "",
+    "createdAt": "2026-11-11T08:53:59Z",
+    "databaseId": 42990683213,
+    "headSha": "b17e7a2bbda431b2a4a57df999faa74f136cfd52",
+    "status": "queued",
+    "url": "https://github.com/mjbommar/moratorium-data-2026/actions/runs/42990683213"
+  },
+  "environment_policy_after_delivery": {
+    "total_count": 1,
+    "branch_policies": [
+      {
+        "id": 48339530,
+        "node_id": "MDE2OkdhdGVCcmFuY2hQb2xpY3k0ODMzOTUzMA==",
+        "name": "main",
+        "type": "branch"
+      }
+    ]
+  }
 }
