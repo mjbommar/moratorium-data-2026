@@ -8,8 +8,9 @@ file is later used to check that every item was actually resolved.
 
 Buckets, in priority order:
 
-  expired_in_force  in-force row whose date_enacted_iso + duration_days has
-                    already passed -- status is provably stale
+  expired_in_force  in-force row whose recorded current endpoint or original
+                    adoption-plus-days screening date has passed; legal status
+                    still requires the operative anchor and later-action review
   extension_end_unknown  an extended row has no separately recorded current end
                     date, so its original duration cannot safely be used
   until_date_stale  in-force row that ends on a calendar date we cannot compute
@@ -174,8 +175,9 @@ def build_item(row: dict, buckets: list[str], today: dt.date) -> dict:
     q = item["questions"]
     if "expired_in_force" in buckets:
         q.append(
-            f"This row is recorded as {row['enacted_status']}, but its original term ran out on "
-            f"{expiry.isoformat() if expiry else 'an unknown date'}. As of {today.isoformat()}, was it "
+            f"This row is recorded as {row['enacted_status']}; its end-date screening value is "
+            f"{expiry.isoformat() if expiry else 'an unknown date'}. This does not prove legal expiry. "
+            f"Check the effective anchor and later actions. As of {today.isoformat()}, was it "
             "extended (new end date?), replaced by a permanent ordinance (which one, adopted when?), "
             "allowed to expire, or rescinded?"
         )

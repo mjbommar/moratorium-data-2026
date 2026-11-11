@@ -316,20 +316,31 @@ def check_inventory(rows: list[dict], fieldnames: list[str], today: dt.date, rep
                 f"{where}: in-force calendar term has no verified exact endpoint; review effective-date anchor and later actions",
             )
 
-        # --- expiration drift (warning, drives the worklist) ------------------
-        # Only `active` rows are checked. The codebook defines duration_days as
-        # the ORIGINAL term, excluding extensions, so an `extended` row is
-        # *expected* to compute a past expiry -- warning on those would flag the
-        # correctly-maintained rows and bury the genuinely stale ones.
-        if row["enacted_status"] == "active" and dd is not None:
-            start = parse_iso(iso_raw)
-            if start is not None:
-                expiry = start + dt.timedelta(days=dd)
-                if expiry < today:
-                    rep.warn(
-                        "status.drift",
-                        f"{where}: active but computed expiry {expiry} < {today}",
-                    )
+        # --- end-date screening (warning, never a legal expiry finding) -------
+        # A recorded current endpoint can belong to a successor instrument and
+        # takes priority over the original adoption date and duration_days.
+        # Without it, original-term arithmetic is only a research screening date:
+        # adoption need not be the effective anchor, and later action may exist.
+        if row["enacted_status"] in IN_FORCE:
+            screening_date = None
+            basis = None
+            if current_end:
+                try:
+                    screening_date = dt.date.fromisoformat(current_end)
+                    basis = "recorded current endpoint"
+                except ValueError:
+                    pass  # The date-format check above reports the error.
+            elif row["enacted_status"] == "active" and dd is not None:
+                start = parse_iso(iso_raw)
+                if start is not None:
+                    screening_date = start + dt.timedelta(days=dd)
+                    basis = "original adoption plus day-count screening date"
+            if screening_date is not None and screening_date < today:
+                rep.warn(
+                    "status.drift",
+                    f"{where}: {row['enacted_status']} with {basis} {screening_date} < {today}; "
+                    "check the operative anchor and later action; this is not proof of legal expiry",
+                )
 
         # --- verify accounting ------------------------------------------------
         actual = row_verify_count(row)

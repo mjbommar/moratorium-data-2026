@@ -1,0 +1,18 @@
+{
+  "as_of": "2026-11-11",
+  "canonical_changes": 0,
+  "prior_inventory_warning_counts": {
+    "duration.calendar_end_unverified": 545,
+    "date.missing": 61,
+    "status.drift": 10
+  },
+  "current_inventory_warning_counts": {
+    "duration.calendar_end_unverified": 545,
+    "date.missing": 61,
+    "status.drift": 9
+  },
+  "regression_tests": 4,
+  "native_sparse_worklist_tests": 4,
+  "behavior": "Recorded current endpoint overrides original adoption/day-count arithmetic. Past recorded endpoints are screened for active and extended records. Original arithmetic and worklist questions explicitly remain screening, not proof of expiry. No legal classifications or date facts changed.",
+  "canonical_inventory_sha256": "22bfdb3eba6c8bbd6cb0b8d94d5501c15f090b492e8395b9889857caf01a9f6a"
+}
