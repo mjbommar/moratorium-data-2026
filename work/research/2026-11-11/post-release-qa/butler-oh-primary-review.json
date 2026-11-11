@@ -1,0 +1,45 @@
+{
+  "id": "oh-butler-county-2026",
+  "source_continuity": {
+    "path": "work/research/2026-11-11/post-release-qa/butler-oh-primary-source-continuity.json",
+    "sha256": "eb5b016ece550a1353fcff38388ccb02a8dacf5b6443d1123e38c25edc673fc0"
+  },
+  "findings": [
+    "Official legacy legislative file24632 identifies Resolution26-06-00963 adopted June16,2026. Meeting history records unanimous adoption with Dixon moving, Carpenter seconding and Rogers/Carpenter/Dixon ayes. The meeting-history section also displays Draft; this label is retained as a qualification rather than ignored.",
+    "Linked June16minutes PDF is9pages. Page1 visually inspected and extracted text identifies26-06-00963 as adopted, with six-month term and six county-zoned townships. This corroborates adoption independently of the legislative-page Draft label.",
+    "Resolution request body Sections1\u20135 restrict applications/permits and processing for establishment/expansion, define industrial-scale facilities, suspend listed township land-use timing and toll county review periods. The page is reproduced request text, not a signed executed scan.",
+    "Section1 specifies six months following effective date. No explicit effective-date clause was located in the reproduced body. Do not replace reported June17 effect with adoption-date arithmetic."
+  ],
+  "questions_resolved_at_source_level": [
+    "Resolution number and recorded June16adoption.",
+    "Primary-source reproduced scope and six-month term."
+  ],
+  "remaining_questions": [
+    "Signed/executed resolution or controlling effective-date evidence; exact endpoint.",
+    "Later amendments, extension, replacement, rescission, litigation and actual force through cutoff.",
+    "Independent adjudication and canonical prose application remain pending; this source-only review does not close the whole record."
+  ],
+  "review_scope": {
+    "minutes_pages": 9,
+    "minutes_pages_visually_reviewed": [
+      1
+    ],
+    "resolution_reproduced_body_reviewed": true,
+    "signed_resolution_scan_obtained": false
+  },
+  "canonical_changes": 0,
+  "whole_record_closures": 0,
+  "portal_routing": {
+    "legacy_through": "2026-11-03",
+    "current_from": "2026-11-10",
+    "official_routing_url": "https://www.bcohio.gov/board_of_commissioners/meetings/resolution_search.php",
+    "legacy": "https://butlercountyoh.iqm2.com/Citizens/Search.aspx",
+    "current": "https://www.bcohio.gov/board_of_commissioners/meetings/agendas___minutes.php"
+  },
+  "acquisition_notes": [
+    "Web-tool IQM2 initial navigation timed out; normal Chromium returned200. Exact-number portal search returned12results including unrelated historic files; no claim all12are relevant.",
+    "A second browser navigation to the search form was needed because the initial inspection browser had closed; this was navigation/session setup, not a second search or result-document reacquisition.",
+    "Selected legislative file and meeting links were discovered from actual portal results, not guessed numeric IDs."
+  ],
+  "resume_condition": "Use retained three body/text pairs for independent review; do not reacquire unchanged June16documents. Later-action searches must cover both legacy and new portals."
+}
