@@ -3,7 +3,7 @@
 Work from a pinned commit and retain the cohort cutoff separately from the date
 of an individual source review. Research jobs are not a substantive acceptance gate.
 
-Qualified v2026.11.11.post1 and consumer V35 deliver fourteen reviewed Baltimore/Hamilton/Brookhaven cells. Two identical builds, full clean restore, ten anonymous downloads, all 64 current HTML pages and desktop/mobile browser checks pass. Both changed map popups and all three state pages are verified. Headline counts/categories/native history are unchanged. Hamilton’s calculated anniversary and later-force questions remain qualified; 1,347 whole-record reviews remain unresolved. Complete final workflow artifact verification is recorded separately.
+Qualified post2/V36 is being prepared with four Clay prose corrections from the recovered mixed filing packet. Identity, filing association, operative interval and later force remain qualified. Delivery checks are pending; post1/V35 remains the verified public edition. No counts, categories, normalized dates or native history change. [Receipts](../work/research/2026-11-11/release-2026.11.11.post2/README.md).
 
 The current qualified expanded snapshot tracks policy observations and 57 measure/proposal records, with 65 retained results and 53 current observations across 52 measures. This is separate from legacy moratorium counts and does not certify every result.
 
