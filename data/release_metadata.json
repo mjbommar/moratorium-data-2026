@@ -20,7 +20,7 @@
   "consumer_dispositions": "delivered_with_historical_editions_preserved",
   "experimental_extractor": "failed_no_automatic_promotion",
   "quality_gate_disposition": "User authorized publication of the current state with qualifications on pending QA, followed by continued double checking and resolution of outstanding questions.",
-  "reviewed_data_source_commit": "2ccf07089536a71cb43e3dbd846620853097dcd6",
+  "reviewed_data_source_commit": "4c83f245891fe025d28c00b29c662a040e0bcd92",
   "record_dispositions": {
     "unresolved": 1347,
     "corrected_resolved": 191,
@@ -31,7 +31,7 @@
   "record_disposition_path": "work/research/2026-11-08/full-record-dispositions/funnel.json",
   "qa_status": "ongoing",
   "publication_authorization": "publish current state with qualifications on pending QA, then continue to double check and clear the outstanding questions",
-  "working_revision": "2026.11.11.post5-prepared",
+  "working_revision": "2026.11.11.post5-data-consumer-delivered-hosting-pending",
   "current_raw_counts": {
     "local": 1328,
     "state_policy": 449,
@@ -39,18 +39,18 @@
   },
   "prior_release": "v2026.11.11.post4",
   "prior_release_source_commit": "2ccf07089536a71cb43e3dbd846620853097dcd6",
-  "prior_published_source_commit": "70b4d217dca964e28e70714a40cf90853edc36ea",
-  "published_source_reference": "Qualified post4 pins 2ccf07089536a71cb43e3dbd846620853097dcd6; identical builds, clean restore, ten anonymous downloads, V38 and all current hosted pages/browser checks verified. Initial hosted source ec3adb0466281dbcd23a4da45f5a5407a494b55e; receipt work/research/2026-11-11/release-2026.11.11.post4/hosted-copy-verification.json. East Whiteland endpoint/scope/laterforce and broader QA remain qualified.",
+  "prior_published_source_commit": "2ccf07089536a71cb43e3dbd846620853097dcd6",
+  "published_source_reference": "Qualified post5 pins 4c83f245891fe025d28c00b29c662a040e0bcd92; identical builds, full clean restore, ten anonymous downloads and V39 verified. Hosted verification pending; post4 is prior verified site. Alachua final adoption/effect/later force and broader QA remain qualified.",
   "latest_consumer_handoff": {
-    "source_commit": "2ccf07089536a71cb43e3dbd846620853097dcd6",
-    "manifest_sha256": "7add3bfab9105d05604d9d706b1a5db0b5d02b4da8546c3a264095b0458b47d3",
+    "source_commit": "4c83f245891fe025d28c00b29c662a040e0bcd92",
+    "manifest_sha256": "c14ec03bd529bdd11f875f76080fa29ae9f48e0fa0599c39d2cbe0a058cd6c21",
     "trusted_verifier_sha256": "ebecf851d4196715df186cc81cc3c933ab7da550fbafd7207996cd94b9cd2739",
-    "scope": "Six East Whiteland original-resolution/date cells: exact March31 adoption and distinct April27 findings. No category, endpoint, headline or native changes. Replacement/endpoint proposals held; full independent ordinance-image expansion incomplete after orchestration failure; later force unresolved.",
-    "consumer_commit": "a6f6d2812895ed65e908f0296aab0f47a12bcb50",
-    "receipt": "work/research/2026-11-11/post-release-qa/consumer-v38-handoff.json"
+    "scope": "Four Alachua prose corrections separate September14motion5-0 from October5firstreading4-1. No status, normalized date, endpoint, headline or native changes. Final adoption, effect and laterforce unresolved.",
+    "consumer_commit": "89b00571db0c9391227fc0bcd96afee31b05a01b",
+    "receipt": "work/research/2026-11-11/post-release-qa/consumer-v39-handoff.json"
   },
   "release_date_timezone": "America/New_York",
-  "published_source_commit": "2ccf07089536a71cb43e3dbd846620853097dcd6",
+  "published_source_commit": "4c83f245891fe025d28c00b29c662a040e0bcd92",
   "september_status_category_differences": {
     "local": 100,
     "policy": 34,
@@ -59,25 +59,24 @@
   },
   "latest_geography_review": "work/research/2026-11-09/post-release-qa/nonblank-geography-application.json",
   "latest_delivered_consumer_input_delta": {
-    "baseline_release": "v2026.11.11.post3",
-    "baseline_source_commit": "70b4d217dca964e28e70714a40cf90853edc36ea",
-    "baseline_handoff": "V37",
-    "receipt": "work/research/2026-11-11/post-release-qa/east-whiteland-operative-application.json",
+    "baseline_release": "v2026.11.11.post4",
+    "baseline_source_commit": "2ccf07089536a71cb43e3dbd846620853097dcd6",
+    "baseline_handoff": "V38",
+    "receipt": "work/research/2026-11-11/post-release-qa/alachua-operative-application.json",
     "receipts": [
-      "work/research/2026-11-11/post-release-qa/east-whiteland-operative-application.json"
+      "work/research/2026-11-11/post-release-qa/alachua-operative-application.json"
     ],
-    "changed_cells": 6,
+    "changed_cells": 4,
     "changed_local_rows": 1,
     "changed_policy_rows": 0,
     "status_category_changes": 0,
-    "normalized_date_changes": 1,
-    "normalized_date_precision_changes": 1,
-    "scope": "Six East Whiteland original/date cells delivered in post4/V38 and verified current public pages. No category/endpoint changes. Replacement inference held, full independent image expansion incomplete; broader QA unresolved.",
-    "state": "delivered_data_consumer_and_hosted_verified",
-    "delivered_source_commit": "2ccf07089536a71cb43e3dbd846620853097dcd6",
-    "delivered_consumer_commit": "a6f6d2812895ed65e908f0296aab0f47a12bcb50",
-    "delivery_receipt": "work/research/2026-11-11/post-release-qa/consumer-v38-handoff.json",
-    "hosted_copy_state": "verified"
+    "normalized_date_changes": 0,
+    "scope": "Four Alachua prose cells delivered in post5/V39; current hosted verification pending. No status/date/endpoint changes. Final adoption/effect and later force unresolved; broader QA unresolved.",
+    "state": "delivered_data_consumer_pending_hosted_verification",
+    "delivered_source_commit": "4c83f245891fe025d28c00b29c662a040e0bcd92",
+    "delivered_consumer_commit": "89b00571db0c9391227fc0bcd96afee31b05a01b",
+    "delivery_receipt": "work/research/2026-11-11/post-release-qa/consumer-v39-handoff.json",
+    "hosted_copy_state": "pending"
   },
   "latest_source_followup": "work/research/2026-11-11/post-release-qa/brookhaven-operative-application.json",
   "latest_expanded_candidate_review": "work/research/2026-11-09/starke-succession-review/validation.json",
@@ -101,23 +100,24 @@
     "scope": "Qualified policy-history succession only; no formal termination, overlap or current-force acceptance."
   },
   "prior_delivered_consumer_input_delta": {
-    "baseline_release": "v2026.11.11.post2",
-    "baseline_source_commit": "9d70e076fd6770e45cd7af2e28de5da5f4c91696",
-    "baseline_handoff": "V36",
-    "receipt": "work/research/2026-11-11/post-release-qa/cedartown-operative-application.json",
+    "baseline_release": "v2026.11.11.post3",
+    "baseline_source_commit": "70b4d217dca964e28e70714a40cf90853edc36ea",
+    "baseline_handoff": "V37",
+    "receipt": "work/research/2026-11-11/post-release-qa/east-whiteland-operative-application.json",
     "receipts": [
-      "work/research/2026-11-11/post-release-qa/cedartown-operative-application.json"
+      "work/research/2026-11-11/post-release-qa/east-whiteland-operative-application.json"
     ],
     "changed_cells": 6,
     "changed_local_rows": 1,
     "changed_policy_rows": 0,
-    "status_category_changes": 1,
-    "normalized_date_changes": 0,
-    "scope": "Six Cedartown cells delivered in post3/V37 and verified current public pages. Approvedsixmonthextension, not exact interval/continuous/currentforce. Active887/extended199 retain1086inforce. Broader QA unresolved.",
+    "status_category_changes": 0,
+    "normalized_date_changes": 1,
+    "normalized_date_precision_changes": 1,
+    "scope": "Six East Whiteland original/date cells delivered in post4/V38 and verified current public pages. No category/endpoint changes. Replacement inference held, full independent image expansion incomplete; broader QA unresolved.",
     "state": "delivered_data_consumer_and_hosted_verified",
-    "delivered_source_commit": "70b4d217dca964e28e70714a40cf90853edc36ea",
-    "delivered_consumer_commit": "7e8f016660550a10147af18f9f38ac3927b2f569",
-    "delivery_receipt": "work/research/2026-11-11/post-release-qa/consumer-v37-handoff.json",
+    "delivered_source_commit": "2ccf07089536a71cb43e3dbd846620853097dcd6",
+    "delivered_consumer_commit": "a6f6d2812895ed65e908f0296aab0f47a12bcb50",
+    "delivery_receipt": "work/research/2026-11-11/post-release-qa/consumer-v38-handoff.json",
     "hosted_copy_state": "verified"
   },
   "latest_field_application": "work/research/2026-11-11/post-release-qa/alachua-operative-application.json",
@@ -132,16 +132,16 @@
   "latest_expanded_result_review": "work/research/2026-11-10/canterbury-minutes-result-review/coordinator-adjudication.json",
   "latest_verified_release": "v2026.11.11.post4",
   "source_observation_window_scope": "Acquisition range includes source-specific QA captures through November10; this does not renew every record or move the original comprehensive research_cutoff.",
-  "latest_download_verified_release": "v2026.11.11.post4",
+  "latest_download_verified_release": "v2026.11.11.post5",
   "prior_latest_consumer_handoff": {
-    "source_commit": "70b4d217dca964e28e70714a40cf90853edc36ea",
-    "manifest_sha256": "224900b66777c19f7616b6c770c2a1ac0c42951f24cdc10a74333f7006692ec2",
+    "source_commit": "2ccf07089536a71cb43e3dbd846620853097dcd6",
+    "manifest_sha256": "7add3bfab9105d05604d9d706b1a5db0b5d02b4da8546c3a264095b0458b47d3",
     "trusted_verifier_sha256": "ebecf851d4196715df186cc81cc3c933ab7da550fbafd7207996cd94b9cd2739",
-    "scope": "Six Cedartown cells confirm October12Resolution22six-month extension. Active887/extended199 retain1086recorded in-force. Exact interval, any lapse and laterforce unresolved. No normalizeddate/endpoint, sector, identity or nativehistory changes or whole-record closures.",
-    "consumer_commit": "7e8f016660550a10147af18f9f38ac3927b2f569",
-    "receipt": "work/research/2026-11-11/post-release-qa/consumer-v37-handoff.json"
+    "scope": "Six East Whiteland original-resolution/date cells: exact March31 adoption and distinct April27 findings. No category, endpoint, headline or native changes. Replacement/endpoint proposals held; full independent ordinance-image expansion incomplete after orchestration failure; later force unresolved.",
+    "consumer_commit": "a6f6d2812895ed65e908f0296aab0f47a12bcb50",
+    "receipt": "work/research/2026-11-11/post-release-qa/consumer-v38-handoff.json"
   },
-  "prior_published_source_reference": "Qualified post3 pins 70b4d217dca964e28e70714a40cf90853edc36ea; identical builds, clean restore, ten anonymous downloads, V37 and all current hosted pages/browser checks verified. Initial hosted source 666fe28b4fcc5ed0f20d701b86bb2ed59b1e2cb1; receipt work/research/2026-11-11/release-2026.11.11.post3/hosted-copy-verification.json. Cedartown interval/lapse/laterforce and broader QA remain qualified.",
+  "prior_published_source_reference": "Qualified post4 pins 2ccf07089536a71cb43e3dbd846620853097dcd6; identical builds, clean restore, ten anonymous downloads, V38 and all current hosted pages/browser checks verified. Initial hosted source ec3adb0466281dbcd23a4da45f5a5407a494b55e; receipt work/research/2026-11-11/release-2026.11.11.post4/hosted-copy-verification.json. East Whiteland endpoint/scope/laterforce and broader QA remain qualified.",
   "latest_verified_hosted_data": {
     "release": "v2026.11.11.post4",
     "release_source_commit": "2ccf07089536a71cb43e3dbd846620853097dcd6",
@@ -299,21 +299,13 @@
     "scope": "Every currentHTMLpage and linkedlocalresource/download matches pinnedsource. Actual desktop/mobile/dark, mapfilters, charts/tables, Cedartown pointerpopup and Georgia prose pass. Full final artifact and acknowledgment recheck follows; no universal currentlaw or freshness certification."
   },
   "latest_independent_record_review": "work/research/2026-11-11/post-release-qa/alachua-operative-application.json",
-  "pending_consumer_input_delta": {
-    "baseline_release": "v2026.11.11.post4",
-    "baseline_source_commit": "2ccf07089536a71cb43e3dbd846620853097dcd6",
-    "baseline_handoff": "V38",
-    "receipt": "work/research/2026-11-11/post-release-qa/alachua-operative-application.json",
-    "receipts": [
-      "work/research/2026-11-11/post-release-qa/alachua-operative-application.json"
-    ],
-    "changed_cells": 4,
-    "changed_local_rows": 1,
-    "changed_policy_rows": 0,
-    "status_category_changes": 0,
-    "normalized_date_changes": 0,
-    "scope": "Four independently accepted prose cells distinguish September14motion, October5firstreading4-1 and unverified finaladoption. Three acceptedinitially; originallegalbasisheld for omittedcovercontext, then exactrevisionaccepted with newcoverimage. No structuredstatus/date/termkind/endpoint/count/identity/nativechanges. Pending combined release/consumer/Pages delivery; qualifiedpost4/V38 remains delivered."
-  },
   "prepared_release": "v2026.11.11.post5",
-  "prepared_release_qualifications": "Four Alachua prose corrections distinguish September14motion and October5firstreading4-1. No status/count changes; final adoption/effect and laterforce unresolved.1347reviews unresolved; delivery pending."
+  "prepared_release_qualifications": "Four Alachua prose corrections distinguish September14motion and October5firstreading4-1. No status/count changes; final adoption/effect and laterforce unresolved.1347reviews unresolved; delivery pending.",
+  "pending_hosted_delivery": {
+    "release": "v2026.11.11.post5",
+    "release_source_commit": "4c83f245891fe025d28c00b29c662a040e0bcd92",
+    "state": "verified_data_release_pending_full_site_deployment",
+    "receipt": "work/research/2026-11-11/release-2026.11.11.post5/public-verification.json",
+    "active_deployment_run": null
+  }
 }

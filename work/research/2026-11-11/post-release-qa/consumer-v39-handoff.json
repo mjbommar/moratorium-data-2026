@@ -1,0 +1,275 @@
+{
+  "source_commit": "4c83f245891fe025d28c00b29c662a040e0bcd92",
+  "manifest_sha256": "c14ec03bd529bdd11f875f76080fa29ae9f48e0fa0599c39d2cbe0a058cd6c21",
+  "expanded_snapshot": "3ce33d22288fa7bc7100c9ac621c041037702e8370af1e663d53a548ff794725",
+  "current_counts": {
+    "moratorium_records": 1328,
+    "state_policy_records": 449,
+    "ballot_measures": 57,
+    "retained_results": 65,
+    "current_results": 53,
+    "retained_events": 12,
+    "current_accepted_historical_events": 12,
+    "restriction_records": 3,
+    "measure_instrument_link_records": 1
+  },
+  "files": 2767,
+  "entries": 2994,
+  "verified_at": "2026-11-11T10:38:45.616032+00:00",
+  "consumer_verification": {
+    "handoff": {
+      "state": "verified",
+      "source_commit": "4c83f245891fe025d28c00b29c662a040e0bcd92",
+      "manifest_sha256": "c14ec03bd529bdd11f875f76080fa29ae9f48e0fa0599c39d2cbe0a058cd6c21",
+      "expanded_snapshot": "3ce33d22288fa7bc7100c9ac621c041037702e8370af1e663d53a548ff794725",
+      "files": 2767,
+      "entries": 2994,
+      "checks": [
+        {
+          "command": [
+            "scripts/check_expanded_publication.py"
+          ],
+          "exit_code": 0,
+          "result": {
+            "state": "consistent",
+            "snapshot_sha256": "3ce33d22288fa7bc7100c9ac621c041037702e8370af1e663d53a548ff794725",
+            "generations_checked": 49,
+            "records": {
+              "jurisdictions": 53,
+              "elections": 51,
+              "ballot_measures": 57,
+              "measure_provisions": 52,
+              "measure_results": 65,
+              "local_restrictions": 3,
+              "instrument_events": 12,
+              "measure_instrument_links": 1,
+              "source_documents": 168,
+              "claims": 625,
+              "review_decisions": 2756,
+              "search_runs": 1,
+              "search_attempts": 3,
+              "search_sightings": 18,
+              "coverage_observations": 1
+            },
+            "scope": "Offline publication/receipt consistency only; no source reacquisition, renewed factual acceptance or current-force confirmation."
+          }
+        },
+        {
+          "command": [
+            "scripts/build_expanded_csv.py",
+            "--check"
+          ],
+          "exit_code": 0,
+          "result": {
+            "state": "matches",
+            "source_snapshot": "3ce33d22288fa7bc7100c9ac621c041037702e8370af1e663d53a548ff794725",
+            "projection_sha256": "7b585b49998f8ca39b0ff433fe15c34335ea171bdd8960af1e7e9fdcf852f6cb",
+            "csv_views": 18
+          }
+        },
+        {
+          "command": [
+            "scripts/build_policy_scope_exports.py",
+            "--check"
+          ],
+          "exit_code": 0,
+          "result": "policy-scope exports current"
+        }
+      ],
+      "checks_run": true,
+      "scope": "Pinned input integrity and offline publication consistency, not source reacquisition or downstream join acceptance."
+    },
+    "policy_semantics": {
+      "total_state_policy_actions": 449,
+      "total_state_bills": 427,
+      "state_policy_instrument_type_counts": {
+        "bill": 427,
+        "executive_order": 3,
+        "governor_directive": 1,
+        "legislative_amendment": 1,
+        "legislative_precursor": 3,
+        "legislative_resolution": 12,
+        "statute": 2
+      },
+      "top_states_by_bills": [
+        [
+          "Pennsylvania",
+          18
+        ],
+        [
+          "Virginia",
+          18
+        ],
+        [
+          "West Virginia",
+          18
+        ],
+        [
+          "Maryland",
+          16
+        ],
+        [
+          "New Jersey",
+          16
+        ],
+        [
+          "California",
+          14
+        ],
+        [
+          "South Dakota",
+          14
+        ],
+        [
+          "Arizona",
+          13
+        ],
+        [
+          "Iowa",
+          13
+        ],
+        [
+          "Michigan",
+          13
+        ],
+        [
+          "Minnesota",
+          12
+        ],
+        [
+          "Ohio",
+          12
+        ],
+        [
+          "Oklahoma",
+          12
+        ],
+        [
+          "Illinois",
+          11
+        ],
+        [
+          "Kansas",
+          11
+        ]
+      ],
+      "top_states_by_policy_actions": [
+        [
+          "Pennsylvania",
+          22
+        ],
+        [
+          "Virginia",
+          18
+        ],
+        [
+          "West Virginia",
+          18
+        ],
+        [
+          "Maryland",
+          17
+        ],
+        [
+          "New Jersey",
+          17
+        ],
+        [
+          "California",
+          14
+        ],
+        [
+          "Michigan",
+          14
+        ],
+        [
+          "South Dakota",
+          14
+        ],
+        [
+          "Arizona",
+          13
+        ],
+        [
+          "Iowa",
+          13
+        ],
+        [
+          "Kansas",
+          12
+        ],
+        [
+          "Minnesota",
+          12
+        ],
+        [
+          "Ohio",
+          12
+        ],
+        [
+          "Oklahoma",
+          12
+        ],
+        [
+          "Illinois",
+          11
+        ]
+      ]
+    }
+  },
+  "index_verification": {
+    "snapshot": "data/source-snapshots/moratoria/2026-11-11-reviewed-v39",
+    "source_commit": "4c83f245891fe025d28c00b29c662a040e0bcd92",
+    "manifest_sha256": "c14ec03bd529bdd11f875f76080fa29ae9f48e0fa0599c39d2cbe0a058cd6c21",
+    "tracked_files_and_symlinks": 2768,
+    "exact_staged_git_blob_bytes_and_modes": true,
+    "scope": "Exact staged snapshot content, Git modes and path set against the pinned manifest, including the manifest itself. This is not an independent legal review."
+  },
+  "baseline_handoff": "V38",
+  "expanded_tables_byte_identical": true,
+  "changed_cells": 4,
+  "changed_local_cells": 4,
+  "changed_policy_cells": 0,
+  "changed_local_rows": 1,
+  "changed_policy_rows": 0,
+  "new_policy_rows": 0,
+  "status_category_changes": 0,
+  "normalized_adoption_date_changes": 0,
+  "date_precision_changes": 0,
+  "normalized_endpoint_changes": 0,
+  "duration_kind_changes": 0,
+  "whole_record_closures": 0,
+  "unresolved_records": 1347,
+  "field_changes": [
+    {
+      "id": "fl-alachua-undated",
+      "field": "duration",
+      "before": "12 months (reported approved; effective date unverified)",
+      "after": "Twelve months were directed in the September 14, 2026 commission motion. Proposed Ordinance 26-17 specifies twelve months from its effective date, with possible earlier termination and a separately adopted extension; the final adopted text and operative effective-date anchor remain unverified."
+    },
+    {
+      "id": "fl-alachua-undated",
+      "field": "legal_basis",
+      "before": "City of Alachua proposed Ordinance 26-17, identified in the city business-impact estimate; the news report describes later approval of a 12-month moratorium. The enrolled adopted text and effective date remain unverified.",
+      "after": "City Commission September 14, 2026 motion to establish a temporary twelve-month moratorium and prepare an implementing ordinance; minutes reproduced in the official October 5 packet report passage 5-0. Ordinance 26-17 subsequently passed first reading on October 5 by 4-1, according to the unsigned October 5 minutes reproduced for approval. The October 26 staff report reports first-reading passage and recommends second and final adoption; its attached instrument is unsigned. Final adoption and effectiveness remain unverified."
+    },
+    {
+      "id": "fl-alachua-undated",
+      "field": "current_status",
+      "before": "Pending as of 2026-09-23; City Planning & Zoning board passed a motion for a 12-month data center moratorium; City Commission scheduled to review and act 2026-09-28 (after the reference date of this research pass). [VERIFY instrument number; adoption date; primary source (news-only evidence) not confirmed at confidence 0.65 in the 2026-09 refresh] Later, Mainstreet Daily News reported on 2026-10-07 that the City Commission unanimously approved a 12-month moratorium at a meeting rescheduled from September 28; the adopted instrument, effective date, and present force remain unverified.",
+      "after": "Recorded active; exact operative status remains qualified. September 14 minutes record a 5-0 motion to establish a twelve-month moratorium and direct an implementing ordinance. October 5 minutes record Ordinance 26-17 passing first reading 4-1, with Commissioner Youmas dissenting, and scheduling final reading for October 12. The later October 26 packet places it on second reading; that agenda and its unsigned draft do not establish final adoption. [VERIFY final adopted instrument, effective date, subsequent action and present force.]"
+    },
+    {
+      "id": "fl-alachua-undated",
+      "field": "outcome",
+      "before": "City Commission approval reported 2026-10-07; adopted instrument and current force unverified.",
+      "after": "Official records establish the September 14 moratorium motion and October 5 first-reading passage of Ordinance 26-17, rather than unanimous final ordinance adoption at that October meeting. Final adopted text, effective date and present force remain unverified."
+    }
+  ],
+  "trusted_verifier_sha256": "ebecf851d4196715df186cc81cc3c933ab7da550fbafd7207996cd94b9cd2739",
+  "scope": "Four Alachua prose corrections separate September14motion5-0 from October5firstreading4-1. No status, normalized date, endpoint, headline or native changes. Final adoption, effect and laterforce unresolved.",
+  "consumer_commit": "89b00571db0c9391227fc0bcd96afee31b05a01b",
+  "release_url": "https://github.com/mjbommar/moratorium-data-2026/releases/tag/v2026.11.11.post5",
+  "release_manifest_sha256": "03e891d0adf7c0a0351c3dd0d5291c5aeb591cca3a6f660b1a90d40dfb3f8cce",
+  "hosted_copy_state": "pending"
+}
