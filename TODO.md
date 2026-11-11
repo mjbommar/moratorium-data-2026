@@ -969,3 +969,6 @@ Exit: repeatable refresh with visible freshness, costs, failures and unresolved 
 
 - [x] Recover EastWhiteland signed originals2026-21and25-2026, inspect all5pages, independently accept six fields including exactMarch31adoption. Distinguish March31agenda-revision vote from resolution adoption; archive/readback4newpairs+1retainedagenda, nine checks pass. Original acquisition/date gap resolved, scope/endpoint/laterforce remain open.
 - [ ] Include six EastWhiteland working corrections in the next combined release/consumer/Pages batch from post3/V37 baseline; no status/headline changes. Continue distinct MPC609.2scope and Ordinance385relationship review without refetching originals.
+
+- [x] Check primaryMPC609.2 and retained385operative clauses. Two verifiedTerrarequests hold all6proposedreplacement/date/prose changes; ordinarypermitban and exactSeptember24endpoint not established. Full32pageOCRscreen retained. Failed full-image expansion leaves1unrespondedreservation; count it, do not retry/reset or claim full independentcoverage. One residual queue entry refined; canonical data unchanged.
+- [ ] Resolve EastWhiteland endpoint using distinct cure-completion/termination or legal/project evidence; preserve saved-rights and energy-generation-scope questions. Reconcile failed expanded-model reservation before any repeat of that request.

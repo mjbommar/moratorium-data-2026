@@ -1380,6 +1380,23 @@ def main():
         assert review['actual_record_results_obtained']==0 and not review['query_execution_established']
         assert review['session_identifiers_and_action_tokens_private']
         overlays[review['id']]=[public_text(q) for q in review['remaining_questions']]
+    east_whiteland_scope_path=Path('work/research/2026-11-11/post-release-qa/east-whiteland-statutory-review.json')
+    if east_whiteland_scope_path.exists():
+        review=json.loads(east_whiteland_scope_path.read_text())
+        assert review['id']=='pa-east-whiteland-township-2026'
+        source_row_guard(('local_inventory',review['id']),review['current_row_sha256'])
+        source_disposition_guard(review)
+        assert review['canonical_changes']==review['whole_record_closures']==review['native_readback_gaps']==0
+        assert review['external_discovery_searches']==review['bc_client_fetches']==1
+        assert set(review['held_fields'])=={'enacted_status','current_end_date_iso','duration','legal_basis','current_status','outcome'}
+        for pin in (review['independent_review'],review['source_continuity']):
+            assert digest(Path(pin['path']).read_bytes())==pin['sha256']
+        decisions=json.loads(Path(review['independent_review']['path']).read_text())['answers']['cell_adjudication']['field_decisions']
+        assert len(decisions)==6 and all(x['decision']=='hold' for x in decisions)
+        control=review['model_control']
+        assert control['total_model_reservations_this_followup']==3 and control['verified_complete_model_responses']==2 and control['unresolved_model_reservations']==1
+        assert review['complete_independent_ordinance_image_coverage'] is False
+        overlays[review['id']]=[public_text(q) for q in review['remaining_questions']]
     rows=[]
     for entry in f['records']:
         if entry['disposition']!='unresolved':continue
@@ -1406,6 +1423,7 @@ def main():
     summary['fairbanks_post_hearing_review_sha256']=digest(fairbanks_post_hearing_path.read_bytes()) if fairbanks_post_hearing_path.exists() else None
     summary['ny_retained_filing_screen_sha256']=digest(ny_filing_screen_path.read_bytes()) if ny_filing_screen_path.exists() else None
     summary['idaho_governor_action_followup_sha256']=digest(idaho_governor_path.read_bytes()) if idaho_governor_path.exists() else None
+    summary['east_whiteland_statutory_review_sha256']=digest(east_whiteland_scope_path.read_bytes()) if east_whiteland_scope_path.exists() else None
     summary['nassau_clerk_route_review_sha256']=digest(nassau_clerk_path.read_bytes()) if nassau_clerk_path.exists() else None
     summary['retained_finality_audit_sha256']=digest(retained_finality_path.read_bytes()) if retained_finality_path.exists() else None
     summary['massachusetts_origin_application_sha256']=digest(ma_origin_path.read_bytes()) if ma_origin_path.exists() else None

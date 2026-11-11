@@ -1,0 +1,75 @@
+{
+  "manifest_sha256": {
+    "work/sources/PA/manifest.jsonl": "8d4e9db6f32bb161e43a62b5410fb395cf3387eb7ef8b4a591cb5bb44bfaf219"
+  },
+  "record_count": 2,
+  "eligible_verified_body_records": 2,
+  "gap_records": 0,
+  "issue_counts": {},
+  "migrated_records": 2,
+  "records": [
+    {
+      "manifest": "work/sources/PA/manifest.jsonl",
+      "line": 163,
+      "legacy_key": "c4f8a85c69d9fac1-d62189640f35",
+      "row_sha256": "d17b3db3278747606949191810b0aae3c44e562d4e7d1cf9999e9b40e1200914",
+      "url": "https://cms2.revize.com/revize/repository/eastwhitelandtownshippa/Enacted%20Ordinance%20No.385-2026(4050484.1).pdf?6416",
+      "original_body_sha256": "d62189640f3517319abaf9114924d91dca087088f715c76d2e9a0e57450337cd",
+      "original_text_sha256": "5c86de945a83c39621733d19042377e38bfd8cce8d37fb5e154943a838fd37fc",
+      "fetched_at": "2026-11-05T22:23:22.888650+00:00",
+      "published": false,
+      "payload": {
+        "path": "work/sources/PA/c4f8a85c69d9fac1-d62189640f35.pdf",
+        "sha256": "d62189640f3517319abaf9114924d91dca087088f715c76d2e9a0e57450337cd",
+        "bytes": 2500227
+      },
+      "text": {
+        "path": "work/sources/PA/c4f8a85c69d9fac1-d62189640f35.txt",
+        "sha256": "5c86de945a83c39621733d19042377e38bfd8cce8d37fb5e154943a838fd37fc",
+        "bytes": 4453
+      },
+      "missing_files": [],
+      "issues": [],
+      "observation_id": "8a97f382001dee5f",
+      "metadata_derivation_id": "32eeb6836cb35540",
+      "text_derivation_id": "7659498f59354bf7"
+    },
+    {
+      "manifest": "work/sources/PA/manifest.jsonl",
+      "line": 201,
+      "legacy_key": "5f42267368d941f9-3c793b876848",
+      "row_sha256": "89c6660be9e6bc01485defb3142153e711a2b5fa77380e0b0940ad978315d148",
+      "url": "https://www.palegis.us/statutes/unconsolidated/law-information/view-statute?act=247&chpt=6&iFrame=true&sessInd=0&smthLwInd=0&txtType=HTM&yr=1968",
+      "original_body_sha256": "3c793b876848339bd2b7a0241065d2dde419b113ef777dcb1b030fc1db2c4f7e",
+      "original_text_sha256": "3eb6a2e24bcc28c6b79dfed49337270906e59c440c361351d9b8b45561bcac2b",
+      "fetched_at": "2026-11-11T09:06:28.376075+00:00",
+      "published": false,
+      "payload": {
+        "path": "work/sources/PA/5f42267368d941f9-3c793b876848.bin",
+        "sha256": "3c793b876848339bd2b7a0241065d2dde419b113ef777dcb1b030fc1db2c4f7e",
+        "bytes": 89596
+      },
+      "text": {
+        "path": "work/sources/PA/5f42267368d941f9-3c793b876848.txt",
+        "sha256": "3eb6a2e24bcc28c6b79dfed49337270906e59c440c361351d9b8b45561bcac2b",
+        "bytes": 45764
+      },
+      "missing_files": [],
+      "issues": [],
+      "observation_id": "844992d7b780e4fb",
+      "metadata_derivation_id": "49973ac1800a8690",
+      "text_derivation_id": "cfd021bdd74f58ba"
+    }
+  ],
+  "scope": "Exact new full legislaturechapter6body/text plus retained full32pageOrdinance385body/originalemptytext readback. No fullordinance extraction/visualreview claim: physical1,2,31,32reviewed; selected OCR/images privately retained. Zero continuity gaps does not mean no extraction gap in original emptytext. Other28ordinancepages not adjudicated here.",
+  "exact_body_text_pairs_read_back": 2,
+  "new_source_fetches": 1,
+  "retained_capture_pairs": 1,
+  "retained_ordinance_reviewed_physical_pages": [
+    1,
+    2,
+    31,
+    32
+  ],
+  "retained_ordinance_total_pages": 32
+}

@@ -1,0 +1,255 @@
+{
+  "recorded_at": "2026-11-11T09:21:42.827228+00:00",
+  "baseline_commit": "98105f217702513fc5be19c4982d9e3944b60682",
+  "id": "pa-east-whiteland-township-2026",
+  "dataset": "local_inventory",
+  "current_row_sha256": "e421eb1a6195bb8b0dba8685212bda017351232bf707d44bdd09a0098cc395b3",
+  "recommendation": "unresolved",
+  "canonical_changes": 0,
+  "whole_record_closures": 0,
+  "native_readback_gaps": 0,
+  "held_fields": [
+    "enacted_status",
+    "current_end_date_iso",
+    "duration",
+    "legal_basis",
+    "current_status",
+    "outcome"
+  ],
+  "independent_review": {
+    "path": "work/research/2026-11-11/post-release-qa/east-whiteland-statutory-independent-review.json",
+    "sha256": "6cc825bbb432b9a82a66e726fdb308fa832866acdd306751cdbd7fa7ab1ac507"
+  },
+  "source_continuity": {
+    "path": "work/research/2026-11-11/post-release-qa/east-whiteland-statutory-source-continuity.json",
+    "sha256": "fe85a30d519381f16544c5f005962b36323af52e15e645b7812b1f3d34671c8f"
+  },
+  "external_discovery_searches": 1,
+  "bc_client_fetches": 1,
+  "discovery": {
+    "tool": "web search",
+    "query": "site.legis.state.pa.us Municipalities Planning Code section 609.2 180 days",
+    "searches": 1,
+    "cost_usd": null
+  },
+  "model_control": {
+    "initial_large_input": {
+      "max_capture_bytes": 8388608,
+      "http_reservations": 0,
+      "outcome": "Local request-size rejection before HTTP reservation; source/policy unchanged."
+    },
+    "smaller_render_preflights": {
+      "http_reservations": 0,
+      "outcome": "Local preflight rejected oversized grayscale and JPEG variants; no provider retry or raised ceiling."
+    },
+    "partitioned_followup": {
+      "policy_max_requests": 2,
+      "reserved_requests": 1,
+      "complete_responses": 0,
+      "attempt_id": "8b81df6be7c7496f8e6b9b24a8ed1c5a",
+      "wire_request_sha256": "6c979b01d54b7eada9f0cefc012f96c276eecc1637731781539b6bd1cac02b77",
+      "stage": "full_coverage_01_16",
+      "actual_bound_image_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "request_bytes": 5924341,
+      "outcome": "Coordinator incorrectly attempted parallel calls through serial-only transport. Second call refused unresolved-reservation guard; process terminated without completed response capture for first reservation. Provider execution/billing uncertain, reservation counted conservatively, no accepted fullcoverage or later retry.",
+      "unsubmitted_partition": "17-32",
+      "no_ledger_mutation_or_cap_reset": true
+    },
+    "total_model_reservations_this_followup": 3,
+    "verified_complete_model_responses": 2,
+    "unresolved_model_reservations": 1,
+    "model_cost_usd": null
+  },
+  "ocr_pages": [
+    {
+      "physical_page": 1,
+      "ocr_sha256": "9a5fb94750cd345b17c37c9f660864626a34dbc2ace310df2ae8d8f123e5c7b4",
+      "png_sha256": "079f4207281e6d9f91e4fb0fc25cac05e26067b5683acf2cb673b467779e560e"
+    },
+    {
+      "physical_page": 2,
+      "ocr_sha256": "655e7d6c938b9492d8dc78e54e088deab171eb40ed9f44c3ae71a81d15f715e8",
+      "png_sha256": "31994d74f992d98c23cc62af768e22ac80897aaf0f8e7701efd5ae0aa761af21"
+    },
+    {
+      "physical_page": 3,
+      "ocr_sha256": "7f3e72619688f60adca4353ce6544016f4026891c9cc7a522daf65d2d1a2bd8a",
+      "png_sha256": "19702fd6df9a947ea639855fd3b0ef3054c6e73678bb4e21e1f5ca5850bb6969"
+    },
+    {
+      "physical_page": 4,
+      "ocr_sha256": "f96297b09bbfc936630871705b54aea3274363668cdd63f1be974c500a21713e",
+      "png_sha256": "cf97c03fd06e183cc64acc6c1ccfa76092c2b034441815b882d6dc54f2fb0809"
+    },
+    {
+      "physical_page": 5,
+      "ocr_sha256": "0528ce8176f54880188a3bc58473e338fea11e9317f4b88814db7dbd5e43321f",
+      "png_sha256": "5bf0e6ff3515e7261a1ec67a122b2b0bdb6c20b183388b9f01f7ccf341227628"
+    },
+    {
+      "physical_page": 6,
+      "ocr_sha256": "d86b83a908b510b19a86750aec9fc26d4d0c09cfa5dffb631e58e874e12d978c",
+      "png_sha256": "d3ec5024a0efdc5e3fcb7aaa74a91f2c85150ab5fc1e676f10750e128452ab9b"
+    },
+    {
+      "physical_page": 7,
+      "ocr_sha256": "e0dcc4ea3260b5d3beaa477aa0987ca227f874324e0c6683aa4aec24d0dad5f9",
+      "png_sha256": "60b55b092730146d392e943833c74268620e750e3a80f9d6ebbe51418fe4ae0d"
+    },
+    {
+      "physical_page": 8,
+      "ocr_sha256": "e66409150abf5ae1bcd697e660d607e9e1b93692609d93d6b72d0228b28c92a5",
+      "png_sha256": "188f3309dcef46d8df05911566c9d9d476e85c9b83feb8b058dc12cc06f78e9c"
+    },
+    {
+      "physical_page": 9,
+      "ocr_sha256": "7a85ae1310528a44e1e66f8deacfd94daee9e0f5236e5210b690033131ef4fd6",
+      "png_sha256": "db2cf4712890a10d67dc568f3daa6bc66bc1bfa5072b8ec23c47a102d9cb05f1"
+    },
+    {
+      "physical_page": 10,
+      "ocr_sha256": "76e0a12d8a2428d76cd530d4a0c60d7bfb37510854763eff2ef60dba6b7485b7",
+      "png_sha256": "7efb5c827b1522842bbe8bee53d8a550b6f1a3f87ada31d3f0551b47445d02ed"
+    },
+    {
+      "physical_page": 11,
+      "ocr_sha256": "d27f762d26737ca93bfd854e0d98e44ea5a377df33259e3c7368b37a68d83096",
+      "png_sha256": "7cff2e04264de6c36bb8284cb300f2a976aadb6406bfe92d687ae2d3345fea5a"
+    },
+    {
+      "physical_page": 12,
+      "ocr_sha256": "0ea18ad10b0c21cc4981b31acdd6e413944882096112ce1a5ecaa0441d9c592e",
+      "png_sha256": "1f94bde65d1ee74f103982c6b3468cdffc1e673bf90cca13820a558f5cb59b9f"
+    },
+    {
+      "physical_page": 13,
+      "ocr_sha256": "ba30fd4d99f71ad8e98070569031ad33f0cf25a8f2d382c81633567bf7e6bece",
+      "png_sha256": "54f4048561afb0d8394497261b4efe3351d7ebc85928812d8748688c3f1a91f6"
+    },
+    {
+      "physical_page": 14,
+      "ocr_sha256": "bed141d7e5dc2f3839d9c13f53b80dbdd236c6a27531097e8f168d2de2012149",
+      "png_sha256": "c9ebf0d78d0455a3ef8d837ca669f2394d9698250ea9e8f8bbb8f30b3f6d2316"
+    },
+    {
+      "physical_page": 15,
+      "ocr_sha256": "86163ec69672af6e2aa139060e5ba15373f248119c5436a9af20ccf8da0efab3",
+      "png_sha256": "8d2db6d372dc57ce192b1107d4a224b44af0609f21e430effe9eac58a2f7d591"
+    },
+    {
+      "physical_page": 16,
+      "ocr_sha256": "5132fa7d212f14f2fc4b742b075885f89ceb155798f7314b15296f04c03c734c",
+      "png_sha256": "ca2e98b2e6130550ed73d438788c4dea6c62a337975a4f6205f34f927927a4c7"
+    },
+    {
+      "physical_page": 17,
+      "ocr_sha256": "9e0777f77e552ae6577b9025bd3930a866b32cbaf4908d61525d94365d9a9c27",
+      "png_sha256": "191660e2cf2512ad258f5b0b9e969027e18237ee51d83b94710e935ae5415c2d"
+    },
+    {
+      "physical_page": 18,
+      "ocr_sha256": "add4eeaaf47b4d98ef8c9a79a892e739cb95d0a0dae73adbf532caeb4fe9a2e7",
+      "png_sha256": "ae609f8638a713a3f1d06a04adb5f4937c485d1df0c173c84b1568ff367dcadd"
+    },
+    {
+      "physical_page": 19,
+      "ocr_sha256": "a20c861cbd6a60de189a63f5e19f566a4da06f5c002e7ba471ce314d1e39140e",
+      "png_sha256": "195796a781df39bd2f2802f81c8a6197026d3624c771030edeebfe7ef4ef066d"
+    },
+    {
+      "physical_page": 20,
+      "ocr_sha256": "43d745f844c9b630d2c066c25fd2183f4e19ba6a56601743091318a45f9b5fb2",
+      "png_sha256": "fc2d58616097ae5ea34c0ae3e42c0d925d5047ff51cdc69c520a3523e7bf8399"
+    },
+    {
+      "physical_page": 21,
+      "ocr_sha256": "fe7230d4e38c140b7f8dd82147a7c074811f4846c7a97c8a3bc0bcfe0654b4d7",
+      "png_sha256": "5fa0b2a8b3a87eb00d2f4e35b666232ab6b49f31d61723428a456b963ed56cea"
+    },
+    {
+      "physical_page": 22,
+      "ocr_sha256": "dc9b63e64e2f44ef840f5437ef095e6ebee3f5ae8712b1756825d653169fa4a4",
+      "png_sha256": "b022b1b18c41d5fddb4ddd5a03f46fc1112af01f7d2b1027112707dbf099267b"
+    },
+    {
+      "physical_page": 23,
+      "ocr_sha256": "d77b1b55112078274b38568b76b4201fa891902e2a53d79b3225dc11fc2608c0",
+      "png_sha256": "3b3615dd35b70a745b15de9681ee14efb13145d9fd18b49604072ccb97a38c04"
+    },
+    {
+      "physical_page": 24,
+      "ocr_sha256": "af3665d457c6fa2d366c6d8fcb7775734547d7a4c7c905997a9b27a12ae5bce8",
+      "png_sha256": "bdd27d41dd5ef0ec024c3cda4c134ea0075ab6f996638c2ca1e414f4b8aef860"
+    },
+    {
+      "physical_page": 25,
+      "ocr_sha256": "b04572e7fa3298daa902c089487e7b89e8126defefe3b7c16d9a17490a23aef2",
+      "png_sha256": "ec7b4a9ac57ec4805f39f2a9478cb2c69ce5038bd12f5d8cee90eb74b946ebd5"
+    },
+    {
+      "physical_page": 26,
+      "ocr_sha256": "3b5aec6e9acd6f7eab4ab95e27db9b6bcb0b5df3edfc91afe0cdbd9b59f0f899",
+      "png_sha256": "9ca28919603299403f838d1990ce7d7f5f122f41f5dc132bd3453ee3095fd035"
+    },
+    {
+      "physical_page": 27,
+      "ocr_sha256": "01d5a1707caf74255d5e3b97599a899b6b3fcf8d9f14f077efbce690afe07596",
+      "png_sha256": "686d31888bc2e173d8fca085e2f6ae338bd61c56fd4dcf3bbcf458f04f49aba9"
+    },
+    {
+      "physical_page": 28,
+      "ocr_sha256": "70857a7d3562842cc14435c569a033ca46b40ad1ede291ff1f3e6c566d76fef4",
+      "png_sha256": "51eaf848e7a77bf6a886b9c62f8684ad748b86c13b5f4ed7c10c3e75c08ae45e"
+    },
+    {
+      "physical_page": 29,
+      "ocr_sha256": "b574780633d23d30756c62f0a657b8e6f14d4310a84ff827bfb62ff486e02596",
+      "png_sha256": "77d0cd105b97d07af8e67102a17287d6d6c354fa132dd62dccdb7a8bfeef5d8b"
+    },
+    {
+      "physical_page": 30,
+      "ocr_sha256": "fcbad55c3bc79431a783e2f54720117ecab45a0fa88139c479927ec055ddea91",
+      "png_sha256": "0d1c9d0be27179b2053991aa888491768388667fde88ed1002ae192012e4f86b"
+    },
+    {
+      "physical_page": 31,
+      "ocr_sha256": "51a5752f36ad1efea2c410518dd978845108202defe308895b683749d41b8a00",
+      "png_sha256": "b7ba525176cbe03ded4352c24eb4cda661e45a3888aed752812e576a8795e361"
+    },
+    {
+      "physical_page": 32,
+      "ocr_sha256": "4c8ee3c455313cdda5b10903353d42ecd4819540ba42addc3346d57cf5c3db81",
+      "png_sha256": "0b893222db95032dd41566254a8b3c50d423d61a416f67edb0e47eb998d787e3"
+    }
+  ],
+  "coordinator_visual_ordinance_pages": [
+    1,
+    2,
+    31,
+    32
+  ],
+  "complete_independent_ordinance_image_coverage": false,
+  "remaining_questions": [
+    "Primary MPC609.2text and all32pages of retained385OCR are now available. Clauses1-2 impose30dayfindings and180dayenactment duties; clause3 concerns specified curative amendments/reports on matching invalidity grounds, not a general ordinary-permit ban. Original signed21/25and exactMarch31date are already reviewed. Do not repeat unchanged statute/resolutions/ordinance for these facts.",
+    "The two verified9image requests held all6replacement/endpoint/prose proposals. September24is385adoption/effect, not an established exact termination of the earlier protection. Obtain distinct evidence linking385to completion of this specific cure, including energy-generation scope, or an authoritative original-protection endpoint and treatment of saved rights/proceedings. Labeling replacement an inference does not resolve the missing link.",
+    "Review distinct later amendments, legal proceedings and actual project applicability. All32pages were OCR-screened; coordinator visuallychecked1,2,31,32and independent completedrequests boundthose4plusall5resolutionpages. Expanded full-image coverage failed in orchestration; one unresponded reservation is retained/conservativelycounted. Do not rerun that request or claim complete independent32pageimage coverage without reconciliation and explicit bounded remaining work."
+  ],
+  "scope": "Source-only statutory/operative-link followup. Original6working corrections unchanged and pending batch. Unsupported six-cell replacement candidate held, no canonical endpoint/status/prose promotion. FullOCR32screen performed; failed expanded-model coverage explicitly retained, not accepted."
+}
