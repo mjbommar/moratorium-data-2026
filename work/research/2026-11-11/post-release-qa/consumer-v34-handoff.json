@@ -1,0 +1,286 @@
+{
+  "source_commit": "b921cf586bb0699565e36303a8d408f4e0fe9c3b",
+  "manifest_sha256": "581b8099ac47a8aecac2562320b6bb0a8b163511379a20a07438fc80ddfd65c6",
+  "expanded_snapshot": "3ce33d22288fa7bc7100c9ac621c041037702e8370af1e663d53a548ff794725",
+  "current_counts": {
+    "moratorium_records": 1328,
+    "state_policy_records": 449,
+    "ballot_measures": 57,
+    "retained_results": 65,
+    "current_results": 53,
+    "retained_events": 12,
+    "current_accepted_historical_events": 12,
+    "restriction_records": 3,
+    "measure_instrument_link_records": 1
+  },
+  "files": 2670,
+  "entries": 2892,
+  "verified_at": "2026-11-11T05:51:57.838134+00:00",
+  "consumer_verification": {
+    "handoff": {
+      "state": "verified",
+      "source_commit": "b921cf586bb0699565e36303a8d408f4e0fe9c3b",
+      "manifest_sha256": "581b8099ac47a8aecac2562320b6bb0a8b163511379a20a07438fc80ddfd65c6",
+      "expanded_snapshot": "3ce33d22288fa7bc7100c9ac621c041037702e8370af1e663d53a548ff794725",
+      "files": 2670,
+      "entries": 2892,
+      "checks": [
+        {
+          "command": [
+            "scripts/check_expanded_publication.py"
+          ],
+          "exit_code": 0,
+          "result": {
+            "state": "consistent",
+            "snapshot_sha256": "3ce33d22288fa7bc7100c9ac621c041037702e8370af1e663d53a548ff794725",
+            "generations_checked": 49,
+            "records": {
+              "jurisdictions": 53,
+              "elections": 51,
+              "ballot_measures": 57,
+              "measure_provisions": 52,
+              "measure_results": 65,
+              "local_restrictions": 3,
+              "instrument_events": 12,
+              "measure_instrument_links": 1,
+              "source_documents": 168,
+              "claims": 625,
+              "review_decisions": 2756,
+              "search_runs": 1,
+              "search_attempts": 3,
+              "search_sightings": 18,
+              "coverage_observations": 1
+            },
+            "scope": "Offline publication/receipt consistency only; no source reacquisition, renewed factual acceptance or current-force confirmation."
+          }
+        },
+        {
+          "command": [
+            "scripts/build_expanded_csv.py",
+            "--check"
+          ],
+          "exit_code": 0,
+          "result": {
+            "state": "matches",
+            "source_snapshot": "3ce33d22288fa7bc7100c9ac621c041037702e8370af1e663d53a548ff794725",
+            "projection_sha256": "7b585b49998f8ca39b0ff433fe15c34335ea171bdd8960af1e7e9fdcf852f6cb",
+            "csv_views": 18
+          }
+        },
+        {
+          "command": [
+            "scripts/build_policy_scope_exports.py",
+            "--check"
+          ],
+          "exit_code": 0,
+          "result": "policy-scope exports current"
+        }
+      ],
+      "checks_run": true,
+      "scope": "Pinned input integrity and offline publication consistency, not source reacquisition or downstream join acceptance."
+    },
+    "policy_semantics": {
+      "total_state_policy_actions": 449,
+      "total_state_bills": 427,
+      "state_policy_instrument_type_counts": {
+        "bill": 427,
+        "executive_order": 3,
+        "governor_directive": 1,
+        "legislative_amendment": 1,
+        "legislative_precursor": 3,
+        "legislative_resolution": 12,
+        "statute": 2
+      },
+      "top_states_by_bills": [
+        [
+          "Pennsylvania",
+          18
+        ],
+        [
+          "Virginia",
+          18
+        ],
+        [
+          "West Virginia",
+          18
+        ],
+        [
+          "Maryland",
+          16
+        ],
+        [
+          "New Jersey",
+          16
+        ],
+        [
+          "California",
+          14
+        ],
+        [
+          "South Dakota",
+          14
+        ],
+        [
+          "Arizona",
+          13
+        ],
+        [
+          "Iowa",
+          13
+        ],
+        [
+          "Michigan",
+          13
+        ],
+        [
+          "Minnesota",
+          12
+        ],
+        [
+          "Ohio",
+          12
+        ],
+        [
+          "Oklahoma",
+          12
+        ],
+        [
+          "Illinois",
+          11
+        ],
+        [
+          "Kansas",
+          11
+        ]
+      ],
+      "top_states_by_policy_actions": [
+        [
+          "Pennsylvania",
+          22
+        ],
+        [
+          "Virginia",
+          18
+        ],
+        [
+          "West Virginia",
+          18
+        ],
+        [
+          "Maryland",
+          17
+        ],
+        [
+          "New Jersey",
+          17
+        ],
+        [
+          "California",
+          14
+        ],
+        [
+          "Michigan",
+          14
+        ],
+        [
+          "South Dakota",
+          14
+        ],
+        [
+          "Arizona",
+          13
+        ],
+        [
+          "Iowa",
+          13
+        ],
+        [
+          "Kansas",
+          12
+        ],
+        [
+          "Minnesota",
+          12
+        ],
+        [
+          "Ohio",
+          12
+        ],
+        [
+          "Oklahoma",
+          12
+        ],
+        [
+          "Illinois",
+          11
+        ]
+      ]
+    }
+  },
+  "index_verification": {
+    "snapshot": "data/source-snapshots/moratoria/2026-11-11-reviewed-v34",
+    "source_commit": "b921cf586bb0699565e36303a8d408f4e0fe9c3b",
+    "manifest_sha256": "581b8099ac47a8aecac2562320b6bb0a8b163511379a20a07438fc80ddfd65c6",
+    "tracked_files_and_symlinks": 2671,
+    "exact_staged_git_blob_bytes_and_modes": true,
+    "scope": "Exact staged snapshot content, Git modes and path set against the pinned manifest, including the manifest itself. This is not an independent legal review."
+  },
+  "baseline_handoff": "V33",
+  "expanded_tables_byte_identical": true,
+  "changed_cells": 4,
+  "changed_local_cells": 4,
+  "changed_policy_cells": 0,
+  "changed_local_rows": 1,
+  "changed_policy_rows": 0,
+  "new_policy_rows": 0,
+  "status_category_changes": 0,
+  "legal_effect_status_changes": 0,
+  "normalized_date_changes_existing": 0,
+  "scope_membership_additions": 0,
+  "whole_record_closures": 0,
+  "unresolved_records": 1347,
+  "corrected_resolved_records": 191,
+  "confirmed_unchanged_records": 239,
+  "September_status_differences": {
+    "local": 99,
+    "policy": 34,
+    "total": 133
+  },
+  "field_changes": [
+    {
+      "dataset": "local",
+      "id": "ca-mendocino-county-2026",
+      "field": "date_enacted",
+      "before": "2026-09-01 (Board of Supervisors, 5-0)",
+      "after": "2026-09-01 (signed Ordinance 4561 records five named ayes, no noes and no absences)."
+    },
+    {
+      "dataset": "local",
+      "id": "ca-mendocino-county-2026",
+      "field": "duration",
+      "before": "45-day urgency ordinance; extendable",
+      "after": "Signed Ordinance 4561 states forty-five days from adoption to October 16, 2026, unless extended. Signed Ordinance 4562 states twenty-two months and fifteen days from its October 6, 2026 adoption to August 21, 2028. Later changes and current legal force remain unverified."
+    },
+    {
+      "dataset": "local",
+      "id": "ca-mendocino-county-2026",
+      "field": "legal_basis",
+      "before": "Urgency ordinance concerning new data center uses in unincorporated Mendocino County, including hyperscale, colocation, cloud, AI, high-performance computing and cryptocurrency uses, with specified exclusions. The posted extension defines covered uses using a 3-MW-or-less threshold, while contemporaneous reporting describes an exception below 3 MW; the executed final wording remains unverified.",
+      "after": "Signed urgency Ordinance 4561, extended by signed Ordinance 4562 under Government Code section 65858, restricting new data-center uses in unincorporated Mendocino County. Ordinance 4562 section 3 also addresses conversion, expansion and intensification, and separately refers to similar high-intensity computing uses. Its section 4 literally defines Data Center Use using an electrical load of 3 MW or less; that wording is preserved without inferring an exemption for larger facilities."
+    },
+    {
+      "dataset": "local",
+      "id": "ca-mendocino-county-2026",
+      "field": "current_status",
+      "before": "The Board adopted Ordinance 4562 on 2026-10-06, 4-1, extending the moratorium through 2028-08-21. The posted ordinance and contemporaneous reporting conflict on the 3-MW threshold; verify the signed final text. Documented extension reviewed 2026-11-05; later termination or amendment not independently ruled out. [VERIFY signed final threshold: posted text and reporting conflict on the 3 MW exception]",
+      "after": "Signed Ordinance 4562 records October 6, 2026 adoption with four named ayes and one no, immediate effect upon the required four-fifths vote, and a stated August 21, 2028 endpoint. Section 4 says 3 MW or less, while section 3 also reaches similar high-intensity computing uses. The signed wording is verified as printed; its intended threshold interpretation and actual project applicability are not adjudicated. [VERIFY later amendments/replacement or termination, authoritative clarification of threshold scope, actual applicability and current legal force.]"
+    }
+  ],
+  "added_records": [],
+  "trusted_verifier_sha256": "ebecf851d4196715df186cc81cc3c933ab7da550fbafd7207996cd94b9cd2739",
+  "scope": "Qualified November11: four accepted Mendocino historical prose corrections from signed original/extension text. Literal threshold preserved; intended scope and later force unresolved. No category/date/count/native changes or closures.",
+  "consumer_commit": "3f6dd6324a918a64651ff0d6087f4f927acab5f6",
+  "release_url": "https://github.com/mjbommar/moratorium-data-2026/releases/tag/v2026.11.11",
+  "release_manifest_sha256": "1c707fded0f8ba636abee5862705c61f4d083198b8f4f46abee9350ad23a49ab",
+  "hosted_copy_state": "pending"
+}

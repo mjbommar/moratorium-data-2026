@@ -931,3 +931,6 @@ Exit: repeatable refresh with visible freshness, costs, failures and unresolved 
 - [x] Inspect both complete signed Mendocino ordinances and apply four independently accepted prose corrections. Clear the signed4562 inspection and original vote source gaps; preserve intended-scope, exemption-interaction, applicability and later-force questions.
 - [ ] Synchronize the four Mendocino corrections in the next release, V34 consumer handoff and verified public Pages deployment; post18/V33 remains the delivered edition.
 - [ ] Check other retained PDFs described as unsigned against their actual signature-page images before admitting re-fetches; Mendocino's retained4562already contained graphical signatures omitted from extracted text.
+
+- [x] Deliver qualified v2026.11.11 and V34: four Mendocino prose corrections, deterministic builds, clean restore, ten anonymous downloads and exact consumer checks verified.
+- [ ] Deploy and verify complete November 11 Pages payload, Mendocino prose/map popup, current downloads and desktop/mobile behavior.

@@ -20,7 +20,7 @@
   "consumer_dispositions": "delivered_with_historical_editions_preserved",
   "experimental_extractor": "failed_no_automatic_promotion",
   "quality_gate_disposition": "User authorized publication of the current state with qualifications on pending QA, followed by continued double checking and resolution of outstanding questions.",
-  "reviewed_data_source_commit": "5bb19125fa9591559f7b4b51977b913fc965fc33",
+  "reviewed_data_source_commit": "b921cf586bb0699565e36303a8d408f4e0fe9c3b",
   "record_dispositions": {
     "unresolved": 1347,
     "corrected_resolved": 191,
@@ -31,7 +31,7 @@
   "record_disposition_path": "work/research/2026-11-08/full-record-dispositions/funnel.json",
   "qa_status": "ongoing",
   "publication_authorization": "publish current state with qualifications on pending QA, then continue to double check and clear the outstanding questions",
-  "working_revision": "2026.11.11-prepared-pending-delivery",
+  "working_revision": "2026.11.11-data-consumer-delivered-hosting-pending",
   "current_raw_counts": {
     "local": 1328,
     "state_policy": 449,
@@ -39,18 +39,18 @@
   },
   "prior_release": "v2026.11.10.post18",
   "prior_release_source_commit": "5bb19125fa9591559f7b4b51977b913fc965fc33",
-  "prior_published_source_commit": "1e241a08f83128c1bd562daec803f6f14e0b0adc",
-  "published_source_reference": "Qualified post18 pins 5bb19125fa9591559f7b4b51977b913fc965fc33; deterministic builds, clean restore, ten anonymous downloads, V33 and complete current hosted pages verified. Hosted source b0afc36646dbbdaefa9b611215d08f0dfeba6c62; receipt work/research/2026-11-10/release-2026.11.10.post18/hosted-copy-verification.json. Pending substantive QA remains explicit.",
+  "prior_published_source_commit": "5bb19125fa9591559f7b4b51977b913fc965fc33",
+  "published_source_reference": "Qualified v2026.11.11 pins b921cf586bb0699565e36303a8d408f4e0fe9c3b; deterministic builds, full clean restore, ten anonymous downloads and V34 verified. Hosted checks pending; verified website remains post18. No universal freshness or current-force claim.",
   "latest_consumer_handoff": {
-    "source_commit": "5bb19125fa9591559f7b4b51977b913fc965fc33",
-    "manifest_sha256": "b10d9bb611b3678029121699aee7ef78df6b72acd41aa0d7f9ad4a49a2e4bd29",
+    "source_commit": "b921cf586bb0699565e36303a8d408f4e0fe9c3b",
+    "manifest_sha256": "581b8099ac47a8aecac2562320b6bb0a8b163511379a20a07438fc80ddfd65c6",
     "trusted_verifier_sha256": "ebecf851d4196715df186cc81cc3c933ab7da550fbafd7207996cd94b9cd2739",
-    "scope": "Qualified post18: sixteen independently reviewed prose cells across Ridgely, Worcester County and Massachusetts. Institutional attribution resolved; final outcomes, operative intervals and later force remain open. No category/date changes, additions or whole-record closures.",
-    "consumer_commit": "c231c2e161aa292348aafd931cc7835066cc92cb",
-    "receipt": "work/research/2026-11-10/post-release-qa/consumer-v33-handoff.json"
+    "scope": "Qualified November11: four accepted Mendocino historical prose corrections from signed original/extension text. Literal threshold preserved; intended scope and later force unresolved. No category/date/count/native changes or closures.",
+    "consumer_commit": "3f6dd6324a918a64651ff0d6087f4f927acab5f6",
+    "receipt": "work/research/2026-11-11/post-release-qa/consumer-v34-handoff.json"
   },
   "release_date_timezone": "America/New_York",
-  "published_source_commit": "5bb19125fa9591559f7b4b51977b913fc965fc33",
+  "published_source_commit": "b921cf586bb0699565e36303a8d408f4e0fe9c3b",
   "september_status_category_differences": {
     "local": 99,
     "policy": 34,
@@ -59,27 +59,25 @@
   },
   "latest_geography_review": "work/research/2026-11-09/post-release-qa/nonblank-geography-application.json",
   "latest_delivered_consumer_input_delta": {
-    "state": "delivered_data_consumer_and_hosted_verified",
-    "receipt": "work/research/2026-11-10/post-release-qa/maryland-operative-text-batch-application.json",
-    "prior_verified_release": "v2026.11.10.post17",
-    "changed_cells": 16,
-    "changed_local_rows": 2,
-    "changed_policy_rows": 1,
+    "baseline_release": "v2026.11.10.post18",
+    "baseline_source_commit": "5bb19125fa9591559f7b4b51977b913fc965fc33",
+    "baseline_handoff": "V33",
+    "receipt": "work/research/2026-11-11/post-release-qa/mendocino-signed-application.json",
+    "receipts": [
+      "work/research/2026-11-11/post-release-qa/mendocino-signed-application.json"
+    ],
+    "changed_cells": 4,
+    "changed_local_rows": 1,
+    "changed_policy_rows": 0,
     "status_category_changes": 0,
     "normalized_date_changes": 0,
-    "whole_record_closures": 0,
-    "scope": "Sixteen unique prose cells pending:13local cells across Ridgely/Worcester and3Massachusetts policy cells. Eighteen intermediate edits including superseded sponsor wording. No category/date/count/scope/native changes or whole-record closures; exact operative intervals and later force remain open.",
-    "receipts": [
-      "work/research/2026-11-10/post-release-qa/massachusetts-independent-review-application.json",
-      "work/research/2026-11-10/post-release-qa/massachusetts-origin-attribution-application.json",
-      "work/research/2026-11-10/post-release-qa/maryland-operative-text-batch-application.json"
-    ],
-    "intermediate_cell_edits": 18,
-    "target_release": "v2026.11.10.post18",
-    "delivered_source_commit": "5bb19125fa9591559f7b4b51977b913fc965fc33",
-    "delivered_consumer_commit": "c231c2e161aa292348aafd931cc7835066cc92cb",
-    "delivery_receipt": "work/research/2026-11-10/post-release-qa/consumer-v33-handoff.json",
-    "hosted_copy_state": "verified"
+    "scope": "Four exact independently accepted Mendocino prose cells: signed original/extension, actualterms/votes and literal3MWorlessdefinition. No counts/categories/dates/native changes. Intendedscope and laterforce unresolved. These corrections await the next synchronizedrelease/consumer/Pagesdelivery; post18/V33 remains the delivered edition.",
+    "target_release": "v2026.11.11",
+    "state": "delivered_data_consumer_pending_hosted_verification",
+    "delivered_source_commit": "b921cf586bb0699565e36303a8d408f4e0fe9c3b",
+    "delivered_consumer_commit": "3f6dd6324a918a64651ff0d6087f4f927acab5f6",
+    "delivery_receipt": "work/research/2026-11-11/post-release-qa/consumer-v34-handoff.json",
+    "hosted_copy_state": "pending"
   },
   "latest_source_followup": "work/research/2026-11-11/post-release-qa/california-operative-recovery.json",
   "latest_expanded_candidate_review": "work/research/2026-11-09/starke-succession-review/validation.json",
@@ -104,23 +102,25 @@
   },
   "prior_delivered_consumer_input_delta": {
     "state": "delivered_data_consumer_and_hosted_verified",
-    "receipt": "work/research/2026-11-10/post-release-qa/howard-amended-act-application.json",
-    "prior_verified_release": "v2026.11.10.post16",
-    "changed_cells": 7,
+    "receipt": "work/research/2026-11-10/post-release-qa/maryland-operative-text-batch-application.json",
+    "prior_verified_release": "v2026.11.10.post17",
+    "changed_cells": 16,
     "changed_local_rows": 2,
-    "changed_policy_rows": 0,
+    "changed_policy_rows": 1,
     "status_category_changes": 0,
     "normalized_date_changes": 0,
     "whole_record_closures": 0,
-    "scope": "Four Burien hearing/vote prose cells and three Howard County sunset/exception prose cells. Headline totals, categories, normalized dates and native governance unchanged. Later-force questions remain. Pending synchronized delivery.",
+    "scope": "Sixteen unique prose cells pending:13local cells across Ridgely/Worcester and3Massachusetts policy cells. Eighteen intermediate edits including superseded sponsor wording. No category/date/count/scope/native changes or whole-record closures; exact operative intervals and later force remain open.",
     "receipts": [
-      "work/research/2026-11-10/post-release-qa/burien-july-hearing-reviewed-application.json",
-      "work/research/2026-11-10/post-release-qa/howard-amended-act-application.json"
+      "work/research/2026-11-10/post-release-qa/massachusetts-independent-review-application.json",
+      "work/research/2026-11-10/post-release-qa/massachusetts-origin-attribution-application.json",
+      "work/research/2026-11-10/post-release-qa/maryland-operative-text-batch-application.json"
     ],
-    "target_release": "v2026.11.10.post17",
-    "delivered_source_commit": "1e241a08f83128c1bd562daec803f6f14e0b0adc",
-    "delivered_consumer_commit": "237a88680571e50d054c2b2ca996c57704e213d1",
-    "delivery_receipt": "work/research/2026-11-10/post-release-qa/consumer-v32-handoff.json",
+    "intermediate_cell_edits": 18,
+    "target_release": "v2026.11.10.post18",
+    "delivered_source_commit": "5bb19125fa9591559f7b4b51977b913fc965fc33",
+    "delivered_consumer_commit": "c231c2e161aa292348aafd931cc7835066cc92cb",
+    "delivery_receipt": "work/research/2026-11-10/post-release-qa/consumer-v33-handoff.json",
     "hosted_copy_state": "verified"
   },
   "latest_field_application": "work/research/2026-11-11/post-release-qa/mendocino-signed-application.json",
@@ -135,16 +135,16 @@
   "latest_expanded_result_review": "work/research/2026-11-10/canterbury-minutes-result-review/coordinator-adjudication.json",
   "latest_verified_release": "v2026.11.10.post18",
   "source_observation_window_scope": "Acquisition range includes source-specific QA captures through November10; this does not renew every record or move the original comprehensive research_cutoff.",
-  "latest_download_verified_release": "v2026.11.10.post18",
+  "latest_download_verified_release": "v2026.11.11",
   "prior_latest_consumer_handoff": {
-    "source_commit": "1e241a08f83128c1bd562daec803f6f14e0b0adc",
-    "manifest_sha256": "a764385fe022e1fc260eaf95aa118baa7112559d8d30043b9814bd361d68509b",
+    "source_commit": "5bb19125fa9591559f7b4b51977b913fc965fc33",
+    "manifest_sha256": "b10d9bb611b3678029121699aee7ef78df6b72acd41aa0d7f9ad4a49a2e4bd29",
     "trusted_verifier_sha256": "ebecf851d4196715df186cc81cc3c933ab7da550fbafd7207996cd94b9cd2739",
-    "scope": "Qualified post17: seven independently reviewed local prose cells across Burien and Howard County. No category/date changes, additions or whole-record closures. Later-force, held ballot and Massachusetts QA questions remain.",
-    "consumer_commit": "237a88680571e50d054c2b2ca996c57704e213d1",
-    "receipt": "work/research/2026-11-10/post-release-qa/consumer-v32-handoff.json"
+    "scope": "Qualified post18: sixteen independently reviewed prose cells across Ridgely, Worcester County and Massachusetts. Institutional attribution resolved; final outcomes, operative intervals and later force remain open. No category/date changes, additions or whole-record closures.",
+    "consumer_commit": "c231c2e161aa292348aafd931cc7835066cc92cb",
+    "receipt": "work/research/2026-11-10/post-release-qa/consumer-v33-handoff.json"
   },
-  "prior_published_source_reference": "Qualified post17 pins 1e241a08f83128c1bd562daec803f6f14e0b0adc; deterministic builds, clean restore, ten anonymous downloads, V32 and complete current hosted pages verified. Hosted source 9631f3b6d9520a97ff1cec938dcd9edab9a4bd29; receipt work/research/2026-11-10/release-2026.11.10.post17/hosted-copy-verification.json. Pending substantive QA remains explicit.",
+  "prior_published_source_reference": "Qualified post18 pins 5bb19125fa9591559f7b4b51977b913fc965fc33; deterministic builds, clean restore, ten anonymous downloads, V33 and complete current hosted pages verified. Hosted source b0afc36646dbbdaefa9b611215d08f0dfeba6c62; receipt work/research/2026-11-10/release-2026.11.10.post18/hosted-copy-verification.json. Pending substantive QA remains explicit.",
   "latest_verified_hosted_data": {
     "release": "v2026.11.10.post18",
     "release_source_commit": "5bb19125fa9591559f7b4b51977b913fc965fc33",
@@ -242,20 +242,11 @@
     "scope": "Every generated current HTML page, linked local resources, figures/current downloads and desktop/mobile map/table behavior verified. Corrected Burien/Howard text verified. Complete uploaded historical payload is checked separately on final acknowledgment deployment; no universal legal-force or freshness claim."
   },
   "latest_independent_record_review": "work/research/2026-11-11/post-release-qa/mendocino-signed-application.json",
-  "pending_consumer_input_delta": {
-    "baseline_release": "v2026.11.10.post18",
-    "baseline_source_commit": "5bb19125fa9591559f7b4b51977b913fc965fc33",
-    "baseline_handoff": "V33",
-    "receipt": "work/research/2026-11-11/post-release-qa/mendocino-signed-application.json",
-    "receipts": [
-      "work/research/2026-11-11/post-release-qa/mendocino-signed-application.json"
-    ],
-    "changed_cells": 4,
-    "changed_local_rows": 1,
-    "changed_policy_rows": 0,
-    "status_category_changes": 0,
-    "normalized_date_changes": 0,
-    "scope": "Four exact independently accepted Mendocino prose cells: signed original/extension, actualterms/votes and literal3MWorlessdefinition. No counts/categories/dates/native changes. Intendedscope and laterforce unresolved. These corrections await the next synchronizedrelease/consumer/Pagesdelivery; post18/V33 remains the delivered edition.",
-    "target_release": "v2026.11.11"
+  "pending_hosted_delivery": {
+    "release": "v2026.11.11",
+    "release_source_commit": "b921cf586bb0699565e36303a8d408f4e0fe9c3b",
+    "state": "verified_data_release_pending_full_site_deployment",
+    "receipt": "work/research/2026-11-11/release-2026.11.11/public-verification.json",
+    "active_deployment_run": null
   }
 }

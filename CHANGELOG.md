@@ -1,10 +1,10 @@
 # Changelog
 
-## Qualified v2026.11.11 — delivery pending
+## Qualified v2026.11.11 — website verification pending
 
 Four Mendocino prose fields verify signed Ordinances 4561/4562, original and extension votes/terms, and literal 3-MW-or-less wording alongside the separate similar-uses clause. Graphical signatures were present in retained 4562 bytes but omitted by text extraction. Intended threshold interpretation, exemption interactions, actual applicability and later force remain open. One proposed outcome field was held and is unchanged.
 
-No status, normalized date, endpoint, identity, scope, headline count, native ballot-history or whole-record closure changes. 1,347 legacy reviews remain unresolved. Deterministic build, clean restore, anonymous downloads, V34 and hosted checks are pending.
+No status, normalized date, endpoint, identity, scope, headline count, native ballot-history or whole-record closure changes. 1,347 legacy reviews remain unresolved. Deterministic builds, full clean restore, ten anonymous downloads and V34 pass. Hosted verification remains pending.
 
 | Metric | Qualified November 11 |
 |---|---:|
