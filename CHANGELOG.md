@@ -1,5 +1,18 @@
 # Changelog
 
+## Qualified v2026.11.11.post10 — publication pending
+
+Sixteen fields across three local records are corrected: Morgan Township, Ohio has exact March 23 adoption, Resolution 25-2026 and a twelve-month calendar term; Adams Township, Butler County PA distinguishes the June 22 invalidity motion and July 13 Resolution 2026-09 approval; Butler County, Nebraska records the April 6 Sandhills exemption and distinct Planning Commission plan label. Executed terms, effective/ending conditions and later force remain qualified. No status, endpoint, count, VERIFY or native-history changes, and no whole-record closures. There remain 1,346 unresolved reviews.
+
+| Metric | Qualified November 11 post10 |
+|---|---:|
+| Moratoria in the list | **1,328** |
+| Classified active or extended | **1085** |
+| Pending or not yet effective | **63** |
+| Ended (replaced, expired, or rescinded) | **173** |
+| Rows we still want to confirm (`[VERIFY]`) | **978** |
+| States with at least one | **47** |
+
 ## Qualified v2026.11.11.post9
 
 Four Butler County, Ohio prose fields now incorporate official June16adoption and reproduced resolution scope, while retaining the Oxford Free Press attribution of June17effect to the county administrator. Signed executed text, controlling effective date, exact endpoint and later force remain unverified. No status, normalized-date, count, native-history or whole-record-disposition changes;1,346record reviews remain unresolved.
