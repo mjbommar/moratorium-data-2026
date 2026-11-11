@@ -110,3 +110,6 @@ moratorium count. See [reviewed results](ballot-results.md) and
 ## Other questions?
 
 [Open a question issue](https://github.com/mjbommar/moratorium-data-2026/issues/new?template=question.md) or email [Michael](mailto:michael.bommarito@gmail.com).
+
+
+Qualified v2026.11.11.post1 / V35 is being prepared with fourteen reviewed cells across Baltimore County, Hamilton County and Brookhaven. Delivery checks are pending; v2026.11.11/V34 remains verified. No headline or category changes; later-force and broader QA questions remain open. [Preparation receipts](../work/research/2026-11-11/release-2026.11.11.post1/README.md).

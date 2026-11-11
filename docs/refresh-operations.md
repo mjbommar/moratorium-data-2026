@@ -582,3 +582,6 @@ Source `e515dec956c011e36ff71f57f380b4298d652f0c` and consumer `a9934c94ec5a4e69
 ### Retained PDF form and signature appearances
 
 The [November 11 retained-form review](../work/research/2026-11-11/post-release-qa/baltimore-completed-form-review.md) corrects Baltimore County's supposedly blank disposition using the original three-page PDF, rendered widget appearances and a `mutool show form` dump. Five exact prose cells are independently accepted and await the next synchronized batch. No new source was fetched, and a completed disposition is not described as a wet signature. Four other retained PDFs keep their visually blank/draft findings; Coweta's earlier visual receipt is reused. The audit covers seven named queue rows and does not certify current legal force. Original extraction bytes and capture dates remain immutable; augmented text has its own derivation.
+
+
+Qualified v2026.11.11.post1 / V35 is being prepared with fourteen reviewed cells across Baltimore County, Hamilton County and Brookhaven. Delivery checks are pending; v2026.11.11/V34 remains verified. No headline or category changes; later-force and broader QA questions remain open. [Preparation receipts](../work/research/2026-11-11/release-2026.11.11.post1/README.md).

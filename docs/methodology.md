@@ -412,3 +412,6 @@ Release candidates pin committed inputs and check every archived member hash.
 Repeat-build equality proves byte reproducibility, not factual completeness.
 Remote release assets and hosted deployment require separate post-publication
 verification. The April paper and historical graphics retain their original cohorts.
+
+
+Qualified v2026.11.11.post1 / V35 is being prepared with fourteen reviewed cells across Baltimore County, Hamilton County and Brookhaven. Delivery checks are pending; v2026.11.11/V34 remains verified. No headline or category changes; later-force and broader QA questions remain open. [Preparation receipts](../work/research/2026-11-11/release-2026.11.11.post1/README.md).

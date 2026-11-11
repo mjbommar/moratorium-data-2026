@@ -1,5 +1,19 @@
 # Changelog
 
+## Qualified v2026.11.11.post1 — delivery pending
+
+Fourteen reviewed cells across Baltimore County (five), Hamilton County (six) and Brookhaven (three) recover completed disposition, executed term/scope and scanned filing evidence. Hamilton gains a calendar-term classification and explicitly calculated July 15, 2027 anniversary; its precise legal boundary and later action remain qualified. No status category, adoption-date, headline, identity, scope or native-history changes; no whole-record closure. There remain 1,347 unresolved legacy reviews. Deterministic build, restore, public downloads, V35 and hosted verification are pending.
+
+| Metric | Qualified November 11 post1 |
+|---|---:|
+| Moratoria in the list | **1,328** |
+| Classified active or extended | **1,086** |
+| Pending or not yet effective | **64** |
+| Ended (replaced, expired, or rescinded) | **172** |
+| Rows we still want to confirm (`[VERIFY]`) | **979** |
+| States with at least one | **47** |
+
+
 ## Qualified v2026.11.11
 
 Four Mendocino prose fields verify signed Ordinances 4561/4562, original and extension votes/terms, and literal 3-MW-or-less wording alongside the separate similar-uses clause. Graphical signatures were present in retained 4562 bytes but omitted by text extraction. Intended threshold interpretation, exemption interactions, actual applicability and later force remain open. One proposed outcome field was held and is unchanged.
