@@ -1,0 +1,371 @@
+{
+  "reviewed_at": "2026-11-11T05:34:24.256734+00:00",
+  "record_id": "ca-mendocino-county-2026",
+  "input_row_sha256": "fe597e60984215c6d4238cd15bedabc9c42241588deb3c7412e66436067acf14",
+  "model": "gpt-6.1-terra",
+  "tools": [],
+  "agents_spawned": 0,
+  "input_manifest_sha256": "8fd915bdc06c43a1c18210328b2536fdb1813da545e64b54eb010bfb8da69537",
+  "source_pins": [
+    {
+      "source_id": "ad71b4c080f247c197e8d04abc0e356b",
+      "url": "https://www.mendocinocounty.gov/files/assets/public/v/1/board-of-supervisors/documents/ordinances/ordinance-4561.pdf",
+      "captured_at": "2026-11-11T05:17:36.942077Z",
+      "body_sha256": "37ef94c1d55ec49e4ddb31aaf4e7b6e24863ab39f8d333a3aefba2596559294e",
+      "layout_sha256": "995f0749fec3570cb632f8502346fa2b6041d70303024a1f82d9676d74a08d72",
+      "physical_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "source_id": "a7898edc26a94a95b2ddc54a02e20491",
+      "url": "https://www.mendocinocounty.gov/files/assets/public/v/1/board-of-supervisors/documents/ordinances/ordinance-4562.pdf",
+      "captured_at": "2026-11-11T05:17:36.790288Z",
+      "body_sha256": "29d489ce4c0f936107c9f3efea4c8648a72a2a5fb304c7859746da25ac280f1c",
+      "layout_sha256": "13b111a99034456d266a486d8e1cb5ab105cafa83215e9bf6a3035ab4991dfa1",
+      "physical_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "source_id": "2ba2157a2abb4eaf9993a9e80a784809",
+      "url": "https://www.mendocinocounty.gov/Government/Board-of-Supervisors/Mendocino-County-Code",
+      "captured_at": "2026-11-11T05:16:56.130304Z",
+      "body_sha256": "949027f65ef0e558500a4d391f9edb8b26b6efd816dde105ca2e471ab93f2b9d",
+      "text_sha256": "e7c5043f8214d7f55429d49c9b0d56aac12a6ba545a1d45a070ace77dc8af224",
+      "scope": "Full official adopted-ordinance index text, discovery/publication context, not a comprehensive current-force survey."
+    }
+  ],
+  "image_pins": [
+    {
+      "source_id": "ad71b4c080f247c197e8d04abc0e356b",
+      "physical_page": 1,
+      "sha256": "e88d65f25028cdd383d3e7d19bcfb5b920b830f0f371e9aa21586bdb7d687f5b"
+    },
+    {
+      "source_id": "ad71b4c080f247c197e8d04abc0e356b",
+      "physical_page": 2,
+      "sha256": "110c833284113b865aedbbf950612e638dd2d7c9cd4c7466f92d8ee836a84628"
+    },
+    {
+      "source_id": "ad71b4c080f247c197e8d04abc0e356b",
+      "physical_page": 3,
+      "sha256": "6909567db29964505e54a61ad9cb762df71f2aab41c5cb6e17f68ccd99be799b"
+    },
+    {
+      "source_id": "ad71b4c080f247c197e8d04abc0e356b",
+      "physical_page": 4,
+      "sha256": "70a97ffabf6f03c4d0e8508b85945cea4a185720e5b6984cc026fe2a357d9a44"
+    },
+    {
+      "source_id": "ad71b4c080f247c197e8d04abc0e356b",
+      "physical_page": 5,
+      "sha256": "10337a131763a579581d44fb32fbd76401d8327b4529a15e1c72107a64f4a785"
+    },
+    {
+      "source_id": "ad71b4c080f247c197e8d04abc0e356b",
+      "physical_page": 6,
+      "sha256": "6289d2b70b56048333d866296b3c5d02737d11d51c359ab9e84a2460e72414de"
+    },
+    {
+      "source_id": "a7898edc26a94a95b2ddc54a02e20491",
+      "physical_page": 1,
+      "sha256": "854204f041be5f98fd57e9ff1f150d7947221354ae10aa79dcc42b7072c58d1b"
+    },
+    {
+      "source_id": "a7898edc26a94a95b2ddc54a02e20491",
+      "physical_page": 2,
+      "sha256": "6efdcc9dbe9ce4abcd760141ca4951b99991365136735e80996e1efa8d6f4393"
+    },
+    {
+      "source_id": "a7898edc26a94a95b2ddc54a02e20491",
+      "physical_page": 3,
+      "sha256": "d345762033b9a254f4679388592f4738dc288893312da453f7a7ea0c00dd3e1e"
+    },
+    {
+      "source_id": "a7898edc26a94a95b2ddc54a02e20491",
+      "physical_page": 4,
+      "sha256": "47007704b4364190e46f2fcad98f3f9ed5e9daec2e00d86340d6d1453263c059"
+    },
+    {
+      "source_id": "a7898edc26a94a95b2ddc54a02e20491",
+      "physical_page": 5,
+      "sha256": "eb1085099eae087f6eeb03f565499fe15bc654f090ca365a80a5ace3d42517f3"
+    },
+    {
+      "source_id": "a7898edc26a94a95b2ddc54a02e20491",
+      "physical_page": 6,
+      "sha256": "cadf1c56552b1adc403534415a19ba7ac177551e72705b66ad7efde0216c8916"
+    }
+  ],
+  "captures": [
+    {
+      "stage": "blind_extraction",
+      "attempt_id": "6fcec747fa1b4143a068712216977fda",
+      "wire_request_sha256": "c00d90a81bdce5c7adc2d0352b294dd388768338728a81060908c6d9c27ea07c",
+      "wire_response_sha256": "1cd2141c72d07f051a75d7342986097ca947e2cc0fddda3e254a1d507a63f623",
+      "descriptor_sha256": "814b7b08f0e90bc232bf28df68a64713b74e335a43eff6a08440cb910f36f11b",
+      "all_12_image_bindings_verified": true,
+      "actual_input_descriptor_matches": true,
+      "wire_output_matches_sdk_after_null_default_normalization": true,
+      "parsed_answer_matches": true,
+      "usage": {
+        "input_tokens": 22846,
+        "input_tokens_details": {
+          "cache_write_tokens": 22843,
+          "cached_tokens": 0
+        },
+        "output_tokens": 3119,
+        "output_tokens_details": {
+          "reasoning_tokens": 88
+        },
+        "total_tokens": 25965
+      }
+    },
+    {
+      "stage": "cell_adjudication",
+      "attempt_id": "538689efa6164e8384dda836c5af1797",
+      "wire_request_sha256": "9eca631cec91954d283bea1079a3b149666576e331075202c27300c07d7706d4",
+      "wire_response_sha256": "35c0e851a46bad0f04325cde08bbfe2d9b67ee958ca33a19b690b54cc8055c12",
+      "descriptor_sha256": "c0e1affb566e7d3a10d120741ddba7ef1109baa2982e26ecf124bf48783f3531",
+      "all_12_image_bindings_verified": true,
+      "actual_input_descriptor_matches": true,
+      "wire_output_matches_sdk_after_null_default_normalization": true,
+      "parsed_answer_matches": true,
+      "usage": {
+        "input_tokens": 27080,
+        "input_tokens_details": {
+          "cache_write_tokens": 27077,
+          "cached_tokens": 0
+        },
+        "output_tokens": 1740,
+        "output_tokens_details": {
+          "reasoning_tokens": 569
+        },
+        "total_tokens": 28820
+      }
+    }
+  ],
+  "blind_extraction": {
+    "facts": [
+      {
+        "field": "jurisdiction",
+        "value": "Both ordinances apply to all property in unincorporated Mendocino County, California.",
+        "source_id": "a7898edc26a94a95b2ddc54a02e20491",
+        "locator": "p. 4, § 6(A); Ordinance 4561, p. 4, § 6(A)",
+        "supporting_quote": "This Ordinance applies to all property within the unincorporated County of Mendocino."
+      },
+      {
+        "field": "original_identity_and_adoption",
+        "value": "Ordinance 4561 is the initial urgency moratorium. The Board adopted it on September 1, 2026, by a 5–0 vote: Cline, Mulheren, Haschak, Norvell and Williams voted aye; none were absent.",
+        "source_id": "ad71b4c080f247c197e8d04abc0e356b",
+        "locator": "pp. 1 and 6",
+        "supporting_quote": "PASSED AND ADOPTED ... on this 1st day of September, 2026 ... AYES: Supervisors Cline, Mulheren, Haschak, Norvell, and Williams; NOES: None; ABSENT: None"
+      },
+      {
+        "field": "original_effective_date_and_printed_endpoint",
+        "value": "The original ordinance takes effect immediately upon adoption by at least a four-fifths vote. It states a duration of 45 days from adoption to October 16, 2026, unless extended.",
+        "source_id": "ad71b4c080f247c197e8d04abc0e356b",
+        "locator": "p. 5, § 9",
+        "supporting_quote": "This Ordinance shall take effect immediately upon its adoption by at least a four-fifths (4/5) vote ... shall remain in effect for forty-five (45) days from the date of its adoption to October 16, 2026, unless extended"
+      },
+      {
+        "field": "original_signatures",
+        "value": "The page image shows graphical signatures on the chair, attestation deputy, counsel approval, and delivery-certification deputy lines.",
+        "source_id": "ad71b4c080f247c197e8d04abc0e356b",
+        "locator": "p. 6, signature image",
+        "supporting_quote": "BERNIE NORVELL, Chair; ATTEST: SARA PIERCE ... Deputy; APPROVED AS TO FORM: KATHARINE L. ELLIOTT; ... Deputy"
+      },
+      {
+        "field": "extension_identity_and_hearing",
+        "value": "Ordinance 4562 extends the initial moratorium identified as Ordinance 4561. It recites that the Board held a noticed public hearing on October 6, 2026.",
+        "source_id": "a7898edc26a94a95b2ddc54a02e20491",
+        "locator": "pp. 1–2",
+        "supporting_quote": "on September 1, 2026, by Ordinance No. 4561, the Board of Supervisors approved an initial urgency moratorium ... on October 6, 2026, the Board of Supervisors held a noticed public hearing"
+      },
+      {
+        "field": "extension_adoption_and_vote",
+        "value": "The Board adopted Ordinance 4562 on October 6, 2026, by a 4–1 vote: Cline, Haschak, Norvell and Williams voted aye; Mulheren voted no; none were absent.",
+        "source_id": "a7898edc26a94a95b2ddc54a02e20491",
+        "locator": "p. 6",
+        "supporting_quote": "on this 6th day of October, 2026 ... AYES: Supervisors Cline, Haschak, Norvell, and Williams; NOES: Supervisor Mulheren; ABSENT: None"
+      },
+      {
+        "field": "extension_effective_date_and_printed_endpoint",
+        "value": "The extension ordinance takes effect immediately upon adoption by at least a four-fifths vote. It states a duration of 22 months and 15 days from adoption to August 21, 2028.",
+        "source_id": "a7898edc26a94a95b2ddc54a02e20491",
+        "locator": "p. 5, § 9",
+        "supporting_quote": "This Ordinance shall take effect immediately upon its adoption by at least a four-fifths (4/5) vote ... shall remain in effect for twenty-two (22) months and fifteen (15) days from the date of its adoption to August 21, 2028."
+      },
+      {
+        "field": "extension_signatures",
+        "value": "The page image shows graphical signatures on the chair, attestation deputy, counsel approval, and delivery-certification deputy lines.",
+        "source_id": "a7898edc26a94a95b2ddc54a02e20491",
+        "locator": "p. 6, signature image",
+        "supporting_quote": "BERNIE NORVELL, Chair; ATTEST: SARA PIERCE ... Deputy; APPROVED AS TO FORM: KATHARINE L. ELLIOTT; ... Deputy"
+      },
+      {
+        "field": "moratorium_scope",
+        "value": "Both § 3 provisions prohibit specified County approvals for establishment, expansion or intensification of Data Center Uses or similar high-intensity computing uses. They also bar accepting as complete, processing, approving, issuing or granting specified authorizations for new Data Center Uses, conversions, expansions or facilitating permits.",
+        "source_id": "a7898edc26a94a95b2ddc54a02e20491",
+        "locator": "p. 3, § 3; Ordinance 4561, p. 3, § 3",
+        "supporting_quote": "shall not approve ... for the establishment, expansion, or intensification of any Data Center Use or similar high-intensity computing uses"
+      },
+      {
+        "field": "original_definition_and_threshold",
+        "value": "Ordinance 4561 defines Data Center Use by facility, primary or substantial use, equipment and computing activities; its definition contains no electrical-load threshold.",
+        "source_id": "ad71b4c080f247c197e8d04abc0e356b",
+        "locator": "p. 3, § 4",
+        "supporting_quote": "any facility, campus, building, structure, or portion thereof used primarily or substantially for the housing, operation, or support of computer servers ... or similar electronic equipment"
+      },
+      {
+        "field": "extension_definition_and_threshold",
+        "value": "Ordinance 4562 adds the printed condition that the facility has an electrical load of three megawatts or less. It does not say three megawatts or more.",
+        "source_id": "a7898edc26a94a95b2ddc54a02e20491",
+        "locator": "p. 3, § 4",
+        "supporting_quote": "any facility, campus, building, structure, or portion thereof, provided such facility has an electrical load of three (3) megawatts or less, used primarily or substantially for the housing, operation, or support of computer servers"
+      },
+      {
+        "field": "computing_activities",
+        "value": "Both definitions list data processing, storage and transmission, cloud and colocation services, AI model training or inference, high-performance computing, blockchain operations, digital asset and cryptocurrency mining, and similar high-intensity computing activities.",
+        "source_id": "a7898edc26a94a95b2ddc54a02e20491",
+        "locator": "p. 3, § 4; Ordinance 4561, p. 3, § 4",
+        "supporting_quote": "artificial intelligence model training or inference, high-performance computing, blockchain operations, digital asset mining, cryptocurrency mining, or other similar high-intensity computing activities"
+      },
+      {
+        "field": "separate_similar_uses_language",
+        "value": "The extension's § 3 separately refers to 'similar high-intensity computing uses' alongside Data Center Use. The three-megawatt-or-less wording appears in § 4's Data Center Use definition; § 3's separate phrase does not itself state that threshold.",
+        "source_id": "a7898edc26a94a95b2ddc54a02e20491",
+        "locator": "p. 3, §§ 3–4",
+        "supporting_quote": "any Data Center Use or similar high-intensity computing uses"
+      },
+      {
+        "field": "original_definition_exclusions",
+        "value": "Ordinance 4561 excludes qualifying incidental, subordinate accessory server, IT or equipment rooms serving only on-site operations; ordinary computer equipment used solely to support on-site operations; public safety and emergency facilities; and qualifying essential telecommunications carrier or public utility facilities.",
+        "source_id": "ad71b4c080f247c197e8d04abc0e356b",
+        "locator": "pp. 3–4, § 4(A)–(D)",
+        "supporting_quote": "Customary accessory server rooms, IT rooms, or equipment rooms that are clearly incidental and subordinate to a primary permitted use and that serve only on-site ... operations"
+      },
+      {
+        "field": "extension_definition_exclusions",
+        "value": "Ordinance 4562 excludes public safety, medical or health care, emergency communications and emergency operations facilities; it also excludes qualifying essential telecommunications carrier and public utility facilities. It does not repeat the original's express accessory-room or ordinary-computer-equipment exclusions.",
+        "source_id": "a7898edc26a94a95b2ddc54a02e20491",
+        "locator": "pp. 3–4, § 4(A)–(B)",
+        "supporting_quote": "Public safety, medical or health care, emergency communications, or emergency operations facilities"
+      },
+      {
+        "field": "telecommunications_and_utility_limit",
+        "value": "Both definitions limit the telecommunications and utility exclusion to essential public services facilities not principally used or designed as the listed commercial computing facilities.",
+        "source_id": "a7898edc26a94a95b2ddc54a02e20491",
+        "locator": "p. 4, § 4(B); Ordinance 4561, p. 4, § 4(D)",
+        "supporting_quote": "to the extent such facilities are not principally used or designed as a commercial data center, colocation facility, cloud computing facility, artificial intelligence computing facility, or digital asset mining facility"
+      },
+      {
+        "field": "prior_approval_exemption",
+        "value": "Each ordinance exempts Data Center Uses with all required discretionary approvals and ministerial permits for construction and operation finally granted before that ordinance's effective date, provided development substantially conforms to those approvals.",
+        "source_id": "a7898edc26a94a95b2ddc54a02e20491",
+        "locator": "p. 4, § 6(B)(1); Ordinance 4561, p. 4, § 6(B)(1)",
+        "supporting_quote": "all required discretionary approvals and ministerial permits necessary to authorize construction and operation were finally granted prior to the effective date of this Ordinance, provided that the project is developed in substantial conformance with those approvals"
+      },
+      {
+        "field": "extension_public_safety_exemption_limit",
+        "value": "The extension's § 6 exemption for public safety and emergency facilities specifies that they must be owned and operated by a public agency. Its separate § 4 definition exclusion also lists medical or health care facilities and does not state that ownership condition.",
+        "source_id": "a7898edc26a94a95b2ddc54a02e20491",
+        "locator": "pp. 3–4, §§ 4(A), 6(B)(2)",
+        "supporting_quote": "Public safety, emergency communications, and emergency operations facilities, which are owned and operated by a public agency"
+      },
+      {
+        "field": "maintenance_exemption_and_vested_rights",
+        "value": "Both ordinances exempt specified minor work at an existing lawful facility only if it does not expand Data Center Use floor area or increase the listed capacities or water demand. Both preserve legally obtained vested rights as determined under applicable state law.",
+        "source_id": "a7898edc26a94a95b2ddc54a02e20491",
+        "locator": "p. 5, § 6(B)(4)–(C); Ordinance 4561, p. 5, § 6(B)(5)–(C)",
+        "supporting_quote": "Minor repairs, maintenance, replacement in kind, or interior tenant improvements ... that do not expand the gross floor area ... and do not increase server capacity, electrical service capacity, cooling capacity, backup generation capacity, or water demand"
+      }
+    ],
+    "uncertainties": [
+      "The extension's three-megawatt-or-less condition is printed as part of the Data Center Use definition, while § 3 separately addresses similar high-intensity computing uses. The supplied text does not establish that every facility above three megawatts is exempt.",
+      "The extension was adopted before the original ordinance's printed October 16, 2026 endpoint. The supplied documents do not resolve every question about how their differing definitions and exemptions interact during that overlap.",
+      "The supplied index is publication context, not a comprehensive current-force survey. The documents alone do not establish subsequent amendments or uninterrupted current force."
+    ]
+  },
+  "independent_review": {
+    "record_id": "ca-mendocino-county-2026",
+    "input_row_sha256": "fe597e60984215c6d4238cd15bedabc9c42241588deb3c7412e66436067acf14",
+    "field_decisions": [
+      {
+        "field": "date_enacted",
+        "decision": "accept",
+        "value": "2026-09-01 (signed Ordinance 4561 records five named ayes, no noes and no absences).",
+        "source_id": "ad71b4c080f247c197e8d04abc0e356b",
+        "locator": "p. 6, roll call and signature image",
+        "reason": "The roll call and visible signatures support the proposed wording."
+      },
+      {
+        "field": "duration",
+        "decision": "accept",
+        "value": "Signed Ordinance 4561 states forty-five days from adoption to October 16, 2026, unless extended. Signed Ordinance 4562 states twenty-two months and fifteen days from its October 6, 2026 adoption to August 21, 2028. Later changes and current legal force remain unverified.",
+        "source_id": "a7898edc26a94a95b2ddc54a02e20491",
+        "locator": "Ordinance 4562, pp. 5–6, § 9 and signature image; Ordinance 4561, pp. 5–6, § 9 and signature image",
+        "reason": "The wording distinguishes the original term from the extension and preserves both printed endpoints."
+      },
+      {
+        "field": "legal_basis",
+        "decision": "accept",
+        "value": "Signed urgency Ordinance 4561, extended by signed Ordinance 4562 under Government Code section 65858, restricting new data-center uses in unincorporated Mendocino County. Ordinance 4562 section 3 also addresses conversion, expansion and intensification, and separately refers to similar high-intensity computing uses. Its section 4 literally defines Data Center Use using an electrical load of 3 MW or less; that wording is preserved without inferring an exemption for larger facilities.",
+        "source_id": "a7898edc26a94a95b2ddc54a02e20491",
+        "locator": "pp. 2–3, §§ 3–4; pp. 5–6, § 9 and signature image",
+        "reason": "The printed definition says three megawatts or less; § 3 separately refers to similar high-intensity computing uses."
+      },
+      {
+        "field": "current_status",
+        "decision": "accept",
+        "value": "Signed Ordinance 4562 records October 6, 2026 adoption with four named ayes and one no, immediate effect upon the required four-fifths vote, and a stated August 21, 2028 endpoint. Section 4 says 3 MW or less, while section 3 also reaches similar high-intensity computing uses. The signed wording is verified as printed; its intended threshold interpretation and actual project applicability are not adjudicated. [VERIFY later amendments/replacement or termination, authoritative clarification of threshold scope, actual applicability and current legal force.]",
+        "source_id": "a7898edc26a94a95b2ddc54a02e20491",
+        "locator": "p. 3, §§ 3–4; pp. 5–6, § 9, roll call and signature image",
+        "reason": "The historical details are supported, while the proposed wording leaves interpretation, applicability and current force unresolved."
+      },
+      {
+        "field": "outcome",
+        "decision": "hold",
+        "value": "Signed Ordinance 4561 records adoption on September 1, 2026 with five named supervisors voting aye, no noes and no absences; signed Ordinance 4562 records extension on October 6 with Supervisors Cline, Haschak, Norvell and Williams voting aye and Supervisor Mulheren voting no. These historical enactment records do not establish uninterrupted later force.",
+        "source_id": "ad71b4c080f247c197e8d04abc0e356b",
+        "locator": "Ordinance 4561, p. 6; Ordinance 4562, p. 6, source a7898edc26a94a95b2ddc54a02e20491",
+        "reason": "The proposed 'all five supervisors' wording asserts a total rather than just counting the five named aye entries. The correction reports the roll call without that inference."
+      }
+    ],
+    "whole_record_closure_supported": false,
+    "remaining_questions": [
+      "Were there subsequent amendments, replacement or termination, and what is the ordinance's current legal force?",
+      "What is the authoritative intended scope of the three-megawatt-or-less condition, including its relationship to § 3's separate similar-uses language?",
+      "How do the ordinances' differing definitions and exemptions interact during their apparent overlap, and do they apply to any particular project?"
+    ],
+    "review_limitations": [
+      "Review was limited to the supplied ordinance layouts, page images and index; the index is not a comprehensive current-force survey.",
+      "The contemporaneous reporting mentioned in the row was not supplied for independent review."
+    ]
+  },
+  "coordinator_adjudication": {
+    "applied_fields": [
+      "current_status",
+      "date_enacted",
+      "duration",
+      "legal_basis"
+    ],
+    "held_fields": [
+      "outcome"
+    ],
+    "whole_record_closure": false,
+    "scope": "Exactfouracceptedprosecells only. Literal3MWorless retained, separate similaruses not interpretedaway. Signedimages prove signatures omittedbyPDFtext extraction. The old4562bodywasalreadyidenticalandsigned; no new sourceversion/finalitydateinvented. Sourceprintedenddatesacceptedhistorically, no later-force assertion. Heldoutcomeleftblankwithoutadditionalmodelretry.",
+    "price_usd": null
+  }
+}

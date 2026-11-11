@@ -1,0 +1,51 @@
+{
+  "id": "ca-mendocino-county-2026",
+  "dataset": "local_inventory",
+  "baseline_commit": "77d7bca8693aa701cb249cf57299d4bd1ac17b63",
+  "prior_row_sha256": "fe597e60984215c6d4238cd15bedabc9c42241588deb3c7412e66436067acf14",
+  "current_row_sha256": "7495f3ce128f57a4a0d5c961db07544852ca38e6f1ac042f018b119d9d005c1e",
+  "canonical_cells_changed": 4,
+  "field_changes": [
+    {
+      "field": "date_enacted",
+      "before": "2026-09-01 (Board of Supervisors, 5-0)",
+      "after": "2026-09-01 (signed Ordinance 4561 records five named ayes, no noes and no absences)."
+    },
+    {
+      "field": "duration",
+      "before": "45-day urgency ordinance; extendable",
+      "after": "Signed Ordinance 4561 states forty-five days from adoption to October 16, 2026, unless extended. Signed Ordinance 4562 states twenty-two months and fifteen days from its October 6, 2026 adoption to August 21, 2028. Later changes and current legal force remain unverified."
+    },
+    {
+      "field": "legal_basis",
+      "before": "Urgency ordinance concerning new data center uses in unincorporated Mendocino County, including hyperscale, colocation, cloud, AI, high-performance computing and cryptocurrency uses, with specified exclusions. The posted extension defines covered uses using a 3-MW-or-less threshold, while contemporaneous reporting describes an exception below 3 MW; the executed final wording remains unverified.",
+      "after": "Signed urgency Ordinance 4561, extended by signed Ordinance 4562 under Government Code section 65858, restricting new data-center uses in unincorporated Mendocino County. Ordinance 4562 section 3 also addresses conversion, expansion and intensification, and separately refers to similar high-intensity computing uses. Its section 4 literally defines Data Center Use using an electrical load of 3 MW or less; that wording is preserved without inferring an exemption for larger facilities."
+    },
+    {
+      "field": "current_status",
+      "before": "The Board adopted Ordinance 4562 on 2026-10-06, 4-1, extending the moratorium through 2028-08-21. The posted ordinance and contemporaneous reporting conflict on the 3-MW threshold; verify the signed final text. Documented extension reviewed 2026-11-05; later termination or amendment not independently ruled out. [VERIFY signed final threshold: posted text and reporting conflict on the 3 MW exception]",
+      "after": "Signed Ordinance 4562 records October 6, 2026 adoption with four named ayes and one no, immediate effect upon the required four-fifths vote, and a stated August 21, 2028 endpoint. Section 4 says 3 MW or less, while section 3 also reaches similar high-intensity computing uses. The signed wording is verified as printed; its intended threshold interpretation and actual project applicability are not adjudicated. [VERIFY later amendments/replacement or termination, authoritative clarification of threshold scope, actual applicability and current legal force.]"
+    }
+  ],
+  "independent_review": {
+    "path": "work/research/2026-11-11/post-release-qa/mendocino-signed-independent-review.json",
+    "sha256": "4d2843a1a5bb621545823aea1f56de732d55598fbf839f8f5cf4bd09e9bee41a"
+  },
+  "source_continuity": {
+    "path": "work/research/2026-11-11/post-release-qa/california-source-continuity.json",
+    "sha256": "f5cd5d8f25e76b4d9273520632c69d969a9fc2f970bf29fc9e8d8e7d5cd46dc7"
+  },
+  "recommendation": "unresolved",
+  "whole_record_closures": 0,
+  "remaining_questions": [
+    "Were there subsequent amendments, replacement or termination, and what is the ordinance's current legal force?",
+    "What is the authoritative intended scope of the three-megawatt-or-less condition, including its relationship to § 3's separate similar-uses language?",
+    "How do the ordinances' differing definitions and exemptions interact during their apparent overlap, and do they apply to any particular project?"
+  ],
+  "scope": "Two bounded gaps cleared: actualsigned4562wording inspected and originalfive-aye adoption corroborated bysigned4561. Intendedthresholdinterpretation/differingexemptions/actualapplicability/laterforceremainopen. No status,normalizeddate,numericduration,endpoint,identity,scope or native governance changes.",
+  "applied_at": "2026-11-11T05:34:24.303385+00:00",
+  "resolved_subquestions": [
+    "Original September1five-aye adoption corroborated in signed4561.",
+    "Actual signed4562definition/term and signaturepage inspected; recover-executed-text gap cleared without reversing the printed3MWorless wording."
+  ]
+}

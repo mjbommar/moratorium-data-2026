@@ -1,0 +1,138 @@
+{
+  "verified_at": "2026-11-11T05:42:46.379331+00:00",
+  "baseline_commit": "77d7bca8693aa701cb249cf57299d4bd1ac17b63",
+  "canonical_cells_changed": 4,
+  "changed_local_rows": 1,
+  "field_changes": [
+    {
+      "id": "ca-mendocino-county-2026",
+      "field": "date_enacted",
+      "before": "2026-09-01 (Board of Supervisors, 5-0)",
+      "after": "2026-09-01 (signed Ordinance 4561 records five named ayes, no noes and no absences)."
+    },
+    {
+      "id": "ca-mendocino-county-2026",
+      "field": "duration",
+      "before": "45-day urgency ordinance; extendable",
+      "after": "Signed Ordinance 4561 states forty-five days from adoption to October 16, 2026, unless extended. Signed Ordinance 4562 states twenty-two months and fifteen days from its October 6, 2026 adoption to August 21, 2028. Later changes and current legal force remain unverified."
+    },
+    {
+      "id": "ca-mendocino-county-2026",
+      "field": "legal_basis",
+      "before": "Urgency ordinance concerning new data center uses in unincorporated Mendocino County, including hyperscale, colocation, cloud, AI, high-performance computing and cryptocurrency uses, with specified exclusions. The posted extension defines covered uses using a 3-MW-or-less threshold, while contemporaneous reporting describes an exception below 3 MW; the executed final wording remains unverified.",
+      "after": "Signed urgency Ordinance 4561, extended by signed Ordinance 4562 under Government Code section 65858, restricting new data-center uses in unincorporated Mendocino County. Ordinance 4562 section 3 also addresses conversion, expansion and intensification, and separately refers to similar high-intensity computing uses. Its section 4 literally defines Data Center Use using an electrical load of 3 MW or less; that wording is preserved without inferring an exemption for larger facilities."
+    },
+    {
+      "id": "ca-mendocino-county-2026",
+      "field": "current_status",
+      "before": "The Board adopted Ordinance 4562 on 2026-10-06, 4-1, extending the moratorium through 2028-08-21. The posted ordinance and contemporaneous reporting conflict on the 3-MW threshold; verify the signed final text. Documented extension reviewed 2026-11-05; later termination or amendment not independently ruled out. [VERIFY signed final threshold: posted text and reporting conflict on the 3 MW exception]",
+      "after": "Signed Ordinance 4562 records October 6, 2026 adoption with four named ayes and one no, immediate effect upon the required four-fifths vote, and a stated August 21, 2028 endpoint. Section 4 says 3 MW or less, while section 3 also reaches similar high-intensity computing uses. The signed wording is verified as printed; its intended threshold interpretation and actual project applicability are not adjudicated. [VERIFY later amendments/replacement or termination, authoritative clarification of threshold scope, actual applicability and current legal force.]"
+    }
+  ],
+  "status_category_changes": 0,
+  "normalized_date_changes": 0,
+  "numeric_original_duration_changes": 0,
+  "normalized_endpoint_changes": 0,
+  "headline_count_changes": 0,
+  "identity_or_scope_changes": 0,
+  "native_governance_changes": 0,
+  "whole_record_closures": 0,
+  "specific_source_questions_cleared": 2,
+  "unresolved_legacy_records": 1347,
+  "changed_queue_records": [
+    "ca-mendocino-county-2026",
+    "ca-morro-bay-2025",
+    "ca-san-juan-capistrano-2025"
+  ],
+  "map_changed_records": [
+    "ca-mendocino-county-2026"
+  ],
+  "map_changed_fields": [
+    "date_enacted",
+    "duration"
+  ],
+  "new_source_observations": 4,
+  "native_readback_gaps": 0,
+  "model_calls": 2,
+  "bound_original_images_per_call": 12,
+  "held_outcome_unchanged": true,
+  "4562_bytes_identical_to_retained_signed_copy": true,
+  "checks": {
+    "initial_checks_sha256": "1defb763ed90c48c531e886d0b68f85bacf24436b02896300097e226b18bb9fc",
+    "initial_failed_check": "GeoJSON stale after duration prose edit; rebuilt only derivedGeoJSON, not source data.",
+    "corrective_command": [
+      "scripts/build_geojson.py",
+      "--check"
+    ],
+    "corrective_log_sha256": "bfb31083b4e00dd2a1b45a49245ef1bafe5036fe4d70619b8897921e19f67233",
+    "checks": [
+      {
+        "command": [
+          "scripts/validate_dataset.py",
+          "--today",
+          "2026-11-11"
+        ],
+        "returncode": 0
+      },
+      {
+        "command": [
+          "scripts/build_policy_scope_exports.py",
+          "--check"
+        ],
+        "returncode": 0
+      },
+      {
+        "command": [
+          "scripts/build_summary_stats.py",
+          "--check"
+        ],
+        "returncode": 0
+      },
+      {
+        "command": [
+          "scripts/build_geojson.py",
+          "--check"
+        ],
+        "returncode": 0
+      },
+      {
+        "command": [
+          "scripts/make_timeline.py",
+          "--check"
+        ],
+        "returncode": 0
+      },
+      {
+        "command": [
+          "scripts/check_docs_numbers.py"
+        ],
+        "returncode": 0
+      },
+      {
+        "command": [
+          "-m",
+          "scripts.generate_tables.inventory_clean",
+          "--check"
+        ],
+        "returncode": 0
+      },
+      {
+        "command": [
+          "scripts/build_index.py",
+          "--check"
+        ],
+        "returncode": 0
+      },
+      {
+        "command": [
+          "scripts/classify_sources.py",
+          "--check"
+        ],
+        "returncode": 0
+      }
+    ],
+    "corrective_returncode": 0,
+    "corrective_verified_log_sha256": "bfb31083b4e00dd2a1b45a49245ef1bafe5036fe4d70619b8897921e19f67233"
+  },
+  "delivery_state": "Four accepted corrections await synchronized release/consumer/Pages; post18/V33 remains delivered. No public deployment or new release claimed."
+}

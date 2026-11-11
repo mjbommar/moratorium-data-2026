@@ -105,6 +105,20 @@ def main():
             assert key not in md_operative_transitions
             assert digest(json.dumps(current[key],sort_keys=True,separators=(',',':'),ensure_ascii=False).encode())==record['current_row_sha256']
             md_operative_transitions[key]=record
+    mendocino_path=Path('work/research/2026-11-11/post-release-qa/mendocino-signed-application.json')
+    mendocino=json.loads(mendocino_path.read_text()) if mendocino_path.exists() else None
+    if mendocino:
+        assert mendocino['id']=='ca-mendocino-county-2026'
+        assert mendocino['canonical_cells_changed']==4 and mendocino['whole_record_closures']==0
+        for pin in (mendocino['independent_review'],mendocino['source_continuity']):
+            assert digest(Path(pin['path']).read_bytes())==pin['sha256']
+        row=current[('local_inventory',mendocino['id'])].copy()
+        assert digest(json.dumps(row,sort_keys=True,separators=(',',':'),ensure_ascii=False).encode())==mendocino['current_row_sha256']
+        assert {c['field'] for c in mendocino['field_changes']}=={'date_enacted','duration','legal_basis','current_status'}
+        for change in mendocino['field_changes']:
+            assert row[change['field']]==change['after']
+            row[change['field']]=change['before']
+        assert digest(json.dumps(row,sort_keys=True,separators=(',',':'),ensure_ascii=False).encode())==mendocino['prior_row_sha256']
     def source_row_guard(key, expected):
         actual=digest(json.dumps(current[key],sort_keys=True,separators=(',',':'),ensure_ascii=False).encode())
         if bonney_application and key==('local_inventory',bonney_application['id']) and expected==bonney_application['prior_row_sha256']:
@@ -117,6 +131,8 @@ def main():
             assert actual==ma_current_sha
         elif key in md_operative_transitions and expected==md_operative_transitions[key]['prior_row_sha256']:
             assert actual==md_operative_transitions[key]['current_row_sha256']
+        elif mendocino and key==('local_inventory',mendocino['id']) and expected==mendocino['prior_row_sha256']:
+            assert actual==mendocino['current_row_sha256']
         elif key in policy_transitions and expected==policy_transitions[key]['prior_row_sha256']:
             assert actual==policy_transitions[key]['current_row_sha256']
         else:
@@ -1252,6 +1268,19 @@ def main():
                 assert review['independent_review']['historical_observation_review_supported'] is True
                 assert review['independent_review']['whole_record_closure_supported'] is False
             overlays[record['id']]=[public_text(q) for q in record['remaining_questions']]
+    california_recovery_path=Path('work/research/2026-11-11/post-release-qa/california-operative-recovery.json')
+    if california_recovery_path.exists():
+        recovery=json.loads(california_recovery_path.read_text())
+        continuity=recovery['source_continuity']
+        assert digest(Path(continuity['path']).read_bytes())==continuity['sha256']
+        for record in recovery['source_only_records']:
+            source_row_guard(('local_inventory',record['id']),record['current_row_sha256'])
+            source_disposition_guard(record)
+            assert record['canonical_changes']==record['whole_record_closures']==record['native_readback_gaps']==0
+            overlays[record['id']]=[public_text(q) for q in record['remaining_questions']]
+    if mendocino:
+        assert mendocino['recommendation']=='unresolved'
+        overlays[mendocino['id']]=[public_text(q) for q in mendocino['remaining_questions']]
     rows=[]
     for entry in f['records']:
         if entry['disposition']!='unresolved':continue
@@ -1271,6 +1300,8 @@ def main():
     summary['maryland_operative_application_sha256']=digest(md_operative_path.read_bytes()) if md_operative_path.exists() else None
     summary['maryland_operative_discovery_sha256']=digest(md_discovery_path.read_bytes()) if md_discovery_path.exists() else None
     summary['nov11_source_followups_sha256']=digest(nov11_followups_path.read_bytes()) if nov11_followups_path.exists() else None
+    summary['mendocino_signed_application_sha256']=digest(mendocino_path.read_bytes()) if mendocino_path.exists() else None
+    summary['california_operative_recovery_sha256']=digest(california_recovery_path.read_bytes()) if california_recovery_path.exists() else None
     summary['massachusetts_origin_application_sha256']=digest(ma_origin_path.read_bytes()) if ma_origin_path.exists() else None
     summary['ohio_item58_discovery_sha256']=digest(ohio_item58_path.read_bytes()) if ohio_item58_path.exists() else None
     summary['massachusetts_independent_application_sha256']=digest(ma_independent_path.read_bytes()) if ma_independent_path.exists() else None

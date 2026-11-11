@@ -1,6 +1,8 @@
 # November 11 source follow-ups
 
-Qualified post18 / consumer V33 remains the delivered public edition. This batch
+Latest working update: [four Mendocino signed-instrument corrections](mendocino-signed-review.md) await synchronized release/consumer/Pages delivery. Counts and categories are unchanged.
+
+Qualified post18 / consumer V33 remains the delivered public edition. The initial Hueytown/Salisbury source-only batch
 completes one bounded historical inspection task and narrows two records' research
 routes. It makes no canonical, headline, status, date, native-ballot or website
 changes, and closes no whole record. The unresolved legacy count remains 1,347.

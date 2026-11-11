@@ -927,3 +927,7 @@ Exit: repeatable refresh with visible freshness, costs, failures and unresolved 
 - [ ] Continue the outstanding ballot and legacy factual questions using prior-work checks and distinct-source admission; deployment of post18 does not close these.
 
 - [x] Independently review all32pages of five Hueytown historical minutes records, including the actual minutes served by an Agenda URL. Retire the specified inspection task and record narrower missing-instrument, omitted-resolution and later-force questions. Seven source pairs retained/read back; no canonical changes or whole-record closure. See `work/research/2026-11-11/post-release-qa/README.md`.
+
+- [x] Inspect both complete signed Mendocino ordinances and apply four independently accepted prose corrections. Clear the signed4562 inspection and original vote source gaps; preserve intended-scope, exemption-interaction, applicability and later-force questions.
+- [ ] Synchronize the four Mendocino corrections in the next release, V34 consumer handoff and verified public Pages deployment; post18/V33 remains the delivered edition.
+- [ ] Check other retained PDFs described as unsigned against their actual signature-page images before admitting re-fetches; Mendocino's retained4562already contained graphical signatures omitted from extracted text.

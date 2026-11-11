@@ -356,16 +356,16 @@ State policy is tracked separately: **14 records** (14 typed bill rows) in [`sta
 
 - **Type:** County
 - **Recorded status:** 🟢 Extended
-- **Date enacted:** 2026-09-01 (Board of Supervisors, 5-0)
+- **Date enacted:** 2026-09-01 (signed Ordinance 4561 records five named ayes, no noes and no absences).
 - **Normalized date:** `2026-09-01` (exact)
-- **Duration:** 45-day urgency ordinance; extendable
+- **Duration:** Signed Ordinance 4561 states forty-five days from adoption to October 16, 2026, unless extended. Signed Ordinance 4562 states twenty-two months and fifteen days from its October 6, 2026 adoption to August 21, 2028. Later changes and current legal force remain unverified.
 - **Current end date:** `2028-08-21`
 - **Sectors:** data center, cryptocurrency mining
 - **Moratorium ID:** `ca-mendocino-county-2026`
-- **Legal basis:** Urgency ordinance concerning new data center uses in unincorporated Mendocino County, including hyperscale, colocation, cloud, AI, high-performance computing and cryptocurrency uses, with specified exclusions. The posted extension defines covered uses using a 3-MW-or-less threshold, while contemporaneous reporting describes an exception below 3 MW; the executed final wording remains unverified.
+- **Legal basis:** Signed urgency Ordinance 4561, extended by signed Ordinance 4562 under Government Code section 65858, restricting new data-center uses in unincorporated Mendocino County. Ordinance 4562 section 3 also addresses conversion, expansion and intensification, and separately refers to similar high-intensity computing uses. Its section 4 literally defines Data Center Use using an electrical load of 3 MW or less; that wording is preserved without inferring an exemption for larger facilities.
 - **What prompted it:** County code does not define or regulate data centers, so one could be approved via routine building permit; no applicant named.
 - **Affected projects:** None named in the prior record. October 6 reporting described a potential data center at the Ukiah sawmill; it did not establish an application or a causal effect of the ordinance.
-- **Detailed status:** The Board adopted Ordinance 4562 on 2026-10-06, 4-1, extending the moratorium through 2028-08-21. The posted ordinance and contemporaneous reporting conflict on the 3-MW threshold; verify the signed final text. Documented extension reviewed 2026-11-05; later termination or amendment not independently ruled out. [VERIFY signed final threshold: posted text and reporting conflict on the 3 MW exception]
+- **Detailed status:** Signed Ordinance 4562 records October 6, 2026 adoption with four named ayes and one no, immediate effect upon the required four-fifths vote, and a stated August 21, 2028 endpoint. Section 4 says 3 MW or less, while section 3 also reaches similar high-intensity computing uses. The signed wording is verified as printed; its intended threshold interpretation and actual project applicability are not adjudicated. [VERIFY later amendments/replacement or termination, authoritative clarification of threshold scope, actual applicability and current legal force.]
 - **Outcome:** —
 
 ### Montebello
