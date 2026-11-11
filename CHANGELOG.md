@@ -1,5 +1,9 @@
 # Changelog
 
+## Qualified v2026.11.11.post9 — publication pending
+
+Four Butler County, Ohio prose fields now incorporate official June16adoption and reproduced resolution scope, while retaining the Oxford Free Press attribution of June17effect to the county administrator. Signed executed text, controlling effective date, exact endpoint and later force remain unverified. No status, normalized-date, count, native-history or whole-record-disposition changes;1,346record reviews remain unresolved.
+
 ## Qualified v2026.11.11.post8
 
 Four Lowndes County fields record reported expiry of the 60-day pause, changing the recorded category from active to expired. Working totals are 1,085 active/extended and 173 past; all other headline counts are unchanged. Exact expiry, the original executed instrument and subsequent ordinance actions remain unverified. No whole-record closure; 1,346 reviews remain unresolved. Two identical builds, full clean restore, ten anonymous downloads, V42 and current hosted desktop/mobile checks pass.
