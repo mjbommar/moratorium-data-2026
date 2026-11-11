@@ -1478,6 +1478,20 @@ def main():
         assert proof['gap_records']==0 and proof['exact_body_text_pairs_read_back']==3
         assert proof['canonical_changes']==proof['whole_record_closures']==proof['model_requests']==0
         overlays[review['id']]=[public_text(q) for q in review['remaining_questions']]
+    fairfield_butler_path=Path('work/research/2026-11-11/post-release-qa/fairfield-butler-later-review.json')
+    if fairfield_butler_path.exists():
+        review=json.loads(fairfield_butler_path.read_text())
+        assert review['id']=='oh-fairfield-township-butler-county-2026' and review['dataset']=='local_inventory'
+        source_row_guard(('local_inventory',review['id']),review['current_row_sha256'])
+        source_disposition_guard(review)
+        assert review['canonical_changes']==review['whole_record_closures']==0
+        pin=review['source_continuity']
+        assert digest(Path(pin['path']).read_bytes())==pin['sha256']
+        proof=json.loads(Path(pin['path']).read_text())
+        assert proof['gap_records']==0 and proof['exact_body_text_pairs_read_back']==4
+        assert sum(review['review_scope']['pdf_pages_ocr_screened'].values())==56
+        assert not review['review_scope']['whole_documents_semantically_reviewed']
+        overlays[review['id']]=[public_text(q) for q in review['remaining_questions']]
     butler_oh_refinement_path=Path('work/research/2026-11-11/post-release-qa/butler-oh-question-refinement.json')
     if butler_oh_refinement_path.exists():
         review=json.loads(butler_oh_refinement_path.read_text())
@@ -1580,6 +1594,7 @@ def main():
     summary['lyon_extension_lead_review_sha256']=digest(lyon_extension_review_path.read_bytes()) if lyon_extension_review_path.exists() else None
     summary['butler_luzerne_operative_review_sha256']=digest(butler_luzerne_review_path.read_bytes()) if butler_luzerne_review_path.exists() else None
     summary['bazetta_operative_review_sha256']=digest(bazetta_review_path.read_bytes()) if bazetta_review_path.exists() else None
+    summary['fairfield_butler_later_review_sha256']=digest(fairfield_butler_path.read_bytes()) if fairfield_butler_path.exists() else None
     summary['butler_oh_question_refinement_sha256']=digest(butler_oh_refinement_path.read_bytes()) if butler_oh_refinement_path.exists() else None
     summary['heath_question_refinement_sha256']=digest(heath_refinement_path.read_bytes()) if heath_refinement_path.exists() else None
     summary['generic_question_specificity_audit_sha256']=digest(generic_specificity_path.read_bytes()) if generic_specificity_path.exists() else None
