@@ -50,15 +50,29 @@ PAGE_TEMPLATE = """<!doctype html>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{title} · Moratorium Nation</title>
+<script src="{prefix}site/theme.js"></script>
+<link rel="stylesheet" href="{prefix}site/theme.css">
 <meta name="description" content="{title} — Moratorium Nation, the open dataset and working paper on local-government moratoria targeting data centers, battery storage, solar, wind, and cryptocurrency mining across the United States.">
 <style>
   :root {{
+    color-scheme: light;
+    --surface: #ffffff;
     --ink: #0f1419;
     --ink-soft: #4a5460;
     --bg: #fafaf7;
     --accent: #1f6feb;
     --line: #d8dadc;
     --code-bg: #f3f3ee;
+  }}
+  :root[data-theme="dark"] {{
+    color-scheme: dark;
+    --ink: #ffffff;
+    --ink-soft: #c3c2b7;
+    --bg: #0d0d0d;
+    --surface: #1a1a19;
+    --accent: #7db2f2;
+    --line: #33322f;
+    --code-bg: #211f1e;
   }}
   * {{ box-sizing: border-box; }}
   html, body {{
@@ -73,7 +87,7 @@ PAGE_TEMPLATE = """<!doctype html>
   a:hover {{ text-decoration: underline; }}
 
   .topbar {{
-    background: white;
+    background: var(--surface);
     border-bottom: 1px solid var(--line);
     padding: 12px 24px;
   }}
@@ -150,7 +164,7 @@ PAGE_TEMPLATE = """<!doctype html>
     margin: 14px 0;
     padding: 6px 16px;
     color: var(--ink-soft);
-    background: white;
+    background: var(--surface);
     border-radius: 0 6px 6px 0;
   }}
   main.doc blockquote p {{ margin: 4px 0; }}
@@ -194,7 +208,7 @@ PAGE_TEMPLATE = """<!doctype html>
     display: block;
   }}
   main.doc table thead {{
-    background: white;
+    background: var(--surface);
   }}
   main.doc table th, main.doc table td {{
     border: 1px solid var(--line);
@@ -204,10 +218,10 @@ PAGE_TEMPLATE = """<!doctype html>
   }}
   main.doc table th {{
     font-weight: 600;
-    background: white;
+    background: var(--surface);
   }}
   main.doc table tbody tr:nth-child(even) td {{
-    background: white;
+    background: var(--surface);
   }}
 
   footer {{
@@ -234,6 +248,7 @@ PAGE_TEMPLATE = """<!doctype html>
       <a href="{prefix}docs/methodology.html">Methodology</a>
       <a href="{prefix}paper/moratorium-nation-2026-04-30.pdf">Paper</a>
       <a href="https://github.com/mjbommar/moratorium-data-2026">GitHub</a>
+      <button class="theme-toggle" id="theme-toggle" type="button" aria-pressed="false" hidden><span class="theme-indicator" aria-hidden="true"></span>Dark mode</button>
     </nav>
   </div>
 </div>

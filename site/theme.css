@@ -1,0 +1,35 @@
+.theme-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 7px 11px;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  background: var(--surface);
+  color: var(--ink);
+  font: inherit;
+  font-size: 14px;
+  line-height: 1.4;
+  white-space: nowrap;
+  cursor: pointer;
+}
+.theme-toggle[hidden] { display: none; }
+.theme-toggle:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+.theme-indicator {
+  display: inline-block;
+  width: 26px;
+  height: 16px;
+  padding: 3px;
+  border-radius: 10px;
+  background: var(--ink-soft);
+}
+.theme-indicator::before {
+  content: '';
+  display: block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: var(--surface);
+}
+.theme-toggle[aria-pressed="true"] .theme-indicator { background: var(--accent); }
+.theme-toggle[aria-pressed="true"] .theme-indicator::before { transform: translateX(10px); }

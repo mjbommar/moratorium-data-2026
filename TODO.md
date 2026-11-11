@@ -1023,3 +1023,5 @@ Exit: repeatable refresh with visible freshness, costs, failures and unresolved 
 - [x] Review and validate ten working text corrections across Gallatin and Rice. Preserve the original model holds and the separate source-based coordinator decision. Counts, statuses, dates, coordinates, state policy, and ballot tables are unchanged. [Review](work/research/2026-11-11/post-release-qa/gallatin-rice-review.md).
 - [ ] Include the validated Gallatin and Rice corrections in the next combined dataset release, receiving-project update, and dashboard deployment. Post12 remains the published version.
 - [ ] Review Gallatin’s official November 3 recording at 43:35–44:23 or obtain completed minutes and final adopted text. Do not infer a vote result from silence in automatic captions. [Saved source and review window](work/research/2026-11-11/post-release-qa/gallatin-recording-followup.json).
+
+- [ ] Publish the light/dark switch and latest copy, tables, charts and data in post13; verify the live dashboard and downloads.

@@ -173,6 +173,7 @@ def changes_section(f: dict) -> str:
   <h2>About this update</h2>
   <p class="lede">The local inventory contains {f['rows']:,} records from {f['states']} states. It includes adopted moratoria, proposals, and actions that have ended.</p>
   <p>The status of each record reflects the sources we found. Some dates and legal details remain unconfirmed. A record listed as active may have changed since its source was published.</p>
+  <p>This update adds a light and dark mode switch and clarifies the Gallatin, Tennessee, and Rice, Minnesota, records. Rice’s signed September 21 minutes confirm a 5–0 council vote. Final adopted texts, effective dates, and later actions still need review.</p>
   <h3>Local actions, state policy, and ballot measures</h3>
   <p>We count these separately. State bills can change local authority or state permit rules without creating a local moratorium. Ballot measures can ask for a temporary pause, a permanent restriction, or a zoning change. A vote in favor does not always put a restriction into effect.</p>
   <h3>What the search covers</h3>

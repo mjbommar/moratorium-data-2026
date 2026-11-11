@@ -1,5 +1,18 @@
 # Changelog
 
+## Qualified v2026.11.11.post13
+
+This update adds a light and dark mode switch to every public page. It also corrects ten text fields in the Gallatin, Tennessee, and Rice, Minnesota, records. Rice’s signed September 21 minutes confirm a 5–0 council vote. Gallatin’s record distinguishes its hearing and unsigned draft from final adoption. Questions about adopted texts, effective dates, later actions, and project eligibility remain open. Publication checks are running.
+
+| Metric | Qualified November 11 post13 |
+|---|---:|
+| Moratoria in the list | **1329** |
+| Classified active or extended | **1085** |
+| Pending or not yet effective | **64** |
+| Ended (replaced, expired, or rescinded) | **173** |
+| Rows we still want to confirm (`[VERIFY]`) | **979** |
+| States with at least one | **47** |
+
 ## Qualified v2026.11.11.post12
 
 This release adds Fairfax, Iowa’s proposed 18-month battery-storage moratorium and updates two fields in its data-center record. Final adoption and publication remain unconfirmed. Local records increase to 1,329 and pending records to 64. No existing record changes status. The review queue has 1,347 open records. The public pages have also passed deployment checks.

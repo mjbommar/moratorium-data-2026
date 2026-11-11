@@ -4,7 +4,7 @@ This project tracks local pauses on data centers, battery storage, solar, wind, 
 
 **[Open the dashboard](https://mjbommar.github.io/moratorium-data-2026/)** · [Browse states](states/README.md) · [Download local records](data/moratorium_inventory.csv) · [Read ballot results](docs/ballot-results.md)
 
-The current release is [v2026.11.11.post12](https://github.com/mjbommar/moratorium-data-2026/releases/tag/v2026.11.11.post12), published November 11, 2026. Some records still have open questions.
+The next release is [v2026.11.11.post13](https://github.com/mjbommar/moratorium-data-2026/releases/tag/v2026.11.11.post13). Publication checks are running. Post12 is the current published version.
 
 ## What the data contains
 
@@ -33,11 +33,13 @@ These are recorded classifications. They do not confirm that every restriction i
 
 ## What changed in this update
 
-This update adds Fairfax, Iowa’s proposed 18-month pause on utility-scale battery storage. The council referred it for planning review on October 13, the planning commission tabled it on October 20, and the council set a November 10 hearing on October 27. Final adoption and publication have not been confirmed.
+A Dark mode button on every public page switches between light and dark colors. The site remembers your choice.
 
-The existing Fairfax data-center record now includes the November 10 agenda. It lists a separate EU-3 zoning proposal and proposes setting a December 8 hearing on a data-center prohibition. The agenda does not establish that the hearing was set or that either proposal passed.
+Rice, Minnesota’s signed September 21 minutes confirm a 5–0 vote on Resolution 092126-27 for a data-center study and moratorium. The full instrument and its effective-date provisions remain unconfirmed.
 
-The local total increases by one pending proposal. No existing record changes status. See the [release notes](work/research/2026-11-11/release-2026.11.11.post12/README.md) and [changelog](CHANGELOG.md).
+Gallatin, Tennessee’s record now includes the October 20 hearing and the unsigned six-month draft in the November 3 packet. Its proposed exceptions depend on prior approvals. The record does not establish final adoption or whether a particular Meta project qualifies for an exception.
+
+Ten text fields changed across the two records. No record changed status, and all headline totals are unchanged. See the [release notes](work/research/2026-11-11/release-2026.11.11.post13/README.md).
 
 ## State policy
 
