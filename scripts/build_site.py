@@ -95,6 +95,8 @@ PAGE_TEMPLATE = """<!doctype html>
   .topbar a.brand:hover {{ text-decoration: none; color: var(--accent); }}
   .topbar nav {{
     display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
     gap: 18px;
     font-size: 14px;
   }}
@@ -102,6 +104,7 @@ PAGE_TEMPLATE = """<!doctype html>
   .topbar nav a:hover {{ color: var(--accent); }}
 
   main.doc {{
+    overflow-wrap: anywhere;
     max-width: 760px;
     margin: 0 auto;
     padding: 36px 24px 80px;

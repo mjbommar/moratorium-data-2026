@@ -1,0 +1,54 @@
+{
+  "scope": "Local verification before deployment. Initial livepost11batch check exposed phone-width navigation overflow; fixed shared renderer to wrap navigation and long inline text. Tables keep their own horizontal scrolling; no text hidden or removed.",
+  "initial_live_failure": [
+    {
+      "state": "ohio",
+      "width": 390,
+      "scrollWidth": 445,
+      "overflow": [
+        {
+          "tag": "NAV",
+          "right": 445.25,
+          "width": 421.25,
+          "text": "Map\nStates\nBallots\nFAQ\nMethodology\nPaper\nGitHub"
+        },
+        {
+          "tag": "A",
+          "right": 445.25,
+          "width": 46.5,
+          "text": "GitHub"
+        }
+      ]
+    },
+    {
+      "state": "colorado",
+      "width": 390,
+      "scrollWidth": 445,
+      "overflow": [
+        {
+          "tag": "NAV",
+          "right": 445.25,
+          "width": 421.25,
+          "text": "Map\nStates\nBallots\nFAQ\nMethodology\nPaper\nGitHub"
+        },
+        {
+          "tag": "A",
+          "right": 445.25,
+          "width": 46.5,
+          "text": "GitHub"
+        }
+      ]
+    }
+  ],
+  "local_pages_checked": 63,
+  "local_phone_width": 390,
+  "all_navigation_links_within_viewport": true,
+  "all_document_widths_within_viewport": true,
+  "local_full_record_prose_values_verified": 5,
+  "renderer_sha256": "92aea242da0bbc6f702ecd783c2ffb86d2d8e43aa7a6b22fe551c84a705cf80b",
+  "local_receipt_sha256": "b684c14ec0896c74044cc1a1c905a5431ea4e3737003d3656082aa511df13e11",
+  "selected_local_mobile_screenshot_reviewed": "colorado-updated-mobile.png",
+  "selected_local_mobile_screenshot_sha256": "db927a060e4a312aba2151c26725573a30660c25fc29c9ab4901f3c7fd1675f3",
+  "data_changes": 0,
+  "live_verification": "pending CSS-fix deployment"
+}
