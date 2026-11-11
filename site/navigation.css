@@ -20,3 +20,7 @@
   .site-menu nav a { padding:12px 4px; }
   .site-menu nav a[aria-current] { box-shadow:none; font-weight:650; }
 }
+/* Closed details must still expose desktop navigation in modern browsers. */
+@media(min-width:901px) {
+  .site-menu::details-content { display:contents; content-visibility:visible; }
+}
