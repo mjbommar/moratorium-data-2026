@@ -1,0 +1,77 @@
+{
+  "id": "md-howard-county-2026",
+  "model": "gpt-6.1-terra",
+  "agents_spawned": 0,
+  "tools": [],
+  "input_manifest_sha256": "f8d9d4897bf7d8472eaddde34fe77626685125bb3a9e45e86e4c5c52c027682d",
+  "raw_answer_sha256": "60b680448b014a278eccc8f20a47116a083ef5fe6ea82c871b95ee60b27fa4a7",
+  "assessment": {
+    "record_id": "md-howard-county-2026",
+    "input_row_sha256": "589a62cd6672088eeac150ca3d10efa4a54f041e5447e47a2c1c28a68d934595",
+    "field_decisions": [
+      {
+        "field": "duration",
+        "decision": "accept",
+        "value": "The Act sunsets upon either: (1) the task force issuing a recommendation AND a Zoning Regulation text amendment being passed into law; OR (2) conclusion of the Comprehensive Rezoning process; OR (3) no later than November 2, 2027. The amendment strikes “18 months after the Effective Date of this Act” and adds the fixed date.",
+        "source_id": "https://apps.howardcountymd.gov/olis/api/Documents/LegislationDocument/45424",
+        "locator": "Physical pages 6–7, §6.I.1–3; page 7 image",
+        "reason": "The first alternative requires both events; the rezoning conclusion and the outer date are separate alternatives."
+      },
+      {
+        "field": "current_status",
+        "decision": "hold",
+        "value": "Source-only classification: During the Effective Period, §1 bars acceptance of plan submissions for proposed development of a data processing and telecommunications center, subject to §6.E. Section 1 does not prohibit redlines to a previously approved development plan OR administrative approvals associated with an existing building AND a previously approved development plan. Section 6.D says site development plan applications filed after the Effective Date under the specified development review process may not proceed and shall not be considered for plan approval. Section 6.E excludes any State or local government entity or allied agencies, including HCPSS, HCC, and HCLS. Present force and occurrence of sunset events are not established.",
+        "source_id": "https://apps.howardcountymd.gov/olis/api/Documents/LegislationDocument/45424",
+        "locator": "Physical page 3, §1; physical page 6, §6.D–E, I",
+        "reason": "The proposed status compresses the scope of the submission restriction and changes §6.D’s “shall not be considered for plan approval” to “receiving plan approval.” Its current-force caveat is appropriate, but the source-only wording should preserve those distinctions."
+      },
+      {
+        "field": "outcome",
+        "decision": "hold",
+        "value": "The supplied page 1 transcript indicates passage with amendments and executive approval, but its handwritten dates are not reliably legible. Section 7 provides that the Act becomes effective 61 days after enactment. The sunset alternatives are stated in §6.I; their occurrence and present force are unverified.",
+        "source_id": "https://apps.howardcountymd.gov/olis/api/Documents/LegislationDocument/45424",
+        "locator": "Physical page 1; physical pages 6–7, §6.I; physical page 7, §7",
+        "reason": "The exact passage, approval, and recorded effective dates in the proposed outcome cannot be independently verified from the supplied page 1 transcription."
+      }
+    ],
+    "whole_record_closure_supported": false,
+    "remaining_questions": [
+      "What are the dates recorded on the original page 1?",
+      "What does the complete amended §2 provide, including the scope of the emergency-legislation and zoning-text-amendment exceptions?",
+      "Have any sunset events occurred, and have later amendments, litigation, or other developments affected current force?"
+    ],
+    "review_limitations": [
+      "The reading uses the supplied transcription and page 6–7 images; the document body and its stated SHA-256 were not independently retrieved or verified.",
+      "The page 4 transcription is unreadable, so §2 cannot be fully classified. Page 3 amendment formatting is not independently verifiable from the supplied transcription.",
+      "No candidate or canonical writes were made, and this reading does not certify current force."
+    ]
+  },
+  "captures": [
+    {
+      "attempt_id": "9d09bb8c13954ba9b869f453e9a0354f",
+      "request_descriptor_sha256": "90bb1b3faec42ddfdda4e61ad170692b0f424d7bca0e82a6d702f92dbc7c3804",
+      "wire_request_sha256": "42d1988c09618689cb9e55f72d677d4922e75ccb647973ccb987b2f36efbf2ea",
+      "wire_response_sha256": "da9530b79cbd926c81fcb36c77ae893251e55cce83378d7ab122d2506250c00d",
+      "status": 200,
+      "wire_output_matches_sdk": true,
+      "usage": {
+        "input_tokens": 11474,
+        "input_tokens_details": {
+          "cache_write_tokens": 11471,
+          "cached_tokens": 0
+        },
+        "output_tokens": 1384,
+        "output_tokens_details": {
+          "reasoning_tokens": 516
+        },
+        "total_tokens": 12858
+      }
+    }
+  ],
+  "cost_usd": null,
+  "max_requests": 1,
+  "max_output_tokens": 6000,
+  "max_retries": 0,
+  "phase": "cell-review",
+  "scope": "Bounded original-source review. Initial holds preserved; corrected input supplies page1,3,4 images. Model input limitations are not missing project artifacts."
+}

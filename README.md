@@ -2,7 +2,7 @@
 
 **Qualified post16 release and website verified:** [v2026.11.10.post16](https://github.com/mjbommar/moratorium-data-2026/releases/tag/v2026.11.10.post16) publishes ten policy corrections and the historical Kentucky executive-order addition. Downloads, clean restore, V31 and the complete desktop/mobile website are verified. Broader QA continues.
 
-**Working follow-up pending the next release batch:** Four Burien prose fields now distinguish the July 13 hearing reported in draft minutes and the source’s unanimous-vote wording. Categories, normalized dates and headline totals are unchanged. [Review and application](work/research/2026-11-10/post-release-qa/burien-july-hearing-reviewed-application.md) are recorded; the verified public edition remains post16/V31.
+**Working follow-up pending the next release batch:** Seven prose fields across Burien and Howard County now clarify hearing/vote evidence, alternative sunset conditions and exceptions. Categories, normalized dates and headline totals are unchanged. [Howard review](work/research/2026-11-10/post-release-qa/howard-amended-act-application.md) and [Burien review](work/research/2026-11-10/post-release-qa/burien-july-hearing-reviewed-application.md) are recorded; the verified public edition remains post16/V31.
 
 **Reviewed correction:** Bonney Lake is classified as replaced with an October 13 end date. Four fields are corrected. [Release/download/V30 checks](work/research/2026-11-10/release-2026.11.10.post15/README.md) are verified; the complete website and updated Bonney Lake entry pass desktop/mobile and byte checks.
 

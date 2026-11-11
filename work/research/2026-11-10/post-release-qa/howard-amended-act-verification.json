@@ -1,0 +1,115 @@
+{
+  "baseline_commit": "73d89ebeb7f12521c2a77966e62b767fcadcf6cb",
+  "canonical_delta": [
+    {
+      "id": "md-howard-county-2026",
+      "field": "duration",
+      "before": "Ends at the earliest specified policy milestone or 2027-11-02",
+      "after": "Section 6.I provides alternative sunset triggers: (1) once the task force issues a recommendation AND a Zoning Regulation text amendment has been passed into law; OR (2) once the Comprehensive Rezoning process has concluded; OR (3) no later than November 2, 2027. The amendment strikes “18 months after the Effective Date of this Act” and adds “November 2, 2027.”"
+    },
+    {
+      "id": "md-howard-county-2026",
+      "field": "current_status",
+      "before": "Active as of 2026-09-23. CB31-2026 took effect 2026-08-04 as scheduled; Howard County Planning and Zoning has since been barred from accepting, reviewing, approving, or advancing new data-processing-center development plans through 2027-11-02 (absent earlier permanent zoning legislation). The County Executive is to appoint the 11-member SMART Data Center Task Force (with union, utility, water, environmental, and data-center-industry representation) by executive order following a public application process; the task force must hold a public hearing before completing its work.",
+      "after": "Source-only description: During the Effective Period, §1 bars acceptance of plan submissions for proposed development of a data processing and telecommunications center, subject to §6.E. Section 1, as amended, does not prohibit redlines to a previously approved development plan OR administrative approvals associated with an existing building AND a previously approved development plan. Section 6.D states that site-development-plan applications made to the Department under the specified development-review process and filed after the Effective Date may not proceed and shall not be considered for plan approval. Section 6.E says the Act does not apply to any State or local government entity or allied agencies, including HCPSS, HCC and HCLS. Section 2 separately makes its restriction subject to the exception for emergency legislation under the County Charter OR a zoning regulation text amendment introduced after receipt of the task force recommendations. Occurrence of sunset triggers and current legal force remain unverified."
+    },
+    {
+      "id": "md-howard-county-2026",
+      "field": "outcome",
+      "before": "County Council passed CB31-2026 as amended on 2026-06-01; County Executive Calvin Ball signed it 2026-06-04; it took effect 2026-08-04 and, unless superseded by earlier zoning legislation, remains in force through 2027-11-02.",
+      "after": "The act records passage with amendments on June 1, 2026, executive approval on June 4, 2026, and an effective date of August 4, 2026. Its alternative sunset provisions are the conjunctive task-force-recommendation and enacted-text-amendment trigger, conclusion of Comprehensive Rezoning, or no later than November 2, 2027. Occurrence of earlier triggers and present force remain unverified."
+    }
+  ],
+  "canonical_cells_changed": 3,
+  "status_category_changes": 0,
+  "normalized_date_changes": 0,
+  "whole_record_closures": 0,
+  "outstanding_reviews": 1347,
+  "native_governance_paths_changed": false,
+  "request_bindings": [
+    {
+      "phase": "independent",
+      "request_descriptor_verified": true,
+      "actual_wire_input_sha256": "3c6ec070fd466a3b6f29bb1c4e6eb93ce4ca44097a0961d86a169401f384a263"
+    },
+    {
+      "phase": "cell-review",
+      "request_descriptor_verified": true,
+      "actual_wire_input_sha256": "b19a2a2c311792415e939264fd1c7a23ac16972a3ae869bf097788b9d4c6fbd6"
+    },
+    {
+      "phase": "revised-cell-review",
+      "request_descriptor_verified": true,
+      "actual_wire_input_sha256": "65e4de2cbf2f9d5f0634abd73041dca8c1f349589f61e90964272b018b9348cd"
+    }
+  ],
+  "checks": [
+    {
+      "command": [
+        "scripts/validate_dataset.py",
+        "--today",
+        "2026-11-10"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/build_policy_scope_exports.py",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/build_summary_stats.py",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/build_geojson.py",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/make_timeline.py",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/check_docs_numbers.py"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "-m",
+        "scripts.generate_tables.inventory_clean",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/build_index.py",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/classify_sources.py",
+        "--check"
+      ],
+      "returncode": 0
+    }
+  ],
+  "source_native_readbacks": 1,
+  "source_native_readback_gaps": 0,
+  "delivery_state": "Seven cumulative prose cells/two local rows pending next synchronized batch; public post16/V31 unchanged."
+}

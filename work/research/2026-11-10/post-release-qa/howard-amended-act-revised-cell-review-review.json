@@ -1,0 +1,76 @@
+{
+  "id": "md-howard-county-2026",
+  "model": "gpt-6.1-terra",
+  "agents_spawned": 0,
+  "tools": [],
+  "input_manifest_sha256": "e3ce18bb85bd5b22f29824a18230326a61d193b10062aacf21656a140a18348d",
+  "raw_answer_sha256": "31e1eaca320ca52f6d798919c97d6d273fc21925fa375c14916d08c5612a0615",
+  "assessment": {
+    "record_id": "md-howard-county-2026",
+    "input_row_sha256": "589a62cd6672088eeac150ca3d10efa4a54f041e5447e47a2c1c28a68d934595",
+    "field_decisions": [
+      {
+        "field": "duration",
+        "decision": "accept",
+        "value": "Section 6.I provides alternative sunset triggers: (1) once the task force issues a recommendation AND a Zoning Regulation text amendment has been passed into law; OR (2) once the Comprehensive Rezoning process has concluded; OR (3) no later than November 2, 2027. The amendment strikes “18 months after the Effective Date of this Act” and adds “November 2, 2027.”",
+        "source_id": "https://apps.howardcountymd.gov/olis/api/Documents/LegislationDocument/45424",
+        "locator": "Physical pages 6–7, §6.I.1–3",
+        "reason": "The first alternative requires both specified events; the comprehensive-rezoning conclusion is a separate alternative, and the fixed date is the outside limit. The page 7 image distinguishes the struck text from the underlined addition."
+      },
+      {
+        "field": "current_status",
+        "decision": "accept",
+        "value": "Source-only description: During the Effective Period, §1 bars acceptance of plan submissions for proposed development of a data processing and telecommunications center, subject to §6.E. Section 1, as amended, does not prohibit redlines to a previously approved development plan OR administrative approvals associated with an existing building AND a previously approved development plan. Section 6.D states that site-development-plan applications made to the Department under the specified development-review process and filed after the Effective Date may not proceed and shall not be considered for plan approval. Section 6.E says the Act does not apply to any State or local government entity or allied agencies, including HCPSS, HCC and HCLS. Section 2 separately makes its restriction subject to the exception for emergency legislation under the County Charter OR a zoning regulation text amendment introduced after receipt of the task force recommendations. Occurrence of sunset triggers and current legal force remain unverified.",
+        "source_id": "https://apps.howardcountymd.gov/olis/api/Documents/LegislationDocument/45424",
+        "locator": "Physical pages 3–4, §§1–2; physical page 6, §§6.D–E and 6.I; physical page 7, §6.I.3",
+        "reason": "The proposed description is supported as a statement of the act rather than a certification of current status. The value also distinguishes the §1 preservation alternatives and the separate §2 exceptions. Section 6.D does not itself expressly limit its wording to data-center applications."
+      },
+      {
+        "field": "outcome",
+        "decision": "accept",
+        "value": "The act records passage with amendments on June 1, 2026, executive approval on June 4, 2026, and an effective date of August 4, 2026. Its alternative sunset provisions are the conjunctive task-force-recommendation and enacted-text-amendment trigger, conclusion of Comprehensive Rezoning, or no later than November 2, 2027. Occurrence of earlier triggers and present force remain unverified.",
+        "source_id": "https://apps.howardcountymd.gov/olis/api/Documents/LegislationDocument/45424",
+        "locator": "Physical page 1, legislative endorsements; physical page 6, §6.I.1–2; physical page 7, §§6.I.3 and 7",
+        "reason": "The recorded dates and amended sunset language are visible in the supplied page images. Section 7 states that the act becomes effective 61 days after enactment; this reading does not certify later force."
+      }
+    ],
+    "whole_record_closure_supported": false,
+    "remaining_questions": [
+      "Have either of the earlier sunset triggers occurred?",
+      "Have later amendments, litigation, or other events affected the act's current force?"
+    ],
+    "review_limitations": [
+      "This is a source-only classification; it makes no candidate or canonical write and does not certify current legal force.",
+      "The supplied document body hash was not independently verified against a retrieved document.",
+      "Page images were supplied for physical pages 1, 3, 4, 6 and 7; physical pages 2 and 5 were available only as extracted text."
+    ]
+  },
+  "captures": [
+    {
+      "attempt_id": "cf7960a497c04aa58b528a52fab14467",
+      "request_descriptor_sha256": "f20657b40ffef91fe80ac5baa203bfa22c7c9e7f08b206c044baa2726678c7a4",
+      "wire_request_sha256": "55a76ed1c4de92362d45e45527411d7224c9c85907ecb7382304f49858c5ae86",
+      "wire_response_sha256": "95aea63a07e23967e90adce38731ca62e219c8f94ddb9c55e312bd40ee354ceb",
+      "status": 200,
+      "wire_output_matches_sdk": true,
+      "usage": {
+        "input_tokens": 20401,
+        "input_tokens_details": {
+          "cache_write_tokens": 20398,
+          "cached_tokens": 0
+        },
+        "output_tokens": 1356,
+        "output_tokens_details": {
+          "reasoning_tokens": 376
+        },
+        "total_tokens": 21757
+      }
+    }
+  ],
+  "cost_usd": null,
+  "max_requests": 1,
+  "max_output_tokens": 6000,
+  "max_retries": 0,
+  "phase": "revised-cell-review",
+  "scope": "Bounded original-source review. Initial holds preserved; corrected input supplies page1,3,4 images. Model input limitations are not missing project artifacts."
+}

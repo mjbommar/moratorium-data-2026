@@ -1,0 +1,60 @@
+{
+  "id": "md-howard-county-2026",
+  "model": "gpt-6.1-terra",
+  "agents_spawned": 0,
+  "tools": [],
+  "input_manifest_sha256": "208b9afb9a961eada66d219d06afb6b0d710c5172b7e9e9bf3849b6462f45874",
+  "raw_answer_sha256": "52a319a53eb8abe2d269ed74e23f90594c13f5e89d88978f5fc94cfe6cc53b11",
+  "assessment": {
+    "sunset_conditions": [
+      "The task force issues a recommendation AND a Zoning Regulation text amendment has been passed into law. (Physical page 6, § 6.I.1.)",
+      "Alternatively, the Comprehensive Rezoning process has concluded. (Physical page 6, § 6.I.2.)",
+      "Alternatively, no later than November 2, 2027. The amendment strikes “18 months after the Effective Date of this Act” and adds the underlined date “November 2, 2027.” (Physical page 7, § 6.I.3.)"
+    ],
+    "exemptions": [
+      "The Act does not apply to any State or local government entity or allied agencies, including the Howard County Public School System, Howard Community College, and the Howard County Library System. (Physical page 6, § 6.E.)",
+      "The Act does not prohibit redlines to a previously approved development plan OR administrative approvals associated with an existing building AND previously approved development plan. (Physical page 3, § 1.)"
+    ],
+    "locators": [
+      "Physical page 3, § 1: plan-submission prohibition, reference to the § 6.E exemption, and the redlines and administrative-approvals proviso.",
+      "Physical pages 3–4, § 2: begins with exceptions for emergency legislation under the County Charter or a zoning regulation text amendment introduced after receipt of task force recommendations.",
+      "Physical page 6, §§ 6.D–E: development-review provision and government-entity exemption.",
+      "Physical pages 6–7, § 6.I: three alternative sunset conditions.",
+      "Physical page 7, § 7: the Act becomes effective 61 days after enactment."
+    ],
+    "current_force_established": false,
+    "limitations": [
+      "This is a source-only reading; it does not determine whether any sunset condition has occurred or certify the Act’s current force.",
+      "The supplied extraction of physical page 4 is unreadable, so the full scope of the § 2 exceptions cannot be verified from it.",
+      "No candidate or canonical changes were made."
+    ]
+  },
+  "captures": [
+    {
+      "attempt_id": "452ccfebf29b4d4ca0050383ac654b7a",
+      "request_descriptor_sha256": "23d294f02b6b99cd1e103996f8e2eb0e5ea84a295333ce32bbb45c5d4bd60c87",
+      "wire_request_sha256": "3a6ecc9b2ba701b74f8b3c1548e9c17281f7b7acea0d16db48e94188232280ec",
+      "wire_response_sha256": "8a296674ce3b63676b98afa486cafbacf5457138819a8070004dae6d10ff25a1",
+      "status": 200,
+      "wire_output_matches_sdk": true,
+      "usage": {
+        "input_tokens": 10244,
+        "input_tokens_details": {
+          "cache_write_tokens": 10241,
+          "cached_tokens": 0
+        },
+        "output_tokens": 669,
+        "output_tokens_details": {
+          "reasoning_tokens": 201
+        },
+        "total_tokens": 10913
+      }
+    }
+  ],
+  "cost_usd": null,
+  "max_requests": 1,
+  "max_output_tokens": 6000,
+  "max_retries": 0,
+  "phase": "independent",
+  "scope": "Bounded original-source review. Initial holds preserved; corrected input supplies page1,3,4 images. Model input limitations are not missing project artifacts."
+}

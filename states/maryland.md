@@ -205,15 +205,15 @@ State policy is tracked separately: **17 records** (16 typed bill rows and 1 non
 - **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-06-01 (County Council passage, as amended); signed by County Executive 2026-06-04; effective 2026-08-04
 - **Normalized date:** `2026-06-01` (exact)
-- **Duration:** Ends at the earliest specified policy milestone or 2027-11-02
+- **Duration:** Section 6.I provides alternative sunset triggers: (1) once the task force issues a recommendation AND a Zoning Regulation text amendment has been passed into law; OR (2) once the Comprehensive Rezoning process has concluded; OR (3) no later than November 2, 2027. The amendment strikes “18 months after the Effective Date of this Act” and adds “November 2, 2027.”
 - **Current end date:** `2027-11-02`
 - **Sectors:** data center
 - **Moratorium ID:** `md-howard-county-2026`
 - **Legal basis:** CB31-2026 (the S.M.A.R.T. Siting Act)
 - **What prompted it:** Task force to study data center siting, a zoning definition, and recommendations; a public hearing and report are required within 12 months
 - **Affected projects:** —
-- **Detailed status:** Active as of 2026-09-23. CB31-2026 took effect 2026-08-04 as scheduled; Howard County Planning and Zoning has since been barred from accepting, reviewing, approving, or advancing new data-processing-center development plans through 2027-11-02 (absent earlier permanent zoning legislation). The County Executive is to appoint the 11-member SMART Data Center Task Force (with union, utility, water, environmental, and data-center-industry representation) by executive order following a public application process; the task force must hold a public hearing before completing its work.
-- **Outcome:** County Council passed CB31-2026 as amended on 2026-06-01; County Executive Calvin Ball signed it 2026-06-04; it took effect 2026-08-04 and, unless superseded by earlier zoning legislation, remains in force through 2027-11-02.
+- **Detailed status:** Source-only description: During the Effective Period, §1 bars acceptance of plan submissions for proposed development of a data processing and telecommunications center, subject to §6.E. Section 1, as amended, does not prohibit redlines to a previously approved development plan OR administrative approvals associated with an existing building AND a previously approved development plan. Section 6.D states that site-development-plan applications made to the Department under the specified development-review process and filed after the Effective Date may not proceed and shall not be considered for plan approval. Section 6.E says the Act does not apply to any State or local government entity or allied agencies, including HCPSS, HCC and HCLS. Section 2 separately makes its restriction subject to the exception for emergency legislation under the County Charter OR a zoning regulation text amendment introduced after receipt of the task force recommendations. Occurrence of sunset triggers and current legal force remain unverified.
+- **Outcome:** The act records passage with amendments on June 1, 2026, executive approval on June 4, 2026, and an effective date of August 4, 2026. Its alternative sunset provisions are the conjunctive task-force-recommendation and enacted-text-amendment trigger, conclusion of Comprehensive Rezoning, or no later than November 2, 2027. Occurrence of earlier triggers and present force remain unverified.
 
 ### Hurlock
 
