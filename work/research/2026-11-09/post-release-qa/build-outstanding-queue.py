@@ -1442,6 +1442,18 @@ def main():
         assert digest(Path(pin['path']).read_bytes())==pin['sha256']
         assert json.loads(Path(pin['path']).read_text())['exact_body_text_pairs_read_back']==3
         overlays[review['id']]=[public_text(q) for q in review['remaining_questions']]
+    lyon_extension_review_path=Path('work/research/2026-11-11/post-release-qa/lyon-extension-lead-review.json')
+    if lyon_extension_review_path.exists():
+        review=json.loads(lyon_extension_review_path.read_text())
+        assert review['id']=='mi-lyon-township-2026' and review['dataset']=='local_inventory'
+        source_row_guard(('local_inventory',review['id']),review['current_row_sha256'])
+        source_disposition_guard(review)
+        assert review['canonical_changes']==review['whole_record_closures']==0 and review['remaining_questions']
+        pin=review['source_continuity'];assert digest(Path(pin['path']).read_bytes())==pin['sha256']
+        proof=json.loads(Path(pin['path']).read_text())
+        assert proof['gap_records']==0 and proof['exact_body_text_pairs_read_back']==1
+        assert proof['canonical_changes']==proof['whole_record_closures']==0
+        overlays[review['id']]=[public_text(q) for q in review['remaining_questions']]
     butler_luzerne_review_path=Path('work/research/2026-11-11/post-release-qa/butler-luzerne-operative-review.json')
     if butler_luzerne_review_path.exists():
         review=json.loads(butler_luzerne_review_path.read_text())
@@ -1545,6 +1557,7 @@ def main():
     summary['east_whiteland_statutory_review_sha256']=digest(east_whiteland_scope_path.read_bytes()) if east_whiteland_scope_path.exists() else None
     summary['nassau_clerk_route_review_sha256']=digest(nassau_clerk_path.read_bytes()) if nassau_clerk_path.exists() else None
     summary['fort_wayne_final_disposition_application_sha256']=digest(fort_wayne_final_path.read_bytes()) if fort_wayne_final_path.exists() else None
+    summary['lyon_extension_lead_review_sha256']=digest(lyon_extension_review_path.read_bytes()) if lyon_extension_review_path.exists() else None
     summary['butler_luzerne_operative_review_sha256']=digest(butler_luzerne_review_path.read_bytes()) if butler_luzerne_review_path.exists() else None
     summary['bazetta_operative_review_sha256']=digest(bazetta_review_path.read_bytes()) if bazetta_review_path.exists() else None
     summary['heath_question_refinement_sha256']=digest(heath_refinement_path.read_bytes()) if heath_refinement_path.exists() else None
