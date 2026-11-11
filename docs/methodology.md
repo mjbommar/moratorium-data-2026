@@ -358,7 +358,7 @@ anything.
 
 ## Updates
 
-The November update is published as qualified release [v2026.11.11.post1](https://github.com/mjbommar/moratorium-data-2026/releases/tag/v2026.11.11.post1), prepared November 11 with explicit pending QA. Delivery checks are pending; v2026.11.11/V34 remains the verified public edition. Fourteen reviewed cells across three local records await synchronized delivery. The original research cutoff and September comparison baseline remain unchanged. [Release receipts](../work/research/2026-11-11/release-2026.11.11.post1/README.md).
+The November update is published as qualified release [v2026.11.11.post1](https://github.com/mjbommar/moratorium-data-2026/releases/tag/v2026.11.11.post1), published November 11 with explicit pending QA. Data release, clean restore, anonymous downloads and V35 pass; hosted checks are pending. The original research cutoff and September comparison baseline remain unchanged. [Release receipts](../work/research/2026-11-11/release-2026.11.11.post1/README.md).
 
 
 ## November collection and evidence review
@@ -414,4 +414,4 @@ Remote release assets and hosted deployment require separate post-publication
 verification. The April paper and historical graphics retain their original cohorts.
 
 
-Qualified v2026.11.11.post1 / V35 is being prepared with fourteen reviewed cells across Baltimore County, Hamilton County and Brookhaven. Delivery checks are pending; v2026.11.11/V34 remains verified. No headline or category changes; later-force and broader QA questions remain open. [Preparation receipts](../work/research/2026-11-11/release-2026.11.11.post1/README.md).
+Fourteen reviewed Baltimore/Hamilton/Brookhaven cells are delivered in qualified v2026.11.11.post1 and consumer V35. Two identical builds, full clean restore and ten anonymous downloads pass. Hosted checks are pending; v2026.11.11/V34 remains the last verified website edition. Headline counts/categories/native history are unchanged; Hamilton anniversary calculation and later-force questions remain qualified.
