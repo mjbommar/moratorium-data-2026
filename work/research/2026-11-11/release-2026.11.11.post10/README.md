@@ -5,3 +5,7 @@ Sixteen fields across three local records are corrected. Morgan Township, Ohio n
 Two identical builds, eight full restore checks across 49 generations, ten public downloads and independent V44 checks pass. Current hosted pages and desktop/mobile browser checks also pass.
 
 [Delta](dataset-delta.json) · [Build/assets](build-and-assets.json) · [Clean restore](clean-restore.json) · [Public downloads](public-verification.json).
+
+[Final delivery](final-delivery-verification.json): exact uploaded payload, 49 historical generations, all 64 HTML pages, linked downloads and actual final browser checks verified.
+
+[Live popup fit](final-popup-height-verification.json): the observed Adams overflow is fixed; long content scrolls within desktop/mobile map viewports.

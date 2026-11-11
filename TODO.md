@@ -1001,8 +1001,10 @@ Exit: repeatable refresh with visible freshness, costs, failures and unresolved 
 
 - [x] Deliver four Butler County, Ohio prose corrections in qualified post9/V43 and verified current pages; ten assets, full restore, final artifact,64HTMLpages and desktop/mobile checks pass. Signed text, controlling effect, endpoint and later force remain unresolved; no status/count changes or record closure.
 
-- [ ] Deliver nine accepted Morgan Township, Butler County Ohio corrections in the next combined QA publication batch after post9/V43: exact March23adoption and12monthcalendarterm; no status/count changes or closure. Effective date, endpoint and later force remain unresolved.
+- [x] Deliver nine accepted Morgan Township, Butler County Ohio corrections in the next combined QA publication batch after post9/V43: exact March23adoption and12monthcalendarterm; no status/count changes or closure. Effective date, endpoint and later force remain unresolved. Delivered in qualified post10/V44; final current-page receipts verified.
 
-- [ ] Include four accepted Adams Township, Butler County PA prose corrections with Morgan Ohio in the next combined batch:13cells/two rows total, no category/count changes or closures. Resolution2026-09 identity and separateJune22/July13actions clarified; executed text, operative interval and later force remain open.
+- [x] Include four accepted Adams Township, Butler County PA prose corrections with Morgan Ohio in the next combined batch:13cells/two rows total, no category/count changes or closures. Resolution2026-09 identity and separateJune22/July13actions clarified; executed text, operative interval and later force remain open. Delivered in qualified post10/V44; final current-page receipts verified.
 
-- [ ] Include three Butler County Nebraska project-exemption/PlanningCommission-label prose corrections in the combined Morgan/Adams/Nebraska batch:16cells/three rows, no category/count changes or closures. Executed exemption terms and county adoption/termination/currentforce remain open.
+- [x] Include three Butler County Nebraska project-exemption/PlanningCommission-label prose corrections in the combined Morgan/Adams/Nebraska batch:16cells/three rows, no category/count changes or closures. Executed exemption terms and county adoption/termination/currentforce remain open. Delivered in qualified post10/V44; final current-page receipts verified.
+
+- [x] Final post10/V44 delivery:16cells/three rows,64HTMLpages,230resources,8,772payloadfiles and49nativegenerations verified. Long map popups now scroll within desktop/mobile map viewports. No category/count changes or whole-recordclosures.
