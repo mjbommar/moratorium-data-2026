@@ -1,8 +1,17 @@
 # Changelog
 
-## Qualified v2026.11.11.post9 — publication pending
+## Qualified v2026.11.11.post9 — website verification pending
 
 Four Butler County, Ohio prose fields now incorporate official June16adoption and reproduced resolution scope, while retaining the Oxford Free Press attribution of June17effect to the county administrator. Signed executed text, controlling effective date, exact endpoint and later force remain unverified. No status, normalized-date, count, native-history or whole-record-disposition changes;1,346record reviews remain unresolved.
+
+| Metric | Qualified November 11 post9 |
+|---|---:|
+| Moratoria in the list | **1,328** |
+| Classified active or extended | **1085** |
+| Pending or not yet effective | **63** |
+| Ended (replaced, expired, or rescinded) | **173** |
+| Rows we still want to confirm (`[VERIFY]`) | **978** |
+| States with at least one | **47** |
 
 ## Qualified v2026.11.11.post8
 

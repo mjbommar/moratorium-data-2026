@@ -20,7 +20,7 @@
   "consumer_dispositions": "delivered_with_historical_editions_preserved",
   "experimental_extractor": "failed_no_automatic_promotion",
   "quality_gate_disposition": "User authorized publication of the current state with qualifications on pending QA, followed by continued double checking and resolution of outstanding questions.",
-  "reviewed_data_source_commit": "9d9d4e637d3a0afa26e8fa8155ef3d52a49df586",
+  "reviewed_data_source_commit": "4d6ba88131a4406e124aa3e3089f81b2ef2b2e8c",
   "record_dispositions": {
     "unresolved": 1346,
     "corrected_resolved": 192,
@@ -31,7 +31,7 @@
   "record_disposition_path": "work/research/2026-11-08/full-record-dispositions/funnel.json",
   "qa_status": "ongoing",
   "publication_authorization": "publish current state with qualifications on pending QA, then continue to double check and clear the outstanding questions",
-  "working_revision": "butler-oh-primary-prose-pending-publication",
+  "working_revision": "2026.11.11.post9-data-consumer-delivered-hosting-pending",
   "current_raw_counts": {
     "local": 1328,
     "state_policy": 449,
@@ -39,18 +39,18 @@
   },
   "prior_release": "v2026.11.11.post8",
   "prior_release_source_commit": "9d9d4e637d3a0afa26e8fa8155ef3d52a49df586",
-  "prior_published_source_commit": "f3d67fa20374512aab842ea5cb7ab2bb8948af47",
-  "published_source_reference": "Qualified post8 pins 9d9d4e637d3a0afa26e8fa8155ef3d52a49df586; builds,restore,tenanonymousdownloads,V42andinitialcurrentpagesverified. Final acknowledgment payload check follows.",
+  "prior_published_source_commit": "9d9d4e637d3a0afa26e8fa8155ef3d52a49df586",
+  "published_source_reference": "Qualified post9 pins 4d6ba88131a4406e124aa3e3089f81b2ef2b2e8c; identical builds, full restore, ten anonymous downloads and V43 verified. Hosted verification pending; post8 is prior verified site. Butler signedtext/effect/endpoint/lateraction and broader QA remain qualified.",
   "latest_consumer_handoff": {
-    "source_commit": "9d9d4e637d3a0afa26e8fa8155ef3d52a49df586",
-    "manifest_sha256": "cb5209924ebd9ba6f156c9ed55a00c15a4ee6b312317f343e95ecd63fded10d5",
+    "source_commit": "4d6ba88131a4406e124aa3e3089f81b2ef2b2e8c",
+    "manifest_sha256": "6af855b785e0f44e8d58391c039b28cede1745a201ed0d9ef0bb0b3ec5325c1f",
     "trusted_verifier_sha256": "ebecf851d4196715df186cc81cc3c933ab7da550fbafd7207996cd94b9cd2739",
-    "scope": "Four Lowndes fields record reported expiry, active-to-expired. Exact expiry/original instrument/later ordinance actions unresolved; no whole-record closure or native changes.",
-    "consumer_commit": "176488237a32fe9318f14916ea1fa324a54d1fa1",
-    "receipt": "work/research/2026-11-11/post-release-qa/consumer-v42-handoff.json"
+    "scope": "Four Butler Ohio prose fields, adoption and reproduced scope; administrator effect attribution preserved. Signedtext/effect/endpoint/laterforce remain unresolved; no closure/native changes.",
+    "consumer_commit": "d1de34ac2a12fb3704256c330d536fffbf6dcf17",
+    "receipt": "work/research/2026-11-11/post-release-qa/consumer-v43-handoff.json"
   },
   "release_date_timezone": "America/New_York",
-  "published_source_commit": "9d9d4e637d3a0afa26e8fa8155ef3d52a49df586",
+  "published_source_commit": "4d6ba88131a4406e124aa3e3089f81b2ef2b2e8c",
   "september_status_category_differences": {
     "local": 102,
     "policy": 34,
@@ -59,25 +59,24 @@
   },
   "latest_geography_review": "work/research/2026-11-09/post-release-qa/nonblank-geography-application.json",
   "latest_delivered_consumer_input_delta": {
-    "baseline_release": "v2026.11.11.post7",
-    "baseline_source_commit": "f3d67fa20374512aab842ea5cb7ab2bb8948af47",
-    "baseline_handoff": "V41",
-    "receipt": "work/research/2026-11-11/post-release-qa/lowndes-operative-application.json",
+    "baseline_release": "v2026.11.11.post8",
+    "baseline_source_commit": "9d9d4e637d3a0afa26e8fa8155ef3d52a49df586",
+    "baseline_handoff": "V42",
+    "receipt": "work/research/2026-11-11/post-release-qa/butler-oh-operative-application.json",
     "receipts": [
-      "work/research/2026-11-11/post-release-qa/lowndes-operative-application.json"
+      "work/research/2026-11-11/post-release-qa/butler-oh-operative-application.json"
     ],
     "changed_cells": 4,
     "changed_local_rows": 1,
     "changed_policy_rows": 0,
-    "status_category_changes": 1,
+    "status_category_changes": 0,
     "normalized_date_changes": 0,
-    "scope": "Four Lowndes fields delivered in post8/V42 and verified current pages. Inforce1085/past173; no closures;1346unresolved.",
-    "state": "delivered_and_hosted_verified",
-    "delivered_source_commit": "9d9d4e637d3a0afa26e8fa8155ef3d52a49df586",
-    "delivered_consumer_commit": "176488237a32fe9318f14916ea1fa324a54d1fa1",
-    "delivery_receipt": "work/research/2026-11-11/post-release-qa/consumer-v42-handoff.json",
-    "hosted_copy_state": "verified",
-    "hosted_receipt": "work/research/2026-11-11/release-2026.11.11.post8/hosted-copy-verification.json"
+    "scope": "Four Butler Ohio prose fields delivered in post9/V43; unchanged inforce1085/past173, no whole-record closures. Pending63/rejected3, VERIFY978, unresolved1346. Hosted checks pending; Butler signedtext/effect/endpoint/lateraction and wider QA unresolved.",
+    "state": "delivered_data_consumer_pending_hosted_verification",
+    "delivered_source_commit": "4d6ba88131a4406e124aa3e3089f81b2ef2b2e8c",
+    "delivered_consumer_commit": "d1de34ac2a12fb3704256c330d536fffbf6dcf17",
+    "delivery_receipt": "work/research/2026-11-11/post-release-qa/consumer-v43-handoff.json",
+    "hosted_copy_state": "pending"
   },
   "latest_source_followup": "work/research/2026-11-11/post-release-qa/brookhaven-operative-application.json",
   "latest_expanded_candidate_review": "work/research/2026-11-09/starke-succession-review/validation.json",
@@ -101,25 +100,25 @@
     "scope": "Qualified policy-history succession only; no formal termination, overlap or current-force acceptance."
   },
   "prior_delivered_consumer_input_delta": {
-    "baseline_release": "v2026.11.11.post6",
-    "baseline_source_commit": "6015c205faca3a0a800295f3ac739d0946693218",
-    "baseline_handoff": "V40",
-    "receipt": "work/research/2026-11-11/post-release-qa/los-angeles-operative-application.json",
+    "baseline_release": "v2026.11.11.post7",
+    "baseline_source_commit": "f3d67fa20374512aab842ea5cb7ab2bb8948af47",
+    "baseline_handoff": "V41",
+    "receipt": "work/research/2026-11-11/post-release-qa/lowndes-operative-application.json",
     "receipts": [
-      "work/research/2026-11-11/post-release-qa/los-angeles-operative-application.json"
+      "work/research/2026-11-11/post-release-qa/lowndes-operative-application.json"
     ],
-    "changed_cells": 2,
+    "changed_cells": 4,
     "changed_local_rows": 1,
     "changed_policy_rows": 0,
-    "status_category_changes": 0,
+    "status_category_changes": 1,
     "normalized_date_changes": 0,
-    "scope": "Two LA County prose cells delivered in post7/V41 and verified current pages. No closures or headline changes;1346unresolved.",
+    "scope": "Four Lowndes fields delivered in post8/V42 and verified current pages. Inforce1085/past173; no closures;1346unresolved.",
     "state": "delivered_and_hosted_verified",
-    "delivered_source_commit": "f3d67fa20374512aab842ea5cb7ab2bb8948af47",
-    "delivered_consumer_commit": "763565e87a5a328ae569dedee2a9a73f6728cd8c",
-    "delivery_receipt": "work/research/2026-11-11/post-release-qa/consumer-v41-handoff.json",
+    "delivered_source_commit": "9d9d4e637d3a0afa26e8fa8155ef3d52a49df586",
+    "delivered_consumer_commit": "176488237a32fe9318f14916ea1fa324a54d1fa1",
+    "delivery_receipt": "work/research/2026-11-11/post-release-qa/consumer-v42-handoff.json",
     "hosted_copy_state": "verified",
-    "hosted_receipt": "work/research/2026-11-11/release-2026.11.11.post7/hosted-copy-verification.json"
+    "hosted_receipt": "work/research/2026-11-11/release-2026.11.11.post8/hosted-copy-verification.json"
   },
   "latest_field_application": "work/research/2026-11-11/post-release-qa/butler-oh-operative-application.json",
   "latest_hosted_delivery": {
@@ -133,16 +132,16 @@
   "latest_expanded_result_review": "work/research/2026-11-10/canterbury-minutes-result-review/coordinator-adjudication.json",
   "latest_verified_release": "v2026.11.11.post8",
   "source_observation_window_scope": "Acquisition range includes source-specific QA captures through November10; this does not renew every record or move the original comprehensive research_cutoff.",
-  "latest_download_verified_release": "v2026.11.11.post8",
+  "latest_download_verified_release": "v2026.11.11.post9",
   "prior_latest_consumer_handoff": {
-    "source_commit": "f3d67fa20374512aab842ea5cb7ab2bb8948af47",
-    "manifest_sha256": "fd21e1f324faed6b8369e0e73bbd2c67f08ffbcbf089a871e45a36745a835a8a",
+    "source_commit": "9d9d4e637d3a0afa26e8fa8155ef3d52a49df586",
+    "manifest_sha256": "cb5209924ebd9ba6f156c9ed55a00c15a4ee6b312317f343e95ecd63fded10d5",
     "trusted_verifier_sha256": "ebecf851d4196715df186cc81cc3c933ab7da550fbafd7207996cd94b9cd2739",
-    "scope": "Two LA County prose cells establish October6 referral instead of an adopted permanent prohibition. Memorandum scope and later actions remain unresolved. No counts/status/native changes or closures.",
-    "consumer_commit": "763565e87a5a328ae569dedee2a9a73f6728cd8c",
-    "receipt": "work/research/2026-11-11/post-release-qa/consumer-v41-handoff.json"
+    "scope": "Four Lowndes fields record reported expiry, active-to-expired. Exact expiry/original instrument/later ordinance actions unresolved; no whole-record closure or native changes.",
+    "consumer_commit": "176488237a32fe9318f14916ea1fa324a54d1fa1",
+    "receipt": "work/research/2026-11-11/post-release-qa/consumer-v42-handoff.json"
   },
-  "prior_published_source_reference": "Qualified post7 pins f3d67fa20374512aab842ea5cb7ab2bb8948af47; builds,restore,tenanonymousdownloads,V41andinitialcurrentpagesverified. Final acknowledgment payload check follows.",
+  "prior_published_source_reference": "Qualified post8 pins 9d9d4e637d3a0afa26e8fa8155ef3d52a49df586; builds,restore,tenanonymousdownloads,V42andinitialcurrentpagesverified. Final acknowledgment payload check follows.",
   "latest_verified_hosted_data": {
     "release": "v2026.11.11.post8",
     "release_source_commit": "9d9d4e637d3a0afa26e8fa8155ef3d52a49df586",
@@ -348,19 +347,11 @@
     "scope": "All current HTML and linked local bytes match; actual browser desktop/mobile/dark, maps, tables, charts and LA referral/qualifications pass. Final artifact and acknowledgment verification follows."
   },
   "latest_independent_record_review": "work/research/2026-11-11/post-release-qa/butler-oh-operative-application.json",
-  "pending_consumer_input_delta": {
-    "baseline_release": "v2026.11.11.post8",
-    "baseline_source_commit": "9d9d4e637d3a0afa26e8fa8155ef3d52a49df586",
-    "baseline_handoff": "V42",
-    "receipt": "work/research/2026-11-11/post-release-qa/butler-oh-operative-application.json",
-    "receipts": [
-      "work/research/2026-11-11/post-release-qa/butler-oh-operative-application.json"
-    ],
-    "changed_cells": 4,
-    "changed_local_rows": 1,
-    "changed_policy_rows": 0,
-    "status_category_changes": 0,
-    "normalized_date_changes": 0,
-    "scope": "Four prose fields; no status, normalized date, VERIFY, count or native ballot changes. Returned conservative model revisions coordinator-adopted; original holds preserved. Pending publication after post8/V42."
+  "pending_hosted_delivery": {
+    "release": "v2026.11.11.post9",
+    "release_source_commit": "4d6ba88131a4406e124aa3e3089f81b2ef2b2e8c",
+    "state": "verified_data_release_pending_full_site_deployment",
+    "receipt": "work/research/2026-11-11/release-2026.11.11.post9/public-verification.json",
+    "active_deployment_run": null
   }
 }

@@ -3,7 +3,7 @@
 Work from a pinned commit and retain the cohort cutoff separately from the date
 of an individual source review. Research jobs are not a substantive acceptance gate.
 
-Qualified post8/V42: Four Lowndes County fields record reported expiry of the 60-day pause, changing the recorded category from active to expired. Working totals are 1,085 active/extended and 173 past; all other headline counts are unchanged. Exact expiry, the original executed instrument and subsequent ordinance actions remain unverified. No whole-record closure; 1,346 reviews remain unresolved. Two identical builds, full clean restore, ten anonymous downloads, V42 and current hosted desktop/mobile checks pass. [Receipts](../work/research/2026-11-11/release-2026.11.11.post8/README.md).
+Qualified post9/V43 data and consumer delivery is verified: four Butler County, Ohio prose cells; no category/date/count/native changes or closures. Full restore, ten public assets and independent V43 checks pass. Hosted verification remains pending; post8 is the prior verified website edition. Signed text, controlling effect, endpoint and later force remain unresolved. [Receipts](../work/research/2026-11-11/release-2026.11.11.post9/README.md).
 
 The current qualified expanded snapshot tracks policy observations and 57 measure/proposal records, with 65 retained results and 53 current observations across 52 measures. This is separate from legacy moratorium counts and does not certify every result.
 

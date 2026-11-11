@@ -1,0 +1,287 @@
+{
+  "source_commit": "4d6ba88131a4406e124aa3e3089f81b2ef2b2e8c",
+  "manifest_sha256": "6af855b785e0f44e8d58391c039b28cede1745a201ed0d9ef0bb0b3ec5325c1f",
+  "expanded_snapshot": "3ce33d22288fa7bc7100c9ac621c041037702e8370af1e663d53a548ff794725",
+  "current_counts": {
+    "moratorium_records": 1328,
+    "state_policy_records": 449,
+    "ballot_measures": 57,
+    "retained_results": 65,
+    "current_results": 53,
+    "retained_events": 12,
+    "current_accepted_historical_events": 12,
+    "restriction_records": 3,
+    "measure_instrument_link_records": 1
+  },
+  "files": 2834,
+  "entries": 3065,
+  "verified_at": "2026-11-11T13:19:43.669212+00:00",
+  "consumer_verification": {
+    "handoff": {
+      "state": "verified",
+      "source_commit": "4d6ba88131a4406e124aa3e3089f81b2ef2b2e8c",
+      "manifest_sha256": "6af855b785e0f44e8d58391c039b28cede1745a201ed0d9ef0bb0b3ec5325c1f",
+      "expanded_snapshot": "3ce33d22288fa7bc7100c9ac621c041037702e8370af1e663d53a548ff794725",
+      "files": 2834,
+      "entries": 3065,
+      "checks": [
+        {
+          "command": [
+            "scripts/check_expanded_publication.py"
+          ],
+          "exit_code": 0,
+          "result": {
+            "state": "consistent",
+            "snapshot_sha256": "3ce33d22288fa7bc7100c9ac621c041037702e8370af1e663d53a548ff794725",
+            "generations_checked": 49,
+            "records": {
+              "jurisdictions": 53,
+              "elections": 51,
+              "ballot_measures": 57,
+              "measure_provisions": 52,
+              "measure_results": 65,
+              "local_restrictions": 3,
+              "instrument_events": 12,
+              "measure_instrument_links": 1,
+              "source_documents": 168,
+              "claims": 625,
+              "review_decisions": 2756,
+              "search_runs": 1,
+              "search_attempts": 3,
+              "search_sightings": 18,
+              "coverage_observations": 1
+            },
+            "scope": "Offline publication/receipt consistency only; no source reacquisition, renewed factual acceptance or current-force confirmation."
+          }
+        },
+        {
+          "command": [
+            "scripts/build_expanded_csv.py",
+            "--check"
+          ],
+          "exit_code": 0,
+          "result": {
+            "state": "matches",
+            "source_snapshot": "3ce33d22288fa7bc7100c9ac621c041037702e8370af1e663d53a548ff794725",
+            "projection_sha256": "7b585b49998f8ca39b0ff433fe15c34335ea171bdd8960af1e7e9fdcf852f6cb",
+            "csv_views": 18
+          }
+        },
+        {
+          "command": [
+            "scripts/build_policy_scope_exports.py",
+            "--check"
+          ],
+          "exit_code": 0,
+          "result": "policy-scope exports current"
+        }
+      ],
+      "checks_run": true,
+      "scope": "Pinned input integrity and offline publication consistency, not source reacquisition or downstream join acceptance."
+    },
+    "policy_semantics": {
+      "total_state_policy_actions": 449,
+      "total_state_bills": 427,
+      "state_policy_instrument_type_counts": {
+        "bill": 427,
+        "executive_order": 3,
+        "governor_directive": 1,
+        "legislative_amendment": 1,
+        "legislative_precursor": 3,
+        "legislative_resolution": 12,
+        "statute": 2
+      },
+      "top_states_by_bills": [
+        [
+          "Pennsylvania",
+          18
+        ],
+        [
+          "Virginia",
+          18
+        ],
+        [
+          "West Virginia",
+          18
+        ],
+        [
+          "Maryland",
+          16
+        ],
+        [
+          "New Jersey",
+          16
+        ],
+        [
+          "California",
+          14
+        ],
+        [
+          "South Dakota",
+          14
+        ],
+        [
+          "Arizona",
+          13
+        ],
+        [
+          "Iowa",
+          13
+        ],
+        [
+          "Michigan",
+          13
+        ],
+        [
+          "Minnesota",
+          12
+        ],
+        [
+          "Ohio",
+          12
+        ],
+        [
+          "Oklahoma",
+          12
+        ],
+        [
+          "Illinois",
+          11
+        ],
+        [
+          "Kansas",
+          11
+        ]
+      ],
+      "top_states_by_policy_actions": [
+        [
+          "Pennsylvania",
+          22
+        ],
+        [
+          "Virginia",
+          18
+        ],
+        [
+          "West Virginia",
+          18
+        ],
+        [
+          "Maryland",
+          17
+        ],
+        [
+          "New Jersey",
+          17
+        ],
+        [
+          "California",
+          14
+        ],
+        [
+          "Michigan",
+          14
+        ],
+        [
+          "South Dakota",
+          14
+        ],
+        [
+          "Arizona",
+          13
+        ],
+        [
+          "Iowa",
+          13
+        ],
+        [
+          "Kansas",
+          12
+        ],
+        [
+          "Minnesota",
+          12
+        ],
+        [
+          "Ohio",
+          12
+        ],
+        [
+          "Oklahoma",
+          12
+        ],
+        [
+          "Illinois",
+          11
+        ]
+      ]
+    }
+  },
+  "index_verification": {
+    "snapshot": "data/source-snapshots/moratoria/2026-11-11-reviewed-v43",
+    "source_commit": "4d6ba88131a4406e124aa3e3089f81b2ef2b2e8c",
+    "manifest_sha256": "6af855b785e0f44e8d58391c039b28cede1745a201ed0d9ef0bb0b3ec5325c1f",
+    "tracked_files_and_symlinks": 2835,
+    "exact_staged_git_blob_bytes_and_modes": true,
+    "scope": "Exact staged snapshot content, Git modes and path set against the pinned manifest, including the manifest itself. This is not an independent legal review."
+  },
+  "baseline_handoff": "V42",
+  "expanded_tables_byte_identical": true,
+  "changed_cells": 4,
+  "changed_local_cells": 4,
+  "changed_policy_cells": 0,
+  "changed_local_rows": 1,
+  "changed_policy_rows": 0,
+  "new_policy_rows": 0,
+  "status_category_changes": 0,
+  "normalized_adoption_date_changes": 0,
+  "date_precision_changes": 0,
+  "normalized_endpoint_changes": 0,
+  "duration_kind_changes": 0,
+  "whole_record_closures": 0,
+  "unresolved_records": 1346,
+  "corrected_resolved_records": 192,
+  "verify_tagged_rows": 978,
+  "field_changes": [
+    {
+      "id": "oh-butler-county-2026",
+      "field": "duration",
+      "before": "Six months; county administrator reported effectiveness June 17, 2026; operative resolution not verified.",
+      "after": "Six months following the effective date under Section 1 of the reproduced resolution text. The county administrator reported June 17, 2026 effectiveness; a controlling effective-date instrument and exact endpoint remain unverified."
+    },
+    {
+      "id": "oh-butler-county-2026",
+      "field": "legal_basis",
+      "before": "Board of County Commissioners resolution; Resolution 26-06-00963, covering unincorporated areas of Hanover, Lemon, Madison, Milford, Oxford, and Ross townships where the county administers zoning",
+      "after": "Butler County Board of Commissioners Resolution 26-06-00963, recorded adopted June 16, 2026; reproduced Sections 1\u20135 restrict data-center application/permit processing in county-zoned Hanover, Lemon, Madison, Milford, Oxford and Ross townships. A signed executed copy remains unverified."
+    },
+    {
+      "id": "oh-butler-county-2026",
+      "field": "current_status",
+      "before": "June 16 county action was reported to impose a six-month moratorium in six county-zoned townships; the county administrator reported June 17 effectiveness. Actual end date and later force remain unverified. [VERIFY]",
+      "after": "Official June 16, 2026 meeting minutes record Resolution 26-06-00963 adopted. The legislative file records unanimous adoption and reproduces a six-month term following the effective date. In a July 2 report, Oxford Free Press attributed June 17 effectiveness to an email from County Administrator Judi Boyko. [VERIFY: controlling effective date, exact endpoint and later actions/current force.]"
+    },
+    {
+      "id": "oh-butler-county-2026",
+      "field": "outcome",
+      "before": "Commissioners were reported to have approved a six-month moratorium on approval, establishment, construction or issuance of permits for data or data processing centers in Hanover, Lemon, Madison, Milford, Oxford and Ross townships. The administrator reported June 17 effectiveness; the resolution number and operative text remain unverified in the retained account. [VERIFY]",
+      "after": "June 16 official minutes record the six-month moratorium adopted; the legislative file records Dixon moving, Carpenter seconding and Rogers, Carpenter and Dixon voting aye. Reproduced Sections 1\u20135 cover application and permit processing for establishment or expansion and suspend or toll specified review periods. The legislative meeting-history section also displays Draft; the linked minutes corroborate adoption. In a July 2 report, Oxford Free Press attributed June 17 effectiveness to an email from County Administrator Judi Boyko. [VERIFY: signed executed text, controlling effective date, exact endpoint and later force.]"
+    }
+  ],
+  "status_counts": {
+    "active": 886,
+    "extended": 199,
+    "replaced": 84,
+    "expired": 77,
+    "pending": 63,
+    "rescinded": 12,
+    "unknown": 4,
+    "rejected": 3
+  },
+  "trusted_verifier_sha256": "ebecf851d4196715df186cc81cc3c933ab7da550fbafd7207996cd94b9cd2739",
+  "scope": "Four Butler Ohio prose fields, adoption and reproduced scope; administrator effect attribution preserved. Signedtext/effect/endpoint/laterforce remain unresolved; no closure/native changes.",
+  "consumer_commit": "d1de34ac2a12fb3704256c330d536fffbf6dcf17",
+  "release_url": "https://github.com/mjbommar/moratorium-data-2026/releases/tag/v2026.11.11.post9",
+  "release_manifest_sha256": "36490d90c9c3d7018ef2bb45bc821447d33e216257b436ff9f2dde805974a8dc",
+  "hosted_copy_state": "pending"
+}

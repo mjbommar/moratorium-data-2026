@@ -1,10 +1,10 @@
 # Moratorium Data 2026
 
-**Qualified post8 release and website verified:** [v2026.11.11.post8](https://github.com/mjbommar/moratorium-data-2026/releases/tag/v2026.11.11.post8) and V42 deliver four Lowndes reported-expiry corrections. Two identical builds, full clean restore, ten anonymous downloads, V42 and current hosted desktop/mobile checks pass. Broader QA continues.
+**Qualified post9 data delivered; website verification pending:** [v2026.11.11.post9](https://github.com/mjbommar/moratorium-data-2026/releases/tag/v2026.11.11.post9) and V43 deliver four Butler County, Ohio prose corrections. Two identical builds, full clean restore, ten public downloads and independent consumer checks pass. Post8 remains the verified website edition.
 
 **Reviewed corrections:** Signed Mendocino Ordinances 4561 and 4562 establish historical adoption, votes, terms and literal threshold wording. Intended scope, later force and actual applicability remain qualified. Counts, categories, normalized dates and native history are unchanged. [Exact delta](work/research/2026-11-11/release-2026.11.11/dataset-delta.json).
 
-**Working Butler County, Ohio correction — publication pending:** Four Butler County, Ohio prose fields now incorporate official June16adoption and reproduced resolution scope, while retaining the Oxford Free Press attribution of June17effect to the county administrator. Signed executed text, controlling effective date, exact endpoint and later force remain unverified. No status, normalized-date, count, native-history or whole-record-disposition changes;1,346record reviews remain unresolved. [Preparation](work/research/2026-11-11/release-2026.11.11.post9/README.md).
+**Latest Butler County, Ohio correction — data delivered, website pending:** Four Butler County, Ohio prose fields now incorporate official June16adoption and reproduced resolution scope, while retaining the Oxford Free Press attribution of June17effect to the county administrator. Signed executed text, controlling effective date, exact endpoint and later force remain unverified. No status, normalized-date, count, native-history or whole-record-disposition changes;1,346record reviews remain unresolved. [Preparation](work/research/2026-11-11/release-2026.11.11.post9/README.md).
 
 **Latest Lowndes corrections:** Four Lowndes County fields record reported expiry of the 60-day pause, changing the recorded category from active to expired. Working totals are 1,085 active/extended and 173 past; all other headline counts are unchanged. Exact expiry, the original executed instrument and subsequent ordinance actions remain unverified. No whole-record closure; 1,346 reviews remain unresolved. Two identical builds, full clean restore, ten anonymous downloads, V42 and current hosted desktop/mobile checks pass.
 
@@ -192,7 +192,7 @@ A `CITATION.cff` file is included in the repo so GitHub renders a "Cite this rep
 - **Data** (`data/`, `states/`, `tables/`, `figures/`) is licensed under [Creative Commons Attribution 4.0 (CC-BY-4.0)](LICENSE-data). You can reuse, redistribute, and remix the data, including commercially, as long as you credit the source.
 - **Code** (`scripts/`, `notebooks/`, `examples/`) is licensed under the [MIT License](LICENSE-code).
 
-The latest qualified release is [v2026.11.11.post9](https://github.com/mjbommar/moratorium-data-2026/releases/tag/v2026.11.11.post9), prepared November 11 with publication verification pending. Post8/V42 remains the verified public edition until delivery completes. Four Butler County, Ohio prose corrections preserve qualifications on signed text, effective date, endpoint and later force. Original research cutoff and September baseline are unchanged.
+The latest qualified release is [v2026.11.11.post9](https://github.com/mjbommar/moratorium-data-2026/releases/tag/v2026.11.11.post9), published November 11 with data/download/V43 verification complete and hosted verification pending. Post8 remains the verified website edition. Four Butler County, Ohio prose corrections preserve qualifications on signed text, effective date, endpoint and later force. Original research cutoff and September baseline are unchanged.
 
 ---
 
