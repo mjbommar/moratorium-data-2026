@@ -10,6 +10,17 @@ class PublicSourceURLTests(unittest.TestCase):
         url='https://example.blob.core.windows.net/documents/law.pdf?sv=1&sig=private'
         self.assertEqual(public_source_url(url),url.split('?')[0])
 
+    def test_s3_signed_redirect_retains_only_resource_identifier(self):
+        url='https://granicus-aasmp-peak-files.s3.amazonaws.com/uploads/attachment/pdf/1/law.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=private&X-Amz-Signature=private&X-Amz-Expires=3600'
+        self.assertEqual(public_source_url(url),url.split('?')[0])
+
+    def test_unsigned_s3_and_lookalike_queries_preserved(self):
+        for url in ['https://example.s3.amazonaws.com/law.pdf?page=2',
+                    'https://example.s3.amazonaws.com.evil.org/law.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=public&X-Amz-Signature=public',
+                    'https://eureka.granicus.com/MetaViewer.php?view_id=3&clip_id=1914&meta_id=146588']:
+            with self.subTest(url=url):
+                self.assertEqual(public_source_url(url),url)
+
     def test_stable_viewer_and_unrelated_queries_preserved(self):
         for url in ['https://itswebny.widen.net/view/pdf/asset/law.pdf?u=public',
                     'https://example.org/law.pdf?sig=public&sig.keyId=key&sig.expires=123',

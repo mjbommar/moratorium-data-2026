@@ -974,3 +974,5 @@ Exit: repeatable refresh with visible freshness, costs, failures and unresolved 
 - [ ] Resolve EastWhiteland endpoint using distinct cure-completion/termination or legal/project evidence; preserve saved-rights and energy-generation-scope questions. Reconcile failed expanded-model reservation before any repeat of that request.
 
 - [x] Final qualifiedpost4delivery: exact uploadedpayload,49nativegenerations,64HTMLpages,currentdownloads and second actualbrowser run verified; East Whiteland correction live, broaderQA active.
+
+- [x] Close bounded Calaveras/Eureka source follow-ups: eight exact source pairs archived/read back; actual Calaveras proposal metadata and unsigned Eureka draft do not establish extension adoption. Two residual questions refined, 1,345 others identical; five URL-redaction tests pass. No canonical or public-release change; post4/V38 remains the delivered version.

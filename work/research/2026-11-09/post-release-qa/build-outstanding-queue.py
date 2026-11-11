@@ -1397,6 +1397,22 @@ def main():
         assert control['total_model_reservations_this_followup']==3 and control['verified_complete_model_responses']==2 and control['unresolved_model_reservations']==1
         assert review['complete_independent_ordinance_image_coverage'] is False
         overlays[review['id']]=[public_text(q) for q in review['remaining_questions']]
+    california_status_followup_path=Path('work/research/2026-11-11/post-release-qa/california-status-followup-review.json')
+    if california_status_followup_path.exists():
+        review=json.loads(california_status_followup_path.read_text())
+        assert review['canonical_changes']==review['whole_record_closures']==review['model_requests']==0
+        assert review['client_operation_counts']=={'serpapi':1,'fetch':8,'successful_fetches':7,'failed_fetches':1,'model_requests':0}
+        assert {r['id'] for r in review['source_only_records']}=={'ca-calaveras-county-2026','ca-eureka-2026'}
+        for pin in review['source_continuity']:
+            assert digest(Path(pin['path']).read_bytes())==pin['sha256']
+        assert review['calaveras_meeting_metadata']['meetingId']==102
+        assert review['calaveras_meeting_metadata']['minutesPacketDocumentId']=='' and review['calaveras_meeting_metadata']['minutesSummaryDocumentId']==''
+        assert review['signed_redirect_privacy']['signed_s3_queries_removed_from_public_metadata']
+        for record in review['source_only_records']:
+            source_row_guard(('local_inventory',record['id']),record['current_row_sha256'])
+            source_disposition_guard(record)
+            assert record['canonical_changes']==record['whole_record_closures']==record['native_readback_gaps']==0
+            overlays[record['id']]=[public_text(q) for q in record['remaining_questions']]
     rows=[]
     for entry in f['records']:
         if entry['disposition']!='unresolved':continue
@@ -1425,6 +1441,7 @@ def main():
     summary['idaho_governor_action_followup_sha256']=digest(idaho_governor_path.read_bytes()) if idaho_governor_path.exists() else None
     summary['east_whiteland_statutory_review_sha256']=digest(east_whiteland_scope_path.read_bytes()) if east_whiteland_scope_path.exists() else None
     summary['nassau_clerk_route_review_sha256']=digest(nassau_clerk_path.read_bytes()) if nassau_clerk_path.exists() else None
+    summary['california_status_followup_sha256']=digest(california_status_followup_path.read_bytes()) if california_status_followup_path.exists() else None
     summary['retained_finality_audit_sha256']=digest(retained_finality_path.read_bytes()) if retained_finality_path.exists() else None
     summary['massachusetts_origin_application_sha256']=digest(ma_origin_path.read_bytes()) if ma_origin_path.exists() else None
     summary['ohio_item58_discovery_sha256']=digest(ohio_item58_path.read_bytes()) if ohio_item58_path.exists() else None

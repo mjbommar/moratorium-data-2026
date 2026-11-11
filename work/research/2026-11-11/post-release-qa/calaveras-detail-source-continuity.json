@@ -1,0 +1,40 @@
+{
+  "manifest_sha256": {
+    "work/sources/CA/manifest.jsonl": "8ae750a323bf3121410e5e801dd9d4e2704272fdc5f0d808bb8d057ce0474753"
+  },
+  "record_count": 1,
+  "eligible_verified_body_records": 1,
+  "gap_records": 0,
+  "issue_counts": {},
+  "migrated_records": 1,
+  "records": [
+    {
+      "manifest": "work/sources/CA/manifest.jsonl",
+      "line": 346,
+      "legacy_key": "ba4e33101cd3c8d1-fca61ba7cfd5",
+      "row_sha256": "954e6b8e578587a26379814e941fc25482d9425289c90e971aa4a080127184df",
+      "url": "https://calaverascountyca.meetingmanager.tylerapp.com/tylermmcalendar6455calaverascountyca/meetingInformation/getMeeting",
+      "original_body_sha256": "fca61ba7cfd58923ac312d44ff7c243b7320af12380951f6dd34d5dd27e3837e",
+      "original_text_sha256": "0b88c48b85eebc429eeff93900c820c6db820c07e975c18a0b2cbc70e0f60435",
+      "fetched_at": "2026-11-11T09:59:50.680279+00:00",
+      "published": false,
+      "payload": {
+        "path": "work/sources/CA/ba4e33101cd3c8d1-fca61ba7cfd5.bin",
+        "sha256": "fca61ba7cfd58923ac312d44ff7c243b7320af12380951f6dd34d5dd27e3837e",
+        "bytes": 49739
+      },
+      "text": {
+        "path": "work/sources/CA/ba4e33101cd3c8d1-fca61ba7cfd5.txt",
+        "sha256": "0b88c48b85eebc429eeff93900c820c6db820c07e975c18a0b2cbc70e0f60435",
+        "bytes": 50401
+      },
+      "missing_files": [],
+      "issues": [],
+      "observation_id": "ab2cafc68a8bae28",
+      "metadata_derivation_id": "cb796a9f93c403d4",
+      "text_derivation_id": "4144694905c34aa1"
+    }
+  ],
+  "scope": "Actual observed POST getMeeting102response; source request method/body hash explicit in text_derivation. Metadata/agenda proposal, not minutes or adoption proof. Prior GET405 retained separately.",
+  "exact_body_text_pairs_read_back": 1
+}

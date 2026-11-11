@@ -19,7 +19,10 @@ def public_source_url(url):
     query = parse_qs(parts.query)
     signed_azure = host.endswith(('.blob.core.windows.net', '.blob.core.usgovcloudapi.net')) and 'sig' in query
     signed_widen = host.endswith('.widencdn.net') and {'sig', 'sig.keyId', 'sig.expires'} <= query.keys()
-    if signed_azure or signed_widen:
+    signed_s3 = host.endswith('.s3.amazonaws.com') and {
+        'X-Amz-Algorithm', 'X-Amz-Credential', 'X-Amz-Signature'
+    } <= query.keys()
+    if signed_azure or signed_widen or signed_s3:
         return urlunsplit((parts.scheme,parts.netloc,parts.path,'',''))
     return url
 
@@ -105,6 +108,7 @@ def import_attempts(directory, state, apply=False, raw_root=None, attempt_ids=No
                 'scope':'Retrieval/cache lineage only; not renewed factual or legal-force acceptance.'}
         if public_url!=e['url'] or final_url!=e['final_url']:
             row['retrieval_url_sha256']=hashlib.sha256(e['url'].encode()).hexdigest()
+            row['retrieval_final_url_sha256']=hashlib.sha256(e['final_url'].encode()).hexdigest()
             row['access_note']='Retrieved through a publicly linked signed download; refresh via its public portal. The unsigned resource identifier may not be directly retrievable.'
             context=directory/'source-link-provenance.json'
             if context.exists():
