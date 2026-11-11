@@ -5,3 +5,5 @@ This release adds Fairfax, Iowa’s proposed 18-month battery-storage moratorium
 The public pages have also passed deployment checks.
 
 [Changes](dataset-delta.json) · [Build checks](build-and-assets.json) · [Restore checks](clean-restore.json) · [Download checks](public-verification.json).
+
+[Final delivery checks](final-delivery-verification.json) passed for the uploaded files, all 64 HTML pages, linked downloads, desktop and mobile views, and both Fairfax entries.
