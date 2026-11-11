@@ -1,0 +1,7 @@
+# Qualified November 11 update: LA County October 6 referral
+
+Two independently reviewed prose cells replace an outdated hearing forecast with LA County’s actual October 6 Board action: motion 26-6069 was referred back to Supervisor Solis’s office. The Board did not adopt its proposed permanent zoning prohibition that day. The proposed motion separately attributes September 17 administrative action to the Regional Planning Director’s existing Title 22 authority. Its prospective definitions and exceptions are not verified terms of the missing memorandum.
+
+No status, normalized date, endpoint, VERIFY count, headline count or native governance changes. There remain 1,346 unresolved record reviews, including LA County’s memorandum scope and subsequent actions. The signed Heath annual warrant was recovered with an exact historical hash match; additional Heath bylaw discussions remain evidence of discussion rather than adoption. No whole-record review closes in this release.
+
+Recorded local totals remain 1,328 rows: 1,086 active/extended, 63 pending, 172 past, 3 rejected and 4 unknown. These are recorded classifications with explicit pending QA, not a certification of present legal force. Native ballot tables and all 49 historical generations remain unchanged.

@@ -1,5 +1,18 @@
 # Changelog
 
+## Qualified v2026.11.11.post7 — delivery pending
+
+Two LA County prose corrections record October 6 referral rather than adoption of the proposed permanent restriction. No headline/status/date/native changes or whole-record closures. There remain 1,346 unresolved reviews. Release, V41 and hosted checks pending.
+
+| Metric | Qualified November 11 post7 |
+|---|---:|
+| Moratoria in the list | **1,328** |
+| Classified active or extended | **1,086** |
+| Pending or not yet effective | **63** |
+| Ended (replaced, expired, or rescinded) | **172** |
+| Rows we still want to confirm (`[VERIFY]`) | **978** |
+| States with at least one | **47** |
+
 ## Qualified v2026.11.11.post6
 
 Eleven cells correct Fort Wayne’s historical rejection and update attributed Eagan litigation news. Working counts are 63 pending, three rejected, 978 VERIFY-tagged and 1,346 unresolved reviews; one historical proposal review closes. In-force/raw/policy/date/endpoint/native totals unchanged. Two identical builds, full clean restore, ten anonymous downloads, V40 and current hosted desktop/mobile checks pass.
