@@ -1,0 +1,222 @@
+{
+  "input_manifest_sha256": "8744c7aa888d12e744a6682820a31e7d134790e551ec2506f259a7c3e1336585",
+  "source_pins": [
+    {
+      "source_id": "original",
+      "text_sha256": "98e1e0fb0e03e82ecb459743dfa74d44b5610cd6e3a84bb238c8529146fd310f",
+      "role": "Previously retained original signed Resolution2026-07, OCR text. Existing originalterm adopted earlier, do not reinterpret signature table from OCR."
+    },
+    {
+      "source_id": "april6",
+      "text_sha256": "588b9079cb3047841c8255fc947de387e3c662660efb1697c7d4c857a495aeb9",
+      "role": "Full7pageofficialminutes PDF extracted text; exemption approval physicalpages6\u20137, not standalone executed2026-11."
+    },
+    {
+      "source_id": "planning-index",
+      "text_sha256": "6e495e1e82df41f9cb7b8bf77d5fd4438f01a2c78c02a6fd69dce142ce60deb1",
+      "role": "Captured official PlanningCommission navigation page; label says Commission adopted planNov5, proposedzoning links. Not countyboard adoption of plan and zoning; linkedplan not reviewed."
+    }
+  ],
+  "image_pins": [
+    {
+      "source_id": "april6",
+      "sha256": "e035d91b87a3b78085dceab1e1aaafa5247ed8e26c0798d50569b488b51167c6",
+      "physical_page": 6
+    },
+    {
+      "source_id": "april6",
+      "sha256": "8b03c1d0972ad8fe5dd6d5ab589d08266189e31e2ec102c81f67cedc8e4f4f4a",
+      "physical_page": 7
+    }
+  ],
+  "candidate": {
+    "id": "ne-butler-county-2026",
+    "row_sha256": "77c903d6e03b1da3262e1fc28a89f60756d53ec56568bd3e6725255a17c133d9",
+    "proposed_changes": [
+      {
+        "field": "current_status",
+        "before": "Signed Resolution 2026-07 dated March 16 states nine months or earlier completion/adoption of county zoning regulations and comprehensive plan. Adoption minutes remove the proposed exclusion for projects under construction. A later solar exemption, amendments and operative ending were not established by this review. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+        "after": "Resolution 2026-07 provides nine months from March 16, 2026 or earlier completion and adoption of county zoning regulations and the comprehensive plan. April 6 official minutes record approval of Resolution 2026-11 exempting Butler County Solar/Sandhills Energy. The official Planning Commission page labels the comprehensive plan adopted by that Commission on November 5; this does not establish county adoption of both plan and zoning or termination of the moratorium. [VERIFY: executed exemption terms, operative ending, subsequent actions and current legal force.]"
+      },
+      {
+        "field": "affected_projects",
+        "before": "Sandhills Energy solar project (in development since 2019, construction reportedly started February 2026, ~$15M invested/$100M in equipment orders per company representative Brian Boerner) was initially covered by the moratorium as adopted, then later exempted after the company threatened litigation.",
+        "after": "Butler County Solar/Sandhills Energy: April 6, 2026 official county minutes record approval of project-specific exemption Resolution 2026-11, with six ayes, no nays and Sypal absent. Any road agreement was described as a separate issue. The standalone executed exemption text, precise project footprint and any conditions remain unverified."
+      },
+      {
+        "field": "outcome",
+        "before": "A nine-month countywide moratorium covering wind, solar, data centers, battery storage and landfills was adopted March 16, 2026, subject to earlier completion and adoption of the county zoning regulations and comprehensive plan. Earlier Flatwater Free Press reporting attributed a later exemption for an in-progress solar project; the exemption instrument has not been independently established.",
+        "after": "The original March 16 nine-month moratorium remains subject to its earlier-ending condition. On April 6, Krafka moved and Coufal seconded approval of Resolution 2026-11; Krafka, Vandenberg, Coufal, Griess, Bauer and Steager voted aye, with Sypal absent, and the motion carried. The minutes describe an exemption for Butler County Solar/Sandhills Energy, not a general exemption for all solar projects. Later county adoption, operative termination and current force remain unverified."
+      }
+    ]
+  },
+  "captures": [
+    {
+      "stage": "blind_extraction",
+      "attempt_id": "ac0e3e06e8274602ab783e01a21bc758",
+      "descriptor_sha256": "c61429a6aac6bf34c3e8fab8e3726e64c23e1c01a9bc6065d9316642a5412744",
+      "wire_request_sha256": "6a28152a7ccc7f7047d941763779272e3aa392e621928685122f78e20b76aa95",
+      "wire_response_sha256": "cf9becd110873d157548bedf7e378a1776cd830c1a1d53d3c0a73afbaecfc892",
+      "all_original_page_images_bound": true,
+      "actual_input_descriptor_matches": true,
+      "wire_sdk_output_matches_after_null_default_normalization": true,
+      "parsed_answer_matches": true,
+      "usage": {
+        "input_tokens": 11452,
+        "input_tokens_details": {
+          "cache_write_tokens": 11449,
+          "cached_tokens": 0
+        },
+        "output_tokens": 753,
+        "output_tokens_details": {
+          "reasoning_tokens": 48
+        },
+        "total_tokens": 12205
+      }
+    },
+    {
+      "stage": "cell_adjudication",
+      "attempt_id": "049848d885114ec2b035aa9252c2c384",
+      "descriptor_sha256": "f824ddbfba4c13c8741b2e2bcf1a047c5a40f23ad89d16a7c3e718eacde14895",
+      "wire_request_sha256": "dc77f756104dfa583c8e0c2e628b56d6162584d94de4208cd8c352aa8ba8554b",
+      "wire_response_sha256": "82ae726c8bbbf6c788e16ee4dd16896aa246c56dcb7f27e3a3abd210fadfbeff",
+      "all_original_page_images_bound": true,
+      "actual_input_descriptor_matches": true,
+      "wire_sdk_output_matches_after_null_default_normalization": true,
+      "parsed_answer_matches": true,
+      "usage": {
+        "input_tokens": 13368,
+        "input_tokens_details": {
+          "cache_write_tokens": 13365,
+          "cached_tokens": 0
+        },
+        "output_tokens": 1175,
+        "output_tokens_details": {
+          "reasoning_tokens": 369
+        },
+        "total_tokens": 14543
+      }
+    }
+  ],
+  "answers": {
+    "blind_extraction": {
+      "facts": [
+        {
+          "field": "original_resolution",
+          "value": "Butler County Resolution 2026-07, dated March 16, 2026",
+          "source_id": "original",
+          "locator": "Resolution heading and dated clause",
+          "supporting_summary": "The Board of Supervisors enacted a temporary construction moratorium."
+        },
+        {
+          "field": "original_term",
+          "value": "Nine months from the resolution date, or until completion and adoption of the county zoning regulations and comprehensive plan, whichever occurs first",
+          "source_id": "original",
+          "locator": "Duration and therefore clauses, pages 1\u20132",
+          "supporting_summary": "The resolution specifies an earlier-adoption alternative to the nine-month period."
+        },
+        {
+          "field": "original_scope",
+          "value": "Commercial wind farms energy systems, commercial solar farms energy systems, battery energy storage systems, data processing centers, and landfill",
+          "source_id": "original",
+          "locator": "Listed projects and therefore clause, pages 1\u20132",
+          "supporting_summary": "The resolution states that no building or construction work on the listed projects shall be commenced during the moratorium."
+        },
+        {
+          "field": "exemption_identity_and_date",
+          "value": "Butler County Solar/Sandhills Energy; Resolution 2026-11 approved April 6, 2026",
+          "source_id": "april6",
+          "locator": "Physical pages 6\u20137, discussion/action on removing Butler County Solar/Sandhills Energy from moratorium",
+          "supporting_summary": "The chairman said the resolution would exempt the named project; the board approved it as presented. He said any road agreement would be a separate issue."
+        },
+        {
+          "field": "exemption_vote",
+          "value": "6 aye, 0 nay, 1 absent",
+          "source_id": "april6",
+          "locator": "Physical pages 6\u20137, Resolution 2026-11 roll call",
+          "supporting_summary": "Krafka, Vandenberg, Coufal, Griess, Bauer and Steager voted aye; Sypal was absent. The motion carried."
+        },
+        {
+          "field": "later_planning_page_label",
+          "value": "Butler County Comprehensive Plan \u2013 Adopted by Planning Commission on 11/5/2026",
+          "source_id": "planning-index",
+          "locator": "Planning Commission page, plan and zoning links",
+          "supporting_summary": "The page separately labels zoning district and classification map links as proposed. Its Planning Commission adoption label is not evidence of county board adoption of both the plan and zoning regulations."
+        }
+      ],
+      "uncertainties": [
+        "The standalone executed Resolution 2026-11 and its exact conditions were not supplied.",
+        "The supplied sources do not establish the moratorium\u2019s exact endpoint or its legal force.",
+        "The project-specific exemption does not establish a universal solar exemption or termination of the moratorium.",
+        "The linked comprehensive plan was not reviewed, and county board adoption of both the plan and zoning regulations is not established by the planning-page label.",
+        "No candidate or current row was supplied for comparison."
+      ]
+    },
+    "cell_adjudication": {
+      "record_id": "ne-butler-county-2026",
+      "input_row_sha256": "77c903d6e03b1da3262e1fc28a89f60756d53ec56568bd3e6725255a17c133d9",
+      "field_decisions": [
+        {
+          "field": "current_status",
+          "decision": "reject",
+          "value": "Resolution 2026-07 provides nine months from March 16, 2026, or earlier completion and adoption of county zoning regulations and the comprehensive plan. April 6 official minutes record approval of Resolution 2026-11 to exempt Butler County Solar/Sandhills Energy. The official Planning Commission page labels the comprehensive plan adopted by that Commission on November 5, 2026; this does not establish county adoption of both the plan and zoning regulations or termination of the moratorium. The executed exemption terms, operative ending, subsequent actions and current legal force remain unverified.",
+          "source_id": "original, april6, planning-index",
+          "locator": "Original resolution duration and operative clauses; April 6 minutes, physical pages 6\u20137; Planning Commission plan and zoning links",
+          "reason": "The proposed facts are supported, but the bracketed verification tag is an implementation marker rather than public prose. The revision states the uncertainty directly."
+        },
+        {
+          "field": "affected_projects",
+          "decision": "accept",
+          "value": "Butler County Solar/Sandhills Energy: April 6, 2026 official county minutes record approval of project-specific exemption Resolution 2026-11, with six ayes, no nays and Sypal absent. Any road agreement was described as a separate issue. The standalone executed exemption text, precise project footprint and any conditions remain unverified.",
+          "source_id": "april6",
+          "locator": "Physical pages 6\u20137, discussion and vote on Resolution 2026-11",
+          "reason": "The minutes support the recorded approval and vote while leaving the executed terms and project footprint unresolved."
+        },
+        {
+          "field": "outcome",
+          "decision": "reject",
+          "value": "Resolution 2026-07 specified a nine-month moratorium from March 16, 2026, or until completion and adoption of county zoning regulations and the comprehensive plan, whichever occurred first. On April 6, Krafka moved and Coufal seconded approval of Resolution 2026-11; Krafka, Vandenberg, Coufal, Griess, Bauer and Steager voted aye, with Sypal absent, and the motion carried. The minutes describe an exemption for Butler County Solar/Sandhills Energy. The executed exemption terms, later county adoption, operative termination and current legal force remain unverified.",
+          "source_id": "original, april6",
+          "locator": "Original resolution duration and operative clauses; April 6 minutes, physical pages 6\u20137",
+          "reason": "The proposed wording could imply the original moratorium remains in force and overstate the exemption's scope without the executed text."
+        }
+      ],
+      "whole_record_closure_supported": false,
+      "remaining_questions": [
+        "What are the executed Resolution 2026-11's conditions and precise project footprint?",
+        "Were both the county zoning regulations and comprehensive plan completed and adopted, and when?",
+        "What subsequent actions, operative ending or legal developments affect the moratorium's current force?"
+      ],
+      "review_limitations": [
+        "The standalone executed Resolution 2026-11 was not supplied.",
+        "The comprehensive plan linked from the Planning Commission page was not reviewed.",
+        "The supplied sources do not establish the moratorium's operative endpoint or current legal force."
+      ]
+    }
+  },
+  "model_http_requests": 2,
+  "model": "gpt-6.1-terra",
+  "tools": [],
+  "agents_spawned": 0,
+  "price_usd": null,
+  "original_rejections_preserved": true,
+  "coordinator_whole_record_closure": false,
+  "coordinator_decisions": {
+    "affected_projects": "Accept exact independently accepted value.",
+    "current_status": "Override style-only rejection: reviewer explicitly says facts supported; docs/codebook.md current_status permits VERIFY notes, and marker retains established uncertainty accounting. Exact proposed factual wording plus marker applied.",
+    "outcome": "Adopt reviewer-returned conservative revision distinguishing historical specified term from current force. Original rejected exact wording remains preserved."
+  },
+  "format_contract": {
+    "path": "docs/codebook.md",
+    "sha256": "fe8acdaf3aabcbd76d65f155646e99962a1f412db530702ea1c3bd505cdeef1f",
+    "locators": [
+      "current_status field definition",
+      "VERIFY flags section"
+    ]
+  },
+  "final_field_values": {
+    "current_status": "Resolution 2026-07 provides nine months from March 16, 2026 or earlier completion and adoption of county zoning regulations and the comprehensive plan. April 6 official minutes record approval of Resolution 2026-11 exempting Butler County Solar/Sandhills Energy. The official Planning Commission page labels the comprehensive plan adopted by that Commission on November 5; this does not establish county adoption of both plan and zoning or termination of the moratorium. [VERIFY: executed exemption terms, operative ending, subsequent actions and current legal force.]",
+    "affected_projects": "Butler County Solar/Sandhills Energy: April 6, 2026 official county minutes record approval of project-specific exemption Resolution 2026-11, with six ayes, no nays and Sypal absent. Any road agreement was described as a separate issue. The standalone executed exemption text, precise project footprint and any conditions remain unverified.",
+    "outcome": "Resolution 2026-07 specified a nine-month moratorium from March 16, 2026, or until completion and adoption of county zoning regulations and the comprehensive plan, whichever occurred first. On April 6, Krafka moved and Coufal seconded approval of Resolution 2026-11; Krafka, Vandenberg, Coufal, Griess, Bauer and Steager voted aye, with Sypal absent, and the motion carried. The minutes describe an exemption for Butler County Solar/Sandhills Energy. The executed exemption terms, later county adoption, operative termination and current legal force remain unverified."
+  }
+}
