@@ -46,7 +46,7 @@ The inventory records government actions. Inclusion is not an endorsement or cri
 
 ## How current is the site?
 
-The next release is [v2026.11.11.post12](https://github.com/mjbommar/moratorium-data-2026/releases/tag/v2026.11.11.post12). Publication checks are running. [Post11](https://github.com/mjbommar/moratorium-data-2026/releases/tag/v2026.11.11.post11) is the current published version.
+The current release is [v2026.11.11.post12](https://github.com/mjbommar/moratorium-data-2026/releases/tag/v2026.11.11.post12), published November 11, 2026. Some records still have open questions.
 
 The main November search ended November 7. Later checks have their own source dates. The [April paper](../paper/moratorium-nation-2026-04-30.pdf) describes the older dataset and has not been updated to match the site.
 

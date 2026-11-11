@@ -1,0 +1,302 @@
+{
+  "source_commit": "92715b1171dced0a29ec0c181a98aa2d435f9685",
+  "manifest_sha256": "b366fbf82bb17cc42e4e1b59e05ceeaab6c5a3063a0a46b97b9f0a28ef6572e8",
+  "expanded_snapshot": "3ce33d22288fa7bc7100c9ac621c041037702e8370af1e663d53a548ff794725",
+  "current_counts": {
+    "moratorium_records": 1329,
+    "state_policy_records": 449,
+    "ballot_measures": 57,
+    "retained_results": 65,
+    "current_results": 53,
+    "retained_events": 12,
+    "current_accepted_historical_events": 12,
+    "restriction_records": 3,
+    "measure_instrument_link_records": 1
+  },
+  "files": 2887,
+  "entries": 3121,
+  "verified_at": "2026-11-11T16:22:47.559053+00:00",
+  "consumer_verification": {
+    "handoff": {
+      "state": "verified",
+      "source_commit": "92715b1171dced0a29ec0c181a98aa2d435f9685",
+      "manifest_sha256": "b366fbf82bb17cc42e4e1b59e05ceeaab6c5a3063a0a46b97b9f0a28ef6572e8",
+      "expanded_snapshot": "3ce33d22288fa7bc7100c9ac621c041037702e8370af1e663d53a548ff794725",
+      "files": 2887,
+      "entries": 3121,
+      "checks": [
+        {
+          "command": [
+            "scripts/check_expanded_publication.py"
+          ],
+          "exit_code": 0,
+          "result": {
+            "state": "consistent",
+            "snapshot_sha256": "3ce33d22288fa7bc7100c9ac621c041037702e8370af1e663d53a548ff794725",
+            "generations_checked": 49,
+            "records": {
+              "jurisdictions": 53,
+              "elections": 51,
+              "ballot_measures": 57,
+              "measure_provisions": 52,
+              "measure_results": 65,
+              "local_restrictions": 3,
+              "instrument_events": 12,
+              "measure_instrument_links": 1,
+              "source_documents": 168,
+              "claims": 625,
+              "review_decisions": 2756,
+              "search_runs": 1,
+              "search_attempts": 3,
+              "search_sightings": 18,
+              "coverage_observations": 1
+            },
+            "scope": "Offline publication/receipt consistency only; no source reacquisition, renewed factual acceptance or current-force confirmation."
+          }
+        },
+        {
+          "command": [
+            "scripts/build_expanded_csv.py",
+            "--check"
+          ],
+          "exit_code": 0,
+          "result": {
+            "state": "matches",
+            "source_snapshot": "3ce33d22288fa7bc7100c9ac621c041037702e8370af1e663d53a548ff794725",
+            "projection_sha256": "7b585b49998f8ca39b0ff433fe15c34335ea171bdd8960af1e7e9fdcf852f6cb",
+            "csv_views": 18
+          }
+        },
+        {
+          "command": [
+            "scripts/build_policy_scope_exports.py",
+            "--check"
+          ],
+          "exit_code": 0,
+          "result": "policy-scope exports current"
+        }
+      ],
+      "checks_run": true,
+      "scope": "Pinned input integrity and offline publication consistency, not source reacquisition or downstream join acceptance."
+    },
+    "policy_semantics": {
+      "total_state_policy_actions": 449,
+      "total_state_bills": 427,
+      "state_policy_instrument_type_counts": {
+        "bill": 427,
+        "executive_order": 3,
+        "governor_directive": 1,
+        "legislative_amendment": 1,
+        "legislative_precursor": 3,
+        "legislative_resolution": 12,
+        "statute": 2
+      },
+      "top_states_by_bills": [
+        [
+          "Pennsylvania",
+          18
+        ],
+        [
+          "Virginia",
+          18
+        ],
+        [
+          "West Virginia",
+          18
+        ],
+        [
+          "Maryland",
+          16
+        ],
+        [
+          "New Jersey",
+          16
+        ],
+        [
+          "California",
+          14
+        ],
+        [
+          "South Dakota",
+          14
+        ],
+        [
+          "Arizona",
+          13
+        ],
+        [
+          "Iowa",
+          13
+        ],
+        [
+          "Michigan",
+          13
+        ],
+        [
+          "Minnesota",
+          12
+        ],
+        [
+          "Ohio",
+          12
+        ],
+        [
+          "Oklahoma",
+          12
+        ],
+        [
+          "Illinois",
+          11
+        ],
+        [
+          "Kansas",
+          11
+        ]
+      ],
+      "top_states_by_policy_actions": [
+        [
+          "Pennsylvania",
+          22
+        ],
+        [
+          "Virginia",
+          18
+        ],
+        [
+          "West Virginia",
+          18
+        ],
+        [
+          "Maryland",
+          17
+        ],
+        [
+          "New Jersey",
+          17
+        ],
+        [
+          "California",
+          14
+        ],
+        [
+          "Michigan",
+          14
+        ],
+        [
+          "South Dakota",
+          14
+        ],
+        [
+          "Arizona",
+          13
+        ],
+        [
+          "Iowa",
+          13
+        ],
+        [
+          "Kansas",
+          12
+        ],
+        [
+          "Minnesota",
+          12
+        ],
+        [
+          "Ohio",
+          12
+        ],
+        [
+          "Oklahoma",
+          12
+        ],
+        [
+          "Illinois",
+          11
+        ]
+      ]
+    }
+  },
+  "index_verification": {
+    "snapshot": "data/source-snapshots/moratoria/2026-11-11-reviewed-v46",
+    "source_commit": "92715b1171dced0a29ec0c181a98aa2d435f9685",
+    "manifest_sha256": "b366fbf82bb17cc42e4e1b59e05ceeaab6c5a3063a0a46b97b9f0a28ef6572e8",
+    "tracked_files_and_symlinks": 2888,
+    "exact_staged_git_blob_bytes_and_modes": true,
+    "scope": "Exact staged snapshot content, Git modes and path set against the pinned manifest, including the manifest itself. This is not an independent legal review."
+  },
+  "baseline_handoff": "V45",
+  "expanded_tables_byte_identical": true,
+  "changed_cells": 2,
+  "changed_existing_local_rows": 1,
+  "added_local_rows": 1,
+  "affected_local_rows": 2,
+  "changed_policy_rows": 0,
+  "status_category_changes": 0,
+  "new_pending_rows": 1,
+  "normalized_date_changes": 0,
+  "whole_record_closures": 0,
+  "unresolved_records": 1347,
+  "corrected_resolved_records": 192,
+  "verify_tagged_rows": 979,
+  "field_changes": [
+    {
+      "id": "ia-city-of-fairfax-undated",
+      "field": "current_status",
+      "before": "Pending as of 2026-09-23: advanced 3-1 on 2026-07-14; no report of final adoption was found. [VERIFY instrument number; adoption date not confirmed at confidence 0.55 in the 2026-09 refresh]",
+      "after": "The November 10, 2026 agenda lists a proposed resolution to set a December 8 hearing on a data-center prohibition. Its attached moratorium draft matches the earlier retained July 14 attachment. The agenda also lists a separate EU-3 data-center zoning proposal. Final adoption of the moratorium is not confirmed in the records reviewed. [VERIFY: final council action, adopted text, publication and effective date, relationship to the EU-3 proposal, and later changes.]"
+    },
+    {
+      "id": "ia-city-of-fairfax-undated",
+      "field": "outcome",
+      "before": "",
+      "after": "October 13 council minutes record adoption of Resolution 2026-115 to set a hearing on a proposed data-center zoning ordinance. The November 10 agenda lists the EU-3 district proposal in items 9\u201310 and a proposed hearing resolution for the data-center prohibition in item 15. Agenda listings and unsigned drafts do not establish final moratorium adoption."
+    }
+  ],
+  "added_records": [
+    {
+      "state": "Iowa",
+      "state_abbrev": "IA",
+      "jurisdiction": "City of Fairfax",
+      "jurisdiction_type": "City",
+      "date_enacted": "No adoption confirmed in the sources reviewed.",
+      "duration": "The proposed term is 18 calendar months from the ordinance's effective date. The council could terminate the moratorium early if it determines that the study is complete and appropriate regulations have been adopted or are otherwise in place. No operative start or end date is confirmed.",
+      "legal_basis": "Unsigned proposed ordinance for utility-scale battery energy storage systems (BESS) and associated infrastructure; ordinance number is blank. The November 10, 2026 council agenda lists the hearing and proposal as items 7\u20138.",
+      "trigger": "The draft calls for a study of fire safety, emergency response, setbacks, noise, environmental protection, decommissioning, and zoning rules for utility-scale battery storage.",
+      "current_status": "The council referred the 18-month proposal for planning review on October 13, 2026, by 4\u20131. The planning commission tabled it on October 20. On October 27, the council set a November 10 public hearing. The November 10 agenda lists the hearing and proposal. [VERIFY: final council action, adopted text, publication and effective date, term end, and later changes.]",
+      "affected_projects": "October 20 planning minutes discuss an Alliant Energy BESS proposal. The draft would not invalidate a complete application lawfully submitted and accepted for processing before its effective date; whether that project qualifies is unknown.",
+      "outcome": "The October referral, tabling, and hearing motion do not establish final adoption. The November 10 vote and publication were not confirmed in the sources reviewed.",
+      "has_verify_tags": "True",
+      "verify_count": "1",
+      "cite_count": "0",
+      "activity_level": "Medium",
+      "enacted_status": "pending",
+      "moratorium_id": "ia-city-of-fairfax-battery-storage-2026",
+      "latitude": "41.919447",
+      "longitude": "-91.781013",
+      "date_enacted_iso": "",
+      "date_enacted_uncertainty": "unverified",
+      "duration_days": "",
+      "duration_kind": "calendar_term",
+      "current_end_date_iso": "",
+      "sectors": "[\"battery_storage\"]",
+      "trigger_categories": "[\"regulatory_gap\",\"fire_safety\",\"noise\"]"
+    }
+  ],
+  "status_counts": {
+    "active": 886,
+    "extended": 199,
+    "replaced": 84,
+    "expired": 77,
+    "pending": 64,
+    "rescinded": 12,
+    "unknown": 4,
+    "rejected": 3
+  },
+  "trusted_verifier_sha256": "ebecf851d4196715df186cc81cc3c933ab7da550fbafd7207996cd94b9cd2739",
+  "scope": "Fairfax adds one pending battery-storage proposal and two existing data-center text corrections. Final adoption, effective dates, project applicability and later actions remain unconfirmed. No existing record changes status; ballot tables are unchanged.",
+  "consumer_commit": "42970681c6dde5bbd543d82958c00d61ea86fc26",
+  "release_url": "https://github.com/mjbommar/moratorium-data-2026/releases/tag/v2026.11.11.post12",
+  "release_manifest_sha256": "df94fc2f018290b8f747db7cacdbf9f4e4ca840279e4939044fdcaad432eed33",
+  "hosted_copy_state": "pending"
+}

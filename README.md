@@ -4,7 +4,7 @@ This project tracks local pauses on data centers, battery storage, solar, wind, 
 
 **[Open the dashboard](https://mjbommar.github.io/moratorium-data-2026/)** · [Browse states](states/README.md) · [Download local records](data/moratorium_inventory.csv) · [Read ballot results](docs/ballot-results.md)
 
-The next release is [v2026.11.11.post12](https://github.com/mjbommar/moratorium-data-2026/releases/tag/v2026.11.11.post12). Publication checks are running. [Post11](https://github.com/mjbommar/moratorium-data-2026/releases/tag/v2026.11.11.post11) is the current published version.
+The current release is [v2026.11.11.post12](https://github.com/mjbommar/moratorium-data-2026/releases/tag/v2026.11.11.post12), published November 11, 2026. Some records still have open questions.
 
 ## What the data contains
 
@@ -33,7 +33,7 @@ These are recorded classifications. They do not confirm that every restriction i
 
 ## What changed in this update
 
-The working data adds Fairfax, Iowa’s proposed 18-month pause on utility-scale battery storage. The council referred it for planning review on October 13, the planning commission tabled it on October 20, and the council set a November 10 hearing on October 27. Final adoption and publication have not been confirmed.
+This update adds Fairfax, Iowa’s proposed 18-month pause on utility-scale battery storage. The council referred it for planning review on October 13, the planning commission tabled it on October 20, and the council set a November 10 hearing on October 27. Final adoption and publication have not been confirmed.
 
 The existing Fairfax data-center record now includes the November 10 agenda. It lists a separate EU-3 zoning proposal and proposes setting a December 8 hearing on a data-center prohibition. The agenda does not establish that the hearing was set or that either proposal passed.
 

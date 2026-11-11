@@ -1,0 +1,14 @@
+{
+  "changes": [
+    "Release-label validation accepts both historical and plain-English release wording, while still rejecting incorrect versions.",
+    "Restored the generated CSV download table removed during the prose rewrite. The native tables and saved CSV generation are unchanged."
+  ],
+  "checks": {
+    "release_selection_and_labels_tests": 7,
+    "focused_tests_total": 39,
+    "documented_numbers": 103,
+    "current_csv_download_block_check_exit_code": 0
+  },
+  "failed_preparation_attempts_retained": true,
+  "scope": "These checks cover publication compatibility after copy edits. They do not establish current legal effect or resolve the outstanding source questions."
+}

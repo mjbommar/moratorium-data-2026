@@ -72,7 +72,7 @@ A data release is built from a fixed commit. Checks compare archive contents, sa
 
 These checks establish file consistency and delivery. They do not establish complete source coverage or the present effect of every law.
 
-The next release is [v2026.11.11.post12](https://github.com/mjbommar/moratorium-data-2026/releases/tag/v2026.11.11.post12). Publication checks are running. [Post11](https://github.com/mjbommar/moratorium-data-2026/releases/tag/v2026.11.11.post11) is the current published version.
+The current release is [v2026.11.11.post12](https://github.com/mjbommar/moratorium-data-2026/releases/tag/v2026.11.11.post12), published November 11, 2026. Some records still have open questions.
 
 The main November search ended November 7. Later source checks keep their own dates. A new release date does not mean every record was checked that day.
 

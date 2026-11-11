@@ -20,7 +20,7 @@
   "consumer_dispositions": "delivered_with_historical_editions_preserved",
   "experimental_extractor": "failed_no_automatic_promotion",
   "quality_gate_disposition": "User authorized publication of the current state with qualifications on pending QA, followed by continued double checking and resolution of outstanding questions.",
-  "reviewed_data_source_commit": "e2d510e0014721ec2bf04f401248b64f642da6a5",
+  "reviewed_data_source_commit": "92715b1171dced0a29ec0c181a98aa2d435f9685",
   "record_dispositions": {
     "unresolved": 1347,
     "corrected_resolved": 192,
@@ -31,7 +31,7 @@
   "record_disposition_path": "work/research/2026-11-08/full-record-dispositions/funnel.json",
   "qa_status": "ongoing",
   "publication_authorization": "publish current state with qualifications on pending QA, then continue to double check and clear the outstanding questions",
-  "working_revision": "fairfax-pending-proposal-addition-awaiting-publication",
+  "working_revision": "2026.11.11.post12-data-consumer-delivered-hosting-pending",
   "current_raw_counts": {
     "local": 1329,
     "state_policy": 449,
@@ -39,18 +39,18 @@
   },
   "prior_release": "v2026.11.11.post11",
   "prior_release_source_commit": "e2d510e0014721ec2bf04f401248b64f642da6a5",
-  "prior_published_source_commit": "8538114339069cf97465b04df74d1438625ad511",
-  "published_source_reference": "Qualified post11 pins e2d510e0014721ec2bf04f401248b64f642da6a5; builds, restore, ten anonymous downloads, V45 and current pages verified. Final acknowledgment payload check follows.",
+  "prior_published_source_commit": "e2d510e0014721ec2bf04f401248b64f642da6a5",
+  "published_source_reference": "Qualified post12 pins 92715b1171dced0a29ec0c181a98aa2d435f9685; identical builds, full restore, ten anonymous downloads and V46 verified. Hosted verification pending; post11 is prior verified site. Final adopted texts, effect, interval, later force and broader QA remain qualified.",
   "latest_consumer_handoff": {
-    "source_commit": "e2d510e0014721ec2bf04f401248b64f642da6a5",
-    "manifest_sha256": "e8a9676d80dd4f30fcf6ac1e5052c9ac86b99d798fb5a99d20b986ca8cc52656",
+    "source_commit": "92715b1171dced0a29ec0c181a98aa2d435f9685",
+    "manifest_sha256": "b366fbf82bb17cc42e4e1b59e05ceeaab6c5a3063a0a46b97b9f0a28ef6572e8",
     "trusted_verifier_sha256": "ebecf851d4196715df186cc81cc3c933ab7da550fbafd7207996cd94b9cd2739",
-    "scope": "Five prose fields across two local records are corrected. St. Clair Township, Butler County Ohio records reported commission actions while retaining final trustee approval as pending. Fort Collins, Colorado now distinguishes the completed October 6 adoption of Resolution 2026-117 from Ordinance 147\u2019s October 20 first reading. Final adopted texts, ordinance passage/effect, operative intervals and later legal force remain qualified. No status, date, endpoint, count, VERIFY or native-history changes, and no whole-record closures. There remain 1,346 unresolved reviews.",
-    "consumer_commit": "8ca292bd41ad1de360bddb02d50276769a90b57c",
-    "receipt": "work/research/2026-11-11/post-release-qa/consumer-v45-handoff.json"
+    "scope": "Fairfax adds one pending battery-storage proposal and two existing data-center text corrections. Final adoption, effective dates, project applicability and later actions remain unconfirmed. No existing record changes status; ballot tables are unchanged.",
+    "consumer_commit": "42970681c6dde5bbd543d82958c00d61ea86fc26",
+    "receipt": "work/research/2026-11-11/post-release-qa/consumer-v46-handoff.json"
   },
   "release_date_timezone": "America/New_York",
-  "published_source_commit": "e2d510e0014721ec2bf04f401248b64f642da6a5",
+  "published_source_commit": "92715b1171dced0a29ec0c181a98aa2d435f9685",
   "september_status_category_differences": {
     "local": 102,
     "policy": 34,
@@ -59,26 +59,27 @@
   },
   "latest_geography_review": "work/research/2026-11-09/post-release-qa/nonblank-geography-application.json",
   "latest_delivered_consumer_input_delta": {
-    "baseline_release": "v2026.11.11.post10",
-    "baseline_source_commit": "8538114339069cf97465b04df74d1438625ad511",
-    "baseline_handoff": "V44",
-    "receipt": "work/research/2026-11-11/post-release-qa/stclair-butler-operative-application.json",
+    "baseline_release": "v2026.11.11.post11",
+    "baseline_source_commit": "e2d510e0014721ec2bf04f401248b64f642da6a5",
+    "baseline_handoff": "V45",
     "receipts": [
-      "work/research/2026-11-11/post-release-qa/stclair-butler-operative-application.json",
-      "work/research/2026-11-11/post-release-qa/fort-collins-operative-application.json"
+      "work/research/2026-11-11/post-release-qa/fairfax-data-center-operative-application.json",
+      "work/research/2026-11-11/post-release-qa/fairfax-battery-addition-application.json"
     ],
-    "changed_cells": 5,
+    "changed_cells": 2,
     "changed_local_rows": 2,
+    "changed_existing_local_rows": 1,
+    "added_local_rows": 1,
     "changed_policy_rows": 0,
     "status_category_changes": 0,
+    "new_pending_rows": 1,
     "normalized_date_changes": 0,
-    "scope": "Five prosefields/twolocalrows: StClair attributedcommissionactions with finaltrusteeapprovalpending; FortCollins completedresolutionadoption and separateordinancefirstreading, finalpassage/effect/currentforceunverified. No status/date/count/nativechanges or closures.",
-    "state": "delivered_and_hosted_verified",
-    "delivered_source_commit": "e2d510e0014721ec2bf04f401248b64f642da6a5",
-    "delivered_consumer_commit": "8ca292bd41ad1de360bddb02d50276769a90b57c",
-    "delivery_receipt": "work/research/2026-11-11/post-release-qa/consumer-v45-handoff.json",
-    "hosted_copy_state": "verified",
-    "hosted_receipt": "work/research/2026-11-11/release-2026.11.11.post11/hosted-copy-verification.json"
+    "scope": "Two existing data-center prose fields updated and one separate pending battery-storage proposal added in Fairfax. No existing record changes status. Local total rises from1328to1329, pending from63to64; other status counts and ballot data are unchanged.",
+    "state": "delivered_data_consumer_pending_hosted_verification",
+    "delivered_source_commit": "92715b1171dced0a29ec0c181a98aa2d435f9685",
+    "delivered_consumer_commit": "42970681c6dde5bbd543d82958c00d61ea86fc26",
+    "delivery_receipt": "work/research/2026-11-11/post-release-qa/consumer-v46-handoff.json",
+    "hosted_copy_state": "pending"
   },
   "latest_source_followup": "work/research/2026-11-11/post-release-qa/brookhaven-operative-application.json",
   "latest_expanded_candidate_review": "work/research/2026-11-09/starke-succession-review/validation.json",
@@ -102,30 +103,26 @@
     "scope": "Qualified policy-history succession only; no formal termination, overlap or current-force acceptance."
   },
   "prior_delivered_consumer_input_delta": {
-    "baseline_release": "v2026.11.11.post9",
-    "baseline_source_commit": "4d6ba88131a4406e124aa3e3089f81b2ef2b2e8c",
-    "baseline_handoff": "V43",
-    "receipt": "work/research/2026-11-11/post-release-qa/butler-ne-operative-application.json",
+    "baseline_release": "v2026.11.11.post10",
+    "baseline_source_commit": "8538114339069cf97465b04df74d1438625ad511",
+    "baseline_handoff": "V44",
+    "receipt": "work/research/2026-11-11/post-release-qa/stclair-butler-operative-application.json",
     "receipts": [
-      "work/research/2026-11-11/post-release-qa/morgan-oh-operative-application.json",
-      "work/research/2026-11-11/post-release-qa/adams-butler-operative-application.json",
-      "work/research/2026-11-11/post-release-qa/butler-ne-operative-application.json"
+      "work/research/2026-11-11/post-release-qa/stclair-butler-operative-application.json",
+      "work/research/2026-11-11/post-release-qa/fort-collins-operative-application.json"
     ],
-    "changed_cells": 16,
-    "changed_local_rows": 3,
+    "changed_cells": 5,
+    "changed_local_rows": 2,
     "changed_policy_rows": 0,
     "status_category_changes": 0,
-    "normalized_date_changes": 1,
-    "date_precision_changes": 1,
-    "normalized_endpoint_changes": 0,
-    "duration_kind_changes": 1,
-    "scope": "Sixteen MorganOhio/AdamsButler/ButlerNebraska fields delivered in post10/V44 and verified current pages. Inforce1085/past173; no closures;1346unresolved.",
+    "normalized_date_changes": 0,
+    "scope": "Five prosefields/twolocalrows: StClair attributedcommissionactions with finaltrusteeapprovalpending; FortCollins completedresolutionadoption and separateordinancefirstreading, finalpassage/effect/currentforceunverified. No status/date/count/nativechanges or closures.",
     "state": "delivered_and_hosted_verified",
-    "delivered_source_commit": "8538114339069cf97465b04df74d1438625ad511",
-    "delivered_consumer_commit": "3e55eb5d9a71011e9a9d5de000a0857077faf3ae",
-    "delivery_receipt": "work/research/2026-11-11/post-release-qa/consumer-v44-handoff.json",
+    "delivered_source_commit": "e2d510e0014721ec2bf04f401248b64f642da6a5",
+    "delivered_consumer_commit": "8ca292bd41ad1de360bddb02d50276769a90b57c",
+    "delivery_receipt": "work/research/2026-11-11/post-release-qa/consumer-v45-handoff.json",
     "hosted_copy_state": "verified",
-    "hosted_receipt": "work/research/2026-11-11/release-2026.11.11.post10/hosted-copy-verification.json"
+    "hosted_receipt": "work/research/2026-11-11/release-2026.11.11.post11/hosted-copy-verification.json"
   },
   "latest_field_application": "work/research/2026-11-11/post-release-qa/fairfax-data-center-operative-application.json",
   "latest_hosted_delivery": {
@@ -139,16 +136,16 @@
   "latest_expanded_result_review": "work/research/2026-11-10/canterbury-minutes-result-review/coordinator-adjudication.json",
   "latest_verified_release": "v2026.11.11.post11",
   "source_observation_window_scope": "Acquisition includes source-specific QA captures through November11; this does not renew every record or move the original comprehensive research_cutoff.",
-  "latest_download_verified_release": "v2026.11.11.post11",
+  "latest_download_verified_release": "v2026.11.11.post12",
   "prior_latest_consumer_handoff": {
-    "source_commit": "8538114339069cf97465b04df74d1438625ad511",
-    "manifest_sha256": "a41d5fc487fa7698d51d9e5e03ea01a8ec211b8830f7529bb05c6b4cebfead18",
+    "source_commit": "e2d510e0014721ec2bf04f401248b64f642da6a5",
+    "manifest_sha256": "e8a9676d80dd4f30fcf6ac1e5052c9ac86b99d798fb5a99d20b986ca8cc52656",
     "trusted_verifier_sha256": "ebecf851d4196715df186cc81cc3c933ab7da550fbafd7207996cd94b9cd2739",
-    "scope": "Sixteenfields/threerows: MorganOhio adoptionprecision/calendarterm and AdamsButler/Nebraska qualifiedprose. No status/count/native changes or closures. Executedterms/effect/endpoint/laterforce unresolved.",
-    "consumer_commit": "3e55eb5d9a71011e9a9d5de000a0857077faf3ae",
-    "receipt": "work/research/2026-11-11/post-release-qa/consumer-v44-handoff.json"
+    "scope": "Five prose fields across two local records are corrected. St. Clair Township, Butler County Ohio records reported commission actions while retaining final trustee approval as pending. Fort Collins, Colorado now distinguishes the completed October 6 adoption of Resolution 2026-117 from Ordinance 147\u2019s October 20 first reading. Final adopted texts, ordinance passage/effect, operative intervals and later legal force remain qualified. No status, date, endpoint, count, VERIFY or native-history changes, and no whole-record closures. There remain 1,346 unresolved reviews.",
+    "consumer_commit": "8ca292bd41ad1de360bddb02d50276769a90b57c",
+    "receipt": "work/research/2026-11-11/post-release-qa/consumer-v45-handoff.json"
   },
-  "prior_published_source_reference": "Qualified post10 pins 8538114339069cf97465b04df74d1438625ad511; builds,restore,tenanonymousdownloads,V44andinitialcurrentpagesverified. Final acknowledgment payload check follows.",
+  "prior_published_source_reference": "Qualified post11 pins e2d510e0014721ec2bf04f401248b64f642da6a5; builds, restore, ten anonymous downloads, V45 and current pages verified. Final acknowledgment payload check follows.",
   "latest_verified_hosted_data": {
     "release": "v2026.11.11.post11",
     "release_source_commit": "e2d510e0014721ec2bf04f401248b64f642da6a5",
@@ -390,22 +387,11 @@
     "scope": "All current HTML and linked local bytes match; actual browser desktop/mobile/dark, maps, tables, charts and combined batch adoption/calendar-term and source qualifications pass. Final artifact and acknowledgment verification follows."
   },
   "latest_independent_record_review": "work/research/2026-11-11/post-release-qa/fairfax-battery-addition-application.json",
-  "pending_consumer_input_delta": {
-    "baseline_release": "v2026.11.11.post11",
-    "baseline_source_commit": "e2d510e0014721ec2bf04f401248b64f642da6a5",
-    "baseline_handoff": "V45",
-    "receipts": [
-      "work/research/2026-11-11/post-release-qa/fairfax-data-center-operative-application.json",
-      "work/research/2026-11-11/post-release-qa/fairfax-battery-addition-application.json"
-    ],
-    "changed_cells": 2,
-    "changed_local_rows": 2,
-    "changed_existing_local_rows": 1,
-    "added_local_rows": 1,
-    "changed_policy_rows": 0,
-    "status_category_changes": 0,
-    "new_pending_rows": 1,
-    "normalized_date_changes": 0,
-    "scope": "Two existing data-center prose fields updated and one separate pending battery-storage proposal added in Fairfax. No existing record changes status. Local total rises from1328to1329, pending from63to64; other status counts and ballot data are unchanged."
+  "pending_hosted_delivery": {
+    "release": "v2026.11.11.post12",
+    "release_source_commit": "92715b1171dced0a29ec0c181a98aa2d435f9685",
+    "state": "verified_data_release_pending_full_site_deployment",
+    "receipt": "work/research/2026-11-11/release-2026.11.11.post12/public-verification.json",
+    "active_deployment_run": null
   }
 }
