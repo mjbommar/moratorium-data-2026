@@ -21,7 +21,7 @@ State policy is tracked separately: **22 records** (18 typed bill rows and 4 non
 | Conewago Township (York County) | Township | 2026-07-07 | data center | 🟢 Active |
 | Dorrance Township | Township | 2025-08-11 | data center | ⚪ Replaced |
 | Doylestown Township | Township | 2026-06-16 | data center | 🟢 Active |
-| East Whiteland Township | Township | 2026-03 | data center | 🟢 Active |
+| East Whiteland Township | Township | 2026-03-31 | data center | 🟢 Active |
 | Falls Township (Bucks County) | Township | 2026-07-27 | data center | 🟢 Active |
 | Gregg Township (Union County) | Township | 2026-08-20 | data center | 🟢 Active |
 | Hazle Township | Township | 2026-06-08 | data center | 🟢 Active |
@@ -204,16 +204,16 @@ State policy is tracked separately: **22 records** (18 typed bill rows and 4 non
 
 - **Type:** Township
 - **Recorded status:** 🟢 Active
-- **Date enacted:** 2026-03, East Whiteland Township Board of Supervisors vote to initiate a municipal curative amendment (Chester County); exact day not confirmed in sources reviewed
-- **Normalized date:** `2026-03` (month_only)
-- **Duration:** 180-day municipal curative-amendment process; township chronology states a September 27, 2026 deadline. The original resolutions and the exact legal endpoint of the earlier protection require review.
+- **Date enacted:** Signed Resolution 2026-21 states that the Board of Supervisors adopted it at a public meeting on March 31, 2026. Signed Resolution 25-2026, adopted April 27, 2026, recites the March 31 approval and supplies the specific findings. Neither recovered resolution supplies a roll-call tally.
+- **Normalized date:** `2026-03-31` (exact)
+- **Duration:** The previously reviewed township chronology describes a 180-day municipal curative-amendment process with a September 27, 2026 deadline. Resolution 2026-21 directs preparation of a separate findings resolution within 30 days; Resolution 25-2026 supplies those findings. The precise operative scope and endpoint of the earlier protection remain unresolved; the procedural deadlines do not alone establish a blanket permit moratorium interval.
 - **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `pa-east-whiteland-township-2026`
-- **Legal basis:** East Whiteland Township municipal curative amendment under the PA Municipalities Planning Code, developed with a resident working group beginning May 2026; a Sept. 24, 2026 public hearing was set to consider adoption of the resulting ordinance
+- **Legal basis:** Signed East Whiteland Township Resolution 2026-21 (March 31, 2026), invoking municipal curative-amendment protection under MPC section 609.2, 53 P.S. 10609.2, declares partial zoning invalidity concerning data-center uses and energy-generation systems and directs preparation of a cure and findings. Signed Resolution 25-2026 (April 27, 2026) makes the specific findings and renews the direction to prepare a curative amendment; it is a distinct instrument, not a second original adoption date.
 - **What prompted it:** Regulatory gap combined with a specific, highly contested project: developer Green Fig's proposal (later expanded to 1.7 million sq ft) for a data center on Swedesford Road, which drew sustained community opposition; the township already had an earlier, separately approved 2024 data-center plan on the same site.
 - **Affected projects:** Green Fig/Sentinel data center proposal on Swedesford Road; the expanded 1.7-million-sq-ft version was withdrawn in May 2026, with the developer expected to instead pursue its earlier-approved 2024 plan (details of that plan not confirmed in this pass).
-- **Detailed status:** The Board of Supervisors enacted Ordinance 385-2026 regulating data centers on September 24, 2026; its signed text states immediate effect. The township curative-amendment chronology identifies March 31 Resolution 21-2026, April 27 Resolution 25-2026, and a September 27 deadline. The earlier record reports withdrawal of the expanded Green Fig application in May; that remains an unverified historical lead in this review. September 25 reporting describes an existing project unaffected by the new ordinance. [VERIFY: original curative resolutions, scope and termination of protection, project approvals and later actions.]
+- **Detailed status:** Signed Resolution 2026-21 establishes March 31, 2026 adoption of the municipal curative-amendment action; signed Resolution 25-2026 supplies the April 27 findings. Their original texts are now recovered. The previously reviewed record reports enactment of data-center zoning Ordinance 385-2026 on September 24 with immediate effect. [VERIFY: the precise scope and endpoint of the earlier curative protection and its relationship to Ordinance 385-2026, project approvals/withdrawal, later legal actions and actual applicability/current force.]
 - **Outcome:** The Board of Supervisors enacted data-center zoning Ordinance 385-2026 on September 24, 2026; its signed text states immediate effect. The relationship to the earlier municipal curative-amendment protection requires review.
 
 ### Falls Township (Bucks County)

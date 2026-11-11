@@ -1,0 +1,299 @@
+{
+  "input_manifest_sha256": "c66d2a71a842ef1ca3fe21dee29399e340e5bce63d949a14d19afd3f1a57aae0",
+  "source_pins": [
+    {
+      "source_id": "5dbbbf3a91404b9e9833f9529a2032b3",
+      "body_sha256": "05249197d000fd73bd48d52b803ac75c01d862ca3b729675a0ac0790aec54639",
+      "physical_pages": [
+        1,
+        2
+      ]
+    },
+    {
+      "source_id": "30bbbe9e650e480495f6816c0f7ccecf",
+      "body_sha256": "7bb87007c72c4759a14e295417b9f5a641a6cdc2940aef5e57f4858f64708d43",
+      "physical_pages": [
+        1,
+        2,
+        3
+      ]
+    }
+  ],
+  "image_pins": [
+    {
+      "source_id": "5dbbbf3a91404b9e9833f9529a2032b3",
+      "physical_page": 1,
+      "sha256": "a8cdf5894a6276edb946aeba87f4482b49d46e1fd42ff928ae64aea8f7763605"
+    },
+    {
+      "source_id": "5dbbbf3a91404b9e9833f9529a2032b3",
+      "physical_page": 2,
+      "sha256": "17d9a00cc6f984adaaa7c732ae28e638ae541748004815bed66fb3d934b4ba1d"
+    },
+    {
+      "source_id": "30bbbe9e650e480495f6816c0f7ccecf",
+      "physical_page": 1,
+      "sha256": "0295221cc8e9623a00eb00f9055e2b180cec794684b04f18e6b14aca66044079"
+    },
+    {
+      "source_id": "30bbbe9e650e480495f6816c0f7ccecf",
+      "physical_page": 2,
+      "sha256": "4a39e6da82d90847f47e89c41c1ed83659a69f7b6c4194f57ab52f33a0697b0b"
+    },
+    {
+      "source_id": "30bbbe9e650e480495f6816c0f7ccecf",
+      "physical_page": 3,
+      "sha256": "1459751fbaa17b933b22a89e5779a4a158ef4e0b018a663c024ed3c0f55d5799"
+    }
+  ],
+  "candidate": {
+    "id": "pa-east-whiteland-township-2026",
+    "row_sha256": "092fc0fe8d9854488e4aff8203f24da4a129c1514df07adc9ab4b60055d711a7",
+    "proposed_changes": [
+      {
+        "field": "date_enacted",
+        "before": "2026-03, East Whiteland Township Board of Supervisors vote to initiate a municipal curative amendment (Chester County); exact day not confirmed in sources reviewed",
+        "after": "Signed Resolution 2026-21 states that the Board of Supervisors adopted it at a public meeting on March 31, 2026. Signed Resolution 25-2026, adopted April 27, 2026, recites the March 31 approval and supplies the specific findings. Neither recovered resolution supplies a roll-call tally."
+      },
+      {
+        "field": "date_enacted_iso",
+        "before": "2026-03",
+        "after": "2026-03-31"
+      },
+      {
+        "field": "date_enacted_uncertainty",
+        "before": "month_only",
+        "after": "exact"
+      },
+      {
+        "field": "duration",
+        "before": "180-day municipal curative-amendment process; township chronology states a September 27, 2026 deadline. The original resolutions and the exact legal endpoint of the earlier protection require review.",
+        "after": "The previously reviewed township chronology describes a 180-day municipal curative-amendment process with a September 27, 2026 deadline. Resolution 2026-21 directs preparation of a separate findings resolution within 30 days; Resolution 25-2026 supplies those findings. The precise operative scope and endpoint of the earlier protection remain unresolved; the procedural deadlines do not alone establish a blanket permit moratorium interval."
+      },
+      {
+        "field": "legal_basis",
+        "before": "East Whiteland Township municipal curative amendment under the PA Municipalities Planning Code, developed with a resident working group beginning May 2026; a Sept. 24, 2026 public hearing was set to consider adoption of the resulting ordinance",
+        "after": "Signed East Whiteland Township Resolution 2026-21 (March 31, 2026), invoking municipal curative-amendment protection under MPC section 609.2, 53 P.S. 10609.2, declares partial zoning invalidity concerning data-center uses and energy-generation systems and directs preparation of a cure and findings. Signed Resolution 25-2026 (April 27, 2026) makes the specific findings and renews the direction to prepare a curative amendment; it is a distinct instrument, not a second original adoption date."
+      },
+      {
+        "field": "current_status",
+        "before": "The Board of Supervisors enacted Ordinance 385-2026 regulating data centers on September 24, 2026; its signed text states immediate effect. The township curative-amendment chronology identifies March 31 Resolution 21-2026, April 27 Resolution 25-2026, and a September 27 deadline. The earlier record reports withdrawal of the expanded Green Fig application in May; that remains an unverified historical lead in this review. September 25 reporting describes an existing project unaffected by the new ordinance. [VERIFY: original curative resolutions, scope and termination of protection, project approvals and later actions.]",
+        "after": "Signed Resolution 2026-21 establishes March 31, 2026 adoption of the municipal curative-amendment action; signed Resolution 25-2026 supplies the April 27 findings. Their original texts are now recovered. The previously reviewed record reports enactment of data-center zoning Ordinance 385-2026 on September 24 with immediate effect. [VERIFY: the precise scope and endpoint of the earlier curative protection and its relationship to Ordinance 385-2026, project approvals/withdrawal, later legal actions and actual applicability/current force.]"
+      }
+    ]
+  },
+  "captures": [
+    {
+      "stage": "blind_extraction",
+      "attempt_id": "587e572daa4b4bec9720731b2131deae",
+      "descriptor_sha256": "e8c849f69e9ac056e5feed812fb4f5a4a57cd1dd989171298d0c9238f62d8696",
+      "wire_request_sha256": "ec3b50d58f28140c5e174fe9daaadbb1e7d8a07806fdcae6ccc1fe6001313b5c",
+      "wire_response_sha256": "a020cf466ef56771a59cccb54f53e959f4362abd77131347acaf034c3d593e92",
+      "all_original_page_images_bound": true,
+      "actual_input_descriptor_matches": true,
+      "wire_sdk_output_matches_after_null_default_normalization": true,
+      "parsed_answer_matches": true,
+      "usage": {
+        "input_tokens": 12170,
+        "input_tokens_details": {
+          "cache_write_tokens": 12167,
+          "cached_tokens": 0
+        },
+        "output_tokens": 1974,
+        "output_tokens_details": {
+          "reasoning_tokens": 89
+        },
+        "total_tokens": 14144
+      }
+    },
+    {
+      "stage": "cell_adjudication",
+      "attempt_id": "39e0cb7a3fea47f1aa088a6a01081fce",
+      "descriptor_sha256": "8120c44cb7cfa26ffc048b3aaf2ea1e1a13d44f38318127aa869f3e774dc0145",
+      "wire_request_sha256": "9e7eaa848f9acda45022a80a7578c4e92f4c1b8ff73204f0c1d6e328a3e26f7d",
+      "wire_response_sha256": "296031aaaab759070160ae3e2e9f418e524774cb51504329d31a9f55f182f243",
+      "all_original_page_images_bound": true,
+      "actual_input_descriptor_matches": true,
+      "wire_sdk_output_matches_after_null_default_normalization": true,
+      "parsed_answer_matches": true,
+      "usage": {
+        "input_tokens": 15522,
+        "input_tokens_details": {
+          "cache_write_tokens": 15519,
+          "cached_tokens": 0
+        },
+        "output_tokens": 1502,
+        "output_tokens_details": {
+          "reasoning_tokens": 170
+        },
+        "total_tokens": 17024
+      }
+    }
+  ],
+  "answers": {
+    "blind_extraction": {
+      "facts": [
+        {
+          "field": "initial_instrument",
+          "value": "East Whiteland Township Resolution 2026-21, also referenced as Resolution 21-2026, invokes municipal curative amendment protection for data center uses and energy generation systems.",
+          "source_id": "5dbbbf3a91404b9e9833f9529a2032b3",
+          "locator": "Physical page 1, heading and title",
+          "supporting_quote": "RESOLUTION 2026-21 \u2026 INVOKING THE PROTECTION OF THE MUNICIPAL CURATIVE AMENDMENT FOR DATA CENTER USES AND ENERGY GENERATION SYSTEMS"
+        },
+        {
+          "field": "initial_adoption_and_execution",
+          "value": "The initial resolution states that it was adopted at a public meeting on March 31, 2026. The image shows completed signatures for Scott Lambert, Peter Fixler and Clinton Smith, and attestation by Manager Steven Brown.",
+          "source_id": "5dbbbf3a91404b9e9833f9529a2032b3",
+          "locator": "Physical page 2, adoption and signature blocks",
+          "supporting_quote": "DULY PRESENTED AND ADOPTED \u2026 at a public meeting on the 31ST day of March, 2026."
+        },
+        {
+          "field": "initial_declaration",
+          "value": "The Board formally declared the zoning ordinance substantively invalid in part as it relates to regulation of data center uses and energy generation systems.",
+          "source_id": "5dbbbf3a91404b9e9833f9529a2032b3",
+          "locator": "Physical page 1, paragraph 1",
+          "supporting_quote": "the Zoning Ordinance is substantively invalid in part as it relates to the regulation of data center uses and energy generation systems"
+        },
+        {
+          "field": "initial_cure_direction",
+          "value": "The Board proposed a curative amendment and directed the Director of Planning, Zoning Officer, Township Manager, Township Solicitor and Township Engineer, with other consultants as provided, to prepare it for presentation within the time frame provided by law.",
+          "source_id": "5dbbbf3a91404b9e9833f9529a2032b3",
+          "locator": "Physical page 1, paragraphs 2\u20133",
+          "supporting_quote": "the curative amendment shall be presented to the Board of Supervisors within the time frame provided by law"
+        },
+        {
+          "field": "thirty_day_direction",
+          "value": "The initial resolution directed those officials and any other provided consultants to begin preparing a resolution for Board consideration within 30 days following the resolution's date; that resolution was to include specific findings setting forth the declared invalidity.",
+          "source_id": "5dbbbf3a91404b9e9833f9529a2032b3",
+          "locator": "Physical pages 1\u20132, paragraph 4",
+          "supporting_quote": "to begin preparing a resolution for consideration of the Board of Supervisors within thirty (30) days following the date of this Resolution. Such resolution shall include specific findings setting forth the declared invalidity"
+        },
+        {
+          "field": "mpc_sections_and_protection_scope",
+          "value": "The initial resolution seeks the protection of MPC Section 609.2, 53 P.S. \u00a7 10609.2. It states the Board's desire to address the specified zoning provisions without having to entertain or consider landowner curative amendments under Section 609.1, 53 P.S. \u00a7 10609.1, and without the Zoning Hearing Board having to give a report requested under Sections 909.1 or 916.1, 53 P.S. \u00a7\u00a7 10909.1 and 10916.1.",
+          "source_id": "5dbbbf3a91404b9e9833f9529a2032b3",
+          "locator": "Physical page 1, second and third recitals",
+          "supporting_quote": "without being required to entertain or consider any landowner\u2019s curative amendment filed under Section 609.1 \u2026 and without the Zoning Hearing Board being required to give a report requested under Section 909.1 \u2026 or 916.1"
+        },
+        {
+          "field": "findings_instrument_and_relationship",
+          "value": "Resolution 25-2026 designates specific findings concerning the declared invalidity. It identifies the March 31 resolution as No. 21-2026 and incorporates it by reference.",
+          "source_id": "30bbbe9e650e480495f6816c0f7ccecf",
+          "locator": "Physical page 1, heading and first recital",
+          "supporting_quote": "on March 31, 2026, the East Whiteland Township Board of Supervisors approved Township Resolution No. 21-2026 \u2026 which is incorporated herein by reference"
+        },
+        {
+          "field": "findings_adoption_and_execution",
+          "value": "Resolution 25-2026 states that it was adopted at a public meeting on April 27, 2026. The images show completed signatures for Scott Lambert, Peter Fixler and Clinton Smith, and attestation by Manager Steven Brown.",
+          "source_id": "30bbbe9e650e480495f6816c0f7ccecf",
+          "locator": "Physical pages 2\u20133, adoption, signature and attestation blocks",
+          "supporting_quote": "DULY PRESENTED AND ADOPTED \u2026 at a public meeting on the 27th day of April, 2026."
+        },
+        {
+          "field": "findings_scope",
+          "value": "The findings cover data centers and energy generation systems, including on-site and off-site generation for data centers and associated principal or accessory uses. The defined Data Center Uses also include on-site and off-site energy distribution and generation facilities, including generators, and associated improvements; Energy Generation Systems include generation as a principal property use.",
+          "source_id": "30bbbe9e650e480495f6816c0f7ccecf",
+          "locator": "Physical page 1, third recital and paragraph 1",
+          "supporting_quote": "on-site and off-site energy generation systems for data centers and all principal or accessory uses associated with the same"
+        },
+        {
+          "field": "specific_findings",
+          "value": "The Board found that the ordinance did not explicitly define or regulate the uses or provide specific principal-use standards across Township districts. It found the Industrial District special-exception catchall inadequate to provide objective review criteria, and existing environmental provisions inadequate to address potential impacts including noise, vibration, glare, heat, storage and waste disposal.",
+          "source_id": "30bbbe9e650e480495f6816c0f7ccecf",
+          "locator": "Physical page 1, paragraphs 4\u20135; physical page 2, paragraphs 5\u20137",
+          "supporting_quote": "The Township Zoning Ordinance does not explicitly define or regulate Data Center Uses or Energy Generation Systems."
+        },
+        {
+          "field": "land_use_obligation_and_renewed_cure",
+          "value": "The findings resolution acknowledges an obligation to provide for legitimate land uses while balancing community impacts, and renews the direction to prepare a curative amendment for presentation within the time frame provided by law.",
+          "source_id": "30bbbe9e650e480495f6816c0f7ccecf",
+          "locator": "Physical page 1, paragraph 3; physical page 2, paragraph 9",
+          "supporting_quote": "The Township acknowledges its obligation under current law to provide for all legitimate land uses \u2026 while balancing the impacts of the same on the community."
+        },
+        {
+          "field": "findings_resolution_thirty_day_recital",
+          "value": "Resolution 25-2026 states that MPC Section 609.2 provides for specific findings by resolution within 30 days following the declaration.",
+          "source_id": "30bbbe9e650e480495f6816c0f7ccecf",
+          "locator": "Physical page 1, second recital",
+          "supporting_quote": "within 30 days following such a declaration, the municipality shall, by Resolution, make specific findings setting forth the declared invalidity of the Zoning Ordinance"
+        }
+      ],
+      "uncertainties": [
+        "The signatures do not establish a roll-call vote tally.",
+        "The supplied resolutions do not establish an exact protection endpoint, current force, or subsequent action.",
+        "The supplied material does not establish a relationship to any unseen instrument numbered 385."
+      ]
+    },
+    "cell_adjudication": {
+      "record_id": "pa-east-whiteland-township-2026",
+      "input_row_sha256": "092fc0fe8d9854488e4aff8203f24da4a129c1514df07adc9ab4b60055d711a7",
+      "field_decisions": [
+        {
+          "field": "date_enacted",
+          "decision": "accept",
+          "value": "Signed Resolution 2026-21 states that the Board of Supervisors adopted it at a public meeting on March 31, 2026. Signed Resolution 25-2026, adopted April 27, 2026, recites the March 31 approval and supplies the specific findings. Neither recovered resolution supplies a roll-call tally.",
+          "source_id": "5dbbbf3a91404b9e9833f9529a2032b3; 30bbbe9e650e480495f6816c0f7ccecf",
+          "locator": "Initial resolution, physical pages 1\u20132; findings resolution, physical pages 1\u20133",
+          "reason": "The images establish distinct adoption dates and instruments. Signatures do not establish a vote tally."
+        },
+        {
+          "field": "date_enacted_iso",
+          "decision": "accept",
+          "value": "2026-03-31",
+          "source_id": "5dbbbf3a91404b9e9833f9529a2032b3",
+          "locator": "Physical page 2, adoption clause",
+          "reason": "The initial resolution states that it was adopted on March 31, 2026."
+        },
+        {
+          "field": "date_enacted_uncertainty",
+          "decision": "accept",
+          "value": "exact",
+          "source_id": "5dbbbf3a91404b9e9833f9529a2032b3",
+          "locator": "Physical page 2, adoption clause",
+          "reason": "The adoption clause specifies the exact day."
+        },
+        {
+          "field": "duration",
+          "decision": "accept",
+          "value": "The previously reviewed township chronology describes a 180-day municipal curative-amendment process with a September 27, 2026 deadline. Resolution 2026-21 directs preparation of a separate findings resolution within 30 days; Resolution 25-2026 supplies those findings. The precise operative scope and endpoint of the earlier protection remain unresolved; the procedural deadlines do not alone establish a blanket permit moratorium interval.",
+          "source_id": "5dbbbf3a91404b9e9833f9529a2032b3; 30bbbe9e650e480495f6816c0f7ccecf",
+          "locator": "Initial resolution, physical pages 1\u20132, paragraph 4; findings resolution, physical pages 1\u20132",
+          "reason": "The initial resolution directs officials to begin preparing a findings resolution for Board consideration within 30 days; the later resolution supplies findings. The earlier chronology is retained as previously reviewed context, not newly validated."
+        },
+        {
+          "field": "legal_basis",
+          "decision": "accept",
+          "value": "Signed East Whiteland Township Resolution 2026-21 (March 31, 2026), invoking municipal curative-amendment protection under MPC section 609.2, 53 P.S. 10609.2, declares partial zoning invalidity concerning data-center uses and energy-generation systems and directs preparation of a cure and findings. Signed Resolution 25-2026 (April 27, 2026) makes the specific findings and renews the direction to prepare a curative amendment; it is a distinct instrument, not a second original adoption date.",
+          "source_id": "5dbbbf3a91404b9e9833f9529a2032b3; 30bbbe9e650e480495f6816c0f7ccecf",
+          "locator": "Initial resolution, physical pages 1\u20132; findings resolution, physical pages 1\u20132",
+          "reason": "Both resolutions support the stated actions. The original heading reads 2026-21; the later resolution refers to it as 21-2026."
+        },
+        {
+          "field": "current_status",
+          "decision": "accept",
+          "value": "Signed Resolution 2026-21 establishes March 31, 2026 adoption of the municipal curative-amendment action; signed Resolution 25-2026 supplies the April 27 findings. Their original texts are now recovered. The previously reviewed record reports enactment of data-center zoning Ordinance 385-2026 on September 24 with immediate effect. [VERIFY: the precise scope and endpoint of the earlier curative protection and its relationship to Ordinance 385-2026, project approvals/withdrawal, later legal actions and actual applicability/current force.]",
+          "source_id": "5dbbbf3a91404b9e9833f9529a2032b3; 30bbbe9e650e480495f6816c0f7ccecf",
+          "locator": "Initial resolution, physical pages 1\u20132; findings resolution, physical pages 1\u20133",
+          "reason": "The supplied images support the two resolution events. Ordinance 385-2026 is expressly identified as previously reviewed context, while unresolved matters remain qualified."
+        }
+      ],
+      "whole_record_closure_supported": false,
+      "remaining_questions": [
+        "What were the precise operative scope and endpoint of the earlier protection, and how did Ordinance 385-2026 affect it?",
+        "What were the project approvals and withdrawal, subsequent legal actions, and actual applicability or current force?"
+      ],
+      "review_limitations": [
+        "All five supplied images were reviewed; neither resolution establishes a roll-call tally.",
+        "The 180-day chronology, September 27 deadline, and Ordinance 385-2026\u2019s September 24 immediate effect are previously reviewed row context, not newly validated by these images.",
+        "No change to status, endpoint, duration day value, sector, or force was proposed."
+      ]
+    }
+  },
+  "model_http_requests": 2,
+  "model": "gpt-6.1-terra",
+  "tools": [],
+  "agents_spawned": 0,
+  "price_usd": null,
+  "input_row_sha256": "092fc0fe8d9854488e4aff8203f24da4a129c1514df07adc9ab4b60055d711a7",
+  "coordinator_whole_record_closure": false
+}

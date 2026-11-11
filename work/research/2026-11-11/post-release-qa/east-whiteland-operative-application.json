@@ -1,0 +1,57 @@
+{
+  "id": "pa-east-whiteland-township-2026",
+  "dataset": "local_inventory",
+  "baseline_commit": "c8d5e436a8b27dafd0d7840dde88d0bc0f71b1aa",
+  "applied_at": "2026-11-11T09:02:13.661934+00:00",
+  "prior_row_sha256": "092fc0fe8d9854488e4aff8203f24da4a129c1514df07adc9ab4b60055d711a7",
+  "current_row_sha256": "e421eb1a6195bb8b0dba8685212bda017351232bf707d44bdd09a0098cc395b3",
+  "canonical_cells_changed": 6,
+  "field_changes": [
+    {
+      "field": "date_enacted",
+      "before": "2026-03, East Whiteland Township Board of Supervisors vote to initiate a municipal curative amendment (Chester County); exact day not confirmed in sources reviewed",
+      "after": "Signed Resolution 2026-21 states that the Board of Supervisors adopted it at a public meeting on March 31, 2026. Signed Resolution 25-2026, adopted April 27, 2026, recites the March 31 approval and supplies the specific findings. Neither recovered resolution supplies a roll-call tally."
+    },
+    {
+      "field": "date_enacted_iso",
+      "before": "2026-03",
+      "after": "2026-03-31"
+    },
+    {
+      "field": "date_enacted_uncertainty",
+      "before": "month_only",
+      "after": "exact"
+    },
+    {
+      "field": "duration",
+      "before": "180-day municipal curative-amendment process; township chronology states a September 27, 2026 deadline. The original resolutions and the exact legal endpoint of the earlier protection require review.",
+      "after": "The previously reviewed township chronology describes a 180-day municipal curative-amendment process with a September 27, 2026 deadline. Resolution 2026-21 directs preparation of a separate findings resolution within 30 days; Resolution 25-2026 supplies those findings. The precise operative scope and endpoint of the earlier protection remain unresolved; the procedural deadlines do not alone establish a blanket permit moratorium interval."
+    },
+    {
+      "field": "legal_basis",
+      "before": "East Whiteland Township municipal curative amendment under the PA Municipalities Planning Code, developed with a resident working group beginning May 2026; a Sept. 24, 2026 public hearing was set to consider adoption of the resulting ordinance",
+      "after": "Signed East Whiteland Township Resolution 2026-21 (March 31, 2026), invoking municipal curative-amendment protection under MPC section 609.2, 53 P.S. 10609.2, declares partial zoning invalidity concerning data-center uses and energy-generation systems and directs preparation of a cure and findings. Signed Resolution 25-2026 (April 27, 2026) makes the specific findings and renews the direction to prepare a curative amendment; it is a distinct instrument, not a second original adoption date."
+    },
+    {
+      "field": "current_status",
+      "before": "The Board of Supervisors enacted Ordinance 385-2026 regulating data centers on September 24, 2026; its signed text states immediate effect. The township curative-amendment chronology identifies March 31 Resolution 21-2026, April 27 Resolution 25-2026, and a September 27 deadline. The earlier record reports withdrawal of the expanded Green Fig application in May; that remains an unverified historical lead in this review. September 25 reporting describes an existing project unaffected by the new ordinance. [VERIFY: original curative resolutions, scope and termination of protection, project approvals and later actions.]",
+      "after": "Signed Resolution 2026-21 establishes March 31, 2026 adoption of the municipal curative-amendment action; signed Resolution 25-2026 supplies the April 27 findings. Their original texts are now recovered. The previously reviewed record reports enactment of data-center zoning Ordinance 385-2026 on September 24 with immediate effect. [VERIFY: the precise scope and endpoint of the earlier curative protection and its relationship to Ordinance 385-2026, project approvals/withdrawal, later legal actions and actual applicability/current force.]"
+    }
+  ],
+  "independent_review": {
+    "path": "work/research/2026-11-11/post-release-qa/east-whiteland-operative-independent-review.json",
+    "sha256": "f8d0c1a12bfa0fe71a22609c49dc9f5ee1ff9c5f5b6db05b5e7500bb2ab73189"
+  },
+  "source_continuity": {
+    "path": "work/research/2026-11-11/post-release-qa/east-whiteland-source-continuity.json",
+    "sha256": "bf6c9aa71ffde63c2bc11b0ff895249b79c316ba687ed29480ee7519ecce59f3"
+  },
+  "recommendation": "unresolved",
+  "whole_record_closures": 0,
+  "remaining_questions": [
+    "Original signed Resolution2026-21and distinct Resolution25-2026are recovered. All5pages visually/independently reviewed. March31adoption and April27findings are established; no rollcall tally inferred from signatures. Do not repeat unchanged originals, planningindex, codeindex or original genericqueries merely to recover these facts.",
+    "Determine precise statutory scope and endpoint of the earlier MPC609.2protection and its relationship to previously reviewed September24Ordinance385-2026. Procedural180daychronology/September27deadline and30dayfindings direction are not alone a blanket permitban interval or proof of presentforce. No new endpoint, replaced category or force finding is accepted.",
+    "Inspect distinct project approvals/withdrawal, later amendments, appeals/litigation and actualapplicability/currentforce. Retained March31revisedagenda physicalpage1 unanimousmotion concerns agenda revision, not a separate resolution rollcall; do not misattribute it."
+  ],
+  "scope": "Six exact historical/provenance cells: three prose plus date_enacted, normalized March31 and exactprecision. Original resolution acquisition/date gap resolved; scope, endpoint, replacement relationship and laterforce unresolved. No status, endpoint, numericdayvalue, sector, identity, headline or native governance changes."
+}

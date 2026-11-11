@@ -1,0 +1,142 @@
+{
+  "verified_at": "2026-11-11T09:04:39.907713+00:00",
+  "baseline_commit": "c8d5e436a8b27dafd0d7840dde88d0bc0f71b1aa",
+  "field_changes": [
+    {
+      "id": "pa-east-whiteland-township-2026",
+      "field": "date_enacted",
+      "before": "2026-03, East Whiteland Township Board of Supervisors vote to initiate a municipal curative amendment (Chester County); exact day not confirmed in sources reviewed",
+      "after": "Signed Resolution 2026-21 states that the Board of Supervisors adopted it at a public meeting on March 31, 2026. Signed Resolution 25-2026, adopted April 27, 2026, recites the March 31 approval and supplies the specific findings. Neither recovered resolution supplies a roll-call tally."
+    },
+    {
+      "id": "pa-east-whiteland-township-2026",
+      "field": "duration",
+      "before": "180-day municipal curative-amendment process; township chronology states a September 27, 2026 deadline. The original resolutions and the exact legal endpoint of the earlier protection require review.",
+      "after": "The previously reviewed township chronology describes a 180-day municipal curative-amendment process with a September 27, 2026 deadline. Resolution 2026-21 directs preparation of a separate findings resolution within 30 days; Resolution 25-2026 supplies those findings. The precise operative scope and endpoint of the earlier protection remain unresolved; the procedural deadlines do not alone establish a blanket permit moratorium interval."
+    },
+    {
+      "id": "pa-east-whiteland-township-2026",
+      "field": "legal_basis",
+      "before": "East Whiteland Township municipal curative amendment under the PA Municipalities Planning Code, developed with a resident working group beginning May 2026; a Sept. 24, 2026 public hearing was set to consider adoption of the resulting ordinance",
+      "after": "Signed East Whiteland Township Resolution 2026-21 (March 31, 2026), invoking municipal curative-amendment protection under MPC section 609.2, 53 P.S. 10609.2, declares partial zoning invalidity concerning data-center uses and energy-generation systems and directs preparation of a cure and findings. Signed Resolution 25-2026 (April 27, 2026) makes the specific findings and renews the direction to prepare a curative amendment; it is a distinct instrument, not a second original adoption date."
+    },
+    {
+      "id": "pa-east-whiteland-township-2026",
+      "field": "current_status",
+      "before": "The Board of Supervisors enacted Ordinance 385-2026 regulating data centers on September 24, 2026; its signed text states immediate effect. The township curative-amendment chronology identifies March 31 Resolution 21-2026, April 27 Resolution 25-2026, and a September 27 deadline. The earlier record reports withdrawal of the expanded Green Fig application in May; that remains an unverified historical lead in this review. September 25 reporting describes an existing project unaffected by the new ordinance. [VERIFY: original curative resolutions, scope and termination of protection, project approvals and later actions.]",
+      "after": "Signed Resolution 2026-21 establishes March 31, 2026 adoption of the municipal curative-amendment action; signed Resolution 25-2026 supplies the April 27 findings. Their original texts are now recovered. The previously reviewed record reports enactment of data-center zoning Ordinance 385-2026 on September 24 with immediate effect. [VERIFY: the precise scope and endpoint of the earlier curative protection and its relationship to Ordinance 385-2026, project approvals/withdrawal, later legal actions and actual applicability/current force.]"
+    },
+    {
+      "id": "pa-east-whiteland-township-2026",
+      "field": "date_enacted_iso",
+      "before": "2026-03",
+      "after": "2026-03-31"
+    },
+    {
+      "id": "pa-east-whiteland-township-2026",
+      "field": "date_enacted_uncertainty",
+      "before": "month_only",
+      "after": "exact"
+    }
+  ],
+  "changed_cells": 6,
+  "changed_local_rows": 1,
+  "other_local_rows_identical": 1327,
+  "policy_csv_summary_and_timeline_identical": true,
+  "other_queue_records_identical": 1346,
+  "unresolved_records": 1347,
+  "status_category_changes": 0,
+  "normalized_adoption_date_changes": 1,
+  "date_precision_changes": 1,
+  "endpoint_changes": 0,
+  "headline_changes": 0,
+  "model_requests": 2,
+  "original_resolution_page_images_per_request": 5,
+  "original_resolution_pages_visually_inspected": 5,
+  "retained_revised_agenda_pages_visually_inspected": [
+    1
+  ],
+  "source_pairs_read_back": 5,
+  "new_source_fetches": 4,
+  "retained_capture_pairs": 1,
+  "provider_searches": 0,
+  "native_readback_gaps": 0,
+  "whole_record_closures": 0,
+  "checks": [
+    {
+      "command": [
+        "scripts/validate_dataset.py",
+        "--today",
+        "2026-11-11"
+      ],
+      "returncode": 0,
+      "log_sha256": "6e6b862b6af577d6c87e478a551e93d707cb04bf5781e2cc12c8c89dc8b5aa0f"
+    },
+    {
+      "command": [
+        "scripts/build_policy_scope_exports.py",
+        "--check"
+      ],
+      "returncode": 0,
+      "log_sha256": "8e715d0290562bb595579f256175abadf54c2e7df243fef821d044d802de88bd"
+    },
+    {
+      "command": [
+        "scripts/build_summary_stats.py",
+        "--check"
+      ],
+      "returncode": 0,
+      "log_sha256": "e2580643fc2d825c440b1fa8cdb9ca7d12e08fb59be901c4271dd0a3a6801587"
+    },
+    {
+      "command": [
+        "scripts/build_geojson.py",
+        "--check"
+      ],
+      "returncode": 0,
+      "log_sha256": "bfb31083b4e00dd2a1b45a49245ef1bafe5036fe4d70619b8897921e19f67233"
+    },
+    {
+      "command": [
+        "scripts/make_timeline.py",
+        "--check"
+      ],
+      "returncode": 0,
+      "log_sha256": "3619c0b8a38be4f2497aef9beebfbe50553bba29d4d8e6edbfdc317100290cb6"
+    },
+    {
+      "command": [
+        "scripts/check_docs_numbers.py"
+      ],
+      "returncode": 0,
+      "log_sha256": "61344145ac6fdbc7109188670ac85fb93733623cd19cf2672a5da3e4d162f9e5"
+    },
+    {
+      "command": [
+        "-m",
+        "scripts.generate_tables.inventory_clean",
+        "--check"
+      ],
+      "returncode": 0,
+      "log_sha256": "bf1a45f7fdee05c639b9bba4c3fe1ee6b026c0a3f202e0b3e38b03b7acf8b918"
+    },
+    {
+      "command": [
+        "scripts/build_index.py",
+        "--check"
+      ],
+      "returncode": 0,
+      "log_sha256": "4b453f57bc7d508eec5246a6f7e899e3d64d1c762526c6e147beff4cc826624e"
+    },
+    {
+      "command": [
+        "scripts/classify_sources.py",
+        "--check"
+      ],
+      "returncode": 0,
+      "log_sha256": "65170998483b0ba5eb48ea0326288a7741aca4d3c444302efe7918f041dad7e5"
+    }
+  ],
+  "frozen_review_ledger_unchanged": true,
+  "delivery_state": "Working six-cell correction pending next combined release/consumer/Pages batch; qualifiedpost3/V37 remains delivered."
+}

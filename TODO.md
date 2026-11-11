@@ -966,3 +966,6 @@ Exit: repeatable refresh with visible freshness, costs, failures and unresolved 
 - [x] Deliver six Cedartown corrections in qualifiedpost3/V37 and verified currentpublicpages; active887/extended199 retain1086inforce. Final uploadedpayload audit follows.
 
 - [x] Final qualifiedpost3delivery: exact uploadedpayload,49nativegenerations,64HTMLpages,currentdownloads and second actualbrowser run verified; Cedartown correction live, broaderQA active.
+
+- [x] Recover EastWhiteland signed originals2026-21and25-2026, inspect all5pages, independently accept six fields including exactMarch31adoption. Distinguish March31agenda-revision vote from resolution adoption; archive/readback4newpairs+1retainedagenda, nine checks pass. Original acquisition/date gap resolved, scope/endpoint/laterforce remain open.
+- [ ] Include six EastWhiteland working corrections in the next combined release/consumer/Pages batch from post3/V37 baseline; no status/headline changes. Continue distinct MPC609.2scope and Ordinance385relationship review without refetching originals.
