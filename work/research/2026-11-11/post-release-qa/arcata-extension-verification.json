@@ -1,0 +1,28 @@
+{
+  "baseline_commit": "5c4b4d72417f91202e2f7de44bbeedeb0f6770d0",
+  "unchanged": {
+    "data/moratorium_inventory.csv": {
+      "sha256": "64f9dc1abfe80d9b026735fa7f7c8c2abe85c598fa443c8dd76e44b2b5656f6a",
+      "unchanged_from_baseline": true
+    },
+    "data/state_legislation.csv": {
+      "sha256": "53b79966a15c10e79dce358b1a31b788260757cb709dea621d31f687777522d3",
+      "unchanged_from_baseline": true
+    },
+    "work/research/2026-11-09/post-release-qa/outstanding-record-questions.jsonl": {
+      "sha256": "51240a018cd8721fac1ef39068e99cf00cc5206d448681b7074c7b504a99d236",
+      "unchanged_from_baseline": true
+    }
+  },
+  "body_text_pairs_exact": 6,
+  "native_gap_records": 0,
+  "terminal_operations": 6,
+  "canonical_changes": 0,
+  "queue_changes": 0,
+  "status_changes": 0,
+  "source_publication_check": {
+    "command": ".venv/bin/python scripts/classify_sources.py --check",
+    "exit_code": 0,
+    "result": "No private source text is tracked by git."
+  }
+}

@@ -1,0 +1,163 @@
+{
+  "recorded_at": "2026-11-11T08:32:48.749680+00:00",
+  "baseline_commit": "5c4b4d72417f91202e2f7de44bbeedeb0f6770d0",
+  "id": "ca-arcata-2026",
+  "current_row_sha256": "7d864443da7f8c5d506022f4709d023b6f959cef4f0732d22aa4bee9f7205c13",
+  "phases": [
+    {
+      "name": "arcata-extension-meeting-2026-11-11",
+      "config": {
+        "caps": {
+          "fetch": 3,
+          "exa": 0,
+          "serpapi": 0,
+          "googlenews": 0,
+          "gdelt": 0,
+          "search_total": 0
+        },
+        "target_record_ids": [
+          "ca-arcata-2026"
+        ],
+        "admission": "Distinct official council meeting route linked by retained city ordinance index. Existing 1594 original and blank-finality proposed 1595 are reused without refetch. Seek October 28 completed action or executed 1595. Three actual linked new URLs maximum, no guessed document identifiers or status inference from elapsed term. Prior top-level and two-level attempt ledgers inspected before collection; URL guard additionally required."
+      },
+      "config_sha256": "2fd6ab1983909874cb4237ead9e792c7419140d3d73b3b839fc3257a2f5ee559",
+      "reserved": 3,
+      "finished": 3,
+      "attempts": [
+        {
+          "attempt_id": "8525eda3e3d7462d8da923fb0e58a55d",
+          "url": "https://www.cityofarcata.org/1125/Live-Meetings-Agendas-Minutes",
+          "final_url": "https://www.cityofarcata.org/1125/Live-Meetings-Agendas-Minutes",
+          "ok": true,
+          "status": 200,
+          "body_sha256": "b264490d7c00952dfd998afc300bb730980310f93adc7137bf896380d8b7c61d",
+          "text_sha256": "25c5be18f784a67d996b82be523347aed1edd75a5de603cabc889fb7ae0a9c70"
+        },
+        {
+          "attempt_id": "fc303e7f913c4e1c8f43fd053f705aca",
+          "url": "https://pub-arcata.escribemeetings.com/?FillWidth=1",
+          "final_url": "https://pub-arcata.escribemeetings.com/?FillWidth=1",
+          "ok": true,
+          "status": 200,
+          "body_sha256": "39b344e023fa173ea63119061108dd1ba111a44aa5e2aa8332af253fed4c20da",
+          "text_sha256": "0f3a9dd73b351a7e1442d6161dbb60225a343539c1642c371318692c4eee1acc"
+        },
+        {
+          "attempt_id": "43dfcc08931449f8ad65f4045cb67c9c",
+          "url": "https://pub-arcata.escribemeetings.com/MeetingsCalendarView.aspx/PastMeetings?FillWidth=1",
+          "final_url": "https://pub-arcata.escribemeetings.com/MeetingsCalendarView.aspx/PastMeetings?FillWidth=1",
+          "ok": true,
+          "status": 200,
+          "body_sha256": "011622d7312baecbb70df0968524b0c4ba28d8762e7dfa7129377feed4ed0230"
+        }
+      ]
+    },
+    {
+      "name": "arcata-special-extension-2026-11-11",
+      "config": {
+        "caps": {
+          "fetch": 4,
+          "exa": 0,
+          "serpapi": 0,
+          "googlenews": 0,
+          "gdelt": 0,
+          "search_total": 0
+        },
+        "target_record_ids": [
+          "ca-arcata-2026"
+        ],
+        "admission": "Distinct special-meeting category, explicitly exposed in captured eSCRIBE index. Prior regular-meeting response covers October21 and November4 but does not establish October28 action. One exact special-category POST, then at most3 actual linked record-specific minutes/operative documents. Earlier three-operation phase cap remains exhausted and unchanged. No absence inference from regular category."
+      },
+      "config_sha256": "bf26ed3707f3e5e070da835d81ce07cafbc1d9d1995a2d50b94b1d674c4fdcd1",
+      "reserved": 3,
+      "finished": 3,
+      "attempts": [
+        {
+          "attempt_id": "1d64f8639f954903864c4f2465df42d7",
+          "url": "https://pub-arcata.escribemeetings.com/MeetingsCalendarView.aspx/PastMeetings?FillWidth=1",
+          "final_url": "https://pub-arcata.escribemeetings.com/MeetingsCalendarView.aspx/PastMeetings?FillWidth=1",
+          "ok": true,
+          "status": 200,
+          "body_sha256": "8da4460aa69762659510ec714f80daf224356ceca704c2b32ff5cbbaff7b56e7"
+        },
+        {
+          "attempt_id": "a9c4f9237aa64d858f8375c799abe750",
+          "url": "https://pub-arcata.escribemeetings.com/Meeting.aspx?Id=1c80c4d9-ebcc-46a3-8776-56056729dabd&Agenda=Agenda&lang=English",
+          "final_url": "https://pub-arcata.escribemeetings.com/Meeting.aspx?Id=1c80c4d9-ebcc-46a3-8776-56056729dabd&Agenda=Agenda&lang=English",
+          "ok": true,
+          "status": 200,
+          "body_sha256": "2b1cafa11269e47ba440e521d7e4ada0adcfec901d8dc5b8f991ff69fa2d95a7",
+          "text_sha256": "010d8149f7e4a001e93f74c191395932b16a8ba0486e0cde17ec4d21edf01adf"
+        },
+        {
+          "attempt_id": "f78445a95c004070884e8eb318ab6341",
+          "url": "https://pub-arcata.escribemeetings.com/Meeting.aspx?Id=31cc0f39-ec82-42ed-87c3-aaa3399221d5&Agenda=Agenda&lang=English",
+          "final_url": "https://pub-arcata.escribemeetings.com/Meeting.aspx?Id=31cc0f39-ec82-42ed-87c3-aaa3399221d5&Agenda=Agenda&lang=English",
+          "ok": true,
+          "status": 200,
+          "body_sha256": "ce3d865230aaff7ce7009c6f0faf0fac3d2468d1cb21083ba8ac23fefbbc7c0e",
+          "text_sha256": "760b572287171241d33ecc1e46dd16ae02ae049b00b39912c2d942c170bf5b4e"
+        }
+      ]
+    }
+  ],
+  "operations": {
+    "fetch_get": 4,
+    "fetch_post": 2,
+    "provider_searches": 0,
+    "models": 0,
+    "total": 6
+  },
+  "regular_category": {
+    "total_count": 347,
+    "returned": 50,
+    "scope": "Only page1 of the regular category; no absence inference for special or other meetings."
+  },
+  "special_category": {
+    "total_count": 183,
+    "returned": 50,
+    "october28": {
+      "meeting_id": "1c80c4d9-ebcc-46a3-8776-56056729dabd",
+      "date": "October 28, 2026",
+      "links": [
+        {
+          "Title": "Agenda Cover Page (PDF)",
+          "Type": "AgendaCover",
+          "Url": "/FileStream.ashx?DocumentId=27332"
+        },
+        {
+          "Title": "Agenda (PDF)",
+          "Type": "Agenda",
+          "Url": "/FileStream.ashx?DocumentId=27331"
+        },
+        {
+          "Title": "Agenda (HTML)",
+          "Type": "Agenda",
+          "Url": "/Meeting.aspx?Id=1c80c4d9-ebcc-46a3-8776-56056729dabd&Agenda=Agenda&lang=English"
+        },
+        {
+          "Title": "Video",
+          "Type": "Video",
+          "Url": "./Players/ISIStandAlonePlayer.aspx?Id=1c80c4d9-ebcc-46a3-8776-56056729dabd"
+        }
+      ],
+      "scope": "No minutes link in this captured metadata response, not proof that no minutes exist or no vote occurred."
+    }
+  },
+  "findings": [
+    "Official city meeting page embeds the actual eSCRIBE portal. Its exact inline PastMeetings request was submitted for the distinct regular and special meeting categories.",
+    "October28special agenda item proposes Ordinance1595 extending1594 for10months15days and links staff report27326 and attachment27327. Proposed wording is not a completed vote or executed law. Neither attachment was requested again.",
+    "November4regular agenda lists October21special and regular meeting minutes for approval; its captured agenda does not establish an October28 extension outcome.",
+    "Original generic agenda extraction omitted agenda-item text. Reviewed full HTML text derivations preserve that text; original retrieval extracts and ledgers remain unchanged. Technical POSTs had no original extraction; separate lossless JSON derivations are recorded."
+  ],
+  "next_requirement": "Distinct adopted October28minutes/vote, executed1595 or later official action. Do not repeat the same city navigation, category page1 requests or these unchanged agenda captures absent a documented new version or transport condition. Source27327 is linked but not acquired; first compare its identity/bytes to the already retained blank-finality proposal if separately needed.",
+  "canonical_changes": 0,
+  "whole_record_closures": 0,
+  "queue_changes": 0,
+  "status_changes": 0,
+  "source_continuity": {
+    "path": "work/research/2026-11-11/post-release-qa/arcata-extension-source-continuity.json",
+    "sha256": "9c4f3b15ce777bb855753b1d00186fbb76da2cb29ecea25552f7b76411820a38"
+  },
+  "scope": "Source-only acquisition and bounded route accounting. Existing unresolved question retained. No extension, expiration, current-force or headline-count inference."
+}
