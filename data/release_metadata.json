@@ -20,7 +20,7 @@
   "consumer_dispositions": "delivered_with_historical_editions_preserved",
   "experimental_extractor": "failed_no_automatic_promotion",
   "quality_gate_disposition": "User authorized publication of the current state with qualifications on pending QA, followed by continued double checking and resolution of outstanding questions.",
-  "reviewed_data_source_commit": "4c83f245891fe025d28c00b29c662a040e0bcd92",
+  "reviewed_data_source_commit": "6015c205faca3a0a800295f3ac739d0946693218",
   "record_dispositions": {
     "unresolved": 1346,
     "corrected_resolved": 192,
@@ -31,7 +31,7 @@
   "record_disposition_path": "work/research/2026-11-08/full-record-dispositions/funnel.json",
   "qa_status": "ongoing",
   "publication_authorization": "publish current state with qualifications on pending QA, then continue to double check and clear the outstanding questions",
-  "working_revision": "2026.11.11.post6-prepared",
+  "working_revision": "2026.11.11.post6-data-consumer-delivered-hosting-pending",
   "current_raw_counts": {
     "local": 1328,
     "state_policy": 449,
@@ -39,18 +39,18 @@
   },
   "prior_release": "v2026.11.11.post5",
   "prior_release_source_commit": "4c83f245891fe025d28c00b29c662a040e0bcd92",
-  "prior_published_source_commit": "2ccf07089536a71cb43e3dbd846620853097dcd6",
-  "published_source_reference": "Qualified post5 pins 4c83f245891fe025d28c00b29c662a040e0bcd92; identical builds, clean restore, ten anonymous downloads, V39 and all current hosted pages/browser checks verified. Initial hosted source bc2579c67d16635b13320ecd2bb378754a357f68; receipt work/research/2026-11-11/release-2026.11.11.post5/hosted-copy-verification.json. Alachua final adoption/effect/later force and broader QA remain qualified.",
+  "prior_published_source_commit": "4c83f245891fe025d28c00b29c662a040e0bcd92",
+  "published_source_reference": "Qualified post6 pins 6015c205faca3a0a800295f3ac739d0946693218; identical builds, full restore, ten anonymous downloads and V40 verified. Hosted verification pending; post5 is prior verified site. Fort Wayne historical proposal closed; Eagan court outcome/force and broader QA remain qualified.",
   "latest_consumer_handoff": {
-    "source_commit": "4c83f245891fe025d28c00b29c662a040e0bcd92",
-    "manifest_sha256": "c14ec03bd529bdd11f875f76080fa29ae9f48e0fa0599c39d2cbe0a058cd6c21",
+    "source_commit": "6015c205faca3a0a800295f3ac739d0946693218",
+    "manifest_sha256": "37cdf52350fca13985a3e651bb8df9285d9ecf3a2d9f6e21a96bce90c2147ce5",
     "trusted_verifier_sha256": "ebecf851d4196715df186cc81cc3c933ab7da550fbafd7207996cd94b9cd2739",
-    "scope": "Four Alachua prose corrections separate September14motion5-0 from October5firstreading4-1. No status, normalized date, endpoint, headline or native changes. Final adoption, effect and laterforce unresolved.",
-    "consumer_commit": "89b00571db0c9391227fc0bcd96afee31b05a01b",
-    "receipt": "work/research/2026-11-11/post-release-qa/consumer-v39-handoff.json"
+    "scope": "Eleven Fort Wayne/Eagan cells. Historical Fort Wayne proposal rejected4-4 and review closed; Eagan reported challenge/enforcement remain distinct with court outcome/force unverified. Pending63/rejected3, VERIFY978, unresolved1346; in-force/raw/policy/native totals unchanged.",
+    "consumer_commit": "9aa7efec205a70c7c0210d78a4f0ea3f5e1ded40",
+    "receipt": "work/research/2026-11-11/post-release-qa/consumer-v40-handoff.json"
   },
   "release_date_timezone": "America/New_York",
-  "published_source_commit": "4c83f245891fe025d28c00b29c662a040e0bcd92",
+  "published_source_commit": "6015c205faca3a0a800295f3ac739d0946693218",
   "september_status_category_differences": {
     "local": 101,
     "policy": 34,
@@ -59,24 +59,27 @@
   },
   "latest_geography_review": "work/research/2026-11-09/post-release-qa/nonblank-geography-application.json",
   "latest_delivered_consumer_input_delta": {
-    "baseline_release": "v2026.11.11.post4",
-    "baseline_source_commit": "2ccf07089536a71cb43e3dbd846620853097dcd6",
-    "baseline_handoff": "V38",
-    "receipt": "work/research/2026-11-11/post-release-qa/alachua-operative-application.json",
+    "baseline_release": "v2026.11.11.post5",
+    "baseline_source_commit": "4c83f245891fe025d28c00b29c662a040e0bcd92",
+    "baseline_handoff": "V39",
+    "receipt": "work/research/2026-11-11/post-release-qa/fort-wayne-final-disposition-application.json",
     "receipts": [
-      "work/research/2026-11-11/post-release-qa/alachua-operative-application.json"
+      "work/research/2026-11-11/post-release-qa/eagan-operative-application.json",
+      "work/research/2026-11-11/post-release-qa/fort-wayne-final-disposition-application.json"
     ],
-    "changed_cells": 4,
-    "changed_local_rows": 1,
+    "changed_cells": 11,
+    "changed_local_rows": 2,
     "changed_policy_rows": 0,
-    "status_category_changes": 0,
+    "status_category_changes": 1,
     "normalized_date_changes": 0,
-    "scope": "Four Alachua prose corrections delivered in post5/V39 and verified current public pages. No status/date/endpoint changes; final adoption/effect and later force remain unresolved.",
-    "state": "delivered_data_consumer_and_hosted_verified",
-    "delivered_source_commit": "4c83f245891fe025d28c00b29c662a040e0bcd92",
-    "delivered_consumer_commit": "89b00571db0c9391227fc0bcd96afee31b05a01b",
-    "delivery_receipt": "work/research/2026-11-11/post-release-qa/consumer-v39-handoff.json",
-    "hosted_copy_state": "verified"
+    "scope": "Eleven Fort Wayne/Eagan cells delivered in post6/V40; one historical proposal review closed. Pending63/rejected3, VERIFY978, unresolved1346. Hosted checks pending; Eagan court outcome/force and wider QA unresolved.",
+    "whole_record_closures": 1,
+    "verify_flagged_rows_change": -1,
+    "state": "delivered_data_consumer_pending_hosted_verification",
+    "delivered_source_commit": "6015c205faca3a0a800295f3ac739d0946693218",
+    "delivered_consumer_commit": "9aa7efec205a70c7c0210d78a4f0ea3f5e1ded40",
+    "delivery_receipt": "work/research/2026-11-11/post-release-qa/consumer-v40-handoff.json",
+    "hosted_copy_state": "pending"
   },
   "latest_source_followup": "work/research/2026-11-11/post-release-qa/brookhaven-operative-application.json",
   "latest_expanded_candidate_review": "work/research/2026-11-09/starke-succession-review/validation.json",
@@ -100,24 +103,23 @@
     "scope": "Qualified policy-history succession only; no formal termination, overlap or current-force acceptance."
   },
   "prior_delivered_consumer_input_delta": {
-    "baseline_release": "v2026.11.11.post3",
-    "baseline_source_commit": "70b4d217dca964e28e70714a40cf90853edc36ea",
-    "baseline_handoff": "V37",
-    "receipt": "work/research/2026-11-11/post-release-qa/east-whiteland-operative-application.json",
+    "baseline_release": "v2026.11.11.post4",
+    "baseline_source_commit": "2ccf07089536a71cb43e3dbd846620853097dcd6",
+    "baseline_handoff": "V38",
+    "receipt": "work/research/2026-11-11/post-release-qa/alachua-operative-application.json",
     "receipts": [
-      "work/research/2026-11-11/post-release-qa/east-whiteland-operative-application.json"
+      "work/research/2026-11-11/post-release-qa/alachua-operative-application.json"
     ],
-    "changed_cells": 6,
+    "changed_cells": 4,
     "changed_local_rows": 1,
     "changed_policy_rows": 0,
     "status_category_changes": 0,
-    "normalized_date_changes": 1,
-    "normalized_date_precision_changes": 1,
-    "scope": "Six East Whiteland original/date cells delivered in post4/V38 and verified current public pages. No category/endpoint changes. Replacement inference held, full independent image expansion incomplete; broader QA unresolved.",
+    "normalized_date_changes": 0,
+    "scope": "Four Alachua prose corrections delivered in post5/V39 and verified current public pages. No status/date/endpoint changes; final adoption/effect and later force remain unresolved.",
     "state": "delivered_data_consumer_and_hosted_verified",
-    "delivered_source_commit": "2ccf07089536a71cb43e3dbd846620853097dcd6",
-    "delivered_consumer_commit": "a6f6d2812895ed65e908f0296aab0f47a12bcb50",
-    "delivery_receipt": "work/research/2026-11-11/post-release-qa/consumer-v38-handoff.json",
+    "delivered_source_commit": "4c83f245891fe025d28c00b29c662a040e0bcd92",
+    "delivered_consumer_commit": "89b00571db0c9391227fc0bcd96afee31b05a01b",
+    "delivery_receipt": "work/research/2026-11-11/post-release-qa/consumer-v39-handoff.json",
     "hosted_copy_state": "verified"
   },
   "latest_field_application": "work/research/2026-11-11/post-release-qa/fort-wayne-final-disposition-application.json",
@@ -132,16 +134,16 @@
   "latest_expanded_result_review": "work/research/2026-11-10/canterbury-minutes-result-review/coordinator-adjudication.json",
   "latest_verified_release": "v2026.11.11.post5",
   "source_observation_window_scope": "Acquisition range includes source-specific QA captures through November10; this does not renew every record or move the original comprehensive research_cutoff.",
-  "latest_download_verified_release": "v2026.11.11.post5",
+  "latest_download_verified_release": "v2026.11.11.post6",
   "prior_latest_consumer_handoff": {
-    "source_commit": "2ccf07089536a71cb43e3dbd846620853097dcd6",
-    "manifest_sha256": "7add3bfab9105d05604d9d706b1a5db0b5d02b4da8546c3a264095b0458b47d3",
+    "source_commit": "4c83f245891fe025d28c00b29c662a040e0bcd92",
+    "manifest_sha256": "c14ec03bd529bdd11f875f76080fa29ae9f48e0fa0599c39d2cbe0a058cd6c21",
     "trusted_verifier_sha256": "ebecf851d4196715df186cc81cc3c933ab7da550fbafd7207996cd94b9cd2739",
-    "scope": "Six East Whiteland original-resolution/date cells: exact March31 adoption and distinct April27 findings. No category, endpoint, headline or native changes. Replacement/endpoint proposals held; full independent ordinance-image expansion incomplete after orchestration failure; later force unresolved.",
-    "consumer_commit": "a6f6d2812895ed65e908f0296aab0f47a12bcb50",
-    "receipt": "work/research/2026-11-11/post-release-qa/consumer-v38-handoff.json"
+    "scope": "Four Alachua prose corrections separate September14motion5-0 from October5firstreading4-1. No status, normalized date, endpoint, headline or native changes. Final adoption, effect and laterforce unresolved.",
+    "consumer_commit": "89b00571db0c9391227fc0bcd96afee31b05a01b",
+    "receipt": "work/research/2026-11-11/post-release-qa/consumer-v39-handoff.json"
   },
-  "prior_published_source_reference": "Qualified post4 pins 2ccf07089536a71cb43e3dbd846620853097dcd6; identical builds, clean restore, ten anonymous downloads, V38 and all current hosted pages/browser checks verified. Initial hosted source ec3adb0466281dbcd23a4da45f5a5407a494b55e; receipt work/research/2026-11-11/release-2026.11.11.post4/hosted-copy-verification.json. East Whiteland endpoint/scope/laterforce and broader QA remain qualified.",
+  "prior_published_source_reference": "Qualified post5 pins 4c83f245891fe025d28c00b29c662a040e0bcd92; identical builds, clean restore, ten anonymous downloads, V39 and all current hosted pages/browser checks verified. Initial hosted source bc2579c67d16635b13320ecd2bb378754a357f68; receipt work/research/2026-11-11/release-2026.11.11.post5/hosted-copy-verification.json. Alachua final adoption/effect/later force and broader QA remain qualified.",
   "latest_verified_hosted_data": {
     "release": "v2026.11.11.post5",
     "release_source_commit": "4c83f245891fe025d28c00b29c662a040e0bcd92",
@@ -311,24 +313,13 @@
     "scope": "Every currentHTMLpage and linkedlocalresource/download matches pinnedsource. Actual desktop/mobile/dark, mapfilters, charts/tables, East Whiteland pointerpopup and Pennsylvania date/provenance prose pass. Full final artifact and acknowledgment recheck follows; no universal currentlaw or freshness certification."
   },
   "latest_independent_record_review": "work/research/2026-11-11/post-release-qa/fort-wayne-final-disposition-application.json",
-  "pending_consumer_input_delta": {
-    "baseline_release": "v2026.11.11.post5",
-    "baseline_source_commit": "4c83f245891fe025d28c00b29c662a040e0bcd92",
-    "baseline_handoff": "V39",
-    "receipt": "work/research/2026-11-11/post-release-qa/fort-wayne-final-disposition-application.json",
-    "receipts": [
-      "work/research/2026-11-11/post-release-qa/eagan-operative-application.json",
-      "work/research/2026-11-11/post-release-qa/fort-wayne-final-disposition-application.json"
-    ],
-    "changed_cells": 11,
-    "changed_local_rows": 2,
-    "changed_policy_rows": 0,
-    "status_category_changes": 1,
-    "normalized_date_changes": 0,
-    "scope": "Two Eagan attributed-litigation prose cells plus nine FortWayne historicalproposal/disposition corrections. Pending\u2192rejected, oneVERIFYrowresolved, onehistoricalreviewclosed. No in-force/raw/policy/normalizeddate/endpoint/nativechanges. Pending nextcombined release/consumer/Pages batch; post5/V39 remains verified.",
-    "whole_record_closures": 1,
-    "verify_flagged_rows_change": -1
-  },
   "prepared_release": "v2026.11.11.post6",
-  "prepared_release_qualifications": "Eleven cells across FortWayne/Eagan; one historicalproposalreview closes. Pending63/rejected3, VERIFY978, unresolved1346. Eagan court outcome/currentforce and broader QA remain unresolved. Delivery pending."
+  "prepared_release_qualifications": "Eleven cells across FortWayne/Eagan; one historicalproposalreview closes. Pending63/rejected3, VERIFY978, unresolved1346. Eagan court outcome/currentforce and broader QA remain unresolved. Delivery pending.",
+  "pending_hosted_delivery": {
+    "release": "v2026.11.11.post6",
+    "release_source_commit": "6015c205faca3a0a800295f3ac739d0946693218",
+    "state": "verified_data_release_pending_full_site_deployment",
+    "receipt": "work/research/2026-11-11/release-2026.11.11.post6/public-verification.json",
+    "active_deployment_run": null
+  }
 }

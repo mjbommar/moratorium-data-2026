@@ -1,0 +1,326 @@
+{
+  "source_commit": "6015c205faca3a0a800295f3ac739d0946693218",
+  "manifest_sha256": "37cdf52350fca13985a3e651bb8df9285d9ecf3a2d9f6e21a96bce90c2147ce5",
+  "expanded_snapshot": "3ce33d22288fa7bc7100c9ac621c041037702e8370af1e663d53a548ff794725",
+  "current_counts": {
+    "moratorium_records": 1328,
+    "state_policy_records": 449,
+    "ballot_measures": 57,
+    "retained_results": 65,
+    "current_results": 53,
+    "retained_events": 12,
+    "current_accepted_historical_events": 12,
+    "restriction_records": 3,
+    "measure_instrument_link_records": 1
+  },
+  "files": 2784,
+  "entries": 3012,
+  "verified_at": "2026-11-11T11:33:00.147890+00:00",
+  "consumer_verification": {
+    "handoff": {
+      "state": "verified",
+      "source_commit": "6015c205faca3a0a800295f3ac739d0946693218",
+      "manifest_sha256": "37cdf52350fca13985a3e651bb8df9285d9ecf3a2d9f6e21a96bce90c2147ce5",
+      "expanded_snapshot": "3ce33d22288fa7bc7100c9ac621c041037702e8370af1e663d53a548ff794725",
+      "files": 2784,
+      "entries": 3012,
+      "checks": [
+        {
+          "command": [
+            "scripts/check_expanded_publication.py"
+          ],
+          "exit_code": 0,
+          "result": {
+            "state": "consistent",
+            "snapshot_sha256": "3ce33d22288fa7bc7100c9ac621c041037702e8370af1e663d53a548ff794725",
+            "generations_checked": 49,
+            "records": {
+              "jurisdictions": 53,
+              "elections": 51,
+              "ballot_measures": 57,
+              "measure_provisions": 52,
+              "measure_results": 65,
+              "local_restrictions": 3,
+              "instrument_events": 12,
+              "measure_instrument_links": 1,
+              "source_documents": 168,
+              "claims": 625,
+              "review_decisions": 2756,
+              "search_runs": 1,
+              "search_attempts": 3,
+              "search_sightings": 18,
+              "coverage_observations": 1
+            },
+            "scope": "Offline publication/receipt consistency only; no source reacquisition, renewed factual acceptance or current-force confirmation."
+          }
+        },
+        {
+          "command": [
+            "scripts/build_expanded_csv.py",
+            "--check"
+          ],
+          "exit_code": 0,
+          "result": {
+            "state": "matches",
+            "source_snapshot": "3ce33d22288fa7bc7100c9ac621c041037702e8370af1e663d53a548ff794725",
+            "projection_sha256": "7b585b49998f8ca39b0ff433fe15c34335ea171bdd8960af1e7e9fdcf852f6cb",
+            "csv_views": 18
+          }
+        },
+        {
+          "command": [
+            "scripts/build_policy_scope_exports.py",
+            "--check"
+          ],
+          "exit_code": 0,
+          "result": "policy-scope exports current"
+        }
+      ],
+      "checks_run": true,
+      "scope": "Pinned input integrity and offline publication consistency, not source reacquisition or downstream join acceptance."
+    },
+    "policy_semantics": {
+      "total_state_policy_actions": 449,
+      "total_state_bills": 427,
+      "state_policy_instrument_type_counts": {
+        "bill": 427,
+        "executive_order": 3,
+        "governor_directive": 1,
+        "legislative_amendment": 1,
+        "legislative_precursor": 3,
+        "legislative_resolution": 12,
+        "statute": 2
+      },
+      "top_states_by_bills": [
+        [
+          "Pennsylvania",
+          18
+        ],
+        [
+          "Virginia",
+          18
+        ],
+        [
+          "West Virginia",
+          18
+        ],
+        [
+          "Maryland",
+          16
+        ],
+        [
+          "New Jersey",
+          16
+        ],
+        [
+          "California",
+          14
+        ],
+        [
+          "South Dakota",
+          14
+        ],
+        [
+          "Arizona",
+          13
+        ],
+        [
+          "Iowa",
+          13
+        ],
+        [
+          "Michigan",
+          13
+        ],
+        [
+          "Minnesota",
+          12
+        ],
+        [
+          "Ohio",
+          12
+        ],
+        [
+          "Oklahoma",
+          12
+        ],
+        [
+          "Illinois",
+          11
+        ],
+        [
+          "Kansas",
+          11
+        ]
+      ],
+      "top_states_by_policy_actions": [
+        [
+          "Pennsylvania",
+          22
+        ],
+        [
+          "Virginia",
+          18
+        ],
+        [
+          "West Virginia",
+          18
+        ],
+        [
+          "Maryland",
+          17
+        ],
+        [
+          "New Jersey",
+          17
+        ],
+        [
+          "California",
+          14
+        ],
+        [
+          "Michigan",
+          14
+        ],
+        [
+          "South Dakota",
+          14
+        ],
+        [
+          "Arizona",
+          13
+        ],
+        [
+          "Iowa",
+          13
+        ],
+        [
+          "Kansas",
+          12
+        ],
+        [
+          "Minnesota",
+          12
+        ],
+        [
+          "Ohio",
+          12
+        ],
+        [
+          "Oklahoma",
+          12
+        ],
+        [
+          "Illinois",
+          11
+        ]
+      ]
+    }
+  },
+  "index_verification": {
+    "snapshot": "data/source-snapshots/moratoria/2026-11-11-reviewed-v40",
+    "source_commit": "6015c205faca3a0a800295f3ac739d0946693218",
+    "manifest_sha256": "37cdf52350fca13985a3e651bb8df9285d9ecf3a2d9f6e21a96bce90c2147ce5",
+    "tracked_files_and_symlinks": 2785,
+    "exact_staged_git_blob_bytes_and_modes": true,
+    "scope": "Exact staged snapshot content, Git modes and path set against the pinned manifest, including the manifest itself. This is not an independent legal review."
+  },
+  "baseline_handoff": "V39",
+  "expanded_tables_byte_identical": true,
+  "changed_cells": 11,
+  "changed_local_cells": 11,
+  "changed_policy_cells": 0,
+  "changed_local_rows": 2,
+  "changed_policy_rows": 0,
+  "new_policy_rows": 0,
+  "status_category_changes": 1,
+  "normalized_adoption_date_changes": 0,
+  "date_precision_changes": 0,
+  "normalized_endpoint_changes": 0,
+  "duration_kind_changes": 0,
+  "whole_record_closures": 1,
+  "unresolved_records": 1346,
+  "corrected_resolved_records": 192,
+  "verify_tagged_rows": 978,
+  "field_changes": [
+    {
+      "id": "in-fort-wayne-undated",
+      "field": "duration",
+      "before": "A 365-day moratorium was proposed in September 2026; WANE reports that the proposal failed on October 13, 2026.",
+      "after": "Proposed period not exceeding 365 days after passage, ending earlier on qualifying zoning amendments or subsequent Council termination; any extension beyond 365 days would require further Council action (sections 1, 4 and 6). The proposal failed on October 13, 2026, so it created no operative moratorium term."
+    },
+    {
+      "id": "in-fort-wayne-undated",
+      "field": "legal_basis",
+      "before": "Ordinance(s) introduced by Councilwoman Rohli Booker in September 2026, including a proposed 365-day data center moratorium and a directive for the Department of Planning Services to create a comprehensive data center development standard; a related task-force proposal from Councilman Russ Jehl was withdrawn",
+      "after": "Proposed resolution, Bill No. R-26-09-17 as amended, titled as a temporary moratorium on certain data-center approvals; its separate resolution-number line is blank. October 13, 2026 regular-session minutes, entry IV, record failure 4-4. The minutes\u2019 generic Ordinance Number label does not establish an adopted ordinance. Entry III records the separate CIERC proposal, G-26-09-16 as amended as amended, failing 3-5."
+    },
+    {
+      "id": "in-fort-wayne-undated",
+      "field": "trigger",
+      "before": "Council concern about the pace of data center development in the city, following the Google data center already under construction in southeast Fort Wayne",
+      "after": "The proposal\u2019s recitals sought time to review data-center definitions, development standards and impacts on electrical capacity, water and wastewater systems, public infrastructure, land and community resources while the zoning code lacked comprehensive standards for large-scale data-center development."
+    },
+    {
+      "id": "in-fort-wayne-undated",
+      "field": "current_status",
+      "before": "WANE reported that Fort Wayne City Council voted 4-4 against the proposed 365-day data-center moratorium on October 13, 2026. [VERIFY: official roll call and any subsequent reintroduction or action.]",
+      "after": "Rejected: the October 13, 2026 regular-session minutes record amended Bill R-26-09-17 failing 4-4. Ayes: Booker, Ensley, Jehl and Paddock; nays: Bender, Chambers, Hartman and Myers. Thomas Freistroffer was absent. The mayor-signature field is N/A. This records the disposition of that proposal; a distinct later proposal requires its own identity review."
+    },
+    {
+      "id": "in-fort-wayne-undated",
+      "field": "affected_projects",
+      "before": "Would not affect the existing Google data center project under construction in southeast Fort Wayne",
+      "after": "The rejected proposal concerned final discretionary Common Council approvals for new hyperscale or large-scale data-center developments, aggregating related phases, expansions and facilities under common ownership/control, contiguous sites, shared infrastructure or the same planned development. It excluded principally telecommunications and emergency-communications facilities and preserved prior lawfully granted approvals. It requested corresponding measures by other approving bodies without directing action beyond their legal authority, and allowed study/planning/review short of final Council approval. The failed bill imposed no moratorium on any project."
+    },
+    {
+      "id": "in-fort-wayne-undated",
+      "field": "outcome",
+      "before": "WANE reported the proposed 365-day moratorium failed on a 4-4 council vote on October 13, 2026.",
+      "after": "Amended Bill R-26-09-17 failed 4-4 on October 13, 2026; no moratorium was enacted by that bill. The separate CIERC proposal failed 3-5 and is not the moratorium vote."
+    },
+    {
+      "id": "in-fort-wayne-undated",
+      "field": "has_verify_tags",
+      "before": "True",
+      "after": "False"
+    },
+    {
+      "id": "in-fort-wayne-undated",
+      "field": "verify_count",
+      "before": "1",
+      "after": "0"
+    },
+    {
+      "id": "in-fort-wayne-undated",
+      "field": "enacted_status",
+      "before": "pending",
+      "after": "rejected"
+    },
+    {
+      "id": "mn-eagan-2026",
+      "field": "current_status",
+      "before": "Active as of 2026-09-23; in effect through February 17, 2027 unless ended sooner. The City is defending a lawsuit filed in Dakota County District Court by Eagan Capital (owner/operator of an existing Eagan data center) around late June/early July 2026, after the City denied Eagan Capital a temporary use permit in May 2026; Eagan Capital seeks to void the moratorium. No ruling had been reported as of 2026-09-23.",
+      "after": "Recorded active; present legal force remains unverified. MPR News reported on July 7, 2026 that Eagan Capital filed its moratorium challenge on June 15, seeking $50,000 and disputing the city\u2019s authority over electricity demand. CBS Minnesota reported on November 9 that the city was separately suing the company over chiller permits, zoning and noise allegations; it reported that the mayor announced the legal action on November 2. These are reported claims and actions, not judicial findings. Case identifiers, court orders, subsequent moratorium amendments and actual project applicability remain unverified."
+    },
+    {
+      "id": "mn-eagan-2026",
+      "field": "outcome",
+      "before": "Pending study and possible permanent regulations",
+      "after": "A moratorium challenge and a separate city enforcement action have been reported. Court dispositions and any resulting change to the moratorium\u2019s operative force remain unverified."
+    }
+  ],
+  "status_counts": {
+    "active": 887,
+    "extended": 199,
+    "pending": 63,
+    "rejected": 3,
+    "recorded_in_force": 1086
+  },
+  "trusted_verifier_sha256": "ebecf851d4196715df186cc81cc3c933ab7da550fbafd7207996cd94b9cd2739",
+  "scope": "Eleven Fort Wayne/Eagan cells. Historical Fort Wayne proposal rejected4-4 and review closed; Eagan reported challenge/enforcement remain distinct with court outcome/force unverified. Pending63/rejected3, VERIFY978, unresolved1346; in-force/raw/policy/native totals unchanged.",
+  "consumer_commit": "9aa7efec205a70c7c0210d78a4f0ea3f5e1ded40",
+  "release_url": "https://github.com/mjbommar/moratorium-data-2026/releases/tag/v2026.11.11.post6",
+  "release_manifest_sha256": "a08d252a55ec73425a08823419dbf3ea57eb1911e23fd51094bcfeb6ed090d9f",
+  "hosted_copy_state": "pending"
+}

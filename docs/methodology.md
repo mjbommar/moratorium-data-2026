@@ -358,7 +358,7 @@ anything.
 
 ## Updates
 
-The November update is published as qualified release [v2026.11.11.post6](https://github.com/mjbommar/moratorium-data-2026/releases/tag/v2026.11.11.post6), prepared November 11 with explicit pending QA. Eleven Fort Wayne/Eagan cells include one historical proposal closure. Pending/rejected and VERIFY counts change; 1,346 reviews remain unresolved. Delivery checks pending; post5/V39 remains verified. [Release receipts](../work/research/2026-11-11/release-2026.11.11.post6/README.md).
+The November update is published as qualified release [v2026.11.11.post6](https://github.com/mjbommar/moratorium-data-2026/releases/tag/v2026.11.11.post6), published November 11 with explicit pending QA. Two identical builds, full clean restore, ten anonymous downloads and V40 pass. Hosted checks are pending; post5/V39 remains the last verified website edition. Original research cutoff and September baseline are unchanged. [Release receipts](../work/research/2026-11-11/release-2026.11.11.post6/README.md).
 
 
 ## November collection and evidence review

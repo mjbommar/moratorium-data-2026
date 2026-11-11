@@ -3,7 +3,7 @@
 Work from a pinned commit and retain the cohort cutoff separately from the date
 of an individual source review. Research jobs are not a substantive acceptance gate.
 
-Qualified post6/V40 is being prepared with eleven Fort Wayne/Eagan cells and one historical proposal closure. The working counts are 63 pending, three rejected, 978 VERIFY-tagged and 1,346 unresolved reviews; in-force/raw/policy/native totals unchanged. Eagan court records and later force remain unverified. Delivery checks pending; post5/V39 remains verified. [Receipts](../work/research/2026-11-11/release-2026.11.11.post6/README.md).
+Qualified post6/V40: Eleven Fort Wayne/Eagan cells establish Fort Wayne’s historical 4–4 rejection and update attributed Eagan litigation news. One historical proposal review closes. Counts are 63 pending, three rejected, 978 VERIFY-tagged and 1,346 unresolved reviews. The 1,086 active/extended records and raw, policy and native totals are unchanged. Eagan court dispositions and later force remain unverified. Two identical builds, full clean restore, ten anonymous downloads and V40 pass. Hosted checks are pending; post5/V39 remains the last verified website edition. [Receipts](../work/research/2026-11-11/release-2026.11.11.post6/README.md).
 
 The current qualified expanded snapshot tracks policy observations and 57 measure/proposal records, with 65 retained results and 53 current observations across 52 measures. This is separate from legacy moratorium counts and does not certify every result.
 
