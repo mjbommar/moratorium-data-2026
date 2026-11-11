@@ -925,3 +925,5 @@ Exit: repeatable refresh with visible freshness, costs, failures and unresolved 
 
 - [x] Prevent retained-URL collection with an opt-in pre-reservation guard; reconcile five prior ballot certification reviews into a pinned operator overlay. All 97 obligations retained; no dataset changes. See `work/research/2026-11-10/ballot-followup-operator-plan/README.md`.
 - [ ] Continue the outstanding ballot and legacy factual questions using prior-work checks and distinct-source admission; deployment of post18 does not close these.
+
+- [x] Independently review all32pages of five Hueytown historical minutes records, including the actual minutes served by an Agenda URL. Retire the specified inspection task and record narrower missing-instrument, omitted-resolution and later-force questions. Seven source pairs retained/read back; no canonical changes or whole-record closure. See `work/research/2026-11-11/post-release-qa/README.md`.

@@ -1,0 +1,339 @@
+{
+  "reviewed_at": "2026-11-11T05:11:44.811673+00:00",
+  "baseline_commit": "077ba5b3aef55c7d850298d98d39acdcce7f6ef9",
+  "source_only_records": [
+    {
+      "id": "al-hueytown-undated",
+      "current_row_sha256": "d50efb49bf346a7167292c5a584971e9a513ee6ea393f3c2100a889cd76e1fb0",
+      "recommendation": "unresolved",
+      "canonical_changes": 0,
+      "whole_record_closures": 0,
+      "native_readback_gaps": 0,
+      "independent_review": {
+        "path": "work/research/2026-11-11/post-release-qa/hueytown-historical-independent-review.json",
+        "sha256": "3cd87d626722373c81646079e41833584f08658f4800d553d68740fc535612f3"
+      },
+      "completed_question": "Inspect the five specifically published July28,August4,August10,August25,September1minutes records (32physical pages); corroborate the Planning and Zoning report from actual August25minutes body.",
+      "remaining_questions": [
+        "Reuse already reviewed July14adoption evidence; obtain executed Resolution7499to establish operative term, effective anchor and expiration. Do not repeat the original July14minutes or these five newly reviewed records without a changed source/control.",
+        "Resolve the July28agenda additions7500-7504that are not described in its later resolution items. Generic August4/September1work-session summaries do not enumerate topics. No comprehensive no-action conclusion follows from these minutes.",
+        "Obtain actual August18Planning/Development or Planning and Zoning proceedings and any resulting instrument. The August10announcement and stale August18date repeated in August25minutes do not prove that meeting occurred or establish its result.",
+        "Review distinct later instruments/proceedings after September1, separately posted agendas only where material, actual project applicability and current legal force. The recorded September23active category was not independently confirmed by this historical packet."
+      ]
+    },
+    {
+      "id": "md-salisbury-undated",
+      "current_row_sha256": "86a5a067234680c80da110fd58c7476d165336375c511787bfdebec04da75519",
+      "recommendation": "unresolved",
+      "canonical_changes": 0,
+      "whole_record_closures": 0,
+      "native_readback_gaps": 0,
+      "completed_question": null,
+      "remaining_questions": [
+        "Obtain actual Resolution3494or completed October12proceedings to verify adopted terms and operative interval. Previously reviewed clerk/resolution index and Exa/SerpAPIqueries do not supply the instrument. New actual site-search form submission s=3494returns only an unrelated2021CDBGhearing; it does not establish nonpublication, nonadoption or absence of later action. Do not repeat these same routes absent changed evidence.",
+        "Establish subsequent amendments/extensions/repeal, any actual project applicability and current legal force from distinct official records."
+      ]
+    }
+  ],
+  "source_continuity": {
+    "path": "work/research/2026-11-11/post-release-qa/followup-source-continuity.json",
+    "sha256": "9b9f1990f1ff96406b69350ee0822a28d93328517dc1f756bb4eb53835637b66"
+  },
+  "jobs": [
+    {
+      "folder": "salisbury-site-search-2026-11-11",
+      "config_sha256": "45ddd058b3c87236fd870a129d9c53989e9e979f333208d4c6acef1b317ac688",
+      "caps": {
+        "exa": 0,
+        "serpapi": 0,
+        "googlenews": 0,
+        "gdelt": 0,
+        "search_total": 0,
+        "fetch": 3
+      },
+      "admission": "New control: submit actual retained WordPress search form action https://salisbury.md/ field s=3494. No repeated index/clerk/provider query. At most three new URL fetches: search form result plus actual relevant result/attachment links. Use new-source-only on each fetch. Do not construct attachment paths or infer nonpublication from no search result. Original Maryland job caps unchanged.",
+      "attempts": [
+        {
+          "attempt_id": "b731133239074d8d97daad1155f9995c",
+          "kind": "fetch",
+          "state": "finished",
+          "reserved_at": "2026-11-11T05:05:09.605471+00:00",
+          "client_sha256": "6f7b75691fb9a5d64a700b90703a32ffb34a851873f18593278357b5757ec020",
+          "config_sha256": "45ddd058b3c87236fd870a129d9c53989e9e979f333208d4c6acef1b317ac688",
+          "intent": {
+            "url": "https://salisbury.md/?s=3494",
+            "mode": "http",
+            "source_novelty_policy": "reject_retained_request_or_redirect_url"
+          },
+          "outcome": "response",
+          "url": "https://salisbury.md/?s=3494",
+          "final_url": "https://salisbury.md/?s=3494",
+          "status": 200,
+          "ok": true,
+          "title": "Search Results for “3494”",
+          "chars": 929,
+          "body_sha256": "b259e9c430f632f1fa1a9f9deb01b25439c37db6e05be8e9da39526316c091a5",
+          "text_sha256": "05b55a1fc1d92347f2316deafc41357efc093486e22ba9ba44bec3a4224b25f0",
+          "from_cache": false,
+          "revalidated": false,
+          "body_observed_at": "2026-11-11T05:05:11.206586Z",
+          "finished_at": "2026-11-11T05:05:11.207919+00:00"
+        }
+      ]
+    },
+    {
+      "folder": "hueytown-later-minutes-2026-11-11",
+      "config_sha256": "988c17a016010763f6ae3eef6d3685caa52359951c8b02f12ea38dfb213d6063",
+      "caps": {
+        "exa": 1,
+        "serpapi": 0,
+        "googlenews": 0,
+        "gdelt": 0,
+        "search_total": 1,
+        "fetch": 3
+      },
+      "admission": "Specific unresolved historical observation: actual official July28 through September1 minutes. Original July14 signed minutes already retained and reviewed; do not repeat those or original7499 generic search. One exact July28minutes domain query, up to3 distinct actual relevant returned/linked official records using new-source-only. Full records required; no keyword-only negative/current-force inference.",
+      "attempts": [
+        {
+          "attempt_id": "4f74df8f53e24893897b497e151f4f22",
+          "kind": "exa",
+          "state": "finished",
+          "reserved_at": "2026-11-11T05:06:07.840160+00:00",
+          "client_sha256": "6f7b75691fb9a5d64a700b90703a32ffb34a851873f18593278357b5757ec020",
+          "config_sha256": "988c17a016010763f6ae3eef6d3685caa52359951c8b02f12ea38dfb213d6063",
+          "intent": {
+            "query": "\"July 28, 2026\" \"minutes\"",
+            "publication_window": {
+              "since": null,
+              "until": null
+            },
+            "max_results": 6,
+            "include_domains": [
+              "hueytownal.gov"
+            ]
+          },
+          "outcome": "response",
+          "query": "\"July 28, 2026\" \"minutes\"",
+          "hits": 6,
+          "cost_usd": 0.007,
+          "publication_window": {
+            "since": null,
+            "until": null
+          },
+          "max_results": 6,
+          "unpriced": false,
+          "exchanges": [
+            {
+              "artifact": "/data0/moratorium-refresh-2026/hueytown-later-minutes-2026-11-11/4f74df8f53e24893897b497e151f4f22-response-000.private.body",
+              "status": 200,
+              "original_body_sha256": "ded3a1b01284dc0507a25d9e4de5a322d2561eee148803cb7492ab24eefdca1d",
+              "stored_body_sha256": "ded3a1b01284dc0507a25d9e4de5a322d2561eee148803cb7492ab24eefdca1d",
+              "redacted": false
+            }
+          ],
+          "retry_policy": "single provider attempt; failures retain reservation",
+          "include_domains": [
+            "hueytownal.gov"
+          ],
+          "query_scope_check": {
+            "status": "all_returned_urls_in_declared_sites",
+            "declared_sites": [
+              "hueytownal.gov"
+            ],
+            "matching_hits": 6,
+            "nonmatching_hits": 0,
+            "observed_hosts": [
+              "hueytownal.gov",
+              "www.hueytownal.gov"
+            ],
+            "scope": "Diagnostic of returned URL hosts, not query-language validation or evidence of absence. Check ambiguous OR branches and fetch substantive sources."
+          },
+          "finished_at": "2026-11-11T05:06:09.523780+00:00"
+        },
+        {
+          "attempt_id": "c5c72b60ddf047c4b435ec8bba2bcfbf",
+          "kind": "fetch",
+          "state": "finished",
+          "reserved_at": "2026-11-11T05:06:23.430272+00:00",
+          "client_sha256": "6f7b75691fb9a5d64a700b90703a32ffb34a851873f18593278357b5757ec020",
+          "config_sha256": "988c17a016010763f6ae3eef6d3685caa52359951c8b02f12ea38dfb213d6063",
+          "intent": {
+            "url": "https://www.hueytownal.gov/AgendaCenter",
+            "mode": "http",
+            "source_novelty_policy": "reject_retained_request_or_redirect_url"
+          },
+          "outcome": "response",
+          "url": "https://www.hueytownal.gov/AgendaCenter",
+          "final_url": "https://www.hueytownal.gov/AgendaCenter",
+          "status": 200,
+          "ok": true,
+          "title": "Agenda Center",
+          "chars": 1957,
+          "body_sha256": "775a47d08cdcc481bb1a3a9ce743956ffc742c1f0649b0302803b6349a259160",
+          "text_sha256": "f375bb64be0a7a3a1906613ef4c5e1b288ad416571905126bb984c1611b5dae8",
+          "from_cache": false,
+          "revalidated": false,
+          "body_observed_at": "2026-11-11T05:06:24.785487Z",
+          "finished_at": "2026-11-11T05:06:24.787345+00:00"
+        },
+        {
+          "attempt_id": "c8f3a3c778b14650990f41bef50c2367",
+          "kind": "fetch",
+          "state": "finished",
+          "reserved_at": "2026-11-11T05:06:42.413853+00:00",
+          "client_sha256": "6f7b75691fb9a5d64a700b90703a32ffb34a851873f18593278357b5757ec020",
+          "config_sha256": "988c17a016010763f6ae3eef6d3685caa52359951c8b02f12ea38dfb213d6063",
+          "intent": {
+            "url": "https://www.hueytownal.gov/AgendaCenter/ViewFile/Minutes/_09012026-210",
+            "mode": "http",
+            "source_novelty_policy": "reject_retained_request_or_redirect_url"
+          },
+          "outcome": "response",
+          "url": "https://www.hueytownal.gov/AgendaCenter/ViewFile/Minutes/_09012026-210",
+          "final_url": "https://www.hueytownal.gov/AgendaCenter/ViewFile/Minutes/_09012026-210",
+          "status": 200,
+          "ok": true,
+          "title": null,
+          "chars": 969,
+          "body_sha256": "5f5348c2384ce870beae21bf11359262b91339a9e2f3dd4b228042db60f54505",
+          "text_sha256": "dea23b3140637e3b9dedc6c88296537ba7dd5c5caca6f95b33a6af2c6124e6ff",
+          "from_cache": false,
+          "revalidated": false,
+          "body_observed_at": "2026-11-11T05:06:43.653857Z",
+          "finished_at": "2026-11-11T05:06:44.620046+00:00"
+        },
+        {
+          "attempt_id": "e1ee3eb349fd4f7ab8e3e79cd838f641",
+          "kind": "fetch",
+          "state": "finished",
+          "reserved_at": "2026-11-11T05:06:42.288848+00:00",
+          "client_sha256": "6f7b75691fb9a5d64a700b90703a32ffb34a851873f18593278357b5757ec020",
+          "config_sha256": "988c17a016010763f6ae3eef6d3685caa52359951c8b02f12ea38dfb213d6063",
+          "intent": {
+            "url": "https://www.hueytownal.gov/AgendaCenter/ViewFile/Minutes/_07282026-207",
+            "mode": "http",
+            "source_novelty_policy": "reject_retained_request_or_redirect_url"
+          },
+          "outcome": "response",
+          "url": "https://www.hueytownal.gov/AgendaCenter/ViewFile/Minutes/_07282026-207",
+          "final_url": "https://www.hueytownal.gov/AgendaCenter/ViewFile/Minutes/_07282026-207",
+          "status": 200,
+          "ok": true,
+          "title": null,
+          "chars": 11998,
+          "body_sha256": "d6e5d24c399df10cd817e52c608dc1413774e5eafa6e1598d0797d605a5040d0",
+          "text_sha256": "7a07f127e7e1844f45d3a1418b82f70732626852640219f45de5bab05d4fbbc7",
+          "from_cache": false,
+          "revalidated": false,
+          "body_observed_at": "2026-11-11T05:06:43.757022Z",
+          "finished_at": "2026-11-11T05:06:44.649517+00:00"
+        }
+      ]
+    },
+    {
+      "folder": "hueytown-linked-remaining-minutes-2026-11-11",
+      "config_sha256": "ca002bba3ba9ccab19951139de6661288e4ec99ad84069cb5048f53e0ae307f4",
+      "caps": {
+        "exa": 0,
+        "serpapi": 0,
+        "googlenews": 0,
+        "gdelt": 0,
+        "search_total": 0,
+        "fetch": 3
+      },
+      "admission": "Changed input: actual complete current agenda-center HTML identified Aug4/Aug10 minutes and Aug25agenda links. Prior3fetch phase terminal/caps unchanged. Complete remaining three distinct records in the specified historical July28-Sept1range; no Aug25minutes link observed and agenda not action proof. No originalJuly14 or index repeated. No further search or invented paths. All use new-source-only.",
+      "attempts": [
+        {
+          "attempt_id": "09f2529b51e74796a0d2db60f4d65318",
+          "kind": "fetch",
+          "state": "finished",
+          "reserved_at": "2026-11-11T05:07:28.046032+00:00",
+          "client_sha256": "6f7b75691fb9a5d64a700b90703a32ffb34a851873f18593278357b5757ec020",
+          "config_sha256": "ca002bba3ba9ccab19951139de6661288e4ec99ad84069cb5048f53e0ae307f4",
+          "intent": {
+            "url": "https://www.hueytownal.gov/AgendaCenter/ViewFile/Minutes/_08042026-208",
+            "mode": "http",
+            "source_novelty_policy": "reject_retained_request_or_redirect_url"
+          },
+          "outcome": "response",
+          "url": "https://www.hueytownal.gov/AgendaCenter/ViewFile/Minutes/_08042026-208",
+          "final_url": "https://www.hueytownal.gov/AgendaCenter/ViewFile/Minutes/_08042026-208",
+          "status": 200,
+          "ok": true,
+          "title": null,
+          "chars": 838,
+          "body_sha256": "a04844495a73de5c11b9e07a5847237519b9fc2fe212b99a38aafb8727e16f1d",
+          "text_sha256": "3c41191998f4f8fb60e09b366d44d827199f05778c5503c3edb16d4846299d5c",
+          "from_cache": false,
+          "revalidated": false,
+          "body_observed_at": "2026-11-11T05:07:29.186449Z",
+          "finished_at": "2026-11-11T05:07:29.676855+00:00"
+        },
+        {
+          "attempt_id": "d49208bbc4884d528483d839d776e66a",
+          "kind": "fetch",
+          "state": "finished",
+          "reserved_at": "2026-11-11T05:07:28.247162+00:00",
+          "client_sha256": "6f7b75691fb9a5d64a700b90703a32ffb34a851873f18593278357b5757ec020",
+          "config_sha256": "ca002bba3ba9ccab19951139de6661288e4ec99ad84069cb5048f53e0ae307f4",
+          "intent": {
+            "url": "https://www.hueytownal.gov/AgendaCenter/ViewFile/Minutes/_08102026-209",
+            "mode": "http",
+            "source_novelty_policy": "reject_retained_request_or_redirect_url"
+          },
+          "outcome": "response",
+          "url": "https://www.hueytownal.gov/AgendaCenter/ViewFile/Minutes/_08102026-209",
+          "final_url": "https://www.hueytownal.gov/AgendaCenter/ViewFile/Minutes/_08102026-209",
+          "status": 200,
+          "ok": true,
+          "title": null,
+          "chars": 13923,
+          "body_sha256": "5b05877f632d381855a06c1c7bc389ee9edaca7051eb62f6e0963899ca5f68b0",
+          "text_sha256": "e24f499b7b1212e0e04d25cf7db2b8fcd795d3359983f699e04e0279e27dd545",
+          "from_cache": false,
+          "revalidated": false,
+          "body_observed_at": "2026-11-11T05:07:29.564433Z",
+          "finished_at": "2026-11-11T05:07:30.228642+00:00"
+        },
+        {
+          "attempt_id": "5496cab3445c4cecada933226de780f5",
+          "kind": "fetch",
+          "state": "finished",
+          "reserved_at": "2026-11-11T05:07:28.153793+00:00",
+          "client_sha256": "6f7b75691fb9a5d64a700b90703a32ffb34a851873f18593278357b5757ec020",
+          "config_sha256": "ca002bba3ba9ccab19951139de6661288e4ec99ad84069cb5048f53e0ae307f4",
+          "intent": {
+            "url": "https://www.hueytownal.gov/AgendaCenter/ViewFile/Agenda/_08252026-213",
+            "mode": "http",
+            "source_novelty_policy": "reject_retained_request_or_redirect_url"
+          },
+          "outcome": "response",
+          "url": "https://www.hueytownal.gov/AgendaCenter/ViewFile/Agenda/_08252026-213",
+          "final_url": "https://www.hueytownal.gov/AgendaCenter/ViewFile/Agenda/_08252026-213",
+          "status": 200,
+          "ok": true,
+          "title": null,
+          "chars": 23845,
+          "body_sha256": "dd37fa2f9d3eff14b37dcb187d4e968c4df8250d0ef14a00a1d7f6bafb3e4a75",
+          "text_sha256": "305eb4e509cf1e6f2f38f0cd34b493cd7d671f46fec3857fc15feda3bdebc13e",
+          "from_cache": false,
+          "revalidated": false,
+          "body_observed_at": "2026-11-11T05:07:29.466084Z",
+          "finished_at": "2026-11-11T05:07:30.250691+00:00"
+        }
+      ]
+    }
+  ],
+  "target_label_correction": "Salisbury private collection admission used md-salisbury-2026; actual existing canonical ID is md-salisbury-undated. No candidate/new identity or promotion was made. The original config is retained unchanged.",
+  "searches": {
+    "exa": 1
+  },
+  "fetches": 7,
+  "reported_search_cost_usd": 0.007,
+  "model_requests": 2,
+  "model_price_usd": null,
+  "accepted_historical_review_tasks": 1,
+  "canonical_changes": 0,
+  "whole_record_closures": 0,
+  "scope": "Bounded source-only QA. One historical inspection task completed; both whole records unresolved. No ballot data, count, category, date, publication or deployment change."
+}
