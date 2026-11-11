@@ -10,4 +10,4 @@ Four bounded new fetches retrieved the project page, linked eCode index and actu
 
 All nine routine checks pass. The other1,327local rows, policy CSV, summary counts and timeline are unchanged; only this residual queue entry changes, leaving1,347unresolved records. Map/PApage/table date and provenance prose are rebuilt.
 
-These six working corrections await the next combined release, consumer handoff and Pages deployment. Qualified post3/V37 remains the delivered edition. Earlier delivery receipts remain unchanged.
+The six accepted original-resolution/date corrections are delivered in qualified post4/V38 and verified current public pages. [Delivery receipts](../release-2026.11.11.post4/README.md) record completion. Earlier application/verification JSON retains review-time pending state. Replacement/endpoint and laterforce remain unresolved; the expanded full-image model followup is not accepted as completed.

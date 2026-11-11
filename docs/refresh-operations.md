@@ -3,7 +3,7 @@
 Work from a pinned commit and retain the cohort cutoff separately from the date
 of an individual source review. Research jobs are not a substantive acceptance gate.
 
-Qualified post4/V38: Six East Whiteland corrections recover both signed original resolutions, exact March 31 adoption and distinct April 27 findings. No status, endpoint or headline changes. Replacement/date proposals remain held; full independent ordinance-image follow-up is incomplete after orchestration failure. Later force remains unresolved. There remain 1,347 unresolved reviews. Two identical builds, full clean restore, ten anonymous downloads and V38 pass. Hosted checks are pending; post3/V37 remains the last verified website edition. [Receipts](../work/research/2026-11-11/release-2026.11.11.post4/README.md).
+Qualified post4/V38: Six East Whiteland corrections recover both signed original resolutions, exact March 31 adoption and distinct April 27 findings. No status, endpoint or headline changes. Replacement/date proposals remain held; full independent ordinance-image follow-up is incomplete after orchestration failure. Later force remains unresolved. There remain 1,347 unresolved reviews. Two identical builds, full clean restore, ten anonymous downloads, V38 and current hosted desktop/mobile checks pass. [Receipts](../work/research/2026-11-11/release-2026.11.11.post4/README.md).
 
 The current qualified expanded snapshot tracks policy observations and 57 measure/proposal records, with 65 retained results and 53 current observations across 52 measures. This is separate from legacy moratorium counts and does not certify every result.
 

@@ -92,3 +92,6 @@ Source-only follow-up: [Nassau clerk ordinance route](nassau-clerk-route-review.
 
 
 Latest delivery: [six Cedartown corrections](cedartown-extension-review.md) in qualified post3/V37 and verified current public pages. Active887/extended199 retain1086inforce; exact interval, possible lapse and laterforce unresolved. [Receipts](../release-2026.11.11.post3/README.md).
+
+
+Latest delivery: [six East Whiteland original/date fields](east-whiteland-original-review.md) in qualified post4/V38 and verified current public pages. Replacement/endpoint proposals held; full independent image expansion incomplete. [Receipts](../release-2026.11.11.post4/README.md).

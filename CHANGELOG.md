@@ -1,8 +1,8 @@
 # Changelog
 
-## Qualified v2026.11.11.post4 — website verification pending
+## Qualified v2026.11.11.post4
 
-Six East Whiteland fields recover both signed resolutions and exact March 31 adoption. Replacement/endpoint proposals remain held; full independent ordinance-image followup is incomplete after an orchestration failure. No status/headline/endpoint/native changes; 1,347 reviews remain unresolved. Two identical builds, full clean restore, ten anonymous downloads and V38 pass. Hosted checks are pending; post3/V37 remains the last verified website edition.
+Six East Whiteland fields recover both signed resolutions and exact March 31 adoption. Replacement/endpoint proposals remain held; full independent ordinance-image followup is incomplete after an orchestration failure. No status/headline/endpoint/native changes; 1,347 reviews remain unresolved. Two identical builds, full clean restore, ten anonymous downloads, V38 and current hosted desktop/mobile checks pass.
 
 | Metric | Qualified November 11 post4 |
 |---|---:|

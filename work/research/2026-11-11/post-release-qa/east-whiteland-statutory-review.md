@@ -1,6 +1,6 @@
 # East Whiteland statutory scope and replacement check
 
-No additional canonical changes were accepted. All six proposed replacement/date/prose changes were held after two independently captured and verified model stages. The prior six accepted original-resolution/date corrections remain unchanged and pending the next delivery batch.
+No additional canonical changes were accepted. All six proposed replacement/date/prose changes were held after two independently captured and verified model stages. The prior six accepted original-resolution/date corrections are delivered in qualified post4/V38 and verified current public pages.
 
 The primary legislature text of MPC609.2 distinguishes 30-day findings and 180-day enactment duties from the clause3 protection concerning specified landowner curative amendments and zoning-board reports on identical or substantially similar invalidity grounds. It does not itself print a general ordinary-permit prohibition. The 180-day enactment obligation is not automatically a permit sunset.
 
@@ -11,3 +11,6 @@ All32ordinancepages were rendered and OCR-screened. Coordinator visual review co
 The attempted full-image extension did not complete. Local PNG/grayscale/JPEG preflights exceeded the unchanged8MiBcapture ceiling and made no provider reservations. A subsequent two-part image plan fit that ceiling, but the coordinator incorrectly launched it concurrently through a serial-only transport. One01-16request was reserved; the second17-32request was refused by the unresolved-reservation guard. The script terminated with no complete first response capture. The reservation remains counted, provider execution/billing is uncertain, no ledger was repaired or reset, and no full-image review output is accepted. There were three model reservations overall in this follow-up: two complete verified responses and one unresolved reservation. No further model calls were dispatched.
 
 Next: distinct evidence linking385to this specific completed cure or establishing the earlier protection endpoint, saved rights and later/project-specific actions. Do not repeat the unchanged documents, infer blanket permit suspension from the statute, or rerun the unresolved request without reconciliation. The original public post3/V37 delivery remains unchanged; broader QA stays active.
+
+
+[Post4/V38 delivery receipts](../release-2026.11.11.post4/README.md) establish delivery of the earlier accepted corrections. This source-only followup promoted no additional fields; its earlier JSON preserves review-time state and the failed expanded-model reservation remains unresolved.
