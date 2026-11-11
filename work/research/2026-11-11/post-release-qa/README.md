@@ -1,8 +1,8 @@
 # November 11 source follow-ups
 
-Working QA update: fourteen accepted cells across three existing local rows await the next synchronized batch: [five Baltimore corrections](baltimore-completed-form-review.md) and [nine Hamilton/Brookhaven corrections](hamilton-brookhaven-review.md). Hamilton adds an executed resolution; Brookhaven recovers an unextracted scanned filing acknowledgment. Counts/categories are unchanged; the latest delivered edition remains v2026.11.11/V34.
+Latest delivery: fourteen Baltimore/Hamilton/Brookhaven cells are synchronized in qualified v2026.11.11.post1 / V35 and verified current public pages. Counts/categories/native history remain unchanged; broader QA remains active. [Receipts](../release-2026.11.11.post1/README.md).
 
-Latest delivery: [four Mendocino signed-instrument corrections](mendocino-signed-review.md) are synchronized in qualified v2026.11.11, consumer V34 and verified public pages. Counts and categories are unchanged.
+Previous delivery: [four Mendocino signed-instrument corrections](mendocino-signed-review.md) are synchronized in qualified v2026.11.11, consumer V34 and verified public pages. Counts and categories are unchanged.
 
 At the initial Hueytown/Salisbury checkpoint, post18/V33 was the delivered edition. The initial Hueytown/Salisbury source-only batch
 completes one bounded historical inspection task and narrows two records' research

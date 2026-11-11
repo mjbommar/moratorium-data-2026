@@ -7,8 +7,8 @@ page 3 and AcroForm values show **PASSED**, **ENACTED 09/28/26**, **EFFECTIVE
 boxes in the bill roll call. The prior assertion that this disposition block was
 unfilled was wrong. This is not a wet-signature finding or a new source version.
 
-The five working-data corrections await the next synchronized delivery batch.
-Qualified v2026.11.11 / V34 remains the delivered edition. No status category,
+The five corrections are delivered with the combined fourteen-cell batch in
+qualified v2026.11.11.post1 / V35 and verified current public pages. No status category,
 normalized date, original numeric duration, endpoint, identity, analytical
 membership, headline count or native ballot data changes. The original Bill 3-26
 adoption date remains unchanged and was not newly reviewed here.
@@ -73,3 +73,6 @@ Receipts: `baltimore-completed-form-independent-review.json`,
 `retained-form-source-continuity.json`,
 `retained-finality-other-source-continuity.json` and
 `baltimore-completed-form-verification.json`.
+
+
+Delivery follow-up: all fourteen combined cells are delivered in qualified v2026.11.11.post1 / V35 and verified current public pages. Earlier pending-delivery text records the review-time state. [Delivery receipts](../release-2026.11.11.post1/README.md).

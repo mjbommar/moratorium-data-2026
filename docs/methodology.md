@@ -358,7 +358,7 @@ anything.
 
 ## Updates
 
-The November update is published as qualified release [v2026.11.11.post1](https://github.com/mjbommar/moratorium-data-2026/releases/tag/v2026.11.11.post1), published November 11 with explicit pending QA. Data release, clean restore, anonymous downloads and V35 pass; hosted checks are pending. The original research cutoff and September comparison baseline remain unchanged. [Release receipts](../work/research/2026-11-11/release-2026.11.11.post1/README.md).
+The November update is published as qualified release [v2026.11.11.post1](https://github.com/mjbommar/moratorium-data-2026/releases/tag/v2026.11.11.post1), published November 11 with explicit pending QA. Data release, clean restore, anonymous downloads, V35 and hosted desktop/mobile checks pass. The original research cutoff and September comparison baseline remain unchanged. [Release receipts](../work/research/2026-11-11/release-2026.11.11.post1/README.md).
 
 
 ## November collection and evidence review
@@ -414,4 +414,4 @@ Remote release assets and hosted deployment require separate post-publication
 verification. The April paper and historical graphics retain their original cohorts.
 
 
-Fourteen reviewed Baltimore/Hamilton/Brookhaven cells are delivered in qualified v2026.11.11.post1 and consumer V35. Two identical builds, full clean restore and ten anonymous downloads pass. Hosted checks are pending; v2026.11.11/V34 remains the last verified website edition. Headline counts/categories/native history are unchanged; Hamilton anniversary calculation and later-force questions remain qualified.
+Qualified v2026.11.11.post1 and consumer V35 deliver fourteen reviewed Baltimore/Hamilton/Brookhaven cells. Two identical builds, full clean restore, ten anonymous downloads, all 64 current HTML pages and desktop/mobile browser checks pass. Both changed map popups and all three state pages are verified. Headline counts/categories/native history are unchanged. Hamilton’s calculated anniversary and later-force questions remain qualified; 1,347 whole-record reviews remain unresolved. Complete final workflow artifact verification is recorded separately.

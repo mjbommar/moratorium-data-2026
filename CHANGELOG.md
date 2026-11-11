@@ -1,8 +1,8 @@
 # Changelog
 
-## Qualified v2026.11.11.post1 — website verification pending
+## Qualified v2026.11.11.post1
 
-Fourteen reviewed cells across Baltimore County (five), Hamilton County (six) and Brookhaven (three) recover completed disposition, executed term/scope and scanned filing evidence. Hamilton gains a calendar-term classification and explicitly calculated July 15, 2027 anniversary; its precise legal boundary and later action remain qualified. No status category, adoption-date, headline, identity, scope or native-history changes; no whole-record closure. There remain 1,347 unresolved legacy reviews. Two identical builds, full restore, ten anonymous downloads and V35 pass; hosted verification is pending.
+Fourteen reviewed cells across Baltimore County (five), Hamilton County (six) and Brookhaven (three) recover completed disposition, executed term/scope and scanned filing evidence. Hamilton gains a calendar-term classification and explicitly calculated July 15, 2027 anniversary; its precise legal boundary and later action remain qualified. No status category, adoption-date, headline, identity, scope or native-history changes; no whole-record closure. There remain 1,347 unresolved legacy reviews. Two identical builds, full restore, ten anonymous downloads, V35 and all current hosted pages/browser checks pass. Complete uploaded artifact verification is recorded separately.
 
 | Metric | Qualified November 11 post1 |
 |---|---:|

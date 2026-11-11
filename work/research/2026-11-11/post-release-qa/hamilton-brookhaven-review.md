@@ -1,6 +1,6 @@
 # Hamilton and Brookhaven: recovered operative and filing evidence
 
-Nine accepted cells across two existing local records supplement the five Baltimore corrections already on working main. The combined fourteen-cell batch awaits synchronized release, consumer snapshot and public deployment. The delivered edition remains v2026.11.11 / V34. Headline totals and status categories are unchanged. No whole record is closed; later action, actual applicability and current legal force remain unresolved.
+Nine accepted cells across two existing local records supplement five Baltimore corrections. All fourteen cells are delivered in qualified v2026.11.11.post1 / V35 and verified public pages. Headline totals and status categories are unchanged. No whole record is closed; later action, actual applicability and current legal force remain unresolved.
 
 | Record | Evidence recovered | Accepted changes | Remaining work |
 |---|---|---|---|
@@ -35,3 +35,6 @@ Evidence:
 - [Brookhaven exact three-cell application](brookhaven-operative-application.json) and [independent review](brookhaven-operative-independent-review.json).
 - [Three-pair source continuity](hamilton-brookhaven-source-continuity.json) and [Brookhaven augmented OCR continuity](brookhaven-filing-ocr-continuity.json).
 - [Batch verification](hamilton-brookhaven-verification.json).
+
+
+Delivery follow-up: all fourteen combined cells are delivered in qualified v2026.11.11.post1 / V35 and verified current public pages. Earlier pending-delivery text records the review-time state. [Delivery receipts](../release-2026.11.11.post1/README.md).
