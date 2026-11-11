@@ -1,0 +1,28 @@
+{
+  "reviewed_at": "2026-11-11T12:56:50.928551+00:00",
+  "measure_id": "c4ce2dde-f35c-462c-b2b3-d787aab94fa0",
+  "result_observation_id": "c1c57c2b-edec-48bc-bba6-d498a1e41477",
+  "result_row_sha256": "1a840ef70d03f4b4a709cea57fe2fabfb7801e86f8e9010cccce5260650ec66d",
+  "source_continuity": {
+    "path": "work/research/2026-11-11/post-release-qa/wiscasset-certification-source-continuity.json",
+    "sha256": "9748fab99a71ddfa4985018b543b8801aa9964581081583f26182ad438914b43"
+  },
+  "observations": [
+    "Captured official homepage explicitly labels November 3 results unofficial. This is a current navigation-label observation, not a fresh tally observation.",
+    "Captured Town Clerk/Elections page lists Data Center Moratorium Ordinance \u2014 Final alongside pre-vote warrant/sample ballots. A final title is not certification or enactment proof.",
+    "Existing result211, warrant1726, ordinance1743 and sampleballot1725 were not re-fetched."
+  ],
+  "limitations": [
+    "Bounded navigation review does not prove no certification exists elsewhere.",
+    "Initial urllib homepage request returned HTTP403. A normal browser then captured both pages with HTTP200; the failed attempt is retained privately.",
+    "No independent result adjudication or native ballot mutation performed."
+  ],
+  "remaining_questions": [
+    "Distinct completed clerk certification/canvass/correction/recount tied to the measure.",
+    "Implementation, enacted wording, effective date and continuing legal force remain separate obligations."
+  ],
+  "resume_condition": "Distinct completed instrument or documented changed version; do not repeat unchanged navigation or existing unofficial tally solely to seek the same certificate.",
+  "canonical_changes": 0,
+  "fresh_result_observations": 0,
+  "whole_record_closures": 0
+}
