@@ -1,0 +1,286 @@
+{
+  "source_commit": "9d9d4e637d3a0afa26e8fa8155ef3d52a49df586",
+  "manifest_sha256": "cb5209924ebd9ba6f156c9ed55a00c15a4ee6b312317f343e95ecd63fded10d5",
+  "expanded_snapshot": "3ce33d22288fa7bc7100c9ac621c041037702e8370af1e663d53a548ff794725",
+  "current_counts": {
+    "moratorium_records": 1328,
+    "state_policy_records": 449,
+    "ballot_measures": 57,
+    "retained_results": 65,
+    "current_results": 53,
+    "retained_events": 12,
+    "current_accepted_historical_events": 12,
+    "restriction_records": 3,
+    "measure_instrument_link_records": 1
+  },
+  "files": 2818,
+  "entries": 3048,
+  "verified_at": "2026-11-11T12:44:44.735682+00:00",
+  "consumer_verification": {
+    "handoff": {
+      "state": "verified",
+      "source_commit": "9d9d4e637d3a0afa26e8fa8155ef3d52a49df586",
+      "manifest_sha256": "cb5209924ebd9ba6f156c9ed55a00c15a4ee6b312317f343e95ecd63fded10d5",
+      "expanded_snapshot": "3ce33d22288fa7bc7100c9ac621c041037702e8370af1e663d53a548ff794725",
+      "files": 2818,
+      "entries": 3048,
+      "checks": [
+        {
+          "command": [
+            "scripts/check_expanded_publication.py"
+          ],
+          "exit_code": 0,
+          "result": {
+            "state": "consistent",
+            "snapshot_sha256": "3ce33d22288fa7bc7100c9ac621c041037702e8370af1e663d53a548ff794725",
+            "generations_checked": 49,
+            "records": {
+              "jurisdictions": 53,
+              "elections": 51,
+              "ballot_measures": 57,
+              "measure_provisions": 52,
+              "measure_results": 65,
+              "local_restrictions": 3,
+              "instrument_events": 12,
+              "measure_instrument_links": 1,
+              "source_documents": 168,
+              "claims": 625,
+              "review_decisions": 2756,
+              "search_runs": 1,
+              "search_attempts": 3,
+              "search_sightings": 18,
+              "coverage_observations": 1
+            },
+            "scope": "Offline publication/receipt consistency only; no source reacquisition, renewed factual acceptance or current-force confirmation."
+          }
+        },
+        {
+          "command": [
+            "scripts/build_expanded_csv.py",
+            "--check"
+          ],
+          "exit_code": 0,
+          "result": {
+            "state": "matches",
+            "source_snapshot": "3ce33d22288fa7bc7100c9ac621c041037702e8370af1e663d53a548ff794725",
+            "projection_sha256": "7b585b49998f8ca39b0ff433fe15c34335ea171bdd8960af1e7e9fdcf852f6cb",
+            "csv_views": 18
+          }
+        },
+        {
+          "command": [
+            "scripts/build_policy_scope_exports.py",
+            "--check"
+          ],
+          "exit_code": 0,
+          "result": "policy-scope exports current"
+        }
+      ],
+      "checks_run": true,
+      "scope": "Pinned input integrity and offline publication consistency, not source reacquisition or downstream join acceptance."
+    },
+    "policy_semantics": {
+      "total_state_policy_actions": 449,
+      "total_state_bills": 427,
+      "state_policy_instrument_type_counts": {
+        "bill": 427,
+        "executive_order": 3,
+        "governor_directive": 1,
+        "legislative_amendment": 1,
+        "legislative_precursor": 3,
+        "legislative_resolution": 12,
+        "statute": 2
+      },
+      "top_states_by_bills": [
+        [
+          "Pennsylvania",
+          18
+        ],
+        [
+          "Virginia",
+          18
+        ],
+        [
+          "West Virginia",
+          18
+        ],
+        [
+          "Maryland",
+          16
+        ],
+        [
+          "New Jersey",
+          16
+        ],
+        [
+          "California",
+          14
+        ],
+        [
+          "South Dakota",
+          14
+        ],
+        [
+          "Arizona",
+          13
+        ],
+        [
+          "Iowa",
+          13
+        ],
+        [
+          "Michigan",
+          13
+        ],
+        [
+          "Minnesota",
+          12
+        ],
+        [
+          "Ohio",
+          12
+        ],
+        [
+          "Oklahoma",
+          12
+        ],
+        [
+          "Illinois",
+          11
+        ],
+        [
+          "Kansas",
+          11
+        ]
+      ],
+      "top_states_by_policy_actions": [
+        [
+          "Pennsylvania",
+          22
+        ],
+        [
+          "Virginia",
+          18
+        ],
+        [
+          "West Virginia",
+          18
+        ],
+        [
+          "Maryland",
+          17
+        ],
+        [
+          "New Jersey",
+          17
+        ],
+        [
+          "California",
+          14
+        ],
+        [
+          "Michigan",
+          14
+        ],
+        [
+          "South Dakota",
+          14
+        ],
+        [
+          "Arizona",
+          13
+        ],
+        [
+          "Iowa",
+          13
+        ],
+        [
+          "Kansas",
+          12
+        ],
+        [
+          "Minnesota",
+          12
+        ],
+        [
+          "Ohio",
+          12
+        ],
+        [
+          "Oklahoma",
+          12
+        ],
+        [
+          "Illinois",
+          11
+        ]
+      ]
+    }
+  },
+  "index_verification": {
+    "snapshot": "data/source-snapshots/moratoria/2026-11-11-reviewed-v42",
+    "source_commit": "9d9d4e637d3a0afa26e8fa8155ef3d52a49df586",
+    "manifest_sha256": "cb5209924ebd9ba6f156c9ed55a00c15a4ee6b312317f343e95ecd63fded10d5",
+    "tracked_files_and_symlinks": 2819,
+    "exact_staged_git_blob_bytes_and_modes": true,
+    "scope": "Exact staged snapshot content, Git modes and path set against the pinned manifest, including the manifest itself. This is not an independent legal review."
+  },
+  "baseline_handoff": "V41",
+  "expanded_tables_byte_identical": true,
+  "changed_cells": 4,
+  "changed_local_cells": 4,
+  "changed_policy_cells": 0,
+  "changed_local_rows": 1,
+  "changed_policy_rows": 0,
+  "new_policy_rows": 0,
+  "status_category_changes": 1,
+  "normalized_adoption_date_changes": 0,
+  "date_precision_changes": 0,
+  "normalized_endpoint_changes": 0,
+  "duration_kind_changes": 0,
+  "whole_record_closures": 0,
+  "unresolved_records": 1346,
+  "corrected_resolved_records": 192,
+  "verify_tagged_rows": 978,
+  "field_changes": [
+    {
+      "id": "ga-lowndes-county-2026",
+      "field": "duration",
+      "before": "60 days (to about 2026-10-24)",
+      "after": "60 days (reported original term); the exact operative expiry date remains unverified."
+    },
+    {
+      "id": "ga-lowndes-county-2026",
+      "field": "current_status",
+      "before": "Active as of 2026-09-23; 60-day moratorium adopted 2026-08-25 on data center permit applications in unincorporated Lowndes County, running to about 2026-10-24 while the county drafts an ordinance.",
+      "after": "The Spectator reported on October 28, 2026 that the 60-day data-center moratorium had ended and that commissioners announced an upcoming draft ordinance at their October 27 meeting. The county posted a notice titled \u201cLowndes County Data Center Ordinance Draft\u201d on November 2; a county document is labeled as a draft dated November 2, not an adopted replacement. The report anticipated public feedback on November 10 and a vote on December 8; those scheduled events do not establish completed actions. The original executed moratorium, exact expiry date, subsequent commission decisions and current legal force remain unverified."
+    },
+    {
+      "id": "ga-lowndes-county-2026",
+      "field": "outcome",
+      "before": "Commissioners approved a 60-day moratorium on data center permit applications pending a comprehensive ordinance.",
+      "after": "The moratorium was reported ended before the county posted a draft-ordinance notice on November 2. Adoption and effectiveness of replacement regulations remain unverified."
+    },
+    {
+      "id": "ga-lowndes-county-2026",
+      "field": "enacted_status",
+      "before": "active",
+      "after": "expired"
+    }
+  ],
+  "status_counts": {
+    "active": 886,
+    "extended": 199,
+    "pending": 63,
+    "rejected": 3,
+    "recorded_in_force": 1085,
+    "past": 173,
+    "expired": 77
+  },
+  "trusted_verifier_sha256": "ebecf851d4196715df186cc81cc3c933ab7da550fbafd7207996cd94b9cd2739",
+  "scope": "Four Lowndes fields record reported expiry, active-to-expired. Exact expiry/original instrument/later ordinance actions unresolved; no whole-record closure or native changes.",
+  "consumer_commit": "176488237a32fe9318f14916ea1fa324a54d1fa1",
+  "release_url": "https://github.com/mjbommar/moratorium-data-2026/releases/tag/v2026.11.11.post8",
+  "release_manifest_sha256": "2d1104241ef914a6b460b4de0e20dc08b44613d2f16f407bb7db1a0b355c0d39",
+  "hosted_copy_state": "pending"
+}

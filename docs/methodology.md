@@ -358,7 +358,7 @@ anything.
 
 ## Updates
 
-The November update is published as qualified release [v2026.11.11.post8](https://github.com/mjbommar/moratorium-data-2026/releases/tag/v2026.11.11.post8), prepared with four qualified Lowndes corrections. Working in-force/past counts are 1,085/173; 1,346 reviews remain unresolved. Delivery pending; post7/V41 remains verified. [Receipts](../work/research/2026-11-11/release-2026.11.11.post8/README.md).
+The November update is published as qualified release [v2026.11.11.post8](https://github.com/mjbommar/moratorium-data-2026/releases/tag/v2026.11.11.post8), published November 11 with explicit pending QA. Two identical builds, full clean restore, ten anonymous downloads and V42 pass. Hosted checks pending; post7/V41 remains the verified website edition. Original research cutoff and September baseline are unchanged. [Receipts](../work/research/2026-11-11/release-2026.11.11.post8/README.md).
 
 
 ## November collection and evidence review
