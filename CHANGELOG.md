@@ -1,12 +1,12 @@
 # Changelog
 
-## Qualified v2026.11.10.post18 — website verification pending
+## Qualified v2026.11.10.post18
 
 Sixteen prose cells across three records: thirteen Ridgely/Worcester local fields use newly recovered official minutes and signed text; three Massachusetts fields incorporate independent record QA, originating House Ways and Means attribution and version/nonenactment qualifications. Two later Massachusetts edits supersede earlier unknown attribution wording, so eighteen intermediate edits produce sixteen unique delivered cells.
 
 No status category, normalized date, identity, analytical membership, headline total, native ballot-history or whole-record disposition changes. The unresolved-record count remains 1,347. Massachusetts final conference/enacted outcome, Ridgely executed text/effective anchor, Worcester precise operative interval and later-force questions remain open. Dorchester/Salisbury search limits and the Ohio unrelated-override lead are retained without absence-based conclusions.
 
-Deterministic release, full clean restore, consumer V33 and complete hosted verification are separate pending delivery checks.
+- Deterministic builds, full clean restore, ten anonymous downloads, consumer V33 and complete current hosted-page/browser checks pass. Complete uploaded historical artifact verification is separately recorded.
 
 | Metric | Qualified post18 |
 |---|---:|

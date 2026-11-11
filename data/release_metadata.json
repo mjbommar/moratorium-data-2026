@@ -31,7 +31,7 @@
   "record_disposition_path": "work/research/2026-11-08/full-record-dispositions/funnel.json",
   "qa_status": "ongoing",
   "publication_authorization": "publish current state with qualifications on pending QA, then continue to double check and clear the outstanding questions",
-  "working_revision": "post18-data-consumer-delivered-hosting-pending",
+  "working_revision": "post18-data-consumer-and-site-verified",
   "current_raw_counts": {
     "local": 1328,
     "state_policy": 449,
@@ -40,7 +40,7 @@
   "prior_release": "v2026.11.10.post17",
   "prior_release_source_commit": "1e241a08f83128c1bd562daec803f6f14e0b0adc",
   "prior_published_source_commit": "1e241a08f83128c1bd562daec803f6f14e0b0adc",
-  "published_source_reference": "Qualified post18 pins 5bb19125fa9591559f7b4b51977b913fc965fc33; deterministic builds, full clean restore, ten anonymous downloads and V33 verified. Hosted checks pending; verified website remains post17. No universal freshness/current-force claim.",
+  "published_source_reference": "Qualified post18 pins 5bb19125fa9591559f7b4b51977b913fc965fc33; deterministic builds, clean restore, ten anonymous downloads, V33 and complete current hosted pages verified. Hosted source b0afc36646dbbdaefa9b611215d08f0dfeba6c62; receipt work/research/2026-11-10/release-2026.11.10.post18/hosted-copy-verification.json. Pending substantive QA remains explicit.",
   "latest_consumer_handoff": {
     "source_commit": "5bb19125fa9591559f7b4b51977b913fc965fc33",
     "manifest_sha256": "b10d9bb611b3678029121699aee7ef78df6b72acd41aa0d7f9ad4a49a2e4bd29",
@@ -59,7 +59,7 @@
   },
   "latest_geography_review": "work/research/2026-11-09/post-release-qa/nonblank-geography-application.json",
   "latest_delivered_consumer_input_delta": {
-    "state": "delivered_data_consumer_pending_hosted_verification",
+    "state": "delivered_data_consumer_and_hosted_verified",
     "receipt": "work/research/2026-11-10/post-release-qa/maryland-operative-text-batch-application.json",
     "prior_verified_release": "v2026.11.10.post17",
     "changed_cells": 16,
@@ -79,7 +79,7 @@
     "delivered_source_commit": "5bb19125fa9591559f7b4b51977b913fc965fc33",
     "delivered_consumer_commit": "c231c2e161aa292348aafd931cc7835066cc92cb",
     "delivery_receipt": "work/research/2026-11-10/post-release-qa/consumer-v33-handoff.json",
-    "hosted_copy_state": "pending"
+    "hosted_copy_state": "verified"
   },
   "latest_source_followup": "work/research/2026-11-10/post-release-qa/kentucky-incentive-implementation-review.json",
   "latest_expanded_candidate_review": "work/research/2026-11-09/starke-succession-review/validation.json",
@@ -125,15 +125,15 @@
   },
   "latest_field_application": "work/research/2026-11-10/post-release-qa/maryland-operative-text-batch-application.json",
   "latest_hosted_delivery": {
-    "source_commit": "1e241a08f83128c1bd562daec803f6f14e0b0adc",
-    "hosted_source_commit": "9631f3b6d9520a97ff1cec938dcd9edab9a4bd29",
-    "release_source_commit": "1e241a08f83128c1bd562daec803f6f14e0b0adc",
-    "pages_run": 42954251793,
-    "receipt": "work/research/2026-11-10/release-2026.11.10.post17/hosted-copy-verification.json",
+    "source_commit": "5bb19125fa9591559f7b4b51977b913fc965fc33",
+    "hosted_source_commit": "b0afc36646dbbdaefa9b611215d08f0dfeba6c62",
+    "release_source_commit": "5bb19125fa9591559f7b4b51977b913fc965fc33",
+    "pages_run": 42960039167,
+    "receipt": "work/research/2026-11-10/release-2026.11.10.post18/hosted-copy-verification.json",
     "state": "verified"
   },
   "latest_expanded_result_review": "work/research/2026-11-10/canterbury-minutes-result-review/coordinator-adjudication.json",
-  "latest_verified_release": "v2026.11.10.post17",
+  "latest_verified_release": "v2026.11.10.post18",
   "source_observation_window_scope": "Acquisition range includes source-specific QA captures through November10; this does not renew every record or move the original comprehensive research_cutoff.",
   "latest_download_verified_release": "v2026.11.10.post18",
   "prior_latest_consumer_handoff": {
@@ -146,11 +146,11 @@
   },
   "prior_published_source_reference": "Qualified post17 pins 1e241a08f83128c1bd562daec803f6f14e0b0adc; deterministic builds, clean restore, ten anonymous downloads, V32 and complete current hosted pages verified. Hosted source 9631f3b6d9520a97ff1cec938dcd9edab9a4bd29; receipt work/research/2026-11-10/release-2026.11.10.post17/hosted-copy-verification.json. Pending substantive QA remains explicit.",
   "latest_verified_hosted_data": {
-    "release": "v2026.11.10.post17",
-    "release_source_commit": "1e241a08f83128c1bd562daec803f6f14e0b0adc",
-    "selected_files": 230,
-    "receipt": "work/research/2026-11-10/release-2026.11.10.post17/hosted-copy-verification.json",
-    "scope": "Every generated current HTML page, linked local resources, figures/current downloads and desktop/mobile map/table behavior verified. Corrected Burien/Howard text verified. Complete uploaded historical payload is checked separately on final acknowledgment deployment; no universal legal-force or freshness claim."
+    "release": "v2026.11.10.post18",
+    "release_source_commit": "5bb19125fa9591559f7b4b51977b913fc965fc33",
+    "selected_files": 232,
+    "receipt": "work/research/2026-11-10/release-2026.11.10.post18/hosted-copy-verification.json",
+    "scope": "Every generated current HTML page, linked local resources, figures/current downloads and desktop/mobile map/table behavior verified. Corrected Ridgely/Worcester/Massachusetts text verified. Complete uploaded historical payload is checked separately on final acknowledgment deployment; no universal legal-force or freshness claim."
   },
   "latest_disposition_review": "work/research/2026-11-10/post-release-qa/policy-reviewed-batch-application.json",
   "status_baseline_comparison": "work/research/2026-11-09/post-release-qa/current-status-category-baseline-delta.json",
@@ -212,29 +212,34 @@
       },
       "resolution": "work/research/2026-11-10/release-2026.11.10.post17/hosted-copy-verification.json",
       "pages_run": 42954251793
+    },
+    {
+      "resolved_at": "2026-11-11T04:37:30.805500+00:00",
+      "prior_hold": {
+        "release": "v2026.11.10.post18",
+        "release_source_commit": "5bb19125fa9591559f7b4b51977b913fc965fc33",
+        "state": "verified_data_release_pending_full_site_deployment",
+        "receipt": "work/research/2026-11-10/release-2026.11.10.post18/public-verification.json",
+        "active_deployment_run": null
+      },
+      "resolution": "work/research/2026-11-10/release-2026.11.10.post18/hosted-copy-verification.json",
+      "pages_run": 42960039167
     }
   ],
   "prior_latest_hosted_delivery": {
-    "source_commit": "b1fb539aa8da2ba6b50b588e1f7c542c76b6bc18",
-    "hosted_source_commit": "66b845a40e58964b398b6008a0a3ca3d5f125043",
-    "release_source_commit": "b1fb539aa8da2ba6b50b588e1f7c542c76b6bc18",
-    "pages_run": 42944444805,
-    "receipt": "work/research/2026-11-10/release-2026.11.10.post16/hosted-copy-verification.json",
+    "source_commit": "1e241a08f83128c1bd562daec803f6f14e0b0adc",
+    "hosted_source_commit": "9631f3b6d9520a97ff1cec938dcd9edab9a4bd29",
+    "release_source_commit": "1e241a08f83128c1bd562daec803f6f14e0b0adc",
+    "pages_run": 42954251793,
+    "receipt": "work/research/2026-11-10/release-2026.11.10.post17/hosted-copy-verification.json",
     "state": "verified"
   },
   "prior_latest_verified_hosted_data": {
-    "release": "v2026.11.10.post16",
-    "release_source_commit": "b1fb539aa8da2ba6b50b588e1f7c542c76b6bc18",
-    "selected_files": 229,
-    "receipt": "work/research/2026-11-10/release-2026.11.10.post16/hosted-copy-verification.json",
-    "scope": "All generated public HTML pages, local resources, figures/current downloads and desktop/mobile map/table behavior verified, including Kentucky order and updated policy totals. No universal legal-force or freshness claim."
+    "release": "v2026.11.10.post17",
+    "release_source_commit": "1e241a08f83128c1bd562daec803f6f14e0b0adc",
+    "selected_files": 230,
+    "receipt": "work/research/2026-11-10/release-2026.11.10.post17/hosted-copy-verification.json",
+    "scope": "Every generated current HTML page, linked local resources, figures/current downloads and desktop/mobile map/table behavior verified. Corrected Burien/Howard text verified. Complete uploaded historical payload is checked separately on final acknowledgment deployment; no universal legal-force or freshness claim."
   },
-  "latest_independent_record_review": "work/research/2026-11-10/post-release-qa/massachusetts-independent-review-application.json",
-  "pending_hosted_delivery": {
-    "release": "v2026.11.10.post18",
-    "release_source_commit": "5bb19125fa9591559f7b4b51977b913fc965fc33",
-    "state": "verified_data_release_pending_full_site_deployment",
-    "receipt": "work/research/2026-11-10/release-2026.11.10.post18/public-verification.json",
-    "active_deployment_run": null
-  }
+  "latest_independent_record_review": "work/research/2026-11-10/post-release-qa/massachusetts-independent-review-application.json"
 }
