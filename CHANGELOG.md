@@ -1,5 +1,18 @@
 # Changelog
 
+## Qualified v2026.11.11.post12 — publication checks running
+
+This update adds one proposed Fairfax, Iowa battery-storage moratorium and corrects two text fields in the existing Fairfax data-center record. The battery draft proposes 18 calendar months from an unconfirmed effective date. Referrals, tabling, and a hearing-setting motion are recorded; final adoption and publication remain unconfirmed. The November 10 data-center agenda separately lists an EU-3 zoning proposal and a proposed resolution for a December 8 prohibition hearing. That agenda does not establish either final adoption or that the December hearing was set. Local records increase from 1,328 to 1,329 and pending records from 63 to 64. No existing record changes status. There are 1,347 open reviews; ballot data is unchanged.
+
+| Metric | Qualified November 11 post12 |
+|---|---:|
+| Moratoria in the list | **1329** |
+| Classified active or extended | **1085** |
+| Pending or not yet effective | **64** |
+| Ended (replaced, expired, or rescinded) | **173** |
+| Rows we still want to confirm (`[VERIFY]`) | **979** |
+| States with at least one | **47** |
+
 ## Qualified v2026.11.11.post11
 
 This release corrects five text fields in two records. St. Clair Township, Butler County, Ohio has reported commission approvals for a zoning amendment, with final trustee approval still pending. Fort Collins, Colorado adopted Resolution 2026-117 on October 6, and Ordinance 147 passed first reading on October 20. Final adopted texts, effective dates, later actions, and current legal effect still need confirmation. Status counts are unchanged. The public pages have also passed deployment checks.

@@ -1,0 +1,68 @@
+{
+  "baseline_release": "v2026.11.11.post11",
+  "baseline_source_commit": "e2d510e0014721ec2bf04f401248b64f642da6a5",
+  "changed_cells": 2,
+  "changed_existing_local_rows": 1,
+  "added_local_rows": 1,
+  "affected_local_rows": 2,
+  "changed_policy_rows": 0,
+  "status_category_changes": 0,
+  "new_pending_rows": 1,
+  "normalized_date_changes": 0,
+  "whole_record_closures": 0,
+  "field_changes": [
+    {
+      "id": "ia-city-of-fairfax-undated",
+      "field": "current_status",
+      "before": "Pending as of 2026-09-23: advanced 3-1 on 2026-07-14; no report of final adoption was found. [VERIFY instrument number; adoption date not confirmed at confidence 0.55 in the 2026-09 refresh]",
+      "after": "The November 10, 2026 agenda lists a proposed resolution to set a December 8 hearing on a data-center prohibition. Its attached moratorium draft matches the earlier retained July 14 attachment. The agenda also lists a separate EU-3 data-center zoning proposal. Final adoption of the moratorium is not confirmed in the records reviewed. [VERIFY: final council action, adopted text, publication and effective date, relationship to the EU-3 proposal, and later changes.]"
+    },
+    {
+      "id": "ia-city-of-fairfax-undated",
+      "field": "outcome",
+      "before": "",
+      "after": "October 13 council minutes record adoption of Resolution 2026-115 to set a hearing on a proposed data-center zoning ordinance. The November 10 agenda lists the EU-3 district proposal in items 9\u201310 and a proposed hearing resolution for the data-center prohibition in item 15. Agenda listings and unsigned drafts do not establish final moratorium adoption."
+    }
+  ],
+  "added_records": [
+    {
+      "state": "Iowa",
+      "state_abbrev": "IA",
+      "jurisdiction": "City of Fairfax",
+      "jurisdiction_type": "City",
+      "date_enacted": "No adoption confirmed in the sources reviewed.",
+      "duration": "The proposed term is 18 calendar months from the ordinance's effective date. The council could terminate the moratorium early if it determines that the study is complete and appropriate regulations have been adopted or are otherwise in place. No operative start or end date is confirmed.",
+      "legal_basis": "Unsigned proposed ordinance for utility-scale battery energy storage systems (BESS) and associated infrastructure; ordinance number is blank. The November 10, 2026 council agenda lists the hearing and proposal as items 7\u20138.",
+      "trigger": "The draft calls for a study of fire safety, emergency response, setbacks, noise, environmental protection, decommissioning, and zoning rules for utility-scale battery storage.",
+      "current_status": "The council referred the 18-month proposal for planning review on October 13, 2026, by 4\u20131. The planning commission tabled it on October 20. On October 27, the council set a November 10 public hearing. The November 10 agenda lists the hearing and proposal. [VERIFY: final council action, adopted text, publication and effective date, term end, and later changes.]",
+      "affected_projects": "October 20 planning minutes discuss an Alliant Energy BESS proposal. The draft would not invalidate a complete application lawfully submitted and accepted for processing before its effective date; whether that project qualifies is unknown.",
+      "outcome": "The October referral, tabling, and hearing motion do not establish final adoption. The November 10 vote and publication were not confirmed in the sources reviewed.",
+      "has_verify_tags": "True",
+      "verify_count": "1",
+      "cite_count": "0",
+      "activity_level": "Medium",
+      "enacted_status": "pending",
+      "moratorium_id": "ia-city-of-fairfax-battery-storage-2026",
+      "latitude": "41.919447",
+      "longitude": "-91.781013",
+      "date_enacted_iso": "",
+      "date_enacted_uncertainty": "unverified",
+      "duration_days": "",
+      "duration_kind": "calendar_term",
+      "current_end_date_iso": "",
+      "sectors": "[\"battery_storage\"]",
+      "trigger_categories": "[\"regulatory_gap\",\"fire_safety\",\"noise\"]"
+    }
+  ],
+  "scope": "This update adds one proposed Fairfax, Iowa battery-storage moratorium and corrects two text fields in the existing Fairfax data-center record. The battery draft proposes 18 calendar months from an unconfirmed effective date. Referrals, tabling, and a hearing-setting motion are recorded; final adoption and publication remain unconfirmed. The November 10 data-center agenda separately lists an EU-3 zoning proposal and a proposed resolution for a December 8 prohibition hearing. That agenda does not establish either final adoption or that the December hearing was set. Local records increase from 1,328 to 1,329 and pending records from 63 to 64. No existing record changes status. There are 1,347 open reviews; ballot data is unchanged.",
+  "status_counts": {
+    "active": 886,
+    "extended": 199,
+    "replaced": 84,
+    "expired": 77,
+    "pending": 64,
+    "rescinded": 12,
+    "unknown": 4,
+    "rejected": 3
+  }
+}

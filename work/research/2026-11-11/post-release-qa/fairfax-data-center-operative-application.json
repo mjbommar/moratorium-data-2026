@@ -1,0 +1,37 @@
+{
+  "dataset": "local_inventory",
+  "baseline_commit": "c96af064b73f9c2bc05ce80d7b8919b8de569dda",
+  "applied_at": "2026-11-11T15:52:49.515503+00:00",
+  "independent_review": {
+    "path": "work/research/2026-11-11/post-release-qa/fairfax-independent-review.json",
+    "sha256": "1ebaa0e0883b946f9e319d441b90ce8bb5affe072cc2113547f88db7eabc7c82"
+  },
+  "source_continuity": {
+    "path": "work/research/2026-11-11/post-release-qa/fairfax-primary-source-continuity.json",
+    "sha256": "9d4493abca473469f4da833065e346542b26e4e5c17bae51793b084aebac7a26"
+  },
+  "recommendation": "unresolved",
+  "whole_record_closures": 0,
+  "id": "ia-city-of-fairfax-undated",
+  "prior_row_sha256": "4383469dbf0aeb514299c9ef1cee64589bd9502a7965ab3e61c0c484f309201a",
+  "current_row_sha256": "33fa4e77db0898abc7d6bba1fc16ff361e389163452fb68164b3514c5a404b08",
+  "canonical_cells_changed": 2,
+  "field_changes": [
+    {
+      "field": "current_status",
+      "before": "Pending as of 2026-09-23: advanced 3-1 on 2026-07-14; no report of final adoption was found. [VERIFY instrument number; adoption date not confirmed at confidence 0.55 in the 2026-09 refresh]",
+      "after": "The November 10, 2026 agenda lists a proposed resolution to set a December 8 hearing on a data-center prohibition. Its attached moratorium draft matches the earlier retained July 14 attachment. The agenda also lists a separate EU-3 data-center zoning proposal. Final adoption of the moratorium is not confirmed in the records reviewed. [VERIFY: final council action, adopted text, publication and effective date, relationship to the EU-3 proposal, and later changes.]"
+    },
+    {
+      "field": "outcome",
+      "before": "",
+      "after": "October 13 council minutes record adoption of Resolution 2026-115 to set a hearing on a proposed data-center zoning ordinance. The November 10 agenda lists the EU-3 district proposal in items 9\u201310 and a proposed hearing resolution for the data-center prohibition in item 15. Agenda listings and unsigned drafts do not establish final moratorium adoption."
+    }
+  ],
+  "remaining_questions": [
+    "The November 10 agenda and unsigned hearing-resolution draft propose a December 8 public hearing on the data-center prohibition. Confirm the actual November 10 vote, any official notice and whether the hearing was set; this is not a ballot date.",
+    "Find final adoption, withdrawal or replacement of the blank-number moratorium proposal, publication and effectiveness, and later changes. The republished November attachment matches the retained July draft; do not download that unchanged text again merely to confirm finality.",
+    "Keep the separate EU-3 zoning proposal distinct. Its draft label 2026-DC-01 and printed July 15 first-reading date do not establish adoption of the original moratorium."
+  ],
+  "scope": "Two reviewed prose fields add the November proposal stages while retaining unconfirmed final adoption. No existing status, date, term or sector changes."
+}

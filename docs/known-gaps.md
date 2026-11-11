@@ -33,9 +33,9 @@ The [post16 application](../work/research/2026-11-10/post-release-qa/policy-revi
 
 ### Record review and current-force limits
 
-All 1777 raw IDs now have review accounting. The 1775 surviving original IDs
+All 1778 raw IDs now have review accounting. The 1775 surviving original IDs
 have primary and independent artifacts; the new Massachusetts observation has
-direct source review and completed independent historical-record QA, with outcome/force questions retained. The Kentucky executive-order addition has independent historical field review and retains later-force questions. These are the current 1328 local and 449 state-policy records. The
+direct source review and completed independent historical-record QA, with outcome/force questions retained. The Kentucky executive-order addition has independent historical field review and retains later-force questions. These are the current 1329 local and 449 state-policy records. The
 [full-inventory application](../work/research/2026-11-08/full-inventory-integrated-application/README.md)
 records exact corrections, zero pending cells in the remaining-cohort queue and
 full repository consistency checks. Those facts do not establish complete discovery,
@@ -83,7 +83,7 @@ open. New retrieval times do not renew the original report publication dates.
 
 ### Small-township records that aren't online
 
-Many small townships and rural counties don't post agendas, minutes, or signed ordinances on the web. When we know a moratorium exists from news coverage but can't pull the underlying instrument, we record it with a `[VERIFY]` note in the relevant inventory field rather than guessing at the ordinance number or exact date. **978 of the 1328 inventory rows** have at least one such evidence-ceiling note (`has_verify_tags = True`). The earlier v2026.04.4 snapshot had 123 flagged rows out of 222; these are different inventory populations.
+Many small townships and rural counties don't post agendas, minutes, or signed ordinances on the web. When we know a moratorium exists from news coverage but can't pull the underlying instrument, we record it with a `[VERIFY]` note in the relevant inventory field rather than guessing at the ordinance number or exact date. **979 of the 1329 inventory rows** have at least one such evidence-ceiling note (`has_verify_tags = True`). The earlier v2026.04.4 snapshot had 123 flagged rows out of 222; these are different inventory populations.
 
 ### Legacy instrument identities
 
@@ -373,7 +373,7 @@ Retroactive effective dates are preserved separately from adoption dates.
 
 ## Geocoding caveats (added v2026.04.2)
 
-1326 of 1328 instruments have WGS84 reference points. The 2 blanks comprise the aggregate meta-rows (`Other Reported Local Moratoria, Michigan` and `Proposed or Rejected Local Pauses, Maryland`), which have no single jurisdiction to map. Initial geocoding used Nominatim (OpenStreetMap), with reviewed Census and other official point overrides recorded separately. The [November9 review](../work/research/2026-11-09/post-release-qa/missing-geography-application.json) fills39 previously blank records using official Census2026 internal representative points and retained jurisdiction-identity evidence. This does not re-audit every earlier point. Reference points do not establish geometric centroids, legal boundaries, project locations, current legal force or applicability.
+1327 of 1329 instruments have WGS84 reference points. The 2 blanks comprise the aggregate meta-rows (`Other Reported Local Moratoria, Michigan` and `Proposed or Rejected Local Pauses, Maryland`), which have no single jurisdiction to map. Initial geocoding used Nominatim (OpenStreetMap), with reviewed Census and other official point overrides recorded separately. The [November9 review](../work/research/2026-11-09/post-release-qa/missing-geography-application.json) fills39 previously blank records using official Census2026 internal representative points and retained jurisdiction-identity evidence. This does not re-audit every earlier point. Reference points do not establish geometric centroids, legal boundaries, project locations, current legal force or applicability.
 
 **Within-state name ambiguity.** Several Ohio townships share names across multiple counties (e.g., 7 different "Washington Township"s, 3 "Plain Township"s, 4 "Lake Township"s). The geocoder picks the highest-rank match, which isn't always the moratorium-adopting jurisdiction. We caught and manually corrected 4 such cases in v2026.04.2:
 

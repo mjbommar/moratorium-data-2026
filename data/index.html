@@ -231,7 +231,7 @@
 </tr>
 </tbody>
 </table>
-<p>The local inventory has 1,328 records. The state tracker has 449 records. A record may describe a proposal or a past action; these totals are not counts of current restrictions.</p>
+<p>The local inventory has 1329 records. The state tracker has 449 records. A record may describe a proposal or a past action; these totals are not counts of current restrictions.</p>
 <h2 id="local-records">Local records</h2>
 <ul>
 <li><code>moratorium_id</code> identifies a record across releases.</li>
@@ -240,7 +240,7 @@
 <li><code>current_end_date_iso</code> records a known current end date, including an extension when confirmed.</li>
 <li><code>latitude</code> and <code>longitude</code> identify a jurisdiction reference point. They do not show a project site or legal boundary.</li>
 </ul>
-<p>There are coordinates for 1,326 of 1,328 records. The two without coordinates describe groups of proposals. Dates and status fields can be uncertain; read the accompanying notes.</p>
+<p>There are coordinates for 1327 of 1329 records. The two without coordinates describe groups of proposals. Dates and status fields can be uncertain; read the accompanying notes.</p>
 <pre><code class="language-python">import pandas as pd
 
 records = pd.read_csv(&quot;moratorium_inventory.csv&quot;)
@@ -290,7 +290,7 @@ print(selected[&quot;state&quot;].value_counts())
 <p><a href="structured_extractions.jsonl">structured_extractions.jsonl</a> contains 526 successful model extractions and 338 recorded call errors. The earlier clause analysis used 348 extractions with model confidence scores of at least 0.4. Those scores are model assessments, not measured accuracy.</p>
 <p><a href="clause_extraction_analysis.json">clause_extraction_analysis.json</a> contains the earlier summary. The analysis predates April 28, 2026 and has not been repeated for every record in the current inventory.</p>
 <h2 id="versions-and-reuse">Versions and reuse</h2>
-<p>The current release is <a href="https://github.com/mjbommar/moratorium-data-2026/releases/tag/v2026.11.11.post11">v2026.11.11.post11</a>, published November 11, 2026. Some records still have open questions.</p>
+<p>The next release is <a href="https://github.com/mjbommar/moratorium-data-2026/releases/tag/v2026.11.11.post12">v2026.11.11.post12</a>. Publication checks are running. <a href="https://github.com/mjbommar/moratorium-data-2026/releases/tag/v2026.11.11.post11">Post11</a> is the current published version.</p>
 <p>Use a tagged release for work that others need to reproduce. The main branch may contain later corrections. Record source dates vary; the publication date does not mean every record was checked that day.</p>
 <p>The data is available under <a href="../LICENSE-data">CC BY 4.0</a>. Include the release version or access date when citing it.</p>
 </main>

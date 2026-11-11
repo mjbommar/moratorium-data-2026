@@ -1,13 +1,13 @@
 {
-  "version": "2026.11.11.post11",
+  "version": "2026.11.11.post12",
   "release_date": "2026-11-11",
   "research_cutoff": "2026-11-07T13:38:39.877065+00:00",
   "source_observation_window": {
     "start": "2026-11-05",
     "end": "2026-11-11"
   },
-  "asset_name": "moratorium-data-2026.11.11.post11.tar.gz",
-  "coverage": "Original1777 records retain review provenance; two duplicates retired and two post-release additions retained. Massachusetts independent historical-record QA completed; final conference/enactment remains unresolved; Kentucky historical order independently reviewed, later force unknown. Current1777 active raw IDs:1346 unresolved,192 corrected-resolved,239 confirmed-unchanged scoped dispositions. No universal current-law certification. Mendocino signed original and extension wording is inspected; intended threshold scope and later force remain unresolved. Baltimore completeddisposition, Hamilton executedresolution/originalterm and Brookhaven scannedstatefilingacknowledgment independently reviewed; laterforce unresolved. Clay original packet visually and independently reviewed; real computing/battery identity conflict, filing association, effective anchor and later force remain unresolved. Cedartown signed October12minutes establish approval of six-month extension; executed resolutions, exact interval, possible intervening lapse and laterforce unresolved. East Whiteland original resolutions establish exact March31adoption and April27findings; replacement/endpoint proposals held, full independent ordinance-image expansion incomplete after orchestration failure, laterforce unresolved. Alachua official packet minutes distinguish September 14 motion 5-0 from October 5 first reading 4-1. Final ordinance adoption, effect and later force remain unverified. Fort Wayne official October13minutes and amendedproposal establish historical rejection4-4; trackedproposal review closed, distinctlaterproposals remain separate identities. Eagan news updates distinguish the company challenge and city enforcement; court dispositions and actual later force remain unverified. Butler County Ohio primary adoption/scope reviewed; administrator-reported June17effect is attribution, not controlling evidence; signed text, legal effect and laterforce remain unresolved. Sixteen fields across three local records are corrected: Morgan Township, Ohio has exact March 23 adoption, Resolution 25-2026 and a twelve-month calendar term; Adams Township, Butler County PA distinguishes the June 22 invalidity motion and July 13 Resolution 2026-09 approval; Butler County, Nebraska records the April 6 Sandhills exemption and distinct Planning Commission plan label. Executed terms, effective/ending conditions and later force remain qualified. No status, endpoint, count, VERIFY or native-history changes, and no whole-record closures. There remain 1,346 unresolved reviews. Five prose fields across two local records are corrected. St. Clair Township, Butler County Ohio records reported commission actions while retaining final trustee approval as pending. Fort Collins, Colorado now distinguishes the completed October 6 adoption of Resolution 2026-117 from Ordinance 147\u2019s October 20 first reading. Final adopted texts, ordinance passage/effect, operative intervals and later legal force remain qualified. No status, date, endpoint, count, VERIFY or native-history changes, and no whole-record closures. There remain 1,346 unresolved reviews.",
+  "asset_name": "moratorium-data-2026.11.11.post12.tar.gz",
+  "coverage": "The working files contain 1,329 local records and 449 state-policy records. Each has review accounting; 1,347 records still have open questions. The latest addition is a separate Fairfax battery-storage proposal with unconfirmed final adoption and effectiveness. The data-center proposal remains distinct. Original review dates and historical releases are preserved. These classifications do not confirm current legal effect for every record.",
   "limitations": [
     "Recorded active/extended classifications do not prove current enforceability.",
     "Ballot voting, certification, passage and operative legal effect remain distinct.",
@@ -22,7 +22,7 @@
   "quality_gate_disposition": "User authorized publication of the current state with qualifications on pending QA, followed by continued double checking and resolution of outstanding questions.",
   "reviewed_data_source_commit": "e2d510e0014721ec2bf04f401248b64f642da6a5",
   "record_dispositions": {
-    "unresolved": 1346,
+    "unresolved": 1347,
     "corrected_resolved": 192,
     "confirmed_unchanged": 239,
     "superseded_duplicate": 0,
@@ -31,14 +31,14 @@
   "record_disposition_path": "work/research/2026-11-08/full-record-dispositions/funnel.json",
   "qa_status": "ongoing",
   "publication_authorization": "publish current state with qualifications on pending QA, then continue to double check and clear the outstanding questions",
-  "working_revision": "2026.11.11.post11-delivery-verified",
+  "working_revision": "fairfax-pending-proposal-addition-awaiting-publication",
   "current_raw_counts": {
-    "local": 1328,
+    "local": 1329,
     "state_policy": 449,
-    "total": 1777
+    "total": 1778
   },
-  "prior_release": "v2026.11.11.post10",
-  "prior_release_source_commit": "8538114339069cf97465b04df74d1438625ad511",
+  "prior_release": "v2026.11.11.post11",
+  "prior_release_source_commit": "e2d510e0014721ec2bf04f401248b64f642da6a5",
   "prior_published_source_commit": "8538114339069cf97465b04df74d1438625ad511",
   "published_source_reference": "Qualified post11 pins e2d510e0014721ec2bf04f401248b64f642da6a5; builds, restore, ten anonymous downloads, V45 and current pages verified. Final acknowledgment payload check follows.",
   "latest_consumer_handoff": {
@@ -127,7 +127,7 @@
     "hosted_copy_state": "verified",
     "hosted_receipt": "work/research/2026-11-11/release-2026.11.11.post10/hosted-copy-verification.json"
   },
-  "latest_field_application": "work/research/2026-11-11/post-release-qa/fort-collins-operative-application.json",
+  "latest_field_application": "work/research/2026-11-11/post-release-qa/fairfax-data-center-operative-application.json",
   "latest_hosted_delivery": {
     "source_commit": "e2d510e0014721ec2bf04f401248b64f642da6a5",
     "hosted_source_commit": "79c721c24bd67794e68270aa0e8352fc44d438c4",
@@ -389,5 +389,23 @@
     "receipt": "work/research/2026-11-11/release-2026.11.11.post10/hosted-copy-verification.json",
     "scope": "All current HTML and linked local bytes match; actual browser desktop/mobile/dark, maps, tables, charts and combined batch adoption/calendar-term and source qualifications pass. Final artifact and acknowledgment verification follows."
   },
-  "latest_independent_record_review": "work/research/2026-11-11/post-release-qa/fort-collins-operative-application.json"
+  "latest_independent_record_review": "work/research/2026-11-11/post-release-qa/fairfax-battery-addition-application.json",
+  "pending_consumer_input_delta": {
+    "baseline_release": "v2026.11.11.post11",
+    "baseline_source_commit": "e2d510e0014721ec2bf04f401248b64f642da6a5",
+    "baseline_handoff": "V45",
+    "receipts": [
+      "work/research/2026-11-11/post-release-qa/fairfax-data-center-operative-application.json",
+      "work/research/2026-11-11/post-release-qa/fairfax-battery-addition-application.json"
+    ],
+    "changed_cells": 2,
+    "changed_local_rows": 2,
+    "changed_existing_local_rows": 1,
+    "added_local_rows": 1,
+    "changed_policy_rows": 0,
+    "status_category_changes": 0,
+    "new_pending_rows": 1,
+    "normalized_date_changes": 0,
+    "scope": "Two existing data-center prose fields updated and one separate pending battery-storage proposal added in Fairfax. No existing record changes status. Local total rises from1328to1329, pending from63to64; other status counts and ballot data are unchanged."
+  }
 }

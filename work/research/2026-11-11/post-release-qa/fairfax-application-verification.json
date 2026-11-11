@@ -1,0 +1,96 @@
+{
+  "baseline_release": "v2026.11.11.post11",
+  "baseline_source_commit": "e2d510e0014721ec2bf04f401248b64f642da6a5",
+  "field_changes": [
+    {
+      "id": "ia-city-of-fairfax-undated",
+      "field": "current_status",
+      "before": "Pending as of 2026-09-23: advanced 3-1 on 2026-07-14; no report of final adoption was found. [VERIFY instrument number; adoption date not confirmed at confidence 0.55 in the 2026-09 refresh]",
+      "after": "The November 10, 2026 agenda lists a proposed resolution to set a December 8 hearing on a data-center prohibition. Its attached moratorium draft matches the earlier retained July 14 attachment. The agenda also lists a separate EU-3 data-center zoning proposal. Final adoption of the moratorium is not confirmed in the records reviewed. [VERIFY: final council action, adopted text, publication and effective date, relationship to the EU-3 proposal, and later changes.]"
+    },
+    {
+      "id": "ia-city-of-fairfax-undated",
+      "field": "outcome",
+      "before": "",
+      "after": "October 13 council minutes record adoption of Resolution 2026-115 to set a hearing on a proposed data-center zoning ordinance. The November 10 agenda lists the EU-3 district proposal in items 9\u201310 and a proposed hearing resolution for the data-center prohibition in item 15. Agenda listings and unsigned drafts do not establish final moratorium adoption."
+    }
+  ],
+  "added_local_records": [
+    "ia-city-of-fairfax-battery-storage-2026"
+  ],
+  "added_row_matches_reviewed_application": true,
+  "old_rows_removed": 0,
+  "existing_status_changes": 0,
+  "new_pending_records": 1,
+  "local_records_before": 1328,
+  "local_records_after": 1329,
+  "pending_before": 63,
+  "pending_after": 64,
+  "unresolved_before": 1346,
+  "unresolved_after": 1347,
+  "other_prior_queue_records_unchanged": 1345,
+  "other_map_features_unchanged": 1326,
+  "new_point_copied_from_existing_same_city_record": true,
+  "state_policy_csv_unchanged": true,
+  "native_tables_unchanged": true,
+  "checks": [
+    {
+      "command": [
+        "scripts/validate_dataset.py",
+        "--today",
+        "2026-11-11"
+      ],
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "scripts/build_policy_scope_exports.py",
+        "--check"
+      ],
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "scripts/build_summary_stats.py",
+        "--check"
+      ],
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "scripts/build_geojson.py",
+        "--check"
+      ],
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "scripts/make_timeline.py",
+        "--check"
+      ],
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "scripts/check_docs_numbers.py"
+      ],
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "-m",
+        "scripts.generate_tables.inventory_clean",
+        "--check"
+      ],
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "scripts/build_index.py",
+        "--check"
+      ],
+      "exit_code": 0
+    }
+  ],
+  "publication": "Prepared post12/V46; public release and deployment checks have not yet completed."
+}

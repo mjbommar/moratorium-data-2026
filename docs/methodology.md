@@ -2,7 +2,7 @@
 
 This project collects local moratoria and related state policies and ballot measures. It records what the available sources support and identifies details that still need confirmation.
 
-The local inventory has 1,328 records from 47 states. The local and state files contain 1,777 records in total. These are records of government actions and proposals, not a count of laws confirmed to be in effect today.
+The local inventory has 1329 records from 47 states. The local and state files contain 1778 records in total. These are records of government actions and proposals, not a count of laws confirmed to be in effect today.
 
 ## Sources
 
@@ -48,7 +48,7 @@ Approval, certification, and a restriction taking effect require separate eviden
 
 ## Map locations
 
-There are coordinates for 1,326 of 1,328 local records. The two without coordinates describe groups of proposals. The points identify jurisdictions; they do not show project sites, jurisdiction boundaries, or the area subject to a restriction.
+There are coordinates for 1327 of 1329 local records. The two without coordinates describe groups of proposals. The points identify jurisdictions; they do not show project sites, jurisdiction boundaries, or the area subject to a restriction.
 
 Recent corrections use official Census reference points after checking the jurisdiction's identity. Earlier coordinates have not all been checked again. Shared town names and county names can cause errors. See the [geographic limitations](known-gaps.md#geocoding-caveats-added-v2026042).
 
@@ -72,7 +72,7 @@ A data release is built from a fixed commit. Checks compare archive contents, sa
 
 These checks establish file consistency and delivery. They do not establish complete source coverage or the present effect of every law.
 
-The current release is [v2026.11.11.post11](https://github.com/mjbommar/moratorium-data-2026/releases/tag/v2026.11.11.post11), published November 11, 2026. Some records still have open questions.
+The next release is [v2026.11.11.post12](https://github.com/mjbommar/moratorium-data-2026/releases/tag/v2026.11.11.post12). Publication checks are running. [Post11](https://github.com/mjbommar/moratorium-data-2026/releases/tag/v2026.11.11.post11) is the current published version.
 
 The main November search ended November 7. Later source checks keep their own dates. A new release date does not mean every record was checked that day.
 

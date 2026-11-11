@@ -1016,3 +1016,5 @@ Exit: repeatable refresh with visible freshness, costs, failures and unresolved 
 - [x] Qualified post11/V45 and current dashboard delivery verified: five prose fields across St Clair and Fort Collins; final adopted texts, effect/interval/laterforce and broader1346recordQA remain open.
 
 - [x] Rewrite public overview copy and shared page templates in plain American English using the writing-style guidance. All103number checks and32focusedtests pass; current64HTMLpages, both changed state records and63mobile document widths verified. Editorial style is documented for future updates.
+
+- [ ] Publish the reviewed Fairfax update: two data-center text fields and one separate pending battery-storage proposal. Local records rise to 1,329 and pending records to 64. Final adoption and legal effect remain unconfirmed.

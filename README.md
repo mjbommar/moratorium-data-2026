@@ -4,13 +4,13 @@ This project tracks local pauses on data centers, battery storage, solar, wind, 
 
 **[Open the dashboard](https://mjbommar.github.io/moratorium-data-2026/)** · [Browse states](states/README.md) · [Download local records](data/moratorium_inventory.csv) · [Read ballot results](docs/ballot-results.md)
 
-The current release is [v2026.11.11.post11](https://github.com/mjbommar/moratorium-data-2026/releases/tag/v2026.11.11.post11), published November 11, 2026. Some records still have open questions.
+The next release is [v2026.11.11.post12](https://github.com/mjbommar/moratorium-data-2026/releases/tag/v2026.11.11.post12). Publication checks are running. [Post11](https://github.com/mjbommar/moratorium-data-2026/releases/tag/v2026.11.11.post11) is the current published version.
 
 ## What the data contains
 
 | Tracker | Records |
 |---|---:|
-| Local moratoria and proposals | 1,328 |
+| Local moratoria and proposals | 1329 |
 | State policies and proposals | 449 |
 | Ballot measures and proposals | 57 |
 
@@ -22,7 +22,7 @@ The local records cover 47 states. The three trackers count different kinds of a
 |---|---:|
 | Active | 886 |
 | Extended | 199 |
-| Pending | 63 |
+| Pending | 64 |
 | Replaced | 84 |
 | Expired | 77 |
 | Rescinded | 12 |
@@ -31,13 +31,13 @@ The local records cover 47 states. The three trackers count different kinds of a
 
 These are recorded classifications. They do not confirm that every restriction is still in effect. Read the record's sources and notes before using it to assess a project or a legal requirement.
 
-## What changed in the latest release
+## What changed in this update
 
-St. Clair Township, Butler County, Ohio has a reported zoning amendment under review. County and township commissions approved it, but final township trustee approval remained pending in the November 11 report.
+The working data adds Fairfax, Iowa’s proposed 18-month pause on utility-scale battery storage. The council referred it for planning review on October 13, the planning commission tabled it on October 20, and the council set a November 10 hearing on October 27. Final adoption and publication have not been confirmed.
 
-Fort Collins, Colorado adopted Resolution 2026-117 on October 6. Ordinance 147 passed first reading on October 20. We have not confirmed the ordinance's final passage or effective date.
+The existing Fairfax data-center record now includes the November 10 agenda. It lists a separate EU-3 zoning proposal and proposes setting a December 8 hearing on a data-center prohibition. The agenda does not establish that the hearing was set or that either proposal passed.
 
-The release corrects five text fields in those two records. It does not change status counts. See the [release notes](work/research/2026-11-11/release-2026.11.11.post11/README.md) and [changelog](CHANGELOG.md) for details.
+The local total increases by one pending proposal. No existing record changes status. See the [release notes](work/research/2026-11-11/release-2026.11.11.post12/README.md) and [changelog](CHANGELOG.md).
 
 ## State policy
 
@@ -82,9 +82,9 @@ A reported vote, a certified result, and a restriction taking effect are separat
 
 We searched all 50 states, but we may have missed local actions. The main November search ended November 7. Later source checks have their own dates.
 
-There are 978 local records with verification flags. Other records can still have unresolved details. The review queue contains 1,346 open records; reviews closed 192 records after corrections and 239 without changes. Those reviews cover specific recorded facts, not a general finding that each law remains in effect.
+There are 979 local records with verification flags. Other records can still have unresolved details. The review queue contains 1347 open records; reviews closed 192 records after corrections and 239 without changes. Those reviews cover specific recorded facts, not a general finding that each law remains in effect.
 
-The map has coordinates for 1,326 of 1,328 local records. The two without coordinates describe groups of proposals. Markers identify jurisdictions; they do not show project sites or legal boundaries.
+The map has coordinates for 1327 of 1329 local records. The two without coordinates describe groups of proposals. Markers identify jurisdictions; they do not show project sites or legal boundaries.
 
 An earlier analysis examined 348 moratorium texts from 211 jurisdictions, collected before April 28, 2026. The [April paper](paper/moratorium-nation-2026-04-30.pdf) and its findings have not been updated for the current inventory.
 

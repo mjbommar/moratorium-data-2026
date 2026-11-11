@@ -6,7 +6,7 @@ A moratorium is a temporary pause on specified development applications or appro
 
 ## What does this project track?
 
-The local inventory has 1,328 records for data centers, battery storage, solar, wind, and cryptocurrency mining. It includes adopted actions, proposals, and actions that have ended.
+The local inventory has 1329 records for data centers, battery storage, solar, wind, and cryptocurrency mining. It includes adopted actions, proposals, and actions that have ended.
 
 The state tracker has 449 records. They include bills, resolutions, executive actions, and preliminary memos. Ballot measures are listed separately because they can address permanent restrictions or zoning changes as well as temporary pauses.
 
@@ -34,7 +34,7 @@ We search government records and news reports, then check ordinances, resolution
 
 ## What does a verification flag mean?
 
-A `[VERIFY]` note identifies something we could not confirm, such as a date, ordinance number, vote, or later action. There are 978 local records with these flags. A record without a flag can still have unresolved details.
+A `[VERIFY]` note identifies something we could not confirm, such as a date, ordinance number, vote, or later action. There are 979 local records with these flags. A record without a flag can still have unresolved details.
 
 ## Does an omitted town have no moratorium?
 
@@ -46,7 +46,7 @@ The inventory records government actions. Inclusion is not an endorsement or cri
 
 ## How current is the site?
 
-The current release is [v2026.11.11.post11](https://github.com/mjbommar/moratorium-data-2026/releases/tag/v2026.11.11.post11), published November 11, 2026. Some records still have open questions.
+The next release is [v2026.11.11.post12](https://github.com/mjbommar/moratorium-data-2026/releases/tag/v2026.11.11.post12). Publication checks are running. [Post11](https://github.com/mjbommar/moratorium-data-2026/releases/tag/v2026.11.11.post11) is the current published version.
 
 The main November search ended November 7. Later checks have their own source dates. The [April paper](../paper/moratorium-nation-2026-04-30.pdf) describes the older dataset and has not been updated to match the site.
 

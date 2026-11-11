@@ -13,7 +13,7 @@ Use the CSV files in a spreadsheet or load them with Python, R, or other analysi
 | [Current ballot results](expanded-csv/measure_results_current.csv) | Latest result reports, with certification status |
 | [All ballot result versions](expanded-csv/measure_results.csv) | Current and earlier result reports |
 
-The local inventory has 1,328 records. The state tracker has 449 records. A record may describe a proposal or a past action; these totals are not counts of current restrictions.
+The local inventory has 1329 records. The state tracker has 449 records. A record may describe a proposal or a past action; these totals are not counts of current restrictions.
 
 ## Local records
 
@@ -23,7 +23,7 @@ The local inventory has 1,328 records. The state tracker has 449 records. A reco
 - `current_end_date_iso` records a known current end date, including an extension when confirmed.
 - `latitude` and `longitude` identify a jurisdiction reference point. They do not show a project site or legal boundary.
 
-There are coordinates for 1,326 of 1,328 records. The two without coordinates describe groups of proposals. Dates and status fields can be uncertain; read the accompanying notes.
+There are coordinates for 1327 of 1329 records. The two without coordinates describe groups of proposals. Dates and status fields can be uncertain; read the accompanying notes.
 
 ```python
 import pandas as pd
@@ -67,7 +67,7 @@ The `expanded` and `expanded-csv` folders link to saved versions. Keep those lin
 
 ## Versions and reuse
 
-The current release is [v2026.11.11.post11](https://github.com/mjbommar/moratorium-data-2026/releases/tag/v2026.11.11.post11), published November 11, 2026. Some records still have open questions.
+The next release is [v2026.11.11.post12](https://github.com/mjbommar/moratorium-data-2026/releases/tag/v2026.11.11.post12). Publication checks are running. [Post11](https://github.com/mjbommar/moratorium-data-2026/releases/tag/v2026.11.11.post11) is the current published version.
 
 Use a tagged release for work that others need to reproduce. The main branch may contain later corrections. Record source dates vary; the publication date does not mean every record was checked that day.
 

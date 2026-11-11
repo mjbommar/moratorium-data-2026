@@ -3,7 +3,7 @@
 
 Updated **November 11, 2026**. Source dates vary, and some records still have open questions.
 
-**60 records** — 53 listed as active or extended, 1 listed as pending, 6 listed as past, 0 listed as rejected proposals, 0 listed as unknown.
+**61 records** — 53 listed as active or extended, 2 listed as pending, 6 listed as past, 0 listed as rejected proposals, 0 listed as unknown.
 
 These are the statuses listed in the data. Read the notes and sources before relying on a record as a current restriction.
 
@@ -22,6 +22,7 @@ The separate state tracker has **13 records** for Iowa: 13 bill records and 0 ot
 | City of Asbury | City | 2026-07-14 | data center | 🟢 Active |
 | City of Cascade | City | 2026-06-22 | data center | 🟢 Active |
 | City of Dubuque | City | 2026-09-21 | data center | 🟢 Active |
+| City of Fairfax | City | Unverified | battery storage | 🟡 Pending |
 | City of Fairfax | City | Unverified | data center | 🟡 Pending |
 | City of Fairfield | City | 2026-08-24 | data center | 🟢 Active |
 | City of Marshalltown | City | 2026-08-24 | data center | 🟢 Active |
@@ -254,6 +255,22 @@ The separate state tracker has **13 records** for Iowa: 13 bill records and 0 ot
 
 - **Type:** City
 - **Status:** 🟡 Pending
+- **Recorded date:** No adoption confirmed in the sources reviewed.
+- **Date field:** `—` (unverified)
+- **Duration:** The proposed term is 18 calendar months from the ordinance's effective date. The council could terminate the moratorium early if it determines that the study is complete and appropriate regulations have been adopted or are otherwise in place. No operative start or end date is confirmed.
+- **Current end date:** `—`
+- **Sectors:** battery storage
+- **Record ID:** `ia-city-of-fairfax-battery-storage-2026`
+- **Authority and source:** Unsigned proposed ordinance for utility-scale battery energy storage systems (BESS) and associated infrastructure; ordinance number is blank. The November 10, 2026 council agenda lists the hearing and proposal as items 7–8.
+- **What prompted it:** The draft calls for a study of fire safety, emergency response, setbacks, noise, environmental protection, decommissioning, and zoning rules for utility-scale battery storage.
+- **Affected projects:** October 20 planning minutes discuss an Alliant Energy BESS proposal. The draft would not invalidate a complete application lawfully submitted and accepted for processing before its effective date; whether that project qualifies is unknown.
+- **Status notes:** The council referred the 18-month proposal for planning review on October 13, 2026, by 4–1. The planning commission tabled it on October 20. On October 27, the council set a November 10 public hearing. The November 10 agenda lists the hearing and proposal. [VERIFY: final council action, adopted text, publication and effective date, term end, and later changes.]
+- **Outcome:** The October referral, tabling, and hearing motion do not establish final adoption. The November 10 vote and publication were not confirmed in the sources reviewed.
+
+### City of Fairfax
+
+- **Type:** City
+- **Status:** 🟡 Pending
 - **Recorded date:** Pending -- on 2026-07-14 the City Council voted 3-1 to advance an ordinance imposing a moratorium on high-impact data centers with no end date; Corridor Business Journal reports the moratorium was not formally approved and further procedural steps (readings, attorney review, mayoral signature) remain.
 - **Date field:** `—` (unverified)
 - **Duration:** Proposed without a fixed end date; the draft states it would remain in effect unless modified or repealed by a subsequent ordinance, if adopted.
@@ -263,8 +280,8 @@ The separate state tracker has **13 records** for Iowa: 13 bill records and 0 ot
 - **Authority and source:** Proposed ordinance 'Imposing a Moratorium on High-Impact Data Centers and Amending the City Zoning Code to Establish Prohibited Use Classification' (Fairfax, Linn County)
 - **What prompted it:** Concerns over electrical demand, water, local infrastructure and job displacement from large AI data centers near the Cedar Rapids data center cluster.
 - **Affected projects:** None named.
-- **Status notes:** Pending as of 2026-09-23: advanced 3-1 on 2026-07-14; no report of final adoption was found. [VERIFY instrument number; adoption date not confirmed at confidence 0.55 in the 2026-09 refresh]
-- **Outcome:** —
+- **Status notes:** The November 10, 2026 agenda lists a proposed resolution to set a December 8 hearing on a data-center prohibition. Its attached moratorium draft matches the earlier retained July 14 attachment. The agenda also lists a separate EU-3 data-center zoning proposal. Final adoption of the moratorium is not confirmed in the records reviewed. [VERIFY: final council action, adopted text, publication and effective date, relationship to the EU-3 proposal, and later changes.]
+- **Outcome:** October 13 council minutes record adoption of Resolution 2026-115 to set a hearing on a proposed data-center zoning ordinance. The November 10 agenda lists the EU-3 district proposal in items 9–10 and a proposed hearing resolution for the data-center prohibition in item 15. Agenda listings and unsigned drafts do not establish final moratorium adoption.
 
 ### City of Fairfield
 

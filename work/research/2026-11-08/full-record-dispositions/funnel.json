@@ -1,7 +1,7 @@
 {
   "event_cutoff_utc": "2026-11-07T13:38:39.877065Z",
   "counts": {
-    "unresolved": 1346,
+    "unresolved": 1347,
     "corrected_resolved": 192,
     "confirmed_unchanged": 239,
     "superseded_duplicate": 0,
@@ -20,7 +20,7 @@
       "superseded_duplicate": 0
     },
     "post_release_additions": {
-      "unresolved": 2
+      "unresolved": 3
     }
   },
   "records": [
@@ -6241,11 +6241,8 @@
       "id": "ia-city-of-fairfax-undated",
       "dataset": "local_inventory",
       "disposition": "unresolved",
-      "public_receipt_pointer": "work/research/2026-11-08/full-inventory-integrated-application/README.md",
-      "residual_reference": {
-        "dataset": "local_inventory",
-        "id": "ia-city-of-fairfax-undated"
-      },
+      "public_receipt_pointer": "work/research/2026-11-11/post-release-qa/fairfax-data-center-operative-application.json",
+      "residual_reference": "work/research/2026-11-11/post-release-qa/fairfax-data-center-operative-application.json",
       "recorded_evidence_fingerprints_sha256": [
         "07ba644094937bf54d1da8c04b60ba176fef383f260b21270adc4de875c445ab",
         "214c8a40a1ad556aeff05909fddf5a4b28e79010e3dd528b15a3c717bee80d44",
@@ -36435,9 +36432,21 @@
         "2f74d2c055228372861b320d426221c944cef0ed61ccc4cb7a78ccb492ad9fe9",
         "8f5352192001a4b118f30083ce54e27ea6eb07a0c5b932a6c5f63a27123240a2"
       ]
+    },
+    {
+      "id": "ia-city-of-fairfax-battery-storage-2026",
+      "dataset": "local_inventory",
+      "disposition": "unresolved",
+      "public_receipt_pointer": "work/research/2026-11-11/post-release-qa/fairfax-battery-addition-application.json",
+      "residual_reference": "work/research/2026-11-11/post-release-qa/fairfax-battery-addition-application.json",
+      "recorded_evidence_fingerprints_sha256": [
+        "45e9345fb85e4791b2ccf6c40795fd682f518e42893812eae3f3e3ab462b0114",
+        "9d4493abca473469f4da833065e346542b26e4e5c17bae51793b084aebac7a26",
+        "1ebaa0e0883b946f9e319d441b90ce8bb5affe072cc2113547f88db7eabc7c82"
+      ]
     }
   ],
-  "scope": "Current active raw-ID dispositions after post-release QA; original release v2026.11.9 remains immutable. Two retired original IDs remain in the legacy registry. Massachusetts and independently reviewed historical Kentucky additions are a separate cohort; current-force and other residual questions remain explicit.",
+  "scope": "The current files contain 1,778 active records, including three post-release additions and excluding two retired duplicate observations. Each has review accounting. Reviews cover the stated facts and sources; unresolved dates, adopted texts, later actions and legal effect remain explicit.",
   "retired_observations": [
     {
       "id": "ky-boone-county-2026",
@@ -39727,6 +39736,22 @@
       "disposition": "unresolved",
       "receipt": "work/research/2026-11-11/post-release-qa/fort-collins-operative-application.json",
       "scope": "Three returned conservative Terra prose revisions correct olderonly-proposal description with completedResolution117adoption and Ordinance147firstreading. No status/date/interval/endpoint/count/native changes or whole-recordclosure. Pending combinedpublication with StClair afterpost10/V44."
+    },
+    {
+      "reviewed_at": "2026-11-11T15:52:49.515503+00:00",
+      "id": "ia-city-of-fairfax-undated",
+      "prior_disposition": "unresolved",
+      "disposition": "unresolved",
+      "receipt": "work/research/2026-11-11/post-release-qa/fairfax-data-center-operative-application.json",
+      "scope": "Two reviewed prose fields add the November proposal stages while retaining unconfirmed final adoption. No existing status, date, term or sector changes."
+    },
+    {
+      "reviewed_at": "2026-11-11T15:52:49.515503+00:00",
+      "id": "ia-city-of-fairfax-battery-storage-2026",
+      "prior_disposition": "new_record",
+      "disposition": "unresolved",
+      "receipt": "work/research/2026-11-11/post-release-qa/fairfax-battery-addition-application.json",
+      "scope": "Add one separate, qualified pending battery-storage moratorium proposal. No adoption, effective interval, project exemption or final outcome is established."
     }
   ]
 }
