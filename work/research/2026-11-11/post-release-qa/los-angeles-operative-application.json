@@ -1,0 +1,36 @@
+{
+  "id": "ca-los-angeles-county-2026",
+  "dataset": "local_inventory",
+  "baseline_commit": "5a68bca13f2f5690ae7108bf43033363ca48c162",
+  "applied_at": "2026-11-11T12:00:44.242179+00:00",
+  "prior_row_sha256": "f8425bf275e664cc6c3728711a37bf0fdebd7400e64d12e55e951edafba8e9ed",
+  "current_row_sha256": "d10abecc198b38e3c2f533d65e2a93a9065c2b343441aa5d8e44ffa0556c4c39",
+  "canonical_cells_changed": 2,
+  "field_changes": [
+    {
+      "field": "duration",
+      "before": "Interim administrative prohibition on processing/approving large-scale (hyperscale) AI data centers in unincorporated county zones, in effect until the Board of Supervisors adopts a permanent zoning ordinance. A motion to formally initiate that ordinance was scheduled for a Community Services Cluster Agenda Review on 2026-09-23, with a Board of Supervisors hearing expected around 2026-10-06.",
+      "after": "Reported interim administrative prohibition on large-scale AI data centers in unincorporated county areas pending comprehensive zoning amendments. The exact September 17 memorandum and its operative endpoint remain unverified. On October 6, 2026, the Board referred the proposed zoning-amendment motion (26-6069) back to Supervisor Solis\u2019s office; that action did not adopt the proposed permanent prohibition."
+    },
+    {
+      "field": "current_status",
+      "before": "As reported by ABC7/City News Service and the Daily News, Regional Planning Director Amy Bodek issued a memorandum imposing an immediate interim prohibition on large-scale AI data centers in unincorporated county areas on September 17, 2026, pending a proposed ordinance. The Daily News reported a September 23 Community Services Cluster Agenda Review and described roughly 1 million residents in unincorporated areas; prior research expected Board consideration around October 6. It described smaller enterprise, accessory and sole-source facilities as excluded from the proposed ordinance; whether those exceptions apply to the memorandum has not been established. [VERIFY the memorandum, its scope and exceptions, subsequent Board action and current force.]",
+      "after": "Recorded active on the basis of prior reporting; current legal force remains unverified. The proposed October 6, 2026 motion (26-6069) states that the Regional Planning Director used existing Title 22 authority on September 17 to prohibit large-scale data centers pending comprehensive zoning amendments. The official October 6 Statement of Proceedings records referral of that motion back to Supervisor Solis\u2019s office, on a motion by Supervisor Hahn seconded by Supervisor Barger. It does not record adoption of the proposed permanent prohibition. Proposed distinctions for enterprise, accessory and sole-source data centers are drafting directions, not verified exceptions to the September memorandum. [VERIFY the memorandum, its precise scope and exceptions, subsequent Board action and current force.]"
+    }
+  ],
+  "independent_review": {
+    "path": "work/research/2026-11-11/post-release-qa/los-angeles-prose-independent-review.json",
+    "sha256": "3391d6b3da0591fd1f08055777a19dbceba1008b7a1d9b896cb634cea819f088"
+  },
+  "source_continuity": {
+    "path": "work/research/2026-11-11/post-release-qa/los-angeles-october6-action-source-continuity.json",
+    "sha256": "2f6c78860f6c8598a87761e6641ce63d799a6fed315fd2de6cac8dd410c548a2"
+  },
+  "recommendation": "unresolved",
+  "whole_record_closures": 0,
+  "remaining_questions": [
+    "October6 motion26-6069 was referred back to Solis office, not adopted that day. Its text attributes September17 administrative action to existingTitle22authority. Both sources are retained; do not repeat them for unchanged evidence.",
+    "Obtain the actual September17 memorandum for precise scope, exceptions and operative endpoint. Proposed permanent ordinance definitions/exceptions cannot be borrowed as memorandum terms. Inspect distinct later Board/Director actions and any relevant judicial/project records to establish subsequent disposition and actualforce. October6 referral is not rejection or rescission of the earlier administrative action."
+  ],
+  "scope": "Two prose cells replace stale October6 forecast with verified referral and distinguish proposed definitions from memorandum scope. No status,normalizeddates,endpoints,VERIFYcounts,headlinecounts or nativehistory changes. Publication pending."
+}

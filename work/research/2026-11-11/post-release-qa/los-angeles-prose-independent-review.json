@@ -1,0 +1,183 @@
+{
+  "input_manifest_sha256": "f3c0b6c27b3d46f54b07b6f4ad15f5c551aed19ae5e6f44444d3c7d3f383d9e2",
+  "source_pins": [
+    {
+      "source_id": "proceedings",
+      "url": "https://file.lacounty.gov/SDSInter/bos/sop/1219563_100626.pdf",
+      "text_sha256": "d4c7f71dfc84f07aa70d0ab9e112a565788d9e8fd929a25845320f8588110b62",
+      "role": "Full physicalpages11and12 only from retained official proceedings; actual recommendation and action"
+    },
+    {
+      "source_id": "motion",
+      "url": "https://file.lacounty.gov/SDSInter/bos/supdocs/221824.pdf",
+      "text_sha256": "813f4854fe4c791e70fc334896b7a6e8f6513d7d0b24749f40e09b8e6865b1ba",
+      "role": "Complete proposed October6motion; not adopted at that meeting"
+    }
+  ],
+  "image_pins": [],
+  "candidate": {
+    "id": "ca-los-angeles-county-2026",
+    "row_sha256": "f8425bf275e664cc6c3728711a37bf0fdebd7400e64d12e55e951edafba8e9ed",
+    "proposed_changes": [
+      {
+        "field": "duration",
+        "before": "Interim administrative prohibition on processing/approving large-scale (hyperscale) AI data centers in unincorporated county zones, in effect until the Board of Supervisors adopts a permanent zoning ordinance. A motion to formally initiate that ordinance was scheduled for a Community Services Cluster Agenda Review on 2026-09-23, with a Board of Supervisors hearing expected around 2026-10-06.",
+        "after": "Reported interim administrative prohibition on large-scale AI data centers in unincorporated county areas pending comprehensive zoning amendments. The exact September 17 memorandum and its operative endpoint remain unverified. On October 6, 2026, the Board referred the proposed zoning-amendment motion (26-6069) back to Supervisor Solis\u2019s office; that action did not adopt the proposed permanent prohibition."
+      },
+      {
+        "field": "current_status",
+        "before": "As reported by ABC7/City News Service and the Daily News, Regional Planning Director Amy Bodek issued a memorandum imposing an immediate interim prohibition on large-scale AI data centers in unincorporated county areas on September 17, 2026, pending a proposed ordinance. The Daily News reported a September 23 Community Services Cluster Agenda Review and described roughly 1 million residents in unincorporated areas; prior research expected Board consideration around October 6. It described smaller enterprise, accessory and sole-source facilities as excluded from the proposed ordinance; whether those exceptions apply to the memorandum has not been established. [VERIFY the memorandum, its scope and exceptions, subsequent Board action and current force.]",
+        "after": "Recorded active on the basis of prior reporting; current legal force remains unverified. The proposed October 6, 2026 motion (26-6069) states that the Regional Planning Director used existing Title 22 authority on September 17 to prohibit large-scale data centers pending comprehensive zoning amendments. The official October 6 Statement of Proceedings records referral of that motion back to Supervisor Solis\u2019s office, on a motion by Supervisor Hahn seconded by Supervisor Barger. It does not record adoption of the proposed permanent prohibition. Proposed distinctions for enterprise, accessory and sole-source data centers are drafting directions, not verified exceptions to the September memorandum. [VERIFY the memorandum, its precise scope and exceptions, subsequent Board action and current force.]"
+      }
+    ],
+    "scope": "Prose update to distinguish completed October6 referral from stale forecast; no active/status/date/count change, no memorandum supplied, no whole-record closure."
+  },
+  "captures": [
+    {
+      "stage": "blind_extraction",
+      "attempt_id": "1a54059c47eb490bb4f7936a3dce8704",
+      "descriptor_sha256": "06bd8828f549fdecf0096a442df189354fd5344df29d966705a105e0d1494978",
+      "wire_request_sha256": "b6eabefa0502882cb3eb0e8149c82409b937b5457e1c4cd932e5fc198a5233e3",
+      "wire_response_sha256": "99285837d96c4afc528ccbfd5375798d3ec76dda1677ff214e50da685b67dba2",
+      "actual_input_descriptor_matches": true,
+      "wire_sdk_output_matches_after_null_default_normalization": true,
+      "parsed_answer_matches": true,
+      "usage": {
+        "input_tokens": 2954,
+        "input_tokens_details": {
+          "cache_write_tokens": 2951,
+          "cached_tokens": 0
+        },
+        "output_tokens": 906,
+        "output_tokens_details": {
+          "reasoning_tokens": 59
+        },
+        "total_tokens": 3860
+      },
+      "all_selected_source_text_inputs_bound": true
+    },
+    {
+      "stage": "cell_adjudication",
+      "attempt_id": "29e313d627a842d285bb7c1552d8b70d",
+      "descriptor_sha256": "2d831a48fa79b2dfe5c3c9189bb121b94609b1024e5374e8ce37ceda4620b35e",
+      "wire_request_sha256": "d79913eec5611114a827a5d3343ae4c06e84e3c5aab590bd5d646fdfa8815192",
+      "wire_response_sha256": "360dc37107b434db2fe693e060d1c0eabde7058706123b7a56e1363dbd0ae75e",
+      "actual_input_descriptor_matches": true,
+      "wire_sdk_output_matches_after_null_default_normalization": true,
+      "parsed_answer_matches": true,
+      "usage": {
+        "input_tokens": 5109,
+        "input_tokens_details": {
+          "cache_write_tokens": 5106,
+          "cached_tokens": 0
+        },
+        "output_tokens": 740,
+        "output_tokens_details": {
+          "reasoning_tokens": 105
+        },
+        "total_tokens": 5849
+      },
+      "all_selected_source_text_inputs_bound": true
+    }
+  ],
+  "answers": {
+    "blind_extraction": {
+      "facts": [
+        {
+          "field": "meeting_item",
+          "value": "On October 6, 2026, the Los Angeles County Board of Supervisors considered item 14, \u201cSafeguarding Public and Environmental Health from Data Centers.\u201d",
+          "source_id": "proceedings",
+          "locator": "Physical page 11, item 14",
+          "supporting_summary": "The proceedings identify the date, item number and title."
+        },
+        {
+          "field": "board_action",
+          "value": "The Board referred the item back to Supervisor Solis\u2019 office, on a motion by Supervisor Hahn seconded by Supervisor Barger.",
+          "source_id": "proceedings",
+          "locator": "Physical page 12, action paragraph",
+          "supporting_summary": "The recorded action was referral back, not adoption of the proposed directives."
+        },
+        {
+          "field": "proposed_zoning_amendment",
+          "value": "Supervisor Solis proposed directing Regional Planning and other departments to prepare a comprehensive Title 22 amendment and corresponding CEQA analysis. The proposed amendment would define and distinguish types of data centers and prohibit large-scale data centers, as defined by the ordinance, in all zones.",
+          "source_id": "motion",
+          "locator": "Directive 1, pages 4\u20135",
+          "supporting_summary": "The definitions would consider acreage, square footage, energy use and water consumption, and distinguish hyperscale and AI facilities from specified beneficial-use facilities."
+        },
+        {
+          "field": "september_17_interpretation",
+          "value": "The motion states that on September 17, 2026, the Regional Planning Director relied on Title 22 authority and the absence of a similarly defined land use to prohibit large-scale data centers until comprehensive Title 22 amendments are completed.",
+          "source_id": "motion",
+          "locator": "Page 4, paragraph preceding Directive 1",
+          "supporting_summary": "This is the motion\u2019s account of an administrative action; the underlying memorandum or interpretation is not supplied."
+        },
+        {
+          "field": "proposed_resident_outreach",
+          "value": "The motion proposed directing the Regional Planning Director to inform unincorporated-area residents about the described administrative action until Directive 1 is completed.",
+          "source_id": "motion",
+          "locator": "Page 5, Directive 2",
+          "supporting_summary": "This was a proposed outreach directive, not the recorded Board action."
+        },
+        {
+          "field": "proposed_noise_and_funding_work",
+          "value": "The motion proposed evaluating possible Title 12, Chapter 12.08 noise amendments and identifying funding for the zoning amendment, CEQA analysis and any necessary noise amendments.",
+          "source_id": "motion",
+          "locator": "Page 5, Directives 3\u20134",
+          "supporting_summary": "The proposed noise evaluation concerned low-frequency and continuous noise associated with large-scale data centers."
+        },
+        {
+          "field": "proposed_moratorium_preparation",
+          "value": "The motion proposed instructing Regional Planning, in consultation with County Counsel, to be prepared to introduce a moratorium when a qualifying data center is proposed in unincorporated Los Angeles County and presents a current and immediate threat to public health, safety and welfare.",
+          "source_id": "motion",
+          "locator": "Page 6, further motion",
+          "supporting_summary": "The proposal was to prepare for a conditional moratorium, not to enact one at that meeting."
+        }
+      ],
+      "uncertainties": [
+        "The September 17 memorandum or other underlying administrative interpretation is not supplied, so its exact text, scope and terms cannot be verified from these sources.",
+        "The supplied proceedings cover only physical pages 11 and 12 of the October 6 meeting and do not establish subsequent Board or administrative action.",
+        "No candidate text was supplied for comparison or evaluation."
+      ]
+    },
+    "cell_adjudication": {
+      "record_id": "ca-los-angeles-county-2026",
+      "input_row_sha256": "f8425bf275e664cc6c3728711a37bf0fdebd7400e64d12e55e951edafba8e9ed",
+      "field_decisions": [
+        {
+          "field": "duration",
+          "decision": "accept",
+          "value": "Reported interim administrative prohibition on large-scale AI data centers in unincorporated county areas pending comprehensive zoning amendments. The exact September 17 memorandum and its operative endpoint remain unverified. On October 6, 2026, the Board referred the proposed zoning-amendment motion (26-6069) back to Supervisor Solis\u2019s office; that action did not adopt the proposed permanent prohibition.",
+          "source_id": "motion; proceedings",
+          "locator": "Motion page 4, paragraph preceding Directive 1; proceedings physical page 12, action paragraph",
+          "reason": "The wording attributes the interim prohibition to reporting, leaves its endpoint unverified, and accurately distinguishes the referral from adoption."
+        },
+        {
+          "field": "current_status",
+          "decision": "accept",
+          "value": "Recorded active on the basis of prior reporting; current legal force remains unverified. The proposed October 6, 2026 motion (26-6069) states that the Regional Planning Director used existing Title 22 authority on September 17 to prohibit large-scale data centers pending comprehensive zoning amendments. The official October 6 Statement of Proceedings records referral of that motion back to Supervisor Solis\u2019s office, on a motion by Supervisor Hahn seconded by Supervisor Barger. It does not record adoption of the proposed permanent prohibition. Proposed distinctions for enterprise, accessory and sole-source data centers are drafting directions, not verified exceptions to the September memorandum. [VERIFY the memorandum, its precise scope and exceptions, subsequent Board action and current force.]",
+          "source_id": "motion; proceedings",
+          "locator": "Motion pages 4\u20135, paragraph preceding Directive 1 and Directive 1; proceedings physical page 12, action paragraph",
+          "reason": "The wording preserves the recorded active status without certifying current force and does not treat proposed distinctions as memorandum exceptions."
+        }
+      ],
+      "whole_record_closure_supported": false,
+      "remaining_questions": [
+        "What are the September 17 memorandum\u2019s exact terms, scope, exceptions and operative endpoint?",
+        "What subsequent Board or administrative actions occurred, and what is the action\u2019s current legal force?",
+        "Can the other unverified claims in the record be substantiated?"
+      ],
+      "review_limitations": [
+        "The September 17 memorandum and subsequent actions were not supplied.",
+        "The October 6 proceedings supplied cover only physical pages 11 and 12. Referral of the proposed motion was not adoption, rejection or rescission of the September 17 administrative action.",
+        "The recorded active status is preserved, not newly certified."
+      ]
+    }
+  },
+  "model_http_requests": 2,
+  "model": "gpt-6.1-terra",
+  "tools": [],
+  "agents_spawned": 0,
+  "price_usd": null,
+  "coordinator_whole_record_closure": false,
+  "scope": "Two exact prose corrections. Official motion complete text and proceedings physicalpages11\u201312; no independent image review, no September17 memorandum or laterforce proof."
+}

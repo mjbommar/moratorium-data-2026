@@ -31,7 +31,7 @@
   "record_disposition_path": "work/research/2026-11-08/full-record-dispositions/funnel.json",
   "qa_status": "ongoing",
   "publication_authorization": "publish current state with qualifications on pending QA, then continue to double check and clear the outstanding questions",
-  "working_revision": "2026.11.11.post6-data-consumer-and-site-verified",
+  "working_revision": "los-angeles-october6-referral-prose-pending-publication",
   "current_raw_counts": {
     "local": 1328,
     "state_policy": 449,
@@ -122,7 +122,7 @@
     "delivery_receipt": "work/research/2026-11-11/post-release-qa/consumer-v39-handoff.json",
     "hosted_copy_state": "verified"
   },
-  "latest_field_application": "work/research/2026-11-11/post-release-qa/fort-wayne-final-disposition-application.json",
+  "latest_field_application": "work/research/2026-11-11/post-release-qa/los-angeles-operative-application.json",
   "latest_hosted_delivery": {
     "source_commit": "6015c205faca3a0a800295f3ac739d0946693218",
     "hosted_source_commit": "c268e5b01b6350ceae661b16c15b3c62021598b0",
@@ -324,5 +324,20 @@
     "receipt": "work/research/2026-11-11/release-2026.11.11.post5/hosted-copy-verification.json",
     "scope": "Every currentHTMLpage and linkedlocalresource/download matches pinnedsource. Actual desktop/mobile/dark, mapfilters, charts/tables, Alachua pointer popup and Florida corrected reading/vote prose pass. Full final artifact and acknowledgment recheck follows; no universal currentlaw or freshness certification."
   },
-  "latest_independent_record_review": "work/research/2026-11-11/post-release-qa/fort-wayne-final-disposition-application.json"
+  "latest_independent_record_review": "work/research/2026-11-11/post-release-qa/los-angeles-operative-application.json",
+  "pending_consumer_input_delta": {
+    "baseline_release": "v2026.11.11.post6",
+    "baseline_source_commit": "6015c205faca3a0a800295f3ac739d0946693218",
+    "baseline_handoff": "V40",
+    "receipt": "work/research/2026-11-11/post-release-qa/los-angeles-operative-application.json",
+    "receipts": [
+      "work/research/2026-11-11/post-release-qa/los-angeles-operative-application.json"
+    ],
+    "changed_cells": 2,
+    "changed_local_rows": 1,
+    "changed_policy_rows": 0,
+    "status_category_changes": 0,
+    "normalized_date_changes": 0,
+    "scope": "Two prose cells replace stale October6 forecast with verified referral and distinguish proposed definitions from memorandum scope. No status,normalizeddates,endpoints,VERIFYcounts,headlinecounts or nativehistory changes. Publication pending. Qualified post6/V40 remains verified public edition."
+  }
 }
