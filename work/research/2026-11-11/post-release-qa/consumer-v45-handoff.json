@@ -1,0 +1,293 @@
+{
+  "source_commit": "e2d510e0014721ec2bf04f401248b64f642da6a5",
+  "manifest_sha256": "e8a9676d80dd4f30fcf6ac1e5052c9ac86b99d798fb5a99d20b986ca8cc52656",
+  "expanded_snapshot": "3ce33d22288fa7bc7100c9ac621c041037702e8370af1e663d53a548ff794725",
+  "current_counts": {
+    "moratorium_records": 1328,
+    "state_policy_records": 449,
+    "ballot_measures": 57,
+    "retained_results": 65,
+    "current_results": 53,
+    "retained_events": 12,
+    "current_accepted_historical_events": 12,
+    "restriction_records": 3,
+    "measure_instrument_link_records": 1
+  },
+  "files": 2876,
+  "entries": 3109,
+  "verified_at": "2026-11-11T14:38:20.927053+00:00",
+  "consumer_verification": {
+    "handoff": {
+      "state": "verified",
+      "source_commit": "e2d510e0014721ec2bf04f401248b64f642da6a5",
+      "manifest_sha256": "e8a9676d80dd4f30fcf6ac1e5052c9ac86b99d798fb5a99d20b986ca8cc52656",
+      "expanded_snapshot": "3ce33d22288fa7bc7100c9ac621c041037702e8370af1e663d53a548ff794725",
+      "files": 2876,
+      "entries": 3109,
+      "checks": [
+        {
+          "command": [
+            "scripts/check_expanded_publication.py"
+          ],
+          "exit_code": 0,
+          "result": {
+            "state": "consistent",
+            "snapshot_sha256": "3ce33d22288fa7bc7100c9ac621c041037702e8370af1e663d53a548ff794725",
+            "generations_checked": 49,
+            "records": {
+              "jurisdictions": 53,
+              "elections": 51,
+              "ballot_measures": 57,
+              "measure_provisions": 52,
+              "measure_results": 65,
+              "local_restrictions": 3,
+              "instrument_events": 12,
+              "measure_instrument_links": 1,
+              "source_documents": 168,
+              "claims": 625,
+              "review_decisions": 2756,
+              "search_runs": 1,
+              "search_attempts": 3,
+              "search_sightings": 18,
+              "coverage_observations": 1
+            },
+            "scope": "Offline publication/receipt consistency only; no source reacquisition, renewed factual acceptance or current-force confirmation."
+          }
+        },
+        {
+          "command": [
+            "scripts/build_expanded_csv.py",
+            "--check"
+          ],
+          "exit_code": 0,
+          "result": {
+            "state": "matches",
+            "source_snapshot": "3ce33d22288fa7bc7100c9ac621c041037702e8370af1e663d53a548ff794725",
+            "projection_sha256": "7b585b49998f8ca39b0ff433fe15c34335ea171bdd8960af1e7e9fdcf852f6cb",
+            "csv_views": 18
+          }
+        },
+        {
+          "command": [
+            "scripts/build_policy_scope_exports.py",
+            "--check"
+          ],
+          "exit_code": 0,
+          "result": "policy-scope exports current"
+        }
+      ],
+      "checks_run": true,
+      "scope": "Pinned input integrity and offline publication consistency, not source reacquisition or downstream join acceptance."
+    },
+    "policy_semantics": {
+      "total_state_policy_actions": 449,
+      "total_state_bills": 427,
+      "state_policy_instrument_type_counts": {
+        "bill": 427,
+        "executive_order": 3,
+        "governor_directive": 1,
+        "legislative_amendment": 1,
+        "legislative_precursor": 3,
+        "legislative_resolution": 12,
+        "statute": 2
+      },
+      "top_states_by_bills": [
+        [
+          "Pennsylvania",
+          18
+        ],
+        [
+          "Virginia",
+          18
+        ],
+        [
+          "West Virginia",
+          18
+        ],
+        [
+          "Maryland",
+          16
+        ],
+        [
+          "New Jersey",
+          16
+        ],
+        [
+          "California",
+          14
+        ],
+        [
+          "South Dakota",
+          14
+        ],
+        [
+          "Arizona",
+          13
+        ],
+        [
+          "Iowa",
+          13
+        ],
+        [
+          "Michigan",
+          13
+        ],
+        [
+          "Minnesota",
+          12
+        ],
+        [
+          "Ohio",
+          12
+        ],
+        [
+          "Oklahoma",
+          12
+        ],
+        [
+          "Illinois",
+          11
+        ],
+        [
+          "Kansas",
+          11
+        ]
+      ],
+      "top_states_by_policy_actions": [
+        [
+          "Pennsylvania",
+          22
+        ],
+        [
+          "Virginia",
+          18
+        ],
+        [
+          "West Virginia",
+          18
+        ],
+        [
+          "Maryland",
+          17
+        ],
+        [
+          "New Jersey",
+          17
+        ],
+        [
+          "California",
+          14
+        ],
+        [
+          "Michigan",
+          14
+        ],
+        [
+          "South Dakota",
+          14
+        ],
+        [
+          "Arizona",
+          13
+        ],
+        [
+          "Iowa",
+          13
+        ],
+        [
+          "Kansas",
+          12
+        ],
+        [
+          "Minnesota",
+          12
+        ],
+        [
+          "Ohio",
+          12
+        ],
+        [
+          "Oklahoma",
+          12
+        ],
+        [
+          "Illinois",
+          11
+        ]
+      ]
+    }
+  },
+  "index_verification": {
+    "snapshot": "data/source-snapshots/moratoria/2026-11-11-reviewed-v45",
+    "source_commit": "e2d510e0014721ec2bf04f401248b64f642da6a5",
+    "manifest_sha256": "e8a9676d80dd4f30fcf6ac1e5052c9ac86b99d798fb5a99d20b986ca8cc52656",
+    "tracked_files_and_symlinks": 2877,
+    "exact_staged_git_blob_bytes_and_modes": true,
+    "scope": "Exact staged snapshot content, Git modes and path set against the pinned manifest, including the manifest itself. This is not an independent legal review."
+  },
+  "baseline_handoff": "V44",
+  "expanded_tables_byte_identical": true,
+  "changed_cells": 5,
+  "changed_local_cells": 5,
+  "changed_policy_cells": 0,
+  "changed_local_rows": 2,
+  "changed_policy_rows": 0,
+  "new_policy_rows": 0,
+  "status_category_changes": 0,
+  "normalized_adoption_date_changes": 0,
+  "date_precision_changes": 0,
+  "normalized_endpoint_changes": 0,
+  "duration_kind_changes": 0,
+  "whole_record_closures": 0,
+  "unresolved_records": 1346,
+  "corrected_resolved_records": 192,
+  "verify_tagged_rows": 978,
+  "field_changes": [
+    {
+      "id": "co-fort-collins-undated",
+      "field": "legal_basis",
+      "before": "Unsigned Ordinance 147, 2026 attachment; recites separate Resolution 2026-117",
+      "after": "Resolution 2026-117 adoption is confirmed in the completed October 6, 2026 council minutes; its retained agenda attachment is unsigned. Ordinance 147, 2026 was adopted on first reading October 20; the retained ordinance and public-notice text do not authenticate final passage."
+    },
+    {
+      "id": "co-fort-collins-undated",
+      "field": "current_status",
+      "before": "Source-stage pending proposal from unsigned Ordinance 147, 2026 attachment. [VERIFY actual final passage, execution, publication/effectiveness, separate Resolution 2026-117, subsequent action, current legal status and coordinates]",
+      "after": "Completed October 6 council minutes confirm Resolution 2026-117 was adopted 5\u20131. Its title directs staff to present a temporary moratorium and not accept covered development or permit applications. The October 20 action agenda confirms Ordinance 147 was adopted on first reading. Final ordinance passage and current legal force remain unverified. [VERIFY: executed/adopted resolution text, final ordinance vote and text, publication/effectiveness, operative interval, later action and coordinates.]"
+    },
+    {
+      "id": "co-fort-collins-undated",
+      "field": "outcome",
+      "before": "",
+      "after": "The resolution and proposed ordinance are distinct actions. The retained unsigned resolution attachment describes coverage of primary-use data centers and accessory-use data centers with proposed peak electrical demand above 10 MW. The ordinance's October 21 public-notice posting contains prospective November 3 final-passage and November 13 effective-date wording; those printed dates do not establish actual final passage or effectiveness."
+    },
+    {
+      "id": "oh-st-clair-township-butler-county-2026",
+      "field": "current_status",
+      "before": "The Journal-News reported a yearlong moratorium adopted May 5, 2026. Trenton withdrew its annexation petition in September 2026, according to earlier WVXU reporting; an October 9 WVXU report says AWS could still pursue township approval. The moratorium\u2019s effective interval and later legal action remain unverified. [VERIFY: resolution, operative interval and subsequent action.]",
+      "after": "The Journal-News reported a yearlong moratorium adopted May 5, 2026. WCPO reported on November 11 that the county Planning Commission and township Zoning Commission approved a proposed data-center amendment, while explicitly saying final township trustee approval was still required. The official regular-meeting schedule lists May 4, which does not establish the actual moratorium vote date. [VERIFY: original resolution and completed vote record, operative interval, final amendment adoption/effect and later legal force.]"
+    },
+    {
+      "id": "oh-st-clair-township-butler-county-2026",
+      "field": "outcome",
+      "before": "The trustee plans to present data center regulations to the zoning commission; the township also objected to Trenton's annexation.",
+      "after": "WCPO\u2019s November 11 report describes favorable county and township commission actions on a zoning amendment that would restrict data centers as a primary land use. It expressly says the amendment was not final and township trustees would decide whether to adopt it. That report does not establish final enactment or effect, replacement of the existing moratorium, or a final project disposition."
+    }
+  ],
+  "status_counts": {
+    "active": 886,
+    "extended": 199,
+    "replaced": 84,
+    "expired": 77,
+    "pending": 63,
+    "rescinded": 12,
+    "unknown": 4,
+    "rejected": 3
+  },
+  "trusted_verifier_sha256": "ebecf851d4196715df186cc81cc3c933ab7da550fbafd7207996cd94b9cd2739",
+  "scope": "Five prose fields across two local records are corrected. St. Clair Township, Butler County Ohio records reported commission actions while retaining final trustee approval as pending. Fort Collins, Colorado now distinguishes the completed October 6 adoption of Resolution 2026-117 from Ordinance 147\u2019s October 20 first reading. Final adopted texts, ordinance passage/effect, operative intervals and later legal force remain qualified. No status, date, endpoint, count, VERIFY or native-history changes, and no whole-record closures. There remain 1,346 unresolved reviews.",
+  "consumer_commit": "8ca292bd41ad1de360bddb02d50276769a90b57c",
+  "release_url": "https://github.com/mjbommar/moratorium-data-2026/releases/tag/v2026.11.11.post11",
+  "release_manifest_sha256": "09965cc51b12f854e62a3ca9bfc1ee12f611e3f32522739bf4d1d61975f30415",
+  "hosted_copy_state": "pending"
+}
