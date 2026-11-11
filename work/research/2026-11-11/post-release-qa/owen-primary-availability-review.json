@@ -1,0 +1,30 @@
+{
+  "id": "in-owen-county-undated",
+  "dataset": "local_inventory",
+  "recommendation": "unresolved",
+  "reviewed_at": "2026-11-11T15:18:46.772741+00:00",
+  "current_row_sha256": "7f4987eb2fc6af4d60e40579aa609ccad0409ecc627db397d143afa8c1968504",
+  "source_continuity": {
+    "path": "work/research/2026-11-11/post-release-qa/owen-primary-source-continuity.json",
+    "sha256": "15a355a80987471705c64874c9407fdbddfe46976f595f89b45e692e327910c7"
+  },
+  "canonical_changes": 0,
+  "whole_record_closures": 0,
+  "model_requests": 0,
+  "findings": [
+    "The county ordinance index says it was last updated May 7, before the reported September 22 moratorium approval. Its limited list does not establish that no later ordinance exists.",
+    "The commissioner page says it was updated November 6. Under 2026 minutes, the later September through December date labels have no document links; the latest linked 2026 minutes are August 20. Those labels are not completed meeting records.",
+    "The commissioner agenda label November 10 links to 2026-11-09-Council-Agenda-1.pdf. It was not treated as a completed commissioner action or downloaded for that purpose.",
+    "The building/planning page says it was updated November 10. It links the September 15 planning agenda but not September planning minutes or an adopted data-center moratorium. Later agenda/minute labels alone do not establish a decision."
+  ],
+  "remaining_questions": [
+    "Obtain the adopted September 22 moratorium instrument or completed commissioner vote record, including instrument number, exact scope, effective-date clause and term anchor. Existing retained news reports are not the final legal text.",
+    "The four county pages checked November 11 do not supply that adopted instrument or later completed commissioner minutes. Do not repeat the unchanged September 22 agenda or news, or infer completed votes from unlinked dates. The November 10 commissioner label actually links to a November 9 council agenda.",
+    "Once the instrument is available, check distinct later amendments, replacement, termination or court action. The public index gaps do not establish no later action or current legal force."
+  ],
+  "research_queries": [
+    "site:owencounty.in.gov \"moratorium\" \"data\"",
+    "site:owencounty.in.gov commissioners minutes September 2026"
+  ],
+  "scope": "Public-source navigation and availability review only. No government contact, new legal finding, status change, or public-dashboard change."
+}

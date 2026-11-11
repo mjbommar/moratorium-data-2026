@@ -1505,6 +1505,18 @@ def main():
         assert proof['gap_records']==0 and proof['exact_body_text_pairs_read_back']==4
         assert review['review_scope']['visually_inspected_pdf_pages']=={'20261006_mins.pdf':[13]}
         overlays[review['id']]=[public_text(q) for q in review['remaining_questions']]
+    owen_primary_path=Path('work/research/2026-11-11/post-release-qa/owen-primary-availability-review.json')
+    if owen_primary_path.exists():
+        review=json.loads(owen_primary_path.read_text())
+        assert review['id']=='in-owen-county-undated' and review['dataset']=='local_inventory'
+        source_row_guard(('local_inventory',review['id']),review['current_row_sha256'])
+        source_disposition_guard(review)
+        assert review['canonical_changes']==review['whole_record_closures']==review['model_requests']==0
+        pin=review['source_continuity']
+        assert digest(Path(pin['path']).read_bytes())==pin['sha256']
+        proof=json.loads(Path(pin['path']).read_text())
+        assert proof['gap_records']==0 and proof['exact_body_text_pairs_read_back']==4
+        overlays[review['id']]=[public_text(q) for q in review['remaining_questions']]
     butler_oh_refinement_path=Path('work/research/2026-11-11/post-release-qa/butler-oh-question-refinement.json')
     if butler_oh_refinement_path.exists():
         review=json.loads(butler_oh_refinement_path.read_text())
@@ -1607,6 +1619,7 @@ def main():
     summary['lyon_extension_lead_review_sha256']=digest(lyon_extension_review_path.read_bytes()) if lyon_extension_review_path.exists() else None
     summary['butler_luzerne_operative_review_sha256']=digest(butler_luzerne_review_path.read_bytes()) if butler_luzerne_review_path.exists() else None
     summary['bazetta_operative_review_sha256']=digest(bazetta_review_path.read_bytes()) if bazetta_review_path.exists() else None
+    summary['owen_primary_availability_review_sha256']=digest(owen_primary_path.read_bytes()) if owen_primary_path.exists() else None
     summary['fort_collins_vote_review_sha256']=digest(fort_collins_vote_path.read_bytes()) if fort_collins_vote_path.exists() else None
     summary['fairfield_butler_later_review_sha256']=digest(fairfield_butler_path.read_bytes()) if fairfield_butler_path.exists() else None
     summary['butler_oh_question_refinement_sha256']=digest(butler_oh_refinement_path.read_bytes()) if butler_oh_refinement_path.exists() else None
