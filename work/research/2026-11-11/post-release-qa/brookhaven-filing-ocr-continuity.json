@@ -1,0 +1,53 @@
+{
+  "manifest_sha256": {
+    "work/sources/NY/manifest.jsonl": "bcd1158ff92e4df90c1c9646ee9e0f0e6f9201bcb624b1ff683d576d5321da76"
+  },
+  "record_count": 1,
+  "eligible_verified_body_records": 1,
+  "gap_records": 0,
+  "issue_counts": {},
+  "migrated_records": 1,
+  "records": [
+    {
+      "manifest": "work/sources/NY/manifest.jsonl",
+      "line": 693,
+      "legacy_key": "705967bbf98bf8d6-ac83fe1c4121-7eddf7a64116",
+      "row_sha256": "f70599ba1dc38d4c60771f3daca80f5583abe4ef6449f9f838e06c387cb9cb5c",
+      "url": "https://ecode360.com/BR0012/laws/LF2805749.pdf",
+      "original_body_sha256": "ac83fe1c4121a4d67a454e205d629b96cfe74f2001f399ab4e6644500a6d5aa9",
+      "original_text_sha256": "7eddf7a641165ea9e03d4c43e5ab599e323d1ca3f7a909c04cd44ad539509fbc",
+      "fetched_at": "2026-11-05T21:34:45.150725+00:00",
+      "published": false,
+      "payload": {
+        "path": "work/sources/NY/705967bbf98bf8d6-ac83fe1c4121-7eddf7a64116.pdf",
+        "sha256": "ac83fe1c4121a4d67a454e205d629b96cfe74f2001f399ab4e6644500a6d5aa9",
+        "bytes": 1667476
+      },
+      "text": {
+        "path": "work/sources/NY/705967bbf98bf8d6-ac83fe1c4121-7eddf7a64116.txt",
+        "sha256": "7eddf7a641165ea9e03d4c43e5ab599e323d1ca3f7a909c04cd44ad539509fbc",
+        "bytes": 12299
+      },
+      "missing_files": [],
+      "issues": [],
+      "observation_id": "6b2140a5e724737e",
+      "metadata_derivation_id": "83ec84cae524c9f9",
+      "text_derivation_id": "8c01f52a261a5b7f"
+    }
+  ],
+  "scope": "Retained Brookhaven body plus augmented filing-letter OCR read back exactly. Original body/text/capturetime/ledger unchanged. No legalcurrentforce acceptance by migration.",
+  "exact_body_text_pairs_read_back": 1,
+  "new_source_network_requests": 0,
+  "new_source_captures": 0,
+  "added_text_derivation_variants": 1,
+  "derivation": {
+    "attempt_id": "8608fac878154d5582638b8a6aa33f05",
+    "source_body_sha256": "ac83fe1c4121a4d67a454e205d629b96cfe74f2001f399ab4e6644500a6d5aa9",
+    "derived_text_sha256": "7eddf7a641165ea9e03d4c43e5ab599e323d1ca3f7a909c04cd44ad539509fbc",
+    "text_artifact": "/data0/moratorium-refresh-2026/brookhaven-retained-law-filing-2026-11-11/offline-ocr-import/law12-with-scanned-filing-acknowledgment.private.txt",
+    "review_status": "accepted_derivation",
+    "method": "Original retained text unchanged, append Tesseract OCR of previously unextracted scanned physicalpage2. Full6originalpageimages independently reviewed in two bounded Terra requests. September3letter confirms August27filing; September11stamp is clerkreceipt, not filing. Original capturetime/body/ledger unchanged; no new source acquisition.",
+    "original_text_sha256": "d13e59c0fb36921f5f522103d2c10e924439e0aff10e49c3a430d72d47800c14",
+    "page2_image_sha256": "34006757bd0de06867d04fc059e4e566be7efe25979b5da31a19ef921ead2123"
+  }
+}

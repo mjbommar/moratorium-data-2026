@@ -1,0 +1,277 @@
+{
+  "input_manifest_sha256": "b5823576b1b4bbfd9ebb34cbec6a7baf15a72ac6a4d2d820bb3996ea85ae423d",
+  "source_pins": [
+    {
+      "source_id": "2b6f84c823994a2ca5ad995ce4fc7df4",
+      "url": "http://resolutions.hamiltontn.gov/resolutions/2026/726-23.pdf",
+      "body_sha256": "6763274f38574c8e71fc328503834d4e04a0a2e9c458877e56ebe0cd2edc7693",
+      "text_sha256": "5c7900373da904d138a472df45b75849fc90aaef472e69bbadf539865e36421e",
+      "layout_sha256": "c8212167367b9e3073baa9e799f2d87cf0fd6edcdb89539e2fc787f2e2fdd9bc",
+      "physical_pages": [
+        1,
+        2,
+        3
+      ]
+    }
+  ],
+  "image_pins": [
+    {
+      "physical_page": 1,
+      "sha256": "227dd75dbb7e25f13a51b4c7f58fc58ef66300052e260c8d85e896da71f889f7"
+    },
+    {
+      "physical_page": 2,
+      "sha256": "8cf341be8899054609ca81614485eb4cd2c7f5b2075b18b15e3260092e94fe36"
+    },
+    {
+      "physical_page": 3,
+      "sha256": "4135f836b24ea245593d1325128ee526db1bcce06a183d0b22871ce9ac43980b"
+    }
+  ],
+  "candidate": {
+    "id": "tn-unincorporated-hamilton-county-2026",
+    "row_sha256": "a43a16c94025bae4d060142b455b735ae1eaa002ee26d78f028a28ef9b3cb473",
+    "proposed_changes": [
+      {
+        "field": "duration",
+        "before": "Minutes describe a proposed one-year moratorium; final executed term and operative interval unresolved.",
+        "after": "One year from adoption of Resolution 726-23 on July 15, 2026, unless extended, shortened or terminated by further Commission resolution (section 6). Section 9 makes it effective immediately upon passage. The July 15, 2027 anniversary is calculated from the stated term and adoption date, not a separately printed expiration date; later action and present force remain unverified."
+      },
+      {
+        "field": "legal_basis",
+        "before": "Hamilton County Commission Resolution No. 726-23 approving and authorizing a moratorium on data centers in unincorporated Hamilton County, adopted July 15, 2026; full resolution text not located.",
+        "after": "Hamilton County Commission Resolution 726-23, dated July 15, 2026, approving a moratorium on data centers in unincorporated Hamilton County. The retrieved three-page instrument has completed clerk and mayor certification-of-action approval blocks dated July 15, 2026; sections 1-9 supply the operative restrictions, exemptions, study direction, term and immediate-effect clause."
+      },
+      {
+        "field": "current_status",
+        "before": "July 15 minutes identify Resolution 726-23 and record unanimous adoption 9-0 with two absent; the mayor describes a proposed one-year pause for unincorporated areas. The full executed resolution, exact effective anchor, final scope and later actions remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+        "after": "Resolution 726-23 imposes a one-year moratorium from July 15, 2026, effective immediately upon passage. Its completed certification-of-action blocks show clerk and mayor approval. The previously reviewed July 15 minutes record adoption by nine affirmative votes with two commissioners absent. The executed text and original term are now available; VERIFY later amendments, waiver decisions, termination or replacement, litigation and present legal force."
+      },
+      {
+        "field": "affected_projects",
+        "before": "",
+        "after": "New data centers and significant expansions in every zoning district of unincorporated Hamilton County. Section 1 bars accepting, processing, approving or issuing zoning map/text amendments, site/development plans, building permits and other approvals that authorize or vest rights. Section 2 literally specifies projected peak electric demand of \"1 MW\" or refusal to disclose demand, together with electronic equipment and environmental-control criteria; it does not print \"at least\" or \"more than\" 1 MW. Section 4 exempts lawfully existing operating centers (routine maintenance/repairs without increased capacity or impacts) and projects with final, unappealable vested rights before effectiveness. Section 7 prohibits circumvention and section 8 allows Commission-reviewed waivers. Actual project applicability is unverified."
+      },
+      {
+        "field": "duration_kind",
+        "before": "unknown",
+        "after": "calendar_term"
+      },
+      {
+        "field": "current_end_date_iso",
+        "before": "",
+        "after": "2027-07-15"
+      }
+    ]
+  },
+  "captures": [
+    {
+      "stage": "blind_extraction",
+      "attempt_id": "3c65301100f74477a0e270430dda3df7",
+      "descriptor_sha256": "6547c1c0cb224a27eb0882ad3da21c712218fd2a889bb1547c76ef9e9723a1ff",
+      "wire_request_sha256": "0549b7d5f01dc17b9efbc58e75442b9151c943d8f6aac8e9aaac15e3696acb04",
+      "wire_response_sha256": "ddee42c114fe40c6fce4fa3bcd9abaaac83a5fdbb2e804db47b76c7ebed7950e",
+      "all_original_page_images_bound": true,
+      "actual_input_descriptor_matches": true,
+      "wire_sdk_output_matches_after_null_default_normalization": true,
+      "parsed_answer_matches": true,
+      "usage": {
+        "input_tokens": 14480,
+        "input_tokens_details": {
+          "cache_write_tokens": 14477,
+          "cached_tokens": 0
+        },
+        "output_tokens": 2002,
+        "output_tokens_details": {
+          "reasoning_tokens": 81
+        },
+        "total_tokens": 16482
+      }
+    },
+    {
+      "stage": "cell_adjudication",
+      "attempt_id": "2467e2d56f2442639ddeed52c40554e2",
+      "descriptor_sha256": "483bc7212f675a3abadec97cc6d3a45cedcffa67c3fb25de872391f14a4b7140",
+      "wire_request_sha256": "09e2e4d40247b5a2766aa92666c3fb4f04dbe9bcf4a158bed86456e75251c6e9",
+      "wire_response_sha256": "3ce534c5fe928b36514a6a1a184dbfbfb550807905af217b71691a41cd8534e5",
+      "all_original_page_images_bound": true,
+      "actual_input_descriptor_matches": true,
+      "wire_sdk_output_matches_after_null_default_normalization": true,
+      "parsed_answer_matches": true,
+      "usage": {
+        "input_tokens": 17488,
+        "input_tokens_details": {
+          "cache_write_tokens": 17485,
+          "cached_tokens": 0
+        },
+        "output_tokens": 2153,
+        "output_tokens_details": {
+          "reasoning_tokens": 802
+        },
+        "total_tokens": 19641
+      }
+    }
+  ],
+  "answers": {
+    "blind_extraction": {
+      "facts": [
+        {
+          "field": "resolution",
+          "value": "Hamilton County, Tennessee, Resolution No. 726-23, approving and authorizing a data-center moratorium.",
+          "source_id": "2b6f84c823994a2ca5ad995ce4fc7df4",
+          "locator": "Physical page 1, heading and title",
+          "supporting_quote": "No. 726-23 ... A RESOLUTION APPROVING AND AUTHORIZING A MORATORIUM ON DATA CENTERS IN THE UNINCORPORATED AREAS OF HAMILTON COUNTY, TENNESSEE."
+        },
+        {
+          "field": "execution_and_approval",
+          "value": "The certification of action has the county-clerk approval and county-mayor approval boxes checked, signatures on both lines, and the date July 15, 2026; the rejection and veto boxes are unchecked.",
+          "source_id": "2b6f84c823994a2ca5ad995ce4fc7df4",
+          "locator": "Physical page 3, certification of action",
+          "supporting_quote": "Approved: ... County Clerk ... Approved: ... County Mayor ... July 15, 2026"
+        },
+        {
+          "field": "effective_date_and_term",
+          "value": "The resolution takes effect immediately upon passage. The moratorium runs for one year from adoption unless extended, shortened, or terminated earlier by further Commission resolution. The document is dated July 15, 2026; its one-year calendar anniversary is July 15, 2027.",
+          "source_id": "2b6f84c823994a2ca5ad995ce4fc7df4",
+          "locator": "Physical page 1, date; physical page 2, section 6; physical page 3, section 9 and certification",
+          "supporting_quote": "This moratorium shall be effective for one (1) year from the date of adoption of this Resolution, unless extended, shortened, or terminated earlier by further resolution ... This Resolution shall take effect immediately upon its passage"
+        },
+        {
+          "field": "definition",
+          "value": "A Data Center is a business that primarily operates both electronic equipment used to process, store, or transmit digital information and the environmental control equipment necessary to maintain proper operating conditions for that equipment, and that either is projected to have a peak electric demand of 1 MW or refuses to disclose its peak electric demand level. The text says '1 MW,' not 'at least 1 MW.'",
+          "source_id": "2b6f84c823994a2ca5ad995ce4fc7df4",
+          "locator": "Physical page 2, section 2",
+          "supporting_quote": "Primarily operates: a) electronic equipment used to process, store, or transmit digital information; and b) environmental control equipment necessary to maintain proper operating conditions for the said electronic equipment; and c) (i) said business is projected to have a peak electric demand of 1 MW; or (ii) said business refuses to disclose its peak electric demand level"
+        },
+        {
+          "field": "scope_and_restrictions",
+          "value": "The moratorium covers new data centers and significant expansions of existing data centers throughout unincorporated Hamilton County in all zoning districts. The County may not accept, process, approve, or issue the specified zoning amendments, plans, permits, or other approvals that would authorize or vest rights for construction, operation, or significant expansion.",
+          "source_id": "2b6f84c823994a2ca5ad995ce4fc7df4",
+          "locator": "Physical page 2, sections 1 and 3",
+          "supporting_quote": "the County shall not accept, process, approve, or issue any zoning map amendments, zoning text amendments, site plans, development plans, building permits, or any other approvals or permits that would authorize or vest rights ... This moratorium applies throughout the unincorporated areas of Hamilton County and to all zoning districts."
+        },
+        {
+          "field": "exemptions",
+          "value": "Exemptions cover lawfully existing data centers operating in unincorporated areas as of the effective date, with routine maintenance and repairs that do not increase capacity or impacts permitted; and projects that obtained final, unappealable vested rights under applicable Tennessee law before the effective date.",
+          "source_id": "2b6f84c823994a2ca5ad995ce4fc7df4",
+          "locator": "Physical page 2, section 4",
+          "supporting_quote": "Lawfully existing Data Centers operating in the unincorporated areas of Hamilton County as of the effective date ... routine maintenance and repairs that do not increase capacity or impacts are permitted ... Any project that has obtained final, unappealable vested rights under applicable Tennessee law prior to the effective date"
+        },
+        {
+          "field": "planning_direction_and_deadline",
+          "value": "The Planning Department must study impacts, develop zoning recommendations, engage stakeholders, and present written findings and proposed zoning text and/or map amendments to the Commission by March 1, 2027, or an earlier date directed by the Commission.",
+          "source_id": "2b6f84c823994a2ca5ad995ce4fc7df4",
+          "locator": "Physical page 2, section 5",
+          "supporting_quote": "Prepare and present written findings and proposed zoning text and/or map amendments to the Hamilton County Commission no later than March 1, 2027, or such earlier date as the Commission may direct"
+        },
+        {
+          "field": "modification_power",
+          "value": "The Commission may extend, shorten, or terminate the moratorium earlier by further resolution. It retains authority to modify or lift it after favorable action on Planning Department recommendations or a determination that sufficient permanent regulations have been adopted.",
+          "source_id": "2b6f84c823994a2ca5ad995ce4fc7df4",
+          "locator": "Physical page 2, section 6",
+          "supporting_quote": "The Commission retains full authority to modify the terms of this moratorium or lift it upon receipt and favorable action on recommendations from the Planning Department or upon a determination that permanent regulations have been adopted and are sufficient."
+        },
+        {
+          "field": "waivers",
+          "value": "Any entity may apply for a waiver through the Planning Department. The Commission reviews it and may grant it if deemed necessary for the County's general health or welfare.",
+          "source_id": "2b6f84c823994a2ca5ad995ce4fc7df4",
+          "locator": "Physical page 3, section 8",
+          "supporting_quote": "Any entity may apply for a waiver ... through the Hamilton County Planning Department that shall be reviewed by the Hamilton County Commission and may be granted if it is deemed necessary for the general health or welfare of the County."
+        },
+        {
+          "field": "anti_avoidance",
+          "value": "Circumvention is prohibited, including fragmentation into smaller facilities or phases, reclassification of uses, or other actions intended to avoid the prohibitions.",
+          "source_id": "2b6f84c823994a2ca5ad995ce4fc7df4",
+          "locator": "Physical page 3, section 7",
+          "supporting_quote": "No person or entity shall circumvent the intent of this moratorium by, for example, fragmenting projects into multiple smaller facilities or phases, reclassifying uses, or taking other actions intended to avoid the prohibitions herein."
+        },
+        {
+          "field": "vote_corroboration",
+          "value": "The retained July 15, 2026 minutes report unanimous adoption of Resolution 726-23, 9\u20130, with two members absent.",
+          "source_id": "https://www.hamiltontn.gov/PDF/Commission/minutes/07-15-26%20Regular.pdf",
+          "locator": "Retained minutes, pages 17\u201319",
+          "supporting_quote": "to adopt Resolution No. 726-23 ... The foregoing Motion was unanimously adopted on a Roll Call vote ... Total present \u2013 9. Total absent \u2013 2. Total \u201cAye\u201d votes \u2013 9. Total \u201cNay\u201d votes \u2013 0."
+        }
+      ],
+      "uncertainties": [
+        "The resolution does not separately print an expiration date. July 15, 2027 is the calendar anniversary of the dated adoption, not a separately stated expiration date; the precise end-of-term boundary is not specified.",
+        "The supplied materials do not establish whether the moratorium was subsequently extended, shortened, terminated, modified, or remains in force.",
+        "The literal definition says a projected peak demand 'of 1 MW'; it does not say '1 MW or more.' The intended treatment of other disclosed demand levels is not resolved by the text."
+      ]
+    },
+    "cell_adjudication": {
+      "record_id": "tn-unincorporated-hamilton-county-2026",
+      "input_row_sha256": "a43a16c94025bae4d060142b455b735ae1eaa002ee26d78f028a28ef9b3cb473",
+      "field_decisions": [
+        {
+          "field": "duration",
+          "decision": "accept",
+          "value": "One year from adoption of Resolution 726-23 on July 15, 2026, unless extended, shortened or terminated by further Commission resolution (section 6). Section 9 makes it effective immediately upon passage. The July 15, 2027 anniversary is calculated from the stated term and adoption date, not a separately printed expiration date; later action and present force remain unverified.",
+          "source_id": "2b6f84c823994a2ca5ad995ce4fc7df4",
+          "locator": "Physical pages 1\u20133, date, sections 6 and 9, certification; retained minutes, pages 17\u201319",
+          "reason": "The executed text supplies the original term and immediate-effect clause; the minutes establish adoption on July 15. The precise end-of-term boundary is not stated."
+        },
+        {
+          "field": "legal_basis",
+          "decision": "accept",
+          "value": "Hamilton County Commission Resolution 726-23, dated July 15, 2026, approving a moratorium on data centers in unincorporated Hamilton County. The retrieved three-page instrument has completed clerk and mayor certification-of-action approval blocks dated July 15, 2026; sections 1-9 supply the operative restrictions, exemptions, study direction, term and immediate-effect clause.",
+          "source_id": "2b6f84c823994a2ca5ad995ce4fc7df4",
+          "locator": "Physical pages 1\u20133, heading, sections 1\u20139 and certification of action",
+          "reason": "The page 3 image visibly shows both approval boxes checked, rejection and veto unchecked, signatures on the clerk and mayor lines, and the July 15, 2026 date."
+        },
+        {
+          "field": "current_status",
+          "decision": "accept",
+          "value": "Resolution 726-23 imposes a one-year moratorium from July 15, 2026, effective immediately upon passage. Its completed certification-of-action blocks show clerk and mayor approval. The previously reviewed July 15 minutes record adoption by nine affirmative votes with two commissioners absent. The executed text and original term are now available; VERIFY later amendments, waiver decisions, termination or replacement, litigation and present legal force.",
+          "source_id": "2b6f84c823994a2ca5ad995ce4fc7df4",
+          "locator": "Physical pages 2\u20133, sections 6 and 9 and certification; retained minutes, pages 17\u201319",
+          "reason": "The original action is supported. Later extensions, repeal, other judicial developments, and the precise end-of-term boundary remain verification questions in addition to those stated in the proposed value."
+        },
+        {
+          "field": "affected_projects",
+          "decision": "accept",
+          "value": "New data centers and significant expansions in every zoning district of unincorporated Hamilton County. Section 1 bars accepting, processing, approving or issuing zoning map/text amendments, site/development plans, building permits and other approvals that authorize or vest rights. Section 2 literally specifies projected peak electric demand of \"1 MW\" or refusal to disclose demand, together with electronic equipment and environmental-control criteria; it does not print \"at least\" or \"more than\" 1 MW. Section 4 exempts lawfully existing operating centers (routine maintenance/repairs without increased capacity or impacts) and projects with final, unappealable vested rights before effectiveness. Section 7 prohibits circumvention and section 8 allows Commission-reviewed waivers. Actual project applicability is unverified.",
+          "source_id": "2b6f84c823994a2ca5ad995ce4fc7df4",
+          "locator": "Physical page 2, sections 1\u20134; physical page 3, sections 7\u20138",
+          "reason": "The proposed value preserves the literal 1 MW language and both exemptions. Section 8 permits an entity to apply through the Planning Department; the Commission reviews the waiver, which may be granted if deemed necessary for the County's general health or welfare."
+        },
+        {
+          "field": "duration_kind",
+          "decision": "accept",
+          "value": "calendar_term",
+          "source_id": "2b6f84c823994a2ca5ad995ce4fc7df4",
+          "locator": "Physical page 2, section 6",
+          "reason": "A one-year term from adoption fits a calendar term."
+        },
+        {
+          "field": "current_end_date_iso",
+          "decision": "accept",
+          "value": "2027-07-15",
+          "source_id": "2b6f84c823994a2ca5ad995ce4fc7df4",
+          "locator": "Physical page 1, date; physical page 2, section 6; retained minutes, pages 17\u201319",
+          "reason": "This is the calculated one-year anniversary, explicitly qualified in the accepted duration field. It is not a separately printed expiry date or proof of later legal force."
+        }
+      ],
+      "whole_record_closure_supported": false,
+      "remaining_questions": [
+        "What is the precise legal end-of-term boundary of the original one-year interval?",
+        "Were there later amendments, extensions, shortening, repeal, termination, replacement, or waiver decisions?",
+        "Were there judicial developments, including litigation or rulings, affecting the moratorium?",
+        "What is its present legal force?",
+        "How is the literal 1 MW definition applied to other disclosed demand levels, and which actual projects are covered?"
+      ],
+      "review_limitations": [
+        "Review was limited to the supplied resolution text and images and retained minutes; no later-action search was performed.",
+        "The existing row's active status, other unchanged fields, and whole-record closure were not independently verified.",
+        "No tools were used and no writes were made."
+      ]
+    }
+  },
+  "model_http_requests": 2,
+  "model": "gpt-6.1-terra",
+  "tools": [],
+  "agents_spawned": 0,
+  "price_usd": null,
+  "input_row_sha256": "a43a16c94025bae4d060142b455b735ae1eaa002ee26d78f028a28ef9b3cb473",
+  "coordinator_whole_record_closure": false
+}

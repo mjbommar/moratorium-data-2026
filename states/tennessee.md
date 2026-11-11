@@ -722,14 +722,14 @@ State policy is tracked separately: **9 records** (9 typed bill rows) in [`state
 - **Recorded status:** 🟢 Active
 - **Date enacted:** 2026-07-15, County Commission approval
 - **Normalized date:** `2026-07-15` (exact)
-- **Duration:** Minutes describe a proposed one-year moratorium; final executed term and operative interval unresolved.
-- **Current end date:** `—`
+- **Duration:** One year from adoption of Resolution 726-23 on July 15, 2026, unless extended, shortened or terminated by further Commission resolution (section 6). Section 9 makes it effective immediately upon passage. The July 15, 2027 anniversary is calculated from the stated term and adoption date, not a separately printed expiration date; later action and present force remain unverified.
+- **Current end date:** `2027-07-15`
 - **Sectors:** data center
 - **Moratorium ID:** `tn-unincorporated-hamilton-county-2026`
-- **Legal basis:** Hamilton County Commission Resolution No. 726-23 approving and authorizing a moratorium on data centers in unincorporated Hamilton County, adopted July 15, 2026; full resolution text not located.
+- **Legal basis:** Hamilton County Commission Resolution 726-23, dated July 15, 2026, approving a moratorium on data centers in unincorporated Hamilton County. The retrieved three-page instrument has completed clerk and mayor certification-of-action approval blocks dated July 15, 2026; sections 1-9 supply the operative restrictions, exemptions, study direction, term and immediate-effect clause.
 - **What prompted it:** County Planning Department to study practices elsewhere, consult TVA, EPB, and local water providers, and gather public input; follows Mayor Wamp's June 30 proposal
-- **Affected projects:** —
-- **Detailed status:** July 15 minutes identify Resolution 726-23 and record unanimous adoption 9-0 with two absent; the mayor describes a proposed one-year pause for unincorporated areas. The full executed resolution, exact effective anchor, final scope and later actions remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]
+- **Affected projects:** New data centers and significant expansions in every zoning district of unincorporated Hamilton County. Section 1 bars accepting, processing, approving or issuing zoning map/text amendments, site/development plans, building permits and other approvals that authorize or vest rights. Section 2 literally specifies projected peak electric demand of "1 MW" or refusal to disclose demand, together with electronic equipment and environmental-control criteria; it does not print "at least" or "more than" 1 MW. Section 4 exempts lawfully existing operating centers (routine maintenance/repairs without increased capacity or impacts) and projects with final, unappealable vested rights before effectiveness. Section 7 prohibits circumvention and section 8 allows Commission-reviewed waivers. Actual project applicability is unverified.
+- **Detailed status:** Resolution 726-23 imposes a one-year moratorium from July 15, 2026, effective immediately upon passage. Its completed certification-of-action blocks show clerk and mayor approval. The previously reviewed July 15 minutes record adoption by nine affirmative votes with two commissioners absent. The executed text and original term are now available; [VERIFY] later amendments, waiver decisions, termination or replacement, litigation and present legal force.
 - **Outcome:** —
 
 ### Warren County

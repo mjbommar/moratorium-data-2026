@@ -1,0 +1,63 @@
+{
+  "id": "tn-unincorporated-hamilton-county-2026",
+  "dataset": "local_inventory",
+  "baseline_commit": "d2853e5dcbf836f6809d9dedddfb25c03837d6c9",
+  "applied_at": "2026-11-11T07:01:41.678642+00:00",
+  "prior_row_sha256": "a43a16c94025bae4d060142b455b735ae1eaa002ee26d78f028a28ef9b3cb473",
+  "current_row_sha256": "0eab8a933d408feb24bd4a8fac86cfeeaa97c3924075661dc7712aedd6f89500",
+  "canonical_cells_changed": 6,
+  "field_changes": [
+    {
+      "field": "duration",
+      "before": "Minutes describe a proposed one-year moratorium; final executed term and operative interval unresolved.",
+      "after": "One year from adoption of Resolution 726-23 on July 15, 2026, unless extended, shortened or terminated by further Commission resolution (section 6). Section 9 makes it effective immediately upon passage. The July 15, 2027 anniversary is calculated from the stated term and adoption date, not a separately printed expiration date; later action and present force remain unverified."
+    },
+    {
+      "field": "legal_basis",
+      "before": "Hamilton County Commission Resolution No. 726-23 approving and authorizing a moratorium on data centers in unincorporated Hamilton County, adopted July 15, 2026; full resolution text not located.",
+      "after": "Hamilton County Commission Resolution 726-23, dated July 15, 2026, approving a moratorium on data centers in unincorporated Hamilton County. The retrieved three-page instrument has completed clerk and mayor certification-of-action approval blocks dated July 15, 2026; sections 1-9 supply the operative restrictions, exemptions, study direction, term and immediate-effect clause."
+    },
+    {
+      "field": "current_status",
+      "before": "July 15 minutes identify Resolution 726-23 and record unanimous adoption 9-0 with two absent; the mayor describes a proposed one-year pause for unincorporated areas. The full executed resolution, exact effective anchor, final scope and later actions remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+      "after": "Resolution 726-23 imposes a one-year moratorium from July 15, 2026, effective immediately upon passage. Its completed certification-of-action blocks show clerk and mayor approval. The previously reviewed July 15 minutes record adoption by nine affirmative votes with two commissioners absent. The executed text and original term are now available; [VERIFY] later amendments, waiver decisions, termination or replacement, litigation and present legal force."
+    },
+    {
+      "field": "affected_projects",
+      "before": "",
+      "after": "New data centers and significant expansions in every zoning district of unincorporated Hamilton County. Section 1 bars accepting, processing, approving or issuing zoning map/text amendments, site/development plans, building permits and other approvals that authorize or vest rights. Section 2 literally specifies projected peak electric demand of \"1 MW\" or refusal to disclose demand, together with electronic equipment and environmental-control criteria; it does not print \"at least\" or \"more than\" 1 MW. Section 4 exempts lawfully existing operating centers (routine maintenance/repairs without increased capacity or impacts) and projects with final, unappealable vested rights before effectiveness. Section 7 prohibits circumvention and section 8 allows Commission-reviewed waivers. Actual project applicability is unverified."
+    },
+    {
+      "field": "duration_kind",
+      "before": "unknown",
+      "after": "calendar_term"
+    },
+    {
+      "field": "current_end_date_iso",
+      "before": "",
+      "after": "2027-07-15"
+    }
+  ],
+  "independent_review": {
+    "path": "work/research/2026-11-11/post-release-qa/hamilton-operative-independent-review.json",
+    "sha256": "2fba3f8738a96e9833de9d47803a3d5e24517f0886d50c62a5a5851de0988712"
+  },
+  "source_continuity": {
+    "path": "work/research/2026-11-11/post-release-qa/hamilton-brookhaven-source-continuity.json",
+    "sha256": "0fc88edbd95a159c9d9da858c97f28b4831a1bcd8d662f61f9cea2a94fc1e2d2"
+  },
+  "recommendation": "unresolved",
+  "whole_record_closures": 0,
+  "remaining_questions": [
+    "Executed Resolution726-23, its original one-year adoption anchor, immediate-effect clause, exact definition, permit restrictions, exemptions and waiver authority have now been recovered and reviewed. Do not repeat the blank portal or exact726-23lookup merely to recover this instrument again.",
+    "Verify distinct later Commission amendments, shortening/extension/termination, waiver actions, replacement regulations, litigation and actual project applicability/current force. July15,2027 is the calculated one-year anniversary, not a separately printed expiration or a conclusion about intervening action. Verify the precise legal end-of-term boundary if needed; the normalized date records the expressly qualified anniversary calculation.",
+    "Preserve the literal section2 definition of projected peak electric demand of1MWor refusal to disclose; resolve interpretation with competent authority if needed, rather than silently substituting an at-least threshold."
+  ],
+  "scope": "Four prose cells plus calendar_term classification and explicitly calculated July15,2027anniversary. No numeric-day conversion, status/identity/count/nativechanges; historical originalterm resolved, laterforceunresolved.",
+  "coordinator_formatting": {
+    "field": "current_status",
+    "independently_accepted_value": "Resolution 726-23 imposes a one-year moratorium from July 15, 2026, effective immediately upon passage. Its completed certification-of-action blocks show clerk and mayor approval. The previously reviewed July 15 minutes record adoption by nine affirmative votes with two commissioners absent. The executed text and original term are now available; VERIFY later amendments, waiver decisions, termination or replacement, litigation and present legal force.",
+    "applied_value": "Resolution 726-23 imposes a one-year moratorium from July 15, 2026, effective immediately upon passage. Its completed certification-of-action blocks show clerk and mayor approval. The previously reviewed July 15 minutes record adoption by nine affirmative votes with two commissioners absent. The executed text and original term are now available; [VERIFY] later amendments, waiver decisions, termination or replacement, litigation and present legal force.",
+    "scope": "Restore existing codebook [VERIFY] marker syntax around the independently accepted remaining-question qualifier. No wording/fact/qualification change; existing has_verify_tags and verify_count remain valid. Initial failing validation logs retained."
+  }
+}

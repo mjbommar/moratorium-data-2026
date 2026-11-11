@@ -133,6 +133,24 @@ def main():
             assert row[change['field']]==change['after']
             row[change['field']]=change['before']
         assert digest(json.dumps(row,sort_keys=True,separators=(',',':'),ensure_ascii=False).encode())==baltimore['prior_row_sha256']
+    operative_transitions={}
+    operative_paths=[Path('work/research/2026-11-11/post-release-qa')/(name+'-operative-application.json') for name in ('hamilton','brookhaven')]
+    expected_fields={'tn-unincorporated-hamilton-county-2026':{'duration','legal_basis','current_status','affected_projects','duration_kind','current_end_date_iso'},'ny-town-of-brookhaven-2026':{'date_enacted','legal_basis','current_status'}}
+    for app_path in operative_paths:
+        if not app_path.exists():continue
+        application=json.loads(app_path.read_text())
+        assert application['id'] in expected_fields and application['whole_record_closures']==0
+        assert application['canonical_cells_changed']==len(expected_fields[application['id']])
+        assert {c['field'] for c in application['field_changes']}==expected_fields[application['id']]
+        for pin in (application['independent_review'],application['source_continuity']):
+            assert digest(Path(pin['path']).read_bytes())==pin['sha256']
+        key=('local_inventory',application['id']);row=current[key].copy()
+        assert digest(json.dumps(row,sort_keys=True,separators=(',',':'),ensure_ascii=False).encode())==application['current_row_sha256']
+        for change in application['field_changes']:
+            assert row[change['field']]==change['after']
+            row[change['field']]=change['before']
+        assert digest(json.dumps(row,sort_keys=True,separators=(',',':'),ensure_ascii=False).encode())==application['prior_row_sha256']
+        operative_transitions[key]=application
     def source_row_guard(key, expected):
         actual=digest(json.dumps(current[key],sort_keys=True,separators=(',',':'),ensure_ascii=False).encode())
         if bonney_application and key==('local_inventory',bonney_application['id']) and expected==bonney_application['prior_row_sha256']:
@@ -149,6 +167,8 @@ def main():
             assert actual==mendocino['current_row_sha256']
         elif baltimore and key==('local_inventory',baltimore['id']) and expected==baltimore['prior_row_sha256']:
             assert actual==baltimore['current_row_sha256']
+        elif key in operative_transitions and expected==operative_transitions[key]['prior_row_sha256']:
+            assert actual==operative_transitions[key]['current_row_sha256']
         elif key in policy_transitions and expected==policy_transitions[key]['prior_row_sha256']:
             assert actual==policy_transitions[key]['current_row_sha256']
         else:
@@ -1310,6 +1330,9 @@ def main():
     if baltimore:
         assert baltimore['recommendation']=='unresolved'
         overlays[baltimore['id']]=[public_text(q) for q in baltimore['remaining_questions']]
+    for application in operative_transitions.values():
+        assert application['recommendation']=='unresolved'
+        overlays[application['id']]=[public_text(q) for q in application['remaining_questions']]
     rows=[]
     for entry in f['records']:
         if entry['disposition']!='unresolved':continue
@@ -1332,6 +1355,7 @@ def main():
     summary['mendocino_signed_application_sha256']=digest(mendocino_path.read_bytes()) if mendocino_path.exists() else None
     summary['california_operative_recovery_sha256']=digest(california_recovery_path.read_bytes()) if california_recovery_path.exists() else None
     summary['baltimore_completed_form_application_sha256']=digest(baltimore_path.read_bytes()) if baltimore_path.exists() else None
+    summary['hamilton_brookhaven_operative_application_sha256']={str(p):digest(p.read_bytes()) for p in operative_paths if p.exists()}
     summary['retained_finality_audit_sha256']=digest(retained_finality_path.read_bytes()) if retained_finality_path.exists() else None
     summary['massachusetts_origin_application_sha256']=digest(ma_origin_path.read_bytes()) if ma_origin_path.exists() else None
     summary['ohio_item58_discovery_sha256']=digest(ohio_item58_path.read_bytes()) if ohio_item58_path.exists() else None

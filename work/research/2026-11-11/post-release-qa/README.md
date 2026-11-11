@@ -1,6 +1,6 @@
 # November 11 source follow-ups
 
-Working QA update: [five Baltimore County completed-form corrections](baltimore-completed-form-review.md) await the next synchronized batch. This offline audit used retained bytes; the latest delivered edition remains v2026.11.11/V34.
+Working QA update: fourteen accepted cells across three existing local rows await the next synchronized batch: [five Baltimore corrections](baltimore-completed-form-review.md) and [nine Hamilton/Brookhaven corrections](hamilton-brookhaven-review.md). Hamilton adds an executed resolution; Brookhaven recovers an unextracted scanned filing acknowledgment. Counts/categories are unchanged; the latest delivered edition remains v2026.11.11/V34.
 
 Latest delivery: [four Mendocino signed-instrument corrections](mendocino-signed-review.md) are synchronized in qualified v2026.11.11, consumer V34 and verified public pages. Counts and categories are unchanged.
 

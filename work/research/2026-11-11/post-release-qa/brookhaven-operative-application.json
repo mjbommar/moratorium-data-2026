@@ -1,0 +1,47 @@
+{
+  "id": "ny-town-of-brookhaven-2026",
+  "dataset": "local_inventory",
+  "baseline_commit": "d2853e5dcbf836f6809d9dedddfb25c03837d6c9",
+  "applied_at": "2026-11-11T07:02:29.659914+00:00",
+  "prior_row_sha256": "7a3b0dbdbfdaaa0e7491f0a40ba5d4be6d4bf97eb4d8296f3134f21e466042f6",
+  "current_row_sha256": "bb42175adfaf3b07e7020d58873e4a654f5aacb39db69ad75ef8fe625d1950e8",
+  "canonical_cells_changed": 3,
+  "field_changes": [
+    {
+      "field": "date_enacted",
+      "before": "July 16, 2026 Town Board unanimously voted to adopt subject to Suffolk County Planning; the town clerk identifies Local Law 12 of 2026 as adopted August 13, 2026. The law bears an E: August 27, 2026 notation, while the clerk letter leaves the effective-date blank.",
+      "after": "July 16, 2026 conditional Town Board adoption preceded final Local Law 12 of 2026. The signed September 11 clerk letter identifies adoption on August 13, 2026. The September 3 New York Department of State acknowledgment confirms filing on August 27, 2026; section 4 makes the law effective immediately upon filing."
+    },
+    {
+      "field": "legal_basis",
+      "before": "Chapter 17 (Moratorium), Article I (Data Centers), Town of Brookhaven Local Law 12 of 2026. The Town Board voted unanimously July 16 on Introductory Local Law 11 subject to Suffolk County Planning; the clerk\u2019s later packet identifies August 13 as adoption. The August 5 Suffolk County Planning Commission staff report is file BR-26-08.",
+      "after": "Town of Brookhaven Local Law 12 of 2026, Chapter 17, Article I, Data Centers Moratorium. The retained packet includes the signed clerk letter identifying August 13 adoption and the New York Department of State September 3 acknowledgment confirming August 27, 2026 filing. Section 4 supplies effectiveness immediately upon filing; the law is annotated A:08/13/2026 and E:08/27/2026. The clerk cover letter leaves its effective-date field blank, but the separate state acknowledgment and operative clause establish the historical filing/effect anchor."
+    },
+    {
+      "field": "current_status",
+      "before": "The Town Board approved the measure subject to county planning July 16, 2026; the clerk\u2019s packet identifies Local Law 12 as adopted August 13 and filed, with an E: August 27 notation but a blank effective-date field in the cover letter. The law bars town boards and officers from accepting, reviewing or approving new data-center land-use applications, fixes December 31, 2027 as its expiration, and exempts existing approvals and applications filed and accepted complete as of its effective date. [VERIFY: state filing date, effective-date notation and any later action.]",
+      "after": "Local Law 12 of 2026 was adopted August 13 and filed with the Secretary of State August 27, 2026, as confirmed by the retained clerk letter and New York Department of State acknowledgment. Section 4 makes it effective immediately upon filing; section 17-6 sets December 31, 2027 expiry. Section 17-3 bars review of new applications and granting applications, permits, licenses or approvals for the specified data-center activities. Section 17-4 excepts development under existing permits/approvals and applications filed, duly accepted as complete and pending as of effectiveness; section 17-5 provides a hardship-relief process. [VERIFY] later amendments, relief decisions, litigation, actual project applicability and present legal force."
+    }
+  ],
+  "independent_review": {
+    "path": "work/research/2026-11-11/post-release-qa/brookhaven-operative-independent-review.json",
+    "sha256": "5e660817dc5a161138740458f18766bb3624ee8f3f360d804ee71fc2efc5f046"
+  },
+  "source_continuity": {
+    "path": "work/research/2026-11-11/post-release-qa/hamilton-brookhaven-source-continuity.json",
+    "sha256": "0fc88edbd95a159c9d9da858c97f28b4831a1bcd8d662f61f9cea2a94fc1e2d2"
+  },
+  "recommendation": "unresolved",
+  "whole_record_closures": 0,
+  "remaining_questions": [
+    "The retained packet physicalpage2 is the September3NewYorkDepartmentofState acknowledgment expressly confirming August27,2026filing. Section4makes effectiveness immediate on filing; physicalpage3E:08/27/2026agrees. The blank clerkcoverfield no longer leaves the historical filing/effective anchor unresolved. Do not re-fetch this packet or search for the same filing acknowledgment again.",
+    "Verify distinct later amendments, hardship-relief decisions, termination/replacement, litigation, actual project/application completeness and present legal force. The recovered historical filing letter does not establish uninterrupted later force."
+  ],
+  "scope": "Three prose cells correct the missed scanned statefilingacknowledgment and precise review/approval scope. Existing August13normalizedadoption, December31,2027endpoint/status/counts unchanged; no laterforce conclusion.",
+  "coordinator_formatting": {
+    "field": "current_status",
+    "independently_accepted_value": "Local Law 12 of 2026 was adopted August 13 and filed with the Secretary of State August 27, 2026, as confirmed by the retained clerk letter and New York Department of State acknowledgment. Section 4 makes it effective immediately upon filing; section 17-6 sets December 31, 2027 expiry. Section 17-3 bars review of new applications and granting applications, permits, licenses or approvals for the specified data-center activities. Section 17-4 excepts development under existing permits/approvals and applications filed, duly accepted as complete and pending as of effectiveness; section 17-5 provides a hardship-relief process. VERIFY later amendments, relief decisions, litigation, actual project applicability and present legal force.",
+    "applied_value": "Local Law 12 of 2026 was adopted August 13 and filed with the Secretary of State August 27, 2026, as confirmed by the retained clerk letter and New York Department of State acknowledgment. Section 4 makes it effective immediately upon filing; section 17-6 sets December 31, 2027 expiry. Section 17-3 bars review of new applications and granting applications, permits, licenses or approvals for the specified data-center activities. Section 17-4 excepts development under existing permits/approvals and applications filed, duly accepted as complete and pending as of effectiveness; section 17-5 provides a hardship-relief process. [VERIFY] later amendments, relief decisions, litigation, actual project applicability and present legal force.",
+    "scope": "Restore existing codebook [VERIFY] marker syntax around the independently accepted remaining-question qualifier. No wording/fact/qualification change; existing has_verify_tags and verify_count remain valid. Initial failing validation logs retained."
+  }
+}
