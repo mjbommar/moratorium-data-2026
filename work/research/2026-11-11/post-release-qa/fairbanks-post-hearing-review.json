@@ -1,0 +1,156 @@
+{
+  "recorded_at": "2026-11-11T07:22:50.420076+00:00",
+  "baseline_commit": "f86cc87a0588d471c121626370dd0b18d0a795c8",
+  "id": "ak-fairbanks-north-star-borough-undated",
+  "dataset": "local_inventory",
+  "current_row_sha256": "9a29b614a471de5c942e615a13fef23ca479fb9491314c6b0727720e0a4d75d6",
+  "prior_review": {
+    "path": "work/research/2026-11-10/post-release-qa/fairbanks-ordinance-recovery.json",
+    "sha256": "bf542fb8c278cbae245a297c8f41d602b83f6b37add8e322dcc1321555ab44fd"
+  },
+  "admission": {
+    "caps": {
+      "fetch": 3,
+      "exa": 1,
+      "serpapi": 1,
+      "googlenews": 0,
+      "gdelt": 0,
+      "search_total": 2
+    },
+    "target_record_ids": [
+      "ak-fairbanks-north-star-borough-undated"
+    ],
+    "admission": "ScheduledNovember10hearing is now past inAlaska. EarlierNovember10capture predates hearing. Seek distinctly published completed action or fullpacket via exact datedquery; no repeat13344transport or unchanged ordinance/domainquery. Atmost2providersearches and3actualnewsourceURLs. No adoption/absence/currentforce inference from date or lackofresults.",
+    "prior_review": "work/research/2026-11-10/post-release-qa/fairbanks-ordinance-recovery.json"
+  },
+  "attempts": [
+    {
+      "attempt_id": "a540864fc2184cf0a280db88dc05e3b0",
+      "kind": "exa",
+      "cost_usd": 0.007,
+      "payload_sha256": "f40b34dfe48344d00a0b0f96f79cab5c329f6f397b69698978abe1b13e88f4d4",
+      "query": "\"2026-42\" \"November 10\" Fairbanks assembly action",
+      "hits": 6,
+      "hit_urls": [
+        "https://gridwatchtheusa.com/docket/alaska/fairbanks/on-the-agenda-fairbanks-planning-commission-meeting-data-center-nov-10/",
+        "https://northern.org/news/alaska-communities-push-for-data-center-oversight-upcoming-public-meetings-and-opportunities-to-speak-up/",
+        "https://mjbommar.github.io/moratorium-data-2026/states/alaska.html",
+        "https://alaskanews.com/c/alaska-news/events/fairbanks-north-star-borough-planning-commission-f3b9332c",
+        "https://computelaw.blog/incentives-map/",
+        "https://cognilocal.com/fairbanks/2026-10-22/"
+      ]
+    },
+    {
+      "attempt_id": "a218157dc6a342d2b06982ad44aed944",
+      "kind": "serpapi",
+      "cost_usd": null,
+      "payload_sha256": "8a4f2c3cdf9ba0b9ff63de150c24a4f356dac563a4eeac462c792d1c13be84e8",
+      "query": "Fairbanks \"2026-42\" \"November 10\" vote planning commission",
+      "hits": 0,
+      "hit_urls": []
+    },
+    {
+      "attempt_id": "1c5353412ca94a4da8a48c1d4422e274",
+      "kind": "fetch",
+      "ok": true,
+      "status": 200,
+      "body_sha256": "58302d285d6ee1ab849d5dd8bdc5d32f9bc5b72688e439814c5132632a59973c",
+      "text_sha256": "d9ea3ef2415408ce84f2a39f8d7b6664d8fa623c1a1510dd751ad1fb1e74bad3",
+      "payload_sha256": "dae93ae80485078f72918b6a2cb9e1851cc8624eecbffd745ecd1d5efe0da53f",
+      "url": "https://fnsb.portal.civicclerk.com/event/5763/overview",
+      "final_url": "https://fnsb.portal.civicclerk.com/event/5763/overview",
+      "body_bytes": 19947,
+      "mode": "browser"
+    },
+    {
+      "attempt_id": "8f3e044994ac47618adebef11ec712fd",
+      "kind": "fetch",
+      "ok": true,
+      "status": 200,
+      "body_sha256": "113d87b52658c02825dacbe5c5168d01989ecb2da57cf8a095b0681400c5c22d",
+      "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "payload_sha256": "15f3ea2282292545b450f8d8605a431dc311fc51dce6dc4a1445dfc54124bfa6",
+      "url": "https://fnsb.api.civicclerk.com/v1/Events/5763",
+      "final_url": "https://fnsb.api.civicclerk.com/v1/Events/5763",
+      "body_bytes": 3844,
+      "mode": "http"
+    },
+    {
+      "attempt_id": "65ea037e64934486b261c88606399b78",
+      "kind": "fetch",
+      "ok": false,
+      "status": null,
+      "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "payload_sha256": "3cd359e6a77f93caee409fce70ccb85380cc3de22259fa4a081ee2ef21840391",
+      "url": "https://fnsb.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=13403,plainText=false)",
+      "final_url": "https://fnsb.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=13403,plainText=false)",
+      "body_bytes": 0,
+      "mode": "http"
+    }
+  ],
+  "client_operations": {
+    "exa": 1,
+    "serpapi": 1,
+    "fetch": 3,
+    "total": 5
+  },
+  "browser_recorded_resource_entries": 56,
+  "browser_scope": "Fetch cap counts top-level bounded-client operations; browser automatically loaded its captured dependent resources. This is not a claim of only3HTTPrequests.",
+  "event_metadata": {
+    "url": "https://fnsb.api.civicclerk.com/v1/Events/5763",
+    "body_sha256": "113d87b52658c02825dacbe5c5168d01989ecb2da57cf8a095b0681400c5c22d",
+    "event_id": 5763,
+    "event_name": "Planning Commission Meeting",
+    "published_files": [
+      {
+        "id": 0,
+        "fileId": 13383,
+        "publishTo": null,
+        "type": "Agenda",
+        "publishOn": "2026-10-29T11:35:12.73Z",
+        "publishBy": null,
+        "name": "Agenda ",
+        "url": null,
+        "sort": 0,
+        "fileType": 1,
+        "streamUrl": "https://fnsb.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=13383,plainText=false)"
+      },
+      {
+        "id": 0,
+        "fileId": 13403,
+        "publishTo": null,
+        "type": "Agenda Packet",
+        "publishOn": "2026-10-29T11:35:12.73Z",
+        "publishBy": null,
+        "name": "Agenda Packet",
+        "url": null,
+        "sort": 0,
+        "fileType": 2,
+        "streamUrl": "https://fnsb.api.civicclerk.com/v1/Meetings/GetMeetingFileStream(fileId=13403,plainText=false)"
+      }
+    ],
+    "observation_only": true,
+    "no_completed_action_inference": true
+  },
+  "cost_usd": {
+    "exa_reported": 0.007,
+    "serpapi": null,
+    "complete_total": null
+  },
+  "canonical_changes": 0,
+  "whole_record_closures": 0,
+  "model_requests": 0,
+  "recommendation": "unresolved",
+  "native_readback_gaps": 0,
+  "source_continuity": {
+    "path": "work/research/2026-11-11/post-release-qa/fairbanks-post-hearing-source-continuity.json",
+    "sha256": "525b6c0fb1280a8409bf08cb51807ab16fbe823b80e06f05e78d0ca63d8329ca"
+  },
+  "remaining_questions": [
+    "November11post-hearing follow-up is complete for this bounded route. Exact dated Exa/SerpAPI searches yielded no completed-action evidence; own-dashboard and pre-hearing notices are not independent outcome corroboration. The browser exposed the actual Events/5763API, which lists only agenda13383andpacket13403 in this captured response. This is metadata, not a finding about whether the hearing occurred.",
+    "The actual linked fullpacket13403HTTP request failed with no body; it is not operative ordinance text or proof of nonpublication. Do not repeat file13344routes, file13403HTTP, the same datedqueries or the same meetingpage/API solely to recover unchanged evidence. Revisit only on a distinct published minutes/action/media/ordinance source or a documented changed-version/transport condition.",
+    "Obtain full Ordinance2026-42and completed PlanningCommission/Assembly actions to establish proposal terms, recommendation versus adoption, effective anchor and actual laterforce/applicability. Live/streaming/defaulttimestamp flags in the eventAPI are not proof of a completed or ongoing meeting."
+  ],
+  "scope": "Bounded new post-hearing research route exhausted; actualsource-observed eventAPI/fullpacket discovered, failure retained, exact newbody/text archived/readback. No canonical/headline/status/nativeballot/currentforce changes or whole-record closure."
+}

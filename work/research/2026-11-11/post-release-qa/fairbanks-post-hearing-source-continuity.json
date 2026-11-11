@@ -1,0 +1,66 @@
+{
+  "manifest_sha256": {
+    "work/sources/AK/manifest.jsonl": "c7cc07fcccef89188c5acf24caaabeb9778f8a25e4222b4e99f5d17f53d9a016"
+  },
+  "record_count": 2,
+  "eligible_verified_body_records": 2,
+  "gap_records": 0,
+  "issue_counts": {},
+  "migrated_records": 2,
+  "records": [
+    {
+      "manifest": "work/sources/AK/manifest.jsonl",
+      "line": 42,
+      "legacy_key": "0b41e7b73959faa6-58302d285d6e",
+      "row_sha256": "e4342f66cef1d266d4b0758f3a00fad393cfd8b5853e66f341415b7c8e011577",
+      "url": "https://fnsb.portal.civicclerk.com/event/5763/overview",
+      "original_body_sha256": "58302d285d6ee1ab849d5dd8bdc5d32f9bc5b72688e439814c5132632a59973c",
+      "original_text_sha256": "d9ea3ef2415408ce84f2a39f8d7b6664d8fa623c1a1510dd751ad1fb1e74bad3",
+      "fetched_at": "2026-11-11T07:20:30.156073+00:00",
+      "published": false,
+      "payload": {
+        "path": "work/sources/AK/0b41e7b73959faa6-58302d285d6e.bin",
+        "sha256": "58302d285d6ee1ab849d5dd8bdc5d32f9bc5b72688e439814c5132632a59973c",
+        "bytes": 19947
+      },
+      "text": {
+        "path": "work/sources/AK/0b41e7b73959faa6-58302d285d6e.txt",
+        "sha256": "d9ea3ef2415408ce84f2a39f8d7b6664d8fa623c1a1510dd751ad1fb1e74bad3",
+        "bytes": 234
+      },
+      "missing_files": [],
+      "issues": [],
+      "observation_id": "f036b1761453a2b5",
+      "metadata_derivation_id": "3bd0b56de304c1e8",
+      "text_derivation_id": "77991f8f787125cd"
+    },
+    {
+      "manifest": "work/sources/AK/manifest.jsonl",
+      "line": 43,
+      "legacy_key": "002d822cf4331314-113d87b52658",
+      "row_sha256": "23cae4bc1de911822ec8c6bc195cf99ef045e3c71e6643387d0c909f52d9ccd1",
+      "url": "https://fnsb.api.civicclerk.com/v1/Events/5763",
+      "original_body_sha256": "113d87b52658c02825dacbe5c5168d01989ecb2da57cf8a095b0681400c5c22d",
+      "original_text_sha256": "bfe31b60a18515c44ec65155d783ed0e32960b941345985a5e6dde1fa3c3e83f",
+      "fetched_at": "2026-11-11T07:21:02.300766+00:00",
+      "published": false,
+      "payload": {
+        "path": "work/sources/AK/002d822cf4331314-113d87b52658.bin",
+        "sha256": "113d87b52658c02825dacbe5c5168d01989ecb2da57cf8a095b0681400c5c22d",
+        "bytes": 3844
+      },
+      "text": {
+        "path": "work/sources/AK/002d822cf4331314-113d87b52658.txt",
+        "sha256": "bfe31b60a18515c44ec65155d783ed0e32960b941345985a5e6dde1fa3c3e83f",
+        "bytes": 4589
+      },
+      "missing_files": [],
+      "issues": [],
+      "observation_id": "860b1a724a35140b",
+      "metadata_derivation_id": "bf08be55cc1940d1",
+      "text_derivation_id": "5b7e89eb892058cb"
+    }
+  ],
+  "scope": "Exact new publicportal renderedbody and actualeventAPI JSON readback only. Failed empty packet not imported. No legalfact/meetingoutcome/currentforce promotion.",
+  "exact_body_text_pairs_read_back": 2
+}

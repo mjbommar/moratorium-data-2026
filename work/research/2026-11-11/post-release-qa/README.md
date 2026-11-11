@@ -74,3 +74,6 @@ provider-query retries or original-source re-fetches were used.
 The qualified public release remains current. These source-only routing receipts
 do not require a new release, consumer snapshot or Pages deployment. Broader
 legacy and ballot questions remain active.
+
+
+Post-delivery source follow-up: [Fairbanks November 10 hearing](fairbanks-post-hearing-review.md). A bounded search/meeting-API phase exposed a distinct packet route, but acquired no completed action or ordinance. One queue entry changes; canonical data and the verified public edition are unchanged.
