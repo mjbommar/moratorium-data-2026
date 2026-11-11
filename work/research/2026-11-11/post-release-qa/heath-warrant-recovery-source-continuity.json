@@ -1,0 +1,55 @@
+{
+  "manifest_sha256": {
+    "work/sources/MA/manifest.jsonl": "23e278bc69e5f68017af6ba1943a13c38d06bda0e64019092520216e6e3f59dc"
+  },
+  "record_count": 1,
+  "eligible_verified_body_records": 1,
+  "gap_records": 0,
+  "issue_counts": {},
+  "migrated_records": 1,
+  "records": [
+    {
+      "manifest": "work/sources/MA/manifest.jsonl",
+      "line": 123,
+      "legacy_key": "heath-warrant-recovery-7ef5c4ef9b98",
+      "row_sha256": "e7be0fdcef35d82460fc72b8ad8c683c812d12831449e40387332997f2075ccc",
+      "url": "https://townofheath.org/files/FINAL_SIGNED_2026_ATM-ATE_WARRANT-rotated.pdf",
+      "original_body_sha256": "7ef5c4ef9b988ffe43c210040df86da5d7f6991c75ceadec7544411936306bc3",
+      "original_text_sha256": "6e9a5b960d031df933fb960bd7e208846e9c52840d1e59f0ca9ae307d6742cb1",
+      "fetched_at": "2026-11-11T11:49:50.668951+00:00",
+      "published": false,
+      "payload": {
+        "path": "work/sources/MA/heath-warrant-recovery-7ef5c4ef9b98.pdf",
+        "sha256": "7ef5c4ef9b988ffe43c210040df86da5d7f6991c75ceadec7544411936306bc3",
+        "bytes": 1829404
+      },
+      "text": {
+        "path": "work/sources/MA/heath-warrant-recovery-7ef5c4ef9b98.txt",
+        "sha256": "6e9a5b960d031df933fb960bd7e208846e9c52840d1e59f0ca9ae307d6742cb1",
+        "bytes": 19942
+      },
+      "missing_files": [],
+      "issues": [],
+      "observation_id": "c85e77b7bce89703",
+      "metadata_derivation_id": "40c5e256ec88b54b",
+      "text_derivation_id": "4b97184dcbc8f4a8"
+    }
+  ],
+  "scope": "Reversible legacy-manifest mapping and retained-byte verification only. Original publication values are preserved, not reassessed. All store material remains private; no source/legal acceptance, complete extraction, fresh acquisition or automatic public export. Missing bodies are not migrated as hash-only payloads.",
+  "exact_body_text_pairs_read_back": 1,
+  "historical_body_hash_matches": true,
+  "historical_missing_text_recovered": false,
+  "fresh_ocr_pages": 8,
+  "visually_inspected_pages": [
+    6
+  ],
+  "canonical_changes": 0,
+  "whole_record_closures": 0,
+  "findings": [
+    "Full fresh OCR read: Articles1\u201322 concern officers, budgets, funds, road works, posting bylaws, Medicare resolution and other discussion. No proposed Section6.11 BESS/data-center moratorium appears.",
+    "Page6 visually inspected: warrant datedApril14; three SelectBoard signatures; clerk attestationApril17 and handwritten postingApril17. These are warrant issuance/posting, not moratorium adoption.",
+    "This signed warrant establishes its own contents; it does not alone prove formal withdrawal or every subsequent TownMeeting/AG disposition. Later-action question remains open."
+  ],
+  "request_count": 1,
+  "model_requests": 0
+}
