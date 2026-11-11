@@ -956,7 +956,7 @@
       + '<span class="status" style="background:' + color + '20;color:' + color + ';border:1px solid ' + color + '60">' + statusLabel + '</span>'
       + (p.trigger ? '<div class="meta" style="margin-top:6px"><em>' + escapeHtml(p.trigger) + '</em></div>' : '')
       + '<div class="meta" style="margin-top:8px"><a href="states/' + slugifyState(p.state) + '.html">View ' + escapeHtml(p.state) + ' page →</a></div>';
-    marker.bindPopup(html);
+    marker.bindPopup(html, { maxHeight: 300, autoPanPadding: [12, 12] });
     marker._status = p.enacted_status;
     return marker;
   }

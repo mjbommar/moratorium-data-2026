@@ -1,6 +1,6 @@
 # Moratorium Data 2026
 
-**Qualified post10 data delivered; website verification pending:** [v2026.11.11.post10](https://github.com/mjbommar/moratorium-data-2026/releases/tag/v2026.11.11.post10) and V44 deliver the combined 16-cell batch. Two identical builds, eight full restore checks across 49 generations, ten public downloads and independent V44 checks pass. Website verification is pending; post9 remains the verified website edition.
+**Qualified post10 release and website verified:** [v2026.11.11.post10](https://github.com/mjbommar/moratorium-data-2026/releases/tag/v2026.11.11.post10) and V44 deliver the combined 16-cell batch. Two identical builds, eight full restore checks across 49 generations, ten public downloads and independent V44 checks pass. Current hosted pages and desktop/mobile browser checks also pass.
 
 **Reviewed corrections:** Signed Mendocino Ordinances 4561 and 4562 establish historical adoption, votes, terms and literal threshold wording. Intended scope, later force and actual applicability remain qualified. Counts, categories, normalized dates and native history are unchanged. [Exact delta](work/research/2026-11-11/release-2026.11.11/dataset-delta.json).
 
@@ -194,7 +194,7 @@ A `CITATION.cff` file is included in the repo so GitHub renders a "Cite this rep
 - **Data** (`data/`, `states/`, `tables/`, `figures/`) is licensed under [Creative Commons Attribution 4.0 (CC-BY-4.0)](LICENSE-data). You can reuse, redistribute, and remix the data, including commercially, as long as you credit the source.
 - **Code** (`scripts/`, `notebooks/`, `examples/`) is licensed under the [MIT License](LICENSE-code).
 
-The latest qualified release is [v2026.11.11.post10](https://github.com/mjbommar/moratorium-data-2026/releases/tag/v2026.11.11.post10), published November 11 with explicit ongoing QA. Two identical builds, eight full restore checks across 49 generations, ten public downloads and independent V44 checks pass. Website verification is pending; post9 remains the verified website edition. Original research cutoff and September baseline are unchanged.
+The latest qualified release is [v2026.11.11.post10](https://github.com/mjbommar/moratorium-data-2026/releases/tag/v2026.11.11.post10), published November 11 with explicit ongoing QA. Two identical builds, eight full restore checks across 49 generations, ten public downloads and independent V44 checks pass. Current hosted pages and desktop/mobile browser checks also pass. Original research cutoff and September baseline are unchanged.
 
 ---
 

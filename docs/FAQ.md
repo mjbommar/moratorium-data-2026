@@ -79,7 +79,7 @@ If you publish something based on this data, we'd love to hear about it — drop
 
 ## How often is this updated?
 
-The latest qualified release is [v2026.11.11.post10](https://github.com/mjbommar/moratorium-data-2026/releases/tag/v2026.11.11.post10), published November 11 with explicit ongoing QA. Two identical builds, eight full restore checks across 49 generations, ten public downloads and independent V44 checks pass. Website verification is pending; post9 remains the verified website edition. Original research cutoff and September baseline are unchanged.
+The latest qualified release is [v2026.11.11.post10](https://github.com/mjbommar/moratorium-data-2026/releases/tag/v2026.11.11.post10), published November 11 with explicit ongoing QA. Two identical builds, eight full restore checks across 49 generations, ten public downloads and independent V44 checks pass. Current hosted pages and desktop/mobile browser checks also pass. Original research cutoff and September baseline are unchanged.
 
 ## Who built this?
 

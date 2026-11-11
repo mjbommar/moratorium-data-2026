@@ -1,0 +1,77 @@
+{
+  "initial_live_source_commit": "18ccbeb22180e48d7191da33db4e2e96e8d34895",
+  "before": {
+    "map": {
+      "x": 154,
+      "y": 279.625,
+      "width": 1132,
+      "height": 540
+    },
+    "popup": {
+      "x": 766,
+      "y": 285.40625,
+      "width": 306,
+      "height": 614.21875
+    },
+    "popup_fits_map_vertically": false
+  },
+  "local_after": {
+    "base_url": "http://127.0.0.1:8767/",
+    "results": [
+      {
+        "viewport": "desktop",
+        "map": {
+          "x": 154,
+          "y": 279.625,
+          "width": 1132,
+          "height": 540
+        },
+        "popup": {
+          "x": 766,
+          "y": 292.625,
+          "width": 306,
+          "height": 328
+        },
+        "content": {
+          "height": 300,
+          "scroll": 586,
+          "overflow": "auto"
+        },
+        "fits_map_vertically": true,
+        "full_content_scrolls": true,
+        "state_link_visible_after_scroll": true
+      },
+      {
+        "viewport": "mobile",
+        "map": {
+          "x": 24,
+          "y": 212.46875,
+          "width": 342,
+          "height": 420
+        },
+        "popup": {
+          "x": 47,
+          "y": 225.46875,
+          "width": 306,
+          "height": 328
+        },
+        "content": {
+          "height": 300,
+          "scroll": 586,
+          "overflow": "auto"
+        },
+        "fits_map_vertically": true,
+        "full_content_scrolls": true,
+        "state_link_visible_after_scroll": true
+      }
+    ],
+    "page_errors": [],
+    "screenshots": {
+      "mobile.png": "03fc67d237ac8bff069fa7d1bb3b3cc3ad7da5fdb9bbeade2e2485d4483ff8fa",
+      "desktop.png": "4245bcc42b99e3378ce88e1e886ddf8134777a9d8e16895396540e15ca34e9a3"
+    }
+  },
+  "change": "Leaflet bindPopup maxHeight300 and autoPanPadding12; preserves full text in scrollable content.",
+  "before_screenshot_sha256": "83aca2bc436693697323994208bb51eee1e925e1b19714b8d874f2b9935a4456",
+  "scope": "Local desktop/mobile checks after observed live clipping; final hosted check pending."
+}
