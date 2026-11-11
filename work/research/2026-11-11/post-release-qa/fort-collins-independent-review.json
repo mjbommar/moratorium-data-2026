@@ -1,0 +1,230 @@
+{
+  "input_manifest_sha256": "1a9510eafac6ffb6fa6f14bbed2f57ba4c6082ffaa07f10a3cfef7401f4fcedb",
+  "source_pins": [
+    {
+      "source_id": "oct6-minutes",
+      "text_sha256": "b680c411622951c248d6df89f34cda3ed5154d222b5e98adbb43c3bd5a3c547c",
+      "role": "Completed officialOctober6minutes. PDFpage13 printed42 confirms5-1adoption and staffapplication-hold title; OCRnames may be corrupt, pageimagecontrols."
+    },
+    {
+      "source_id": "oct6-actions",
+      "text_sha256": "26c13d98461a86bf9c361acb436174f02b18d83610b11a18d6348be0ba657b2a",
+      "role": "Completed officialOctober6actionagenda confirms item18 adopted5-1,Fudgenay."
+    },
+    {
+      "source_id": "oct20-actions",
+      "text_sha256": "a1d7ea8ed885e899e1e968435e54820f114aef85102d3d2f16d3a8c62791f3b9",
+      "role": "Completed officialOctober20actionagenda confirms Ordinance147 firstreadingonly."
+    },
+    {
+      "source_id": "resolution-draft",
+      "text_sha256": "f4777fc5625b18adafcd2cf31010114b55a11b54f8045f4c90ce160b9a094f4a",
+      "role": "Original officialagendaattachment for separateResolution2026-117, unsigned. Distinguishes allprincipal uses fromaccessory>10MW; no finaltext equivalence inferred."
+    },
+    {
+      "source_id": "ordinance-draft",
+      "text_sha256": "5a87234f4eba1fc000e37357427d8fd636629d5fcbdcd33654bf73bef51fd66c",
+      "role": "Priorretained unsignedOrdinance147agendaattachment; prospectivefinalpassage andeffective lines notcompletedvoteproof."
+    },
+    {
+      "source_id": "posting-metadata",
+      "text_sha256": "f48fa3c5c623394509b13c335c314320751fa20546ea115bd9fa5facdc482457",
+      "role": "Renderedofficialclerkmetadata: posting created/modifiedOctober21beforeNov3secondreading. No executedfinalproof."
+    },
+    {
+      "source_id": "posting-page2",
+      "text_sha256": "4ea8dbca74e6fd8a08a75c9dc9621ecedc9e494973a51fa50522989cb96dc667",
+      "role": "Repositoryprovidedpage2textfromsameOctober21posting, blankmayor/clerk, prospectiveNov3passageNov13effect."
+    }
+  ],
+  "image_pins": [
+    {
+      "source_id": "oct6-minutes",
+      "pdf_page": 13,
+      "sha256": "ef9320d689dd5c8b5aac157ea169435b9e234b8d8e635e5d749496c056874e0e",
+      "role": "SelectedoriginalPDFpage render; printedpage42."
+    }
+  ],
+  "candidate": {
+    "id": "co-fort-collins-undated",
+    "row_sha256": "c2c95e27a6eadc7803c16f0d264698f9d5538e282088d93d4c2aeb11c83e358a",
+    "proposed_changes": [
+      {
+        "field": "legal_basis",
+        "before": "Unsigned Ordinance 147, 2026 attachment; recites separate Resolution 2026-117",
+        "after": "Resolution 2026-117 adoption confirmed in completed October 6, 2026 council minutes; its retained agenda attachment is unsigned. Ordinance 147, 2026 passed first reading October 20; retained ordinance and public-notice text do not authenticate final passage."
+      },
+      {
+        "field": "current_status",
+        "before": "Source-stage pending proposal from unsigned Ordinance 147, 2026 attachment. [VERIFY actual final passage, execution, publication/effectiveness, separate Resolution 2026-117, subsequent action, current legal status and coordinates]",
+        "after": "Completed October 6 council minutes confirm Resolution 2026-117 adopted 5\u20131, directing staff not to accept covered development or permit applications while the ordinance was pending. The October 20 action agenda confirms Ordinance 147 passed first reading. Final ordinance passage and current legal force remain unverified. [VERIFY: executed/adopted resolution text, final ordinance vote and text, publication/effectiveness, operative interval, later action and coordinates.]"
+      },
+      {
+        "field": "outcome",
+        "before": "",
+        "after": "The interim resolution and proposed ordinance are distinct actions. The retained unsigned resolution attachment covers principal-use data centers and accessory-use data centers with proposed peak electrical demand above 10 MW. The ordinance\u2019s October 21 public-notice posting contains prospective November 3 final-passage and November 13 effective-date wording; those printed dates do not establish actual final passage or effectiveness."
+      }
+    ]
+  },
+  "captures": [
+    {
+      "stage": "blind_extraction",
+      "attempt_id": "df1771f9d7c24bdfa0501cc41c68f866",
+      "descriptor_sha256": "7a7b2f3347d9451486cde5dad36f577cdef61ddb8826e5c3f95513526d0102b7",
+      "wire_request_sha256": "271a961ba22d7cf80d4f31de2b64f9cdf3d5c70648407e704f0e26dfca434e30",
+      "wire_response_sha256": "e8eb11196ddb38f81b77382e013393ff36e98881a9ba6e96ab4ba8fe0df90dac",
+      "all_original_page_images_bound": true,
+      "actual_input_descriptor_matches": true,
+      "wire_sdk_output_matches_after_null_default_normalization": true,
+      "parsed_answer_matches": true,
+      "usage": {
+        "input_tokens": 25022,
+        "input_tokens_details": {
+          "cache_write_tokens": 25019,
+          "cached_tokens": 0
+        },
+        "output_tokens": 821,
+        "output_tokens_details": {
+          "reasoning_tokens": 37
+        },
+        "total_tokens": 25843
+      }
+    },
+    {
+      "stage": "cell_adjudication",
+      "attempt_id": "6d08e2887e1e4c94a859e4447515aeef",
+      "descriptor_sha256": "dfebe348b75327fc2818b1e26fc4b5a8fb4a0f5316f8c7fdf0653d914132b655",
+      "wire_request_sha256": "65dc2312b9f76f2d4ab5f621ffb89fb371ef6e97be7b2d5b3650d860b24fbe54",
+      "wire_response_sha256": "b927a45cf6b873389f7899723d28e3b738cecdc87320f6e6490421cdf2bfd968",
+      "all_original_page_images_bound": true,
+      "actual_input_descriptor_matches": true,
+      "wire_sdk_output_matches_after_null_default_normalization": true,
+      "parsed_answer_matches": true,
+      "usage": {
+        "input_tokens": 26543,
+        "input_tokens_details": {
+          "cache_write_tokens": 26540,
+          "cached_tokens": 0
+        },
+        "output_tokens": 864,
+        "output_tokens_details": {
+          "reasoning_tokens": 137
+        },
+        "total_tokens": 27407
+      }
+    }
+  ],
+  "answers": {
+    "blind_extraction": {
+      "facts": [
+        {
+          "field": "resolution_adoption",
+          "value": "On October 6, 2026, Fort Collins City Council adopted Resolution 2026-117 by a 5\u20131 vote. Councilmember Fudge voted no.",
+          "source_id": "oct6-minutes",
+          "locator": "PDF page 13, printed proceedings page 42, item 18",
+          "supporting_summary": "The completed minutes record the adoption motion, the vote and the individual votes."
+        },
+        {
+          "field": "resolution_direction",
+          "value": "The resolution directed staff to present a temporary data-center moratorium on October 20 and not accept development or permit applications for covered data centers.",
+          "source_id": "oct6-minutes",
+          "locator": "PDF page 13, printed proceedings page 42, item 18",
+          "supporting_summary": "The adopted resolution\u2019s title states the staff directions."
+        },
+        {
+          "field": "resolution_draft_scope",
+          "value": "The resolution draft covered data centers as a primary use and accessory data centers with proposed peak electrical demand greater than 10 MW.",
+          "source_id": "resolution-draft",
+          "locator": "Recital E and sections 1\u20133",
+          "supporting_summary": "The unsigned agenda attachment distinguishes all primary uses from accessory uses above the specified threshold."
+        },
+        {
+          "field": "ordinance_first_reading",
+          "value": "On October 20, 2026, Council adopted Ordinance No. 147, 2026, on first reading.",
+          "source_id": "oct20-actions",
+          "locator": "Page 7, item 18",
+          "supporting_summary": "The completed action agenda records first-reading adoption of the separate moratorium ordinance."
+        },
+        {
+          "field": "ordinance_proposed_scope",
+          "value": "The proposed ordinance concerned acceptance or processing of applications for data centers as a principal use, or as an accessory use with proposed peak electrical demand greater than 10 MW.",
+          "source_id": "ordinance-draft",
+          "locator": "Sections 1\u20132",
+          "supporting_summary": "The unsigned ordinance text sets out both categories and defines the data centers covered."
+        },
+        {
+          "field": "ordinance_proposed_dates",
+          "value": "The unsigned draft proposed a moratorium retroactive to October 6, 2026, through the end of April 6, 2027.",
+          "source_id": "ordinance-draft",
+          "locator": "Section 1",
+          "supporting_summary": "The interval appears in the proposed ordinance text; it is not evidence of final passage or a continuously operative moratorium."
+        },
+        {
+          "field": "later_posting",
+          "value": "An October 21 posting listed November 3, 2026, as the second-reading date. Its unsigned ordinance page also contained prospective final-passage and November 13 effective-date lines.",
+          "source_id": "posting-metadata",
+          "locator": "Entry properties: created and modified dates; first and second reading fields",
+          "supporting_summary": "The posting was created before the listed second reading; the accompanying page has blank signature lines."
+        }
+      ],
+      "uncertainties": [
+        "The supplied sources do not establish that Ordinance 147 passed on second reading, became effective, or is currently in force.",
+        "The unsigned resolution and ordinance attachments do not establish the final adopted text of either measure.",
+        "The October 20 action agenda does not give a vote count for Ordinance 147."
+      ]
+    },
+    "cell_adjudication": {
+      "record_id": "co-fort-collins-undated",
+      "input_row_sha256": "c2c95e27a6eadc7803c16f0d264698f9d5538e282088d93d4c2aeb11c83e358a",
+      "field_decisions": [
+        {
+          "field": "legal_basis",
+          "decision": "accept",
+          "value": "Resolution 2026-117 adoption is confirmed in the completed October 6, 2026 council minutes; its retained agenda attachment is unsigned. Ordinance 147, 2026 was adopted on first reading October 20; the retained ordinance and public-notice text do not authenticate final passage.",
+          "source_id": "oct6-minutes",
+          "locator": "PDF page 13, printed proceedings page 42, item 18",
+          "reason": "The minutes establish resolution adoption; oct20-actions, page 7, separately establishes the ordinance's first-reading adoption."
+        },
+        {
+          "field": "current_status",
+          "decision": "accept",
+          "value": "Completed October 6 council minutes confirm Resolution 2026-117 was adopted 5\u20131. Its title directs staff to present a temporary moratorium and not accept covered development or permit applications. The October 20 action agenda confirms Ordinance 147 was adopted on first reading. Final ordinance passage and current legal force remain unverified. [VERIFY: executed/adopted resolution text, final ordinance vote and text, publication/effectiveness, operative interval, later action and coordinates.]",
+          "source_id": "oct6-minutes",
+          "locator": "PDF page 13, printed proceedings page 42, item 18",
+          "reason": "The wording attributes the staff directions to the resolution title without inferring an operative interval. The separate first reading is confirmed by oct20-actions, page 7."
+        },
+        {
+          "field": "outcome",
+          "decision": "accept",
+          "value": "The resolution and proposed ordinance are distinct actions. The retained unsigned resolution attachment describes coverage of primary-use data centers and accessory-use data centers with proposed peak electrical demand above 10 MW. The ordinance's October 21 public-notice posting contains prospective November 3 final-passage and November 13 effective-date wording; those printed dates do not establish actual final passage or effectiveness.",
+          "source_id": "resolution-draft",
+          "locator": "Recital E and sections 1\u20133",
+          "reason": "The scope is narrowly attributed to the unsigned attachment. The posting metadata and unsigned page 2 establish the prospective character of the later wording, not final passage."
+        }
+      ],
+      "whole_record_closure_supported": false,
+      "remaining_questions": [
+        "What were the final adopted resolution text and the outcome and text of the ordinance's second reading?",
+        "Was the ordinance published and effective, and what operative interval, later actions, and current legal status are independently supported?",
+        "Are the recorded coordinates verified?"
+      ],
+      "review_limitations": [
+        "Unsigned attachments do not establish equivalence to final adopted texts.",
+        "The October 20 action agenda records first-reading adoption but does not give an ordinance vote count.",
+        "The pending category remains uncorrected pending independent operative-interval adjudication; no status, date, count, or native fields were evaluated for change."
+      ]
+    }
+  },
+  "model_http_requests": 2,
+  "model": "gpt-6.1-terra",
+  "tools": [],
+  "agents_spawned": 0,
+  "price_usd": null,
+  "coordinator_whole_record_closure": false,
+  "scope": "Two serial Terra requests. All decisions accepted with returned conservative wording; coordinator adopts returned values, not an assertion that initial candidates were accepted verbatim.",
+  "applied_values": {
+    "legal_basis": "Resolution 2026-117 adoption is confirmed in the completed October 6, 2026 council minutes; its retained agenda attachment is unsigned. Ordinance 147, 2026 was adopted on first reading October 20; the retained ordinance and public-notice text do not authenticate final passage.",
+    "current_status": "Completed October 6 council minutes confirm Resolution 2026-117 was adopted 5\u20131. Its title directs staff to present a temporary moratorium and not accept covered development or permit applications. The October 20 action agenda confirms Ordinance 147 was adopted on first reading. Final ordinance passage and current legal force remain unverified. [VERIFY: executed/adopted resolution text, final ordinance vote and text, publication/effectiveness, operative interval, later action and coordinates.]",
+    "outcome": "The resolution and proposed ordinance are distinct actions. The retained unsigned resolution attachment describes coverage of primary-use data centers and accessory-use data centers with proposed peak electrical demand above 10 MW. The ordinance's October 21 public-notice posting contains prospective November 3 final-passage and November 13 effective-date wording; those printed dates do not establish actual final passage or effectiveness."
+  }
+}

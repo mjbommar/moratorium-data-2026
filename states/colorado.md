@@ -218,11 +218,11 @@ State policy is tracked separately: **4 records** (4 typed bill rows) in [`state
 - **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `co-fort-collins-undated`
-- **Legal basis:** Unsigned Ordinance 147, 2026 attachment; recites separate Resolution 2026-117
+- **Legal basis:** Resolution 2026-117 adoption is confirmed in the completed October 6, 2026 council minutes; its retained agenda attachment is unsigned. Ordinance 147, 2026 was adopted on first reading October 20; the retained ordinance and public-notice text do not authenticate final passage.
 - **What prompted it:** City studies data-center land-use rules during a proposed temporary application pause.
 - **Affected projects:** —
-- **Detailed status:** Source-stage pending proposal from unsigned Ordinance 147, 2026 attachment. [VERIFY actual final passage, execution, publication/effectiveness, separate Resolution 2026-117, subsequent action, current legal status and coordinates]
-- **Outcome:** —
+- **Detailed status:** Completed October 6 council minutes confirm Resolution 2026-117 was adopted 5–1. Its title directs staff to present a temporary moratorium and not accept covered development or permit applications. The October 20 action agenda confirms Ordinance 147 was adopted on first reading. Final ordinance passage and current legal force remain unverified. [VERIFY: executed/adopted resolution text, final ordinance vote and text, publication/effectiveness, operative interval, later action and coordinates.]
+- **Outcome:** The resolution and proposed ordinance are distinct actions. The retained unsigned resolution attachment describes coverage of primary-use data centers and accessory-use data centers with proposed peak electrical demand above 10 MW. The ordinance's October 21 public-notice posting contains prospective November 3 final-passage and November 13 effective-date wording; those printed dates do not establish actual final passage or effectiveness.
 
 ### Fremont County (Unincorporated)
 

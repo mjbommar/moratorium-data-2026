@@ -1010,3 +1010,5 @@ Exit: repeatable refresh with visible freshness, costs, failures and unresolved 
 - [x] Final post10/V44 delivery:16cells/three rows,64HTMLpages,230resources,8,772payloadfiles and49nativegenerations verified. Long map popups now scroll within desktop/mobile map viewports. No category/count changes or whole-recordclosures.
 
 - [ ] Include two reviewed St. Clair Township Butler County Ohio prose updates in the next combined batch after post10/V44: November11report describes commissionactions but explicitly retains finaltrusteeapprovalpending. Originalresolution, May4/May5date discrepancy, interval and laterforce remain unresolved; no status/date/count changes.
+
+- [ ] Deliver three Fort Collins reviewed prose revisions with St Clair in the next combined publication: completed October6Resolution2026-117adoption5-1 and October20Ordinance147firstreading; finalordinance/executedtext/effect/currentforce remain open. Fivefields/tworows total; no category/count changes.

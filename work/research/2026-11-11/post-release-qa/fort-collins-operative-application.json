@@ -1,0 +1,43 @@
+{
+  "id": "co-fort-collins-undated",
+  "dataset": "local_inventory",
+  "baseline_commit": "b5064b2e491fdf4cc8245d64b07dc3fe31b66e5a",
+  "applied_at": "2026-11-11T14:30:57.532704+00:00",
+  "prior_row_sha256": "c2c95e27a6eadc7803c16f0d264698f9d5538e282088d93d4c2aeb11c83e358a",
+  "current_row_sha256": "9faaa235a1211b971bac98d016a152d64c0154de15f9060a06ada328a5a7acea",
+  "canonical_cells_changed": 3,
+  "field_changes": [
+    {
+      "field": "legal_basis",
+      "before": "Unsigned Ordinance 147, 2026 attachment; recites separate Resolution 2026-117",
+      "after": "Resolution 2026-117 adoption is confirmed in the completed October 6, 2026 council minutes; its retained agenda attachment is unsigned. Ordinance 147, 2026 was adopted on first reading October 20; the retained ordinance and public-notice text do not authenticate final passage."
+    },
+    {
+      "field": "current_status",
+      "before": "Source-stage pending proposal from unsigned Ordinance 147, 2026 attachment. [VERIFY actual final passage, execution, publication/effectiveness, separate Resolution 2026-117, subsequent action, current legal status and coordinates]",
+      "after": "Completed October 6 council minutes confirm Resolution 2026-117 was adopted 5\u20131. Its title directs staff to present a temporary moratorium and not accept covered development or permit applications. The October 20 action agenda confirms Ordinance 147 was adopted on first reading. Final ordinance passage and current legal force remain unverified. [VERIFY: executed/adopted resolution text, final ordinance vote and text, publication/effectiveness, operative interval, later action and coordinates.]"
+    },
+    {
+      "field": "outcome",
+      "before": "",
+      "after": "The resolution and proposed ordinance are distinct actions. The retained unsigned resolution attachment describes coverage of primary-use data centers and accessory-use data centers with proposed peak electrical demand above 10 MW. The ordinance's October 21 public-notice posting contains prospective November 3 final-passage and November 13 effective-date wording; those printed dates do not establish actual final passage or effectiveness."
+    }
+  ],
+  "independent_review": {
+    "path": "work/research/2026-11-11/post-release-qa/fort-collins-independent-review.json",
+    "sha256": "d2bdf7c6027492d99069a859db8114e84c7201c481d7d7d2f4312b5aa7e9d32c"
+  },
+  "source_continuity": {
+    "path": "work/research/2026-11-11/post-release-qa/fort-collins-complete-source-continuity.json",
+    "sha256": "dcdd3cf4874bd8ee4b72b591cd64ad28bcfbb141c30c13132d3e7a382f3ae534"
+  },
+  "recommendation": "unresolved",
+  "whole_record_closures": 0,
+  "remaining_questions": [
+    "Resolution2026-117 adoption on October6is corroborated by completedminutes and actionagenda; Ordinance147 firstreading October20is corroborated by completedactionagenda. Do not repeat those historicalvote questions or unchangedOctober21publicnotice posting.",
+    "Obtain executed final Resolution2026-117 or verify adopted text against the retained unsignedagendaattachment; reconcile its independent interim staff-application hold with laterOrdinance147, without treating the laterordinance proposal as the only possible restriction.",
+    "Obtain completedNovember3vote/finalpassage and executedOrdinance147; authenticate actualpublication/effectiveness and any amendments. October21publicnotice prospectiveNov3passagerecital/Nov13effectivedate is not proof those events occurred.",
+    "Check distinct lateraction, actualoperativeinterval/end and currentlegalforce; verify coordinates separately. Do not infer continuousforce or automaticexpiry from the proposedApril6endpoint."
+  ],
+  "scope": "Three returned conservative Terra prose revisions correct olderonly-proposal description with completedResolution117adoption and Ordinance147firstreading. No status/date/interval/endpoint/count/native changes or whole-recordclosure. Pending combinedpublication with StClair afterpost10/V44."
+}

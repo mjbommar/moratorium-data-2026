@@ -1,0 +1,105 @@
+{
+  "exact_canonical_delta": [
+    {
+      "id": "co-fort-collins-undated",
+      "field": "legal_basis"
+    },
+    {
+      "id": "co-fort-collins-undated",
+      "field": "current_status"
+    },
+    {
+      "id": "co-fort-collins-undated",
+      "field": "outcome"
+    }
+  ],
+  "combined_delta_since_post10": [
+    {
+      "id": "co-fort-collins-undated",
+      "field": "legal_basis"
+    },
+    {
+      "id": "co-fort-collins-undated",
+      "field": "current_status"
+    },
+    {
+      "id": "co-fort-collins-undated",
+      "field": "outcome"
+    },
+    {
+      "id": "oh-st-clair-township-butler-county-2026",
+      "field": "current_status"
+    },
+    {
+      "id": "oh-st-clair-township-butler-county-2026",
+      "field": "outcome"
+    }
+  ],
+  "status_changes": 0,
+  "normalized_date_changes": 0,
+  "record_closures": 0,
+  "queue_count": 1346,
+  "other_queue_records_identical": 1345,
+  "native_tables_unchanged": true,
+  "checks": [
+    {
+      "command": [
+        "scripts/validate_dataset.py",
+        "--today",
+        "2026-11-11"
+      ],
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "scripts/build_policy_scope_exports.py",
+        "--check"
+      ],
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "scripts/build_summary_stats.py",
+        "--check"
+      ],
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "scripts/build_geojson.py",
+        "--check"
+      ],
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "scripts/make_timeline.py",
+        "--check"
+      ],
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "scripts/check_docs_numbers.py"
+      ],
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "-m",
+        "scripts.generate_tables.inventory_clean",
+        "--check"
+      ],
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "scripts/build_index.py",
+        "--check"
+      ],
+      "exit_code": 0
+    }
+  ],
+  "publication": "Pending combined release/consumer/Pages delivery; qualified post10/V44 remains live public edition.",
+  "review_scope": "Three returned conservative Terra prose values applied; original candidates and returned revisions retained; separateinterimresolutionadoption and ordinancefirstreading corroborated, finalordinance/effect/currentforce unresolved."
+}
