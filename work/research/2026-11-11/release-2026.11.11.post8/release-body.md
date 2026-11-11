@@ -1,0 +1,9 @@
+# Qualified November 11 update: Lowndes County reported expiry
+
+Four reviewed fields record The Spectator’s explicit October 28 report that Lowndes County, Georgia’s 60-day data-center moratorium had ended. This changes the recorded category from active to expired; it is not based on calculating an expiry from the adoption date. The exact expiry date and original executed instrument remain unverified. The county’s November 2 notice and draft cover concern proposed regulations, not an adopted replacement. Scheduled November feedback and a December vote do not establish completed outcomes.
+
+Working local totals remain 1,328 records: 1,085 recorded active/extended, 63 pending, 173 past, three rejected and four unknown. Active falls from 887 to 886 and expired rises from 76 to 77. VERIFY remains 978. No normalized dates, exact endpoints, policy counts or native governance tables change. There remain 1,346 unresolved record reviews; no whole-record review closes. September surviving-ID category differences are 136 (102 local, 34 policy).
+
+Seven source body/text pairs were archived and exactly read back. The draft review covered only its cover page; the generated August packet did not supply the original executed moratorium. The original two-call Terra review held two publication assertions; a distinct one-call follow-up added the retained official notice and accepted conservative revised prose. Original holds and all three request/response records are preserved.
+
+The source update also corrects end-date screening to honor a recorded current endpoint before original-term arithmetic, avoiding a duplicate Lodi review. All 49 native historical generations remain unchanged. These recorded classifications and bounded source reviews do not certify universal current legal force or complete nationwide discovery.

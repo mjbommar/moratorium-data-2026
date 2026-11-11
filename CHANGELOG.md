@@ -1,10 +1,10 @@
 # Changelog
 
-## Working follow-up after post7 — publication pending
+## Qualified v2026.11.11.post8 — delivery pending
 
 Four independently reviewed Lowndes County fields record reported expiry and distinguish a November draft from adopted replacement rules. Active-to-expired changes one category; exact expiry and later force remain unresolved. Post7/V41 remains the verified public edition.
 
-| Metric | Working follow-up after post7 |
+| Metric | Qualified November 11 post8 |
 |---|---:|
 | Moratoria in the list | **1,328** |
 | Classified active or extended | **1085** |
