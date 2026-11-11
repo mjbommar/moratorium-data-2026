@@ -1,0 +1,1469 @@
+{
+  "observed_at": "2026-11-11T15:08:03.731193+00:00",
+  "site_url": "https://mjbommar.github.io/moratorium-data-2026/",
+  "site_source_commit": "564977782fbc79307fbb1d0bb5f57f45b1a2586f",
+  "html_pages": 64,
+  "verified_urls": 208,
+  "requested_urls": 208,
+  "all_linked_local_assets_and_current_downloads_match": true,
+  "errors": [],
+  "files": [
+    {
+      "path": "CITATION.cff",
+      "http_status": 200,
+      "bytes": 626,
+      "git_blob_oid": "e324f629c1a60d9205e9d6fa6b807e1d120369c4",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "LICENSE-data",
+      "http_status": 200,
+      "bytes": 17023,
+      "git_blob_oid": "13ca539f377dc705af32b8d2ce89262298ea2f06",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "README.md",
+      "http_status": 200,
+      "bytes": 6468,
+      "git_blob_oid": "e4986845260191a1601311c4d8afe5dd32676833",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "data/clause_extraction_analysis.json",
+      "http_status": 200,
+      "bytes": 7238,
+      "git_blob_oid": "3b0fd2db56d9b1eb8504319c413ea370f6970b83",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "data/expanded-csv/ballot_measures.csv",
+      "http_status": 200,
+      "bytes": 56715,
+      "git_blob_oid": "0841f61b5a8ad240e14ce03c1a9cbb73d0b92a72",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "data/expanded-csv/measure_results.csv",
+      "http_status": 200,
+      "bytes": 116114,
+      "git_blob_oid": "9671cc789861096c713d6181c9b21f7341722b08",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "data/expanded-csv/measure_results_current.csv",
+      "http_status": 200,
+      "bytes": 97173,
+      "git_blob_oid": "4786329c5ab5cc6811cf12f162fc0a7a4215c81c",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "data/expanded-snapshots/0d3783df2c0d66dabd7c36163910b9dfd4d88a6ff056032735975f97bb7fa906/publication.json",
+      "http_status": 200,
+      "bytes": 50220,
+      "git_blob_oid": "7f5444b90f487c4cab6f300f2453fb5725831d55",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "data/expanded-snapshots/3ce33d22288fa7bc7100c9ac621c041037702e8370af1e663d53a548ff794725/ballot_measures.jsonl",
+      "http_status": 200,
+      "bytes": 71671,
+      "git_blob_oid": "84f3bf52f9ec0284dc339c51b7222f23693e6eea",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "data/expanded-snapshots/7b960c58dd52c2f643647e306616966d4590a652c0b9caf11c108ea2edc3f421/publication.json",
+      "http_status": 200,
+      "bytes": 106345,
+      "git_blob_oid": "ba52b9365697965dbd6514bfb4ba7d59e1602e46",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "data/index.html",
+      "http_status": 200,
+      "bytes": 11340,
+      "git_blob_oid": "691945898af766e7b54fff54e241fe03cce376d1",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "data/moratorium-extraction.json",
+      "http_status": 200,
+      "bytes": 25345,
+      "git_blob_oid": "04ffa6d72ae6274bd917759c28e23f10e3c78dfb",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "data/moratorium_inventory.csv",
+      "http_status": 200,
+      "bytes": 1849154,
+      "git_blob_oid": "213c0e1962795cf36070d82a92e3615106ad3d3b",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "data/policy-scope/all-annotated.csv",
+      "http_status": 200,
+      "bytes": 403226,
+      "git_blob_oid": "6aa4be65122fe903d5c8755376b3a3fc2f564cfc",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "data/policy-scope/not-explicitly-excluded-candidates.csv",
+      "http_status": 200,
+      "bytes": 390826,
+      "git_blob_oid": "3ce1d7da504d8ec1a458c33423ebe3700f594cb7",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "data/policy-scope/reviewed-included.csv",
+      "http_status": 200,
+      "bytes": 349020,
+      "git_blob_oid": "bb09082f7912d93c790fc2c369fd5de1d2ae695e",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "data/release_metadata.json",
+      "http_status": 200,
+      "bytes": 25284,
+      "git_blob_oid": "e86ac4fcd322379dac6fc155e2dda112b968aec5",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "data/state_legislation.csv",
+      "http_status": 200,
+      "bytes": 379254,
+      "git_blob_oid": "0f9678ee7d89305d7b53c769514a03898ea1ec04",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "data/state_policy_scope_reviews.jsonl",
+      "http_status": 200,
+      "bytes": 1393068,
+      "git_blob_oid": "c9905d862bd29d5eec0508bc18c41f135155aab7",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "data/structured_extractions.jsonl",
+      "http_status": 200,
+      "bytes": 2027569,
+      "git_blob_oid": "56d3ac54cd46db5a3b867f2f733924fd9afd2a09",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "data/summary_stats.json",
+      "http_status": 200,
+      "bytes": 15337,
+      "git_blob_oid": "f891b0db8b802cbe1be790dfd4484a94076568b1",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "data/sweep_coverage.json",
+      "http_status": 200,
+      "bytes": 5654,
+      "git_blob_oid": "24a554377dfc3bd6fb46ea1be4c8bcdaabb781d3",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "docs/FAQ.html",
+      "http_status": 200,
+      "bytes": 10216,
+      "git_blob_oid": "1c7ad90a03ac0520bf72bc412e0b71049ca05811",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "docs/ballot-measures.html",
+      "http_status": 200,
+      "bytes": 24331,
+      "git_blob_oid": "4b00c205f79653ad0ffc603f776319252d525da0",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "docs/ballot-results.html",
+      "http_status": 200,
+      "bytes": 45399,
+      "git_blob_oid": "762b273a8a7d8ff0f54f446dffcbbe8f66d1ee1e",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "docs/ballot-semantic-definitions.md",
+      "http_status": 200,
+      "bytes": 5529,
+      "git_blob_oid": "1f7f1e193300df22621ee6b121bcfceb89bd9884",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "docs/codebook.html",
+      "http_status": 200,
+      "bytes": 39734,
+      "git_blob_oid": "8a5262632c4b10c2f445fde972d99c31d892ca36",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "docs/compound-condition-development.md",
+      "http_status": 200,
+      "bytes": 4929,
+      "git_blob_oid": "a0b76a549f404a338d0601700d7b90b8935f6310",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "docs/event-validity-publication.md",
+      "http_status": 200,
+      "bytes": 7927,
+      "git_blob_oid": "0f0d2627d0274fe65490fcce5f7b08e257bea316",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "docs/expanded-data-contracts.html",
+      "http_status": 200,
+      "bytes": 28701,
+      "git_blob_oid": "0d504c12c2fc8428a45dec48fad7bc60274ffafd",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "docs/expanded-identity-registry.html",
+      "http_status": 200,
+      "bytes": 10784,
+      "git_blob_oid": "e7427c5915fbca4ce0ba91586f74485a70b59080",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "docs/expanded-promotion.html",
+      "http_status": 200,
+      "bytes": 15500,
+      "git_blob_oid": "5fcf5e0fb8030506a857bd0789d3489411b57999",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "docs/instrument-events.md",
+      "http_status": 200,
+      "bytes": 6887,
+      "git_blob_oid": "f4054af8f38f71909f32ba72a85102e2551981dc",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "docs/known-gaps.html",
+      "http_status": 200,
+      "bytes": 73444,
+      "git_blob_oid": "f9707143ac31a7b5357559a57973a282e09924c9",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "docs/legacy-moratorium-identities.md",
+      "http_status": 200,
+      "bytes": 2733,
+      "git_blob_oid": "965cced8303249387f8fab975e5bca2b5f0ea86f",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "docs/methodology.html",
+      "http_status": 200,
+      "bytes": 14665,
+      "git_blob_oid": "28e2b66fa89d768257f67628a25b40f83c68cf20",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "docs/policy-scope-exports.html",
+      "http_status": 200,
+      "bytes": 11286,
+      "git_blob_oid": "a3d49bbe5e056d47662a4cf52f961d9e77a61746",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "docs/policy-succession-contract.html",
+      "http_status": 200,
+      "bytes": 7683,
+      "git_blob_oid": "cb2705d274dca67cb1c70e8758f7271130912111",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "docs/refresh-operations.md",
+      "http_status": 200,
+      "bytes": 89076,
+      "git_blob_oid": "2ab1d1ea566741e74342a40146859792d03f0228",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "figures/pdf/map-home-rule.pdf",
+      "http_status": 200,
+      "bytes": 858881,
+      "git_blob_oid": "58c422af7f92671b30b74fb2736d2f3cd74285f2",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "figures/pdf/map-legal-authority.pdf",
+      "http_status": 200,
+      "bytes": 863184,
+      "git_blob_oid": "f43c1946de56b70de4bcdba0c73f2b84bd8da087",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "figures/pdf/map-moratorium-counts.pdf",
+      "http_status": 200,
+      "bytes": 834555,
+      "git_blob_oid": "8671ebadbb06027a0ce8179a7a8b5552468a9fa3",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "figures/pdf/map-preemption.pdf",
+      "http_status": 200,
+      "bytes": 862167,
+      "git_blob_oid": "f0a7aae8fe62e0666ed0299c900bdb5a042dc8f9",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "figures/pdf/map-sector-composition.pdf",
+      "http_status": 200,
+      "bytes": 1677769,
+      "git_blob_oid": "16b9e59e9eec12a0a7550107fe1e40beeaf73626",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "figures/pdf/map-statutory-duration.pdf",
+      "http_status": 200,
+      "bytes": 836724,
+      "git_blob_oid": "5b1c3341573e88b8983f6194cc0217cfc3d0badd",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "figures/pdf/map-timeline-heatmap.pdf",
+      "http_status": 200,
+      "bytes": 78386,
+      "git_blob_oid": "361ba0ff90a89c82e007b85cf2574fbebad5e4cb",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "figures/png/map-home-rule.png",
+      "http_status": 200,
+      "bytes": 459979,
+      "git_blob_oid": "c21ad091930b1370e4185b0db1ce768bc9f7b26b",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "figures/png/map-legal-authority.png",
+      "http_status": 200,
+      "bytes": 450830,
+      "git_blob_oid": "3a8ad559ac5436c7ad4764bb5620c575121f7c04",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "figures/png/map-moratorium-counts.png",
+      "http_status": 200,
+      "bytes": 395031,
+      "git_blob_oid": "96d77181cf4da203dd6807dadc700078d663adcb",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "figures/png/map-preemption.png",
+      "http_status": 200,
+      "bytes": 449412,
+      "git_blob_oid": "87abcce665f64cb9ab7e71c5d304a400659fd775",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "figures/png/map-sector-composition.png",
+      "http_status": 200,
+      "bytes": 482304,
+      "git_blob_oid": "3d29845bdb70295e246571c2d11a2f1f37521f3c",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "figures/png/map-statutory-duration.png",
+      "http_status": 200,
+      "bytes": 406766,
+      "git_blob_oid": "e31e6b478d1af9f1953c8789d010b7fe0da5e296",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "figures/png/map-timeline-heatmap.png",
+      "http_status": 200,
+      "bytes": 506237,
+      "git_blob_oid": "9f42c58032380de95eaa08928c513a60ab74a45d",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "figures/svg/map-home-rule.svg",
+      "http_status": 200,
+      "bytes": 2317657,
+      "git_blob_oid": "89d7491b753241387cdaae4fe97a48f65f5911ff",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "figures/svg/map-legal-authority.svg",
+      "http_status": 200,
+      "bytes": 2322637,
+      "git_blob_oid": "0b2edef14da4b8ad32c384c1e59a7579612e3adc",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "figures/svg/map-moratorium-counts.svg",
+      "http_status": 200,
+      "bytes": 2157729,
+      "git_blob_oid": "4c0cf076297ee4600cbea925dbe381d824bd3a06",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "figures/svg/map-preemption.svg",
+      "http_status": 200,
+      "bytes": 2322148,
+      "git_blob_oid": "ed404db3e8b8adc0af4eb0e7d58fb76b9c0f6eb0",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "figures/svg/map-sector-composition.svg",
+      "http_status": 200,
+      "bytes": 4553857,
+      "git_blob_oid": "4d15e918c86a8d041b5575d1ef2781f38236d4d2",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "figures/svg/map-statutory-duration.svg",
+      "http_status": 200,
+      "bytes": 2170251,
+      "git_blob_oid": "09020821415a724898e934d9a2068210332b75db",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "figures/svg/map-timeline-heatmap.svg",
+      "http_status": 200,
+      "bytes": 1186610,
+      "git_blob_oid": "62e1f4bd4b6f869823080814ccb45f22450fd49f",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "index.html",
+      "http_status": 200,
+      "bytes": 46100,
+      "git_blob_oid": "c84828c7eea331d4271a33a7955349c936e46696",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "paper/moratorium-nation-2026-04-30.pdf",
+      "http_status": 200,
+      "bytes": 6136943,
+      "git_blob_oid": "efbaefa9e311f6c4834ed1491600cdcf7dba2265",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "scripts/apply_geo_overrides.py",
+      "http_status": 200,
+      "bytes": 31563,
+      "git_blob_oid": "0547eacaed3563e6820a5abb20e2e52dbdb9484e",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "site/moratoria.geojson",
+      "http_status": 200,
+      "bytes": 1233417,
+      "git_blob_oid": "9a2da4887caf8122aa9b47e764527324defaf948",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "site/timeline.svg",
+      "http_status": 200,
+      "bytes": 17232,
+      "git_blob_oid": "ff97063dde3cc1dd9f13fedb905fe3821918e2e9",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "states/alabama.html",
+      "http_status": 200,
+      "bytes": 58243,
+      "git_blob_oid": "44bf0d725f72428de1a20f314280c07fcef2838a",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "states/alaska.html",
+      "http_status": 200,
+      "bytes": 17041,
+      "git_blob_oid": "b0ec4562cb5f3e898ac09b931430d361214fa557",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "states/arizona.html",
+      "http_status": 200,
+      "bytes": 27035,
+      "git_blob_oid": "cb6308b9a354932517b978f5d70650c6712d7f3b",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "states/arkansas.html",
+      "http_status": 200,
+      "bytes": 30329,
+      "git_blob_oid": "dc56e014099e0d516fe0aa54641c08bc94aadd92",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "states/california.html",
+      "http_status": 200,
+      "bytes": 98393,
+      "git_blob_oid": "11375aa73567252173f9ac31ff274b3195667bee",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "states/colorado.html",
+      "http_status": 200,
+      "bytes": 80698,
+      "git_blob_oid": "95144ed2179f0fb5550b6ac07dc8dd81534f3759",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "states/connecticut.html",
+      "http_status": 200,
+      "bytes": 36832,
+      "git_blob_oid": "477299837231adbffd11ed7f25f90b23bcc18509",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "states/delaware.html",
+      "http_status": 200,
+      "bytes": 17438,
+      "git_blob_oid": "4cafd5bbf35725cfa2e0ccd254b4afec8f6019ba",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "states/florida.html",
+      "http_status": 200,
+      "bytes": 80534,
+      "git_blob_oid": "f0f9324bc672cec684d85ea831901dfee20a590f",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "states/georgia.html",
+      "http_status": 200,
+      "bytes": 157219,
+      "git_blob_oid": "80fc9a635e2dd9d0b712c5b079a633a7751bb8ce",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "states/hawaii.html",
+      "http_status": 200,
+      "bytes": 19071,
+      "git_blob_oid": "f059da0ce8db69dece5818dea8f52dc0ad6be1ce",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "states/idaho.html",
+      "http_status": 200,
+      "bytes": 29638,
+      "git_blob_oid": "c9f0c2bff9aa000a65b7761973d7e8911ee32319",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "states/illinois.html",
+      "http_status": 200,
+      "bytes": 91154,
+      "git_blob_oid": "d5cc46ef372312f59ad1ea094df5bafe0c9e860f",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "states/index.html",
+      "http_status": 200,
+      "bytes": 20929,
+      "git_blob_oid": "753a253bc96517520f6bb13ff33f49ddcf83befc",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "states/indiana.html",
+      "http_status": 200,
+      "bytes": 88215,
+      "git_blob_oid": "42456af677c991b10e4e5a5959f9c1bc968f4d61",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "states/iowa.html",
+      "http_status": 200,
+      "bytes": 135607,
+      "git_blob_oid": "04569f94f778b72fd8dac29cfafbb84622967512",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "states/kansas.html",
+      "http_status": 200,
+      "bytes": 82258,
+      "git_blob_oid": "c01e66641ff2ea04c838c666c64d59bbacaafbd1",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "states/kentucky.html",
+      "http_status": 200,
+      "bytes": 86137,
+      "git_blob_oid": "41f6fd97f7907aa1a0efa853efbf528f3a24f9bc",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "states/louisiana.html",
+      "http_status": 200,
+      "bytes": 20338,
+      "git_blob_oid": "a977c6d7c7e502cfc3914b45b49b1d24f37d61fe",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "states/maine.html",
+      "http_status": 200,
+      "bytes": 52263,
+      "git_blob_oid": "510545dc8865123a7ee70f1ce5204a11ddb206a1",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "states/maryland.html",
+      "http_status": 200,
+      "bytes": 81562,
+      "git_blob_oid": "77b7f144ab2b7fc0f09bad81d8cb6ad1c6d8d256",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "states/massachusetts.html",
+      "http_status": 200,
+      "bytes": 52221,
+      "git_blob_oid": "9c48593580f7df468370d4bda393bb0cb78ec4b9",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "states/michigan.html",
+      "http_status": 200,
+      "bytes": 292550,
+      "git_blob_oid": "df0b83a022e0b320cd1c9f4b3966a99b9ca31096",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "states/minnesota.html",
+      "http_status": 200,
+      "bytes": 88544,
+      "git_blob_oid": "d4a3668e8afeb2cb6b17bd2caff96ae5981b166b",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "states/mississippi.html",
+      "http_status": 200,
+      "bytes": 16931,
+      "git_blob_oid": "bb945609ad2133d20dd7119bd24e54112531ebe0",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "states/missouri.html",
+      "http_status": 200,
+      "bytes": 64382,
+      "git_blob_oid": "c9679d20abc74eb247c1b696b152634d7193d972",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "states/montana.html",
+      "http_status": 200,
+      "bytes": 20612,
+      "git_blob_oid": "fbe804b44dfd7bc16aa8a597da3468c3947d102b",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "states/nebraska.html",
+      "http_status": 200,
+      "bytes": 69746,
+      "git_blob_oid": "032b8c4ff42e581dd8380c331267501cf0093f46",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "states/nevada.html",
+      "http_status": 200,
+      "bytes": 31888,
+      "git_blob_oid": "21460a293e94df1da458d3a29a37a8b80816f7ef",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "states/new-hampshire.html",
+      "http_status": 200,
+      "bytes": 20985,
+      "git_blob_oid": "2bcc650fc98a65f08e9533c446a09d82c7a451bc",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "states/new-jersey.html",
+      "http_status": 200,
+      "bytes": 38615,
+      "git_blob_oid": "de346ae0ba9a6411ab7f12e99d71c60862474436",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "states/new-mexico.html",
+      "http_status": 200,
+      "bytes": 26867,
+      "git_blob_oid": "d9013ae5924ee051044c02380a6cf32bfc0d77e1",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "states/new-york.html",
+      "http_status": 200,
+      "bytes": 300107,
+      "git_blob_oid": "1d6ee0459bf7004e0204ac2f7b631e6fa18597aa",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "states/north-carolina.html",
+      "http_status": 200,
+      "bytes": 140147,
+      "git_blob_oid": "9e15c5a9d7589ecb68af13577bfda92f242f6675",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "states/north-dakota.html",
+      "http_status": 200,
+      "bytes": 36807,
+      "git_blob_oid": "d9e7f46900c5adb5d38c55221e6e4e62634073e2",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "states/ohio.html",
+      "http_status": 200,
+      "bytes": 326158,
+      "git_blob_oid": "0a0f819ad17bda793b918351d5f2f886a81b04f0",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "states/oklahoma.html",
+      "http_status": 200,
+      "bytes": 45690,
+      "git_blob_oid": "1514dd091b6ac7e1e883f959fa6861deb0d1bafd",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "states/oregon.html",
+      "http_status": 200,
+      "bytes": 25438,
+      "git_blob_oid": "55b232d34098af2fb20c8cfce3ba1fd1c8ea5394",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "states/pennsylvania.html",
+      "http_status": 200,
+      "bytes": 102499,
+      "git_blob_oid": "1c7f4e451d61aee416f0ee628226fbc50512111d",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "states/rhode-island.html",
+      "http_status": 200,
+      "bytes": 18864,
+      "git_blob_oid": "cbb34796af3c13efe0c4af0a2ed1691dcea61ad2",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "states/south-carolina.html",
+      "http_status": 200,
+      "bytes": 50823,
+      "git_blob_oid": "8d5c1c70f7a22f8479a1d01b8ad8206b3699ee64",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "states/south-dakota.html",
+      "http_status": 200,
+      "bytes": 34788,
+      "git_blob_oid": "f02fb74f86ad9530665cc7baf69a61de4929f9f7",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "states/tennessee.html",
+      "http_status": 200,
+      "bytes": 101100,
+      "git_blob_oid": "3fe4063de01dba49468e0f1f8afc0667cd8421a2",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "states/texas.html",
+      "http_status": 200,
+      "bytes": 47814,
+      "git_blob_oid": "6a8ba6b7db6809768809ad50e3c49abb35fbbe13",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "states/utah.html",
+      "http_status": 200,
+      "bytes": 35941,
+      "git_blob_oid": "4d3ce7bc2455c161825c03d01820de3be9058dba",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "states/vermont.html",
+      "http_status": 200,
+      "bytes": 12845,
+      "git_blob_oid": "a4113d0c403ed7ac6ee7be61d3134969915c9f06",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "states/virginia.html",
+      "http_status": 200,
+      "bytes": 49127,
+      "git_blob_oid": "bfd7c0732dc69222e4ec1c4dbbb3b57b8e5e3216",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "states/washington.html",
+      "http_status": 200,
+      "bytes": 106389,
+      "git_blob_oid": "572ad43ea24b7fb338113d681a813e4c58303a41",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "states/west-virginia.html",
+      "http_status": 200,
+      "bytes": 29754,
+      "git_blob_oid": "783bca109571c072fb8ad3b95300305dd9fa500c",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "states/wisconsin.html",
+      "http_status": 200,
+      "bytes": 91368,
+      "git_blob_oid": "dbd7dc9d07cb12d0bdbab72957e2141353aa172b",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "states/wyoming.html",
+      "http_status": 200,
+      "bytes": 20740,
+      "git_blob_oid": "b36e463aaefa8583b81a2c338dbdc4e8a4c4a607",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "work/audit/ballot-release-dispositions-2026-11-06.json",
+      "http_status": 200,
+      "bytes": 4768,
+      "git_blob_oid": "ce98fa2d9bf6b41346d69c9fc43b0e8c27f97d02",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "work/audit/freshness-index-review-2026-11-07.json",
+      "http_status": 200,
+      "bytes": 1841,
+      "git_blob_oid": "ebb417eb6a362e830ad6f8cfb97b325a29ca4ca2",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "work/audit/legacy-source-migration-seattle-identity-2026-11-06.json",
+      "http_status": 200,
+      "bytes": 486,
+      "git_blob_oid": "26fb5f8cf26261d2a61f8e0428d7552149781af1",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "work/audit/ohio-place-coordinate-postreview-2026-11-06.json",
+      "http_status": 200,
+      "bytes": 38609,
+      "git_blob_oid": "2d43950ec237a0a18b413c283c6d3e207141550e",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "work/audit/refresh-field-accounting-2026-11-07.md",
+      "http_status": 200,
+      "bytes": 2183,
+      "git_blob_oid": "9edba17ff5a8e06f43ccdc79aa5366275ddfec06",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "work/audit/sabattus-canonical-publication-2026-11-05.json",
+      "http_status": 200,
+      "bytes": 522,
+      "git_blob_oid": "63bcaea609343bf6b3ab7997440667916e25b334",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "work/audit/sabattus-canonical-replay-2026-11-05.json",
+      "http_status": 200,
+      "bytes": 113,
+      "git_blob_oid": "aeacfce8d92dc113117167a6e46a254e78367a82",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "work/audit/sabattus-publication-consistency-2026-11-05.json",
+      "http_status": 200,
+      "bytes": 705,
+      "git_blob_oid": "15b35ebefd0bd47bdc340b7ef2c80cd4da9b3635",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "work/research/2026-11-05/ballot-census-review/canonical-projection-status.json",
+      "http_status": 200,
+      "bytes": 56410,
+      "git_blob_oid": "524d8f30b2c746c78ce9d8a5a2c9e2582036814f",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "work/research/2026-11-05/california-ballot-review/README.md",
+      "http_status": 200,
+      "bytes": 6890,
+      "git_blob_oid": "113681f1572a9012681383857025c3722e2cd5cc",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "work/research/2026-11-05/california-promotion/README.md",
+      "http_status": 200,
+      "bytes": 3467,
+      "git_blob_oid": "c3956ef54ba0368fc9fe1647a20a610e26940ebc",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "work/research/2026-11-05/illinois-township-promotion/README.md",
+      "http_status": 200,
+      "bytes": 2958,
+      "git_blob_oid": "89a2b14e1c385ab35300de7d233cf1f522689990",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "work/research/2026-11-05/maine-native-jpeg-review/README.md",
+      "http_status": 200,
+      "bytes": 2291,
+      "git_blob_oid": "f16de2a6bad5741b03afa4b102983c0c445bc4a5",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "work/research/2026-11-05/peru-native-image-review/README.md",
+      "http_status": 200,
+      "bytes": 1592,
+      "git_blob_oid": "18ee47396b311e252d99046f39072eec978fb5a0",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "work/research/2026-11-05/reviewed-louisiana-massachusetts/review.json",
+      "http_status": 200,
+      "bytes": 4849,
+      "git_blob_oid": "cf6bdea8339a32e25315dfb06e692b81f6540b2e",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "work/research/2026-11-05/sabattus-promotion/publication-plan.json",
+      "http_status": 200,
+      "bytes": 91691,
+      "git_blob_oid": "c297f365a0abb0610d578deb278a71089643fad7",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "work/research/2026-11-06/alabama-georgia-discovery-review/README.md",
+      "http_status": 200,
+      "bytes": 4680,
+      "git_blob_oid": "9c6e621aa55c41da30e2be5a7c888e086bdb8f24",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "work/research/2026-11-06/carolinas-virginia-discovery-review/README.md",
+      "http_status": 200,
+      "bytes": 5057,
+      "git_blob_oid": "fa7c1247c0a9a67f8b6fb6db3c4ee60c6bc39c61",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "work/research/2026-11-06/compound-clause-source-review/README.md",
+      "http_status": 200,
+      "bytes": 6401,
+      "git_blob_oid": "c6910d0dc4964bdc08a8c0776e7a11ada270ae86",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "work/research/2026-11-06/duration-encoding-review/README.md",
+      "http_status": 200,
+      "bytes": 5423,
+      "git_blob_oid": "128a8fe65d3696d94e4672b69923954ddb0423dc",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "work/research/2026-11-06/duration-encoding-review/withheld-source-requirements.json",
+      "http_status": 200,
+      "bytes": 128208,
+      "git_blob_oid": "85ef96af2eca26d5817599180a23575023596002",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "work/research/2026-11-06/elmwood-instrument-review/README.md",
+      "http_status": 200,
+      "bytes": 2977,
+      "git_blob_oid": "5cb80da2564b9c97f1cf2ee9212cfdaf3c2cba18",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "work/research/2026-11-06/event-validity-migration/README.md",
+      "http_status": 200,
+      "bytes": 4831,
+      "git_blob_oid": "b3a9444aeee9a70fb303325ff28afa070cc9ae79",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "work/research/2026-11-06/frenchtown-instrument-review/README.md",
+      "http_status": 200,
+      "bytes": 1656,
+      "git_blob_oid": "3bf6c63768992168e7e0369e31fe882b89648e05",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "work/research/2026-11-06/idaho-discovery-review/README.md",
+      "http_status": 200,
+      "bytes": 2615,
+      "git_blob_oid": "8e34e39fb99b3e1f14902d7474350b11a4fe0b94",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "work/research/2026-11-06/illinois-action-review/README.md",
+      "http_status": 200,
+      "bytes": 2501,
+      "git_blob_oid": "3c54e6d4685988da128b7a4999696a2aa595ca89",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "work/research/2026-11-06/kansas-discovery-review/README.md",
+      "http_status": 200,
+      "bytes": 2946,
+      "git_blob_oid": "e15f9f76c85ce3e8973b2c7e4489e1f71b930a4f",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "work/research/2026-11-06/kent-instrument-review/README.md",
+      "http_status": 200,
+      "bytes": 1918,
+      "git_blob_oid": "0e36f83a9b8c9d1b050a53171239299e80f2813a",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "work/research/2026-11-06/kentucky-louisiana-discovery-review/README.md",
+      "http_status": 200,
+      "bytes": 5019,
+      "git_blob_oid": "7f3362912061a4d5a7308e3701bab8006b140b67",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "work/research/2026-11-06/maryland-new-jersey-discovery-review/README.md",
+      "http_status": 200,
+      "bytes": 3687,
+      "git_blob_oid": "e185f303c12e63c28693fb32ea0852adb96a2539",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "work/research/2026-11-06/massachusetts-pennsylvania-discovery-review/README.md",
+      "http_status": 200,
+      "bytes": 5048,
+      "git_blob_oid": "0df2daa18656bdd90088d3930599288ff0dc1129",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "work/research/2026-11-06/minnesota-discovery-review/README.md",
+      "http_status": 200,
+      "bytes": 2781,
+      "git_blob_oid": "8e5dc17113cf5d5a538bcefebb409ec888c0e963",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "work/research/2026-11-06/nj-chapter-portal-review/README.md",
+      "http_status": 200,
+      "bytes": 1254,
+      "git_blob_oid": "8aa74cafae34871a5a4ac8fd5b9f95cbc07af40f",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "work/research/2026-11-06/nj-chapter75-followup/README.md",
+      "http_status": 200,
+      "bytes": 1249,
+      "git_blob_oid": "d4c3cea9167fed42257e7c332e16d99f4a597a1f",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "work/research/2026-11-06/nj-policy-wave2/README.md",
+      "http_status": 200,
+      "bytes": 5612,
+      "git_blob_oid": "e8ade616ef07c83653702e44d8ea3b150bcb2b44",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "work/research/2026-11-06/nj-policy-wave2/chapter75-index-followup.json",
+      "http_status": 200,
+      "bytes": 1942,
+      "git_blob_oid": "455fab20580796624a5ddf79d3dc0f8fa795ae95",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "work/research/2026-11-06/north-dakota-discovery-review/README.md",
+      "http_status": 200,
+      "bytes": 2559,
+      "git_blob_oid": "f0e610739627672461f814957f46529301cb0aff",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "work/research/2026-11-06/ohio-municipal-geography-review/README.md",
+      "http_status": 200,
+      "bytes": 1294,
+      "git_blob_oid": "ac5c9784af6a7cc6b34e72fa0be2f9b6e7355640",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "work/research/2026-11-06/pa-va-policy-review/precursor-links.json",
+      "http_status": 200,
+      "bytes": 2839,
+      "git_blob_oid": "2e39394b811bebefe0571d28aecd115800a798d8",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "work/research/2026-11-06/perry-geography-review/README.md",
+      "http_status": 200,
+      "bytes": 1053,
+      "git_blob_oid": "31a43769c0a55e8d6c60f9660d7d13fd83e62e32",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "work/research/2026-11-06/plains-mountain-discovery-review/README.md",
+      "http_status": 200,
+      "bytes": 2554,
+      "git_blob_oid": "05496f5c5b970729d86f121ed0495e8dd5090b7b",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "work/research/2026-11-06/rhode-island-discovery-review/README.md",
+      "http_status": 200,
+      "bytes": 2798,
+      "git_blob_oid": "6ddd0b3dce0890fc7f05a90436ccdec3012cce9c",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "work/research/2026-11-06/seattle-identity-review/README.md",
+      "http_status": 200,
+      "bytes": 4338,
+      "git_blob_oid": "043b7c2d9d05aad20a0a3a535ac049a68aa481fd",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "work/research/2026-11-06/seattle-survivor-reconciliation/README.md",
+      "http_status": 200,
+      "bytes": 2932,
+      "git_blob_oid": "62ab57888ef770c8ea53127068bfa0cd6877c18c",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "work/research/2026-11-06/tennessee-discovery-review/README.md",
+      "http_status": 200,
+      "bytes": 2444,
+      "git_blob_oid": "ec411d101b8a8f80eb34946fe6d6ce5564cd08fa",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "work/research/2026-11-06/texas-discovery-review/README.md",
+      "http_status": 200,
+      "bytes": 2456,
+      "git_blob_oid": "7dbd0b2af6aad62f174dcab1a8566820cc5a1281",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "work/research/2026-11-06/washington-discovery-review/README.md",
+      "http_status": 200,
+      "bytes": 2275,
+      "git_blob_oid": "95b2d80e1adfd307ec0e3834079f389534ddb209",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "work/research/2026-11-07/alabama-source-adjudication/README.md",
+      "http_status": 200,
+      "bytes": 3715,
+      "git_blob_oid": "590f35e86a19d48175359be0ebef955c29bb210c",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "work/research/2026-11-07/california-original-term-review/README.md",
+      "http_status": 200,
+      "bytes": 5749,
+      "git_blob_oid": "c5fda492ec96b293b26070c993fce29e70f65857",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "work/research/2026-11-07/california-successor-stage-review/README.md",
+      "http_status": 200,
+      "bytes": 1514,
+      "git_blob_oid": "25aead9ca1e83b67002bd6d60a27a7354834288c",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "work/research/2026-11-07/clarksville-proposal-publication/README.md",
+      "http_status": 200,
+      "bytes": 3462,
+      "git_blob_oid": "9ff0f7cd40839e7a172e55561461c8015896a4e4",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "work/research/2026-11-07/coachella-legacy-source-review/README.md",
+      "http_status": 200,
+      "bytes": 1922,
+      "git_blob_oid": "57b112bd0ed07e461e4a3a1553aee2bdf4e62136",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "work/research/2026-11-07/coachella-restriction-history-migration/README.md",
+      "http_status": 200,
+      "bytes": 2604,
+      "git_blob_oid": "d79b2cc26a955bfa1fbe9fc5ebc99627d5228936",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "work/research/2026-11-07/cross-sector-term-adjudication/README.md",
+      "http_status": 200,
+      "bytes": 1709,
+      "git_blob_oid": "4c21ca88f6dde7354346d316064df13a9575dcbf",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "work/research/2026-11-07/georgia-first-four-field-review/README.md",
+      "http_status": 200,
+      "bytes": 1678,
+      "git_blob_oid": "dc51b9fe47cfdfe1b0b54dea582bdeae9dea0f78",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "work/research/2026-11-07/georgia-second-four-field-review/README.md",
+      "http_status": 200,
+      "bytes": 2071,
+      "git_blob_oid": "e9027add58b66526d34f2eae795d13e791138985",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "work/research/2026-11-07/minnesota-terminal-status-review/README.md",
+      "http_status": 200,
+      "bytes": 1793,
+      "git_blob_oid": "828e39f1198f81ac2ec7fabe45f835445105cd94",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "work/research/2026-11-07/morro-bay-council-review/README.md",
+      "http_status": 200,
+      "bytes": 3302,
+      "git_blob_oid": "e390e6e8cdfb6d5b6a86d618ed4c3ff135e217f3",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "work/research/2026-11-07/morro-bay-event-migration/README.md",
+      "http_status": 200,
+      "bytes": 1921,
+      "git_blob_oid": "4f1a589e58ba63116e0f78998b67cd88b3ed07d6",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "work/research/2026-11-07/ohio-history-followup/README.md",
+      "http_status": 200,
+      "bytes": 2587,
+      "git_blob_oid": "dd11fa583daecfb17fa618fc74838f812473d549",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "work/research/2026-11-07/ohio-result-reobservation/README.md",
+      "http_status": 200,
+      "bytes": 1723,
+      "git_blob_oid": "ee5adbef65f3e18e60fc21be8e00a288bf118c95",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "work/research/2026-11-07/ohio-six-record-closeout/README.md",
+      "http_status": 200,
+      "bytes": 1654,
+      "git_blob_oid": "463c4c9e55271606d99f2e6988c8517ba1a21071",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "work/research/2026-11-07/original-instrument-recovery/README.md",
+      "http_status": 200,
+      "bytes": 1785,
+      "git_blob_oid": "c58716dd460b8bc3138ea1056d33dde8edc9bfe2",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "work/research/2026-11-07/original-term-eight-source-adjudication/remaining-original-term-requirements.json",
+      "http_status": 200,
+      "bytes": 119027,
+      "git_blob_oid": "385d0f8e00c45ae7eb2d6a4b7eb11c79af5fe734",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "work/research/2026-11-07/overdue-local-record-review/README.md",
+      "http_status": 200,
+      "bytes": 2797,
+      "git_blob_oid": "244a44f6ddb2afbe49b4aab87c1a4b5306bbb50f",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "work/research/2026-11-07/seattle-history-followup/README.md",
+      "http_status": 200,
+      "bytes": 2623,
+      "git_blob_oid": "3e0578b6c1900b15f496a7b8280ff1db75ca6080",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "work/research/2026-11-07/state-policy-forms/README.md",
+      "http_status": 200,
+      "bytes": 4110,
+      "git_blob_oid": "258833289c2cc0cb4a2ff6dfbacc12de272efbff",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "work/research/2026-11-07/trenton-result-classification/README.md",
+      "http_status": 200,
+      "bytes": 2581,
+      "git_blob_oid": "ddf72f9ca66b051d11e1f534c13385946d46e4bf",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "work/research/2026-11-08/ballot-current-accounting/README.md",
+      "http_status": 200,
+      "bytes": 2239,
+      "git_blob_oid": "874b753de2cd0bb668607c66bcd39c114f682287",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "work/research/2026-11-08/full-inventory-integrated-application/README.md",
+      "http_status": 200,
+      "bytes": 4108,
+      "git_blob_oid": "69844e3245a32fc1a59503dc16206c3279e8ea1c",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "work/research/2026-11-08/full-record-dispositions/README.md",
+      "http_status": 200,
+      "bytes": 3823,
+      "git_blob_oid": "4f81cb430b3b0c5f5a4d17ccc3a2d2cbdf8a3bd7",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "work/research/2026-11-08/policy-52-scope-reconciliation/README.md",
+      "http_status": 200,
+      "bytes": 2204,
+      "git_blob_oid": "f43094cc3c9d76fd79e467ec12e95677b8bdb126",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "work/research/2026-11-08/policy-scope-wave2-reconciliation/README.md",
+      "http_status": 200,
+      "bytes": 2062,
+      "git_blob_oid": "d0606e3d7f7ee23cc816c5f84f3b1c0d56434e5f",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "work/research/2026-11-08/policy-scope-wave3-reconciliation/README.md",
+      "http_status": 200,
+      "bytes": 1435,
+      "git_blob_oid": "c6cef565907d701eae6f51e04c79cd489a813340",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "work/research/2026-11-08/policy-scope-wave4-reconciliation/README.md",
+      "http_status": 200,
+      "bytes": 1448,
+      "git_blob_oid": "f76afa7334178fddd012436cd44336afc470b857",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "work/research/2026-11-08/policy-scope-wave5-reconciliation/README.md",
+      "http_status": 200,
+      "bytes": 1309,
+      "git_blob_oid": "0b00bc69eb3c844b2a1839976fb8f91fac38c8a6",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "work/research/2026-11-09/post-release-qa/alaska-terminal-adjudications.json",
+      "http_status": 200,
+      "bytes": 6875,
+      "git_blob_oid": "7e6e254257905b5aa2524dbfce3b94ecc4ce3d52",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "work/research/2026-11-09/post-release-qa/massachusetts-energy-integration.json",
+      "http_status": 200,
+      "bytes": 1157,
+      "git_blob_oid": "0de617b02b5d1bba330c957a5bb281a2f5dfa66b",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "work/research/2026-11-09/post-release-qa/missing-geography-application.json",
+      "http_status": 200,
+      "bytes": 101607,
+      "git_blob_oid": "3afdacf7cb43952773135b1e1b83b36b91f53de5",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "work/research/2026-11-09/post-release-qa/new-jersey-a5462-adjudication.json",
+      "http_status": 200,
+      "bytes": 3649,
+      "git_blob_oid": "87db89c888638d65c9a6704834084952147360ba",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "work/research/2026-11-09/post-release-qa/nonblank-geography-application.json",
+      "http_status": 200,
+      "bytes": 41489,
+      "git_blob_oid": "6f668bc43e68a05459d07e1c84fb6cba9b017ca2",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "work/research/2026-11-09/post-release-qa/nonblank-geography-audit.json",
+      "http_status": 200,
+      "bytes": 13016,
+      "git_blob_oid": "f4760f28b8cd7f3b0a9452f9a749ae4efcce407f",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "work/research/2026-11-09/post-release-qa/nonblank-geography-review.json",
+      "http_status": 200,
+      "bytes": 36527,
+      "git_blob_oid": "d6d0e44e89ee42d05aaa7f879a7fa65273851f71",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "work/research/2026-11-09/post-release-qa/outstanding-record-questions.jsonl",
+      "http_status": 200,
+      "bytes": 824669,
+      "git_blob_oid": "e9ee43d45f4482ef5c9271c377a00d54099462bb",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "work/research/2026-11-09/starke-expanded-review/README.md",
+      "http_status": 200,
+      "bytes": 2459,
+      "git_blob_oid": "bf3ebaff692bc579d1b241f807e6b68466d4fab6",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "work/research/2026-11-09/starke-succession-review/README.md",
+      "http_status": 200,
+      "bytes": 2163,
+      "git_blob_oid": "a8009e019c0fa8ef25f7dfc6bc54dd1feafcc80e",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "work/research/2026-11-10/post-release-qa/massachusetts-independent-review-application.md",
+      "http_status": 200,
+      "bytes": 3569,
+      "git_blob_oid": "4a13a15c0ca1962b855ec2d5d81216afcd27701f",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "work/research/2026-11-10/post-release-qa/massachusetts-origin-attribution-application.md",
+      "http_status": 200,
+      "bytes": 2452,
+      "git_blob_oid": "d3ec44b4b1ebb52b51a36de7986b26f01b278593",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "work/research/2026-11-10/post-release-qa/policy-reviewed-batch-application.json",
+      "http_status": 200,
+      "bytes": 16238,
+      "git_blob_oid": "e57e387190616745036d8088fe363bb9fdf62d28",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "work/schemas/expanded/1.0.0.json",
+      "http_status": 200,
+      "bytes": 38023,
+      "git_blob_oid": "efd27c3bdabd50319185ef0fa3618eb86cce0e54",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "work/schemas/expanded/1.0.4.json",
+      "http_status": 200,
+      "bytes": 99736,
+      "git_blob_oid": "c7911b50d9522d8ff1ddece6e60fb20ae3fe03c1",
+      "matches_pinned_source": true
+    },
+    {
+      "path": "work/schemas/expanded/fixtures/synthetic/jurisdictions.jsonl",
+      "http_status": 200,
+      "bytes": 263,
+      "git_blob_oid": "23dda3654e2b5d9b4635e16fa002610bf8e62c75",
+      "matches_pinned_source": true
+    }
+  ],
+  "scope": "Every generated public HTML page, its local links/assets, every published figure, current data downloads, README and metadata compared to exact pinned Git blob bytes. Complete workflow artifact separately verifies historical file continuity; this is not source/legal acceptance."
+}

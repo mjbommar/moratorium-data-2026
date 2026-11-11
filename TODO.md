@@ -1009,6 +1009,10 @@ Exit: repeatable refresh with visible freshness, costs, failures and unresolved 
 
 - [x] Final post10/V44 delivery:16cells/three rows,64HTMLpages,230resources,8,772payloadfiles and49nativegenerations verified. Long map popups now scroll within desktop/mobile map viewports. No category/count changes or whole-recordclosures.
 
-- [ ] Include two reviewed St. Clair Township Butler County Ohio prose updates in the next combined batch after post10/V44: November11report describes commissionactions but explicitly retains finaltrusteeapprovalpending. Originalresolution, May4/May5date discrepancy, interval and laterforce remain unresolved; no status/date/count changes.
+- [x] Include two reviewed St. Clair Township Butler County Ohio prose updates in the next combined batch after post10/V44: November11report describes commissionactions but explicitly retains finaltrusteeapprovalpending. Originalresolution, May4/May5date discrepancy, interval and laterforce remain unresolved; no status/date/count changes.
 
-- [ ] Deliver three Fort Collins reviewed prose revisions with St Clair in the next combined publication: completed October6Resolution2026-117adoption5-1 and October20Ordinance147firstreading; finalordinance/executedtext/effect/currentforce remain open. Fivefields/tworows total; no category/count changes.
+- [x] Deliver three Fort Collins reviewed prose revisions with St Clair in the next combined publication: completed October6Resolution2026-117adoption5-1 and October20Ordinance147firstreading; finalordinance/executedtext/effect/currentforce remain open. Fivefields/tworows total; no category/count changes.
+
+- [x] Qualified post11/V45 and current dashboard delivery verified: five prose fields across St Clair and Fort Collins; final adopted texts, effect/interval/laterforce and broader1346recordQA remain open.
+
+- [x] Rewrite public overview copy and shared page templates in plain American English using the writing-style guidance. All103number checks and32focusedtests pass; current64HTMLpages, both changed state records and63mobile document widths verified. Editorial style is documented for future updates.

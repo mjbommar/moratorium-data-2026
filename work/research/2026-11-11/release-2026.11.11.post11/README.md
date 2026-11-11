@@ -5,3 +5,5 @@ This release corrects five text fields in two records. St. Clair Township, Butle
 The public pages have also passed deployment checks. The review queue still has 1,346 open records.
 
 [Changes](dataset-delta.json) · [Build checks](build-and-assets.json) · [Restore checks](clean-restore.json) · [Download checks](public-verification.json).
+
+[Final delivery](final-delivery-verification.json): exact uploaded payload, 49 historical generations, all 64 HTML pages, linked downloads, full final browser checks and all five updated prose values verified.
