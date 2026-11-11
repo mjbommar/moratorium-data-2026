@@ -980,3 +980,6 @@ Exit: repeatable refresh with visible freshness, costs, failures and unresolved 
 - [x] Inspect all five signed Houston October8 council-minute pages: direct unanimous-adoption corroboration matches current data; undated minutes signatures do not supply ordinance execution/effect. Two new source pairs archived and exactly read back, one residual question refined; no canonical/publication change.
 
 - [x] Check Mattoon actual meeting archive/September1landing page and one minutes Download click. Three navigation captures archived/read back; no PDF acquired. Record proposed Resolution2026-3352 versus canonical ordinance identity discrepancy explicitly, with no promotion from agenda snippet. One residual queue entry refined; unchanged-route retries excluded.
+
+- [x] Recover three Alachua packets and inspect decisive pages; archive/read back six exact source pairs. Three tool-free Terra requests independently accept four prose corrections separating September14motion5-0 from October5firstreading4-1. Preserve initial legal-basis hold and separately accepted revision. Active classification/counts unchanged; final adopted instrument/effect/laterforce unresolved.
+- [ ] Deliver four accepted Alachua prose corrections in the next combined release, consumer handoff and verified Pages update; post4/V38 remains the verified public version until then.

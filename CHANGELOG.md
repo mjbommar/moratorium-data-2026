@@ -1,5 +1,18 @@
 # Changelog
 
+## Qualified v2026.11.11.post5 — delivery pending
+
+Four Alachua prose corrections distinguish the September 14 motion (5–0) from the October 5 first reading (4–1). Final adoption, effectiveness and later force remain unresolved. Status, headline counts, dates, endpoints and native history are unchanged; 1,347 reviews remain unresolved. Deterministic builds, restore, downloads, V39 and hosted verification are pending.
+
+| Metric | Qualified November 11 post5 |
+|---|---:|
+| Moratoria in the list | **1,328** |
+| Classified active or extended | **1,086** |
+| Pending or not yet effective | **64** |
+| Ended (replaced, expired, or rescinded) | **172** |
+| Rows we still want to confirm (`[VERIFY]`) | **979** |
+| States with at least one | **47** |
+
 ## Qualified v2026.11.11.post4
 
 Six East Whiteland fields recover both signed resolutions and exact March 31 adoption. Replacement/endpoint proposals remain held; full independent ordinance-image followup is incomplete after an orchestration failure. No status/headline/endpoint/native changes; 1,347 reviews remain unresolved. Two identical builds, full clean restore, ten anonymous downloads, V38 and current hosted desktop/mobile checks pass.

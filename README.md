@@ -1,10 +1,12 @@
 # Moratorium Data 2026
 
-**Qualified post4 release and website verified:** [v2026.11.11.post4](https://github.com/mjbommar/moratorium-data-2026/releases/tag/v2026.11.11.post4) and V38 deliver six East Whiteland corrections. Two identical builds, full clean restore, ten anonymous downloads, V38 and current hosted desktop/mobile checks pass. Broader QA continues.
+**Qualified post5 preparation:** Four reviewed Alachua prose corrections are prepared for v2026.11.11.post5 / V39. Delivery checks pending; post4/V38 remains verified. Broader QA continues.
 
 **Reviewed corrections:** Signed Mendocino Ordinances 4561 and 4562 establish historical adoption, votes, terms and literal threshold wording. Intended scope, later force and actual applicability remain qualified. Counts, categories, normalized dates and native history are unchanged. [Exact delta](work/research/2026-11-11/release-2026.11.11/dataset-delta.json).
 
-**Latest East Whiteland correction:** Six East Whiteland corrections recover both signed original resolutions, exact March 31 adoption and distinct April 27 findings. No status, endpoint or headline changes. Replacement/date proposals remain held; full independent ordinance-image follow-up is incomplete after orchestration failure. Later force remains unresolved. There remain 1,347 unresolved reviews. Two identical builds, full clean restore, ten anonymous downloads, V38 and current hosted desktop/mobile checks pass. [Evidence](work/research/2026-11-11/post-release-qa/east-whiteland-original-review.md).
+**Latest Alachua correction:** The September 14 motion passed 5–0; Ordinance 26-17 passed first reading on October 5 by 4–1. Final adoption/effect and later force remain unresolved. Four prose cells corrected; no status or headline change. [Evidence](work/research/2026-11-11/post-release-qa/alachua-reading-review.md).
+
+**Prior East Whiteland correction:** Six East Whiteland corrections recover both signed original resolutions, exact March 31 adoption and distinct April 27 findings. No status, endpoint or headline changes. Replacement/date proposals remain held; full independent ordinance-image follow-up is incomplete after orchestration failure. Later force remains unresolved. There remain 1,347 unresolved reviews. Two identical builds, full clean restore, ten anonymous downloads, V38 and current hosted desktop/mobile checks pass. [Evidence](work/research/2026-11-11/post-release-qa/east-whiteland-original-review.md).
 
 **Prior Cedartown correction:** Six Cedartown corrections confirm the approved October 12 six-month extension. Active 887 and extended 199 retain 1,086 recorded in force. Exact operative interval, any intervening lapse and later force remain unresolved; no endpoint is inferred. There remain 1,347 unresolved reviews. Two identical builds, full clean restore, ten anonymous downloads, V37 and current hosted desktop/mobile checks pass. [Evidence](work/research/2026-11-11/post-release-qa/cedartown-extension-review.md).
 
@@ -182,7 +184,7 @@ A `CITATION.cff` file is included in the repo so GitHub renders a "Cite this rep
 - **Data** (`data/`, `states/`, `tables/`, `figures/`) is licensed under [Creative Commons Attribution 4.0 (CC-BY-4.0)](LICENSE-data). You can reuse, redistribute, and remix the data, including commercially, as long as you credit the source.
 - **Code** (`scripts/`, `notebooks/`, `examples/`) is licensed under the [MIT License](LICENSE-code).
 
-The latest qualified release is [v2026.11.11.post4](https://github.com/mjbommar/moratorium-data-2026/releases/tag/v2026.11.11.post4), published November 11 with explicit pending QA. Two identical builds, full clean restore, ten anonymous downloads, V38 and current hosted desktop/mobile checks pass. Original research cutoff and September baseline are unchanged. [Release receipts](work/research/2026-11-11/release-2026.11.11.post4/README.md).
+The latest qualified release is [v2026.11.11.post5](https://github.com/mjbommar/moratorium-data-2026/releases/tag/v2026.11.11.post5), prepared November 11 with explicit pending QA. Four Alachua prose corrections separate the September motion from October first reading. Final adoption/effect remain unresolved. Delivery checks pending; post4/V38 remains verified. [Release receipts](work/research/2026-11-11/release-2026.11.11.post5/README.md).
 
 ---
 

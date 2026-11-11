@@ -55,15 +55,15 @@ State policy is tracked separately: **6 records** (6 typed bill rows) in [`state
 - **Recorded status:** 🟢 Active
 - **Date enacted:** —
 - **Normalized date:** `—` (unverified)
-- **Duration:** 12 months (reported approved; effective date unverified)
+- **Duration:** Twelve months were directed in the September 14, 2026 commission motion. Proposed Ordinance 26-17 specifies twelve months from its effective date, with possible earlier termination and a separately adopted extension; the final adopted text and operative effective-date anchor remain unverified.
 - **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `fl-alachua-undated`
-- **Legal basis:** City of Alachua proposed Ordinance 26-17, identified in the city business-impact estimate; the news report describes later approval of a 12-month moratorium. The enrolled adopted text and effective date remain unverified.
+- **Legal basis:** City Commission September 14, 2026 motion to establish a temporary twelve-month moratorium and prepare an implementing ordinance; minutes reproduced in the official October 5 packet report passage 5-0. Ordinance 26-17 subsequently passed first reading on October 5 by 4-1, according to the unsigned October 5 minutes reproduced for approval. The October 26 staff report reports first-reading passage and recommends second and final adoption; its attached instrument is unsigned. Final adoption and effectiveness remain unverified.
 - **What prompted it:** Resource-intensive/extractive facility concerns; no data center project currently proposed
 - **Affected projects:** —
-- **Detailed status:** Pending as of 2026-09-23; City Planning & Zoning board passed a motion for a 12-month data center moratorium; City Commission scheduled to review and act 2026-09-28 (after the reference date of this research pass). [VERIFY instrument number; adoption date; primary source (news-only evidence) not confirmed at confidence 0.65 in the 2026-09 refresh] Later, Mainstreet Daily News reported on 2026-10-07 that the City Commission unanimously approved a 12-month moratorium at a meeting rescheduled from September 28; the adopted instrument, effective date, and present force remain unverified.
-- **Outcome:** City Commission approval reported 2026-10-07; adopted instrument and current force unverified.
+- **Detailed status:** Recorded active; exact operative status remains qualified. September 14 minutes record a 5-0 motion to establish a twelve-month moratorium and direct an implementing ordinance. October 5 minutes record Ordinance 26-17 passing first reading 4-1, with Commissioner Youmas dissenting, and scheduling final reading for October 12. The later October 26 packet places it on second reading; that agenda and its unsigned draft do not establish final adoption. [VERIFY final adopted instrument, effective date, subsequent action and present force.]
+- **Outcome:** Official records establish the September 14 moratorium motion and October 5 first-reading passage of Ordinance 26-17, rather than unanimous final ordinance adoption at that October meeting. Final adopted text, effective date and present force remain unverified.
 
 ### Bay County
 

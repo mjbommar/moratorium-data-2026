@@ -358,7 +358,7 @@ anything.
 
 ## Updates
 
-The November update is published as qualified release [v2026.11.11.post4](https://github.com/mjbommar/moratorium-data-2026/releases/tag/v2026.11.11.post4), published November 11 with explicit pending QA. Two identical builds, full clean restore, ten anonymous downloads, V38 and current hosted desktop/mobile checks pass. Original research cutoff and September baseline are unchanged. [Release receipts](../work/research/2026-11-11/release-2026.11.11.post4/README.md).
+The November update is published as qualified release [v2026.11.11.post5](https://github.com/mjbommar/moratorium-data-2026/releases/tag/v2026.11.11.post5), prepared November 11 with explicit pending QA. Four Alachua prose corrections separate the September motion from October first reading. Final adoption/effect remain unresolved. Delivery checks pending; post4/V38 remains verified. [Release receipts](../work/research/2026-11-11/release-2026.11.11.post5/README.md).
 
 
 ## November collection and evidence review

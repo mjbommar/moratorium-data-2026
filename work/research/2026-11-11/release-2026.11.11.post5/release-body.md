@@ -1,0 +1,9 @@
+# Qualified November 11 update: Alachua reading and vote correction
+
+Four reviewed Alachua prose fields distinguish the September 14 motion directing a twelve-month moratorium (5–0) from Ordinance 26-17 passing first reading on October 5 (4–1, Youmas dissenting). The prior prose described pending status and reported unanimous approval. The structured classification was already active and is unchanged. The October 5 minutes scheduled final reading for October 12; the later October 26 packet proposes second reading. Final executed ordinance, effective anchor, completed second-reading actions and present force remain unverified. An unsigned, predated adoption template is not final adoption.
+
+Six source body/text pairs were archived and exactly read back. Original-page review used selected pages from three official packets, not a full independent review of all 952 pages. Three tool-free Terra calls accepted the four exact changes: one initially held legal-basis proposal was revised and separately accepted with the omitted packet cover supplied. Failed acquisition and original held decision remain preserved. Calaveras, Eureka, Houston and Mattoon source checks added evidence and residual questions but no canonical changes.
+
+Counts remain 1,328 local records across 47 states: 887 active plus 199 extended = 1,086 recorded in force, 64 pending, 172 past and 979 with VERIFY tags. There remain 449 policy observations and 57 ballot measure/proposal records. September status-category differences remain 134 (100 local, 34 policy). All 49 native generations remain intact. There remain 1,347 unresolved legacy record reviews; this is a qualified update, not a complete current-law certification.
+
+Delivery checks are pending: deterministic builds, clean restore, ten anonymous downloads, consumer V39 and hosted page/browser verification. Subsequent receipts record delivery; bundled metadata retains its preparation-time state.

@@ -1,0 +1,9 @@
+# Alachua first-reading and vote correction
+
+Four prose fields now distinguish the September 14 motion directing a twelve-month moratorium (5–0) from Ordinance 26-17 passing first reading on October 5 (4–1, Youmas dissenting). The October 5 minutes scheduled final reading for October 12; the October 26 packet instead proposes second reading. Neither an agenda recommendation nor the unsigned, predated October 26 adoption template establishes final adoption or effectiveness. The dataset's structured status was already active; its stale pending/unanimous-approval prose is corrected without changing that classification or certifying present force.
+
+Six exact source body/text pairs were archived and read back. Seven fetch reservations include one preserved 50 MB cap failure and one explicitly admitted recovery with a 150 MB cap for the official 127 MB October 26 packet. File 2387 was selected from the actual event metadata using the same rendered file-stream route as other portal links; its ID was not guessed. No search queries were repeated.
+
+Two sequential tool-free Terra requests reviewed 18 selected images. Three fields were accepted and legal basis held for missing packet cover context. A separately capped one-request revision used eight images including November 9 cover page 11 and accepted the reviewer's exact revised legal-basis wording. Original hold and all three raw-wire/SDK captures are preserved and verified. This is selected-page review, not full independent review of all 952 pages across three packets.
+
+Final executed ordinance, effective anchor, completed later actions and actual applicability remain unresolved. No normalized date, endpoint, status category, headline count or native ballot history changes. Publication and consumer delivery of these four cells are pending; post4/V38 remains the verified public version.
