@@ -1,5 +1,18 @@
 # Changelog
 
+## Qualified v2026.11.11.post11 — publication pending
+
+Five prose fields across two local records are corrected. St. Clair Township, Butler County Ohio records reported commission actions while retaining final trustee approval as pending. Fort Collins, Colorado now distinguishes the completed October 6 adoption of Resolution 2026-117 from Ordinance 147’s October 20 first reading. Final adopted texts, ordinance passage/effect, operative intervals and later legal force remain qualified. No status, date, endpoint, count, VERIFY or native-history changes, and no whole-record closures. There remain 1,346 unresolved reviews.
+
+| Metric | Qualified November 11 post11 |
+|---|---:|
+| Moratoria in the list | **1,328** |
+| Classified active or extended | **1085** |
+| Pending or not yet effective | **63** |
+| Ended (replaced, expired, or rescinded) | **173** |
+| Rows we still want to confirm (`[VERIFY]`) | **978** |
+| States with at least one | **47** |
+
 ## Qualified v2026.11.11.post10
 
 Sixteen fields across three local records are corrected. Morgan Township, Ohio now has exact March 23 adoption, Resolution 25-2026 and a twelve-month calendar term. Adams Township, Butler County PA distinguishes the June 22 invalidity motion and July 13 Resolution 2026-09 approval. Butler County, Nebraska records the April 6 Sandhills exemption and the distinct Planning Commission plan label. Executed terms, effective and ending conditions, and later force remain qualified. No status, endpoint, count, VERIFY or native-history changes; no whole-record closures. There remain 1,346 unresolved reviews. Two identical builds, eight full restore checks across 49 generations, ten public downloads and independent V44 checks pass. Current hosted pages and desktop/mobile browser checks also pass.

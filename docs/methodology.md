@@ -358,7 +358,7 @@ anything.
 
 ## Updates
 
-The November update is published as qualified release [v2026.11.11.post10](https://github.com/mjbommar/moratorium-data-2026/releases/tag/v2026.11.11.post10), published November 11 with explicit ongoing QA. Two identical builds, eight full restore checks across 49 generations, ten public downloads and independent V44 checks pass. Current hosted pages and desktop/mobile browser checks also pass. Original research cutoff and September baseline are unchanged.
+The November update is published as qualified release [v2026.11.11.post11](https://github.com/mjbommar/moratorium-data-2026/releases/tag/v2026.11.11.post11), prepared November 11 with publication verification pending. Post10/V44 remains the verified public edition. Five prose fields across two local records are corrected. St. Clair Township, Butler County Ohio records reported commission actions while retaining final trustee approval as pending. Fort Collins, Colorado now distinguishes the completed October 6 adoption of Resolution 2026-117 from Ordinance 147’s October 20 first reading. Final adopted texts, ordinance passage/effect, operative intervals and later legal force remain qualified. No status, date, endpoint, count, VERIFY or native-history changes, and no whole-record closures. There remain 1,346 unresolved reviews.
 
 
 ## November collection and evidence review
