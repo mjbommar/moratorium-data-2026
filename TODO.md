@@ -949,7 +949,8 @@ Exit: repeatable refresh with visible freshness, costs, failures and unresolved 
 - [x] Complete prior-work routing for four ballot qualification tasks: two Clarksville referrals, separate Wilmington initiative and Augusta notice-only question. Preserve all97obligations and93other routingobjects; pin priorreviews/nativeversions, reject7alteredinputprobes, retain one duplicateExaquery as an executionerror. Allfour substantivequestionsremain open; no canonical/publication change.
 
 - [x] Recover Clay original six-page filing packet through the actual viewer rendition, inspect all pages and independently adjudicate four prose corrections. Preserve crossed-out computing cover, battery attachment and inconsistent clerk heading; no computing effective-date/force inference. Two archive/native readbacks and nine checks pass after rebuilding index status spans.
-- [ ] Include four Clay working corrections in the next combined release/consumer/Pages batch after further reviewed corrections accumulate; qualified post1/V35 remains delivered.
+- [x] Deliver four Clay prose corrections in qualified post2 / V36; deterministic builds, clean restore, anonymous downloads and exact consumer checks pass.
+- [ ] Deploy and verify post2 Pages, complete payload, Clay popup/prose and desktop/mobile behavior.
 
 - [x] Complete retained filing-image audit for EastFishkill/Salina: all14pages inspected, municipal request letters/seals distinguished from state receipt, two exact nativepairs read back. Two distinct state-domain searches produced no usable filingrecord; no sourcefetch/model/canonicalchange. Two residual queue entries updated; actualfiling/laterforce remain open.
 

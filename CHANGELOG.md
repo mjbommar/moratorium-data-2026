@@ -1,8 +1,8 @@
 # Changelog
 
-## Qualified v2026.11.11.post2 — delivery pending
+## Qualified v2026.11.11.post2 — website verification pending
 
-Four Clay prose cells recover primary-image evidence and preserve the real computing/battery filing-packet conflict. Correct instrument identity, filing association, effective anchor and later force remain unresolved. No count, category, normalized date/endpoint, sector, identity, scope or native-history changes; no whole-record closure. There remain 1,347 unresolved legacy reviews. Deterministic builds, restore, downloads, V36 and hosted verification are pending.
+Four Clay prose cells recover primary-image evidence and preserve the real computing/battery filing-packet conflict. Correct instrument identity, filing association, effective anchor and later force remain unresolved. No count, category, normalized date/endpoint, sector, identity, scope or native-history changes; no whole-record closure. There remain 1,347 unresolved legacy reviews. Two identical builds, full clean restore, ten anonymous downloads and V36 pass. Hosted checks are pending; post1/V35 remains the last verified website edition.
 
 | Metric | Qualified November 11 post2 |
 |---|---:|

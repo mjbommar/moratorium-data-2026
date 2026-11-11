@@ -20,7 +20,7 @@
   "consumer_dispositions": "delivered_with_historical_editions_preserved",
   "experimental_extractor": "failed_no_automatic_promotion",
   "quality_gate_disposition": "User authorized publication of the current state with qualifications on pending QA, followed by continued double checking and resolution of outstanding questions.",
-  "reviewed_data_source_commit": "2fa6ae745f9535c428407a1b64129593bc94e60b",
+  "reviewed_data_source_commit": "9d70e076fd6770e45cd7af2e28de5da5f4c91696",
   "record_dispositions": {
     "unresolved": 1347,
     "corrected_resolved": 191,
@@ -31,7 +31,7 @@
   "record_disposition_path": "work/research/2026-11-08/full-record-dispositions/funnel.json",
   "qa_status": "ongoing",
   "publication_authorization": "publish current state with qualifications on pending QA, then continue to double check and clear the outstanding questions",
-  "working_revision": "2026.11.11.post2-prepared",
+  "working_revision": "2026.11.11.post2-data-consumer-delivered-hosting-pending",
   "current_raw_counts": {
     "local": 1328,
     "state_policy": 449,
@@ -39,18 +39,18 @@
   },
   "prior_release": "v2026.11.11.post1",
   "prior_release_source_commit": "2fa6ae745f9535c428407a1b64129593bc94e60b",
-  "prior_published_source_commit": "b921cf586bb0699565e36303a8d408f4e0fe9c3b",
-  "published_source_reference": "Qualified v2026.11.11.post1 pins 2fa6ae745f9535c428407a1b64129593bc94e60b; deterministicbuilds,2630memberrestore,10anonymousdownloads,V35andall64currentHTMLpages verified. Initialhostedsource 490ae0d5a1318a960492b396bca329c7b821edb2; receipt work/research/2026-11-11/release-2026.11.11.post1/hosted-copy-verification.json. BroaderQA/currentforcequestionsremainexplicit.",
+  "prior_published_source_commit": "2fa6ae745f9535c428407a1b64129593bc94e60b",
+  "published_source_reference": "Qualified post2 pins 9d70e076fd6770e45cd7af2e28de5da5f4c91696; deterministic builds, full clean restore, ten anonymous downloads and V36 verified. Hosted verification pending; prior verified website is post1. Broad QA and Clay packet-identity qualifications retained.",
   "latest_consumer_handoff": {
-    "source_commit": "2fa6ae745f9535c428407a1b64129593bc94e60b",
-    "manifest_sha256": "7ef402dcdb7748e91fb3beb6e9325492a94a6bd2a2623343f8be6a3a4bcf26f1",
+    "source_commit": "9d70e076fd6770e45cd7af2e28de5da5f4c91696",
+    "manifest_sha256": "9052fa27be4f6ff1e8b0238b137c2ba8530bec4dc9ca4f3fb0de43a03342936f",
     "trusted_verifier_sha256": "ebecf851d4196715df186cc81cc3c933ab7da550fbafd7207996cd94b9cd2739",
-    "scope": "Fourteen accepted Baltimore/Hamilton/Brookhaven cells. Hamilton calendarterm/calculatedanniversary qualified; original historical disposition/filing evidence recovered. No category/headline/identity/nativechanges or closures. Laterforce/applicability remain unresolved.",
-    "consumer_commit": "25c4aa0a98b76f4067aeb6e319ea3b5a6dc46665",
-    "receipt": "work/research/2026-11-11/post-release-qa/consumer-v35-handoff.json"
+    "scope": "Four accepted Clay prose cells from originalpacket images. Actual battery/computingcover/attachment/certificate conflicts preserved. No normalizeddate/endpoint, sector, category, identity, headline or nativechanges/closures. Computingfilingassociation/interval/laterforce unresolved.",
+    "consumer_commit": "99f3253af5b80016f77bff88314a5a626e2965f9",
+    "receipt": "work/research/2026-11-11/post-release-qa/consumer-v36-handoff.json"
   },
   "release_date_timezone": "America/New_York",
-  "published_source_commit": "2fa6ae745f9535c428407a1b64129593bc94e60b",
+  "published_source_commit": "9d70e076fd6770e45cd7af2e28de5da5f4c91696",
   "september_status_category_differences": {
     "local": 99,
     "policy": 34,
@@ -59,28 +59,24 @@
   },
   "latest_geography_review": "work/research/2026-11-09/post-release-qa/nonblank-geography-application.json",
   "latest_delivered_consumer_input_delta": {
-    "baseline_release": "v2026.11.11",
-    "baseline_source_commit": "b921cf586bb0699565e36303a8d408f4e0fe9c3b",
-    "baseline_handoff": "V34",
-    "receipt": "work/research/2026-11-11/post-release-qa/brookhaven-operative-application.json",
+    "baseline_release": "v2026.11.11.post1",
+    "baseline_source_commit": "2fa6ae745f9535c428407a1b64129593bc94e60b",
+    "baseline_handoff": "V35",
+    "receipt": "work/research/2026-11-11/post-release-qa/clay-operative-application.json",
     "receipts": [
-      "work/research/2026-11-11/post-release-qa/baltimore-completed-form-application.json",
-      "work/research/2026-11-11/post-release-qa/hamilton-operative-application.json",
-      "work/research/2026-11-11/post-release-qa/brookhaven-operative-application.json"
+      "work/research/2026-11-11/post-release-qa/clay-operative-application.json"
     ],
-    "changed_cells": 14,
-    "changed_local_rows": 3,
+    "changed_cells": 4,
+    "changed_local_rows": 1,
     "changed_policy_rows": 0,
     "status_category_changes": 0,
     "normalized_date_changes": 0,
-    "scope": "Baltimore5prose, Hamilton4prose plus calendar_term and calculatedanniversary, Brookhaven3prose corrections. Fourteen independently accepted cells across3existinglocalrows. No status/headline/identity/nativechanges or whole-recordclosures. Latest delivered edition remains v2026.11.11/V34; synchronize this combined batch next.",
-    "normalized_endpoint_changes": 1,
-    "duration_kind_changes": 1,
-    "state": "delivered_data_consumer_and_hosted_verified",
-    "delivered_source_commit": "2fa6ae745f9535c428407a1b64129593bc94e60b",
-    "delivered_consumer_commit": "25c4aa0a98b76f4067aeb6e319ea3b5a6dc46665",
-    "delivery_receipt": "work/research/2026-11-11/post-release-qa/consumer-v35-handoff.json",
-    "hosted_copy_state": "verified"
+    "scope": "Four Clay prose corrections are delivered in post2 data and V36; hosted verification pending. Real computing/battery packet conflicts, filing association, interval and later force remain unresolved. No category/date/endpoint/sector/headline/native changes or closures.",
+    "state": "delivered_data_consumer_pending_hosted_verification",
+    "delivered_source_commit": "9d70e076fd6770e45cd7af2e28de5da5f4c91696",
+    "delivered_consumer_commit": "99f3253af5b80016f77bff88314a5a626e2965f9",
+    "delivery_receipt": "work/research/2026-11-11/post-release-qa/consumer-v36-handoff.json",
+    "hosted_copy_state": "pending"
   },
   "latest_source_followup": "work/research/2026-11-11/post-release-qa/brookhaven-operative-application.json",
   "latest_expanded_candidate_review": "work/research/2026-11-09/starke-succession-review/validation.json",
@@ -104,24 +100,27 @@
     "scope": "Qualified policy-history succession only; no formal termination, overlap or current-force acceptance."
   },
   "prior_delivered_consumer_input_delta": {
-    "baseline_release": "v2026.11.10.post18",
-    "baseline_source_commit": "5bb19125fa9591559f7b4b51977b913fc965fc33",
-    "baseline_handoff": "V33",
-    "receipt": "work/research/2026-11-11/post-release-qa/mendocino-signed-application.json",
+    "baseline_release": "v2026.11.11",
+    "baseline_source_commit": "b921cf586bb0699565e36303a8d408f4e0fe9c3b",
+    "baseline_handoff": "V34",
+    "receipt": "work/research/2026-11-11/post-release-qa/brookhaven-operative-application.json",
     "receipts": [
-      "work/research/2026-11-11/post-release-qa/mendocino-signed-application.json"
+      "work/research/2026-11-11/post-release-qa/baltimore-completed-form-application.json",
+      "work/research/2026-11-11/post-release-qa/hamilton-operative-application.json",
+      "work/research/2026-11-11/post-release-qa/brookhaven-operative-application.json"
     ],
-    "changed_cells": 4,
-    "changed_local_rows": 1,
+    "changed_cells": 14,
+    "changed_local_rows": 3,
     "changed_policy_rows": 0,
     "status_category_changes": 0,
     "normalized_date_changes": 0,
-    "scope": "Four exact independently accepted Mendocino prose cells: signed original/extension, actualterms/votes and literal3MWorlessdefinition. No counts/categories/dates/native changes. Intendedscope and laterforce unresolved. These corrections await the next synchronizedrelease/consumer/Pagesdelivery; post18/V33 remains the delivered edition.",
-    "target_release": "v2026.11.11",
+    "scope": "Baltimore5prose, Hamilton4prose plus calendar_term and calculatedanniversary, Brookhaven3prose corrections. Fourteen independently accepted cells across3existinglocalrows. No status/headline/identity/nativechanges or whole-recordclosures. Latest delivered edition remains v2026.11.11/V34; synchronize this combined batch next.",
+    "normalized_endpoint_changes": 1,
+    "duration_kind_changes": 1,
     "state": "delivered_data_consumer_and_hosted_verified",
-    "delivered_source_commit": "b921cf586bb0699565e36303a8d408f4e0fe9c3b",
-    "delivered_consumer_commit": "3f6dd6324a918a64651ff0d6087f4f927acab5f6",
-    "delivery_receipt": "work/research/2026-11-11/post-release-qa/consumer-v34-handoff.json",
+    "delivered_source_commit": "2fa6ae745f9535c428407a1b64129593bc94e60b",
+    "delivered_consumer_commit": "25c4aa0a98b76f4067aeb6e319ea3b5a6dc46665",
+    "delivery_receipt": "work/research/2026-11-11/post-release-qa/consumer-v35-handoff.json",
     "hosted_copy_state": "verified"
   },
   "latest_field_application": "work/research/2026-11-11/post-release-qa/clay-operative-application.json",
@@ -136,16 +135,16 @@
   "latest_expanded_result_review": "work/research/2026-11-10/canterbury-minutes-result-review/coordinator-adjudication.json",
   "latest_verified_release": "v2026.11.11.post1",
   "source_observation_window_scope": "Acquisition range includes source-specific QA captures through November10; this does not renew every record or move the original comprehensive research_cutoff.",
-  "latest_download_verified_release": "v2026.11.11.post1",
+  "latest_download_verified_release": "v2026.11.11.post2",
   "prior_latest_consumer_handoff": {
-    "source_commit": "b921cf586bb0699565e36303a8d408f4e0fe9c3b",
-    "manifest_sha256": "581b8099ac47a8aecac2562320b6bb0a8b163511379a20a07438fc80ddfd65c6",
+    "source_commit": "2fa6ae745f9535c428407a1b64129593bc94e60b",
+    "manifest_sha256": "7ef402dcdb7748e91fb3beb6e9325492a94a6bd2a2623343f8be6a3a4bcf26f1",
     "trusted_verifier_sha256": "ebecf851d4196715df186cc81cc3c933ab7da550fbafd7207996cd94b9cd2739",
-    "scope": "Qualified November11: four accepted Mendocino historical prose corrections from signed original/extension text. Literal threshold preserved; intended scope and later force unresolved. No category/date/count/native changes or closures.",
-    "consumer_commit": "3f6dd6324a918a64651ff0d6087f4f927acab5f6",
-    "receipt": "work/research/2026-11-11/post-release-qa/consumer-v34-handoff.json"
+    "scope": "Fourteen accepted Baltimore/Hamilton/Brookhaven cells. Hamilton calendarterm/calculatedanniversary qualified; original historical disposition/filing evidence recovered. No category/headline/identity/nativechanges or closures. Laterforce/applicability remain unresolved.",
+    "consumer_commit": "25c4aa0a98b76f4067aeb6e319ea3b5a6dc46665",
+    "receipt": "work/research/2026-11-11/post-release-qa/consumer-v35-handoff.json"
   },
-  "prior_published_source_reference": "Qualified v2026.11.11 pins b921cf586bb0699565e36303a8d408f4e0fe9c3b; deterministic builds, clean restore, ten anonymous downloads, V34 and all current hosted pages verified. Hosted source 2e93d580f4464ff302e6eb171fe5ddcf34979458; receipt work/research/2026-11-11/release-2026.11.11/hosted-copy-verification.json. Pending substantive QA remains explicit.",
+  "prior_published_source_reference": "Qualified v2026.11.11.post1 pins 2fa6ae745f9535c428407a1b64129593bc94e60b; deterministicbuilds,2630memberrestore,10anonymousdownloads,V35andall64currentHTMLpages verified. Initialhostedsource 490ae0d5a1318a960492b396bca329c7b821edb2; receipt work/research/2026-11-11/release-2026.11.11.post1/hosted-copy-verification.json. BroaderQA/currentforcequestionsremainexplicit.",
   "latest_verified_hosted_data": {
     "release": "v2026.11.11.post1",
     "release_source_commit": "2fa6ae745f9535c428407a1b64129593bc94e60b",
@@ -267,21 +266,13 @@
     "scope": "Every generated current HTML page, linked local resources, figures/current downloads and desktop/mobile map/table behavior verified. Corrected Mendocino map popup and state prose verified. Complete uploaded historical payload separately checked on final acknowledgment deployment. No universal current-force or freshness claim."
   },
   "latest_independent_record_review": "work/research/2026-11-11/post-release-qa/clay-operative-application.json",
-  "pending_consumer_input_delta": {
-    "baseline_release": "v2026.11.11.post1",
-    "baseline_source_commit": "2fa6ae745f9535c428407a1b64129593bc94e60b",
-    "baseline_handoff": "V35",
-    "receipt": "work/research/2026-11-11/post-release-qa/clay-operative-application.json",
-    "receipts": [
-      "work/research/2026-11-11/post-release-qa/clay-operative-application.json"
-    ],
-    "changed_cells": 4,
-    "changed_local_rows": 1,
-    "changed_policy_rows": 0,
-    "status_category_changes": 0,
-    "normalized_date_changes": 0,
-    "scope": "Four Clay prose corrections from recovered6pagepacket. Historical signedresolutionreport and real battery/computingdocumentconflicts accepted; coherentfiledcomputinglaw/operativeinterval/laterforce remainunresolved. Counts/categories/nativehistoryunchanged. Accumulate nextreviewedbatch; qualifiedpost1/V35remainsdelivered."
-  },
   "prepared_release": "v2026.11.11.post2",
-  "prepared_release_qualifications": "Four Clay prose cells recover original packet and preserve real computing/battery identity conflicts. No dates/categories/counts/native changes or closures. 1347 reviews remain unresolved; delivery checks pending."
+  "prepared_release_qualifications": "Four Clay prose cells recover original packet and preserve real computing/battery identity conflicts. No dates/categories/counts/native changes or closures. 1347 reviews remain unresolved; delivery checks pending.",
+  "pending_hosted_delivery": {
+    "release": "v2026.11.11.post2",
+    "release_source_commit": "9d70e076fd6770e45cd7af2e28de5da5f4c91696",
+    "state": "verified_data_release_pending_full_site_deployment",
+    "receipt": "work/research/2026-11-11/release-2026.11.11.post2/public-verification.json",
+    "active_deployment_run": null
+  }
 }

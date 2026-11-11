@@ -1,0 +1,274 @@
+{
+  "source_commit": "9d70e076fd6770e45cd7af2e28de5da5f4c91696",
+  "manifest_sha256": "9052fa27be4f6ff1e8b0238b137c2ba8530bec4dc9ca4f3fb0de43a03342936f",
+  "expanded_snapshot": "3ce33d22288fa7bc7100c9ac621c041037702e8370af1e663d53a548ff794725",
+  "current_counts": {
+    "moratorium_records": 1328,
+    "state_policy_records": 449,
+    "ballot_measures": 57,
+    "retained_results": 65,
+    "current_results": 53,
+    "retained_events": 12,
+    "current_accepted_historical_events": 12,
+    "restriction_records": 3,
+    "measure_instrument_link_records": 1
+  },
+  "files": 2715,
+  "entries": 2939,
+  "verified_at": "2026-11-11T08:10:35.563353+00:00",
+  "consumer_verification": {
+    "handoff": {
+      "state": "verified",
+      "source_commit": "9d70e076fd6770e45cd7af2e28de5da5f4c91696",
+      "manifest_sha256": "9052fa27be4f6ff1e8b0238b137c2ba8530bec4dc9ca4f3fb0de43a03342936f",
+      "expanded_snapshot": "3ce33d22288fa7bc7100c9ac621c041037702e8370af1e663d53a548ff794725",
+      "files": 2715,
+      "entries": 2939,
+      "checks": [
+        {
+          "command": [
+            "scripts/check_expanded_publication.py"
+          ],
+          "exit_code": 0,
+          "result": {
+            "state": "consistent",
+            "snapshot_sha256": "3ce33d22288fa7bc7100c9ac621c041037702e8370af1e663d53a548ff794725",
+            "generations_checked": 49,
+            "records": {
+              "jurisdictions": 53,
+              "elections": 51,
+              "ballot_measures": 57,
+              "measure_provisions": 52,
+              "measure_results": 65,
+              "local_restrictions": 3,
+              "instrument_events": 12,
+              "measure_instrument_links": 1,
+              "source_documents": 168,
+              "claims": 625,
+              "review_decisions": 2756,
+              "search_runs": 1,
+              "search_attempts": 3,
+              "search_sightings": 18,
+              "coverage_observations": 1
+            },
+            "scope": "Offline publication/receipt consistency only; no source reacquisition, renewed factual acceptance or current-force confirmation."
+          }
+        },
+        {
+          "command": [
+            "scripts/build_expanded_csv.py",
+            "--check"
+          ],
+          "exit_code": 0,
+          "result": {
+            "state": "matches",
+            "source_snapshot": "3ce33d22288fa7bc7100c9ac621c041037702e8370af1e663d53a548ff794725",
+            "projection_sha256": "7b585b49998f8ca39b0ff433fe15c34335ea171bdd8960af1e7e9fdcf852f6cb",
+            "csv_views": 18
+          }
+        },
+        {
+          "command": [
+            "scripts/build_policy_scope_exports.py",
+            "--check"
+          ],
+          "exit_code": 0,
+          "result": "policy-scope exports current"
+        }
+      ],
+      "checks_run": true,
+      "scope": "Pinned input integrity and offline publication consistency, not source reacquisition or downstream join acceptance."
+    },
+    "policy_semantics": {
+      "total_state_policy_actions": 449,
+      "total_state_bills": 427,
+      "state_policy_instrument_type_counts": {
+        "bill": 427,
+        "executive_order": 3,
+        "governor_directive": 1,
+        "legislative_amendment": 1,
+        "legislative_precursor": 3,
+        "legislative_resolution": 12,
+        "statute": 2
+      },
+      "top_states_by_bills": [
+        [
+          "Pennsylvania",
+          18
+        ],
+        [
+          "Virginia",
+          18
+        ],
+        [
+          "West Virginia",
+          18
+        ],
+        [
+          "Maryland",
+          16
+        ],
+        [
+          "New Jersey",
+          16
+        ],
+        [
+          "California",
+          14
+        ],
+        [
+          "South Dakota",
+          14
+        ],
+        [
+          "Arizona",
+          13
+        ],
+        [
+          "Iowa",
+          13
+        ],
+        [
+          "Michigan",
+          13
+        ],
+        [
+          "Minnesota",
+          12
+        ],
+        [
+          "Ohio",
+          12
+        ],
+        [
+          "Oklahoma",
+          12
+        ],
+        [
+          "Illinois",
+          11
+        ],
+        [
+          "Kansas",
+          11
+        ]
+      ],
+      "top_states_by_policy_actions": [
+        [
+          "Pennsylvania",
+          22
+        ],
+        [
+          "Virginia",
+          18
+        ],
+        [
+          "West Virginia",
+          18
+        ],
+        [
+          "Maryland",
+          17
+        ],
+        [
+          "New Jersey",
+          17
+        ],
+        [
+          "California",
+          14
+        ],
+        [
+          "Michigan",
+          14
+        ],
+        [
+          "South Dakota",
+          14
+        ],
+        [
+          "Arizona",
+          13
+        ],
+        [
+          "Iowa",
+          13
+        ],
+        [
+          "Kansas",
+          12
+        ],
+        [
+          "Minnesota",
+          12
+        ],
+        [
+          "Ohio",
+          12
+        ],
+        [
+          "Oklahoma",
+          12
+        ],
+        [
+          "Illinois",
+          11
+        ]
+      ]
+    }
+  },
+  "index_verification": {
+    "snapshot": "data/source-snapshots/moratoria/2026-11-11-reviewed-v36",
+    "source_commit": "9d70e076fd6770e45cd7af2e28de5da5f4c91696",
+    "manifest_sha256": "9052fa27be4f6ff1e8b0238b137c2ba8530bec4dc9ca4f3fb0de43a03342936f",
+    "tracked_files_and_symlinks": 2716,
+    "exact_staged_git_blob_bytes_and_modes": true,
+    "scope": "Exact staged snapshot content, Git modes and path set against the pinned manifest, including the manifest itself. This is not an independent legal review."
+  },
+  "baseline_handoff": "V35",
+  "expanded_tables_byte_identical": true,
+  "changed_cells": 4,
+  "changed_local_cells": 4,
+  "changed_policy_cells": 0,
+  "changed_local_rows": 1,
+  "changed_policy_rows": 0,
+  "new_policy_rows": 0,
+  "status_category_changes": 0,
+  "normalized_adoption_date_changes": 0,
+  "normalized_endpoint_changes": 0,
+  "duration_kind_changes": 0,
+  "whole_record_closures": 0,
+  "unresolved_records": 1347,
+  "field_changes": [
+    {
+      "id": "ny-clay-2026",
+      "field": "date_enacted",
+      "before": "Local Law No. 6 of 2026, adopted by the Clay Town Board at a Special Meeting held June 29, 2026 (unanimous 6-0 recorded vote), per the town's own filed Local Law text (NY Dept of State local law filing form).",
+      "after": "The signed June 30, 2026 Town Clerk certificate reports a June 29 special-meeting resolution approving a twelve-month computing moratorium, with six named members voting in favor. Its heading calls this the Battery Energy Storage System Law while its body describes data centers, AI and cryptocurrency; the packet does not reconcile that identity conflict."
+    },
+    {
+      "id": "ny-clay-2026",
+      "field": "duration",
+      "before": "Up to twelve (12) months",
+      "after": "The signed clerk certificate reports approval of a twelve-month computing moratorium. The attached operative Local Law 6 text instead imposes six months for solar battery storage after filing. A computing-law effective anchor and exact endpoint cannot be established from this mixed packet."
+    },
+    {
+      "id": "ny-clay-2026",
+      "field": "legal_basis",
+      "before": "A third-party transcription of a Town of Clay packet attributes a twelve-month data-center, AI and cryptocurrency moratorium to Local Law 6 of 2026; the same transcription also captions a six-month solar-battery law Local Law 6. Original packet, numbering and filing require verification.",
+      "after": "The recovered six-page Local Law 6 of 2026 packet bears a July 6, 2026 State Records filing stamp and Department of State index number 6. Its computing-moratorium cover title is struck through and says SEE ATTACHED; the attached operative pages are a six-month solar-battery moratorium. The signed June 30 clerk certificate has a battery-law heading but reports June 29 approval of a twelve-month data-center, AI and cryptocurrency moratorium. Correct instrument identity and the association of the filing with the computing moratorium remain unresolved."
+    },
+    {
+      "id": "ny-clay-2026",
+      "field": "current_status",
+      "before": "A third-party transcription reports a June 29, 2026 vote approving a twelve-month high-intensity computing moratorium. The source is not the original filing packet; filing, effective date, numbering and later force remain unverified. [VERIFY: original instrument and filing, identity and later action.]",
+      "after": "The recovered packet contains a signed clerk certificate reporting June 29, 2026 approval of the twelve-month computing moratorium, with six named members in favor; this is primary-image evidence rather than only the prior third-party transcription. The July 6 filing stamp, struck-through computing cover title, six-month battery-law attachment and inconsistent certificate heading do not establish a coherent filed computing law or its operative interval. [VERIFY correct computing instrument, filing association, effective anchor, later amendments and actual applicability/current force.]"
+    }
+  ],
+  "trusted_verifier_sha256": "ebecf851d4196715df186cc81cc3c933ab7da550fbafd7207996cd94b9cd2739",
+  "scope": "Four accepted Clay prose cells from originalpacket images. Actual battery/computingcover/attachment/certificate conflicts preserved. No normalizeddate/endpoint, sector, category, identity, headline or nativechanges/closures. Computingfilingassociation/interval/laterforce unresolved.",
+  "consumer_commit": "99f3253af5b80016f77bff88314a5a626e2965f9",
+  "release_url": "https://github.com/mjbommar/moratorium-data-2026/releases/tag/v2026.11.11.post2",
+  "release_manifest_sha256": "b17d78af58a8f308bb6b7c1fca15db6218687d3775bafc5045023765416cb38a",
+  "hosted_copy_state": "pending"
+}
