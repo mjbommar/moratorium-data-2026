@@ -1,0 +1,272 @@
+{
+  "source_commit": "f3d67fa20374512aab842ea5cb7ab2bb8948af47",
+  "manifest_sha256": "fd21e1f324faed6b8369e0e73bbd2c67f08ffbcbf089a871e45a36745a835a8a",
+  "expanded_snapshot": "3ce33d22288fa7bc7100c9ac621c041037702e8370af1e663d53a548ff794725",
+  "current_counts": {
+    "moratorium_records": 1328,
+    "state_policy_records": 449,
+    "ballot_measures": 57,
+    "retained_results": 65,
+    "current_results": 53,
+    "retained_events": 12,
+    "current_accepted_historical_events": 12,
+    "restriction_records": 3,
+    "measure_instrument_link_records": 1
+  },
+  "files": 2799,
+  "entries": 3028,
+  "verified_at": "2026-11-11T12:10:01.474885+00:00",
+  "consumer_verification": {
+    "handoff": {
+      "state": "verified",
+      "source_commit": "f3d67fa20374512aab842ea5cb7ab2bb8948af47",
+      "manifest_sha256": "fd21e1f324faed6b8369e0e73bbd2c67f08ffbcbf089a871e45a36745a835a8a",
+      "expanded_snapshot": "3ce33d22288fa7bc7100c9ac621c041037702e8370af1e663d53a548ff794725",
+      "files": 2799,
+      "entries": 3028,
+      "checks": [
+        {
+          "command": [
+            "scripts/check_expanded_publication.py"
+          ],
+          "exit_code": 0,
+          "result": {
+            "state": "consistent",
+            "snapshot_sha256": "3ce33d22288fa7bc7100c9ac621c041037702e8370af1e663d53a548ff794725",
+            "generations_checked": 49,
+            "records": {
+              "jurisdictions": 53,
+              "elections": 51,
+              "ballot_measures": 57,
+              "measure_provisions": 52,
+              "measure_results": 65,
+              "local_restrictions": 3,
+              "instrument_events": 12,
+              "measure_instrument_links": 1,
+              "source_documents": 168,
+              "claims": 625,
+              "review_decisions": 2756,
+              "search_runs": 1,
+              "search_attempts": 3,
+              "search_sightings": 18,
+              "coverage_observations": 1
+            },
+            "scope": "Offline publication/receipt consistency only; no source reacquisition, renewed factual acceptance or current-force confirmation."
+          }
+        },
+        {
+          "command": [
+            "scripts/build_expanded_csv.py",
+            "--check"
+          ],
+          "exit_code": 0,
+          "result": {
+            "state": "matches",
+            "source_snapshot": "3ce33d22288fa7bc7100c9ac621c041037702e8370af1e663d53a548ff794725",
+            "projection_sha256": "7b585b49998f8ca39b0ff433fe15c34335ea171bdd8960af1e7e9fdcf852f6cb",
+            "csv_views": 18
+          }
+        },
+        {
+          "command": [
+            "scripts/build_policy_scope_exports.py",
+            "--check"
+          ],
+          "exit_code": 0,
+          "result": "policy-scope exports current"
+        }
+      ],
+      "checks_run": true,
+      "scope": "Pinned input integrity and offline publication consistency, not source reacquisition or downstream join acceptance."
+    },
+    "policy_semantics": {
+      "total_state_policy_actions": 449,
+      "total_state_bills": 427,
+      "state_policy_instrument_type_counts": {
+        "bill": 427,
+        "executive_order": 3,
+        "governor_directive": 1,
+        "legislative_amendment": 1,
+        "legislative_precursor": 3,
+        "legislative_resolution": 12,
+        "statute": 2
+      },
+      "top_states_by_bills": [
+        [
+          "Pennsylvania",
+          18
+        ],
+        [
+          "Virginia",
+          18
+        ],
+        [
+          "West Virginia",
+          18
+        ],
+        [
+          "Maryland",
+          16
+        ],
+        [
+          "New Jersey",
+          16
+        ],
+        [
+          "California",
+          14
+        ],
+        [
+          "South Dakota",
+          14
+        ],
+        [
+          "Arizona",
+          13
+        ],
+        [
+          "Iowa",
+          13
+        ],
+        [
+          "Michigan",
+          13
+        ],
+        [
+          "Minnesota",
+          12
+        ],
+        [
+          "Ohio",
+          12
+        ],
+        [
+          "Oklahoma",
+          12
+        ],
+        [
+          "Illinois",
+          11
+        ],
+        [
+          "Kansas",
+          11
+        ]
+      ],
+      "top_states_by_policy_actions": [
+        [
+          "Pennsylvania",
+          22
+        ],
+        [
+          "Virginia",
+          18
+        ],
+        [
+          "West Virginia",
+          18
+        ],
+        [
+          "Maryland",
+          17
+        ],
+        [
+          "New Jersey",
+          17
+        ],
+        [
+          "California",
+          14
+        ],
+        [
+          "Michigan",
+          14
+        ],
+        [
+          "South Dakota",
+          14
+        ],
+        [
+          "Arizona",
+          13
+        ],
+        [
+          "Iowa",
+          13
+        ],
+        [
+          "Kansas",
+          12
+        ],
+        [
+          "Minnesota",
+          12
+        ],
+        [
+          "Ohio",
+          12
+        ],
+        [
+          "Oklahoma",
+          12
+        ],
+        [
+          "Illinois",
+          11
+        ]
+      ]
+    }
+  },
+  "index_verification": {
+    "snapshot": "data/source-snapshots/moratoria/2026-11-11-reviewed-v41",
+    "source_commit": "f3d67fa20374512aab842ea5cb7ab2bb8948af47",
+    "manifest_sha256": "fd21e1f324faed6b8369e0e73bbd2c67f08ffbcbf089a871e45a36745a835a8a",
+    "tracked_files_and_symlinks": 2800,
+    "exact_staged_git_blob_bytes_and_modes": true,
+    "scope": "Exact staged snapshot content, Git modes and path set against the pinned manifest, including the manifest itself. This is not an independent legal review."
+  },
+  "baseline_handoff": "V40",
+  "expanded_tables_byte_identical": true,
+  "changed_cells": 2,
+  "changed_local_cells": 2,
+  "changed_policy_cells": 0,
+  "changed_local_rows": 1,
+  "changed_policy_rows": 0,
+  "new_policy_rows": 0,
+  "status_category_changes": 0,
+  "normalized_adoption_date_changes": 0,
+  "date_precision_changes": 0,
+  "normalized_endpoint_changes": 0,
+  "duration_kind_changes": 0,
+  "whole_record_closures": 0,
+  "unresolved_records": 1346,
+  "corrected_resolved_records": 192,
+  "verify_tagged_rows": 978,
+  "field_changes": [
+    {
+      "id": "ca-los-angeles-county-2026",
+      "field": "duration",
+      "before": "Interim administrative prohibition on processing/approving large-scale (hyperscale) AI data centers in unincorporated county zones, in effect until the Board of Supervisors adopts a permanent zoning ordinance. A motion to formally initiate that ordinance was scheduled for a Community Services Cluster Agenda Review on 2026-09-23, with a Board of Supervisors hearing expected around 2026-10-06.",
+      "after": "Reported interim administrative prohibition on large-scale AI data centers in unincorporated county areas pending comprehensive zoning amendments. The exact September 17 memorandum and its operative endpoint remain unverified. On October 6, 2026, the Board referred the proposed zoning-amendment motion (26-6069) back to Supervisor Solis\u2019s office; that action did not adopt the proposed permanent prohibition."
+    },
+    {
+      "id": "ca-los-angeles-county-2026",
+      "field": "current_status",
+      "before": "As reported by ABC7/City News Service and the Daily News, Regional Planning Director Amy Bodek issued a memorandum imposing an immediate interim prohibition on large-scale AI data centers in unincorporated county areas on September 17, 2026, pending a proposed ordinance. The Daily News reported a September 23 Community Services Cluster Agenda Review and described roughly 1 million residents in unincorporated areas; prior research expected Board consideration around October 6. It described smaller enterprise, accessory and sole-source facilities as excluded from the proposed ordinance; whether those exceptions apply to the memorandum has not been established. [VERIFY the memorandum, its scope and exceptions, subsequent Board action and current force.]",
+      "after": "Recorded active on the basis of prior reporting; current legal force remains unverified. The proposed October 6, 2026 motion (26-6069) states that the Regional Planning Director used existing Title 22 authority on September 17 to prohibit large-scale data centers pending comprehensive zoning amendments. The official October 6 Statement of Proceedings records referral of that motion back to Supervisor Solis\u2019s office, on a motion by Supervisor Hahn seconded by Supervisor Barger. It does not record adoption of the proposed permanent prohibition. Proposed distinctions for enterprise, accessory and sole-source data centers are drafting directions, not verified exceptions to the September memorandum. [VERIFY the memorandum, its precise scope and exceptions, subsequent Board action and current force.]"
+    }
+  ],
+  "status_counts": {
+    "active": 887,
+    "extended": 199,
+    "pending": 63,
+    "rejected": 3,
+    "recorded_in_force": 1086
+  },
+  "trusted_verifier_sha256": "ebecf851d4196715df186cc81cc3c933ab7da550fbafd7207996cd94b9cd2739",
+  "scope": "Two LA County prose cells establish October6 referral instead of an adopted permanent prohibition. Memorandum scope and later actions remain unresolved. No counts/status/native changes or closures.",
+  "consumer_commit": "763565e87a5a328ae569dedee2a9a73f6728cd8c",
+  "release_url": "https://github.com/mjbommar/moratorium-data-2026/releases/tag/v2026.11.11.post7",
+  "release_manifest_sha256": "7c3cad56f8aa4952be9f1ffc7ecafa384998c9a29f8226da15f47d24ab316c9d",
+  "hosted_copy_state": "pending"
+}

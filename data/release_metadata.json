@@ -20,7 +20,7 @@
   "consumer_dispositions": "delivered_with_historical_editions_preserved",
   "experimental_extractor": "failed_no_automatic_promotion",
   "quality_gate_disposition": "User authorized publication of the current state with qualifications on pending QA, followed by continued double checking and resolution of outstanding questions.",
-  "reviewed_data_source_commit": "6015c205faca3a0a800295f3ac739d0946693218",
+  "reviewed_data_source_commit": "f3d67fa20374512aab842ea5cb7ab2bb8948af47",
   "record_dispositions": {
     "unresolved": 1346,
     "corrected_resolved": 192,
@@ -31,7 +31,7 @@
   "record_disposition_path": "work/research/2026-11-08/full-record-dispositions/funnel.json",
   "qa_status": "ongoing",
   "publication_authorization": "publish current state with qualifications on pending QA, then continue to double check and clear the outstanding questions",
-  "working_revision": "2026.11.11.post7-prepared",
+  "working_revision": "2026.11.11.post7-data-consumer-delivered-hosting-pending",
   "current_raw_counts": {
     "local": 1328,
     "state_policy": 449,
@@ -39,18 +39,18 @@
   },
   "prior_release": "v2026.11.11.post6",
   "prior_release_source_commit": "6015c205faca3a0a800295f3ac739d0946693218",
-  "prior_published_source_commit": "4c83f245891fe025d28c00b29c662a040e0bcd92",
-  "published_source_reference": "Qualified post6 pins 6015c205faca3a0a800295f3ac739d0946693218; identical builds, clean restore, ten anonymous downloads, V40 and all current hosted pages/browser checks verified. Initial hosted source c268e5b01b6350ceae661b16c15b3c62021598b0; receipt work/research/2026-11-11/release-2026.11.11.post6/hosted-copy-verification.json. Eagan court outcome/later force and broader QA remain qualified.",
+  "prior_published_source_commit": "6015c205faca3a0a800295f3ac739d0946693218",
+  "published_source_reference": "Qualified post7 pins f3d67fa20374512aab842ea5cb7ab2bb8948af47; identical builds, full restore, ten anonymous downloads and V41 verified. Hosted verification pending; post6 is prior verified site. LA memorandum scope/later action and broader QA remain qualified.",
   "latest_consumer_handoff": {
-    "source_commit": "6015c205faca3a0a800295f3ac739d0946693218",
-    "manifest_sha256": "37cdf52350fca13985a3e651bb8df9285d9ecf3a2d9f6e21a96bce90c2147ce5",
+    "source_commit": "f3d67fa20374512aab842ea5cb7ab2bb8948af47",
+    "manifest_sha256": "fd21e1f324faed6b8369e0e73bbd2c67f08ffbcbf089a871e45a36745a835a8a",
     "trusted_verifier_sha256": "ebecf851d4196715df186cc81cc3c933ab7da550fbafd7207996cd94b9cd2739",
-    "scope": "Eleven Fort Wayne/Eagan cells. Historical Fort Wayne proposal rejected4-4 and review closed; Eagan reported challenge/enforcement remain distinct with court outcome/force unverified. Pending63/rejected3, VERIFY978, unresolved1346; in-force/raw/policy/native totals unchanged.",
-    "consumer_commit": "9aa7efec205a70c7c0210d78a4f0ea3f5e1ded40",
-    "receipt": "work/research/2026-11-11/post-release-qa/consumer-v40-handoff.json"
+    "scope": "Two LA County prose cells establish October6 referral instead of an adopted permanent prohibition. Memorandum scope and later actions remain unresolved. No counts/status/native changes or closures.",
+    "consumer_commit": "763565e87a5a328ae569dedee2a9a73f6728cd8c",
+    "receipt": "work/research/2026-11-11/post-release-qa/consumer-v41-handoff.json"
   },
   "release_date_timezone": "America/New_York",
-  "published_source_commit": "6015c205faca3a0a800295f3ac739d0946693218",
+  "published_source_commit": "f3d67fa20374512aab842ea5cb7ab2bb8948af47",
   "september_status_category_differences": {
     "local": 101,
     "policy": 34,
@@ -59,27 +59,24 @@
   },
   "latest_geography_review": "work/research/2026-11-09/post-release-qa/nonblank-geography-application.json",
   "latest_delivered_consumer_input_delta": {
-    "baseline_release": "v2026.11.11.post5",
-    "baseline_source_commit": "4c83f245891fe025d28c00b29c662a040e0bcd92",
-    "baseline_handoff": "V39",
-    "receipt": "work/research/2026-11-11/post-release-qa/fort-wayne-final-disposition-application.json",
+    "baseline_release": "v2026.11.11.post6",
+    "baseline_source_commit": "6015c205faca3a0a800295f3ac739d0946693218",
+    "baseline_handoff": "V40",
+    "receipt": "work/research/2026-11-11/post-release-qa/los-angeles-operative-application.json",
     "receipts": [
-      "work/research/2026-11-11/post-release-qa/eagan-operative-application.json",
-      "work/research/2026-11-11/post-release-qa/fort-wayne-final-disposition-application.json"
+      "work/research/2026-11-11/post-release-qa/los-angeles-operative-application.json"
     ],
-    "changed_cells": 11,
-    "changed_local_rows": 2,
+    "changed_cells": 2,
+    "changed_local_rows": 1,
     "changed_policy_rows": 0,
-    "status_category_changes": 1,
+    "status_category_changes": 0,
     "normalized_date_changes": 0,
-    "scope": "Eleven Fort Wayne/Eagan cells delivered in post6/V40 and verified current pages. One historical proposal review closed; pending63/rejected3, VERIFY978, unresolved1346. Eagan court outcome and later force remain unverified.",
-    "whole_record_closures": 1,
-    "verify_flagged_rows_change": -1,
-    "state": "delivered_data_consumer_and_hosted_verified",
-    "delivered_source_commit": "6015c205faca3a0a800295f3ac739d0946693218",
-    "delivered_consumer_commit": "9aa7efec205a70c7c0210d78a4f0ea3f5e1ded40",
-    "delivery_receipt": "work/research/2026-11-11/post-release-qa/consumer-v40-handoff.json",
-    "hosted_copy_state": "verified"
+    "scope": "Two LA County prose cells delivered in post7/V41; no whole-record closures. Pending63/rejected3, VERIFY978, unresolved1346. Hosted checks pending; LA memorandum scope/later action and wider QA unresolved.",
+    "state": "delivered_data_consumer_pending_hosted_verification",
+    "delivered_source_commit": "f3d67fa20374512aab842ea5cb7ab2bb8948af47",
+    "delivered_consumer_commit": "763565e87a5a328ae569dedee2a9a73f6728cd8c",
+    "delivery_receipt": "work/research/2026-11-11/post-release-qa/consumer-v41-handoff.json",
+    "hosted_copy_state": "pending"
   },
   "latest_source_followup": "work/research/2026-11-11/post-release-qa/brookhaven-operative-application.json",
   "latest_expanded_candidate_review": "work/research/2026-11-09/starke-succession-review/validation.json",
@@ -103,23 +100,26 @@
     "scope": "Qualified policy-history succession only; no formal termination, overlap or current-force acceptance."
   },
   "prior_delivered_consumer_input_delta": {
-    "baseline_release": "v2026.11.11.post4",
-    "baseline_source_commit": "2ccf07089536a71cb43e3dbd846620853097dcd6",
-    "baseline_handoff": "V38",
-    "receipt": "work/research/2026-11-11/post-release-qa/alachua-operative-application.json",
+    "baseline_release": "v2026.11.11.post5",
+    "baseline_source_commit": "4c83f245891fe025d28c00b29c662a040e0bcd92",
+    "baseline_handoff": "V39",
+    "receipt": "work/research/2026-11-11/post-release-qa/fort-wayne-final-disposition-application.json",
     "receipts": [
-      "work/research/2026-11-11/post-release-qa/alachua-operative-application.json"
+      "work/research/2026-11-11/post-release-qa/eagan-operative-application.json",
+      "work/research/2026-11-11/post-release-qa/fort-wayne-final-disposition-application.json"
     ],
-    "changed_cells": 4,
-    "changed_local_rows": 1,
+    "changed_cells": 11,
+    "changed_local_rows": 2,
     "changed_policy_rows": 0,
-    "status_category_changes": 0,
+    "status_category_changes": 1,
     "normalized_date_changes": 0,
-    "scope": "Four Alachua prose corrections delivered in post5/V39 and verified current public pages. No status/date/endpoint changes; final adoption/effect and later force remain unresolved.",
+    "scope": "Eleven Fort Wayne/Eagan cells delivered in post6/V40 and verified current pages. One historical proposal review closed; pending63/rejected3, VERIFY978, unresolved1346. Eagan court outcome and later force remain unverified.",
+    "whole_record_closures": 1,
+    "verify_flagged_rows_change": -1,
     "state": "delivered_data_consumer_and_hosted_verified",
-    "delivered_source_commit": "4c83f245891fe025d28c00b29c662a040e0bcd92",
-    "delivered_consumer_commit": "89b00571db0c9391227fc0bcd96afee31b05a01b",
-    "delivery_receipt": "work/research/2026-11-11/post-release-qa/consumer-v39-handoff.json",
+    "delivered_source_commit": "6015c205faca3a0a800295f3ac739d0946693218",
+    "delivered_consumer_commit": "9aa7efec205a70c7c0210d78a4f0ea3f5e1ded40",
+    "delivery_receipt": "work/research/2026-11-11/post-release-qa/consumer-v40-handoff.json",
     "hosted_copy_state": "verified"
   },
   "latest_field_application": "work/research/2026-11-11/post-release-qa/los-angeles-operative-application.json",
@@ -134,16 +134,16 @@
   "latest_expanded_result_review": "work/research/2026-11-10/canterbury-minutes-result-review/coordinator-adjudication.json",
   "latest_verified_release": "v2026.11.11.post6",
   "source_observation_window_scope": "Acquisition range includes source-specific QA captures through November10; this does not renew every record or move the original comprehensive research_cutoff.",
-  "latest_download_verified_release": "v2026.11.11.post6",
+  "latest_download_verified_release": "v2026.11.11.post7",
   "prior_latest_consumer_handoff": {
-    "source_commit": "4c83f245891fe025d28c00b29c662a040e0bcd92",
-    "manifest_sha256": "c14ec03bd529bdd11f875f76080fa29ae9f48e0fa0599c39d2cbe0a058cd6c21",
+    "source_commit": "6015c205faca3a0a800295f3ac739d0946693218",
+    "manifest_sha256": "37cdf52350fca13985a3e651bb8df9285d9ecf3a2d9f6e21a96bce90c2147ce5",
     "trusted_verifier_sha256": "ebecf851d4196715df186cc81cc3c933ab7da550fbafd7207996cd94b9cd2739",
-    "scope": "Four Alachua prose corrections separate September14motion5-0 from October5firstreading4-1. No status, normalized date, endpoint, headline or native changes. Final adoption, effect and laterforce unresolved.",
-    "consumer_commit": "89b00571db0c9391227fc0bcd96afee31b05a01b",
-    "receipt": "work/research/2026-11-11/post-release-qa/consumer-v39-handoff.json"
+    "scope": "Eleven Fort Wayne/Eagan cells. Historical Fort Wayne proposal rejected4-4 and review closed; Eagan reported challenge/enforcement remain distinct with court outcome/force unverified. Pending63/rejected3, VERIFY978, unresolved1346; in-force/raw/policy/native totals unchanged.",
+    "consumer_commit": "9aa7efec205a70c7c0210d78a4f0ea3f5e1ded40",
+    "receipt": "work/research/2026-11-11/post-release-qa/consumer-v40-handoff.json"
   },
-  "prior_published_source_reference": "Qualified post5 pins 4c83f245891fe025d28c00b29c662a040e0bcd92; identical builds, clean restore, ten anonymous downloads, V39 and all current hosted pages/browser checks verified. Initial hosted source bc2579c67d16635b13320ecd2bb378754a357f68; receipt work/research/2026-11-11/release-2026.11.11.post5/hosted-copy-verification.json. Alachua final adoption/effect/later force and broader QA remain qualified.",
+  "prior_published_source_reference": "Qualified post6 pins 6015c205faca3a0a800295f3ac739d0946693218; identical builds, clean restore, ten anonymous downloads, V40 and all current hosted pages/browser checks verified. Initial hosted source c268e5b01b6350ceae661b16c15b3c62021598b0; receipt work/research/2026-11-11/release-2026.11.11.post6/hosted-copy-verification.json. Eagan court outcome/later force and broader QA remain qualified.",
   "latest_verified_hosted_data": {
     "release": "v2026.11.11.post6",
     "release_source_commit": "6015c205faca3a0a800295f3ac739d0946693218",
@@ -325,21 +325,13 @@
     "scope": "Every currentHTMLpage and linkedlocalresource/download matches pinnedsource. Actual desktop/mobile/dark, mapfilters, charts/tables, Alachua pointer popup and Florida corrected reading/vote prose pass. Full final artifact and acknowledgment recheck follows; no universal currentlaw or freshness certification."
   },
   "latest_independent_record_review": "work/research/2026-11-11/post-release-qa/los-angeles-operative-application.json",
-  "pending_consumer_input_delta": {
-    "baseline_release": "v2026.11.11.post6",
-    "baseline_source_commit": "6015c205faca3a0a800295f3ac739d0946693218",
-    "baseline_handoff": "V40",
-    "receipt": "work/research/2026-11-11/post-release-qa/los-angeles-operative-application.json",
-    "receipts": [
-      "work/research/2026-11-11/post-release-qa/los-angeles-operative-application.json"
-    ],
-    "changed_cells": 2,
-    "changed_local_rows": 1,
-    "changed_policy_rows": 0,
-    "status_category_changes": 0,
-    "normalized_date_changes": 0,
-    "scope": "Two prose cells replace stale October6 forecast with verified referral and distinguish proposed definitions from memorandum scope. No status,normalizeddates,endpoints,VERIFYcounts,headlinecounts or nativehistory changes. Publication pending. Qualified post6/V40 remains verified public edition."
-  },
   "prepared_release": "v2026.11.11.post7",
-  "prepared_release_qualifications": "Two LA County prose corrections; no headline/status/native changes or whole-record closures. 1346 reviews remain unresolved. Delivery pending."
+  "prepared_release_qualifications": "Two LA County prose corrections; no headline/status/native changes or whole-record closures. 1346 reviews remain unresolved. Delivery pending.",
+  "pending_hosted_delivery": {
+    "release": "v2026.11.11.post7",
+    "release_source_commit": "f3d67fa20374512aab842ea5cb7ab2bb8948af47",
+    "state": "verified_data_release_pending_full_site_deployment",
+    "receipt": "work/research/2026-11-11/release-2026.11.11.post7/public-verification.json",
+    "active_deployment_run": null
+  }
 }

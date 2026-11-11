@@ -3,7 +3,7 @@
 Work from a pinned commit and retain the cohort cutoff separately from the date
 of an individual source review. Research jobs are not a substantive acceptance gate.
 
-Qualified post6/V40: Eleven Fort Wayne/Eagan cells establish Fort Wayne’s historical 4–4 rejection and update attributed Eagan litigation news. One historical proposal review closes. Counts are 63 pending, three rejected, 978 VERIFY-tagged and 1,346 unresolved reviews. The 1,086 active/extended records and raw, policy and native totals are unchanged. Eagan court dispositions and later force remain unverified. Two identical builds, full clean restore, ten anonymous downloads, V40 and current hosted desktop/mobile checks pass. [Receipts](../work/research/2026-11-11/release-2026.11.11.post6/README.md).
+Qualified post7/V41: Two LA County prose cells establish October 6 referral of motion 26-6069 rather than adoption of the proposed permanent prohibition. No whole-record closures or status/date/headline/native changes. There remain 1,346 unresolved reviews. The September memorandum scope and later actions remain unverified. Two identical builds, full clean restore, ten anonymous downloads and V41 pass. Hosted checks pending; post6/V40 remains the verified website edition. [Receipts](../work/research/2026-11-11/release-2026.11.11.post7/README.md).
 
 The current qualified expanded snapshot tracks policy observations and 57 measure/proposal records, with 65 retained results and 53 current observations across 52 measures. This is separate from legacy moratorium counts and does not certify every result.
 
