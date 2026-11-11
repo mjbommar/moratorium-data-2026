@@ -86,3 +86,6 @@ Source-only follow-up: [East Fishkill and Salina filing-image audit](ny-retained
 
 
 Source-only follow-up: [Idaho governor H0911 action tracking](idaho-governor-action-followup.md). A newly acquired same-day morning snapshot has blank action/signature cells. It does not resolve signature or negate existing legislative corroboration. Canonical data and public pages are unchanged.
+
+
+Source-only follow-up: [Nassau clerk ordinance route](nassau-clerk-route-review.md). The actual records form returned human verification, not a record result. The specific automated route is now documented; final ordinance/filing and later-force questions remain unresolved. Data/public pages are unchanged.
