@@ -1,5 +1,11 @@
 # Changelog
 
+## Qualified v2026.11.11 — delivery pending
+
+Four Mendocino prose fields verify signed Ordinances 4561/4562, original and extension votes/terms, and literal 3-MW-or-less wording alongside the separate similar-uses clause. Graphical signatures were present in retained4562bytes but omitted by text extraction. Intended threshold interpretation, exemption interactions, actual applicability and later force remain open. One proposed outcome field was held and is unchanged.
+
+No status, normalized date, endpoint, identity, scope, headline count, native ballot-history or whole-record closure changes. 1,347 legacy reviews remain unresolved. Deterministic build, clean restore, anonymous downloads, V34 and hosted checks are pending.
+
 ## Qualified v2026.11.10.post18
 
 Sixteen prose cells across three records: thirteen Ridgely/Worcester local fields use newly recovered official minutes and signed text; three Massachusetts fields incorporate independent record QA, originating House Ways and Means attribution and version/nonenactment qualifications. Two later Massachusetts edits supersede earlier unknown attribution wording, so eighteen intermediate edits produce sixteen unique delivered cells.

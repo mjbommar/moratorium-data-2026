@@ -79,7 +79,7 @@ If you publish something based on this data, we'd love to hear about it — drop
 
 ## How often is this updated?
 
-The latest qualified release is [v2026.11.10.post18](https://github.com/mjbommar/moratorium-data-2026/releases/tag/v2026.11.10.post18), published November 10 with pending source-specific QA. Use its tag and checksums for reproducible analysis; working main may include later corrections. Follow [CITATION.cff](../CITATION.cff) and the release metadata for citation. No DOI is asserted.
+The latest qualified release is [v2026.11.11](https://github.com/mjbommar/moratorium-data-2026/releases/tag/v2026.11.11), prepared November 11 with pending source-specific QA; delivery verification is pending and post18/V33 remains the verified edition. Use its tag and checksums for reproducible analysis; working main may include later corrections. Follow [CITATION.cff](../CITATION.cff) and the release metadata for citation. No DOI is asserted.
 
 ## Who built this?
 

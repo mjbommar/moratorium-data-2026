@@ -1,8 +1,8 @@
 # Moratorium Data 2026
 
-**Qualified post18 release and website verified:** [v2026.11.10.post18](https://github.com/mjbommar/moratorium-data-2026/releases/tag/v2026.11.10.post18) delivers sixteen reviewed prose corrections across Ridgely, Worcester County and Massachusetts. Downloads, clean restore, V33 and desktop/mobile pages are verified. Broader QA continues.
+**Qualified November 11 update prepared; delivery pending:** Four reviewed Mendocino prose corrections verify signed historical instruments and preserve the printed threshold. The last verified public edition remains post18/V33. Broader QA continues.
 
-**Reviewed corrections:** Maryland minutes and signed text clarify historical adoption, scope and term; Massachusetts independent review and originating-committee attribution are complete. Final outcomes and later force remain qualified. Counts, categories, normalized dates and native history are unchanged. [Exact delta](work/research/2026-11-10/release-2026.11.10.post18/dataset-delta.json).
+**Reviewed corrections:** Signed Mendocino Ordinances 4561 and 4562 establish historical adoption, votes, terms and literal threshold wording. Intended scope, later force and actual applicability remain qualified. Counts, categories, normalized dates and native history are unchanged. [Exact delta](work/research/2026-11-11/release-2026.11.11/dataset-delta.json).
 
 **Reviewed correction:** Bonney Lake is classified as replaced with an October 13 end date. Four fields are corrected. [Release/download/V30 checks](work/research/2026-11-10/release-2026.11.10.post15/README.md) are verified; the complete website and updated Bonney Lake entry pass desktop/mobile and byte checks.
 
@@ -174,7 +174,7 @@ A `CITATION.cff` file is included in the repo so GitHub renders a "Cite this rep
 - **Data** (`data/`, `states/`, `tables/`, `figures/`) is licensed under [Creative Commons Attribution 4.0 (CC-BY-4.0)](LICENSE-data). You can reuse, redistribute, and remix the data, including commercially, as long as you credit the source.
 - **Code** (`scripts/`, `notebooks/`, `examples/`) is licensed under the [MIT License](LICENSE-code).
 
-The latest qualified release is [v2026.11.10.post18](https://github.com/mjbommar/moratorium-data-2026/releases/tag/v2026.11.10.post18), published November 10 with explicit pending QA. Downloads, clean restore, V33 and full hosted desktop/mobile checks pass. September 23 remains the historical comparison baseline. Pin release tags for replication; working main may contain subsequent reviewed corrections.
+The latest qualified release is [v2026.11.11](https://github.com/mjbommar/moratorium-data-2026/releases/tag/v2026.11.11), prepared November 11 with explicit pending QA. Delivery checks are pending; post18/V33 remains the verified edition. September 23 remains the historical comparison baseline. Pin release tags for replication; working main may contain subsequent reviewed corrections.
 
 ---
 
