@@ -1,0 +1,37 @@
+{
+  "id": "oh-st-clair-township-butler-county-2026",
+  "dataset": "local_inventory",
+  "source_continuity": {
+    "path": "work/research/2026-11-11/post-release-qa/stclair-butler-primary-source-continuity.json",
+    "sha256": "60a0281fa17b8d2d7a0b86bc5fd93601ebcdcc05c74e5a3d8422207e81b3cf5a"
+  },
+  "findings": [
+    "WCPO original November11report says ButlerCountyPlanningCommission and StClairTownshipZoningCommission approved an amendment on Tuesday that would block data centers as a primary land use. It explicitly says amendment is not final and townshiptrustees have the final decision. Retain attribution; no final enactment/replacement or moratoriumtermination inferred.",
+    "News publication meta parsely-pub-date2026-11-11T00:19:15-0500 is timezone-bearing. article:published_time2026-11-11T05:19:15.241 has no timezone; do not silently turn it into UTC.",
+    "Official township homepage navigation links2025MeetingMinutes, and zoning page supplies current-code PDF link; no original2026moratorium instrument was recovered. This is bounded navigation, not proof no public instrument exists elsewhere. Linked fullcurrentcode was not downloaded.",
+    "Official2026trustee meeting schedule lists May4, whereas retained news identifies May5adoption. A schedule is not completedminutes and cannot correct the adoption date by itself; preserve this discrepancy for originalinstrument review.",
+    "Countydevelopment/planning/meeting pages were followed through actual links. Current2026Nov10PlanningCommissionagenda link was discovered; ordinaryHTTP acquisition followed a redirect and returned403 before any PDFbody was retained. No guessed filenames, no inference about meeting outcome from failure, no challenge bypass.",
+    "Existing Trentonballotresult and originalMaymoratorium news were not re-fetched or imported as new ballot observations. Keep Trentoncityballot and townshipproposal identities separate."
+  ],
+  "agenda_failure": {
+    "requested_url": "https://www.bcohio.gov/Document_Center/Development/Planning/Meetings/PC_Agenda_Nov%2010%202026.pdf",
+    "http_status": 403,
+    "body_retained": false,
+    "redirect_target_not_retained": true
+  },
+  "remaining_questions": [
+    "Independently adjudicate bounded outcome/current-status news update, preserving explicit finaltrusteeactionpending qualification. No canonical application in this source-only pass.",
+    "Obtain original completedtrustee minutes/resolution to resolve May4scheduledversusMay5reported date, number, termanchor, operative interval and scope. No unchangednavigationrepeat or datecorrection from schedule alone.",
+    "Obtain actualNov10county/townshipcommission minutes/decision and amendmenttext, then distinctfinaltrustee hearing/vote/adoption/effect, any moratoriumtermination/replacement and laterlegalforce. Do not classify as replaced merely because commissions recommended/approved proposal."
+  ],
+  "canonical_changes": 0,
+  "whole_record_closures": 0,
+  "fresh_native_ballot_observations": 0,
+  "search_queries": [
+    "StClairTownshipButlerCountyOhioMay52026datacentermoratoriumresolutionminutes",
+    "SaintClairTownshipButlerOhioofficialtrusteeminutes2026",
+    "site:cms5.revize.com/revize/butleroh November2026Clair",
+    "site:bcohio.gov November10Clair2026"
+  ],
+  "duplicate_avoidance": "No priorNov10/11followup for thisrecord in currentresearch; originalretainednews/Trentonballot not reacquired. Historical archive navigation cached from priorButlerOHpass supplied actualcountydevelopmentlink without re-fetching homepage."
+}
