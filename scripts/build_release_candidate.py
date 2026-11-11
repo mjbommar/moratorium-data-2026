@@ -170,9 +170,9 @@ def check_release_labels(contents):
         if len(values) != 1 or values[0].strip().strip('\"\'') != expected:
             raise ValueError('CITATION.cff ' + key + ' disagrees with release metadata')
     patterns = {
-        'README.md': r'^The latest qualified release is \[v([^\]]+)\]',
-        'docs/FAQ.md': r'^The latest qualified release is \[v([^\]]+)\]',
-        'docs/methodology.md': r'^The November update is published as qualified release \[v([^\]]+)\]',
+        'README.md': r'^The (?:latest qualified|current|next) release is \[v([^\]]+)\]',
+        'docs/FAQ.md': r'^The (?:latest qualified|current|next) release is \[v([^\]]+)\]',
+        'docs/methodology.md': r'^The (?:November update is published as qualified release|(?:current|next) release is) \[v([^\]]+)\]',
     }
     for path, pattern in patterns.items():
         labels = re.findall(pattern, contents[path].decode(), re.M)

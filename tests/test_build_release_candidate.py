@@ -67,6 +67,17 @@ class ReleaseLabelsTest(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, 'docs/FAQ.md current release'):
             builder.check_release_labels(contents)
 
+    def test_plain_release_wording_checks_versions(self):
+        for phrase in ['The current release is', 'The next release is']:
+            contents = self.contents()
+            version = json.loads(contents['data/release_metadata.json'])['version']
+            for path in ['README.md', 'docs/FAQ.md', 'docs/methodology.md']:
+                contents[path] = f'{phrase} [v{version}](example)\n'.encode()
+            builder.check_release_labels(contents)
+            contents['README.md'] = f'{phrase} [v2020.1](example)\n'.encode()
+            with self.assertRaisesRegex(ValueError, 'README.md current release'):
+                builder.check_release_labels(contents)
+
     def test_stale_citation_date_is_rejected(self):
         contents = self.contents()
         metadata = json.loads(contents['data/release_metadata.json'])
