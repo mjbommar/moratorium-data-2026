@@ -31,7 +31,7 @@
   "record_disposition_path": "work/research/2026-11-08/full-record-dispositions/funnel.json",
   "qa_status": "ongoing",
   "publication_authorization": "publish current state with qualifications on pending QA, then continue to double check and clear the outstanding questions",
-  "working_revision": "2026.11.11.post10-delivery-verified",
+  "working_revision": "stclair-reported-commission-actions-pending-publication",
   "current_raw_counts": {
     "local": 1328,
     "state_policy": 449,
@@ -126,7 +126,7 @@
     "hosted_copy_state": "verified",
     "hosted_receipt": "work/research/2026-11-11/release-2026.11.11.post9/hosted-copy-verification.json"
   },
-  "latest_field_application": "work/research/2026-11-11/post-release-qa/butler-ne-operative-application.json",
+  "latest_field_application": "work/research/2026-11-11/post-release-qa/stclair-butler-operative-application.json",
   "latest_hosted_delivery": {
     "source_commit": "8538114339069cf97465b04df74d1438625ad511",
     "hosted_source_commit": "18ccbeb22180e48d7191da33db4e2e96e8d34895",
@@ -376,5 +376,20 @@
     "receipt": "work/research/2026-11-11/release-2026.11.11.post9/hosted-copy-verification.json",
     "scope": "All current HTML and linked local bytes match; actual browser desktop/mobile/dark, maps, tables, charts and Butler Ohio attribution/scope qualifications pass. Final artifact and acknowledgment verification follows."
   },
-  "latest_independent_record_review": "work/research/2026-11-11/post-release-qa/butler-ne-operative-application.json"
+  "latest_independent_record_review": "work/research/2026-11-11/post-release-qa/stclair-butler-operative-application.json",
+  "pending_consumer_input_delta": {
+    "baseline_release": "v2026.11.11.post10",
+    "baseline_source_commit": "8538114339069cf97465b04df74d1438625ad511",
+    "baseline_handoff": "V44",
+    "receipt": "work/research/2026-11-11/post-release-qa/stclair-butler-operative-application.json",
+    "receipts": [
+      "work/research/2026-11-11/post-release-qa/stclair-butler-operative-application.json"
+    ],
+    "changed_cells": 2,
+    "changed_local_rows": 1,
+    "changed_policy_rows": 0,
+    "status_category_changes": 0,
+    "normalized_date_changes": 0,
+    "scope": "Two acceptedprosecells record attributedcommissionactions, not finalenactment. No status/date/endpoint/VERIFY/count/nativeballot changes or whole-recordclosure. Pending nextcombinedpublication afterpost10/V44."
+  }
 }

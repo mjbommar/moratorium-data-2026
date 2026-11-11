@@ -1008,3 +1008,5 @@ Exit: repeatable refresh with visible freshness, costs, failures and unresolved 
 - [x] Include three Butler County Nebraska project-exemption/PlanningCommission-label prose corrections in the combined Morgan/Adams/Nebraska batch:16cells/three rows, no category/count changes or closures. Executed exemption terms and county adoption/termination/currentforce remain open. Delivered in qualified post10/V44; final current-page receipts verified.
 
 - [x] Final post10/V44 delivery:16cells/three rows,64HTMLpages,230resources,8,772payloadfiles and49nativegenerations verified. Long map popups now scroll within desktop/mobile map viewports. No category/count changes or whole-recordclosures.
+
+- [ ] Include two reviewed St. Clair Township Butler County Ohio prose updates in the next combined batch after post10/V44: November11report describes commissionactions but explicitly retains finaltrusteeapprovalpending. Originalresolution, May4/May5date discrepancy, interval and laterforce remain unresolved; no status/date/count changes.

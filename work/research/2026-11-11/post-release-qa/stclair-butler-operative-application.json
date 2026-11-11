@@ -1,0 +1,37 @@
+{
+  "id": "oh-st-clair-township-butler-county-2026",
+  "dataset": "local_inventory",
+  "baseline_commit": "5fede387c5242fe519426571e25e826986cb4910",
+  "applied_at": "2026-11-11T14:09:51.023580+00:00",
+  "prior_row_sha256": "53061c4ccb573dcc10d6908bec40204c9c6cbe00cb7da3c9e3b3fc837ef3419b",
+  "current_row_sha256": "afad71499cb8b525c38bcb2700da554512cc2ed8b47a0de2e6faae5c9c5a103c",
+  "canonical_cells_changed": 2,
+  "field_changes": [
+    {
+      "field": "current_status",
+      "before": "The Journal-News reported a yearlong moratorium adopted May 5, 2026. Trenton withdrew its annexation petition in September 2026, according to earlier WVXU reporting; an October 9 WVXU report says AWS could still pursue township approval. The moratorium\u2019s effective interval and later legal action remain unverified. [VERIFY: resolution, operative interval and subsequent action.]",
+      "after": "The Journal-News reported a yearlong moratorium adopted May 5, 2026. WCPO reported on November 11 that the county Planning Commission and township Zoning Commission approved a proposed data-center amendment, while explicitly saying final township trustee approval was still required. The official regular-meeting schedule lists May 4, which does not establish the actual moratorium vote date. [VERIFY: original resolution and completed vote record, operative interval, final amendment adoption/effect and later legal force.]"
+    },
+    {
+      "field": "outcome",
+      "before": "The trustee plans to present data center regulations to the zoning commission; the township also objected to Trenton's annexation.",
+      "after": "WCPO\u2019s November 11 report describes favorable county and township commission actions on a zoning amendment that would restrict data centers as a primary land use. It expressly says the amendment was not final and township trustees would decide whether to adopt it. That report does not establish final enactment or effect, replacement of the existing moratorium, or a final project disposition."
+    }
+  ],
+  "independent_review": {
+    "path": "work/research/2026-11-11/post-release-qa/stclair-butler-independent-review.json",
+    "sha256": "65b3e061e9ddf20dd34b60a5c4dc58c9b7824acf3032d5b2c39e1fe48bbc462e"
+  },
+  "source_continuity": {
+    "path": "work/research/2026-11-11/post-release-qa/stclair-butler-complete-source-continuity.json",
+    "sha256": "5092026b91869a1109a6ffc3d83822ad2626fc66e14e2814ebe4c7ccbfa70489"
+  },
+  "recommendation": "unresolved",
+  "whole_record_closures": 0,
+  "remaining_questions": [
+    "November11WCPO commission-action report incorporated with explicitfinaltrusteeapprovalpending qualification. May4officialschedule versusMay5reportedmoratoriumdate is retained as unresolved; do not repeat unchangednews/navigation capture merely to recover this lead.",
+    "Obtain originalcompletedtrustee minutes/resolution for identity, actualadoptiondate, operativeanchor, exactscope and interval. Officialschedule is not proof May4voteoccurred, and reportedMay5remains unverified by originalrecord.",
+    "Obtain actualcounty/townshipcommission decision/minutes and amendmenttext, then distinctfinaltrustee hearing/vote/adoption/effect, any termination/replacement and currentforce. ActuallinkedcountyNov10agendadownload returned403; no outcomeinference or bypass. Trentoncityballot and townshipproposal are separateidentities."
+  ],
+  "scope": "Two acceptedprosecells record attributedcommissionactions, not finalenactment. No status/date/endpoint/VERIFY/count/nativeballot changes or whole-recordclosure. Pending nextcombinedpublication afterpost10/V44."
+}

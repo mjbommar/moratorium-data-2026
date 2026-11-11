@@ -1,0 +1,173 @@
+{
+  "input_manifest_sha256": "ac0cc84c6182ce00e4fdc8397a18e6ea361c329bd560d079988f0df1cef649b6",
+  "source_pins": [
+    {
+      "source_id": "prior-news",
+      "text_sha256": "87d753e9257f399dc3cbe4fbdfa69a5f17e6ea0c3d3c7805f24114a536cee4be",
+      "role": "Retained JournalNewsreport attributes yearlongStClairmoratoriumMay5. Reporting, not originalresolution."
+    },
+    {
+      "source_id": "wcpo-news",
+      "text_sha256": "1fa964a6f0282f235360dc36c7765a3302846f924887554b88b30301ff85bc3a",
+      "role": "Original captured WCPO report published2026-11-11T00:19:15-0500 in parselymeta. Says commissionactions onTuesday, amendmentnotfinal, trusteesdecide. No independently completedminutes."
+    },
+    {
+      "source_id": "schedule",
+      "text_sha256": "2288346bc0eb52b1e5a244ed37448035f682ec1e31c197b657014d3fae78f946",
+      "role": "Official2026regularmeeting schedule listsMay4. A schedule is not evidence a meeting/vote occurred then; do not overwriteMay5fromit."
+    }
+  ],
+  "image_pins": [],
+  "candidate": {
+    "id": "oh-st-clair-township-butler-county-2026",
+    "row_sha256": "53061c4ccb573dcc10d6908bec40204c9c6cbe00cb7da3c9e3b3fc837ef3419b",
+    "proposed_changes": [
+      {
+        "field": "current_status",
+        "before": "The Journal-News reported a yearlong moratorium adopted May 5, 2026. Trenton withdrew its annexation petition in September 2026, according to earlier WVXU reporting; an October 9 WVXU report says AWS could still pursue township approval. The moratorium\u2019s effective interval and later legal action remain unverified. [VERIFY: resolution, operative interval and subsequent action.]",
+        "after": "The Journal-News reported a yearlong moratorium adopted May 5, 2026. WCPO reported on November 11 that the county Planning Commission and township Zoning Commission approved a proposed data-center amendment, while explicitly saying final township trustee approval was still required. The official regular-meeting schedule lists May 4, which does not establish the actual moratorium vote date. [VERIFY: original resolution and completed vote record, operative interval, final amendment adoption/effect and later legal force.]"
+      },
+      {
+        "field": "outcome",
+        "before": "The trustee plans to present data center regulations to the zoning commission; the township also objected to Trenton's annexation.",
+        "after": "WCPO\u2019s November 11 report describes favorable county and township commission actions on a zoning amendment that would restrict data centers as a primary land use. It expressly says the amendment was not final and township trustees would decide whether to adopt it. That report does not establish final enactment or effect, replacement of the existing moratorium, or a final project disposition."
+      }
+    ]
+  },
+  "captures": [
+    {
+      "stage": "blind_extraction",
+      "attempt_id": "f4bdcbaf8e6b460fbd669ad8ab0e2dec",
+      "descriptor_sha256": "68b591153a4f53e914e69b731336d35589acbdbcdf9d0782be18829f162af3f7",
+      "wire_request_sha256": "a45ab0276706508a0d1747304b58fb3bbcb687676bf11701c8e8a6e936127103",
+      "wire_response_sha256": "d8683a5646d4f043b0ddc4f965367e1dd64b26279ea8215398db315b544ee4c6",
+      "actual_input_descriptor_matches": true,
+      "wire_sdk_output_matches_after_null_default_normalization": true,
+      "parsed_answer_matches": true,
+      "usage": {
+        "input_tokens": 4159,
+        "input_tokens_details": {
+          "cache_write_tokens": 4156,
+          "cached_tokens": 0
+        },
+        "output_tokens": 718,
+        "output_tokens_details": {
+          "reasoning_tokens": 138
+        },
+        "total_tokens": 4877
+      },
+      "all_selected_source_text_inputs_bound": true
+    },
+    {
+      "stage": "cell_adjudication",
+      "attempt_id": "94681f5cf95b44dcaced67313aa8d6f2",
+      "descriptor_sha256": "9e37a4be650735c8e55c95a7cc179818e6a0e67dce585156cba9b9a77b688d03",
+      "wire_request_sha256": "f529a132d819ace862b67b52045d64a11e01cdf37e5a031daeb581f17ec82a15",
+      "wire_response_sha256": "987a536fbbe6c38b66882a94d2387a03f778142055e865b9758c7a36e3bc646f",
+      "actual_input_descriptor_matches": true,
+      "wire_sdk_output_matches_after_null_default_normalization": true,
+      "parsed_answer_matches": true,
+      "usage": {
+        "input_tokens": 5624,
+        "input_tokens_details": {
+          "cache_write_tokens": 5621,
+          "cached_tokens": 0
+        },
+        "output_tokens": 822,
+        "output_tokens_details": {
+          "reasoning_tokens": 247
+        },
+        "total_tokens": 6446
+      },
+      "all_selected_source_text_inputs_bound": true
+    }
+  ],
+  "answers": {
+    "blind_extraction": {
+      "facts": [
+        {
+          "field": "historical_moratorium",
+          "value": "The Journal-News reported that St. Clair Township trustees passed a yearlong moratorium on data centers on May 5.",
+          "source_id": "prior-news",
+          "locator": "Opening paragraphs",
+          "supporting_summary": "The report attributed the action to the trustees and described the township's intention to review its zoning resolution."
+        },
+        {
+          "field": "scheduled_meeting",
+          "value": "The township's 2026 regular trustee meeting schedule lists May 4.",
+          "source_id": "schedule",
+          "locator": "2026 Trustee Meeting Schedule",
+          "supporting_summary": "The schedule lists a regular meeting date; it does not establish that a meeting or vote occurred."
+        },
+        {
+          "field": "commission_actions",
+          "value": "WCPO reported that the Butler County Planning Commission and St. Clair Township Zoning Commission approved an amendment that would block data centers as a primary land use in the township.",
+          "source_id": "wcpo-news",
+          "locator": "Opening paragraphs",
+          "supporting_summary": "The report describes approvals by the two commissions on Tuesday, before publication."
+        },
+        {
+          "field": "planning_commission_recommendation",
+          "value": "The Butler County Planning Commission recommended adding language more explicitly explaining the amendment's rationale, including electricity, water, noise and public well-being concerns.",
+          "source_id": "wcpo-news",
+          "locator": "How St. Clair's zoning fight started",
+          "supporting_summary": "WCPO describes a recommendation concerning the amendment's explanatory language."
+        },
+        {
+          "field": "trustee_approval_pending",
+          "value": "As of the WCPO report, the amendment was not final and was headed to the St. Clair Township Board of Trustees for a decision.",
+          "source_id": "wcpo-news",
+          "locator": "One major step remains",
+          "supporting_summary": "The article states that trustees have the final say on whether the amendment becomes part of the township's zoning regulations."
+        }
+      ],
+      "uncertainties": [
+        "The historical moratorium is supported by a news report, not the original resolution. Its exact endpoint and current status are not established.",
+        "The May 4 schedule does not establish a completed meeting or vote and does not independently resolve the reported May 5 action date.",
+        "No independently completed commission minutes or subsequent trustee decision are supplied.",
+        "The proposed restriction concerns data centers as a primary land use; the supplied reporting does not establish a universal ban.",
+        "No candidate or current row was supplied for comparison."
+      ]
+    },
+    "cell_adjudication": {
+      "record_id": "oh-st-clair-township-butler-county-2026",
+      "input_row_sha256": "53061c4ccb573dcc10d6908bec40204c9c6cbe00cb7da3c9e3b3fc837ef3419b",
+      "field_decisions": [
+        {
+          "field": "current_status",
+          "decision": "accept",
+          "value": "The Journal-News reported a yearlong moratorium adopted May 5, 2026. WCPO reported on November 11 that the county Planning Commission and township Zoning Commission approved a proposed data-center amendment, while explicitly saying final township trustee approval was still required. The official regular-meeting schedule lists May 4, which does not establish the actual moratorium vote date. [VERIFY: original resolution and completed vote record, operative interval, final amendment adoption/effect and later legal force.]",
+          "source_id": "prior-news; wcpo-news; schedule",
+          "locator": "Opening paragraphs; opening paragraphs and One major step remains; 2026 Trustee Meeting Schedule",
+          "reason": "The proposed text attributes both reports, preserves the unresolved date discrepancy and VERIFY marker, and does not present the amendment as final."
+        },
+        {
+          "field": "outcome",
+          "decision": "accept",
+          "value": "WCPO\u2019s November 11 report describes favorable county and township commission actions on a zoning amendment that would restrict data centers as a primary land use. It expressly says the amendment was not final and township trustees would decide whether to adopt it. That report does not establish final enactment or effect, replacement of the existing moratorium, or a final project disposition.",
+          "source_id": "wcpo-news",
+          "locator": "Opening paragraphs; One major step remains",
+          "reason": "The proposed text accurately limits the reported restriction and distinguishes commission actions from pending final trustee approval."
+        }
+      ],
+      "whole_record_closure_supported": false,
+      "remaining_questions": [
+        "What do the original moratorium resolution and completed vote record establish about its adoption date, operative interval and current legal force?",
+        "Did trustees subsequently adopt the proposed amendment, and if so, when and with what effect?",
+        "What is the final disposition of the affected project?"
+      ],
+      "review_limitations": [
+        "The May 4 schedule does not establish that a meeting or vote occurred on that date or resolve the reported May 5 date.",
+        "No independently completed commission minutes or subsequent trustee decision were supplied.",
+        "Only the two proposed prose fields were adjudicated; affected_projects and all status, date, interval and ballot fields remain unchanged."
+      ]
+    }
+  },
+  "model_http_requests": 2,
+  "model": "gpt-6.1-terra",
+  "tools": [],
+  "agents_spawned": 0,
+  "price_usd": null,
+  "coordinator_whole_record_closure": false,
+  "scope": "Two serial Terra calls; exactproseaccepted. No finalenactment/status/date/ballot inference."
+}
