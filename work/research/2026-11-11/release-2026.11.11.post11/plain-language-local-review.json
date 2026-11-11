@@ -1,0 +1,53 @@
+{
+  "baseline_commit": "79c721c24bd67794e68270aa0e8352fc44d438c4",
+  "style_reference_commit": "f19e1c0ee9a5b9ef61bd145cb58374c323709503",
+  "style_policy": "docs/editorial-style.md",
+  "scope": "Rewrite public overview copy, main documentation, ballot explanation and shared state-page text in plain American English. Preserve underlying record facts and legal qualifications. Detailed historical research notes remain available.",
+  "local_checks": {
+    "existing_focused_tests": 32,
+    "documented_numbers_checked": 103,
+    "generated_index_current": true,
+    "ballot_summary_matches_published_data": "Reviewed ballot summary matches its pinned publication.",
+    "desktop_mobile_dark_browser_passed": true,
+    "page_errors": [],
+    "phone_pages_without_horizontal_overflow": 63,
+    "five_recently_corrected_prose_values_preserved": true
+  },
+  "protected_files_unchanged": {
+    "data/moratorium_inventory.csv": "2bd3652a566b3b5407e274708fc597850a3bec6385212c8c5bf2d71e4fb13f76",
+    "data/state_legislation.csv": "53b79966a15c10e79dce358b1a31b788260757cb709dea621d31f687777522d3",
+    "data/state_policy_scope_reviews.jsonl": "92e4cc81a6c6064f586ddb032b579182a4cf13212792512c40f5804e140ea56f",
+    "data/summary_stats.json": "8820e582e538a63ea242219dab1d57416242f1cec59834270d751e347f512799",
+    "site/moratoria.geojson": "a30f136b4d5924c7b2fde27e15421dfa565eb65b67916314fe20d2514472f07f",
+    "site/timeline.svg": "4b3febd7a4fa3c81d8fdb1c52ab2e2bad9fbefb99b8d9be04318d8b6193eb095"
+  },
+  "native_data_unchanged": true,
+  "writing_tool": "Local writing-style analyze with house.clear-prose. Findings are advisory; no external model request.",
+  "style_reports": [
+    {
+      "file": "README.md-analysis.json",
+      "sha256": "7372abdf8e9fbbac5640b75620bb3084f61b8ce2fe826f5d7c6795420c08b4d9"
+    },
+    {
+      "file": "data-README.md-analysis.json",
+      "sha256": "c408c76ec392f4b3fcf344781a2f2708bb3762109243d13e88d35ef8e8415cc2"
+    },
+    {
+      "file": "docs-FAQ.md-analysis.json",
+      "sha256": "d7d7bcca500e8718299c40ec8b862424b4b8bf827227a121829c44d69aca7e1f"
+    },
+    {
+      "file": "docs-methodology.md-analysis.json",
+      "sha256": "70253d4da47f440b5f5bd4fb55ae2265afda43b716c223f202bafff547ed2d11"
+    },
+    {
+      "file": "index.html-analysis.json",
+      "sha256": "9b059bccab22f8200d03bd07866547c22a54804f8ed1b1eea320dbf8ea449f74"
+    }
+  ],
+  "local_screenshots_reviewed": [
+    "dashboard-desktop.png",
+    "dashboard-mobile.png"
+  ],
+  "deployment": "pending"
+}

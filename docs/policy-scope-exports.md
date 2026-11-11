@@ -1,5 +1,11 @@
 # Policy-scope exports
 
+The raw state tracker includes historical actions and records outside infrastructure scope. These files help select records for infrastructure analysis.
+
+Use `reviewed-included.csv` for records that have been reviewed and included. The candidate file also contains unresolved cases, so it needs further review. The annotated file keeps every raw record and its scope decision.
+
+## Build and validation details
+
 `scripts/build_policy_scope_exports.py` reads `data/state_legislation.csv` and
 `data/state_policy_scope_reviews.jsonl` and produces deterministic files in
 `data/policy-scope/`. Run the script to regenerate and add `--check` to verify

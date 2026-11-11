@@ -194,83 +194,38 @@
 
 <main class="doc">
   <div class="breadcrumb"><a href="../index.html">Home</a> / Docs</div>
-  <h1 id="frequently-asked-questions">Frequently Asked Questions</h1>
-<h2 id="what-is-this-dataset">What is this dataset?</h2>
-<p>A list of every local-government moratorium we could identify in the United States that targets one of these kinds of new development:</p>
-<ul>
-<li><strong>Data centers</strong> (server farms, including hyperscale and AI computing facilities)</li>
-<li><strong>Cryptocurrency mining</strong> facilities</li>
-<li><strong>Battery energy storage systems</strong> (BESS) — large lithium-ion installations</li>
-<li><strong>Solar farms</strong> (utility-scale)</li>
-<li><strong>Wind farms</strong> (utility-scale)</li>
-</ul>
-<p>The legacy inventory aims for one local moratorium instrument per row, including adopted and proposed actions. Some combined identities still need reconciliation. The original event-cohort cutoff was November 7, 2026 at 13:38:39.877065 UTC. The later <a href="../work/research/2026-11-09/starke-expanded-review/README.md">Starke historical-adoption publication</a> carries separate observation and review timestamps. Source dates vary; neither clock establishes universal current legal force. Searches across all states do not establish complete coverage, including for the previously searched May–July window. Ballot measures are a separate layer.</p>
+  <h1 id="frequently-asked-questions">Frequently asked questions</h1>
 <h2 id="what-is-a-moratorium">What is a moratorium?</h2>
-<p>A moratorium is a temporary pause that a local government places on accepting or approving permit applications for certain kinds of new development. Common features:</p>
-<ul>
-<li><strong>Time-limited.</strong> Most run 6 to 12 months. Some go up to 24 months. A few are open-ended.</li>
-<li><strong>Defined scope.</strong> They cover only the specific kinds of projects named in the ordinance — not all development.</li>
-<li><strong>Paired with a study process.</strong> The local government typically commits to studying impacts and writing permanent rules during the pause.</li>
-<li><strong>Adopted by ordinance or resolution.</strong> A formal vote of a city council, county commission, township board, etc.</li>
-</ul>
-<p>A moratorium is <strong>not</strong> a permanent ban. It is a temporary pause, intended to give regulators time to catch up.</p>
-<h2 id="why-are-local-governments-doing-this">Why are local governments doing this?</h2>
-<p>The short version: <strong>infrastructure is moving faster than zoning codes can adapt.</strong></p>
-<p>A typical hyperscale data center is 100+ megawatts of computing power, hundreds of thousands of square feet, with diesel backup generators, water-cooling systems, and electrical demand that can rival a small city. Most local zoning codes were written before this kind of facility existed and don't define it, classify it, or set standards for noise, water use, generator emissions, fire safety, or grid impact.</p>
-<p>Faced with a specific proposal, a local government has two choices: approve under inadequate rules, or pause to write new rules. The moratorium is the second option.</p>
-<p>The same dynamic applies to battery storage (especially after the January 2025 Moss Landing fire), to large solar and wind installations, and to cryptocurrency mining sites.</p>
-<h2 id="why-does-this-matter">Why does this matter?</h2>
-<p>Three reasons:</p>
-<ol>
-<li><strong>Capital flow.</strong> Announced data center capital commitments alone now exceed $1 trillion. Moratoria delay or block individual projects, with consequences for siting decisions, ratepayer costs, and regional economic development.</li>
-<li><strong>Climate transition.</strong> Moratoria targeting solar, wind, and battery storage slow the buildout of clean-energy infrastructure that climate policy depends on.</li>
-<li><strong>Local democracy.</strong> Moratoria are one of the most visible ways local governments push back against industries that have political support at the state and federal level. Tracking them maps a real political phenomenon.</li>
-</ol>
-<h2 id="how-was-this-dataset-compiled">How was this dataset compiled?</h2>
-<p>The original April collection used three phases; these document and extraction counts describe that historical cohort, not the November inventory:</p>
-<ol>
-<li><strong>Document collection.</strong> AI-assisted research agents scanned municipal websites, agenda portals, board meeting minutes, planning commission records, state legislative databases, and news coverage across all 50 states. We collected approximately 4,400 original documents (PDFs, HTML pages, Word files), totaling ~12 GB.</li>
-<li><strong>Classification.</strong> Each document was classified by type (ordinance, resolution, agenda, news article, etc.) and tagged for whether it was moratorium-related. About 709 documents are moratorium-related.</li>
-<li><strong>Structured extraction.</strong> From the 709 moratorium documents, we used a large language model with a detailed schema to extract structured data: jurisdiction, dates, duration, sectors covered, exemptions, and 40+ other clause-level features. After confidence filtering, 348 instruments are coded line-by-line.</li>
-</ol>
-<p>The original extraction review checked jurisdiction names and state codes. The current working inventory has 1328 rows; this does not mean the historical clause-extraction process was rerun for every current row.</p>
-<p>For full methodology, see <a href="methodology.html"><code>methodology.md</code></a>.</p>
-<h2 id="how-accurate-is-the-data">How accurate is the data?</h2>
-<p><strong>Confident on:</strong> state, jurisdiction, jurisdiction type, sectors covered, approximate enactment date.</p>
-<p><strong>Less confident on:</strong> exact ordinance numbers (many small townships don't post numbered ordinances online), final dispositions of pending or recently-extended moratoria, exact dates within ±a few weeks for events the local government hasn't published minutes for.</p>
-<p><strong>Where confidence is low</strong>, we mark a row with <code>verify_notes</code> indicating exactly what's uncertain and why. We never invent dates, ordinance numbers, or vote counts.</p>
-<p>The mean confidence score on the 348 line-coded entries is <strong>0.72</strong> (range 0.40 to 0.95) on a 0-to-1 scale assigned by the language model.</p>
-<h2 id="my-town-is-on-the-list-is-that-bad">My town is on the list — is that bad?</h2>
-<p>No, this is just an inventory of local-government action. A moratorium isn't a sign that something is wrong; it's a sign that your local government is actively managing land-use decisions. Many of the moratoria on this list have been replaced by permanent regulations within 6 to 12 months — exactly as intended.</p>
-<h2 id="my-town-isnt-on-the-list-does-that-mean-we-dont-have-a-moratorium">My town isn't on the list — does that mean we don't have a moratorium?</h2>
-<p>It's possible we missed it. The dataset is built from publicly available records, and many small townships don't post agendas, minutes, or ordinances online. If you know of a moratorium we missed, <a href="https://github.com/mjbommar/moratorium-data-2026/issues/new?template=new-moratorium.md">open an issue</a> and we'll add it in the next release.</p>
-<h2 id="can-i-use-this-data-for-my-own-analysis-article-report">Can I use this data for my own analysis / article / report?</h2>
-<p>Yes. The data is published under <a href="../LICENSE-data">Creative Commons Attribution 4.0</a>. You can reuse, redistribute, remix, and even use it commercially, as long as you credit the source. Suggested citation is in the <a href="../index.html#how-to-cite">README</a>.</p>
-<p>If you publish something based on this data, we'd love to hear about it — drop a note in <a href="https://github.com/mjbommar/moratorium-data-2026/discussions">Discussions</a> or email Michael directly.</p>
-<h2 id="how-often-is-this-updated">How often is this updated?</h2>
-<p>The latest qualified release is <a href="https://github.com/mjbommar/moratorium-data-2026/releases/tag/v2026.11.11.post11">v2026.11.11.post11</a>, published November 11 with explicit ongoing QA. Two identical builds, eight full restore checks across 49 generations, ten public downloads and independent V45 checks pass. Website verification is pending; post10 remains the verified website edition. Original research cutoff and September baseline are unchanged.</p>
-<h2 id="who-built-this">Who built this?</h2>
-<p><a href="mailto:michael.bommarito@gmail.com">Michael J. Bommarito</a>, with substantial AI-assisted research. Methodology is fully documented and reproducible.</p>
-<h2 id="what-if-i-disagree-with-how-something-is-classified">What if I disagree with how something is classified?</h2>
-<p>Open an issue with the specific row and your reasoning. Classification rules are documented in <a href="codebook.html"><code>codebook.md</code></a>; we'll either update the row or document the disagreement.</p>
-<h2 id="whats-next-on-this-dataset">What's next on this dataset?</h2>
-<p>The landing page, state pages and geocoded exports already exist. Remaining work
-includes source-qualified status/expiry review, unresolved ballot qualification
-and implementation, instrument-identity reconciliation, consumer updates and a
-verified versioned release. <a href="known-gaps.html">Known gaps</a> records evidence limits.</p>
-<h2 id="how-should-i-interpret-ballot-measures">How should I interpret ballot measures?</h2>
-<p>The expanded publication contains 51 reviewed proposal and measure records (49 from the frozen cohort, Jay's solar ballot and a separate Wilmington litigated initiative), including advisory
-questions, temporary pauses, permanent restrictions and zoning questions. Seven
-additional candidate groups remain unresolved. A yes vote has different effects
-across measures; read the recorded wording, bindingness and yes direction.
-An unofficial result, certified vote count and legally operative restriction are
-separate observations. Ballot approval does not automatically increase the local
-moratorium count. See <a href="ballot-results.html">reviewed results</a> and
-<a href="ballot-measures.html">scope and interpretation</a>.</p>
-<h2 id="other-questions">Other questions?</h2>
-<p><a href="https://github.com/mjbommar/moratorium-data-2026/issues/new?template=question.md">Open a question issue</a> or email <a href="mailto:michael.bommarito@gmail.com">Michael</a>.</p>
-<p>Historical post1 checkpoint: qualified v2026.11.11.post1 and consumer V35 delivered fourteen reviewed Baltimore/Hamilton/Brookhaven cells. Two identical builds, full clean restore, ten anonymous downloads, all 64 current HTML pages and desktop/mobile browser checks pass. Both changed map popups and all three state pages are verified. Headline counts/categories/native history are unchanged. Hamilton’s calculated anniversary and later-force questions remained qualified; 1,347 whole-record reviews were unresolved at that checkpoint. Complete final workflow artifact verification is recorded separately.</p>
-<p>Follow <a href="../CITATION.cff">CITATION.cff</a> and the release metadata for citation. No DOI is asserted.</p>
+<p>A moratorium is a temporary pause on specified development applications or approvals. A city, county, or township may use the pause to study a proposed use or write land-use rules. The adopted text determines which projects and permits it covers.</p>
+<h2 id="what-does-this-project-track">What does this project track?</h2>
+<p>The local inventory has 1,328 records for data centers, battery storage, solar, wind, and cryptocurrency mining. It includes adopted actions, proposals, and actions that have ended.</p>
+<p>The state tracker has 449 records. They include bills, resolutions, executive actions, and preliminary memos. Ballot measures are listed separately because they can address permanent restrictions or zoning changes as well as temporary pauses.</p>
+<h2 id="does-active-mean-a-restriction-is-still-in-effect">Does “active” mean a restriction is still in effect?</h2>
+<p>It means the record is classified as active based on the sources we found. A later amendment, expiration, court order, or replacement law may change its effect. Read the record's notes and sources before relying on that status.</p>
+<h2 id="does-a-moratorium-block-every-permit">Does a moratorium block every permit?</h2>
+<p>The scope depends on the adopted text. A pause may cover new applications, certain approvals, or only specified uses. Existing projects, small facilities, or other uses may be exempt. A proposal or first reading does not establish final adoption.</p>
+<h2 id="how-long-does-a-moratorium-last">How long does a moratorium last?</h2>
+<p>Terms vary, and some pauses are extended or replaced. The original term and the current end date are separate fields. We leave dates unknown when the available sources do not establish them.</p>
+<h2 id="what-do-the-ballot-totals-mean">What do the ballot totals mean?</h2>
+<p>The ballot tracker contains 57 proposals and measures. There are 53 current result reports for 52 measures; a measure can have reports from several areas.</p>
+<p>A yes vote may support a restriction, oppose a project, or approve a zoning change. Read the question's wording. A reported outcome, a certified count, and a law taking effect require separate evidence. Approval does not automatically add a moratorium to the local total.</p>
+<h2 id="how-was-the-data-collected">How was the data collected?</h2>
+<p>We search government records and news reports, then check ordinances, resolutions, and meeting minutes where available. AI tools help find sources and organize suggested entries. Reviews record what the sources support and which questions remain open. See the <a href="methodology.html">methodology</a>.</p>
+<h2 id="what-does-a-verification-flag-mean">What does a verification flag mean?</h2>
+<p>A <code>[VERIFY]</code> note identifies something we could not confirm, such as a date, ordinance number, vote, or later action. There are 978 local records with these flags. A record without a flag can still have unresolved details.</p>
+<h2 id="does-an-omitted-town-have-no-moratorium">Does an omitted town have no moratorium?</h2>
+<p>We may have missed it. Some local governments do not post searchable records. An unsuccessful search does not establish that no action occurred. If you find a missing record, <a href="https://github.com/mjbommar/moratorium-data-2026/issues/new/choose">send a source through GitHub</a>.</p>
+<h2 id="does-inclusion-mean-the-project-supports-or-opposes-the-action">Does inclusion mean the project supports or opposes the action?</h2>
+<p>The inventory records government actions. Inclusion is not an endorsement or criticism of a moratorium or a development proposal.</p>
+<h2 id="how-current-is-the-site">How current is the site?</h2>
+<p>The current release is <a href="https://github.com/mjbommar/moratorium-data-2026/releases/tag/v2026.11.11.post11">v2026.11.11.post11</a>, published November 11, 2026. Some records still have open questions.</p>
+<p>The main November search ended November 7. Later checks have their own source dates. The <a href="../paper/moratorium-nation-2026-04-30.pdf">April paper</a> describes the older dataset and has not been updated to match the site.</p>
+<h2 id="can-i-use-the-data">Can I use the data?</h2>
+<p>The data is available under <a href="../LICENSE-data">CC BY 4.0</a>. You can reuse it, including commercially, with attribution. Include the release version or access date in your citation. See <a href="../CITATION.cff">CITATION.cff</a>.</p>
+<h2 id="who-maintains-the-project">Who maintains the project?</h2>
+<p><a href="https://michaelbommarito.com/">Michael J. Bommarito</a> maintains the project with AI-assisted research. The repository includes source records, review notes, and the code used to build the site.</p>
+<h2 id="how-do-i-report-a-correction">How do I report a correction?</h2>
+<p><a href="https://github.com/mjbommar/moratorium-data-2026/issues/new/choose">Open an issue</a> with the jurisdiction, record ID if available, and a source. The <a href="codebook.html">codebook</a> explains the fields and status categories.</p>
 </main>
 
 <footer>

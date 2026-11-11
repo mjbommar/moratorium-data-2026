@@ -1,417 +1,95 @@
 # Methodology
 
-How this dataset was built, in plain English.
+This project collects local moratoria and related state policies and ballot measures. It records what the available sources support and identifies details that still need confirmation.
 
-Review accounting covers all 1777 raw records. The 1775 surviving original IDs
-have primary and independent source-review artifacts; one post-release Massachusetts
-observation has direct source review and [completed independent historical-record QA](../work/research/2026-11-10/post-release-qa/massachusetts-independent-review-application.md), with final conference/enacted outcome and later force unresolved. A second post-release addition, Kentucky Executive Order 2026-494, has independent historical field review; subsequent legal force remains unknown. The original event
-cutoff is November 7 at 13:38:39.877065 UTC; later captures and reviews carry separate
-timestamps. The later Starke restriction/adoption publication carries its own sealed
-review and row-observation clocks. Bounded review does not establish complete discovery
-or current legal force. Published release tags preserve their dated snapshots; working QA continues.
+The local inventory has 1,328 records from 47 states. The local and state files contain 1,777 records in total. These are records of government actions and proposals, not a count of laws confirmed to be in effect today.
 
-## What we set out to do
+## Sources
 
-This inventory records local actions described in ordinances, resolutions, agendas, minutes and reporting. Source authority, final adoption, effectiveness and subsequent legal events are reviewed separately; a source description or recorded classification does not establish current enforceability.
+We search official government websites, ordinance collections, meeting agendas and minutes, state legislative records, news archives, and relevant court records. Searches have covered all 50 states. Coverage varies because some local governments do not publish searchable records.
 
-Our goal: **identify every such moratorium adopted in the U.S. that targets data centers, battery storage, solar, wind, or cryptocurrency mining** — and capture enough structured information about each one to support cross-jurisdictional comparison.
+Where possible, we obtain the ordinance, resolution, completed meeting record, or official vote return. News reports help find actions and explain their context. A search result or news summary does not replace the underlying document when a legal detail remains disputed or unclear.
 
-## How we did it
+We keep source files and retrieval dates. A file hash identifies the saved version. Extracted text, OCR output, and page images are kept separately so a reviewer can compare them with the original. A failed download is recorded as a gap, not as proof that no action occurred.
 
-Three phases.
+## Collection and review
 
-### Phase 1: Document collection
+AI tools help search for sources and suggest structured entries. For recent corrections, separate extraction and review steps check the proposed changes against the retained sources. The review records identify the fields considered, the supporting sources, and the questions left open.
 
-We deployed AI-assisted research agents (built on the OpenAI Codex CLI with web-search enabled) across all 50 states. Each agent operated within a single state's scope and was given a research brief for that state.
+A review can confirm a historical fact without resolving every question about a record. For example, completed minutes may establish that a resolution passed while leaving its exact effective date or later amendment unresolved.
 
-The agents searched:
+The [review queue](../work/research/2026-11-09/post-release-qa/outstanding-record-questions.jsonl) lists the remaining questions. The [review history](../work/research/2026-11-08/full-record-dispositions/README.md) explains the completed and open reviews. Model names, requests, source versions, and other research details are recorded in the audit files.
 
-- Municipal websites
-- Agenda portals (Granicus, CivicEngage, Legistar, IQM2, CivicWeb, CivicClerk, etc.)
-- County board meeting minutes
-- Planning commission and zoning board records
-- State legislative databases (LegiScan, official state legislatures)
-- News archives (local TV, regional papers, trade press)
-- Academic and policy research (UNC SOG, MSU Extension, NREL, EIA)
-- Court records (where applicable)
+## Local records
 
-Each agent was instructed to download original documents — PDFs of ordinances, HTML of agenda pages, Word documents — and save them locally with provenance metadata (source URL, download timestamp, retrieval method).
+The intended unit is one moratorium instrument per record. Some older records combine actions or describe groups of proposals. Those cases remain identified for further review.
 
-We supplemented this with a SerpAPI sweep for `"<state>" "data center" moratorium` and similar queries, which surfaced documents the per-state agents had missed.
+The inventory records the jurisdiction, sector, authority, stated purpose, dates, term, status, affected projects, and outcome when known. The [codebook](codebook.md) defines each field.
 
-**Output of Phase 1:** approximately 4,400 unique source documents, totaling ~12 GB, archived in their native formats. Each has a `.meta` sidecar JSON file recording its provenance.
+An agenda establishes that an item was scheduled. A first reading establishes that stage of consideration. Neither establishes final adoption. A blank signature line or a future passage date printed in a draft is not evidence that passage occurred.
 
-### Phase 2: Classification
+Adoption and effectiveness are also separate. A restriction may depend on publication, filing, or another condition. We leave an effective date or end date unknown when the sources do not establish the required condition. Calendar terms are not converted to a fixed number of days.
 
-Not every document we collected is a moratorium document. Many are project announcements, EIA reports, news articles unrelated to any specific ordinance. We classified each document with a small language model (gpt-5.4-mini at the OpenAI flex tier) using structured prompts that produced JSON-valid classifications:
+The status fields describe the sources reviewed. We do not assume uninterrupted legal effect from an old adoption record, or automatic expiration from a proposed end date. Later amendments, replacements, court orders, and project-specific exceptions may require additional evidence.
 
-- `document_type`: `ordinance`, `resolution`, `agenda`, `minutes`, `news`, `report`, `policy_document`, etc.
-- `subject_matter`: `data_center`, `cryptocurrency`, `bess`, `solar`, `wind`, `general_zoning`, etc.
-- `jurisdiction`: name + state of the issuing body
-- `is_primary_legal_source`: whether the document is the operative instrument itself (vs. coverage of it)
-- `is_moratorium_related`: yes/no
-- `confidence`: 0.0 to 1.0
+## State policy
 
-**Output of Phase 2:** 709 documents classified as moratorium-related across the corpus. About 1,123 of the 4,400 are primary legal sources of one kind or another.
+The state tracker includes bills, resolutions, executive actions, preliminary legislative memos, and other actions. These can affect permits, utility procedures, incentives, or local authority without imposing a local moratorium.
 
-### Phase 3: Structured extraction
+The raw file retains historical records and records outside infrastructure scope. The [scope exports](policy-scope-exports.md) separate reviewed inclusions, exclusions, and unresolved cases. A memo and a related bill can remain separate records. Counts therefore do not necessarily represent unique bills or enacted restrictions.
 
-For each moratorium-related document, we used a larger language model (gpt-5.5 at the OpenAI flex tier) with a detailed extraction schema to produce a structured record.
+## Ballot measures
 
-The extraction schema captures **60+ fields per document**, organized into five tiers that mirror the 44-clause taxonomy used in the working paper:
+The ballot tracker contains 57 proposals and measures. It distinguishes the question, the election, reported results, certification, and any related legal instrument. A question may be advisory, binding, temporary, permanent, or specific to a zoning change.
 
-- **Tier 1: Universal clauses (14 coded fields).** Authority statement, findings (regulatory gap, threat enumeration, study intent, emergency declaration), definitions, prohibited actions, geographic scope, duration, exemptions, severability, effective date, repeal language.
-- **Tier 2: Common clauses (10 boolean fields).** Extension mechanism, conflict-and-repeal, emergency declaration, open-meetings compliance, tolling, waiver provision, appeal process, vested-rights disclaimer, pending-application coverage, severability separately.
-- **Tier 3: Sector-specific clauses (12 boolean fields).** Water-resource assessment, grid/energy-impact assessment, incentive guardrails, noise/generator provisions, fire-safety requirements, decommissioning bond, hazmat training, safety-incident trigger, farmland preservation, property-value guarantee, physical-hazard assessment, aviation clearance.
-- **Tier 4: Definitional approach.** Whether the moratorium provides no definition, a functional definition, a bundled definition, or a size-threshold definition of the regulated use.
-- **Tier 5: Quality metadata.** Confidence score, narrative summary, error flags, structural quality score.
+The latest result reports are shown in [ballot results](ballot-results.md). Earlier versions remain in the data. A measure can have reports from several areas, so the number of reports can exceed the number of measures with results.
 
-Each extraction received a confidence score from the language model. We retained extractions with confidence ≥ 0.4 for downstream analysis. The cohort is **n = 348**, with mean confidence 0.72 and range 0.40 to 0.95.
+Approval, certification, and a restriction taking effect require separate evidence. A missing result does not establish defeat. A proposed election date does not establish that a question reached the ballot. [Scope and interpretation](ballot-measures.md) explains the unresolved cases.
 
-**Output of Phase 3:** the JSONL file at [`data/structured_extractions.jsonl`](../data/structured_extractions.jsonl).
+## Map locations
 
-### Manual review and cleaning
+There are coordinates for 1,326 of 1,328 local records. The two without coordinates describe groups of proposals. The points identify jurisdictions; they do not show project sites, jurisdiction boundaries, or the area subject to a restriction.
 
-We manually reviewed every extraction record to:
+Recent corrections use official Census reference points after checking the jurisdiction's identity. Earlier coordinates have not all been checked again. Shared town names and county names can cause errors. See the [geographic limitations](known-gaps.md#geocoding-caveats-added-v2026042).
 
-- Verify jurisdiction names and state codes
-- Flag edge cases (regulatory ordinances mischaracterized as moratoria, rejected proposals, withdrawn projects, etc.)
-- Resolve `[VERIFY]` flags by re-checking primary sources via real-Chrome browser sessions
-- Add moratoria identified through news coverage but missed by automated extraction
+## Historical text analysis
 
-The November reviewed working inventory has **1328 inventory records across 47 states** (`data/moratorium_inventory.csv`). It held 222 at v2026.04.4; see Phase 5 below for how the refresh cycle works.
+An earlier collection produced 526 successful structured extractions and 338 recorded model-call errors. The clause analysis used 348 extractions with model confidence scores of at least 0.4, covering 211 jurisdictions. These scores are model assessments, not measured accuracy.
 
-### Phase 4: Geocoding (added v2026.04.2)
+That collection predates April 28, 2026. Its clause percentages describe that earlier sample. They have not been recalculated for all records in the current inventory. The [April paper](../paper/moratorium-nation-2026-04-30.pdf) keeps its original figures and conclusions.
 
-Jurisdiction map anchors use WGS84 latitude and longitude. They are reference points, not legal boundaries or project locations, and are not necessarily geometric centroids. The initial geocoding used the following approach:
+## Applying corrections
 
-1. **Primary geocoder: OSM Nominatim.** Free, open-source, with reasonable U.S. administrative boundary coverage. Rate-limited to 1 request/second per the public API usage policy.
-2. **Fallback: U.S. Census Geocoder.** Used when Nominatim returns no result. The Census Geocoder is authoritative for U.S. jurisdictions but works best for street addresses; for "Jurisdiction, State" queries we found Nominatim more reliable.
+A proposed correction records both the old value and the new value. Before applying it, the update process checks that the old value still matches the current record. This prevents a stale review from overwriting a newer correction.
 
-Of 1328 rows, 1326 (99.8%) are successfully geocoded. The 2 blanks comprise two aggregate meta-rows (`Other Reported Local Moratoria, Michigan` and `Proposed or Rejected Local Pauses, Maryland`), which have no single geographic jurisdiction. The [November9 review](../work/research/2026-11-09/post-release-qa/missing-geography-application.json) fills39 prior blanks using official Census2026 Gazetteer internal representative points after checking retained jurisdiction identities. Exact state, government name, type and, for the ambiguous subdivisions, county identity are preserved in the receipt. ZIP and extracted-member hashes pin the source versions. Decimal precision does not establish positional accuracy or policy applicability. Earlier points retain their previous provenance; this batch does not re-audit them. Dubuque County's successor instrument reuses the existing county reference point with recorded provenance; this was not a new geocoder query.
+CSV updates are staged as complete files, then replace the destination. The process preserves file mode and requests file and directory synchronization. A failure after replacement can leave the new file visible even if durable storage has not been confirmed. These guarantees depend on the filesystem. Source and audit receipts record the inputs and accepted changes; they do not substitute for factual review.
 
-In the historical April2026 geocoding edition, a triple-check audit ran 89 verifications across three independent methods:
+Ballot publication checks record identities, source references, schemas, and links between tables. New result versions retain earlier versions rather than deleting them. The [data contracts](expanded-data-contracts.md) and [publication protocol](expanded-promotion.md) describe those checks.
 
-1. **Random sampling against geographic knowledge** (24 rows): manually verify each coordinate matches a well-known location.
-2. **Wikipedia GeoSearch reverse-lookup** (50 rows): query Wikipedia for pages within 10 km of our coordinates; verify the jurisdiction name appears among them.
-3. **Targeted high-risk subset** (15 rows): the 4 manual within-state-ambiguity fixes plus other generic township names where ambiguity is most likely.
+## Releases and site checks
 
-Across all 89 verifications, **zero confirmed wrong geocodes** (after the 4 manual Ohio corrections in v2026.04.2). The audit caught and corrected:
+A data release is built from a fixed commit. Checks compare archive contents, saved versions, and repeat builds. Restore checks confirm that the archived files can reproduce the tables. Download checks compare public assets with the release files. Site checks compare deployed files and test the dashboard in a browser.
 
-- Lake Township, OH (geocoder picked Logan County → corrected to Wood County)
-- Plain Township, OH (Franklin County → Stark County)
-- Spencer Township, OH (Lorain County → Lucas County)
-- Waterville Township, OH (Stark County → Lucas County)
-
-Each correction used article-context disambiguation (`legal_basis`, `trigger`, and news-source mentions). The historical sample does not establish an accuracy rate for the expanded current inventory. The script is `scripts/geocode_inventory.py`; re-run after adding new rows to fill in their coordinates.
-
-## Why the inventory (n=1328) and the historical extraction cohort (n=348) differ
-
-Right — the numbers can be confusing. Here's the difference:
-
-- **Inventory (n=1328):** the working inventory of moratorium **instrument records**, with [identity-reconciliation gaps](known-gaps.md#legacy-instrument-identities) still under review. The intended grain is one instrument per row; aggregate and compound rows and possible duplicates remain unresolved. One DeKalb County resolution = 1 row, even if there are 5 documents about it.
-- **Structured-extraction cohort (n=348):** the count of confidence-filtered structured **extractions**. A single moratorium can produce multiple extractions: the ordinance text, the meeting minutes, the agenda packet, etc. Plus the cohort includes some duplicate adoptions and extensions captured separately.
-
-The two numbers measure different things and do not need to match. The current working count is 1328 moratorium records; the historical line-coded sample of 348 extractions is used for clause-prevalence percentages. These older extraction records have not been recollected to match the current inventory.
-
-## What we don't claim
-
-- **We don't claim to have every moratorium.** Small townships without online minutes are nearly impossible to find systematically. Where we know our coverage is incomplete, we say so in [`docs/known-gaps.md`](known-gaps.md).
-- **We don't claim our percentages are statistical inferences.** They describe the corpus we have, not a probability sample of all moratoria. The corpus is biased toward jurisdictions that post things online.
-- **We don't claim to predict outcomes.** This is a descriptive dataset, not a causal one.
-
-## Phase 5: The refresh cycle (added v2026.07)
-
-Phases 1-4 build a dataset. Keeping it true is a different problem: a moratorium
-is a *time-bounded* instrument, so a correct record decays into a wrong one on a
-known date, with no external signal. The v2026.07 refresh introduced an explicit
-cycle for this, and it is the procedure future refreshes should follow.
-
-**1. Gate before touching anything.** `scripts/validate_dataset.py` is the
-executable form of the codebook — closed vocabularies, date/duration coherence,
-ID uniqueness, geocoding bounds, `[VERIFY]` accounting, and agreement between the
-CSVs and `summary_stats.json`. Run it first, so any error found later is
-attributable to the refresh rather than inherited.
-
-**2. Derive the worklist, don't guess it.** `scripts/build_worklist.py` computes
-which rows need attention as of a reference date, and why:
-
-| Bucket | Meaning |
-|---|---|
-| `expired_in_force` | recorded in force, but the known current end date (or, if unextended, `date_enacted_iso + duration_days`) has already passed |
-| `extension_end_unknown` | an extended action has no independently recorded current fixed endpoint, so its original term cannot be used as its expiration |
-| `until_date_stale` | in force, ends on a calendar date not captured in typed columns |
-| `stale_pending` | proposed, and old enough that it has surely been decided |
-| `open_ended` | in force with no scheduled end — currency must be affirmatively confirmed |
-| `verify_backlog` | carries one or more `[VERIFY ...]` markers |
-| `unverified_date` | adoption date never confirmed against a primary source |
-
-Each item is emitted with the exact question to answer, so the researcher is not
-inferring the ask. In v2026.07 this produced 160 of 222 rows needing work.
-
-**3. Partition and fan out.** `scripts/make_packets.py` splits the worklist into
-per-state packets, matching how the sources are organized — one state's portals,
-minutes, and legislature. Research is then parallel and independent.
-
-**4. Research writes JSON, never CSV.** Every pass emits a decision file
-conforming to [`work/schemas/research_decision.schema.json`](../work/schemas/research_decision.schema.json):
-an outcome (`confirmed_unchanged` / `status_changed` / `corrected` /
-`unresolvable`), the proposed field changes with their *prior* values, resolutions
-for each `[VERIFY]` marker, and evidence with a source-type ranking that puts
-ordinances and minutes above news. `unresolvable` is a first-class outcome and is
-recorded rather than papered over.
-
-**5. Merge deterministically, with a conflict guard.**
-`scripts/apply_research.py` is the only thing that writes findings into the
-inventory. It requires explicit answer-file paths (never selecting by
-modification time), validates against the schema, and **refuses any change whose
-stated prior value no longer matches the CSV** — which is how a stale answer,
-written against a revision another pass has since corrected, gets caught instead
-of silently overwriting newer data. Successful applications log changes to
-`work/audit/`, subject to the recovery boundary below.
-
-The legacy inventory and state-legislation apply scripts stage the complete CSV
-in a unique file in the destination directory, preserve the destination mode,
-flush and fsync the staged file, replace the CSV, and fsync its directory. Before
-replacement, a write or replacement failure leaves the original CSV bytes intact;
-after replacement, the visible CSV is complete. An error during directory fsync
-occurs after replacement, so the new CSV is visible but its survival across a
-power loss is not assured. These guarantees depend on the filesystem honoring
-same-directory atomic replacement and fsync. Ordinary exceptions clean up the
-staged file; an abrupt process or machine stop can leave a hidden `.tmp` file.
-Replacement preserves permission bits, not ownership, ACLs, extended attributes,
-hard-link identity, or symlink-following behavior. Coordinate writers externally:
-the conflict checks and replacement do not serialize concurrent applications.
-
-Each script writes its separate audit receipt **after** replacing and syncing the
-CSV. The two files are not an atomic transaction, and receipt writes are not
-themselves crash-atomic. A failure after replacement can leave a complete updated
-CSV with a missing or partial receipt; a failure after directory fsync can also
-occur during receipt creation. Stop further applications, retain the answer files,
-the prior CSV and any partial receipt, and compare the current CSV with the prior
-version and reviewed decisions. Reconcile and record the actual changes and the
-receipt failure in a separately identified recovery record; do not silently call
-it the original receipt. Replaying the same answers can be a no-op and does not
-recreate the missing audit record. If the current CSV is the old version after a
-crash, recheck the baseline and decisions before retrying. Inspect and remove only
-confirmed orphan staging files after confirming no writer is active.
-
-**6. Flag weak evidence rather than laundering it.** A new instrument admitted on
-news-only evidence, or below a confidence threshold, automatically receives a
-`[VERIFY ...]` marker naming what is missing. It therefore reappears in the next
-refresh's worklist instead of hardening into apparent fact.
-
-**7. Reconcile, re-geocode, regenerate, re-gate.** `reconcile_durations.py`
-enforces the codebook's one valid `duration_days`/`duration_kind` combination;
-`geocode_inventory.py` plus declared overrides fill coordinates; the generators
-rebuild every artifact; then the validator runs again.
-
-### The September 2026 update: many helpers, and a saved copy of every source
-
-In September 2026 we ran this cycle at full size for the first time. We also
-added two things it had lacked.
-
-**Written steps, tested first.** The research was done by AI helpers, each
-given one state. Every helper followed the same written steps in
-`work/research-process.md`. The steps list the search and download commands to
-use. They say how to decide hard cases, such as when a row has expired and
-when we simply cannot tell. They also say that a permanent ban is not a
-moratorium, so it stays out of the list. We tried the steps on Nevada and
-Alabama first, fixed what those runs showed, and then sent them to 29 more
-helpers.
-
-Each helper did two jobs. First it rechecked every row on its to-do list
-against the town's own records. Then it searched the whole state for moratoria
-we did not have. That search covered all five kinds of project, and it read
-the statewide news roundups that list many towns at once.
-
-**A saved copy of every source.** `scripts/save_source.py` downloads a web page
-or a document and keeps a copy under `work/sources/`. If a page needs a real
-web browser to open, the script uses one. If a document is a scanned image, the
-script reads the text from the picture. It also notes where the copy came from
-and a fingerprint of its contents, so anyone can confirm the copy is unchanged.
-Before any finding is merged, `scripts/check_evidence_archived.py` confirms that
-every source it cites was saved. So each fact in the data points to a copy we
-hold, not only to a link that may break.
-
-We publish only some of those copies. Public records, such as ordinances,
-minutes, agendas, and staff reports, are published under `work/sources/`. News
-articles and other groups' pages belong to the people who wrote them, so their
-copies stay private. `scripts/classify_sources.py` sorts each source and keeps
-the private ones out of the repository. For every private copy we still
-publish the link, the date it was saved, and its fingerprint. When a source is
-in doubt, the script keeps it private.
-
-The update decided all 296 rows on the to-do list and added 520 new ones. It
-saved about 2,800 sources and made 1,565 changes, with no clashes at merge time.
-We learned three rules the hard way, and they are now in the written steps:
-
-- Always search with the state's name. Wells, Nevada is not Wells, Maine.
-- A search limited to one website that returns pages about something else has
-  found nothing.
-- Keep your working files in your own folder. The helpers shared one scratch
-  folder, and once one helper's script overwrote another state's findings.
-  That state's findings were rebuilt and checked again.
-
-### Checking the September 2026 update
-
-The update more than doubled the list, and 276 of its 520 new rows were
-adopted before August. That seemed like too many to have missed. So before
-publishing we checked the work four ways. Each check wrote its findings in the
-same format as the research, and the same merge step applied them. The full
-record is in `work/qa-progress-2026-09-23.md`.
-
-1. **Re-read every new row.** Checkers were told to assume each row was wrong
-   and try to prove it. Was it a pause and not a ban? Was the date the day of
-   the final vote, not a first reading? Was it already in the list under
-   another name? The steps are in `work/qa-process.md`.
-2. **Check a random sample blind.** We picked 40 rows at random, some new and
-   some older. New checkers saw only the place name. They were not allowed to
-   open our data or our notes (`work/qa-blind-process.md`). Then we compared
-   what they found with what we had. They matched on 34 of the 40.
-3. **Compare with other lists.** Nine other groups publish lists of local
-   moratoria. We saved each list and matched it against ours, both ways. We
-   looked up every place they had that we lacked (`work/qa3-gaps-process.md`).
-   Where a list disagreed with one of our rows, we went back to the source.
-4. **Check that each row agrees with itself.** A script looked for rows whose
-   parts did not match. One example: an extended moratorium with no new end
-   date. Another: a row whose text says "solar" while its sector list leaves
-   solar out. Helpers fixed each one (`work/qa4-process.md`). We also checked
-   that each row sits on the map in the county it names.
-
-The checks removed 14 rows. Most were permanent bans or proposals that never
-passed. They added 243 rows that other lists had and we lacked. They moved 37
-rows to the right county and changed about 640 other facts. The checks also
-made the merge scripts stricter, so the same mistakes are caught next time.
-
-A property worth preserving: every step is **idempotent**. Re-running the merge
-over already-applied answers is a clean no-op, which is what makes incremental
-application safe when different states' research lands at different times.
-
-## Reproducibility
-
-Every step of the pipeline can be re-run. The scripts and their README are in the [repository's `scripts/` directory](https://github.com/mjbommar/moratorium-data-2026/tree/main/scripts). To regenerate every artifact from the source data:
-
-```bash
-pip install pandas matplotlib seaborn geopandas shapely markdown pymdown-extensions
-
-python3 scripts/validate_dataset.py          # gate
-python3 scripts/fetch_basemap.py             # one-time: Census state shapefile
-python3 scripts/build_summary_stats.py       # data/summary_stats.json
-python3 scripts/build_geojson.py             # site/moratoria.geojson
-python3 -m scripts.generate_tables           # tables/*.tex
-PYTHONPATH=scripts python3 -m moratorium_maps all   # figures/{pdf,svg,png}/
-python3 scripts/make_timeline.py             # site/timeline.svg
-python3 scripts/update_state_counts.py       # states/
-python3 scripts/build_site.py                # HTML site
+These checks establish file consistency and delivery. They do not establish complete source coverage or the present effect of every law.
+
+The current release is [v2026.11.11.post11](https://github.com/mjbommar/moratorium-data-2026/releases/tag/v2026.11.11.post11), published November 11, 2026. Some records still have open questions.
+
+The main November search ended November 7. Later source checks keep their own dates. A new release date does not mean every record was checked that day.
+
+## Reproduce the site
+
+The repository includes the CSV files, saved ballot tables, source references, and build scripts. Use a tagged release when reproducing published work. The [data guide](../data/README.md) explains the saved versions and current file links.
+
+```sh
+make validate
+make site
+make check
 ```
 
-Before v2026.07 these commands did not work: the table and map modules had been
-copied from the private working repository without repathing, and
-`summary_stats.json` and `moratoria.geojson` had no generator at all. Both are
-fixed, which is why the artifacts in this release are reproducible from the
-shipped CSVs.
+Run these commands in the project's Python environment. `make validate` checks the local and state CSV files. `make site` builds the dashboard and documentation. `make check` also checks generated tables and ballot publication records. The [refresh runbook](refresh-operations.md) describes the research tools and update steps.
 
-The original document corpus (~12 GB) is not in this repository (it's hosted separately on Zenodo as the supplementary data deposit) but the cleaned inventory + structured extractions are sufficient to reproduce all published statistics.
+## Limits
 
-## Tooling and models
+The inventory may miss actions, particularly where records are not online. Some entries still have uncertain identities, dates, text, or later outcomes. Search coverage is uneven, and the dataset is not a probability sample.
 
-| Step | Tool | Model |
-|------|------|-------|
-| Document discovery (through v2026.04) | OpenAI Codex CLI with web-search | `gpt-5.5` at medium reasoning effort |
-| State-month chronology (v2026.07 sweep) | OpenAI Codex CLI with web-search | `gpt-5.6-sol` at high reasoning effort |
-| Status, verification, and legislation research (v2026.07) | Claude Code subagents | `claude-sonnet-5` |
-| Row recheck and statewide discovery (2026-09-23 update) | Claude Code subagents coordinated by `claude-fable-5-1` | `claude-sonnet-5` (47 answer files), `claude-opus-5-5` (7 largest packets) |
-| Four rounds of checks (2026-09-23 update) | Claude Code subagents, coordinated by `claude-fable-5-1` and then `claude-opus-5-5` | `claude-sonnet-5` for most checks, `claude-opus-5-5` for Ohio, Michigan, the tracker comparison, and the hardest disagreements |
-| Web search (2026-09-23 update) | bc-web `search --fuse` (Exa + Google via SerpAPI, reciprocal rank fusion) | n/a |
-| Source archiving (2026-09-23 update) | `scripts/save_source.py` over bc-web, pdftotext, Tesseract | n/a |
-| SerpAPI ordinance search | `google-search-results` Python package | n/a |
-| Document download | Playwright + stealth wrappers | n/a |
-| OCR (image-based PDFs) | EasyOCR + Tesseract | n/a |
-| PDF classification | pydantic-ai with OpenAI provider | `gpt-5.4-mini` at flex tier |
-| Structured extraction | pydantic-ai with OpenAI provider | `gpt-5.5` at flex tier |
-| Real-browser verification | Playwright + system Chrome (Xvfb) for JS-rendered portals | n/a |
-| Aggregation, table generation, mapping | Python (pandas, geopandas, matplotlib, seaborn) | n/a |
-
-## A note on cost
-
-The 50-state month-by-month sweep behind v2026.07 is **150 model calls**, one per
-state per month, each with web search enabled. That is the expensive step in this
-pipeline by a wide margin, and it scales as call count times model tier times
-reasoning effort.
-
-`research_moratoria.py` pins its model and reasoning effort rather than
-inheriting them from the operator's interactive config, and refuses a batch above
-25 calls without an explicit `--yes`. Both defaults are deliberately modest:
-state-month research is retrieval and summarization against public records, and
-raising the reasoning tier buys very little on that kind of work.
-
-The September 2026 research used about 10.8 million tokens, the units AI models
-are billed in, across 31 helpers. A typical state took one helper 10 to 50
-minutes. The checks that followed used about as much again across 30 more
-helpers. Searching is cheap. Reading is the costly part, since each helper
-opened and read somewhere between 50 and 250 pages.
-
-Anyone reproducing the sweep should scope it first -- `--only`, `--start`, and
-`--end` narrow the run, and `--dry-run` prints the work plan without spending
-anything.
-
-## Updates
-
-The November update is published as qualified release [v2026.11.11.post11](https://github.com/mjbommar/moratorium-data-2026/releases/tag/v2026.11.11.post11), published November 11 with explicit ongoing QA. Two identical builds, eight full restore checks across 49 generations, ten public downloads and independent V45 checks pass. Website verification is pending; post10 remains the verified website edition. Original research cutoff and September baseline are unchanged.
-
-
-## November collection and evidence review
-
-The original November queue contains 333 distributed Codex CLI jobs using
-`gpt-6.1-terra`. All are terminal; the [collection accounting](../work/audit/refresh-record-accounting-2026-11-06.md)
-reports mechanical readiness separately from substantive acceptance. Job completion,
-a valid answer schema or a located quote does not renew current legal-force findings.
-
-Bounded source acquisition uses the shared `bc-modules` client: Exa search for
-leads, bc-web HTTP retrieval and pydoll browser retrieval for rendered portals.
-Attempt ledgers retain request outcomes, provider costs, content hashes and source
-versions. Challenged or failed acquisitions remain failures. Search hits do not
-establish qualification, adoption, certification or absence.
-
-Static HTTP sources can use bc-web's conditional cache with zero TTL: every call
-contacts the origin, while a 304 reuses the retained body. The original body time,
-cache flags and origin status remain separate from the new attempt. Existing
-archive versions are not rewritten merely because revalidation occurred. The
-[live cache pilot](../work/research/2026-11-06/conditional-cache-pilot/README.md)
-verified this behavior without accepting new legal or factual findings.
-
-For JavaScript portals, optional pydoll network recording exposes the page's
-actual subrequest URLs and methods. These are discovery leads, not content proof.
-A separate bounded acquisition retains the API response body and its own version
-hash. JSON projections are explicitly registered against the original response;
-an empty default text extraction or a partial “Loading” page is not evidence of
-an empty source. The [New Jersey chapter catalogue review](../work/research/2026-11-06/nj-chapter-portal-review/README.md)
-documents a returned catalogue gap without treating it as proof of statutory absence.
-
-Client extraction, OCR and visually reviewed transcriptions remain distinct
-artifacts. Derived text is registered against the successful original body hash;
-it does not replace the original extraction. Relevant scanned pages are visually
-inspected, with page/render hashes pinned in review packets. Drafts, blank signature
-fields, publication conditions and source arithmetic discrepancies remain explicit.
-The [Elmwood review](../work/research/2026-11-06/elmwood-instrument-review/README.md)
-and [Frenchtown review](../work/research/2026-11-06/frenchtown-instrument-review/README.md)
-illustrate these distinctions.
-
-Legacy corrections pass expected-prior-value checks through the apply scripts.
-Expanded ballot records pass schema, identity, evidence and append-only publication
-gates, preserving superseded result observations. Current publication includes 49
-measures; seven frozen candidate groups retain explicit unresolved dispositions.
-The expanded restriction/link tables now include one proposed Edgewater charter
-restriction and its proposal relationship, with unknown legal status and operative
-dates. No adoption event is inferred. This is not a completed migration of all
-legacy instruments. The [contracts](expanded-data-contracts.md) define intended
-relationships; empty tables do not establish absence of restrictions.
-
-Release candidates pin committed inputs and check every archived member hash.
-Repeat-build equality proves byte reproducibility, not factual completeness.
-Remote release assets and hosted deployment require separate post-publication
-verification. The April paper and historical graphics retain their original cohorts.
-
-
-Historical post1 checkpoint: qualified v2026.11.11.post1 and consumer V35 delivered fourteen reviewed Baltimore/Hamilton/Brookhaven cells. Two identical builds, full clean restore, ten anonymous downloads, all 64 current HTML pages and desktop/mobile browser checks pass. Both changed map popups and all three state pages are verified. Headline counts/categories/native history are unchanged. Hamilton’s calculated anniversary and later-force questions remained qualified; 1,347 whole-record reviews were unresolved at that checkpoint. Complete final workflow artifact verification is recorded separately.
+Counts describe the records collected. They should not be used to estimate national prevalence without accounting for those limits. The project does not predict whether a proposal will pass or a project will be built. See [known gaps](known-gaps.md) before using the data.

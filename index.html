@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Moratorium Nation | 1328 Local Records, State Policy &amp; Ballot Measures</title>
-<meta name="description" content="Open data and a 116-page working paper on 1328 local-government moratorium records targeting data centers, battery storage, solar, wind, and cryptocurrency mining across the United States. Updated November 11, 2026.">
+<title>Moratorium Nation | Local Moratoria, State Policy, and Ballot Measures</title>
+<meta name="description" content="Track 1,328 local moratorium records across 47 states, plus state policy and ballot measures. Updated November 11, 2026.">
 <meta name="author" content="Michael J. Bommarito">
 <meta name="robots" content="index,follow,max-image-preview:large">
 <meta name="theme-color" content="#2a78d6">
@@ -13,7 +13,7 @@
 
 <!-- Open Graph -->
 <meta property="og:title" content="Moratorium Nation | Local Pauses, State Policy &amp; Ballot Measures">
-<meta property="og:description" content="1328 local moratorium records across 47 states, plus 449 state policy actions. Open data, working cohort through November 7, 2026.">
+<meta property="og:description" content="Track 1,328 local moratorium records across 47 states, plus state policy and ballot measures. Updated November 11, 2026.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://mjbommar.github.io/moratorium-data-2026/">
 <meta property="og:site_name" content="Moratorium Nation">
@@ -23,7 +23,7 @@
 <meta property="og:image:alt" content="Map of documented local infrastructure moratoria across the United States">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Moratorium Nation | Local Pauses, State Policy &amp; Ballot Measures">
-<meta name="twitter:description" content="1328 local moratorium records across 47 states, plus 449 state policy actions. Updated November 11, 2026.">
+<meta name="twitter:description" content="Track 1,328 local moratorium records across 47 states, plus state policy and ballot measures. Updated November 11, 2026.">
 <meta name="twitter:image" content="https://mjbommar.github.io/moratorium-data-2026/figures/png/map-moratorium-counts.png">
 <script type="application/ld+json">
 {
@@ -645,9 +645,9 @@
 <body>
 
 <header class="hero">
-  <div class="eyebrow"><span class="dot"></span>Updated 11 November 2026</div>
+  <div class="eyebrow"><span class="dot"></span>Updated November 11, 2026</div>
   <h1>Moratorium Nation</h1>
-  <p class="subtitle">Track local pauses on <strong>data centers</strong>, <strong>battery storage</strong>, <strong>solar</strong>, <strong>wind</strong>, and <strong>crypto mining</strong>—plus the distinct state-level rules now shaping permits, grid access, costs, and local authority. Related ballot measures are tracked separately.</p>
+  <p class="subtitle">Track local pauses on data centers, battery storage, solar, wind, and cryptocurrency mining in the United States. Browse state policies and related ballot measures in separate trackers.</p>
 </header>
 
 <div class="stats-row">
@@ -658,19 +658,19 @@
   </div>
   <div class="stat in-force">
     <div class="num" id="stat-in-force">1085</div>
-    <div class="label">Classified active / extended</div>
+    <div class="label">Listed as active or extended</div>
   </div>
   <div class="stat pending">
     <div class="num" id="stat-pending">63</div>
-    <div class="label">Classified pending</div>
+    <div class="label">Pending</div>
   </div>
   <div class="stat past">
     <div class="num" id="stat-past">173</div>
-    <div class="label">Classified replaced, expired, or rescinded</div>
+    <div class="label">Replaced, expired, or rescinded</div>
   </div>
   <div class="stat">
-    <div class="num">47</div>
-    <div class="label">States with at least one</div>
+    <div class="num" id="stat-states">47</div>
+    <div class="label">States in the inventory</div>
   </div>
 </div>
 
@@ -678,24 +678,24 @@
   <div class="scope-shell">
     <div class="scope-intro">
       <p class="kicker">How to read the tracker</p>
-      <h2 id="scope-heading">One buildout, two layers of restriction</h2>
-      <p>A local moratorium stops or delays approvals in one jurisdiction. State policy can instead bind an agency, utility process, incentive, or every municipality. The datasets stay separate so unlike legal effects do not collapse into one count.</p>
+      <h2 id="scope-heading">Local moratoria and state policy</h2>
+      <p>Local governments can pause certain development applications or approvals. State actions can affect permits, utilities, or local authority. We track them separately because they can have different legal effects.</p>
     </div>
     <div class="scope-grid">
       <article class="scope-card">
         <span class="scope-label">Local government</span>
         <strong class="scope-number" id="scope-local-count">1328</strong>
-        <p>City, county, township, and tribal inventory records. The map and headline status counts all refer to this inventory.</p>
+        <p>Records from cities, counties, townships, and tribal governments. The map and status totals below use these records.</p>
         <a href="data/moratorium_inventory.csv" download>Download local inventory →</a>
       </article>
       <article class="scope-card">
         <span class="scope-label">State policy</span>
         <strong class="scope-number" id="scope-state-count">449</strong>
-        <p>427 bills and 22 other policy observations, including executive actions, resolutions and precursor memos. These are not all enacted or binding.</p>
+        <p id="state-policy-description">427 bills and 22 other records, including executive actions, resolutions, and preliminary memos. Many are proposals or historical actions.</p>
         <a href="data/state_legislation.csv" download>Download state tracker →</a>
       </article>
     </div>
-    <div class="scope-latest"><strong>Examples of recorded state actions:</strong> New York is holding specified state permits in abeyance during environmental review; Texas is auditing data-center projects before ERCOT interconnection can advance. Pennsylvania's moratorium bills remain proposals.</div>
+    <div class="scope-latest">A state record may describe a proposal, an adopted law, or an earlier action. Read its status and source before treating it as a current restriction.</div>
   </div>
 </div>
 
@@ -703,9 +703,9 @@
 <div class="paper-callout">
   <div class="paper-card">
     <div class="paper-info">
-      <div class="eyebrow">📄 Historical working paper · April 2026</div>
+      <div class="eyebrow">April 2026 working paper</div>
       <h2>Moratorium Nation: A Survey of Data Center, Renewable Energy, and Battery Storage Moratoria in the United States</h2>
-      <p>Historical edition; not synchronized to the November dataset. 116 pages · 46,800 words · 8 maps · 7 statistical tables · 50-state legal authority survey · 13-section model ordinance template with sector-specific supplements for data centers, solar, wind, and battery storage.</p>
+      <p>The April paper covers local legal authority and includes a model ordinance. It has 116 pages, eight maps, and seven statistical tables. Its findings have not been updated to match the November data.</p>
     </div>
     <div class="paper-cta">
       <a class="primary" href="paper/moratorium-nation-2026-04-30.pdf" download>Download April 2026 draft (PDF, 6 MB)</a>
@@ -717,25 +717,25 @@
 <div class="map-wrap">
   <div id="map"></div>
   <div class="map-controls">
-    <span class="legend-item"><span class="swatch" style="background:var(--c-active)"></span>Recorded active / extended</span>
-    <span class="legend-item"><span class="swatch" style="background:var(--c-pending)"></span>Recorded pending</span>
-    <span class="legend-item"><span class="swatch" style="background:var(--c-replaced)"></span>Recorded replaced / expired</span>
-    <span class="legend-item"><span class="swatch" style="background:var(--c-rescinded)"></span>Recorded rescinded</span>
+    <span class="legend-item"><span class="swatch" style="background:var(--c-active)"></span>Active or extended</span>
+    <span class="legend-item"><span class="swatch" style="background:var(--c-pending)"></span>Pending</span>
+    <span class="legend-item"><span class="swatch" style="background:var(--c-replaced)"></span>Replaced or expired</span>
+    <span class="legend-item"><span class="swatch" style="background:var(--c-rescinded)"></span>Rescinded</span>
     <div class="filter-buttons" id="filter-buttons">
       <button class="active" data-filter="all">All</button>
-      <button data-filter="in-force">Recorded active / extended</button>
-      <button data-filter="pending">Recorded pending</button>
-      <button data-filter="past">Recorded past</button>
+      <button data-filter="in-force">Active or extended</button>
+      <button data-filter="pending">Pending</button>
+      <button data-filter="past">Past actions</button>
       <button data-filter="rejected">Rejected proposals</button>
       <button data-filter="unknown">Unknown status</button>
     </div>
   </div>
-  <p style="font-size: 12px; color: var(--ink-soft); margin: -4px 0 22px;">Map shows 1326 of 1328 records. Two aggregate meta-rows ("Other Reported Local Moratoria, MI" and "Proposed or Rejected Local Pauses, MD") aren't real geographic points. Click any marker for jurisdiction details.</p>
+  <p id="map-caption" style="font-size: 12px; color: var(--ink-soft); margin: -4px 0 22px;">The map shows 1,326 of 1,328 records. The other two describe groups of proposals rather than single places. Select a marker for details.</p>
 </div>
 
 <div class="timeline-wrap">
-  <img src="site/timeline.svg" alt="Monthly recorded moratorium dates, stacked by first recorded sector, with cumulative dated-record total. Dates may be unverified or scheduled." />
-  <p class="caption">Recorded dates in the current inventory, including unverified or scheduled dates. Each row is counted once by its first recorded sector; dates do not establish adoption or current legal force.</p>
+  <img src="site/timeline.svg" alt="Recorded dates by month and sector, including unconfirmed and scheduled dates." />
+  <p class="caption">This chart groups recorded dates by month and by each record’s first listed sector. Some dates are unconfirmed or scheduled. They do not all represent adopted moratoria.</p>
   <p class="source">Source: current <code>moratorium_inventory.csv</code>; see <a href="docs/known-gaps.html">coverage and date limitations</a>.</p>
 </div>
 
@@ -743,28 +743,15 @@
 
 <!-- BEGIN whats-changed (generated by scripts/build_index.py) -->
 <section class="release-notes">
-  <div class="stamp">Qualified release v2026.11.11.post11 &middot; original cohort cutoff November 7, 2026 &middot; QA continues</div>
-  <h2>The November dataset update</h2>
-  <p class="lede">The inventory tracks 1328 local inventory records across 47 states.
-  Recorded classifications include 886 active and 199 extended records,
-  63 pending, 84 replaced, 77 expired, 12 rescinded, 3 rejected proposals and 4 unknown.
-  Source dates vary by record; these totals do not establish freshly verified current legal force.</p>
-  <h3>Ballots and state policy have separate denominators</h3>
-  <p><a href="docs/ballot-results.html">Reviewed ballot results</a> distinguish vote observations,
-  certification and legal effect. Proposed initiatives and intended election dates do not establish
-  ballot appearance; recorded litigation is distinct from electoral defeat. Advisory questions, permanent prohibitions and site-specific
-  rezoning votes are not added to the local moratorium total merely because they concern data centers.
-  <a href="docs/known-gaps.html">Known gaps</a> retains unresolved candidates and instrument histories.</p>
-  <p>The state-policy tracker contains 449 records spanning several mechanisms.
-  It is not a count of enacted state moratoria or a deduplicated count of independent bills.
-  Reviewed precursor memos and legislative resolutions have separate legal-form types; memo links
-  to numbered bills do not merge their identities. Compound rows and unresolved identity grains remain.
-  Read the typed mechanism, scope, legal-effect fields and documented identity gaps.</p>
-  <h3>Coverage and historical material</h3>
-  <p>Searches across all states do not establish a complete census. Later discovery found instruments
-  missed in earlier searches, including the May–July window. The April 2026 paper and older graphics
-  retain their own historical cohorts; they are not evidence of synchronization with this working data.
-  A published release and verified deployment remain separate deliverables.</p>
+  <div class="stamp">Updated November 11, 2026 &middot; v2026.11.11.post11</div>
+  <h2>About this update</h2>
+  <p class="lede">The local inventory contains 1,328 records from 47 states. It includes adopted moratoria, proposals, and actions that have ended.</p>
+  <p>The status of each record reflects the sources we found. Some dates and legal details remain unconfirmed. A record listed as active may have changed since its source was published.</p>
+  <h3>Local actions, state policy, and ballot measures</h3>
+  <p>We count these separately. State bills can change local authority or state permit rules without creating a local moratorium. Ballot measures can ask for a temporary pause, a permanent restriction, or a zoning change. A vote in favor does not always put a restriction into effect.</p>
+  <h3>What the search covers</h3>
+  <p>We searched all 50 states, but the inventory is not complete. The main November search ended November 7, 2026. Later checks have added sources and corrected records. Each record keeps its source dates.</p>
+  <p>The <a href="paper/moratorium-nation-2026-04-30.pdf">April paper</a> describes the earlier dataset. Its findings have not been updated to match these records. See the <a href="docs/known-gaps.html">known gaps</a> for more detail.</p>
 </section>
 <!-- END whats-changed -->
 
@@ -782,36 +769,36 @@
 .dashboard-card svg { margin-bottom:12px; }
 .qa-note { padding:16px;border-left:4px solid var(--accent);margin-top:22px; }
 </style>
-<h2 id="dashboard-heading">Current data at a glance</h2>
-<p>The three trackers count different things. Local records are not added to policy observations or ballot measures.</p>
+<h2 id="dashboard-heading">What the data contains</h2>
+<p>The local inventory, state tracker, and ballot tracker have separate totals.</p>
 <div class="dashboard-grid">
-<div class="dashboard-card"><h3>Recorded local status</h3><svg viewBox="0 0 445 282" role="img" aria-label="Local status counts; tabulated below" style="width:100%;height:auto"><title>Local status counts; tabulated below</title><text x="0" y="29" fill="currentColor" font-size="13">Active</text><rect x="155" y="15" width="235.00" height="19" rx="3" fill="#3975b5"/><text x="398.00" y="29" fill="currentColor" font-size="13">886</text><text x="0" y="61" fill="currentColor" font-size="13">Extended</text><rect x="155" y="47" width="52.78" height="19" rx="3" fill="#3975b5"/><text x="215.78" y="61" fill="currentColor" font-size="13">199</text><text x="0" y="93" fill="currentColor" font-size="13">Pending</text><rect x="155" y="79" width="16.71" height="19" rx="3" fill="#3975b5"/><text x="179.71" y="93" fill="currentColor" font-size="13">63</text><text x="0" y="125" fill="currentColor" font-size="13">Replaced</text><rect x="155" y="111" width="22.28" height="19" rx="3" fill="#3975b5"/><text x="185.28" y="125" fill="currentColor" font-size="13">84</text><text x="0" y="157" fill="currentColor" font-size="13">Expired</text><rect x="155" y="143" width="20.42" height="19" rx="3" fill="#3975b5"/><text x="183.42" y="157" fill="currentColor" font-size="13">77</text><text x="0" y="189" fill="currentColor" font-size="13">Rescinded</text><rect x="155" y="175" width="3.18" height="19" rx="3" fill="#3975b5"/><text x="166.18" y="189" fill="currentColor" font-size="13">12</text><text x="0" y="221" fill="currentColor" font-size="13">Rejected</text><rect x="155" y="207" width="0.80" height="19" rx="3" fill="#3975b5"/><text x="163.80" y="221" fill="currentColor" font-size="13">3</text><text x="0" y="253" fill="currentColor" font-size="13">Unknown</text><rect x="155" y="239" width="1.06" height="19" rx="3" fill="#3975b5"/><text x="164.06" y="253" fill="currentColor" font-size="13">4</text></svg>
-<p>1,328 inventory records; classifications do not certify current legal force.</p></div>
-<div class="dashboard-card"><h3>Ballot result observations</h3><svg viewBox="0 0 445 122" role="img" aria-label="Certification status of current result observations; tabulated below" style="width:100%;height:auto"><title>Certification status of current result observations; tabulated below</title><text x="0" y="29" fill="currentColor" font-size="13">Certified</text><rect x="155" y="15" width="35.61" height="19" rx="3" fill="#3a8c72"/><text x="198.61" y="29" fill="currentColor" font-size="13">5</text><text x="0" y="61" fill="currentColor" font-size="13">Unofficial</text><rect x="155" y="47" width="235.00" height="19" rx="3" fill="#3a8c72"/><text x="398.00" y="61" fill="currentColor" font-size="13">33</text><text x="0" y="93" fill="currentColor" font-size="13">Unknown</text><rect x="155" y="79" width="106.82" height="19" rx="3" fill="#3a8c72"/><text x="269.82" y="93" fill="currentColor" font-size="13">15</text></svg>
-<p><strong>57 proposal and measure records</strong>: 1 litigated, 3 scheduled, 1 unknown, 52 voted. There are 53 current result observations across 52 measures and 65 retained result versions. 5 current observations are certified.</p>
-<p>Multiple reporting scopes can belong to one measure. Certification is separate from approval and operative legal effect.</p>
-<a href="docs/ballot-results.html">Read every reviewed result and source →</a><br><a href="data/expanded-csv/measure_results_current.csv" download>Download current results CSV →</a></div>
+<div class="dashboard-card"><h3>Local record status</h3><svg viewBox="0 0 445 282" role="img" aria-label="Local records by status; values also appear in the table" style="width:100%;height:auto"><title>Local records by status; values also appear in the table</title><text x="0" y="29" fill="currentColor" font-size="13">Active</text><rect x="155" y="15" width="235.00" height="19" rx="3" fill="#3975b5"/><text x="398.00" y="29" fill="currentColor" font-size="13">886</text><text x="0" y="61" fill="currentColor" font-size="13">Extended</text><rect x="155" y="47" width="52.78" height="19" rx="3" fill="#3975b5"/><text x="215.78" y="61" fill="currentColor" font-size="13">199</text><text x="0" y="93" fill="currentColor" font-size="13">Pending</text><rect x="155" y="79" width="16.71" height="19" rx="3" fill="#3975b5"/><text x="179.71" y="93" fill="currentColor" font-size="13">63</text><text x="0" y="125" fill="currentColor" font-size="13">Replaced</text><rect x="155" y="111" width="22.28" height="19" rx="3" fill="#3975b5"/><text x="185.28" y="125" fill="currentColor" font-size="13">84</text><text x="0" y="157" fill="currentColor" font-size="13">Expired</text><rect x="155" y="143" width="20.42" height="19" rx="3" fill="#3975b5"/><text x="183.42" y="157" fill="currentColor" font-size="13">77</text><text x="0" y="189" fill="currentColor" font-size="13">Rescinded</text><rect x="155" y="175" width="3.18" height="19" rx="3" fill="#3975b5"/><text x="166.18" y="189" fill="currentColor" font-size="13">12</text><text x="0" y="221" fill="currentColor" font-size="13">Rejected</text><rect x="155" y="207" width="0.80" height="19" rx="3" fill="#3975b5"/><text x="163.80" y="221" fill="currentColor" font-size="13">3</text><text x="0" y="253" fill="currentColor" font-size="13">Unknown</text><rect x="155" y="239" width="1.06" height="19" rx="3" fill="#3975b5"/><text x="164.06" y="253" fill="currentColor" font-size="13">4</text></svg>
+<p>These are the statuses listed in the data. They do not confirm that every restriction is still in effect.</p></div>
+<div class="dashboard-card"><h3>Ballot results</h3><svg viewBox="0 0 445 122" role="img" aria-label="Ballot result reports by certification status; values also appear in the table" style="width:100%;height:auto"><title>Ballot result reports by certification status; values also appear in the table</title><text x="0" y="29" fill="currentColor" font-size="13">Certified</text><rect x="155" y="15" width="35.61" height="19" rx="3" fill="#3a8c72"/><text x="198.61" y="29" fill="currentColor" font-size="13">5</text><text x="0" y="61" fill="currentColor" font-size="13">Unofficial</text><rect x="155" y="47" width="235.00" height="19" rx="3" fill="#3a8c72"/><text x="398.00" y="61" fill="currentColor" font-size="13">33</text><text x="0" y="93" fill="currentColor" font-size="13">Unknown</text><rect x="155" y="79" width="106.82" height="19" rx="3" fill="#3a8c72"/><text x="269.82" y="93" fill="currentColor" font-size="13">15</text></svg>
+<p>We track <strong>57 proposals and ballot measures</strong>. The chart counts 53 current result reports for 52 measures. One measure can have reports from more than one area.</p>
+<p>5 reports contain certified results. Certification confirms the reported vote; it does not by itself show that a restriction has taken effect. The data keeps 65 report versions, including earlier reports.</p>
+<a href="docs/ballot-results.html">Read the results and sources</a><br><a href="data/expanded-csv/measure_results_current.csv" download>Download results CSV</a></div>
 </div>
 <div class="dashboard-grid" style="margin-top:24px">
-<div class="dashboard-card"><h3>Local inventory</h3><table><caption>Recorded status, one category per local row.</caption><thead><tr><th scope="col">Classification</th><th scope="col">Records</th></tr></thead><tbody><tr><th scope="row">Active</th><td>886</td></tr><tr><th scope="row">Extended</th><td>199</td></tr><tr><th scope="row">Pending</th><td>63</td></tr><tr><th scope="row">Replaced</th><td>84</td></tr><tr><th scope="row">Expired</th><td>77</td></tr><tr><th scope="row">Rescinded</th><td>12</td></tr><tr><th scope="row">Rejected</th><td>3</td></tr><tr><th scope="row">Unknown</th><td>4</td></tr></tbody><tfoot><tr><th scope="row">Total</th><td>1,328</td></tr></tfoot></table></div>
-<div class="dashboard-card"><h3>State-policy forms</h3><table><caption>Raw observations, not a count of enacted restrictions or unique bills.</caption><thead><tr><th scope="col">Classification</th><th scope="col">Records</th></tr></thead><tbody><tr><th scope="row">Bill</th><td>427</td></tr><tr><th scope="row">Legislative resolution</th><td>12</td></tr><tr><th scope="row">Executive order</th><td>3</td></tr><tr><th scope="row">Legislative precursor</th><td>3</td></tr><tr><th scope="row">Statute</th><td>2</td></tr><tr><th scope="row">Governor directive</th><td>1</td></tr><tr><th scope="row">Legislative amendment</th><td>1</td></tr></tbody><tfoot><tr><th scope="row">Total</th><td>449</td></tr></tfoot></table></div>
-<div class="dashboard-card"><h3>Ballot certification</h3><table><caption>Current result observations, including distinct reporting scopes.</caption><thead><tr><th scope="col">Classification</th><th scope="col">Records</th></tr></thead><tbody><tr><th scope="row">Certified</th><td>5</td></tr><tr><th scope="row">Unofficial</th><td>33</td></tr><tr><th scope="row">Unknown</th><td>15</td></tr></tbody><tfoot><tr><th scope="row">Total</th><td>53</td></tr></tfoot></table></div>
+<div class="dashboard-card"><h3>Local inventory</h3><table><caption>Each local record appears in one status category.</caption><thead><tr><th scope="col">Classification</th><th scope="col">Records</th></tr></thead><tbody><tr><th scope="row">Active</th><td>886</td></tr><tr><th scope="row">Extended</th><td>199</td></tr><tr><th scope="row">Pending</th><td>63</td></tr><tr><th scope="row">Replaced</th><td>84</td></tr><tr><th scope="row">Expired</th><td>77</td></tr><tr><th scope="row">Rescinded</th><td>12</td></tr><tr><th scope="row">Rejected</th><td>3</td></tr><tr><th scope="row">Unknown</th><td>4</td></tr></tbody><tfoot><tr><th scope="row">Total</th><td>1,328</td></tr></tfoot></table></div>
+<div class="dashboard-card"><h3>State actions by type</h3><table><caption>State records by type. These are not all enacted laws or separate bills.</caption><thead><tr><th scope="col">Classification</th><th scope="col">Records</th></tr></thead><tbody><tr><th scope="row">Bill</th><td>427</td></tr><tr><th scope="row">Legislative resolution</th><td>12</td></tr><tr><th scope="row">Executive order</th><td>3</td></tr><tr><th scope="row">Preliminary legislative memo</th><td>3</td></tr><tr><th scope="row">Statute</th><td>2</td></tr><tr><th scope="row">Governor directive</th><td>1</td></tr><tr><th scope="row">Legislative amendment</th><td>1</td></tr></tbody><tfoot><tr><th scope="row">Total</th><td>449</td></tr></tfoot></table></div>
+<div class="dashboard-card"><h3>Ballot certification</h3><table><caption>Latest result reports. A measure may have reports from several areas.</caption><thead><tr><th scope="col">Classification</th><th scope="col">Records</th></tr></thead><tbody><tr><th scope="row">Certified</th><td>5</td></tr><tr><th scope="row">Unofficial</th><td>33</td></tr><tr><th scope="row">Unknown</th><td>15</td></tr></tbody><tfoot><tr><th scope="row">Total</th><td>53</td></tr></tfoot></table></div>
 </div>
-<div class="qa-note"><strong>1,346 record reviews remain unresolved.</strong>
-192 are corrected/resolved and 239 confirmed unchanged within their recorded review scopes. Searches do not establish a complete nationwide census. Original cohort cutoff: November 7, 2026; targeted later captures have their own dates.
-<a href="docs/known-gaps.html">Read the limitations</a> and <a href="work/research/2026-11-09/post-release-qa/outstanding-record-questions.jsonl">download the remaining questions</a>.
-<a href="states/kentucky.html">Kentucky Executive Order 2026-494</a> is included as a historical policy observation; its later legal force remains unverified.</div>
+<div class="qa-note"><strong>1,346 records still have open questions.</strong>
+We completed reviews of 192 corrected records and 239 records that needed no changes. Other records still have questions about dates, wording, or later actions.
+<a href="docs/known-gaps.html">Read the limitations</a> or <a href="work/research/2026-11-09/post-release-qa/outstanding-record-questions.jsonl">download the remaining questions</a>.
+The state tracker includes historical actions such as <a href="states/kentucky.html">Kentucky Executive Order 2026-494</a>. Check each record for its date and status.</div>
 </section>
 <!-- END dashboard-summaries -->
 
 <section>
   <h2>What is a moratorium?</h2>
-  <div class="panel definition"><p>A moratorium is a temporary pause. A city, county, or township stops accepting or approving a certain kind of development while it writes rules for it. Most run six to twelve months. The trigger is almost always the same: a project arrives that the zoning code has no word for. <a href="docs/FAQ.html">Read the FAQ &rarr;</a></p><p>Reviewed ballot questions and vote results are tracked separately. <a href="docs/ballot-results.html">View reviewed ballot results &rarr;</a> (initial reviewed subset).</p></div>
+  <div class="panel definition"><p>A moratorium is a temporary pause on specified development applications or approvals. Local governments often use the pause to study a proposed use or write land-use rules. The exact restrictions and exceptions depend on the adopted text. <a href="docs/FAQ.html">Read the FAQ</a>.</p><p>Ballot measures are listed separately because they can address temporary pauses, permanent restrictions, or other zoning changes. <a href="docs/ballot-results.html">See ballot results</a>.</p></div>
 </section>
 
 <section>
-  <h2>Top 13 states by moratorium count</h2>
-  <div class="panel"><p>Thirteen states hold roughly two in three of the records we have found. Click a state for every moratorium in it, written in plain English.</p>
+  <h2>States with the most records</h2>
+  <div class="panel"><p id="top-states-lead">These states account for 70% of the local records. Select a state to see its records.</p>
   <div class="top-states">
     <div class="row"><a href="states/ohio.html"><strong>Ohio</strong></a><strong>160</strong></div>
     <div class="row"><a href="states/new-york.html"><strong>New York</strong></a><strong>152</strong></div>
@@ -827,24 +814,24 @@
     <div class="row"><a href="states/california.html"><strong>California</strong></a><strong>34</strong></div>
     <div class="row"><a href="states/colorado.html"><strong>Colorado</strong></a><strong>34</strong></div>
   </div>
-  <p style="margin-top: 12px;"><a href="states/index.html">All 47 states with moratoria →</a></p></div>
+  <p style="margin-top: 12px;"><a href="states/index.html">Browse all state pages</a></p></div>
 </section>
 
 <section>
   <h2>Use the data</h2>
   <div class="grid-3">
     <div class="card">
-      <h3>📊 Spreadsheet</h3>
-      <p>The 1328-row inventory as a CSV — opens in Excel, Google Sheets, Numbers, or any tool. Includes <code>enacted_status</code>, <code>moratorium_id</code>, and lat/lon for instant mapping.</p>
+      <h3>Spreadsheet</h3>
+      <p>Download the local inventory for Excel, Google Sheets, or other spreadsheet software. It includes record IDs, status fields, and map coordinates.</p>
       <a href="data/moratorium_inventory.csv" download>Download CSV →</a>
     </div>
     <div class="card">
-      <h3>🐍 Python / R / pandas</h3>
-      <p>Load directly from GitHub raw, no clone required. The <a href="data/index.html">data folder guide</a> has working snippets.</p>
+      <h3>Python and R</h3>
+      <p>Load the CSV files directly from GitHub. The <a href="data/index.html">data folder guide</a> has working snippets.</p>
       <a href="data/index.html">Browse data files →</a>
     </div>
     <div class="card">
-      <h3>📚 Citation</h3>
+      <h3>Cite the data</h3>
       <p>The dataset is published under <a href="https://github.com/mjbommar/moratorium-data-2026/blob/main/LICENSE-data">CC-BY-4.0</a>. Cite the working paper or this dataset directly. <code>CITATION.cff</code> in the repo gives GitHub a "Cite this repository" button.</p>
       <a href="https://github.com/mjbommar/moratorium-data-2026/blob/main/CITATION.cff">View CITATION.cff →</a>
     </div>
@@ -852,13 +839,13 @@
 </section>
 
 <section>
-  <h2>Methodology</h2>
-  <div class="panel"><p>We collect the primary documents first - ordinances, resolutions, board minutes - then code them. Sources span all 50 states; a nationwide search is not a complete census. 348 moratorium texts have been read line by line against a 44-clause taxonomy; that sample predates 28 April 2026 and covers 211 jurisdictions, so it describes what moratoria contain rather than all 1328 of them. An earlier coordinate-check sample covered 89 verifications with no confirmed errors; that sample is not a fresh check of every mapped record. Where we could not confirm something, the row says so. </p><div class="doclinks"><a href="docs/methodology.html">Full methodology</a><a href="docs/codebook.html">Codebook</a><a href="docs/known-gaps.html">Known gaps</a><a href="docs/FAQ.html">FAQ</a></div></div>
+  <h2>How we collect the data</h2>
+  <div class="panel"><p>We search government records and news reports, then compare the findings with ordinances, resolutions, and meeting minutes where available. We mark details we cannot confirm.</p><p id="historical-sample">An earlier analysis examined 348 moratorium texts from 211 jurisdictions, collected before April 28, 2026. Those findings have not been updated for the full inventory.</p><div class="doclinks"><a href="docs/methodology.html">Methodology</a><a href="docs/codebook.html">Column definitions</a><a href="docs/known-gaps.html">Known gaps</a><a href="docs/FAQ.html">FAQ</a></div></div>
 </section>
 
 <section>
   <h2>Related projects by Michael Bommarito</h2>
-  <p>Other public resources on the U.S. data center buildout and what it does to the communities that host it.</p>
+  <p>Other resources about data centers and local development decisions.</p>
   <div class="grid-3">
     <div class="card">
       <h3><a href="https://servercountry.org/">servercountry.org</a></h3>
@@ -867,26 +854,26 @@
     </div>
     <div class="card">
       <h3><a href="https://fightadatacenter.com/">fightadatacenter.com</a></h3>
-      <p>A citizen's guide for community members facing a data center proposal: ten-chapter book on local, state, and federal strategies, plus a free abridged online version with checklists and templates.</p>
+      <p>A guide to participating in local, state, and federal decisions about proposed data centers. Includes an online edition, checklists, and templates.</p>
       <a href="https://fightadatacenter.com/">Visit →</a>
     </div>
     <div class="card">
       <h3><a href="https://michaelbommarito.com/">michaelbommarito.com</a></h3>
-      <p>Personal site of the dataset's author. Builder, researcher, and educator working at the intersection of food systems, legal technology, AI, and open source. Co-founder of Alea Institute and 273 Ventures.</p>
+      <p>The author’s website, with research, articles, and other projects.</p>
       <a href="https://michaelbommarito.com/">Visit →</a>
     </div>
   </div>
 </section>
 
 <section>
-  <h2>Status &amp; contributions</h2>
-  <div class="panel"><p>This working snapshot retains an original cohort cutoff of <strong>7 November 2026</strong>. Later additions retain their own observation and review dates. The latest qualified release is <strong>v2026.11.11.post11</strong>. QA continues; read the <a href="https://github.com/mjbommar/moratorium-data-2026/releases/tag/v2026.11.11.post11">release qualifications</a>. Found a moratorium we missed, or an error worth fixing? <a href="https://github.com/mjbommar/moratorium-data-2026/issues/new/choose">Open an issue</a> and we will take it up in the next refresh, with source dates and unresolved findings retained by record.</p></div>
+  <h2>Updates and corrections</h2>
+  <div class="panel"><p id="source-dates">The main November search ended November 7, 2026. Later source checks have their own dates. The current data release is v2026.11.11.post11.</p><p>Read the <a id="release-link" href="https://github.com/mjbommar/moratorium-data-2026/releases/tag/v2026.11.11.post11">release notes</a> for changes and open questions. To report an error or a missing record, <a href="https://github.com/mjbommar/moratorium-data-2026/issues/new/choose">open an issue</a> and include a source.</p></div>
 </section>
 
 </main>
 
 <footer>
-  <a class="repo-link" href="https://github.com/mjbommar/moratorium-data-2026">github.com/mjbommar/moratorium-data-2026</a> · Data CC-BY-4.0 · Code MIT · Compiled by <a href="https://michaelbommarito.com/">Michael J. Bommarito</a>
+  <a class="repo-link" href="https://github.com/mjbommar/moratorium-data-2026">github.com/mjbommar/moratorium-data-2026</a> · Data CC-BY-4.0 · Code MIT · Maintained by <a href="https://michaelbommarito.com/">Michael J. Bommarito</a>
 </footer>
 
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
@@ -908,8 +895,8 @@
     extended:  'Recorded extended',
     replaced:  'Recorded replaced',
     expired:   'Recorded expired',
-    rescinded: 'Recorded rescinded',
-    pending:   'Recorded pending',
+    rescinded: 'Rescinded',
+    pending:   'Pending',
     rejected:  'Proposal rejected',
     unknown:   'Status unknown',
   };

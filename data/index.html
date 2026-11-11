@@ -194,241 +194,105 @@
 
 <main class="doc">
   <div class="breadcrumb"><a href="../index.html">← Home</a></div>
-  <h1 id="data">Data</h1>
-<p>Canonical records and reproducible derived downloads for this project.</p>
-<h2 id="files">Files</h2>
+  <h1 id="data-files">Data files</h1>
+<p>Use the CSV files in a spreadsheet or load them with Python, R, or other analysis tools. The <a href="../docs/codebook.html">codebook</a> defines the columns.</p>
+<h2 id="downloads">Downloads</h2>
 <table>
 <thead>
 <tr>
 <th>File</th>
-<th>What it is</th>
-<th>Size</th>
-<th>Format</th>
+<th>Contents</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><a href="moratorium_inventory.csv"><code>moratorium_inventory.csv</code></a></td>
-<td>1328 local-moratorium records. <strong>Start here.</strong></td>
-<td>1,836,092 bytes</td>
-<td>CSV</td>
+<td><a href="moratorium_inventory.csv">Local inventory</a></td>
+<td>Local moratoria, proposals, and past actions</td>
 </tr>
 <tr>
-<td><a href="state_legislation.csv"><code>state_legislation.csv</code></a></td>
-<td>449 state-policy records; mechanisms and legal effects vary</td>
-<td>378,806 bytes</td>
-<td>CSV</td>
+<td><a href="state_legislation.csv">State tracker</a></td>
+<td>State policies and proposals</td>
 </tr>
 <tr>
-<td><a href="state_policy_scope_reviews.jsonl"><code>state_policy_scope_reviews.jsonl</code></a></td>
-<td>Reviewed analytical scope decisions; raw rows retained, applied by the separate scope exports</td>
-<td>1,377,585 bytes</td>
-<td>JSONL</td>
+<td><a href="summary_stats.json">Summary counts</a></td>
+<td>Counts by state, status, and other fields</td>
 </tr>
 <tr>
-<td><a href="summary_stats.json"><code>summary_stats.json</code></a></td>
-<td>Top-level aggregates (counts by state, by status, etc.)</td>
-<td>15,337 bytes</td>
-<td>JSON</td>
+<td><a href="expanded-csv/ballot_measures.csv">Ballot measures</a></td>
+<td>Reviewed ballot measures and proposals</td>
 </tr>
 <tr>
-<td><a href="structured_extractions.jsonl"><code>structured_extractions.jsonl</code></a></td>
-<td>864 lines: 526 successful clause extractions + 338 LLM-call errors retained for transparency</td>
-<td>~2 MB</td>
-<td>JSONL</td>
+<td><a href="expanded-csv/measure_results_current.csv">Current ballot results</a></td>
+<td>Latest result reports, with certification status</td>
 </tr>
 <tr>
-<td><a href="clause_extraction_analysis.json"><code>clause_extraction_analysis.json</code></a></td>
-<td>Pre-computed clause prevalence statistics for the n=348 cohort (confidence ≥ 0.4)</td>
-<td>~7 KB</td>
-<td>JSON</td>
-</tr>
-<tr>
-<td><a href="moratorium-extraction.json"><code>moratorium-extraction.json</code></a></td>
-<td>JSON Schema describing the 60-field extraction format</td>
-<td>~25 KB</td>
-<td>JSON Schema</td>
+<td><a href="expanded-csv/measure_results.csv">All ballot result versions</a></td>
+<td>Current and earlier result reports</td>
 </tr>
 </tbody>
 </table>
-<h2 id="state-policy-scope-downloads">State-policy scope downloads</h2>
-<p>The raw state-policy CSV retains all 449 observations. The
-<a href="policy-scope/reviewed-included.csv">reviewed inclusion export</a> contains 384
-observations explicitly included in infrastructure scope; 19 are excluded and 46
-remain unresolved, with none unreviewed. The
-<a href="policy-scope/all-annotated.csv">annotated raw view</a> preserves every observation
-and scope decision. The <a href="policy-scope/not-explicitly-excluded-candidates.csv">candidate pool</a>
-contains 430 observations, including the unresolved cases. It is an exploratory
-pool, not an accepted infrastructure census. These counts concern observations,
-not unique instruments or verified current law. The <a href="policy-scope/receipt.json">receipt</a>
-pins inputs, partitions and output hashes; see the <a href="../docs/policy-scope-exports.html">export contract</a>.</p>
-<h2 id="column-definitions">Column definitions</h2>
-<p>See <a href="../docs/codebook.html"><code>docs/codebook.md</code></a> for full definitions of every column in every file.</p>
-<h2 id="useful-inventory-columns">Useful inventory columns</h2>
-<p>The inventory CSV includes normalized fields alongside legacy descriptions. Useful fields include:</p>
+<p>The local inventory has 1,328 records. The state tracker has 449 records. A record may describe a proposal or a past action; these totals are not counts of current restrictions.</p>
+<h2 id="local-records">Local records</h2>
 <ul>
-<li><strong><code>enacted_status</code></strong> — closed-vocab status: <code>active</code>, <code>extended</code>, <code>replaced</code>, <code>expired</code>, <code>rescinded</code>, <code>pending</code>, <code>rejected</code>, or <code>unknown</code>. The last two preserve rejected proposals and genuinely unresolved recorded stages separately. Filter to <code>active</code> + <code>extended</code> for records classified active or extended. These classifications do not prove freshly verified current legal force.</li>
-<li><strong><code>moratorium_id</code></strong> — stable identifier (<code>&lt;state&gt;-&lt;jurisdiction&gt;-&lt;year&gt;</code>, with phase suffixes for repeat instruments). Use this as a primary key when joining with future releases of this dataset.</li>
-<li><strong><code>current_end_date_iso</code></strong> — current fixed endpoint after any extension. Use it for expiry monitoring; <code>duration_days</code> preserves the original instrument's term.</li>
-<li><strong><code>latitude</code> / <code>longitude</code></strong> — WGS84 jurisdiction reference points. Census overrides use internal representative points, which are not necessarily geometric centroids. Drop the CSV into Mapbox, kepler.gl, Tableau, or any GIS tool to get an instant point map. 1326 of 1328 rows have coordinates; nonblank coordinates do not establish correct jurisdiction identity or legal applicability. See <a href="../docs/known-gaps.html#geocoding-caveats-added-v2026042">geocoding caveats</a>.</li>
+<li><code>moratorium_id</code> identifies a record across releases.</li>
+<li><code>enacted_status</code> gives the recorded status: <code>active</code>, <code>extended</code>, <code>pending</code>, <code>replaced</code>, <code>expired</code>, <code>rescinded</code>, <code>rejected</code>, or <code>unknown</code>.</li>
+<li><code>duration_days</code> describes the original term when a fixed number of days is known. Calendar months are not converted to a fixed number of days.</li>
+<li><code>current_end_date_iso</code> records a known current end date, including an extension when confirmed.</li>
+<li><code>latitude</code> and <code>longitude</code> identify a jurisdiction reference point. They do not show a project site or legal boundary.</li>
 </ul>
-<h2 id="quick-examples">Quick examples</h2>
-<p><strong>Count records classified active or extended, by state (Excel):</strong> Open <code>moratorium_inventory.csv</code>, filter <code>enacted_status</code> to <code>active</code> and <code>extended</code>, then PivotTable on <code>state</code>.</p>
-<p><strong>Same in Python:</strong></p>
+<p>There are coordinates for 1,326 of 1,328 records. The two without coordinates describe groups of proposals. Dates and status fields can be uncertain; read the accompanying notes.</p>
 <pre><code class="language-python">import pandas as pd
-df = pd.read_csv(&quot;moratorium_inventory.csv&quot;)
-in_force = df[df[&quot;enacted_status&quot;].isin([&quot;active&quot;, &quot;extended&quot;])]
-print(in_force[&quot;state&quot;].value_counts())
+
+records = pd.read_csv(&quot;moratorium_inventory.csv&quot;)
+selected = records[records[&quot;enacted_status&quot;].isin([&quot;active&quot;, &quot;extended&quot;])]
+print(selected[&quot;state&quot;].value_counts())
 </code></pre>
-<p><strong>Filter to data-center-only moratoria (Python):</strong></p>
-<pre><code class="language-python">import json
-df_dc = df[df[&quot;sectors&quot;].map(lambda value: &quot;data_center&quot; in json.loads(value))]
-</code></pre>
-<p><strong>Just the headline numbers (any tool):</strong> Read <code>summary_stats.json</code>. It has total counts, top-states list, and per-state aggregate stats including the <code>enacted_status_breakdown</code> field — useful for embedding live values in dashboards or articles.</p>
-<h2 id="a-note-on-structured_extractionsjsonl">A note on <code>structured_extractions.jsonl</code></h2>
-<p>This file has 864 lines. <strong>526</strong> are successful structured extractions; <strong>338</strong> are LLM-call errors retained for transparency (so you can audit what didn't extract cleanly). The <strong>n=348</strong> cohort referenced in the working paper is the subset with <code>extraction.confidence &gt;= 0.4</code>.</p>
-<pre><code class="language-python">import json
-records = []
-with open(&quot;structured_extractions.jsonl&quot;) as f:
-    for line in f:
-        r = json.loads(line)
-        if r.get(&quot;error&quot;) is None and r[&quot;extraction&quot;][&quot;confidence&quot;] &gt;= 0.4:
-            records.append(r)
-assert len(records) == 348
-</code></pre>
-<h2 id="a-note-on-dates">A note on dates</h2>
-<p>Most <code>date_enacted</code> values are ISO format (<code>YYYY-MM-DD</code>). Some are <code>YYYY-MM</code> (day uncertain), <code>YYYY</code> (only year known), or include qualifying notes (<code>reported</code>, <code>[VERIFY]</code>, <code>proposed</code>). When parsing programmatically, expect to handle both clean and messy values. The <a href="https://github.com/mjbommar/moratorium-data-2026/tree/main/examples">repository's <code>examples/</code> directory</a> has working code.</p>
-<h2 id="updates">Updates</h2>
-<p>The September 23, 2026 edition is a historical baseline. The November refresh is in progress; source/status dates vary by record. Release <code>v2026.11.9.post1</code> publishes the reviewed current state with pending QA and explicit unresolved questions. Further source checks continue. The earlier <code>v2026.11.8</code> prerelease remains an incomplete checkpoint.</p>
-<h2 id="reviewed-ballot-records">Reviewed ballot records</h2>
-<p>Canonical expanded records cover 57 reviewed proposal and measure records:
-53 mapped frozen-cohort publications, Jay's solar ballot, Wilmington's litigated
-initiative, Bethel's town-meeting question, and an Augusta notice-only question
-with unresolved frozen-seed correspondence. There are 65 retained result versions
-and 53 current observations across 52 measures; five measures lack a current result.
-Three frozen candidate payloads remain held. Augusta's notice-only record may
-overlap one of them, so held payloads are not additional disjoint contests.
-Its sector and result/ordinance links remain unaccepted; see the
-<a href="../docs/known-gaps.html#ballot-candidates-retained-outside-the-reviewed-publication">gap dispositions</a>
-and <a href="../work/research/2026-11-08/ballot-current-accounting/README.md">current accounting</a>.
-Certification and legal implementation remain separate, record-specific findings.
-<a href="../docs/ballot-results.html">The generated results view</a> supplies current record and
-observation counts; explicit supersession retains earlier observations. Unreported
-blank/turnout categories remain unknown. Operative dates and instrument links remain
-unresolved; electoral approval does not automatically increase in-force moratorium
-totals. This is a reviewed subset, not the full election census. See
-<a href="../docs/ballot-measures.html">scope and interpretation</a> and the
-<a href="../docs/expanded-promotion.html">publication protocol</a>. The relative <code>data/expanded</code>
-pointer and its <code>data/expanded-snapshots</code> target must travel together.</p>
-<h2 id="expanded-csv-downloads">Expanded CSV downloads</h2>
-<p>The current source generation selects <a href="../work/schemas/expanded/1.0.4.json">validation profile 1.0.4</a>. Separate retained, current-accepted and status event exports distinguish review state; none is a current-force timeline.</p>
-<p>Instrument-event rows describe source-supported historical actions. An <code>effective</code>
-event does not establish current legal force; original expected endpoints do not
-prove actual expiry. See the <a href="../docs/instrument-events.md">event contract and profile</a>
-for occurrence/observation time, evidence and unresolved-history distinctions.</p>
-<p>The JSONL tables reached through <code>data/expanded/</code> are authoritative for expanded
-records. These CSV files are derived from one pinned reviewed generation. They do
-not change the legacy moratorium denominator or establish new legal findings.
-<code>measure_results.csv</code> retains every observation; <code>measure_results_current.csv</code>
-excludes explicitly superseded observations while keeping separate county parts
-and other reporting scopes. It does not reduce a measure to a single result row.</p>
-<p>Null or absent fields become empty cells, never inferred zeroes. Arrays and objects
-remain compact JSON within CSV cells. Use JSONL when distinguishing null, absent
-fields and empty strings or restoring exact typed records. Empty CSV tables have
-headers; their presence is not evidence that research coverage is complete.</p>
-<!-- BEGIN EXPANDED CSV DOWNLOADS -->
+<p>This selects records listed as active or extended. It does not confirm that each restriction remains in effect.</p>
+<h2 id="state-policy-files">State policy files</h2>
+<p>The raw state tracker keeps all records, including historical actions and records outside infrastructure scope. Use <code>policy_instrument_type</code>, <code>policy_mechanism</code>, <code>legal_effect_status</code>, and <code>scope_of_action</code> to select the records your analysis needs.</p>
 <table>
 <thead>
 <tr>
-<th>CSV view</th>
+<th>Infrastructure review</th>
 <th style="text-align: right;">Records</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><a href="expanded-csv-snapshots/7b585b49998f8ca39b0ff433fe15c34335ea171bdd8960af1e7e9fdcf852f6cb/ballot_measures.csv">ballot_measures.csv</a></td>
-<td style="text-align: right;">57</td>
+<td>Included</td>
+<td style="text-align: right;">384</td>
 </tr>
 <tr>
-<td><a href="expanded-csv-snapshots/7b585b49998f8ca39b0ff433fe15c34335ea171bdd8960af1e7e9fdcf852f6cb/claims.csv">claims.csv</a></td>
-<td style="text-align: right;">625</td>
+<td>Excluded</td>
+<td style="text-align: right;">19</td>
 </tr>
 <tr>
-<td><a href="expanded-csv-snapshots/7b585b49998f8ca39b0ff433fe15c34335ea171bdd8960af1e7e9fdcf852f6cb/coverage_observations.csv">coverage_observations.csv</a></td>
-<td style="text-align: right;">1</td>
+<td>Still unresolved</td>
+<td style="text-align: right;">46</td>
 </tr>
 <tr>
-<td><a href="expanded-csv-snapshots/7b585b49998f8ca39b0ff433fe15c34335ea171bdd8960af1e7e9fdcf852f6cb/elections.csv">elections.csv</a></td>
-<td style="text-align: right;">51</td>
+<td>Not yet reviewed</td>
+<td style="text-align: right;">0</td>
 </tr>
 <tr>
-<td><a href="expanded-csv-snapshots/7b585b49998f8ca39b0ff433fe15c34335ea171bdd8960af1e7e9fdcf852f6cb/instrument_event_status.csv">instrument_event_status.csv</a></td>
-<td style="text-align: right;">12</td>
-</tr>
-<tr>
-<td><a href="expanded-csv-snapshots/7b585b49998f8ca39b0ff433fe15c34335ea171bdd8960af1e7e9fdcf852f6cb/instrument_events.csv">instrument_events.csv</a></td>
-<td style="text-align: right;">12</td>
-</tr>
-<tr>
-<td><a href="expanded-csv-snapshots/7b585b49998f8ca39b0ff433fe15c34335ea171bdd8960af1e7e9fdcf852f6cb/instrument_events_current.csv">instrument_events_current.csv</a></td>
-<td style="text-align: right;">12</td>
-</tr>
-<tr>
-<td><a href="expanded-csv-snapshots/7b585b49998f8ca39b0ff433fe15c34335ea171bdd8960af1e7e9fdcf852f6cb/jurisdictions.csv">jurisdictions.csv</a></td>
-<td style="text-align: right;">53</td>
-</tr>
-<tr>
-<td><a href="expanded-csv-snapshots/7b585b49998f8ca39b0ff433fe15c34335ea171bdd8960af1e7e9fdcf852f6cb/local_restrictions.csv">local_restrictions.csv</a></td>
-<td style="text-align: right;">3</td>
-</tr>
-<tr>
-<td><a href="expanded-csv-snapshots/7b585b49998f8ca39b0ff433fe15c34335ea171bdd8960af1e7e9fdcf852f6cb/measure_instrument_links.csv">measure_instrument_links.csv</a></td>
-<td style="text-align: right;">1</td>
-</tr>
-<tr>
-<td><a href="expanded-csv-snapshots/7b585b49998f8ca39b0ff433fe15c34335ea171bdd8960af1e7e9fdcf852f6cb/measure_provisions.csv">measure_provisions.csv</a></td>
-<td style="text-align: right;">52</td>
-</tr>
-<tr>
-<td><a href="expanded-csv-snapshots/7b585b49998f8ca39b0ff433fe15c34335ea171bdd8960af1e7e9fdcf852f6cb/measure_results.csv">measure_results.csv</a></td>
-<td style="text-align: right;">65</td>
-</tr>
-<tr>
-<td><a href="expanded-csv-snapshots/7b585b49998f8ca39b0ff433fe15c34335ea171bdd8960af1e7e9fdcf852f6cb/measure_results_current.csv">measure_results_current.csv</a></td>
-<td style="text-align: right;">53</td>
-</tr>
-<tr>
-<td><a href="expanded-csv-snapshots/7b585b49998f8ca39b0ff433fe15c34335ea171bdd8960af1e7e9fdcf852f6cb/review_decisions.csv">review_decisions.csv</a></td>
-<td style="text-align: right;">2756</td>
-</tr>
-<tr>
-<td><a href="expanded-csv-snapshots/7b585b49998f8ca39b0ff433fe15c34335ea171bdd8960af1e7e9fdcf852f6cb/search_attempts.csv">search_attempts.csv</a></td>
-<td style="text-align: right;">3</td>
-</tr>
-<tr>
-<td><a href="expanded-csv-snapshots/7b585b49998f8ca39b0ff433fe15c34335ea171bdd8960af1e7e9fdcf852f6cb/search_runs.csv">search_runs.csv</a></td>
-<td style="text-align: right;">1</td>
-</tr>
-<tr>
-<td><a href="expanded-csv-snapshots/7b585b49998f8ca39b0ff433fe15c34335ea171bdd8960af1e7e9fdcf852f6cb/search_sightings.csv">search_sightings.csv</a></td>
-<td style="text-align: right;">18</td>
-</tr>
-<tr>
-<td><a href="expanded-csv-snapshots/7b585b49998f8ca39b0ff433fe15c34335ea171bdd8960af1e7e9fdcf852f6cb/source_documents.csv">source_documents.csv</a></td>
-<td style="text-align: right;">168</td>
+<td>Exploratory candidate file</td>
+<td style="text-align: right;">430</td>
 </tr>
 </tbody>
 </table>
-<p><a href="expanded-csv-snapshots/7b585b49998f8ca39b0ff433fe15c34335ea171bdd8960af1e7e9fdcf852f6cb/manifest.json">Projection manifest</a> pins the source generation, schema, exporter and every file hash.</p>
-<!-- END EXPANDED CSV DOWNLOADS -->
-
-<p>The portable <code>data/expanded-csv</code> pointer selects an immutable directory under
-<code>data/expanded-csv-snapshots/</code>. Keep the pointer, selected directory and manifest
-together. Run <code>python3 scripts/build_expanded_csv.py</code> to regenerate or add <code>--check</code>
-to detect changed bytes, stale links or a mismatched source generation. The same
-checks run under <code>make data</code> and <code>make check</code>. Edit reviewed JSONL through the
-publication process, then regenerate; do not treat CSV edits as canonical changes.</p>
-<p>Reviewed duplicate retirements and original rows are retained in <a href="identities/legacy-moratoria.jsonl"><code>identities/legacy-moratoria.jsonl</code></a>. Resolve historical IDs using the <a href="../docs/legacy-moratorium-identities.md">legacy lookup rules</a>; current CSV totals exclude retired duplicate rows.</p>
+<p>The <a href="policy-scope/reviewed-included.csv">reviewed inclusion file</a> contains the included records. The <a href="policy-scope/all-annotated.csv">annotated file</a> keeps every record and its review decision. The <a href="policy-scope/not-explicitly-excluded-candidates.csv">candidate file</a> also includes unresolved records. It is intended for further research.</p>
+<p>Read the <a href="../docs/policy-scope-exports.html">scope definitions</a> before comparing totals. These are record counts, not counts of unique laws or confirmed current restrictions.</p>
+<h2 id="ballot-records">Ballot records</h2>
+<p>The ballot tracker has 57 proposals and measures. It keeps 65 result versions, including earlier reports. There are 53 current result reports for 52 measures. Some measures have no result, and one measure can have reports from more than one area.</p>
+<p>A reported result, certification, and legal effect are separate fields. Do not treat every approved measure as an effective moratorium. Some proposed measures remain outside the published tables because their identities or wording are unresolved. See <a href="../docs/ballot-results.html">ballot results</a> and <a href="../docs/known-gaps.html">known gaps</a>.</p>
+<p>The <code>expanded</code> and <code>expanded-csv</code> folders link to saved versions. Keep those links and their snapshot folders together when copying the complete dataset. The <a href="../docs/expanded-promotion.html">publication documentation</a> describes the file layout.</p>
+<h2 id="historical-text-analysis">Historical text analysis</h2>
+<p><a href="structured_extractions.jsonl">structured_extractions.jsonl</a> contains 526 successful model extractions and 338 recorded call errors. The earlier clause analysis used 348 extractions with model confidence scores of at least 0.4. Those scores are model assessments, not measured accuracy.</p>
+<p><a href="clause_extraction_analysis.json">clause_extraction_analysis.json</a> contains the earlier summary. The analysis predates April 28, 2026 and has not been repeated for every record in the current inventory.</p>
+<h2 id="versions-and-reuse">Versions and reuse</h2>
+<p>The current release is <a href="https://github.com/mjbommar/moratorium-data-2026/releases/tag/v2026.11.11.post11">v2026.11.11.post11</a>, published November 11, 2026. Some records still have open questions.</p>
+<p>Use a tagged release for work that others need to reproduce. The main branch may contain later corrections. Record source dates vary; the publication date does not mean every record was checked that day.</p>
+<p>The data is available under <a href="../LICENSE-data">CC BY 4.0</a>. Include the release version or access date when citing it.</p>
 </main>
 
 <footer>

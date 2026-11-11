@@ -1,117 +1,63 @@
-# Frequently Asked Questions
-
-## What is this dataset?
-
-A list of every local-government moratorium we could identify in the United States that targets one of these kinds of new development:
-
-- **Data centers** (server farms, including hyperscale and AI computing facilities)
-- **Cryptocurrency mining** facilities
-- **Battery energy storage systems** (BESS) — large lithium-ion installations
-- **Solar farms** (utility-scale)
-- **Wind farms** (utility-scale)
-
-The legacy inventory aims for one local moratorium instrument per row, including adopted and proposed actions. Some combined identities still need reconciliation. The original event-cohort cutoff was November 7, 2026 at 13:38:39.877065 UTC. The later [Starke historical-adoption publication](../work/research/2026-11-09/starke-expanded-review/README.md) carries separate observation and review timestamps. Source dates vary; neither clock establishes universal current legal force. Searches across all states do not establish complete coverage, including for the previously searched May–July window. Ballot measures are a separate layer.
+# Frequently asked questions
 
 ## What is a moratorium?
 
-A moratorium is a temporary pause that a local government places on accepting or approving permit applications for certain kinds of new development. Common features:
+A moratorium is a temporary pause on specified development applications or approvals. A city, county, or township may use the pause to study a proposed use or write land-use rules. The adopted text determines which projects and permits it covers.
 
-- **Time-limited.** Most run 6 to 12 months. Some go up to 24 months. A few are open-ended.
-- **Defined scope.** They cover only the specific kinds of projects named in the ordinance — not all development.
-- **Paired with a study process.** The local government typically commits to studying impacts and writing permanent rules during the pause.
-- **Adopted by ordinance or resolution.** A formal vote of a city council, county commission, township board, etc.
+## What does this project track?
 
-A moratorium is **not** a permanent ban. It is a temporary pause, intended to give regulators time to catch up.
+The local inventory has 1,328 records for data centers, battery storage, solar, wind, and cryptocurrency mining. It includes adopted actions, proposals, and actions that have ended.
 
-## Why are local governments doing this?
+The state tracker has 449 records. They include bills, resolutions, executive actions, and preliminary memos. Ballot measures are listed separately because they can address permanent restrictions or zoning changes as well as temporary pauses.
 
-The short version: **infrastructure is moving faster than zoning codes can adapt.**
+## Does “active” mean a restriction is still in effect?
 
-A typical hyperscale data center is 100+ megawatts of computing power, hundreds of thousands of square feet, with diesel backup generators, water-cooling systems, and electrical demand that can rival a small city. Most local zoning codes were written before this kind of facility existed and don't define it, classify it, or set standards for noise, water use, generator emissions, fire safety, or grid impact.
+It means the record is classified as active based on the sources we found. A later amendment, expiration, court order, or replacement law may change its effect. Read the record's notes and sources before relying on that status.
 
-Faced with a specific proposal, a local government has two choices: approve under inadequate rules, or pause to write new rules. The moratorium is the second option.
+## Does a moratorium block every permit?
 
-The same dynamic applies to battery storage (especially after the January 2025 Moss Landing fire), to large solar and wind installations, and to cryptocurrency mining sites.
+The scope depends on the adopted text. A pause may cover new applications, certain approvals, or only specified uses. Existing projects, small facilities, or other uses may be exempt. A proposal or first reading does not establish final adoption.
 
-## Why does this matter?
+## How long does a moratorium last?
 
-Three reasons:
+Terms vary, and some pauses are extended or replaced. The original term and the current end date are separate fields. We leave dates unknown when the available sources do not establish them.
 
-1. **Capital flow.** Announced data center capital commitments alone now exceed $1 trillion. Moratoria delay or block individual projects, with consequences for siting decisions, ratepayer costs, and regional economic development.
-2. **Climate transition.** Moratoria targeting solar, wind, and battery storage slow the buildout of clean-energy infrastructure that climate policy depends on.
-3. **Local democracy.** Moratoria are one of the most visible ways local governments push back against industries that have political support at the state and federal level. Tracking them maps a real political phenomenon.
+## What do the ballot totals mean?
 
-## How was this dataset compiled?
+The ballot tracker contains 57 proposals and measures. There are 53 current result reports for 52 measures; a measure can have reports from several areas.
 
-The original April collection used three phases; these document and extraction counts describe that historical cohort, not the November inventory:
+A yes vote may support a restriction, oppose a project, or approve a zoning change. Read the question's wording. A reported outcome, a certified count, and a law taking effect require separate evidence. Approval does not automatically add a moratorium to the local total.
 
-1. **Document collection.** AI-assisted research agents scanned municipal websites, agenda portals, board meeting minutes, planning commission records, state legislative databases, and news coverage across all 50 states. We collected approximately 4,400 original documents (PDFs, HTML pages, Word files), totaling ~12 GB.
-2. **Classification.** Each document was classified by type (ordinance, resolution, agenda, news article, etc.) and tagged for whether it was moratorium-related. About 709 documents are moratorium-related.
-3. **Structured extraction.** From the 709 moratorium documents, we used a large language model with a detailed schema to extract structured data: jurisdiction, dates, duration, sectors covered, exemptions, and 40+ other clause-level features. After confidence filtering, 348 instruments are coded line-by-line.
+## How was the data collected?
 
-The original extraction review checked jurisdiction names and state codes. The current working inventory has 1328 rows; this does not mean the historical clause-extraction process was rerun for every current row.
+We search government records and news reports, then check ordinances, resolutions, and meeting minutes where available. AI tools help find sources and organize suggested entries. Reviews record what the sources support and which questions remain open. See the [methodology](methodology.md).
 
-For full methodology, see [`methodology.md`](methodology.md).
+## What does a verification flag mean?
 
-## How accurate is the data?
+A `[VERIFY]` note identifies something we could not confirm, such as a date, ordinance number, vote, or later action. There are 978 local records with these flags. A record without a flag can still have unresolved details.
 
-**Confident on:** state, jurisdiction, jurisdiction type, sectors covered, approximate enactment date.
+## Does an omitted town have no moratorium?
 
-**Less confident on:** exact ordinance numbers (many small townships don't post numbered ordinances online), final dispositions of pending or recently-extended moratoria, exact dates within ±a few weeks for events the local government hasn't published minutes for.
+We may have missed it. Some local governments do not post searchable records. An unsuccessful search does not establish that no action occurred. If you find a missing record, [send a source through GitHub](https://github.com/mjbommar/moratorium-data-2026/issues/new/choose).
 
-**Where confidence is low**, we mark a row with `verify_notes` indicating exactly what's uncertain and why. We never invent dates, ordinance numbers, or vote counts.
+## Does inclusion mean the project supports or opposes the action?
 
-The mean confidence score on the 348 line-coded entries is **0.72** (range 0.40 to 0.95) on a 0-to-1 scale assigned by the language model.
+The inventory records government actions. Inclusion is not an endorsement or criticism of a moratorium or a development proposal.
 
-## My town is on the list — is that bad?
+## How current is the site?
 
-No, this is just an inventory of local-government action. A moratorium isn't a sign that something is wrong; it's a sign that your local government is actively managing land-use decisions. Many of the moratoria on this list have been replaced by permanent regulations within 6 to 12 months — exactly as intended.
+The current release is [v2026.11.11.post11](https://github.com/mjbommar/moratorium-data-2026/releases/tag/v2026.11.11.post11), published November 11, 2026. Some records still have open questions.
 
-## My town isn't on the list — does that mean we don't have a moratorium?
+The main November search ended November 7. Later checks have their own source dates. The [April paper](../paper/moratorium-nation-2026-04-30.pdf) describes the older dataset and has not been updated to match the site.
 
-It's possible we missed it. The dataset is built from publicly available records, and many small townships don't post agendas, minutes, or ordinances online. If you know of a moratorium we missed, [open an issue](https://github.com/mjbommar/moratorium-data-2026/issues/new?template=new-moratorium.md) and we'll add it in the next release.
+## Can I use the data?
 
-## Can I use this data for my own analysis / article / report?
+The data is available under [CC BY 4.0](../LICENSE-data). You can reuse it, including commercially, with attribution. Include the release version or access date in your citation. See [CITATION.cff](../CITATION.cff).
 
-Yes. The data is published under [Creative Commons Attribution 4.0](../LICENSE-data). You can reuse, redistribute, remix, and even use it commercially, as long as you credit the source. Suggested citation is in the [README](../README.md#how-to-cite).
+## Who maintains the project?
 
-If you publish something based on this data, we'd love to hear about it — drop a note in [Discussions](https://github.com/mjbommar/moratorium-data-2026/discussions) or email Michael directly.
+[Michael J. Bommarito](https://michaelbommarito.com/) maintains the project with AI-assisted research. The repository includes source records, review notes, and the code used to build the site.
 
-## How often is this updated?
+## How do I report a correction?
 
-The latest qualified release is [v2026.11.11.post11](https://github.com/mjbommar/moratorium-data-2026/releases/tag/v2026.11.11.post11), published November 11 with explicit ongoing QA. Two identical builds, eight full restore checks across 49 generations, ten public downloads and independent V45 checks pass. Website verification is pending; post10 remains the verified website edition. Original research cutoff and September baseline are unchanged.
-
-## Who built this?
-
-[Michael J. Bommarito](mailto:michael.bommarito@gmail.com), with substantial AI-assisted research. Methodology is fully documented and reproducible.
-
-## What if I disagree with how something is classified?
-
-Open an issue with the specific row and your reasoning. Classification rules are documented in [`codebook.md`](codebook.md); we'll either update the row or document the disagreement.
-
-## What's next on this dataset?
-
-The landing page, state pages and geocoded exports already exist. Remaining work
-includes source-qualified status/expiry review, unresolved ballot qualification
-and implementation, instrument-identity reconciliation, consumer updates and a
-verified versioned release. [Known gaps](known-gaps.md) records evidence limits.
-
-## How should I interpret ballot measures?
-
-The expanded publication contains 51 reviewed proposal and measure records (49 from the frozen cohort, Jay's solar ballot and a separate Wilmington litigated initiative), including advisory
-questions, temporary pauses, permanent restrictions and zoning questions. Seven
-additional candidate groups remain unresolved. A yes vote has different effects
-across measures; read the recorded wording, bindingness and yes direction.
-An unofficial result, certified vote count and legally operative restriction are
-separate observations. Ballot approval does not automatically increase the local
-moratorium count. See [reviewed results](ballot-results.md) and
-[scope and interpretation](ballot-measures.md).
-
-## Other questions?
-
-[Open a question issue](https://github.com/mjbommar/moratorium-data-2026/issues/new?template=question.md) or email [Michael](mailto:michael.bommarito@gmail.com).
-
-
-Historical post1 checkpoint: qualified v2026.11.11.post1 and consumer V35 delivered fourteen reviewed Baltimore/Hamilton/Brookhaven cells. Two identical builds, full clean restore, ten anonymous downloads, all 64 current HTML pages and desktop/mobile browser checks pass. Both changed map popups and all three state pages are verified. Headline counts/categories/native history are unchanged. Hamilton’s calculated anniversary and later-force questions remained qualified; 1,347 whole-record reviews were unresolved at that checkpoint. Complete final workflow artifact verification is recorded separately.
-
-Follow [CITATION.cff](../CITATION.cff) and the release metadata for citation. No DOI is asserted.
+[Open an issue](https://github.com/mjbommar/moratorium-data-2026/issues/new/choose) with the jurisdiction, record ID if available, and a source. The [codebook](codebook.md) explains the fields and status categories.

@@ -20,9 +20,9 @@ class BallotSummaryTests(unittest.TestCase):
         self.rows['ballot_measures'][measure['measure_id']] = measure
         before = copy.deepcopy(self.rows['measure_results'])
         text = render(self.rows, SNAPSHOT)
-        self.assertIn('3 reviewed measure records · 2 current result observations', text)
+        self.assertIn('3 measures and proposals · 2 current result reports', text)
         self.assertIn('Sector attribution remains unresolved for 1 measure', text)
-        self.assertIn('1 reviewed measure has no current result observation', text)
+        self.assertIn('1 measure has no current result report', text)
         self.assertIn('General zoning proposal', text)
         self.assertIn('Notice only; sector and outcome unresolved.', text)
         self.assertEqual(self.rows['measure_results'], before)
@@ -37,7 +37,7 @@ class BallotSummaryTests(unittest.TestCase):
         text=render(self.rows,SNAPSHOT)
         self.assertIn('## Linked restriction records',text)
         self.assertIn('proposes | accepted | Proposed prohibition | unknown | unknown | unknown',text)
-        self.assertIn('2 reviewed measure records',text)
+        self.assertIn('2 measures and proposals',text)
         self.assertIn('does not establish enactment or current force',text)
 
     def test_scheduled_measure_is_listed_without_creating_a_result(self):
@@ -50,8 +50,8 @@ class BallotSummaryTests(unittest.TestCase):
         self.rows['ballot_measures']['future-measure']=measure
         self.rows['elections']['future-election']=election
         text=render(self.rows,SNAPSHOT)
-        self.assertIn('3 reviewed measure records · 2 current result observations',text)
-        self.assertIn('1 reviewed measure has no current result observation',text)
+        self.assertIn('3 measures and proposals · 2 current result reports',text)
+        self.assertIn('1 measure has no current result report',text)
         self.assertIn('Future ordinance | 2026-12-15 | scheduled |',text)
         self.assertNotIn('2026-12-15 | scheduled | 0',text)
         self.assertEqual(len(self.rows['measure_results']),3)
@@ -63,9 +63,10 @@ class BallotSummaryTests(unittest.TestCase):
         self.rows['ballot_measures'][measure['measure_id']] = measure
         before = copy.deepcopy(self.rows['measure_results'])
         text = render(self.rows, SNAPSHOT)
-        self.assertIn('1 disqualified; 2 voted', text)
-        self.assertIn('3 reviewed measure records · 2 current result observations', text)
-        self.assertIn('Election date (held or intended)', text)
+        self.assertIn('| Disqualified | 1 |', text)
+        self.assertIn('| Voted | 2 |', text)
+        self.assertIn('3 measures and proposals · 2 current result reports', text)
+        self.assertIn('Election date (held or proposed)', text)
         self.assertIn('Separate proposed initiative', text)
         self.assertIn('disqualified |', text)
         self.assertEqual(self.rows['measure_results'], before)
@@ -84,7 +85,7 @@ class BallotSummaryTests(unittest.TestCase):
         self.assertIn('45 | 134',text)
         self.assertNotIn('151 | 1033',text)
         self.assertIn('scope not recorded',text)
-        self.assertIn('3 current result observations',text)
+        self.assertIn('3 current result reports',text)
 
     def setUp(self):
         errors,self.rows=validate(ROOT/'data/expanded-snapshots'/SNAPSHOT)
@@ -94,8 +95,8 @@ class BallotSummaryTests(unittest.TestCase):
 
     def test_explicit_supersession_excludes_old_row_but_keeps_history_count(self):
         text=render(self.rows,SNAPSHOT)
-        self.assertIn('2 current result observations',text)
-        self.assertIn('3 result observations are retained',text)
+        self.assertIn('2 current result reports',text)
+        self.assertIn('The data keeps 3 result versions',text)
         self.assertEqual(sum(line.startswith('| [Eliot') for line in text.splitlines()),1)
         self.assertIn('1565 | 791 | unknown | unknown',text)
 
@@ -108,9 +109,9 @@ class BallotSummaryTests(unittest.TestCase):
         measure=self.rows['ballot_measures'][self.result['measure_id']]
         measure.update(bindingness='advisory',yes_direction='facilitates')
         text=render(self.rows,SNAPSHOT)
-        self.assertIn('| Bindingness | Yes-vote direction |',text)
+        self.assertIn('| Binding or advisory | Effect of a yes vote |',text)
         self.assertIn('| advisory | facilitates | 1565 | 791 |',text)
-        self.assertIn('do not by themselves enact a restriction or authorize a project',text)
+        self.assertIn('it does not by itself enact a restriction or approve a project',text)
 
     def test_certification_does_not_resolve_measure_bindingness(self):
         self.rows['ballot_measures'][self.result['measure_id']]['bindingness']='unresolved'
@@ -124,7 +125,7 @@ class BallotSummaryTests(unittest.TestCase):
         other=copy.deepcopy(self.result);other.update(result_observation_id='synthetic-independent',yes_votes=1564,no_votes=792,certification_status='unofficial',certification_date=None)
         self.rows['measure_results'][other['result_observation_id']]=other
         text=render(self.rows,SNAPSHOT)
-        self.assertIn('3 current result observations',text)
+        self.assertIn('3 current result reports',text)
         self.assertEqual(sum(line.startswith('| [Sabattus') for line in text.splitlines()),2)
         self.assertIn('1564 | 792',text)
 

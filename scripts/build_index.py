@@ -166,39 +166,20 @@ CHANGES_END = "<!-- END whats-changed -->"
 
 
 def changes_section(f: dict) -> str:
-    """The release-notes block.
-
-    Delimited by HTML comments so it regenerates in place. Copy follows the
-    house style in ../book-template/docs/guides/STYLE.md: front-loaded claims,
-    active voice, varied sentence length, no filler transitions.
-    """
+    """Describe the update in plain American English; keep counts tied to data."""
     return f"""{CHANGES_START}
 <section class="release-notes">
-  <div class="stamp">{RELEASE_CONTEXT} v{RELEASE_VERSION} &middot; original cohort cutoff {SOURCE_LABEL} &middot; QA continues</div>
-  <h2>The November dataset update</h2>
-  <p class="lede">The inventory tracks {f['rows']} local inventory records across {f['states']} states.
-  Recorded classifications include {f['active']} active and {f['extended']} extended records,
-  {f['pending']} pending, {f['replaced']} replaced, {f['expired']} expired, {f['rescinded']} rescinded, {f['rejected']} rejected proposals and {f['unknown']} unknown.
-  Source dates vary by record; these totals do not establish freshly verified current legal force.</p>
-  <h3>Ballots and state policy have separate denominators</h3>
-  <p><a href="docs/ballot-results.html">Reviewed ballot results</a> distinguish vote observations,
-  certification and legal effect. Proposed initiatives and intended election dates do not establish
-  ballot appearance; recorded litigation is distinct from electoral defeat. Advisory questions, permanent prohibitions and site-specific
-  rezoning votes are not added to the local moratorium total merely because they concern data centers.
-  <a href="docs/known-gaps.html">Known gaps</a> retains unresolved candidates and instrument histories.</p>
-  <p>The state-policy tracker contains {f['state_policy_actions']} records spanning several mechanisms.
-  It is not a count of enacted state moratoria or a deduplicated count of independent bills.
-  Reviewed precursor memos and legislative resolutions have separate legal-form types; memo links
-  to numbered bills do not merge their identities. Compound rows and unresolved identity grains remain.
-  Read the typed mechanism, scope, legal-effect fields and documented identity gaps.</p>
-  <h3>Coverage and historical material</h3>
-  <p>Searches across all states do not establish a complete census. Later discovery found instruments
-  missed in earlier searches, including the May–July window. The April 2026 paper and older graphics
-  retain their own historical cohorts; they are not evidence of synchronization with this working data.
-  A published release and verified deployment remain separate deliverables.</p>
+  <div class="stamp">Updated {RELEASE_LABEL} &middot; v{RELEASE_VERSION}</div>
+  <h2>About this update</h2>
+  <p class="lede">The local inventory contains {f['rows']:,} records from {f['states']} states. It includes adopted moratoria, proposals, and actions that have ended.</p>
+  <p>The status of each record reflects the sources we found. Some dates and legal details remain unconfirmed. A record listed as active may have changed since its source was published.</p>
+  <h3>Local actions, state policy, and ballot measures</h3>
+  <p>We count these separately. State bills can change local authority or state permit rules without creating a local moratorium. Ballot measures can ask for a temporary pause, a permanent restriction, or a zoning change. A vote in favor does not always put a restriction into effect.</p>
+  <h3>What the search covers</h3>
+  <p>We searched all 50 states, but the inventory is not complete. The main November search ended {SOURCE_LABEL}. Later checks have added sources and corrected records. Each record keeps its source dates.</p>
+  <p>The <a href="paper/moratorium-nation-2026-04-30.pdf">April paper</a> describes the earlier dataset. Its findings have not been updated to match these records. See the <a href="docs/known-gaps.html">known gaps</a> for more detail.</p>
 </section>
 {CHANGES_END}"""
-
 
 DASHBOARD_START = '<!-- BEGIN dashboard-summaries -->'
 DASHBOARD_END = '<!-- END dashboard-summaries -->'
@@ -224,7 +205,7 @@ def dashboard_section(f: dict) -> str:
     amended = f['ballot_certification'].get('amended_certification', 0)
     if amended:
         certification.append(('Amended certification', amended))
-    forms = [(key.replace('_', ' ').capitalize(), count) for key, count in sorted(f['policy_forms'].items(), key=lambda item: (-item[1], item[0]))]
+    forms = [({'legislative_precursor':'Preliminary legislative memo','governor_directive':'Governor directive'}.get(key, key.replace('_', ' ').capitalize()), count) for key, count in sorted(f['policy_forms'].items(), key=lambda item: (-item[1], item[0]))]
     life = ', '.join(f"{count} {key.replace('_', ' ')}" for key, count in sorted(f['ballot_lifecycle'].items()))
     dispositions = _RELEASE['record_dispositions']
     unresolved = dispositions['unresolved']
@@ -243,157 +224,56 @@ def dashboard_section(f: dict) -> str:
 .dashboard-card svg {{ margin-bottom:12px; }}
 .qa-note {{ padding:16px;border-left:4px solid var(--accent);margin-top:22px; }}
 </style>
-<h2 id="dashboard-heading">Current data at a glance</h2>
-<p>The three trackers count different things. Local records are not added to policy observations or ballot measures.</p>
+<h2 id="dashboard-heading">What the data contains</h2>
+<p>The local inventory, state tracker, and ballot tracker have separate totals.</p>
 <div class="dashboard-grid">
-<div class="dashboard-card"><h3>Recorded local status</h3>{bars(status, 'Local status counts; tabulated below', '#3975b5')}
-<p>{f['rows']:,} inventory records; classifications do not certify current legal force.</p></div>
-<div class="dashboard-card"><h3>Ballot result observations</h3>{bars(certification, 'Certification status of current result observations; tabulated below', '#3a8c72')}
-<p><strong>{f['ballot_records']} proposal and measure records</strong>: {life}. There are {f['ballot_current_results']} current result observations across {f['ballot_result_measures']} measures and {f['ballot_retained_results']} retained result versions. {certified} current observations are certified.</p>
-<p>Multiple reporting scopes can belong to one measure. Certification is separate from approval and operative legal effect.</p>
-<a href="docs/ballot-results.html">Read every reviewed result and source →</a><br><a href="data/expanded-csv/measure_results_current.csv" download>Download current results CSV →</a></div>
+<div class="dashboard-card"><h3>Local record status</h3>{bars(status, 'Local records by status; values also appear in the table', '#3975b5')}
+<p>These are the statuses listed in the data. They do not confirm that every restriction is still in effect.</p></div>
+<div class="dashboard-card"><h3>Ballot results</h3>{bars(certification, 'Ballot result reports by certification status; values also appear in the table', '#3a8c72')}
+<p>We track <strong>{f['ballot_records']} proposals and ballot measures</strong>. The chart counts {f['ballot_current_results']} current result reports for {f['ballot_result_measures']} measures. One measure can have reports from more than one area.</p>
+<p>{certified} reports contain certified results. Certification confirms the reported vote; it does not by itself show that a restriction has taken effect. The data keeps {f['ballot_retained_results']} report versions, including earlier reports.</p>
+<a href="docs/ballot-results.html">Read the results and sources</a><br><a href="data/expanded-csv/measure_results_current.csv" download>Download results CSV</a></div>
 </div>
 <div class="dashboard-grid" style="margin-top:24px">
-{table('Local inventory', status, f['rows'], 'Recorded status, one category per local row.')}
-{table('State-policy forms', forms, f['state_policy_actions'], 'Raw observations, not a count of enacted restrictions or unique bills.')}
-{table('Ballot certification', certification, f['ballot_current_results'], 'Current result observations, including distinct reporting scopes.')}
+{table('Local inventory', status, f['rows'], 'Each local record appears in one status category.')}
+{table('State actions by type', forms, f['state_policy_actions'], 'State records by type. These are not all enacted laws or separate bills.')}
+{table('Ballot certification', certification, f['ballot_current_results'], 'Latest result reports. A measure may have reports from several areas.')}
 </div>
-<div class="qa-note"><strong>{unresolved:,} record reviews remain unresolved.</strong>
-{dispositions['corrected_resolved']:,} are corrected/resolved and {dispositions['confirmed_unchanged']:,} confirmed unchanged within their recorded review scopes. Searches do not establish a complete nationwide census. Original cohort cutoff: {SOURCE_LABEL}; targeted later captures have their own dates.
-<a href="docs/known-gaps.html">Read the limitations</a> and <a href="work/research/2026-11-09/post-release-qa/outstanding-record-questions.jsonl">download the remaining questions</a>.
-<a href="states/kentucky.html">Kentucky Executive Order 2026-494</a> is included as a historical policy observation; its later legal force remains unverified.</div>
+<div class="qa-note"><strong>{unresolved:,} records still have open questions.</strong>
+We completed reviews of {dispositions['corrected_resolved']:,} corrected records and {dispositions['confirmed_unchanged']:,} records that needed no changes. Other records still have questions about dates, wording, or later actions.
+<a href="docs/known-gaps.html">Read the limitations</a> or <a href="work/research/2026-11-09/post-release-qa/outstanding-record-questions.jsonl">download the remaining questions</a>.
+The state tracker includes historical actions such as <a href="states/kentucky.html">Kentucky Executive Order 2026-494</a>. Check each record for its date and status.</div>
 </section>
 {DASHBOARD_END}'''
 
 
 def build_edits(f: dict) -> list[tuple[str, str, str]]:
-    """(label, regex, replacement). Each regex must match exactly once."""
-    top_n = len(f["top"])
-    share = round(sum(n for _, n in f["top"]) * 100 / f["rows"])
-    # Prose reads better as a fraction than a percentage at this precision.
-    share_phrase = (
-        "four in five" if share >= 78 else
-        "three in four" if share >= 72 else
-        "two in three" if share >= 63 else
-        f"{share} percent"
-    )
+    """Update named elements so editorial changes do not break count checks."""
+    def node(ident, text):
+        return (ident, rf'(<[^>]+\bid="{ident}"[^>]*>).*?(</[^>]+>)', rf'\g<1>{text}\g<2>')
+    def meta(kind, name, text):
+        return (name, rf'(<meta {kind}="{name}" content=")[^"]*(">)', rf'\g<1>{text}\g<2>')
+    description = (f"Track {f['rows']:,} local moratorium records across {f['states']} states, "
+                   f"plus state policy and ballot measures. Updated {RELEASE_LABEL}.")
+    share = round(sum(n for _, n in f['top']) * 100 / f['rows'])
     return [
-        ("document title",
-         r'(<title>Moratorium Nation \| )\d+(?: Local Moratorium Records \+ State Data Center Restrictions| Local Records, State Policy &amp; Ballot Measures)</title>',
-         rf"\g<1>{f['rows']} Local Records, State Policy &amp; Ballot Measures</title>"),
-        ("share image width",
-         r'(<meta property="og:image:width" content=")\d+(">)',
-         rf"\g<1>{f['share_width']}\g<2>"),
-        ("share image height",
-         r'(<meta property="og:image:height" content=")\d+(">)',
-         rf"\g<1>{f['share_height']}\g<2>"),
-        ("meta description",
-         r'(<meta name="description" content="Open data and a 116-page working paper on )\d+( local-government moratorium records)',
-         rf"\g<1>{f['rows']}\g<2>"),
-        ("meta description date",
-         r'(cryptocurrency mining across the United States\. Updated )[A-Z][a-z]+(?: \d{1,2},)? \d{4}(\.")',
-         rf"\g<1>{RELEASE_LABEL}\g<2>"),
-        ("og:description",
-         r'(<meta property="og:description" content=")\d+( local moratorium records across )\d+( states)',
-         rf"\g<1>{f['rows']}\g<2>{f['states']}\g<3>"),
-        ("og:description date",
-         r'(state policy actions\. Open data, working cohort through )[A-Z][a-z]+ \d{1,2}, \d{4}(\.")',
-         rf"\g<1>{SOURCE_LABEL}\g<2>"),
-        ("twitter description date",
-         r'(state policy actions\. Updated )[A-Z][a-z]+ \d{1,2}, \d{4}(\.")',
-         rf"\g<1>{RELEASE_LABEL}\g<2>"),
-        ("json-ld dateModified",
-         r'("dateModified": ")\d{4}-\d{2}-\d{2}(")',
-         rf"\g<1>{RELEASE_ISO}\g<2>"),
-        ("og state-policy count",
-         r'(<meta property="og:description" content="[^\n]+, plus )\d+( state policy actions\.)',
-         rf"\g<1>{f['state_policy_actions']}\g<2>"),
-        ("twitter description",
-         r'(<meta name="twitter:description" content=")\d+( local moratorium records across )\d+( states, plus )\d+( state policy actions\.)',
-         rf"\g<1>{f['rows']}\g<2>{f['states']}\g<3>{f['state_policy_actions']}\g<4>"),
-        # The date lives in the hero eyebrow now, not the subtitle.
-        ("hero eyebrow date",
-         r'(<div class="eyebrow"><span class="dot"></span>Updated )[^<]*(</div>)',
-         rf"\g<1>{RELEASE_DATE}\g<2>"),
-        ("stat-total",
-         r'(<div class="num" id="stat-total">)\d+(</div>)',
-         rf"\g<1>{f['rows']}\g<2>"),
-        ("stat-in-force",
-         r'(<div class="num" id="stat-in-force">)\d+(</div>)',
-         rf"\g<1>{f['in_force']}\g<2>"),
-        ("stat-pending",
-         r'(<div class="num" id="stat-pending">)\d+(</div>)',
-         rf"\g<1>{f['pending']}\g<2>"),
-        ("stat-total delta",
-         r'(<div class="num" id="stat-total">\d+</div>)(?:\s*<div class="delta">[^<]*</div>)?',
-         rf'\g<1>\n    <div class="delta">was 222 in April</div>'),
-        ("stat-past",
-         r'(<div class="num" id="stat-past">)\d+(</div>)',
-         rf"\g<1>{f['past']}\g<2>"),
-        # This tile carries no id, so anchor on its label instead.
-        ("stat-states",
-         r'(<div class="num">)\d+(</div>\s*\n\s*<div class="label">States with at least one</div>)',
-         rf"\g<1>{f['states']}\g<2>"),
-        ("scope local count",
-         r'(<strong class="scope-number" id="scope-local-count">)\d+(</strong>)',
-         rf"\g<1>{f['rows']}\g<2>"),
-        ("scope state count",
-         r'(<strong class="scope-number" id="scope-state-count">)\d+(</strong>)',
-         rf"\g<1>{f['state_policy_actions']}\g<2>"),
-        ("state-policy form description",
-         r'(<strong class="scope-number" id="scope-state-count">\d+</strong>\s*)<p>[^<]*</p>',
-         rf"\g<1><p>{f['bills']} bills and {f['state_policy_actions'] - f['bills']} other policy observations, including executive actions, resolutions and precursor memos. These are not all enacted or binding.</p>"),
-        ("map caption",
-         r"(Map shows )\d+( of )\d+( records\.)",
-         rf"\g<1>{f['geocoded']}\g<2>{f['rows']}\g<3>"),
-        ("top-states heading",
-         r"(<h2>Top )\d+( states by moratorium count</h2>)",
-         rf"\g<1>{top_n}\g<2>"),
-        ("top-states lead",
-         r"(?:These|Thirteen|\w+) states hold roughly [\w -]+ of the records we have found\.",
-         f"{NUMBER_WORDS.get(top_n, str(top_n))} states hold roughly {share_phrase} of the "
-         f"records we have found."),
-        ("top-states rows",
-         r'(<div class="top-states">\n)(?:.*?\n)*?(  </div>)',
-         lambda: top_states_block(f["top"]) + r"\n\g<2>"),
-        ("all-states link",
-         r"(All )\d+( states with moratoria)",
-         rf"\g<1>{f['states']}\g<2>"),
-        ("csv row count",
-         r"(The )\d+(-row inventory as a CSV)",
-         rf"\g<1>{f['rows']}\g<2>"),
-        ("timeline caption",
-         r'<p class="caption">[^<]*</p>\s*<p class="source">.*?</p>',
-         '<p class="caption">Recorded dates in the current inventory, including unverified or scheduled dates. '
-         'Each row is counted once by its first recorded sector; dates do not establish adoption or current legal force.</p>\n'
-         '  <p class="source">Source: current <code>moratorium_inventory.csv</code>; see '
-         '<a href="docs/known-gaps.html">coverage and date limitations</a>.</p>'),
-        ("timeline alt text",
-         r'alt="Monthly (?:moratorium adoptions|recorded moratorium dates)[^"]*"',
-         'alt="Monthly recorded moratorium dates, stacked by first recorded sector, with cumulative dated-record total. Dates may be unverified or scheduled."'),
-        # The clause cohort is NOT the inventory -- it was collected before
-        # 2026-04-28 and covers 211 jurisdictions. Stating that inline stops the
-        # two numbers on this page being read as one.
-        ("clause cohort caveat",
-         r"\d+ moratorium texts have been read line by line against a 44-clause taxonomy; that "
-         r"sample predates 28 April 2026 and covers \d+ jurisdictions, so it describes what "
-         r"moratoria contain rather than all \d+ of them\.",
-         f"{f['cohort']} moratorium texts have been read line by line against a 44-clause "
-         f"taxonomy; that sample predates 28 April 2026 and covers "
-         f"{f['cohort_jurisdictions']} jurisdictions, so it describes what moratoria contain "
-         f"rather than all {f['rows']} of them."),
-        ("status snapshot",
-         r'This working snapshot (?:uses a|retains an original) cohort cutoff of <strong>[^<]+</strong>\. '
-         r'(?:Later additions retain their own observation and review dates\. )?'
-         r'(?:The latest tagged release remains|The latest qualified release is) <strong>v[0-9A-Za-z_.-]+</strong>\.',
-         f'This working snapshot retains an original cohort cutoff of <strong>{SOURCE_DATE}</strong>. '
-         'Later additions retain their own observation and review dates. '
-         f'The latest qualified release is <strong>v{RELEASE_VERSION}</strong>.'),
-        ("release qualifications link",
-         r'(<a href="https://github.com/mjbommar/moratorium-data-2026/releases/tag/)v[0-9A-Za-z_.-]+(">release qualifications</a>)',
-         rf'\g<1>v{RELEASE_VERSION}\g<2>'),
+        ('document title', r'<title>[^<]*</title>', ' <title>Moratorium Nation | Local Moratoria, State Policy, and Ballot Measures</title>'.lstrip()),
+        meta('name', 'description', description),
+        meta('property', 'og:description', description),
+        meta('name', 'twitter:description', description),
+        meta('property', 'og:image:width', f['share_width']),
+        meta('property', 'og:image:height', f['share_height']),
+        ('json-ld dateModified', r'("dateModified": ")[^"]*(")', rf'\g<1>{RELEASE_ISO}\g<2>'),
+        ('hero eyebrow date', r'(<div class="eyebrow"><span class="dot"></span>Updated )[^<]*(</div>)', rf'\g<1>{RELEASE_LABEL}\g<2>'),
+        *[node(ident, f[key]) for ident, key in [('stat-total','rows'),('stat-in-force','in_force'),('stat-pending','pending'),('stat-past','past'),('stat-states','states'),('scope-local-count','rows'),('scope-state-count','state_policy_actions')]],
+        node('state-policy-description', f"{f['bills']} bills and {f['state_policy_actions']-f['bills']} other records, including executive actions, resolutions, and preliminary memos. Many are proposals or historical actions."),
+        node('map-caption', f"The map shows {f['geocoded']:,} of {f['rows']:,} records. The other two describe groups of proposals rather than single places. Select a marker for details."),
+        node('top-states-lead', f"These states account for {share}% of the local records. Select a state to see its records."),
+        ('top-states rows', r'(<div class="top-states">\n)(?:.*?\n)*?(  </div>)', lambda: top_states_block(f['top']) + r'\n\g<2>'),
+        node('historical-sample', f"An earlier analysis examined {f['cohort']} moratorium texts from {f['cohort_jurisdictions']} jurisdictions, collected before April 28, 2026. Those findings have not been updated for the full inventory."),
+        node('source-dates', f"The main November search ended {SOURCE_LABEL}. Later source checks have their own dates. The current data release is v{RELEASE_VERSION}."),
+        ('release link', r'(<a id="release-link" href="https://github.com/mjbommar/moratorium-data-2026/releases/tag/)v[0-9A-Za-z_.-]+(">)', rf'\g<1>v{RELEASE_VERSION}\g<2>'),
     ]
-
 
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)

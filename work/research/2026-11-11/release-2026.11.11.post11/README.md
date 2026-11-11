@@ -1,7 +1,7 @@
-# Qualified post11 / V45 data delivered
+# November 11 update: St. Clair and Fort Collins
 
-Five prose fields across two local records are corrected. St. Clair Township, Butler County Ohio records reported commission actions while retaining final trustee approval as pending. Fort Collins, Colorado now distinguishes the completed October 6 adoption of Resolution 2026-117 from Ordinance 147’s October 20 first reading. Final adopted texts, ordinance passage/effect, operative intervals and later legal force remain qualified. No status, date, endpoint, count, VERIFY or native-history changes, and no whole-record closures. There remain 1,346 unresolved reviews.
+This release corrects five text fields in two records. St. Clair Township, Butler County, Ohio has reported commission approvals for a zoning amendment, with final trustee approval still pending. Fort Collins, Colorado adopted Resolution 2026-117 on October 6, and Ordinance 147 passed first reading on October 20. Final adopted texts, effective dates, later actions, and current legal effect still need confirmation. Status counts are unchanged.
 
-Two identical builds, eight full restore checks across 49 generations, ten public downloads and independent V45 checks pass. Website verification is pending; post10 remains the verified website edition.
+The public pages have also passed deployment checks. The review queue still has 1,346 open records.
 
-[Delta](dataset-delta.json) · [Build/assets](build-and-assets.json) · [Clean restore](clean-restore.json) · [Public downloads](public-verification.json).
+[Changes](dataset-delta.json) · [Build checks](build-and-assets.json) · [Restore checks](clean-restore.json) · [Download checks](public-verification.json).

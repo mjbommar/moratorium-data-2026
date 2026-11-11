@@ -1,9 +1,23 @@
 # Known gaps and limitations
 
-The November refresh is in progress. This page records evidence and coverage limits;
-record-level observations and `[VERIFY]` markers identify unresolved work.
+Some records have open questions about adoption, dates, wording, or later actions. The status listed in the data reflects the sources reviewed, which may not establish whether a restriction is still in effect.
 
-## What we know we don't have
+## Main limitations
+
+- **Coverage:** We searched all 50 states, but local actions may be missing. Some governments do not publish searchable records.
+- **Adoption and dates:** An agenda, draft, or first reading does not confirm final passage. Publication, filing, or another condition may determine when a restriction takes effect.
+- **Later changes:** An earlier adoption record does not resolve later amendments, extensions, replacements, or court orders.
+- **Ballots:** A reported vote, certification, and legal effect require separate evidence. The published list does not cover every election or proposed question.
+- **Map locations:** Markers identify jurisdictions, not project sites or legal boundaries. Some older coordinates still need review.
+- **Historical analysis:** The April paper and clause analysis describe an earlier collection. They have not been updated to match every record in the current inventory.
+
+Read the notes for the record you plan to use. The [review queue](../work/research/2026-11-09/post-release-qa/outstanding-record-questions.jsonl) lists the remaining questions. To report a correction, [open an issue](https://github.com/mjbommar/moratorium-data-2026/issues/new/choose) and include a source.
+
+## Research notes and earlier reviews
+
+The notes below retain the history of source checks and corrections. Some describe earlier versions of the data. Use the latest record and release metadata when a later review has changed a finding.
+
+### Detailed review notes
 
 
 ### Massachusetts energy-package addition
