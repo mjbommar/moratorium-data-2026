@@ -20,7 +20,7 @@
   "consumer_dispositions": "delivered_with_historical_editions_preserved",
   "experimental_extractor": "failed_no_automatic_promotion",
   "quality_gate_disposition": "User authorized publication of the current state with qualifications on pending QA, followed by continued double checking and resolution of outstanding questions.",
-  "reviewed_data_source_commit": "70b4d217dca964e28e70714a40cf90853edc36ea",
+  "reviewed_data_source_commit": "2ccf07089536a71cb43e3dbd846620853097dcd6",
   "record_dispositions": {
     "unresolved": 1347,
     "corrected_resolved": 191,
@@ -31,7 +31,7 @@
   "record_disposition_path": "work/research/2026-11-08/full-record-dispositions/funnel.json",
   "qa_status": "ongoing",
   "publication_authorization": "publish current state with qualifications on pending QA, then continue to double check and clear the outstanding questions",
-  "working_revision": "2026.11.11.post4-prepared",
+  "working_revision": "2026.11.11.post4-data-consumer-delivered-hosting-pending",
   "current_raw_counts": {
     "local": 1328,
     "state_policy": 449,
@@ -39,18 +39,18 @@
   },
   "prior_release": "v2026.11.11.post3",
   "prior_release_source_commit": "70b4d217dca964e28e70714a40cf90853edc36ea",
-  "prior_published_source_commit": "9d70e076fd6770e45cd7af2e28de5da5f4c91696",
-  "published_source_reference": "Qualified post3 pins 70b4d217dca964e28e70714a40cf90853edc36ea; identical builds, clean restore, ten anonymous downloads, V37 and all current hosted pages/browser checks verified. Initial hosted source 666fe28b4fcc5ed0f20d701b86bb2ed59b1e2cb1; receipt work/research/2026-11-11/release-2026.11.11.post3/hosted-copy-verification.json. Cedartown interval/lapse/laterforce and broader QA remain qualified.",
+  "prior_published_source_commit": "70b4d217dca964e28e70714a40cf90853edc36ea",
+  "published_source_reference": "Qualified post4 pins 2ccf07089536a71cb43e3dbd846620853097dcd6; identical builds, full clean restore, ten anonymous downloads and V38 verified. Hosted verification pending; post3 is prior verified site. East Whiteland endpoint/scope/later-force and broader QA remain qualified.",
   "latest_consumer_handoff": {
-    "source_commit": "70b4d217dca964e28e70714a40cf90853edc36ea",
-    "manifest_sha256": "224900b66777c19f7616b6c770c2a1ac0c42951f24cdc10a74333f7006692ec2",
+    "source_commit": "2ccf07089536a71cb43e3dbd846620853097dcd6",
+    "manifest_sha256": "7add3bfab9105d05604d9d706b1a5db0b5d02b4da8546c3a264095b0458b47d3",
     "trusted_verifier_sha256": "ebecf851d4196715df186cc81cc3c933ab7da550fbafd7207996cd94b9cd2739",
-    "scope": "Six Cedartown cells confirm October12Resolution22six-month extension. Active887/extended199 retain1086recorded in-force. Exact interval, any lapse and laterforce unresolved. No normalizeddate/endpoint, sector, identity or nativehistory changes or whole-record closures.",
-    "consumer_commit": "7e8f016660550a10147af18f9f38ac3927b2f569",
-    "receipt": "work/research/2026-11-11/post-release-qa/consumer-v37-handoff.json"
+    "scope": "Six East Whiteland original-resolution/date cells: exact March31 adoption and distinct April27 findings. No category, endpoint, headline or native changes. Replacement/endpoint proposals held; full independent ordinance-image expansion incomplete after orchestration failure; later force unresolved.",
+    "consumer_commit": "a6f6d2812895ed65e908f0296aab0f47a12bcb50",
+    "receipt": "work/research/2026-11-11/post-release-qa/consumer-v38-handoff.json"
   },
   "release_date_timezone": "America/New_York",
-  "published_source_commit": "70b4d217dca964e28e70714a40cf90853edc36ea",
+  "published_source_commit": "2ccf07089536a71cb43e3dbd846620853097dcd6",
   "september_status_category_differences": {
     "local": 100,
     "policy": 34,
@@ -59,24 +59,25 @@
   },
   "latest_geography_review": "work/research/2026-11-09/post-release-qa/nonblank-geography-application.json",
   "latest_delivered_consumer_input_delta": {
-    "baseline_release": "v2026.11.11.post2",
-    "baseline_source_commit": "9d70e076fd6770e45cd7af2e28de5da5f4c91696",
-    "baseline_handoff": "V36",
-    "receipt": "work/research/2026-11-11/post-release-qa/cedartown-operative-application.json",
+    "baseline_release": "v2026.11.11.post3",
+    "baseline_source_commit": "70b4d217dca964e28e70714a40cf90853edc36ea",
+    "baseline_handoff": "V37",
+    "receipt": "work/research/2026-11-11/post-release-qa/east-whiteland-operative-application.json",
     "receipts": [
-      "work/research/2026-11-11/post-release-qa/cedartown-operative-application.json"
+      "work/research/2026-11-11/post-release-qa/east-whiteland-operative-application.json"
     ],
     "changed_cells": 6,
     "changed_local_rows": 1,
     "changed_policy_rows": 0,
-    "status_category_changes": 1,
-    "normalized_date_changes": 0,
-    "scope": "Six Cedartown cells delivered in post3/V37 and verified current public pages. Approvedsixmonthextension, not exact interval/continuous/currentforce. Active887/extended199 retain1086inforce. Broader QA unresolved.",
-    "state": "delivered_data_consumer_and_hosted_verified",
-    "delivered_source_commit": "70b4d217dca964e28e70714a40cf90853edc36ea",
-    "delivered_consumer_commit": "7e8f016660550a10147af18f9f38ac3927b2f569",
-    "delivery_receipt": "work/research/2026-11-11/post-release-qa/consumer-v37-handoff.json",
-    "hosted_copy_state": "verified"
+    "status_category_changes": 0,
+    "normalized_date_changes": 1,
+    "normalized_date_precision_changes": 1,
+    "scope": "Six East Whiteland original/date cells delivered in post4/V38; current hosted verification pending. No category/endpoint changes. Replacement proposals held and full independent image expansion incomplete; broader QA unresolved.",
+    "state": "delivered_data_consumer_pending_hosted_verification",
+    "delivered_source_commit": "2ccf07089536a71cb43e3dbd846620853097dcd6",
+    "delivered_consumer_commit": "a6f6d2812895ed65e908f0296aab0f47a12bcb50",
+    "delivery_receipt": "work/research/2026-11-11/post-release-qa/consumer-v38-handoff.json",
+    "hosted_copy_state": "pending"
   },
   "latest_source_followup": "work/research/2026-11-11/post-release-qa/brookhaven-operative-application.json",
   "latest_expanded_candidate_review": "work/research/2026-11-09/starke-succession-review/validation.json",
@@ -100,23 +101,23 @@
     "scope": "Qualified policy-history succession only; no formal termination, overlap or current-force acceptance."
   },
   "prior_delivered_consumer_input_delta": {
-    "baseline_release": "v2026.11.11.post1",
-    "baseline_source_commit": "2fa6ae745f9535c428407a1b64129593bc94e60b",
-    "baseline_handoff": "V35",
-    "receipt": "work/research/2026-11-11/post-release-qa/clay-operative-application.json",
+    "baseline_release": "v2026.11.11.post2",
+    "baseline_source_commit": "9d70e076fd6770e45cd7af2e28de5da5f4c91696",
+    "baseline_handoff": "V36",
+    "receipt": "work/research/2026-11-11/post-release-qa/cedartown-operative-application.json",
     "receipts": [
-      "work/research/2026-11-11/post-release-qa/clay-operative-application.json"
+      "work/research/2026-11-11/post-release-qa/cedartown-operative-application.json"
     ],
-    "changed_cells": 4,
+    "changed_cells": 6,
     "changed_local_rows": 1,
     "changed_policy_rows": 0,
-    "status_category_changes": 0,
+    "status_category_changes": 1,
     "normalized_date_changes": 0,
-    "scope": "Four Clay prose corrections are delivered in post2 data, V36 and verified current public pages. Real computing/battery packet conflicts, filing association, interval and later force remain unresolved. No category/date/endpoint/sector/headline/native changes or closures.",
+    "scope": "Six Cedartown cells delivered in post3/V37 and verified current public pages. Approvedsixmonthextension, not exact interval/continuous/currentforce. Active887/extended199 retain1086inforce. Broader QA unresolved.",
     "state": "delivered_data_consumer_and_hosted_verified",
-    "delivered_source_commit": "9d70e076fd6770e45cd7af2e28de5da5f4c91696",
-    "delivered_consumer_commit": "99f3253af5b80016f77bff88314a5a626e2965f9",
-    "delivery_receipt": "work/research/2026-11-11/post-release-qa/consumer-v36-handoff.json",
+    "delivered_source_commit": "70b4d217dca964e28e70714a40cf90853edc36ea",
+    "delivered_consumer_commit": "7e8f016660550a10147af18f9f38ac3927b2f569",
+    "delivery_receipt": "work/research/2026-11-11/post-release-qa/consumer-v37-handoff.json",
     "hosted_copy_state": "verified"
   },
   "latest_field_application": "work/research/2026-11-11/post-release-qa/east-whiteland-operative-application.json",
@@ -131,16 +132,16 @@
   "latest_expanded_result_review": "work/research/2026-11-10/canterbury-minutes-result-review/coordinator-adjudication.json",
   "latest_verified_release": "v2026.11.11.post3",
   "source_observation_window_scope": "Acquisition range includes source-specific QA captures through November10; this does not renew every record or move the original comprehensive research_cutoff.",
-  "latest_download_verified_release": "v2026.11.11.post3",
+  "latest_download_verified_release": "v2026.11.11.post4",
   "prior_latest_consumer_handoff": {
-    "source_commit": "9d70e076fd6770e45cd7af2e28de5da5f4c91696",
-    "manifest_sha256": "9052fa27be4f6ff1e8b0238b137c2ba8530bec4dc9ca4f3fb0de43a03342936f",
+    "source_commit": "70b4d217dca964e28e70714a40cf90853edc36ea",
+    "manifest_sha256": "224900b66777c19f7616b6c770c2a1ac0c42951f24cdc10a74333f7006692ec2",
     "trusted_verifier_sha256": "ebecf851d4196715df186cc81cc3c933ab7da550fbafd7207996cd94b9cd2739",
-    "scope": "Four accepted Clay prose cells from originalpacket images. Actual battery/computingcover/attachment/certificate conflicts preserved. No normalizeddate/endpoint, sector, category, identity, headline or nativechanges/closures. Computingfilingassociation/interval/laterforce unresolved.",
-    "consumer_commit": "99f3253af5b80016f77bff88314a5a626e2965f9",
-    "receipt": "work/research/2026-11-11/post-release-qa/consumer-v36-handoff.json"
+    "scope": "Six Cedartown cells confirm October12Resolution22six-month extension. Active887/extended199 retain1086recorded in-force. Exact interval, any lapse and laterforce unresolved. No normalizeddate/endpoint, sector, identity or nativehistory changes or whole-record closures.",
+    "consumer_commit": "7e8f016660550a10147af18f9f38ac3927b2f569",
+    "receipt": "work/research/2026-11-11/post-release-qa/consumer-v37-handoff.json"
   },
-  "prior_published_source_reference": "Qualified post2 pins 9d70e076fd6770e45cd7af2e28de5da5f4c91696; deterministic builds, clean restore, ten anonymous downloads, V36 and all current hosted pages/browser checks verified. Initial hosted source 03c39c8c17f107dff3802f18c65cc82b2b67749d; receipt work/research/2026-11-11/release-2026.11.11.post2/hosted-copy-verification.json. Clay packet identity and broader QA remain qualified.",
+  "prior_published_source_reference": "Qualified post3 pins 70b4d217dca964e28e70714a40cf90853edc36ea; identical builds, clean restore, ten anonymous downloads, V37 and all current hosted pages/browser checks verified. Initial hosted source 666fe28b4fcc5ed0f20d701b86bb2ed59b1e2cb1; receipt work/research/2026-11-11/release-2026.11.11.post3/hosted-copy-verification.json. Cedartown interval/lapse/laterforce and broader QA remain qualified.",
   "latest_verified_hosted_data": {
     "release": "v2026.11.11.post3",
     "release_source_commit": "70b4d217dca964e28e70714a40cf90853edc36ea",
@@ -286,22 +287,13 @@
     "scope": "Every current HTML page and linked resource/download compared to pinned bytes. Actual desktop/mobile/dark map/table/browser checks include Clay popup and state prose, preserving packet conflicts. Full final artifact and acknowledgment recheck follows; not universal current-law/freshness certification."
   },
   "latest_independent_record_review": "work/research/2026-11-11/post-release-qa/east-whiteland-operative-application.json",
-  "pending_consumer_input_delta": {
-    "baseline_release": "v2026.11.11.post3",
-    "baseline_source_commit": "70b4d217dca964e28e70714a40cf90853edc36ea",
-    "baseline_handoff": "V37",
-    "receipt": "work/research/2026-11-11/post-release-qa/east-whiteland-operative-application.json",
-    "receipts": [
-      "work/research/2026-11-11/post-release-qa/east-whiteland-operative-application.json"
-    ],
-    "changed_cells": 6,
-    "changed_local_rows": 1,
-    "changed_policy_rows": 0,
-    "status_category_changes": 0,
-    "normalized_date_changes": 1,
-    "normalized_date_precision_changes": 1,
-    "scope": "Six exact historical/provenance cells: three prose plus date_enacted, normalized March31 and exactprecision. Original resolution acquisition/date gap resolved; scope, endpoint, replacement relationship and laterforce unresolved. No status, endpoint, numericdayvalue, sector, identity, headline or native governance changes. Pending next combined release/consumer/Pages batch; qualifiedpost3/V37 remains delivered."
-  },
   "prepared_release": "v2026.11.11.post4",
-  "prepared_release_qualifications": "Six EastWhiteland original-resolution/date corrections. Proposed replacement/endpoint held; full independent ordinance-image followup incomplete after orchestration failure. 1347reviews unresolved; delivery checks pending."
+  "prepared_release_qualifications": "Six EastWhiteland original-resolution/date corrections. Proposed replacement/endpoint held; full independent ordinance-image followup incomplete after orchestration failure. 1347reviews unresolved; delivery checks pending.",
+  "pending_hosted_delivery": {
+    "release": "v2026.11.11.post4",
+    "release_source_commit": "2ccf07089536a71cb43e3dbd846620853097dcd6",
+    "state": "verified_data_release_pending_full_site_deployment",
+    "receipt": "work/research/2026-11-11/release-2026.11.11.post4/public-verification.json",
+    "active_deployment_run": null
+  }
 }

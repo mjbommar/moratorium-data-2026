@@ -1,0 +1,287 @@
+{
+  "source_commit": "2ccf07089536a71cb43e3dbd846620853097dcd6",
+  "manifest_sha256": "7add3bfab9105d05604d9d706b1a5db0b5d02b4da8546c3a264095b0458b47d3",
+  "expanded_snapshot": "3ce33d22288fa7bc7100c9ac621c041037702e8370af1e663d53a548ff794725",
+  "current_counts": {
+    "moratorium_records": 1328,
+    "state_policy_records": 449,
+    "ballot_measures": 57,
+    "retained_results": 65,
+    "current_results": 53,
+    "retained_events": 12,
+    "current_accepted_historical_events": 12,
+    "restriction_records": 3,
+    "measure_instrument_link_records": 1
+  },
+  "files": 2745,
+  "entries": 2971,
+  "verified_at": "2026-11-11T09:30:37.092122+00:00",
+  "consumer_verification": {
+    "handoff": {
+      "state": "verified",
+      "source_commit": "2ccf07089536a71cb43e3dbd846620853097dcd6",
+      "manifest_sha256": "7add3bfab9105d05604d9d706b1a5db0b5d02b4da8546c3a264095b0458b47d3",
+      "expanded_snapshot": "3ce33d22288fa7bc7100c9ac621c041037702e8370af1e663d53a548ff794725",
+      "files": 2745,
+      "entries": 2971,
+      "checks": [
+        {
+          "command": [
+            "scripts/check_expanded_publication.py"
+          ],
+          "exit_code": 0,
+          "result": {
+            "state": "consistent",
+            "snapshot_sha256": "3ce33d22288fa7bc7100c9ac621c041037702e8370af1e663d53a548ff794725",
+            "generations_checked": 49,
+            "records": {
+              "jurisdictions": 53,
+              "elections": 51,
+              "ballot_measures": 57,
+              "measure_provisions": 52,
+              "measure_results": 65,
+              "local_restrictions": 3,
+              "instrument_events": 12,
+              "measure_instrument_links": 1,
+              "source_documents": 168,
+              "claims": 625,
+              "review_decisions": 2756,
+              "search_runs": 1,
+              "search_attempts": 3,
+              "search_sightings": 18,
+              "coverage_observations": 1
+            },
+            "scope": "Offline publication/receipt consistency only; no source reacquisition, renewed factual acceptance or current-force confirmation."
+          }
+        },
+        {
+          "command": [
+            "scripts/build_expanded_csv.py",
+            "--check"
+          ],
+          "exit_code": 0,
+          "result": {
+            "state": "matches",
+            "source_snapshot": "3ce33d22288fa7bc7100c9ac621c041037702e8370af1e663d53a548ff794725",
+            "projection_sha256": "7b585b49998f8ca39b0ff433fe15c34335ea171bdd8960af1e7e9fdcf852f6cb",
+            "csv_views": 18
+          }
+        },
+        {
+          "command": [
+            "scripts/build_policy_scope_exports.py",
+            "--check"
+          ],
+          "exit_code": 0,
+          "result": "policy-scope exports current"
+        }
+      ],
+      "checks_run": true,
+      "scope": "Pinned input integrity and offline publication consistency, not source reacquisition or downstream join acceptance."
+    },
+    "policy_semantics": {
+      "total_state_policy_actions": 449,
+      "total_state_bills": 427,
+      "state_policy_instrument_type_counts": {
+        "bill": 427,
+        "executive_order": 3,
+        "governor_directive": 1,
+        "legislative_amendment": 1,
+        "legislative_precursor": 3,
+        "legislative_resolution": 12,
+        "statute": 2
+      },
+      "top_states_by_bills": [
+        [
+          "Pennsylvania",
+          18
+        ],
+        [
+          "Virginia",
+          18
+        ],
+        [
+          "West Virginia",
+          18
+        ],
+        [
+          "Maryland",
+          16
+        ],
+        [
+          "New Jersey",
+          16
+        ],
+        [
+          "California",
+          14
+        ],
+        [
+          "South Dakota",
+          14
+        ],
+        [
+          "Arizona",
+          13
+        ],
+        [
+          "Iowa",
+          13
+        ],
+        [
+          "Michigan",
+          13
+        ],
+        [
+          "Minnesota",
+          12
+        ],
+        [
+          "Ohio",
+          12
+        ],
+        [
+          "Oklahoma",
+          12
+        ],
+        [
+          "Illinois",
+          11
+        ],
+        [
+          "Kansas",
+          11
+        ]
+      ],
+      "top_states_by_policy_actions": [
+        [
+          "Pennsylvania",
+          22
+        ],
+        [
+          "Virginia",
+          18
+        ],
+        [
+          "West Virginia",
+          18
+        ],
+        [
+          "Maryland",
+          17
+        ],
+        [
+          "New Jersey",
+          17
+        ],
+        [
+          "California",
+          14
+        ],
+        [
+          "Michigan",
+          14
+        ],
+        [
+          "South Dakota",
+          14
+        ],
+        [
+          "Arizona",
+          13
+        ],
+        [
+          "Iowa",
+          13
+        ],
+        [
+          "Kansas",
+          12
+        ],
+        [
+          "Minnesota",
+          12
+        ],
+        [
+          "Ohio",
+          12
+        ],
+        [
+          "Oklahoma",
+          12
+        ],
+        [
+          "Illinois",
+          11
+        ]
+      ]
+    }
+  },
+  "index_verification": {
+    "snapshot": "data/source-snapshots/moratoria/2026-11-11-reviewed-v38",
+    "source_commit": "2ccf07089536a71cb43e3dbd846620853097dcd6",
+    "manifest_sha256": "7add3bfab9105d05604d9d706b1a5db0b5d02b4da8546c3a264095b0458b47d3",
+    "tracked_files_and_symlinks": 2746,
+    "exact_staged_git_blob_bytes_and_modes": true,
+    "scope": "Exact staged snapshot content, Git modes and path set against the pinned manifest, including the manifest itself. This is not an independent legal review."
+  },
+  "baseline_handoff": "V37",
+  "expanded_tables_byte_identical": true,
+  "changed_cells": 6,
+  "changed_local_cells": 6,
+  "changed_policy_cells": 0,
+  "changed_local_rows": 1,
+  "changed_policy_rows": 0,
+  "new_policy_rows": 0,
+  "status_category_changes": 0,
+  "normalized_adoption_date_changes": 1,
+  "date_precision_changes": 1,
+  "normalized_endpoint_changes": 0,
+  "duration_kind_changes": 0,
+  "whole_record_closures": 0,
+  "unresolved_records": 1347,
+  "field_changes": [
+    {
+      "id": "pa-east-whiteland-township-2026",
+      "field": "date_enacted",
+      "before": "2026-03, East Whiteland Township Board of Supervisors vote to initiate a municipal curative amendment (Chester County); exact day not confirmed in sources reviewed",
+      "after": "Signed Resolution 2026-21 states that the Board of Supervisors adopted it at a public meeting on March 31, 2026. Signed Resolution 25-2026, adopted April 27, 2026, recites the March 31 approval and supplies the specific findings. Neither recovered resolution supplies a roll-call tally."
+    },
+    {
+      "id": "pa-east-whiteland-township-2026",
+      "field": "duration",
+      "before": "180-day municipal curative-amendment process; township chronology states a September 27, 2026 deadline. The original resolutions and the exact legal endpoint of the earlier protection require review.",
+      "after": "The previously reviewed township chronology describes a 180-day municipal curative-amendment process with a September 27, 2026 deadline. Resolution 2026-21 directs preparation of a separate findings resolution within 30 days; Resolution 25-2026 supplies those findings. The precise operative scope and endpoint of the earlier protection remain unresolved; the procedural deadlines do not alone establish a blanket permit moratorium interval."
+    },
+    {
+      "id": "pa-east-whiteland-township-2026",
+      "field": "legal_basis",
+      "before": "East Whiteland Township municipal curative amendment under the PA Municipalities Planning Code, developed with a resident working group beginning May 2026; a Sept. 24, 2026 public hearing was set to consider adoption of the resulting ordinance",
+      "after": "Signed East Whiteland Township Resolution 2026-21 (March 31, 2026), invoking municipal curative-amendment protection under MPC section 609.2, 53 P.S. 10609.2, declares partial zoning invalidity concerning data-center uses and energy-generation systems and directs preparation of a cure and findings. Signed Resolution 25-2026 (April 27, 2026) makes the specific findings and renews the direction to prepare a curative amendment; it is a distinct instrument, not a second original adoption date."
+    },
+    {
+      "id": "pa-east-whiteland-township-2026",
+      "field": "current_status",
+      "before": "The Board of Supervisors enacted Ordinance 385-2026 regulating data centers on September 24, 2026; its signed text states immediate effect. The township curative-amendment chronology identifies March 31 Resolution 21-2026, April 27 Resolution 25-2026, and a September 27 deadline. The earlier record reports withdrawal of the expanded Green Fig application in May; that remains an unverified historical lead in this review. September 25 reporting describes an existing project unaffected by the new ordinance. [VERIFY: original curative resolutions, scope and termination of protection, project approvals and later actions.]",
+      "after": "Signed Resolution 2026-21 establishes March 31, 2026 adoption of the municipal curative-amendment action; signed Resolution 25-2026 supplies the April 27 findings. Their original texts are now recovered. The previously reviewed record reports enactment of data-center zoning Ordinance 385-2026 on September 24 with immediate effect. [VERIFY: the precise scope and endpoint of the earlier curative protection and its relationship to Ordinance 385-2026, project approvals/withdrawal, later legal actions and actual applicability/current force.]"
+    },
+    {
+      "id": "pa-east-whiteland-township-2026",
+      "field": "date_enacted_iso",
+      "before": "2026-03",
+      "after": "2026-03-31"
+    },
+    {
+      "id": "pa-east-whiteland-township-2026",
+      "field": "date_enacted_uncertainty",
+      "before": "month_only",
+      "after": "exact"
+    }
+  ],
+  "trusted_verifier_sha256": "ebecf851d4196715df186cc81cc3c933ab7da550fbafd7207996cd94b9cd2739",
+  "scope": "Six East Whiteland original-resolution/date cells: exact March31 adoption and distinct April27 findings. No category, endpoint, headline or native changes. Replacement/endpoint proposals held; full independent ordinance-image expansion incomplete after orchestration failure; later force unresolved.",
+  "consumer_commit": "a6f6d2812895ed65e908f0296aab0f47a12bcb50",
+  "release_url": "https://github.com/mjbommar/moratorium-data-2026/releases/tag/v2026.11.11.post4",
+  "release_manifest_sha256": "d6467b9bf173133dcc846ded53e08b7cd05ea2bd6eb3acdbb55a9ee34a262127",
+  "hosted_copy_state": "pending"
+}

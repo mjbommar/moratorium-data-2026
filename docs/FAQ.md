@@ -79,7 +79,7 @@ If you publish something based on this data, we'd love to hear about it — drop
 
 ## How often is this updated?
 
-The latest qualified release is [v2026.11.11.post4](https://github.com/mjbommar/moratorium-data-2026/releases/tag/v2026.11.11.post4), prepared November 11 with explicit pending QA. Six East Whiteland fields recover original resolutions and the exact March 31 adoption date. Status/endpoint proposals remain held. Delivery checks pending; post3/V37 remains verified. [Release receipts](../work/research/2026-11-11/release-2026.11.11.post4/README.md).
+The latest qualified release is [v2026.11.11.post4](https://github.com/mjbommar/moratorium-data-2026/releases/tag/v2026.11.11.post4), published November 11 with explicit pending QA. Two identical builds, full clean restore, ten anonymous downloads and V38 pass. Hosted checks are pending; post3/V37 remains the last verified website edition. Original research cutoff and September baseline are unchanged. [Release receipts](../work/research/2026-11-11/release-2026.11.11.post4/README.md).
 
 ## Who built this?
 
