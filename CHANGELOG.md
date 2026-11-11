@@ -1,8 +1,8 @@
 # Changelog
 
-## Qualified v2026.11.11.post5 — website verification pending
+## Qualified v2026.11.11.post5
 
-Four Alachua prose corrections distinguish the September 14 motion (5–0) from the October 5 first reading (4–1). Final adoption, effectiveness and later force remain unresolved. Status, headline counts, dates, endpoints and native history are unchanged; 1,347 reviews remain unresolved. Two identical builds, full clean restore, ten anonymous downloads and V39 pass. Hosted checks are pending; post4/V38 remains the last verified website edition.
+Four Alachua prose corrections distinguish the September 14 motion (5–0) from the October 5 first reading (4–1). Final adoption, effectiveness and later force remain unresolved. Status, headline counts, dates, endpoints and native history are unchanged; 1,347 reviews remain unresolved. Two identical builds, full clean restore, ten anonymous downloads, V39 and current hosted desktop/mobile checks pass.
 
 | Metric | Qualified November 11 post5 |
 |---|---:|

@@ -1,10 +1,10 @@
 # Moratorium Data 2026
 
-**Qualified post5 data delivered; website checks pending:** [v2026.11.11.post5](https://github.com/mjbommar/moratorium-data-2026/releases/tag/v2026.11.11.post5) and V39 deliver four Alachua prose corrections. Two identical builds, full clean restore, ten anonymous downloads and V39 pass. Hosted checks are pending; post4/V38 remains the last verified website edition. Broader QA continues.
+**Qualified post5 release and website verified:** [v2026.11.11.post5](https://github.com/mjbommar/moratorium-data-2026/releases/tag/v2026.11.11.post5) and V39 deliver four Alachua prose corrections. Two identical builds, full clean restore, ten anonymous downloads, V39 and current hosted desktop/mobile checks pass. Broader QA continues.
 
 **Reviewed corrections:** Signed Mendocino Ordinances 4561 and 4562 establish historical adoption, votes, terms and literal threshold wording. Intended scope, later force and actual applicability remain qualified. Counts, categories, normalized dates and native history are unchanged. [Exact delta](work/research/2026-11-11/release-2026.11.11/dataset-delta.json).
 
-**Latest Alachua correction:** Four Alachua prose corrections distinguish the September 14 motion (5–0) from Ordinance 26-17 passing first reading on October 5 (4–1). Final adoption, effectiveness and later force remain unresolved. Status, normalized dates, endpoints, counts and native history are unchanged. There remain 1,347 unresolved reviews. Two identical builds, full clean restore, ten anonymous downloads and V39 pass. Hosted checks are pending; post4/V38 remains the last verified website edition. [Evidence](work/research/2026-11-11/post-release-qa/alachua-reading-review.md).
+**Latest Alachua correction:** Four Alachua prose corrections distinguish the September 14 motion (5–0) from Ordinance 26-17 passing first reading on October 5 (4–1). Final adoption, effectiveness and later force remain unresolved. Status, normalized dates, endpoints, counts and native history are unchanged. There remain 1,347 unresolved reviews. Two identical builds, full clean restore, ten anonymous downloads, V39 and current hosted desktop/mobile checks pass. [Evidence](work/research/2026-11-11/post-release-qa/alachua-reading-review.md).
 
 **Prior East Whiteland correction:** Six East Whiteland corrections recover both signed original resolutions, exact March 31 adoption and distinct April 27 findings. No status, endpoint or headline changes. Replacement/date proposals remain held; full independent ordinance-image follow-up is incomplete after orchestration failure. Later force remains unresolved. There remain 1,347 unresolved reviews. Two identical builds, full clean restore, ten anonymous downloads, V38 and current hosted desktop/mobile checks pass. [Evidence](work/research/2026-11-11/post-release-qa/east-whiteland-original-review.md).
 
@@ -184,7 +184,7 @@ A `CITATION.cff` file is included in the repo so GitHub renders a "Cite this rep
 - **Data** (`data/`, `states/`, `tables/`, `figures/`) is licensed under [Creative Commons Attribution 4.0 (CC-BY-4.0)](LICENSE-data). You can reuse, redistribute, and remix the data, including commercially, as long as you credit the source.
 - **Code** (`scripts/`, `notebooks/`, `examples/`) is licensed under the [MIT License](LICENSE-code).
 
-The latest qualified release is [v2026.11.11.post5](https://github.com/mjbommar/moratorium-data-2026/releases/tag/v2026.11.11.post5), published November 11 with explicit pending QA. Two identical builds, full clean restore, ten anonymous downloads and V39 pass. Hosted checks are pending; post4/V38 remains the last verified website edition. Original research cutoff and September baseline are unchanged. [Release receipts](work/research/2026-11-11/release-2026.11.11.post5/README.md).
+The latest qualified release is [v2026.11.11.post5](https://github.com/mjbommar/moratorium-data-2026/releases/tag/v2026.11.11.post5), published November 11 with explicit pending QA. Two identical builds, full clean restore, ten anonymous downloads, V39 and current hosted desktop/mobile checks pass. Original research cutoff and September baseline are unchanged. [Release receipts](work/research/2026-11-11/release-2026.11.11.post5/README.md).
 
 ---
 

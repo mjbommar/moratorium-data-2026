@@ -3,7 +3,7 @@
 Work from a pinned commit and retain the cohort cutoff separately from the date
 of an individual source review. Research jobs are not a substantive acceptance gate.
 
-Qualified post5/V39: Four Alachua prose corrections distinguish the September 14 motion (5–0) from Ordinance 26-17 passing first reading on October 5 (4–1). Final adoption, effectiveness and later force remain unresolved. Status, normalized dates, endpoints, counts and native history are unchanged. There remain 1,347 unresolved reviews. Two identical builds, full clean restore, ten anonymous downloads and V39 pass. Hosted checks are pending; post4/V38 remains the last verified website edition. [Receipts](../work/research/2026-11-11/release-2026.11.11.post5/README.md).
+Qualified post5/V39: Four Alachua prose corrections distinguish the September 14 motion (5–0) from Ordinance 26-17 passing first reading on October 5 (4–1). Final adoption, effectiveness and later force remain unresolved. Status, normalized dates, endpoints, counts and native history are unchanged. There remain 1,347 unresolved reviews. Two identical builds, full clean restore, ten anonymous downloads, V39 and current hosted desktop/mobile checks pass. [Receipts](../work/research/2026-11-11/release-2026.11.11.post5/README.md).
 
 The current qualified expanded snapshot tracks policy observations and 57 measure/proposal records, with 65 retained results and 53 current observations across 52 measures. This is separate from legacy moratorium counts and does not certify every result.
 

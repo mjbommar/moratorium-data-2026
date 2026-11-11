@@ -95,3 +95,6 @@ Latest delivery: [six Cedartown corrections](cedartown-extension-review.md) in q
 
 
 Latest delivery: [six East Whiteland original/date fields](east-whiteland-original-review.md) in qualified post4/V38 and verified current public pages. Replacement/endpoint proposals held; full independent image expansion incomplete. [Receipts](../release-2026.11.11.post4/README.md).
+
+
+Latest delivery: [four Alachua prose corrections](alachua-reading-review.md) in qualified post5/V39 and verified current public pages. Final adoption/effect and later force remain unresolved. [Receipts](../release-2026.11.11.post5/README.md).
