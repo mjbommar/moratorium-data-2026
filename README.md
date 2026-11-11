@@ -4,6 +4,8 @@
 
 **Reviewed corrections:** Signed Mendocino Ordinances 4561 and 4562 establish historical adoption, votes, terms and literal threshold wording. Intended scope, later force and actual applicability remain qualified. Counts, categories, normalized dates and native history are unchanged. [Exact delta](work/research/2026-11-11/release-2026.11.11/dataset-delta.json).
 
+**Working QA update:** Four reviewed Clay prose corrections recover the original mixed filing packet and preserve its computing/battery identity conflicts. They await the next combined batch; qualified post1/V35 remains delivered. [Evidence and remaining questions](work/research/2026-11-11/post-release-qa/clay-original-review.md).
+
 **Reviewed batch:** Completed disposition, executed term/scope and scanned state filing evidence correct three existing local records. Headline counts and categories are unchanged. [Review](work/research/2026-11-11/post-release-qa/hamilton-brookhaven-review.md) · [Release preparation](work/research/2026-11-11/release-2026.11.11.post1/README.md).
 
 **Reviewed correction:** Bonney Lake is classified as replaced with an October 13 end date. Four fields are corrected. [Release/download/V30 checks](work/research/2026-11-10/release-2026.11.10.post15/README.md) are verified; the complete website and updated Bonney Lake entry pass desktop/mobile and byte checks.

@@ -31,7 +31,7 @@
   "record_disposition_path": "work/research/2026-11-08/full-record-dispositions/funnel.json",
   "qa_status": "ongoing",
   "publication_authorization": "publish current state with qualifications on pending QA, then continue to double check and clear the outstanding questions",
-  "working_revision": "2026.11.11.post1-data-consumer-and-site-verified",
+  "working_revision": "clay-original-packet-four-fields-pending-batch",
   "current_raw_counts": {
     "local": 1328,
     "state_policy": 449,
@@ -124,7 +124,7 @@
     "delivery_receipt": "work/research/2026-11-11/post-release-qa/consumer-v34-handoff.json",
     "hosted_copy_state": "verified"
   },
-  "latest_field_application": "work/research/2026-11-11/post-release-qa/brookhaven-operative-application.json",
+  "latest_field_application": "work/research/2026-11-11/post-release-qa/clay-operative-application.json",
   "latest_hosted_delivery": {
     "source_commit": "2fa6ae745f9535c428407a1b64129593bc94e60b",
     "hosted_source_commit": "490ae0d5a1318a960492b396bca329c7b821edb2",
@@ -266,5 +266,20 @@
     "receipt": "work/research/2026-11-11/release-2026.11.11/hosted-copy-verification.json",
     "scope": "Every generated current HTML page, linked local resources, figures/current downloads and desktop/mobile map/table behavior verified. Corrected Mendocino map popup and state prose verified. Complete uploaded historical payload separately checked on final acknowledgment deployment. No universal current-force or freshness claim."
   },
-  "latest_independent_record_review": "work/research/2026-11-11/post-release-qa/brookhaven-operative-application.json"
+  "latest_independent_record_review": "work/research/2026-11-11/post-release-qa/clay-operative-application.json",
+  "pending_consumer_input_delta": {
+    "baseline_release": "v2026.11.11.post1",
+    "baseline_source_commit": "2fa6ae745f9535c428407a1b64129593bc94e60b",
+    "baseline_handoff": "V35",
+    "receipt": "work/research/2026-11-11/post-release-qa/clay-operative-application.json",
+    "receipts": [
+      "work/research/2026-11-11/post-release-qa/clay-operative-application.json"
+    ],
+    "changed_cells": 4,
+    "changed_local_rows": 1,
+    "changed_policy_rows": 0,
+    "status_category_changes": 0,
+    "normalized_date_changes": 0,
+    "scope": "Four Clay prose corrections from recovered6pagepacket. Historical signedresolutionreport and real battery/computingdocumentconflicts accepted; coherentfiledcomputinglaw/operativeinterval/laterforce remainunresolved. Counts/categories/nativehistoryunchanged. Accumulate nextreviewedbatch; qualifiedpost1/V35remainsdelivered."
+  }
 }

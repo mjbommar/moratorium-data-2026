@@ -77,3 +77,6 @@ legacy and ballot questions remain active.
 
 
 Post-delivery source follow-up: [Fairbanks November 10 hearing](fairbanks-post-hearing-review.md). A bounded search/meeting-API phase exposed a distinct packet route, but acquired no completed action or ordinance. One queue entry changes; canonical data and the verified public edition are unchanged.
+
+
+Working QA update: [four Clay original-packet prose corrections](clay-original-review.md) await the next combined batch. Primary-image evidence now replaces the third-party-only characterization, while the real computing/battery attachment conflict remains explicit. Counts/categories/native history are unchanged; qualified post1/V35 remains delivered.

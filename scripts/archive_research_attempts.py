@@ -15,7 +15,11 @@ ROOT = Path(__file__).resolve().parents[1]
 
 def public_source_url(url):
     parts=urlsplit(url)
-    if (parts.hostname or '').endswith(('.blob.core.windows.net','.blob.core.usgovcloudapi.net')) and 'sig' in parse_qs(parts.query):
+    host = parts.hostname or ''
+    query = parse_qs(parts.query)
+    signed_azure = host.endswith(('.blob.core.windows.net', '.blob.core.usgovcloudapi.net')) and 'sig' in query
+    signed_widen = host.endswith('.widencdn.net') and {'sig', 'sig.keyId', 'sig.expires'} <= query.keys()
+    if signed_azure or signed_widen:
         return urlunsplit((parts.scheme,parts.netloc,parts.path,'',''))
     return url
 

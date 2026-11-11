@@ -1,0 +1,130 @@
+{
+  "verified_at": "2026-11-11T07:39:14.540249+00:00",
+  "baseline_commit": "fde386ff71ddae2b9277a195166f6dde934104a8",
+  "changed_cells": 4,
+  "changed_local_rows": 1,
+  "field_changes": [
+    {
+      "id": "ny-clay-2026",
+      "field": "date_enacted",
+      "before": "Local Law No. 6 of 2026, adopted by the Clay Town Board at a Special Meeting held June 29, 2026 (unanimous 6-0 recorded vote), per the town's own filed Local Law text (NY Dept of State local law filing form).",
+      "after": "The signed June 30, 2026 Town Clerk certificate reports a June 29 special-meeting resolution approving a twelve-month computing moratorium, with six named members voting in favor. Its heading calls this the Battery Energy Storage System Law while its body describes data centers, AI and cryptocurrency; the packet does not reconcile that identity conflict."
+    },
+    {
+      "id": "ny-clay-2026",
+      "field": "duration",
+      "before": "Up to twelve (12) months",
+      "after": "The signed clerk certificate reports approval of a twelve-month computing moratorium. The attached operative Local Law 6 text instead imposes six months for solar battery storage after filing. A computing-law effective anchor and exact endpoint cannot be established from this mixed packet."
+    },
+    {
+      "id": "ny-clay-2026",
+      "field": "legal_basis",
+      "before": "A third-party transcription of a Town of Clay packet attributes a twelve-month data-center, AI and cryptocurrency moratorium to Local Law 6 of 2026; the same transcription also captions a six-month solar-battery law Local Law 6. Original packet, numbering and filing require verification.",
+      "after": "The recovered six-page Local Law 6 of 2026 packet bears a July 6, 2026 State Records filing stamp and Department of State index number 6. Its computing-moratorium cover title is struck through and says SEE ATTACHED; the attached operative pages are a six-month solar-battery moratorium. The signed June 30 clerk certificate has a battery-law heading but reports June 29 approval of a twelve-month data-center, AI and cryptocurrency moratorium. Correct instrument identity and the association of the filing with the computing moratorium remain unresolved."
+    },
+    {
+      "id": "ny-clay-2026",
+      "field": "current_status",
+      "before": "A third-party transcription reports a June 29, 2026 vote approving a twelve-month high-intensity computing moratorium. The source is not the original filing packet; filing, effective date, numbering and later force remain unverified. [VERIFY: original instrument and filing, identity and later action.]",
+      "after": "The recovered packet contains a signed clerk certificate reporting June 29, 2026 approval of the twelve-month computing moratorium, with six named members in favor; this is primary-image evidence rather than only the prior third-party transcription. The July 6 filing stamp, struck-through computing cover title, six-month battery-law attachment and inconsistent certificate heading do not establish a coherent filed computing law or its operative interval. [VERIFY correct computing instrument, filing association, effective anchor, later amendments and actual applicability/current force.]"
+    }
+  ],
+  "status_category_changes": 0,
+  "normalized_date_or_endpoint_changes": 0,
+  "sector_identity_or_scope_changes": 0,
+  "headline_and_verify_count_changes": 0,
+  "native_governance_changes": 0,
+  "whole_record_closures": 0,
+  "unresolved_records": 1347,
+  "changed_queue_records": [
+    "ny-clay-2026"
+  ],
+  "other_1346_queue_records_identical": true,
+  "map_changed_prose_fields": [
+    "date_enacted",
+    "duration"
+  ],
+  "new_source_fetch_operations": 2,
+  "provider_searches": 0,
+  "model_http_requests": 2,
+  "original_page_images_bound_per_model_request": 6,
+  "archive_source_pairs_read_back": 2,
+  "native_readback_gaps": 0,
+  "private_signed_rendition_url_not_published": true,
+  "focused_url_privacy_tests": {
+    "command": ".venv/bin/python -m unittest discover -s tests -p test_archive_source_urls.py -q",
+    "tests": 3,
+    "exit_code": 0
+  },
+  "checks": [
+    {
+      "command": [
+        "scripts/validate_dataset.py",
+        "--today",
+        "2026-11-11"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/build_policy_scope_exports.py",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/build_summary_stats.py",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/build_geojson.py",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/make_timeline.py",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/check_docs_numbers.py"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "-m",
+        "scripts.generate_tables.inventory_clean",
+        "--check"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "scripts/build_index.py",
+        "--check"
+      ],
+      "returncode": 0,
+      "initial_returncode": 1,
+      "correction": "Rebuild index current release/status/qualification spans after pendingmetadata update; repeat failed check only.",
+      "final_log_sha256": "4b453f57bc7d508eec5246a6f7e899e3d64d1c762526c6e147beff4cc826624e"
+    },
+    {
+      "command": [
+        "scripts/classify_sources.py",
+        "--check"
+      ],
+      "returncode": 0
+    }
+  ],
+  "frozen_review_ledger_unchanged": true,
+  "delivery_state": "Four Clay working prose corrections await next combined release/consumer/Pages batch. Qualifiedpost1/V35remains delivered. Realcomputing/battery packetidentity conflict, effectiveanchor and laterforce remain unresolved."
+}

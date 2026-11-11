@@ -602,16 +602,16 @@ State policy is tracked separately: **11 records** (10 typed bill rows and 1 non
 
 - **Type:** Town
 - **Recorded status:** 🟢 Active
-- **Date enacted:** Local Law No. 6 of 2026, adopted by the Clay Town Board at a Special Meeting held June 29, 2026 (unanimous 6-0 recorded vote), per the town's own filed Local Law text (NY Dept of State local law filing form).
+- **Date enacted:** The signed June 30, 2026 Town Clerk certificate reports a June 29 special-meeting resolution approving a twelve-month computing moratorium, with six named members voting in favor. Its heading calls this the Battery Energy Storage System Law while its body describes data centers, AI and cryptocurrency; the packet does not reconcile that identity conflict.
 - **Normalized date:** `2026-06-29` (exact)
-- **Duration:** Up to twelve (12) months
+- **Duration:** The signed clerk certificate reports approval of a twelve-month computing moratorium. The attached operative Local Law 6 text instead imposes six months for solar battery storage after filing. A computing-law effective anchor and exact endpoint cannot be established from this mixed packet.
 - **Current end date:** `—`
 - **Sectors:** data center, cryptocurrency mining
 - **Moratorium ID:** `ny-clay-2026`
-- **Legal basis:** A third-party transcription of a Town of Clay packet attributes a twelve-month data-center, AI and cryptocurrency moratorium to Local Law 6 of 2026; the same transcription also captions a six-month solar-battery law Local Law 6. Original packet, numbering and filing require verification.
+- **Legal basis:** The recovered six-page Local Law 6 of 2026 packet bears a July 6, 2026 State Records filing stamp and Department of State index number 6. Its computing-moratorium cover title is struck through and says SEE ATTACHED; the attached operative pages are a six-month solar-battery moratorium. The signed June 30 clerk certificate has a battery-law heading but reports June 29 approval of a twelve-month data-center, AI and cryptocurrency moratorium. Correct instrument identity and the association of the filing with the computing moratorium remain unresolved.
 - **What prompted it:** Preemptive townwide pause tied to anticipated development pressure around Micron Technology's planned semiconductor campus in neighboring areas; no data center projects had been proposed in Clay as of adoption.
 - **Affected projects:** None named; town officials said no data center projects had been proposed in Clay.
-- **Detailed status:** A third-party transcription reports a June 29, 2026 vote approving a twelve-month high-intensity computing moratorium. The source is not the original filing packet; filing, effective date, numbering and later force remain unverified. [VERIFY: original instrument and filing, identity and later action.]
+- **Detailed status:** The recovered packet contains a signed clerk certificate reporting June 29, 2026 approval of the twelve-month computing moratorium, with six named members in favor; this is primary-image evidence rather than only the prior third-party transcription. The July 6 filing stamp, struck-through computing cover title, six-month battery-law attachment and inconsistent certificate heading do not establish a coherent filed computing law or its operative interval. [VERIFY correct computing instrument, filing association, effective anchor, later amendments and actual applicability/current force.]
 - **Outcome:** Town Board approved a one-year moratorium on new data centers, AI computing facilities, cryptocurrency mining operations, and similar developments.
 
 ### Clymer
