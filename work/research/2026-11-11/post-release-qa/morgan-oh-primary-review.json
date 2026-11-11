@@ -1,0 +1,41 @@
+{
+  "id": "oh-morgan-township-butler-county-2026",
+  "dataset": "local_inventory",
+  "source_continuity": {
+    "path": "work/research/2026-11-11/post-release-qa/morgan-oh-primary-source-continuity.json",
+    "sha256": "65285f38ed5fa31f48dc250ae57e2282de9cc598011a30117b5a59f667e1c6d8"
+  },
+  "findings": [
+    "Official township index links its2026minutes to public Drive folder1QMX2UMZHNpFJnUuIRCee27O14IvVTg9a. Folder row identifies March23DOCX file1HpdVF7YrWNOHUSpBmPQkxd2e0WDOs5y4; downloaded original DOCX retained.",
+    "Minutes record March23,2026 meeting and Resolution25-2026 imposing twelve months from effective date; Day moved, Updike seconded, Day/Updike/Brucker all voted yes; approved.",
+    "Scope explicitly includes establishment/conversion and development/construction/use/change of use for data centers or data mining. Do not infer that all data mining means only cryptocurrency, or silently change sector taxonomy.",
+    "Twelve months is a calendar term; current duration_days365/fixed_days warrants correction review. Adoption date can be March23exact; effective date and endpoint remain distinct.",
+    "Observed folder listing contains minutes through August17,2026. This navigation observation does not establish no later minutes/actions exist; no individual later minutes were downloaded in this pass."
+  ],
+  "visual_review": {
+    "original_format": "DOCX",
+    "derived_pdf": "LibreOffice26.2.6.3 local rendering; not a township-published PDF",
+    "derived_pdf_sha256": "16319eae2e3430fcdc7f31c596ae9236a27ea73241c3f41e8c91f0fa1b34c9c3",
+    "derived_pdf_pages": 10,
+    "visually_inspected_physical_pages": [
+      7
+    ],
+    "page7_image_sha256": "1040ff158edee39f336d55738e9c0c5771031fa268cb4bc55eb16d21abb8b5e9",
+    "scope": "Resolution heading, term and full motion/rollcall visually checked. Original DOCX XML paragraphs extracted across full document; images not OCRed; no executed standalone resolution authenticated."
+  },
+  "remaining_questions": [
+    "Independently adjudicate exact adoption/number/scope/calendar-term corrections before canonical application.",
+    "Obtain standalone executed Resolution25-2026 and controlling effective-date anchor; exact endpoint unverified.",
+    "Inspect distinct later trustee actions, zoning adoption, extension/termination, litigation and current force. Do not repeat original minutes merely to recover established historical facts."
+  ],
+  "canonical_changes": 0,
+  "whole_record_closures": 0,
+  "search_queries": [
+    "Morgan Township Butler Ohio 2026 trustee minutes data center moratorium resolution",
+    "Morgan Township Butler County Ohio official minutes 2026 March 23",
+    "site:morgantownship.org 2026 minutes"
+  ],
+  "transport_notes": [
+    "Web tool could not open public GoogleDrivefolder. Ordinary urllib captured HTTP200 folder and normal public download using the file ID present in folder HTML; no login, challenge bypass or guessed IDs."
+  ]
+}
