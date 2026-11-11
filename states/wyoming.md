@@ -117,7 +117,7 @@ These are raw observations with separate legal forms and review scopes. A bill, 
 ### SF0091 (2026)
 
 - **Policy ID:** `wy-sf0091-2026`
-- **Sponsor / party:** Sen. Cheri Steinmetz; Sens. French and Pearson; Reps. Allemand, Bear, Kevin Campbell, Heiner, Neiman, Webber; R confirmed for Steinmetz, French, Allemand, Bear, Kevin Campbell, Heiner, Neiman and Webber in the official 2026 rosters. [VERIFY: the bill lists Senator Pearson, but identity and party are not established by the captured Senate roster.]
+- **Sponsor / party:** Sen. Cheri Steinmetz; Sens. French and Pearson; Reps. Allemand, Bear, Kevin Campbell, Heiner, Neiman, Webber; R confirmed for Steinmetz, French, Allemand, Bear, Kevin Campbell, Heiner, Neiman and Webber in the official 2026 rosters. Senator Pearson is identified as Laura Taliaferro Pearson, Republican, Senate District 14: the official 2026 profile uses Laura Taliaferro, while official state election and legislative publications supply the full name.
 - **Recorded status:** Failed introduction in Senate, 10-21-0-0-0, 2026-02-11 (final disposition for the 2026 budget session)
 - **Provisions:** "Wyoming Energy Project Accountability Act." Would require legislative approval before construction of industrial-scale generation facilities or large industrial power loads, including loads of 75 MW at one site or 100 MW across related facilities.
 - **Mechanism / scope:** other; unknown

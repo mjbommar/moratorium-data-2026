@@ -155,7 +155,7 @@ Top-level keys:
 
 - `total_local_moratoria`: 1328 — total rows in the inventory
 - `total_state_bills`: 427 — rows using the `bill` type in state_legislation.csv, excluding separately typed resolutions, precursors and amendments; not a deduplicated independent-bill count
-- `total_state_policy_actions`: 448 — all state-policy rows, including binding non-bill actions
+- `total_state_policy_actions`: 449 — all state-policy rows, including binding non-bill actions
 - `policy_scope_review`: additive four-way scope-review counts and explicitly labelled candidate-pool count. Raw headline totals remain historical observation counts. Only active reviewed include decisions establish scope inclusion; see the [scope export contract](policy-scope-exports.md). A scope decision does not establish current legal force or freshness.
 - `states_with_moratoria`: 47
 - `states_without_moratoria`: 3

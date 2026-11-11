@@ -2,9 +2,9 @@
 
 How this dataset was built, in plain English.
 
-Review accounting covers all 1776 raw records. The 1775 surviving original IDs
+Review accounting covers all 1777 raw records. The 1775 surviving original IDs
 have primary and independent source-review artifacts; one post-release Massachusetts
-observation has direct source review and pending independent QA. The original event
+observation has direct source review and pending independent QA. A second post-release addition, Kentucky Executive Order 2026-494, has independent historical field review; subsequent legal force remains unknown. The original event
 cutoff is November 7 at 13:38:39.877065 UTC; later captures and reviews carry separate
 timestamps. The later Starke restriction/adoption publication carries its own sealed
 review and row-observation clocks. Bounded review does not establish complete discovery
@@ -358,7 +358,7 @@ anything.
 
 ## Updates
 
-The November update is published as qualified release [v2026.11.10.post15](https://github.com/mjbommar/moratorium-data-2026/releases/tag/v2026.11.10.post15). Its source revision, deterministic assets, clean-restore replay and anonymous download checks are recorded in the [release receipts](../work/research/2026-11-10/release-2026.11.10.post15/README.md). Pending source-specific questions and current-force limits remain explicit. Historical version labels elsewhere describe prior work and do not establish a separate remote tag or DOI. No DOI is asserted.
+The November update is published as qualified release [v2026.11.10.post16](https://github.com/mjbommar/moratorium-data-2026/releases/tag/v2026.11.10.post16). Its source revision, deterministic assets, clean-restore replay and anonymous download checks are recorded in the [release receipts](../work/research/2026-11-10/release-2026.11.10.post16/README.md). Pending source-specific questions and current-force limits remain explicit. Historical version labels elsewhere describe prior work and do not establish a separate remote tag or DOI. No DOI is asserted.
 
 
 ## November collection and evidence review

@@ -7,7 +7,7 @@ Canonical records and reproducible derived downloads for this project.
 | File | What it is | Size | Format |
 |------|------------|------|--------|
 | [`moratorium_inventory.csv`](moratorium_inventory.csv) | 1328 local-moratorium records. **Start here.** | 1,836,092 bytes | CSV |
-| [`state_legislation.csv`](state_legislation.csv) | 448 state-policy records; mechanisms and legal effects vary | 375,943 bytes | CSV |
+| [`state_legislation.csv`](state_legislation.csv) | 449 state-policy records; mechanisms and legal effects vary | 378,806 bytes | CSV |
 | [`state_policy_scope_reviews.jsonl`](state_policy_scope_reviews.jsonl) | Reviewed analytical scope decisions; raw rows retained, applied by the separate scope exports | 1,377,585 bytes | JSONL |
 | [`summary_stats.json`](summary_stats.json) | Top-level aggregates (counts by state, by status, etc.) | 15,337 bytes | JSON |
 | [`structured_extractions.jsonl`](structured_extractions.jsonl) | 864 lines: 526 successful clause extractions + 338 LLM-call errors retained for transparency | ~2 MB | JSONL |
@@ -16,13 +16,13 @@ Canonical records and reproducible derived downloads for this project.
 
 ## State-policy scope downloads
 
-The raw state-policy CSV retains all 448 observations. The
-[reviewed inclusion export](policy-scope/reviewed-included.csv) contains 383
+The raw state-policy CSV retains all 449 observations. The
+[reviewed inclusion export](policy-scope/reviewed-included.csv) contains 384
 observations explicitly included in infrastructure scope; 19 are excluded and 46
 remain unresolved, with none unreviewed. The
 [annotated raw view](policy-scope/all-annotated.csv) preserves every observation
 and scope decision. The [candidate pool](policy-scope/not-explicitly-excluded-candidates.csv)
-contains 429 observations, including the unresolved cases. It is an exploratory
+contains 430 observations, including the unresolved cases. It is an exploratory
 pool, not an accepted infrastructure census. These counts concern observations,
 not unique instruments or verified current law. The [receipt](policy-scope/receipt.json)
 pins inputs, partitions and output hashes; see the [export contract](../docs/policy-scope-exports.md).

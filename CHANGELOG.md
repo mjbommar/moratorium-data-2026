@@ -1,5 +1,20 @@
 # Changelog
 
+## Qualified v2026.11.10.post16 — delivery pending
+
+Ten cells across eight existing policy records corrected after independent Terra review. Kansas SB51/SB92 gain July 1, 2026 effective dates; SB98 gains provision-specific purchase eligibility language. Washington summaries distinguish later refurbishment restrictions and the precisely qualified utility exception. Wyoming SF0091 sponsor affiliation is corroborated across official records. Louisiana HCR61 returns to failed classifications as a qualified historical regular-session nonpassage inference, closing its original disposition question; its last named action remains June 9.
+
+Added Kentucky Executive Order 2026-494 as a separately reviewed historical observation, effective August 6, 2026, with subsequent force unknown. It is not a categorical moratorium or blanket incentive repeal. Policy observations449, active raw IDs1777, reviewed includes384 and exploratory candidates430. There are1,347 unresolved,191 corrected-resolved and239 confirmed-unchanged reviews. September status-category differences133 (99 local,34 policy). Local totals and native ballot history are unchanged. [Application and evidence](work/research/2026-11-10/post-release-qa/policy-reviewed-batch-application.json).
+
+| Metric | Working reviewed policy batch |
+|---|---:|
+| Moratoria in the list | **1,328** |
+| Classified active or extended | **1,086** |
+| Pending or not yet effective | **64** |
+| Ended (replaced, expired, or rescinded) | **172** |
+| Rows we still want to confirm (`[VERIFY]`) | **979** |
+| States with at least one | **47** |
+
 ## Qualified v2026.11.10.post15
 
 Independent tool-free Terra review supports Bonney Lake’s replacement by Ordinance 1763 and October 13, 2026 end date. Four canonical cells changed: status prose, outcome, recorded category and end date. One record moves from active to replaced; no raw records, native history or whole-record dispositions change. The verified hosted/download release remains post14 until the next delivery. [Review/application](work/research/2026-11-10/post-release-qa/bonney-lake-reviewed-application.json).

@@ -774,7 +774,7 @@ These are raw observations with separate legal forms and review scopes. A bill, 
 - **Policy ID:** `wa-sb-5431-ssb-5431-2025-26`
 - **Sponsor / party:** Sen. Mark Schoesler; Republican prime sponsor
 - **Recorded status:** Passed Senate 2025-02-19 (48-0) and House 2025-04-16 (97-0); signed by Governor Ferguson 2025-05-20; enacted as Chapter 411, Laws of 2025, effective 2025-07-27
-- **Provisions:** Clarified administration of data center sales and use tax exemptions, including treatment of existing employment positions for qualifying refurbishment or newly eligible facilities.
+- **Provisions:** Clarified administration of data center sales and use tax exemptions, including treatment of existing employment positions for qualifying refurbishment or newly eligible facilities. Later 2026 chapter 266, section 2 amended RCW 82.08.986: the rural refurbishment-based exemption expires July 1, 2026, and new refurbishment certificates may not be issued on or after that date.
 - **Mechanism / scope:** other; fiscal
 - **Legal effect:** unknown
 - **Effective date:** 2025-07-27
@@ -786,7 +786,7 @@ These are raw observations with separate legal forms and review scopes. A bill, 
 - **Policy ID:** `wa-sb-5982-2025-26`
 - **Sponsor / party:** Sens. Victoria Hunt, Sharon Shewmake, Marko Liias, T'wina Nobles; Democrats
 - **Recorded status:** Passed Senate 2026-02-11 (30-19), passed House with amendments 2026-02-28 (57-37), Senate concurred 2026-03-10 (30-19); signed by Governor Ferguson 2026-03-24; enacted as Chapter 181, Laws of 2026, effective 2026-06-11
-- **Provisions:** Expands Clean Energy Transformation Act coverage to certain port districts, single-customer consumer-owned utilities, and affected market customers; committee reports describe the bill as closing data center clean-power compliance gaps.
+- **Provisions:** Expands Clean Energy Transformation Act coverage to certain port districts, single-customer consumer-owned utilities, and affected market customers; committee reports describe the bill as closing data center clean-power compliance gaps. The codified consumer-owned utility definition excludes a public utility district formed under Title 54 RCW with only one retail electric customer in Washington, provided that customer remains the same as of January 1, 2026 and the district continues receiving 100 percent of its electricity needs from Bonneville Power Administration.
 - **Mechanism / scope:** other; unknown
 - **Legal effect:** unknown
 - **Effective date:** 2026-06-11
@@ -810,7 +810,7 @@ These are raw observations with separate legal forms and review scopes. A bill, 
 - **Policy ID:** `wa-sb-6231-2025-26`
 - **Sponsor / party:** Sen. Noel Frame et al.; Ways and Means substitute; Democrat prime sponsor
 - **Recorded status:** Passed Senate 2026-02-28 (26-23) and House 2026-03-12 (51-46); signed by Governor Ferguson 2026-04-01; enacted as Chapter 266, Laws of 2026, effective 2026-06-11 (sections 2 and 3 effective 2026-07-01)
-- **Provisions:** Expires or narrows certain data center sales and use tax exemption certificates, including certificates for qualifying refurbished data centers; bill reports document industry opposition and state revenue/ratepayer arguments.
+- **Provisions:** Expires or narrows certain data center sales and use tax exemption certificates, including certificates for qualifying refurbished data centers; bill reports document industry opposition and state revenue/ratepayer arguments. Revenue’s June 3 rural and July 16 urban notices describe July 1, 2026 changes to refurbishment eligibility and exclusion of replacement server equipment; the rural notice expressly bars new refurbishment certificates on or after July 1.
 - **Mechanism / scope:** incentive_restriction; fiscal
 - **Legal effect:** unknown
 - **Effective date:** 2026-06-11

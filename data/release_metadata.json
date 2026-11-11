@@ -1,13 +1,13 @@
 {
-  "version": "2026.11.10.post15",
+  "version": "2026.11.10.post16",
   "release_date": "2026-11-10",
   "research_cutoff": "2026-11-07T13:38:39.877065+00:00",
   "source_observation_window": {
     "start": "2026-11-05",
     "end": "2026-11-10"
   },
-  "asset_name": "moratorium-data-2026.11.10.post15.tar.gz",
-  "coverage": "Original1777 records retain review provenance; two duplicates retired and one Massachusetts addition independently unreviewed. Current1776 active raw IDs:1347 unresolved,190 corrected-resolved,239 confirmed-unchanged scoped dispositions. No universal current-law certification.",
+  "asset_name": "moratorium-data-2026.11.10.post16.tar.gz",
+  "coverage": "Original1777 records retain review provenance; two duplicates retired and two post-release additions retained. Massachusetts independent QA remains pending; Kentucky historical order independently reviewed, later force unknown. Current1777 active raw IDs:1347 unresolved,191 corrected-resolved,239 confirmed-unchanged scoped dispositions. No universal current-law certification.",
   "limitations": [
     "Recorded active/extended classifications do not prove current enforceability.",
     "Ballot voting, certification, passage and operative legal effect remain distinct.",
@@ -23,7 +23,7 @@
   "reviewed_data_source_commit": "a7165fee6e433945a598222fedd95d7d2e300e70",
   "record_dispositions": {
     "unresolved": 1347,
-    "corrected_resolved": 190,
+    "corrected_resolved": 191,
     "confirmed_unchanged": 239,
     "superseded_duplicate": 0,
     "not_attempted": 0
@@ -31,14 +31,14 @@
   "record_disposition_path": "work/research/2026-11-08/full-record-dispositions/funnel.json",
   "qa_status": "ongoing",
   "publication_authorization": "publish current state with qualifications on pending QA, then continue to double check and clear the outstanding questions",
-  "working_revision": "post15-data-consumer-and-site-verified",
+  "working_revision": "post16-release-preparation",
   "current_raw_counts": {
     "local": 1328,
-    "state_policy": 448,
-    "total": 1776
+    "state_policy": 449,
+    "total": 1777
   },
-  "prior_release": "v2026.11.10.post14",
-  "prior_release_source_commit": "6518022eeff0f097b18b29224fde969677f842df",
+  "prior_release": "v2026.11.10.post15",
+  "prior_release_source_commit": "a7165fee6e433945a598222fedd95d7d2e300e70",
   "prior_published_source_commit": "4adc611e1a9ecc6be6438ab62ea5a1f28a482b93",
   "published_source_reference": "Qualified v2026.11.10.post15 pins a7165fee6e433945a598222fedd95d7d2e300e70; deterministic assets, clean restore, ten anonymous downloads, V30 and complete hosted copy verified. Hosted source 86f612767552ba6a467d62be630d86dc04e4d69e; receipt work/research/2026-11-10/release-2026.11.10.post15/hosted-copy-verification.json. Pending substantive QA remains explicit.",
   "latest_consumer_handoff": {
@@ -53,8 +53,8 @@
   "published_source_commit": "a7165fee6e433945a598222fedd95d7d2e300e70",
   "september_status_category_differences": {
     "local": 99,
-    "policy": 35,
-    "total": 134,
+    "policy": 34,
+    "total": 133,
     "receipt": "work/research/2026-11-09/post-release-qa/current-status-category-baseline-delta.json"
   },
   "latest_geography_review": "work/research/2026-11-09/post-release-qa/nonblank-geography-application.json",
@@ -147,7 +147,7 @@
     "receipt": "work/research/2026-11-10/release-2026.11.10.post15/hosted-copy-verification.json",
     "scope": "All generated HTML pages, local links/assets, figures/current downloads and live desktop/mobile browser/map/filter/Washington row verified. No universal source freshness or legal-force claim."
   },
-  "latest_disposition_review": "work/research/2026-11-10/post-release-qa/bonney-lake-independent-review.json",
+  "latest_disposition_review": "work/research/2026-11-10/post-release-qa/policy-reviewed-batch-application.json",
   "status_baseline_comparison": "work/research/2026-11-09/post-release-qa/current-status-category-baseline-delta.json",
   "hosted_delivery_history": [
     {
@@ -199,5 +199,19 @@
     "selected_files": 229,
     "receipt": "work/research/2026-11-10/release-2026.11.10.post14/hosted-copy-verification.json",
     "scope": "All public generated HTML pages, locally linked resources, all published figures/current downloads and live browser map/filter/table/mobile behavior verified. No universal factual freshness or legal-force claim."
+  },
+  "pending_consumer_input_delta": {
+    "state": "reviewed_canonical_delta_pending_release_and_consumer_handoff",
+    "receipt": "work/research/2026-11-10/post-release-qa/policy-reviewed-batch-application.json",
+    "prior_verified_release": "v2026.11.10.post15",
+    "canonical_cells_changed": 10,
+    "new_policy_records": 1,
+    "whole_record_closures": 1,
+    "scope": "Historical field corrections and Kentucky admission; later-force qualifications retained. Native history unchanged.",
+    "changed_cells": 10,
+    "changed_local_rows": 0,
+    "changed_policy_rows": 8,
+    "status_category_changes": 1,
+    "normalized_date_changes": 2
   }
 }

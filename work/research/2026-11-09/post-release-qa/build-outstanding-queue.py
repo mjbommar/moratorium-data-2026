@@ -45,10 +45,33 @@ def main():
         assert digest(Path(br['path']).read_bytes())==br['sha256']
         key=('local_inventory',bonney_application['id'])
         assert digest(json.dumps(current[key],sort_keys=True,separators=(',',':'),ensure_ascii=False).encode())==bonney_application['current_row_sha256']
+    policy_batch_path=Path('work/research/2026-11-10/post-release-qa/policy-reviewed-batch-application.json')
+    policy_batch=json.loads(policy_batch_path.read_text()) if policy_batch_path.exists() else None
+    policy_transitions={}
+    if policy_batch:
+        pin=policy_batch['candidate']
+        assert digest(Path(pin['path']).read_bytes())==pin['sha256']
+        for transition in policy_batch['records']:
+            key=('state_policy',transition['id'])
+            assert key not in policy_transitions
+            assert digest(json.dumps(current[key],sort_keys=True,separators=(',',':'),ensure_ascii=False).encode())==transition['current_row_sha256']
+            for pin in transition['independent_review_receipts']:
+                assert digest(Path(pin['path']).read_bytes())==pin['sha256']
+            policy_transitions[key]=transition
+    def source_disposition_guard(record):
+        actual=next(r for r in f['records'] if r['id']==record['id'])['disposition']
+        transition=policy_transitions.get(('state_policy',record['id']))
+        assert record['recommendation']=='unresolved'
+        if transition and transition['recommendation']=='corrected_resolved':
+            assert record['id']=='la-hcr61-2025-rs' and actual=='corrected_resolved'
+        else:
+            assert actual=='unresolved'
     def source_row_guard(key, expected):
         actual=digest(json.dumps(current[key],sort_keys=True,separators=(',',':'),ensure_ascii=False).encode())
         if bonney_application and key==('local_inventory',bonney_application['id']) and expected==bonney_application['prior_row_sha256']:
             assert actual==bonney_application['current_row_sha256']
+        elif key in policy_transitions and expected==policy_transitions[key]['prior_row_sha256']:
+            assert actual==policy_transitions[key]['current_row_sha256']
         else:
             assert actual==expected
     overlays={
@@ -88,7 +111,7 @@ def main():
         for record in json.loads(enacted.read_text())['records']:
             assert record['recommendation']=='unresolved' and record['questions_open']
             key=('state_policy',record['id'])
-            assert digest(json.dumps(current[key],sort_keys=True,separators=(',',':'),ensure_ascii=False).encode())==record['current_row_sha256']
+            source_row_guard(key, record['current_row_sha256'])
             overlays[record['id']]=[public_text(q) for q in record['questions_open']]
     cromwell_path=Path('work/research/2026-11-10/post-release-qa/cromwell-later-proposal-review.json')
     cromwell=json.loads(cromwell_path.read_text()) if cromwell_path.exists() else None
@@ -100,35 +123,35 @@ def main():
                 assert not record['whole_record_closure_recommended']
                 continue
             key=('local_inventory',record['id'])
-            assert digest(json.dumps(current[key],sort_keys=True,separators=(',',':'),ensure_ascii=False).encode())==record['current_row_sha256']
+            source_row_guard(key, record['current_row_sha256'])
             assert record['remaining_questions'] and not record['whole_record_closure_recommended']
             overlays[record['id']]=[public_text(q) for q in record['remaining_questions']]
     northport=args.output/'northport-adjudication.json'
     if northport.exists():
         record=json.loads(northport.read_text())
         key=('local_inventory',record['id'])
-        assert digest(json.dumps(current[key],sort_keys=True,separators=(',',':'),ensure_ascii=False).encode())==record['current_row_sha256']
+        source_row_guard(key, record['current_row_sha256'])
         assert record['recommendation']=='unresolved' and record['remaining_questions']
         overlays[record['id']]=[public_text(q) for q in record['remaining_questions']]
     colorado=args.output/'colorado-term-adjudications.json'
     if colorado.exists():
         for record in json.loads(colorado.read_text())['records']:
             key=('local_inventory',record['id'])
-            assert digest(json.dumps(current[key],sort_keys=True,separators=(',',':'),ensure_ascii=False).encode())==record['current_row_sha256']
+            source_row_guard(key, record['current_row_sha256'])
             assert record['recommendation']=='unresolved' and record['remaining_questions']
             overlays[record['id']]=[public_text(q) for q in record['remaining_questions']]
     va_wy=args.output/'va-wy-adjudications.json'
     if va_wy.exists():
         for record in json.loads(va_wy.read_text())['records']:
             key=('state_policy',record['id'])
-            assert digest(json.dumps(current[key],sort_keys=True,separators=(',',':'),ensure_ascii=False).encode())==record['current_row_sha256']
+            source_row_guard(key, record['current_row_sha256'])
             assert record['recommendation']=='unresolved' and record['remaining_questions']
             overlays[record['id']]=[public_text(q) for q in record['remaining_questions']]
     arizona=args.output/'arizona-final-adjudications.json'
     if arizona.exists():
         for record in json.loads(arizona.read_text())['records']:
             key=('state_policy',record['id'])
-            assert digest(json.dumps(current[key],sort_keys=True,separators=(',',':'),ensure_ascii=False).encode())==record['current_row_sha256']
+            source_row_guard(key, record['current_row_sha256'])
             if record['recommendation']=='unresolved':
                 assert record['remaining_questions']
                 overlays[record['id']]=[public_text(q) for q in record['remaining_questions']]
@@ -136,21 +159,21 @@ def main():
     if alabama.exists():
         for record in json.loads(alabama.read_text())['records']:
             key=('state_policy',record['id'])
-            assert digest(json.dumps(current[key],sort_keys=True,separators=(',',':'),ensure_ascii=False).encode())==record['current_row_sha256']
+            source_row_guard(key, record['current_row_sha256'])
             assert record['recommendation']=='unresolved' and record['remaining_questions']
             overlays[record['id']]=[public_text(q) for q in record['remaining_questions']]
     petersburg=args.output/'petersburg-followup.json'
     if petersburg.exists():
         record=json.loads(petersburg.read_text())
         key=('local_inventory',record['id'])
-        assert digest(json.dumps(current[key],sort_keys=True,separators=(',',':'),ensure_ascii=False).encode())==record['current_row_sha256']
+        source_row_guard(key, record['current_row_sha256'])
         assert record['recommendation']=='unresolved' and record['remaining_questions']
         overlays[record['id']]=[public_text(q) for q in record['remaining_questions']]
     foley=args.output/'foley-adjudication.json'
     if foley.exists():
         record=json.loads(foley.read_text())
         key=('local_inventory',record['id'])
-        assert digest(json.dumps(current[key],sort_keys=True,separators=(',',':'),ensure_ascii=False).encode())==record['current_row_sha256']
+        source_row_guard(key, record['current_row_sha256'])
         assert record['recommendation']=='unresolved' and record['remaining_questions']
         overlays[record['id']]=[public_text(q) for q in record['remaining_questions']]
     wy_code=args.output/'wyoming-current-tax-code-adjudications.json'
@@ -170,14 +193,14 @@ def main():
                 assert record['recommendation']==later['prior_disposition']=='unresolved'
                 continue  # Original guard is explicitly chained to the later guarded review below.
             key=('state_policy',record['id'])
-            assert digest(json.dumps(current[key],sort_keys=True,separators=(',',':'),ensure_ascii=False).encode())==record['current_row_sha256']
+            source_row_guard(key, record['current_row_sha256'])
             assert record['recommendation']=='unresolved' and record['remaining_questions']
             overlays[record['id']]=[public_text(q) for q in record['remaining_questions']]
     nebraska=args.output/'nebraska-retained-adjudication.json'
     if nebraska.exists():
         record=json.loads(nebraska.read_text())
         key=('state_policy',record['id'])
-        assert digest(json.dumps(current[key],sort_keys=True,separators=(',',':'),ensure_ascii=False).encode())==record['current_row_sha256']
+        source_row_guard(key, record['current_row_sha256'])
         assert record['recommendation']=='unresolved' and record['remaining_questions']
         overlays[record['id']]=[public_text(q) for q in record['remaining_questions']]
     lb613_introducer_path=Path('work/research/2026-11-10/post-release-qa/nebraska-lb613-introducer-review.json')
@@ -189,19 +212,19 @@ def main():
         if lb613_introducer:
             assert record['current_row_sha256']==lb613_introducer['prior_row_sha256']
         else:
-            assert digest(json.dumps(current[key],sort_keys=True,separators=(',',':'),ensure_ascii=False).encode())==record['current_row_sha256']
+            source_row_guard(key, record['current_row_sha256'])
         assert record['recommendation']=='unresolved' and record['remaining_questions']
         overlays[record['id']]=[public_text(q) for q in record['remaining_questions']]
     if lb613_introducer:
         record=lb613_introducer;key=('state_policy',record['id'])
-        assert digest(json.dumps(current[key],sort_keys=True,separators=(',',':'),ensure_ascii=False).encode())==record['current_row_sha256']
-        assert next(r for r in f['records'] if r['id']==record['id'])['disposition']==record['recommendation']=='unresolved'
+        source_row_guard(key, record['current_row_sha256'])
+        source_disposition_guard(record)
         overlays[record['id']]=[public_text(q) for q in record['remaining_questions']]
     ne_transfer=args.output/'nebraska-transfer-adjudications.json'
     if ne_transfer.exists():
         for record in json.loads(ne_transfer.read_text())['records']:
             key=('state_policy',record['id'])
-            assert digest(json.dumps(current[key],sort_keys=True,separators=(',',':'),ensure_ascii=False).encode())==record['current_row_sha256']
+            source_row_guard(key, record['current_row_sha256'])
             assert record['recommendation'] in ('unresolved','corrected_resolved')
             if record['recommendation']=='unresolved':
                 assert record['remaining_questions']
@@ -223,7 +246,7 @@ def main():
                 assert record['recommendation']==later['prior_disposition']=='unresolved'
                 continue  # Explicitly chained to the superseding guarded review below.
             key=('state_policy',record['id'])
-            assert digest(json.dumps(current[key],sort_keys=True,separators=(',',':'),ensure_ascii=False).encode())==record['current_row_sha256']
+            source_row_guard(key, record['current_row_sha256'])
             assert record['recommendation'] in ('unresolved','corrected_resolved','confirmed_unchanged')
             if record['recommendation']=='unresolved':
                 assert record['remaining_questions']
@@ -240,7 +263,7 @@ def main():
                 assert record.get('recommendation',record.get('existing_disposition'))==later['prior_disposition']
                 continue
             key=('state_policy',record['id'])
-            assert digest(json.dumps(current[key],sort_keys=True,separators=(',',':'),ensure_ascii=False).encode())==record['current_row_sha256']
+            source_row_guard(key, record['current_row_sha256'])
             assert record['recommendation'] in ('unresolved','corrected_resolved','confirmed_unchanged')
             assert next(r for r in f['records'] if r['id']==record['id'])['disposition']==record['recommendation']
             if record['recommendation']=='unresolved':
@@ -252,7 +275,7 @@ def main():
     if wv_authority.exists():
         for record in json.loads(wv_authority.read_text())['records']:
             key=('state_policy',record['id'])
-            assert digest(json.dumps(current[key],sort_keys=True,separators=(',',':'),ensure_ascii=False).encode())==record['current_row_sha256']
+            source_row_guard(key, record['current_row_sha256'])
             assert record['recommendation']=='unresolved' and record['remaining_questions']
             overlays[record['id']]=[public_text(q) for q in record['remaining_questions']]
     nh_text=args.output/'nh-text-adjudications.json'
@@ -264,7 +287,7 @@ def main():
                 assert record.get('recommendation',record.get('existing_disposition'))==later['prior_disposition']
                 continue
             key=('state_policy',record['id'])
-            assert digest(json.dumps(current[key],sort_keys=True,separators=(',',':'),ensure_ascii=False).encode())==record['current_row_sha256']
+            source_row_guard(key, record['current_row_sha256'])
             assert record['recommendation'] in ('unresolved','corrected_resolved')
             assert next(r for r in f['records'] if r['id']==record['id'])['disposition']==record['recommendation']
             if record['recommendation']=='unresolved':
@@ -281,56 +304,56 @@ def main():
                 assert record.get('recommendation',record.get('existing_disposition'))==later['prior_disposition']
                 continue
             key=('state_policy',record['id'])
-            assert digest(json.dumps(current[key],sort_keys=True,separators=(',',':'),ensure_ascii=False).encode())==record['current_row_sha256']
+            source_row_guard(key, record['current_row_sha256'])
             assert record['recommendation']=='corrected_resolved' and not record['remaining_questions']
             assert next(r for r in f['records'] if r['id']==record['id'])['disposition']=='corrected_resolved'
     covina=args.output/'covina-adjudication.json'
     if covina.exists():
         record=json.loads(covina.read_text())
         key=('local_inventory',record['id'])
-        assert digest(json.dumps(current[key],sort_keys=True,separators=(',',':'),ensure_ascii=False).encode())==record['current_row_sha256']
+        source_row_guard(key, record['current_row_sha256'])
         assert record['recommendation']=='unresolved' and record['remaining_questions']
         overlays[record['id']]=[public_text(q) for q in record['remaining_questions']]
     irwindale=args.output/'irwindale-adjudication.json'
     if irwindale.exists():
         record=json.loads(irwindale.read_text())
         key=('local_inventory',record['id'])
-        assert digest(json.dumps(current[key],sort_keys=True,separators=(',',':'),ensure_ascii=False).encode())==record['current_row_sha256']
+        source_row_guard(key, record['current_row_sha256'])
         assert record['recommendation']=='unresolved' and record['remaining_questions']
         overlays[record['id']]=[public_text(q) for q in record['remaining_questions']]
     monterey=args.output/'monterey-park-adjudication.json'
     if monterey.exists():
         record=json.loads(monterey.read_text())
         key=('local_inventory',record['id'])
-        assert digest(json.dumps(current[key],sort_keys=True,separators=(',',':'),ensure_ascii=False).encode())==record['current_row_sha256']
+        source_row_guard(key, record['current_row_sha256'])
         assert record['recommendation']=='unresolved' and record['remaining_questions']
         overlays[record['id']]=[public_text(q) for q in record['remaining_questions']]
     solano=args.output/'solano-adjudication.json'
     if solano.exists():
         record=json.loads(solano.read_text())
         key=('local_inventory',record['id'])
-        assert digest(json.dumps(current[key],sort_keys=True,separators=(',',':'),ensure_ascii=False).encode())==record['current_row_sha256']
+        source_row_guard(key, record['current_row_sha256'])
         assert record['recommendation']=='corrected_resolved' and not record['remaining_questions']
         assert next(r for r in f['records'] if r['id']==record['id'])['disposition']=='corrected_resolved'
     local_minutes=args.output/'coachella-vacaville-adjudications.json'
     if local_minutes.exists():
         for record in json.loads(local_minutes.read_text())['records']:
             key=('local_inventory',record['id'])
-            assert digest(json.dumps(current[key],sort_keys=True,separators=(',',':'),ensure_ascii=False).encode())==record['current_row_sha256']
+            source_row_guard(key, record['current_row_sha256'])
             assert record['recommendation']=='unresolved' and record['remaining_questions']
             overlays[record['id']]=[public_text(q) for q in record['remaining_questions']]
     washington=args.output/'washington-county-adjudication.json'
     if washington.exists():
         record=json.loads(washington.read_text())
         key=('local_inventory',record['id'])
-        assert digest(json.dumps(current[key],sort_keys=True,separators=(',',':'),ensure_ascii=False).encode())==record['current_row_sha256']
+        source_row_guard(key, record['current_row_sha256'])
         assert record['recommendation']=='corrected_resolved' and not record['remaining_questions']
         assert next(r for r in f['records'] if r['id']==record['id'])['disposition']=='corrected_resolved'
     kentucky=args.output/'kentucky-adjudications.json'
     if kentucky.exists():
         for record in json.loads(kentucky.read_text())['records']:
             key=('state_policy',record['id'])
-            assert digest(json.dumps(current[key],sort_keys=True,separators=(',',':'),ensure_ascii=False).encode())==record['current_row_sha256']
+            source_row_guard(key, record['current_row_sha256'])
             assert record['recommendation']=='corrected_resolved' and not record['remaining_questions']
             assert next(r for r in f['records'] if r['id']==record['id'])['disposition']=='corrected_resolved'
     oklahoma=args.output/'oklahoma-adjudications.json'
@@ -342,7 +365,7 @@ def main():
                 assert record.get('recommendation',record.get('existing_disposition'))==later['prior_disposition']
                 continue
             key=('state_policy',record['id'])
-            assert digest(json.dumps(current[key],sort_keys=True,separators=(',',':'),ensure_ascii=False).encode())==record['current_row_sha256']
+            source_row_guard(key, record['current_row_sha256'])
             assert next(r for r in f['records'] if r['id']==record['id'])['disposition']==record['recommendation']
             if record['recommendation']=='unresolved':
                 assert record['remaining_questions']
@@ -353,7 +376,7 @@ def main():
     if washington_session.exists():
         for record in json.loads(washington_session.read_text())['records']:
             key=('state_policy',record['id'])
-            assert digest(json.dumps(current[key],sort_keys=True,separators=(',',':'),ensure_ascii=False).encode())==record['current_row_sha256']
+            source_row_guard(key, record['current_row_sha256'])
             assert record['recommendation'] in ('corrected_resolved','confirmed_unchanged') and not record['remaining_questions']
             assert next(r for r in f['records'] if r['id']==record['id'])['disposition']==record['recommendation']
     txwv_links=args.output/'texas-wv-source-links-adjudications.json'
@@ -367,7 +390,7 @@ def main():
                 assert record['recommendation']==later['prior_disposition']
                 continue
             key=('state_policy',record['id'])
-            assert digest(json.dumps(current[key],sort_keys=True,separators=(',',':'),ensure_ascii=False).encode())==record['current_row_sha256']
+            source_row_guard(key, record['current_row_sha256'])
             assert next(r for r in f['records'] if r['id']==record['id'])['disposition']==record['recommendation']
             if record['recommendation']=='unresolved':
                 assert record['remaining_questions']
@@ -378,22 +401,22 @@ def main():
     if pennsylvania.exists():
         for record in json.loads(pennsylvania.read_text())['records']:
             key=('state_policy',record['id'])
-            assert digest(json.dumps(current[key],sort_keys=True,separators=(',',':'),ensure_ascii=False).encode())==record['current_row_sha256']
-            assert next(r for r in f['records'] if r['id']==record['id'])['disposition']==record['recommendation']=='unresolved'
+            source_row_guard(key, record['current_row_sha256'])
+            source_disposition_guard(record)
             assert record['remaining_questions']
             overlays[record['id']]=[public_text(q) for q in record['remaining_questions']]
     pa_history=args.output/'pennsylvania-history-adjudications.json'
     if pa_history.exists():
         for record in json.loads(pa_history.read_text())['records']:
             key=('state_policy',record['id'])
-            assert digest(json.dumps(current[key],sort_keys=True,separators=(',',':'),ensure_ascii=False).encode())==record['current_row_sha256']
+            source_row_guard(key, record['current_row_sha256'])
             assert next(r for r in f['records'] if r['id']==record['id'])['disposition']==record['recommendation']=='confirmed_unchanged'
             assert not record['remaining_questions']
     pa_house_history=args.output/'pennsylvania-house-history-adjudications.json'
     if pa_house_history.exists():
         for record in json.loads(pa_house_history.read_text())['records']:
             key=('state_policy',record['id'])
-            assert digest(json.dumps(current[key],sort_keys=True,separators=(',',':'),ensure_ascii=False).encode())==record['current_row_sha256']
+            source_row_guard(key, record['current_row_sha256'])
             assert next(r for r in f['records'] if r['id']==record['id'])['disposition']==record['recommendation']=='confirmed_unchanged'
             assert not record['remaining_questions']
     ny_history=args.output/'new-york-history-adjudications.json'
@@ -405,37 +428,37 @@ def main():
                 assert record.get('recommendation',record.get('existing_disposition'))==later['prior_disposition']
                 continue
             key=('state_policy',record['id'])
-            assert digest(json.dumps(current[key],sort_keys=True,separators=(',',':'),ensure_ascii=False).encode())==record['current_row_sha256']
+            source_row_guard(key, record['current_row_sha256'])
             assert next(r for r in f['records'] if r['id']==record['id'])['disposition']==record['recommendation']=='confirmed_unchanged'
             assert not record['remaining_questions']
     ma_amendment=args.output/'massachusetts-amendment-adjudication.json'
     if ma_amendment.exists():
         for record in json.loads(ma_amendment.read_text())['records']:
             key=('state_policy',record['id'])
-            assert digest(json.dumps(current[key],sort_keys=True,separators=(',',':'),ensure_ascii=False).encode())==record['current_row_sha256']
-            assert next(r for r in f['records'] if r['id']==record['id'])['disposition']==record['recommendation']=='unresolved'
+            source_row_guard(key, record['current_row_sha256'])
+            source_disposition_guard(record)
             assert record['remaining_questions']
             overlays[record['id']]=[public_text(q) for q in record['remaining_questions']]
     ma_proposal=args.output/'massachusetts-proposal-adjudications.json'
     if ma_proposal.exists():
         for record in json.loads(ma_proposal.read_text())['records']:
             key=('state_policy',record['id'])
-            assert digest(json.dumps(current[key],sort_keys=True,separators=(',',':'),ensure_ascii=False).encode())==record['current_row_sha256']
-            assert next(r for r in f['records'] if r['id']==record['id'])['disposition']==record['recommendation']=='unresolved'
+            source_row_guard(key, record['current_row_sha256'])
+            source_disposition_guard(record)
             assert record['remaining_questions']
             overlays[record['id']]=[public_text(q) for q in record['remaining_questions']]
     pa939=args.output/'pennsylvania-sb939-adjudication.json'
     if pa939.exists():
         for record in json.loads(pa939.read_text())['records']:
             key=('state_policy',record['id'])
-            assert digest(json.dumps(current[key],sort_keys=True,separators=(',',':'),ensure_ascii=False).encode())==record['current_row_sha256']
+            source_row_guard(key, record['current_row_sha256'])
             assert next(r for r in f['records'] if r['id']==record['id'])['disposition']==record['recommendation']=='confirmed_unchanged'
             assert not record['remaining_questions']
     ct_rules=args.output/'connecticut-rules-adjudications.json'
     if ct_rules.exists():
         for record in json.loads(ct_rules.read_text())['records']:
             key=('state_policy',record['id'])
-            assert digest(json.dumps(current[key],sort_keys=True,separators=(',',':'),ensure_ascii=False).encode())==record['current_row_sha256']
+            source_row_guard(key, record['current_row_sha256'])
             assert record['recommendation']=='unresolved'
             disposition=next(r for r in f['records'] if r['id']==record['id'])['disposition']
             if disposition!='unresolved':
@@ -454,7 +477,7 @@ def main():
                 assert record.get('recommendation',record.get('existing_disposition'))==later['prior_disposition']
                 continue
             key=('state_policy',record['id'])
-            assert digest(json.dumps(current[key],sort_keys=True,separators=(',',':'),ensure_ascii=False).encode())==record['current_row_sha256']
+            source_row_guard(key, record['current_row_sha256'])
             assert next(r for r in f['records'] if r['id']==record['id'])['disposition']==record['recommendation']
             assert record['recommendation'] in ('confirmed_unchanged','corrected_resolved') and not record['remaining_questions']
     nj_version=args.output/'new-jersey-version-adjudications.json'
@@ -466,37 +489,37 @@ def main():
                 assert record.get('recommendation',record.get('existing_disposition'))==later['prior_disposition']
                 continue
             key=('state_policy',record['id'])
-            assert digest(json.dumps(current[key],sort_keys=True,separators=(',',':'),ensure_ascii=False).encode())==record['current_row_sha256']
+            source_row_guard(key, record['current_row_sha256'])
             assert next(r for r in f['records'] if r['id']==record['id'])['disposition']==record['recommendation']=='corrected_resolved'
             assert not record['remaining_questions']
     nj_a5462=args.output/'new-jersey-a5462-adjudication.json'
     if nj_a5462.exists():
         for record in json.loads(nj_a5462.read_text())['records']:
             key=('state_policy',record['id'])
-            assert digest(json.dumps(current[key],sort_keys=True,separators=(',',':'),ensure_ascii=False).encode())==record['current_row_sha256']
+            source_row_guard(key, record['current_row_sha256'])
             assert next(r for r in f['records'] if r['id']==record['id'])['disposition']==record['recommendation']=='corrected_resolved'
             assert not record['remaining_questions']
     nj_bpu=args.output/'new-jersey-bpu-report-adjudication.json'
     if nj_bpu.exists():
         for record in json.loads(nj_bpu.read_text())['records']:
             key=('state_policy',record['id'])
-            assert digest(json.dumps(current[key],sort_keys=True,separators=(',',':'),ensure_ascii=False).encode())==record['current_row_sha256']
-            assert next(r for r in f['records'] if r['id']==record['id'])['disposition']==record['recommendation']=='unresolved'
+            source_row_guard(key, record['current_row_sha256'])
+            source_disposition_guard(record)
             assert record['remaining_questions']
             overlays[record['id']]=[public_text(q) for q in record['remaining_questions']]
     nj_final_law=args.output/'new-jersey-final-law-adjudications.json'
     if nj_final_law.exists():
         for record in json.loads(nj_final_law.read_text())['records']:
             key=('state_policy',record['id'])
-            assert digest(json.dumps(current[key],sort_keys=True,separators=(',',':'),ensure_ascii=False).encode())==record['current_row_sha256']
-            assert next(r for r in f['records'] if r['id']==record['id'])['disposition']==record['recommendation']=='unresolved'
+            source_row_guard(key, record['current_row_sha256'])
+            source_disposition_guard(record)
             assert record['remaining_questions']
             overlays[record['id']]=[public_text(q) for q in record['remaining_questions']]
     illinois=args.output/'illinois-adjudications.json'
     if illinois.exists():
         for record in json.loads(illinois.read_text())['records']:
             key=('state_policy',record['id'])
-            assert digest(json.dumps(current[key],sort_keys=True,separators=(',',':'),ensure_ascii=False).encode())==record['current_row_sha256']
+            source_row_guard(key, record['current_row_sha256'])
             assert next(r for r in f['records'] if r['id']==record['id'])['disposition']==record['recommendation']
             if record['recommendation']=='unresolved':
                 assert record['remaining_questions']
@@ -507,21 +530,21 @@ def main():
     if south_carolina.exists():
         for record in json.loads(south_carolina.read_text())['records']:
             key=('state_policy',record['id'])
-            assert digest(json.dumps(current[key],sort_keys=True,separators=(',',':'),ensure_ascii=False).encode())==record['current_row_sha256']
+            source_row_guard(key, record['current_row_sha256'])
             assert next(r for r in f['records'] if r['id']==record['id'])['disposition']==record['recommendation']=='confirmed_unchanged'
             assert not record['remaining_questions']
     ohio=args.output/'ohio-history-adjudications.json'
     if ohio.exists():
         for record in json.loads(ohio.read_text())['records']:
             key=('state_policy',record['id'])
-            assert digest(json.dumps(current[key],sort_keys=True,separators=(',',':'),ensure_ascii=False).encode())==record['current_row_sha256']
+            source_row_guard(key, record['current_row_sha256'])
             assert next(r for r in f['records'] if r['id']==record['id'])['disposition']==record['recommendation']
             assert record['recommendation'] in ('corrected_resolved','confirmed_unchanged') and not record['remaining_questions']
     wisconsin=args.output/'wisconsin-text-adjudications.json'
     if wisconsin.exists():
         for record in json.loads(wisconsin.read_text())['records']:
             key=('state_policy',record['id'])
-            assert digest(json.dumps(current[key],sort_keys=True,separators=(',',':'),ensure_ascii=False).encode())==record['current_row_sha256']
+            source_row_guard(key, record['current_row_sha256'])
             assert next(r for r in f['records'] if r['id']==record['id'])['disposition']==record['recommendation']=='corrected_resolved'
             assert not record['remaining_questions']
     mn_links=args.output/'minnesota-source-links-adjudications.json'
@@ -542,14 +565,14 @@ def main():
                 assert record['recommendation']==later['prior_disposition']=='corrected_resolved'
                 continue
             key=('state_policy',record['id'])
-            assert digest(json.dumps(current[key],sort_keys=True,separators=(',',':'),ensure_ascii=False).encode())==record['current_row_sha256']
+            source_row_guard(key, record['current_row_sha256'])
             assert next(r for r in f['records'] if r['id']==record['id'])['disposition']==record['recommendation']=='corrected_resolved'
             assert not record['remaining_questions']
     geography=args.output/'missing-geography-application.json'
     if geography.exists():
         for record in json.loads(geography.read_text())['records']:
             key=('local_inventory',record['id'])
-            assert digest(json.dumps(current[key],sort_keys=True,separators=(',',':'),ensure_ascii=False).encode())==record['current_row_sha256']
+            source_row_guard(key, record['current_row_sha256'])
             assert record['whole_record_disposition_unchanged'] and record['geography_question_resolved']
             if any(e['id']==record['id'] and e['disposition']=='unresolved' for e in f['records']):
                 assert record['remaining_questions']
@@ -558,21 +581,21 @@ def main():
     if az_context.exists():
         for record in json.loads(az_context.read_text())['records']:
             key=('state_policy',record['id'])
-            assert digest(json.dumps(current[key],sort_keys=True,separators=(',',':'),ensure_ascii=False).encode())==record['current_row_sha256']
+            source_row_guard(key, record['current_row_sha256'])
             assert next(r for r in f['records'] if r['id']==record['id'])['disposition']==record['recommendation']=='corrected_resolved'
             assert not record['remaining_questions']
     ct_outcomes=args.output/'connecticut-session-outcome-adjudications.json'
     if ct_outcomes.exists():
         for record in json.loads(ct_outcomes.read_text())['records']:
             key=('state_policy',record['id'])
-            assert digest(json.dumps(current[key],sort_keys=True,separators=(',',':'),ensure_ascii=False).encode())==record['current_row_sha256']
+            source_row_guard(key, record['current_row_sha256'])
             assert next(r for r in f['records'] if r['id']==record['id'])['disposition']==record['recommendation']=='corrected_resolved'
             assert not record['remaining_questions']
     wv_comparison=args.output/'west-virginia-comparison-adjudications.json'
     if wv_comparison.exists():
         for record in json.loads(wv_comparison.read_text())['records']:
             key=('state_policy',record['id'])
-            assert digest(json.dumps(current[key],sort_keys=True,separators=(',',':'),ensure_ascii=False).encode())==record['current_row_sha256']
+            source_row_guard(key, record['current_row_sha256'])
             assert next(r for r in f['records'] if r['id']==record['id'])['disposition']==record['existing_disposition']
             assert record['whole_record_disposition_unchanged']
             if record['existing_disposition']=='unresolved':
@@ -582,22 +605,22 @@ def main():
     if sedgwick.exists():
         for record in json.loads(sedgwick.read_text())['records']:
             key=('local_inventory',record['id'])
-            assert digest(json.dumps(current[key],sort_keys=True,separators=(',',':'),ensure_ascii=False).encode())==record['current_row_sha256']
+            source_row_guard(key, record['current_row_sha256'])
             assert next(r for r in f['records'] if r['id']==record['id'])['disposition']==record['existing_disposition']=='unresolved'
             assert record['remaining_questions']
             overlays[record['id']]=[public_text(q) for q in record['remaining_questions']]
     sedgwick_publication=args.output/'sedgwick-publication-adjudication.json'
     if sedgwick_publication.exists():
         record=json.loads(sedgwick_publication.read_text());key=('local_inventory',record['id'])
-        assert digest(json.dumps(current[key],sort_keys=True,separators=(',',':'),ensure_ascii=False).encode())==record['current_row_sha256']
-        assert next(r for r in f['records'] if r['id']==record['id'])['disposition']==record['recommendation']=='unresolved'
+        source_row_guard(key, record['current_row_sha256'])
+        source_disposition_guard(record)
         assert record['remaining_questions']
         overlays[record['id']]=[public_text(q) for q in record['remaining_questions']]
     oshtemo=args.output/'oshtemo-followup-adjudications.json'
     if oshtemo.exists():
         for record in json.loads(oshtemo.read_text())['records']:
             key=('local_inventory',record['id'])
-            assert digest(json.dumps(current[key],sort_keys=True,separators=(',',':'),ensure_ascii=False).encode())==record['current_row_sha256']
+            source_row_guard(key, record['current_row_sha256'])
             assert next(r for r in f['records'] if r['id']==record['id'])['disposition']==record['existing_disposition']=='unresolved'
             assert record['remaining_questions']
             overlays[record['id']]=[public_text(q) for q in record['remaining_questions']]
@@ -605,7 +628,7 @@ def main():
     if phillips.exists():
         for record in json.loads(phillips.read_text())['records']:
             key=('local_inventory',record['id'])
-            assert digest(json.dumps(current[key],sort_keys=True,separators=(',',':'),ensure_ascii=False).encode())==record['current_row_sha256']
+            source_row_guard(key, record['current_row_sha256'])
             assert next(r for r in f['records'] if r['id']==record['id'])['disposition']==record['existing_disposition']=='unresolved'
             assert record['remaining_questions']
             overlays[record['id']]=[public_text(q) for q in record['remaining_questions']]
@@ -613,7 +636,7 @@ def main():
     if coweta.exists():
         for record in json.loads(coweta.read_text())['records']:
             key=('local_inventory',record['id'])
-            assert digest(json.dumps(current[key],sort_keys=True,separators=(',',':'),ensure_ascii=False).encode())==record['current_row_sha256']
+            source_row_guard(key, record['current_row_sha256'])
             assert next(r for r in f['records'] if r['id']==record['id'])['disposition']==record['existing_disposition']=='unresolved'
             assert record['remaining_questions']
             overlays[record['id']]=[public_text(q) for q in record['remaining_questions']]
@@ -621,7 +644,7 @@ def main():
     if audubon.exists():
         for record in json.loads(audubon.read_text())['records']:
             key=('local_inventory',record['id'])
-            assert digest(json.dumps(current[key],sort_keys=True,separators=(',',':'),ensure_ascii=False).encode())==record['current_row_sha256']
+            source_row_guard(key, record['current_row_sha256'])
             assert next(r for r in f['records'] if r['id']==record['id'])['disposition']==record['existing_disposition']=='unresolved'
             assert record['remaining_questions']
             overlays[record['id']]=[public_text(q) for q in record['remaining_questions']]
@@ -629,7 +652,7 @@ def main():
     if lee.exists():
         for record in json.loads(lee.read_text())['records']:
             key=('local_inventory',record['id'])
-            assert digest(json.dumps(current[key],sort_keys=True,separators=(',',':'),ensure_ascii=False).encode())==record['current_row_sha256']
+            source_row_guard(key, record['current_row_sha256'])
             assert next(r for r in f['records'] if r['id']==record['id'])['disposition']==record['existing_disposition']=='unresolved'
             assert record['remaining_questions']
             overlays[record['id']]=[public_text(q) for q in record['remaining_questions']]
@@ -637,7 +660,7 @@ def main():
     if starke.exists():
         for record in json.loads(starke.read_text())['records']:
             key=('local_inventory',record['id'])
-            assert digest(json.dumps(current[key],sort_keys=True,separators=(',',':'),ensure_ascii=False).encode())==record['current_row_sha256']
+            source_row_guard(key, record['current_row_sha256'])
             assert next(r for r in f['records'] if r['id']==record['id'])['disposition']==record['existing_disposition']=='unresolved'
             assert record['remaining_questions']
             overlays[record['id']]=[public_text(q) for q in record['remaining_questions']]
@@ -645,7 +668,7 @@ def main():
     if boone.exists():
         for record in json.loads(boone.read_text())['records']:
             key=('local_inventory',record['id'])
-            assert digest(json.dumps(current[key],sort_keys=True,separators=(',',':'),ensure_ascii=False).encode())==record['current_row_sha256']
+            source_row_guard(key, record['current_row_sha256'])
             assert next(r for r in f['records'] if r['id']==record['id'])['disposition']==record['existing_disposition']=='unresolved'
             assert record['remaining_questions']
             overlays[record['id']]=[public_text(q) for q in record['remaining_questions']]
@@ -653,7 +676,7 @@ def main():
     if alaska_terminal.exists():
         for record in json.loads(alaska_terminal.read_text())['records']:
             key=('state_policy',record['id'])
-            assert digest(json.dumps(current[key],sort_keys=True,separators=(',',':'),ensure_ascii=False).encode())==record['current_row_sha256']
+            source_row_guard(key, record['current_row_sha256'])
             assert next(r for r in f['records'] if r['id']==record['id'])['disposition']==record['existing_disposition']=='unresolved'
             assert record['remaining_questions']
             overlays[record['id']]=[public_text(q) for q in record['remaining_questions']]
@@ -661,7 +684,7 @@ def main():
     if nonblank_geo.exists():
         for record in json.loads(nonblank_geo.read_text())['records']:
             key=('local_inventory',record['id'])
-            assert digest(json.dumps(current[key],sort_keys=True,separators=(',',':'),ensure_ascii=False).encode())==record['current_row_sha256']
+            source_row_guard(key, record['current_row_sha256'])
             assert next(r for r in f['records'] if r['id']==record['id'])['disposition']==record['existing_disposition']=='unresolved'
             assert record['remaining_questions']
             overlays[record['id']]=[public_text(q) for q in record['remaining_questions']]
@@ -669,14 +692,14 @@ def main():
     if committee_details.exists():
         for record in json.loads(committee_details.read_text())['records']:
             key=('state_policy',record['id'])
-            assert digest(json.dumps(current[key],sort_keys=True,separators=(',',':'),ensure_ascii=False).encode())==record['current_row_sha256']
+            source_row_guard(key, record['current_row_sha256'])
             assert next(r for r in f['records'] if r['id']==record['id'])['disposition']==record['recommendation']
             assert not record['remaining_questions']
     hawaii_outcomes=args.output/'hawaii-session-outcome-adjudications.json'
     if hawaii_outcomes.exists():
         for record in json.loads(hawaii_outcomes.read_text())['records']:
             key=('state_policy',record['id'])
-            assert digest(json.dumps(current[key],sort_keys=True,separators=(',',':'),ensure_ascii=False).encode())==record['current_row_sha256']
+            source_row_guard(key, record['current_row_sha256'])
             assert next(r for r in f['records'] if r['id']==record['id'])['disposition']==record['recommendation']
             if record['recommendation']=='unresolved':
                 assert record['remaining_questions']
@@ -686,7 +709,7 @@ def main():
     if proposal_endpoints.exists():
         for record in json.loads(proposal_endpoints.read_text())['records']:
             key=('state_policy',record['id'])
-            assert digest(json.dumps(current[key],sort_keys=True,separators=(',',':'),ensure_ascii=False).encode())==record['current_row_sha256']
+            source_row_guard(key, record['current_row_sha256'])
             assert next(r for r in f['records'] if r['id']==record['id'])['disposition']==record['existing_disposition']=='unresolved'
             assert record['remaining_questions']
             overlays[record['id']]=[public_text(q) for q in record['remaining_questions']]
@@ -694,7 +717,7 @@ def main():
     if idaho_signature.exists():
         record=json.loads(idaho_signature.read_text())
         key=('state_policy',record['id'])
-        assert digest(json.dumps(current[key],sort_keys=True,separators=(',',':'),ensure_ascii=False).encode())==record['current_row_sha256']
+        source_row_guard(key, record['current_row_sha256'])
         assert next(r for r in f['records'] if r['id']==record['id'])['disposition']==record['existing_disposition']=='unresolved'
         assert record['remaining_questions']
         overlays[record['id']]=[public_text(q) for q in record['remaining_questions']]
@@ -702,7 +725,7 @@ def main():
     if maryland_trigger.exists():
         record=json.loads(maryland_trigger.read_text())
         key=('state_policy',record['id'])
-        assert digest(json.dumps(current[key],sort_keys=True,separators=(',',':'),ensure_ascii=False).encode())==record['current_row_sha256']
+        source_row_guard(key, record['current_row_sha256'])
         assert next(r for r in f['records'] if r['id']==record['id'])['disposition']==record['existing_disposition']=='unresolved'
         assert record['remaining_questions']
         overlays[record['id']]=[public_text(q) for q in record['remaining_questions']]
@@ -715,7 +738,7 @@ def main():
             assert record.get('recommendation',record.get('existing_disposition'))==later['prior_disposition']=='unresolved'
         else:
             key=('state_policy',record['id'])
-            assert digest(json.dumps(current[key],sort_keys=True,separators=(',',':'),ensure_ascii=False).encode())==record['current_row_sha256']
+            source_row_guard(key, record['current_row_sha256'])
             assert next(r for r in f['records'] if r['id']==record['id'])['disposition']==record['existing_disposition']=='unresolved'
             assert record['remaining_questions']
             overlays[record['id']]=[public_text(q) for q in record['remaining_questions']]
@@ -723,14 +746,14 @@ def main():
     if virginia_incorporation.exists():
         record=json.loads(virginia_incorporation.read_text())
         key=('state_policy',record['id'])
-        assert digest(json.dumps(current[key],sort_keys=True,separators=(',',':'),ensure_ascii=False).encode())==record['current_row_sha256']
+        source_row_guard(key, record['current_row_sha256'])
         assert next(r for r in f['records'] if r['id']==record['id'])['disposition']==record['recommendation']=='corrected_resolved'
         assert not record['remaining_questions']
     virginia_numbering=args.output/'virginia-sb94-numbering-review.json'
     if virginia_numbering.exists():
         record=json.loads(virginia_numbering.read_text())
         key=('state_policy',record['id'])
-        assert digest(json.dumps(current[key],sort_keys=True,separators=(',',':'),ensure_ascii=False).encode())==record['current_row_sha256']
+        source_row_guard(key, record['current_row_sha256'])
         assert next(r for r in f['records'] if r['id']==record['id'])['disposition']==record['existing_disposition']=='unresolved'
         assert record['remaining_questions']
         overlays[record['id']]=[public_text(q) for q in record['remaining_questions']]
@@ -738,7 +761,7 @@ def main():
     if utah_versions.exists():
         record=json.loads(utah_versions.read_text())
         key=('state_policy',record['id'])
-        assert digest(json.dumps(current[key],sort_keys=True,separators=(',',':'),ensure_ascii=False).encode())==record['current_row_sha256']
+        source_row_guard(key, record['current_row_sha256'])
         assert next(r for r in f['records'] if r['id']==record['id'])['disposition']==record['existing_disposition']=='unresolved'
         assert record['remaining_questions']
         overlays[record['id']]=[public_text(q) for q in record['remaining_questions']]
@@ -746,7 +769,7 @@ def main():
     if alabama_instruments.exists():
         for record in json.loads(alabama_instruments.read_text())['records']:
             key=('local_inventory',record['id'])
-            assert digest(json.dumps(current[key],sort_keys=True,separators=(',',':'),ensure_ascii=False).encode())==record['current_row_sha256']
+            source_row_guard(key, record['current_row_sha256'])
             assert next(r for r in f['records'] if r['id']==record['id'])['disposition']==record['existing_disposition']=='unresolved'
             assert record['remaining_questions']
             overlays[record['id']]=[public_text(q) for q in record['remaining_questions']]
@@ -754,7 +777,7 @@ def main():
     if homewood_minutes.exists():
         record=json.loads(homewood_minutes.read_text())
         key=('local_inventory',record['id'])
-        assert digest(json.dumps(current[key],sort_keys=True,separators=(',',':'),ensure_ascii=False).encode())==record['current_row_sha256']
+        source_row_guard(key, record['current_row_sha256'])
         assert next(r for r in f['records'] if r['id']==record['id'])['disposition']==record['existing_disposition']=='unresolved'
         assert record['remaining_questions']
         overlays[record['id']]=[public_text(q) for q in record['remaining_questions']]
@@ -762,7 +785,7 @@ def main():
     if lodi_version.exists():
         record=json.loads(lodi_version.read_text())
         key=('local_inventory',record['id'])
-        assert digest(json.dumps(current[key],sort_keys=True,separators=(',',':'),ensure_ascii=False).encode())==record['current_row_sha256']
+        source_row_guard(key, record['current_row_sha256'])
         assert next(r for r in f['records'] if r['id']==record['id'])['disposition']==record['existing_disposition']=='unresolved'
         assert record['remaining_questions']
         overlays[record['id']]=[public_text(q) for q in record['remaining_questions']]
@@ -770,7 +793,7 @@ def main():
     if nashville_minutes.exists():
         record=json.loads(nashville_minutes.read_text())
         key=('local_inventory',record['id'])
-        assert digest(json.dumps(current[key],sort_keys=True,separators=(',',':'),ensure_ascii=False).encode())==record['current_row_sha256']
+        source_row_guard(key, record['current_row_sha256'])
         assert next(r for r in f['records'] if r['id']==record['id'])['disposition']==record['existing_disposition']=='unresolved'
         assert record['remaining_questions']
         overlays[record['id']]=[public_text(q) for q in record['remaining_questions']]
@@ -778,7 +801,7 @@ def main():
     if montana_text.exists():
         record=json.loads(montana_text.read_text())
         key=('state_policy',record['id'])
-        assert digest(json.dumps(current[key],sort_keys=True,separators=(',',':'),ensure_ascii=False).encode())==record['current_row_sha256']
+        source_row_guard(key, record['current_row_sha256'])
         assert next(r for r in f['records'] if r['id']==record['id'])['disposition']==record['existing_disposition']=='unresolved'
         assert record['remaining_questions']
         overlays[record['id']]=[public_text(q) for q in record['remaining_questions']]
@@ -786,12 +809,12 @@ def main():
     if montana_hj46.exists():
         record=json.loads(montana_hj46.read_text())
         key=('state_policy',record['id'])
-        assert digest(json.dumps(current[key],sort_keys=True,separators=(',',':'),ensure_ascii=False).encode())==record['current_row_sha256']
+        source_row_guard(key, record['current_row_sha256'])
         assert next(r for r in f['records'] if r['id']==record['id'])['disposition']==record['recommendation']=='corrected_resolved'
         assert not record['remaining_questions']
     for record in wy_code_records.values():
         key=('state_policy',record['id'])
-        assert digest(json.dumps(current[key],sort_keys=True,separators=(',',':'),ensure_ascii=False).encode())==record['current_row_sha256']
+        source_row_guard(key, record['current_row_sha256'])
         assert next(r for r in f['records'] if r['id']==record['id'])['disposition']==record['recommendation']
         if record['recommendation']=='unresolved':
             assert record['remaining_questions']
@@ -802,62 +825,62 @@ def main():
     if ohio_veto.exists():
         for record in json.loads(ohio_veto.read_text())['records']:
             key=('state_policy',record['id'])
-            assert digest(json.dumps(current[key],sort_keys=True,separators=(',',':'),ensure_ascii=False).encode())==record['current_row_sha256']
-            assert next(r for r in f['records'] if r['id']==record['id'])['disposition']==record['recommendation']=='unresolved'
+            source_row_guard(key, record['current_row_sha256'])
+            source_disposition_guard(record)
             assert record['remaining_questions']
             overlays[record['id']]=[public_text(q) for q in record['remaining_questions']]
     sc_terminal=args.output/'south-carolina-s902-terminal-review.json'
     if sc_terminal.exists():
         for record in json.loads(sc_terminal.read_text())['records']:
             key=('state_policy',record['id'])
-            assert digest(json.dumps(current[key],sort_keys=True,separators=(',',':'),ensure_ascii=False).encode())==record['current_row_sha256']
-            assert next(r for r in f['records'] if r['id']==record['id'])['disposition']==record['recommendation']=='unresolved'
+            source_row_guard(key, record['current_row_sha256'])
+            source_disposition_guard(record)
             assert record['remaining_questions']
             overlays[record['id']]=[public_text(q) for q in record['remaining_questions']]
     wy_scope_dispositions=args.output/'wyoming-scope-disposition-reconciliation.json'
     if wy_scope_dispositions.exists():
         for record in json.loads(wy_scope_dispositions.read_text())['records']:
             key=('state_policy',record['id'])
-            assert digest(json.dumps(current[key],sort_keys=True,separators=(',',':'),ensure_ascii=False).encode())==record['current_row_sha256']
+            source_row_guard(key, record['current_row_sha256'])
             assert next(r for r in f['records'] if r['id']==record['id'])['disposition']==record['recommendation']=='corrected_resolved'
             assert not record['remaining_questions']
     indiana_fiscal=args.output/'indiana-sb234-fiscal-review.json'
     if indiana_fiscal.exists():
         for record in json.loads(indiana_fiscal.read_text())['records']:
             key=('state_policy',record['id'])
-            assert digest(json.dumps(current[key],sort_keys=True,separators=(',',':'),ensure_ascii=False).encode())==record['current_row_sha256']
-            assert next(r for r in f['records'] if r['id']==record['id'])['disposition']==record['recommendation']=='unresolved'
+            source_row_guard(key, record['current_row_sha256'])
+            source_disposition_guard(record)
             assert record['remaining_questions']
             overlays[record['id']]=[public_text(q) for q in record['remaining_questions']]
     dover_minutes=args.output/'dover-october12-minutes-adjudication.json'
     if dover_minutes.exists():
         for record in json.loads(dover_minutes.read_text())['records']:
             key=('local_inventory',record['id'])
-            assert digest(json.dumps(current[key],sort_keys=True,separators=(',',':'),ensure_ascii=False).encode())==record['current_row_sha256']
-            assert next(r for r in f['records'] if r['id']==record['id'])['disposition']==record['recommendation']=='unresolved'
+            source_row_guard(key, record['current_row_sha256'])
+            source_disposition_guard(record)
             assert record['remaining_questions']
             overlays[record['id']]=[public_text(q) for q in record['remaining_questions']]
     wv_carryover=args.output/'wv-senate-carryover-authority-review.json'
     if wv_carryover.exists():
         for record in json.loads(wv_carryover.read_text())['records']:
             key=('state_policy',record['id'])
-            assert digest(json.dumps(current[key],sort_keys=True,separators=(',',':'),ensure_ascii=False).encode())==record['current_row_sha256']
-            assert next(r for r in f['records'] if r['id']==record['id'])['disposition']==record['recommendation']=='unresolved'
+            source_row_guard(key, record['current_row_sha256'])
+            source_disposition_guard(record)
             assert record['remaining_questions']
             overlays[record['id']]=[public_text(q) for q in record['remaining_questions']]
     monument_text=args.output/'monument-ordinance-adjudication.json'
     if monument_text.exists():
         for record in json.loads(monument_text.read_text())['records']:
             key=('local_inventory',record['id'])
-            assert digest(json.dumps(current[key],sort_keys=True,separators=(',',':'),ensure_ascii=False).encode())==record['current_row_sha256']
-            assert next(r for r in f['records'] if r['id']==record['id'])['disposition']==record['recommendation']=='unresolved'
+            source_row_guard(key, record['current_row_sha256'])
+            source_disposition_guard(record)
             assert record['remaining_questions']
             overlays[record['id']]=[public_text(q) for q in record['remaining_questions']]
     wy_sf193=args.output/'wyoming-sf193-disposition-reconciliation.json'
     if wy_sf193.exists():
         for record in json.loads(wy_sf193.read_text())['records']:
             key=('state_policy',record['id'])
-            assert digest(json.dumps(current[key],sort_keys=True,separators=(',',':'),ensure_ascii=False).encode())==record['current_row_sha256']
+            source_row_guard(key, record['current_row_sha256'])
             assert next(r for r in f['records'] if r['id']==record['id'])['disposition']==record['recommendation']=='corrected_resolved'
             assert not record['remaining_questions']
             assert digest(Path(record['prior_adjudication']).read_bytes())==record['prior_adjudication_sha256']
@@ -868,7 +891,7 @@ def main():
     if mo_final.exists():
         for record in json.loads(mo_final.read_text())['records']:
             key=('state_policy',record['id'])
-            assert digest(json.dumps(current[key],sort_keys=True,separators=(',',':'),ensure_ascii=False).encode())==record['current_row_sha256']
+            source_row_guard(key, record['current_row_sha256'])
             assert next(r for r in f['records'] if r['id']==record['id'])['disposition']==record['recommendation']=='corrected_resolved'
             assert not record['remaining_questions']
             overlays.pop(record['id'],None)
@@ -881,22 +904,22 @@ def main():
                 assert record['recommendation']==later['prior_disposition']=='unresolved'
                 continue
             key=('state_policy',record['id'])
-            assert digest(json.dumps(current[key],sort_keys=True,separators=(',',':'),ensure_ascii=False).encode())==record['current_row_sha256']
-            assert next(r for r in f['records'] if r['id']==record['id'])['disposition']==record['recommendation']=='unresolved'
+            source_row_guard(key, record['current_row_sha256'])
+            source_disposition_guard(record)
             assert record['remaining_questions']
             overlays[record['id']]=[public_text(q) for q in record['remaining_questions']]
     va_returned=args.output/'virginia-returned-veto-adjudications.json'
     if va_returned.exists():
         for record in json.loads(va_returned.read_text())['records']:
             key=('state_policy',record['id'])
-            assert digest(json.dumps(current[key],sort_keys=True,separators=(',',':'),ensure_ascii=False).encode())==record['current_row_sha256']
+            source_row_guard(key, record['current_row_sha256'])
             assert next(r for r in f['records'] if r['id']==record['id'])['disposition']==record['recommendation']=='corrected_resolved'
             assert not record['remaining_questions']
             overlays.pop(record['id'],None)
     for record in ga34_records.values():
         key=('state_policy',record['id'])
-        assert digest(json.dumps(current[key],sort_keys=True,separators=(',',':'),ensure_ascii=False).encode())==record['current_row_sha256']
-        assert next(r for r in f['records'] if r['id']==record['id'])['disposition']==record['recommendation']=='unresolved'
+        source_row_guard(key, record['current_row_sha256'])
+        source_disposition_guard(record)
         assert record['remaining_questions']
         overlays[record['id']]=[public_text(q) for q in record['remaining_questions']]
     for record in mn_author_records.values():
@@ -906,7 +929,7 @@ def main():
             assert record['recommendation']==later['prior_disposition']=='corrected_resolved'
             continue
         key=('state_policy',record['id'])
-        assert digest(json.dumps(current[key],sort_keys=True,separators=(',',':'),ensure_ascii=False).encode())==record['current_row_sha256']
+        source_row_guard(key, record['current_row_sha256'])
         assert next(r for r in f['records'] if r['id']==record['id'])['disposition']==record['recommendation']
         if record['recommendation']=='unresolved':
             assert record['remaining_questions']
@@ -916,13 +939,13 @@ def main():
             overlays.pop(record['id'],None)
     for record in mn_link_records.values():
         key=('state_policy',record['id'])
-        assert digest(json.dumps(current[key],sort_keys=True,separators=(',',':'),ensure_ascii=False).encode())==record['current_row_sha256']
+        source_row_guard(key, record['current_row_sha256'])
         assert next(r for r in f['records'] if r['id']==record['id'])['disposition']==record['recommendation']=='corrected_resolved'
         assert not record['remaining_questions']
         overlays.pop(record['id'],None)
     for record in txwv_link_records.values():
         key=('state_policy',record['id'])
-        assert digest(json.dumps(current[key],sort_keys=True,separators=(',',':'),ensure_ascii=False).encode())==record['current_row_sha256']
+        source_row_guard(key, record['current_row_sha256'])
         assert next(r for r in f['records'] if r['id']==record['id'])['disposition']==record['recommendation']
         if record['recommendation']=='unresolved':
             assert record['remaining_questions']
@@ -932,7 +955,7 @@ def main():
             overlays.pop(record['id'],None)
     for record in remaining_link_records.values():
         key=('state_policy',record['id'])
-        assert digest(json.dumps(current[key],sort_keys=True,separators=(',',':'),ensure_ascii=False).encode())==record['current_row_sha256']
+        source_row_guard(key, record['current_row_sha256'])
         assert next(r for r in f['records'] if r['id']==record['id'])['disposition']==record['recommendation']
         if record['recommendation']=='unresolved':
             assert record['remaining_questions']
@@ -943,14 +966,14 @@ def main():
     fairbanks_recovery=Path('work/research/2026-11-10/post-release-qa/fairbanks-ordinance-recovery.json')
     if fairbanks_recovery.exists():
         record=json.loads(fairbanks_recovery.read_text());key=('local_inventory',record['record_id'])
-        assert digest(json.dumps(current[key],sort_keys=True,separators=(',',':'),ensure_ascii=False).encode())==record['current_row_sha256']
+        source_row_guard(key, record['current_row_sha256'])
         assert next(r for r in f['records'] if r['id']==record['record_id'])['disposition']=='unresolved'
         assert record['canonical_fields_changed']==record['whole_record_closures']==0
         overlays[record['record_id']]=['Recover full Ordinance2026-42 text and verify proposed term, subsequent action and adoption. '+record['next_action']+' Recovery receipt: '+str(fairbanks_recovery)]
     ma_conference_discovery=Path('work/research/2026-11-10/post-release-qa/massachusetts-conference-discovery.json')
     if ma_conference_discovery.exists():
         record=json.loads(ma_conference_discovery.read_text());key=('state_policy',record['record_id'])
-        assert digest(json.dumps(current[key],sort_keys=True,separators=(',',':'),ensure_ascii=False).encode())==record['current_row_sha256']
+        source_row_guard(key, record['current_row_sha256'])
         assert next(r for r in f['records'] if r['id']==record['record_id'])['disposition']=='unresolved'
         assert not record['independent_review_completed'] and record['canonical_fields_changed']==record['whole_record_closures']==0
         overlays[record['record_id']]=[public_text(q) for q in record['remaining_questions']]
@@ -968,26 +991,26 @@ def main():
     trumbull_path=Path('work/research/2026-11-10/post-release-qa/trumbull-retained-minutes-review.json')
     if trumbull_path.exists():
         record=json.loads(trumbull_path.read_text());key=('local_inventory',record['id'])
-        assert digest(json.dumps(current[key],sort_keys=True,separators=(',',':'),ensure_ascii=False).encode())==record['current_row_sha256']
-        assert next(r for r in f['records'] if r['id']==record['id'])['disposition']==record['recommendation']=='unresolved'
+        source_row_guard(key, record['current_row_sha256'])
+        source_disposition_guard(record)
         overlays[record['id']]=[public_text(q) for q in record['remaining_questions']]
     west_haven_path=Path('work/research/2026-11-10/post-release-qa/west-haven-adoption-text-review.json')
     if west_haven_path.exists():
         record=json.loads(west_haven_path.read_text());key=('local_inventory',record['id'])
-        assert digest(json.dumps(current[key],sort_keys=True,separators=(',',':'),ensure_ascii=False).encode())==record['current_row_sha256']
-        assert next(r for r in f['records'] if r['id']==record['id'])['disposition']==record['recommendation']=='unresolved'
+        source_row_guard(key, record['current_row_sha256'])
+        source_disposition_guard(record)
         overlays[record['id']]=[public_text(q) for q in record['remaining_questions']]
     new_haven_path=Path('work/research/2026-11-10/post-release-qa/new-haven-signature-review.json')
     if new_haven_path.exists():
         record=json.loads(new_haven_path.read_text());key=('local_inventory',record['id'])
-        assert digest(json.dumps(current[key],sort_keys=True,separators=(',',':'),ensure_ascii=False).encode())==record['current_row_sha256']
-        assert next(r for r in f['records'] if r['id']==record['id'])['disposition']==record['recommendation']=='unresolved'
+        source_row_guard(key, record['current_row_sha256'])
+        source_disposition_guard(record)
         overlays[record['id']]=[public_text(q) for q in record['remaining_questions']]
     new_haven_version_path=Path('work/research/2026-11-10/post-release-qa/new-haven-version-comparison.json')
     if new_haven_version_path.exists():
         record=json.loads(new_haven_version_path.read_text());key=('local_inventory',record['id'])
-        assert digest(json.dumps(current[key],sort_keys=True,separators=(',',':'),ensure_ascii=False).encode())==record['current_row_sha256']==record['prior_row_sha256']
-        assert next(r for r in f['records'] if r['id']==record['id'])['disposition']==record['recommendation']=='unresolved'
+        source_row_guard(key, record['current_row_sha256'])==record['prior_row_sha256']
+        source_disposition_guard(record)
         assert record['canonical_cells_changed']==record['whole_record_closures']==0
         overlays[record['id']]=[public_text(q) for q in record['remaining_questions']]
     independence_later_path=Path('work/research/2026-11-10/post-release-qa/independence-ordinance19850-review.json')
@@ -999,13 +1022,13 @@ def main():
             assert record['current_row_sha256']==independence_later['prior_row_sha256']
             assert record['recommendation']==independence_later['prior_disposition']=='unresolved'
         else:
-            assert digest(json.dumps(current[key],sort_keys=True,separators=(',',':'),ensure_ascii=False).encode())==record['current_row_sha256']
-        assert next(r for r in f['records'] if r['id']==record['id'])['disposition']==record['recommendation']=='unresolved'
+            source_row_guard(key, record['current_row_sha256'])
+        source_disposition_guard(record)
         overlays[record['id']]=[public_text(q) for q in record['remaining_questions']]
     if independence_later:
         record=independence_later;key=('local_inventory',record['id'])
-        assert digest(json.dumps(current[key],sort_keys=True,separators=(',',':'),ensure_ascii=False).encode())==record['current_row_sha256']
-        assert next(r for r in f['records'] if r['id']==record['id'])['disposition']==record['recommendation']=='unresolved'
+        source_row_guard(key, record['current_row_sha256'])
+        source_disposition_guard(record)
         overlays[record['id']]=[public_text(q) for q in record['remaining_questions']]
     wy_session_path=Path('work/research/2026-11-10/post-release-qa/wyoming-session-identity-review.json')
     if wy_session_path.exists():
@@ -1015,93 +1038,101 @@ def main():
                 assert record['recommendation']==wy_sponsors['prior_disposition']=='unresolved'
                 continue
             key=('state_policy',record['id'])
-            assert digest(json.dumps(current[key],sort_keys=True,separators=(',',':'),ensure_ascii=False).encode())==record['current_row_sha256']
-            assert next(r for r in f['records'] if r['id']==record['id'])['disposition']==record['recommendation']=='unresolved'
+            source_row_guard(key, record['current_row_sha256'])
+            source_disposition_guard(record)
             overlays[record['id']]=list(dict.fromkeys(overlays.get(record['id'],[])+[public_text(q) for q in record['remaining_questions']]))
     if wy_sponsors:
         record=wy_sponsors;key=('state_policy',record['id'])
-        assert digest(json.dumps(current[key],sort_keys=True,separators=(',',':'),ensure_ascii=False).encode())==record['current_row_sha256']
-        assert next(r for r in f['records'] if r['id']==record['id'])['disposition']==record['recommendation']=='unresolved'
+        source_row_guard(key, record['current_row_sha256'])
+        source_disposition_guard(record)
         overlays[record['id']]=[public_text(q) for q in record['remaining_questions']]
     ky_code_path=Path('work/research/2026-11-10/post-release-qa/kentucky-current-incentive-code-review.json')
     if ky_code_path.exists():
         for record in json.loads(ky_code_path.read_text())['records']:
             key=('state_policy',record['id'])
-            assert digest(json.dumps(current[key],sort_keys=True,separators=(',',':'),ensure_ascii=False).encode())==record['current_row_sha256']
-            assert next(r for r in f['records'] if r['id']==record['id'])['disposition']==record['recommendation']=='unresolved'
+            source_row_guard(key, record['current_row_sha256'])
+            source_disposition_guard(record)
             overlays[record['id']]=[public_text(q) for q in record['remaining_questions']]
     wy_api_path=Path('work/research/2026-11-10/post-release-qa/wyoming-sf91-sponsor-api-review.json')
     if wy_api_path.exists():
         record=json.loads(wy_api_path.read_text());key=('state_policy',record['id'])
-        assert digest(json.dumps(current[key],sort_keys=True,separators=(',',':'),ensure_ascii=False).encode())==record['current_row_sha256']
-        assert next(r for r in f['records'] if r['id']==record['id'])['disposition']==record['recommendation']=='unresolved'
+        source_row_guard(key, record['current_row_sha256'])
+        source_disposition_guard(record)
         overlays[record['id']]=[public_text(q) for q in record['remaining_questions']]
     la_hcr61_path=Path('work/research/2026-11-10/post-release-qa/louisiana-hcr61-closing-window-review.json')
     if la_hcr61_path.exists():
         record=json.loads(la_hcr61_path.read_text());key=('state_policy',record['id'])
-        assert digest(json.dumps(current[key],sort_keys=True,separators=(',',':'),ensure_ascii=False).encode())==record['current_row_sha256']
-        assert next(r for r in f['records'] if r['id']==record['id'])['disposition']==record['recommendation']=='unresolved'
+        source_row_guard(key, record['current_row_sha256'])
+        source_disposition_guard(record)
         overlays[record['id']]=[public_text(q) for q in record['remaining_questions']]
     wy_fullname_path=Path('work/research/2026-11-10/post-release-qa/wyoming-sf91-full-name-review.json')
     if wy_fullname_path.exists():
         record=json.loads(wy_fullname_path.read_text());key=('state_policy',record['id'])
-        assert digest(json.dumps(current[key],sort_keys=True,separators=(',',':'),ensure_ascii=False).encode())==record['current_row_sha256']
-        assert next(r for r in f['records'] if r['id']==record['id'])['disposition']==record['recommendation']=='unresolved'
+        source_row_guard(key, record['current_row_sha256'])
+        source_disposition_guard(record)
         overlays[record['id']]=[public_text(q) for q in record['remaining_questions']]
     ks_publication_path=Path('work/research/2026-11-10/post-release-qa/kansas-sb98-publication-review.json')
     if ks_publication_path.exists():
         record=json.loads(ks_publication_path.read_text());key=('state_policy',record['id'])
-        assert digest(json.dumps(current[key],sort_keys=True,separators=(',',':'),ensure_ascii=False).encode())==record['current_row_sha256']
-        assert next(r for r in f['records'] if r['id']==record['id'])['disposition']==record['recommendation']=='unresolved'
+        source_row_guard(key, record['current_row_sha256'])
+        source_disposition_guard(record)
         overlays[record['id']]=[public_text(q) for q in record['remaining_questions']]
     ks_two_path=Path('work/research/2026-11-10/post-release-qa/kansas-sb51-sb92-publication-review.json')
     if ks_two_path.exists():
         for record in json.loads(ks_two_path.read_text())['records']:
             key=('state_policy',record['id'])
-            assert digest(json.dumps(current[key],sort_keys=True,separators=(',',':'),ensure_ascii=False).encode())==record['current_row_sha256']
-            assert next(r for r in f['records'] if r['id']==record['id'])['disposition']==record['recommendation']=='unresolved'
+            source_row_guard(key, record['current_row_sha256'])
+            source_disposition_guard(record)
             overlays[record['id']]=[public_text(q) for q in record['remaining_questions']]
     ks_order_path=Path('work/research/2026-11-10/post-release-qa/kansas-sb51-amendment-order-review.json')
     if ks_order_path.exists():
         record=json.loads(ks_order_path.read_text());key=('state_policy',record['id'])
-        assert digest(json.dumps(current[key],sort_keys=True,separators=(',',':'),ensure_ascii=False).encode())==record['current_row_sha256']
-        assert next(r for r in f['records'] if r['id']==record['id'])['disposition']==record['recommendation']=='unresolved'
+        source_row_guard(key, record['current_row_sha256'])
+        source_disposition_guard(record)
         overlays[record['id']]=[public_text(q) for q in record['remaining_questions']]
     wa_current_path=Path('work/research/2026-11-10/post-release-qa/washington-enacted-current-law-review.json')
     if wa_current_path.exists():
         for record in json.loads(wa_current_path.read_text())['records']:
             key=('state_policy',record['id'])
-            assert digest(json.dumps(current[key],sort_keys=True,separators=(',',':'),ensure_ascii=False).encode())==record['current_row_sha256']
-            assert next(r for r in f['records'] if r['id']==record['id'])['disposition']==record['recommendation']=='unresolved'
+            source_row_guard(key, record['current_row_sha256'])
+            source_disposition_guard(record)
             overlays[record['id']]=[public_text(q) for q in record['remaining_questions']]
     wa_local_path=Path('work/research/2026-11-10/post-release-qa/washington-local-operative-review.json')
     if wa_local_path.exists():
         for record in json.loads(wa_local_path.read_text())['records']:
             key=('local_inventory',record['id'])
             source_row_guard(key, record['current_row_sha256'])
-            assert next(r for r in f['records'] if r['id']==record['id'])['disposition']==record['recommendation']=='unresolved'
+            source_disposition_guard(record)
             overlays[record['id']]=[public_text(q) for q in record['remaining_questions']]
     bonney_disposition_path=Path('work/research/2026-11-10/post-release-qa/bonney-lake-d26-73-disposition-review.json')
     if bonney_disposition_path.exists():
         record=json.loads(bonney_disposition_path.read_text());key=('local_inventory',record['id'])
         source_row_guard(key, record['current_row_sha256'])
-        assert next(r for r in f['records'] if r['id']==record['id'])['disposition']==record['recommendation']=='unresolved'
+        source_disposition_guard(record)
         overlays[record['id']]=[public_text(q) for q in record['remaining_questions']]
     bonney_final_path=Path('work/research/2026-11-10/post-release-qa/bonney-lake-oct13-final-text-review.json')
     if bonney_final_path.exists():
         record=json.loads(bonney_final_path.read_text());key=('local_inventory',record['id'])
         source_row_guard(key, record['current_row_sha256'])
-        assert next(r for r in f['records'] if r['id']==record['id'])['disposition']==record['recommendation']=='unresolved'
+        source_disposition_guard(record)
         overlays[record['id']]=[public_text(q) for q in record['remaining_questions']]
     wa_library_path=Path('work/research/2026-11-10/post-release-qa/washington-local-code-library-review.json')
     if wa_library_path.exists():
         for record in json.loads(wa_library_path.read_text())['records']:
             key=('local_inventory',record['id'])
-            assert digest(json.dumps(current[key],sort_keys=True,separators=(',',':'),ensure_ascii=False).encode())==record['current_row_sha256']
-            assert next(r for r in f['records'] if r['id']==record['id'])['disposition']==record['recommendation']=='unresolved'
+            source_row_guard(key, record['current_row_sha256'])
+            source_disposition_guard(record)
             overlays[record['id']]=[public_text(q) for q in record['remaining_questions']]
     if bonney_application:
         overlays[bonney_application['id']]=[public_text(q) for q in bonney_application['remaining_questions']]
+    if policy_batch:
+        for transition in policy_batch['records']:
+            if transition['recommendation']=='unresolved':
+                overlays[transition['id']]=[public_text(q) for q in transition['remaining_questions']]
+            else:
+                overlays.pop(transition['id'],None)
+        addition=policy_batch['addition']
+        overlays[addition['id']]=[public_text(q) for q in addition['remaining_questions']]
     rows=[]
     for entry in f['records']:
         if entry['disposition']!='unresolved':continue
@@ -1118,6 +1149,7 @@ def main():
     assert {(r['dataset'],r['id']) for r in rows}==expected and len(rows)==len(expected)==f['counts']['unresolved']
     args.output.mkdir(parents=True,exist_ok=True);body=''.join(json.dumps(r,ensure_ascii=False,sort_keys=True)+'\n' for r in sorted(rows,key=lambda r:(r['dataset'],r['id']))).encode();(args.output/'outstanding-record-questions.jsonl').write_bytes(body)
     summary={'active_unresolved_records':len(rows),'remaining_policy_source_links_sha256':digest(remaining_links.read_bytes()) if remaining_links.exists() else None,'texas_wv_source_links_sha256':digest(txwv_links.read_bytes()) if txwv_links.exists() else None,'minnesota_source_links_sha256':digest(mn_links.read_bytes()) if mn_links.exists() else None,'minnesota_author_roster_sha256':digest(mn_authors.read_bytes()) if mn_authors.exists() else None,'georgia_sb34_history_sha256':digest(ga34.read_bytes()) if ga34.exists() else None,'virginia_returned_veto_sha256':digest(va_returned.read_bytes()) if va_returned.exists() else None,'mn3793_terminal_sha256':digest(mn3793.read_bytes()) if mn3793.exists() else None,'missouri_final_passage_sha256':digest(mo_final.read_bytes()) if mo_final.exists() else None,'wy_sf193_disposition_sha256':digest(wy_sf193.read_bytes()) if wy_sf193.exists() else None,'monument_text_overlay_sha256':digest(monument_text.read_bytes()) if monument_text.exists() else None,'wv_carryover_authority_sha256':digest(wv_carryover.read_bytes()) if wv_carryover.exists() else None,'dover_minutes_overlay_sha256':digest(dover_minutes.read_bytes()) if dover_minutes.exists() else None,'indiana_fiscal_overlay_sha256':digest(indiana_fiscal.read_bytes()) if indiana_fiscal.exists() else None,'wyoming_scope_dispositions_sha256':digest(wy_scope_dispositions.read_bytes()) if wy_scope_dispositions.exists() else None,'south_carolina_terminal_overlay_sha256':digest(sc_terminal.read_bytes()) if sc_terminal.exists() else None,'ohio_veto_overlay_sha256':digest(ohio_veto.read_bytes()) if ohio_veto.exists() else None,'wyoming_current_code_overlay_sha256':digest(wy_code.read_bytes()) if wy_code.exists() else None,'montana_hj46_overlay_sha256':digest(montana_hj46.read_bytes()) if montana_hj46.exists() else None,'montana_text_overlay_sha256':digest(montana_text.read_bytes()) if montana_text.exists() else None,'nashville_minutes_overlay_sha256':digest(nashville_minutes.read_bytes()) if nashville_minutes.exists() else None,'lodi_version_overlay_sha256':digest(lodi_version.read_bytes()) if lodi_version.exists() else None,'homewood_minutes_overlay_sha256':digest(homewood_minutes.read_bytes()) if homewood_minutes.exists() else None,'alabama_instruments_overlay_sha256':digest(alabama_instruments.read_bytes()) if alabama_instruments.exists() else None,'utah_versions_overlay_sha256':digest(utah_versions.read_bytes()) if utah_versions.exists() else None,'virginia_numbering_overlay_sha256':digest(virginia_numbering.read_bytes()) if virginia_numbering.exists() else None,'virginia_incorporation_overlay_sha256':digest(virginia_incorporation.read_bytes()) if virginia_incorporation.exists() else None,'utah_signature_overlay_sha256':digest(utah_signature.read_bytes()) if utah_signature.exists() else None,'maryland_trigger_overlay_sha256':digest(maryland_trigger.read_bytes()) if maryland_trigger.exists() else None,'idaho_signature_overlay_sha256':digest(idaho_signature.read_bytes()) if idaho_signature.exists() else None,'proposal_endpoints_overlay_sha256':digest(proposal_endpoints.read_bytes()) if proposal_endpoints.exists() else None,'hawaii_outcome_overlay_sha256':digest(hawaii_outcomes.read_bytes()) if hawaii_outcomes.exists() else None,'committee_detail_overlay_sha256':digest(committee_details.read_bytes()) if committee_details.exists() else None,'nonblank_geography_overlay_sha256':digest(nonblank_geo.read_bytes()) if nonblank_geo.exists() else None,'alaska_terminal_overlay_sha256':digest(alaska_terminal.read_bytes()) if alaska_terminal.exists() else None,'boone_overlay_sha256':digest(boone.read_bytes()) if boone.exists() else None,'starke_overlay_sha256':digest(starke.read_bytes()) if starke.exists() else None,'lee_overlay_sha256':digest(lee.read_bytes()) if lee.exists() else None,'audubon_overlay_sha256':digest(audubon.read_bytes()) if audubon.exists() else None,'coweta_overlay_sha256':digest(coweta.read_bytes()) if coweta.exists() else None,'phillips_overlay_sha256':digest(phillips.read_bytes()) if phillips.exists() else None,'oshtemo_overlay_sha256':digest(oshtemo.read_bytes()) if oshtemo.exists() else None,'sedgwick_publication_overlay_sha256':digest(sedgwick_publication.read_bytes()) if sedgwick_publication.exists() else None,'sedgwick_overlay_sha256':digest(sedgwick.read_bytes()) if sedgwick.exists() else None,'wv_comparison_overlay_sha256':digest(wv_comparison.read_bytes()) if wv_comparison.exists() else None,'connecticut_outcome_overlay_sha256':digest(ct_outcomes.read_bytes()) if ct_outcomes.exists() else None,'arizona_context_overlay_sha256':digest(az_context.read_bytes()) if az_context.exists() else None,'geography_overlay_sha256':digest(geography.read_bytes()) if geography.exists() else None,'records_with_explicit_questions':sum(bool(r['questions']) for r in rows),'records_requiring_disposition_reconciliation':[r['id'] for r in rows if not r['questions']],'local_records':sum(r['dataset']=='local_inventory' for r in rows),'state_policy_records':sum(r['dataset']=='state_policy' for r in rows),'funnel_sha256':digest(fpath.read_bytes()),'review_ledger_sha256':digest(raw),'post_release_additions_sha256':digest(additions.read_bytes()) if additions.exists() else None,'queue_sha256':digest(body),'post_release_overlay_records':sum(r['post_release_overlay'] for r in rows),'overlay_review_sha256':digest(maine.read_bytes()) if maine.exists() else None,'terminal_overlay_sha256':digest(terminal.read_bytes()) if terminal.exists() else None,'procedure_overlay_sha256':digest(procedure.read_bytes()) if procedure.exists() else None,'sponsor_overlay_sha256':digest(sponsor.read_bytes()) if sponsor.exists() else None,'enacted_overlay_sha256':digest(enacted.read_bytes()) if enacted.exists() else None,'local_reconciliation_sha256':digest(local_reconciliation.read_bytes()) if local_reconciliation.exists() else None,'northport_overlay_sha256':digest(northport.read_bytes()) if northport.exists() else None,'pa_history_overlay_sha256':digest(pa_history.read_bytes()) if pa_history.exists() else None,'minnesota_overlay_sha256':digest(minnesota.read_bytes()) if minnesota.exists() else None,'wisconsin_overlay_sha256':digest(wisconsin.read_bytes()) if wisconsin.exists() else None,'ohio_overlay_sha256':digest(ohio.read_bytes()) if ohio.exists() else None,'south_carolina_overlay_sha256':digest(south_carolina.read_bytes()) if south_carolina.exists() else None,'illinois_overlay_sha256':digest(illinois.read_bytes()) if illinois.exists() else None,'nj_final_law_overlay_sha256':digest(nj_final_law.read_bytes()) if nj_final_law.exists() else None,'nj_bpu_report_overlay_sha256':digest(nj_bpu.read_bytes()) if nj_bpu.exists() else None,'nj_a5462_overlay_sha256':digest(nj_a5462.read_bytes()) if nj_a5462.exists() else None,'nj_version_overlay_sha256':digest(nj_version.read_bytes()) if nj_version.exists() else None,'nj_history_overlay_sha256':digest(nj_history.read_bytes()) if nj_history.exists() else None,'ct_rules_overlay_sha256':digest(ct_rules.read_bytes()) if ct_rules.exists() else None,'pa939_overlay_sha256':digest(pa939.read_bytes()) if pa939.exists() else None,'ma_proposal_overlay_sha256':digest(ma_proposal.read_bytes()) if ma_proposal.exists() else None,'ma_amendment_overlay_sha256':digest(ma_amendment.read_bytes()) if ma_amendment.exists() else None,'ny_history_overlay_sha256':digest(ny_history.read_bytes()) if ny_history.exists() else None,'pa_house_history_overlay_sha256':digest(pa_house_history.read_bytes()) if pa_house_history.exists() else None,'pennsylvania_overlay_sha256':digest(pennsylvania.read_bytes()) if pennsylvania.exists() else None,'texas_overlay_sha256':digest(texas.read_bytes()) if texas.exists() else None,'washington_session_overlay_sha256':digest(washington_session.read_bytes()) if washington_session.exists() else None,'oklahoma_overlay_sha256':digest(oklahoma.read_bytes()) if oklahoma.exists() else None,'kentucky_overlay_sha256':digest(kentucky.read_bytes()) if kentucky.exists() else None,'washington_county_overlay_sha256':digest(washington.read_bytes()) if washington.exists() else None,'local_minutes_overlay_sha256':digest(local_minutes.read_bytes()) if local_minutes.exists() else None,'solano_overlay_sha256':digest(solano.read_bytes()) if solano.exists() else None,'monterey_park_overlay_sha256':digest(monterey.read_bytes()) if monterey.exists() else None,'irwindale_overlay_sha256':digest(irwindale.read_bytes()) if irwindale.exists() else None,'covina_overlay_sha256':digest(covina.read_bytes()) if covina.exists() else None,'nh_version_overlay_sha256':digest(nh_version.read_bytes()) if nh_version.exists() else None,'nh_text_overlay_sha256':digest(nh_text.read_bytes()) if nh_text.exists() else None,'wv_authority_overlay_sha256':digest(wv_authority.read_bytes()) if wv_authority.exists() else None,'tennessee_overlay_sha256':digest(tennessee.read_bytes()) if tennessee.exists() else None,'georgia_overlay_sha256':digest(georgia.read_bytes()) if georgia.exists() else None,'ne_transfer_overlay_sha256':digest(ne_transfer.read_bytes()) if ne_transfer.exists() else None,'lb613_overlay_sha256':digest(lb613.read_bytes()) if lb613.exists() else None,'nebraska_overlay_sha256':digest(nebraska.read_bytes()) if nebraska.exists() else None,'wy_retained_overlay_sha256':digest(wy_retained.read_bytes()) if wy_retained.exists() else None,'foley_overlay_sha256':digest(foley.read_bytes()) if foley.exists() else None,'petersburg_overlay_sha256':digest(petersburg.read_bytes()) if petersburg.exists() else None,'alabama_overlay_sha256':digest(alabama.read_bytes()) if alabama.exists() else None,'arizona_overlay_sha256':digest(arizona.read_bytes()) if arizona.exists() else None,'va_wy_overlay_sha256':digest(va_wy.read_bytes()) if va_wy.exists() else None,'colorado_overlay_sha256':digest(colorado.read_bytes()) if colorado.exists() else None,'scope':'Mechanical index of previously recorded residual questions, with explicit published post-release overlays. Not a new source review, factual classification, prioritization or admission of new searches. Retired IDs remain in the identity/disposition history. Held ballot payloads are separately accounted; do not add them as distinct canonical measures.'}
+    summary['policy_reviewed_batch_application_sha256']=digest(policy_batch_path.read_bytes()) if policy_batch_path.exists() else None
     summary['lb613_introducer_sha256']=digest(lb613_introducer_path.read_bytes()) if lb613_introducer_path.exists() else None
     summary['ma_conference_discovery_sha256']=digest(ma_conference_discovery.read_bytes()) if ma_conference_discovery.exists() else None
     summary['cromwell_later_proposal_sha256']=digest(cromwell_path.read_bytes()) if cromwell_path.exists() else None

@@ -74,7 +74,7 @@ These are raw observations with separate legal forms and review scopes. A bill, 
 | HB1206 (2026 RS) | bill | failed_died | 2026-04-28 |
 | HB827 (2024 RS), Act 730 | bill | enacted | 2024-06-19 |
 | HB922 (2026 RS) | bill | failed_died | 2026-04-21 |
-| HCR61 (2025 RS) | legislative_resolution | unknown | 2025-06-09 |
+| HCR61 (2025 RS) | legislative_resolution | failed_died | 2025-06-09 |
 | SB79 (2025 RS), Act 36 | bill | enacted | 2025-06-04 |
 
 ### HB1206 (2026 RS)
@@ -117,10 +117,10 @@ These are raw observations with separate legal forms and review scopes. A bill, 
 
 - **Policy ID:** `la-hcr61-2025-rs`
 - **Sponsor / party:** Rep. Kimberly Coates; R (LA House Republican)
-- **Recorded status:** House adopted 93-0 on 2025-06-08; Senate received it that day and returned it to the calendar subject to call on 2025-06-09. The baseline reports that it died at adjournment; final disposition remains unverified.
+- **Recorded status:** The retained named history records House adoption 93-0 on June 8, 2025, and a last recorded Senate action on June 9: return to the calendar subject to call. Searches of extracted June 10–12 Senate journal text, including the final-day post-session appendix, identified no HCR 61 action. The Senate adjourned sine die on June 12 at 5:52 p.m. Historical regular-session nonpassage is a bounded inference from these records, not a bill-specific Died event.
 - **Provisions:** In the June 4 reengrossed proposal, a special task force would study interagency consultation for data centers and natural resource planning, including water and energy impacts; the House subsequently amended the resolution.
 - **Mechanism / scope:** other; unknown
-- **Legal effect:** unknown
+- **Legal effect:** failed
 - **Effective date:** —
 - **End condition and limitations:** —
 - **Primary reference:** [Official source](<https://www.legis.la.gov/legis/BillInfo.aspx?s=25RS&b=HCR61>)

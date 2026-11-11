@@ -555,7 +555,7 @@ These are raw observations with separate legal forms and review scopes. A bill, 
 - **Provisions:** The original bill proposed a qualified data-center sales-tax exemption with a $250 million minimum investment; the enacted House substitute instead concerns information technology services and audit reports, including adding the chief information security officer as a recipient.
 - **Mechanism / scope:** other; state_agency
 - **Legal effect:** unknown
-- **Effective date:** —
+- **Effective date:** 2026-07-01
 - **End condition and limitations:** Original 2025 proposal: sales-tax exemption terms of 15, 30 or 60 years after commencement of operations according to investment; confidentiality provisions had a conditional July 1, 2030 expiration. These are not sunsets of the enacted House substitute.
 - **Primary reference:** [Official source](<https://www.kslegislature.gov/b2025_26/bills/sb51/>)
 
@@ -603,7 +603,7 @@ These are raw observations with separate legal forms and review scopes. A bill, 
 - **Provisions:** Enrolled act extends from July 1, 2026 to July 1, 2027 the sunset of existing parallel-generation provisions for new or expanded facilities receiving service at 34.5 kV or more and commencing service on or after July 1, 2025. The existing subsection also excludes additional demand of qualifying industrial, commercial and data center facilities from the specified historic peak-demand calculation.
 - **Mechanism / scope:** utility_large_load_restriction; utility_grid
 - **Legal effect:** unknown
-- **Effective date:** —
+- **Effective date:** 2026-07-01
 - **End condition and limitations:** Enrolled subsection 66-1,184(i) expires July 1, 2027; this is a subsection sunset, not an act-wide expiration.
 - **Primary reference:** [Official source](<https://www.kslegislature.gov/b2025_26/bills/sb92/>)
 
@@ -612,7 +612,7 @@ These are raw observations with separate legal forms and review scopes. A bill, 
 - **Policy ID:** `ks-sb-98-2025`
 - **Sponsor / party:** Senate Committee on Commerce [VERIFY original sponsorship]; conference committee process included Sens. Larry Alley and Mike Petersen and Reps. Shannon Francis, Robyn Essex, Henry Helgerson, and Sean Tarwater per kslegislature.gov bill page; Committee bill
 - **Recorded status:** Conference Committee Report adopted by both chambers on 2025-04-11 (Senate Yea 26 Nay 8; House Yea 85 Nay 37); enrolled and presented to Governor 2025-04-18; approved by the Governor on 2025-04-24.
-- **Provisions:** Enrolled act created a qualified data center sales tax exemption for construction, equipment, eligible costs and certain labor, subject to a $250 million investment commitment, jobs and other conditions; eligible costs exclude electricity. It also limits a specified economic-development electric-rate discount and requires fusion-center review and approval before public financial assistance or benefits.
+- **Provisions:** Enrolled act created a qualified data center sales tax exemption for construction, equipment, eligible costs and certain labor, subject to a $250 million investment commitment, jobs and other conditions; eligible costs exclude electricity. It also limits a specified economic-development electric-rate discount and requires fusion-center review and approval before public financial assistance or benefits. K.S.A. 74-50,333(a) and Revenue Notice 25-03 apply the exemption to qualified purchases made on or after July 1, 2025; approval still requires Commerce certification.
 - **Mechanism / scope:** incentive_support; fiscal
 - **Legal effect:** unknown
 - **Effective date:** —

@@ -2,13 +2,13 @@
   "schema_version": "1.0.0",
   "analytical_scope": "data-center infrastructure policy analytical census",
   "inputs": {
-    "raw_csv_sha256": "2326a0e5a87a02e8db6af9690bad46e3c920c549778ba9832b8c9c9d462c64a1",
-    "registry_sha256": "903576b344fa2eb1ecc6a30ab4fc428c066c05e494aef4c2c2eefddeeb5b8960"
+    "raw_csv_sha256": "e84f835c4589b1434e2cfe3ffd8517d94eba38e253cb2099e80419a15dd4e755",
+    "registry_sha256": "92e4cc81a6c6064f586ddb032b579182a4cf13212792512c40f5804e140ea56f"
   },
-  "raw_observation_count": 448,
+  "raw_observation_count": 449,
   "partitions": {
     "reviewed_include": {
-      "count": 383,
+      "count": 384,
       "policy_action_ids": [
         "al-hb399-2026",
         "al-hb403-2026",
@@ -131,6 +131,7 @@
         "ky-sb-197-2026-rs",
         "ky-sb-319-2026-rs",
         "ky-sb-330-2026-rs",
+        "ky-executive-order-2026-494-2026",
         "la-hb1206-2026-rs",
         "la-hb827-2024-rs-act-730",
         "la-hb922-2026-rs",
@@ -475,11 +476,11 @@
       "policy_action_ids": []
     }
   },
-  "candidate_pool_count": 429,
+  "candidate_pool_count": 430,
   "artifacts_sha256": {
-    "all-annotated.csv": "edcbc8e36b77e63844efdc115842691761b135921a2d42d0ecc7dd7aaca6874b",
-    "reviewed-included.csv": "92852fe2b2bf9da07c9c58a204081a5e044d4c79564a1d2aaa7f1260c9dea302",
-    "not-explicitly-excluded-candidates.csv": "aa8b65339aeb0c074d9f81b34403f1e5aab7a8d597d9f2fcade4c3b725add741"
+    "all-annotated.csv": "af89e6d71246e39c71dafd40b39fd049c99bab9da016309402a8069cf8bf1311",
+    "reviewed-included.csv": "55c8686593262163f506ebb0fb147a8774cc2c291b6d338617d30f80bb319499",
+    "not-explicitly-excluded-candidates.csv": "608c82bdee68d336091d5460ebcaab7c9f97362b0778cc513ab7a8966909455c"
   },
   "caveat": "Rows are historical observations, not a unique instrument census. The candidate pool is not reviewed inclusion. Scope review does not establish freshness or current legal force."
 }

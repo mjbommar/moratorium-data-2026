@@ -7,7 +7,7 @@ Working inventory for Kentucky, generated **November 10, 2026**. Record-level re
 
 These counts reflect inventory classifications and do not establish current enforceability.
 
-State policy is tracked separately: **8 records** (8 typed bill rows) in [`state_legislation.csv`](../data/state_legislation.csv). These raw historical observations retain any reviewed scope exclusions and are not included in the local count above. Use the [separate scope exports](../docs/policy-scope-exports.md) for scope-review status; the candidate pool is not reviewed infrastructure inclusion.
+State policy is tracked separately: **9 records** (8 typed bill rows and 1 non-bill row) in [`state_legislation.csv`](../data/state_legislation.csv). These raw historical observations retain any reviewed scope exclusions and are not included in the local count above. Use the [separate scope exports](../docs/policy-scope-exports.md) for scope-review status; the candidate pool is not reviewed infrastructure inclusion.
 
 | Jurisdiction | Type | Enacted | Sectors | Recorded status |
 |---|---|---|---|---|
@@ -598,6 +598,7 @@ These are raw observations with separate legal forms and review scopes. A bill, 
 
 | Observation | Legal form | Recorded stage | Last recorded action |
 |---|---|---|---|
+| Executive Order 2026-494 (2026) | executive_order | enacted | 2026-08-06 |
 | HB 372 (2021 RS) | bill | vetoed | 2021-04-09 |
 | HB 544 (2026 RS) | bill | failed_died | 2026-02-10 |
 | HB 593 (2026 RS) | bill | failed_died | 2026-03-31 |
@@ -606,6 +607,18 @@ These are raw observations with separate legal forms and review scopes. A bill, 
 | SB 197 (2026 RS) | bill | enacted | 2026-04-27 |
 | SB 319 (2026 RS) | bill | failed_died | 2026-03-02 |
 | SB 330 (2026 RS) | bill | failed_died | 2026-03-02 |
+
+### Executive Order 2026-494 (2026)
+
+- **Policy ID:** `ky-executive-order-2026-494-2026`
+- **Sponsor / party:** Governor Andy Beshear; —
+- **Recorded status:** Governor-signed order dated August 6, 2026; official journal lists the padded number 2026-0494 as filed August 6, 2026, and the filed copy includes the attestation/seal and received-and-filed stamp. The order expressly states effectiveness August 6, 2026; subsequent legal force remains unverified.
+- **Provisions:** Requires data-center developers to submit energy plans protecting residential ratepayers and assuring energy needs can be met now, in the near term and long term without additional costs to other utility ratepayers. Directs the Public Service Commission not to allow utilities to increase rates paid by other ratepayers to recover costs caused by data-center development and operation. Directs the Energy and Environment Cabinet to deny permit applications where a data center would negatively affect listed environmental resources and requires compliance with applicable environmental laws and public-engagement requirements. Requires tax and community-engagement commitments and preserves local-community decisions on data-center operations. The order does not establish a categorical moratorium or repeal all statutory incentives.
+- **Mechanism / scope:** other; mixed
+- **Legal effect:** unknown
+- **Effective date:** 2026-08-06
+- **End condition and limitations:** No express end date identified in the complete two-page order. Later amendment, rescission, judicial developments and actual project applicability remain unverified.
+- **Primary reference:** [Official source](<https://web.sos.ky.gov/execjournalimages/2026-MISC-2026-0494-301849.pdf>)
 
 ### HB 372 (2021 RS)
 

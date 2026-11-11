@@ -16,9 +16,9 @@ version is counted as an enactment, and H 4144 retains its separate study-order 
 
 ### Record review and current-force limits
 
-All 1776 raw IDs now have review accounting. The 1775 surviving original IDs
+All 1777 raw IDs now have review accounting. The 1775 surviving original IDs
 have primary and independent artifacts; the new Massachusetts observation has
-direct source review with independent QA pending. These are the current 1328 local and 448 state-policy records. The
+direct source review with independent QA pending. The Kentucky executive-order addition has independent historical field review and retains later-force questions. These are the current 1328 local and 449 state-policy records. The
 [full-inventory application](../work/research/2026-11-08/full-inventory-integrated-application/README.md)
 records exact corrections, zero pending cells in the remaining-cohort queue and
 full repository consistency checks. Those facts do not establish complete discovery,

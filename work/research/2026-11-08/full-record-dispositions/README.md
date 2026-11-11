@@ -1,8 +1,8 @@
 # Full raw-record review dispositions
 
-The [funnel](funnel.json) assigns one disposition to each of the **1,776 active raw IDs**:
-**1,347 unresolved, 190 corrected-resolved, 239 confirmed-unchanged, zero active superseded
-duplicates and zero not-attempted**. The original release reviewed 225 earlier and 1,552 remaining IDs. Post-release QA retires two source-proven duplicates, retaining its original row and permanent ID as an alias. The current funnel exactly covers the 1,776 active IDs, including one post-release addition whose independent QA is pending. This is
+The [funnel](funnel.json) assigns one disposition to each of the **1,777 active raw IDs**:
+**1,347 unresolved, 191 corrected-resolved, 239 confirmed-unchanged, zero active superseded
+duplicates and zero not-attempted**. The original release reviewed 225 earlier and 1,552 remaining IDs. Post-release QA retires two source-proven duplicates, retaining its original row and permanent ID as an alias. The current funnel exactly covers the 1,777 active IDs, including two post-release additions: Massachusetts independent QA remains pending; Kentucky has independent historical field review and unknown subsequent legal force. This is
 bounded record/source accounting, not a universal current-law certification.
 
 Unresolved means a real source review retained identity, term, later-history or
@@ -31,4 +31,4 @@ The [post-release Maine disposition audit](../../2026-11-09/post-release-qa/main
 
 The [55-record terminal-bill audit](../../2026-11-09/post-release-qa/terminal-residual-audit.json) confirms two South Dakota named records after matching session-specific party evidence, and preserves 53 specific holds. Different successor instruments remain outside each named failed-bill disposition; real field, status and procedural gaps remain indexed.
 
-The post-release addition cohort is separate from the frozen original 225/1552 cohorts. Its [direct review](../../2026-11-09/post-release-qa/post-release-new-record-reviews.json) is not represented as independent acceptance.
+The post-release addition cohort is separate from the frozen original 225/1552 cohorts. Its [review registry](../../2026-11-09/post-release-qa/post-release-new-record-reviews.json) distinguishes Massachusetts direct review with independent QA pending from Kentucky independent historical field review. Neither certifies comprehensive current force.
