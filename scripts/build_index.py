@@ -261,7 +261,7 @@ def dashboard_section(f: dict) -> str:
 <div class="qa-note"><strong>{unresolved:,} record reviews remain unresolved.</strong>
 {dispositions['corrected_resolved']:,} are corrected/resolved and {dispositions['confirmed_unchanged']:,} confirmed unchanged within their recorded review scopes. Searches do not establish a complete nationwide census. Original cohort cutoff: {SOURCE_LABEL}; targeted later captures have their own dates.
 <a href="docs/known-gaps.html">Read the limitations</a> and <a href="work/research/2026-11-09/post-release-qa/outstanding-record-questions.jsonl">download the remaining questions</a>.
-The newly recovered <a href="work/research/2026-11-10/post-release-qa/kentucky-incentive-implementation-review.json">Kentucky executive-order candidate</a> awaits independent review and canonical integration; it is outside the policy count above.</div>
+<a href="states/kentucky.html">Kentucky Executive Order 2026-494</a> is included as a historical policy observation; its later legal force remains unverified.</div>
 </section>
 {DASHBOARD_END}'''
 
