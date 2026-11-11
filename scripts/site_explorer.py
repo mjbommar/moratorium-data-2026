@@ -22,8 +22,8 @@ def explorer():
       <label>Recorded status<select id="record-status"><option value="">All statuses</option></select></label>
     </div>
     <div class="explorer-actions"><button type="button" id="record-reset">Clear filters</button><button type="button" id="record-export">Export matching records (CSV)</button><span id="record-count" role="status" aria-live="polite"></span></div>
-    <div class="record-table-scroll" tabindex="0" role="region" aria-label="Moratorium records; scroll horizontally for more columns">
-      <table class="record-table"><caption>Local moratorium records. Select a column heading to sort.</caption><thead><tr>
+    <div class="record-table-scroll" tabindex="0" role="region" aria-label="Moratorium records; scroll for more records and columns">
+      <table class="record-table"><caption>Local moratorium records. Scroll within the table for more rows. Select a column heading to sort.</caption><thead><tr>
         <th scope="col" aria-sort="ascending"><button data-sort="jurisdiction" type="button">Place ↕</button></th>
         <th scope="col"><button data-sort="state" type="button">State ↕</button></th>
         <th scope="col"><button data-sort="sectors" type="button">Sector ↕</button></th>
