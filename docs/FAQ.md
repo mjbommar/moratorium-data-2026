@@ -79,7 +79,7 @@ If you publish something based on this data, we'd love to hear about it — drop
 
 ## How often is this updated?
 
-The latest qualified release is [v2026.11.11.post10](https://github.com/mjbommar/moratorium-data-2026/releases/tag/v2026.11.11.post10), prepared November 11 with publication verification pending. Post9/V43 remains the verified public edition. Sixteen fields across three local records are corrected: Morgan Township, Ohio has exact March 23 adoption, Resolution 25-2026 and a twelve-month calendar term; Adams Township, Butler County PA distinguishes the June 22 invalidity motion and July 13 Resolution 2026-09 approval; Butler County, Nebraska records the April 6 Sandhills exemption and distinct Planning Commission plan label. Executed terms, effective/ending conditions and later force remain qualified. No status, endpoint, count, VERIFY or native-history changes, and no whole-record closures. There remain 1,346 unresolved reviews.
+The latest qualified release is [v2026.11.11.post10](https://github.com/mjbommar/moratorium-data-2026/releases/tag/v2026.11.11.post10), published November 11 with explicit ongoing QA. Two identical builds, eight full restore checks across 49 generations, ten public downloads and independent V44 checks pass. Website verification is pending; post9 remains the verified website edition. Original research cutoff and September baseline are unchanged.
 
 ## Who built this?
 
