@@ -1,6 +1,6 @@
 # Changelog
 
-## Qualified v2026.11.10.post17 — delivery pending
+## Qualified v2026.11.10.post17 — website verification pending
 
 - Seven prose cells across Burien and Howard County correct historical hearing/vote descriptions, alternative sunset conditions and exceptions using independently reviewed primary evidence.
 - No category, normalized date, raw identity, headline total, scope membership or native ballot-history changes; no whole-record closure. 1,347 source-specific reviews remain unresolved.

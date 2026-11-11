@@ -1,0 +1,307 @@
+{
+  "source_commit": "1e241a08f83128c1bd562daec803f6f14e0b0adc",
+  "manifest_sha256": "a764385fe022e1fc260eaf95aa118baa7112559d8d30043b9814bd361d68509b",
+  "expanded_snapshot": "3ce33d22288fa7bc7100c9ac621c041037702e8370af1e663d53a548ff794725",
+  "current_counts": {
+    "moratorium_records": 1328,
+    "state_policy_records": 449,
+    "ballot_measures": 57,
+    "retained_results": 65,
+    "current_results": 53,
+    "retained_events": 12,
+    "current_accepted_historical_events": 12,
+    "restriction_records": 3,
+    "measure_instrument_link_records": 1
+  },
+  "files": 2632,
+  "entries": 2850,
+  "verified_at": "2026-11-11T03:39:03.226381+00:00",
+  "consumer_verification": {
+    "handoff": {
+      "state": "verified",
+      "source_commit": "1e241a08f83128c1bd562daec803f6f14e0b0adc",
+      "manifest_sha256": "a764385fe022e1fc260eaf95aa118baa7112559d8d30043b9814bd361d68509b",
+      "expanded_snapshot": "3ce33d22288fa7bc7100c9ac621c041037702e8370af1e663d53a548ff794725",
+      "files": 2632,
+      "entries": 2850,
+      "checks": [
+        {
+          "command": [
+            "scripts/check_expanded_publication.py"
+          ],
+          "exit_code": 0,
+          "result": {
+            "state": "consistent",
+            "snapshot_sha256": "3ce33d22288fa7bc7100c9ac621c041037702e8370af1e663d53a548ff794725",
+            "generations_checked": 49,
+            "records": {
+              "jurisdictions": 53,
+              "elections": 51,
+              "ballot_measures": 57,
+              "measure_provisions": 52,
+              "measure_results": 65,
+              "local_restrictions": 3,
+              "instrument_events": 12,
+              "measure_instrument_links": 1,
+              "source_documents": 168,
+              "claims": 625,
+              "review_decisions": 2756,
+              "search_runs": 1,
+              "search_attempts": 3,
+              "search_sightings": 18,
+              "coverage_observations": 1
+            },
+            "scope": "Offline publication/receipt consistency only; no source reacquisition, renewed factual acceptance or current-force confirmation."
+          }
+        },
+        {
+          "command": [
+            "scripts/build_expanded_csv.py",
+            "--check"
+          ],
+          "exit_code": 0,
+          "result": {
+            "state": "matches",
+            "source_snapshot": "3ce33d22288fa7bc7100c9ac621c041037702e8370af1e663d53a548ff794725",
+            "projection_sha256": "7b585b49998f8ca39b0ff433fe15c34335ea171bdd8960af1e7e9fdcf852f6cb",
+            "csv_views": 18
+          }
+        },
+        {
+          "command": [
+            "scripts/build_policy_scope_exports.py",
+            "--check"
+          ],
+          "exit_code": 0,
+          "result": "policy-scope exports current"
+        }
+      ],
+      "checks_run": true,
+      "scope": "Pinned input integrity and offline publication consistency, not source reacquisition or downstream join acceptance."
+    },
+    "policy_semantics": {
+      "total_state_policy_actions": 449,
+      "total_state_bills": 427,
+      "state_policy_instrument_type_counts": {
+        "bill": 427,
+        "executive_order": 3,
+        "governor_directive": 1,
+        "legislative_amendment": 1,
+        "legislative_precursor": 3,
+        "legislative_resolution": 12,
+        "statute": 2
+      },
+      "top_states_by_bills": [
+        [
+          "Pennsylvania",
+          18
+        ],
+        [
+          "Virginia",
+          18
+        ],
+        [
+          "West Virginia",
+          18
+        ],
+        [
+          "Maryland",
+          16
+        ],
+        [
+          "New Jersey",
+          16
+        ],
+        [
+          "California",
+          14
+        ],
+        [
+          "South Dakota",
+          14
+        ],
+        [
+          "Arizona",
+          13
+        ],
+        [
+          "Iowa",
+          13
+        ],
+        [
+          "Michigan",
+          13
+        ],
+        [
+          "Minnesota",
+          12
+        ],
+        [
+          "Ohio",
+          12
+        ],
+        [
+          "Oklahoma",
+          12
+        ],
+        [
+          "Illinois",
+          11
+        ],
+        [
+          "Kansas",
+          11
+        ]
+      ],
+      "top_states_by_policy_actions": [
+        [
+          "Pennsylvania",
+          22
+        ],
+        [
+          "Virginia",
+          18
+        ],
+        [
+          "West Virginia",
+          18
+        ],
+        [
+          "Maryland",
+          17
+        ],
+        [
+          "New Jersey",
+          17
+        ],
+        [
+          "California",
+          14
+        ],
+        [
+          "Michigan",
+          14
+        ],
+        [
+          "South Dakota",
+          14
+        ],
+        [
+          "Arizona",
+          13
+        ],
+        [
+          "Iowa",
+          13
+        ],
+        [
+          "Kansas",
+          12
+        ],
+        [
+          "Minnesota",
+          12
+        ],
+        [
+          "Ohio",
+          12
+        ],
+        [
+          "Oklahoma",
+          12
+        ],
+        [
+          "Illinois",
+          11
+        ]
+      ]
+    }
+  },
+  "index_verification": {
+    "snapshot": "data/source-snapshots/moratoria/2026-11-10-reviewed-v32",
+    "source_commit": "1e241a08f83128c1bd562daec803f6f14e0b0adc",
+    "manifest_sha256": "a764385fe022e1fc260eaf95aa118baa7112559d8d30043b9814bd361d68509b",
+    "tracked_files_and_symlinks": 2633,
+    "exact_staged_git_blob_bytes_and_modes": true,
+    "scope": "Exact staged snapshot content, Git modes and path set against the pinned manifest, including the manifest itself. This is not an independent legal review."
+  },
+  "baseline_handoff": "V31",
+  "expanded_tables_byte_identical": true,
+  "changed_cells": 7,
+  "changed_local_cells": 7,
+  "changed_policy_cells": 0,
+  "changed_local_rows": 2,
+  "changed_policy_rows": 0,
+  "new_policy_rows": 0,
+  "status_category_changes": 0,
+  "legal_effect_status_changes": 0,
+  "normalized_date_changes_existing": 0,
+  "scope_membership_additions": 0,
+  "whole_record_closures": 0,
+  "unresolved_records": 1347,
+  "corrected_resolved_records": 191,
+  "confirmed_unchanged_records": 239,
+  "September_status_differences": {
+    "local": 99,
+    "policy": 34,
+    "total": 133
+  },
+  "field_changes": [
+    {
+      "dataset": "local",
+      "id": "md-howard-county-2026",
+      "field": "duration",
+      "before": "Ends at the earliest specified policy milestone or 2027-11-02",
+      "after": "Section 6.I provides alternative sunset triggers: (1) once the task force issues a recommendation AND a Zoning Regulation text amendment has been passed into law; OR (2) once the Comprehensive Rezoning process has concluded; OR (3) no later than November 2, 2027. The amendment strikes “18 months after the Effective Date of this Act” and adds “November 2, 2027.”"
+    },
+    {
+      "dataset": "local",
+      "id": "md-howard-county-2026",
+      "field": "current_status",
+      "before": "Active as of 2026-09-23. CB31-2026 took effect 2026-08-04 as scheduled; Howard County Planning and Zoning has since been barred from accepting, reviewing, approving, or advancing new data-processing-center development plans through 2027-11-02 (absent earlier permanent zoning legislation). The County Executive is to appoint the 11-member SMART Data Center Task Force (with union, utility, water, environmental, and data-center-industry representation) by executive order following a public application process; the task force must hold a public hearing before completing its work.",
+      "after": "Source-only description: During the Effective Period, §1 bars acceptance of plan submissions for proposed development of a data processing and telecommunications center, subject to §6.E. Section 1, as amended, does not prohibit redlines to a previously approved development plan OR administrative approvals associated with an existing building AND a previously approved development plan. Section 6.D states that site-development-plan applications made to the Department under the specified development-review process and filed after the Effective Date may not proceed and shall not be considered for plan approval. Section 6.E says the Act does not apply to any State or local government entity or allied agencies, including HCPSS, HCC and HCLS. Section 2 separately makes its restriction subject to the exception for emergency legislation under the County Charter OR a zoning regulation text amendment introduced after receipt of the task force recommendations. Occurrence of sunset triggers and current legal force remain unverified."
+    },
+    {
+      "dataset": "local",
+      "id": "md-howard-county-2026",
+      "field": "outcome",
+      "before": "County Council passed CB31-2026 as amended on 2026-06-01; County Executive Calvin Ball signed it 2026-06-04; it took effect 2026-08-04 and, unless superseded by earlier zoning legislation, remains in force through 2027-11-02.",
+      "after": "The act records passage with amendments on June 1, 2026, executive approval on June 4, 2026, and an effective date of August 4, 2026. Its alternative sunset provisions are the conjunctive task-force-recommendation and enacted-text-amendment trigger, conclusion of Comprehensive Rezoning, or no later than November 2, 2027. Occurrence of earlier triggers and present force remain unverified."
+    },
+    {
+      "dataset": "local",
+      "id": "wa-burien-2026",
+      "field": "date_enacted",
+      "before": "City Council adopted Ordinance 905 by a 6-0 vote on 2026-06-29, effective immediately.",
+      "after": "June 29, 2026: City Council minutes report unanimous adoption of Ordinance 905 and list six councilmembers present. The ordinance states immediate effectiveness upon passage."
+    },
+    {
+      "dataset": "local",
+      "id": "wa-burien-2026",
+      "field": "duration",
+      "before": "One-year moratorium in all city districts on accepting, processing, or approving applications to establish, expand, or change a use to a data center with capacity exceeding 20 MVA. Preserves vested rights for complete permit applications filed before the effective date. Public hearing scheduled for 2026-07-13.",
+      "after": "One-year moratorium in all city districts on accepting, processing, or approving applications to establish, expand, or change a use to a data center with capacity exceeding 20 MVA. Preserves vested rights for complete permit applications filed before the effective date. Draft July 13 minutes included in the July 27 agenda packet report that the hearing was held; that packet does not independently establish approval of those minutes."
+    },
+    {
+      "dataset": "local",
+      "id": "wa-burien-2026",
+      "field": "current_status",
+      "before": "Ordinance 905 records June 29 adoption and immediate effect upon passage. Section Four states one year from effectiveness, subject to extension or earlier termination. The operative definition uses capacity in excess of 20 MVA, not MW. Later amendments, operative interval and current force remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]",
+      "after": "Ordinance 905 records June 29 adoption and immediate effect upon passage. Section Four states one year from effectiveness, subject to extension or earlier termination. The operative definition uses capacity in excess of 20 MVA, not MW. Draft July 13 minutes included in the July 27 agenda packet report a public hearing from 6:37 to 6:44 p.m. with public comments; approval of those draft minutes is not independently established by that packet. Later amendments, operative interval and current force remain unresolved. [VERIFY: operative interval, later amendments/extensions/repeal, judicial developments and current legal force.]"
+    },
+    {
+      "dataset": "local",
+      "id": "wa-burien-2026",
+      "field": "outcome",
+      "before": "",
+      "after": "City Council adopted Ordinance 905 unanimously on June 29, 2026; six councilmembers were listed as present. Draft July 13 minutes included in the July 27 agenda packet report that Council held the data-center moratorium public hearing and received comments. The supplied packet excerpts do not independently establish approval of the draft minutes, a change to the moratorium or later legal force."
+    }
+  ],
+  "added_records": [],
+  "trusted_verifier_sha256": "ebecf851d4196715df186cc81cc3c933ab7da550fbafd7207996cd94b9cd2739",
+  "scope": "Qualified post17: seven independently reviewed local prose cells across Burien and Howard County. No category/date changes, additions or whole-record closures. Later-force, held ballot and Massachusetts QA questions remain.",
+  "consumer_commit": "237a88680571e50d054c2b2ca996c57704e213d1",
+  "release_url": "https://github.com/mjbommar/moratorium-data-2026/releases/tag/v2026.11.10.post17",
+  "release_manifest_sha256": "8a78a0c7030105d64bfdb10ce0abd620a80c3e4623fdb16ab8f540eae29290cb",
+  "hosted_copy_state": "pending"
+}

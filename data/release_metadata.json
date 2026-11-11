@@ -20,7 +20,7 @@
   "consumer_dispositions": "delivered_with_historical_editions_preserved",
   "experimental_extractor": "failed_no_automatic_promotion",
   "quality_gate_disposition": "User authorized publication of the current state with qualifications on pending QA, followed by continued double checking and resolution of outstanding questions.",
-  "reviewed_data_source_commit": "b1fb539aa8da2ba6b50b588e1f7c542c76b6bc18",
+  "reviewed_data_source_commit": "1e241a08f83128c1bd562daec803f6f14e0b0adc",
   "record_dispositions": {
     "unresolved": 1347,
     "corrected_resolved": 191,
@@ -31,7 +31,7 @@
   "record_disposition_path": "work/research/2026-11-08/full-record-dispositions/funnel.json",
   "qa_status": "ongoing",
   "publication_authorization": "publish current state with qualifications on pending QA, then continue to double check and clear the outstanding questions",
-  "working_revision": "post17-prepared-pending-delivery",
+  "working_revision": "post17-data-consumer-delivered-hosting-pending",
   "current_raw_counts": {
     "local": 1328,
     "state_policy": 449,
@@ -39,18 +39,18 @@
   },
   "prior_release": "v2026.11.10.post16",
   "prior_release_source_commit": "b1fb539aa8da2ba6b50b588e1f7c542c76b6bc18",
-  "prior_published_source_commit": "a7165fee6e433945a598222fedd95d7d2e300e70",
-  "published_source_reference": "Qualified post16 pins b1fb539aa8da2ba6b50b588e1f7c542c76b6bc18; deterministic builds, clean restore, ten anonymous downloads, V31 and complete hosted copy verified. Hosted source 66b845a40e58964b398b6008a0a3ca3d5f125043; receipt work/research/2026-11-10/release-2026.11.10.post16/hosted-copy-verification.json. Pending substantive QA remains explicit.",
+  "prior_published_source_commit": "b1fb539aa8da2ba6b50b588e1f7c542c76b6bc18",
+  "published_source_reference": "Qualified post17 pins 1e241a08f83128c1bd562daec803f6f14e0b0adc; deterministic builds, full clean restore, ten anonymous downloads and V32 verified. Full hosted checks pending; verified website remains post16. No universal freshness/current-force claim.",
   "latest_consumer_handoff": {
-    "source_commit": "b1fb539aa8da2ba6b50b588e1f7c542c76b6bc18",
-    "manifest_sha256": "6a44c7ad44d4a7843dd710499ccf2368409745b9ceff14c6dbc84088eb5b9f39",
+    "source_commit": "1e241a08f83128c1bd562daec803f6f14e0b0adc",
+    "manifest_sha256": "a764385fe022e1fc260eaf95aa118baa7112559d8d30043b9814bd361d68509b",
     "trusted_verifier_sha256": "ebecf851d4196715df186cc81cc3c933ab7da550fbafd7207996cd94b9cd2739",
-    "scope": "Qualified post16: ten independently reviewed policy corrections and Kentucky historical order admission. Louisiana original session disposition closes at qualified inference level. Other later-force/applicability, held ballot and Massachusetts QA questions remain.",
-    "consumer_commit": "31dc009efd9480484628c539f685e737d52d712a",
-    "receipt": "work/research/2026-11-10/post-release-qa/consumer-v31-handoff.json"
+    "scope": "Qualified post17: seven independently reviewed local prose cells across Burien and Howard County. No category/date changes, additions or whole-record closures. Later-force, held ballot and Massachusetts QA questions remain.",
+    "consumer_commit": "237a88680571e50d054c2b2ca996c57704e213d1",
+    "receipt": "work/research/2026-11-10/post-release-qa/consumer-v32-handoff.json"
   },
   "release_date_timezone": "America/New_York",
-  "published_source_commit": "b1fb539aa8da2ba6b50b588e1f7c542c76b6bc18",
+  "published_source_commit": "1e241a08f83128c1bd562daec803f6f14e0b0adc",
   "september_status_category_differences": {
     "local": 99,
     "policy": 34,
@@ -59,22 +59,25 @@
   },
   "latest_geography_review": "work/research/2026-11-09/post-release-qa/nonblank-geography-application.json",
   "latest_delivered_consumer_input_delta": {
-    "state": "delivered_data_consumer_and_hosted_verified",
-    "receipt": "work/research/2026-11-10/post-release-qa/policy-reviewed-batch-application.json",
-    "prior_verified_release": "v2026.11.10.post15",
-    "canonical_cells_changed": 10,
-    "new_policy_records": 1,
-    "whole_record_closures": 1,
-    "scope": "Historical field corrections and Kentucky admission; later-force qualifications retained. Native history unchanged.",
-    "changed_cells": 10,
-    "changed_local_rows": 0,
-    "changed_policy_rows": 8,
-    "status_category_changes": 1,
-    "normalized_date_changes": 2,
-    "delivered_source_commit": "b1fb539aa8da2ba6b50b588e1f7c542c76b6bc18",
-    "delivered_consumer_commit": "31dc009efd9480484628c539f685e737d52d712a",
-    "delivery_receipt": "work/research/2026-11-10/post-release-qa/consumer-v31-handoff.json",
-    "hosted_copy_state": "verified"
+    "state": "delivered_data_consumer_pending_hosted_verification",
+    "receipt": "work/research/2026-11-10/post-release-qa/howard-amended-act-application.json",
+    "prior_verified_release": "v2026.11.10.post16",
+    "changed_cells": 7,
+    "changed_local_rows": 2,
+    "changed_policy_rows": 0,
+    "status_category_changes": 0,
+    "normalized_date_changes": 0,
+    "whole_record_closures": 0,
+    "scope": "Four Burien hearing/vote prose cells and three Howard County sunset/exception prose cells. Headline totals, categories, normalized dates and native governance unchanged. Later-force questions remain. Pending synchronized delivery.",
+    "receipts": [
+      "work/research/2026-11-10/post-release-qa/burien-july-hearing-reviewed-application.json",
+      "work/research/2026-11-10/post-release-qa/howard-amended-act-application.json"
+    ],
+    "target_release": "v2026.11.10.post17",
+    "delivered_source_commit": "1e241a08f83128c1bd562daec803f6f14e0b0adc",
+    "delivered_consumer_commit": "237a88680571e50d054c2b2ca996c57704e213d1",
+    "delivery_receipt": "work/research/2026-11-10/post-release-qa/consumer-v32-handoff.json",
+    "hosted_copy_state": "pending"
   },
   "latest_source_followup": "work/research/2026-11-10/post-release-qa/kentucky-incentive-implementation-review.json",
   "latest_expanded_candidate_review": "work/research/2026-11-09/starke-succession-review/validation.json",
@@ -98,20 +101,21 @@
     "scope": "Qualified policy-history succession only; no formal termination, overlap or current-force acceptance."
   },
   "prior_delivered_consumer_input_delta": {
-    "state": "reviewed_canonical_delta_pending_release_and_consumer_handoff",
-    "receipt": "work/research/2026-11-10/post-release-qa/bonney-lake-reviewed-application.json",
-    "prior_verified_release": "v2026.11.10.post14",
-    "canonical_cells_changed": 4,
+    "state": "delivered_data_consumer_and_hosted_verified",
+    "receipt": "work/research/2026-11-10/post-release-qa/policy-reviewed-batch-application.json",
+    "prior_verified_release": "v2026.11.10.post15",
+    "canonical_cells_changed": 10,
+    "new_policy_records": 1,
+    "whole_record_closures": 1,
+    "scope": "Historical field corrections and Kentucky admission; later-force qualifications retained. Native history unchanged.",
+    "changed_cells": 10,
+    "changed_local_rows": 0,
+    "changed_policy_rows": 8,
     "status_category_changes": 1,
-    "normalized_date_changes": 1,
-    "scope": "Delivered post15/V30: four independently reviewed BonneyLake historical replacement/enddate cells. One category and one normalized date change; no raw IDs/native history or whole-record closures.",
-    "changed_cells": 4,
-    "changed_local_rows": 1,
-    "changed_policy_rows": 0,
-    "whole_record_closures": 0,
-    "delivered_source_commit": "a7165fee6e433945a598222fedd95d7d2e300e70",
-    "delivered_consumer_commit": "78be35aaecdea7fbda7bc47f8063aa2853e1ef77",
-    "delivery_receipt": "work/research/2026-11-10/post-release-qa/consumer-v30-handoff.json",
+    "normalized_date_changes": 2,
+    "delivered_source_commit": "b1fb539aa8da2ba6b50b588e1f7c542c76b6bc18",
+    "delivered_consumer_commit": "31dc009efd9480484628c539f685e737d52d712a",
+    "delivery_receipt": "work/research/2026-11-10/post-release-qa/consumer-v31-handoff.json",
     "hosted_copy_state": "verified"
   },
   "latest_field_application": "work/research/2026-11-10/post-release-qa/howard-amended-act-application.json",
@@ -126,16 +130,16 @@
   "latest_expanded_result_review": "work/research/2026-11-10/canterbury-minutes-result-review/coordinator-adjudication.json",
   "latest_verified_release": "v2026.11.10.post16",
   "source_observation_window_scope": "Acquisition range includes source-specific QA captures through November10; this does not renew every record or move the original comprehensive research_cutoff.",
-  "latest_download_verified_release": "v2026.11.10.post16",
+  "latest_download_verified_release": "v2026.11.10.post17",
   "prior_latest_consumer_handoff": {
-    "source_commit": "a7165fee6e433945a598222fedd95d7d2e300e70",
-    "consumer_commit": "78be35aaecdea7fbda7bc47f8063aa2853e1ef77",
-    "manifest_sha256": "20d28b063803b83431d987b4f03a51283119a79769c0fafe688b0ced081d3459",
+    "source_commit": "b1fb539aa8da2ba6b50b588e1f7c542c76b6bc18",
+    "manifest_sha256": "6a44c7ad44d4a7843dd710499ccf2368409745b9ceff14c6dbc84088eb5b9f39",
     "trusted_verifier_sha256": "ebecf851d4196715df186cc81cc3c933ab7da550fbafd7207996cd94b9cd2739",
-    "receipt": "work/research/2026-11-10/post-release-qa/consumer-v30-handoff.json",
-    "scope": "Qualified post15: independently reviewed BonneyLake historical replacement/enddate; four local cells. One active-to-replaced classification, no raw identity/native-history change or whole-record closure. Source-specific later-force and held-candidate questions remain."
+    "scope": "Qualified post16: ten independently reviewed policy corrections and Kentucky historical order admission. Louisiana original session disposition closes at qualified inference level. Other later-force/applicability, held ballot and Massachusetts QA questions remain.",
+    "consumer_commit": "31dc009efd9480484628c539f685e737d52d712a",
+    "receipt": "work/research/2026-11-10/post-release-qa/consumer-v31-handoff.json"
   },
-  "prior_published_source_reference": "Qualified v2026.11.10.post15 pins a7165fee6e433945a598222fedd95d7d2e300e70; deterministic assets, clean restore, ten anonymous downloads, V30 and complete hosted copy verified. Hosted source 86f612767552ba6a467d62be630d86dc04e4d69e; receipt work/research/2026-11-10/release-2026.11.10.post15/hosted-copy-verification.json. Pending substantive QA remains explicit.",
+  "prior_published_source_reference": "Qualified post16 pins b1fb539aa8da2ba6b50b588e1f7c542c76b6bc18; deterministic builds, clean restore, ten anonymous downloads, V31 and complete hosted copy verified. Hosted source 66b845a40e58964b398b6008a0a3ca3d5f125043; receipt work/research/2026-11-10/release-2026.11.10.post16/hosted-copy-verification.json. Pending substantive QA remains explicit.",
   "latest_verified_hosted_data": {
     "release": "v2026.11.10.post16",
     "release_source_commit": "b1fb539aa8da2ba6b50b588e1f7c542c76b6bc18",
@@ -208,21 +212,11 @@
     "receipt": "work/research/2026-11-10/release-2026.11.10.post15/hosted-copy-verification.json",
     "scope": "All generated HTML pages, local links/assets, figures/current downloads and live desktop/mobile browser/map/filter/Washington row verified. No universal source freshness or legal-force claim."
   },
-  "pending_consumer_input_delta": {
-    "state": "reviewed_canonical_delta_pending_release_and_consumer_handoff",
-    "receipt": "work/research/2026-11-10/post-release-qa/howard-amended-act-application.json",
-    "prior_verified_release": "v2026.11.10.post16",
-    "changed_cells": 7,
-    "changed_local_rows": 2,
-    "changed_policy_rows": 0,
-    "status_category_changes": 0,
-    "normalized_date_changes": 0,
-    "whole_record_closures": 0,
-    "scope": "Four Burien hearing/vote prose cells and three Howard County sunset/exception prose cells. Headline totals, categories, normalized dates and native governance unchanged. Later-force questions remain. Pending synchronized delivery.",
-    "receipts": [
-      "work/research/2026-11-10/post-release-qa/burien-july-hearing-reviewed-application.json",
-      "work/research/2026-11-10/post-release-qa/howard-amended-act-application.json"
-    ],
-    "target_release": "v2026.11.10.post17"
+  "pending_hosted_delivery": {
+    "release": "v2026.11.10.post17",
+    "release_source_commit": "1e241a08f83128c1bd562daec803f6f14e0b0adc",
+    "state": "verified_data_release_pending_full_site_deployment",
+    "receipt": "work/research/2026-11-10/release-2026.11.10.post17/public-verification.json",
+    "active_deployment_run": null
   }
 }

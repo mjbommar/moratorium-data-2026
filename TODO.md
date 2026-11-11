@@ -908,3 +908,6 @@ Exit: repeatable refresh with visible freshness, costs, failures and unresolved 
 
 - [x] Independently review and apply four Burien historical prose corrections: draft July 13 hearing report and source-faithful vote wording; preserve later-force and approval questions.
 - [ ] Include the Burien correction in the next synchronized release/consumer/site batch; post16/V31 remains the verified public edition.
+
+- [x] Deliver qualified post17/V32: seven local prose corrections, deterministic builds, full clean restore, ten downloads and exact consumer checks verified.
+- [ ] Deploy and verify complete post17 public pages, corrected Burien/Howard prose, downloads and desktop/mobile map/table behavior.
