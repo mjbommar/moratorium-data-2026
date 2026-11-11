@@ -80,3 +80,6 @@ Post-delivery source follow-up: [Fairbanks November 10 hearing](fairbanks-post-h
 
 
 Working QA update: [four Clay original-packet prose corrections](clay-original-review.md) await the next combined batch. Primary-image evidence now replaces the third-party-only characterization, while the real computing/battery attachment conflict remains explicit. Counts/categories/native history are unchanged; qualified post1/V35 remains delivered.
+
+
+Source-only follow-up: [East Fishkill and Salina filing-image audit](ny-retained-filing-screen.md). All fourteen retained pages inspected; no missed state filing receipt recovered. Two queue entries become source-specific; data and public pages remain unchanged.
