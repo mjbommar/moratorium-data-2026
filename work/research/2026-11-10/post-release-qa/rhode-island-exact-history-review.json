@@ -1,0 +1,67 @@
+{
+  "reviewed_at": "2026-11-11T03:30:12.798190+00:00",
+  "id": "ri-h6476-2021",
+  "current_row_sha256": "566bcd7edeb7639a40c9348c72d42d58d3400e8dfcca09b560e0bd9d112827ed",
+  "recommendation": "unresolved",
+  "canonical_changes": 0,
+  "whole_record_closures": 0,
+  "native_readback_gaps": 0,
+  "source_native_readbacks": 4,
+  "sources": [
+    {
+      "attempt_id": "def3a027b5b14f499ef19905b50bb7ee",
+      "url": "https://webserver.rilegislature.gov/Lawrevision/plshort/pl2021nu.htm",
+      "body_sha256": "bdb7e16d4c2b6833998f52d6a0c4e70c31c573d721789c306a833338b987c88b",
+      "text_sha256": "3199a326c6ec83ff76eb3f04060d41ee043174e032009b7870e02e46232d6ee5",
+      "captured_at": "2026-11-11T03:25:22.524339Z",
+      "status": 200,
+      "published": false
+    },
+    {
+      "attempt_id": "43fab66e3c2c4bc5ac4b03973ba91a95",
+      "url": "https://www.rilegislature.gov/pages/legislation.aspx",
+      "body_sha256": "809c3fb6f1713d1f1ecf7a466c92ba9bc0238eac059e7ae9b0bdf5ec778e1871",
+      "text_sha256": "7c1e0715b97b0ac6783235a09d1fffec27eccb3e6096d048f8742822adb7e467",
+      "captured_at": "2026-11-11T03:26:11.553084Z",
+      "status": 200,
+      "published": false
+    },
+    {
+      "attempt_id": "a93e2cbc9c274f10868c08b0fa30e0cc",
+      "url": "https://status.rilegislature.gov/bill_history.aspx?mode=previous",
+      "body_sha256": "575467aa31a849bb765aec7a7b3ac03fd7f5edf516f4792b79136b130d2f9884",
+      "text_sha256": "0dd78301093836eebadfab1d9994ae5c162683326931dcc76d4a4999ba1f1a7f",
+      "captured_at": "2026-11-11T03:26:35.062630Z",
+      "status": 200,
+      "published": false
+    },
+    {
+      "attempt_id": "ee2783f7bd3142de898c77f368a6af6f",
+      "url": "https://status.rilegislature.gov/bill_history_report.aspx?year=2021&bills=6476&billrange=&sponsor=&committee=&category=&action=&heading=Legislative+Status+Report&prime=n&outof=n&in=y&sortnum=n&lastaction=n&criteria=Condition%3a+%7bSession+Year%3a+2021%7d+%7bBills%3a+6476%7d+",
+      "body_sha256": "a8b20084d8ec55f1cc6879c70468dce1c0abe64098051183b0da561281534a8e",
+      "text_sha256": "0eac85f24ca1357c341ffc82ca2c2453f1c427d5b77c797390500da1a0b511b3",
+      "captured_at": "2026-11-11T03:28:41.271242Z",
+      "status": 200,
+      "published": false
+    }
+  ],
+  "observations": [
+    "Official2021public-law index was retrieved from a retained search hit. It labels linked law versions preliminary and subject to law-revision editing; no exact H6476 identification was found. This is not a failure determination.",
+    "Official Bills & Laws page links previous-session bill history. The actual2021selector and numeric-only bill input were inspected. Year2021 and bill6476 produce a one-bill Legislative Status Report naming Slater and the qualified-data-centers incentive proposal.",
+    "The exact-year, exact-bill history lists only June25,2021 introduction/referral to House Finance. It does not expressly label failure, withdrawal or a later terminal action. Unknown category and all existing dates are retained."
+  ],
+  "control_audit": {
+    "initial_form_attempt": "a93e2cbc9c274f10868c08b0fa30e0cc",
+    "select_2021_attempt": "43769f5c345e41c2bddb907773a47694",
+    "invalid_prefixed_input_attempt": "369593b733d849438dc7852dbdd08572",
+    "invalid_input": "H6476",
+    "invalid_input_limitation": "Documented validateBillsInput accepts numeric characters, comma and plus; this nonconforming submission is not outcome evidence. Preserved without repeating.",
+    "corrected_numeric_input": "6476",
+    "corrected_post_attempt": "8b7ec41f9d90447bac2bda63d8e6d391",
+    "actual_returned_report_url_get_attempt": "ee2783f7bd3142de898c77f368a6af6f",
+    "source_route": "Returned report form action supplies exact reproducible GET URL; no guessed bill endpoint or new provider search."
+  },
+  "remaining_questions": [
+    "Establish the terminal procedural consequence for2021H6476 using authoritative session-ending/carryover rules or an explicit terminal disposition. The official exact-year history is now recovered and lists only June25 introduction/referral; do not repeat the prior discovery, invalid prefixed input or these unchanged source captures. A public-law index without an exact match is not sufficient alone to assign failure."
+  ]
+}

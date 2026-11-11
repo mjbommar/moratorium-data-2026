@@ -1,0 +1,57 @@
+{
+  "baseline_commit": "e8f322f31c891ec2da5ccde2dcd2e5090326b568",
+  "canonical_files_identical_to_baseline": [
+    "data/moratorium_inventory.csv",
+    "data/state_legislation.csv",
+    "data/release_metadata.json"
+  ],
+  "reviews": [
+    {
+      "path": "work/research/2026-11-10/post-release-qa/rhode-island-exact-history-review.json",
+      "sha256": "7aa7ed3aa61158c1c699cc9d29315645ce4ff12029bd255f6f270e447c43f67b"
+    },
+    {
+      "path": "work/research/2026-11-10/post-release-qa/maine-incentives-report-source-review.json",
+      "sha256": "1b3695742bfd128869f439ca86b37f6445157bb498863b41b0ce45538f0d3c7b"
+    }
+  ],
+  "source_readbacks": 5,
+  "source_readback_gaps": 0,
+  "funnel_counts_unchanged": {
+    "unresolved": 1347,
+    "corrected_resolved": 191,
+    "confirmed_unchanged": 239,
+    "superseded_duplicate": 0,
+    "not_attempted": 0
+  },
+  "native_governance_changes": 0,
+  "pending_accepted_delta": {
+    "cells": 7,
+    "local_rows": 2,
+    "policy_rows": 0
+  },
+  "public_edition": "v2026.11.10.post16",
+  "scope": "Source-only progress, no canonical changes or claims of terminal bill failure, report non-submission or current force.",
+  "native_readback_proof_sha256": [
+    {
+      "sha256": "23f02234c4ae123f92ff4a09c711fb11bd85407c51cc3d41f1669a8310dace92",
+      "record_count": 2,
+      "migrated_records": 2
+    },
+    {
+      "sha256": "a506494e3a7b6bee88b0b12f99e369ff5c2c2d9cb8e46a9ba92e06a19fba7854",
+      "record_count": 1,
+      "migrated_records": 1
+    },
+    {
+      "sha256": "3441107565a270e2ac379da8bc96b1e2c250aa097aa8c177fd25d64e867b1abf",
+      "record_count": 1,
+      "migrated_records": 1
+    },
+    {
+      "sha256": "776a51f6437cb298eaef7a521f50ce256734303dc4d8ab2f2c38e27afc5a9dc1",
+      "record_count": 1,
+      "migrated_records": 1
+    }
+  ]
+}
