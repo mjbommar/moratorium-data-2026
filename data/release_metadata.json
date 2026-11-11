@@ -1,12 +1,12 @@
 {
-  "version": "2026.11.10.post16",
+  "version": "2026.11.10.post17",
   "release_date": "2026-11-10",
   "research_cutoff": "2026-11-07T13:38:39.877065+00:00",
   "source_observation_window": {
     "start": "2026-11-05",
     "end": "2026-11-10"
   },
-  "asset_name": "moratorium-data-2026.11.10.post16.tar.gz",
+  "asset_name": "moratorium-data-2026.11.10.post17.tar.gz",
   "coverage": "Original1777 records retain review provenance; two duplicates retired and two post-release additions retained. Massachusetts independent QA remains pending; Kentucky historical order independently reviewed, later force unknown. Current1777 active raw IDs:1347 unresolved,191 corrected-resolved,239 confirmed-unchanged scoped dispositions. No universal current-law certification.",
   "limitations": [
     "Recorded active/extended classifications do not prove current enforceability.",
@@ -31,14 +31,14 @@
   "record_disposition_path": "work/research/2026-11-08/full-record-dispositions/funnel.json",
   "qa_status": "ongoing",
   "publication_authorization": "publish current state with qualifications on pending QA, then continue to double check and clear the outstanding questions",
-  "working_revision": "burien-howard-corrections-pending-next-reviewed-batch",
+  "working_revision": "post17-prepared-pending-delivery",
   "current_raw_counts": {
     "local": 1328,
     "state_policy": 449,
     "total": 1777
   },
-  "prior_release": "v2026.11.10.post15",
-  "prior_release_source_commit": "a7165fee6e433945a598222fedd95d7d2e300e70",
+  "prior_release": "v2026.11.10.post16",
+  "prior_release_source_commit": "b1fb539aa8da2ba6b50b588e1f7c542c76b6bc18",
   "prior_published_source_commit": "a7165fee6e433945a598222fedd95d7d2e300e70",
   "published_source_reference": "Qualified post16 pins b1fb539aa8da2ba6b50b588e1f7c542c76b6bc18; deterministic builds, clean restore, ten anonymous downloads, V31 and complete hosted copy verified. Hosted source 66b845a40e58964b398b6008a0a3ca3d5f125043; receipt work/research/2026-11-10/release-2026.11.10.post16/hosted-copy-verification.json. Pending substantive QA remains explicit.",
   "latest_consumer_handoff": {
@@ -222,6 +222,7 @@
     "receipts": [
       "work/research/2026-11-10/post-release-qa/burien-july-hearing-reviewed-application.json",
       "work/research/2026-11-10/post-release-qa/howard-amended-act-application.json"
-    ]
+    ],
+    "target_release": "v2026.11.10.post17"
   }
 }

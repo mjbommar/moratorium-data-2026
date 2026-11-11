@@ -1,8 +1,8 @@
 # Moratorium Data 2026
 
-**Qualified post16 release and website verified:** [v2026.11.10.post16](https://github.com/mjbommar/moratorium-data-2026/releases/tag/v2026.11.10.post16) publishes ten policy corrections and the historical Kentucky executive-order addition. Downloads, clean restore, V31 and the complete desktop/mobile website are verified. Broader QA continues.
+**Qualified post17 prepared; verified public edition remains post16:** Seven reviewed prose corrections across Burien and Howard County are being synchronized into the release, consumer inputs and website. Broader QA continues.
 
-**Working follow-up pending the next release batch:** Seven prose fields across Burien and Howard County now clarify hearing/vote evidence, alternative sunset conditions and exceptions. Categories, normalized dates and headline totals are unchanged. [Howard review](work/research/2026-11-10/post-release-qa/howard-amended-act-application.md) and [Burien review](work/research/2026-11-10/post-release-qa/burien-july-hearing-reviewed-application.md) are recorded; the verified public edition remains post16/V31.
+**Reviewed corrections:** Burien hearing/vote language now distinguishes draft minutes and unanimous adoption. Howard County text now preserves the comprehensive-rezoning sunset trigger and statutory exceptions. Categories, normalized dates, ballot data and headline totals are unchanged. [Exact delta](work/research/2026-11-10/release-2026.11.10.post17/dataset-delta.json).
 
 **Reviewed correction:** Bonney Lake is classified as replaced with an October 13 end date. Four fields are corrected. [Release/download/V30 checks](work/research/2026-11-10/release-2026.11.10.post15/README.md) are verified; the complete website and updated Bonney Lake entry pass desktop/mobile and byte checks.
 
@@ -174,7 +174,7 @@ A `CITATION.cff` file is included in the repo so GitHub renders a "Cite this rep
 - **Data** (`data/`, `states/`, `tables/`, `figures/`) is licensed under [Creative Commons Attribution 4.0 (CC-BY-4.0)](LICENSE-data). You can reuse, redistribute, and remix the data, including commercially, as long as you credit the source.
 - **Code** (`scripts/`, `notebooks/`, `examples/`) is licensed under the [MIT License](LICENSE-code).
 
-The latest qualified release is [v2026.11.10.post16](https://github.com/mjbommar/moratorium-data-2026/releases/tag/v2026.11.10.post16), published November 10 with explicit pending QA. Downloads, clean restore, V31 and full hosted desktop/mobile checks pass. September 23 remains the historical comparison baseline. Pin release tags for replication; working main may contain subsequent reviewed corrections.
+The latest qualified release is [v2026.11.10.post17](https://github.com/mjbommar/moratorium-data-2026/releases/tag/v2026.11.10.post17), prepared November 10 with explicit pending QA. Post17 delivery checks are pending; the verified public edition remains post16/V31. September 23 remains the historical comparison baseline. Pin release tags for replication; working main may contain subsequent reviewed corrections.
 
 ---
 

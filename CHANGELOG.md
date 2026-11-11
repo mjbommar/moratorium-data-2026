@@ -1,5 +1,21 @@
 # Changelog
 
+## Qualified v2026.11.10.post17 — delivery pending
+
+- Seven prose cells across Burien and Howard County correct historical hearing/vote descriptions, alternative sunset conditions and exceptions using independently reviewed primary evidence.
+- No category, normalized date, raw identity, headline total, scope membership or native ballot-history changes; no whole-record closure. 1,347 source-specific reviews remain unresolved.
+- Exact Rhode Island 2021 H6476 history recovered; terminal consequence remains unresolved. Maine advisory-council report distinguished from the separate statutory incentives-report submission question.
+- Deterministic release, clean restore, consumer V32 and complete hosted verification are separate pending delivery checks.
+
+| Metric | Qualified post17 |
+|---|---:|
+| Moratoria in the list | **1,328** |
+| Classified active or extended | **1,086** |
+| Pending or not yet effective | **64** |
+| Ended (replaced, expired, or rescinded) | **172** |
+| Rows we still want to confirm (`[VERIFY]`) | **979** |
+| States with at least one | **47** |
+
 ## Qualified v2026.11.10.post16
 
 Ten cells across eight existing policy records corrected after independent Terra review. Kansas SB51/SB92 gain July 1, 2026 effective dates; SB98 gains provision-specific purchase eligibility language. Washington summaries distinguish later refurbishment restrictions and the precisely qualified utility exception. Wyoming SF0091 sponsor affiliation is corroborated across official records. Louisiana HCR61 returns to failed classifications as a qualified historical regular-session nonpassage inference, closing its original disposition question; its last named action remains June 9.
