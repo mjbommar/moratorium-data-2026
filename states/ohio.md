@@ -96,7 +96,7 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 | Monroe Township (Adams County) | Township | 2026-03 | data center, general | 🟢 Active |
 | Monroeville | Village | 2026-02-24 | data center, cryptocurrency mining | 🟢 Active |
 | Montgomery Township (Ashland County) | Township | 2026-06-17 | data center | 🟢 Active |
-| Morgan Township (Butler County) | Township | 2026-03 | data center | 🟢 Active |
+| Morgan Township (Butler County) | Township | 2026-03-23 | data center | 🟢 Active |
 | Mount Gilead | Village | 2026-08-17 | data center | 🟢 Active |
 | Mount Orab | Village | 2026-03-03 | data center | 🟢 Extended |
 | Muhlenberg Township (Pickaway County) | Township | 2026-02-02 | data center | 🟢 Active |
@@ -1538,17 +1538,17 @@ State policy is tracked separately: **12 records** (12 typed bill rows) in [`sta
 
 - **Type:** Township
 - **Recorded status:** 🟢 Active
-- **Date enacted:** 2026-03 (per OCJ map, 'Trustees approved one-year moratorium' in March 2026; Journal-News on 2026-05-11 confirms a moratorium was 'enacted earlier this year'; exact date and resolution number not found)
-- **Normalized date:** `2026-03` (month_only)
-- **Duration:** One year (per OCJ map)
+- **Date enacted:** March 23, 2026: official trustee minutes record approval of Resolution 25-2026; Day moved, Updike seconded, and Day, Updike and Brucker voted yes. This is the adoption date, not an independently established effective date.
+- **Normalized date:** `2026-03-23` (exact)
+- **Duration:** Twelve months from the effective date of Resolution 25-2026, as stated in the March 23 minutes. The controlling effective date and exact endpoint remain unverified.
 - **Current end date:** `—`
 - **Sectors:** data center
 - **Moratorium ID:** `oh-morgan-township-butler-county-2026`
-- **Legal basis:** Morgan Township (Butler County) Board of Trustees data center moratorium resolution (number not located)
+- **Legal basis:** Morgan Township (Butler County), Ohio Board of Trustees Resolution 25-2026, recorded approved in the March 23, 2026 minutes; a standalone executed resolution remains unverified.
 - **What prompted it:** Regulatory gap. The township is drafting data center zoning (water and megawatt caps, no taxpayer-funded grid upgrades) amid regional data center pressure in Butler County.
 - **Affected projects:** None named.
-- **Detailed status:** Active as of 2026-09-23 (per OCJ map, one-year moratorium from March 2026 to about March 2027); trustees plan to review draft data center zoning in October 2026. [VERIFY instrument number; primary source (news-only evidence) not confirmed at confidence 0.55 in the 2026-09 refresh]
-- **Outcome:** Township zoning staff are drafting data center regulations; trustees scheduled a data center review for October 2026.
+- **Detailed status:** Official March 23, 2026 trustee minutes record unanimous approval of Resolution 25-2026 for twelve months from its effective date. [VERIFY: standalone executed text, controlling effective date, endpoint and later actions/current force.]
+- **Outcome:** Trustees approved a temporary moratorium covering establishment or conversion of structures/buildings into data centers or data-mining operations, including development, construction, use or change of use allowing those operations. The stated purpose was to investigate impacts and applicable rules. Later zoning adoption, amendment, termination and current force remain unverified.
 
 ### Mount Gilead
 

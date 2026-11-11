@@ -1,0 +1,72 @@
+{
+  "id": "oh-morgan-township-butler-county-2026",
+  "dataset": "local_inventory",
+  "baseline_commit": "b8afc9cbd5386ddaf4e0ce0d1a15ed3f4d9f8549",
+  "applied_at": "2026-11-11T13:32:54.192450+00:00",
+  "prior_row_sha256": "733a139985688651ff0ef72b2c7691ec954131b486ac81bf8ffa909470bf2b99",
+  "current_row_sha256": "2cacc50e5c6153b81018a9879c839a18185b25c9ddc4c9b26e0a6b055dff60da",
+  "canonical_cells_changed": 9,
+  "field_changes": [
+    {
+      "field": "date_enacted",
+      "before": "2026-03 (per OCJ map, 'Trustees approved one-year moratorium' in March 2026; Journal-News on 2026-05-11 confirms a moratorium was 'enacted earlier this year'; exact date and resolution number not found)",
+      "after": "March 23, 2026: official trustee minutes record approval of Resolution 25-2026; Day moved, Updike seconded, and Day, Updike and Brucker voted yes. This is the adoption date, not an independently established effective date."
+    },
+    {
+      "field": "date_enacted_iso",
+      "before": "2026-03",
+      "after": "2026-03-23"
+    },
+    {
+      "field": "date_enacted_uncertainty",
+      "before": "month_only",
+      "after": "exact"
+    },
+    {
+      "field": "duration",
+      "before": "One year (per OCJ map)",
+      "after": "Twelve months from the effective date of Resolution 25-2026, as stated in the March 23 minutes. The controlling effective date and exact endpoint remain unverified."
+    },
+    {
+      "field": "legal_basis",
+      "before": "Morgan Township (Butler County) Board of Trustees data center moratorium resolution (number not located)",
+      "after": "Morgan Township (Butler County), Ohio Board of Trustees Resolution 25-2026, recorded approved in the March 23, 2026 minutes; a standalone executed resolution remains unverified."
+    },
+    {
+      "field": "current_status",
+      "before": "Active as of 2026-09-23 (per OCJ map, one-year moratorium from March 2026 to about March 2027); trustees plan to review draft data center zoning in October 2026. [VERIFY instrument number; primary source (news-only evidence) not confirmed at confidence 0.55 in the 2026-09 refresh]",
+      "after": "Official March 23, 2026 trustee minutes record unanimous approval of Resolution 25-2026 for twelve months from its effective date. [VERIFY: standalone executed text, controlling effective date, endpoint and later actions/current force.]"
+    },
+    {
+      "field": "outcome",
+      "before": "Township zoning staff are drafting data center regulations; trustees scheduled a data center review for October 2026.",
+      "after": "Trustees approved a temporary moratorium covering establishment or conversion of structures/buildings into data centers or data-mining operations, including development, construction, use or change of use allowing those operations. The stated purpose was to investigate impacts and applicable rules. Later zoning adoption, amendment, termination and current force remain unverified."
+    },
+    {
+      "field": "duration_days",
+      "before": "365",
+      "after": ""
+    },
+    {
+      "field": "duration_kind",
+      "before": "fixed_days",
+      "after": "calendar_term"
+    }
+  ],
+  "independent_review": {
+    "path": "work/research/2026-11-11/post-release-qa/morgan-oh-independent-review.json",
+    "sha256": "0380c6db380b93d067b8684bba4b194a372ce7332a164f846efc647c65887a22"
+  },
+  "source_continuity": {
+    "path": "work/research/2026-11-11/post-release-qa/morgan-oh-primary-source-continuity.json",
+    "sha256": "65285f38ed5fa31f48dc250ae57e2282de9cc598011a30117b5a59f667e1c6d8"
+  },
+  "recommendation": "unresolved",
+  "whole_record_closures": 0,
+  "remaining_questions": [
+    "Original March23official minutes now establish Resolution25-2026, unanimous approval and twelve months from effective date. Exact adoption/number/calendar-term corrections incorporated; do not repeat this instrument recovery.",
+    "Obtain standalone executed Resolution25-2026 and controlling effective-date anchor. Adoption is distinct from effect; exact endpoint remains unverified and should not be calculated as365days from adoption.",
+    "Inspect distinct later trustee minutes, zoning amendments/adoption, extension/termination/replacement, litigation and actual applicability/currentforce. Folder listing captured in this pass is a navigation snapshot, not proof no later minutes or actions exist. Data-mining language does not alone establish a cryptocurrency-only taxonomy."
+  ],
+  "scope": "Nine acceptedcells: adoptiondateprecision and calendarterm corrected; no category, endpoint, VERIFY, count, sector or native changes; no whole-recordclosure. Pending next combined publication batch after post9/V43."
+}

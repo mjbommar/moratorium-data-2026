@@ -1000,3 +1000,5 @@ Exit: repeatable refresh with visible freshness, costs, failures and unresolved 
 - [x] Deliver four Lowndes reported-expiry corrections in qualified post8/V42 and verified current pages; in-force1085/past173, no record closure. Exact expiry and later ordinance action remain open.
 
 - [x] Deliver four Butler County, Ohio prose corrections in qualified post9/V43 and verified current pages; ten assets, full restore, final artifact,64HTMLpages and desktop/mobile checks pass. Signed text, controlling effect, endpoint and later force remain unresolved; no status/count changes or record closure.
+
+- [ ] Deliver nine accepted Morgan Township, Butler County Ohio corrections in the next combined QA publication batch after post9/V43: exact March23adoption and12monthcalendarterm; no status/count changes or closure. Effective date, endpoint and later force remain unresolved.

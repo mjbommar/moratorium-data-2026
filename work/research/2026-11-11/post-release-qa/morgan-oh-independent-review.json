@@ -1,0 +1,278 @@
+{
+  "input_manifest_sha256": "7f96b015fdd21389e42f67f4e2164683d8d02ef050eabd45a063035eb8499d6b",
+  "source_pins": [
+    {
+      "source_id": "minutes",
+      "body_sha256": "f375af7b24d980365e1f9196dae65bc9411df1ed0d32431f9d95ca092f78b618",
+      "text_sha256": "891b650e773240b68ef4400811ab25dfe518616e70cb60da417c7e1a345d29e5",
+      "role": "Original DOCX minutes linked through official township2026folder. Full XML paragraph text, including table paragraphs. Images not OCRed. Not a signed standalone resolution."
+    }
+  ],
+  "image_pins": [
+    {
+      "source_id": "minutes",
+      "sha256": "1040ff158edee39f336d55738e9c0c5771031fa268cb4bc55eb16d21abb8b5e9",
+      "physical_page": 7,
+      "role": "Local LibreOffice render of original DOCX, physicalpage7of10; not an official PDF. Resolution heading/motion/rollcall visually checked."
+    }
+  ],
+  "candidate": {
+    "id": "oh-morgan-township-butler-county-2026",
+    "row_sha256": "733a139985688651ff0ef72b2c7691ec954131b486ac81bf8ffa909470bf2b99",
+    "proposed_changes": [
+      {
+        "field": "date_enacted",
+        "before": "2026-03 (per OCJ map, 'Trustees approved one-year moratorium' in March 2026; Journal-News on 2026-05-11 confirms a moratorium was 'enacted earlier this year'; exact date and resolution number not found)",
+        "after": "March 23, 2026: official trustee minutes record approval of Resolution 25-2026; Day moved, Updike seconded, and Day, Updike and Brucker voted yes. This is the adoption date, not an independently established effective date."
+      },
+      {
+        "field": "date_enacted_iso",
+        "before": "2026-03",
+        "after": "2026-03-23"
+      },
+      {
+        "field": "date_enacted_uncertainty",
+        "before": "month_only",
+        "after": "exact"
+      },
+      {
+        "field": "duration",
+        "before": "One year (per OCJ map)",
+        "after": "Twelve months from the effective date of Resolution 25-2026, as stated in the March 23 minutes. The controlling effective date and exact endpoint remain unverified."
+      },
+      {
+        "field": "legal_basis",
+        "before": "Morgan Township (Butler County) Board of Trustees data center moratorium resolution (number not located)",
+        "after": "Morgan Township (Butler County), Ohio Board of Trustees Resolution 25-2026, recorded approved in the March 23, 2026 minutes; a standalone executed resolution remains unverified."
+      },
+      {
+        "field": "current_status",
+        "before": "Active as of 2026-09-23 (per OCJ map, one-year moratorium from March 2026 to about March 2027); trustees plan to review draft data center zoning in October 2026. [VERIFY instrument number; primary source (news-only evidence) not confirmed at confidence 0.55 in the 2026-09 refresh]",
+        "after": "Official March 23, 2026 trustee minutes record unanimous approval of Resolution 25-2026 for twelve months from its effective date. [VERIFY: standalone executed text, controlling effective date, endpoint and later actions/current force.]"
+      },
+      {
+        "field": "outcome",
+        "before": "Township zoning staff are drafting data center regulations; trustees scheduled a data center review for October 2026.",
+        "after": "Trustees approved a temporary moratorium covering establishment or conversion of structures/buildings into data centers or data-mining operations, including development, construction, use or change of use allowing those operations. The stated purpose was to investigate impacts and applicable rules. Later zoning adoption, amendment, termination and current force remain unverified."
+      },
+      {
+        "field": "duration_days",
+        "before": "365",
+        "after": ""
+      },
+      {
+        "field": "duration_kind",
+        "before": "fixed_days",
+        "after": "calendar_term"
+      }
+    ]
+  },
+  "captures": [
+    {
+      "stage": "blind_extraction",
+      "attempt_id": "f11add42439140e0839555697544d7dd",
+      "descriptor_sha256": "ed0c37ae99e670eda5e0b7eed9998329bbe53e94ba1d9f7575520b8545e3a745",
+      "wire_request_sha256": "5be77dae66f8dee6bed02f6bc01f441dbf1cb5d042a98fed4abee193f7faec83",
+      "wire_response_sha256": "e57930d3fad90eaa0af2191271d48cb4f976d99a90803c46fe9e36eba9d572fe",
+      "actual_input_descriptor_matches": true,
+      "wire_sdk_output_matches_after_null_default_normalization": true,
+      "parsed_answer_matches": true,
+      "usage": {
+        "input_tokens": 9986,
+        "input_tokens_details": {
+          "cache_write_tokens": 9983,
+          "cached_tokens": 0
+        },
+        "output_tokens": 677,
+        "output_tokens_details": {
+          "reasoning_tokens": 43
+        },
+        "total_tokens": 10663
+      },
+      "pinned_derived_docx_page_image_bound": true,
+      "original_docx_extracted_text_bound": true
+    },
+    {
+      "stage": "cell_adjudication",
+      "attempt_id": "4d906f527964401d817670b5a8f63bf2",
+      "descriptor_sha256": "0030fb9edf8d3bc0efcfdcf1f78e94c9c8388c8e5a6109166c3e424511c5c179",
+      "wire_request_sha256": "8022295cae9932521b2d0be29d055e61aee8651af46d9ea6d41f2d2613e9e882",
+      "wire_response_sha256": "a249646f8fc36a676406bb4162c892700495b9ad3789f752e22c1b417f392e50",
+      "actual_input_descriptor_matches": true,
+      "wire_sdk_output_matches_after_null_default_normalization": true,
+      "parsed_answer_matches": true,
+      "usage": {
+        "input_tokens": 11721,
+        "input_tokens_details": {
+          "cache_write_tokens": 11718,
+          "cached_tokens": 0
+        },
+        "output_tokens": 1182,
+        "output_tokens_details": {
+          "reasoning_tokens": 78
+        },
+        "total_tokens": 12903
+      },
+      "pinned_derived_docx_page_image_bound": true,
+      "original_docx_extracted_text_bound": true
+    }
+  ],
+  "answers": {
+    "blind_extraction": {
+      "facts": [
+        {
+          "field": "jurisdiction",
+          "value": "Morgan Township Board of Trustees",
+          "source_id": "minutes",
+          "locator": "Local DOCX rendering, page 7 heading",
+          "supporting_summary": "The rendered page identifies the Morgan Township Board of Trustees."
+        },
+        {
+          "field": "resolution_identity",
+          "value": "Resolution #25-2026",
+          "source_id": "minutes",
+          "locator": "Page 7, resolution heading",
+          "supporting_summary": "The heading identifies the temporary moratorium as Resolution #25-2026."
+        },
+        {
+          "field": "adoption",
+          "value": "Approved March 23, 2026",
+          "source_id": "minutes",
+          "locator": "Page 7, date heading and resolution motion",
+          "supporting_summary": "The dated minutes record the motion as approved."
+        },
+        {
+          "field": "motion_and_vote",
+          "value": "Mr. Day moved; Mr. Updike seconded. Day, Updike and Brucker each voted yes.",
+          "source_id": "minutes",
+          "locator": "Page 7, resolution motion and roll call",
+          "supporting_summary": "The recorded roll call was three yes votes, and the motion was approved."
+        },
+        {
+          "field": "scope",
+          "value": "Temporary moratorium on establishment or conversion of structures or buildings into data centers or data mining operations, including development and construction of buildings, structures, uses or changes of use that would allow them.",
+          "source_id": "minutes",
+          "locator": "Page 7, resolution heading and motion",
+          "supporting_summary": "The resolution expressly addresses both data centers and data mining operations."
+        },
+        {
+          "field": "duration",
+          "value": "Twelve months from the resolution's effective date",
+          "source_id": "minutes",
+          "locator": "Page 7, resolution heading and motion",
+          "supporting_summary": "The stated period runs from the effective date, not expressly from the meeting date."
+        },
+        {
+          "field": "purpose",
+          "value": "Allow township administration and zoning commission time to investigate impacts and review applicable laws and township resolutions.",
+          "source_id": "minutes",
+          "locator": "Page 7, resolution motion",
+          "supporting_summary": "The motion identifies community resources, property values, noise, pollution, safety, the power grid and water usage among the subjects for investigation."
+        }
+      ],
+      "uncertainties": [
+        "The supplied minutes do not establish the resolution's effective date or an exact end date.",
+        "The minutes and local DOCX rendering do not establish later legal force, standalone execution or signatures.",
+        "The source does not limit 'data mining' to cryptocurrency mining.",
+        "No candidate or current row was supplied for comparison."
+      ]
+    },
+    "cell_adjudication": {
+      "record_id": "oh-morgan-township-butler-county-2026",
+      "input_row_sha256": "733a139985688651ff0ef72b2c7691ec954131b486ac81bf8ffa909470bf2b99",
+      "field_decisions": [
+        {
+          "field": "date_enacted",
+          "decision": "accept",
+          "value": "March 23, 2026: official trustee minutes record approval of Resolution 25-2026; Day moved, Updike seconded, and Day, Updike and Brucker voted yes. This is the adoption date, not an independently established effective date.",
+          "source_id": "minutes",
+          "locator": "Page 7, date heading and resolution motion and roll call",
+          "reason": "The dated minutes record unanimous approval; they do not establish the effective date."
+        },
+        {
+          "field": "date_enacted_iso",
+          "decision": "accept",
+          "value": "2026-03-23",
+          "source_id": "minutes",
+          "locator": "Page 7, date heading and resolution motion",
+          "reason": "The minutes date the meeting at which the resolution was approved."
+        },
+        {
+          "field": "date_enacted_uncertainty",
+          "decision": "accept",
+          "value": "exact",
+          "source_id": "minutes",
+          "locator": "Page 7, date heading and resolution motion",
+          "reason": "The recorded adoption date is exact; the effective date remains separate."
+        },
+        {
+          "field": "duration",
+          "decision": "accept",
+          "value": "Twelve months from the effective date of Resolution 25-2026, as stated in the March 23 minutes. The controlling effective date and exact endpoint remain unverified.",
+          "source_id": "minutes",
+          "locator": "Page 7, resolution heading and motion",
+          "reason": "The recorded term is twelve months from an unspecified effective date."
+        },
+        {
+          "field": "legal_basis",
+          "decision": "accept",
+          "value": "Morgan Township (Butler County), Ohio Board of Trustees Resolution 25-2026, recorded approved in the March 23, 2026 minutes; a standalone executed resolution remains unverified.",
+          "source_id": "minutes",
+          "locator": "Page 7, resolution heading and roll call",
+          "reason": "The minutes identify the resolution and record approval, but are not a standalone executed instrument."
+        },
+        {
+          "field": "current_status",
+          "decision": "accept",
+          "value": "Official March 23, 2026 trustee minutes record unanimous approval of Resolution 25-2026 for twelve months from its effective date. [VERIFY: standalone executed text, controlling effective date, endpoint and later actions/current force.]",
+          "source_id": "minutes",
+          "locator": "Page 7, resolution heading, motion and roll call",
+          "reason": "The replacement records adoption without inferring current legal force or treating forecasts as completed events."
+        },
+        {
+          "field": "outcome",
+          "decision": "accept",
+          "value": "Trustees approved a temporary moratorium covering establishment or conversion of structures/buildings into data centers or data-mining operations, including development, construction, use or change of use allowing those operations. The stated purpose was to investigate impacts and applicable rules. Later zoning adoption, amendment, termination and current force remain unverified.",
+          "source_id": "minutes",
+          "locator": "Page 7, resolution heading and motion",
+          "reason": "The motion covers both data centers and data mining without limiting the latter to cryptocurrency; later actions are not established."
+        },
+        {
+          "field": "duration_days",
+          "decision": "accept",
+          "value": "",
+          "source_id": "minutes",
+          "locator": "Page 7, resolution heading and motion",
+          "reason": "A twelve-month calendar term should not be normalized to 365 fixed days."
+        },
+        {
+          "field": "duration_kind",
+          "decision": "accept",
+          "value": "calendar_term",
+          "source_id": "minutes",
+          "locator": "Page 7, resolution heading and motion",
+          "reason": "The recorded duration is twelve months rather than a fixed number of days."
+        }
+      ],
+      "whole_record_closure_supported": false,
+      "remaining_questions": [
+        "What is the controlling effective date, and what endpoint follows from it?",
+        "Is an executed standalone resolution available, and were there later amendments, termination or zoning actions?",
+        "What is the moratorium's current legal force?",
+        "The unchanged enacted_status field says active and remains unresolved; other unchanged fields, including sectors and historical forecasts, may also require review."
+      ],
+      "review_limitations": [
+        "The supplied official-linked DOCX minutes are not a signed standalone resolution; the page image is a local rendering.",
+        "The minutes do not establish the effective date, endpoint or later legal force.",
+        "Images embedded in the original DOCX were not OCRed."
+      ]
+    }
+  },
+  "model_http_requests": 2,
+  "model": "gpt-6.1-terra",
+  "tools": [],
+  "agents_spawned": 0,
+  "price_usd": null,
+  "coordinator_whole_record_closure": false,
+  "scope": "Two serial tool-free Terra calls bind full original DOCX extracted paragraphs and local derivedpage7image. No source reacquisition, effective-date inference, currentforce certification or whole-recordclosure."
+}
