@@ -9,7 +9,7 @@ Some records have open questions about adoption, dates, wording, or later action
 - **Later changes:** An earlier adoption record does not resolve later amendments, extensions, replacements, or court orders.
 - **Ballots:** A reported vote, certification, and legal effect require separate evidence. The published list does not cover every election or proposed question.
 - **Map locations:** Markers identify jurisdictions, not project sites or legal boundaries. Some older coordinates still need review.
-- **Historical analysis:** The April paper and clause analysis describe an earlier collection. They have not been updated to match every record in the current inventory.
+- **Historical clause analysis:** The [November 13 paper](../paper/moratorium-nation-2026-11-13.pdf) withdraws the earlier clause-prevalence percentages. Both extraction cohorts contain ineligible material and duplicates. The six reviewed texts in the revision are examples, not a representative sample. Historical outputs remain available for audit.
 
 Read the notes for the record you plan to use. The [review queue](../work/research/2026-11-09/post-release-qa/outstanding-record-questions.jsonl) lists the remaining questions. To report a correction, [open an issue](https://github.com/mjbommar/moratorium-data-2026/issues/new/choose) and include a source.
 

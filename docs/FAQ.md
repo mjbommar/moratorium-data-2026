@@ -48,7 +48,7 @@ The inventory records government actions. Inclusion is not an endorsement or cri
 
 The current release is [v2026.11.11.post13](https://github.com/mjbommar/moratorium-data-2026/releases/tag/v2026.11.11.post13), published November 11, 2026. Some records still have open questions.
 
-The main November search ended November 7. Later checks have their own source dates. The [April paper](../paper/moratorium-nation-2026-04-30.pdf) describes the older dataset and has not been updated to match the site.
+The main November search ended November 7. Later checks have their own source dates. The [November 13 second edition](../paper/moratorium-nation-2026-11-13.pdf) updates the paper for this snapshot and adds ballot measures. It also withdraws the earlier clause-prevalence estimates. The April PDF remains a historical edition.
 
 ## Can I use the data?
 

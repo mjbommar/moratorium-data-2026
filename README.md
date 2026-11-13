@@ -88,7 +88,7 @@ There are 979 local records with verification flags. Other records can still hav
 
 The map has coordinates for 1327 of 1329 local records. The two without coordinates describe groups of proposals. Markers identify jurisdictions; they do not show project sites or legal boundaries.
 
-An earlier analysis examined 348 moratorium texts from 211 jurisdictions, collected before April 28, 2026. The [April paper](paper/moratorium-nation-2026-04-30.pdf) and its findings have not been updated for the current inventory.
+The [November 13 second edition](paper/moratorium-nation-2026-11-13.pdf) updates the paper for this snapshot, including ballot measures and a revised legal reference. It withdraws the historical clause-prevalence percentages because the extraction cohorts included unrelated documents, summaries, and duplicates. Six reviewed texts provide drafting examples without a national prevalence estimate. The [April PDF](paper/moratorium-nation-2026-04-30.pdf) remains a historical edition.
 
 ## Use the data
 
@@ -111,6 +111,6 @@ To report a missing record or an error, [open an issue](https://github.com/mjbom
 
 ## How to cite
 
-Use [CITATION.cff](CITATION.cff) for the dataset citation. Include the release version or access date so readers can find the data you used. Cite the April paper separately when using its findings.
+Use [CITATION.cff](CITATION.cff) for the dataset citation. Include the release version or access date so readers can find the data you used. Cite the paper separately and identify its edition date.
 
 The data is available under [CC BY 4.0](LICENSE-data). The code is available under [MIT](LICENSE-code). The project is maintained by [Michael J. Bommarito](https://michaelbommarito.com/) with AI-assisted research. Source files and review records document the work.

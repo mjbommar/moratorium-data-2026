@@ -176,14 +176,44 @@ def changes_section(f: dict) -> str:
   <h2>About this update</h2>
   <p class="lede">The local inventory contains {f['rows']:,} records from {f['states']} states. It includes adopted moratoria, proposals, and actions that have ended.</p>
   <p>The status of each record reflects the sources we found. Some dates and legal details remain unconfirmed. A record listed as active may have changed since its source was published.</p>
-  <p>This update adds a light and dark mode switch and clarifies the Gallatin, Tennessee, and Rice, Minnesota, records. Rice’s signed September 21 minutes confirm a 5–0 council vote. Final adopted texts, effective dates, and later actions still need review.</p>
+  <p>The November 13 paper is now available below. The latest record correction identifies Pima County Resolution 2026-56 and the county’s reported 120-day term. Its precise operative and expiration dates remain unresolved.</p>
   <h3>Local actions, state policy, and ballot measures</h3>
   <p>We count these separately. State bills can change local authority or state permit rules without creating a local moratorium. Ballot measures can ask for a temporary pause, a permanent restriction, or a zoning change. A vote in favor does not always put a restriction into effect.</p>
   <h3>What the search covers</h3>
   <p>We searched all 50 states, but the inventory is not complete. The main November search ended {SOURCE_LABEL}. Later checks have added sources and corrected records. Each record keeps its source dates.</p>
-  <p>The <a href="paper/moratorium-nation-2026-04-30.pdf">April paper</a> describes the earlier dataset. Its findings have not been updated to match these records. See the <a href="docs/known-gaps.html">known gaps</a> for more detail.</p>
+  <p>The <a href="paper/moratorium-nation-2026-11-13.pdf">November 13 second edition</a> updates the paper for the current data, adds ballot measures, and revises the legal reference. It withdraws the earlier clause-prevalence percentages. See the <a href="docs/known-gaps.html">known gaps</a> for the limits of the evidence.</p>
 </section>
 {CHANGES_END}"""
+
+PAPER_START = '<!-- BEGIN paper-publication -->'
+PAPER_END = '<!-- END paper-publication -->'
+
+
+def paper_section() -> str:
+    paper = json.loads((REPO / 'paper/publication.json').read_text())
+    pdf = REPO / paper['path']
+    import hashlib
+    if hashlib.sha256(pdf.read_bytes()).hexdigest() != paper['sha256']:
+        raise ValueError('Paper PDF does not match its publication manifest')
+    size = paper['bytes'] / 1_000_000
+    return f'''{PAPER_START}
+<div class="paper-callout">
+  <div class="paper-card">
+    <div class="paper-info">
+      <div class="eyebrow">Second edition · {paper['date_label']}</div>
+      <h2>Moratorium Nation: A Survey of Data Center, Renewable Energy, and Battery Storage Moratoria in the United States</h2>
+      <p>The revised working paper updates the inventory, tables, figures, fifty-state legal reference, and model ordinance. It adds ballot measures and withdraws unsupported historical clause-prevalence estimates.</p>
+      <p>{paper['pages']} pages. Counts include proposals and ended actions; they do not establish how many restrictions remain in force.</p>
+    </div>
+    <div class="paper-cta">
+      <a class="primary" href="{paper['path']}" download>Download November 2026 paper (PDF, {size:.1f} MB)</a>
+      <a class="secondary" href="https://aleainstitute.ai/work/moratorium-nation-second-edition">About the second edition →</a>
+      <a class="secondary" href="paper/moratorium-nation-2026-04-30.pdf">Historical April 2026 PDF</a>
+    </div>
+  </div>
+</div>
+{PAPER_END}'''
+
 
 DASHBOARD_START = '<!-- BEGIN dashboard-summaries -->'
 DASHBOARD_END = '<!-- END dashboard-summaries -->'
@@ -274,7 +304,7 @@ def build_edits(f: dict) -> list[tuple[str, str, str]]:
         node('map-caption', f"The map shows {f['geocoded']:,} of {f['rows']:,} records. The other two describe groups of proposals rather than single places. Select a marker for details."),
         node('top-states-lead', f"These states account for {share}% of the local records. Select a state to see its records."),
         ('top-states rows', r'(<div class="top-states">\n)(?:.*?\n)*?(  </div>)', lambda: top_states_block(f['top']) + r'\n\g<2>'),
-        node('historical-sample', f"An earlier analysis examined {f['cohort']} moratorium texts from {f['cohort_jurisdictions']} jurisdictions, collected before April 28, 2026. Those findings have not been updated for the full inventory."),
+        node('historical-sample', "The earlier model-based clause percentages are withdrawn. The extraction cohorts included unrelated documents, summaries, and duplicates. The revised paper uses six reviewed texts as drafting examples, without estimating national clause prevalence."),
         node('source-dates', f"The main November search ended {SOURCE_LABEL}. Later source checks have their own dates. The current data release is v{RELEASE_VERSION}."),
         ('release link', r'(<a id="release-link" href="https://github.com/mjbommar/moratorium-data-2026/releases/tag/)v[0-9A-Za-z_.-]+(">)', rf'\g<1>v{RELEASE_VERSION}\g<2>'),
     ]
@@ -294,6 +324,16 @@ def main() -> int:
         write_explorer_data()
 
     applied, missing = (["navigation and record browser"] if html != original else []), []
+
+    paper = paper_section()
+    if PAPER_START in html and PAPER_END in html:
+        start = html.index(PAPER_START)
+        end = html.index(PAPER_END) + len(PAPER_END)
+        if html[start:end] != paper:
+            html = html[:start] + paper + html[end:]
+            applied.append('paper publication')
+    else:
+        missing.append('paper publication anchors')
 
     # Insert or refresh the generated "what changed" section.
     block = changes_section(f)

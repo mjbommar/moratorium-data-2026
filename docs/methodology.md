@@ -56,7 +56,7 @@ Recent corrections use official Census reference points after checking the juris
 
 An earlier collection produced 526 successful structured extractions and 338 recorded model-call errors. The clause analysis used 348 extractions with model confidence scores of at least 0.4, covering 211 jurisdictions. These scores are model assessments, not measured accuracy.
 
-That collection predates April 28, 2026. Its clause percentages describe that earlier sample. They have not been recalculated for all records in the current inventory. The [April paper](../paper/moratorium-nation-2026-04-30.pdf) keeps its original figures and conclusions.
+The [November 13 second edition](../paper/moratorium-nation-2026-11-13.pdf) withdraws these clause-prevalence percentages. Both historical confidence-filtered cohorts include unrelated documents, summaries, and repeated actions. A model confidence score did not establish eligibility, and a missing field in a summary does not prove that the legal instrument lacked a clause. Six reviewed texts now illustrate drafting choices without estimating national prevalence. The [April paper](../paper/moratorium-nation-2026-04-30.pdf) remains a historical edition.
 
 ## Applying corrections
 

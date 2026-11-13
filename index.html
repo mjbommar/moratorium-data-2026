@@ -319,7 +319,7 @@
     padding: 24px 26px;
     box-shadow: var(--shadow-l);
   }
-  .paper-card .paper-info { flex: 1 1 460px; }
+  .paper-card .paper-info { flex: 1 1 460px; min-width: 0; }
   .paper-card .paper-info .eyebrow {
     font-size: 12px;
     font-weight: 600;
@@ -340,11 +340,12 @@
     max-width: var(--measure);
   }
   .paper-card .paper-cta {
-    flex: 0 0 auto;
+    flex: 0 1 340px;
     display: flex;
     flex-direction: column;
     gap: 9px;
-    min-width: 232px;
+    min-width: 0;
+    max-width: 100%;
   }
   .paper-card .paper-cta a.primary {
     display: block;
@@ -719,21 +720,23 @@
 </div>
 
 
+<!-- BEGIN paper-publication -->
 <div class="paper-callout">
   <div class="paper-card">
     <div class="paper-info">
-      <div class="eyebrow">April 2026 working paper</div>
+      <div class="eyebrow">Second edition · November 13, 2026</div>
       <h2>Moratorium Nation: A Survey of Data Center, Renewable Energy, and Battery Storage Moratoria in the United States</h2>
-      <p>The April paper covers local legal authority and includes a model ordinance. It has 116 pages, eight maps, and seven statistical tables. Its findings have not been updated to match the November data.</p>
+      <p>The revised working paper updates the inventory, tables, figures, fifty-state legal reference, and model ordinance. It adds ballot measures and withdraws unsupported historical clause-prevalence estimates.</p>
+      <p>110 pages. Counts include proposals and ended actions; they do not establish how many restrictions remain in force.</p>
     </div>
     <div class="paper-cta">
-      <a class="primary" href="paper/moratorium-nation-2026-04-30.pdf" download>Download April 2026 draft (PDF, 6 MB)</a>
-      <a class="secondary" href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6242898" target="_blank" rel="noopener">First edition on SSRN →</a>
+      <a class="primary" href="paper/moratorium-nation-2026-11-13.pdf" download>Download November 2026 paper (PDF, 2.9 MB)</a>
+      <a class="secondary" href="https://aleainstitute.ai/work/moratorium-nation-second-edition">About the second edition →</a>
+      <a class="secondary" href="paper/moratorium-nation-2026-04-30.pdf">Historical April 2026 PDF</a>
     </div>
   </div>
 </div>
-
-
+<!-- END paper-publication -->
 
 <div class="map-wrap">
   <div id="map"></div>
@@ -798,12 +801,12 @@
   <h2>About this update</h2>
   <p class="lede">The local inventory contains 1,329 records from 47 states. It includes adopted moratoria, proposals, and actions that have ended.</p>
   <p>The status of each record reflects the sources we found. Some dates and legal details remain unconfirmed. A record listed as active may have changed since its source was published.</p>
-  <p>This update adds a light and dark mode switch and clarifies the Gallatin, Tennessee, and Rice, Minnesota, records. Rice’s signed September 21 minutes confirm a 5–0 council vote. Final adopted texts, effective dates, and later actions still need review.</p>
+  <p>The November 13 paper is now available below. The latest record correction identifies Pima County Resolution 2026-56 and the county’s reported 120-day term. Its precise operative and expiration dates remain unresolved.</p>
   <h3>Local actions, state policy, and ballot measures</h3>
   <p>We count these separately. State bills can change local authority or state permit rules without creating a local moratorium. Ballot measures can ask for a temporary pause, a permanent restriction, or a zoning change. A vote in favor does not always put a restriction into effect.</p>
   <h3>What the search covers</h3>
   <p>We searched all 50 states, but the inventory is not complete. The main November search ended November 7, 2026. Later checks have added sources and corrected records. Each record keeps its source dates.</p>
-  <p>The <a href="paper/moratorium-nation-2026-04-30.pdf">April paper</a> describes the earlier dataset. Its findings have not been updated to match these records. See the <a href="docs/known-gaps.html">known gaps</a> for more detail.</p>
+  <p>The <a href="paper/moratorium-nation-2026-11-13.pdf">November 13 second edition</a> updates the paper for the current data, adds ballot measures, and revises the legal reference. It withdraws the earlier clause-prevalence percentages. See the <a href="docs/known-gaps.html">known gaps</a> for the limits of the evidence.</p>
 </section>
 <!-- END whats-changed -->
 
@@ -892,7 +895,7 @@ The state tracker includes historical actions such as <a href="states/kentucky.h
 
 <section>
   <h2>How we collect the data</h2>
-  <div class="panel"><p>We search government records and news reports, then compare the findings with ordinances, resolutions, and meeting minutes where available. We mark details we cannot confirm.</p><p id="historical-sample">An earlier analysis examined 348 moratorium texts from 211 jurisdictions, collected before April 28, 2026. Those findings have not been updated for the full inventory.</p><div class="doclinks"><a href="docs/methodology.html">Methodology</a><a href="docs/codebook.html">Column definitions</a><a href="docs/known-gaps.html">Known gaps</a><a href="docs/FAQ.html">FAQ</a></div></div>
+  <div class="panel"><p>We search government records and news reports, then compare the findings with ordinances, resolutions, and meeting minutes where available. We mark details we cannot confirm.</p><p id="historical-sample">The earlier model-based clause percentages are withdrawn. The extraction cohorts included unrelated documents, summaries, and duplicates. The revised paper uses six reviewed texts as drafting examples, without estimating national clause prevalence.</p><div class="doclinks"><a href="docs/methodology.html">Methodology</a><a href="docs/codebook.html">Column definitions</a><a href="docs/known-gaps.html">Known gaps</a><a href="docs/FAQ.html">FAQ</a></div></div>
 </section>
 
 <section>
